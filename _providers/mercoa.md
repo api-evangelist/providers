@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: The Transactions API from Mercoa — 2 operation(s) for transactions.
   name: Mercoa Transactions API
   slug: mercoa-transactions-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mercoa Entities API
+  slug: open-mercoa-entities-api
+- collection_type: open
+  name: Mercoa Entities Entity Groups API
+  slug: open-mercoa-entity-groups-api
+- collection_type: open
+  name: Mercoa Entities Invoice Templates API
+  slug: open-mercoa-invoice-templates-api
+- collection_type: open
+  name: Mercoa Entities Invoices API
+  slug: open-mercoa-invoices-api
+- collection_type: open
+  name: Mercoa Entities OCR API
+  slug: open-mercoa-ocr-api
+- collection_type: open
+  name: Mercoa Entities Organization API
+  slug: open-mercoa-organization-api
+- collection_type: open
+  name: Mercoa Entities Payment Gateway API
+  slug: open-mercoa-payment-gateway-api
+- collection_type: open
+  name: Mercoa Entities Payment Methods API
+  slug: open-mercoa-payment-methods-api
+- collection_type: open
+  name: Mercoa Entities Transactions API
+  slug: open-mercoa-transactions-api
 - collection_type: open
   name: Mercoa API
   slug: open-mercoa
@@ -131,7 +161,7 @@ plans:
 - name: Mercoa Plans Pricing
   plan_count: 1
   slug: mercoa-plans-pricing
-random_paper: 31
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Mercoa Rate Limits
@@ -162,7 +192,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/screenshots/mercoa-2026-06-20T185210.png
 security:

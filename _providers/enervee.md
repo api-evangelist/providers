@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,7 +83,7 @@ overview: 'Enervee is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Enervee''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 26
+random_paper: 1
 score:
   band: emerging
   composite: 17.8
@@ -103,7 +103,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enervee/refs/heads/main/screenshots/enervee-2026-07-25T213339.png
 security:

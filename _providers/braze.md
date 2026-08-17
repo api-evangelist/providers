@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.7
-  scored_at: '2026-08-12'
+  score: 61.7
+  scored_at: '2026-08-17'
 api_count: 24
 apis:
 - description: The Catalogs > Catalog Items > Asynchronous API from Braze — 1 operation(s) for catalogs > catalog items > asynchronous.
@@ -103,8 +104,92 @@ apis:
 - description: The External ID Migration API allows you to rename existing external IDs (creating a new primary ID and deprecating the existing ID) and remove deprecated IDs post-migration. <br><br> We've architecte
   name: Braze User Data > External ID Migration API
   slug: braze-user-data-external-id-migration-api
-artifact_total: 46
+artifact_total: 76
+asyncapis:
+- description: ''
+  name: Braze Webhooks
+  slug: braze-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Braze Catalogs > Catalog Items > Asynchronous API
+  slug: open-braze-catalogs-catalog-items-asynchronous-api
+- collection_type: open
+  name: Braze Catalogs > Catalog Items > Synchronous API
+  slug: open-braze-catalogs-catalog-items-synchronous-api
+- collection_type: open
+  name: Braze Catalogs > Catalog Management > Synchronous API
+  slug: open-braze-catalogs-catalog-management-synchronous-api
+- collection_type: open
+  name: Braze Email Lists & Addresses API
+  slug: open-braze-email-lists-addresses-api
+- collection_type: open
+  name: Braze Export > Campaign API
+  slug: open-braze-export-campaign-api
+- collection_type: open
+  name: Braze Export > Canvas API
+  slug: open-braze-export-canvas-api
+- collection_type: open
+  name: Braze Export > Custom Events API
+  slug: open-braze-export-custom-events-api
+- collection_type: open
+  name: Braze Export > KPI API
+  slug: open-braze-export-kpi-api
+- collection_type: open
+  name: Braze Export > News Feed API
+  slug: open-braze-export-news-feed-api
+- collection_type: open
+  name: Braze Export > Purchases API
+  slug: open-braze-export-purchases-api
+- collection_type: open
+  name: Braze Export > Segment API
+  slug: open-braze-export-segment-api
+- collection_type: open
+  name: Braze Export > Session Analytics API
+  slug: open-braze-export-session-analytics-api
+- collection_type: open
+  name: Braze Export > Users API
+  slug: open-braze-export-users-api
+- collection_type: open
+  name: Braze Messaging > Live Activities API
+  slug: open-braze-messaging-live-activities-api
+- collection_type: open
+  name: Braze Messaging > Schedule Mesages API
+  slug: open-braze-messaging-schedule-mesages-api
+- collection_type: open
+  name: Braze Messaging > Send Messages API
+  slug: open-braze-messaging-send-messages-api
+- collection_type: open
+  name: Braze Preference Center API
+  slug: open-braze-preference-center-api
+- collection_type: open
+  name: Braze SCIM API
+  slug: open-braze-scim-api
+- collection_type: open
+  name: Braze SMS API
+  slug: open-braze-sms-api
+- collection_type: open
+  name: Braze Subscription Groups > SMS and WhatsApp API
+  slug: open-braze-subscription-groups-sms-and-whatsapp-api
+- collection_type: open
+  name: Braze Templates > Content Blocks API
+  slug: open-braze-templates-content-blocks-api
+- collection_type: open
+  name: Braze Templates > Email Templates API
+  slug: open-braze-templates-email-templates-api
+- collection_type: open
+  name: Braze User Data API
+  slug: open-braze-user-data-api
+- collection_type: open
+  name: Braze User Data > External ID Migration API
+  slug: open-braze-user-data-external-id-migration-api
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/braze-authentication.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -173,6 +258,134 @@ common:
   title: ''
   type: LlmsText
   url: https://braze.com/llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/braze-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/braze-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/braze-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/braze-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/braze-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/braze-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/braze-llms.txt
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/braze-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/braze-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.braze.com/docs/developer_guide/disclosures/security_qualifications
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/braze-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/braze_inc
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/braze-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/braze-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.braze.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://www.braze.com/docs/releases/deprecations
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/braze-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/braze-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/braze-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/braze-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/braze-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/braze-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/braze-rate-limits.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.braze.com/docs/developer_guide/home
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.braze.com/docs/api/basics/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.braze.com/docs/developer_guide/sdk_integration/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.braze.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.braze.com/get-started/
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.braze.com/sign_in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.braze.com/company/legal/terms/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/braze-inc/braze-public-workspace
 created: '2025-02-06'
 description: Braze is a leading customer engagement platform providing REST APIs for managing user profiles, orchestrating multi-channel messaging campaigns, and exporting analytics. The platform supports email, SMS, push notifications, in-app messages, and content cards across mobile and web channels. Braze uses Bearer token authentication with region-specific REST endpoints and offers extensive webhook and Canvas automation capabilities for lifecycle marketing.
 features:
@@ -202,34 +415,46 @@ graphqls:
   slug: braze-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/braze.png
 layout: provider
-modified: '2026-05-04'
+mcp_servers:
+- description: ''
+  name: braze-mcp.yml
+  slug: braze-mcpyml
+modified: '2026-08-13'
 name: Braze
 nav: Providers
 network: true
 overview: 'Braze publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Catalogs > Catalog Items > Asynchronous API, Catalogs > Catalog Items > Synchronous API, Catalogs > Catalog Management > Synchronous API, and 21 more. Tagged areas include Customer Engagement, Marketing Automation, Messaging, Push Notifications, and Email.
 
 
-  Braze''s developer surface includes documentation, support, changelog, FAQ, engineering blog, and 12 more developer resources.'
+  The Braze catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Braze''s developer surface includes authentication, documentation, support, changelog, FAQ, engineering blog, API reference, and 43 more developer resources.'
 plans:
 - name: Braze Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: braze-plans-pricing
-random_paper: 52
+random_paper: 85
 rate_limits:
-- limit_count: 5
+- limit_count: 22
   name: Braze Rate Limits
   slug: braze-rate-limits
+scopes:
+- name: Braze Scopes
+  scope_count: 2
+  slug: braze-scopes
+  summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 33.2
-  delta: 0.0
+  band: exemplar
+  composite: 70.3
+  delta: 37.1
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 63.4
-    developer_ergonomics: 15.2
-    discoverability: 72.2
-    governance: 0.0
-    operational_transparency: 28.9
+    commercial_clarity: 76.3
+    contract_quality: 71.2
+    developer_ergonomics: 78.3
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 71.1
   previous_composite: 33.2
   provenance:
     contracts:
@@ -242,12 +467,16 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 22.2
+    score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/screenshots/braze-2026-06-20T173643.png
 security:
+- kind: authentication
+  name: Braze Authentication
+  slug: braze-authentication
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Braze Domain Security
   slug: braze-domain-security
@@ -256,6 +485,10 @@ security:
   name: Braze Vulnerability Disclosure
   slug: braze-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Braze Trust Center
+  slug: braze-trust-center
+  summary_line: ISO 27001, SOC 2 Type 2, TISAX, HIPAA
 slug: braze
 tags:
 - Customer Engagement

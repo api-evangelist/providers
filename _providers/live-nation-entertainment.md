@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Search and retrieve venue information.
   name: live-nation-entertainment Venues API
   slug: live-nation-entertainment-venues-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ticketmaster Discovery Attractions API
+  slug: open-live-nation-entertainment-attractions-api
+- collection_type: open
+  name: Ticketmaster Discovery Attractions Classifications API
+  slug: open-live-nation-entertainment-classifications-api
+- collection_type: open
+  name: Ticketmaster Discovery Attractions Events API
+  slug: open-live-nation-entertainment-events-api
 - collection_type: open
   name: Ticketmaster Discovery API
   slug: open-live-nation-entertainment-ticketmaster-discovery-api
+- collection_type: open
+  name: Ticketmaster Discovery Attractions Venues API
+  slug: open-live-nation-entertainment-venues-api
 common:
 - group: agent
   title: ''
@@ -116,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Live Nation Entertainment Full Year And Fourth Quarter ...
   url: https://newsroom.livenation.com/news/live-nation-entertainment-full-year-and-fourth-quarter-2025-results/
-random_paper: 57
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Live Nation Entertainment Rate Limits
@@ -141,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/screenshots/live-nation-entertainment-2026-06-20T184616.png
 security:

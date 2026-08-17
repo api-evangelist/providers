@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -37,7 +37,11 @@ apis:
 - description: The unauthenticated read-only product and collection JSON surface Hyperice documents to agents in /agents.md under "Read-Only Browsing (No Authentication Required)" — /products.json, /products/{handle
   name: Hyperice Storefront JSON API
   slug: hyperice-storefront-json-api
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Hyperice Storefront API
+  slug: open-hyperice-storefront
 common:
 - group: company
   title: ''
@@ -211,7 +215,7 @@ overview: 'Hyperice publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Hyperice''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 32 more developer resources.'
-random_paper: 17
+random_paper: 112
 rate_limits:
 - limit_count: 0
   name: Hyperice Rate Limits
@@ -250,7 +254,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/screenshots/hyperice-2026-08-07T170541.png
 security:

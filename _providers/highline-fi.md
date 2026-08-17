@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: The Users API from Highline — 4 operation(s) for users.
   name: Highline Users API
   slug: highline-fi-users-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Highline Auth API
+  slug: open-highline-fi-auth-api
+- collection_type: open
+  name: Highline Auth Companies API
+  slug: open-highline-fi-companies-api
+- collection_type: open
+  name: Highline Auth Connections API
+  slug: open-highline-fi-connections-api
+- collection_type: open
+  name: Highline Auth Employments API
+  slug: open-highline-fi-employments-api
+- collection_type: open
+  name: Highline Auth Payment Requests API
+  slug: open-highline-fi-payment-requests-api
+- collection_type: open
+  name: Highline Auth Payments API
+  slug: open-highline-fi-payments-api
+- collection_type: open
+  name: Highline Auth Products API
+  slug: open-highline-fi-products-api
+- collection_type: open
+  name: Highline Auth Settlements API
+  slug: open-highline-fi-settlements-api
+- collection_type: open
+  name: Highline Auth Users API
+  slug: open-highline-fi-users-api
 - collection_type: open
   name: Highline API
   slug: open-highline-fi
@@ -151,7 +181,7 @@ plans:
 - name: Highline Fi Plans Pricing
   plan_count: 1
   slug: highline-fi-plans-pricing
-random_paper: 12
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Highline Fi Rate Limits
@@ -182,7 +212,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/screenshots/highline-fi-2026-06-20T182729.png
 security:

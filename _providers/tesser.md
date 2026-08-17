@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The Accounts API from Tesser — 5 operation(s) for accounts.
@@ -74,11 +74,57 @@ apis:
 - description: The webhooks API from Tesser — 6 operation(s) for webhooks.
   name: Tesser webhooks API
   slug: tesser-webhooks-api
-artifact_total: 18
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Tesser Webhooks
   slug: tesser-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tesser Accounts API
+  slug: open-tesser-accounts-api
+- collection_type: open
+  name: Tesser Accounts Admin API
+  slug: open-tesser-admin-api
+- collection_type: open
+  name: Tesser Accounts API Keys API
+  slug: open-tesser-api-keys-api
+- collection_type: open
+  name: Tesser Accounts Counterparties API
+  slug: open-tesser-counterparties-api
+- collection_type: open
+  name: Tesser Accounts Currencies API
+  slug: open-tesser-currencies-api
+- collection_type: open
+  name: Tesser Accounts health API
+  slug: open-tesser-health-api
+- collection_type: open
+  name: Tesser Accounts MCP API
+  slug: open-tesser-mcp-api
+- collection_type: open
+  name: Tesser Accounts Networks API
+  slug: open-tesser-networks-api
+- collection_type: open
+  name: Tesser Accounts Organizations API
+  slug: open-tesser-organizations-api
+- collection_type: open
+  name: Tesser Accounts Payments API
+  slug: open-tesser-payments-api
+- collection_type: open
+  name: Tesser Accounts Tenants API
+  slug: open-tesser-tenants-api
+- collection_type: open
+  name: Tesser Accounts Treasury API
+  slug: open-tesser-treasury-api
+- collection_type: open
+  name: Tesser Accounts Users API
+  slug: open-tesser-users-api
+- collection_type: open
+  name: Tesser Accounts webhooks API
+  slug: open-tesser-webhooks-api
 common:
 - group: auth
   title: ''
@@ -215,7 +261,7 @@ overview: 'Tesser publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tesser''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 62
+random_paper: 66
 score:
   band: developing
   composite: 47.6
@@ -244,7 +290,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

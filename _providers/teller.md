@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,12 +51,27 @@ apis:
 - description: Account transaction history
   name: Teller Transactions API
   slug: teller-transactions-api
-artifact_total: 22
+artifact_total: 27
 asyncapis:
 - description: AsyncAPI specification describing Teller's outbound webhook surface. Teller sends signed HTTPS POST callbacks to a developer-configured endpoint when notable events occur on enrollments and accounts (
   name: Teller Webhooks
   slug: teller-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Teller Accounts API
+  slug: open-teller-accounts-api
+- collection_type: open
+  name: Teller Accounts Identity API
+  slug: open-teller-identity-api
+- collection_type: open
+  name: Teller Accounts Institutions API
+  slug: open-teller-institutions-api
+- collection_type: open
+  name: Teller Accounts Transactions API
+  slug: open-teller-transactions-api
 - collection_type: open
   name: Teller API
   slug: open-teller
@@ -161,7 +176,7 @@ plans:
 - name: Teller Plans Pricing
   plan_count: 3
   slug: teller-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Teller Rate Limits
@@ -217,7 +232,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

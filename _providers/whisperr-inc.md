@@ -1,36 +1,127 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Public API, unpublished pricing
   onboarding: unknown
   pricing: unknown
-  public: false
-  source: []
+  public: true
+  source:
+  - https://api.whisperr.net/openapi.json
+  - https://docs.whisperr.net/api/overview/
+  - https://whisperr.net/get-access
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 40.5
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: 'The Whisperr runtime surface. Six public operations authenticated with a publishable per-app ingestion key (wrk_ prefix): track a single event, track a batch of up to 500, identify a user with traits '
+  name: Whisperr Runtime API
+  slug: whisperr-runtime-api
+artifact_total: 8
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/whisperr-inc-runtime-openapi.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.whisperr.net/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.whisperr.net/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.whisperr.net/api/overview/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.whisperr.net/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/WhisperrAI
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/whisperr-inc-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/whisperr-inc-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/whisperr-inc-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/whisperr-inc-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/whisperr-inc-rate-limits.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/whisperr-inc-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/whisperr-inc-runtime-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/whisperr-inc-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/whisperr-inc-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/whisperr-inc-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/whisperr-inc-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/whisperr-inc-cli.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/whisperr-inc-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/whisperr-inc-plans-pricing.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -60,34 +151,56 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/whisperrai
 created: '2026-07-17'
-description: Whisperr, Inc. builds an autonomous customer-retention platform that detects churn risk and acts on it automatically, without a lifecycle marketing team operating campaigns. Whisperr combines behavioral intelligence, autonomous decisioning, and AI-generated content to spot at-risk customers and deliver interventions in under ten seconds, going live in under thirty minutes. It serves SaaS, DTC and subscription-commerce, and mobile-game businesses, and publishes churn calculators plus a voice retention agent (Whisperr Recall). Whisperr is a 500 Global portfolio company. As of this profile it exposes no public developer API, SDK, or OpenAPI surface; it is a product/marketing web application.
+description: 'Whisperr, Inc. builds an autonomous customer-retention platform that detects churn risk and acts on it automatically, without a lifecycle marketing team operating campaigns. Whisperr combines behavioral intelligence, autonomous decisioning, and AI-generated content to spot at-risk customers and deliver interventions in under ten seconds. It serves SaaS, DTC and subscription-commerce, and mobile-game businesses, and publishes churn calculators plus a voice retention agent (Whisperr Recall). Whisperr is a 500 Global portfolio company. It publishes a real developer surface: an OpenAPI 3.0.3 document served at https://api.whisperr.net/openapi.json, a documented three-endpoint ingestion API (track, batch, identify) authenticated with a publishable wrk_ key, ten first-party SDKs spanning JavaScript, Python, PHP, .NET, Dart and Swift, an agentic integration CLI (npx @whisperr/wizard), and a public wire-contract repository whose executable conformance fixtures every SDK runs in CI.'
 image: https://whisperr.net/whisperrlogo.png
+json_schemas:
+- name: Whisperr behavior conformance cases
+  property_count: 4
+  slug: whisperr-inc-behavior.schema
+- name: Whisperr push-token conformance cases
+  property_count: 4
+  slug: whisperr-inc-push.schema
+- name: Whisperr wire conformance cases
+  property_count: 4
+  slug: whisperr-inc-wire.schema
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Whisperr, Inc.
 nav: Providers
 network: true
-overview: 'Whisperr, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Retention, Churn, Marketing Automation, and Artificial Intelligence.
+overview: 'Whisperr, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network: Whisperr Runtime API. Tagged areas include Company, Customer Retention, Churn, Marketing Automation, and Artificial Intelligence.
 
 
-  Whisperr, Inc.''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 43
+  Whisperr, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, signup flow, and 21 more developer resources.'
+plans:
+- name: Whisperr Inc Plans Pricing
+  plan_count: 0
+  slug: whisperr-inc-plans-pricing
+random_paper: 51
+rate_limits:
+- limit_count: 0
+  name: Whisperr Inc Rate Limits
+  slug: whisperr-inc-rate-limits
 score:
-  band: minimal
-  composite: 10.2
-  delta: 0.0
+  band: thin
+  composite: 41.1
+  delta: 30.9
   facets:
     commercial_clarity: 23.7
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    contract_quality: 48.4
+    developer_ergonomics: 67.4
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 5.3
   previous_composite: 10.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Whisperr Inc Authentication
+  slug: whisperr-inc-authentication
+  summary_line: apiKey/http · 3 schemes
 - kind: domain-security
   name: Whisperr Inc Domain Security
   slug: whisperr-inc-domain-security
@@ -102,5 +215,10 @@ tags:
 - SaaS
 - Subscription
 - Customer Engagement
+- Event Ingestion
+- Analytics
+- Customer Data
+- Email Delivery
+- Agents
 website: https://whisperr.net
 ---

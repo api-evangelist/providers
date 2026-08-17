@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -159,7 +159,131 @@ apis:
 - description: The V1TrustbooksOnboardingNotifications API from PracticePanther — 1 operation(s) for v1trustbooksonboardingnotifications.
   name: PracticePanther V1TrustbooksOnboardingNotifications API
   slug: practicepanther-v1trustbooksonboardingnotifications-api
-artifact_total: 69
+artifact_total: 110
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Legacy API (v1) Account API
+  slug: open-practicepanther-account-api
+- collection_type: open
+  name: Legacy API (v1) Account AccountingSnapshot API
+  slug: open-practicepanther-accountingsnapshot-api
+- collection_type: open
+  name: Legacy API (v1) Account Activity API
+  slug: open-practicepanther-activity-api
+- collection_type: open
+  name: Legacy API (v1) Account CustomField API
+  slug: open-practicepanther-customfield-api
+- collection_type: open
+  name: Legacy API (v1) Account EmailTemplate API
+  slug: open-practicepanther-emailtemplate-api
+- collection_type: open
+  name: Legacy API (v1) Account Expense API
+  slug: open-practicepanther-expense-api
+- collection_type: open
+  name: Legacy API (v1) Account IntegrationBulkContactLookup API
+  slug: open-practicepanther-integrationbulkcontactlookup-api
+- collection_type: open
+  name: Legacy API (v1) Account IntegrationContacts API
+  slug: open-practicepanther-integrationcontacts-api
+- collection_type: open
+  name: Legacy API (v1) Account Invoice API
+  slug: open-practicepanther-invoice-api
+- collection_type: open
+  name: Legacy API (v1) Account Item API
+  slug: open-practicepanther-item-api
+- collection_type: open
+  name: Legacy API (v1) Account Payment API
+  slug: open-practicepanther-payment-api
+- collection_type: open
+  name: Legacy API (v1) Account Project API
+  slug: open-practicepanther-project-api
+- collection_type: open
+  name: Legacy API (v1) Account Relationship API
+  slug: open-practicepanther-relationship-api
+- collection_type: open
+  name: Legacy API (v1) Account SalesTax API
+  slug: open-practicepanther-salestax-api
+- collection_type: open
+  name: Legacy API (v1) Account Tag API
+  slug: open-practicepanther-tag-api
+- collection_type: open
+  name: Legacy API (v1) Account TimeEntry API
+  slug: open-practicepanther-timeentry-api
+- collection_type: open
+  name: Legacy API (v1) Account User API
+  slug: open-practicepanther-user-api
+- collection_type: open
+  name: Legacy API (v1) Account V1AccountPayeeSettings API
+  slug: open-practicepanther-v1accountpayeesettings-api
+- collection_type: open
+  name: Legacy API (v1) Account V1AccountsDropdown API
+  slug: open-practicepanther-v1accountsdropdown-api
+- collection_type: open
+  name: Legacy API (v1) Account V1AllPaymentsGrid API
+  slug: open-practicepanther-v1allpaymentsgrid-api
+- collection_type: open
+  name: Legacy API (v1) Account V1AnyPaymentsBulk API
+  slug: open-practicepanther-v1anypaymentsbulk-api
+- collection_type: open
+  name: Legacy API (v1) Account V1BankAccount API
+  slug: open-practicepanther-v1bankaccount-api
+- collection_type: open
+  name: Legacy API (v1) Account V1BankAccountsDropdown API
+  slug: open-practicepanther-v1bankaccountsdropdown-api
+- collection_type: open
+  name: Legacy API (v1) Account V1BarReportGrid API
+  slug: open-practicepanther-v1barreportgrid-api
+- collection_type: open
+  name: Legacy API (v1) Account V1ChartOfAccountsDropdown API
+  slug: open-practicepanther-v1chartofaccountsdropdown-api
+- collection_type: open
+  name: Legacy API (v1) Account V1ContactPayments API
+  slug: open-practicepanther-v1contactpayments-api
+- collection_type: open
+  name: Legacy API (v1) Account V1DepositSlips API
+  slug: open-practicepanther-v1depositslips-api
+- collection_type: open
+  name: Legacy API (v1) Account V1DepositSlipsPayments API
+  slug: open-practicepanther-v1depositslipspayments-api
+- collection_type: open
+  name: Legacy API (v1) Account V1DepositSlipsPdf API
+  slug: open-practicepanther-v1depositslipspdf-api
+- collection_type: open
+  name: Legacy API (v1) Account V1Expenses API
+  slug: open-practicepanther-v1expenses-api
+- collection_type: open
+  name: Legacy API (v1) Account V1FirmPayments API
+  slug: open-practicepanther-v1firmpayments-api
+- collection_type: open
+  name: Legacy API (v1) Account V1InvoiceProcessingTracker API
+  slug: open-practicepanther-v1invoiceprocessingtracker-api
+- collection_type: open
+  name: Legacy API (v1) Account V1Me API
+  slug: open-practicepanther-v1me-api
+- collection_type: open
+  name: Legacy API (v1) Account V1MergeFields API
+  slug: open-practicepanther-v1mergefields-api
+- collection_type: open
+  name: Legacy API (v1) Account V1PaymentGridColumns API
+  slug: open-practicepanther-v1paymentgridcolumns-api
+- collection_type: open
+  name: Legacy API (v1) Account V1PaymentMethodDropdown API
+  slug: open-practicepanther-v1paymentmethoddropdown-api
+- collection_type: open
+  name: Legacy API (v1) Account V1PrintChecksPdf API
+  slug: open-practicepanther-v1printcheckspdf-api
+- collection_type: open
+  name: Legacy API (v1) Account V1SignatureRequest API
+  slug: open-practicepanther-v1signaturerequest-api
+- collection_type: open
+  name: Legacy API (v1) Account V1SiteWideBanner API
+  slug: open-practicepanther-v1sitewidebanner-api
+- collection_type: open
+  name: Legacy API (v1) Account V1TrustbooksOnboardingNotifications API
+  slug: open-practicepanther-v1trustbooksonboardingnotifications-api
 common:
 - group: agent
   title: ''
@@ -315,7 +439,7 @@ plans:
 - name: Practicepanther Plans Pricing
   plan_count: 4
   slug: practicepanther-plans-pricing
-random_paper: 37
+random_paper: 107
 rate_limits:
 - limit_count: 0
   name: Practicepanther Rate Limits
@@ -354,7 +478,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/screenshots/practicepanther-2026-06-20T192035.png
 security:

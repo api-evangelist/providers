@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Manage Looker users including creating, updating, and retrieving user accounts, credentials, roles, and sessions.
   name: Looker User API
   slug: looker-user-api
-artifact_total: 129
+artifact_total: 135
 collections:
 - collection_type: postman
   name: Looker Auth API
@@ -87,8 +87,26 @@ collections:
   name: Looker Auth User API
   slug: postman-looker-user-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Looker API
   slug: open-looker-api
+- collection_type: open
+  name: Looker Auth API
+  slug: open-looker-auth-api
+- collection_type: open
+  name: Looker Auth Dashboard API
+  slug: open-looker-dashboard-api
+- collection_type: open
+  name: Looker Auth Look API
+  slug: open-looker-look-api
+- collection_type: open
+  name: Looker Auth Query API
+  slug: open-looker-query-api
+- collection_type: open
+  name: Looker Auth User API
+  slug: open-looker-user-api
 common:
 - group: operate
   title: ''
@@ -504,7 +522,7 @@ plans:
 - name: Looker Plans Pricing
   plan_count: 7
   slug: looker-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 8
   name: Looker Rate Limits
@@ -546,7 +564,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/screenshots/looker-2026-06-20T184712.png
 security:

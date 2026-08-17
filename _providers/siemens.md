@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -495,11 +495,29 @@ apis:
 - description: Historical trend data for building system data points over specified time ranges.
   name: Siemens Trends API
   slug: siemens-trends-api
-artifact_total: 179
+artifact_total: 185
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Siemens Building Operations Alarms API
+  slug: open-siemens-alarms-api
 - collection_type: open
   name: Siemens Building Operations API
   slug: open-siemens-building-operations
+- collection_type: open
+  name: Siemens Building Operations Alarms Equipment API
+  slug: open-siemens-equipment-api
+- collection_type: open
+  name: Siemens Building Operations Alarms Points API
+  slug: open-siemens-points-api
+- collection_type: open
+  name: Siemens Building Operations Alarms Schedules API
+  slug: open-siemens-schedules-api
+- collection_type: open
+  name: Siemens Building Operations Alarms Trends API
+  slug: open-siemens-trends-api
 common:
 - group: agent
   title: ''
@@ -624,7 +642,7 @@ plans:
 - name: Siemens Plans Pricing
   plan_count: 1
   slug: siemens-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Siemens Rate Limits
@@ -666,7 +684,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

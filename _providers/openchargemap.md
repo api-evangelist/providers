@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,7 +66,29 @@ apis:
 - description: The Referencedata API from Open Charge Map — 1 operation(s) for referencedata.
   name: Open Charge Map Referencedata API
   slug: openchargemap-referencedata-api
-artifact_total: 40
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Charge Map Comment API
+  slug: open-openchargemap-comment-api
+- collection_type: open
+  name: Open Charge Map Comment Mediaitem API
+  slug: open-openchargemap-mediaitem-api
+- collection_type: open
+  name: Open Charge Map Comment Openapi API
+  slug: open-openchargemap-openapi-api
+- collection_type: open
+  name: Open Charge Map Comment Poi API
+  slug: open-openchargemap-poi-api
+- collection_type: open
+  name: Open Charge Map Comment Profile API
+  slug: open-openchargemap-profile-api
+- collection_type: open
+  name: Open Charge Map Comment Referencedata API
+  slug: open-openchargemap-referencedata-api
 common:
 - group: agent
   title: ''
@@ -225,7 +247,7 @@ plans:
 - name: Openchargemap Plans
   plan_count: 2
   slug: openchargemap-plans
-random_paper: 50
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Openchargemap Rate Limits
@@ -265,7 +287,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/screenshots/openchargemap-2026-06-20T190925.png
 security:

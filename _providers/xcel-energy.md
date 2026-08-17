@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -126,7 +126,98 @@ apis:
 - description: Logical metered points that produce energy usage data for a service.
   name: Xcel Energy UsagePoint API
   slug: xcel-energy-usagepoint-api
-artifact_total: 65
+artifact_total: 95
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation API
+  slug: open-xcel-energy-applicationinformation-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation Authorization API
+  slug: open-xcel-energy-authorization-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation Batch API
+  slug: open-xcel-energy-batch-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation Configuration API
+  slug: open-xcel-energy-configuration-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation DemandResponse API
+  slug: open-xcel-energy-demandresponse-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation DER API
+  slug: open-xcel-energy-der-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation DeviceCapability API
+  slug: open-xcel-energy-devicecapability-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation DeviceInformation API
+  slug: open-xcel-energy-deviceinformation-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation DeviceStatus API
+  slug: open-xcel-energy-devicestatus-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation ElectricPowerQualitySummary API
+  slug: open-xcel-energy-electricpowerqualitysummary-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation ElectricPowerUsageSummary API
+  slug: open-xcel-energy-electricpowerusagesummary-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation EndDevice API
+  slug: open-xcel-energy-enddevice-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation FunctionSetAssignments API
+  slug: open-xcel-energy-functionsetassignments-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation IntervalBlock API
+  slug: open-xcel-energy-intervalblock-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation LocalTimeParameters API
+  slug: open-xcel-energy-localtimeparameters-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation Log API
+  slug: open-xcel-energy-log-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation Messaging API
+  slug: open-xcel-energy-messaging-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation MeterReading API
+  slug: open-xcel-energy-meterreading-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation MirrorUsagePoint API
+  slug: open-xcel-energy-mirrorusagepoint-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation PowerStatus API
+  slug: open-xcel-energy-powerstatus-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation ReadingType API
+  slug: open-xcel-energy-readingtype-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation Registration API
+  slug: open-xcel-energy-registration-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation Response API
+  slug: open-xcel-energy-response-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation RetailCustomer API
+  slug: open-xcel-energy-retailcustomer-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation SelfDevice API
+  slug: open-xcel-energy-selfdevice-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation ServiceStatus API
+  slug: open-xcel-energy-servicestatus-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation Subscription API
+  slug: open-xcel-energy-subscription-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation Time API
+  slug: open-xcel-energy-time-api
+- collection_type: open
+  name: Xcel Energy Green Button Connect My Data ApplicationInformation UsagePoint API
+  slug: open-xcel-energy-usagepoint-api
 common:
 - group: agent
   title: ''
@@ -263,7 +354,7 @@ press:
 - date: '2026-05-25'
   title: 'Xcel Energy: Brings AI-driven wildfire detection to Wisconsin'
   url: https://www.wispolitics.com/2026/xcel-energy-brings-ai-driven-wildfire-detection-to-wisconsin/
-random_paper: 43
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Xcel Energy Rate Limits
@@ -299,7 +390,7 @@ score:
     regime_id: energy_utilities
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png
 security:

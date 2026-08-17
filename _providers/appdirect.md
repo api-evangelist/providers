@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 75
 apis:
 - description: The AI Embed API from AppDirect — 2 operation(s) for ai embed.
@@ -256,11 +256,237 @@ apis:
 - description: The UserAccounts API from AppDirect — 1 operation(s) for useraccounts.
   name: AppDirect UserAccounts API
   slug: appdirect-useraccounts-api
-artifact_total: 81
+artifact_total: 156
 asyncapis:
 - description: ''
   name: Appdirect Webhooks
   slug: appdirect-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Companies AI Embed API
+  slug: open-appdirect-ai-embed-api
+- collection_type: open
+  name: Companies AI Embed AI Management API
+  slug: open-appdirect-ai-management-api
+- collection_type: open
+  name: Companies AI Embed AI Models API
+  slug: open-appdirect-ai-models-api
+- collection_type: open
+  name: Companies AI Embed AI User Inputs API
+  slug: open-appdirect-ai-user-inputs-api
+- collection_type: open
+  name: Companies AI Embed Answer API
+  slug: open-appdirect-answer-api
+- collection_type: open
+  name: Companies AI Embed API Keys API
+  slug: open-appdirect-api-keys-api
+- collection_type: open
+  name: Companies AI Embed AppResellerAccount API
+  slug: open-appdirect-appreselleraccount-api
+- collection_type: open
+  name: Companies AI Embed AppResellerAssignment API
+  slug: open-appdirect-appresellerassignment-api
+- collection_type: open
+  name: Companies AI Embed AppResellerCatalog API
+  slug: open-appdirect-appresellercatalog-api
+- collection_type: open
+  name: Companies AI Embed AppResellerCompanyAssociation API
+  slug: open-appdirect-appresellercompanyassociation-api
+- collection_type: open
+  name: Companies AI Embed AppResellerLeads API
+  slug: open-appdirect-appresellerleads-api
+- collection_type: open
+  name: Companies AI Embed AppResellerOpportunities API
+  slug: open-appdirect-appreselleropportunities-api
+- collection_type: open
+  name: Companies AI Embed AppResellerOrder API
+  slug: open-appdirect-appresellerorder-api
+- collection_type: open
+  name: Companies AI Embed AppResellerPaymentMethod API
+  slug: open-appdirect-appresellerpaymentmethod-api
+- collection_type: open
+  name: Companies AI Embed AppResellerQuoteVersion API
+  slug: open-appdirect-appresellerquoteversion-api
+- collection_type: open
+  name: Companies AI Embed AppResellerReconciliation API
+  slug: open-appdirect-appresellerreconciliation-api
+- collection_type: open
+  name: Companies AI Embed AppResellerSubscription API
+  slug: open-appdirect-appresellersubscription-api
+- collection_type: open
+  name: Companies AI Embed Bundle API
+  slug: open-appdirect-bundle-api
+- collection_type: open
+  name: Companies AI Embed Categories API
+  slug: open-appdirect-categories-api
+- collection_type: open
+  name: Companies AI Embed Chat Completions API
+  slug: open-appdirect-chat-completions-api
+- collection_type: open
+  name: Companies AI Embed Chat Sessions API
+  slug: open-appdirect-chat-sessions-api
+- collection_type: open
+  name: Companies AI Embed checkoutItemDetails API
+  slug: open-appdirect-checkoutitemdetails-api
+- collection_type: open
+  name: Companies AI Embed Comment API
+  slug: open-appdirect-comment-api
+- collection_type: open
+  name: AI Embed Companies API
+  slug: open-appdirect-companies-api
+- collection_type: open
+  name: Companies AI Embed CompanyMemberships API
+  slug: open-appdirect-companymemberships-api
+- collection_type: open
+  name: Companies AI Embed CurrencyExchangeRate API
+  slug: open-appdirect-currencyexchangerate-api
+- collection_type: open
+  name: Companies AI Embed CustomerNotification API
+  slug: open-appdirect-customernotification-api
+- collection_type: open
+  name: Companies AI Embed Data Sources API
+  slug: open-appdirect-data-sources-api
+- collection_type: open
+  name: Companies AI Embed DataUploader API
+  slug: open-appdirect-datauploader-api
+- collection_type: open
+  name: Companies AI Embed DefaultNotificationTemplateApi API
+  slug: open-appdirect-defaultnotificationtemplateapi-api
+- collection_type: open
+  name: Companies AI Embed Discount API
+  slug: open-appdirect-discount-api
+- collection_type: open
+  name: Companies AI Embed Domains API
+  slug: open-appdirect-domains-api
+- collection_type: open
+  name: Companies AI Embed Edition API
+  slug: open-appdirect-edition-api
+- collection_type: open
+  name: Companies AI Embed Event API
+  slug: open-appdirect-event-api
+- collection_type: open
+  name: Companies AI Embed Files API
+  slug: open-appdirect-files-api
+- collection_type: open
+  name: Companies AI Embed Group API
+  slug: open-appdirect-group-api
+- collection_type: open
+  name: Companies AI Embed Groups API
+  slug: open-appdirect-groups-api
+- collection_type: open
+  name: Companies AI Embed InboundEvents API
+  slug: open-appdirect-inboundevents-api
+- collection_type: open
+  name: Companies AI Embed Integration API
+  slug: open-appdirect-integration-api
+- collection_type: open
+  name: Companies AI Embed Integrations API
+  slug: open-appdirect-integrations-api
+- collection_type: open
+  name: Companies AI Embed Invitation API
+  slug: open-appdirect-invitation-api
+- collection_type: open
+  name: Companies AI Embed Invoice API
+  slug: open-appdirect-invoice-api
+- collection_type: open
+  name: Companies AI Embed Marketplace Product Settings API
+  slug: open-appdirect-marketplace-product-settings-api
+- collection_type: open
+  name: Companies AI Embed MyApps API
+  slug: open-appdirect-myapps-api
+- collection_type: open
+  name: Companies AI Embed Navigation API
+  slug: open-appdirect-navigation-api
+- collection_type: open
+  name: Companies AI Embed Payment API
+  slug: open-appdirect-payment-api
+- collection_type: open
+  name: Companies AI Embed Payment Methods API
+  slug: open-appdirect-payment-methods-api
+- collection_type: open
+  name: Companies AI Embed PaymentInstrument API
+  slug: open-appdirect-paymentinstrument-api
+- collection_type: open
+  name: Companies AI Embed PaymentPlan API
+  slug: open-appdirect-paymentplan-api
+- collection_type: open
+  name: Companies AI Embed Payments v2 API
+  slug: open-appdirect-payments-v2-api
+- collection_type: open
+  name: Companies AI Embed Product API
+  slug: open-appdirect-product-api
+- collection_type: open
+  name: Companies AI Embed Product Management API API
+  slug: open-appdirect-product-management-api-api
+- collection_type: open
+  name: Companies AI Embed ProductContext API
+  slug: open-appdirect-productcontext-api
+- collection_type: open
+  name: Companies AI Embed PurchaseOrder API
+  slug: open-appdirect-purchaseorder-api
+- collection_type: open
+  name: Companies AI Embed Question API
+  slug: open-appdirect-question-api
+- collection_type: open
+  name: Companies AI Embed Reconciliation API
+  slug: open-appdirect-reconciliation-api
+- collection_type: open
+  name: Companies AI Embed Reporting API
+  slug: open-appdirect-reporting-api
+- collection_type: open
+  name: Companies AI Embed Reporting V2 API
+  slug: open-appdirect-reporting-v2-api
+- collection_type: open
+  name: Companies AI Embed Responses API v2 API
+  slug: open-appdirect-responses-api-v2-api
+- collection_type: open
+  name: Companies AI Embed Search API
+  slug: open-appdirect-search-api
+- collection_type: open
+  name: Companies AI Embed Secrets API
+  slug: open-appdirect-secrets-api
+- collection_type: open
+  name: Companies AI Embed SegmentFolders API
+  slug: open-appdirect-segmentfolders-api
+- collection_type: open
+  name: Companies AI Embed Settings API
+  slug: open-appdirect-settings-api
+- collection_type: open
+  name: Companies AI Embed ShoppingCart API
+  slug: open-appdirect-shoppingcart-api
+- collection_type: open
+  name: Companies AI Embed SubscriptionAssignments API
+  slug: open-appdirect-subscriptionassignments-api
+- collection_type: open
+  name: Companies AI Embed Subscriptions API
+  slug: open-appdirect-subscriptions-api
+- collection_type: open
+  name: Companies AI Embed Sync API
+  slug: open-appdirect-sync-api
+- collection_type: open
+  name: Companies AI Embed Tenant Marketplace Provisioning API
+  slug: open-appdirect-tenant-marketplace-provisioning-api
+- collection_type: open
+  name: Companies AI Embed Tenant Rate Limits API
+  slug: open-appdirect-tenant-rate-limits-api
+- collection_type: open
+  name: Companies AI Embed Tool Templates API
+  slug: open-appdirect-tool-templates-api
+- collection_type: open
+  name: Companies AI Embed Tools API
+  slug: open-appdirect-tools-api
+- collection_type: open
+  name: Companies AI Embed Usage & Analytics API
+  slug: open-appdirect-usage-analytics-api
+- collection_type: open
+  name: Companies AI Embed User API
+  slug: open-appdirect-user-api
+- collection_type: open
+  name: Companies AI Embed UserAccounts API
+  slug: open-appdirect-useraccounts-api
 common:
 - group: other
   title: ''
@@ -429,7 +655,7 @@ overview: 'AppDirect publishes 75 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AppDirect''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 30 more developer resources.'
-random_paper: 116
+random_paper: 62
 scopes:
 - name: Appdirect Scopes
   scope_count: 15
@@ -457,7 +683,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/screenshots/appdirect-2026-07-25T200730.png
 security:

@@ -19,17 +19,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'REST API for the Bonjoro personal-video platform. Create and assign greets (video tasks) for one or many recipients, manage recipient profiles and campaigns/workspaces, upload recordings to presigned '
   name: Bonjoro API V2
   slug: bonjoro-api-v2
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Bonjoro Webhooks
   slug: bonjoro-webhooks
+collections:
+- collection_type: open
+  name: Bonjoro API V2
+  slug: open-bonjoro-api-v2
 common:
 - group: company
   title: ''
@@ -146,7 +150,7 @@ plans:
 - name: Bonjoro Plans Pricing
   plan_count: 5
   slug: bonjoro-plans-pricing
-random_paper: 41
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Bonjoro Rate Limits
@@ -154,6 +158,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 54.5
@@ -161,8 +166,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 28.9
+  previous_composite: 50.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Bonjoro Authentication

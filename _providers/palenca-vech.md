@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 45
 apis:
 - description: The accounts API from Palenca (Vech) — 34 operation(s) for accounts.
@@ -166,11 +166,150 @@ apis:
 - description: The widgets API from Palenca (Vech) — 3 operation(s) for widgets.
   name: Palenca (Vech) widgets API
   slug: palenca-vech-widgets-api
-artifact_total: 52
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Palenca Vech Webhooks
   slug: palenca-vech-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Palenca accounts API
+  slug: open-palenca-vech-accounts-api
+- collection_type: open
+  name: Palenca accounts admin API
+  slug: open-palenca-vech-admin-api
+- collection_type: open
+  name: Palenca accounts argyle API
+  slug: open-palenca-vech-argyle-api
+- collection_type: open
+  name: Palenca accounts Check Platform Health API
+  slug: open-palenca-vech-check-platform-health-api
+- collection_type: open
+  name: Palenca accounts companies API
+  slug: open-palenca-vech-companies-api
+- collection_type: open
+  name: Palenca accounts consents API
+  slug: open-palenca-vech-consents-api
+- collection_type: open
+  name: Palenca accounts console/accounts API
+  slug: open-palenca-vech-console-accounts-api
+- collection_type: open
+  name: Palenca accounts console API
+  slug: open-palenca-vech-console-api
+- collection_type: open
+  name: Palenca accounts console/companies API
+  slug: open-palenca-vech-console-companies-api
+- collection_type: open
+  name: Palenca accounts console/insights API
+  slug: open-palenca-vech-console-insights-api
+- collection_type: open
+  name: Palenca accounts console/status API
+  slug: open-palenca-vech-console-status-api
+- collection_type: open
+  name: Palenca accounts console/webhooks API
+  slug: open-palenca-vech-console-webhooks-api
+- collection_type: open
+  name: Palenca accounts console/widgets API
+  slug: open-palenca-vech-console-widgets-api
+- collection_type: open
+  name: Palenca accounts countries API
+  slug: open-palenca-vech-countries-api
+- collection_type: open
+  name: Palenca accounts cpf API
+  slug: open-palenca-vech-cpf-api
+- collection_type: open
+  name: Palenca accounts cron-jobs API
+  slug: open-palenca-vech-cron-jobs-api
+- collection_type: open
+  name: Palenca accounts finsus API
+  slug: open-palenca-vech-finsus-api
+- collection_type: open
+  name: Palenca accounts groups API
+  slug: open-palenca-vech-groups-api
+- collection_type: open
+  name: Palenca accounts health API
+  slug: open-palenca-vech-health-api
+- collection_type: open
+  name: Palenca accounts imss API
+  slug: open-palenca-vech-imss-api
+- collection_type: open
+  name: Palenca accounts insights API
+  slug: open-palenca-vech-insights-api
+- collection_type: open
+  name: Palenca accounts insights-report API
+  slug: open-palenca-vech-insights-report-api
+- collection_type: open
+  name: Palenca accounts internal/accounts API
+  slug: open-palenca-vech-internal-accounts-api
+- collection_type: open
+  name: Palenca accounts internal API
+  slug: open-palenca-vech-internal-api
+- collection_type: open
+  name: Palenca accounts internal/bulks API
+  slug: open-palenca-vech-internal-bulks-api
+- collection_type: open
+  name: Palenca accounts internal/companies API
+  slug: open-palenca-vech-internal-companies-api
+- collection_type: open
+  name: Palenca accounts internal/groups API
+  slug: open-palenca-vech-internal-groups-api
+- collection_type: open
+  name: Palenca accounts internal/indriver API
+  slug: open-palenca-vech-internal-indriver-api
+- collection_type: open
+  name: Palenca accounts internal/insights API
+  slug: open-palenca-vech-internal-insights-api
+- collection_type: open
+  name: Palenca accounts internal/status-history API
+  slug: open-palenca-vech-internal-status-history-api
+- collection_type: open
+  name: Palenca accounts link API
+  slug: open-palenca-vech-link-api
+- collection_type: open
+  name: Palenca accounts logins API
+  slug: open-palenca-vech-logins-api
+- collection_type: open
+  name: Palenca accounts Ping API
+  slug: open-palenca-vech-ping-api
+- collection_type: open
+  name: Palenca accounts platforms API
+  slug: open-palenca-vech-platforms-api
+- collection_type: open
+  name: Palenca accounts Pong API
+  slug: open-palenca-vech-pong-api
+- collection_type: open
+  name: Palenca accounts rappi-income-distribution API
+  slug: open-palenca-vech-rappi-income-distribution-api
+- collection_type: open
+  name: Palenca accounts rappi-start-location-recovery API
+  slug: open-palenca-vech-rappi-start-location-recovery-api
+- collection_type: open
+  name: Palenca accounts status-history API
+  slug: open-palenca-vech-status-history-api
+- collection_type: open
+  name: Palenca accounts uber-direct-api API
+  slug: open-palenca-vech-uber-direct-api-api
+- collection_type: open
+  name: Palenca accounts uber-income-distribution API
+  slug: open-palenca-vech-uber-income-distribution-api
+- collection_type: open
+  name: Palenca accounts users API
+  slug: open-palenca-vech-users-api
+- collection_type: open
+  name: Palenca accounts v1 API
+  slug: open-palenca-vech-v1-api
+- collection_type: open
+  name: Palenca accounts Version API
+  slug: open-palenca-vech-version-api
+- collection_type: open
+  name: Palenca accounts webhooks API
+  slug: open-palenca-vech-webhooks-api
+- collection_type: open
+  name: Palenca accounts widgets API
+  slug: open-palenca-vech-widgets-api
 common:
 - group: other
   title: ''
@@ -319,7 +458,7 @@ overview: 'Palenca (Vech) publishes 45 APIs on the [APIs.io](https://apis.io/) n
 
 
   Palenca (Vech)''s developer surface includes sandbox, documentation, API reference, getting-started guide, authentication, engineering blog, support, and 25 more developer resources.'
-random_paper: 111
+random_paper: 148
 rate_limits:
 - limit_count: 1
   name: Palenca Vech Rate Limits
@@ -346,7 +485,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png
 security:

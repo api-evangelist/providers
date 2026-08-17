@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -81,7 +81,7 @@ apis:
 - description: The webhooks API from E2B — 2 operation(s) for webhooks.
   name: E2B webhooks API
   slug: e2b-dev-webhooks-api
-artifact_total: 59
+artifact_total: 72
 collections:
 - collection_type: postman
   name: E2B access-tokens API
@@ -120,8 +120,47 @@ collections:
   name: E2B access-tokens webhooks API
   slug: postman-e2b-dev-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: E2B API
   slug: open-e2b-api
+- collection_type: open
+  name: E2B access-tokens API
+  slug: open-e2b-dev-access-tokens-api
+- collection_type: open
+  name: E2B access-tokens admin API
+  slug: open-e2b-dev-admin-api
+- collection_type: open
+  name: E2B access-tokens api-keys API
+  slug: open-e2b-dev-api-keys-api
+- collection_type: open
+  name: E2B access-tokens auth API
+  slug: open-e2b-dev-auth-api
+- collection_type: open
+  name: E2B access-tokens events API
+  slug: open-e2b-dev-events-api
+- collection_type: open
+  name: E2B access-tokens Health API
+  slug: open-e2b-dev-health-api
+- collection_type: open
+  name: E2B access-tokens sandboxes API
+  slug: open-e2b-dev-sandboxes-api
+- collection_type: open
+  name: E2B access-tokens snapshots API
+  slug: open-e2b-dev-snapshots-api
+- collection_type: open
+  name: E2B access-tokens tags API
+  slug: open-e2b-dev-tags-api
+- collection_type: open
+  name: E2B access-tokens templates API
+  slug: open-e2b-dev-templates-api
+- collection_type: open
+  name: E2B access-tokens volumes API
+  slug: open-e2b-dev-volumes-api
+- collection_type: open
+  name: E2B access-tokens webhooks API
+  slug: open-e2b-dev-webhooks-api
 - collection_type: open
   name: E2B Sandbox Events and Webhooks API
   slug: open-e2b-events
@@ -385,7 +424,7 @@ plans:
 - name: E2B Dev Plans Pricing
   plan_count: 3
   slug: e2b-dev-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 8
   name: E2B Dev Rate Limits
@@ -419,7 +458,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/screenshots/e2b-dev-2026-06-20T180353.png
 security:

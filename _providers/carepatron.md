@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'Modeled product-area API for client/patient records - the people a practice serves, their demographics, contact details, and intake information. endpointsModeled: true. Carepatron does not publish a d'
@@ -90,7 +90,7 @@ plans:
 - name: Carepatron Plans Pricing
   plan_count: 3
   slug: carepatron-plans-pricing
-random_paper: 111
+random_paper: 28
 score:
   band: emerging
   composite: 18.1
@@ -110,7 +110,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carepatron/refs/heads/main/screenshots/carepatron-2026-07-25T204552.png
 security:

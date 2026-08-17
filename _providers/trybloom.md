@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -49,7 +49,20 @@ apis:
 - description: Generate, edit, and retrieve images.
   name: Bloom Images API
   slug: trybloom-images-api
-artifact_total: 10
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bloom Account API
+  slug: open-trybloom-account-api
+- collection_type: open
+  name: Bloom Brands API
+  slug: open-trybloom-brands-api
+- collection_type: open
+  name: Bloom Images API
+  slug: open-trybloom-images-api
 common:
 - group: other
   title: ''
@@ -115,6 +128,22 @@ common:
   title: ''
   type: MCPServer
   url: mcp/trybloom-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/trybloom-tool-crosswalk.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/trybloom-changelog.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/trybloomai
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.trybloom.ai/auth/sign-up
 - group: agent
   title: ''
   type: LLMsTxt
@@ -175,19 +204,19 @@ mcp_servers:
 - description: Official hosted MCP server at https://www.trybloom.ai/api/mcp (Streamable HTTP; OAuth sign-in or API key) exposing 17 brand/image/credit tools.
   name: Bloom MCP Server
   slug: bloom-mcp-server
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Bloom
 nav: Providers
 network: true
 overview: 'Bloom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Brands API, and Images API. Tagged areas include Company, Brand Management, Image Generation, Artificial Intelligence, and Agents.
 
 
-  Bloom''s developer surface includes documentation, API reference, getting-started guide, pricing, support, FAQ, authentication, and 22 more developer resources.'
+  Bloom''s developer surface includes documentation, API reference, getting-started guide, pricing, support, FAQ, changelog, and 26 more developer resources.'
 plans:
 - name: Trybloom Plans Pricing
   plan_count: 5
   slug: trybloom-plans-pricing
-random_paper: 48
+random_paper: 143
 rate_limits:
 - limit_count: 1
   name: Trybloom Rate Limits
@@ -198,16 +227,16 @@ scopes:
   slug: trybloom-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: developing
-  composite: 53.9
-  delta: 0.0
+  band: strong
+  composite: 56.6
+  delta: 2.7
   facets:
     commercial_clarity: 76.3
     contract_quality: 59.7
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 21.1
+    operational_transparency: 42.1
   previous_composite: 53.9
   provenance:
     agentic_access: derived
@@ -220,7 +249,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

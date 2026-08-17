@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: The Token API from J-Quants — 2 operation(s) for token.
   name: J-Quants Token API
   slug: j-quants-token-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: J-Quants Derivatives API
+  slug: open-j-quants-derivatives-api
+- collection_type: open
+  name: J-Quants Derivatives Equities API
+  slug: open-j-quants-equities-api
+- collection_type: open
+  name: J-Quants Derivatives Fins API
+  slug: open-j-quants-fins-api
+- collection_type: open
+  name: J-Quants Derivatives Indices API
+  slug: open-j-quants-indices-api
+- collection_type: open
+  name: J-Quants Derivatives Listed API
+  slug: open-j-quants-listed-api
+- collection_type: open
+  name: J-Quants Derivatives Markets API
+  slug: open-j-quants-markets-api
+- collection_type: open
+  name: J-Quants Derivatives Option API
+  slug: open-j-quants-option-api
+- collection_type: open
+  name: J-Quants Derivatives Prices API
+  slug: open-j-quants-prices-api
+- collection_type: open
+  name: J-Quants Derivatives Token API
+  slug: open-j-quants-token-api
 - collection_type: open
   name: J-Quants API
   slug: open-j-quants
@@ -123,7 +153,7 @@ plans:
 - name: J Quants Plans Pricing
   plan_count: 3
   slug: j-quants-plans-pricing
-random_paper: 99
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: J Quants Rate Limits
@@ -148,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/screenshots/j-quants-2026-06-20T183644.png
 security:

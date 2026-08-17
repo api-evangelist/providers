@@ -12,9 +12,9 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-12'
+  score: 27.5
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 4
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -79,6 +79,50 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/clarisights-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/clarisights-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/clarisights-conventions.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clarisights-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/clarisights-components.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/clarisights-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/clarisights-plans-pricing.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/clarisights
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.clarisights.com/en/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.clarisights.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.clarisights.com/en/collections/3767521-using-clarisights-101
 created: '2026-07-17'
 description: Clarisights is an enterprise marketing analytics platform that unifies marketing data from channels, web analytics, attribution platforms, and the data warehouse into a single self-service system. Marketing teams explore data, build custom dashboards, and generate trustworthy insights without SQL or data-engineering support, accelerating reporting cycles and reducing manual spreadsheet work. Clarisights also ships a Marketing Data MCP server that connects governed marketing data to AI tools such as Claude, ChatGPT, Cursor, and Gemini, exposing discovery, query, and report-navigation tools scoped by the same workspace access controls as the UI. The platform advertises 50+ connectors, ISO 27001 certification, and SOC 2 Type 2 attestation.
 image: https://clarisights.com/favicon.ico
@@ -87,35 +131,47 @@ mcp_servers:
 - description: ''
   name: Clarisights Marketing Data MCP
   slug: clarisights-marketing-data-mcp
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Clarisights
 nav: Providers
 network: true
 overview: 'Clarisights is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing Analytics, Marketing Intelligence, Business Intelligence, and Data Integration.
 
 
-  Clarisights'' developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 101
+  Clarisights'' developer surface includes engineering blog, authentication, documentation, support, getting-started guide, and 18 more developer resources.'
+plans:
+- name: Clarisights Plans Pricing
+  plan_count: 0
+  slug: clarisights-plans-pricing
+random_paper: 138
+rate_limits:
+- limit_count: 0
+  name: Clarisights Rate Limits
+  slug: clarisights-rate-limits
 score:
   band: emerging
-  composite: 18.7
-  delta: 0.0
+  composite: 27.6
+  delta: 8.9
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 52.2
     discoverability: 57.4
     governance: 12.5
-    operational_transparency: 10.5
+    operational_transparency: 15.8
   previous_composite: 18.7
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarisights/refs/heads/main/screenshots/clarisights-2026-07-25T205504.png
 security:
+- kind: authentication
+  name: Clarisights Authentication
+  slug: clarisights-authentication
+  summary_line: delegated-user-login · 1 scheme
 - kind: domain-security
   name: Clarisights Domain Security
   slug: clarisights-domain-security

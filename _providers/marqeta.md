@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 12
@@ -282,18 +282,258 @@ apis:
 - description: // Conditional snippet for beta or internal content include::../../maturity-admonition-banner.adoc[] Webhooks are notifications about API events, sent as they occur. The Marqeta platform sends these n
   name: Marqeta Webhooks API
   slug: marqeta-webhooks-api
-artifact_total: 99
+artifact_total: 179
 asyncapis:
 - description: Marqeta delivers real-time event notifications to a developer-configured HTTPS endpoint when specific events occur within a card program. Each program supports up to five active webhook configurations
   name: Marqeta Webhooks
   slug: marqeta-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Core accepted countries API
+  slug: open-marqeta-accepted-countries-api
+- collection_type: open
+  name: Core accepted countries Account API
+  slug: open-marqeta-account-api
+- collection_type: open
+  name: Core accepted countries Account Bundle Transitions API
+  slug: open-marqeta-account-bundle-transitions-api
+- collection_type: open
+  name: Core accepted countries Account Cards API
+  slug: open-marqeta-account-cards-api
+- collection_type: open
+  name: Core accepted countries Account Documents API
+  slug: open-marqeta-account-documents-api
+- collection_type: open
+  name: Core accepted countries account holder groups API
+  slug: open-marqeta-account-holder-groups-api
+- collection_type: open
+  name: Core accepted countries Account Refunds API
+  slug: open-marqeta-account-refunds-api
+- collection_type: open
+  name: Core accepted countries Account Rewards API
+  slug: open-marqeta-account-rewards-api
+- collection_type: open
+  name: Core accepted countries Account Signup Bonus API
+  slug: open-marqeta-account-signup-bonus-api
+- collection_type: open
+  name: Core accepted countries Account Transitions API
+  slug: open-marqeta-account-transitions-api
+- collection_type: open
+  name: Core accepted countries Accounts API
+  slug: open-marqeta-accounts-api
+- collection_type: open
+  name: Core accepted countries AccountUsers API
+  slug: open-marqeta-accountusers-api
+- collection_type: open
+  name: Core accepted countries Adjustments API
+  slug: open-marqeta-adjustments-api
+- collection_type: open
+  name: Core accepted countries Admin API
+  slug: open-marqeta-admin-api
+- collection_type: open
+  name: Core accepted countries auth controls API
+  slug: open-marqeta-auth-controls-api
+- collection_type: open
+  name: Core accepted countries auto reloads API
+  slug: open-marqeta-auto-reloads-api
+- collection_type: open
+  name: Core accepted countries Balance Refunds API
+  slug: open-marqeta-balance-refunds-api
+- collection_type: open
+  name: Core accepted countries bank transfers API
+  slug: open-marqeta-bank-transfers-api
+- collection_type: open
+  name: Core accepted countries bulk issuances API
+  slug: open-marqeta-bulk-issuances-api
+- collection_type: open
+  name: Core accepted countries Bundles API
+  slug: open-marqeta-bundles-api
+- collection_type: open
+  name: Core accepted countries business transitions API
+  slug: open-marqeta-business-transitions-api
+- collection_type: open
+  name: Core accepted countries businesses API
+  slug: open-marqeta-businesses-api
+- collection_type: open
+  name: Core accepted countries Card Group API
+  slug: open-marqeta-card-group-api
+- collection_type: open
+  name: Core accepted countries card products API
+  slug: open-marqeta-card-products-api
+- collection_type: open
+  name: Core accepted countries card transitions API
+  slug: open-marqeta-card-transitions-api
+- collection_type: open
+  name: Core accepted countries cardholder balances API
+  slug: open-marqeta-cardholder-balances-api
+- collection_type: open
+  name: Core accepted countries cards API
+  slug: open-marqeta-cards-api
+- collection_type: open
+  name: Core accepted countries chargebacks API
+  slug: open-marqeta-chargebacks-api
+- collection_type: open
+  name: Core accepted countries commando modes API
+  slug: open-marqeta-commando-modes-api
+- collection_type: open
   name: Core API
   slug: open-marqeta-core-api
 - collection_type: open
+  name: Core accepted countries Credit Account Disputes API
+  slug: open-marqeta-credit-account-disputes-api
+- collection_type: open
+  name: Core accepted countries Credit Accounts API
+  slug: open-marqeta-credit-accounts-api
+- collection_type: open
+  name: Core accepted countries Credit Products API
+  slug: open-marqeta-credit-products-api
+- collection_type: open
+  name: Core accepted countries Credit Substatuses API
+  slug: open-marqeta-credit-substatuses-api
+- collection_type: open
+  name: Core accepted countries Delinquency API
+  slug: open-marqeta-delinquency-api
+- collection_type: open
+  name: Core accepted countries Depositaccounts API
+  slug: open-marqeta-depositaccounts-api
+- collection_type: open
+  name: Core accepted countries Digital Wallets Management API
+  slug: open-marqeta-digital-wallets-management-api
+- collection_type: open
+  name: Core accepted countries direct deposit accounts API
+  slug: open-marqeta-direct-deposit-accounts-api
+- collection_type: open
+  name: Core accepted countries direct deposits API
+  slug: open-marqeta-direct-deposits-api
+- collection_type: open
   name: Marqeta DiVA API
   slug: open-marqeta-diva-api
+- collection_type: open
+  name: Core accepted countries fee charges API
+  slug: open-marqeta-fee-charges-api
+- collection_type: open
+  name: Core accepted countries fee refunds API
+  slug: open-marqeta-fee-refunds-api
+- collection_type: open
+  name: Core accepted countries Feedback API
+  slug: open-marqeta-feedback-api
+- collection_type: open
+  name: Core accepted countries Fees API
+  slug: open-marqeta-fees-api
+- collection_type: open
+  name: Core accepted countries funding sources API
+  slug: open-marqeta-funding-sources-api
+- collection_type: open
+  name: Core accepted countries gpa orders API
+  slug: open-marqeta-gpa-orders-api
+- collection_type: open
+  name: Core accepted countries Internal - BIN Pools API
+  slug: open-marqeta-internal-bin-pools-api
+- collection_type: open
+  name: Core accepted countries Journal Entries API
+  slug: open-marqeta-journal-entries-api
+- collection_type: open
+  name: Core accepted countries kyc API
+  slug: open-marqeta-kyc-api
+- collection_type: open
+  name: Core accepted countries Ledger Entries API
+  slug: open-marqeta-ledger-entries-api
+- collection_type: open
+  name: Core accepted countries Loads API
+  slug: open-marqeta-loads-api
+- collection_type: open
+  name: Core accepted countries mcc groups API
+  slug: open-marqeta-mcc-groups-api
+- collection_type: open
+  name: Core accepted countries merchantgroups API
+  slug: open-marqeta-merchantgroups-api
+- collection_type: open
+  name: Core accepted countries Migrations API
+  slug: open-marqeta-migrations-api
+- collection_type: open
+  name: Core accepted countries Payment Schedules API
+  slug: open-marqeta-payment-schedules-api
+- collection_type: open
+  name: Core accepted countries Payment Sources API
+  slug: open-marqeta-payment-sources-api
+- collection_type: open
+  name: Core accepted countries Payments API
+  slug: open-marqeta-payments-api
+- collection_type: open
+  name: Core accepted countries peer transfers API
+  slug: open-marqeta-peer-transfers-api
+- collection_type: open
+  name: Core accepted countries ping API
+  slug: open-marqeta-ping-api
+- collection_type: open
+  name: Core accepted countries PINs API
+  slug: open-marqeta-pins-api
+- collection_type: open
+  name: Core accepted countries Policies API
+  slug: open-marqeta-policies-api
+- collection_type: open
+  name: Core accepted countries Program Balances API
+  slug: open-marqeta-program-balances-api
+- collection_type: open
+  name: Core accepted countries Program Gateways API
+  slug: open-marqeta-program-gateways-api
+- collection_type: open
+  name: Core accepted countries Program Reserve API
+  slug: open-marqeta-program-reserve-api
+- collection_type: open
+  name: Core accepted countries Program Transfers API
+  slug: open-marqeta-program-transfers-api
+- collection_type: open
+  name: Core accepted countries ProgramFunding API
+  slug: open-marqeta-programfunding-api
+- collection_type: open
+  name: Core accepted countries push to card API
+  slug: open-marqeta-push-to-card-api
+- collection_type: open
+  name: Core accepted countries Real-Time Fee Groups API
+  slug: open-marqeta-real-time-fee-groups-api
+- collection_type: open
+  name: Core accepted countries Refunds API
+  slug: open-marqeta-refunds-api
+- collection_type: open
+  name: Core accepted countries Rewards API
+  slug: open-marqeta-rewards-api
+- collection_type: open
+  name: Core accepted countries simulate API
+  slug: open-marqeta-simulate-api
+- collection_type: open
+  name: Core accepted countries Spaces API
+  slug: open-marqeta-spaces-api
+- collection_type: open
+  name: Core accepted countries Statements API
+  slug: open-marqeta-statements-api
+- collection_type: open
+  name: Core accepted countries Transactions API
+  slug: open-marqeta-transactions-api
+- collection_type: open
+  name: Core accepted countries User Transitions API
+  slug: open-marqeta-user-transitions-api
+- collection_type: open
+  name: Core accepted countries Users API
+  slug: open-marqeta-users-api
+- collection_type: open
+  name: Core accepted countries Velocity Controls API
+  slug: open-marqeta-velocity-controls-api
+- collection_type: open
+  name: Core accepted countries Velocity Controls Card Group Balance API
+  slug: open-marqeta-velocity-controls-card-group-balance-api
+- collection_type: open
+  name: Core accepted countries Views API
+  slug: open-marqeta-views-api
+- collection_type: open
+  name: Core accepted countries web push provisioning API
+  slug: open-marqeta-web-push-provisioning-api
+- collection_type: open
+  name: Core accepted countries Webhooks API
+  slug: open-marqeta-webhooks-api
 common:
 - group: company
   title: ''
@@ -405,7 +645,7 @@ plans:
 - name: Marqeta Plans Pricing
   plan_count: 2
   slug: marqeta-plans-pricing
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Marqeta Rate Limits
@@ -453,7 +693,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png
 security:

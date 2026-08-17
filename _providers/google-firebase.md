@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Send messages to devices and topics
   name: Google Firebase Messages API
   slug: google-firebase-messages-api
-artifact_total: 30
+artifact_total: 33
 collections:
 - collection_type: postman
   name: Google Firebase Firebase Cloud Messaging API (FCM) Data API
@@ -63,11 +63,20 @@ collections:
   name: Google Firebase Firebase Cloud Messaging API (FCM) Data Messages API
   slug: postman-google-firebase-messages-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Firebase Firebase Cloud Messaging API (FCM)
   slug: open-firebase-cloud-messaging
 - collection_type: open
   name: Google Firebase Firebase Realtime Database API
   slug: open-firebase-realtime-database
+- collection_type: open
+  name: Google Firebase Firebase Cloud Messaging API (FCM) Data API
+  slug: open-google-firebase-data-api
+- collection_type: open
+  name: Google Firebase Firebase Cloud Messaging API (FCM) Data Messages API
+  slug: open-google-firebase-messages-api
 common:
 - group: build
   title: ''
@@ -197,7 +206,7 @@ plans:
 - name: Google Firebase Plans Pricing
   plan_count: 2
   slug: google-firebase-plans-pricing
-random_paper: 75
+random_paper: 25
 rate_limits:
 - limit_count: 11
   name: Google Firebase Rate Limits
@@ -244,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/screenshots/google-firebase-2026-06-20T182200.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Register HTTPS webhook notification targets (addWebhookNotificationTarget), activate and deactivate them, and subscribe to event types (addSubscriptionsToNotificationTarget) so Highnote pushes account
   name: Highnote Webhooks & Event Notifications API
   slug: highnote-webhooks-api
-artifact_total: 18
+artifact_total: 20
 asyncapis:
 - description: Highnote delivers event notifications to registered HTTPS webhook notification targets (addWebhookNotificationTarget) via outbound POST. Subscribe a target to event types with addSubscriptionsToNotifi
   name: Highnote Event Notifications
@@ -69,6 +69,12 @@ collections:
 - collection_type: postman
   name: Highnote GraphQL API
   slug: postman-highnote-graphql-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Highnote GraphQL API
+  slug: open-highnote-graphql-api
 - collection_type: open
   name: Highnote GraphQL API
   slug: open-highnote
@@ -285,7 +291,7 @@ plans:
 - name: Highnote Plans Pricing
   plan_count: 2
   slug: highnote-plans-pricing
-random_paper: 14
+random_paper: 109
 rate_limits:
 - limit_count: 2
   name: Highnote Rate Limits
@@ -319,7 +325,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:

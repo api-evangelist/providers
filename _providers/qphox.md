@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Qphox is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Qphox''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 80
+random_paper: 113
 score:
   band: minimal
   composite: 6.1
@@ -77,7 +77,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

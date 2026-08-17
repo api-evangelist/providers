@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -100,11 +100,35 @@ arazzos:
 - description: Resolve a location, probe its forecast for alerts, then branch to pull full alert detail.
   name: WeatherAPI Weather Alerts Check
   slug: weatherapi-weather-alerts-workflow
-artifact_total: 144
+artifact_total: 152
 collections:
 - collection_type: postman
   name: WeatherAPI.com
   slug: postman-weatherapi-openapi-original
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WeatherAPI.com Alerts API
+  slug: open-weatherapi-alerts-api
+- collection_type: open
+  name: WeatherAPI.com Alerts Future API
+  slug: open-weatherapi-future-api
+- collection_type: open
+  name: WeatherAPI.com Alerts Geo API
+  slug: open-weatherapi-geo-api
+- collection_type: open
+  name: WeatherAPI.com Alerts History API
+  slug: open-weatherapi-history-api
+- collection_type: open
+  name: WeatherAPI.com Alerts Marine API
+  slug: open-weatherapi-marine-api
+- collection_type: open
+  name: WeatherAPI.com Alerts Sports API
+  slug: open-weatherapi-sports-api
+- collection_type: open
+  name: WeatherAPI.com Alerts Weather API
+  slug: open-weatherapi-weather-api
 common:
 - group: agent
   title: ''
@@ -559,7 +583,7 @@ plans:
 - name: Weatherapi Plans Pricing
   plan_count: 5
   slug: weatherapi-plans-pricing
-random_paper: 106
+random_paper: 23
 rate_limits:
 - limit_count: 7
   name: Weatherapi Rate Limits
@@ -601,7 +625,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/screenshots/weatherapi-2026-06-20T201311.png
 security:

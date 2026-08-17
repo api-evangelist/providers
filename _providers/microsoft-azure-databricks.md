@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -206,14 +206,26 @@ arazzos:
 - description: Partially update a job's settings, then trigger and poll a fresh run.
   name: Azure Databricks Update a Job and Re-run It
   slug: azure-databricks-update-job-and-rerun-workflow
-artifact_total: 227
+artifact_total: 231
 collections:
 - collection_type: postman
   name: Azure Databricks REST API
   slug: postman-azure-databricks
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Databricks REST API
   slug: open-azure-databricks
+- collection_type: open
+  name: Azure Databricks REST Clusters API
+  slug: open-microsoft-azure-databricks-clusters-api
+- collection_type: open
+  name: Azure Databricks REST Clusters Jobs API
+  slug: open-microsoft-azure-databricks-jobs-api
+- collection_type: open
+  name: Azure Databricks REST Clusters Workspace API
+  slug: open-microsoft-azure-databricks-workspace-api
 common:
 - group: operate
   title: ''
@@ -860,7 +872,7 @@ plans:
 - name: Microsoft Azure Databricks Plans Pricing
   plan_count: 6
   slug: microsoft-azure-databricks-plans-pricing
-random_paper: 31
+random_paper: 138
 rate_limits:
 - limit_count: 23
   name: Azure Databricks Rate Limits
@@ -922,7 +934,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/screenshots/microsoft-azure-databricks-2026-06-20T185410.png
 security:

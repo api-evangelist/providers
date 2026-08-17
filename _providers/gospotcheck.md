@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -77,7 +77,50 @@ apis:
 - description: The Users API from GoSpotCheck — 4 operation(s) for users.
   name: GoSpotCheck Users API
   slug: gospotcheck-users-api
-artifact_total: 20
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs API
+  slug: open-gospotcheck-asyncjobs-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs CatalogItems API
+  slug: open-gospotcheck-catalogitems-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs Catalogs API
+  slug: open-gospotcheck-catalogs-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs CustomViews API
+  slug: open-gospotcheck-customviews-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs MissionResponses API
+  slug: open-gospotcheck-missionresponses-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs Missions API
+  slug: open-gospotcheck-missions-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs PlaceGroups API
+  slug: open-gospotcheck-placegroups-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs Places API
+  slug: open-gospotcheck-places-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs TaskResponses API
+  slug: open-gospotcheck-taskresponses-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs Tasks API
+  slug: open-gospotcheck-tasks-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs Teams API
+  slug: open-gospotcheck-teams-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs UserPlaceAssignments API
+  slug: open-gospotcheck-userplaceassignments-api
+- collection_type: open
+  name: GoSpotCheck External AsyncJobs Users API
+  slug: open-gospotcheck-users-api
 common:
 - group: company
   title: ''
@@ -227,7 +270,7 @@ overview: 'GoSpotCheck publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   GoSpotCheck''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 26 more developer resources.'
-random_paper: 98
+random_paper: 135
 rate_limits:
 - limit_count: 3
   name: Gospotcheck Rate Limits
@@ -255,7 +298,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/screenshots/gospotcheck-2026-07-25T220116.png
 security:

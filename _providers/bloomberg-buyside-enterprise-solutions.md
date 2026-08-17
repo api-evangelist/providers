@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -111,14 +111,83 @@ apis:
 - description: Yield curve construction and management
   name: Bloomberg Buyside Enterprise Solutions Yield Curves API
   slug: bloomberg-buyside-enterprise-solutions-yield-curves-api
-artifact_total: 40
+artifact_total: 63
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics API
   slug: open-bloomberg-buyside-analytics
 - collection_type: open
   name: Bloomberg Buyside Enterprise Solutions Bloomberg Data API
   slug: open-bloomberg-buyside-data
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations API
+  slug: open-bloomberg-buyside-enterprise-solutions-allocations-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Benchmarks API
+  slug: open-bloomberg-buyside-enterprise-solutions-benchmarks-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Blotters API
+  slug: open-bloomberg-buyside-enterprise-solutions-blotters-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Brokers API
+  slug: open-bloomberg-buyside-enterprise-solutions-brokers-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Compliance API
+  slug: open-bloomberg-buyside-enterprise-solutions-compliance-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Corporate Actions API
+  slug: open-bloomberg-buyside-enterprise-solutions-corporate-actions-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Derivatives API
+  slug: open-bloomberg-buyside-enterprise-solutions-derivatives-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Executions API
+  slug: open-bloomberg-buyside-enterprise-solutions-executions-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Field Search API
+  slug: open-bloomberg-buyside-enterprise-solutions-field-search-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Fixed Income API
+  slug: open-bloomberg-buyside-enterprise-solutions-fixed-income-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Historical Data API
+  slug: open-bloomberg-buyside-enterprise-solutions-historical-data-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Holdings API
+  slug: open-bloomberg-buyside-enterprise-solutions-holdings-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Market Data API
+  slug: open-bloomberg-buyside-enterprise-solutions-market-data-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Orders API
+  slug: open-bloomberg-buyside-enterprise-solutions-orders-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Performance API
+  slug: open-bloomberg-buyside-enterprise-solutions-performance-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Portfolios API
+  slug: open-bloomberg-buyside-enterprise-solutions-portfolios-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Pricing API
+  slug: open-bloomberg-buyside-enterprise-solutions-pricing-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Reference Data API
+  slug: open-bloomberg-buyside-enterprise-solutions-reference-data-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Risk API
+  slug: open-bloomberg-buyside-enterprise-solutions-risk-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Scenario Analysis API
+  slug: open-bloomberg-buyside-enterprise-solutions-scenario-analysis-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Stress Testing API
+  slug: open-bloomberg-buyside-enterprise-solutions-stress-testing-api
+- collection_type: open
+  name: Bloomberg Buyside Enterprise Solutions Bloomberg Analytics Allocations Yield Curves API
+  slug: open-bloomberg-buyside-enterprise-solutions-yield-curves-api
 - collection_type: open
   name: Bloomberg Buyside Enterprise Solutions Bloomberg Order Management API
   slug: open-bloomberg-buyside-order-management
@@ -196,7 +265,7 @@ plans:
 - name: Bloomberg Buyside Enterprise Solutions Plans Pricing
   plan_count: 3
   slug: bloomberg-buyside-enterprise-solutions-plans-pricing
-random_paper: 102
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Bloomberg Buyside Enterprise Solutions Rate Limits
@@ -236,7 +305,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/screenshots/bloomberg-buyside-enterprise-solutions-2026-07-25T203359.png
 security:

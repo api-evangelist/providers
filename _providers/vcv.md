@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The chatbot API from VCV — 2 operation(s) for chatbot.
@@ -82,11 +82,66 @@ apis:
 - description: The webhook API from VCV — 2 operation(s) for webhook.
   name: VCV webhook API
   slug: vcv-webhook-api
-artifact_total: 21
+artifact_total: 39
 asyncapis:
 - description: VCV delivers outbound webhooks for recruitment events. Subscriptions are managed via the Open API v3 company-webhooks endpoints (create/list/get/ update/delete), each carrying a target url, an event t
   name: VCV Webhooks
   slug: vcv-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VCV chatbot API
+  slug: open-vcv-chatbot-api
+- collection_type: open
+  name: VCV chatbot companies API
+  slug: open-vcv-companies-api
+- collection_type: open
+  name: VCV chatbot countries API
+  slug: open-vcv-countries-api
+- collection_type: open
+  name: VCV chatbot enumeration API
+  slug: open-vcv-enumeration-api
+- collection_type: open
+  name: VCV chatbot integration API
+  slug: open-vcv-integration-api
+- collection_type: open
+  name: VCV chatbot interview API
+  slug: open-vcv-interview-api
+- collection_type: open
+  name: VCV chatbot invite API
+  slug: open-vcv-invite-api
+- collection_type: open
+  name: VCV chatbot Languages API
+  slug: open-vcv-languages-api
+- collection_type: open
+  name: VCV chatbot limits API
+  slug: open-vcv-limits-api
+- collection_type: open
+  name: VCV chatbot response API
+  slug: open-vcv-response-api
+- collection_type: open
+  name: VCV chatbot survey API
+  slug: open-vcv-survey-api
+- collection_type: open
+  name: VCV chatbot tags API
+  slug: open-vcv-tags-api
+- collection_type: open
+  name: VCV chatbot test API
+  slug: open-vcv-test-api
+- collection_type: open
+  name: VCV chatbot users API
+  slug: open-vcv-users-api
+- collection_type: open
+  name: VCV chatbot vacancy API
+  slug: open-vcv-vacancy-api
+- collection_type: open
+  name: VCV chatbot videointerview API
+  slug: open-vcv-videointerview-api
+- collection_type: open
+  name: VCV chatbot webhook API
+  slug: open-vcv-webhook-api
 common:
 - group: company
   title: ''
@@ -211,7 +266,7 @@ overview: 'VCV publishes 17 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   VCV''s developer surface includes documentation, API reference, pricing, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 95
+random_paper: 37
 score:
   band: thin
   composite: 41.0
@@ -234,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

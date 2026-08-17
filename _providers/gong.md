@@ -2,7 +2,7 @@
 access_model:
   confidence: high
   label: Self-serve signup
-  onboarding: self-serve
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-12'
+  score: 58.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -117,44 +118,114 @@ apis:
 - description: Operations for managing workspaces
   name: Gong Workspaces API
   slug: gong-workspaces-api
-artifact_total: 145
+artifact_total: 171
+asyncapis:
+- description: ''
+  name: Gong Webhooks
+  slug: gong-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gong Auditing Audit Logs API
+  slug: open-gong-audit-logs-api
 - collection_type: open
   name: Gong Auditing API
   slug: open-gong-auditing
 - collection_type: open
+  name: Gong Auditing Audit Logs Calls API
+  slug: open-gong-calls-api
+- collection_type: open
   name: Gong Calls API
   slug: open-gong-calls
+- collection_type: open
+  name: Gong Auditing Audit Logs CRM Data API
+  slug: open-gong-crm-data-api
+- collection_type: open
+  name: Gong Auditing Audit Logs CRM Integration API
+  slug: open-gong-crm-integration-api
+- collection_type: open
+  name: Gong Auditing Audit Logs CRM Schema API
+  slug: open-gong-crm-schema-api
 - collection_type: open
   name: Gong CRM API
   slug: open-gong-crm
 - collection_type: open
+  name: Gong Auditing Audit Logs Data Privacy API
+  slug: open-gong-data-privacy-api
+- collection_type: open
   name: Gong Data Privacy API
   slug: open-gong-data-privacy
+- collection_type: open
+  name: Gong Auditing Audit Logs Digital Interactions API
+  slug: open-gong-digital-interactions-api
 - collection_type: open
   name: Gong Engage API
   slug: open-gong-engage
 - collection_type: open
+  name: Gong Auditing Audit Logs Engagement Events API
+  slug: open-gong-engagement-events-api
+- collection_type: open
   name: Gong Engagement API
   slug: open-gong-engagement
+- collection_type: open
+  name: Gong Auditing Audit Logs Flows API
+  slug: open-gong-flows-api
+- collection_type: open
+  name: Gong Auditing Audit Logs Folders API
+  slug: open-gong-folders-api
+- collection_type: open
+  name: Gong Auditing Audit Logs Library API
+  slug: open-gong-library-api
 - collection_type: open
   name: Gong Library API
   slug: open-gong-library
 - collection_type: open
+  name: Gong Auditing Audit Logs Meetings API
+  slug: open-gong-meetings-api
+- collection_type: open
   name: Gong Meetings API
   slug: open-gong-meetings
+- collection_type: open
+  name: Gong Auditing Audit Logs Permission Profiles API
+  slug: open-gong-permission-profiles-api
 - collection_type: open
   name: Gong Permissions API
   slug: open-gong-permissions
 - collection_type: open
+  name: Gong Auditing Audit Logs Prospects API
+  slug: open-gong-prospects-api
+- collection_type: open
+  name: Gong Auditing Audit Logs Recordings API
+  slug: open-gong-recordings-api
+- collection_type: open
+  name: Gong Auditing Audit Logs Scorecards API
+  slug: open-gong-scorecards-api
+- collection_type: open
   name: Gong Settings API
   slug: open-gong-settings
+- collection_type: open
+  name: Gong Auditing Audit Logs Statistics API
+  slug: open-gong-statistics-api
 - collection_type: open
   name: Gong Stats API
   slug: open-gong-stats
 - collection_type: open
+  name: Gong Auditing Audit Logs Trackers API
+  slug: open-gong-trackers-api
+- collection_type: open
+  name: Gong Auditing Audit Logs Transcripts API
+  slug: open-gong-transcripts-api
+- collection_type: open
+  name: Gong Auditing Audit Logs Users API
+  slug: open-gong-users-api
+- collection_type: open
   name: Gong Users API
   slug: open-gong-users
+- collection_type: open
+  name: Gong Auditing Audit Logs Workspaces API
+  slug: open-gong-workspaces-api
 common:
 - group: agent
   title: ''
@@ -252,8 +323,104 @@ common:
   title: ''
   type: Twitter
   url: https://x.com/gong_io
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gong-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/gong-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/gong-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/gong-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/gong-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gong-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/gong-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.gong.io/security
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/gong-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/gong-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.gong.io
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://help.gong.io/docs/public-api-change-deprecating-call-action-items-in-the-extensive-endpoint
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/gong-scopes.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/gong-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/gong-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/gong-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/gong-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/gong-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/gong-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/gong-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://help.gong.io/docs/how-to-use-the-gong-developers-hub
+- group: operate
+  title: ''
+  type: Support
+  url: https://contact.gong.io/hc/en-us/requests/new
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.gong.io/
 created: '2026-05-08'
-description: Gong is the revenue intelligence platform that captures and analyzes customer interactions across calls, emails, and meetings. APIs expose calls, transcripts, deals, users, and analytics.
+description: Gong is the revenue intelligence platform that captures and analyzes customer interactions across calls, emails, meetings and web conferencing, then applies AI to surface deal risk, coaching signal and forecast correction for B2B go-to-market teams. Its public REST v2 API at api.gong.io exposes 57 operations covering calls, transcripts, recordings, users, permission profiles, workspaces, statistics, scorecards, trackers, library content, Engage flows and prospects, engagement events, meetings, audit logs, generic CRM ingestion and GDPR/CCPA data-privacy erasure. Gong also runs an official remote MCP server at mcp.gong.io for external AI agents, a rule-driven outbound webhook surface for calls, and a frontend SDK for partner apps embedded in the Gong UI.
 finops:
 - name: Gong Finops
   service_category: Sales
@@ -561,24 +728,28 @@ jsonld:
   property_count: 13
   slug: gong-context
 layout: provider
-modified: '2026-08-08'
+mcp_servers:
+- description: ''
+  name: gong-mcp.yml
+  slug: gong-mcpyml
+modified: '2026-08-13'
 name: Gong
 nav: Providers
 network: true
 overview: 'Gong publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Users API, CRM Integration API, and 22 more. Tagged areas include Sales, Revenue Intelligence, Conversation, Analytics, and AI.
 
 
-  The Gong catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Gong catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Gong''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, status page, and 17 more developer resources.'
+  Gong''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, status page, and 41 more developer resources.'
 plans:
 - name: Gong Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: gong-plans-pricing
-random_paper: 67
+random_paper: 129
 rate_limits:
-- limit_count: 1
+- limit_count: 2
   name: Gong Rate Limits
   slug: gong-rate-limits
 rules:
@@ -590,17 +761,22 @@ rules:
     info: 2
     warn: 4
   slug: gong-jsonschema-spectral-rules
+scopes:
+- name: Gong Scopes
+  scope_count: 6
+  slug: gong-scopes
+  summary_line: 6 scopes
 score:
-  band: developing
-  composite: 54.4
-  delta: 0.0
+  band: exemplar
+  composite: 76.8
+  delta: 22.4
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 68.7
-    developer_ergonomics: 39.1
-    discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 21.1
+    commercial_clarity: 68.4
+    contract_quality: 77.6
+    developer_ergonomics: 80.4
+    discoverability: 92.6
+    governance: 79.2
+    operational_transparency: 68.4
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -610,22 +786,26 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/screenshots/gong-2026-06-20T182025.png
 security:
 - kind: authentication
   name: Gong Authentication
   slug: gong-authentication
-  summary_line: http · 2 schemes
+  summary_line: http/oauth2 · 4 schemes
 - kind: domain-security
   name: Gong Domain Security
   slug: gong-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Gong Vulnerability Disclosure
+  slug: gong-vulnerability-disclosure
+  summary_line: disclosure policy published
 - kind: trust-center
   name: Gong Trust Center
   slug: gong-trust-center
-  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, CSA STAR
+  summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO/IEC 42001:2023, PCI DSS (SAQ D), CSA STAR, EU-U.S. Data Privacy Framework
 slug: gong
 tags:
 - Sales
@@ -633,5 +813,11 @@ tags:
 - Conversation
 - Analytics
 - AI
+- Conversation Intelligence
+- Sales Engagement
+- CRM
+- Forecasting
+- Transcription
+- Agents
 website: https://www.gong.io/
 ---

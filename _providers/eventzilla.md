@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: Organizer and sub-organizer operations
   name: Eventzilla Users API
   slug: eventzilla-users-api
-artifact_total: 28
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eventzilla Attendees API
+  slug: open-eventzilla-attendees-api
+- collection_type: open
+  name: Eventzilla Attendees Categories API
+  slug: open-eventzilla-categories-api
+- collection_type: open
+  name: Eventzilla Attendees Checkout API
+  slug: open-eventzilla-checkout-api
+- collection_type: open
+  name: Eventzilla Attendees Events API
+  slug: open-eventzilla-events-api
+- collection_type: open
+  name: Eventzilla Attendees Tickets API
+  slug: open-eventzilla-tickets-api
+- collection_type: open
+  name: Eventzilla Attendees Transactions API
+  slug: open-eventzilla-transactions-api
+- collection_type: open
+  name: Eventzilla Attendees Users API
+  slug: open-eventzilla-users-api
 common:
 - group: agent
   title: ''
@@ -181,7 +206,7 @@ plans:
 - name: Unlimited
   plan_count: 0
   slug: unlimited
-random_paper: 6
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Default
@@ -215,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/screenshots/eventzilla-2026-06-20T180909.png
 security:

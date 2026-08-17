@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,11 +45,20 @@ apis:
 - description: Retrieve tracking event updates for a reference
   name: Vizion Updates API
   slug: vizion-updates-api
-artifact_total: 17
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Vizion Container Tracking API
   slug: open-vizion-container-tracking
+- collection_type: open
+  name: Vizion Container Tracking References API
+  slug: open-vizion-references-api
+- collection_type: open
+  name: Vizion Container Tracking References Updates API
+  slug: open-vizion-updates-api
 common:
 - group: agent
   title: ''
@@ -145,7 +154,7 @@ plans:
 - name: Vizion Plans Pricing
   plan_count: 3
   slug: vizion-plans-pricing
-random_paper: 71
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Vizion Rate Limits
@@ -187,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/screenshots/vizion-2026-06-20T201119.png
 security:

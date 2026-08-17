@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Anonymous agent-commerce surface for the Prime Labs supplement storefront, implementing the Universal Commerce Protocol 2026-04-08 over MCP. Thirteen tools cover catalog search, product lookup, cart l
@@ -131,7 +131,7 @@ overview: 'Boosted Commerce publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Boosted Commerce''s developer surface includes support, authentication, and 18 more developer resources.'
-random_paper: 80
+random_paper: 1
 score:
   band: emerging
   composite: 21.4
@@ -155,7 +155,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

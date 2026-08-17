@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 20
 apis:
 - description: The Account API from OTO Global — 4 operation(s) for account.
@@ -91,11 +91,75 @@ apis:
 - description: 'WEBHOOK for ORDER There are 3 types of webhook for now, newOrders, orderStatus , shipmentError and walletTransaction. OTO will push updates to the registered webhook endpoint for the orderStatus type '
   name: OTO Global Webhook API
   slug: oto-global-webhook-api
-artifact_total: 24
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Oto Global Webhooks
   slug: oto-global-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OTO API V2 Account API
+  slug: open-oto-global-account-api
+- collection_type: open
+  name: OTO API V2 Account Authorization API
+  slug: open-oto-global-authorization-api
+- collection_type: open
+  name: OTO API V2 Account Brands API
+  slug: open-oto-global-brands-api
+- collection_type: open
+  name: OTO API V2 Account Carrier Integrations API
+  slug: open-oto-global-carrier-integrations-api
+- collection_type: open
+  name: OTO API V2 Account Customer Notifications API
+  slug: open-oto-global-customer-notifications-api
+- collection_type: open
+  name: OTO API V2 Account Marketplace API
+  slug: open-oto-global-marketplace-api
+- collection_type: open
+  name: OTO API V2 Account National Address API
+  slug: open-oto-global-national-address-api
+- collection_type: open
+  name: OTO API V2 Account Orders API
+  slug: open-oto-global-orders-api
+- collection_type: open
+  name: OTO API V2 Account OTO FLEX API
+  slug: open-oto-global-oto-flex-api
+- collection_type: open
+  name: OTO API V2 Account Pickup Locations API
+  slug: open-oto-global-pickup-locations-api
+- collection_type: open
+  name: OTO API V2 Account Products API
+  slug: open-oto-global-products-api
+- collection_type: open
+  name: OTO API V2 Account Return Shipments API
+  slug: open-oto-global-return-shipments-api
+- collection_type: open
+  name: OTO API V2 Account Sales Channels API
+  slug: open-oto-global-sales-channels-api
+- collection_type: open
+  name: OTO API V2 Account Shipments API
+  slug: open-oto-global-shipments-api
+- collection_type: open
+  name: OTO API V2 Account Shipping Label(AWB) API
+  slug: open-oto-global-shipping-label-awb-api
+- collection_type: open
+  name: OTO API V2 Account Shipping Prices API
+  slug: open-oto-global-shipping-prices-api
+- collection_type: open
+  name: OTO API V2 Account Stock Management API
+  slug: open-oto-global-stock-management-api
+- collection_type: open
+  name: OTO API V2 Account Tracking API
+  slug: open-oto-global-tracking-api
+- collection_type: open
+  name: OTO API V2 Account Transactions API
+  slug: open-oto-global-transactions-api
+- collection_type: open
+  name: OTO API V2 Account Webhook API
+  slug: open-oto-global-webhook-api
 common:
 - group: auth
   title: ''
@@ -232,7 +296,7 @@ overview: 'OTO Global publishes 20 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OTO Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 48
+random_paper: 114
 score:
   band: developing
   composite: 50.0
@@ -261,7 +325,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oto-global/refs/heads/main/screenshots/oto-global-2026-08-07T191028.png
 security:

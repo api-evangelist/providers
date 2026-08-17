@@ -27,7 +27,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 66.2,
      "agent_band": "agent-native",
@@ -65,7 +65,7 @@
       "developer_ergonomics": 100.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 63.5,
      "agent_band": "agent-ready",
@@ -91,6 +91,7 @@
      "name": "SugarCRM",
      "slug": "sugarcrm",
      "description": "SugarCRM — rebranded as SugarAI in April 2026, with www.sugarcrm.com now redirecting to www.sugarai.com — is a B2B sales CRM platform serving 4,000+ customers and over one million users across 120+ countries. Its product suite spans Sugar Sell (sales automation), Sugar Serve (customer service), Sugar Market (marketing automation), and sales-i (sales intelligence from ERP data), with an emphasis on domain-specific AI that surfaces opportunities and recommends next actions and native integration with 180+ ERP systems. Sugar exposes a REST API on every deployment at https://<site_url>/rest/v{version}/ (v10 through v11.27 as of the 26.1 Developer Guide), authenticated with two-legged OAuth 2.0 and returning JSON. The API covers CRM modules (Accounts, Contacts, Leads, Opportunities, Cases and more) with offset pagination, a /{module}/filter query surface, and role-based access control. Outbound events are delivered as Web Logic Hooks through the instance job queue. Official client libraries include the JavaScript Ventana connector and the PHP REST SDK. There is no public OpenAPI — the endpoint reference is served per instance at /rest/v{version}/help.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/screenshots/sugarcrm-2026-08-17T080426.png",
      "score": 66.8,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -102,7 +103,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -151,7 +152,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 59.0,
      "agent_band": "agent-ready",
@@ -189,7 +190,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -234,7 +235,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 43.2,
      "agent_band": "agent-ready",
@@ -271,6 +272,7 @@
      "name": "Replicant",
      "slug": "replicant",
      "description": "Replicant is an enterprise agentic customer service platform that automates high-volume contact center conversations across voice, chat, and messaging, and analyzes 100% of interactions for QA, compliance, and automation insights. Its two products — Conversation Automation and Conversation Intelligence — replicate top-performing human agents using a hybrid agentic-plus-deterministic architecture with human-in-the-loop escalation, and integrate with existing CCaaS, CRM, telephony, and ticketing stacks. Replicant is telephony-native, runs multi-region on Google Cloud, and is built for SOC 2, HIPAA, PCI, and GDPR requirements. It is sales-led with no public developer portal, but it does publish one machine-readable contract — the Replicant Outbound API (OpenAPI 3.0.0, v2.0.1), served from the provider's own Swagger UI at docs.replicant.ai and live on api.replicant.ai — which places outbound AI voice calls and SMS against a configured campaign and notifies the caller of call status.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/screenshots/replicant-2026-08-17T081526.png",
      "score": 53.1,
      "band": "developing",
      "band_label": "Developing",
@@ -282,7 +284,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 57.2,
      "agent_band": "agent-ready",
@@ -308,6 +310,7 @@
      "name": "involve.me",
      "slug": "involve-me",
      "description": "involve.me is an AI quiz, form and funnel builder with built-in email automation and a lightweight CRM, operated by stereosense GmbH and used by marketing teams to capture, qualify and follow up on leads. Customers build quizzes, assessments, calculators, product finders, landing pages, surveys and payment pages in a no-code editor, publish them as a hosted page or an embedded widget, and route submissions into 55+ native CRM and email destinations. Its programmable surface is deliberately narrow: there is no public REST API and no OpenAPI, and the only machine-addressable paths are an outbound webhook that fires when a participant completes a funnel (Scale plan and above), a copy-paste JavaScript embed loader, Zapier and Make connectors, and an OAuth-protected Model Context Protocol server that exposes the marketing website's Statamic CMS rather than the product itself.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/involve-me/refs/heads/main/screenshots/involve-me-2026-08-17T081000.png",
      "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
@@ -319,7 +322,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 47.3,
      "agent_band": "agent-ready",
@@ -345,6 +348,7 @@
      "name": "Bonjoro",
      "slug": "bonjoro",
      "description": "Bonjoro is a personal-video customer engagement platform operated by Vimily Pty Ltd of Sydney, Australia. Sales, marketing, customer success and education teams use it to record short one-to-one videos — \"Bonjoros\" — and deliver them at the moments that decide a relationship: signup, onboarding, first purchase, renewal and churn risk. Alongside the messaging product it runs a video testimonial collection surface. Bonjoro publishes a REST API (API V2, 94 paths and 123 operations) covering greets, recipient profiles, campaigns and workspaces, recordings and media, message templates, engagement results and stats, transmissions and deliverability, replies, teams and users, custom sending domains and verified signatures, and the trigger/action automation engine that wires Bonjoro into CRMs and email platforms. REST API access is published as a Company-tier entitlement; the wider integration surface runs through 18+ native connectors and a first-party Zapier app.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png",
      "score": 50.5,
      "band": "developing",
      "band_label": "Developing",
@@ -356,7 +360,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 48.6,
      "agent_band": "agent-ready",
@@ -394,7 +398,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
@@ -432,7 +436,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 49.3,
      "agent_band": "agent-ready",
@@ -470,7 +474,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 31.1,
      "agent_band": "agent-aware",
@@ -517,7 +521,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 40.5,
      "agent_band": "agent-ready",
@@ -555,7 +559,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 31.1,
      "agent_band": "agent-aware",
@@ -593,7 +597,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -631,7 +635,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -679,7 +683,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -717,7 +721,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -765,7 +769,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -809,7 +813,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,

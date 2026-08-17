@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Liquidity Providers API from Stablesea — 2 operation(s) for liquidity providers.
@@ -37,7 +37,17 @@ apis:
 - description: The Organizations API from Stablesea — 11 operation(s) for organizations.
   name: Stablesea Organizations API
   slug: stablesea-organizations-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stable Sea Terminal Liquidity Providers API
+  slug: open-stablesea-liquidity-providers-api
+- collection_type: open
+  name: Stable Sea Terminal Liquidity Providers Organizations API
+  slug: open-stablesea-organizations-api
 common:
 - group: agent
   title: ''
@@ -111,7 +121,7 @@ overview: 'Stablesea publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Stablesea''s developer surface includes documentation, API reference, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 108
+random_paper: 54
 score:
   band: thin
   composite: 34.0
@@ -140,7 +150,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

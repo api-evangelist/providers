@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,11 +78,38 @@ apis:
 - description: Summoner profile operations
   name: Riot Games Summoner API
   slug: riot-games-summoner-api
-artifact_total: 45
+artifact_total: 54
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Riot Games League of Legends Champion API
+  slug: open-riot-games-champion-api
+- collection_type: open
+  name: Riot Games League of Legends Champion Champion Mastery API
+  slug: open-riot-games-champion-mastery-api
+- collection_type: open
+  name: Riot Games League of Legends Champion Clash API
+  slug: open-riot-games-clash-api
+- collection_type: open
+  name: Riot Games of Legends Champion League API
+  slug: open-riot-games-league-api
 - collection_type: open
   name: Riot Games League of Legends API
   slug: open-riot-games-league-of-legends
+- collection_type: open
+  name: Riot Games League of Legends Champion Match API
+  slug: open-riot-games-match-api
+- collection_type: open
+  name: Riot Games League of Legends Champion Spectator API
+  slug: open-riot-games-spectator-api
+- collection_type: open
+  name: Riot Games League of Legends Champion Status API
+  slug: open-riot-games-status-api
+- collection_type: open
+  name: Riot Games League of Legends Champion Summoner API
+  slug: open-riot-games-summoner-api
 common:
 - group: agent
   title: ''
@@ -255,7 +282,7 @@ plans:
 - name: Riot Games Plans Pricing
   plan_count: 3
   slug: riot-games-plans-pricing
-random_paper: 56
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Riot Games Rate Limits
@@ -297,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png
 security:

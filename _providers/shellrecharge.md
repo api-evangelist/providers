@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -45,8 +45,17 @@ apis:
 - description: The Sessions API from ShellRecharge — 4 operation(s) for sessions.
   name: ShellRecharge Sessions API
   slug: shellrecharge-sessions-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ShellRecharge EV Platform Locations API
+  slug: open-shellrecharge-locations-api
+- collection_type: open
+  name: ShellRecharge EV Platform Locations Sessions API
+  slug: open-shellrecharge-sessions-api
 - collection_type: open
   name: ShellRecharge EV Platform API
   slug: open-shellrecharge
@@ -115,7 +124,7 @@ plans:
 - name: Shellrecharge Plans Pricing
   plan_count: 1
   slug: shellrecharge-plans-pricing
-random_paper: 49
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Shellrecharge Rate Limits
@@ -151,7 +160,7 @@ score:
     regime_id: energy_utilities
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

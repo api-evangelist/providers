@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -74,11 +74,35 @@ apis:
 - description: The Threads API from LiveChat — 4 operation(s) for threads.
   name: LiveChat Threads API
   slug: livechat-threads-api
-artifact_total: 17
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: LiveChat Webhooks and RTM API
   slug: open-livechat-asyncapi
+- collection_type: open
+  name: LiveChat Agent Chat Chats API
+  slug: open-livechat-chats-api
+- collection_type: open
+  name: LiveChat Agent Chat Chats Customers API
+  slug: open-livechat-customers-api
+- collection_type: open
+  name: LiveChat Agent Chat Chats Events API
+  slug: open-livechat-events-api
+- collection_type: open
+  name: LiveChat Agent Chat Chats Other API
+  slug: open-livechat-other-api
+- collection_type: open
+  name: LiveChat Agent Chat Chats Properties API
+  slug: open-livechat-properties-api
+- collection_type: open
+  name: LiveChat Agent Chat Chats Status API
+  slug: open-livechat-status-api
+- collection_type: open
+  name: LiveChat Agent Chat Chats Threads API
+  slug: open-livechat-threads-api
 - collection_type: open
   name: LiveChat Agent Chat API
   slug: open-livechat
@@ -139,7 +163,7 @@ overview: 'LiveChat publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LiveChat''s developer surface includes authentication, documentation, developer console, signup flow, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 8
+random_paper: 103
 score:
   band: thin
   composite: 34.5
@@ -160,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/screenshots/livechat-2026-06-20T184613.png
 security:

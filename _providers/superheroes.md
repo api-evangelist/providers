@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,8 +59,32 @@ apis:
 - description: Per-character occupation and base slices.
   name: Superhero API (akabab) Work API
   slug: superheroes-work-api
-artifact_total: 25
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Superhero API (akabab) Appearance API
+  slug: open-superheroes-appearance-api
+- collection_type: open
+  name: Superhero API (akabab) Appearance Biography API
+  slug: open-superheroes-biography-api
+- collection_type: open
+  name: Superhero API (akabab) Appearance Characters API
+  slug: open-superheroes-characters-api
+- collection_type: open
+  name: Superhero API (akabab) Appearance Connections API
+  slug: open-superheroes-connections-api
+- collection_type: open
+  name: Superhero API (akabab) Appearance Images API
+  slug: open-superheroes-images-api
+- collection_type: open
+  name: Superhero API (akabab) Appearance Powerstats API
+  slug: open-superheroes-powerstats-api
+- collection_type: open
+  name: Superhero API (akabab) Appearance Work API
+  slug: open-superheroes-work-api
 - collection_type: open
   name: Superhero API (akabab)
   slug: open-superheroes
@@ -222,7 +246,7 @@ plans:
 - name: Superheroes Plans Pricing
   plan_count: 1
   slug: superheroes-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Superheroes Rate Limits
@@ -264,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/screenshots/superheroes-2026-06-20T194712.png
 security:

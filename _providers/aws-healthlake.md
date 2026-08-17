@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Resource tagging operations for cost allocation and resource management
   name: AWS HealthLake Tags API
   slug: aws-healthlake-tags-api
-artifact_total: 72
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Amazon HealthLake Datastore API
@@ -77,6 +77,21 @@ collections:
 - collection_type: postman
   name: Amazon HealthLake Datastore Tags API
   slug: postman-aws-healthlake-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon HealthLake Datastore API
+  slug: open-aws-healthlake-datastore-api
+- collection_type: open
+  name: Amazon HealthLake Datastore Export API
+  slug: open-aws-healthlake-export-api
+- collection_type: open
+  name: Amazon HealthLake Datastore Import API
+  slug: open-aws-healthlake-import-api
+- collection_type: open
+  name: Amazon HealthLake Datastore Tags API
+  slug: open-aws-healthlake-tags-api
 common:
 - group: build
   title: ''
@@ -359,7 +374,7 @@ plans:
 - name: Aws Healthlake Plans
   plan_count: 2
   slug: aws-healthlake-plans
-random_paper: 99
+random_paper: 78
 rate_limits:
 - limit_count: 33
   name: Aws Healthlake Rate Limits
@@ -399,7 +414,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/screenshots/aws-healthlake-2026-06-20T172758.png
 security:

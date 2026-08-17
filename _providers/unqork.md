@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -31,11 +31,15 @@ apis:
 - description: 'Unqork''s customer-facing REST API, based on open standards, for setting and retrieving module submission data and controlling other aspects of an Unqork environment. 93 operations across Submissions, '
   name: Unqork Customer API
   slug: unqork-customer-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Unqork Webhooks
   slug: unqork-webhooks
+collections:
+- collection_type: open
+  name: Unqork Customer API
+  slug: open-unqork-customer-api
 common:
 - group: agent
   title: ''
@@ -180,7 +184,7 @@ overview: 'Unqork publishes 1 API on the [APIs.io](https://apis.io/) network: Cu
 
 
   Unqork''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 24 more developer resources.'
-random_paper: 72
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Unqork Rate Limits
@@ -219,7 +223,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -1,9 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -12,19 +13,29 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 54.1
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
 - description: REST API returning structured JSON search results across 100+ engines (Google, Bing, Maps, News, Scholar, Images, Shopping, Trends, Jobs, YouTube, Amazon, Walmart, eBay). Single /api/v1/search endpoin
   name: SearchApi SERP API
   slug: searchapi-serp-api
-artifact_total: 4
+- description: The two account-management endpoints SearchApi documents alongside its SERP surface. GET /api/v1/me returns the calling key's monthly allowance, month-to-date usage, remaining credits, searches made i
+  name: SearchApi Account & Analytics API
+  slug: searchapi-account-analytics-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: SearchApi Account & Analytics API
+  slug: open-searchapi-account-api
+- collection_type: open
+  name: SearchApi SERP API
+  slug: open-searchapi-search-api
 common:
 - group: company
   title: ''
@@ -118,10 +129,58 @@ common:
   title: ''
   type: DomainSecurity
   url: security/searchapi-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/searchapi-trust-center.yml
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/searchapi-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/searchapi-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/searchapi-scopes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/searchapi-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/searchapi-plans-pricing.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/searchapi-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/searchapi-data-model.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/searchapi-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/searchapi-search-api-overlay.yaml
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/searchapi-search-api.postman_collection.json
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/searchapi-search-api.opencollection.json
 created: '2026-07-23'
 description: SearchApi is a real-time SERP and search-data API that gives applications and AI agents structured access to results from 100+ search engines — Google Search, Google Maps, Google News, Google Scholar, Google Images, Google Shopping, Google Trends, Google Jobs, YouTube, Bing, Baidu, and marketplace engines like Amazon, Walmart, and eBay — returning clean JSON instead of scraped HTML. It handles proxy rotation, CAPTCHA solving, and geographic/locale targeting server-side, and ships an MCP server plus "use-case bundles" that group selected endpoints around a job so agents can be handed a capability rather than a whole catalog. Used for SEO/rank tracking, market and price intelligence, RAG grounding, and agentic research workflows.
 image: https://www.searchapi.io/og-image.png
@@ -130,26 +189,39 @@ mcp_servers:
 - description: ''
   name: SearchApi hosted MCP server
   slug: searchapi-hosted-mcp-server
-modified: '2026-07-24'
+modified: '2026-08-13'
 name: SearchApi
 nav: Providers
 network: true
-overview: 'SearchApi publishes 1 API on the [APIs.io](https://apis.io/) network: SERP API. Tagged areas include search, serp-api, google-search, web-scraping, and search-data.
+overview: 'SearchApi publishes 2 APIs on the [APIs.io](https://apis.io/) network: SERP API and Account & Analytics API. Tagged areas include search, serp-api, google-search, web-scraping, and search-data.
 
 
-  SearchApi''s developer surface includes documentation, API reference, pricing, signup flow, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 104
+  SearchApi''s developer surface includes documentation, API reference, pricing, signup flow, support, changelog, authentication, and 29 more developer resources.'
+plans:
+- name: Searchapi Plans Pricing
+  plan_count: 8
+  slug: searchapi-plans-pricing
+random_paper: 50
+rate_limits:
+- limit_count: 3
+  name: Searchapi Rate Limits
+  slug: searchapi-rate-limits
+scopes:
+- name: Searchapi Scopes
+  scope_count: 0
+  slug: searchapi-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
+  band: developing
+  composite: 53.0
+  delta: 14.4
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 15.1
-    developer_ergonomics: 52.2
+    commercial_clarity: 92.1
+    contract_quality: 15.3
+    developer_ergonomics: 58.7
     discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 36.8
+    governance: 20.8
+    operational_transparency: 68.4
   previous_composite: 38.6
   provenance:
     conformance: first-party
@@ -160,8 +232,8 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Searchapi Authentication
@@ -171,6 +243,10 @@ security:
   name: Searchapi Domain Security
   slug: searchapi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Searchapi Trust Center
+  slug: searchapi-trust-center
+  summary_line: ISO/IEC 27001:2022, GDPR, SOC 2, PCI DSS, HIPAA, FedRAMP
 slug: searchapi
 tags:
 - search

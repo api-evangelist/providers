@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -57,7 +57,26 @@ arazzos:
 - description: Create a sandbox, poll it until ready to read its preview endpoints, then delete it.
   name: Create and inspect a Signadot sandbox
   slug: signadot-create-and-inspect-sandbox
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Signadot Cluster API
+  slug: open-signadot-cluster-api
+- collection_type: open
+  name: Signadot Cluster Orgs API
+  slug: open-signadot-orgs-api
+- collection_type: open
+  name: Signadot Cluster ResourcePlugins API
+  slug: open-signadot-resourceplugins-api
+- collection_type: open
+  name: Signadot Cluster RouteGroups API
+  slug: open-signadot-routegroups-api
+- collection_type: open
+  name: Signadot Cluster Sandboxes API
+  slug: open-signadot-sandboxes-api
 common:
 - group: other
   title: ''
@@ -187,7 +206,7 @@ overview: 'Signadot publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Signadot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 17
+random_paper: 112
 score:
   band: developing
   composite: 55.1
@@ -211,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

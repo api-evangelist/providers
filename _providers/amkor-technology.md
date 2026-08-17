@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Amkor Technology provides outsourced semiconductor packaging and test services for chip manufacturers worldwide. The company does not currently publish a public developer API.
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Amkor Technology to Present at the Morgan Stanley ...
   url: https://ir.amkor.com/news-releases/news-release-details/amkor-technology-present-morgan-stanley-technology-media-0
-random_paper: 107
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Amkor Technology Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 17.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amkor-technology/refs/heads/main/screenshots/amkor-technology-2026-06-20T171936.png
 security:

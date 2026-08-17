@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: The Volumes API from Google Books — 2 operation(s) for volumes.
   name: Google Books Volumes API
   slug: google-books-volumes-api
-artifact_total: 15
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Google Books API
   slug: open-books
+- collection_type: open
+  name: Google Books Mylibrary API
+  slug: open-google-books-mylibrary-api
+- collection_type: open
+  name: Google Books Mylibrary Users API
+  slug: open-google-books-users-api
+- collection_type: open
+  name: Google Books Mylibrary Volumes API
+  slug: open-google-books-volumes-api
 common:
 - group: agent
   title: ''
@@ -118,7 +130,7 @@ plans:
 - name: Google Books Plans Pricing
   plan_count: 3
   slug: google-books-plans-pricing
-random_paper: 24
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Google Books Rate Limits
@@ -157,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/screenshots/google-books-2026-06-20T182027.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Credit-metered Identification endpoints that convert anonymous web signals (IP addresses) into business identifiers — POST /ip_to_company, POST /ip_to_hem (hashed email, ranked by confidence) and POST
@@ -242,7 +242,7 @@ plans:
 - name: Rb2B Plans Pricing
   plan_count: 5
   slug: rb2b-plans-pricing
-random_paper: 0
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Rb2B Rate Limits
@@ -250,7 +250,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.9
-  delta: 48.6
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 51.6
@@ -258,10 +258,10 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 12.3
+  previous_composite: 60.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/screenshots/rb2b-2026-06-20T192625.png
 security:
 - kind: authentication

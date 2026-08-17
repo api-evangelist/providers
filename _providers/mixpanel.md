@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ arazzos:
 - description: Create a warehouse source connection, trigger an import run, and read the run history.
   name: Mixpanel Provision Warehouse Source and Trigger Import
   slug: mixpanel-warehouse-import-run-workflow
-artifact_total: 138
+artifact_total: 160
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Mixpanel''s outbound webhook surfaces. Mixpanel delivers two distinct, documented webhook event streams to customer-hosted HTTPS endpoints: 1. Alert Webhooks (Custom Alerts)'
   name: Mixpanel Webhooks
@@ -186,32 +186,98 @@ collections:
   name: Mixpanel Warehouse Connectors API
   slug: postman-mixpanel-warehouse-connectors
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mixpanel Annotations API
+  slug: open-mixpanel-annotations-api
+- collection_type: open
   name: Mixpanel Annotations API
   slug: open-mixpanel-annotations
+- collection_type: open
+  name: Mixpanel Annotations Cohorts API
+  slug: open-mixpanel-cohorts-api
+- collection_type: open
+  name: Mixpanel Annotations Connectors API
+  slug: open-mixpanel-connectors-api
 - collection_type: open
   name: Mixpanel Data Pipelines API
   slug: open-mixpanel-data-pipelines
 - collection_type: open
+  name: Mixpanel Annotations Deletion API
+  slug: open-mixpanel-deletion-api
+- collection_type: open
   name: Mixpanel Event Export API
   slug: open-mixpanel-event-export
+- collection_type: open
+  name: Mixpanel Annotations Events API
+  slug: open-mixpanel-events-api
+- collection_type: open
+  name: Mixpanel Annotations Export API
+  slug: open-mixpanel-export-api
+- collection_type: open
+  name: Mixpanel Annotations Funnels API
+  slug: open-mixpanel-funnels-api
 - collection_type: open
   name: Mixpanel GDPR and CCPA API
   slug: open-mixpanel-gdpr-ccpa
 - collection_type: open
+  name: Mixpanel Annotations Group Profiles API
+  slug: open-mixpanel-group-profiles-api
+- collection_type: open
+  name: Mixpanel Annotations Identity API
+  slug: open-mixpanel-identity-api
+- collection_type: open
   name: Mixpanel Identity API
   slug: open-mixpanel-identity
+- collection_type: open
+  name: Mixpanel Annotations Imports API
+  slug: open-mixpanel-imports-api
 - collection_type: open
   name: Mixpanel Ingestion API
   slug: open-mixpanel-ingestion
 - collection_type: open
+  name: Mixpanel Annotations Insights API
+  slug: open-mixpanel-insights-api
+- collection_type: open
   name: Mixpanel Lexicon Schemas API
   slug: open-mixpanel-lexicon-schemas
+- collection_type: open
+  name: Mixpanel Annotations Lookup Tables API
+  slug: open-mixpanel-lookup-tables-api
+- collection_type: open
+  name: Mixpanel Annotations Pipeline Runs API
+  slug: open-mixpanel-pipeline-runs-api
+- collection_type: open
+  name: Mixpanel Annotations Pipelines API
+  slug: open-mixpanel-pipelines-api
+- collection_type: open
+  name: Mixpanel Annotations Project Memberships API
+  slug: open-mixpanel-project-memberships-api
 - collection_type: open
   name: Mixpanel Query API
   slug: open-mixpanel-query
 - collection_type: open
+  name: Mixpanel Annotations Retention API
+  slug: open-mixpanel-retention-api
+- collection_type: open
+  name: Mixpanel Annotations Retrieval API
+  slug: open-mixpanel-retrieval-api
+- collection_type: open
+  name: Mixpanel Annotations Schemas API
+  slug: open-mixpanel-schemas-api
+- collection_type: open
+  name: Mixpanel Annotations Segmentation API
+  slug: open-mixpanel-segmentation-api
+- collection_type: open
+  name: Mixpanel Annotations Service Accounts API
+  slug: open-mixpanel-service-accounts-api
+- collection_type: open
   name: Mixpanel Service Accounts API
   slug: open-mixpanel-service-accounts
+- collection_type: open
+  name: Mixpanel Annotations User Profiles API
+  slug: open-mixpanel-user-profiles-api
 - collection_type: open
   name: Mixpanel Warehouse Connectors API
   slug: open-mixpanel-warehouse-connectors
@@ -575,7 +641,7 @@ plans:
 - name: Mixpanel Plans Pricing
   plan_count: 3
   slug: mixpanel-plans-pricing
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 4
   name: Mixpanel Rate Limits
@@ -617,7 +683,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/screenshots/mixpanel-2026-06-20T185622.png
 security:

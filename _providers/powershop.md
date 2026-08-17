@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -37,7 +37,14 @@ apis:
 - description: The consented, accreditation-gated half of Powershop's Consumer Data Right obligation. Powershop's own published CDR policy names the data it shares — customer data, account data (account number, crea
   name: Powershop CDR Energy Consumer Data API
   slug: powershop-cdr-energy-consumer-data-api
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: CDR Common API
+  slug: open-powershop-cdr-common-api
+- collection_type: open
+  name: CDR Energy API
+  slug: open-powershop-cdr-energy-api
 common:
 - group: agent
   title: ''
@@ -188,7 +195,7 @@ overview: 'Powershop publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Powershop''s developer surface includes authentication, changelog, API reference, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 39
+random_paper: 105
 scopes:
 - name: Powershop Scopes
   scope_count: 11
@@ -223,7 +230,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

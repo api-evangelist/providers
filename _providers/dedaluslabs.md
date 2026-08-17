@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -90,11 +90,60 @@ arazzos:
 - description: Provision a persistent Linux VM, execute a command, read the output, then sleep it to pause billing.
   name: Create a Dedalus Machine, run a command, and sleep it
   slug: dedaluslabs-machine-run-and-sleep
-artifact_total: 23
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Dedaluslabs Events
   slug: dedaluslabs-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dedalus Audio API
+  slug: open-dedaluslabs-audio-api
+- collection_type: open
+  name: Dedalus Audio Chat API
+  slug: open-dedaluslabs-chat-api
+- collection_type: open
+  name: Dedalus Audio Dedalus API API
+  slug: open-dedaluslabs-dedalus-api-api
+- collection_type: open
+  name: Dedalus Audio Health API
+  slug: open-dedaluslabs-health-api
+- collection_type: open
+  name: Dedalus Audio Images API
+  slug: open-dedaluslabs-images-api
+- collection_type: open
+  name: Dedalus Audio Machine Artifacts API
+  slug: open-dedaluslabs-machine-artifacts-api
+- collection_type: open
+  name: Dedalus Audio Machine Executions API
+  slug: open-dedaluslabs-machine-executions-api
+- collection_type: open
+  name: Dedalus Audio Machine Lifecycle API
+  slug: open-dedaluslabs-machine-lifecycle-api
+- collection_type: open
+  name: Dedalus Audio Machine SSH API
+  slug: open-dedaluslabs-machine-ssh-api
+- collection_type: open
+  name: Dedalus Audio Machine Terminals API
+  slug: open-dedaluslabs-machine-terminals-api
+- collection_type: open
+  name: Dedalus Audio Marketplace API
+  slug: open-dedaluslabs-marketplace-api
+- collection_type: open
+  name: Dedalus Audio OCR API
+  slug: open-dedaluslabs-ocr-api
+- collection_type: open
+  name: Dedalus Audio private API
+  slug: open-dedaluslabs-private-api
+- collection_type: open
+  name: Dedalus Audio V1 API
+  slug: open-dedaluslabs-v1-api
+- collection_type: open
+  name: Dedalus Audio Webhooks API
+  slug: open-dedaluslabs-webhooks-api
 common:
 - group: other
   title: ''
@@ -263,7 +312,7 @@ overview: 'Dedalus Labs publishes 16 APIs on the [APIs.io](https://apis.io/) net
 
 
   Dedalus Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 76
+random_paper: 113
 score:
   band: strong
   composite: 59.1
@@ -287,7 +336,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/screenshots/dedaluslabs-2026-07-25T211533.png
 security:

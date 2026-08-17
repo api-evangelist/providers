@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 5
@@ -165,8 +165,137 @@ apis:
 - description: The video API from Memesio — 9 operation(s) for video.
   name: Memesio video API
   slug: memesio-video-api
-artifact_total: 215
+artifact_total: 258
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Memesio API Contracts agent-infra API
+  slug: open-memesio-agent-infra-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra ai API
+  slug: open-memesio-ai-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra ai-captions API
+  slug: open-memesio-ai-captions-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra ai-jobs API
+  slug: open-memesio-ai-jobs-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra ai-providers API
+  slug: open-memesio-ai-providers-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra analytics API
+  slug: open-memesio-analytics-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra audio API
+  slug: open-memesio-audio-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra auth API
+  slug: open-memesio-auth-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra backend API
+  slug: open-memesio-backend-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra background-remove API
+  slug: open-memesio-background-remove-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra billing API
+  slug: open-memesio-billing-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra channels API
+  slug: open-memesio-channels-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra collaboration API
+  slug: open-memesio-collaboration-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra compliance API
+  slug: open-memesio-compliance-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra data-eng API
+  slug: open-memesio-data-eng-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra data-ops API
+  slug: open-memesio-data-ops-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra data-science API
+  slug: open-memesio-data-science-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra developer-api API
+  slug: open-memesio-developer-api-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra distribution API
+  slug: open-memesio-distribution-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra experimentation API
+  slug: open-memesio-experimentation-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra face-swap API
+  slug: open-memesio-face-swap-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra finops API
+  slug: open-memesio-finops-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra growth API
+  slug: open-memesio-growth-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra history API
+  slug: open-memesio-history-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra lifecycle API
+  slug: open-memesio-lifecycle-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra marketing-ops API
+  slug: open-memesio-marketing-ops-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra media API
+  slug: open-memesio-media-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra memes API
+  slug: open-memesio-memes-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra moderation API
+  slug: open-memesio-moderation-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra motion API
+  slug: open-memesio-motion-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra notifications API
+  slug: open-memesio-notifications-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra observability API
+  slug: open-memesio-observability-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra performance API
+  slug: open-memesio-performance-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra personalization API
+  slug: open-memesio-personalization-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra platform API
+  slug: open-memesio-platform-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra product-marketing API
+  slug: open-memesio-product-marketing-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra public-free API
+  slug: open-memesio-public-free-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra safety API
+  slug: open-memesio-safety-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra templates API
+  slug: open-memesio-templates-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra trend-alerts API
+  slug: open-memesio-trend-alerts-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra uploads API
+  slug: open-memesio-uploads-api
+- collection_type: open
+  name: Memesio API Contracts agent-infra video API
+  slug: open-memesio-video-api
 - collection_type: open
   name: Memesio API Contracts
   slug: open-memesio
@@ -735,7 +864,7 @@ plans:
 - name: Memesio Plans Pricing
   plan_count: 4
   slug: memesio-plans-pricing
-random_paper: 31
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Memesio Rate Limits
@@ -777,7 +906,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/screenshots/memesio-2026-06-20T185140.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: Retrieve EPA fuel economy and specifications for specific vehicles
   name: FuelEconomy.gov Vehicles API
   slug: fueleconomy-vehicles-api
-artifact_total: 17
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fuel Economy Web Services Emissions API
+  slug: open-fueleconomy-emissions-api
+- collection_type: open
+  name: Fuel Economy Web Services Emissions Fuel Prices API
+  slug: open-fueleconomy-fuel-prices-api
+- collection_type: open
+  name: Fuel Economy Web Services Emissions Menus API
+  slug: open-fueleconomy-menus-api
+- collection_type: open
+  name: Fuel Economy Web Services Emissions User MPG API
+  slug: open-fueleconomy-user-mpg-api
+- collection_type: open
+  name: Fuel Economy Web Services Emissions User MPG Menus API
+  slug: open-fueleconomy-user-mpg-menus-api
+- collection_type: open
+  name: Fuel Economy Web Services Emissions Vehicles API
+  slug: open-fueleconomy-vehicles-api
 common:
 - group: agent
   title: ''
@@ -139,7 +161,7 @@ plans:
 - name: Fueleconomy Plans Pricing
   plan_count: 1
   slug: fueleconomy-plans-pricing
-random_paper: 110
+random_paper: 147
 rate_limits:
 - limit_count: 0
   name: Fueleconomy Rate Limits
@@ -179,7 +201,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/screenshots/fueleconomy-2026-06-20T181604.png
 security:

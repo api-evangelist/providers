@@ -18,17 +18,21 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The management REST API served by every InfiniBox and InfiniBox SSA array on its own management interface at https://<array>/api/rest. It exposes system health and readiness, capacity and statistics, '
   name: InfiniBox REST API (InfiniAPI)
   slug: infinibox-rest-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Infinidat Events
   slug: infinidat-events
+collections:
+- collection_type: open
+  name: Infinidat InfiniBox REST API (7.3)
+  slug: open-infinidat-infinibox
 common:
 - group: company
   title: ''
@@ -149,7 +153,7 @@ overview: 'Infinidat publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Infinidat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 19 more developer resources.'
-random_paper: 110
+random_paper: 56
 score:
   band: developing
   composite: 45.6
@@ -172,7 +176,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/screenshots/infinidat-2026-08-07T170658.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'MasteryConnect is profiled on the [APIs.io](https://apis.io/) network
 
 
   MasteryConnect''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 79
+random_paper: 29
 score:
   band: minimal
   composite: 10.2
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/masteryconnect/refs/heads/main/screenshots/masteryconnect-2026-07-25T230348.png
 security:

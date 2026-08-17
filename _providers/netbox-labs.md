@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: The authentication-check API from NetBox Labs — 1 operation(s) for authentication-check.
@@ -70,7 +70,50 @@ apis:
 - description: The wireless API from NetBox Labs — 6 operation(s) for wireless.
   name: NetBox Labs wireless API
   slug: netbox-labs-wireless-api
-artifact_total: 18
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NetBox REST authentication-check API
+  slug: open-netbox-labs-authentication-check-api
+- collection_type: open
+  name: NetBox REST authentication-check circuits API
+  slug: open-netbox-labs-circuits-api
+- collection_type: open
+  name: NetBox REST authentication-check core API
+  slug: open-netbox-labs-core-api
+- collection_type: open
+  name: NetBox REST authentication-check dcim API
+  slug: open-netbox-labs-dcim-api
+- collection_type: open
+  name: NetBox REST authentication-check extras API
+  slug: open-netbox-labs-extras-api
+- collection_type: open
+  name: NetBox REST authentication-check ipam API
+  slug: open-netbox-labs-ipam-api
+- collection_type: open
+  name: NetBox REST authentication-check schema API
+  slug: open-netbox-labs-schema-api
+- collection_type: open
+  name: NetBox REST authentication-check status API
+  slug: open-netbox-labs-status-api
+- collection_type: open
+  name: NetBox REST authentication-check tenancy API
+  slug: open-netbox-labs-tenancy-api
+- collection_type: open
+  name: NetBox REST authentication-check users API
+  slug: open-netbox-labs-users-api
+- collection_type: open
+  name: NetBox REST authentication-check virtualization API
+  slug: open-netbox-labs-virtualization-api
+- collection_type: open
+  name: NetBox REST authentication-check vpn API
+  slug: open-netbox-labs-vpn-api
+- collection_type: open
+  name: NetBox REST authentication-check wireless API
+  slug: open-netbox-labs-wireless-api
 common:
 - group: other
   title: ''
@@ -196,7 +239,7 @@ overview: 'NetBox Labs publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NetBox Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 39
+random_paper: 76
 score:
   band: developing
   composite: 52.2
@@ -219,7 +262,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbox-labs/refs/heads/main/screenshots/netbox-labs-2026-08-07T184929.png
 security:

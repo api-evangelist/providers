@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,14 @@ apis:
 - description: Prometheus-compatible metrics endpoints exposing containerd runtime statistics including gRPC request rates, snapshot usage, and task lifecycle counts.
   name: Containerd Metrics API
   slug: containerd-metrics-api
-artifact_total: 15
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Containerd Metrics API
+  slug: open-containerd-metrics-api
 - collection_type: open
   name: Containerd Metrics API
   slug: open-containerd-metrics
@@ -159,7 +165,7 @@ plans:
 - name: Containerd Plans Pricing
   plan_count: 1
   slug: containerd-plans-pricing
-random_paper: 103
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Containerd Rate Limits
@@ -201,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/screenshots/containerd-2026-06-20T174921.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Intucell
 nav: Providers
 network: true
 overview: Intucell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Self-Optimizing Networks, Mobile Networks, and Radio Access Network.
-random_paper: 24
+random_paper: 119
 score:
   band: minimal
   composite: 4.3
@@ -68,7 +68,7 @@ score:
     regime_id: telecommunications
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intucell/refs/heads/main/screenshots/intucell-2026-07-25T222728.png
 slug: intucell

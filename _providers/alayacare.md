@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 211
   human_in_the_loop: 9
@@ -378,7 +378,323 @@ apis:
 - description: The work session outbox API from AlayaCare — 1 operation(s) for work session outbox.
   name: AlayaCare work session outbox API
   slug: alayacare-work-session-outbox-api
-artifact_total: 134
+artifact_total: 239
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AlayaCare Accounting Accounts API
+  slug: open-alayacare-accounts-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Activities of Daily Living (ADL) API
+  slug: open-alayacare-activities-of-daily-living-adl-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Activity Codes API
+  slug: open-alayacare-activity-codes-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Attachment Directory API
+  slug: open-alayacare-attachment-directory-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Attachment File API
+  slug: open-alayacare-attachment-file-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Bill Code Rate RRules API
+  slug: open-alayacare-bill-code-rate-rrules-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Bill Code Rates API
+  slug: open-alayacare-bill-code-rates-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Bill Codes API
+  slug: open-alayacare-bill-codes-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Billing Cycles API
+  slug: open-alayacare-billing-cycles-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Billing Periods API
+  slug: open-alayacare-billing-periods-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Branches API
+  slug: open-alayacare-branches-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Bulk Actions API
+  slug: open-alayacare-bulk-actions-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Care plan API
+  slug: open-alayacare-care-plan-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Care Plan Interventions API
+  slug: open-alayacare-care-plan-interventions-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Care Provider Notes API
+  slug: open-alayacare-care-provider-notes-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Client Contacts API
+  slug: open-alayacare-client-contacts-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Client Cost Centres API
+  slug: open-alayacare-client-cost-centres-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Client Risks API
+  slug: open-alayacare-client-risks-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Client Status API
+  slug: open-alayacare-client-status-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Clients API
+  slug: open-alayacare-clients-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Comments API
+  slug: open-alayacare-comments-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Configured Vitals API
+  slug: open-alayacare-configured-vitals-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Cost Centres API
+  slug: open-alayacare-cost-centres-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Departments API
+  slug: open-alayacare-departments-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Designations API
+  slug: open-alayacare-designations-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Diagnoses API
+  slug: open-alayacare-diagnoses-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Directory API
+  slug: open-alayacare-directory-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Employee Contacts API
+  slug: open-alayacare-employee-contacts-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Employee Cost Centres API
+  slug: open-alayacare-employee-cost-centres-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Employee Notes API
+  slug: open-alayacare-employee-notes-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Employee Skills API
+  slug: open-alayacare-employee-skills-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Employee Unavailabilities API
+  slug: open-alayacare-employee-unavailabilities-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Employees API
+  slug: open-alayacare-employees-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Employment Types API
+  slug: open-alayacare-employment-types-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts EVV API
+  slug: open-alayacare-evv-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts EVV Export API
+  slug: open-alayacare-evv-export-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Facilities API
+  slug: open-alayacare-facilities-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts File API
+  slug: open-alayacare-file-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts form submission inbox API
+  slug: open-alayacare-form-submission-inbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts form submission outbox API
+  slug: open-alayacare-form-submission-outbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Form Submissions API
+  slug: open-alayacare-form-submissions-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts form template inbox API
+  slug: open-alayacare-form-template-inbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Forms API
+  slug: open-alayacare-forms-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Funders API
+  slug: open-alayacare-funders-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Goals API
+  slug: open-alayacare-goals-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Groups API
+  slug: open-alayacare-groups-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Interventions API
+  slug: open-alayacare-interventions-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Invoice Items API
+  slug: open-alayacare-invoice-items-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Invoices API
+  slug: open-alayacare-invoices-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Latest Vitals API
+  slug: open-alayacare-latest-vitals-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Medication Administration API
+  slug: open-alayacare-medication-administration-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Medication API
+  slug: open-alayacare-medication-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Medication settings API
+  slug: open-alayacare-medication-settings-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts message inbox API
+  slug: open-alayacare-message-inbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts message outbox API
+  slug: open-alayacare-message-outbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts message sys_admin API
+  slug: open-alayacare-message-sys-admin-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Note Types API
+  slug: open-alayacare-note-types-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts offer inbox API
+  slug: open-alayacare-offer-inbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts offer outbox API
+  slug: open-alayacare-offer-outbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts offer outbox bundle API
+  slug: open-alayacare-offer-outbox-bundle-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts offer status API
+  slug: open-alayacare-offer-status-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts offer sys_admin API
+  slug: open-alayacare-offer-sys-admin-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts organization settings API
+  slug: open-alayacare-organization-settings-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts organization settings sys_admin API
+  slug: open-alayacare-organization-settings-sys-admin-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Premium Bill Codes API
+  slug: open-alayacare-premium-bill-codes-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Premiums API
+  slug: open-alayacare-premiums-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Profile API
+  slug: open-alayacare-profile-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Progress Notes API
+  slug: open-alayacare-progress-notes-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts referral inbox API
+  slug: open-alayacare-referral-inbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts referral outbox API
+  slug: open-alayacare-referral-outbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts referral sys_admin API
+  slug: open-alayacare-referral-sys-admin-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Roles API
+  slug: open-alayacare-roles-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts sequence inbox API
+  slug: open-alayacare-sequence-inbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts sequence outbox API
+  slug: open-alayacare-sequence-outbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts sequence sys_admin API
+  slug: open-alayacare-sequence-sys-admin-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Service Codes API
+  slug: open-alayacare-service-codes-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Service Forms API
+  slug: open-alayacare-service-forms-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Service Status API
+  slug: open-alayacare-service-status-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Service Tags API
+  slug: open-alayacare-service-tags-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Services API
+  slug: open-alayacare-services-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Skill Categories API
+  slug: open-alayacare-skill-categories-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Skills API
+  slug: open-alayacare-skills-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Status Reasons API
+  slug: open-alayacare-status-reasons-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Subtasks API
+  slug: open-alayacare-subtasks-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Tags API
+  slug: open-alayacare-tags-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts take rates API
+  slug: open-alayacare-take-rates-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Tasks API
+  slug: open-alayacare-tasks-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Time Off Types API
+  slug: open-alayacare-time-off-types-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Transactions API
+  slug: open-alayacare-transactions-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Unavailabilities API
+  slug: open-alayacare-unavailabilities-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Visit accounting API
+  slug: open-alayacare-visit-accounting-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts visit inbox API
+  slug: open-alayacare-visit-inbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Visit interventions API
+  slug: open-alayacare-visit-interventions-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Visit notes API
+  slug: open-alayacare-visit-notes-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts visit outbox API
+  slug: open-alayacare-visit-outbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Visit Premiums API
+  slug: open-alayacare-visit-premiums-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts visit sys_admin API
+  slug: open-alayacare-visit-sys-admin-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Visit tags API
+  slug: open-alayacare-visit-tags-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Visit Verification API
+  slug: open-alayacare-visit-verification-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Visits API
+  slug: open-alayacare-visits-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Vital Metadata API
+  slug: open-alayacare-vital-metadata-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts Vitals API
+  slug: open-alayacare-vitals-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts work session inbox API
+  slug: open-alayacare-work-session-inbox-api
+- collection_type: open
+  name: AlayaCare Accounting Accounts work session outbox API
+  slug: open-alayacare-work-session-outbox-api
 common:
 - group: agent
   title: ''
@@ -501,7 +817,7 @@ plans:
 - name: Alayacare Plans Pricing
   plan_count: 4
   slug: alayacare-plans-pricing
-random_paper: 91
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Alayacare Rate Limits
@@ -541,7 +857,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/screenshots/alayacare-2026-06-20T171503.png
 security:

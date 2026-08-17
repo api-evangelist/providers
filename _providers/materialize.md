@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,12 +51,18 @@ apis:
 - description: The Sql API from Materialize — 1 operation(s) for sql.
   name: Materialize Sql API
   slug: materialize-sql-api
-artifact_total: 14
+artifact_total: 16
 asyncapis:
 - description: AsyncAPI description of Materialize's streaming integration surface. Materialize is an operational data warehouse that ingests events from external message brokers and HTTP webhooks (sources) and emit
   name: Materialize Streaming Sources and Sinks
   slug: materialize-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Materialize HTTP Sql API
+  slug: open-materialize-sql-api
 - collection_type: open
   name: Materialize HTTP API
   slug: open-materialize
@@ -136,7 +142,7 @@ plans:
 - name: Materialize Plans Pricing
   plan_count: 3
   slug: materialize-plans-pricing
-random_paper: 95
+random_paper: 132
 rate_limits:
 - limit_count: 5
   name: Materialize Rate Limits
@@ -170,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/screenshots/materialize-2026-06-20T185034.png
 security:

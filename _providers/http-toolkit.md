@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -51,7 +51,23 @@ apis:
 - description: Server lifecycle and version management
   name: HTTP Toolkit server API
   slug: http-toolkit-server-api
-artifact_total: 20
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HTTP Toolkit Server client API
+  slug: open-http-toolkit-client-api
+- collection_type: open
+  name: HTTP Toolkit Server client config API
+  slug: open-http-toolkit-config-api
+- collection_type: open
+  name: HTTP Toolkit Server client interceptors API
+  slug: open-http-toolkit-interceptors-api
+- collection_type: open
+  name: HTTP Toolkit client server API
+  slug: open-http-toolkit-server-api
 common:
 - group: operate
   title: ''
@@ -180,7 +196,7 @@ plans:
 - name: Http Toolkit Plans Pricing
   plan_count: 3
   slug: http-toolkit-plans-pricing
-random_paper: 67
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Http Toolkit Rate Limits
@@ -214,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/screenshots/http-toolkit-2026-06-20T182918.png
 security:

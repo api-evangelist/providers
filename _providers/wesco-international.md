@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 19
 common:
@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: Wesco International Reports Second Quarter 2025 Results
   url: https://investors.wesco.com/news-releases/news-release-details/wesco-international-reports-second-quarter-2025-results
-random_paper: 70
+random_paper: 53
 score:
   band: minimal
   composite: 10.7
@@ -131,7 +131,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

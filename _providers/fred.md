@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,11 +69,44 @@ apis:
 - description: Faceted classification across FRED — tag listings, related tags, and tag-matched series.
   name: FRED Tags API
   slug: fred-tags-api
-artifact_total: 85
+artifact_total: 96
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories API
+  slug: open-fred-categories-api
 - collection_type: open
   name: FRED Maps API (GeoFRED)
   slug: open-fred-geofred
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories Observations API
+  slug: open-fred-observations-api
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories Regional Data API
+  slug: open-fred-regional-data-api
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories Releases API
+  slug: open-fred-releases-api
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories Series API
+  slug: open-fred-series-api
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories Series Data API
+  slug: open-fred-series-data-api
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories Series Group API
+  slug: open-fred-series-group-api
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories Shapes API
+  slug: open-fred-shapes-api
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories Sources API
+  slug: open-fred-sources-api
+- collection_type: open
+  name: FRED Maps API (GeoFRED) Categories Tags API
+  slug: open-fred-tags-api
 - collection_type: open
   name: FRED API
   slug: open-fred
@@ -458,7 +491,7 @@ plans:
 - name: Fred Plans Pricing
   plan_count: 1
   slug: fred-plans-pricing
-random_paper: 57
+random_paper: 119
 rate_limits:
 - limit_count: 3
   name: Fred Rate Limits
@@ -506,7 +539,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/screenshots/fred-2026-06-20T181515.png
 security:

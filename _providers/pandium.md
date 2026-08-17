@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Manage tenants (customer instances of integrations).
   name: Pandium Tenants API
   slug: pandium-tenants-api
-artifact_total: 228
+artifact_total: 234
 collections:
 - collection_type: postman
   name: Pandium Connector Calls API
@@ -72,8 +72,26 @@ collections:
   name: Pandium Connector Calls Tenants API
   slug: postman-pandium-tenants-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pandium Connector Calls API
+  slug: open-pandium-connector-calls-api
+- collection_type: open
+  name: Pandium Connector Calls Integrations API
+  slug: open-pandium-integrations-api
+- collection_type: open
   name: Pandium API
   slug: open-pandium-pandium
+- collection_type: open
+  name: Pandium Connector Calls Runs API
+  slug: open-pandium-runs-api
+- collection_type: open
+  name: Pandium Connector Calls Tenant Metadata API
+  slug: open-pandium-tenant-metadata-api
+- collection_type: open
+  name: Pandium Connector Calls Tenants API
+  slug: open-pandium-tenants-api
 common:
 - group: build
   title: ''
@@ -414,7 +432,7 @@ plans:
 - name: Pandium Plans Pricing
   plan_count: 3
   slug: pandium-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Pandium Rate Limits
@@ -448,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Manage JSON Schema data structures (event schemas) in Snowplow. Data structures define the shape of events tracked in your pipeline. Supports versioning, validation, and deployment to dev/prod registr
   name: Snowplow Data Structures API
   slug: snowplow-data-structures-api
-artifact_total: 23
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Snowplow Console Authentication API
@@ -63,8 +63,20 @@ collections:
   name: Snowplow Console Authentication Data Structures API
   slug: postman-snowplow-data-structures-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Snowplow Console Authentication API
+  slug: open-snowplow-authentication-api
+- collection_type: open
   name: Snowplow Console API
   slug: open-snowplow-console-api
+- collection_type: open
+  name: Snowplow Console Authentication Data Products API
+  slug: open-snowplow-data-products-api
+- collection_type: open
+  name: Snowplow Console Authentication Data Structures API
+  slug: open-snowplow-data-structures-api
 common:
 - group: build
   title: ''
@@ -192,7 +204,7 @@ plans:
 - name: Snowplow Plans Pricing
   plan_count: 3
   slug: snowplow-plans-pricing
-random_paper: 65
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Snowplow Rate Limits
@@ -234,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/screenshots/snowplow-2026-06-20T194113.png
 security:

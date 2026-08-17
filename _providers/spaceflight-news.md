@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,8 +52,23 @@ apis:
 - description: Official mission, program, and agency reports.
   name: Spaceflight News Reports API
   slug: spaceflight-news-reports-api
-artifact_total: 45
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spaceflight News Articles API
+  slug: open-spaceflight-news-articles-api
+- collection_type: open
+  name: Spaceflight News Articles Blogs API
+  slug: open-spaceflight-news-blogs-api
+- collection_type: open
+  name: Spaceflight News Articles Info API
+  slug: open-spaceflight-news-info-api
+- collection_type: open
+  name: Spaceflight News Articles Reports API
+  slug: open-spaceflight-news-reports-api
 - collection_type: open
   name: Spaceflight News API
   slug: open-spaceflight-news
@@ -268,7 +283,7 @@ overview: 'Spaceflight News publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Spaceflight News'' developer surface includes documentation, changelog, FAQ, tooling, and 17 more developer resources.'
-random_paper: 92
+random_paper: 13
 rules:
 - name: Spaceflight News API Rules
   rule_count: 5
@@ -306,7 +321,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/screenshots/spaceflight-news-2026-06-20T194233.png
 security:

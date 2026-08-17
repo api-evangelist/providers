@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,11 +62,29 @@ apis:
 - description: The Work Orders API from Goodyear Tire & Rubber — 1 operation(s) for work orders.
   name: Goodyear Tire & Rubber Work Orders API
   slug: goodyear-tire-and-rubber-work-orders-api
-artifact_total: 16
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Goodyear API Management Portal (GaaS)
   slug: open-gaas-portal
+- collection_type: open
+  name: Goodyear API Management Portal (GaaS) Catalog API
+  slug: open-goodyear-tire-and-rubber-catalog-api
+- collection_type: open
+  name: Goodyear API Management Portal (GaaS) Catalog Friction API
+  slug: open-goodyear-tire-and-rubber-friction-api
+- collection_type: open
+  name: Goodyear API Management Portal (GaaS) Catalog Service Tickets API
+  slug: open-goodyear-tire-and-rubber-service-tickets-api
+- collection_type: open
+  name: Goodyear API Management Portal (GaaS) Catalog Tires API
+  slug: open-goodyear-tire-and-rubber-tires-api
+- collection_type: open
+  name: Goodyear API Management Portal (GaaS) Catalog Work Orders API
+  slug: open-goodyear-tire-and-rubber-work-orders-api
 - collection_type: open
   name: Goodyear SightLine API
   slug: open-sightline-api
@@ -143,7 +161,7 @@ press:
 - date: '2026-05-25'
   title: Goodyear
   url: https://www.ces.tech/success-stories/goodyear/
-random_paper: 98
+random_paper: 143
 rate_limits:
 - limit_count: 1
   name: Goodyear Tire And Rubber Rate Limits
@@ -168,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/screenshots/goodyear-tire-and-rubber-2026-06-20T181956.png
 security:

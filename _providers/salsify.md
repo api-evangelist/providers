@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -62,11 +62,42 @@ apis:
 - description: The Records API from Salsify — 6 operation(s) for records.
   name: Salsify Records API
   slug: salsify-records-api
-artifact_total: 21
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Salsify Webhooks
   slug: salsify-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salsify Digital Assets API
+  slug: open-salsify-digital-assets-api
+- collection_type: open
+  name: Non-v1 endpoints Export Runs API
+  slug: open-salsify-export-runs-api
+- collection_type: open
+  name: Non-v1 endpoints Imports API
+  slug: open-salsify-imports-api
+- collection_type: open
+  name: No API Explorer (for destructive calls & not well defined parameters) Lists API
+  slug: open-salsify-lists-api
+- collection_type: open
+  name: Settings <org ID> <org ID> API
+  slug: open-salsify-org-id-api
+- collection_type: open
+  name: Salsify Products API
+  slug: open-salsify-products-api
+- collection_type: open
+  name: Salsify Properties API
+  slug: open-salsify-properties-api
+- collection_type: open
+  name: No API Explorer (for destructive calls & not well defined parameters) Record Types API
+  slug: open-salsify-record-types-api
+- collection_type: open
+  name: Salsify Records API
+  slug: open-salsify-records-api
 common:
 - group: auth
   title: ''
@@ -239,7 +270,7 @@ overview: 'Salsify publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Salsify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Salsify Rate Limits
@@ -272,7 +303,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

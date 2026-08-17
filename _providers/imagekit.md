@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -75,7 +75,47 @@ apis:
 - description: The URL endpoints API from ImageKit — 2 operation(s) for url endpoints.
   name: ImageKit URL endpoints API
   slug: imagekit-url-endpoints-api
-artifact_total: 37
+artifact_total: 50
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ImageKit Account Management API API
+  slug: open-imagekit-account-management-api-api
+- collection_type: open
+  name: ImageKit Account Management API Caching API
+  slug: open-imagekit-caching-api
+- collection_type: open
+  name: ImageKit Account Management API Custom metadata fields API
+  slug: open-imagekit-custom-metadata-fields-api
+- collection_type: open
+  name: ImageKit Account Management API Digital Asset Management (DAM) API
+  slug: open-imagekit-digital-asset-management-dam-api
+- collection_type: open
+  name: ImageKit Account Management API Dummy Test API
+  slug: open-imagekit-dummy-test-api
+- collection_type: open
+  name: ImageKit Account Management API File Metadata API
+  slug: open-imagekit-file-metadata-api
+- collection_type: open
+  name: ImageKit Account Management API Managing assets API
+  slug: open-imagekit-managing-assets-api
+- collection_type: open
+  name: ImageKit Account Management API Managing folders API
+  slug: open-imagekit-managing-folders-api
+- collection_type: open
+  name: ImageKit Account Management API Origins API
+  slug: open-imagekit-origins-api
+- collection_type: open
+  name: ImageKit Account Management API Saved Extensions API
+  slug: open-imagekit-saved-extensions-api
+- collection_type: open
+  name: ImageKit Account Management API Upload File API
+  slug: open-imagekit-upload-file-api
+- collection_type: open
+  name: ImageKit Account Management API URL endpoints API
+  slug: open-imagekit-url-endpoints-api
 common:
 - group: agent
   title: ''
@@ -227,7 +267,7 @@ plans:
 - name: Imagekit Plans Pricing
   plan_count: 7
   slug: imagekit-plans-pricing
-random_paper: 3
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Imagekit Rate Limits
@@ -261,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/screenshots/imagekit-2026-06-20T183243.png
 security:

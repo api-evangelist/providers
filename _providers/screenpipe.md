@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 3
@@ -92,7 +92,65 @@ apis:
 - description: Manage screen capture monitors
   name: Screenpipe Vision API
   slug: screenpipe-vision-api
-artifact_total: 24
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Screenpipe Activity API
+  slug: open-screenpipe-activity-api
+- collection_type: open
+  name: Screenpipe Activity Audio API
+  slug: open-screenpipe-audio-api
+- collection_type: open
+  name: Screenpipe Activity Cloud Archive API
+  slug: open-screenpipe-cloud-archive-api
+- collection_type: open
+  name: Screenpipe Activity Cloud Sync API
+  slug: open-screenpipe-cloud-sync-api
+- collection_type: open
+  name: Screenpipe Activity Data Management API
+  slug: open-screenpipe-data-management-api
+- collection_type: open
+  name: Screenpipe Activity Data Retention API
+  slug: open-screenpipe-data-retention-api
+- collection_type: open
+  name: Screenpipe Activity Database API
+  slug: open-screenpipe-database-api
+- collection_type: open
+  name: Screenpipe Activity Elements API
+  slug: open-screenpipe-elements-api
+- collection_type: open
+  name: Screenpipe Activity Experimental API
+  slug: open-screenpipe-experimental-api
+- collection_type: open
+  name: Screenpipe Activity Frames API
+  slug: open-screenpipe-frames-api
+- collection_type: open
+  name: Screenpipe Activity Meetings API
+  slug: open-screenpipe-meetings-api
+- collection_type: open
+  name: Screenpipe Activity Memories API
+  slug: open-screenpipe-memories-api
+- collection_type: open
+  name: Screenpipe Activity Search API
+  slug: open-screenpipe-search-api
+- collection_type: open
+  name: Screenpipe Activity Speakers API
+  slug: open-screenpipe-speakers-api
+- collection_type: open
+  name: Screenpipe Activity System API
+  slug: open-screenpipe-system-api
+- collection_type: open
+  name: Screenpipe Activity Tags API
+  slug: open-screenpipe-tags-api
+- collection_type: open
+  name: Screenpipe Activity Vault API
+  slug: open-screenpipe-vault-api
+- collection_type: open
+  name: Screenpipe Activity Vision API
+  slug: open-screenpipe-vision-api
 common:
 - group: other
   title: ''
@@ -238,7 +296,7 @@ overview: 'Screenpipe publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Screenpipe''s developer surface includes documentation, API reference, getting-started guide, quickstart, changelog, pricing, support, and 25 more developer resources.'
-random_paper: 110
+random_paper: 27
 score:
   band: developing
   composite: 44.3
@@ -262,7 +320,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Starknet API from Gallop — 2 operation(s) for starknet.
   name: Gallop Starknet API
   slug: gallop-starknet-api
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Analytics Ethereum API
+  slug: open-gallop-ethereum-api
+- collection_type: open
+  name: Analytics Ethereum Polygon API
+  slug: open-gallop-polygon-api
+- collection_type: open
+  name: Analytics Ethereum Solana API
+  slug: open-gallop-solana-api
+- collection_type: open
+  name: Analytics Ethereum Starknet API
+  slug: open-gallop-starknet-api
 common:
 - group: other
   title: ''
@@ -152,7 +168,7 @@ overview: 'Gallop publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Gallop''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Gallop Rate Limits
@@ -180,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/screenshots/gallop-2026-07-25T215406.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Outverse is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Outverse''s developer surface includes support and 8 more developer resources.'
-random_paper: 53
+random_paper: 148
 score:
   band: emerging
   composite: 14.6
@@ -93,7 +93,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outverse/refs/heads/main/screenshots/outverse-2026-08-07T191119.png
 security:

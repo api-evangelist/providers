@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -79,7 +79,44 @@ arazzos:
 - description: Clip a video, generate social copy, and publish a clip to a connected social account.
   name: OpusClip — clip a video and publish to social
   slug: opus-clip-and-publish
-artifact_total: 19
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clip brand-templates API
+  slug: open-opus-brand-templates-api
+- collection_type: open
+  name: Clip brand-templates censor-jobs API
+  slug: open-opus-censor-jobs-api
+- collection_type: open
+  name: Clip brand-templates clip-project API
+  slug: open-opus-clip-project-api
+- collection_type: open
+  name: Clip brand-templates collection API
+  slug: open-opus-collection-api
+- collection_type: open
+  name: Clip brand-templates collection-content API
+  slug: open-opus-collection-content-api
+- collection_type: open
+  name: Clip brand-templates enterprise API
+  slug: open-opus-enterprise-api
+- collection_type: open
+  name: Clip brand-templates exportable-clips API
+  slug: open-opus-exportable-clips-api
+- collection_type: open
+  name: Clip brand-templates ExportableClip API
+  slug: open-opus-exportableclip-api
+- collection_type: open
+  name: Clip brand-templates generative-jobs API
+  slug: open-opus-generative-jobs-api
+- collection_type: open
+  name: Clip brand-templates social-posting API
+  slug: open-opus-social-posting-api
+- collection_type: open
+  name: Clip brand-templates transcripts API
+  slug: open-opus-transcripts-api
 common:
 - group: other
   title: ''
@@ -253,7 +290,7 @@ overview: 'Opus publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 95
+random_paper: 8
 score:
   band: developing
   composite: 51.8
@@ -277,7 +314,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/screenshots/opus-2026-08-07T190821.png
 security:

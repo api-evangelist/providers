@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: AEM Launches for Content Fragments (experimental)
   name: Adobe Experience Manager Launches API
   slug: adobe-experience-manager-launches-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Experience Manager APIs Launches API
+  slug: open-adobe-experience-manager-launches-api
 - collection_type: open
   name: Adobe Experience Manager APIs
   slug: open-adobe-experience-manager
@@ -110,7 +116,7 @@ overview: 'Adobe Experience Manager publishes 1 API on the [APIs.io](https://api
 
 
   Adobe Experience Manager''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 112
+random_paper: 8
 scopes:
 - name: Adobe Experience Manager Scopes
   scope_count: 6
@@ -136,7 +142,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/screenshots/adobe-experience-manager-2026-06-20T164924.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,8 +63,32 @@ apis:
 - description: Manage and export dataset tags.
   name: Lightly Tags API
   slug: lightly-ai-tags-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LightlyOne Platform Datasets API
+  slug: open-lightly-ai-datasets-api
+- collection_type: open
+  name: LightlyOne Platform Datasets Datasources API
+  slug: open-lightly-ai-datasources-api
+- collection_type: open
+  name: LightlyOne Platform Datasets Embeddings API
+  slug: open-lightly-ai-embeddings-api
+- collection_type: open
+  name: LightlyOne Platform Datasets Jobs API
+  slug: open-lightly-ai-jobs-api
+- collection_type: open
+  name: LightlyOne Platform Datasets Samples API
+  slug: open-lightly-ai-samples-api
+- collection_type: open
+  name: LightlyOne Platform Datasets Selection API
+  slug: open-lightly-ai-selection-api
+- collection_type: open
+  name: LightlyOne Platform Datasets Tags API
+  slug: open-lightly-ai-tags-api
 - collection_type: open
   name: LightlyOne Platform API
   slug: open-lightly-ai
@@ -133,7 +157,7 @@ plans:
 - name: Lightly Ai Plans Pricing
   plan_count: 4
   slug: lightly-ai-plans-pricing
-random_paper: 52
+random_paper: 118
 rate_limits:
 - limit_count: 5
   name: Lightly Ai Rate Limits
@@ -158,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/screenshots/lightly-ai-2026-07-25T225121.png
 security:

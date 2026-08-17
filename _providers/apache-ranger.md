@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: The Users API from Apache Ranger — 1 operation(s) for users.
   name: Apache Ranger Users API
   slug: apache-ranger-users-api
-artifact_total: 70
+artifact_total: 76
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Ranger REST Audit API
+  slug: open-apache-ranger-audit-api
+- collection_type: open
+  name: Apache Ranger REST Audit Groups API
+  slug: open-apache-ranger-groups-api
+- collection_type: open
+  name: Apache Ranger REST Audit Policies API
+  slug: open-apache-ranger-policies-api
+- collection_type: open
+  name: Apache Ranger REST Audit Services API
+  slug: open-apache-ranger-services-api
+- collection_type: open
+  name: Apache Ranger REST Audit Users API
+  slug: open-apache-ranger-users-api
 common:
 - group: agent
   title: ''
@@ -266,7 +285,7 @@ plans:
 - name: Apache Ranger Plans Pricing
   plan_count: 3
   slug: apache-ranger-plans-pricing
-random_paper: 94
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Apache Ranger Rate Limits
@@ -314,7 +333,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/screenshots/apache-ranger-2026-06-20T172136.png
 security:

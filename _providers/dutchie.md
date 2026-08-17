@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: GraphQL queries for the dispensaries/retailers connected to your Dutchie Plus account - retailer metadata, address, hours, accepted order types (pickup/delivery), and pricing types (recreational/medic
@@ -109,7 +109,7 @@ plans:
 - name: Dutchie Plans Pricing
   plan_count: 2
   slug: dutchie-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 2
   name: Dutchie Rate Limits
@@ -133,7 +133,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -32,11 +32,15 @@ apis:
 - description: 'The InfinitePay Integrated Checkout ("Checkout Integrado") API. Two public JSON operations — create a hosted checkout payment link for a basket of items, and check the payment status of a link — plus '
   name: InfinitePay Checkout API
   slug: infinitepay-checkout-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Cloudwalk Infinitepay Webhooks
   slug: cloudwalk-infinitepay-webhooks
+collections:
+- collection_type: open
+  name: InfinitePay Checkout API
+  slug: open-cloudwalk-infinitepay-checkout
 common:
 - group: agent
   title: ''
@@ -194,7 +198,7 @@ overview: 'CloudWalk publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   CloudWalk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 6
+random_paper: 72
 score:
   band: developing
   composite: 55.1
@@ -224,7 +228,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/screenshots/cloudwalk-2026-08-07T163513.png
 security:

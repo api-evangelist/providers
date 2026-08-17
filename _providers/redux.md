@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: 'Core Redux library for managing application state through a predictable unidirectional data flow. The library exposes createStore, combineReducers, applyMiddleware, compose, and bindActionCreators as '
@@ -160,7 +160,7 @@ plans:
 - name: Redux Plans Pricing
   plan_count: 3
   slug: redux-plans-pricing
-random_paper: 72
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Redux Rate Limits
@@ -187,7 +187,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/screenshots/redux-2026-06-20T192739.png
 security:

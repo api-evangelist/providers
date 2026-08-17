@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -56,8 +56,29 @@ apis:
 - description: The Stores API from OpenFGA — 2 operation(s) for stores.
   name: OpenFGA Stores API
   slug: openfga-stores-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenFGA Assertions API
+  slug: open-openfga-assertions-api
+- collection_type: open
+  name: OpenFGA Assertions Authorization Models API
+  slug: open-openfga-authorization-models-api
+- collection_type: open
+  name: OpenFGA Assertions AuthZenService API
+  slug: open-openfga-authzenservice-api
+- collection_type: open
+  name: OpenFGA Assertions Relationship Queries API
+  slug: open-openfga-relationship-queries-api
+- collection_type: open
+  name: OpenFGA Assertions Relationship Tuples API
+  slug: open-openfga-relationship-tuples-api
+- collection_type: open
+  name: OpenFGA Assertions Stores API
+  slug: open-openfga-stores-api
 - collection_type: open
   name: OpenFGA
   slug: open-openfga
@@ -106,7 +127,7 @@ plans:
 - name: Openfga Plans Pricing
   plan_count: 3
   slug: openfga-plans-pricing
-random_paper: 16
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Openfga Rate Limits
@@ -131,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/screenshots/openfga-2026-06-20T191007.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,20 @@ apis:
 - description: Mission systems operations
   name: General Dynamics Systems API
   slug: general-dynamics-systems-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: General Dynamics Mission Systems API
   slug: open-general-dynamics-mission-systems-api
+- collection_type: open
+  name: General Dynamics Mission Systems Products API
+  slug: open-general-dynamics-products-api
+- collection_type: open
+  name: General Dynamics Mission Products Systems API
+  slug: open-general-dynamics-systems-api
 common:
 - group: agent
   title: ''
@@ -102,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: 'General Motors: Iconic Vehicles for Every Drive'
   url: https://www.gm.com/
-random_paper: 75
+random_paper: 145
 rate_limits:
 - limit_count: 1
   name: General Dynamics Rate Limits
@@ -133,7 +142,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-dynamics/refs/heads/main/screenshots/general-dynamics-2026-06-20T181724.png
 security:

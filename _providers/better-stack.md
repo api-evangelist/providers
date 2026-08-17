@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Manage team members and invitations
   name: Better Stack Team Members API
   slug: better-stack-team-members-api
-artifact_total: 160
+artifact_total: 167
 collections:
 - collection_type: postman
   name: Better Stack Escalation Policies API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Better Stack Escalation Policies Team Members API
   slug: postman-better-stack-team-members-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Better Stack Escalation Policies API
+  slug: open-better-stack-escalation-policies-api
+- collection_type: open
+  name: Better Stack Escalation Policies Heartbeats API
+  slug: open-better-stack-heartbeats-api
+- collection_type: open
+  name: Better Stack Escalation Policies Incidents API
+  slug: open-better-stack-incidents-api
+- collection_type: open
+  name: Better Stack Escalation Policies Monitors API
+  slug: open-better-stack-monitors-api
+- collection_type: open
+  name: Better Stack Escalation Policies Status Pages API
+  slug: open-better-stack-status-pages-api
+- collection_type: open
+  name: Better Stack Escalation Policies Team Members API
+  slug: open-better-stack-team-members-api
 - collection_type: open
   name: Better Stack API
   slug: open-better-stack
@@ -556,7 +577,7 @@ plans:
 - name: Better Stack Plans Pricing
   plan_count: 3
   slug: better-stack-plans-pricing
-random_paper: 25
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Better Stack Rate Limits
@@ -598,7 +619,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/better-stack/refs/heads/main/screenshots/better-stack-2026-06-20T173204.png
 security:

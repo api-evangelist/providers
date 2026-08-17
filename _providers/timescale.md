@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -64,7 +64,44 @@ apis:
 - description: Manage VPCs and their peering connections.
   name: Timescale VP Cs API
   slug: timescale-vpcs-api
-artifact_total: 18
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Timescale Analytics API
+  slug: open-timescale-analytics-api
+- collection_type: open
+  name: Timescale Auth API
+  slug: open-timescale-auth-api
+- collection_type: open
+  name: Ghost Feedback API
+  slug: open-timescale-feedback-api
+- collection_type: open
+  name: Ghost Health API
+  slug: open-timescale-health-api
+- collection_type: open
+  name: Ghost Invites API
+  slug: open-timescale-invites-api
+- collection_type: open
+  name: Ghost Pricing API
+  slug: open-timescale-pricing-api
+- collection_type: open
+  name: Tiger Cloud Projects API
+  slug: open-timescale-projects-api
+- collection_type: open
+  name: Tiger Cloud Read Replica Sets API
+  slug: open-timescale-read-replica-sets-api
+- collection_type: open
+  name: Tiger Cloud Services API
+  slug: open-timescale-services-api
+- collection_type: open
+  name: Ghost Spaces API
+  slug: open-timescale-spaces-api
+- collection_type: open
+  name: Tiger Cloud VP Cs API
+  slug: open-timescale-vpcs-api
 common:
 - group: agent
   title: ''
@@ -262,7 +299,7 @@ overview: 'Timescale publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Timescale''s developer surface includes authentication, CLI, changelog, release notes, sandbox, developer console, documentation, and 38 more developer resources.'
-random_paper: 111
+random_paper: 57
 score:
   band: strong
   composite: 60.7
@@ -286,7 +323,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

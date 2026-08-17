@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Making and managing bookings.
@@ -40,7 +40,20 @@ apis:
 - description: Getting rates for future dates.
   name: Impala Rate Calendar API
   slug: impala-rate-calendar-api
-artifact_total: 5
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Impala Hotel Booking Bookings API
+  slug: open-impala-bookings-api
+- collection_type: open
+  name: Impala Hotel Booking Bookings Hotels API
+  slug: open-impala-hotels-api
+- collection_type: open
+  name: Impala Hotel Booking Bookings Rate Calendar API
+  slug: open-impala-rate-calendar-api
 common:
 - group: other
   title: ''
@@ -118,7 +131,7 @@ overview: 'Impala publishes 3 APIs on the [APIs.io](https://apis.io/) network: B
 
 
   Impala''s developer surface includes authentication, sandbox, and 13 more developer resources.'
-random_paper: 28
+random_paper: 32
 score:
   band: thin
   composite: 30.2
@@ -147,7 +160,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/screenshots/impala-2026-07-25T222147.png
 security:

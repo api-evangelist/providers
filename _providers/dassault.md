@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -75,7 +75,29 @@ apis:
 - description: This section defines all the operations related to price lists, including the search of price lists for a specfic partner.
   name: Dassault Systèmes price-lists API
   slug: dassault-price-lists-api
-artifact_total: 168
+artifact_total: 175
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APIs for Dassault Systèmes Partners accreditations API
+  slug: open-dassault-accreditations-api
+- collection_type: open
+  name: APIs for Dassault Systèmes Partners accreditations apikeys API
+  slug: open-dassault-apikeys-api
+- collection_type: open
+  name: APIs for Dassault Systèmes Partners accreditations leads-opportunities API
+  slug: open-dassault-leads-opportunities-api
+- collection_type: open
+  name: APIs for Dassault Systèmes Partners accreditations orders API
+  slug: open-dassault-orders-api
+- collection_type: open
+  name: APIs for Dassault Systèmes Partners accreditations portfolio-items API
+  slug: open-dassault-portfolio-items-api
+- collection_type: open
+  name: APIs for Dassault Systèmes Partners accreditations price-lists API
+  slug: open-dassault-price-lists-api
 common:
 - group: agent
   title: ''
@@ -609,7 +631,7 @@ plans:
 - name: Dassault Plans Pricing
   plan_count: 3
   slug: dassault-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 0
   name: Dassault Rate Limits
@@ -643,7 +665,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/screenshots/dassault-2026-06-20T175506.png
 security:

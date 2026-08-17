@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Spot pricing for individual metals.
   name: Metals.Dev Spot Prices API
   slug: metals-dev-spot-prices-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Metals.Dev Account API
+  slug: open-metals-dev-account-api
+- collection_type: open
+  name: Metals.Dev Account Authority API
+  slug: open-metals-dev-authority-api
+- collection_type: open
+  name: Metals.Dev Account Currency API
+  slug: open-metals-dev-currency-api
+- collection_type: open
+  name: Metals.Dev Account Rates API
+  slug: open-metals-dev-rates-api
+- collection_type: open
+  name: Metals.Dev Account Spot Prices API
+  slug: open-metals-dev-spot-prices-api
 - collection_type: open
   name: Metals.Dev API
   slug: open-metals-dev
@@ -112,7 +130,7 @@ plans:
 - name: Metals Dev Plans Pricing
   plan_count: 3
   slug: metals-dev-plans-pricing
-random_paper: 50
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Metals Dev Rate Limits
@@ -137,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/screenshots/metals-dev-2026-06-20T185246.png
 security:

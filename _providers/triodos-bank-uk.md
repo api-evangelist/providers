@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -50,7 +50,14 @@ apis:
 - description: The Triodos Auth service - 8 operation(s) implementing OAuth2 / OpenID Connect for XS2A third-party providers, including dynamic client registration, OpenID configuration discovery, authorization, tok
   name: Triodos XS2A Authorization (OAuth2/OIDC) API
   slug: triodos-authorization-api
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Triodos Auth service
+  slug: open-triodos-bank-uk-auth
+- collection_type: open
+  name: Triodos XS2A BG service
+  slug: open-triodos-bank-uk-xs2a
 common:
 - group: auth
   title: ''
@@ -205,7 +212,7 @@ overview: 'Triodos Bank UK publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Triodos Bank UK''s developer surface includes authentication, sandbox, changelog, API reference, signup flow, documentation, getting-started guide, and 27 more developer resources.'
-random_paper: 58
+random_paper: 8
 scopes:
 - name: Triodos Bank Uk Scopes
   scope_count: 5
@@ -240,7 +247,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

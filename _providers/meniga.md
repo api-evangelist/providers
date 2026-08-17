@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: 'Meniga is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Meniga''s developer surface includes documentation, getting-started guide, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 25
+random_paper: 29
 score:
   band: emerging
   composite: 23.9
@@ -126,7 +126,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meniga/refs/heads/main/screenshots/meniga-2026-08-07T172522.png
 security:

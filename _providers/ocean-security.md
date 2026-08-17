@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Operations for retrieving threat information
   name: Ocean Security Threats API
   slug: ocean-security-threats-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ocean Security Metrics API
+  slug: open-ocean-security-metrics-api
+- collection_type: open
+  name: Ocean Security Metrics Settings API
+  slug: open-ocean-security-settings-api
+- collection_type: open
+  name: Ocean Security Metrics Sonar API
+  slug: open-ocean-security-sonar-api
+- collection_type: open
+  name: Ocean Security Metrics Threats API
+  slug: open-ocean-security-threats-api
 common:
 - group: agent
   title: ''
@@ -148,7 +164,7 @@ overview: 'Ocean Security publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Ocean Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 11
+random_paper: 110
 score:
   band: developing
   composite: 42.8
@@ -172,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/screenshots/ocean-security-2026-08-07T185923.png
 security:

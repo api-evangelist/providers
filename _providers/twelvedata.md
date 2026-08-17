@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - description: Historical and real-time OHLCV time series.
   name: Twelve Data Time Series API
   slug: twelvedata-time-series-api
-artifact_total: 23
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI 2.6 description of Twelve Data's **real-time price WebSocket**. Unlike a one-way HTTP Server-Sent Events stream, this is a genuine, bidirectional WebSocket (`wss://`) surface. The client open
   name: Twelve Data Real-Time Price WebSocket
@@ -82,6 +82,27 @@ collections:
 - collection_type: postman
   name: Twelve Data REST Core Data Time Series API
   slug: postman-twelvedata-time-series-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Twelve Data REST Core Data API
+  slug: open-twelvedata-core-data-api
+- collection_type: open
+  name: Twelve Data REST Core Data Fundamentals API
+  slug: open-twelvedata-fundamentals-api
+- collection_type: open
+  name: Twelve Data API
+  slug: open-twelvedata-openapi-original
+- collection_type: open
+  name: Twelve Data REST Core Data Reference Data API
+  slug: open-twelvedata-reference-data-api
+- collection_type: open
+  name: Twelve Data REST Core Data Technical Indicators API
+  slug: open-twelvedata-technical-indicators-api
+- collection_type: open
+  name: Twelve Data REST Core Data Time Series API
+  slug: open-twelvedata-time-series-api
 - collection_type: open
   name: Twelve Data REST API
   slug: open-twelvedata
@@ -273,7 +294,7 @@ plans:
 - name: Twelvedata Plans Pricing
   plan_count: 5
   slug: twelvedata-plans-pricing
-random_paper: 113
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Twelvedata Rate Limits
@@ -316,7 +337,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-07-22T202655.png
 security:

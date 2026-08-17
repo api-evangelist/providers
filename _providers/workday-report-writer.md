@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Create and manage Prism Analytics tables that define the schema for external data loaded into Workday for reporting and analytics
   name: Workday Report Writer Tables API
   slug: workday-report-writer-tables-api
-artifact_total: 51
+artifact_total: 60
 collections:
 - collection_type: postman
   name: Workday Report Writer Workday Prism Analytics Buckets agentDefinition API
@@ -93,11 +93,38 @@ collections:
   name: Workday Report Writer Workday Prism Analytics Buckets Tables API
   slug: postman-workday-report-writer-tables-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Report Writer Workday Prism Analytics Buckets agentDefinition API
+  slug: open-workday-report-writer-agentdefinition-api
+- collection_type: open
+  name: Workday Report Writer Workday Prism Analytics Buckets API
+  slug: open-workday-report-writer-buckets-api
+- collection_type: open
+  name: Workday Report Writer Workday Prism Analytics Buckets Custom Reports API
+  slug: open-workday-report-writer-custom-reports-api
+- collection_type: open
+  name: Workday Report Writer Workday Prism Analytics Buckets Data Change Tasks API
+  slug: open-workday-report-writer-data-change-tasks-api
+- collection_type: open
+  name: Workday Report Writer Workday Prism Analytics Buckets Data Sources API
+  slug: open-workday-report-writer-data-sources-api
+- collection_type: open
+  name: Workday Report Writer Workday Prism Analytics Buckets Datasets API
+  slug: open-workday-report-writer-datasets-api
+- collection_type: open
   name: Workday Report Writer Workday Prism Analytics API
   slug: open-workday-report-writer-prism-analytics
 - collection_type: open
+  name: Workday Report Writer Workday Prism Analytics Buckets Query Execution API
+  slug: open-workday-report-writer-query-execution-api
+- collection_type: open
   name: Workday Report Writer Workday Report-as-a-Service (RaaS) REST API
   slug: open-workday-report-writer-raas
+- collection_type: open
+  name: Workday Report Writer Workday Prism Analytics Buckets Tables API
+  slug: open-workday-report-writer-tables-api
 - collection_type: open
   name: Workday Report Writer Workday WQL API
   slug: open-workday-report-writer-wql
@@ -245,7 +272,7 @@ plans:
 - name: Workday Report Writer Plans Pricing
   plan_count: 1
   slug: workday-report-writer-plans-pricing
-random_paper: 36
+random_paper: 110
 rate_limits:
 - limit_count: 2
   name: Workday Report Writer Rate Limits
@@ -279,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
 security:

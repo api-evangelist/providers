@@ -1,35 +1,46 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 47.3
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The Trend platform API — the NestJS backend behind app.trend.io and the Trend creator app. It exposes 124 operations across brand accounts and approvals, campaign creation/submission/relisting, creato
+  name: Trend API
+  slug: trend-api
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Trend API - 1.28.31
+  slug: open-trend-api
 common:
 - group: company
   title: ''
@@ -50,7 +61,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://support.soona.co/trend-ugc
+  url: https://support.soona.co
 - group: company
   title: ''
   type: Blog
@@ -63,39 +74,122 @@ common:
   title: ''
   type: TermsOfService
   url: https://soona.co/terms
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Trend-io
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/trend-api-openapi.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.trend.io/docs-json
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/trend-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/trend-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/trend-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/trend-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/trend-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/trend-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/trend-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/trend-rate-limits.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/trend-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/trend-api-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/trend-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/trend-domain-security.yml
 created: '2026-07-17'
-description: Trend (branded "Trend by soona") is a user-generated content (UGC) platform that connects brands with a network of vetted independent creators to produce custom photo and video content — product and lifestyle photography, testimonial, unboxing, and product-in-action videos — optimized for TikTok, Instagram, Facebook, YouTube, and Amazon. Brands post a creative brief, hire creators from a network of 3,700+, and receive full licensing and distribution rights to the delivered content. Pricing is credit-based with no subscriptions or contracts. Trend is part of soona.co. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network; enrichment found no public developer API, documentation, or developer portal — the surface is a brand/creator web application, not a programmable API.
+description: Trend (branded "Trend by soona") is a user-generated content (UGC) platform that connects brands with a network of vetted independent creators to produce custom photo and video content — product and lifestyle photography, testimonial, unboxing, and product-in-action videos — optimized for TikTok, Instagram, Facebook, YouTube, and Amazon. Brands post a creative brief, hire creators from a network of 3,700+, and receive full licensing and distribution rights to the delivered content. Pricing is credit-based with no subscriptions or contracts. Trend is part of soona.co. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network. Trend publishes no developer program or developer portal, but the platform's own NestJS backend at api.trend.io serves a public, machine-readable OpenAPI 3.0 document at /docs-json covering 124 operations across brands, campaigns, creators, partnerships, content submission, messaging, shipments, AI image generation, and Stripe
+  credit purchases. The Swagger UI at /docs is password-protected; the specification behind it is not.
 image: https://cdn.prod.website-files.com/62c13e3f6b73683c91c0df7c/649ae4e9626c096bdb7ca6ca_trend-by-soona-black.svg
 layout: provider
-modified: '2026-07-21'
+mcp_servers:
+- description: ''
+  name: trend-mcp.yml
+  slug: trend-mcpyml
+modified: '2026-08-13'
 name: Trend
 nav: Providers
 network: true
-overview: 'Trend is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, User-Generated Content, Creator Economy, Content Marketing, and Video Production.
+overview: 'Trend publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, User-Generated Content, Creator Economy, Content Marketing, and Video Production.
 
 
-  Trend''s developer surface includes pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 61
+  Trend''s developer surface includes pricing, signup flow, support, engineering blog, API reference, authentication, and 18 more developer resources.'
+plans:
+- name: Trend Plans Pricing
+  plan_count: 4
+  slug: trend-plans-pricing
+random_paper: 94
+rate_limits:
+- limit_count: 0
+  name: Trend Rate Limits
+  slug: trend-rate-limits
 score:
-  band: emerging
-  composite: 15.2
-  delta: 0.0
+  band: developing
+  composite: 43.7
+  delta: 28.5
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 76.3
+    contract_quality: 42.5
+    developer_ergonomics: 39.1
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 5.3
   previous_composite: 15.2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Trend Authentication
+  slug: trend-authentication
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Trend Domain Security
   slug: trend-domain-security
@@ -110,5 +204,9 @@ tags:
 - Photography
 - Marketing
 - eCommerce
+- Creator Marketplace
+- Influencer Marketing
+- AI Image Generation
+- Payments
 website: https://trend.io
 ---

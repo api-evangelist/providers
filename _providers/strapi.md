@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 4
@@ -84,21 +84,66 @@ apis:
 - description: Endpoints for managing webhook configurations from the admin panel.
   name: Strapi Webhooks API
   slug: strapi-webhooks-api
-artifact_total: 37
+artifact_total: 52
 asyncapis:
 - description: Strapi includes a built-in webhook system that notifies external services whenever certain events occur in the CMS. Rather than polling the Strapi API for changes, you can configure Strapi to send HTT
   name: Strapi Webhooks
   slug: strapi-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication API
+  slug: open-strapi-admin-authentication-api
+- collection_type: open
   name: Strapi Admin Panel API
   slug: open-strapi-admin-panel-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Admin Roles API
+  slug: open-strapi-admin-roles-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Admin Users API
+  slug: open-strapi-admin-users-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication API Tokens API
+  slug: open-strapi-api-tokens-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication API
+  slug: open-strapi-authentication-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Content Entries API
+  slug: open-strapi-content-entries-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Content Manager API
+  slug: open-strapi-content-manager-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Content Types API
+  slug: open-strapi-content-types-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Permissions API
+  slug: open-strapi-permissions-api
 - collection_type: open
   name: Strapi REST API
   slug: open-strapi-rest-api
 - collection_type: open
+  name: Strapi Admin Panel Admin Authentication Roles API
+  slug: open-strapi-roles-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Transfer Tokens API
+  slug: open-strapi-transfer-tokens-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Upload API
+  slug: open-strapi-upload-api
+- collection_type: open
   name: Strapi Users and Permissions API
   slug: open-strapi-users-and-permissions-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Users API
+  slug: open-strapi-users-api
+- collection_type: open
+  name: Strapi Admin Panel Admin Authentication Webhooks API
+  slug: open-strapi-webhooks-api
 common:
 - group: agent
   title: ''
@@ -237,7 +282,7 @@ plans:
 - name: Strapi Plans Pricing
   plan_count: 3
   slug: strapi-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Strapi Rate Limits
@@ -287,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/screenshots/strapi-2026-06-20T194615.png
 security:

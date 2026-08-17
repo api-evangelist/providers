@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for managing voyages and workflows on the Voyager Portal maritime operations platform. Resources include voyages (schedules, cargoes, documents, categories, models), claims and claim port-cal
@@ -147,7 +147,7 @@ overview: 'Voyager Portal publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Voyager Portal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 28
+random_paper: 127
 score:
   band: thin
   composite: 40.3
@@ -164,7 +164,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

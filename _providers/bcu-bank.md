@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: Banking Product endpoints
   name: BCU Bank Banking Products API
   slug: bcu-bank-banking-products-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-bcu-bank-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-bcu-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-bcu-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-bcu-bank-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-bcu-bank-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-bcu-bank-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-bcu-bank-banking-products-api
 common:
 - group: auth
   title: ''
@@ -197,7 +222,7 @@ overview: 'BCU Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BCU Bank''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 25 more developer resources.'
-random_paper: 51
+random_paper: 26
 scopes:
 - name: Bcu Bank Scopes
   scope_count: 5
@@ -232,7 +257,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/screenshots/bcu-bank-2026-07-21T114720.png
 security:

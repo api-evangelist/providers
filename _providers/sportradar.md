@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,14 +81,47 @@ apis:
 - description: WNBA Push Feeds deliver real-time game events, statistics, and clock updates over HTTP chunked streaming.
   name: Sportradar WNBA Push API
   slug: sportradar-wnba-push-api
-artifact_total: 47
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sportradar Push Feeds Competitors API
+  slug: open-sportradar-competitors-api
+- collection_type: open
+  name: Sportradar Push Feeds Competitors NBA Push API
+  slug: open-sportradar-nba-push-api
+- collection_type: open
+  name: Sportradar Push Feeds Competitors NFL Push API
+  slug: open-sportradar-nfl-push-api
+- collection_type: open
+  name: Sportradar Push Feeds Competitors NHL Push API
+  slug: open-sportradar-nhl-push-api
 - collection_type: open
   name: Sportradar Push Feeds API
   slug: open-sportradar-push-feeds
 - collection_type: open
+  name: Sportradar Push Feeds Competitors Schedules API
+  slug: open-sportradar-schedules-api
+- collection_type: open
+  name: Sportradar Push Feeds Competitors Scores API
+  slug: open-sportradar-scores-api
+- collection_type: open
+  name: Sportradar Push Feeds Competitors Soccer Push API
+  slug: open-sportradar-soccer-push-api
+- collection_type: open
   name: Sportradar Sports Data API
   slug: open-sportradar-sports-data
+- collection_type: open
+  name: Sportradar Push Feeds Competitors Standings API
+  slug: open-sportradar-standings-api
+- collection_type: open
+  name: Sportradar Push Feeds Competitors Statistics API
+  slug: open-sportradar-statistics-api
+- collection_type: open
+  name: Sportradar Push Feeds Competitors WNBA Push API
+  slug: open-sportradar-wnba-push-api
 common:
 - group: agent
   title: ''
@@ -268,7 +301,7 @@ plans:
 - name: Sportradar Plans Pricing
   plan_count: 1
   slug: sportradar-plans-pricing
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Sportradar Rate Limits
@@ -310,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/screenshots/sportradar-2026-06-20T194345.png
 security:

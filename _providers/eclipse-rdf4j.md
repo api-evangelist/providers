@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -59,8 +59,32 @@ apis:
 - description: Group multiple operations in an atomic transaction.
   name: Eclipse RDF4J Transactions API
   slug: eclipse-rdf4j-transactions-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RDF4J Server REST Contexts API
+  slug: open-eclipse-rdf4j-contexts-api
+- collection_type: open
+  name: RDF4J Server REST Contexts Namespaces API
+  slug: open-eclipse-rdf4j-namespaces-api
+- collection_type: open
+  name: RDF4J Server REST Contexts Protocol API
+  slug: open-eclipse-rdf4j-protocol-api
+- collection_type: open
+  name: RDF4J Server REST Contexts Repositories API
+  slug: open-eclipse-rdf4j-repositories-api
+- collection_type: open
+  name: RDF4J Server REST Contexts Size API
+  slug: open-eclipse-rdf4j-size-api
+- collection_type: open
+  name: RDF4J Server REST Contexts Statements API
+  slug: open-eclipse-rdf4j-statements-api
+- collection_type: open
+  name: RDF4J Server REST Contexts Transactions API
+  slug: open-eclipse-rdf4j-transactions-api
 - collection_type: open
   name: RDF4J Server REST API
   slug: open-rdf4j-server-rest-api
@@ -145,7 +169,7 @@ plans:
 - name: Eclipse Rdf4J Plans Pricing
   plan_count: 3
   slug: eclipse-rdf4j-plans-pricing
-random_paper: 60
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Eclipse Rdf4J Rate Limits
@@ -170,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/screenshots/eclipse-rdf4j-2026-06-20T180427.png
 security:

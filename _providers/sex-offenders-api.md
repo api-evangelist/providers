@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The Sex Offenders API from Sex Offenders API — 1 operation(s) for sex offenders.
   name: Sex Offenders API Sex Offenders API
   slug: sex-offenders-api-sex-offenders-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crimeometer Sex Offenders API
+  slug: open-sex-offenders-api-sex-offenders-api
 - collection_type: open
   name: Crimeometer Sex Offenders API
   slug: open-sex-offenders-api
@@ -83,7 +89,7 @@ plans:
 - name: Sex Offenders Api Plans Pricing
   plan_count: 3
   slug: sex-offenders-api-plans-pricing
-random_paper: 16
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Sex Offenders Api Rate Limits
@@ -108,7 +114,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/screenshots/sex-offenders-api-2026-06-20T193740.png
 security:

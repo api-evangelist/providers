@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -75,8 +75,23 @@ apis:
 - description: Remote actions that can be performed on managed devices, including retire, wipe, sync, remote lock, reset passcode, and reboot.
   name: Microsoft Intune Remote Actions API
   slug: microsoft-intune-remote-actions-api
-artifact_total: 37
+artifact_total: 42
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Intune Graph Device Compliance Policies API
+  slug: open-microsoft-intune-device-compliance-policies-api
+- collection_type: open
+  name: Microsoft Intune Graph Device Compliance Policies Device Configurations API
+  slug: open-microsoft-intune-device-configurations-api
+- collection_type: open
+  name: Microsoft Intune Graph Device Compliance Policies Managed Devices API
+  slug: open-microsoft-intune-managed-devices-api
+- collection_type: open
+  name: Microsoft Intune Graph Device Compliance Policies Remote Actions API
+  slug: open-microsoft-intune-remote-actions-api
 - collection_type: open
   name: Microsoft Intune Graph API
   slug: open-microsoft-intune
@@ -249,7 +264,7 @@ plans:
 - name: Microsoft Intune Plans Pricing
   plan_count: 9
   slug: microsoft-intune-plans-pricing
-random_paper: 6
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Microsoft Intune Rate Limits
@@ -288,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/screenshots/microsoft-intune-2026-06-20T185505.png
 security:

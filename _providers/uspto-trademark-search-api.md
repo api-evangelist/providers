@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Search trademarks by keyword or phrase
   name: USPTO Trademark Search API Trademark Search API
   slug: uspto-trademark-search-api-trademark-search-api
-artifact_total: 26
+artifact_total: 32
 collections:
 - collection_type: postman
   name: USPTO Trademark Search Database Status API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: USPTO Database Status Trademark Search API
   slug: postman-uspto-trademark-search-api-trademark-search-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USPTO Trademark Search Database Status API
+  slug: open-uspto-trademark-search-api-database-status-api
+- collection_type: open
+  name: USPTO Trademark Search Database Status Owner Search API
+  slug: open-uspto-trademark-search-api-owner-search-api
+- collection_type: open
+  name: USPTO Trademark Search Database Status Trademark Availability API
+  slug: open-uspto-trademark-search-api-trademark-availability-api
+- collection_type: open
+  name: USPTO Trademark Search Database Status Trademark Lookup API
+  slug: open-uspto-trademark-search-api-trademark-lookup-api
+- collection_type: open
+  name: USPTO Database Status Trademark Search API
+  slug: open-uspto-trademark-search-api-trademark-search-api
 - collection_type: open
   name: USPTO Trademark Search API
   slug: open-uspto-trademark-search-api
@@ -192,7 +210,7 @@ plans:
 - name: Uspto Trademark Search Api Plans Pricing
   plan_count: 3
   slug: uspto-trademark-search-api-plans-pricing
-random_paper: 85
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Uspto Trademark Search Api Rate Limits
@@ -240,7 +258,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/screenshots/uspto-trademark-search-api-2026-06-20T200727.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -111,7 +111,7 @@ apis:
 - description: The Usage API from Amazon Macie — 2 operation(s) for usage.
   name: Amazon Macie Usage API
   slug: amazon-macie-usage-api
-artifact_total: 1338
+artifact_total: 1363
 collections:
 - collection_type: postman
   name: Amazon Macie 2 Admin#adminAccountId API
@@ -185,6 +185,81 @@ collections:
 - collection_type: postman
   name: Amazon Macie 2 Admin#adminAccountId Usage API
   slug: postman-amazon-macie-usage-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId API
+  slug: open-amazon-macie-admin-adminaccountid-api
+- collection_type: open
+  name: 'Amazon Macie 2 #adminAccountId Admin API'
+  slug: open-amazon-macie-admin-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Administrator API
+  slug: open-amazon-macie-administrator-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Allow Lists API
+  slug: open-amazon-macie-allow-lists-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Automated Discovery API
+  slug: open-amazon-macie-automated-discovery-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Classification Export Configuration API
+  slug: open-amazon-macie-classification-export-configuration-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Classification Scopes API
+  slug: open-amazon-macie-classification-scopes-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Custom Data Identifiers API
+  slug: open-amazon-macie-custom-data-identifiers-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Datasources API
+  slug: open-amazon-macie-datasources-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Findings API
+  slug: open-amazon-macie-findings-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Findings Publication Configuration API
+  slug: open-amazon-macie-findings-publication-configuration-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Findingsfilters API
+  slug: open-amazon-macie-findingsfilters-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Invitations API
+  slug: open-amazon-macie-invitations-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Jobs API
+  slug: open-amazon-macie-jobs-api
+- collection_type: open
+  name: Amazon 2 Admin#adminAccountId Macie API
+  slug: open-amazon-macie-macie-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Managed Data Identifiers API
+  slug: open-amazon-macie-managed-data-identifiers-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Master API
+  slug: open-amazon-macie-master-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Members API
+  slug: open-amazon-macie-members-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Resource Profiles API
+  slug: open-amazon-macie-resource-profiles-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Resource Profiles#resourceArn API
+  slug: open-amazon-macie-resource-profiles-resourcearn-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Reveal Configuration API
+  slug: open-amazon-macie-reveal-configuration-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Tags API
+  slug: open-amazon-macie-tags-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Templates API
+  slug: open-amazon-macie-templates-api
+- collection_type: open
+  name: Amazon Macie 2 Admin#adminAccountId Usage API
+  slug: open-amazon-macie-usage-api
 - collection_type: open
   name: Amazon Macie API
   slug: open-openapi
@@ -4113,7 +4188,7 @@ plans:
 - name: Amazon Macie Plans Pricing
   plan_count: 3
   slug: amazon-macie-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Amazon Macie Rate Limits
@@ -4155,7 +4230,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/screenshots/amazon-macie-2026-06-20T171730.png
 security:

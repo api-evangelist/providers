@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Version and platform metadata endpoints.
   name: Lamini Platform API
   slug: lamini-platform-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lamini Platform Classify API
+  slug: open-lamini-classify-api
+- collection_type: open
+  name: Lamini Platform Classify Embeddings API
+  slug: open-lamini-embeddings-api
+- collection_type: open
+  name: Lamini Platform Classify Fine-Tuning API
+  slug: open-lamini-fine-tuning-api
+- collection_type: open
+  name: Lamini Platform Classify Inference API
+  slug: open-lamini-inference-api
+- collection_type: open
+  name: Lamini Classify Platform API
+  slug: open-lamini-platform-api
 - collection_type: open
   name: Lamini Platform API
   slug: open-lamini
@@ -120,7 +138,7 @@ plans:
 - name: Lamini Plans Pricing
   plan_count: 2
   slug: lamini-plans-pricing
-random_paper: 34
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Lamini Rate Limits
@@ -145,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/screenshots/lamini-2026-06-20T184254.png
 security:

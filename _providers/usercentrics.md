@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -71,14 +71,47 @@ apis:
 - description: The UI API from Usercentrics — 2 operation(s) for ui.
   name: Usercentrics UI API
   slug: usercentrics-ui-api
-artifact_total: 77
+artifact_total: 88
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Usercentrics App CMP SDK API
   slug: open-usercentrics-app-cmp-sdk
 - collection_type: open
+  name: Usercentrics App CMP SDK CCPA API
+  slug: open-usercentrics-ccpa-api
+- collection_type: open
+  name: Usercentrics App CMP SDK CCPA Consent API
+  slug: open-usercentrics-consent-api
+- collection_type: open
+  name: Usercentrics App CMP SDK CCPA Consent Mode API
+  slug: open-usercentrics-consent-mode-api
+- collection_type: open
+  name: Usercentrics App CMP SDK CCPA Controller API
+  slug: open-usercentrics-controller-api
+- collection_type: open
   name: Cookiebot CMP API
   slug: open-usercentrics-cookiebot-cmp
+- collection_type: open
+  name: Usercentrics App CMP SDK CCPA Dialog API
+  slug: open-usercentrics-dialog-api
+- collection_type: open
+  name: Usercentrics App CMP SDK CCPA GPP API
+  slug: open-usercentrics-gpp-api
+- collection_type: open
+  name: Usercentrics App CMP SDK CCPA Lifecycle API
+  slug: open-usercentrics-lifecycle-api
+- collection_type: open
+  name: Usercentrics App CMP SDK CCPA Scanner API
+  slug: open-usercentrics-scanner-api
+- collection_type: open
+  name: Usercentrics App CMP SDK CCPA TCF API
+  slug: open-usercentrics-tcf-api
+- collection_type: open
+  name: Usercentrics App CMP SDK CCPA UI API
+  slug: open-usercentrics-ui-api
 - collection_type: open
   name: Usercentrics Web CMP V3 API
   slug: open-usercentrics-web-cmp-v3
@@ -232,7 +265,7 @@ plans:
 - name: Usercentrics Plans Pricing
   plan_count: 19
   slug: usercentrics-plans-pricing
-random_paper: 106
+random_paper: 114
 rate_limits:
 - limit_count: 4
   name: Usercentrics Rate Limits
@@ -257,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/screenshots/usercentrics-2026-06-20T200655.png
 security:

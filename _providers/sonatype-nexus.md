@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 10
@@ -177,11 +177,152 @@ apis:
 - description: The Tasks API from Sonatype Nexus — 7 operation(s) for tasks.
   name: Sonatype Nexus Tasks API
   slug: sonatype-nexus-tasks-api
-artifact_total: 61
+artifact_total: 108
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets API
+  slug: open-sonatype-nexus-assets-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Azure blob store API
+  slug: open-sonatype-nexus-azure-blob-store-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Blob store API
+  slug: open-sonatype-nexus-blob-store-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Capabilities API
+  slug: open-sonatype-nexus-capabilities-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Cleanup policies API
+  slug: open-sonatype-nexus-cleanup-policies-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Community Edition Eula API
+  slug: open-sonatype-nexus-community-edition-eula-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets components API
+  slug: open-sonatype-nexus-components-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Content selectors API
+  slug: open-sonatype-nexus-content-selectors-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Data Store API
+  slug: open-sonatype-nexus-data-store-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Database Upgrade API
+  slug: open-sonatype-nexus-database-upgrade-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Email API
+  slug: open-sonatype-nexus-email-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Formats API
+  slug: open-sonatype-nexus-formats-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Instance configuration API
+  slug: open-sonatype-nexus-instance-configuration-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Lifecycle API
+  slug: open-sonatype-nexus-lifecycle-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Malicious Risk On Disk API
+  slug: open-sonatype-nexus-malicious-risk-on-disk-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Manage Sonatype HTTP System Settings API
+  slug: open-sonatype-nexus-manage-sonatype-http-system-settings-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Manage Sonatype Repository Firewall configuration API
+  slug: open-sonatype-nexus-manage-sonatype-repository-firewall-configuration-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Monthly Metrics API
+  slug: open-sonatype-nexus-monthly-metrics-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Product licensing API
+  slug: open-sonatype-nexus-product-licensing-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Reconcile Plan API
+  slug: open-sonatype-nexus-reconcile-plan-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Recovery Mode API
+  slug: open-sonatype-nexus-recovery-mode-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Repository Management API
+  slug: open-sonatype-nexus-repository-management-api
 - collection_type: open
   name: Sonatype Nexus Repository Manager
   slug: open-sonatype-nexus-repository
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Routing rules API
+  slug: open-sonatype-nexus-routing-rules-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Script API
+  slug: open-sonatype-nexus-script-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Search API
+  slug: open-sonatype-nexus-search-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security: Atlassian Crowd API'
+  slug: open-sonatype-nexus-security-atlassian-crowd-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security: certificates API'
+  slug: open-sonatype-nexus-security-certificates-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security Management: Anonymous Access API'
+  slug: open-sonatype-nexus-security-management-anonymous-access-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: api keys principals encryption API'
+  slug: open-sonatype-nexus-security-management-api-keys-principals-encryption-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Security management API
+  slug: open-sonatype-nexus-security-management-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: JWT API'
+  slug: open-sonatype-nexus-security-management-jwt-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: LDAP API'
+  slug: open-sonatype-nexus-security-management-ldap-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: privileges API'
+  slug: open-sonatype-nexus-security-management-privileges-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: realms API'
+  slug: open-sonatype-nexus-security-management-realms-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: roles API'
+  slug: open-sonatype-nexus-security-management-roles-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: SAML API'
+  slug: open-sonatype-nexus-security-management-saml-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: SAML users API'
+  slug: open-sonatype-nexus-security-management-saml-users-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: secrets encryption API'
+  slug: open-sonatype-nexus-security-management-secrets-encryption-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: user tokens API'
+  slug: open-sonatype-nexus-security-management-user-tokens-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets Security management: users API'
+  slug: open-sonatype-nexus-security-management-users-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Staging API
+  slug: open-sonatype-nexus-staging-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Status API
+  slug: open-sonatype-nexus-status-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Support API
+  slug: open-sonatype-nexus-support-api
+- collection_type: open
+  name: 'Sonatype Nexus Repository Manager assets System: Nodes API'
+  slug: open-sonatype-nexus-system-nodes-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Tags API
+  slug: open-sonatype-nexus-tags-api
+- collection_type: open
+  name: Sonatype Nexus Repository Manager assets Tasks API
+  slug: open-sonatype-nexus-tasks-api
 common:
 - group: agent
   title: ''
@@ -277,7 +418,7 @@ plans:
 - name: Sonatype Nexus Plans Pricing
   plan_count: 3
   slug: sonatype-nexus-plans-pricing
-random_paper: 51
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Sonatype Nexus Rate Limits
@@ -319,7 +460,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/screenshots/sonatype-nexus-2026-06-20T194201.png
 security:

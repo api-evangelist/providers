@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,12 +42,18 @@ apis:
 - description: The GraphQL API from Kili Technology — 1 operation(s) for graphql.
   name: Kili Technology GraphQL API
   slug: kili-technology-graphql-api
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: AsyncAPI 2.6 description of Kili Technology's **GraphQL subscription** surface. Kili's labeling application is served from a single GraphQL endpoint at `https://cloud.kili-technology.com/api/label/v2/
   name: Kili Technology Label Subscription (GraphQL over WebSocket)
   slug: kili-technology-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kili Technology GraphQL API
+  slug: open-kili-technology-graphql-api
 - collection_type: open
   name: Kili Technology GraphQL API
   slug: open-kili-technology
@@ -127,7 +133,7 @@ plans:
 - name: Kili Technology Plans Pricing
   plan_count: 4
   slug: kili-technology-plans-pricing
-random_paper: 114
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Kili Technology Rate Limits
@@ -161,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/screenshots/kili-technology-2026-07-25T223739.png
 security:

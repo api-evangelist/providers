@@ -10,10 +10,9 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: near-conformant
     agent_skills: true
     agentic_access: derived
     auth_clarity: true
@@ -21,15 +20,15 @@ agent_readiness:
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: false
+    idempotency: documented
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-08-12'
+  score: 70.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -37,11 +36,14 @@ agentic_access:
   operation_count: 30
   slug: scope3-agentic-access
   summary_line: 30 operations · 17 acting
-api_count: 15
+api_count: 16
 apis:
-- description: 'The Interchange for agent-to-agent advertising: buyer and storefront personas for inventory discovery, campaign and creative orchestration, bundles, signals, and billing, served over REST and a hosted'
-  name: Scope3 Agentic Platform API
-  slug: scope3-agentic-platform-api
+- description: 'The buyer side of Scope3 Interchange, the Interchange for agent-to-agent advertising: 212 published operations covering advertisers, campaigns, product discovery, creatives, media buys, measurement, s'
+  name: Scope3 Interchange Buyer API
+  slug: scope3-interchange-buyer-api
+- description: 'The seller side of Scope3 Interchange: 269 published operations covering storefronts, inventory sources, ad-server catalog and buyer routing, signals, proposals, approvals, storefront agents and payou'
+  name: Scope3 Interchange Storefront API
+  slug: scope3-interchange-storefront-api
 - description: The AI Impact Measurement API from Scope3 — 1 operation(s) for ai impact measurement.
   name: Scope3 AI Impact Measurement API
   slug: scope3-ai-impact-measurement-api
@@ -84,16 +86,90 @@ apis:
 - description: The Status API from Scope3 — 1 operation(s) for status.
   name: Scope3 Status API
   slug: scope3-status-api
-artifact_total: 20
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Scope3 Webhooks
   slug: scope3-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AI Impact Measurement API
+  slug: open-scope3-ai-impact-measurement-api
+- collection_type: open
+  name: AI Impact Measurement Benchmarks API
+  slug: open-scope3-benchmarks-api
+- collection_type: open
+  name: AI Impact Measurement Creative API
+  slug: open-scope3-creative-api
+- collection_type: open
+  name: AI Impact Measurement Data API
+  slug: open-scope3-data-api
+- collection_type: open
+  name: AI Impact Measurement Gpu API
+  slug: open-scope3-gpu-api
+- collection_type: open
+  name: AI Measurement Impact API
+  slug: open-scope3-impact-api
+- collection_type: open
+  name: AI Impact Measurement Measure API
+  slug: open-scope3-measure-api
+- collection_type: open
+  name: AI Impact Measurement Model API
+  slug: open-scope3-model-api
+- collection_type: open
+  name: AI Impact Measurement Node API
+  slug: open-scope3-node-api
+- collection_type: open
+  name: AI Impact Measurement Reload API
+  slug: open-scope3-reload-api
+- collection_type: open
+  name: AI Impact Measurement Saved Lists API
+  slug: open-scope3-saved-lists-api
+- collection_type: open
+  name: AI Impact Measurement Segment API
+  slug: open-scope3-segment-api
+- collection_type: open
+  name: AI Impact Measurement Signals API
+  slug: open-scope3-signals-api
+- collection_type: open
+  name: AI Impact Measurement Status API
+  slug: open-scope3-status-api
 common:
 - group: other
   title: ''
   type: Overlay
   url: overlays/scope3-ai-overlay.yaml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/scope3-a2a.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/scope3-well-known.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/scope3-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/scope3-conventions.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/scope3-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/scope3-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/scope3-rate-limits.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -197,7 +273,15 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://scope3.com/agentic-advertising/pricing/
+  url: https://docs.interchange.io/v2/buyer/billing/how-iu-billing-works
+- group: start
+  title: ''
+  type: SignUp
+  url: https://interchange.io/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://interchange.io/login
 - group: commercial
   title: ''
   type: TermsOfService
@@ -210,37 +294,55 @@ common:
   title: ''
   type: Website
   url: https://scope3.com
+- group: other
+  title: ''
+  type: Interchange
+  url: https://interchange.io
 created: '2026-07-17'
-description: 'Scope3 is the source of truth for greenhouse-gas emissions data in media and advertising, and operates the Interchange for agent-to-agent (agentic) advertising. Its APIs let buyers, publishers, and platforms measure the carbon footprint of every ad impression and creative across channels, benchmark against country/channel percentiles, and run AI-powered programmatic advertising through an agentic buyer/storefront platform. Scope3 exposes three public API surfaces: the Carbon Calculator (Measurement) API at api.scope3.com/v2, the AI Impact Measurement API at aiapi.scope3.com (energy, gCO2e, and water per inference), and the Agentic Platform at api.agentic.scope3.com with a hosted MCP server, a `scope3` CLI, and published buyer/storefront Agent Skills. Backed by GV.'
+description: 'Scope3 is the source of truth for greenhouse-gas emissions data in media and advertising, and operates Scope3 Interchange, an agentic advertising platform where buyer agents and seller storefronts transact on the open Ad Context Protocol (AdCP). Its APIs let buyers, publishers and platforms measure the carbon footprint of every ad impression and creative across channels, benchmark against country/channel percentiles, and run AI-driven programmatic advertising end to end. Scope3 publishes four OpenAPI documents across three surfaces: the Carbon Calculator (Measurement) API at api.scope3.com/v2, the AI Impact Measurement API at aiapi.scope3.com (energy, gCO2e and water per inference), and the Interchange Buyer and Storefront v2 APIs at api.interchange.io with 481 operations between them. Interchange is built for AI agents as primary callers: hosted remote MCP endpoints with OAuth (RFC 8414 metadata, dynamic client registration, PKCE), an A2A agent card, three published Agent
+  Skills, a documented error envelope, IETF draft-7 rate-limit headers and a published IU pricing model. Backed by GV.'
 image: https://scope3.com/og-default.png
 layout: provider
 mcp_servers:
 - description: ''
   name: scope3-mcp.yml
   slug: scope3-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Scope3
 nav: Providers
 network: true
-overview: 'Scope3 publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AI Impact Measurement API, Benchmarks API, Creative API, and 11 more. Tagged areas include Company, Enterprise, Advertising, Carbon Emissions, and Sustainability.
+overview: 'Scope3 publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Interchange Buyer API, Interchange Storefront API, AI Impact Measurement API, and 13 more. Tagged areas include Company, Enterprise, Advertising, Carbon Emissions, and Sustainability.
 
 
   The Scope3 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Scope3''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 23 more developer resources.'
-random_paper: 109
+  Scope3''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 33 more developer resources.'
+plans:
+- name: Scope3 Plans Pricing
+  plan_count: 3
+  slug: scope3-plans-pricing
+random_paper: 142
+rate_limits:
+- limit_count: 4
+  name: Scope3 Rate Limits
+  slug: scope3-rate-limits
+scopes:
+- name: Scope3 Scopes
+  scope_count: 4
+  slug: scope3-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 52.4
-  delta: 0.0
+  band: exemplar
+  composite: 67.2
+  delta: 14.8
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 57.6
+    commercial_clarity: 76.3
+    contract_quality: 59.9
     developer_ergonomics: 87.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
-    operational_transparency: 36.8
+    operational_transparency: 68.4
   previous_composite: 52.4
   provenance:
     agentic_access: derived
@@ -253,17 +355,17 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Scope3 Authentication
   slug: scope3-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2/openIdConnect · 4 schemes
 - kind: domain-security
   name: Scope3 Domain Security
   slug: scope3-domain-security
-  summary_line: TLSv1.3 · DNSSEC · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: scope3
 tags:
 - Company
@@ -275,5 +377,10 @@ tags:
 - Measurement
 - Artificial Intelligence
 - Agentic
+- AdCP
+- MCP
+- Programmatic
+- Media Buying
+- Publishing
 website: https://scope3.com
 ---

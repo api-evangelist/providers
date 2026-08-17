@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Account services, schedule, status, and ETA.
   name: WM Services API
   slug: wm-services-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WM Customer Activities API
+  slug: open-wm-activities-api
+- collection_type: open
+  name: WM Customer Activities Cases & Tickets API
+  slug: open-wm-cases-tickets-api
+- collection_type: open
+  name: WM Customer Activities Contacts API
+  slug: open-wm-contacts-api
+- collection_type: open
+  name: WM Customer Activities Invoices & Balance API
+  slug: open-wm-invoices-balance-api
+- collection_type: open
+  name: WM Customer Activities Profiles & Preferences API
+  slug: open-wm-profiles-preferences-api
+- collection_type: open
+  name: WM Customer Activities Service Operations & Materials API
+  slug: open-wm-service-operations-materials-api
+- collection_type: open
+  name: WM Customer Activities Service Pricing API
+  slug: open-wm-service-pricing-api
+- collection_type: open
+  name: WM Customer Activities Services API
+  slug: open-wm-services-api
 - collection_type: open
   name: WM Customer API
   slug: open-wm
@@ -125,7 +152,7 @@ plans:
 - name: Wm Plans Pricing
   plan_count: 1
   slug: wm-plans-pricing
-random_paper: 108
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Wm Rate Limits
@@ -150,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

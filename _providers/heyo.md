@@ -1,13 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Self-service SaaS, no API
   onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
+  pricing: paid
+  public: true
+  source:
+  - https://heyo.com/pricing/
+  - https://platform.heyo.com/register
+  trial: true
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -22,14 +24,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -54,35 +56,81 @@ common:
 - group: start
   title: ''
   type: Login
-  url: https://heyo.com/login
+  url: https://platform.heyo.com/login
+- group: start
+  title: ''
+  type: SignUp
+  url: https://platform.heyo.com/register
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.heyo.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.heyo.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/heyo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/heyo-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/heyo-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Heyo ships only an end-user campaign builder — the words "Developer API" appear once on the heyo.com homepage as static headline copy with no link behind them, while /api, /developer, /developers, /docs and /api-docs all 404 and api.heyo.com, developer.heyo.com and docs.heyo.com do not resolve in DNS.
+  evidence:
+  - status: 404
+    url: https://heyo.com/developer
+  - status: 404
+    url: https://heyo.com/api-docs
+  - status: 404
+    url: https://heyo.com/.well-known/api-catalog
+  - status: 200
+    url: https://heyo.com/pricing/
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Heyo is a social marketing platform for building and running online promotions such as sweepstakes, contests, giveaways, quizzes, and coupons. Businesses use Heyo's drag-and-drop campaign builder and landing pages to create interactive campaign apps that publish to the web, mobile, and social networks including Facebook, Instagram, and Twitter. It is used to grow email marketing lists, generate sales leads, acquire new customers, reward existing customers, and increase social followers, with templated promotion apps and a free trial. Heyo is a portfolio company of 500 Global.
+description: Heyo is a social marketing platform for building and running online promotions such as sweepstakes, contests, giveaways, quizzes, and coupons. Businesses use Heyo's drag-and-drop campaign builder and landing pages to create interactive campaign apps that publish to the web, mobile, and social networks including Facebook, Instagram, and Twitter. It is used to grow email marketing lists, generate sales leads, acquire new customers, reward existing customers, and increase social followers, with templated promotion apps and a free trial. Heyo is a portfolio company of 500 Global and was acquired by Votigo, Inc. in January 2016, continuing to operate as a stand-alone self-serve brand. Heyo publishes no public API, SDK or developer portal; the product is used entirely through the web dashboard at platform.heyo.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heyo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Heyo
 nav: Providers
 network: true
 overview: 'Heyo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, Promotions, and Contests.
 
 
-  Heyo''s developer surface includes pricing and 5 more developer resources.'
-random_paper: 77
+  Heyo''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
+plans:
+- name: Heyo Plans Pricing
+  plan_count: 4
+  slug: heyo-plans-pricing
+random_paper: 139
+rate_limits:
+- limit_count: 0
+  name: Heyo Rate Limits
+  slug: heyo-rate-limits
 score:
   band: emerging
-  composite: 13.9
-  delta: 0.0
+  composite: 22.3
+  delta: 8.4
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/heyo/refs/heads/main/screenshots/heyo-2026-07-25T221123.png
 security:
 - kind: domain-security

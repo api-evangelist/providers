@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,7 +66,32 @@ apis:
 - description: The UcdpPrioConflict API from Uppsala University — 1 operation(s) for ucdpprioconflict.
   name: Uppsala University UcdpPrioConflict API
   slug: uppsala-ucdpprioconflict-api
-artifact_total: 27
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UCDP - The Public BattleDeaths API
+  slug: open-uppsala-battledeaths-api
+- collection_type: open
+  name: UCDP - The Public BattleDeaths Dyadic API
+  slug: open-uppsala-dyadic-api
+- collection_type: open
+  name: UCDP - The Public BattleDeaths GEDEvents API
+  slug: open-uppsala-gedevents-api
+- collection_type: open
+  name: UCDP - The Public BattleDeaths NonState API
+  slug: open-uppsala-nonstate-api
+- collection_type: open
+  name: UCDP - The Public BattleDeaths OneSided API
+  slug: open-uppsala-onesided-api
+- collection_type: open
+  name: UCDP - The Public BattleDeaths OrganizedViolenceCY API
+  slug: open-uppsala-organizedviolencecy-api
+- collection_type: open
+  name: UCDP - The Public BattleDeaths UcdpPrioConflict API
+  slug: open-uppsala-ucdpprioconflict-api
 common:
 - group: agent
   title: ''
@@ -167,7 +192,7 @@ plans:
 - name: Uppsala Plans Pricing
   plan_count: 2
   slug: uppsala-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Uppsala Rate Limits
@@ -215,7 +240,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png
 security:

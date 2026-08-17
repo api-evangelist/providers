@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: MTech Systems supply chain data management platform with AI and BI capabilities for poultry and animal protein producers.
@@ -80,7 +80,7 @@ plans:
 - name: Mtech Systems Plans Pricing
   plan_count: 3
   slug: mtech-systems-plans-pricing
-random_paper: 46
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Mtech Systems Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mtech-systems/refs/heads/main/screenshots/mtech-systems-2026-06-20T185852.png
 security:

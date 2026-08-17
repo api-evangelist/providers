@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Maywood is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Maywood''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 48
+random_paper: 23
 score:
   band: emerging
   composite: 16.8
@@ -107,7 +107,7 @@ score:
     regime_id: banking_open_finance
     score: 24.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

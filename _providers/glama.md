@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Responses API from Glama AI — 1 operation(s) for responses.
   name: Glama AI Responses API
   slug: glama-responses-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Glama Gateway Auth API
+  slug: open-glama-auth-api
+- collection_type: open
+  name: Glama Gateway Auth Chat Completions API
+  slug: open-glama-chat-completions-api
+- collection_type: open
+  name: Glama Gateway Auth Models API
+  slug: open-glama-models-api
+- collection_type: open
+  name: Glama Gateway Auth Observability API
+  slug: open-glama-observability-api
+- collection_type: open
+  name: Glama Gateway Auth Responses API
+  slug: open-glama-responses-api
 - collection_type: open
   name: Glama Gateway API
   slug: open-glama
@@ -127,7 +145,7 @@ plans:
 - name: Glama Plans Pricing
   plan_count: 1
   slug: glama-plans-pricing
-random_paper: 34
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Glama Rate Limits
@@ -152,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glama/refs/heads/main/screenshots/glama-2026-06-20T181857.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -63,8 +63,35 @@ apis:
 - description: Account-level access to the devices enrolled on a Sensibo account.
   name: Sensibo Users API
   slug: sensibo-users-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sensibo AC States API
+  slug: open-sensibo-ac-states-api
+- collection_type: open
+  name: Sensibo AC States Climate React API
+  slug: open-sensibo-climate-react-api
+- collection_type: open
+  name: Sensibo AC States Devices API
+  slug: open-sensibo-devices-api
+- collection_type: open
+  name: Sensibo AC States Historical Data API
+  slug: open-sensibo-historical-data-api
+- collection_type: open
+  name: Sensibo AC States Measurements API
+  slug: open-sensibo-measurements-api
+- collection_type: open
+  name: Sensibo AC States Schedules API
+  slug: open-sensibo-schedules-api
+- collection_type: open
+  name: Sensibo AC States Timers API
+  slug: open-sensibo-timers-api
+- collection_type: open
+  name: Sensibo AC States Users API
+  slug: open-sensibo-users-api
 - collection_type: open
   name: Sensibo API
   slug: open-sensibo
@@ -133,7 +160,7 @@ plans:
 - name: Sensibo Plans Pricing
   plan_count: 3
   slug: sensibo-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Sensibo Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

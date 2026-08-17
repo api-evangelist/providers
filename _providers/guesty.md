@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Bookings and reservations
   name: Guesty Reservations API
   slug: guesty-reservations-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Guesty Open Calendars API
+  slug: open-guesty-calendars-api
+- collection_type: open
+  name: Guesty Open Calendars Conversations API
+  slug: open-guesty-conversations-api
+- collection_type: open
+  name: Guesty Open Calendars Guests API
+  slug: open-guesty-guests-api
+- collection_type: open
+  name: Guesty Open Calendars Listings API
+  slug: open-guesty-listings-api
+- collection_type: open
+  name: Guesty Open Calendars Reservations API
+  slug: open-guesty-reservations-api
 - collection_type: open
   name: Guesty Open API
   slug: open-guesty
@@ -128,7 +146,7 @@ plans:
 - name: Guesty Plans Pricing
   plan_count: 3
   slug: guesty-plans-pricing
-random_paper: 73
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Guesty Rate Limits
@@ -153,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/screenshots/guesty-2026-06-20T182431.png
 security:

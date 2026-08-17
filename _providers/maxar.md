@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -84,8 +84,20 @@ apis:
 - description: The Ordering API from Maxar — 6 operation(s) for ordering.
   name: Maxar Ordering API
   slug: maxar-ordering-api
-artifact_total: 22
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Maxar Geospatial Platform (Vantor Hub) Authentication API
+  slug: open-maxar-authentication-api
+- collection_type: open
+  name: Maxar Geospatial Platform (Vantor Hub) Authentication Discovery API
+  slug: open-maxar-discovery-api
+- collection_type: open
+  name: Maxar Geospatial Platform (Vantor Hub) Authentication Ordering API
+  slug: open-maxar-ordering-api
 - collection_type: open
   name: Maxar Geospatial Platform (Vantor Hub) API
   slug: open-maxar
@@ -170,7 +182,7 @@ plans:
 - name: Maxar Plans Pricing
   plan_count: 1
   slug: maxar-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Maxar Rate Limits
@@ -195,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxar/refs/heads/main/screenshots/maxar-2026-06-20T185048.png
 security:

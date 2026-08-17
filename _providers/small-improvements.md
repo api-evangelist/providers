@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 318
   human_in_the_loop: 10
@@ -384,7 +384,317 @@ apis:
 - description: Your Surveys Resource
   name: Small Improvements your-surveys-resource API
   slug: small-improvements-your-surveys-resource-api
-artifact_total: 941
+artifact_total: 1044
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Small Improvements action-item-resource API
+  slug: open-small-improvements-action-item-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource activity-stream-resource API
+  slug: open-small-improvements-activity-stream-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource admin-overview-link-resource API
+  slug: open-small-improvements-admin-overview-link-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource anytime-feedback-default-resource API
+  slug: open-small-improvements-anytime-feedback-default-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource anytime-feedback-export-resource API
+  slug: open-small-improvements-anytime-feedback-export-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource anytime-feedback-resource API
+  slug: open-small-improvements-anytime-feedback-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource assessment-admin-resource API
+  slug: open-small-improvements-assessment-admin-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource assessment-resource API
+  slug: open-small-improvements-assessment-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource audit-record-resource API
+  slug: open-small-improvements-audit-record-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource automations-options-resource API
+  slug: open-small-improvements-automations-options-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource automations-resource API
+  slug: open-small-improvements-automations-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource automations-settings-resource API
+  slug: open-small-improvements-automations-settings-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource badges-resource API
+  slug: open-small-improvements-badges-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource bounced-email-resource API
+  slug: open-small-improvements-bounced-email-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource calendar-integration-admin-resource API
+  slug: open-small-improvements-calendar-integration-admin-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource calendar-resource API
+  slug: open-small-improvements-calendar-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource companies-design-settings-resource API
+  slug: open-small-improvements-companies-design-settings-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource companies-email-templates-resource API
+  slug: open-small-improvements-companies-email-templates-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource companies-resource API
+  slug: open-small-improvements-companies-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource company-analytics-resource API
+  slug: open-small-improvements-company-analytics-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource company-date-time-settings-resource API
+  slug: open-small-improvements-company-date-time-settings-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource company-visibility-settings-resource API
+  slug: open-small-improvements-company-visibility-settings-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource cycle-resource API
+  slug: open-small-improvements-cycle-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource downloadable-file-resource API
+  slug: open-small-improvements-downloadable-file-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource drafts-resource API
+  slug: open-small-improvements-drafts-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource email-configuration-resource API
+  slug: open-small-improvements-email-configuration-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource email-event-resource API
+  slug: open-small-improvements-email-event-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource email-template-mini-resource API
+  slug: open-small-improvements-email-template-mini-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource email-templates-resource API
+  slug: open-small-improvements-email-templates-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource email-verifications-resource API
+  slug: open-small-improvements-email-verifications-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource events-resource API
+  slug: open-small-improvements-events-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource feature-selection-resource API
+  slug: open-small-improvements-feature-selection-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource features-resource API
+  slug: open-small-improvements-features-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource feedback-cycle-admin-resource API
+  slug: open-small-improvements-feedback-cycle-admin-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource feedback-cycles-resource API
+  slug: open-small-improvements-feedback-cycles-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource feedback-export-resource API
+  slug: open-small-improvements-feedback-export-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource feedback-participants-resource API
+  slug: open-small-improvements-feedback-participants-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource feedback-provide-resource API
+  slug: open-small-improvements-feedback-provide-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource feedback-requests-resource API
+  slug: open-small-improvements-feedback-requests-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource feedback-statistics-resource API
+  slug: open-small-improvements-feedback-statistics-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource feedback-template-resource API
+  slug: open-small-improvements-feedback-template-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource helpful-resources-attachments-resource API
+  slug: open-small-improvements-helpful-resources-attachments-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource insights-resource API
+  slug: open-small-improvements-insights-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource logout-resource API
+  slug: open-small-improvements-logout-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource meeting-actions-resource API
+  slug: open-small-improvements-meeting-actions-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource meeting-attachment-resource API
+  slug: open-small-improvements-meeting-attachment-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource meeting-calendar-company-observer-resource API
+  slug: open-small-improvements-meeting-calendar-company-observer-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource meeting-calendar-configuration-resource API
+  slug: open-small-improvements-meeting-calendar-configuration-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource meeting-calendar-settings-resource API
+  slug: open-small-improvements-meeting-calendar-settings-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource meeting-note-resource API
+  slug: open-small-improvements-meeting-note-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource meeting-resource API
+  slug: open-small-improvements-meeting-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource meeting-space-resource API
+  slug: open-small-improvements-meeting-space-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource meeting-template-resource API
+  slug: open-small-improvements-meeting-template-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource message-settings-resource API
+  slug: open-small-improvements-message-settings-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource messages-peer-feedback-resource API
+  slug: open-small-improvements-messages-peer-feedback-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource messages-resource API
+  slug: open-small-improvements-messages-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource notification-log-resource API
+  slug: open-small-improvements-notification-log-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource nudge-resource API
+  slug: open-small-improvements-nudge-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource objective-categories-resource API
+  slug: open-small-improvements-objective-categories-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource objective-clone-resource API
+  slug: open-small-improvements-objective-clone-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource objective-cycle-admin-resource API
+  slug: open-small-improvements-objective-cycle-admin-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource objective-cycles-export-resource API
+  slug: open-small-improvements-objective-cycles-export-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource objective-cycles-resource API
+  slug: open-small-improvements-objective-cycles-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource objective-pdf-resource API
+  slug: open-small-improvements-objective-pdf-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource objective-ratings-resource API
+  slug: open-small-improvements-objective-ratings-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource objective-summaries-resource API
+  slug: open-small-improvements-objective-summaries-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource objectives-resource API
+  slug: open-small-improvements-objectives-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource outlook-o-auth-resource API
+  slug: open-small-improvements-outlook-o-auth-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource personal-access-token-resource API
+  slug: open-small-improvements-personal-access-token-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource praise-resource API
+  slug: open-small-improvements-praise-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource praise-wall-open-resource API
+  slug: open-small-improvements-praise-wall-open-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource praise-wall-resource API
+  slug: open-small-improvements-praise-wall-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource profile-pictures-resource API
+  slug: open-small-improvements-profile-pictures-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource public-calendar-resource API
+  slug: open-small-improvements-public-calendar-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource public-images-resource API
+  slug: open-small-improvements-public-images-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource public-me-resource API
+  slug: open-small-improvements-public-me-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource reaction-resource API
+  slug: open-small-improvements-reaction-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource release-notes-resource API
+  slug: open-small-improvements-release-notes-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource replacements-resource API
+  slug: open-small-improvements-replacements-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource report-resource API
+  slug: open-small-improvements-report-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource request-feedback-resource API
+  slug: open-small-improvements-request-feedback-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource sample-content-resource API
+  slug: open-small-improvements-sample-content-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource slack-configuration-resource API
+  slug: open-small-improvements-slack-configuration-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource subdomain-resource API
+  slug: open-small-improvements-subdomain-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource summary-assistant-resource API
+  slug: open-small-improvements-summary-assistant-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource survey-admin-resource API
+  slug: open-small-improvements-survey-admin-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource survey-analytics-resource API
+  slug: open-small-improvements-survey-analytics-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource survey-observer-resource API
+  slug: open-small-improvements-survey-observer-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource survey-templates-resource API
+  slug: open-small-improvements-survey-templates-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource survey-viewer-resource API
+  slug: open-small-improvements-survey-viewer-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource talking-point-resource API
+  slug: open-small-improvements-talking-point-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource unified-feedback-resource API
+  slug: open-small-improvements-unified-feedback-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource user-attachment-resource API
+  slug: open-small-improvements-user-attachment-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource user-import-configuration-resource API
+  slug: open-small-improvements-user-import-configuration-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource user-import-resource API
+  slug: open-small-improvements-user-import-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource user-merge-resource API
+  slug: open-small-improvements-user-merge-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource user-settings-resource API
+  slug: open-small-improvements-user-settings-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource user-stats-resource API
+  slug: open-small-improvements-user-stats-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource users-change-resource API
+  slug: open-small-improvements-users-change-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource users-resource API
+  slug: open-small-improvements-users-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource writing-assistant-resource API
+  slug: open-small-improvements-writing-assistant-resource-api
+- collection_type: open
+  name: Small Improvements action-item-resource your-surveys-resource API
+  slug: open-small-improvements-your-surveys-resource-api
 common:
 - group: agent
   title: ''
@@ -2934,7 +3244,7 @@ plans:
 - name: Small Improvements Plans Pricing
   plan_count: 3
   slug: small-improvements-plans-pricing
-random_paper: 103
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Small Improvements Rate Limits
@@ -2968,7 +3278,7 @@ score:
       marker_coverage: 0.0
       total: 115
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/screenshots/small-improvements-2026-06-20T194033.png
 security:

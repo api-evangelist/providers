@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Comics
@@ -63,7 +63,7 @@ overview: 'Comic Vine publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Comic Vine''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 42
+random_paper: 108
 score:
   band: minimal
   composite: 6.2
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comic-vine/refs/heads/main/screenshots/comic-vine-2026-06-20T174814.png
 security:

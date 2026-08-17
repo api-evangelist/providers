@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Rizm
 nav: Providers
 network: true
 overview: Rizm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Energy Optimization, Industrial, and Manufacturing.
-random_paper: 90
+random_paper: 3
 score:
   band: minimal
   composite: 7.7
@@ -72,7 +72,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

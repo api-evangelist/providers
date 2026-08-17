@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -27,10 +27,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-12'
+  score: 58.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -38,7 +38,7 @@ agentic_access:
   operation_count: 77
   slug: beehiiv-agentic-access
   summary_line: 77 operations · 32 acting
-api_count: 24
+api_count: 26
 apis:
 - description: The subpackage_advertisement_opportunities API from beehiiv — 1 operation(s) for subpackage_advertisement_opportunities.
   name: beehiiv subpackage_advertisement_opportunities API
@@ -112,7 +112,13 @@ apis:
 - description: The subpackage_workspaces API from beehiiv — 2 operation(s) for subpackage_workspaces.
   name: beehiiv subpackage_workspaces API
   slug: beehiiv-subpackage-workspaces-api
-artifact_total: 63
+- description: The beehiiv OAuth2 authorization surface — authorization-code flow with PKCE, plus token creation, refresh, revocation, introspection and token-info endpoints. Published by beehiiv as a separate OpenA
+  name: beehiiv OAuth2 API
+  slug: beehiiv-oauth2-api
+- description: 'The beehiiv outbound webhook event surface, published by beehiiv as an OpenAPI 3.1 document using the webhooks object — 22 event types across Subscription, Post, Newsletter List Subscription, Podcast '
+  name: beehiiv Webhook Events
+  slug: beehiiv-webhook-events-api
+artifact_total: 93
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the beehiiv outbound webhook surface. beehiiv posts JSON event payloads to a customer-configured endpoint URL when selected events occur on a publication. The set of event '
   name: beehiiv Webhooks
@@ -190,6 +196,81 @@ collections:
 - collection_type: postman
   name: API Reference subpackage_advertisement_opportunities subpackage_workspaces API
   slug: postman-beehiiv-subpackage-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities API
+  slug: open-beehiiv-subpackage-advertisement-opportunities-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_authors API
+  slug: open-beehiiv-subpackage-authors-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_automationJourneys API
+  slug: open-beehiiv-subpackage-automationjourneys-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_automations API
+  slug: open-beehiiv-subpackage-automations-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_bulk_subscriptions API
+  slug: open-beehiiv-subpackage-bulk-subscriptions-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_bulkSubscriptionUpdates API
+  slug: open-beehiiv-subpackage-bulksubscriptionupdates-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_conditionSets API
+  slug: open-beehiiv-subpackage-conditionsets-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_customFields API
+  slug: open-beehiiv-subpackage-customfields-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_dataDeletion API
+  slug: open-beehiiv-subpackage-datadeletion-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_engagements API
+  slug: open-beehiiv-subpackage-engagements-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_newsletterLists API
+  slug: open-beehiiv-subpackage-newsletterlists-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_newsletterListSubscriptions API
+  slug: open-beehiiv-subpackage-newsletterlistsubscriptions-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_oauth_users API
+  slug: open-beehiiv-subpackage-oauth-users-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_polls API
+  slug: open-beehiiv-subpackage-polls-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_posts API
+  slug: open-beehiiv-subpackage-posts-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_postTemplates API
+  slug: open-beehiiv-subpackage-posttemplates-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_publications API
+  slug: open-beehiiv-subpackage-publications-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_referralProgram API
+  slug: open-beehiiv-subpackage-referralprogram-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_segments API
+  slug: open-beehiiv-subpackage-segments-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_subscriptions API
+  slug: open-beehiiv-subpackage-subscriptions-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_subscriptionTags API
+  slug: open-beehiiv-subpackage-subscriptiontags-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_tiers API
+  slug: open-beehiiv-subpackage-tiers-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_webhooks API
+  slug: open-beehiiv-subpackage-webhooks-api
+- collection_type: open
+  name: API Reference subpackage_advertisement_opportunities subpackage_workspaces API
+  slug: open-beehiiv-subpackage-workspaces-api
 - collection_type: open
   name: API Reference
   slug: open-beehiiv
@@ -273,6 +354,14 @@ common:
 - group: agent
   title: ''
   type: MCPServer
+  url: mcp/beehiiv-mcp.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.beehiiv.com/mcp
+- group: agent
+  title: ''
+  type: MCPServer
   url: https://developers.beehiiv.com/_mcp/server
 - group: build
   title: ''
@@ -286,6 +375,106 @@ common:
   title: ''
   type: Blog
   url: https://www.beehiiv.com/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/beehiiv-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/beehiiv-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/beehiiv-api-catalog.json
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/beehiiv-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/beehiiv-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beehiiv-api-reference-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/beehiiv-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/beehiiv-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/beehiiv-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/beehiiv-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.beehiiv.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/beehiiv-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/beehiiv-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/beehiiv-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/beehiiv-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/beehiiv-data-model.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/beehiiv-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: openapi/beehiiv-webhook-events-openapi.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.beehiiv.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/beehiiv/overview
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.beehiiv.com/tou
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.beehiiv.com/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.beehiiv.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.beehiiv.com/login
 created: '2026-05-08'
 description: beehiiv is a newsletter publishing platform offering email publishing, subscriber management, paid subscriptions, an ad network, referrals, polls, automations, segments, webhooks, and analytics for creators and media companies. Founded in 2021 by former Morning Brew operators and headquartered in New York City.
 finops:
@@ -308,24 +497,30 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
+  name: beehiiv-mcp.yml
+  slug: beehiiv-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
+- description: ''
   name: server
   slug: server
-modified: '2026-05-30'
+modified: '2026-08-13'
 name: beehiiv
 nav: Providers
 network: true
-overview: 'beehiiv publishes 24 APIs on the [APIs.io](https://apis.io/) network, including subpackage_advertisement_opportunities API, subpackage_authors API, subpackage_automationJourneys API, and 21 more. Tagged areas include Newsletter, Creator, Email, Subscription, and Publishing.
+overview: 'beehiiv publishes 26 APIs on the [APIs.io](https://apis.io/) network, including subpackage_advertisement_opportunities API, subpackage_authors API, subpackage_automationJourneys API, and 23 more. Tagged areas include Newsletter, Creator, Email, Subscription, and Publishing.
 
 
   The beehiiv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  beehiiv''s developer surface includes authentication, pricing, documentation, API reference, getting-started guide, support, engineering blog, and 16 more developer resources.'
+  beehiiv''s developer surface includes authentication, pricing, documentation, API reference, getting-started guide, support, engineering blog, and 43 more developer resources.'
 plans:
 - name: Beehiiv Plans Pricing
   plan_count: 4
   slug: beehiiv-plans-pricing
-random_paper: 12
+random_paper: 136
 rate_limits:
 - limit_count: 1
   name: Beehiiv Rate Limits
@@ -347,17 +542,22 @@ rules:
     info: 1
     warn: 4
   slug: beehiiv-jsonschema-spectral-rules
+scopes:
+- name: Beehiiv Scopes
+  scope_count: 0
+  slug: beehiiv-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 52.8
-  delta: 0.0
+  band: exemplar
+  composite: 73.7
+  delta: 20.9
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 77.6
-    developer_ergonomics: 63.0
-    discoverability: 75.9
-    governance: 41.7
-    operational_transparency: 10.5
+    commercial_clarity: 76.3
+    contract_quality: 76.4
+    developer_ergonomics: 78.3
+    discoverability: 87.0
+    governance: 62.5
+    operational_transparency: 57.9
   previous_composite: 52.8
   provenance:
     agentic_access: derived
@@ -367,14 +567,14 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png
 security:
 - kind: authentication
   name: Beehiiv Authentication
   slug: beehiiv-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Beehiiv Domain Security
   slug: beehiiv-domain-security
@@ -382,7 +582,7 @@ security:
 - kind: trust-center
   name: Beehiiv Trust Center
   slug: beehiiv-trust-center
-  summary_line: SOC 2, HIPAA, GDPR
+  summary_line: SOC 2 Type I
 slug: beehiiv
 tags:
 - Newsletter

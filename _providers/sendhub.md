@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-12'
+  score: 43.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -56,11 +56,33 @@ apis:
 - description: View and manage inbox threads.
   name: SendHub Thread API
   slug: sendhub-thread-api
-artifact_total: 11
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Sendhub Webhooks
   slug: sendhub-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SendHub Authentication API
+  slug: open-sendhub-authentication-api
+- collection_type: open
+  name: SendHub Authentication Contact API
+  slug: open-sendhub-contact-api
+- collection_type: open
+  name: SendHub Authentication Group API
+  slug: open-sendhub-group-api
+- collection_type: open
+  name: SendHub Authentication Message API
+  slug: open-sendhub-message-api
+- collection_type: open
+  name: SendHub Authentication Profile API
+  slug: open-sendhub-profile-api
+- collection_type: open
+  name: SendHub Authentication Thread API
+  slug: open-sendhub-thread-api
 common:
 - group: company
   title: ''
@@ -162,10 +184,6 @@ common:
   title: ''
   type: Overlay
   url: overlays/sendhub-openapi-overlay.yaml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/sendhub-well-known.yml
 - group: design
   title: ''
   type: Webhooks
@@ -174,15 +192,27 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sendhub-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sendhub-rate-limits.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.sendhub.com/developer/
 created: '2026-07-17'
-description: SendHub is a business text messaging platform for SMS/MMS marketing campaigns, two-way texting, appointment reminders, bulk messaging, SMS surveys, group messaging, and VoIP calling, used by more than 10,000 businesses. It exposes a REST-like v1 API at api.sendhub.com for programmatically managing contacts, groups, messages, inbox threads, account settings, and enterprise users, authenticated with a line username and API key (query params) or HTTP Basic. API access is available on custom plans, and SendHub also supports 100+ integrations via direct connectors and Zapier plus inbound-SMS webhooks. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline.
+description: SendHub is a business text messaging platform for SMS/MMS marketing campaigns, two-way texting, appointment reminders, bulk messaging, SMS surveys, group messaging, and VoIP calling, used by more than 10,000 businesses. It exposes a REST-like v1 API at api.sendhub.com for programmatically managing contacts, groups, messages, inbox threads, account settings, and enterprise users, authenticated with a line username and API key (query params) or HTTP Basic. Published plans run Lite $19/mo to Basic $100/mo plus a quoted Custom tier, and every tier lists API access, though the developer page still says API access is custom-plan only. SendHub also supports 100+ integrations via direct connectors and Zapier plus inbound-SMS webhooks, and is a New Era Technology company. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline.
 image: https://www.sendhub.com/wp-content/uploads/2019/01/faviconsendhub-150x150.png
 layout: provider
 mcp_servers:
 - description: ''
   name: sendhub-mcp.yml
   slug: sendhub-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: SendHub
 nav: Providers
 network: true
@@ -192,17 +222,25 @@ overview: 'SendHub publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The SendHub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SendHub''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 25
+  SendHub''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
+plans:
+- name: Sendhub Plans Pricing
+  plan_count: 5
+  slug: sendhub-plans-pricing
+random_paper: 0
+rate_limits:
+- limit_count: 0
+  name: Sendhub Rate Limits
+  slug: sendhub-rate-limits
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 54.1
+  delta: 8.2
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 69.4
-    developer_ergonomics: 51.6
-    discoverability: 81.5
+    developer_ergonomics: 62.5
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 45.9
@@ -223,8 +261,8 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Sendhub Authentication

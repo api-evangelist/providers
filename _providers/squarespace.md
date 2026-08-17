@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    idempotency: verified
+    mcp_server: true
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-12'
+  score: 68.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 30
   slug: squarespace-agentic-access
   summary_line: 30 operations · 17 acting
-api_count: 7
+api_count: 9
 apis:
 - description: The Squarespace Orders API provides access to order history for a Squarespace merchant site, supporting both one-time purchases and subscription orders. Developers can retrieve, create, and manage ord
   name: Squarespace Orders API
@@ -60,32 +60,44 @@ apis:
 - description: Basic site information and metadata
   name: Squarespace Site API
   slug: squarespace-site-api
-artifact_total: 33
+- description: 'The complete Squarespace Commerce API as Squarespace itself publishes it — a single OpenAPI 3.1.1 document covering 55 operations across ten resource families: Orders, Products, Inventory, Contacts, D'
+  name: Squarespace Commerce API
+  slug: squarespace-commerce-api
+- description: Squarespace operates a first-party remote MCP server at https://mcp.squarespace.com/mcp. It answers an unauthenticated JSON-RPC tools/list with HTTP 200 and exposes two tools with full JSON Schema inp
+  name: Squarespace MCP Server
+  slug: squarespace-mcp
+artifact_total: 40
 asyncapis:
 - description: The Squarespace webhook system delivers real-time event notifications to registered endpoint URLs when commerce activity occurs on a merchant site. Supported events include order creation, order updat
   name: Squarespace Webhook Events
   slug: squarespace-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Squarespace Commerce API
   slug: open-squarespace-commerce-api
 - collection_type: open
-  name: Squarespace Inventory API
+  name: Squarespace Commerce Inventory API
   slug: open-squarespace-inventory-api
 - collection_type: open
-  name: Squarespace Orders API
+  name: Squarespace Commerce Inventory Orders API
   slug: open-squarespace-orders-api
 - collection_type: open
-  name: Squarespace Products API
+  name: Squarespace Commerce Inventory Products API
   slug: open-squarespace-products-api
 - collection_type: open
-  name: Squarespace Profiles API
+  name: Squarespace Commerce Inventory Profiles API
   slug: open-squarespace-profiles-api
 - collection_type: open
-  name: Squarespace Transactions API
+  name: Squarespace Commerce Inventory Site API
+  slug: open-squarespace-site-api
+- collection_type: open
+  name: Squarespace Commerce Inventory Transactions API
   slug: open-squarespace-transactions-api
 - collection_type: open
-  name: Squarespace Webhook Subscriptions API
+  name: Squarespace Commerce Inventory Webhook Subscriptions API
   slug: open-squarespace-webhook-subscriptions-api
 common:
 - group: agent
@@ -144,6 +156,134 @@ common:
   title: ''
   type: Blog
   url: https://www.squarespace.com/blog
+- group: auth
+  title: ''
+  type: Security
+  url: security/squarespace-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/squarespace-trust-center.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/squarespace-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/squarespace-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/squarespace-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/squarespace-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/squarespace-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/squarespace-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/squarespace-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/squarespace-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/squarespace-problem-types.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/squarespace-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/squarespace-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/squarespace-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/squarespace-lifecycle.yml
+- group: design
+  title: ''
+  type: Versioning
+  url: https://developers.squarespace.com/commerce-apis/versioning
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/squarespace-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/squarespace-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/squarespace-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/squarespace-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/squarespace-finops.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/squarespace-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/squarespace-webhooks-asyncapi.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.squarespace.com/commerce-apis
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.squarespace.com/quick-start
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.squarespace.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.squarespace.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://login.squarespace.com
+- group: auth
+  title: ''
+  type: OAuth
+  url: https://developers.squarespace.com/oauth
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://developers.squarespace.com/commerce-apis/faq
+- group: other
+  title: ''
+  type: Glossary
+  url: https://developers.squarespace.com/commerce-apis/glossary
 created: '2026-05-02'
 description: Squarespace is an all-in-one website building and e-commerce platform that enables individuals and businesses to create, manage, and scale their online presence. Squarespace provides a suite of Commerce APIs for developers to build integrations managing products, orders, inventory, customer profiles, transactions, and webhook notifications. All APIs use HTTPS REST conventions with API key or OAuth authentication.
 examples:
@@ -181,24 +321,28 @@ jsonld:
   property_count: 12
   slug: squarespace-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: squarespace-mcp.yml
+  slug: squarespace-mcpyml
+modified: '2026-08-13'
 name: Squarespace
 nav: Providers
 network: true
-overview: 'Squarespace publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products API, Inventory API, and 4 more. Tagged areas include Commerce, E-Commerce, Marketing, Payments, and Retail.
+overview: 'Squarespace publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products API, Inventory API, and 5 more. Tagged areas include Commerce, E-Commerce, Marketing, Payments, and Retail.
 
 
   The Squarespace catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Squarespace''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Squarespace''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 39 more developer resources.'
 plans:
 - name: Squarespace Plans Pricing
-  plan_count: 1
+  plan_count: 5
   slug: squarespace-plans-pricing
-random_paper: 101
+random_paper: 138
 rate_limits:
-- limit_count: 3
+- limit_count: 2
   name: Squarespace Rate Limits
   slug: squarespace-rate-limits
 rules:
@@ -226,17 +370,22 @@ rules:
     info: 1
     warn: 7
   slug: squarespace-rules
+scopes:
+- name: Squarespace Scopes
+  scope_count: 0
+  slug: squarespace-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.1
-  delta: 0.0
+  band: exemplar
+  composite: 69.8
+  delta: 22.7
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 77.6
-    developer_ergonomics: 30.4
-    discoverability: 57.4
-    governance: 41.7
-    operational_transparency: 28.9
+    commercial_clarity: 68.4
+    contract_quality: 77.5
+    developer_ergonomics: 67.4
+    discoverability: 64.8
+    governance: 62.5
+    operational_transparency: 68.4
   previous_composite: 47.1
   provenance:
     agentic_access: derived
@@ -250,16 +399,16 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 48.4
+    score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/screenshots/squarespace-2026-06-20T194430.png
 security:
 - kind: authentication
   name: Squarespace Authentication
   slug: squarespace-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Squarespace Domain Security
   slug: squarespace-domain-security
@@ -268,6 +417,10 @@ security:
   name: Squarespace Vulnerability Disclosure
   slug: squarespace-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Squarespace Trust Center
+  slug: squarespace-trust-center
+  summary_line: named, note
 slug: squarespace
 tags:
 - Commerce

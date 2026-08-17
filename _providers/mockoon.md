@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: Inspect and reset data buckets defined in the mock environment.
   name: Mockoon Data Buckets API
   slug: mockoon-data-buckets-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mockoon Admin Data Buckets API
+  slug: open-mockoon-data-buckets-api
 - collection_type: open
   name: Mockoon Admin API
   slug: open-mockoon
@@ -130,7 +136,7 @@ plans:
 - name: Mockoon Plans Pricing
   plan_count: 3
   slug: mockoon-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Mockoon Rate Limits
@@ -155,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/screenshots/mockoon-2026-06-20T185637.png
 security:

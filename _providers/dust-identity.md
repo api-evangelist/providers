@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -35,11 +35,15 @@ apis:
 - description: The DUST account service — organizations, users, sessions, Service Accounts and OpenID Connect. Issues the short-lived JWTs the DUST API consumes, via an API-key exchange (GET /api/auth/token with x-a
   name: DUST AuthD
   slug: dust-authd
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Dust Identity Events
   slug: dust-identity-events
+collections:
+- collection_type: open
+  name: DUST API
+  slug: open-dust-identity-apid
 common:
 - group: agent
   title: ''
@@ -196,7 +200,7 @@ plans:
 - name: Dust Identity Plans Pricing
   plan_count: 0
   slug: dust-identity-plans-pricing
-random_paper: 47
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Dust Identity Rate Limits
@@ -209,6 +213,7 @@ scopes:
 score:
   band: developing
   composite: 47.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.7
@@ -216,8 +221,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 13.2
+  previous_composite: 47.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Dust Identity Authentication

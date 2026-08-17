@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,23 @@ apis:
 - description: Generic UAPI execute endpoint
   name: cPanel UAPI API
   slug: cpanel-uapi-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: cPanel U DomainInfo API
+  slug: open-cpanel-domaininfo-api
+- collection_type: open
+  name: cPanel U DomainInfo Email API
+  slug: open-cpanel-email-api
+- collection_type: open
+  name: cPanel U DomainInfo Mysql API
+  slug: open-cpanel-mysql-api
+- collection_type: open
+  name: cPanel U DomainInfo UAPI API
+  slug: open-cpanel-uapi-api
 - collection_type: open
   name: cPanel UAPI
   slug: open-cpanel
@@ -154,7 +169,7 @@ plans:
 - name: Cpanel Plans Pricing
   plan_count: 3
   slug: cpanel-plans-pricing
-random_paper: 27
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Cpanel Rate Limits
@@ -179,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/screenshots/cpanel-2026-06-20T175154.png
 security:

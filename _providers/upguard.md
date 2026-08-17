@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -92,11 +92,69 @@ apis:
 - description: The webhooks API from UpGuard — 3 operation(s) for webhooks.
   name: UpGuard webhooks API
   slug: upguard-webhooks-api
-artifact_total: 25
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Upguard Webhooks
   slug: upguard-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UpGuard CyberRisk breaches API
+  slug: open-upguard-breaches-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches bulk API
+  slug: open-upguard-bulk-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches dataleaks API
+  slug: open-upguard-dataleaks-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches domains API
+  slug: open-upguard-domains-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches ips API
+  slug: open-upguard-ips-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches labels API
+  slug: open-upguard-labels-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches notifications API
+  slug: open-upguard-notifications-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches organisation API
+  slug: open-upguard-organisation-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches reports API
+  slug: open-upguard-reports-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches risks API
+  slug: open-upguard-risks-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches subsidiaries API
+  slug: open-upguard-subsidiaries-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches threatmonitoring API
+  slug: open-upguard-threatmonitoring-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches trust_exchange API
+  slug: open-upguard-trust-exchange-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches typosquat API
+  slug: open-upguard-typosquat-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches userrisk API
+  slug: open-upguard-userrisk-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches vendors API
+  slug: open-upguard-vendors-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches vulnerabilities API
+  slug: open-upguard-vulnerabilities-api
+- collection_type: open
+  name: UpGuard CyberRisk breaches webhooks API
+  slug: open-upguard-webhooks-api
 common:
 - group: other
   title: ''
@@ -253,7 +311,7 @@ overview: 'UpGuard publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   UpGuard''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 40
+random_paper: 15
 score:
   band: developing
   composite: 53.7
@@ -277,7 +335,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

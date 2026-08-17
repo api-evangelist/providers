@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: 'The #StartTaskExecution API from Amazon DataSync — 1 operation(s) for #starttaskexecution.'
   name: 'Amazon DataSync #StartTaskExecution API'
   slug: amazon-datasync-starttaskexecution-api
-artifact_total: 67
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Amazon DataSync REST Amazon DataSync REST API API
@@ -78,8 +78,29 @@ collections:
   name: 'Amazon DataSync REST Amazon DataSync REST API #StartTaskExecution API'
   slug: postman-amazon-datasync-starttaskexecution-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon DataSync REST Amazon DataSync REST API API
+  slug: open-amazon-datasync-amazon-datasync-rest-api-api
+- collection_type: open
   name: Amazon DataSync REST API
   slug: open-amazon-datasync-api
+- collection_type: open
+  name: 'Amazon DataSync REST Amazon DataSync REST API #CreateAgent API'
+  slug: open-amazon-datasync-createagent-api
+- collection_type: open
+  name: 'Amazon DataSync REST Amazon DataSync REST API #CreateLocationS3 API'
+  slug: open-amazon-datasync-createlocations3-api
+- collection_type: open
+  name: 'Amazon DataSync REST Amazon DataSync REST API #DescribeTask API'
+  slug: open-amazon-datasync-describetask-api
+- collection_type: open
+  name: 'Amazon DataSync REST Amazon DataSync REST API #ListTasks API'
+  slug: open-amazon-datasync-listtasks-api
+- collection_type: open
+  name: 'Amazon DataSync REST Amazon DataSync REST API #StartTaskExecution API'
+  slug: open-amazon-datasync-starttaskexecution-api
 common:
 - group: build
   title: ''
@@ -312,7 +333,7 @@ plans:
 - name: Amazon Datasync Plans Pricing
   plan_count: 3
   slug: amazon-datasync-plans-pricing
-random_paper: 106
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Amazon Datasync Rate Limits
@@ -354,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/screenshots/amazon-datasync-2026-06-20T171614.png
 security:

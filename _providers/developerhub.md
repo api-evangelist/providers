@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -60,8 +60,29 @@ apis:
 - description: The Versions API from DeveloperHub — 2 operation(s) for versions.
   name: DeveloperHub Versions API
   slug: developerhub-versions-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DeveloperHub.io Documentation API
+  slug: open-developerhub-documentation-api
+- collection_type: open
+  name: DeveloperHub.io Documentation Pages API
+  slug: open-developerhub-pages-api
+- collection_type: open
+  name: DeveloperHub.io Documentation Project API
+  slug: open-developerhub-project-api
+- collection_type: open
+  name: DeveloperHub.io Documentation Reader Access API
+  slug: open-developerhub-reader-access-api
+- collection_type: open
+  name: DeveloperHub.io Documentation References API
+  slug: open-developerhub-references-api
+- collection_type: open
+  name: DeveloperHub.io Documentation Versions API
+  slug: open-developerhub-versions-api
 - collection_type: open
   name: DeveloperHub.io API
   slug: open-developerhub
@@ -150,7 +171,7 @@ plans:
 - name: Developerhub Plans Pricing
   plan_count: 3
   slug: developerhub-plans-pricing
-random_paper: 85
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Developerhub Rate Limits
@@ -175,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/screenshots/developerhub-2026-06-20T175947.png
 security:

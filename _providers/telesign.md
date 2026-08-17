@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,8 +54,20 @@ apis:
 - description: Create, retrieve, and update verification processes
   name: Telesign Verification API
   slug: telesign-verification-api
-artifact_total: 36
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telesign PhoneID Fraud Scoring API
+  slug: open-telesign-fraud-scoring-api
+- collection_type: open
+  name: Telesign PhoneID Fraud Scoring Messaging API
+  slug: open-telesign-messaging-api
+- collection_type: open
+  name: Telesign PhoneID Fraud Scoring Phone Intelligence API
+  slug: open-telesign-phone-intelligence-api
 - collection_type: open
   name: Telesign PhoneID API
   slug: open-telesign-phoneid
@@ -65,6 +77,9 @@ collections:
 - collection_type: open
   name: Telesign SMS API
   slug: open-telesign-sms
+- collection_type: open
+  name: Telesign PhoneID Fraud Scoring Verification API
+  slug: open-telesign-verification-api
 - collection_type: open
   name: Telesign Verify API
   slug: open-telesign-verify
@@ -202,7 +217,7 @@ plans:
 - name: Telesign Plans Pricing
   plan_count: 3
   slug: telesign-plans-pricing
-random_paper: 19
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Telesign Rate Limits
@@ -250,7 +265,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/screenshots/telesign-2026-06-20T195043.png
 security:

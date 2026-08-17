@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service Outer's storefront exposes over MCP, advertised in the merchant profile at https://liveouter.com/.well-known/ucp. It carries the dev.ucp.shopping servi
@@ -110,7 +110,7 @@ overview: 'Outer publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Outer''s developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 79
+random_paper: 112
 scopes:
 - name: Outer Scopes
   scope_count: 4
@@ -133,7 +133,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outer/refs/heads/main/screenshots/outer-2026-08-07T191054.png
 security:

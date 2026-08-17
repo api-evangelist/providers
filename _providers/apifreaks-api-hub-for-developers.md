@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 27
 apis:
 - description: Official first-party Model Context Protocol server (Apache-2.0) exposing 59 read-only tools across 13 categories — IP intelligence, WHOIS, DNS, SSL, domain, weather, currency, commodity, ZIP code, scr
@@ -103,11 +103,93 @@ apis:
 - description: The ZIP Code APIs API from APIFreaks - API Hub for Developers — 6 operation(s) for zip code apis.
   name: APIFreaks - API Hub for Developers ZIP Code APIs API
   slug: apifreaks-api-hub-for-developers-zip-code-apis-api
-artifact_total: 33
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Apifreaks Api Hub For Developers Pdf Webhooks
   slug: apifreaks-api-hub-for-developers-pdf-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Commodity APIs API
+  slug: open-apifreaks-api-hub-for-developers-commodity-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Currency APIs API
+  slug: open-apifreaks-api-hub-for-developers-currency-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers DNS APIs API
+  slug: open-apifreaks-api-hub-for-developers-dns-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Domain APIs API
+  slug: open-apifreaks-api-hub-for-developers-domain-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Email Validation APIs API
+  slug: open-apifreaks-api-hub-for-developers-email-validation-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Financial APIs API
+  slug: open-apifreaks-api-hub-for-developers-financial-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Flags APIs API
+  slug: open-apifreaks-api-hub-for-developers-flags-apis-api
+- collection_type: open
+  name: Credits Usage General APIs API
+  slug: open-apifreaks-api-hub-for-developers-general-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Geocoder APIs API
+  slug: open-apifreaks-api-hub-for-developers-geocoder-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers GeoDB APIs API
+  slug: open-apifreaks-api-hub-for-developers-geodb-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers IP Geolocation APIs API
+  slug: open-apifreaks-api-hub-for-developers-ip-geolocation-apis-api
+- collection_type: open
+  name: Astronomy API - Location Based Astronomy Data Other APIs API
+  slug: open-apifreaks-api-hub-for-developers-other-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers PDF Operations APIs API
+  slug: open-apifreaks-api-hub-for-developers-pdf-operations-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers PDF Security APIs API
+  slug: open-apifreaks-api-hub-for-developers-pdf-security-apis-api
+- collection_type: open
+  name: Convert PDF to JPG, PNG, TIFF, BMP & GIF PDF To Image APIs API
+  slug: open-apifreaks-api-hub-for-developers-pdf-to-image-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers PDF Upload and Download APIs API
+  slug: open-apifreaks-api-hub-for-developers-pdf-upload-and-download-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Phone Validation APIs API
+  slug: open-apifreaks-api-hub-for-developers-phone-validation-apis-api
+- collection_type: open
+  name: Web Scraper API - JavaScript Rendering, Proxy Rotation & CAPTCHA Solving Scraping APIs API
+  slug: open-apifreaks-api-hub-for-developers-scraping-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Screenshot APIs API
+  slug: open-apifreaks-api-hub-for-developers-screenshot-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers SSL APIs API
+  slug: open-apifreaks-api-hub-for-developers-ssl-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Task Status and File Info APIs API
+  slug: open-apifreaks-api-hub-for-developers-task-status-and-file-info-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Timezone APIs API
+  slug: open-apifreaks-api-hub-for-developers-timezone-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers User Agent APIs API
+  slug: open-apifreaks-api-hub-for-developers-user-agent-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers Weather APIs API
+  slug: open-apifreaks-api-hub-for-developers-weather-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers WHOIS APIs API
+  slug: open-apifreaks-api-hub-for-developers-whois-apis-api
+- collection_type: open
+  name: Apifreaks Api Hub For Developers ZIP Code APIs API
+  slug: open-apifreaks-api-hub-for-developers-zip-code-apis-api
 common:
 - group: operate
   title: ''
@@ -285,7 +367,7 @@ plans:
 - name: Apifreaks Api Hub For Developers Plans
   plan_count: 5
   slug: apifreaks-api-hub-for-developers-plans
-random_paper: 51
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Apifreaks Api Hub For Developers Rate Limits
@@ -312,7 +394,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

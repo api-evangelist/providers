@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,11 +54,30 @@ apis:
 - description: Purchase donation shipping labels.
   name: LiquiDonate Ship API
   slug: liquidonate-ship-api
-artifact_total: 10
+artifact_total: 16
 asyncapis:
 - description: Outbound webhook event surface for ReturnsDirect by LiquiDonate. LiquiDonate POSTs return and refund status events to the webhook URL a retailer registers, so the retailer can update its own order man
   name: ReturnsDirect by LiquiDonate - Return and Refund Events
   slug: liquidonate-returnsdirect-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MagicMatch by LiquiDonate Donate API
+  slug: open-liquidonate-donate-api
+- collection_type: open
+  name: MagicMatch by LiquiDonate Donate Match API
+  slug: open-liquidonate-match-api
+- collection_type: open
+  name: MagicMatch by LiquiDonate Donate Orders API
+  slug: open-liquidonate-orders-api
+- collection_type: open
+  name: MagicMatch by LiquiDonate Donate Retailer API
+  slug: open-liquidonate-retailer-api
+- collection_type: open
+  name: MagicMatch by LiquiDonate Donate Ship API
+  slug: open-liquidonate-ship-api
 common:
 - group: agent
   title: ''
@@ -248,7 +267,7 @@ overview: 'LiquiDonate publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   LiquiDonate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
-random_paper: 103
+random_paper: 140
 score:
   band: developing
   composite: 54.8
@@ -272,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/screenshots/liquidonate-2026-07-25T225320.png
 security:

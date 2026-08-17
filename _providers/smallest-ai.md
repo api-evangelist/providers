@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,12 +51,24 @@ apis:
 - description: List prebuilt voices and manage cloned voices.
   name: Smallest AI Voices API
   slug: smallest-ai-voices-api
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: Realtime, bidirectional text-to-speech over WebSocket for the Smallest AI Waves Lightning v2 model. The client opens a WebSocket connection, sends one or more JSON text payloads, and the server stream
   name: Smallest AI Waves Realtime TTS (WebSocket)
   slug: smallest-ai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smallest AI Waves Streaming API
+  slug: open-smallest-ai-streaming-api
+- collection_type: open
+  name: Smallest AI Waves Streaming Text to Speech API
+  slug: open-smallest-ai-text-to-speech-api
+- collection_type: open
+  name: Smallest AI Waves Streaming Voices API
+  slug: open-smallest-ai-voices-api
 - collection_type: open
   name: Smallest AI Waves API
   slug: open-smallest-ai
@@ -132,7 +144,7 @@ plans:
 - name: Smallest Ai Plans Pricing
   plan_count: 4
   slug: smallest-ai-plans-pricing
-random_paper: 36
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Smallest Ai Rate Limits
@@ -166,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

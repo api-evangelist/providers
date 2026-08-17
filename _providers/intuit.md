@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ arazzos:
 - description: Read a payment for its SyncToken and then void it.
   name: Intuit Void Payment Safely
   slug: intuit-void-payment-safely-workflow
-artifact_total: 125
+artifact_total: 130
 asyncapis:
 - description: QuickBooks Online Webhooks provide near real-time notifications when data changes in a QuickBooks Online company. When an entity is created, updated, merged, deleted, or voided, Intuit sends an HTTP P
   name: QuickBooks Online Webhooks
@@ -131,6 +131,21 @@ collections:
 - collection_type: postman
   name: QuickBooks Online Accounting API
   slug: postman-quickbooks-accounting
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QuickBooks Online Accounting Customers API
+  slug: open-intuit-customers-api
+- collection_type: open
+  name: QuickBooks Online Accounting Customers Invoices API
+  slug: open-intuit-invoices-api
+- collection_type: open
+  name: QuickBooks Online Accounting Customers Items API
+  slug: open-intuit-items-api
+- collection_type: open
+  name: QuickBooks Online Accounting Customers Payments API
+  slug: open-intuit-payments-api
 - collection_type: open
   name: QuickBooks Online Accounting API
   slug: open-quickbooks-accounting
@@ -613,7 +628,7 @@ press:
 - date: '2026-05-25'
   title: Intuit and OpenAI Join Forces to Revolutionize Financial ...
   url: https://investors.intuit.com/news-events/press-releases/detail/1284/intuit-and-openai-join-forces-to-revolutionize-financial-intelligence-powering-every-person-business-and-dream-with-personalized-experiences
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Intuit Rate Limits
@@ -674,7 +689,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png
 security:

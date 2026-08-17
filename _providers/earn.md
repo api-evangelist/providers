@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Earn
 nav: Providers
 network: true
 overview: Earn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Bitcoin, Payments, and Acquired.
-random_paper: 62
+random_paper: 124
 score:
   band: minimal
   composite: 5.7
@@ -68,7 +68,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earn/refs/heads/main/screenshots/earn-2026-07-25T212646.png
 security:

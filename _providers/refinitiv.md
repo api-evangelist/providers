@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -174,12 +174,27 @@ apis:
 - description: Identity and document verification submission and transaction record retrieval.
   name: Refinitiv Verification API
   slug: refinitiv-verification-api
-artifact_total: 69
+artifact_total: 93
 asyncapis:
 - description: Low-latency streaming API for real-time market data using WebSocket connections. It supports the Open Message Model (OMM) and allows applications to connect directly to Refinitiv Real-Time distributio
   name: Refinitiv Real-Time WebSocket API
   slug: refinitiv-real-time-websocket-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication API
+  slug: open-refinitiv-authentication-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Cases API
+  slug: open-refinitiv-cases-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Configuration API
+  slug: open-refinitiv-configuration-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Connection API
+  slug: open-refinitiv-connection-api
 - collection_type: open
   name: Refinitiv Data Platform (RDP) APIs
   slug: open-refinitiv-data-platform
@@ -187,11 +202,68 @@ collections:
   name: Refinitiv LSEG DataScope Select REST API
   slug: open-refinitiv-datascope-select
 - collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Entity Search API
+  slug: open-refinitiv-entity-search-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication ESG API
+  slug: open-refinitiv-esg-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Extractions API
+  slug: open-refinitiv-extractions-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Groups API
+  slug: open-refinitiv-groups-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Historical Pricing API
+  slug: open-refinitiv-historical-pricing-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Instruments API
+  slug: open-refinitiv-instruments-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication News API
+  slug: open-refinitiv-news-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Ongoing Screening API
+  slug: open-refinitiv-ongoing-screening-api
+- collection_type: open
   name: Refinitiv PermID Entity Search API
   slug: open-refinitiv-permid-entity-search
 - collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Pricing API
+  slug: open-refinitiv-pricing-api
+- collection_type: open
   name: Refinitiv Qual-ID API
   slug: open-refinitiv-qual-id
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Quantitative Analytics API
+  slug: open-refinitiv-quantitative-analytics-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Record Matching API
+  slug: open-refinitiv-record-matching-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Reference API
+  slug: open-refinitiv-reference-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Schedules API
+  slug: open-refinitiv-schedules-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Screening Results API
+  slug: open-refinitiv-screening-results-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Search API
+  slug: open-refinitiv-search-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Streaming API
+  slug: open-refinitiv-streaming-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Symbology API
+  slug: open-refinitiv-symbology-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Users API
+  slug: open-refinitiv-users-api
+- collection_type: open
+  name: Refinitiv Data Platform (RDP) APIs Authentication Verification API
+  slug: open-refinitiv-verification-api
 - collection_type: open
   name: Refinitiv World-Check One API
   slug: open-refinitiv-world-check-one
@@ -404,7 +476,7 @@ plans:
 - name: Refinitiv Plans Pricing
   plan_count: 1
   slug: refinitiv-plans-pricing
-random_paper: 16
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Refinitiv Rate Limits
@@ -454,7 +526,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/screenshots/refinitiv-2026-06-20T192746.png
 security:

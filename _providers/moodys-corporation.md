@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -90,11 +90,41 @@ apis:
 - description: Operations for retrieving individual and multi-series time series data
   name: Moody's Corporation Series API
   slug: moodys-corporation-series-api
-artifact_total: 41
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Moody's Analytics Developer Platform API
   slug: open-moodys-analytics-developer
+- collection_type: open
+  name: Moody's Analytics Developer Platform Authentication API
+  slug: open-moodys-corporation-authentication-api
+- collection_type: open
+  name: Moody's Analytics Developer Platform Authentication Baskets API
+  slug: open-moodys-corporation-baskets-api
+- collection_type: open
+  name: Moody's Analytics Developer Platform Authentication Catalog API
+  slug: open-moodys-corporation-catalog-api
+- collection_type: open
+  name: Moody's Analytics Developer Platform Authentication Health API
+  slug: open-moodys-corporation-health-api
+- collection_type: open
+  name: Moody's Analytics Developer Platform Authentication Jobs API
+  slug: open-moodys-corporation-jobs-api
+- collection_type: open
+  name: Moody's Analytics Developer Platform Authentication Orders API
+  slug: open-moodys-corporation-orders-api
+- collection_type: open
+  name: Moody's Analytics Developer Platform Authentication Reference API
+  slug: open-moodys-corporation-reference-api
+- collection_type: open
+  name: Moody's Analytics Developer Platform Authentication Search API
+  slug: open-moodys-corporation-search-api
+- collection_type: open
+  name: Moody's Analytics Developer Platform Authentication Series API
+  slug: open-moodys-corporation-series-api
 - collection_type: open
   name: Moody's Data Buffet API
   slug: open-moodys-data-buffet-api
@@ -217,7 +247,7 @@ plans:
 - name: Moodys Corporation Plans Pricing
   plan_count: 2
   slug: moodys-corporation-plans-pricing
-random_paper: 112
+random_paper: 124
 rate_limits:
 - limit_count: 0
   name: Moodys Corporation Rate Limits
@@ -264,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

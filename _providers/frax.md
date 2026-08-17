@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -89,7 +89,62 @@ apis:
 - description: The v2-sfrxusd API from Frax Finance — 4 operation(s) for v2-sfrxusd.
   name: Frax Finance v2-sfrxusd API
   slug: frax-v2-sfrxusd-api
-artifact_total: 23
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Frax Finance v1-gauge API
+  slug: open-frax-v1-gauge-api
+- collection_type: open
+  name: Frax Finance v1-gauge v1-prices API
+  slug: open-frax-v1-prices-api
+- collection_type: open
+  name: Frax Finance v1-gauge v1-protocol API
+  slug: open-frax-v1-protocol-api
+- collection_type: open
+  name: Frax Finance v1-gauge v1-staking API
+  slug: open-frax-v1-staking-api
+- collection_type: open
+  name: Frax Finance v1-gauge v1-vefpis API
+  slug: open-frax-v1-vefpis-api
+- collection_type: open
+  name: Frax Finance v1-gauge v1-vefxs API
+  slug: open-frax-v1-vefxs-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-fpifpis API
+  slug: open-frax-v2-fpifpis-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-frax API
+  slug: open-frax-v2-frax-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-fraxferry API
+  slug: open-frax-v2-fraxferry-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-fraxswap API
+  slug: open-frax-v2-fraxswap-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-frxeth API
+  slug: open-frax-v2-frxeth-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-frxusd API
+  slug: open-frax-v2-frxusd-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-fxb API
+  slug: open-frax-v2-fxb-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-gauges API
+  slug: open-frax-v2-gauges-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-gov API
+  slug: open-frax-v2-gov-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-lfrax API
+  slug: open-frax-v2-lfrax-api
+- collection_type: open
+  name: Frax Finance v1-gauge v2-sfrxusd API
+  slug: open-frax-v2-sfrxusd-api
 common:
 - group: agent
   title: ''
@@ -191,7 +246,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -216,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/screenshots/frax-2026-06-20T181515.png
 security:

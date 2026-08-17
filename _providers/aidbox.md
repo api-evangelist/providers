@@ -13,12 +13,12 @@ agent_readiness:
     idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-12'
+  score: 53.4
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Aidbox's HL7 FHIR REST API for creating, reading, updating, deleting, and searching clinical and administrative resources. Supports FHIR R4 (4.0.1), R5, and R6, with standard FHIR interactions, transa
@@ -42,7 +42,7 @@ apis:
 - description: Terminology services for working with FHIR CodeSystems, ValueSets, and ConceptMaps, including validation and lookup against clinical terminologies.
   name: Aidbox Terminology API
   slug: aidbox-terminology-api
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Aidbox Subscriptions Webhooks
@@ -200,6 +200,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/aidbox-llms.txt
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/aidbox-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aidbox-plans-pricing.yml
 created: '2026-07-24'
 description: Aidbox is a production-ready FHIR platform and clinical data backend from Health Samurai, used by digital health startups, providers, payers, and life-sciences teams to build interoperable healthcare products in the United States and globally. Built on PostgreSQL, Aidbox exposes a full HL7 FHIR REST API (R4, R5, and R6) plus Aidbox-native SQL search, SQL-on-FHIR, a GraphQL API, Bulk Data export/import, topic-based Subscriptions, and terminology services. It is self-hosted or Aidbox-hosted software rather than a single public multi-tenant endpoint, so each deployment serves its own FHIR base and its own CapabilityStatement; a public sandbox (sandbox.aidbox.app) exposes a live FHIR R4 CapabilityStatement and a SMART-on-FHIR / OpenID .well-known configuration. Authentication is OAuth 2.0 with SMART-on-FHIR support (patient/user/system scopes, EHR and standalone launch, client-confidential and client-public flows). Aidbox aligns with US interoperability needs (US Core, SMART App
   Launch, Bulk Data) and is HIPAA-oriented, HITRUST and SOC 2 focused. This profile catalogs the documented, real API surface only.
@@ -209,7 +217,7 @@ mcp_servers:
 - description: ''
   name: aidbox-mcp.yml
   slug: aidbox-mcpyml
-modified: '2026-07-24'
+modified: '2026-08-14'
 name: Aidbox
 nav: Providers
 network: true
@@ -219,8 +227,16 @@ overview: 'Aidbox publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
   The Aidbox catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Aidbox''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 31 more developer resources.'
-random_paper: 31
+  Aidbox''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 33 more developer resources.'
+plans:
+- name: Aidbox Plans Pricing
+  plan_count: 0
+  slug: aidbox-plans-pricing
+random_paper: 35
+rate_limits:
+- limit_count: 0
+  name: Aidbox Rate Limits
+  slug: aidbox-rate-limits
 scopes:
 - name: Aidbox Scopes
   scope_count: 12
@@ -249,7 +265,7 @@ score:
     regime_id: health
     score: 61.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/screenshots/aidbox-2026-07-25T195346.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -59,11 +59,36 @@ apis:
 - description: The WebSocket API from Matrixport — 1 operation(s) for websocket.
   name: Matrixport WebSocket API
   slug: matrixport-websocket-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: 'Public and private WebSocket streaming for the bit.com exchange. Channel names are taken verbatim from the official bitcom-python-umapi SDK (bit_ws_public.py / bit_ws_private.py). Clients connect and '
   name: bit.com (Matrixport) WebSocket streaming API
   slug: matrixport-websocket
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: bit.com v1 API (Matrixport) Account API
+  slug: open-matrixport-account-api
+- collection_type: open
+  name: bit.com v1 API (Matrixport) Account Batch Orders API
+  slug: open-matrixport-batch-orders-api
+- collection_type: open
+  name: bit.com v1 API (Matrixport) Account Block Trade API
+  slug: open-matrixport-block-trade-api
+- collection_type: open
+  name: bit.com v1 API (Matrixport) Account Market API
+  slug: open-matrixport-market-api
+- collection_type: open
+  name: bit.com v1 API (Matrixport) Account Order API
+  slug: open-matrixport-order-api
+- collection_type: open
+  name: bit.com v1 API (Matrixport) Account System API
+  slug: open-matrixport-system-api
+- collection_type: open
+  name: bit.com v1 API (Matrixport) Account WebSocket API
+  slug: open-matrixport-websocket-api
 common:
 - group: agent
   title: ''
@@ -168,7 +193,7 @@ overview: 'Matrixport publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Matrixport''s developer surface includes documentation, API reference, changelog, authentication, and 17 more developer resources.'
-random_paper: 34
+random_paper: 71
 score:
   band: thin
   composite: 34.2
@@ -198,7 +223,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/screenshots/matrixport-2026-07-25T230424.png
 security:

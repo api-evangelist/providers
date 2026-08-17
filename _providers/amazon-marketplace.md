@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: The UntagResource API from Amazon Marketplace — 1 operation(s) for untagresource.
   name: Amazon Marketplace UntagResource API
   slug: amazon-marketplace-untagresource-api
-artifact_total: 286
+artifact_total: 299
 collections:
 - collection_type: postman
   name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId API
@@ -113,6 +113,45 @@ collections:
 - collection_type: postman
   name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId UntagResource API
   slug: postman-amazon-marketplace-untagresource-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId API
+  slug: open-amazon-marketplace-cancelchangeset-catalog-changesetid-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId DeleteResourcePolicy#resourceArn API
+  slug: open-amazon-marketplace-deleteresourcepolicy-resourcearn-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId DescribeChangeSet#catalog&changeSetId API
+  slug: open-amazon-marketplace-describechangeset-catalog-changesetid-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId DescribeEntity#catalog&entityId API
+  slug: open-amazon-marketplace-describeentity-catalog-entityid-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId GetResourcePolicy#resourceArn API
+  slug: open-amazon-marketplace-getresourcepolicy-resourcearn-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId ListChangeSets API
+  slug: open-amazon-marketplace-listchangesets-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId ListEntities API
+  slug: open-amazon-marketplace-listentities-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId ListTagsForResource API
+  slug: open-amazon-marketplace-listtagsforresource-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId PutResourcePolicy API
+  slug: open-amazon-marketplace-putresourcepolicy-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId StartChangeSet API
+  slug: open-amazon-marketplace-startchangeset-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId TagResource API
+  slug: open-amazon-marketplace-tagresource-api
+- collection_type: open
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId UntagResource API
+  slug: open-amazon-marketplace-untagresource-api
 common:
 - group: build
   title: ''
@@ -958,7 +997,7 @@ plans:
 - name: Amazon Marketplace Plans Pricing
   plan_count: 3
   slug: amazon-marketplace-plans-pricing
-random_paper: 52
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Amazon Marketplace Rate Limits
@@ -1000,7 +1039,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/screenshots/amazon-marketplace-2026-06-20T171735.png
 security:

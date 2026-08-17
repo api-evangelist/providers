@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -74,7 +74,47 @@ apis:
 - description: The Transactions API from zopa — 1 operation(s) for transactions.
   name: zopa Transactions API
   slug: zopa-transactions-api
-artifact_total: 18
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Account and Transaction API Specification Account Access API
+  slug: open-zopa-account-access-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Accounts API
+  slug: open-zopa-accounts-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Balances API
+  slug: open-zopa-balances-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Beneficiaries API
+  slug: open-zopa-beneficiaries-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Direct Debits API
+  slug: open-zopa-direct-debits-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Domestic Payments API
+  slug: open-zopa-domestic-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Domestic Standing Orders API
+  slug: open-zopa-domestic-standing-orders-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Offers API
+  slug: open-zopa-offers-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Parties API
+  slug: open-zopa-parties-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Standing Orders API
+  slug: open-zopa-standing-orders-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Statements API
+  slug: open-zopa-statements-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Transactions API
+  slug: open-zopa-transactions-api
 common:
 - group: other
   title: ''
@@ -208,7 +248,7 @@ overview: 'zopa publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   zopa''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 24 more developer resources.'
-random_paper: 82
+random_paper: 144
 scopes:
 - name: Zopa Scopes
   scope_count: 2
@@ -243,7 +283,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

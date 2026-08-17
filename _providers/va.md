@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -114,7 +114,53 @@ apis:
 - description: The VSO Accredited Representatives API from Veterans Affairs — 1 operation(s) for vso accredited representatives.
   name: Veterans Affairs VSO Accredited Representatives API
   slug: va-vso-accredited-representatives-api
-artifact_total: 39
+artifact_total: 54
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Appealable Issues API
+  slug: open-va-appealable-issues-api
+- collection_type: open
+  name: Appealable Issues Appeals Status API
+  slug: open-va-appeals-status-api
+- collection_type: open
+  name: Appealable Issues Contestable Issues API
+  slug: open-va-contestable-issues-api
+- collection_type: open
+  name: Appealable Issues Labs And Tests API
+  slug: open-va-labs-and-tests-api
+- collection_type: open
+  name: Appealable Issues Legacy Appeals API
+  slug: open-va-legacy-appeals-api
+- collection_type: open
+  name: Appealable Issues Medical Records API
+  slug: open-va-medical-records-api
+- collection_type: open
+  name: Appealable Issues Messaging API
+  slug: open-va-messaging-api
+- collection_type: open
+  name: Appealable Issues Notice of Disagreements API
+  slug: open-va-notice-of-disagreements-api
+- collection_type: open
+  name: Appealable Issues Other Accredited Representatives API
+  slug: open-va-other-accredited-representatives-api
+- collection_type: open
+  name: Appealable Issues Prescriptions API
+  slug: open-va-prescriptions-api
+- collection_type: open
+  name: Appealable Issues Supplemental Claims API
+  slug: open-va-supplemental-claims-api
+- collection_type: open
+  name: Appealable Issues Tooltips API
+  slug: open-va-tooltips-api
+- collection_type: open
+  name: Appealable Issues Unique User Metrics API
+  slug: open-va-unique-user-metrics-api
+- collection_type: open
+  name: Appealable Issues VSO Accredited Representatives API
+  slug: open-va-vso-accredited-representatives-api
 common:
 - group: agent
   title: ''
@@ -224,7 +270,7 @@ plans:
 - name: Va Plans Pricing
   plan_count: 2
   slug: va-plans-pricing
-random_paper: 95
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Va Rate Limits
@@ -260,7 +306,7 @@ score:
     regime_id: health
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va/refs/heads/main/screenshots/va-2026-06-20T200739.png
 security:

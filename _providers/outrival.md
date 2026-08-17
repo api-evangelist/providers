@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 52
@@ -113,11 +113,90 @@ apis:
 - description: The Workflows API from OutRival — 5 operation(s) for workflows.
   name: OutRival Workflows API
   slug: outrival-workflows-api
-artifact_total: 32
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Outrival Webhooks
   slug: outrival-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OutRival Ai Chat Sessions API
+  slug: open-outrival-ai-chat-sessions-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Assistants API
+  slug: open-outrival-assistants-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Assistants Chat Configuration API
+  slug: open-outrival-assistants-chat-configuration-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Assistants Logs API
+  slug: open-outrival-assistants-logs-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Assistants Sms Configuration API
+  slug: open-outrival-assistants-sms-configuration-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Assistants Theme Configuration API
+  slug: open-outrival-assistants-theme-configuration-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Assistants Voice Configuration API
+  slug: open-outrival-assistants-voice-configuration-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Call API
+  slug: open-outrival-call-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Chat with Ai Assistant API
+  slug: open-outrival-chat-with-ai-assistant-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Edges API
+  slug: open-outrival-edges-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Files API
+  slug: open-outrival-files-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Nodes API
+  slug: open-outrival-nodes-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Nodes Chat Configuration API
+  slug: open-outrival-nodes-chat-configuration-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Nodes Sms Configuration API
+  slug: open-outrival-nodes-sms-configuration-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Nodes Voice Configuration API
+  slug: open-outrival-nodes-voice-configuration-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Organization API
+  slug: open-outrival-organization-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Organization Keys API
+  slug: open-outrival-organization-keys-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Project variables API
+  slug: open-outrival-project-variables-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Projects API
+  slug: open-outrival-projects-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Projects Theme Configuration API
+  slug: open-outrival-projects-theme-configuration-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Rest API
+  slug: open-outrival-rest-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Settings API
+  slug: open-outrival-settings-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Webhooks Vapi API
+  slug: open-outrival-webhooks-vapi-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Workflow Deployment API
+  slug: open-outrival-workflow-deployment-api
+- collection_type: open
+  name: OutRival Ai Chat Sessions Workflows API
+  slug: open-outrival-workflows-api
 common:
 - group: other
   title: ''
@@ -262,7 +341,7 @@ overview: 'OutRival publishes 25 APIs on the [APIs.io](https://apis.io/) network
 
 
   OutRival''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 46
+random_paper: 141
 score:
   band: developing
   composite: 48.4
@@ -292,7 +371,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/screenshots/outrival-2026-08-07T191105.png
 security:

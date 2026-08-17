@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -82,11 +82,29 @@ arazzos:
 - description: Atomically write a group of items, then atomically read them back.
   name: Amazon DynamoDB Transactional Write Then Transactional Read
   slug: amazon-dynamodb-transaction-write-then-read-workflow
-artifact_total: 145
+artifact_total: 151
 collections:
 - collection_type: postman
   name: Amazon DynamoDB API
   slug: postman-amazon-dynamodb
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon DynamoDB Batch API
+  slug: open-amazon-dynamodb-batch-api
+- collection_type: open
+  name: Amazon DynamoDB Batch Items API
+  slug: open-amazon-dynamodb-items-api
+- collection_type: open
+  name: Amazon DynamoDB Batch Queries API
+  slug: open-amazon-dynamodb-queries-api
+- collection_type: open
+  name: Amazon DynamoDB Batch Tables API
+  slug: open-amazon-dynamodb-tables-api
+- collection_type: open
+  name: Amazon DynamoDB Batch Transactions API
+  slug: open-amazon-dynamodb-transactions-api
 - collection_type: open
   name: Amazon DynamoDB API
   slug: open-amazon-dynamodb
@@ -594,7 +612,7 @@ plans:
 - name: Amazon Dynamodb Plans Pricing
   plan_count: 3
   slug: amazon-dynamodb-plans-pricing
-random_paper: 97
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Amazon Dynamodb Rate Limits
@@ -636,7 +654,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/screenshots/amazon-dynamodb-2026-06-20T171630.png
 security:

@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -71,29 +71,72 @@ common:
   title: ''
   type: DomainSecurity
   url: security/notable-domain-security.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.notablehealth.com/contact
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/notable-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/notable-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/notable-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/notable-lifecycle.yml
+coverage:
+  checked: '2026-08-15'
+  detail: Notable's only developer documentation host, docs.notablehealth.com, 307-redirects every path — including /openapi.json, /docs.json, /llms.txt and /api-reference — to https://app.notablehealth.com/mintlify/sso, which then 302s to the Notable staff application login, so the Mintlify API reference is readable only by authenticated customers.
+  evidence:
+  - status: 307
+    url: https://docs.notablehealth.com/openapi.json
+  - status: 302
+    url: https://app.notablehealth.com/mintlify/sso?redirect=%2F
+  - status: 404
+    url: https://api.notablehealth.com/openapi.json
+  - status: 200
+    url: https://www.notablehealth.com/llms.txt
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
-description: Notable is an intelligent-automation company purpose-built for healthcare, applying AI agents to administrative and operational workflows across patient access, revenue cycle management, care operations, and contact-center automation. Its platform pairs a library of prebuilt AI Agents with Flow Builder, a low-code interface for designing, training, and deploying automations, and Sidekick, a natural-language assistant for staff. Deployed at more than 1,000 healthcare locations and used by health systems including Intermountain Healthcare and the Medical University of South Carolina, Notable is backed by Greylock and ICONIQ Capital. This profile has been enriched from the company's public trust, security, and developer surfaces.
+description: Notable is an intelligent-automation company purpose-built for healthcare, applying AI agents to administrative and operational workflows across patient access, revenue cycle management, care operations, and contact-center automation. Its platform pairs a library of prebuilt AI Agents with Flow Builder, a low-code interface for designing, training, and deploying automations, Sidekick, a human-in-the-loop AI co-pilot for clinically complex work such as prior authorization, and Flow AI, a conversational assistant for workflow builders. Integration runs bi-directionally against Epic, Oracle Health/Cerner, MEDITECH, athenahealth and eClinicalWorks over a mix of FHIR APIs, HL7 interfaces, RPA and third-party APIs. Notable reports deployment at 12,000+ sites of care serving 38M+ patients, with customers including Intermountain Health, MUSC Health, CommonSpirit Health and CityMD, and is backed by ICONIQ Growth, Greylock, F-Prime, Oak HC/FT, Maverick Ventures and 8VC. Notable publishes
+  no public API contract; its developer documentation sits behind customer SSO. This profile is enriched from the company's public trust, security, and llms.txt surfaces.
 image: https://cdn.prod.website-files.com/628b58b14c93b9187d929a89/67b78b8f557320958bb3f989_notable_logo.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-15'
 name: Notable
 nav: Providers
 network: true
 overview: 'Notable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Healthcare, Artificial Intelligence, and Automation.
 
 
-  Notable''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 21
+  Notable''s developer surface includes engineering blog, support, and 13 more developer resources.'
+plans:
+- name: Notable Plans Pricing
+  plan_count: 0
+  slug: notable-plans-pricing
+random_paper: 145
+rate_limits:
+- limit_count: 0
+  name: Notable Rate Limits
+  slug: notable-rate-limits
 score:
   band: emerging
-  composite: 17.3
-  delta: 0.0
+  composite: 20.9
+  delta: 3.6
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 17.3
   regulatory:
@@ -101,9 +144,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/screenshots/notable-2026-08-07T185548.png
 security:
@@ -129,5 +172,10 @@ tags:
 - Revenue Cycle
 - Patient Access
 - Agents
+- Prior Authorization
+- EHR Integration
+- FHIR
+- Contact Center
+- Care Operations
 website: https://www.notablehealth.com/
 ---

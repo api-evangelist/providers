@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
 - description: Manage webhooks
   name: Astrada webhooks API
   slug: astrada-webhooks-api
-artifact_total: 39
+artifact_total: 55
 asyncapis:
 - description: Webhook event surface for the Astrada API, generated from the documented Event Types and webhook delivery mechanics. Astrada delivers events via HTTP POST to registered HTTPS endpoints with at-least-o
   name: Astrada Webhook Events
@@ -137,6 +137,54 @@ collections:
 - collection_type: postman
   name: Astrada bank-accounts webhooks API
   slug: postman-astrada-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Astrada bank-accounts API
+  slug: open-astrada-bank-accounts-api
+- collection_type: open
+  name: Astrada bank-accounts bank-links API
+  slug: open-astrada-bank-links-api
+- collection_type: open
+  name: Astrada bank-accounts bank-subscriptions API
+  slug: open-astrada-bank-subscriptions-api
+- collection_type: open
+  name: Astrada bank-accounts bank-transactions API
+  slug: open-astrada-bank-transactions-api
+- collection_type: open
+  name: Astrada bank-accounts bin-lookup API
+  slug: open-astrada-bin-lookup-api
+- collection_type: open
+  name: Astrada bank-accounts card API
+  slug: open-astrada-card-api
+- collection_type: open
+  name: Astrada bank-accounts card-subscription API
+  slug: open-astrada-card-subscription-api
+- collection_type: open
+  name: Astrada bank-accounts card-verification API
+  slug: open-astrada-card-verification-api
+- collection_type: open
+  name: Astrada bank-accounts enrollment-methods API
+  slug: open-astrada-enrollment-methods-api
+- collection_type: open
+  name: Astrada bank-accounts network-bulk-feeds API
+  slug: open-astrada-network-bulk-feeds-api
+- collection_type: open
+  name: Astrada bank-accounts subaccounts API
+  slug: open-astrada-subaccounts-api
+- collection_type: open
+  name: Astrada bank-accounts transaction-matches API
+  slug: open-astrada-transaction-matches-api
+- collection_type: open
+  name: Astrada bank-accounts transaction-messages API
+  slug: open-astrada-transaction-messages-api
+- collection_type: open
+  name: Astrada bank-accounts transactions API
+  slug: open-astrada-transactions-api
+- collection_type: open
+  name: Astrada bank-accounts webhooks API
+  slug: open-astrada-webhooks-api
 common:
 - group: other
   title: ''
@@ -297,7 +345,7 @@ overview: 'Astrada publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Astrada''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 28 more developer resources.'
-random_paper: 16
+random_paper: 140
 scopes:
 - name: Astrada Scopes
   scope_count: 34
@@ -332,7 +380,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/screenshots/astrada-2026-07-25T201455.png
 security:

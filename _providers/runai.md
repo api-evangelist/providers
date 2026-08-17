@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 62
 apis:
 - description: Access Keys allow users to authenticate and interact programmatically with the NVIDIA Run:ai API. Each access key consists of a client ID and secret that can be used to obtain authentication tokens. A
@@ -217,7 +217,197 @@ apis:
 - description: A Workspace is a simplified tool for researchers to conduct experiments, build AI models, access standard MLOps tools, and collaborate with their peers. Workspaces abstract complex concepts related to
   name: NVIDIA Run:ai Workspaces API
   slug: runai-workspaces-api
-artifact_total: 65
+artifact_total: 128
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys API
+  slug: open-runai-access-keys-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Access rules API
+  slug: open-runai-access-rules-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Administrator Command Line Interface API
+  slug: open-runai-administrator-command-line-interface-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys AI Applications API
+  slug: open-runai-ai-applications-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Applications API
+  slug: open-runai-applications-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Audit Logs API
+  slug: open-runai-auditlogs-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Clusters API
+  slug: open-runai-clusters-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Compute API
+  slug: open-runai-compute-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Config Map API
+  slug: open-runai-configmap-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Credentials API
+  slug: open-runai-credentials-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Datasources API
+  slug: open-runai-datasources-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Datavolumes API
+  slug: open-runai-datavolumes-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Departments API
+  slug: open-runai-departments-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Distributed API
+  slug: open-runai-distributed-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Distributed Inferences API
+  slug: open-runai-distributed-inferences-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Environment API
+  slug: open-runai-environment-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Events API
+  slug: open-runai-events-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Git API
+  slug: open-runai-git-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Host Path API
+  slug: open-runai-hostpath-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Idps API
+  slug: open-runai-idps-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Inferences API
+  slug: open-runai-inferences-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Logo API
+  slug: open-runai-logo-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Me API
+  slug: open-runai-me-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Network Topologies API
+  slug: open-runai-network-topologies-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys NFS API
+  slug: open-runai-nfs-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Node Pools API
+  slug: open-runai-nodepools-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Nodes API
+  slug: open-runai-nodes-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Notification State API
+  slug: open-runai-notification-state-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Notification Types API
+  slug: open-runai-notification-types-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Notification Channels API
+  slug: open-runai-notificationchannels-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys NVIDIA NIM API
+  slug: open-runai-nvidia-nim-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Org unit API
+  slug: open-runai-org-unit-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Permissions API
+  slug: open-runai-permissions-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Pods API
+  slug: open-runai-pods-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Policy API
+  slug: open-runai-policy-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Projects API
+  slug: open-runai-projects-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys PVC API
+  slug: open-runai-pvc-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Registry API
+  slug: open-runai-registry-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Reports API
+  slug: open-runai-reports-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Researcher Command Line Interface API
+  slug: open-runai-researcher-command-line-interface-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Researcher Command Line Interface Deprecated API
+  slug: open-runai-researcher-command-line-interface-deprecated-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Revisions API
+  slug: open-runai-revisions-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Roles API
+  slug: open-runai-roles-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys S3 API
+  slug: open-runai-s3-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Secret API
+  slug: open-runai-secret-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Service Accounts API
+  slug: open-runai-service-accounts-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Settings API
+  slug: open-runai-settings-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Storage Class Configuration API
+  slug: open-runai-storage-class-configuration-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Storage Classes API
+  slug: open-runai-storage-classes-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Subscriptions API
+  slug: open-runai-subscriptions-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Template API
+  slug: open-runai-template-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Tenant API
+  slug: open-runai-tenant-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Tokens API
+  slug: open-runai-tokens-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Trainings API
+  slug: open-runai-trainings-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys User Applications API
+  slug: open-runai-user-applications-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Users API
+  slug: open-runai-users-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Workload properties API
+  slug: open-runai-workload-properties-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Workload templates API
+  slug: open-runai-workload-templates-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Workloads API
+  slug: open-runai-workloads-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Workloads batch API
+  slug: open-runai-workloads-batch-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Workloads V2 API
+  slug: open-runai-workloads-v2-api
+- collection_type: open
+  name: NVIDIA Run:ai Access Keys Workspaces API
+  slug: open-runai-workspaces-api
 common:
 - group: company
   title: ''
@@ -339,7 +529,7 @@ overview: 'NVIDIA Run:ai publishes 62 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NVIDIA Run:ai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 20 more developer resources.'
-random_paper: 63
+random_paper: 96
 score:
   band: developing
   composite: 47.8
@@ -362,7 +552,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

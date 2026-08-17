@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Registration5 Gz Semver2 API from Microsoft NuGet — 2 operation(s) for registration5 gz semver2.
   name: Microsoft NuGet Registration5 Gz Semver2 API
   slug: microsoft-nuget-registration5-gz-semver2-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NuGet Server API (V3) Autocomplete API
+  slug: open-microsoft-nuget-autocomplete-api
+- collection_type: open
+  name: NuGet Server API (V3) Autocomplete Flatcontainer API
+  slug: open-microsoft-nuget-flatcontainer-api
+- collection_type: open
+  name: NuGet Server API (V3) Autocomplete Index.json API
+  slug: open-microsoft-nuget-index-json-api
+- collection_type: open
+  name: NuGet Server API (V3) Autocomplete Package API
+  slug: open-microsoft-nuget-package-api
+- collection_type: open
+  name: NuGet Server API (V3) Autocomplete Query API
+  slug: open-microsoft-nuget-query-api
+- collection_type: open
+  name: NuGet Server API (V3) Autocomplete Registration5 Gz Semver2 API
+  slug: open-microsoft-nuget-registration5-gz-semver2-api
 - collection_type: open
   name: NuGet Server API (V3)
   slug: open-microsoft-nuget
@@ -135,7 +156,7 @@ plans:
 - name: Microsoft Nuget Plans Pricing
   plan_count: 3
   slug: microsoft-nuget-plans-pricing
-random_paper: 14
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Microsoft Nuget Rate Limits
@@ -160,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-nuget/refs/heads/main/screenshots/microsoft-nuget-2026-06-20T185508.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -110,7 +110,83 @@ apis:
 - description: The User API from Quantum Art — 1 operation(s) for user.
   name: Quantum Art User API
   slug: quantum-art-user-api
-artifact_total: 28
+artifact_total: 53
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QaaS Backend admin API
+  slug: open-quantum-art-admin-api
+- collection_type: open
+  name: QaaS Backend admin Apple Touch Icon.png API
+  slug: open-quantum-art-apple-touch-icon-png-api
+- collection_type: open
+  name: QaaS Backend admin Artifacts API
+  slug: open-quantum-art-artifacts-api
+- collection_type: open
+  name: QaaS Backend admin Auth API
+  slug: open-quantum-art-auth-api
+- collection_type: open
+  name: QaaS Backend admin Dashboard API
+  slug: open-quantum-art-dashboard-api
+- collection_type: open
+  name: QaaS Backend admin Docs API
+  slug: open-quantum-art-docs-api
+- collection_type: open
+  name: QaaS Backend admin Documentation API
+  slug: open-quantum-art-documentation-api
+- collection_type: open
+  name: QaaS Backend admin Favicon.png API
+  slug: open-quantum-art-favicon-png-api
+- collection_type: open
+  name: QaaS Backend admin Health API
+  slug: open-quantum-art-health-api
+- collection_type: open
+  name: QaaS Backend admin Legal API
+  slug: open-quantum-art-legal-api
+- collection_type: open
+  name: QaaS Backend admin Login API
+  slug: open-quantum-art-login-api
+- collection_type: open
+  name: QaaS Backend admin Logo Square Light.png API
+  slug: open-quantum-art-logo-square-light-png-api
+- collection_type: open
+  name: QaaS Backend admin Logo Square.png API
+  slug: open-quantum-art-logo-square-png-api
+- collection_type: open
+  name: QaaS Backend admin Logo Wide Dark.png API
+  slug: open-quantum-art-logo-wide-dark-png-api
+- collection_type: open
+  name: QaaS Backend admin Logo Wide.png API
+  slug: open-quantum-art-logo-wide-png-api
+- collection_type: open
+  name: QaaS Backend admin Orb.mp4 API
+  slug: open-quantum-art-orb-mp4-api
+- collection_type: open
+  name: QaaS Backend admin Orb Poster.jpg API
+  slug: open-quantum-art-orb-poster-jpg-api
+- collection_type: open
+  name: QaaS Backend admin Profile API
+  slug: open-quantum-art-profile-api
+- collection_type: open
+  name: QaaS Backend admin QaaS Backend API API
+  slug: open-quantum-art-qaas-backend-api-api
+- collection_type: open
+  name: QaaS Backend admin qiskit-provider API
+  slug: open-quantum-art-qiskit-provider-api
+- collection_type: open
+  name: QaaS Backend admin Register API
+  slug: open-quantum-art-register-api
+- collection_type: open
+  name: QaaS Backend admin registration API
+  slug: open-quantum-art-registration-api
+- collection_type: open
+  name: QaaS Backend admin Tasks API
+  slug: open-quantum-art-tasks-api
+- collection_type: open
+  name: QaaS Backend admin User API
+  slug: open-quantum-art-user-api
 common:
 - group: other
   title: ''
@@ -216,7 +292,7 @@ overview: 'Quantum Art publishes 24 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quantum Art''s developer surface includes authentication, documentation, API reference, signup flow, and 18 more developer resources.'
-random_paper: 71
+random_paper: 108
 score:
   band: thin
   composite: 34.6
@@ -240,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

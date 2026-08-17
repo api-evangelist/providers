@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,8 +65,32 @@ apis:
 - description: The Payslips API from PayFit — 2 operation(s) for payslips.
   name: PayFit Payslips API
   slug: payfit-payslips-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PayFit Partner & Customer Absences API
+  slug: open-payfit-absences-api
+- collection_type: open
+  name: PayFit Partner & Customer Absences Collaborators API
+  slug: open-payfit-collaborators-api
+- collection_type: open
+  name: PayFit Partner & Customer Absences Company API
+  slug: open-payfit-company-api
+- collection_type: open
+  name: PayFit Partner & Customer Absences Contracts API
+  slug: open-payfit-contracts-api
+- collection_type: open
+  name: PayFit Partner & Customer Absences Documents API
+  slug: open-payfit-documents-api
+- collection_type: open
+  name: PayFit Partner & Customer Absences Insurance API
+  slug: open-payfit-insurance-api
+- collection_type: open
+  name: PayFit Partner & Customer Absences Payslips API
+  slug: open-payfit-payslips-api
 - collection_type: open
   name: PayFit Partner & Customer API
   slug: open-payfit
@@ -131,7 +155,7 @@ overview: 'PayFit publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   PayFit''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 53
+random_paper: 57
 score:
   band: thin
   composite: 32.9
@@ -152,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/screenshots/payfit-2026-06-20T191458.png
 security:

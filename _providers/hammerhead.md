@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'Hammerhead is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hammerhead''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, changelog, and 11 more developer resources.'
-random_paper: 76
+random_paper: 142
 score:
   band: emerging
   composite: 23.6
@@ -121,7 +121,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hammerhead/refs/heads/main/screenshots/hammerhead-2026-08-07T165930.png
 security:

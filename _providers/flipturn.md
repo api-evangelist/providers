@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -77,7 +77,50 @@ apis:
 - description: Electric vehicles and their associated access IDs.
   name: Flipturn Vehicles API
   slug: flipturn-vehicles-api
-artifact_total: 19
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flipturn Access IDs API
+  slug: open-flipturn-access-ids-api
+- collection_type: open
+  name: Flipturn Access IDs Alerts API
+  slug: open-flipturn-alerts-api
+- collection_type: open
+  name: Flipturn Access IDs Charger Health API
+  slug: open-flipturn-charger-health-api
+- collection_type: open
+  name: Flipturn Access IDs Chargers API
+  slug: open-flipturn-chargers-api
+- collection_type: open
+  name: Flipturn Access IDs Charging Sessions API
+  slug: open-flipturn-charging-sessions-api
+- collection_type: open
+  name: Flipturn Access IDs Departure Times API
+  slug: open-flipturn-departure-times-api
+- collection_type: open
+  name: Flipturn Access IDs Errors API
+  slug: open-flipturn-errors-api
+- collection_type: open
+  name: Flipturn Access IDs Maintenance Windows API
+  slug: open-flipturn-maintenance-windows-api
+- collection_type: open
+  name: Flipturn Access IDs OCPP Messages API
+  slug: open-flipturn-ocpp-messages-api
+- collection_type: open
+  name: Flipturn Access IDs Reservations API
+  slug: open-flipturn-reservations-api
+- collection_type: open
+  name: Flipturn Access IDs Site Power Limits API
+  slug: open-flipturn-site-power-limits-api
+- collection_type: open
+  name: Flipturn Access IDs Sites API
+  slug: open-flipturn-sites-api
+- collection_type: open
+  name: Flipturn Access IDs Vehicles API
+  slug: open-flipturn-vehicles-api
 common:
 - group: other
   title: ''
@@ -199,7 +242,7 @@ overview: 'Flipturn publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Flipturn''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 44
+random_paper: 139
 rate_limits:
 - limit_count: 2
   name: Flipturn Rate Limits
@@ -233,7 +276,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/screenshots/flipturn-2026-07-25T214806.png
 security:

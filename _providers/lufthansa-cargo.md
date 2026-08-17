@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Retrieves the current status of an air freight shipment by IATA Air Waybill, keyed on a 3-digit AWB prefix (020 = Lufthansa Cargo) plus an 8-digit AWB number. Returns the milestone plan, booking, flig
@@ -62,7 +62,20 @@ apis:
 - description: Prior-agreement API product covering airmail carriage for postal operators. The portal publishes an OpenAPI 3.0.3 info block titled "AirMail APIs" whose entire description is the prior-approval notice
   name: Lufthansa Cargo AirMail API
   slug: lufthansa-cargo-airmail-api
-artifact_total: 10
+artifact_total: 14
+collections:
+- collection_type: open
+  name: Routing Offer API
+  slug: open-lufthansa-cargo-routing-offer-api
+- collection_type: open
+  name: Shipment Tracking API
+  slug: open-lufthansa-cargo-shipment-tracking-api
+- collection_type: open
+  name: Shipment Tracking Subscribe API
+  slug: open-lufthansa-cargo-shipment-tracking-subscribe-api
+- collection_type: open
+  name: Station Information API
+  slug: open-lufthansa-cargo-station-information-api
 common:
 - group: company
   title: ''
@@ -121,7 +134,7 @@ overview: 'Lufthansa Cargo publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Lufthansa Cargo''s developer surface includes documentation, support, changelog, signup flow, sandbox, and 6 more developer resources.'
-random_paper: 95
+random_paper: 45
 score:
   band: thin
   composite: 33.0
@@ -141,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lufthansa-cargo/refs/heads/main/screenshots/lufthansa-cargo-2026-08-07T171824.png
 slug: lufthansa-cargo

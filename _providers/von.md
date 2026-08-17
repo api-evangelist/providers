@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -93,25 +93,39 @@ common:
   url: https://www.youtube.com/@Vonlabs
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/von-well-known.yml
-- group: agent
-  title: ''
   type: LLMsTxt
   url: llms/von-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Von ships an end-user AI RevOps agent and markets no API at all - api.vonlabs.ai resolves to a Kubernetes ingress that returns nginx 404 for every path probed, mcp.vonlabs.ai is NXDOMAIN, and the company's own build-vs-buy page positions its one-click connectors as the alternative to a customer building an MCP server.
+  evidence:
+  - status: 404
+    url: https://api.vonlabs.ai/openapi.json
+  - status: 404
+    url: https://vonlabs.ai/developers
+  - status: 404
+    url: https://vonlabs.ai/.well-known/agent-card.json
+  - status: 307
+    url: https://docs.vonlabs.ai/
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Von (vonlabs.ai) is an AI RevOps agent from Rattle Software, the Insight Partners and Sequoia backed team behind gorattle.com, positioned as an AI data scientist for revenue teams. Von connects to CRMs, data warehouses, call recorders, and sales engagement tools - Salesforce, HubSpot, Snowflake, BigQuery, Databricks, Gong, Outreach, Salesloft, and more, plus 100+ integrations consumed via MCP - to automate pipeline forecasting, win/loss analysis, churn detection, sales coaching, and Salesforce administration. Von publishes no public API or developer program; its security posture is documented at trust.vonlabs.ai (SOC 2 Type 2, SOC 3, ISO 27001, CASA Tier 2).
 image: https://vonlabs-public-assets.s3.us-west-2.amazonaws.com/v2/vonlabs-logo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Von
 nav: Providers
 network: true
 overview: 'Von is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Revenue Operations, Sales, and CRM.
 
 
-  Von''s developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
-random_paper: 99
+  Von''s developer surface includes engineering blog, support, YouTube channel, and 13 more developer resources.'
+plans:
+- name: Von Plans Pricing
+  plan_count: 0
+  slug: von-plans-pricing
+random_paper: 41
 score:
   band: emerging
   composite: 18.4
@@ -125,7 +139,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security
@@ -139,7 +153,7 @@ security:
 - kind: trust-center
   name: Von Trust Center
   slug: von-trust-center
-  summary_line: SOC 2 Type 2, SOC 3, ISO 27001, CASA Tier 2
+  summary_line: SOC 2 Type 2, SOC 3, ISO/IEC 27001:2022, CASA Tier 2
 slug: von
 tags:
 - Company

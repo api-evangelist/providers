@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -137,7 +137,7 @@ apis:
 - description: The Wallet API from Payabli — 4 operation(s) for wallet.
   name: Payabli Wallet API
   slug: payabli-wallet-api
-artifact_total: 71
+artifact_total: 105
 collections:
 - collection_type: postman
   name: API reference Bill API
@@ -238,6 +238,108 @@ collections:
 - collection_type: postman
   name: API reference Bill Wallet API
   slug: postman-payabli-wallet-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API reference Bill API
+  slug: open-payabli-bill-api
+- collection_type: open
+  name: API reference Bill Boarding API
+  slug: open-payabli-boarding-api
+- collection_type: open
+  name: API reference Bill chargeBacks API
+  slug: open-payabli-chargebacks-api
+- collection_type: open
+  name: API reference Bill checkCapture API
+  slug: open-payabli-checkcapture-api
+- collection_type: open
+  name: API reference Bill Cloud API
+  slug: open-payabli-cloud-api
+- collection_type: open
+  name: API reference Bill Customer API
+  slug: open-payabli-customer-api
+- collection_type: open
+  name: API reference Bill Export API
+  slug: open-payabli-export-api
+- collection_type: open
+  name: API reference Bill Funding API
+  slug: open-payabli-funding-api
+- collection_type: open
+  name: API reference Bill ghostCard API
+  slug: open-payabli-ghostcard-api
+- collection_type: open
+  name: API reference Bill hostedPaymentPages API
+  slug: open-payabli-hostedpaymentpages-api
+- collection_type: open
+  name: API reference Bill Import API
+  slug: open-payabli-import-api
+- collection_type: open
+  name: API reference Bill Invoice API
+  slug: open-payabli-invoice-api
+- collection_type: open
+  name: API reference Bill lineItem API
+  slug: open-payabli-lineitem-api
+- collection_type: open
+  name: API reference Bill Management API
+  slug: open-payabli-management-api
+- collection_type: open
+  name: API reference Bill moneyIn API
+  slug: open-payabli-moneyin-api
+- collection_type: open
+  name: API reference Bill moneyOut API
+  slug: open-payabli-moneyout-api
+- collection_type: open
+  name: API reference Bill Notification API
+  slug: open-payabli-notification-api
+- collection_type: open
+  name: API reference Bill Notificationlogs API
+  slug: open-payabli-notificationlogs-api
+- collection_type: open
+  name: API reference Bill Ocr API
+  slug: open-payabli-ocr-api
+- collection_type: open
+  name: API reference Bill Organization API
+  slug: open-payabli-organization-api
+- collection_type: open
+  name: API reference Bill paymentLink API
+  slug: open-payabli-paymentlink-api
+- collection_type: open
+  name: API reference Bill paymentMethodDomain API
+  slug: open-payabli-paymentmethoddomain-api
+- collection_type: open
+  name: API reference Bill payoutSubscription API
+  slug: open-payabli-payoutsubscription-api
+- collection_type: open
+  name: API reference Bill Paypoint API
+  slug: open-payabli-paypoint-api
+- collection_type: open
+  name: API reference Bill Query API
+  slug: open-payabli-query-api
+- collection_type: open
+  name: API reference Bill Statistic API
+  slug: open-payabli-statistic-api
+- collection_type: open
+  name: API reference Bill Subscription API
+  slug: open-payabli-subscription-api
+- collection_type: open
+  name: API reference Bill Templates API
+  slug: open-payabli-templates-api
+- collection_type: open
+  name: API reference Bill Token API
+  slug: open-payabli-token-api
+- collection_type: open
+  name: API reference Bill tokenStorage API
+  slug: open-payabli-tokenstorage-api
+- collection_type: open
+  name: API reference Bill User API
+  slug: open-payabli-user-api
+- collection_type: open
+  name: API reference Bill Vendor API
+  slug: open-payabli-vendor-api
+- collection_type: open
+  name: API reference Bill Wallet API
+  slug: open-payabli-wallet-api
 common:
 - group: build
   title: ''
@@ -419,7 +521,7 @@ overview: 'Payabli publishes 33 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Payabli''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 18
+random_paper: 142
 score:
   band: strong
   composite: 59.0
@@ -449,7 +551,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/screenshots/payabli-2026-08-07T191624.png
 security:

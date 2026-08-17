@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - description: Manage Lunar Policies (legacy traffic control rules)
   name: Lunar Policies API
   slug: lunar-policies-api
-artifact_total: 54
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Lunar.dev Gateway Admin Discovery API
@@ -80,11 +80,38 @@ collections:
   name: Lunar.dev Gateway Admin Discovery Proxy API
   slug: postman-lunar-proxy-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lunar API Consumption Gateway Admin Configuration API
+  slug: open-lunar-configuration-api
+- collection_type: open
+  name: Lunar API Consumption Gateway Admin Configuration Discovery API
+  slug: open-lunar-discovery-api
+- collection_type: open
+  name: Lunar API Consumption Gateway Admin Configuration Doctor API
+  slug: open-lunar-doctor-api
+- collection_type: open
+  name: Lunar API Consumption Gateway Admin Configuration Flows API
+  slug: open-lunar-flows-api
+- collection_type: open
   name: Lunar.dev Gateway Admin API
   slug: open-lunar-gateway-admin
 - collection_type: open
   name: Lunar.dev Gateway Proxy API
   slug: open-lunar-gateway-proxy
+- collection_type: open
+  name: Lunar API Consumption Gateway Admin Configuration Handshake API
+  slug: open-lunar-handshake-api
+- collection_type: open
+  name: Lunar.dev Gateway Admin Discovery Health API
+  slug: open-lunar-health-api
+- collection_type: open
+  name: Lunar API Consumption Gateway Admin Configuration Policies API
+  slug: open-lunar-policies-api
+- collection_type: open
+  name: Lunar.dev Gateway Admin Discovery Proxy API
+  slug: open-lunar-proxy-api
 common:
 - group: operate
   title: ''
@@ -301,7 +328,7 @@ plans:
 - name: Lunar Plans Pricing
   plan_count: 3
   slug: lunar-plans-pricing
-random_paper: 66
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Lunar Rate Limits
@@ -335,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/screenshots/lunar-2026-06-20T184803.png
 security:

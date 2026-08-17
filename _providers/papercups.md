@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,12 +60,27 @@ apis:
 - description: Authenticated user and team members.
   name: Papercups Users API
   slug: papercups-users-api
-artifact_total: 16
+artifact_total: 21
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Papercups'' **realtime live chat** surface. Unlike many providers, Papercups exposes a genuine, bidirectional **WebSocket** transport: the chat widget and agent dashboard co'
   name: Papercups Realtime Chat (WebSocket / Phoenix Channels)
   slug: papercups-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Papercups Conversations API
+  slug: open-papercups-conversations-api
+- collection_type: open
+  name: Papercups Conversations Customers API
+  slug: open-papercups-customers-api
+- collection_type: open
+  name: Papercups Conversations Messages API
+  slug: open-papercups-messages-api
+- collection_type: open
+  name: Papercups Conversations Users API
+  slug: open-papercups-users-api
 - collection_type: open
   name: Papercups API
   slug: open-papercups
@@ -133,7 +148,7 @@ plans:
 - name: Papercups Plans Pricing
   plan_count: 2
   slug: papercups-plans-pricing
-random_paper: 19
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Papercups Rate Limits
@@ -167,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/screenshots/papercups-2026-06-20T191348.png
 security:

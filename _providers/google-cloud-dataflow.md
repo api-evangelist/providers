@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -94,14 +94,41 @@ arazzos:
 - description: Confirm a streaming job is running, take a snapshot, then read the snapshot back.
   name: Google Cloud Dataflow Snapshot Streaming Job
   slug: google-cloud-dataflow-snapshot-streaming-job-workflow
-artifact_total: 37
+artifact_total: 46
 collections:
 - collection_type: postman
   name: Google Cloud Dataflow API
   slug: postman-google-cloud-dataflow-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Dataflow API
   slug: open-google-cloud-dataflow-api
+- collection_type: open
+  name: Google Cloud Dataflow Debug API
+  slug: open-google-cloud-dataflow-debug-api
+- collection_type: open
+  name: Google Cloud Dataflow Debug Flex Templates API
+  slug: open-google-cloud-dataflow-flex-templates-api
+- collection_type: open
+  name: Google Cloud Dataflow Debug Jobs API
+  slug: open-google-cloud-dataflow-jobs-api
+- collection_type: open
+  name: Google Cloud Dataflow Debug Messages API
+  slug: open-google-cloud-dataflow-messages-api
+- collection_type: open
+  name: Google Cloud Dataflow Debug Metrics API
+  slug: open-google-cloud-dataflow-metrics-api
+- collection_type: open
+  name: Google Cloud Dataflow Debug Snapshots API
+  slug: open-google-cloud-dataflow-snapshots-api
+- collection_type: open
+  name: Google Cloud Dataflow Debug Stages API
+  slug: open-google-cloud-dataflow-stages-api
+- collection_type: open
+  name: Google Cloud Dataflow Debug Templates API
+  slug: open-google-cloud-dataflow-templates-api
 common:
 - group: agent
   title: ''
@@ -293,7 +320,7 @@ plans:
 - name: Google Cloud Dataflow Plans Pricing
   plan_count: 3
   slug: google-cloud-dataflow-plans-pricing
-random_paper: 72
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Google Cloud Dataflow Rate Limits
@@ -332,7 +359,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/screenshots/google-cloud-dataflow-2026-06-20T182106.png
 security:

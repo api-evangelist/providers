@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: The Create API from Lilt — 2 operation(s) for create.
@@ -71,11 +71,54 @@ apis:
 - description: The Workflows API from Lilt — 1 operation(s) for workflows.
   name: Lilt Workflows API
   slug: lilt-workflows-api
-artifact_total: 21
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Lilt Webhooks
   slug: lilt-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LILT Create API
+  slug: open-lilt-create-api
+- collection_type: open
+  name: LILT Create Documents API
+  slug: open-lilt-documents-api
+- collection_type: open
+  name: LILT Create Domains API
+  slug: open-lilt-domains-api
+- collection_type: open
+  name: LILT Create Files API
+  slug: open-lilt-files-api
+- collection_type: open
+  name: LILT Create Jobs API
+  slug: open-lilt-jobs-api
+- collection_type: open
+  name: LILT Create Languages API
+  slug: open-lilt-languages-api
+- collection_type: open
+  name: LILT Create Memories API
+  slug: open-lilt-memories-api
+- collection_type: open
+  name: LILT Create Projects API
+  slug: open-lilt-projects-api
+- collection_type: open
+  name: LILT Create Segments API
+  slug: open-lilt-segments-api
+- collection_type: open
+  name: LILT Create Translate API
+  slug: open-lilt-translate-api
+- collection_type: open
+  name: LILT Create Uploads API
+  slug: open-lilt-uploads-api
+- collection_type: open
+  name: LILT Create Webhook Configuration API
+  slug: open-lilt-webhook-configuration-api
+- collection_type: open
+  name: LILT Create Workflows API
+  slug: open-lilt-workflows-api
 common:
 - group: auth
   title: ''
@@ -232,7 +275,7 @@ overview: 'Lilt publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 77
+random_paper: 139
 rate_limits:
 - limit_count: 3
   name: Lilt Rate Limits
@@ -264,7 +307,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/screenshots/lilt-2026-07-25T225154.png
 security:

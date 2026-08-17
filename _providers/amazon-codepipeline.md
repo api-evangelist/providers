@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -161,7 +161,134 @@ apis:
 - description: 'The #X Amz Target=CodePipeline 20150709.UpdatePipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.updatepipeline.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.UpdatePipeline API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api
-artifact_total: 843
+artifact_total: 885
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS CodePipeline Executions API
+  slug: open-amazon-codepipeline-executions-api
+- collection_type: open
+  name: AWS CodePipeline Executions Pipelines API
+  slug: open-amazon-codepipeline-pipelines-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.AcknowledgeJob API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-acknowledgejob-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.AcknowledgeThirdPartyJob API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-acknowledgethirdpartyjob-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.CreateCustomActionType API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-createcustomactiontype-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.CreatePipeline API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-createpipeline-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.DeleteCustomActionType API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-deletecustomactiontype-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.DeletePipeline API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-deletepipeline-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.DeleteWebhook API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-deletewebhook-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.DeregisterWebhookWithThirdParty API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-deregisterwebhookwiththirdparty-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.DisableStageTransition API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-disablestagetransition-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.EnableStageTransition API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-enablestagetransition-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.GetActionType API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-getactiontype-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.GetJobDetails API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-getjobdetails-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.GetPipeline API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-getpipeline-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.GetPipelineExecution API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-getpipelineexecution-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.GetPipelineState API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-getpipelinestate-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.GetThirdPartyJobDetails API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-getthirdpartyjobdetails-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.ListActionExecutions API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-listactionexecutions-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.ListActionTypes API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-listactiontypes-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.ListPipelineExecutions API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-listpipelineexecutions-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.ListPipelines API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-listpipelines-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.ListTagsForResource API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-listtagsforresource-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.ListWebhooks API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-listwebhooks-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.PollForJobs API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-pollforjobs-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.PollForThirdPartyJobs API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-pollforthirdpartyjobs-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.PutActionRevision API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-putactionrevision-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.PutApprovalResult API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-putapprovalresult-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.PutJobFailureResult API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-putjobfailureresult-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.PutJobSuccessResult API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-putjobsuccessresult-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.PutThirdPartyJobFailureResult API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-putthirdpartyjobfailureresult-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.PutThirdPartyJobSuccessResult API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-putthirdpartyjobsuccessresult-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.PutWebhook API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-putwebhook-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.RegisterWebhookWithThirdParty API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-registerwebhookwiththirdparty-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.RetryStageExecution API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-retrystageexecution-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.StartPipelineExecution API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-startpipelineexecution-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.StopPipelineExecution API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-stoppipelineexecution-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.TagResource API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-tagresource-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.UntagResource API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-untagresource-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.UpdateActionType API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-updateactiontype-api
+- collection_type: open
+  name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.UpdatePipeline API'
+  slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api
 common:
 - group: other
   title: ''
@@ -2656,7 +2783,7 @@ overview: 'Amazon CodePipeline publishes 41 APIs on the [APIs.io](https://apis.i
 
 
   Amazon CodePipeline''s developer surface includes authentication, engineering blog, getting-started guide, pricing, developer console, developer portal, documentation, and 22 more developer resources.'
-random_paper: 36
+random_paper: 19
 rules:
 - name: Amazon CodePipeline API Rules
   rule_count: 5
@@ -2696,7 +2823,7 @@ score:
       total: 41
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/screenshots/amazon-codepipeline-2026-07-25T195959.png
 security:

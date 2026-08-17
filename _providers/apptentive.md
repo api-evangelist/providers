@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: raw data endpoints
   name: Apptentive raw API
   slug: apptentive-raw-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: public-api-service experimental API
+  slug: open-apptentive-experimental-api
+- collection_type: open
+  name: public-api-service experimental info API
+  slug: open-apptentive-info-api
+- collection_type: open
+  name: public-api-service experimental metrics API
+  slug: open-apptentive-metrics-api
+- collection_type: open
+  name: public-api-service experimental raw API
+  slug: open-apptentive-raw-api
 common:
 - group: other
   title: ''
@@ -152,7 +168,7 @@ overview: 'Apptentive publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Apptentive''s developer surface includes authentication, documentation, support, engineering blog, and 17 more developer resources.'
-random_paper: 8
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Apptentive Rate Limits
@@ -180,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/screenshots/apptentive-2026-07-25T200848.png
 security:

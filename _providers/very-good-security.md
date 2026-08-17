@@ -29,13 +29,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Unique IDs that retain all the essential information about the data without compromising its security.
   name: Very Good Security aliases API
   slug: very-good-security-aliases-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Very Good Security Webhooks
@@ -44,6 +44,12 @@ collections:
 - collection_type: postman
   name: Vault HTTP aliases API
   slug: postman-very-good-security-aliases-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vault HTTP aliases API
+  slug: open-very-good-security-aliases-api
 common:
 - group: build
   title: ''
@@ -216,7 +222,7 @@ overview: 'Very Good Security publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Very Good Security''s developer surface includes CLI, sandbox, changelog, authentication, documentation, API reference, getting-started guide, and 31 more developer resources.'
-random_paper: 57
+random_paper: 69
 scopes:
 - name: Very Good Security Scopes
   scope_count: 3
@@ -250,7 +256,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

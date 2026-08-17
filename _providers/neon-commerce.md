@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -78,11 +78,54 @@ apis:
 - description: The Subscriptions API from Neon Commerce — 4 operation(s) for subscriptions.
   name: Neon Commerce Subscriptions API
   slug: neon-commerce-subscriptions-api
-artifact_total: 18
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Neon Commerce Webhooks Asyncapi
   slug: neon-commerce-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Account API
+  slug: open-neon-commerce-account-api
+- collection_type: open
+  name: Account Assets API
+  slug: open-neon-commerce-assets-api
+- collection_type: open
+  name: Account Auth API
+  slug: open-neon-commerce-auth-api
+- collection_type: open
+  name: Account Checkout API
+  slug: open-neon-commerce-checkout-api
+- collection_type: open
+  name: Account Client API
+  slug: open-neon-commerce-client-api
+- collection_type: open
+  name: Account Payouts API
+  slug: open-neon-commerce-payouts-api
+- collection_type: open
+  name: Account Prices API
+  slug: open-neon-commerce-prices-api
+- collection_type: open
+  name: Account Pricing Sheet API
+  slug: open-neon-commerce-pricing-sheet-api
+- collection_type: open
+  name: Account Purchases API
+  slug: open-neon-commerce-purchases-api
+- collection_type: open
+  name: Account Reports API
+  slug: open-neon-commerce-reports-api
+- collection_type: open
+  name: Account Status API
+  slug: open-neon-commerce-status-api
+- collection_type: open
+  name: Account Storefront API
+  slug: open-neon-commerce-storefront-api
+- collection_type: open
+  name: Account Subscriptions API
+  slug: open-neon-commerce-subscriptions-api
 common:
 - group: other
   title: ''
@@ -239,7 +282,7 @@ overview: 'Neon Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Neon Commerce''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
-random_paper: 0
+random_paper: 128
 score:
   band: developing
   composite: 51.8
@@ -269,7 +312,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/screenshots/neon-commerce-2026-08-07T185041.png
 security:

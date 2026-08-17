@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 4
@@ -117,8 +117,89 @@ apis:
 - description: The subpackage_watermark API from Resemble AI — 4 operation(s) for subpackage_watermark.
   name: Resemble AI subpackage_watermark API
   slug: resemble-ai-subpackage-watermark-api
-artifact_total: 34
+artifact_total: 61
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference subpackage_account API
+  slug: open-resemble-ai-subpackage-account-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_agentKnowledgeBase API
+  slug: open-resemble-ai-subpackage-agentknowledgebase-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_agentPhoneNumbers API
+  slug: open-resemble-ai-subpackage-agentphonenumbers-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_agents API
+  slug: open-resemble-ai-subpackage-agents-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_agentTools API
+  slug: open-resemble-ai-subpackage-agenttools-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_agentWebhooks API
+  slug: open-resemble-ai-subpackage-agentwebhooks-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_audioEdit API
+  slug: open-resemble-ai-subpackage-audioedit-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_audioEnhancement API
+  slug: open-resemble-ai-subpackage-audioenhancement-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_audioSourceTracing API
+  slug: open-resemble-ai-subpackage-audiosourcetracing-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_clips API
+  slug: open-resemble-ai-subpackage-clips-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_customPronunciations API
+  slug: open-resemble-ai-subpackage-custompronunciations-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_deepfakeDetection API
+  slug: open-resemble-ai-subpackage-deepfakedetection-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_detectIntelligence API
+  slug: open-resemble-ai-subpackage-detectintelligence-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_duets API
+  slug: open-resemble-ai-subpackage-duets-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_identity API
+  slug: open-resemble-ai-subpackage-identity-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_intelligence API
+  slug: open-resemble-ai-subpackage-intelligence-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_projects API
+  slug: open-resemble-ai-subpackage-projects-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_recordings API
+  slug: open-resemble-ai-subpackage-recordings-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_secureUploads API
+  slug: open-resemble-ai-subpackage-secureuploads-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_speechToText API
+  slug: open-resemble-ai-subpackage-speechtotext-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_termSubstitutions API
+  slug: open-resemble-ai-subpackage-termsubstitutions-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_textToSpeech API
+  slug: open-resemble-ai-subpackage-texttospeech-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_voiceDesign API
+  slug: open-resemble-ai-subpackage-voicedesign-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_voices API
+  slug: open-resemble-ai-subpackage-voices-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_voiceSettingsPresets API
+  slug: open-resemble-ai-subpackage-voicesettingspresets-api
+- collection_type: open
+  name: API Reference subpackage_account subpackage_watermark API
+  slug: open-resemble-ai-subpackage-watermark-api
 - collection_type: open
   name: API Reference
   slug: open-resemble-ai
@@ -195,7 +276,7 @@ plans:
 - name: Resemble Ai Plans Pricing
   plan_count: 2
   slug: resemble-ai-plans-pricing
-random_paper: 14
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Resemble Ai Rate Limits
@@ -220,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/screenshots/resemble-ai-2026-06-20T192934.png
 security:

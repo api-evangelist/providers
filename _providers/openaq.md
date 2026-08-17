@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,8 +123,95 @@ apis:
 - description: The Years API from OpenAQ — 1 operation(s) for years.
   name: OpenAQ Years API
   slug: openaq-years-api
-artifact_total: 36
+artifact_total: 65
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenAQ Averages API
+  slug: open-openaq-averages-api
+- collection_type: open
+  name: OpenAQ Averages Cities API
+  slug: open-openaq-cities-api
+- collection_type: open
+  name: OpenAQ Averages Countries API
+  slug: open-openaq-countries-api
+- collection_type: open
+  name: OpenAQ Averages Daily API
+  slug: open-openaq-daily-api
+- collection_type: open
+  name: OpenAQ Averages Days API
+  slug: open-openaq-days-api
+- collection_type: open
+  name: OpenAQ Averages Flags API
+  slug: open-openaq-flags-api
+- collection_type: open
+  name: OpenAQ Averages Hourly API
+  slug: open-openaq-hourly-api
+- collection_type: open
+  name: OpenAQ Averages Hours API
+  slug: open-openaq-hours-api
+- collection_type: open
+  name: OpenAQ Averages Instruments API
+  slug: open-openaq-instruments-api
+- collection_type: open
+  name: OpenAQ Averages Latest API
+  slug: open-openaq-latest-api
+- collection_type: open
+  name: OpenAQ Averages Licenses API
+  slug: open-openaq-licenses-api
+- collection_type: open
+  name: OpenAQ Averages Locations API
+  slug: open-openaq-locations-api
+- collection_type: open
+  name: OpenAQ Averages Manufacturers API
+  slug: open-openaq-manufacturers-api
+- collection_type: open
+  name: OpenAQ Averages Measurements API
+  slug: open-openaq-measurements-api
+- collection_type: open
+  name: OpenAQ Averages Monthly API
+  slug: open-openaq-monthly-api
+- collection_type: open
+  name: OpenAQ Averages Owners API
+  slug: open-openaq-owners-api
+- collection_type: open
+  name: OpenAQ Averages Parameters API
+  slug: open-openaq-parameters-api
+- collection_type: open
+  name: OpenAQ Averages Project API
+  slug: open-openaq-project-api
+- collection_type: open
+  name: OpenAQ Averages Projects API
+  slug: open-openaq-projects-api
+- collection_type: open
+  name: OpenAQ Averages Providers API
+  slug: open-openaq-providers-api
+- collection_type: open
+  name: OpenAQ Averages Readme API
+  slug: open-openaq-readme-api
+- collection_type: open
+  name: OpenAQ Averages Sensor API
+  slug: open-openaq-sensor-api
+- collection_type: open
+  name: OpenAQ Averages Sensors API
+  slug: open-openaq-sensors-api
+- collection_type: open
+  name: OpenAQ Averages Slug API
+  slug: open-openaq-slug-api
+- collection_type: open
+  name: OpenAQ Averages Sources API
+  slug: open-openaq-sources-api
+- collection_type: open
+  name: OpenAQ Averages Summary API
+  slug: open-openaq-summary-api
+- collection_type: open
+  name: OpenAQ Averages Yearly API
+  slug: open-openaq-yearly-api
+- collection_type: open
+  name: OpenAQ Averages Years API
+  slug: open-openaq-years-api
 - collection_type: open
   name: OpenAQ
   slug: open-openaq
@@ -177,7 +264,7 @@ plans:
 - name: Openaq Plans Pricing
   plan_count: 3
   slug: openaq-plans-pricing
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Openaq Rate Limits
@@ -202,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/screenshots/openaq-2026-06-20T190913.png
 security:

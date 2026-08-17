@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: The Amazon DynamoDB API API from Amazon DynamoDB — 1 operation(s) for amazon dynamodb api.
   name: Amazon DynamoDB Amazon DynamoDB API API
   slug: amazon-dynamo-db-amazon-dynamodb-api-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon DynamoDB Amazon DynamoDB API API
+  slug: open-amazon-dynamo-db-amazon-dynamodb-api-api
 - collection_type: open
   name: Amazon DynamoDB API
   slug: open-amazon-dynamo-db
@@ -98,7 +104,7 @@ overview: 'Amazon DynamoDB publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Amazon DynamoDB''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 22
+random_paper: 92
 score:
   band: thin
   composite: 32.8
@@ -119,7 +125,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dynamo-db/refs/heads/main/screenshots/amazon-dynamo-db-2026-06-20T171631.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 388
   human_in_the_loop: 5
@@ -141,7 +141,104 @@ apis:
 - description: The gitpod.v1.WorkflowService API from Gitpod — 16 operation(s) for gitpod.v1.workflowservice.
   name: Gitpod gitpod.v1.WorkflowService API
   slug: gitpod-gitpod-v1-workflowservice-api
-artifact_total: 52
+artifact_total: 84
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService API
+  slug: open-gitpod-gitpod-v1-accountservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.AgentSecurityService API
+  slug: open-gitpod-gitpod-v1-agentsecurityservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.AgentService API
+  slug: open-gitpod-gitpod-v1-agentservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.BillingService API
+  slug: open-gitpod-gitpod-v1-billingservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.EditorService API
+  slug: open-gitpod-gitpod-v1-editorservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.EnvironmentAutomationService API
+  slug: open-gitpod-gitpod-v1-environmentautomationservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.EnvironmentService API
+  slug: open-gitpod-gitpod-v1-environmentservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.ErrorsService API
+  slug: open-gitpod-gitpod-v1-errorsservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.EventService API
+  slug: open-gitpod-gitpod-v1-eventservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.GatewayService API
+  slug: open-gitpod-gitpod-v1-gatewayservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.GroupService API
+  slug: open-gitpod-gitpod-v1-groupservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.IdentityService API
+  slug: open-gitpod-gitpod-v1-identityservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.InsightsService API
+  slug: open-gitpod-gitpod-v1-insightsservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.IntegrationService API
+  slug: open-gitpod-gitpod-v1-integrationservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.NotificationService API
+  slug: open-gitpod-gitpod-v1-notificationservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.OnaIntelligenceService API
+  slug: open-gitpod-gitpod-v1-onaintelligenceservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.OrganizationService API
+  slug: open-gitpod-gitpod-v1-organizationservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.PrebuildService API
+  slug: open-gitpod-gitpod-v1-prebuildservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.ProjectService API
+  slug: open-gitpod-gitpod-v1-projectservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.RunnerConfigurationService API
+  slug: open-gitpod-gitpod-v1-runnerconfigurationservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.RunnerInteractionService API
+  slug: open-gitpod-gitpod-v1-runnerinteractionservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.RunnerManagerService API
+  slug: open-gitpod-gitpod-v1-runnermanagerservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.RunnerService API
+  slug: open-gitpod-gitpod-v1-runnerservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.SecretService API
+  slug: open-gitpod-gitpod-v1-secretservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.ServiceAccountService API
+  slug: open-gitpod-gitpod-v1-serviceaccountservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.SessionService API
+  slug: open-gitpod-gitpod-v1-sessionservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.TeamService API
+  slug: open-gitpod-gitpod-v1-teamservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.UsageService API
+  slug: open-gitpod-gitpod-v1-usageservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.UserService API
+  slug: open-gitpod-gitpod-v1-userservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.WebhookService API
+  slug: open-gitpod-gitpod-v1-webhookservice-api
+- collection_type: open
+  name: gitpod.v1 gitpod.v1.AccountService gitpod.v1.WorkflowService API
+  slug: open-gitpod-gitpod-v1-workflowservice-api
 common:
 - group: agent
   title: ''
@@ -288,7 +385,7 @@ plans:
 - name: Gitpod Plans Pricing
   plan_count: 2
   slug: gitpod-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Gitpod Rate Limits
@@ -322,7 +419,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/screenshots/gitpod-2026-06-20T181852.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Typed, schema-bearing channels that carry records.
   name: Decodable Streams API
   slug: decodable-streams-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Decodable Control Plane Connections API
+  slug: open-decodable-connections-api
+- collection_type: open
+  name: Decodable Control Plane Connections Pipelines API
+  slug: open-decodable-pipelines-api
+- collection_type: open
+  name: Decodable Control Plane Connections Resources API
+  slug: open-decodable-resources-api
+- collection_type: open
+  name: Decodable Control Plane Connections Secrets API
+  slug: open-decodable-secrets-api
+- collection_type: open
+  name: Decodable Control Plane Connections Streams API
+  slug: open-decodable-streams-api
 - collection_type: open
   name: Decodable Control Plane API
   slug: open-decodable
@@ -132,7 +150,7 @@ plans:
 - name: Decodable Plans Pricing
   plan_count: 3
   slug: decodable-plans-pricing
-random_paper: 75
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Decodable Rate Limits
@@ -157,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/screenshots/decodable-2026-07-25T211523.png
 security:

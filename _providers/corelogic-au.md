@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 26
 apis:
 - description: OAuth 2.0 token service for every Cotality Australia and New Zealand API. Issues JWT access tokens via client_credentials, authorization_code and refresh_token grants. The developer portal documents P
@@ -326,7 +326,7 @@ overview: 'CoreLogic Australia publishes 10 APIs on the [APIs.io](https://apis.i
 
 
   CoreLogic Australia''s developer surface includes documentation, getting-started guide, signup flow, authentication, sandbox, support, FAQ, and 43 more developer resources.'
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Corelogic Au Rate Limits
@@ -353,7 +353,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/screenshots/corelogic-au-2026-07-27T125335.png
 security:

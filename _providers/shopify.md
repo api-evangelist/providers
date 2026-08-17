@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -745,7 +745,7 @@ arazzos:
 - description: Find a webhook subscription for a topic and update its address if it exists, otherwise create it.
   name: Shopify Upsert a Webhook by Topic
   slug: shopify-upsert-webhook-by-topic-workflow
-artifact_total: 281
+artifact_total: 477
 collections:
 - collection_type: postman
   name: Shopify Admin REST API
@@ -763,20 +763,608 @@ collections:
   name: Shopify Webhooks API
   slug: postman-shopify-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shopify Admin REST About API
+  slug: open-shopify-about-api
+- collection_type: open
+  name: Shopify Admin REST About Access API
+  slug: open-shopify-access-api
+- collection_type: open
+  name: Shopify Admin REST About Account API
+  slug: open-shopify-account-api
+- collection_type: open
+  name: Shopify Admin REST About Accounts API
+  slug: open-shopify-accounts-api
+- collection_type: open
+  name: Shopify Admin REST About Activation API
+  slug: open-shopify-activation-api
+- collection_type: open
+  name: Shopify Admin REST About Active API
+  slug: open-shopify-active-api
+- collection_type: open
+  name: Shopify Admin REST About Address API
+  slug: open-shopify-address-api
+- collection_type: open
+  name: Shopify Admin REST About Addresses API
+  slug: open-shopify-addresses-api
+- collection_type: open
+  name: Shopify REST About Admin API
+  slug: open-shopify-admin-api
+- collection_type: open
   name: Shopify Admin REST API
   slug: open-shopify-admin-rest-api
 - collection_type: open
   name: Shopify Ajax API
   slug: open-shopify-ajax-api
 - collection_type: open
+  name: Shopify Admin REST About All API
+  slug: open-shopify-all-api
+- collection_type: open
+  name: Shopify Admin REST About Amount API
+  slug: open-shopify-amount-api
+- collection_type: open
+  name: Shopify Admin REST About Another API
+  slug: open-shopify-another-api
+- collection_type: open
   name: Shopify  API
   slug: open-shopify-api
 - collection_type: open
-  name: Shopify Multipass API
+  name: Shopify Admin REST About Applications API
+  slug: open-shopify-applications-api
+- collection_type: open
+  name: Shopify Admin REST About Approves API
+  slug: open-shopify-approves-api
+- collection_type: open
+  name: Shopify Admin REST About Article API
+  slug: open-shopify-article-api
+- collection_type: open
+  name: Shopify Admin REST About Assets API
+  slug: open-shopify-assets-api
+- collection_type: open
+  name: Shopify Admin REST About Associated API
+  slug: open-shopify-associated-api
+- collection_type: open
+  name: Shopify Admin REST About Authenticated API
+  slug: open-shopify-authenticated-api
+- collection_type: open
+  name: Shopify Admin REST About Authors API
+  slug: open-shopify-authors-api
+- collection_type: open
+  name: Shopify Admin REST About Available API
+  slug: open-shopify-available-api
+- collection_type: open
+  name: Shopify Admin REST About Balance API
+  slug: open-shopify-balance-api
+- collection_type: open
+  name: Shopify Admin REST About Belong API
+  slug: open-shopify-belong-api
+- collection_type: open
+  name: Shopify Admin REST About Belonging API
+  slug: open-shopify-belonging-api
+- collection_type: open
+  name: Shopify Admin REST About Blog API
+  slug: open-shopify-blog-api
+- collection_type: open
+  name: Shopify Admin REST About Blogs API
+  slug: open-shopify-blogs-api
+- collection_type: open
+  name: Shopify Admin REST About Bulk API
+  slug: open-shopify-bulk-api
+- collection_type: open
+  name: Shopify Admin REST About Calls API
+  slug: open-shopify-calls-api
+- collection_type: open
+  name: Shopify Admin REST About Cancel API
+  slug: open-shopify-cancel-api
+- collection_type: open
+  name: Shopify Admin REST About Cancels API
+  slug: open-shopify-cancels-api
+- collection_type: open
+  name: Shopify Admin REST About Card API
+  slug: open-shopify-card-api
+- collection_type: open
+  name: Shopify Admin REST About Cards API
+  slug: open-shopify-cards-api
+- collection_type: open
+  name: Shopify Admin REST About Carrier API
+  slug: open-shopify-carrier-api
+- collection_type: open
+  name: Shopify Admin REST About Cart API
+  slug: open-shopify-cart-api
+- collection_type: open
+  name: Shopify Admin REST About Charge API
+  slug: open-shopify-charge-api
+- collection_type: open
+  name: Shopify Admin REST About Charges API
+  slug: open-shopify-charges-api
+- collection_type: open
+  name: Shopify Admin REST About Checkout API
+  slug: open-shopify-checkout-api
+- collection_type: open
+  name: Shopify Admin REST About Checkouts API
+  slug: open-shopify-checkouts-api
+- collection_type: open
+  name: Shopify Admin REST About Code API
+  slug: open-shopify-code-api
+- collection_type: open
+  name: Shopify Admin REST About Collect API
+  slug: open-shopify-collect-api
+- collection_type: open
+  name: Shopify Admin REST About Collection API
+  slug: open-shopify-collection-api
+- collection_type: open
+  name: Shopify Admin REST About Collections API
+  slug: open-shopify-collections-api
+- collection_type: open
+  name: Shopify Admin REST About Comments API
+  slug: open-shopify-comments-api
+- collection_type: open
+  name: Shopify Admin REST About Complete API
+  slug: open-shopify-complete-api
+- collection_type: open
+  name: Shopify Admin REST About Configuration API
+  slug: open-shopify-configuration-api
+- collection_type: open
+  name: Shopify Admin REST About Connects API
+  slug: open-shopify-connects-api
+- collection_type: open
+  name: Shopify Admin REST About Contains API
+  slug: open-shopify-contains-api
+- collection_type: open
+  name: Shopify Admin REST About Count API
+  slug: open-shopify-count-api
+- collection_type: open
+  name: Shopify Admin REST About Countries API
+  slug: open-shopify-countries-api
+- collection_type: open
+  name: Shopify Admin REST About Country API
+  slug: open-shopify-country-api
+- collection_type: open
+  name: Shopify Admin REST About Counts API
+  slug: open-shopify-counts-api
+- collection_type: open
+  name: Shopify Admin REST About County API
+  slug: open-shopify-county-api
+- collection_type: open
+  name: Shopify Admin REST About Create API
+  slug: open-shopify-create-api
+- collection_type: open
+  name: Shopify Admin REST About Creation API
+  slug: open-shopify-creation-api
+- collection_type: open
+  name: Shopify Admin REST About Credit API
+  slug: open-shopify-credit-api
+- collection_type: open
+  name: Shopify Admin REST About Currencies API
+  slug: open-shopify-currencies-api
+- collection_type: open
+  name: Shopify Admin REST About Current API
+  slug: open-shopify-current-api
+- collection_type: open
+  name: Shopify Admin REST About Custom API
+  slug: open-shopify-custom-api
+- collection_type: open
+  name: Shopify Admin REST About Custom Collections API
+  slug: open-shopify-custom-collections-api
+- collection_type: open
+  name: Shopify Admin REST About Customer Addresses API
+  slug: open-shopify-customer-addresses-api
+- collection_type: open
+  name: Shopify Admin REST About Customer API
+  slug: open-shopify-customer-api
+- collection_type: open
+  name: Shopify Admin REST About Customers API
+  slug: open-shopify-customers-api
+- collection_type: open
+  name: Shopify Admin REST About Date API
+  slug: open-shopify-date-api
+- collection_type: open
+  name: Shopify Admin REST About Days API
+  slug: open-shopify-days-api
+- collection_type: open
+  name: Shopify Admin REST About Deletes API
+  slug: open-shopify-deletes-api
+- collection_type: open
+  name: Shopify Admin REST About Disables API
+  slug: open-shopify-disables-api
+- collection_type: open
+  name: Shopify Admin REST About Discount API
+  slug: open-shopify-discount-api
+- collection_type: open
+  name: Shopify Admin REST About Dispute API
+  slug: open-shopify-dispute-api
+- collection_type: open
+  name: Shopify Admin REST About Disputes API
+  slug: open-shopify-disputes-api
+- collection_type: open
+  name: Shopify Admin REST About Enabled API
+  slug: open-shopify-enabled-api
+- collection_type: open
+  name: Shopify Admin REST About Endpoint API
+  slug: open-shopify-endpoint-api
+- collection_type: open
+  name: Shopify Admin REST About Events API
+  slug: open-shopify-events-api
+- collection_type: open
+  name: Shopify Admin REST About Existing API
+  slug: open-shopify-existing-api
+- collection_type: open
+  name: Shopify Admin REST About Files API
+  slug: open-shopify-files-api
+- collection_type: open
+  name: Shopify Admin REST About Format API
+  slug: open-shopify-format-api
+- collection_type: open
+  name: Shopify Admin REST About Fulfillment API
+  slug: open-shopify-fulfillment-api
+- collection_type: open
+  name: Shopify Admin REST About Fulfillment Orders API
+  slug: open-shopify-fulfillment-orders-api
+- collection_type: open
+  name: Shopify Admin REST About Fulfillments API
+  slug: open-shopify-fulfillments-api
+- collection_type: open
+  name: Shopify Admin REST About Generate API
+  slug: open-shopify-generate-api
+- collection_type: open
+  name: Shopify Admin REST About Get API
+  slug: open-shopify-get-api
+- collection_type: open
+  name: Shopify Admin REST About Gift API
+  slug: open-shopify-gift-api
+- collection_type: open
+  name: Shopify Admin REST About Have API
+  slug: open-shopify-have-api
+- collection_type: open
+  name: Shopify Admin REST About Holds API
+  slug: open-shopify-holds-api
+- collection_type: open
+  name: Shopify Admin REST About Identifiers API
+  slug: open-shopify-identifiers-api
+- collection_type: open
+  name: Shopify Admin REST About Image API
+  slug: open-shopify-image-api
+- collection_type: open
+  name: Shopify Admin REST About Images API
+  slug: open-shopify-images-api
+- collection_type: open
+  name: Shopify Admin REST About Information API
+  slug: open-shopify-information-api
+- collection_type: open
+  name: Shopify Admin REST About Inventory API
+  slug: open-shopify-inventory-api
+- collection_type: open
+  name: Shopify Admin REST About Inventory Items API
+  slug: open-shopify-inventory-items-api
+- collection_type: open
+  name: Shopify Admin REST About Inventory Levels API
+  slug: open-shopify-inventory-levels-api
+- collection_type: open
+  name: Shopify Admin REST About Invites API
+  slug: open-shopify-invites-api
+- collection_type: open
+  name: Shopify Admin REST About Issued API
+  slug: open-shopify-issued-api
+- collection_type: open
+  name: Shopify Admin REST About Item API
+  slug: open-shopify-item-api
+- collection_type: open
+  name: Shopify Admin REST About Items API
+  slug: open-shopify-items-api
+- collection_type: open
+  name: Shopify Admin REST About Jobs API
+  slug: open-shopify-jobs-api
+- collection_type: open
+  name: Shopify Admin REST About Keys API
+  slug: open-shopify-keys-api
+- collection_type: open
+  name: Shopify Admin REST About Levels API
+  slug: open-shopify-levels-api
+- collection_type: open
+  name: Shopify Admin REST About Line API
+  slug: open-shopify-line-api
+- collection_type: open
+  name: Shopify Admin REST About Listing API
+  slug: open-shopify-listing-api
+- collection_type: open
+  name: Shopify Admin REST About Listings API
+  slug: open-shopify-listings-api
+- collection_type: open
+  name: Shopify Admin REST About Lists API
+  slug: open-shopify-lists-api
+- collection_type: open
+  name: Shopify Admin REST About Location API
+  slug: open-shopify-location-api
+- collection_type: open
+  name: Shopify Admin REST About Locations API
+  slug: open-shopify-locations-api
+- collection_type: open
+  name: Shopify Admin REST About Make API
+  slug: open-shopify-make-api
+- collection_type: open
+  name: Shopify Admin REST About Managed API
+  slug: open-shopify-managed-api
+- collection_type: open
+  name: Shopify Admin REST About Many API
+  slug: open-shopify-many-api
+- collection_type: open
+  name: Shopify Admin REST About Mark API
+  slug: open-shopify-mark-api
+- collection_type: open
+  name: Shopify Admin REST About Match API
+  slug: open-shopify-match-api
+- collection_type: open
+  name: Shopify Admin REST About Merchant API
+  slug: open-shopify-merchant-api
+- collection_type: open
+  name: Shopify Admin REST About Metafields API
+  slug: open-shopify-metafields-api
+- collection_type: open
+  name: Shopify Admin REST About Modifies API
+  slug: open-shopify-modifies-api
+- collection_type: open
+  name: Shopify Admin REST About Modify API
+  slug: open-shopify-modify-api
+- collection_type: open
+  name: Shopify Admin REST About Move API
+  slug: open-shopify-move-api
+- collection_type: open
+  name: Shopify Admin REST About Moves API
+  slug: open-shopify-moves-api
+- collection_type: open
+  name: Shopify Admin REST About Multipass API
   slug: open-shopify-multipass-api
 - collection_type: open
-  name: Shopify Webhooks API
+  name: Shopify Admin REST About Multiple API
+  slug: open-shopify-multiple-api
+- collection_type: open
+  name: Shopify Admin REST About Number API
+  slug: open-shopify-number-api
+- collection_type: open
+  name: Shopify Admin REST About Numbers API
+  slug: open-shopify-numbers-api
+- collection_type: open
+  name: Shopify Admin REST About Open API
+  slug: open-shopify-open-api
+- collection_type: open
+  name: Shopify Admin REST About Operations API
+  slug: open-shopify-operations-api
+- collection_type: open
+  name: Shopify Admin REST About Order API
+  slug: open-shopify-order-api
+- collection_type: open
+  name: Shopify Admin REST About Ordered API
+  slug: open-shopify-ordered-api
+- collection_type: open
+  name: Shopify Admin REST About Orders API
+  slug: open-shopify-orders-api
+- collection_type: open
+  name: Shopify Admin REST About Particular API
+  slug: open-shopify-particular-api
+- collection_type: open
+  name: Shopify Admin REST About Past API
+  slug: open-shopify-past-api
+- collection_type: open
+  name: Shopify Admin REST About Payments API
+  slug: open-shopify-payments-api
+- collection_type: open
+  name: Shopify Admin REST About Payouts API
+  slug: open-shopify-payouts-api
+- collection_type: open
+  name: Shopify Admin REST About Policies API
+  slug: open-shopify-policies-api
+- collection_type: open
+  name: Shopify Admin REST About Predictive Search API
+  slug: open-shopify-predictive-search-api
+- collection_type: open
+  name: Shopify Admin REST About Previously API
+  slug: open-shopify-previously-api
+- collection_type: open
+  name: Shopify Admin REST About Private API
+  slug: open-shopify-private-api
+- collection_type: open
+  name: Shopify Admin REST About Product API
+  slug: open-shopify-product-api
+- collection_type: open
+  name: Shopify Admin REST About Product Images API
+  slug: open-shopify-product-images-api
+- collection_type: open
+  name: Shopify Admin REST About Product Recommendations API
+  slug: open-shopify-product-recommendations-api
+- collection_type: open
+  name: Shopify Admin REST About Product Variants API
+  slug: open-shopify-product-variants-api
+- collection_type: open
+  name: Shopify Admin REST About Products API
+  slug: open-shopify-products-api
+- collection_type: open
+  name: Shopify Admin REST About Progress API
+  slug: open-shopify-progress-api
+- collection_type: open
+  name: Shopify Admin REST About Providing API
+  slug: open-shopify-providing-api
+- collection_type: open
+  name: Shopify Admin REST About Province API
+  slug: open-shopify-province-api
+- collection_type: open
+  name: Shopify Admin REST About Public API
+  slug: open-shopify-public-api
+- collection_type: open
+  name: Shopify Admin REST About Publish API
+  slug: open-shopify-publish-api
+- collection_type: open
+  name: Shopify Admin REST About Published API
+  slug: open-shopify-published-api
+- collection_type: open
+  name: Shopify Admin REST About Queries API
+  slug: open-shopify-queries-api
+- collection_type: open
+  name: Shopify Admin REST About Rates API
+  slug: open-shopify-rates-api
+- collection_type: open
+  name: Shopify Admin REST About Ready API
+  slug: open-shopify-ready-api
+- collection_type: open
+  name: Shopify Admin REST About Recurring API
+  slug: open-shopify-recurring-api
+- collection_type: open
+  name: Shopify Admin REST About Redirect API
+  slug: open-shopify-redirect-api
+- collection_type: open
+  name: Shopify Admin REST About Redirects API
+  slug: open-shopify-redirects-api
+- collection_type: open
+  name: Shopify Admin REST About Refund API
+  slug: open-shopify-refund-api
+- collection_type: open
+  name: Shopify Admin REST About Refunds API
+  slug: open-shopify-refunds-api
+- collection_type: open
+  name: Shopify Admin REST About Releases API
+  slug: open-shopify-releases-api
+- collection_type: open
+  name: Shopify Admin REST About Reports API
+  slug: open-shopify-reports-api
+- collection_type: open
+  name: Shopify Admin REST About Requests API
+  slug: open-shopify-requests-api
+- collection_type: open
+  name: Shopify Admin REST About Required API
+  slug: open-shopify-required-api
+- collection_type: open
+  name: Shopify Admin REST About Resource API
+  slug: open-shopify-resource-api
+- collection_type: open
+  name: Shopify Admin REST About Retrieves API
+  slug: open-shopify-retrieves-api
+- collection_type: open
+  name: Shopify Admin REST About Risk API
+  slug: open-shopify-risk-api
+- collection_type: open
+  name: Shopify Admin REST About Rules API
+  slug: open-shopify-rules-api
+- collection_type: open
+  name: Shopify Admin REST About Saved API
+  slug: open-shopify-saved-api
+- collection_type: open
+  name: Shopify Admin REST About Scheduled API
+  slug: open-shopify-scheduled-api
+- collection_type: open
+  name: Shopify Admin REST About Scopes API
+  slug: open-shopify-scopes-api
+- collection_type: open
+  name: Shopify Admin REST About Script API
+  slug: open-shopify-script-api
+- collection_type: open
+  name: Shopify Admin REST About Search API
+  slug: open-shopify-search-api
+- collection_type: open
+  name: Shopify Admin REST About Searches API
+  slug: open-shopify-searches-api
+- collection_type: open
+  name: Shopify Admin REST About Sends API
+  slug: open-shopify-sends-api
+- collection_type: open
+  name: Shopify Admin REST About Sent API
+  slug: open-shopify-sent-api
+- collection_type: open
+  name: Shopify Admin REST About Sessions API
+  slug: open-shopify-sessions-api
+- collection_type: open
+  name: Shopify Admin REST About Sets API
+  slug: open-shopify-sets-api
+- collection_type: open
+  name: Shopify Admin REST About Shipping API
+  slug: open-shopify-shipping-api
+- collection_type: open
+  name: Shopify Admin REST About Shop API
+  slug: open-shopify-shop-api
+- collection_type: open
+  name: Shopify Admin REST About Single API
+  slug: open-shopify-single-api
+- collection_type: open
+  name: Shopify Admin REST About Smart API
+  slug: open-shopify-smart-api
+- collection_type: open
+  name: Shopify Admin REST About Smart Collections API
+  slug: open-shopify-smart-collections-api
+- collection_type: open
+  name: Shopify Admin REST About Spam API
+  slug: open-shopify-spam-api
+- collection_type: open
+  name: Shopify Admin REST About Specific API
+  slug: open-shopify-specific-api
+- collection_type: open
+  name: Shopify Admin REST About Storefront API
+  slug: open-shopify-storefront-api
+- collection_type: open
+  name: Shopify Admin REST About Subscriptions API
+  slug: open-shopify-subscriptions-api
+- collection_type: open
+  name: Shopify Admin REST About Summaries API
+  slug: open-shopify-summaries-api
+- collection_type: open
+  name: Shopify Admin REST About Tender API
+  slug: open-shopify-tender-api
+- collection_type: open
+  name: Shopify Admin REST About Theme API
+  slug: open-shopify-theme-api
+- collection_type: open
+  name: Shopify Admin REST About Themes API
+  slug: open-shopify-themes-api
+- collection_type: open
+  name: Shopify Admin REST About Time API
+  slug: open-shopify-time-api
+- collection_type: open
+  name: Shopify Admin REST About Tokens API
+  slug: open-shopify-tokens-api
+- collection_type: open
+  name: Shopify Admin REST About Topic API
+  slug: open-shopify-topic-api
+- collection_type: open
+  name: Shopify Admin REST About Tracking API
+  slug: open-shopify-tracking-api
+- collection_type: open
+  name: Shopify Admin REST About Transactions API
+  slug: open-shopify-transactions-api
+- collection_type: open
+  name: Shopify Admin REST About Type API
+  slug: open-shopify-type-api
+- collection_type: open
+  name: Shopify Admin REST About Update API
+  slug: open-shopify-update-api
+- collection_type: open
+  name: Shopify Admin REST About Usage API
+  slug: open-shopify-usage-api
+- collection_type: open
+  name: Shopify Admin REST About Used API
+  slug: open-shopify-used-api
+- collection_type: open
+  name: Shopify Admin REST About Users API
+  slug: open-shopify-users-api
+- collection_type: open
+  name: Shopify Admin REST About Variants API
+  slug: open-shopify-variants-api
+- collection_type: open
+  name: Shopify Admin REST About Vault API
+  slug: open-shopify-vault-api
+- collection_type: open
+  name: Shopify Admin REST About Versions API
+  slug: open-shopify-versions-api
+- collection_type: open
+  name: Shopify Admin REST About Webhook Subscriptions API
+  slug: open-shopify-webhook-subscriptions-api
+- collection_type: open
+  name: Shopify Admin REST About Webhooks API
   slug: open-shopify-webhooks-api
+- collection_type: open
+  name: Shopify Admin REST About Zip API
+  slug: open-shopify-zip-api
+- collection_type: open
+  name: Shopify Admin REST About Zones API
+  slug: open-shopify-zones-api
 common:
 - group: agent
   title: ''
@@ -1119,7 +1707,7 @@ plans:
 - name: Shopify Plans Pricing
   plan_count: 4
   slug: shopify-plans-pricing
-random_paper: 50
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Shopify Rate Limits
@@ -1175,7 +1763,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:

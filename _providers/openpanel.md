@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -59,8 +59,32 @@ apis:
 - description: Track events and sessions
   name: OpenPanel Track API
   slug: openpanel-track-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenPanel Event API
+  slug: open-openpanel-event-api
+- collection_type: open
+  name: OpenPanel Event Export API
+  slug: open-openpanel-export-api
+- collection_type: open
+  name: OpenPanel Event Import API
+  slug: open-openpanel-import-api
+- collection_type: open
+  name: OpenPanel Event Insights API
+  slug: open-openpanel-insights-api
+- collection_type: open
+  name: OpenPanel Event Manage API
+  slug: open-openpanel-manage-api
+- collection_type: open
+  name: OpenPanel Event Profile API
+  slug: open-openpanel-profile-api
+- collection_type: open
+  name: OpenPanel Event Track API
+  slug: open-openpanel-track-api
 - collection_type: open
   name: OpenPanel API
   slug: open-openpanel
@@ -133,7 +157,7 @@ plans:
 - name: Openpanel Plans Pricing
   plan_count: 3
   slug: openpanel-plans-pricing
-random_paper: 2
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Openpanel Rate Limits
@@ -158,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/screenshots/openpanel-2026-06-20T191030.png
 security:

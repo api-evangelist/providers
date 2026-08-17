@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -82,11 +82,66 @@ apis:
 - description: GSMA Simple Edge Discovery from GSMA — 1 path(s) described in OpenAPI.
   name: GSMA Simple Edge Discovery
   slug: gsma-open-gateway-simple-edge-discovery-openapi
-artifact_total: 25
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Gsma Webhooks
   slug: gsma-webhooks
+collections:
+- collection_type: open
+  name: Mobile Money API
+  slug: open-gsma-mobile-money-api
+- collection_type: open
+  name: Call Forwarding Signal
+  slug: open-gsma-open-gateway-call-forwarding-signal
+- collection_type: open
+  name: Carrier Billing Refund
+  slug: open-gsma-open-gateway-carrier-billing-refund
+- collection_type: open
+  name: Carrier Billing
+  slug: open-gsma-open-gateway-carrier-billing
+- collection_type: open
+  name: CAMARA Mobile Device Identifier
+  slug: open-gsma-open-gateway-device-identifier
+- collection_type: open
+  name: Device Location Retrieval
+  slug: open-gsma-open-gateway-device-location-retrieval
+- collection_type: open
+  name: Device Location Verification
+  slug: open-gsma-open-gateway-device-location-verification
+- collection_type: open
+  name: Device Reachability Status
+  slug: open-gsma-open-gateway-device-reachability-status
+- collection_type: open
+  name: Device Roaming Status
+  slug: open-gsma-open-gateway-device-roaming-status
+- collection_type: open
+  name: Device Swap
+  slug: open-gsma-open-gateway-device-swap
+- collection_type: open
+  name: Home Devices QoD
+  slug: open-gsma-open-gateway-home-devices-quality-on-demand
+- collection_type: open
+  name: Know Your Customer Match
+  slug: open-gsma-open-gateway-know-your-customer
+- collection_type: open
+  name: Number Verification
+  slug: open-gsma-open-gateway-number-verification
+- collection_type: open
+  name: One Time Password SMS
+  slug: open-gsma-open-gateway-otp-validation
+- collection_type: open
+  name: Population Density Data
+  slug: open-gsma-open-gateway-population-density-data
+- collection_type: open
+  name: Quality-On-Demand
+  slug: open-gsma-open-gateway-quality-on-demand
+- collection_type: open
+  name: SIM Swap
+  slug: open-gsma-open-gateway-sim-swap
+- collection_type: open
+  name: Simple Edge Discovery
+  slug: open-gsma-open-gateway-simple-edge-discovery
 common:
 - group: auth
   title: ''
@@ -324,7 +379,7 @@ overview: 'GSMA publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   GSMA''s developer surface includes authentication, documentation, sandbox, YouTube channel, changelog, API reference, getting-started guide, and 47 more developer resources.'
-random_paper: 64
+random_paper: 126
 scopes:
 - name: Gsma Scopes
   scope_count: 30
@@ -359,7 +414,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/screenshots/gsma-2026-08-07T165856.png
 security:

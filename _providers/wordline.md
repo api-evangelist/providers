@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 429
   human_in_the_loop: 29
@@ -276,7 +276,224 @@ apis:
 - description: The User Resource API from Worldline — 2 operation(s) for user resource.
   name: Worldline User Resource API
   slug: wordline-user-resource-api
-artifact_total: 86
+artifact_total: 158
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState API
+  slug: open-wordline-account-accountstate-api
+- collection_type: open
+  name: Worldline Card Issuing - AccountState Account API
+  slug: open-wordline-account-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Authorization API
+  slug: open-wordline-account-authorization-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Authorization Restriction API
+  slug: open-wordline-account-authorization-restriction-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Cvv2 Try Counter API
+  slug: open-wordline-account-cvv2-try-counter-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Future Update API
+  slug: open-wordline-account-future-update-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Insurance Contract API
+  slug: open-wordline-account-insurance-contract-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Offline Reservation API
+  slug: open-wordline-account-offline-reservation-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Operation API
+  slug: open-wordline-account-operation-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Statement API
+  slug: open-wordline-account-statement-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Temporary Credit Limit API
+  slug: open-wordline-account-temporary-credit-limit-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Account - Velocity Limit API
+  slug: open-wordline-account-velocity-limit-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Api Meta Info API
+  slug: open-wordline-api-meta-info-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Authentication Resource API
+  slug: open-wordline-authentication-resource-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Authorization API
+  slug: open-wordline-authorization-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Bulk Payment Initiation Service (Extended service) API
+  slug: open-wordline-bulk-payment-initiation-service-extended-service-api
+- collection_type: open
+  name: Worldline Issuing Account - AccountState Card API
+  slug: open-wordline-card-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Card - CardPinState API
+  slug: open-wordline-card-cardpinstate-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Card Contract API
+  slug: open-wordline-card-contract-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Card - CVV API
+  slug: open-wordline-card-cvv-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Card - EMV API
+  slug: open-wordline-card-emv-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Card - Letter API
+  slug: open-wordline-card-letter-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Card - LinkedAccountState API
+  slug: open-wordline-card-linkedaccountstate-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Card - Order API
+  slug: open-wordline-card-order-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Card - Pin API
+  slug: open-wordline-card-pin-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Card - Pin Try Counter API
+  slug: open-wordline-card-pin-try-counter-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Company - Address API
+  slug: open-wordline-company-address-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Company API
+  slug: open-wordline-company-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Company - Related API
+  slug: open-wordline-company-related-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Contract API
+  slug: open-wordline-contract-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Contract - Global Search API
+  slug: open-wordline-contract-global-search-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Corporate Contract API
+  slug: open-wordline-corporate-contract-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Corporate Contract - Global Search API
+  slug: open-wordline-corporate-contract-global-search-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Credit Transfer API
+  slug: open-wordline-credit-transfer-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Currency Conversion (Extended services) API
+  slug: open-wordline-currency-conversion-extended-services-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Customer - Address API
+  slug: open-wordline-customer-address-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Customer API
+  slug: open-wordline-customer-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Customer - Related API
+  slug: open-wordline-customer-related-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Debtor Preference Retrieval API
+  slug: open-wordline-debtor-preference-retrieval-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Direct Debit API
+  slug: open-wordline-direct-debit-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Dispute API
+  slug: open-wordline-dispute-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Event Store API
+  slug: open-wordline-event-store-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState HealthCheck API
+  slug: open-wordline-healthcheck-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Holding API
+  slug: open-wordline-holding-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Interchange fee API
+  slug: open-wordline-interchange-fee-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Issuer API
+  slug: open-wordline-issuer-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Issuer - Velocity Limit API
+  slug: open-wordline-issuer-velocity-limit-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Merchant API
+  slug: open-wordline-merchant-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Message - Subscription API
+  slug: open-wordline-message-subscription-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Message - Subscription Event API
+  slug: open-wordline-message-subscription-event-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Message - Subscription Service API
+  slug: open-wordline-message-subscription-service-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Mobile Payment Operations API
+  slug: open-wordline-mobile-payment-operations-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Operation - Global Search API
+  slug: open-wordline-operation-global-search-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Payment API
+  slug: open-wordline-payment-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Payment Initiation Service API
+  slug: open-wordline-payment-initiation-service-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Periodic Payment Initiation Service (Extended service) API
+  slug: open-wordline-periodic-payment-initiation-service-extended-service-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Product Override API
+  slug: open-wordline-product-override-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Refund Initiation Service V3 (Extended services) API
+  slug: open-wordline-refund-initiation-service-v3-extended-services-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Registration Resource API
+  slug: open-wordline-registration-resource-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Relying Party Resource API
+  slug: open-wordline-relying-party-resource-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Retrieve transaction totals API
+  slug: open-wordline-retrieve-transaction-totals-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Retrieve transaction totals per brand API
+  slug: open-wordline-retrieve-transaction-totals-per-brand-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Scheduled Payment Initiation Service (Extended service) API
+  slug: open-wordline-scheduled-payment-initiation-service-extended-service-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Site API
+  slug: open-wordline-site-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Statement API
+  slug: open-wordline-statement-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Terminal API
+  slug: open-wordline-terminal-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Token Resource API
+  slug: open-wordline-token-resource-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Transaction API
+  slug: open-wordline-transaction-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Transaction - Global Search API
+  slug: open-wordline-transaction-global-search-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState Transaction Lifecycle API
+  slug: open-wordline-transaction-lifecycle-api
+- collection_type: open
+  name: Worldline Card Issuing Account - AccountState User Resource API
+  slug: open-wordline-user-resource-api
 common:
 - group: agent
   title: ''
@@ -374,7 +591,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -410,7 +627,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Plain Text API from Moon-API — 1 operation(s) for plain text.
   name: Moon-API Plain Text API
   slug: moon-api-plain-text-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Moon-API.com Advanced API
+  slug: open-moon-api-advanced-api
+- collection_type: open
+  name: Moon-API.com Advanced Astrology API
+  slug: open-moon-api-astrology-api
+- collection_type: open
+  name: Moon-API.com Advanced Basic API
+  slug: open-moon-api-basic-api
+- collection_type: open
+  name: Moon-API.com Advanced Calendar API
+  slug: open-moon-api-calendar-api
+- collection_type: open
+  name: Moon-API.com Advanced Emoji API
+  slug: open-moon-api-emoji-api
+- collection_type: open
+  name: Moon-API.com Advanced Phase API
+  slug: open-moon-api-phase-api
+- collection_type: open
+  name: Moon-API.com Advanced Plain Text API
+  slug: open-moon-api-plain-text-api
 - collection_type: open
   name: Moon-API.com
   slug: open-moon-api
@@ -118,7 +142,7 @@ plans:
 - name: Moon Api Plans Pricing
   plan_count: 3
   slug: moon-api-plans-pricing
-random_paper: 80
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Moon Api Rate Limits
@@ -143,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moon-api/refs/heads/main/screenshots/moon-api-2026-06-20T185757.png
 security:

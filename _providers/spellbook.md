@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Spellbook is delivered primarily as a Microsoft Word add-in and a multi-document Associate agent rather than a public REST API. This entry documents the Spellbook product surface for discoverability; '
@@ -96,7 +96,7 @@ plans:
 - name: Spellbook Plans Pricing
   plan_count: 1
   slug: spellbook-plans-pricing
-random_paper: 11
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Spellbook Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spellbook/refs/heads/main/screenshots/spellbook-2026-06-20T194305.png
 security:

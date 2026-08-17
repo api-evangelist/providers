@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 22
@@ -101,7 +101,74 @@ apis:
 - description: 'Withdrawals allow users to extract funds from their brokerage accounts after successful trades. Understanding the settlement timeline is essential. #### Settlement Timeline - Stock sale proceeds settl'
   name: Bamboo Invest Withdrawals API
   slug: bamboo-withdrawals-api
-artifact_total: 91
+artifact_total: 113
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bamboo Account Management API
+  slug: open-bamboo-account-management-api
+- collection_type: open
+  name: Bamboo Account Management Authentication API
+  slug: open-bamboo-authentication-api
+- collection_type: open
+  name: Bamboo Account Management Deposits API
+  slug: open-bamboo-deposits-api
+- collection_type: open
+  name: Bamboo Account Management Exchange Rate API
+  slug: open-bamboo-exchange-rate-api
+- collection_type: open
+  name: Bamboo Account Management Featured Themes API
+  slug: open-bamboo-featured-themes-api
+- collection_type: open
+  name: Bamboo Account Management Financial Documents API
+  slug: open-bamboo-financial-documents-api
+- collection_type: open
+  name: 'Bamboo Account Management Https: API'
+  slug: open-bamboo-https-api
+- collection_type: open
+  name: Bamboo Account Management Lsx API
+  slug: open-bamboo-lsx-api
+- collection_type: open
+  name: Bamboo Account Management Market Activity API
+  slug: open-bamboo-market-activity-api
+- collection_type: open
+  name: Bamboo Account Management NG Deposits API
+  slug: open-bamboo-ng-deposits-api
+- collection_type: open
+  name: Bamboo Account Management NG Securities API
+  slug: open-bamboo-ng-securities-api
+- collection_type: open
+  name: Bamboo Account Management NG Stock Portfolio API
+  slug: open-bamboo-ng-stock-portfolio-api
+- collection_type: open
+  name: Bamboo Account Management NG Stock Trading API
+  slug: open-bamboo-ng-stock-trading-api
+- collection_type: open
+  name: Bamboo Account Management NG Withdrawals API
+  slug: open-bamboo-ng-withdrawals-api
+- collection_type: open
+  name: Bamboo Account Management One Step Registration API
+  slug: open-bamboo-one-step-registration-api
+- collection_type: open
+  name: Bamboo Account Management Portfolio Reporting API
+  slug: open-bamboo-portfolio-reporting-api
+- collection_type: open
+  name: Bamboo Account Management Stock Trading API
+  slug: open-bamboo-stock-trading-api
+- collection_type: open
+  name: Bamboo Account Management Tenant API
+  slug: open-bamboo-tenant-api
+- collection_type: open
+  name: Bamboo Account Management US Securities API
+  slug: open-bamboo-us-securities-api
+- collection_type: open
+  name: Bamboo Account Management US Stock Trading API
+  slug: open-bamboo-us-stock-trading-api
+- collection_type: open
+  name: Bamboo Account Management Withdrawals API
+  slug: open-bamboo-withdrawals-api
 common:
 - group: agent
   title: ''
@@ -372,7 +439,7 @@ plans:
 - name: Bamboo Plans Pricing
   plan_count: 3
   slug: bamboo-plans-pricing
-random_paper: 24
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Bamboo Rate Limits
@@ -412,7 +479,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboo/refs/heads/main/screenshots/bamboo-2026-06-20T172931.png
 security:

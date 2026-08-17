@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,15 +54,30 @@ apis:
 - description: Tax rates and inclusivity rules applied to estimate totals.
   name: Buildxact Tax Context API
   slug: buildxact-tax-context-api
-artifact_total: 22
+artifact_total: 27
 asyncapis:
 - description: Buildxact webhook delivery channel. Subscribers register a target URL inside the Buildxact web app ("My Business > API"), pick the events they want, and verify each payload with a signing secret. Some
   name: Buildxact Webhooks
   slug: buildxact-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Buildxact Public Authentication API
+  slug: open-buildxact-authentication-api
+- collection_type: open
+  name: Buildxact Public Authentication Estimate Items API
+  slug: open-buildxact-estimate-items-api
+- collection_type: open
+  name: Buildxact Public Authentication Estimates API
+  slug: open-buildxact-estimates-api
+- collection_type: open
   name: Buildxact Public API
   slug: open-buildxact-public-api
+- collection_type: open
+  name: Buildxact Public Authentication Tax Context API
+  slug: open-buildxact-tax-context-api
 common:
 - group: agent
   title: ''
@@ -199,7 +214,7 @@ plans:
 - name: Buildxact Plans Pricing
   plan_count: 4
   slug: buildxact-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Buildxact Rate Limits
@@ -249,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/screenshots/buildxact-2026-06-20T173758.png
 security:

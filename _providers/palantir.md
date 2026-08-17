@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Datasets API from Palantir — 1 operation(s) for datasets.
   name: Palantir Datasets API
   slug: palantir-datasets-api
-artifact_total: 12
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Palantir Foundry API v2 Admin - Groups API
+  slug: open-palantir-admin-groups-api
+- collection_type: open
+  name: Palantir Foundry API v2 Admin - Groups Admin - Users API
+  slug: open-palantir-admin-users-api
+- collection_type: open
+  name: Palantir Foundry API v2 Admin - Groups Datasets API
+  slug: open-palantir-datasets-api
 - collection_type: open
   name: Palantir Foundry API v2
   slug: open-palantir
@@ -125,7 +137,7 @@ plans:
 - name: Palantir Plans Pricing
   plan_count: 3
   slug: palantir-plans-pricing
-random_paper: 19
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Palantir Rate Limits
@@ -156,7 +168,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png
 security:

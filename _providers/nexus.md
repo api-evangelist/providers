@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,8 +66,35 @@ apis:
 - description: The Tasks API from Nexus Repository Manager — 1 operation(s) for tasks.
   name: Nexus Repository Manager Tasks API
   slug: nexus-tasks-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sonatype Nexus Repository REST Assets API
+  slug: open-nexus-assets-api
+- collection_type: open
+  name: Sonatype Nexus Repository REST Assets BlobStores API
+  slug: open-nexus-blobstores-api
+- collection_type: open
+  name: Sonatype Nexus Repository REST Assets Components API
+  slug: open-nexus-components-api
+- collection_type: open
+  name: Sonatype Nexus Repository REST Assets Repositories API
+  slug: open-nexus-repositories-api
+- collection_type: open
+  name: Sonatype Nexus Repository REST Assets Search API
+  slug: open-nexus-search-api
+- collection_type: open
+  name: Sonatype Nexus Repository REST Assets Security API
+  slug: open-nexus-security-api
+- collection_type: open
+  name: Sonatype Nexus Repository REST Assets Status API
+  slug: open-nexus-status-api
+- collection_type: open
+  name: Sonatype Nexus Repository REST Assets Tasks API
+  slug: open-nexus-tasks-api
 - collection_type: open
   name: Sonatype Nexus Repository REST API
   slug: open-nexus
@@ -132,7 +159,7 @@ plans:
 - name: Nexus Plans Pricing
   plan_count: 3
   slug: nexus-plans-pricing
-random_paper: 83
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Nexus Rate Limits
@@ -157,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/screenshots/nexus-2026-06-20T190305.png
 security:

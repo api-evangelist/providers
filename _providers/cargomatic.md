@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Endpoints dealing with authenticating to the API
@@ -46,7 +46,26 @@ apis:
 - description: Endpoints for managing shipment stops
   name: Cargomatic Stops API
   slug: cargomatic-stops-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cargomatic Public Authorization API
+  slug: open-cargomatic-authorization-api
+- collection_type: open
+  name: Cargomatic Public Authorization Carrier API
+  slug: open-cargomatic-carrier-api
+- collection_type: open
+  name: Cargomatic Public Authorization Document API
+  slug: open-cargomatic-document-api
+- collection_type: open
+  name: Cargomatic Public Authorization Shipper API
+  slug: open-cargomatic-shipper-api
+- collection_type: open
+  name: Cargomatic Public Authorization Stops API
+  slug: open-cargomatic-stops-api
 common:
 - group: other
   title: ''
@@ -176,7 +195,7 @@ overview: 'Cargomatic publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cargomatic''s developer surface includes documentation, API reference, support, FAQ, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 90
+random_paper: 7
 score:
   band: thin
   composite: 41.4
@@ -199,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/screenshots/cargomatic-2026-07-25T204608.png
 security:

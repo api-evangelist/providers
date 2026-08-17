@@ -9,31 +9,38 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 29.3
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API v2.2 for managing contacts, lists, segments, campaigns, messages, sends, and reporting inside the iContact email marketing platform. Authentication uses custom HTTP headers including API-AppI
   name: iContact REST API
   slug: rest-api
-artifact_total: 2
+artifact_total: 8
+asyncapis:
+- description: 'Derived AsyncAPI description of the four contact-lifecycle webhook events iContact documents at https://help.icontact.com/customers/s/article/Web-Hooks-iContact-API. NOT A PROVIDER ARTIFACT. iContact '
+  name: iContact Webhooks
+  slug: icontact-webhooks-asyncapi
+- description: ''
+  name: Icontact Webhooks
+  slug: icontact-webhooks
 common:
 - group: auth
   title: ''
@@ -51,18 +58,74 @@ common:
   title: ''
   type: Website
   url: https://www.icontact.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://help.icontact.com/customers/s/article/API-Developer-Portal
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.icontact.com/developerportal/documentation/
+  url: https://help.icontact.com/customers/s/article/Documentation-iContact-API
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.icontact.com/customers/s/article/Resource-Call-References-List-iContact-API
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.icontact.com/customers/s/article/API-Getting-Started-Guide
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.icontact.com/customers/s/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.icontact.com/contact/
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.icontact.com/pricing
+  url: https://www.icontact.com/pricing/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/icontact-plans-pricing.yml
 - group: start
   title: ''
   type: Signup
-  url: https://app.icontact.com/icp/signup
+  url: https://www.icontact.com/signup/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.icontact.com/login/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.icontact.com/legal/terms-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.icontact.com/legal/privacy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.icontact.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/icontact-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/icontact-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/icontact-llms.txt
 - group: other
   title: ''
   type: Parent Company
@@ -71,36 +134,59 @@ common:
   title: ''
   type: Blog
   url: https://www.icontact.com/feed
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.icontact.com/resources/blog/feed/
 created: '2026-05-11'
 description: iContact is an email marketing and marketing automation platform (now part of Cision) that helps small and mid-market businesses build email campaigns, manage contacts and lists, automate drip sequences, and measure engagement. The iContact REST API v2.2 provides programmatic access to contacts, lists, segments, campaigns, messages, and reporting data using a combination of HTTP headers (API-AppId, API-Version, API-Username, API-Password) for authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icontact.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: icontact-mcp.yml
+  slug: icontact-mcpyml
+modified: '2026-08-13'
 name: iContact
 nav: Providers
 network: true
-overview: 'iContact publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email Marketing, Marketing Automation, Campaigns, Contacts, and Lists.
+overview: 'iContact publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Email Marketing, Marketing Automation, Campaigns, Contacts, and Lists.
 
 
-  iContact''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 13
+  The iContact catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+
+
+  iContact''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 17 more developer resources.'
+plans:
+- name: Icontact Plans Pricing
+  plan_count: 4
+  slug: icontact-plans-pricing
+random_paper: 108
+rate_limits:
+- limit_count: 0
+  name: Icontact Rate Limits
+  slug: icontact-rate-limits
 score:
-  band: emerging
-  composite: 14.5
-  delta: 0.0
+  band: developing
+  composite: 50.3
+  delta: 35.8
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 76.3
+    contract_quality: 49.4
+    developer_ergonomics: 54.3
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 21.1
   previous_composite: 14.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/screenshots/icontact-2026-06-20T183200.png
 security:
+- kind: authentication
+  name: Icontact Authentication
+  slug: icontact-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Icontact Domain Security
   slug: icontact-domain-security
@@ -112,6 +198,9 @@ tags:
 - Campaigns
 - Contacts
 - Lists
+- Segments
+- Webhooks
+- Email Deliverability
 - SMB
 website: https://www.icontact.com
 ---

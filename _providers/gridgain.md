@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 15
@@ -117,8 +117,86 @@ apis:
 - description: The userManagement API from GridGain — 2 operation(s) for usermanagement.
   name: GridGain userManagement API
   slug: gridgain-usermanagement-api
-artifact_total: 34
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GridGain REST module authentication API
+  slug: open-gridgain-authentication-api
+- collection_type: open
+  name: GridGain REST module authentication cdcManagement API
+  slug: open-gridgain-cdcmanagement-api
+- collection_type: open
+  name: GridGain REST module authentication clusterConfiguration API
+  slug: open-gridgain-clusterconfiguration-api
+- collection_type: open
+  name: GridGain REST module authentication clusterManagement API
+  slug: open-gridgain-clustermanagement-api
+- collection_type: open
+  name: GridGain REST module authentication clusterMetric API
+  slug: open-gridgain-clustermetric-api
+- collection_type: open
+  name: GridGain REST module authentication compute API
+  slug: open-gridgain-compute-api
+- collection_type: open
+  name: GridGain REST module authentication dataNodes API
+  slug: open-gridgain-datanodes-api
+- collection_type: open
+  name: GridGain REST module authentication dcr API
+  slug: open-gridgain-dcr-api
+- collection_type: open
+  name: GridGain REST module authentication deployment API
+  slug: open-gridgain-deployment-api
+- collection_type: open
+  name: GridGain REST module authentication distribution API
+  slug: open-gridgain-distribution-api
+- collection_type: open
+  name: GridGain REST module authentication licenseManagement API
+  slug: open-gridgain-licensemanagement-api
+- collection_type: open
+  name: GridGain REST module authentication nodeConfiguration API
+  slug: open-gridgain-nodeconfiguration-api
+- collection_type: open
+  name: GridGain REST module authentication nodeManagement API
+  slug: open-gridgain-nodemanagement-api
+- collection_type: open
+  name: GridGain REST module authentication nodeMetric API
+  slug: open-gridgain-nodemetric-api
+- collection_type: open
+  name: GridGain REST module authentication privilegesGrants API
+  slug: open-gridgain-privilegesgrants-api
+- collection_type: open
+  name: GridGain REST module authentication recovery API
+  slug: open-gridgain-recovery-api
+- collection_type: open
+  name: GridGain REST module authentication roleAssignments API
+  slug: open-gridgain-roleassignments-api
+- collection_type: open
+  name: GridGain REST module authentication roleManagement API
+  slug: open-gridgain-rolemanagement-api
+- collection_type: open
+  name: GridGain REST module authentication snapshotManagement API
+  slug: open-gridgain-snapshotmanagement-api
+- collection_type: open
+  name: GridGain REST module authentication sql API
+  slug: open-gridgain-sql-api
+- collection_type: open
+  name: GridGain REST module authentication system API
+  slug: open-gridgain-system-api
+- collection_type: open
+  name: GridGain REST module authentication topology API
+  slug: open-gridgain-topology-api
+- collection_type: open
+  name: GridGain REST module authentication transactions API
+  slug: open-gridgain-transactions-api
+- collection_type: open
+  name: GridGain REST module authentication upgrade API
+  slug: open-gridgain-upgrade-api
+- collection_type: open
+  name: GridGain REST module authentication userManagement API
+  slug: open-gridgain-usermanagement-api
 - collection_type: open
   name: GridGain REST module
   slug: open-gridgain
@@ -186,7 +264,7 @@ plans:
 - name: Gridgain Plans Pricing
   plan_count: 3
   slug: gridgain-plans-pricing
-random_paper: 117
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Gridgain Rate Limits
@@ -226,7 +304,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/screenshots/gridgain-2026-06-20T182404.png
 security:

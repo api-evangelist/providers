@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-12'
+  score: 46.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -36,7 +37,7 @@ agentic_access:
   operation_count: 22
   slug: drip-agentic-access
   summary_line: 22 operations · 11 acting
-api_count: 11
+api_count: 12
 apis:
 - description: 'REST API for Drip exposing subscribers, tags, custom fields, broadcasts, email campaigns, events, conversions, workflows, shopper activity (orders, carts, products), purchases, and webhooks. Supports '
   name: Drip REST API
@@ -71,8 +72,48 @@ apis:
 - description: The Subscribers API from Drip — 2 operation(s) for subscribers.
   name: Drip Subscribers API
   slug: drip-subscribers-api
-artifact_total: 15
+- description: Drip operates a remote Model Context Protocol server at https://api.getdrip.com/mcp, protected by its OAuth 2.0 authorization server and discoverable through RFC 9728 protected-resource metadata. Prob
+  name: Drip MCP Server
+  slug: drip-mcp
+artifact_total: 33
+asyncapis:
+- description: ''
+  name: Drip Webhooks
+  slug: drip-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Drip REST Accounts API
+  slug: open-drip-accounts-api
+- collection_type: open
+  name: Drip REST Accounts Broadcasts API
+  slug: open-drip-broadcasts-api
+- collection_type: open
+  name: Drip REST Accounts Campaigns API
+  slug: open-drip-campaigns-api
+- collection_type: open
+  name: Drip REST Accounts Conversions API
+  slug: open-drip-conversions-api
+- collection_type: open
+  name: Drip REST Accounts Custom Fields API
+  slug: open-drip-custom-fields-api
+- collection_type: open
+  name: Drip REST Accounts Events API
+  slug: open-drip-events-api
+- collection_type: open
+  name: Drip REST Accounts Forms API
+  slug: open-drip-forms-api
+- collection_type: open
+  name: Drip REST Accounts Orders API
+  slug: open-drip-orders-api
+- collection_type: open
+  name: Drip REST Accounts Shopper Activity API
+  slug: open-drip-shopper-activity-api
+- collection_type: open
+  name: Drip REST Accounts Subscribers API
+  slug: open-drip-subscribers-api
 - collection_type: open
   name: Drip REST API
   slug: open-drip
@@ -125,30 +166,146 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/DripEmail
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.drip.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.drip.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.drip.com/#introduction
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.drip.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.drip.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.drip.com/privacy
+- group: build
+  title: ''
+  type: Packages
+  url: packages/drip-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/drip-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/drip-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/drip-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/drip-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/drip-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/drip-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/drip-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/drip-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/drip-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/drip-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/drip-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/drip-components.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/drip-webhooks.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/drip-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/drip-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/drip-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-05-11'
 description: Drip is an email marketing and marketing automation platform built for ecommerce brands that combines subscriber management, segmentation, email campaigns, automation workflows, and shopper activity tracking. The Drip REST API gives programmatic access to subscribers, campaigns, events, workflows, broadcasts, orders, carts, and webhooks using either API token Basic authentication or OAuth 2.0.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drip.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: drip-mcp.yml
+  slug: drip-mcpyml
+modified: '2026-08-13'
 name: Drip
 nav: Providers
 network: true
 overview: 'Drip publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Broadcasts API, Campaigns API, and 7 more. Tagged areas include Email Marketing, Marketing Automation, Ecommerce, Customer Engagement, and Campaigns.
 
 
-  Drip''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 71
+  The Drip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Drip''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, API reference, and 29 more developer resources.'
+plans:
+- name: Drip Plans Pricing
+  plan_count: 0
+  slug: drip-plans-pricing
+random_paper: 133
+rate_limits:
+- limit_count: 6
+  name: Drip Rate Limits
+  slug: drip-rate-limits
+scopes:
+- name: Drip Scopes
+  scope_count: 0
+  slug: drip-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 31.9
-  delta: 0.0
+  band: strong
+  composite: 59.0
+  delta: 27.1
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 55.2
-    developer_ergonomics: 26.1
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 44.7
+    contract_quality: 64.2
+    developer_ergonomics: 65.2
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 71.1
   previous_composite: 31.9
   provenance:
     agentic_access: derived
@@ -158,18 +315,22 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/screenshots/drip-2026-06-20T180233.png
 security:
 - kind: authentication
   name: Drip Authentication
   slug: drip-authentication
-  summary_line: http · 2 schemes
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Drip Domain Security
   slug: drip-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Drip Vulnerability Disclosure
+  slug: drip-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: drip
 tags:
 - Email Marketing

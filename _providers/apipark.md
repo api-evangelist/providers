@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: The Teams API from APIPark — 1 operation(s) for teams.
   name: APIPark Teams API
   slug: apipark-teams-api
-artifact_total: 32
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APIPark AI Models API
+  slug: open-apipark-ai-models-api
+- collection_type: open
+  name: APIPark AI Models Services API
+  slug: open-apipark-services-api
+- collection_type: open
+  name: APIPark AI Models Subscriptions API
+  slug: open-apipark-subscriptions-api
+- collection_type: open
+  name: APIPark AI Models Teams API
+  slug: open-apipark-teams-api
 common:
 - group: operate
   title: ''
@@ -165,7 +181,7 @@ plans:
 - name: Apipark Plans Pricing
   plan_count: 3
   slug: apipark-plans-pricing
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Apipark Rate Limits
@@ -199,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/screenshots/apipark-2026-06-20T172255.png
 security:

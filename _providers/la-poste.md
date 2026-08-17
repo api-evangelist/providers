@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -62,7 +62,17 @@ apis:
 - description: 'The SlsServiceWS : documentation API from La Poste — 9 operation(s) for slsservicews : documentation.'
   name: 'La Poste SlsServiceWS : documentation API'
   slug: la-poste-slsservicews-documentation-api
-artifact_total: 104
+artifact_total: 107
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'La Poste SlsInternalService : Services destinés aux applications internes API'
+  slug: open-la-poste-slsinternalservice-services-destin-s-aux-applications-internes-api
+- collection_type: open
+  name: 'La Poste SlsInternalService : Services destinés aux applications internes SlsServiceWS : documentation API'
+  slug: open-la-poste-slsservicews-documentation-api
 common:
 - group: agent
   title: ''
@@ -388,7 +398,7 @@ plans:
 - name: Suivi Plans
   plan_count: 2
   slug: suivi-plans
-random_paper: 85
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Colissimo Rate Limits
@@ -446,7 +456,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/screenshots/la-poste-2026-06-20T184234.png
 security:

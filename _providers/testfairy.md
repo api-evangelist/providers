@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for managing TestFairy projects, builds, testers, tester groups, sites, webhooks, permissions, feedback, and audit trails. Authenticated with HTTP Basic (email:api-key) or OIDC bearer tokens.
@@ -187,7 +187,7 @@ overview: 'TestFairy publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   TestFairy''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 25 more developer resources.'
-random_paper: 27
+random_paper: 93
 score:
   band: developing
   composite: 54.0
@@ -204,7 +204,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Lynx FinHealth API for embedded health accounts, enrollment, contributions, payments and distributions, transactions, and card issuance/management. Reference is gated behind developer login; a hosted '
@@ -127,7 +127,7 @@ overview: 'Lynx publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lynx''s developer surface includes documentation, API reference, getting-started guide, changelog, sandbox, signup flow, support, and 13 more developer resources.'
-random_paper: 99
+random_paper: 12
 score:
   band: thin
   composite: 32.1
@@ -149,7 +149,7 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/screenshots/lynx-2026-07-25T225752.png
 security:

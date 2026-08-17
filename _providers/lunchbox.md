@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 1
@@ -57,11 +57,17 @@ apis:
 - description: Create, search, retrieve, update, validate, confirm, refund, and adjust loyalty user wallets.
   name: Lunchbox User Wallet API
   slug: lunchbox-user-wallet-api
-artifact_total: 121
+artifact_total: 128
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Lunchbox Core API
   slug: open-lunchbox-core
+- collection_type: open
+  name: Lunchbox Core Customer API
+  slug: open-lunchbox-customer-api
 - collection_type: open
   name: Lunchbox Loyalty API
   slug: open-lunchbox-loyalty
@@ -69,8 +75,23 @@ collections:
   name: Lunchbox Management API
   slug: open-lunchbox-management
 - collection_type: open
+  name: Lunchbox Core Customer Misc API
+  slug: open-lunchbox-misc-api
+- collection_type: open
+  name: Lunchbox Core Customer Orders API
+  slug: open-lunchbox-orders-api
+- collection_type: open
   name: Lunchbox POS API
   slug: open-lunchbox-pos
+- collection_type: open
+  name: Lunchbox Core Customer Service Types API
+  slug: open-lunchbox-service-types-api
+- collection_type: open
+  name: Lunchbox Core Customer Stores API
+  slug: open-lunchbox-stores-api
+- collection_type: open
+  name: Lunchbox Core Customer User Wallet API
+  slug: open-lunchbox-user-wallet-api
 common:
 - group: agent
   title: ''
@@ -476,7 +497,7 @@ plans:
 - name: Lunchbox Plans Pricing
   plan_count: 2
   slug: lunchbox-plans-pricing
-random_paper: 27
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Lunchbox Rate Limits
@@ -518,7 +539,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/screenshots/lunchbox-2026-06-20T184805.png
 security:

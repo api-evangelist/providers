@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -40,7 +40,17 @@ apis:
 - description: In-app purchase and digital content payment API for applications published on the Jio set-top box, distributed by Jio Platforms as a downloadable PDF API specification (v1.1) from the JioDevelopers se
   name: JioPayments Set-Top-Box API
   slug: jiopayments-stb-api
-artifact_total: 10
+artifact_total: 13
+collections:
+- collection_type: open
+  name: JioEvents Platform APIs
+  slug: open-reliance-jio-jioevents-platform
+- collection_type: open
+  name: JioMeet User OAuth APIs
+  slug: open-reliance-jio-jiomeet-oauth
+- collection_type: open
+  name: JioMeet Platform APIs
+  slug: open-reliance-jio-jiomeet-platform
 common:
 - group: agent
   title: ''
@@ -220,7 +230,7 @@ overview: 'Reliance Jio publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Reliance Jio''s developer surface includes authentication, code examples, documentation, signup flow, support, getting-started guide, API reference, and 33 more developer resources.'
-random_paper: 2
+random_paper: 10
 scopes:
 - name: Reliance Jio Scopes
   scope_count: 6
@@ -255,7 +265,7 @@ score:
     regime_id: telecommunications
     score: 80.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

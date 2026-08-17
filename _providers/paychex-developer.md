@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Employees and contractors for a Paychex Flex company.
   name: Paychex Workers API
   slug: paychex-developer-workers-api
-artifact_total: 45
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paychex Payroll Companies API
+  slug: open-paychex-developer-companies-api
+- collection_type: open
+  name: Paychex Payroll Companies Time Entries API
+  slug: open-paychex-developer-time-entries-api
+- collection_type: open
+  name: Paychex Payroll Companies Workers API
+  slug: open-paychex-developer-workers-api
 - collection_type: open
   name: Paychex Payroll Companies API
   slug: open-paychex-payroll-companies
@@ -268,7 +280,7 @@ plans:
 - name: Paychex Developer Plans Pricing
   plan_count: 2
   slug: paychex-developer-plans-pricing
-random_paper: 85
+random_paper: 126
 rate_limits:
 - limit_count: 4
   name: Paychex Developer Rate Limits
@@ -315,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/screenshots/paychex-developer-2026-06-20T191450.png
 security:

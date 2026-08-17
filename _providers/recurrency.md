@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Supplier product catalog retrieval, filtering and upload.
@@ -41,7 +41,17 @@ arazzos:
 - description: Discover a supplier, find an item, confirm price, create an order, and read it back.
   name: Recurrency procure-to-pay
   slug: recurrency-procure-to-pay
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Recurrency E-Procurement API
+  slug: open-recurrency-e-procurement-api
+- collection_type: open
+  name: Recurrency E-Procurement Orders API
+  slug: open-recurrency-orders-api
 common:
 - group: other
   title: ''
@@ -167,7 +177,7 @@ overview: 'Recurrency publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Recurrency''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 21 more developer resources.'
-random_paper: 10
+random_paper: 47
 scopes:
 - name: Recurrency Scopes
   scope_count: 4
@@ -195,7 +205,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

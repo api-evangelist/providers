@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Server-side ad request API. A GET against the versioned endpoint with a placement key, user id, IP and user agent returns a JSON `ad` object (creative id, campaign id, window URL and dimensions, curre
@@ -199,7 +199,7 @@ plans:
 - name: Truex Media Plans Pricing
   plan_count: 0
   slug: truex-media-plans-pricing
-random_paper: 45
+random_paper: 82
 rate_limits:
 - limit_count: 0
   name: Truex Media Rate Limits
@@ -207,7 +207,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.0
-  delta: 36.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -215,10 +215,10 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 12.9
+  previous_composite: 49.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Truex Media Authentication

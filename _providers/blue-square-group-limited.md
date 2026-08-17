@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Public market-data API for GRVT — instruments, currencies, supported assets, margin rules, mini/full tickers, orderbook levels, trades, trade history, candlesticks, and funding rates. No authenticatio
@@ -155,7 +155,7 @@ overview: 'Blue Square Group Limited publishes 1 API on the [APIs.io](https://ap
 
 
   Blue Square Group Limited''s developer surface includes documentation, API reference, authentication, sandbox, and 19 more developer resources.'
-random_paper: 117
+random_paper: 133
 score:
   band: thin
   composite: 34.2
@@ -179,7 +179,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/screenshots/blue-square-group-limited-2026-07-25T203437.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Transco Nominations API enables natural gas shippers to submit, modify, and track pipeline transportation nominations on the Transco pipeline system via the 1Line electronic bulletin board portal.
@@ -143,7 +143,7 @@ press:
 - date: '2026-05-25'
   title: Senator Lindsey M. Williams to Introduce Legislation ...
   url: https://senatorlindseywilliams.com/senator-lindsey-m-williams-to-introduce-legislation-requiring-disclosure-of-ai-in-political-advertisements/
-random_paper: 26
+random_paper: 121
 rate_limits:
 - limit_count: 2
   name: Williams Rate Limits
@@ -167,7 +167,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/screenshots/williams-2026-06-20T201501.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 4
@@ -143,8 +143,110 @@ apis:
 - description: The Workflows API from Pulumi — 2 operation(s) for workflows.
   name: Pulumi Workflows API
   slug: pulumi-workflows-api
-artifact_total: 55
+artifact_total: 89
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pulumi APIs AccessTokens API
+  slug: open-pulumi-accesstokens-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens AI Agents API
+  slug: open-pulumi-ai-agents-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens AI API
+  slug: open-pulumi-ai-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens AuditLogs API
+  slug: open-pulumi-auditlogs-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens CloudSetup API
+  slug: open-pulumi-cloudsetup-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens DataExport API
+  slug: open-pulumi-dataexport-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens DeploymentRunners API
+  slug: open-pulumi-deploymentrunners-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Deployments API
+  slug: open-pulumi-deployments-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Environments API
+  slug: open-pulumi-environments-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Insights API
+  slug: open-pulumi-insights-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens InsightsAccounts API
+  slug: open-pulumi-insightsaccounts-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Miscellaneous API
+  slug: open-pulumi-miscellaneous-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Neo API
+  slug: open-pulumi-neo-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens OAuthTokenExchange API
+  slug: open-pulumi-oauthtokenexchange-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens OidcIssuers API
+  slug: open-pulumi-oidcissuers-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Organizations API
+  slug: open-pulumi-organizations-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens PolicyGroups API
+  slug: open-pulumi-policygroups-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens PolicyPacks API
+  slug: open-pulumi-policypacks-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens PolicyResults API
+  slug: open-pulumi-policyresults-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Registry API
+  slug: open-pulumi-registry-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens ResourceSearch API
+  slug: open-pulumi-resourcesearch-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens ResourcesUnderManagement API
+  slug: open-pulumi-resourcesundermanagement-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Schedules API
+  slug: open-pulumi-schedules-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Services API
+  slug: open-pulumi-services-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens StackConfig API
+  slug: open-pulumi-stackconfig-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens StackPolicy API
+  slug: open-pulumi-stackpolicy-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Stacks API
+  slug: open-pulumi-stacks-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens StackTags API
+  slug: open-pulumi-stacktags-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens StackUpdates API
+  slug: open-pulumi-stackupdates-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Users API
+  slug: open-pulumi-users-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens VCS Integrations API
+  slug: open-pulumi-vcs-integrations-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Webhooks API
+  slug: open-pulumi-webhooks-api
+- collection_type: open
+  name: Pulumi APIs AccessTokens Workflows API
+  slug: open-pulumi-workflows-api
 - collection_type: open
   name: Pulumi APIs
   slug: open-pulumi
@@ -233,7 +335,7 @@ plans:
 - name: Pulumi Plans Pricing
   plan_count: 3
   slug: pulumi-plans-pricing
-random_paper: 68
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Pulumi Rate Limits
@@ -264,7 +366,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/screenshots/pulumi-2026-06-20T192304.png
 security:

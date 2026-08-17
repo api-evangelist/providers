@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -69,8 +69,41 @@ apis:
 - description: Usage/delivery ingestion for consumption billing.
   name: RecVue Usage API
   slug: recvue-usage-api
-artifact_total: 16
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RecVue Authentication API
+  slug: open-recvue-authentication-api
+- collection_type: open
+  name: RecVue Authentication Billing API
+  slug: open-recvue-billing-api
+- collection_type: open
+  name: RecVue Authentication Billing Schedules API
+  slug: open-recvue-billing-schedules-api
+- collection_type: open
+  name: RecVue Authentication Customers API
+  slug: open-recvue-customers-api
+- collection_type: open
+  name: RecVue Authentication Invoices API
+  slug: open-recvue-invoices-api
+- collection_type: open
+  name: RecVue Authentication Orders API
+  slug: open-recvue-orders-api
+- collection_type: open
+  name: RecVue Authentication Pricing API
+  slug: open-recvue-pricing-api
+- collection_type: open
+  name: RecVue Authentication Programs API
+  slug: open-recvue-programs-api
+- collection_type: open
+  name: RecVue Authentication Revenue Recognition API
+  slug: open-recvue-revenue-recognition-api
+- collection_type: open
+  name: RecVue Authentication Usage API
+  slug: open-recvue-usage-api
 - collection_type: open
   name: RecVue API
   slug: open-recvue
@@ -131,7 +164,7 @@ plans:
 - name: Recvue Plans Pricing
   plan_count: 1
   slug: recvue-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Recvue Rate Limits
@@ -156,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

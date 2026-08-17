@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 3
@@ -111,11 +111,87 @@ apis:
 - description: The UserService API from Kentik — 4 operation(s) for userservice.
   name: Kentik UserService API
   slug: kentik-userservice-api
-artifact_total: 29
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Kentik Webhooks
   slug: kentik-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService API
+  slug: open-kentik-aiadvisordataservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService AlertService API
+  slug: open-kentik-alertservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService ASGroupService API
+  slug: open-kentik-asgroupservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService AuditService API
+  slug: open-kentik-auditservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService BgpMonitoringAdminService API
+  slug: open-kentik-bgpmonitoringadminservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService BgpMonitoringDataService API
+  slug: open-kentik-bgpmonitoringdataservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService CapacityPlanService API
+  slug: open-kentik-capacityplanservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService CloudExportAdminService API
+  slug: open-kentik-cloudexportadminservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService CostService API
+  slug: open-kentik-costservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService CustomDimensionService API
+  slug: open-kentik-customdimensionservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService DeviceService API
+  slug: open-kentik-deviceservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService FlowTagService API
+  slug: open-kentik-flowtagservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService KmiService API
+  slug: open-kentik-kmiservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService LabelService API
+  slug: open-kentik-labelservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService MitigationsService API
+  slug: open-kentik-mitigationsservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService NotificationChannelService API
+  slug: open-kentik-notificationchannelservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService PackageService API
+  slug: open-kentik-packageservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService PolicyService API
+  slug: open-kentik-policyservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService SiteService API
+  slug: open-kentik-siteservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService SyntheticsAdminService API
+  slug: open-kentik-syntheticsadminservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService SyntheticsDataService API
+  slug: open-kentik-syntheticsdataservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService TenantService API
+  slug: open-kentik-tenantservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService TenantUserService API
+  slug: open-kentik-tenantuserservice-api
+- collection_type: open
+  name: AI Advisor AiAdvisorDataService UserService API
+  slug: open-kentik-userservice-api
 common:
 - group: docs
   title: ''
@@ -284,7 +360,7 @@ overview: 'Kentik publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kentik''s developer surface includes documentation, API reference, developer portal, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 46
+random_paper: 50
 score:
   band: strong
   composite: 56.7
@@ -308,7 +384,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/screenshots/kentik-2026-07-25T223629.png
 security:

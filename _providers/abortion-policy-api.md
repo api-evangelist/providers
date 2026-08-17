@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Endpoints for retrieving abortion waiting period restrictions by state or zip code.
   name: Abortion Policy API Waiting Periods API
   slug: abortion-policy-api-waiting-periods-api
-artifact_total: 44
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Abortion Policy Gestational Limits API
+  slug: open-abortion-policy-api-gestational-limits-api
+- collection_type: open
+  name: Abortion Policy Gestational Limits Insurance Coverage API
+  slug: open-abortion-policy-api-insurance-coverage-api
+- collection_type: open
+  name: Abortion Policy Gestational Limits Minors API
+  slug: open-abortion-policy-api-minors-api
+- collection_type: open
+  name: Abortion Policy Gestational Limits Waiting Periods API
+  slug: open-abortion-policy-api-waiting-periods-api
 - collection_type: open
   name: Abortion Policy API
   slug: open-abortion-policy-api
@@ -206,7 +221,7 @@ plans:
 - name: Abortion Policy Api Plans Pricing
   plan_count: 3
   slug: abortion-policy-api-plans-pricing
-random_paper: 2
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Abortion Policy Api Rate Limits
@@ -254,7 +269,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/screenshots/abortion-policy-api-2026-06-20T161254.png
 security:

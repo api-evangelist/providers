@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 6
@@ -181,15 +181,156 @@ apis:
 - description: Manage webhook subscriptions at both the application and profile level. Create, list, retrieve, and delete subscriptions, as well as test your webhook endpoints. For more information on creating and m
   name: Wise webhook API
   slug: wise-webhook-api
-artifact_total: 59
+artifact_total: 106
 asyncapis:
 - description: AsyncAPI 2.6 description of the Wise Platform webhook surface. Wise pushes HTTP `POST` notifications to subscriber-defined HTTPS endpoints when events occur against profiles, transfers, balances, card
   name: Wise Platform Webhooks
   slug: wise-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wise Platform 3ds API
+  slug: open-wise-3ds-api
+- collection_type: open
+  name: Wise Platform 3ds activity API
+  slug: open-wise-activity-api
+- collection_type: open
+  name: Wise Platform 3ds address API
+  slug: open-wise-address-api
+- collection_type: open
+  name: Wise Platform 3ds balance API
+  slug: open-wise-balance-api
+- collection_type: open
+  name: Wise Platform 3ds balance-statement API
+  slug: open-wise-balance-statement-api
+- collection_type: open
+  name: Wise Platform 3ds bank-account-details API
+  slug: open-wise-bank-account-details-api
+- collection_type: open
+  name: Wise Platform 3ds batch-group API
+  slug: open-wise-batch-group-api
+- collection_type: open
+  name: Wise Platform 3ds bulk-settlement API
+  slug: open-wise-bulk-settlement-api
+- collection_type: open
+  name: Wise Platform 3ds card API
+  slug: open-wise-card-api
+- collection_type: open
+  name: Wise Platform 3ds card-kiosk-collection API
+  slug: open-wise-card-kiosk-collection-api
+- collection_type: open
+  name: Wise Platform 3ds card-order API
+  slug: open-wise-card-order-api
+- collection_type: open
+  name: Wise Platform 3ds card-sensitive-details API
+  slug: open-wise-card-sensitive-details-api
+- collection_type: open
+  name: Wise Platform 3ds card-transaction API
+  slug: open-wise-card-transaction-api
+- collection_type: open
+  name: Wise Platform 3ds case API
+  slug: open-wise-case-api
+- collection_type: open
+  name: Wise Platform 3ds claim-account API
+  slug: open-wise-claim-account-api
+- collection_type: open
+  name: Wise Platform 3ds comparison API
+  slug: open-wise-comparison-api
+- collection_type: open
+  name: Wise Platform 3ds contact API
+  slug: open-wise-contact-api
+- collection_type: open
+  name: Wise Platform 3ds currencies API
+  slug: open-wise-currencies-api
+- collection_type: open
+  name: Wise Platform 3ds delivery-estimate API
+  slug: open-wise-delivery-estimate-api
+- collection_type: open
+  name: Wise Platform 3ds digital-wallet API
+  slug: open-wise-digital-wallet-api
+- collection_type: open
+  name: Wise Platform 3ds direct-debit-account API
+  slug: open-wise-direct-debit-account-api
+- collection_type: open
+  name: Wise Platform 3ds disputes API
+  slug: open-wise-disputes-api
+- collection_type: open
+  name: Wise Platform 3ds facetec API
+  slug: open-wise-facetec-api
+- collection_type: open
+  name: Wise Platform 3ds jose API
+  slug: open-wise-jose-api
+- collection_type: open
+  name: Wise Platform 3ds multi-currency-account API
+  slug: open-wise-multi-currency-account-api
+- collection_type: open
+  name: Wise Platform 3ds oauth-token API
+  slug: open-wise-oauth-token-api
+- collection_type: open
+  name: Wise Platform 3ds payin-deposit-detail API
+  slug: open-wise-payin-deposit-detail-api
+- collection_type: open
+  name: Wise Platform 3ds payins API
+  slug: open-wise-payins-api
+- collection_type: open
   name: Wise Platform API
   slug: open-wise-platform
+- collection_type: open
+  name: Wise Platform 3ds profile API
+  slug: open-wise-profile-api
+- collection_type: open
+  name: Wise Platform 3ds quote API
+  slug: open-wise-quote-api
+- collection_type: open
+  name: Wise Platform 3ds rate API
+  slug: open-wise-rate-api
+- collection_type: open
+  name: Wise Platform 3ds recipient API
+  slug: open-wise-recipient-api
+- collection_type: open
+  name: Wise Platform 3ds sca-device-fingerprints API
+  slug: open-wise-sca-device-fingerprints-api
+- collection_type: open
+  name: Wise Platform 3ds sca-facemaps API
+  slug: open-wise-sca-facemaps-api
+- collection_type: open
+  name: Wise Platform 3ds sca-otp API
+  slug: open-wise-sca-otp-api
+- collection_type: open
+  name: Wise Platform 3ds sca-ott API
+  slug: open-wise-sca-ott-api
+- collection_type: open
+  name: Wise Platform 3ds sca-pin API
+  slug: open-wise-sca-pin-api
+- collection_type: open
+  name: Wise Platform 3ds sca-sessions API
+  slug: open-wise-sca-sessions-api
+- collection_type: open
+  name: Wise Platform 3ds simulation API
+  slug: open-wise-simulation-api
+- collection_type: open
+  name: Wise Platform 3ds spend-controls API
+  slug: open-wise-spend-controls-api
+- collection_type: open
+  name: Wise Platform 3ds spend-limits API
+  slug: open-wise-spend-limits-api
+- collection_type: open
+  name: Wise Platform 3ds transfer API
+  slug: open-wise-transfer-api
+- collection_type: open
+  name: Wise Platform 3ds user API
+  slug: open-wise-user-api
+- collection_type: open
+  name: Wise Platform 3ds user-security API
+  slug: open-wise-user-security-api
+- collection_type: open
+  name: Wise Platform 3ds verification API
+  slug: open-wise-verification-api
+- collection_type: open
+  name: Wise Platform 3ds webhook API
+  slug: open-wise-webhook-api
 common:
 - group: agent
   title: ''
@@ -290,7 +431,7 @@ plans:
 - name: Wise Plans Pricing
   plan_count: 3
   slug: wise-plans-pricing
-random_paper: 80
+random_paper: 142
 rate_limits:
 - limit_count: 3
   name: Wise Rate Limits
@@ -330,7 +471,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png
 security:

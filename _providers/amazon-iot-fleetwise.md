@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 50
@@ -189,7 +189,7 @@ apis:
 - description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatevehicle.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.UpdateVehicle API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatevehicle-api
-artifact_total: 668
+artifact_total: 719
 collections:
 - collection_type: postman
   name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet API'
@@ -341,6 +341,159 @@ collections:
 - collection_type: postman
   name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.UpdateVehicle API'
   slug: postman-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatevehicle-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-associatevehiclefleet-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.BatchCreateVehicle API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-batchcreatevehicle-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.BatchUpdateVehicle API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-batchupdatevehicle-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.CreateCampaign API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createcampaign-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.CreateDecoderManifest API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createdecodermanifest-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.CreateFleet API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createfleet-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.CreateModelManifest API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createmodelmanifest-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.CreateSignalCatalog API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createsignalcatalog-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.CreateVehicle API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createvehicle-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.DeleteCampaign API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletecampaign-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.DeleteDecoderManifest API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletedecodermanifest-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.DeleteFleet API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletefleet-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.DeleteModelManifest API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletemodelmanifest-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.DeleteSignalCatalog API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletesignalcatalog-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.DeleteVehicle API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletevehicle-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.DisassociateVehicleFleet API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-disassociatevehiclefleet-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.GetCampaign API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getcampaign-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.GetDecoderManifest API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getdecodermanifest-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.GetFleet API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getfleet-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.GetLoggingOptions API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getloggingoptions-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.GetModelManifest API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getmodelmanifest-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.GetRegisterAccountStatus API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getregisteraccountstatus-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.GetSignalCatalog API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getsignalcatalog-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.GetVehicle API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getvehicle-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.GetVehicleStatus API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getvehiclestatus-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ImportDecoderManifest API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-importdecodermanifest-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ImportSignalCatalog API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-importsignalcatalog-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListCampaigns API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listcampaigns-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifestNetworkInterfaces API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listdecodermanifestnetworkinterfaces-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifests API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listdecodermanifests-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifestSignals API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listdecodermanifestsignals-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListFleets API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listfleets-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListFleetsForVehicle API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listfleetsforvehicle-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListModelManifestNodes API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listmodelmanifestnodes-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListModelManifests API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listmodelmanifests-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListSignalCatalogNodes API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listsignalcatalognodes-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListSignalCatalogs API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listsignalcatalogs-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListTagsForResource API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listtagsforresource-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListVehicles API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listvehicles-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.ListVehiclesInFleet API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listvehiclesinfleet-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.PutLoggingOptions API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-putloggingoptions-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.RegisterAccount API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-registeraccount-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.TagResource API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-tagresource-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.UntagResource API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-untagresource-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.UpdateCampaign API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatecampaign-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.UpdateDecoderManifest API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatedecodermanifest-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.UpdateFleet API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatefleet-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.UpdateModelManifest API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatemodelmanifest-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.UpdateSignalCatalog API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatesignalcatalog-api
+- collection_type: open
+  name: 'AWS IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet #X Amz Target=IoTAutobahnControlPlane.UpdateVehicle API'
+  slug: open-amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatevehicle-api
 common:
 - group: build
   title: ''
@@ -2120,7 +2273,7 @@ plans:
 - name: Amazon Iot Fleetwise Plans Pricing
   plan_count: 3
   slug: amazon-iot-fleetwise-plans-pricing
-random_paper: 116
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Fleetwise Rate Limits
@@ -2162,7 +2315,7 @@ score:
       marker_coverage: 0.0
       total: 50
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/screenshots/amazon-iot-fleetwise-2026-06-20T171710.png
 security:

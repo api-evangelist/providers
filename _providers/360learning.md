@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -90,11 +90,66 @@ apis:
 - description: The Users API from 360Learning — 17 operation(s) for users.
   name: 360Learning Users API
   slug: 360learning-users-api
-artifact_total: 24
+artifact_total: 42
 asyncapis:
 - description: ''
   name: 360Learning Webhooks
   slug: 360learning-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bulk Authentication API
+  slug: open-360learning-authentication-api
+- collection_type: open
+  name: Bulk Authentication Certificate Outlines API
+  slug: open-360learning-certificate-outlines-api
+- collection_type: open
+  name: Bulk Authentication Classrooms API
+  slug: open-360learning-classrooms-api
+- collection_type: open
+  name: Bulk Authentication Courses API
+  slug: open-360learning-courses-api
+- collection_type: open
+  name: Bulk Authentication Custom Fields API
+  slug: open-360learning-custom-fields-api
+- collection_type: open
+  name: Bulk Authentication Custom Links API
+  slug: open-360learning-custom-links-api
+- collection_type: open
+  name: Bulk Authentication External IDs API
+  slug: open-360learning-external-ids-api
+- collection_type: open
+  name: Bulk Authentication Groups API
+  slug: open-360learning-groups-api
+- collection_type: open
+  name: Bulk Authentication Integrations API
+  slug: open-360learning-integrations-api
+- collection_type: open
+  name: Bulk Authentication Learning Needs API
+  slug: open-360learning-learning-needs-api
+- collection_type: open
+  name: Bulk Authentication Operations API
+  slug: open-360learning-operations-api
+- collection_type: open
+  name: Bulk Authentication Paths API
+  slug: open-360learning-paths-api
+- collection_type: open
+  name: Bulk Authentication Projects API
+  slug: open-360learning-projects-api
+- collection_type: open
+  name: Bulk Authentication Skills API
+  slug: open-360learning-skills-api
+- collection_type: open
+  name: Bulk Authentication Subscriptions API
+  slug: open-360learning-subscriptions-api
+- collection_type: open
+  name: Bulk Authentication Tags API
+  slug: open-360learning-tags-api
+- collection_type: open
+  name: Bulk Authentication Users API
+  slug: open-360learning-users-api
 common:
 - group: other
   title: ''
@@ -247,7 +302,7 @@ overview: '360Learning publishes 17 APIs on the [APIs.io](https://apis.io/) netw
 
 
   360Learning''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 26 more developer resources.'
-random_paper: 41
+random_paper: 107
 scopes:
 - name: 360Learning Scopes
   scope_count: 45
@@ -276,7 +331,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,23 @@ apis:
 - description: Storefront search.
   name: Also Search API
   slug: also-search-api
-artifact_total: 12
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ALSO Storefront JSON Cart API
+  slug: open-also-cart-api
+- collection_type: open
+  name: ALSO Storefront JSON Collections API
+  slug: open-also-collections-api
+- collection_type: open
+  name: ALSO Storefront JSON Products API
+  slug: open-also-products-api
+- collection_type: open
+  name: ALSO Storefront JSON Search API
+  slug: open-also-search-api
 common:
 - group: other
   title: ''
@@ -208,7 +224,7 @@ overview: 'Also publishes 4 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Also''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 71
+random_paper: 133
 rate_limits:
 - limit_count: 0
   name: Also Rate Limits
@@ -241,7 +257,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png
 security:

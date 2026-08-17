@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -60,11 +60,35 @@ apis:
 - description: Attach traffic management policies to routes in an HTTPRoute resource or all routes served by a Gateway. Supports CORS, external auth, external processing, rate limiting, timeouts, retries, transforma
   name: Kgateway TrafficPolicy API
   slug: kgateway-trafficpolicy-api
-artifact_total: 23
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: kgateway Kubernetes Gateway AIBackend API
+  slug: open-kgateway-aibackend-api
+- collection_type: open
+  name: kgateway Kubernetes Gateway AIBackend Backend API
+  slug: open-kgateway-backend-api
+- collection_type: open
+  name: kgateway Kubernetes Gateway AIBackend DirectResponse API
+  slug: open-kgateway-directresponse-api
+- collection_type: open
+  name: kgateway Kubernetes Gateway AIBackend GatewayExtension API
+  slug: open-kgateway-gatewayextension-api
+- collection_type: open
+  name: kgateway Kubernetes Gateway AIBackend GatewayParameters API
+  slug: open-kgateway-gatewayparameters-api
+- collection_type: open
+  name: kgateway Kubernetes Gateway AIBackend HTTPListenerPolicy API
+  slug: open-kgateway-httplistenerpolicy-api
 - collection_type: open
   name: kgateway Kubernetes Gateway API
   slug: open-kgateway-kubernetes-gateway-api
+- collection_type: open
+  name: kgateway Kubernetes Gateway AIBackend TrafficPolicy API
+  slug: open-kgateway-trafficpolicy-api
 common:
 - group: agent
   title: ''
@@ -152,7 +176,7 @@ plans:
 - name: Kgateway Plans Pricing
   plan_count: 3
   slug: kgateway-plans-pricing
-random_paper: 21
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Kgateway Rate Limits
@@ -186,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/screenshots/kgateway-2026-06-20T184018.png
 security:

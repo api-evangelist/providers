@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,11 +57,29 @@ apis:
 - description: Check whether a consumer address or IP location falls inside a Gopuff micro-fulfillment center (MFC) delivery zone.
   name: Gopuff Zones API
   slug: gopuff-zones-api
-artifact_total: 25
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Powered by Gopuff Fulfillment Availability API
+  slug: open-gopuff-availability-api
 - collection_type: open
   name: Powered by Gopuff Fulfillment API
   slug: open-gopuff-fulfillment
+- collection_type: open
+  name: Powered by Gopuff Fulfillment Availability Orders API
+  slug: open-gopuff-orders-api
+- collection_type: open
+  name: Powered by Gopuff Fulfillment Availability Rates API
+  slug: open-gopuff-rates-api
+- collection_type: open
+  name: Powered by Gopuff Fulfillment Availability Shops API
+  slug: open-gopuff-shops-api
+- collection_type: open
+  name: Powered by Gopuff Fulfillment Availability Zones API
+  slug: open-gopuff-zones-api
 common:
 - group: agent
   title: ''
@@ -233,7 +251,7 @@ plans:
 - name: Gopuff Plans Pricing
   plan_count: 1
   slug: gopuff-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Gopuff Rate Limits
@@ -275,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/screenshots/gopuff-2026-06-20T182249.png
 security:

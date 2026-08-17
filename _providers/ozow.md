@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 2
@@ -51,7 +51,7 @@ apis:
 - description: Query transaction status by Ozow reference or merchant reference.
   name: Ozow Transactions API
   slug: ozow-transactions-api
-artifact_total: 18
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Ozow Webhooks
@@ -69,6 +69,21 @@ collections:
 - collection_type: postman
   name: Ozow Banks Transactions API
   slug: postman-ozow-transactions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ozow Banks API
+  slug: open-ozow-banks-api
+- collection_type: open
+  name: Ozow Banks Payments API
+  slug: open-ozow-payments-api
+- collection_type: open
+  name: Ozow Banks Refunds API
+  slug: open-ozow-refunds-api
+- collection_type: open
+  name: Ozow Banks Transactions API
+  slug: open-ozow-transactions-api
 common:
 - group: build
   title: ''
@@ -237,7 +252,7 @@ plans:
 - name: Ozow Plans Pricing
   plan_count: 2
   slug: ozow-plans-pricing
-random_paper: 103
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Ozow Rate Limits
@@ -271,7 +286,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/screenshots/ozow-2026-08-07T191227.png
 security:

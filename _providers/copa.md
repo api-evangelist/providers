@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The copa command line interface used to patch container images. The core subcommand `copa patch` accepts an image reference and an optional vulnerability report and produces a new tagged image with OS
@@ -102,7 +102,7 @@ plans:
 - name: Copa Plans Pricing
   plan_count: 3
   slug: copa-plans-pricing
-random_paper: 59
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Copa Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 18.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copa/refs/heads/main/screenshots/copa-2026-06-20T175009.png
 slug: copa

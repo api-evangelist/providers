@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ apis:
 - description: 'The #X Amz Target=AWSIESnowballJobManagementService.UpdateLongTermPricing API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.updatelongtermpricing.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.UpdateLongTermPricing API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatelongtermpricing-api
-artifact_total: 362
+artifact_total: 390
 collections:
 - collection_type: postman
   name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster API'
@@ -203,6 +203,90 @@ collections:
 - collection_type: postman
   name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.UpdateLongTermPricing API'
   slug: postman-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatelongtermpricing-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-cancelcluster-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelJob API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-canceljob-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CreateAddress API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createaddress-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CreateCluster API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createcluster-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CreateJob API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createjob-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CreateLongTermPricing API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createlongtermpricing-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CreateReturnShippingLabel API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createreturnshippinglabel-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.DescribeAddress API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describeaddress-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.DescribeAddresses API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describeaddresses-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.DescribeCluster API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describecluster-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.DescribeJob API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describejob-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.DescribeReturnShippingLabel API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describereturnshippinglabel-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.GetJobManifest API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-getjobmanifest-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.GetJobUnlockCode API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-getjobunlockcode-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.GetSnowballUsage API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-getsnowballusage-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.GetSoftwareUpdates API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-getsoftwareupdates-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.ListClusterJobs API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listclusterjobs-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.ListClusters API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listclusters-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.ListCompatibleImages API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listcompatibleimages-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.ListJobs API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listjobs-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.ListLongTermPricing API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listlongtermpricing-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.ListPickupLocations API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listpickuplocations-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.ListServiceVersions API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listserviceversions-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.UpdateCluster API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatecluster-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.UpdateJob API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatejob-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.UpdateJobShipmentState API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatejobshipmentstate-api
+- collection_type: open
+  name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.UpdateLongTermPricing API'
+  slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatelongtermpricing-api
 common:
 - group: build
   title: ''
@@ -1194,7 +1278,7 @@ plans:
 - name: Amazon Snow Family Plans Pricing
   plan_count: 3
   slug: amazon-snow-family-plans-pricing
-random_paper: 33
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Amazon Snow Family Rate Limits
@@ -1236,7 +1320,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/screenshots/amazon-snow-family-2026-06-20T171825.png
 security:

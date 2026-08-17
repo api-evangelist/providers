@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
 - description: Query available OpenShift versions
   name: Red Hat OpenShift Versions API
   slug: red-hat-openshift-versions-api
-artifact_total: 70
+artifact_total: 82
 collections:
 - collection_type: postman
   name: Red Hat OpenShift Container Platform Add-ons API
@@ -123,11 +123,47 @@ collections:
   name: Red Hat OpenShift Container Platform Add-ons Versions API
   slug: postman-red-hat-openshift-versions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons API
+  slug: open-red-hat-openshift-add-ons-api
+- collection_type: open
   name: Red Hat OpenShift Container Platform API
   slug: open-red-hat-openshift-api
 - collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Builds API
+  slug: open-red-hat-openshift-builds-api
+- collection_type: open
   name: Red Hat OpenShift Cluster Manager API
   slug: open-red-hat-openshift-cluster-manager
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Clusters API
+  slug: open-red-hat-openshift-clusters-api
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Deployment Configs API
+  slug: open-red-hat-openshift-deployment-configs-api
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Identity Providers API
+  slug: open-red-hat-openshift-identity-providers-api
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Image Streams API
+  slug: open-red-hat-openshift-image-streams-api
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Machine Pools API
+  slug: open-red-hat-openshift-machine-pools-api
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Projects API
+  slug: open-red-hat-openshift-projects-api
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Routes API
+  slug: open-red-hat-openshift-routes-api
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Security Context Constraints API
+  slug: open-red-hat-openshift-security-context-constraints-api
+- collection_type: open
+  name: Red Hat OpenShift Container Platform Add-ons Versions API
+  slug: open-red-hat-openshift-versions-api
 common:
 - group: build
   title: ''
@@ -345,7 +381,7 @@ plans:
 - name: Red Hat Openshift Plans Pricing
   plan_count: 8
   slug: red-hat-openshift-plans-pricing
-random_paper: 18
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Red Hat Openshift Rate Limits
@@ -387,7 +423,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/screenshots/red-hat-openshift-2026-06-20T192719.png
 security:

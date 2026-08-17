@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,8 +54,20 @@ apis:
 - description: The Synchronous API from Lingo.dev — 3 operation(s) for synchronous.
   name: Lingo.dev Synchronous API
   slug: lingo-dev-synchronous-api
-artifact_total: 13
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lingo.dev Engine Account API
+  slug: open-lingo-dev-account-api
+- collection_type: open
+  name: Lingo.dev Engine Account Asynchronous API
+  slug: open-lingo-dev-asynchronous-api
+- collection_type: open
+  name: Lingo.dev Engine Account Synchronous API
+  slug: open-lingo-dev-synchronous-api
 - collection_type: open
   name: Lingo.dev Engine API
   slug: open-lingo-dev
@@ -128,7 +140,7 @@ plans:
 - name: Lingo Dev Plans Pricing
   plan_count: 4
   slug: lingo-dev-plans-pricing
-random_paper: 61
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Lingo Dev Rate Limits
@@ -153,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/screenshots/lingo-dev-2026-07-25T225242.png
 security:

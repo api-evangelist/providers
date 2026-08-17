@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -63,7 +63,7 @@ apis:
 - description: The Tags API from Amazon MediaConnect — 2 operation(s) for tags.
   name: Amazon MediaConnect Tags API
   slug: amazon-mediaconnect-tags-api
-artifact_total: 734
+artifact_total: 743
 collections:
 - collection_type: postman
   name: AWS MediaConnect Bridges API
@@ -89,6 +89,33 @@ collections:
 - collection_type: postman
   name: AWS MediaConnect Bridges Tags API
   slug: postman-amazon-mediaconnect-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS MediaConnect Bridges API
+  slug: open-amazon-mediaconnect-bridges-api
+- collection_type: open
+  name: AWS MediaConnect Bridges Entitlements API
+  slug: open-amazon-mediaconnect-entitlements-api
+- collection_type: open
+  name: AWS MediaConnect Bridges Flows API
+  slug: open-amazon-mediaconnect-flows-api
+- collection_type: open
+  name: AWS MediaConnect Bridges Gateway Instances API
+  slug: open-amazon-mediaconnect-gateway-instances-api
+- collection_type: open
+  name: AWS MediaConnect Bridges Gateways API
+  slug: open-amazon-mediaconnect-gateways-api
+- collection_type: open
+  name: AWS MediaConnect Bridges Offerings API
+  slug: open-amazon-mediaconnect-offerings-api
+- collection_type: open
+  name: AWS MediaConnect Bridges Reservations API
+  slug: open-amazon-mediaconnect-reservations-api
+- collection_type: open
+  name: AWS MediaConnect Bridges Tags API
+  slug: open-amazon-mediaconnect-tags-api
 common:
 - group: build
   title: ''
@@ -2300,7 +2327,7 @@ plans:
 - name: Amazon Mediaconnect Plans Pricing
   plan_count: 3
   slug: amazon-mediaconnect-plans-pricing
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Mediaconnect Rate Limits
@@ -2342,7 +2369,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/screenshots/amazon-mediaconnect-2026-06-20T171739.png
 security:

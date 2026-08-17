@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -61,11 +61,39 @@ apis:
 - description: Access to transactions
   name: Meter Transactions API
   slug: meter-transactions-api
-artifact_total: 12
+artifact_total: 21
 asyncapis:
 - description: 'Real-time WebSocket subscription channels of the Meter native node API, generated from the /subscriptions/* GET (websocket-upgrade) operations declared in the Meter RESTful OpenAPI (Meterest v1.2.2). '
   name: Meter Subscriptions (WebSocket)
   slug: meter-subscriptions-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meterest Accounts API
+  slug: open-meter-accounts-api
+- collection_type: open
+  name: Meterest Accounts Blocks API
+  slug: open-meter-blocks-api
+- collection_type: open
+  name: Meterest Accounts Debug API
+  slug: open-meter-debug-api
+- collection_type: open
+  name: Meterest Accounts Logs API
+  slug: open-meter-logs-api
+- collection_type: open
+  name: Meterest Accounts Node API
+  slug: open-meter-node-api
+- collection_type: open
+  name: Meterest Accounts Staking API
+  slug: open-meter-staking-api
+- collection_type: open
+  name: Meterest Accounts Subscriptions API
+  slug: open-meter-subscriptions-api
+- collection_type: open
+  name: Meterest Accounts Transactions API
+  slug: open-meter-transactions-api
 common:
 - group: docs
   title: ''
@@ -194,7 +222,7 @@ overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Meter''s developer surface includes changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 61
+random_paper: 94
 score:
   band: thin
   composite: 40.9
@@ -218,7 +246,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/screenshots/meter-2026-08-07T172700.png
 security:

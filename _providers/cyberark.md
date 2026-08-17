@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -69,11 +69,35 @@ apis:
 - description: Store and retrieve secret values bound to variable resources.
   name: CyberArk Secrets API
   slug: cyberark-secrets-api
-artifact_total: 23
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CyberArk Conjur Secrets Manager Authentication API
+  slug: open-cyberark-authentication-api
 - collection_type: open
   name: CyberArk Conjur Secrets Manager API
   slug: open-cyberark-conjur
+- collection_type: open
+  name: CyberArk Conjur Secrets Manager Authentication Health API
+  slug: open-cyberark-health-api
+- collection_type: open
+  name: CyberArk Conjur Secrets Manager Authentication Policies API
+  slug: open-cyberark-policies-api
+- collection_type: open
+  name: CyberArk Conjur Secrets Manager Authentication PublicKeys API
+  slug: open-cyberark-publickeys-api
+- collection_type: open
+  name: CyberArk Conjur Secrets Manager Authentication Resources API
+  slug: open-cyberark-resources-api
+- collection_type: open
+  name: CyberArk Conjur Secrets Manager Authentication Roles API
+  slug: open-cyberark-roles-api
+- collection_type: open
+  name: CyberArk Conjur Manager Authentication Secrets API
+  slug: open-cyberark-secrets-api
 common:
 - group: operate
   title: ''
@@ -210,7 +234,7 @@ plans:
 - name: Cyberark Plans Pricing
   plan_count: 4
   slug: cyberark-plans-pricing
-random_paper: 11
+random_paper: 106
 rate_limits:
 - limit_count: 4
   name: Cyberark Rate Limits
@@ -252,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/screenshots/cyberark-2026-06-20T175406.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Beauty Pie Shopify storefront: read-only product and collection JSON, a Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, checkout and fulf'
@@ -108,7 +108,7 @@ overview: 'Beauty Pie publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Beauty Pie''s developer surface includes authentication, engineering blog, signup flow, support, and 10 more developer resources.'
-random_paper: 53
+random_paper: 119
 scopes:
 - name: Beauty Pie Scopes
   scope_count: 4
@@ -129,7 +129,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beauty-pie/refs/heads/main/screenshots/beauty-pie-2026-08-07T162246.png
 security:

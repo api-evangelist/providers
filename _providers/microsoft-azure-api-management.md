@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -340,7 +340,7 @@ arazzos:
 - description: Find a user by identifier and update it if present, otherwise create it.
   name: Azure API Management Upsert User
   slug: microsoft-azure-api-management-upsert-user-workflow
-artifact_total: 206
+artifact_total: 277
 collections:
 - collection_type: postman
   name: Azure API Management AI Gateway
@@ -357,6 +357,219 @@ collections:
 - collection_type: postman
   name: Azure API Management Self-Hosted Gateway
   slug: postman-microsoft-azure-api-management-self-hosted-gateway
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure API Management Gateway AI API
+  slug: open-microsoft-azure-api-management-ai-api
+- collection_type: open
+  name: Azure Management Gateway AI Api API
+  slug: open-microsoft-azure-api-management-api-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiDiagnostic API
+  slug: open-microsoft-azure-api-management-apidiagnostic-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiIssue API
+  slug: open-microsoft-azure-api-management-apiissue-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiManagementOperations API
+  slug: open-microsoft-azure-api-management-apimanagementoperations-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiManagementService API
+  slug: open-microsoft-azure-api-management-apimanagementservice-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiManagementServiceSkus API
+  slug: open-microsoft-azure-api-management-apimanagementserviceskus-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiOperation API
+  slug: open-microsoft-azure-api-management-apioperation-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiOperationsByTag API
+  slug: open-microsoft-azure-api-management-apioperationsbytag-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiPolicy API
+  slug: open-microsoft-azure-api-management-apipolicy-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiProduct API
+  slug: open-microsoft-azure-api-management-apiproduct-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiRelease API
+  slug: open-microsoft-azure-api-management-apirelease-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiRevision API
+  slug: open-microsoft-azure-api-management-apirevision-api
+- collection_type: open
+  name: Azure API Management Gateway AI APIs API
+  slug: open-microsoft-azure-api-management-apis-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiSchema API
+  slug: open-microsoft-azure-api-management-apischema-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiTag API
+  slug: open-microsoft-azure-api-management-apitag-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiTagDescription API
+  slug: open-microsoft-azure-api-management-apitagdescription-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiVersionSet API
+  slug: open-microsoft-azure-api-management-apiversionset-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiVersionSets API
+  slug: open-microsoft-azure-api-management-apiversionsets-api
+- collection_type: open
+  name: Azure API Management Gateway AI ApiWiki API
+  slug: open-microsoft-azure-api-management-apiwiki-api
+- collection_type: open
+  name: Azure API Management Gateway AI Authentication API
+  slug: open-microsoft-azure-api-management-authentication-api
+- collection_type: open
+  name: Azure API Management Gateway AI Backend API
+  slug: open-microsoft-azure-api-management-backend-api
+- collection_type: open
+  name: Azure API Management Gateway AI BackendReconnect API
+  slug: open-microsoft-azure-api-management-backendreconnect-api
+- collection_type: open
+  name: Azure API Management Gateway AI Certificate API
+  slug: open-microsoft-azure-api-management-certificate-api
+- collection_type: open
+  name: Azure API Management Gateway AI Diagnostic API
+  slug: open-microsoft-azure-api-management-diagnostic-api
+- collection_type: open
+  name: Azure API Management AI Gateway API
+  slug: open-microsoft-azure-api-management-gateway-api
+- collection_type: open
+  name: Azure API Management Gateway AI GatewayApi API
+  slug: open-microsoft-azure-api-management-gatewayapi-api
+- collection_type: open
+  name: Azure API Management Gateway AI GatewayCertificateAuthority API
+  slug: open-microsoft-azure-api-management-gatewaycertificateauthority-api
+- collection_type: open
+  name: Azure API Management Gateway AI GatewayGenerateToken API
+  slug: open-microsoft-azure-api-management-gatewaygeneratetoken-api
+- collection_type: open
+  name: Azure API Management Gateway AI GatewayHostnameConfiguration API
+  slug: open-microsoft-azure-api-management-gatewayhostnameconfiguration-api
+- collection_type: open
+  name: Azure API Management Gateway AI GatewayInvalidateDebugCredentials API
+  slug: open-microsoft-azure-api-management-gatewayinvalidatedebugcredentials-api
+- collection_type: open
+  name: Azure API Management Gateway AI GatewayListDebugCredentials API
+  slug: open-microsoft-azure-api-management-gatewaylistdebugcredentials-api
+- collection_type: open
+  name: Azure API Management Gateway AI GatewayListKeys API
+  slug: open-microsoft-azure-api-management-gatewaylistkeys-api
+- collection_type: open
+  name: Azure API Management Gateway AI GatewayListTrace API
+  slug: open-microsoft-azure-api-management-gatewaylisttrace-api
+- collection_type: open
+  name: Azure API Management Gateway AI GatewayRegenerateKey API
+  slug: open-microsoft-azure-api-management-gatewayregeneratekey-api
+- collection_type: open
+  name: Azure API Management Gateway AI GraphQLApiResolver API
+  slug: open-microsoft-azure-api-management-graphqlapiresolver-api
+- collection_type: open
+  name: Azure API Management Gateway AI Group API
+  slug: open-microsoft-azure-api-management-group-api
+- collection_type: open
+  name: Azure API Management Gateway AI GroupUser API
+  slug: open-microsoft-azure-api-management-groupuser-api
+- collection_type: open
+  name: Azure API Management Gateway AI Health API
+  slug: open-microsoft-azure-api-management-health-api
+- collection_type: open
+  name: Azure API Management Gateway AI Logger API
+  slug: open-microsoft-azure-api-management-logger-api
+- collection_type: open
+  name: Azure API Management Gateway AI MCP API
+  slug: open-microsoft-azure-api-management-mcp-api
+- collection_type: open
+  name: Azure API Management Gateway AI NamedValue API
+  slug: open-microsoft-azure-api-management-namedvalue-api
+- collection_type: open
+  name: Azure API Management Gateway AI Notification API
+  slug: open-microsoft-azure-api-management-notification-api
+- collection_type: open
+  name: Azure API Management Gateway AI Policy API
+  slug: open-microsoft-azure-api-management-policy-api
+- collection_type: open
+  name: Azure API Management Gateway AI PolicyFragment API
+  slug: open-microsoft-azure-api-management-policyfragment-api
+- collection_type: open
+  name: Azure API Management Gateway AI Portal API
+  slug: open-microsoft-azure-api-management-portal-api
+- collection_type: open
+  name: Azure API Management Gateway AI Product API
+  slug: open-microsoft-azure-api-management-product-api
+- collection_type: open
+  name: Azure API Management Gateway AI ProductApi API
+  slug: open-microsoft-azure-api-management-productapi-api
+- collection_type: open
+  name: Azure API Management Gateway AI ProductApiLink API
+  slug: open-microsoft-azure-api-management-productapilink-api
+- collection_type: open
+  name: Azure API Management Gateway AI ProductGroup API
+  slug: open-microsoft-azure-api-management-productgroup-api
+- collection_type: open
+  name: Azure API Management Gateway AI ProductGroupLink API
+  slug: open-microsoft-azure-api-management-productgrouplink-api
+- collection_type: open
+  name: Azure API Management Gateway AI ProductPolicy API
+  slug: open-microsoft-azure-api-management-productpolicy-api
+- collection_type: open
+  name: Azure API Management Gateway AI Products API
+  slug: open-microsoft-azure-api-management-products-api
+- collection_type: open
+  name: Azure API Management Gateway AI ProductSubscription API
+  slug: open-microsoft-azure-api-management-productsubscription-api
+- collection_type: open
+  name: Azure API Management Gateway AI ProductTag API
+  slug: open-microsoft-azure-api-management-producttag-api
+- collection_type: open
+  name: Azure API Management Gateway AI ProductWiki API
+  slug: open-microsoft-azure-api-management-productwiki-api
+- collection_type: open
+  name: Azure API Management Gateway AI Schema API
+  slug: open-microsoft-azure-api-management-schema-api
+- collection_type: open
+  name: Azure API Management Gateway AI Subscription API
+  slug: open-microsoft-azure-api-management-subscription-api
+- collection_type: open
+  name: Azure API Management Gateway AI Tag API
+  slug: open-microsoft-azure-api-management-tag-api
+- collection_type: open
+  name: Azure API Management Gateway AI TagApiLink API
+  slug: open-microsoft-azure-api-management-tagapilink-api
+- collection_type: open
+  name: Azure API Management Gateway AI TagOperationLink API
+  slug: open-microsoft-azure-api-management-tagoperationlink-api
+- collection_type: open
+  name: Azure API Management Gateway AI TagProductLink API
+  slug: open-microsoft-azure-api-management-tagproductlink-api
+- collection_type: open
+  name: Azure API Management Gateway AI User API
+  slug: open-microsoft-azure-api-management-user-api
+- collection_type: open
+  name: Azure API Management Gateway AI UserGroup API
+  slug: open-microsoft-azure-api-management-usergroup-api
+- collection_type: open
+  name: Azure API Management Gateway AI UserIdentity API
+  slug: open-microsoft-azure-api-management-useridentity-api
+- collection_type: open
+  name: Azure API Management Gateway AI Users API
+  slug: open-microsoft-azure-api-management-users-api
+- collection_type: open
+  name: Azure API Management Gateway AI UserSubscription API
+  slug: open-microsoft-azure-api-management-usersubscription-api
+- collection_type: open
+  name: Azure API Management Gateway AI UserToken API
+  slug: open-microsoft-azure-api-management-usertoken-api
+- collection_type: open
+  name: Azure API Management Gateway AI Workspace API
+  slug: open-microsoft-azure-api-management-workspace-api
+- collection_type: open
+  name: Azure API Management Gateway AI WorkspacePolicy API
+  slug: open-microsoft-azure-api-management-workspacepolicy-api
 common:
 - group: operate
   title: ''
@@ -1013,7 +1226,7 @@ plans:
 - name: Microsoft Azure Api Management Plans Pricing
   plan_count: 8
   slug: microsoft-azure-api-management-plans-pricing
-random_paper: 35
+random_paper: 55
 rate_limits:
 - limit_count: 4
   name: Microsoft Azure Api Management Rate Limits
@@ -1060,7 +1273,7 @@ score:
       marker_coverage: 100.0
       total: 70
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:

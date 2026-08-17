@@ -11,8 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: false
     auth_clarity: true
@@ -23,13 +24,13 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 54.5
+  scored_at: '2026-08-17'
+api_count: 4
 apis:
 - description: Credit balance, usage, and transaction history.
   name: Orthogonal Account API
@@ -40,7 +41,23 @@ apis:
 - description: Execute a call against any catalog API through Orthogonal.
   name: Orthogonal Run API
   slug: orthogonal-run-api
-artifact_total: 8
+- description: The resold catalog itself — 795 payable operations across 58 third-party provider families (scraping, enrichment, search, jobs, weather, agent infrastructure), each namespaced /{provider-slug}/{upstre
+  name: Orthogonal API Marketplace
+  slug: orthogonal-marketplace-api
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orthogonal Account API
+  slug: open-orthogonal-account-api
+- collection_type: open
+  name: Orthogonal Account Discovery API
+  slug: open-orthogonal-discovery-api
+- collection_type: open
+  name: Orthogonal Account Run API
+  slug: open-orthogonal-run-api
 common:
 - group: company
   title: ''
@@ -158,23 +175,75 @@ common:
   title: ''
   type: Security
   url: security/orthogonal-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/orthogonal-marketplace-openapi.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/orthogonal-marketplace-overlay.yaml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/orthogonal-a2a.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/orthogonal-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/orthogonal-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/orthogonal-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/orthogonal-finops.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.orthogonal.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.orthogonal.com/blog
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.orthogonal.com/
 created: '2026-07-17'
 description: Orthogonal is a unified API and payment layer for AI agents, backed by Pantera Capital and Y Combinator. An agent describes what it needs in natural language and Orthogonal returns the right service from a catalog of 40+ third-party APIs (web search, data enrichment, scraping, email finding/verification, identity), then proxies the call and meters a per-call price. Access is available through a REST API (api.orthogonal.com), a TypeScript SDK (@orth/sdk), a Python SDK (orth), a CLI (@orth/cli), and an official hosted MCP server (mcp.orthogonal.com) for Claude, Cursor, and other agents. Billing is prepaid credits or pay-per-call stablecoin micropayments over x402 (USDC on Base) and MPP (USDC.e on Tempo). Orthogonal also publishes an open library of 88 installable Agent Skills.
+finops:
+- name: Orthogonal Finops
+  service_category: ''
+  slug: orthogonal-finops
 image: https://orthogonal.sh/logo.jpg
 layout: provider
 mcp_servers:
 - description: ''
   name: orthogonal-mcp.yml
   slug: orthogonal-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Orthogonal
 nav: Providers
 network: true
-overview: 'Orthogonal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Discovery API, and Run API. Tagged areas include Company, AI Agents, API Discovery, API Marketplace, and Agent Payments.
+overview: 'Orthogonal publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Discovery API, Run API, and 1 more. Tagged areas include Company, AI Agents, API Discovery, API Marketplace, and Agent Payments.
 
 
-  Orthogonal''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 22 more developer resources.'
-random_paper: 5
+  Orthogonal''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 32 more developer resources.'
+plans:
+- name: Orthogonal Plans Pricing
+  plan_count: 2
+  slug: orthogonal-plans-pricing
+random_paper: 42
+rate_limits:
+- limit_count: 0
+  name: Orthogonal Rate Limits
+  slug: orthogonal-rate-limits
 scopes:
 - name: Orthogonal Scopes
   scope_count: 0
@@ -182,15 +251,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 50.9
+  delta: 8.5
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 73.7
     contract_quality: 14.6
-    developer_ergonomics: 71.7
+    developer_ergonomics: 82.6
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 15.8
+    operational_transparency: 31.6
   previous_composite: 42.4
   provenance:
     conformance: derived
@@ -208,8 +277,8 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/screenshots/orthogonal-2026-08-07T190954.png
 security:
 - kind: authentication
@@ -223,7 +292,7 @@ security:
 - kind: vulnerability-disclosure
   name: Orthogonal Vulnerability Disclosure
   slug: orthogonal-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone · security.txt · contact published
 slug: orthogonal
 tags:
 - Company

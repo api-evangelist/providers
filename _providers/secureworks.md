@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The System API from Secureworks — 1 operation(s) for system.
   name: Secureworks System API
   slug: secureworks-system-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Secureworks Taegis XDR Authentication API
+  slug: open-secureworks-authentication-api
+- collection_type: open
+  name: Secureworks Taegis XDR Authentication GraphQL API
+  slug: open-secureworks-graphql-api
+- collection_type: open
+  name: Secureworks Taegis XDR Authentication System API
+  slug: open-secureworks-system-api
 - collection_type: open
   name: Secureworks Taegis XDR API
   slug: open-secureworks-taegis-xdr
@@ -166,7 +178,7 @@ plans:
 - name: Secureworks Plans Pricing
   plan_count: 3
   slug: secureworks-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Secureworks Rate Limits
@@ -208,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/screenshots/secureworks-2026-06-20T193632.png
 security:

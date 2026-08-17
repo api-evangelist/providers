@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -102,17 +102,77 @@ apis:
 - description: Endpoints for managing subreddit wikis, including reading and editing wiki pages, revision history, and permissions.
   name: Reddit Wiki API
   slug: reddit-wiki-api
-artifact_total: 42
+artifact_total: 62
 collections:
 - collection_type: open
-  name: Reddit Ads API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reddit Ads Account API
+  slug: open-reddit-account-api
+- collection_type: open
+  name: Reddit Ads Account Accounts API
+  slug: open-reddit-accounts-api
+- collection_type: open
+  name: Reddit Ads Account Ad Groups API
+  slug: open-reddit-ad-groups-api
+- collection_type: open
+  name: Reddit Account Ads API
   slug: open-reddit-ads-api
+- collection_type: open
+  name: Reddit Ads Account Campaigns API
+  slug: open-reddit-campaigns-api
+- collection_type: open
+  name: Reddit Ads Account Conversions API
+  slug: open-reddit-conversions-api
+- collection_type: open
+  name: Reddit Ads Account Custom Audiences API
+  slug: open-reddit-custom-audiences-api
 - collection_type: open
   name: Reddit Data API
   slug: open-reddit-data-api
 - collection_type: open
   name: Reddit Embeds
   slug: open-reddit-embeds
+- collection_type: open
+  name: Reddit Ads Account Flair API
+  slug: open-reddit-flair-api
+- collection_type: open
+  name: Reddit Ads Account Funding API
+  slug: open-reddit-funding-api
+- collection_type: open
+  name: Reddit Ads Account Links & Comments API
+  slug: open-reddit-links-comments-api
+- collection_type: open
+  name: Reddit Ads Account Listings API
+  slug: open-reddit-listings-api
+- collection_type: open
+  name: Reddit Ads Account Messages API
+  slug: open-reddit-messages-api
+- collection_type: open
+  name: Reddit Ads Account Moderation API
+  slug: open-reddit-moderation-api
+- collection_type: open
+  name: Reddit Ads Account oEmbed API
+  slug: open-reddit-oembed-api
+- collection_type: open
+  name: Reddit Ads Account Reporting API
+  slug: open-reddit-reporting-api
+- collection_type: open
+  name: Reddit Ads Account Search API
+  slug: open-reddit-search-api
+- collection_type: open
+  name: Reddit Ads Account Subreddits API
+  slug: open-reddit-subreddits-api
+- collection_type: open
+  name: Reddit Ads Account Targeting API
+  slug: open-reddit-targeting-api
+- collection_type: open
+  name: Reddit Ads Account Users API
+  slug: open-reddit-users-api
+- collection_type: open
+  name: Reddit Ads Account Wiki API
+  slug: open-reddit-wiki-api
 common:
 - group: agent
   title: ''
@@ -271,7 +331,7 @@ plans:
 - name: Reddit Plans Pricing
   plan_count: 2
   slug: reddit-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Reddit Rate Limits
@@ -318,7 +378,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

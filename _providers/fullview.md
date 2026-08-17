@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Bug Report API from Fullview — 2 operation(s) for bug report.
   name: Fullview Bug Report API
   slug: fullview-bug-report-api
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fullview Bug Report API
+  slug: open-fullview-bug-report-api
 common:
 - group: auth
   title: ''
@@ -168,7 +175,7 @@ overview: 'Fullview publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Fullview''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 38
+random_paper: 133
 scopes:
 - name: Fullview Scopes
   scope_count: 12
@@ -196,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/screenshots/fullview-2026-07-25T215258.png
 security:

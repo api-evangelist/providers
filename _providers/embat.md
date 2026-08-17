@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -104,7 +104,77 @@ apis:
 - description: '`Transaction` represents a movement recorded on one of your bank accounts (`Product`). Each transaction reports the balance of its product immediately after the movement, and can carry a classificatio'
   name: Embat Transactions API
   slug: embat-transactions-api
-artifact_total: 26
+artifact_total: 49
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Embat AccountingAccounts API
+  slug: open-embat-accountingaccounts-api
+- collection_type: open
+  name: Embat AccountingAccounts AccountingEntries API
+  slug: open-embat-accountingentries-api
+- collection_type: open
+  name: Embat AccountingAccounts Attributes API
+  slug: open-embat-attributes-api
+- collection_type: open
+  name: Embat AccountingAccounts Authentication API
+  slug: open-embat-authentication-api
+- collection_type: open
+  name: Embat AccountingAccounts Balances API
+  slug: open-embat-balances-api
+- collection_type: open
+  name: Embat AccountingAccounts Banks API
+  slug: open-embat-banks-api
+- collection_type: open
+  name: Embat AccountingAccounts Categories API
+  slug: open-embat-categories-api
+- collection_type: open
+  name: Embat AccountingAccounts Companies API
+  slug: open-embat-companies-api
+- collection_type: open
+  name: Embat AccountingAccounts Contacts API
+  slug: open-embat-contacts-api
+- collection_type: open
+  name: Embat AccountingAccounts DebtScheduleConfigs API
+  slug: open-embat-debtscheduleconfigs-api
+- collection_type: open
+  name: Embat AccountingAccounts Files API
+  slug: open-embat-files-api
+- collection_type: open
+  name: Embat AccountingAccounts Forecasts API
+  slug: open-embat-forecasts-api
+- collection_type: open
+  name: Embat AccountingAccounts ForeignExchangeRates API
+  slug: open-embat-foreignexchangerates-api
+- collection_type: open
+  name: Embat AccountingAccounts Logs API
+  slug: open-embat-logs-api
+- collection_type: open
+  name: Embat AccountingAccounts Operations API
+  slug: open-embat-operations-api
+- collection_type: open
+  name: Embat AccountingAccounts PaymentOrders API
+  slug: open-embat-paymentorders-api
+- collection_type: open
+  name: Embat AccountingAccounts Payments API
+  slug: open-embat-payments-api
+- collection_type: open
+  name: Embat AccountingAccounts Products API
+  slug: open-embat-products-api
+- collection_type: open
+  name: Embat AccountingAccounts ReconcilingItems API
+  slug: open-embat-reconcilingitems-api
+- collection_type: open
+  name: Embat AccountingAccounts ReconcilingSources API
+  slug: open-embat-reconcilingsources-api
+- collection_type: open
+  name: Embat AccountingAccounts Scenarios API
+  slug: open-embat-scenarios-api
+- collection_type: open
+  name: Embat AccountingAccounts Transactions API
+  slug: open-embat-transactions-api
 common:
 - group: company
   title: ''
@@ -190,7 +260,7 @@ overview: 'Embat publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Embat''s developer surface includes documentation, API reference, authentication, sandbox, and 13 more developer resources.'
-random_paper: 41
+random_paper: 74
 score:
   band: thin
   composite: 30.4
@@ -220,7 +290,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/screenshots/embat-2026-07-25T213227.png
 security:

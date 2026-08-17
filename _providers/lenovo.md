@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: Authenticate and manage XClarity Administrator sessions.
   name: Lenovo Sessions API
   slug: lenovo-sessions-api
-artifact_total: 7
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lenovo XClarity Administrator REST Inventory API
+  slug: open-lenovo-inventory-api
+- collection_type: open
+  name: Lenovo XClarity Administrator REST Inventory Sessions API
+  slug: open-lenovo-sessions-api
 - collection_type: open
   name: Lenovo XClarity Administrator REST API
   slug: open-lenovo
@@ -121,7 +130,7 @@ overview: 'Lenovo publishes 2 APIs on the [APIs.io](https://apis.io/) network: I
 
 
   Lenovo''s developer surface includes authentication, product news, engineering blog, and 11 more developer resources.'
-random_paper: 59
+random_paper: 63
 score:
   band: emerging
   composite: 24.1
@@ -142,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/screenshots/lenovo-2026-06-20T184423.png
 security:

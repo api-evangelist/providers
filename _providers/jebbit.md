@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-12'
+  score: 53.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -69,11 +69,45 @@ apis:
 - description: The Launch Links API from Jebbit — 1 operation(s) for launch links.
   name: Jebbit Launch Links API
   slug: jebbit-launch-links-api
-artifact_total: 18
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Jebbit Webhooks
   slug: jebbit-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jebbit Auth API
+  slug: open-jebbit-auth-api
+- collection_type: open
+  name: Jebbit Auth Businesses API
+  slug: open-jebbit-businesses-api
+- collection_type: open
+  name: Jebbit Auth Campaigns API
+  slug: open-jebbit-campaigns-api
+- collection_type: open
+  name: Jebbit Auth Feed Columns API
+  slug: open-jebbit-feed-columns-api
+- collection_type: open
+  name: Jebbit Auth Feed Rows API
+  slug: open-jebbit-feed-rows-api
+- collection_type: open
+  name: Jebbit Auth Feeds API
+  slug: open-jebbit-feeds-api
+- collection_type: open
+  name: Jebbit Auth Integration Historic Backfills API
+  slug: open-jebbit-integration-historic-backfills-api
+- collection_type: open
+  name: Jebbit Auth Integration Mappings API
+  slug: open-jebbit-integration-mappings-api
+- collection_type: open
+  name: Jebbit Auth Integrations API
+  slug: open-jebbit-integrations-api
+- collection_type: open
+  name: Jebbit Auth Launch Links API
+  slug: open-jebbit-launch-links-api
 common:
 - group: other
   title: ''
@@ -207,15 +241,31 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/jebbit-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/jebbit-packages.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/jebbit-tool-crosswalk.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/jebbit-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/jebbit-plans-pricing.yml
 created: '2026-07-17'
 description: Jebbit — now BlueConic Experiences — is an interactive experience platform that captures zero- and first-party declared data from consumers through quizzes, product finders, personality tests, and preference flows that shoppers complete because the experience gives them value in return. Responses sync into customer profiles and activate across the marketing stack in real time. Jebbit exposes a public JSON:API REST API (https://api2.jebbit.com) for managing businesses, campaigns, launch links, dynamic product feeds, and webhook integrations that stream user session data, secured with OAuth 2.0 client-credentials JWTs and HMAC-signed webhooks.
-image: https://www.blueconic.com/experiences-by-jebbit
+image: https://jebbit-public-api-docs.s3.amazonaws.com/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
   name: jebbit-mcp.yml
   slug: jebbit-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Jebbit
 nav: Providers
 network: true
@@ -225,8 +275,16 @@ overview: 'Jebbit publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Jebbit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Jebbit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
-random_paper: 24
+  Jebbit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 30 more developer resources.'
+plans:
+- name: Jebbit Plans Pricing
+  plan_count: 0
+  slug: jebbit-plans-pricing
+random_paper: 28
+rate_limits:
+- limit_count: 0
+  name: Jebbit Rate Limits
+  slug: jebbit-rate-limits
 scopes:
 - name: Jebbit Scopes
   scope_count: 6
@@ -255,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/screenshots/jebbit-2026-07-25T223113.png
 security:

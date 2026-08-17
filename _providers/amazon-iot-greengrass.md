@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: The Tags API from Amazon IoT Greengrass — 2 operation(s) for tags.
   name: Amazon IoT Greengrass Tags API
   slug: amazon-iot-greengrass-tags-api
-artifact_total: 442
+artifact_total: 445
 collections:
 - collection_type: postman
   name: AWS IoT V2 Greengrass API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: AWS IoT V2 Greengrass Tags API
   slug: postman-amazon-iot-greengrass-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS IoT V2 Greengrass API
+  slug: open-amazon-iot-greengrass-greengrass-api
+- collection_type: open
+  name: AWS IoT V2 Greengrass Tags API
+  slug: open-amazon-iot-greengrass-tags-api
 common:
 - group: build
   title: ''
@@ -1441,7 +1450,7 @@ plans:
 - name: Amazon Iot Greengrass Plans Pricing
   plan_count: 3
   slug: amazon-iot-greengrass-plans-pricing
-random_paper: 101
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Greengrass Rate Limits
@@ -1483,7 +1492,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/screenshots/amazon-iot-greengrass-2026-06-20T171714.png
 security:

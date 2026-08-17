@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
 - description: The W-9 Forms API from Veryfi — 2 operation(s) for w-9 forms.
   name: Veryfi W-9 Forms API
   slug: veryfi-w-9-forms-api
-artifact_total: 48
+artifact_total: 56
 collections:
 - collection_type: postman
   name: Veryfi OCR Any Documents API
@@ -106,8 +106,32 @@ collections:
   name: Veryfi OCR Any Documents W-9 Forms API
   slug: postman-veryfi-w-9-forms-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veryfi OCR Any Documents API
+  slug: open-veryfi-any-documents-api
+- collection_type: open
+  name: Veryfi OCR Any Documents Bank Statements API
+  slug: open-veryfi-bank-statements-api
+- collection_type: open
+  name: Veryfi OCR Any Documents Checks API
+  slug: open-veryfi-checks-api
+- collection_type: open
+  name: Veryfi OCR Any Documents Classification API
+  slug: open-veryfi-classification-api
+- collection_type: open
+  name: Veryfi OCR Any Documents API
+  slug: open-veryfi-documents-api
+- collection_type: open
   name: Veryfi OCR API
   slug: open-veryfi-ocr
+- collection_type: open
+  name: Veryfi OCR Any Documents W-2 Forms API
+  slug: open-veryfi-w-2-forms-api
+- collection_type: open
+  name: Veryfi OCR Any Documents W-9 Forms API
+  slug: open-veryfi-w-9-forms-api
 common:
 - group: build
   title: ''
@@ -263,7 +287,7 @@ plans:
 - name: Veryfi Plans Pricing
   plan_count: 3
   slug: veryfi-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Veryfi Rate Limits
@@ -305,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
 security:

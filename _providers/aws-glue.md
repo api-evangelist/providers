@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: The AWS Glue API API from AWS Glue — 1 operation(s) for aws glue api.
   name: AWS Glue AWS Glue API API
   slug: aws-glue-aws-glue-api-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Glue AWS Glue API API
+  slug: open-aws-glue-aws-glue-api-api
 - collection_type: open
   name: AWS Glue API
   slug: open-aws-glue
@@ -127,7 +133,7 @@ overview: 'AWS Glue publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   AWS Glue''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, engineering blog, and 10 more developer resources.'
-random_paper: 85
+random_paper: 60
 score:
   band: thin
   composite: 37.3
@@ -148,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/screenshots/aws-glue-2026-06-20T172756.png
 security:

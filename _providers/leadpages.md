@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: RESTful API covering the full Leadpages platform across eight documented endpoint categories — Pages, Sites, Assets, Blogs, Analytics, Forms, Domains and Brand Kits — with JSON responses and bearer-to
@@ -176,7 +176,7 @@ plans:
 - name: Leadpages Plans Pricing
   plan_count: 6
   slug: leadpages-plans-pricing
-random_paper: 94
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Leadpages Rate Limits
@@ -189,6 +189,7 @@ scopes:
 score:
   band: strong
   composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 51.6
@@ -196,8 +197,10 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 23.7
+  previous_composite: 56.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Leadpages Authentication

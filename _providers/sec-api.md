@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,12 +60,33 @@ apis:
 - description: Convert XBRL financial data in filings to standardized JSON.
   name: SEC API XBRL API
   slug: sec-api-xbrl-api
-artifact_total: 16
+artifact_total: 23
 asyncapis:
 - description: AsyncAPI 2.6 description of the SEC API (sec-api.io) **Filing Stream API**, a documented public **WebSocket** surface. Per https://sec-api.io/docs/stream-api, clients open a raw WebSocket connection (
   name: SEC API Filing Stream (WebSocket)
   slug: sec-api-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SEC API (sec-api.io) REST Extractor API
+  slug: open-sec-api-extractor-api
+- collection_type: open
+  name: SEC API (sec-api.io) REST Extractor Filing Query API
+  slug: open-sec-api-filing-query-api
+- collection_type: open
+  name: SEC API (sec-api.io) REST Extractor Form 13F API
+  slug: open-sec-api-form-13f-api
+- collection_type: open
+  name: SEC API (sec-api.io) REST Extractor Full-Text Search API
+  slug: open-sec-api-full-text-search-api
+- collection_type: open
+  name: SEC API (sec-api.io) REST Extractor Insider Trading API
+  slug: open-sec-api-insider-trading-api
+- collection_type: open
+  name: SEC API (sec-api.io) REST Extractor XBRL API
+  slug: open-sec-api-xbrl-api
 - collection_type: open
   name: SEC API (sec-api.io) REST API
   slug: open-sec-api
@@ -129,7 +150,7 @@ plans:
 - name: Sec Api Plans Pricing
   plan_count: 4
   slug: sec-api-plans-pricing
-random_paper: 74
+random_paper: 78
 rate_limits:
 - limit_count: 8
   name: Sec Api Rate Limits
@@ -169,7 +190,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

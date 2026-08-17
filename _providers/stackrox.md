@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 6
@@ -156,8 +156,128 @@ apis:
 - description: The UserService API from StackRox — 3 operation(s) for userservice.
   name: StackRox UserService API
   slug: stackrox-userservice-api
-artifact_total: 54
+artifact_total: 94
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference AlertService API
+  slug: open-stackrox-alertservice-api
+- collection_type: open
+  name: API Reference AlertService APITokenService API
+  slug: open-stackrox-apitokenservice-api
+- collection_type: open
+  name: API Reference AlertService AuthProviderService API
+  slug: open-stackrox-authproviderservice-api
+- collection_type: open
+  name: API Reference AlertService AuthService API
+  slug: open-stackrox-authservice-api
+- collection_type: open
+  name: API Reference AlertService ClustersService API
+  slug: open-stackrox-clustersservice-api
+- collection_type: open
+  name: API Reference AlertService ComplianceManagementService API
+  slug: open-stackrox-compliancemanagementservice-api
+- collection_type: open
+  name: API Reference AlertService ComplianceService API
+  slug: open-stackrox-complianceservice-api
+- collection_type: open
+  name: API Reference AlertService ConfigService API
+  slug: open-stackrox-configservice-api
+- collection_type: open
+  name: API Reference AlertService DBService API
+  slug: open-stackrox-dbservice-api
+- collection_type: open
+  name: API Reference AlertService DebugService API
+  slug: open-stackrox-debugservice-api
+- collection_type: open
+  name: API Reference AlertService DeploymentService API
+  slug: open-stackrox-deploymentservice-api
+- collection_type: open
+  name: API Reference AlertService DetectionService API
+  slug: open-stackrox-detectionservice-api
+- collection_type: open
+  name: API Reference AlertService ExternalBackupService API
+  slug: open-stackrox-externalbackupservice-api
+- collection_type: open
+  name: API Reference AlertService FeatureFlagService API
+  slug: open-stackrox-featureflagservice-api
+- collection_type: open
+  name: API Reference AlertService GroupService API
+  slug: open-stackrox-groupservice-api
+- collection_type: open
+  name: API Reference AlertService ImageIntegrationService API
+  slug: open-stackrox-imageintegrationservice-api
+- collection_type: open
+  name: API Reference AlertService ImageService API
+  slug: open-stackrox-imageservice-api
+- collection_type: open
+  name: API Reference AlertService LicenseService API
+  slug: open-stackrox-licenseservice-api
+- collection_type: open
+  name: API Reference AlertService MetadataService API
+  slug: open-stackrox-metadataservice-api
+- collection_type: open
+  name: API Reference AlertService NamespaceService API
+  slug: open-stackrox-namespaceservice-api
+- collection_type: open
+  name: API Reference AlertService NetworkGraphService API
+  slug: open-stackrox-networkgraphservice-api
+- collection_type: open
+  name: API Reference AlertService NetworkPolicyService API
+  slug: open-stackrox-networkpolicyservice-api
+- collection_type: open
+  name: API Reference AlertService NodeService API
+  slug: open-stackrox-nodeservice-api
+- collection_type: open
+  name: API Reference AlertService NotifierService API
+  slug: open-stackrox-notifierservice-api
+- collection_type: open
+  name: API Reference AlertService PingService API
+  slug: open-stackrox-pingservice-api
+- collection_type: open
+  name: API Reference AlertService PolicyService API
+  slug: open-stackrox-policyservice-api
+- collection_type: open
+  name: API Reference AlertService ProbeUploadService API
+  slug: open-stackrox-probeuploadservice-api
+- collection_type: open
+  name: API Reference AlertService ProcessService API
+  slug: open-stackrox-processservice-api
+- collection_type: open
+  name: API Reference AlertService ProcessWhitelistService API
+  slug: open-stackrox-processwhitelistservice-api
+- collection_type: open
+  name: API Reference AlertService RbacService API
+  slug: open-stackrox-rbacservice-api
+- collection_type: open
+  name: API Reference AlertService RoleService API
+  slug: open-stackrox-roleservice-api
+- collection_type: open
+  name: API Reference AlertService ScopedAccessControlService API
+  slug: open-stackrox-scopedaccesscontrolservice-api
+- collection_type: open
+  name: API Reference AlertService SearchService API
+  slug: open-stackrox-searchservice-api
+- collection_type: open
+  name: API Reference AlertService SecretService API
+  slug: open-stackrox-secretservice-api
+- collection_type: open
+  name: API Reference AlertService SensorUpgradeService API
+  slug: open-stackrox-sensorupgradeservice-api
+- collection_type: open
+  name: API Reference AlertService ServiceAccountService API
+  slug: open-stackrox-serviceaccountservice-api
+- collection_type: open
+  name: API Reference AlertService ServiceIdentityService API
+  slug: open-stackrox-serviceidentityservice-api
+- collection_type: open
+  name: API Reference AlertService SummaryService API
+  slug: open-stackrox-summaryservice-api
+- collection_type: open
+  name: API Reference AlertService UserService API
+  slug: open-stackrox-userservice-api
 - collection_type: open
   name: API Reference
   slug: open-stackrox
@@ -261,7 +381,7 @@ plans:
 - name: Stackrox Plans Pricing
   plan_count: 3
   slug: stackrox-plans-pricing
-random_paper: 39
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Stackrox Rate Limits
@@ -303,7 +423,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/screenshots/stackrox-2026-06-20T194449.png
 security:

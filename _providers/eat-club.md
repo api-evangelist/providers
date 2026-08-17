@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -103,7 +103,7 @@ plans:
 - name: Eat Club Plans Pricing
   plan_count: 0
   slug: eat-club-plans-pricing
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Eat Club Rate Limits
@@ -111,6 +111,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -118,8 +119,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 14.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Eat Club Domain Security

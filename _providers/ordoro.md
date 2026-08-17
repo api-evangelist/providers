@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 4
@@ -119,7 +119,92 @@ apis:
 - description: The Warehouse API from Ordoro — 3 operation(s) for warehouse.
   name: Ordoro Warehouse API
   slug: ordoro-warehouse-api
-artifact_total: 188
+artifact_total: 216
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ordoro API Documentation Address API
+  slug: open-ordoro-address-api
+- collection_type: open
+  name: Ordoro API Documentation Address Api Key API
+  slug: open-ordoro-api-key-api
+- collection_type: open
+  name: Ordoro API Documentation Address Authenticated API
+  slug: open-ordoro-authenticated-api
+- collection_type: open
+  name: Ordoro API Documentation Address Cart API
+  slug: open-ordoro-cart-api
+- collection_type: open
+  name: Ordoro API Documentation Address Company API
+  slug: open-ordoro-company-api
+- collection_type: open
+  name: Ordoro API Documentation Address Goods Receipt API
+  slug: open-ordoro-goods-receipt-api
+- collection_type: open
+  name: Ordoro API Documentation Address Integration API
+  slug: open-ordoro-integration-api
+- collection_type: open
+  name: Ordoro API Documentation Address Label API
+  slug: open-ordoro-label-api
+- collection_type: open
+  name: Ordoro API Documentation Address Manufacturing Order API
+  slug: open-ordoro-manufacturing-order-api
+- collection_type: open
+  name: Ordoro API Documentation Address Order API
+  slug: open-ordoro-order-api
+- collection_type: open
+  name: Ordoro API Documentation Address Packing List API
+  slug: open-ordoro-packing-list-api
+- collection_type: open
+  name: Ordoro API Documentation Address Postage Account API
+  slug: open-ordoro-postage-account-api
+- collection_type: open
+  name: Ordoro API Documentation Address Product API
+  slug: open-ordoro-product-api
+- collection_type: open
+  name: Ordoro API Documentation Address Purchase Order API
+  slug: open-ordoro-purchase-order-api
+- collection_type: open
+  name: Ordoro API Documentation Address Rate API
+  slug: open-ordoro-rate-api
+- collection_type: open
+  name: Ordoro API Documentation Address Return Label API
+  slug: open-ordoro-return-label-api
+- collection_type: open
+  name: Ordoro API Documentation Address Return Order API
+  slug: open-ordoro-return-order-api
+- collection_type: open
+  name: Ordoro API Documentation Address Return Order Label API
+  slug: open-ordoro-return-order-label-api
+- collection_type: open
+  name: Ordoro API Documentation Address Return Order Rate API
+  slug: open-ordoro-return-order-rate-api
+- collection_type: open
+  name: Ordoro API Documentation Address Return Tracking API
+  slug: open-ordoro-return-tracking-api
+- collection_type: open
+  name: Ordoro API Documentation Address Rule API
+  slug: open-ordoro-rule-api
+- collection_type: open
+  name: Ordoro API Documentation Address Shipper API
+  slug: open-ordoro-shipper-api
+- collection_type: open
+  name: Ordoro API Documentation Address Supplier API
+  slug: open-ordoro-supplier-api
+- collection_type: open
+  name: Ordoro API Documentation Address Tag API
+  slug: open-ordoro-tag-api
+- collection_type: open
+  name: Ordoro API Documentation Address Tracking API
+  slug: open-ordoro-tracking-api
+- collection_type: open
+  name: Ordoro API Documentation Address User API
+  slug: open-ordoro-user-api
+- collection_type: open
+  name: Ordoro API Documentation Address Warehouse API
+  slug: open-ordoro-warehouse-api
 common:
 - group: agent
   title: ''
@@ -682,7 +767,7 @@ plans:
 - name: Ordoro Plans Pricing
   plan_count: 7
   slug: ordoro-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Ordoro Rate Limits
@@ -716,7 +801,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/screenshots/ordoro-2026-06-20T191205.png
 security:

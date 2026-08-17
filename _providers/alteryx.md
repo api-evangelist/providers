@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -75,7 +75,7 @@ apis:
 - description: Manage workflows including upload, retrieval, update, deletion, versioning, and job execution
   name: Alteryx Workflows API
   slug: alteryx-workflows-api
-artifact_total: 146
+artifact_total: 153
 collections:
 - collection_type: postman
   name: Alteryx Server API V3 Collections API
@@ -96,8 +96,29 @@ collections:
   name: Alteryx Server API V3 Collections Workflows API
   slug: postman-alteryx-workflows-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alteryx Server API V3 Collections API
+  slug: open-alteryx-collections-api
+- collection_type: open
+  name: Alteryx Server API V3 Collections Credentials API
+  slug: open-alteryx-credentials-api
+- collection_type: open
+  name: Alteryx Server API V3 Collections Jobs API
+  slug: open-alteryx-jobs-api
+- collection_type: open
+  name: Alteryx Server API V3 Collections Schedules API
+  slug: open-alteryx-schedules-api
+- collection_type: open
   name: Alteryx Server API V3
   slug: open-alteryx-server-api-v3
+- collection_type: open
+  name: Alteryx Server API V3 Collections Users API
+  slug: open-alteryx-users-api
+- collection_type: open
+  name: Alteryx Server API V3 Collections Workflows API
+  slug: open-alteryx-workflows-api
 common:
 - group: build
   title: ''
@@ -536,7 +557,7 @@ plans:
 - name: Alteryx Plans Pricing
   plan_count: 3
   slug: alteryx-plans-pricing
-random_paper: 57
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Alteryx Rate Limits
@@ -583,7 +604,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/screenshots/alteryx-2026-06-20T171552.png
 security:

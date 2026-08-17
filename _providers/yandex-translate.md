@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,20 @@ apis:
 - description: Operations for translating text between languages
   name: Yandex Translate API Translation API
   slug: yandex-translate-translation-api
-artifact_total: 25
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yandex Translate Language Detection API
+  slug: open-yandex-translate-language-detection-api
+- collection_type: open
+  name: Yandex Translate Language Detection Languages API
+  slug: open-yandex-translate-languages-api
+- collection_type: open
+  name: Yandex Translate Language Detection Translation API
+  slug: open-yandex-translate-translation-api
 common:
 - group: agent
   title: ''
@@ -179,7 +192,7 @@ plans:
 - name: Yandex Translate Plans Pricing
   plan_count: 2
   slug: yandex-translate-plans-pricing
-random_paper: 108
+random_paper: 29
 rate_limits:
 - limit_count: 8
   name: Yandex Translate Rate Limits
@@ -213,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/screenshots/yandex-translate-2026-06-20T201724.png
 security:

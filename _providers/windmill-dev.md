@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -84,8 +84,56 @@ apis:
 - description: Isolated tenants and their settings.
   name: Windmill Workspaces API
   slug: windmill-dev-workspaces-api
-artifact_total: 22
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Windmill Apps API
+  slug: open-windmill-dev-apps-api
+- collection_type: open
+  name: Windmill Apps Audit API
+  slug: open-windmill-dev-audit-api
+- collection_type: open
+  name: Windmill Apps Flows API
+  slug: open-windmill-dev-flows-api
+- collection_type: open
+  name: Windmill Apps Folders API
+  slug: open-windmill-dev-folders-api
+- collection_type: open
+  name: Windmill Apps Groups API
+  slug: open-windmill-dev-groups-api
+- collection_type: open
+  name: Windmill Apps Jobs API
+  slug: open-windmill-dev-jobs-api
+- collection_type: open
+  name: Windmill Apps OIDC API
+  slug: open-windmill-dev-oidc-api
+- collection_type: open
+  name: Windmill Apps Resources API
+  slug: open-windmill-dev-resources-api
+- collection_type: open
+  name: Windmill Apps Schedules API
+  slug: open-windmill-dev-schedules-api
+- collection_type: open
+  name: Windmill Apps Scripts API
+  slug: open-windmill-dev-scripts-api
+- collection_type: open
+  name: Windmill Apps Triggers API
+  slug: open-windmill-dev-triggers-api
+- collection_type: open
+  name: Windmill Apps Users API
+  slug: open-windmill-dev-users-api
+- collection_type: open
+  name: Windmill Apps Variables API
+  slug: open-windmill-dev-variables-api
+- collection_type: open
+  name: Windmill Apps Workers API
+  slug: open-windmill-dev-workers-api
+- collection_type: open
+  name: Windmill Apps Workspaces API
+  slug: open-windmill-dev-workspaces-api
 - collection_type: open
   name: Windmill API
   slug: open-windmill-dev
@@ -154,7 +202,7 @@ plans:
 - name: Windmill Dev Plans Pricing
   plan_count: 5
   slug: windmill-dev-plans-pricing
-random_paper: 28
+random_paper: 36
 rate_limits:
 - limit_count: 6
   name: Windmill Dev Rate Limits
@@ -179,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

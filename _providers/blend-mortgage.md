@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -69,8 +69,41 @@ apis:
 - description: Reporting and analytics datasets.
   name: Blend Reporting API
   slug: blend-mortgage-reporting-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blend Public Borrowers & Parties API
+  slug: open-blend-mortgage-borrowers-parties-api
+- collection_type: open
+  name: Blend Public Borrowers & Parties Closings & eSignature API
+  slug: open-blend-mortgage-closings-esignature-api
+- collection_type: open
+  name: Blend Public Borrowers & Parties Consumer Lending & Deposit API
+  slug: open-blend-mortgage-consumer-lending-deposit-api
+- collection_type: open
+  name: Blend Public Borrowers & Parties Documents & Disclosures API
+  slug: open-blend-mortgage-documents-disclosures-api
+- collection_type: open
+  name: Blend Public Borrowers & Parties Events & Webhooks API
+  slug: open-blend-mortgage-events-webhooks-api
+- collection_type: open
+  name: Blend Public Borrowers & Parties Follow-ups API
+  slug: open-blend-mortgage-follow-ups-api
+- collection_type: open
+  name: Blend Public Borrowers & Parties Home Lending Applications API
+  slug: open-blend-mortgage-home-lending-applications-api
+- collection_type: open
+  name: Blend Public Borrowers & Parties Lenders & Assignments API
+  slug: open-blend-mortgage-lenders-assignments-api
+- collection_type: open
+  name: Blend Public Borrowers & Parties Products & Pricing API
+  slug: open-blend-mortgage-products-pricing-api
+- collection_type: open
+  name: Blend Public Borrowers & Parties Reporting API
+  slug: open-blend-mortgage-reporting-api
 - collection_type: open
   name: Blend Public API
   slug: open-blend-mortgage
@@ -143,7 +176,7 @@ plans:
 - name: Blend Mortgage Plans Pricing
   plan_count: 3
   slug: blend-mortgage-plans-pricing
-random_paper: 96
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Blend Mortgage Rate Limits
@@ -174,7 +207,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/screenshots/blend-mortgage-2026-07-25T203309.png
 security:

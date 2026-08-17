@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -86,7 +86,59 @@ apis:
 - description: Portals API
   name: Panopto XfpUserProfiles API
   slug: panopto-xfpuserprofiles-api
-artifact_total: 24
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Panopto Public Accessibility API
+  slug: open-panopto-accessibility-api
+- collection_type: open
+  name: Panopto Public Accessibility Auth API
+  slug: open-panopto-auth-api
+- collection_type: open
+  name: Panopto Public Accessibility CaptionProviders API
+  slug: open-panopto-captionproviders-api
+- collection_type: open
+  name: Panopto Public Accessibility Folders API
+  slug: open-panopto-folders-api
+- collection_type: open
+  name: Panopto Public Accessibility Groups API
+  slug: open-panopto-groups-api
+- collection_type: open
+  name: Panopto Public Accessibility Playlists API
+  slug: open-panopto-playlists-api
+- collection_type: open
+  name: Panopto Public Accessibility RemoteRecorderAPI API
+  slug: open-panopto-remoterecorderapi-api
+- collection_type: open
+  name: Panopto Public Accessibility RemoteRecorders API
+  slug: open-panopto-remoterecorders-api
+- collection_type: open
+  name: Panopto Public Accessibility Reports API
+  slug: open-panopto-reports-api
+- collection_type: open
+  name: Panopto Public Accessibility ScheduledRecordings API
+  slug: open-panopto-scheduledrecordings-api
+- collection_type: open
+  name: Panopto Public Accessibility SearchIndexSyncUpdates API
+  slug: open-panopto-searchindexsyncupdates-api
+- collection_type: open
+  name: Panopto Public Accessibility Sessions API
+  slug: open-panopto-sessions-api
+- collection_type: open
+  name: Panopto Public Accessibility Streams API
+  slug: open-panopto-streams-api
+- collection_type: open
+  name: Panopto Public Accessibility Tags API
+  slug: open-panopto-tags-api
+- collection_type: open
+  name: Panopto Public Accessibility Users API
+  slug: open-panopto-users-api
+- collection_type: open
+  name: Panopto Public Accessibility XfpUserProfiles API
+  slug: open-panopto-xfpuserprofiles-api
 common:
 - group: agent
   title: ''
@@ -171,7 +223,7 @@ plans:
 - name: Panopto Plans Pricing
   plan_count: 2
   slug: panopto-plans-pricing
-random_paper: 49
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Panopto Rate Limits
@@ -205,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/screenshots/panopto-2026-06-20T191340.png
 security:

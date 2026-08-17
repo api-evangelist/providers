@@ -28,17 +28,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs.
   name: OpenAPI Specification
   slug: openapi-specification
-artifact_total: 61
+artifact_total: 120
 collections:
 - collection_type: open
   name: API Collection
   slug: open-blogs
+- collection_type: open
+  name: API Collection
+  slug: open-blogs
+- collection_type: open
+  name: API Collection
+  slug: open-index
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-components
 - collection_type: open
   name: API Collection
   slug: open-openapi-components
@@ -47,7 +56,19 @@ collections:
   slug: open-openapi-contact
 - collection_type: open
   name: API Collection
+  slug: open-openapi-contact
+- collection_type: open
+  name: API Collection
   slug: open-openapi-document
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-document
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-domain-security
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-encoding
 - collection_type: open
   name: API Collection
   slug: open-openapi-encoding
@@ -56,7 +77,16 @@ collections:
   slug: open-openapi-example
 - collection_type: open
   name: API Collection
+  slug: open-openapi-example
+- collection_type: open
+  name: API Collection
   slug: open-openapi-external-documentation
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-external-documentation
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-finops
 - collection_type: open
   name: API Collection
   slug: open-openapi-finops
@@ -65,7 +95,19 @@ collections:
   slug: open-openapi-header
 - collection_type: open
   name: API Collection
+  slug: open-openapi-header
+- collection_type: open
+  name: API Collection
   slug: open-openapi-info
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-info
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-jsonschema-spectral-rules
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-license
 - collection_type: open
   name: API Collection
   slug: open-openapi-license
@@ -74,7 +116,16 @@ collections:
   slug: open-openapi-link
 - collection_type: open
   name: API Collection
+  slug: open-openapi-link
+- collection_type: open
+  name: API Collection
   slug: open-openapi-media-type
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-media-type
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-oauth-flow
 - collection_type: open
   name: API Collection
   slug: open-openapi-oauth-flow
@@ -83,7 +134,16 @@ collections:
   slug: open-openapi-oauth-flows
 - collection_type: open
   name: API Collection
+  slug: open-openapi-oauth-flows
+- collection_type: open
+  name: API Collection
   slug: open-openapi-operation
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-operation
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-parameter
 - collection_type: open
   name: API Collection
   slug: open-openapi-parameter
@@ -92,7 +152,16 @@ collections:
   slug: open-openapi-path-item
 - collection_type: open
   name: API Collection
+  slug: open-openapi-path-item
+- collection_type: open
+  name: API Collection
   slug: open-openapi-paths
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-paths
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-plans-pricing
 - collection_type: open
   name: API Collection
   slug: open-openapi-plans-pricing
@@ -101,7 +170,16 @@ collections:
   slug: open-openapi-rate-limits
 - collection_type: open
   name: API Collection
+  slug: open-openapi-rate-limits
+- collection_type: open
+  name: API Collection
   slug: open-openapi-request-body
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-request-body
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-response
 - collection_type: open
   name: API Collection
   slug: open-openapi-response
@@ -110,7 +188,16 @@ collections:
   slug: open-openapi-responses
 - collection_type: open
   name: API Collection
+  slug: open-openapi-responses
+- collection_type: open
+  name: API Collection
   slug: open-openapi-security-requirement
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-security-requirement
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-security-scheme
 - collection_type: open
   name: API Collection
   slug: open-openapi-security-scheme
@@ -119,10 +206,100 @@ collections:
   slug: open-openapi-server-variable
 - collection_type: open
   name: API Collection
+  slug: open-openapi-server-variable
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-server
+- collection_type: open
+  name: API Collection
   slug: open-openapi-server
 - collection_type: open
   name: API Collection
   slug: open-openapi-tag
+- collection_type: open
+  name: API Collection
+  slug: open-openapi-tag
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-23T094130
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-23T182523
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-26T223651
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-27T083119
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-27T190208
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-28T115055
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-28T170848
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-28T172558
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-28T192327
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-28T200725
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-31T133250
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-31T151044
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-31T162206
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-07-31T202106
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-01T163141
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-01T163302
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-01T171935
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-03T113057
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-03T161012
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-04T083143
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-05T153418
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-06T210741
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-07T135032
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-10T093022
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-10T111628
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-11T211707
+- collection_type: open
+  name: API Collection
+  slug: open-score-2026-08-12T193225
 common:
 - group: auth
   title: ''
@@ -252,7 +429,7 @@ plans:
 - name: Openapi Plans Pricing
   plan_count: 3
   slug: openapi-plans-pricing
-random_paper: 28
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Openapi Rate Limits
@@ -279,7 +456,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi/refs/heads/main/screenshots/openapi-2026-06-20T190906.png
 security:

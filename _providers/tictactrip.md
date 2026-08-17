@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The StopGroups API from TicTacTrip — 2 operation(s) for stopgroups.
   name: TicTacTrip StopGroups API
   slug: tictactrip-stopgroups-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: '@tictactrip/api Autocomplete API'
+  slug: open-tictactrip-autocomplete-api
+- collection_type: open
+  name: '@tictactrip/api Autocomplete Booking API'
+  slug: open-tictactrip-booking-api
+- collection_type: open
+  name: '@tictactrip/api Autocomplete Cities API'
+  slug: open-tictactrip-cities-api
+- collection_type: open
+  name: '@tictactrip/api Autocomplete Results API'
+  slug: open-tictactrip-results-api
+- collection_type: open
+  name: '@tictactrip/api Autocomplete SegmentProviders API'
+  slug: open-tictactrip-segmentproviders-api
+- collection_type: open
+  name: '@tictactrip/api Autocomplete StopClusters API'
+  slug: open-tictactrip-stopclusters-api
+- collection_type: open
+  name: '@tictactrip/api Autocomplete StopGroups API'
+  slug: open-tictactrip-stopgroups-api
 common:
 - group: agent
   title: ''
@@ -173,7 +198,7 @@ overview: 'TicTacTrip publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TicTacTrip''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 19 more developer resources.'
-random_paper: 119
+random_paper: 36
 score:
   band: thin
   composite: 38.2
@@ -197,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

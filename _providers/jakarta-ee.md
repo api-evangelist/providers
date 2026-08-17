@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Jakarta RESTful Web Services (formerly JAX-RS) is the API specification for developing web services that follow the REST architectural pattern. It defines a set of Java APIs and annotations that enabl
@@ -127,7 +127,7 @@ plans:
 - name: Jakarta Ee Plans Pricing
   plan_count: 3
   slug: jakarta-ee-plans-pricing
-random_paper: 21
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Jakarta Ee Rate Limits
@@ -145,7 +145,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 15.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jakarta-ee/refs/heads/main/screenshots/jakarta-ee-2026-06-20T183653.png
 security:

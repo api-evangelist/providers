@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: The accounts API from Laka — 6 operation(s) for accounts.
@@ -58,7 +58,38 @@ apis:
 - description: The tasks API from Laka — 1 operation(s) for tasks.
   name: Laka tasks API
   slug: laka-tasks-api
-artifact_total: 12
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Laka accounts API
+  slug: open-laka-accounts-api
+- collection_type: open
+  name: Laka accounts claims API
+  slug: open-laka-claims-api
+- collection_type: open
+  name: Laka accounts deeplinks API
+  slug: open-laka-deeplinks-api
+- collection_type: open
+  name: Laka accounts fleets API
+  slug: open-laka-fleets-api
+- collection_type: open
+  name: Laka accounts policies API
+  slug: open-laka-policies-api
+- collection_type: open
+  name: Laka accounts quote API
+  slug: open-laka-quote-api
+- collection_type: open
+  name: Laka accounts quotes API
+  slug: open-laka-quotes-api
+- collection_type: open
+  name: Laka accounts reporting API
+  slug: open-laka-reporting-api
+- collection_type: open
+  name: Laka accounts tasks API
+  slug: open-laka-tasks-api
 common:
 - group: auth
   title: ''
@@ -181,7 +212,7 @@ overview: 'Laka publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Laka''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 49
+random_paper: 111
 score:
   band: developing
   composite: 43.7
@@ -210,7 +241,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/screenshots/laka-2026-07-25T224431.png
 security:

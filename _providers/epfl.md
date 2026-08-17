@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,7 +81,50 @@ apis:
 - description: The Vulgarizations API from EPFL — 2 operation(s) for vulgarizations.
   name: EPFL Vulgarizations API
   slug: epfl-vulgarizations-api
-artifact_total: 30
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EPFL Actu News Categories API
+  slug: open-epfl-categories-api
+- collection_type: open
+  name: EPFL Actu News Categories Channels API
+  slug: open-epfl-channels-api
+- collection_type: open
+  name: EPFL Actu News Categories Domains API
+  slug: open-epfl-domains-api
+- collection_type: open
+  name: EPFL Actu News Categories Events API
+  slug: open-epfl-events-api
+- collection_type: open
+  name: EPFL Actu News Categories Faculties API
+  slug: open-epfl-faculties-api
+- collection_type: open
+  name: EPFL Actu News Categories Mementos API
+  slug: open-epfl-mementos-api
+- collection_type: open
+  name: EPFL Actu Categories News API
+  slug: open-epfl-news-api
+- collection_type: open
+  name: EPFL Actu News Categories Projects API
+  slug: open-epfl-projects-api
+- collection_type: open
+  name: EPFL Actu News Categories Publics API
+  slug: open-epfl-publics-api
+- collection_type: open
+  name: EPFL Actu News Categories Registrations API
+  slug: open-epfl-registrations-api
+- collection_type: open
+  name: EPFL Actu News Categories Spoken Languages API
+  slug: open-epfl-spoken-languages-api
+- collection_type: open
+  name: EPFL Actu News Categories Themes API
+  slug: open-epfl-themes-api
+- collection_type: open
+  name: EPFL Actu News Categories Vulgarizations API
+  slug: open-epfl-vulgarizations-api
 common:
 - group: agent
   title: ''
@@ -176,7 +219,7 @@ plans:
 - name: Epfl Plans Pricing
   plan_count: 2
   slug: epfl-plans-pricing
-random_paper: 63
+random_paper: 125
 rate_limits:
 - limit_count: 1
   name: Epfl Rate Limits
@@ -224,7 +267,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/screenshots/epfl-2026-06-20T180750.png
 security:

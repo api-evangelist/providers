@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -96,11 +96,68 @@ apis:
 - description: Endpoints to manage storefront state
   name: Otter Storefront Endpoints API
   slug: otter-storefront-endpoints-api
-artifact_total: 978
+artifact_total: 997
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Account Pairing Endpoints API
+  slug: open-otter-account-pairing-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Auth Endpoints API
+  slug: open-otter-auth-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Callback Endpoints API
+  slug: open-otter-callback-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Delivery Endpoints API
+  slug: open-otter-delivery-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Direct Orders Endpoints API
+  slug: open-otter-direct-orders-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Finance Endpoints API
+  slug: open-otter-finance-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Inventory Endpoints API
+  slug: open-otter-inventory-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Manager Loyalty Endpoints API
+  slug: open-otter-manager-loyalty-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Manager Menu Endpoints API
+  slug: open-otter-manager-menu-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Manager Order Endpoints API
+  slug: open-otter-manager-order-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Manager Storefront Endpoints API
+  slug: open-otter-manager-storefront-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Market Intel Endpoints API
+  slug: open-otter-market-intel-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Menus Endpoints API
+  slug: open-otter-menus-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Orders Endpoints API
+  slug: open-otter-orders-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Organization Endpoints API
+  slug: open-otter-organization-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Ping Endpoints API
+  slug: open-otter-ping-endpoints-api
 - collection_type: open
   name: Public API
   slug: open-otter-public-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Reports Endpoints API
+  slug: open-otter-reports-endpoints-api
+- collection_type: open
+  name: Public Account Pairing Endpoints Storefront Endpoints API
+  slug: open-otter-storefront-endpoints-api
 common:
 - group: agent
   title: ''
@@ -3024,7 +3081,7 @@ plans:
 - name: Otter Plans Pricing
   plan_count: 4
   slug: otter-plans-pricing
-random_paper: 78
+random_paper: 111
 rate_limits:
 - limit_count: 6
   name: Otter Rate Limits
@@ -3071,7 +3128,7 @@ score:
       marker_coverage: 100.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/screenshots/otter-2026-06-20T191236.png
 security:

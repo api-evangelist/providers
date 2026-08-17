@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -87,7 +87,59 @@ apis:
 - description: The Timeline API from Nex — 1 operation(s) for timeline.
   name: Nex Timeline API
   slug: nex-timeline-api
-artifact_total: 21
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nex Developer AI Lists API
+  slug: open-nex-ai-lists-api
+- collection_type: open
+  name: Nex Developer AI Lists Compounding API
+  slug: open-nex-compounding-api
+- collection_type: open
+  name: Nex Developer AI Lists Context API
+  slug: open-nex-context-api
+- collection_type: open
+  name: Nex Developer AI Lists Graph API
+  slug: open-nex-graph-api
+- collection_type: open
+  name: Nex Developer AI Lists Insights API
+  slug: open-nex-insights-api
+- collection_type: open
+  name: Nex Developer AI Lists Integrations API
+  slug: open-nex-integrations-api
+- collection_type: open
+  name: Nex Developer AI Lists API
+  slug: open-nex-lists-api
+- collection_type: open
+  name: Nex Developer AI Lists Notes API
+  slug: open-nex-notes-api
+- collection_type: open
+  name: Nex Developer AI Lists Notifications API
+  slug: open-nex-notifications-api
+- collection_type: open
+  name: Nex Developer AI Lists Objects API
+  slug: open-nex-objects-api
+- collection_type: open
+  name: Nex Developer AI Lists Records API
+  slug: open-nex-records-api
+- collection_type: open
+  name: Nex Developer AI Lists Relationships API
+  slug: open-nex-relationships-api
+- collection_type: open
+  name: Nex Developer AI Lists Schema API
+  slug: open-nex-schema-api
+- collection_type: open
+  name: Nex Developer AI Lists Search API
+  slug: open-nex-search-api
+- collection_type: open
+  name: Nex Developer AI Lists Tasks API
+  slug: open-nex-tasks-api
+- collection_type: open
+  name: Nex Developer AI Lists Timeline API
+  slug: open-nex-timeline-api
 common:
 - group: other
   title: ''
@@ -213,7 +265,7 @@ overview: 'Nex publishes 16 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Nex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 91
+random_paper: 33
 scopes:
 - name: Nex Scopes
   scope_count: 18
@@ -242,7 +294,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/screenshots/nex-2026-08-07T185140.png
 security:

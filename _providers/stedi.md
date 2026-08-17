@@ -14,22 +14,22 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-12'
+  score: 75.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 75
   slug: stedi-agentic-access
   summary_line: 75 operations · 31 acting
-api_count: 21
+api_count: 24
 apis:
 - description: The Claim acknowledgments API from Stedi — 1 operation(s) for claim acknowledgments.
   name: Stedi Claim acknowledgments API
@@ -102,6 +102,15 @@ apis:
 - description: The X12 API from Stedi — 1 operation(s) for x12.
   name: Stedi X12 API
   slug: stedi-x12-api
+- description: The Batch Eligibility Check API from Stedi — 4 operation(s) for submitting and polling asynchronous batches of X12 270 eligibility checks.
+  name: Stedi Batch Eligibility Check API
+  slug: stedi-batch-eligibility-check-api
+- description: The Eligibility PDF API from Stedi — 1 operation(s) for retrieving a rendered PDF of an X12 271 eligibility response.
+  name: Stedi Eligibility PDF API
+  slug: stedi-eligibility-pdf-api
+- description: The Event Destinations API from Stedi — 7 operation(s) for registering webhook destinations, managing their event-type subscriptions, and rotating Standard Webhooks signing secrets.
+  name: Stedi Event Destinations API
+  slug: stedi-event-destinations-api
 arazzos:
 - description: Resolve a claim-status-capable payer, run an X12 276 inquiry, and convert the X12 277 status report.
   name: Stedi X12 276/277 Claim Status Inquiry
@@ -118,7 +127,78 @@ arazzos:
 - description: Create a provider, open an enrollment, upload the signed agreement, and read the enrollment status for X12 835 ERA/EFT transactions.
   name: Stedi Provider Enrollment for X12 835 ERA/EFT
   slug: stedi-provider-enrollment-workflow
-artifact_total: 47
+artifact_total: 76
+asyncapis:
+- description: 'Stedi publishes NO AsyncAPI document of its own. This document was assembled by API Evangelist from Stedi''s own published sources: the V1EventPayload schema in Stedi''s OpenAPI for the Events API, the '
+  name: Stedi Event Destinations (webhooks)
+  slug: stedi-event-destinations-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments API
+  slug: open-stedi-claim-acknowledgments-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Claim Attachments API
+  slug: open-stedi-claim-attachments-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Claim submission API
+  slug: open-stedi-claim-submission-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Coordination of benefits API
+  slug: open-stedi-coordination-of-benefits-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Documents API
+  slug: open-stedi-documents-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Enrollments API
+  slug: open-stedi-enrollments-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Events API
+  slug: open-stedi-events-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Executions API
+  slug: open-stedi-executions-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Fragments API
+  slug: open-stedi-fragments-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Insurance discovery API
+  slug: open-stedi-insurance-discovery-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Partnerships API
+  slug: open-stedi-partnerships-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Payer API
+  slug: open-stedi-payer-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Payers API
+  slug: open-stedi-payers-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Polling API
+  slug: open-stedi-polling-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Providers API
+  slug: open-stedi-providers-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Real-time claim status API
+  slug: open-stedi-real-time-claim-status-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Real-time eligibility check API
+  slug: open-stedi-real-time-eligibility-check-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Remittances API
+  slug: open-stedi-remittances-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Tasks API
+  slug: open-stedi-tasks-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments Transactions API
+  slug: open-stedi-transactions-api
+- collection_type: open
+  name: Stedi Healthcare Claims Claim acknowledgments X12 API
+  slug: open-stedi-x12-api
 common:
 - group: agent
   title: ''
@@ -196,6 +276,130 @@ common:
   title: ''
   type: ArazzoWorkflows
   url: ''
+- group: build
+  title: ''
+  type: Packages
+  url: packages/stedi-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/stedi-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/stedi-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/stedi-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/stedi-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/stedi-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/stedi-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/stedi-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/stedi-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/stedi-trust-center.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/stedi-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/stedi-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/stedi-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/stedi-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/stedi-lifecycle.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/stedi-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/stedi-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/stedi-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/stedi-data-model.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/stedi-scopes.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/stedi-event-destinations-asyncapi.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.stedi.com/docs/healthcare
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.stedi.com/docs/healthcare/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.stedi.com/docs/healthcare/intro-eligibility-checks
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.stedi.com/support
+- group: start
+  title: ''
+  type: SignUp
+  url: https://portal.stedi.com/auth/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://portal.stedi.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.stedi.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://legal.stedi.com/legal/privacy-notice-b91ef9d6
+- group: operate
+  title: ''
+  type: ChangeLogRSS
+  url: https://www.stedi.com/changelog/feed.xml
 created: 2026-06-12
 description: Stedi is the only API-first programmable healthcare clearinghouse, enabling health tech companies to submit claims, verify eligibility, and process electronic remittance advice (ERA) through a modern JSON API. The platform supports real-time X12 EDI transaction processing including eligibility checks (270/271), professional and institutional claim submissions (837), claim status inquiries (276/277), and electronic remittance advice (835). Stedi provides both SFTP and REST API access, webhooks for event-driven workflows, a sandbox test environment, and an MCP server for AI-assisted integration. Public OpenAPI specifications are available for all core APIs via the Stedi GitHub organization, and pricing is purely metered with no monthly minimums or setup fees.
 examples:
@@ -247,24 +451,28 @@ jsonld:
   property_count: 0
   slug: stedi-context
 layout: provider
-modified: 2026-06-12
+mcp_servers:
+- description: ''
+  name: stedi-mcp.yml
+  slug: stedi-mcpyml
+modified: '2026-08-15'
 name: Stedi
 nav: Providers
 network: true
-overview: 'Stedi publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Claim acknowledgments API, Claim Attachments API, Claim submission API, and 18 more. Tagged areas include EDI, Electronic Data Interchange, Healthcare, Clearinghouse, and X12.
+overview: 'Stedi publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Claim acknowledgments API, Claim Attachments API, Claim submission API, and 21 more. Tagged areas include EDI, Electronic Data Interchange, Healthcare, Clearinghouse, and X12.
 
 
-  The Stedi catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Stedi catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Stedi''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  Stedi''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, changelog, API reference, and 42 more developer resources.'
 plans:
 - name: Stedi Plans Pricing
   plan_count: 3
   slug: stedi-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
-- limit_count: 4
+- limit_count: 7
   name: Stedi Rate Limits
   slug: stedi-rate-limits
 rules:
@@ -276,17 +484,22 @@ rules:
     info: 2
     warn: 4
   slug: stedi-jsonschema-spectral-rules
+scopes:
+- name: Stedi Scopes
+  scope_count: 0
+  slug: stedi-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 49.8
-  delta: 0.0
+  band: exemplar
+  composite: 85.3
+  delta: 35.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 62.3
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    commercial_clarity: 100.0
+    contract_quality: 71.3
+    developer_ergonomics: 80.4
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 94.7
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -300,10 +513,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 34.8
+    score: 80.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/screenshots/stedi-2026-06-20T194534.png
 security:
 - kind: authentication
@@ -318,6 +531,10 @@ security:
   name: Stedi Vulnerability Disclosure
   slug: stedi-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Stedi Trust Center
+  slug: stedi-trust-center
+  summary_line: SOC 2 Type II, HIPAA
 slug: stedi
 tags:
 - EDI

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 291
   human_in_the_loop: 14
@@ -283,7 +283,7 @@ apis:
 - description: Zip downloads represent a successful request to create a ZIP archive with files and folders.
   name: Box Zip Downloads API
   slug: box-zip-downloads-api
-artifact_total: 400
+artifact_total: 482
 collections:
 - collection_type: postman
   name: Box Authorize Authorization API
@@ -528,6 +528,252 @@ collections:
 - collection_type: postman
   name: Box Authorize Authorization Zip Downloads API
   slug: postman-box-zip-downloads-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Box Authorize Authorization API
+  slug: open-box-authorization-api
+- collection_type: open
+  name: Box Authorization Authorize API
+  slug: open-box-authorize-api
+- collection_type: open
+  name: Box Authorize Authorization Classifications API
+  slug: open-box-classifications-api
+- collection_type: open
+  name: Box Authorize Authorization Classifications on Files API
+  slug: open-box-classifications-on-files-api
+- collection_type: open
+  name: Box Authorize Authorization Classifications on Folders API
+  slug: open-box-classifications-on-folders-api
+- collection_type: open
+  name: Box Authorize Authorization Collaboration Whitelist Entries API
+  slug: open-box-collaboration-whitelist-entries-api
+- collection_type: open
+  name: Box Authorize Authorization Collaboration Whitelist Exempt Targets API
+  slug: open-box-collaboration-whitelist-exempt-targets-api
+- collection_type: open
+  name: Box Authorize Authorization Collaborations API
+  slug: open-box-collaborations-api
+- collection_type: open
+  name: Box Authorize Authorization Collaborations (List) API
+  slug: open-box-collaborations-list-api
+- collection_type: open
+  name: Box Authorize Authorization Collections API
+  slug: open-box-collections-api
+- collection_type: open
+  name: Box Authorize Authorization Comments API
+  slug: open-box-comments-api
+- collection_type: open
+  name: Box Authorize Authorization Device Pinners API
+  slug: open-box-device-pinners-api
+- collection_type: open
+  name: Box Authorize Authorization Domain Restrictions for Collaborations API
+  slug: open-box-domain-restrictions-for-collaborations-api
+- collection_type: open
+  name: Box Authorize Authorization Domain Restrictions (User Exemptions) API
+  slug: open-box-domain-restrictions-user-exemptions-api
+- collection_type: open
+  name: Box Authorize Authorization Downloads API
+  slug: open-box-downloads-api
+- collection_type: open
+  name: Box Authorize Authorization Email Aliases API
+  slug: open-box-email-aliases-api
+- collection_type: open
+  name: Box Authorize Authorization Enterprises API
+  slug: open-box-enterprises-api
+- collection_type: open
+  name: Box Authorize Authorization Events API
+  slug: open-box-events-api
+- collection_type: open
+  name: Box Authorize Authorization File Requests API
+  slug: open-box-file-requests-api
+- collection_type: open
+  name: Box Authorize Authorization File Version Legal Holds API
+  slug: open-box-file-version-legal-holds-api
+- collection_type: open
+  name: Box Authorize Authorization File Version Retentions API
+  slug: open-box-file-version-retentions-api
+- collection_type: open
+  name: Box Authorize Authorization File Versions API
+  slug: open-box-file-versions-api
+- collection_type: open
+  name: Box Authorize Authorization Files API
+  slug: open-box-files-api
+- collection_type: open
+  name: Box Authorize Authorization Folder Locks API
+  slug: open-box-folder-locks-api
+- collection_type: open
+  name: Box Authorize Authorization Folders API
+  slug: open-box-folders-api
+- collection_type: open
+  name: Box Authorize Authorization Group Memberships API
+  slug: open-box-group-memberships-api
+- collection_type: open
+  name: Box Authorize Authorization Groups API
+  slug: open-box-groups-api
+- collection_type: open
+  name: Box Authorize Authorization Integration Mappings API
+  slug: open-box-integration-mappings-api
+- collection_type: open
+  name: Box Authorize Authorization Invites API
+  slug: open-box-invites-api
+- collection_type: open
+  name: Box Authorize Authorization Legal Hold Policies API
+  slug: open-box-legal-hold-policies-api
+- collection_type: open
+  name: Box Authorize Authorization Legal Hold Policy Assignments API
+  slug: open-box-legal-hold-policy-assignments-api
+- collection_type: open
+  name: Box Authorize Authorization Metadata Cascade Policies API
+  slug: open-box-metadata-cascade-policies-api
+- collection_type: open
+  name: Box Authorize Authorization Metadata Instances (Files) API
+  slug: open-box-metadata-instances-files-api
+- collection_type: open
+  name: Box Authorize Authorization Metadata Instances (Folders) API
+  slug: open-box-metadata-instances-folders-api
+- collection_type: open
+  name: Box Authorize Authorization Metadata Queries API
+  slug: open-box-metadata-queries-api
+- collection_type: open
+  name: Box Authorize Authorization Metadata Templates API
+  slug: open-box-metadata-templates-api
+- collection_type: open
+  name: Box Authorize Authorization Oauth2 API
+  slug: open-box-oauth2-api
+- collection_type: open
+  name: Box Authorize Authorization Recent Items API
+  slug: open-box-recent-items-api
+- collection_type: open
+  name: Box Authorize Authorization Retention Policies API
+  slug: open-box-retention-policies-api
+- collection_type: open
+  name: Box Authorize Authorization Retention Policy Assignments API
+  slug: open-box-retention-policy-assignments-api
+- collection_type: open
+  name: Box Authorize Authorization Search API
+  slug: open-box-search-api
+- collection_type: open
+  name: Box Authorize Authorization Session Termination API
+  slug: open-box-session-termination-api
+- collection_type: open
+  name: Box Authorize Authorization Shared Items API
+  slug: open-box-shared-items-api
+- collection_type: open
+  name: Box Authorize Authorization Shared Items#folders API
+  slug: open-box-shared-items-folders-api
+- collection_type: open
+  name: Box Authorize Authorization Shared Items#web Links API
+  slug: open-box-shared-items-web-links-api
+- collection_type: open
+  name: Box Authorize Authorization Shared Links (Files) API
+  slug: open-box-shared-links-files-api
+- collection_type: open
+  name: Box Authorize Authorization Shared Links (Folders) API
+  slug: open-box-shared-links-folders-api
+- collection_type: open
+  name: Box Authorize Authorization Shared Links (Web Links) API
+  slug: open-box-shared-links-web-links-api
+- collection_type: open
+  name: Box Authorize Authorization Shield Information Barrier Reports API
+  slug: open-box-shield-information-barrier-reports-api
+- collection_type: open
+  name: Box Authorize Authorization Shield Information Barrier Segment Members API
+  slug: open-box-shield-information-barrier-segment-members-api
+- collection_type: open
+  name: Box Authorize Authorization Shield Information Barrier Segment Restrictions API
+  slug: open-box-shield-information-barrier-segment-restrictions-api
+- collection_type: open
+  name: Box Authorize Authorization Shield Information Barrier Segments API
+  slug: open-box-shield-information-barrier-segments-api
+- collection_type: open
+  name: Box Authorize Authorization Shield Information Barriers API
+  slug: open-box-shield-information-barriers-api
+- collection_type: open
+  name: Box Authorize Authorization Sign Requests API
+  slug: open-box-sign-requests-api
+- collection_type: open
+  name: Box Authorize Authorization Sign Templates API
+  slug: open-box-sign-templates-api
+- collection_type: open
+  name: Box Authorize Authorization Skill Invocations API
+  slug: open-box-skill-invocations-api
+- collection_type: open
+  name: Box Authorize Authorization Skills API
+  slug: open-box-skills-api
+- collection_type: open
+  name: Box Authorize Authorization Standard and Zones Storage Policies API
+  slug: open-box-standard-and-zones-storage-policies-api
+- collection_type: open
+  name: Box Authorize Authorization Standard and Zones Storage Policy Assignments API
+  slug: open-box-standard-and-zones-storage-policy-assignments-api
+- collection_type: open
+  name: Box Authorize Authorization Storage Policies API
+  slug: open-box-storage-policies-api
+- collection_type: open
+  name: Box Authorize Authorization Storage Policy Assignments API
+  slug: open-box-storage-policy-assignments-api
+- collection_type: open
+  name: Box Authorize Authorization Task Assignments API
+  slug: open-box-task-assignments-api
+- collection_type: open
+  name: Box Authorize Authorization Tasks API
+  slug: open-box-tasks-api
+- collection_type: open
+  name: Box Authorize Authorization Terms of Service API
+  slug: open-box-terms-of-service-api
+- collection_type: open
+  name: Box Authorize Authorization Terms of Service User Statuses API
+  slug: open-box-terms-of-service-user-statuses-api
+- collection_type: open
+  name: Box Authorize Authorization Terms of Services API
+  slug: open-box-terms-of-services-api
+- collection_type: open
+  name: Box Authorize Authorization Transfer Folders API
+  slug: open-box-transfer-folders-api
+- collection_type: open
+  name: Box Authorize Authorization Trashed Files API
+  slug: open-box-trashed-files-api
+- collection_type: open
+  name: Box Authorize Authorization Trashed Folders API
+  slug: open-box-trashed-folders-api
+- collection_type: open
+  name: Box Authorize Authorization Trashed Items API
+  slug: open-box-trashed-items-api
+- collection_type: open
+  name: Box Authorize Authorization Trashed Web Links API
+  slug: open-box-trashed-web-links-api
+- collection_type: open
+  name: Box Authorize Authorization Uploads API
+  slug: open-box-uploads-api
+- collection_type: open
+  name: Box Authorize Authorization Uploads (Chunked) API
+  slug: open-box-uploads-chunked-api
+- collection_type: open
+  name: Box Authorize Authorization User Avatars API
+  slug: open-box-user-avatars-api
+- collection_type: open
+  name: Box Authorize Authorization Users API
+  slug: open-box-users-api
+- collection_type: open
+  name: Box Authorize Authorization Watermarks (Files) API
+  slug: open-box-watermarks-files-api
+- collection_type: open
+  name: Box Authorize Authorization Watermarks (Folders) API
+  slug: open-box-watermarks-folders-api
+- collection_type: open
+  name: Box Authorize Authorization Web Links API
+  slug: open-box-web-links-api
+- collection_type: open
+  name: Box Authorize Authorization Webhooks API
+  slug: open-box-webhooks-api
+- collection_type: open
+  name: Box Authorize Authorization Workflows API
+  slug: open-box-workflows-api
+- collection_type: open
+  name: Box Authorize Authorization Zip Downloads API
+  slug: open-box-zip-downloads-api
 common:
 - group: build
   title: ''
@@ -1341,7 +1587,7 @@ plans:
 - name: Box Plans Pricing
   plan_count: 8
   slug: box-plans-pricing
-random_paper: 89
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Box Rate Limits
@@ -1388,7 +1634,7 @@ score:
       marker_coverage: 0.0
       total: 81
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/screenshots/box-2026-06-20T173623.png
 security:

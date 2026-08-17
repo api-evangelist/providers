@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'Evidation Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Evidation Health''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 78
+random_paper: 148
 score:
   band: emerging
   composite: 18.2
@@ -127,7 +127,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evidation-health/refs/heads/main/screenshots/evidation-health-2026-08-07T165048.png
 security:

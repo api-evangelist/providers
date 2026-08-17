@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -63,11 +63,38 @@ apis:
 - description: The Workspaces API from Intralinks — 2 operation(s) for workspaces.
   name: Intralinks Workspaces API
   slug: intralinks-workspaces-api
-artifact_total: 25
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Intralinks API
   slug: open-intralinks-api
+- collection_type: open
+  name: Intralinks Authentication API
+  slug: open-intralinks-authentication-api
+- collection_type: open
+  name: Intralinks Authentication Custom Fields API
+  slug: open-intralinks-custom-fields-api
+- collection_type: open
+  name: Intralinks Authentication Documents API
+  slug: open-intralinks-documents-api
+- collection_type: open
+  name: Intralinks Authentication Folders API
+  slug: open-intralinks-folders-api
+- collection_type: open
+  name: Intralinks Authentication Groups API
+  slug: open-intralinks-groups-api
+- collection_type: open
+  name: Intralinks Authentication Permissions API
+  slug: open-intralinks-permissions-api
+- collection_type: open
+  name: Intralinks Authentication Splash API
+  slug: open-intralinks-splash-api
+- collection_type: open
+  name: Intralinks Authentication Workspaces API
+  slug: open-intralinks-workspaces-api
 common:
 - group: agent
   title: ''
@@ -154,7 +181,7 @@ plans:
 - name: Intralinks Plans Pricing
   plan_count: 3
   slug: intralinks-plans-pricing
-random_paper: 7
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Intralinks Rate Limits
@@ -188,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/screenshots/intralinks-2026-06-20T183611.png
 security:

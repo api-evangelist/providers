@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -152,11 +152,138 @@ apis:
 - description: The voice_groups API from Syllable — 3 operation(s) for voice_groups.
   name: Syllable Voice Groups API
   slug: syllable-voice-groups-api
-artifact_total: 47
+artifact_total: 89
 asyncapis:
 - description: ''
   name: Syllable Outbound Webhooks
   slug: syllable-outbound-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SyllableSDK Agents API
+  slug: open-syllable-agents-api
+- collection_type: open
+  name: SyllableSDK Agents.test API
+  slug: open-syllable-agents-test-api
+- collection_type: open
+  name: SyllableSDK Bridge Phrases API
+  slug: open-syllable-bridge-phrases-api
+- collection_type: open
+  name: SyllableSDK Channels API
+  slug: open-syllable-channels-api
+- collection_type: open
+  name: SyllableSDK Channels.targets API
+  slug: open-syllable-channels-targets-api
+- collection_type: open
+  name: SyllableSDK Channels.twilio API
+  slug: open-syllable-channels-twilio-api
+- collection_type: open
+  name: SyllableSDK Channels.twilio.numbers API
+  slug: open-syllable-channels-twilio-numbers-api
+- collection_type: open
+  name: SyllableSDK Conversation Config API
+  slug: open-syllable-conversation-config-api
+- collection_type: open
+  name: SyllableSDK Conversations API
+  slug: open-syllable-conversations-api
+- collection_type: open
+  name: SyllableSDK Custom Messages API
+  slug: open-syllable-custom-messages-api
+- collection_type: open
+  name: SyllableSDK Dashboards API
+  slug: open-syllable-dashboards-api
+- collection_type: open
+  name: SyllableSDK Data Sources API
+  slug: open-syllable-data-sources-api
+- collection_type: open
+  name: SyllableSDK Directory API
+  slug: open-syllable-directory-api
+- collection_type: open
+  name: SyllableSDK Events API
+  slug: open-syllable-events-api
+- collection_type: open
+  name: SyllableSDK Incidents API
+  slug: open-syllable-incidents-api
+- collection_type: open
+  name: SyllableSDK Insights API
+  slug: open-syllable-insights-api
+- collection_type: open
+  name: SyllableSDK Insights.folders API
+  slug: open-syllable-insights-folders-api
+- collection_type: open
+  name: SyllableSDK Insights.tools API
+  slug: open-syllable-insights-tools-api
+- collection_type: open
+  name: SyllableSDK Insights.workflows API
+  slug: open-syllable-insights-workflows-api
+- collection_type: open
+  name: SyllableSDK Language Groups API
+  slug: open-syllable-language-groups-api
+- collection_type: open
+  name: SyllableSDK Organizations API
+  slug: open-syllable-organizations-api
+- collection_type: open
+  name: SyllableSDK Organizations.sip Ip Ranges API
+  slug: open-syllable-organizations-sip-ip-ranges-api
+- collection_type: open
+  name: SyllableSDK Outbound.batches API
+  slug: open-syllable-outbound-batches-api
+- collection_type: open
+  name: SyllableSDK Outbound.campaigns API
+  slug: open-syllable-outbound-campaigns-api
+- collection_type: open
+  name: SyllableSDK Permissions API
+  slug: open-syllable-permissions-api
+- collection_type: open
+  name: SyllableSDK Prompts API
+  slug: open-syllable-prompts-api
+- collection_type: open
+  name: SyllableSDK Pronunciations API
+  slug: open-syllable-pronunciations-api
+- collection_type: open
+  name: SyllableSDK Roles API
+  slug: open-syllable-roles-api
+- collection_type: open
+  name: SyllableSDK Services API
+  slug: open-syllable-services-api
+- collection_type: open
+  name: SyllableSDK Session Debug API
+  slug: open-syllable-session-debug-api
+- collection_type: open
+  name: SyllableSDK Session Labels API
+  slug: open-syllable-session-labels-api
+- collection_type: open
+  name: SyllableSDK Sessions API
+  slug: open-syllable-sessions-api
+- collection_type: open
+  name: SyllableSDK Sessions.full Summary API
+  slug: open-syllable-sessions-full-summary-api
+- collection_type: open
+  name: SyllableSDK Sessions.latency API
+  slug: open-syllable-sessions-latency-api
+- collection_type: open
+  name: SyllableSDK Sessions.timeline API
+  slug: open-syllable-sessions-timeline-api
+- collection_type: open
+  name: SyllableSDK Sessions.transcript API
+  slug: open-syllable-sessions-transcript-api
+- collection_type: open
+  name: SyllableSDK Takeouts API
+  slug: open-syllable-takeouts-api
+- collection_type: open
+  name: SyllableSDK Tools API
+  slug: open-syllable-tools-api
+- collection_type: open
+  name: SyllableSDK Users API
+  slug: open-syllable-users-api
+- collection_type: open
+  name: SyllableSDK V1 API
+  slug: open-syllable-v1-api
+- collection_type: open
+  name: SyllableSDK Voice Groups API
+  slug: open-syllable-voice-groups-api
 common:
 - group: other
   title: ''
@@ -333,7 +460,7 @@ overview: 'Syllable publishes 41 APIs on the [APIs.io](https://apis.io/) network
 
 
   Syllable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 16
+random_paper: 111
 score:
   band: strong
   composite: 59.5
@@ -363,7 +490,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

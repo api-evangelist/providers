@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -74,8 +74,35 @@ apis:
 - description: The Spaces API from Cloud Foundry — 2 operation(s) for spaces.
   name: Cloud Foundry Spaces API
   slug: cloud-foundry-spaces-api
-artifact_total: 18
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloud Foundry Cloud Controller API v3 Apps API
+  slug: open-cloud-foundry-apps-api
+- collection_type: open
+  name: Cloud Foundry Cloud Controller API v3 Apps Builds API
+  slug: open-cloud-foundry-builds-api
+- collection_type: open
+  name: Apps Cloud Foundry Cloud Controller API V3 API
+  slug: open-cloud-foundry-cloud-foundry-cloud-controller-api-v3-api
+- collection_type: open
+  name: Cloud Foundry Cloud Controller API v3 Apps Deployments API
+  slug: open-cloud-foundry-deployments-api
+- collection_type: open
+  name: Cloud Foundry Cloud Controller API v3 Apps Jobs API
+  slug: open-cloud-foundry-jobs-api
+- collection_type: open
+  name: Cloud Foundry Cloud Controller API v3 Apps Organizations API
+  slug: open-cloud-foundry-organizations-api
+- collection_type: open
+  name: Cloud Foundry Cloud Controller API v3 Apps Service Instances API
+  slug: open-cloud-foundry-service-instances-api
+- collection_type: open
+  name: Cloud Foundry Cloud Controller API v3 Apps Spaces API
+  slug: open-cloud-foundry-spaces-api
 - collection_type: open
   name: Cloud Foundry Cloud Controller API v3
   slug: open-cloud-foundry
@@ -164,7 +191,7 @@ overview: 'Cloud Foundry publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cloud Foundry''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 12 more developer resources.'
-random_paper: 35
+random_paper: 14
 rules:
 - name: Cloud Foundry API Rules
   rule_count: 10
@@ -194,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/screenshots/cloud-foundry-2026-06-20T174548.png
 security:

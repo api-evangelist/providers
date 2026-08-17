@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: Manage virtual servers that direct client traffic to appropriate server pools based on configured rules and profiles.
   name: F5 Networks Virtual Servers API
   slug: f5-networks-virtual-servers-api
-artifact_total: 151
+artifact_total: 157
 collections:
 - collection_type: postman
   name: F5 BIG-IP iControl REST Nodes API
@@ -99,8 +99,26 @@ collections:
   name: F5 BIG-IP iControl REST Nodes Virtual Servers API
   slug: postman-f5-networks-virtual-servers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: F5 BIG-IP iControl REST API
   slug: open-bigip-icontrol-rest
+- collection_type: open
+  name: F5 BIG-IP iControl REST Nodes API
+  slug: open-f5-networks-nodes-api
+- collection_type: open
+  name: F5 BIG-IP iControl REST Nodes Pool Members API
+  slug: open-f5-networks-pool-members-api
+- collection_type: open
+  name: F5 BIG-IP iControl REST Nodes Pools API
+  slug: open-f5-networks-pools-api
+- collection_type: open
+  name: F5 BIG-IP iControl REST Nodes Profiles API
+  slug: open-f5-networks-profiles-api
+- collection_type: open
+  name: F5 BIG-IP iControl REST Nodes Virtual Servers API
+  slug: open-f5-networks-virtual-servers-api
 common:
 - group: operate
   title: ''
@@ -549,7 +567,7 @@ plans:
 - name: F5 Networks Plans Pricing
   plan_count: 5
   slug: f5-networks-plans-pricing
-random_paper: 13
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: F5 Networks Rate Limits
@@ -591,7 +609,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/screenshots/f5-networks-2026-06-20T180959.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,11 +62,35 @@ apis:
 - description: Aggregated review scores across OTAs.
   name: Lighthouse Reviews API
   slug: lighthouse-travel-reviews-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lighthouse Integration Demand API
+  slug: open-lighthouse-travel-demand-api
+- collection_type: open
+  name: Lighthouse Integration Demand Hotels API
+  slug: open-lighthouse-travel-hotels-api
 - collection_type: open
   name: Lighthouse Integration API
   slug: open-lighthouse-travel-integration-api
+- collection_type: open
+  name: Lighthouse Integration Demand Market Insight API
+  slug: open-lighthouse-travel-market-insight-api
+- collection_type: open
+  name: Lighthouse Integration Demand Markets API
+  slug: open-lighthouse-travel-markets-api
+- collection_type: open
+  name: Lighthouse Integration Demand Parity API
+  slug: open-lighthouse-travel-parity-api
+- collection_type: open
+  name: Lighthouse Integration Demand Ranking API
+  slug: open-lighthouse-travel-ranking-api
+- collection_type: open
+  name: Lighthouse Integration Demand Rates API
+  slug: open-lighthouse-travel-rates-api
 common:
 - group: agent
   title: ''
@@ -217,7 +241,7 @@ overview: 'Lighthouse publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Lighthouse''s developer surface includes authentication, engineering blog, GitHub presence, YouTube channel, and 30 more developer resources.'
-random_paper: 103
+random_paper: 144
 score:
   band: thin
   composite: 29.3
@@ -238,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/screenshots/lighthouse-travel-2026-06-20T184520.png
 security:

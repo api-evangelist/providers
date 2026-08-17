@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,21 +51,36 @@ apis:
 - description: The User API from DeepSeek — 1 operation(s) for user.
   name: DeepSeek User API
   slug: deepseek-user-api
-artifact_total: 21
+artifact_total: 26
 asyncapis:
 - description: AsyncAPI definition for the streaming surface of the DeepSeek API. DeepSeek exposes an OpenAI-compatible HTTP API. When the `stream` request parameter is set to `true`, the server upgrades the respons
   name: DeepSeek Streaming API (HTTP + SSE)
   slug: deepseek-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DeepSeek Completion Chat API
+  slug: open-deepseek-chat-api
+- collection_type: open
   name: DeepSeek Chat Completion API
   slug: open-deepseek-chat-completion-api
+- collection_type: open
+  name: DeepSeek Completion Chat Completions API
+  slug: open-deepseek-completions-api
 - collection_type: open
   name: DeepSeek FIM Completion
   slug: open-deepseek-fim-completion
 - collection_type: open
   name: DeepSeek Models API
   slug: open-deepseek-lists-models-api
+- collection_type: open
+  name: DeepSeek Completion Chat Models API
+  slug: open-deepseek-models-api
+- collection_type: open
+  name: DeepSeek Completion Chat User API
+  slug: open-deepseek-user-api
 - collection_type: open
   name: DeepSeek User Balance API
   slug: open-deepseek-user-balance-api
@@ -170,7 +185,7 @@ plans:
 - name: Deepseek Plans Pricing
   plan_count: 2
   slug: deepseek-plans-pricing
-random_paper: 118
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Deepseek Rate Limits
@@ -236,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/screenshots/deepseek-2026-06-20T175812.png
 security:

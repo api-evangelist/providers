@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Catalog API from Hydrosat — 2 operation(s) for catalog.
@@ -46,7 +46,26 @@ apis:
 - description: The Search API from Hydrosat — 1 operation(s) for search.
   name: Hydrosat Search API
   slug: hydrosat-search-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hydrosat STAC Catalog API
+  slug: open-hydrosat-catalog-api
+- collection_type: open
+  name: Hydrosat STAC Catalog Collections API
+  slug: open-hydrosat-collections-api
+- collection_type: open
+  name: Hydrosat STAC Catalog Items API
+  slug: open-hydrosat-items-api
+- collection_type: open
+  name: Hydrosat STAC Catalog Queryables API
+  slug: open-hydrosat-queryables-api
+- collection_type: open
+  name: Hydrosat STAC Catalog Search API
+  slug: open-hydrosat-search-api
 common:
 - group: agent
   title: ''
@@ -140,7 +159,7 @@ overview: 'Hydrosat publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Hydrosat''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 12 more developer resources.'
-random_paper: 38
+random_paper: 133
 score:
   band: developing
   composite: 42.4
@@ -163,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/screenshots/hydrosat-2026-07-25T221835.png
 security:

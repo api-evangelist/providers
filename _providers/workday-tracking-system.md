@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -103,7 +103,7 @@ arazzos:
 - description: Read a worker's scheduling preferences, update them, and schedule a shift aligned to the preferred times.
   name: Workday Update Scheduling Preferences and Shift
   slug: workday-tracking-system-update-scheduling-preferences-and-shift-workflow
-artifact_total: 149
+artifact_total: 163
 collections:
 - collection_type: postman
   name: Workday Absence Management Accruals API
@@ -145,14 +145,56 @@ collections:
   name: Workday Absence Management Accruals Worker Preferences API
   slug: postman-workday-tracking-system-worker-preferences-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Workday Absence Management API
   slug: open-workday-tracking-system-absence-management
+- collection_type: open
+  name: Workday Absence Management Accruals API
+  slug: open-workday-tracking-system-accruals-api
+- collection_type: open
+  name: Workday Absence Management Accruals Balances API
+  slug: open-workday-tracking-system-balances-api
+- collection_type: open
+  name: Workday Absence Management Accruals Labor Demand API
+  slug: open-workday-tracking-system-labor-demand-api
+- collection_type: open
+  name: Workday Absence Management Accruals Leave of Absence API
+  slug: open-workday-tracking-system-leave-of-absence-api
+- collection_type: open
+  name: Workday Absence Management Accruals Scheduling Organizations API
+  slug: open-workday-tracking-system-scheduling-organizations-api
 - collection_type: open
   name: Workday Scheduling API
   slug: open-workday-tracking-system-scheduling
 - collection_type: open
+  name: Workday Absence Management Accruals Shifts API
+  slug: open-workday-tracking-system-shifts-api
+- collection_type: open
+  name: Workday Absence Management Accruals Time Blocks API
+  slug: open-workday-tracking-system-time-blocks-api
+- collection_type: open
+  name: Workday Absence Management Accruals Time Clock Events API
+  slug: open-workday-tracking-system-time-clock-events-api
+- collection_type: open
+  name: Workday Absence Management Accruals Time Off API
+  slug: open-workday-tracking-system-time-off-api
+- collection_type: open
+  name: Workday Absence Management Accruals Time Requests API
+  slug: open-workday-tracking-system-time-requests-api
+- collection_type: open
   name: Workday Time Tracking API
   slug: open-workday-tracking-system-time-tracking
+- collection_type: open
+  name: Workday Absence Management Accruals Timesheets API
+  slug: open-workday-tracking-system-timesheets-api
+- collection_type: open
+  name: Workday Absence Management Accruals Work Schedules API
+  slug: open-workday-tracking-system-work-schedules-api
+- collection_type: open
+  name: Workday Absence Management Accruals Worker Preferences API
+  slug: open-workday-tracking-system-worker-preferences-api
 common:
 - group: build
   title: ''
@@ -596,7 +638,7 @@ plans:
 - name: Workday Tracking System Plans Pricing
   plan_count: 1
   slug: workday-tracking-system-plans-pricing
-random_paper: 107
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Workday Tracking System Rate Limits
@@ -638,7 +680,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png
 security:

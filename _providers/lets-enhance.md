@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -48,11 +48,24 @@ apis:
 - description: Encompasses operations with videos.
   name: Let's Enhance Video API
   slug: lets-enhance-video-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Lets Enhance Claid Webhooks
   slug: lets-enhance-claid-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Claid REST Image API
+  slug: open-lets-enhance-image-api
+- collection_type: open
+  name: Claid REST Image Storage API
+  slug: open-lets-enhance-storage-api
+- collection_type: open
+  name: Claid REST Image Video API
+  slug: open-lets-enhance-video-api
 common:
 - group: auth
   title: ''
@@ -193,7 +206,7 @@ overview: 'Let''s Enhance publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Let''s Enhance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Lets Enhance Rate Limits
@@ -226,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/screenshots/lets-enhance-2026-07-25T224934.png
 security:

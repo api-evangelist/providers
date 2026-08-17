@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -63,7 +63,14 @@ apis:
 - description: MedAdvisor Pharmacy Unified API v2.0 from MedAdvisor — 44 path(s) described in OpenAPI.
   name: MedAdvisor Pharmacy Unified API v2.0
   slug: medadvisor-pharmacy-unified-v2-openapi
-artifact_total: 13
+artifact_total: 15
+collections:
+- collection_type: open
+  name: Pharmacy Unified API v2.0
+  slug: open-medadvisor-pharmacy-unified-v2
+- collection_type: open
+  name: Pharmacy Unified API v1.0
+  slug: open-medadvisor-pharmacy-unified
 common:
 - group: agent
   title: ''
@@ -190,7 +197,7 @@ overview: 'MedAdvisor publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   MedAdvisor''s developer surface includes authentication, API reference, documentation, support, and 23 more developer resources.'
-random_paper: 110
+random_paper: 27
 score:
   band: thin
   composite: 37.1
@@ -220,7 +227,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/screenshots/medadvisor-2026-08-07T172313.png
 security:

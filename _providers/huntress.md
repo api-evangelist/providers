@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -90,11 +90,69 @@ apis:
 - description: Operations about Users
   name: Huntress Users API
   slug: huntress-users-api
-artifact_total: 25
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Huntress Webhooks
   slug: huntress-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Huntress API Reference Accounts API
+  slug: open-huntress-accounts-api
+- collection_type: open
+  name: Huntress API Reference Accounts Actor API
+  slug: open-huntress-actor-api
+- collection_type: open
+  name: Huntress API Reference Accounts Agents API
+  slug: open-huntress-agents-api
+- collection_type: open
+  name: Huntress API Reference Accounts Escalations API
+  slug: open-huntress-escalations-api
+- collection_type: open
+  name: Huntress API Reference Accounts External Recon API
+  slug: open-huntress-external-recon-api
+- collection_type: open
+  name: Huntress API Reference Accounts Identities API
+  slug: open-huntress-identities-api
+- collection_type: open
+  name: Huntress API Reference Accounts Incident Reports API
+  slug: open-huntress-incident-reports-api
+- collection_type: open
+  name: Huntress API Reference Accounts Invoices API
+  slug: open-huntress-invoices-api
+- collection_type: open
+  name: Huntress API Reference Accounts Known VPNs API
+  slug: open-huntress-known-vpns-api
+- collection_type: open
+  name: Huntress API Reference Accounts Organizations API
+  slug: open-huntress-organizations-api
+- collection_type: open
+  name: Huntress API Reference Accounts Platform Actions API
+  slug: open-huntress-platform-actions-api
+- collection_type: open
+  name: Huntress API Reference Accounts Reseller API
+  slug: open-huntress-reseller-api
+- collection_type: open
+  name: Huntress API Reference Accounts SIEM API
+  slug: open-huntress-siem-api
+- collection_type: open
+  name: Huntress API Reference Accounts Signals API
+  slug: open-huntress-signals-api
+- collection_type: open
+  name: Huntress API Reference Accounts Summary Reports API
+  slug: open-huntress-summary-reports-api
+- collection_type: open
+  name: Huntress API Reference Accounts Unwanted Access Rules API
+  slug: open-huntress-unwanted-access-rules-api
+- collection_type: open
+  name: Huntress API Reference Accounts Users API
+  slug: open-huntress-users-api
+- collection_type: open
+  name: Huntress Webhooks
+  slug: open-huntress-webhooks
 common:
 - group: start
   title: ''
@@ -247,7 +305,7 @@ overview: 'Huntress publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Huntress'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 52
+random_paper: 147
 scopes:
 - name: Huntress Scopes
   scope_count: 1
@@ -276,7 +334,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/screenshots/huntress-2026-07-25T221735.png
 security:

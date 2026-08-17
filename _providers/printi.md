@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Modeled catalog surface for browsing Printi's printable product lines (business cards, flyers, stationery, labels, packaging, promotional items) and their configurable options - format, paper stock, f
@@ -71,7 +71,7 @@ name: Printi
 nav: Providers
 network: true
 overview: Printi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Printing, Print on Demand, Commercial Print, Marketplace, and Ecommerce.
-random_paper: 62
+random_paper: 66
 score:
   band: minimal
   composite: 6.5
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

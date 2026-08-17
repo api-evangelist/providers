@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Interactive engineering tools for bearing selection, bearing life calculation, tolerance lookup, lubrication, gear force calculations, and precision bearing selection. Accessible through Timken's engi
@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: The Timken Company
   url: https://www.facebook.com/timken/?locale=ro_RO
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Timken Rate Limits
@@ -159,7 +159,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 26.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/screenshots/timken-2026-06-20T195401.png
 security:

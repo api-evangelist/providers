@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 22
 apis:
 - description: The apps API from Replicated — 17 operation(s) for apps.
@@ -97,7 +97,7 @@ apis:
 - description: The vms API from Replicated — 8 operation(s) for vms.
   name: Replicated vms API
   slug: replicated-vms-api
-artifact_total: 50
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Replicated Notifications Webhooks
@@ -169,6 +169,75 @@ collections:
 - collection_type: postman
   name: Vendor API V3 apps vms API
   slug: postman-replicated-vms-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vendor API V3 apps API
+  slug: open-replicated-apps-api
+- collection_type: open
+  name: Vendor API V3 apps channelReleases API
+  slug: open-replicated-channelreleases-api
+- collection_type: open
+  name: Vendor API V3 apps channels API
+  slug: open-replicated-channels-api
+- collection_type: open
+  name: Vendor API V3 apps clusterAddons API
+  slug: open-replicated-clusteraddons-api
+- collection_type: open
+  name: Vendor API V3 apps clusters API
+  slug: open-replicated-clusters-api
+- collection_type: open
+  name: Vendor API V3 apps cmx API
+  slug: open-replicated-cmx-api
+- collection_type: open
+  name: Vendor API V3 apps customers API
+  slug: open-replicated-customers-api
+- collection_type: open
+  name: Vendor API V3 apps customHostnames API
+  slug: open-replicated-customhostnames-api
+- collection_type: open
+  name: Vendor API V3 apps enterprisePortal API
+  slug: open-replicated-enterpriseportal-api
+- collection_type: open
+  name: Vendor API V3 apps externalRegistries API
+  slug: open-replicated-externalregistries-api
+- collection_type: open
+  name: Vendor API V3 apps instances API
+  slug: open-replicated-instances-api
+- collection_type: open
+  name: Vendor API V3 apps networks API
+  slug: open-replicated-networks-api
+- collection_type: open
+  name: Vendor API V3 apps notifications API
+  slug: open-replicated-notifications-api
+- collection_type: open
+  name: Vendor API V3 apps policy API
+  slug: open-replicated-policy-api
+- collection_type: open
+  name: Vendor API V3 apps registry API
+  slug: open-replicated-registry-api
+- collection_type: open
+  name: Vendor API V3 apps releases API
+  slug: open-replicated-releases-api
+- collection_type: open
+  name: Vendor API V3 apps supportBundle API
+  slug: open-replicated-supportbundle-api
+- collection_type: open
+  name: Vendor API V3 apps team API
+  slug: open-replicated-team-api
+- collection_type: open
+  name: Vendor API V3 apps telemetry API
+  slug: open-replicated-telemetry-api
+- collection_type: open
+  name: Vendor API V3 apps user API
+  slug: open-replicated-user-api
+- collection_type: open
+  name: Vendor API V3 apps vmAddons API
+  slug: open-replicated-vmaddons-api
+- collection_type: open
+  name: Vendor API V3 apps vms API
+  slug: open-replicated-vms-api
 common:
 - group: other
   title: ''
@@ -337,7 +406,7 @@ overview: 'Replicated publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Replicated''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 93
+random_paper: 10
 score:
   band: strong
   composite: 63.7
@@ -360,7 +429,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

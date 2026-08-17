@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,8 +59,32 @@ apis:
 - description: The subpackage_voiceChanger API from Murf — 1 operation(s) for subpackage_voicechanger.
   name: Murf subpackage_voiceChanger API
   slug: murf-subpackage-voicechanger-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference subpackage_auth API
+  slug: open-murf-subpackage-auth-api
+- collection_type: open
+  name: API Reference subpackage_auth subpackage_dubbing.subpackage_dubbing/jobs API
+  slug: open-murf-subpackage-dubbing-subpackage-dubbing-jobs-api
+- collection_type: open
+  name: API Reference subpackage_auth subpackage_dubbing.subpackage_dubbing/languages API
+  slug: open-murf-subpackage-dubbing-subpackage-dubbing-languages-api
+- collection_type: open
+  name: API Reference subpackage_auth subpackage_dubbing.subpackage_dubbing/projects API
+  slug: open-murf-subpackage-dubbing-subpackage-dubbing-projects-api
+- collection_type: open
+  name: API Reference subpackage_auth subpackage_text API
+  slug: open-murf-subpackage-text-api
+- collection_type: open
+  name: API Reference subpackage_auth subpackage_textToSpeech API
+  slug: open-murf-subpackage-texttospeech-api
+- collection_type: open
+  name: API Reference subpackage_auth subpackage_voiceChanger API
+  slug: open-murf-subpackage-voicechanger-api
 - collection_type: open
   name: API Reference
   slug: open-murf
@@ -133,7 +157,7 @@ plans:
 - name: Murf Plans Pricing
   plan_count: 3
   slug: murf-plans-pricing
-random_paper: 82
+random_paper: 144
 rate_limits:
 - limit_count: 4
   name: Murf Rate Limits
@@ -158,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/screenshots/murf-2026-06-20T185902.png
 security:

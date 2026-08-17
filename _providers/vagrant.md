@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -60,7 +60,7 @@ apis:
 - description: Endpoints for managing versions of a Vagrant box, including creating new versions and releasing them for consumption.
   name: Vagrant Versions API
   slug: vagrant-versions-api
-artifact_total: 27
+artifact_total: 33
 collections:
 - collection_type: postman
   name: Vagrant Cloud Boxes API
@@ -78,11 +78,29 @@ collections:
   name: Vagrant Cloud Boxes Versions API
   slug: postman-vagrant-versions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vagrant Cloud Boxes API
+  slug: open-vagrant-boxes-api
+- collection_type: open
   name: Vagrant Cloud API
   slug: open-vagrant-cloud-api
 - collection_type: open
   name: HCP Vagrant Box Registry API
   slug: open-vagrant-hcp-vagrant-box-registry
+- collection_type: open
+  name: Vagrant Cloud Boxes Providers API
+  slug: open-vagrant-providers-api
+- collection_type: open
+  name: Vagrant Cloud Boxes Registries API
+  slug: open-vagrant-registries-api
+- collection_type: open
+  name: Vagrant Cloud Boxes Search API
+  slug: open-vagrant-search-api
+- collection_type: open
+  name: Vagrant Cloud Boxes Versions API
+  slug: open-vagrant-versions-api
 common:
 - group: build
   title: ''
@@ -195,7 +213,7 @@ plans:
 - name: Vagrant Plans Pricing
   plan_count: 3
   slug: vagrant-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Vagrant Rate Limits
@@ -237,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/screenshots/vagrant-2026-06-20T200805.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -102,8 +102,26 @@ apis:
 - description: The Topic API from Trieve — 1 operation(s) for topic.
   name: Trieve Topic API
   slug: trieve-topic-api
-artifact_total: 28
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trieve REST Chunk API
+  slug: open-trieve-chunk-api
+- collection_type: open
+  name: Trieve REST Chunk Dataset API
+  slug: open-trieve-dataset-api
+- collection_type: open
+  name: Trieve REST Chunk File API
+  slug: open-trieve-file-api
+- collection_type: open
+  name: Trieve REST Chunk Message API
+  slug: open-trieve-message-api
+- collection_type: open
+  name: Trieve REST Chunk Topic API
+  slug: open-trieve-topic-api
 - collection_type: open
   name: Trieve REST API
   slug: open-trieve
@@ -168,7 +186,7 @@ plans:
 - name: Trieve Plans Pricing
   plan_count: 1
   slug: trieve-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Trieve Rate Limits
@@ -193,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/screenshots/trieve-2026-06-20T195811.png
 security:

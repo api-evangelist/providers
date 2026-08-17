@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
@@ -74,11 +74,57 @@ apis:
 - description: Webhooks provide a mechanism for a configured URL to receive events when transaction activity occurs on Up. You can think of webhooks as being like push notifications for your server-side application.
   name: Bendigo and Adelaide Bank Webhooks API
   slug: bendigo-and-adelaide-bank-webhooks-api
-artifact_total: 20
+artifact_total: 35
 asyncapis:
 - description: Real-time webhook event callbacks delivered by Up to a subscriber-configured HTTPS URL when transaction activity occurs on an Up account. Each delivery carries an X-Up-Authenticity-Signature header (S
   name: Up Developer API Webhooks
   slug: bendigo-and-adelaide-bank-up-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Accounts API
+  slug: open-bendigo-and-adelaide-bank-accounts-api
+- collection_type: open
+  name: CDR Banking Accounts Attachments API
+  slug: open-bendigo-and-adelaide-bank-attachments-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Balances API
+  slug: open-bendigo-and-adelaide-bank-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Direct Debits API
+  slug: open-bendigo-and-adelaide-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Scheduled Payments API
+  slug: open-bendigo-and-adelaide-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Transactions API
+  slug: open-bendigo-and-adelaide-bank-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Accounts API
+  slug: open-bendigo-and-adelaide-bank-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Payees API
+  slug: open-bendigo-and-adelaide-bank-banking-payees-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Products API
+  slug: open-bendigo-and-adelaide-bank-banking-products-api
+- collection_type: open
+  name: CDR Banking Accounts Categories API
+  slug: open-bendigo-and-adelaide-bank-categories-api
+- collection_type: open
+  name: CDR Banking Accounts Tags API
+  slug: open-bendigo-and-adelaide-bank-tags-api
+- collection_type: open
+  name: CDR Banking Accounts Transactions API
+  slug: open-bendigo-and-adelaide-bank-transactions-api
+- collection_type: open
+  name: CDR Banking Accounts Utility endpoints API
+  slug: open-bendigo-and-adelaide-bank-utility-endpoints-api
+- collection_type: open
+  name: CDR Banking Accounts Webhooks API
+  slug: open-bendigo-and-adelaide-bank-webhooks-api
 common:
 - group: operate
   title: ''
@@ -231,7 +277,7 @@ overview: 'Bendigo and Adelaide Bank publishes 14 APIs on the [APIs.io](https://
 
 
   Bendigo and Adelaide Bank''s developer surface includes developer portal, documentation, support, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 111
+random_paper: 7
 scopes:
 - name: Bendigo And Adelaide Bank Scopes
   scope_count: 10
@@ -265,7 +311,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png
 security:

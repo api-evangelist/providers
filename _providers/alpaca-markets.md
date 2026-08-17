@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -86,12 +86,60 @@ apis:
 - description: User watchlists.
   name: Alpaca Watchlists API
   slug: alpaca-markets-watchlists-api
-artifact_total: 23
+artifact_total: 39
 asyncapis:
 - description: AsyncAPI 2.6 description of Alpaca's **real-time market data WebSocket API**. Unlike many providers, Alpaca publishes a genuine, documented public WebSocket (`wss://`) surface for streaming market dat
   name: Alpaca Market Data Streaming (WebSocket)
   slug: alpaca-markets-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account API
+  slug: open-alpaca-markets-account-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Assets API
+  slug: open-alpaca-markets-assets-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Broker - Accounts API
+  slug: open-alpaca-markets-broker-accounts-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Broker - Funding API
+  slug: open-alpaca-markets-broker-funding-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Broker - Trading API
+  slug: open-alpaca-markets-broker-trading-api
+- collection_type: open
+  name: Alpaca API (Trading, Data, Broker) Account Market API
+  slug: open-alpaca-markets-market-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Market Data - Crypto API
+  slug: open-alpaca-markets-market-data-crypto-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Market Data - News API
+  slug: open-alpaca-markets-market-data-news-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Market Data - Options API
+  slug: open-alpaca-markets-market-data-options-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Market Data - Screener API
+  slug: open-alpaca-markets-market-data-screener-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Market Data - Stocks API
+  slug: open-alpaca-markets-market-data-stocks-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Orders API
+  slug: open-alpaca-markets-orders-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Portfolio API
+  slug: open-alpaca-markets-portfolio-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Positions API
+  slug: open-alpaca-markets-positions-api
+- collection_type: open
+  name: Alpaca API (Trading, Market Data, Broker) Account Watchlists API
+  slug: open-alpaca-markets-watchlists-api
 - collection_type: open
   name: Alpaca API
   slug: open-alpaca-markets
@@ -155,7 +203,7 @@ plans:
 - name: Alpaca Markets Plans Pricing
   plan_count: 5
   slug: alpaca-markets-plans-pricing
-random_paper: 94
+random_paper: 73
 rate_limits:
 - limit_count: 7
   name: Alpaca Markets Rate Limits
@@ -195,7 +243,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/screenshots/alpaca-markets-2026-07-25T195746.png
 slug: alpaca-markets

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 12
@@ -75,11 +75,48 @@ apis:
 - description: '[WorkBoard''s help center documentation on Workstreams.](https://support.workboard.com/hc/en-us/articles/115005163567-Workstreams#workstreams-0-0)'
   name: WorkBoard Workstream API
   slug: workboard-workstream-api
-artifact_total: 20
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Workboard Webhooks
   slug: workboard-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) Activity (Action Items) API
+  slug: open-workboard-activity-action-items-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) custom-attributes API
+  slug: open-workboard-custom-attributes-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) Datastream API
+  slug: open-workboard-datastream-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) Goal (Objective) API
+  slug: open-workboard-goal-objective-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) Metric (Key Result) API
+  slug: open-workboard-metric-key-result-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) Tags API
+  slug: open-workboard-tags-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) Team API
+  slug: open-workboard-team-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) User API
+  slug: open-workboard-user-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) User Goals (User Objectives) API
+  slug: open-workboard-user-goals-user-objectives-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) Webhook API
+  slug: open-workboard-webhook-api
+- collection_type: open
+  name: WorkBoard External Public Activity (Action Items) Activity (Action Items) Workstream API
+  slug: open-workboard-workstream-api
 common:
 - group: other
   title: ''
@@ -231,7 +268,7 @@ overview: 'WorkBoard publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   WorkBoard''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 11
+random_paper: 77
 score:
   band: strong
   composite: 56.4
@@ -255,7 +292,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

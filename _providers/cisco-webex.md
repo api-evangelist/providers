@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1056
   human_in_the_loop: 204
@@ -98,7 +98,7 @@ arazzos:
 - description: Create a meeting and post its join link as a message into a room.
   name: Cisco Webex Schedule a Meeting and Notify a Room
   slug: cisco-webex-schedule-meeting-and-notify-room-workflow
-artifact_total: 118
+artifact_total: 126
 collections:
 - collection_type: postman
   name: Cisco Webex Admin Audit Events API
@@ -161,14 +161,29 @@ collections:
   name: Cisco Webex Admin Audit Events API
   slug: open-cisco-webex-admin-audit-events
 - collection_type: open
+  name: Webex Admin
+  slug: open-cisco-webex-admin
+- collection_type: open
   name: Cisco Webex Attachment Actions API
   slug: open-cisco-webex-attachment-actions
+- collection_type: open
+  name: Webex Broadworks Calling
+  slug: open-cisco-webex-broadworks
 - collection_type: open
   name: Cisco Webex Call Controls API
   slug: open-cisco-webex-call-controls
 - collection_type: open
+  name: Webex Cloud Calling
+  slug: open-cisco-webex-cloud-calling
+- collection_type: open
+  name: Webex Contact Center
+  slug: open-cisco-webex-contact-center
+- collection_type: open
   name: Cisco Webex Converged Recordings API
   slug: open-cisco-webex-converged-recordings
+- collection_type: open
+  name: Webex Device
+  slug: open-cisco-webex-device
 - collection_type: open
   name: Cisco Webex Devices API
   slug: open-cisco-webex-devices
@@ -179,13 +194,16 @@ collections:
   name: Cisco Webex Licenses API
   slug: open-cisco-webex-licenses
 - collection_type: open
+  name: Webex Meetings
+  slug: open-cisco-webex-meeting
+- collection_type: open
   name: Cisco Webex Meetings API
   slug: open-cisco-webex-meetings
 - collection_type: open
   name: Cisco Webex Memberships API
   slug: open-cisco-webex-memberships
 - collection_type: open
-  name: Cisco Webex Messaging API
+  name: Webex Messaging
   slug: open-cisco-webex-messaging
 - collection_type: open
   name: Cisco Webex Organizations API
@@ -209,8 +227,14 @@ collections:
   name: Cisco Webex Teams API
   slug: open-cisco-webex-teams
 - collection_type: open
+  name: Webex for UCM
+  slug: open-cisco-webex-ucm
+- collection_type: open
   name: Cisco Webex Webhooks API
   slug: open-cisco-webex-webhooks
+- collection_type: open
+  name: Webex Wholesale
+  slug: open-cisco-webex-wholesale
 - collection_type: open
   name: Cisco Webex Workspaces API
   slug: open-cisco-webex-workspaces
@@ -601,7 +625,7 @@ plans:
 - name: Cisco Webex Plans Pricing
   plan_count: 4
   slug: cisco-webex-plans-pricing
-random_paper: 33
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Cisco Webex Rate Limits
@@ -650,7 +674,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/screenshots/cisco-webex-2026-06-20T174405.png
 security:

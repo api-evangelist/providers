@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -156,11 +156,131 @@ apis:
 - description: Create, list, update, and delete webhook subscriptions
   name: Deel Webhooks API
   slug: deel-com-webhooks-api
-artifact_total: 86
+artifact_total: 126
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Deel ATS API
   slug: open-deel-ats-api
+- collection_type: open
+  name: Deel ATS Adjustments API
+  slug: open-deel-com-adjustments-api
+- collection_type: open
+  name: Deel ATS Adjustments Applications API
+  slug: open-deel-com-applications-api
+- collection_type: open
+  name: Deel ATS Adjustments Candidates API
+  slug: open-deel-com-candidates-api
+- collection_type: open
+  name: Deel ATS Adjustments Contractor Amendments API
+  slug: open-deel-com-contractor-amendments-api
+- collection_type: open
+  name: Deel ATS Adjustments Contractor Hiring API
+  slug: open-deel-com-contractor-hiring-api
+- collection_type: open
+  name: Deel ATS Adjustments Contracts API
+  slug: open-deel-com-contracts-api
+- collection_type: open
+  name: Deel ATS Adjustments Custom Fields API
+  slug: open-deel-com-custom-fields-api
+- collection_type: open
+  name: Deel ATS Adjustments Deel IT API
+  slug: open-deel-com-deel-it-api
+- collection_type: open
+  name: Deel ATS Adjustments EOR Amendments API
+  slug: open-deel-com-eor-amendments-api
+- collection_type: open
+  name: Deel ATS Adjustments EOR Benefits API
+  slug: open-deel-com-eor-benefits-api
+- collection_type: open
+  name: Deel ATS Adjustments EOR Cost Calculator API
+  slug: open-deel-com-eor-cost-calculator-api
+- collection_type: open
+  name: Deel ATS Adjustments EOR Hiring API
+  slug: open-deel-com-eor-hiring-api
+- collection_type: open
+  name: Deel ATS Adjustments EOR Terminations API
+  slug: open-deel-com-eor-terminations-api
+- collection_type: open
+  name: Deel ATS Adjustments EOR Worker Information API
+  slug: open-deel-com-eor-worker-information-api
+- collection_type: open
+  name: Deel ATS Adjustments Global Payroll API
+  slug: open-deel-com-global-payroll-api
+- collection_type: open
+  name: Deel ATS Adjustments GP Hiring API
+  slug: open-deel-com-gp-hiring-api
+- collection_type: open
+  name: Deel ATS Adjustments IC Invoicing Taxes API
+  slug: open-deel-com-ic-invoicing-taxes-api
+- collection_type: open
+  name: Deel ATS Adjustments Immigration API
+  slug: open-deel-com-immigration-api
+- collection_type: open
+  name: Deel ATS Adjustments Invoice Adjustments API
+  slug: open-deel-com-invoice-adjustments-api
+- collection_type: open
+  name: Deel ATS Adjustments Jobs API
+  slug: open-deel-com-jobs-api
+- collection_type: open
+  name: Deel ATS Adjustments Legal Entities API
+  slug: open-deel-com-legal-entities-api
+- collection_type: open
+  name: Deel ATS Adjustments Lookups API
+  slug: open-deel-com-lookups-api
+- collection_type: open
+  name: Deel ATS Adjustments Magic Link API
+  slug: open-deel-com-magic-link-api
+- collection_type: open
+  name: Deel ATS Adjustments Managers API
+  slug: open-deel-com-managers-api
+- collection_type: open
+  name: Deel ATS Adjustments Milestones API
+  slug: open-deel-com-milestones-api
+- collection_type: open
+  name: Deel ATS Adjustments Off Cycle API
+  slug: open-deel-com-off-cycle-api
+- collection_type: open
+  name: Deel ATS Adjustments Offers API
+  slug: open-deel-com-offers-api
+- collection_type: open
+  name: Deel ATS Adjustments Organizations API
+  slug: open-deel-com-organizations-api
+- collection_type: open
+  name: Deel ATS Adjustments Payslips API
+  slug: open-deel-com-payslips-api
+- collection_type: open
+  name: Deel ATS Adjustments Paystubs API
+  slug: open-deel-com-paystubs-api
+- collection_type: open
+  name: Deel ATS Adjustments People API
+  slug: open-deel-com-people-api
+- collection_type: open
+  name: Deel ATS Adjustments Reference Data API
+  slug: open-deel-com-reference-data-api
+- collection_type: open
+  name: Deel ATS Adjustments SCIM API
+  slug: open-deel-com-scim-api
+- collection_type: open
+  name: Deel ATS Adjustments Screenings API
+  slug: open-deel-com-screenings-api
+- collection_type: open
+  name: Deel ATS Adjustments Time Off API
+  slug: open-deel-com-time-off-api
+- collection_type: open
+  name: Deel ATS Adjustments Time Tracking API
+  slug: open-deel-com-time-tracking-api
+- collection_type: open
+  name: Deel ATS Adjustments Timesheets API
+  slug: open-deel-com-timesheets-api
+- collection_type: open
+  name: Deel ATS Adjustments Webhook Events API
+  slug: open-deel-com-webhook-events-api
+- collection_type: open
+  name: Deel ATS Adjustments Webhooks API
+  slug: open-deel-com-webhooks-api
 - collection_type: open
   name: Deel Contractors API
   slug: open-deel-contractors-api
@@ -389,7 +509,7 @@ plans:
 - name: Deel Com Plans Pricing
   plan_count: 15
   slug: deel-com-plans-pricing
-random_paper: 54
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Deel Com Rate Limits
@@ -423,7 +543,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/screenshots/deel-com-2026-06-20T175806.png
 security:

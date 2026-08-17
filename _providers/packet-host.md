@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 4
@@ -158,7 +158,131 @@ apis:
 - description: VRF Management. A VRF is a project-scoped virtual router resource that defines a collection of customer-managed IP blocks that can be used in BGP peering on one or more virtual networks. Metal Gateway
   name: Packet Host VRFs API
   slug: packet-host-vrfs-api
-artifact_total: 44
+artifact_total: 85
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Metal Authentication API
+  slug: open-packet-host-authentication-api
+- collection_type: open
+  name: Metal Authentication Batches API
+  slug: open-packet-host-batches-api
+- collection_type: open
+  name: Metal Authentication BGP API
+  slug: open-packet-host-bgp-api
+- collection_type: open
+  name: Metal Authentication Capacity API
+  slug: open-packet-host-capacity-api
+- collection_type: open
+  name: Metal Authentication Console Log Details API
+  slug: open-packet-host-console-log-details-api
+- collection_type: open
+  name: Metal Authentication Devices API
+  slug: open-packet-host-devices-api
+- collection_type: open
+  name: Metal Authentication Emails API
+  slug: open-packet-host-emails-api
+- collection_type: open
+  name: Metal Authentication Events API
+  slug: open-packet-host-events-api
+- collection_type: open
+  name: Metal Authentication Facilities API
+  slug: open-packet-host-facilities-api
+- collection_type: open
+  name: Metal Authentication Firmware Sets API
+  slug: open-packet-host-firmware-sets-api
+- collection_type: open
+  name: Metal Authentication HardwareReservations API
+  slug: open-packet-host-hardwarereservations-api
+- collection_type: open
+  name: Metal Authentication Incidents API
+  slug: open-packet-host-incidents-api
+- collection_type: open
+  name: Metal Authentication Interconnections API
+  slug: open-packet-host-interconnections-api
+- collection_type: open
+  name: Metal Authentication Invitations API
+  slug: open-packet-host-invitations-api
+- collection_type: open
+  name: Metal Authentication Invoices API
+  slug: open-packet-host-invoices-api
+- collection_type: open
+  name: Metal Authentication IPAddresses API
+  slug: open-packet-host-ipaddresses-api
+- collection_type: open
+  name: Metal Authentication Licenses API
+  slug: open-packet-host-licenses-api
+- collection_type: open
+  name: Metal Authentication Memberships API
+  slug: open-packet-host-memberships-api
+- collection_type: open
+  name: Metal Authentication MetalGateways API
+  slug: open-packet-host-metalgateways-api
+- collection_type: open
+  name: Metal Authentication Metros API
+  slug: open-packet-host-metros-api
+- collection_type: open
+  name: Metal Authentication OperatingSystems API
+  slug: open-packet-host-operatingsystems-api
+- collection_type: open
+  name: Metal Authentication Organizations API
+  slug: open-packet-host-organizations-api
+- collection_type: open
+  name: Metal Authentication OTPs API
+  slug: open-packet-host-otps-api
+- collection_type: open
+  name: Metal Authentication PasswordResetTokens API
+  slug: open-packet-host-passwordresettokens-api
+- collection_type: open
+  name: Metal Authentication PaymentMethods API
+  slug: open-packet-host-paymentmethods-api
+- collection_type: open
+  name: Metal Authentication Plans API
+  slug: open-packet-host-plans-api
+- collection_type: open
+  name: Metal Authentication Ports API
+  slug: open-packet-host-ports-api
+- collection_type: open
+  name: Metal Authentication Projects API
+  slug: open-packet-host-projects-api
+- collection_type: open
+  name: Metal Authentication SelfServiceReservations API
+  slug: open-packet-host-selfservicereservations-api
+- collection_type: open
+  name: Metal Authentication SpotMarket API
+  slug: open-packet-host-spotmarket-api
+- collection_type: open
+  name: Metal Authentication SSHKeys API
+  slug: open-packet-host-sshkeys-api
+- collection_type: open
+  name: Metal Authentication SupportRequest API
+  slug: open-packet-host-supportrequest-api
+- collection_type: open
+  name: Metal Authentication TransferRequests API
+  slug: open-packet-host-transferrequests-api
+- collection_type: open
+  name: Metal Authentication TwoFactorAuth API
+  slug: open-packet-host-twofactorauth-api
+- collection_type: open
+  name: Metal Authentication Usages API
+  slug: open-packet-host-usages-api
+- collection_type: open
+  name: Metal Authentication Userdata API
+  slug: open-packet-host-userdata-api
+- collection_type: open
+  name: Metal Authentication Users API
+  slug: open-packet-host-users-api
+- collection_type: open
+  name: Metal Authentication UserVerificationTokens API
+  slug: open-packet-host-userverificationtokens-api
+- collection_type: open
+  name: Metal Authentication VLANs API
+  slug: open-packet-host-vlans-api
+- collection_type: open
+  name: Metal Authentication VRFs API
+  slug: open-packet-host-vrfs-api
 common:
 - group: start
   title: ''
@@ -268,7 +392,7 @@ overview: 'Packet Host publishes 40 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Packet Host''s developer surface includes documentation, API reference, authentication, CLI, and 19 more developer resources.'
-random_paper: 43
+random_paper: 80
 score:
   band: developing
   composite: 43.1
@@ -292,7 +416,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/screenshots/packet-host-2026-08-07T191242.png
 security:

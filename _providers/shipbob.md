@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -69,12 +69,45 @@ apis:
 - description: The subpackage_webhooks API from ShipBob — 2 operation(s) for subpackage_webhooks.
   name: ShipBob subpackage_webhooks API
   slug: shipbob-subpackage-webhooks-api
-artifact_total: 21
+artifact_total: 32
 asyncapis:
 - description: AsyncAPI 2.6 specification modeling the ShipBob webhook event surface. ShipBob webhooks allow applications to subscribe to events that occur in a ShipBob merchant account (order shipments, returns, wa
   name: ShipBob Webhooks
   slug: shipbob-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference subpackage_billing API
+  slug: open-shipbob-subpackage-billing-api
+- collection_type: open
+  name: API Reference subpackage_billing subpackage_channels API
+  slug: open-shipbob-subpackage-channels-api
+- collection_type: open
+  name: API Reference subpackage_billing subpackage_inventory API
+  slug: open-shipbob-subpackage-inventory-api
+- collection_type: open
+  name: API Reference subpackage_billing subpackage_locations API
+  slug: open-shipbob-subpackage-locations-api
+- collection_type: open
+  name: API Reference subpackage_billing subpackage_orders API
+  slug: open-shipbob-subpackage-orders-api
+- collection_type: open
+  name: API Reference subpackage_billing subpackage_products API
+  slug: open-shipbob-subpackage-products-api
+- collection_type: open
+  name: API Reference subpackage_billing subpackage_receiving API
+  slug: open-shipbob-subpackage-receiving-api
+- collection_type: open
+  name: API Reference subpackage_billing subpackage_returns API
+  slug: open-shipbob-subpackage-returns-api
+- collection_type: open
+  name: API Reference subpackage_billing subpackage_simulations API
+  slug: open-shipbob-subpackage-simulations-api
+- collection_type: open
+  name: API Reference subpackage_billing subpackage_webhooks API
+  slug: open-shipbob-subpackage-webhooks-api
 - collection_type: open
   name: API Reference
   slug: open-shipbob
@@ -170,7 +203,7 @@ plans:
 - name: Shipbob Plans Pricing
   plan_count: 1
   slug: shipbob-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 1
   name: Shipbob Rate Limits
@@ -204,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/screenshots/shipbob-2026-06-20T193812.png
 security:

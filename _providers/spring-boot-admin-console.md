@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -59,8 +59,20 @@ apis:
 - description: Application instance monitoring and management
   name: Spring Boot Admin Console Instances API
   slug: spring-boot-admin-console-instances-api
-artifact_total: 21
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spring Boot Admin Server Applications API
+  slug: open-spring-boot-admin-console-applications-api
+- collection_type: open
+  name: Spring Boot Admin Server Applications Events API
+  slug: open-spring-boot-admin-console-events-api
+- collection_type: open
+  name: Spring Boot Admin Server Applications Instances API
+  slug: open-spring-boot-admin-console-instances-api
 - collection_type: open
   name: Spring Boot Admin Server API
   slug: open-spring-boot-admin-console
@@ -150,7 +162,7 @@ plans:
 - name: Spring Boot Admin Console Plans Pricing
   plan_count: 1
   slug: spring-boot-admin-console-plans-pricing
-random_paper: 106
+random_paper: 122
 rate_limits:
 - limit_count: 1
   name: Spring Boot Admin Console Rate Limits
@@ -192,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: spring-boot-admin-console
 tags:

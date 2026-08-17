@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-12'
+  score: 61.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -38,7 +38,7 @@ agentic_access:
   operation_count: 402
   slug: benchling-agentic-access
   summary_line: 402 operations · 234 acting
-api_count: 57
+api_count: 58
 apis:
 - description: AA Sequences are the working units of cells that make everything run (they help make structures, catalyze reactions and allow for signaling - a kind of internal cell communication). On Benchling, thes
   name: Benchling AA Sequences API
@@ -211,8 +211,298 @@ apis:
 - description: Workflow tasks encapsulate a single unit of work
   name: Benchling Workflow Tasks API
   slug: benchling-workflow-tasks-api
-artifact_total: 935
+- description: Benchling's unified v3 REST API — a single contract of 805 paths and 874 operations spanning the electronic lab notebook, entity registry, inventory, assay results and runs, and workflow and procedure
+  name: Benchling API v3
+  slug: benchling-v3-api
+artifact_total: 997
+asyncapis:
+- description: ''
+  name: Benchling Webhooks
+  slug: benchling-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Benchling AA Sequences API
+  slug: open-benchling-aa-sequences-api
+- collection_type: open
+  name: Benchling AA Sequences Apps API
+  slug: open-benchling-apps-api
+- collection_type: open
+  name: Benchling AA Sequences Assay Results API
+  slug: open-benchling-assay-results-api
+- collection_type: open
+  name: Benchling AA Sequences Assay Runs API
+  slug: open-benchling-assay-runs-api
+- collection_type: open
+  name: Benchling AA Sequences Audit API
+  slug: open-benchling-audit-api
+- collection_type: open
+  name: Benchling AA Sequences Authentication API
+  slug: open-benchling-authentication-api
+- collection_type: open
+  name: Benchling AA Sequences Blobs API
+  slug: open-benchling-blobs-api
+- collection_type: open
+  name: Benchling AA Sequences Boxes API
+  slug: open-benchling-boxes-api
+- collection_type: open
+  name: Benchling AA Sequences Codon Usage Tables API
+  slug: open-benchling-codon-usage-tables-api
+- collection_type: open
+  name: Benchling AA Sequences Connect API
+  slug: open-benchling-connect-api
+- collection_type: open
+  name: Benchling AA Sequences Containers API
+  slug: open-benchling-containers-api
+- collection_type: open
+  name: Benchling AA Sequences Custom Entities API
+  slug: open-benchling-custom-entities-api
+- collection_type: open
+  name: Benchling AA Sequences Custom Notations API
+  slug: open-benchling-custom-notations-api
+- collection_type: open
+  name: Benchling AA Sequences Data Frames API
+  slug: open-benchling-data-frames-api
+- collection_type: open
+  name: Benchling AA Sequences Datasets API
+  slug: open-benchling-datasets-api
+- collection_type: open
+  name: Benchling AA Sequences DNA Alignments API
+  slug: open-benchling-dna-alignments-api
+- collection_type: open
+  name: Benchling AA Sequences DNA Oligos API
+  slug: open-benchling-dna-oligos-api
+- collection_type: open
+  name: Benchling AA Sequences DNA Sequences API
+  slug: open-benchling-dna-sequences-api
+- collection_type: open
+  name: Benchling AA Sequences Dropdowns API
+  slug: open-benchling-dropdowns-api
+- collection_type: open
+  name: Benchling AA Sequences Entities API
+  slug: open-benchling-entities-api
+- collection_type: open
+  name: Benchling AA Sequences Entries API
+  slug: open-benchling-entries-api
+- collection_type: open
+  name: Benchling AA Sequences Enzymes API
+  slug: open-benchling-enzymes-api
+- collection_type: open
+  name: Benchling AA Sequences Events API
+  slug: open-benchling-events-api
+- collection_type: open
+  name: Benchling AA Sequences Exports API
+  slug: open-benchling-exports-api
+- collection_type: open
+  name: Benchling AA Sequences Feature Libraries API
+  slug: open-benchling-feature-libraries-api
+- collection_type: open
+  name: Benchling AA Sequences Files API
+  slug: open-benchling-files-api
+- collection_type: open
+  name: Benchling AA Sequences Folders API
+  slug: open-benchling-folders-api
+- collection_type: open
+  name: Benchling AA Sequences Instrument Queries API
+  slug: open-benchling-instrument-queries-api
+- collection_type: open
+  name: Benchling AA Sequences Inventory API
+  slug: open-benchling-inventory-api
+- collection_type: open
+  name: Benchling AA Sequences Lab Automation API
+  slug: open-benchling-lab-automation-api
+- collection_type: open
+  name: Benchling AA Sequences Label Templates API
+  slug: open-benchling-label-templates-api
+- collection_type: open
+  name: Benchling AA Sequences Legacy Requests API
+  slug: open-benchling-legacy-requests-api
+- collection_type: open
+  name: Benchling AA Sequences Legacy Workflows API
+  slug: open-benchling-legacy-workflows-api
+- collection_type: open
+  name: Benchling AA Sequences Legacy Workflows (deprecated) API
+  slug: open-benchling-legacy-workflows-deprecated-api
+- collection_type: open
+  name: Benchling AA Sequences Locations API
+  slug: open-benchling-locations-api
+- collection_type: open
+  name: Benchling AA Sequences Mixtures API
+  slug: open-benchling-mixtures-api
+- collection_type: open
+  name: Benchling AA Sequences Molecules API
+  slug: open-benchling-molecules-api
+- collection_type: open
+  name: Benchling AA Sequences Monomers API
+  slug: open-benchling-monomers-api
+- collection_type: open
+  name: Benchling AA Sequences Nucleotide Alignments API
+  slug: open-benchling-nucleotide-alignments-api
+- collection_type: open
+  name: Benchling AA Sequences Oligos API
+  slug: open-benchling-oligos-api
+- collection_type: open
+  name: Benchling AA Sequences Organizations API
+  slug: open-benchling-organizations-api
+- collection_type: open
+  name: Benchling AA Sequences Plates API
+  slug: open-benchling-plates-api
+- collection_type: open
+  name: Benchling AA Sequences Printers API
+  slug: open-benchling-printers-api
+- collection_type: open
+  name: Benchling AA Sequences Projects API
+  slug: open-benchling-projects-api
+- collection_type: open
+  name: Benchling AA Sequences Registry API
+  slug: open-benchling-registry-api
+- collection_type: open
+  name: Benchling AA Sequences RNA Oligos API
+  slug: open-benchling-rna-oligos-api
+- collection_type: open
+  name: Benchling AA Sequences RNA Sequences API
+  slug: open-benchling-rna-sequences-api
+- collection_type: open
+  name: Benchling AA Sequences Schemas API
+  slug: open-benchling-schemas-api
+- collection_type: open
+  name: Benchling AA Sequences Tasks API
+  slug: open-benchling-tasks-api
+- collection_type: open
+  name: Benchling AA Sequences Teams API
+  slug: open-benchling-teams-api
+- collection_type: open
+  name: Benchling AA Sequences Users API
+  slug: open-benchling-users-api
+- collection_type: open
+  name: Benchling AA Sequences Warehouse API
+  slug: open-benchling-warehouse-api
+- collection_type: open
+  name: Benchling AA Sequences Workflow Flowchart Config Versions API
+  slug: open-benchling-workflow-flowchart-config-versions-api
+- collection_type: open
+  name: Benchling AA Sequences Workflow Flowcharts API
+  slug: open-benchling-workflow-flowcharts-api
+- collection_type: open
+  name: Benchling AA Sequences Workflow Outputs API
+  slug: open-benchling-workflow-outputs-api
+- collection_type: open
+  name: Benchling AA Sequences Workflow Task Groups API
+  slug: open-benchling-workflow-task-groups-api
+- collection_type: open
+  name: Benchling AA Sequences Workflow Tasks API
+  slug: open-benchling-workflow-tasks-api
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/benchling-v3-openapi.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/benchling-v3-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/benchling-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/benchling-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/benchling-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/benchling-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/benchling-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/benchling-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/benchling-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/benchling-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/benchling-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: lifecycle/benchling-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/benchling-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/benchling-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/benchling-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/benchling-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/benchling-trust-center.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.benchling.com/developer-platform
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://benchling.com/api/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.benchling.com/docs/getting-started-benchling-apps
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.benchling.com/hc/en-us/requests/new
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.benchling.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://benchling.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.benchling.com/agreements-and-terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.benchling.com/privacy
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.benchling.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2922,22 +3212,26 @@ json_schemas:
   property_count: 0
   slug: WorksheetUpdatedReviewSnapshotBetaEvent
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: benchling-mcp.yml
+  slug: benchling-mcpyml
+modified: '2026-08-15'
 name: Benchling
 nav: Providers
 network: true
-overview: 'Benchling publishes 57 APIs on the [APIs.io](https://apis.io/) network, including AA Sequences API, Apps API, Assay Results API, and 54 more. Tagged areas include Life Sciences, Biotech, R&D, Molecular Biology, and Laboratory Information Management.
+overview: 'Benchling publishes 58 APIs on the [APIs.io](https://apis.io/) network, including AA Sequences API, Apps API, Assay Results API, and 55 more. Tagged areas include Life Sciences, Biotech, R&D, Molecular Biology, and Laboratory Information Management.
 
 
-  The Benchling catalog on APIs.io includes 1 Spectral governance ruleset.
+  The Benchling catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Benchling''s developer surface includes authentication, documentation, changelog, engineering blog, status page, and 17 more developer resources.'
+  Benchling''s developer surface includes changelog, API reference, getting-started guide, support, pricing, signup flow, authentication, and 42 more developer resources.'
 plans:
 - name: Benchling Plans Pricing
   plan_count: 3
   slug: benchling-plans-pricing
-random_paper: 98
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Benchling Rate Limits
@@ -2957,16 +3251,16 @@ scopes:
   slug: benchling-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 48.3
-  delta: 0.0
+  band: exemplar
+  composite: 75.6
+  delta: 27.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 55.2
-    developer_ergonomics: 34.8
-    discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 60.5
+    commercial_clarity: 100.0
+    contract_quality: 63.0
+    developer_ergonomics: 73.9
+    discoverability: 75.9
+    governance: 79.2
+    operational_transparency: 84.2
   previous_composite: 48.3
   provenance:
     agentic_access: derived
@@ -2980,10 +3274,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 36.3
+    score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png
 security:
 - kind: authentication
@@ -2994,6 +3288,10 @@ security:
   name: Benchling Domain Security
   slug: benchling-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Benchling Trust Center
+  slug: benchling-trust-center
+  summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2025
 slug: benchling
 tags:
 - Life Sciences
@@ -3008,4 +3306,5 @@ tags:
 - Experiment Workflows
 - REST
 - Webhooks
+website: https://www.benchling.com/developer-platform
 ---

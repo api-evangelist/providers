@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,11 +57,15 @@ apis:
 - description: In-call Plugin (Apps) API for building custom experiences inside the Coviu video room — adding UI elements, connecting to third-party systems, and enriching the clinical encounter. Documented as a cli
   name: Coviu Plugin API
   slug: coviu-plugin-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Coviu Webhooks
   slug: coviu-webhooks
+collections:
+- collection_type: open
+  name: Coviu REST API
+  slug: open-coviu-rest-api
 common:
 - group: auth
   title: ''
@@ -214,7 +218,7 @@ overview: 'Coviu publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Coviu''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 26 more developer resources.'
-random_paper: 70
+random_paper: 103
 scopes:
 - name: Coviu Scopes
   scope_count: 0
@@ -249,7 +253,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/screenshots/coviu-2026-07-25T210604.png
 security:

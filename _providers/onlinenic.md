@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: OnlineNIC offers a RESTful API with JSON format response for our partners to directly manage their products and orders. We intends to help our partners automate the purchase process and enpower them t
@@ -61,7 +61,7 @@ plans:
 - name: Onlinenic Plans Pricing
   plan_count: 3
   slug: onlinenic-plans-pricing
-random_paper: 119
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Onlinenic Rate Limits
@@ -79,7 +79,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 9.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/screenshots/onlinenic-2026-06-20T190720.png
 security:

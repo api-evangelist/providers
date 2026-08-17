@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The external-v2 API from Mem — 44 operation(s) for external-v2.
   name: Mem external-v2 API
   slug: mem-external-v2-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mem Public Client CoreApi__service-info API
+  slug: open-mem-coreapi-service-info-api
+- collection_type: open
+  name: Mem Public Client CoreApi__service-info external API
+  slug: open-mem-external-api
+- collection_type: open
+  name: Mem Public Client CoreApi__service-info external-v0 API
+  slug: open-mem-external-v0-api
+- collection_type: open
+  name: Mem Public Client CoreApi__service-info external-v1 API
+  slug: open-mem-external-v1-api
+- collection_type: open
+  name: Mem Public Client CoreApi__service-info external-v2 API
+  slug: open-mem-external-v2-api
 common:
 - group: start
   title: ''
@@ -199,7 +218,7 @@ overview: 'Mem publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Mem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 79
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Mem Rate Limits
@@ -232,7 +251,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/screenshots/mem-2026-08-07T172453.png
 security:

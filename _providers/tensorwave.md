@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Queue-backed batch inference and worker coordination.
@@ -36,7 +36,26 @@ apis:
 - description: Megatron-LM training jobs, chunked dataset upload, checkpoints and Hugging Face publishing.
   name: TensorWave Training API
   slug: tensorwave-training-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ScalarLM Generate API
+  slug: open-tensorwave-generate-api
+- collection_type: open
+  name: ScalarLM Health API
+  slug: open-tensorwave-health-api
+- collection_type: open
+  name: ScalarLM Open AI API
+  slug: open-tensorwave-openai-api
+- collection_type: open
+  name: ScalarLM Slurm API
+  slug: open-tensorwave-slurm-api
+- collection_type: open
+  name: ScalarLM Training API
+  slug: open-tensorwave-training-api
 common:
 - group: agent
   title: ''
@@ -158,7 +177,7 @@ overview: 'TensorWave publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TensorWave''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, changelog, and 20 more developer resources.'
-random_paper: 22
+random_paper: 59
 score:
   band: developing
   composite: 46.4
@@ -181,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

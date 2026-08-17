@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: Launch Wizard deployment management
   name: Amazon Launch Wizard Deployments API
   slug: amazon-launch-wizard-deployments-api
-artifact_total: 29
+artifact_total: 31
 collections:
 - collection_type: postman
   name: Amazon Launch Wizard Deployments API
   slug: postman-amazon-launch-wizard-deployments-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Launch Wizard Deployments API
+  slug: open-amazon-launch-wizard-deployments-api
 - collection_type: open
   name: Amazon Launch Wizard API
   slug: open-amazon-launch-wizard
@@ -195,7 +201,7 @@ plans:
 - name: Amazon Launch Wizard Plans Pricing
   plan_count: 3
   slug: amazon-launch-wizard-plans-pricing
-random_paper: 108
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Amazon Launch Wizard Rate Limits
@@ -237,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/screenshots/amazon-launch-wizard-2026-06-20T171723.png
 security:

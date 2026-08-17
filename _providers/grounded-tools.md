@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,11 +44,20 @@ apis:
 - description: Web-based management interface for documentation sources, library browsing, job monitoring, and search.
   name: Grounded.tools Web UI API
   slug: grounded-tools-web-ui-api
-artifact_total: 14
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: grounded.tools Docs MCP Server API
   slug: open-grounded-tools-docs-mcp-server
+- collection_type: open
+  name: grounded.tools Docs MCP Server MCP Transport API
+  slug: open-grounded-tools-mcp-transport-api
+- collection_type: open
+  name: grounded.tools Docs MCP Server MCP Transport Web UI API
+  slug: open-grounded-tools-web-ui-api
 common:
 - group: operate
   title: ''
@@ -116,7 +125,7 @@ plans:
 - name: Grounded Tools Plans Pricing
   plan_count: 3
   slug: grounded-tools-plans-pricing
-random_paper: 22
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Grounded Tools Rate Limits
@@ -150,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/screenshots/grounded-tools-2026-06-20T182414.png
 security:

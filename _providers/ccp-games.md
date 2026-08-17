@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -131,7 +131,104 @@ apis:
 - description: The Wars API from CCP Games — 3 operation(s) for wars.
   name: CCP Games Wars API
   slug: ccp-games-wars-api
-artifact_total: 37
+artifact_total: 69
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance API
+  slug: open-ccp-games-alliance-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Assets API
+  slug: open-ccp-games-assets-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Calendar API
+  slug: open-ccp-games-calendar-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Character API
+  slug: open-ccp-games-character-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Clones API
+  slug: open-ccp-games-clones-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Contacts API
+  slug: open-ccp-games-contacts-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Contracts API
+  slug: open-ccp-games-contracts-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Corporation API
+  slug: open-ccp-games-corporation-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Dogma API
+  slug: open-ccp-games-dogma-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Faction Warfare API
+  slug: open-ccp-games-faction-warfare-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Fittings API
+  slug: open-ccp-games-fittings-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Fleets API
+  slug: open-ccp-games-fleets-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Incursions API
+  slug: open-ccp-games-incursions-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Industry API
+  slug: open-ccp-games-industry-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Insurance API
+  slug: open-ccp-games-insurance-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Killmails API
+  slug: open-ccp-games-killmails-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Location API
+  slug: open-ccp-games-location-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Loyalty API
+  slug: open-ccp-games-loyalty-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Mail API
+  slug: open-ccp-games-mail-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Market API
+  slug: open-ccp-games-market-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Meta API
+  slug: open-ccp-games-meta-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Planetary Interaction API
+  slug: open-ccp-games-planetary-interaction-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Routes API
+  slug: open-ccp-games-routes-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Search API
+  slug: open-ccp-games-search-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Skills API
+  slug: open-ccp-games-skills-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Sovereignty API
+  slug: open-ccp-games-sovereignty-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Status API
+  slug: open-ccp-games-status-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Universe API
+  slug: open-ccp-games-universe-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance User Interface API
+  slug: open-ccp-games-user-interface-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Wallet API
+  slug: open-ccp-games-wallet-api
+- collection_type: open
+  name: EVE Swagger Incineration (ESI) - tranquility Alliance Wars API
+  slug: open-ccp-games-wars-api
 common:
 - group: agent
   title: ''
@@ -261,7 +358,7 @@ overview: 'CCP Games publishes 31 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 40
+random_paper: 135
 scopes:
 - name: Ccp Games Scopes
   scope_count: 70
@@ -290,7 +387,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/screenshots/ccp-games-2026-07-25T204826.png
 security:

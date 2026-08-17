@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Per-device opt-in cost controls for QPU tasks.
   name: AWS Braket SpendingLimits API
   slug: aws-braket-spendinglimits-api
-artifact_total: 51
+artifact_total: 55
 collections:
 - collection_type: postman
   name: AWS Braket Devices API
@@ -72,19 +72,31 @@ collections:
   name: AWS Braket Devices Tags API
   slug: postman-aws-braket-tags-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: AWS Braket Devices API
   slug: open-aws-braket-devices-api
 - collection_type: open
   name: AWS Braket Hybrid Jobs API
   slug: open-aws-braket-hybrid-jobs-api
 - collection_type: open
+  name: AWS Braket Devices HybridJobs API
+  slug: open-aws-braket-hybridjobs-api
+- collection_type: open
   name: AWS Braket Quantum Tasks API
   slug: open-aws-braket-quantum-tasks-api
+- collection_type: open
+  name: AWS Braket Devices QuantumTasks API
+  slug: open-aws-braket-quantumtasks-api
 - collection_type: open
   name: AWS Braket Spending Limits API
   slug: open-aws-braket-spending-limits-api
 - collection_type: open
-  name: AWS Braket Tags API
+  name: AWS Braket Devices SpendingLimits API
+  slug: open-aws-braket-spendinglimits-api
+- collection_type: open
+  name: AWS Braket Devices Tags API
   slug: open-aws-braket-tags-api
 common:
 - group: build
@@ -356,7 +368,7 @@ plans:
 - name: Aws Braket Plans Pricing
   plan_count: 5
   slug: aws-braket-plans-pricing
-random_paper: 49
+random_paper: 115
 rate_limits:
 - limit_count: 0
   name: Aws Braket Rate Limits
@@ -398,7 +410,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/screenshots/aws-braket-2026-06-20T172752.png
 security:

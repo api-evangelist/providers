@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The CommunicationRequest API from Lifen — 3 operation(s) for communicationrequest.
@@ -53,7 +53,7 @@ apis:
 - description: The Token API from Lifen — 1 operation(s) for token.
   name: Lifen Token API
   slug: lifen-token-api
-artifact_total: 20
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Lifen Platform Webhooks
@@ -80,6 +80,30 @@ collections:
 - collection_type: postman
   name: lifen-authentication-api CommunicationRequest Token API
   slug: postman-lifen-token-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: lifen-authentication-api CommunicationRequest API
+  slug: open-lifen-communicationrequest-api
+- collection_type: open
+  name: lifen-authentication-api CommunicationRequest Coverage API
+  slug: open-lifen-coverage-api
+- collection_type: open
+  name: lifen-authentication-api CommunicationRequest Encounter API
+  slug: open-lifen-encounter-api
+- collection_type: open
+  name: lifen-authentication-api CommunicationRequest Organization API
+  slug: open-lifen-organization-api
+- collection_type: open
+  name: lifen-authentication-api CommunicationRequest Patient API
+  slug: open-lifen-patient-api
+- collection_type: open
+  name: lifen-authentication-api CommunicationRequest Practitioner API
+  slug: open-lifen-practitioner-api
+- collection_type: open
+  name: lifen-authentication-api CommunicationRequest Token API
+  slug: open-lifen-token-api
 common:
 - group: build
   title: ''
@@ -241,7 +265,7 @@ overview: 'Lifen publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lifen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 6
   name: Lifen Rate Limits
@@ -279,7 +303,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,8 +46,20 @@ apis:
 - description: User-driven reporting of invalid clues.
   name: jService Moderation API
   slug: jservice-moderation-api
-artifact_total: 19
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: jService Trivia Categories API
+  slug: open-jservice-categories-api
+- collection_type: open
+  name: jService Trivia Categories Clues API
+  slug: open-jservice-clues-api
+- collection_type: open
+  name: jService Trivia Categories Moderation API
+  slug: open-jservice-moderation-api
 - collection_type: open
   name: jService Trivia API
   slug: open-jservice
@@ -134,7 +146,7 @@ overview: 'jService publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   The jService catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 19
+random_paper: 114
 rules:
 - name: jService API Rules
   rule_count: 5
@@ -172,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/screenshots/jservice-2026-06-20T183813.png
 security:

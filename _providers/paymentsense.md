@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -41,11 +41,24 @@ arazzos:
 - description: List a terminal, start a card transaction on it, and poll to the outcome.
   name: Paymentsense Pay-At-Counter — take a card payment
   slug: paymentsense-pac-take-payment
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Paymentsense Connect Events
   slug: paymentsense-connect-events
+collections:
+- collection_type: open
+  name: Connect-E Development Environment
+  slug: open-paymentsense-connect-e-v0
+- collection_type: open
+  name: Connect REST API
+  slug: open-paymentsense-connect-v0
+- collection_type: open
+  name: Connect REST API
+  slug: open-paymentsense-connect-v1
+- collection_type: open
+  name: Connect REST API
+  slug: open-paymentsense-connect-v2
 common:
 - group: auth
   title: ''
@@ -191,7 +204,7 @@ overview: 'Paymentsense publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Paymentsense''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 24 more developer resources.'
-random_paper: 108
+random_paper: 116
 score:
   band: developing
   composite: 52.5
@@ -221,7 +234,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/screenshots/paymentsense-2026-08-07T191642.png
 security:

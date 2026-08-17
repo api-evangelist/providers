@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,19 +18,30 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 37.4
+  scored_at: '2026-08-17'
+api_count: 2
+apis:
+- description: 'REST service for managing the customer (cliente) records behind Atom''s WhatsApp conversations. The provider knowledge base documents three operations: create or update a customer, retrieve the list of'
+  name: Atom Customers API
+  slug: customers
+- description: REST service for sending pre-approved WhatsApp template messages from an account's official WhatsApp number. The documented send endpoint is POST /api/Template/SendMessage, taking templateId, phoneNum
+  name: Atom WhatsApp Templates API
+  slug: templates
+artifact_total: 7
+asyncapis:
+- description: ''
+  name: Atom Webhooks
+  slug: atom-webhooks
 common:
 - group: company
   title: ''
@@ -47,7 +58,27 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://atomchat.io/blog/
+  url: https://atomchat.io/blog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://soporte.atomchat.io/knowledge/aprende-a-probar-tu-api-en-postman-y-configurarlas-en-las-peticiones-http-de-atom
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://atomchat.io/espanol/precio
+- group: start
+  title: ''
+  type: Login
+  url: https://app.atomchat.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://atomchat.io/legal/terminos-y-condiciones
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://atomchat.io/legal/politica-de-privacidad
 - group: auth
   title: ''
   type: Authentication
@@ -60,40 +91,83 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/atom-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/atom-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/atom-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/atom-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/atom-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/atom-rate-limits.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/atom-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/atom-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/atom-packages.yml
 created: '2026-07-17'
 description: Atom (atomchat.io) is a Panama-based conversational-commerce platform whose multimodal AI Agents combine text, voice, image, and CRM data to run human-like WhatsApp conversations that qualify leads and close sales for businesses across Latin America. Founded in 2019 by Erick Holmann and Rene Mouynes and backed by Techstars and Mucker Capital, Atom connects WhatsApp click-to-chat ads to an AI agent that engages and qualifies prospects, then hands sales-ready leads to human reps. It exposes a Customers API and a WhatsApp template-message API, both authenticated with an account API key configured from the Atom admin panel.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atom.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: ATOM
 nav: Providers
 network: true
-overview: 'ATOM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, WhatsApp, Artificial Intelligence, and Conversational Commerce.
+overview: 'ATOM publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, WhatsApp, Artificial Intelligence, and Conversational Commerce.
 
 
-  ATOM''s developer surface includes documentation, support, engineering blog, authentication, and 3 more developer resources.'
-random_paper: 73
+  The ATOM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  ATOM''s developer surface includes documentation, support, engineering blog, getting-started guide, pricing, authentication, and 14 more developer resources.'
+plans:
+- name: Atom Plans Pricing
+  plan_count: 4
+  slug: atom-plans-pricing
+random_paper: 135
+rate_limits:
+- limit_count: 0
+  name: Atom Rate Limits
+  slug: atom-rate-limits
 score:
-  band: minimal
-  composite: 11.0
-  delta: 0.0
+  band: developing
+  composite: 45.7
+  delta: 34.7
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 26.1
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 76.3
+    contract_quality: 51.6
+    developer_ergonomics: 37.0
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 7.9
   previous_composite: 11.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/atom/refs/heads/main/screenshots/atom-2026-07-25T201559.png
 security:
 - kind: authentication
   name: Atom Authentication
   slug: atom-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Atom Domain Security
   slug: atom-domain-security

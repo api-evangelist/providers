@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Business Details API from Mamo — 2 operation(s) for business details.
@@ -67,7 +67,7 @@ apis:
 - description: The Webhooks API from Mamo — 2 operation(s) for webhooks.
   name: Mamo Webhooks API
   slug: mamo-webhooks-api
-artifact_total: 30
+artifact_total: 43
 asyncapis:
 - description: Webhook event surface for the Mamo Business API. Merchants register a webhook URL via POST /webhooks with a set of enabled_events; Mamo POSTs a JSON event payload to that URL when the corresponding ev
   name: Mamo Business Webhooks
@@ -109,6 +109,45 @@ collections:
 - collection_type: postman
   name: Mamo Business Business Details Webhooks API
   slug: postman-mamo-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mamo Business Business Details API
+  slug: open-mamo-business-details-api
+- collection_type: open
+  name: Mamo Business Business Details Cards API
+  slug: open-mamo-cards-api
+- collection_type: open
+  name: Mamo Business Business Details Expenses API
+  slug: open-mamo-expenses-api
+- collection_type: open
+  name: Mamo Business Business Details Getting Started API
+  slug: open-mamo-getting-started-api
+- collection_type: open
+  name: Mamo Business Business Details Invoices API
+  slug: open-mamo-invoices-api
+- collection_type: open
+  name: Mamo Business Business Details Payment Links API
+  slug: open-mamo-payment-links-api
+- collection_type: open
+  name: Mamo Business Business Details Payouts API
+  slug: open-mamo-payouts-api
+- collection_type: open
+  name: Mamo Business Business Details Receipts API
+  slug: open-mamo-receipts-api
+- collection_type: open
+  name: Mamo Business Business Details Recipients API
+  slug: open-mamo-recipients-api
+- collection_type: open
+  name: Mamo Business Business Details Subscriptions API
+  slug: open-mamo-subscriptions-api
+- collection_type: open
+  name: Mamo Business Business Details Transactions API
+  slug: open-mamo-transactions-api
+- collection_type: open
+  name: Mamo Business Business Details Webhooks API
+  slug: open-mamo-webhooks-api
 common:
 - group: agent
   title: ''
@@ -249,7 +288,7 @@ overview: 'Mamo publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
-random_paper: 66
+random_paper: 128
 score:
   band: strong
   composite: 59.6
@@ -278,7 +317,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/screenshots/mamo-2026-07-25T230010.png
 security:

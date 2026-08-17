@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -12,14 +13,21 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-12'
-api_count: 2
+  score: 60.1
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Photon Agentic Access
+  operation_count: 0
+  slug: photon-agentic-access
+  summary_line: 0 operations
+api_count: 3
 apis:
 - description: Photon's native GraphQL Clinical API for managing patients, prescriptions, orders, pharmacies, the treatment/medication catalog, drug-drug and drug-allergy interaction screening, webhooks, and organiz
   name: Photon Clinical API
@@ -27,7 +35,10 @@ apis:
 - description: 'Photon''s GraphQL Patient Benefits API for managing patient benefits and enabling pharmacy benefit checks (coverage options, copay, and formulary) during the prescribing workflow. Served over the same '
   name: Photon Patient Benefits API
   slug: photon-patient-benefits-api
-artifact_total: 7
+- description: 'Photon''s public website API, covering the onboarding funnel and newsletter signup: create or resume an onboarding session, save path-specific onboarding answers, submit a completed onboarding flow, an'
+  name: Photon Website API
+  slug: photon-website-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Photon Order Events Webhooks
@@ -157,6 +168,50 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/photon-website-api-openapi.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/photon-website-api-overlay.yaml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/photon-api-catalog.json
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/photon-agentic-access.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/photon-trust-center.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/photon-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/photon-rate-limits.yml
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@photon.health
+- group: start
+  title: ''
+  type: Login
+  url: https://app.photon.health/login
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://photonhealth.com/faq
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/photon-docs-llms.txt
 created: '2026-07-24'
 description: Photon Health is a United States prescription-infrastructure and e-prescribing (eRx) platform that lets digital-health companies embed prescribing, pharmacy selection, prescription routing, and fulfillment tracking into their clinical applications. Rather than an HL7 FHIR interface, Photon exposes a native GraphQL Clinical API - a single POST /graphql endpoint covering patients, prescriptions, orders, pharmacies, the medication/treatment catalog, drug-drug and drug-allergy screening, webhooks, and organization/user administration - plus a Patient Benefits API for pharmacy benefit checks and coverage. It also ships Photon Elements, prebuilt WebComponent UI for prescribing. The API is secured with OAuth2 client-credentials (Auth0) using machine-to-machine and user access tokens and prescription/order scopes; a sandbox runs on neutron.health. Photon serves prescribers and pharmacy-innovation partners including Amazon Pharmacy, Sesame, WeightWatchers, and Found.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
@@ -169,14 +224,22 @@ modified: '2026-07-24T18:00:00Z'
 name: Photon
 nav: Providers
 network: true
-overview: 'Photon publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, e-Prescribing, Pharmacy, and Prescription Routing.
+overview: 'Photon publishes 1 API on the [APIs.io](https://apis.io/) network: Website API. Tagged areas include Healthcare, United States, e-Prescribing, Pharmacy, and Prescription Routing.
 
 
   The Photon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Photon''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, sandbox, and 24 more developer resources.'
-random_paper: 64
+  Photon''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, sandbox, and 35 more developer resources.'
+plans:
+- name: Photon Plans Pricing
+  plan_count: 0
+  slug: photon-plans-pricing
+random_paper: 68
+rate_limits:
+- limit_count: 0
+  name: Photon Rate Limits
+  slug: photon-rate-limits
 scopes:
 - name: Photon Scopes
   scope_count: 6
@@ -184,14 +247,14 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 54.5
+  delta: 5.7
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 51.6
-    developer_ergonomics: 64.7
-    discoverability: 87.0
-    governance: 3.1
+    commercial_clarity: 50.0
+    contract_quality: 62.3
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 48.8
   provenance:
@@ -205,8 +268,8 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Photon Authentication
@@ -216,6 +279,10 @@ security:
   name: Photon Domain Security
   slug: photon-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Photon Trust Center
+  slug: photon-trust-center
+  summary_line: SOC 2, HIPAA
 slug: photon
 tags:
 - Healthcare

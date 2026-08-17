@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 376
   human_in_the_loop: 13
@@ -276,7 +276,248 @@ apis:
 - description: The Workspaces API from Keboola — 24 operation(s) for workspaces.
   name: Keboola Workspaces API
   slug: keboola-workspaces-api
-artifact_total: 477
+artifact_total: 557
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AI Service Actions API
+  slug: open-keboola-actions-api
+- collection_type: open
+  name: AI Service Actions Admin Apps API
+  slug: open-keboola-admin-apps-api
+- collection_type: open
+  name: AI Service Actions Admin Stacks API
+  slug: open-keboola-admin-stacks-api
+- collection_type: open
+  name: AI Service Actions Admin Users API
+  slug: open-keboola-admin-users-api
+- collection_type: open
+  name: AI Service Actions Admin Vendors API
+  slug: open-keboola-admin-vendors-api
+- collection_type: open
+  name: AI Service Actions App API
+  slug: open-keboola-app-api
+- collection_type: open
+  name: AI Service Actions Auth API
+  slug: open-keboola-auth-api
+- collection_type: open
+  name: AI Service Actions Authorize API
+  slug: open-keboola-authorize-api
+- collection_type: open
+  name: AI Service Actions Branch metadata API
+  slug: open-keboola-branch-metadata-api
+- collection_type: open
+  name: AI Service Actions Buckets API
+  slug: open-keboola-buckets-api
+- collection_type: open
+  name: AI Service Actions Columns API
+  slug: open-keboola-columns-api
+- collection_type: open
+  name: AI Service Actions Component Configuration Metadata API
+  slug: open-keboola-component-configuration-metadata-api
+- collection_type: open
+  name: AI Service Actions Component Configuration Row Versions API
+  slug: open-keboola-component-configuration-row-versions-api
+- collection_type: open
+  name: AI Service Actions Component Configuration Rows API
+  slug: open-keboola-component-configuration-rows-api
+- collection_type: open
+  name: AI Service Actions Component Configuration Versions API
+  slug: open-keboola-component-configuration-versions-api
+- collection_type: open
+  name: AI Service Actions Component Configurations API
+  slug: open-keboola-component-configurations-api
+- collection_type: open
+  name: AI Service Actions Components API
+  slug: open-keboola-components-api
+- collection_type: open
+  name: AI Service Actions configuration API
+  slug: open-keboola-configuration-api
+- collection_type: open
+  name: AI Service Actions Configurations Jobs API
+  slug: open-keboola-configurations-jobs-api
+- collection_type: open
+  name: AI Service Actions Consumers API
+  slug: open-keboola-consumers-api
+- collection_type: open
+  name: AI Service Actions Credentials API
+  slug: open-keboola-credentials-api
+- collection_type: open
+  name: AI Service Actions Credits API
+  slug: open-keboola-credits-api
+- collection_type: open
+  name: AI Service Actions Data Apps API
+  slug: open-keboola-data-apps-api
+- collection_type: open
+  name: AI Service Actions Deleted Projects API
+  slug: open-keboola-deleted-projects-api
+- collection_type: open
+  name: AI Service Actions Description API
+  slug: open-keboola-description-api
+- collection_type: open
+  name: AI Service Actions Documentation API
+  slug: open-keboola-documentation-api
+- collection_type: open
+  name: AI Service Actions Duration API
+  slug: open-keboola-duration-api
+- collection_type: open
+  name: AI Service Actions Encrypt API
+  slug: open-keboola-encrypt-api
+- collection_type: open
+  name: AI Service Actions Events API
+  slug: open-keboola-events-api
+- collection_type: open
+  name: AI Service Actions Files API
+  slug: open-keboola-files-api
+- collection_type: open
+  name: AI Service Actions Git API
+  slug: open-keboola-git-api
+- collection_type: open
+  name: AI Service Actions health API
+  slug: open-keboola-health-api
+- collection_type: open
+  name: AI Service Actions import API
+  slug: open-keboola-import-api
+- collection_type: open
+  name: AI Service Actions Internal API
+  slug: open-keboola-internal-api
+- collection_type: open
+  name: AI Service Actions jobs API
+  slug: open-keboola-jobs-api
+- collection_type: open
+  name: AI Service Actions Latest Configurations Jobs API
+  slug: open-keboola-latest-configurations-jobs-api
+- collection_type: open
+  name: AI Service Actions Maintainers API
+  slug: open-keboola-maintainers-api
+- collection_type: open
+  name: AI Service Actions Marketplaces API
+  slug: open-keboola-marketplaces-api
+- collection_type: open
+  name: AI Service Actions Merge Requests API
+  slug: open-keboola-merge-requests-api
+- collection_type: open
+  name: AI Service Actions Migrate API
+  slug: open-keboola-migrate-api
+- collection_type: open
+  name: AI Service Actions My Account API
+  slug: open-keboola-my-account-api
+- collection_type: open
+  name: AI Service Actions Notifications API
+  slug: open-keboola-notifications-api
+- collection_type: open
+  name: AI Service Actions Orchestration Rerun Plan API
+  slug: open-keboola-orchestration-rerun-plan-api
+- collection_type: open
+  name: AI Service Actions Organizations API
+  slug: open-keboola-organizations-api
+- collection_type: open
+  name: AI Service Actions Others API
+  slug: open-keboola-others-api
+- collection_type: open
+  name: AI Service Actions Project Jobs Stats API
+  slug: open-keboola-project-jobs-stats-api
+- collection_type: open
+  name: AI Service Actions Project Subscriptions API
+  slug: open-keboola-project-subscriptions-api
+- collection_type: open
+  name: AI Service Actions Projects API
+  slug: open-keboola-projects-api
+- collection_type: open
+  name: AI Service Actions Public API API
+  slug: open-keboola-public-api-api
+- collection_type: open
+  name: AI Service Actions queries API
+  slug: open-keboola-queries-api
+- collection_type: open
+  name: AI Service Actions Resolve Config Variables API
+  slug: open-keboola-resolve-config-variables-api
+- collection_type: open
+  name: AI Service Actions Runtimes API
+  slug: open-keboola-runtimes-api
+- collection_type: open
+  name: AI Service Actions Sandboxes API
+  slug: open-keboola-sandboxes-api
+- collection_type: open
+  name: AI Service Actions schedules API
+  slug: open-keboola-schedules-api
+- collection_type: open
+  name: AI Service Actions Search API
+  slug: open-keboola-search-api
+- collection_type: open
+  name: AI Actions service API
+  slug: open-keboola-service-api
+- collection_type: open
+  name: AI Service Actions Shared Buckets API
+  slug: open-keboola-shared-buckets-api
+- collection_type: open
+  name: AI Service Actions SQL Editor API
+  slug: open-keboola-sql-editor-api
+- collection_type: open
+  name: AI Service Actions Storage API
+  slug: open-keboola-storage-api
+- collection_type: open
+  name: AI Service Actions Storage Buckets API
+  slug: open-keboola-storage-buckets-api
+- collection_type: open
+  name: AI Service Actions Storage Jobs API
+  slug: open-keboola-storage-jobs-api
+- collection_type: open
+  name: AI Service Actions SUPER - Commands API
+  slug: open-keboola-super-commands-api
+- collection_type: open
+  name: AI Service Actions SUPER - Features API
+  slug: open-keboola-super-features-api
+- collection_type: open
+  name: AI Service Actions SUPER - File Storage Management API
+  slug: open-keboola-super-file-storage-management-api
+- collection_type: open
+  name: AI Service Actions SUPER - Kubernetes API
+  slug: open-keboola-super-kubernetes-api
+- collection_type: open
+  name: AI Service Actions SUPER - Storage Backends Management API
+  slug: open-keboola-super-storage-backends-management-api
+- collection_type: open
+  name: AI Service Actions SUPER - UI Management API
+  slug: open-keboola-super-ui-management-api
+- collection_type: open
+  name: AI Service Actions Tables API
+  slug: open-keboola-tables-api
+- collection_type: open
+  name: AI Service Actions test API
+  slug: open-keboola-test-api
+- collection_type: open
+  name: AI Service Actions Tickets API
+  slug: open-keboola-tickets-api
+- collection_type: open
+  name: AI Service Actions Token Verification API
+  slug: open-keboola-token-verification-api
+- collection_type: open
+  name: AI Service Actions Tokens API
+  slug: open-keboola-tokens-api
+- collection_type: open
+  name: AI Service Actions Triggers API
+  slug: open-keboola-triggers-api
+- collection_type: open
+  name: AI Service Actions Users API
+  slug: open-keboola-users-api
+- collection_type: open
+  name: AI Service Actions Validate API
+  slug: open-keboola-validate-api
+- collection_type: open
+  name: AI Service Actions Variables API
+  slug: open-keboola-variables-api
+- collection_type: open
+  name: AI Service Actions Vendor API
+  slug: open-keboola-vendor-api
+- collection_type: open
+  name: AI Service Actions Webalize API
+  slug: open-keboola-webalize-api
+- collection_type: open
+  name: AI Service Actions Workspaces API
+  slug: open-keboola-workspaces-api
 common:
 - group: agent
   title: ''
@@ -1560,7 +1801,7 @@ plans:
 - name: Keboola Plans Pricing
   plan_count: 2
   slug: keboola-plans-pricing
-random_paper: 13
+random_paper: 137
 rate_limits:
 - limit_count: 0
   name: Keboola Rate Limits
@@ -1594,7 +1835,7 @@ score:
       marker_coverage: 0.0
       total: 79
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/screenshots/keboola-2026-06-20T183937.png
 security:

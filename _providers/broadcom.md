@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -99,17 +99,80 @@ apis:
 - description: Workload domain lifecycle management
   name: Broadcom Workload Domains API
   slug: broadcom-workload-domains-api
-artifact_total: 38
+artifact_total: 59
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts API
+  slug: open-broadcom-alerts-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts API Tokens API
+  slug: open-broadcom-api-tokens-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Authentication API
+  slug: open-broadcom-authentication-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Clusters API
+  slug: open-broadcom-clusters-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Content Library API
+  slug: open-broadcom-content-library-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Dashboards API
+  slug: open-broadcom-dashboards-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Datastores API
+  slug: open-broadcom-datastores-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Events API
+  slug: open-broadcom-events-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Hosts API
+  slug: open-broadcom-hosts-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Network Pools API
+  slug: open-broadcom-network-pools-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Networks API
+  slug: open-broadcom-networks-api
 - collection_type: open
   name: Broadcom Operations for Applications REST API
   slug: open-broadcom-operations-for-applications
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Proxies API
+  slug: open-broadcom-proxies-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Query API
+  slug: open-broadcom-query-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Session API
+  slug: open-broadcom-session-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Sources API
+  slug: open-broadcom-sources-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Tagging API
+  slug: open-broadcom-tagging-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Tasks API
+  slug: open-broadcom-tasks-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Upgrades API
+  slug: open-broadcom-upgrades-api
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Virtual Machines API
+  slug: open-broadcom-virtual-machines-api
 - collection_type: open
   name: Broadcom VMware Cloud Foundation API
   slug: open-broadcom-vmware-cloud-foundation
 - collection_type: open
   name: Broadcom vSphere Automation API
   slug: open-broadcom-vsphere-automation
+- collection_type: open
+  name: Broadcom Operations for Applications REST Alerts Workload Domains API
+  slug: open-broadcom-workload-domains-api
 common:
 - group: agent
   title: ''
@@ -197,7 +260,7 @@ press:
 - date: '2026-05-25'
   title: News Releases - Broadcom News and Stories
   url: https://news.broadcom.com/releases
-random_paper: 119
+random_paper: 94
 rate_limits:
 - limit_count: 3
   name: Broadcom Rate Limits
@@ -231,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png
 security:

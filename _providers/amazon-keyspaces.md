@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -64,11 +64,20 @@ arazzos:
 - description: Add columns to an existing table and wait for it to return to ACTIVE.
   name: Amazon Keyspaces Update Table Schema
   slug: amazon-keyspaces-update-table-schema-workflow
-artifact_total: 37
+artifact_total: 40
 collections:
 - collection_type: postman
   name: Amazon Keyspaces API
   slug: postman-amazon-keyspaces
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Keyspaces API
+  slug: open-amazon-keyspaces-keyspaces-api
+- collection_type: open
+  name: Amazon Keyspaces Tables API
+  slug: open-amazon-keyspaces-tables-api
 - collection_type: open
   name: Amazon Keyspaces API
   slug: open-amazon-keyspaces
@@ -255,7 +264,7 @@ plans:
 - name: Amazon Keyspaces Plans Pricing
   plan_count: 3
   slug: amazon-keyspaces-plans-pricing
-random_paper: 99
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Keyspaces Rate Limits
@@ -297,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/screenshots/amazon-keyspaces-2026-06-20T171716.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Access CFR content and structure files through JSON and XML
   name: eCFR Versioner Service API
   slug: ecfr-versioner-service-api
-artifact_total: 22
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: eCFR API Documentation Admin Service API
+  slug: open-ecfr-admin-service-api
+- collection_type: open
+  name: eCFR API Documentation Admin Service Search Service API
+  slug: open-ecfr-search-service-api
+- collection_type: open
+  name: eCFR API Documentation Admin Service Versioner Service API
+  slug: open-ecfr-versioner-service-api
 common:
 - group: agent
   title: ''
@@ -210,7 +223,7 @@ plans:
 - name: Ecfr Plans Pricing
   plan_count: 1
   slug: ecfr-plans-pricing
-random_paper: 56
+random_paper: 118
 rate_limits:
 - limit_count: 1
   name: Ecfr Rate Limits
@@ -250,7 +263,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/screenshots/ecfr-2026-07-25T212731.png
 security:

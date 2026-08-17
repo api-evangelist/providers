@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 2
@@ -165,11 +165,141 @@ apis:
 - description: Access and modify workflows.
   name: Onshape Workflow API
   slug: onshape-workflow-api
-artifact_total: 51
+artifact_total: 94
 asyncapis:
 - description: ''
   name: Onshape Events Webhooks
   slug: onshape-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Onshape REST Account API
+  slug: open-onshape-account-api
+- collection_type: open
+  name: Onshape REST Account Alias API
+  slug: open-onshape-alias-api
+- collection_type: open
+  name: Onshape REST Account APIApplication API
+  slug: open-onshape-apiapplication-api
+- collection_type: open
+  name: Onshape REST Account AppAssociativeData API
+  slug: open-onshape-appassociativedata-api
+- collection_type: open
+  name: Onshape REST Account AppElement API
+  slug: open-onshape-appelement-api
+- collection_type: open
+  name: Onshape REST Account Assembly API
+  slug: open-onshape-assembly-api
+- collection_type: open
+  name: Onshape REST Account Billing API
+  slug: open-onshape-billing-api
+- collection_type: open
+  name: Onshape REST Account BlobElement API
+  slug: open-onshape-blobelement-api
+- collection_type: open
+  name: Onshape REST Account Comment API
+  slug: open-onshape-comment-api
+- collection_type: open
+  name: Onshape REST Account Company API
+  slug: open-onshape-company-api
+- collection_type: open
+  name: Onshape REST Account Document API
+  slug: open-onshape-document-api
+- collection_type: open
+  name: Onshape REST Account Drawing API
+  slug: open-onshape-drawing-api
+- collection_type: open
+  name: Onshape REST Account Element API
+  slug: open-onshape-element-api
+- collection_type: open
+  name: Onshape REST Account ExportRule API
+  slug: open-onshape-exportrule-api
+- collection_type: open
+  name: Onshape REST Account FeatureStudio API
+  slug: open-onshape-featurestudio-api
+- collection_type: open
+  name: Onshape REST Account Folder API
+  slug: open-onshape-folder-api
+- collection_type: open
+  name: Onshape REST Account Insertable API
+  slug: open-onshape-insertable-api
+- collection_type: open
+  name: Onshape REST Account Item API
+  slug: open-onshape-item-api
+- collection_type: open
+  name: Onshape REST Account Material API
+  slug: open-onshape-material-api
+- collection_type: open
+  name: Onshape REST Account Metadata API
+  slug: open-onshape-metadata-api
+- collection_type: open
+  name: Onshape REST Account MetadataCategory API
+  slug: open-onshape-metadatacategory-api
+- collection_type: open
+  name: Onshape REST Account NumberingScheme API
+  slug: open-onshape-numberingscheme-api
+- collection_type: open
+  name: Onshape REST Account OpenApi API
+  slug: open-onshape-openapi-api
+- collection_type: open
+  name: Onshape REST Account Part API
+  slug: open-onshape-part-api
+- collection_type: open
+  name: Onshape REST Account PartNumber API
+  slug: open-onshape-partnumber-api
+- collection_type: open
+  name: Onshape REST Account PartStudio API
+  slug: open-onshape-partstudio-api
+- collection_type: open
+  name: Onshape REST Account ProductStructure API
+  slug: open-onshape-productstructure-api
+- collection_type: open
+  name: Onshape REST Account PropertiesTableTemplate API
+  slug: open-onshape-propertiestabletemplate-api
+- collection_type: open
+  name: Onshape REST Account Publication API
+  slug: open-onshape-publication-api
+- collection_type: open
+  name: Onshape REST Account ReleasePackage API
+  slug: open-onshape-releasepackage-api
+- collection_type: open
+  name: Onshape REST Account Revision API
+  slug: open-onshape-revision-api
+- collection_type: open
+  name: Onshape REST Account Sketch API
+  slug: open-onshape-sketch-api
+- collection_type: open
+  name: Onshape REST Account StandardContent API
+  slug: open-onshape-standardcontent-api
+- collection_type: open
+  name: Onshape REST Account Task API
+  slug: open-onshape-task-api
+- collection_type: open
+  name: Onshape REST Account Team API
+  slug: open-onshape-team-api
+- collection_type: open
+  name: Onshape REST Account Thumbnail API
+  slug: open-onshape-thumbnail-api
+- collection_type: open
+  name: Onshape REST Account Translation API
+  slug: open-onshape-translation-api
+- collection_type: open
+  name: Onshape REST Account User API
+  slug: open-onshape-user-api
+- collection_type: open
+  name: Onshape REST Account Variables API
+  slug: open-onshape-variables-api
+- collection_type: open
+  name: Onshape REST Account Version API
+  slug: open-onshape-version-api
+- collection_type: open
+  name: Onshape REST Account Webhook API
+  slug: open-onshape-webhook-api
+- collection_type: open
+  name: Onshape REST Account Workflow API
+  slug: open-onshape-workflow-api
 common:
 - group: auth
   title: ''
@@ -326,7 +456,7 @@ overview: 'Onshape publishes 42 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Onshape''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Onshape Rate Limits
@@ -359,7 +489,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/screenshots/onshape-2026-08-07T190412.png
 security:

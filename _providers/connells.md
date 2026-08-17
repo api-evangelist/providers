@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,11 @@ apis:
 - description: An undocumented, unauthenticated, read-only JSON surface served by the Connells consumer website at https://www.connells.co.uk/api. It is NOT a published Connells Group product — the group publishes n
   name: Connells Website JSON API (undocumented)
   slug: connells-website-json-api-undocumented
-artifact_total: 11
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Connells Website JSON API (undocumented)
+  slug: open-connells-website
 common:
 - group: agent
   title: ''
@@ -211,7 +215,7 @@ overview: 'Connells Group publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 30 more developer resources.'
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 0
   name: Connells Rate Limits
@@ -245,7 +249,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/screenshots/connells-2026-08-07T163756.png
 security:

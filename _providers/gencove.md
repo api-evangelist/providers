@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 7
@@ -98,11 +98,75 @@ apis:
 - description: The user API from Gencove — 12 operation(s) for user.
   name: Gencove user API
   slug: gencove-user-api
-artifact_total: 25
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Gencove Webhooks
   slug: gencove-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gencove Back array API
+  slug: open-gencove-array-api
+- collection_type: open
+  name: Gencove Back array basespace API
+  slug: open-gencove-basespace-api
+- collection_type: open
+  name: Gencove Back array batch API
+  slug: open-gencove-batch-api
+- collection_type: open
+  name: Gencove Back array billing API
+  slug: open-gencove-billing-api
+- collection_type: open
+  name: Gencove Back array explorer API
+  slug: open-gencove-explorer-api
+- collection_type: open
+  name: Gencove Back array file API
+  slug: open-gencove-file-api
+- collection_type: open
+  name: Gencove Back array firstmile API
+  slug: open-gencove-firstmile-api
+- collection_type: open
+  name: Gencove Back array invitation API
+  slug: open-gencove-invitation-api
+- collection_type: open
+  name: Gencove Back array jwt API
+  slug: open-gencove-jwt-api
+- collection_type: open
+  name: Gencove Back array mfa API
+  slug: open-gencove-mfa-api
+- collection_type: open
+  name: Gencove Back array notification API
+  slug: open-gencove-notification-api
+- collection_type: open
+  name: Gencove Back array organization API
+  slug: open-gencove-organization-api
+- collection_type: open
+  name: Gencove Back array pipeline API
+  slug: open-gencove-pipeline-api
+- collection_type: open
+  name: Gencove Back array project API
+  slug: open-gencove-project-api
+- collection_type: open
+  name: Gencove Back array role API
+  slug: open-gencove-role-api
+- collection_type: open
+  name: Gencove Back array s3 API
+  slug: open-gencove-s3-api
+- collection_type: open
+  name: Gencove Back array sample API
+  slug: open-gencove-sample-api
+- collection_type: open
+  name: Gencove Back array social API
+  slug: open-gencove-social-api
+- collection_type: open
+  name: Gencove Back array upload API
+  slug: open-gencove-upload-api
+- collection_type: open
+  name: Gencove Back array user API
+  slug: open-gencove-user-api
 common:
 - group: company
   title: ''
@@ -255,7 +319,7 @@ overview: 'Gencove publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gencove''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 23
+random_paper: 147
 score:
   band: developing
   composite: 49.0
@@ -285,7 +349,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/screenshots/gencove-2026-07-25T215527.png
 security:

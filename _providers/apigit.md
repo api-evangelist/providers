@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Manage API tests.
   name: APIGit Tests API
   slug: apigit-tests-api
-artifact_total: 33
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APIGit APIs API
+  slug: open-apigit-apis-api
+- collection_type: open
+  name: APIGit APIs Mocks API
+  slug: open-apigit-mocks-api
+- collection_type: open
+  name: APIGit APIs Repositories API
+  slug: open-apigit-repositories-api
+- collection_type: open
+  name: APIGit APIs Tests API
+  slug: open-apigit-tests-api
 common:
 - group: agent
   title: ''
@@ -160,7 +176,7 @@ plans:
 - name: Apigit Plans Pricing
   plan_count: 3
   slug: apigit-plans-pricing
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Apigit Rate Limits
@@ -202,7 +218,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/screenshots/apigit-2026-06-20T172238.png
 security:

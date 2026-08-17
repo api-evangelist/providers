@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Kaseya BMS (Business Management Solution) V2 REST API exposes the professional services automation surface of BMS — tickets, accounts, contacts, contracts, opportunities, projects, timesheets, exp
@@ -43,11 +43,21 @@ apis:
 - description: 'myITprocess is Kaseya''s strategic IT planning and QBR (quarterly business review) product for MSPs. It ships a REST API documented with Swagger UI at reporting.live.myitprocess.com, covering clients, '
   name: myITprocess API
   slug: myitprocess
-artifact_total: 14
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Kaseya Webhooks
   slug: kaseya-webhooks
+collections:
+- collection_type: open
+  name: Datto|Autotask PSA Rest API
+  slug: open-kaseya-autotask-psa-openapi-original
+- collection_type: open
+  name: BMS API 2.0
+  slug: open-kaseya-bms-openapi-original
+- collection_type: open
+  name: Datto RMM API
+  slug: open-kaseya-datto-rmm-openapi-original
 common:
 - group: company
   title: ''
@@ -216,7 +226,7 @@ overview: 'Kaseya publishes 3 APIs on the [APIs.io](https://apis.io/) network: B
 
 
   Kaseya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, legal docs, and 30 more developer resources.'
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Kaseya Rate Limits
@@ -243,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaseya/refs/heads/main/screenshots/kaseya-2026-08-07T171103.png
 security:

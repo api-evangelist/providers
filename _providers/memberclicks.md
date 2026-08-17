@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Member types and statuses.
   name: MemberClicks Reference Data API
   slug: memberclicks-reference-data-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MemberClicks MC Professional Attributes API
+  slug: open-memberclicks-attributes-api
+- collection_type: open
+  name: MemberClicks MC Professional Attributes Authorization API
+  slug: open-memberclicks-authorization-api
+- collection_type: open
+  name: MemberClicks MC Professional Attributes Continuing Education API
+  slug: open-memberclicks-continuing-education-api
+- collection_type: open
+  name: MemberClicks MC Professional Attributes Events API
+  slug: open-memberclicks-events-api
+- collection_type: open
+  name: MemberClicks MC Professional Attributes Groups API
+  slug: open-memberclicks-groups-api
+- collection_type: open
+  name: MemberClicks MC Professional Attributes Profile Search API
+  slug: open-memberclicks-profile-search-api
+- collection_type: open
+  name: MemberClicks MC Professional Attributes Profiles API
+  slug: open-memberclicks-profiles-api
+- collection_type: open
+  name: MemberClicks MC Professional Attributes Reference Data API
+  slug: open-memberclicks-reference-data-api
 - collection_type: open
   name: MemberClicks MC Professional API
   slug: open-memberclicks
@@ -133,7 +160,7 @@ plans:
 - name: Memberclicks Plans Pricing
   plan_count: 3
   slug: memberclicks-plans-pricing
-random_paper: 65
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Memberclicks Rate Limits
@@ -163,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/screenshots/memberclicks-2026-08-07T172453.png
 security:

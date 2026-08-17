@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Zone and availability zone management operations.
   name: Apache CloudStack Zones API
   slug: apache-cloudstack-zones-api
-artifact_total: 53
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Apache CloudStack Networks API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Apache CloudStack Networks Zones API
   slug: postman-apache-cloudstack-zones-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache CloudStack Networks API
+  slug: open-apache-cloudstack-networks-api
+- collection_type: open
+  name: Apache CloudStack Networks Virtual Machines API
+  slug: open-apache-cloudstack-virtual-machines-api
+- collection_type: open
+  name: Apache CloudStack Networks Volumes API
+  slug: open-apache-cloudstack-volumes-api
+- collection_type: open
+  name: Apache CloudStack Networks Zones API
+  slug: open-apache-cloudstack-zones-api
 common:
 - group: operate
   title: ''
@@ -252,7 +267,7 @@ plans:
 - name: Apache Cloudstack Plans Pricing
   plan_count: 3
   slug: apache-cloudstack-plans-pricing
-random_paper: 44
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Apache Cloudstack Rate Limits
@@ -294,7 +309,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/screenshots/apache-cloudstack-2026-06-20T172047.png
 security:

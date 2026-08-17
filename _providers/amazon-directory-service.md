@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 7
@@ -240,7 +240,7 @@ apis:
 - description: 'The #X Amz Target=DirectoryService 20150416.VerifyTrust API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.verifytrust.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.VerifyTrust API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-verifytrust-api
-artifact_total: 233
+artifact_total: 301
 collections:
 - collection_type: postman
   name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory API'
@@ -443,6 +443,210 @@ collections:
 - collection_type: postman
   name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.VerifyTrust API'
   slug: postman-amazon-directory-service-x-amz-target-directoryservice-20150416-verifytrust-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-acceptshareddirectory-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AddIpRoutes API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-addiproutes-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AddRegion API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-addregion-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AddTagsToResource API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-addtagstoresource-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.CancelSchemaExtension API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-cancelschemaextension-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.ConnectDirectory API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-connectdirectory-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.CreateAlias API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-createalias-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.CreateComputer API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-createcomputer-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.CreateConditionalForwarder API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-createconditionalforwarder-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.CreateDirectory API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-createdirectory-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.CreateLogSubscription API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-createlogsubscription-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.CreateMicrosoftAD API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-createmicrosoftad-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.CreateSnapshot API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-createsnapshot-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.CreateTrust API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-createtrust-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DeleteConditionalForwarder API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-deleteconditionalforwarder-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DeleteDirectory API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-deletedirectory-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DeleteLogSubscription API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-deletelogsubscription-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DeleteSnapshot API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-deletesnapshot-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DeleteTrust API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-deletetrust-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DeregisterCertificate API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-deregistercertificate-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DeregisterEventTopic API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-deregistereventtopic-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeCertificate API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describecertificate-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeClientAuthenticationSettings API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describeclientauthenticationsettings-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeConditionalForwarders API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describeconditionalforwarders-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeDirectories API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describedirectories-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeDomainControllers API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describedomaincontrollers-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeEventTopics API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describeeventtopics-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeLDAPSSettings API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describeldapssettings-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeRegions API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describeregions-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeSettings API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describesettings-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeSharedDirectories API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describeshareddirectories-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeSnapshots API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describesnapshots-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeTrusts API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describetrusts-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DescribeUpdateDirectory API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-describeupdatedirectory-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DisableClientAuthentication API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-disableclientauthentication-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DisableLDAPS API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-disableldaps-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DisableRadius API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-disableradius-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.DisableSso API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-disablesso-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.EnableClientAuthentication API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-enableclientauthentication-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.EnableLDAPS API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-enableldaps-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.EnableRadius API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-enableradius-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.EnableSso API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-enablesso-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.GetDirectoryLimits API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-getdirectorylimits-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.GetSnapshotLimits API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-getsnapshotlimits-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.ListCertificates API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-listcertificates-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.ListIpRoutes API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-listiproutes-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.ListLogSubscriptions API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-listlogsubscriptions-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.ListSchemaExtensions API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-listschemaextensions-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.ListTagsForResource API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-listtagsforresource-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.RegisterCertificate API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-registercertificate-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.RegisterEventTopic API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-registereventtopic-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.RejectSharedDirectory API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-rejectshareddirectory-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.RemoveIpRoutes API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-removeiproutes-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.RemoveRegion API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-removeregion-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.RemoveTagsFromResource API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-removetagsfromresource-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.ResetUserPassword API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-resetuserpassword-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.RestoreFromSnapshot API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-restorefromsnapshot-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.ShareDirectory API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-sharedirectory-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.StartSchemaExtension API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-startschemaextension-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.UnshareDirectory API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-unsharedirectory-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.UpdateConditionalForwarder API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-updateconditionalforwarder-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.UpdateDirectorySetup API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-updatedirectorysetup-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.UpdateNumberOfDomainControllers API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-updatenumberofdomaincontrollers-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.UpdateRadius API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-updateradius-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.UpdateSettings API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-updatesettings-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.UpdateTrust API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-updatetrust-api
+- collection_type: open
+  name: 'AWS Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory #X Amz Target=DirectoryService 20150416.VerifyTrust API'
+  slug: open-amazon-directory-service-x-amz-target-directoryservice-20150416-verifytrust-api
 common:
 - group: build
   title: ''
@@ -803,7 +1007,7 @@ plans:
 - name: Amazon Directory Service Plans Pricing
   plan_count: 3
   slug: amazon-directory-service-plans-pricing
-random_paper: 70
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Amazon Directory Service Rate Limits
@@ -845,7 +1049,7 @@ score:
       marker_coverage: 0.0
       total: 67
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-directory-service/refs/heads/main/screenshots/amazon-directory-service-2026-06-20T171625.png
 security:

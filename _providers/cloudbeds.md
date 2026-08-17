@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -135,8 +135,98 @@ apis:
 - description: The Userinfo API from Cloudbeds — 1 operation(s) for userinfo.
   name: Cloudbeds Userinfo API
   slug: cloudbeds-userinfo-api
-artifact_total: 52
+artifact_total: 82
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token API
+  slug: open-cloudbeds-access-token-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token DeleteWebhook API
+  slug: open-cloudbeds-deletewebhook-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetAvailableRoomTypes API
+  slug: open-cloudbeds-getavailableroomtypes-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetDashboard API
+  slug: open-cloudbeds-getdashboard-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetGuest API
+  slug: open-cloudbeds-getguest-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetGuestList API
+  slug: open-cloudbeds-getguestlist-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetHotelDetails API
+  slug: open-cloudbeds-gethoteldetails-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetHotels API
+  slug: open-cloudbeds-gethotels-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetPaymentMethods API
+  slug: open-cloudbeds-getpaymentmethods-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetRate API
+  slug: open-cloudbeds-getrate-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetRatePlans API
+  slug: open-cloudbeds-getrateplans-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetReservation API
+  slug: open-cloudbeds-getreservation-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetReservations API
+  slug: open-cloudbeds-getreservations-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetRooms API
+  slug: open-cloudbeds-getrooms-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetRoomTypes API
+  slug: open-cloudbeds-getroomtypes-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetUsers API
+  slug: open-cloudbeds-getusers-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token GetWebhooks API
+  slug: open-cloudbeds-getwebhooks-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PostCharge API
+  slug: open-cloudbeds-postcharge-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PostGuest API
+  slug: open-cloudbeds-postguest-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PostPayment API
+  slug: open-cloudbeds-postpayment-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PostReservation API
+  slug: open-cloudbeds-postreservation-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PostRoomAssign API
+  slug: open-cloudbeds-postroomassign-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PostRoomCheckIn API
+  slug: open-cloudbeds-postroomcheckin-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PostRoomCheckOut API
+  slug: open-cloudbeds-postroomcheckout-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PostWebhook API
+  slug: open-cloudbeds-postwebhook-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PutGuest API
+  slug: open-cloudbeds-putguest-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PutRate API
+  slug: open-cloudbeds-putrate-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token PutReservation API
+  slug: open-cloudbeds-putreservation-api
+- collection_type: open
+  name: Cloudbeds REST API v1.3 Access Token Userinfo API
+  slug: open-cloudbeds-userinfo-api
 - collection_type: open
   name: Cloudbeds REST API v1.3
   slug: open-cloudbeds
@@ -260,7 +350,7 @@ plans:
 - name: Cloudbeds Plans Pricing
   plan_count: 2
   slug: cloudbeds-plans-pricing
-random_paper: 109
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Cloudbeds Rate Limits
@@ -313,7 +403,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

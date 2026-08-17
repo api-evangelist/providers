@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The Authentication API from Infra — 9 operation(s) for authentication.
@@ -62,7 +62,35 @@ arazzos:
 - description: Create a user, put them in a group, and grant the group access to a destination.
   name: Onboard a user and grant destination access
   slug: infra-onboard-and-grant
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Infra Authentication API
+  slug: open-infra-authentication-api
+- collection_type: open
+  name: Infra Authentication Destinations API
+  slug: open-infra-destinations-api
+- collection_type: open
+  name: Infra Authentication Grants API
+  slug: open-infra-grants-api
+- collection_type: open
+  name: Infra Authentication Groups API
+  slug: open-infra-groups-api
+- collection_type: open
+  name: Infra Authentication Organizations API
+  slug: open-infra-organizations-api
+- collection_type: open
+  name: Infra Authentication Providers API
+  slug: open-infra-providers-api
+- collection_type: open
+  name: Infra Authentication Settings API
+  slug: open-infra-settings-api
+- collection_type: open
+  name: Infra Authentication Users API
+  slug: open-infra-users-api
 common:
 - group: agent
   title: ''
@@ -188,7 +216,7 @@ overview: 'Infra publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Infra''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, and 21 more developer resources.'
-random_paper: 48
+random_paper: 81
 score:
   band: thin
   composite: 35.7
@@ -211,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
 security:

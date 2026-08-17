@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -138,7 +138,107 @@ apis:
 - description: The Wallets API from Stellar — 2 operation(s) for wallets.
   name: Stellar Wallets API
   slug: stellar-wallets-api
-artifact_total: 215
+artifact_total: 248
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Platform Server Accounts API
+  slug: open-stellar-accounts-api
+- collection_type: open
+  name: Platform Server Accounts Admin API
+  slug: open-stellar-admin-api
+- collection_type: open
+  name: Platform Server Accounts API Keys API
+  slug: open-stellar-api-keys-api
+- collection_type: open
+  name: Platform Server Accounts Assets API
+  slug: open-stellar-assets-api
+- collection_type: open
+  name: Platform Server Accounts Authentication API
+  slug: open-stellar-authentication-api
+- collection_type: open
+  name: Platform Server Accounts Balances API
+  slug: open-stellar-balances-api
+- collection_type: open
+  name: Platform Server Accounts Bridge Integration API
+  slug: open-stellar-bridge-integration-api
+- collection_type: open
+  name: Platform Server Accounts Claimable Balances API
+  slug: open-stellar-claimable-balances-api
+- collection_type: open
+  name: Platform Server Accounts Customers API
+  slug: open-stellar-customers-api
+- collection_type: open
+  name: Platform Server Accounts Disbursements API
+  slug: open-stellar-disbursements-api
+- collection_type: open
+  name: Platform Server Accounts Effects API
+  slug: open-stellar-effects-api
+- collection_type: open
+  name: Platform Server Accounts Events API
+  slug: open-stellar-events-api
+- collection_type: open
+  name: Platform Server Accounts Exports API
+  slug: open-stellar-exports-api
+- collection_type: open
+  name: Platform Server Accounts Fee Stats API
+  slug: open-stellar-fee-stats-api
+- collection_type: open
+  name: Platform Server Accounts Ledgers API
+  slug: open-stellar-ledgers-api
+- collection_type: open
+  name: Platform Server Accounts Liquidity Pools API
+  slug: open-stellar-liquidity-pools-api
+- collection_type: open
+  name: Platform Server Accounts Offers API
+  slug: open-stellar-offers-api
+- collection_type: open
+  name: Platform Server Accounts Operations API
+  slug: open-stellar-operations-api
+- collection_type: open
+  name: Platform Server Accounts Order Books API
+  slug: open-stellar-order-books-api
+- collection_type: open
+  name: Platform Server Accounts Organization API
+  slug: open-stellar-organization-api
+- collection_type: open
+  name: Platform Server Accounts Paths API
+  slug: open-stellar-paths-api
+- collection_type: open
+  name: Platform Server Accounts Payments API
+  slug: open-stellar-payments-api
+- collection_type: open
+  name: Platform Server Accounts Profile API
+  slug: open-stellar-profile-api
+- collection_type: open
+  name: Platform Server Accounts Rates API
+  slug: open-stellar-rates-api
+- collection_type: open
+  name: Platform Server Accounts Receivers API
+  slug: open-stellar-receivers-api
+- collection_type: open
+  name: Platform Server Accounts Registration API
+  slug: open-stellar-registration-api
+- collection_type: open
+  name: Platform Server Accounts Statistics API
+  slug: open-stellar-statistics-api
+- collection_type: open
+  name: Platform Server Accounts Trade Aggregations API
+  slug: open-stellar-trade-aggregations-api
+- collection_type: open
+  name: Platform Server Accounts Trades API
+  slug: open-stellar-trades-api
+- collection_type: open
+  name: Platform Server Accounts Transactions API
+  slug: open-stellar-transactions-api
+- collection_type: open
+  name: Platform Server Accounts Users API
+  slug: open-stellar-users-api
+- collection_type: open
+  name: Platform Server Accounts Wallets API
+  slug: open-stellar-wallets-api
 common:
 - group: commercial
   title: ''
@@ -760,7 +860,7 @@ plans:
 - name: Stellar Plans Pricing
   plan_count: 3
   slug: stellar-plans-pricing
-random_paper: 39
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Stellar Rate Limits
@@ -800,7 +900,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellar/refs/heads/main/screenshots/stellar-2026-06-20T194539.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: User management operations for accessing Spiceworks user and technician profiles
   name: Spiceworks Users API
   slug: spiceworks-users-api
-artifact_total: 24
+artifact_total: 29
 collections:
 - collection_type: postman
   name: Spiceworks Cloud Apps Comments API
@@ -66,8 +66,23 @@ collections:
   name: Spiceworks Cloud Apps Comments Users API
   slug: postman-spiceworks-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Spiceworks Cloud Apps API
   slug: open-spiceworks-cloud-apps
+- collection_type: open
+  name: Spiceworks Cloud Apps Comments API
+  slug: open-spiceworks-comments-api
+- collection_type: open
+  name: Spiceworks Cloud Apps Comments Devices API
+  slug: open-spiceworks-devices-api
+- collection_type: open
+  name: Spiceworks Cloud Apps Comments Tickets API
+  slug: open-spiceworks-tickets-api
+- collection_type: open
+  name: Spiceworks Cloud Apps Comments Users API
+  slug: open-spiceworks-users-api
 common:
 - group: build
   title: ''
@@ -207,7 +222,7 @@ plans:
 - name: Spiceworks Plans Pricing
   plan_count: 3
   slug: spiceworks-plans-pricing
-random_paper: 18
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Spiceworks Rate Limits
@@ -254,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/screenshots/spiceworks-2026-06-20T194312.png
 security:

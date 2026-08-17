@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: The Voice API from Deepdub — 2 operation(s) for voice.
   name: Deepdub Voice API
   slug: deepdub-voice-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deepdub Dubbing API
+  slug: open-deepdub-dubbing-api
+- collection_type: open
+  name: Deepdub Dubbing Gender Detection API
+  slug: open-deepdub-gender-detection-api
+- collection_type: open
+  name: Deepdub Dubbing Infrastructure API
+  slug: open-deepdub-infrastructure-api
+- collection_type: open
+  name: Deepdub Dubbing Issues API
+  slug: open-deepdub-issues-api
+- collection_type: open
+  name: Deepdub Dubbing TTS API
+  slug: open-deepdub-tts-api
+- collection_type: open
+  name: Deepdub Dubbing Usage API
+  slug: open-deepdub-usage-api
+- collection_type: open
+  name: Deepdub Dubbing Voice API
+  slug: open-deepdub-voice-api
 common:
 - group: company
   title: ''
@@ -202,7 +227,7 @@ overview: 'Deepdub publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Deepdub''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 24 more developer resources.'
-random_paper: 9
+random_paper: 133
 rate_limits:
 - limit_count: 2
   name: Deepdub Rate Limits
@@ -230,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/screenshots/deepdub-2026-07-25T211547.png
 security:

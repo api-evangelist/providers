@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 46
@@ -63,8 +63,35 @@ apis:
 - description: The member-sessions API from Momence — 2 operation(s) for member-sessions.
   name: Momence member-sessions API
   slug: momence-member-sessions-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Momence Public auth API
+  slug: open-momence-auth-api
+- collection_type: open
+  name: Momence Public auth host API
+  slug: open-momence-host-api
+- collection_type: open
+  name: Momence Public auth host-checkout API
+  slug: open-momence-host-checkout-api
+- collection_type: open
+  name: Momence Public auth member-addresses API
+  slug: open-momence-member-addresses-api
+- collection_type: open
+  name: Momence Public auth member API
+  slug: open-momence-member-api
+- collection_type: open
+  name: Momence Public auth member-checkout API
+  slug: open-momence-member-checkout-api
+- collection_type: open
+  name: Momence Public auth member-host API
+  slug: open-momence-member-host-api
+- collection_type: open
+  name: Momence Public auth member-sessions API
+  slug: open-momence-member-sessions-api
 - collection_type: open
   name: Momence Public API
   slug: open-momence
@@ -129,7 +156,7 @@ plans:
 - name: Momence Plans Pricing
   plan_count: 3
   slug: momence-plans-pricing
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 2
   name: Momence Rate Limits
@@ -165,7 +192,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/screenshots/momence-2026-08-07T184120.png
 security:

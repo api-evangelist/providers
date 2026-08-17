@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: The Company API from QuickBooks Online — 8 operation(s) for company.
   name: QuickBooks Online Company API
   slug: quickbooks-online-company-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QuickBooks Online Accounting Company API
+  slug: open-quickbooks-online-company-api
 - collection_type: open
   name: QuickBooks Online Accounting API
   slug: open-quickbooks-online
@@ -122,7 +128,7 @@ overview: 'QuickBooks Online publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   QuickBooks Online''s developer surface includes authentication, documentation, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 93
+random_paper: 134
 scopes:
 - name: Quickbooks Online Scopes
   scope_count: 5
@@ -154,7 +160,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks-online/refs/heads/main/screenshots/quickbooks-online-2026-06-20T192431.png
 security:

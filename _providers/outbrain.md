@@ -11,33 +11,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: documented
+    mcp_server: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 65.8
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 10
-  human_in_the_loop: 0
+- acting_count: 37
+  human_in_the_loop: 1
   name: Outbrain Agentic Access
-  operation_count: 24
+  operation_count: 105
   slug: outbrain-agentic-access
-  summary_line: 24 operations · 10 acting
-api_count: 10
+  summary_line: 105 operations · 37 acting · 1 human-in-the-loop
+api_count: 13
 apis:
 - description: Token-based authentication
   name: Outbrain Authentication API
@@ -69,7 +70,16 @@ apis:
 - description: Audience and contextual targeting
   name: Outbrain Targeting API
   slug: outbrain-targeting-api
-artifact_total: 59
+- description: The complete Outbrain Amplify API surface — 77 operations across marketers, budgets, campaigns, promoted links and promoted-link sequences, audience segments, conversion events, user and invitation ma
+  name: Outbrain Amplify API
+  slug: outbrain-amplify-api
+- description: Asynchronous analytics reporting for the Teads platform. A POST triggers a report that is computed in the background; a GET polls its status and returns a download URL for the finished CSV, JSON or XL
+  name: Teads Report API
+  slug: outbrain-teads-report-api
+- description: Contextual sponsored-recommendation API for chatbot and LLM publishers, backing the Teads Conversational AI Ads SDK (public beta since 2025-11-12). Takes a partner key plus one of contentUrl / bundleU
+  name: Teads In-Chat API
+  slug: outbrain-teads-in-chat-api
+artifact_total: 76
 collections:
 - collection_type: postman
   name: Outbrain Amplify Authentication API
@@ -102,14 +112,53 @@ collections:
   name: Outbrain Amplify Authentication Targeting API
   slug: postman-outbrain-targeting-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Outbrain Amplify API
+  slug: open-outbrain-amplify-api-full
+- collection_type: open
   name: Outbrain Amplify API
   slug: open-outbrain-amplify-api
+- collection_type: open
+  name: Outbrain Amplify Authentication API
+  slug: open-outbrain-authentication-api
+- collection_type: open
+  name: Outbrain Amplify Authentication Budgets API
+  slug: open-outbrain-budgets-api
+- collection_type: open
+  name: Outbrain Amplify Authentication Campaigns API
+  slug: open-outbrain-campaigns-api
+- collection_type: open
+  name: Outbrain Amplify Authentication Conversions API
+  slug: open-outbrain-conversions-api
 - collection_type: open
   name: Outbrain Engage API
   slug: open-outbrain-engage-api
 - collection_type: open
+  name: Outbrain Amplify Authentication Events API
+  slug: open-outbrain-events-api
+- collection_type: open
+  name: Outbrain Amplify Authentication Marketers API
+  slug: open-outbrain-marketers-api
+- collection_type: open
+  name: Outbrain Amplify Authentication PromotedLinks API
+  slug: open-outbrain-promotedlinks-api
+- collection_type: open
+  name: Outbrain Amplify Authentication Recommendations API
+  slug: open-outbrain-recommendations-api
+- collection_type: open
+  name: Outbrain Amplify Authentication Reporting API
+  slug: open-outbrain-reporting-api
+- collection_type: open
+  name: Outbrain Amplify Authentication Targeting API
+  slug: open-outbrain-targeting-api
+- collection_type: open
   name: Teads Advertiser Conversion API
   slug: open-outbrain-teads-conversion-api
+- collection_type: open
+  name: Teads Report API
+  slug: open-outbrain-teads-report-api
 common:
 - group: build
   title: ''
@@ -311,6 +360,138 @@ common:
   title: ''
   type: SpectralRules
   url: rules/outbrain-rules.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/outbrain-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/outbrain-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/outbrain-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/outbrain-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.outbrain.com/security/bug-bounty/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.outbrain.com/security/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/outbrain-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/outbrain-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/outbrain-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/outbrain-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/outbrain-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/outbrain-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/outbrain-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/outbrain-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://amplifyv01.docs.apiary.io/
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/outbrain-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/outbrain-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/outbrain-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/outbrain-amplify-api-full-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/outbrain-teads-report-api-overlay.yaml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.teads.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://amplifyv01.docs.apiary.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://teadsapi.docs.apiary.io/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.teads.com/docs/category/start-here
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.teads.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://groups.google.com/g/outbrain-amplifyapi
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.outbrain.com/partner-api/
+- group: start
+  title: ''
+  type: Login
+  url: https://my.outbrain.com/create-token
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.teads.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.teads.com/privacy-policy/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/teads/TeadsSDK-iOS
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/teads/TeadsSDK-android
 created: '2026-05-25T00:00:00.000Z'
 description: Outbrain Inc. (NASDAQ&#58; OB), which closed its acquisition of Teads in early 2025 and now operates publicly as Teads, is one of the largest open-internet advertising platforms — reaching 2 billion+ consumers per month across 50+ markets, with 20,000+ direct advertisers and 10,000+ premium media properties. The combined company spans open-web native (Outbrain Amplify), premium video, display, and Connected TV (Teads), powered by a Predictive AI engine and an omnichannel data graph. Developer surface area centers on the Amplify API (campaign management + reporting), the Engage API (publisher content recommendations and the JS Widget / Mobile SDK), and a server-side Conversion API for cookieless measurement and optimization.
 examples:
@@ -365,24 +546,28 @@ jsonld:
   property_count: 8
   slug: outbrain-context
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: outbrain-mcp.yml
+  slug: outbrain-mcpyml
+modified: '2026-08-13'
 name: Outbrain
 nav: Providers
 network: true
-overview: 'Outbrain publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Budgets API, Campaigns API, and 7 more. Tagged areas include Advertising, Native Advertising, Open Web, CTV, and Connected TV.
+overview: 'Outbrain publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Budgets API, Campaigns API, and 9 more. Tagged areas include Advertising, Native Advertising, Open Web, CTV, and Connected TV.
 
 
   The Outbrain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Outbrain''s developer surface includes authentication, developer portal, documentation, signup flow, training material, engineering blog, support, and 43 more developer resources.'
+  Outbrain''s developer surface includes authentication, developer portal, documentation, signup flow, training material, engineering blog, support, and 76 more developer resources.'
 plans:
 - name: Outbrain Plans Pricing
   plan_count: 4
   slug: outbrain-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
-- limit_count: 4
+- limit_count: 7
   name: Outbrain Rate Limits
   slug: outbrain-rate-limits
 rules:
@@ -403,16 +588,16 @@ rules:
     warn: 2
   slug: outbrain-rules
 score:
-  band: strong
-  composite: 65.1
-  delta: 0.0
+  band: exemplar
+  composite: 83.5
+  delta: 18.4
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 73.7
-    developer_ergonomics: 54.3
-    discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 36.8
+    commercial_clarity: 89.5
+    contract_quality: 74.6
+    developer_ergonomics: 93.5
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 63.2
   previous_composite: 65.1
   provenance:
     agentic_access: derived
@@ -422,8 +607,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/screenshots/outbrain-2026-06-20T191227.png
 security:
 - kind: authentication
@@ -455,5 +640,5 @@ tags:
 - Performance Marketing
 - AdTech
 - Teads
-website: https://www.outbrain.com
+website: https://developers.teads.com
 ---

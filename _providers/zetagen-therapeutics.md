@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Posts, pages and the block library.
@@ -48,7 +48,38 @@ apis:
 - description: Categories and tags.
   name: Zetagen Therapeutics Taxonomy API
   slug: zetagen-therapeutics-taxonomy-api
-artifact_total: 11
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zetagen Therapeutics Content API
+  slug: open-zetagen-therapeutics-content-api
+- collection_type: open
+  name: Zetagen Therapeutics Content Discovery API
+  slug: open-zetagen-therapeutics-discovery-api
+- collection_type: open
+  name: Zetagen Therapeutics Content Downloads API
+  slug: open-zetagen-therapeutics-downloads-api
+- collection_type: open
+  name: Zetagen Therapeutics Content Embed API
+  slug: open-zetagen-therapeutics-embed-api
+- collection_type: open
+  name: Zetagen Therapeutics Content Media API
+  slug: open-zetagen-therapeutics-media-api
+- collection_type: open
+  name: Zetagen Therapeutics Content People API
+  slug: open-zetagen-therapeutics-people-api
+- collection_type: open
+  name: Zetagen Therapeutics Content Search API
+  slug: open-zetagen-therapeutics-search-api
+- collection_type: open
+  name: Zetagen Therapeutics Content Seo API
+  slug: open-zetagen-therapeutics-seo-api
+- collection_type: open
+  name: Zetagen Therapeutics Content Taxonomy API
+  slug: open-zetagen-therapeutics-taxonomy-api
 common:
 - group: other
   title: ''
@@ -183,7 +214,7 @@ overview: 'Zetagen Therapeutics publishes 9 APIs on the [APIs.io](https://apis.i
 
 
   Zetagen Therapeutics'' developer surface includes product news, authentication, and 28 more developer resources.'
-random_paper: 52
+random_paper: 6
 score:
   band: emerging
   composite: 18.8
@@ -211,7 +242,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 7
@@ -155,7 +155,119 @@ apis:
 - description: The Workflows API from UCLouvain — 1 operation(s) for workflows.
   name: UCLouvain Workflows API
   slug: uclouvain-workflows-api
-artifact_total: 51
+artifact_total: 88
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dataverse Access API
+  slug: open-uclouvain-access-api
+- collection_type: open
+  name: Dataverse Access addFilesToDataset API
+  slug: open-uclouvain-addfilestodataset-api
+- collection_type: open
+  name: Dataverse Access addFileToDataset API
+  slug: open-uclouvain-addfiletodataset-api
+- collection_type: open
+  name: Dataverse Access addGlobusFilesToDataset API
+  slug: open-uclouvain-addglobusfilestodataset-api
+- collection_type: open
+  name: Dataverse Access Admin API
+  slug: open-uclouvain-admin-api
+- collection_type: open
+  name: Dataverse Access Batch API
+  slug: open-uclouvain-batch-api
+- collection_type: open
+  name: Dataverse Access Builtin Users API
+  slug: open-uclouvain-builtin-users-api
+- collection_type: open
+  name: Dataverse Access Datasetfields API
+  slug: open-uclouvain-datasetfields-api
+- collection_type: open
+  name: Dataverse Access Datasets API
+  slug: open-uclouvain-datasets-api
+- collection_type: open
+  name: Dataverse Access Datatags API
+  slug: open-uclouvain-datatags-api
+- collection_type: open
+  name: Dataverse Access DataverseFeaturedItems API
+  slug: open-uclouvain-dataversefeatureditems-api
+- collection_type: open
+  name: Dataverse Access Dataverses API
+  slug: open-uclouvain-dataverses-api
+- collection_type: open
+  name: Dataverse Access Edit API
+  slug: open-uclouvain-edit-api
+- collection_type: open
+  name: Dataverse Access ExternalTools API
+  slug: open-uclouvain-externaltools-api
+- collection_type: open
+  name: Dataverse Access Files API
+  slug: open-uclouvain-files-api
+- collection_type: open
+  name: Dataverse Access Harvest API
+  slug: open-uclouvain-harvest-api
+- collection_type: open
+  name: Dataverse Access Inbox API
+  slug: open-uclouvain-inbox-api
+- collection_type: open
+  name: Dataverse Access Info API
+  slug: open-uclouvain-info-api
+- collection_type: open
+  name: Dataverse Access Ingest API
+  slug: open-uclouvain-ingest-api
+- collection_type: open
+  name: Dataverse Access Licenses API
+  slug: open-uclouvain-licenses-api
+- collection_type: open
+  name: Dataverse Access Localcontexts API
+  slug: open-uclouvain-localcontexts-api
+- collection_type: open
+  name: Dataverse Access Logout API
+  slug: open-uclouvain-logout-api
+- collection_type: open
+  name: Dataverse Access Mail API
+  slug: open-uclouvain-mail-api
+- collection_type: open
+  name: Dataverse Access Meta API
+  slug: open-uclouvain-meta-api
+- collection_type: open
+  name: Dataverse Access Metadatablocks API
+  slug: open-uclouvain-metadatablocks-api
+- collection_type: open
+  name: Dataverse Access Mydata API
+  slug: open-uclouvain-mydata-api
+- collection_type: open
+  name: Dataverse Access Notifications API
+  slug: open-uclouvain-notifications-api
+- collection_type: open
+  name: Dataverse Access Pids API
+  slug: open-uclouvain-pids-api
+- collection_type: open
+  name: Dataverse Access replaceFilesInDataset API
+  slug: open-uclouvain-replacefilesindataset-api
+- collection_type: open
+  name: Dataverse Access Roles API
+  slug: open-uclouvain-roles-api
+- collection_type: open
+  name: Dataverse Access saveAuxiliaryFileWithVersion API
+  slug: open-uclouvain-saveauxiliaryfilewithversion-api
+- collection_type: open
+  name: Dataverse Access Search API
+  slug: open-uclouvain-search-api
+- collection_type: open
+  name: Dataverse Access Sendfeedback API
+  slug: open-uclouvain-sendfeedback-api
+- collection_type: open
+  name: Dataverse Access uploadDatasetLogo API
+  slug: open-uclouvain-uploaddatasetlogo-api
+- collection_type: open
+  name: Dataverse Access Users API
+  slug: open-uclouvain-users-api
+- collection_type: open
+  name: Dataverse Access Workflows API
+  slug: open-uclouvain-workflows-api
 common:
 - group: agent
   title: ''
@@ -237,7 +349,7 @@ plans:
 - name: Uclouvain Plans Pricing
   plan_count: 2
   slug: uclouvain-plans-pricing
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: Uclouvain Rate Limits
@@ -285,7 +397,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/screenshots/uclouvain-2026-06-20T195945.png
 security:

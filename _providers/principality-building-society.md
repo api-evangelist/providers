@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The UK Open Banking Implementation Entity (OBIE) Open Data API standard - public, unauthenticated reference data covering Branches, ATMs, Personal Current Accounts, Business Current Accounts, Unsecure
@@ -33,7 +33,11 @@ apis:
 - description: The OBIE Read/Write Confirmation of Funds (CBPII) standard for confirming whether funds are available on a payment account. FAPI-secured with OAuth2/OIDC, mutual-TLS and PSD2 strong customer authentic
   name: OBIE Confirmation of Funds API (CBPII - Standard, Out of Scope)
   slug: obie-confirmation-of-funds-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-open-data-swagger
 common:
 - group: auth
   title: ''
@@ -96,7 +100,7 @@ overview: 'Principality Building Society publishes 1 API on the [APIs.io](https:
 
 
   Principality Building Society''s developer surface includes authentication, product news, support, and 9 more developer resources.'
-random_paper: 8
+random_paper: 28
 score:
   band: emerging
   composite: 25.8
@@ -123,7 +127,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Single-call content verdict against the detection engine.
   name: PromptArmor Content Check API
   slug: prompt-armor-content-check-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PromptArmor Analyze API
+  slug: open-prompt-armor-analyze-api
+- collection_type: open
+  name: PromptArmor Analyze Content Check API
+  slug: open-prompt-armor-content-check-api
 - collection_type: open
   name: PromptArmor API
   slug: open-prompt-armor
@@ -111,7 +120,7 @@ plans:
 - name: Prompt Armor Plans Pricing
   plan_count: 2
   slug: prompt-armor-plans-pricing
-random_paper: 64
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Prompt Armor Rate Limits
@@ -136,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/screenshots/prompt-armor-2026-06-20T192253.png
 security:

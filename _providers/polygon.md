@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ arazzos:
 - description: Resolve a ticker's details, pull recent news, and read its previous close.
   name: Polygon Ticker News Context
   slug: polygon-ticker-news-context-workflow
-artifact_total: 90
+artifact_total: 103
 asyncapis:
 - description: 'Polygon real-time market data WebSocket clusters. Each asset class (stocks, options, indices, forex, crypto) has its own dedicated cluster at `wss://socket.polygon.io/{cluster}`. Clients authenticate '
   name: Polygon WebSocket Streaming API
@@ -170,8 +170,29 @@ collections:
   name: Polygon Crypto REST Aggregates Tickers API
   slug: postman-polygon-tickers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Polygon Crypto REST Aggregates API
+  slug: open-polygon-aggregates-api
+- collection_type: open
+  name: Polygon Crypto REST Aggregates Books API
+  slug: open-polygon-books-api
+- collection_type: open
+  name: Polygon Crypto REST Aggregates Contracts API
+  slug: open-polygon-contracts-api
+- collection_type: open
+  name: Polygon Crypto REST Aggregates Conversion API
+  slug: open-polygon-conversion-api
+- collection_type: open
+  name: Polygon Crypto REST Aggregates CorporateActions API
+  slug: open-polygon-corporateactions-api
+- collection_type: open
   name: Polygon Crypto REST API
   slug: open-polygon-crypto
+- collection_type: open
+  name: Polygon Crypto REST Aggregates DailyBars API
+  slug: open-polygon-dailybars-api
 - collection_type: open
   name: Polygon Forex REST API
   slug: open-polygon-forex
@@ -179,14 +200,32 @@ collections:
   name: Polygon Indices REST API
   slug: open-polygon-indices
 - collection_type: open
+  name: Polygon Crypto REST Aggregates Markets API
+  slug: open-polygon-markets-api
+- collection_type: open
+  name: Polygon Crypto REST Aggregates News API
+  slug: open-polygon-news-api
+- collection_type: open
+  name: Polygon API
+  slug: open-polygon-openapi-original
+- collection_type: open
   name: Polygon Options REST API
   slug: open-polygon-options
+- collection_type: open
+  name: Polygon Crypto REST Aggregates Quotes API
+  slug: open-polygon-quotes-api
 - collection_type: open
   name: Polygon Reference REST API
   slug: open-polygon-reference
 - collection_type: open
+  name: Polygon Crypto REST Aggregates Snapshots API
+  slug: open-polygon-snapshots-api
+- collection_type: open
   name: Polygon Stocks REST API
   slug: open-polygon-stocks
+- collection_type: open
+  name: Polygon Crypto REST Aggregates Tickers API
+  slug: open-polygon-tickers-api
 common:
 - group: docs
   title: ''
@@ -514,7 +553,7 @@ plans:
 - name: Polygon Plans Pricing
   plan_count: 12
   slug: polygon-plans-pricing
-random_paper: 56
+random_paper: 31
 rate_limits:
 - limit_count: 6
   name: Polygon Rate Limits
@@ -578,7 +617,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:

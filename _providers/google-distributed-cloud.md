@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Operations for listing available edge zones
   name: Google Distributed Cloud Zones API
   slug: google-distributed-cloud-zones-api
-artifact_total: 22
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Google Distributed Cloud Edge Network Networks API
@@ -69,8 +69,23 @@ collections:
   name: Google Distributed Cloud Edge Network Networks Zones API
   slug: postman-google-distributed-cloud-zones-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Distributed Cloud Edge Network API
   slug: open-distributed-cloud-edge-network-api
+- collection_type: open
+  name: Google Distributed Cloud Edge Network Networks API
+  slug: open-google-distributed-cloud-networks-api
+- collection_type: open
+  name: Google Distributed Cloud Edge Network Networks Routers API
+  slug: open-google-distributed-cloud-routers-api
+- collection_type: open
+  name: Google Distributed Cloud Edge Network Networks Subnets API
+  slug: open-google-distributed-cloud-subnets-api
+- collection_type: open
+  name: Google Distributed Cloud Edge Network Networks Zones API
+  slug: open-google-distributed-cloud-zones-api
 common:
 - group: build
   title: ''
@@ -172,7 +187,7 @@ plans:
 - name: Google Distributed Cloud Plans Pricing
   plan_count: 3
   slug: google-distributed-cloud-plans-pricing
-random_paper: 49
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Google Distributed Cloud Rate Limits
@@ -219,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/screenshots/google-distributed-cloud-2026-06-20T182158.png
 security:

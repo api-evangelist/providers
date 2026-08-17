@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Manage Synapse Analytics workspaces
   name: Azure Synapse Analytics Workspaces API
   slug: azure-synapse-workspaces-api
-artifact_total: 34
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Azure Synapse Analytics Spark Pools API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Azure Synapse Analytics Spark Pools Workspaces API
   slug: postman-azure-synapse-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Synapse Analytics Spark Pools API
+  slug: open-azure-synapse-spark-pools-api
+- collection_type: open
+  name: Azure Synapse Analytics Spark Pools SQL Pools API
+  slug: open-azure-synapse-sql-pools-api
+- collection_type: open
+  name: Azure Synapse Analytics Spark Pools Workspaces API
+  slug: open-azure-synapse-workspaces-api
 common:
 - group: build
   title: ''
@@ -213,7 +225,7 @@ plans:
 - name: Azure Synapse Plans Pricing
   plan_count: 3
   slug: azure-synapse-plans-pricing
-random_paper: 47
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Azure Synapse Rate Limits
@@ -260,7 +272,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-synapse/refs/heads/main/screenshots/azure-synapse-2026-06-20T172913.png
 security:

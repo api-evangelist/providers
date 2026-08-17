@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,7 +66,35 @@ apis:
 - description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any cruzfoam.com URL — a structured-data view of every page without scraping the HTML.
   name: Cruz Foam SEO Metadata API
   slug: cruz-foam-seo-api
-artifact_total: 14
+artifact_total: 23
+collections:
+- collection_type: open
+  name: Cruz Foam Customers API
+  slug: open-cruz-foam-customers-api
+- collection_type: open
+  name: Cruz Foam Discovery API
+  slug: open-cruz-foam-discovery-api
+- collection_type: open
+  name: Cruz Foam Media API
+  slug: open-cruz-foam-media-api
+- collection_type: open
+  name: Cruz Foam oEmbed API
+  slug: open-cruz-foam-oembed-api
+- collection_type: open
+  name: Cruz Foam Pages API
+  slug: open-cruz-foam-pages-api
+- collection_type: open
+  name: Cruz Foam Posts API
+  slug: open-cruz-foam-posts-api
+- collection_type: open
+  name: Cruz Foam Search API
+  slug: open-cruz-foam-search-api
+- collection_type: open
+  name: Cruz Foam SEO Metadata API
+  slug: open-cruz-foam-seo-api
+- collection_type: open
+  name: Cruz Foam Taxonomy API
+  slug: open-cruz-foam-taxonomy-api
 common:
 - group: company
   title: ''
@@ -205,7 +233,7 @@ plans:
 - name: Cruz Foam Plans Pricing
   plan_count: 0
   slug: cruz-foam-plans-pricing
-random_paper: 76
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Cruz Foam Rate Limits
@@ -213,6 +241,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.7
@@ -220,8 +249,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 32.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Cruz Foam Authentication

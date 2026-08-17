@@ -10,32 +10,44 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-12'
+  score: 63.3
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 30
+  human_in_the_loop: 0
+  name: Jasper Agentic Access
+  operation_count: 50
+  slug: jasper-agentic-access
+  summary_line: 50 operations · 30 acting
 api_count: 1
 apis:
 - description: The Jasper API brings generative AI into your platform — generate on-brand content via commands and templates, run marketing Agent Tasks, manage documents, projects, tones, and audiences, augment gene
   name: Jasper API
   slug: jasper-api
-artifact_total: 8
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/jasper-agentic-access.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -172,6 +184,30 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/jasper-api-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/jasper-api-overlay.yaml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/jasper-examples.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/jasper-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/jasper-plans-pricing.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.jasper.ai/
 created: '2026-07-17'
 description: Jasper is an AI platform purpose-built for marketing teams that orchestrates 100+ specialized AI agents and connected content pipelines to run end-to-end marketing workflows — content creation, campaign execution, personalization, and SEO/GEO optimization — while holding brand consistency at scale. Jasper IQ is the governance layer that embeds brand voice, style guides, and marketing context into every output. The Jasper API (https://api.jasper.ai/v1) exposes commands, agent tasks, documents, projects, tones, audiences, knowledge/retrieval, and a full image-editing suite, secured with workspace API keys (X-API-Key) or OAuth 2.0 (authorization code + PKCE, Dynamic Client Registration). Jasper also ships a hosted, remote Model Context Protocol (MCP) server at https://mcp.jasper.ai so agents in Claude, ChatGPT, Copilot Studio, OpenAI Agent Builder, and n8n can create on-brand content. API access is available on the Jasper Business plan.
 image: https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/681e121f9445a06741087852_Webclip.png
@@ -180,15 +216,19 @@ mcp_servers:
 - description: ''
   name: jasper-mcp.yml
   slug: jasper-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Jasper
 nav: Providers
 network: true
 overview: 'Jasper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, Content Generation, and Marketing.
 
 
-  Jasper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 45
+  Jasper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 34 more developer resources.'
+plans:
+- name: Jasper Plans Pricing
+  plan_count: 2
+  slug: jasper-plans-pricing
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Jasper Rate Limits
@@ -199,24 +239,24 @@ scopes:
   slug: jasper-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.8
-  delta: 0.0
+  band: strong
+  composite: 62.2
+  delta: 20.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
+    commercial_clarity: 81.6
+    contract_quality: 52.4
     developer_ergonomics: 66.8
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 47.4
+    governance: 20.8
+    operational_transparency: 63.2
   previous_composite: 41.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/screenshots/jasper-2026-07-25T223101.png
 security:
 - kind: authentication

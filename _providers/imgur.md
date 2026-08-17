@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: 'Account-scoped data: profile, images, albums, favorites, settings, notifications.'
@@ -61,7 +61,41 @@ apis:
 - description: Topic listings and topic galleries.
   name: Imgur Topic API
   slug: imgur-topic-api
-artifact_total: 58
+artifact_total: 69
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Imgur Account API
+  slug: open-imgur-account-api
+- collection_type: open
+  name: Imgur Album API
+  slug: open-imgur-album-api
+- collection_type: open
+  name: Imgur Auth API
+  slug: open-imgur-auth-api
+- collection_type: open
+  name: Imgur Comment API
+  slug: open-imgur-comment-api
+- collection_type: open
+  name: Imgur Gallery API
+  slug: open-imgur-gallery-api
+- collection_type: open
+  name: Imgur Image API
+  slug: open-imgur-image-api
+- collection_type: open
+  name: Imgur Memegen API
+  slug: open-imgur-memegen-api
+- collection_type: open
+  name: Imgur Notification API
+  slug: open-imgur-notification-api
+- collection_type: open
+  name: Imgur Tags API
+  slug: open-imgur-tags-api
+- collection_type: open
+  name: Imgur Topic API
+  slug: open-imgur-topic-api
 common:
 - group: auth
   title: ''
@@ -258,7 +292,7 @@ plans:
 - name: Imgur Plans Pricing
   plan_count: 4
   slug: imgur-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 4
   name: Imgur Rate Limits
@@ -299,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
 security:

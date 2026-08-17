@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -78,8 +78,50 @@ apis:
 - description: Platform webhook subscriptions for real-time events.
   name: PushPress Webhooks API
   slug: pushpress-webhooks-api
-artifact_total: 20
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PushPress Platform ApiKeys API
+  slug: open-pushpress-apikeys-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Appointments API
+  slug: open-pushpress-appointments-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Attributions API
+  slug: open-pushpress-attributions-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Checkins API
+  slug: open-pushpress-checkins-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Classes API
+  slug: open-pushpress-classes-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Company API
+  slug: open-pushpress-company-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Customers API
+  slug: open-pushpress-customers-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Enrollments API
+  slug: open-pushpress-enrollments-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Events API
+  slug: open-pushpress-events-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Invitations API
+  slug: open-pushpress-invitations-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Messages API
+  slug: open-pushpress-messages-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Plans API
+  slug: open-pushpress-plans-api
+- collection_type: open
+  name: PushPress Platform ApiKeys Webhooks API
+  slug: open-pushpress-webhooks-api
 - collection_type: open
   name: PushPress Platform API
   slug: open-pushpress
@@ -148,7 +190,7 @@ plans:
 - name: Pushpress Plans Pricing
   plan_count: 5
   slug: pushpress-plans-pricing
-random_paper: 45
+random_paper: 111
 rate_limits:
 - limit_count: 2
   name: Pushpress Rate Limits
@@ -173,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The public REST surface of the MODIVO storefront, served by its Adobe Commerce / Magento 2.4 deployment at https://modivo.pl/rest/all and self-described by a Swagger 2.0 document the platform generate
@@ -44,11 +44,18 @@ apis:
 - description: MODIVO's third-party marketplace runs on a Mirakl tenant at modivo.mirakl.net. Sellers automate offers, stock, prices, orders and tracking numbers through the standard Mirakl Marketplace Seller API on
   name: MODIVO Marketplace Seller API (Mirakl)
   slug: modivo-marketplace-seller-api-mirakl
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Modivo Webhooks
   slug: modivo-webhooks
+collections:
+- collection_type: open
+  name: MODIVO Commerce REST API
+  slug: open-modivo-commerce-rest-api
+- collection_type: open
+  name: eobuwie Commerce REST API
+  slug: open-modivo-eobuwie-commerce-rest-api
 common:
 - group: company
   title: ''
@@ -170,7 +177,7 @@ plans:
 - name: Modivo Plans Pricing
   plan_count: 0
   slug: modivo-plans-pricing
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Modivo Rate Limits
@@ -178,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: 32.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 55.9
@@ -186,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 5.0
+  previous_composite: 37.5
   regulatory:
     applies: true
     matched_via: tags
@@ -194,8 +201,8 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png
 security:
 - kind: authentication

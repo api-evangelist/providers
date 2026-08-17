@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,8 +62,35 @@ apis:
 - description: The Statistical API API from AeroDataBox — 8 operation(s) for statistical api.
   name: AeroDataBox Statistical API API
   slug: aerodatabox-statistical-api-api
-artifact_total: 362
+artifact_total: 371
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AeroDataBox API - Aviation and Flight Aircraft API API
+  slug: open-aerodatabox-aircraft-api-api
+- collection_type: open
+  name: AeroDataBox API - Aviation and Flight Aircraft API Airport API API
+  slug: open-aerodatabox-airport-api-api
+- collection_type: open
+  name: AeroDataBox API - Aviation and Flight Aircraft API Flight Alert API API
+  slug: open-aerodatabox-flight-alert-api-api
+- collection_type: open
+  name: AeroDataBox API - Aviation and Flight Aircraft API Flight API API
+  slug: open-aerodatabox-flight-api-api
+- collection_type: open
+  name: AeroDataBox API - Aviation and Flight Aircraft API Healthcheck API API
+  slug: open-aerodatabox-healthcheck-api-api
+- collection_type: open
+  name: AeroDataBox API - Aviation and Flight Aircraft API Industry API API
+  slug: open-aerodatabox-industry-api-api
+- collection_type: open
+  name: AeroDataBox API - Aviation and Flight Aircraft API Miscellaneous API API
+  slug: open-aerodatabox-miscellaneous-api-api
+- collection_type: open
+  name: AeroDataBox API - Aviation and Flight Aircraft API Statistical API API
+  slug: open-aerodatabox-statistical-api-api
 - collection_type: open
   name: AeroDataBox API - Aviation and Flight API
   slug: open-aerodatabox
@@ -1155,7 +1182,7 @@ plans:
 - name: Aerodatabox Plans Pricing
   plan_count: 1
   slug: aerodatabox-plans-pricing
-random_paper: 82
+random_paper: 119
 rate_limits:
 - limit_count: 2
   name: Aerodatabox Rate Limits
@@ -1197,7 +1224,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/screenshots/aerodatabox-2026-06-20T165508.png
 security:

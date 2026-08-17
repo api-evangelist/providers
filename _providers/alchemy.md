@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -75,20 +75,35 @@ apis:
 - description: Retrieve metadata for ERC-20 tokens.
   name: Alchemy Token Metadata API
   slug: alchemy-token-metadata-api
-artifact_total: 76
+artifact_total: 81
 asyncapis:
 - description: AsyncAPI definition for Alchemy's JSON-RPC WebSocket subscription API. Clients open a `wss://` connection to a per-network Alchemy endpoint and use the standard Ethereum `eth_subscribe` / `eth_unsubsc
   name: Alchemy WebSocket Subscription API
   slug: alchemy-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Alchemy Gas Manager API
   slug: open-alchemy-gas-manager-api
+- collection_type: open
+  name: Alchemy Gas Manager Paymaster API
+  slug: open-alchemy-paymaster-api
+- collection_type: open
+  name: Alchemy Gas Manager Paymaster Policies API
+  slug: open-alchemy-policies-api
 - collection_type: open
   name: Alchemy Token API
   slug: open-alchemy-token-api
 - collection_type: open
-  name: Alchemy Transfers API
+  name: Alchemy Gas Manager Paymaster Token Balances API
+  slug: open-alchemy-token-balances-api
+- collection_type: open
+  name: Alchemy Gas Manager Paymaster Token Metadata API
+  slug: open-alchemy-token-metadata-api
+- collection_type: open
+  name: Alchemy Gas Manager Paymaster Transfers API
   slug: open-alchemy-transfers-api
 common:
 - group: agent
@@ -325,7 +340,7 @@ plans:
 - name: Alchemy Plans Pricing
   plan_count: 4
   slug: alchemy-plans-pricing
-random_paper: 19
+random_paper: 143
 rate_limits:
 - limit_count: 4
   name: Alchemy Rate Limits
@@ -375,7 +390,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/screenshots/alchemy-2026-06-20T171514.png
 security:

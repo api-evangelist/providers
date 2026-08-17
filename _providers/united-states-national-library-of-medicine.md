@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,8 +69,11 @@ apis:
 - description: NCBI taxonomy information
   name: United States National Library of Medicine Taxonomy API
   slug: united-states-national-library-of-medicine-taxonomy-api
-artifact_total: 29
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: NCBI BLAST URL API
   slug: open-ncbi-blast
@@ -83,6 +86,36 @@ collections:
 - collection_type: open
   name: ClinicalTrials.gov API
   slug: open-nlm-clinicaltrials
+- collection_type: open
+  name: NCBI URL BLAST API
+  slug: open-united-states-national-library-of-medicine-blast-api
+- collection_type: open
+  name: NCBI URL BLAST Fetch API
+  slug: open-united-states-national-library-of-medicine-fetch-api
+- collection_type: open
+  name: NCBI URL BLAST Gene API
+  slug: open-united-states-national-library-of-medicine-gene-api
+- collection_type: open
+  name: NCBI URL BLAST Genome API
+  slug: open-united-states-national-library-of-medicine-genome-api
+- collection_type: open
+  name: NCBI URL BLAST Info API
+  slug: open-united-states-national-library-of-medicine-info-api
+- collection_type: open
+  name: NCBI URL BLAST Link API
+  slug: open-united-states-national-library-of-medicine-link-api
+- collection_type: open
+  name: NCBI URL BLAST Metadata API
+  slug: open-united-states-national-library-of-medicine-metadata-api
+- collection_type: open
+  name: NCBI URL BLAST Search API
+  slug: open-united-states-national-library-of-medicine-search-api
+- collection_type: open
+  name: NCBI URL BLAST Studies API
+  slug: open-united-states-national-library-of-medicine-studies-api
+- collection_type: open
+  name: NCBI URL BLAST Taxonomy API
+  slug: open-united-states-national-library-of-medicine-taxonomy-api
 common:
 - group: agent
   title: ''
@@ -153,7 +186,7 @@ plans:
 - name: United States National Library Of Medicine Plans Pricing
   plan_count: 3
   slug: united-states-national-library-of-medicine-plans-pricing
-random_paper: 108
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: United States National Library Of Medicine Rate Limits
@@ -201,7 +234,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/screenshots/united-states-national-library-of-medicine-2026-06-20T200054.png
 security:

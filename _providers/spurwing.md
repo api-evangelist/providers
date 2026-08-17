@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Services API from Spurwing — 1 operation(s) for services.
   name: Spurwing Services API
   slug: spurwing-services-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spurwing Appointment Scheduling Appointments API
+  slug: open-spurwing-appointments-api
+- collection_type: open
+  name: Spurwing Appointment Scheduling Appointments Availability API
+  slug: open-spurwing-availability-api
+- collection_type: open
+  name: Spurwing Appointment Scheduling Appointments Services API
+  slug: open-spurwing-services-api
 - collection_type: open
   name: Spurwing Appointment Scheduling API
   slug: open-spurwing
@@ -117,7 +129,7 @@ plans:
 - name: Spurwing Plans Pricing
   plan_count: 1
   slug: spurwing-plans-pricing
-random_paper: 55
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Spurwing Rate Limits
@@ -142,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

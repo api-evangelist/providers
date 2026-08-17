@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
 - description: Workflow and status management
   name: Wrike Workflows API
   slug: wrike-workflows-api
-artifact_total: 123
+artifact_total: 137
 collections:
 - collection_type: postman
   name: Wrike Access Roles API
@@ -131,6 +131,48 @@ collections:
 - collection_type: postman
   name: Wrike Access Roles Workflows API
   slug: postman-wrike-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wrike Access Roles API
+  slug: open-wrike-access-roles-api
+- collection_type: open
+  name: Wrike Access Roles Accounts API
+  slug: open-wrike-accounts-api
+- collection_type: open
+  name: Wrike Access Roles Colors API
+  slug: open-wrike-colors-api
+- collection_type: open
+  name: Wrike Access Roles Comments API
+  slug: open-wrike-comments-api
+- collection_type: open
+  name: Wrike Access Roles Contacts API
+  slug: open-wrike-contacts-api
+- collection_type: open
+  name: Wrike Access Roles Custom Fields API
+  slug: open-wrike-custom-fields-api
+- collection_type: open
+  name: Wrike Access Roles Folders And Projects API
+  slug: open-wrike-folders-and-projects-api
+- collection_type: open
+  name: Wrike Access Roles Groups API
+  slug: open-wrike-groups-api
+- collection_type: open
+  name: Wrike Access Roles Tasks API
+  slug: open-wrike-tasks-api
+- collection_type: open
+  name: Wrike Access Roles Time Logs API
+  slug: open-wrike-time-logs-api
+- collection_type: open
+  name: Wrike Access Roles Users API
+  slug: open-wrike-users-api
+- collection_type: open
+  name: Wrike Access Roles Webhooks API
+  slug: open-wrike-webhooks-api
+- collection_type: open
+  name: Wrike Access Roles Workflows API
+  slug: open-wrike-workflows-api
 - collection_type: open
   name: Wrike API
   slug: open-wrike
@@ -428,7 +470,7 @@ plans:
 - name: Wrike Plans Pricing
   plan_count: 11
   slug: wrike-plans-pricing
-random_paper: 66
+random_paper: 99
 rate_limits:
 - limit_count: 1
   name: Wrike Rate Limits
@@ -467,7 +509,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/screenshots/wrike-2026-06-20T201636.png
 security:

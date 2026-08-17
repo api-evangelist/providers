@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 6
 common:
@@ -121,7 +121,7 @@ plans:
 - name: Adelphic Mobile Plans Pricing
   plan_count: 0
   slug: adelphic-mobile-plans-pricing
-random_paper: 63
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Adelphic Mobile Rate Limits
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
-  delta: 16.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -137,10 +137,10 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 5.7
+  previous_composite: 22.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adelphic-mobile/refs/heads/main/screenshots/adelphic-mobile-2026-07-25T181622.png
 security:
 - kind: authentication

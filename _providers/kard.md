@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -87,11 +87,63 @@ apis:
 - description: The users > WebView API from Kard — 1 operation(s) for users > webview.
   name: Kard users > WebView API
   slug: kard-users-webview-api
-artifact_total: 23
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Kard Notifications Webhooks
   slug: kard-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference attributions API
+  slug: open-kard-attributions-api
+- collection_type: open
+  name: API Reference attributions Files API
+  slug: open-kard-files-api
+- collection_type: open
+  name: API Reference attributions notifications > Notifications API
+  slug: open-kard-notifications-notifications-api
+- collection_type: open
+  name: API Reference attributions notifications > Subscriptions API
+  slug: open-kard-notifications-subscriptions-api
+- collection_type: open
+  name: API Reference attributions Organizations API
+  slug: open-kard-organizations-api
+- collection_type: open
+  name: API Reference attributions Organizations > Children API
+  slug: open-kard-organizations-children-api
+- collection_type: open
+  name: API Reference attributions Organizations > ContentStrategies API
+  slug: open-kard-organizations-contentstrategies-api
+- collection_type: open
+  name: API Reference attributions Organizations > Placements API
+  slug: open-kard-organizations-placements-api
+- collection_type: open
+  name: API Reference attributions Ping API
+  slug: open-kard-ping-api
+- collection_type: open
+  name: API Reference attributions rewards API
+  slug: open-kard-rewards-api
+- collection_type: open
+  name: API Reference attributions transactions API
+  slug: open-kard-transactions-api
+- collection_type: open
+  name: API Reference attributions users API
+  slug: open-kard-users-api
+- collection_type: open
+  name: API Reference attributions users > attributions API
+  slug: open-kard-users-attributions-api
+- collection_type: open
+  name: API Reference attributions users > Rewards API
+  slug: open-kard-users-rewards-api
+- collection_type: open
+  name: API Reference attributions users > uploads API
+  slug: open-kard-users-uploads-api
+- collection_type: open
+  name: API Reference attributions users > WebView API
+  slug: open-kard-users-webview-api
 common:
 - group: other
   title: ''
@@ -252,7 +304,7 @@ overview: 'Kard publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kard''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, engineering blog, support, and 28 more developer resources.'
-random_paper: 58
+random_paper: 120
 scopes:
 - name: Kard Scopes
   scope_count: 13
@@ -287,7 +339,7 @@ score:
     regime_id: payments
     score: 57.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/screenshots/kard-2026-07-25T223510.png
 security:

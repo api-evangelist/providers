@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ apis:
 - description: Use the `/webhooks-lookup` resource to create, list, show details for, and delete webhook lookups.
   name: PayPal Webhooks-Lookup API
   slug: paypal-webhooks-lookup-api
-artifact_total: 709
+artifact_total: 747
 collections:
 - collection_type: postman
   name: Paypal Subscriptions Authorizations Activate API
@@ -263,6 +263,120 @@ collections:
 - collection_type: postman
   name: Paypal Subscriptions Authorizations Webhooks-Lookup API
   slug: postman-paypal-webhooks-lookup-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Activate API
+  slug: open-paypal-activate-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations API
+  slug: open-paypal-authorizations-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Balances API
+  slug: open-paypal-balances-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Billing API
+  slug: open-paypal-billing-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Cancel API
+  slug: open-paypal-cancel-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Capture API
+  slug: open-paypal-capture-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Captures API
+  slug: open-paypal-captures-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Deactivate API
+  slug: open-paypal-deactivate-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Disputes-Actions API
+  slug: open-paypal-disputes-actions-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Disputes API
+  slug: open-paypal-disputes-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Invoices API
+  slug: open-paypal-invoices-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Orders API
+  slug: open-paypal-orders-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Partner-Referrals API
+  slug: open-paypal-partner-referrals-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Payment-Tokens API
+  slug: open-paypal-payment-tokens-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Payouts API
+  slug: open-paypal-payouts-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Payouts-Item API
+  slug: open-paypal-payouts-item-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Plans API
+  slug: open-paypal-plans-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Pricing API
+  slug: open-paypal-pricing-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Products API
+  slug: open-paypal-products-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Refunds API
+  slug: open-paypal-refunds-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Revise API
+  slug: open-paypal-revise-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Schemes API
+  slug: open-paypal-schemes-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Search-Invoices API
+  slug: open-paypal-search-invoices-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Setup-Tokens API
+  slug: open-paypal-setup-tokens-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Simulate-Event API
+  slug: open-paypal-simulate-event-api
+- collection_type: open
+  name: Paypal Authorizations Subscriptions API
+  slug: open-paypal-subscriptions-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Suspend API
+  slug: open-paypal-suspend-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Templates API
+  slug: open-paypal-templates-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Trackers API
+  slug: open-paypal-trackers-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Trackers-Batch API
+  slug: open-paypal-trackers-batch-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Transactions API
+  slug: open-paypal-transactions-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Verify-Webhook-Signature API
+  slug: open-paypal-verify-webhook-signature-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Web-Profiles API
+  slug: open-paypal-web-profiles-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Webhooks API
+  slug: open-paypal-webhooks-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Webhooks-Event-Types API
+  slug: open-paypal-webhooks-event-types-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Webhooks-Events API
+  slug: open-paypal-webhooks-events-api
+- collection_type: open
+  name: Paypal Subscriptions Authorizations Webhooks-Lookup API
+  slug: open-paypal-webhooks-lookup-api
 common:
 - group: other
   title: ''
@@ -2251,7 +2365,7 @@ plans:
 - name: Paypal Plans Pricing
   plan_count: 7
   slug: paypal-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Paypal Rate Limits
@@ -2296,7 +2410,7 @@ score:
     regime_id: payments
     score: 70.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png
 security:

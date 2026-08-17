@@ -13,12 +13,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-12'
+  score: 44.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -26,7 +26,7 @@ agentic_access:
   operation_count: 276
   slug: luma-health-agentic-access
   summary_line: 276 operations · 160 acting
-api_count: 12
+api_count: 13
 apis:
 - description: Self-service scheduling, appointment lifecycle, appointment types, provider availabilities, schedulers, offers, recalls, and waitlist management.
   name: Luma Health Scheduling & Appointments API
@@ -55,6 +55,9 @@ apis:
 - description: Inbound and outbound referral management across the care network.
   name: Luma Health Referrals API
   slug: luma-health-referrals-api
+- description: NPS survey responses and feedback-link clicks, external reviews scraped from Google Business Profile and Yelp with AI-extracted sentiment and themes, AI-drafted public review replies with an approve/r
+  name: Luma Health Feedback & Reputation API
+  slug: luma-health-feedback-reputation-api
 - description: Conversational AI assistant surfaces - assistant instances and actions, lumabot flows and templates, knowledge-base question/answers, chat activities, and queue-manager routing.
   name: Luma Health Conversational AI Assistant API
   slug: luma-health-assistant-api
@@ -64,7 +67,7 @@ apis:
 - description: OAuth2 client-credentials authentication - generate and rotate client id/secret and exchange them for JWT access tokens (including subaccount tokens).
   name: Luma Health Authentication API
   slug: luma-health-authentication-api
-artifact_total: 17
+artifact_total: 21
 common:
 - group: agent
   title: ''
@@ -90,6 +93,22 @@ common:
   title: ''
   type: TrustCenter
   url: security/luma-health-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/luma-health-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/luma-health-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/luma-health-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/luma-health-rate-limits.yml
 - group: design
   title: ''
   type: ErrorCatalog
@@ -146,10 +165,26 @@ common:
   title: ''
   type: Blog
   url: https://www.lumahealth.io/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.lumahealth.io/blog/feed/
 - group: learn
   title: ''
   type: Learn
   url: https://www.lumahealth.io/learn
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.lumahealth.io/hc/en-us
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.lumahealth.io/newsroom/in-the-news/
+- group: company
+  title: ''
+  type: Careers
+  url: https://job-boards.greenhouse.io/lumahealth
 - group: operate
   title: ''
   type: StatusPage
@@ -157,7 +192,7 @@ common:
 - group: auth
   title: ''
   type: Security
-  url: https://www.lumahealth.io/security
+  url: security/luma-health-vulnerability-disclosure.yml
 - group: start
   title: ''
   type: Login
@@ -165,7 +200,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.lumahealth.io/terms
+  url: https://www.lumahealth.io/terms-of-use
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -187,23 +222,31 @@ mcp_servers:
 - description: ''
   name: luma-health-mcp.yml
   slug: luma-health-mcpyml
-modified: '2026-07-24'
+modified: '2026-08-15'
 name: Luma Health
 nav: Providers
 network: true
-overview: 'Luma Health publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Scheduling & Appointments API, Patients API, Providers & Facilities API, and 9 more. Tagged areas include Healthcare, United States, Patient Engagement, Scheduling, and Referrals.
+overview: 'Luma Health publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Scheduling & Appointments API, Patients API, Providers & Facilities API, and 10 more. Tagged areas include Healthcare, United States, Patient Engagement, Scheduling, and Referrals.
 
 
-  Luma Health''s developer surface includes authentication, documentation, API reference, engineering blog, and 24 more developer resources.'
-random_paper: 26
+  Luma Health''s developer surface includes authentication, documentation, API reference, engineering blog, and 32 more developer resources.'
+plans:
+- name: Luma Health Plans Pricing
+  plan_count: 0
+  slug: luma-health-plans-pricing
+random_paper: 63
+rate_limits:
+- limit_count: 0
+  name: Luma Health Rate Limits
+  slug: luma-health-rate-limits
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 45.3
+  delta: 1.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 50.8
-    developer_ergonomics: 40.8
+    developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
@@ -223,9 +266,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
+    score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png
 security:
@@ -237,10 +280,14 @@ security:
   name: Luma Health Domain Security
   slug: luma-health-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Luma Health Vulnerability Disclosure
+  slug: luma-health-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: Luma Health Trust Center
   slug: luma-health-trust-center
-  summary_line: HITRUST CSF r2, SOC 2 Type II, ISO/IEC 27001:2022, HIPAA, TX-RAMP Level 2
+  summary_line: HITRUST CSF r2, SOC 2 Type II, ISO/IEC 27001:2022, ISO/IEC 42001 (AI management system, for Luma AI products), HIPAA, TX-RAMP Level 2, EU-US Data Privacy Framework (with UK and Swiss extensions)
 slug: luma-health
 tags:
 - Healthcare
@@ -254,5 +301,7 @@ tags:
 - EHR
 - Interoperability
 - Clinical AI
+- Reputation Management
+- Patient Feedback
 website: https://www.lumahealth.io
 ---

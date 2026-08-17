@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'Martini is Lonti''s low-code integration platform (iPaaS) that allows developers to create, consume, publish, integrate, and automate APIs. It supports Git integration, professional IDEs, and provides '
@@ -106,7 +106,7 @@ plans:
 - name: Lonti Plans Pricing
   plan_count: 3
   slug: lonti-plans-pricing
-random_paper: 70
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Lonti Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lonti/refs/heads/main/screenshots/lonti-2026-06-20T184707.png
 security:

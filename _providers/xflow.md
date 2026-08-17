@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -92,11 +92,69 @@ apis:
 - description: The WebhookEndpoints API from Xflow — 4 operation(s) for webhookendpoints.
   name: Xflow WebhookEndpoints API
   slug: xflow-webhookendpoints-api
-artifact_total: 23
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Xflow Webhooks
   slug: xflow-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xflow Accounts API
+  slug: open-xflow-accounts-api
+- collection_type: open
+  name: Xflow Accounts AccountSettings API
+  slug: open-xflow-accountsettings-api
+- collection_type: open
+  name: Xflow Accounts Addresses API
+  slug: open-xflow-addresses-api
+- collection_type: open
+  name: Xflow Accounts Balance API
+  slug: open-xflow-balance-api
+- collection_type: open
+  name: Xflow Accounts BalanceTransactions API
+  slug: open-xflow-balancetransactions-api
+- collection_type: open
+  name: Xflow Accounts Deposits API
+  slug: open-xflow-deposits-api
+- collection_type: open
+  name: Xflow Accounts Events API
+  slug: open-xflow-events-api
+- collection_type: open
+  name: Xflow Accounts ExchangeRates API
+  slug: open-xflow-exchangerates-api
+- collection_type: open
+  name: Xflow Accounts FeePlans API
+  slug: open-xflow-feeplans-api
+- collection_type: open
+  name: Xflow Accounts Files API
+  slug: open-xflow-files-api
+- collection_type: open
+  name: Xflow Accounts PaymentLinks API
+  slug: open-xflow-paymentlinks-api
+- collection_type: open
+  name: Xflow Accounts Payments API
+  slug: open-xflow-payments-api
+- collection_type: open
+  name: Xflow Accounts Payouts API
+  slug: open-xflow-payouts-api
+- collection_type: open
+  name: Xflow Accounts Persons API
+  slug: open-xflow-persons-api
+- collection_type: open
+  name: Xflow Accounts Quotes API
+  slug: open-xflow-quotes-api
+- collection_type: open
+  name: Xflow Accounts Receivables API
+  slug: open-xflow-receivables-api
+- collection_type: open
+  name: Xflow Accounts Transfers API
+  slug: open-xflow-transfers-api
+- collection_type: open
+  name: Xflow Accounts WebhookEndpoints API
+  slug: open-xflow-webhookendpoints-api
 common:
 - group: other
   title: ''
@@ -257,7 +315,7 @@ overview: 'Xflow publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Xflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 80
+random_paper: 113
 score:
   band: developing
   composite: 52.3
@@ -287,7 +345,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

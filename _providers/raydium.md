@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,23 @@ apis:
 - description: The Pools API from Raydium — 6 operation(s) for pools.
   name: Raydium Pools API
   slug: raydium-pools-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Raydium REST API v3 Farms API
+  slug: open-raydium-farms-api
+- collection_type: open
+  name: Raydium REST API v3 Farms Main API
+  slug: open-raydium-main-api
+- collection_type: open
+  name: Raydium REST API v3 Farms Mint API
+  slug: open-raydium-mint-api
+- collection_type: open
+  name: Raydium REST API v3 Farms Pools API
+  slug: open-raydium-pools-api
 - collection_type: open
   name: Raydium REST API v3
   slug: open-raydium
@@ -126,7 +141,7 @@ plans:
 - name: Raydium Plans Pricing
   plan_count: 2
   slug: raydium-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Raydium Rate Limits
@@ -151,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/screenshots/raydium-2026-06-20T192619.png
 security:

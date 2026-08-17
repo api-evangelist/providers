@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Place, cancel, and read Pro exchange orders.
   name: BitOasis Orders API
   slug: bitoasis-orders-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BitOasis Exchange Account API
+  slug: open-bitoasis-account-api
+- collection_type: open
+  name: BitOasis Exchange Account Coin Deposits API
+  slug: open-bitoasis-coin-deposits-api
+- collection_type: open
+  name: BitOasis Exchange Account Coin Withdrawals API
+  slug: open-bitoasis-coin-withdrawals-api
+- collection_type: open
+  name: BitOasis Exchange Account Fiat Deposits API
+  slug: open-bitoasis-fiat-deposits-api
+- collection_type: open
+  name: BitOasis Exchange Account Fiat Withdrawals API
+  slug: open-bitoasis-fiat-withdrawals-api
+- collection_type: open
+  name: BitOasis Exchange Account Market Data API
+  slug: open-bitoasis-market-data-api
+- collection_type: open
+  name: BitOasis Exchange Account Orders API
+  slug: open-bitoasis-orders-api
 common:
 - group: other
   title: ''
@@ -182,7 +207,7 @@ overview: 'BitOasis publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BitOasis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 22
+random_paper: 117
 score:
   band: thin
   composite: 37.2
@@ -212,7 +237,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/screenshots/bitoasis-2026-07-25T203200.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
 - description: Manage workflow activities
   name: Microsoft Project Workflow Activities API
   slug: microsoft-project-workflow-activities-api
-artifact_total: 91
+artifact_total: 105
 collections:
 - collection_type: postman
   name: Microsoft Project Online REST Assignments API
@@ -128,6 +128,48 @@ collections:
 - collection_type: postman
   name: Microsoft Project Online REST Assignments Workflow Activities API
   slug: postman-microsoft-project-workflow-activities-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Project Online REST Assignments API
+  slug: open-microsoft-project-assignments-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Calendars API
+  slug: open-microsoft-project-calendars-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Custom Fields API
+  slug: open-microsoft-project-custom-fields-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Enterprise Project Types API
+  slug: open-microsoft-project-enterprise-project-types-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Event Handlers API
+  slug: open-microsoft-project-event-handlers-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Lookup Tables API
+  slug: open-microsoft-project-lookup-tables-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Phases API
+  slug: open-microsoft-project-phases-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Projects API
+  slug: open-microsoft-project-projects-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Resources API
+  slug: open-microsoft-project-resources-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Stages API
+  slug: open-microsoft-project-stages-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Tasks API
+  slug: open-microsoft-project-tasks-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Timesheets API
+  slug: open-microsoft-project-timesheets-api
+- collection_type: open
+  name: Microsoft Project Online REST Assignments Workflow Activities API
+  slug: open-microsoft-project-workflow-activities-api
 common:
 - group: build
   title: ''
@@ -357,7 +399,7 @@ plans:
 - name: Microsoft Project Plans Pricing
   plan_count: 6
   slug: microsoft-project-plans-pricing
-random_paper: 106
+random_paper: 147
 rate_limits:
 - limit_count: 3
   name: Microsoft Project Rate Limits
@@ -404,7 +446,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/screenshots/microsoft-project-2026-06-20T185526.png
 security:

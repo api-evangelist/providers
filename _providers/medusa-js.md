@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -90,8 +90,41 @@ apis:
 - description: The Shipping API from Medusa — 1 operation(s) for shipping.
   name: Medusa Shipping API
   slug: medusa-js-shipping-api
-artifact_total: 58
+artifact_total: 69
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Medusa Store Auth API
+  slug: open-medusa-js-auth-api
+- collection_type: open
+  name: Medusa Store Auth Carts API
+  slug: open-medusa-js-carts-api
+- collection_type: open
+  name: Medusa Store Auth Categories API
+  slug: open-medusa-js-categories-api
+- collection_type: open
+  name: Medusa Store Auth Collections API
+  slug: open-medusa-js-collections-api
+- collection_type: open
+  name: Medusa Store Auth Customers API
+  slug: open-medusa-js-customers-api
+- collection_type: open
+  name: Medusa Store Auth Orders API
+  slug: open-medusa-js-orders-api
+- collection_type: open
+  name: Medusa Store Auth Payments API
+  slug: open-medusa-js-payments-api
+- collection_type: open
+  name: Medusa Store Auth Products API
+  slug: open-medusa-js-products-api
+- collection_type: open
+  name: Medusa Store Auth Regions API
+  slug: open-medusa-js-regions-api
+- collection_type: open
+  name: Medusa Store Auth Shipping API
+  slug: open-medusa-js-shipping-api
 - collection_type: open
   name: Medusa Store API
   slug: open-medusa-js
@@ -234,7 +267,7 @@ plans:
 - name: Medusa Js Plans Pricing
   plan_count: 1
   slug: medusa-js-plans-pricing
-random_paper: 65
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Medusa Js Rate Limits
@@ -259,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/screenshots/medusa-js-2026-06-20T185127.png
 security:

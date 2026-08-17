@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,11 +46,23 @@ apis:
 - description: Endpoints for inspecting the mesh topology as seen by the controller.
   name: Traefik Mesh Topology API
   slug: traefik-mesh-topology-api
-artifact_total: 28
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Traefik Mesh Controller Configuration API
+  slug: open-traefik-mesh-configuration-api
 - collection_type: open
   name: Traefik Mesh Controller API
   slug: open-traefik-mesh-controller
+- collection_type: open
+  name: Traefik Mesh Controller Configuration Status API
+  slug: open-traefik-mesh-status-api
+- collection_type: open
+  name: Traefik Mesh Controller Configuration Topology API
+  slug: open-traefik-mesh-topology-api
 common:
 - group: agent
   title: ''
@@ -192,7 +204,7 @@ overview: 'Traefik Mesh publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Traefik Mesh''s developer surface includes documentation, engineering blog, release notes, changelog, and 15 more developer resources.'
-random_paper: 16
+random_paper: 24
 rules:
 - name: Traefik Mesh API Rules
   rule_count: 5
@@ -230,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/screenshots/traefik-mesh-2026-06-20T195533.png
 security:

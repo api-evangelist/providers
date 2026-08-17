@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Query the projects and plans (MapPlan) in an organization through `viewer.organization.plans`/`projects` and the `node(id)` lookup - reading name, location and geometry (lat/lng), dateCreation, imageC
@@ -114,7 +114,7 @@ plans:
 - name: Dronedeploy Plans Pricing
   plan_count: 3
   slug: dronedeploy-plans-pricing
-random_paper: 109
+random_paper: 146
 rate_limits:
 - limit_count: 4
   name: Dronedeploy Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 32.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/screenshots/dronedeploy-2026-07-25T212423.png
 security:

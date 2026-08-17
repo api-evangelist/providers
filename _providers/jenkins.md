@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -64,8 +64,23 @@ arazzos:
 - description: Submit build parameters to a parameterized job, confirm it queued, and poll until it finishes.
   name: Jenkins Trigger a Parameterized Build and Await the Result
   slug: jenkins-trigger-parameterized-build-workflow
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jenkins Remote Access Computer API
+  slug: open-jenkins-computer-api
+- collection_type: open
+  name: Jenkins Remote Access Computer Jobs API
+  slug: open-jenkins-jobs-api
+- collection_type: open
+  name: Jenkins Remote Access Computer Queue API
+  slug: open-jenkins-queue-api
+- collection_type: open
+  name: Jenkins Remote Access Computer Server API
+  slug: open-jenkins-server-api
 - collection_type: open
   name: Jenkins Remote Access API
   slug: open-jenkins
@@ -234,7 +249,7 @@ plans:
 - name: Jenkins Plans Pricing
   plan_count: 3
   slug: jenkins-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Jenkins Rate Limits
@@ -261,7 +276,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/screenshots/jenkins-2026-06-20T183720.png
 security:

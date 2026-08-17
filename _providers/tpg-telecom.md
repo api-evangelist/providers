@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Contacts Management API for the Vodafone Business Messaging Hub, providing CRUD over contacts, lists and custom fields for SMS/MMS campaigns. Documented as an Apiary API Blueprint (project subdomain c
@@ -201,7 +201,7 @@ plans:
 - name: Tpg Telecom Plans
   plan_count: 5
   slug: tpg-telecom-plans
-random_paper: 41
+random_paper: 78
 rate_limits:
 - limit_count: 4
   name: Tpg Telecom Rate Limits
@@ -229,7 +229,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

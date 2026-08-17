@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -126,8 +126,98 @@ apis:
 - description: Route for a summary of all data calculated on 'core' molecules in the Materials Project molecules database. See the `MoleculeSummaryDoc` schema for a full list of fields returned by this route.
   name: Materials Project Molecules Summary API
   slug: materials-project-molecules-summary-api
-artifact_total: 36
+artifact_total: 66
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Materials Project Defect Tasks API
+  slug: open-materials-project-defect-tasks-api
+- collection_type: open
+  name: Materials Project Defect Tasks DOIs API
+  slug: open-materials-project-dois-api
+- collection_type: open
+  name: Materials Project Defect Tasks JCESR Electrolyte Genome API
+  slug: open-materials-project-jcesr-electrolyte-genome-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Absorption API
+  slug: open-materials-project-materials-absorption-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Alloys API
+  slug: open-materials-project-materials-alloys-api
+- collection_type: open
+  name: Project Defect Tasks Materials API
+  slug: open-materials-project-materials-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Bonds API
+  slug: open-materials-project-materials-bonds-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Chemical Environment API
+  slug: open-materials-project-materials-chemical-environment-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Dielectric API
+  slug: open-materials-project-materials-dielectric-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Elasticity API
+  slug: open-materials-project-materials-elasticity-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Electrodes API
+  slug: open-materials-project-materials-electrodes-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Electronic Structure API
+  slug: open-materials-project-materials-electronic-structure-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials EOS API
+  slug: open-materials-project-materials-eos-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Grain Boundaries API
+  slug: open-materials-project-materials-grain-boundaries-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Magnetism API
+  slug: open-materials-project-materials-magnetism-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Oxidation States API
+  slug: open-materials-project-materials-oxidation-states-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Phonon API
+  slug: open-materials-project-materials-phonon-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Piezoelectric API
+  slug: open-materials-project-materials-piezoelectric-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Provenance API
+  slug: open-materials-project-materials-provenance-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Robocrystallographer API
+  slug: open-materials-project-materials-robocrystallographer-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Similarity API
+  slug: open-materials-project-materials-similarity-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Substrates API
+  slug: open-materials-project-materials-substrates-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Summary API
+  slug: open-materials-project-materials-summary-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Surface Properties API
+  slug: open-materials-project-materials-surface-properties-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Synthesis API
+  slug: open-materials-project-materials-synthesis-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Tasks API
+  slug: open-materials-project-materials-tasks-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials Thermo API
+  slug: open-materials-project-materials-thermo-api
+- collection_type: open
+  name: Materials Project Defect Tasks Materials XAS API
+  slug: open-materials-project-materials-xas-api
+- collection_type: open
+  name: Materials Project Defect Tasks Molecules Summary API
+  slug: open-materials-project-molecules-summary-api
 - collection_type: open
   name: Materials Project API
   slug: open-materials-project
@@ -184,7 +274,7 @@ plans:
 - name: Materials Project Plans Pricing
   plan_count: 3
   slug: materials-project-plans-pricing
-random_paper: 86
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Materials Project Rate Limits
@@ -209,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materials-project/refs/heads/main/screenshots/materials-project-2026-06-20T185036.png
 security:

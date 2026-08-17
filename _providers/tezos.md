@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -140,7 +140,83 @@ apis:
 - description: The Voting API from Tezos — 14 operation(s) for voting.
   name: Tezos Voting API
   slug: tezos-voting-api
-artifact_total: 260
+artifact_total: 285
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TzKT Accounts API
+  slug: open-tezos-accounts-api
+- collection_type: open
+  name: TzKT Accounts BigMaps API
+  slug: open-tezos-bigmaps-api
+- collection_type: open
+  name: TzKT Accounts Blocks API
+  slug: open-tezos-blocks-api
+- collection_type: open
+  name: TzKT Accounts Commitments API
+  slug: open-tezos-commitments-api
+- collection_type: open
+  name: TzKT Accounts Constants API
+  slug: open-tezos-constants-api
+- collection_type: open
+  name: TzKT Accounts Contracts API
+  slug: open-tezos-contracts-api
+- collection_type: open
+  name: TzKT Accounts Cycles API
+  slug: open-tezos-cycles-api
+- collection_type: open
+  name: TzKT Accounts Delegates API
+  slug: open-tezos-delegates-api
+- collection_type: open
+  name: TzKT Accounts Domains API
+  slug: open-tezos-domains-api
+- collection_type: open
+  name: TzKT Accounts Events API
+  slug: open-tezos-events-api
+- collection_type: open
+  name: TzKT Accounts Head API
+  slug: open-tezos-head-api
+- collection_type: open
+  name: TzKT Accounts Helpers API
+  slug: open-tezos-helpers-api
+- collection_type: open
+  name: TzKT Accounts Operations API
+  slug: open-tezos-operations-api
+- collection_type: open
+  name: TzKT Accounts Protocols API
+  slug: open-tezos-protocols-api
+- collection_type: open
+  name: TzKT Accounts Quotes API
+  slug: open-tezos-quotes-api
+- collection_type: open
+  name: TzKT Accounts Rewards API
+  slug: open-tezos-rewards-api
+- collection_type: open
+  name: TzKT Accounts Rights API
+  slug: open-tezos-rights-api
+- collection_type: open
+  name: TzKT Accounts SmartRollups API
+  slug: open-tezos-smartrollups-api
+- collection_type: open
+  name: TzKT Accounts Software API
+  slug: open-tezos-software-api
+- collection_type: open
+  name: TzKT Accounts Staking API
+  slug: open-tezos-staking-api
+- collection_type: open
+  name: TzKT Accounts Statistics API
+  slug: open-tezos-statistics-api
+- collection_type: open
+  name: TzKT Accounts Tickets API
+  slug: open-tezos-tickets-api
+- collection_type: open
+  name: TzKT Accounts Tokens API
+  slug: open-tezos-tokens-api
+- collection_type: open
+  name: TzKT Accounts Voting API
+  slug: open-tezos-voting-api
 common:
 - group: agent
   title: ''
@@ -895,7 +971,7 @@ plans:
 - name: Tezos Plans Pricing
   plan_count: 3
   slug: tezos-plans-pricing
-random_paper: 85
+random_paper: 118
 rate_limits:
 - limit_count: 3
   name: Tezos Rate Limits
@@ -929,7 +1005,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/screenshots/tezos-2026-06-20T195210.png
 security:

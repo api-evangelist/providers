@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -90,8 +90,62 @@ apis:
 - description: Everything about Webhooks
   name: Lago Webhooks API
   slug: lago-webhooks-api
-artifact_total: 26
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lago API documentation Add_ons API
+  slug: open-lago-add-ons-api
+- collection_type: open
+  name: Lago API documentation Add_ons Analytics API
+  slug: open-lago-analytics-api
+- collection_type: open
+  name: Lago API documentation Add_ons Billable_metrics API
+  slug: open-lago-billable-metrics-api
+- collection_type: open
+  name: Lago API documentation Add_ons Coupons API
+  slug: open-lago-coupons-api
+- collection_type: open
+  name: Lago API documentation Add_ons Credit_notes API
+  slug: open-lago-credit-notes-api
+- collection_type: open
+  name: Lago API documentation Add_ons Customers API
+  slug: open-lago-customers-api
+- collection_type: open
+  name: Lago API documentation Add_ons Events API
+  slug: open-lago-events-api
+- collection_type: open
+  name: Lago API documentation Add_ons Fees API
+  slug: open-lago-fees-api
+- collection_type: open
+  name: Lago API documentation Add_ons Invoices API
+  slug: open-lago-invoices-api
+- collection_type: open
+  name: Lago API documentation Add_ons Organizations API
+  slug: open-lago-organizations-api
+- collection_type: open
+  name: Lago API documentation Add_ons Payment_requests API
+  slug: open-lago-payment-requests-api
+- collection_type: open
+  name: Lago API documentation Add_ons Plans API
+  slug: open-lago-plans-api
+- collection_type: open
+  name: Lago API documentation Add_ons Subscriptions API
+  slug: open-lago-subscriptions-api
+- collection_type: open
+  name: Lago API documentation Add_ons Taxes API
+  slug: open-lago-taxes-api
+- collection_type: open
+  name: Lago API documentation Add_ons Wallets API
+  slug: open-lago-wallets-api
+- collection_type: open
+  name: Lago API documentation Add_ons Webhook_endpoints API
+  slug: open-lago-webhook-endpoints-api
+- collection_type: open
+  name: Lago API documentation Add_ons Webhooks API
+  slug: open-lago-webhooks-api
 - collection_type: open
   name: Lago API documentation
   slug: open-lago
@@ -164,7 +218,7 @@ plans:
 - name: Lago Plans Pricing
   plan_count: 3
   slug: lago-plans-pricing
-random_paper: 59
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Lago Rate Limits
@@ -189,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/screenshots/lago-2026-06-20T184248.png
 security:

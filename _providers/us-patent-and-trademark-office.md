@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: All public PTAB Trial proceedings
   name: US Patent and Trademark Office PTAB Trials Proceedings API
   slug: us-patent-and-trademark-office-ptab-trials-proceedings-api
-artifact_total: 27
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets API
+  slug: open-us-patent-and-trademark-office-bulk-datasets-api
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets Case Documents API
+  slug: open-us-patent-and-trademark-office-case-documents-api
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets Case Status API
+  slug: open-us-patent-and-trademark-office-case-status-api
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets Patent Search API
+  slug: open-us-patent-and-trademark-office-patent-search-api
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets Petition Decisions API
+  slug: open-us-patent-and-trademark-office-petition-decisions-api
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets PTAB Appeals API
+  slug: open-us-patent-and-trademark-office-ptab-appeals-api
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets PTAB Interferences API
+  slug: open-us-patent-and-trademark-office-ptab-interferences-api
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets PTAB Trials Decisions API
+  slug: open-us-patent-and-trademark-office-ptab-trials-decisions-api
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets PTAB Trials Documents API
+  slug: open-us-patent-and-trademark-office-ptab-trials-documents-api
+- collection_type: open
+  name: USPTO Open Data Portal Bulk Datasets PTAB Trials Proceedings API
+  slug: open-us-patent-and-trademark-office-ptab-trials-proceedings-api
 - collection_type: open
   name: USPTO Open Data Portal API
   slug: open-uspto-open-data-portal
@@ -151,7 +184,7 @@ plans:
 - name: Us Patent And Trademark Office Plans Pricing
   plan_count: 3
   slug: us-patent-and-trademark-office-plans-pricing
-random_paper: 66
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Us Patent And Trademark Office Rate Limits
@@ -199,7 +232,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/screenshots/us-patent-and-trademark-office-2026-06-20T200649.png
 security:

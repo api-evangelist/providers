@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -66,11 +66,29 @@ apis:
 - description: Manage gateway sub-devices
   name: Tuya Sub Devices API
   slug: tuya-sub-devices-api
-artifact_total: 26
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tuya Device Management Device Control API
+  slug: open-tuya-device-control-api
+- collection_type: open
+  name: Tuya Device Management Device Control Device Logs API
+  slug: open-tuya-device-logs-api
 - collection_type: open
   name: Tuya Device Management API
   slug: open-tuya-device-management
+- collection_type: open
+  name: Tuya Device Management Device Control Device Users API
+  slug: open-tuya-device-users-api
+- collection_type: open
+  name: Tuya Device Management Device Control Devices API
+  slug: open-tuya-devices-api
+- collection_type: open
+  name: Tuya Device Management Device Control Sub Devices API
+  slug: open-tuya-sub-devices-api
 common:
 - group: agent
   title: ''
@@ -210,7 +228,7 @@ plans:
 - name: Tuya Plans Pricing
   plan_count: 1
   slug: tuya-plans-pricing
-random_paper: 91
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Tuya Rate Limits
@@ -252,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/screenshots/tuya-2026-06-20T195841.png
 security:

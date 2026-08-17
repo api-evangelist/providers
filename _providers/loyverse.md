@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -84,8 +84,56 @@ apis:
 - description: Tax definitions applied to items.
   name: Loyverse Taxes API
   slug: loyverse-taxes-api
-artifact_total: 21
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Loyverse Categories API
+  slug: open-loyverse-categories-api
+- collection_type: open
+  name: Loyverse Categories Customers API
+  slug: open-loyverse-customers-api
+- collection_type: open
+  name: Loyverse Categories Discounts API
+  slug: open-loyverse-discounts-api
+- collection_type: open
+  name: Loyverse Categories Employees API
+  slug: open-loyverse-employees-api
+- collection_type: open
+  name: Loyverse Categories Inventory API
+  slug: open-loyverse-inventory-api
+- collection_type: open
+  name: Loyverse Categories Items API
+  slug: open-loyverse-items-api
+- collection_type: open
+  name: Loyverse Categories Merchants API
+  slug: open-loyverse-merchants-api
+- collection_type: open
+  name: Loyverse Categories Modifiers API
+  slug: open-loyverse-modifiers-api
+- collection_type: open
+  name: Loyverse Categories Payment Types API
+  slug: open-loyverse-payment-types-api
+- collection_type: open
+  name: Loyverse Categories POS Devices API
+  slug: open-loyverse-pos-devices-api
+- collection_type: open
+  name: Loyverse Categories Receipts API
+  slug: open-loyverse-receipts-api
+- collection_type: open
+  name: Loyverse Categories Shifts API
+  slug: open-loyverse-shifts-api
+- collection_type: open
+  name: Loyverse Categories Stores API
+  slug: open-loyverse-stores-api
+- collection_type: open
+  name: Loyverse Categories Suppliers API
+  slug: open-loyverse-suppliers-api
+- collection_type: open
+  name: Loyverse Categories Taxes API
+  slug: open-loyverse-taxes-api
 - collection_type: open
   name: Loyverse API
   slug: open-loyverse
@@ -158,7 +206,7 @@ plans:
 - name: Loyverse Plans Pricing
   plan_count: 4
   slug: loyverse-plans-pricing
-random_paper: 49
+random_paper: 144
 rate_limits:
 - limit_count: 3
   name: Loyverse Rate Limits
@@ -189,7 +237,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/screenshots/loyverse-2026-07-25T225626.png
 security:

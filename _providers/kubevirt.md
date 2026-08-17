@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -62,14 +62,41 @@ apis:
 - description: Subresource operations for VM lifecycle management including start, stop, pause, unpause, restart, migrate, and adding/removing volumes.
   name: KubeVirt VMLifecycle API
   slug: kubevirt-vmlifecycle-api
-artifact_total: 18
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: KubeVirt Containerized Data Importer API
   slug: open-kubevirt-cdi
 - collection_type: open
+  name: KubeVirt Containerized Data Importer DataSources API
+  slug: open-kubevirt-datasources-api
+- collection_type: open
+  name: KubeVirt Containerized Data Importer DataSources DataVolumes API
+  slug: open-kubevirt-datavolumes-api
+- collection_type: open
+  name: KubeVirt Containerized Data Importer DataSources StorageProfiles API
+  slug: open-kubevirt-storageprofiles-api
+- collection_type: open
+  name: KubeVirt Containerized Data Importer DataSources VirtualMachineInstanceMigrations API
+  slug: open-kubevirt-virtualmachineinstancemigrations-api
+- collection_type: open
+  name: KubeVirt Containerized Data Importer DataSources VirtualMachineInstances API
+  slug: open-kubevirt-virtualmachineinstances-api
+- collection_type: open
+  name: KubeVirt Containerized Data Importer DataSources VirtualMachines API
+  slug: open-kubevirt-virtualmachines-api
+- collection_type: open
   name: KubeVirt VM Management API
   slug: open-kubevirt-vm
+- collection_type: open
+  name: KubeVirt Containerized Data Importer DataSources VMConsole API
+  slug: open-kubevirt-vmconsole-api
+- collection_type: open
+  name: KubeVirt Containerized Data Importer DataSources VMLifecycle API
+  slug: open-kubevirt-vmlifecycle-api
 common:
 - group: operate
   title: ''
@@ -167,7 +194,7 @@ plans:
 - name: Kubevirt Plans Pricing
   plan_count: 3
   slug: kubevirt-plans-pricing
-random_paper: 36
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Kubevirt Rate Limits
@@ -201,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/screenshots/kubevirt-2026-06-20T184209.png
 security:

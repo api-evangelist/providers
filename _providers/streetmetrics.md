@@ -30,13 +30,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Public REST API for the StreetMetrics out-of-home advertising platform. 54 operations across campaigns, transit and stationary ad groups, assets and asset owners, frames, creatives, markets, media and
   name: StreetMetrics Public API
   slug: streetmetrics-public-api
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: StreetMetrics Public API
+  slug: open-streetmetrics-public-api
 common:
 - group: auth
   title: ''
@@ -182,7 +186,7 @@ plans:
 - name: Streetmetrics Plans Pricing
   plan_count: 0
   slug: streetmetrics-plans-pricing
-random_paper: 102
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Streetmetrics Rate Limits
@@ -190,7 +194,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.3
-  delta: 35.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 48.6
@@ -198,10 +202,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 9.7
+  previous_composite: 45.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Streetmetrics Authentication

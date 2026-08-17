@@ -27,38 +27,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
-- group: company
+- group: build
   title: ''
-  type: Website
-  url: https://nugit.co
+  type: GitHubOrganization
+  url: https://github.com/nugit
+- group: build
+  title: ''
+  type: Packages
+  url: packages/nugit-packages.yml
+coverage:
+  checked: '2026-08-13'
+  detail: Nugit is dead and its domain has been taken over — https://nugit.co/ now returns 200 serving an Indonesian online-gambling doorway page (ALEXISTOGEL), www.nugit.co redirects cross-site to an unrelated German business, and nugit.io is parked for sale, leaving the dormant github.com/nugit org (45 repos, no API contract, last substantive commit 2023) as the company's only surviving public surface.
+  evidence:
+  - status: 200
+    url: https://nugit.co/
+  - status: 200
+    url: https://www.nugit.co/
+  - status: 404
+    url: https://nugit.co/openapi.json
+  - status: 404
+    url: https://nugit.co/.well-known/agent-card.json
+  - status: 404
+    url: https://nugit.co/llms.txt
+  - status: 403
+    url: https://nugit.io/
+  - status: 200
+    url: https://api.github.com/orgs/nugit
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: Nugit is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Nugit was a Singapore-based data-storytelling and marketing-analytics company, founded in 2013 and backed by 500 Global. Its product pulled marketing, advertising and web-analytics data from multiple sources and used natural language generation to turn it into automated narrative reports and visual "data stories" for brand and agency teams. Nugit never published a public developer API, portal, reference or machine-readable specification, and the company is now defunct: the nugit.co domain has been lost to an unrelated registrant and serves an online gambling / SEO-spam site. The only surviving first-party surface is the dormant github.com/nugit engineering organization.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nugit.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Nugit
 nav: Providers
 network: true
 overview: Nugit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Data Storytelling, Marketing Analytics, and Reporting.
-random_paper: 71
+random_paper: 104
 score:
   band: minimal
-  composite: 4.1
-  delta: 0.0
+  composite: 5.7
+  delta: 1.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 40.7
+    discoverability: 50.0
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nugit/refs/heads/main/screenshots/nugit-2026-08-07T185721.png
 slug: nugit
@@ -69,5 +93,4 @@ tags:
 - Marketing Analytics
 - Reporting
 - Singapore
-website: https://nugit.co
 ---

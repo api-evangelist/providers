@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -66,12 +66,39 @@ apis:
 - description: The Wifi API from SPAN — 2 operation(s) for wifi.
   name: SPAN Wifi API
   slug: span-io-wifi-api
-artifact_total: 39
+artifact_total: 48
 asyncapis:
 - description: Publish/subscribe streaming API hosted directly on SPAN Panel using the Electrification Bus (eBus) integration framework and the Homie Convention for MQTT topic and payload structure. SPAN Panel hosts
   name: SPAN eBus MQTT API
   slug: span-ebus-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Span Auth API
+  slug: open-span-io-auth-api
+- collection_type: open
+  name: Span Auth Circuits API
+  slug: open-span-io-circuits-api
+- collection_type: open
+  name: Span Auth Islanding State API
+  slug: open-span-io-islanding-state-api
+- collection_type: open
+  name: Span Auth Panel API
+  slug: open-span-io-panel-api
+- collection_type: open
+  name: Span Auth Spaces API
+  slug: open-span-io-spaces-api
+- collection_type: open
+  name: Span Auth Status API
+  slug: open-span-io-status-api
+- collection_type: open
+  name: Span Auth Storage API
+  slug: open-span-io-storage-api
+- collection_type: open
+  name: Span Auth Wifi API
+  slug: open-span-io-wifi-api
 - collection_type: open
   name: Span
   slug: open-span-rest-api
@@ -273,7 +300,7 @@ plans:
 - name: Span Io Plans Pricing
   plan_count: 3
   slug: span-io-plans-pricing
-random_paper: 95
+random_paper: 99
 rate_limits:
 - limit_count: 0
   name: Span Io Rate Limits
@@ -321,7 +348,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/screenshots/span-io-2026-06-20T194242.png
 security:

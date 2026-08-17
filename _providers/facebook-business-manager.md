@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 57.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -108,7 +109,11 @@ apis:
 - description: Upload and manage videos on a Facebook Page.
   name: Facebook Business Manager Videos API
   slug: facebook-business-manager-videos-api
-artifact_total: 80
+artifact_total: 98
+asyncapis:
+- description: ''
+  name: Facebook Business Manager Webhooks
+  slug: facebook-business-manager-webhooks
 collections:
 - collection_type: postman
   name: Facebook Business Manager Facebook Marketing Ad Accounts API
@@ -152,6 +157,51 @@ collections:
 - collection_type: postman
   name: Facebook Business Manager Facebook Marketing Ad Accounts Videos API
   slug: postman-facebook-business-manager-videos-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts API
+  slug: open-facebook-business-manager-ad-accounts-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Ad Creatives API
+  slug: open-facebook-business-manager-ad-creatives-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Ad Images API
+  slug: open-facebook-business-manager-ad-images-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Ad Sets API
+  slug: open-facebook-business-manager-ad-sets-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Ads API
+  slug: open-facebook-business-manager-ads-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Campaigns API
+  slug: open-facebook-business-manager-campaigns-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Comments API
+  slug: open-facebook-business-manager-comments-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Custom Audiences API
+  slug: open-facebook-business-manager-custom-audiences-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Insights API
+  slug: open-facebook-business-manager-insights-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Page Insights API
+  slug: open-facebook-business-manager-page-insights-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Pages API
+  slug: open-facebook-business-manager-pages-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Photos API
+  slug: open-facebook-business-manager-photos-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Posts API
+  slug: open-facebook-business-manager-posts-api
+- collection_type: open
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Videos API
+  slug: open-facebook-business-manager-videos-api
 - collection_type: open
   name: Facebook Business Manager Facebook Marketing API
   slug: open-facebook-marketing
@@ -198,7 +248,7 @@ common:
 - group: operate
   title: ''
   type: StatusPage
-  url: https://developers.facebook.com/status
+  url: https://metastatus.com/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -267,6 +317,118 @@ common:
   title: ''
   type: MCPDocumentation
   url: https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview
+- group: build
+  title: ''
+  type: Packages
+  url: packages/facebook-business-manager-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/facebook-business-manager-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/facebook-business-manager-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/facebook-business-manager-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/facebook-business-manager-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/facebook-business-manager-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/facebook-business-manager-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/facebook-business-manager-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/facebook-business-manager-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/facebook-business-manager-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/facebook-business-manager-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/facebook-business-manager-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/facebook-business-manager-scopes.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/facebook-business-manager-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/facebook-business-manager-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/facebook-business-manager-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/facebook-business-manager-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/facebook-business-manager-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/facebook-business-manager-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/facebook-business-manager-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/facebook-business-manager-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/facebook-business-manager-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.facebook.com/docs/graph-api/reference
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.facebook.com/business/ads/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://business.facebook.com
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.facebook.com/business/help
+- group: other
+  title: ''
+  type: BugTracker
+  url: https://developers.facebook.com/support/bugs/
 created: '2024-01-01'
 description: APIs for managing Facebook Business accounts, advertising, pages, and assets across the Meta platform family. Facebook Business Manager exposes a deep catalog of Graph API surfaces for marketing, pages, conversions, business asset management, Instagram, insights, Messenger, catalogs, live video, Threads, and the WhatsApp Business Platform, all governed through a shared authentication and access model.
 finops:
@@ -376,22 +538,26 @@ json_structures:
   property_count: 0
   slug: facebook-business-manager-structure
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: facebook-business-manager-mcp.yml
+  slug: facebook-business-manager-mcpyml
+modified: '2026-08-13'
 name: Facebook Business Manager
 nav: Providers
 network: true
 overview: 'Facebook Business Manager publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ad Accounts API, Ad Creatives API, Ad Images API, and 11 more. Tagged areas include Advertising, Analytics, Business Management, Marketing, and Social Media.
 
 
-  The Facebook Business Manager catalog on APIs.io includes 1 Spectral governance ruleset.
+  The Facebook Business Manager catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Facebook Business Manager''s developer surface includes authentication, developer portal, developer console, support, getting-started guide, documentation, changelog, and 20 more developer resources.'
+  Facebook Business Manager''s developer surface includes authentication, developer portal, developer console, support, getting-started guide, documentation, changelog, and 48 more developer resources.'
 plans:
 - name: Facebook Business Manager Plans Pricing
   plan_count: 3
   slug: facebook-business-manager-plans-pricing
-random_paper: 3
+random_paper: 139
 rate_limits:
 - limit_count: 11
   name: Facebook Business Manager Rate Limits
@@ -405,17 +571,22 @@ rules:
     info: 1
     warn: 4
   slug: facebook-business-manager-jsonschema-spectral-rules
+scopes:
+- name: Facebook Business Manager Scopes
+  scope_count: 0
+  slug: facebook-business-manager-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 59.2
-  delta: 0.0
+  band: exemplar
+  composite: 74.9
+  delta: 15.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 62.7
-    developer_ergonomics: 63.0
-    discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 44.7
+    commercial_clarity: 68.4
+    contract_quality: 71.6
+    developer_ergonomics: 84.8
+    discoverability: 75.9
+    governance: 79.2
+    operational_transparency: 71.1
   previous_composite: 59.2
   provenance:
     agentic_access: derived
@@ -425,14 +596,14 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/screenshots/facebook-business-manager-2026-06-20T181003.png
 security:
 - kind: authentication
   name: Facebook Business Manager Authentication
   slug: facebook-business-manager-authentication
-  summary_line: http · 1 scheme
+  summary_line: oauth2/http/openIdConnect · 3 schemes
 - kind: domain-security
   name: Facebook Business Manager Domain Security
   slug: facebook-business-manager-domain-security
@@ -440,7 +611,7 @@ security:
 - kind: vulnerability-disclosure
   name: Facebook Business Manager Vulnerability Disclosure
   slug: facebook-business-manager-vulnerability-disclosure
-  summary_line: security.txt
+  summary_line: Hackerone · security.txt · contact published
 slug: facebook-business-manager
 tags:
 - Advertising
@@ -448,5 +619,10 @@ tags:
 - Business Management
 - Marketing
 - Social Media
+- Messaging
+- Commerce
+- Agents
+- MCP
+- Webhooks
 website: https://www.meta.com
 ---

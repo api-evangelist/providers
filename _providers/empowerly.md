@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Read-only, unauthenticated JSON status API served from Empowerly's own status subdomain by Atlassian Statuspage. Exposes the overall page status indicator, the component roster (currently a single "Em
   name: Empowerly Status API
   slug: empowerly-status-api
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Empowerly Status API
+  slug: open-empowerly-status-api
 common:
 - group: auth
   title: ''
@@ -166,7 +170,7 @@ plans:
 - name: Empowerly Plans Pricing
   plan_count: 0
   slug: empowerly-plans-pricing
-random_paper: 36
+random_paper: 102
 rate_limits:
 - limit_count: 0
   name: Empowerly Rate Limits
@@ -174,6 +178,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 49.3
@@ -181,8 +186,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 26.3
+  previous_composite: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Empowerly Authentication

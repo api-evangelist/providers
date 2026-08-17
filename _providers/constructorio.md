@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: AI-optimized keyword and natural-language search results for products and other index sections, returned by search query with filtering, faceting, sorting, pagination and variations mapping.
@@ -75,7 +75,59 @@ apis:
 - description: Remote, anonymously reachable Model Context Protocol server published by Constructor that exposes documentation search/fetch and OpenAPI endpoint discovery tools to AI coding tools such as Claude, Cur
   name: Constructor Documentation MCP Server
   slug: constructor-documentation-mcp-server
-artifact_total: 23
+artifact_total: 40
+collections:
+- collection_type: open
+  name: AI Shopping Agent
+  slug: open-constructorio-ai-shopping-agent
+- collection_type: open
+  name: Autocomplete
+  slug: open-constructorio-autocomplete
+- collection_type: open
+  name: Behavioral actions
+  slug: open-constructorio-behavioral-actions
+- collection_type: open
+  name: Browse
+  slug: open-constructorio-browse
+- collection_type: open
+  name: Catalog Batching Service
+  slug: open-constructorio-catalog-batching
+- collection_type: open
+  name: Catalog management
+  slug: open-constructorio-catalog-management
+- collection_type: open
+  name: Configuration
+  slug: open-constructorio-configuration
+- collection_type: open
+  name: Image Search
+  slug: open-constructorio-image-search
+- collection_type: open
+  name: Offsite Discovery recommendations
+  slug: open-constructorio-offsite-discovery-recommendations
+- collection_type: open
+  name: Product details
+  slug: open-constructorio-product-details
+- collection_type: open
+  name: Quizzes
+  slug: open-constructorio-quizzes
+- collection_type: open
+  name: Recommendations
+  slug: open-constructorio-recommendations
+- collection_type: open
+  name: Retail Media - Display Ads
+  slug: open-constructorio-retail-media-display-ads
+- collection_type: open
+  name: Retail Media
+  slug: open-constructorio-retail-media
+- collection_type: open
+  name: Search
+  slug: open-constructorio-search
+- collection_type: open
+  name: Searchandising
+  slug: open-constructorio-searchandising
+- collection_type: open
+  name: User profile
+  slug: open-constructorio-user-profile
 common:
 - group: company
   title: ''
@@ -225,7 +277,7 @@ overview: 'Constructor.io publishes 17 APIs on the [APIs.io](https://apis.io/) n
 
 
   Constructor.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
-random_paper: 118
+random_paper: 97
 scopes:
 - name: Constructorio Scopes
   scope_count: 37
@@ -253,7 +305,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/screenshots/constructorio-2026-08-07T163752.png
 security:

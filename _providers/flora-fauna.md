@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'The Flora.ai public REST API (v1.6.0) exposes the FLORA creative canvas programmatically: discover and run saved Techniques, start one-off model generations, list the model catalog, manage workspaces '
@@ -38,11 +38,15 @@ apis:
 - description: FLORA's hosted remote Model Context Protocol server. Streamable HTTP at https://agents.flora.ai/mcp, authenticated with OAuth 2.1 + PKCE (RFC 8414 authorization-server metadata and RFC 9728 protected-
   name: FLORA MCP Server
   slug: flora-mcp
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Flora Fauna Webhooks
   slug: flora-fauna-webhooks
+collections:
+- collection_type: open
+  name: Flora.ai API
+  slug: open-flora-fauna-flora-api
 common:
 - group: docs
   title: ''
@@ -260,7 +264,7 @@ plans:
 - name: Flora Fauna Plans Pricing
   plan_count: 5
   slug: flora-fauna-plans-pricing
-random_paper: 20
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Flora Fauna Rate Limits
@@ -273,7 +277,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.5
-  delta: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 67.9
@@ -281,10 +285,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 13.8
+  previous_composite: 68.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/screenshots/flora-fauna-2026-06-20T181332.png
 security:
 - kind: authentication

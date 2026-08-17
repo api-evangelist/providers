@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ arazzos:
 - description: Trigger a synchronous workflow evaluation, list the user's runs, and inspect one.
   name: Sift Workflow Run Evaluation
   slug: sift-com-workflow-run-evaluation-workflow
-artifact_total: 68
+artifact_total: 75
 collections:
 - collection_type: postman
   name: Sift Decisions API
@@ -99,6 +99,27 @@ collections:
 - collection_type: postman
   name: Sift Workflows API
   slug: postman-sift-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sift Decisions API
+  slug: open-sift-com-decisions-api
+- collection_type: open
+  name: Sift Decisions Events API
+  slug: open-sift-com-events-api
+- collection_type: open
+  name: Sift Decisions Labels API
+  slug: open-sift-com-labels-api
+- collection_type: open
+  name: Sift Decisions Scores API
+  slug: open-sift-com-scores-api
+- collection_type: open
+  name: Sift Decisions Verification API
+  slug: open-sift-com-verification-api
+- collection_type: open
+  name: Sift Decisions Workflows API
+  slug: open-sift-com-workflows-api
 - collection_type: open
   name: Sift Decisions API
   slug: open-sift-decisions-api
@@ -374,7 +395,7 @@ plans:
 - name: Sift Com Plans Pricing
   plan_count: 5
   slug: sift-com-plans-pricing
-random_paper: 82
+random_paper: 57
 rate_limits:
 - limit_count: 8
   name: Sift Com Rate Limits
@@ -416,7 +437,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sift-com/refs/heads/main/screenshots/sift-com-2026-06-20T193904.png
 security:

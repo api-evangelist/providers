@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -66,8 +66,35 @@ apis:
 - description: The Webhooks API from Fivetran — 5 operation(s) for webhooks.
   name: Fivetran Webhooks API
   slug: fivetran-webhooks-api
-artifact_total: 35
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fivetran REST Connections API
+  slug: open-fivetran-connections-api
+- collection_type: open
+  name: Fivetran REST Connections Destinations API
+  slug: open-fivetran-destinations-api
+- collection_type: open
+  name: Fivetran REST Connections Groups API
+  slug: open-fivetran-groups-api
+- collection_type: open
+  name: Fivetran REST Connections Metadata API
+  slug: open-fivetran-metadata-api
+- collection_type: open
+  name: Fivetran REST Connections Roles API
+  slug: open-fivetran-roles-api
+- collection_type: open
+  name: Fivetran REST Connections Teams API
+  slug: open-fivetran-teams-api
+- collection_type: open
+  name: Fivetran REST Connections Users API
+  slug: open-fivetran-users-api
+- collection_type: open
+  name: Fivetran REST Connections Webhooks API
+  slug: open-fivetran-webhooks-api
 - collection_type: open
   name: Fivetran REST API
   slug: open-fivetran
@@ -169,7 +196,7 @@ plans:
 - name: Fivetran Plans Pricing
   plan_count: 4
   slug: fivetran-plans-pricing
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 3
   name: Fivetran Rate Limits
@@ -194,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/screenshots/fivetran-2026-06-20T181255.png
 security:

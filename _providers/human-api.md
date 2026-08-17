@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -13,12 +14,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-12'
+  score: 47.5
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Health Intelligence Platform (HIP) Admin API for creating and managing Human API users, submitting and managing EHR order types, managing subscriptions, and fetching delivered clinical summary rep
@@ -30,11 +31,27 @@ apis:
 - description: The consumer-mediated Data API (legacy v2.1) for querying a user's normalized health data - wellness data from wearable devices and apps, and medical data (records, labs, medications, encounters) from
   name: Human API Data API
   slug: human-api-data-api
-artifact_total: 7
+artifact_total: 14
 asyncapis:
 - description: Webhook notifications the Health Intelligence Platform pushes to a configured client endpoint. Notifications are delivered as JSON arrays of event objects. Enablement is per-client and arranged with a
   name: Human API HIP Notifications
   slug: human-api-notifications-asyncapi
+collections:
+- collection_type: open
+  name: Admin API
+  slug: open-human-api-admin-order-types
+- collection_type: open
+  name: Admin API
+  slug: open-human-api-admin-user-reports
+- collection_type: open
+  name: Admin API
+  slug: open-human-api-admin-users-list
+- collection_type: open
+  name: HAPI Auth Public
+  slug: open-human-api-auth-admin-token
+- collection_type: open
+  name: HAPI Auth Public
+  slug: open-human-api-auth-connect-token
 common:
 - group: auth
   title: ''
@@ -164,6 +181,66 @@ common:
   title: ''
   type: Overlay
   url: overlays/human-api-auth-connect-token-overlay.yaml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/human-api-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/human-api-rate-limits.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://reference.humanapi.co/page/epic-documentation
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.humanapi.co/hc/en-us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.humanapi.co/hc/en-us
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-user-create-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-user-details-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-user-actions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-user-providers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-subscriptions-list-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-subscription-create-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-subscription-details-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-subscription-delete-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-report-by-id-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/human-api-admin-consumer-link-overlay.yaml
 created: '2026-07-24'
 description: Human API is a United States health data platform, founded in 2013 and now part of LexisNexis Risk Solutions, that aggregates, normalizes, and delivers digital and clinical health data from providers, hospitals, labs, pharmacies, wearables, and apps through a single API. Its consumer-mediated Data API returns normalized wellness and medical records via user access tokens (Human Connect single sign-on), while its Health Intelligence Platform (HIP) Admin API lets enterprises order electronic health record (EHR) retrievals, manage users and subscriptions, and receive condensed clinical summary reports - primarily to accelerate life insurance underwriting by reaching 30,000+ data sources across roughly 270 million lives. The surface is a proprietary REST/JSON API secured with OAuth2-style client credentials and Bearer JWT tokens; it is not a HL7 FHIR or SMART-on-FHIR API. Access is gated behind a developer portal and partner agreement.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
@@ -172,7 +249,7 @@ mcp_servers:
 - description: ''
   name: human-api-mcp.yml
   slug: human-api-mcpyml
-modified: '2026-07-24'
+modified: '2026-08-15'
 name: Human API
 nav: Providers
 network: true
@@ -182,17 +259,25 @@ overview: 'Human API publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The Human API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Human API''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, and 27 more developer resources.'
-random_paper: 56
+  Human API''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, support, and 41 more developer resources.'
+plans:
+- name: Human Api Plans Pricing
+  plan_count: 0
+  slug: human-api-plans-pricing
+random_paper: 2
+rate_limits:
+- limit_count: 0
+  name: Human Api Rate Limits
+  slug: human-api-rate-limits
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 49.1
+  delta: 3.9
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 42.1
     contract_quality: 60.1
-    developer_ergonomics: 62.5
-    discoverability: 81.5
+    developer_ergonomics: 66.8
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 45.2
@@ -210,9 +295,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Templates API from Templated — 2 operation(s) for templates.
   name: Templated Templates API
   slug: templated-templates-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Templated Renders API
+  slug: open-templated-renders-api
+- collection_type: open
+  name: Templated Renders Templates API
+  slug: open-templated-templates-api
 - collection_type: open
   name: Templated API
   slug: open-templated
@@ -115,7 +124,7 @@ plans:
 - name: Templated Plans Pricing
   plan_count: 4
   slug: templated-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Templated Rate Limits
@@ -140,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

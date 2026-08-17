@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -63,33 +63,85 @@ common:
   title: ''
   type: DomainSecurity
   url: security/praxispro-ai-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/praxispro-ai-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/praxispro-ai-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/praxispro-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/praxispro-ai-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/praxispro-ai-llms.txt
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.praxispro.ai/contact-us
+- group: start
+  title: ''
+  type: Login
+  url: https://app.praxispro.ai/login
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/praxispro-ai/
+coverage:
+  checked: '2026-08-14'
+  detail: PraxisPro ships an enterprise life-sciences training SaaS with no developer program at all — its own 20-URL sitemap has no docs, pricing or developer page, and the one host named api.praxispro.ai is a CNAME to the third-party vendor api.rev.ai rather than a PraxisPro API.
+  evidence:
+  - status: 200
+    url: https://www.praxispro.ai/sitemap.xml
+  - status: 404
+    url: https://www.praxispro.ai/docs
+  - status: 404
+    url: https://app.praxispro.ai/openapi.json
+  - status: 404
+    url: https://api.praxispro.ai/openapi.json
+  - status: 403
+    url: https://tm4ggh1m3b.execute-api.us-east-1.amazonaws.com/
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: PraxisPro AI is an AI-powered training platform built to modernize pharmaceutical and medical device sales training for life sciences organizations. Its modules include PraxisPlay (AI roleplay simulations with realistic healthcare-provider agents), PraxisCertify (certification tracking and knowledge-gap identification), PraxisCoach (performance coaching and feedback), and PraxisIntelligence (analytics and insights for management). The platform serves sales reps, trainers, managers, MSLs, compliance, and marketing teams with personalized, AI-driven scenarios, immediate feedback, and performance tracking. Backed by Techstars. Delivered as a SaaS product; no public developer API surface is published at the time of enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/praxispro-ai.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: PraxisPro AI
 nav: Providers
 network: true
 overview: 'PraxisPro AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales Training, Sales Enablement, and Life Sciences.
 
 
-  PraxisPro AI''s developer surface includes engineering blog, changelog, and 7 more developer resources.'
-random_paper: 47
+  PraxisPro AI''s developer surface includes engineering blog, changelog, support, and 13 more developer resources.'
+plans:
+- name: Praxispro Ai Plans Pricing
+  plan_count: 0
+  slug: praxispro-ai-plans-pricing
+random_paper: 55
+rate_limits:
+- limit_count: 0
+  name: Praxispro Ai Rate Limits
+  slug: praxispro-ai-rate-limits
 score:
   band: emerging
-  composite: 14.6
-  delta: 0.0
+  composite: 20.4
+  delta: 5.8
   facets:
-    commercial_clarity: 18.4
+    commercial_clarity: 31.6
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 26.3
   previous_composite: 14.6
   regulatory:
@@ -97,10 +149,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 26.3
+    score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Praxispro Ai Domain Security

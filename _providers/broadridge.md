@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,23 @@ apis:
 - description: Account transactions and activity
   name: broadridge Transactions API
   slug: broadridge-transactions-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Broadridge Wealth Management Accounts API
+  slug: open-broadridge-accounts-api
+- collection_type: open
+  name: Broadridge Wealth Management Accounts Performance API
+  slug: open-broadridge-performance-api
+- collection_type: open
+  name: Broadridge Wealth Management Accounts Positions API
+  slug: open-broadridge-positions-api
+- collection_type: open
+  name: Broadridge Wealth Management Accounts Transactions API
+  slug: open-broadridge-transactions-api
 - collection_type: open
   name: Broadridge Wealth Management API
   slug: open-broadridge-wealth
@@ -176,7 +191,7 @@ press:
 - date: '2026-05-25'
   title: Governor Hochul Announces $78 Million Investment by ...
   url: https://esd.ny.gov/esd-media-center/press-releases/governor-hochul-announces-78-million-investment-broadridge
-random_paper: 83
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Broadridge Rate Limits
@@ -215,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/screenshots/broadridge-2026-06-20T173715.png
 security:

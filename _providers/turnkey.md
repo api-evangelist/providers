@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: HD wallets and wallet accounts.
   name: Turnkey Wallets API
   slug: turnkey-wallets-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Turnkey Organizations API
+  slug: open-turnkey-organizations-api
+- collection_type: open
+  name: Turnkey Organizations Private Keys API
+  slug: open-turnkey-private-keys-api
+- collection_type: open
+  name: Turnkey Organizations Signing API
+  slug: open-turnkey-signing-api
+- collection_type: open
+  name: Turnkey Organizations Users & Policies API
+  slug: open-turnkey-users-policies-api
+- collection_type: open
+  name: Turnkey Organizations Wallets API
+  slug: open-turnkey-wallets-api
 - collection_type: open
   name: Turnkey API
   slug: open-turnkey
@@ -124,7 +142,7 @@ plans:
 - name: Turnkey Plans Pricing
   plan_count: 4
   slug: turnkey-plans-pricing
-random_paper: 66
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Turnkey Rate Limits
@@ -155,7 +173,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/screenshots/turnkey-2026-06-20T195835.png
 security:

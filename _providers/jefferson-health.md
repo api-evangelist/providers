@@ -11,15 +11,15 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 38.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -96,11 +96,62 @@ apis:
 - description: A specific set of roles a practitioner may perform at an organization for a period of time.
   name: Jefferson Health Practitioner Role API
   slug: jefferson-health-practitioner-role-api
-artifact_total: 41
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance API
+  slug: open-jefferson-health-allergy-intolerance-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Bulk Data API
+  slug: open-jefferson-health-bulk-data-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Condition API
+  slug: open-jefferson-health-condition-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Document Reference API
+  slug: open-jefferson-health-document-reference-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Encounter API
+  slug: open-jefferson-health-encounter-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Endpoint API
+  slug: open-jefferson-health-endpoint-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Healthcare Service API
+  slug: open-jefferson-health-healthcare-service-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Insurance Plan API
+  slug: open-jefferson-health-insurance-plan-api
 - collection_type: open
   name: Jefferson Health Plans Provider Directory FHIR API
   slug: open-jefferson-health-jhp-provider-directory-fhir-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Location API
+  slug: open-jefferson-health-location-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Medication Request API
+  slug: open-jefferson-health-medication-request-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Metadata API
+  slug: open-jefferson-health-metadata-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Observation API
+  slug: open-jefferson-health-observation-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Organization API
+  slug: open-jefferson-health-organization-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Patient API
+  slug: open-jefferson-health-patient-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Practitioner API
+  slug: open-jefferson-health-practitioner-api
+- collection_type: open
+  name: Jefferson Health Plans Provider Directory FHIR Allergy Intolerance Practitioner Role API
+  slug: open-jefferson-health-practitioner-role-api
 - collection_type: open
   name: Thomas Jefferson University Hospital FHIR R4 API
   slug: open-jefferson-health-tjuh-fhir-r4-api
@@ -152,11 +203,15 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.jeffersonhealth.org/about-us/notice-of-privacy-practices
+  url: https://www.jeffersonhealth.org/privacy-practices
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.jeffersonhealth.org/terms-of-use
+  url: https://www.jeffersonhealth.org/privacy-practices/website-terms-of-use
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.jeffersonhealth.org/terms-and-conditions
 - group: other
   title: ''
   type: University
@@ -209,6 +264,98 @@ common:
   title: ''
   type: FinOps
   url: finops/jefferson-health-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/jefferson-health-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/jefferson-health-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/jefferson-health-conformance.yml
+- group: other
+  title: ''
+  type: CapabilityStatement
+  url: conformance/jefferson-health-tjuh-fhir-r4-capabilitystatement.json
+- group: other
+  title: ''
+  type: CapabilityStatement
+  url: conformance/jefferson-health-jhp-provider-directory-capabilitystatement.json
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/jefferson-health-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/jefferson-health-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/jefferson-health-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/jefferson-health-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/jefferson-health-packages.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/jefferson-health-tjuh-fhir-r4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/jefferson-health-jhp-provider-directory-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/jefferson-health
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://appgallery.healthpartnersplans.com/app-gallery/portal/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.jeffersonhealthplans.com/home/about-us/interoperability/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.jeffersonhealthplans.com/home/about-us/interoperability/developer-resources/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.jeffersonhealthplans.com/home/about-us/interoperability/register-for-api-access.html
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.jeffersonhealthplans.com/home/about-us/interoperability/register-for-the-interoperability-portal.html
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.jeffersonhealthplans.com/home/about-us/interoperability/member-education-faq.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.jeffersonhealth.org/your-health/living-well
+- group: company
+  title: ''
+  type: News
+  url: https://www.jeffersonhealth.org/about-us/news
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.jeffersonhealth.org/about-us/corporate-compliance
 created: '2026-05-23'
 description: Jefferson Health is a multi-state nonprofit academic health system based in Philadelphia, Pennsylvania, operating more than 30 hospitals and over 700 care sites across eastern Pennsylvania and southern New Jersey as the clinical arm of the broader Jefferson enterprise that also includes Thomas Jefferson University and Jefferson Health Plans (formerly Health Partners Plans). Its patient-facing electronic health record runs on Epic and is branded as MyJeffersonHealth / MyChart, with a CMS-mandated HL7 FHIR R4 API published at fhir.jefferson.edu/FHIRProxy/api/FHIR/R4 that exposes USCDI-aligned clinical resources to third-party patient-access applications via SMART on FHIR and OAuth 2.0. Jefferson Health Plans separately exposes CARIN-aligned Patient Access and Da Vinci Plan-Net Provider Directory FHIR APIs powered by Smile CDR for its insurance members and the public.
 examples:
@@ -252,7 +399,7 @@ jsonld:
   property_count: 0
   slug: jefferson-health-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-15'
 name: Jefferson Health
 nav: Providers
 network: true
@@ -262,12 +409,12 @@ overview: 'Jefferson Health publishes 16 APIs on the [APIs.io](https://apis.io/)
   The Jefferson Health catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Jefferson Health''s developer surface includes authentication and 25 more developer resources.'
+  Jefferson Health''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, product news, and 43 more developer resources.'
 plans:
 - name: Jefferson Health Plans Pricing
   plan_count: 4
   slug: jefferson-health-plans-pricing
-random_paper: 77
+random_paper: 147
 rate_limits:
 - limit_count: 0
   name: Jefferson Health Rate Limits
@@ -299,20 +446,20 @@ rules:
   slug: jefferson-health-tjuh-fhir-r4-rules
 scopes:
 - name: Jefferson Health Scopes
-  scope_count: 13
+  scope_count: 15
   slug: jefferson-health-scopes
-  summary_line: 13 scopes · authorizationCode
+  summary_line: 15 scopes · authorizationCode
 score:
-  band: developing
-  composite: 43.8
-  delta: 0.0
+  band: strong
+  composite: 61.1
+  delta: 17.3
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 58.6
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 31.3
-    operational_transparency: 0.0
+    commercial_clarity: 81.6
+    contract_quality: 63.5
+    developer_ergonomics: 58.7
+    discoverability: 92.6
+    governance: 52.1
+    operational_transparency: 5.3
   previous_composite: 43.8
   provenance:
     agentic_access: derived
@@ -326,16 +473,16 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.8
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/screenshots/jefferson-health-2026-06-20T183715.png
 security:
 - kind: authentication
   name: Jefferson Health Authentication
   slug: jefferson-health-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2/openIdConnect/none · 3 schemes
 - kind: domain-security
   name: Jefferson Health Domain Security
   slug: jefferson-health-domain-security

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 239
   human_in_the_loop: 9
@@ -151,7 +151,122 @@ apis:
 - description: The .well Known API from FusionAuth — 2 operation(s) for .well known.
   name: FusionAuth .well Known API
   slug: fusionauth-well-known-api
-artifact_total: 60
+artifact_total: 98
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FusionAuth Api Key API
+  slug: open-fusionauth-api-key-api
+- collection_type: open
+  name: FusionAuth Api Key Application API
+  slug: open-fusionauth-application-api
+- collection_type: open
+  name: FusionAuth Api Key Connector API
+  slug: open-fusionauth-connector-api
+- collection_type: open
+  name: FusionAuth Api Key Consent API
+  slug: open-fusionauth-consent-api
+- collection_type: open
+  name: FusionAuth Api Key Email API
+  slug: open-fusionauth-email-api
+- collection_type: open
+  name: FusionAuth Api Key Entity API
+  slug: open-fusionauth-entity-api
+- collection_type: open
+  name: FusionAuth Api Key Form API
+  slug: open-fusionauth-form-api
+- collection_type: open
+  name: FusionAuth Api Key Group API
+  slug: open-fusionauth-group-api
+- collection_type: open
+  name: FusionAuth Api Key Health API
+  slug: open-fusionauth-health-api
+- collection_type: open
+  name: FusionAuth Api Key Identity API
+  slug: open-fusionauth-identity-api
+- collection_type: open
+  name: FusionAuth Api Key Identity Provider API
+  slug: open-fusionauth-identity-provider-api
+- collection_type: open
+  name: FusionAuth Api Key Integration API
+  slug: open-fusionauth-integration-api
+- collection_type: open
+  name: FusionAuth Api Key Ip Acl API
+  slug: open-fusionauth-ip-acl-api
+- collection_type: open
+  name: FusionAuth Api Key Jwt API
+  slug: open-fusionauth-jwt-api
+- collection_type: open
+  name: FusionAuth Api Key API
+  slug: open-fusionauth-key-api
+- collection_type: open
+  name: FusionAuth Api Key Lambda API
+  slug: open-fusionauth-lambda-api
+- collection_type: open
+  name: FusionAuth Api Key Login API
+  slug: open-fusionauth-login-api
+- collection_type: open
+  name: FusionAuth Api Key Logout API
+  slug: open-fusionauth-logout-api
+- collection_type: open
+  name: FusionAuth Api Key Message API
+  slug: open-fusionauth-message-api
+- collection_type: open
+  name: FusionAuth Api Key Messenger API
+  slug: open-fusionauth-messenger-api
+- collection_type: open
+  name: FusionAuth Api Key Oauth2 API
+  slug: open-fusionauth-oauth2-api
+- collection_type: open
+  name: FusionAuth Api Key Passwordless API
+  slug: open-fusionauth-passwordless-api
+- collection_type: open
+  name: FusionAuth Api Key Reactor API
+  slug: open-fusionauth-reactor-api
+- collection_type: open
+  name: FusionAuth Api Key Report API
+  slug: open-fusionauth-report-api
+- collection_type: open
+  name: FusionAuth Api Key Status API
+  slug: open-fusionauth-status-api
+- collection_type: open
+  name: FusionAuth Api Key System API
+  slug: open-fusionauth-system-api
+- collection_type: open
+  name: FusionAuth Api Key System Configuration API
+  slug: open-fusionauth-system-configuration-api
+- collection_type: open
+  name: FusionAuth Api Key Tenant API
+  slug: open-fusionauth-tenant-api
+- collection_type: open
+  name: FusionAuth Api Key Tenant Manager API
+  slug: open-fusionauth-tenant-manager-api
+- collection_type: open
+  name: FusionAuth Api Key Theme API
+  slug: open-fusionauth-theme-api
+- collection_type: open
+  name: FusionAuth Api Key Two Factor API
+  slug: open-fusionauth-two-factor-api
+- collection_type: open
+  name: FusionAuth Api Key User Action API
+  slug: open-fusionauth-user-action-api
+- collection_type: open
+  name: FusionAuth Api Key User Action Reason API
+  slug: open-fusionauth-user-action-reason-api
+- collection_type: open
+  name: FusionAuth Api Key User API
+  slug: open-fusionauth-user-api
+- collection_type: open
+  name: FusionAuth Api Key Webauthn API
+  slug: open-fusionauth-webauthn-api
+- collection_type: open
+  name: FusionAuth Api Key Webhook API
+  slug: open-fusionauth-webhook-api
+- collection_type: open
+  name: FusionAuth Api Key .well Known API
+  slug: open-fusionauth-well-known-api
 common:
 - group: agent
   title: ''
@@ -249,7 +364,7 @@ plans:
 - name: Fusionauth Plans Pricing
   plan_count: 3
   slug: fusionauth-plans-pricing
-random_paper: 14
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Fusionauth Rate Limits
@@ -274,7 +389,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/screenshots/fusionauth-2026-06-20T181624.png
 security:

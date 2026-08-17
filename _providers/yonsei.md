@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -153,7 +153,119 @@ apis:
 - description: The user API from Yonsei University — 7 operation(s) for user.
   name: Yonsei University user API
   slug: yonsei-user-api
-artifact_total: 55
+artifact_total: 92
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-yonsei-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-yonsei-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-yonsei-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-yonsei-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-yonsei-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-yonsei-concept-api
+- collection_type: open
+  name: Pure activity conferenceSeries API
+  slug: open-yonsei-conferenceseries-api
+- collection_type: open
+  name: Pure activity contract API
+  slug: open-yonsei-contract-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-yonsei-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-yonsei-dataset-api
+- collection_type: open
+  name: Pure activity education API
+  slug: open-yonsei-education-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-yonsei-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-yonsei-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-yonsei-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-yonsei-externalperson-api
+- collection_type: open
+  name: Pure activity fingerprint API
+  slug: open-yonsei-fingerprint-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-yonsei-fundingopportunity-api
+- collection_type: open
+  name: Pure activity impact API
+  slug: open-yonsei-impact-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-yonsei-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-yonsei-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity milestone API
+  slug: open-yonsei-milestone-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-yonsei-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-yonsei-person-api
+- collection_type: open
+  name: Pure activity personExpertise API
+  slug: open-yonsei-personexpertise-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-yonsei-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-yonsei-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-yonsei-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-yonsei-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-yonsei-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-yonsei-role-api
+- collection_type: open
+  name: Pure activity semester API
+  slug: open-yonsei-semester-api
+- collection_type: open
+  name: Pure activity specialization API
+  slug: open-yonsei-specialization-api
+- collection_type: open
+  name: Pure activity studentProject API
+  slug: open-yonsei-studentproject-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-yonsei-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-yonsei-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-yonsei-user-api
 common:
 - group: agent
   title: ''
@@ -250,7 +362,7 @@ plans:
 - name: Yonsei Plans Pricing
   plan_count: 2
   slug: yonsei-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Yonsei Rate Limits
@@ -292,7 +404,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/screenshots/yonsei-2026-06-20T201758.png
 security:

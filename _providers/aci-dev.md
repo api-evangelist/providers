@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: The linked-accounts API from ACI.dev — 4 operation(s) for linked-accounts.
   name: ACI.dev linked-accounts API
   slug: aci-dev-linked-accounts-api
-artifact_total: 40
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ACI.dev app-configurations API
+  slug: open-aci-dev-app-configurations-api
+- collection_type: open
+  name: ACI.dev app-configurations apps API
+  slug: open-aci-dev-apps-api
+- collection_type: open
+  name: ACI.dev app-configurations functions API
+  slug: open-aci-dev-functions-api
+- collection_type: open
+  name: ACI.dev app-configurations linked-accounts API
+  slug: open-aci-dev-linked-accounts-api
 - collection_type: open
   name: ACI.dev API
   slug: open-aci-dev
@@ -265,7 +280,7 @@ overview: 'ACI.dev publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   ACI.dev''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 29 more developer resources.'
-random_paper: 65
+random_paper: 69
 rules:
 - name: ACI.dev API Rules
   rule_count: 5
@@ -303,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/screenshots/aci-dev-2026-06-20T163831.png
 security:

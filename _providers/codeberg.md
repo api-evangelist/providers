@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Look up and search users and the authenticated account.
   name: Codeberg Users API
   slug: codeberg-users-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Codeberg API (Forgejo) Git Content API
+  slug: open-codeberg-git-content-api
+- collection_type: open
+  name: Codeberg API (Forgejo) Git Content Issues API
+  slug: open-codeberg-issues-api
+- collection_type: open
+  name: Codeberg API (Forgejo) Git Content Miscellaneous API
+  slug: open-codeberg-miscellaneous-api
+- collection_type: open
+  name: Codeberg API (Forgejo) Git Content Organizations API
+  slug: open-codeberg-organizations-api
+- collection_type: open
+  name: Codeberg API (Forgejo) Git Content Pull Requests API
+  slug: open-codeberg-pull-requests-api
+- collection_type: open
+  name: Codeberg API (Forgejo) Git Content Releases API
+  slug: open-codeberg-releases-api
+- collection_type: open
+  name: Codeberg API (Forgejo) Git Content Repositories API
+  slug: open-codeberg-repositories-api
+- collection_type: open
+  name: Codeberg API (Forgejo) Git Content Users API
+  slug: open-codeberg-users-api
 - collection_type: open
   name: Codeberg API (Forgejo)
   slug: open-codeberg
@@ -133,7 +160,7 @@ plans:
 - name: Codeberg Plans Pricing
   plan_count: 2
   slug: codeberg-plans-pricing
-random_paper: 107
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Codeberg Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/screenshots/codeberg-2026-07-25T205910.png
 security:

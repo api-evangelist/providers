@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,11 +47,23 @@ apis:
 - description: Monitor the connectivity and health status of RoomWizard devices and the connector service.
   name: Steelcase Status API
   slug: steelcase-status-api
-artifact_total: 19
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Steelcase RoomWizard Bookings API
+  slug: open-steelcase-bookings-api
+- collection_type: open
+  name: Steelcase RoomWizard Bookings Rooms API
+  slug: open-steelcase-rooms-api
 - collection_type: open
   name: Steelcase RoomWizard API
   slug: open-steelcase-roomwizard-api
+- collection_type: open
+  name: Steelcase RoomWizard Bookings Status API
+  slug: open-steelcase-status-api
 common:
 - group: agent
   title: ''
@@ -186,7 +198,7 @@ press:
 - date: '2025-09-30'
   title: Steelcase 2025 Impact Report Highlights the Strength of Community and Progress Toward a Net-Zero Future
   url: https://www.steelcase.com/press-releases/steelcase-2025-impact-report-highlights-the-strength-of-community-and-progress-toward-a-net-zero-future/
-random_paper: 113
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Steelcase Rate Limits
@@ -228,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

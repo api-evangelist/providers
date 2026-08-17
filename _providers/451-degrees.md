@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -99,7 +99,7 @@ plans:
 - name: 451 Degrees Plans Pricing
   plan_count: 0
   slug: 451-degrees-plans-pricing
-random_paper: 94
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: 451 Degrees Rate Limits
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: minimal
   composite: 6.6
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.9
+  previous_composite: 6.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/451-degrees/refs/heads/main/screenshots/451-degrees-2026-07-25T181204.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Idecsi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Idecsi''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 25
+random_paper: 29
 score:
   band: minimal
   composite: 11.0
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idecsi/refs/heads/main/screenshots/idecsi-2026-07-25T222035.png
 security:

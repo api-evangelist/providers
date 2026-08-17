@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 0
@@ -179,11 +179,156 @@ apis:
 - description: The Webhooks API from LianLian Global — 2 operation(s) for webhooks.
   name: LianLian Global Webhooks API
   slug: lianlian-global-webhooks-api
-artifact_total: 53
+artifact_total: 101
 asyncapis:
 - description: ''
   name: Lianlian Global Webhooks
   slug: lianlian-global-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Distribution Account API
+  slug: open-lianlian-global-account-api
+- collection_type: open
+  name: Distribution Account Accounts API
+  slug: open-lianlian-global-accounts-api
+- collection_type: open
+  name: Distribution Account Agreement API
+  slug: open-lianlian-global-agreement-api
+- collection_type: open
+  name: Distribution Account Balance API
+  slug: open-lianlian-global-balance-api
+- collection_type: open
+  name: Distribution Account Beneficiaries API
+  slug: open-lianlian-global-beneficiaries-api
+- collection_type: open
+  name: Distribution Account Captchas API
+  slug: open-lianlian-global-captchas-api
+- collection_type: open
+  name: Distribution Account Card Payouts API
+  slug: open-lianlian-global-card-payouts-api
+- collection_type: open
+  name: Distribution Account Checkout API
+  slug: open-lianlian-global-checkout-api
+- collection_type: open
+  name: Distribution Account Compliances API
+  slug: open-lianlian-global-compliances-api
+- collection_type: open
+  name: Distribution Account Conversion API
+  slug: open-lianlian-global-conversion-api
+- collection_type: open
+  name: Distribution Account Conversions API
+  slug: open-lianlian-global-conversions-api
+- collection_type: open
+  name: Distribution Account 接口 API
+  slug: open-lianlian-global-default-api
+- collection_type: open
+  name: Distribution Account Deposits API
+  slug: open-lianlian-global-deposits-api
+- collection_type: open
+  name: Distribution Account Ew Oauth2 API
+  slug: open-lianlian-global-ew-oauth2-api
+- collection_type: open
+  name: Distribution Account Ew Receipts API
+  slug: open-lianlian-global-ew-receipts-api
+- collection_type: open
+  name: Distribution Account Ew Receiving API
+  slug: open-lianlian-global-ew-receiving-api
+- collection_type: open
+  name: Distribution Account Ew Receivings API
+  slug: open-lianlian-global-ew-receivings-api
+- collection_type: open
+  name: Distribution Account Ew Recharges API
+  slug: open-lianlian-global-ew-recharges-api
+- collection_type: open
+  name: Distribution Account Ew Transactions API
+  slug: open-lianlian-global-ew-transactions-api
+- collection_type: open
+  name: Distribution Account Ew Withdrawals API
+  slug: open-lianlian-global-ew-withdrawals-api
+- collection_type: open
+  name: Distribution Account Files API
+  slug: open-lianlian-global-files-api
+- collection_type: open
+  name: Distribution Account Gateway API
+  slug: open-lianlian-global-gateway-api
+- collection_type: open
+  name: Distribution Account Get API
+  slug: open-lianlian-global-get-api
+- collection_type: open
+  name: Distribution Account Kyc API
+  slug: open-lianlian-global-kyc-api
+- collection_type: open
+  name: Distribution Account Member API
+  slug: open-lianlian-global-member-api
+- collection_type: open
+  name: Distribution Account Oauth2 API
+  slug: open-lianlian-global-oauth2-api
+- collection_type: open
+  name: Distribution Account Operations API
+  slug: open-lianlian-global-operations-api
+- collection_type: open
+  name: Distribution Account Payers API
+  slug: open-lianlian-global-payers-api
+- collection_type: open
+  name: Distribution Account Payment API
+  slug: open-lianlian-global-payment-api
+- collection_type: open
+  name: Distribution Account Payout API
+  slug: open-lianlian-global-payout-api
+- collection_type: open
+  name: Distribution Account Payouts API
+  slug: open-lianlian-global-payouts-api
+- collection_type: open
+  name: Distribution Account Query API
+  slug: open-lianlian-global-query-api
+- collection_type: open
+  name: Distribution Account Quote API
+  slug: open-lianlian-global-quote-api
+- collection_type: open
+  name: Distribution Account Quotes API
+  slug: open-lianlian-global-quotes-api
+- collection_type: open
+  name: Distribution Account Receipts API
+  slug: open-lianlian-global-receipts-api
+- collection_type: open
+  name: Distribution Account Receiving Accounts API
+  slug: open-lianlian-global-receiving-accounts-api
+- collection_type: open
+  name: Distribution Account Refund API
+  slug: open-lianlian-global-refund-api
+- collection_type: open
+  name: Distribution Account Reports API
+  slug: open-lianlian-global-reports-api
+- collection_type: open
+  name: Distribution Account Statement API
+  slug: open-lianlian-global-statement-api
+- collection_type: open
+  name: Distribution Account Topup API
+  slug: open-lianlian-global-topup-api
+- collection_type: open
+  name: Distribution Account Transaction API
+  slug: open-lianlian-global-transaction-api
+- collection_type: open
+  name: Distribution Account Transaction Documents API
+  slug: open-lianlian-global-transaction-documents-api
+- collection_type: open
+  name: Distribution Account Transfer API
+  slug: open-lianlian-global-transfer-api
+- collection_type: open
+  name: Distribution Account User API
+  slug: open-lianlian-global-user-api
+- collection_type: open
+  name: Distribution Account Users API
+  slug: open-lianlian-global-users-api
+- collection_type: open
+  name: Distribution Account Verifications API
+  slug: open-lianlian-global-verifications-api
+- collection_type: open
+  name: Distribution Account Webhooks API
+  slug: open-lianlian-global-webhooks-api
 common:
 - group: agent
   title: ''
@@ -425,7 +570,7 @@ overview: 'LianLian Global publishes 47 APIs on the [APIs.io](https://apis.io/) 
 
 
   LianLian Global''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 48 more developer resources.'
-random_paper: 70
+random_paper: 20
 scopes:
 - name: Lianlian Global Scopes
   scope_count: 1
@@ -460,7 +605,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png
 security:

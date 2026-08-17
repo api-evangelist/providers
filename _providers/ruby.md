@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -107,8 +107,38 @@ apis:
 - description: The Webhooks API from Ruby Programming Language and Popular API Gems — 4 operation(s) for webhooks.
   name: Ruby Programming Language and Popular API Gems Webhooks API
   slug: ruby-webhooks-api
-artifact_total: 57
+artifact_total: 67
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RubyGems.org Registry Activity API
+  slug: open-ruby-activity-api
+- collection_type: open
+  name: RubyGems.org Registry Activity API Keys API
+  slug: open-ruby-api-keys-api
+- collection_type: open
+  name: RubyGems.org Registry Activity Downloads API
+  slug: open-ruby-downloads-api
+- collection_type: open
+  name: RubyGems.org Registry Activity Gems API
+  slug: open-ruby-gems-api
+- collection_type: open
+  name: RubyGems.org Registry Activity OIDC API
+  slug: open-ruby-oidc-api
+- collection_type: open
+  name: RubyGems.org Registry Activity Owners API
+  slug: open-ruby-owners-api
+- collection_type: open
+  name: RubyGems.org Registry Activity Profiles API
+  slug: open-ruby-profiles-api
+- collection_type: open
+  name: RubyGems.org Registry Activity Versions API
+  slug: open-ruby-versions-api
+- collection_type: open
+  name: RubyGems.org Registry Activity Webhooks API
+  slug: open-ruby-webhooks-api
 - collection_type: open
   name: RubyGems.org Registry API
   slug: open-rubygems-registry
@@ -272,7 +302,7 @@ overview: 'Ruby Programming Language and Popular API Gems publishes 9 APIs on th
 
 
   Ruby Programming Language and Popular API Gems'' developer surface includes authentication, documentation, getting-started guide, release notes, engineering blog, and 17 more developer resources.'
-random_paper: 90
+random_paper: 3
 rules:
 - name: Ruby Programming Language and Popular API Gems API Rules
   rule_count: 5
@@ -310,7 +340,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/screenshots/ruby-2026-06-20T193244.png
 security:

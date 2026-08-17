@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 8
@@ -54,7 +54,7 @@ apis:
 - description: Look-up operations - banks, mobile operators, status.
   name: Paga Reference API
   slug: paga-reference-api
-artifact_total: 19
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Paga Webhooks
@@ -72,6 +72,21 @@ collections:
 - collection_type: postman
   name: Paga Developer Business Reference API
   slug: postman-paga-reference-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paga Developer Business API
+  slug: open-paga-business-api
+- collection_type: open
+  name: Paga Developer Business Collect API
+  slug: open-paga-collect-api
+- collection_type: open
+  name: Paga Developer Business Direct Debit API
+  slug: open-paga-direct-debit-api
+- collection_type: open
+  name: Paga Developer Business Reference API
+  slug: open-paga-reference-api
 common:
 - group: build
   title: ''
@@ -240,7 +255,7 @@ plans:
 - name: Paga Plans Pricing
   plan_count: 2
   slug: paga-plans-pricing
-random_paper: 49
+random_paper: 111
 rate_limits:
 - limit_count: 2
   name: Paga Rate Limits
@@ -274,7 +289,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/screenshots/paga-2026-08-07T191255.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,8 +60,17 @@ apis:
 - description: CRUD operations against Dataverse tables (entities).
   name: Microsoft Power Apps Tables API
   slug: power-apps-tables-api
-artifact_total: 62
+artifact_total: 65
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Dataverse Web API (Power Apps) System API
+  slug: open-power-apps-system-api
+- collection_type: open
+  name: Microsoft Dataverse Web API (Power Apps) System Tables API
+  slug: open-power-apps-tables-api
 - collection_type: open
   name: Microsoft Dataverse Web API (Power Apps)
   slug: open-power-apps
@@ -204,7 +213,7 @@ plans:
 - name: Power Apps Plans Pricing
   plan_count: 3
   slug: power-apps-plans-pricing
-random_paper: 78
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Power Apps Rate Limits
@@ -234,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-apps/refs/heads/main/screenshots/power-apps-2026-06-20T192021.png
 security:

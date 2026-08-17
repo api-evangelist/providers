@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -66,8 +66,35 @@ apis:
 - description: The Workers API from ClearML — 1 operation(s) for workers.
   name: ClearML Workers API
   slug: clearml-workers-api
-artifact_total: 17
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClearML REST Auth API
+  slug: open-clearml-auth-api
+- collection_type: open
+  name: ClearML REST Auth Debug API
+  slug: open-clearml-debug-api
+- collection_type: open
+  name: ClearML REST Auth Events API
+  slug: open-clearml-events-api
+- collection_type: open
+  name: ClearML REST Auth Models API
+  slug: open-clearml-models-api
+- collection_type: open
+  name: ClearML REST Auth Projects API
+  slug: open-clearml-projects-api
+- collection_type: open
+  name: ClearML REST Auth Queues API
+  slug: open-clearml-queues-api
+- collection_type: open
+  name: ClearML REST Auth Tasks API
+  slug: open-clearml-tasks-api
+- collection_type: open
+  name: ClearML REST Auth Workers API
+  slug: open-clearml-workers-api
 - collection_type: open
   name: ClearML REST API
   slug: open-clearml
@@ -156,7 +183,7 @@ plans:
 - name: Clearml Plans Pricing
   plan_count: 1
   slug: clearml-plans-pricing
-random_paper: 16
+random_paper: 140
 rate_limits:
 - limit_count: 1
   name: Clearml Rate Limits
@@ -181,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/screenshots/clearml-2026-06-20T174458.png
 security:

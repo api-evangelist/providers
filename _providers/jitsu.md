@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Ingestion API from Jitsu — 2 operation(s) for ingestion.
   name: Jitsu Ingestion API
   slug: jitsu-ingestion-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jitsu Event Ingestion Batch API
+  slug: open-jitsu-batch-api
+- collection_type: open
+  name: Jitsu Event Batch Ingestion API
+  slug: open-jitsu-ingestion-api
 - collection_type: open
   name: Jitsu Event Ingestion API
   slug: open-jitsu
@@ -115,7 +124,7 @@ plans:
 - name: Jitsu Plans Pricing
   plan_count: 4
   slug: jitsu-plans-pricing
-random_paper: 79
+random_paper: 112
 rate_limits:
 - limit_count: 4
   name: Jitsu Rate Limits
@@ -140,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/screenshots/jitsu-2026-07-25T223202.png
 security:

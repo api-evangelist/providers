@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - description: Manage Workday user accounts including account status, credentials, and associated security configurations.
   name: Workday Security User Accounts API
   slug: workday-security-user-accounts-api
-artifact_total: 60
+artifact_total: 73
 collections:
 - collection_type: postman
   name: Workday Security Workday Audit and Compliance Account Signons API
@@ -117,17 +117,56 @@ collections:
   name: Workday Security Workday Audit and Compliance Account Signons User Accounts API
   slug: postman-workday-security-user-accounts-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons API
+  slug: open-workday-security-account-signons-api
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons Audit Logs API
+  slug: open-workday-security-audit-logs-api
+- collection_type: open
   name: Workday Security Workday Audit and Compliance API
   slug: open-workday-security-audit
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons Authentication Configuration API
+  slug: open-workday-security-authentication-configuration-api
 - collection_type: open
   name: Workday Security Workday Authentication API
   slug: open-workday-security-authentication
 - collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons Compliance Reports API
+  slug: open-workday-security-compliance-reports-api
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons Domain Security Policies API
+  slug: open-workday-security-domain-security-policies-api
+- collection_type: open
   name: Workday Security Workday Identity Management API
   slug: open-workday-security-identity-management
 - collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons OAuth Tokens API
+  slug: open-workday-security-oauth-tokens-api
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons Security Audit API
+  slug: open-workday-security-security-audit-api
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons Security Group Members API
+  slug: open-workday-security-security-group-members-api
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons Security Groups API
+  slug: open-workday-security-security-groups-api
+- collection_type: open
   name: Workday Security Groups API
   slug: open-workday-security-security-groups
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons Sessions API
+  slug: open-workday-security-sessions-api
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons Unidentified Signons API
+  slug: open-workday-security-unidentified-signons-api
+- collection_type: open
+  name: Workday Security Workday Audit and Compliance Account Signons User Accounts API
+  slug: open-workday-security-user-accounts-api
 common:
 - group: build
   title: ''
@@ -320,7 +359,7 @@ plans:
 - name: Workday Security Plans Pricing
   plan_count: 1
   slug: workday-security-plans-pricing
-random_paper: 22
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Workday Security Rate Limits
@@ -359,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/screenshots/workday-security-2026-06-20T201611.png
 security:

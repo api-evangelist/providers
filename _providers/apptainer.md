@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: Running container instance management
   name: Apptainer Instances API
   slug: apptainer-instances-api
-artifact_total: 14
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apptainer Container Runtime Images API
+  slug: open-apptainer-images-api
+- collection_type: open
+  name: Apptainer Container Runtime Images Instances API
+  slug: open-apptainer-instances-api
 common:
 - group: operate
   title: ''
@@ -127,7 +137,7 @@ plans:
 - name: Apptainer Plans Pricing
   plan_count: 3
   slug: apptainer-plans-pricing
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Apptainer Rate Limits
@@ -169,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/screenshots/apptainer-2026-06-20T172331.png
 security:

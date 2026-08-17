@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Integrations API from Galileo — 3 operation(s) for integrations.
   name: Galileo Integrations API
   slug: galileo-ai-integrations-api
-artifact_total: 28
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Galileo Public Annotations API
+  slug: open-galileo-ai-annotations-api
+- collection_type: open
+  name: Galileo Public Annotations ApiKeys API
+  slug: open-galileo-ai-apikeys-api
+- collection_type: open
+  name: Galileo Public Annotations Auth API
+  slug: open-galileo-ai-auth-api
+- collection_type: open
+  name: Galileo Public Annotations Datasets API
+  slug: open-galileo-ai-datasets-api
+- collection_type: open
+  name: Galileo Public Annotations Experiments API
+  slug: open-galileo-ai-experiments-api
+- collection_type: open
+  name: Galileo Public Annotations Groups API
+  slug: open-galileo-ai-groups-api
+- collection_type: open
+  name: Galileo Public Annotations Health API
+  slug: open-galileo-ai-health-api
+- collection_type: open
+  name: Galileo Public Annotations Integrations API
+  slug: open-galileo-ai-integrations-api
 - collection_type: open
   name: Galileo Public API
   slug: open-galileo-ai
@@ -198,7 +225,7 @@ plans:
 - name: Galileo Ai Plans Pricing
   plan_count: 3
   slug: galileo-ai-plans-pricing
-random_paper: 20
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Galileo Ai Rate Limits
@@ -240,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/screenshots/galileo-ai-2026-06-20T181635.png
 security:

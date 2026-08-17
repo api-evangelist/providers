@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 6
@@ -263,11 +263,249 @@ apis:
 - description: The Troncs API from Harri — 2 operation(s) for troncs.
   name: Harri Troncs API
   slug: harri-troncs-api
-artifact_total: 85
+artifact_total: 164
 asyncapis:
 - description: ''
   name: Harri Webhooks
   slug: harri-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harri Employee Open Absences API
+  slug: open-harri-absences-api
+- collection_type: open
+  name: Harri Employee Open Annual Rates API
+  slug: open-harri-annualrates-api
+- collection_type: open
+  name: Harri Employee Open Bank Accounts API
+  slug: open-harri-bankaccounts-api
+- collection_type: open
+  name: Harri Employee Open Corporate Users API
+  slug: open-harri-corporate-users-api
+- collection_type: open
+  name: Harri Employee Open Cost Centers API
+  slug: open-harri-costcenters-api
+- collection_type: open
+  name: Harri Employee Open Deprecated AnnualRates API
+  slug: open-harri-deprecated-annualrates-api
+- collection_type: open
+  name: Harri Employee Open Deprecated BankAccounts API
+  slug: open-harri-deprecated-bankaccounts-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Employee API
+  slug: open-harri-deprecated-employee-api
+- collection_type: open
+  name: Harri Employee Open Deprecated EmployeeLocation API
+  slug: open-harri-deprecated-employeelocation-api
+- collection_type: open
+  name: Harri Employee Open Deprecated EmployeePositions API
+  slug: open-harri-deprecated-employeepositions-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Employment API
+  slug: open-harri-deprecated-employment-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Event API
+  slug: open-harri-deprecated-event-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Financial API
+  slug: open-harri-deprecated-financial-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee AnnualRates API
+  slug: open-harri-deprecated-franchisee-annualrates-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee BankAccounts API
+  slug: open-harri-deprecated-franchisee-bankaccounts-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee Employee API
+  slug: open-harri-deprecated-franchisee-employee-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee EmployeeLocation API
+  slug: open-harri-deprecated-franchisee-employeelocation-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee EmployeePositions API
+  slug: open-harri-deprecated-franchisee-employeepositions-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee Employment API
+  slug: open-harri-deprecated-franchisee-employment-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee Financial API
+  slug: open-harri-deprecated-franchisee-financial-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee HourlyRates API
+  slug: open-harri-deprecated-franchisee-hourlyrates-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee MaxWeeklyHours API
+  slug: open-harri-deprecated-franchisee-maxweeklyhours-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee PayTypes API
+  slug: open-harri-deprecated-franchisee-paytypes-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee TippedStatuses API
+  slug: open-harri-deprecated-franchisee-tippedstatuses-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee TroncAmounts API
+  slug: open-harri-deprecated-franchisee-troncamounts-api
+- collection_type: open
+  name: Harri Employee Open Deprecated Franchisee TroncPoints API
+  slug: open-harri-deprecated-franchisee-troncpoints-api
+- collection_type: open
+  name: Harri Employee Open Deprecated HourlyRates API
+  slug: open-harri-deprecated-hourlyrates-api
+- collection_type: open
+  name: Harri Employee Open Deprecated MaxWeeklyHours API
+  slug: open-harri-deprecated-maxweeklyhours-api
+- collection_type: open
+  name: Harri Employee Open Deprecated PayTypes API
+  slug: open-harri-deprecated-paytypes-api
+- collection_type: open
+  name: Harri Employee Open Deprecated TippedStatuses API
+  slug: open-harri-deprecated-tippedstatuses-api
+- collection_type: open
+  name: Harri Employee Open Deprecated TroncAmounts API
+  slug: open-harri-deprecated-troncamounts-api
+- collection_type: open
+  name: Harri Employee Open Deprecated TroncPoints API
+  slug: open-harri-deprecated-troncpoints-api
+- collection_type: open
+  name: Harri Open Employee API
+  slug: open-harri-employee-api
+- collection_type: open
+  name: Harri Employee Open Employee Job Title API
+  slug: open-harri-employeejobtitle-api
+- collection_type: open
+  name: Harri Employee Open Employee Location API
+  slug: open-harri-employeelocation-api
+- collection_type: open
+  name: Harri Employee Open Employee Positions API
+  slug: open-harri-employeepositions-api
+- collection_type: open
+  name: Harri - External Brand Management Employer APIs API
+  slug: open-harri-employer-apis-api
+- collection_type: open
+  name: Harri - External Brand Management Employer APIs V2 API
+  slug: open-harri-employer-apis-v2-api
+- collection_type: open
+  name: Harri Employee Open Employment API
+  slug: open-harri-employment-api
+- collection_type: open
+  name: Harri Employee Open Event API
+  slug: open-harri-event-api
+- collection_type: open
+  name: Harri Employee Open Franchisee Absences API
+  slug: open-harri-franchisee-absences-api
+- collection_type: open
+  name: Harri Employee Open Franchisee AnnualRates API
+  slug: open-harri-franchisee-annualrates-api
+- collection_type: open
+  name: Harri Employee Open Franchisee BankAccounts API
+  slug: open-harri-franchisee-bankaccounts-api
+- collection_type: open
+  name: Harri Employee Open Franchisee CostCenters API
+  slug: open-harri-franchisee-costcenters-api
+- collection_type: open
+  name: Harri Employee Open Franchisee Employee API
+  slug: open-harri-franchisee-employee-api
+- collection_type: open
+  name: Harri Employee Open Franchisee EmployeeJobTitle API
+  slug: open-harri-franchisee-employeejobtitle-api
+- collection_type: open
+  name: Harri Employee Open Franchisee EmployeeLocation API
+  slug: open-harri-franchisee-employeelocation-api
+- collection_type: open
+  name: Harri Employee Open Franchisee EmployeePositions API
+  slug: open-harri-franchisee-employeepositions-api
+- collection_type: open
+  name: Harri - External Brand Management Franchisee Employer APIs API
+  slug: open-harri-franchisee-employer-apis-api
+- collection_type: open
+  name: Harri - External Brand Management Franchisee Employer APIs V2 API
+  slug: open-harri-franchisee-employer-apis-v2-api
+- collection_type: open
+  name: Harri Employee Open Franchisee Employment API
+  slug: open-harri-franchisee-employment-api
+- collection_type: open
+  name: Harri Employee Open Franchisee Event API
+  slug: open-harri-franchisee-event-api
+- collection_type: open
+  name: Harri Employee Open Franchisee HourlyRates API
+  slug: open-harri-franchisee-hourlyrates-api
+- collection_type: open
+  name: Harri Employee Open Franchisee JobTitle API
+  slug: open-harri-franchisee-jobtitle-api
+- collection_type: open
+  name: Harri Employee Open Franchisee Location API
+  slug: open-harri-franchisee-location-api
+- collection_type: open
+  name: Harri Franchisee Mapping API
+  slug: open-harri-franchisee-mapping-api
+- collection_type: open
+  name: Harri Employee Open Franchisee MaxWeeklyHours API
+  slug: open-harri-franchisee-maxweeklyhours-api
+- collection_type: open
+  name: Harri Employee Open Franchisee PayTypes API
+  slug: open-harri-franchisee-paytypes-api
+- collection_type: open
+  name: Harri Employee Open Franchisee Position API
+  slug: open-harri-franchisee-position-api
+- collection_type: open
+  name: Harri Employee Open Franchisee Subscriptions API
+  slug: open-harri-franchisee-subscriptions-api
+- collection_type: open
+  name: Harri Employee Open Franchisee TippedStatuses API
+  slug: open-harri-franchisee-tippedstatuses-api
+- collection_type: open
+  name: Harri Employee Open Franchisee TroncAmounts API
+  slug: open-harri-franchisee-troncamounts-api
+- collection_type: open
+  name: Harri Employee Open Franchisee TroncPoints API
+  slug: open-harri-franchisee-troncpoints-api
+- collection_type: open
+  name: Harri Employee Open Franchisee Troncs API
+  slug: open-harri-franchisee-troncs-api
+- collection_type: open
+  name: Harri Employee Open Franchisees API
+  slug: open-harri-franchisees-api
+- collection_type: open
+  name: Harri Employee Open Hourly Rates API
+  slug: open-harri-hourlyrates-api
+- collection_type: open
+  name: Harri Employee Open Job Title API
+  slug: open-harri-jobtitle-api
+- collection_type: open
+  name: Harri Employee Open Location API
+  slug: open-harri-location-api
+- collection_type: open
+  name: Harri Mapping API
+  slug: open-harri-mapping-api
+- collection_type: open
+  name: Harri Employee Open Max Weekly Hours API
+  slug: open-harri-maxweeklyhours-api
+- collection_type: open
+  name: Harri Employee Open Minor Details API
+  slug: open-harri-minor-details-api
+- collection_type: open
+  name: Harri Employee Open Pay Types API
+  slug: open-harri-paytypes-api
+- collection_type: open
+  name: Harri Employee Open Position API
+  slug: open-harri-position-api
+- collection_type: open
+  name: Harri Employee Open Subscriptions API
+  slug: open-harri-subscriptions-api
+- collection_type: open
+  name: Harri Employee Open Tipped Statuses API
+  slug: open-harri-tippedstatuses-api
+- collection_type: open
+  name: Harri Employee Open Tronc Amounts API
+  slug: open-harri-troncamounts-api
+- collection_type: open
+  name: Harri Employee Open Tronc Points API
+  slug: open-harri-troncpoints-api
+- collection_type: open
+  name: Harri Employee Open Troncs API
+  slug: open-harri-troncs-api
 common:
 - group: other
   title: ''
@@ -413,7 +651,7 @@ overview: 'Harri publishes 78 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Harri''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, engineering blog, and 24 more developer resources.'
-random_paper: 54
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Harri Rate Limits
@@ -446,7 +684,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png
 security:

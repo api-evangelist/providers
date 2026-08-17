@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -68,7 +68,41 @@ apis:
 - description: The Ve Pendle API from Pendle — 2 operation(s) for ve pendle.
   name: Pendle Ve Pendle API
   slug: pendle-ve-pendle-api
-artifact_total: 248
+artifact_total: 259
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pendle V2 API Docs Assets API
+  slug: open-pendle-assets-api
+- collection_type: open
+  name: Pendle V2 API Docs Assets Chains API
+  slug: open-pendle-chains-api
+- collection_type: open
+  name: Pendle V2 API Docs Assets Dashboard API
+  slug: open-pendle-dashboard-api
+- collection_type: open
+  name: Pendle V2 API Docs Assets Limit Orders API
+  slug: open-pendle-limit-orders-api
+- collection_type: open
+  name: Pendle V2 API Docs Assets Markets API
+  slug: open-pendle-markets-api
+- collection_type: open
+  name: Pendle V2 API Docs Assets Pendle Emission API
+  slug: open-pendle-pendle-emission-api
+- collection_type: open
+  name: Pendle V2 API Docs Assets SDK API
+  slug: open-pendle-sdk-api
+- collection_type: open
+  name: Pendle V2 API Docs Assets Statistics API
+  slug: open-pendle-statistics-api
+- collection_type: open
+  name: Pendle V2 API Docs Assets Transactions API
+  slug: open-pendle-transactions-api
+- collection_type: open
+  name: Pendle V2 API Docs Assets Ve Pendle API
+  slug: open-pendle-ve-pendle-api
 common:
 - group: agent
   title: ''
@@ -848,7 +882,7 @@ plans:
 - name: Pendle Plans Pricing
   plan_count: 4
   slug: pendle-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 8
   name: Pendle Rate Limits
@@ -882,7 +916,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/screenshots/pendle-2026-06-20T191632.png
 security:

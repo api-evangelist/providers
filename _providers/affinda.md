@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ arazzos:
 - description: List an organization's workspaces, then pull a daily credit-consumption report scoped to the first workspace.
   name: Affinda Workspace Usage Report
   slug: affinda-workspace-usage-report-workflow
-artifact_total: 117
+artifact_total: 123
 collections:
 - collection_type: postman
   name: Affinda Annotations API
@@ -214,19 +214,34 @@ collections:
   name: Affinda Workspaces API
   slug: postman-affinda-workspaces-api
 - collection_type: open
-  name: Affinda Annotations API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Affinda Annotations Add x-hidden to endpoints API
+  slug: open-affinda-add-x-hidden-to-endpoints-api
+- collection_type: open
+  name: Affinda Add x-hidden to endpoints Annotations API
   slug: open-affinda-annotations-api
 - collection_type: open
-  name: Affinda Data Sources API
+  name: Affinda Annotations Add x-hidden to endpoints Data Sources API
   slug: open-affinda-data-sources-api
+- collection_type: open
+  name: Affinda Annotations Add x-hidden to endpoints Deprecated End Points API
+  slug: open-affinda-deprecated-end-points-api
+- collection_type: open
+  name: Affinda Annotations Add x-hidden to endpoints Document API - Extractor API
+  slug: open-affinda-document-api-extractor-api
+- collection_type: open
+  name: Affinda Annotations Add x-hidden to endpoints Document API - Splitting API
+  slug: open-affinda-document-api-splitting-api
 - collection_type: open
   name: Affinda Document Splitters API
   slug: open-affinda-document-splitters-api
 - collection_type: open
-  name: Affinda Document Types API
+  name: Affinda Annotations Add x-hidden to endpoints Document Types API
   slug: open-affinda-document-types-api
 - collection_type: open
-  name: Affinda Documents API
+  name: Affinda Annotations Add x-hidden to endpoints Documents API
   slug: open-affinda-documents-api
 - collection_type: open
   name: Affinda Extractors API
@@ -235,28 +250,31 @@ collections:
   name: Affinda Invitations API
   slug: open-affinda-invitations-api
 - collection_type: open
-  name: Affinda Organizations API
+  name: Affinda Annotations Add x-hidden to endpoints Organization API - Invitation API
+  slug: open-affinda-organization-api-invitation-api
+- collection_type: open
+  name: Affinda Annotations Add x-hidden to endpoints Organizations API
   slug: open-affinda-organizations-api
 - collection_type: open
-  name: Affinda Search and Match API
+  name: Affinda Annotations Add x-hidden to endpoints Search & Match API
   slug: open-affinda-search-match-api
 - collection_type: open
-  name: Affinda Tags API
+  name: Affinda Annotations Add x-hidden to endpoints Tags API
   slug: open-affinda-tags-api
 - collection_type: open
-  name: Affinda Usage API
+  name: Affinda Annotations Add x-hidden to endpoints Usage API
   slug: open-affinda-usage-api
 - collection_type: open
   name: Affinda API
   slug: open-affinda-v3
 - collection_type: open
-  name: Affinda Validation Results API
+  name: Affinda Annotations Add x-hidden to endpoints Validation Results API
   slug: open-affinda-validation-results-api
 - collection_type: open
-  name: Affinda Webhooks API
+  name: Affinda Annotations Add x-hidden to endpoints Webhooks API
   slug: open-affinda-webhooks-api
 - collection_type: open
-  name: Affinda Workspaces API
+  name: Affinda Annotations Add x-hidden to endpoints Workspaces API
   slug: open-affinda-workspaces-api
 common:
 - group: agent
@@ -609,7 +627,7 @@ plans:
 - name: Affinda Plans Pricing
   plan_count: 3
   slug: affinda-plans-pricing
-random_paper: 113
+random_paper: 117
 rate_limits:
 - limit_count: 2
   name: Affinda Rate Limits
@@ -657,7 +675,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/screenshots/affinda-2026-06-20T165616.png
 security:

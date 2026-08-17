@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Retention API from brightback — 1 operation(s) for retention.
   name: brightback Retention API
   slug: brightback-retention-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brightback (Chargebee ) Pre-cancel Retention API
+  slug: open-brightback-retention-api
 common:
 - group: other
   title: ''
@@ -128,7 +135,7 @@ overview: 'brightback publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   brightback''s developer surface includes documentation, API reference, support, authentication, and 15 more developer resources.'
-random_paper: 81
+random_paper: 147
 score:
   band: emerging
   composite: 24.0
@@ -151,7 +158,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/screenshots/brightback-2026-07-25T203931.png
 security:

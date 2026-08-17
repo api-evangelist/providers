@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Discovery API from TwinStrand Biosciences — 5 operation(s) for discovery.
@@ -57,7 +57,47 @@ apis:
 - description: The Taxonomies API from TwinStrand Biosciences — 4 operation(s) for taxonomies.
   name: TwinStrand Biosciences Taxonomies API
   slug: twinstrand-biosciences-taxonomies-api
-artifact_total: 14
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Discovery API
+  slug: open-twinstrand-biosciences-discovery-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Events API
+  slug: open-twinstrand-biosciences-events-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Media API
+  slug: open-twinstrand-biosciences-media-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) News API
+  slug: open-twinstrand-biosciences-news-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Pages API
+  slug: open-twinstrand-biosciences-pages-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Patents API
+  slug: open-twinstrand-biosciences-patents-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) People API
+  slug: open-twinstrand-biosciences-people-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Posters API
+  slug: open-twinstrand-biosciences-posters-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Posts API
+  slug: open-twinstrand-biosciences-posts-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Publications API
+  slug: open-twinstrand-biosciences-publications-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Search API
+  slug: open-twinstrand-biosciences-search-api
+- collection_type: open
+  name: TwinStrand Biosciences Content API (WordPress REST wp/v2) Taxonomies API
+  slug: open-twinstrand-biosciences-taxonomies-api
 common:
 - group: other
   title: ''
@@ -172,7 +212,7 @@ overview: 'TwinStrand Biosciences publishes 12 APIs on the [APIs.io](https://api
 
 
   TwinStrand Biosciences'' developer surface includes product news, legal docs, YouTube channel, authentication, and 21 more developer resources.'
-random_paper: 26
+random_paper: 71
 score:
   band: emerging
   composite: 22.3
@@ -200,7 +240,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

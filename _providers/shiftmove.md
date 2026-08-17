@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -68,7 +68,41 @@ apis:
 - description: The Vehicles API from Shiftmove — 7 operation(s) for vehicles.
   name: Shiftmove Vehicles API
   slug: shiftmove-vehicles-api
-artifact_total: 16
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fleet API Specifications Custom fields API
+  slug: open-shiftmove-custom-fields-api
+- collection_type: open
+  name: Fleet API Specifications Custom fields Driver assignments API
+  slug: open-shiftmove-driver-assignments-api
+- collection_type: open
+  name: Fleet API Specifications Custom fields Drivers API
+  slug: open-shiftmove-drivers-api
+- collection_type: open
+  name: Fleet API Specifications Custom fields Invoices API
+  slug: open-shiftmove-invoices-api
+- collection_type: open
+  name: Fleet API Specifications Custom fields Organizations API
+  slug: open-shiftmove-organizations-api
+- collection_type: open
+  name: Fleet API Specifications Custom fields Vehicle assignments API
+  slug: open-shiftmove-vehicle-assignments-api
+- collection_type: open
+  name: Fleet API Specifications Custom fields Vehicle financing API
+  slug: open-shiftmove-vehicle-financing-api
+- collection_type: open
+  name: Fleet API Specifications Custom fields Vehicle license plates API
+  slug: open-shiftmove-vehicle-license-plates-api
+- collection_type: open
+  name: Fleet API Specifications Custom fields Vehicle usages API
+  slug: open-shiftmove-vehicle-usages-api
+- collection_type: open
+  name: Fleet API Specifications Custom fields Vehicles API
+  slug: open-shiftmove-vehicles-api
 common:
 - group: start
   title: ''
@@ -182,7 +216,7 @@ overview: 'Shiftmove publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shiftmove''s developer surface includes documentation, API reference, support, signup flow, authentication, changelog, and 18 more developer resources.'
-random_paper: 21
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Shiftmove Rate Limits
@@ -210,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

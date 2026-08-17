@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Retrievals API from Ragie — 2 operation(s) for retrievals.
   name: Ragie Retrievals API
   slug: ragie-ai-retrievals-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ragie Connections API
+  slug: open-ragie-ai-connections-api
+- collection_type: open
+  name: Ragie Connections Documents API
+  slug: open-ragie-ai-documents-api
+- collection_type: open
+  name: Ragie Connections Entities API
+  slug: open-ragie-ai-entities-api
+- collection_type: open
+  name: Ragie Connections Partitions API
+  slug: open-ragie-ai-partitions-api
+- collection_type: open
+  name: Ragie Connections Retrievals API
+  slug: open-ragie-ai-retrievals-api
 - collection_type: open
   name: Ragie API
   slug: open-ragie-ai
@@ -128,7 +146,7 @@ plans:
 - name: Ragie Ai Plans Pricing
   plan_count: 4
   slug: ragie-ai-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Ragie Ai Rate Limits
@@ -153,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/screenshots/ragie-ai-2026-06-20T192529.png
 security:

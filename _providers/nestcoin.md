@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -108,11 +108,84 @@ apis:
 - description: User related endpoints
   name: Nestcoin users-users API
   slug: nestcoin-users-users-api
-artifact_total: 28
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Nestcoin Webhooks
   slug: nestcoin-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth API
+  slug: open-nestcoin-auth-oauth-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth auth-userauth API
+  slug: open-nestcoin-auth-userauth-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth exchange-external-api API
+  slug: open-nestcoin-exchange-external-api-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth exchange-orders API
+  slug: open-nestcoin-exchange-orders-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth ledger-account activity API
+  slug: open-nestcoin-ledger-account-activity-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth ledger-accounts API
+  slug: open-nestcoin-ledger-accounts-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth ledger-beneficiaries API
+  slug: open-nestcoin-ledger-beneficiaries-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth ledger-cash deposits API
+  slug: open-nestcoin-ledger-cash-deposits-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth ledger-offramp accounts API
+  slug: open-nestcoin-ledger-offramp-accounts-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth ledger-payments API
+  slug: open-nestcoin-ledger-payments-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth ledger-sub-accounts API
+  slug: open-nestcoin-ledger-sub-accounts-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth ledger-transfer API
+  slug: open-nestcoin-ledger-transfer-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth offers-offers API
+  slug: open-nestcoin-offers-offers-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth offers-onboardapi API
+  slug: open-nestcoin-offers-onboardapi-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth orders-orders API
+  slug: open-nestcoin-orders-orders-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth orders-quotes API
+  slug: open-nestcoin-orders-quotes-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth payment-methods-users API
+  slug: open-nestcoin-payment-methods-users-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth transactions-offramp API
+  slug: open-nestcoin-transactions-offramp-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth transactions-onboardapi API
+  slug: open-nestcoin-transactions-onboardapi-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth transactions-onramp API
+  slug: open-nestcoin-transactions-onramp-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth transactions-transactions API
+  slug: open-nestcoin-transactions-transactions-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth users-onboardapi API
+  slug: open-nestcoin-users-onboardapi-api
+- collection_type: open
+  name: Onboard External API Gateway auth-oauth users-users API
+  slug: open-nestcoin-users-users-api
 common:
 - group: other
   title: ''
@@ -229,7 +302,7 @@ overview: 'Nestcoin publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Nestcoin''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 27
+random_paper: 122
 score:
   band: developing
   composite: 45.4
@@ -259,7 +332,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/screenshots/nestcoin-2026-08-07T184916.png
 security:

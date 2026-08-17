@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The User Properties API from Fyno — 7 operation(s) for user properties.
   name: Fyno User Properties API
   slug: fyno-user-properties-api
-artifact_total: 31
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Fyno Rest Fire an Event API
@@ -89,6 +89,27 @@ collections:
 - collection_type: postman
   name: Fyno Rest Fire an Event User Properties API
   slug: postman-fyno-user-properties-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fyno Rest Fire an Event API
+  slug: open-fyno-fire-an-event-api
+- collection_type: open
+  name: Fyno Rest Fire an Event Fyno Verify API
+  slug: open-fyno-fyno-verify-api
+- collection_type: open
+  name: Fyno Rest Fire an Event Manage User Profiles API
+  slug: open-fyno-manage-user-profiles-api
+- collection_type: open
+  name: Fyno Rest Fire an Event Manage User Subscriptions & Preferences API
+  slug: open-fyno-manage-user-subscriptions-preferences-api
+- collection_type: open
+  name: Fyno Rest Fire an Event Suppression List API
+  slug: open-fyno-suppression-list-api
+- collection_type: open
+  name: Fyno Rest Fire an Event User Properties API
+  slug: open-fyno-user-properties-api
 common:
 - group: build
   title: ''
@@ -218,7 +239,7 @@ plans:
 - name: Fyno Plans Pricing
   plan_count: 5
   slug: fyno-plans-pricing
-random_paper: 84
+random_paper: 146
 rate_limits:
 - limit_count: 6
   name: Fyno Rate Limits
@@ -258,7 +279,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/screenshots/fyno-2026-06-20T181627.png
 security:

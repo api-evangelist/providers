@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for Massey Research Online (MRO), the DSpace institutional repository providing free full-text access to Massey University research outputs, theses, and disse
@@ -92,7 +92,7 @@ plans:
 - name: Massey Plans Pricing
   plan_count: 2
   slug: massey-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Massey Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/screenshots/massey-2026-06-20T185021.png
 security:

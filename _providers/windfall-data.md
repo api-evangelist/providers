@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-12'
+  score: 48.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +42,14 @@ apis:
 - description: The Windfall API API from Windfall Data — 1 operation(s) for windfall api.
   name: Windfall Data Windfall API API
   slug: windfall-data-windfall-api-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Windfall Windfall API API
+  slug: open-windfall-data-windfall-api-api
 common:
 - group: other
   title: ''
@@ -119,6 +127,18 @@ common:
   title: ''
   type: DomainSecurity
   url: security/windfall-data-domain-security.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/windfall-data-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/windfall-data-plans-pricing.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/windfall-data-examples.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -127,6 +147,18 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/windfalldata
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.windfall.com/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.windfall.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.windfall.com/blog/rss.xml
 - group: start
   title: ''
   type: Login
@@ -147,26 +179,34 @@ mcp_servers:
 - description: ''
   name: windfall-data-mcp.yml
   slug: windfall-data-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Windfall Data
 nav: Providers
 network: true
 overview: 'Windfall Data publishes 1 API on the [APIs.io](https://apis.io/) network: Windfall API API. Tagged areas include Company, Data, Data Enrichment, Wealth Data, and People Intelligence.
 
 
-  Windfall Data''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 19 more developer resources.'
-random_paper: 104
+  Windfall Data''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, code examples, support, and 23 more developer resources.'
+plans:
+- name: Windfall Data Plans Pricing
+  plan_count: 0
+  slug: windfall-data-plans-pricing
+random_paper: 112
+rate_limits:
+- limit_count: 1
+  name: Windfall Data Rate Limits
+  slug: windfall-data-rate-limits
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 51.7
+  delta: 4.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 62.7
-    developer_ergonomics: 56.0
+    developer_ergonomics: 62.5
     discoverability: 75.9
     governance: 20.8
-    operational_transparency: 5.3
+    operational_transparency: 26.3
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -179,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

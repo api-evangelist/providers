@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,12 +57,30 @@ apis:
 - description: InstaML transaction writes.
   name: InstantDB Transactions API
   slug: instantdb-transactions-api
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: 'AsyncAPI 2.6 description of InstantDB''s **realtime sync** surface. Unlike a request/response REST API, InstantDB is a sync engine. The client SDK''s **Reactor** opens a persistent WebSocket connection '
   name: InstantDB Realtime Sync (WebSocket)
   slug: instantdb-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: InstantDB Admin HTTP Auth API
+  slug: open-instantdb-auth-api
+- collection_type: open
+  name: InstantDB Admin HTTP Auth Presence API
+  slug: open-instantdb-presence-api
+- collection_type: open
+  name: InstantDB Admin HTTP Auth Query API
+  slug: open-instantdb-query-api
+- collection_type: open
+  name: InstantDB Admin HTTP Auth Storage API
+  slug: open-instantdb-storage-api
+- collection_type: open
+  name: InstantDB Admin HTTP Auth Transactions API
+  slug: open-instantdb-transactions-api
 - collection_type: open
   name: InstantDB Admin HTTP API
   slug: open-instantdb
@@ -134,7 +152,7 @@ plans:
 - name: Instantdb Plans Pricing
   plan_count: 4
   slug: instantdb-plans-pricing
-random_paper: 7
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Instantdb Rate Limits
@@ -168,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/screenshots/instantdb-2026-06-20T183415.png
 security:

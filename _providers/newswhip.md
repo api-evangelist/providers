@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-12'
+  score: 29.5
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: The Articles API from NewsWhip — 1 operation(s) for articles.
@@ -76,7 +76,56 @@ apis:
 - description: The TwitterInfluencers API from NewsWhip — 1 operation(s) for twitterinfluencers.
   name: NewsWhip TwitterInfluencers API
   slug: newswhip-twitterinfluencers-api
-artifact_total: 18
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles API
+  slug: open-newswhip-articles-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles ArticlesByHrefs API
+  slug: open-newswhip-articlesbyhrefs-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Content API
+  slug: open-newswhip-content-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles FbInfluencers API
+  slug: open-newswhip-fbinfluencers-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles FbPosts API
+  slug: open-newswhip-fbposts-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Influencers API
+  slug: open-newswhip-influencers-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Local API
+  slug: open-newswhip-local-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Publisher API
+  slug: open-newswhip-publisher-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Rankings API
+  slug: open-newswhip-rankings-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Region API
+  slug: open-newswhip-region-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Search API
+  slug: open-newswhip-search-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Social API
+  slug: open-newswhip-social-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Statistics API
+  slug: open-newswhip-statistics-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles Stats API
+  slug: open-newswhip-stats-api
+- collection_type: open
+  name: quick-start-api-formerly-get-api Articles TwitterInfluencers API
+  slug: open-newswhip-twitterinfluencers-api
 common:
 - group: other
   title: ''
@@ -158,6 +207,22 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/newswhip-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/newswhip-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/newswhip-rate-limits.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/newswhip-tool-crosswalk.yml
 created: '2026-07-17'
 description: NewsWhip is a media intelligence and predictive analytics company whose API gives programmatic access to the world's largest human-engagement database — real-time and predicted social engagement metrics, aggregated statistics, publisher and regional rankings, and top influencers for hundreds of millions of articles and social posts it has tracked across the web, Facebook and Twitter since 2014. Developers query trending and predicted content, look up engagement for specific URLs, and surface the pages and accounts driving a story via a JSON HTTPS API documented on the NewsWhip Developer Hub. Added to the API Evangelist network as a portfolio company of 500 Global and enriched by the API Evangelist pipeline from NewsWhip's public developer surface.
 image: https://www.newswhip.com/wp-content/uploads/2022/05/API-on-phone.png
@@ -166,26 +231,34 @@ mcp_servers:
 - description: ''
   name: newswhip-mcp.yml
   slug: newswhip-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: NewsWhip
 nav: Providers
 network: true
 overview: 'NewsWhip publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Articles API, ArticlesByHrefs API, Content API, and 12 more. Tagged areas include Company, Media Intelligence, Social Media Analytics, News, and Content Analytics.
 
 
-  NewsWhip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 13 more developer resources.'
-random_paper: 45
+  NewsWhip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 17 more developer resources.'
+plans:
+- name: Newswhip Plans Pricing
+  plan_count: 3
+  slug: newswhip-plans-pricing
+random_paper: 140
+rate_limits:
+- limit_count: 2
+  name: Newswhip Rate Limits
+  slug: newswhip-rate-limits
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 51.6
+  delta: 9.0
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 65.8
     contract_quality: 53.7
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 28.9
+    operational_transparency: 50.0
   previous_composite: 42.6
   provenance:
     conformance: derived
@@ -197,8 +270,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/screenshots/newswhip-2026-08-07T185140.png
 security:
 - kind: authentication
@@ -208,7 +281,7 @@ security:
 - kind: domain-security
   name: Newswhip Domain Security
   slug: newswhip-domain-security
-  summary_line: HSTS · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: newswhip
 tags:
 - Company

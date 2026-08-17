@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Workflows API from Extend — 2 operation(s) for workflows.
   name: Extend Workflows API
   slug: extend-ai-workflows-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Extend Batch API
+  slug: open-extend-ai-batch-api
+- collection_type: open
+  name: Extend Batch Classify API
+  slug: open-extend-ai-classify-api
+- collection_type: open
+  name: Extend Batch Evaluations API
+  slug: open-extend-ai-evaluations-api
+- collection_type: open
+  name: Extend Batch Extract API
+  slug: open-extend-ai-extract-api
+- collection_type: open
+  name: Extend Batch Files API
+  slug: open-extend-ai-files-api
+- collection_type: open
+  name: Extend Batch Parse API
+  slug: open-extend-ai-parse-api
+- collection_type: open
+  name: Extend Batch Split API
+  slug: open-extend-ai-split-api
+- collection_type: open
+  name: Extend Batch Workflow Runs API
+  slug: open-extend-ai-workflow-runs-api
+- collection_type: open
+  name: Extend Batch Workflows API
+  slug: open-extend-ai-workflows-api
 - collection_type: open
   name: Extend API
   slug: open-extend-ai
@@ -132,7 +162,7 @@ plans:
 - name: Extend Ai Plans Pricing
   plan_count: 3
   slug: extend-ai-plans-pricing
-random_paper: 55
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Extend Ai Rate Limits
@@ -157,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/screenshots/extend-ai-2026-06-20T180945.png
 security:

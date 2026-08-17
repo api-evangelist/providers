@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: The Tags API from British Columbia Data Catalogue — 2 operation(s) for tags.
   name: British Columbia Data Catalogue Tags API
   slug: british-columbia-data-catalogue-tags-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BC Data Catalogue CKAN Datasets API
+  slug: open-british-columbia-data-catalogue-datasets-api
+- collection_type: open
+  name: BC Data Catalogue CKAN Datasets Groups API
+  slug: open-british-columbia-data-catalogue-groups-api
+- collection_type: open
+  name: BC Data Catalogue CKAN Datasets Organizations API
+  slug: open-british-columbia-data-catalogue-organizations-api
+- collection_type: open
+  name: BC Data Catalogue CKAN Datasets Resources API
+  slug: open-british-columbia-data-catalogue-resources-api
+- collection_type: open
+  name: BC Data Catalogue CKAN Datasets Site API
+  slug: open-british-columbia-data-catalogue-site-api
+- collection_type: open
+  name: BC Data Catalogue CKAN Datasets Tags API
+  slug: open-british-columbia-data-catalogue-tags-api
 - collection_type: open
   name: BC Data Catalogue CKAN API
   slug: open-british-columbia-data-catalogue
@@ -114,7 +135,7 @@ plans:
 - name: British Columbia Data Catalogue Plans Pricing
   plan_count: 3
   slug: british-columbia-data-catalogue-plans-pricing
-random_paper: 95
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: British Columbia Data Catalogue Rate Limits
@@ -145,7 +166,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/screenshots/british-columbia-data-catalogue-2026-06-20T173712.png
 security:

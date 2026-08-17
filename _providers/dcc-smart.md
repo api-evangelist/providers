@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,7 +31,11 @@ apis:
 - description: An open-source HTTP API published by Smart DCC Limited for signing and validating DUIS (DCC User Interface Specification) XML messages. Two operations — POST /sign adds an XML digital signature to a B
   name: DCC Boxed DUIS Signing Tool API
   slug: dcc-boxed-duis-signing-tool-api
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: DCC Boxed DUIS Signing Tool API
+  slug: open-dcc-boxed-duis-signing-tool
 common:
 - group: agent
   title: ''
@@ -214,7 +218,7 @@ overview: 'Smart DCC publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Smart DCC''s developer surface includes engineering blog, documentation, CLI, sandbox, changelog, support, pricing, and 33 more developer resources.'
-random_paper: 54
+random_paper: 0
 score:
   band: thin
   composite: 41.0
@@ -244,7 +248,7 @@ score:
     regime_id: energy_utilities
     score: 35.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/screenshots/dcc-smart-2026-08-07T164213.png
 security:

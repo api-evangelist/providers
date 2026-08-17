@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,8 +71,44 @@ apis:
 - description: The Timetable API from Aviationstack — 1 operation(s) for timetable.
   name: Aviationstack Timetable API
   slug: aviationstack-timetable-api
-artifact_total: 17
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AviationStack Aircraft Types API
+  slug: open-aviationstack-aircraft-types-api
+- collection_type: open
+  name: AviationStack Aircraft Types Airlines API
+  slug: open-aviationstack-airlines-api
+- collection_type: open
+  name: AviationStack Aircraft Types Airplanes API
+  slug: open-aviationstack-airplanes-api
+- collection_type: open
+  name: AviationStack Aircraft Types Airports API
+  slug: open-aviationstack-airports-api
+- collection_type: open
+  name: AviationStack Aircraft Types Cities API
+  slug: open-aviationstack-cities-api
+- collection_type: open
+  name: AviationStack Aircraft Types Countries API
+  slug: open-aviationstack-countries-api
+- collection_type: open
+  name: AviationStack Aircraft Types Flights API
+  slug: open-aviationstack-flights-api
+- collection_type: open
+  name: AviationStack Aircraft Types FlightsFuture API
+  slug: open-aviationstack-flightsfuture-api
+- collection_type: open
+  name: AviationStack Aircraft Types Routes API
+  slug: open-aviationstack-routes-api
+- collection_type: open
+  name: AviationStack Aircraft Types Taxes API
+  slug: open-aviationstack-taxes-api
+- collection_type: open
+  name: AviationStack Aircraft Types Timetable API
+  slug: open-aviationstack-timetable-api
 - collection_type: open
   name: AviationStack API
   slug: open-aviationstack
@@ -117,7 +153,7 @@ plans:
 - name: Aviationstack Plans Pricing
   plan_count: 3
   slug: aviationstack-plans-pricing
-random_paper: 73
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Aviationstack Rate Limits
@@ -142,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/screenshots/aviationstack-2026-06-20T172726.png
 security:

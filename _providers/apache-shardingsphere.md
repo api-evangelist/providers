@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The ShardingRules API from Apache ShardingSphere — 1 operation(s) for shardingrules.
   name: Apache ShardingSphere ShardingRules API
   slug: apache-shardingsphere-shardingrules-api
-artifact_total: 72
+artifact_total: 78
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache ShardingSphere REST Cluster API
+  slug: open-apache-shardingsphere-cluster-api
+- collection_type: open
+  name: Apache ShardingSphere REST Cluster Databases API
+  slug: open-apache-shardingsphere-databases-api
+- collection_type: open
+  name: Apache ShardingSphere REST Cluster DataSources API
+  slug: open-apache-shardingsphere-datasources-api
+- collection_type: open
+  name: Apache ShardingSphere REST Cluster ReadwriteSplitting API
+  slug: open-apache-shardingsphere-readwritesplitting-api
+- collection_type: open
+  name: Apache ShardingSphere REST Cluster ShardingRules API
+  slug: open-apache-shardingsphere-shardingrules-api
 common:
 - group: agent
   title: ''
@@ -274,7 +293,7 @@ plans:
 - name: Apache Shardingsphere Plans Pricing
   plan_count: 3
   slug: apache-shardingsphere-plans-pricing
-random_paper: 110
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Apache Shardingsphere Rate Limits
@@ -316,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/screenshots/apache-shardingsphere-2026-06-20T172141.png
 security:

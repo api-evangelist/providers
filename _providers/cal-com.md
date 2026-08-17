@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 66
@@ -104,12 +104,81 @@ apis:
 - description: The Webhooks API from Cal.com — 2 operation(s) for webhooks.
   name: Cal.com Webhooks API
   slug: cal-com-webhooks-api
-artifact_total: 32
+artifact_total: 55
 asyncapis:
 - description: AsyncAPI definition for Cal.com's webhook surface. Cal.com webhooks are HTTP POST deliveries from Cal.com to a developer-defined `subscriberUrl` registered via the Cal.com Webhooks API (`/v2/webhooks`
   name: Cal.com Webhooks
   slug: cal-com-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cal.diy API v2 Api Keys API
+  slug: open-cal-com-api-keys-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Bookings API
+  slug: open-cal-com-bookings-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Bookings / Attendees API
+  slug: open-cal-com-bookings-attendees-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Bookings / Guests API
+  slug: open-cal-com-bookings-guests-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Cal Unified Calendars API
+  slug: open-cal-com-cal-unified-calendars-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Calendars API
+  slug: open-cal-com-calendars-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Conferencing API
+  slug: open-cal-com-conferencing-api
+- collection_type: open
+  name: 'Cal.diy API v2 Api Keys Deprecated: Platform / Managed Users API'
+  slug: open-cal-com-deprecated-platform-managed-users-api
+- collection_type: open
+  name: 'Cal.diy API v2 Api Keys Deprecated: Platform OAuth Clients API'
+  slug: open-cal-com-deprecated-platform-oauth-clients-api
+- collection_type: open
+  name: 'Cal.diy API v2 Api Keys Deprecated: Platform / Webhooks API'
+  slug: open-cal-com-deprecated-platform-webhooks-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Destination Calendars API
+  slug: open-cal-com-destination-calendars-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Event Types API
+  slug: open-cal-com-event-types-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Event Types Private Links API
+  slug: open-cal-com-event-types-private-links-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Event Types / Webhooks API
+  slug: open-cal-com-event-types-webhooks-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Me API
+  slug: open-cal-com-me-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys OAuth2 API
+  slug: open-cal-com-oauth2-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Schedules API
+  slug: open-cal-com-schedules-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Selected Calendars API
+  slug: open-cal-com-selected-calendars-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Slots API
+  slug: open-cal-com-slots-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Stripe API
+  slug: open-cal-com-stripe-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Verified Resources API
+  slug: open-cal-com-verified-resources-api
+- collection_type: open
+  name: Cal.diy API v2 Api Keys Webhooks API
+  slug: open-cal-com-webhooks-api
 - collection_type: open
   name: Cal.diy API v2
   slug: open-cal-com
@@ -189,7 +258,7 @@ plans:
 - name: Cal Com Plans Pricing
   plan_count: 6
   slug: cal-com-plans-pricing
-random_paper: 68
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Cal Com Rate Limits
@@ -223,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/screenshots/cal-com-2026-06-20T173857.png
 security:

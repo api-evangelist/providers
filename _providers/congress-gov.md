@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,7 +99,71 @@ apis:
 - description: Returns treaty data from the API
   name: Congress.gov API treaty API
   slug: congress-gov-treaty-api
-artifact_total: 171
+artifact_total: 192
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Congress.gov amendments API
+  slug: open-congress-gov-amendments-api
+- collection_type: open
+  name: Congress.gov amendments bill API
+  slug: open-congress-gov-bill-api
+- collection_type: open
+  name: Congress.gov amendments bound-congressional-record API
+  slug: open-congress-gov-bound-congressional-record-api
+- collection_type: open
+  name: Congress.gov amendments committee API
+  slug: open-congress-gov-committee-api
+- collection_type: open
+  name: Congress.gov amendments committee-meeting API
+  slug: open-congress-gov-committee-meeting-api
+- collection_type: open
+  name: Congress.gov amendments committee-print API
+  slug: open-congress-gov-committee-print-api
+- collection_type: open
+  name: Congress.gov amendments committee-report API
+  slug: open-congress-gov-committee-report-api
+- collection_type: open
+  name: .gov amendments congress API
+  slug: open-congress-gov-congress-api
+- collection_type: open
+  name: Congress.gov amendments congressional-record API
+  slug: open-congress-gov-congressional-record-api
+- collection_type: open
+  name: Congress.gov amendments crsreport API
+  slug: open-congress-gov-crsreport-api
+- collection_type: open
+  name: Congress.gov amendments daily-congressional-record API
+  slug: open-congress-gov-daily-congressional-record-api
+- collection_type: open
+  name: Congress.gov amendments hearing API
+  slug: open-congress-gov-hearing-api
+- collection_type: open
+  name: Congress.gov amendments house-communication API
+  slug: open-congress-gov-house-communication-api
+- collection_type: open
+  name: Congress.gov amendments house-requirement API
+  slug: open-congress-gov-house-requirement-api
+- collection_type: open
+  name: Congress.gov amendments house-vote API
+  slug: open-congress-gov-house-vote-api
+- collection_type: open
+  name: Congress.gov amendments member API
+  slug: open-congress-gov-member-api
+- collection_type: open
+  name: Congress.gov amendments nomination API
+  slug: open-congress-gov-nomination-api
+- collection_type: open
+  name: Congress.gov amendments senate-communication API
+  slug: open-congress-gov-senate-communication-api
+- collection_type: open
+  name: Congress.gov amendments summaries API
+  slug: open-congress-gov-summaries-api
+- collection_type: open
+  name: Congress.gov amendments treaty API
+  slug: open-congress-gov-treaty-api
 common:
 - group: agent
   title: ''
@@ -616,7 +680,7 @@ plans:
 - name: Congress Gov Plans Pricing
   plan_count: 1
   slug: congress-gov-plans-pricing
-random_paper: 45
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Congress Gov Rate Limits
@@ -656,7 +720,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/screenshots/congress-gov-2026-06-20T174909.png
 security:

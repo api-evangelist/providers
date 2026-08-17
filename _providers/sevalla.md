@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Build and deploy Git-backed static sites to the edge.
   name: Sevalla Static Sites API
   slug: sevalla-static-sites-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sevalla Applications API
+  slug: open-sevalla-applications-api
+- collection_type: open
+  name: Sevalla Applications Company API
+  slug: open-sevalla-company-api
+- collection_type: open
+  name: Sevalla Applications Databases API
+  slug: open-sevalla-databases-api
+- collection_type: open
+  name: Sevalla Applications Deployments API
+  slug: open-sevalla-deployments-api
+- collection_type: open
+  name: Sevalla Applications Object Storage API
+  slug: open-sevalla-object-storage-api
+- collection_type: open
+  name: Sevalla Applications Pipelines API
+  slug: open-sevalla-pipelines-api
+- collection_type: open
+  name: Sevalla Applications Static Sites API
+  slug: open-sevalla-static-sites-api
 - collection_type: open
   name: Sevalla API
   slug: open-sevalla
@@ -130,7 +154,7 @@ plans:
 - name: Sevalla Plans Pricing
   plan_count: 4
   slug: sevalla-plans-pricing
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Sevalla Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

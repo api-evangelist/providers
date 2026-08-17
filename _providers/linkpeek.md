@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,23 @@ apis:
 - description: Service health, status, and discovery
   name: LinkPeek System API
   slug: linkpeek-system-api
-artifact_total: 13
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LinkPeek Favicon API
+  slug: open-linkpeek-favicon-api
+- collection_type: open
+  name: LinkPeek Meta Tags API
+  slug: open-linkpeek-meta-tags-api
+- collection_type: open
+  name: LinkPeek QR Code API
+  slug: open-linkpeek-qr-code-api
+- collection_type: open
+  name: LinkPeek System API
+  slug: open-linkpeek-system-api
 common:
 - group: agent
   title: ''
@@ -163,7 +179,7 @@ plans:
 - name: Linkpeek Plans
   plan_count: 3
   slug: linkpeek-plans
-random_paper: 11
+random_paper: 106
 rate_limits:
 - limit_count: 3
   name: Linkpeek Rate Limits
@@ -197,7 +213,7 @@ score:
     regime_id: energy_utilities
     score: 31.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 28
 apis:
 - description: Operations for API Authentication
@@ -116,11 +116,99 @@ apis:
 - description: Operations for Webhooks
   name: Tackle.io Webhooks API
   slug: tackleio-webhooks-api
-artifact_total: 34
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Tackleio Webhooks
   slug: tackleio-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tackle Public Contracts Authentication API
+  slug: open-tackleio-authentication-api
+- collection_type: open
+  name: Tackle Public Authentication Contracts API
+  slug: open-tackleio-contracts-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Currencies API
+  slug: open-tackleio-currencies-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Customers API
+  slug: open-tackleio-customers-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Disbursements API
+  slug: open-tackleio-disbursements-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Entitlements API
+  slug: open-tackleio-entitlements-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Groups API
+  slug: open-tackleio-groups-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Invitations API
+  slug: open-tackleio-invitations-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Invoices API
+  slug: open-tackleio-invoices-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Marketplace API
+  slug: open-tackleio-marketplace-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Metering API
+  slug: open-tackleio-metering-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Notifications API
+  slug: open-tackleio-notifications-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Opportunities API
+  slug: open-tackleio-opportunities-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Partners API
+  slug: open-tackleio-partners-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Private Offer Actions API
+  slug: open-tackleio-private-offer-actions-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Private Offers API
+  slug: open-tackleio-private-offers-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Products API
+  slug: open-tackleio-products-api
+- collection_type: open
+  name: Tackle Contracts Authentication public API
+  slug: open-tackleio-public-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Referrals API
+  slug: open-tackleio-referrals-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Registrations API
+  slug: open-tackleio-registrations-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Scores API
+  slug: open-tackleio-scores-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Service Provider API
+  slug: open-tackleio-service-provider-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Settings API
+  slug: open-tackleio-settings-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Solutions API
+  slug: open-tackleio-solutions-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Subscriptions API
+  slug: open-tackleio-subscriptions-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Users API
+  slug: open-tackleio-users-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Version API
+  slug: open-tackleio-version-api
+- collection_type: open
+  name: Tackle Public Contracts Authentication Webhooks API
+  slug: open-tackleio-webhooks-api
 common:
 - group: other
   title: ''
@@ -257,7 +345,7 @@ overview: 'Tackle.io publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Tackle.io''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 22 more developer resources.'
-random_paper: 4
+random_paper: 99
 scopes:
 - name: Tackleio Scopes
   scope_count: 0
@@ -285,7 +373,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

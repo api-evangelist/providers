@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -81,8 +81,53 @@ apis:
 - description: The Transactions API from Paddle — 3 operation(s) for transactions.
   name: Paddle Transactions API
   slug: paddle-transactions-api
-artifact_total: 22
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paddle Addresses API
+  slug: open-paddle-addresses-api
+- collection_type: open
+  name: Paddle Addresses Adjustments API
+  slug: open-paddle-adjustments-api
+- collection_type: open
+  name: Paddle Addresses Businesses API
+  slug: open-paddle-businesses-api
+- collection_type: open
+  name: Paddle Addresses Customers API
+  slug: open-paddle-customers-api
+- collection_type: open
+  name: Paddle Addresses Discounts API
+  slug: open-paddle-discounts-api
+- collection_type: open
+  name: Paddle Addresses Event Types API
+  slug: open-paddle-event-types-api
+- collection_type: open
+  name: Paddle Addresses Events API
+  slug: open-paddle-events-api
+- collection_type: open
+  name: Paddle Addresses Notification Settings API
+  slug: open-paddle-notification-settings-api
+- collection_type: open
+  name: Paddle Addresses Notifications API
+  slug: open-paddle-notifications-api
+- collection_type: open
+  name: Paddle Addresses Prices API
+  slug: open-paddle-prices-api
+- collection_type: open
+  name: Paddle Addresses Products API
+  slug: open-paddle-products-api
+- collection_type: open
+  name: Paddle Addresses Reports API
+  slug: open-paddle-reports-api
+- collection_type: open
+  name: Paddle Addresses Subscriptions API
+  slug: open-paddle-subscriptions-api
+- collection_type: open
+  name: Paddle Addresses Transactions API
+  slug: open-paddle-transactions-api
 - collection_type: open
   name: Paddle API
   slug: open-paddle
@@ -155,7 +200,7 @@ plans:
 - name: Paddle Plans Pricing
   plan_count: 2
   slug: paddle-plans-pricing
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Paddle Rate Limits
@@ -186,7 +231,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/screenshots/paddle-2026-08-07T191251.png
 security:

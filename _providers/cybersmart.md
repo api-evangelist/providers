@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Partner-facing REST API that provides full access to certifications and desktop security controls, allowing MSP partners to automate security workflows, integrate with other systems, and sync device s
@@ -124,7 +124,7 @@ overview: 'CyberSmart publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   CyberSmart''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 4
+random_paper: 41
 score:
   band: thin
   composite: 30.6
@@ -140,7 +140,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersmart/refs/heads/main/screenshots/cybersmart-2026-07-25T211030.png
 security:

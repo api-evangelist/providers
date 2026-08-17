@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Indicator of compromise detail lookups and submission
@@ -43,7 +43,23 @@ apis:
 - description: OTX community users
   name: AlienVault Users API
   slug: alienvault-users-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AlienVault OTX DirectConnect Indicators API
+  slug: open-alienvault-indicators-api
+- collection_type: open
+  name: AlienVault OTX DirectConnect Indicators Pulses API
+  slug: open-alienvault-pulses-api
+- collection_type: open
+  name: AlienVault OTX DirectConnect Indicators Search API
+  slug: open-alienvault-search-api
+- collection_type: open
+  name: AlienVault OTX DirectConnect Indicators Users API
+  slug: open-alienvault-users-api
 common:
 - group: other
   title: ''
@@ -133,7 +149,7 @@ overview: 'AlienVault publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AlienVault''s developer surface includes documentation, API reference, signup flow, authentication, and 14 more developer resources.'
-random_paper: 117
+random_paper: 34
 score:
   band: thin
   composite: 37.6
@@ -156,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/screenshots/alienvault-2026-07-25T195617.png
 security:

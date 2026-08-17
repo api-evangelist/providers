@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -92,7 +92,35 @@ apis:
 - description: The Transaction Extension API from European Space Agency (ESA) — 4 operation(s) for transaction extension.
   name: European Space Agency (ESA) Transaction Extension API
   slug: esa-transaction-extension-api
-artifact_total: 25
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Copernicus Data Space Ecosystem (CDSE) asset-level STAC catalogue Bulk Transaction Extension API
+  slug: open-esa-bulk-transaction-extension-api
+- collection_type: open
+  name: Copernicus Data Space Ecosystem (CDSE) asset-level STAC catalogue Bulk Transaction Extension Collections API
+  slug: open-esa-collections-api
+- collection_type: open
+  name: Copernicus Data Space Ecosystem (CDSE) asset-level STAC catalogue Bulk Transaction Extension Conformance API
+  slug: open-esa-conformance-api
+- collection_type: open
+  name: Copernicus Data Space Ecosystem (CDSE) asset-level STAC catalogue Bulk Transaction Extension Copernicus Data Space Ecosystem (CDSE) Asset Level STAC Catalogue API
+  slug: open-esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api
+- collection_type: open
+  name: Copernicus Data Space Ecosystem (CDSE) asset-level STAC catalogue Bulk Transaction Extension Filter Extension API
+  slug: open-esa-filter-extension-api
+- collection_type: open
+  name: Copernicus Data Space Ecosystem (CDSE) asset-level STAC catalogue Bulk Transaction Extension Liveliness/Readiness API
+  slug: open-esa-liveliness-readiness-api
+- collection_type: open
+  name: Copernicus Data Space Ecosystem (CDSE) asset-level STAC catalogue Bulk Transaction Extension Search API
+  slug: open-esa-search-api
+- collection_type: open
+  name: Copernicus Data Space Ecosystem (CDSE) asset-level STAC catalogue Bulk Transaction Extension API
+  slug: open-esa-transaction-extension-api
 common:
 - group: agent
   title: ''
@@ -174,7 +202,7 @@ plans:
 - name: Esa Plans Pricing
   plan_count: 2
   slug: esa-plans-pricing
-random_paper: 73
+random_paper: 15
 rate_limits:
 - limit_count: 9
   name: Esa Rate Limits
@@ -199,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/screenshots/esa-2026-06-20T180819.png
 security:

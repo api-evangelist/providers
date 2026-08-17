@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -42,11 +42,17 @@ apis:
 - description: Data Catalog database management
   name: AWS Lake Formation Databases API
   slug: amazon-lakeformation-databases-api
-artifact_total: 32
+artifact_total: 34
 collections:
 - collection_type: postman
   name: AWS Lake Formation Databases API
   slug: postman-amazon-lakeformation-databases-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Lake Formation Databases API
+  slug: open-amazon-lakeformation-databases-api
 - collection_type: open
   name: AWS Lake Formation API
   slug: open-amazon-lakeformation
@@ -200,7 +206,7 @@ plans:
 - name: Amazon Lakeformation Plans Pricing
   plan_count: 3
   slug: amazon-lakeformation-plans-pricing
-random_paper: 39
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: Amazon Lakeformation Rate Limits
@@ -242,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lakeformation/refs/heads/main/screenshots/amazon-lakeformation-2026-06-20T171721.png
 security:

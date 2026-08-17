@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Create a new Group
@@ -37,7 +37,17 @@ apis:
 - description: Create or Delete a host inside the vault or the group
   name: Termius host API
   slug: termius-host-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Termius API Bridge group API
+  slug: open-termius-group-api
+- collection_type: open
+  name: Termius API Bridge group host API
+  slug: open-termius-host-api
 common:
 - group: other
   title: ''
@@ -187,7 +197,7 @@ overview: 'Termius publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Termius'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 57
+random_paper: 32
 score:
   band: developing
   composite: 49.6
@@ -210,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

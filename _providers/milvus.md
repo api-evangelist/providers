@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: The Users API from Milvus — 2 operation(s) for users.
   name: Milvus Users API
   slug: milvus-users-api
-artifact_total: 16
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Milvus REST Collections API
+  slug: open-milvus-collections-api
+- collection_type: open
+  name: Milvus REST Collections Entities API
+  slug: open-milvus-entities-api
+- collection_type: open
+  name: Milvus REST Collections Indexes API
+  slug: open-milvus-indexes-api
+- collection_type: open
+  name: Milvus REST Collections Partitions API
+  slug: open-milvus-partitions-api
+- collection_type: open
+  name: Milvus REST Collections Roles API
+  slug: open-milvus-roles-api
+- collection_type: open
+  name: Milvus REST Collections Users API
+  slug: open-milvus-users-api
 - collection_type: open
   name: Milvus REST API
   slug: open-milvus
@@ -169,7 +190,7 @@ plans:
 - name: Milvus Plans Pricing
   plan_count: 1
   slug: milvus-plans-pricing
-random_paper: 72
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Milvus Rate Limits
@@ -194,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/screenshots/milvus-2026-06-20T185554.png
 security:

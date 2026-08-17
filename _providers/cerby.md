@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The public Cerby REST API. Programmatic access to accounts, secrets, collections, users, teams, integrations, jobs, and vaults in a Cerby workspace. Requests are authenticated with a scoped API key se
@@ -159,7 +159,7 @@ overview: 'Cerby publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cerby''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 20 more developer resources.'
-random_paper: 53
+random_paper: 86
 scopes:
 - name: Cerby Scopes
   scope_count: 17
@@ -180,7 +180,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

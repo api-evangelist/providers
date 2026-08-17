@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -66,12 +66,42 @@ apis:
 - description: Manage workspace users.
   name: Contextual AI Users API
   slug: contextual-ai-users-api
-artifact_total: 20
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI 2.6 description of Contextual AI's **agent query streaming** surface. Contextual AI does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://docs.
   name: Contextual AI Agent Query Streaming (HTTP + SSE)
   slug: contextual-ai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Contextual AI Platform Agents API
+  slug: open-contextual-ai-agents-api
+- collection_type: open
+  name: Contextual AI Platform Agents Agents Query API
+  slug: open-contextual-ai-agents-query-api
+- collection_type: open
+  name: Contextual AI Platform Agents Datastores API
+  slug: open-contextual-ai-datastores-api
+- collection_type: open
+  name: Contextual AI Platform Agents Documents API
+  slug: open-contextual-ai-documents-api
+- collection_type: open
+  name: Contextual AI Platform Agents Generate API
+  slug: open-contextual-ai-generate-api
+- collection_type: open
+  name: Contextual AI Platform Agents LMUnit API
+  slug: open-contextual-ai-lmunit-api
+- collection_type: open
+  name: Contextual AI Platform Agents Parse API
+  slug: open-contextual-ai-parse-api
+- collection_type: open
+  name: Contextual AI Platform Agents Rerank API
+  slug: open-contextual-ai-rerank-api
+- collection_type: open
+  name: Contextual AI Platform Agents Users API
+  slug: open-contextual-ai-users-api
 - collection_type: open
   name: Contextual AI Platform API
   slug: open-contextual-ai
@@ -151,7 +181,7 @@ plans:
 - name: Contextual Ai Plans Pricing
   plan_count: 2
   slug: contextual-ai-plans-pricing
-random_paper: 22
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Contextual Ai Rate Limits
@@ -185,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/screenshots/contextual-ai-2026-06-20T174932.png
 security:

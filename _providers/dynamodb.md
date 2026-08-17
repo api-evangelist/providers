@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -81,12 +81,54 @@ apis:
 - description: 'The #UntagResource API from Amazon DynamoDB — 1 operation(s) for #untagresource.'
   name: 'Amazon DynamoDB #UntagResource API'
   slug: dynamodb-untagresource-api
-artifact_total: 247
+artifact_total: 261
 asyncapis:
 - description: Amazon DynamoDB Streams captures a time-ordered sequence of item-level modifications in any DynamoDB table and stores this information in a log for up to 24 hours. Applications can access this log and
   name: Amazon DynamoDB Streams
   slug: dynamodb-streams-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon DynamoDB Backups API
+  slug: open-dynamodb-backups-api
+- collection_type: open
+  name: Amazon DynamoDB Backups Batch Operations API
+  slug: open-dynamodb-batch-operations-api
+- collection_type: open
+  name: Amazon DynamoDB Backups Exports API
+  slug: open-dynamodb-exports-api
+- collection_type: open
+  name: Amazon DynamoDB Backups Imports API
+  slug: open-dynamodb-imports-api
+- collection_type: open
+  name: Amazon DynamoDB Backups Items API
+  slug: open-dynamodb-items-api
+- collection_type: open
+  name: 'Amazon DynamoDB Backups #ListTagsOfResource API'
+  slug: open-dynamodb-listtagsofresource-api
+- collection_type: open
+  name: Amazon DynamoDB Backups PartiQL API
+  slug: open-dynamodb-partiql-api
+- collection_type: open
+  name: Amazon DynamoDB Backups Queries API
+  slug: open-dynamodb-queries-api
+- collection_type: open
+  name: Amazon DynamoDB Backups Tables API
+  slug: open-dynamodb-tables-api
+- collection_type: open
+  name: 'Amazon DynamoDB Backups #TagResource API'
+  slug: open-dynamodb-tagresource-api
+- collection_type: open
+  name: Amazon DynamoDB Backups Transactions API
+  slug: open-dynamodb-transactions-api
+- collection_type: open
+  name: Amazon DynamoDB Backups TTL API
+  slug: open-dynamodb-ttl-api
+- collection_type: open
+  name: 'Amazon DynamoDB Backups #UntagResource API'
+  slug: open-dynamodb-untagresource-api
 - collection_type: open
   name: Amazon DynamoDB API
   slug: open-dynamodb
@@ -809,7 +851,7 @@ plans:
 - name: Dynamodb Plans Pricing
   plan_count: 4
   slug: dynamodb-plans-pricing
-random_paper: 6
+random_paper: 101
 rate_limits:
 - limit_count: 11
   name: Dynamodb Rate Limits
@@ -859,7 +901,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/screenshots/dynamodb-2026-06-20T180405.png
 security:

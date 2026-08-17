@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -72,8 +72,17 @@ apis:
 - description: Create, update, publish, and delete CMS rows.
   name: Plasmic Rows API
   slug: plasmic-rows-api
-artifact_total: 18
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Plasmic CMS Items API
+  slug: open-plasmic-items-api
+- collection_type: open
+  name: Plasmic CMS Items Rows API
+  slug: open-plasmic-rows-api
 - collection_type: open
   name: Plasmic CMS API
   slug: open-plasmic
@@ -146,7 +155,7 @@ plans:
 - name: Plasmic Plans Pricing
   plan_count: 1
   slug: plasmic-plans-pricing
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Plasmic Rate Limits
@@ -171,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/screenshots/plasmic-2026-06-20T191800.png
 security:

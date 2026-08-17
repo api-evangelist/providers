@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,12 +60,39 @@ apis:
 - description: The Stock API from Finnhub — 5 operation(s) for stock.
   name: Finnhub Stock API
   slug: finnhub-stock-api
-artifact_total: 17
+artifact_total: 26
 asyncapis:
 - description: AsyncAPI specification for Finnhub's real-time streaming WebSocket APIs. A single WebSocket endpoint (wss://ws.finnhub.io) multiplexes three documented streams selected by the envelope `type` field on
   name: Finnhub WebSocket API
   slug: finnhub-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Finnhub Company News API
+  slug: open-finnhub-company-news-api
+- collection_type: open
+  name: Finnhub Company News Crypto API
+  slug: open-finnhub-crypto-api
+- collection_type: open
+  name: Finnhub Company News Forex API
+  slug: open-finnhub-forex-api
+- collection_type: open
+  name: Finnhub Company News API
+  slug: open-finnhub-news-api
+- collection_type: open
+  name: Finnhub Company News Quote API
+  slug: open-finnhub-quote-api
+- collection_type: open
+  name: Finnhub Company News Search API
+  slug: open-finnhub-search-api
+- collection_type: open
+  name: Finnhub Company News Stock API
+  slug: open-finnhub-stock-api
+- collection_type: open
+  name: Finnhub API
+  slug: open-finnhub-swagger-original
 - collection_type: open
   name: Finnhub API
   slug: open-finnhub
@@ -213,7 +240,7 @@ plans:
 - name: Finnhub Plans Pricing
   plan_count: 3
   slug: finnhub-plans-pricing
-random_paper: 26
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Finnhub Rate Limits
@@ -256,7 +283,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/screenshots/finnhub-2026-06-20T181219.png
 security:

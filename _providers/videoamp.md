@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 4
@@ -74,7 +74,53 @@ apis:
 - description: shares operations.
   name: VideoAmp Shares API
   slug: videoamp-shares-api
-artifact_total: 22
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VideoAmp Public Ad Measurements API
+  slug: open-videoamp-admeasurements-api
+- collection_type: open
+  name: VideoAmp Public Audiences API
+  slug: open-videoamp-audiences-api
+- collection_type: open
+  name: VideoAmp Public Campaigns API
+  slug: open-videoamp-campaigns-api
+- collection_type: open
+  name: VideoAmp Public Consents API
+  slug: open-videoamp-consents-api
+- collection_type: open
+  name: VideoAmp Public Content API
+  slug: open-videoamp-content-api
+- collection_type: open
+  name: VideoAmp Public Currency Of Record API
+  slug: open-videoamp-currency-of-record-api
+- collection_type: open
+  name: VideoAmp Public Data Streams API
+  slug: open-videoamp-datastreams-api
+- collection_type: open
+  name: VideoAmp Public Data Stream Types API
+  slug: open-videoamp-datastreamtypes-api
+- collection_type: open
+  name: VideoAmp Public Inventories API
+  slug: open-videoamp-inventories-api
+- collection_type: open
+  name: VideoAmp Public Library API
+  slug: open-videoamp-library-api
+- collection_type: open
+  name: VideoAmp Public Me API
+  slug: open-videoamp-me-api
+- collection_type: open
+  name: VideoAmp Public Plans API
+  slug: open-videoamp-plans-api
+- collection_type: open
+  name: VideoAmp Public Reports API
+  slug: open-videoamp-reports-api
+- collection_type: open
+  name: VideoAmp Public Shares API
+  slug: open-videoamp-shares-api
 common:
 - group: other
   title: ''
@@ -216,7 +262,7 @@ overview: 'VideoAmp publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   VideoAmp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 24 more developer resources.'
-random_paper: 13
+random_paper: 108
 scopes:
 - name: Videoamp Scopes
   scope_count: 4
@@ -245,7 +291,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

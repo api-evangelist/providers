@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Aggregated technical, quantitative, and sentiment data for a single symbol.
   name: ValueRay Symbol Data API
   slug: valueray-symbol-data-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ValueRay Symbol Data API
+  slug: open-valueray-symbol-data-api
 - collection_type: open
   name: ValueRay Symbol Data API
   slug: open-valueray-symbol-data
@@ -139,7 +145,7 @@ plans:
 - name: Valueray Plans Pricing
   plan_count: 2
   slug: valueray-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 1
   name: Valueray Rate Limits
@@ -187,7 +193,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/screenshots/valueray-2026-06-20T200802.png
 security:

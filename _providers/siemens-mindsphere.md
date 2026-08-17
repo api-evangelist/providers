@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,14 +66,29 @@ apis:
 - description: Time-series data read and write operations
   name: Siemens MindSphere Timeseries API
   slug: siemens-mindsphere-timeseries-api
-artifact_total: 45
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Siemens MindSphere Asset Management Aspect Types API
+  slug: open-siemens-mindsphere-aspect-types-api
 - collection_type: open
   name: Siemens MindSphere Asset Management API
   slug: open-siemens-mindsphere-asset-management
 - collection_type: open
+  name: Siemens MindSphere Asset Management Aspect Types Asset Types API
+  slug: open-siemens-mindsphere-asset-types-api
+- collection_type: open
+  name: Siemens MindSphere Asset Management Aspect Types Assets API
+  slug: open-siemens-mindsphere-assets-api
+- collection_type: open
   name: Siemens MindSphere IoT Time Series API
   slug: open-siemens-mindsphere-iot-timeseries
+- collection_type: open
+  name: Siemens MindSphere Asset Management Aspect Types Timeseries API
+  slug: open-siemens-mindsphere-timeseries-api
 common:
 - group: agent
   title: ''
@@ -222,7 +237,7 @@ plans:
 - name: Siemens Mindsphere Plans Pricing
   plan_count: 1
   slug: siemens-mindsphere-plans-pricing
-random_paper: 72
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Siemens Mindsphere Rate Limits
@@ -256,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/screenshots/siemens-mindsphere-2026-06-20T193904.png
 security:

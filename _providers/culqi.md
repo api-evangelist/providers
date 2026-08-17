@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 7
@@ -75,7 +75,7 @@ apis:
 - description: Settlement transfers (abonos) paid out to the merchant.
   name: Culqi Transfers API
   slug: culqi-transfers-api
-artifact_total: 34
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Culqi Events Webhooks
@@ -117,6 +117,45 @@ collections:
 - collection_type: postman
   name: Culqi API v2 3DS Transfers API
   slug: postman-culqi-transfers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Culqi API v2 3DS API
+  slug: open-culqi-3ds-api
+- collection_type: open
+  name: Culqi API v2 3DS Cards API
+  slug: open-culqi-cards-api
+- collection_type: open
+  name: Culqi API v2 3DS Charges API
+  slug: open-culqi-charges-api
+- collection_type: open
+  name: Culqi API v2 3DS Customers API
+  slug: open-culqi-customers-api
+- collection_type: open
+  name: Culqi API v2 3DS Events API
+  slug: open-culqi-events-api
+- collection_type: open
+  name: Culqi API v2 3DS Iins API
+  slug: open-culqi-iins-api
+- collection_type: open
+  name: Culqi API v2 3DS Orders API
+  slug: open-culqi-orders-api
+- collection_type: open
+  name: Culqi API v2 3DS Plans API
+  slug: open-culqi-plans-api
+- collection_type: open
+  name: Culqi API v2 3DS Refunds API
+  slug: open-culqi-refunds-api
+- collection_type: open
+  name: Culqi API v2 3DS Subscriptions API
+  slug: open-culqi-subscriptions-api
+- collection_type: open
+  name: Culqi API v2 3DS Tokens API
+  slug: open-culqi-tokens-api
+- collection_type: open
+  name: Culqi API v2 3DS Transfers API
+  slug: open-culqi-transfers-api
 common:
 - group: build
   title: ''
@@ -313,7 +352,7 @@ plans:
 - name: Culqi Plans Pricing
   plan_count: 5
   slug: culqi-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 2
   name: Culqi Rate Limits
@@ -347,7 +386,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/screenshots/culqi-2026-07-25T210916.png
 security:

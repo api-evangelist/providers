@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,17 @@ apis:
 - description: The Version API from Apache Spark — 1 operation(s) for version.
   name: Apache Spark Version API
   slug: apache-spark-version-api
-artifact_total: 32
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Spark Monitoring REST Applications API
+  slug: open-apache-spark-applications-api
+- collection_type: open
+  name: Apache Spark Monitoring REST Applications Version API
+  slug: open-apache-spark-version-api
 - collection_type: open
   name: Apache Spark Monitoring REST API
   slug: open-apache-spark
@@ -188,7 +197,7 @@ plans:
 - name: Apache Spark Plans Pricing
   plan_count: 3
   slug: apache-spark-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Apache Spark Rate Limits
@@ -213,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/screenshots/apache-spark-2026-06-20T172146.png
 security:

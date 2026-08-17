@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -77,7 +77,50 @@ apis:
 - description: Trading endpoints
   name: Recall Labs Trade API
   slug: recall-labs-trade-api
-artifact_total: 17
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trading Simulator Admin API
+  slug: open-recall-labs-admin-api
+- collection_type: open
+  name: Trading Simulator Admin Agent API
+  slug: open-recall-labs-agent-api
+- collection_type: open
+  name: Trading Simulator Admin Agents API
+  slug: open-recall-labs-agents-api
+- collection_type: open
+  name: Trading Simulator Admin Arenas API
+  slug: open-recall-labs-arenas-api
+- collection_type: open
+  name: Trading Simulator Admin Auth API
+  slug: open-recall-labs-auth-api
+- collection_type: open
+  name: Trading Simulator Admin Competition API
+  slug: open-recall-labs-competition-api
+- collection_type: open
+  name: Trading Simulator Admin EigenAI API
+  slug: open-recall-labs-eigenai-api
+- collection_type: open
+  name: Trading Simulator Admin Health API
+  slug: open-recall-labs-health-api
+- collection_type: open
+  name: Trading Simulator Admin Leaderboard API
+  slug: open-recall-labs-leaderboard-api
+- collection_type: open
+  name: Trading Simulator Admin NFL API
+  slug: open-recall-labs-nfl-api
+- collection_type: open
+  name: Trading Simulator Admin Perpetual Futures API
+  slug: open-recall-labs-perpetual-futures-api
+- collection_type: open
+  name: Trading Simulator Admin Price API
+  slug: open-recall-labs-price-api
+- collection_type: open
+  name: Trading Simulator Admin Trade API
+  slug: open-recall-labs-trade-api
 common:
 - group: other
   title: ''
@@ -191,7 +234,7 @@ overview: 'Recall Labs publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Recall Labs'' developer surface includes documentation, API reference, engineering blog, changelog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 10
+random_paper: 47
 score:
   band: developing
   composite: 43.4
@@ -221,7 +264,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

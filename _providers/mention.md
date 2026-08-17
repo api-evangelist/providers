@@ -1,85 +1,120 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Contact Sales
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
-  trial: false
+  - https://mention.com/en/pricing/
+  - https://en.support.mention.com/en/articles/1904644-api-access-explained
+  trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-12'
+  score: 45.0
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 20
+- acting_count: 19
   human_in_the_loop: 0
   name: Mention Agentic Access
-  operation_count: 37
+  operation_count: 36
   slug: mention-agentic-access
-  summary_line: 37 operations · 20 acting
-api_count: 8
+  summary_line: 36 operations · 19 acting
+api_count: 9
 apis:
-- description: The Accounts API from Mention — 3 operation(s) for accounts.
+- description: The Accounts API from Mention — 5 operations for account CRUD and identity resolution — createAccount, getAccount, updateAccount, deleteAccount and getMe. An access token can only act on its own accou
   name: Mention Accounts API
   slug: mention-accounts-api
-- description: The Alerts API from Mention — 8 operation(s) for alerts.
+- description: The Alerts API from Mention — 8 operations for the standing keyword queries Mention crawls the web and social media for — list, create, read, update, pause and unpause an alert, plus the per-account n
   name: Mention Alerts API
   slug: mention-alerts-api
-- description: The Authors API from Mention — 1 operation(s) for authors.
+- description: The Authors API from Mention — 1 operation. listAuthors returns the authors and influencers behind an alert’s mentions with influence score, reach and the underlying social profile, filterable by kind
   name: Mention Authors API
   slug: mention-authors-api
-- description: The Mentions API from Mention — 6 operation(s) for mentions.
+- description: The Mentions API from Mention — 6 operations over the results an alert collects — list with an extensive filter surface, read one, read its grouped children, curate folder/tone/tags/read state, mark a
   name: Mention Mentions API
   slug: mention-mentions-api
-- description: The Shares API from Mention — 1 operation(s) for shares.
+- description: 'The Shares API from Mention — 5 operations over the join between an account and an alert. Share is the authorization primitive AND the lifecycle owner of an alert: deleting the last share deletes the '
   name: Mention Shares API
   slug: mention-shares-api
-- description: The Stats API from Mention — 1 operation(s) for stats.
+- description: The Stats API from Mention — 1 operation. getStats returns aggregate counters alert by alert over a date range and interval, with week-day, per-interval tone, country and influencer breakdowns, all ex
   name: Mention Stats API
   slug: mention-stats-api
-- description: The Tags API from Mention — 1 operation(s) for tags.
+- description: 'The Tags API from Mention — 4 operations for the labels scoped to an alert, including up to five auto-tagging keywords per tag that label incoming mentions automatically. Limits: 100 tags per alert, 2'
   name: Mention Tags API
   slug: mention-tags-api
-- description: The Tasks API from Mention — 1 operation(s) for tasks.
+- description: 'The Tasks API from Mention — 5 operations for the assignments created on a mention for team mates. assigned_to_account_id is fixed at creation; type, comment and done are updatable. A mention returns '
   name: Mention Tasks API
   slug: mention-tasks-api
-artifact_total: 14
+- description: 'The App API from Mention — 1 operation. GET /app/data returns the reference vocabularies every other Mention endpoint resolves its enumerated values against: alert sources, alert languages and countri'
+  name: Mention App API
+  slug: mention-app-api
+artifact_total: 27
 collections:
+- collection_type: open
+  name: Mention Accounts API
+  slug: open-mention-accounts-api
+- collection_type: open
+  name: Mention Alerts API
+  slug: open-mention-alerts-api
+- collection_type: open
+  name: Mention App API
+  slug: open-mention-app-api
+- collection_type: open
+  name: Mention Authors API
+  slug: open-mention-authors-api
+- collection_type: open
+  name: Mention Mentions API
+  slug: open-mention-mentions-api
+- collection_type: open
+  name: Mention Shares API
+  slug: open-mention-shares-api
+- collection_type: open
+  name: Mention Stats API
+  slug: open-mention-stats-api
+- collection_type: open
+  name: Mention Tags API
+  slug: open-mention-tags-api
+- collection_type: open
+  name: Mention Tasks API
+  slug: open-mention-tasks-api
 - collection_type: open
   name: Mention API
   slug: open-mention
 common:
-- group: agent
+- group: start
   title: ''
-  type: AgenticAccess
-  url: agentic-access/mention-agentic-access.yml
-- group: auth
+  type: DeveloperPortal
+  url: https://dev.mention.com/current/
+- group: docs
   title: ''
-  type: DomainSecurity
-  url: security/mention-domain-security.yml
-- group: company
+  type: Documentation
+  url: https://dev.mention.com/current/src/index.html
+- group: docs
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/mention
+  type: APIReference
+  url: https://dev.mention.com/current/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://dev.mention.com/current/src/guidelines/Clients.html
 - group: start
   title: ''
   type: Portal
@@ -88,18 +123,6 @@ common:
   title: ''
   type: Website
   url: https://mention.com/
-- group: start
-  title: ''
-  type: Signup
-  url: https://mention.com/en/pricing/
-- group: start
-  title: ''
-  type: Login
-  url: https://app.mention.com/login
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://mention.com/en/pricing/
 - group: operate
   title: ''
   type: Support
@@ -108,42 +131,155 @@ common:
   title: ''
   type: Blog
   url: https://mention.com/en/blog/feed/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/mentionapp
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/mention
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://mention.com/en/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://social.agorapulse.com/mention-trial
+- group: start
+  title: ''
+  type: Login
+  url: https://web.mention.com/#login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://mention.com/en/terms-and-conditions/#general-terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://mention.com/en/terms-and-conditions/#privacy-policy
+- group: auth
+  title: ''
+  type: Security
+  url: https://mention.com/en/terms-and-conditions/#security-policy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://mention.com/en/terms-and-conditions/#security-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.mention.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/mention-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mention-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mention-conventions.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/mention-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/mention-scopes.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mention-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/mention-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/mention-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/mention-finops.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mention-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mention-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mention-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mention-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/mention-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/mention-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/mention-vulnerability-disclosure.yml
 created: '2026-03-16'
-description: Mention is a media monitoring and social listening platform that monitors over one billion sources in real-time across 42 languages. Its JSON-based RESTful API gives developers programmatic access to alerts, mentions, streaming data, and account management features.
+description: Mention is a media monitoring and social listening platform that watches over one billion sources in real time across 42 languages, covering social networks, news, blogs, forums, video and 75+ review sites. Its JSON-based RESTful API, documented at dev.mention.com, gives developers programmatic access to alerts (the standing keyword queries Mention crawls for), the mentions those alerts collect, curation by folder/tone/tag, mention tasks assigned to team mates, alert sharing and permissions, authors and influencer scoring, aggregate statistics, and a long-lived streaming endpoint for real-time delivery. Authentication is a bearer token obtained from a registered app or through an OAuth2 authorization-code flow, and the API version is selected per request with an Accept-Version header. Mention is sold by Agorapulse SAS; API access is a paid add-on rather than an included capability of the published plan.
 finops:
 - name: Mention Finops
   service_category: API
   slug: mention-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mention.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Mention
 nav: Providers
 network: true
-overview: 'Mention publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, Authors API, and 5 more. Tagged areas include Alerts, Brand Monitoring, Media Monitoring, and Social Listening.
+overview: 'Mention publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, Authors API, and 6 more. Tagged areas include Alerts, Brand Monitoring, Media Monitoring, Social Listening, and Social Media.
 
 
-  Mention''s developer surface includes developer portal, signup flow, pricing, support, engineering blog, and 5 more developer resources.'
+  Mention''s developer surface includes documentation, API reference, getting-started guide, developer portal, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Mention Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: mention-plans-pricing
-random_paper: 42
+random_paper: 17
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Mention Rate Limits
   slug: mention-rate-limits
+scopes:
+- name: Mention Scopes
+  scope_count: 0
+  slug: mention-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 30.2
-  delta: 0.0
+  band: strong
+  composite: 57.4
+  delta: 27.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 47.0
-    developer_ergonomics: 15.2
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 7.9
+    commercial_clarity: 65.8
+    contract_quality: 60.0
+    developer_ergonomics: 58.7
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 52.6
   previous_composite: 30.2
   provenance:
     agentic_access: derived
@@ -153,19 +289,34 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/screenshots/mention-2026-06-20T185146.png
 security:
+- kind: authentication
+  name: Mention Authentication
+  slug: mention-authentication
+  summary_line: http/apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Mention Domain Security
   slug: mention-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Mention Vulnerability Disclosure
+  slug: mention-vulnerability-disclosure
+  summary_line: Hackerone
 slug: mention
 tags:
 - Alerts
 - Brand Monitoring
 - Media Monitoring
 - Social Listening
+- Social Media
+- Sentiment Analysis
+- Reputation Management
+- Influencer Marketing
+- Competitive Intelligence
+- Streaming
+- Marketing
 website: https://mention.com/
 ---

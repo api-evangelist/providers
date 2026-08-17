@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Wallet and bank account registration Every wallet address that interacts with Iron must be registered (linked) to a customer **before** it can be used in any flow — onramp, offramp, or swap. This is a
@@ -58,7 +58,7 @@ apis:
 - description: Operations on Webhooks
   name: Unstoppable Finance (Iron) Webhooks API
   slug: unstoppable-finance-webhooks-api
-artifact_total: 24
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Unstoppable Finance Webhooks
@@ -91,6 +91,36 @@ collections:
 - collection_type: postman
   name: Iron API - Sandbox Addresses Webhooks API
   slug: postman-unstoppable-finance-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Iron API - Sandbox Addresses API
+  slug: open-unstoppable-finance-addresses-api
+- collection_type: open
+  name: Iron API - Sandbox Addresses Autoramp API
+  slug: open-unstoppable-finance-autoramp-api
+- collection_type: open
+  name: Iron API - Sandbox Addresses Currencies API
+  slug: open-unstoppable-finance-currencies-api
+- collection_type: open
+  name: Iron API - Sandbox Addresses Customer API
+  slug: open-unstoppable-finance-customer-api
+- collection_type: open
+  name: Iron API - Sandbox Addresses ExchangeRate API
+  slug: open-unstoppable-finance-exchangerate-api
+- collection_type: open
+  name: Iron API - Sandbox Addresses FeeProfiles API
+  slug: open-unstoppable-finance-feeprofiles-api
+- collection_type: open
+  name: Iron API - Addresses Sandbox API
+  slug: open-unstoppable-finance-sandbox-api
+- collection_type: open
+  name: Iron API - Sandbox Addresses TermsAndConditions API
+  slug: open-unstoppable-finance-termsandconditions-api
+- collection_type: open
+  name: Iron API - Sandbox Addresses Webhooks API
+  slug: open-unstoppable-finance-webhooks-api
 common:
 - group: build
   title: ''
@@ -239,7 +269,7 @@ overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://
 
 
   Unstoppable Finance (Iron)''s developer surface includes documentation, getting-started guide, authentication, sandbox, CLI, support, pricing, and 25 more developer resources.'
-random_paper: 46
+random_paper: 29
 score:
   band: developing
   composite: 55.4
@@ -268,7 +298,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

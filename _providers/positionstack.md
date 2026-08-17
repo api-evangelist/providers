@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,11 +58,23 @@ arazzos:
 - description: Reverse geocode a coordinate pair with country, timezone, and sun modules to build a full place profile.
   name: positionstack Reverse Geocode Enriched Place Profile
   slug: positionstack-reverse-enrich-place-workflow
-artifact_total: 54
+artifact_total: 58
 collections:
 - collection_type: postman
   name: positionstack
   slug: postman-positionstack
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: positionstack Batch Geocoding API
+  slug: open-positionstack-batch-geocoding-api
+- collection_type: open
+  name: positionstack Batch Geocoding Forward Geocoding API
+  slug: open-positionstack-forward-geocoding-api
+- collection_type: open
+  name: positionstack Batch Geocoding Reverse Geocoding API
+  slug: open-positionstack-reverse-geocoding-api
 - collection_type: open
   name: positionstack
   slug: open-positionstack
@@ -265,7 +277,7 @@ plans:
 - name: Positionstack Plans Pricing
   plan_count: 5
   slug: positionstack-plans-pricing
-random_paper: 99
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Positionstack Rate Limits
@@ -307,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/screenshots/positionstack-2026-06-20T191943.png
 security:

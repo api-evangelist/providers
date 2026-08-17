@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -61,7 +61,7 @@ apis:
 - description: Databento OpenAPI specification from Databento — 158 path(s) described in OpenAPI.
   name: Databento OpenAPI specification
   slug: databento-platform-openapi-official
-artifact_total: 21
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Databento Historical and Reference Batch API
@@ -78,6 +78,27 @@ collections:
 - collection_type: postman
   name: Databento Historical and Reference Batch Timeseries API
   slug: postman-databento-timeseries-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Databento Historical and Reference Batch API
+  slug: open-databento-batch-api
+- collection_type: open
+  name: Databento Historical and Reference Batch Metadata API
+  slug: open-databento-metadata-api
+- collection_type: open
+  name: Databento OpenAPI specification
+  slug: open-databento-platform-openapi-official
+- collection_type: open
+  name: Databento Historical and Batch Reference API
+  slug: open-databento-reference-api
+- collection_type: open
+  name: Databento Historical and Reference Batch Symbology API
+  slug: open-databento-symbology-api
+- collection_type: open
+  name: Databento Historical and Reference Batch Timeseries API
+  slug: open-databento-timeseries-api
 - collection_type: open
   name: Databento Historical and Reference API
   slug: open-databento
@@ -262,7 +283,7 @@ plans:
 - name: Databento Plans Pricing
   plan_count: 5
   slug: databento-plans-pricing
-random_paper: 106
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Databento Rate Limits
@@ -301,7 +322,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png
 security:

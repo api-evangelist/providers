@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 4
@@ -99,7 +99,68 @@ apis:
 - description: The Search Member Shared Print Holdings API from WorldCat — 1 operation(s) for search member shared print holdings.
   name: WorldCat Search Member Shared Print Holdings API
   slug: worldcat-search-member-shared-print-holdings-api
-artifact_total: 33
+artifact_total: 53
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources API
+  slug: open-worldcat-bibliographic-resources-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Local Bib Resources API
+  slug: open-worldcat-local-bib-resources-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Local Holdings Resources API
+  slug: open-worldcat-local-holdings-resources-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Manage Bibliographic Records API
+  slug: open-worldcat-manage-bibliographic-records-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Manage Institution API
+  slug: open-worldcat-manage-institution-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Manage Local Bibliographic Data API
+  slug: open-worldcat-manage-local-bibliographic-data-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Manage Local Holdings Records API
+  slug: open-worldcat-manage-local-holdings-records-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Member Enabled Collections API
+  slug: open-worldcat-member-enabled-collections-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Member Enabled Providers API
+  slug: open-worldcat-member-enabled-providers-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Member Enabled Title by OpenURL API
+  slug: open-worldcat-member-enabled-title-by-openurl-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Member Enabled Titles API
+  slug: open-worldcat-member-enabled-titles-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Member Enabled Titles by OpenURL API
+  slug: open-worldcat-member-enabled-titles-by-openurl-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Member General Holdings API
+  slug: open-worldcat-member-general-holdings-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Member Shared Print Holdings API
+  slug: open-worldcat-member-shared-print-holdings-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Retrieve entity API
+  slug: open-worldcat-retrieve-entity-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Search Bibliographic Resources API
+  slug: open-worldcat-search-bibliographic-resources-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Search Local Holdings Resources API
+  slug: open-worldcat-search-local-holdings-resources-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Search Member General Holdings API
+  slug: open-worldcat-search-member-general-holdings-api
+- collection_type: open
+  name: WorldCat Entity Data Bibliographic Resources Search Member Shared Print Holdings API
+  slug: open-worldcat-search-member-shared-print-holdings-api
 common:
 - group: agent
   title: ''
@@ -202,7 +263,7 @@ plans:
 - name: Worldcat Plans Pricing
   plan_count: 4
   slug: worldcat-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 4
   name: Worldcat Rate Limits
@@ -241,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/screenshots/worldcat-2026-06-20T201621.png
 security:

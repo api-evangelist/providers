@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -57,8 +57,29 @@ apis:
 - description: Organisation account details and balance.
   name: eSIM Go Organisation API
   slug: esimgo-organisation-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: eSIM Go Catalogue API
+  slug: open-esimgo-catalogue-api
+- collection_type: open
+  name: eSIM Go Catalogue eSIMs API
+  slug: open-esimgo-esims-api
+- collection_type: open
+  name: eSIM Go Catalogue Inventory API
+  slug: open-esimgo-inventory-api
+- collection_type: open
+  name: eSIM Go Catalogue Networks API
+  slug: open-esimgo-networks-api
+- collection_type: open
+  name: eSIM Go Catalogue Orders API
+  slug: open-esimgo-orders-api
+- collection_type: open
+  name: eSIM Go Catalogue Organisation API
+  slug: open-esimgo-organisation-api
 - collection_type: open
   name: eSIM Go API
   slug: open-esimgo
@@ -119,7 +140,7 @@ plans:
 - name: Esimgo Plans Pricing
   plan_count: 4
   slug: esimgo-plans-pricing
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Esimgo Rate Limits
@@ -150,7 +171,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/screenshots/esimgo-2026-07-25T213621.png
 security:

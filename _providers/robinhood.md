@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Supported crypto trading pairs and their constraints.
   name: Robinhood Trading Pairs API
   slug: robinhood-trading-pairs-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Robinhood Crypto Trading Account API
+  slug: open-robinhood-account-api
+- collection_type: open
+  name: Robinhood Crypto Trading Account Holdings API
+  slug: open-robinhood-holdings-api
+- collection_type: open
+  name: Robinhood Crypto Trading Account Market Data API
+  slug: open-robinhood-market-data-api
+- collection_type: open
+  name: Robinhood Crypto Trading Account Orders API
+  slug: open-robinhood-orders-api
+- collection_type: open
+  name: Robinhood Crypto Trading Account Trading Pairs API
+  slug: open-robinhood-trading-pairs-api
 common:
 - group: auth
   title: ''
@@ -183,7 +202,7 @@ overview: 'Robinhood publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Robinhood''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 4
+random_paper: 70
 score:
   band: developing
   composite: 46.8
@@ -213,7 +232,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

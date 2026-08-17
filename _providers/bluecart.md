@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -54,8 +54,26 @@ apis:
 - description: Manage platform users and their roles and notifications.
   name: BlueCart Users API
   slug: bluecart-users-api
-artifact_total: 72
+artifact_total: 78
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BlueCart Catalogs API
+  slug: open-bluecart-catalogs-api
+- collection_type: open
+  name: BlueCart Catalogs Clients API
+  slug: open-bluecart-clients-api
+- collection_type: open
+  name: BlueCart Catalogs Orders API
+  slug: open-bluecart-orders-api
+- collection_type: open
+  name: BlueCart Catalogs Products API
+  slug: open-bluecart-products-api
+- collection_type: open
+  name: BlueCart Catalogs Users API
+  slug: open-bluecart-users-api
 - collection_type: open
   name: BlueCart API
   slug: open-bluecart
@@ -330,7 +348,7 @@ plans:
 - name: Bluecart Plans Pricing
   plan_count: 3
   slug: bluecart-plans-pricing
-random_paper: 10
+random_paper: 105
 rate_limits:
 - limit_count: 3
   name: Bluecart Rate Limits
@@ -372,7 +390,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/screenshots/bluecart-2026-06-20T173530.png
 security:

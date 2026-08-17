@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -108,7 +108,7 @@ apis:
 - description: Manage server-level and application-level substitution variables
   name: Oracle Essbase Variables API
   slug: oracle-essbase-variables-api
-artifact_total: 88
+artifact_total: 108
 collections:
 - collection_type: postman
   name: Oracle Essbase REST Application Configuration API
@@ -168,8 +168,68 @@ collections:
   name: Oracle Essbase REST Application Configuration Variables API
   slug: postman-oracle-essbase-variables-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration API
+  slug: open-oracle-essbase-application-configuration-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Applications API
+  slug: open-oracle-essbase-applications-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Connections API
+  slug: open-oracle-essbase-connections-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Databases API
+  slug: open-oracle-essbase-databases-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Dimensions API
+  slug: open-oracle-essbase-dimensions-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Files API
+  slug: open-oracle-essbase-files-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Filters API
+  slug: open-oracle-essbase-filters-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Groups API
+  slug: open-oracle-essbase-groups-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Jobs API
+  slug: open-oracle-essbase-jobs-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Locks API
+  slug: open-oracle-essbase-locks-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Partitions API
+  slug: open-oracle-essbase-partitions-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Reports API
+  slug: open-oracle-essbase-reports-api
+- collection_type: open
   name: Oracle Essbase REST API
   slug: open-oracle-essbase-rest-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Roles API
+  slug: open-oracle-essbase-roles-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Scripts API
+  slug: open-oracle-essbase-scripts-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Server API
+  slug: open-oracle-essbase-server-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Sessions API
+  slug: open-oracle-essbase-sessions-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration User Session API
+  slug: open-oracle-essbase-user-session-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Users API
+  slug: open-oracle-essbase-users-api
+- collection_type: open
+  name: Oracle Essbase REST Application Configuration Variables API
+  slug: open-oracle-essbase-variables-api
 common:
 - group: build
   title: ''
@@ -400,7 +460,7 @@ plans:
 - name: Oracle Essbase Plans Pricing
   plan_count: 2
   slug: oracle-essbase-plans-pricing
-random_paper: 97
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Oracle Essbase Rate Limits
@@ -434,7 +494,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-essbase/refs/heads/main/screenshots/oracle-essbase-2026-06-20T191127.png
 security:

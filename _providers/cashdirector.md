@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'CashDirector is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   CashDirector''s developer surface includes support and 4 more developer resources.'
-random_paper: 75
+random_paper: 83
 score:
   band: minimal
   composite: 9.3
@@ -83,7 +83,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashdirector/refs/heads/main/screenshots/cashdirector-2026-07-25T204721.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -77,8 +77,47 @@ apis:
 - description: The Workspaces API from Hive — 15 operation(s) for workspaces.
   name: Hive Workspaces API
   slug: hive-workspaces-api
-artifact_total: 17
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hive Public Actions API
+  slug: open-hive-actions-api
+- collection_type: open
+  name: Hive Public Actions Agile Sprints API
+  slug: open-hive-agile-sprints-api
+- collection_type: open
+  name: Hive Public Actions Dashboard Widgets API
+  slug: open-hive-dashboard-widgets-api
+- collection_type: open
+  name: Hive Public Actions Form Submissions API
+  slug: open-hive-form-submissions-api
+- collection_type: open
+  name: Hive Public Actions Messages API
+  slug: open-hive-messages-api
+- collection_type: open
+  name: Hive Public Actions Projects API
+  slug: open-hive-projects-api
+- collection_type: open
+  name: Hive Public Actions Resource Assignments API
+  slug: open-hive-resource-assignments-api
+- collection_type: open
+  name: Hive Public Actions Teams API
+  slug: open-hive-teams-api
+- collection_type: open
+  name: Hive Public Actions Users API
+  slug: open-hive-users-api
+- collection_type: open
+  name: Hive Public Actions Webhooks API
+  slug: open-hive-webhooks-api
+- collection_type: open
+  name: Hive Public Actions Workflows API
+  slug: open-hive-workflows-api
+- collection_type: open
+  name: Hive Public Actions Workspaces API
+  slug: open-hive-workspaces-api
 - collection_type: open
   name: Hive Public API
   slug: open-hive
@@ -143,7 +182,7 @@ overview: 'Hive publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hive''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, pricing, support, and 5 more developer resources.'
-random_paper: 68
+random_paper: 130
 score:
   band: thin
   composite: 33.2
@@ -164,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/screenshots/hive-2026-06-20T182800.png
 security:

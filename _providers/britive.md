@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 79
 apis:
 - description: The Britive Secret Manager API covers the Britive vault and secrets lifecycle — vault initialization, static and file secrets, secret versions, secret metadata, password policies, secret templates and
@@ -258,11 +258,249 @@ apis:
 - description: Manage service identity association to identity provider
   name: Britive Workload Service Identity Providers API
   slug: britive-workload-service-identity-providers-api
-artifact_total: 84
+artifact_total: 163
 asyncapis:
 - description: ''
   name: Britive Events Webhooks
   slug: britive-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Britive Services API Documentation Access Request Tag Membership API
+  slug: open-britive-access-request-tag-membership-api
+- collection_type: open
+  name: Britive Services API Documentation API Tokens API
+  slug: open-britive-api-tokens-api
+- collection_type: open
+  name: Britive Services API Documentation Application Environments - Accounts API
+  slug: open-britive-application-environments-accounts-api
+- collection_type: open
+  name: Britive Services API Documentation Application Environments API
+  slug: open-britive-application-environments-api
+- collection_type: open
+  name: Britive Services API Documentation Application Profiles - Advanced Settings API
+  slug: open-britive-application-profiles-advanced-settings-api
+- collection_type: open
+  name: Britive Services API Documentation Application Profiles API
+  slug: open-britive-application-profiles-api
+- collection_type: open
+  name: Britive Services API Documentation Application Profiles - Permission Constraint Manager API
+  slug: open-britive-application-profiles-permission-constraint-manager-api
+- collection_type: open
+  name: Britive Services API Documentation Application Profiles - Permissions API
+  slug: open-britive-application-profiles-permissions-api
+- collection_type: open
+  name: Britive Services API Documentation Application Profiles - Policies API
+  slug: open-britive-application-profiles-policies-api
+- collection_type: open
+  name: Britive Services API Documentation Application Profiles - Scopes API
+  slug: open-britive-application-profiles-scopes-api
+- collection_type: open
+  name: Britive Services API Documentation Application Profiles - Session Attributes API
+  slug: open-britive-application-profiles-session-attributes-api
+- collection_type: open
+  name: Britive Services API Documentation Application Profiles - Sessions API
+  slug: open-britive-application-profiles-sessions-api
+- collection_type: open
+  name: Britive Services API Documentation Application Profiles - Users and Tags API
+  slug: open-britive-application-profiles-users-and-tags-api
+- collection_type: open
+  name: Britive Services API Documentation Applications - Access Builder Settings API
+  slug: open-britive-applications-access-builder-settings-api
+- collection_type: open
+  name: Britive Services API Documentation Applications - Advanced Settings API
+  slug: open-britive-applications-advanced-settings-api
+- collection_type: open
+  name: Britive Services API Documentation Applications API
+  slug: open-britive-applications-api
+- collection_type: open
+  name: Britive Services API Documentation Applications - Approvers Groups API
+  slug: open-britive-applications-approvers-groups-api
+- collection_type: open
+  name: Britive Services API Documentation Applications - Association Approvers API
+  slug: open-britive-applications-association-approvers-api
+- collection_type: open
+  name: Britive Services API Documentation Applications - Managed Permissions API
+  slug: open-britive-applications-managed-permissions-api
+- collection_type: open
+  name: Britive Services API Documentation Applications - Permissions API
+  slug: open-britive-applications-permissions-api
+- collection_type: open
+  name: Britive Services API Documentation Applications - Root Environment Groups API
+  slug: open-britive-applications-root-environment-groups-api
+- collection_type: open
+  name: Britive Services API Documentation Applications - Scans API
+  slug: open-britive-applications-scans-api
+- collection_type: open
+  name: Secret Manager Approvals API
+  slug: open-britive-approvals-api
+- collection_type: open
+  name: Britive Services API Documentation Audit Log Webhooks API
+  slug: open-britive-audit-log-webhooks-api
+- collection_type: open
+  name: Britive Services API Documentation Audit Logs API
+  slug: open-britive-audit-logs-api
+- collection_type: open
+  name: Britive Services API Documentation Custom App Manager API
+  slug: open-britive-custom-app-manager-api
+- collection_type: open
+  name: Britive Services API Documentation Custom App Template Uploader API
+  slug: open-britive-custom-app-template-uploader-api
+- collection_type: open
+  name: Britive Services API Documentation Global Landing Page API
+  slug: open-britive-global-landing-page-api
+- collection_type: open
+  name: Britive Services API Documentation Identity Providers API
+  slug: open-britive-identity-providers-api
+- collection_type: open
+  name: Britive Services API Documentation IM Connection Metadata API
+  slug: open-britive-im-connection-metadata-api
+- collection_type: open
+  name: Britive Services API Documentation IM Connections API
+  slug: open-britive-im-connections-api
+- collection_type: open
+  name: Britive Services API Documentation IM Integration API
+  slug: open-britive-im-integration-api
+- collection_type: open
+  name: Britive Services API Documentation IP Restrictions API
+  slug: open-britive-ip-restrictions-api
+- collection_type: open
+  name: Britive Services API Documentation ITSM Connection Metadata API
+  slug: open-britive-itsm-connection-metadata-api
+- collection_type: open
+  name: Britive Services API Documentation ITSM Connections API
+  slug: open-britive-itsm-connections-api
+- collection_type: open
+  name: Britive Services API Documentation ITSM Integration API
+  slug: open-britive-itsm-integration-api
+- collection_type: open
+  name: Britive Services API Documentation Multi Factor Authentication API
+  slug: open-britive-multi-factor-authentication-api
+- collection_type: open
+  name: Britive Services API Documentation My Access API
+  slug: open-britive-my-access-api
+- collection_type: open
+  name: Britive Services API Documentation My Devices API
+  slug: open-britive-my-devices-api
+- collection_type: open
+  name: Britive Services API Documentation My Resources API
+  slug: open-britive-my-resources-api
+- collection_type: open
+  name: Britive Services API Documentation My Resources - Integration API
+  slug: open-britive-my-resources-integration-api
+- collection_type: open
+  name: Britive Services API Documentation My Resources - Profiles API
+  slug: open-britive-my-resources-profiles-api
+- collection_type: open
+  name: Secret Manager Notification Service API
+  slug: open-britive-notification-service-api
+- collection_type: open
+  name: Britive Services API Documentation Notifications API
+  slug: open-britive-notifications-api
+- collection_type: open
+  name: Secret Manager Policy Administration API
+  slug: open-britive-policy-administration-api
+- collection_type: open
+  name: Britive Services API Documentation Profile Requests - Managed Permissions API
+  slug: open-britive-profile-requests-managed-permissions-api
+- collection_type: open
+  name: Britive Services API Documentation Reports API
+  slug: open-britive-reports-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Manager API
+  slug: open-britive-resource-manager-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Manager - Labels API
+  slug: open-britive-resource-manager-labels-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Manager - Permissions API
+  slug: open-britive-resource-manager-permissions-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Manager - Policies API
+  slug: open-britive-resource-manager-policies-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Manager - Response Templates API
+  slug: open-britive-resource-manager-response-templates-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Manager - Types API
+  slug: open-britive-resource-manager-types-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Profiles - Advanced Settings API
+  slug: open-britive-resource-profiles-advanced-settings-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Profiles API
+  slug: open-britive-resource-profiles-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Profiles - Associations API
+  slug: open-britive-resource-profiles-associations-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Profiles - Permissions API
+  slug: open-britive-resource-profiles-permissions-api
+- collection_type: open
+  name: Britive Services API Documentation Resource Profiles - Policies API
+  slug: open-britive-resource-profiles-policies-api
+- collection_type: open
+  name: Britive Services API Documentation SAML Configuration API
+  slug: open-britive-saml-configuration-api
+- collection_type: open
+  name: Secret Manager Secret Rotation API
+  slug: open-britive-secret-rotation-api
+- collection_type: open
+  name: Secret Manager Secrets Manager API
+  slug: open-britive-secrets-manager-api
+- collection_type: open
+  name: Britive Services API Documentation Shared Signals - Catalog API
+  slug: open-britive-shared-signals-catalog-api
+- collection_type: open
+  name: Britive Services API Documentation Shared Signals - Issuers API
+  slug: open-britive-shared-signals-issuers-api
+- collection_type: open
+  name: Britive Services API Documentation Shared Signals - Receivers API
+  slug: open-britive-shared-signals-receivers-api
+- collection_type: open
+  name: Britive Services API Documentation Shared Signals - Results API
+  slug: open-britive-shared-signals-results-api
+- collection_type: open
+  name: Britive Services API Documentation Step Up Authentication API
+  slug: open-britive-step-up-authentication-api
+- collection_type: open
+  name: Britive Services API Documentation System Announcements API
+  slug: open-britive-system-announcements-api
+- collection_type: open
+  name: Britive Services API Documentation Tag Access Request Settings API
+  slug: open-britive-tag-access-request-settings-api
+- collection_type: open
+  name: Britive Services API Documentation Tag Access Requests API
+  slug: open-britive-tag-access-requests-api
+- collection_type: open
+  name: Britive Services API Documentation Task Scheduler API
+  slug: open-britive-task-scheduler-api
+- collection_type: open
+  name: Britive Services API Documentation User Identity Attributes API
+  slug: open-britive-user-identity-attributes-api
+- collection_type: open
+  name: Britive Services API Documentation User Resources API
+  slug: open-britive-user-resources-api
+- collection_type: open
+  name: Britive Services API Documentation User Tag Owner API
+  slug: open-britive-user-tag-owner-api
+- collection_type: open
+  name: Britive Services API Documentation User Tags API
+  slug: open-britive-user-tags-api
+- collection_type: open
+  name: Britive Services API Documentation Users, Service Identities and AI Identities API
+  slug: open-britive-users-service-identities-and-ai-identities-api
+- collection_type: open
+  name: Britive Services API Documentation Workload Identity Providers API
+  slug: open-britive-workload-identity-providers-api
+- collection_type: open
+  name: Britive Services API Documentation Workload SCIM Identity Providers API
+  slug: open-britive-workload-scim-identity-providers-api
+- collection_type: open
+  name: Britive Services API Documentation Workload Service Identity Providers API
+  slug: open-britive-workload-service-identity-providers-api
 common:
 - group: operate
   title: ''
@@ -407,7 +645,7 @@ overview: 'Britive publishes 78 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Britive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 24 more developer resources.'
-random_paper: 37
+random_paper: 12
 scopes:
 - name: Britive Scopes
   scope_count: 0
@@ -435,7 +673,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

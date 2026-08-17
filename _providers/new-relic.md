@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ arazzos:
 - description: Resolve a policy by name, update it, then update one of its conditions.
   name: New Relic Update Policy And Condition
   slug: new-relic-update-policy-and-condition-workflow
-artifact_total: 957
+artifact_total: 987
 asyncapis:
 - description: Describes New Relic's documented event-driven and streaming surfaces. New Relic does not publish a customer-facing WebSocket or Server-Sent Events streaming endpoint, and the NerdGraph GraphQL API doe
   name: New Relic Streaming and Event-Driven Surfaces
@@ -245,17 +245,107 @@ collections:
   name: New Relic
   slug: postman-new-relic
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: New Relic Event Alerts API
+  slug: open-new-relic-alerts-api
+- collection_type: open
+  name: New Relic Event Alerts Applications API
+  slug: open-new-relic-applications-api
+- collection_type: open
+  name: New Relic Event Alerts Channel API
+  slug: open-new-relic-channel-api
+- collection_type: open
+  name: New Relic Event Alerts Channels API
+  slug: open-new-relic-channels-api
+- collection_type: open
+  name: New Relic Event Alerts Condition API
+  slug: open-new-relic-condition-api
+- collection_type: open
+  name: New Relic Event Alerts Conditions API
+  slug: open-new-relic-conditions-api
+- collection_type: open
+  name: New Relic Event Alerts Data API
+  slug: open-new-relic-data-api
+- collection_type: open
+  name: New Relic Event Alerts Delete API
+  slug: open-new-relic-delete-api
+- collection_type: open
+  name: New Relic Event Alerts Deployments API
+  slug: open-new-relic-deployments-api
+- collection_type: open
+  name: New Relic Event Alerts Entity API
+  slug: open-new-relic-entity-api
+- collection_type: open
   name: New Relic Event API
   slug: open-new-relic-event-api
+- collection_type: open
+  name: New Relic Event Alerts Events API
+  slug: open-new-relic-events-api
+- collection_type: open
+  name: New Relic Event Alerts External API
+  slug: open-new-relic-external-api
+- collection_type: open
+  name: New Relic Event Alerts Failure API
+  slug: open-new-relic-failure-api
+- collection_type: open
+  name: New Relic Event Alerts Get API
+  slug: open-new-relic-get-api
+- collection_type: open
+  name: New Relic Event Alerts Hosts API
+  slug: open-new-relic-hosts-api
+- collection_type: open
+  name: New Relic Event Alerts Identifiers API
+  slug: open-new-relic-identifiers-api
+- collection_type: open
+  name: New Relic Event Alerts Instance API
+  slug: open-new-relic-instance-api
+- collection_type: open
+  name: New Relic Event Alerts Instances API
+  slug: open-new-relic-instances-api
+- collection_type: open
+  name: New Relic Event Alerts Keys API
+  slug: open-new-relic-keys-api
+- collection_type: open
+  name: New Relic Event Alerts Location API
+  slug: open-new-relic-location-api
 - collection_type: open
   name: New Relic Log API
   slug: open-new-relic-log-api
 - collection_type: open
+  name: New Relic Event Alerts Logs API
+  slug: open-new-relic-logs-api
+- collection_type: open
   name: New Relic Metric API
   slug: open-new-relic-metric-api
 - collection_type: open
+  name: New Relic Event Alerts Metrics API
+  slug: open-new-relic-metrics-api
+- collection_type: open
+  name: New Relic Event Alerts Mobile API
+  slug: open-new-relic-mobile-api
+- collection_type: open
+  name: New Relic Event Alerts Policies API
+  slug: open-new-relic-policies-api
+- collection_type: open
+  name: New Relic Event Alerts Post API
+  slug: open-new-relic-post-api
+- collection_type: open
+  name: New Relic Event Alerts Put API
+  slug: open-new-relic-put-api
+- collection_type: open
   name: New Relic Trace API
   slug: open-new-relic-trace-api
+- collection_type: open
+  name: New Relic Event Alerts Traces API
+  slug: open-new-relic-traces-api
+- collection_type: open
+  name: New Relic Event Alerts Transactions API
+  slug: open-new-relic-transactions-api
+- collection_type: open
+  name: New Relic Event Alerts Violations API
+  slug: open-new-relic-violations-api
 - collection_type: open
   name: New Relic
   slug: open-new-relic
@@ -3169,7 +3259,7 @@ plans:
 - name: New Relic Plans Pricing
   plan_count: 4
   slug: new-relic-plans-pricing
-random_paper: 62
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: New Relic Rate Limits
@@ -3219,7 +3309,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/screenshots/new-relic-2026-06-20T190230.png
 security:

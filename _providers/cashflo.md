@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Ingest API from CashFlo — 3 operation(s) for ingest.
   name: CashFlo Ingest API
   slug: cashflo-ingest-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cashflo Data Ingestion API Documentation Ingest API
+  slug: open-cashflo-ingest-api
 common:
 - group: agent
   title: ''
@@ -128,7 +135,7 @@ overview: 'CashFlo publishes 1 API on the [APIs.io](https://apis.io/) network: I
 
 
   CashFlo''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 14 more developer resources.'
-random_paper: 16
+random_paper: 140
 score:
   band: thin
   composite: 40.9
@@ -157,7 +164,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/screenshots/cashflo-2026-07-25T204721.png
 security:

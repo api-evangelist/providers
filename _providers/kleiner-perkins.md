@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Kleiner Perkins
 nav: Providers
 network: true
-random_paper: 115
+random_paper: 65
 slug: kleiner-perkins
 tags:
 - Venture Capital

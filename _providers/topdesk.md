@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for managing TOPdesk incidents, changes, assets, persons, operators, locations, and other service management resources. Authentication uses application passwords (HTTP Basic) created per TOPd
@@ -91,7 +91,7 @@ overview: 'TOPdesk publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   TOPdesk''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 42
+random_paper: 17
 score:
   band: emerging
   composite: 15.3
@@ -105,7 +105,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/topdesk/refs/heads/main/screenshots/topdesk-2026-06-20T195453.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Agents API from Beyond Presence — 2 operation(s) for agents.
@@ -53,7 +53,7 @@ apis:
 - description: The Sessions API from Beyond Presence — 2 operation(s) for sessions.
   name: Beyond Presence Sessions API
   slug: beyond-presence-sessions-api
-artifact_total: 19
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Beyond Presence Webhooks
@@ -80,6 +80,30 @@ collections:
 - collection_type: postman
   name: Fast Agents Sessions API
   slug: postman-beyond-presence-sessions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast Agents API
+  slug: open-beyond-presence-agents-api
+- collection_type: open
+  name: Fast Agents Authentication API
+  slug: open-beyond-presence-authentication-api
+- collection_type: open
+  name: Fast Agents Avatars API
+  slug: open-beyond-presence-avatars-api
+- collection_type: open
+  name: Fast Agents Calls API
+  slug: open-beyond-presence-calls-api
+- collection_type: open
+  name: Fast Agents External APIs API
+  slug: open-beyond-presence-external-apis-api
+- collection_type: open
+  name: Fast Agents Knowledge Files API
+  slug: open-beyond-presence-knowledge-files-api
+- collection_type: open
+  name: Fast Agents Sessions API
+  slug: open-beyond-presence-sessions-api
 common:
 - group: build
   title: ''
@@ -232,7 +256,7 @@ overview: 'Beyond Presence publishes 7 APIs on the [APIs.io](https://apis.io/) n
 
 
   Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 99
+random_paper: 49
 score:
   band: strong
   composite: 59.8
@@ -255,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-presence/refs/heads/main/screenshots/beyond-presence-2026-07-25T202842.png
 security:

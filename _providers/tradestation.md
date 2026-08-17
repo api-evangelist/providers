@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,15 +57,33 @@ apis:
 - description: Access reference data for order execution including activation triggers and available routing destinations.
   name: TradeStation Reference Data API
   slug: tradestation-reference-data-api
-artifact_total: 23
+artifact_total: 29
 asyncapis:
 - description: The TradeStation Streaming API provides real-time HTTP streaming endpoints for market data and brokerage events. Streams use HTTP chunked transfer encoding with newline-delimited JSON objects. Each st
   name: TradeStation Streaming API
   slug: tradestation-streaming-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TradeStation Accounts API
+  slug: open-tradestation-accounts-api
+- collection_type: open
   name: TradeStation API
   slug: open-tradestation-api
+- collection_type: open
+  name: TradeStation Accounts Market Data API
+  slug: open-tradestation-market-data-api
+- collection_type: open
+  name: TradeStation Accounts Options API
+  slug: open-tradestation-options-api
+- collection_type: open
+  name: TradeStation Accounts Order Execution API
+  slug: open-tradestation-order-execution-api
+- collection_type: open
+  name: TradeStation Accounts Reference Data API
+  slug: open-tradestation-reference-data-api
 common:
 - group: agent
   title: ''
@@ -166,7 +184,7 @@ plans:
 - name: Tradestation Plans Pricing
   plan_count: 3
   slug: tradestation-plans-pricing
-random_paper: 98
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Tradestation Rate Limits
@@ -227,7 +245,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

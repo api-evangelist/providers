@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Contact sales
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,20 +22,20 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-12'
+  score: 33.8
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST-first JSON API to Contently's vetted creative network and project workflow. Search creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out wo
   name: Contently Talent API
   slug: contently-talent-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Contently Webhooks
@@ -44,22 +45,18 @@ common:
   title: ''
   type: Website
   url: https://contently.com
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://developer.contently.com
 - group: docs
   title: ''
   type: Documentation
-  url: https://developer.contently.com
-- group: start
+  url: https://contently.com/platform/talent-api/
+- group: docs
   title: ''
-  type: GettingStarted
+  type: APIReference
   url: https://contently.com/platform/talent-api/
 - group: company
   title: ''
   type: Blog
-  url: https://contently.com/strategist
+  url: https://contently.com/strategist/
 - group: operate
   title: ''
   type: Support
@@ -68,34 +65,18 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/contently
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://contently.com/pricing
 - group: start
   title: ''
-  type: SignUp
-  url: https://app.contently.com
+  type: Login
+  url: https://contently.com/signin/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://contently.com/terms
+  url: https://contently.com/terms/
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://contently.com/privacy
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.contently.com
-- group: design
-  title: ''
-  type: Lifecycle
-  url: lifecycle/contently-lifecycle.yml
-- group: auth
-  title: ''
-  type: TrustCenter
-  url: https://contently.com/trust/security/
+  url: https://contently.com/privacy-policy/
 - group: auth
   title: ''
   type: Compliance
@@ -103,7 +84,11 @@ common:
 - group: auth
   title: ''
   type: Security
-  url: https://contently.com/security
+  url: https://contently.com/trust/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/contently-trust-center.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -112,14 +97,14 @@ common:
   title: ''
   type: VulnerabilityDisclosure
   url: security/contently-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/contently-lifecycle.yml
 - group: auth
   title: ''
   type: Authentication
   url: authentication/contently-authentication.yml
-- group: agent
-  title: ''
-  type: MCPServer
-  url: mcp/contently-mcp.yml
 - group: design
   title: ''
   type: Webhooks
@@ -132,19 +117,28 @@ common:
   title: ''
   type: Conformance
   url: conformance/contently-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/contently-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/contently-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/contently-packages.yml
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/contently-llms.txt
 created: '2026-07-17'
-description: Contently is an end-to-end content marketing platform pairing enterprise content operations software with a vetted global network of freelance writers, editors, designers, and strategists. Brands use Contently to plan editorial calendars, source and manage creative talent, run review-and-approval workflows, publish across channels, and measure content performance. For developers Contently exposes the Talent API, a REST-first JSON API secured with scoped OAuth2 that lets teams search vetted creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out work, and check funded balances. State-change webhooks (project assigned, draft submitted, review responded, payout released) fan out over Slack, Teams, or raw HTTP, and an official MCP server exposes the same surface to Claude, ChatGPT, and in-house agents. Contently maintains SOC 2 Type II, GDPR, CCPA, and HIPAA (BAA) posture with encrypted PII and NDA-scoped workspaces.
+description: Contently is an end-to-end content marketing platform pairing enterprise content operations software with a vetted global network of 10,000+ freelance writers, editors, designers, and strategists, positioned for regulated industries such as financial services, healthcare, and insurance. Brands use Contently to plan editorial calendars, source and manage creative talent, run review-and-approval workflows with credentialed reviewers, publish across channels, and measure content performance. For developers Contently documents the Talent API, a REST-first JSON API secured with scoped OAuth2 that lets teams search vetted creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out work, and check funded balances, with state-change webhooks over Slack, Teams, or raw HTTP. Contently also advertises an MCP server registering six tools, though no endpoint is published. No OpenAPI specification, reference documentation, or developer portal
+  is published; API access is obtained through a sales conversation. Contently maintains SOC 2 Type II, GDPR, CCPA, HIPAA (BAA), and FINRA reviewer-pool posture with a published controls matrix.
 image: https://contently.com/wp-content/themes/contently-redesign-theme/assets/images/brand/og-default-1200x630.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: contently-mcp.yml
-  slug: contently-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Contently
 nav: Providers
 network: true
@@ -154,26 +148,34 @@ overview: 'Contently publishes 1 API on the [APIs.io](https://apis.io/) network.
   The Contently catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Contently''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 32
+  Contently''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 18 more developer resources.'
+plans:
+- name: Contently Plans Pricing
+  plan_count: 0
+  slug: contently-plans-pricing
+random_paper: 98
+rate_limits:
+- limit_count: 0
+  name: Contently Rate Limits
+  slug: contently-rate-limits
 score:
-  band: developing
-  composite: 50.1
-  delta: 0.0
+  band: thin
+  composite: 41.6
+  delta: -8.5
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 50.0
     contract_quality: 51.6
-    developer_ergonomics: 54.3
+    developer_ergonomics: 32.6
     discoverability: 75.9
     governance: 12.5
-    operational_transparency: 39.5
+    operational_transparency: 23.7
   previous_composite: 50.1
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/screenshots/contently-2026-07-25T210335.png
 security:
 - kind: authentication
@@ -201,6 +203,8 @@ tags:
 - Content Creation
 - Publishing
 - Editorial Workflow
+- Regulated Content
+- Compliance
 - API
 website: https://contently.com
 ---

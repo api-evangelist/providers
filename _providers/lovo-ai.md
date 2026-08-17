@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Convert text to speech synchronously or asynchronously and retrieve job results.
   name: LOVO AI Text-to-Speech API
   slug: lovo-ai-text-to-speech-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LOVO AI Genny Speakers API
+  slug: open-lovo-ai-speakers-api
+- collection_type: open
+  name: LOVO AI Genny Speakers Teams API
+  slug: open-lovo-ai-teams-api
+- collection_type: open
+  name: LOVO AI Genny Speakers Text-to-Speech API
+  slug: open-lovo-ai-text-to-speech-api
 - collection_type: open
   name: LOVO AI Genny API
   slug: open-lovo-ai
@@ -110,7 +122,7 @@ plans:
 - name: Lovo Ai Plans Pricing
   plan_count: 5
   slug: lovo-ai-plans-pricing
-random_paper: 95
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Lovo Ai Rate Limits
@@ -135,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/screenshots/lovo-ai-2026-07-25T225613.png
 security:

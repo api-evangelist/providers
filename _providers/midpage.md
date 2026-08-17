@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The User API from Midpage — 1 operation(s) for user.
   name: Midpage User API
   slug: midpage-user-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Midpage Legal Database Opinions API
+  slug: open-midpage-opinions-api
+- collection_type: open
+  name: Midpage Legal Database Opinions Search API
+  slug: open-midpage-search-api
+- collection_type: open
+  name: Midpage Legal Database Opinions User API
+  slug: open-midpage-user-api
 - collection_type: open
   name: Midpage Legal Database API
   slug: open-midpage
@@ -113,7 +125,7 @@ plans:
 - name: Midpage Plans Pricing
   plan_count: 4
   slug: midpage-plans-pricing
-random_paper: 7
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Midpage Rate Limits
@@ -138,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/screenshots/midpage-2026-08-07T172856.png
 security:

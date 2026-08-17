@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -78,7 +78,7 @@ apis:
 - description: 'The #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.enablehealthserviceaccessfororganiz'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-enablehealthserviceaccessfororganization-api
-artifact_total: 289
+artifact_total: 303
 collections:
 - collection_type: postman
   name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization AP'
@@ -119,6 +119,48 @@ collections:
 - collection_type: postman
   name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization A'
   slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-enablehealthserviceaccessfororganization-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeaffectedaccountsfororganization-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedEntities API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeaffectedentities-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedEntitiesForOrganization API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeaffectedentitiesfororganization-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEntityAggregates API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeentityaggregates-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventAggregates API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventaggregates-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventDetails API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventdetails-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventDetailsForOrganization API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventdetailsfororganization-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEvents API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeevents-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventsForOrganization API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventsfororganization-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventTypes API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventtypes-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeHealthServiceStatusForOrganization API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-describehealthservicestatusfororganization-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DisableHealthServiceAccessForOrganization API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-disablehealthserviceaccessfororganization-api
+- collection_type: open
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization API'
+  slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-enablehealthserviceaccessfororganization-api
 common:
 - group: build
   title: ''
@@ -961,7 +1003,7 @@ plans:
 - name: Amazon Health Dashboard Plans Pricing
   plan_count: 3
   slug: amazon-health-dashboard-plans-pricing
-random_paper: 22
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Amazon Health Dashboard Rate Limits
@@ -1009,7 +1051,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/screenshots/amazon-health-dashboard-2026-06-20T171659.png
 security:

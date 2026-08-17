@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -65,8 +65,32 @@ apis:
 - description: Vendor master data
   name: Microsoft Dynamics 365 Business Central Vendors API
   slug: microsoft-dynamics-365-business-central-vendors-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central API v2.0 Companies API
+  slug: open-microsoft-dynamics-365-business-central-companies-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central API v2.0 Companies Customers API
+  slug: open-microsoft-dynamics-365-business-central-customers-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central API v2.0 Companies Items API
+  slug: open-microsoft-dynamics-365-business-central-items-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central API v2.0 Companies PurchaseOrders API
+  slug: open-microsoft-dynamics-365-business-central-purchaseorders-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central API v2.0 Companies SalesInvoices API
+  slug: open-microsoft-dynamics-365-business-central-salesinvoices-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central API v2.0 Companies SalesOrders API
+  slug: open-microsoft-dynamics-365-business-central-salesorders-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central API v2.0 Companies Vendors API
+  slug: open-microsoft-dynamics-365-business-central-vendors-api
 - collection_type: open
   name: Microsoft Dynamics 365 Business Central API v2.0
   slug: open-microsoft-dynamics-365-business-central
@@ -131,7 +155,7 @@ overview: 'Microsoft Dynamics 365 Business Central publishes 7 APIs on the [APIs
 
 
   Microsoft Dynamics 365 Business Central''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 77
+random_paper: 72
 scopes:
 - name: Microsoft Dynamics 365 Business Central Scopes
   scope_count: 1
@@ -157,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/screenshots/microsoft-dynamics-365-business-central-2026-06-20T185459.png
 security:

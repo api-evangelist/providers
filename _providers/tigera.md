@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Goldmane is the Calico flow aggregation and network-observability service introduced in Calico Open Source 3.30. It exposes a gRPC API for querying aggregated flow data — List for point-in-time querie
@@ -42,11 +42,27 @@ apis:
 - description: The version API from Tigera — 1 operation(s) for version.
   name: Tigera Version API
   slug: tigera-version-api
-artifact_total: 14
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Tigera Calico Cloud Webhooks
   slug: tigera-calico-cloud-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Generic API Server APIS API
+  slug: open-tigera-apis-api
+- collection_type: open
+  name: Generic API Server Projectcalico Org API
+  slug: open-tigera-projectcalicoorg-api
+- collection_type: open
+  name: Generic API Server Projectcalico Org V3 API
+  slug: open-tigera-projectcalicoorg-v3-api
+- collection_type: open
+  name: Generic API Server Version API
+  slug: open-tigera-version-api
 common:
 - group: commercial
   title: ''
@@ -239,7 +255,7 @@ overview: 'Tigera publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tigera''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 36
+random_paper: 40
 scopes:
 - name: Tigera Scopes
   scope_count: 1
@@ -267,7 +283,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

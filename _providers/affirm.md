@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -72,24 +72,51 @@ apis:
 - description: Post-authorization transaction management operations including capture, void, and refund.
   name: Affirm Transactions API
   slug: affirm-transactions-api
-artifact_total: 115
+artifact_total: 124
 asyncapis:
 - description: Affirm uses webhooks to notify merchant endpoints in real time when events occur during the customer checkout and prequalification flows. Webhooks are available to Key and Enterprise merchants. Affirm
   name: Affirm Webhooks
   slug: affirm-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Affirm Checkout Authorization API
+  slug: open-affirm-authorization-api
+- collection_type: open
+  name: Affirm Checkout Authorization Cards API
+  slug: open-affirm-cards-api
+- collection_type: open
   name: Affirm Checkout API
   slug: open-affirm-checkout
+- collection_type: open
+  name: Affirm Checkout Authorization Checkouts API
+  slug: open-affirm-checkouts-api
 - collection_type: open
   name: Affirm Direct API
   slug: open-affirm-direct-api
 - collection_type: open
+  name: Affirm Checkout Authorization Disputes API
+  slug: open-affirm-disputes-api
+- collection_type: open
   name: Affirm Disputes API
   slug: open-affirm-disputes
 - collection_type: open
+  name: Affirm Checkout Authorization Promos API
+  slug: open-affirm-promos-api
+- collection_type: open
   name: Affirm Promos API
   slug: open-affirm-promos
+- collection_type: open
+  name: Affirm Checkout Authorization Settlement Events API
+  slug: open-affirm-settlement-events-api
+- collection_type: open
+  name: Affirm Checkout Authorization Transaction Events API
+  slug: open-affirm-transaction-events-api
+- collection_type: open
+  name: Affirm Checkout Authorization Transactions API
+  slug: open-affirm-transactions-api
 - collection_type: open
   name: Affirm Transactions API
   slug: open-affirm-transactions
@@ -444,7 +471,7 @@ plans:
 - name: Affirm Plans Pricing
   plan_count: 1
   slug: affirm-plans-pricing
-random_paper: 29
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Affirm Rate Limits
@@ -500,7 +527,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/screenshots/affirm-2026-06-20T165638.png
 security:

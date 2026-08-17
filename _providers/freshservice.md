@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -65,8 +65,35 @@ apis:
 - description: The Tickets API from Freshservice — 2 operation(s) for tickets.
   name: Freshservice Tickets API
   slug: freshservice-tickets-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freshservice API v2 Agents API
+  slug: open-freshservice-agents-api
+- collection_type: open
+  name: Freshservice API v2 Agents Assets API
+  slug: open-freshservice-assets-api
+- collection_type: open
+  name: Freshservice API v2 Agents Changes API
+  slug: open-freshservice-changes-api
+- collection_type: open
+  name: Freshservice API v2 Agents Groups API
+  slug: open-freshservice-groups-api
+- collection_type: open
+  name: Freshservice API v2 Agents Problems API
+  slug: open-freshservice-problems-api
+- collection_type: open
+  name: Freshservice API v2 Agents Releases API
+  slug: open-freshservice-releases-api
+- collection_type: open
+  name: Freshservice API v2 Agents Requesters API
+  slug: open-freshservice-requesters-api
+- collection_type: open
+  name: Freshservice API v2 Agents Tickets API
+  slug: open-freshservice-tickets-api
 - collection_type: open
   name: Freshservice API v2
   slug: open-freshservice
@@ -135,7 +162,7 @@ overview: 'Freshservice publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Freshservice''s developer surface includes authentication, documentation, signup flow, pricing, support, and 8 more developer resources.'
-random_paper: 89
+random_paper: 97
 score:
   band: thin
   composite: 33.6
@@ -156,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/screenshots/freshservice-2026-06-20T181545.png
 security:

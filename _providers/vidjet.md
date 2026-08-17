@@ -22,14 +22,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 3.2
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The first-party HTTP API behind the Vidjet embed and the Vidjet platform plugins, served from https://app-api.vidjet.io (Express). Vidjet publishes no developer documentation, reference, or machine-re
+  name: Vidjet App API
+  slug: app-api
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -63,6 +67,18 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.vidjet.io/privacy-policy
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.vidjet.io/en/articles/11392786-onboarding-the-3-steps-you-need-to-do
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.vidjet.io/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.vidjet.io/login
 - group: agent
   title: ''
   type: LLMsTxt
@@ -71,39 +87,76 @@ common:
   title: ''
   type: DomainSecurity
   url: security/vidjet-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/vidjet-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/vidjet-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/vidjet-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/vidjet-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/vidjet-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/vidjet-conformance.yml
 created: '2026-07-17'
-description: Vidjet is a shoppable video platform for e-commerce that lets merchants embed on-site video without impacting page speed. Merchants build video feeds, tag products inside videos, and display formats such as Stories, Carousel, Bubble, Embed, Popup, and a Sticky Play Button across thousands of product pages. It is a no-code product installed via a JavaScript embed, Google Tag Manager, or platform plugins for Shopify, WooCommerce/WordPress, Magento, Wix, Webflow, PrestaShop, and Salesforce Commerce Cloud, with analytics, multilingual support, and email collection integrations to Klaviyo and Google Sheets. Vidjet is a Seedcamp portfolio company. As of this profile it publishes no public developer REST API, SDK, OAuth surface, or webhooks — integration is via the client-side embed script.
+description: Vidjet is a shoppable video platform for e-commerce that lets merchants embed on-site video without impacting page speed. Merchants build video feeds, tag products inside videos, and display formats such as Stories, Carousel, Bubble, Embed, Popup, and a Sticky Play Button across thousands of product pages. It is a no-code product installed via a JavaScript embed, Google Tag Manager, or platform plugins for Shopify, WooCommerce/WordPress, Magento, Wix, Webflow, PrestaShop, and Salesforce Commerce Cloud, with analytics, multilingual support, and email collection integrations to Klaviyo and Google Sheets. The company behind it is VIDJET TECHNOLOGIES, S.L. of Barcelona, Spain, a Seedcamp portfolio company. Vidjet runs no developer program and publishes no API reference, OpenAPI, SDK, OAuth surface, or webhook catalog. It does operate a first-party HTTP API at app-api.vidjet.io, whose base URL and several endpoints are published by Vidjet itself in the GPL-licensed WordPress plugin
+  source and in the public embed script — a real but undocumented API surface, not a product an integrator can build against from published documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vidjet.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Vidjet
 nav: Providers
 network: true
-overview: 'Vidjet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Video, Shoppable Video, and Shopify.
+overview: 'Vidjet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Video, Shoppable Video, and Shopify.
 
 
-  Vidjet''s developer surface includes documentation, pricing, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 46
+  Vidjet''s developer surface includes documentation, pricing, engineering blog, signup flow, getting-started guide, support, and 13 more developer resources.'
+plans:
+- name: Vidjet Plans Pricing
+  plan_count: 4
+  slug: vidjet-plans-pricing
+random_paper: 50
+rate_limits:
+- limit_count: 0
+  name: Vidjet Rate Limits
+  slug: vidjet-rate-limits
 score:
-  band: emerging
-  composite: 17.7
-  delta: 0.0
+  band: thin
+  composite: 30.7
+  delta: 13.0
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 57.4
-    governance: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Vidjet Authentication
+  slug: vidjet-authentication
+  summary_line: none/apiKey · 4 schemes
 - kind: domain-security
   name: Vidjet Domain Security
   slug: vidjet-domain-security
-  summary_line: TLSv1.3 · HSTS · DNSSEC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: vidjet
 tags:
 - Company
@@ -114,5 +167,7 @@ tags:
 - Conversion
 - Marketing
 - No-code
+- Widgets
+- Embed
 website: https://www.vidjet.io
 ---

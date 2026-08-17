@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -72,11 +72,44 @@ apis:
 - description: Wireless interface and station management
   name: RouterOS Wireless API
   slug: routeros-wireless-api
-artifact_total: 29
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RouterOS REST Bridge API
+  slug: open-routeros-bridge-api
+- collection_type: open
+  name: RouterOS REST Bridge DHCP API
+  slug: open-routeros-dhcp-api
+- collection_type: open
+  name: RouterOS REST Bridge DNS API
+  slug: open-routeros-dns-api
+- collection_type: open
+  name: RouterOS REST Bridge Firewall API
+  slug: open-routeros-firewall-api
+- collection_type: open
+  name: RouterOS REST Bridge Interface API
+  slug: open-routeros-interface-api
+- collection_type: open
+  name: RouterOS REST Bridge IP Address API
+  slug: open-routeros-ip-address-api
 - collection_type: open
   name: RouterOS REST API
   slug: open-routeros-rest-api
+- collection_type: open
+  name: RouterOS REST Bridge Routing API
+  slug: open-routeros-routing-api
+- collection_type: open
+  name: RouterOS REST Bridge System API
+  slug: open-routeros-system-api
+- collection_type: open
+  name: RouterOS REST Bridge VPN API
+  slug: open-routeros-vpn-api
+- collection_type: open
+  name: RouterOS REST Bridge Wireless API
+  slug: open-routeros-wireless-api
 common:
 - group: agent
   title: ''
@@ -174,7 +207,7 @@ plans:
 - name: Routeros Plans Pricing
   plan_count: 3
   slug: routeros-plans-pricing
-random_paper: 59
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Routeros Rate Limits
@@ -216,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/screenshots/routeros-2026-06-20T193227.png
 security:

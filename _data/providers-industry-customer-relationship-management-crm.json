@@ -27,7 +27,7 @@
       "developer_ergonomics": 93.5,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 60.8,
      "agent_band": "agent-ready",
@@ -65,7 +65,7 @@
       "developer_ergonomics": 100.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 63.5,
      "agent_band": "agent-ready",
@@ -114,7 +114,7 @@
       "developer_ergonomics": 93.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 65.8,
      "agent_band": "agent-native",
@@ -163,7 +163,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -201,7 +201,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 55.3
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -239,7 +239,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -277,7 +277,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -325,7 +325,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 43.7,
      "agent_band": "agent-ready",
@@ -363,7 +363,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -411,7 +411,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -449,7 +449,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

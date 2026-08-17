@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: Aggregate live giveaway counts and USD value estimation.
   name: GamerPower Worth API
   slug: gamerpower-worth-api
-artifact_total: 24
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GamerPower Filter API
+  slug: open-gamerpower-filter-api
+- collection_type: open
+  name: GamerPower Filter Giveaways API
+  slug: open-gamerpower-giveaways-api
+- collection_type: open
+  name: GamerPower Filter Worth API
+  slug: open-gamerpower-worth-api
 - collection_type: open
   name: GamerPower API
   slug: open-gamerpower
@@ -157,7 +169,7 @@ plans:
 - name: Gamerpower Plans Pricing
   plan_count: 2
   slug: gamerpower-plans-pricing
-random_paper: 1
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Gamerpower Rate Limits
@@ -199,7 +211,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamerpower/refs/heads/main/screenshots/gamerpower-2026-06-20T181638.png
 security:

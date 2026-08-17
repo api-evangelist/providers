@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -68,8 +68,41 @@ apis:
 - description: The Settings API from Invoice Ninja — 1 operation(s) for settings.
   name: Invoice Ninja Settings API
   slug: invoice-ninja-settings-api
-artifact_total: 14
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Invoice Ninja v5 Activities API
+  slug: open-invoice-ninja-activities-api
+- collection_type: open
+  name: Invoice Ninja v5 Activities Authentication API
+  slug: open-invoice-ninja-authentication-api
+- collection_type: open
+  name: Invoice Ninja v5 Activities Bank Integrations API
+  slug: open-invoice-ninja-bank-integrations-api
+- collection_type: open
+  name: Invoice Ninja v5 Activities Bank Transaction Rules API
+  slug: open-invoice-ninja-bank-transaction-rules-api
+- collection_type: open
+  name: Invoice Ninja v5 Activities Bank Transactions API
+  slug: open-invoice-ninja-bank-transactions-api
+- collection_type: open
+  name: Invoice Ninja v5 Activities Charts API
+  slug: open-invoice-ninja-charts-api
+- collection_type: open
+  name: Invoice Ninja v5 Activities Client Gateway Tokens API
+  slug: open-invoice-ninja-client-gateway-tokens-api
+- collection_type: open
+  name: Invoice Ninja v5 Activities Companies API
+  slug: open-invoice-ninja-companies-api
+- collection_type: open
+  name: Invoice Ninja v5 Activities Company Gateways API
+  slug: open-invoice-ninja-company-gateways-api
+- collection_type: open
+  name: Invoice Ninja v5 Activities Settings API
+  slug: open-invoice-ninja-settings-api
 - collection_type: open
   name: Invoice Ninja v5 API
   slug: open-invoice-ninja
@@ -130,7 +163,7 @@ overview: 'Invoice Ninja publishes 10 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Invoice Ninja''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 2
+random_paper: 130
 score:
   band: thin
   composite: 29.2
@@ -157,7 +190,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/screenshots/invoice-ninja-2026-06-20T183523.png
 security:

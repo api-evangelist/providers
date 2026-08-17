@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -84,7 +84,44 @@ apis:
 - description: The Watchlist API from TD Ameritrade — 3 operation(s) for watchlist.
   name: TD Ameritrade Watchlist API
   slug: td-ameritrade-watchlist-api
-artifact_total: 26
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading API
+  slug: open-td-ameritrade-accounts-and-trading-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading Authentication API
+  slug: open-td-ameritrade-authentication-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading Instruments API
+  slug: open-td-ameritrade-instruments-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading Market Hours API
+  slug: open-td-ameritrade-market-hours-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading Movers API
+  slug: open-td-ameritrade-movers-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading Option Chains API
+  slug: open-td-ameritrade-option-chains-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading Price History API
+  slug: open-td-ameritrade-price-history-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading Quotes API
+  slug: open-td-ameritrade-quotes-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading Transaction History API
+  slug: open-td-ameritrade-transaction-history-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading User Info & Preferences API
+  slug: open-td-ameritrade-user-info-preferences-api
+- collection_type: open
+  name: TD Ameritrade Accounts and Trading Watchlist API
+  slug: open-td-ameritrade-watchlist-api
 common:
 - group: agent
   title: ''
@@ -186,7 +223,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 115
+random_paper: 123
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -226,7 +263,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

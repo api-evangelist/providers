@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Stock API from Gelato — 1 operation(s) for stock.
   name: Gelato Stock API
   slug: gelato-stock-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gelato Ecommerce API
+  slug: open-gelato-ecommerce-api
+- collection_type: open
+  name: Gelato Ecommerce Orders API
+  slug: open-gelato-orders-api
+- collection_type: open
+  name: Gelato Ecommerce Prices API
+  slug: open-gelato-prices-api
+- collection_type: open
+  name: Gelato Ecommerce Product Catalog API
+  slug: open-gelato-product-catalog-api
+- collection_type: open
+  name: Gelato Ecommerce Shipment API
+  slug: open-gelato-shipment-api
+- collection_type: open
+  name: Gelato Ecommerce Stock API
+  slug: open-gelato-stock-api
 - collection_type: open
   name: Gelato API
   slug: open-gelato
@@ -123,7 +144,7 @@ plans:
 - name: Gelato Plans Pricing
   plan_count: 4
   slug: gelato-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Gelato Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/screenshots/gelato-2026-07-25T215522.png
 security:

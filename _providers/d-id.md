@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: List available TTS voices
   name: D-ID Voices API
   slug: d-id-voices-api
-artifact_total: 33
+artifact_total: 43
 collections:
 - collection_type: postman
   name: D-ID Agents API
@@ -98,6 +98,36 @@ collections:
 - collection_type: postman
   name: D-ID Agents Voices API
   slug: postman-d-id-voices-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: D-ID Agents API
+  slug: open-d-id-agents-api
+- collection_type: open
+  name: D-ID Agents Chat API
+  slug: open-d-id-chat-api
+- collection_type: open
+  name: D-ID Agents Credits API
+  slug: open-d-id-credits-api
+- collection_type: open
+  name: D-ID Agents Knowledge API
+  slug: open-d-id-knowledge-api
+- collection_type: open
+  name: D-ID Agents Sessions API
+  slug: open-d-id-sessions-api
+- collection_type: open
+  name: D-ID Agents Talks API
+  slug: open-d-id-talks-api
+- collection_type: open
+  name: D-ID Agents Translations API
+  slug: open-d-id-translations-api
+- collection_type: open
+  name: D-ID Agents Videos V4 API
+  slug: open-d-id-videos-v4-api
+- collection_type: open
+  name: D-ID Agents Voices API
+  slug: open-d-id-voices-api
 common:
 - group: build
   title: ''
@@ -224,7 +254,7 @@ plans:
 - name: D Id Plans Pricing
   plan_count: 5
   slug: d-id-plans-pricing
-random_paper: 110
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: D Id Rate Limits
@@ -258,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/screenshots/d-id-2026-06-20T175418.png
 security:

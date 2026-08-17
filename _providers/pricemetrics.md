@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The PriceMetrics Pricing API provides programmatic access to price optimization recommendations, competitive price tracking, elasticity analysis, and revenue optimization insights. Clients submit tran
@@ -104,7 +104,7 @@ plans:
 - name: Pricemetrics Plans Pricing
   plan_count: 4
   slug: pricemetrics-plans-pricing
-random_paper: 90
+random_paper: 98
 rate_limits:
 - limit_count: 4
   name: Pricemetrics Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 33.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pricemetrics/refs/heads/main/screenshots/pricemetrics-2026-06-20T192059.png
 security:

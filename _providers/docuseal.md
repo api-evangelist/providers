@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Templates represent reusable document signing forms with fields and signatures to be collected. It's possible to create unique template forms with fields and signatures using HTML or with tagged PDFs.
   name: DocuSeal Templates API
   slug: docuseal-templates-api
-artifact_total: 20
+artifact_total: 24
 collections:
 - collection_type: postman
   name: DocuSeal Submissions API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: DocuSeal Submissions Templates API
   slug: postman-docuseal-templates-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DocuSeal Submissions API
+  slug: open-docuseal-submissions-api
+- collection_type: open
+  name: DocuSeal Submissions Submitters API
+  slug: open-docuseal-submitters-api
+- collection_type: open
+  name: DocuSeal Submissions Templates API
+  slug: open-docuseal-templates-api
 common:
 - group: build
   title: ''
@@ -226,7 +238,7 @@ plans:
 - name: Docuseal Plans Pricing
   plan_count: 5
   slug: docuseal-plans-pricing
-random_paper: 8
+random_paper: 103
 rate_limits:
 - limit_count: 0
   name: Docuseal Rate Limits
@@ -260,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/screenshots/docuseal-2026-06-20T180122.png
 security:

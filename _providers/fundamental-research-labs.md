@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: 'Export team usage metrics for reporting, finance, and internal analytics. Usage Metrics in Shortcut provides a prefilled request with your team_id; use this reference to customize date range, format, '
   name: Fundamental Research Labs Usage API
   slug: fundamental-research-labs-usage-api
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Fundamental Research Labs Webhooks
@@ -63,6 +63,18 @@ collections:
 - collection_type: postman
   name: Shortcut Authentication Usage API
   slug: postman-fundamental-research-labs-usage-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shortcut Authentication API
+  slug: open-fundamental-research-labs-authentication-api
+- collection_type: open
+  name: Shortcut Authentication Spreadsheets API
+  slug: open-fundamental-research-labs-spreadsheets-api
+- collection_type: open
+  name: Shortcut Authentication Usage API
+  slug: open-fundamental-research-labs-usage-api
 common:
 - group: build
   title: ''
@@ -219,7 +231,7 @@ plans:
 - name: Fundamental Research Labs Plans
   plan_count: 4
   slug: fundamental-research-labs-plans
-random_paper: 0
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Fundamental Research Labs Rate Limits
@@ -247,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:

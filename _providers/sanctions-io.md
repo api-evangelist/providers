@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Real-time single screening against sanctions, PEP, and criminal watchlists.
   name: sanctions.io Screening API
   slug: sanctions-io-screening-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: sanctions.io Account Management API
+  slug: open-sanctions-io-account-management-api
+- collection_type: open
+  name: sanctions.io Account Management Adverse Media API
+  slug: open-sanctions-io-adverse-media-api
+- collection_type: open
+  name: sanctions.io Account Management Batch Screening API
+  slug: open-sanctions-io-batch-screening-api
+- collection_type: open
+  name: sanctions.io Account Management Data Sources API
+  slug: open-sanctions-io-data-sources-api
+- collection_type: open
+  name: sanctions.io Account Management Monitoring API
+  slug: open-sanctions-io-monitoring-api
+- collection_type: open
+  name: sanctions.io Account Management Screening API
+  slug: open-sanctions-io-screening-api
 - collection_type: open
   name: sanctions.io API
   slug: open-sanctions-io
@@ -135,7 +156,7 @@ plans:
 - name: Sanctions Io Plans Pricing
   plan_count: 5
   slug: sanctions-io-plans-pricing
-random_paper: 39
+random_paper: 47
 rate_limits:
 - limit_count: 6
   name: Sanctions Io Rate Limits
@@ -160,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

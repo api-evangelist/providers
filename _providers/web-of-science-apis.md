@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: The search API from Web of Science APIs — 3 operation(s) for search.
   name: Web of Science APIs search API
   slug: web-of-science-apis-search-api
-artifact_total: 122
+artifact_total: 129
 collections:
 - collection_type: postman
   name: Web of Science API Expanded citations API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Web of Science API Expanded citations search API
   slug: postman-web-of-science-apis-search-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Web of Science API Expanded citations API
+  slug: open-web-of-science-apis-citations-api
+- collection_type: open
+  name: Web of Science API Expanded citations documents API
+  slug: open-web-of-science-apis-documents-api
+- collection_type: open
+  name: Web of Science API Expanded citations journals API
+  slug: open-web-of-science-apis-journals-api
+- collection_type: open
+  name: Web of Science API Expanded citations records API
+  slug: open-web-of-science-apis-records-api
+- collection_type: open
+  name: Web of Science API Expanded citations reports API
+  slug: open-web-of-science-apis-reports-api
+- collection_type: open
+  name: Web of Science API Expanded citations search API
+  slug: open-web-of-science-apis-search-api
 - collection_type: open
   name: Web of Science API Expanded
   slug: open-web-of-science-expanded
@@ -451,7 +472,7 @@ plans:
 - name: Web Of Science Apis Plans Pricing
   plan_count: 3
   slug: web-of-science-apis-plans-pricing
-random_paper: 25
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Web Of Science Apis Rate Limits
@@ -501,7 +522,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/screenshots/web-of-science-apis-2026-06-20T201320.png
 security:

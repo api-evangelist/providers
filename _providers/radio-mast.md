@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Radio Streams API from Radio Mast — 2 operation(s) for radio streams.
   name: Radio Mast Radio Streams API
   slug: radio-mast-radio-streams-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Radio Mast Analytics API
+  slug: open-radio-mast-analytics-api
+- collection_type: open
+  name: Radio Mast Analytics Listener Pools API
+  slug: open-radio-mast-listener-pools-api
+- collection_type: open
+  name: Radio Mast Analytics Radio Mast API API
+  slug: open-radio-mast-radio-mast-api-api
+- collection_type: open
+  name: Radio Mast Analytics Radio Stations API
+  slug: open-radio-mast-radio-stations-api
+- collection_type: open
+  name: Radio Mast Analytics Radio Streams API
+  slug: open-radio-mast-radio-streams-api
 - collection_type: open
   name: Radio Mast API
   slug: open-radio-mast
@@ -104,7 +122,7 @@ plans:
 - name: Radio Mast Plans Pricing
   plan_count: 3
   slug: radio-mast-plans-pricing
-random_paper: 49
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Radio Mast Rate Limits
@@ -129,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/screenshots/radio-mast-2026-06-20T192524.png
 security:

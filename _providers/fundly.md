@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Fundly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fundly''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 58
+random_paper: 62
 score:
   band: minimal
   composite: 12.2
@@ -87,7 +87,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundly/refs/heads/main/screenshots/fundly-2026-07-25T215321.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: The Webhooks API from DatoCMS — 1 operation(s) for webhooks.
   name: DatoCMS Webhooks API
   slug: datocms-webhooks-api
-artifact_total: 40
+artifact_total: 48
 collections:
 - collection_type: postman
   name: DatoCMS Content Management Environments API
@@ -87,8 +87,32 @@ collections:
   name: DatoCMS Content Management Environments Webhooks API
   slug: postman-datocms-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: DatoCMS Content Management API
   slug: open-datocms-content-management-api
+- collection_type: open
+  name: DatoCMS Content Management Environments API
+  slug: open-datocms-environments-api
+- collection_type: open
+  name: DatoCMS Content Management Environments Fields API
+  slug: open-datocms-fields-api
+- collection_type: open
+  name: DatoCMS Content Management Environments Item Types API
+  slug: open-datocms-item-types-api
+- collection_type: open
+  name: DatoCMS Content Management Environments Items API
+  slug: open-datocms-items-api
+- collection_type: open
+  name: DatoCMS Content Management Environments Site API
+  slug: open-datocms-site-api
+- collection_type: open
+  name: DatoCMS Content Management Environments Uploads API
+  slug: open-datocms-uploads-api
+- collection_type: open
+  name: DatoCMS Content Management Environments Webhooks API
+  slug: open-datocms-webhooks-api
 common:
 - group: build
   title: ''
@@ -202,7 +226,7 @@ plans:
 - name: Datocms Plans Pricing
   plan_count: 3
   slug: datocms-plans-pricing
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Datocms Rate Limits
@@ -244,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/screenshots/datocms-2026-06-20T175706.png
 security:

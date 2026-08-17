@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: BrewDog's Universal Commerce Protocol shopping service, exposed over MCP at https://brewdog.com/api/ucp/mcp and advertised by the store's own /.well-known/ucp merchant profile and /agents.md. Supports
@@ -161,7 +161,7 @@ overview: 'BrewDog publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   BrewDog''s developer surface includes documentation, signup flow, support, engineering blog, YouTube channel, authentication, code examples, and 21 more developer resources.'
-random_paper: 26
+random_paper: 1
 scopes:
 - name: Brewdog Scopes
   scope_count: 4
@@ -184,7 +184,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/screenshots/brewdog-2026-08-07T162802.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: (Influenza data reported by the United States CDC, updated every 24 hours)
   name: 'disease.sh Influenza: CDC API'
   slug: disease-sh-influenza-cdc-api
-artifact_total: 74
+artifact_total: 84
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple API'
+  slug: open-disease-sh-covid-19-apple-api
+- collection_type: open
+  name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple COVID-19: Government API'
+  slug: open-disease-sh-covid-19-government-api
+- collection_type: open
+  name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple COVID-19: JHUCSSE API'
+  slug: open-disease-sh-covid-19-jhucsse-api
+- collection_type: open
+  name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple COVID-19: NYT API'
+  slug: open-disease-sh-covid-19-nyt-api
+- collection_type: open
+  name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple COVID-19: Therapeutics API'
+  slug: open-disease-sh-covid-19-therapeutics-api
+- collection_type: open
+  name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple COVID-19: Vaccine API'
+  slug: open-disease-sh-covid-19-vaccine-api
+- collection_type: open
+  name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple COVID-19: Variants API'
+  slug: open-disease-sh-covid-19-variants-api
+- collection_type: open
+  name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple COVID-19: Worldometers API'
+  slug: open-disease-sh-covid-19-worldometers-api
+- collection_type: open
+  name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple Influenza: CDC API'
+  slug: open-disease-sh-influenza-cdc-api
 common:
 - group: agent
   title: ''
@@ -296,7 +327,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 38
+random_paper: 104
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -336,7 +367,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/screenshots/disease-sh-2026-06-20T180044.png
 security:

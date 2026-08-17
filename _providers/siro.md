@@ -11,10 +11,11 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -27,9 +28,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-12'
-api_count: 4
+  score: 48.0
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 42
+  human_in_the_loop: 1
+  name: Siro Agentic Access
+  operation_count: 78
+  slug: siro-agentic-access
+  summary_line: 78 operations · 42 acting · 1 human-in-the-loop
+api_count: 5
 apis:
 - description: The Audit API from Siro — 1 operation(s) for audit.
   name: Siro Audit API
@@ -43,8 +51,31 @@ apis:
 - description: The Integrations API from Siro — 21 operation(s) for integrations.
   name: Siro Integrations API
   slug: siro-integrations-api
-artifact_total: 8
+- description: The Siro Platform API served from the api.siro.ai gateway — 145 operations covering recordings and audio (list, detail, utterances, redacted-audio signed URLs, upload signed URLs, phone-call recording
+  name: Siro Platform API
+  slug: siro-platform-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Swagger Audit API
+  slug: open-siro-audit-api
+- collection_type: open
+  name: Swagger Audit Core API
+  slug: open-siro-core-api
+- collection_type: open
+  name: Swagger Audit Folders API
+  slug: open-siro-folders-api
+- collection_type: open
+  name: Swagger Audit Integrations API
+  slug: open-siro-integrations-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/siro-agentic-access.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -149,6 +180,34 @@ common:
   title: ''
   type: WellKnown
   url: well-known/siro-well-known.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/siro-a2a.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/siro-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/siro-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/siro-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/siro-plans-pricing.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.siro.ai/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/siro-ai
 created: '2026-07-17'
 description: 'Siro is an AI sales coaching platform for in-person and field sales teams. Reps record their live sales conversations from the Siro mobile app, and Siro transcribes each conversation, surfaces coaching insights, generates scorecards and summaries, and extracts structured fields (budget, objections, decision makers, timelines) that are pushed back into the team''s CRM. Siro publishes a documented REST API and webhook surface that enables fully bidirectional, custom CRM integrations: syncing appointments/engagements, opportunities and accounts into Siro, matching recordings to CRM entities, and pulling recording details, summaries, entity extractions and coaching scorecards back out. The platform ships prebuilt integrations for Salesforce, HubSpot, Microsoft Dynamics, Pipedrive, Zoho, SalesRabbit, Leap SalesPro, Hatch, CompanyCam and a range of dealership DMS and home-services tools. Siro is backed by CRV and Index Ventures.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siro.png
@@ -157,30 +216,34 @@ mcp_servers:
 - description: ''
   name: siro-mcp.yml
   slug: siro-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Siro
 nav: Providers
 network: true
-overview: 'Siro publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Core API, Folders API, and 1 more. Tagged areas include Company, Sales, Sales Coaching, Conversation Intelligence, and Field Sales.
+overview: 'Siro publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Core API, Folders API, and 2 more. Tagged areas include Company, Sales, Sales Coaching, Conversation Intelligence, and Field Sales.
 
 
-  Siro''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 85
+  Siro''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 27 more developer resources.'
+plans:
+- name: Siro Plans Pricing
+  plan_count: 0
+  slug: siro-plans-pricing
+random_paper: 147
 rate_limits:
 - limit_count: 1
   name: Siro Rate Limits
   slug: siro-rate-limits
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 49.7
+  delta: 3.5
   facets:
-    commercial_clarity: 42.1
+    commercial_clarity: 50.0
     contract_quality: 53.0
-    developer_ergonomics: 56.0
+    developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 28.9
+    operational_transparency: 34.2
   previous_composite: 46.2
   provenance:
     conformance: derived
@@ -192,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication
@@ -203,6 +266,10 @@ security:
   name: Siro Domain Security
   slug: siro-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Siro Trust Center
+  slug: siro-trust-center
+  summary_line: SOC 2 Type 1, SOC 2 Type 2
 slug: siro
 tags:
 - Company

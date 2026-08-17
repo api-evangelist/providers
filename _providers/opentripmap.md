@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: The Objects list API from OpenTripMap — 3 operation(s) for objects list.
   name: OpenTripMap Objects list API
   slug: opentripmap-objects-list-api
-artifact_total: 21
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenTripMap Geographic coordinates of populated place API
+  slug: open-opentripmap-geographic-coordinates-of-populated-place-api
+- collection_type: open
+  name: OpenTripMap Geographic coordinates of populated place Object properties API
+  slug: open-opentripmap-object-properties-api
+- collection_type: open
+  name: OpenTripMap Geographic coordinates of populated place Objects list API
+  slug: open-opentripmap-objects-list-api
 common:
 - group: agent
   title: ''
@@ -166,7 +179,7 @@ plans:
 - name: Opentripmap Plans Pricing
   plan_count: 4
   slug: opentripmap-plans-pricing
-random_paper: 119
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Opentripmap Rate Limits
@@ -200,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/screenshots/opentripmap-2026-06-20T191049.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -103,8 +103,20 @@ apis:
 - description: The Version API from Life Sciences — 1 operation(s) for version.
   name: Life Sciences Version API
   slug: life-sciences-version-api
-artifact_total: 33
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClinicalTrials.gov API v2 Stats API
+  slug: open-life-sciences-stats-api
+- collection_type: open
+  name: ClinicalTrials.gov API v2 Stats Studies API
+  slug: open-life-sciences-studies-api
+- collection_type: open
+  name: ClinicalTrials.gov API v2 Stats Version API
+  slug: open-life-sciences-version-api
 - collection_type: open
   name: ClinicalTrials.gov API v2
   slug: open-life-sciences
@@ -170,7 +182,7 @@ overview: 'Life Sciences publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   The Life Sciences catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 106
+random_paper: 114
 rules:
 - name: Life Sciences API Rules
   rule_count: 5
@@ -206,7 +218,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/screenshots/life-sciences-2026-06-20T184511.png
 security:

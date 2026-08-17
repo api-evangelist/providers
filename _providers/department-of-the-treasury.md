@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -71,8 +71,35 @@ apis:
 - description: Daily and monthly Treasury statements
   name: Department of the Treasury Treasury Operations API
   slug: department-of-the-treasury-treasury-operations-api
-artifact_total: 25
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Treasury Fiscal Data Auctions API
+  slug: open-department-of-the-treasury-auctions-api
+- collection_type: open
+  name: Treasury Fiscal Data Auctions Debt API
+  slug: open-department-of-the-treasury-debt-api
+- collection_type: open
+  name: Treasury Fiscal Data Auctions Exchange Rates API
+  slug: open-department-of-the-treasury-exchange-rates-api
+- collection_type: open
+  name: Treasury Fiscal Data Auctions Interest Rates API
+  slug: open-department-of-the-treasury-interest-rates-api
+- collection_type: open
+  name: Treasury Fiscal Data Auctions Sanctions Lists API
+  slug: open-department-of-the-treasury-sanctions-lists-api
+- collection_type: open
+  name: Treasury Fiscal Data Auctions Search API
+  slug: open-department-of-the-treasury-search-api
+- collection_type: open
+  name: Treasury Fiscal Data Auctions Spending API
+  slug: open-department-of-the-treasury-spending-api
+- collection_type: open
+  name: Treasury Fiscal Data Auctions Treasury Operations API
+  slug: open-department-of-the-treasury-treasury-operations-api
 - collection_type: open
   name: Treasury Fiscal Data API
   slug: open-fiscal-data-api
@@ -154,7 +181,7 @@ plans:
 - name: Department Of The Treasury Plans Pricing
   plan_count: 1
   slug: department-of-the-treasury-plans-pricing
-random_paper: 0
+random_paper: 107
 rate_limits:
 - limit_count: 3
   name: Department Of The Treasury Rate Limits
@@ -202,7 +229,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/screenshots/department-of-the-treasury-2026-06-20T175925.png
 security:

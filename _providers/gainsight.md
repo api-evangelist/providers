@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -126,8 +126,29 @@ apis:
 - description: Manage Gainsight users
   name: Gainsight Users API
   slug: gainsight-users-api
-artifact_total: 125
+artifact_total: 155
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gainsight CS Bulk Accounts API
+  slug: open-gainsight-accounts-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Activities API
+  slug: open-gainsight-activities-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Activity Types API
+  slug: open-gainsight-activity-types-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Companies API
+  slug: open-gainsight-companies-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Company Team API
+  slug: open-gainsight-company-team-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Configuration API
+  slug: open-gainsight-configuration-api
 - collection_type: open
   name: Gainsight CS Bulk API
   slug: open-gainsight-cs-bulk-api
@@ -168,11 +189,80 @@ collections:
   name: Gainsight CS User Management API
   slug: open-gainsight-cs-user-management-api
 - collection_type: open
+  name: Gainsight CS Bulk Accounts CTA Configuration API
+  slug: open-gainsight-cta-configuration-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts CTAs API
+  slug: open-gainsight-ctas-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Custom Events API
+  slug: open-gainsight-custom-events-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Custom Objects API
+  slug: open-gainsight-custom-objects-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Engagements API
+  slug: open-gainsight-engagements-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Events API
+  slug: open-gainsight-events-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Feature Match API
+  slug: open-gainsight-feature-match-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Fields API
+  slug: open-gainsight-fields-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Goals API
+  slug: open-gainsight-goals-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Jobs API
+  slug: open-gainsight-jobs-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Metrics API
+  slug: open-gainsight-metrics-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Objectives API
+  slug: open-gainsight-objectives-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Objects API
+  slug: open-gainsight-objects-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Opportunities API
+  slug: open-gainsight-opportunities-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts People API
+  slug: open-gainsight-people-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Playbooks API
+  slug: open-gainsight-playbooks-api
+- collection_type: open
   name: Gainsight PX API
   slug: open-gainsight-px-api
 - collection_type: open
+  name: Gainsight CS Bulk Accounts Reports API
+  slug: open-gainsight-reports-api
+- collection_type: open
   name: Gainsight REST API
   slug: open-gainsight-rest-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts SCIM API
+  slug: open-gainsight-scim-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Subscription API
+  slug: open-gainsight-subscription-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Success Plans API
+  slug: open-gainsight-success-plans-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Tasks API
+  slug: open-gainsight-tasks-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Templates API
+  slug: open-gainsight-templates-api
+- collection_type: open
+  name: Gainsight CS Bulk Accounts Users API
+  slug: open-gainsight-users-api
 common:
 - group: agent
   title: ''
@@ -487,7 +577,7 @@ plans:
 - name: Gainsight Plans Pricing
   plan_count: 2
   slug: gainsight-plans-pricing
-random_paper: 118
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Gainsight Rate Limits
@@ -521,7 +611,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/screenshots/gainsight-2026-07-25T215357.png
 security:

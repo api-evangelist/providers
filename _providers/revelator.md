@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Minting and retrieving ERC1155 royalty tokens.
   name: Revelator Royalty Tokens API
   slug: revelator-royalty-tokens-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Revelator Account API
+  slug: open-revelator-account-api
+- collection_type: open
+  name: Revelator Account Accounting API
+  slug: open-revelator-accounting-api
+- collection_type: open
+  name: Revelator Account Analytics API
+  slug: open-revelator-analytics-api
+- collection_type: open
+  name: Revelator Account Distribution API
+  slug: open-revelator-distribution-api
+- collection_type: open
+  name: Revelator Account Integrations API
+  slug: open-revelator-integrations-api
+- collection_type: open
+  name: Revelator Account Lookup API
+  slug: open-revelator-lookup-api
+- collection_type: open
+  name: Revelator Account Revenue API
+  slug: open-revelator-revenue-api
+- collection_type: open
+  name: Revelator Account Royalty Tokens API
+  slug: open-revelator-royalty-tokens-api
 - collection_type: open
   name: Revelator API
   slug: open-revelator
@@ -129,7 +156,7 @@ plans:
 - name: Revelator Plans Pricing
   plan_count: 4
   slug: revelator-plans-pricing
-random_paper: 20
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Revelator Rate Limits
@@ -160,7 +187,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

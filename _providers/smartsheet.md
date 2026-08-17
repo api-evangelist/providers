@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: Manage webhook subscriptions.
   name: Smartsheet Webhooks API
   slug: smartsheet-webhooks-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smartsheet Columns API
+  slug: open-smartsheet-columns-api
+- collection_type: open
+  name: Smartsheet Columns Reports API
+  slug: open-smartsheet-reports-api
+- collection_type: open
+  name: Smartsheet Columns Rows API
+  slug: open-smartsheet-rows-api
+- collection_type: open
+  name: Smartsheet Columns Sheets API
+  slug: open-smartsheet-sheets-api
+- collection_type: open
+  name: Smartsheet Columns Webhooks API
+  slug: open-smartsheet-webhooks-api
 - collection_type: open
   name: Smartsheet API
   slug: open-smartsheet
@@ -138,7 +156,7 @@ overview: 'Smartsheet publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Smartsheet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 10 more developer resources.'
-random_paper: 8
+random_paper: 45
 scopes:
 - name: Smartsheet Scopes
   scope_count: 10
@@ -164,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/screenshots/smartsheet-2026-06-20T194052.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -50,11 +50,27 @@ apis:
 - description: The wallet API from Syndicate — 11 operation(s) for wallet.
   name: Syndicate wallet API
   slug: syndicate-wallet-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Syndicate Webhooks
   slug: syndicate-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: api-key-manager > admin API
+  slug: open-syndicate-api-key-manager-admin-api
+- collection_type: open
+  name: api-key-manager > admin call API
+  slug: open-syndicate-call-api
+- collection_type: open
+  name: api-key-manager > admin transact API
+  slug: open-syndicate-transact-api
+- collection_type: open
+  name: api-key-manager > admin wallet API
+  slug: open-syndicate-wallet-api
 common:
 - group: other
   title: ''
@@ -195,7 +211,7 @@ overview: 'Syndicate publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Syndicate''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 4
+random_paper: 70
 score:
   band: developing
   composite: 47.3
@@ -225,7 +241,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

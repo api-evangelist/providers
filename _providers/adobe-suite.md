@@ -10,26 +10,33 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: true
+    agentic_access: true
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: documented
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-12'
-api_count: 23
+  score: 82.0
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 1601
+  human_in_the_loop: 29
+  name: Adobe Suite Agentic Access
+  operation_count: 2861
+  slug: adobe-suite-agentic-access
+  summary_line: 2861 operations · 1601 acting · 29 human-in-the-loop
+api_count: 32
 apis:
 - description: Automate Photoshop workflows including image editing, layer manipulation, and batch processing.
   name: Adobe Photoshop API
@@ -100,8 +107,108 @@ apis:
 - description: Programmatically manage users, groups, and product entitlements for Adobe enterprise organizations.
   name: Adobe User Management API
   slug: adobe-user-management-api
-artifact_total: 53
+- description: Programmatically manage Adobe Experience Manager as a Cloud Service programs, environments, CI/CD pipelines and pipeline executions, including deployment automation and environment variable management
+  name: Adobe Cloud Manager API
+  slug: adobe-cloud-manager-api
+- description: Design, trigger and inspect cross-channel customer journeys and campaigns — including message delivery, content management, suppression lists, throttling configuration, simulation and loyalty challeng
+  name: Adobe Journey Optimizer API
+  slug: adobe-journey-optimizer-api
+- description: Manage Adobe Workfront work objects — projects, tasks, issues, users, teams, documents, timesheets and custom forms — plus Workfront Planning records and approval workflows, through the largest REST c
+  name: Adobe Workfront API
+  slug: adobe-workfront-api
+- description: Render, convert and automate 3D assets at scale through the Adobe Substance 3D API in Firefly Services, covering scene rendering, material application, model conversion and batch 3D asset production.
+  name: Adobe Substance 3D API
+  slug: adobe-substance-3d-api
+- description: Server-side and client-side data collection into the Adobe Experience Platform Edge Network, delivering events to Analytics, Target, Experience Platform and Journey Optimizer from a single interactive
+  name: Adobe Experience Platform Edge Network API
+  slug: adobe-experience-platform-edge-network-api
+- description: 'Machine-readable Adobe service status — read current and historical incidents, maintenance events, affected products and regions for every Adobe cloud service, as an OpenAPI contract rather than only '
+  name: Adobe Status API
+  slug: adobe-status-api
+- description: Adobe VIP Marketplace Commerce Partner API for resellers and distributors — manage customer accounts, subscriptions, orders, transfers and entitlements programmatically across the Adobe partner channe
+  name: Adobe VIP Marketplace Partner API
+  slug: adobe-vip-marketplace-partner-api
+- description: Register event providers, define event metadata, subscribe webhook or journaling registrations, and ingest custom events across the Adobe estate. Adobe I/O Events is the event backbone behind Photosho
+  name: Adobe I/O Events API
+  slug: adobe-io-events-api
+- description: 'Adobe ships Model Context Protocol servers on three surfaces: a remote Marketo Engage server exposing 100+ marketing operations, a remote Adobe Experience Manager as a Cloud Service server, and a loca'
+  name: Adobe MCP Servers
+  slug: adobe-mcp-servers
+artifact_total: 88
+asyncapis:
+- description: ''
+  name: Adobe Suite Webhooks
+  slug: adobe-suite-webhooks
+collections:
+- collection_type: open
+  name: Bulk Data Insertion API (BDIA)
+  slug: open-adobe-suite-analytics-bulk-data-insertion
+- collection_type: open
+  name: Adobe Analytics Classification API
+  slug: open-adobe-suite-analytics-classification
+- collection_type: open
+  name: Data Repair API
+  slug: open-adobe-suite-analytics-data-repair
+- collection_type: open
+  name: Adobe Analytics APIs
+  slug: open-adobe-suite-analytics
+- collection_type: open
+  name: Adobe CC Libraries APIs Test
+  slug: open-adobe-suite-cc-libraries
+- collection_type: open
+  name: Firefly Services Audio and Video API
+  slug: open-adobe-suite-firefly-audio-video
+- collection_type: open
+  name: Express API
+  slug: open-adobe-suite-firefly-express
+- collection_type: open
+  name: Illustrator API - Firefly Services
+  slug: open-adobe-suite-firefly-illustrator
+- collection_type: open
+  name: Firefly Services - InDesign API
+  slug: open-adobe-suite-firefly-indesign
+- collection_type: open
+  name: Adobe Lightroom API
+  slug: open-adobe-suite-firefly-lightroom
+- collection_type: open
+  name: Photoshop v2 API endpoints
+  slug: open-adobe-suite-firefly-photoshop-v2
+- collection_type: open
+  name: Translate and Lip Sync API
+  slug: open-adobe-suite-firefly-translate-lipsync
+- collection_type: open
+  name: Firefly API
+  slug: open-adobe-suite-firefly
+- collection_type: open
+  name: Lightroom API Documentation
+  slug: open-adobe-suite-lightroom
+- collection_type: open
+  name: Marketo Engage Rest API
+  slug: open-adobe-suite-marketo-identity
+- collection_type: open
+  name: Marketo Engage Rest API
+  slug: open-adobe-suite-marketo-user
+- collection_type: open
+  name: PDF Services API
+  slug: open-adobe-suite-pdf-services
+- collection_type: open
+  name: Commerce Partner API
+  slug: open-adobe-suite-vip-marketplace-partners
+- collection_type: open
+  name: Unified Approvals API (Deprecated)
+  slug: open-adobe-suite-workfront-unified-approvals
+- collection_type: open
+  name: Adobe Workfront API
+  slug: open-adobe-suite-workfront-workflow
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/adobe-suite-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/adobe-suite-authentication.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -150,8 +257,148 @@ common:
   title: ''
   type: Support
   url: https://developer.adobe.com/support/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adobe-suite-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/adobe-suite-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/adobe-suite-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/adobe-suite-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/adobe-suite-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/adobe-suite-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adobe-suite-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adobe-suite-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.adobe.com/trust/compliance/compliance-list.html
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/adobe-suite-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adobe-suite-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/adobe-suite-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/adobe-suite-scopes.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/adobe-suite-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://helpx.adobe.com/security.html/security/policy.ug.html
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/adobe-suite-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/adobe-suite-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/adobe-suite-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/adobe-suite-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/adobe-suite-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/adobe-suite-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/adobe-suite-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/adobe-suite-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-suite-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/adobe-suite-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/adobe-suite-finops.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/adobe-suite-graphql.md
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.adobe.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.adobe.com/apis
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.adobe.com/apis
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://developer.adobe.com/document-services/pricing/main
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.adobe.com/console/
 created: '2024-01-01'
-description: Collection of Adobe Creative Cloud and Experience Cloud APIs.
+description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation (Photoshop, Lightroom, Illustrator, InDesign, Express), document services (PDF Services, Extract, Accessibility Auto-Tag, Acrobat Sign), marketing and data (Analytics, Experience Platform, Journey Optimizer, Target, Campaign, Marketo Engage), commerce, work management (Workfront), and platform operations (Cloud Manager, User Management, Adobe I/O Events, Status). Every API authenticates through Adobe Identity Management Services (IMS) with an OAuth 2.0 access token plus an x-api-key client ID, provisioned per project and workspace in the Adobe Developer Console.'
 features:
 - AI-powered generative image creation with Firefly
 - PDF document creation, conversion, and OCR
@@ -182,40 +429,56 @@ integrations:
 - Workday
 - Slack
 layout: provider
-modified: '2026-04-18'
+mcp_servers:
+- description: ''
+  name: adobe-suite-mcp.yml
+  slug: adobe-suite-mcpyml
+modified: '2026-08-13'
 name: Adobe Suite
 nav: Providers
 network: true
-overview: 'Adobe Suite publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Adobe Photoshop API, Adobe Lightroom API, Adobe PDF Services API, and 2 more. Tagged areas include Ai, Analytics, Automation, Commerce, and Creative.
+overview: 'Adobe Suite publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Adobe Photoshop API, Adobe Lightroom API, Adobe Illustrator API, and 19 more. Tagged areas include Ai, Analytics, Automation, Commerce, and Creative.
 
 
-  Adobe Suite''s developer surface includes developer portal, authentication, developer console, getting-started guide, engineering blog, support, and 6 more developer resources.'
+  The Adobe Suite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Adobe Suite''s developer surface includes authentication, developer portal, developer console, getting-started guide, engineering blog, support, sandbox, and 42 more developer resources.'
 plans:
 - name: Adobe Suite Plans Pricing
   plan_count: 3
   slug: adobe-suite-plans-pricing
-random_paper: 26
+random_paper: 63
 rate_limits:
-- limit_count: 5
+- limit_count: 9
   name: Adobe Suite Rate Limits
   slug: adobe-suite-rate-limits
+scopes:
+- name: Adobe Suite Scopes
+  scope_count: 10
+  slug: adobe-suite-scopes
+  summary_line: 10 scopes
 score:
-  band: thin
-  composite: 34.4
-  delta: 0.0
+  band: exemplar
+  composite: 67.5
+  delta: 33.1
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 32.3
-    developer_ergonomics: 43.5
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 28.9
+    commercial_clarity: 76.3
+    contract_quality: 59.1
+    developer_ergonomics: 87.0
+    discoverability: 83.3
+    governance: 20.8
+    operational_transparency: 71.1
   previous_composite: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/screenshots/adobe-suite-2026-06-20T165033.png
 security:
+- kind: authentication
+  name: Adobe Suite Authentication
+  slug: adobe-suite-authentication
+  summary_line: apiKey/http · 12 schemes
 - kind: domain-security
   name: Adobe Suite Domain Security
   slug: adobe-suite-domain-security
@@ -224,6 +487,10 @@ security:
   name: Adobe Suite Vulnerability Disclosure
   slug: adobe-suite-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Adobe Suite Trust Center
+  slug: adobe-suite-trust-center
+  summary_line: SOC 2 Type 2, SOC 3, ISO 27001:2022, ISO 27017:2015, ISO 27018:2019, ISO 22301:2019, ISO 9001:2015, PCI DSS, HIPAA ready, FedRAMP Tailored, CSA STAR Level 2, C5 (Germany), IRAP Assessed (Australia), ISMAP Registered (Japan), TISAX, CMMC Level 1, GDPR, CCPA, FERPA ready, GLBA ready
 slug: adobe-suite
 tags:
 - Ai

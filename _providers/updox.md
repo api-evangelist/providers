@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -74,7 +74,23 @@ apis:
 - description: Telehealth video call actions.
   name: Updox Video Chat API
   slug: updox-video-chat-api
-artifact_total: 17
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Updox IO API (Modeled) Address Book API
+  slug: open-updox-address-book-api
+- collection_type: open
+  name: Updox IO API (Modeled) Address Book Faxing API
+  slug: open-updox-faxing-api
+- collection_type: open
+  name: Updox IO API (Modeled) Address Book Ping API
+  slug: open-updox-ping-api
+- collection_type: open
+  name: Updox IO API (Modeled) Address Book Video Chat API
+  slug: open-updox-video-chat-api
 common:
 - group: agent
   title: ''
@@ -140,7 +156,7 @@ plans:
 - name: Updox Plans Pricing
   plan_count: 4
   slug: updox-plans-pricing
-random_paper: 80
+random_paper: 113
 rate_limits:
 - limit_count: 3
   name: Updox Rate Limits
@@ -171,7 +187,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

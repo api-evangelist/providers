@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The Versions API from Google Artifact Registry — 1 operation(s) for versions.
   name: Google Artifact Registry Versions API
   slug: google-artifact-registry-versions-api
-artifact_total: 20
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Artifact Registry DockerImages API
+  slug: open-google-artifact-registry-dockerimages-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages Files API
+  slug: open-google-artifact-registry-files-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages Google Artifact Registry API API
+  slug: open-google-artifact-registry-google-artifact-registry-api-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages Locations API
+  slug: open-google-artifact-registry-locations-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages MavenArtifacts API
+  slug: open-google-artifact-registry-mavenartifacts-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages NpmPackages API
+  slug: open-google-artifact-registry-npmpackages-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages Packages API
+  slug: open-google-artifact-registry-packages-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages PythonPackages API
+  slug: open-google-artifact-registry-pythonpackages-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages Repositories API
+  slug: open-google-artifact-registry-repositories-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages Tags API
+  slug: open-google-artifact-registry-tags-api
+- collection_type: open
+  name: Google Artifact Registry DockerImages Versions API
+  slug: open-google-artifact-registry-versions-api
 - collection_type: open
   name: Google Artifact Registry API
   slug: open-google-artifact-registry
@@ -150,7 +186,7 @@ plans:
 - name: Google Artifact Registry Plans Pricing
   plan_count: 3
   slug: google-artifact-registry-plans-pricing
-random_paper: 62
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Google Artifact Registry Rate Limits
@@ -180,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/screenshots/google-artifact-registry-2026-06-20T182019.png
 security:

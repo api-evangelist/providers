@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,8 +66,17 @@ apis:
 - description: The Locations API from Scalable Software and Systems — 2 operation(s) for locations.
   name: Scalable Software and Systems Locations API
   slug: scalable-software-and-systems-locations-api
-artifact_total: 22
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Backstage Software Catalog Entities API
+  slug: open-scalable-software-and-systems-entities-api
+- collection_type: open
+  name: Backstage Software Catalog Entities Locations API
+  slug: open-scalable-software-and-systems-locations-api
 - collection_type: open
   name: Backstage Software Catalog API
   slug: open-scalable-software-and-systems
@@ -171,7 +180,7 @@ plans:
 - name: Scalable Software And Systems Plans Pricing
   plan_count: 3
   slug: scalable-software-and-systems-plans-pricing
-random_paper: 52
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Scalable Software And Systems Rate Limits
@@ -205,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/screenshots/scalable-software-and-systems-2026-06-20T193456.png
 security:

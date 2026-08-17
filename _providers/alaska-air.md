@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: Mile earn and redemption transaction history
   name: Alaska Airlines Transactions API
   slug: alaska-air-transactions-api
-artifact_total: 103
+artifact_total: 112
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alaska Air Cargo Airports API
+  slug: open-alaska-air-airports-api
+- collection_type: open
+  name: Alaska Air Cargo Airports Flight Status API
+  slug: open-alaska-air-flight-status-api
+- collection_type: open
+  name: Alaska Air Cargo Airports Members API
+  slug: open-alaska-air-members-api
+- collection_type: open
+  name: Alaska Air Cargo Airports Partner Miles API
+  slug: open-alaska-air-partner-miles-api
+- collection_type: open
+  name: Alaska Air Cargo Airports Rates API
+  slug: open-alaska-air-rates-api
+- collection_type: open
+  name: Alaska Air Cargo Airports Schedules API
+  slug: open-alaska-air-schedules-api
+- collection_type: open
+  name: Alaska Air Cargo Airports Shipments API
+  slug: open-alaska-air-shipments-api
+- collection_type: open
+  name: Alaska Air Cargo Airports Transactions API
+  slug: open-alaska-air-transactions-api
 common:
 - group: agent
   title: ''
@@ -394,7 +422,7 @@ press:
 - date: '2026-05-25'
   title: Alaska Airlines and Tailsight launch AI-powered ...
   url: https://www.prnewswire.com/news-releases/alaska-airlines-and-tailsight-launch-ai-powered-maintenance-planning-solution-302744315.html
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: Alaska Air Rate Limits
@@ -441,7 +469,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png
 security:

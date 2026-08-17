@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: '**Work** entities group several Release entities which are different # TAGLINE versions of the same abstract piece of research. For example, three # TAGLINE release entities representing the pre-print'
   name: Fatcat works API
   slug: fatcat-works-api
-artifact_total: 28
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: fatcat auth API
+  slug: open-fatcat-auth-api
+- collection_type: open
+  name: fatcat auth changelog API
+  slug: open-fatcat-changelog-api
+- collection_type: open
+  name: fatcat auth containers API
+  slug: open-fatcat-containers-api
+- collection_type: open
+  name: fatcat auth creators API
+  slug: open-fatcat-creators-api
+- collection_type: open
+  name: fatcat auth editgroups API
+  slug: open-fatcat-editgroups-api
+- collection_type: open
+  name: fatcat auth editors API
+  slug: open-fatcat-editors-api
+- collection_type: open
+  name: fatcat auth files API
+  slug: open-fatcat-files-api
+- collection_type: open
+  name: fatcat auth filesets API
+  slug: open-fatcat-filesets-api
+- collection_type: open
+  name: fatcat auth releases API
+  slug: open-fatcat-releases-api
+- collection_type: open
+  name: fatcat auth webcaptures API
+  slug: open-fatcat-webcaptures-api
+- collection_type: open
+  name: fatcat auth works API
+  slug: open-fatcat-works-api
 common:
 - group: operate
   title: ''
@@ -150,7 +187,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 27
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -184,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

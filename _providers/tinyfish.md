@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,11 +60,36 @@ apis:
 - description: Vault credential management endpoints for connecting password managers and managing stored credentials
   name: TinyFish Vault API
   slug: tinyfish-vault-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Tinyfish Agent Webhooks
   slug: tinyfish-agent-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TinyFish Browser Automation API
+  slug: open-tinyfish-automation-api
+- collection_type: open
+  name: TinyFish Browser Automation Runs API
+  slug: open-tinyfish-runs-api
+- collection_type: open
+  name: TinyFish Browser Automation TinyFish Browser API API
+  slug: open-tinyfish-tinyfish-browser-api-api
+- collection_type: open
+  name: TinyFish Browser Automation TinyFish Fetch API API
+  slug: open-tinyfish-tinyfish-fetch-api-api
+- collection_type: open
+  name: TinyFish Browser Automation TinyFish Search API API
+  slug: open-tinyfish-tinyfish-search-api-api
+- collection_type: open
+  name: TinyFish Browser Automation Usage API
+  slug: open-tinyfish-usage-api
+- collection_type: open
+  name: TinyFish Browser Automation Vault API
+  slug: open-tinyfish-vault-api
 common:
 - group: other
   title: ''
@@ -209,7 +234,7 @@ overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TinyFish''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 24 more developer resources.'
-random_paper: 38
+random_paper: 133
 score:
   band: strong
   composite: 56.7
@@ -233,7 +258,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

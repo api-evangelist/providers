@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Workers KV Namespace API from Cloudflare KV — 8 operation(s) for workers kv namespace.
   name: Cloudflare KV Workers KV Namespace API
   slug: cloudflare-kv-workers-kv-namespace-api
-artifact_total: 36
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudflare Workers KV Workers KV Namespace API
+  slug: open-cloudflare-kv-workers-kv-namespace-api
 common:
 - group: operate
   title: ''
@@ -261,7 +268,7 @@ plans:
 - name: Cloudflare Kv Plans Pricing
   plan_count: 2
   slug: cloudflare-kv-plans-pricing
-random_paper: 7
+random_paper: 135
 rate_limits:
 - limit_count: 21
   name: Cloudflare Kv Rate Limits
@@ -295,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-kv/refs/heads/main/screenshots/cloudflare-kv-2026-06-20T174555.png
 security:

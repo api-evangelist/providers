@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: Endpoints related to the Adversary Investigation product
   name: Censys Threat Hunting API
   slug: censys-threat-hunting-api
-artifact_total: 3531
+artifact_total: 3546
 collections:
 - collection_type: postman
   name: Asset Graph Account Management API
@@ -132,11 +132,56 @@ collections:
   name: Asset Graph Account Management Threat Hunting API
   slug: postman-censys-threat-hunting-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Asset Graph Account Management API
+  slug: open-censys-account-management-api
+- collection_type: open
+  name: Asset Graph Account Management Adversary Investigation API
+  slug: open-censys-adversary-investigation-api
+- collection_type: open
   name: Asset Graph API
   slug: open-censys-asset-graph
 - collection_type: open
+  name: Asset Graph Account Management Asset Graphs API
+  slug: open-censys-asset-graphs-api
+- collection_type: open
+  name: Asset Graph Account Management Assets API
+  slug: open-censys-assets-api
+- collection_type: open
+  name: Asset Graph Account Management Collections API
+  slug: open-censys-collections-api
+- collection_type: open
+  name: Asset Graph Account Management Excluded Assets API
+  slug: open-censys-excluded-assets-api
+- collection_type: open
+  name: Asset Graph Account Management Global Data API
+  slug: open-censys-global-data-api
+- collection_type: open
+  name: Asset Graph Account Management Graph Executions API
+  slug: open-censys-graph-executions-api
+- collection_type: open
   name: Censys Platform API
   slug: open-censys-platform
+- collection_type: open
+  name: Asset Graph Account Management Risks API
+  slug: open-censys-risks-api
+- collection_type: open
+  name: Asset Graph Account Management Seeds API
+  slug: open-censys-seeds-api
+- collection_type: open
+  name: Asset Graph Account Management Shards API
+  slug: open-censys-shards-api
+- collection_type: open
+  name: Asset Graph Account Management Supply Chain Intelligence API
+  slug: open-censys-supply-chain-intelligence-api
+- collection_type: open
+  name: Asset Graph Account Management Tags and Comments API
+  slug: open-censys-tags-and-comments-api
+- collection_type: open
+  name: Asset Graph Account Management Threat Hunting API
+  slug: open-censys-threat-hunting-api
 common:
 - group: build
   title: ''
@@ -10708,7 +10753,7 @@ plans:
 - name: Censys Plans Pricing
   plan_count: 4
   slug: censys-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 8
   name: Censys Rate Limits
@@ -10750,7 +10795,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/screenshots/censys-2026-06-20T174122.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Retrieve fuel card transaction data
   name: Shell Transactions API
   slug: shell-transactions-api
-artifact_total: 70
+artifact_total: 82
 collections:
 - collection_type: postman
   name: Shell B2B Mobility Accounts API
@@ -111,14 +111,50 @@ collections:
   name: Shell B2B Mobility Accounts Transactions API
   slug: postman-shell-transactions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shell B2B Mobility Accounts API
+  slug: open-shell-accounts-api
+- collection_type: open
   name: Shell B2B Mobility API
   slug: open-shell-b2b-mobility
+- collection_type: open
+  name: Shell B2B Mobility Accounts Cards API
+  slug: open-shell-cards-api
+- collection_type: open
+  name: Shell B2B Mobility Accounts Catalogue API
+  slug: open-shell-catalogue-api
+- collection_type: open
+  name: Shell B2B Mobility Accounts Invoices API
+  slug: open-shell-invoices-api
+- collection_type: open
+  name: Shell B2B Mobility Accounts Limits API
+  slug: open-shell-limits-api
 - collection_type: open
   name: Shell Loyalty API
   slug: open-shell-loyalty
 - collection_type: open
   name: Shell Lubricants API
   slug: open-shell-lubricants
+- collection_type: open
+  name: Shell B2B Mobility Accounts Offers API
+  slug: open-shell-offers-api
+- collection_type: open
+  name: Shell B2B Mobility Accounts Orders API
+  slug: open-shell-orders-api
+- collection_type: open
+  name: Shell B2B Mobility Accounts Points API
+  slug: open-shell-points-api
+- collection_type: open
+  name: Shell B2B Mobility Accounts Products API
+  slug: open-shell-products-api
+- collection_type: open
+  name: Shell B2B Mobility Accounts Sites API
+  slug: open-shell-sites-api
+- collection_type: open
+  name: Shell B2B Mobility Accounts Transactions API
+  slug: open-shell-transactions-api
 common:
 - group: build
   title: ''
@@ -333,7 +369,7 @@ plans:
 - name: Shell Plans Pricing
   plan_count: 1
   slug: shell-plans-pricing
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Shell Rate Limits
@@ -386,7 +422,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png
 security:

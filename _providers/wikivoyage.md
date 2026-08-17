@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -81,7 +81,53 @@ apis:
 - description: File upload (action=upload)
   name: Wikivoyage Upload API
   slug: wikivoyage-upload-api
-artifact_total: 23
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication API
+  slug: open-wikivoyage-authentication-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Edit API
+  slug: open-wikivoyage-edit-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Files API
+  slug: open-wikivoyage-files-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication History API
+  slug: open-wikivoyage-history-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Links API
+  slug: open-wikivoyage-links-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Meta API
+  slug: open-wikivoyage-meta-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Pages API
+  slug: open-wikivoyage-pages-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Parse API
+  slug: open-wikivoyage-parse-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Patrol API
+  slug: open-wikivoyage-patrol-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Query API
+  slug: open-wikivoyage-query-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Revisions API
+  slug: open-wikivoyage-revisions-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Search API
+  slug: open-wikivoyage-search-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Transforms API
+  slug: open-wikivoyage-transforms-api
+- collection_type: open
+  name: Wikivoyage MediaWiki Action Authentication Upload API
+  slug: open-wikivoyage-upload-api
 common:
 - group: agent
   title: ''
@@ -187,7 +233,7 @@ plans:
 - name: Wikivoyage Plans Pricing
   plan_count: 1
   slug: wikivoyage-plans-pricing
-random_paper: 7
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Wikivoyage Rate Limits
@@ -218,7 +264,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/screenshots/wikivoyage-2026-06-20T201502.png
 security:

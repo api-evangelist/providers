@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: The Proceedings API from Federal Communications Commission — 1 operation(s) for proceedings.
   name: Federal Communications Commission Proceedings API
   slug: federal-communications-commission-proceedings-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: FCC ECFS API
   slug: open-ecfs
+- collection_type: open
+  name: FCC ECFS Datasets API
+  slug: open-federal-communications-commission-datasets-api
+- collection_type: open
+  name: FCC ECFS Datasets Filings API
+  slug: open-federal-communications-commission-filings-api
+- collection_type: open
+  name: FCC ECFS Datasets Pirate Radio API
+  slug: open-federal-communications-commission-pirate-radio-api
+- collection_type: open
+  name: FCC ECFS Datasets Proceedings API
+  slug: open-federal-communications-commission-proceedings-api
 - collection_type: open
   name: FCC Open Data API
   slug: open-opendata
@@ -111,7 +126,7 @@ plans:
 - name: Federal Communications Commission Plans Pricing
   plan_count: 3
   slug: federal-communications-commission-plans-pricing
-random_paper: 55
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: Federal Communications Commission Rate Limits
@@ -159,7 +174,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-communications-commission/refs/heads/main/screenshots/federal-communications-commission-2026-06-20T181114.png
 security:

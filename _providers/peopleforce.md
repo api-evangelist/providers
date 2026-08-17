@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Open positions and vacancies.
   name: PeopleForce Vacancies API
   slug: peopleforce-vacancies-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PeopleForce Candidates API
+  slug: open-peopleforce-candidates-api
+- collection_type: open
+  name: PeopleForce Candidates Departments API
+  slug: open-peopleforce-departments-api
+- collection_type: open
+  name: PeopleForce Candidates Divisions API
+  slug: open-peopleforce-divisions-api
+- collection_type: open
+  name: PeopleForce Candidates Employees API
+  slug: open-peopleforce-employees-api
+- collection_type: open
+  name: PeopleForce Candidates Leave Requests API
+  slug: open-peopleforce-leave-requests-api
+- collection_type: open
+  name: PeopleForce Candidates Positions API
+  slug: open-peopleforce-positions-api
+- collection_type: open
+  name: PeopleForce Candidates Vacancies API
+  slug: open-peopleforce-vacancies-api
 - collection_type: open
   name: PeopleForce API
   slug: open-peopleforce
@@ -102,7 +126,7 @@ plans:
 - name: Peopleforce Plans Pricing
   plan_count: 3
   slug: peopleforce-plans-pricing
-random_paper: 92
+random_paper: 129
 rate_limits:
 - limit_count: 5
   name: Peopleforce Rate Limits
@@ -127,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/screenshots/peopleforce-2026-06-20T191548.png
 security:

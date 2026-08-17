@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: List, filter, and clone voices.
   name: Uberduck Voices API
   slug: uberduck-voices-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Uberduck Text To Speech Conversational API
+  slug: open-uberduck-conversational-api
+- collection_type: open
+  name: Uberduck Text To Speech Conversational Models API
+  slug: open-uberduck-models-api
+- collection_type: open
+  name: Uberduck Text To Speech Conversational Text-to-Speech API
+  slug: open-uberduck-text-to-speech-api
+- collection_type: open
+  name: Uberduck Text To Speech Conversational Voices API
+  slug: open-uberduck-voices-api
 - collection_type: open
   name: Uberduck Text To Speech API
   slug: open-uberduck
@@ -117,7 +132,7 @@ plans:
 - name: Uberduck Plans Pricing
   plan_count: 4
   slug: uberduck-plans-pricing
-random_paper: 13
+random_paper: 108
 rate_limits:
 - limit_count: 6
   name: Uberduck Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

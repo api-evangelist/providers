@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Key Rings API from Google Cloud KMS — 2 operation(s) for key rings.
   name: Google Cloud KMS Key Rings API
   slug: google-cloud-kms-key-rings-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud KMS Crypto Keys API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Google Cloud KMS Crypto Keys Key Rings API
   slug: postman-google-cloud-kms-key-rings-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud KMS Crypto Keys API
+  slug: open-google-cloud-kms-crypto-keys-api
+- collection_type: open
+  name: Google Cloud KMS Crypto Keys Crypto Operations API
+  slug: open-google-cloud-kms-crypto-operations-api
+- collection_type: open
+  name: Google Cloud KMS Crypto Keys Key Rings API
+  slug: open-google-cloud-kms-key-rings-api
 - collection_type: open
   name: Google Cloud KMS API
   slug: open-openapi
@@ -163,7 +175,7 @@ plans:
 - name: Google Cloud Kms Plans Pricing
   plan_count: 3
   slug: google-cloud-kms-plans-pricing
-random_paper: 33
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Google Cloud Kms Rate Limits
@@ -202,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/screenshots/google-cloud-kms-2026-06-20T182123.png
 security:

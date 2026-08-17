@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -117,7 +117,89 @@ apis:
 - description: The Wallet API from Ondo Finance — 12 operation(s) for wallet.
   name: Ondo Finance Wallet API
   slug: ondo-finance-wallet-api
-artifact_total: 32
+artifact_total: 59
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GM Backend Account API
+  slug: open-ondo-finance-account-api
+- collection_type: open
+  name: GM Backend Account API Keys API
+  slug: open-ondo-finance-api-keys-api
+- collection_type: open
+  name: GM Backend Account Assets API
+  slug: open-ondo-finance-assets-api
+- collection_type: open
+  name: GM Backend Account Attestations API
+  slug: open-ondo-finance-attestations-api
+- collection_type: open
+  name: GM Backend Account Auth API
+  slug: open-ondo-finance-auth-api
+- collection_type: open
+  name: GM Backend Account Chains API
+  slug: open-ondo-finance-chains-api
+- collection_type: open
+  name: GM Backend Account Chat API
+  slug: open-ondo-finance-chat-api
+- collection_type: open
+  name: GM Backend Account Connection API
+  slug: open-ondo-finance-connection-api
+- collection_type: open
+  name: GM Backend Account Fills API
+  slug: open-ondo-finance-fills-api
+- collection_type: open
+  name: GM Backend Account Funding Rate API
+  slug: open-ondo-finance-funding-rate-api
+- collection_type: open
+  name: GM Backend Account Limits API
+  slug: open-ondo-finance-limits-api
+- collection_type: open
+  name: GM Backend Account Margin Account API
+  slug: open-ondo-finance-margin-account-api
+- collection_type: open
+  name: GM Backend Account Market Data API
+  slug: open-ondo-finance-market-data-api
+- collection_type: open
+  name: GM Backend Account Markets API
+  slug: open-ondo-finance-markets-api
+- collection_type: open
+  name: GM Backend Account Orders API
+  slug: open-ondo-finance-orders-api
+- collection_type: open
+  name: GM Backend Account Portfolio API
+  slug: open-ondo-finance-portfolio-api
+- collection_type: open
+  name: GM Backend Account Positions API
+  slug: open-ondo-finance-positions-api
+- collection_type: open
+  name: GM Backend Account Private Channels API
+  slug: open-ondo-finance-private-channels-api
+- collection_type: open
+  name: GM Backend Account Public Channels API
+  slug: open-ondo-finance-public-channels-api
+- collection_type: open
+  name: GM Backend Account Sandbox API
+  slug: open-ondo-finance-sandbox-api
+- collection_type: open
+  name: GM Backend Account Status API
+  slug: open-ondo-finance-status-api
+- collection_type: open
+  name: GM Backend Account Stop Orders API
+  slug: open-ondo-finance-stop-orders-api
+- collection_type: open
+  name: GM Backend Account Tickers API
+  slug: open-ondo-finance-tickers-api
+- collection_type: open
+  name: GM Backend Account Tool API
+  slug: open-ondo-finance-tool-api
+- collection_type: open
+  name: GM Backend Account TWAP Orders API
+  slug: open-ondo-finance-twap-orders-api
+- collection_type: open
+  name: GM Backend Account Wallet API
+  slug: open-ondo-finance-wallet-api
 common:
 - group: company
   title: ''
@@ -263,7 +345,7 @@ overview: 'Ondo Finance publishes 26 APIs on the [APIs.io](https://apis.io/) net
 
 
   Ondo Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 25 more developer resources.'
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Ondo Finance Rate Limits
@@ -297,7 +379,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/screenshots/ondo-finance-2026-08-07T190231.png
 security:

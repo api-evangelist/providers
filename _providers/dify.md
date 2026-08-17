@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -60,8 +60,29 @@ apis:
 - description: The Workflows API from Dify — 3 operation(s) for workflows.
   name: Dify Workflows API
   slug: dify-workflows-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dify Chat API
+  slug: open-dify-chat-api
+- collection_type: open
+  name: Dify Chat Completion API
+  slug: open-dify-completion-api
+- collection_type: open
+  name: Dify Chat Conversations API
+  slug: open-dify-conversations-api
+- collection_type: open
+  name: Dify Chat Datasets API
+  slug: open-dify-datasets-api
+- collection_type: open
+  name: Dify Chat Files API
+  slug: open-dify-files-api
+- collection_type: open
+  name: Dify Chat Workflows API
+  slug: open-dify-workflows-api
 - collection_type: open
   name: Dify API
   slug: open-dify
@@ -146,7 +167,7 @@ plans:
 - name: Dify Plans Pricing
   plan_count: 3
   slug: dify-plans-pricing
-random_paper: 68
+random_paper: 130
 rate_limits:
 - limit_count: 5
   name: Dify Rate Limits
@@ -171,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/screenshots/dify-2026-06-20T180051.png
 security:

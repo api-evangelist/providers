@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,17 +60,41 @@ apis:
 - description: Order tracking and delivery information
   name: ScanSource Tracking API
   slug: scansource-tracking-api
-artifact_total: 24
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ScanSource Invoice Availability API
+  slug: open-scansource-availability-api
 - collection_type: open
   name: ScanSource Invoice API
   slug: open-scansource-invoice
 - collection_type: open
+  name: ScanSource Invoice Availability Invoices API
+  slug: open-scansource-invoices-api
+- collection_type: open
+  name: ScanSource Invoice Availability Orders API
+  slug: open-scansource-orders-api
+- collection_type: open
+  name: ScanSource Invoice Availability Pricing API
+  slug: open-scansource-pricing-api
+- collection_type: open
   name: ScanSource Product API
   slug: open-scansource-product
 - collection_type: open
+  name: ScanSource Invoice Availability Products API
+  slug: open-scansource-products-api
+- collection_type: open
   name: ScanSource Sales Order API
   slug: open-scansource-sales-order
+- collection_type: open
+  name: ScanSource Invoice Availability Shipping API
+  slug: open-scansource-shipping-api
+- collection_type: open
+  name: ScanSource Invoice Availability Tracking API
+  slug: open-scansource-tracking-api
 common:
 - group: agent
   title: ''
@@ -186,7 +210,7 @@ press:
 - date: '2026-05-25'
   title: ScanSource Q3 Earnings Call Highlights
   url: https://www.theglobeandmail.com/investing/markets/stocks/SCSC/pressreleases/1832981/scansource-q3-earnings-call-highlights/
-random_paper: 118
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Scansource Rate Limits
@@ -228,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png
 security:

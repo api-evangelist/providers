@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Braiins Mining Insights Public API provides access to Bitcoin mining network statistics, hashrate data, and mining pool performance metrics. Used for research, analysis, and integration with minin
@@ -98,7 +98,7 @@ plans:
 - name: Braiins Academy Plans Pricing
   plan_count: 3
   slug: braiins-academy-plans-pricing
-random_paper: 73
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Braiins Academy Rate Limits
@@ -116,7 +116,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braiins-academy/refs/heads/main/screenshots/braiins-academy-2026-06-20T173627.png
 security:

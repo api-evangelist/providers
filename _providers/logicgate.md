@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: A [Workflow Map](https://help.logicgate.com/hc/en-us/articles/4402683117588) represents a relationship between two Workflows
   name: LogicGate Workflow Map API
   slug: logicgate-workflow-map-api
-artifact_total: 17
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Risk Cloud Access Audit API
+  slug: open-logicgate-access-audit-api
+- collection_type: open
+  name: Risk Cloud Access Audit Application API
+  slug: open-logicgate-application-api
+- collection_type: open
+  name: Risk Cloud Access Audit Authentication API
+  slug: open-logicgate-authentication-api
+- collection_type: open
+  name: Risk Cloud Access Audit Edge Path API
+  slug: open-logicgate-edge-path-api
+- collection_type: open
+  name: Risk Cloud Access Audit Field API
+  slug: open-logicgate-field-api
+- collection_type: open
+  name: Risk Cloud Access Audit Next Path API
+  slug: open-logicgate-next-path-api
+- collection_type: open
+  name: Risk Cloud Access Audit Record API
+  slug: open-logicgate-record-api
+- collection_type: open
+  name: Risk Cloud Access Audit Redirect Path API
+  slug: open-logicgate-redirect-path-api
+- collection_type: open
+  name: Risk Cloud Access Audit Step API
+  slug: open-logicgate-step-api
+- collection_type: open
+  name: Risk Cloud Access Audit Workflow API
+  slug: open-logicgate-workflow-api
+- collection_type: open
+  name: Risk Cloud Access Audit Workflow Map API
+  slug: open-logicgate-workflow-map-api
 common:
 - group: start
   title: ''
@@ -210,7 +247,7 @@ overview: 'LogicGate publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LogicGate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, changelog, and 23 more developer resources.'
-random_paper: 103
+random_paper: 49
 score:
   band: developing
   composite: 48.7
@@ -234,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/screenshots/logicgate-2026-07-25T225458.png
 security:

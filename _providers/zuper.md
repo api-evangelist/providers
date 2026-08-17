@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -81,7 +81,53 @@ apis:
 - description: Webhook registration and event subscription management
   name: Zuper Webhooks API
   slug: zuper-webhooks-api
-artifact_total: 29
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zuper REST Assets API
+  slug: open-zuper-assets-api
+- collection_type: open
+  name: Zuper REST Assets Authentication API
+  slug: open-zuper-authentication-api
+- collection_type: open
+  name: Zuper REST Assets Customers API
+  slug: open-zuper-customers-api
+- collection_type: open
+  name: Zuper REST Assets Invoices API
+  slug: open-zuper-invoices-api
+- collection_type: open
+  name: Zuper REST Assets Jobs API
+  slug: open-zuper-jobs-api
+- collection_type: open
+  name: Zuper REST Assets Organizations API
+  slug: open-zuper-organizations-api
+- collection_type: open
+  name: Zuper REST Assets Projects API
+  slug: open-zuper-projects-api
+- collection_type: open
+  name: Zuper REST Assets Properties API
+  slug: open-zuper-properties-api
+- collection_type: open
+  name: Zuper REST Assets Purchase Orders API
+  slug: open-zuper-purchase-orders-api
+- collection_type: open
+  name: Zuper REST Assets Teams API
+  slug: open-zuper-teams-api
+- collection_type: open
+  name: Zuper REST Assets Timesheets API
+  slug: open-zuper-timesheets-api
+- collection_type: open
+  name: Zuper REST Assets Users API
+  slug: open-zuper-users-api
+- collection_type: open
+  name: Zuper REST Assets Vendors API
+  slug: open-zuper-vendors-api
+- collection_type: open
+  name: Zuper REST Assets Webhooks API
+  slug: open-zuper-webhooks-api
 common:
 - group: agent
   title: ''
@@ -191,7 +237,7 @@ plans:
 - name: Zuper Plans Pricing
   plan_count: 3
   slug: zuper-plans-pricing
-random_paper: 86
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Zuper Rate Limits
@@ -225,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/screenshots/zuper-2026-06-20T202002.png
 security:

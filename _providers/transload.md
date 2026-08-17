@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 22
 apis:
 - description: The Admin API from Transload — 36 operation(s) for admin.
@@ -97,7 +97,77 @@ apis:
 - description: The Sites API from Transload — 2 operation(s) for sites.
   name: Transload Sites API
   slug: transload-sites-api
-artifact_total: 25
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pipeline Backend Admin API
+  slug: open-transload-admin-api
+- collection_type: open
+  name: Pipeline Backend Admin Ai Results API
+  slug: open-transload-ai-results-api
+- collection_type: open
+  name: Pipeline Backend Admin Artifacts API
+  slug: open-transload-artifacts-api
+- collection_type: open
+  name: Pipeline Backend Admin Cameras API
+  slug: open-transload-cameras-api
+- collection_type: open
+  name: Pipeline Backend Admin Customer API
+  slug: open-transload-customer-api
+- collection_type: open
+  name: Pipeline Backend Admin Customers API
+  slug: open-transload-customers-api
+- collection_type: open
+  name: Pipeline Backend Admin Exports API
+  slug: open-transload-exports-api
+- collection_type: open
+  name: Pipeline Backend Admin Handling Units API
+  slug: open-transload-handling-units-api
+- collection_type: open
+  name: Pipeline Backend Admin Healthz API
+  slug: open-transload-healthz-api
+- collection_type: open
+  name: Pipeline Backend Admin Ingestor API
+  slug: open-transload-ingestor-api
+- collection_type: open
+  name: Pipeline Backend Admin Internal API
+  slug: open-transload-internal-api
+- collection_type: open
+  name: Pipeline Backend Admin Measurement API
+  slug: open-transload-measurement-api
+- collection_type: open
+  name: Pipeline Backend Admin Media Assets API
+  slug: open-transload-media-assets-api
+- collection_type: open
+  name: Pipeline Backend Admin Processing Jobs API
+  slug: open-transload-processing-jobs-api
+- collection_type: open
+  name: Pipeline Backend Admin Qa API
+  slug: open-transload-qa-api
+- collection_type: open
+  name: Pipeline Backend Admin Qa Classification API
+  slug: open-transload-qa-classification-api
+- collection_type: open
+  name: Pipeline Backend Admin Qa Measurement API
+  slug: open-transload-qa-measurement-api
+- collection_type: open
+  name: Pipeline Backend Admin Readyz API
+  slug: open-transload-readyz-api
+- collection_type: open
+  name: Pipeline Backend Admin Reference Measurements API
+  slug: open-transload-reference-measurements-api
+- collection_type: open
+  name: Pipeline Backend Admin Refresh Token API
+  slug: open-transload-refresh-token-api
+- collection_type: open
+  name: Pipeline Backend Admin Scans API
+  slug: open-transload-scans-api
+- collection_type: open
+  name: Pipeline Backend Admin Sites API
+  slug: open-transload-sites-api
 common:
 - group: other
   title: ''
@@ -179,7 +249,7 @@ overview: 'Transload publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Transload''s developer surface includes authentication, support, documentation, API reference, and 12 more developer resources.'
-random_paper: 8
+random_paper: 74
 score:
   band: thin
   composite: 29.4
@@ -202,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

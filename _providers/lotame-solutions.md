@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-12'
+  score: 18.5
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Token-based REST API for managing first-party data, building and editing audience segments, activating audiences, and retrieving behavior and audience analytics on the Lotame Spherical platform. JSON '
@@ -37,7 +37,7 @@ apis:
 - description: 'Real-time server-side API that returns the assigned Panorama ID for an IP address and user-agent (web) or Mobile Advertiser ID / MAID (mobile app). JSON POST to sid.crwdcntrl.net/sid, identified by a '
   name: Panorama ID Server-Side API
   slug: panorama-id-server-side-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -105,16 +105,48 @@ common:
   url: security/lotame-solutions-domain-security.yml
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/lotame-solutions-well-known.yml
-- group: agent
-  title: ''
   type: MCPServer
   url: mcp/lotame-solutions-mcp.yml
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/lotame-solutions-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/lotame-solutions-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/lotame-solutions-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/lotame-solutions-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/lotame-solutions-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lotame-solutions-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/lotame-solutions-rate-limits.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.lotame.com/legal/eu-privacy-consent-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Lotame
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/Lotame/api-examples
 created: '2026-07-17'
 description: Lotame Solutions is a data collaboration and identity company for digital marketing and advertising. Its Spherical platform lets marketers, agencies, and publishers connect, enrich, and activate first- and third-party audience data, while Panorama ID delivers a privacy-first, cookieless identity for addressability across web, mobile app, and CTV. Lotame exposes a token-based Admin Services REST API (api.lotame.com/2/) for managing first-party data, building audiences, and pulling behavior and audience statistics, plus a server-side Panorama ID resolution API on sid.crwdcntrl.net for web and mobile (MAID) identity lookups. Lotame operates across 24 countries and was acquired by Publicis Groupe.
 image: https://cdn-ilbibgp.nitrocdn.com/eakWUVxgVLoymIJUurpQZcwTweYHDeju/assets/images/optimized/rev-6d2d189/www.lotame.com/wp-content/uploads/2025/05/lotame-website-favicon-300x300.png
@@ -123,32 +155,40 @@ mcp_servers:
 - description: ''
   name: lotame-solutions-mcp.yml
   slug: lotame-solutions-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Lotame Solutions
 nav: Providers
 network: true
 overview: 'Lotame Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management Platform, Identity, Advertising, and Marketing.
 
 
-  Lotame Solutions'' developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 15
+  Lotame Solutions'' developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, and 21 more developer resources.'
+plans:
+- name: Lotame Solutions Plans Pricing
+  plan_count: 0
+  slug: lotame-solutions-plans-pricing
+random_paper: 56
+rate_limits:
+- limit_count: 0
+  name: Lotame Solutions Rate Limits
+  slug: lotame-solutions-rate-limits
 score:
-  band: emerging
-  composite: 24.6
-  delta: 0.0
+  band: thin
+  composite: 28.2
+  delta: 3.6
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 43.5
+    developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 12.5
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 24.6
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/screenshots/lotame-solutions-2026-07-25T225550.png
 security:

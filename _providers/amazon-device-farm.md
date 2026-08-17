@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 3
@@ -270,7 +270,7 @@ apis:
 - description: 'The #X Amz Target=DeviceFarm 20150623.UpdateVPCEConfiguration API from Amazon Device Farm — 1 operation(s) for #x amz target=devicefarm 20150623.updatevpceconfiguration.'
   name: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.UpdateVPCEConfiguration API'
   slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updatevpceconfiguration-api
-artifact_total: 256
+artifact_total: 334
 collections:
 - collection_type: postman
   name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool API'
@@ -503,6 +503,240 @@ collections:
 - collection_type: postman
   name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateVPCEConfiguration API'
   slug: postman-amazon-device-farm-x-amz-target-devicefarm-20150623-updatevpceconfiguration-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-createdevicepool-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateInstanceProfile API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-createinstanceprofile-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateNetworkProfile API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-createnetworkprofile-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateProject API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-createproject-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateRemoteAccessSession API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-createremoteaccesssession-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateTestGridProject API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-createtestgridproject-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateTestGridUrl API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-createtestgridurl-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateUpload API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-createupload-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateVPCEConfiguration API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-createvpceconfiguration-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.DeleteDevicePool API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-deletedevicepool-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.DeleteInstanceProfile API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-deleteinstanceprofile-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.DeleteNetworkProfile API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-deletenetworkprofile-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.DeleteProject API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-deleteproject-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.DeleteRemoteAccessSession API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-deleteremoteaccesssession-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.DeleteRun API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-deleterun-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.DeleteTestGridProject API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-deletetestgridproject-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.DeleteUpload API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-deleteupload-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.DeleteVPCEConfiguration API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-deletevpceconfiguration-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetAccountSettings API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getaccountsettings-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetDevice API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getdevice-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetDeviceInstance API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getdeviceinstance-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetDevicePool API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getdevicepool-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetDevicePoolCompatibility API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getdevicepoolcompatibility-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetInstanceProfile API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getinstanceprofile-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetJob API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getjob-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetNetworkProfile API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getnetworkprofile-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetOfferingStatus API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getofferingstatus-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetProject API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getproject-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetRemoteAccessSession API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getremoteaccesssession-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetRun API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getrun-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetSuite API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getsuite-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetTest API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-gettest-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetTestGridProject API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-gettestgridproject-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetTestGridSession API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-gettestgridsession-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetUpload API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getupload-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.GetVPCEConfiguration API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-getvpceconfiguration-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.InstallToRemoteAccessSession API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-installtoremoteaccesssession-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListArtifacts API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listartifacts-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListDeviceInstances API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listdeviceinstances-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListDevicePools API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listdevicepools-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListDevices API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listdevices-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListInstanceProfiles API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listinstanceprofiles-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListJobs API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listjobs-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListNetworkProfiles API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listnetworkprofiles-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListOfferingPromotions API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listofferingpromotions-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListOfferings API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listofferings-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListOfferingTransactions API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listofferingtransactions-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListProjects API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listprojects-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListRemoteAccessSessions API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listremoteaccesssessions-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListRuns API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listruns-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListSamples API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listsamples-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListSuites API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listsuites-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListTagsForResource API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listtagsforresource-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListTestGridProjects API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridprojects-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListTestGridSessionActions API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessionactions-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListTestGridSessionArtifacts API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessionartifacts-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListTestGridSessions API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listtestgridsessions-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListTests API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listtests-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListUniqueProblems API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listuniqueproblems-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListUploads API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listuploads-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ListVPCEConfigurations API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-listvpceconfigurations-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.PurchaseOffering API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-purchaseoffering-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.RenewOffering API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-renewoffering-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.ScheduleRun API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-schedulerun-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.StopJob API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-stopjob-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.StopRemoteAccessSession API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-stopremoteaccesssession-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.StopRun API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-stoprun-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.TagResource API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-tagresource-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UntagResource API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-untagresource-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateDeviceInstance API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-updatedeviceinstance-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateDevicePool API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-updatedevicepool-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateInstanceProfile API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-updateinstanceprofile-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateNetworkProfile API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-updatenetworkprofile-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateProject API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-updateproject-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateTestGridProject API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-updatetestgridproject-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateUpload API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-updateupload-api
+- collection_type: open
+  name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateVPCEConfiguration API'
+  slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-updatevpceconfiguration-api
 common:
 - group: build
   title: ''
@@ -870,7 +1104,7 @@ plans:
 - name: Amazon Device Farm Plans Pricing
   plan_count: 3
   slug: amazon-device-farm-plans-pricing
-random_paper: 102
+random_paper: 143
 rate_limits:
 - limit_count: 5
   name: Amazon Device Farm Rate Limits
@@ -912,7 +1146,7 @@ score:
       marker_coverage: 0.0
       total: 77
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/screenshots/amazon-device-farm-2026-06-20T171633.png
 security:

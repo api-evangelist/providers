@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: Guest account lookups
   name: Olo Users API
   slug: olo-users-api
-artifact_total: 91
+artifact_total: 98
 asyncapis:
 - description: Olo emits outbound HTTP webhooks to partner-registered endpoints for order lifecycle, loyalty, gift-card, tender, and marketplace status events. Each delivery includes an X-Olo-Message-Id header (a un
   name: Olo Webhooks
@@ -109,11 +109,32 @@ collections:
   name: Olo Ordering Accounts Users API
   slug: postman-olo-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Olo Ordering Accounts API
+  slug: open-olo-accounts-api
+- collection_type: open
+  name: Olo Ordering Accounts Accruals API
+  slug: open-olo-accruals-api
+- collection_type: open
+  name: Olo Ordering Accounts Brand API
+  slug: open-olo-brand-api
+- collection_type: open
   name: Olo Ordering API
   slug: open-olo-ordering
 - collection_type: open
+  name: Olo Ordering Accounts Promotions API
+  slug: open-olo-promotions-api
+- collection_type: open
   name: Olo Promotions API
   slug: open-olo-promotions
+- collection_type: open
+  name: Olo Ordering Accounts Rails API
+  slug: open-olo-rails-api
+- collection_type: open
+  name: Olo Ordering Accounts Users API
+  slug: open-olo-users-api
 common:
 - group: build
   title: ''
@@ -400,7 +421,7 @@ plans:
 - name: Olo Plans Pricing
   plan_count: 4
   slug: olo-plans-pricing
-random_paper: 90
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Olo Rate Limits
@@ -456,7 +477,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/screenshots/olo-2026-06-20T190700.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -112,7 +112,7 @@ apis:
 - description: The Webhook Events API from HitPay — 2 operation(s) for webhook events.
   name: HitPay Webhook Events API
   slug: hitpay-webhook-events-api
-artifact_total: 58
+artifact_total: 83
 asyncapis:
 - description: ''
   name: Hitpay Events Webhooks
@@ -190,6 +190,81 @@ collections:
 - collection_type: postman
   name: HitPay Account Status Webhook Events API
   slug: postman-hitpay-webhook-events-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HitPay Account Status API
+  slug: open-hitpay-account-status-api
+- collection_type: open
+  name: HitPay Account Status Balances API
+  slug: open-hitpay-balances-api
+- collection_type: open
+  name: HitPay Account Status Beneficiaries API
+  slug: open-hitpay-beneficiaries-api
+- collection_type: open
+  name: HitPay Account Status Charge API
+  slug: open-hitpay-charge-api
+- collection_type: open
+  name: HitPay Account Status Charges API
+  slug: open-hitpay-charges-api
+- collection_type: open
+  name: HitPay Account Status Customers API
+  slug: open-hitpay-customers-api
+- collection_type: open
+  name: HitPay Account Status Invoices API
+  slug: open-hitpay-invoices-api
+- collection_type: open
+  name: HitPay Account Status Notifications API
+  slug: open-hitpay-notifications-api
+- collection_type: open
+  name: HitPay Account Status Orders API
+  slug: open-hitpay-orders-api
+- collection_type: open
+  name: HitPay Account Status Payment Requests API
+  slug: open-hitpay-payment-requests-api
+- collection_type: open
+  name: HitPay Account Status Product Category API
+  slug: open-hitpay-product-category-api
+- collection_type: open
+  name: HitPay Account Status Products API
+  slug: open-hitpay-products-api
+- collection_type: open
+  name: HitPay Account Status Readers API
+  slug: open-hitpay-readers-api
+- collection_type: open
+  name: HitPay Account Status Recurring Billing API
+  slug: open-hitpay-recurring-billing-api
+- collection_type: open
+  name: HitPay Account Status Refund API
+  slug: open-hitpay-refund-api
+- collection_type: open
+  name: HitPay Account Status Refunds API
+  slug: open-hitpay-refunds-api
+- collection_type: open
+  name: HitPay Account Status Remitters API
+  slug: open-hitpay-remitters-api
+- collection_type: open
+  name: HitPay Account Status Staffs API
+  slug: open-hitpay-staffs-api
+- collection_type: open
+  name: HitPay Account Status Static Qr API
+  slug: open-hitpay-static-qr-api
+- collection_type: open
+  name: HitPay Account Status Subscription Plan API
+  slug: open-hitpay-subscription-plan-api
+- collection_type: open
+  name: HitPay Account Status Subscription Plans API
+  slug: open-hitpay-subscription-plans-api
+- collection_type: open
+  name: HitPay Account Status Transfers API
+  slug: open-hitpay-transfers-api
+- collection_type: open
+  name: HitPay Account Status Virtual Accounts API
+  slug: open-hitpay-virtual-accounts-api
+- collection_type: open
+  name: HitPay Account Status Webhook Events API
+  slug: open-hitpay-webhook-events-api
 common:
 - group: build
   title: ''
@@ -370,7 +445,7 @@ plans:
 - name: Hitpay Plans Pricing
   plan_count: 3
   slug: hitpay-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Hitpay Rate Limits
@@ -404,7 +479,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/screenshots/hitpay-2026-07-25T221304.png
 security:

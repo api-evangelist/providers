@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 1
@@ -81,7 +81,7 @@ apis:
 - description: The stores API from Mixedbread — 17 operation(s) for stores.
   name: Mixedbread stores API
   slug: mixedbread-ai-stores-api
-artifact_total: 55
+artifact_total: 70
 collections:
 - collection_type: postman
   name: Mixedbread admin API
@@ -126,8 +126,53 @@ collections:
   name: Mixedbread admin stores API
   slug: postman-mixedbread-ai-stores-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Mixedbread Admin API
   slug: open-mixedbread-admin-api
+- collection_type: open
+  name: Mixedbread admin API
+  slug: open-mixedbread-ai-admin-api
+- collection_type: open
+  name: Mixedbread admin api_keys API
+  slug: open-mixedbread-ai-api-keys-api
+- collection_type: open
+  name: Mixedbread admin billing API
+  slug: open-mixedbread-ai-billing-api
+- collection_type: open
+  name: Mixedbread admin completions API
+  slug: open-mixedbread-ai-completions-api
+- collection_type: open
+  name: Mixedbread admin data_sources API
+  slug: open-mixedbread-ai-data-sources-api
+- collection_type: open
+  name: Mixedbread admin deprecated_vector_stores API
+  slug: open-mixedbread-ai-deprecated-vector-stores-api
+- collection_type: open
+  name: Mixedbread admin Embeddings API
+  slug: open-mixedbread-ai-embeddings-api
+- collection_type: open
+  name: Mixedbread admin extractions API
+  slug: open-mixedbread-ai-extractions-api
+- collection_type: open
+  name: Mixedbread admin files API
+  slug: open-mixedbread-ai-files-api
+- collection_type: open
+  name: Mixedbread admin Mixedbread Embeddings API API
+  slug: open-mixedbread-ai-mixedbread-embeddings-api-api
+- collection_type: open
+  name: Mixedbread admin parsing API
+  slug: open-mixedbread-ai-parsing-api
+- collection_type: open
+  name: Mixedbread admin Reranking API
+  slug: open-mixedbread-ai-reranking-api
+- collection_type: open
+  name: Mixedbread admin schemas API
+  slug: open-mixedbread-ai-schemas-api
+- collection_type: open
+  name: Mixedbread admin stores API
+  slug: open-mixedbread-ai-stores-api
 - collection_type: open
   name: Mixedbread API Keys API
   slug: open-mixedbread-api-keys-api
@@ -330,7 +375,7 @@ plans:
 - name: Mixedbread Ai Plans Pricing
   plan_count: 4
   slug: mixedbread-ai-plans-pricing
-random_paper: 92
+random_paper: 100
 rate_limits:
 - limit_count: 4
   name: Mixedbread Ai Rate Limits
@@ -372,7 +417,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

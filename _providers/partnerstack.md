@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Transactions API from PartnerStack — 1 operation(s) for transactions.
   name: PartnerStack Transactions API
   slug: partnerstack-transactions-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PartnerStack Customers API
+  slug: open-partnerstack-customers-api
+- collection_type: open
+  name: PartnerStack Customers Deals API
+  slug: open-partnerstack-deals-api
+- collection_type: open
+  name: PartnerStack Customers Partnerships API
+  slug: open-partnerstack-partnerships-api
+- collection_type: open
+  name: PartnerStack Customers Rewards API
+  slug: open-partnerstack-rewards-api
+- collection_type: open
+  name: PartnerStack Customers Transactions API
+  slug: open-partnerstack-transactions-api
 - collection_type: open
   name: PartnerStack API
   slug: open-partnerstack
@@ -120,7 +138,7 @@ plans:
 - name: Partnerstack Plans Pricing
   plan_count: 3
   slug: partnerstack-plans-pricing
-random_paper: 98
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Partnerstack Rate Limits
@@ -145,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/screenshots/partnerstack-2026-06-20T191432.png
 security:

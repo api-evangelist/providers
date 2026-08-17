@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -105,8 +105,74 @@ apis:
 - description: The UsageEvents API from Tabs — 2 operation(s) for usageevents.
   name: Tabs UsageEvents API
   slug: tabs-fi-usageevents-api
-artifact_total: 29
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tabs Platform BillingTerms API
+  slug: open-tabs-fi-billingterms-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Categories API
+  slug: open-tabs-fi-categories-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Commitments API
+  slug: open-tabs-fi-commitments-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Contracts API
+  slug: open-tabs-fi-contracts-api
+- collection_type: open
+  name: Tabs Platform BillingTerms CreditMemos API
+  slug: open-tabs-fi-creditmemos-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Customers API
+  slug: open-tabs-fi-customers-api
+- collection_type: open
+  name: Tabs Platform BillingTerms CustomFields API
+  slug: open-tabs-fi-customfields-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Events API
+  slug: open-tabs-fi-events-api
+- collection_type: open
+  name: Tabs Platform BillingTerms EventTypes API
+  slug: open-tabs-fi-eventtypes-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Invoices API
+  slug: open-tabs-fi-invoices-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Items API
+  slug: open-tabs-fi-items-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Jobs API
+  slug: open-tabs-fi-jobs-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Merchant API
+  slug: open-tabs-fi-merchant-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Obligations API
+  slug: open-tabs-fi-obligations-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Payments API
+  slug: open-tabs-fi-payments-api
+- collection_type: open
+  name: Tabs Platform BillingTerms PerformanceObligations API
+  slug: open-tabs-fi-performanceobligations-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Renewals API
+  slug: open-tabs-fi-renewals-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Reports API
+  slug: open-tabs-fi-reports-api
+- collection_type: open
+  name: Tabs Platform BillingTerms Revenue API
+  slug: open-tabs-fi-revenue-api
+- collection_type: open
+  name: Tabs Platform BillingTerms System API
+  slug: open-tabs-fi-system-api
+- collection_type: open
+  name: Tabs Platform BillingTerms UsageEvents API
+  slug: open-tabs-fi-usageevents-api
 - collection_type: open
   name: Tabs Platform API
   slug: open-tabs-fi
@@ -163,7 +229,7 @@ plans:
 - name: Tabs Fi Plans Pricing
   plan_count: 1
   slug: tabs-fi-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Tabs Fi Rate Limits
@@ -194,7 +260,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabs-fi/refs/heads/main/screenshots/tabs-fi-2026-06-20T194954.png
 security:

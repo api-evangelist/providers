@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Supplier management
   name: Oracle Retail Suppliers API
   slug: oracle-retail-suppliers-api
-artifact_total: 49
+artifact_total: 57
 collections:
 - collection_type: postman
   name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment API
@@ -93,11 +93,35 @@ collections:
   name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Suppliers API
   slug: postman-oracle-retail-suppliers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment API
+  slug: open-oracle-retail-fulfillment-api
+- collection_type: open
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Inventory API
+  slug: open-oracle-retail-inventory-api
+- collection_type: open
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Items API
+  slug: open-oracle-retail-items-api
+- collection_type: open
   name: Oracle Retail Merchandising Foundation Cloud Service API
   slug: open-oracle-retail-merchandising
 - collection_type: open
   name: Oracle Retail Order Management Suite Cloud Service API
   slug: open-oracle-retail-order-management
+- collection_type: open
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Orders API
+  slug: open-oracle-retail-orders-api
+- collection_type: open
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment PurchaseOrders API
+  slug: open-oracle-retail-purchaseorders-api
+- collection_type: open
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Returns API
+  slug: open-oracle-retail-returns-api
+- collection_type: open
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Suppliers API
+  slug: open-oracle-retail-suppliers-api
 common:
 - group: build
   title: ''
@@ -276,7 +300,7 @@ plans:
 - name: Oracle Retail Plans Pricing
   plan_count: 3
   slug: oracle-retail-plans-pricing
-random_paper: 116
+random_paper: 124
 rate_limits:
 - limit_count: 3
   name: Oracle Retail Rate Limits
@@ -315,7 +339,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/screenshots/oracle-retail-2026-06-20T191144.png
 security:

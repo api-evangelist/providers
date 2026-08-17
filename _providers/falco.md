@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,8 +53,20 @@ apis:
 - description: Version information
   name: Falco Version API
   slug: falco-version-api
-artifact_total: 15
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Falco HTTP Health API
+  slug: open-falco-health-api
+- collection_type: open
+  name: Falco HTTP Health Rules API
+  slug: open-falco-rules-api
+- collection_type: open
+  name: Falco HTTP Health Version API
+  slug: open-falco-version-api
 - collection_type: open
   name: Falco HTTP API
   slug: open-falco
@@ -162,7 +174,7 @@ plans:
 - name: Falco Plans Pricing
   plan_count: 3
   slug: falco-plans-pricing
-random_paper: 37
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Falco Rate Limits
@@ -196,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/screenshots/falco-2026-06-20T181029.png
 security:

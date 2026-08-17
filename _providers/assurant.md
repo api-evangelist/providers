@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,11 +54,26 @@ apis:
 - description: Insurance product catalog
   name: Assurant Products API
   slug: assurant-products-api
-artifact_total: 24
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Assurant APEX Embedded Insurance API
   slug: open-assurant-apex-insurance-api
+- collection_type: open
+  name: Assurant APEX Embedded Insurance Claims API
+  slug: open-assurant-claims-api
+- collection_type: open
+  name: Assurant APEX Embedded Insurance Claims Enrollments API
+  slug: open-assurant-enrollments-api
+- collection_type: open
+  name: Assurant APEX Embedded Insurance Claims Policies API
+  slug: open-assurant-policies-api
+- collection_type: open
+  name: Assurant APEX Embedded Insurance Claims Products API
+  slug: open-assurant-products-api
 common:
 - group: agent
   title: ''
@@ -146,7 +161,7 @@ press:
 - date: '2026-05-25'
   title: 'Building Trust in Enterprise AI: a Human-Centric Approach'
   url: https://www.assurant.com/news-insights/articles/human-approach-to-enterprise-ai
-random_paper: 41
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Assurant Rate Limits
@@ -177,7 +192,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/screenshots/assurant-2026-06-20T172509.png
 security:

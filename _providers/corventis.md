@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: Corventis
 nav: Providers
 network: true
 overview: Corventis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Cardiac Monitoring, and Remote Patient Monitoring.
-random_paper: 29
+random_paper: 95
 score:
   band: minimal
   composite: 4.3
@@ -59,7 +59,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: corventis
 tags:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Non-custodial yield REST API to discover yields, construct unsigned transaction flows (enter/exit/manage), and read unified balances across 80+ networks.
@@ -173,7 +173,7 @@ plans:
 - name: Yieldxyz Plans
   plan_count: 3
   slug: yieldxyz-plans
-random_paper: 58
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Yieldxyz Rate Limits
@@ -194,7 +194,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

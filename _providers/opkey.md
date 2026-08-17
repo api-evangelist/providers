@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 6
@@ -76,7 +76,56 @@ apis:
 - description: The Xctest Automation API from Opkey — 6 operation(s) for xctest automation.
   name: Opkey Xctest Automation API
   slug: opkey-xctest-automation-api
-artifact_total: 20
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: pCloudy Device Cloud Apk Instrumentation API
+  slug: open-opkey-apk-instrumentation-api
+- collection_type: open
+  name: pCloudy Device Cloud Apk Instrumentation Apis API
+  slug: open-opkey-apk-instrumentation-apis-api
+- collection_type: open
+  name: pCloudy Device Cloud App Center Api API
+  slug: open-opkey-app-center-api-api
+- collection_type: open
+  name: pCloudy Device Cloud App Control API
+  slug: open-opkey-app-control-api
+- collection_type: open
+  name: pCloudy Device Cloud Appium Automation API
+  slug: open-opkey-appium-automation-api
+- collection_type: open
+  name: pCloudy Device Cloud Authentication API
+  slug: open-opkey-authentication-api
+- collection_type: open
+  name: pCloudy Device Cloud Device Booking & Session API
+  slug: open-opkey-device-booking-session-api
+- collection_type: open
+  name: pCloudy Device Cloud Device Interaction API
+  slug: open-opkey-device-interaction-api
+- collection_type: open
+  name: pCloudy Device Cloud File Management API
+  slug: open-opkey-file-management-api
+- collection_type: open
+  name: pCloudy Device Cloud Generic API
+  slug: open-opkey-generic-api
+- collection_type: open
+  name: pCloudy Device Cloud Network Simulation API
+  slug: open-opkey-network-simulation-api
+- collection_type: open
+  name: pCloudy Device Cloud Performance API
+  slug: open-opkey-performance-api
+- collection_type: open
+  name: pCloudy Device Cloud Resigning Apis API
+  slug: open-opkey-resigning-apis-api
+- collection_type: open
+  name: pCloudy Device Cloud Session Media & Logs API
+  slug: open-opkey-session-media-logs-api
+- collection_type: open
+  name: pCloudy Device Cloud Xctest Automation API
+  slug: open-opkey-xctest-automation-api
 common:
 - group: other
   title: ''
@@ -199,7 +248,7 @@ overview: 'Opkey publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Opkey''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 19 more developer resources.'
-random_paper: 72
+random_paper: 105
 score:
   band: developing
   composite: 51.8
@@ -223,7 +272,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/screenshots/opkey-2026-08-07T190728.png
 security:

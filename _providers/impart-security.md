@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Impart Security's v0 REST management API — programmatically manage specs, API/log bindings, connectors, core rules, rule scripts and recipes, lists, labels, tags, event monitors, and notification temp
@@ -112,7 +112,7 @@ overview: 'Impart Security publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Impart Security''s developer surface includes documentation, engineering blog, signup flow, support, authentication, and 11 more developer resources.'
-random_paper: 26
+random_paper: 96
 score:
   band: emerging
   composite: 25.5
@@ -128,7 +128,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impart-security/refs/heads/main/screenshots/impart-security-2026-07-25T222144.png
 security:

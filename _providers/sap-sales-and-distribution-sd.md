@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ arazzos:
 - description: Read a returns delivery, list its items, then post goods receipt for it.
   name: SAP SD Returns Goods Receipt
   slug: sap-sales-and-distribution-sd-returns-goods-receipt-workflow
-artifact_total: 211
+artifact_total: 258
 collections:
 - collection_type: postman
   name: SAP Sales and Distribution (SD) SAP Billing Document API
@@ -282,6 +282,147 @@ collections:
 - collection_type: postman
   name: SAP Sales and Distribution (SD) SAP Sales Scheduling Agreement API
   slug: postman-sap-sd-sales-scheduling-agreement
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document API
+  slug: open-sap-sales-and-distribution-sd-billing-document-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Billing Document Item API
+  slug: open-sap-sales-and-distribution-sd-billing-document-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Billing Document Partner API
+  slug: open-sap-sales-and-distribution-sd-billing-document-partner-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Business Partner Address API
+  slug: open-sap-sales-and-distribution-sd-business-partner-address-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Business Partner API
+  slug: open-sap-sales-and-distribution-sd-business-partner-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Condition Record Validity API
+  slug: open-sap-sales-and-distribution-sd-condition-record-validity-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Credit Account API
+  slug: open-sap-sales-and-distribution-sd-credit-account-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Credit Exposure API
+  slug: open-sap-sales-and-distribution-sd-credit-exposure-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Credit Limit API
+  slug: open-sap-sales-and-distribution-sd-credit-limit-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Credit Memo Request API
+  slug: open-sap-sales-and-distribution-sd-credit-memo-request-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Credit Memo Request Item API
+  slug: open-sap-sales-and-distribution-sd-credit-memo-request-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Customer API
+  slug: open-sap-sales-and-distribution-sd-customer-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Customer Material API
+  slug: open-sap-sales-and-distribution-sd-customer-material-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Customer Return API
+  slug: open-sap-sales-and-distribution-sd-customer-return-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Customer Return Item API
+  slug: open-sap-sales-and-distribution-sd-customer-return-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Customer Sales Area API
+  slug: open-sap-sales-and-distribution-sd-customer-sales-area-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Debit Memo Request API
+  slug: open-sap-sales-and-distribution-sd-debit-memo-request-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Debit Memo Request Item API
+  slug: open-sap-sales-and-distribution-sd-debit-memo-request-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Inbound Delivery Header API
+  slug: open-sap-sales-and-distribution-sd-inbound-delivery-header-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Inbound Delivery Item API
+  slug: open-sap-sales-and-distribution-sd-inbound-delivery-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Outbound Delivery Header API
+  slug: open-sap-sales-and-distribution-sd-outbound-delivery-header-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Outbound Delivery Item API
+  slug: open-sap-sales-and-distribution-sd-outbound-delivery-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Outbound Delivery Partner API
+  slug: open-sap-sales-and-distribution-sd-outbound-delivery-partner-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Pricing Condition Record API
+  slug: open-sap-sales-and-distribution-sd-pricing-condition-record-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Product API
+  slug: open-sap-sales-and-distribution-sd-product-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Product Description API
+  slug: open-sap-sales-and-distribution-sd-product-description-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Product Plant API
+  slug: open-sap-sales-and-distribution-sd-product-plant-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Product Sales Delivery API
+  slug: open-sap-sales-and-distribution-sd-product-sales-delivery-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Returns Delivery Header API
+  slug: open-sap-sales-and-distribution-sd-returns-delivery-header-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Returns Delivery Item API
+  slug: open-sap-sales-and-distribution-sd-returns-delivery-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Contract API
+  slug: open-sap-sales-and-distribution-sd-sales-contract-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Contract Item API
+  slug: open-sap-sales-and-distribution-sd-sales-contract-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Inquiry API
+  slug: open-sap-sales-and-distribution-sd-sales-inquiry-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Inquiry Item API
+  slug: open-sap-sales-and-distribution-sd-sales-inquiry-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Order Header API
+  slug: open-sap-sales-and-distribution-sd-sales-order-header-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Order Item API
+  slug: open-sap-sales-and-distribution-sd-sales-order-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Order Partner API
+  slug: open-sap-sales-and-distribution-sd-sales-order-partner-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Order Pricing Element API
+  slug: open-sap-sales-and-distribution-sd-sales-order-pricing-element-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Order Schedule Line API
+  slug: open-sap-sales-and-distribution-sd-sales-order-schedule-line-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Order Text API
+  slug: open-sap-sales-and-distribution-sd-sales-order-text-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Quotation API
+  slug: open-sap-sales-and-distribution-sd-sales-quotation-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Quotation Item API
+  slug: open-sap-sales-and-distribution-sd-sales-quotation-item-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Sales Quotation Partner API
+  slug: open-sap-sales-and-distribution-sd-sales-quotation-partner-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Schedule Line API
+  slug: open-sap-sales-and-distribution-sd-schedule-line-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Scheduling Agreement API
+  slug: open-sap-sales-and-distribution-sd-scheduling-agreement-api
+- collection_type: open
+  name: SAP Sales and Distribution (SD) SAP Billing Document Scheduling Agreement Item API
+  slug: open-sap-sales-and-distribution-sd-scheduling-agreement-item-api
 - collection_type: open
   name: SAP Sales and Distribution (SD) SAP Billing Document API
   slug: open-sap-sd-billing-document
@@ -838,7 +979,7 @@ plans:
 - name: Sap Sales And Distribution Sd Plans Pricing
   plan_count: 1
   slug: sap-sales-and-distribution-sd-plans-pricing
-random_paper: 114
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Sap Sales And Distribution Sd Rate Limits
@@ -885,7 +1026,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/screenshots/sap-sales-and-distribution-sd-2026-06-20T193430.png
 security:

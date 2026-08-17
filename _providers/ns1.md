@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'REST/JSON API for managing NS1 (IBM NS1 Connect) authoritative DNS: zones, records, answers and filter chains, monitoring jobs, notification lists, data sources and feeds, account/team/user/API-key ma'
@@ -112,7 +112,7 @@ overview: 'NS1 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NS1''s developer surface includes documentation, API reference, authentication, CLI, and 12 more developer resources.'
-random_paper: 34
+random_paper: 125
 score:
   band: emerging
   composite: 17.8
@@ -126,7 +126,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/screenshots/ns1-2026-08-07T185658.png
 security:

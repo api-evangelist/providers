@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -143,17 +143,50 @@ arazzos:
 - description: Push an assignment's due date out, then grade a student's late submission.
   name: Canvas LMS Extend Due Date Then Grade Late Submission
   slug: canvas-lms-update-assignment-due-date-and-grade-workflow
-artifact_total: 71
+artifact_total: 82
 collections:
 - collection_type: postman
   name: Canvas LMS REST API
   slug: postman-canvas-lms-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canvas LMS REST Accounts API
+  slug: open-canvas-lms-accounts-api
+- collection_type: open
+  name: Canvas LMS REST Accounts Assignments API
+  slug: open-canvas-lms-assignments-api
+- collection_type: open
+  name: Canvas LMS REST Accounts Courses API
+  slug: open-canvas-lms-courses-api
+- collection_type: open
+  name: Canvas LMS REST Accounts Discussions API
+  slug: open-canvas-lms-discussions-api
+- collection_type: open
+  name: Canvas LMS REST Accounts Enrollments API
+  slug: open-canvas-lms-enrollments-api
+- collection_type: open
+  name: Canvas LMS REST Accounts Files API
+  slug: open-canvas-lms-files-api
+- collection_type: open
   name: Canvas LMS Live Events
   slug: open-canvas-lms-live-events-asyncapi
 - collection_type: open
+  name: Canvas LMS REST Accounts Modules API
+  slug: open-canvas-lms-modules-api
+- collection_type: open
+  name: Canvas LMS REST Accounts Outcomes API
+  slug: open-canvas-lms-outcomes-api
+- collection_type: open
   name: Canvas LMS REST API
   slug: open-canvas-lms-rest-api
+- collection_type: open
+  name: Canvas LMS REST Accounts Submissions API
+  slug: open-canvas-lms-submissions-api
+- collection_type: open
+  name: Canvas LMS REST Accounts Users API
+  slug: open-canvas-lms-users-api
 common:
 - group: agent
   title: ''
@@ -612,7 +645,7 @@ plans:
 - name: Canvas Lms Plans Pricing
   plan_count: 6
   slug: canvas-lms-plans-pricing
-random_paper: 53
+random_paper: 119
 rate_limits:
 - limit_count: 3
   name: Canvas Lms Rate Limits
@@ -653,7 +686,7 @@ score:
       total: 11
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/screenshots/canvas-lms-2026-06-20T173931.png
 security:

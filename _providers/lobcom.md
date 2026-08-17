@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-12'
+  score: 57.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -134,11 +134,111 @@ apis:
 - description: As mailpieces travel through the mail stream, USPS scans their unique barcodes, and Lob processes these mail scans to generate tracking events. <h3>Certified Tracking Event Details</h3> Letters sent w
   name: Lob.com Tracking Events API
   slug: lobcom-tracking-events-api
-artifact_total: 37
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Lobcom Webhooks
   slug: lobcom-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lob Accounts API
+  slug: open-lobcom-accounts-api
+- collection_type: open
+  name: Lob Addresses API
+  slug: open-lobcom-addresses-api
+- collection_type: open
+  name: Lob Bank Accounts API
+  slug: open-lobcom-bank-accounts-api
+- collection_type: open
+  name: Lob Billing Groups API
+  slug: open-lobcom-billing-groups-api
+- collection_type: open
+  name: Lob Booklets API
+  slug: open-lobcom-booklets-api
+- collection_type: open
+  name: Lob Buckslip Orders API
+  slug: open-lobcom-buckslip-orders-api
+- collection_type: open
+  name: Lob Buckslips API
+  slug: open-lobcom-buckslips-api
+- collection_type: open
+  name: Lob Campaigns API
+  slug: open-lobcom-campaigns-api
+- collection_type: open
+  name: Lob Card Orders API
+  slug: open-lobcom-card-orders-api
+- collection_type: open
+  name: Lob Cards API
+  slug: open-lobcom-cards-api
+- collection_type: open
+  name: Lob Checks API
+  slug: open-lobcom-checks-api
+- collection_type: open
+  name: Lob Creatives API
+  slug: open-lobcom-creatives-api
+- collection_type: open
+  name: Lob Events API
+  slug: open-lobcom-events-api
+- collection_type: open
+  name: Lob Identity Validation API
+  slug: open-lobcom-identity-validation-api
+- collection_type: open
+  name: Lob Informed Delivery Campaign API
+  slug: open-lobcom-informed-delivery-campaign-api
+- collection_type: open
+  name: Lob Intl Verifications API
+  slug: open-lobcom-intl-verifications-api
+- collection_type: open
+  name: Lob Letters API
+  slug: open-lobcom-letters-api
+- collection_type: open
+  name: Lob Lob Credits API
+  slug: open-lobcom-lob-credits-api
+- collection_type: open
+  name: Lob Postcards API
+  slug: open-lobcom-postcards-api
+- collection_type: open
+  name: Lob QR Codes API
+  slug: open-lobcom-qr-codes-api
+- collection_type: open
+  name: Lob Resource Proofs API
+  slug: open-lobcom-resource-proofs-api
+- collection_type: open
+  name: Lob Reverse Geocode Lookups API
+  slug: open-lobcom-reverse-geocode-lookups-api
+- collection_type: open
+  name: Lob Self Mailers API
+  slug: open-lobcom-self-mailers-api
+- collection_type: open
+  name: Lob Snap Packs API
+  slug: open-lobcom-snap-packs-api
+- collection_type: open
+  name: Lob Template Versions API
+  slug: open-lobcom-template-versions-api
+- collection_type: open
+  name: Lob Templates API
+  slug: open-lobcom-templates-api
+- collection_type: open
+  name: Lob Tracking Events API
+  slug: open-lobcom-tracking-events-api
+- collection_type: open
+  name: Lob Uploads API
+  slug: open-lobcom-uploads-api
+- collection_type: open
+  name: Lob URL Shortener API
+  slug: open-lobcom-url-shortener-api
+- collection_type: open
+  name: Lob US Autocompletions API
+  slug: open-lobcom-us-autocompletions-api
+- collection_type: open
+  name: Lob US Verifications API
+  slug: open-lobcom-us-verifications-api
+- collection_type: open
+  name: Lob Zip Lookups API
+  slug: open-lobcom-zip-lookups-api
 common:
 - group: other
   title: ''
@@ -191,7 +291,7 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.lob.com/legal/privacy
+  url: https://www.lob.com/privacy
 - group: operate
   title: ''
   type: StatusPage
@@ -204,10 +304,6 @@ common:
   title: ''
   type: SDKs
   url: packages/lobcom-packages.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/lobcom-well-known.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -276,6 +372,42 @@ common:
   title: ''
   type: AgenticAccess
   url: agentic-access/lobcom-agentic-access.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://raw.githubusercontent.com/lob/lob-openapi/main/dist/lob-api-postman.json
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/lob/lob-openapi
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.lob.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lobcom-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/lobcom-rate-limits.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/lobcom-components.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/lobcom-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/lobcom-trust-center.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/lobcom-tool-crosswalk.yml
 created: '2026-07-17'
 description: Lob is the direct-mail and address-verification API for developers. Its REST API lets teams programmatically create and mail postcards, letters, checks, self-mailers, snap packs, booklets, buckslips and cards; verify and autocomplete US and international addresses; run direct-mail and USPS Informed Delivery campaigns; manage HTML templates; and track physical delivery through USPS scan events surfaced over webhooks. The API is organized around REST with resource-oriented URLs, HTTP Basic authentication using test_/live_ API keys, cursor pagination, Idempotency-Key support, and standard rate-limit headers. Lob was surfaced as an a16z portfolio company and enriched into the API Evangelist network from its public OpenAPI, docs, SDKs, and registries.
 image: https://www.lob.com/favicon.ico
@@ -284,7 +416,7 @@ mcp_servers:
 - description: ''
   name: lobcom-mcp.yml
   slug: lobcom-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Lob.com
 nav: Providers
 network: true
@@ -294,19 +426,27 @@ overview: 'Lob.com publishes 32 APIs on the [APIs.io](https://apis.io/) network,
   The Lob.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lob.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 36
+  Lob.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
+plans:
+- name: Lobcom Plans Pricing
+  plan_count: 4
+  slug: lobcom-plans-pricing
+random_paper: 40
+rate_limits:
+- limit_count: 3
+  name: Lobcom Rate Limits
+  slug: lobcom-rate-limits
 score:
-  band: developing
-  composite: 53.6
-  delta: 0.0
+  band: exemplar
+  composite: 69.2
+  delta: 15.6
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 92.1
     contract_quality: 67.5
-    developer_ergonomics: 69.0
-    discoverability: 57.4
+    developer_ergonomics: 73.4
+    discoverability: 68.5
     governance: 11.5
-    operational_transparency: 52.6
+    operational_transparency: 84.2
   previous_composite: 53.6
   provenance:
     agentic_access: derived
@@ -319,8 +459,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/screenshots/lobcom-2026-07-25T225441.png
 security:
 - kind: authentication
@@ -331,6 +471,10 @@ security:
   name: Lobcom Domain Security
   slug: lobcom-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Lobcom Trust Center
+  slug: lobcom-trust-center
+  summary_line: SOC 2 Type 2, HIPAA, GDPR, CCPA/CPRA
 slug: lobcom
 tags:
 - Company

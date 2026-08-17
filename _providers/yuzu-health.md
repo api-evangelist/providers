@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 34
@@ -68,7 +68,41 @@ apis:
 - description: The Sponsor API from Yuzu Health — 1 operation(s) for sponsor.
   name: Yuzu Health Sponsor API
   slug: yuzu-health-sponsor-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) Accumulator (Experimental) API
+  slug: open-yuzu-health-accumulator-experimental-api
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) Benefits API
+  slug: open-yuzu-health-benefits-api
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) Coverage API
+  slug: open-yuzu-health-coverage-api
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) Enrollment API
+  slug: open-yuzu-health-enrollment-api
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) EOB (Experimental) API
+  slug: open-yuzu-health-eob-experimental-api
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) Group Policy API
+  slug: open-yuzu-health-group-policy-api
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) Member API
+  slug: open-yuzu-health-member-api
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) PublicApiV1 API
+  slug: open-yuzu-health-publicapiv1-api
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) PublicApiV2 API
+  slug: open-yuzu-health-publicapiv2-api
+- collection_type: open
+  name: Yuzu Accumulator (Experimental) Accumulator (Experimental) Sponsor API
+  slug: open-yuzu-health-sponsor-api
 common:
 - group: company
   title: ''
@@ -198,7 +232,7 @@ overview: 'Yuzu Health publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Yuzu Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 72
+random_paper: 109
 score:
   band: developing
   composite: 45.2
@@ -228,7 +262,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

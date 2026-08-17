@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -99,11 +99,75 @@ apis:
 - description: Watched packages API.
   name: Lightrun Watched packages API
   slug: lightrun-watched-packages-api
-artifact_total: 27
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Lightrun Webhooks
   slug: lightrun-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lightrun Actions API
+  slug: open-lightrun-actions-api
+- collection_type: open
+  name: Lightrun Actions Agent Pools API
+  slug: open-lightrun-agent-pools-api
+- collection_type: open
+  name: Lightrun Actions Agents API
+  slug: open-lightrun-agents-api
+- collection_type: open
+  name: Lightrun Actions Custom sources API
+  slug: open-lightrun-custom-sources-api
+- collection_type: open
+  name: Lightrun Actions Debug Cases API
+  slug: open-lightrun-debug-cases-api
+- collection_type: open
+  name: Lightrun Actions Debug Runbook methods API
+  slug: open-lightrun-debug-runbook-methods-api
+- collection_type: open
+  name: Lightrun Actions Debug Runbooks API
+  slug: open-lightrun-debug-runbooks-api
+- collection_type: open
+  name: Lightrun Actions Debug Runbooks Configuration API
+  slug: open-lightrun-debug-runbooks-configuration-api
+- collection_type: open
+  name: Lightrun Actions Dynamic SBOM API
+  slug: open-lightrun-dynamic-sbom-api
+- collection_type: open
+  name: Lightrun Actions Identity Management (IdM) configuration API
+  slug: open-lightrun-identity-management-idm-configuration-api
+- collection_type: open
+  name: Lightrun Actions Just-In-Time Access API
+  slug: open-lightrun-just-in-time-access-api
+- collection_type: open
+  name: Lightrun Actions License API
+  slug: open-lightrun-license-api
+- collection_type: open
+  name: Lightrun Actions Lightrun feature flags status API
+  slug: open-lightrun-lightrun-feature-flags-status-api
+- collection_type: open
+  name: Lightrun Actions Loaded packages API
+  slug: open-lightrun-loaded-packages-api
+- collection_type: open
+  name: Lightrun Actions SMTP connectivity configuration API
+  slug: open-lightrun-smtp-connectivity-configuration-api
+- collection_type: open
+  name: Lightrun Actions System access API key API
+  slug: open-lightrun-system-access-api-key-api
+- collection_type: open
+  name: Lightrun Actions Tags API
+  slug: open-lightrun-tags-api
+- collection_type: open
+  name: Lightrun Actions User Groups API
+  slug: open-lightrun-user-groups-api
+- collection_type: open
+  name: Lightrun Actions Users API
+  slug: open-lightrun-users-api
+- collection_type: open
+  name: Lightrun Actions Watched packages API
+  slug: open-lightrun-watched-packages-api
 common:
 - group: company
   title: ''
@@ -264,7 +328,7 @@ overview: 'Lightrun publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Lightrun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
-random_paper: 37
+random_paper: 132
 scopes:
 - name: Lightrun Scopes
   scope_count: 0
@@ -293,7 +357,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/screenshots/lightrun-2026-07-25T225125.png
 security:

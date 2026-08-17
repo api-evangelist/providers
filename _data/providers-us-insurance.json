@@ -27,7 +27,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -73,7 +73,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -119,7 +119,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -165,7 +165,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -199,7 +199,7 @@
      "name": "Verisk",
      "slug": "verisk",
      "description": "Verisk (formerly ISO) is a leading data analytics and technology company serving the insurance, energy, and financial services industries. Verisk provides risk scoring, actuarial data, property analytics, catastrophe modeling, claims benchmarking, and underwriting intelligence through RESTful APIs that power insurance pricing, reserving, and exposure management workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-06-20T200935.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-08-17T082751.png",
      "score": 50.5,
      "band": "developing",
      "band_label": "Developing",
@@ -211,7 +211,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -257,7 +257,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -284,6 +284,7 @@
      "name": "Socotra",
      "slug": "socotra",
      "description": "Socotra is a cloud-native insurance core platform that lets carriers, MGAs, and program administrators configure, launch, and operate insurance products across any line, geography, or distribution channel. Its Connected Core / Insurance Suite exposes a broad REST API covering business accounts, accounts and contacts, quotes and quick quotes, policy management and transactions, billing, invoicing and payments, claims (FNOL), producer management, work management, documents, accounting, reporting, search, moratoriums, configuration, and an event/webhook system. The platform ships first-party npm SDKs and CLIs, a schema-driven React UI SDK, a hosted Model Context Protocol (MCP) server for AI agents, and per-tenant configuration deployment. Backed by 8VC and Insight Partners. This profile was enriched by the API Evangelist pipeline from Socotra's public developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/screenshots/socotra-2026-08-17T081950.png",
      "score": 48.5,
      "band": "developing",
      "band_label": "Developing",
@@ -295,7 +296,7 @@
       "developer_ergonomics": 82.1,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -341,7 +342,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -386,7 +387,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -432,7 +433,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -478,7 +479,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -512,6 +513,7 @@
      "name": "Solera",
      "slug": "solera",
      "description": "Solera is a Westlake, Texas headquartered vehicle lifecycle management software, data, and services company operating in more than 100 countries, and one of the claims-technology intermediaries that sits between property and casualty insurers and the repair, salvage, and fleet economy rather than underwriting risk itself. Its insurance-facing business is automobile physical damage claims — first notice of loss intake, photo and AI damage assessment, repair cost estimating, total loss valuation, parts sourcing, and claims workflow — delivered through the Audatex and Qapter brands alongside Vehicle Repair (Identifix, Autodata, Hollander), Dealer Solutions (DealerSocket, cap hpi), and Fleet Solutions (Omnitracs, SmartDrive, eDriving) divisions. Its API posture is characteristic of the United States insurance market seam — there is no self-serve developer portal on solera.com, no signup, and no public API key. The Solera Integrations portal at na.api.solera.com returns HTTP 200 to an Audatex user ID and password login wall, and onboarding is a provisioned B2B integration run through a Solera account representative with a kickoff meeting and UAT. What is genuinely public is a set of anonymously readable Swagger UI reference pages and machine readable OpenAPI 3.0.1 documents on the Audatex demo API host, plus PDF integration guides on na.api.solera.com/files, covering assignment dispatch and first notice of loss, claim image retrieval, and GIC integration. Authentication is OAuth 2.0 against an IdentityServer discovery document at dispatch-login-demo.audatex.com with resource scopes including b2b.fnol.api, gofnol.api, estimatics.api, and hqclaims.api. Solera does not reference ACORD anywhere in its public integration documentation. Its published standards alignment is CIECA instead — Audatex is documented as a Corporate Technology member of the Collision Industry Electronic Commerce Association and licensed to use CIECA standards, with the BMS 5.7 schema as the data mapping baseline for estimate return, which is the auto physical damage sector's analogue to ACORD rather than ACORD itself.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/screenshots/solera-2026-08-17T081956.png",
      "score": 45.4,
      "band": "developing",
      "band_label": "Developing",
@@ -523,7 +525,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -569,7 +571,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -608,7 +610,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -654,7 +656,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -700,7 +702,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -746,7 +748,7 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -792,7 +794,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 32.9,
      "agent_band": "agent-aware",
@@ -842,7 +844,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -888,7 +890,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -934,7 +936,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -973,7 +975,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -1012,7 +1014,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1058,7 +1060,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1104,7 +1106,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1150,7 +1152,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1196,7 +1198,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1242,7 +1244,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1288,7 +1290,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1334,7 +1336,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1380,7 +1382,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1425,7 +1427,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1482,7 +1484,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1528,7 +1530,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1574,7 +1576,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1620,7 +1622,7 @@
       "developer_ergonomics": 38.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1666,7 +1668,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1712,7 +1714,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1758,7 +1760,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1804,7 +1806,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1849,7 +1851,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1895,7 +1897,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1941,7 +1943,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1987,7 +1989,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2032,7 +2034,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2078,7 +2080,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2124,7 +2126,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2170,7 +2172,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2216,7 +2218,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2262,7 +2264,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2308,7 +2310,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2354,7 +2356,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2400,7 +2402,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2446,7 +2448,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2492,7 +2494,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2538,7 +2540,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2584,7 +2586,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2630,7 +2632,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2675,7 +2677,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2721,7 +2723,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2767,7 +2769,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2813,7 +2815,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2859,7 +2861,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2904,7 +2906,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2959,7 +2961,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3005,7 +3007,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3051,7 +3053,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3097,7 +3099,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3189,7 +3191,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3235,7 +3237,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3280,7 +3282,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3326,7 +3328,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3372,7 +3374,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3418,7 +3420,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3464,7 +3466,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3510,7 +3512,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

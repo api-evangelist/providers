@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,7 +58,17 @@ apis:
 - description: The Generate Pdf API from Anvil — 1 operation(s) for generate pdf.
   name: Anvil Generate Pdf API
   slug: anvil-generate-pdf-api
-artifact_total: 19
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anvil PDF Filling Fill API
+  slug: open-anvil-fill-api
+- collection_type: open
+  name: Anvil PDF Filling Fill Generate Pdf API
+  slug: open-anvil-generate-pdf-api
 common:
 - group: agent
   title: ''
@@ -198,7 +208,7 @@ plans:
 - name: Anvil Plans Pricing
   plan_count: 4
   slug: anvil-plans-pricing
-random_paper: 58
+random_paper: 91
 rate_limits:
 - limit_count: 3
   name: Anvil Rate Limits
@@ -232,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/screenshots/anvil-2026-06-20T172029.png
 security:

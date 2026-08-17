@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 22
 apis:
 - description: Operations related to access rules
@@ -98,11 +98,81 @@ apis:
 - description: Operations related to users
   name: Opal Security users API
   slug: opal-security-users-api
-artifact_total: 28
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Opal Security Events Webhooks
   slug: opal-security-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Opal access-rules API
+  slug: open-opal-security-access-rules-api
+- collection_type: open
+  name: Opal access-rules apps API
+  slug: open-opal-security-apps-api
+- collection_type: open
+  name: Opal access-rules bundles API
+  slug: open-opal-security-bundles-api
+- collection_type: open
+  name: Opal access-rules configuration-templates API
+  slug: open-opal-security-configuration-templates-api
+- collection_type: open
+  name: Opal access-rules delegations API
+  slug: open-opal-security-delegations-api
+- collection_type: open
+  name: Opal access-rules event-streams API
+  slug: open-opal-security-event-streams-api
+- collection_type: open
+  name: Opal access-rules events API
+  slug: open-opal-security-events-api
+- collection_type: open
+  name: Opal access-rules group-bindings API
+  slug: open-opal-security-group-bindings-api
+- collection_type: open
+  name: Opal access-rules groups API
+  slug: open-opal-security-groups-api
+- collection_type: open
+  name: Opal access-rules idp-group-mappings API
+  slug: open-opal-security-idp-group-mappings-api
+- collection_type: open
+  name: Opal access-rules message-channels API
+  slug: open-opal-security-message-channels-api
+- collection_type: open
+  name: Opal access-rules non-human-identities API
+  slug: open-opal-security-non-human-identities-api
+- collection_type: open
+  name: Opal access-rules on-call-schedules API
+  slug: open-opal-security-on-call-schedules-api
+- collection_type: open
+  name: Opal access-rules opal-queries API
+  slug: open-opal-security-opal-queries-api
+- collection_type: open
+  name: Opal access-rules owners API
+  slug: open-opal-security-owners-api
+- collection_type: open
+  name: Opal access-rules requests API
+  slug: open-opal-security-requests-api
+- collection_type: open
+  name: Opal access-rules resources API
+  slug: open-opal-security-resources-api
+- collection_type: open
+  name: Opal access-rules sessions API
+  slug: open-opal-security-sessions-api
+- collection_type: open
+  name: Opal access-rules tags API
+  slug: open-opal-security-tags-api
+- collection_type: open
+  name: Opal access-rules tokens API
+  slug: open-opal-security-tokens-api
+- collection_type: open
+  name: Opal access-rules uars API
+  slug: open-opal-security-uars-api
+- collection_type: open
+  name: Opal access-rules users API
+  slug: open-opal-security-users-api
 common:
 - group: other
   title: ''
@@ -239,7 +309,7 @@ overview: 'Opal Security publishes 22 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Opal Security''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 22 more developer resources.'
-random_paper: 41
+random_paper: 20
 score:
   band: strong
   composite: 59.8
@@ -262,7 +332,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opal-security/refs/heads/main/screenshots/opal-security-2026-08-07T190441.png
 security:

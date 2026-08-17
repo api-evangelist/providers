@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
 - description: EODHD Financial Data API from EODHD — 83 path(s) described in OpenAPI.
   name: EODHD Financial Data API
   slug: eodhd-financial-data-openapi
-artifact_total: 27
+artifact_total: 30
 asyncapis:
 - description: Real-time streaming of US equity trades and quotes, forex, and cryptocurrency prices over WebSockets with sub-50ms latency. Authenticates with the same api_token used by the REST API (validated during
   name: EODHD WebSockets Real-Time API
@@ -86,8 +86,17 @@ collections:
   name: EODHD Financial Data API
   slug: postman-eodhd-financial-data
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EODHD End-Of-Day Historical Data Eod API
+  slug: open-eodhd-eod-api
+- collection_type: open
   name: EODHD End-Of-Day Historical Data API
   slug: open-eodhd-eod-historical-data
+- collection_type: open
+  name: EODHD Financial Data API
+  slug: open-eodhd-financial-data
 common:
 - group: build
   title: ''
@@ -307,7 +316,7 @@ plans:
 - name: Eodhd Plans Pricing
   plan_count: 6
   slug: eodhd-plans-pricing
-random_paper: 36
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Eodhd Rate Limits
@@ -355,7 +364,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png
 security:

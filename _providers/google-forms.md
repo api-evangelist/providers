@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ arazzos:
 - description: List the watches registered on a form and delete one to stop its notification delivery.
   name: Google Forms Unsubscribe Form Watches
   slug: google-forms-unsubscribe-form-watches-workflow
-artifact_total: 55
+artifact_total: 59
 collections:
 - collection_type: postman
   name: Google Forms API
@@ -84,6 +84,18 @@ collections:
 - collection_type: postman
   name: Google Forms Watches API
   slug: postman-google-forms-watches-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Forms API
+  slug: open-google-forms-forms-api
+- collection_type: open
+  name: Google Forms Responses API
+  slug: open-google-forms-responses-api
+- collection_type: open
+  name: Google Forms Watches API
+  slug: open-google-forms-watches-api
 common:
 - group: other
   title: ''
@@ -330,7 +342,7 @@ plans:
 - name: Google Forms Plans Pricing
   plan_count: 3
   slug: google-forms-plans-pricing
-random_paper: 33
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Google Forms Rate Limits
@@ -379,7 +391,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/screenshots/google-forms-2026-06-20T182203.png
 security:

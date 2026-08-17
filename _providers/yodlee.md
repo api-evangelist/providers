@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -107,11 +107,77 @@ apis:
 - description: Verify Account API
   name: Yodlee Verify Account API
   slug: yodlee-verify-account-api
-artifact_total: 31
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yodlee Core APIs Account Token API
+  slug: open-yodlee-account-token-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Accounts API
+  slug: open-yodlee-accounts-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Auth API
+  slug: open-yodlee-auth-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Cobrand API
+  slug: open-yodlee-cobrand-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Configs API
+  slug: open-yodlee-configs-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Consents API
+  slug: open-yodlee-consents-api
 - collection_type: open
   name: Yodlee Core APIs
   slug: open-yodlee-core
+- collection_type: open
+  name: Yodlee Core APIs Account Token DataExtracts API
+  slug: open-yodlee-dataextracts-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Derived API
+  slug: open-yodlee-derived-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Documents API
+  slug: open-yodlee-documents-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Holdings API
+  slug: open-yodlee-holdings-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Institutions API
+  slug: open-yodlee-institutions-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Payment Processor API
+  slug: open-yodlee-payment-processor-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token ProviderAccounts API
+  slug: open-yodlee-provideraccounts-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Providers API
+  slug: open-yodlee-providers-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Risk Analytics API
+  slug: open-yodlee-risk-analytics-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Statements API
+  slug: open-yodlee-statements-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Transactions API
+  slug: open-yodlee-transactions-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token User API
+  slug: open-yodlee-user-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token User Documents API
+  slug: open-yodlee-user-documents-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Verification API
+  slug: open-yodlee-verification-api
+- collection_type: open
+  name: Yodlee Core APIs Account Token Verify Account API
+  slug: open-yodlee-verify-account-api
 common:
 - group: company
   title: ''
@@ -197,7 +263,7 @@ plans:
 - name: Yodlee Plans Pricing
   plan_count: 1
   slug: yodlee-plans-pricing
-random_paper: 42
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Yodlee Rate Limits
@@ -228,7 +294,7 @@ score:
     regime_id: banking_open_finance
     score: 19.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/screenshots/yodlee-2026-06-20T201752.png
 security:

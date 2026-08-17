@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ arazzos:
 - description: Split a multi-document file into ranges, then extract structured fields from the original file, reading splits and fields.
   name: Mindee Split Then Extract
   slug: mindee-split-then-extract-workflow
-artifact_total: 61
+artifact_total: 62
 collections:
 - collection_type: postman
   name: Mindee Classification API
@@ -122,22 +122,25 @@ collections:
   name: Mindee Split API
   slug: postman-mindee-split-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Mindee Classification API
   slug: open-mindee-classification-api
 - collection_type: open
-  name: Mindee Crop API
+  name: Mindee Classification Crop API
   slug: open-mindee-crop-api
 - collection_type: open
-  name: Mindee Extraction API
+  name: Mindee Classification Extraction API
   slug: open-mindee-extraction-api
 - collection_type: open
-  name: Mindee Jobs API
+  name: Mindee Classification Jobs API
   slug: open-mindee-jobs-api
 - collection_type: open
-  name: Mindee OCR API
+  name: Mindee Classification Ocr API
   slug: open-mindee-ocr-api
 - collection_type: open
-  name: Mindee Split API
+  name: Mindee Classification Split API
   slug: open-mindee-split-api
 common:
 - group: agent
@@ -422,7 +425,7 @@ plans:
 - name: Mindee Plans Pricing
   plan_count: 4
   slug: mindee-plans-pricing
-random_paper: 26
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Mindee Rate Limits
@@ -464,7 +467,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/screenshots/mindee-2026-06-20T185555.png
 security:

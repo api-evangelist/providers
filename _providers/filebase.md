@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -84,7 +84,44 @@ apis:
 - description: Account-level usage and bandwidth metrics
   name: Filebase Usage API
   slug: filebase-usage-api
-artifact_total: 30
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets API
+  slug: open-filebase-buckets-api
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets Data Management API
+  slug: open-filebase-data-management-api
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets IPNS API
+  slug: open-filebase-ipns-api
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets Keypairs API
+  slug: open-filebase-keypairs-api
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets MFS API
+  slug: open-filebase-mfs-api
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets Multipart Upload API
+  slug: open-filebase-multipart-upload-api
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets Node API
+  slug: open-filebase-node-api
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets Objects API
+  slug: open-filebase-objects-api
+- collection_type: open
+  name: Filebase IPFS Service Buckets Pinning API
+  slug: open-filebase-pinning-api
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets Pins API
+  slug: open-filebase-pins-api
+- collection_type: open
+  name: Filebase IPFS Pinning Service Buckets Usage API
+  slug: open-filebase-usage-api
 common:
 - group: agent
   title: ''
@@ -193,7 +230,7 @@ plans:
 - name: Filebase Plans Pricing
   plan_count: 3
   slug: filebase-plans-pricing
-random_paper: 107
+random_paper: 82
 rate_limits:
 - limit_count: 0
   name: Filebase Rate Limits
@@ -227,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/screenshots/filebase-2026-06-20T181207.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: カスタム家族項目テンプレートを操作します
@@ -37,11 +37,21 @@ apis:
 - description: Webhook を操作します
   name: KUFU Webhook API
   slug: kufu-webhook-api
-artifact_total: 8
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Kufu Smarthr Webhooks
   slug: kufu-smarthr-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SmartHR カスタム家族項目テンプレート API
+  slug: open-kufu-default-api
+- collection_type: open
+  name: SmartHR カスタム家族項目テンプレート Webhook API
+  slug: open-kufu-webhook-api
 common:
 - group: company
   title: ''
@@ -214,7 +224,7 @@ overview: 'KUFU publishes 2 APIs on the [APIs.io](https://apis.io/) network: カ
 
 
   KUFU''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 83
+random_paper: 145
 score:
   band: developing
   composite: 53.1
@@ -243,7 +253,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png
 security:

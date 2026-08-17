@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -55,33 +55,72 @@ common:
   title: ''
   type: DomainSecurity
   url: security/alethea-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alethea-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/alethea-plans-pricing.yml
+- group: other
+  title: ''
+  type: Application
+  url: https://artemis.alethea.com/
+coverage:
+  checked: '2026-08-13'
+  detail: Alethea's own Artemis page advertises "a robust external API" for integrating Artemis data into customer workflows, but publishes no reference, no spec and no developer portal for it — every platform page terminates in a "Request a Demo" form, and the only live API, the Artemis app backend at artemis.alethea.com/api/v2 and /api/v3, answers 401 to every unauthenticated request.
+  evidence:
+  - status: 200
+    url: https://alethea.com/platform/artemis
+  - status: 401
+    url: https://artemis.alethea.com/api/v2/user/current
+  - status: 401
+    url: https://artemis.alethea.com/api/v3/insights
+  - note: HTTP 200 but the body is the 3,468-byte React SPA shell, not a spec — recorded as a miss. docs./api./developer./developers.alethea.com do not resolve in DNS.
+    status: 200
+    url: https://artemis.alethea.com/openapi.json
+  - status: 404
+    url: https://alethea.com/llms.txt
+  - status: 404
+    url: https://alethea.com/.well-known/api-catalog
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
 description: Alethea is an AI-powered risk intelligence company that operates a proactive narrative and disinformation risk management platform. Its flagship product, Artemis, is a threat intelligence and narrative-risk mitigation platform that detects coordinated inauthentic behavior, influence operations, and emerging online narratives before they escalate into reputational or operational crises. Complementary offerings include Risk Radar (a threat-visibility dashboard), an agentic AI takedown agent for automated mitigation, and Alethea Insights macro threat analysis. The company was surfaced as a portfolio company of GV and Multicoin Capital and added to the API Evangelist network. Alethea is an enterprise, engagement-led platform and does not currently publish a public developer API, SDKs, or a self-service developer portal.
 image: https://alethea.com/hubfs/raw_assets/public/alethea-theme/images/social-sharing.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-13'
 name: Alethea
 nav: Providers
 network: true
 overview: 'Alethea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Threat Intelligence, Narrative Risk, and Disinformation Detection.
 
 
-  Alethea''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 4
+  Alethea''s developer surface includes engineering blog, support, and 7 more developer resources.'
+plans:
+- name: Alethea Plans Pricing
+  plan_count: 0
+  slug: alethea-plans-pricing
+random_paper: 128
+rate_limits:
+- limit_count: 0
+  name: Alethea Rate Limits
+  slug: alethea-rate-limits
 score:
   band: minimal
-  composite: 10.5
-  delta: 0.0
+  composite: 11.3
+  delta: 0.8
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alethea/refs/heads/main/screenshots/alethea-2026-07-25T195600.png
 security:

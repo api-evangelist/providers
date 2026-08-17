@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Scheduled times at which an assigned technician performs work for a job.
@@ -64,11 +64,48 @@ apis:
 - description: Composite object creating jobs, customers, organizations and appointments in one call.
   name: Dispatch Work Orders API
   slug: dispatch-work-orders-api
-artifact_total: 15
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Dispatch Webhooks
   slug: dispatch-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dispatch Files API v1 Appointments API
+  slug: open-dispatch-appointments-api
+- collection_type: open
+  name: Dispatch Files API v1 Appointments Authentication API
+  slug: open-dispatch-authentication-api
+- collection_type: open
+  name: Dispatch Files API v1 Appointments Brands API
+  slug: open-dispatch-brands-api
+- collection_type: open
+  name: Dispatch Files API v1 Appointments Customers API
+  slug: open-dispatch-customers-api
+- collection_type: open
+  name: Dispatch API v1 Appointments Files API
+  slug: open-dispatch-files-api
+- collection_type: open
+  name: Dispatch Files API v1 Appointments Jobs API
+  slug: open-dispatch-jobs-api
+- collection_type: open
+  name: Dispatch Files API v1 Appointments Organizations API
+  slug: open-dispatch-organizations-api
+- collection_type: open
+  name: Dispatch Files API v1 Appointments Sources API
+  slug: open-dispatch-sources-api
+- collection_type: open
+  name: Dispatch Files API v1 Appointments Survey Responses API
+  slug: open-dispatch-survey-responses-api
+- collection_type: open
+  name: Dispatch Files API v1 Appointments Users API
+  slug: open-dispatch-users-api
+- collection_type: open
+  name: Dispatch Files API v1 Appointments Work Orders API
+  slug: open-dispatch-work-orders-api
 common:
 - group: other
   title: ''
@@ -197,7 +234,7 @@ overview: 'Dispatch publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Dispatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 8
+random_paper: 103
 score:
   band: developing
   composite: 49.1
@@ -220,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/screenshots/dispatch-2026-07-25T212107.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The akismet/v1 API from CaaMTech — 7 operation(s) for akismet/v1.
@@ -55,7 +55,47 @@ apis:
 - description: The wpforms/v1 API from CaaMTech — 8 operation(s) for wpforms/v1.
   name: CaaMTech Wpforms/v1 API
   slug: caamtech-wpforms-v1-api
-artifact_total: 14
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CaaMTech WordPress REST Akismet/v1 API
+  slug: open-caamtech-akismet-v1-api
+- collection_type: open
+  name: CaaMTech WordPress REST MCP API
+  slug: open-caamtech-mcp-api
+- collection_type: open
+  name: CaaMTech WordPress REST Objectcache/v1 API
+  slug: open-caamtech-objectcache-v1-api
+- collection_type: open
+  name: CaaMTech WordPress REST Oembed/1.0 API
+  slug: open-caamtech-oembed-1-0-api
+- collection_type: open
+  name: CaaMTech WordPress REST Regenerate Thumbnails/v1 API
+  slug: open-caamtech-regenerate-thumbnails-v1-api
+- collection_type: open
+  name: CaaMTech WordPress REST Root API
+  slug: open-caamtech-root-api
+- collection_type: open
+  name: API Collection
+  slug: open-caamtech-wordpress-rest-routes-original
+- collection_type: open
+  name: CaaMTech WordPress REST Wp Abilities/v1 API
+  slug: open-caamtech-wp-abilities-v1-api
+- collection_type: open
+  name: CaaMTech WordPress REST Wp Block Editor/v1 API
+  slug: open-caamtech-wp-block-editor-v1-api
+- collection_type: open
+  name: CaaMTech WordPress REST Wp Site Health/v1 API
+  slug: open-caamtech-wp-site-health-v1-api
+- collection_type: open
+  name: CaaMTech WordPress REST Wp/v2 API
+  slug: open-caamtech-wp-v2-api
+- collection_type: open
+  name: CaaMTech WordPress REST Wpforms/v1 API
+  slug: open-caamtech-wpforms-v1-api
 common:
 - group: agent
   title: ''
@@ -133,7 +173,7 @@ overview: 'CaaMTech publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   CaaMTech''s developer surface includes engineering blog, authentication, and 13 more developer resources.'
-random_paper: 102
+random_paper: 77
 score:
   band: emerging
   composite: 18.2
@@ -162,7 +202,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

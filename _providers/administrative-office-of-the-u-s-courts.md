@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: The Services API from Administrative Office of the U.S. Courts — 2 operation(s) for services.
   name: Administrative Office of the U.S. Courts Services API
   slug: administrative-office-of-the-u-s-courts-services-api
-artifact_total: 24
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Administrative Office of the U.S. Courts PACER Authentication Cases API
+  slug: open-administrative-office-of-the-u-s-courts-cases-api
+- collection_type: open
+  name: Administrative Office of the U.S. Courts PACER Authentication Cases Parties API
+  slug: open-administrative-office-of-the-u-s-courts-parties-api
+- collection_type: open
+  name: Administrative Office of the U.S. Courts PACER Authentication Cases Services API
+  slug: open-administrative-office-of-the-u-s-courts-services-api
 - collection_type: open
   name: Administrative Office of the U.S. Courts PACER Authentication API
   slug: open-pacer-authentication-api
@@ -132,7 +144,7 @@ plans:
 - name: Administrative Office Of The U S Courts Plans Pricing
   plan_count: 3
   slug: administrative-office-of-the-u-s-courts-plans-pricing
-random_paper: 116
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Administrative Office Of The U S Courts Rate Limits
@@ -163,7 +175,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/screenshots/administrative-office-of-the-u-s-courts-2026-06-20T164757.png
 security:

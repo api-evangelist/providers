@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,15 +63,36 @@ apis:
 - description: Time-series property streams
   name: ptc-thingworx ValueStreams API
   slug: ptc-thingworx-valuestreams-api
-artifact_total: 21
+artifact_total: 28
 asyncapis:
 - description: PTC ThingWorx AlwaysOn WebSocket API enables persistent bidirectional connections for industrial edge devices and remote assets. Supports real-time telemetry streaming, command and control, event noti
   name: PTC ThingWorx AlwaysOn WebSocket API
   slug: ptc-thingworx-websocket-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PTC ThingWorx REST DataShapes API
+  slug: open-ptc-thingworx-datashapes-api
+- collection_type: open
+  name: PTC ThingWorx REST DataShapes Events API
+  slug: open-ptc-thingworx-events-api
+- collection_type: open
+  name: PTC ThingWorx REST DataShapes Properties API
+  slug: open-ptc-thingworx-properties-api
+- collection_type: open
   name: PTC ThingWorx REST API
   slug: open-ptc-thingworx-rest
+- collection_type: open
+  name: PTC ThingWorx REST DataShapes Things API
+  slug: open-ptc-thingworx-things-api
+- collection_type: open
+  name: PTC ThingWorx REST DataShapes ThingTemplates API
+  slug: open-ptc-thingworx-thingtemplates-api
+- collection_type: open
+  name: PTC ThingWorx REST DataShapes ValueStreams API
+  slug: open-ptc-thingworx-valuestreams-api
 common:
 - group: agent
   title: ''
@@ -164,7 +185,7 @@ plans:
 - name: Ptc Thingworx Plans Pricing
   plan_count: 1
   slug: ptc-thingworx-plans-pricing
-random_paper: 54
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Ptc Thingworx Rate Limits
@@ -211,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

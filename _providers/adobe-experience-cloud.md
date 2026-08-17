@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-12'
+  score: 59.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -199,7 +200,7 @@ arazzos:
 - description: List available offers, then fetch personalized content for a visitor session.
   name: Adobe Target Deliver Personalization
   slug: adobe-experience-cloud-target-deliver-personalization-workflow
-artifact_total: 365
+artifact_total: 403
 asyncapis:
 - description: Adobe I/O Events enables developers to receive near-real-time notifications from Adobe services via webhooks and journal polling. Events are emitted when significant changes occur across Adobe Experie
   name: Adobe I/O Events
@@ -221,11 +222,119 @@ collections:
   name: Adobe Experience Cloud Adobe Target API
   slug: postman-adobe-target-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Adobe Experience Cloud Adobe Analytics 2.0 API
   slug: open-adobe-analytics-api
 - collection_type: open
   name: Adobe Experience Cloud Adobe Campaign API
   slug: open-adobe-campaign-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities API
+  slug: open-adobe-experience-cloud-activities-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Audiences API
+  slug: open-adobe-experience-cloud-audiences-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Batches API
+  slug: open-adobe-experience-cloud-batches-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Calculated Metrics API
+  slug: open-adobe-experience-cloud-calculated-metrics-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Campaign API
+  slug: open-adobe-experience-cloud-campaign-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Campaigns API
+  slug: open-adobe-experience-cloud-campaigns-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Classes API
+  slug: open-adobe-experience-cloud-classes-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Collections API
+  slug: open-adobe-experience-cloud-collections-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Content API
+  slug: open-adobe-experience-cloud-content-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Content Templates API
+  slug: open-adobe-experience-cloud-content-templates-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Datasets API
+  slug: open-adobe-experience-cloud-datasets-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Date Ranges API
+  slug: open-adobe-experience-cloud-date-ranges-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Decision Rules API
+  slug: open-adobe-experience-cloud-decision-rules-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Delivery API
+  slug: open-adobe-experience-cloud-delivery-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Dimensions API
+  slug: open-adobe-experience-cloud-dimensions-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Environments API
+  slug: open-adobe-experience-cloud-environments-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Identities API
+  slug: open-adobe-experience-cloud-identities-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Journeys API
+  slug: open-adobe-experience-cloud-journeys-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Messages API
+  slug: open-adobe-experience-cloud-messages-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Metadata API
+  slug: open-adobe-experience-cloud-metadata-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Metrics API
+  slug: open-adobe-experience-cloud-metrics-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Offers API
+  slug: open-adobe-experience-cloud-offers-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Placements API
+  slug: open-adobe-experience-cloud-placements-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Profiles API
+  slug: open-adobe-experience-cloud-profiles-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Projects API
+  slug: open-adobe-experience-cloud-projects-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Properties API
+  slug: open-adobe-experience-cloud-properties-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Queries API
+  slug: open-adobe-experience-cloud-queries-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Report Suites API
+  slug: open-adobe-experience-cloud-report-suites-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Reports API
+  slug: open-adobe-experience-cloud-reports-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Sandboxes API
+  slug: open-adobe-experience-cloud-sandboxes-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Schemas API
+  slug: open-adobe-experience-cloud-schemas-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Segments API
+  slug: open-adobe-experience-cloud-segments-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Transactional Messages API
+  slug: open-adobe-experience-cloud-transactional-messages-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Users API
+  slug: open-adobe-experience-cloud-users-api
+- collection_type: open
+  name: Adobe Experience Cloud Adobe Analytics 2.0 Activities Workflows API
+  slug: open-adobe-experience-cloud-workflows-api
 - collection_type: open
   name: Adobe Experience Cloud Adobe Experience Platform API
   slug: open-adobe-experience-platform-api
@@ -420,6 +529,106 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/adobe-experience-cloud-target-api-context.jsonld
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/adobe-experience-cloud-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/adobe-experience-cloud-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/adobe-experience-cloud-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adobe-experience-cloud-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/adobe-experience-cloud-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/adobe-experience-cloud-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/adobe-experience-cloud-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/adobe-experience-cloud-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adobe-experience-cloud-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adobe-experience-cloud-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/adobe-experience-cloud-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adobe-experience-cloud-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/adobe-experience-cloud-changelog.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/adobe-experience-cloud-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/adobe-experience-cloud-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/adobe-experience-cloud-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/adobe-experience-cloud-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/adobe-experience-cloud-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/adobe-io-events-asyncapi.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/adobe-experience-cloud-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-experience-cloud-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/adobe-experience-cloud-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.adobe.com/apis/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/adobe-experience-cloud/overview
 created: '2025-01-01'
 description: Adobe Experience Cloud is an integrated suite of applications and services for digital marketing, analytics, advertising, and commerce. It provides tools for content management, personalization, customer journey orchestration, audience segmentation, real-time customer data platforms, offer decisioning, and cross-channel campaign execution, enabling organizations to deliver personalized customer experiences at scale.
 examples:
@@ -1279,7 +1488,11 @@ jsonld:
   property_count: 28
   slug: adobe-experience-cloud-target-api-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: adobe-experience-cloud-mcp.yml
+  slug: adobe-experience-cloud-mcpyml
+modified: '2026-08-13'
 name: Adobe Experience Cloud
 nav: Providers
 network: true
@@ -1289,14 +1502,14 @@ overview: 'Adobe Experience Cloud publishes 36 APIs on the [APIs.io](https://api
   The Adobe Experience Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Adobe Experience Cloud''s developer surface includes authentication, developer portal, documentation, engineering blog, support, developer console, signup flow, and 39 more developer resources.'
+  Adobe Experience Cloud''s developer surface includes authentication, developer portal, documentation, engineering blog, support, developer console, signup flow, and 64 more developer resources.'
 plans:
 - name: Adobe Experience Cloud Plans Pricing
   plan_count: 5
   slug: adobe-experience-cloud-plans-pricing
-random_paper: 36
+random_paper: 110
 rate_limits:
-- limit_count: 4
+- limit_count: 8
   name: Adobe Experience Cloud Rate Limits
   slug: adobe-experience-cloud-rate-limits
 rules:
@@ -1324,17 +1537,22 @@ rules:
     info: 3
     warn: 18
   slug: adobe-experience-cloud-spectral-rules
+scopes:
+- name: Adobe Experience Cloud Scopes
+  scope_count: 0
+  slug: adobe-experience-cloud-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 58.8
-  delta: 0.0
+  band: exemplar
+  composite: 72.4
+  delta: 13.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 78.2
-    developer_ergonomics: 56.5
-    discoverability: 59.3
-    governance: 52.1
-    operational_transparency: 44.7
+    developer_ergonomics: 91.3
+    discoverability: 75.9
+    governance: 72.9
+    operational_transparency: 63.2
   previous_composite: 58.8
   provenance:
     agentic_access: derived
@@ -1344,8 +1562,8 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/screenshots/adobe-experience-cloud-2026-06-20T164907.png
 security:
 - kind: authentication

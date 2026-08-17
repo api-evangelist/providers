@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 197
   human_in_the_loop: 5
@@ -452,7 +452,7 @@ arazzos:
 - description: Create a Merge Link token for the Ticketing category, exchange the public token for an account token, and confirm the linked ticketing system.
   name: Merge Ticketing Link an Account
   slug: merge-ticketing-link-account-workflow
-artifact_total: 1265
+artifact_total: 1383
 collections:
 - collection_type: postman
   name: Accounting
@@ -484,6 +484,360 @@ collections:
 - collection_type: postman
   name: Ticketing
   slug: postman-merge-ticketing-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accounting  API
+  slug: open-merge-default-api
+- collection_type: open
+  name: Accounting subpackage_accessKeys API
+  slug: open-merge-subpackage-accesskeys-api
+- collection_type: open
+  name: Accounting subpackage_accountDetails API
+  slug: open-merge-subpackage-accountdetails-api
+- collection_type: open
+  name: Accounting subpackage_accountingPeriods API
+  slug: open-merge-subpackage-accountingperiods-api
+- collection_type: open
+  name: Accounting subpackage_accounts API
+  slug: open-merge-subpackage-accounts-api
+- collection_type: open
+  name: Accounting subpackage_accountToken API
+  slug: open-merge-subpackage-accounttoken-api
+- collection_type: open
+  name: Accounting subpackage_activities API
+  slug: open-merge-subpackage-activities-api
+- collection_type: open
+  name: Accounting subpackage_addresses API
+  slug: open-merge-subpackage-addresses-api
+- collection_type: open
+  name: Accounting subpackage_applicationCredentials API
+  slug: open-merge-subpackage-applicationcredentials-api
+- collection_type: open
+  name: Accounting subpackage_applications API
+  slug: open-merge-subpackage-applications-api
+- collection_type: open
+  name: Accounting subpackage_articles API
+  slug: open-merge-subpackage-articles-api
+- collection_type: open
+  name: Accounting subpackage_associations API
+  slug: open-merge-subpackage-associations-api
+- collection_type: open
+  name: Accounting subpackage_associationTypes API
+  slug: open-merge-subpackage-associationtypes-api
+- collection_type: open
+  name: Accounting subpackage_asyncPassthrough API
+  slug: open-merge-subpackage-asyncpassthrough-api
+- collection_type: open
+  name: Accounting subpackage_asyncTasks API
+  slug: open-merge-subpackage-asynctasks-api
+- collection_type: open
+  name: Accounting subpackage_attachments API
+  slug: open-merge-subpackage-attachments-api
+- collection_type: open
+  name: Accounting subpackage_auditLog API
+  slug: open-merge-subpackage-auditlog-api
+- collection_type: open
+  name: Accounting subpackage_auditTrail API
+  slug: open-merge-subpackage-audittrail-api
+- collection_type: open
+  name: Accounting subpackage_availableActions API
+  slug: open-merge-subpackage-availableactions-api
+- collection_type: open
+  name: Accounting subpackage_balanceSheets API
+  slug: open-merge-subpackage-balancesheets-api
+- collection_type: open
+  name: Accounting subpackage_bankFeedAccounts API
+  slug: open-merge-subpackage-bankfeedaccounts-api
+- collection_type: open
+  name: Accounting subpackage_bankFeedTransactions API
+  slug: open-merge-subpackage-bankfeedtransactions-api
+- collection_type: open
+  name: Accounting subpackage_bankInfo API
+  slug: open-merge-subpackage-bankinfo-api
+- collection_type: open
+  name: Accounting subpackage_benefits API
+  slug: open-merge-subpackage-benefits-api
+- collection_type: open
+  name: Accounting subpackage_candidates API
+  slug: open-merge-subpackage-candidates-api
+- collection_type: open
+  name: Accounting subpackage_cashFlowStatements API
+  slug: open-merge-subpackage-cashflowstatements-api
+- collection_type: open
+  name: Accounting subpackage_collections API
+  slug: open-merge-subpackage-collections-api
+- collection_type: open
+  name: Accounting subpackage_comments API
+  slug: open-merge-subpackage-comments-api
+- collection_type: open
+  name: Accounting subpackage_companies API
+  slug: open-merge-subpackage-companies-api
+- collection_type: open
+  name: Accounting subpackage_companyInfo API
+  slug: open-merge-subpackage-companyinfo-api
+- collection_type: open
+  name: Accounting subpackage_connectors API
+  slug: open-merge-subpackage-connectors-api
+- collection_type: open
+  name: Accounting subpackage_contacts API
+  slug: open-merge-subpackage-contacts-api
+- collection_type: open
+  name: Accounting subpackage_containers API
+  slug: open-merge-subpackage-containers-api
+- collection_type: open
+  name: Accounting subpackage_conversations API
+  slug: open-merge-subpackage-conversations-api
+- collection_type: open
+  name: Accounting subpackage_credentials API
+  slug: open-merge-subpackage-credentials-api
+- collection_type: open
+  name: Accounting subpackage_creditNotes API
+  slug: open-merge-subpackage-creditnotes-api
+- collection_type: open
+  name: Accounting subpackage_customObjectClasses API
+  slug: open-merge-subpackage-customobjectclasses-api
+- collection_type: open
+  name: Accounting subpackage_customObjects API
+  slug: open-merge-subpackage-customobjects-api
+- collection_type: open
+  name: Accounting subpackage_customRegexRules API
+  slug: open-merge-subpackage-customregexrules-api
+- collection_type: open
+  name: Accounting subpackage_deleteAccount API
+  slug: open-merge-subpackage-deleteaccount-api
+- collection_type: open
+  name: Accounting subpackage_departments API
+  slug: open-merge-subpackage-departments-api
+- collection_type: open
+  name: Accounting subpackage_dependents API
+  slug: open-merge-subpackage-dependents-api
+- collection_type: open
+  name: Accounting subpackage_drives API
+  slug: open-merge-subpackage-drives-api
+- collection_type: open
+  name: Accounting subpackage_eeocs API
+  slug: open-merge-subpackage-eeocs-api
+- collection_type: open
+  name: Accounting subpackage_embeddings API
+  slug: open-merge-subpackage-embeddings-api
+- collection_type: open
+  name: Accounting subpackage_employeePayrollRuns API
+  slug: open-merge-subpackage-employeepayrollruns-api
+- collection_type: open
+  name: Accounting subpackage_employees API
+  slug: open-merge-subpackage-employees-api
+- collection_type: open
+  name: Accounting subpackage_employerBenefits API
+  slug: open-merge-subpackage-employerbenefits-api
+- collection_type: open
+  name: Accounting subpackage_employments API
+  slug: open-merge-subpackage-employments-api
+- collection_type: open
+  name: Accounting subpackage_engagements API
+  slug: open-merge-subpackage-engagements-api
+- collection_type: open
+  name: Accounting subpackage_engagementTypes API
+  slug: open-merge-subpackage-engagementtypes-api
+- collection_type: open
+  name: Accounting subpackage_expenseReports API
+  slug: open-merge-subpackage-expensereports-api
+- collection_type: open
+  name: Accounting subpackage_expenses API
+  slug: open-merge-subpackage-expenses-api
+- collection_type: open
+  name: Accounting subpackage_fieldMapping API
+  slug: open-merge-subpackage-fieldmapping-api
+- collection_type: open
+  name: Accounting subpackage_files API
+  slug: open-merge-subpackage-files-api
+- collection_type: open
+  name: Accounting subpackage_folders API
+  slug: open-merge-subpackage-folders-api
+- collection_type: open
+  name: Accounting subpackage_forceResync API
+  slug: open-merge-subpackage-forceresync-api
+- collection_type: open
+  name: Accounting subpackage_generateKey API
+  slug: open-merge-subpackage-generatekey-api
+- collection_type: open
+  name: Accounting subpackage_groups API
+  slug: open-merge-subpackage-groups-api
+- collection_type: open
+  name: Accounting subpackage_incomeStatements API
+  slug: open-merge-subpackage-incomestatements-api
+- collection_type: open
+  name: Accounting subpackage_interviews API
+  slug: open-merge-subpackage-interviews-api
+- collection_type: open
+  name: Accounting subpackage_invoices API
+  slug: open-merge-subpackage-invoices-api
+- collection_type: open
+  name: Accounting subpackage_issues API
+  slug: open-merge-subpackage-issues-api
+- collection_type: open
+  name: Accounting subpackage_itemFulfillments API
+  slug: open-merge-subpackage-itemfulfillments-api
+- collection_type: open
+  name: Accounting subpackage_items API
+  slug: open-merge-subpackage-items-api
+- collection_type: open
+  name: Accounting subpackage_jobInterviewStages API
+  slug: open-merge-subpackage-jobinterviewstages-api
+- collection_type: open
+  name: Accounting subpackage_jobPostings API
+  slug: open-merge-subpackage-jobpostings-api
+- collection_type: open
+  name: Accounting subpackage_jobs API
+  slug: open-merge-subpackage-jobs-api
+- collection_type: open
+  name: Accounting subpackage_journalEntries API
+  slug: open-merge-subpackage-journalentries-api
+- collection_type: open
+  name: Accounting subpackage_leads API
+  slug: open-merge-subpackage-leads-api
+- collection_type: open
+  name: Accounting subpackage_linkedAccounts API
+  slug: open-merge-subpackage-linkedaccounts-api
+- collection_type: open
+  name: Accounting subpackage_linkToken API
+  slug: open-merge-subpackage-linktoken-api
+- collection_type: open
+  name: Accounting subpackage_locations API
+  slug: open-merge-subpackage-locations-api
+- collection_type: open
+  name: Accounting subpackage_mcp API
+  slug: open-merge-subpackage-mcp-api
+- collection_type: open
+  name: Accounting subpackage_messages API
+  slug: open-merge-subpackage-messages-api
+- collection_type: open
+  name: Accounting subpackage_models API
+  slug: open-merge-subpackage-models-api
+- collection_type: open
+  name: Accounting subpackage_notes API
+  slug: open-merge-subpackage-notes-api
+- collection_type: open
+  name: Accounting subpackage_offers API
+  slug: open-merge-subpackage-offers-api
+- collection_type: open
+  name: Accounting subpackage_offices API
+  slug: open-merge-subpackage-offices-api
+- collection_type: open
+  name: Accounting subpackage_opportunities API
+  slug: open-merge-subpackage-opportunities-api
+- collection_type: open
+  name: Accounting subpackage_passthrough API
+  slug: open-merge-subpackage-passthrough-api
+- collection_type: open
+  name: Accounting subpackage_payGroups API
+  slug: open-merge-subpackage-paygroups-api
+- collection_type: open
+  name: Accounting subpackage_paymentMethods API
+  slug: open-merge-subpackage-paymentmethods-api
+- collection_type: open
+  name: Accounting subpackage_payments API
+  slug: open-merge-subpackage-payments-api
+- collection_type: open
+  name: Accounting subpackage_paymentTerms API
+  slug: open-merge-subpackage-paymentterms-api
+- collection_type: open
+  name: Accounting subpackage_payrollRuns API
+  slug: open-merge-subpackage-payrollruns-api
+- collection_type: open
+  name: Accounting subpackage_phoneNumbers API
+  slug: open-merge-subpackage-phonenumbers-api
+- collection_type: open
+  name: Accounting subpackage_projects API
+  slug: open-merge-subpackage-projects-api
+- collection_type: open
+  name: Accounting subpackage_purchaseOrders API
+  slug: open-merge-subpackage-purchaseorders-api
+- collection_type: open
+  name: Accounting subpackage_regenerateKey API
+  slug: open-merge-subpackage-regeneratekey-api
+- collection_type: open
+  name: Accounting subpackage_registeredUsers API
+  slug: open-merge-subpackage-registeredusers-api
+- collection_type: open
+  name: Accounting subpackage_rejectReasons API
+  slug: open-merge-subpackage-rejectreasons-api
+- collection_type: open
+  name: Accounting subpackage_responses API
+  slug: open-merge-subpackage-responses-api
+- collection_type: open
+  name: Accounting subpackage_roles API
+  slug: open-merge-subpackage-roles-api
+- collection_type: open
+  name: Accounting subpackage_routing API
+  slug: open-merge-subpackage-routing-api
+- collection_type: open
+  name: Accounting subpackage_salesOrders API
+  slug: open-merge-subpackage-salesorders-api
+- collection_type: open
+  name: Accounting subpackage_scopes API
+  slug: open-merge-subpackage-scopes-api
+- collection_type: open
+  name: Accounting subpackage_scorecards API
+  slug: open-merge-subpackage-scorecards-api
+- collection_type: open
+  name: Accounting subpackage_stages API
+  slug: open-merge-subpackage-stages-api
+- collection_type: open
+  name: Accounting subpackage_standardEntityRules API
+  slug: open-merge-subpackage-standardentityrules-api
+- collection_type: open
+  name: Accounting subpackage_syncStatus API
+  slug: open-merge-subpackage-syncstatus-api
+- collection_type: open
+  name: Accounting subpackage_tags API
+  slug: open-merge-subpackage-tags-api
+- collection_type: open
+  name: Accounting subpackage_tasks API
+  slug: open-merge-subpackage-tasks-api
+- collection_type: open
+  name: Accounting subpackage_taxRates API
+  slug: open-merge-subpackage-taxrates-api
+- collection_type: open
+  name: Accounting subpackage_teams API
+  slug: open-merge-subpackage-teams-api
+- collection_type: open
+  name: Accounting subpackage_tickets API
+  slug: open-merge-subpackage-tickets-api
+- collection_type: open
+  name: Accounting subpackage_timeOff API
+  slug: open-merge-subpackage-timeoff-api
+- collection_type: open
+  name: Accounting subpackage_timeOffBalances API
+  slug: open-merge-subpackage-timeoffbalances-api
+- collection_type: open
+  name: Accounting subpackage_timesheetEntries API
+  slug: open-merge-subpackage-timesheetentries-api
+- collection_type: open
+  name: Accounting subpackage_toolDescriptionOverrides API
+  slug: open-merge-subpackage-tooldescriptionoverrides-api
+- collection_type: open
+  name: Accounting subpackage_toolPacks API
+  slug: open-merge-subpackage-toolpacks-api
+- collection_type: open
+  name: Accounting subpackage_toolSearch API
+  slug: open-merge-subpackage-toolsearch-api
+- collection_type: open
+  name: Accounting subpackage_trackingCategories API
+  slug: open-merge-subpackage-trackingcategories-api
+- collection_type: open
+  name: Accounting subpackage_transactions API
+  slug: open-merge-subpackage-transactions-api
+- collection_type: open
+  name: Accounting subpackage_users API
+  slug: open-merge-subpackage-users-api
+- collection_type: open
+  name: Accounting subpackage_vendorCredits API
+  slug: open-merge-subpackage-vendorcredits-api
+- collection_type: open
+  name: Accounting subpackage_vendors API
+  slug: open-merge-subpackage-vendors-api
 common:
 - group: agent
   title: ''
@@ -4052,7 +4406,7 @@ plans:
 - name: Merge Plans Pricing
   plan_count: 5
   slug: merge-plans-pricing
-random_paper: 48
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Merge Rate Limits
@@ -4094,7 +4448,7 @@ score:
       marker_coverage: 0.0
       total: 117
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/screenshots/merge-2026-06-20T185219.png
 security:

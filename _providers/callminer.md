@@ -13,12 +13,12 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-12'
+  score: 12.2
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Asynchronously add or update media and metadata for audio and text-based contacts in a CallMiner Eureka tenant. Hosted on the regional CallMiner API host and protected by OAuth 2.0 client credentials '
@@ -27,7 +27,7 @@ apis:
 - description: Create and poll bulk export jobs that extract contact, transcript, score and metadata datasets out of a CallMiner Eureka tenant as downloadable archives. Protected by OAuth 2.0 client credentials agai
   name: CallMiner Eureka Bulk Export API
   slug: callminer-eureka-bulk-export-api
-artifact_total: 6
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -101,19 +101,61 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/callminer-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/callminer-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/callminer-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/callminer-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/callminer-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/callminer-rate-limits.yml
+coverage:
+  checked: '2026-08-14'
+  detail: CallMiner's own Swagger document is live at the .NET Swashbuckle default path on both API mounts — /swagger/v1/swagger.json and /bulkexport/swagger/v1/swagger.json — and each 302s to https://idp.callminer.net/connect/authorize, so the contract exists and is named v1 but requires an interactive CallMiner tenant login to read.
+  evidence:
+  - status: 302
+    url: https://api.callminer.net/swagger/v1/swagger.json
+  - status: 302
+    url: https://api.callminer.net/bulkexport/swagger/v1/swagger.json
+  - status: 404
+    url: https://api.callminer.net/openapi.json
+  - status: 200
+    url: https://community.callminer.com/
+  reason: customer-only-docs
+  state: gated
 created: '2026-08-09'
 description: CallMiner is a Waltham, Massachusetts conversation intelligence and contact-center analytics company whose Eureka platform captures and analyzes omnichannel customer interactions — recorded and real-time audio, screen recordings, chat, email, surveys and video — to surface customer experience, quality management, risk and compliance, fraud and sales-effectiveness insight. The product family spans Capture (Record, Screen Record, Redact), Intelligence (Analyze, Visualize), Augmentation (Coach, RealTime) and Automation (Outreach, OmniAgent, LiveTranslate). CallMiner exposes an OAuth 2.0 protected developer API — a media/metadata Ingestion API and a Bulk Export API — hosted on regional api*.callminer.net endpoints and secured by its own IdentityServer-based identity provider at idp*.callminer.net. The API reference is published as Swagger UI on the API host itself but sits behind an interactive login, so no machine-readable contract is publicly retrievable.
 image: https://images.ctfassets.net/xj0skx6m69u2/cFRNy2dkU6bRc2iRmk7tF/6f1fc904dea9217c746c0b5cfd9eaa32/Logo_CallMiner_Color.svg
 layout: provider
-modified: '2026-08-09'
+modified: '2026-08-14'
 name: CallMiner
 nav: Providers
 network: true
 overview: 'CallMiner publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversation Intelligence, Speech Analytics, Contact Center, and Customer Experience.
 
 
-  CallMiner''s developer surface includes engineering blog, support, FAQ, authentication, and 14 more developer resources.'
-random_paper: 111
+  CallMiner''s developer surface includes engineering blog, support, FAQ, authentication, and 19 more developer resources.'
+plans:
+- name: Callminer Plans Pricing
+  plan_count: 0
+  slug: callminer-plans-pricing
+random_paper: 57
+rate_limits:
+- limit_count: 0
+  name: Callminer Rate Limits
+  slug: callminer-rate-limits
 scopes:
 - name: Callminer Scopes
   scope_count: 5
@@ -134,7 +176,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

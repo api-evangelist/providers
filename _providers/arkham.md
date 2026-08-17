@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 25
 apis:
 - description: The Analytics API from Arkham — 2 operation(s) for analytics.
@@ -108,11 +108,90 @@ apis:
 - description: The Ws API from Arkham — 8 operation(s) for ws.
   name: Arkham Ws API
   slug: arkham-ws-api
-artifact_total: 32
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Arkham Websocket Webhooks
   slug: arkham-websocket-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arkham Intel Analytics API
+  slug: open-arkham-analytics-api
+- collection_type: open
+  name: Arkham Intel Analytics Arkm API
+  slug: open-arkham-arkm-api
+- collection_type: open
+  name: Arkham Intel Analytics Balances API
+  slug: open-arkham-balances-api
+- collection_type: open
+  name: Arkham Intel Analytics Chains API
+  slug: open-arkham-chains-api
+- collection_type: open
+  name: Arkham Intel Analytics Cluster API
+  slug: open-arkham-cluster-api
+- collection_type: open
+  name: Arkham Intel Analytics Counterparties API
+  slug: open-arkham-counterparties-api
+- collection_type: open
+  name: Arkham Intel Analytics Flow API
+  slug: open-arkham-flow-api
+- collection_type: open
+  name: Arkham Intel Analytics History API
+  slug: open-arkham-history-api
+- collection_type: open
+  name: Arkham Intel Analytics Hypercore API
+  slug: open-arkham-hypercore-api
+- collection_type: open
+  name: Arkham Intel Analytics Intelligence API
+  slug: open-arkham-intelligence-api
+- collection_type: open
+  name: Arkham Intel Analytics Loans API
+  slug: open-arkham-loans-api
+- collection_type: open
+  name: Arkham Intel Analytics Marketdata API
+  slug: open-arkham-marketdata-api
+- collection_type: open
+  name: Arkham Intel Analytics Networks API
+  slug: open-arkham-networks-api
+- collection_type: open
+  name: Arkham Intel Analytics Polymarket API
+  slug: open-arkham-polymarket-api
+- collection_type: open
+  name: Arkham Intel Analytics Portfolio API
+  slug: open-arkham-portfolio-api
+- collection_type: open
+  name: Arkham Intel Analytics Risk API
+  slug: open-arkham-risk-api
+- collection_type: open
+  name: Arkham Intel Analytics Subscription API
+  slug: open-arkham-subscription-api
+- collection_type: open
+  name: Arkham Intel Analytics Swaps API
+  slug: open-arkham-swaps-api
+- collection_type: open
+  name: Arkham Intel Analytics Tag API
+  slug: open-arkham-tag-api
+- collection_type: open
+  name: Arkham Intel Analytics Token API
+  slug: open-arkham-token-api
+- collection_type: open
+  name: Arkham Intel Analytics Transfers API
+  slug: open-arkham-transfers-api
+- collection_type: open
+  name: Arkham Intel Analytics Tx API
+  slug: open-arkham-tx-api
+- collection_type: open
+  name: Arkham Intel Analytics User API
+  slug: open-arkham-user-api
+- collection_type: open
+  name: Arkham Intel Analytics Volume API
+  slug: open-arkham-volume-api
+- collection_type: open
+  name: Arkham Intel Analytics Ws API
+  slug: open-arkham-ws-api
 common:
 - group: other
   title: ''
@@ -241,7 +320,7 @@ plans:
 - name: Arkham Plans
   plan_count: 4
   slug: arkham-plans
-random_paper: 28
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Arkham Rate Limits
@@ -274,7 +353,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/screenshots/arkham-2026-07-25T201211.png
 security:

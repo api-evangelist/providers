@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,7 +115,7 @@ overview: 'By Miles is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   By Miles'' developer surface includes engineering blog, support, and 18 more developer resources.'
-random_paper: 82
+random_paper: 57
 score:
   band: emerging
   composite: 23.0
@@ -137,7 +137,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/by-miles/refs/heads/main/screenshots/by-miles-2026-07-25T204131.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'The core Lucky Cart API. POST /cart/ticket submits a validated shopping cart — cart identifier, shopper identifier, gross and net amounts, and product lines — and Lucky Cart determines whether a game '
@@ -148,7 +148,7 @@ plans:
 - name: Lucky Cart Plans Pricing
   plan_count: 0
   slug: lucky-cart-plans-pricing
-random_paper: 63
+random_paper: 129
 rate_limits:
 - limit_count: 0
   name: Lucky Cart Rate Limits
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.3
-  delta: 14.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -164,10 +164,10 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 10.5
+  previous_composite: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/screenshots/lucky-cart-2026-07-25T225646.png
 security:
 - kind: authentication

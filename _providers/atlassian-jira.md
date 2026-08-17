@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Read user information.
   name: Atlassian Jira Users API
   slug: atlassian-jira-users-api
-artifact_total: 38
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Atlassian Jira Cloud Platform REST API v3 Fields API
+  slug: open-atlassian-jira-fields-api
+- collection_type: open
+  name: Atlassian Jira Cloud Platform REST API v3 Fields Issue Comments API
+  slug: open-atlassian-jira-issue-comments-api
+- collection_type: open
+  name: Atlassian Jira Cloud Platform REST API v3 Fields Issue Search API
+  slug: open-atlassian-jira-issue-search-api
+- collection_type: open
+  name: Atlassian Jira Cloud Platform REST API v3 Fields Issue Transitions API
+  slug: open-atlassian-jira-issue-transitions-api
+- collection_type: open
+  name: Atlassian Jira Cloud Platform REST API v3 Fields Issue Worklogs API
+  slug: open-atlassian-jira-issue-worklogs-api
+- collection_type: open
+  name: Atlassian Jira Cloud Platform REST API v3 Fields Issues API
+  slug: open-atlassian-jira-issues-api
+- collection_type: open
+  name: Atlassian Jira Cloud Platform REST API v3 Fields Projects API
+  slug: open-atlassian-jira-projects-api
+- collection_type: open
+  name: Atlassian Jira Cloud Platform REST API v3 Fields Users API
+  slug: open-atlassian-jira-users-api
 - collection_type: open
   name: Atlassian Jira Cloud Platform REST API v3
   slug: open-atlassian-jira
@@ -195,7 +222,7 @@ plans:
 - name: Atlassian Jira Plans Pricing
   plan_count: 3
   slug: atlassian-jira-plans-pricing
-random_paper: 107
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Atlassian Jira Rate Limits
@@ -225,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/screenshots/atlassian-jira-2026-06-20T172533.png
 security:

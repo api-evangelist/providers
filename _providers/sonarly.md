@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Read triaged, deduplicated bugs and their analysis runs.
@@ -41,11 +41,24 @@ apis:
 - description: Device-code style setup-session API to onboard a tenant.
   name: Sonarly Setup API
   slug: sonarly-setup-api
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: Sonarly delivers signed outbound webhooks on bug and incident lifecycle events. Register a receiver via POST /api/setup/webhook-endpoint (the URL is SSRF-checked; a whsec_ signing secret is returned o
   name: Sonarly Webhooks
   slug: sonarly-events-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sonarly Bugs API
+  slug: open-sonarly-bugs-api
+- collection_type: open
+  name: Sonarly Bugs Incidents API
+  slug: open-sonarly-incidents-api
+- collection_type: open
+  name: Sonarly Bugs Setup API
+  slug: open-sonarly-setup-api
 common:
 - group: start
   title: ''
@@ -150,7 +163,7 @@ plans:
 - name: Sonarly Plans
   plan_count: 4
   slug: sonarly-plans
-random_paper: 56
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Sonarly Rate Limits
@@ -177,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

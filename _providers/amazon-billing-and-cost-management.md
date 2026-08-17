@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -68,7 +68,38 @@ apis:
 - description: Manage cost allocation tags
   name: Amazon Billing And Cost Management Tags API
   slug: amazon-billing-and-cost-management-tags-api
-artifact_total: 23
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Budgets Anomaly Detection API
+  slug: open-amazon-billing-and-cost-management-anomaly-detection-api
+- collection_type: open
+  name: AWS Budgets Anomaly Detection Budget Actions API
+  slug: open-amazon-billing-and-cost-management-budget-actions-api
+- collection_type: open
+  name: AWS Anomaly Detection Budgets API
+  slug: open-amazon-billing-and-cost-management-budgets-api
+- collection_type: open
+  name: AWS Budgets Anomaly Detection Cost And Usage API
+  slug: open-amazon-billing-and-cost-management-cost-and-usage-api
+- collection_type: open
+  name: AWS Budgets Anomaly Detection Cost Categories API
+  slug: open-amazon-billing-and-cost-management-cost-categories-api
+- collection_type: open
+  name: AWS Budgets Anomaly Detection Forecasting API
+  slug: open-amazon-billing-and-cost-management-forecasting-api
+- collection_type: open
+  name: AWS Budgets Anomaly Detection Notifications API
+  slug: open-amazon-billing-and-cost-management-notifications-api
+- collection_type: open
+  name: AWS Budgets Anomaly Detection Recommendations API
+  slug: open-amazon-billing-and-cost-management-recommendations-api
+- collection_type: open
+  name: AWS Budgets Anomaly Detection Tags API
+  slug: open-amazon-billing-and-cost-management-tags-api
 common:
 - group: other
   title: ''
@@ -212,7 +243,7 @@ overview: 'Amazon Billing And Cost Management publishes 9 APIs on the [APIs.io](
 
 
   Amazon Billing And Cost Management''s developer surface includes authentication, developer portal, developer console, documentation, pricing, FAQ, engineering blog, and 18 more developer resources.'
-random_paper: 4
+random_paper: 86
 rules:
 - name: Amazon Billing And Cost Management API Rules
   rule_count: 5
@@ -244,7 +275,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/screenshots/amazon-billing-and-cost-management-2026-07-25T195936.png
 security:

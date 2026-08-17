@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -105,12 +105,18 @@ apis:
 - description: The Platform API from Rippling — 24 operation(s) for platform.
   name: Rippling Platform API
   slug: rippling-platform-api
-artifact_total: 41
+artifact_total: 43
 asyncapis:
 - description: 'Rippling Partner Applications listed in the Rippling App Shop can register a webhook URL to receive event-triggered notifications when relevant changes occur in a customer''s Rippling tenant. Rippling '
   name: Rippling Partner Webhooks
   slug: rippling-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rippling API (Base API) Platform API
+  slug: open-rippling-platform-api
 - collection_type: open
   name: Rippling Platform API (Base API)
   slug: open-rippling
@@ -228,7 +234,7 @@ plans:
 - name: Rippling Plans Pricing
   plan_count: 8
   slug: rippling-plans-pricing
-random_paper: 29
+random_paper: 124
 rate_limits:
 - limit_count: 4
   name: Rippling Rate Limits
@@ -262,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/screenshots/rippling-2026-06-20T193125.png
 security:

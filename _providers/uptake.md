@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Uptake's customer-provisioned REST API. The gateway is live at api.uptake.com (AWS API Gateway behind Cloudflare) and answers every anonymous request with HTTP 403 ForbiddenException; a sibling gatewa
@@ -112,7 +112,7 @@ overview: 'Uptake publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Uptake''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 50
+random_paper: 54
 scopes:
 - name: Uptake Scopes
   scope_count: 0
@@ -133,7 +133,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

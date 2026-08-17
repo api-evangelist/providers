@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: CKAN Action API for Transport for NSW Open Data Hub, a consistent JSON-over-HTTP interface over a catalog of 230 datasets. Standard actions include package_search, package_show, package_list, organiza
@@ -92,7 +92,7 @@ plans:
 - name: Opendata Transport Nsw Gov Au Plans Pricing
   plan_count: 1
   slug: opendata-transport-nsw-gov-au-plans-pricing
-random_paper: 39
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: Opendata Transport Nsw Gov Au Rate Limits
@@ -116,7 +116,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-transport-nsw-gov-au/refs/heads/main/screenshots/opendata-transport-nsw-gov-au-2026-06-20T190950.png
 security:

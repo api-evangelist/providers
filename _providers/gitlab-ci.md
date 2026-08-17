@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 627
   human_in_the_loop: 22
@@ -333,8 +333,302 @@ apis:
 - description: Operations about wikis
   name: GitLab CI/CD wikis API
   slug: gitlab-ci-wikis-api
-artifact_total: 109
+artifact_total: 207
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitLab access_requests API
+  slug: open-gitlab-ci-access-requests-api
+- collection_type: open
+  name: GitLab access_requests access_tokens API
+  slug: open-gitlab-ci-access-tokens-api
+- collection_type: open
+  name: GitLab access_requests agents API
+  slug: open-gitlab-ci-agents-api
+- collection_type: open
+  name: GitLab access_requests alert_management API
+  slug: open-gitlab-ci-alert-management-api
+- collection_type: open
+  name: GitLab access_requests applications API
+  slug: open-gitlab-ci-applications-api
+- collection_type: open
+  name: GitLab access_requests attestations API
+  slug: open-gitlab-ci-attestations-api
+- collection_type: open
+  name: GitLab access_requests audit_events API
+  slug: open-gitlab-ci-audit-events-api
+- collection_type: open
+  name: GitLab access_requests avatars API
+  slug: open-gitlab-ci-avatars-api
+- collection_type: open
+  name: GitLab access_requests award_emoji API
+  slug: open-gitlab-ci-award-emoji-api
+- collection_type: open
+  name: GitLab access_requests badges API
+  slug: open-gitlab-ci-badges-api
+- collection_type: open
+  name: GitLab access_requests batched_background_migrations API
+  slug: open-gitlab-ci-batched-background-migrations-api
+- collection_type: open
+  name: GitLab access_requests branches API
+  slug: open-gitlab-ci-branches-api
+- collection_type: open
+  name: GitLab access_requests broadcast_messages API
+  slug: open-gitlab-ci-broadcast-messages-api
+- collection_type: open
+  name: GitLab access_requests chaos API
+  slug: open-gitlab-ci-chaos-api
+- collection_type: open
+  name: GitLab access_requests ci_catalog API
+  slug: open-gitlab-ci-ci-catalog-api
+- collection_type: open
+  name: GitLab access_requests ci_jobs API
+  slug: open-gitlab-ci-ci-jobs-api
+- collection_type: open
+  name: GitLab access_requests ci_lint API
+  slug: open-gitlab-ci-ci-lint-api
+- collection_type: open
+  name: GitLab access_requests ci_resource_groups API
+  slug: open-gitlab-ci-ci-resource-groups-api
+- collection_type: open
+  name: GitLab access_requests ci_runners API
+  slug: open-gitlab-ci-ci-runners-api
+- collection_type: open
+  name: GitLab access_requests ci_triggers API
+  slug: open-gitlab-ci-ci-triggers-api
+- collection_type: open
+  name: GitLab access_requests ci_variables API
+  slug: open-gitlab-ci-ci-variables-api
+- collection_type: open
+  name: GitLab access_requests cluster_agents API
+  slug: open-gitlab-ci-cluster-agents-api
+- collection_type: open
+  name: GitLab access_requests clusters API
+  slug: open-gitlab-ci-clusters-api
+- collection_type: open
+  name: GitLab access_requests commit_statuses API
+  slug: open-gitlab-ci-commit-statuses-api
+- collection_type: open
+  name: GitLab access_requests commits API
+  slug: open-gitlab-ci-commits-api
+- collection_type: open
+  name: GitLab access_requests container_registry API
+  slug: open-gitlab-ci-container-registry-api
+- collection_type: open
+  name: GitLab access_requests custom_attributes API
+  slug: open-gitlab-ci-custom-attributes-api
+- collection_type: open
+  name: GitLab access_requests database_dictionary API
+  slug: open-gitlab-ci-database-dictionary-api
+- collection_type: open
+  name: GitLab access_requests dependency_proxy API
+  slug: open-gitlab-ci-dependency-proxy-api
+- collection_type: open
+  name: GitLab access_requests deploy_resources API
+  slug: open-gitlab-ci-deploy-resources-api
+- collection_type: open
+  name: GitLab access_requests draft_notes API
+  slug: open-gitlab-ci-draft-notes-api
+- collection_type: open
+  name: GitLab access_requests environments API
+  slug: open-gitlab-ci-environments-api
+- collection_type: open
+  name: GitLab access_requests error_tracking API
+  slug: open-gitlab-ci-error-tracking-api
+- collection_type: open
+  name: GitLab access_requests events API
+  slug: open-gitlab-ci-events-api
+- collection_type: open
+  name: GitLab access_requests feature_flags API
+  slug: open-gitlab-ci-feature-flags-api
+- collection_type: open
+  name: GitLab access_requests features API
+  slug: open-gitlab-ci-features-api
+- collection_type: open
+  name: GitLab access_requests files API
+  slug: open-gitlab-ci-files-api
+- collection_type: open
+  name: GitLab access_requests freeze_periods API
+  slug: open-gitlab-ci-freeze-periods-api
+- collection_type: open
+  name: GitLab access_requests geo API
+  slug: open-gitlab-ci-geo-api
+- collection_type: open
+  name: GitLab access_requests gitlab_pages API
+  slug: open-gitlab-ci-gitlab-pages-api
+- collection_type: open
+  name: GitLab access_requests glql API
+  slug: open-gitlab-ci-glql-api
+- collection_type: open
+  name: GitLab access_requests group_import_and_export API
+  slug: open-gitlab-ci-group-import-and-export-api
+- collection_type: open
+  name: GitLab access_requests groups API
+  slug: open-gitlab-ci-groups-api
+- collection_type: open
+  name: GitLab access_requests hooks API
+  slug: open-gitlab-ci-hooks-api
+- collection_type: open
+  name: GitLab access_requests imports API
+  slug: open-gitlab-ci-imports-api
+- collection_type: open
+  name: GitLab access_requests instance API
+  slug: open-gitlab-ci-instance-api
+- collection_type: open
+  name: GitLab access_requests integrations API
+  slug: open-gitlab-ci-integrations-api
+- collection_type: open
+  name: GitLab access_requests internal_operations API
+  slug: open-gitlab-ci-internal-operations-api
+- collection_type: open
+  name: GitLab access_requests invitations API
+  slug: open-gitlab-ci-invitations-api
+- collection_type: open
+  name: GitLab access_requests issues API
+  slug: open-gitlab-ci-issues-api
+- collection_type: open
+  name: GitLab access_requests jira_connect_subscriptions API
+  slug: open-gitlab-ci-jira-connect-subscriptions-api
+- collection_type: open
+  name: GitLab access_requests job_artifacts API
+  slug: open-gitlab-ci-job-artifacts-api
+- collection_type: open
+  name: GitLab access_requests jobs API
+  slug: open-gitlab-ci-jobs-api
+- collection_type: open
+  name: GitLab access_requests keys API
+  slug: open-gitlab-ci-keys-api
+- collection_type: open
+  name: GitLab access_requests ldap API
+  slug: open-gitlab-ci-ldap-api
+- collection_type: open
+  name: GitLab access_requests markdown API
+  slug: open-gitlab-ci-markdown-api
+- collection_type: open
+  name: GitLab access_requests members API
+  slug: open-gitlab-ci-members-api
+- collection_type: open
+  name: GitLab access_requests merge_request_approvals API
+  slug: open-gitlab-ci-merge-request-approvals-api
+- collection_type: open
+  name: GitLab access_requests merge_requests API
+  slug: open-gitlab-ci-merge-requests-api
+- collection_type: open
+  name: GitLab access_requests metadata API
+  slug: open-gitlab-ci-metadata-api
+- collection_type: open
+  name: GitLab access_requests metric_images API
+  slug: open-gitlab-ci-metric-images-api
+- collection_type: open
+  name: GitLab access_requests metrics API
+  slug: open-gitlab-ci-metrics-api
+- collection_type: open
+  name: GitLab access_requests migrations API
+  slug: open-gitlab-ci-migrations-api
+- collection_type: open
+  name: GitLab access_requests ml_model_registry API
+  slug: open-gitlab-ci-ml-model-registry-api
+- collection_type: open
+  name: GitLab access_requests namespaces API
+  slug: open-gitlab-ci-namespaces-api
+- collection_type: open
+  name: GitLab access_requests offline_transfers API
+  slug: open-gitlab-ci-offline-transfers-api
+- collection_type: open
+  name: GitLab access_requests organizations API
+  slug: open-gitlab-ci-organizations-api
+- collection_type: open
+  name: GitLab access_requests packages API
+  slug: open-gitlab-ci-packages-api
+- collection_type: open
+  name: GitLab access_requests pipeline_schedules API
+  slug: open-gitlab-ci-pipeline-schedules-api
+- collection_type: open
+  name: GitLab access_requests pipelines API
+  slug: open-gitlab-ci-pipelines-api
+- collection_type: open
+  name: GitLab access_requests plan_limits API
+  slug: open-gitlab-ci-plan-limits-api
+- collection_type: open
+  name: GitLab access_requests project_import API
+  slug: open-gitlab-ci-project-import-api
+- collection_type: open
+  name: GitLab access_requests project_snapshots API
+  slug: open-gitlab-ci-project-snapshots-api
+- collection_type: open
+  name: GitLab access_requests project_templates API
+  slug: open-gitlab-ci-project-templates-api
+- collection_type: open
+  name: GitLab access_requests project_topics API
+  slug: open-gitlab-ci-project-topics-api
+- collection_type: open
+  name: GitLab access_requests projects API
+  slug: open-gitlab-ci-projects-api
+- collection_type: open
+  name: GitLab access_requests projects_job_token_scope API
+  slug: open-gitlab-ci-projects-job-token-scope-api
+- collection_type: open
+  name: GitLab access_requests protected_branches API
+  slug: open-gitlab-ci-protected-branches-api
+- collection_type: open
+  name: GitLab access_requests protected_tags API
+  slug: open-gitlab-ci-protected-tags-api
+- collection_type: open
+  name: GitLab access_requests pypi_packages API
+  slug: open-gitlab-ci-pypi-packages-api
+- collection_type: open
+  name: GitLab access_requests releases API
+  slug: open-gitlab-ci-releases-api
+- collection_type: open
+  name: GitLab access_requests remote_mirrors API
+  slug: open-gitlab-ci-remote-mirrors-api
+- collection_type: open
+  name: GitLab access_requests repositories API
+  slug: open-gitlab-ci-repositories-api
+- collection_type: open
+  name: GitLab access_requests resource_events API
+  slug: open-gitlab-ci-resource-events-api
+- collection_type: open
+  name: GitLab access_requests runners API
+  slug: open-gitlab-ci-runners-api
+- collection_type: open
+  name: GitLab access_requests search API
+  slug: open-gitlab-ci-search-api
+- collection_type: open
+  name: GitLab access_requests secure_files API
+  slug: open-gitlab-ci-secure-files-api
+- collection_type: open
+  name: GitLab access_requests snippets API
+  slug: open-gitlab-ci-snippets-api
+- collection_type: open
+  name: GitLab access_requests submodules API
+  slug: open-gitlab-ci-submodules-api
+- collection_type: open
+  name: GitLab access_requests suggestions API
+  slug: open-gitlab-ci-suggestions-api
+- collection_type: open
+  name: GitLab access_requests tags API
+  slug: open-gitlab-ci-tags-api
+- collection_type: open
+  name: GitLab access_requests terraform API
+  slug: open-gitlab-ci-terraform-api
+- collection_type: open
+  name: GitLab access_requests unleash API
+  slug: open-gitlab-ci-unleash-api
+- collection_type: open
+  name: GitLab access_requests usage_data API
+  slug: open-gitlab-ci-usage-data-api
+- collection_type: open
+  name: GitLab access_requests users API
+  slug: open-gitlab-ci-users-api
+- collection_type: open
+  name: GitLab access_requests web_commits API
+  slug: open-gitlab-ci-web-commits-api
+- collection_type: open
+  name: GitLab access_requests wikis API
+  slug: open-gitlab-ci-wikis-api
 - collection_type: open
   name: GitLab API
   slug: open-gitlab-ci
@@ -427,7 +721,7 @@ plans:
 - name: Gitlab Ci Plans Pricing
   plan_count: 5
   slug: gitlab-ci-plans-pricing
-random_paper: 36
+random_paper: 131
 rate_limits:
 - limit_count: 10
   name: Gitlab Ci Rate Limits
@@ -452,7 +746,7 @@ score:
       marker_coverage: 0.0
       total: 97
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab-ci/refs/heads/main/screenshots/gitlab-ci-2026-06-20T181847.png
 security:

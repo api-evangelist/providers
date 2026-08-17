@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -71,7 +71,23 @@ apis:
 - description: The Users API from OANDA — 2 operation(s) for users.
   name: OANDA Users API
   slug: oanda-users-api
-artifact_total: 229
+artifact_total: 234
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OANDA v20 REST Accounts API
+  slug: open-oanda-accounts-api
+- collection_type: open
+  name: OANDA v20 REST Accounts Instruments API
+  slug: open-oanda-instruments-api
+- collection_type: open
+  name: OANDA v20 REST Accounts Pricing API
+  slug: open-oanda-pricing-api
+- collection_type: open
+  name: OANDA v20 REST Accounts Users API
+  slug: open-oanda-users-api
 common:
 - group: agent
   title: ''
@@ -777,7 +793,7 @@ plans:
 - name: Oanda Plans Pricing
   plan_count: 6
   slug: oanda-plans-pricing
-random_paper: 35
+random_paper: 68
 rate_limits:
 - limit_count: 6
   name: Oanda Rate Limits
@@ -817,7 +833,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/screenshots/oanda-2026-06-20T190546.png
 security:

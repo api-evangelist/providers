@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Also marketed as the NordStellar Dark Web API. Breach-intelligence data API over malware/infostealer logs, breached databases, credential lists, cookie and password intelligence, and dark web sources,
@@ -52,7 +52,29 @@ apis:
 - description: 'Unauthenticated JSON API that NordVPN''s own clients and the open-source Linux client use to enumerate the server estate — servers, countries, cities, groups and technologies. It is publicly reachable '
   name: NordVPN Public Server API
   slug: nordvpn-public-server-api
-artifact_total: 17
+artifact_total: 24
+collections:
+- collection_type: open
+  name: Company Risk Scoring API
+  slug: open-nord-security-nordstellar-company-risk-scoring-api
+- collection_type: open
+  name: Cybersec API
+  slug: open-nord-security-nordstellar-cybersec-api
+- collection_type: open
+  name: NordStellar Enterprise Data API
+  slug: open-nord-security-nordstellar-enterprise-data-api
+- collection_type: open
+  name: Nordstellar Partners API
+  slug: open-nord-security-nordstellar-partners-api
+- collection_type: open
+  name: Platform Integration API
+  slug: open-nord-security-nordstellar-platform-integration-api-v1
+- collection_type: open
+  name: Platform Integration API
+  slug: open-nord-security-nordstellar-platform-integration-api-v2
+- collection_type: open
+  name: Platform Integration API
+  slug: open-nord-security-nordstellar-platform-integration-api-v3
 common:
 - group: operate
   title: ''
@@ -269,7 +291,7 @@ overview: 'Nord Security publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
-random_paper: 48
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Nord Security Rate Limits
@@ -291,7 +313,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/screenshots/nord-security-2026-08-07T185512.png
 security:

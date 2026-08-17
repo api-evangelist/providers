@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The Workflows API from Torii — 1 operation(s) for workflows.
   name: Torii Workflows API
   slug: torii-workflows-api
-artifact_total: 80
+artifact_total: 91
 collections:
 - collection_type: postman
   name: Torii Apps API
@@ -102,8 +102,41 @@ collections:
   name: Torii Apps Workflows API
   slug: postman-torii-workflows-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Torii Apps API
+  slug: open-torii-apps-api
+- collection_type: open
+  name: Torii Apps Audit API
+  slug: open-torii-audit-api
+- collection_type: open
+  name: Torii Apps Contracts API
+  slug: open-torii-contracts-api
+- collection_type: open
+  name: Torii Apps Files API
+  slug: open-torii-files-api
+- collection_type: open
+  name: Torii Apps Metadata API
+  slug: open-torii-metadata-api
+- collection_type: open
+  name: Torii Apps Parsings API
+  slug: open-torii-parsings-api
+- collection_type: open
+  name: Torii Apps SCIM API
+  slug: open-torii-scim-api
+- collection_type: open
+  name: Torii Apps Services API
+  slug: open-torii-services-api
+- collection_type: open
   name: Torii API
   slug: open-torii-torii
+- collection_type: open
+  name: Torii Apps Users API
+  slug: open-torii-users-api
+- collection_type: open
+  name: Torii Apps Workflows API
+  slug: open-torii-workflows-api
 common:
 - group: build
   title: ''
@@ -288,7 +321,7 @@ plans:
 - name: Torii Plans Pricing
   plan_count: 3
   slug: torii-plans-pricing
-random_paper: 71
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Torii Rate Limits
@@ -330,7 +363,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/screenshots/torii-2026-06-20T195457.png
 security:

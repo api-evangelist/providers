@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 68.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 0
@@ -120,8 +121,206 @@ apis:
 - description: Configure multiple webhooks with different URLs for a subscription and deliver real-time notifications.
   name: Birdeye Webhook API
   slug: birdeye-webhook-api
-artifact_total: 212
+artifact_total: 244
+asyncapis:
+- description: ''
+  name: Birdeye Webhooks
+  slug: birdeye-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Birdeye Aggregation API
+  slug: open-birdeye-aggregation-api
+- collection_type: open
+  name: Birdeye Aggregation Business API
+  slug: open-birdeye-business-api
+- collection_type: open
+  name: Birdeye Aggregation Business Media API
+  slug: open-birdeye-business-media-api
+- collection_type: open
+  name: Birdeye Aggregation Campaign API
+  slug: open-birdeye-campaign-api
+- collection_type: open
+  name: Birdeye Aggregation Competitor AI API
+  slug: open-birdeye-competitor-ai-api
+- collection_type: open
+  name: Birdeye Aggregation Competitor API
+  slug: open-birdeye-competitor-api
+- collection_type: open
+  name: Birdeye Aggregation Contact API
+  slug: open-birdeye-contact-api
+- collection_type: open
+  name: Birdeye Aggregation Contact V2 API
+  slug: open-birdeye-contact-v2-api
+- collection_type: open
+  name: Birdeye Aggregation Conversation API
+  slug: open-birdeye-conversation-api
+- collection_type: open
+  name: Birdeye Aggregation Custom Fields API
+  slug: open-birdeye-custom-fields-api
+- collection_type: open
+  name: Birdeye Aggregation Employee API
+  slug: open-birdeye-employee-api
+- collection_type: open
+  name: Birdeye Aggregation FAQ API
+  slug: open-birdeye-faq-api
+- collection_type: open
+  name: Birdeye Aggregation GMB Products API
+  slug: open-birdeye-gmb-products-api
+- collection_type: open
+  name: Birdeye Aggregation Google Q&A API
+  slug: open-birdeye-google-q-a-api
+- collection_type: open
+  name: Birdeye Aggregation Google Services API
+  slug: open-birdeye-google-services-api
+- collection_type: open
+  name: Birdeye Aggregation Insight AI API
+  slug: open-birdeye-insight-ai-api
+- collection_type: open
+  name: Birdeye Aggregation Integration API
+  slug: open-birdeye-integration-api
+- collection_type: open
+  name: Birdeye Aggregation Listing API
+  slug: open-birdeye-listing-api
+- collection_type: open
+  name: Birdeye Aggregation Report API
+  slug: open-birdeye-report-api
+- collection_type: open
+  name: Birdeye Aggregation Search AI API
+  slug: open-birdeye-search-ai-api
+- collection_type: open
+  name: Birdeye Aggregation Social API
+  slug: open-birdeye-social-api
+- collection_type: open
+  name: Birdeye Aggregation Subscription API
+  slug: open-birdeye-subscription-api
+- collection_type: open
+  name: Birdeye Aggregation Survey API
+  slug: open-birdeye-survey-api
+- collection_type: open
+  name: Birdeye Aggregation Ticketing API
+  slug: open-birdeye-ticketing-api
+- collection_type: open
+  name: Birdeye Aggregation User API
+  slug: open-birdeye-user-api
+- collection_type: open
+  name: Birdeye Aggregation Webhook API
+  slug: open-birdeye-webhook-api
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/birdeye-openapi-original.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/birdeye-a2a.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/birdeye-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/birdeye-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/birdeye-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/birdeye-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/birdeye-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/birdeye-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/birdeye-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/birdeye-openapi-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/birdeye-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://birdeye.com/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/birdeye-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/birdeye-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://birdeye.com/security/
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/birdeye-scopes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/birdeye-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/birdeye-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/birdeye-webhooks.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.birdeye.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.birdeye.com/api/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.birdeye.com/mcp/quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.birdeye.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://birdeye.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://birdeye.com/privacy/
+- group: start
+  title: ''
+  type: Login
+  url: https://birdeye.com/login/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/birdeyeinc
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,7 +340,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://developers.birdeye.com/
+  url: https://docs.birdeye.com/api/introduction
 - group: company
   title: ''
   type: Blog
@@ -720,22 +919,26 @@ jsonld:
   property_count: 18
   slug: birdeye-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: birdeye-mcp.yml
+  slug: birdeye-mcpyml
+modified: 2026-08-13
 name: Birdeye
 nav: Providers
 network: true
 overview: 'Birdeye publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Aggregation API, Business API, Business Media API, and 24 more. Tagged areas include Reputation Management, Reviews, Customer Experience, Surveys, and Messaging.
 
 
-  The Birdeye catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Birdeye catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Birdeye''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  Birdeye''s developer surface includes changelog, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 34 more developer resources.'
 plans:
 - name: Birdeye Plans Pricing
   plan_count: 4
   slug: birdeye-plans-pricing
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 1
   name: Birdeye Rate Limits
@@ -749,17 +952,22 @@ rules:
     info: 2
     warn: 3
   slug: birdeye-jsonschema-spectral-rules
+scopes:
+- name: Birdeye Scopes
+  scope_count: 3
+  slug: birdeye-scopes
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 50.1
-  delta: 0.0
+  band: exemplar
+  composite: 81.5
+  delta: 31.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.1
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    commercial_clarity: 100.0
+    contract_quality: 77.3
+    developer_ergonomics: 67.4
+    discoverability: 92.6
+    governance: 79.2
+    operational_transparency: 76.3
   previous_composite: 50.1
   provenance:
     agentic_access: derived
@@ -769,18 +977,26 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/screenshots/birdeye-2026-06-20T173257.png
 security:
 - kind: authentication
   name: Birdeye Authentication
   slug: birdeye-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Birdeye Domain Security
   slug: birdeye-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Birdeye Vulnerability Disclosure
+  slug: birdeye-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Birdeye Trust Center
+  slug: birdeye-trust-center
+  summary_line: SOC 2 Type II, ISO/IEC 27001, HIPAA, GDPR, CCPA / CPRA
 slug: birdeye
 tags:
 - Reputation Management

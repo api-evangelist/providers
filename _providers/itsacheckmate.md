@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Standard and group order submission into the POS.
   name: ItsaCheckmate Orders API
   slug: itsacheckmate-orders-api
-artifact_total: 56
+artifact_total: 61
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ItsaCheckmate Marketplace for Developers Locations API
+  slug: open-itsacheckmate-locations-api
 - collection_type: open
   name: ItsaCheckmate Marketplace for Developers API
   slug: open-itsacheckmate-marketplace-api
+- collection_type: open
+  name: ItsaCheckmate Marketplace for Developers Locations Menus API
+  slug: open-itsacheckmate-menus-api
+- collection_type: open
+  name: ItsaCheckmate Marketplace for Developers Locations OAuth API
+  slug: open-itsacheckmate-oauth-api
+- collection_type: open
+  name: ItsaCheckmate Marketplace for Developers Locations Orders API
+  slug: open-itsacheckmate-orders-api
 common:
 - group: agent
   title: ''
@@ -282,7 +297,7 @@ plans:
 - name: Itsacheckmate Plans Pricing
   plan_count: 3
   slug: itsacheckmate-plans-pricing
-random_paper: 46
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Itsacheckmate Rate Limits
@@ -324,7 +339,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/screenshots/itsacheckmate-2026-06-20T183633.png
 security:

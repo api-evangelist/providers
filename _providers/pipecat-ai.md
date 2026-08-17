@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -60,8 +60,26 @@ apis:
 - description: Start, stop, and proxy requests to running agent sessions.
   name: Pipecat Sessions API
   slug: pipecat-ai-sessions-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pipecat Cloud Agents API
+  slug: open-pipecat-ai-agents-api
+- collection_type: open
+  name: Pipecat Cloud Agents Builds API
+  slug: open-pipecat-ai-builds-api
+- collection_type: open
+  name: Pipecat Cloud Agents Organization API
+  slug: open-pipecat-ai-organization-api
+- collection_type: open
+  name: Pipecat Cloud Agents Secrets API
+  slug: open-pipecat-ai-secrets-api
+- collection_type: open
+  name: Pipecat Cloud Agents Sessions API
+  slug: open-pipecat-ai-sessions-api
 - collection_type: open
   name: Pipecat Cloud API
   slug: open-pipecat-ai
@@ -126,7 +144,7 @@ plans:
 - name: Pipecat Ai Plans Pricing
   plan_count: 3
   slug: pipecat-ai-plans-pricing
-random_paper: 29
+random_paper: 95
 rate_limits:
 - limit_count: 4
   name: Pipecat Ai Rate Limits
@@ -151,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

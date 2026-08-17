@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -182,8 +182,152 @@ apis:
 - description: The VPC Subnets API from Crusoe — 2 operation(s) for vpc subnets.
   name: Crusoe VPC Subnets API
   slug: crusoe-energy-vpc-subnets-api
-artifact_total: 55
+artifact_total: 103
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs API
+  slug: open-crusoe-energy-audit-logs-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs AutoCluster Operations API
+  slug: open-crusoe-energy-autocluster-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs AutoClusters API
+  slug: open-crusoe-energy-autoclusters-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Billing API
+  slug: open-crusoe-energy-billing-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Capacities API
+  slug: open-crusoe-energy-capacities-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Custom Image Operations API
+  slug: open-crusoe-energy-custom-image-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Custom Images API
+  slug: open-crusoe-energy-custom-images-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Disk Operations API
+  slug: open-crusoe-energy-disk-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Disks API
+  slug: open-crusoe-energy-disks-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Entities API
+  slug: open-crusoe-energy-entities-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Feature Flags API
+  slug: open-crusoe-energy-feature-flags-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs IB Networks API
+  slug: open-crusoe-energy-ib-networks-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs IB Partitions API
+  slug: open-crusoe-energy-ib-partitions-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Identities API
+  slug: open-crusoe-energy-identities-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Images API
+  slug: open-crusoe-energy-images-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs InferenceAPIKey API
+  slug: open-crusoe-energy-inferenceapikey-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Instance Groups API
+  slug: open-crusoe-energy-instance-groups-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Instance Templates API
+  slug: open-crusoe-energy-instance-templates-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Internal Load Balancer Operations API
+  slug: open-crusoe-energy-internal-load-balancer-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Internal Load Balancers API
+  slug: open-crusoe-energy-internal-load-balancers-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Kubernetes Cluster Operations API
+  slug: open-crusoe-energy-kubernetes-cluster-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Kubernetes Clusters API
+  slug: open-crusoe-energy-kubernetes-clusters-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Kubernetes Node Pool Operations API
+  slug: open-crusoe-energy-kubernetes-node-pool-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Kubernetes Node Pools API
+  slug: open-crusoe-energy-kubernetes-node-pools-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Kubernetes Versions API
+  slug: open-crusoe-energy-kubernetes-versions-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Load Balancer Operations API
+  slug: open-crusoe-energy-load-balancer-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Load Balancers API
+  slug: open-crusoe-energy-load-balancers-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Locations API
+  slug: open-crusoe-energy-locations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Projects API
+  slug: open-crusoe-energy-projects-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Quotas API
+  slug: open-crusoe-energy-quotas-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Reservations API
+  slug: open-crusoe-energy-reservations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Roles API
+  slug: open-crusoe-energy-roles-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Slurm Clusters API
+  slug: open-crusoe-energy-slurm-clusters-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Slurm Node Pools API
+  slug: open-crusoe-energy-slurm-node-pools-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Snapshot Operations API
+  slug: open-crusoe-energy-snapshot-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Snapshots API
+  slug: open-crusoe-energy-snapshots-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs SSH Keys API
+  slug: open-crusoe-energy-ssh-keys-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Tokens API
+  slug: open-crusoe-energy-tokens-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs Usage API
+  slug: open-crusoe-energy-usage-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs VM Operations API
+  slug: open-crusoe-energy-vm-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs VMs API
+  slug: open-crusoe-energy-vms-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs VPC Firewall Rule Operations API
+  slug: open-crusoe-energy-vpc-firewall-rule-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs VPC Firewall Rules API
+  slug: open-crusoe-energy-vpc-firewall-rules-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs VPC Network Operations API
+  slug: open-crusoe-energy-vpc-network-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs VPC Networks API
+  slug: open-crusoe-energy-vpc-networks-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs VPC Subnet Operations API
+  slug: open-crusoe-energy-vpc-subnet-operations-api
+- collection_type: open
+  name: Crusoe Cloud API Gateway Audit Logs VPC Subnets API
+  slug: open-crusoe-energy-vpc-subnets-api
 - collection_type: open
   name: Crusoe Cloud API Gateway
   slug: open-crusoe-energy
@@ -276,7 +420,7 @@ plans:
 - name: Crusoe Energy Plans Pricing
   plan_count: 1
   slug: crusoe-energy-plans-pricing
-random_paper: 32
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Crusoe Energy Rate Limits
@@ -307,7 +451,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe-energy/refs/heads/main/screenshots/crusoe-energy-2026-06-20T175307.png
 security:

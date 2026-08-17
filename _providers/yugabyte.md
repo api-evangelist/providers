@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,7 +68,38 @@ apis:
 - description: The Xcluster Namespace Details API from Yugabyte — 1 operation(s) for xcluster namespace details.
   name: Yugabyte Xcluster Namespace Details API
   slug: yugabyte-xcluster-namespace-details-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yugabyte Cloud backup-info API
+  slug: open-yugabyte-backup-info-api
+- collection_type: open
+  name: Yugabyte Cloud backup-info cluster API
+  slug: open-yugabyte-cluster-api
+- collection_type: open
+  name: Yugabyte Cloud backup-info cluster-info API
+  slug: open-yugabyte-cluster-info-api
+- collection_type: open
+  name: Yugabyte Cloud backup-info pitr-info API
+  slug: open-yugabyte-pitr-info-api
+- collection_type: open
+  name: Yugabyte Cloud backup-info restore-info API
+  slug: open-yugabyte-restore-info-api
+- collection_type: open
+  name: Yugabyte Cloud backup-info voyager-info API
+  slug: open-yugabyte-voyager-info-api
+- collection_type: open
+  name: Yugabyte Cloud backup-info voyager-metrics API
+  slug: open-yugabyte-voyager-metrics-api
+- collection_type: open
+  name: Yugabyte Cloud backup-info Xcluster Metrics API
+  slug: open-yugabyte-xcluster-metrics-api
+- collection_type: open
+  name: Yugabyte Cloud backup-info Xcluster Namespace Details API
+  slug: open-yugabyte-xcluster-namespace-details-api
 common:
 - group: other
   title: ''
@@ -222,7 +253,7 @@ overview: 'Yugabyte publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Yugabyte''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 34
+random_paper: 129
 score:
   band: developing
   composite: 54.9
@@ -246,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

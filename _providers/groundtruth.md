@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -49,7 +49,14 @@ apis:
 - description: Model Context Protocol endpoint served on the GroundTruth developer documentation host. It answers MCP JSON-RPC on /mcp but returns error -32001 "Authorization required" to anonymous initialize and to
   name: GroundTruth Documentation MCP Server
   slug: groundtruth-documentation-mcp-server
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Ads Manager API
+  slug: open-groundtruth-ads-manager
+- collection_type: open
+  name: Groundtruth Reporting API
+  slug: open-groundtruth-reporting
 common:
 - group: auth
   title: ''
@@ -191,7 +198,7 @@ plans:
 - name: Groundtruth Plans Pricing
   plan_count: 0
   slug: groundtruth-plans-pricing
-random_paper: 22
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Groundtruth Rate Limits
@@ -199,7 +206,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.8
-  delta: 28.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.5
@@ -207,10 +214,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 15.3
+  previous_composite: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/screenshots/groundtruth-2026-07-25T220343.png
 security:
 - kind: authentication

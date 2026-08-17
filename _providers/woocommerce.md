@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ arazzos:
 - description: Find a product by its SKU and create it only if no matching product exists.
   name: WooCommerce Upsert Product by SKU
   slug: woocommerce-upsert-product-by-sku-workflow
-artifact_total: 286
+artifact_total: 305
 asyncapis:
 - description: The WooCommerce webhook system delivers real-time HTTP POST event notifications to a subscriber-configured endpoint URL whenever specific store events occur. Supported topics cover create, update, del
   name: WooCommerce Webhook Events
@@ -165,11 +165,68 @@ collections:
   name: WooCommerce Store API
   slug: postman-woocommerce-store-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WooCommerce REST Cart API
+  slug: open-woocommerce-cart-api
+- collection_type: open
+  name: WooCommerce REST Cart Checkout API
+  slug: open-woocommerce-checkout-api
+- collection_type: open
+  name: WooCommerce REST Cart Coupons API
+  slug: open-woocommerce-coupons-api
+- collection_type: open
+  name: WooCommerce REST Cart Customers API
+  slug: open-woocommerce-customers-api
+- collection_type: open
+  name: WooCommerce REST Cart Order Notes API
+  slug: open-woocommerce-order-notes-api
+- collection_type: open
+  name: WooCommerce REST Cart Order Refunds API
+  slug: open-woocommerce-order-refunds-api
+- collection_type: open
+  name: WooCommerce REST Cart Orders API
+  slug: open-woocommerce-orders-api
+- collection_type: open
+  name: WooCommerce REST Cart Payment Gateways API
+  slug: open-woocommerce-payment-gateways-api
+- collection_type: open
+  name: WooCommerce REST Cart Product Attributes API
+  slug: open-woocommerce-product-attributes-api
+- collection_type: open
+  name: WooCommerce REST Cart Product Categories API
+  slug: open-woocommerce-product-categories-api
+- collection_type: open
+  name: WooCommerce REST Cart Product Tags API
+  slug: open-woocommerce-product-tags-api
+- collection_type: open
+  name: WooCommerce REST Cart Product Variations API
+  slug: open-woocommerce-product-variations-api
+- collection_type: open
+  name: WooCommerce REST Cart Products API
+  slug: open-woocommerce-products-api
+- collection_type: open
+  name: WooCommerce REST Cart Reports API
+  slug: open-woocommerce-reports-api
+- collection_type: open
   name: WooCommerce REST API
   slug: open-woocommerce-rest-api
 - collection_type: open
+  name: WooCommerce REST Cart Shipping Zones API
+  slug: open-woocommerce-shipping-zones-api
+- collection_type: open
   name: WooCommerce Store API
   slug: open-woocommerce-store-api
+- collection_type: open
+  name: WooCommerce REST Cart System Status API
+  slug: open-woocommerce-system-status-api
+- collection_type: open
+  name: WooCommerce REST Cart Tax Rates API
+  slug: open-woocommerce-tax-rates-api
+- collection_type: open
+  name: WooCommerce REST Cart Webhooks API
+  slug: open-woocommerce-webhooks-api
 common:
 - group: agent
   title: ''
@@ -1055,7 +1112,7 @@ plans:
 - name: Woocommerce Plans Pricing
   plan_count: 4
   slug: woocommerce-plans-pricing
-random_paper: 104
+random_paper: 141
 rate_limits:
 - limit_count: 3
   name: Woocommerce Rate Limits
@@ -1105,7 +1162,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png
 security:

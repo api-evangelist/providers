@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: The Managed Database API from Activeloop — 1 operation(s) for managed database.
   name: Activeloop Managed Database API
   slug: activeloop-managed-database-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Activeloop Deep Lake Managed Database API
+  slug: open-activeloop-managed-database-api
 - collection_type: open
   name: Activeloop Deep Lake API
   slug: open-activeloop
@@ -108,7 +114,7 @@ plans:
 - name: Activeloop Plans Pricing
   plan_count: 4
   slug: activeloop-plans-pricing
-random_paper: 118
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Activeloop Rate Limits
@@ -133,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activeloop/refs/heads/main/screenshots/activeloop-2026-06-20T164223.png
 security:

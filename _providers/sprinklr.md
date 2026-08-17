@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RESTful APIs for integrating with the Sprinklr Unified-CXM platform, covering social listening, publishing, reporting, user provisioning, digital asset management, and webhook subscriptions across 30+
@@ -232,7 +232,7 @@ plans:
 - name: Sprinklr Plans Pricing
   plan_count: 5
   slug: sprinklr-plans-pricing
-random_paper: 45
+random_paper: 140
 rate_limits:
 - limit_count: 2
   name: Sprinklr Rate Limits
@@ -240,7 +240,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 67.9
-  delta: 42.4
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 51.6
@@ -248,10 +248,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 76.3
-  previous_composite: 25.5
+  previous_composite: 67.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/screenshots/sprinklr-2026-06-20T194419.png
 security:
 - kind: authentication

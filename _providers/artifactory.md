@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -146,7 +146,7 @@ arazzos:
 - description: Confirm a build exists, rename it, then read the runs under its new name.
   name: Artifactory Rename Build and Verify
   slug: artifactory-rename-build-verify-workflow
-artifact_total: 65
+artifact_total: 83
 collections:
 - collection_type: postman
   name: JFrog Artifactory Query Language (AQL) API
@@ -158,14 +158,68 @@ collections:
   name: JFrog Artifactory REST API
   slug: postman-artifactory-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: JFrog Artifactory Query Language (AQL) API
   slug: open-artifactory-aql-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search API
+  slug: open-artifactory-aql-search-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Artifactory Extensions API
+  slug: open-artifactory-artifactory-extensions-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Artifacts & Storage API
+  slug: open-artifactory-artifacts-storage-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Base API
+  slug: open-artifactory-base-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Blobs API
+  slug: open-artifactory-blobs-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Build Diff API
+  slug: open-artifactory-build-diff-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Build Info API
+  slug: open-artifactory-build-info-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Build Management API
+  slug: open-artifactory-build-management-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Build Promotion API
+  slug: open-artifactory-build-promotion-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Catalog API
+  slug: open-artifactory-catalog-api
 - collection_type: open
   name: JFrog Artifactory Docker Registry API
   slug: open-artifactory-docker-registry-api
 - collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Manifests API
+  slug: open-artifactory-manifests-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Replication API
+  slug: open-artifactory-replication-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Repositories API
+  slug: open-artifactory-repositories-api
+- collection_type: open
   name: JFrog Artifactory REST API
   slug: open-artifactory-rest-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search API
+  slug: open-artifactory-search-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Security API
+  slug: open-artifactory-security-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search System & Configuration API
+  slug: open-artifactory-system-configuration-api
+- collection_type: open
+  name: JFrog Artifactory Query Language (AQL) AQL Search Tags API
+  slug: open-artifactory-tags-api
 common:
 - group: agent
   title: ''
@@ -448,7 +502,7 @@ plans:
 - name: Artifactory Plans Pricing
   plan_count: 6
   slug: artifactory-plans-pricing
-random_paper: 112
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Artifactory Rate Limits
@@ -484,7 +538,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:

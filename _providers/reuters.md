@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Search for content items across channels using keyword queries. Search supports filtering by headline, channel, date range, and other metadata fields.
   name: Reuters Search API
   slug: reuters-search-api
-artifact_total: 24
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reuters Connect Authentication API
+  slug: open-reuters-authentication-api
+- collection_type: open
+  name: Reuters Connect Authentication Channels API
+  slug: open-reuters-channels-api
 - collection_type: open
   name: Reuters Connect API
   slug: open-reuters-connect-api
+- collection_type: open
+  name: Reuters Connect Authentication Items API
+  slug: open-reuters-items-api
+- collection_type: open
+  name: Reuters Connect Authentication Search API
+  slug: open-reuters-search-api
 common:
 - group: agent
   title: ''
@@ -180,7 +195,7 @@ plans:
 - name: Reuters Plans Pricing
   plan_count: 3
   slug: reuters-plans-pricing
-random_paper: 58
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Reuters Rate Limits
@@ -222,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

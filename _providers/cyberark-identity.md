@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: The UserMgmt API from CyberArk Identity — 5 operation(s) for usermgmt.
   name: CyberArk Identity UserMgmt API
   slug: cyberark-identity-usermgmt-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CyberArk Identity REST Authentication API
+  slug: open-cyberark-identity-authentication-api
+- collection_type: open
+  name: CyberArk Identity REST Authentication CDirectoryService API
+  slug: open-cyberark-identity-cdirectoryservice-api
+- collection_type: open
+  name: CyberArk Identity REST Authentication ExtData API
+  slug: open-cyberark-identity-extdata-api
+- collection_type: open
+  name: CyberArk Identity REST Authentication OAuth API
+  slug: open-cyberark-identity-oauth-api
+- collection_type: open
+  name: CyberArk Identity REST Authentication Org API
+  slug: open-cyberark-identity-org-api
+- collection_type: open
+  name: CyberArk Identity REST Authentication SCIM API
+  slug: open-cyberark-identity-scim-api
+- collection_type: open
+  name: CyberArk Identity REST Authentication UserMgmt API
+  slug: open-cyberark-identity-usermgmt-api
 - collection_type: open
   name: CyberArk Identity REST API
   slug: open-cyberark-identity
@@ -120,7 +144,7 @@ overview: 'CyberArk Identity publishes 7 APIs on the [APIs.io](https://apis.io/)
 
 
   CyberArk Identity''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 90
+random_paper: 131
 score:
   band: thin
   composite: 31.2
@@ -141,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/screenshots/cyberark-identity-2026-06-20T175406.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Voice API from MiniMax — 4 operation(s) for voice.
   name: MiniMax Voice API
   slug: minimax-ai-voice-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MiniMax Files API
+  slug: open-minimax-ai-files-api
+- collection_type: open
+  name: MiniMax Files Image API
+  slug: open-minimax-ai-image-api
+- collection_type: open
+  name: MiniMax Files Music API
+  slug: open-minimax-ai-music-api
+- collection_type: open
+  name: MiniMax Files Text Generation API
+  slug: open-minimax-ai-text-generation-api
+- collection_type: open
+  name: MiniMax Files Text to Audio API
+  slug: open-minimax-ai-text-to-audio-api
+- collection_type: open
+  name: MiniMax Files Video API
+  slug: open-minimax-ai-video-api
+- collection_type: open
+  name: MiniMax Files Voice API
+  slug: open-minimax-ai-voice-api
 - collection_type: open
   name: MiniMax API
   slug: open-minimax-ai
@@ -130,7 +154,7 @@ plans:
 - name: Minimax Ai Plans Pricing
   plan_count: 4
   slug: minimax-ai-plans-pricing
-random_paper: 42
+random_paper: 108
 rate_limits:
 - limit_count: 8
   name: Minimax Ai Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/screenshots/minimax-ai-2026-06-20T185605.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Product / inventory catalog. (Modeled.)
   name: ezyVet Products API
   slug: ezyvet-products-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ezyVet Animals API
+  slug: open-ezyvet-animals-api
+- collection_type: open
+  name: ezyVet Animals Appointments API
+  slug: open-ezyvet-appointments-api
+- collection_type: open
+  name: ezyVet Animals Authentication API
+  slug: open-ezyvet-authentication-api
+- collection_type: open
+  name: ezyVet Animals Consultations API
+  slug: open-ezyvet-consultations-api
+- collection_type: open
+  name: ezyVet Animals Contacts API
+  slug: open-ezyvet-contacts-api
+- collection_type: open
+  name: ezyVet Animals Diagnostics API
+  slug: open-ezyvet-diagnostics-api
+- collection_type: open
+  name: ezyVet Animals Invoices API
+  slug: open-ezyvet-invoices-api
+- collection_type: open
+  name: ezyVet Animals Prescriptions API
+  slug: open-ezyvet-prescriptions-api
+- collection_type: open
+  name: ezyVet Animals Products API
+  slug: open-ezyvet-products-api
 - collection_type: open
   name: ezyVet API
   slug: open-ezyvet
@@ -132,7 +162,7 @@ plans:
 - name: Ezyvet Plans Pricing
   plan_count: 3
   slug: ezyvet-plans-pricing
-random_paper: 79
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Ezyvet Rate Limits
@@ -163,7 +193,7 @@ score:
     regime_id: health
     score: 22.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/screenshots/ezyvet-2026-07-25T214103.png
 security:

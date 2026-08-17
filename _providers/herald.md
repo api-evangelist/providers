@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: The Webhooks API from Herald — 2 operation(s) for webhooks.
   name: Herald Webhooks API
   slug: herald-webhooks-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Herald Applications API
+  slug: open-herald-applications-api
+- collection_type: open
+  name: Herald Applications Authentication API
+  slug: open-herald-authentication-api
+- collection_type: open
+  name: Herald Applications Classifications API
+  slug: open-herald-classifications-api
+- collection_type: open
+  name: Herald Applications Distributors API
+  slug: open-herald-distributors-api
+- collection_type: open
+  name: Herald Applications Files API
+  slug: open-herald-files-api
+- collection_type: open
+  name: Herald Applications Producers API
+  slug: open-herald-producers-api
+- collection_type: open
+  name: Herald Applications Products API
+  slug: open-herald-products-api
+- collection_type: open
+  name: Herald Applications Quotes API
+  slug: open-herald-quotes-api
+- collection_type: open
+  name: Herald Applications Submissions API
+  slug: open-herald-submissions-api
+- collection_type: open
+  name: Herald Applications Webhooks API
+  slug: open-herald-webhooks-api
 - collection_type: open
   name: Herald API
   slug: open-herald
@@ -131,7 +164,7 @@ plans:
 - name: Herald Plans Pricing
   plan_count: 1
   slug: herald-plans-pricing
-random_paper: 24
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Herald Rate Limits
@@ -162,7 +195,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/screenshots/herald-2026-07-25T221009.png
 security:

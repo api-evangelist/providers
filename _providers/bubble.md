@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ arazzos:
 - description: Find a record by a key field and update it if it exists, otherwise create it.
   name: Bubble Upsert a Thing
   slug: bubble-upsert-thing-workflow
-artifact_total: 71
+artifact_total: 76
 collections:
 - collection_type: postman
   name: Bubble Data API
@@ -100,13 +100,28 @@ collections:
   name: Bubble Workflow API
   slug: postman-bubble-workflow-api
 - collection_type: open
-  name: Bubble Data API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bubble Data Action API
+  slug: open-bubble-action-api
+- collection_type: open
+  name: Bubble Data Action Context API
+  slug: open-bubble-context-api
+- collection_type: open
+  name: Bubble Action Data API
   slug: open-bubble-data-api
+- collection_type: open
+  name: Bubble Data Action Element API
+  slug: open-bubble-element-api
 - collection_type: open
   name: Bubble Plugin API
   slug: open-bubble-plugin-api
 - collection_type: open
-  name: Bubble Workflow API
+  name: Bubble Data Action Thing API
+  slug: open-bubble-thing-api
+- collection_type: open
+  name: Bubble Data Action Workflow API
   slug: open-bubble-workflow-api
 common:
 - group: agent
@@ -428,7 +443,7 @@ plans:
 - name: Bubble Plans Pricing
   plan_count: 7
   slug: bubble-plans-pricing
-random_paper: 20
+random_paper: 24
 rate_limits:
 - limit_count: 12
   name: Bubble Rate Limits
@@ -470,7 +485,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
 security:

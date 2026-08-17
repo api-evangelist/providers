@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - description: 'The server-to-server conversion intake used by advertisers who cannot run the Web SDK. A POST carries an event name, the publisher account id and one of three customer identifiers (raw email, SHA-256 '
   name: Disco Event API
   slug: disconetwork-event-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Disconetwork Event Surface
@@ -64,6 +64,15 @@ collections:
 - collection_type: postman
   name: Disco Reporting API V2
   slug: postman-disconetwork-reporting-v2
+- collection_type: open
+  name: External API for Disco Integration Partners
+  slug: open-disconetwork-partner-api
+- collection_type: open
+  name: Disco Reporting API
+  slug: open-disconetwork-reporting-api-v1
+- collection_type: open
+  name: Disco Reporting API V2
+  slug: open-disconetwork-reporting-api-v2
 common:
 - group: agent
   title: ''
@@ -208,7 +217,7 @@ plans:
 - name: Disconetwork Plans Pricing
   plan_count: 0
   slug: disconetwork-plans-pricing
-random_paper: 108
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: Disconetwork Rate Limits
@@ -216,7 +225,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.9
-  delta: 45.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.2
@@ -224,10 +233,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 11.3
+  previous_composite: 56.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/screenshots/disconetwork-2026-07-25T212103.png
 security:
 - kind: authentication

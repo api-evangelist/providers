@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -87,7 +87,59 @@ apis:
 - description: The UpdateMember API from Quenza — 1 operation(s) for updatemember.
   name: Quenza UpdateMember API
   slug: quenza-updatemember-api
-artifact_total: 22
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quenza ArchiveClient API
+  slug: open-quenza-archiveclient-api
+- collection_type: open
+  name: Quenza ArchiveClient AttachGroupMembers API
+  slug: open-quenza-attachgroupmembers-api
+- collection_type: open
+  name: Quenza ArchiveClient Clients API
+  slug: open-quenza-clients-api
+- collection_type: open
+  name: Quenza ArchiveClient CreateClient API
+  slug: open-quenza-createclient-api
+- collection_type: open
+  name: Quenza ArchiveClient CreateGroup API
+  slug: open-quenza-creategroup-api
+- collection_type: open
+  name: Quenza ArchiveClient CreateMember API
+  slug: open-quenza-createmember-api
+- collection_type: open
+  name: Quenza ArchiveClient Groups API
+  slug: open-quenza-groups-api
+- collection_type: open
+  name: Quenza ArchiveClient ListClient API
+  slug: open-quenza-listclient-api
+- collection_type: open
+  name: Quenza ArchiveClient ListMember API
+  slug: open-quenza-listmember-api
+- collection_type: open
+  name: Quenza ArchiveClient ListTask API
+  slug: open-quenza-listtask-api
+- collection_type: open
+  name: Quenza ArchiveClient Members API
+  slug: open-quenza-members-api
+- collection_type: open
+  name: Quenza ArchiveClient ShowClient API
+  slug: open-quenza-showclient-api
+- collection_type: open
+  name: Quenza ArchiveClient Tasks API
+  slug: open-quenza-tasks-api
+- collection_type: open
+  name: Quenza ArchiveClient UnarchiveClient API
+  slug: open-quenza-unarchiveclient-api
+- collection_type: open
+  name: Quenza ArchiveClient UpdateClient API
+  slug: open-quenza-updateclient-api
+- collection_type: open
+  name: Quenza ArchiveClient UpdateMember API
+  slug: open-quenza-updatemember-api
 common:
 - group: agent
   title: ''
@@ -149,7 +201,7 @@ plans:
 - name: Quenza Plans Pricing
   plan_count: 5
   slug: quenza-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 4
   name: Quenza Rate Limits
@@ -180,7 +232,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

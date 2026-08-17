@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Collaboration spaces for grouping assistants
   name: Unify Spaces API
   slug: unify-ai-spaces-api
-artifact_total: 30
+artifact_total: 39
 collections:
 - collection_type: postman
   name: Unify Universal Agent API
@@ -89,6 +89,33 @@ collections:
 - collection_type: postman
   name: Unify Universal Agent Spaces API
   slug: postman-unify-ai-spaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unify Universal Agent API
+  slug: open-unify-ai-agent-api
+- collection_type: open
+  name: Unify Universal Agent Assistants API
+  slug: open-unify-ai-assistants-api
+- collection_type: open
+  name: Unify Universal Agent Contexts API
+  slug: open-unify-ai-contexts-api
+- collection_type: open
+  name: Unify Universal Agent Logs API
+  slug: open-unify-ai-logs-api
+- collection_type: open
+  name: Unify Universal Agent Organizations API
+  slug: open-unify-ai-organizations-api
+- collection_type: open
+  name: Unify Universal Agent Platform API
+  slug: open-unify-ai-platform-api
+- collection_type: open
+  name: Unify Universal Agent Projects API
+  slug: open-unify-ai-projects-api
+- collection_type: open
+  name: Unify Universal Agent Spaces API
+  slug: open-unify-ai-spaces-api
 common:
 - group: build
   title: ''
@@ -208,7 +235,7 @@ plans:
 - name: Unify Ai Plans Pricing
   plan_count: 3
   slug: unify-ai-plans-pricing
-random_paper: 82
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Unify Ai Rate Limits
@@ -242,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/screenshots/unify-ai-2026-06-20T200030.png
 security:

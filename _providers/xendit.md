@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: List and retrieve money-movement transactions.
   name: Xendit Transactions API
   slug: xendit-transactions-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xendit Balance API
+  slug: open-xendit-balance-api
+- collection_type: open
+  name: Xendit Balance Customers API
+  slug: open-xendit-customers-api
+- collection_type: open
+  name: Xendit Balance Invoices API
+  slug: open-xendit-invoices-api
+- collection_type: open
+  name: Xendit Balance Payment Requests API
+  slug: open-xendit-payment-requests-api
+- collection_type: open
+  name: Xendit Balance Payment Tokens API
+  slug: open-xendit-payment-tokens-api
+- collection_type: open
+  name: Xendit Balance Payouts API
+  slug: open-xendit-payouts-api
+- collection_type: open
+  name: Xendit Balance Refunds API
+  slug: open-xendit-refunds-api
+- collection_type: open
+  name: Xendit Balance Transactions API
+  slug: open-xendit-transactions-api
 - collection_type: open
   name: Xendit API
   slug: open-xendit
@@ -133,7 +160,7 @@ plans:
 - name: Xendit Plans Pricing
   plan_count: 2
   slug: xendit-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Xendit Rate Limits
@@ -164,7 +191,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

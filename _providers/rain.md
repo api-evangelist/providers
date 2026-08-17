@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -130,7 +130,7 @@ overview: 'Rain is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Rain''s developer surface includes documentation, engineering blog, support, signup flow, sandbox, and 14 more developer resources.'
-random_paper: 66
+random_paper: 128
 score:
   band: thin
   composite: 41.5
@@ -153,7 +153,7 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

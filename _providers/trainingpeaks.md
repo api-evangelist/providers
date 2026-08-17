@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Planned and completed workouts, changes, details, and analytics.
   name: TrainingPeaks Workouts API
   slug: trainingpeaks-workouts-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TrainingPeaks Partners Athlete API
+  slug: open-trainingpeaks-athlete-api
+- collection_type: open
+  name: TrainingPeaks Partners Athlete Coach API
+  slug: open-trainingpeaks-coach-api
+- collection_type: open
+  name: TrainingPeaks Partners Athlete Events API
+  slug: open-trainingpeaks-events-api
+- collection_type: open
+  name: TrainingPeaks Partners Athlete File API
+  slug: open-trainingpeaks-file-api
+- collection_type: open
+  name: TrainingPeaks Partners Athlete Info API
+  slug: open-trainingpeaks-info-api
+- collection_type: open
+  name: TrainingPeaks Partners Athlete Metrics API
+  slug: open-trainingpeaks-metrics-api
+- collection_type: open
+  name: TrainingPeaks Partners Athlete Nutrition API
+  slug: open-trainingpeaks-nutrition-api
+- collection_type: open
+  name: TrainingPeaks Partners Athlete Routes API
+  slug: open-trainingpeaks-routes-api
+- collection_type: open
+  name: TrainingPeaks Partners Athlete Webhooks API
+  slug: open-trainingpeaks-webhooks-api
+- collection_type: open
+  name: TrainingPeaks Partners Athlete Workouts API
+  slug: open-trainingpeaks-workouts-api
 - collection_type: open
   name: TrainingPeaks Partners API
   slug: open-trainingpeaks
@@ -143,7 +176,7 @@ plans:
 - name: Trainingpeaks Plans Pricing
   plan_count: 6
   slug: trainingpeaks-plans-pricing
-random_paper: 72
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Trainingpeaks Rate Limits
@@ -179,7 +212,7 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

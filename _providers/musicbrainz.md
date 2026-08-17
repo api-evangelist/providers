@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
 - description: Lookup, browse, and search for musical works (abstract compositions).
   name: MusicBrainz Works API
   slug: musicbrainz-works-api
-artifact_total: 52
+artifact_total: 69
 collections:
 - collection_type: postman
   name: MusicBrainz Web Service v2 Areas API
@@ -138,8 +138,59 @@ collections:
   name: MusicBrainz Web Service v2 Areas Works API
   slug: postman-musicbrainz-works-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas API
+  slug: open-musicbrainz-areas-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Artists API
+  slug: open-musicbrainz-artists-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Collections API
+  slug: open-musicbrainz-collections-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Events API
+  slug: open-musicbrainz-events-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Genres API
+  slug: open-musicbrainz-genres-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Identifiers API
+  slug: open-musicbrainz-identifiers-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Instruments API
+  slug: open-musicbrainz-instruments-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Labels API
+  slug: open-musicbrainz-labels-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Places API
+  slug: open-musicbrainz-places-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Recordings API
+  slug: open-musicbrainz-recordings-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Release Groups API
+  slug: open-musicbrainz-release-groups-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Releases API
+  slug: open-musicbrainz-releases-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Series API
+  slug: open-musicbrainz-series-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Submission API
+  slug: open-musicbrainz-submission-api
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas URLs API
+  slug: open-musicbrainz-urls-api
+- collection_type: open
   name: MusicBrainz Web Service v2
   slug: open-musicbrainz-web-service
+- collection_type: open
+  name: MusicBrainz Web Service v2 Areas Works API
+  slug: open-musicbrainz-works-api
 common:
 - group: build
   title: ''
@@ -371,7 +422,7 @@ plans:
 - name: Musicbrainz Plans Pricing
   plan_count: 3
   slug: musicbrainz-plans-pricing
-random_paper: 111
+random_paper: 148
 rate_limits:
 - limit_count: 4
   name: Musicbrainz Rate Limits
@@ -424,7 +475,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png
 security:

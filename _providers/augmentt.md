@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Augmentt Discover provides SaaS discovery and Shadow IT detection capabilities for MSPs, identifying all cloud applications used across managed client environments.
@@ -127,7 +127,7 @@ plans:
 - name: Augmentt Plans Pricing
   plan_count: 3
   slug: augmentt-plans-pricing
-random_paper: 29
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Augmentt Rate Limits
@@ -145,7 +145,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 24.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/screenshots/augmentt-2026-07-25T201708.png
 security:

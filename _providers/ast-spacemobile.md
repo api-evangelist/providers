@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -139,7 +139,7 @@ overview: 'AST SpaceMobile is profiled on the [APIs.io](https://apis.io/) networ
 
 
   AST SpaceMobile''s developer surface includes engineering blog, FAQ, YouTube channel, and 23 more developer resources.'
-random_paper: 89
+random_paper: 39
 score:
   band: minimal
   composite: 11.8
@@ -159,7 +159,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ast-spacemobile/refs/heads/main/screenshots/ast-spacemobile-2026-08-07T161812.png
 security:

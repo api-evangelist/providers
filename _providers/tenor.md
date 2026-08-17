@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The Trending Terms API from Tenor — 1 operation(s) for trending terms.
   name: Tenor Trending Terms API
   slug: tenor-trending-terms-api
-artifact_total: 25
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tenor Autocomplete API
+  slug: open-tenor-autocomplete-api
+- collection_type: open
+  name: Tenor Autocomplete Categories API
+  slug: open-tenor-categories-api
+- collection_type: open
+  name: Tenor Autocomplete Featured API
+  slug: open-tenor-featured-api
+- collection_type: open
+  name: Tenor Autocomplete Posts API
+  slug: open-tenor-posts-api
+- collection_type: open
+  name: Tenor Autocomplete Registershare API
+  slug: open-tenor-registershare-api
+- collection_type: open
+  name: Tenor Autocomplete Search API
+  slug: open-tenor-search-api
+- collection_type: open
+  name: Tenor Autocomplete Search Suggestions API
+  slug: open-tenor-search-suggestions-api
+- collection_type: open
+  name: Tenor Autocomplete Trending Terms API
+  slug: open-tenor-trending-terms-api
 common:
 - group: agent
   title: ''
@@ -161,7 +189,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 72
+random_paper: 105
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -195,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/screenshots/tenor-2026-06-20T195116.png
 security:

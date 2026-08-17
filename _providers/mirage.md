@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -59,11 +59,36 @@ apis:
 - description: The Videos API from Mirage — 3 operation(s) for videos.
   name: Mirage Videos API
   slug: mirage-videos-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Mirage Webhooks
   slug: mirage-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mirage Video Audio API
+  slug: open-mirage-audio-api
+- collection_type: open
+  name: Mirage Video Audio health API
+  slug: open-mirage-health-api
+- collection_type: open
+  name: Mirage Video Audio internal API
+  slug: open-mirage-internal-api
+- collection_type: open
+  name: Mirage Video Audio Meta Text Overlays API
+  slug: open-mirage-meta-text-overlays-api
+- collection_type: open
+  name: Mirage Video Audio root API
+  slug: open-mirage-root-api
+- collection_type: open
+  name: Mirage Video Audio Video Captions API
+  slug: open-mirage-video-captions-api
+- collection_type: open
+  name: Mirage Video Audio Videos API
+  slug: open-mirage-videos-api
 common:
 - group: other
   title: ''
@@ -188,7 +213,7 @@ overview: 'Mirage publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mirage''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 19 more developer resources.'
-random_paper: 29
+random_paper: 33
 score:
   band: developing
   composite: 47.7
@@ -212,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/screenshots/mirage-2026-08-07T183717.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,18 +19,22 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-12'
+  score: 37.4
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 5
+asyncapis:
+- description: ''
+  name: Octane Ai Webhooks
+  slug: octane-ai-webhooks
 common:
 - group: company
   title: ''
@@ -44,6 +48,10 @@ common:
   title: ''
   type: Documentation
   url: https://help.octaneai.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.octaneai.com/en/articles/4346619-getting-started-with-quizzes
 - group: operate
   title: ''
   type: Support
@@ -96,40 +104,71 @@ common:
   title: ''
   type: DomainSecurity
   url: security/octane-ai-domain-security.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/octane-ai-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/octane-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/octane-ai-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/octane-ai-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/octane-ai-conformance.yml
 created: '2026-07-17'
 description: 'Octane AI is an AI-powered quiz and product-recommendation platform for Shopify merchants, turning storefront browsers into buyers with no-code personalized quizzes, zero-party data capture, and its CORE-1 recommendation engine. It integrates with 50+ marketing, CRM, and automation tools (Klaviyo, Attentive, Postscript, Recharge, Gorgias, Zapier, Alloy) and syncs shopper data in real time. Its developer surface is client-side rather than a public REST API: an embeddable quiz widget that dispatches a documented set of browser JavaScript events (octane.quiz.*), custom CSS/JS injection hooks, a headless-store integration path, and a per-account API key plus webhook secret used for integrations and outbound webhook verification. Backed by Bullpen Capital and General Catalyst.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/octane-ai.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Octane AI
 nav: Providers
 network: true
 overview: 'Octane AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shopify, E-Commerce, Product Recommendations, and Quizzes.
 
 
-  Octane AI''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 10 more developer resources.'
-random_paper: 41
+  The Octane AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Octane AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 15 more developer resources.'
+plans:
+- name: Octane Ai Plans Pricing
+  plan_count: 4
+  slug: octane-ai-plans-pricing
+random_paper: 136
+rate_limits:
+- limit_count: 0
+  name: Octane Ai Rate Limits
+  slug: octane-ai-rate-limits
 score:
-  band: emerging
-  composite: 22.3
-  delta: 0.0
+  band: developing
+  composite: 47.4
+  delta: 25.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 34.8
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 76.3
+    contract_quality: 51.6
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 13.2
   previous_composite: 22.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/screenshots/octane-ai-2026-08-07T185929.png
 security:
 - kind: authentication
   name: Octane Ai Authentication
   slug: octane-ai-authentication
-  summary_line: apiKey · 3 schemes
+  summary_line: apiKey · 4 schemes
 - kind: domain-security
   name: Octane Ai Domain Security
   slug: octane-ai-domain-security

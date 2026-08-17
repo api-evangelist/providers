@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,14 @@ arazzos:
 - description: List models for a task, pick one, and run serverless inference.
   name: Discover and run a Bytez model
   slug: bytez-discover-and-run
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Source Model Models API
+  slug: open-bytez-models-api
 common:
 - group: other
   title: ''
@@ -163,7 +170,7 @@ overview: 'Bytez publishes 1 API on the [APIs.io](https://apis.io/) network: Mod
 
 
   Bytez''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 18 more developer resources.'
-random_paper: 78
+random_paper: 111
 rate_limits:
 - limit_count: 0
   name: Bytez Rate Limits
@@ -191,7 +198,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/screenshots/bytez-2026-07-25T204146.png
 security:

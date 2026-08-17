@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -56,8 +56,29 @@ apis:
 - description: 10 sample users with profile, address, and company metadata
   name: JSONPlaceholder Users API
   slug: jsonplaceholder-users-api
-artifact_total: 58
+artifact_total: 65
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JSONPlaceholder REST Albums API
+  slug: open-jsonplaceholder-albums-api
+- collection_type: open
+  name: JSONPlaceholder REST Albums Comments API
+  slug: open-jsonplaceholder-comments-api
+- collection_type: open
+  name: JSONPlaceholder REST Albums Photos API
+  slug: open-jsonplaceholder-photos-api
+- collection_type: open
+  name: JSONPlaceholder REST Albums Posts API
+  slug: open-jsonplaceholder-posts-api
+- collection_type: open
+  name: JSONPlaceholder REST Albums Todos API
+  slug: open-jsonplaceholder-todos-api
+- collection_type: open
+  name: JSONPlaceholder REST Albums Users API
+  slug: open-jsonplaceholder-users-api
 - collection_type: open
   name: JSONPlaceholder REST API
   slug: open-jsonplaceholder
@@ -272,7 +293,7 @@ plans:
 - name: Jsonplaceholder Plans Pricing
   plan_count: 1
   slug: jsonplaceholder-plans-pricing
-random_paper: 37
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Jsonplaceholder Rate Limits
@@ -314,7 +335,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/screenshots/jsonplaceholder-2026-06-20T183819.png
 security:

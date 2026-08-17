@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Partner API from Curai — 2 operation(s) for partner.
   name: Curai Partner API
   slug: curai-partner-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Curai Partner API
+  slug: open-curai-partner-api
 common:
 - group: other
   title: ''
@@ -151,7 +158,7 @@ overview: 'Curai publishes 1 API on the [APIs.io](https://apis.io/) network: Par
 
 
   Curai''s developer surface includes documentation, getting-started guide, authentication, sandbox, and 19 more developer resources.'
-random_paper: 52
+random_paper: 85
 score:
   band: thin
   composite: 34.4
@@ -181,7 +188,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/screenshots/curai-2026-07-25T210929.png
 security:

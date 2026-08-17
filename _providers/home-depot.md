@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: Retail operations
   name: home-depot Retail API
   slug: home-depot-retail-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Home Depot API
   slug: open-home-depot-home-depot-api
+- collection_type: open
+  name: Home Depot Retail API
+  slug: open-home-depot-retail-api
 common:
 - group: agent
   title: ''
@@ -107,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: The Home Depot Introduces Magic Apron, a Suite of ...
   url: https://ir.homedepot.com/news-releases/2025/03-06-2025-130241718
-random_paper: 50
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: Home Depot Rate Limits
@@ -132,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/screenshots/home-depot-2026-06-20T182823.png
 security:

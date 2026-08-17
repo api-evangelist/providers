@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: Banking Product endpoints
   name: Bank of Queensland Banking Products API
   slug: bank-of-queensland-banking-products-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-bank-of-queensland-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-bank-of-queensland-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-bank-of-queensland-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-bank-of-queensland-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-bank-of-queensland-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-bank-of-queensland-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-bank-of-queensland-banking-products-api
 common:
 - group: agent
   title: ''
@@ -161,7 +186,7 @@ overview: 'Bank of Queensland publishes 7 APIs on the [APIs.io](https://apis.io/
 
 
   Bank of Queensland''s developer surface includes authentication, documentation, support, and 18 more developer resources.'
-random_paper: 107
+random_paper: 148
 scopes:
 - name: Bank Of Queensland Scopes
   scope_count: 9
@@ -196,7 +221,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/screenshots/bank-of-queensland-2026-07-21T114702.png
 security:

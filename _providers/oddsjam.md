@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -75,12 +75,51 @@ apis:
 - description: The Tournaments API from OddsJam — 2 operation(s) for tournaments.
   name: OddsJam Tournaments API
   slug: oddsjam-tournaments-api
-artifact_total: 22
+artifact_total: 35
 asyncapis:
 - description: 'Real-time streaming surface for the OddsJam / OpticOdds Sports Betting API. Two delivery mechanisms are publicly documented: 1. Server-Sent Events (SSE) over long-lived HTTPS connections for odds, res'
   name: OddsJam (OpticOdds) Streaming API
   slug: oddsjam-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OddsJam Fixtures API
+  slug: open-oddsjam-fixtures-api
+- collection_type: open
+  name: OddsJam Fixtures Futures API
+  slug: open-oddsjam-futures-api
+- collection_type: open
+  name: OddsJam Fixtures Grader API
+  slug: open-oddsjam-grader-api
+- collection_type: open
+  name: OddsJam Fixtures Injuries API
+  slug: open-oddsjam-injuries-api
+- collection_type: open
+  name: OddsJam Fixtures Leagues API
+  slug: open-oddsjam-leagues-api
+- collection_type: open
+  name: OddsJam Fixtures Markets API
+  slug: open-oddsjam-markets-api
+- collection_type: open
+  name: OddsJam Fixtures Players API
+  slug: open-oddsjam-players-api
+- collection_type: open
+  name: OddsJam Fixtures Sports API
+  slug: open-oddsjam-sports-api
+- collection_type: open
+  name: OddsJam Fixtures Sportsbooks API
+  slug: open-oddsjam-sportsbooks-api
+- collection_type: open
+  name: OddsJam Fixtures Streaming API
+  slug: open-oddsjam-streaming-api
+- collection_type: open
+  name: OddsJam Fixtures Teams API
+  slug: open-oddsjam-teams-api
+- collection_type: open
+  name: OddsJam Fixtures Tournaments API
+  slug: open-oddsjam-tournaments-api
 - collection_type: open
   name: OddsJam API
   slug: open-oddsjam
@@ -140,7 +179,7 @@ plans:
 - name: Oddsjam Plans Pricing
   plan_count: 3
   slug: oddsjam-plans-pricing
-random_paper: 18
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: Oddsjam Rate Limits
@@ -174,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/screenshots/oddsjam-2026-06-20T190620.png
 security:

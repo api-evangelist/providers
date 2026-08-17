@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Retrieve technical metadata for input and output files.
   name: Coconut Metadata API
   slug: coconut-metadata-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coconut Jobs API
+  slug: open-coconut-jobs-api
+- collection_type: open
+  name: Coconut Jobs Metadata API
+  slug: open-coconut-metadata-api
 - collection_type: open
   name: Coconut API
   slug: open-coconut
@@ -115,7 +124,7 @@ plans:
 - name: Coconut Plans Pricing
   plan_count: 2
   slug: coconut-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Coconut Rate Limits
@@ -140,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/screenshots/coconut-2026-06-20T174648.png
 security:

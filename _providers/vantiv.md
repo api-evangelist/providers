@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -69,14 +69,47 @@ apis:
 - description: Cancel pending unsettled transactions
   name: Vantiv Voids API
   slug: vantiv-voids-api
-artifact_total: 25
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vantiv Chargeback Authorizations API
+  slug: open-vantiv-authorizations-api
+- collection_type: open
+  name: Vantiv Chargeback Authorizations Captures API
+  slug: open-vantiv-captures-api
 - collection_type: open
   name: Vantiv Chargeback API
   slug: open-vantiv-chargeback
 - collection_type: open
+  name: Vantiv Chargeback Authorizations Chargebacks API
+  slug: open-vantiv-chargebacks-api
+- collection_type: open
   name: Vantiv CNP API
   slug: open-vantiv-cnp
+- collection_type: open
+  name: Vantiv Chargeback Authorizations Credits API
+  slug: open-vantiv-credits-api
+- collection_type: open
+  name: Vantiv Chargeback Authorizations Documents API
+  slug: open-vantiv-documents-api
+- collection_type: open
+  name: Vantiv Chargeback Authorizations eCheck API
+  slug: open-vantiv-echeck-api
+- collection_type: open
+  name: Vantiv Chargeback Authorizations Recurring API
+  slug: open-vantiv-recurring-api
+- collection_type: open
+  name: Vantiv Chargeback Authorizations Sales API
+  slug: open-vantiv-sales-api
+- collection_type: open
+  name: Vantiv Chargeback Authorizations Tokenization API
+  slug: open-vantiv-tokenization-api
+- collection_type: open
+  name: Vantiv Chargeback Authorizations Voids API
+  slug: open-vantiv-voids-api
 common:
 - group: agent
   title: ''
@@ -201,7 +234,7 @@ press:
 - date: '2026-05-25'
   title: Vantiv and Worldpay Complete Combination to Form ...
   url: https://www.prnewswire.com/news-releases/vantiv-and-worldpay-complete-combination-to-form-worldpay-inc-300583008.html
-random_paper: 64
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Vantiv Rate Limits
@@ -249,7 +282,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

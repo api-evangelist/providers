@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 1
@@ -44,7 +44,17 @@ apis:
 - description: The API behind Lucid's ChatGPT plugin — accepts Mermaid diagram source and returns a rendered image link plus, for flowcharts, an editable Lucidchart link. Described by the OpenAPI that Lucid's /.well
   name: Lucid ChatGPT Plugin API
   slug: lucid-chatgpt-plugin-api
-artifact_total: 13
+artifact_total: 16
+collections:
+- collection_type: open
+  name: Lucid Data API
+  slug: open-lucid-data-api
+- collection_type: open
+  name: Lucid REST API
+  slug: open-lucid-rest-api
+- collection_type: open
+  name: Lucid SCIM API
+  slug: open-lucid-scim-api
 common:
 - group: agent
   title: ''
@@ -211,7 +221,7 @@ overview: 'Lucid publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lucid''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Lucid Rate Limits
@@ -244,7 +254,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/screenshots/lucid-2026-08-07T171817.png
 security:

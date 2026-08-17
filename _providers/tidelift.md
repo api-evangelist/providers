@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 2
@@ -88,11 +88,60 @@ arazzos:
 - description: Validate the API key, look up a package and a release, and pull the release's vulnerabilities.
   name: Tidelift — package vulnerability check
   slug: tidelift-package-vulnerability-check.arazzo
-artifact_total: 22
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Tidelift Webhooks
   slug: tidelift-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tidelift External Alignments API
+  slug: open-tidelift-alignments-api
+- collection_type: open
+  name: Tidelift External Alignments Attestations API
+  slug: open-tidelift-attestations-api
+- collection_type: open
+  name: Tidelift External Alignments Authentication API
+  slug: open-tidelift-authentication-api
+- collection_type: open
+  name: Tidelift External Alignments Basic Examples API
+  slug: open-tidelift-basic-examples-api
+- collection_type: open
+  name: Tidelift External Alignments Catalog Releases API
+  slug: open-tidelift-catalog-releases-api
+- collection_type: open
+  name: Tidelift External Alignments Catalogs API
+  slug: open-tidelift-catalogs-api
+- collection_type: open
+  name: Tidelift External Alignments CatalogStandards API
+  slug: open-tidelift-catalogstandards-api
+- collection_type: open
+  name: Tidelift External Alignments Groups API
+  slug: open-tidelift-groups-api
+- collection_type: open
+  name: Tidelift External Alignments Licenses API
+  slug: open-tidelift-licenses-api
+- collection_type: open
+  name: Tidelift External Alignments Packages API
+  slug: open-tidelift-packages-api
+- collection_type: open
+  name: Tidelift External Alignments Projects API
+  slug: open-tidelift-projects-api
+- collection_type: open
+  name: Tidelift External Alignments Releases API
+  slug: open-tidelift-releases-api
+- collection_type: open
+  name: Tidelift External Alignments Reports API
+  slug: open-tidelift-reports-api
+- collection_type: open
+  name: Tidelift External Alignments Users API
+  slug: open-tidelift-users-api
+- collection_type: open
+  name: Tidelift External Alignments Vulnerabilities API
+  slug: open-tidelift-vulnerabilities-api
 common:
 - group: other
   title: ''
@@ -233,7 +282,7 @@ overview: 'Tidelift publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tidelift''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 23 more developer resources.'
-random_paper: 13
+random_paper: 108
 score:
   band: developing
   composite: 47.0
@@ -257,7 +306,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

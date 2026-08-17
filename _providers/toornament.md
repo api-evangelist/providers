@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,8 +66,35 @@ apis:
 - description: Manage webhook subscriptions for tournament events.
   name: Toornament Webhooks API
   slug: toornament-webhooks-api
-artifact_total: 46
+artifact_total: 55
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toornament Disciplines API
+  slug: open-toornament-disciplines-api
+- collection_type: open
+  name: Toornament Disciplines Matches API
+  slug: open-toornament-matches-api
+- collection_type: open
+  name: Toornament Disciplines Participants API
+  slug: open-toornament-participants-api
+- collection_type: open
+  name: Toornament Disciplines Rankings API
+  slug: open-toornament-rankings-api
+- collection_type: open
+  name: Toornament Disciplines Registrations API
+  slug: open-toornament-registrations-api
+- collection_type: open
+  name: Toornament Disciplines Stages API
+  slug: open-toornament-stages-api
+- collection_type: open
+  name: Toornament Disciplines Tournaments API
+  slug: open-toornament-tournaments-api
+- collection_type: open
+  name: Toornament Disciplines Webhooks API
+  slug: open-toornament-webhooks-api
 - collection_type: open
   name: Toornament API
   slug: open-toornament
@@ -203,7 +230,7 @@ plans:
 - name: Toornament Plans Pricing
   plan_count: 3
   slug: toornament-plans-pricing
-random_paper: 15
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Toornament Rate Limits
@@ -250,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/screenshots/toornament-2026-06-20T195451.png
 security:

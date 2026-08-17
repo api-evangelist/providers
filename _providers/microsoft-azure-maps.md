@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,8 +72,17 @@ apis:
 - description: The Search API from Azure Maps — 2 operation(s) for search.
   name: Azure Maps Search API
   slug: microsoft-azure-maps-search-api
-artifact_total: 19
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Maps Search REST Geocoding API
+  slug: open-microsoft-azure-maps-geocoding-api
+- collection_type: open
+  name: Azure Maps REST Geocoding Search API
+  slug: open-microsoft-azure-maps-search-api
 - collection_type: open
   name: Azure Maps Search REST API
   slug: open-microsoft-azure-maps
@@ -182,7 +191,7 @@ plans:
 - name: Microsoft Azure Maps Plans Pricing
   plan_count: 3
   slug: microsoft-azure-maps-plans-pricing
-random_paper: 16
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Maps Rate Limits
@@ -212,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/screenshots/microsoft-azure-maps-2026-06-20T185424.png
 security:

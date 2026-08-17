@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -52,11 +52,36 @@ apis:
 - description: The KORE Token API is the OAuth 2.0 authorization endpoint for the whole platform. A single POST to /v1/auth/token exchanges Client Credentials for a bearer access token per RFC 6749 section 4.4, with
   name: KORE Token API
   slug: kore-token-api
-artifact_total: 15
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Kore Wireless Event Streams Webhooks
   slug: kore-wireless-event-streams-webhooks
+collections:
+- collection_type: open
+  name: Client APIs
+  slug: open-kore-wireless-api-clients
+- collection_type: open
+  name: Connectivity APIs
+  slug: open-kore-wireless-connectivity-pro
+- collection_type: open
+  name: IaM APIs
+  slug: open-kore-wireless-iam
+- collection_type: open
+  name: Programmable Wireless APIs
+  slug: open-kore-wireless-programmable-wireless
+- collection_type: open
+  name: SMS API
+  slug: open-kore-wireless-sms
+- collection_type: open
+  name: KORE - Supersim
+  slug: open-kore-wireless-supersim
+- collection_type: open
+  name: v1-token
+  slug: open-kore-wireless-token
+- collection_type: open
+  name: Webhook APIs
+  slug: open-kore-wireless-webhook
 common:
 - group: agent
   title: ''
@@ -250,7 +275,7 @@ overview: 'KORE Wireless publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   KORE Wireless'' developer surface includes authentication, documentation, API reference, developer console, signup flow, engineering blog, product news, and 36 more developer resources.'
-random_paper: 36
+random_paper: 15
 scopes:
 - name: Kore Wireless Scopes
   scope_count: 0
@@ -285,7 +310,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/screenshots/kore-wireless-2026-08-07T171327.png
 security:

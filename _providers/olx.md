@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: OAuth2 partner API for OLX Poland (olx.pl) that lets integrators manage classified adverts (list, create, update), read category attributes, and read delivery settings. Bearer-token authenticated; OLX
@@ -104,7 +104,7 @@ overview: 'OLX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   OLX''s developer surface includes documentation, API reference, authentication, and 10 more developer resources.'
-random_paper: 99
+random_paper: 41
 score:
   band: emerging
   composite: 17.5
@@ -120,7 +120,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olx/refs/heads/main/screenshots/olx-2026-08-07T190129.png
 security:

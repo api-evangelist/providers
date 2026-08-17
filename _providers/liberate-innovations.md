@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Advance workflow instances that are paused on an intermediate event.
@@ -37,7 +37,17 @@ apis:
 - description: Start workflow orchestrations and pass context data into them.
   name: Liberate Innovations Workflows API
   slug: liberate-innovations-workflows-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Liberate Orchestration Platform Events API
+  slug: open-liberate-innovations-events-api
+- collection_type: open
+  name: Liberate Orchestration Platform Events Workflows API
+  slug: open-liberate-innovations-workflows-api
 common:
 - group: agent
   title: ''
@@ -164,7 +174,7 @@ overview: 'Liberate Innovations publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   Liberate Innovations'' developer surface includes documentation, API reference, getting-started guide, engineering blog, product news, signup flow, support, and 20 more developer resources.'
-random_paper: 53
+random_paper: 7
 score:
   band: thin
   composite: 33.3
@@ -193,7 +203,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/screenshots/liberate-innovations-2026-07-25T225018.png
 security:

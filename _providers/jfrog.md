@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 3
@@ -275,7 +275,7 @@ arazzos:
 - description: Generate a vulnerability report and poll until it completes.
   name: JFrog Xray Vulnerability Report
   slug: jfrog-xray-vulnerability-report-workflow
-artifact_total: 230
+artifact_total: 284
 collections:
 - collection_type: postman
   name: JFrog Access REST API
@@ -320,14 +320,35 @@ collections:
   name: JFrog Xray REST API
   slug: postman-jfrog-xray
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JFrog Access REST Access Tokens API
+  slug: open-jfrog-access-tokens-api
+- collection_type: open
   name: JFrog Access REST API
   slug: open-jfrog-access
 - collection_type: open
   name: JFrog Artifactory REST API
   slug: open-jfrog-artifactory
 - collection_type: open
+  name: JFrog Access REST Access Tokens Artifacts & Storage API
+  slug: open-jfrog-artifacts-storage-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Audit API
+  slug: open-jfrog-audit-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Builds API
+  slug: open-jfrog-builds-api
+- collection_type: open
   name: JFrog Catalog REST API
   slug: open-jfrog-catalog
+- collection_type: open
+  name: JFrog Access REST Access Tokens Commands API
+  slug: open-jfrog-commands-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Components API
+  slug: open-jfrog-components-api
 - collection_type: open
   name: JFrog Connect REST API
   slug: open-jfrog-connect
@@ -335,11 +356,53 @@ collections:
   name: JFrog Curation REST API
   slug: open-jfrog-curation
 - collection_type: open
+  name: JFrog Access REST Access Tokens Deployments API
+  slug: open-jfrog-deployments-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Device Groups API
+  slug: open-jfrog-device-groups-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Devices API
+  slug: open-jfrog-devices-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Distribution API
+  slug: open-jfrog-distribution-api
+- collection_type: open
   name: JFrog Distribution REST API
   slug: open-jfrog-distribution
 - collection_type: open
+  name: JFrog Access REST Access Tokens Evidence API
+  slug: open-jfrog-evidence-api
+- collection_type: open
   name: JFrog Evidence REST API
   slug: open-jfrog-evidence
+- collection_type: open
+  name: JFrog Access REST Access Tokens Execution API
+  slug: open-jfrog-execution-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Experiments API
+  slug: open-jfrog-experiments-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens GraphQL API
+  slug: open-jfrog-graphql-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Groups API
+  slug: open-jfrog-groups-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Ignore Rules API
+  slug: open-jfrog-ignore-rules-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Integrations API
+  slug: open-jfrog-integrations-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens JPDs API
+  slug: open-jfrog-jpds-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Labels API
+  slug: open-jfrog-labels-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Licenses API
+  slug: open-jfrog-licenses-api
 - collection_type: open
   name: JFrog Mission Control REST API
   slug: open-jfrog-mission-control
@@ -347,14 +410,113 @@ collections:
   name: JFrog ML REST API
   slug: open-jfrog-ml
 - collection_type: open
+  name: JFrog Access REST Access Tokens Model Versions API
+  slug: open-jfrog-model-versions-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Models API
+  slug: open-jfrog-models-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Node Pools API
+  slug: open-jfrog-node-pools-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Packages API
+  slug: open-jfrog-packages-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Permissions API
+  slug: open-jfrog-permissions-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Pipeline Sources API
+  slug: open-jfrog-pipeline-sources-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Pipelines API
+  slug: open-jfrog-pipelines-api
+- collection_type: open
   name: JFrog Pipelines REST API
   slug: open-jfrog-pipelines
 - collection_type: open
   name: JFrog Platform REST API
   slug: open-jfrog-platform
 - collection_type: open
+  name: JFrog Access REST Access Tokens Policies API
+  slug: open-jfrog-policies-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Projects API
+  slug: open-jfrog-projects-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Promotion API
+  slug: open-jfrog-promotion-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Properties API
+  slug: open-jfrog-properties-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Release Bundles V1 API
+  slug: open-jfrog-release-bundles-v1-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Release Bundles V2 API
+  slug: open-jfrog-release-bundles-v2-api
+- collection_type: open
   name: JFrog Release Lifecycle Management REST API
   slug: open-jfrog-release-lifecycle
+- collection_type: open
+  name: JFrog Access REST Access Tokens Replication API
+  slug: open-jfrog-replication-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Reports API
+  slug: open-jfrog-reports-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Repositories API
+  slug: open-jfrog-repositories-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Runs API
+  slug: open-jfrog-runs-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Scanning API
+  slug: open-jfrog-scanning-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Scripts API
+  slug: open-jfrog-scripts-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Searches API
+  slug: open-jfrog-searches-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Security API
+  slug: open-jfrog-security-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Steps API
+  slug: open-jfrog-steps-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Summary API
+  slug: open-jfrog-summary-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens System API
+  slug: open-jfrog-system-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens System & Configuration API
+  slug: open-jfrog-system-configuration-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens API
+  slug: open-jfrog-tokens-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Updates API
+  slug: open-jfrog-updates-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Users API
+  slug: open-jfrog-users-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Verification API
+  slug: open-jfrog-verification-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Violations API
+  slug: open-jfrog-violations-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Watches API
+  slug: open-jfrog-watches-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Webhooks API
+  slug: open-jfrog-webhooks-api
+- collection_type: open
+  name: JFrog Access REST Access Tokens Workers API
+  slug: open-jfrog-workers-api
 - collection_type: open
   name: JFrog Workers REST API
   slug: open-jfrog-workers
@@ -1025,7 +1187,7 @@ plans:
 - name: Jfrog Plans Pricing
   plan_count: 8
   slug: jfrog-plans-pricing
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 3
   name: Jfrog Rate Limits
@@ -1059,7 +1221,7 @@ score:
       marker_coverage: 0.0
       total: 53
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/screenshots/jfrog-2026-06-20T183730.png
 security:

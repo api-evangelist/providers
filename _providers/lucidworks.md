@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -75,26 +75,62 @@ apis:
 - description: Tokenize text by model
   name: Lucidworks Tokenization API
   slug: lucidworks-tokenization-api
-artifact_total: 45
+artifact_total: 57
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Lucidworks AI Platform API
   slug: open-lucidworks-ai-platform
 - collection_type: open
+  name: Lucidworks AI Platform Chunking API
+  slug: open-lucidworks-chunking-api
+- collection_type: open
   name: Lucidworks Content Chunking API
   slug: open-lucidworks-chunking
+- collection_type: open
+  name: Lucidworks AI Platform Chunking Classification API
+  slug: open-lucidworks-classification-api
+- collection_type: open
+  name: Lucidworks AI Platform Chunking Deployments API
+  slug: open-lucidworks-deployments-api
+- collection_type: open
+  name: Lucidworks AI Platform Chunking Embeddings API
+  slug: open-lucidworks-embeddings-api
 - collection_type: open
   name: Lucidworks Embeddings and Classification API
   slug: open-lucidworks-embeddings
 - collection_type: open
+  name: Lucidworks AI Platform Chunking Models API
+  slug: open-lucidworks-models-api
+- collection_type: open
   name: Lucidworks Model Management API
   slug: open-lucidworks-models
+- collection_type: open
+  name: Lucidworks AI Platform Chunking Predictions API
+  slug: open-lucidworks-predictions-api
+- collection_type: open
+  name: Lucidworks AI Platform Chunking QueryRewrites API
+  slug: open-lucidworks-queryrewrites-api
+- collection_type: open
+  name: Lucidworks AI Platform Chunking Results API
+  slug: open-lucidworks-results-api
+- collection_type: open
+  name: Lucidworks AI Platform Chunking Rules API
+  slug: open-lucidworks-rules-api
 - collection_type: open
   name: Lucidworks Rules and Query Rewrites API
   slug: open-lucidworks-rules
 - collection_type: open
+  name: Lucidworks AI Platform Chunking Signals API
+  slug: open-lucidworks-signals-api
+- collection_type: open
   name: Lucidworks Signals API
   slug: open-lucidworks-signals
+- collection_type: open
+  name: Lucidworks AI Platform Chunking Tokenization API
+  slug: open-lucidworks-tokenization-api
 common:
 - group: agent
   title: ''
@@ -230,7 +266,7 @@ plans:
 - name: Lucidworks Plans Pricing
   plan_count: 1
   slug: lucidworks-plans-pricing
-random_paper: 15
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Lucidworks Rate Limits
@@ -264,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/screenshots/lucidworks-2026-06-20T184745.png
 security:

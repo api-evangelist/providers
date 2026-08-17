@@ -10,12 +10,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-12'
+  score: 44.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 248
   slug: brightedge-agentic-access
   summary_line: 248 operations · 144 acting · 2 human-in-the-loop
-api_count: 44
+api_count: 45
 apis:
 - description: Operation related to accounts
   name: BrightEdge accounts API
@@ -170,7 +170,146 @@ apis:
 - description: The webhook API from BrightEdge — 2 operation(s) for webhook.
   name: BrightEdge webhook API
   slug: brightedge-webhook-api
-artifact_total: 49
+- description: BrightEdge's hosted, remote Model Context Protocol server. An MCP client POSTs to https://mcp2.brightedge.com/mcp (or the SSE endpoint https://mcp2-sse.brightedge.com/sse) and, after an OAuth 2.0 auth
+  name: BrightEdge MCP Server
+  slug: brightedge-mcp-server
+artifact_total: 99
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BrightEdge Platform accounts API
+  slug: open-brightedge-accounts-api
+- collection_type: open
+  name: BrightEdge Platform accounts ai_catalyst API
+  slug: open-brightedge-ai-catalyst-api
+- collection_type: open
+  name: BrightEdge Platform accounts autopilot API
+  slug: open-brightedge-autopilot-api
+- collection_type: open
+  name: BrightEdge Platform accounts backlinks API
+  slug: open-brightedge-backlinks-api
+- collection_type: open
+  name: BrightEdge Platform accounts be_local API
+  slug: open-brightedge-be-local-api
+- collection_type: open
+  name: BrightEdge Platform accounts budd API
+  slug: open-brightedge-budd-api
+- collection_type: open
+  name: BrightEdge Platform accounts bulk_export API
+  slug: open-brightedge-bulk-export-api
+- collection_type: open
+  name: BrightEdge Platform accounts chrome_extension API
+  slug: open-brightedge-chrome-extension-api
+- collection_type: open
+  name: BrightEdge Platform accounts Chrome Extension Keywords API
+  slug: open-brightedge-chrome-extension-keywords-api
+- collection_type: open
+  name: BrightEdge Platform accounts Chrome Extension Overview API
+  slug: open-brightedge-chrome-extension-overview-api
+- collection_type: open
+  name: BrightEdge Platform accounts chromeextension API
+  slug: open-brightedge-chromeextension-api
+- collection_type: open
+  name: BrightEdge Platform accounts competitors API
+  slug: open-brightedge-competitors-api
+- collection_type: open
+  name: BrightEdge Platform accounts core API
+  slug: open-brightedge-core-api
+- collection_type: open
+  name: BrightEdge Platform accounts datacube_searchengines API
+  slug: open-brightedge-datacube-searchengines-api
+- collection_type: open
+  name: BrightEdge Platform accounts dataset API
+  slug: open-brightedge-dataset-api
+- collection_type: open
+  name: BrightEdge Platform accounts domains API
+  slug: open-brightedge-domains-api
+- collection_type: open
+  name: BrightEdge Platform accounts instant API
+  slug: open-brightedge-instant-api
+- collection_type: open
+  name: BrightEdge Platform accounts keywordgroups API
+  slug: open-brightedge-keywordgroups-api
+- collection_type: open
+  name: BrightEdge Platform accounts keywords API
+  slug: open-brightedge-keywords-api
+- collection_type: open
+  name: BrightEdge Platform accounts Latest5 API
+  slug: open-brightedge-latest5-api
+- collection_type: open
+  name: BrightEdge Platform accounts legacy API
+  slug: open-brightedge-legacy-api
+- collection_type: open
+  name: BrightEdge Platform accounts marketinsights API
+  slug: open-brightedge-marketinsights-api
+- collection_type: open
+  name: BrightEdge Platform accounts marketo API
+  slug: open-brightedge-marketo-api
+- collection_type: open
+  name: BrightEdge Platform accounts organizations API
+  slug: open-brightedge-organizations-api
+- collection_type: open
+  name: BrightEdge Platform accounts paa per keyword API
+  slug: open-brightedge-paa-per-keyword-api
+- collection_type: open
+  name: BrightEdge Platform accounts page cache API
+  slug: open-brightedge-page-cache-api
+- collection_type: open
+  name: BrightEdge Platform accounts page crawl API
+  slug: open-brightedge-page-crawl-api
+- collection_type: open
+  name: BrightEdge Platform accounts Pages API
+  slug: open-brightedge-pages-api
+- collection_type: open
+  name: BrightEdge Platform accounts people_also_ask API
+  slug: open-brightedge-people-also-ask-api
+- collection_type: open
+  name: BrightEdge Platform accounts ping API
+  slug: open-brightedge-ping-api
+- collection_type: open
+  name: BrightEdge Platform accounts product_grid API
+  slug: open-brightedge-product-grid-api
+- collection_type: open
+  name: BrightEdge Platform accounts qa API
+  slug: open-brightedge-qa-api
+- collection_type: open
+  name: BrightEdge Platform accounts query API
+  slug: open-brightedge-query-api
+- collection_type: open
+  name: BrightEdge Platform accounts recommendations API
+  slug: open-brightedge-recommendations-api
+- collection_type: open
+  name: BrightEdge Platform accounts searchengines API
+  slug: open-brightedge-searchengines-api
+- collection_type: open
+  name: BrightEdge Platform accounts Serp Features API
+  slug: open-brightedge-serp-features-api
+- collection_type: open
+  name: BrightEdge Platform accounts time API
+  slug: open-brightedge-time-api
+- collection_type: open
+  name: BrightEdge Platform accounts top keywords for a domain API
+  slug: open-brightedge-top-keywords-for-a-domain-api
+- collection_type: open
+  name: BrightEdge Platform accounts top keywords per page API
+  slug: open-brightedge-top-keywords-per-page-api
+- collection_type: open
+  name: BrightEdge Platform accounts top pages API
+  slug: open-brightedge-top-pages-api
+- collection_type: open
+  name: BrightEdge Platform accounts user_settings API
+  slug: open-brightedge-user-settings-api
+- collection_type: open
+  name: BrightEdge Platform accounts users API
+  slug: open-brightedge-users-api
+- collection_type: open
+  name: BrightEdge Platform accounts web_vitals API
+  slug: open-brightedge-web-vitals-api
+- collection_type: open
+  name: BrightEdge Platform accounts webhook API
+  slug: open-brightedge-webhook-api
 common:
 - group: agent
   title: ''
@@ -208,6 +347,14 @@ common:
   title: ''
   type: APIReference
   url: https://api.brightedge.com/portal
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.brightedge.com/brightedge-mcp
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://www.brightedge.com/brightedge-mcp
 - group: start
   title: ''
   type: SignUp
@@ -256,6 +403,82 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/brightedge-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/brightedge-api-llms.txt
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/brightedge-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/brightedge-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/brightedge-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/brightedge-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/brightedge-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/brightedge-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/brightedge-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/brightedge-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/brightedge-conformance.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/brightedge-agentic-access.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/brightedge-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/brightedge-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/brightedge-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/brightedge-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/brightedge-connect-mcp.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/brightedge-pull-keyword-rankings.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/brightedge-query-datacube.md
 created: '2026-07-17'
 description: BrightEdge is an enterprise SEO and content performance platform, founded in 2007 and headquartered in Silicon Valley, used by thousands of brands and a majority of the Fortune 100. Its products include the DataCube keyword and content data repository, ContentIQ site auditing, Autopilot, Copilot, and the DataMind AI engine plus AI Catalyst for generative-search visibility. The BrightEdge Platform API (v5.0) is a REST API published at api.brightedge.com that exposes accounts, keywords, keyword groups, competitors, domains, pages, backlinks, the DataCube dataset, recommendations, People-Also-Ask, SERP features, Core Web Vitals, bulk export, and user/organization management, so teams can integrate BrightEdge search and content intelligence into their own reporting, analytics, and data-warehouse workflows.
 image: https://www.brightedge.com/themes/custom/brightedge/logo.svg
@@ -264,24 +487,40 @@ mcp_servers:
 - description: ''
   name: brightedge-mcp.yml
   slug: brightedge-mcpyml
-modified: '2026-07-18'
+- description: ''
+  name: BrightEdge MCP product page
+  slug: brightedge-mcp-product-page
+modified: '2026-08-13'
 name: BrightEdge
 nav: Providers
 network: true
 overview: 'BrightEdge publishes 44 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 41 more. Tagged areas include Company, SEO, Search, Content, and Marketing.
 
 
-  BrightEdge''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 14 more developer resources.'
-random_paper: 85
+  BrightEdge''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 35 more developer resources.'
+plans:
+- name: Brightedge Plans Pricing
+  plan_count: 0
+  slug: brightedge-plans-pricing
+random_paper: 2
+rate_limits:
+- limit_count: 0
+  name: Brightedge Rate Limits
+  slug: brightedge-rate-limits
+scopes:
+- name: Brightedge Scopes
+  scope_count: 3
+  slug: brightedge-scopes
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.2
-  delta: 0.0
+  band: developing
+  composite: 46.7
+  delta: 5.5
   facets:
     commercial_clarity: 60.5
     contract_quality: 49.7
-    developer_ergonomics: 34.2
-    discoverability: 57.4
+    developer_ergonomics: 56.0
+    discoverability: 68.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 41.2
@@ -296,14 +535,14 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/screenshots/brightedge-2026-07-25T203837.png
 security:
 - kind: authentication
   name: Brightedge Authentication
   slug: brightedge-authentication
-  summary_line: apiKey/http · 6 schemes
+  summary_line: apiKey/http/oauth2 · 7 schemes
 - kind: domain-security
   name: Brightedge Domain Security
   slug: brightedge-domain-security
@@ -311,7 +550,7 @@ security:
 - kind: trust-center
   name: Brightedge Trust Center
   slug: brightedge-trust-center
-  summary_line: SOC 2, ISO 27001, GDPR
+  summary_line: SOC 2, ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO/IEC 42001:2023, GDPR, CCPA, EU-U.S. Data Privacy Framework
 slug: brightedge
 tags:
 - Company

@@ -29,13 +29,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Single-operation product search API behind the Ibotta browser extension. POST /openai/search accepts an array of keyword queries plus limit / minPrice / maxPrice / storeId filters and returns products
   name: Ibotta Product API
   slug: ibotta-product-api
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Ibotta Product API
+  slug: open-ibotta-product-api
 common:
 - group: company
   title: ''
@@ -142,7 +146,7 @@ plans:
 - name: Ibotta Plans Pricing
   plan_count: 0
   slug: ibotta-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Ibotta Rate Limits
@@ -155,7 +159,7 @@ scopes:
 score:
   band: thin
   composite: 38.9
-  delta: 27.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 54.5
@@ -163,10 +167,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 11.2
+  previous_composite: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/screenshots/ibotta-2026-07-25T221955.png
 security:
 - kind: authentication

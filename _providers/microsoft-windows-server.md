@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: Web sites are a core entity of IIS that determine where and how requests will be handled. The web site API allows consumers to create, read, delete, or update their web sites.
   name: Microsoft Windows Server Web Sites API
   slug: microsoft-windows-server-web-sites-api
-artifact_total: 167
+artifact_total: 171
 collections:
 - collection_type: postman
   name: IIS Administration Application Pools API
@@ -105,8 +105,20 @@ collections:
   name: IIS Administration Application Pools Web Sites API
   slug: postman-microsoft-windows-server-web-sites-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: IIS Administration API
   slug: open-iis-administration-api
+- collection_type: open
+  name: IIS Administration Application Pools API
+  slug: open-microsoft-windows-server-application-pools-api
+- collection_type: open
+  name: IIS Administration Application Pools Applications API
+  slug: open-microsoft-windows-server-applications-api
+- collection_type: open
+  name: IIS Administration Application Pools Web Sites API
+  slug: open-microsoft-windows-server-web-sites-api
 common:
 - group: operate
   title: ''
@@ -590,7 +602,7 @@ plans:
 - name: Microsoft Windows Server Plans Pricing
   plan_count: 5
   slug: microsoft-windows-server-plans-pricing
-random_paper: 114
+random_paper: 130
 rate_limits:
 - limit_count: 4
   name: Microsoft Windows Server Rate Limits
@@ -632,7 +644,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/screenshots/microsoft-windows-server-2026-06-20T185546.png
 security:

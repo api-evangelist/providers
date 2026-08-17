@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -81,8 +81,32 @@ apis:
 - description: The Token API from 1inch — 1 operation(s) for token.
   name: 1inch Token API
   slug: one-inch-token-api
-artifact_total: 21
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 1inch Developer Portal APIs Balance API
+  slug: open-one-inch-balance-api
+- collection_type: open
+  name: 1inch Developer Portal APIs Balance GasPrice API
+  slug: open-one-inch-gasprice-api
+- collection_type: open
+  name: 1inch Developer Portal APIs Balance Orderbook API
+  slug: open-one-inch-orderbook-api
+- collection_type: open
+  name: 1inch Developer Portal APIs Balance Portfolio API
+  slug: open-one-inch-portfolio-api
+- collection_type: open
+  name: 1inch Developer Portal APIs Balance SpotPrice API
+  slug: open-one-inch-spotprice-api
+- collection_type: open
+  name: 1inch Developer Portal APIs Balance Swap API
+  slug: open-one-inch-swap-api
+- collection_type: open
+  name: 1inch Developer Portal APIs Balance Token API
+  slug: open-one-inch-token-api
 - collection_type: open
   name: 1inch Developer Portal APIs
   slug: open-one-inch
@@ -155,7 +179,7 @@ plans:
 - name: One Inch Plans Pricing
   plan_count: 4
   slug: one-inch-plans-pricing
-random_paper: 65
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: One Inch Rate Limits
@@ -180,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/screenshots/one-inch-2026-06-20T190708.png
 security:

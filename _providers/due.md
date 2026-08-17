@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -99,11 +99,69 @@ arazzos:
 - description: Create an account, initiate KYC/KYB, and confirm the account reaches a verified state.
   name: Due — Onboard a customer account with KYC/KYB
   slug: due-onboard-account
-artifact_total: 25
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Due Webhooks
   slug: due-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Due Account API
+  slug: open-due-account-api
+- collection_type: open
+  name: Due Account Account Wallets API
+  slug: open-due-account-wallets-api
+- collection_type: open
+  name: Due Account Blockchain Transfers API
+  slug: open-due-blockchain-transfers-api
+- collection_type: open
+  name: Due Account Channels API
+  slug: open-due-channels-api
+- collection_type: open
+  name: Due Account Financial Institutions API
+  slug: open-due-financial-institutions-api
+- collection_type: open
+  name: Due Account KYC API
+  slug: open-due-kyc-api
+- collection_type: open
+  name: Due Account Markets API
+  slug: open-due-markets-api
+- collection_type: open
+  name: Due Account Quote API
+  slug: open-due-quote-api
+- collection_type: open
+  name: Due Account Recipients API
+  slug: open-due-recipients-api
+- collection_type: open
+  name: Due Account Simulate pay-in API
+  slug: open-due-simulate-pay-in-api
+- collection_type: open
+  name: Due Account TOS API
+  slug: open-due-tos-api
+- collection_type: open
+  name: Due Account Transfers API
+  slug: open-due-transfers-api
+- collection_type: open
+  name: Due Account Usage API
+  slug: open-due-usage-api
+- collection_type: open
+  name: Due Account Vaults API
+  slug: open-due-vaults-api
+- collection_type: open
+  name: Due Account Virtual Accounts API
+  slug: open-due-virtual-accounts-api
+- collection_type: open
+  name: Due Account Wallets API
+  slug: open-due-wallets-api
+- collection_type: open
+  name: Due Account Webhook Endpoints API
+  slug: open-due-webhook-endpoints-api
+- collection_type: open
+  name: Due Account Webhooks API
+  slug: open-due-webhooks-api
 common:
 - group: other
   title: ''
@@ -244,7 +302,7 @@ overview: 'Due publishes 18 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Due''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 78
+random_paper: 20
 score:
   band: developing
   composite: 47.3
@@ -274,7 +332,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/screenshots/due-2026-07-25T212452.png
 security:

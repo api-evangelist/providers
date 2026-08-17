@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: The Words API from LanguageTool — 3 operation(s) for words.
   name: LanguageTool Words API
   slug: languagetool-words-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LanguageTool HTTP Check API
+  slug: open-languagetool-check-api
+- collection_type: open
+  name: LanguageTool HTTP Check Languages API
+  slug: open-languagetool-languages-api
+- collection_type: open
+  name: LanguageTool HTTP Check Words API
+  slug: open-languagetool-words-api
 - collection_type: open
   name: LanguageTool HTTP API
   slug: open-languagetool
@@ -116,7 +128,7 @@ plans:
 - name: Languagetool Plans Pricing
   plan_count: 3
   slug: languagetool-plans-pricing
-random_paper: 82
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Languagetool Rate Limits
@@ -150,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/languagetool/refs/heads/main/screenshots/languagetool-2026-06-20T184310.png
 security:

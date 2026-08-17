@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Ellipsis Drive API v3 provides programmatic access to manage, use, and integrate spatial data: accounts and organizations, users, folders/paths, maps, vector and raster layers, point clouds, acces'
@@ -132,7 +132,7 @@ overview: 'Ellipsis Drive publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Ellipsis Drive''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 12
+random_paper: 111
 scopes:
 - name: Ellipsis Drive Scopes
   scope_count: 1
@@ -153,7 +153,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsis-drive/refs/heads/main/screenshots/ellipsis-drive-2026-07-25T213147.png
 security:

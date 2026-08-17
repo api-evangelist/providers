@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 26
 apis:
 - description: Hosted Model Context Protocol server that lets Claude, ChatGPT and Cursor act on a user's own PlantPredict account — creating and running predictions, importing weather and shade scenes, browsing proj
@@ -100,7 +100,86 @@ apis:
 - description: Weather file import, download, and management
   name: Terabase Energy Weather API
   slug: terabase-energy-weather-api
-artifact_total: 32
+artifact_total: 58
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Terabase Energy ASHRAE API
+  slug: open-terabase-energy-ashrae-api
+- collection_type: open
+  name: PlantPredict Company API
+  slug: open-terabase-energy-company-api
+- collection_type: open
+  name: Terabase Energy Country API
+  slug: open-terabase-energy-country-api
+- collection_type: open
+  name: PlantPredict Definition API
+  slug: open-terabase-energy-definition-api
+- collection_type: open
+  name: PlantPredict Definitions API
+  slug: open-terabase-energy-definitions-api
+- collection_type: open
+  name: PlantPredict Financial Model API
+  slug: open-terabase-energy-financialmodel-api
+- collection_type: open
+  name: PlantPredict Home API
+  slug: open-terabase-energy-home-api
+- collection_type: open
+  name: PlantPredict Inverter API
+  slug: open-terabase-energy-inverter-api
+- collection_type: open
+  name: PlantPredict Inverters API
+  slug: open-terabase-energy-inverters-api
+- collection_type: open
+  name: PlantPredict Module API
+  slug: open-terabase-energy-module-api
+- collection_type: open
+  name: PlantPredict Modules API
+  slug: open-terabase-energy-modules-api
+- collection_type: open
+  name: PlantPredict API
+  slug: open-terabase-energy-plantpredict-swagger-v1-original
+- collection_type: open
+  name: PlantPredict Power Plant API
+  slug: open-terabase-energy-powerplant-api
+- collection_type: open
+  name: PlantPredict Predictions API
+  slug: open-terabase-energy-predictions-api
+- collection_type: open
+  name: PlantPredict Project API
+  slug: open-terabase-energy-project-api
+- collection_type: open
+  name: PlantPredict Projects API
+  slug: open-terabase-energy-projects-api
+- collection_type: open
+  name: PlantPredict Reports API
+  slug: open-terabase-energy-reports-api
+- collection_type: open
+  name: PlantPredict Results API
+  slug: open-terabase-energy-results-api
+- collection_type: open
+  name: PlantPredict Shade Engine API
+  slug: open-terabase-energy-shadeengine-api
+- collection_type: open
+  name: PlantPredict Shade Scene API
+  slug: open-terabase-energy-shadescene-api
+- collection_type: open
+  name: Terabase Energy System API
+  slug: open-terabase-energy-system-api
+- collection_type: open
+  name: PlantPredict TABT Engine API
+  slug: open-terabase-energy-tabtengine-api
+- collection_type: open
+  name: PlantPredict Time Series API
+  slug: open-terabase-energy-timeseries-api
+- collection_type: open
+  name: PlantPredict Version API
+  slug: open-terabase-energy-version-api
+- collection_type: open
+  name: PlantPredict Weather API
+  slug: open-terabase-energy-weather-api
 common:
 - group: company
   title: ''
@@ -261,7 +340,7 @@ overview: 'Terabase Energy publishes 24 APIs on the [APIs.io](https://apis.io/) 
 
 
   Terabase Energy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 94
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Terabase Energy Rate Limits
@@ -299,7 +378,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

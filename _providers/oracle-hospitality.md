@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 135
 apis:
 - description: 'Oracle Hospitality Distribution ARI publication message specification for distribution partners to receive in real time property restrictions/availability, rate, and inventory schedules updates, also '
@@ -426,11 +426,189 @@ apis:
 - description: Push delivery of OPERA Cloud Business Events as a GraphQL subscription over WebSocket. Each event carries the resource that changed, the event name, the old value and the new value. Subscription is pe
   name: OPERA Cloud Business Events Streaming API
   slug: opera-cloud-business-events-streaming
-artifact_total: 143
+artifact_total: 202
 asyncapis:
 - description: 'Oracle publishes no AsyncAPI document for Oracle Hospitality. This document is DERIVED, by the API Evangelist enrichment pipeline, from two real, published surfaces: (1) the six outbound Swagger 2.0 s'
   name: Oracle Hospitality event and outbound-callback surface
   slug: oracle-hospitality-outbound-asyncapi
+collections:
+- collection_type: open
+  name: OPERA Cloud Distribution ARI Publication
+  slug: open-oracle-hospitality-distribution-outbound-aripublication
+- collection_type: open
+  name: OPERA Cloud Distribution Outbound Lookup
+  slug: open-oracle-hospitality-distribution-outbound-lookup
+- collection_type: open
+  name: OPERA Cloud Distribution Content Notification
+  slug: open-oracle-hospitality-distribution-outbound-notification
+- collection_type: open
+  name: OPERA Cloud Distribution Book
+  slug: open-oracle-hospitality-distribution-v1-book
+- collection_type: open
+  name: OPERA Cloud Distribution Content
+  slug: open-oracle-hospitality-distribution-v1-content
+- collection_type: open
+  name: OPERA Cloud Distribution Property Controls
+  slug: open-oracle-hospitality-distribution-v1-controls
+- collection_type: open
+  name: OPERA Cloud Distribution Reservation Service
+  slug: open-oracle-hospitality-distribution-v1-distribution
+- collection_type: open
+  name: OPERA Cloud Distribution Authentication API
+  slug: open-oracle-hospitality-distribution-v1-hdpbaoauth2
+- collection_type: open
+  name: OPERA Cloud Distribution Onboarding
+  slug: open-oracle-hospitality-distribution-v1-onboard
+- collection_type: open
+  name: OPERA Cloud Distribution Reservation Notification
+  slug: open-oracle-hospitality-distribution-v1-resnotif
+- collection_type: open
+  name: OPERA Cloud Distribution Shop
+  slug: open-oracle-hospitality-distribution-v1-shop
+- collection_type: open
+  name: Nor1 Integrated Upsell API
+  slug: open-oracle-hospitality-nor1-v1-upselloffers
+- collection_type: open
+  name: OPERA Cloud Customer Relationship Management Outbound API
+  slug: open-oracle-hospitality-property-outbound-crmoutbound
+- collection_type: open
+  name: OPERA Cloud Cashiering Outbound API
+  slug: open-oracle-hospitality-property-outbound-cshoutbound
+- collection_type: open
+  name: OPERA Cloud Front Desk Operations Outbound API
+  slug: open-oracle-hospitality-property-outbound-fofoutbound
+- collection_type: open
+  name: OPERA Cloud Activity API
+  slug: open-oracle-hospitality-property-v1-act
+- collection_type: open
+  name: OPERA Cloud Activity Management API
+  slug: open-oracle-hospitality-property-v1-actcfg
+- collection_type: open
+  name: OPERA Cloud Accounts Receivables API
+  slug: open-oracle-hospitality-property-v1-ars
+- collection_type: open
+  name: OPERA Cloud Block API
+  slug: open-oracle-hospitality-property-v1-blk
+- collection_type: open
+  name: OPERA Cloud Block Reservation Asynchronous API
+  slug: open-oracle-hospitality-property-v1-blkasync
+- collection_type: open
+  name: OPERA Cloud Block Configuration API
+  slug: open-oracle-hospitality-property-v1-blkcfg
+- collection_type: open
+  name: OPERA Cloud Back Office Operations API
+  slug: open-oracle-hospitality-property-v1-bof
+- collection_type: open
+  name: OPERA Cloud Channel Configuration API
+  slug: open-oracle-hospitality-property-v1-chl
+- collection_type: open
+  name: OPERA Cloud API for Customer Management Service
+  slug: open-oracle-hospitality-property-v1-cms
+- collection_type: open
+  name: OPERA Cloud Customer Relationship Management API
+  slug: open-oracle-hospitality-property-v1-crm
+- collection_type: open
+  name: OPERA Cloud CRM Asynchronous API
+  slug: open-oracle-hospitality-property-v1-crmasync
+- collection_type: open
+  name: OPERA Cloud CRM Configuration API
+  slug: open-oracle-hospitality-property-v1-crmcfg
+- collection_type: open
+  name: OPERA Cloud Cashiering API
+  slug: open-oracle-hospitality-property-v1-csh
+- collection_type: open
+  name: OPERA Cloud Cashiering Asynchronous API
+  slug: open-oracle-hospitality-property-v1-cshasync
+- collection_type: open
+  name: OPERA Cloud DataValueMapping Service API
+  slug: open-oracle-hospitality-property-v1-dvm
+- collection_type: open
+  name: Cloud OPI Tokenization ECommerce API
+  slug: open-oracle-hospitality-property-v1-ecommtokenization
+- collection_type: open
+  name: OPERA Cloud Enterprise Configuration API
+  slug: open-oracle-hospitality-property-v1-entcfg
+- collection_type: open
+  name: OPERA Cloud Sales Event Management API
+  slug: open-oracle-hospitality-property-v1-evm
+- collection_type: open
+  name: OPERA Cloud Event Configuration API
+  slug: open-oracle-hospitality-property-v1-evmcfg
+- collection_type: open
+  name: OPERA Cloud Export Configuration API
+  slug: open-oracle-hospitality-property-v1-expcfg
+- collection_type: open
+  name: OPERA Cloud Front Desk Operations Service
+  slug: open-oracle-hospitality-property-v1-fof
+- collection_type: open
+  name: OPERA Cloud Front Desk Configuration API
+  slug: open-oracle-hospitality-property-v1-fofcfg
+- collection_type: open
+  name: OPERA Cloud Housekeeping Service API
+  slug: open-oracle-hospitality-property-v1-hsk
+- collection_type: open
+  name: OPERA Cloud Integration Processor API
+  slug: open-oracle-hospitality-property-v1-int
+- collection_type: open
+  name: OPERA Cloud Integration Configuration API
+  slug: open-oracle-hospitality-property-v1-intcfg
+- collection_type: open
+  name: OPERA Cloud Inventory API
+  slug: open-oracle-hospitality-property-v1-inv
+- collection_type: open
+  name: Opera Cloud Inventory Asynchronous API
+  slug: open-oracle-hospitality-property-v1-invasync
+- collection_type: open
+  name: OPERA Cloud Leisure Management API
+  slug: open-oracle-hospitality-property-v1-lms
+- collection_type: open
+  name: OPERA Cloud List of Values Management API
+  slug: open-oracle-hospitality-property-v1-lov
+- collection_type: open
+  name: OPERA Cloud Content Service
+  slug: open-oracle-hospitality-property-v1-medcfg
+- collection_type: open
+  name: oAuth API for OHIP
+  slug: open-oracle-hospitality-property-v1-oauth
+- collection_type: open
+  name: OPERA Provisioning Service API
+  slug: open-oracle-hospitality-property-v1-ops
+- collection_type: open
+  name: OPERA Cloud Price Availability Rate API
+  slug: open-oracle-hospitality-property-v1-par
+- collection_type: open
+  name: OPERA Cloud Price Availability Rate Async API
+  slug: open-oracle-hospitality-property-v1-parasync
+- collection_type: open
+  name: OPERA Cloud Report Master Data Management API
+  slug: open-oracle-hospitality-property-v1-repcfg
+- collection_type: open
+  name: OPERA Cloud Room Configuration API
+  slug: open-oracle-hospitality-property-v1-rmcfg
+- collection_type: open
+  name: OPERA Cloud Room Rotation Service API
+  slug: open-oracle-hospitality-property-v1-rmr
+- collection_type: open
+  name: OPERA Cloud Room Rotation Configuration Service API
+  slug: open-oracle-hospitality-property-v1-rmrcfg
+- collection_type: open
+  name: OPERA Cloud Reservation API
+  slug: open-oracle-hospitality-property-v1-rsv
+- collection_type: open
+  name: OPERA Cloud Reservation Asynchronous API
+  slug: open-oracle-hospitality-property-v1-rsvasync
+- collection_type: open
+  name: OPERA Cloud Reservation Master Data Management API
+  slug: open-oracle-hospitality-property-v1-rsvcfg
+- collection_type: open
+  name: OPERA Cloud Rate API
+  slug: open-oracle-hospitality-property-v1-rtp
+- collection_type: open
+  name: Opera Cloud Rate Plan Asynchronous Service API
+  slug: open-oracle-hospitality-property-v1-rtpasync
+- collection_type: open
+  name: OPI Token Exchange Service API
+  slug: open-oracle-hospitality-property-v1-tokenexchange
 common:
 - group: agent
   title: ''
@@ -640,7 +818,7 @@ overview: 'Oracle Hospitality publishes 60 APIs on the [APIs.io](https://apis.io
 
 
   Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 40 more developer resources.'
-random_paper: 85
+random_paper: 97
 rate_limits:
 - limit_count: 9
   name: Oracle Hospitality Rate Limits
@@ -672,7 +850,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png
 security:

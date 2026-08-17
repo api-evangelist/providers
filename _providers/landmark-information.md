@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -74,11 +74,27 @@ arazzos:
 - description: Register a callback endpoint for Secure Panel Network valuation milestones, update its configuration, then remove it.
   name: Subscribe to valuation milestone notifications
   slug: landmark-information-subscribe-valuation-milestones
-artifact_total: 18
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Landmark Information Webhooks
   slug: landmark-information-webhooks
+collections:
+- collection_type: open
+  name: Landmark Conveyancing Experience API
+  slug: open-landmark-information-conveyancing-experience-api
+- collection_type: open
+  name: Document Vault API
+  slug: open-landmark-information-document-vault-api
+- collection_type: open
+  name: Intelliworks APIs
+  slug: open-landmark-information-intelliworks-api
+- collection_type: open
+  name: Milestone Notification Service API
+  slug: open-landmark-information-milestone-notification-service-api
+- collection_type: open
+  name: Order Experience API
+  slug: open-landmark-information-order-experience-api
 common:
 - group: start
   title: ''
@@ -237,7 +253,7 @@ overview: 'Landmark Information Group publishes 5 APIs on the [APIs.io](https://
 
 
   Landmark Information Group''s developer surface includes API reference, getting-started guide, support, changelog, sandbox, authentication, documentation, and 27 more developer resources.'
-random_paper: 37
+random_paper: 140
 rate_limits:
 - limit_count: 2
   name: Landmark Information Rate Limits
@@ -270,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/screenshots/landmark-information-2026-08-07T171441.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: Company filing history and metadata by CIK
   name: SEC EDGAR Submissions API
   slug: sec-submissions-api
-artifact_total: 22
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SEC EDGAR Data Company Concept API
+  slug: open-sec-company-concept-api
+- collection_type: open
+  name: SEC EDGAR Data Company Concept Company Facts API
+  slug: open-sec-company-facts-api
+- collection_type: open
+  name: SEC EDGAR Data Company Concept EDGAR Operational Status API API
+  slug: open-sec-edgar-operational-status-api-api
+- collection_type: open
+  name: SEC EDGAR Data Company Concept Filer Management API API
+  slug: open-sec-filer-management-api-api
+- collection_type: open
+  name: SEC EDGAR Data Company Concept Frames API
+  slug: open-sec-frames-api
+- collection_type: open
+  name: SEC EDGAR Data Company Concept Search API
+  slug: open-sec-search-api
+- collection_type: open
+  name: SEC EDGAR Data Company Concept Submission API API
+  slug: open-sec-submission-api-api
+- collection_type: open
+  name: SEC EDGAR Data Company Concept Submission Status API API
+  slug: open-sec-submission-status-api-api
+- collection_type: open
+  name: SEC EDGAR Data Company Concept Submissions API
+  slug: open-sec-submissions-api
 common:
 - group: agent
   title: ''
@@ -181,7 +212,7 @@ plans:
 - name: Sec Plans Pricing
   plan_count: 1
   slug: sec-plans-pricing
-random_paper: 75
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Sec Rate Limits
@@ -221,7 +252,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/screenshots/sec-2026-06-20T193619.png
 security:

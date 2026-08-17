@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Endpoints Tito POSTs event notifications to.
   name: Tito Webhook Endpoints API
   slug: tito-webhook-endpoints-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tito Admin Account API
+  slug: open-tito-account-api
+- collection_type: open
+  name: Tito Admin Account Activities API
+  slug: open-tito-activities-api
+- collection_type: open
+  name: Tito Admin Account Check-in Lists API
+  slug: open-tito-check-in-lists-api
+- collection_type: open
+  name: Tito Admin Account Discount Codes API
+  slug: open-tito-discount-codes-api
+- collection_type: open
+  name: Tito Admin Account Events API
+  slug: open-tito-events-api
+- collection_type: open
+  name: Tito Admin Account Refunds API
+  slug: open-tito-refunds-api
+- collection_type: open
+  name: Tito Admin Account Registrations API
+  slug: open-tito-registrations-api
+- collection_type: open
+  name: Tito Admin Account Releases API
+  slug: open-tito-releases-api
+- collection_type: open
+  name: Tito Admin Account Tickets API
+  slug: open-tito-tickets-api
+- collection_type: open
+  name: Tito Admin Account Webhook Endpoints API
+  slug: open-tito-webhook-endpoints-api
 - collection_type: open
   name: Tito Admin API
   slug: open-tito
@@ -139,7 +172,7 @@ plans:
 - name: Tito Plans Pricing
   plan_count: 3
   slug: tito-plans-pricing
-random_paper: 88
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Tito Rate Limits
@@ -164,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 46
   slug: smartnews-agentic-access
   summary_line: 46 operations · 21 acting · 1 human-in-the-loop
-api_count: 15
+api_count: 16
 apis:
 - description: The ad API from SmartNews — 3 operation(s) for ad.
   name: SmartNews ad API
@@ -81,10 +81,62 @@ apis:
 - description: The pixel API from SmartNews — 2 operation(s) for pixel.
   name: SmartNews pixel API
   slug: smartnews-pixel-api
+- description: Server-to-server conversion event ingestion for SmartNews Ads. Advertisers POST self-attributed web and app conversions (35 event names including Purchase, AddToCart, Lead, Install and SignUp) to Smar
+  name: SmartNews Ads Conversion API
+  slug: smartnews-conversion-api
 - description: The smart view article keyword API from SmartNews — 1 operation(s) for smart view article keyword.
   name: SmartNews smart view article keyword API
   slug: smartnews-smart-view-article-keyword-api
-artifact_total: 21
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SmartNews Marketing ad API
+  slug: open-smartnews-ad-api
+- collection_type: open
+  name: SmartNews Marketing ad ad-group API
+  slug: open-smartnews-ad-group-api
+- collection_type: open
+  name: SmartNews Marketing ad article category API
+  slug: open-smartnews-article-category-api
+- collection_type: open
+  name: SmartNews Marketing ad campaign API
+  slug: open-smartnews-campaign-api
+- collection_type: open
+  name: SmartNews Marketing ad catalog API
+  slug: open-smartnews-catalog-api
+- collection_type: open
+  name: SmartNews Marketing ad channel alias label API
+  slug: open-smartnews-channel-alias-label-api
+- collection_type: open
+  name: SmartNews Marketing ad custom-audience API
+  slug: open-smartnews-custom-audience-api
+- collection_type: open
+  name: SmartNews Marketing ad developer-app API
+  slug: open-smartnews-developer-app-api
+- collection_type: open
+  name: SmartNews Marketing ad insights API
+  slug: open-smartnews-insights-api
+- collection_type: open
+  name: SmartNews Marketing ad interests API
+  slug: open-smartnews-interests-api
+- collection_type: open
+  name: SmartNews Marketing ad locations API
+  slug: open-smartnews-locations-api
+- collection_type: open
+  name: SmartNews Marketing ad media-file API
+  slug: open-smartnews-media-file-api
+- collection_type: open
+  name: SmartNews Marketing ad oauth API
+  slug: open-smartnews-oauth-api
+- collection_type: open
+  name: SmartNews Marketing ad pixel API
+  slug: open-smartnews-pixel-api
+- collection_type: open
+  name: SmartNews Marketing ad smart view article keyword API
+  slug: open-smartnews-smart-view-article-keyword-api
 common:
 - group: other
   title: ''
@@ -202,6 +254,34 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/smartnews-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/smartnews-plans-pricing.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/smartnews-conversion-events.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://ads.smartnews.com/developers/#section/How-to-Upgrade-From-Marketing-API-v2-to-v3
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.smartnews.com/privacy/
+- group: company
+  title: ''
+  type: Blog
+  url: https://developer.smartnews.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://developer.smartnews.com/blog/feed
 created: '2026-07-17'
 description: SmartNews is a news-discovery company whose consumer app ranks and delivers news to tens of millions of readers in Japan and the United States. For developers it operates the SmartNews Ads platform and publishes the SmartNews Marketing API (v3) — a REST API for programmatically managing advertising campaigns, ad groups, ads, media files, custom audiences, conversion pixels, and Business Manager product catalogs, plus an Insights API for performance reporting. The API uses OAuth 2.0 bearer (JWT) access tokens and is documented with a public OpenAPI 3.0 reference and an official API-spec repository.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartnews.png
@@ -210,30 +290,34 @@ mcp_servers:
 - description: ''
   name: smartnews-mcp.yml
   slug: smartnews-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: SmartNews
 nav: Providers
 network: true
 overview: 'SmartNews publishes 15 APIs on the [APIs.io](https://apis.io/) network, including ad API, ad-group API, article category API, and 12 more. Tagged areas include Company, Consumer, News, Advertising, and AdTech.
 
 
-  SmartNews'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 22 more developer resources.'
-random_paper: 36
+  SmartNews'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 29 more developer resources.'
+plans:
+- name: Smartnews Plans Pricing
+  plan_count: 0
+  slug: smartnews-plans-pricing
+random_paper: 102
 rate_limits:
 - limit_count: 2
   name: Smartnews Rate Limits
   slug: smartnews-rate-limits
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 53.8
+  delta: 6.1
   facets:
-    commercial_clarity: 23.7
+    commercial_clarity: 34.2
     contract_quality: 63.4
-    developer_ergonomics: 53.8
+    developer_ergonomics: 62.5
     discoverability: 81.5
-    governance: 11.5
-    operational_transparency: 52.6
+    governance: 21.9
+    operational_transparency: 60.5
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -246,8 +330,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Smartnews Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Activity API from Gray Swan — 1 operation(s) for activity.
@@ -40,7 +40,20 @@ apis:
 - description: The Policies API from Gray Swan — 8 operation(s) for policies.
   name: Gray Swan Policies API
   slug: gray-swan-policies-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gray Swan AI Activity API
+  slug: open-gray-swan-activity-api
+- collection_type: open
+  name: Gray Swan AI Activity Cygnal API
+  slug: open-gray-swan-cygnal-api
+- collection_type: open
+  name: Gray Swan AI Activity Policies API
+  slug: open-gray-swan-policies-api
 common:
 - group: agent
   title: ''
@@ -170,7 +183,7 @@ overview: 'Gray Swan publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Gray Swan''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 81
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Gray Swan Rate Limits
@@ -197,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gray-swan/refs/heads/main/screenshots/gray-swan-2026-07-25T220255.png
 security:

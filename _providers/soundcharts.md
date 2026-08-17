@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Song API from Soundcharts — 4 operation(s) for song.
   name: Soundcharts Song API
   slug: soundcharts-song-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Soundcharts Album API
+  slug: open-soundcharts-album-api
+- collection_type: open
+  name: Soundcharts Album Artist API
+  slug: open-soundcharts-artist-api
+- collection_type: open
+  name: Soundcharts Album Chart API
+  slug: open-soundcharts-chart-api
+- collection_type: open
+  name: Soundcharts Album Metrics API
+  slug: open-soundcharts-metrics-api
+- collection_type: open
+  name: Soundcharts Album Playlist API
+  slug: open-soundcharts-playlist-api
+- collection_type: open
+  name: Soundcharts Album Radio API
+  slug: open-soundcharts-radio-api
+- collection_type: open
+  name: Soundcharts Album Referential API
+  slug: open-soundcharts-referential-api
+- collection_type: open
+  name: Soundcharts Album Search API
+  slug: open-soundcharts-search-api
+- collection_type: open
+  name: Soundcharts Album Song API
+  slug: open-soundcharts-song-api
 - collection_type: open
   name: Soundcharts API
   slug: open-soundcharts
@@ -132,7 +162,7 @@ plans:
 - name: Soundcharts Plans Pricing
   plan_count: 4
   slug: soundcharts-plans-pricing
-random_paper: 118
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Soundcharts Rate Limits
@@ -157,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

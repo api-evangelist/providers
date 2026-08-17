@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Modern Python API for Maya scripting and plugin development, offering improved performance and a more Pythonic interface compared to API 1.0.
@@ -141,7 +141,7 @@ plans:
 - name: Maya Plans Pricing
   plan_count: 3
   slug: maya-plans-pricing
-random_paper: 64
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Maya Rate Limits
@@ -159,7 +159,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maya/refs/heads/main/screenshots/maya-2026-06-20T185053.png
 slug: maya

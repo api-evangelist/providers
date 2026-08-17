@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Open-source 9B-parameter image-text-to-text multimodal model designed for digital agents - simple architecture, arbitrary image resolutions, and strong UI/document understanding. Self-hosted only - no
@@ -104,7 +104,7 @@ plans:
 - name: Adept Plans Pricing
   plan_count: 2
   slug: adept-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Adept Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adept/refs/heads/main/screenshots/adept-2026-06-20T164644.png
 security:

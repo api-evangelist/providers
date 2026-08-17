@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: Process and manage payment transactions.
   name: Global Payments Transactions API
   slug: global-payments-transactions-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Global Payments Unified Payments Disputes API
+  slug: open-global-payments-disputes-api
+- collection_type: open
+  name: Global Payments Unified Payments Disputes Payment Methods API
+  slug: open-global-payments-payment-methods-api
+- collection_type: open
+  name: Global Payments Unified Payments Disputes Settlements API
+  slug: open-global-payments-settlements-api
+- collection_type: open
+  name: Global Payments Unified Payments Disputes Transactions API
+  slug: open-global-payments-transactions-api
 - collection_type: open
   name: Global Payments Unified Payments API
   slug: open-global-payments-unified-payments-api
@@ -132,7 +147,7 @@ press:
 - date: '2026-05-25'
   title: Global Payments Joins Forces with AWS to Deliver ...
   url: https://investors.globalpayments.com/news-events/press-releases/detail/49/global-payments-joins-forces-with-aws-to-deliver-the-future
-random_paper: 111
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Global Payments Rate Limits
@@ -168,7 +183,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/screenshots/global-payments-2026-06-20T181917.png
 security:

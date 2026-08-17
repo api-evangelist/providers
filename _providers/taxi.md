@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,11 +62,29 @@ apis:
 - description: Type registry and discovery
   name: Taxi - Describe How Your APIs and Data Relate Types API
   slug: taxi-types-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Taxi Language Conversion API
+  slug: open-taxi-conversion-api
 - collection_type: open
   name: Taxi Language API
   slug: open-taxi-language
+- collection_type: open
+  name: Taxi Language Conversion Queries API
+  slug: open-taxi-queries-api
+- collection_type: open
+  name: Taxi Language Conversion Schemas API
+  slug: open-taxi-schemas-api
+- collection_type: open
+  name: Taxi Language Conversion Services API
+  slug: open-taxi-services-api
+- collection_type: open
+  name: Taxi Language Conversion Types API
+  slug: open-taxi-types-api
 common:
 - group: agent
   title: ''
@@ -163,7 +181,7 @@ plans:
 - name: Taxi Plans Pricing
   plan_count: 7
   slug: taxi-plans-pricing
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Taxi Rate Limits
@@ -205,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/screenshots/taxi-2026-06-20T194934.png
 security:

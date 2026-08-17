@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -63,11 +63,39 @@ apis:
 - description: Create various types of tickets, view all tickets, and create ticket comments.
   name: Zayo Ticketing API
   slug: zayo-ticketing-api
-artifact_total: 14
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Zayo Notifications Webhooks
   slug: zayo-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zayo APIs Maintenance Cases API
+  slug: open-zayo-maintenance-cases-api
+- collection_type: open
+  name: Zayo APIs Maintenance Cases Network Discovery API
+  slug: open-zayo-network-discovery-api
+- collection_type: open
+  name: Zayo APIs Maintenance Cases Order API
+  slug: open-zayo-order-api
+- collection_type: open
+  name: Zayo APIs Maintenance Cases Product Catalog API
+  slug: open-zayo-product-catalog-api
+- collection_type: open
+  name: Zayo APIs Maintenance Cases Quote API
+  slug: open-zayo-quote-api
+- collection_type: open
+  name: Zayo APIs Maintenance Cases Service Inventory API
+  slug: open-zayo-service-inventory-api
+- collection_type: open
+  name: Zayo APIs Maintenance Cases Ticket Catalog API
+  slug: open-zayo-ticket-catalog-api
+- collection_type: open
+  name: Zayo APIs Maintenance Cases Ticketing API
+  slug: open-zayo-ticketing-api
 common:
 - group: agent
   title: ''
@@ -160,7 +188,7 @@ overview: 'Zayo publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zayo''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 12 more developer resources.'
-random_paper: 91
+random_paper: 4
 scopes:
 - name: Zayo Scopes
   scope_count: 1
@@ -195,7 +223,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

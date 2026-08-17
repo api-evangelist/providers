@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: The Triggers API from Apache OpenWhisk — 2 operation(s) for triggers.
   name: Apache OpenWhisk Triggers API
   slug: apache-openwhisk-triggers-api
-artifact_total: 88
+artifact_total: 95
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache OpenWhisk REST Actions API
+  slug: open-apache-openwhisk-actions-api
+- collection_type: open
+  name: Apache OpenWhisk REST Actions Activations API
+  slug: open-apache-openwhisk-activations-api
+- collection_type: open
+  name: Apache OpenWhisk REST Actions Namespaces API
+  slug: open-apache-openwhisk-namespaces-api
+- collection_type: open
+  name: Apache OpenWhisk REST Actions Packages API
+  slug: open-apache-openwhisk-packages-api
+- collection_type: open
+  name: Apache OpenWhisk REST Actions Rules API
+  slug: open-apache-openwhisk-rules-api
+- collection_type: open
+  name: Apache OpenWhisk REST Actions Triggers API
+  slug: open-apache-openwhisk-triggers-api
 common:
 - group: agent
   title: ''
@@ -316,7 +338,7 @@ plans:
 - name: Apache Openwhisk Plans Pricing
   plan_count: 3
   slug: apache-openwhisk-plans-pricing
-random_paper: 79
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Apache Openwhisk Rate Limits
@@ -358,7 +380,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png
 security:

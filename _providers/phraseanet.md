@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Records that group other records.
   name: Phraseanet Stories API
   slug: phraseanet-stories-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Phraseanet API (v1) Account API
+  slug: open-phraseanet-account-api
+- collection_type: open
+  name: Phraseanet API (v1) Account Baskets API
+  slug: open-phraseanet-baskets-api
+- collection_type: open
+  name: Phraseanet API (v1) Account Databoxes API
+  slug: open-phraseanet-databoxes-api
+- collection_type: open
+  name: Phraseanet API (v1) Account Feeds API
+  slug: open-phraseanet-feeds-api
+- collection_type: open
+  name: Phraseanet API (v1) Account Metadata API
+  slug: open-phraseanet-metadata-api
+- collection_type: open
+  name: Phraseanet API (v1) Account Quarantine API
+  slug: open-phraseanet-quarantine-api
+- collection_type: open
+  name: Phraseanet API (v1) Account Records API
+  slug: open-phraseanet-records-api
+- collection_type: open
+  name: Phraseanet API (v1) Account Search API
+  slug: open-phraseanet-search-api
+- collection_type: open
+  name: Phraseanet API (v1) Account Stories API
+  slug: open-phraseanet-stories-api
 - collection_type: open
   name: Phraseanet API (v1)
   slug: open-phraseanet
@@ -140,7 +170,7 @@ plans:
 - name: Phraseanet Plans Pricing
   plan_count: 3
   slug: phraseanet-plans-pricing
-random_paper: 107
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Phraseanet Rate Limits
@@ -170,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

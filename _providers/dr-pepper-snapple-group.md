@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Keurig Dr Pepper Reports Q4 and Full Year 2025 Results ...
   url: https://www.prnewswire.com/news-releases/keurig-dr-pepper-reports-q4-and-full-year-2025-results-and-provides-2026-outlook-302695312.html
-random_paper: 33
+random_paper: 78
 score:
   band: minimal
   composite: 4.5
@@ -129,7 +129,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dr-pepper-snapple-group/refs/heads/main/screenshots/dr-pepper-snapple-group-2026-06-20T180213.png
 security:

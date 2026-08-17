@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: SaaS security posture assessment and monitoring
   name: Saasment Security Posture API
   slug: saasment-security-posture-api
-artifact_total: 23
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Saasment Alerts API
+  slug: open-saasment-alerts-api
+- collection_type: open
+  name: Saasment Alerts Compliance API
+  slug: open-saasment-compliance-api
+- collection_type: open
+  name: Saasment Alerts Cost Optimization API
+  slug: open-saasment-cost-optimization-api
+- collection_type: open
+  name: Saasment Alerts Integrations API
+  slug: open-saasment-integrations-api
+- collection_type: open
+  name: Saasment Alerts Misconfigurations API
+  slug: open-saasment-misconfigurations-api
+- collection_type: open
+  name: Saasment Alerts Security Posture API
+  slug: open-saasment-security-posture-api
 - collection_type: open
   name: Saasment API
   slug: open-saasment
@@ -179,7 +200,7 @@ plans:
 - name: Saasment Plans Pricing
   plan_count: 3
   slug: saasment-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Saasment Rate Limits
@@ -221,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/screenshots/saasment-2026-06-20T193313.png
 security:

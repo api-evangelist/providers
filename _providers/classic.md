@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Affiliate API from Classic — 5 operation(s) for affiliate.
@@ -47,7 +47,26 @@ apis:
 - description: The Swaps API from Classic — 3 operation(s) for swaps.
   name: Classic Swaps API
   slug: classic-swaps-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ShapeShift Public Affiliate API
+  slug: open-classic-affiliate-api
+- collection_type: open
+  name: ShapeShift Public Affiliate Auth API
+  slug: open-classic-auth-api
+- collection_type: open
+  name: ShapeShift Public Affiliate Supported Assets API
+  slug: open-classic-supported-assets-api
+- collection_type: open
+  name: ShapeShift Public Affiliate Supported Chains API
+  slug: open-classic-supported-chains-api
+- collection_type: open
+  name: ShapeShift Public Affiliate Swaps API
+  slug: open-classic-swaps-api
 common:
 - group: company
   title: ''
@@ -161,7 +180,7 @@ overview: 'Classic publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Classic''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 18
+random_paper: 142
 score:
   band: thin
   composite: 38.3
@@ -190,7 +209,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/screenshots/classic-2026-07-25T205521.png
 security:

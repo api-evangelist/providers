@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 7
@@ -152,7 +152,119 @@ apis:
 - description: The Workflows API from Université de Montréal — 1 operation(s) for workflows.
   name: Université de Montréal Workflows API
   slug: universite-de-montreal-workflows-api
-artifact_total: 53
+artifact_total: 90
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dataverse Access API
+  slug: open-universite-de-montreal-access-api
+- collection_type: open
+  name: Dataverse Access addFilesToDataset API
+  slug: open-universite-de-montreal-addfilestodataset-api
+- collection_type: open
+  name: Dataverse Access addFileToDataset API
+  slug: open-universite-de-montreal-addfiletodataset-api
+- collection_type: open
+  name: Dataverse Access addGlobusFilesToDataset API
+  slug: open-universite-de-montreal-addglobusfilestodataset-api
+- collection_type: open
+  name: Dataverse Access Admin API
+  slug: open-universite-de-montreal-admin-api
+- collection_type: open
+  name: Dataverse Access Batch API
+  slug: open-universite-de-montreal-batch-api
+- collection_type: open
+  name: Dataverse Access Builtin Users API
+  slug: open-universite-de-montreal-builtin-users-api
+- collection_type: open
+  name: Dataverse Access Datasetfields API
+  slug: open-universite-de-montreal-datasetfields-api
+- collection_type: open
+  name: Dataverse Access Datasets API
+  slug: open-universite-de-montreal-datasets-api
+- collection_type: open
+  name: Dataverse Access Datatags API
+  slug: open-universite-de-montreal-datatags-api
+- collection_type: open
+  name: Dataverse Access DataverseFeaturedItems API
+  slug: open-universite-de-montreal-dataversefeatureditems-api
+- collection_type: open
+  name: Dataverse Access Dataverses API
+  slug: open-universite-de-montreal-dataverses-api
+- collection_type: open
+  name: Dataverse Access Edit API
+  slug: open-universite-de-montreal-edit-api
+- collection_type: open
+  name: Dataverse Access ExternalTools API
+  slug: open-universite-de-montreal-externaltools-api
+- collection_type: open
+  name: Dataverse Access Files API
+  slug: open-universite-de-montreal-files-api
+- collection_type: open
+  name: Dataverse Access Harvest API
+  slug: open-universite-de-montreal-harvest-api
+- collection_type: open
+  name: Dataverse Access Inbox API
+  slug: open-universite-de-montreal-inbox-api
+- collection_type: open
+  name: Dataverse Access Info API
+  slug: open-universite-de-montreal-info-api
+- collection_type: open
+  name: Dataverse Access Ingest API
+  slug: open-universite-de-montreal-ingest-api
+- collection_type: open
+  name: Dataverse Access Licenses API
+  slug: open-universite-de-montreal-licenses-api
+- collection_type: open
+  name: Dataverse Access Localcontexts API
+  slug: open-universite-de-montreal-localcontexts-api
+- collection_type: open
+  name: Dataverse Access Logout API
+  slug: open-universite-de-montreal-logout-api
+- collection_type: open
+  name: Dataverse Access Mail API
+  slug: open-universite-de-montreal-mail-api
+- collection_type: open
+  name: Dataverse Access Meta API
+  slug: open-universite-de-montreal-meta-api
+- collection_type: open
+  name: Dataverse Access Metadatablocks API
+  slug: open-universite-de-montreal-metadatablocks-api
+- collection_type: open
+  name: Dataverse Access Mydata API
+  slug: open-universite-de-montreal-mydata-api
+- collection_type: open
+  name: Dataverse Access Notifications API
+  slug: open-universite-de-montreal-notifications-api
+- collection_type: open
+  name: Dataverse Access Pids API
+  slug: open-universite-de-montreal-pids-api
+- collection_type: open
+  name: Dataverse Access replaceFilesInDataset API
+  slug: open-universite-de-montreal-replacefilesindataset-api
+- collection_type: open
+  name: Dataverse Access Roles API
+  slug: open-universite-de-montreal-roles-api
+- collection_type: open
+  name: Dataverse Access saveAuxiliaryFileWithVersion API
+  slug: open-universite-de-montreal-saveauxiliaryfilewithversion-api
+- collection_type: open
+  name: Dataverse Access Search API
+  slug: open-universite-de-montreal-search-api
+- collection_type: open
+  name: Dataverse Access Sendfeedback API
+  slug: open-universite-de-montreal-sendfeedback-api
+- collection_type: open
+  name: Dataverse Access uploadDatasetLogo API
+  slug: open-universite-de-montreal-uploaddatasetlogo-api
+- collection_type: open
+  name: Dataverse Access Users API
+  slug: open-universite-de-montreal-users-api
+- collection_type: open
+  name: Dataverse Access Workflows API
+  slug: open-universite-de-montreal-workflows-api
 common:
 - group: agent
   title: ''
@@ -242,7 +354,7 @@ plans:
 - name: Universite De Montreal Plans Pricing
   plan_count: 2
   slug: universite-de-montreal-plans-pricing
-random_paper: 99
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Universite De Montreal Rate Limits
@@ -290,7 +402,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/screenshots/universite-de-montreal-2026-06-20T200115.png
 security:

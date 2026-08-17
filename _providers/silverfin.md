@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Silverfin''s public v4 REST API and SyncAPI for accountancy automation: companies, periods, accounts, reconciliations, reports, adjustments, budgets, workflows, users, permanent documents, exports, and'
@@ -159,7 +159,7 @@ overview: 'Silverfin publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Silverfin''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, support, and 18 more developer resources.'
-random_paper: 18
+random_paper: 84
 scopes:
 - name: Silverfin Scopes
   scope_count: 19
@@ -182,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

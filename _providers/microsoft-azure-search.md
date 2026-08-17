@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: The Indexes API from Azure AI Search — 2 operation(s) for indexes.
   name: Azure AI Search Indexes API
   slug: microsoft-azure-search-indexes-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure AI Search REST Documents API
+  slug: open-microsoft-azure-search-documents-api
+- collection_type: open
+  name: Azure AI Search REST Documents Indexes API
+  slug: open-microsoft-azure-search-indexes-api
 - collection_type: open
   name: Azure AI Search REST API
   slug: open-microsoft-azure-search
@@ -134,7 +143,7 @@ plans:
 - name: Microsoft Azure Search Plans Pricing
   plan_count: 3
   slug: microsoft-azure-search-plans-pricing
-random_paper: 93
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Search Rate Limits
@@ -159,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-search/refs/heads/main/screenshots/microsoft-azure-search-2026-06-20T185434.png
 security:

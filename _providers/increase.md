@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 1
@@ -207,8 +207,179 @@ apis:
 - description: Wire transfers move funds between your Increase account and any other account accessible by Fedwire.
   name: Increase Wire Transfers API
   slug: increase-wire-transfers-api
-artifact_total: 64
+artifact_total: 121
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Increase Account Numbers API
+  slug: open-increase-account-numbers-api
+- collection_type: open
+  name: Increase Account Numbers Account Statements API
+  slug: open-increase-account-statements-api
+- collection_type: open
+  name: Increase Account Numbers Account Transfers API
+  slug: open-increase-account-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Accounts API
+  slug: open-increase-accounts-api
+- collection_type: open
+  name: Increase Account Numbers Ach Prenotifications API
+  slug: open-increase-ach-prenotifications-api
+- collection_type: open
+  name: Increase Account Numbers Ach Transfers API
+  slug: open-increase-ach-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Card Disputes API
+  slug: open-increase-card-disputes-api
+- collection_type: open
+  name: Increase Account Numbers Card Payments API
+  slug: open-increase-card-payments-api
+- collection_type: open
+  name: Increase Account Numbers Card Purchase Supplements API
+  slug: open-increase-card-purchase-supplements-api
+- collection_type: open
+  name: Increase Account Numbers Card Push Transfers API
+  slug: open-increase-card-push-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Card Tokens API
+  slug: open-increase-card-tokens-api
+- collection_type: open
+  name: Increase Account Numbers Card Validations API
+  slug: open-increase-card-validations-api
+- collection_type: open
+  name: Increase Account Numbers Cards API
+  slug: open-increase-cards-api
+- collection_type: open
+  name: Increase Account Numbers Check Deposits API
+  slug: open-increase-check-deposits-api
+- collection_type: open
+  name: Increase Account Numbers Check Transfers API
+  slug: open-increase-check-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Declined Transactions API
+  slug: open-increase-declined-transactions-api
+- collection_type: open
+  name: Increase Account Numbers Digital Card Profiles API
+  slug: open-increase-digital-card-profiles-api
+- collection_type: open
+  name: Increase Account Numbers Digital Wallet Tokens API
+  slug: open-increase-digital-wallet-tokens-api
+- collection_type: open
+  name: Increase Account Numbers Entities API
+  slug: open-increase-entities-api
+- collection_type: open
+  name: Increase Account Numbers Entity Beneficial Owners API
+  slug: open-increase-entity-beneficial-owners-api
+- collection_type: open
+  name: Increase Account Numbers Entity Onboarding Sessions API
+  slug: open-increase-entity-onboarding-sessions-api
+- collection_type: open
+  name: Increase Account Numbers Entity Supplemental Documents API
+  slug: open-increase-entity-supplemental-documents-api
+- collection_type: open
+  name: Increase Account Numbers Event Subscriptions API
+  slug: open-increase-event-subscriptions-api
+- collection_type: open
+  name: Increase Account Numbers Events API
+  slug: open-increase-events-api
+- collection_type: open
+  name: Increase Account Numbers Exports API
+  slug: open-increase-exports-api
+- collection_type: open
+  name: Increase Account Numbers External Accounts API
+  slug: open-increase-external-accounts-api
+- collection_type: open
+  name: Increase Account Numbers Fednow Transfers API
+  slug: open-increase-fednow-transfers-api
+- collection_type: open
+  name: Increase Account Numbers File Links API
+  slug: open-increase-file-links-api
+- collection_type: open
+  name: Increase Account Numbers Files API
+  slug: open-increase-files-api
+- collection_type: open
+  name: Increase Account Numbers Groups API
+  slug: open-increase-groups-api
+- collection_type: open
+  name: Increase Account Numbers Inbound Ach Transfers API
+  slug: open-increase-inbound-ach-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Inbound Check Deposits API
+  slug: open-increase-inbound-check-deposits-api
+- collection_type: open
+  name: Increase Account Numbers Inbound Fednow Transfers API
+  slug: open-increase-inbound-fednow-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Inbound Mail Items API
+  slug: open-increase-inbound-mail-items-api
+- collection_type: open
+  name: Increase Account Numbers Inbound Real Time Payments Transfers API
+  slug: open-increase-inbound-real-time-payments-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Inbound Wire Drawdown Requests API
+  slug: open-increase-inbound-wire-drawdown-requests-api
+- collection_type: open
+  name: Increase Account Numbers Inbound Wire Transfers API
+  slug: open-increase-inbound-wire-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Intrafi Account Enrollments API
+  slug: open-increase-intrafi-account-enrollments-api
+- collection_type: open
+  name: Increase Account Numbers Intrafi Exclusions API
+  slug: open-increase-intrafi-exclusions-api
+- collection_type: open
+  name: Increase Account Numbers Lockbox Addresses API
+  slug: open-increase-lockbox-addresses-api
+- collection_type: open
+  name: Increase Account Numbers Lockbox Recipients API
+  slug: open-increase-lockbox-recipients-api
+- collection_type: open
+  name: Increase Account Numbers Oauth API
+  slug: open-increase-oauth-api
+- collection_type: open
+  name: Increase Account Numbers Oauth Applications API
+  slug: open-increase-oauth-applications-api
+- collection_type: open
+  name: Increase Account Numbers Oauth Connections API
+  slug: open-increase-oauth-connections-api
+- collection_type: open
+  name: Increase Account Numbers Pending Transactions API
+  slug: open-increase-pending-transactions-api
+- collection_type: open
+  name: Increase Account Numbers Physical Card Profiles API
+  slug: open-increase-physical-card-profiles-api
+- collection_type: open
+  name: Increase Account Numbers Physical Cards API
+  slug: open-increase-physical-cards-api
+- collection_type: open
+  name: Increase Account Numbers Programs API
+  slug: open-increase-programs-api
+- collection_type: open
+  name: Increase Account Numbers Real Time Decisions API
+  slug: open-increase-real-time-decisions-api
+- collection_type: open
+  name: Increase Account Numbers Real Time Payments Transfers API
+  slug: open-increase-real-time-payments-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Routing Numbers API
+  slug: open-increase-routing-numbers-api
+- collection_type: open
+  name: Increase Account Numbers Simulations API
+  slug: open-increase-simulations-api
+- collection_type: open
+  name: Increase Account Numbers Swift Transfers API
+  slug: open-increase-swift-transfers-api
+- collection_type: open
+  name: Increase Account Numbers Transactions API
+  slug: open-increase-transactions-api
+- collection_type: open
+  name: Increase Account Numbers Wire Drawdown Requests API
+  slug: open-increase-wire-drawdown-requests-api
+- collection_type: open
+  name: Increase Account Numbers Wire Transfers API
+  slug: open-increase-wire-transfers-api
 - collection_type: open
   name: Increase API
   slug: open-increase
@@ -309,7 +480,7 @@ plans:
 - name: Increase Plans Pricing
   plan_count: 1
   slug: increase-plans-pricing
-random_paper: 2
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: Increase Rate Limits
@@ -340,7 +511,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png
 security:

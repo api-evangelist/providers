@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'Asynchronous bulk data API for downloading chlorophyll-fluorescence (ChF) and Gardin-indices data. Submit a query, poll its status, then download the result set as CSV. Supports control-area, device, '
@@ -165,7 +165,7 @@ overview: 'Gardin publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Gardin''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 29
+random_paper: 33
 scopes:
 - name: Gardin Scopes
   scope_count: 11
@@ -193,7 +193,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/screenshots/gardin-2026-07-25T215444.png
 security:

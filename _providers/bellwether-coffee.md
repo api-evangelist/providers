@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -118,7 +118,7 @@ overview: 'Bellwether Coffee is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Bellwether Coffee''s developer surface includes pricing, support, engineering blog, FAQ, and 17 more developer resources.'
-random_paper: 51
+random_paper: 92
 score:
   band: emerging
   composite: 18.2
@@ -134,7 +134,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bellwether-coffee/refs/heads/main/screenshots/bellwether-coffee-2026-08-07T162304.png
 security:

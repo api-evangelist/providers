@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -84,7 +84,56 @@ apis:
 - description: Automate ML workflows with WhizzML scripts and executions
   name: BigML WhizzML Scripting API
   slug: bigml-whizzml-scripting-api
-artifact_total: 30
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BigML REST Anomaly Detection API
+  slug: open-bigml-anomaly-detection-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Batch Operations API
+  slug: open-bigml-batch-operations-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Clustering API
+  slug: open-bigml-clustering-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Data Connectors API
+  slug: open-bigml-data-connectors-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Datasets API
+  slug: open-bigml-datasets-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Ensembles API
+  slug: open-bigml-ensembles-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Evaluations API
+  slug: open-bigml-evaluations-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Models API
+  slug: open-bigml-models-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Predictions API
+  slug: open-bigml-predictions-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Projects API
+  slug: open-bigml-projects-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Sources API
+  slug: open-bigml-sources-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Supervised Learning API
+  slug: open-bigml-supervised-learning-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Time Series API
+  slug: open-bigml-time-series-api
+- collection_type: open
+  name: BigML REST Anomaly Detection Unsupervised Learning API
+  slug: open-bigml-unsupervised-learning-api
+- collection_type: open
+  name: BigML REST Anomaly Detection WhizzML Scripting API
+  slug: open-bigml-whizzml-scripting-api
 common:
 - group: agent
   title: ''
@@ -193,7 +242,7 @@ plans:
 - name: Bigml Plans Pricing
   plan_count: 4
   slug: bigml-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Bigml Rate Limits
@@ -227,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/screenshots/bigml-2026-06-20T173236.png
 security:

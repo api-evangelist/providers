@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -89,7 +89,59 @@ apis:
 - description: The User Type API from Epignosis (TalentLMS, eFront, TalentCards) — 2 operation(s) for user type.
   name: Epignosis (TalentLMS, eFront, TalentCards) User Type API
   slug: epignosis-talentlms-efront-talentcards-user-type-api
-artifact_total: 24
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Efront Account API
+  slug: open-epignosis-talentlms-efront-talentcards-account-api
+- collection_type: open
+  name: Efront Account Autologin API
+  slug: open-epignosis-talentlms-efront-talentcards-autologin-api
+- collection_type: open
+  name: Efront Account Branch API
+  slug: open-epignosis-talentlms-efront-talentcards-branch-api
+- collection_type: open
+  name: Efront Account Catalog API
+  slug: open-epignosis-talentlms-efront-talentcards-catalog-api
+- collection_type: open
+  name: Efront Account Category API
+  slug: open-epignosis-talentlms-efront-talentcards-category-api
+- collection_type: open
+  name: Efront Account Content API
+  slug: open-epignosis-talentlms-efront-talentcards-content-api
+- collection_type: open
+  name: Efront Account Course API
+  slug: open-epignosis-talentlms-efront-talentcards-course-api
+- collection_type: open
+  name: Efront Account Curriculum API
+  slug: open-epignosis-talentlms-efront-talentcards-curriculum-api
+- collection_type: open
+  name: Efront Account Extended Field API
+  slug: open-epignosis-talentlms-efront-talentcards-extended-field-api
+- collection_type: open
+  name: Efront Account Group API
+  slug: open-epignosis-talentlms-efront-talentcards-group-api
+- collection_type: open
+  name: Efront Account Job API
+  slug: open-epignosis-talentlms-efront-talentcards-job-api
+- collection_type: open
+  name: Efront Account Plugin API
+  slug: open-epignosis-talentlms-efront-talentcards-plugin-api
+- collection_type: open
+  name: Efront Account System API
+  slug: open-epignosis-talentlms-efront-talentcards-system-api
+- collection_type: open
+  name: Efront Account Training Session API
+  slug: open-epignosis-talentlms-efront-talentcards-training-session-api
+- collection_type: open
+  name: Efront Account User API
+  slug: open-epignosis-talentlms-efront-talentcards-user-api
+- collection_type: open
+  name: Efront Account User Type API
+  slug: open-epignosis-talentlms-efront-talentcards-user-type-api
 common:
 - group: other
   title: ''
@@ -219,7 +271,7 @@ overview: 'Epignosis (TalentLMS, eFront, TalentCards) publishes 16 APIs on the [
 
 
   Epignosis (TalentLMS, eFront, TalentCards)''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 79
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Epignosis Talentlms Efront Talentcards Talentlms Rate Limits
@@ -247,7 +299,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/screenshots/epignosis-talentlms-efront-talentcards-2026-07-25T213519.png
 security:

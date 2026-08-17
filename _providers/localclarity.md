@@ -10,36 +10,88 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
+  score: 55.4
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Localclarity Agentic Access
+  operation_count: 6
+  slug: localclarity-agentic-access
+  summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: REST API for programmatic access to LocalClarity platform data including Google Business Profiles, local rankings, review management, and business listing data. API keys are issued upon request and pr
+- description: REST API for programmatic access to LocalClarity platform data. Six documented operations cover profiles, organizations, business locations (returned as Google Business Profile location resources), re
   name: LocalClarity REST API
   slug: localclarity-rest-api
-artifact_total: 6
+artifact_total: 8
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/localclarity-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/localclarity-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/localclarity-domain-security.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/localclarity-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/localclarity-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/localclarity-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/localclarity-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/localclarity-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/localclarity-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/localclarity-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/localclarity-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -47,11 +99,19 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://dev.localclarity.com/
-- group: build
+  url: https://reputationmanager.io/api/assets/apidocs/index.html
+- group: docs
   title: ''
-  type: GitHubOrg
-  url: https://github.com/localclarity
+  type: APIReference
+  url: https://reputationmanager.io/api/assets/apidocs/index.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.localclarity.com/getting-started-localclarity
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.localclarity.com/resources/knowledge-base
 - group: company
   title: ''
   type: LinkedIn
@@ -59,15 +119,35 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.localclarity.com/all-blogs
+  url: https://www.localclarity.com/blog
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.localclarity.com/development-roadmap
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.localclarity.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.localclarity.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.localclarity.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.localclarity.com/terms/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.localclarity.com/terms/privacy-policy
 - group: operate
   title: ''
   type: StatusPage
-  url: https://www.localclarity.com/
+  url: https://status.localclarity.com/
 - group: other
   title: ''
   type: X
@@ -85,7 +165,7 @@ common:
   type: FinOps
   url: finops/localclarity-finops.yml
 created: '2026-06-13'
-description: LocalClarity is an AI-driven local search management platform for enterprises, agencies, and global brands. It provides a REST API for managing Google Business Profiles, tracking local rankings, monitoring and responding to reviews across 50+ sources, managing business listing data across Google, Apple, Bing, Facebook, and Waze, and automating local SEO workflows at scale.
+description: LocalClarity is an AI-driven local search management platform for enterprises, agencies, and global brands, operated alongside seoClarity and Actonia. It manages Google Business Profiles at scale, tracks local rankings and keywords, monitors and responds to reviews across 50+ sources with generative-AI response automation and sentiment analysis, and manages listing data across Google, Apple Business Connect, Bing, Facebook and Waze in 90+ countries and 14 languages. Its REST API exposes six documented operations covering profiles, organizations, locations, reviews, review replies and Google Business Profile performance insights, authenticated with an API key that administrators generate themselves from the Data Studio module and send in the Authorization header.
 finops:
 - name: Localclarity Finops
   service_category: ''
@@ -97,43 +177,47 @@ jsonld:
   property_count: 0
   slug: localclarity-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: LocalClarity
 nav: Providers
 network: true
-overview: 'LocalClarity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Local SEO, Google Business Profile, Review Management, Local Search, and Listings Management.
+overview: 'LocalClarity publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Local SEO, Google Business Profile, Review Management, Local Search, and Listings Management.
 
 
   The LocalClarity catalog on APIs.io includes 1 JSON-LD context.
 
 
-  LocalClarity''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  LocalClarity''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
 plans:
 - name: Localclarity Plans Pricing
   plan_count: 3
   slug: localclarity-plans-pricing
-random_paper: 83
+random_paper: 91
 rate_limits:
 - limit_count: 0
   name: Localclarity Rate Limits
   slug: localclarity-rate-limits
 score:
-  band: emerging
-  composite: 23.8
-  delta: 0.0
+  band: strong
+  composite: 59.2
+  delta: 35.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 8.1
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 84.2
+    contract_quality: 65.7
+    developer_ergonomics: 50.0
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 36.8
   previous_composite: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/screenshots/localclarity-2026-06-20T184634.png
 security:
+- kind: authentication
+  name: Localclarity Authentication
+  slug: localclarity-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Localclarity Domain Security
   slug: localclarity-domain-security
@@ -146,5 +230,11 @@ tags:
 - Local Search
 - Listings Management
 - Reputation Management
+- Local Marketing
+- Business Listings
+- Location Data
+- Sentiment Analysis
+- Multi-Location Brands
+- Marketing
 website: https://www.localclarity.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,12 +62,30 @@ apis:
 - description: Image generation (DALL-E)
   name: Azure OpenAI Service Images API
   slug: azure-openai-images-api
-artifact_total: 17
+artifact_total: 23
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous and streaming surfaces of the Azure OpenAI Service (part of Microsoft Foundry Models): * The **Realtime API** over a WebSocket connection used for low-late'
   name: Azure OpenAI Service - Streaming and Realtime APIs
   slug: azure-openai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure OpenAI Inference REST Audio API
+  slug: open-azure-openai-audio-api
+- collection_type: open
+  name: Azure OpenAI Inference REST Audio Chat Completions API
+  slug: open-azure-openai-chat-completions-api
+- collection_type: open
+  name: Azure OpenAI Inference REST Audio Completions API
+  slug: open-azure-openai-completions-api
+- collection_type: open
+  name: Azure OpenAI Inference REST Audio Embeddings API
+  slug: open-azure-openai-embeddings-api
+- collection_type: open
+  name: Azure OpenAI Inference REST Audio Images API
+  slug: open-azure-openai-images-api
 - collection_type: open
   name: Azure OpenAI Inference REST API
   slug: open-azure-openai
@@ -151,7 +169,7 @@ overview: 'Azure OpenAI Service publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Azure OpenAI Service''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 32
+random_paper: 40
 rules:
 - name: Azure OpenAI Service API Rules
   rule_count: 9
@@ -186,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/screenshots/azure-openai-2026-06-20T172911.png
 security:

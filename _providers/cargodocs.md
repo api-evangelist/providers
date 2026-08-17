@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,17 +60,41 @@ apis:
 - description: Endpoints for finding and managing transactions
   name: CargoDocs Transactions API
   slug: cargodocs-transactions-api
-artifact_total: 23
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CargoDocs Customer Data/Docs Common API
+  slug: open-cargodocs-common-api
 - collection_type: open
   name: CargoDocs Customer Data/Docs API
   slug: open-cargodocs-customer
+- collection_type: open
+  name: CargoDocs Customer Data/Docs Common Documents API
+  slug: open-cargodocs-documents-api
+- collection_type: open
+  name: CargoDocs Customer Data/Docs Common Exchange API
+  slug: open-cargodocs-exchange-api
+- collection_type: open
+  name: CargoDocs Customer Data/Docs Common Import API
+  slug: open-cargodocs-import-api
+- collection_type: open
+  name: CargoDocs Customer Data/Docs Common Issuance API
+  slug: open-cargodocs-issuance-api
 - collection_type: open
   name: CargoDocs Issuer API
   slug: open-cargodocs-issuer
 - collection_type: open
   name: CargoDocs Partner API
   slug: open-cargodocs-partner
+- collection_type: open
+  name: CargoDocs Customer Data/Docs Common Surrender API
+  slug: open-cargodocs-surrender-api
+- collection_type: open
+  name: CargoDocs Customer Data/Docs Common Transactions API
+  slug: open-cargodocs-transactions-api
 common:
 - group: agent
   title: ''
@@ -172,7 +196,7 @@ plans:
 - name: Cargodocs Plans Pricing
   plan_count: 1
   slug: cargodocs-plans-pricing
-random_paper: 109
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Cargodocs Rate Limits
@@ -206,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

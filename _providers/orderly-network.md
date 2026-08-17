@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 4
@@ -51,11 +51,27 @@ apis:
 - description: The public API from Orderly Network — 97 operation(s) for public.
   name: Orderly Network public API
   slug: orderly-network-public-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: Real-time WebSocket streams for Orderly Network. Public streams carry market data (orderbook, trades, ticker, klines); private streams carry authenticated account, balance, position, and execution-rep
   name: Orderly Network WebSocket API
   slug: orderly-network-websocket-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EVM admin API
+  slug: open-orderly-network-admin-api
+- collection_type: open
+  name: EVM admin client API
+  slug: open-orderly-network-client-api
+- collection_type: open
+  name: EVM admin private API
+  slug: open-orderly-network-private-api
+- collection_type: open
+  name: EVM admin public API
+  slug: open-orderly-network-public-api
 common:
 - group: other
   title: ''
@@ -196,7 +212,7 @@ overview: 'Orderly Network publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Orderly Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 23 more developer resources.'
-random_paper: 32
+random_paper: 102
 score:
   band: developing
   composite: 47.1
@@ -226,7 +242,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/screenshots/orderly-network-2026-08-07T190918.png
 security:

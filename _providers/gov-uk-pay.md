@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: The Refunding card payments API from GOV.UK Pay — 3 operation(s) for refunding card payments.
   name: GOV.UK Pay Refunding card payments API
   slug: gov-uk-pay-refunding-card-payments-api
-artifact_total: 60
+artifact_total: 66
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GOV.UK Pay Agreements API
+  slug: open-gov-uk-pay-agreements-api
+- collection_type: open
+  name: GOV.UK Pay Agreements Authorise card payments API
+  slug: open-gov-uk-pay-authorise-card-payments-api
+- collection_type: open
+  name: GOV.UK Pay Agreements Card payments API
+  slug: open-gov-uk-pay-card-payments-api
+- collection_type: open
+  name: GOV.UK Pay Agreements Disputes API
+  slug: open-gov-uk-pay-disputes-api
+- collection_type: open
+  name: GOV.UK Pay Agreements Refunding card payments API
+  slug: open-gov-uk-pay-refunding-card-payments-api
 common:
 - group: operate
   title: ''
@@ -263,7 +282,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 16
+random_paper: 82
 rules:
 - name: GOV.UK Pay API Rules
   rule_count: 5
@@ -299,7 +318,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/screenshots/gov-uk-pay-2026-06-20T182258.png
 security:

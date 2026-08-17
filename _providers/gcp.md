@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -60,8 +60,32 @@ apis:
 - description: Disk snapshots
   name: Google Cloud Platform APIs Snapshots API
   slug: gcp-snapshots-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Compute Engine Disks API
+  slug: open-gcp-disks-api
+- collection_type: open
+  name: Google Cloud Compute Engine Disks Firewalls API
+  slug: open-gcp-firewalls-api
+- collection_type: open
+  name: Google Cloud Compute Engine Disks Images API
+  slug: open-gcp-images-api
+- collection_type: open
+  name: Google Cloud Compute Engine Disks Instances API
+  slug: open-gcp-instances-api
+- collection_type: open
+  name: Google Cloud Compute Engine Disks MachineTypes API
+  slug: open-gcp-machinetypes-api
+- collection_type: open
+  name: Google Cloud Compute Engine Disks Networks API
+  slug: open-gcp-networks-api
+- collection_type: open
+  name: Google Cloud Compute Engine Disks Snapshots API
+  slug: open-gcp-snapshots-api
 - collection_type: open
   name: Google Cloud Compute Engine API
   slug: open-gcp
@@ -142,7 +166,7 @@ plans:
 - name: Gcp Plans Pricing
   plan_count: 3
   slug: gcp-plans-pricing
-random_paper: 74
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Gcp Rate Limits
@@ -172,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/screenshots/gcp-2026-06-20T181700.png
 security:

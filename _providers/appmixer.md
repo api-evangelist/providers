@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -103,14 +103,53 @@ arazzos:
 - description: Read a flow, then stop it before updating if it is running, otherwise update directly.
   name: Appmixer Update a Flow Safely by Stage
   slug: appmixer-update-running-flow-workflow
-artifact_total: 489
+artifact_total: 502
 collections:
 - collection_type: postman
   name: Appmixer API
   slug: postman-appmixer-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Appmixer Accounts API
+  slug: open-appmixer-accounts-api
+- collection_type: open
   name: Appmixer API
   slug: open-appmixer-api
+- collection_type: open
+  name: Appmixer Accounts Apps API
+  slug: open-appmixer-apps-api
+- collection_type: open
+  name: Appmixer Accounts Authentication API
+  slug: open-appmixer-authentication-api
+- collection_type: open
+  name: Appmixer Accounts Data Stores API
+  slug: open-appmixer-data-stores-api
+- collection_type: open
+  name: Appmixer Accounts Files API
+  slug: open-appmixer-files-api
+- collection_type: open
+  name: Appmixer Accounts Flows API
+  slug: open-appmixer-flows-api
+- collection_type: open
+  name: Appmixer Accounts Insights API
+  slug: open-appmixer-insights-api
+- collection_type: open
+  name: Appmixer Accounts Logs API
+  slug: open-appmixer-logs-api
+- collection_type: open
+  name: Appmixer Accounts Messages API
+  slug: open-appmixer-messages-api
+- collection_type: open
+  name: Appmixer Accounts People Tasks API
+  slug: open-appmixer-people-tasks-api
+- collection_type: open
+  name: Appmixer Accounts System API
+  slug: open-appmixer-system-api
+- collection_type: open
+  name: Appmixer Accounts Users API
+  slug: open-appmixer-users-api
 common:
 - group: agent
   title: ''
@@ -765,7 +804,7 @@ plans:
 - name: Appmixer Plans Pricing
   plan_count: 3
   slug: appmixer-plans-pricing
-random_paper: 30
+random_paper: 125
 rate_limits:
 - limit_count: 5
   name: Appmixer Rate Limits
@@ -807,7 +846,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/screenshots/appmixer-2026-06-20T172329.png
 security:

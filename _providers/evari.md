@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -31,7 +31,11 @@ apis:
 - description: The Evari Quotes microservice - the internal broker and underwriter quoting surface at /api/quotes/** plus a customer-facing mirror at /api/quotes/public/**. 49 paths, 56 operations and 70 definitions
   name: Evari Quotes API
   slug: evari-quotes-api
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Evari Quotes API
+  slug: open-evari-quotes-api
 common:
 - group: company
   title: ''
@@ -194,7 +198,7 @@ plans:
 - name: Evari Plans
   plan_count: 6
   slug: evari-plans
-random_paper: 55
+random_paper: 88
 score:
   band: developing
   composite: 49.5
@@ -224,7 +228,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png
 security:

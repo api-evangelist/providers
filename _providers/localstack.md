@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: The localstack API from LocalStack — 8 operation(s) for localstack.
   name: LocalStack localstack API
   slug: localstack-localstack-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LocalStack REST API for Community Aws API
+  slug: open-localstack-aws-api
+- collection_type: open
+  name: REST API for Community Aws localstack API
+  slug: open-localstack-localstack-api
 common:
 - group: other
   title: ''
@@ -187,7 +197,7 @@ overview: 'LocalStack publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LocalStack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 97
+random_paper: 14
 score:
   band: developing
   composite: 49.2
@@ -211,7 +221,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/screenshots/localstack-2026-07-25T225424.png
 security:

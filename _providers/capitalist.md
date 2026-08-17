@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The Capitalist Payments API API from Capitalist — 1 operation(s) for capitalist payments api.
   name: Capitalist Capitalist Payments API API
   slug: capitalist-capitalist-payments-api-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Capitalist Payments Capitalist Payments API API
+  slug: open-capitalist-capitalist-payments-api-api
 - collection_type: open
   name: Capitalist Payments API
   slug: open-capitalist
@@ -119,7 +125,7 @@ plans:
 - name: Capitalist Plans Pricing
   plan_count: 3
   slug: capitalist-plans-pricing
-random_paper: 110
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Capitalist Rate Limits
@@ -150,7 +156,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/screenshots/capitalist-2026-06-20T173944.png
 security:

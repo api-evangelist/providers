@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,11 +62,36 @@ apis:
 - description: The Withdrawal (Crypto) API from Korbit — 3 operation(s) for withdrawal (crypto).
   name: Korbit Withdrawal (Crypto) API
   slug: korbit-withdrawal-crypto-api
-artifact_total: 14
+artifact_total: 22
 asyncapis:
 - description: WebSocket streaming API for the Korbit cryptocurrency exchange. Public channels stream market data; private channels stream the authenticated account's order, trade, and balance changes. Subscribe wit
   name: Korbit Open API v2 WebSocket
   slug: korbit-websocket-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Korbit Open API v2 Asset API
+  slug: open-korbit-asset-api
+- collection_type: open
+  name: Korbit Open API v2 Asset Deposit (Crypto) API
+  slug: open-korbit-deposit-crypto-api
+- collection_type: open
+  name: Korbit Open API v2 Asset Deposit/Withdrawal (KRW) API
+  slug: open-korbit-deposit-withdrawal-krw-api
+- collection_type: open
+  name: Korbit Open API v2 Asset Other API
+  slug: open-korbit-other-api
+- collection_type: open
+  name: Korbit Open API v2 Asset Quotation API
+  slug: open-korbit-quotation-api
+- collection_type: open
+  name: Korbit Open API v2 Asset Trading API
+  slug: open-korbit-trading-api
+- collection_type: open
+  name: Korbit Open API v2 Asset Withdrawal (Crypto) API
+  slug: open-korbit-withdrawal-crypto-api
 common:
 - group: auth
   title: ''
@@ -207,7 +232,7 @@ overview: 'Korbit publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Korbit''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 23 more developer resources.'
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Korbit Rate Limits
@@ -241,7 +266,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png
 security:

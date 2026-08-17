@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -97,11 +97,78 @@ apis:
 - description: Create and manage watchlists.
   name: Clear Street Watchlist API
   slug: clear-street-watchlist-api
-artifact_total: 31
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Clear Street Studio Events
   slug: clear-street-studio-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clear Street Accounts API
+  slug: open-clear-street-accounts-api
+- collection_type: open
+  name: Clear Street Trading API version API
+  slug: open-clear-street-api-version-api
+- collection_type: open
+  name: Clear Street Trading Calendar API
+  slug: open-clear-street-calendar-api
+- collection_type: open
+  name: Common API Models Entities API
+  slug: open-clear-street-entities-api
+- collection_type: open
+  name: Common API Models Holdings API
+  slug: open-clear-street-holdings-api
+- collection_type: open
+  name: Clear Street Trading Instrument Data API
+  slug: open-clear-street-instrument-data-api
+- collection_type: open
+  name: Clear Street Instruments API
+  slug: open-clear-street-instruments-api
+- collection_type: open
+  name: Common API Models Inventories API
+  slug: open-clear-street-inventories-api
+- collection_type: open
+  name: Common API Models Locates API
+  slug: open-clear-street-locates-api
+- collection_type: open
+  name: Common API Models Margin API
+  slug: open-clear-street-margin-api
+- collection_type: open
+  name: Common API Models Margin Simulations API
+  slug: open-clear-street-margin-simulations-api
+- collection_type: open
+  name: Clear Street Trading Omni AI API
+  slug: open-clear-street-omni-ai-api
+- collection_type: open
+  name: Clear Street Orders API
+  slug: open-clear-street-orders-api
+- collection_type: open
+  name: Common API Models Performance API
+  slug: open-clear-street-performance-api
+- collection_type: open
+  name: Common API Models PNL API
+  slug: open-clear-street-pnl-api
+- collection_type: open
+  name: Clear Street Positions API
+  slug: open-clear-street-positions-api
+- collection_type: open
+  name: Common API Models Rates API
+  slug: open-clear-street-rates-api
+- collection_type: open
+  name: Clear Street Trading Screener API
+  slug: open-clear-street-screener-api
+- collection_type: open
+  name: Clear Street Trades API
+  slug: open-clear-street-trades-api
+- collection_type: open
+  name: Clear Street Uploads API
+  slug: open-clear-street-uploads-api
+- collection_type: open
+  name: Clear Street Trading Watchlist API
+  slug: open-clear-street-watchlist-api
 common:
 - group: agent
   title: ''
@@ -274,7 +341,7 @@ overview: 'Clear Street publishes 22 APIs on the [APIs.io](https://apis.io/) net
 
 
   Clear Street''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 31 more developer resources.'
-random_paper: 27
+random_paper: 35
 scopes:
 - name: Clear Street Scopes
   scope_count: 5
@@ -309,7 +376,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/screenshots/clear-street-2026-08-07T163444.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Access to Suger Support ticket resources
   name: Suger Support API
   slug: suger-support-api
-artifact_total: 39
+artifact_total: 51
 collections:
 - collection_type: postman
   name: Suger API API
@@ -107,6 +107,42 @@ collections:
 - collection_type: postman
   name: Suger API Support API
   slug: postman-suger-support-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Suger API API
+  slug: open-suger-api-api
+- collection_type: open
+  name: Suger API Billing API
+  slug: open-suger-billing-api
+- collection_type: open
+  name: Suger API Buyer API
+  slug: open-suger-buyer-api
+- collection_type: open
+  name: Suger API Contact API
+  slug: open-suger-contact-api
+- collection_type: open
+  name: Suger API Entitlement API
+  slug: open-suger-entitlement-api
+- collection_type: open
+  name: Suger API Metering API
+  slug: open-suger-metering-api
+- collection_type: open
+  name: Suger API Notification API
+  slug: open-suger-notification-api
+- collection_type: open
+  name: Suger API Offer API
+  slug: open-suger-offer-api
+- collection_type: open
+  name: Suger API Product API
+  slug: open-suger-product-api
+- collection_type: open
+  name: Suger API Report API
+  slug: open-suger-report-api
+- collection_type: open
+  name: Suger API Support API
+  slug: open-suger-support-api
 - collection_type: open
   name: Suger API
   slug: open-suger
@@ -209,7 +245,7 @@ plans:
 - name: Suger Plans Pricing
   plan_count: 3
   slug: suger-plans-pricing
-random_paper: 70
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Suger Rate Limits
@@ -251,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/screenshots/suger-2026-06-20T194638.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: User related API endpoints
   name: SnackMagic User management API
   slug: snackmagic-user-management-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stadium Authentication API
+  slug: open-snackmagic-authentication-api
+- collection_type: open
+  name: Stadium Authentication Automation management API
+  slug: open-snackmagic-automation-management-api
+- collection_type: open
+  name: Stadium Authentication Order management API
+  slug: open-snackmagic-order-management-api
+- collection_type: open
+  name: Stadium Authentication Store management API
+  slug: open-snackmagic-store-management-api
+- collection_type: open
+  name: Stadium Authentication User management API
+  slug: open-snackmagic-user-management-api
 common:
 - group: agent
   title: ''
@@ -159,7 +178,7 @@ overview: 'SnackMagic publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SnackMagic''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 15 more developer resources.'
-random_paper: 81
+random_paper: 147
 score:
   band: developing
   composite: 49.7
@@ -183,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

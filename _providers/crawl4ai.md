@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Crawl4AI is an open-source web crawling tool optimized for feeding web content into large language models.
@@ -72,7 +72,7 @@ plans:
 - name: Crawl4Ai Plans Pricing
   plan_count: 3
   slug: crawl4ai-plans-pricing
-random_paper: 71
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Crawl4Ai Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/screenshots/crawl4ai-2026-06-20T175215.png
 security:

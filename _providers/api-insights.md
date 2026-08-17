@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'API Insights analyzes OpenAPI specifications (OAS v3, JSON or YAML) and produces detailed scorecards across AI Readiness, Design, Performance, and Security dimensions. Each category receives a letter '
@@ -81,7 +81,7 @@ plans:
 - name: Api Insights Plans Pricing
   plan_count: 3
   slug: api-insights-plans-pricing
-random_paper: 32
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Api Insights Rate Limits
@@ -99,7 +99,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 11.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-insights/refs/heads/main/screenshots/api-insights-2026-06-20T172210.png
 security:

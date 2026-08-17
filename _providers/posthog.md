@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 927
   human_in_the_loop: 18
@@ -456,7 +456,7 @@ apis:
 - description: The workflows API from PostHog — 28 operation(s) for workflows.
   name: PostHog workflows API
   slug: posthog-workflows-api
-artifact_total: 1909
+artifact_total: 2039
 asyncapis:
 - description: 'PostHog''s Customer Data Platform (CDP) exposes a webhook destination that sends event and person data from PostHog to any external HTTP endpoint in real time. The generic Webhook destination supports '
   name: PostHog Webhook Destinations
@@ -855,6 +855,396 @@ collections:
 - collection_type: postman
   name: PostHog actions workflows API
   slug: postman-posthog-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PostHog actions API
+  slug: open-posthog-actions-api
+- collection_type: open
+  name: PostHog actions activity_log API
+  slug: open-posthog-activity-log-api
+- collection_type: open
+  name: PostHog actions activity_logs API
+  slug: open-posthog-activity-logs-api
+- collection_type: open
+  name: PostHog actions advanced_activity_logs API
+  slug: open-posthog-advanced-activity-logs-api
+- collection_type: open
+  name: PostHog actions alerts API
+  slug: open-posthog-alerts-api
+- collection_type: open
+  name: PostHog actions annotations API
+  slug: open-posthog-annotations-api
+- collection_type: open
+  name: PostHog actions approval_policies API
+  slug: open-posthog-approval-policies-api
+- collection_type: open
+  name: PostHog actions batch_exports API
+  slug: open-posthog-batch-exports-api
+- collection_type: open
+  name: PostHog actions cdp API
+  slug: open-posthog-cdp-api
+- collection_type: open
+  name: PostHog actions change_requests API
+  slug: open-posthog-change-requests-api
+- collection_type: open
+  name: PostHog actions code API
+  slug: open-posthog-code-api
+- collection_type: open
+  name: PostHog actions code-invites API
+  slug: open-posthog-code-invites-api
+- collection_type: open
+  name: PostHog actions cohorts API
+  slug: open-posthog-cohorts-api
+- collection_type: open
+  name: PostHog actions comments API
+  slug: open-posthog-comments-api
+- collection_type: open
+  name: PostHog actions conversations API
+  slug: open-posthog-conversations-api
+- collection_type: open
+  name: PostHog actions core API
+  slug: open-posthog-core-api
+- collection_type: open
+  name: PostHog actions customer_analytics API
+  slug: open-posthog-customer-analytics-api
+- collection_type: open
+  name: PostHog actions customer_journeys API
+  slug: open-posthog-customer-journeys-api
+- collection_type: open
+  name: PostHog actions customer_profile_configs API
+  slug: open-posthog-customer-profile-configs-api
+- collection_type: open
+  name: PostHog actions dashboard_templates API
+  slug: open-posthog-dashboard-templates-api
+- collection_type: open
+  name: PostHog actions dashboards API
+  slug: open-posthog-dashboards-api
+- collection_type: open
+  name: PostHog actions data_color_themes API
+  slug: open-posthog-data-color-themes-api
+- collection_type: open
+  name: PostHog actions data_modeling_jobs API
+  slug: open-posthog-data-modeling-jobs-api
+- collection_type: open
+  name: PostHog actions data_warehouse API
+  slug: open-posthog-data-warehouse-api
+- collection_type: open
+  name: PostHog actions dataset_items API
+  slug: open-posthog-dataset-items-api
+- collection_type: open
+  name: PostHog actions datasets API
+  slug: open-posthog-datasets-api
+- collection_type: open
+  name: PostHog actions desktop_recordings API
+  slug: open-posthog-desktop-recordings-api
+- collection_type: open
+  name: PostHog actions domains API
+  slug: open-posthog-domains-api
+- collection_type: open
+  name: PostHog actions early_access_feature API
+  slug: open-posthog-early-access-feature-api
+- collection_type: open
+  name: PostHog actions early_access_features API
+  slug: open-posthog-early-access-features-api
+- collection_type: open
+  name: PostHog actions elements API
+  slug: open-posthog-elements-api
+- collection_type: open
+  name: PostHog actions endpoints API
+  slug: open-posthog-endpoints-api
+- collection_type: open
+  name: PostHog actions environments API
+  slug: open-posthog-environments-api
+- collection_type: open
+  name: PostHog actions error_tracking API
+  slug: open-posthog-error-tracking-api
+- collection_type: open
+  name: PostHog actions evaluation_runs API
+  slug: open-posthog-evaluation-runs-api
+- collection_type: open
+  name: PostHog actions evaluations API
+  slug: open-posthog-evaluations-api
+- collection_type: open
+  name: PostHog actions event_definitions API
+  slug: open-posthog-event-definitions-api
+- collection_type: open
+  name: PostHog actions event_filter API
+  slug: open-posthog-event-filter-api
+- collection_type: open
+  name: PostHog actions event_schemas API
+  slug: open-posthog-event-schemas-api
+- collection_type: open
+  name: PostHog actions events API
+  slug: open-posthog-events-api
+- collection_type: open
+  name: PostHog actions experiment_holdouts API
+  slug: open-posthog-experiment-holdouts-api
+- collection_type: open
+  name: PostHog actions experiment_saved_metrics API
+  slug: open-posthog-experiment-saved-metrics-api
+- collection_type: open
+  name: PostHog actions experiments API
+  slug: open-posthog-experiments-api
+- collection_type: open
+  name: PostHog actions exports API
+  slug: open-posthog-exports-api
+- collection_type: open
+  name: PostHog actions external_data_schemas API
+  slug: open-posthog-external-data-schemas-api
+- collection_type: open
+  name: PostHog actions external_data_sources API
+  slug: open-posthog-external-data-sources-api
+- collection_type: open
+  name: PostHog actions feature_flags API
+  slug: open-posthog-feature-flags-api
+- collection_type: open
+  name: PostHog actions file_system API
+  slug: open-posthog-file-system-api
+- collection_type: open
+  name: PostHog actions file_system_shortcut API
+  slug: open-posthog-file-system-shortcut-api
+- collection_type: open
+  name: PostHog actions flag_value API
+  slug: open-posthog-flag-value-api
+- collection_type: open
+  name: PostHog actions groups API
+  slug: open-posthog-groups-api
+- collection_type: open
+  name: PostHog actions groups_types API
+  slug: open-posthog-groups-types-api
+- collection_type: open
+  name: PostHog actions health_issues API
+  slug: open-posthog-health-issues-api
+- collection_type: open
+  name: PostHog actions heatmap_screenshots API
+  slug: open-posthog-heatmap-screenshots-api
+- collection_type: open
+  name: PostHog actions heatmaps API
+  slug: open-posthog-heatmaps-api
+- collection_type: open
+  name: PostHog actions hog_flows API
+  slug: open-posthog-hog-flows-api
+- collection_type: open
+  name: PostHog actions hog_function_templates API
+  slug: open-posthog-hog-function-templates-api
+- collection_type: open
+  name: PostHog actions hog_functions API
+  slug: open-posthog-hog-functions-api
+- collection_type: open
+  name: PostHog actions insight_variables API
+  slug: open-posthog-insight-variables-api
+- collection_type: open
+  name: PostHog actions insights API
+  slug: open-posthog-insights-api
+- collection_type: open
+  name: PostHog actions integrations API
+  slug: open-posthog-integrations-api
+- collection_type: open
+  name: PostHog actions invites API
+  slug: open-posthog-invites-api
+- collection_type: open
+  name: PostHog actions js-snippet API
+  slug: open-posthog-js-snippet-api
+- collection_type: open
+  name: PostHog actions legal_documents API
+  slug: open-posthog-legal-documents-api
+- collection_type: open
+  name: PostHog actions lineage API
+  slug: open-posthog-lineage-api
+- collection_type: open
+  name: PostHog actions live_debugger_breakpoints API
+  slug: open-posthog-live-debugger-breakpoints-api
+- collection_type: open
+  name: PostHog actions LLM Analytics API
+  slug: open-posthog-llm-analytics-api
+- collection_type: open
+  name: PostHog actions llm_prompts API
+  slug: open-posthog-llm-prompts-api
+- collection_type: open
+  name: PostHog actions llm_skills API
+  slug: open-posthog-llm-skills-api
+- collection_type: open
+  name: PostHog actions logs API
+  slug: open-posthog-logs-api
+- collection_type: open
+  name: PostHog actions managed_viewsets API
+  slug: open-posthog-managed-viewsets-api
+- collection_type: open
+  name: PostHog actions max API
+  slug: open-posthog-max-api
+- collection_type: open
+  name: PostHog actions max_tools API
+  slug: open-posthog-max-tools-api
+- collection_type: open
+  name: PostHog actions mcp_server_installations API
+  slug: open-posthog-mcp-server-installations-api
+- collection_type: open
+  name: PostHog actions mcp_servers API
+  slug: open-posthog-mcp-servers-api
+- collection_type: open
+  name: PostHog actions mcp_store API
+  slug: open-posthog-mcp-store-api
+- collection_type: open
+  name: PostHog actions mcp_tools API
+  slug: open-posthog-mcp-tools-api
+- collection_type: open
+  name: PostHog actions members API
+  slug: open-posthog-members-api
+- collection_type: open
+  name: PostHog actions notebooks API
+  slug: open-posthog-notebooks-api
+- collection_type: open
+  name: PostHog actions oauth_applications API
+  slug: open-posthog-oauth-applications-api
+- collection_type: open
+  name: PostHog actions organizations API
+  slug: open-posthog-organizations-api
+- collection_type: open
+  name: PostHog actions persisted_folder API
+  slug: open-posthog-persisted-folder-api
+- collection_type: open
+  name: PostHog actions persons API
+  slug: open-posthog-persons-api
+- collection_type: open
+  name: PostHog actions platform_features API
+  slug: open-posthog-platform-features-api
+- collection_type: open
+  name: PostHog actions plugin_configs API
+  slug: open-posthog-plugin-configs-api
+- collection_type: open
+  name: PostHog actions product_analytics API
+  slug: open-posthog-product-analytics-api
+- collection_type: open
+  name: PostHog actions product_tours API
+  slug: open-posthog-product-tours-api
+- collection_type: open
+  name: PostHog actions project_secret_api_keys API
+  slug: open-posthog-project-secret-api-keys-api
+- collection_type: open
+  name: PostHog actions projects API
+  slug: open-posthog-projects-api
+- collection_type: open
+  name: PostHog actions property_definitions API
+  slug: open-posthog-property-definitions-api
+- collection_type: open
+  name: PostHog actions proxy_records API
+  slug: open-posthog-proxy-records-api
+- collection_type: open
+  name: PostHog actions public_hog_function_templates API
+  slug: open-posthog-public-hog-function-templates-api
+- collection_type: open
+  name: PostHog actions query API
+  slug: open-posthog-query-api
+- collection_type: open
+  name: PostHog actions replay API
+  slug: open-posthog-replay-api
+- collection_type: open
+  name: PostHog actions reverse_proxy API
+  slug: open-posthog-reverse-proxy-api
+- collection_type: open
+  name: PostHog actions role_external_references API
+  slug: open-posthog-role-external-references-api
+- collection_type: open
+  name: PostHog actions roles API
+  slug: open-posthog-roles-api
+- collection_type: open
+  name: PostHog actions sandbox-environments API
+  slug: open-posthog-sandbox-environments-api
+- collection_type: open
+  name: PostHog actions saved API
+  slug: open-posthog-saved-api
+- collection_type: open
+  name: PostHog actions schema_property_groups API
+  slug: open-posthog-schema-property-groups-api
+- collection_type: open
+  name: PostHog actions sdk_doctor API
+  slug: open-posthog-sdk-doctor-api
+- collection_type: open
+  name: PostHog actions session_group_summaries API
+  slug: open-posthog-session-group-summaries-api
+- collection_type: open
+  name: PostHog actions session_recording_playlists API
+  slug: open-posthog-session-recording-playlists-api
+- collection_type: open
+  name: PostHog actions session_recordings API
+  slug: open-posthog-session-recordings-api
+- collection_type: open
+  name: PostHog actions session_summaries API
+  slug: open-posthog-session-summaries-api
+- collection_type: open
+  name: PostHog actions sessions API
+  slug: open-posthog-sessions-api
+- collection_type: open
+  name: PostHog actions signals API
+  slug: open-posthog-signals-api
+- collection_type: open
+  name: PostHog actions subscriptions API
+  slug: open-posthog-subscriptions-api
+- collection_type: open
+  name: PostHog actions surveys API
+  slug: open-posthog-surveys-api
+- collection_type: open
+  name: PostHog actions taggers API
+  slug: open-posthog-taggers-api
+- collection_type: open
+  name: PostHog actions task-automations API
+  slug: open-posthog-task-automations-api
+- collection_type: open
+  name: PostHog actions task-runs API
+  slug: open-posthog-task-runs-api
+- collection_type: open
+  name: PostHog actions tasks API
+  slug: open-posthog-tasks-api
+- collection_type: open
+  name: PostHog actions uploaded_media API
+  slug: open-posthog-uploaded-media-api
+- collection_type: open
+  name: PostHog actions user_home_settings API
+  slug: open-posthog-user-home-settings-api
+- collection_type: open
+  name: PostHog actions user_interviews API
+  slug: open-posthog-user-interviews-api
+- collection_type: open
+  name: PostHog actions users API
+  slug: open-posthog-users-api
+- collection_type: open
+  name: PostHog actions warehouse_dag API
+  slug: open-posthog-warehouse-dag-api
+- collection_type: open
+  name: PostHog actions warehouse_model_paths API
+  slug: open-posthog-warehouse-model-paths-api
+- collection_type: open
+  name: PostHog actions warehouse_saved_queries API
+  slug: open-posthog-warehouse-saved-queries-api
+- collection_type: open
+  name: PostHog actions warehouse_saved_query_folders API
+  slug: open-posthog-warehouse-saved-query-folders-api
+- collection_type: open
+  name: PostHog actions warehouse_tables API
+  slug: open-posthog-warehouse-tables-api
+- collection_type: open
+  name: PostHog actions warehouse_view_link API
+  slug: open-posthog-warehouse-view-link-api
+- collection_type: open
+  name: PostHog actions warehouse_view_links API
+  slug: open-posthog-warehouse-view-links-api
+- collection_type: open
+  name: PostHog actions web_analytics API
+  slug: open-posthog-web-analytics-api
+- collection_type: open
+  name: PostHog actions web_experiments API
+  slug: open-posthog-web-experiments-api
+- collection_type: open
+  name: PostHog actions web_vitals API
+  slug: open-posthog-web-vitals-api
+- collection_type: open
+  name: PostHog actions welcome API
+  slug: open-posthog-welcome-api
+- collection_type: open
+  name: PostHog actions workflows API
+  slug: open-posthog-workflows-api
 - collection_type: open
   name: PostHog API
   slug: open-posthog
@@ -5836,7 +6226,7 @@ plans:
 - name: Posthog Plans Pricing
   plan_count: 4
   slug: posthog-plans-pricing
-random_paper: 52
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Posthog Rate Limits
@@ -5878,7 +6268,7 @@ score:
       marker_coverage: 0.0
       total: 131
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/posthog/refs/heads/main/screenshots/posthog-2026-06-20T192012.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - description: Operations for managing cache invalidations
   name: Amazon CloudFront Invalidations API
   slug: amazon-cloudfront-invalidations-api
-artifact_total: 56
+artifact_total: 60
 collections:
 - collection_type: postman
   name: Amazon CloudFront Distributions API
@@ -58,6 +58,18 @@ collections:
 - collection_type: postman
   name: Amazon CloudFront Distributions Invalidations API
   slug: postman-amazon-cloudfront-invalidations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CloudFront Distributions API
+  slug: open-amazon-cloudfront-distributions-api
+- collection_type: open
+  name: Amazon CloudFront Distributions Functions API
+  slug: open-amazon-cloudfront-functions-api
+- collection_type: open
+  name: Amazon CloudFront Distributions Invalidations API
+  slug: open-amazon-cloudfront-invalidations-api
 - collection_type: open
   name: Amazon CloudFront API
   slug: open-amazon-cloudfront
@@ -278,7 +290,7 @@ plans:
 - name: Amazon Cloudfront Plans Pricing
   plan_count: 1
   slug: amazon-cloudfront-plans-pricing
-random_paper: 99
+random_paper: 140
 rate_limits:
 - limit_count: 2
   name: Amazon Cloudfront Rate Limits
@@ -320,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/screenshots/amazon-cloudfront-2026-06-20T171615.png
 security:

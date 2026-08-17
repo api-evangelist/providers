@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Teams API from GitClear — 2 operation(s) for teams.
   name: GitClear Teams API
   slug: gitclear-teams-api
-artifact_total: 17
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitClear Public API Tokens API
+  slug: open-gitclear-api-tokens-api
+- collection_type: open
+  name: GitClear Public API Tokens Code Introspection API
+  slug: open-gitclear-code-introspection-api
+- collection_type: open
+  name: GitClear Public API Tokens Data Audit API
+  slug: open-gitclear-data-audit-api
+- collection_type: open
+  name: GitClear Public API Tokens Developers API
+  slug: open-gitclear-developers-api
+- collection_type: open
+  name: GitClear Public API Tokens Imports API
+  slug: open-gitclear-imports-api
+- collection_type: open
+  name: GitClear Public API Tokens Releases API
+  slug: open-gitclear-releases-api
+- collection_type: open
+  name: GitClear Public API Tokens Reports API
+  slug: open-gitclear-reports-api
+- collection_type: open
+  name: GitClear Public API Tokens Teams API
+  slug: open-gitclear-teams-api
 - collection_type: open
   name: GitClear Public API
   slug: open-gitclear
@@ -141,7 +168,7 @@ plans:
 - name: Gitclear Plans Pricing
   plan_count: 4
   slug: gitclear-plans-pricing
-random_paper: 3
+random_paper: 98
 rate_limits:
 - limit_count: 2
   name: Gitclear Rate Limits
@@ -166,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/screenshots/gitclear-2026-07-25T215835.png
 security:

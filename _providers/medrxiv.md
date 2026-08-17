@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Retrieve usage statistics for preprints
   name: medRxiv Usage API
   slug: medrxiv-usage-api
-artifact_total: 14
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: medRxiv REST Details API
+  slug: open-medrxiv-details-api
+- collection_type: open
+  name: medRxiv REST Details Publications API
+  slug: open-medrxiv-publications-api
+- collection_type: open
+  name: medRxiv REST Details Usage API
+  slug: open-medrxiv-usage-api
 common:
 - group: agent
   title: ''
@@ -113,7 +126,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -153,7 +166,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/screenshots/medrxiv-2026-06-20T185122.png
 security:

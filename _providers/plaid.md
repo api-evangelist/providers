@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -132,7 +132,7 @@ apis:
 - description: Plaid's Core Exchange FDX is part of the Plaid open-finance platform, exposing 1 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end use
   name: Plaid Core Exchange FDX API
   slug: plaid-fdx-api
-artifact_total: 91
+artifact_total: 123
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Plaid webhook surface. Plaid delivers asynchronous notifications via HTTP POST to the URL registered on an Item (`webhook` parameter in `/link/token/create`) or conf
   name: Plaid Webhooks
@@ -231,6 +231,102 @@ collections:
 - collection_type: postman
   name: Plaid watchlist screening/
   slug: postman-plaid-watchlist-screening-
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Plaid accounts/
+  slug: open-plaid-accounts-
+- collection_type: open
+  name: Plaid asset report/
+  slug: open-plaid-asset-report-
+- collection_type: open
+  name: Plaid auth/
+  slug: open-plaid-auth-
+- collection_type: open
+  name: Plaid bank transfer/
+  slug: open-plaid-bank-transfer-
+- collection_type: open
+  name: Plaid beacon/
+  slug: open-plaid-beacon-
+- collection_type: open
+  name: Plaid categories/
+  slug: open-plaid-categories-
+- collection_type: open
+  name: Plaid cra/
+  slug: open-plaid-cra-
+- collection_type: open
+  name: Plaid credit/
+  slug: open-plaid-credit-
+- collection_type: open
+  name: Plaid deposit switch/
+  slug: open-plaid-deposit-switch-
+- collection_type: open
+  name: Plaid employers/
+  slug: open-plaid-employers-
+- collection_type: open
+  name: Plaid fdx/
+  slug: open-plaid-fdx-
+- collection_type: open
+  name: Plaid identity/
+  slug: open-plaid-identity-
+- collection_type: open
+  name: Plaid identity verification/
+  slug: open-plaid-identity-verification-
+- collection_type: open
+  name: Plaid income/
+  slug: open-plaid-income-
+- collection_type: open
+  name: Plaid institutions/
+  slug: open-plaid-institutions-
+- collection_type: open
+  name: Plaid investments/
+  slug: open-plaid-investments-
+- collection_type: open
+  name: Plaid item/
+  slug: open-plaid-item-
+- collection_type: open
+  name: Plaid liabilities/
+  slug: open-plaid-liabilities-
+- collection_type: open
+  name: Plaid link/
+  slug: open-plaid-link-
+- collection_type: open
+  name: Plaid link delivery/
+  slug: open-plaid-link-delivery-
+- collection_type: open
+  name: Plaid partner/
+  slug: open-plaid-partner-
+- collection_type: open
+  name: Plaid payment initiation/
+  slug: open-plaid-payment-initiation-
+- collection_type: open
+  name: Plaid payment profile/
+  slug: open-plaid-payment-profile-
+- collection_type: open
+  name: Plaid processor/
+  slug: open-plaid-processor-
+- collection_type: open
+  name: Plaid sandbox/
+  slug: open-plaid-sandbox-
+- collection_type: open
+  name: Plaid signal/
+  slug: open-plaid-signal-
+- collection_type: open
+  name: Plaid statements/
+  slug: open-plaid-statements-
+- collection_type: open
+  name: Plaid transactions/
+  slug: open-plaid-transactions-
+- collection_type: open
+  name: Plaid transfer/
+  slug: open-plaid-transfer-
+- collection_type: open
+  name: Plaid wallet/
+  slug: open-plaid-wallet-
+- collection_type: open
+  name: Plaid watchlist screening/
+  slug: open-plaid-watchlist-screening-
 common:
 - group: agent
   title: ''
@@ -497,7 +593,7 @@ plans:
 - name: Plaid Plans Pricing
   plan_count: 3
   slug: plaid-plans-pricing
-random_paper: 42
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Plaid Rate Limits
@@ -548,7 +644,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,6 +71,70 @@ common:
   title: ''
   type: Compliance
   url: https://www.pathai.com/resources/pathai-earns-iso-27001-security-certification
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/pathai-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pathai-domain-security.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/pathai-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/pathai-well-known.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pathai.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.pathai.com/about-us
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.pathai.com/policies-and-notices
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.pathai.com/terms-of-use
+- group: start
+  title: ''
+  type: Login
+  url: https://slides.pathai.com/authentication
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/pathai
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/path_ai
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@Path_AI
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/pathai-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pathai-domain-security.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/pathai-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/pathai-well-known.yml
 created: '2026-07-17'
 description: PathAI is a healthcare artificial-intelligence company transforming pathology through machine learning. Its AISight Image Management System (IMS) and the AISight Link open API deliver AI-assisted disease detection, biomarker quantification, fields-of-interest and AI Impressions, and laboratory workflow integration for pathologists, hospital and reference labs, and biopharma research partners. AISight Link is an enterprise interoperability surface that connects AISight with third-party AI algorithms and Laboratory Information Systems (LIS/LIMS) over REST and HL7; PathAI does not publish a public developer portal, OpenAPI definition, or SDKs. The company is ISO 27001 certified and operates a vulnerability disclosure program. Added to the API Evangelist network as a portfolio company of 8vc.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pathai.png
@@ -82,14 +146,14 @@ network: true
 overview: 'Pathai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Machine Learning, and Pathology.
 
 
-  Pathai''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 31
+  Pathai''s developer surface includes engineering blog, support, YouTube channel, and 23 more developer resources.'
+random_paper: 35
 score:
   band: emerging
-  composite: 13.3
-  delta: 0.0
+  composite: 20.6
+  delta: 7.3
   facets:
-    commercial_clarity: 7.9
+    commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 50.0
@@ -103,10 +167,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 27.5
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pathai/refs/heads/main/screenshots/pathai-2026-08-07T191545.png
 security:
 - kind: domain-security

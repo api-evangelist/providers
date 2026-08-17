@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: The VPP half of the Gravity Connect specification — the publishing endpoints Virtual Peaker hosts so an integrated device partner can stream device signals, settings, command status, and enrollment ev
   name: Gravity Connect API (Virtual Peaker)
   slug: gravity-connect-vpp-api
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Virtual Peaker Gravity Connect Webhooks
@@ -54,6 +54,12 @@ collections:
 - collection_type: postman
   name: Gravity Connect API
   slug: postman-virtual-peaker-gravity-connect-api
+- collection_type: open
+  name: Gravity Connect API (Device Partner)
+  slug: open-virtual-peaker-gravity-connect-device-partner-api
+- collection_type: open
+  name: Gravity Connect API (Virtual Peaker)
+  slug: open-virtual-peaker-gravity-connect-vpp-api
 common:
 - group: agent
   title: ''
@@ -211,7 +217,7 @@ overview: 'Virtual Peaker publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Virtual Peaker''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, changelog, and 27 more developer resources.'
-random_paper: 12
+random_paper: 111
 scopes:
 - name: Virtual Peaker Scopes
   scope_count: 3
@@ -246,7 +252,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

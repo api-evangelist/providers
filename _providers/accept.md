@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 17
@@ -107,11 +107,81 @@ apis:
 - description: The Surfaces API from Accept — 4 operation(s) for surfaces.
   name: Accept Surfaces API
   slug: accept-surfaces-api
-artifact_total: 29
+artifact_total: 52
 asyncapis:
 - description: External event contract for MIDAS decision governance. Events are written to a transactional outbox in the same Postgres transaction as domain state changes, then dispatched to Kafka by a background d
   name: MIDAS External Event Contract
   slug: accept-midas-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MIDAS Agents API
+  slug: open-accept-agents-api
+- collection_type: open
+  name: MIDAS Agents Aisystems API
+  slug: open-accept-aisystems-api
+- collection_type: open
+  name: MIDAS Agents Businessservices API
+  slug: open-accept-businessservices-api
+- collection_type: open
+  name: MIDAS Agents Capabilities API
+  slug: open-accept-capabilities-api
+- collection_type: open
+  name: MIDAS Agents Controlplane API
+  slug: open-accept-controlplane-api
+- collection_type: open
+  name: MIDAS Agents Coverage API
+  slug: open-accept-coverage-api
+- collection_type: open
+  name: MIDAS Agents Decisions API
+  slug: open-accept-decisions-api
+- collection_type: open
+  name: MIDAS Agents Drift API
+  slug: open-accept-drift-api
+- collection_type: open
+  name: MIDAS Agents Envelopes API
+  slug: open-accept-envelopes-api
+- collection_type: open
+  name: MIDAS Agents Escalation Targets API
+  slug: open-accept-escalation-targets-api
+- collection_type: open
+  name: MIDAS Agents Escalations API
+  slug: open-accept-escalations-api
+- collection_type: open
+  name: MIDAS Agents Evaluate API
+  slug: open-accept-evaluate-api
+- collection_type: open
+  name: MIDAS Agents Evidence API
+  slug: open-accept-evidence-api
+- collection_type: open
+  name: MIDAS Agents Fail Mode Policies API
+  slug: open-accept-fail-mode-policies-api
+- collection_type: open
+  name: MIDAS Agents Grants API
+  slug: open-accept-grants-api
+- collection_type: open
+  name: MIDAS Agents Graphs API
+  slug: open-accept-graphs-api
+- collection_type: open
+  name: MIDAS Agents Healthz API
+  slug: open-accept-healthz-api
+- collection_type: open
+  name: MIDAS Agents Platform API
+  slug: open-accept-platform-api
+- collection_type: open
+  name: MIDAS Agents Processes API
+  slug: open-accept-processes-api
+- collection_type: open
+  name: MIDAS Agents Profiles API
+  slug: open-accept-profiles-api
+- collection_type: open
+  name: MIDAS Agents Readyz API
+  slug: open-accept-readyz-api
+- collection_type: open
+  name: MIDAS Agents Surfaces API
+  slug: open-accept-surfaces-api
 common:
 - group: other
   title: ''
@@ -276,7 +346,7 @@ overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Accept''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 24
+random_paper: 28
 score:
   band: developing
   composite: 44.7
@@ -300,7 +370,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/screenshots/accept-2026-07-25T181433.png
 security:

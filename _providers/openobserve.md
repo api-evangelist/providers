@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 7
@@ -138,8 +138,110 @@ apis:
 - description: Users retrieval & management operations
   name: OpenObserve Users API
   slug: openobserve-users-api
-artifact_total: 41
+artifact_total: 75
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: openobserve Actions API
+  slug: open-openobserve-actions-api
+- collection_type: open
+  name: openobserve Actions Alerts API
+  slug: open-openobserve-alerts-api
+- collection_type: open
+  name: openobserve Actions Clusters API
+  slug: open-openobserve-clusters-api
+- collection_type: open
+  name: openobserve Actions Dashboards API
+  slug: open-openobserve-dashboards-api
+- collection_type: open
+  name: openobserve Actions Folders API
+  slug: open-openobserve-folders-api
+- collection_type: open
+  name: openobserve Actions Functions API
+  slug: open-openobserve-functions-api
+- collection_type: open
+  name: openobserve Actions Groups API
+  slug: open-openobserve-groups-api
+- collection_type: open
+  name: openobserve Actions Incidents API
+  slug: open-openobserve-incidents-api
+- collection_type: open
+  name: openobserve Actions Key API
+  slug: open-openobserve-key-api
+- collection_type: open
+  name: openobserve Actions Keys API
+  slug: open-openobserve-keys-api
+- collection_type: open
+  name: openobserve Actions KV API
+  slug: open-openobserve-kv-api
+- collection_type: open
+  name: openobserve Actions Logs API
+  slug: open-openobserve-logs-api
+- collection_type: open
+  name: openobserve Actions MCP API
+  slug: open-openobserve-mcp-api
+- collection_type: open
+  name: openobserve Actions Meta API
+  slug: open-openobserve-meta-api
+- collection_type: open
+  name: openobserve Actions Metrics API
+  slug: open-openobserve-metrics-api
+- collection_type: open
+  name: openobserve Actions Organizations API
+  slug: open-openobserve-organizations-api
+- collection_type: open
+  name: openobserve Actions Patterns API
+  slug: open-openobserve-patterns-api
+- collection_type: open
+  name: openobserve Actions Pipelines API
+  slug: open-openobserve-pipelines-api
+- collection_type: open
+  name: openobserve Actions Ratelimit API
+  slug: open-openobserve-ratelimit-api
+- collection_type: open
+  name: openobserve Actions Report API
+  slug: open-openobserve-report-api
+- collection_type: open
+  name: openobserve Actions Reports API
+  slug: open-openobserve-reports-api
+- collection_type: open
+  name: openobserve Actions Roles API
+  slug: open-openobserve-roles-api
+- collection_type: open
+  name: openobserve Actions Rum API
+  slug: open-openobserve-rum-api
+- collection_type: open
+  name: openobserve Actions Saved Views API
+  slug: open-openobserve-saved-views-api
+- collection_type: open
+  name: openobserve Actions Search API
+  slug: open-openobserve-search-api
+- collection_type: open
+  name: openobserve Actions Search Jobs API
+  slug: open-openobserve-search-jobs-api
+- collection_type: open
+  name: openobserve Actions Service Streams API
+  slug: open-openobserve-service-streams-api
+- collection_type: open
+  name: openobserve Actions ServiceAccounts API
+  slug: open-openobserve-serviceaccounts-api
+- collection_type: open
+  name: openobserve Actions Short Url API
+  slug: open-openobserve-short-url-api
+- collection_type: open
+  name: openobserve Actions Streams API
+  slug: open-openobserve-streams-api
+- collection_type: open
+  name: openobserve Actions Templates API
+  slug: open-openobserve-templates-api
+- collection_type: open
+  name: openobserve Actions Traces API
+  slug: open-openobserve-traces-api
+- collection_type: open
+  name: openobserve Actions Users API
+  slug: open-openobserve-users-api
 - collection_type: open
   name: openobserve
   slug: open-openobserve
@@ -208,7 +310,7 @@ plans:
 - name: Openobserve Plans Pricing
   plan_count: 3
   slug: openobserve-plans-pricing
-random_paper: 112
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Openobserve Rate Limits
@@ -233,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/screenshots/openobserve-2026-06-20T191019.png
 security:

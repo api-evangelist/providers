@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Watchlist creation and management
   name: Stellar Cyber Watchlists API
   slug: stellar-cyber-watchlists-api
-artifact_total: 38
+artifact_total: 50
 collections:
 - collection_type: postman
   name: Stellar Cyber Open XDR Alerts API
@@ -107,6 +107,42 @@ collections:
 - collection_type: postman
   name: Stellar Cyber Open XDR Alerts Watchlists API
   slug: postman-stellar-cyber-watchlists-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts API
+  slug: open-stellar-cyber-alerts-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Authentication API
+  slug: open-stellar-cyber-authentication-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Cases API
+  slug: open-stellar-cyber-cases-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Connectors API
+  slug: open-stellar-cyber-connectors-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Events API
+  slug: open-stellar-cyber-events-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Playbooks API
+  slug: open-stellar-cyber-playbooks-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Queries API
+  slug: open-stellar-cyber-queries-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Reports API
+  slug: open-stellar-cyber-reports-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Sensors API
+  slug: open-stellar-cyber-sensors-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Tenants API
+  slug: open-stellar-cyber-tenants-api
+- collection_type: open
+  name: Stellar Cyber Open XDR Alerts Watchlists API
+  slug: open-stellar-cyber-watchlists-api
 - collection_type: open
   name: Stellar Cyber Open XDR API
   slug: open-stellar-cyber
@@ -209,7 +245,7 @@ plans:
 - name: Stellar Cyber Plans Pricing
   plan_count: 3
   slug: stellar-cyber-plans-pricing
-random_paper: 17
+random_paper: 145
 rate_limits:
 - limit_count: 5
   name: Stellar Cyber Rate Limits
@@ -251,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/screenshots/stellar-cyber-2026-06-20T194541.png
 security:

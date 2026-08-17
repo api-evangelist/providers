@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -138,27 +138,114 @@ apis:
 - description: Endpoints for uploading digital assets into Content Hub, including creating upload requests, uploading binary content, and completing asset ingest.
   name: sitecore Upload API
   slug: sitecore-upload-api
-artifact_total: 58
+artifact_total: 87
 asyncapis:
 - description: The Sitecore CDP Stream API enables applications to send real-time behavioral and transactional events about users to the Sitecore Customer Data Platform. It is designed for high-throughput event inge
   name: Sitecore CDP Stream API
   slug: sitecore-cdp-stream-api-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sitecore CDP REST Audit API
+  slug: open-sitecore-audit-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Authentication API
+  slug: open-sitecore-authentication-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Buyers API
+  slug: open-sitecore-buyers-api
+- collection_type: open
   name: Sitecore CDP REST API
   slug: open-sitecore-cdp-rest-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Collections API
+  slug: open-sitecore-collections-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Connections API
+  slug: open-sitecore-connections-api
 - collection_type: open
   name: Sitecore Content Hub REST API
   slug: open-sitecore-content-hub-rest-api
 - collection_type: open
+  name: Sitecore CDP REST Audit Decision Models API
+  slug: open-sitecore-decision-models-api
+- collection_type: open
   name: Sitecore Discover API
   slug: open-sitecore-discover-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Download Orders API
+  slug: open-sitecore-download-orders-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Entities API
+  slug: open-sitecore-entities-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Events API
+  slug: open-sitecore-events-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Flow Definitions API
+  slug: open-sitecore-flow-definitions-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Guest Data Extensions API
+  slug: open-sitecore-guest-data-extensions-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Guests API
+  slug: open-sitecore-guests-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Incremental Feed API
+  slug: open-sitecore-incremental-feed-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Jobs API
+  slug: open-sitecore-jobs-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Languages API
+  slug: open-sitecore-languages-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Order Items API
+  slug: open-sitecore-order-items-api
 - collection_type: open
   name: Sitecore OrderCloud API
   slug: open-sitecore-ordercloud-api
 - collection_type: open
+  name: Sitecore CDP REST Audit Orders API
+  slug: open-sitecore-orders-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Pages API
+  slug: open-sitecore-pages-api
+- collection_type: open
   name: Sitecore Personalize REST API
   slug: open-sitecore-personalize-rest-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Products API
+  slug: open-sitecore-products-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Promotions API
+  slug: open-sitecore-promotions-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Publishing Jobs API
+  slug: open-sitecore-publishing-jobs-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Querying API
+  slug: open-sitecore-querying-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Search and Recommendations API
+  slug: open-sitecore-search-and-recommendations-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Search API
+  slug: open-sitecore-search-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Selections API
+  slug: open-sitecore-selections-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Sites API
+  slug: open-sitecore-sites-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Templates API
+  slug: open-sitecore-templates-api
+- collection_type: open
+  name: Sitecore CDP REST Audit Upload API
+  slug: open-sitecore-upload-api
 - collection_type: open
   name: Sitecore XM Cloud REST API
   slug: open-sitecore-xm-cloud-rest-api
@@ -258,7 +345,7 @@ plans:
 - name: Sitecore Plans Pricing
   plan_count: 1
   slug: sitecore-plans-pricing
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 1
   name: Sitecore Rate Limits
@@ -308,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/screenshots/sitecore-2026-06-20T194003.png
 security:

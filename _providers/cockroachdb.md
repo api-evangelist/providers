@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -117,7 +117,7 @@ apis:
 - description: Manage cluster version deferral policies to delay automatic CockroachDB version upgrades.
   name: CockroachDB VersionDeferral API
   slug: cockroachdb-versiondeferral-api
-artifact_total: 180
+artifact_total: 207
 asyncapis:
 - description: AsyncAPI description of CockroachDB CHANGEFEED INTO sinks. CockroachDB Enterprise CHANGEFEEDs stream row-level change data to external systems. This document models the publicly documented sink target
   name: CockroachDB CHANGEFEED Sinks
@@ -202,11 +202,92 @@ collections:
   name: CockroachDB Cloud APIKeys VersionDeferral API
   slug: postman-cockroachdb-versiondeferral-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CockroachDB Cloud APIKeys API
+  slug: open-cockroachdb-apikeys-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys AuditLogs API
+  slug: open-cockroachdb-auditlogs-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Auth API
+  slug: open-cockroachdb-auth-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys BackupRestore API
+  slug: open-cockroachdb-backuprestore-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Billing API
+  slug: open-cockroachdb-billing-api
+- collection_type: open
   name: CockroachDB Cloud API
   slug: open-cockroachdb-cloud-api
 - collection_type: open
   name: CockroachDB Cluster API
   slug: open-cockroachdb-cluster-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Clusters API
+  slug: open-cockroachdb-clusters-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys CMEK API
+  slug: open-cockroachdb-cmek-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Databases API
+  slug: open-cockroachdb-databases-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys EgressRules API
+  slug: open-cockroachdb-egressrules-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Folders API
+  slug: open-cockroachdb-folders-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Health API
+  slug: open-cockroachdb-health-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys IPAllowlists API
+  slug: open-cockroachdb-ipallowlists-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys JWTIssuers API
+  slug: open-cockroachdb-jwtissuers-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys LogExport API
+  slug: open-cockroachdb-logexport-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys MaintenanceWindows API
+  slug: open-cockroachdb-maintenancewindows-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys MetricExport API
+  slug: open-cockroachdb-metricexport-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Nodes API
+  slug: open-cockroachdb-nodes-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Organizations API
+  slug: open-cockroachdb-organizations-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys PrivateEndpoints API
+  slug: open-cockroachdb-privateendpoints-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Ranges API
+  slug: open-cockroachdb-ranges-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys RoleManagement API
+  slug: open-cockroachdb-rolemanagement-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Rules API
+  slug: open-cockroachdb-rules-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys ServiceAccounts API
+  slug: open-cockroachdb-serviceaccounts-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Sessions API
+  slug: open-cockroachdb-sessions-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys SQLUsers API
+  slug: open-cockroachdb-sqlusers-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys VersionDeferral API
+  slug: open-cockroachdb-versiondeferral-api
 common:
 - group: build
   title: ''
@@ -614,7 +695,7 @@ plans:
 - name: Cockroachdb Plans Pricing
   plan_count: 3
   slug: cockroachdb-plans-pricing
-random_paper: 59
+random_paper: 96
 rate_limits:
 - limit_count: 3
   name: Cockroachdb Rate Limits
@@ -664,7 +745,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/screenshots/cockroachdb-2026-06-20T174648.png
 security:

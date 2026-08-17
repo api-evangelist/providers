@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: The Tags API from Amazon Managed Blockchain — 2 operation(s) for tags.
   name: Amazon Managed Blockchain Tags API
   slug: amazon-managed-blockchain-tags-api
-artifact_total: 487
+artifact_total: 492
 collections:
 - collection_type: postman
   name: Amazon Managed Blockchain Accessors API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Amazon Managed Blockchain Accessors Tags API
   slug: postman-amazon-managed-blockchain-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Managed Blockchain Accessors API
+  slug: open-amazon-managed-blockchain-accessors-api
+- collection_type: open
+  name: Amazon Managed Blockchain Accessors Invitations API
+  slug: open-amazon-managed-blockchain-invitations-api
+- collection_type: open
+  name: Amazon Managed Blockchain Accessors Networks API
+  slug: open-amazon-managed-blockchain-networks-api
+- collection_type: open
+  name: Amazon Managed Blockchain Accessors Tags API
+  slug: open-amazon-managed-blockchain-tags-api
 common:
 - group: build
   title: ''
@@ -1561,7 +1576,7 @@ plans:
 - name: Amazon Managed Blockchain Plans Pricing
   plan_count: 3
   slug: amazon-managed-blockchain-plans-pricing
-random_paper: 91
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Blockchain Rate Limits
@@ -1603,7 +1618,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/screenshots/amazon-managed-blockchain-2026-06-20T171732.png
 security:

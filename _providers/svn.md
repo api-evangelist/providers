@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,8 +60,23 @@ apis:
 - description: Repository root and metadata operations
   name: Subversion Repository API
   slug: svn-repository-api
-artifact_total: 23
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SVN WebDAV HTTP Commits API
+  slug: open-svn-commits-api
+- collection_type: open
+  name: SVN WebDAV HTTP Commits Files API
+  slug: open-svn-files-api
+- collection_type: open
+  name: SVN WebDAV HTTP Commits History API
+  slug: open-svn-history-api
+- collection_type: open
+  name: SVN WebDAV HTTP Commits Repository API
+  slug: open-svn-repository-api
 - collection_type: open
   name: SVN WebDAV HTTP API
   slug: open-svn-webdav
@@ -164,7 +179,7 @@ plans:
 - name: Svn Plans Pricing
   plan_count: 3
   slug: svn-plans-pricing
-random_paper: 103
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Svn Rate Limits
@@ -206,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/screenshots/svn-2026-06-20T194747.png
 security:

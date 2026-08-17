@@ -22,70 +22,119 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/marketing-evolution-trust-center.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/marketing-evolution-domain-security.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/marketing-evolution-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.marketingevolution.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/marketing-evolution-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/marketing-evolution-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/marketing-evolution-rate-limits.yml
 - group: company
   title: ''
   type: Website
-  url: https://www.marketingevolution.com/
+  url: https://marketingevolution.com/
 - group: company
   title: ''
   type: Blog
-  url: https://www.marketingevolution.com/knowledge-center
+  url: https://marketingevolution.com/blog
 - group: operate
   title: ''
   type: Support
-  url: https://www.marketingevolution.com/contact-us
+  url: https://marketingevolution.com/contact
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.marketingevolution.com/marketing-evolution-privacy-policy
+  url: https://marketingevolution.com/privacy-policy
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.marketingevolution.com/terms-of-service
+  url: https://marketingevolution.com/terms-conditions
 - group: start
   title: ''
   type: Login
-  url: https://insights.marketingevolution.com/
+  url: https://app.marketingevolution.com/
+coverage:
+  checked: '2026-08-13'
+  detail: Marketing Evolution markets "native connectors and APIs" on its Substrate page but publishes no developer portal, reference or spec anywhere in its 314-URL sitemap — the only route to the product is the /request-demo enterprise sales form, and the live API host api.marketingevolution.com answers every anonymous request, including /openapi.json and every /.well-known/ path, with 403 {"message":"Forbidden"}.
+  evidence:
+  - status: 403
+    url: https://api.marketingevolution.com/openapi.json
+  - status: 403
+    url: https://api.marketingevolution.com/v1
+  - status: 404
+    url: https://www.marketingevolution.com/openapi.json
+  - status: 200
+    url: https://marketingevolution.com/request-demo
+  - status: 200
+    url: https://marketingevolution.com/sitemap.xml
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
-description: Marketing Evolution is a marketing measurement and analytics company that provides an AI-driven operating system for marketing operations. Its platform unifies audience data, media exposure, third-party signals, and proprietary sources into a single view of marketing performance and customer behavior, connecting strategy, creative, media, and measurement through an AI-powered loop that enables real-time campaign adaptation rather than static launches. Core products include its Data Platform and Decision Engine, delivering unified marketing measurement (UMM) and person-level attribution to enterprise marketers. The company is backed by Insight Partners. As of this enrichment pass it publishes no public developer portal, API documentation, or machine-readable API specification.
+description: Marketing Evolution is an enterprise marketing measurement and analytics company whose stated mission is to "make marketing knowable." It ships two products. Substrate is positioned as a system of record for marketing performance, unifying fragmented media, audience, commerce and third-party data, enriching it, and publishing standardized output to data warehouses, BI tools, CDPs and agents. Darwin is the decisioning layer on top, running unified marketing measurement (MMM plus multi-touch attribution), budget scenario modeling and ROI forecasting, media performance intelligence, and always-on agents with automated anomaly detection. Roughly thirty published connectors cover the major ad platforms, warehouses, CRM and BI systems. The company is backed by Insight Partners and sells exclusively through an enterprise demo-request motion. As of this enrichment pass it publishes no developer portal, API reference, or machine-readable specification; its API host, api.marketingevolution.com,
+  returns HTTP 403 to every anonymous request, and its published integration mechanism is data-plane (SFTP, Amazon S3, Snowflake data shares) rather than a public request/response API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketing-evolution.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Marketing Evolution
 nav: Providers
 network: true
 overview: 'Marketing Evolution is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Analytics, Marketing Measurement, and Attribution.
 
 
-  Marketing Evolution''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 84
+  Marketing Evolution''s developer surface includes engineering blog, support, and 11 more developer resources.'
+plans:
+- name: Marketing Evolution Plans Pricing
+  plan_count: 0
+  slug: marketing-evolution-plans-pricing
+random_paper: 67
+rate_limits:
+- limit_count: 0
+  name: Marketing Evolution Rate Limits
+  slug: marketing-evolution-rate-limits
 score:
   band: emerging
-  composite: 13.1
-  delta: 0.0
+  composite: 17.5
+  delta: 4.4
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 15.8
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketing-evolution/refs/heads/main/screenshots/marketing-evolution-2026-07-25T230228.png
 security:
@@ -93,6 +142,10 @@ security:
   name: Marketing Evolution Domain Security
   slug: marketing-evolution-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Marketing Evolution Trust Center
+  slug: marketing-evolution-trust-center
+  summary_line: ISO/IEC 27001:2022, ISO/IEC 42001:2023, SOC 2 Type 2
 slug: marketing-evolution
 tags:
 - Company
@@ -103,5 +156,8 @@ tags:
 - Media Planning
 - Artificial Intelligence
 - MarTech
-website: https://www.marketingevolution.com/
+- Marketing Mix Modeling
+- Marketing Intelligence
+- Advertising
+website: https://marketingevolution.com/
 ---

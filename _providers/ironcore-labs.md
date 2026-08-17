@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Assignments between KMS configurations and tenants
@@ -46,7 +46,26 @@ apis:
 - description: Tenant secrets created by the TSP and stored in the Config Broker
   name: IronCore Labs Tenant Secret API
   slug: ironcore-labs-tenant-secret-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vendor API Bridge Configuration Assignment API
+  slug: open-ironcore-labs-configuration-assignment-api
+- collection_type: open
+  name: Vendor API Bridge Configuration Assignment KMS Configuration API
+  slug: open-ironcore-labs-kms-configuration-api
+- collection_type: open
+  name: Vendor API Bridge Configuration Assignment Tag API
+  slug: open-ironcore-labs-tag-api
+- collection_type: open
+  name: Vendor API Bridge Configuration Assignment Tenant API
+  slug: open-ironcore-labs-tenant-api
+- collection_type: open
+  name: Vendor API Bridge Configuration Assignment Tenant Secret API
+  slug: open-ironcore-labs-tenant-secret-api
 common:
 - group: other
   title: ''
@@ -204,7 +223,7 @@ overview: 'IronCore Labs publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
-random_paper: 8
+random_paper: 136
 score:
   band: developing
   composite: 54.0
@@ -227,7 +246,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/screenshots/ironcore-labs-2026-07-25T222920.png
 security:

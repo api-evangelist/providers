@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Horoscope predictions by zodiac sign
   name: Horoscope API Horoscope API
   slug: horoscope-api-horoscope-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Horoscope API
+  slug: open-horoscope-api-horoscope-api
 - collection_type: open
   name: Horoscope API
   slug: open-horoscope-api
@@ -79,7 +85,7 @@ plans:
 - name: Horoscope Api Plans Pricing
   plan_count: 3
   slug: horoscope-api-plans-pricing
-random_paper: 17
+random_paper: 145
 rate_limits:
 - limit_count: 5
   name: Horoscope Api Rate Limits
@@ -113,7 +119,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/screenshots/horoscope-api-2026-06-20T182833.png
 security:

@@ -10,31 +10,35 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
-    well_known_catalog: false
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
+  score: 41.0
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for the ReviewTrackers online reputation management platform. Provides access to review data from 100+ review sites, enables automated review responses, supports review solicitation campaigns
   name: ReviewTrackers API
   slug: reviewtrackers-api
-artifact_total: 6
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Reviewtrackers Webhooks
+  slug: reviewtrackers-webhooks
 common:
 - group: auth
   title: ''
@@ -50,7 +54,7 @@ common:
   url: https://www.reviewtrackers.com/blog/api-integrations/
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/reviewtrackers
 - group: company
   title: ''
@@ -63,7 +67,7 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.reviewtrackers.com/pricing/
+  url: https://www.reviewtrackers.com/plans/
 - group: operate
   title: ''
   type: StatusPage
@@ -84,6 +88,74 @@ common:
   title: ''
   type: FinOps
   url: finops/reviewtrackers-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.reviewtrackers.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.reviewtrackers.com/hc/en-us
+- group: start
+  title: ''
+  type: Login
+  url: https://app.reviewtrackers.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.reviewtrackers.com/terms-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.reviewtrackers.com/terms-service/privacy-policy/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.reviewtrackers.com/bug-bounty/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.reviewtrackers.com/terms-service/security/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/reviewtrackers-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/reviewtrackers-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/reviewtrackers-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/reviewtrackers-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/reviewtrackers-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/reviewtrackers-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/reviewtrackers-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/reviewtrackers-webhooks.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/reviewtrackers-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/reviewtrackers-llms.txt
 created: '2026-06-13'
 description: ReviewTrackers is an online reputation management platform that enables businesses to monitor reviews across 100+ review sites, respond to customer feedback, generate new reviews, and track sentiment analytics. The REST API allows organizations to download review data, sync with CRM and POS systems, automate review responses, and build custom applications on top of ReviewTrackers data.
 finops:
@@ -97,47 +169,55 @@ jsonld:
   property_count: 1
   slug: reviewtrackers-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: ReviewTrackers
 nav: Providers
 network: true
 overview: 'ReviewTrackers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Reputation Management, Review Monitoring, Customer Feedback, Sentiment Analytics, and Local SEO.
 
 
-  The ReviewTrackers catalog on APIs.io includes 1 JSON-LD context.
+  The ReviewTrackers catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  ReviewTrackers'' developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  ReviewTrackers'' developer surface includes documentation, engineering blog, pricing, support, authentication, changelog, and 23 more developer resources.'
 plans:
 - name: Reviewtrackers Plans Pricing
   plan_count: 3
   slug: reviewtrackers-plans-pricing
-random_paper: 81
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Reviewtrackers Rate Limits
   slug: reviewtrackers-rate-limits
 score:
-  band: emerging
-  composite: 27.7
-  delta: 0.0
+  band: strong
+  composite: 61.6
+  delta: 33.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 42.1
+    commercial_clarity: 92.1
+    contract_quality: 64.5
+    developer_ergonomics: 34.8
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 76.3
   previous_composite: 27.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/screenshots/reviewtrackers-2026-06-20T193050.png
 security:
+- kind: authentication
+  name: Reviewtrackers Authentication
+  slug: reviewtrackers-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Reviewtrackers Domain Security
   slug: reviewtrackers-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Reviewtrackers Vulnerability Disclosure
+  slug: reviewtrackers-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: reviewtrackers
 tags:
 - Reputation Management
@@ -146,5 +226,9 @@ tags:
 - Sentiment Analytics
 - Local SEO
 - Online Reviews
+- Multi-Location
+- Customer Experience
+- Review Response
+- Local Listings
 website: https://www.reviewtrackers.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -57,11 +57,29 @@ apis:
 - description: Policy management and retrieval operations.
   name: aflac Policies API
   slug: aflac-policies-api
-artifact_total: 71
+artifact_total: 77
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aflac Enterprise Connect Claims API
+  slug: open-aflac-claims-api
+- collection_type: open
+  name: Aflac Enterprise Connect Claims Eligibility API
+  slug: open-aflac-eligibility-api
+- collection_type: open
+  name: Aflac Enterprise Connect Claims Enrollment API
+  slug: open-aflac-enrollment-api
 - collection_type: open
   name: Aflac Enterprise Connect API
   slug: open-aflac-enterprise-connect
+- collection_type: open
+  name: Aflac Enterprise Connect Claims Groups API
+  slug: open-aflac-groups-api
+- collection_type: open
+  name: Aflac Enterprise Connect Claims Policies API
+  slug: open-aflac-policies-api
 common:
 - group: agent
   title: ''
@@ -478,7 +496,7 @@ press:
 - date: '2026-05-25'
   title: Why Aflac isn't rushing generative AI adoption
   url: https://www.ciodive.com/news/Aflac-CIO-Shelia-Anderson-generative-ai-cloud-strategy/742503/
-random_paper: 23
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Aflac Rate Limits
@@ -525,7 +543,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png
 security:

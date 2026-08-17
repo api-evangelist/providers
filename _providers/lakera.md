@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,8 +57,20 @@ apis:
 - description: Policy validation (self-hosted)
   name: Lakera Policies API
   slug: lakera-policies-api
-artifact_total: 34
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lakera Guard API
+  slug: open-lakera-guard-api
+- collection_type: open
+  name: Lakera Guard Health API
+  slug: open-lakera-health-api
+- collection_type: open
+  name: Lakera Guard Policies API
+  slug: open-lakera-policies-api
 - collection_type: open
   name: Lakera Guard API
   slug: open-lakera
@@ -189,7 +201,7 @@ plans:
 - name: Lakera Plans Pricing
   plan_count: 1
   slug: lakera-plans-pricing
-random_paper: 24
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Lakera Rate Limits
@@ -214,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/screenshots/lakera-2026-06-20T184245.png
 security:

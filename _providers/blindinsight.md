@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 4
@@ -95,11 +95,72 @@ apis:
 - description: The ws API from BlindInsight — 1 operation(s) for ws.
   name: BlindInsight ws API
   slug: blindinsight-ws-api
-artifact_total: 24
+artifact_total: 44
 asyncapis:
 - description: Real-time progress channel for asynchronous Blind Insight ingest/upload jobs. After starting a batch upload (POST /api/jobs/upload/) or a large resumable file upload (POST /api/files/), clients receiv
   name: Blind Insight Jobs WebSocket
   slug: blindinsight-jobs-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blind Insight REST accounts API
+  slug: open-blindinsight-accounts-api
+- collection_type: open
+  name: Blind Insight REST accounts blindllm API
+  slug: open-blindinsight-blindllm-api
+- collection_type: open
+  name: Blind Insight REST accounts blindllm-queries API
+  slug: open-blindinsight-blindllm-queries-api
+- collection_type: open
+  name: Blind Insight REST accounts csrf API
+  slug: open-blindinsight-csrf-api
+- collection_type: open
+  name: Blind Insight REST accounts datasets API
+  slug: open-blindinsight-datasets-api
+- collection_type: open
+  name: Blind Insight REST accounts delete-jobs API
+  slug: open-blindinsight-delete-jobs-api
+- collection_type: open
+  name: Blind Insight REST accounts files API
+  slug: open-blindinsight-files-api
+- collection_type: open
+  name: Blind Insight REST accounts grants API
+  slug: open-blindinsight-grants-api
+- collection_type: open
+  name: Blind Insight REST accounts identities API
+  slug: open-blindinsight-identities-api
+- collection_type: open
+  name: Blind Insight REST accounts jobs API
+  slug: open-blindinsight-jobs-api
+- collection_type: open
+  name: Blind Insight REST accounts materials API
+  slug: open-blindinsight-materials-api
+- collection_type: open
+  name: Blind Insight REST accounts organizations API
+  slug: open-blindinsight-organizations-api
+- collection_type: open
+  name: Blind Insight REST accounts records API
+  slug: open-blindinsight-records-api
+- collection_type: open
+  name: Blind Insight REST accounts requests API
+  slug: open-blindinsight-requests-api
+- collection_type: open
+  name: Blind Insight REST accounts schemas API
+  slug: open-blindinsight-schemas-api
+- collection_type: open
+  name: Blind Insight REST accounts status API
+  slug: open-blindinsight-status-api
+- collection_type: open
+  name: Blind Insight REST accounts token API
+  slug: open-blindinsight-token-api
+- collection_type: open
+  name: Blind Insight REST accounts users API
+  slug: open-blindinsight-users-api
+- collection_type: open
+  name: Blind Insight REST accounts ws API
+  slug: open-blindinsight-ws-api
 common:
 - group: other
   title: ''
@@ -220,7 +281,7 @@ overview: 'BlindInsight publishes 19 APIs on the [APIs.io](https://apis.io/) net
 
 
   BlindInsight''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, signup flow, and 18 more developer resources.'
-random_paper: 79
+random_paper: 87
 score:
   band: thin
   composite: 41.5
@@ -244,7 +305,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/screenshots/blindinsight-2026-07-25T203316.png
 security:

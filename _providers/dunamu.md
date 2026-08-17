@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -179,7 +179,7 @@ plans:
 - name: Dunamu Plans Pricing
   plan_count: 1
   slug: dunamu-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 11
   name: Dunamu Rate Limits
@@ -187,6 +187,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.9
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 0.0
@@ -194,6 +195,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 52.6
+  previous_composite: 43.9
   regulatory:
     applies: true
     matched_via: tags
@@ -201,7 +203,8 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Dunamu Authentication

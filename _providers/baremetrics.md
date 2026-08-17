@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: The Subscriptions API from Baremetrics — 2 operation(s) for subscriptions.
   name: Baremetrics Subscriptions API
   slug: baremetrics-subscriptions-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Baremetrics Annotations API
+  slug: open-baremetrics-annotations-api
+- collection_type: open
+  name: Baremetrics Annotations Charges API
+  slug: open-baremetrics-charges-api
+- collection_type: open
+  name: Baremetrics Annotations Customers API
+  slug: open-baremetrics-customers-api
+- collection_type: open
+  name: Baremetrics Annotations Events API
+  slug: open-baremetrics-events-api
+- collection_type: open
+  name: Baremetrics Annotations Metrics API
+  slug: open-baremetrics-metrics-api
+- collection_type: open
+  name: Baremetrics Annotations Plans API
+  slug: open-baremetrics-plans-api
+- collection_type: open
+  name: Baremetrics Annotations Subscriptions API
+  slug: open-baremetrics-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -138,7 +163,7 @@ plans:
 - name: Baremetrics Plans Pricing
   plan_count: 3
   slug: baremetrics-plans-pricing
-random_paper: 89
+random_paper: 126
 rate_limits:
 - limit_count: 1
   name: Baremetrics Rate Limits
@@ -163,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/screenshots/baremetrics-2026-06-20T173000.png
 security:

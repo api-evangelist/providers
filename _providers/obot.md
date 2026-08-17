@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -132,7 +132,7 @@ overview: 'Obot is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Obot''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, authentication, CLI, and 14 more developer resources.'
-random_paper: 76
+random_paper: 138
 score:
   band: thin
   composite: 29.0
@@ -149,7 +149,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/screenshots/obot-2026-08-07T185908.png
 security:

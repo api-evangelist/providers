@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -84,7 +84,7 @@ apis:
 - description: Whisper Large v3 with 99+ language support.
   name: SLNG Whisper Large v3 API
   slug: slng-whisper-large-v3-api
-artifact_total: 38
+artifact_total: 54
 asyncapis:
 - description: SLNG Gateway API
   name: SLNG Gateway API - SLNG (WebSocket)
@@ -141,6 +141,54 @@ collections:
 - collection_type: postman
   name: SLNG Voice Agents Account Whisper Large v3 API
   slug: postman-slng-whisper-large-v3-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SLNG Voice Agents Account API
+  slug: open-slng-account-api
+- collection_type: open
+  name: SLNG Voice Account Agents API
+  slug: open-slng-agents-api
+- collection_type: open
+  name: SLNG Voice Agents Account Calls API
+  slug: open-slng-calls-api
+- collection_type: open
+  name: SLNG Voice Agents Account Catalog API
+  slug: open-slng-catalog-api
+- collection_type: open
+  name: SLNG Voice Agents Account Deepgram Aura 2 API
+  slug: open-slng-deepgram-aura-2-api
+- collection_type: open
+  name: SLNG Voice Agents Account Deepgram Nova 3 API
+  slug: open-slng-deepgram-nova-3-api
+- collection_type: open
+  name: SLNG Voice Agents Account Inworld Max 1.5 API
+  slug: open-slng-inworld-max-1-5-api
+- collection_type: open
+  name: SLNG Voice Agents Account Orpheus English API
+  slug: open-slng-orpheus-english-api
+- collection_type: open
+  name: SLNG Voice Agents Account Pronunciation dictionaries API
+  slug: open-slng-pronunciation-dictionaries-api
+- collection_type: open
+  name: SLNG Voice Agents Account Rime Arcana v2 API
+  slug: open-slng-rime-arcana-v2-api
+- collection_type: open
+  name: SLNG Voice Agents Account Rime Arcana v3 API
+  slug: open-slng-rime-arcana-v3-api
+- collection_type: open
+  name: SLNG Voice Agents Account Rime Coda API
+  slug: open-slng-rime-coda-api
+- collection_type: open
+  name: SLNG Voice Agents Account Sessions API
+  slug: open-slng-sessions-api
+- collection_type: open
+  name: SLNG Voice Agents Account Speechmatics API
+  slug: open-slng-speechmatics-api
+- collection_type: open
+  name: SLNG Voice Agents Account Whisper Large v3 API
+  slug: open-slng-whisper-large-v3-api
 common:
 - group: build
   title: ''
@@ -297,7 +345,7 @@ overview: 'SLNG publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   SLNG''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 27 more developer resources.'
-random_paper: 76
+random_paper: 138
 score:
   band: strong
   composite: 59.4
@@ -321,7 +369,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -81,11 +81,57 @@ apis:
 - description: Webhooks provide a mechanism for a configured URL to receive events when transaction activity occurs on Up. You can think of webhooks as being like push notifications for your server-side application.
   name: Up Webhooks API
   slug: up-bank-webhooks-api
-artifact_total: 22
+artifact_total: 37
 asyncapis:
 - description: 'Event surface for the Up Personal Banking API. Once a webhook is registered (POST /webhooks), Up delivers JSON-encoded POST callbacks to the configured URL whenever transaction activity occurs on the '
   name: Up Personal Banking Webhooks
   slug: up-bank-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Accounts API
+  slug: open-up-bank-accounts-api
+- collection_type: open
+  name: CDR Banking Accounts Attachments API
+  slug: open-up-bank-attachments-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Balances API
+  slug: open-up-bank-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Direct Debits API
+  slug: open-up-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Scheduled Payments API
+  slug: open-up-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Transactions API
+  slug: open-up-bank-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Accounts API
+  slug: open-up-bank-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Payees API
+  slug: open-up-bank-banking-payees-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Products API
+  slug: open-up-bank-banking-products-api
+- collection_type: open
+  name: CDR Banking Accounts Categories API
+  slug: open-up-bank-categories-api
+- collection_type: open
+  name: CDR Banking Accounts Tags API
+  slug: open-up-bank-tags-api
+- collection_type: open
+  name: CDR Banking Accounts Transactions API
+  slug: open-up-bank-transactions-api
+- collection_type: open
+  name: CDR Banking Accounts Utility endpoints API
+  slug: open-up-bank-utility-endpoints-api
+- collection_type: open
+  name: CDR Banking Accounts Webhooks API
+  slug: open-up-bank-webhooks-api
 common:
 - group: other
   title: ''
@@ -251,7 +297,7 @@ overview: 'Up publishes 14 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 29 more developer resources.'
-random_paper: 86
+random_paper: 90
 rate_limits:
 - limit_count: 0
   name: Up Bank Rate Limits
@@ -290,7 +336,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png
 security:

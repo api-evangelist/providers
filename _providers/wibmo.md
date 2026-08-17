@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Documented product APIs across Token Hub tokenization, the Areion Payment Gateway (3-D Secure authentication and authorization), Prepaid card issuance/lifecycle/transaction management, Fraud Risk Mana
@@ -108,7 +108,7 @@ overview: 'WIBMO publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   WIBMO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 62
+random_paper: 95
 score:
   band: emerging
   composite: 26.1
@@ -130,7 +130,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 4
@@ -105,7 +105,7 @@ apis:
 - description: The Vulnerabilities API from Amazon Inspector — 1 operation(s) for vulnerabilities.
   name: Amazon Inspector Vulnerabilities API
   slug: amazon-inspector-vulnerabilities-api
-artifact_total: 640
+artifact_total: 663
 collections:
 - collection_type: postman
   name: Inspector2 Accountpermissions API
@@ -173,6 +173,75 @@ collections:
 - collection_type: postman
   name: Inspector2 Accountpermissions Vulnerabilities API
   slug: postman-amazon-inspector-vulnerabilities-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inspector2 Accountpermissions API
+  slug: open-amazon-inspector-accountpermissions-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Codesnippet API
+  slug: open-amazon-inspector-codesnippet-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Configuration API
+  slug: open-amazon-inspector-configuration-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Coverage API
+  slug: open-amazon-inspector-coverage-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Delegatedadminaccounts API
+  slug: open-amazon-inspector-delegatedadminaccounts-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Disable API
+  slug: open-amazon-inspector-disable-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Ec2deepinspectionconfiguration API
+  slug: open-amazon-inspector-ec2deepinspectionconfiguration-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Ec2deepinspectionstatus API
+  slug: open-amazon-inspector-ec2deepinspectionstatus-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Enable API
+  slug: open-amazon-inspector-enable-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Encryptionkey API
+  slug: open-amazon-inspector-encryptionkey-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Filters API
+  slug: open-amazon-inspector-filters-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Findings API
+  slug: open-amazon-inspector-findings-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Freetrialinfo API
+  slug: open-amazon-inspector-freetrialinfo-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Members API
+  slug: open-amazon-inspector-members-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Organizationconfiguration API
+  slug: open-amazon-inspector-organizationconfiguration-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Reporting API
+  slug: open-amazon-inspector-reporting-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Sbomexport API
+  slug: open-amazon-inspector-sbomexport-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Scanning API
+  slug: open-amazon-inspector-scanning-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Status API
+  slug: open-amazon-inspector-status-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Tags API
+  slug: open-amazon-inspector-tags-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Usage API
+  slug: open-amazon-inspector-usage-api
+- collection_type: open
+  name: Inspector2 Accountpermissions Vulnerabilities API
+  slug: open-amazon-inspector-vulnerabilities-api
 - collection_type: open
   name: Amazon Inspector API
   slug: open-amazon-inspector
@@ -2036,7 +2105,7 @@ plans:
 - name: Amazon Inspector Plans Pricing
   plan_count: 3
   slug: amazon-inspector-plans-pricing
-random_paper: 114
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Amazon Inspector Rate Limits
@@ -2078,7 +2147,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/screenshots/amazon-inspector-2026-06-20T171705.png
 security:

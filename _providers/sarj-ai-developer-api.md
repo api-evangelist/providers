@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 2
@@ -110,11 +110,108 @@ apis:
 - description: The zoho API from Sarj AI Developer API — 10 operation(s) for zoho.
   name: Sarj AI Developer API Zoho API
   slug: sarj-ai-developer-api-zoho-api
-artifact_total: 33
+artifact_total: 65
 asyncapis:
 - description: ''
   name: Sarj Ai Developer Api Webhooks
   slug: sarj-ai-developer-api-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sarj.ai Voice Admin API
+  slug: open-sarj-ai-developer-api-admin-api
+- collection_type: open
+  name: Sarj.ai Voice Agent Profiles API
+  slug: open-sarj-ai-developer-api-agent-profiles-api
+- collection_type: open
+  name: Sarj.ai Voice Analytics API
+  slug: open-sarj-ai-developer-api-analytics-api
+- collection_type: open
+  name: Sarj TTS Audio API
+  slug: open-sarj-ai-developer-api-audio-api
+- collection_type: open
+  name: Sarj.ai Voice Batch API
+  slug: open-sarj-ai-developer-api-batch-api
+- collection_type: open
+  name: Sarj Ai Developer Calls API
+  slug: open-sarj-ai-developer-api-calls-api
+- collection_type: open
+  name: Sarj STT Debug API
+  slug: open-sarj-ai-developer-api-debug-api
+- collection_type: open
+  name: Sarj.ai Developer API
+  slug: open-sarj-ai-developer-api-developer
+- collection_type: open
+  name: Sarj Ai Developer Health API
+  slug: open-sarj-ai-developer-api-health-api
+- collection_type: open
+  name: Sarj.ai Voice Integrations API
+  slug: open-sarj-ai-developer-api-integrations-api
+- collection_type: open
+  name: Sarj.ai Voice Messaging API
+  slug: open-sarj-ai-developer-api-messaging-api
+- collection_type: open
+  name: Sarj TTS Metrics API
+  slug: open-sarj-ai-developer-api-metrics-api
+- collection_type: open
+  name: Sarj TTS Models API
+  slug: open-sarj-ai-developer-api-models-api
+- collection_type: open
+  name: Sarj STT Openai API
+  slug: open-sarj-ai-developer-api-openai-api
+- collection_type: open
+  name: Sarj.ai Voice Organization Sip API
+  slug: open-sarj-ai-developer-api-organization-sip-api
+- collection_type: open
+  name: Sarj.ai Voice Organization Variables API
+  slug: open-sarj-ai-developer-api-organization-variables-api
+- collection_type: open
+  name: Sarj.ai Voice Organizations API
+  slug: open-sarj-ai-developer-api-organizations-api
+- collection_type: open
+  name: Sarj.ai Voice Report Templates API
+  slug: open-sarj-ai-developer-api-report-templates-api
+- collection_type: open
+  name: Sarj.ai Voice Salesforce API
+  slug: open-sarj-ai-developer-api-salesforce-api
+- collection_type: open
+  name: Sarj.ai Voice Salla API
+  slug: open-sarj-ai-developer-api-salla-api
+- collection_type: open
+  name: Sarj STT Sarj STT API API
+  slug: open-sarj-ai-developer-api-sarj-stt-api-api
+- collection_type: open
+  name: Sarj.ai Voice Settings API
+  slug: open-sarj-ai-developer-api-settings-api
+- collection_type: open
+  name: Sarj.ai Voice Sip API
+  slug: open-sarj-ai-developer-api-sip-api
+- collection_type: open
+  name: Sarj STT API
+  slug: open-sarj-ai-developer-api-stt
+- collection_type: open
+  name: Sarj.ai Developer System API
+  slug: open-sarj-ai-developer-api-system-api
+- collection_type: open
+  name: Sarj.ai Voice Task API
+  slug: open-sarj-ai-developer-api-task-api
+- collection_type: open
+  name: Sarj.ai Voice Task Management API
+  slug: open-sarj-ai-developer-api-task-management-api
+- collection_type: open
+  name: Sarj TTS API
+  slug: open-sarj-ai-developer-api-tts
+- collection_type: open
+  name: Sarj.ai Voice API
+  slug: open-sarj-ai-developer-api-voice-platform
+- collection_type: open
+  name: Sarj TTS Voices API
+  slug: open-sarj-ai-developer-api-voices-api
+- collection_type: open
+  name: Sarj.ai Voice Zoho API
+  slug: open-sarj-ai-developer-api-zoho-api
 common:
 - group: other
   title: ''
@@ -239,7 +336,7 @@ overview: 'Sarj AI Developer API publishes 27 APIs on the [APIs.io](https://apis
 
 
   Sarj AI Developer API''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 9
+random_paper: 112
 scopes:
 - name: Sarj Ai Developer Api Scopes
   scope_count: 1
@@ -268,7 +365,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

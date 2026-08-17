@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -32,11 +32,15 @@ apis:
 - description: Generated REST API over a connected database — full CRUD across chosen tables, with auth, pagination and docs handled by the platform.
   name: AmunCore API
   slug: amuncore-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Amuncore Webhooks
   slug: amuncore-webhooks
+collections:
+- collection_type: open
+  name: 'AmunCore API Engine: Dynamic API'
+  slug: open-amuncore-dynamic-api
 common:
 - group: agent
   title: ''
@@ -193,7 +197,7 @@ plans:
 - name: Amuncore Plans Pricing
   plan_count: 4
   slug: amuncore-plans-pricing
-random_paper: 18
+random_paper: 113
 rate_limits:
 - limit_count: 4
   name: Amuncore Rate Limits
@@ -226,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/screenshots/amuncore-2026-08-07T161347.png
 security:

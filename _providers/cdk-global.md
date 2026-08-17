@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ arazzos:
 - description: Create a booking session, query a requested item, and update its details.
   name: CDK Global Update Service Session Item
   slug: cdk-global-update-service-session-item-workflow
-artifact_total: 61
+artifact_total: 72
 asyncapis:
 - description: Provides an Event Source (Publisher) the ability to post event through Fortellis Event Relay.
   name: Fortellis Event Relay Data API
@@ -142,6 +142,39 @@ collections:
 - collection_type: postman
   name: Booking Sessions
   slug: postman-fortellis-user-service
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: appointments adopt API
+  slug: open-cdk-global-adopt-api
+- collection_type: open
+  name: appointments adopt adopt delete API
+  slug: open-cdk-global-adopt-delete-api
+- collection_type: open
+  name: appointments adopt adopt update API
+  slug: open-cdk-global-adopt-update-api
+- collection_type: open
+  name: appointments adopt cancel API
+  slug: open-cdk-global-cancel-api
+- collection_type: open
+  name: appointments adopt create API
+  slug: open-cdk-global-create-api
+- collection_type: open
+  name: appointments adopt events API
+  slug: open-cdk-global-events-api
+- collection_type: open
+  name: appointments adopt manage API
+  slug: open-cdk-global-manage-api
+- collection_type: open
+  name: appointments adopt query API
+  slug: open-cdk-global-query-api
+- collection_type: open
+  name: appointments adopt Service Booking API
+  slug: open-cdk-global-service-booking-api
+- collection_type: open
+  name: appointments adopt update API
+  slug: open-cdk-global-update-api
 - collection_type: open
   name: appointments
   slug: open-fortellis-appointments
@@ -421,7 +454,7 @@ plans:
 - name: Cdk Global Plans Pricing
   plan_count: 6
   slug: cdk-global-plans-pricing
-random_paper: 16
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Cdk Global Rate Limits
@@ -476,7 +509,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/screenshots/cdk-global-2026-06-20T174106.png
 security:

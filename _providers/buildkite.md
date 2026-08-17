@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 5
@@ -99,8 +99,62 @@ apis:
 - description: The User API from Buildkite — 1 operation(s) for user.
   name: Buildkite User API
   slug: buildkite-user-api
-artifact_total: 29
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Buildkite REST AccessToken API
+  slug: open-buildkite-accesstoken-api
+- collection_type: open
+  name: Buildkite REST AccessToken Agents API
+  slug: open-buildkite-agents-api
+- collection_type: open
+  name: Buildkite REST AccessToken AgentTokens API
+  slug: open-buildkite-agenttokens-api
+- collection_type: open
+  name: Buildkite REST AccessToken Annotations API
+  slug: open-buildkite-annotations-api
+- collection_type: open
+  name: Buildkite REST AccessToken Artifacts API
+  slug: open-buildkite-artifacts-api
+- collection_type: open
+  name: Buildkite REST AccessToken Builds API
+  slug: open-buildkite-builds-api
+- collection_type: open
+  name: Buildkite REST AccessToken Clusters API
+  slug: open-buildkite-clusters-api
+- collection_type: open
+  name: Buildkite REST AccessToken Emojis API
+  slug: open-buildkite-emojis-api
+- collection_type: open
+  name: Buildkite REST AccessToken Jobs API
+  slug: open-buildkite-jobs-api
+- collection_type: open
+  name: Buildkite REST AccessToken Meta API
+  slug: open-buildkite-meta-api
+- collection_type: open
+  name: Buildkite REST AccessToken Organizations API
+  slug: open-buildkite-organizations-api
+- collection_type: open
+  name: Buildkite REST AccessToken Pipelines API
+  slug: open-buildkite-pipelines-api
+- collection_type: open
+  name: Buildkite REST AccessToken PipelineTemplates API
+  slug: open-buildkite-pipelinetemplates-api
+- collection_type: open
+  name: Buildkite REST AccessToken Queues API
+  slug: open-buildkite-queues-api
+- collection_type: open
+  name: Buildkite REST AccessToken Rules API
+  slug: open-buildkite-rules-api
+- collection_type: open
+  name: Buildkite REST AccessToken Teams API
+  slug: open-buildkite-teams-api
+- collection_type: open
+  name: Buildkite REST AccessToken User API
+  slug: open-buildkite-user-api
 - collection_type: open
   name: Buildkite REST API
   slug: open-buildkite
@@ -185,7 +239,7 @@ plans:
 - name: Buildkite Plans Pricing
   plan_count: 4
   slug: buildkite-plans-pricing
-random_paper: 117
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Buildkite Rate Limits
@@ -210,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite/refs/heads/main/screenshots/buildkite-2026-06-20T173751.png
 security:

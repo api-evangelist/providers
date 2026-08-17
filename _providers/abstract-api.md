@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ arazzos:
 - description: Validate a VAT number, fetch its country rates, then calculate VAT on an amount.
   name: Abstract API VAT Validation to Rates and Calculation
   slug: abstract-api-vat-validation-to-rates-and-calculation-workflow
-artifact_total: 228
+artifact_total: 243
 collections:
 - collection_type: postman
   name: Abstract API - Avatars API
@@ -156,6 +156,51 @@ collections:
 - collection_type: postman
   name: Abstract API - Website Screenshot API
   slug: postman-abstract-api-website-screenshot
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Abstract API Avatars API
+  slug: open-abstract-api-avatars-api
+- collection_type: open
+  name: Abstract API Avatars Company Enrichment API
+  slug: open-abstract-api-company-enrichment-api
+- collection_type: open
+  name: Abstract API Avatars Email Reputation API
+  slug: open-abstract-api-email-reputation-api
+- collection_type: open
+  name: Abstract API Avatars Exchange Rates API
+  slug: open-abstract-api-exchange-rates-api
+- collection_type: open
+  name: Abstract API Avatars IBAN Validation API
+  slug: open-abstract-api-iban-validation-api
+- collection_type: open
+  name: Abstract API Avatars Image Processing API
+  slug: open-abstract-api-image-processing-api
+- collection_type: open
+  name: Abstract API Avatars IP Geolocation API
+  slug: open-abstract-api-ip-geolocation-api
+- collection_type: open
+  name: Abstract API Avatars IP Intelligence API
+  slug: open-abstract-api-ip-intelligence-api
+- collection_type: open
+  name: Abstract API Avatars Phone Intelligence API
+  slug: open-abstract-api-phone-intelligence-api
+- collection_type: open
+  name: Abstract API Avatars Public Holidays API
+  slug: open-abstract-api-public-holidays-api
+- collection_type: open
+  name: Abstract API Avatars Timezones API
+  slug: open-abstract-api-timezones-api
+- collection_type: open
+  name: Abstract API Avatars VAT Validation API
+  slug: open-abstract-api-vat-validation-api
+- collection_type: open
+  name: Abstract API Avatars Web Scraping API
+  slug: open-abstract-api-web-scraping-api
+- collection_type: open
+  name: Abstract API Avatars Website Screenshot API
+  slug: open-abstract-api-website-screenshot-api
 common:
 - group: agent
   title: ''
@@ -833,7 +878,7 @@ plans:
 - name: Abstract Api Plans Pricing
   plan_count: 5
   slug: abstract-api-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Abstract Api Rate Limits
@@ -875,7 +920,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/screenshots/abstract-api-2026-06-20T163436.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -102,7 +102,71 @@ apis:
 - description: JSON for observation tiles
   name: iNaturalist UTFGrid API
   slug: inaturalist-utfgrid-api
-artifact_total: 204
+artifact_total: 225
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: iNaturalist Annotations API
+  slug: open-inaturalist-annotations-api
+- collection_type: open
+  name: iNaturalist Annotations Comments API
+  slug: open-inaturalist-comments-api
+- collection_type: open
+  name: iNaturalist Annotations Controlled Terms API
+  slug: open-inaturalist-controlled-terms-api
+- collection_type: open
+  name: iNaturalist Annotations Flags API
+  slug: open-inaturalist-flags-api
+- collection_type: open
+  name: iNaturalist Annotations Identifications API
+  slug: open-inaturalist-identifications-api
+- collection_type: open
+  name: iNaturalist Annotations Messages API
+  slug: open-inaturalist-messages-api
+- collection_type: open
+  name: iNaturalist Annotations Observation Field Values API
+  slug: open-inaturalist-observation-field-values-api
+- collection_type: open
+  name: iNaturalist Annotations Observation Photos API
+  slug: open-inaturalist-observation-photos-api
+- collection_type: open
+  name: iNaturalist Annotations Observation Tiles API
+  slug: open-inaturalist-observation-tiles-api
+- collection_type: open
+  name: iNaturalist Annotations Observations API
+  slug: open-inaturalist-observations-api
+- collection_type: open
+  name: iNaturalist Annotations Photos API
+  slug: open-inaturalist-photos-api
+- collection_type: open
+  name: iNaturalist Annotations Places API
+  slug: open-inaturalist-places-api
+- collection_type: open
+  name: iNaturalist Annotations Polygon Tiles API
+  slug: open-inaturalist-polygon-tiles-api
+- collection_type: open
+  name: iNaturalist Annotations Posts API
+  slug: open-inaturalist-posts-api
+- collection_type: open
+  name: iNaturalist Annotations Project Observations API
+  slug: open-inaturalist-project-observations-api
+- collection_type: open
+  name: iNaturalist Annotations Projects API
+  slug: open-inaturalist-projects-api
+- collection_type: open
+  name: iNaturalist Annotations Search API
+  slug: open-inaturalist-search-api
+- collection_type: open
+  name: iNaturalist Annotations Taxa API
+  slug: open-inaturalist-taxa-api
+- collection_type: open
+  name: iNaturalist Annotations Users API
+  slug: open-inaturalist-users-api
+- collection_type: open
+  name: iNaturalist Annotations UTFGrid API
+  slug: open-inaturalist-utfgrid-api
 common:
 - group: agent
   title: ''
@@ -723,7 +787,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -757,7 +821,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/screenshots/inaturalist-2026-06-20T183309.png
 security:

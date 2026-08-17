@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: ILAB provides data on child labor, forced labor, and human trafficking across countries. The DOL developer API provides programmatic access to ILAB datasets including country-level labor standards ass
@@ -87,7 +87,7 @@ plans:
 - name: Bureau Of International Labor Affairs Plans Pricing
   plan_count: 3
   slug: bureau-of-international-labor-affairs-plans-pricing
-random_paper: 97
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Bureau Of International Labor Affairs Rate Limits
@@ -111,7 +111,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/screenshots/bureau-of-international-labor-affairs-2026-06-20T173810.png
 security:

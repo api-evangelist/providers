@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,18 +68,30 @@ apis:
 - description: Direct sendTransaction proxy to validator leaders.
   name: Jito Labs Transactions API
   slug: jito-transactions-api
-artifact_total: 76
+artifact_total: 80
 asyncapis:
 - description: 'Real-time streaming endpoints exposed by Jito infrastructure: the WebSocket bundle tip stream and the gRPC ShredStream for low-latency Solana shred delivery. These are the canonical out-of-band feeds '
   name: Jito Streaming Surfaces
   slug: jito-streaming-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Jito Block Engine JSON-RPC API
   slug: open-jito-block-engine
 - collection_type: open
+  name: Jito Block Engine JSON-RPC Bundles API
+  slug: open-jito-bundles-api
+- collection_type: open
   name: Jito Bundles Tip Floor API
   slug: open-jito-bundles-tip-floor
+- collection_type: open
+  name: Jito Block Engine JSON-RPC Bundles Tips API
+  slug: open-jito-tips-api
+- collection_type: open
+  name: Jito Block Engine JSON-RPC Bundles Transactions API
+  slug: open-jito-transactions-api
 common:
 - group: agent
   title: ''
@@ -347,7 +359,7 @@ plans:
 - name: Jito Plans Pricing
   plan_count: 3
   slug: jito-plans-pricing
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 0
   name: Jito Rate Limits
@@ -397,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/screenshots/jito-2026-06-20T183736.png
 security:

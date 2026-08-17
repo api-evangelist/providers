@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Manage owned numbers
   name: Telefoon Owned Numbers API
   slug: telefoon-owned-numbers-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telefoon Number Management Available Numbers API
+  slug: open-telefoon-available-numbers-api
+- collection_type: open
+  name: Telefoon Number Management Available Numbers Calls API
+  slug: open-telefoon-calls-api
+- collection_type: open
+  name: Telefoon Number Management Available Numbers Conferences API
+  slug: open-telefoon-conferences-api
+- collection_type: open
+  name: Telefoon Number Management Available Numbers Messages API
+  slug: open-telefoon-messages-api
 - collection_type: open
   name: Telefoon Number Management API
   slug: open-telefoon-numbers
+- collection_type: open
+  name: Telefoon Number Management Available Numbers Owned Numbers API
+  slug: open-telefoon-owned-numbers-api
 - collection_type: open
   name: Telefoon SMS API
   slug: open-telefoon-sms
@@ -161,7 +179,7 @@ plans:
 - name: Telefoon Plans Pricing
   plan_count: 1
   slug: telefoon-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 1
   name: Telefoon Rate Limits
@@ -209,7 +227,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

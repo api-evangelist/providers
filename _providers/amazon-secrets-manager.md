@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -79,11 +79,29 @@ arazzos:
 - description: Update a secret's description and KMS key with UpdateSecret, then describe it to confirm the new metadata was applied.
   name: Amazon Secrets Manager Update Metadata and Verify
   slug: amazon-secrets-manager-update-metadata-and-verify-workflow
-artifact_total: 59
+artifact_total: 65
 collections:
 - collection_type: postman
   name: Amazon Secrets Manager API
   slug: postman-amazon-secrets-manager
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Secrets Manager Passwords API
+  slug: open-amazon-secrets-manager-passwords-api
+- collection_type: open
+  name: Amazon Secrets Manager Passwords Rotation API
+  slug: open-amazon-secrets-manager-rotation-api
+- collection_type: open
+  name: Amazon Manager Passwords Secrets API
+  slug: open-amazon-secrets-manager-secrets-api
+- collection_type: open
+  name: 'Amazon Secrets Manager Passwords #TagResource API'
+  slug: open-amazon-secrets-manager-tagresource-api
+- collection_type: open
+  name: 'Amazon Secrets Manager Passwords #UntagResource API'
+  slug: open-amazon-secrets-manager-untagresource-api
 - collection_type: open
   name: Amazon Secrets Manager API
   slug: open-amazon-secrets-manager
@@ -450,7 +468,7 @@ plans:
 - name: Amazon Secrets Manager Plans Pricing
   plan_count: 3
   slug: amazon-secrets-manager-plans-pricing
-random_paper: 68
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: Amazon Secrets Manager Rate Limits
@@ -494,7 +512,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:

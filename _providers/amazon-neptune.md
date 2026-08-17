@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 7
@@ -202,7 +202,7 @@ arazzos:
 - description: Run a SPARQL INSERT DATA update, then run a SELECT query to confirm the triples landed.
   name: Amazon Neptune SPARQL Update and Verify
   slug: amazon-neptune-sparql-update-and-verify-workflow
-artifact_total: 579
+artifact_total: 609
 collections:
 - collection_type: postman
   name: Amazon Neptune Neptune Analytics API
@@ -232,32 +232,122 @@ collections:
   name: Amazon Neptune Neptune Streams API
   slug: postman-amazon-neptune-streams
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource ?Action=AddTagsToResource API
+  slug: open-amazon-neptune-action-addtagstoresource-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource ?Action=ListTagsForResource API
+  slug: open-amazon-neptune-action-listtagsforresource-api
+- collection_type: open
   name: Amazon Neptune Neptune Analytics API
   slug: open-amazon-neptune-analytics
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Data Processing API
+  slug: open-amazon-neptune-data-processing-api
 - collection_type: open
   name: Amazon Neptune Data API
   slug: open-amazon-neptune-data
 - collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource DB Clusters API
+  slug: open-amazon-neptune-db-clusters-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource DB Instances API
+  slug: open-amazon-neptune-db-instances-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Engine API
+  slug: open-amazon-neptune-engine-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Events API
+  slug: open-amazon-neptune-events-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Global Clusters API
+  slug: open-amazon-neptune-global-clusters-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Graph Snapshots API
+  slug: open-amazon-neptune-graph-snapshots-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Graphs API
+  slug: open-amazon-neptune-graphs-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Gremlin API
+  slug: open-amazon-neptune-gremlin-api
+- collection_type: open
   name: Amazon Neptune Neptune Gremlin API
   slug: open-amazon-neptune-gremlin
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Import Tasks API
+  slug: open-amazon-neptune-import-tasks-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Inference Endpoints API
+  slug: open-amazon-neptune-inference-endpoints-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Loader API
+  slug: open-amazon-neptune-loader-api
 - collection_type: open
   name: Amazon Neptune Neptune Loader API
   slug: open-amazon-neptune-loader
 - collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Maintenance API
+  slug: open-amazon-neptune-maintenance-api
+- collection_type: open
   name: Amazon Neptune Management API
   slug: open-amazon-neptune-management
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource ML API
+  slug: open-amazon-neptune-ml-api
 - collection_type: open
   name: Amazon Neptune Neptune ML API
   slug: open-amazon-neptune-ml
 - collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Model Training API
+  slug: open-amazon-neptune-model-training-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Model Transform API
+  slug: open-amazon-neptune-model-transform-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource openCypher API
+  slug: open-amazon-neptune-opencypher-api
+- collection_type: open
   name: Amazon Neptune Neptune openCypher API
   slug: open-amazon-neptune-opencypher
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Parameter Groups API
+  slug: open-amazon-neptune-parameter-groups-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Private Graph Endpoints API
+  slug: open-amazon-neptune-private-graph-endpoints-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Property Graph Stream API
+  slug: open-amazon-neptune-property-graph-stream-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Query API
+  slug: open-amazon-neptune-query-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Snapshots API
+  slug: open-amazon-neptune-snapshots-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource SPARQL API
+  slug: open-amazon-neptune-sparql-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource SPARQL Stream API
+  slug: open-amazon-neptune-sparql-stream-api
 - collection_type: open
   name: Amazon Neptune Neptune SPARQL API
   slug: open-amazon-neptune-sparql
 - collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Status API
+  slug: open-amazon-neptune-status-api
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Streams API
+  slug: open-amazon-neptune-streams-api
+- collection_type: open
   name: Amazon Neptune Neptune Streams API
   slug: open-amazon-neptune-streams
+- collection_type: open
+  name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Subnet Groups API
+  slug: open-amazon-neptune-subnet-groups-api
 common:
 - group: agent
   title: ''
@@ -2050,7 +2140,7 @@ plans:
 - name: Amazon Neptune Plans Pricing
   plan_count: 4
   slug: amazon-neptune-plans-pricing
-random_paper: 18
+random_paper: 117
 rate_limits:
 - limit_count: 4
   name: Amazon Neptune Rate Limits
@@ -2092,7 +2182,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/screenshots/amazon-neptune-2026-06-20T171750.png
 security:

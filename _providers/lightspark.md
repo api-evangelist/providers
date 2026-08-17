@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 73.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -104,7 +104,7 @@ apis:
 - description: Endpoints for retrieving transaction information
   name: Lightspark Transactions API
   slug: lightspark-transactions-api
-artifact_total: 52
+artifact_total: 75
 asyncapis:
 - description: ''
   name: Lightspark Grid Webhooks
@@ -176,6 +176,75 @@ collections:
 - collection_type: postman
   name: Grid Agent Management Transactions API
   slug: postman-lightspark-transactions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Grid Agent Management API
+  slug: open-lightspark-agent-management-api
+- collection_type: open
+  name: Grid Agent Management Agent Operations API
+  slug: open-lightspark-agent-operations-api
+- collection_type: open
+  name: Grid Agent Management API Tokens API
+  slug: open-lightspark-api-tokens-api
+- collection_type: open
+  name: Grid Agent Management Available UMA Providers API
+  slug: open-lightspark-available-uma-providers-api
+- collection_type: open
+  name: Grid Agent Management Cards API
+  slug: open-lightspark-cards-api
+- collection_type: open
+  name: Grid Agent Management Contact Verification API
+  slug: open-lightspark-contact-verification-api
+- collection_type: open
+  name: Grid Agent Management Cross-Currency Transfers API
+  slug: open-lightspark-cross-currency-transfers-api
+- collection_type: open
+  name: Grid Agent Management Customers API
+  slug: open-lightspark-customers-api
+- collection_type: open
+  name: Grid Agent Management Discoveries API
+  slug: open-lightspark-discoveries-api
+- collection_type: open
+  name: Grid Agent Management Documents API
+  slug: open-lightspark-documents-api
+- collection_type: open
+  name: Grid Agent Management Embedded Wallet Auth API
+  slug: open-lightspark-embedded-wallet-auth-api
+- collection_type: open
+  name: Grid Agent Management Exchange Rates API
+  slug: open-lightspark-exchange-rates-api
+- collection_type: open
+  name: Grid Agent Management External Accounts API
+  slug: open-lightspark-external-accounts-api
+- collection_type: open
+  name: Grid Agent Management Internal Accounts API
+  slug: open-lightspark-internal-accounts-api
+- collection_type: open
+  name: Grid Agent Management Invitations API
+  slug: open-lightspark-invitations-api
+- collection_type: open
+  name: Grid Agent Management KYC/KYB Verifications API
+  slug: open-lightspark-kyc-kyb-verifications-api
+- collection_type: open
+  name: Grid Agent Management Platform Configuration API
+  slug: open-lightspark-platform-configuration-api
+- collection_type: open
+  name: Grid Agent Management Same-Currency Transfers API
+  slug: open-lightspark-same-currency-transfers-api
+- collection_type: open
+  name: Grid Agent Management Sandbox API
+  slug: open-lightspark-sandbox-api
+- collection_type: open
+  name: Grid Agent Management Stablecoins API
+  slug: open-lightspark-stablecoins-api
+- collection_type: open
+  name: Grid Agent Management Strong Customer Authentication API
+  slug: open-lightspark-strong-customer-authentication-api
+- collection_type: open
+  name: Grid Agent Management Transactions API
+  slug: open-lightspark-transactions-api
 common:
 - group: other
   title: ''
@@ -372,7 +441,7 @@ overview: 'Lightspark publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 37 more developer resources.'
-random_paper: 1
+random_paper: 38
 rules:
 - name: Lightspark API Rules
   rule_count: 13
@@ -411,7 +480,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:

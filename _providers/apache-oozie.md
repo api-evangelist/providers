@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Supported protocol version discovery
   name: Apache Oozie Versions API
   slug: apache-oozie-versions-api
-artifact_total: 59
+artifact_total: 64
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Oozie REST Admin API
+  slug: open-apache-oozie-admin-api
+- collection_type: open
+  name: Apache Oozie REST Admin Job API
+  slug: open-apache-oozie-job-api
+- collection_type: open
+  name: Apache Oozie REST Admin Jobs API
+  slug: open-apache-oozie-jobs-api
+- collection_type: open
+  name: Apache Oozie REST Admin Versions API
+  slug: open-apache-oozie-versions-api
 common:
 - group: build
   title: ''
@@ -257,7 +273,7 @@ plans:
 - name: Apache Oozie Plans Pricing
   plan_count: 3
   slug: apache-oozie-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Apache Oozie Rate Limits
@@ -299,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/screenshots/apache-oozie-2026-06-20T172126.png
 security:

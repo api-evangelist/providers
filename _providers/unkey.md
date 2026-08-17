@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 4
@@ -63,7 +63,7 @@ apis:
 - description: Rate limiting operations
   name: Unkey ratelimit API
   slug: unkey-ratelimit-api
-artifact_total: 214
+artifact_total: 223
 collections:
 - collection_type: postman
   name: Unkey analytics API
@@ -90,8 +90,35 @@ collections:
   name: Unkey analytics ratelimit API
   slug: postman-unkey-ratelimit-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unkey analytics API
+  slug: open-unkey-analytics-api
+- collection_type: open
+  name: Unkey analytics apis API
+  slug: open-unkey-apis-api
+- collection_type: open
+  name: Unkey analytics deploy API
+  slug: open-unkey-deploy-api
+- collection_type: open
   name: Unkey API
   slug: open-unkey-dev
+- collection_type: open
+  name: Unkey analytics identities API
+  slug: open-unkey-identities-api
+- collection_type: open
+  name: Unkey analytics keys API
+  slug: open-unkey-keys-api
+- collection_type: open
+  name: Unkey analytics liveness API
+  slug: open-unkey-liveness-api
+- collection_type: open
+  name: Unkey analytics permissions API
+  slug: open-unkey-permissions-api
+- collection_type: open
+  name: Unkey analytics ratelimit API
+  slug: open-unkey-ratelimit-api
 - collection_type: open
   name: Unkey API
   slug: open-unkey
@@ -725,7 +752,7 @@ plans:
 - name: Unkey Plans Pricing
   plan_count: 4
   slug: unkey-plans-pricing
-random_paper: 76
+random_paper: 109
 rate_limits:
 - limit_count: 3
   name: Unkey Rate Limits
@@ -767,7 +794,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/screenshots/unkey-2026-06-20T200401.png
 security:

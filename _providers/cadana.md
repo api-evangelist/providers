@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -135,11 +135,105 @@ arazzos:
 - description: Onboard a contractor, create a contract, run payroll, and retrieve payslips.
   name: Cadana — pay a contractor end-to-end
   slug: cadana-pay-contractor
-artifact_total: 38
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Cadana Webhooks
   slug: cadana-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Embedded Consumer Wallets Balances API
+  slug: open-cadana-balances-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Beneficiaries API
+  slug: open-cadana-beneficiaries-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Businesses API
+  slug: open-cadana-businesses-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Contracts API
+  slug: open-cadana-contracts-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Custom Auth API
+  slug: open-cadana-custom-auth-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Entities API
+  slug: open-cadana-entities-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Events API
+  slug: open-cadana-events-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Files API
+  slug: open-cadana-files-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Filings API
+  slug: open-cadana-filings-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances FX API
+  slug: open-cadana-fx-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Instant Pay API
+  slug: open-cadana-instant-pay-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Invoices API
+  slug: open-cadana-invoices-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Jurisdictions API
+  slug: open-cadana-jurisdictions-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances KYB API
+  slug: open-cadana-kyb-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Milestones API
+  slug: open-cadana-milestones-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Payouts API
+  slug: open-cadana-payouts-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Payrolls API
+  slug: open-cadana-payrolls-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Persons API
+  slug: open-cadana-persons-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Platform API
+  slug: open-cadana-platform-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Reimbursements API
+  slug: open-cadana-reimbursements-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Remittances API
+  slug: open-cadana-remittances-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Requirements API
+  slug: open-cadana-requirements-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Resources API
+  slug: open-cadana-resources-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Sandbox API
+  slug: open-cadana-sandbox-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Statutory Fields API
+  slug: open-cadana-statutory-fields-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Tax Calculator API
+  slug: open-cadana-tax-calculator-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Transactions API
+  slug: open-cadana-transactions-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Treasury API
+  slug: open-cadana-treasury-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Users API
+  slug: open-cadana-users-api
+- collection_type: open
+  name: Embedded Consumer Wallets Balances Virtual Accounts API
+  slug: open-cadana-virtual-accounts-api
 common:
 - group: other
   title: ''
@@ -288,7 +382,7 @@ overview: 'Cadana publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 0
+random_paper: 4
 score:
   band: developing
   composite: 50.0
@@ -318,7 +412,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/screenshots/cadana-2026-07-25T204209.png
 security:

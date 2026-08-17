@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Transaction execution status, receipts, and internal transactions
   name: Optimism Etherscan Transactions API
   slug: optimistic-etherscan-transactions-api
-artifact_total: 15
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Optimism Etherscan Accounts API
+  slug: open-optimistic-etherscan-accounts-api
+- collection_type: open
+  name: Optimism Etherscan Accounts Blocks API
+  slug: open-optimistic-etherscan-blocks-api
+- collection_type: open
+  name: Optimism Etherscan Accounts Contracts API
+  slug: open-optimistic-etherscan-contracts-api
+- collection_type: open
+  name: Optimism Etherscan Accounts Geth Proxy API
+  slug: open-optimistic-etherscan-geth-proxy-api
+- collection_type: open
+  name: Optimism Etherscan Accounts Stats API
+  slug: open-optimistic-etherscan-stats-api
+- collection_type: open
+  name: Optimism Etherscan Accounts Tokens API
+  slug: open-optimistic-etherscan-tokens-api
+- collection_type: open
+  name: Optimism Etherscan Accounts Transactions API
+  slug: open-optimistic-etherscan-transactions-api
 common:
 - group: agent
   title: ''
@@ -138,7 +163,7 @@ plans:
 - name: Optimistic Etherscan Plans Pricing
   plan_count: 7
   slug: optimistic-etherscan-plans-pricing
-random_paper: 55
+random_paper: 9
 rate_limits:
 - limit_count: 13
   name: Optimistic Etherscan Rate Limits
@@ -163,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

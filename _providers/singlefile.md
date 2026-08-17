@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -59,11 +59,36 @@ apis:
 - description: Compliance tasks and deadlines
   name: SingleFile tasks API
   slug: singlefile-tasks-api
-artifact_total: 15
+artifact_total: 23
 asyncapis:
 - description: Webhook event surface for SingleFile. Endpoints are configured in Profile Settings > Webhook Settings; deliveries are HTTPS-only and retried with exponential backoff on 5xx.
   name: SingleFile Webhooks
   slug: singlefile-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SingleFile External API Documentation documents API
+  slug: open-singlefile-documents-api
+- collection_type: open
+  name: SingleFile External API Documentation documents entities API
+  slug: open-singlefile-entities-api
+- collection_type: open
+  name: SingleFile External API Documentation documents jurisdictions API
+  slug: open-singlefile-jurisdictions-api
+- collection_type: open
+  name: SingleFile External API Documentation documents orders API
+  slug: open-singlefile-orders-api
+- collection_type: open
+  name: SingleFile External API Documentation documents organizations API
+  slug: open-singlefile-organizations-api
+- collection_type: open
+  name: SingleFile External API Documentation documents schemas API
+  slug: open-singlefile-schemas-api
+- collection_type: open
+  name: SingleFile External API Documentation documents tasks API
+  slug: open-singlefile-tasks-api
 common:
 - group: auth
   title: ''
@@ -204,7 +229,7 @@ overview: 'SingleFile publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SingleFile''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 23 more developer resources.'
-random_paper: 98
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Singlefile Rate Limits
@@ -237,7 +262,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

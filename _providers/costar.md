@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: CoStar's flagship commercial real estate information platform covering property, tenant, lease, sale, and market analytics across office, industrial, retail, multifamily, and specialty CRE asset class
@@ -123,7 +123,7 @@ plans:
 - name: Costar Plans Pricing
   plan_count: 1
   slug: costar-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Costar Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/screenshots/costar-2026-06-20T175051.png
 security:

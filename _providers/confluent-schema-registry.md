@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: The Subjects API from Confluent Schema Registry — 6 operation(s) for subjects.
   name: Confluent Schema Registry Subjects API
   slug: confluent-schema-registry-subjects-api
-artifact_total: 28
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Confluent Schema Registry Compatibility API
+  slug: open-confluent-schema-registry-compatibility-api
+- collection_type: open
+  name: Confluent Schema Registry Compatibility Mode API
+  slug: open-confluent-schema-registry-mode-api
+- collection_type: open
+  name: Confluent Schema Registry Compatibility Schemas API
+  slug: open-confluent-schema-registry-schemas-api
+- collection_type: open
+  name: Confluent Schema Registry Compatibility Server API
+  slug: open-confluent-schema-registry-server-api
+- collection_type: open
+  name: Confluent Schema Registry Compatibility Subjects API
+  slug: open-confluent-schema-registry-subjects-api
 - collection_type: open
   name: Confluent Schema Registry API
   slug: open-schema-registry
@@ -151,7 +169,7 @@ plans:
 - name: Confluent Schema Registry Plans Pricing
   plan_count: 3
   slug: confluent-schema-registry-plans-pricing
-random_paper: 58
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Confluent Schema Registry Rate Limits
@@ -193,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/screenshots/confluent-schema-registry-2026-06-20T174859.png
 security:

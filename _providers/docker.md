@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -123,8 +123,56 @@ arazzos:
 - description: Gather the full diagnostic picture for a container — state, logs, processes, resource stats, and filesystem drift.
   name: Docker Troubleshoot a Failing Container
   slug: docker-troubleshoot-container-workflow
-artifact_total: 37
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Docker Engine Config API
+  slug: open-docker-config-api
+- collection_type: open
+  name: Docker Engine Config Container API
+  slug: open-docker-container-api
+- collection_type: open
+  name: Docker Engine Config Distribution API
+  slug: open-docker-distribution-api
+- collection_type: open
+  name: Docker Engine Config Exec API
+  slug: open-docker-exec-api
+- collection_type: open
+  name: Docker Engine Config Image API
+  slug: open-docker-image-api
+- collection_type: open
+  name: Docker Engine Config Network API
+  slug: open-docker-network-api
+- collection_type: open
+  name: Docker Engine Config Node API
+  slug: open-docker-node-api
+- collection_type: open
+  name: Docker Engine Config Plugin API
+  slug: open-docker-plugin-api
+- collection_type: open
+  name: Docker Engine Config Secret API
+  slug: open-docker-secret-api
+- collection_type: open
+  name: Docker Engine Config Service API
+  slug: open-docker-service-api
+- collection_type: open
+  name: Docker Engine Config Session API
+  slug: open-docker-session-api
+- collection_type: open
+  name: Docker Engine Config Swarm API
+  slug: open-docker-swarm-api
+- collection_type: open
+  name: Docker Engine Config System API
+  slug: open-docker-system-api
+- collection_type: open
+  name: Docker Engine Config Task API
+  slug: open-docker-task-api
+- collection_type: open
+  name: Docker Engine Config Volume API
+  slug: open-docker-volume-api
 - collection_type: open
   name: Docker Engine API
   slug: open-docker
@@ -324,7 +372,7 @@ plans:
 - name: Docker Plans Pricing
   plan_count: 3
   slug: docker-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Docker Rate Limits
@@ -351,7 +399,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
 security:

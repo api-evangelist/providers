@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -99,8 +99,41 @@ apis:
 - description: Query and retrieve content from indexed pipelines.
   name: llamaindex Retrieval API
   slug: llamaindex-retrieval-api
-artifact_total: 69
+artifact_total: 88
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources API
+  slug: open-llamaindex-data-sources-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Extraction Agents API
+  slug: open-llamaindex-extraction-agents-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Extraction Jobs API
+  slug: open-llamaindex-extraction-jobs-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Files API
+  slug: open-llamaindex-files-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Index Data Sources API
+  slug: open-llamaindex-index-data-sources-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Index Files API
+  slug: open-llamaindex-index-files-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Index Retrieval API
+  slug: open-llamaindex-index-retrieval-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Index Status API
+  slug: open-llamaindex-index-status-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Indexes API
+  slug: open-llamaindex-indexes-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Jobs API
+  slug: open-llamaindex-jobs-api
 - collection_type: open
   name: LlamaIndex LlamaCloud API
   slug: open-llamaindex-llamacloud-api
@@ -113,6 +146,30 @@ collections:
 - collection_type: open
   name: LlamaIndex LlamaParse API
   slug: open-llamaindex-llamaparse-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Parsing API
+  slug: open-llamaindex-parsing-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Pipeline Data Sinks API
+  slug: open-llamaindex-pipeline-data-sinks-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Pipeline Data Sources API
+  slug: open-llamaindex-pipeline-data-sources-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Pipeline Files API
+  slug: open-llamaindex-pipeline-files-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Pipeline Jobs API
+  slug: open-llamaindex-pipeline-jobs-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Pipelines API
+  slug: open-llamaindex-pipelines-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Projects API
+  slug: open-llamaindex-projects-api
+- collection_type: open
+  name: LlamaIndex LlamaCloud Data Sources Retrieval API
+  slug: open-llamaindex-retrieval-api
 common:
 - group: agent
   title: ''
@@ -299,7 +356,7 @@ plans:
 - name: Llamaindex Plans Pricing
   plan_count: 4
   slug: llamaindex-plans-pricing
-random_paper: 95
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Llamaindex Rate Limits
@@ -333,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/screenshots/llamaindex-2026-06-20T184621.png
 security:

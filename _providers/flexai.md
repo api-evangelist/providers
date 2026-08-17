@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Video generation
   name: FlexAI Video API
   slug: flexai-video-api
-artifact_total: 20
+artifact_total: 28
 collections:
 - collection_type: postman
   name: FlexAI Token Factory Audio API
@@ -83,6 +83,30 @@ collections:
 - collection_type: postman
   name: FlexAI Token Factory Audio Video API
   slug: postman-flexai-video-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FlexAI Token Factory Audio API
+  slug: open-flexai-audio-api
+- collection_type: open
+  name: FlexAI Token Factory Audio Chat API
+  slug: open-flexai-chat-api
+- collection_type: open
+  name: FlexAI Token Factory Audio Completions API
+  slug: open-flexai-completions-api
+- collection_type: open
+  name: FlexAI Token Factory Audio Embeddings API
+  slug: open-flexai-embeddings-api
+- collection_type: open
+  name: FlexAI Token Factory Audio Images API
+  slug: open-flexai-images-api
+- collection_type: open
+  name: FlexAI Token Factory Audio Models API
+  slug: open-flexai-models-api
+- collection_type: open
+  name: FlexAI Token Factory Audio Video API
+  slug: open-flexai-video-api
 common:
 - group: build
   title: ''
@@ -220,7 +244,7 @@ plans:
 - name: Flexai Plans
   plan_count: 3
   slug: flexai-plans
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Flexai Rate Limits
@@ -248,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/screenshots/flexai-2026-07-25T214748.png
 security:

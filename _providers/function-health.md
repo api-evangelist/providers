@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Authenticated member web and mobile dashboard for viewing 100+ lab biomarkers, trends across testing rounds, clinician notes, biological age, and a personalized action plan. There is no documented pub
@@ -43,8 +43,11 @@ apis:
 - description: An opt-in app within ChatGPT through which a member can authorize secure access to a limited, high-level summary of their lab results, with the ability to revoke access at any time. Surfaced through t
   name: Function Health ChatGPT App
   slug: function-health-chatgpt-app
-artifact_total: 10
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Function Health API
   slug: open-function-health
@@ -101,7 +104,7 @@ plans:
 - name: Function Health Plans Pricing
   plan_count: 2
   slug: function-health-plans-pricing
-random_paper: 105
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Function Health Rate Limits
@@ -125,7 +128,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

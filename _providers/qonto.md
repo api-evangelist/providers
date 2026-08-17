@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 7
@@ -78,7 +78,7 @@ apis:
 - description: The Webhooks API from Qonto — 2 operation(s) for webhooks.
   name: Qonto Webhooks API
   slug: qonto-webhooks-api
-artifact_total: 37
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Qonto Webhooks
@@ -123,6 +123,48 @@ collections:
 - collection_type: postman
   name: Qonto Business Cards Webhooks API
   slug: postman-qonto-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qonto Business Cards API
+  slug: open-qonto-cards-api
+- collection_type: open
+  name: Qonto Business Cards Client Invoices API
+  slug: open-qonto-client-invoices-api
+- collection_type: open
+  name: Qonto Business Cards Internal Transfers API
+  slug: open-qonto-internal-transfers-api
+- collection_type: open
+  name: Qonto Business Cards International Transfers API
+  slug: open-qonto-international-transfers-api
+- collection_type: open
+  name: Qonto Business Cards OAuth API
+  slug: open-qonto-oauth-api
+- collection_type: open
+  name: Qonto Business Cards Organizations & Accounts API
+  slug: open-qonto-organizations-accounts-api
+- collection_type: open
+  name: Qonto Business Cards Payment Links API
+  slug: open-qonto-payment-links-api
+- collection_type: open
+  name: Qonto Business Cards SEPA Direct Debit API
+  slug: open-qonto-sepa-direct-debit-api
+- collection_type: open
+  name: Qonto Business Cards SEPA Transfers API
+  slug: open-qonto-sepa-transfers-api
+- collection_type: open
+  name: Qonto Business Cards Supplier Invoices API
+  slug: open-qonto-supplier-invoices-api
+- collection_type: open
+  name: Qonto Business Cards Terminals API
+  slug: open-qonto-terminals-api
+- collection_type: open
+  name: Qonto Business Cards Transactions & Statements API
+  slug: open-qonto-transactions-statements-api
+- collection_type: open
+  name: Qonto Business Cards Webhooks API
+  slug: open-qonto-webhooks-api
 common:
 - group: build
   title: ''
@@ -331,7 +373,7 @@ plans:
 - name: Qonto Plans Pricing
   plan_count: 6
   slug: qonto-plans-pricing
-random_paper: 81
+random_paper: 114
 rate_limits:
 - limit_count: 3
   name: Qonto Rate Limits
@@ -370,7 +412,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: Companies that create or distribute various forms of flowers, extracts, edibles, or products.
@@ -76,7 +76,56 @@ apis:
 - description: The Type API from Otreeba — 1 operation(s) for type.
   name: Otreeba Type API
   slug: otreeba-type-api
-artifact_total: 19
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Otreeba Brands API
+  slug: open-otreeba-brands-api
+- collection_type: open
+  name: Otreeba Condition API
+  slug: open-otreeba-condition-api
+- collection_type: open
+  name: Otreeba Conditions API
+  slug: open-otreeba-conditions-api
+- collection_type: open
+  name: Otreeba Edibles API
+  slug: open-otreeba-edibles-api
+- collection_type: open
+  name: Otreeba Extracts API
+  slug: open-otreeba-extracts-api
+- collection_type: open
+  name: Otreeba Flowers API
+  slug: open-otreeba-flowers-api
+- collection_type: open
+  name: Otreeba Identifiers API
+  slug: open-otreeba-identifiers-api
+- collection_type: open
+  name: Otreeba Ocpc API
+  slug: open-otreeba-ocpc-api
+- collection_type: open
+  name: Otreeba Products API
+  slug: open-otreeba-products-api
+- collection_type: open
+  name: Otreeba Seed API
+  slug: open-otreeba-seed-api
+- collection_type: open
+  name: Otreeba Seed  Companies API
+  slug: open-otreeba-seed-companies-api
+- collection_type: open
+  name: Otreeba Slug API
+  slug: open-otreeba-slug-api
+- collection_type: open
+  name: Otreeba Strains API
+  slug: open-otreeba-strains-api
+- collection_type: open
+  name: Otreeba Studies API
+  slug: open-otreeba-studies-api
+- collection_type: open
+  name: Otreeba Type API
+  slug: open-otreeba-type-api
 common:
 - group: auth
   title: ''
@@ -138,7 +187,7 @@ plans:
 - name: Otreeba Plans Pricing
   plan_count: 3
   slug: otreeba-plans-pricing
-random_paper: 18
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: Otreeba Rate Limits
@@ -162,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

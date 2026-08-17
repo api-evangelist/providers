@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: The Service Integrations API from Amazon DevOps Guru — 1 operation(s) for service integrations.
   name: Amazon DevOps Guru Service Integrations API
   slug: amazon-devops-guru-service-integrations-api
-artifact_total: 118
+artifact_total: 133
 collections:
 - collection_type: postman
   name: Amazon DevOps Guru Accounts API
@@ -125,6 +125,51 @@ collections:
 - collection_type: postman
   name: Amazon DevOps Guru Accounts Service Integrations API
   slug: postman-amazon-devops-guru-service-integrations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon DevOps Guru Accounts API
+  slug: open-amazon-devops-guru-accounts-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Anomalies API
+  slug: open-amazon-devops-guru-anomalies-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Channels API
+  slug: open-amazon-devops-guru-channels-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Cost Estimation API
+  slug: open-amazon-devops-guru-cost-estimation-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Event Sources API
+  slug: open-amazon-devops-guru-event-sources-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Events API
+  slug: open-amazon-devops-guru-events-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Feedback API
+  slug: open-amazon-devops-guru-feedback-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Insights API
+  slug: open-amazon-devops-guru-insights-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts List Log Anomalies API
+  slug: open-amazon-devops-guru-list-log-anomalies-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts MonitoredResources API
+  slug: open-amazon-devops-guru-monitoredresources-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Organization API
+  slug: open-amazon-devops-guru-organization-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Recommendations API
+  slug: open-amazon-devops-guru-recommendations-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Resource Collections API
+  slug: open-amazon-devops-guru-resource-collections-api
+- collection_type: open
+  name: Amazon DevOps Guru Accounts Service Integrations API
+  slug: open-amazon-devops-guru-service-integrations-api
 common:
 - group: build
   title: ''
@@ -456,7 +501,7 @@ plans:
 - name: Amazon Devops Guru Plans Pricing
   plan_count: 3
   slug: amazon-devops-guru-plans-pricing
-random_paper: 44
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Amazon Devops Guru Rate Limits
@@ -498,7 +543,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/screenshots/amazon-devops-guru-2026-06-20T171630.png
 security:

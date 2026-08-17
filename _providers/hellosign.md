@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: '{''$ref'': ''./markdown/en/tags/unclaimed-draft-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Unclaimed Draft API
   slug: hellosign-unclaimed-draft-api
-artifact_total: 32
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Hellosign Events Webhooks
@@ -117,6 +117,45 @@ collections:
 - collection_type: postman
   name: Dropbox Sign Account Unclaimed Draft API
   slug: postman-hellosign-unclaimed-draft-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dropbox Sign Account API
+  slug: open-hellosign-account-api
+- collection_type: open
+  name: Dropbox Sign Account Api App API
+  slug: open-hellosign-api-app-api
+- collection_type: open
+  name: Dropbox Sign Account Bulk Send Job API
+  slug: open-hellosign-bulk-send-job-api
+- collection_type: open
+  name: Dropbox Sign Account Embedded API
+  slug: open-hellosign-embedded-api
+- collection_type: open
+  name: Dropbox Sign Account Fax API
+  slug: open-hellosign-fax-api
+- collection_type: open
+  name: Dropbox Sign Account Fax Line API
+  slug: open-hellosign-fax-line-api
+- collection_type: open
+  name: Dropbox Sign Account OAuth API
+  slug: open-hellosign-oauth-api
+- collection_type: open
+  name: Dropbox Sign Account Report API
+  slug: open-hellosign-report-api
+- collection_type: open
+  name: Dropbox Sign Account Signature Request API
+  slug: open-hellosign-signature-request-api
+- collection_type: open
+  name: Dropbox Sign Account Team API
+  slug: open-hellosign-team-api
+- collection_type: open
+  name: Dropbox Sign Account Template API
+  slug: open-hellosign-template-api
+- collection_type: open
+  name: Dropbox Sign Account Unclaimed Draft API
+  slug: open-hellosign-unclaimed-draft-api
 common:
 - group: other
   title: ''
@@ -281,7 +320,7 @@ overview: 'Dropbox Sign (HelloSign) publishes 12 APIs on the [APIs.io](https://a
 
 
   Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 5
+random_paper: 71
 scopes:
 - name: Hellosign Scopes
   scope_count: 7
@@ -310,7 +349,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/screenshots/hellosign-2026-07-25T220935.png
 security:

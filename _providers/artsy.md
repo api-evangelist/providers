@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Artsy Public API provides access to images of historic artwork and related information on artsy.net for educational and non-commercial purposes. Resources include artists, artworks, editions, fair
@@ -102,7 +102,7 @@ plans:
 - name: Artsy Plans Pricing
   plan_count: 3
   slug: artsy-plans-pricing
-random_paper: 83
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Artsy Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 18.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artsy/refs/heads/main/screenshots/artsy-2026-06-20T172452.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 123
   human_in_the_loop: 1
@@ -185,7 +185,158 @@ apis:
 - description: The webhooks API from Creed — 1 operation(s) for webhooks.
   name: Creed webhooks API
   slug: creed-webhooks-api
-artifact_total: 53
+artifact_total: 103
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Creed achievements API
+  slug: open-creed-achievements-api
+- collection_type: open
+  name: Creed achievements Admin Analytics API
+  slug: open-creed-admin-analytics-api
+- collection_type: open
+  name: Creed achievements Auth API
+  slug: open-creed-auth-api
+- collection_type: open
+  name: Creed achievements azure-openai-test API
+  slug: open-creed-azure-openai-test-api
+- collection_type: open
+  name: Creed achievements azure-tts-test API
+  slug: open-creed-azure-tts-test-api
+- collection_type: open
+  name: Creed achievements b2b API
+  slug: open-creed-b2b-api
+- collection_type: open
+  name: Creed achievements bible-progress API
+  slug: open-creed-bible-progress-api
+- collection_type: open
+  name: Creed achievements chatbot API
+  slug: open-creed-chatbot-api
+- collection_type: open
+  name: Creed achievements church-admin API
+  slug: open-creed-church-admin-api
+- collection_type: open
+  name: Creed achievements church-announcements API
+  slug: open-creed-church-announcements-api
+- collection_type: open
+  name: Creed achievements churches API
+  slug: open-creed-churches-api
+- collection_type: open
+  name: Creed achievements config API
+  slug: open-creed-config-api
+- collection_type: open
+  name: Creed achievements cron-tasks API
+  slug: open-creed-cron-tasks-api
+- collection_type: open
+  name: Creed achievements daily-devotional API
+  slug: open-creed-daily-devotional-api
+- collection_type: open
+  name: Creed achievements daily-quests API
+  slug: open-creed-daily-quests-api
+- collection_type: open
+  name: Creed achievements dream-goal API
+  slug: open-creed-dream-goal-api
+- collection_type: open
+  name: Creed achievements Email Notifications API
+  slug: open-creed-email-notifications-api
+- collection_type: open
+  name: Creed achievements friends API
+  slug: open-creed-friends-api
+- collection_type: open
+  name: Creed achievements gamification API
+  slug: open-creed-gamification-api
+- collection_type: open
+  name: Creed achievements gifts API
+  slug: open-creed-gifts-api
+- collection_type: open
+  name: Creed achievements gratitude API
+  slug: open-creed-gratitude-api
+- collection_type: open
+  name: Creed achievements group-chat API
+  slug: open-creed-group-chat-api
+- collection_type: open
+  name: Creed achievements health API
+  slug: open-creed-health-api
+- collection_type: open
+  name: Creed achievements image-generation API
+  slug: open-creed-image-generation-api
+- collection_type: open
+  name: Creed achievements journal API
+  slug: open-creed-journal-api
+- collection_type: open
+  name: Creed achievements leaderboard API
+  slug: open-creed-leaderboard-api
+- collection_type: open
+  name: Creed achievements learning-plans API
+  slug: open-creed-learning-plans-api
+- collection_type: open
+  name: Creed achievements live-activity API
+  slug: open-creed-live-activity-api
+- collection_type: open
+  name: Creed achievements live-streams API
+  slug: open-creed-live-streams-api
+- collection_type: open
+  name: Creed achievements livekit API
+  slug: open-creed-livekit-api
+- collection_type: open
+  name: Creed achievements prayer-journal API
+  slug: open-creed-prayer-journal-api
+- collection_type: open
+  name: Creed achievements prayer-library API
+  slug: open-creed-prayer-library-api
+- collection_type: open
+  name: Creed achievements prayer-wall API
+  slug: open-creed-prayer-wall-api
+- collection_type: open
+  name: Creed achievements prayers API
+  slug: open-creed-prayers-api
+- collection_type: open
+  name: Creed achievements referrals API
+  slug: open-creed-referrals-api
+- collection_type: open
+  name: Creed achievements reminders API
+  slug: open-creed-reminders-api
+- collection_type: open
+  name: Creed achievements sanctum-chatbot API
+  slug: open-creed-sanctum-chatbot-api
+- collection_type: open
+  name: Creed achievements scheduled-notifications API
+  slug: open-creed-scheduled-notifications-api
+- collection_type: open
+  name: Creed achievements seo API
+  slug: open-creed-seo-api
+- collection_type: open
+  name: Creed achievements social-feed API
+  slug: open-creed-social-feed-api
+- collection_type: open
+  name: Creed achievements sponsorship API
+  slug: open-creed-sponsorship-api
+- collection_type: open
+  name: Creed achievements spotlight API
+  slug: open-creed-spotlight-api
+- collection_type: open
+  name: Creed achievements streaks API
+  slug: open-creed-streaks-api
+- collection_type: open
+  name: Creed achievements time-spent API
+  slug: open-creed-time-spent-api
+- collection_type: open
+  name: Creed achievements tts API
+  slug: open-creed-tts-api
+- collection_type: open
+  name: Creed achievements user-item-preferences API
+  slug: open-creed-user-item-preferences-api
+- collection_type: open
+  name: Creed achievements users API
+  slug: open-creed-users-api
+- collection_type: open
+  name: Creed achievements verses API
+  slug: open-creed-verses-api
+- collection_type: open
+  name: Creed achievements webhooks API
+  slug: open-creed-webhooks-api
 common:
 - group: agent
   title: ''
@@ -259,7 +410,7 @@ overview: 'Creed publishes 49 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Creed''s developer surface includes authentication, engineering blog, support, and 11 more developer resources.'
-random_paper: 35
+random_paper: 68
 score:
   band: thin
   composite: 28.6
@@ -283,7 +434,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/screenshots/creed-2026-07-25T210722.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -117,11 +117,93 @@ apis:
 - description: The Webhooks API from Pax8 — 8 operation(s) for webhooks.
   name: Pax8 Webhooks API
   slug: pax8-webhooks-api
-artifact_total: 33
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Pax8 Webhooks
   slug: pax8-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authentication Access Token API
+  slug: open-pax8-access-token-api
+- collection_type: open
+  name: Authentication Access Token Companies API
+  slug: open-pax8-companies-api
+- collection_type: open
+  name: Authentication Access Token Contacts API
+  slug: open-pax8-contacts-api
+- collection_type: open
+  name: Authentication Access Token Invoices API
+  slug: open-pax8-invoices-api
+- collection_type: open
+  name: Authentication Access Token Library attachments API
+  slug: open-pax8-library-attachments-api
+- collection_type: open
+  name: Authentication Access Token Orders API
+  slug: open-pax8-orders-api
+- collection_type: open
+  name: Authentication Access Token Preference attachments API
+  slug: open-pax8-preference-attachments-api
+- collection_type: open
+  name: Authentication Access Token Products API
+  slug: open-pax8-products-api
+- collection_type: open
+  name: Authentication Access Token Provision Attempts API
+  slug: open-pax8-provision-attempts-api
+- collection_type: open
+  name: Authentication Access Token Provision Details API
+  slug: open-pax8-provision-details-api
+- collection_type: open
+  name: Authentication Access Token Provision Requests API
+  slug: open-pax8-provision-requests-api
+- collection_type: open
+  name: Authentication Access Token Provision Results API
+  slug: open-pax8-provision-results-api
+- collection_type: open
+  name: Authentication Access Token Provisioners API
+  slug: open-pax8-provisioners-api
+- collection_type: open
+  name: Authentication Access Token Provisioning Simulations API
+  slug: open-pax8-provisioning-simulations-api
+- collection_type: open
+  name: Authentication Access Token Quote access list API
+  slug: open-pax8-quote-access-list-api
+- collection_type: open
+  name: Authentication Access Token Quote attachments API
+  slug: open-pax8-quote-attachments-api
+- collection_type: open
+  name: Authentication Access Token Quote line items API
+  slug: open-pax8-quote-line-items-api
+- collection_type: open
+  name: Authentication Access Token Quote preferences API
+  slug: open-pax8-quote-preferences-api
+- collection_type: open
+  name: Authentication Access Token Quote sections API
+  slug: open-pax8-quote-sections-api
+- collection_type: open
+  name: Authentication Access Token Quotes API
+  slug: open-pax8-quotes-api
+- collection_type: open
+  name: Authentication Access Token Subscriptions API
+  slug: open-pax8-subscriptions-api
+- collection_type: open
+  name: Authentication Access Token Topic Definitions API
+  slug: open-pax8-topic-definitions-api
+- collection_type: open
+  name: Authentication Access Token Usage Lines API
+  slug: open-pax8-usage-lines-api
+- collection_type: open
+  name: Authentication Access Token Usage Summaries API
+  slug: open-pax8-usage-summaries-api
+- collection_type: open
+  name: Authentication Access Token Webhook Logs API
+  slug: open-pax8-webhook-logs-api
+- collection_type: open
+  name: Authentication Access Token Webhooks API
+  slug: open-pax8-webhooks-api
 common:
 - group: start
   title: ''
@@ -250,7 +332,7 @@ overview: 'Pax8 publishes 26 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Pax8''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 20 more developer resources.'
-random_paper: 25
+random_paper: 87
 scopes:
 - name: Pax8 Scopes
   scope_count: 4
@@ -279,7 +361,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pax8/refs/heads/main/screenshots/pax8-2026-08-07T191618.png
 security:

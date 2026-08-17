@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1702
   human_in_the_loop: 67
@@ -300,11 +300,276 @@ apis:
 - description: Adherence, Schedules, Forecasts, Intraday Monitoring, Time Off Requests, Configuration
   name: Genesys Workforce Management API
   slug: genesys-workforce-management-api
-artifact_total: 94
+artifact_total: 182
 asyncapis:
 - description: ''
   name: Genesys Notifications Webhooks
   slug: genesys-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PureCloud Platform Agent Assistants API
+  slug: open-genesys-agent-assistants-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Agent Copilot API
+  slug: open-genesys-agent-copilot-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Agent UI API
+  slug: open-genesys-agent-ui-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants AI Studio API
+  slug: open-genesys-ai-studio-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Alerting API
+  slug: open-genesys-alerting-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Analytics API
+  slug: open-genesys-analytics-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Architect API
+  slug: open-genesys-architect-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Assistant Copilot Variations API
+  slug: open-genesys-assistant-copilot-variations-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Audit API
+  slug: open-genesys-audit-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Authorization API
+  slug: open-genesys-authorization-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Background Assistant API
+  slug: open-genesys-background-assistant-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Billing API
+  slug: open-genesys-billing-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Business Rules API
+  slug: open-genesys-business-rules-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Carrier Services API
+  slug: open-genesys-carrier-services-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Case Management API
+  slug: open-genesys-case-management-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Chat API
+  slug: open-genesys-chat-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Coaching API
+  slug: open-genesys-coaching-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Content Management API
+  slug: open-genesys-content-management-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Conversations API
+  slug: open-genesys-conversations-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Data Extensions API
+  slug: open-genesys-data-extensions-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Data Privacy API
+  slug: open-genesys-data-privacy-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Downloads API
+  slug: open-genesys-downloads-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Emails API
+  slug: open-genesys-emails-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Employee Engagement API
+  slug: open-genesys-employee-engagement-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Events API
+  slug: open-genesys-events-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants External Contacts API
+  slug: open-genesys-external-contacts-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Fax API
+  slug: open-genesys-fax-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Flows API
+  slug: open-genesys-flows-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Gamification API
+  slug: open-genesys-gamification-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants General Data Protection Regulation API
+  slug: open-genesys-general-data-protection-regulation-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Geolocation API
+  slug: open-genesys-geolocation-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Greetings API
+  slug: open-genesys-greetings-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Groups API
+  slug: open-genesys-groups-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Identity Provider API
+  slug: open-genesys-identity-provider-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Infrastructure as Code API
+  slug: open-genesys-infrastructure-as-code-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Integrations API
+  slug: open-genesys-integrations-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Intents API
+  slug: open-genesys-intents-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Journey API
+  slug: open-genesys-journey-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Knowledge API
+  slug: open-genesys-knowledge-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Language Understanding API
+  slug: open-genesys-language-understanding-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Languages API
+  slug: open-genesys-languages-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Learning API
+  slug: open-genesys-learning-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants License API
+  slug: open-genesys-license-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Locations API
+  slug: open-genesys-locations-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Log Capture API
+  slug: open-genesys-log-capture-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Messaging API
+  slug: open-genesys-messaging-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Mobile Devices API
+  slug: open-genesys-mobile-devices-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Notifications API
+  slug: open-genesys-notifications-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants OAuth API
+  slug: open-genesys-oauth-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Objects API
+  slug: open-genesys-objects-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Operational Events API
+  slug: open-genesys-operational-events-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Organization API
+  slug: open-genesys-organization-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Organization Authorization API
+  slug: open-genesys-organization-authorization-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Outbound API
+  slug: open-genesys-outbound-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Presence API
+  slug: open-genesys-presence-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Process Automation API
+  slug: open-genesys-process-automation-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Quality API
+  slug: open-genesys-quality-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Recording API
+  slug: open-genesys-recording-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Response Management API
+  slug: open-genesys-response-management-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Routing API
+  slug: open-genesys-routing-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants SCIM API
+  slug: open-genesys-scim-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Screen Monitoring API
+  slug: open-genesys-screen-monitoring-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Scripts API
+  slug: open-genesys-scripts-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Search API
+  slug: open-genesys-search-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Settings API
+  slug: open-genesys-settings-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Social Media API
+  slug: open-genesys-social-media-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Speech & Text Analytics API
+  slug: open-genesys-speech-text-analytics-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Stations API
+  slug: open-genesys-stations-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Suggest API
+  slug: open-genesys-suggest-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Task Management API
+  slug: open-genesys-task-management-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Teams API
+  slug: open-genesys-teams-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Telephony API
+  slug: open-genesys-telephony-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Telephony Providers Edge API
+  slug: open-genesys-telephony-providers-edge-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Textbots API
+  slug: open-genesys-textbots-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Tokens API
+  slug: open-genesys-tokens-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Uploads API
+  slug: open-genesys-uploads-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Usage API
+  slug: open-genesys-usage-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants User Recordings API
+  slug: open-genesys-user-recordings-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Users API
+  slug: open-genesys-users-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Users Rules API
+  slug: open-genesys-users-rules-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Utilities API
+  slug: open-genesys-utilities-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Voicemail API
+  slug: open-genesys-voicemail-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Web Deployments API
+  slug: open-genesys-web-deployments-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants WebChat API
+  slug: open-genesys-webchat-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants WebMessaging API
+  slug: open-genesys-webmessaging-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Widgets API
+  slug: open-genesys-widgets-api
+- collection_type: open
+  name: PureCloud Platform Agent Assistants Workforce Management API
+  slug: open-genesys-workforce-management-api
 common:
 - group: other
   title: ''
@@ -453,7 +718,7 @@ overview: 'Genesys publishes 87 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Genesys'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 46
+random_paper: 21
 scopes:
 - name: Genesys Scopes
   scope_count: 135
@@ -488,7 +753,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/screenshots/genesys-2026-07-25T215607.png
 security:

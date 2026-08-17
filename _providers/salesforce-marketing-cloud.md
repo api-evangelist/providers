@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 65.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -90,7 +90,11 @@ apis:
 - description: Create, manage, and automate customer journeys across multiple channels and touchpoints. Journeys define the automated workflows that guide customers through marketing interactions.
   name: Salesforce Marketing Cloud Journeys API
   slug: salesforce-marketing-cloud-journeys-api
-artifact_total: 162
+artifact_total: 170
+asyncapis:
+- description: ''
+  name: Salesforce Marketing Cloud Webhooks
+  slug: salesforce-marketing-cloud-webhooks
 collections:
 - collection_type: postman
   name: Salesforce Marketing Cloud REST Assets API
@@ -101,6 +105,18 @@ collections:
 - collection_type: postman
   name: Salesforce Marketing Cloud REST Assets Journeys API
   slug: postman-salesforce-marketing-cloud-journeys-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesforce Marketing Cloud REST Assets API
+  slug: open-salesforce-marketing-cloud-assets-api
+- collection_type: open
+  name: Salesforce Marketing Cloud REST Assets Contacts API
+  slug: open-salesforce-marketing-cloud-contacts-api
+- collection_type: open
+  name: Salesforce Marketing Cloud REST Assets Journeys API
+  slug: open-salesforce-marketing-cloud-journeys-api
 - collection_type: open
   name: Salesforce Marketing Cloud REST API
   slug: open-salesforce-marketing-cloud
@@ -172,7 +188,7 @@ common:
 - group: operate
   title: ''
   type: ChangeLog
-  url: https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/release-notes.html
+  url: https://help.salesforce.com/s/articleView?id=sf.mc_rn_release_notes.htm&type=5
 - group: operate
   title: ''
   type: RateLimits
@@ -185,8 +201,117 @@ common:
   title: ''
   type: Training
   url: https://trailhead.salesforce.com/en/content/learn/trails/get-started-with-marketing-cloud
+- group: build
+  title: ''
+  type: Packages
+  url: packages/salesforce-marketing-cloud-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/salesforce-marketing-cloud-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/salesforce-marketing-cloud-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/salesforce-marketing-cloud-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/salesforce-marketing-cloud-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/salesforce-marketing-cloud-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/salesforce-marketing-cloud-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://compliance.salesforce.com/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/salesforce-marketing-cloud-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/salesforce-marketing-cloud-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/api_rest_eol.htm
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/salesforce-marketing-cloud-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.salesforce.com/company/disclosure/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.salesforce.com/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/salesforce-marketing-cloud-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/salesforce-marketing-cloud-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/salesforce-marketing-cloud-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/salesforce-marketing-cloud-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/salesforce-marketing-cloud-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/salesforce-marketing-cloud-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/salesforce-marketing-cloud-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/salesforce-marketing-cloud-rate-limits.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/salesforce-marketingcloud
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.salesforce.com/company/legal/privacy/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.salesforce.com/form/signup/freetrial-marketing-cloud/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/get-started-index.html
 created: '2024-01-15'
-description: Salesforce Marketing Cloud is a comprehensive digital marketing platform that enables businesses to manage customer journeys, email marketing, mobile messaging, social media marketing, advertising, and data analytics.
+description: 'Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marketingcloudapis.com and every SOAP call to https://{subdomain}.soap.marketingcloudapis.com, with OAuth 2.0 tokens issued per tenant from https://{subdomain}.auth.marketingcloudapis.com/v2/token and scopes granted to an Installed Package rather than requested at authorization time. Product areas are versioned independently at v1 behind route prefixes (/asset, /contacts, /interaction, /data, /messaging, /push, /sms, /automation, /hub, /platform). Salesforce also operates a first-party hosted MCP server for Marketing Cloud Engagement, generally available since June 2026, exposing 142 tools across eleven product areas, and an outbound webhook product, the Event Notification Service, with
+  HMAC-SHA256 signed callbacks.'
 examples:
 - key_count: 4
   name: Salesforce Marketing Cloud Asset Collection Example
@@ -569,24 +694,28 @@ jsonld:
   property_count: 0
   slug: salesforce-marketing-cloud-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: salesforce-marketing-cloud-mcp.yml
+  slug: salesforce-marketing-cloud-mcpyml
+modified: '2026-08-13'
 name: Salesforce Marketing Cloud
 nav: Providers
 network: true
-overview: 'Salesforce Marketing Cloud publishes 3 APIs on the [APIs.io](https://apis.io/) network: Assets API, Contacts API, and Journeys API. Tagged areas include Automation, Customer Journey, Digital Marketing, Email, and Marketing.
+overview: 'Salesforce Marketing Cloud publishes 3 APIs on the [APIs.io](https://apis.io/) network: Assets API, Contacts API, and Journeys API. Tagged areas include Automation, Content Management, Customer Journey, Digital Marketing, and Email.
 
 
-  The Salesforce Marketing Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Salesforce Marketing Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Salesforce Marketing Cloud''s developer surface includes authentication, engineering blog, documentation, API reference, support, pricing, changelog, and 13 more developer resources.'
+  Salesforce Marketing Cloud''s developer surface includes authentication, engineering blog, documentation, API reference, support, pricing, changelog, and 40 more developer resources.'
 plans:
 - name: Salesforce Marketing Cloud Plans Pricing
-  plan_count: 1
+  plan_count: 10
   slug: salesforce-marketing-cloud-plans-pricing
-random_paper: 10
+random_paper: 117
 rate_limits:
-- limit_count: 1
+- limit_count: 3
   name: Salesforce Marketing Cloud Rate Limits
   slug: salesforce-marketing-cloud-rate-limits
 rules:
@@ -612,16 +741,16 @@ scopes:
   slug: salesforce-marketing-cloud-scopes
   summary_line: 42 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.7
-  delta: 0.0
+  band: exemplar
+  composite: 77.5
+  delta: 23.8
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 66.1
-    developer_ergonomics: 52.2
-    discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 36.8
+    commercial_clarity: 76.3
+    contract_quality: 74.0
+    developer_ergonomics: 78.3
+    discoverability: 100.0
+    governance: 79.2
+    operational_transparency: 71.1
   previous_composite: 53.7
   provenance:
     agentic_access: derived
@@ -630,9 +759,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:
 - kind: authentication
@@ -643,14 +778,28 @@ security:
   name: Salesforce Marketing Cloud Domain Security
   slug: salesforce-marketing-cloud-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Salesforce Marketing Cloud Vulnerability Disclosure
+  slug: salesforce-marketing-cloud-vulnerability-disclosure
+  summary_line: Hackerone · security.txt
+- kind: trust-center
+  name: Salesforce Marketing Cloud Trust Center
+  slug: salesforce-marketing-cloud-trust-center
+  summary_line: SOC 1, SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, CSA STAR, GDPR
 slug: salesforce-marketing-cloud
 tags:
 - Automation
+- Content Management
 - Customer Journey
 - Digital Marketing
 - Email
 - Marketing
+- Marketing Automation
+- MCP
+- Mobile Messaging
 - Personalization
+- SMS
+- Webhooks
 use_cases:
 - description: Automate multi-step welcome sequences across email and SMS to guide new customers through product adoption.
   name: Customer Onboarding Journeys

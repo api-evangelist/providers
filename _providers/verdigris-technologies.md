@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Endpoints that return control data from building management systems (BMS)
@@ -61,7 +61,41 @@ apis:
 - description: Endpoints that return weather data
   name: Verdigris Technologies Weather API
   slug: verdigris-technologies-weather-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Data Control API
+  slug: open-verdigris-technologies-control-api
+- collection_type: open
+  name: Data Control Current API
+  slug: open-verdigris-technologies-current-api
+- collection_type: open
+  name: Data Control Energy API
+  slug: open-verdigris-technologies-energy-api
+- collection_type: open
+  name: Data Control Events API
+  slug: open-verdigris-technologies-events-api
+- collection_type: open
+  name: Data Control Forecast API
+  slug: open-verdigris-technologies-forecast-api
+- collection_type: open
+  name: Data Control Power API
+  slug: open-verdigris-technologies-power-api
+- collection_type: open
+  name: Data Control Power Factor API
+  slug: open-verdigris-technologies-power-factor-api
+- collection_type: open
+  name: Data Control Total Harmonic Distortion API
+  slug: open-verdigris-technologies-total-harmonic-distortion-api
+- collection_type: open
+  name: Data Control Voltage API
+  slug: open-verdigris-technologies-voltage-api
+- collection_type: open
+  name: Data Control Weather API
+  slug: open-verdigris-technologies-weather-api
 common:
 - group: auth
   title: ''
@@ -175,7 +209,7 @@ overview: 'Verdigris Technologies publishes 10 APIs on the [APIs.io](https://api
 
 
   Verdigris Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 18 more developer resources.'
-random_paper: 24
+random_paper: 69
 scopes:
 - name: Verdigris Technologies Scopes
   scope_count: 0
@@ -209,7 +243,7 @@ score:
     regime_id: energy_utilities
     score: 58.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

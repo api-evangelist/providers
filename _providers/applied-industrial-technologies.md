@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: Industrial product catalog operations
   name: Applied Industrial Technologies Products API
   slug: applied-industrial-technologies-products-api
-artifact_total: 13
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Applied Industrial Technologies Product Catalog Orders API
+  slug: open-applied-industrial-technologies-orders-api
+- collection_type: open
+  name: Applied Industrial Technologies Product Catalog Orders Products API
+  slug: open-applied-industrial-technologies-products-api
 common:
 - group: agent
   title: ''
@@ -118,7 +128,7 @@ press:
 - date: '2026-05-25'
   title: AIT Applied Industrial Technologies, Inc. Stock Price & ...
   url: https://seekingalpha.com/symbol/AIT
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Applied Industrial Technologies Rate Limits
@@ -166,7 +176,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

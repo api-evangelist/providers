@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -47,11 +47,24 @@ apis:
 - description: Subscribe to real-time call events.
   name: Samora AI Webhooks API
   slug: samora-ai-webhooks-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: Real-time call events delivered by Samora AI to a subscriber-provided HTTPS endpoint. Subscriptions are managed via the REST /v2/webhooks operations; each subscription returns a signing secret used to
   name: Samora AI Webhooks
   slug: samora-ai-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Samora AI Calls API
+  slug: open-samora-ai-calls-api
+- collection_type: open
+  name: Samora AI Calls Campaigns API
+  slug: open-samora-ai-campaigns-api
+- collection_type: open
+  name: Samora AI Calls Webhooks API
+  slug: open-samora-ai-webhooks-api
 common:
 - group: start
   title: ''
@@ -168,7 +181,7 @@ overview: 'Samora AI publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Samora AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 50
+random_paper: 145
 score:
   band: thin
   composite: 30.1
@@ -192,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ arazzos:
 - description: Turn raw coordinates into a street address, then list the points of interest surrounding that point.
   name: Google Maps Reverse Geocode a Coordinate and Discover What Is Around It
   slug: google-maps-reverse-geocode-to-nearby-workflow
-artifact_total: 309
+artifact_total: 315
 collections:
 - collection_type: postman
   name: Google Maps Directions Autocomplete API
@@ -205,14 +205,32 @@ collections:
   name: Google Maps Directions Autocomplete Text Search API
   slug: postman-google-maps-text-search-api
 - collection_type: open
-  name: Google Maps Directions API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Maps Directions Autocomplete API
+  slug: open-google-maps-autocomplete-api
+- collection_type: open
+  name: Google Maps Autocomplete Directions API
   slug: open-google-maps-directions-api
 - collection_type: open
-  name: Google Maps Geocoding API
+  name: Google Maps Directions Autocomplete Geocoding API
   slug: open-google-maps-geocoding-api
+- collection_type: open
+  name: Google Maps Directions Autocomplete Nearby Search API
+  slug: open-google-maps-nearby-search-api
+- collection_type: open
+  name: Google Maps Directions Autocomplete Photos API
+  slug: open-google-maps-photos-api
+- collection_type: open
+  name: Google Maps Directions Autocomplete Place Details API
+  slug: open-google-maps-place-details-api
 - collection_type: open
   name: Google Maps Places API (New)
   slug: open-google-maps-places-api
+- collection_type: open
+  name: Google Maps Directions Autocomplete Text Search API
+  slug: open-google-maps-text-search-api
 common:
 - group: build
   title: ''
@@ -1088,7 +1106,7 @@ plans:
 - name: Google Maps Plans Pricing
   plan_count: 3
   slug: google-maps-plans-pricing
-random_paper: 35
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Google Maps Rate Limits
@@ -1132,7 +1150,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png
 security:

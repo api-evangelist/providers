@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -113,7 +113,77 @@ apis:
 - description: The Workflows API from Tecnológico de Monterrey — 1 operation(s) for workflows.
   name: Tecnológico de Monterrey Workflows API
   slug: tecnologico-de-monterrey-workflows-api
-artifact_total: 39
+artifact_total: 62
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access API
+  slug: open-tecnologico-de-monterrey-access-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Admin API
+  slug: open-tecnologico-de-monterrey-admin-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Batch API
+  slug: open-tecnologico-de-monterrey-batch-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Builtin Users API
+  slug: open-tecnologico-de-monterrey-builtin-users-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Datasets API
+  slug: open-tecnologico-de-monterrey-datasets-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Datatags API
+  slug: open-tecnologico-de-monterrey-datatags-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Dataverses API
+  slug: open-tecnologico-de-monterrey-dataverses-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Edit API
+  slug: open-tecnologico-de-monterrey-edit-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Files API
+  slug: open-tecnologico-de-monterrey-files-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Harvest API
+  slug: open-tecnologico-de-monterrey-harvest-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Info API
+  slug: open-tecnologico-de-monterrey-info-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Ingest API
+  slug: open-tecnologico-de-monterrey-ingest-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Mail API
+  slug: open-tecnologico-de-monterrey-mail-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Meta API
+  slug: open-tecnologico-de-monterrey-meta-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Metadatablocks API
+  slug: open-tecnologico-de-monterrey-metadatablocks-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Mydata API
+  slug: open-tecnologico-de-monterrey-mydata-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Notifications API
+  slug: open-tecnologico-de-monterrey-notifications-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Pids API
+  slug: open-tecnologico-de-monterrey-pids-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Roles API
+  slug: open-tecnologico-de-monterrey-roles-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Search API
+  slug: open-tecnologico-de-monterrey-search-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Users API
+  slug: open-tecnologico-de-monterrey-users-api
+- collection_type: open
+  name: Tec de Monterrey Dataverse Native REST Access Workflows API
+  slug: open-tecnologico-de-monterrey-workflows-api
 common:
 - group: agent
   title: ''
@@ -208,7 +278,7 @@ plans:
 - name: Tecnologico De Monterrey Plans Pricing
   plan_count: 2
   slug: tecnologico-de-monterrey-plans-pricing
-random_paper: 62
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Tecnologico De Monterrey Rate Limits
@@ -256,7 +326,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png
 security:

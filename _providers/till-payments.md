@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -47,11 +47,18 @@ arazzos:
 - description: Register (tokenize) a payment instrument, then charge it with a debit using the returned transactionToken.
   name: Till Payments — tokenize and charge
   slug: till-payments-tokenize-and-charge
-artifact_total: 11
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Till Payments Callbacks Webhooks
   slug: till-payments-callbacks-webhooks
+collections:
+- collection_type: open
+  name: tillpayments.com Payment Platform
+  slug: open-till-payments-direct-pci
+- collection_type: open
+  name: Till Payments Gateway
+  slug: open-till-payments-gateway
 common:
 - group: agent
   title: ''
@@ -172,7 +179,7 @@ overview: 'Till Payments publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Till Payments'' developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
-random_paper: 43
+random_paper: 22
 score:
   band: developing
   composite: 42.3
@@ -202,7 +209,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

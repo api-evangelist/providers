@@ -14,22 +14,22 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-12'
+  score: 59.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,11 @@ apis:
 - description: Operations for executing and managing protected queries
   name: Amazon Clean Rooms Protected Queries API
   slug: amazon-clean-rooms-protected-queries-api
-artifact_total: 86
+artifact_total: 94
+asyncapis:
+- description: ''
+  name: Amazon Clean Rooms Events
+  slug: amazon-clean-rooms-events
 collections:
 - collection_type: postman
   name: Amazon Clean Rooms Collaborations API
@@ -65,6 +69,21 @@ collections:
 - collection_type: postman
   name: Amazon Clean Rooms Collaborations Protected Queries API
   slug: postman-amazon-clean-rooms-protected-queries-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Clean Rooms Collaborations API
+  slug: open-amazon-clean-rooms-collaborations-api
+- collection_type: open
+  name: Amazon Clean Rooms Collaborations Configured Tables API
+  slug: open-amazon-clean-rooms-configured-tables-api
+- collection_type: open
+  name: Amazon Clean Rooms Collaborations Memberships API
+  slug: open-amazon-clean-rooms-memberships-api
+- collection_type: open
+  name: Amazon Clean Rooms Collaborations Protected Queries API
+  slug: open-amazon-clean-rooms-protected-queries-api
 common:
 - group: agent
   title: ''
@@ -186,6 +205,78 @@ common:
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-clean-rooms-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/amazon-clean-rooms-lifecycle.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/amazon-clean-rooms-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/amazon-clean-rooms-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/amazon-clean-rooms-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-clean-rooms-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/amazon-clean-rooms-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/amazon-clean-rooms-cli.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/amazon-clean-rooms-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/amazon-clean-rooms-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/amazon-clean-rooms-error-codes.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/amazon-clean-rooms-events.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/amazon-clean-rooms-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/amazon-clean-rooms-conformance.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/clean-rooms/pricing/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aws.amazon.com/clean-rooms/latest/apireference/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.aws.amazon.com/clean-rooms/latest/userguide/getting-started.html
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.aws.amazon.com/clean-rooms/
 created: '2026-03-16'
 description: Amazon Clean Rooms enables organizations to collaborate and analyze shared datasets without exposing underlying raw data to partners. Create secure data clean rooms in minutes and collaborate with any company while maintaining data privacy through differential privacy, cryptographic computing, and flexible analytics.
 examples:
@@ -383,18 +474,26 @@ mcp_servers:
 - description: ''
   name: amazon-clean-rooms-mcp.yml
   slug: amazon-clean-rooms-mcpyml
-modified: '2026-06-20'
+modified: '2026-08-13'
 name: Amazon Clean Rooms
 nav: Providers
 network: true
 overview: 'Amazon Clean Rooms publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Collaborations API, Configured Tables API, Memberships API, and 1 more. Tagged areas include Clean Rooms, Data Collaboration, Privacy, Analytics, and Marketing.
 
 
-  The Amazon Clean Rooms catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Amazon Clean Rooms catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Amazon Clean Rooms'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 11
+  Amazon Clean Rooms'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 41 more developer resources.'
+plans:
+- name: Amazon Clean Rooms Plans Pricing
+  plan_count: 0
+  slug: amazon-clean-rooms-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 6
+  name: Amazon Clean Rooms Rate Limits
+  slug: amazon-clean-rooms-rate-limits
 rules:
 - name: Amazon Clean Rooms API Rules
   rule_count: 5
@@ -413,16 +512,16 @@ rules:
     warn: 17
   slug: amazon-clean-rooms-spectral-rules
 score:
-  band: developing
-  composite: 49.2
-  delta: 0.0
+  band: exemplar
+  composite: 70.5
+  delta: 21.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 32.0
-    developer_ergonomics: 47.8
+    commercial_clarity: 60.5
+    contract_quality: 41.0
+    developer_ergonomics: 84.8
     discoverability: 92.6
     governance: 80.2
-    operational_transparency: 21.1
+    operational_transparency: 94.7
   previous_composite: 49.2
   provenance:
     agentic_access: derived
@@ -434,14 +533,14 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/screenshots/amazon-clean-rooms-2026-07-25T195939.png
 security:
 - kind: authentication
   name: Amazon Clean Rooms Authentication
   slug: amazon-clean-rooms-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: aws-sigv4 · 1 scheme
 - kind: domain-security
   name: Amazon Clean Rooms Domain Security
   slug: amazon-clean-rooms-domain-security

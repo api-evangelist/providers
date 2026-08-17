@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Product catalog access
   name: Flower Shop Network Products API
   slug: flower-shop-network-products-api
-artifact_total: 10
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flower Shop Network JSON Authentication API
+  slug: open-flower-shop-network-authentication-api
+- collection_type: open
+  name: Flower Shop Network JSON Authentication Florists API
+  slug: open-flower-shop-network-florists-api
+- collection_type: open
+  name: Flower Shop Network JSON Authentication Orders API
+  slug: open-flower-shop-network-orders-api
+- collection_type: open
+  name: Flower Shop Network JSON Authentication Products API
+  slug: open-flower-shop-network-products-api
 - collection_type: open
   name: Flower Shop Network JSON API
   slug: open-flower-shop-network
@@ -100,7 +115,7 @@ plans:
 - name: Flower Shop Network Plans Pricing
   plan_count: 3
   slug: flower-shop-network-plans-pricing
-random_paper: 45
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Flower Shop Network Rate Limits
@@ -125,7 +140,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/screenshots/flower-shop-network-2026-06-20T181329.png
 security:

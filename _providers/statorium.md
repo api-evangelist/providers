@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,11 @@ apis:
 - description: Retrieve NFL team information, rosters, and statistics.
   name: Statorium Teams API
   slug: statorium-teams-api
-artifact_total: 28
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Statorium American Football API
   slug: open-statorium-american-football-api
@@ -74,6 +77,30 @@ collections:
 - collection_type: open
   name: Statorium Football API
   slug: open-statorium-football-api
+- collection_type: open
+  name: Statorium American Football Games API
+  slug: open-statorium-games-api
+- collection_type: open
+  name: Statorium American Football Games Leagues API
+  slug: open-statorium-leagues-api
+- collection_type: open
+  name: Statorium American Football Games Matches API
+  slug: open-statorium-matches-api
+- collection_type: open
+  name: Statorium American Football Games News API
+  slug: open-statorium-news-api
+- collection_type: open
+  name: Statorium American Football Games Players API
+  slug: open-statorium-players-api
+- collection_type: open
+  name: Statorium American Football Games Seasons API
+  slug: open-statorium-seasons-api
+- collection_type: open
+  name: Statorium American Football Games Standings API
+  slug: open-statorium-standings-api
+- collection_type: open
+  name: Statorium American Football Games Teams API
+  slug: open-statorium-teams-api
 common:
 - group: agent
   title: ''
@@ -190,7 +217,7 @@ plans:
 - name: Statorium Plans Pricing
   plan_count: 1
   slug: statorium-plans-pricing
-random_paper: 40
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: Statorium Rate Limits
@@ -232,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/screenshots/statorium-2026-06-20T194526.png
 security:

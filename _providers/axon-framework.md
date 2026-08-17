@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,8 +65,38 @@ apis:
 - description: The Users API from Axon Framework — 2 operation(s) for users.
   name: Axon Framework Users API
   slug: axon-framework-users-api
-artifact_total: 66
+artifact_total: 76
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Axon Server REST Applications API
+  slug: open-axon-framework-applications-api
+- collection_type: open
+  name: Axon Server REST Applications Cluster API
+  slug: open-axon-framework-cluster-api
+- collection_type: open
+  name: Axon Server REST Applications Commands API
+  slug: open-axon-framework-commands-api
+- collection_type: open
+  name: Axon Server REST Applications Contexts API
+  slug: open-axon-framework-contexts-api
+- collection_type: open
+  name: Axon Server REST Applications Event Processors API
+  slug: open-axon-framework-event-processors-api
+- collection_type: open
+  name: Axon Server REST Applications Events API
+  slug: open-axon-framework-events-api
+- collection_type: open
+  name: Axon Server REST Applications Queries API
+  slug: open-axon-framework-queries-api
+- collection_type: open
+  name: Axon Server REST Applications Snapshots API
+  slug: open-axon-framework-snapshots-api
+- collection_type: open
+  name: Axon Server REST Applications Users API
+  slug: open-axon-framework-users-api
 - collection_type: open
   name: Axon Server REST API
   slug: open-axon-server-api
@@ -288,7 +318,7 @@ plans:
 - name: Axon Framework Plans Pricing
   plan_count: 3
   slug: axon-framework-plans-pricing
-random_paper: 17
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Axon Framework Rate Limits
@@ -330,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/screenshots/axon-framework-2026-06-20T172816.png
 security:

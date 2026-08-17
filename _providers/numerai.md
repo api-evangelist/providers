@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint (Elixir/Absinthe, introspection enabled) covering datasets, submissions, models, leaderboards, staking, and Compute webhooks for Numerai Classic, Signals, and Crypto Signals. A
@@ -187,7 +187,7 @@ overview: 'Numerai publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Numerai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, CLI, and 25 more developer resources.'
-random_paper: 33
+random_paper: 8
 rate_limits:
 - limit_count: 150
   name: Numerai Rate Limits
@@ -214,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numerai/refs/heads/main/screenshots/numerai-2026-08-07T185729.png
 security:

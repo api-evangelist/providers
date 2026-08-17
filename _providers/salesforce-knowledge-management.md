@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Article suggestion operations for cases and communities
   name: Salesforce Knowledge Management Suggestions API
   slug: salesforce-knowledge-management-suggestions-api
-artifact_total: 25
+artifact_total: 30
 collections:
 - collection_type: postman
   name: Salesforce Knowledge Management REST Articles API
@@ -69,8 +69,23 @@ collections:
   name: Salesforce Knowledge Management REST Articles Suggestions API
   slug: postman-salesforce-knowledge-management-suggestions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesforce Knowledge Management REST Articles API
+  slug: open-salesforce-knowledge-management-articles-api
+- collection_type: open
+  name: Salesforce Knowledge Management REST Articles Categories API
+  slug: open-salesforce-knowledge-management-categories-api
+- collection_type: open
   name: Salesforce Knowledge Management REST API
   slug: open-salesforce-knowledge-management-rest-api
+- collection_type: open
+  name: Salesforce Knowledge Management REST Articles Search API
+  slug: open-salesforce-knowledge-management-search-api
+- collection_type: open
+  name: Salesforce Knowledge Management REST Articles Suggestions API
+  slug: open-salesforce-knowledge-management-suggestions-api
 common:
 - group: build
   title: ''
@@ -198,7 +213,7 @@ plans:
 - name: Salesforce Knowledge Management Plans Pricing
   plan_count: 3
   slug: salesforce-knowledge-management-plans-pricing
-random_paper: 46
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Salesforce Knowledge Management Rate Limits
@@ -245,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/screenshots/salesforce-knowledge-management-2026-06-20T193346.png
 security:

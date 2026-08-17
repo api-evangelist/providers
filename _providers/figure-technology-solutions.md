@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: The Payment History V2 API from Figure Technology Solutions — 1 operation(s) for payment history v2.
   name: Figure Technology Solutions Payment History V2 API
   slug: figure-technology-solutions-payment-history-v2-api
-artifact_total: 13
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Figure Technology Solutions Webhooks
   slug: figure-technology-solutions-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HELOC Inquiries Encryption API
+  slug: open-figure-technology-solutions-encryption-api
+- collection_type: open
+  name: HELOC Inquiries Encryption HELOC application requests API
+  slug: open-figure-technology-solutions-heloc-application-requests-api
+- collection_type: open
+  name: HELOC Inquiries Encryption HELOC Offers API
+  slug: open-figure-technology-solutions-heloc-offers-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Loan Originator requests API
+  slug: open-figure-technology-solutions-loan-originator-requests-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Loan Tape V1 API
+  slug: open-figure-technology-solutions-loan-tape-v1-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Loan Tape V2 API
+  slug: open-figure-technology-solutions-loan-tape-v2-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Payment History V1 API
+  slug: open-figure-technology-solutions-payment-history-v1-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Payment History V2 API
+  slug: open-figure-technology-solutions-payment-history-v2-api
 common:
 - group: auth
   title: ''
@@ -207,7 +235,7 @@ overview: 'Figure Technology Solutions publishes 8 APIs on the [APIs.io](https:/
 
 
   Figure Technology Solutions'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 23 more developer resources.'
-random_paper: 64
+random_paper: 142
 score:
   band: developing
   composite: 46.5
@@ -231,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/screenshots/figure-technology-solutions-2026-07-25T214442.png
 security:

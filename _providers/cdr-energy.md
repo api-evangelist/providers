@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The ACCC-operated Consumer Data Right Register, the ecosystem's source of truth for who is allowed to participate. Unauthenticated endpoints return the energy data holder brand summary (84 brands with
@@ -40,11 +40,30 @@ apis:
 - description: The mandated reporting surface every data holder must expose to the ACCC — GET /admin/metrics returns availability, performance, invocation, error and rejection statistics, and POST /admin/register/me
   name: CDR Admin API
   slug: cdr-admin-api
-artifact_total: 17
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Cdr Energy Webhooks
   slug: cdr-energy-webhooks
+collections:
+- collection_type: open
+  name: CDR Admin API
+  slug: open-cdr-admin
+- collection_type: open
+  name: CDR Common API
+  slug: open-cdr-common
+- collection_type: open
+  name: CDR Dynamic Client Registration API
+  slug: open-cdr-dcr
+- collection_type: open
+  name: CDR Energy Secondary Data Holder API
+  slug: open-cdr-energy-sdh
+- collection_type: open
+  name: CDR Energy API
+  slug: open-cdr-energy
+- collection_type: open
+  name: CDR Register API
+  slug: open-cdr-register
 common:
 - group: operate
   title: ''
@@ -254,7 +273,7 @@ overview: 'Consumer Data Right (Energy) publishes 6 APIs on the [APIs.io](https:
 
 
   Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 36 more developer resources.'
-random_paper: 48
+random_paper: 114
 rate_limits:
 - limit_count: 6
   name: Cdr Energy Rate Limits
@@ -292,7 +311,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/screenshots/cdr-energy-2026-08-07T163251.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: The Tools API from Humanloop — 2 operation(s) for tools.
   name: Humanloop Tools API
   slug: humanloop-tools-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Humanloop Datasets API
+  slug: open-humanloop-datasets-api
+- collection_type: open
+  name: Humanloop Datasets Evaluators API
+  slug: open-humanloop-evaluators-api
+- collection_type: open
+  name: Humanloop Datasets Logs API
+  slug: open-humanloop-logs-api
+- collection_type: open
+  name: Humanloop Datasets Prompts API
+  slug: open-humanloop-prompts-api
+- collection_type: open
+  name: Humanloop Datasets Sessions API
+  slug: open-humanloop-sessions-api
+- collection_type: open
+  name: Humanloop Datasets Tools API
+  slug: open-humanloop-tools-api
 - collection_type: open
   name: Humanloop API
   slug: open-humanloop
@@ -142,7 +163,7 @@ plans:
 - name: Humanloop Plans Pricing
   plan_count: 1
   slug: humanloop-plans-pricing
-random_paper: 19
+random_paper: 85
 rate_limits:
 - limit_count: 2
   name: Humanloop Rate Limits
@@ -167,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/screenshots/humanloop-2026-06-20T182933.png
 security:

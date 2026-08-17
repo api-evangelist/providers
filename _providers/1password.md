@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ arazzos:
 - description: Open an item usage feed from a start time, then continue paging with the cursor while more remain.
   name: 1Password Stream Item Usages
   slug: 1password-stream-item-usages-workflow
-artifact_total: 148
+artifact_total: 160
 collections:
 - collection_type: postman
   name: 1Password Connect Server API
@@ -110,14 +110,50 @@ collections:
   name: 1Password Partnership API
   slug: postman-1password-partnership
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 1Password Connect Server Accounts API
+  slug: open-1password-accounts-api
+- collection_type: open
+  name: 1Password Connect Server Accounts Activity API
+  slug: open-1password-activity-api
+- collection_type: open
+  name: 1Password Connect Server Accounts Audit Events API
+  slug: open-1password-audit-events-api
+- collection_type: open
   name: 1Password Connect Server API
   slug: open-1password-connect
 - collection_type: open
   name: 1Password Events API
   slug: open-1password-events
 - collection_type: open
+  name: 1Password Connect Server Accounts Files API
+  slug: open-1password-files-api
+- collection_type: open
+  name: 1Password Connect Server Accounts Health API
+  slug: open-1password-health-api
+- collection_type: open
+  name: 1Password Connect Server Accounts Introspection API
+  slug: open-1password-introspection-api
+- collection_type: open
+  name: 1Password Connect Server Accounts Item Usages API
+  slug: open-1password-item-usages-api
+- collection_type: open
+  name: 1Password Connect Server Accounts Items API
+  slug: open-1password-items-api
+- collection_type: open
+  name: 1Password Connect Server Accounts Metrics API
+  slug: open-1password-metrics-api
+- collection_type: open
   name: 1Password Partnership API
   slug: open-1password-partnership
+- collection_type: open
+  name: 1Password Connect Server Accounts Sign-In Attempts API
+  slug: open-1password-sign-in-attempts-api
+- collection_type: open
+  name: 1Password Connect Server Accounts Vaults API
+  slug: open-1password-vaults-api
 common:
 - group: other
   title: ''
@@ -659,7 +695,7 @@ plans:
 - name: 1Password Plans Pricing
   plan_count: 5
   slug: 1password-plans-pricing
-random_paper: 92
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: 1Password Rate Limits
@@ -703,7 +739,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/screenshots/1password-2026-06-20T162519.png
 security:

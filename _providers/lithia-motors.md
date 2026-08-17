@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Lithia & Driveway (LAD) Continues Strategic Luxury ...
   url: https://www.prnewswire.com/news-releases/lithia--driveway-lad-continues-strategic-luxury-network-expansion-and-is-named-to-time-americas-growth-leaders-list-302611044.html
-random_paper: 36
+random_paper: 15
 score:
   band: minimal
   composite: 4.3
@@ -89,7 +89,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: lithia-motors
 tags:

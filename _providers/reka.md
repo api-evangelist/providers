@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Upload and manage videos for the Reka Vision platform.
   name: Reka Videos API
   slug: reka-videos-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reka Chat API
+  slug: open-reka-chat-api
+- collection_type: open
+  name: Reka Chat Clips API
+  slug: open-reka-clips-api
+- collection_type: open
+  name: Reka Chat Models API
+  slug: open-reka-models-api
+- collection_type: open
+  name: Reka Chat QA API
+  slug: open-reka-qa-api
+- collection_type: open
+  name: Reka Chat Research API
+  slug: open-reka-research-api
+- collection_type: open
+  name: Reka Chat Search API
+  slug: open-reka-search-api
+- collection_type: open
+  name: Reka Chat Speech API
+  slug: open-reka-speech-api
+- collection_type: open
+  name: Reka Chat VideoGroups API
+  slug: open-reka-videogroups-api
+- collection_type: open
+  name: Reka Chat Videos API
+  slug: open-reka-videos-api
 - collection_type: open
   name: Reka API
   slug: open-reka
@@ -152,7 +182,7 @@ plans:
 - name: Reka Plans Pricing
   plan_count: 1
   slug: reka-plans-pricing
-random_paper: 59
+random_paper: 121
 rate_limits:
 - limit_count: 2
   name: Reka Rate Limits
@@ -177,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/screenshots/reka-2026-06-20T192942.png
 security:

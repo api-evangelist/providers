@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ arazzos:
 - description: Upsert an Account on an external ID field, then attach a Contact to it.
   name: Salesforce Sales Cloud Upsert Account By External ID
   slug: salesforce-sales-cloud-upsert-account-by-external-id-workflow
-artifact_total: 162
+artifact_total: 208
 collections:
 - collection_type: postman
   name: Salesforce Sales Cloud Salesforce Analytics REST API
@@ -286,6 +286,9 @@ collections:
   name: Salesforce Sales Cloud Salesforce User Interface API
   slug: postman-salesforce-sales-cloud-ui-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Salesforce Sales Cloud Salesforce Analytics REST API
   slug: open-salesforce-sales-cloud-analytics-api
 - collection_type: open
@@ -298,26 +301,161 @@ collections:
   name: Salesforce Sales Cloud Salesforce Change Data Capture API
   slug: open-salesforce-sales-cloud-change-data-capture-api
 - collection_type: open
-  name: Salesforce Sales Cloud Salesforce Composite API
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events API
+  slug: open-salesforce-sales-cloud-change-events-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Communities API
+  slug: open-salesforce-sales-cloud-communities-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Completions API
+  slug: open-salesforce-sales-cloud-completions-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Composite API
   slug: open-salesforce-sales-cloud-composite-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Composite Batch API
+  slug: open-salesforce-sales-cloud-composite-batch-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Composite Graph API
+  slug: open-salesforce-sales-cloud-composite-graph-api
 - collection_type: open
   name: Salesforce Sales Cloud Salesforce Connect REST API
   slug: open-salesforce-sales-cloud-connect-api
 - collection_type: open
-  name: Salesforce Sales Cloud Salesforce GraphQL API
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Custom Endpoints API
+  slug: open-salesforce-sales-cloud-custom-endpoints-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Dashboards API
+  slug: open-salesforce-sales-cloud-dashboards-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Event Schema API
+  slug: open-salesforce-sales-cloud-event-schema-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Execute Anonymous API
+  slug: open-salesforce-sales-cloud-execute-anonymous-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Feed Items API
+  slug: open-salesforce-sales-cloud-feed-items-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Feeds API
+  slug: open-salesforce-sales-cloud-feeds-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Files API
+  slug: open-salesforce-sales-cloud-files-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events GraphQL API
   slug: open-salesforce-sales-cloud-graphql-api
 - collection_type: open
-  name: Salesforce Sales Cloud Salesforce Platform Events API
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Groups API
+  slug: open-salesforce-sales-cloud-groups-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Ingest Data API
+  slug: open-salesforce-sales-cloud-ingest-data-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Ingest Jobs API
+  slug: open-salesforce-sales-cloud-ingest-jobs-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Layouts API
+  slug: open-salesforce-sales-cloud-layouts-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Limits API
+  slug: open-salesforce-sales-cloud-limits-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events List Views API
+  slug: open-salesforce-sales-cloud-list-views-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Lookups API
+  slug: open-salesforce-sales-cloud-lookups-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Object Info API
+  slug: open-salesforce-sales-cloud-object-info-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Picklist Values API
+  slug: open-salesforce-sales-cloud-picklist-values-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Platform Events API
   slug: open-salesforce-sales-cloud-platform-events-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Process Approvals API
+  slug: open-salesforce-sales-cloud-process-approvals-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Query API
+  slug: open-salesforce-sales-cloud-query-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Query Jobs API
+  slug: open-salesforce-sales-cloud-query-jobs-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Query Results API
+  slug: open-salesforce-sales-cloud-query-results-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Recently Viewed API
+  slug: open-salesforce-sales-cloud-recently-viewed-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Record UI API
+  slug: open-salesforce-sales-cloud-record-ui-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Records API
+  slug: open-salesforce-sales-cloud-records-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Report Instances API
+  slug: open-salesforce-sales-cloud-report-instances-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Report Types API
+  slug: open-salesforce-sales-cloud-report-types-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Reports API
+  slug: open-salesforce-sales-cloud-reports-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Resources API
+  slug: open-salesforce-sales-cloud-resources-api
 - collection_type: open
   name: Salesforce Sales Cloud Salesforce REST API
   slug: open-salesforce-sales-cloud-rest-api
 - collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Run Tests API
+  slug: open-salesforce-sales-cloud-run-tests-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Search API
+  slug: open-salesforce-sales-cloud-search-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events SObject API
+  slug: open-salesforce-sales-cloud-sobject-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events SObject Collections API
+  slug: open-salesforce-sales-cloud-sobject-collections-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events SObject Describe API
+  slug: open-salesforce-sales-cloud-sobject-describe-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events SObject Rows API
+  slug: open-salesforce-sales-cloud-sobject-rows-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events SObject Tree API
+  slug: open-salesforce-sales-cloud-sobject-tree-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Tabs API
+  slug: open-salesforce-sales-cloud-tabs-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Themes API
+  slug: open-salesforce-sales-cloud-themes-api
+- collection_type: open
   name: Salesforce Sales Cloud Salesforce Tooling API
   slug: open-salesforce-sales-cloud-tooling-api
 - collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Tooling Query API
+  slug: open-salesforce-sales-cloud-tooling-query-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Tooling SObject Describe API
+  slug: open-salesforce-sales-cloud-tooling-sobject-describe-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Tooling SObjects API
+  slug: open-salesforce-sales-cloud-tooling-sobjects-api
+- collection_type: open
   name: Salesforce Sales Cloud Salesforce User Interface API
   slug: open-salesforce-sales-cloud-ui-api
+- collection_type: open
+  name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Users API
+  slug: open-salesforce-sales-cloud-users-api
 common:
 - group: agent
   title: ''
@@ -755,7 +893,7 @@ plans:
 - name: Salesforce Sales Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-sales-cloud-plans-pricing
-random_paper: 64
+random_paper: 138
 rate_limits:
 - limit_count: 1
   name: Salesforce Sales Cloud Rate Limits
@@ -802,7 +940,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
 security:

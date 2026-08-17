@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -72,14 +72,50 @@ apis:
 - description: Retrieve security event data and overviews.
   name: WatchGuard Security Events API
   slug: watchguard-security-events-api
-artifact_total: 29
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts API
+  slug: open-watchguard-accounts-api
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts Activations API
+  slug: open-watchguard-activations-api
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts Allocations API
+  slug: open-watchguard-allocations-api
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts Authorization API
+  slug: open-watchguard-authorization-api
 - collection_type: open
   name: WatchGuard Cloud Platform API
   slug: open-watchguard-cloud-platform
 - collection_type: open
+  name: WatchGuard Cloud Platform Accounts Configurations API
+  slug: open-watchguard-configurations-api
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts Device Actions API
+  slug: open-watchguard-device-actions-api
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts Devices API
+  slug: open-watchguard-devices-api
+- collection_type: open
   name: WatchGuard Endpoint Security Management API
   slug: open-watchguard-endpoint-security
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts Licenses API
+  slug: open-watchguard-licenses-api
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts Operators API
+  slug: open-watchguard-operators-api
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts Risk Assessment API
+  slug: open-watchguard-risk-assessment-api
+- collection_type: open
+  name: WatchGuard Cloud Platform Accounts Security Events API
+  slug: open-watchguard-security-events-api
 common:
 - group: agent
   title: ''
@@ -206,7 +242,7 @@ plans:
 - name: Watchguard Plans Pricing
   plan_count: 3
   slug: watchguard-plans-pricing
-random_paper: 106
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Watchguard Rate Limits
@@ -249,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/screenshots/watchguard-2026-06-20T201244.png
 security:

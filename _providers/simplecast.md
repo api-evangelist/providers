@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Podcasts (shows) and their related metadata.
   name: Simplecast Podcasts API
   slug: simplecast-podcasts-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Simplecast Analytics API
+  slug: open-simplecast-analytics-api
+- collection_type: open
+  name: Simplecast Analytics Distribution API
+  slug: open-simplecast-distribution-api
+- collection_type: open
+  name: Simplecast Analytics Episodes API
+  slug: open-simplecast-episodes-api
+- collection_type: open
+  name: Simplecast Analytics Metadata API
+  slug: open-simplecast-metadata-api
+- collection_type: open
+  name: Simplecast Analytics Podcasts API
+  slug: open-simplecast-podcasts-api
 - collection_type: open
   name: Simplecast API
   slug: open-simplecast
@@ -116,7 +134,7 @@ plans:
 - name: Simplecast Plans Pricing
   plan_count: 5
   slug: simplecast-plans-pricing
-random_paper: 117
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Simplecast Rate Limits
@@ -141,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 43
 apis:
 - description: The block-directory API from Legendary Entertainment — 1 operation(s) for block-directory.
@@ -160,7 +160,140 @@ apis:
 - description: The wp_pattern_category API from Legendary Entertainment — 2 operation(s) for wp_pattern_category.
   name: Legendary Entertainment wp_pattern_category API
   slug: legendary-wp-pattern-category-api
-artifact_total: 46
+artifact_total: 90
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory API
+  slug: open-legendary-block-directory-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory block-patterns API
+  slug: open-legendary-block-patterns-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory block-renderer API
+  slug: open-legendary-block-renderer-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory block-types API
+  slug: open-legendary-block-types-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory blocks API
+  slug: open-legendary-blocks-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory categories API
+  slug: open-legendary-categories-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory comics API
+  slug: open-legendary-comics-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory comments API
+  slug: open-legendary-comments-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory digital API
+  slug: open-legendary-digital-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory film API
+  slug: open-legendary-film-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory font-collections API
+  slug: open-legendary-font-collections-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory font-families API
+  slug: open-legendary-font-families-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory global-styles API
+  slug: open-legendary-global-styles-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory grid_filter API
+  slug: open-legendary-grid-filter-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory icons API
+  slug: open-legendary-icons-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory ldn API
+  slug: open-legendary-ldn-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory media API
+  slug: open-legendary-media-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory menu-items API
+  slug: open-legendary-menu-items-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory menu-locations API
+  slug: open-legendary-menu-locations-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory menus API
+  slug: open-legendary-menus-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory navigation API
+  slug: open-legendary-navigation-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory pages API
+  slug: open-legendary-pages-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory pattern-directory API
+  slug: open-legendary-pattern-directory-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory plugins API
+  slug: open-legendary-plugins-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory posts API
+  slug: open-legendary-posts-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory root API
+  slug: open-legendary-root-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory search API
+  slug: open-legendary-search-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory settings API
+  slug: open-legendary-settings-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory sidebars API
+  slug: open-legendary-sidebars-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory socials API
+  slug: open-legendary-socials-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory statuses API
+  slug: open-legendary-statuses-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory tags API
+  slug: open-legendary-tags-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory taxonomies API
+  slug: open-legendary-taxonomies-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory television API
+  slug: open-legendary-television-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory template-parts API
+  slug: open-legendary-template-parts-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory templates API
+  slug: open-legendary-templates-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory themes API
+  slug: open-legendary-themes-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory trailers API
+  slug: open-legendary-trailers-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory types API
+  slug: open-legendary-types-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory users API
+  slug: open-legendary-users-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory widget-types API
+  slug: open-legendary-widget-types-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory widgets API
+  slug: open-legendary-widgets-api
+- collection_type: open
+  name: Legendary Entertainment WordPress REST block-directory wp_pattern_category API
+  slug: open-legendary-wp-pattern-category-api
 common:
 - group: other
   title: ''
@@ -246,7 +379,7 @@ overview: 'Legendary Entertainment publishes 43 APIs on the [APIs.io](https://ap
 
 
   Legendary Entertainment''s developer surface includes engineering blog, authentication, and 15 more developer resources.'
-random_paper: 115
+random_paper: 61
 score:
   band: thin
   composite: 31.5
@@ -269,7 +402,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legendary/refs/heads/main/screenshots/legendary-2026-07-25T224830.png
 security:

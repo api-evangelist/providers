@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -81,7 +81,53 @@ apis:
 - description: The Webhooks API from Pinwheel — 2 operation(s) for webhooks.
   name: Pinwheel Webhooks API
   slug: pinwheel-webhooks-api
-artifact_total: 173
+artifact_total: 188
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pinwheel Accounts API
+  slug: open-pinwheel-accounts-api
+- collection_type: open
+  name: Pinwheel Accounts API Keys API
+  slug: open-pinwheel-api-keys-api
+- collection_type: open
+  name: Pinwheel Accounts Company Connect API
+  slug: open-pinwheel-company-connect-api
+- collection_type: open
+  name: Pinwheel Accounts Direct Deposit Allocations API
+  slug: open-pinwheel-direct-deposit-allocations-api
+- collection_type: open
+  name: Pinwheel Accounts Earnings Stream API
+  slug: open-pinwheel-earnings-stream-api
+- collection_type: open
+  name: Pinwheel Accounts Employers and Platforms API
+  slug: open-pinwheel-employers-and-platforms-api
+- collection_type: open
+  name: Pinwheel Accounts End Users API
+  slug: open-pinwheel-end-users-api
+- collection_type: open
+  name: Pinwheel Accounts Income and Employment API
+  slug: open-pinwheel-income-and-employment-api
+- collection_type: open
+  name: Pinwheel Accounts Jobs API
+  slug: open-pinwheel-jobs-api
+- collection_type: open
+  name: Pinwheel Accounts Link Tokens API
+  slug: open-pinwheel-link-tokens-api
+- collection_type: open
+  name: Pinwheel Accounts Sandbox API
+  slug: open-pinwheel-sandbox-api
+- collection_type: open
+  name: Pinwheel Accounts Tax Forms API
+  slug: open-pinwheel-tax-forms-api
+- collection_type: open
+  name: Pinwheel Accounts Verification Reports API
+  slug: open-pinwheel-verification-reports-api
+- collection_type: open
+  name: Pinwheel Accounts Webhooks API
+  slug: open-pinwheel-webhooks-api
 common:
 - group: agent
   title: ''
@@ -623,7 +669,7 @@ plans:
 - name: Pinwheel Plans Pricing
   plan_count: 3
   slug: pinwheel-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Pinwheel Rate Limits
@@ -663,7 +709,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/screenshots/pinwheel-2026-06-20T191723.png
 security:

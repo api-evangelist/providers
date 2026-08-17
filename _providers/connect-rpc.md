@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Go implementation of Connect. Provides server handlers and clients that speak the Connect, gRPC, and gRPC-Web protocols simultaneously. Generated from .proto files via the protoc-gen-connect-go pl
@@ -108,7 +108,7 @@ plans:
 - name: Connect Rpc Plans Pricing
   plan_count: 3
   slug: connect-rpc-plans-pricing
-random_paper: 36
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Connect Rpc Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 14.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connect-rpc/refs/heads/main/screenshots/connect-rpc-2026-06-20T174901.png
 security:

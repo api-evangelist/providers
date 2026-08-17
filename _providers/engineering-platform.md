@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1382
   human_in_the_loop: 36
@@ -1449,7 +1449,1415 @@ apis:
 - description: The Zones API from APIs.io Engineering Platform — 1 operation(s) for zones.
   name: APIs.io Engineering Platform Zones API
   slug: engineering-platform-zones-api
-artifact_total: 6510
+artifact_total: 6979
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 API
+  slug: open-engineering-platform-2014-11-13-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2015 03 31 API
+  slug: open-engineering-platform-2015-03-31-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2016 08 19 API
+  slug: open-engineering-platform-2016-08-19-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2017 03 31 API
+  slug: open-engineering-platform-2017-03-31-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2017 10 31 API
+  slug: open-engineering-platform-2017-10-31-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2018 10 31 API
+  slug: open-engineering-platform-2018-10-31-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2019 09 25 API
+  slug: open-engineering-platform-2019-09-25-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2019 09 30 API
+  slug: open-engineering-platform-2019-09-30-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2020 04 22 API
+  slug: open-engineering-platform-2020-04-22-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2020 06 30 API
+  slug: open-engineering-platform-2020-06-30-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2021 07 20 API
+  slug: open-engineering-platform-2021-07-20-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2021 10 31 API
+  slug: open-engineering-platform-2021-10-31-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 2021 11 15 API
+  slug: open-engineering-platform-2021-11-15-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Application-Scoped Policies API
+  slug: open-engineering-platform-access-application-scoped-policies-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Applications API
+  slug: open-engineering-platform-access-applications-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Authentication Logs API
+  slug: open-engineering-platform-access-authentication-logs-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Bookmark Applications (Deprecated) API
+  slug: open-engineering-platform-access-bookmark-applications-deprecated-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Custom Pages API
+  slug: open-engineering-platform-access-custom-pages-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Groups API
+  slug: open-engineering-platform-access-groups-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Identity Providers API
+  slug: open-engineering-platform-access-identity-providers-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Key Configuration API
+  slug: open-engineering-platform-access-key-configuration-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access mTLS Authentication API
+  slug: open-engineering-platform-access-mtls-authentication-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Policy Tester API
+  slug: open-engineering-platform-access-policy-tester-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Reusable Policies API
+  slug: open-engineering-platform-access-reusable-policies-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Service Tokens API
+  slug: open-engineering-platform-access-service-tokens-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Short-Lived Certificate CAs API
+  slug: open-engineering-platform-access-short-lived-certificate-cas-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Access Tags API
+  slug: open-engineering-platform-access-tags-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account API
+  slug: open-engineering-platform-account-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Billing Profile API
+  slug: open-engineering-platform-account-billing-profile-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account-Level Custom Nameservers API
+  slug: open-engineering-platform-account-level-custom-nameservers-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Load Balancer Monitors API
+  slug: open-engineering-platform-account-load-balancer-monitors-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Load Balancer Pools API
+  slug: open-engineering-platform-account-load-balancer-pools-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Load Balancer Search API
+  slug: open-engineering-platform-account-load-balancer-search-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Members API
+  slug: open-engineering-platform-account-members-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Permission Groups API
+  slug: open-engineering-platform-account-permission-groups-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Request Tracer API
+  slug: open-engineering-platform-account-request-tracer-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Resource Groups API
+  slug: open-engineering-platform-account-resource-groups-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Roles API
+  slug: open-engineering-platform-account-roles-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Rulesets API
+  slug: open-engineering-platform-account-rulesets-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Account Subscriptions API
+  slug: open-engineering-platform-account-subscriptions-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Accounts API
+  slug: open-engineering-platform-accounts-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=AddClientIDToOpenIDConnectProvider API'
+  slug: open-engineering-platform-action-addclientidtoopenidconnectprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=AddRoleToInstanceProfile API'
+  slug: open-engineering-platform-action-addroletoinstanceprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=AddUserToGroup API'
+  slug: open-engineering-platform-action-addusertogroup-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=AttachGroupPolicy API'
+  slug: open-engineering-platform-action-attachgrouppolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=AttachRolePolicy API'
+  slug: open-engineering-platform-action-attachrolepolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=AttachUserPolicy API'
+  slug: open-engineering-platform-action-attachuserpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ChangePassword API'
+  slug: open-engineering-platform-action-changepassword-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateAccessKey API'
+  slug: open-engineering-platform-action-createaccesskey-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateAccountAlias API'
+  slug: open-engineering-platform-action-createaccountalias-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateGroup API'
+  slug: open-engineering-platform-action-creategroup-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateInstanceProfile API'
+  slug: open-engineering-platform-action-createinstanceprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateLoginProfile API'
+  slug: open-engineering-platform-action-createloginprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateOpenIDConnectProvider API'
+  slug: open-engineering-platform-action-createopenidconnectprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreatePolicy API'
+  slug: open-engineering-platform-action-createpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreatePolicyVersion API'
+  slug: open-engineering-platform-action-createpolicyversion-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateRole API'
+  slug: open-engineering-platform-action-createrole-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateSAMLProvider API'
+  slug: open-engineering-platform-action-createsamlprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateServiceLinkedRole API'
+  slug: open-engineering-platform-action-createservicelinkedrole-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateServiceSpecificCredential API'
+  slug: open-engineering-platform-action-createservicespecificcredential-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateUser API'
+  slug: open-engineering-platform-action-createuser-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=CreateVirtualMFADevice API'
+  slug: open-engineering-platform-action-createvirtualmfadevice-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeactivateMFADevice API'
+  slug: open-engineering-platform-action-deactivatemfadevice-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteAccessKey API'
+  slug: open-engineering-platform-action-deleteaccesskey-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteAccountAlias API'
+  slug: open-engineering-platform-action-deleteaccountalias-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteAccountPasswordPolicy API'
+  slug: open-engineering-platform-action-deleteaccountpasswordpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteGroup API'
+  slug: open-engineering-platform-action-deletegroup-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteGroupPolicy API'
+  slug: open-engineering-platform-action-deletegrouppolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteInstanceProfile API'
+  slug: open-engineering-platform-action-deleteinstanceprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteLoginProfile API'
+  slug: open-engineering-platform-action-deleteloginprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteOpenIDConnectProvider API'
+  slug: open-engineering-platform-action-deleteopenidconnectprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeletePolicy API'
+  slug: open-engineering-platform-action-deletepolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeletePolicyVersion API'
+  slug: open-engineering-platform-action-deletepolicyversion-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteRole API'
+  slug: open-engineering-platform-action-deleterole-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteRolePermissionsBoundary API'
+  slug: open-engineering-platform-action-deleterolepermissionsboundary-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteRolePolicy API'
+  slug: open-engineering-platform-action-deleterolepolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteSAMLProvider API'
+  slug: open-engineering-platform-action-deletesamlprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteServerCertificate API'
+  slug: open-engineering-platform-action-deleteservercertificate-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteServiceLinkedRole API'
+  slug: open-engineering-platform-action-deleteservicelinkedrole-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteServiceSpecificCredential API'
+  slug: open-engineering-platform-action-deleteservicespecificcredential-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteSigningCertificate API'
+  slug: open-engineering-platform-action-deletesigningcertificate-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteSSHPublicKey API'
+  slug: open-engineering-platform-action-deletesshpublickey-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteUser API'
+  slug: open-engineering-platform-action-deleteuser-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteUserPermissionsBoundary API'
+  slug: open-engineering-platform-action-deleteuserpermissionsboundary-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteUserPolicy API'
+  slug: open-engineering-platform-action-deleteuserpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DeleteVirtualMFADevice API'
+  slug: open-engineering-platform-action-deletevirtualmfadevice-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DetachGroupPolicy API'
+  slug: open-engineering-platform-action-detachgrouppolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DetachRolePolicy API'
+  slug: open-engineering-platform-action-detachrolepolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=DetachUserPolicy API'
+  slug: open-engineering-platform-action-detachuserpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=EnableMFADevice API'
+  slug: open-engineering-platform-action-enablemfadevice-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GenerateCredentialReport API'
+  slug: open-engineering-platform-action-generatecredentialreport-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GenerateOrganizationsAccessReport API'
+  slug: open-engineering-platform-action-generateorganizationsaccessreport-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GenerateServiceLastAccessedDetails API'
+  slug: open-engineering-platform-action-generateservicelastaccesseddetails-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetAccessKeyLastUsed API'
+  slug: open-engineering-platform-action-getaccesskeylastused-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetAccountAuthorizationDetails API'
+  slug: open-engineering-platform-action-getaccountauthorizationdetails-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetAccountPasswordPolicy API'
+  slug: open-engineering-platform-action-getaccountpasswordpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetAccountSummary API'
+  slug: open-engineering-platform-action-getaccountsummary-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetContextKeysForCustomPolicy API'
+  slug: open-engineering-platform-action-getcontextkeysforcustompolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetContextKeysForPrincipalPolicy API'
+  slug: open-engineering-platform-action-getcontextkeysforprincipalpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetCredentialReport API'
+  slug: open-engineering-platform-action-getcredentialreport-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetGroup API'
+  slug: open-engineering-platform-action-getgroup-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetGroupPolicy API'
+  slug: open-engineering-platform-action-getgrouppolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetInstanceProfile API'
+  slug: open-engineering-platform-action-getinstanceprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetLoginProfile API'
+  slug: open-engineering-platform-action-getloginprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetOpenIDConnectProvider API'
+  slug: open-engineering-platform-action-getopenidconnectprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetOrganizationsAccessReport API'
+  slug: open-engineering-platform-action-getorganizationsaccessreport-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetPolicy API'
+  slug: open-engineering-platform-action-getpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetPolicyVersion API'
+  slug: open-engineering-platform-action-getpolicyversion-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetRole API'
+  slug: open-engineering-platform-action-getrole-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetRolePolicy API'
+  slug: open-engineering-platform-action-getrolepolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetSAMLProvider API'
+  slug: open-engineering-platform-action-getsamlprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetServerCertificate API'
+  slug: open-engineering-platform-action-getservercertificate-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetServiceLastAccessedDetails API'
+  slug: open-engineering-platform-action-getservicelastaccesseddetails-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetServiceLastAccessedDetailsWithEntities API'
+  slug: open-engineering-platform-action-getservicelastaccesseddetailswithentities-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetServiceLinkedRoleDeletionStatus API'
+  slug: open-engineering-platform-action-getservicelinkedroledeletionstatus-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetSSHPublicKey API'
+  slug: open-engineering-platform-action-getsshpublickey-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetUser API'
+  slug: open-engineering-platform-action-getuser-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=GetUserPolicy API'
+  slug: open-engineering-platform-action-getuserpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListAccessKeys API'
+  slug: open-engineering-platform-action-listaccesskeys-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListAccountAliases API'
+  slug: open-engineering-platform-action-listaccountaliases-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListAttachedGroupPolicies API'
+  slug: open-engineering-platform-action-listattachedgrouppolicies-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListAttachedRolePolicies API'
+  slug: open-engineering-platform-action-listattachedrolepolicies-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListAttachedUserPolicies API'
+  slug: open-engineering-platform-action-listattacheduserpolicies-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListEntitiesForPolicy API'
+  slug: open-engineering-platform-action-listentitiesforpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListGroupPolicies API'
+  slug: open-engineering-platform-action-listgrouppolicies-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListGroups API'
+  slug: open-engineering-platform-action-listgroups-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListGroupsForUser API'
+  slug: open-engineering-platform-action-listgroupsforuser-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListInstanceProfiles API'
+  slug: open-engineering-platform-action-listinstanceprofiles-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListInstanceProfilesForRole API'
+  slug: open-engineering-platform-action-listinstanceprofilesforrole-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListInstanceProfileTags API'
+  slug: open-engineering-platform-action-listinstanceprofiletags-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListMFADevices API'
+  slug: open-engineering-platform-action-listmfadevices-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListMFADeviceTags API'
+  slug: open-engineering-platform-action-listmfadevicetags-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListOpenIDConnectProviders API'
+  slug: open-engineering-platform-action-listopenidconnectproviders-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListOpenIDConnectProviderTags API'
+  slug: open-engineering-platform-action-listopenidconnectprovidertags-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListPolicies API'
+  slug: open-engineering-platform-action-listpolicies-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListPoliciesGrantingServiceAccess API'
+  slug: open-engineering-platform-action-listpoliciesgrantingserviceaccess-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListPolicyTags API'
+  slug: open-engineering-platform-action-listpolicytags-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListPolicyVersions API'
+  slug: open-engineering-platform-action-listpolicyversions-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListRolePolicies API'
+  slug: open-engineering-platform-action-listrolepolicies-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListRoles API'
+  slug: open-engineering-platform-action-listroles-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListRoleTags API'
+  slug: open-engineering-platform-action-listroletags-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListSAMLProviders API'
+  slug: open-engineering-platform-action-listsamlproviders-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListSAMLProviderTags API'
+  slug: open-engineering-platform-action-listsamlprovidertags-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListServerCertificates API'
+  slug: open-engineering-platform-action-listservercertificates-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListServerCertificateTags API'
+  slug: open-engineering-platform-action-listservercertificatetags-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListServiceSpecificCredentials API'
+  slug: open-engineering-platform-action-listservicespecificcredentials-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListSigningCertificates API'
+  slug: open-engineering-platform-action-listsigningcertificates-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListSSHPublicKeys API'
+  slug: open-engineering-platform-action-listsshpublickeys-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListUserPolicies API'
+  slug: open-engineering-platform-action-listuserpolicies-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListUsers API'
+  slug: open-engineering-platform-action-listusers-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListUserTags API'
+  slug: open-engineering-platform-action-listusertags-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ListVirtualMFADevices API'
+  slug: open-engineering-platform-action-listvirtualmfadevices-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=PutGroupPolicy API'
+  slug: open-engineering-platform-action-putgrouppolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=PutRolePermissionsBoundary API'
+  slug: open-engineering-platform-action-putrolepermissionsboundary-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=PutRolePolicy API'
+  slug: open-engineering-platform-action-putrolepolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=PutUserPermissionsBoundary API'
+  slug: open-engineering-platform-action-putuserpermissionsboundary-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=PutUserPolicy API'
+  slug: open-engineering-platform-action-putuserpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=RemoveClientIDFromOpenIDConnectProvider API'
+  slug: open-engineering-platform-action-removeclientidfromopenidconnectprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=RemoveRoleFromInstanceProfile API'
+  slug: open-engineering-platform-action-removerolefrominstanceprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=RemoveUserFromGroup API'
+  slug: open-engineering-platform-action-removeuserfromgroup-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ResetServiceSpecificCredential API'
+  slug: open-engineering-platform-action-resetservicespecificcredential-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=ResyncMFADevice API'
+  slug: open-engineering-platform-action-resyncmfadevice-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=SetDefaultPolicyVersion API'
+  slug: open-engineering-platform-action-setdefaultpolicyversion-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=SetSecurityTokenServicePreferences API'
+  slug: open-engineering-platform-action-setsecuritytokenservicepreferences-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=SimulateCustomPolicy API'
+  slug: open-engineering-platform-action-simulatecustompolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=SimulatePrincipalPolicy API'
+  slug: open-engineering-platform-action-simulateprincipalpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=TagInstanceProfile API'
+  slug: open-engineering-platform-action-taginstanceprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=TagMFADevice API'
+  slug: open-engineering-platform-action-tagmfadevice-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=TagOpenIDConnectProvider API'
+  slug: open-engineering-platform-action-tagopenidconnectprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=TagPolicy API'
+  slug: open-engineering-platform-action-tagpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=TagRole API'
+  slug: open-engineering-platform-action-tagrole-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=TagSAMLProvider API'
+  slug: open-engineering-platform-action-tagsamlprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=TagServerCertificate API'
+  slug: open-engineering-platform-action-tagservercertificate-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=TagUser API'
+  slug: open-engineering-platform-action-taguser-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UntagInstanceProfile API'
+  slug: open-engineering-platform-action-untaginstanceprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UntagMFADevice API'
+  slug: open-engineering-platform-action-untagmfadevice-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UntagOpenIDConnectProvider API'
+  slug: open-engineering-platform-action-untagopenidconnectprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UntagPolicy API'
+  slug: open-engineering-platform-action-untagpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UntagRole API'
+  slug: open-engineering-platform-action-untagrole-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UntagSAMLProvider API'
+  slug: open-engineering-platform-action-untagsamlprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UntagServerCertificate API'
+  slug: open-engineering-platform-action-untagservercertificate-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UntagUser API'
+  slug: open-engineering-platform-action-untaguser-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateAccessKey API'
+  slug: open-engineering-platform-action-updateaccesskey-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateAccountPasswordPolicy API'
+  slug: open-engineering-platform-action-updateaccountpasswordpolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateAssumeRolePolicy API'
+  slug: open-engineering-platform-action-updateassumerolepolicy-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateGroup API'
+  slug: open-engineering-platform-action-updategroup-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateLoginProfile API'
+  slug: open-engineering-platform-action-updateloginprofile-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateOpenIDConnectProviderThumbprint API'
+  slug: open-engineering-platform-action-updateopenidconnectproviderthumbprint-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateRole API'
+  slug: open-engineering-platform-action-updaterole-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateRoleDescription API'
+  slug: open-engineering-platform-action-updateroledescription-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateSAMLProvider API'
+  slug: open-engineering-platform-action-updatesamlprovider-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateServerCertificate API'
+  slug: open-engineering-platform-action-updateservercertificate-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateServiceSpecificCredential API'
+  slug: open-engineering-platform-action-updateservicespecificcredential-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateSigningCertificate API'
+  slug: open-engineering-platform-action-updatesigningcertificate-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateSSHPublicKey API'
+  slug: open-engineering-platform-action-updatesshpublickey-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UpdateUser API'
+  slug: open-engineering-platform-action-updateuser-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UploadServerCertificate API'
+  slug: open-engineering-platform-action-uploadservercertificate-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UploadSigningCertificate API'
+  slug: open-engineering-platform-action-uploadsigningcertificate-api
+- collection_type: open
+  name: 'APIs.io Engineering Platform Amazon API Gateway 2014 11 13 #Action=UploadSSHPublicKey API'
+  slug: open-engineering-platform-action-uploadsshpublickey-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Actions API
+  slug: open-engineering-platform-actions-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Activity API
+  slug: open-engineering-platform-activity-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 AI Gateway API
+  slug: open-engineering-platform-ai-gateway-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 API Security API
+  slug: open-engineering-platform-api-security-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 API Tags API
+  slug: open-engineering-platform-api-tags-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 API Token Permission Groups API
+  slug: open-engineering-platform-api-token-permission-groups-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 API Versions API
+  slug: open-engineering-platform-api-versions-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Apikeys API
+  slug: open-engineering-platform-apikeys-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Apikeys#mode=import&format API
+  slug: open-engineering-platform-apikeys-mode-import-format-api
+- collection_type: open
+  name: .io Engineering Platform Amazon API Gateway 2014 11 13 Apis API
+  slug: open-engineering-platform-apis-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Apps API
+  slug: open-engineering-platform-apps-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 ASN Intelligence API
+  slug: open-engineering-platform-asn-intelligence-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Audit Logs API
+  slug: open-engineering-platform-audit-logs-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Billing API
+  slug: open-engineering-platform-billing-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Botnet Threat Feed API
+  slug: open-engineering-platform-botnet-threat-feed-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Calls Apps API
+  slug: open-engineering-platform-calls-apps-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Calls TURN Keys API
+  slug: open-engineering-platform-calls-turn-keys-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Checks API
+  slug: open-engineering-platform-checks-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Clientcertificates API
+  slug: open-engineering-platform-clientcertificates-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Cloudflare Images API
+  slug: open-engineering-platform-cloudflare-images-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Cloudflare Images Keys API
+  slug: open-engineering-platform-cloudflare-images-keys-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Cloudflare Images Variants API
+  slug: open-engineering-platform-cloudflare-images-variants-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Cloudflare IPs API
+  slug: open-engineering-platform-cloudflare-ips-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Cloudflare Tunnel API
+  slug: open-engineering-platform-cloudflare-tunnel-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Cloudflare Tunnel Configuration API
+  slug: open-engineering-platform-cloudflare-tunnel-configuration-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Code-Scanning API
+  slug: open-engineering-platform-code-scanning-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Codes-Of-Conduct API
+  slug: open-engineering-platform-codes-of-conduct-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Collection Access Keys API
+  slug: open-engineering-platform-collection-access-keys-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Collection Folders API
+  slug: open-engineering-platform-collection-folders-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Collection Items API
+  slug: open-engineering-platform-collection-items-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Collection Requests API
+  slug: open-engineering-platform-collection-requests-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Collection Responses API
+  slug: open-engineering-platform-collection-responses-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Collection Tags API
+  slug: open-engineering-platform-collection-tags-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Collection to API API
+  slug: open-engineering-platform-collection-to-api-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Collections API
+  slug: open-engineering-platform-collections-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Comments API
+  slug: open-engineering-platform-comments-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Custom Indicator Feeds API
+  slug: open-engineering-platform-custom-indicator-feeds-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Custom Pages for an Account API
+  slug: open-engineering-platform-custom-pages-for-an-account-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 D1 API
+  slug: open-engineering-platform-d1-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Dependabot API
+  slug: open-engineering-platform-dependabot-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Dependency-Graph API
+  slug: open-engineering-platform-dependency-graph-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Detected Secrets API
+  slug: open-engineering-platform-detected-secrets-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Device DEX Tests API
+  slug: open-engineering-platform-device-dex-tests-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Device Managed Networks API
+  slug: open-engineering-platform-device-managed-networks-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Device Posture Integrations API
+  slug: open-engineering-platform-device-posture-integrations-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Device Posture Rules API
+  slug: open-engineering-platform-device-posture-rules-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Devices API
+  slug: open-engineering-platform-devices-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 DEX Synthetic Application Monitoring API
+  slug: open-engineering-platform-dex-synthetic-application-monitoring-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Diagnostics API
+  slug: open-engineering-platform-diagnostics-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 DLP Datasets API
+  slug: open-engineering-platform-dlp-datasets-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 DLP Profiles API
+  slug: open-engineering-platform-dlp-profiles-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 DLP Settings API
+  slug: open-engineering-platform-dlp-settings-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 DLS Regional Services API
+  slug: open-engineering-platform-dls-regional-services-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 DNS Firewall Analytics API
+  slug: open-engineering-platform-dns-firewall-analytics-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 DNS Firewall API
+  slug: open-engineering-platform-dns-firewall-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 DNS Settings for an Account API
+  slug: open-engineering-platform-dns-settings-for-an-account-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Domain History API
+  slug: open-engineering-platform-domain-history-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Domain Intelligence API
+  slug: open-engineering-platform-domain-intelligence-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Domainnames API
+  slug: open-engineering-platform-domainnames-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Durable Objects Namespace API
+  slug: open-engineering-platform-durable-objects-namespace-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Email Routing Destination Addresses API
+  slug: open-engineering-platform-email-routing-destination-addresses-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Email Security API
+  slug: open-engineering-platform-email-security-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Email Security Settings API
+  slug: open-engineering-platform-email-security-settings-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Emojis API
+  slug: open-engineering-platform-emojis-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Enterprise-Admin API
+  slug: open-engineering-platform-enterprise-admin-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Environments API
+  slug: open-engineering-platform-environments-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Forks API
+  slug: open-engineering-platform-forks-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Gists API
+  slug: open-engineering-platform-gists-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Git API
+  slug: open-engineering-platform-git-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Gitignore API
+  slug: open-engineering-platform-gitignore-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Global Variables API
+  slug: open-engineering-platform-global-variables-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Group Provisioning API
+  slug: open-engineering-platform-group-provisioning-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Hyperdrive API
+  slug: open-engineering-platform-hyperdrive-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Import API
+  slug: open-engineering-platform-import-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Infrastructure Access Targets API
+  slug: open-engineering-platform-infrastructure-access-targets-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP Access Rules for a User API
+  slug: open-engineering-platform-ip-access-rules-for-a-user-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP Access Rules for an Account API
+  slug: open-engineering-platform-ip-access-rules-for-an-account-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP Address Management Address Maps API
+  slug: open-engineering-platform-ip-address-management-address-maps-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP Address Management BGP Prefixes API
+  slug: open-engineering-platform-ip-address-management-bgp-prefixes-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP Address Management Dynamic Advertisement API
+  slug: open-engineering-platform-ip-address-management-dynamic-advertisement-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP Address Management Prefix Delegation API
+  slug: open-engineering-platform-ip-address-management-prefix-delegation-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP Address Management Prefixes API
+  slug: open-engineering-platform-ip-address-management-prefixes-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP Address Management Service Bindings API
+  slug: open-engineering-platform-ip-address-management-service-bindings-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP Intelligence API
+  slug: open-engineering-platform-ip-intelligence-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 IP List API
+  slug: open-engineering-platform-ip-list-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Issues API
+  slug: open-engineering-platform-issues-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Licenses API
+  slug: open-engineering-platform-licenses-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Lists API
+  slug: open-engineering-platform-lists-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Load Balancer Healthcheck Events API
+  slug: open-engineering-platform-load-balancer-healthcheck-events-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Load Balancer Monitors API
+  slug: open-engineering-platform-load-balancer-monitors-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Load Balancer Pools API
+  slug: open-engineering-platform-load-balancer-pools-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Load Balancer Regions API
+  slug: open-engineering-platform-load-balancer-regions-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Logcontrol CMB Config for an Account API
+  slug: open-engineering-platform-logcontrol-cmb-config-for-an-account-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Logpush Jobs for an Account API
+  slug: open-engineering-platform-logpush-jobs-for-an-account-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Account Apps API
+  slug: open-engineering-platform-magic-account-apps-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Connectors API
+  slug: open-engineering-platform-magic-connectors-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic GRE Tunnels API
+  slug: open-engineering-platform-magic-gre-tunnels-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Interconnects API
+  slug: open-engineering-platform-magic-interconnects-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic IPsec Tunnels API
+  slug: open-engineering-platform-magic-ipsec-tunnels-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Network Monitoring Configuration API
+  slug: open-engineering-platform-magic-network-monitoring-configuration-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Network Monitoring Rules API
+  slug: open-engineering-platform-magic-network-monitoring-rules-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic PCAP Collection API
+  slug: open-engineering-platform-magic-pcap-collection-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Site ACLs API
+  slug: open-engineering-platform-magic-site-acls-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Site App Configs API
+  slug: open-engineering-platform-magic-site-app-configs-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Site LANs API
+  slug: open-engineering-platform-magic-site-lans-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Site WANs API
+  slug: open-engineering-platform-magic-site-wans-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Sites API
+  slug: open-engineering-platform-magic-sites-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Magic Static Routes API
+  slug: open-engineering-platform-magic-static-routes-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Markdown API
+  slug: open-engineering-platform-markdown-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Meta API
+  slug: open-engineering-platform-meta-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Migrations API
+  slug: open-engineering-platform-migrations-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Miscategorization API
+  slug: open-engineering-platform-miscategorization-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Mocks API
+  slug: open-engineering-platform-mocks-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Monitors API
+  slug: open-engineering-platform-monitors-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 mTLS Certificate Management API
+  slug: open-engineering-platform-mtls-certificate-management-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 NewsCategory API
+  slug: open-engineering-platform-newscategory-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 NewsSearch API
+  slug: open-engineering-platform-newssearch-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 NewsTrendingTopics API
+  slug: open-engineering-platform-newstrendingtopics-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Notification Alert Types API
+  slug: open-engineering-platform-notification-alert-types-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Notification Destinations with PagerDuty API
+  slug: open-engineering-platform-notification-destinations-with-pagerduty-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Notification History API
+  slug: open-engineering-platform-notification-history-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Notification Mechanism Eligibility API
+  slug: open-engineering-platform-notification-mechanism-eligibility-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Notification Policies API
+  slug: open-engineering-platform-notification-policies-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Notification Webhooks API
+  slug: open-engineering-platform-notification-webhooks-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Oauth-Authorizations API
+  slug: open-engineering-platform-oauth-authorizations-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Oidc API
+  slug: open-engineering-platform-oidc-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Orgs API
+  slug: open-engineering-platform-orgs-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Origin CA API
+  slug: open-engineering-platform-origin-ca-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Packages API
+  slug: open-engineering-platform-packages-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Pages Build Cache API
+  slug: open-engineering-platform-pages-build-cache-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Pages Deployment API
+  slug: open-engineering-platform-pages-deployment-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Pages Domains API
+  slug: open-engineering-platform-pages-domains-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Pages Project API
+  slug: open-engineering-platform-pages-project-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Passive DNS by IP API
+  slug: open-engineering-platform-passive-dns-by-ip-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Phishing URL Information API
+  slug: open-engineering-platform-phishing-url-information-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Phishing URL Scanner API
+  slug: open-engineering-platform-phishing-url-scanner-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Priority Intelligence Requirements (PIR) API
+  slug: open-engineering-platform-priority-intelligence-requirements-pir-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Private API Network API
+  slug: open-engineering-platform-private-api-network-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Projects API
+  slug: open-engineering-platform-projects-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Pull Requests API
+  slug: open-engineering-platform-pull-requests-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Pulls API
+  slug: open-engineering-platform-pulls-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Queue API
+  slug: open-engineering-platform-queue-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 R2 Bucket API
+  slug: open-engineering-platform-r2-bucket-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 R2 Event Notification API
+  slug: open-engineering-platform-r2-event-notification-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar AI Gateway API
+  slug: open-engineering-platform-radar-ai-gateway-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar AI Inference API
+  slug: open-engineering-platform-radar-ai-inference-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Annotations API
+  slug: open-engineering-platform-radar-annotations-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar AS112 API
+  slug: open-engineering-platform-radar-as112-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Attacks API
+  slug: open-engineering-platform-radar-attacks-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar BGP API
+  slug: open-engineering-platform-radar-bgp-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Datasets API
+  slug: open-engineering-platform-radar-datasets-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar DNS API
+  slug: open-engineering-platform-radar-dns-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Email Routing API
+  slug: open-engineering-platform-radar-email-routing-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Email Security API
+  slug: open-engineering-platform-radar-email-security-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Entities API
+  slug: open-engineering-platform-radar-entities-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Http API
+  slug: open-engineering-platform-radar-http-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Netflows API
+  slug: open-engineering-platform-radar-netflows-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Quality API
+  slug: open-engineering-platform-radar-quality-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Ranking API
+  slug: open-engineering-platform-radar-ranking-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Robots.txt API
+  slug: open-engineering-platform-radar-robots-txt-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Search API
+  slug: open-engineering-platform-radar-search-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar TCP Resets Timeouts API
+  slug: open-engineering-platform-radar-tcp-resets-timeouts-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Traffic Anomalies API
+  slug: open-engineering-platform-radar-traffic-anomalies-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Radar Verified Bots API
+  slug: open-engineering-platform-radar-verified-bots-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Rate-Limit API
+  slug: open-engineering-platform-rate-limit-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Reactions API
+  slug: open-engineering-platform-reactions-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Registrar Domains API
+  slug: open-engineering-platform-registrar-domains-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Repos API
+  slug: open-engineering-platform-repos-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Request for Information (RFI) API
+  slug: open-engineering-platform-request-for-information-rfi-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Restapis API
+  slug: open-engineering-platform-restapis-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Restapis#mode=import API
+  slug: open-engineering-platform-restapis-mode-import-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Roles API
+  slug: open-engineering-platform-roles-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Schema API
+  slug: open-engineering-platform-schema-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Scim API
+  slug: open-engineering-platform-scim-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Sdktypes API
+  slug: open-engineering-platform-sdktypes-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Search API
+  slug: open-engineering-platform-search-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Secondary DNS (ACL) API
+  slug: open-engineering-platform-secondary-dns-acl-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Secondary DNS (Peer) API
+  slug: open-engineering-platform-secondary-dns-peer-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Secondary DNS (TSIG) API
+  slug: open-engineering-platform-secondary-dns-tsig-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Secret Scanner API
+  slug: open-engineering-platform-secret-scanner-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Secret-Scanning API
+  slug: open-engineering-platform-secret-scanning-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Security Center Insights API
+  slug: open-engineering-platform-security-center-insights-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Sinkhole Config API
+  slug: open-engineering-platform-sinkhole-config-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Stream Audio Tracks API
+  slug: open-engineering-platform-stream-audio-tracks-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Stream Live Inputs API
+  slug: open-engineering-platform-stream-live-inputs-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Stream MP4 Downloads API
+  slug: open-engineering-platform-stream-mp4-downloads-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Stream Signing Keys API
+  slug: open-engineering-platform-stream-signing-keys-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Stream Subtitles/Captions API
+  slug: open-engineering-platform-stream-subtitles-captions-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Stream Video Clipping API
+  slug: open-engineering-platform-stream-video-clipping-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Stream Videos API
+  slug: open-engineering-platform-stream-videos-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Stream Watermark Profile API
+  slug: open-engineering-platform-stream-watermark-profile-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Stream Webhook API
+  slug: open-engineering-platform-stream-webhook-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Tags API
+  slug: open-engineering-platform-tags-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Teams API
+  slug: open-engineering-platform-teams-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Transfer Collection Items API
+  slug: open-engineering-platform-transfer-collection-items-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Tunnel Routing API
+  slug: open-engineering-platform-tunnel-routing-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Tunnel Virtual Network API
+  slug: open-engineering-platform-tunnel-virtual-network-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Turnstile API
+  slug: open-engineering-platform-turnstile-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 URL Scanner API
+  slug: open-engineering-platform-url-scanner-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Usageplans API
+  slug: open-engineering-platform-usageplans-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 User API Tokens API
+  slug: open-engineering-platform-user-api-tokens-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 User API
+  slug: open-engineering-platform-user-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 User Billing History API
+  slug: open-engineering-platform-user-billing-history-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 User Billing Profile API
+  slug: open-engineering-platform-user-billing-profile-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 User Provisioning API
+  slug: open-engineering-platform-user-provisioning-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 User's Account Memberships API
+  slug: open-engineering-platform-user-s-account-memberships-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 User's Invites API
+  slug: open-engineering-platform-user-s-invites-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 User's Organizations API
+  slug: open-engineering-platform-user-s-organizations-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 User Subscription API
+  slug: open-engineering-platform-user-subscription-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Users API
+  slug: open-engineering-platform-users-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Vectorize API
+  slug: open-engineering-platform-vectorize-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Vectorize Beta (Deprecated) API
+  slug: open-engineering-platform-vectorize-beta-deprecated-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 VideoDetailSearch API
+  slug: open-engineering-platform-videodetailsearch-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 VideoSearch API
+  slug: open-engineering-platform-videosearch-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 VideoTrendingSearch API
+  slug: open-engineering-platform-videotrendingsearch-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Vpclinks API
+  slug: open-engineering-platform-vpclinks-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Web Analytics API
+  slug: open-engineering-platform-web-analytics-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Webhooks API
+  slug: open-engineering-platform-webhooks-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 WebSearch API
+  slug: open-engineering-platform-websearch-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 WHOIS Record API
+  slug: open-engineering-platform-whois-record-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Account Settings API
+  slug: open-engineering-platform-worker-account-settings-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Cron Trigger API
+  slug: open-engineering-platform-worker-cron-trigger-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Deployments API
+  slug: open-engineering-platform-worker-deployments-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Deployments (Deprecated) API
+  slug: open-engineering-platform-worker-deployments-deprecated-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Domain API
+  slug: open-engineering-platform-worker-domain-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Environment API
+  slug: open-engineering-platform-worker-environment-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Script API
+  slug: open-engineering-platform-worker-script-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Subdomain API
+  slug: open-engineering-platform-worker-subdomain-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Tail Logs API
+  slug: open-engineering-platform-worker-tail-logs-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Worker Versions API
+  slug: open-engineering-platform-worker-versions-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI API
+  slug: open-engineering-platform-workers-ai-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Automatic Speech Recognition API
+  slug: open-engineering-platform-workers-ai-automatic-speech-recognition-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Finetune API
+  slug: open-engineering-platform-workers-ai-finetune-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Image Classification API
+  slug: open-engineering-platform-workers-ai-image-classification-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Object Detection API
+  slug: open-engineering-platform-workers-ai-object-detection-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Summarization API
+  slug: open-engineering-platform-workers-ai-summarization-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Text Classification API
+  slug: open-engineering-platform-workers-ai-text-classification-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Text Embeddings API
+  slug: open-engineering-platform-workers-ai-text-embeddings-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Text Generation API
+  slug: open-engineering-platform-workers-ai-text-generation-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Text to Image API
+  slug: open-engineering-platform-workers-ai-text-to-image-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers AI Translation API
+  slug: open-engineering-platform-workers-ai-translation-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers for Platforms API
+  slug: open-engineering-platform-workers-for-platforms-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers KV Namespace API
+  slug: open-engineering-platform-workers-kv-namespace-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers KV Request Analytics API
+  slug: open-engineering-platform-workers-kv-request-analytics-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workers KV Stored Data Analytics API
+  slug: open-engineering-platform-workers-kv-stored-data-analytics-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workspace Tags API
+  slug: open-engineering-platform-workspace-tags-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Workspaces API
+  slug: open-engineering-platform-workspaces-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Accounts API
+  slug: open-engineering-platform-zero-trust-accounts-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Audit SSH Settings API
+  slug: open-engineering-platform-zero-trust-audit-ssh-settings-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Certificates API
+  slug: open-engineering-platform-zero-trust-certificates-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Connectivity Settings API
+  slug: open-engineering-platform-zero-trust-connectivity-settings-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Gateway Application and Application Type Mappings API
+  slug: open-engineering-platform-zero-trust-gateway-application-and-application-type-mappings-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Gateway Categories API
+  slug: open-engineering-platform-zero-trust-gateway-categories-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Gateway Locations API
+  slug: open-engineering-platform-zero-trust-gateway-locations-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Gateway Proxy Endpoints API
+  slug: open-engineering-platform-zero-trust-gateway-proxy-endpoints-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Gateway Rules API
+  slug: open-engineering-platform-zero-trust-gateway-rules-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Lists API
+  slug: open-engineering-platform-zero-trust-lists-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Organization API
+  slug: open-engineering-platform-zero-trust-organization-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Risk Scoring API
+  slug: open-engineering-platform-zero-trust-risk-scoring-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Risk Scoring Integrations API
+  slug: open-engineering-platform-zero-trust-risk-scoring-integrations-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Seats API
+  slug: open-engineering-platform-zero-trust-seats-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zero Trust Users API
+  slug: open-engineering-platform-zero-trust-users-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zone API
+  slug: open-engineering-platform-zone-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zone-Level Access Applications API
+  slug: open-engineering-platform-zone-level-access-applications-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zone-Level Access mTLS Authentication API
+  slug: open-engineering-platform-zone-level-access-mtls-authentication-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zone-Level Access Policies API
+  slug: open-engineering-platform-zone-level-access-policies-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zone-Level Access Short-Lived Certificate CAs API
+  slug: open-engineering-platform-zone-level-access-short-lived-certificate-cas-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zone Subscription API
+  slug: open-engineering-platform-zone-subscription-api
+- collection_type: open
+  name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zones API
+  slug: open-engineering-platform-zones-api
 common:
 - group: agent
   title: ''
@@ -19600,7 +21008,7 @@ plans:
 - name: Engineering Platform Plans Pricing
   plan_count: 1
   slug: engineering-platform-plans-pricing
-random_paper: 37
+random_paper: 140
 rate_limits:
 - limit_count: 1
   name: Engineering Platform Rate Limits
@@ -19634,7 +21042,7 @@ score:
       marker_coverage: 0.0
       total: 470
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engineering-platform/refs/heads/main/screenshots/engineering-platform-2026-06-20T180718.png
 security:

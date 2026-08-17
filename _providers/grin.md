@@ -9,31 +9,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 23.0
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
 - description: GRIN's bi-directional REST API lets a brand's own software communicate with GRIN to synchronize creators, content, programs, and reporting data. Reference documentation is published on Stoplight at ap
   name: GRIN API
   slug: grin-api
-artifact_total: 4
+- description: GRIN's hosted remote Model Context Protocol server for Gia, its AI agent for creator marketing. GRIN documents that "Gia connects to Claude, ChatGPT, and other assistants that support MCP", and the en
+  name: GRIN Gia MCP Server
+  slug: grin-gia-mcp-server
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -103,36 +106,105 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://grin.co/privacy/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://grin.co/pricing
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/grin-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/grin-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/grin-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/grin-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/grin-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/grin-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/grin-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/grin-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/grin-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/grin-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/grin-packages.yml
 created: '2026-07-17'
 description: GRIN is a creator management and influencer marketing platform for consumer and eCommerce brands, operating in the creator economy. Brands use GRIN to discover creators, manage relationships and content, run affiliate and ambassador programs, handle creator payments, track performance, and measure ROI at scale. The product line includes GRIN Classic, a manual creator and affiliate management platform, and Gia, an AI assistant that automates affiliate program management. GRIN exposes a bi-directional REST API (documented on Stoplight at api.grin.co) so a brand's own software can synchronize creators, content, and program data with GRIN, alongside native integrations for Shopify, Klaviyo, PayPal, Slack, and other commerce tools.
 image: https://grin.co/wp-content/uploads/2022/11/2022_GRIN_Logo_Black_Transparent-Bkgnd-small.webp
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: grin-mcp.yml
+  slug: grin-mcpyml
+modified: '2026-08-13'
 name: Grin
 nav: Providers
 network: true
-overview: 'Grin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Economy, Creator Management, and Affiliate Marketing.
+overview: 'Grin publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Economy, Creator Management, and Affiliate Marketing.
 
 
-  Grin''s developer surface includes API reference, documentation, support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 72
+  Grin''s developer surface includes API reference, documentation, support, engineering blog, signup flow, pricing, authentication, and 22 more developer resources.'
+plans:
+- name: Grin Plans Pricing
+  plan_count: 5
+  slug: grin-plans-pricing
+random_paper: 134
+rate_limits:
+- limit_count: 0
+  name: Grin Rate Limits
+  slug: grin-rate-limits
+scopes:
+- name: Grin Scopes
+  scope_count: 14
+  slug: grin-scopes
+  summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
-  band: emerging
-  composite: 26.3
-  delta: 0.0
+  band: thin
+  composite: 40.9
+  delta: 14.6
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 92.1
     contract_quality: 0.0
-    developer_ergonomics: 30.4
-    discoverability: 68.5
-    governance: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 26.3
   previous_composite: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/screenshots/grin-2026-07-25T220334.png
 security:
+- kind: authentication
+  name: Grin Authentication
+  slug: grin-authentication
+  summary_line: openIdConnect/oauth2 · 2 schemes
 - kind: domain-security
   name: Grin Domain Security
   slug: grin-domain-security

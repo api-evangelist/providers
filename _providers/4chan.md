@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +56,32 @@ apis:
 - description: Single-thread document containing the OP and every reply.
   name: 4chan Threads API
   slug: 4chan-threads-api
-artifact_total: 51
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: 4chan Read-Only JSON API
   slug: open-4chan-api
+- collection_type: open
+  name: 4chan Read-Only JSON Archive API
+  slug: open-4chan-archive-api
+- collection_type: open
+  name: 4chan Read-Only JSON Archive Boards API
+  slug: open-4chan-boards-api
+- collection_type: open
+  name: 4chan Read-Only JSON Archive Catalog API
+  slug: open-4chan-catalog-api
+- collection_type: open
+  name: 4chan Read-Only JSON Archive Indexes API
+  slug: open-4chan-indexes-api
+- collection_type: open
+  name: 4chan Read-Only JSON Archive Threadlist API
+  slug: open-4chan-threadlist-api
+- collection_type: open
+  name: 4chan Read-Only JSON Archive Threads API
+  slug: open-4chan-threads-api
 common:
 - group: operate
   title: ''
@@ -289,7 +310,7 @@ plans:
 - name: 4Chan Plans Pricing
   plan_count: 2
   slug: 4chan-plans-pricing
-random_paper: 102
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: 4Chan Rate Limits
@@ -331,7 +352,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png
 security:

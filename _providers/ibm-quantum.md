@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ arazzos:
 - description: Check instance usage and remaining limit before submitting a job, skipping submission when the limit is reached.
   name: IBM Quantum Usage-Aware Job Submission
   slug: ibm-quantum-usage-aware-job-submission-workflow
-artifact_total: 73
+artifact_total: 83
 collections:
 - collection_type: postman
   name: Qiskit Runtime Analytics API
@@ -130,6 +130,24 @@ collections:
   name: Qiskit Runtime Versions API
   slug: postman-ibm-quantum-runtime-versions
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qiskit Runtime Analytics Accounts API
+  slug: open-ibm-quantum-accounts-api
+- collection_type: open
+  name: Qiskit Runtime Accounts Analytics API
+  slug: open-ibm-quantum-analytics-api
+- collection_type: open
+  name: Qiskit Runtime Analytics Accounts Backends API
+  slug: open-ibm-quantum-backends-api
+- collection_type: open
+  name: Qiskit Runtime Analytics Accounts Instances API
+  slug: open-ibm-quantum-instances-api
+- collection_type: open
+  name: Qiskit Runtime Analytics Accounts Jobs API
+  slug: open-ibm-quantum-jobs-api
+- collection_type: open
   name: Qiskit Runtime Analytics API
   slug: open-ibm-quantum-runtime-analytics
 - collection_type: open
@@ -147,6 +165,18 @@ collections:
 - collection_type: open
   name: Qiskit Runtime Versions API
   slug: open-ibm-quantum-runtime-versions
+- collection_type: open
+  name: Qiskit Runtime Analytics Accounts Sessions API
+  slug: open-ibm-quantum-sessions-api
+- collection_type: open
+  name: Qiskit Runtime Analytics Accounts Tags API
+  slug: open-ibm-quantum-tags-api
+- collection_type: open
+  name: Qiskit Runtime Analytics Accounts Versions API
+  slug: open-ibm-quantum-versions-api
+- collection_type: open
+  name: Qiskit Runtime Analytics Accounts Workloads API
+  slug: open-ibm-quantum-workloads-api
 common:
 - group: agent
   title: ''
@@ -443,7 +473,7 @@ plans:
 - name: Ibm Quantum Plans Pricing
   plan_count: 5
   slug: ibm-quantum-plans-pricing
-random_paper: 56
+random_paper: 93
 rate_limits:
 - limit_count: 3
   name: Ibm Quantum Rate Limits
@@ -485,7 +515,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/screenshots/ibm-quantum-2026-06-20T183130.png
 security:

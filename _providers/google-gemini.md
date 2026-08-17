@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -84,15 +84,24 @@ apis:
 - description: Generate text embedding vectors for semantic search, classification, clustering, and retrieval tasks using Gemini embedding models.
   name: Google Gemini Embeddings API
   slug: google-gemini-embeddings-api
-artifact_total: 56
+artifact_total: 59
 asyncapis:
 - description: 'AsyncAPI specification describing Google Gemini''s real-time and streaming surface area: * The Live API bidirectional WebSocket service (BidiGenerateContent) used for low-latency multimodal voice, vide'
   name: Google Gemini Streaming and Live API
   slug: google-gemini-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Gemini API
   slug: open-google-gemini-api
+- collection_type: open
+  name: Google Gemini Content Generation API
+  slug: open-google-gemini-content-generation-api
+- collection_type: open
+  name: Google Gemini Content Generation Embeddings API
+  slug: open-google-gemini-embeddings-api
 common:
 - group: agent
   title: ''
@@ -274,7 +283,7 @@ plans:
 - name: Google Gemini Plans Pricing
   plan_count: 7
   slug: google-gemini-plans-pricing
-random_paper: 115
+random_paper: 123
 rate_limits:
 - limit_count: 7
   name: Google Gemini Rate Limits
@@ -316,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/screenshots/google-gemini-2026-06-20T182205.png
 security:

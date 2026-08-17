@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ apis:
 - description: Access worker payroll data and compensation details
   name: Workday Payroll Workers API
   slug: workday-payroll-workers-api
-artifact_total: 302
+artifact_total: 324
 collections:
 - collection_type: postman
   name: Workday Payroll Input Deductions agentDefinition API
@@ -168,17 +168,83 @@ collections:
   name: Workday Payroll Input Deductions Workers API
   slug: postman-workday-payroll-workers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Payroll Input Deductions agentDefinition API
+  slug: open-workday-payroll-agentdefinition-api
+- collection_type: open
+  name: Workday Payroll Input Deductions API
+  slug: open-workday-payroll-deductions-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Earnings API
+  slug: open-workday-payroll-earnings-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Input Batches API
+  slug: open-workday-payroll-input-batches-api
+- collection_type: open
+  name: Workday Payroll Input Deductions One-Time Payments API
+  slug: open-workday-payroll-one-time-payments-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Pay Groups API
+  slug: open-workday-payroll-pay-groups-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Pay Runs API
+  slug: open-workday-payroll-pay-runs-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Payment Elections API
+  slug: open-workday-payroll-payment-elections-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Payment Results API
+  slug: open-workday-payroll-payment-results-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Payroll Adjustments API
+  slug: open-workday-payroll-payroll-adjustments-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Payroll Calculations API
+  slug: open-workday-payroll-payroll-calculations-api
+- collection_type: open
   name: Workday Payroll Input API
   slug: open-workday-payroll-payroll-input
 - collection_type: open
   name: Workday Payroll Results API
   slug: open-workday-payroll-payroll-results
 - collection_type: open
+  name: Workday Payroll Input Deductions Payroll Summaries API
+  slug: open-workday-payroll-payroll-summaries-api
+- collection_type: open
   name: Workday Payroll API
   slug: open-workday-payroll-payroll
 - collection_type: open
+  name: Workday Payroll Input Deductions Payslips API
+  slug: open-workday-payroll-payslips-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Supplemental Earnings API
+  slug: open-workday-payroll-supplemental-earnings-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Tax Calculations API
+  slug: open-workday-payroll-tax-calculations-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Tax Elections API
+  slug: open-workday-payroll-tax-elections-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Tax Filing API
+  slug: open-workday-payroll-tax-filing-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Tax Jurisdictions API
+  slug: open-workday-payroll-tax-jurisdictions-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Tax Withholdings API
+  slug: open-workday-payroll-tax-withholdings-api
+- collection_type: open
   name: Workday Payroll Workday Tax API
   slug: open-workday-payroll-tax
+- collection_type: open
+  name: Workday Payroll Input Deductions Time Off Inputs API
+  slug: open-workday-payroll-time-off-inputs-api
+- collection_type: open
+  name: Workday Payroll Input Deductions Workers API
+  slug: open-workday-payroll-workers-api
 common:
 - group: build
   title: ''
@@ -1007,7 +1073,7 @@ plans:
 - name: Workday Payroll Plans Pricing
   plan_count: 1
   slug: workday-payroll-plans-pricing
-random_paper: 25
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: Workday Payroll Rate Limits
@@ -1049,7 +1115,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png
 security:

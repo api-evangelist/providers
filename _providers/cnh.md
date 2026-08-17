@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,11 +63,35 @@ apis:
 - description: Subscribe to FieldOps event notifications.
   name: CNH Webhooks API
   slug: cnh-webhooks-api
-artifact_total: 21
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CNH FieldOps Equipment API
+  slug: open-cnh-equipment-api
+- collection_type: open
+  name: CNH FieldOps Equipment Farm Setup API
+  slug: open-cnh-farm-setup-api
 - collection_type: open
   name: CNH FieldOps API
   slug: open-cnh-fieldops
+- collection_type: open
+  name: CNH FieldOps Equipment Operations API
+  slug: open-cnh-operations-api
+- collection_type: open
+  name: CNH FieldOps Equipment Prescriptions API
+  slug: open-cnh-prescriptions-api
+- collection_type: open
+  name: CNH FieldOps Equipment Tokens API
+  slug: open-cnh-tokens-api
+- collection_type: open
+  name: CNH FieldOps Equipment Vehicle Telemetry API
+  slug: open-cnh-vehicle-telemetry-api
+- collection_type: open
+  name: CNH FieldOps Equipment Webhooks API
+  slug: open-cnh-webhooks-api
 common:
 - group: agent
   title: ''
@@ -164,7 +188,7 @@ plans:
 - name: Cnh Plans Pricing
   plan_count: 3
   slug: cnh-plans-pricing
-random_paper: 73
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Cnh Rate Limits
@@ -211,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/screenshots/cnh-2026-06-20T174635.png
 security:

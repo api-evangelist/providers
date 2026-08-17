@@ -9,27 +9,42 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 52.7
+  scored_at: '2026-08-17'
+api_count: 3
+apis:
+- description: Chord's hosted Model Context Protocol server — a remote, OAuth-protected, read-only window into a customer's Chord data warehouse. Fourteen documented tools cover schema search, saved views, prior que
+  name: Chord MCP
+  slug: chord-mcp
+- description: The HTTP ingest surface of the Chord customer data platform. Backend systems POST track and identify events to /api/track and /api/identify, authenticated with a per-source write key (X-Write-Key head
+  name: Chord CDP Ingest API
+  slug: chord-cdp-ingest-api
+- description: Read API for activated audiences. Once the Dynamic Audiences API destination is enabled on an account, a sync mirrors a custom audience into the API and a server-side GET on /audiences returns that us
+  name: Chord Audiences API
+  slug: chord-audiences-api
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Chord Commerce Events
+  slug: chord-commerce-events
 common:
 - group: auth
   title: ''
@@ -46,15 +61,15 @@ common:
 - group: other
   title: ''
   type: AI
-  url: https://www.chordcommerce.com/chord-ai
+  url: https://www.chordcommerce.com/platform/agents
 - group: other
   title: ''
   type: CDP
-  url: https://www.chordcommerce.com/chord-cdp
+  url: https://www.chordcommerce.com/platform/data-foundation
 - group: other
   title: ''
-  type: OMS
-  url: https://www.chordcommerce.com/chord-oms
+  type: ContextLayer
+  url: https://www.chordcommerce.com/platform/context-layer
 - group: docs
   title: ''
   type: Documentation
@@ -66,7 +81,11 @@ common:
 - group: docs
   title: ''
   type: APIReference
-  url: https://chord.stoplight.io/docs/chord-oms
+  url: https://docs.chord.co/sdk-api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.chord.co/analytics-developer-docs
 - group: other
   title: ''
   type: EventTracking
@@ -83,29 +102,137 @@ common:
   title: ''
   type: AnthropicIntegration
   url: https://docs.chord.co/chord-ai-models-powered-by-anthropic
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/chord-commerce-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/chord-commerce-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/chord-commerce-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/chord-commerce-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/chord-commerce-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/chord-commerce-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/chord-commerce-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/chord-commerce-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/chord-commerce-error-codes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/chord-commerce-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/chord-commerce-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.chord.co
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/chord-commerce-changelog.yml
 - group: operate
   title: ''
   type: ReleaseNotes
   url: https://chord.launchnotes.io
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/chord-commerce-events.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/chord-commerce-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/chord-commerce-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chord-commerce-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/chord-commerce-rate-limits.yml
 - group: company
   title: ''
   type: Blog
-  url: https://www.chordcommerce.com/blog
+  url: https://www.chordcommerce.com/resources/insights
 - group: other
   title: ''
   type: CaseStudies
-  url: https://www.chordcommerce.com/case-studies
+  url: https://www.chordcommerce.com/resources/case-studies
 - group: company
   title: ''
   type: About
   url: https://www.chordcommerce.com/about
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.chordcommerce.com/faq
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.chordcommerce.com/request-a-demo
 - group: start
   title: ''
   type: Demo
-  url: https://www.chordcommerce.com/pricing
+  url: https://www.chordcommerce.com/request-a-demo
+- group: start
+  title: ''
+  type: Login
+  url: https://hub.chord.co/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.chordcommerce.com/legal/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.chordcommerce.com/legal/privacy-policy
+- group: auth
+  title: ''
+  type: SecurityMeasures
+  url: https://www.chordcommerce.com/legal/security-measures
+- group: other
+  title: ''
+  type: DataProcessingAddendum
+  url: https://www.chordcommerce.com/legal/data-processing-addendum
+- group: other
+  title: ''
+  type: Subprocessors
+  url: https://www.chordcommerce.com/legal/subprocessors
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/chordcommerce
 - group: company
   title: ''
@@ -121,36 +248,60 @@ description: 'Chord is a New York / Santa Barbara-based commerce data and AI pla
   Act One Ventures, Chingona Ventures, and CEAS Investments, with an $18M Series A reported by TechCrunch in 2021. The commercial model is sales-led with custom enterprise pricing gated behind a demo request.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chord-commerce.png
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: chord-commerce-mcp.yml
+  slug: chord-commerce-mcpyml
+modified: '2026-08-13'
 name: Chord
 nav: Providers
 network: true
-overview: 'Chord is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Commerce, Composable Commerce, Headless Commerce, Order Management, and OMS.
+overview: 'Chord publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Commerce, Composable Commerce, Headless Commerce, Order Management, and OMS.
 
 
-  Chord''s developer surface includes documentation, API reference, release notes, engineering blog, GitHub presence, and 16 more developer resources.'
-random_paper: 96
+  The Chord catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Chord''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, release notes, engineering blog, and 42 more developer resources.'
+plans:
+- name: Chord Commerce Plans Pricing
+  plan_count: 0
+  slug: chord-commerce-plans-pricing
+random_paper: 75
+rate_limits:
+- limit_count: 0
+  name: Chord Commerce Rate Limits
+  slug: chord-commerce-rate-limits
+scopes:
+- name: Chord Commerce Scopes
+  scope_count: 0
+  slug: chord-commerce-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: minimal
-  composite: 11.2
-  delta: 0.0
+  band: developing
+  composite: 51.5
+  delta: 40.3
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 17.4
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 44.7
+    contract_quality: 51.6
+    developer_ergonomics: 65.2
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 44.7
   previous_composite: 11.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/screenshots/chord-commerce-2026-06-20T174322.png
 security:
+- kind: authentication
+  name: Chord Commerce Authentication
+  slug: chord-commerce-authentication
+  summary_line: 4 schemes
 - kind: domain-security
   name: Chord Commerce Domain Security
   slug: chord-commerce-domain-security
-  summary_line: TLSv1.3 · HSTS · DNSSEC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: chord-commerce
 tags:
 - Commerce

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Webhooks API from Faros AI — 1 operation(s) for webhooks.
   name: Faros AI Webhooks API
   slug: faros-webhooks-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Faros AI Account API
+  slug: open-faros-account-api
+- collection_type: open
+  name: Faros AI Account Events API
+  slug: open-faros-events-api
+- collection_type: open
+  name: Faros AI Account GraphQL API
+  slug: open-faros-graphql-api
+- collection_type: open
+  name: Faros AI Account Graphs API
+  slug: open-faros-graphs-api
+- collection_type: open
+  name: Faros AI Account Ingestion API
+  slug: open-faros-ingestion-api
+- collection_type: open
+  name: Faros AI Account Webhooks API
+  slug: open-faros-webhooks-api
 - collection_type: open
   name: Faros AI API
   slug: open-faros
@@ -135,7 +156,7 @@ plans:
 - name: Faros Plans Pricing
   plan_count: 4
   slug: faros-plans-pricing
-random_paper: 59
+random_paper: 92
 rate_limits:
 - limit_count: 3
   name: Faros Rate Limits
@@ -160,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/screenshots/faros-2026-07-25T214235.png
 security:

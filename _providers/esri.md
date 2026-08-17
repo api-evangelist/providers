@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Routing API from Esri — 1 operation(s) for routing.
   name: Esri Routing API
   slug: esri-routing-api
-artifact_total: 12
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Esri ArcGIS Location Services Auth API
+  slug: open-esri-auth-api
+- collection_type: open
+  name: Esri ArcGIS Location Services Auth Geocoding API
+  slug: open-esri-geocoding-api
+- collection_type: open
+  name: Esri ArcGIS Location Services Auth Routing API
+  slug: open-esri-routing-api
 - collection_type: open
   name: Esri ArcGIS Location Services API
   slug: open-esri
@@ -109,7 +121,7 @@ plans:
 - name: Esri Plans Pricing
   plan_count: 3
   slug: esri-plans-pricing
-random_paper: 75
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: Esri Rate Limits
@@ -139,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/screenshots/esri-2026-06-20T180822.png
 security:

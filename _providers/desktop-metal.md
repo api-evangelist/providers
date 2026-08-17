@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'Live Platform provisions and manages Desktop Metal AM systems and users, and Live Monitor surfaces real-time fleet, printer, and furnace data (job/event status, time reporting, consumable usage, OEE) '
@@ -40,8 +40,11 @@ apis:
 - description: Qualified metal, polymer, composite, ceramic, sand, and wood material portfolio for Desktop Metal's binder jet, Bound Metal Deposition, and DLP/polymer systems, with associated material parameters and
   name: Materials
   slug: materials
-artifact_total: 8
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Desktop Metal
   slug: open-desktop-metal
@@ -94,7 +97,7 @@ plans:
 - name: Desktop Metal Plans Pricing
   plan_count: 1
   slug: desktop-metal-plans-pricing
-random_paper: 18
+random_paper: 146
 rate_limits:
 - limit_count: 0
   name: Desktop Metal Rate Limits
@@ -112,7 +115,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desktop-metal/refs/heads/main/screenshots/desktop-metal-2026-06-20T175940.png
 security:

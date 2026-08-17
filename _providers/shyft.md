@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 56
 apis:
 - description: The Authentication > Email API from Shyft — 2 operation(s) for authentication > email.
@@ -199,7 +199,179 @@ apis:
 - description: The Support API from Shyft — 2 operation(s) for support.
   name: Shyft Support API
   slug: shyft-support-api
-artifact_total: 59
+artifact_total: 116
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shyft Customer Authentication > Email API
+  slug: open-shyft-authentication-email-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Authentication > PhoneNumber API
+  slug: open-shyft-authentication-phonenumber-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Callbacks API
+  slug: open-shyft-callbacks-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Compact > Applicants API
+  slug: open-shyft-compact-applicants-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Compact > Plans API
+  slug: open-shyft-compact-plans-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Compact > Posts API
+  slug: open-shyft-compact-posts-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Compact > RequstTimeOff API
+  slug: open-shyft-compact-requsttimeoff-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Compact > Shifts API
+  slug: open-shyft-compact-shifts-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Compact > Subscriptions API
+  slug: open-shyft-compact-subscriptions-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Compact > UserPrivileges API
+  slug: open-shyft-compact-userprivileges-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Action Jobs API
+  slug: open-shyft-customer-action-jobs-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > AdminClaims API
+  slug: open-shyft-customer-adminclaims-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > AI API
+  slug: open-shyft-customer-ai-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Applicants API
+  slug: open-shyft-customer-applicants-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Availabilities > admin_role > request API
+  slug: open-shyft-customer-availabilities-admin-role-request-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Availabilities > user_role API
+  slug: open-shyft-customer-availabilities-user-role-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Availabilities > user_role > Deprecated API
+  slug: open-shyft-customer-availabilities-user-role-deprecated-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Availabilities > user_role > Deprecated > request API
+  slug: open-shyft-customer-availabilities-user-role-deprecated-request-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Channels API
+  slug: open-shyft-customer-channels-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Chats > ChatMessages API
+  slug: open-shyft-customer-chats-chatmessages-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Chats > ChatSessions API
+  slug: open-shyft-customer-chats-chatsessions-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Comments API
+  slug: open-shyft-customer-comments-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Demands API
+  slug: open-shyft-customer-demands-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Departments API
+  slug: open-shyft-customer-departments-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Departments > Memberships API
+  slug: open-shyft-customer-departments-memberships-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > EWA API
+  slug: open-shyft-customer-ewa-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > GeofenceLogs API
+  slug: open-shyft-customer-geofencelogs-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Griddler API
+  slug: open-shyft-customer-griddler-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Images API
+  slug: open-shyft-customer-images-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Invitations API
+  slug: open-shyft-customer-invitations-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Locations > user_role API
+  slug: open-shyft-customer-locations-user-role-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Messions API
+  slug: open-shyft-customer-messions-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Notifications API
+  slug: open-shyft-customer-notifications-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Posts API
+  slug: open-shyft-customer-posts-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Products API
+  slug: open-shyft-customer-products-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > RequestJobs API
+  slug: open-shyft-customer-requestjobs-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > RequstTimeOff API
+  slug: open-shyft-customer-requsttimeoff-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Schedules API
+  slug: open-shyft-customer-schedules-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Segments API
+  slug: open-shyft-customer-segments-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > SetupActions API
+  slug: open-shyft-customer-setupactions-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Shifts API
+  slug: open-shyft-customer-shifts-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Skill API
+  slug: open-shyft-customer-skill-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > SsoSessions API
+  slug: open-shyft-customer-ssosessions-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Subscriptions API
+  slug: open-shyft-customer-subscriptions-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Tag API
+  slug: open-shyft-customer-tag-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > ToS API
+  slug: open-shyft-customer-tos-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > UnregisteredUsers API
+  slug: open-shyft-customer-unregisteredusers-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Uploader API
+  slug: open-shyft-customer-uploader-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > UserNews API
+  slug: open-shyft-customer-usernews-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > UserPrivileges > admin_role API
+  slug: open-shyft-customer-userprivileges-admin-role-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > UserPrivileges API
+  slug: open-shyft-customer-userprivileges-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Users > admin_role API
+  slug: open-shyft-customer-users-admin-role-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Customer > Users > user_role API
+  slug: open-shyft-customer-users-user-role-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Deprecated API
+  slug: open-shyft-deprecated-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email General API
+  slug: open-shyft-general-api
+- collection_type: open
+  name: Shyft Customer Authentication > Email Support API
+  slug: open-shyft-support-api
 common:
 - group: other
   title: ''
@@ -289,7 +461,7 @@ overview: 'Shyft publishes 56 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Shyft''s developer surface includes authentication, documentation, API reference, pricing, signup flow, sandbox, and 12 more developer resources.'
-random_paper: 78
+random_paper: 111
 score:
   band: thin
   composite: 33.6
@@ -312,7 +484,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

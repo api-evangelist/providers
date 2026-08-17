@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -96,11 +96,68 @@ arazzos:
 - description: Authenticate, submit a loan application, then track its status and next actions.
   name: Originate and track a GoodLeap loan
   slug: good-leap-originate-and-track-loan
-artifact_total: 25
+artifact_total: 44
 collections:
 - collection_type: postman
   name: GoodLeap - Developer API
   slug: postman-good-leap-developer-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management API
+  slug: open-good-leap-authorization-elevation-management-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Calculate Payments API
+  slug: open-good-leap-calculate-payments-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Case (loan stipulations) Management API
+  slug: open-good-leap-case-loan-stipulations-management-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Disclosures API
+  slug: open-good-leap-disclosures-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Install Categories & Loan Limitations API
+  slug: open-good-leap-install-categories-loan-limitations-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Loan Change Orders API
+  slug: open-good-leap-loan-change-orders-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Loan Documents Management API
+  slug: open-good-leap-loan-documents-management-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Loan Notes Management API
+  slug: open-good-leap-loan-notes-management-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Loan Status API
+  slug: open-good-leap-loan-status-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Loan Submission API
+  slug: open-good-leap-loan-submission-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Loan Tag Management API
+  slug: open-good-leap-loan-tag-management-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Milestone Management API
+  slug: open-good-leap-milestone-management-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Project Management API
+  slug: open-good-leap-project-management-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Promotions API
+  slug: open-good-leap-promotions-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management States & Channels API
+  slug: open-good-leap-states-channels-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Toolbox API
+  slug: open-good-leap-toolbox-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management User Management API
+  slug: open-good-leap-user-management-api
+- collection_type: open
+  name: GoodLeap Developer Authorization & Elevation Management Verify Loan Details API
+  slug: open-good-leap-verify-loan-details-api
 common:
 - group: other
   title: ''
@@ -218,7 +275,7 @@ overview: 'Good Leap publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Good Leap''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 48
+random_paper: 143
 score:
   band: thin
   composite: 41.3
@@ -248,7 +305,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
 security:

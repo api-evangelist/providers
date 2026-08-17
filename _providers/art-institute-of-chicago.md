@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,8 +155,122 @@ apis:
 - description: Video assets and metadata.
   name: Art Institute of Chicago Videos API
   slug: art-institute-of-chicago-videos-api
-artifact_total: 69
+artifact_total: 107
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles API
+  slug: open-art-institute-of-chicago-agent-roles-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Agent Types API
+  slug: open-art-institute-of-chicago-agent-types-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Agents API
+  slug: open-art-institute-of-chicago-agents-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Articles API
+  slug: open-art-institute-of-chicago-articles-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Artists API
+  slug: open-art-institute-of-chicago-artists-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Artwork Date Qualifiers API
+  slug: open-art-institute-of-chicago-artwork-date-qualifiers-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Artwork Place Qualifiers API
+  slug: open-art-institute-of-chicago-artwork-place-qualifiers-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Artwork Types API
+  slug: open-art-institute-of-chicago-artwork-types-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Artworks API
+  slug: open-art-institute-of-chicago-artworks-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Category Terms API
+  slug: open-art-institute-of-chicago-category-terms-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Digital Publication Articles API
+  slug: open-art-institute-of-chicago-digital-publication-articles-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Digital Publications API
+  slug: open-art-institute-of-chicago-digital-publications-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Educator Resources API
+  slug: open-art-institute-of-chicago-educator-resources-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Event Occurrences API
+  slug: open-art-institute-of-chicago-event-occurrences-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Event Programs API
+  slug: open-art-institute-of-chicago-event-programs-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Events API
+  slug: open-art-institute-of-chicago-events-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Exhibitions API
+  slug: open-art-institute-of-chicago-exhibitions-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Galleries API
+  slug: open-art-institute-of-chicago-galleries-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Generic Pages API
+  slug: open-art-institute-of-chicago-generic-pages-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Highlights API
+  slug: open-art-institute-of-chicago-highlights-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Hours API
+  slug: open-art-institute-of-chicago-hours-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Images API
+  slug: open-art-institute-of-chicago-images-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Landing Pages API
+  slug: open-art-institute-of-chicago-landing-pages-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Mobile Sounds API
+  slug: open-art-institute-of-chicago-mobile-sounds-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Places API
+  slug: open-art-institute-of-chicago-places-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Press Releases API
+  slug: open-art-institute-of-chicago-press-releases-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Printed Publications API
+  slug: open-art-institute-of-chicago-printed-publications-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Products API
+  slug: open-art-institute-of-chicago-products-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Publications API
+  slug: open-art-institute-of-chicago-publications-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Search API
+  slug: open-art-institute-of-chicago-search-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Sections API
+  slug: open-art-institute-of-chicago-sections-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Sites API
+  slug: open-art-institute-of-chicago-sites-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Sounds API
+  slug: open-art-institute-of-chicago-sounds-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Static Pages API
+  slug: open-art-institute-of-chicago-static-pages-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Texts API
+  slug: open-art-institute-of-chicago-texts-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Tours API
+  slug: open-art-institute-of-chicago-tours-api
+- collection_type: open
+  name: Art Institute of Chicago Public Agent Roles Videos API
+  slug: open-art-institute-of-chicago-videos-api
 - collection_type: open
   name: Art Institute of Chicago Public API
   slug: open-art-institute-of-chicago
@@ -274,7 +388,7 @@ plans:
 - name: Art Institute Of Chicago Plans Pricing
   plan_count: 1
   slug: art-institute-of-chicago-plans-pricing
-random_paper: 114
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Art Institute Of Chicago Rate Limits
@@ -322,7 +436,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/screenshots/art-institute-of-chicago-2026-06-20T172440.png
 security:

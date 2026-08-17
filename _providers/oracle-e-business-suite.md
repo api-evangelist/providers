@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ arazzos:
 - description: Find a customer's booked sales order, then locate its open shipping delivery.
   name: Oracle EBS Shipment Tracking
   slug: oracle-e-business-suite-shipment-tracking-workflow
-artifact_total: 415
+artifact_total: 438
 collections:
 - collection_type: postman
   name: Oracle EBS e-Commerce Gateway API
@@ -184,6 +184,9 @@ collections:
   name: Oracle EBS Supply Chain Management API
   slug: postman-supply-chain-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Oracle EBS e-Commerce Gateway API
   slug: open-ecommerce-gateway-api
 - collection_type: open
@@ -198,6 +201,72 @@ collections:
 - collection_type: open
   name: Oracle EBS Manufacturing API
   slug: open-manufacturing-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable API
+  slug: open-oracle-e-business-suite-accounts-payable-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Accounts Receivable API
+  slug: open-oracle-e-business-suite-accounts-receivable-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Authentication API
+  slug: open-oracle-e-business-suite-authentication-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Benefits API
+  slug: open-oracle-e-business-suite-benefits-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Bills of Material API
+  slug: open-oracle-e-business-suite-bills-of-material-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Cash Management API
+  slug: open-oracle-e-business-suite-cash-management-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Code Conversions API
+  slug: open-oracle-e-business-suite-code-conversions-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Employee Management API
+  slug: open-oracle-e-business-suite-employee-management-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Fixed Assets API
+  slug: open-oracle-e-business-suite-fixed-assets-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable General Ledger API
+  slug: open-oracle-e-business-suite-general-ledger-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Inbound Transactions API
+  slug: open-oracle-e-business-suite-inbound-transactions-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Inventory API
+  slug: open-oracle-e-business-suite-inventory-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Order Management API
+  slug: open-oracle-e-business-suite-order-management-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Organization API
+  slug: open-oracle-e-business-suite-organization-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Outbound Transactions API
+  slug: open-oracle-e-business-suite-outbound-transactions-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Payroll API
+  slug: open-oracle-e-business-suite-payroll-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Purchasing API
+  slug: open-oracle-e-business-suite-purchasing-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Service Discovery API
+  slug: open-oracle-e-business-suite-service-discovery-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Service Invocation API
+  slug: open-oracle-e-business-suite-service-invocation-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Shipping API
+  slug: open-oracle-e-business-suite-shipping-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Trading Partners API
+  slug: open-oracle-e-business-suite-trading-partners-api
+- collection_type: open
+  name: Oracle EBS e-Commerce Gateway Accounts Payable Work in Process API
+  slug: open-oracle-e-business-suite-work-in-process-api
 - collection_type: open
   name: Oracle EBS Supply Chain Management API
   slug: open-supply-chain-api
@@ -1415,7 +1484,7 @@ plans:
 - name: Oracle E Business Suite Plans Pricing
   plan_count: 4
   slug: oracle-e-business-suite-plans-pricing
-random_paper: 16
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Oracle E Business Suite Rate Limits
@@ -1457,7 +1526,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/screenshots/oracle-e-business-suite-2026-06-20T191127.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ arazzos:
 - description: Submit a usage event for processing, then poll its status until it has been rated.
   name: SAP BRIM Submit a Usage Event and Poll for Rating
   slug: sap-brim-billing-and-revenue-innovation-management-usage-event-rating-poll-workflow
-artifact_total: 75
+artifact_total: 86
 collections:
 - collection_type: postman
   name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging API
@@ -129,6 +129,39 @@ collections:
 - collection_type: postman
   name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Subscription Billing API
   slug: postman-sap-brim-subscription-billing
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging Balances API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-balances-api
+- collection_type: open
+  name: SAP BRIM ( and Revenue Innovation Management) SAP BRIM Convergent Charging Balances Billing API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-billing-api
+- collection_type: open
+  name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Balances Charging API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-charging-api
+- collection_type: open
+  name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging Balances Customers API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-customers-api
+- collection_type: open
+  name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging Balances Plans API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-plans-api
+- collection_type: open
+  name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging Balances Pricing API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-pricing-api
+- collection_type: open
+  name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging Balances Rating API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-rating-api
+- collection_type: open
+  name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging Balances Subscription Items API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-subscription-items-api
+- collection_type: open
+  name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging Balances Subscriptions API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-subscriptions-api
+- collection_type: open
+  name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging Balances Usage Events API
+  slug: open-sap-brim-billing-and-revenue-innovation-management-usage-events-api
 - collection_type: open
   name: SAP BRIM (Billing and Revenue Innovation Management) SAP BRIM Convergent Charging API
   slug: open-sap-brim-convergent-charging
@@ -458,7 +491,7 @@ plans:
 - name: Sap Brim Billing And Revenue Innovation Management Plans Pricing
   plan_count: 1
   slug: sap-brim-billing-and-revenue-innovation-management-plans-pricing
-random_paper: 52
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Sap Brim Billing And Revenue Innovation Management Rate Limits
@@ -505,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/screenshots/sap-brim-billing-and-revenue-innovation-management-2026-06-20T193418.png
 security:

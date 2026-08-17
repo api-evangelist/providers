@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Co-Invest is Liquid delivered as a remote Model Context Protocol (MCP) server. Once connected, an MCP client can research markets (live prices, funding rates, open interest, whale positioning, liquida
@@ -184,7 +184,7 @@ overview: 'Liquid publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Liquid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 26 more developer resources.'
-random_paper: 48
+random_paper: 52
 scopes:
 - name: Liquid Scopes
   scope_count: 2
@@ -213,7 +213,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/screenshots/liquid-2026-07-25T225311.png
 security:

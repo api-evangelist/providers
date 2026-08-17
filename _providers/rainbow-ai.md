@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Weather map tile retrieval operations
   name: Rainbow.AI Tiles API
   slug: rainbow-ai-tiles-api
-artifact_total: 24
+artifact_total: 29
 collections:
 - collection_type: postman
   name: Rainbow.AI Nowcast API
@@ -66,8 +66,23 @@ collections:
   name: Rainbow.AI Nowcast Tiles API
   slug: postman-rainbow-ai-tiles-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rainbow.AI Nowcast API
+  slug: open-rainbow-ai-nowcast-api
+- collection_type: open
   name: Rainbow.AI Nowcast API
   slug: open-rainbow-ai-nowcast
+- collection_type: open
+  name: Rainbow.AI Nowcast Radar API
+  slug: open-rainbow-ai-radar-api
+- collection_type: open
+  name: Rainbow.AI Nowcast Snapshots API
+  slug: open-rainbow-ai-snapshots-api
+- collection_type: open
+  name: Rainbow.AI Nowcast Tiles API
+  slug: open-rainbow-ai-tiles-api
 - collection_type: open
   name: Rainbow.AI Tiles API
   slug: open-rainbow-ai-tiles
@@ -178,7 +193,7 @@ plans:
 - name: Rainbow Ai Plans Pricing
   plan_count: 3
   slug: rainbow-ai-plans-pricing
-random_paper: 41
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Rainbow Ai Rate Limits
@@ -220,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/screenshots/rainbow-ai-2026-06-20T192610.png
 security:

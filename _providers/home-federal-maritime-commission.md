@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'Federal Maritime Commission is profiled on the [APIs.io](https://apis
 
 
   Federal Maritime Commission''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 108
+random_paper: 99
 score:
   band: minimal
   composite: 5.5
@@ -79,7 +79,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/home-federal-maritime-commission/refs/heads/main/screenshots/home-federal-maritime-commission-2026-06-20T182815.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,7 +66,32 @@ apis:
 - description: Infostore repository navigation and folder browsing
   name: Crystal Reports Repository API
   slug: crystal-reports-repository-api
-artifact_total: 107
+artifact_total: 115
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP Crystal Reports RESTful Web Services Authentication API
+  slug: open-crystal-reports-authentication-api
+- collection_type: open
+  name: SAP Crystal Reports RESTful Web Services Authentication Export API
+  slug: open-crystal-reports-export-api
+- collection_type: open
+  name: SAP Crystal Reports RESTful Web Services Authentication Instances API
+  slug: open-crystal-reports-instances-api
+- collection_type: open
+  name: SAP Crystal Reports RESTful Web Services Authentication Metadata API
+  slug: open-crystal-reports-metadata-api
+- collection_type: open
+  name: SAP Crystal Reports RESTful Web Services Authentication OData API
+  slug: open-crystal-reports-odata-api
+- collection_type: open
+  name: SAP Crystal RESTful Web Services Authentication Reports API
+  slug: open-crystal-reports-reports-api
+- collection_type: open
+  name: SAP Crystal Reports RESTful Web Services Authentication Repository API
+  slug: open-crystal-reports-repository-api
 common:
 - group: agent
   title: ''
@@ -367,7 +392,7 @@ plans:
 - name: Crystal Reports Plans Pricing
   plan_count: 2
   slug: crystal-reports-plans-pricing
-random_paper: 38
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Crystal Reports Rate Limits
@@ -409,7 +434,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/screenshots/crystal-reports-2026-06-20T175319.png
 security:

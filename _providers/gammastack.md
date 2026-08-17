@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Reference page describing the third-party API integrations GammaStack provides for sports betting platforms, including betting odds, live market data, and sport fixtures.
@@ -72,7 +72,7 @@ plans:
 - name: Gammastack Plans Pricing
   plan_count: 3
   slug: gammastack-plans-pricing
-random_paper: 89
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Gammastack Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 9.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gammastack/refs/heads/main/screenshots/gammastack-2026-06-20T181641.png
 security:

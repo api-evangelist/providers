@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -74,8 +74,44 @@ apis:
 - description: The Tagged API from Facebook Pages API — 1 operation(s) for tagged.
   name: Facebook Pages API Tagged API
   slug: facebook-pages-tagged-api
-artifact_total: 16
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meta Graph API - Pages Comments API
+  slug: open-facebook-pages-comments-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Conversations API
+  slug: open-facebook-pages-conversations-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Feed API
+  slug: open-facebook-pages-feed-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Insights API
+  slug: open-facebook-pages-insights-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Me API
+  slug: open-facebook-pages-me-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Meta Graph API Pages API
+  slug: open-facebook-pages-meta-graph-api-pages-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Photos API
+  slug: open-facebook-pages-photos-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Posts API
+  slug: open-facebook-pages-posts-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Settings API
+  slug: open-facebook-pages-settings-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Subscribed Apps API
+  slug: open-facebook-pages-subscribed-apps-api
+- collection_type: open
+  name: Meta Graph API - Pages Comments Tagged API
+  slug: open-facebook-pages-tagged-api
 - collection_type: open
   name: Meta Graph API - Pages
   slug: open-facebook-pages
@@ -136,7 +172,7 @@ overview: 'Facebook Pages API publishes 11 APIs on the [APIs.io](https://apis.io
 
 
   Facebook Pages API''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 79
+random_paper: 58
 scopes:
 - name: Facebook Pages Scopes
   scope_count: 7
@@ -162,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/screenshots/facebook-pages-2026-06-20T181006.png
 security:

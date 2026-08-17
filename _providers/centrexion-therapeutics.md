@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Comment collection — one item, the default WordPress sample comment on the placeholder post.
@@ -51,7 +51,41 @@ apis:
 - description: Categories, tags and the post_series taxonomy. Only the default `Uncategorized` category exists; `post_tag` and `post_series` are registered but empty.
   name: Centrexion Therapeutics Taxonomy API
   slug: centrexion-therapeutics-taxonomy-api
-artifact_total: 12
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Centrexion Therapeutics Content Comments API
+  slug: open-centrexion-therapeutics-comments-api
+- collection_type: open
+  name: Centrexion Therapeutics Content Custom Types API
+  slug: open-centrexion-therapeutics-custom-types-api
+- collection_type: open
+  name: Centrexion Therapeutics Content Discovery API
+  slug: open-centrexion-therapeutics-discovery-api
+- collection_type: open
+  name: Centrexion Therapeutics Content Media API
+  slug: open-centrexion-therapeutics-media-api
+- collection_type: open
+  name: Centrexion Therapeutics Content Oembed API
+  slug: open-centrexion-therapeutics-oembed-api
+- collection_type: open
+  name: Centrexion Therapeutics Content Pages API
+  slug: open-centrexion-therapeutics-pages-api
+- collection_type: open
+  name: Centrexion Therapeutics Content People API
+  slug: open-centrexion-therapeutics-people-api
+- collection_type: open
+  name: Centrexion Therapeutics Content Posts API
+  slug: open-centrexion-therapeutics-posts-api
+- collection_type: open
+  name: Centrexion Therapeutics Content Search API
+  slug: open-centrexion-therapeutics-search-api
+- collection_type: open
+  name: Centrexion Therapeutics Content Taxonomy API
+  slug: open-centrexion-therapeutics-taxonomy-api
 common:
 - group: other
   title: ''
@@ -150,7 +184,7 @@ overview: 'Centrexion Therapeutics publishes 10 APIs on the [APIs.io](https://ap
 
 
   Centrexion Therapeutics'' developer surface includes authentication and 20 more developer resources.'
-random_paper: 29
+random_paper: 45
 score:
   band: thin
   composite: 30.7
@@ -178,7 +212,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

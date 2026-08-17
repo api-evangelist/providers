@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The CNI specification defines the interface between container runtimes and network plugins. It specifies how runtimes invoke plugins via environment variables (CNI_COMMAND, CNI_CONTAINERID, CNI_NETNS,
@@ -130,7 +130,7 @@ plans:
 - name: Cni Plans Pricing
   plan_count: 3
   slug: cni-plans-pricing
-random_paper: 74
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Cni Rate Limits
@@ -157,7 +157,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cni/refs/heads/main/screenshots/cni-2026-06-20T174634.png
 security:

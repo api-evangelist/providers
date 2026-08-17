@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Open-source Python library for building distributed stream processing dataflows. Provides bytewax.dataflow, bytewax.operators (including windowing), bytewax.inputs, bytewax.outputs, and a connectors p
@@ -138,7 +138,7 @@ plans:
 - name: Bytewax Plans Pricing
   plan_count: 1
   slug: bytewax-plans-pricing
-random_paper: 52
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Bytewax Rate Limits
@@ -156,7 +156,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 31.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytewax/refs/heads/main/screenshots/bytewax-2026-06-20T173827.png
 security:

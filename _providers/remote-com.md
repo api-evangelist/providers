@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -212,7 +212,7 @@ arazzos:
 - description: Create a COR termination request, confirm it, and submit the termination.
   name: Remote Terminate A Contractor Of Record Engagement
   slug: remote-com-terminate-contractor-workflow
-artifact_total: 97
+artifact_total: 137
 asyncapis:
 - description: Remote emits webhook events for nearly every state change across its Companies, Employments, Contractors, Payroll, Billing, Time Off, Timesheets, Benefits, Identity Verification, and SSO surfaces. All
   name: Remote Webhooks
@@ -243,8 +243,128 @@ collections:
   name: Remote Time and Attendance API
   slug: postman-remote-time-attendance-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Remote Benefits API
   slug: open-remote-benefits-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers API
+  slug: open-remote-com-benefit-offers-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Benefit Renewals API
+  slug: open-remote-com-benefit-renewals-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Billing Documents API
+  slug: open-remote-com-billing-documents-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Companies API
+  slug: open-remote-com-companies-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Company Currencies API
+  slug: open-remote-com-company-currencies-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Company Managers API
+  slug: open-remote-com-company-managers-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Company Structure API
+  slug: open-remote-com-company-structure-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Compliance API
+  slug: open-remote-com-compliance-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Contract Amendments API
+  slug: open-remote-com-contract-amendments-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Contract Documents API
+  slug: open-remote-com-contract-documents-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Contract Eligibility API
+  slug: open-remote-com-contract-eligibility-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Contractor Currencies API
+  slug: open-remote-com-contractor-currencies-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Contractor Invoices API
+  slug: open-remote-com-contractor-invoices-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Contractor Subscriptions API
+  slug: open-remote-com-contractor-subscriptions-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers COR Termination API
+  slug: open-remote-com-cor-termination-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Cost Calculator API
+  slug: open-remote-com-cost-calculator-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Countries API
+  slug: open-remote-com-countries-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Custom Fields API
+  slug: open-remote-com-custom-fields-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Departments API
+  slug: open-remote-com-departments-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Employment Contracts API
+  slug: open-remote-com-employment-contracts-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Employments API
+  slug: open-remote-com-employments-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Expenses API
+  slug: open-remote-com-expenses-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Files API
+  slug: open-remote-com-files-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Identity API
+  slug: open-remote-com-identity-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Incentives API
+  slug: open-remote-com-incentives-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Leave Balances API
+  slug: open-remote-com-leave-balances-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Leave Policies API
+  slug: open-remote-com-leave-policies-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Magic Links API
+  slug: open-remote-com-magic-links-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers OAuth API
+  slug: open-remote-com-oauth-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Offboarding API
+  slug: open-remote-com-offboarding-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Onboarding API
+  slug: open-remote-com-onboarding-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Payroll Calendars API
+  slug: open-remote-com-payroll-calendars-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Payslips API
+  slug: open-remote-com-payslips-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Scheduled Invoices API
+  slug: open-remote-com-scheduled-invoices-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers SSO API
+  slug: open-remote-com-sso-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Time Off API
+  slug: open-remote-com-time-off-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Timesheets API
+  slug: open-remote-com-timesheets-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Travel Letters API
+  slug: open-remote-com-travel-letters-api
+- collection_type: open
+  name: Remote Benefits Benefit Offers Work Authorization API
+  slug: open-remote-com-work-authorization-api
 - collection_type: open
   name: Remote Companies API
   slug: open-remote-companies-api
@@ -588,7 +708,7 @@ plans:
 - name: Remote Com Plans Pricing
   plan_count: 11
   slug: remote-com-plans-pricing
-random_paper: 56
+random_paper: 122
 rate_limits:
 - limit_count: 2
   name: Remote Com Rate Limits
@@ -645,7 +765,7 @@ score:
       total: 39
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/screenshots/remote-com-2026-06-20T192847.png
 security:

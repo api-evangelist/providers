@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -118,7 +118,7 @@ arazzos:
 - description: Upsert a document into a data source, wait for the upsert queue to drain, then search for it.
   name: Dust Upsert a Document and Search the Data Source
   slug: dust-tt-upsert-document-and-search-workflow
-artifact_total: 57
+artifact_total: 72
 collections:
 - collection_type: postman
   name: Dust Agents API
@@ -148,6 +148,9 @@ collections:
   name: Dust Workspace API
   slug: postman-dust-workspace-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Dust Agents API
   slug: open-dust-agents-api
 - collection_type: open
@@ -171,6 +174,48 @@ collections:
 - collection_type: open
   name: Dust Triggers API
   slug: open-dust-triggers-api
+- collection_type: open
+  name: Dust Agents API
+  slug: open-dust-tt-agents-api
+- collection_type: open
+  name: Dust Agents Apps API
+  slug: open-dust-tt-apps-api
+- collection_type: open
+  name: Dust Agents Conversations API
+  slug: open-dust-tt-conversations-api
+- collection_type: open
+  name: Dust Agents Datasources API
+  slug: open-dust-tt-datasources-api
+- collection_type: open
+  name: Dust Agents DatasourceViews API
+  slug: open-dust-tt-datasourceviews-api
+- collection_type: open
+  name: Dust Agents Feedbacks API
+  slug: open-dust-tt-feedbacks-api
+- collection_type: open
+  name: Dust Agents MCP API
+  slug: open-dust-tt-mcp-api
+- collection_type: open
+  name: Dust Agents Mentions API
+  slug: open-dust-tt-mentions-api
+- collection_type: open
+  name: Dust Agents Search API
+  slug: open-dust-tt-search-api
+- collection_type: open
+  name: Dust Agents Skills API
+  slug: open-dust-tt-skills-api
+- collection_type: open
+  name: Dust Agents Spaces API
+  slug: open-dust-tt-spaces-api
+- collection_type: open
+  name: Dust Agents Tools API
+  slug: open-dust-tt-tools-api
+- collection_type: open
+  name: Dust Agents Triggers API
+  slug: open-dust-tt-triggers-api
+- collection_type: open
+  name: Dust Agents Workspace API
+  slug: open-dust-tt-workspace-api
 - collection_type: open
   name: Dust Workspace API
   slug: open-dust-workspace-api
@@ -472,7 +517,7 @@ plans:
 - name: Dust Plans Pricing
   plan_count: 2
   slug: dust-plans-pricing
-random_paper: 5
+random_paper: 129
 rate_limits:
 - limit_count: 4
   name: Dust Rate Limits
@@ -506,7 +551,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/screenshots/dust-tt-2026-06-20T180330.png
 security:

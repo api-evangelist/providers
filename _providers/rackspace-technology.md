@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -117,7 +117,68 @@ apis:
 - description: Service version metadata.
   name: Rackspace Technology Versions API
   slug: rackspace-technology-versions-api
-artifact_total: 50
+artifact_total: 70
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts API
+  slug: open-rackspace-technology-contacts-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Currency API
+  slug: open-rackspace-technology-currency-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts CustomerAccounts API
+  slug: open-rackspace-technology-customeraccounts-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Domains API
+  slug: open-rackspace-technology-domains-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Limits API
+  slug: open-rackspace-technology-limits-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Metadata API
+  slug: open-rackspace-technology-metadata-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts MultiFactor API
+  slug: open-rackspace-technology-multifactor-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Offerings API
+  slug: open-rackspace-technology-offerings-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts PhonePin API
+  slug: open-rackspace-technology-phonepin-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Pricing API
+  slug: open-rackspace-technology-pricing-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Products API
+  slug: open-rackspace-technology-products-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Records API
+  slug: open-rackspace-technology-records-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts ReverseDNS API
+  slug: open-rackspace-technology-reversedns-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Roles API
+  slug: open-rackspace-technology-roles-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts SecretQA API
+  slug: open-rackspace-technology-secretqa-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Tenants API
+  slug: open-rackspace-technology-tenants-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Tokens API
+  slug: open-rackspace-technology-tokens-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Users API
+  slug: open-rackspace-technology-users-api
+- collection_type: open
+  name: Rackspace Cloud DNS Contacts Versions API
+  slug: open-rackspace-technology-versions-api
 common:
 - group: agent
   title: ''
@@ -341,7 +402,7 @@ plans:
 - name: Rackspace Technology Plans Pricing
   plan_count: 1
   slug: rackspace-technology-plans-pricing
-random_paper: 30
+random_paper: 133
 rate_limits:
 - limit_count: 2
   name: Rackspace Technology Rate Limits
@@ -383,7 +444,7 @@ score:
       marker_coverage: 100.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png
 security:

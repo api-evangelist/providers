@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ arazzos:
 - description: Find a page by title within a space and update it if it exists, otherwise create it.
   name: Confluence Upsert a Page by Title
   slug: confluence-upsert-page-by-title-workflow
-artifact_total: 260
+artifact_total: 267
 asyncapis:
 - description: Asynchronous event notifications from Confluence Cloud. Webhooks allow applications to receive real-time notifications when content, spaces, or other entities are created, updated, or deleted in Confl
   name: Confluence Cloud Webhooks
@@ -303,8 +303,29 @@ collections:
   name: Confluence Cloud REST API v2 Attachment Space API
   slug: postman-confluence-space-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Confluence Cloud REST API v2 Attachment API
+  slug: open-confluence-attachment-api
+- collection_type: open
+  name: Confluence Cloud REST API v2 Attachment Blog Post API
+  slug: open-confluence-blog-post-api
+- collection_type: open
   name: Confluence Cloud REST API v2
   slug: open-confluence-cloud-v2
+- collection_type: open
+  name: Confluence Cloud REST API v2 Attachment Comment API
+  slug: open-confluence-comment-api
+- collection_type: open
+  name: Confluence Cloud REST API v2 Attachment Label API
+  slug: open-confluence-label-api
+- collection_type: open
+  name: Confluence Cloud REST API v2 Attachment Page API
+  slug: open-confluence-page-api
+- collection_type: open
+  name: Confluence Cloud REST API v2 Attachment Space API
+  slug: open-confluence-space-api
 common:
 - group: build
   title: ''
@@ -1094,7 +1115,7 @@ plans:
 - name: Confluence Plans Pricing
   plan_count: 4
   slug: confluence-plans-pricing
-random_paper: 98
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Confluence Rate Limits
@@ -1151,7 +1172,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:

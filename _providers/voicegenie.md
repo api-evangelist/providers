@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-12'
+  score: 57.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -45,16 +45,30 @@ apis:
 - description: Manage outbound/inbound campaigns and their contacts.
   name: VoiceGenie Campaigns API
   slug: voicegenie-campaigns-api
-artifact_total: 7
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Voicegenie Webhooks
   slug: voicegenie-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VoiceGenie Public REST Calls API
+  slug: open-voicegenie-calls-api
+- collection_type: open
+  name: VoiceGenie Public REST Calls Campaigns API
+  slug: open-voicegenie-campaigns-api
 common:
 - group: other
   title: ''
   type: Overlay
-  url: overlays/voicegenie-openapi-overlay.yaml
+  url: overlays/voicegenie-calls-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/voicegenie-campaigns-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -171,6 +185,22 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/voicegenie-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/voicegenie-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/voicegenie-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/voicegenie-sandbox.yml
 created: '2026-07-17'
 description: VoiceGenie (Ori Labs Ltd.) is a conversational voice AI platform for sales automation that lets teams deploy AI voice agents to run outbound and inbound phone calls end to end. Businesses build assistants (voice bots) with a chosen voice, language, script and knowledge base, attach a phone number (via Twilio or Plivo), upload contact lists, and launch campaigns that qualify leads, book meetings, send SMS, run surveys, chase payment reminders, and hand off to human agents when needed. VoiceGenie exposes a Public REST API on core-saas.voicegenie.ai for placing calls, adding calls to recurring campaigns, pausing/resuming campaigns, fetching call analysis and status, retrieving inbound-call updates, checking transfer status, and removing customers from campaigns, plus a post-call analysis webhook, so voice workflows can be automated from n8n, Zapier, Zoho Flow, HubSpot, HighLevel, Cal.com and custom applications.
 image: https://voicegenie.ai/images/vg_logo_name.svg
@@ -179,7 +209,7 @@ mcp_servers:
 - description: ''
   name: voicegenie-mcp.yml
   slug: voicegenie-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: VoiceGenie
 nav: Providers
 network: true
@@ -189,17 +219,25 @@ overview: 'VoiceGenie publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The VoiceGenie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VoiceGenie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 94
+  VoiceGenie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
+plans:
+- name: Voicegenie Plans Pricing
+  plan_count: 4
+  slug: voicegenie-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Voicegenie Rate Limits
+  slug: voicegenie-rate-limits
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 55.8
+  delta: 8.7
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 67.9
-    developer_ergonomics: 56.0
-    discoverability: 75.9
+    developer_ergonomics: 62.5
+    discoverability: 87.0
     governance: 11.5
     operational_transparency: 7.9
   previous_composite: 47.1
@@ -214,8 +252,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Voicegenie Authentication

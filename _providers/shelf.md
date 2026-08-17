@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Shelf REST API enables developers to programmatically interact with the Shelf knowledge management platform. Access, search, create, and manage knowledge articles, gems (curated content), decision
@@ -144,7 +144,7 @@ plans:
 - name: Shelf Plans Pricing
   plan_count: 3
   slug: shelf-plans-pricing
-random_paper: 50
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Shelf Rate Limits
@@ -171,7 +171,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 26.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shelf/refs/heads/main/screenshots/shelf-2026-06-20T193852.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -69,7 +69,38 @@ apis:
 - description: The Vault Files API from Obsidian — 1 operation(s) for vault files.
   name: Obsidian Vault Files API
   slug: obsidian-vault-files-api
-artifact_total: 17
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Local REST API for Obsidian Active File API
+  slug: open-obsidian-active-file-api
+- collection_type: open
+  name: Local REST API for Obsidian Active File Commands API
+  slug: open-obsidian-commands-api
+- collection_type: open
+  name: Local REST API for Obsidian Active File Open API
+  slug: open-obsidian-open-api
+- collection_type: open
+  name: Local REST API for Obsidian Active File Periodic Notes API
+  slug: open-obsidian-periodic-notes-api
+- collection_type: open
+  name: Local REST API for Obsidian Active File Search API
+  slug: open-obsidian-search-api
+- collection_type: open
+  name: Local REST API for Obsidian Active File System API
+  slug: open-obsidian-system-api
+- collection_type: open
+  name: Local REST API for Obsidian Active File Tags API
+  slug: open-obsidian-tags-api
+- collection_type: open
+  name: Local REST API for Obsidian Active File Vault Directories API
+  slug: open-obsidian-vault-directories-api
+- collection_type: open
+  name: Local REST API for Obsidian Active File Vault Files API
+  slug: open-obsidian-vault-files-api
 common:
 - group: agent
   title: ''
@@ -155,7 +186,7 @@ plans:
 - name: Obsidian Plans Pricing
   plan_count: 5
   slug: obsidian-plans-pricing
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 4
   name: Obsidian Rate Limits
@@ -180,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/screenshots/obsidian-2026-06-20T190555.png
 security:

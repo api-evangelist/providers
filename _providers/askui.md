@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -84,7 +84,56 @@ apis:
 - description: The workspaces API from AskUI — 2 operation(s) for workspaces.
   name: AskUI workspaces API
   slug: askui-workspaces-api
-artifact_total: 20
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AskUI Workspaces access-tokens API
+  slug: open-askui-access-tokens-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens agent-executions API
+  slug: open-askui-agent-executions-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens agents API
+  slug: open-askui-agents-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens analytics API
+  slug: open-askui-analytics-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens auth API
+  slug: open-askui-auth-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens billing API
+  slug: open-askui-billing-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens dashboard API
+  slug: open-askui-dashboard-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens files API
+  slug: open-askui-files-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens invites API
+  slug: open-askui-invites-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens runner-jobs API
+  slug: open-askui-runner-jobs-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens runs API
+  slug: open-askui-runs-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens schedules API
+  slug: open-askui-schedules-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens tools API
+  slug: open-askui-tools-api
+- collection_type: open
+  name: AskUI Workspaces access-tokens workspace-memberships API
+  slug: open-askui-workspace-memberships-api
+- collection_type: open
+  name: AskUI access-tokens workspaces API
+  slug: open-askui-workspaces-api
 common:
 - group: start
   title: ''
@@ -230,7 +279,7 @@ overview: 'AskUI publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   AskUI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 61
+random_paper: 94
 score:
   band: developing
   composite: 52.0
@@ -254,7 +303,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/screenshots/askui-2026-07-25T201426.png
 security:

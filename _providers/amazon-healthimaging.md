@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ arazzos:
 - description: Read an image set's latest version, apply DICOM metadata updates, then list its versions.
   name: Amazon HealthImaging Update Image Set Metadata
   slug: amazon-healthimaging-update-image-set-metadata-workflow
-artifact_total: 326
+artifact_total: 332
 collections:
 - collection_type: postman
   name: AWS Health Imaging Datastore API
@@ -102,6 +102,24 @@ collections:
 - collection_type: postman
   name: AWS Health Imaging
   slug: postman-amazon-healthimaging
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Health Imaging Datastore API
+  slug: open-amazon-healthimaging-datastore-api
+- collection_type: open
+  name: AWS Health Imaging Datastore GetDICOMImportJob API
+  slug: open-amazon-healthimaging-getdicomimportjob-api
+- collection_type: open
+  name: AWS Health Imaging Datastore ListDICOMImportJobs API
+  slug: open-amazon-healthimaging-listdicomimportjobs-api
+- collection_type: open
+  name: AWS Health Imaging Datastore StartDICOMImportJob API
+  slug: open-amazon-healthimaging-startdicomimportjob-api
+- collection_type: open
+  name: AWS Health Imaging Datastore Tags API
+  slug: open-amazon-healthimaging-tags-api
 common:
 - group: agent
   title: ''
@@ -1119,7 +1137,7 @@ plans:
 - name: Amazon Healthimaging Plans Pricing
   plan_count: 3
   slug: amazon-healthimaging-plans-pricing
-random_paper: 13
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Amazon Healthimaging Rate Limits
@@ -1167,7 +1185,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/screenshots/amazon-healthimaging-2026-07-25T200012.png
 security:

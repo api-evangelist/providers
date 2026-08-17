@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-12'
+  score: 56.1
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Analytics API from Sequel — 2 operation(s) for analytics.
@@ -68,11 +68,51 @@ apis:
 - description: The platform API from Sequel — 2 operation(s) for platform.
   name: Sequel platform API
   slug: sequel-platform-api
-artifact_total: 16
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Sequel Webhooks
   slug: sequel-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Introvoke Analytics API
+  slug: open-sequel-analytics-api
+- collection_type: open
+  name: Introvoke Analytics Client API
+  slug: open-sequel-client-api
+- collection_type: open
+  name: Introvoke Analytics company API
+  slug: open-sequel-company-api
+- collection_type: open
+  name: Introvoke Analytics company theme API
+  slug: open-sequel-company-theme-api
+- collection_type: open
+  name: Introvoke Analytics company theme fonts API
+  slug: open-sequel-company-theme-fonts-api
+- collection_type: open
+  name: Introvoke Analytics company theme overrides API
+  slug: open-sequel-company-theme-overrides-api
+- collection_type: open
+  name: Introvoke Analytics event API
+  slug: open-sequel-event-api
+- collection_type: open
+  name: Introvoke Analytics event theme API
+  slug: open-sequel-event-theme-api
+- collection_type: open
+  name: Introvoke Analytics event theme overrides API
+  slug: open-sequel-event-theme-overrides-api
+- collection_type: open
+  name: Introvoke Analytics Media API
+  slug: open-sequel-media-api
+- collection_type: open
+  name: Introvoke Analytics networking API
+  slug: open-sequel-networking-api
+- collection_type: open
+  name: Introvoke Analytics platform API
+  slug: open-sequel-platform-api
 common:
 - group: other
   title: ''
@@ -186,6 +226,38 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/sequel-llms.txt
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/sequel-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/sequel-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sequel-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sequel-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/sequel-changelog.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.sequel.io/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.sequel.io/
+- group: company
+  title: ''
+  type: Blog
+  url: https://sequel.io/blog
 - group: agent
   title: ''
   type: AgentSkill
@@ -202,7 +274,7 @@ mcp_servers:
 - description: ''
   name: sequel-mcp.yml
   slug: sequel-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Sequel
 nav: Providers
 network: true
@@ -212,19 +284,32 @@ overview: 'Sequel publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
   The Sequel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sequel''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 55
+  Sequel''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 31 more developer resources.'
+plans:
+- name: Sequel Plans Pricing
+  plan_count: 3
+  slug: sequel-plans-pricing
+random_paper: 59
+rate_limits:
+- limit_count: 0
+  name: Sequel Rate Limits
+  slug: sequel-rate-limits
+scopes:
+- name: Sequel Scopes
+  scope_count: 0
+  slug: sequel-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 52.6
-  delta: 0.0
+  band: strong
+  composite: 64.6
+  delta: 12.0
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 92.1
     contract_quality: 63.8
-    developer_ergonomics: 66.8
+    developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 28.9
+    operational_transparency: 44.7
   previous_composite: 52.6
   provenance:
     conformance: derived
@@ -236,8 +321,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Sequel Authentication
@@ -247,6 +332,10 @@ security:
   name: Sequel Domain Security
   slug: sequel-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Sequel Trust Center
+  slug: sequel-trust-center
+  summary_line: trust center published
 slug: sequel
 tags:
 - Company

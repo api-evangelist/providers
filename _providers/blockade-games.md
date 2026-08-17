@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Skybox Exports API from Blockade Games — 2 operation(s) for skybox exports.
@@ -38,11 +38,21 @@ apis:
 - description: The Skyboxes API from Blockade Games — 8 operation(s) for skyboxes.
   name: Blockade Games Skyboxes API
   slug: blockade-games-skyboxes-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Blockade Games Webhooks
   slug: blockade-games-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blockade Labs API Documentation Skybox Exports API
+  slug: open-blockade-games-skybox-exports-api
+- collection_type: open
+  name: Blockade Labs API Documentation Skybox Exports Skyboxes API
+  slug: open-blockade-games-skyboxes-api
 common:
 - group: other
   title: ''
@@ -191,7 +201,7 @@ overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Blockade Games'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 71
+random_paper: 50
 score:
   band: developing
   composite: 52.7
@@ -214,7 +224,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/screenshots/blockade-games-2026-07-25T203333.png
 security:

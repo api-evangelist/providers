@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Account management
@@ -52,7 +52,7 @@ apis:
 - description: General utilities
   name: Sigma360 Utilities API
   slug: sigma-ratings-utilities-api
-artifact_total: 14
+artifact_total: 22
 asyncapis:
 - description: Event surface for Sigma360; webhook callbacks are delivered to your registered HTTPS endpoint when monitored entities change. Derived from the OpenAPI 3.1 webhooks object published at docs.sigma360.co
   name: Sigma360 Webhooks
@@ -60,6 +60,31 @@ asyncapis:
 - description: ''
   name: Sigma Ratings Webhooks
   slug: sigma-ratings-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sigma360 Account API
+  slug: open-sigma-ratings-account-api
+- collection_type: open
+  name: Sigma360 Account Informational API
+  slug: open-sigma-ratings-informational-api
+- collection_type: open
+  name: 'Sigma360 Account Monitoring: Entity Creation API'
+  slug: open-sigma-ratings-monitoring-entity-creation-api
+- collection_type: open
+  name: 'Sigma360 Account Monitoring: Entity Management API'
+  slug: open-sigma-ratings-monitoring-entity-management-api
+- collection_type: open
+  name: 'Sigma360 Account Monitoring: History API'
+  slug: open-sigma-ratings-monitoring-history-api
+- collection_type: open
+  name: Sigma360 Account One-Off Screening API
+  slug: open-sigma-ratings-one-off-screening-api
+- collection_type: open
+  name: Sigma360 Account Utilities API
+  slug: open-sigma-ratings-utilities-api
 common:
 - group: company
   title: ''
@@ -192,7 +217,7 @@ overview: 'Sigma360 publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Sigma360''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 21 more developer resources.'
-random_paper: 14
+random_paper: 142
 score:
   band: developing
   composite: 51.9
@@ -215,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

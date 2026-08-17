@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Web portal for builders and developers in Vectren/CenterPoint Energy service territories in Indiana and Ohio. Provides self-service tools for ordering new gas and electric service, checking order stat
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: $6 Billion Merger with CenterPoint Energy, Inc. | Experience
   url: https://www.bakerbotts.com/experience/v/vectren-corporation--6-billion-merger-wi
-random_paper: 39
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Vectren Rate Limits
@@ -148,7 +148,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectren/refs/heads/main/screenshots/vectren-2026-06-20T200948.png
 security:

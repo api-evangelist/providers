@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,11 +75,50 @@ apis:
 - description: Vehicle movement and position data
   name: MBTA Vehicles API
   slug: mbta-vehicles-api
-artifact_total: 19
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MBTA V3 Alerts API
+  slug: open-mbta-alerts-api
+- collection_type: open
+  name: MBTA V3 Alerts Facilities API
+  slug: open-mbta-facilities-api
+- collection_type: open
+  name: MBTA V3 Alerts Lines API
+  slug: open-mbta-lines-api
 - collection_type: open
   name: MBTA V3 API
   slug: open-mbta-mbta-v3-api
+- collection_type: open
+  name: MBTA V3 Alerts Predictions API
+  slug: open-mbta-predictions-api
+- collection_type: open
+  name: MBTA V3 Alerts RoutePatterns API
+  slug: open-mbta-routepatterns-api
+- collection_type: open
+  name: MBTA V3 Alerts Routes API
+  slug: open-mbta-routes-api
+- collection_type: open
+  name: MBTA V3 Alerts Schedules API
+  slug: open-mbta-schedules-api
+- collection_type: open
+  name: MBTA V3 Alerts Services API
+  slug: open-mbta-services-api
+- collection_type: open
+  name: MBTA V3 Alerts Shapes API
+  slug: open-mbta-shapes-api
+- collection_type: open
+  name: MBTA V3 Alerts Stops API
+  slug: open-mbta-stops-api
+- collection_type: open
+  name: MBTA V3 Alerts Trips API
+  slug: open-mbta-trips-api
+- collection_type: open
+  name: MBTA V3 Alerts Vehicles API
+  slug: open-mbta-vehicles-api
 common:
 - group: agent
   title: ''
@@ -137,7 +176,7 @@ plans:
 - name: Mbta Plans Pricing
   plan_count: 3
   slug: mbta-plans-pricing
-random_paper: 60
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Mbta Rate Limits
@@ -162,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/screenshots/mbta-2026-06-20T185053.png
 security:

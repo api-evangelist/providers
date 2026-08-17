@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Schedules API from NodePing — 1 operation(s) for schedules.
   name: NodePing Schedules API
   slug: nodeping-schedules-api
-artifact_total: 18
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NodePing Accounts API
+  slug: open-nodeping-accounts-api
+- collection_type: open
+  name: NodePing Accounts Checks API
+  slug: open-nodeping-checks-api
+- collection_type: open
+  name: NodePing Accounts Contactgroups API
+  slug: open-nodeping-contactgroups-api
+- collection_type: open
+  name: NodePing Accounts Contacts API
+  slug: open-nodeping-contacts-api
+- collection_type: open
+  name: NodePing Accounts Info API
+  slug: open-nodeping-info-api
+- collection_type: open
+  name: NodePing Accounts Notifications API
+  slug: open-nodeping-notifications-api
+- collection_type: open
+  name: NodePing Accounts Results API
+  slug: open-nodeping-results-api
+- collection_type: open
+  name: NodePing Accounts Schedules API
+  slug: open-nodeping-schedules-api
 - collection_type: open
   name: NodePing API
   slug: open-nodeping
@@ -141,7 +168,7 @@ plans:
 - name: Nodeping Plans Pricing
   plan_count: 3
   slug: nodeping-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Nodeping Rate Limits
@@ -175,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/screenshots/nodeping-2026-06-20T190350.png
 security:

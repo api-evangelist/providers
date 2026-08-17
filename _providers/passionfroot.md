@@ -9,10 +9,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -20,16 +20,16 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 18.5
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -75,40 +75,107 @@ common:
   title: ''
   type: DomainSecurity
   url: security/passionfroot-domain-security.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.passionfroot.me/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://help.passionfroot.me/en/articles/11570259-gdpr-passionfroot
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/passionfroot-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/passionfroot-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/passionfroot-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/passionfroot-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/passionfroot-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/passionfroot-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/passionfroot-plans-pricing.yml
+coverage:
+  checked: '2026-08-13'
+  detail: Passionfroot is an end-user SaaS marketplace with no platform API — api., docs. and developers.passionfroot.me have no DNS record at all, /developers and /api 404 on the marketing site, and the workspace app talks to its own origin over a Rocicorp Zero sync endpoint (/api/zero/push) rather than a documented public interface.
+  evidence:
+  - status: 404
+    url: https://www.passionfroot.me/developers
+  - status: 404
+    url: https://www.passionfroot.me/api
+  - status: 404
+    url: https://workspace.passionfroot.me/openapi.json
+  - status: 0
+    url: https://api.passionfroot.me/openapi.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Passionfroot is a Berlin-based platform for creator-led go-to-market (GTM), pairing a self-service marketplace where business, productivity, and thought-leadership creators sell sponsorships, ad placements, and brand collaborations with an AI agent ("Zest") that helps brands discover creators, plan campaigns, run outreach, process payments (via its FrootWallet), and measure performance across Twitter/X, YouTube, Instagram, TikTok, LinkedIn, Beehiiv, and Substack. Creators manage storefronts, pricing, bookings, invoicing, and payouts in one place; the company monetizes by taking a commission on completed deals rather than charging a subscription. As of this enrichment pass Passionfroot exposes no public developer API, SDK, or developer documentation — it is an end-user SaaS product, not an API provider.
+description: 'Passionfroot is a Berlin-based platform for creator-led go-to-market (GTM), pairing a self-service marketplace where business, productivity, and thought-leadership creators sell sponsorships, ad placements, and brand collaborations with an AI agent ("Zest") that helps brands discover creators, plan campaigns, run outreach, process payments (via its FrootWallet), and measure performance across Twitter/X, YouTube, Instagram, TikTok, LinkedIn, Beehiiv, and Substack. Creators manage storefronts, pricing, bookings, invoicing, and payouts in one place; the company monetizes by taking a commission on completed deals rather than charging a subscription. As of this enrichment pass Passionfroot exposes no public developer API, SDK, or developer documentation — it is an end-user SaaS product, not an API provider. Its only public developer surface is open-source tooling extracted from its own stack and published under the @passionfroot npm scope: an MIT-licensed PostgreSQL MCP server with
+  Prisma-aware schema introspection (plus a companion Agent Skill) and a Prisma-to-Zero schema generator. Those run against the operator''s own database and do not reach Passionfroot platform data.'
 image: https://res.cloudinary.com/passionfroot/image/upload/w_1200,h_630,c_fill/f_jpg/website/og-image
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: PostgreSQL MCP server (first-party open source; NOT a Passionfroot platform surface)
+  slug: postgresql-mcp-server-first-party-open-source-not-a-passionfroot-platform-surface
+modified: '2026-08-13'
 name: Passionfroot
 nav: Providers
 network: true
 overview: 'Passionfroot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Creator Economy, Marketplace, and Sponsorships.
 
 
-  Passionfroot''s developer surface includes support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 119
+  Passionfroot''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
+plans:
+- name: Passionfroot Plans Pricing
+  plan_count: 1
+  slug: passionfroot-plans-pricing
+random_paper: 127
+rate_limits:
+- limit_count: 0
+  name: Passionfroot Rate Limits
+  slug: passionfroot-rate-limits
 score:
-  band: emerging
-  composite: 16.8
-  delta: 0.0
+  band: thin
+  composite: 33.0
+  delta: 16.2
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 73.7
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    developer_ergonomics: 21.7
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 36.8
   previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.9
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/screenshots/passionfroot-2026-08-07T191536.png
 security:
 - kind: domain-security

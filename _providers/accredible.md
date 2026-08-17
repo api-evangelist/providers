@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Administrators and roles within the issuer account.
   name: Accredible Team Members API
   slug: accredible-team-members-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accredible Analytics API
+  slug: open-accredible-analytics-api
+- collection_type: open
+  name: Accredible Analytics Credentials API
+  slug: open-accredible-credentials-api
+- collection_type: open
+  name: Accredible Analytics Departments API
+  slug: open-accredible-departments-api
+- collection_type: open
+  name: Accredible Analytics Designs API
+  slug: open-accredible-designs-api
+- collection_type: open
+  name: Accredible Analytics Evidence Items API
+  slug: open-accredible-evidence-items-api
+- collection_type: open
+  name: Accredible Analytics Groups API
+  slug: open-accredible-groups-api
+- collection_type: open
+  name: Accredible Analytics Issuer API
+  slug: open-accredible-issuer-api
+- collection_type: open
+  name: Accredible Analytics References API
+  slug: open-accredible-references-api
+- collection_type: open
+  name: Accredible Analytics SSO API
+  slug: open-accredible-sso-api
+- collection_type: open
+  name: Accredible Analytics Team Members API
+  slug: open-accredible-team-members-api
 - collection_type: open
   name: Accredible API
   slug: open-accredible
@@ -139,7 +172,7 @@ plans:
 - name: Accredible Plans Pricing
   plan_count: 4
   slug: accredible-plans-pricing
-random_paper: 62
+random_paper: 128
 rate_limits:
 - limit_count: 3
   name: Accredible Rate Limits
@@ -164,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/screenshots/accredible-2026-07-25T181445.png
 security:

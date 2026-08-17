@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: Access content behind anti-bot protections.
   name: Spider Unblocker API
   slug: spider-cloud-unblocker-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spider Cloud Crawling API
+  slug: open-spider-cloud-crawling-api
+- collection_type: open
+  name: Spider Cloud Crawling Data API
+  slug: open-spider-cloud-data-api
+- collection_type: open
+  name: Spider Cloud Crawling Fetch API
+  slug: open-spider-cloud-fetch-api
+- collection_type: open
+  name: Spider Cloud Crawling Links API
+  slug: open-spider-cloud-links-api
+- collection_type: open
+  name: Spider Cloud Crawling Scraping API
+  slug: open-spider-cloud-scraping-api
+- collection_type: open
+  name: Spider Cloud Crawling Screenshot API
+  slug: open-spider-cloud-screenshot-api
+- collection_type: open
+  name: Spider Cloud Crawling Search API
+  slug: open-spider-cloud-search-api
+- collection_type: open
+  name: Spider Cloud Crawling Transform API
+  slug: open-spider-cloud-transform-api
+- collection_type: open
+  name: Spider Cloud Crawling Unblocker API
+  slug: open-spider-cloud-unblocker-api
 - collection_type: open
   name: Spider Cloud API
   slug: open-spider-cloud
@@ -187,7 +217,7 @@ plans:
 - name: Spider Cloud Plans Pricing
   plan_count: 4
   slug: spider-cloud-plans-pricing
-random_paper: 27
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Spider Cloud Rate Limits
@@ -212,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/screenshots/spider-cloud-2026-06-20T194311.png
 security:

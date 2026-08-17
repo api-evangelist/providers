@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -51,11 +51,27 @@ apis:
 - description: Register HTTPS endpoints to receive signed notifications when a workflow reaches a terminal state, instead of polling for status. You subscribe to one or more event types per webhook. | Event type | F
   name: Halliday Webhooks API
   slug: halliday-webhooks-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Halliday Webhooks
   slug: halliday-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Halliday API V2 Assets API
+  slug: open-halliday-assets-api
+- collection_type: open
+  name: Halliday API V2 Assets Chains API
+  slug: open-halliday-chains-api
+- collection_type: open
+  name: Halliday API V2 Assets Payments API
+  slug: open-halliday-payments-api
+- collection_type: open
+  name: Halliday API V2 Assets Webhooks API
+  slug: open-halliday-webhooks-api
 common:
 - group: docs
   title: ''
@@ -192,7 +208,7 @@ overview: 'Halliday publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Halliday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 22 more developer resources.'
-random_paper: 0
+random_paper: 95
 score:
   band: developing
   composite: 53.1
@@ -222,7 +238,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/screenshots/halliday-2026-07-25T220546.png
 security:

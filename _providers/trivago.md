@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Public Model Context Protocol connector (search_hotels) plus an invite-only direct hotel-search API delivering live prices ranked by value, enriched property data, and destination price trends across '
@@ -127,7 +127,7 @@ overview: 'Trivago publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Trivago''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 44
+random_paper: 19
 score:
   band: emerging
   composite: 27.5
@@ -144,7 +144,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

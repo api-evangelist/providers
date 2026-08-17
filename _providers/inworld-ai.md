@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Named reusable routers with provider, conditional, and split rules.
   name: Inworld AI Routers API
   slug: inworld-ai-routers-api
-artifact_total: 58
+artifact_total: 66
 asyncapis:
 - description: 'AsyncAPI description of Inworld AI''s publicly documented runtime WebSocket surface. Inworld exposes three independent WebSocket endpoints: * **TTS streaming** — bidirectional text-to-speech synthesis '
   name: Inworld AI Runtime WebSocket APIs
@@ -81,6 +81,30 @@ collections:
 - collection_type: postman
   name: Inworld Models Voices API
   slug: postman-inworld-ai-voices-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inworld LLM Router Chat Completions API
+  slug: open-inworld-ai-chat-completions-api
+- collection_type: open
+  name: Inworld Models API
+  slug: open-inworld-ai-models-api
+- collection_type: open
+  name: Inworld Models Realtime API
+  slug: open-inworld-ai-realtime-api
+- collection_type: open
+  name: Inworld LLM Router Routers API
+  slug: open-inworld-ai-routers-api
+- collection_type: open
+  name: Inworld Models Speech To Text API
+  slug: open-inworld-ai-speech-to-text-api
+- collection_type: open
+  name: Inworld Models Text To Speech API
+  slug: open-inworld-ai-text-to-speech-api
+- collection_type: open
+  name: Inworld Models Voices API
+  slug: open-inworld-ai-voices-api
 - collection_type: open
   name: Inworld Models API
   slug: open-inworld-models-api
@@ -395,7 +419,7 @@ plans:
 - name: Inworld Ai Plans Pricing
   plan_count: 5
   slug: inworld-ai-plans-pricing
-random_paper: 54
+random_paper: 120
 rate_limits:
 - limit_count: 4
   name: Inworld Ai Rate Limits
@@ -445,7 +469,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/screenshots/inworld-ai-2026-06-20T183526.png
 security:

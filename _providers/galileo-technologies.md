@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 662
   human_in_the_loop: 9
@@ -219,11 +219,195 @@ apis:
 - description: The versions API from Galileo Technologies — 1 operation(s) for versions.
   name: Galileo Technologies versions API
   slug: galileo-technologies-versions-api
-artifact_total: 66
+artifact_total: 127
 asyncapis:
 - description: ''
   name: Galileo Technologies Webhooks
   slug: galileo-technologies-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Galileo API Server annotation API
+  slug: open-galileo-technologies-annotation-api
+- collection_type: open
+  name: Galileo API Server annotation annotation_queue API
+  slug: open-galileo-technologies-annotation-queue-api
+- collection_type: open
+  name: Galileo API Server annotation annotation_queue_records API
+  slug: open-galileo-technologies-annotation-queue-records-api
+- collection_type: open
+  name: Galileo API Server annotation api_keys API
+  slug: open-galileo-technologies-api-keys-api
+- collection_type: open
+  name: Galileo API Server annotation assistant API
+  slug: open-galileo-technologies-assistant-api
+- collection_type: open
+  name: Galileo API Server annotation Audit Logs API
+  slug: open-galileo-technologies-audit-logs-api
+- collection_type: open
+  name: Galileo API Server annotation auth API
+  slug: open-galileo-technologies-auth-api
+- collection_type: open
+  name: Galileo API Server annotation auto-metric-suggestions API
+  slug: open-galileo-technologies-auto-metric-suggestions-api
+- collection_type: open
+  name: Galileo API Server annotation code-metric-generation API
+  slug: open-galileo-technologies-code-metric-generation-api
+- collection_type: open
+  name: Galileo API Server annotation component_views API
+  slug: open-galileo-technologies-component-views-api
+- collection_type: open
+  name: Galileo API Server annotation custom_dashboards API
+  slug: open-galileo-technologies-custom-dashboards-api
+- collection_type: open
+  name: Galileo API Server annotation data API
+  slug: open-galileo-technologies-data-api
+- collection_type: open
+  name: Galileo API Server annotation dataset API
+  slug: open-galileo-technologies-dataset-api
+- collection_type: open
+  name: Galileo API Server annotation datasets API
+  slug: open-galileo-technologies-datasets-api
+- collection_type: open
+  name: Galileo API Server annotation experiment API
+  slug: open-galileo-technologies-experiment-api
+- collection_type: open
+  name: Galileo API Server annotation experiment_group API
+  slug: open-galileo-technologies-experiment-group-api
+- collection_type: open
+  name: Galileo API Server annotation experiment_tags API
+  slug: open-galileo-technologies-experiment-tags-api
+- collection_type: open
+  name: Galileo API Server annotation feedback API
+  slug: open-galileo-technologies-feedback-api
+- collection_type: open
+  name: Galileo API Server annotation groups API
+  slug: open-galileo-technologies-groups-api
+- collection_type: open
+  name: Galileo API Server annotation health API
+  slug: open-galileo-technologies-health-api
+- collection_type: open
+  name: Galileo API Server annotation integrations API
+  slug: open-galileo-technologies-integrations-api
+- collection_type: open
+  name: Galileo API Server annotation jobs API
+  slug: open-galileo-technologies-jobs-api
+- collection_type: open
+  name: Galileo API Server annotation llm API
+  slug: open-galileo-technologies-llm-api
+- collection_type: open
+  name: Galileo API Server annotation llm_integrations API
+  slug: open-galileo-technologies-llm-integrations-api
+- collection_type: open
+  name: Galileo API Server annotation log_stream_alert_settings API
+  slug: open-galileo-technologies-log-stream-alert-settings-api
+- collection_type: open
+  name: Galileo API Server annotation log_stream_alerts API
+  slug: open-galileo-technologies-log-stream-alerts-api
+- collection_type: open
+  name: Galileo API Server annotation log_stream API
+  slug: open-galileo-technologies-log-stream-api
+- collection_type: open
+  name: Galileo API Server annotation logstream-insights API
+  slug: open-galileo-technologies-logstream-insights-api
+- collection_type: open
+  name: Galileo API Server annotation metric_roll_up API
+  slug: open-galileo-technologies-metric-roll-up-api
+- collection_type: open
+  name: Galileo API Server annotation models API
+  slug: open-galileo-technologies-models-api
+- collection_type: open
+  name: Galileo API Server annotation Organization Jobs API
+  slug: open-galileo-technologies-organization-jobs-api
+- collection_type: open
+  name: Galileo API Server annotation organizations API
+  slug: open-galileo-technologies-organizations-api
+- collection_type: open
+  name: Galileo API Server annotation playground_prompts API
+  slug: open-galileo-technologies-playground-prompts-api
+- collection_type: open
+  name: Galileo API Server annotation playground_snapshots API
+  slug: open-galileo-technologies-playground-snapshots-api
+- collection_type: open
+  name: Galileo API Server annotation playgrounds API
+  slug: open-galileo-technologies-playgrounds-api
+- collection_type: open
+  name: Galileo API Server annotation pricing API
+  slug: open-galileo-technologies-pricing-api
+- collection_type: open
+  name: Galileo API Server annotation project_settings API
+  slug: open-galileo-technologies-project-settings-api
+- collection_type: open
+  name: Galileo API Server annotation projects API
+  slug: open-galileo-technologies-projects-api
+- collection_type: open
+  name: Galileo API Server annotation prompts API
+  slug: open-galileo-technologies-prompts-api
+- collection_type: open
+  name: Galileo API Server annotation protect API
+  slug: open-galileo-technologies-protect-api
+- collection_type: open
+  name: Galileo API Server annotation provider-management-api-integrations API
+  slug: open-galileo-technologies-provider-management-api-integrations-api
+- collection_type: open
+  name: Galileo API Server annotation rows API
+  slug: open-galileo-technologies-rows-api
+- collection_type: open
+  name: Galileo API Server annotation run_insights_settings API
+  slug: open-galileo-technologies-run-insights-settings-api
+- collection_type: open
+  name: Galileo API Server annotation run_scorer_settings API
+  slug: open-galileo-technologies-run-scorer-settings-api
+- collection_type: open
+  name: Galileo API Server annotation run_tags API
+  slug: open-galileo-technologies-run-tags-api
+- collection_type: open
+  name: Galileo API Server annotation runs API
+  slug: open-galileo-technologies-runs-api
+- collection_type: open
+  name: Galileo API Server annotation scorer API
+  slug: open-galileo-technologies-scorer-api
+- collection_type: open
+  name: Galileo API Server annotation scorer-feedback API
+  slug: open-galileo-technologies-scorer-feedback-api
+- collection_type: open
+  name: Galileo API Server annotation stage API
+  slug: open-galileo-technologies-stage-api
+- collection_type: open
+  name: Galileo API Server annotation system_admin API
+  slug: open-galileo-technologies-system-admin-api
+- collection_type: open
+  name: Galileo API Server annotation system_users API
+  slug: open-galileo-technologies-system-users-api
+- collection_type: open
+  name: Galileo API Server annotation system_users_authentication API
+  slug: open-galileo-technologies-system-users-authentication-api
+- collection_type: open
+  name: Galileo API Server annotation tokenomics API
+  slug: open-galileo-technologies-tokenomics-api
+- collection_type: open
+  name: Galileo API Server annotation trace API
+  slug: open-galileo-technologies-trace-api
+- collection_type: open
+  name: Galileo API Server annotation trends_dashboard API
+  slug: open-galileo-technologies-trends-dashboard-api
+- collection_type: open
+  name: Galileo API Server annotation usage_limits API
+  slug: open-galileo-technologies-usage-limits-api
+- collection_type: open
+  name: Galileo API Server annotation user API
+  slug: open-galileo-technologies-user-api
+- collection_type: open
+  name: Galileo API Server annotation users API
+  slug: open-galileo-technologies-users-api
+- collection_type: open
+  name: Galileo API Server annotation v1 API
+  slug: open-galileo-technologies-v1-api
+- collection_type: open
+  name: Galileo API Server annotation versions API
+  slug: open-galileo-technologies-versions-api
 common:
 - group: start
   title: ''
@@ -352,7 +536,7 @@ overview: 'Galileo Technologies publishes 60 APIs on the [APIs.io](https://apis.
 
 
   Galileo Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 22
+random_paper: 125
 scopes:
 - name: Galileo Technologies Scopes
   scope_count: 0
@@ -381,7 +565,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/screenshots/galileo-technologies-2026-07-25T215359.png
 security:

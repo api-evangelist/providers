@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Manage Sisense users and user settings
   name: Sisense Users API
   slug: sisense-users-api
-artifact_total: 30
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Sisense REST Authentication API
@@ -84,8 +84,29 @@ collections:
   name: Sisense REST Authentication Users API
   slug: postman-sisense-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sisense REST Authentication API
+  slug: open-sisense-authentication-api
+- collection_type: open
+  name: Sisense REST Authentication Dashboards API
+  slug: open-sisense-dashboards-api
+- collection_type: open
+  name: Sisense REST Authentication Data Security API
+  slug: open-sisense-data-security-api
+- collection_type: open
+  name: Sisense REST Authentication Elasticubes API
+  slug: open-sisense-elasticubes-api
+- collection_type: open
+  name: Sisense REST Authentication Groups API
+  slug: open-sisense-groups-api
+- collection_type: open
   name: Sisense REST API
   slug: open-sisense-rest-api
+- collection_type: open
+  name: Sisense REST Authentication Users API
+  slug: open-sisense-users-api
 common:
 - group: build
   title: ''
@@ -201,7 +222,7 @@ plans:
 - name: Sisense Plans Pricing
   plan_count: 3
   slug: sisense-plans-pricing
-random_paper: 42
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Sisense Rate Limits
@@ -243,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/screenshots/sisense-2026-06-20T193954.png
 security:

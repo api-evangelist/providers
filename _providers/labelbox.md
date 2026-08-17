@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: GraphQL API for programmatic access to Labelbox platform resources including datasets, projects, labels, ontologies, and model evaluation workflows. Labelbox recommends using the Python SDK as a wrapp
@@ -163,7 +163,7 @@ plans:
 - name: Labelbox Plans Pricing
   plan_count: 2
   slug: labelbox-plans-pricing
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Labelbox Rate Limits
@@ -181,7 +181,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 40.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labelbox/refs/heads/main/screenshots/labelbox-2026-06-20T184245.png
 security:

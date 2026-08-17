@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,8 +69,17 @@ apis:
 - description: Servers operations
   name: Azure Database for MySQL Servers API
   slug: microsoft-azure-mysql-servers-api
-artifact_total: 18
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Database for MySQL REST Operations API
+  slug: open-microsoft-azure-mysql-operations-api
+- collection_type: open
+  name: Azure Database for MySQL REST Operations Servers API
+  slug: open-microsoft-azure-mysql-servers-api
 - collection_type: open
   name: Azure Database for MySQL REST API
   slug: open-microsoft-azure-mysql
@@ -179,7 +188,7 @@ plans:
 - name: Microsoft Azure Mysql Plans Pricing
   plan_count: 3
   slug: microsoft-azure-mysql-plans-pricing
-random_paper: 29
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Mysql Rate Limits
@@ -209,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-mysql/refs/heads/main/screenshots/microsoft-azure-mysql-2026-06-20T185425.png
 security:

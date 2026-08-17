@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'BiVACOR is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BiVACOR''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 22
+random_paper: 146
 score:
   band: minimal
   composite: 8.1
@@ -129,7 +129,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bivacor/refs/heads/main/screenshots/bivacor-2026-08-07T162559.png
 security:

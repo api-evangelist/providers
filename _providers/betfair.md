@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -60,12 +60,30 @@ apis:
 - description: Session login, keep-alive, and logout via Betfair identity SSO.
   name: Betfair Identity API
   slug: betfair-identity-api
-artifact_total: 16
+artifact_total: 22
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Betfair **Exchange Stream API** - Betfair''s low-latency, subscription-based push channel for market and order changes. IMPORTANT TRANSPORT NOTE: this is **NOT a WebSock'
   name: Betfair Exchange Stream API (SSL/TCP)
   slug: betfair-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Betfair Exchange API (API-NG) Accounts API
+  slug: open-betfair-accounts-api
+- collection_type: open
+  name: Betfair Exchange API (API-NG) Accounts Betting API
+  slug: open-betfair-betting-api
+- collection_type: open
+  name: Betfair Exchange API (API-NG) Accounts Heartbeat API
+  slug: open-betfair-heartbeat-api
+- collection_type: open
+  name: Betfair Exchange API (API-NG) Accounts Historic Data API
+  slug: open-betfair-historic-data-api
+- collection_type: open
+  name: Betfair Exchange API (API-NG) Accounts Identity API
+  slug: open-betfair-identity-api
 - collection_type: open
   name: Betfair Exchange API (API-NG)
   slug: open-betfair
@@ -129,7 +147,7 @@ plans:
 - name: Betfair Plans Pricing
   plan_count: 4
   slug: betfair-plans-pricing
-random_paper: 13
+random_paper: 137
 rate_limits:
 - limit_count: 7
   name: Betfair Rate Limits
@@ -169,7 +187,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

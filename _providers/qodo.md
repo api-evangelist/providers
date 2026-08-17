@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: AI pull-request reviewer. Available as the Apache-2.0 open-source PR-Agent (CLI, GitHub Action, Docker, self-hosted webhook server) and as the hosted Qodo Merge Git app. It is invoked through Git prov
@@ -43,8 +43,11 @@ apis:
 - description: The hosted Qodo platform that backs Qodo Merge, Qodo Gen, and Qodo Command. As of this writing Qodo does not publish a documented, general-purpose public HTTP REST API with stable endpoints; access is
   name: Qodo Hosted API
   slug: qodo-hosted-api
-artifact_total: 11
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Qodo
   slug: open-qodo
@@ -113,7 +116,7 @@ plans:
 - name: Qodo Plans Pricing
   plan_count: 4
   slug: qodo-plans-pricing
-random_paper: 75
+random_paper: 137
 rate_limits:
 - limit_count: 4
   name: Qodo Rate Limits
@@ -131,7 +134,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

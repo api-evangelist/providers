@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -49,11 +49,21 @@ apis:
 - description: The bank-side rewards platform API. A publisher opens an institution- or customer-scoped session, retrieves ranked targeted card-linked offers for a customer, and reads that customer's profile, reward
   name: Cardlytics Publisher API v2
   slug: cardlytics-publisher-api-v2
-artifact_total: 11
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Cardlytics Publisher Webhooks
   slug: cardlytics-publisher-webhooks
+collections:
+- collection_type: open
+  name: Campaign Build API
+  slug: open-cardlytics-campaign-build-api
+- collection_type: open
+  name: partner-api
+  slug: open-cardlytics-partner-api
+- collection_type: open
+  name: OpenAPI definition
+  slug: open-cardlytics-publisher-api
 common:
 - group: agent
   title: ''
@@ -211,7 +221,7 @@ plans:
 - name: Cardlytics Plans Pricing
   plan_count: 0
   slug: cardlytics-plans-pricing
-random_paper: 114
+random_paper: 31
 rate_limits:
 - limit_count: 4
   name: Cardlytics Rate Limits
@@ -224,7 +234,7 @@ scopes:
 score:
   band: strong
   composite: 57.9
-  delta: 36.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.1
@@ -232,7 +242,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 21.3
+  previous_composite: 57.9
   regulatory:
     applies: true
     matched_via: tags
@@ -240,8 +250,8 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/screenshots/cardlytics-2026-07-25T204515.png
 security:
 - kind: authentication

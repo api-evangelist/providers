@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 21
 apis:
 - description: The Applications API from Ankorstore — 1 operation(s) for applications.
@@ -94,11 +94,78 @@ apis:
 - description: 'ℹ️ This section describes the API endpoints which can be used for managing webhook subscriptions. ## 💡 Overview In order to be able to manage Webhook Subscriptions via API you should understand the re'
   name: Ankorstore Webhooks API
   slug: ankorstore-webhooks-api
-artifact_total: 25
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Ankorstore Webhooks
   slug: ankorstore-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications API
+  slug: open-ankorstore-applications-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Brands API
+  slug: open-ankorstore-brands-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Catalog API
+  slug: open-ankorstore-catalog-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Catalog Exchange API
+  slug: open-ankorstore-catalog-exchange-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Catalog Integrations API
+  slug: open-ankorstore-catalog-integrations-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Deprecated API
+  slug: open-ankorstore-deprecated-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Fulfillment API
+  slug: open-ankorstore-fulfillment-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications General API
+  slug: open-ankorstore-general-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Integration API
+  slug: open-ankorstore-integration-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Locations API
+  slug: open-ankorstore-locations-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Media API
+  slug: open-ankorstore-media-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Movements API
+  slug: open-ankorstore-movements-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Ordering API
+  slug: open-ankorstore-ordering-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications OrderPay API
+  slug: open-ankorstore-orderpay-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Shipping API
+  slug: open-ankorstore-shipping-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications State API
+  slug: open-ankorstore-state-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Stock Management API
+  slug: open-ankorstore-stock-management-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Testing API
+  slug: open-ankorstore-testing-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications User API
+  slug: open-ankorstore-user-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Users API
+  slug: open-ankorstore-users-api
+- collection_type: open
+  name: Ankorstore Stock Tracking and Logistics Applications Webhooks API
+  slug: open-ankorstore-webhooks-api
 common:
 - group: other
   title: ''
@@ -223,7 +290,7 @@ overview: 'Ankorstore publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Ankorstore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 19 more developer resources.'
-random_paper: 16
+random_paper: 53
 score:
   band: developing
   composite: 43.3
@@ -246,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/screenshots/ankorstore-2026-07-25T200257.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -63,11 +63,38 @@ apis:
 - description: Manage reusable email templates
   name: Mailjet Templates API
   slug: mailjet-templates-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mailjet Email Campaigns API
+  slug: open-mailjet-campaigns-api
+- collection_type: open
+  name: Mailjet Email Campaigns Contact Lists API
+  slug: open-mailjet-contact-lists-api
+- collection_type: open
+  name: Mailjet Email Campaigns Contacts API
+  slug: open-mailjet-contacts-api
 - collection_type: open
   name: Mailjet Email API
   slug: open-mailjet-email-api
+- collection_type: open
+  name: Mailjet Email Campaigns Event API
+  slug: open-mailjet-event-api
+- collection_type: open
+  name: Mailjet Email Campaigns Send API
+  slug: open-mailjet-send-api
+- collection_type: open
+  name: Mailjet Email Campaigns Senders API
+  slug: open-mailjet-senders-api
+- collection_type: open
+  name: Mailjet Email Campaigns Statistics API
+  slug: open-mailjet-statistics-api
+- collection_type: open
+  name: Mailjet Email Campaigns Templates API
+  slug: open-mailjet-templates-api
 common:
 - group: agent
   title: ''
@@ -149,7 +176,7 @@ plans:
 - name: Mailjet Plans Pricing
   plan_count: 3
   slug: mailjet-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Mailjet Rate Limits
@@ -174,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/screenshots/mailjet-2026-06-20T184859.png
 security:

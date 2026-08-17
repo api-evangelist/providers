@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Verification Requests API from Evident — 2 operation(s) for verification requests.
   name: Evident Verification Requests API
   slug: evident-id-verification-requests-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Evident VerifyAPI and Submit Results API
+  slug: open-evident-id-results-api
+- collection_type: open
+  name: Evident VerifyAPI and Submit Results Submission API
+  slug: open-evident-id-submission-api
+- collection_type: open
+  name: Evident VerifyAPI and Submit Results Verification Requests API
+  slug: open-evident-id-verification-requests-api
 - collection_type: open
   name: Evident VerifyAPI and SubmitAPI
   slug: open-evident-id
@@ -114,7 +126,7 @@ plans:
 - name: Evident Id Plans Pricing
   plan_count: 4
   slug: evident-id-plans-pricing
-random_paper: 41
+random_paper: 107
 rate_limits:
 - limit_count: 3
   name: Evident Id Rate Limits
@@ -145,7 +157,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/screenshots/evident-id-2026-07-25T213758.png
 security:

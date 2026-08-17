@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 58.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -187,15 +188,209 @@ arazzos:
 - description: Upload a file as proof of consent for an organization and read it back to verify storage.
   name: Didomi Upload and Verify a Consent Proof
   slug: didomi-upload-consent-proof-workflow
-artifact_total: 113
+artifact_total: 150
+asyncapis:
+- description: 'Outbound webhook events emitted by the Didomi platform when an end-user''s consent or preference state changes. PROVENANCE: Didomi publishes NO AsyncAPI document. This file is an API Evangelist generat'
+  name: Didomi Consent Webhooks
+  slug: didomi-consent-webhooks-asyncapi
+- description: Didomi publishes a real outbound webhook surface. When an end-user changes a consent or preference on any of an organization's websites, apps or preference centers, Didomi POSTs a JSON payload to a cu
+  name: Didomi Webhooks
+  slug: didomi-webhooks
 collections:
 - collection_type: postman
   name: Didomi API
   slug: postman-didomi-platform-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Didomi consents/events API
+  slug: open-didomi-consents-events-api
+- collection_type: open
+  name: Didomi consents/events consents/proofs API
+  slug: open-didomi-consents-proofs-api
+- collection_type: open
+  name: Didomi consents/events consents/tokens API
+  slug: open-didomi-consents-tokens-api
+- collection_type: open
+  name: Didomi consents/events consents/users API
+  slug: open-didomi-consents-users-api
+- collection_type: open
+  name: Didomi consents/events cookies API
+  slug: open-didomi-cookies-api
+- collection_type: open
+  name: Didomi consents/events dashboards-urls API
+  slug: open-didomi-dashboards-urls-api
+- collection_type: open
+  name: Didomi consents/events domains API
+  slug: open-didomi-domains-api
+- collection_type: open
+  name: Didomi consents/events Integrations API
+  slug: open-didomi-integrations-api
+- collection_type: open
+  name: Didomi consents/events keys API
+  slug: open-didomi-keys-api
+- collection_type: open
+  name: Didomi consents/events languages API
+  slug: open-didomi-languages-api
+- collection_type: open
+  name: Didomi consents/events members API
+  slug: open-didomi-members-api
+- collection_type: open
+  name: Didomi consents/events metadata API
+  slug: open-didomi-metadata-api
+- collection_type: open
+  name: Didomi consents/events metadata-purpose-regulation-override API
+  slug: open-didomi-metadata-purpose-regulation-override-api
+- collection_type: open
+  name: Didomi consents/events notices API
+  slug: open-didomi-notices-api
+- collection_type: open
+  name: Didomi consents/events organizations API
+  slug: open-didomi-organizations-api
+- collection_type: open
+  name: Didomi consents/events organizations-source-systems API
+  slug: open-didomi-organizations-source-systems-api
+- collection_type: open
+  name: Didomi consents/events partners API
+  slug: open-didomi-partners-api
+- collection_type: open
+  name: Didomi consents/events partners-default-purposes API
+  slug: open-didomi-partners-default-purposes-api
+- collection_type: open
+  name: Didomi consents/events partners-legitimate-interest-purposes API
+  slug: open-didomi-partners-legitimate-interest-purposes-api
+- collection_type: open
+  name: Didomi consents/events partners-spi-purposes API
+  slug: open-didomi-partners-spi-purposes-api
+- collection_type: open
+  name: Didomi consents/events partners-storages API
+  slug: open-didomi-partners-storages-api
+- collection_type: open
   name: Didomi API
   slug: open-didomi-platform-api
+- collection_type: open
+  name: Didomi consents/events premium-features API
+  slug: open-didomi-premium-features-api
+- collection_type: open
+  name: Didomi consents/events privacy-centers API
+  slug: open-didomi-privacy-centers-api
+- collection_type: open
+  name: Didomi consents/events purposes API
+  slug: open-didomi-purposes-api
+- collection_type: open
+  name: Didomi consents/events purposes-groups API
+  slug: open-didomi-purposes-groups-api
+- collection_type: open
+  name: Didomi consents/events quotas API
+  slug: open-didomi-quotas-api
+- collection_type: open
+  name: Didomi consents/events secrets API
+  slug: open-didomi-secrets-api
+- collection_type: open
+  name: Didomi consents/events sessions API
+  slug: open-didomi-sessions-api
+- collection_type: open
+  name: Didomi consents/events sso-connections API
+  slug: open-didomi-sso-connections-api
+- collection_type: open
+  name: Didomi consents/events taxonomies API
+  slug: open-didomi-taxonomies-api
+- collection_type: open
+  name: Didomi consents/events vendors API
+  slug: open-didomi-vendors-api
+- collection_type: open
+  name: Didomi consents/events widgets/notices/remote-configs API
+  slug: open-didomi-widgets-notices-remote-configs-api
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/didomi-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/didomi-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/didomi-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/didomi-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/didomi-platform-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/didomi-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/didomi-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/didomi-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/didomi-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/didomi-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/didomi-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/didomi-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/didomi-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/didomi-components.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/didomi-consent-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/didomi-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/didomi-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/didomi-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.didomi.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.didomi.io/docs/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/didomi/overview
 - group: operate
   title: ''
   type: IssueTracker
@@ -513,22 +708,26 @@ jsonld:
   property_count: 10
   slug: didomi-context
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: Candidate MCP tool surface derived from the Didomi OpenAPI (Didomi ships no MCP server)
+  slug: candidate-mcp-tool-surface-derived-from-the-didomi-openapi-didomi-ships-no-mcp-server
+modified: '2026-08-13'
 name: Didomi
 nav: Providers
 network: true
 overview: 'Didomi publishes 32 APIs on the [APIs.io](https://apis.io/) network, including consents/events API, consents/proofs API, consents/tokens API, and 29 more. Tagged areas include Advertising, AdTech, CCPA, CMP, and Consent.
 
 
-  The Didomi catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Didomi catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Didomi''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, pricing, and 47 more developer resources.'
+  Didomi''s developer surface includes changelog, API reference, authentication, developer portal, documentation, getting-started guide, developer console, and 69 more developer resources.'
 plans:
 - name: Didomi Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: didomi-plans-pricing
-random_paper: 30
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Didomi Rate Limits
@@ -552,15 +751,15 @@ rules:
   slug: didomi-rules
 score:
   band: exemplar
-  composite: 68.6
-  delta: 0.0
+  composite: 85.4
+  delta: 16.8
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 68.3
-    developer_ergonomics: 71.7
-    discoverability: 50.0
-    governance: 68.8
-    operational_transparency: 42.1
+    commercial_clarity: 100.0
+    contract_quality: 77.2
+    developer_ergonomics: 93.5
+    discoverability: 57.4
+    governance: 89.6
+    operational_transparency: 84.2
   previous_composite: 68.6
   provenance:
     agentic_access: derived
@@ -570,8 +769,8 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/screenshots/didomi-2026-06-20T180026.png
 security:
 - kind: authentication
@@ -582,6 +781,10 @@ security:
   name: Didomi Domain Security
   slug: didomi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Didomi Vulnerability Disclosure
+  slug: didomi-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Didomi Trust Center
   slug: didomi-trust-center
@@ -633,5 +836,5 @@ use_cases:
   name: Cross-domain / cross-device consent for media groups
 - description: Marketing teams replace browser-side third-party tags with server-side Google Tag Manager via Addingwell, gated on Didomi consent.
   name: Server-side first-party tagging
-website: https://www.didomi.io
+website: https://developers.didomi.io/
 ---

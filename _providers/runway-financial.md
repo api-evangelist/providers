@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,14 @@ apis:
 - description: 'Limited, read-only REST API to programmatically export Runway model pages (submodels) and database pages as CSV, optionally within a proposal (scenario) layer. Bearer-authenticated with an API secret '
   name: Runway Export API
   slug: runway-export-api
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Runway Export API
+  slug: open-runway-financial-export-api
 common:
 - group: auth
   title: ''
@@ -164,7 +171,7 @@ overview: 'Runway Financial publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Runway Financial''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 96
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Runway Financial Rate Limits
@@ -192,7 +199,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

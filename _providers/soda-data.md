@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Datasets API from Soda — 1 operation(s) for datasets.
   name: Soda Datasets API
   slug: soda-data-datasets-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Soda Cloud REST Attributes API
+  slug: open-soda-data-attributes-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Authentication API
+  slug: open-soda-data-authentication-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Checks API
+  slug: open-soda-data-checks-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Contracts API
+  slug: open-soda-data-contracts-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Datasets API
+  slug: open-soda-data-datasets-api
 - collection_type: open
   name: Soda Cloud REST API
   slug: open-soda-data
@@ -123,7 +141,7 @@ plans:
 - name: Soda Data Plans Pricing
   plan_count: 3
   slug: soda-data-plans-pricing
-random_paper: 38
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Soda Data Rate Limits
@@ -148,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/screenshots/soda-data-2026-06-20T194129.png
 security:

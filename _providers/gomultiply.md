@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ plans:
 - name: Gomultiply Plans Pricing
   plan_count: 3
   slug: gomultiply-plans-pricing
-random_paper: 30
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Gomultiply Rate Limits
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.3
-  delta: 7.0
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 0.0
@@ -127,10 +127,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.3
+  previous_composite: 19.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gomultiply/refs/heads/main/screenshots/gomultiply-2026-07-25T220030.png
 security:
 - kind: domain-security

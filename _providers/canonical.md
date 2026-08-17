@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -71,8 +71,20 @@ apis:
 - description: The Snaps API from Canonical — 10 operation(s) for snaps.
   name: Canonical Snaps API
   slug: canonical-snaps-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canonical Snap Store Device Assertions API
+  slug: open-canonical-assertions-api
+- collection_type: open
+  name: Canonical Snap Store Device Assertions Search API
+  slug: open-canonical-search-api
+- collection_type: open
+  name: Canonical Snap Store Device Assertions Snaps API
+  slug: open-canonical-snaps-api
 - collection_type: open
   name: Canonical Snap Store Device API
   slug: open-canonical
@@ -153,7 +165,7 @@ plans:
 - name: Canonical Plans Pricing
   plan_count: 3
   slug: canonical-plans-pricing
-random_paper: 96
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Canonical Rate Limits
@@ -178,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/screenshots/canonical-2026-06-20T173927.png
 security:

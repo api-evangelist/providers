@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,7 +66,29 @@ apis:
 - description: Patron (borrower) records
   name: Taylor's University patrons API
   slug: taylors-patrons-api
-artifact_total: 28
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Taylor's Library Koha REST checkouts API
+  slug: open-taylors-checkouts-api
+- collection_type: open
+  name: Taylor's Library Koha REST checkouts holds API
+  slug: open-taylors-holds-api
+- collection_type: open
+  name: Taylor's Library Koha REST checkouts item_types API
+  slug: open-taylors-item-types-api
+- collection_type: open
+  name: Taylor's Library Koha REST checkouts items API
+  slug: open-taylors-items-api
+- collection_type: open
+  name: Taylor's Library Koha REST checkouts libraries API
+  slug: open-taylors-libraries-api
+- collection_type: open
+  name: Taylor's Library Koha REST checkouts patrons API
+  slug: open-taylors-patrons-api
 common:
 - group: agent
   title: ''
@@ -174,7 +196,7 @@ plans:
 - name: Taylors Plans Pricing
   plan_count: 2
   slug: taylors-plans-pricing
-random_paper: 62
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Taylors Rate Limits
@@ -227,7 +249,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/screenshots/taylors-2026-06-20T194940.png
 security:

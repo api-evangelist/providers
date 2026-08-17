@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -76,7 +76,38 @@ arazzos:
 - description: Validate the token, create a knowledge-base collection, then create a document inside it.
   name: Create a collection and add a document
   slug: brainfish-create-collection-and-document
-artifact_total: 18
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brainfish Public Agents API
+  slug: open-brainfish-agents-api
+- collection_type: open
+  name: Brainfish Public Agents Analytics API
+  slug: open-brainfish-analytics-api
+- collection_type: open
+  name: Brainfish Public Agents Authentication API
+  slug: open-brainfish-authentication-api
+- collection_type: open
+  name: Brainfish Public Agents Catalogs API
+  slug: open-brainfish-catalogs-api
+- collection_type: open
+  name: Brainfish Public Agents Collections API
+  slug: open-brainfish-collections-api
+- collection_type: open
+  name: Brainfish Public Agents Conversations API
+  slug: open-brainfish-conversations-api
+- collection_type: open
+  name: Brainfish Public Agents Documents API
+  slug: open-brainfish-documents-api
+- collection_type: open
+  name: Brainfish Public Agents Sessions API
+  slug: open-brainfish-sessions-api
+- collection_type: open
+  name: Brainfish Public Agents Users API
+  slug: open-brainfish-users-api
 common:
 - group: other
   title: ''
@@ -198,7 +229,7 @@ overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 110
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Brainfish Rate Limits
@@ -226,7 +257,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
 security:

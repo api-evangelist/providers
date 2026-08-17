@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: The Results API from Gravity Forms — 1 operation(s) for results.
   name: Gravity Forms Results API
   slug: gravity-forms-results-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gravity Forms REST API v2 Entries API
+  slug: open-gravity-forms-entries-api
+- collection_type: open
+  name: Gravity Forms REST API v2 Entries Feeds API
+  slug: open-gravity-forms-feeds-api
+- collection_type: open
+  name: Gravity REST API v2 Entries Forms API
+  slug: open-gravity-forms-forms-api
+- collection_type: open
+  name: Gravity Forms REST API v2 Entries Notifications API
+  slug: open-gravity-forms-notifications-api
+- collection_type: open
+  name: Gravity Forms REST API v2 Entries Results API
+  slug: open-gravity-forms-results-api
 - collection_type: open
   name: Gravity Forms REST API v2
   slug: open-gravity-forms
@@ -134,7 +152,7 @@ overview: 'Gravity Forms publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Gravity Forms'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 50
+random_paper: 29
 score:
   band: thin
   composite: 33.8
@@ -155,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/screenshots/gravity-forms-2026-06-20T182350.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -57,7 +57,7 @@ plans:
 - name: Pawfinity Plans Pricing
   plan_count: 4
   slug: pawfinity-plans-pricing
-random_paper: 27
+random_paper: 93
 score:
   band: minimal
   composite: 11.3
@@ -71,7 +71,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pawfinity/refs/heads/main/screenshots/pawfinity-2026-08-07T191610.png
 security:

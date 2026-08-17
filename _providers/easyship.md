@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Webhooks API from Easyship — 1 operation(s) for webhooks.
   name: Easyship Webhooks API
   slug: easyship-webhooks-api
-artifact_total: 27
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Easyship Addresses API
+  slug: open-easyship-addresses-api
+- collection_type: open
+  name: Easyship Addresses Labels API
+  slug: open-easyship-labels-api
+- collection_type: open
+  name: Easyship Addresses Pickups API
+  slug: open-easyship-pickups-api
+- collection_type: open
+  name: Easyship Addresses Rates API
+  slug: open-easyship-rates-api
+- collection_type: open
+  name: Easyship Addresses Shipments API
+  slug: open-easyship-shipments-api
+- collection_type: open
+  name: Easyship Addresses Trackings API
+  slug: open-easyship-trackings-api
+- collection_type: open
+  name: Easyship Addresses Webhooks API
+  slug: open-easyship-webhooks-api
 - collection_type: open
   name: Easyship API
   slug: open-easyship
@@ -181,7 +205,7 @@ plans:
 - name: Easyship Plans Pricing
   plan_count: 3
   slug: easyship-plans-pricing
-random_paper: 30
+random_paper: 125
 rate_limits:
 - limit_count: 5
   name: Easyship Rate Limits
@@ -223,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/screenshots/easyship-2026-06-20T180405.png
 security:

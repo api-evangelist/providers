@@ -9,40 +9,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 15.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 7
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.1mind.com/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://developer.1mind.com/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://docs.1mind.com/
 - group: company
   title: ''
   type: Blog
@@ -50,7 +42,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://www.1mind.com/contact-us
+  url: https://www.1mind.com/support
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -103,40 +95,97 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/1mindai
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/1mind-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/1mind-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/1mind-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/1mind-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/1mind-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/1mind-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/1mind-plans-pricing.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/1mind-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/1mind-vulnerability-disclosure.yml
 created: '2026-07-17'
 description: 1mind is an AI-Led Growth (AILG) platform that deploys multimodal AI "Superhumans" — combining a face, a voice, and a go-to-market brain — for enterprise B2B revenue teams. Its Superhumans qualify leads, deliver demos, handle objections, book meetings, and onboard customers 24/7 across websites, in-product surfaces, live video calls, and deal rooms. Founded by Amanda Kahlow (former founder and CEO of 6sense), 1mind publicly launched in November 2025 with $40M in total funding (Series A led by Battery Ventures, with Wing Venture Capital, Primary Ventures, Operator Collective, Harmonic Growth Partners, and Success Venture Partners participating). Customers include HubSpot, Boston Dynamics, Seismic, New Relic, ZoomInfo, Coupa, Nutanix, and Tealium. The platform is the exclusive AI successor to Drift within the Clari + Salesloft Predictive Revenue System and operates a US-region REST API, backed by SOC 2 Type II, ISO 27001, and ISO 42001 certifications.
 image: https://cdn.prod.website-files.com/65d7d10c65b6b8ee3d0ec99b/6a186235bd77904753603eaf_027bb9761980ac3e5a01859700fd10ed_Website-thumbnail.jpg
 layout: provider
-modified: '2026-08-08'
+modified: '2026-08-13'
 name: 1mind
 nav: Providers
 network: true
 overview: '1mind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, AI Agents, Sales, and Go-To-Market.
 
 
-  1mind''s developer surface includes documentation, engineering blog, support, signup flow, and 14 more developer resources.'
-random_paper: 113
+  1mind''s developer surface includes engineering blog, support, signup flow, authentication, and 21 more developer resources.'
+plans:
+- name: 1Mind Plans Pricing
+  plan_count: 0
+  slug: 1mind-plans-pricing
+random_paper: 26
+rate_limits:
+- limit_count: 2
+  name: 1Mind Rate Limits
+  slug: 1mind-rate-limits
+scopes:
+- name: 1Mind Scopes
+  scope_count: 0
+  slug: 1mind-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 27.6
+  delta: 4.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 17.4
     discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 21.1
+    governance: 12.5
+    operational_transparency: 52.6
   previous_composite: 23.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/screenshots/1mind-2026-07-25T181118.png
 security:
+- kind: authentication
+  name: 1Mind Authentication
+  slug: 1mind-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: 1Mind Domain Security
   slug: 1mind-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: 1Mind Vulnerability Disclosure
+  slug: 1mind-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: 1Mind Trust Center
   slug: 1mind-trust-center

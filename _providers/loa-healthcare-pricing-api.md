@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Hosted/remote MCP server 'LOA Healthcare Pricing' v1.0.0 over Streamable HTTP with 12 tools for CPT search, procedure suggestions, provider/hospital search, pricing estimates, market pricing, entity p
@@ -36,7 +36,23 @@ apis:
 - description: The Prices API from Loa Healthcare Pricing API — 1 operation(s) for prices.
   name: Loa Healthcare Pricing API Prices API
   slug: loa-healthcare-pricing-api-prices-api
-artifact_total: 6
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Loa Healthcare Pricing Entities API
+  slug: open-loa-healthcare-pricing-api-entities-api
+- collection_type: open
+  name: Loa Healthcare Pricing Entity Analytics API
+  slug: open-loa-healthcare-pricing-api-entity-analytics-api
+- collection_type: open
+  name: Loa Healthcare Pricing Entity Updates API
+  slug: open-loa-healthcare-pricing-api-entity-updates-api
+- collection_type: open
+  name: Loa Healthcare Pricing Prices API
+  slug: open-loa-healthcare-pricing-api-prices-api
 created: '2026-07-28'
 description: Source-labeled U.S. healthcare price transparency API and MCP server. Provides hospital and provider entity search, source-labeled price rows, cross-entity price comparison by CPT/HCPCS, and a reviewed update-submission workflow. Data comes from 6,000+ hospital Machine Readable Files under the federal Hospital Price Transparency Rule plus CMS NPI Registry and Loa-reviewed provider submissions.
 layout: provider
@@ -49,7 +65,7 @@ name: Loa Healthcare Pricing API
 nav: Providers
 network: true
 overview: Loa Healthcare Pricing API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Analytics API, Entity Updates API, and 1 more. Tagged areas include healthcare, price transparency, medical pricing, hospitals, and providers.
-random_paper: 34
+random_paper: 21
 score:
   band: emerging
   composite: 17.5
@@ -75,7 +91,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/screenshots/loa-healthcare-pricing-api-2026-08-07T171743.png
 slug: loa-healthcare-pricing-api

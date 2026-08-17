@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Evercore Inc API provides access to platform services and data for enterprise integration and automation.
@@ -72,7 +72,7 @@ plans:
 - name: Evercore Plans Pricing
   plan_count: 1
   slug: evercore-plans-pricing
-random_paper: 19
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Evercore Rate Limits
@@ -96,7 +96,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evercore/refs/heads/main/screenshots/evercore-2026-06-20T180905.png
 security:

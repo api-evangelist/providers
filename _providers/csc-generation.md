@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Backcountry, a CSC Generation brand, publishes a Universal Commerce Protocol merchant profile at its own /.well-known/ucp declaring UCP 2026-01-23 with both REST and MCP transports for the shopping se
@@ -110,7 +110,7 @@ overview: 'CSC Generation publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   CSC Generation''s developer surface includes authentication and 15 more developer resources.'
-random_paper: 106
+random_paper: 85
 score:
   band: emerging
   composite: 13.3
@@ -128,7 +128,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/screenshots/csc-generation-2026-08-07T163939.png
 security:

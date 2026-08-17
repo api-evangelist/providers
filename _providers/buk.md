@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 66
 apis:
 - description: The Absences requests API from Buk — 4 operation(s) for absences requests.
@@ -219,11 +219,213 @@ apis:
 - description: The Workflows API from Buk — 1 operation(s) for workflows.
   name: Buk Workflows API
   slug: buk-workflows-api
-artifact_total: 71
+artifact_total: 138
 asyncapis:
 - description: ''
   name: Buk Webhooks
   slug: buk-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Buk Absences requests API
+  slug: open-buk-absences-requests-api
+- collection_type: open
+  name: Buk Accounting Structures API
+  slug: open-buk-accounting-structures-api
+- collection_type: open
+  name: Buk Applicant API
+  slug: open-buk-applicant-api
+- collection_type: open
+  name: Buk Application API
+  slug: open-buk-application-api
+- collection_type: open
+  name: Buk Benefits API
+  slug: open-buk-benefits-api
+- collection_type: open
+  name: Buk Capacitaciones API
+  slug: open-buk-capacitaciones-api
+- collection_type: open
+  name: Buk Cargos API
+  slug: open-buk-cargos-api
+- collection_type: open
+  name: Buk Centralized accounting API
+  slug: open-buk-centralized-accounting-api
+- collection_type: open
+  name: Buk Centro de costo API
+  slug: open-buk-centro-de-costo-api
+- collection_type: open
+  name: Buk Attendance — Biometric Integration Clockings API
+  slug: open-buk-clockings-api
+- collection_type: open
+  name: Buk Colaboradores API
+  slug: open-buk-colaboradores-api
+- collection_type: open
+  name: Buk Créditos API
+  slug: open-buk-cr-ditos-api
+- collection_type: open
+  name: Buk Days worked API
+  slug: open-buk-days-worked-api
+- collection_type: open
+  name: Buk Dismissal API
+  slug: open-buk-dismissal-api
+- collection_type: open
+  name: Buk Documents API
+  slug: open-buk-documents-api
+- collection_type: open
+  name: Buk Empresas API
+  slug: open-buk-empresas-api
+- collection_type: open
+  name: Buk Empresas Variable Records API
+  slug: open-buk-empresas-variable-records-api
+- collection_type: open
+  name: Buk Evaluations API
+  slug: open-buk-evaluations-api
+- collection_type: open
+  name: Buk Feriados API
+  slug: open-buk-feriados-api
+- collection_type: open
+  name: Buk Grupo Familiar API
+  slug: open-buk-grupo-familiar-api
+- collection_type: open
+  name: Buk Grupos API
+  slug: open-buk-grupos-api
+- collection_type: open
+  name: Buk Horas extras API
+  slug: open-buk-horas-extras-api
+- collection_type: open
+  name: Buk Horas no trabajadas API
+  slug: open-buk-horas-no-trabajadas-api
+- collection_type: open
+  name: Buk Inasistencia API
+  slug: open-buk-inasistencia-api
+- collection_type: open
+  name: Buk Items API
+  slug: open-buk-items-api
+- collection_type: open
+  name: Buk Job Titles API
+  slug: open-buk-job-titles-api
+- collection_type: open
+  name: Buk Jobs API
+  slug: open-buk-jobs-api
+- collection_type: open
+  name: Buk KP Is API
+  slug: open-buk-kpis-api
+- collection_type: open
+  name: Buk Labores API
+  slug: open-buk-labores-api
+- collection_type: open
+  name: Buk Leaves API
+  slug: open-buk-leaves-api
+- collection_type: open
+  name: Buk Localidades API
+  slug: open-buk-localidades-api
+- collection_type: open
+  name: Buk Lugares de Trabajo API
+  slug: open-buk-lugares-de-trabajo-api
+- collection_type: open
+  name: Buk Nómina Colaborador API
+  slug: open-buk-n-mina-colaborador-api
+- collection_type: open
+  name: Buk Non-Worked Hours API
+  slug: open-buk-non-worked-hours-api
+- collection_type: open
+  name: Buk Notas API
+  slug: open-buk-notas-api
+- collection_type: open
+  name: Buk Overtime API
+  slug: open-buk-overtime-api
+- collection_type: open
+  name: Buk Pay stubs API
+  slug: open-buk-pay-stubs-api
+- collection_type: open
+  name: Buk Payment documents API
+  slug: open-buk-payment-documents-api
+- collection_type: open
+  name: Buk Payrolls API
+  slug: open-buk-payrolls-api
+- collection_type: open
+  name: Buk People API
+  slug: open-buk-people-api
+- collection_type: open
+  name: Buk Períodos API
+  slug: open-buk-per-odos-api
+- collection_type: open
+  name: Buk Postulante API
+  slug: open-buk-postulante-api
+- collection_type: open
+  name: Buk Procesos API
+  slug: open-buk-procesos-api
+- collection_type: open
+  name: Buk Productos API
+  slug: open-buk-productos-api
+- collection_type: open
+  name: Buk Áreas API
+  slug: open-buk-reas-api
+- collection_type: open
+  name: Buk Recintos API
+  slug: open-buk-recintos-api
+- collection_type: open
+  name: Buk Registro de asistencia API
+  slug: open-buk-registro-de-asistencia-api
+- collection_type: open
+  name: Buk Registros de Trabajo API
+  slug: open-buk-registros-de-trabajo-api
+- collection_type: open
+  name: Buk Selection process API
+  slug: open-buk-selection-process-api
+- collection_type: open
+  name: Buk Substitutions API
+  slug: open-buk-substitutions-api
+- collection_type: open
+  name: Buk Synchronization of payment data API
+  slug: open-buk-synchronization-of-payment-data-api
+- collection_type: open
+  name: Buk Tarifas API
+  slug: open-buk-tarifas-api
+- collection_type: open
+  name: Buk Ítems API
+  slug: open-buk-tems-api
+- collection_type: open
+  name: Buk Termination processes API
+  slug: open-buk-termination-processes-api
+- collection_type: open
+  name: Buk Time Off Leaves API
+  slug: open-buk-time-off-leaves-api
+- collection_type: open
+  name: Buk Turnos API
+  slug: open-buk-turnos-api
+- collection_type: open
+  name: Buk Unexcused absence API
+  slug: open-buk-unexcused-absence-api
+- collection_type: open
+  name: Buk Unidades API
+  slug: open-buk-unidades-api
+- collection_type: open
+  name: Buk Unions API
+  slug: open-buk-unions-api
+- collection_type: open
+  name: Buk Users and profiles API
+  slug: open-buk-users-and-profiles-api
+- collection_type: open
+  name: Buk Usuarios y perfiles API
+  slug: open-buk-usuarios-y-perfiles-api
+- collection_type: open
+  name: Buk Vacaciones API
+  slug: open-buk-vacaciones-api
+- collection_type: open
+  name: Buk Vacation Policies API
+  slug: open-buk-vacation-policies-api
+- collection_type: open
+  name: Buk Variables of the Empresas API
+  slug: open-buk-variables-of-the-empresas-api
+- collection_type: open
+  name: Buk Versions API
+  slug: open-buk-versions-api
+- collection_type: open
+  name: Buk Workflows API
+  slug: open-buk-workflows-api
 common:
 - group: auth
   title: ''
@@ -437,7 +639,7 @@ overview: 'Buk publishes 66 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Buk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 41 more developer resources.'
-random_paper: 82
+random_paper: 24
 score:
   band: developing
   composite: 51.3
@@ -460,7 +662,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

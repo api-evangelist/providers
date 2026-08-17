@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Orca Security's REST API provides programmatic access to the Orca Cloud Security Platform for querying cloud inventory and assets, managing alerts and risk findings, configuring integrations and autom
@@ -131,7 +131,7 @@ plans:
 - name: Orca Security Plans Pricing
   plan_count: 1
   slug: orca-security-plans-pricing
-random_paper: 34
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Orca Security Rate Limits
@@ -149,7 +149,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 31.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orca-security/refs/heads/main/screenshots/orca-security-2026-06-20T191207.png
 security:

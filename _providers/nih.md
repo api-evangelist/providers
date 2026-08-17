@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -84,7 +84,41 @@ apis:
 - description: '#### Options to download virus genome data, including the associated sequence and metadata. These virus services allow you to get virus genome metadata as a data report or download genome and protein '
   name: National Institutes of Health (NIH) Virus API
   slug: nih-virus-api
-artifact_total: 44
+artifact_total: 55
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample API
+  slug: open-nih-biosample-api
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample Gene API
+  slug: open-nih-gene-api
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample Genome API
+  slug: open-nih-genome-api
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample Organelle API
+  slug: open-nih-organelle-api
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample Prokaryote API
+  slug: open-nih-prokaryote-api
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample Stats API
+  slug: open-nih-stats-api
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample Studies API
+  slug: open-nih-studies-api
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample Taxonomy API
+  slug: open-nih-taxonomy-api
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample Version API
+  slug: open-nih-version-api
+- collection_type: open
+  name: ClinicalTrials.gov REST BioSample Virus API
+  slug: open-nih-virus-api
 common:
 - group: agent
   title: ''
@@ -236,7 +270,7 @@ plans:
 - name: Nih Plans Pricing
   plan_count: 5
   slug: nih-plans-pricing
-random_paper: 79
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Nih Rate Limits
@@ -276,7 +310,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/screenshots/nih-2026-06-20T190323.png
 security:

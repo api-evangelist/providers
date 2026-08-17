@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Register webhook URLs and subscribe to event types.
   name: Basis Theory Webhooks API
   slug: basis-theory-webhooks-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Basis Theory 3D Secure API
+  slug: open-basis-theory-3d-secure-api
+- collection_type: open
+  name: Basis Theory 3D Secure Applications API
+  slug: open-basis-theory-applications-api
+- collection_type: open
+  name: Basis Theory 3D Secure Logs API
+  slug: open-basis-theory-logs-api
+- collection_type: open
+  name: Basis Theory 3D Secure Proxy API
+  slug: open-basis-theory-proxy-api
+- collection_type: open
+  name: Basis Theory 3D Secure Reactors API
+  slug: open-basis-theory-reactors-api
+- collection_type: open
+  name: Basis Theory 3D Secure Tenants API
+  slug: open-basis-theory-tenants-api
+- collection_type: open
+  name: Basis Theory 3D Secure Token Intents API
+  slug: open-basis-theory-token-intents-api
+- collection_type: open
+  name: Basis Theory 3D Secure Tokenize / Detokenize API
+  slug: open-basis-theory-tokenize-detokenize-api
+- collection_type: open
+  name: Basis Theory 3D Secure Tokens API
+  slug: open-basis-theory-tokens-api
+- collection_type: open
+  name: Basis Theory 3D Secure Webhooks API
+  slug: open-basis-theory-webhooks-api
 - collection_type: open
   name: Basis Theory API
   slug: open-basis-theory
@@ -171,7 +204,7 @@ plans:
 - name: Basis Theory Plans Pricing
   plan_count: 4
   slug: basis-theory-plans-pricing
-random_paper: 42
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Basis Theory Rate Limits
@@ -202,7 +235,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/screenshots/basis-theory-2026-06-20T173050.png
 security:

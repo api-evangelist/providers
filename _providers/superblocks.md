@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: The Workflows API from Superblocks — 1 operation(s) for workflows.
   name: Superblocks Workflows API
   slug: superblocks-workflows-api
-artifact_total: 19
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Superblocks Applications API
+  slug: open-superblocks-applications-api
+- collection_type: open
+  name: Superblocks Applications Workflows API
+  slug: open-superblocks-workflows-api
 common:
 - group: agent
   title: ''
@@ -170,7 +180,7 @@ plans:
 - name: Superblocks Plans Pricing
   plan_count: 3
   slug: superblocks-plans-pricing
-random_paper: 117
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Superblocks Rate Limits
@@ -204,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/screenshots/superblocks-2026-06-20T194714.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Payload is a TypeScript-first headless CMS and application framework that automatically generates REST, GraphQL, and Local APIs from collection schemas, with built-in authentication, access control, a
@@ -46,7 +46,23 @@ apis:
 - description: The Preferences API from Payload — 1 operation(s) for preferences.
   name: Payload Preferences API
   slug: payload-preferences-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Payload CMS REST Authentication API
+  slug: open-payload-authentication-api
+- collection_type: open
+  name: Payload CMS REST Collections API
+  slug: open-payload-collections-api
+- collection_type: open
+  name: Payload CMS REST Globals API
+  slug: open-payload-globals-api
+- collection_type: open
+  name: Payload CMS REST Preferences API
+  slug: open-payload-preferences-api
 common:
 - group: auth
   title: ''
@@ -116,7 +132,7 @@ plans:
 - name: Payload Plans Pricing
   plan_count: 3
   slug: payload-plans-pricing
-random_paper: 26
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Payload Rate Limits
@@ -140,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payload/refs/heads/main/screenshots/payload-2026-06-20T191457.png
 security:

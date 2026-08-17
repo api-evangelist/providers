@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The wasmCloud control interface provides a NATS-based API for managing the wasmCloud lattice. It supports operations for starting and stopping actors and providers, establishing links between componen
@@ -222,7 +222,7 @@ plans:
 - name: Wasmcloud Plans Pricing
   plan_count: 3
   slug: wasmcloud-plans-pricing
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Wasmcloud Rate Limits
@@ -257,7 +257,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 47.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/screenshots/wasmcloud-2026-06-20T201238.png
 security:

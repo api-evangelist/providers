@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -299,7 +299,7 @@ arazzos:
 - description: Discover event systems and events, set a signing secret, create a scoped hook, and confirm it is active.
   name: Autodesk Subscribe to Events with a Signed Webhook
   slug: autodesk-webhook-subscription-workflow
-artifact_total: 325
+artifact_total: 374
 asyncapis:
 - description: Event-driven API for receiving real-time notifications from Autodesk Platform Services. When subscribed via the Webhooks REST API, Autodesk sends HTTP POST callbacks to your registered URL when events
   name: Autodesk Webhooks Events
@@ -450,38 +450,185 @@ collections:
   name: Autodesk ACC Account Admin Account Users WorkItems API
   slug: postman-autodesk-workitems-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Autodesk ACC Account Admin API
   slug: open-autodesk-acc-account-admin
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users API
+  slug: open-autodesk-account-users-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Activities API
+  slug: open-autodesk-activities-api
+- collection_type: open
+  name: Autodesk ACC Account Account Users Admin API
+  slug: open-autodesk-admin-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users AppBundles API
+  slug: open-autodesk-appbundles-api
 - collection_type: open
   name: Autodesk Authentication API
   slug: open-autodesk-authentication
 - collection_type: open
+  name: Autodesk ACC Account Admin Account Users Authorization API
+  slug: open-autodesk-authorization-api
+- collection_type: open
   name: Autodesk BIM 360 API
   slug: open-autodesk-bim360
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Calculations API
+  slug: open-autodesk-calculations-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Collections API
+  slug: open-autodesk-collections-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Companies API
+  slug: open-autodesk-companies-api
 - collection_type: open
   name: Autodesk Data Management API
   slug: open-autodesk-data-management
 - collection_type: open
+  name: Autodesk ACC Account Admin Account Users Datasets API
+  slug: open-autodesk-datasets-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Derivatives API
+  slug: open-autodesk-derivatives-api
+- collection_type: open
   name: Autodesk Design Automation API
   slug: open-autodesk-design-automation
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Elements API
+  slug: open-autodesk-elements-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Engines API
+  slug: open-autodesk-engines-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Files API
+  slug: open-autodesk-files-api
 - collection_type: open
   name: Autodesk Flow Graph Engine API
   slug: open-autodesk-flow-graph-engine
 - collection_type: open
+  name: Autodesk ACC Account Admin Account Users Folders API
+  slug: open-autodesk-folders-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Forge Apps API
+  slug: open-autodesk-forge-apps-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Graphs API
+  slug: open-autodesk-graphs-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Groups API
+  slug: open-autodesk-groups-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Hooks API
+  slug: open-autodesk-hooks-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Hubs API
+  slug: open-autodesk-hubs-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Industry Roles API
+  slug: open-autodesk-industry-roles-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Informational API
+  slug: open-autodesk-informational-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Issues API
+  slug: open-autodesk-issues-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Items API
+  slug: open-autodesk-items-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Jobs API
+  slug: open-autodesk-jobs-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Keys API
+  slug: open-autodesk-keys-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Manifest API
+  slug: open-autodesk-manifest-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Metadata API
+  slug: open-autodesk-metadata-api
+- collection_type: open
   name: Autodesk Model Derivative API
   slug: open-autodesk-model-derivative
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Models API
+  slug: open-autodesk-models-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Object Storage Service API
+  slug: open-autodesk-object-storage-service-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Parameters API
+  slug: open-autodesk-parameters-api
 - collection_type: open
   name: Autodesk Parameters API
   slug: open-autodesk-parameters
 - collection_type: open
+  name: Autodesk ACC Account Admin Account Users Photoscenes API
+  slug: open-autodesk-photoscenes-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Processing API
+  slug: open-autodesk-processing-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Project Users API
+  slug: open-autodesk-project-users-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Projects API
+  slug: open-autodesk-projects-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Records API
+  slug: open-autodesk-records-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Results API
+  slug: open-autodesk-results-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users RFIs API
+  slug: open-autodesk-rfis-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Schema API
+  slug: open-autodesk-schema-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Service Limits API
+  slug: open-autodesk-service-limits-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Streams API
+  slug: open-autodesk-streams-api
+- collection_type: open
   name: Autodesk Sustainability Data API
   slug: open-autodesk-sustainability-data
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Systems API
+  slug: open-autodesk-systems-api
 - collection_type: open
   name: Autodesk Tandem Data API
   slug: open-autodesk-tandem-data
 - collection_type: open
+  name: Autodesk ACC Account Admin Account Users Thumbnails API
+  slug: open-autodesk-thumbnails-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Token API
+  slug: open-autodesk-token-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Tokens API
+  slug: open-autodesk-tokens-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Twins API
+  slug: open-autodesk-twins-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users API
+  slug: open-autodesk-users-api
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users Versions API
+  slug: open-autodesk-versions-api
+- collection_type: open
   name: Autodesk Webhooks API
   slug: open-autodesk-webhooks
+- collection_type: open
+  name: Autodesk ACC Account Admin Account Users WorkItems API
+  slug: open-autodesk-workitems-api
 common:
 - group: build
   title: ''
@@ -1347,7 +1494,7 @@ score:
       total: 48
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:

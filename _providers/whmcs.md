@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: System administration and configuration
   name: WHMCS System API
   slug: whmcs-system-api
-artifact_total: 26
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WHMCS Authentication API
+  slug: open-whmcs-authentication-api
+- collection_type: open
+  name: WHMCS Authentication Billing API
+  slug: open-whmcs-billing-api
+- collection_type: open
+  name: WHMCS Authentication Clients API
+  slug: open-whmcs-clients-api
+- collection_type: open
+  name: WHMCS Authentication Domains API
+  slug: open-whmcs-domains-api
+- collection_type: open
+  name: WHMCS Authentication Orders API
+  slug: open-whmcs-orders-api
+- collection_type: open
+  name: WHMCS Authentication Support API
+  slug: open-whmcs-support-api
+- collection_type: open
+  name: WHMCS Authentication System API
+  slug: open-whmcs-system-api
 - collection_type: open
   name: WHMCS API
   slug: open-whmcs
@@ -173,7 +197,7 @@ plans:
 - name: Whmcs Plans Pricing
   plan_count: 3
   slug: whmcs-plans-pricing
-random_paper: 66
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Whmcs Rate Limits
@@ -215,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/screenshots/whmcs-2026-06-20T201446.png
 security:

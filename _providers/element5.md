@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -55,11 +55,24 @@ arazzos:
 - description: Submit an eligibility request and poll until the task succeeds or fails.
   name: Element5 — Verify eligibility and await result
   slug: element5-verify-eligibility
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Element5 Webhooks
   slug: element5-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Element5 Authorization API
+  slug: open-element5-authorization-api
+- collection_type: open
+  name: Element5 Authorization Eligibility API
+  slug: open-element5-eligibility-api
+- collection_type: open
+  name: Element5 Authorization Object Store API
+  slug: open-element5-object-store-api
 common:
 - group: agent
   title: ''
@@ -176,7 +189,7 @@ overview: 'Element5 publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Element5''s developer surface includes authentication, sandbox, documentation, API reference, support, and 19 more developer resources.'
-random_paper: 79
+random_paper: 54
 score:
   band: developing
   composite: 43.9
@@ -206,7 +219,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/screenshots/element5-2026-07-25T213120.png
 security:

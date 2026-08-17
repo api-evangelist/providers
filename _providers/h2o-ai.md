@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 15
@@ -106,7 +106,86 @@ apis:
 - description: The Tags API from H2O.ai — 3 operation(s) for tags.
   name: H2O.ai Tags API
   slug: h2o-ai-tags-api
-artifact_total: 32
+artifact_total: 58
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: h2oGPTe REST Admin Sessions API
+  slug: open-h2o-ai-admin-sessions-api
+- collection_type: open
+  name: h2oGPTe REST Agents API
+  slug: open-h2o-ai-agents-api
+- collection_type: open
+  name: h2oGPTe REST AI Assistants API
+  slug: open-h2o-ai-ai-assistants-api
+- collection_type: open
+  name: h2oGPTe REST API Keys API
+  slug: open-h2o-ai-api-keys-api
+- collection_type: open
+  name: h2oGPTe REST Chat API
+  slug: open-h2o-ai-chat-api
+- collection_type: open
+  name: h2oGPTe REST Collections API
+  slug: open-h2o-ai-collections-api
+- collection_type: open
+  name: h2oGPTe REST Configurations API
+  slug: open-h2o-ai-configurations-api
+- collection_type: open
+  name: h2oGPTe REST Document Ingestion API
+  slug: open-h2o-ai-document-ingestion-api
+- collection_type: open
+  name: h2oGPTe REST Documents API
+  slug: open-h2o-ai-documents-api
+- collection_type: open
+  name: h2oGPTe REST Extractors API
+  slug: open-h2o-ai-extractors-api
+- collection_type: open
+  name: h2oGPTe REST Forums API
+  slug: open-h2o-ai-forums-api
+- collection_type: open
+  name: h2oGPTe REST Graph RAG API
+  slug: open-h2o-ai-graphrag-api
+- collection_type: open
+  name: h2oGPTe REST Guardrails API
+  slug: open-h2o-ai-guardrails-api
+- collection_type: open
+  name: h2oGPTe REST Jobs API
+  slug: open-h2o-ai-jobs-api
+- collection_type: open
+  name: h2oGPTe REST Memory Blocks API
+  slug: open-h2o-ai-memory-blocks-api
+- collection_type: open
+  name: MLOps Scoring REST Model API
+  slug: open-h2o-ai-model-api
+- collection_type: open
+  name: h2oGPTe REST Models API
+  slug: open-h2o-ai-models-api
+- collection_type: open
+  name: h2oGPTe REST Permissions API
+  slug: open-h2o-ai-permissions-api
+- collection_type: open
+  name: h2oGPTe REST Prompt Templates API
+  slug: open-h2o-ai-prompt-templates-api
+- collection_type: open
+  name: h2oGPTe REST Scheduled Tasks API
+  slug: open-h2o-ai-scheduled-tasks-api
+- collection_type: open
+  name: h2oGPTe REST Secrets API
+  slug: open-h2o-ai-secrets-api
+- collection_type: open
+  name: h2oGPTe REST Shared Chats API
+  slug: open-h2o-ai-shared-chats-api
+- collection_type: open
+  name: h2oGPTe REST Showcase API
+  slug: open-h2o-ai-showcase-api
+- collection_type: open
+  name: h2oGPTe REST System API
+  slug: open-h2o-ai-system-api
+- collection_type: open
+  name: h2oGPTe REST Tags API
+  slug: open-h2o-ai-tags-api
 common:
 - group: other
   title: ''
@@ -260,7 +339,7 @@ overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 32
+random_paper: 65
 score:
   band: developing
   composite: 54.1
@@ -284,7 +363,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/screenshots/h2o-ai-2026-08-07T165917.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,17 @@ apis:
 - description: The Search API from Michigan State University — 3 operation(s) for search.
   name: Michigan State University Search API
   slug: michigan-state-university-search-api
-artifact_total: 19
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Library Catalog Record API
+  slug: open-michigan-state-university-record-api
+- collection_type: open
+  name: Library Catalog Record Search API
+  slug: open-michigan-state-university-search-api
 common:
 - group: agent
   title: ''
@@ -156,7 +166,7 @@ plans:
 - name: Michigan State University Plans Pricing
   plan_count: 2
   slug: michigan-state-university-plans-pricing
-random_paper: 69
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Michigan State University Rate Limits
@@ -204,7 +214,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/screenshots/michigan-state-university-2026-06-20T185328.png
 security:

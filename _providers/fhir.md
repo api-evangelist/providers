@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 0
@@ -137,8 +137,110 @@ apis:
 - description: The Specimen API from Fast Healthcare Interoperability Resources — 5 operation(s) for specimen.
   name: Fast Healthcare Interoperability Resources Specimen API
   slug: fhir-specimen-api
-artifact_total: 39
+artifact_total: 73
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance API
+  slug: open-fhir-allergyintolerance-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance CarePlan API
+  slug: open-fhir-careplan-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance CareTeam API
+  slug: open-fhir-careteam-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Condition API
+  slug: open-fhir-condition-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Coverage API
+  slug: open-fhir-coverage-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Device API
+  slug: open-fhir-device-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance DiagnosticReport API
+  slug: open-fhir-diagnosticreport-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance DocumentReference API
+  slug: open-fhir-documentreference-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Encounter API
+  slug: open-fhir-encounter-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Endpoint API
+  slug: open-fhir-endpoint-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Fast Healthcare Interoperability Resources (FHIR) API
+  slug: open-fhir-fast-healthcare-interoperability-resources-fhir-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Goal API
+  slug: open-fhir-goal-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance HealthcareService API
+  slug: open-fhir-healthcareservice-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance  History API
+  slug: open-fhir-history-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Immunization API
+  slug: open-fhir-immunization-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Location API
+  slug: open-fhir-location-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Media API
+  slug: open-fhir-media-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Medication API
+  slug: open-fhir-medication-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance MedicationDispense API
+  slug: open-fhir-medicationdispense-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance MedicationRequest API
+  slug: open-fhir-medicationrequest-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Metadata API
+  slug: open-fhir-metadata-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Observation API
+  slug: open-fhir-observation-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Organization API
+  slug: open-fhir-organization-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Patient API
+  slug: open-fhir-patient-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Practitioner API
+  slug: open-fhir-practitioner-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance PractitionerRole API
+  slug: open-fhir-practitionerrole-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Procedure API
+  slug: open-fhir-procedure-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Provenance API
+  slug: open-fhir-provenance-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Questionnaire API
+  slug: open-fhir-questionnaire-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance QuestionnaireResponse API
+  slug: open-fhir-questionnaireresponse-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance RelatedPerson API
+  slug: open-fhir-relatedperson-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance ServiceRequest API
+  slug: open-fhir-servicerequest-api
+- collection_type: open
+  name: Fast Healthcare Interoperability Resources (FHIR) AllergyIntolerance Specimen API
+  slug: open-fhir-specimen-api
 - collection_type: bruno
   name: Fast Healthcare Interoperability Resources Bruno Collection
   slug: bruno
@@ -180,7 +282,7 @@ plans:
 - name: Fhir Plans Pricing
   plan_count: 3
   slug: fhir-plans-pricing
-random_paper: 65
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Fhir Rate Limits
@@ -211,7 +313,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fhir/refs/heads/main/screenshots/fhir-2026-06-20T181145.png
 security:

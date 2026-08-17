@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -40,7 +40,14 @@ apis:
 - description: The Booking API from Amadeus Reservations — 5 operation(s) for booking.
   name: Amadeus Reservations Booking API
   slug: amadeus-reservations-booking-api
-artifact_total: 753
+artifact_total: 755
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flight Create Orders Booking API
+  slug: open-amadeus-reservations-booking-api
 common:
 - group: other
   title: ''
@@ -2445,7 +2452,7 @@ overview: 'Amadeus Reservations publishes 1 API on the [APIs.io](https://apis.io
 
 
   Amadeus Reservations'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 21 more developer resources.'
-random_paper: 58
+random_paper: 12
 rules:
 - name: Amadeus Reservations API Rules
   rule_count: 5
@@ -2485,7 +2492,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/screenshots/amadeus-reservations-2026-07-25T195905.png
 security:

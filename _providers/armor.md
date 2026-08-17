@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -239,11 +239,225 @@ apis:
 - description: Vulnerability scanning operations
   name: Armor Vulnerability Scanning API
   slug: armor-vulnerability-scanning-api
-artifact_total: 76
+artifact_total: 147
 asyncapis:
 - description: ''
   name: Armor Webhooks Events
   slug: armor-webhooks-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Armor Log Management Access Control Lists API
+  slug: open-armor-access-control-lists-api
+- collection_type: open
+  name: Container Security Account API
+  slug: open-armor-account-api
+- collection_type: open
+  name: Armor Services Account Management API
+  slug: open-armor-account-management-api
+- collection_type: open
+  name: Armor Services Account Primary Billing API
+  slug: open-armor-accountprimarybilling-api
+- collection_type: open
+  name: Armor Services Active Response API
+  slug: open-armor-activeresponse-api
+- collection_type: open
+  name: Armor Services Advanced Backup API
+  slug: open-armor-advanced-backup-api
+- collection_type: open
+  name: MDR Public AIP - Entity Intelligence API
+  slug: open-armor-aip-entity-intelligence-api
+- collection_type: open
+  name: MDR Public AIP - Incident Data API
+  slug: open-armor-aip-incident-data-api
+- collection_type: open
+  name: Armor Compliance Assessments API
+  slug: open-armor-assessments-api
+- collection_type: open
+  name: Armor FH-AUTH Security Authentication API
+  slug: open-armor-authentication-api
+- collection_type: open
+  name: Accounts Cloud Connections API
+  slug: open-armor-cloud-connections-api
+- collection_type: open
+  name: Container Security Connector API
+  slug: open-armor-connector-api
+- collection_type: open
+  name: Armor Compliance CSPM Connector API
+  slug: open-armor-cspm-connector-api
+- collection_type: open
+  name: Armor Compliance CSPM Control Remediation API
+  slug: open-armor-cspm-control-remediation-api
+- collection_type: open
+  name: Armor Compliance CSPM Policies API
+  slug: open-armor-cspm-policies-api
+- collection_type: open
+  name: Armor Compliance CSPM Policy Controls API
+  slug: open-armor-cspm-policy-controls-api
+- collection_type: open
+  name: Armor Compliance CSPM Report API
+  slug: open-armor-cspm-report-api
+- collection_type: open
+  name: Armor Compliance CSPM Report Configuration API
+  slug: open-armor-cspm-report-configuration-api
+- collection_type: open
+  name: Armor Compliance CSPM Resources API
+  slug: open-armor-cspm-resources-api
+- collection_type: open
+  name: Armor Compliance CSPM Summary API
+  slug: open-armor-cspm-summary-api
+- collection_type: open
+  name: Armor Compliance CSPM Usage API
+  slug: open-armor-cspm-usage-api
+- collection_type: open
+  name: MDR Public Defender - Investigation API
+  slug: open-armor-defender-investigation-api
+- collection_type: open
+  name: MDR Public Defender - Machine Actions API
+  slug: open-armor-defender-machine-actions-api
+- collection_type: open
+  name: MDR Public Defender - Machines API
+  slug: open-armor-defender-machines-api
+- collection_type: open
+  name: MDR Public Detection Rules API
+  slug: open-armor-detection-rules-api
+- collection_type: open
+  name: Armor Webhooks Detections API
+  slug: open-armor-detections-api
+- collection_type: open
+  name: Incident Management EDR API
+  slug: open-armor-edr-api
+- collection_type: open
+  name: Armor Webhooks Events API
+  slug: open-armor-events-api
+- collection_type: open
+  name: Armor Log Management Flow Sources API
+  slug: open-armor-flow-sources-api
+- collection_type: open
+  name: MDR Public Health API
+  slug: open-armor-health-api
+- collection_type: open
+  name: Agent Management Health Monitoring Status API
+  slug: open-armor-health-monitoring-status-api
+- collection_type: open
+  name: Container Security Image API
+  slug: open-armor-image-api
+- collection_type: open
+  name: Armor Services Infrastructure API
+  slug: open-armor-infrastructure-api
+- collection_type: open
+  name: MDR Public JSM - Incidents API
+  slug: open-armor-jsm-incidents-api
+- collection_type: open
+  name: MDR Public JSM - Metrics API
+  slug: open-armor-jsm-metrics-api
+- collection_type: open
+  name: MDR Public JSM - Organizations API
+  slug: open-armor-jsm-organizations-api
+- collection_type: open
+  name: MDR Public JSM - Service Requests API
+  slug: open-armor-jsm-service-requests-api
+- collection_type: open
+  name: Armor Services Keys API
+  slug: open-armor-keys-api
+- collection_type: open
+  name: Armor Log Management Log Endpoints API
+  slug: open-armor-log-endpoints-api
+- collection_type: open
+  name: Armor Log Management Log Groups API
+  slug: open-armor-log-groups-api
+- collection_type: open
+  name: Armor Log Management Log Sources API
+  slug: open-armor-log-sources-api
+- collection_type: open
+  name: Agent Management Malware Configuration API
+  slug: open-armor-malware-configuration-api
+- collection_type: open
+  name: Armor Log Management Meta API
+  slug: open-armor-meta-api
+- collection_type: open
+  name: Armor Services Network Services API
+  slug: open-armor-network-services-api
+- collection_type: open
+  name: Armor Webhooks Notifications API
+  slug: open-armor-notifications-api
+- collection_type: open
+  name: Notifications Preferences API
+  slug: open-armor-preferences-api
+- collection_type: open
+  name: Container Security Registry API
+  slug: open-armor-registry-api
+- collection_type: open
+  name: MDR Public Reports - MSR API
+  slug: open-armor-reports-msr-api
+- collection_type: open
+  name: Agent Management Scheduled Tasks API
+  slug: open-armor-scheduled-tasks-api
+- collection_type: open
+  name: Accounts Secure Notes API
+  slug: open-armor-secure-notes-api
+- collection_type: open
+  name: Armor Services Security Analytics API
+  slug: open-armor-security-analytics-api
+- collection_type: open
+  name: Armor Services Security API
+  slug: open-armor-security-api
+- collection_type: open
+  name: Incident Management Security Detection Events API
+  slug: open-armor-security-detection-events-api
+- collection_type: open
+  name: Incident Management Security Detections API
+  slug: open-armor-security-detections-api
+- collection_type: open
+  name: Incident Management Security Detections Overview API
+  slug: open-armor-security-detections-overview-api
+- collection_type: open
+  name: Armor Services Security Incidents API
+  slug: open-armor-security-incidents-api
+- collection_type: open
+  name: Container Security Sensor API
+  slug: open-armor-sensor-api
+- collection_type: open
+  name: Armor Services Support API
+  slug: open-armor-support-api
+- collection_type: open
+  name: Agent Management Tags API
+  slug: open-armor-tags-api
+- collection_type: open
+  name: MDR Public TI - Customer Intelligence API
+  slug: open-armor-ti-customer-intelligence-api
+- collection_type: open
+  name: MDR Public TI - GraphQL API
+  slug: open-armor-ti-graphql-api
+- collection_type: open
+  name: MDR Public TI - Threat Actors API
+  slug: open-armor-ti-threat-actors-api
+- collection_type: open
+  name: Infrastructure Management Toolbox API
+  slug: open-armor-toolbox-api
+- collection_type: open
+  name: Accounts Tours API
+  slug: open-armor-tours-api
+- collection_type: open
+  name: Incident Management Trend API
+  slug: open-armor-trend-api
+- collection_type: open
+  name: Armor User API
+  slug: open-armor-user-api
+- collection_type: open
+  name: Armor Services Utilization API
+  slug: open-armor-utilization-api
+- collection_type: open
+  name: Armor Compliance VS Exclusions API
+  slug: open-armor-vs-exclusions-api
+- collection_type: open
+  name: Armor Compliance VS Reports API
+  slug: open-armor-vs-reports-api
+- collection_type: open
+  name: Armor Compliance Vulnerability Scanning API
+  slug: open-armor-vulnerability-scanning-api
 common:
 - group: agent
   title: ''
@@ -381,7 +595,7 @@ overview: 'Armor publishes 70 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Armor''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 65
+random_paper: 98
 scopes:
 - name: Armor Scopes
   scope_count: 4
@@ -410,7 +624,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armor/refs/heads/main/screenshots/armor-2026-08-07T161726.png
 security:

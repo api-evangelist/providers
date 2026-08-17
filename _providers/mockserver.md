@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 12
@@ -47,11 +47,23 @@ apis:
 - description: Verify requests (both MockServer & MockServer Proxy)
   name: MockServer verify API
   slug: mockserver-verify-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MockServer control API
+  slug: open-mockserver-control-api
+- collection_type: open
+  name: MockServer control expectation API
+  slug: open-mockserver-expectation-api
 - collection_type: open
   name: MockServer API
   slug: open-mockserver-openapi-original
+- collection_type: open
+  name: MockServer control verify API
+  slug: open-mockserver-verify-api
 common:
 - group: operate
   title: ''
@@ -133,7 +145,7 @@ plans:
 - name: Mockserver Plans Pricing
   plan_count: 3
   slug: mockserver-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Mockserver Rate Limits
@@ -158,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/screenshots/mockserver-2026-06-20T185638.png
 security:

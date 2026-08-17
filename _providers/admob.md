@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -42,7 +42,14 @@ apis:
 - description: REST/JSON API providing programmatic access to AdMob account data, apps, ad units, mediation configuration, and network, mediation and campaign performance reports. v1 is read-only; v1beta adds the wr
   name: AdMob API
   slug: admob-api
-artifact_total: 9
+artifact_total: 11
+collections:
+- collection_type: open
+  name: AdMob API
+  slug: open-admob-api-v1
+- collection_type: open
+  name: AdMob API
+  slug: open-admob-api-v1beta
 common:
 - group: agent
   title: ''
@@ -212,7 +219,7 @@ plans:
 - name: Admob Plans Pricing
   plan_count: 0
   slug: admob-plans-pricing
-random_paper: 35
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Admob Rate Limits
@@ -225,7 +232,7 @@ scopes:
 score:
   band: strong
   composite: 60.8
-  delta: 25.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.0
@@ -233,10 +240,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 86.8
-  previous_composite: 35.6
+  previous_composite: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/admob/refs/heads/main/screenshots/admob-2026-07-25T181651.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 36
 apis:
 - description: Account Token
@@ -139,11 +139,123 @@ apis:
 - description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Webhooks push e
   name: Ready2order Webhook API
   slug: ready2order-webhook-api
-artifact_total: 40
+artifact_total: 77
 asyncapis:
 - description: ''
   name: Ready2Order Webhooks
   slug: ready2order-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ready2order Public Account Token API
+  slug: open-ready2order-account-token-api
+- collection_type: open
+  name: ready2order Public Account Token Accounting Financial Year API
+  slug: open-ready2order-accounting-financial-year-api
+- collection_type: open
+  name: ready2order Public Account Token Bill API
+  slug: open-ready2order-bill-api
+- collection_type: open
+  name: ready2order Public Account Token Bill Type API
+  slug: open-ready2order-bill-type-api
+- collection_type: open
+  name: ready2order Public Account Token Country API
+  slug: open-ready2order-country-api
+- collection_type: open
+  name: ready2order Public Account Token Coupon API
+  slug: open-ready2order-coupon-api
+- collection_type: open
+  name: ready2order Public Account Token Coupon Category API
+  slug: open-ready2order-coupon-category-api
+- collection_type: open
+  name: ready2order Public Account Token Currency API
+  slug: open-ready2order-currency-api
+- collection_type: open
+  name: ready2order Public Account Token Customer API
+  slug: open-ready2order-customer-api
+- collection_type: open
+  name: ready2order Public Account Token Customer Group API
+  slug: open-ready2order-customer-group-api
+- collection_type: open
+  name: ready2order Public Account Token Daily Report API
+  slug: open-ready2order-daily-report-api
+- collection_type: open
+  name: ready2order Public Account Token Device API
+  slug: open-ready2order-device-api
+- collection_type: open
+  name: ready2order Public Account Token Discount API
+  slug: open-ready2order-discount-api
+- collection_type: open
+  name: ready2order Public Account Token Discount Group API
+  slug: open-ready2order-discount-group-api
+- collection_type: open
+  name: ready2order Public Account Token Export API
+  slug: open-ready2order-export-api
+- collection_type: open
+  name: ready2order Public Account Token Grant Access Token API
+  slug: open-ready2order-grant-access-token-api
+- collection_type: open
+  name: ready2order Public Account Token Job Status API
+  slug: open-ready2order-job-status-api
+- collection_type: open
+  name: ready2order Public Account Token Language API
+  slug: open-ready2order-language-api
+- collection_type: open
+  name: ready2order Public Account Token Legal Form API
+  slug: open-ready2order-legal-form-api
+- collection_type: open
+  name: ready2order Public Account Token Order API
+  slug: open-ready2order-order-api
+- collection_type: open
+  name: ready2order Public Account Token Payment Method API
+  slug: open-ready2order-payment-method-api
+- collection_type: open
+  name: ready2order Public Account Token Payment Method Type API
+  slug: open-ready2order-payment-method-type-api
+- collection_type: open
+  name: ready2order Public Account Token Print Job API
+  slug: open-ready2order-print-job-api
+- collection_type: open
+  name: ready2order Public Account Token Printer API
+  slug: open-ready2order-printer-api
+- collection_type: open
+  name: ready2order Public Account Token Printer Profile API
+  slug: open-ready2order-printer-profile-api
+- collection_type: open
+  name: ready2order Public Account Token Product API
+  slug: open-ready2order-product-api
+- collection_type: open
+  name: ready2order Public Account Token Product Group API
+  slug: open-ready2order-product-group-api
+- collection_type: open
+  name: ready2order Public Account Token Storno API
+  slug: open-ready2order-storno-api
+- collection_type: open
+  name: ready2order Public Account Token Table API
+  slug: open-ready2order-table-api
+- collection_type: open
+  name: ready2order Public Account Token Table Area API
+  slug: open-ready2order-table-area-api
+- collection_type: open
+  name: ready2order Public Account Token Terminal Transaction API
+  slug: open-ready2order-terminal-transaction-api
+- collection_type: open
+  name: ready2order Public Account Token Units API
+  slug: open-ready2order-units-api
+- collection_type: open
+  name: ready2order Public Account Token User API
+  slug: open-ready2order-user-api
+- collection_type: open
+  name: ready2order Public Account Token User Roles API
+  slug: open-ready2order-user-roles-api
+- collection_type: open
+  name: ready2order Public Account Token Vat Rate API
+  slug: open-ready2order-vat-rate-api
+- collection_type: open
+  name: ready2order Public Account Token Webhook API
+  slug: open-ready2order-webhook-api
 common:
 - group: start
   title: ''
@@ -268,7 +380,7 @@ overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Ready2order''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 43
+random_paper: 80
 score:
   band: developing
   composite: 44.2
@@ -297,7 +409,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

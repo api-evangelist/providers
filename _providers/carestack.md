@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RESTful API surface for CareStack dental practice management, covering patient resources (patient information, health conditions, payment summaries, communications, treatment codes, documents) and pra
@@ -106,7 +106,7 @@ overview: 'CareStack publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   CareStack''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 105
+random_paper: 51
 score:
   band: thin
   composite: 35.5
@@ -128,7 +128,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carestack/refs/heads/main/screenshots/carestack-2026-07-25T204559.png
 security:

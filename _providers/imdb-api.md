@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Image utilities and account usage.
   name: IMDb-API Tools API
   slug: imdb-api-tools-api
-artifact_total: 58
+artifact_total: 65
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IMDb-API (TV-API) External API
+  slug: open-imdb-api-external-api
+- collection_type: open
+  name: IMDb-API (TV-API) External Lists API
+  slug: open-imdb-api-lists-api
+- collection_type: open
+  name: IMDb-API (TV-API) External Name API
+  slug: open-imdb-api-name-api
+- collection_type: open
+  name: IMDb-API (TV-API) External Search API
+  slug: open-imdb-api-search-api
+- collection_type: open
+  name: IMDb-API (TV-API) External Title API
+  slug: open-imdb-api-title-api
+- collection_type: open
+  name: IMDb-API (TV-API) External Tools API
+  slug: open-imdb-api-tools-api
 - collection_type: open
   name: IMDb-API (TV-API)
   slug: open-imdb-api
@@ -258,7 +279,7 @@ plans:
 - name: Imdb Api Plans Pricing
   plan_count: 4
   slug: imdb-api-plans-pricing
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Imdb Api Rate Limits
@@ -300,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/screenshots/imdb-api-2026-06-20T183246.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Asynchronous REST API for asking natural-language analytics questions against connected data. Create a session, submit an inquiry, then poll or long-poll for a grounded answer with generated SQL, stru
@@ -132,7 +132,7 @@ overview: 'Jedify publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jedify''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 13 more developer resources.'
-random_paper: 35
+random_paper: 39
 score:
   band: emerging
   composite: 26.0
@@ -149,7 +149,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/screenshots/jedify-2026-07-25T223116.png
 security:

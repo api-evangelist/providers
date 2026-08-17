@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'General Fusion is profiled on the [APIs.io](https://apis.io/) network
 
 
   General Fusion''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 119
+random_paper: 98
 score:
   band: emerging
   composite: 13.0
@@ -119,7 +119,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-fusion/refs/heads/main/screenshots/general-fusion-2026-08-07T165605.png
 security:

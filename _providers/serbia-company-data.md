@@ -13,12 +13,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-12'
+  score: 44.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -34,7 +34,17 @@ apis:
 - description: The Search API from Serbia Company Data — 1 operation(s) for search.
   name: Serbia Company Data Search API
   slug: serbia-company-data-search-api
-artifact_total: 12
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Serbia Data Company API
+  slug: open-serbia-company-data-company-api
+- collection_type: open
+  name: Serbia Company Data Search API
+  slug: open-serbia-company-data-search-api
 common:
 - group: auth
   title: ''
@@ -104,6 +114,22 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/serbia-company-data-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://serbia-company-x402.vercel.app/
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/serbia-company-data-rate-limits.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/serbia-company-data-health-response.json
 created: '2026-07-28'
 description: A single-purpose, pay-per-call REST API serving normalized Serbian company registry data and latest financial-statement summaries from official APR high-value open data. Access is gated by HTTP 402 micropayments via the x402 protocol settled in Base USDC, requiring no account or API key.
 examples:
@@ -132,21 +158,29 @@ mcp_servers:
 - description: ''
   name: Candidate MCP tool list derived from the OpenAPI — no server is published
   slug: candidate-mcp-tool-list-derived-from-the-openapi-no-server-is-published
-modified: '2026-08-09'
+modified: '2026-08-14'
 name: Serbia Company Data
 nav: Providers
 network: true
 overview: 'Serbia Company Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Company API and Search API. Tagged areas include serbia, company-data, business-registry, open-data, and x402.
 
 
-  Serbia Company Data''s developer surface includes authentication, sandbox, code examples, and 14 more developer resources.'
-random_paper: 89
+  Serbia Company Data''s developer surface includes authentication, sandbox, code examples, pricing, and 17 more developer resources.'
+plans:
+- name: Serbia Company Data Plans Pricing
+  plan_count: 0
+  slug: serbia-company-data-plans-pricing
+random_paper: 101
+rate_limits:
+- limit_count: 0
+  name: Serbia Company Data Rate Limits
+  slug: serbia-company-data-rate-limits
 score:
-  band: emerging
-  composite: 27.4
-  delta: 0.0
+  band: thin
+  composite: 29.2
+  delta: 1.8
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 10.5
     contract_quality: 56.0
     developer_ergonomics: 21.2
     discoverability: 70.4
@@ -170,7 +204,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

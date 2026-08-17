@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -245,7 +245,218 @@ apis:
 - description: The Yeasts API from Labguru — 2 operation(s) for yeasts.
   name: Labguru Yeasts API
   slug: labguru-yeasts-api
-artifact_total: 259
+artifact_total: 329
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Labguru Antibodies API
+  slug: open-labguru-antibodies-api
+- collection_type: open
+  name: Labguru Antibodies Attachments API
+  slug: open-labguru-attachments-api
+- collection_type: open
+  name: Labguru Antibodies Authentication API
+  slug: open-labguru-authentication-api
+- collection_type: open
+  name: Labguru Antibodies Bacteria API
+  slug: open-labguru-bacteria-api
+- collection_type: open
+  name: Labguru Antibodies Boxes API
+  slug: open-labguru-boxes-api
+- collection_type: open
+  name: Labguru Antibodies Cell lines API
+  slug: open-labguru-cell-lines-api
+- collection_type: open
+  name: Labguru Antibodies Comments API
+  slug: open-labguru-comments-api
+- collection_type: open
+  name: Labguru Antibodies Companies API
+  slug: open-labguru-companies-api
+- collection_type: open
+  name: Labguru Antibodies Compound Parent Structures API
+  slug: open-labguru-compound-parent-structures-api
+- collection_type: open
+  name: Labguru Antibodies Compounds API
+  slug: open-labguru-compounds-api
+- collection_type: open
+  name: Labguru Antibodies Consumables API
+  slug: open-labguru-consumables-api
+- collection_type: open
+  name: Labguru Antibodies Datasets API
+  slug: open-labguru-datasets-api
+- collection_type: open
+  name: Labguru Antibodies Documents API
+  slug: open-labguru-documents-api
+- collection_type: open
+  name: Labguru Antibodies Elements API
+  slug: open-labguru-elements-api
+- collection_type: open
+  name: Labguru Antibodies Equipment API
+  slug: open-labguru-equipment-api
+- collection_type: open
+  name: Labguru Antibodies Events API
+  slug: open-labguru-events-api
+- collection_type: open
+  name: Labguru Antibodies Experiments API
+  slug: open-labguru-experiments-api
+- collection_type: open
+  name: Labguru Antibodies Filters API
+  slug: open-labguru-filters-api
+- collection_type: open
+  name: Labguru Antibodies Flags API
+  slug: open-labguru-flags-api
+- collection_type: open
+  name: Labguru Antibodies Flies API
+  slug: open-labguru-flies-api
+- collection_type: open
+  name: Labguru Antibodies Folders API
+  slug: open-labguru-folders-api
+- collection_type: open
+  name: Labguru Antibodies Fungi API
+  slug: open-labguru-fungi-api
+- collection_type: open
+  name: Labguru Antibodies Generic Items API
+  slug: open-labguru-generic-items-api
+- collection_type: open
+  name: Labguru Antibodies Genes API
+  slug: open-labguru-genes-api
+- collection_type: open
+  name: Labguru Antibodies Links API
+  slug: open-labguru-links-api
+- collection_type: open
+  name: Labguru Antibodies Lipids API
+  slug: open-labguru-lipids-api
+- collection_type: open
+  name: Labguru Antibodies Maintenance event API
+  slug: open-labguru-maintenance-event-api
+- collection_type: open
+  name: Labguru Antibodies Maintenance template API
+  slug: open-labguru-maintenance-template-api
+- collection_type: open
+  name: Labguru Antibodies Maintenance types API
+  slug: open-labguru-maintenance-types-api
+- collection_type: open
+  name: Labguru Antibodies Maintenances API
+  slug: open-labguru-maintenances-api
+- collection_type: open
+  name: Labguru Antibodies Manifest API
+  slug: open-labguru-manifest-api
+- collection_type: open
+  name: Labguru Antibodies Measurements API
+  slug: open-labguru-measurements-api
+- collection_type: open
+  name: Labguru Antibodies Members API
+  slug: open-labguru-members-api
+- collection_type: open
+  name: Labguru Antibodies Notes API
+  slug: open-labguru-notes-api
+- collection_type: open
+  name: Labguru Antibodies Papers API
+  slug: open-labguru-papers-api
+- collection_type: open
+  name: Labguru Antibodies Plants API
+  slug: open-labguru-plants-api
+- collection_type: open
+  name: Labguru Antibodies Plasmids API
+  slug: open-labguru-plasmids-api
+- collection_type: open
+  name: Labguru Antibodies Plates API
+  slug: open-labguru-plates-api
+- collection_type: open
+  name: Labguru Antibodies Primers API
+  slug: open-labguru-primers-api
+- collection_type: open
+  name: Labguru Antibodies Projects API
+  slug: open-labguru-projects-api
+- collection_type: open
+  name: Labguru Antibodies Proteins API
+  slug: open-labguru-proteins-api
+- collection_type: open
+  name: Labguru Antibodies Protocols API
+  slug: open-labguru-protocols-api
+- collection_type: open
+  name: Labguru Antibodies Reports API
+  slug: open-labguru-reports-api
+- collection_type: open
+  name: Labguru Antibodies Request templates API
+  slug: open-labguru-request-templates-api
+- collection_type: open
+  name: Labguru Antibodies Requests API
+  slug: open-labguru-requests-api
+- collection_type: open
+  name: Labguru Antibodies Rodent cages API
+  slug: open-labguru-rodent-cages-api
+- collection_type: open
+  name: Labguru Antibodies Rodent Specimens API
+  slug: open-labguru-rodent-specimens-api
+- collection_type: open
+  name: Labguru Antibodies Rodent Strains API
+  slug: open-labguru-rodent-strains-api
+- collection_type: open
+  name: Labguru Antibodies Sample Pooling API
+  slug: open-labguru-sample-pooling-api
+- collection_type: open
+  name: Labguru Antibodies Search API
+  slug: open-labguru-search-api
+- collection_type: open
+  name: Labguru Antibodies Sections API
+  slug: open-labguru-sections-api
+- collection_type: open
+  name: Labguru Antibodies Seeds API
+  slug: open-labguru-seeds-api
+- collection_type: open
+  name: Labguru Antibodies Sequences API
+  slug: open-labguru-sequences-api
+- collection_type: open
+  name: Labguru Antibodies Shopping list API
+  slug: open-labguru-shopping-list-api
+- collection_type: open
+  name: Labguru Antibodies SOPs API
+  slug: open-labguru-sops-api
+- collection_type: open
+  name: Labguru Antibodies Stocks API
+  slug: open-labguru-stocks-api
+- collection_type: open
+  name: Labguru Antibodies Storages API
+  slug: open-labguru-storages-api
+- collection_type: open
+  name: Labguru Antibodies Submodules API
+  slug: open-labguru-submodules-api
+- collection_type: open
+  name: Labguru Antibodies Tags API
+  slug: open-labguru-tags-api
+- collection_type: open
+  name: Labguru Antibodies Teams API
+  slug: open-labguru-teams-api
+- collection_type: open
+  name: Labguru Antibodies Tissue API
+  slug: open-labguru-tissue-api
+- collection_type: open
+  name: Labguru Antibodies Units API
+  slug: open-labguru-units-api
+- collection_type: open
+  name: Labguru Antibodies Vectors API
+  slug: open-labguru-vectors-api
+- collection_type: open
+  name: Labguru Antibodies Viruses API
+  slug: open-labguru-viruses-api
+- collection_type: open
+  name: Labguru Antibodies Visualizations API
+  slug: open-labguru-visualizations-api
+- collection_type: open
+  name: Labguru Antibodies Webhooks API
+  slug: open-labguru-webhooks-api
+- collection_type: open
+  name: Labguru Antibodies Workflows API
+  slug: open-labguru-workflows-api
+- collection_type: open
+  name: Labguru Antibodies Worms API
+  slug: open-labguru-worms-api
+- collection_type: open
+  name: Labguru Antibodies Yeasts API
+  slug: open-labguru-yeasts-api
 common:
 - group: agent
   title: ''
@@ -876,7 +1087,7 @@ plans:
 - name: Labguru Plans Pricing
   plan_count: 3
   slug: labguru-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Labguru Rate Limits
@@ -916,7 +1127,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labguru/refs/heads/main/screenshots/labguru-2026-06-20T184239.png
 security:

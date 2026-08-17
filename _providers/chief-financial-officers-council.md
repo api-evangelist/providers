@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -71,8 +71,35 @@ apis:
 - description: The Subawards API from Chief Financial Officers Council — 1 operation(s) for subawards.
   name: Chief Financial Officers Council Subawards API
   slug: chief-financial-officers-council-subawards-api
-artifact_total: 17
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USAspending.gov API (CFO Council context) Agencies API
+  slug: open-chief-financial-officers-council-agencies-api
+- collection_type: open
+  name: USAspending.gov API (CFO Council context) Agencies Awards API
+  slug: open-chief-financial-officers-council-awards-api
+- collection_type: open
+  name: USAspending.gov API (CFO Council context) Agencies Downloads API
+  slug: open-chief-financial-officers-council-downloads-api
+- collection_type: open
+  name: USAspending.gov API (CFO Council context) Agencies Federal Accounts API
+  slug: open-chief-financial-officers-council-federal-accounts-api
+- collection_type: open
+  name: USAspending.gov API (CFO Council context) Agencies Recipients API
+  slug: open-chief-financial-officers-council-recipients-api
+- collection_type: open
+  name: USAspending.gov API (CFO Council context) Agencies References API
+  slug: open-chief-financial-officers-council-references-api
+- collection_type: open
+  name: USAspending.gov API (CFO Council context) Agencies Search API
+  slug: open-chief-financial-officers-council-search-api
+- collection_type: open
+  name: USAspending.gov API (CFO Council context) Agencies Subawards API
+  slug: open-chief-financial-officers-council-subawards-api
 - collection_type: open
   name: USAspending.gov API (CFO Council context)
   slug: open-chief-financial-officers-council
@@ -177,7 +204,7 @@ plans:
 - name: Chief Financial Officers Council Plans Pricing
   plan_count: 3
   slug: chief-financial-officers-council-plans-pricing
-random_paper: 57
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Chief Financial Officers Council Rate Limits
@@ -208,7 +235,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/screenshots/chief-financial-officers-council-2026-07-25T205215.png
 security:

@@ -10,32 +10,52 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
+  score: 53.6
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 38
+  human_in_the_loop: 0
+  name: Brandfolder Agentic Access
+  operation_count: 73
+  slug: brandfolder-agentic-access
+  summary_line: 73 operations · 38 acting
 api_count: 1
 apis:
 - description: RESTful JSON API providing programmatic access to Brandfolder resources including organizations, brandfolders, collections, sections, assets, attachments, tags, custom fields, labels, invitations, use
   name: Brandfolder API
   slug: brandfolder-api
-artifact_total: 7
+artifact_total: 12
+asyncapis:
+- description: ''
+  name: Brandfolder Webhooks
+  slug: brandfolder-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/brandfolder-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/brandfolder-authentication.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -54,8 +74,8 @@ common:
   url: https://developers.smartsheet.com/api/brandfolder
 - group: build
   title: ''
-  type: GitHubOrg
-  url: https://github.com/Brandfolder
+  type: GitHubOrganization
+  url: https://github.com/brandfolder
 - group: company
   title: ''
   type: LinkedIn
@@ -67,7 +87,7 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://brandfolder.com/contact/sales/
+  url: https://brandfolder.com/pricing
 - group: operate
   title: ''
   type: StatusPage
@@ -76,6 +96,82 @@ common:
   title: ''
   type: X
   url: https://twitter.com/Brandfolder
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.smartsheet.com/api/brandfolder
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.smartsheet.com/api/brandfolder/introduction
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.smartsheet.com/brandfolder
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.smartsheet.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://brandfolder.com/signin/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.smartsheet.com/legal/user-agreement
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.smartsheet.com/legal/privacy
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.smartsheet.com/legal/bugbounty
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/brandfolder-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.smartsheet.com/legal/security
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/brandfolder-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/brandfolder-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/brandfolder-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/brandfolder-components.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/brandfolder-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/brandfolder-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/brandfolder-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/brandfolder-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: commercial
   title: ''
   type: Plans
@@ -101,47 +197,59 @@ jsonld:
   property_count: 13
   slug: brandfolder-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: brandfolder-mcp.yml
+  slug: brandfolder-mcpyml
+modified: 2026-08-13
 name: Brandfolder
 nav: Providers
 network: true
 overview: 'Brandfolder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Digital Asset Management, DAM, Brand Management, Assets, and Media.
 
 
-  The Brandfolder catalog on APIs.io includes 1 JSON-LD context.
+  The Brandfolder catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Brandfolder''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Brandfolder''s developer surface includes authentication, documentation, engineering blog, pricing, getting-started guide, support, changelog, and 27 more developer resources.'
 plans:
 - name: Brandfolder Plans Pricing
   plan_count: 2
   slug: brandfolder-plans-pricing
-random_paper: 75
+random_paper: 112
 rate_limits:
 - limit_count: 0
   name: Brandfolder Rate Limits
   slug: brandfolder-rate-limits
 score:
-  band: thin
-  composite: 32.6
-  delta: 0.0
+  band: strong
+  composite: 63.0
+  delta: 30.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 45.2
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 89.5
+    contract_quality: 68.6
+    developer_ergonomics: 58.7
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 47.4
   previous_composite: 32.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/screenshots/brandfolder-2026-06-20T173633.png
 security:
+- kind: authentication
+  name: Brandfolder Authentication
+  slug: brandfolder-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Brandfolder Domain Security
   slug: brandfolder-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Brandfolder Vulnerability Disclosure
+  slug: brandfolder-vulnerability-disclosure
+  summary_line: security.txt · contact published
 - kind: trust-center
   name: Brandfolder Trust Center
   slug: brandfolder-trust-center

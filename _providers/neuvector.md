@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 31
 apis:
 - description: Admission Control
@@ -124,7 +124,104 @@ apis:
 - description: Operations about waf Rule
   name: NeuVector WAF Rule API
   slug: neuvector-waf-rule-api
-artifact_total: 35
+artifact_total: 67
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NeuVector Admission API
+  slug: open-neuvector-admission-api
+- collection_type: open
+  name: NeuVector Apikey API
+  slug: open-neuvector-apikey-api
+- collection_type: open
+  name: NeuVector Authentication API
+  slug: open-neuvector-authentication-api
+- collection_type: open
+  name: NeuVector Compliance API
+  slug: open-neuvector-compliance-api
+- collection_type: open
+  name: NeuVector compliance profile. The payload body is the content of the compliance profile yaml file. API
+  slug: open-neuvector-compliance-profile-the-payload-body-is-the-content-of-the-compliance-profile-yaml-file-api
+- collection_type: open
+  name: NeuVector compliance profile. The payload body is the content of the vulnerability profile yaml file. API
+  slug: open-neuvector-compliance-profile-the-payload-body-is-the-content-of-the-vulnerability-profile-yaml-file-api
+- collection_type: open
+  name: NeuVector Container API
+  slug: open-neuvector-container-api
+- collection_type: open
+  name: NeuVector Controller API
+  slug: open-neuvector-controller-api
+- collection_type: open
+  name: NeuVector DLP API
+  slug: open-neuvector-dlp-api
+- collection_type: open
+  name: NeuVector Enforcer API
+  slug: open-neuvector-enforcer-api
+- collection_type: open
+  name: NeuVector EULA API
+  slug: open-neuvector-eula-api
+- collection_type: open
+  name: NeuVector Federation API
+  slug: open-neuvector-federation-api
+- collection_type: open
+  name: NeuVector File API
+  slug: open-neuvector-file-api
+- collection_type: open
+  name: NeuVector File Monitor API
+  slug: open-neuvector-file-monitor-api
+- collection_type: open
+  name: NeuVector Group API
+  slug: open-neuvector-group-api
+- collection_type: open
+  name: NeuVector Host API
+  slug: open-neuvector-host-api
+- collection_type: open
+  name: NeuVector Log API
+  slug: open-neuvector-log-api
+- collection_type: open
+  name: NeuVector Namespace API
+  slug: open-neuvector-namespace-api
+- collection_type: open
+  name: NeuVector Policy API
+  slug: open-neuvector-policy-api
+- collection_type: open
+  name: NeuVector Process API
+  slug: open-neuvector-process-api
+- collection_type: open
+  name: NeuVector Remote Export Repository API
+  slug: open-neuvector-remote-export-repository-api
+- collection_type: open
+  name: NeuVector Remote Repository API
+  slug: open-neuvector-remote-repository-api
+- collection_type: open
+  name: NeuVector Response Rule API
+  slug: open-neuvector-response-rule-api
+- collection_type: open
+  name: NeuVector Scan API
+  slug: open-neuvector-scan-api
+- collection_type: open
+  name: NeuVector Server API
+  slug: open-neuvector-server-api
+- collection_type: open
+  name: NeuVector Service API
+  slug: open-neuvector-service-api
+- collection_type: open
+  name: NeuVector Sniffer API
+  slug: open-neuvector-sniffer-api
+- collection_type: open
+  name: NeuVector System API
+  slug: open-neuvector-system-api
+- collection_type: open
+  name: NeuVector User API
+  slug: open-neuvector-user-api
+- collection_type: open
+  name: NeuVector Vulnerability API
+  slug: open-neuvector-vulnerability-api
+- collection_type: open
+  name: NeuVector WAF Rule API
+  slug: open-neuvector-waf-rule-api
 common:
 - group: auth
   title: ''
@@ -174,7 +271,7 @@ plans:
 - name: Neuvector Plans Pricing
   plan_count: 3
   slug: neuvector-plans-pricing
-random_paper: 27
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Neuvector Rate Limits
@@ -198,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/screenshots/neuvector-2026-06-20T190220.png
 security:

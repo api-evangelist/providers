@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 13
@@ -160,7 +160,7 @@ arazzos:
 - description: Create an org-overridable feature flag and set its value for one organization.
   name: Kinde Roll Out Feature Flag to Organization
   slug: kinde-rollout-feature-flag-workflow
-artifact_total: 70
+artifact_total: 101
 collections:
 - collection_type: postman
   name: Kinde Account API
@@ -169,11 +169,104 @@ collections:
   name: Kinde Management API
   slug: postman-kinde-management-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kinde Account API Keys API
+  slug: open-kinde-api-keys-api
+- collection_type: open
+  name: Kinde Account API Keys APIs API
+  slug: open-kinde-apis-api
+- collection_type: open
+  name: Kinde Account API Keys Applications API
+  slug: open-kinde-applications-api
+- collection_type: open
+  name: Kinde Account API Keys Billing Agreements API
+  slug: open-kinde-billing-agreements-api
+- collection_type: open
+  name: Kinde Account API Keys Billing API
+  slug: open-kinde-billing-api
+- collection_type: open
+  name: Kinde Account API Keys Billing Entitlements API
+  slug: open-kinde-billing-entitlements-api
+- collection_type: open
+  name: Kinde Account API Keys Billing Meter Usage API
+  slug: open-kinde-billing-meter-usage-api
+- collection_type: open
+  name: Kinde Account API Keys Business API
+  slug: open-kinde-business-api
+- collection_type: open
+  name: Kinde Account API Keys Callbacks API
+  slug: open-kinde-callbacks-api
+- collection_type: open
+  name: Kinde Account API Keys Connected Apps API
+  slug: open-kinde-connected-apps-api
+- collection_type: open
+  name: Kinde Account API Keys Connections API
+  slug: open-kinde-connections-api
+- collection_type: open
+  name: Kinde Account API Keys Directories API
+  slug: open-kinde-directories-api
+- collection_type: open
+  name: Kinde Account API Keys Environment variables API
+  slug: open-kinde-environment-variables-api
+- collection_type: open
+  name: Kinde Account API Keys Environments API
+  slug: open-kinde-environments-api
+- collection_type: open
+  name: Kinde Account API Keys Feature flags API
+  slug: open-kinde-feature-flags-api
+- collection_type: open
   name: Kinde Account API
   slug: open-kinde-frontend-api
 - collection_type: open
+  name: Kinde Account API Keys Identities API
+  slug: open-kinde-identities-api
+- collection_type: open
+  name: Kinde Account API Keys Industries API
+  slug: open-kinde-industries-api
+- collection_type: open
   name: Kinde Management API
   slug: open-kinde-management-api
+- collection_type: open
+  name: Kinde Account API Keys MFA API
+  slug: open-kinde-mfa-api
+- collection_type: open
+  name: Kinde Account API Keys OAuth API
+  slug: open-kinde-oauth-api
+- collection_type: open
+  name: Kinde Account API Keys Organizations API
+  slug: open-kinde-organizations-api
+- collection_type: open
+  name: Kinde Account API Keys Permissions API
+  slug: open-kinde-permissions-api
+- collection_type: open
+  name: Kinde Account API Keys Properties API
+  slug: open-kinde-properties-api
+- collection_type: open
+  name: Kinde Account API Keys Property Categories API
+  slug: open-kinde-property-categories-api
+- collection_type: open
+  name: Kinde Account API Keys Roles API
+  slug: open-kinde-roles-api
+- collection_type: open
+  name: Kinde Account API Keys Search API
+  slug: open-kinde-search-api
+- collection_type: open
+  name: Kinde Account API Keys Self-serve portal API
+  slug: open-kinde-self-serve-portal-api
+- collection_type: open
+  name: Kinde Account API Keys Subscribers API
+  slug: open-kinde-subscribers-api
+- collection_type: open
+  name: Kinde Account API Keys Timezones API
+  slug: open-kinde-timezones-api
+- collection_type: open
+  name: Kinde Account API Keys Users API
+  slug: open-kinde-users-api
+- collection_type: open
+  name: Kinde Account API Keys Webhooks API
+  slug: open-kinde-webhooks-api
 common:
 - group: agent
   title: ''
@@ -555,7 +648,7 @@ plans:
 - name: Kinde Plans Pricing
   plan_count: 5
   slug: kinde-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Kinde Rate Limits
@@ -597,7 +690,7 @@ score:
       marker_coverage: 0.0
       total: 30
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/screenshots/kinde-2026-06-20T184038.png
 security:

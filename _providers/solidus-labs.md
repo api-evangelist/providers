@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Address API API from Solidus Labs — 1 operation(s) for address api.
@@ -43,11 +43,36 @@ apis:
 - description: The Webhooks API API from Solidus Labs — 2 operation(s) for webhooks api.
   name: Solidus Labs Webhooks API API
   slug: solidus-labs-webhooks-api-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Solidus Labs Tokensniffer Webhooks
   slug: solidus-labs-tokensniffer-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Address Address API API
+  slug: open-solidus-labs-address-api-api
+- collection_type: open
+  name: Chain Chain API API
+  slug: open-solidus-labs-chain-api-api
+- collection_type: open
+  name: Token Corrections API
+  slug: open-solidus-labs-corrections-api
+- collection_type: open
+  name: Solidus Labs Latest API
+  slug: open-solidus-labs-latest-api
+- collection_type: open
+  name: Solidus Labs Scams API
+  slug: open-solidus-labs-scams-api
+- collection_type: open
+  name: Token Token API API
+  slug: open-solidus-labs-token-api-api
+- collection_type: open
+  name: Webhooks Webhooks API API
+  slug: open-solidus-labs-webhooks-api-api
 common:
 - group: other
   title: ''
@@ -213,7 +238,7 @@ plans:
 - name: Solidus Labs Plans
   plan_count: 2
   slug: solidus-labs-plans
-random_paper: 34
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Solidus Labs Rate Limits
@@ -240,7 +265,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

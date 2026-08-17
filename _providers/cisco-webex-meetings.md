@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -81,8 +81,23 @@ apis:
 - description: The Transcripts API from Cisco Webex Meetings — 1 operation(s) for transcripts.
   name: Cisco Webex Meetings Transcripts API
   slug: cisco-webex-meetings-transcripts-api
-artifact_total: 23
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cisco Webex Meetings Invitees API
+  slug: open-cisco-webex-meetings-invitees-api
+- collection_type: open
+  name: Cisco Webex Invitees Meetings API
+  slug: open-cisco-webex-meetings-meetings-api
+- collection_type: open
+  name: Cisco Webex Meetings Invitees Recordings API
+  slug: open-cisco-webex-meetings-recordings-api
+- collection_type: open
+  name: Cisco Webex Meetings Invitees Transcripts API
+  slug: open-cisco-webex-meetings-transcripts-api
 - collection_type: open
   name: Cisco Webex Meetings API
   slug: open-cisco-webex-meetings
@@ -195,7 +210,7 @@ plans:
 - name: Cisco Webex Meetings Plans Pricing
   plan_count: 3
   slug: cisco-webex-meetings-plans-pricing
-random_paper: 98
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Cisco Webex Meetings Rate Limits
@@ -229,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/screenshots/cisco-webex-meetings-2026-06-20T174406.png
 security:

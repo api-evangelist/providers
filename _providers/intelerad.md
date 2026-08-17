@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: The Webhook API from Intelerad — 1 operation(s) for webhook.
   name: Intelerad Webhook API
   slug: intelerad-webhook-api
-artifact_total: 16
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: InteleShare / Ambra v3 Services API (Modeled) HL7 API
+  slug: open-intelerad-hl7-api
+- collection_type: open
+  name: InteleShare / Ambra v3 Services API (Modeled) HL7 Namespace API
+  slug: open-intelerad-namespace-api
+- collection_type: open
+  name: InteleShare / Ambra v3 Services API (Modeled) HL7 Order API
+  slug: open-intelerad-order-api
+- collection_type: open
+  name: InteleShare / Ambra v3 Services API (Modeled) HL7 Patient API
+  slug: open-intelerad-patient-api
+- collection_type: open
+  name: InteleShare / Ambra v3 Services API (Modeled) HL7 Report API
+  slug: open-intelerad-report-api
+- collection_type: open
+  name: InteleShare / Ambra v3 Services API (Modeled) HL7 Session API
+  slug: open-intelerad-session-api
+- collection_type: open
+  name: InteleShare / Ambra v3 Services API (Modeled) HL7 Storage API
+  slug: open-intelerad-storage-api
+- collection_type: open
+  name: InteleShare / Ambra v3 Services API (Modeled) HL7 Study API
+  slug: open-intelerad-study-api
+- collection_type: open
+  name: InteleShare / Ambra v3 Services API (Modeled) HL7 Webhook API
+  slug: open-intelerad-webhook-api
 common:
 - group: agent
   title: ''
@@ -132,7 +163,7 @@ plans:
 - name: Intelerad Plans Pricing
   plan_count: 1
   slug: intelerad-plans-pricing
-random_paper: 112
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Intelerad Rate Limits
@@ -163,7 +194,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/screenshots/intelerad-2026-07-25T222644.png
 security:

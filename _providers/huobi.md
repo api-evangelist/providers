@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Seychelles based cryptocurrency exchange
@@ -59,7 +59,7 @@ overview: 'Huobi publishes 1 API on the [APIs.io](https://apis.io/) network: Huo
 
 
   The Huobi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 55
+random_paper: 88
 rules:
 - name: Huobi API Rules
   rule_count: 7
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 25.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huobi/refs/heads/main/screenshots/huobi-2026-06-20T182957.png
 slug: huobi

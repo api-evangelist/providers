@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -77,7 +77,50 @@ apis:
 - description: Operations involving verifiable credentials
   name: Tradeverifyd Verifiable Credentials API
   slug: tradeverifyd-verifiable-credentials-api
-artifact_total: 18
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tradeverifyd Documents API
+  slug: open-tradeverifyd-documents-api
+- collection_type: open
+  name: Tradeverifyd Documents Entity API
+  slug: open-tradeverifyd-entity-api
+- collection_type: open
+  name: Tradeverifyd Documents Flags API
+  slug: open-tradeverifyd-flags-api
+- collection_type: open
+  name: Tradeverifyd Documents Organizations API
+  slug: open-tradeverifyd-organizations-api
+- collection_type: open
+  name: Tradeverifyd Documents Relationships API
+  slug: open-tradeverifyd-relationships-api
+- collection_type: open
+  name: Tradeverifyd Documents Reports API
+  slug: open-tradeverifyd-reports-api
+- collection_type: open
+  name: Tradeverifyd Documents Risk Events API
+  slug: open-tradeverifyd-risk-events-api
+- collection_type: open
+  name: Tradeverifyd Documents SCITT Reference APIs API
+  slug: open-tradeverifyd-scitt-reference-apis-api
+- collection_type: open
+  name: Tradeverifyd Documents Shipments API
+  slug: open-tradeverifyd-shipments-api
+- collection_type: open
+  name: Tradeverifyd Documents System API
+  slug: open-tradeverifyd-system-api
+- collection_type: open
+  name: Tradeverifyd Documents Transparency Log API
+  slug: open-tradeverifyd-transparency-log-api
+- collection_type: open
+  name: Tradeverifyd Documents US Customs API
+  slug: open-tradeverifyd-us-customs-api
+- collection_type: open
+  name: Tradeverifyd Documents Verifiable Credentials API
+  slug: open-tradeverifyd-verifiable-credentials-api
 common:
 - group: other
   title: ''
@@ -207,7 +250,7 @@ overview: 'Tradeverifyd publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Tradeverifyd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, code examples, authentication, and 21 more developer resources.'
-random_paper: 89
+random_paper: 97
 score:
   band: developing
   composite: 47.5
@@ -231,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

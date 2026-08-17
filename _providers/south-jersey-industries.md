@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The South Jersey Industries API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: South Jersey Industries Plans Pricing
   plan_count: 1
   slug: south-jersey-industries-plans-pricing
-random_paper: 9
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: South Jersey Industries Rate Limits
@@ -89,7 +89,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/south-jersey-industries/refs/heads/main/screenshots/south-jersey-industries-2026-06-20T194227.png
 security:

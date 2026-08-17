@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -25,16 +25,16 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-12'
+  score: 45.5
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST Admin API (and GraphQL Admin API) for building apps, themes, and payment gateways on ShopBase — products, orders, transactions, fulfillments, customers, inventory, checkouts, shipping, price rule
   name: ShopBase Admin API
   slug: shopbase-admin-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Beeketing Webhooks
@@ -142,28 +142,68 @@ common:
   url: security/beeketing-domain-security.yml
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/beeketing-well-known.yml
-- group: agent
-  title: ''
   type: LLMsTxt
   url: llms/beeketing-llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/beeketing-shopbase-admin-openapi.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beeketing-shopbase-admin-overlay.yaml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/beeketing-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/beeketing-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/beeketing-cli.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/beeketing-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/beeketing-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://updates.shopbase.com/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://ideas.shopbase.com/
 created: '2026-07-17'
-description: 'Beeketing began as a Vietnam-founded e-commerce marketing startup (backed by 500 Global) that built conversion-optimization apps for Shopify and other online stores, and evolved into OpenCommerce Group — the operator of ShopBase, a cross-border commerce platform serving 100,000+ merchants across 195 countries alongside PrintBase and PlusBase. The developer surface is the ShopBase Developer Platform: a Shopify-style REST Admin API (plus a GraphQL Admin API) for building public and private apps, themes, and payment gateways. It is secured with OAuth 2.0 authorization-code flow (public apps) or HTTP Basic auth (private apps), scoped with granular access scopes, and supports webhooks, leaky-bucket rate limiting, an app/theme store, and a Storefront SDK.'
+description: 'Beeketing began as a Vietnam-founded e-commerce marketing startup (backed by 500 Global) that built conversion-optimization apps for Shopify and other online stores, and evolved into OpenCommerce Group — the operator of ShopBase, a cross-border commerce platform serving 100,000+ merchants across 195 countries alongside PrintBase and PlusBase. The developer surface is the ShopBase Developer Platform: a Shopify-style REST Admin API (plus a GraphQL Admin API) for building public and private apps, themes, and payment gateways. It is secured with OAuth 2.0 authorization-code flow (public apps) or HTTP Basic auth (private apps), scoped with granular access scopes, and supports webhooks, leaky-bucket rate limiting, an app/theme store, and a Storefront SDK. A machine-readable contract is published: a Swagger 2.0 document of 97 paths, 153 operations and 268 definitions, served at https://api-doc.shopbase.com/public-swagger.json and rendered with ReDoc.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beeketing.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Beeketing
 nav: Providers
 network: true
-overview: 'Beeketing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Cross-border Commerce, Marketing, and Shopify Apps.
+overview: 'Beeketing publishes 1 API on the [APIs.io](https://apis.io/) network: ShopBase Admin API. Tagged areas include Company, E-commerce, Cross-border Commerce, Marketing, and Shopify Apps.
 
 
   The Beeketing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beeketing''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 102
+  Beeketing''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Beeketing Plans Pricing
+  plan_count: 3
+  slug: beeketing-plans-pricing
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Beeketing Rate Limits
@@ -174,16 +214,16 @@ scopes:
   slug: beeketing-scopes
   summary_line: 24 scopes · authorizationCode
 score:
-  band: developing
-  composite: 50.0
-  delta: 0.0
+  band: strong
+  composite: 61.4
+  delta: 11.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 58.7
-    discoverability: 75.9
-    governance: 12.5
-    operational_transparency: 50.0
+    commercial_clarity: 76.3
+    contract_quality: 50.0
+    developer_ergonomics: 71.7
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 71.1
   previous_composite: 50.0
   provenance:
     conformance: first-party
@@ -194,14 +234,14 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/screenshots/beeketing-2026-07-25T202630.png
 security:
 - kind: authentication
   name: Beeketing Authentication
   slug: beeketing-authentication
-  summary_line: oauth2/http · 2 schemes
+  summary_line: oauth2/http/apiKey · 5 schemes
 - kind: domain-security
   name: Beeketing Domain Security
   slug: beeketing-domain-security

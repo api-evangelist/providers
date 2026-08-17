@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The authorization endpoints provide a token that will allow your service or application to call Kroger APIs.
@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Kroger and Instacart Announce Expanded Relationship ...
   url: https://ir.kroger.com/news/news-details/2025/Kroger-and-Instacart-Announce-Expanded-Relationship-Investing-in-AI-to-Simplify-Customer-Experience-Improve-Efficiency/default.aspx
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Kroger Rate Limits
@@ -149,7 +149,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/screenshots/kroger-2026-06-20T184156.png
 security:

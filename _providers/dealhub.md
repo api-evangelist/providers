@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Retrieve quotes and quote documents from DealHub, list quotes for a CRM opportunity, create renewal opportunities and read DealRoom signer status. The read side of the CPQ platform used to feed BI sys
@@ -55,11 +55,45 @@ apis:
 - description: 'The endpoint contract a DealHub customer implements so DealHub can retrieve real-time product prices and attributes from an external system such as an ERP while a quote is being generated. The server '
   name: DealHub Callout API (inbound callback contract)
   slug: dealhub-callout-api
-artifact_total: 19
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Dealhub Webhooks
   slug: dealhub-webhooks
+collections:
+- collection_type: open
+  name: Callout API
+  slug: open-dealhub-callout-api
+- collection_type: open
+  name: CRM API
+  slug: open-dealhub-crm-api
+- collection_type: open
+  name: CRM Import API
+  slug: open-dealhub-crm-import-api
+- collection_type: open
+  name: External Query
+  slug: open-dealhub-external-query
+- collection_type: open
+  name: Headless API
+  slug: open-dealhub-headless-api
+- collection_type: open
+  name: Partner API
+  slug: open-dealhub-partner-api
+- collection_type: open
+  name: Pricing API
+  slug: open-dealhub-pricing-api
+- collection_type: open
+  name: Quote API
+  slug: open-dealhub-quote-api
+- collection_type: open
+  name: Subskribe API
+  slug: open-dealhub-subskribe-api
+- collection_type: open
+  name: User API
+  slug: open-dealhub-user-api
+- collection_type: open
+  name: Version API
+  slug: open-dealhub-version-api
 common:
 - group: auth
   title: ''
@@ -209,7 +243,7 @@ plans:
 - name: Dealhub Plans Pricing
   plan_count: 0
   slug: dealhub-plans-pricing
-random_paper: 5
+random_paper: 129
 rate_limits:
 - limit_count: 0
   name: Dealhub Rate Limits
@@ -217,6 +251,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.1
@@ -224,8 +259,10 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 18.4
+  previous_composite: 54.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Dealhub Authentication

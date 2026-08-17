@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'FineDine is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FineDine''s developer surface includes pricing, signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 114
+random_paper: 89
 score:
   band: emerging
   composite: 16.0
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finedine/refs/heads/main/screenshots/finedine-2026-07-25T214517.png
 security:

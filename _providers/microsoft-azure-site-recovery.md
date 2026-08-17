@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -48,8 +48,17 @@ apis:
 - description: Manage replication protected items in a Recovery Services vault
   name: Azure Site Recovery ReplicationProtectedItems API
   slug: microsoft-azure-site-recovery-replicationprotecteditems-api
-artifact_total: 11
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Site Recovery REST RecoveryPlans API
+  slug: open-microsoft-azure-site-recovery-recoveryplans-api
+- collection_type: open
+  name: Azure Site Recovery REST RecoveryPlans ReplicationProtectedItems API
+  slug: open-microsoft-azure-site-recovery-replicationprotecteditems-api
 - collection_type: open
   name: Azure Site Recovery REST API
   slug: open-microsoft-azure-site-recovery
@@ -138,7 +147,7 @@ plans:
 - name: Microsoft Azure Site Recovery Plans Pricing
   plan_count: 3
   slug: microsoft-azure-site-recovery-plans-pricing
-random_paper: 104
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Site Recovery Rate Limits
@@ -168,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/screenshots/microsoft-azure-site-recovery-2026-06-20T185437.png
 security:

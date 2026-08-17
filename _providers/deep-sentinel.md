@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Deep Sentinel store. A live, anonymous Model Context Protocol endpoint exposing thirteen catalog, cart, checkout and order tools, implementing the Universal Co
@@ -143,7 +143,7 @@ plans:
 - name: Deep Sentinel Plans Pricing
   plan_count: 6
   slug: deep-sentinel-plans-pricing
-random_paper: 5
+random_paper: 133
 scopes:
 - name: Deep Sentinel Scopes
   scope_count: 4
@@ -152,6 +152,7 @@ scopes:
 score:
   band: thin
   composite: 34.4
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -159,8 +160,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Deep Sentinel Authentication

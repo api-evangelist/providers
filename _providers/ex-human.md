@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Text to Speech API from Ex-Human — 1 operation(s) for text to speech.
   name: Ex-Human Text to Speech API
   slug: ex-human-text-to-speech-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ex-Human animations API
+  slug: open-ex-human-animations-api
+- collection_type: open
+  name: Ex-Human animations chatbot API
+  slug: open-ex-human-chatbot-api
+- collection_type: open
+  name: Ex-Human animations Image Generation API
+  slug: open-ex-human-image-generation-api
+- collection_type: open
+  name: Ex-Human animations Text to Speech API
+  slug: open-ex-human-text-to-speech-api
 common:
 - group: other
   title: ''
@@ -168,7 +184,7 @@ overview: 'Ex-Human publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ex-Human''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 83
+random_paper: 58
 score:
   band: developing
   composite: 45.9
@@ -192,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/screenshots/ex-human-2026-07-25T213827.png
 security:

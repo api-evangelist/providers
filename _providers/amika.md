@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The API keys API from Amika — 2 operation(s) for api keys.
@@ -67,7 +67,47 @@ apis:
 - description: The Uploads API from Amika — 2 operation(s) for uploads.
   name: Amika Uploads API
   slug: amika-uploads-api
-artifact_total: 15
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amika API — v0beta1 API keys API
+  slug: open-amika-api-keys-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Docker registries API
+  slug: open-amika-docker-registries-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Downloads API
+  slug: open-amika-downloads-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Git user settings API
+  slug: open-amika-git-user-settings-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Integrations API
+  slug: open-amika-integrations-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Repositories API
+  slug: open-amika-repositories-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Sandboxes API
+  slug: open-amika-sandboxes-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys SandboxSnapshots API
+  slug: open-amika-sandboxsnapshots-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Secrets API
+  slug: open-amika-secrets-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Services API
+  slug: open-amika-services-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Slack API
+  slug: open-amika-slack-api
+- collection_type: open
+  name: Amika API — v0beta1 API keys Uploads API
+  slug: open-amika-uploads-api
 common:
 - group: other
   title: ''
@@ -213,7 +253,7 @@ overview: 'Amika publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amika''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, pricing, signup flow, and 25 more developer resources.'
-random_paper: 35
+random_paper: 68
 score:
   band: developing
   composite: 46.1
@@ -236,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/screenshots/amika-2026-07-25T200103.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Video Emotion Analysis API by Imentiv analyzes the emotional states of individuals in a video. It performs multi-modal emotion detection using facial expressions, audio, and text transcript, and h
   name: Imentiv AI Video Emotion API API
   slug: imentiv-ai-video-emotion-api-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Welcome to Imentiv AI AI Insights API API
+  slug: open-imentiv-ai-ai-insights-api-api
+- collection_type: open
+  name: Welcome to Imentiv AI AI Insights API Audio Emotion API API
+  slug: open-imentiv-ai-audio-emotion-api-api
+- collection_type: open
+  name: Welcome to Imentiv AI AI Insights API Image Emotion API API
+  slug: open-imentiv-ai-image-emotion-api-api
+- collection_type: open
+  name: Welcome to Imentiv AI AI Insights API Report API API
+  slug: open-imentiv-ai-report-api-api
+- collection_type: open
+  name: Welcome to Imentiv AI AI Insights API Text Emotion API API
+  slug: open-imentiv-ai-text-emotion-api-api
+- collection_type: open
+  name: Welcome to Imentiv AI AI Insights API Video Emotion API API
+  slug: open-imentiv-ai-video-emotion-api-api
 - collection_type: open
   name: Welcome to Imentiv AI
   slug: open-imentiv-ai
@@ -103,7 +124,7 @@ plans:
 - name: Imentiv Ai Plans Pricing
   plan_count: 3
   slug: imentiv-ai-plans-pricing
-random_paper: 51
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Imentiv Ai Rate Limits
@@ -128,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/screenshots/imentiv-ai-2026-06-20T183248.png
 security:

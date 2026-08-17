@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -102,8 +102,71 @@ apis:
 - description: The Watch API from The Movie Database — 3 operation(s) for watch.
   name: The Movie Database Watch API
   slug: the-movie-database-watch-api
-artifact_total: 37
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: tmdb-api Account API
+  slug: open-the-movie-database-account-api
+- collection_type: open
+  name: tmdb-api Account Authentication API
+  slug: open-the-movie-database-authentication-api
+- collection_type: open
+  name: tmdb-api Account Certification API
+  slug: open-the-movie-database-certification-api
+- collection_type: open
+  name: tmdb-api Account Collection API
+  slug: open-the-movie-database-collection-api
+- collection_type: open
+  name: tmdb-api Account Company API
+  slug: open-the-movie-database-company-api
+- collection_type: open
+  name: tmdb-api Account Configuration API
+  slug: open-the-movie-database-configuration-api
+- collection_type: open
+  name: tmdb-api Account Credit API
+  slug: open-the-movie-database-credit-api
+- collection_type: open
+  name: tmdb-api Account Discover API
+  slug: open-the-movie-database-discover-api
+- collection_type: open
+  name: tmdb-api Account Find API
+  slug: open-the-movie-database-find-api
+- collection_type: open
+  name: tmdb-api Account Genre API
+  slug: open-the-movie-database-genre-api
+- collection_type: open
+  name: tmdb-api Account Guest Session API
+  slug: open-the-movie-database-guest-session-api
+- collection_type: open
+  name: tmdb-api Account Keyword API
+  slug: open-the-movie-database-keyword-api
+- collection_type: open
+  name: tmdb-api Account List API
+  slug: open-the-movie-database-list-api
+- collection_type: open
+  name: tmdb-api Account Movie API
+  slug: open-the-movie-database-movie-api
+- collection_type: open
+  name: tmdb-api Account Network API
+  slug: open-the-movie-database-network-api
+- collection_type: open
+  name: tmdb-api Account Person API
+  slug: open-the-movie-database-person-api
+- collection_type: open
+  name: tmdb-api Account Search API
+  slug: open-the-movie-database-search-api
+- collection_type: open
+  name: tmdb-api Account Trending API
+  slug: open-the-movie-database-trending-api
+- collection_type: open
+  name: tmdb-api Account Tv API
+  slug: open-the-movie-database-tv-api
+- collection_type: open
+  name: tmdb-api Account Watch API
+  slug: open-the-movie-database-watch-api
 - collection_type: open
   name: tmdb-api
   slug: open-the-movie-database
@@ -205,7 +268,7 @@ plans:
 - name: The Movie Database Plans Pricing
   plan_count: 3
   slug: the-movie-database-plans-pricing
-random_paper: 96
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: The Movie Database Rate Limits
@@ -247,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-movie-database/refs/heads/main/screenshots/the-movie-database-2026-06-20T195224.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 19
@@ -66,7 +66,32 @@ arazzos:
 - description: Resolve a team, create an Issue on its list, then mark it solved.
   name: Log and Solve a Ninety Issue
   slug: ninetyio-log-and-solve-issue
-artifact_total: 14
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ninety Public Issues API
+  slug: open-ninetyio-issues-api
+- collection_type: open
+  name: Ninety Public Issues Milestones API
+  slug: open-ninetyio-milestones-api
+- collection_type: open
+  name: Ninety Public Issues Rocks API
+  slug: open-ninetyio-rocks-api
+- collection_type: open
+  name: Ninety Public Issues Scorecard API
+  slug: open-ninetyio-scorecard-api
+- collection_type: open
+  name: Ninety Public Issues Teams API
+  slug: open-ninetyio-teams-api
+- collection_type: open
+  name: Ninety Public Issues To-Dos API
+  slug: open-ninetyio-to-dos-api
+- collection_type: open
+  name: Ninety Public Issues Users API
+  slug: open-ninetyio-users-api
 common:
 - group: company
   title: ''
@@ -208,7 +233,7 @@ overview: 'Ninety.io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ninety.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 39
+random_paper: 134
 score:
   band: developing
   composite: 46.6
@@ -232,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/screenshots/ninetyio-2026-08-07T185322.png
 security:

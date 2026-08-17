@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 10
@@ -182,14 +182,149 @@ apis:
 - description: The Webhooks API from Wowza — 6 operation(s) for webhooks.
   name: Wowza Webhooks API
   slug: wowza-webhooks-api
-artifact_total: 96
+artifact_total: 141
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication API
+  slug: open-wowza-advanced-token-authentication-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication analytics_engagement API
+  slug: open-wowza-analytics-engagement-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication analytics_ingest API
+  slug: open-wowza-analytics-ingest-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication analytics_popularity API
+  slug: open-wowza-analytics-popularity-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication analytics_viewers API
+  slug: open-wowza-analytics-viewers-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Applications API
+  slug: open-wowza-applications-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication assets API
+  slug: open-wowza-assets-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication categories API
+  slug: open-wowza-categories-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication clipping API
+  slug: open-wowza-clipping-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication live_streams API
+  slug: open-wowza-live-streams-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Machine Stats API
+  slug: open-wowza-machine-stats-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication players API
+  slug: open-wowza-players-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication quality_of_experience API
+  slug: open-wowza-quality-of-experience-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication real_time API
+  slug: open-wowza-real-time-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication recordings API
+  slug: open-wowza-recordings-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication REST information API
+  slug: open-wowza-rest-information-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication schedules API
+  slug: open-wowza-schedules-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server Licenses API
+  slug: open-wowza-server-licenses-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server Listeners API
+  slug: open-wowza-server-listeners-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server log4j system API
+  slug: open-wowza-server-log4j-system-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server MediaCache API
+  slug: open-wowza-server-mediacache-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server MediaCache Version 3 API
+  slug: open-wowza-server-mediacache-version-3-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server MediaCasters API
+  slug: open-wowza-server-mediacasters-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server Monitoring API
+  slug: open-wowza-server-monitoring-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server Publishers API
+  slug: open-wowza-server-publishers-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server Publishers Version 3 API
+  slug: open-wowza-server-publishers-version-3-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server Status API
+  slug: open-wowza-server-status-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server Transcoder API
+  slug: open-wowza-server-transcoder-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server Tuning API
+  slug: open-wowza-server-tuning-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Server Users API
+  slug: open-wowza-server-users-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Servers Configuration API
+  slug: open-wowza-servers-configuration-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication storage API
+  slug: open-wowza-storage-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication stream_sources API
+  slug: open-wowza-stream-sources-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication stream_targets API
+  slug: open-wowza-stream-targets-api
 - collection_type: open
   name: Wowza Streaming Engine REST API
   slug: open-wowza-streaming-engine
 - collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication transcoders API
+  slug: open-wowza-transcoders-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication usage_account API
+  slug: open-wowza-usage-account-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication usage API
+  slug: open-wowza-usage-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication usage_real_time_streams API
+  slug: open-wowza-usage-real-time-streams-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication usage_transcoders API
+  slug: open-wowza-usage-transcoders-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication usage_vod_streams API
+  slug: open-wowza-usage-vod-streams-api
+- collection_type: open
   name: Wowza Video REST API Reference Documentation
   slug: open-wowza-video
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication videos API
+  slug: open-wowza-videos-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Virtual Hosts API
+  slug: open-wowza-virtual-hosts-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication vod_streams API
+  slug: open-wowza-vod-streams-api
+- collection_type: open
+  name: Wowza Streaming Engine REST advanced_token_authentication Webhooks API
+  slug: open-wowza-webhooks-api
 common:
 - group: agent
   title: ''
@@ -392,7 +527,7 @@ overview: 'Wowza publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Wowza''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, pricing, and 26 more developer resources.'
-random_paper: 88
+random_paper: 121
 score:
   band: developing
   composite: 45.2
@@ -413,7 +548,7 @@ score:
       marker_coverage: 0.0
       total: 44
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/screenshots/wowza-2026-06-20T201630.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ arazzos:
 - description: Upload a Word document to OneDrive, confirm its metadata, and generate an organization sharing link.
   name: Microsoft Word Upload and Share Document
   slug: microsoft-word-upload-and-share-workflow
-artifact_total: 90
+artifact_total: 109
 collections:
 - collection_type: postman
   name: Microsoft Graph Word API
@@ -145,6 +145,63 @@ collections:
 - collection_type: postman
   name: Microsoft Word Open XML SDK
   slug: postman-microsoft-word-open-xml-sdk
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Word Body API
+  slug: open-microsoft-word-body-api
+- collection_type: open
+  name: Microsoft Graph Word Body Checkout API
+  slug: open-microsoft-word-checkout-api
+- collection_type: open
+  name: Microsoft Graph Word Body Comments API
+  slug: open-microsoft-word-comments-api
+- collection_type: open
+  name: Microsoft Graph Word Body Content API
+  slug: open-microsoft-word-content-api
+- collection_type: open
+  name: Microsoft Graph Word Body Content Controls API
+  slug: open-microsoft-word-content-controls-api
+- collection_type: open
+  name: Microsoft Graph Word Body Documents API
+  slug: open-microsoft-word-documents-api
+- collection_type: open
+  name: Microsoft Graph Word Body Drive Items API
+  slug: open-microsoft-word-drive-items-api
+- collection_type: open
+  name: Microsoft Graph Word Body Headers And Footers API
+  slug: open-microsoft-word-headers-and-footers-api
+- collection_type: open
+  name: Microsoft Graph Word Body Images API
+  slug: open-microsoft-word-images-api
+- collection_type: open
+  name: Microsoft Graph Word Body Paragraphs API
+  slug: open-microsoft-word-paragraphs-api
+- collection_type: open
+  name: Microsoft Graph Word Body Permissions API
+  slug: open-microsoft-word-permissions-api
+- collection_type: open
+  name: Microsoft Graph Word Body Properties API
+  slug: open-microsoft-word-properties-api
+- collection_type: open
+  name: Microsoft Graph Word Body Search API
+  slug: open-microsoft-word-search-api
+- collection_type: open
+  name: Microsoft Graph Word Body Sections API
+  slug: open-microsoft-word-sections-api
+- collection_type: open
+  name: Microsoft Graph Word Body Styles API
+  slug: open-microsoft-word-styles-api
+- collection_type: open
+  name: Microsoft Graph Word Body Tables API
+  slug: open-microsoft-word-tables-api
+- collection_type: open
+  name: Microsoft Graph Word Body Thumbnails API
+  slug: open-microsoft-word-thumbnails-api
+- collection_type: open
+  name: Microsoft Graph Word Body Versions API
+  slug: open-microsoft-word-versions-api
 common:
 - group: operate
   title: ''
@@ -522,7 +579,7 @@ plans:
 - name: Microsoft Word Plans Pricing
   plan_count: 7
   slug: microsoft-word-plans-pricing
-random_paper: 31
+random_paper: 130
 rate_limits:
 - limit_count: 4
   name: Microsoft Word Rate Limits
@@ -571,7 +628,7 @@ score:
       total: 18
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png
 security:

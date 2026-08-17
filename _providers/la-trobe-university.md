@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,7 +50,17 @@ apis:
 - description: The collections API from La Trobe University — 4 operation(s) for collections.
   name: La Trobe University collections API
   slug: la-trobe-university-collections-api
-artifact_total: 16
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: La Trobe University OPAL (Figshare) Public articles API
+  slug: open-la-trobe-university-articles-api
+- collection_type: open
+  name: La Trobe University OPAL (Figshare) Public articles collections API
+  slug: open-la-trobe-university-collections-api
 common:
 - group: agent
   title: ''
@@ -128,7 +138,7 @@ plans:
 - name: La Trobe University Plans Pricing
   plan_count: 2
   slug: la-trobe-university-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: La Trobe University Rate Limits
@@ -176,7 +186,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/screenshots/la-trobe-university-2026-06-20T184236.png
 security:

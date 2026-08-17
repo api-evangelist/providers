@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-12'
+  score: 41.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -206,7 +206,179 @@ apis:
 - description: The YouTube API from NationGraph — 2 operation(s) for youtube.
   name: NationGraph YouTube API
   slug: nationgraph-youtube-api
-artifact_total: 61
+artifact_total: 121
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nationgraph Accounts API
+  slug: open-nationgraph-accounts-api
+- collection_type: open
+  name: Nationgraph Accounts Automations API
+  slug: open-nationgraph-automations-api
+- collection_type: open
+  name: Nationgraph Accounts Budgets API
+  slug: open-nationgraph-budgets-api
+- collection_type: open
+  name: Nationgraph Accounts Classifier API
+  slug: open-nationgraph-classifier-api
+- collection_type: open
+  name: Nationgraph Accounts Classifiers API
+  slug: open-nationgraph-classifiers-api
+- collection_type: open
+  name: Nationgraph Accounts Contacts API
+  slug: open-nationgraph-contacts-api
+- collection_type: open
+  name: Nationgraph Accounts Contracts API
+  slug: open-nationgraph-contracts-api
+- collection_type: open
+  name: Nationgraph Accounts CRM API
+  slug: open-nationgraph-crm-api
+- collection_type: open
+  name: Nationgraph Accounts CRM Automation Push API
+  slug: open-nationgraph-crm-automation-push-api
+- collection_type: open
+  name: Nationgraph Accounts CRM Companies API
+  slug: open-nationgraph-crm-companies-api
+- collection_type: open
+  name: Nationgraph Accounts CRM Contacts API
+  slug: open-nationgraph-crm-contacts-api
+- collection_type: open
+  name: Nationgraph Accounts CRM History API
+  slug: open-nationgraph-crm-history-api
+- collection_type: open
+  name: Nationgraph Accounts CRM Leads API
+  slug: open-nationgraph-crm-leads-api
+- collection_type: open
+  name: Nationgraph Accounts CRM Mappings API
+  slug: open-nationgraph-crm-mappings-api
+- collection_type: open
+  name: Nationgraph Accounts CRM Owners API
+  slug: open-nationgraph-crm-owners-api
+- collection_type: open
+  name: Nationgraph Accounts Default API
+  slug: open-nationgraph-default-api
+- collection_type: open
+  name: Nationgraph Accounts Dev API
+  slug: open-nationgraph-dev-api
+- collection_type: open
+  name: Nationgraph Accounts Document API
+  slug: open-nationgraph-document-api
+- collection_type: open
+  name: Nationgraph Accounts Email Sequences API
+  slug: open-nationgraph-email-sequences-api
+- collection_type: open
+  name: Nationgraph Accounts Email Templates API
+  slug: open-nationgraph-email-templates-api
+- collection_type: open
+  name: Nationgraph Accounts Enrichments API
+  slug: open-nationgraph-enrichments-api
+- collection_type: open
+  name: Nationgraph Accounts Export API
+  slug: open-nationgraph-export-api
+- collection_type: open
+  name: Nationgraph Accounts FOIA API
+  slug: open-nationgraph-foia-api
+- collection_type: open
+  name: Nationgraph Accounts Grants API
+  slug: open-nationgraph-grants-api
+- collection_type: open
+  name: Nationgraph Accounts Insights API
+  slug: open-nationgraph-insights-api
+- collection_type: open
+  name: Nationgraph Accounts Institutions API
+  slug: open-nationgraph-institutions-api
+- collection_type: open
+  name: Nationgraph Accounts Integrations API
+  slug: open-nationgraph-integrations-api
+- collection_type: open
+  name: Nationgraph Accounts Intent API
+  slug: open-nationgraph-intent-api
+- collection_type: open
+  name: Nationgraph Accounts Lists API
+  slug: open-nationgraph-lists-api
+- collection_type: open
+  name: Nationgraph Accounts Meeting Minutes API
+  slug: open-nationgraph-meeting-minutes-api
+- collection_type: open
+  name: Nationgraph Accounts Metadata API
+  slug: open-nationgraph-metadata-api
+- collection_type: open
+  name: Nationgraph Accounts Notes API
+  slug: open-nationgraph-notes-api
+- collection_type: open
+  name: Nationgraph Accounts Org Admin API
+  slug: open-nationgraph-org-admin-api
+- collection_type: open
+  name: Nationgraph Accounts Organization API
+  slug: open-nationgraph-organization-api
+- collection_type: open
+  name: Nationgraph Accounts Press Releases API
+  slug: open-nationgraph-press-releases-api
+- collection_type: open
+  name: Nationgraph Accounts Procurement Guidelines API
+  slug: open-nationgraph-procurement-guidelines-api
+- collection_type: open
+  name: Nationgraph Accounts Purchase Orders API
+  slug: open-nationgraph-purchase-orders-api
+- collection_type: open
+  name: Nationgraph Accounts Queue API
+  slug: open-nationgraph-queue-api
+- collection_type: open
+  name: Nationgraph Accounts RAG API
+  slug: open-nationgraph-rag-api
+- collection_type: open
+  name: Nationgraph Accounts RAG Files API
+  slug: open-nationgraph-rag-files-api
+- collection_type: open
+  name: Nationgraph Accounts RFPs API
+  slug: open-nationgraph-rfps-api
+- collection_type: open
+  name: Nationgraph Accounts Scheduling API
+  slug: open-nationgraph-scheduling-api
+- collection_type: open
+  name: Nationgraph Accounts Signal Settings API
+  slug: open-nationgraph-signal-settings-api
+- collection_type: open
+  name: Nationgraph Accounts Signals API
+  slug: open-nationgraph-signals-api
+- collection_type: open
+  name: Nationgraph Accounts Smart Columns API
+  slug: open-nationgraph-smart-columns-api
+- collection_type: open
+  name: Nationgraph Accounts Subscription API
+  slug: open-nationgraph-subscription-api
+- collection_type: open
+  name: Nationgraph Accounts Summary API
+  slug: open-nationgraph-summary-api
+- collection_type: open
+  name: Nationgraph Accounts Tags API
+  slug: open-nationgraph-tags-api
+- collection_type: open
+  name: Nationgraph Accounts Territories API
+  slug: open-nationgraph-territories-api
+- collection_type: open
+  name: Nationgraph Accounts User API
+  slug: open-nationgraph-user-api
+- collection_type: open
+  name: Nationgraph Accounts User Profile API
+  slug: open-nationgraph-user-profile-api
+- collection_type: open
+  name: Nationgraph Accounts VendorProducts API
+  slug: open-nationgraph-vendorproducts-api
+- collection_type: open
+  name: Nationgraph Accounts Views API
+  slug: open-nationgraph-views-api
+- collection_type: open
+  name: Nationgraph Accounts Webhooks API
+  slug: open-nationgraph-webhooks-api
+- collection_type: open
+  name: Nationgraph Accounts Workspaces API
+  slug: open-nationgraph-workspaces-api
+- collection_type: open
+  name: Nationgraph Accounts YouTube API
+  slug: open-nationgraph-youtube-api
 common:
 - group: agent
   title: ''
@@ -256,10 +428,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/nationgraph-domain-security.yml
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://api.nationgraph.com/docs
 - group: build
   title: ''
   type: GitHubOrganization
@@ -300,6 +468,22 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/nationgraph-scopes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/nationgraph-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/nationgraph-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/nationgraph-rate-limits.yml
 created: '2026-07-17'
 description: NationGraph is a public-sector sales intelligence platform that makes government buying legible to businesses selling into state, local, and education (SLED) markets. It indexes roughly 110,000 government institutions and ~4 million government webpages — council meeting minutes, budgets, purchase orders, contracts, capital improvement plans, and active RFPs — to surface predictive buying signals before a formal RFP is published. Its Signals product flags buying intent, Contacts matches verified government decision-makers with emails and phone numbers, and Public Record Automations run FOIA requests and structured document extraction into existing CRM and communications tools (Salesforce, HubSpot, Slack). Founded in 2024 (Miami, with Toronto and San Francisco offices), NationGraph has raised $22.5M, with a Series A led by Menlo Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nationgraph.png
@@ -308,24 +492,37 @@ mcp_servers:
 - description: ''
   name: nationgraph-mcp.yml
   slug: nationgraph-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: NationGraph
 nav: Providers
 network: true
 overview: 'NationGraph publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Automations API, Budgets API, and 53 more. Tagged areas include Company, Sales Intelligence, Public Sector, Government, and SLED.
 
 
-  NationGraph''s developer surface includes authentication, documentation, support, engineering blog, API reference, and 18 more developer resources.'
-random_paper: 99
+  NationGraph''s developer surface includes authentication, documentation, support, engineering blog, and 22 more developer resources.'
+plans:
+- name: Nationgraph Plans Pricing
+  plan_count: 0
+  slug: nationgraph-plans-pricing
+random_paper: 136
+rate_limits:
+- limit_count: 0
+  name: Nationgraph Rate Limits
+  slug: nationgraph-rate-limits
+scopes:
+- name: Nationgraph Scopes
+  scope_count: 0
+  slug: nationgraph-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 41.2
-  delta: 0.0
+  band: developing
+  composite: 43.8
+  delta: 2.6
   facets:
     commercial_clarity: 42.1
     contract_quality: 50.9
-    developer_ergonomics: 36.4
-    discoverability: 81.5
+    developer_ergonomics: 29.9
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 41.2
@@ -344,16 +541,16 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 55.6
+    score: 74.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/screenshots/nationgraph-2026-08-07T184651.png
 security:
 - kind: authentication
   name: Nationgraph Authentication
   slug: nationgraph-authentication
-  summary_line: http · 1 scheme
+  summary_line: oauth2/openIdConnect/http · 3 schemes
 - kind: domain-security
   name: Nationgraph Domain Security
   slug: nationgraph-domain-security

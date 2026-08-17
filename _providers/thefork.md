@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Retrieve guest review details.
   name: TheFork Reviews API
   slug: thefork-reviews-api
-artifact_total: 62
+artifact_total: 66
 collections:
 - collection_type: postman
   name: TheFork B2B Customers API
@@ -66,11 +66,23 @@ collections:
   name: TheFork B2B Customers Reviews API
   slug: postman-thefork-reviews-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: TheFork B2B API
   slug: open-thefork-b2b
 - collection_type: open
+  name: TheFork B2B Customers API
+  slug: open-thefork-customers-api
+- collection_type: open
+  name: TheFork B2B Customers Orders API
+  slug: open-thefork-orders-api
+- collection_type: open
   name: TheFork POS API
   slug: open-thefork-pos
+- collection_type: open
+  name: TheFork B2B Customers Reservations API
+  slug: open-thefork-reservations-api
 common:
 - group: build
   title: ''
@@ -277,7 +289,7 @@ plans:
 - name: Thefork Plans Pricing
   plan_count: 1
   slug: thefork-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Thefork Rate Limits
@@ -324,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/screenshots/thefork-2026-06-20T195245.png
 security:

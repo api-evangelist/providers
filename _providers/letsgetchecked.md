@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Version 1 of the LetsGetChecked Orders API. Create a pre-activated test-kit order against a client-supplied order identifier (PUT is documented as idempotent), query order status from dispatch through
@@ -193,7 +193,7 @@ overview: 'LetsGetChecked publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 
 
   LetsGetChecked''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
-random_paper: 31
+random_paper: 130
 score:
   band: developing
   composite: 50.0
@@ -215,7 +215,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/screenshots/letsgetchecked-2026-08-07T171554.png
 security:

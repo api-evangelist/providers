@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -170,7 +170,143 @@ apis:
 - description: The webhook API from BrightEdge Technologies — 2 operation(s) for webhook.
   name: BrightEdge Technologies webhook API
   slug: brightedge-technologies-webhook-api
-artifact_total: 48
+artifact_total: 93
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BrightEdge Platform accounts API
+  slug: open-brightedge-technologies-accounts-api
+- collection_type: open
+  name: BrightEdge Platform accounts ai_catalyst API
+  slug: open-brightedge-technologies-ai-catalyst-api
+- collection_type: open
+  name: BrightEdge Platform accounts autopilot API
+  slug: open-brightedge-technologies-autopilot-api
+- collection_type: open
+  name: BrightEdge Platform accounts backlinks API
+  slug: open-brightedge-technologies-backlinks-api
+- collection_type: open
+  name: BrightEdge Platform accounts be_local API
+  slug: open-brightedge-technologies-be-local-api
+- collection_type: open
+  name: BrightEdge Platform accounts budd API
+  slug: open-brightedge-technologies-budd-api
+- collection_type: open
+  name: BrightEdge Platform accounts bulk_export API
+  slug: open-brightedge-technologies-bulk-export-api
+- collection_type: open
+  name: BrightEdge Platform accounts chrome_extension API
+  slug: open-brightedge-technologies-chrome-extension-api
+- collection_type: open
+  name: BrightEdge Platform accounts Chrome Extension Keywords API
+  slug: open-brightedge-technologies-chrome-extension-keywords-api
+- collection_type: open
+  name: BrightEdge Platform accounts Chrome Extension Overview API
+  slug: open-brightedge-technologies-chrome-extension-overview-api
+- collection_type: open
+  name: BrightEdge Platform accounts chromeextension API
+  slug: open-brightedge-technologies-chromeextension-api
+- collection_type: open
+  name: BrightEdge Platform accounts competitors API
+  slug: open-brightedge-technologies-competitors-api
+- collection_type: open
+  name: BrightEdge Platform accounts core API
+  slug: open-brightedge-technologies-core-api
+- collection_type: open
+  name: BrightEdge Platform accounts datacube_searchengines API
+  slug: open-brightedge-technologies-datacube-searchengines-api
+- collection_type: open
+  name: BrightEdge Platform accounts dataset API
+  slug: open-brightedge-technologies-dataset-api
+- collection_type: open
+  name: BrightEdge Platform accounts domains API
+  slug: open-brightedge-technologies-domains-api
+- collection_type: open
+  name: BrightEdge Platform accounts instant API
+  slug: open-brightedge-technologies-instant-api
+- collection_type: open
+  name: BrightEdge Platform accounts keywordgroups API
+  slug: open-brightedge-technologies-keywordgroups-api
+- collection_type: open
+  name: BrightEdge Platform accounts keywords API
+  slug: open-brightedge-technologies-keywords-api
+- collection_type: open
+  name: BrightEdge Platform accounts Latest5 API
+  slug: open-brightedge-technologies-latest5-api
+- collection_type: open
+  name: BrightEdge Platform accounts legacy API
+  slug: open-brightedge-technologies-legacy-api
+- collection_type: open
+  name: BrightEdge Platform accounts marketinsights API
+  slug: open-brightedge-technologies-marketinsights-api
+- collection_type: open
+  name: BrightEdge Platform accounts marketo API
+  slug: open-brightedge-technologies-marketo-api
+- collection_type: open
+  name: BrightEdge Platform accounts organizations API
+  slug: open-brightedge-technologies-organizations-api
+- collection_type: open
+  name: BrightEdge Platform accounts paa per keyword API
+  slug: open-brightedge-technologies-paa-per-keyword-api
+- collection_type: open
+  name: BrightEdge Platform accounts page cache API
+  slug: open-brightedge-technologies-page-cache-api
+- collection_type: open
+  name: BrightEdge Platform accounts page crawl API
+  slug: open-brightedge-technologies-page-crawl-api
+- collection_type: open
+  name: BrightEdge Platform accounts Pages API
+  slug: open-brightedge-technologies-pages-api
+- collection_type: open
+  name: BrightEdge Platform accounts people_also_ask API
+  slug: open-brightedge-technologies-people-also-ask-api
+- collection_type: open
+  name: BrightEdge Platform accounts ping API
+  slug: open-brightedge-technologies-ping-api
+- collection_type: open
+  name: BrightEdge Platform accounts product_grid API
+  slug: open-brightedge-technologies-product-grid-api
+- collection_type: open
+  name: BrightEdge Platform accounts qa API
+  slug: open-brightedge-technologies-qa-api
+- collection_type: open
+  name: BrightEdge Platform accounts query API
+  slug: open-brightedge-technologies-query-api
+- collection_type: open
+  name: BrightEdge Platform accounts recommendations API
+  slug: open-brightedge-technologies-recommendations-api
+- collection_type: open
+  name: BrightEdge Platform accounts searchengines API
+  slug: open-brightedge-technologies-searchengines-api
+- collection_type: open
+  name: BrightEdge Platform accounts Serp Features API
+  slug: open-brightedge-technologies-serp-features-api
+- collection_type: open
+  name: BrightEdge Platform accounts time API
+  slug: open-brightedge-technologies-time-api
+- collection_type: open
+  name: BrightEdge Platform accounts top keywords for a domain API
+  slug: open-brightedge-technologies-top-keywords-for-a-domain-api
+- collection_type: open
+  name: BrightEdge Platform accounts top keywords per page API
+  slug: open-brightedge-technologies-top-keywords-per-page-api
+- collection_type: open
+  name: BrightEdge Platform accounts top pages API
+  slug: open-brightedge-technologies-top-pages-api
+- collection_type: open
+  name: BrightEdge Platform accounts user_settings API
+  slug: open-brightedge-technologies-user-settings-api
+- collection_type: open
+  name: BrightEdge Platform accounts users API
+  slug: open-brightedge-technologies-users-api
+- collection_type: open
+  name: BrightEdge Platform accounts web_vitals API
+  slug: open-brightedge-technologies-web-vitals-api
+- collection_type: open
+  name: BrightEdge Platform accounts webhook API
+  slug: open-brightedge-technologies-webhook-api
 common:
 - group: other
   title: ''
@@ -272,7 +408,7 @@ overview: 'BrightEdge Technologies publishes 44 APIs on the [APIs.io](https://ap
 
 
   BrightEdge Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 94
+random_paper: 139
 score:
   band: thin
   composite: 35.9
@@ -296,7 +432,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/screenshots/brightedge-technologies-2026-07-25T203841.png
 security:

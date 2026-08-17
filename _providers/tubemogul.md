@@ -27,36 +27,81 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tubemogul-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://tubemogul.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/tubemogul
+- group: build
+  title: ''
+  type: Packages
+  url: packages/tubemogul-packages.yml
+coverage:
+  checked: '2026-08-13'
+  detail: TubeMogul was absorbed into Adobe Advertising Cloud after the 2016 acquisition — tubemogul.com now 301s to advertising.adobe.com/auth/login, and the old Ad Platform API host api.tubemogul.com answers HTTP 503 "No server is available to handle this request." on every path, so the API tier has no backend left to document.
+  evidence:
+  - status: 301
+    url: https://tubemogul.com/
+  - status: 503
+    url: https://api.tubemogul.com/openapi.json
+  - status: 503
+    url: https://api.tubemogul.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.tubemogul.com/.well-known/security.txt
+  - status: 404
+    url: https://www.tubemogul.com/llms.txt
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: 'TubeMogul is a company surfaced as a portfolio company of trinity-ventures and added to the API Evangelist network as a stub for enrichment. Sector: marketing. This profile is a lead awaiting the enrichment pipeline.'
+description: TubeMogul was an independent video advertising software platform — a demand-side platform for planning, buying, measuring and optimizing programmatic brand video campaigns across desktop, mobile, connected TV and out-of-home. Founded 2006 in Emeryville, California, it IPO'd on NASDAQ in 2014 and was acquired by Adobe in 2016, then folded into Adobe Advertising Cloud. It ran an Ad Platform API at api.tubemogul.com for partner reporting and campaign management; that host is now dark and no independent developer surface remains.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tubemogul.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-13'
 name: TubeMogul
 nav: Providers
 network: true
-overview: TubeMogul is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Marketing.
-random_paper: 20
+overview: TubeMogul is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Advertising, Video Advertising, and Demand Side Platform.
+random_paper: 86
 score:
   band: minimal
-  composite: 4.1
-  delta: 0.0
+  composite: 5.7
+  delta: 1.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 40.7
+    discoverability: 50.0
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
+security:
+- kind: domain-security
+  name: Tubemogul Domain Security
+  slug: tubemogul-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
 slug: tubemogul
 tags:
 - Company
 - Marketing
+- Advertising
+- Video Advertising
+- Demand Side Platform
+- Programmatic Advertising
+- Ad Tech
+- Acquired
+website: https://tubemogul.com/
 ---

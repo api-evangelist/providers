@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Call Notes API from Proton.ai — 4 operation(s) for call notes.
@@ -67,7 +67,47 @@ apis:
 - description: The Tracking API from Proton.ai — 2 operation(s) for tracking.
   name: Proton.ai Tracking API
   slug: protonai-tracking-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Proton Call Notes API
+  slug: open-protonai-call-notes-api
+- collection_type: open
+  name: Proton Call Notes Contacts API
+  slug: open-protonai-contacts-api
+- collection_type: open
+  name: Proton Call Notes Custom Fields API
+  slug: open-protonai-custom-fields-api
+- collection_type: open
+  name: Proton Call Notes Customers API
+  slug: open-protonai-customers-api
+- collection_type: open
+  name: Proton Call Notes Leads API
+  slug: open-protonai-leads-api
+- collection_type: open
+  name: Proton Call Notes Opportunities API
+  slug: open-protonai-opportunities-api
+- collection_type: open
+  name: Proton Call Notes Product Initiatives API
+  slug: open-protonai-product-initiatives-api
+- collection_type: open
+  name: Proton Call Notes Quotes API
+  slug: open-protonai-quotes-api
+- collection_type: open
+  name: Proton Call Notes Recommendations API
+  slug: open-protonai-recommendations-api
+- collection_type: open
+  name: Proton Call Notes Search API
+  slug: open-protonai-search-api
+- collection_type: open
+  name: Proton Call Notes Tasks API
+  slug: open-protonai-tasks-api
+- collection_type: open
+  name: Proton Call Notes Tracking API
+  slug: open-protonai-tracking-api
 common:
 - group: agent
   title: ''
@@ -145,7 +185,7 @@ overview: 'Proton.ai publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Proton.ai''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 36
+random_paper: 131
 score:
   band: thin
   composite: 41.8
@@ -168,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

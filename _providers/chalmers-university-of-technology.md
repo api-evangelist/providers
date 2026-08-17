@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -111,7 +111,77 @@ apis:
 - description: The SolrImport API from Chalmers University of Technology — 1 operation(s) for solrimport.
   name: Chalmers University of Technology SolrImport API
   slug: chalmers-university-of-technology-solrimport-api
-artifact_total: 40
+artifact_total: 63
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ChalmersResearch ContractImport API
+  slug: open-chalmers-university-of-technology-contractimport-api
+- collection_type: open
+  name: ChalmersResearch ContractImport DeltaImportCplPublication API
+  slug: open-chalmers-university-of-technology-deltaimportcplpublication-api
+- collection_type: open
+  name: ChalmersResearch ContractImport DeltaImportProjectOrganization API
+  slug: open-chalmers-university-of-technology-deltaimportprojectorganization-api
+- collection_type: open
+  name: ChalmersResearch ContractImport DeltaImportProjectPerson API
+  slug: open-chalmers-university-of-technology-deltaimportprojectperson-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ElectronicPublicationAgreementSignature API
+  slug: open-chalmers-university-of-technology-electronicpublicationagreementsignature-api
+- collection_type: open
+  name: ChalmersResearch ContractImport IndexAllProjects API
+  slug: open-chalmers-university-of-technology-indexallprojects-api
+- collection_type: open
+  name: ChalmersResearch ContractImport IndexOneProject API
+  slug: open-chalmers-university-of-technology-indexoneproject-api
+- collection_type: open
+  name: ChalmersResearch ContractImport LocalOrganizations API
+  slug: open-chalmers-university-of-technology-localorganizations-api
+- collection_type: open
+  name: ChalmersResearch ContractImport Organizations API
+  slug: open-chalmers-university-of-technology-organizations-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectEmbargos API
+  slug: open-chalmers-university-of-technology-projectembargos-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectOrganizationUpdated API
+  slug: open-chalmers-university-of-technology-projectorganizationupdated-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectParticipantsVerification API
+  slug: open-chalmers-university-of-technology-projectparticipantsverification-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectParticipantsVerificationMail API
+  slug: open-chalmers-university-of-technology-projectparticipantsverificationmail-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectPersonUpdated API
+  slug: open-chalmers-university-of-technology-projectpersonupdated-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectPublishStatus API
+  slug: open-chalmers-university-of-technology-projectpublishstatus-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectQueries API
+  slug: open-chalmers-university-of-technology-projectqueries-api
+- collection_type: open
+  name: ChalmersResearch ContractImport Projects API
+  slug: open-chalmers-university-of-technology-projects-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectsConnectedToOrganization API
+  slug: open-chalmers-university-of-technology-projectsconnectedtoorganization-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectsConnectedToPerson API
+  slug: open-chalmers-university-of-technology-projectsconnectedtoperson-api
+- collection_type: open
+  name: ChalmersResearch ContractImport ProjectSearch API
+  slug: open-chalmers-university-of-technology-projectsearch-api
+- collection_type: open
+  name: ChalmersResearch ContractImport SimpleProjectMetadata API
+  slug: open-chalmers-university-of-technology-simpleprojectmetadata-api
+- collection_type: open
+  name: ChalmersResearch ContractImport SolrImport API
+  slug: open-chalmers-university-of-technology-solrimport-api
 common:
 - group: agent
   title: ''
@@ -209,7 +279,7 @@ plans:
 - name: Chalmers University Of Technology Plans Pricing
   plan_count: 2
   slug: chalmers-university-of-technology-plans-pricing
-random_paper: 41
+random_paper: 123
 rate_limits:
 - limit_count: 1
   name: Chalmers University Of Technology Rate Limits
@@ -257,7 +327,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png
 security:

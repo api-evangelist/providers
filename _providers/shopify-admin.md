@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -69,15 +69,42 @@ apis:
 - description: The Webhooks API from Shopify Admin API — 2 operation(s) for webhooks.
   name: Shopify Admin API Webhooks API
   slug: shopify-admin-webhooks-api
-artifact_total: 29
+artifact_total: 38
 asyncapis:
 - description: AsyncAPI 2.6 specification modeling the Shopify Admin webhook event surface. Shopify webhooks allow apps to subscribe to events that occur in a Shopify store. When a subscribed event occurs, Shopify s
   name: Shopify Admin Webhooks
   slug: shopify-admin-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shopify Admin REST Collections API
+  slug: open-shopify-admin-collections-api
+- collection_type: open
+  name: Shopify Admin REST Collections Customers API
+  slug: open-shopify-admin-customers-api
+- collection_type: open
+  name: Shopify Admin REST Collections Inventory API
+  slug: open-shopify-admin-inventory-api
+- collection_type: open
+  name: Shopify Admin REST Collections Locations API
+  slug: open-shopify-admin-locations-api
+- collection_type: open
+  name: Shopify Admin REST Collections Orders API
+  slug: open-shopify-admin-orders-api
+- collection_type: open
+  name: Shopify Admin REST Collections Products API
+  slug: open-shopify-admin-products-api
+- collection_type: open
   name: Shopify Admin REST API
   slug: open-shopify-admin-rest
+- collection_type: open
+  name: Shopify Admin REST Collections Shop API
+  slug: open-shopify-admin-shop-api
+- collection_type: open
+  name: Shopify Admin REST Collections Webhooks API
+  slug: open-shopify-admin-webhooks-api
 common:
 - group: agent
   title: ''
@@ -220,7 +247,7 @@ plans:
 - name: Shopify Admin Plans Pricing
   plan_count: 5
   slug: shopify-admin-plans-pricing
-random_paper: 16
+random_paper: 144
 rate_limits:
 - limit_count: 13
   name: Shopify Admin Rate Limits
@@ -270,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/screenshots/shopify-admin-2026-06-20T193830.png
 security:

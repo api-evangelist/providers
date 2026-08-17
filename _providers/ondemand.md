@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -57,11 +57,33 @@ apis:
 - description: The Workflow API from Ondemand — 2 operation(s) for workflow.
   name: Ondemand Workflow API
   slug: ondemand-workflow-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Ondemand Webhooks
   slug: ondemand-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OnDemand AI Chat API
+  slug: open-ondemand-chat-api
+- collection_type: open
+  name: OnDemand AI Chat Config API
+  slug: open-ondemand-config-api
+- collection_type: open
+  name: OnDemand AI Chat Execute API
+  slug: open-ondemand-execute-api
+- collection_type: open
+  name: OnDemand AI Chat Media API
+  slug: open-ondemand-media-api
+- collection_type: open
+  name: OnDemand AI Chat User API
+  slug: open-ondemand-user-api
+- collection_type: open
+  name: OnDemand AI Chat Workflow API
+  slug: open-ondemand-workflow-api
 common:
 - group: agent
   title: ''
@@ -174,7 +196,7 @@ overview: 'Ondemand publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ondemand''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 118
+random_paper: 93
 rate_limits:
 - limit_count: 4
   name: Ondemand Rate Limits
@@ -202,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/screenshots/ondemand-2026-08-07T190238.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -92,11 +92,69 @@ apis:
 - description: The Query Telemetry API from Dash0 — 4 operation(s) for query telemetry.
   name: Dash0 Query Telemetry API
   slug: dash0-query-telemetry-api
-artifact_total: 26
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Dash0 Webhooks
   slug: dash0-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dash0 Edge Collectors API
+  slug: open-dash0-edge-collectors-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Agent0 Automations API
+  slug: open-dash0-manage-agent0-automations-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Alerting API
+  slug: open-dash0-manage-alerting-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Dashboards API
+  slug: open-dash0-manage-dashboards-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Notification Channels API
+  slug: open-dash0-manage-notification-channels-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Recording Rules API
+  slug: open-dash0-manage-recording-rules-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Sampling Rules API
+  slug: open-dash0-manage-sampling-rules-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Signal To Metrics (BETA) API
+  slug: open-dash0-manage-signal-to-metrics-beta-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage SLOs (Private BETA) API
+  slug: open-dash0-manage-slos-private-beta-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Spam Filters API
+  slug: open-dash0-manage-spam-filters-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Synthetic Checks API
+  slug: open-dash0-manage-synthetic-checks-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Teams and Members API
+  slug: open-dash0-manage-teams-and-members-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Time Series Aggregations (Private BETA) API
+  slug: open-dash0-manage-time-series-aggregations-private-beta-api
+- collection_type: open
+  name: Dash0 Edge Collectors Manage Views API
+  slug: open-dash0-manage-views-api
+- collection_type: open
+  name: Dash0 Edge Collectors OAuth 2.0 API
+  slug: open-dash0-oauth-2-0-api
+- collection_type: open
+  name: Dash0 Edge Collectors Prometheus API API
+  slug: open-dash0-prometheus-api-api
+- collection_type: open
+  name: Dash0 Edge Collectors Query SQL API
+  slug: open-dash0-query-sql-api
+- collection_type: open
+  name: Dash0 Edge Collectors Query Telemetry API
+  slug: open-dash0-query-telemetry-api
 common:
 - group: other
   title: ''
@@ -277,7 +335,7 @@ overview: 'Dash0 publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 104
+random_paper: 17
 scopes:
 - name: Dash0 Scopes
   scope_count: 1
@@ -306,7 +364,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/screenshots/dash0-2026-07-25T211225.png
 security:

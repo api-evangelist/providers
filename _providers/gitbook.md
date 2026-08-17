@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -96,15 +96,72 @@ apis:
 - description: Manage user accounts and profiles.
   name: GitBook Users API
   slug: gitbook-users-api
-artifact_total: 37
+artifact_total: 56
 asyncapis:
 - description: AsyncAPI specification for GitBook webhook events. GitBook emits webhook notifications when key events occur within organizations, spaces, pages, change requests, docs sites, collections, and user acc
   name: GitBook Webhook Events
   slug: gitbook-gitbook-api-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitBook Change Request Content API
+  slug: open-gitbook-change-request-content-api
+- collection_type: open
+  name: GitBook Change Request Content Change Requests API
+  slug: open-gitbook-change-requests-api
+- collection_type: open
+  name: GitBook Change Request Content Collections API
+  slug: open-gitbook-collections-api
+- collection_type: open
+  name: GitBook Change Request Content Custom Hostnames API
+  slug: open-gitbook-custom-hostnames-api
+- collection_type: open
+  name: GitBook Change Request Content Docs Sites API
+  slug: open-gitbook-docs-sites-api
+- collection_type: open
   name: GitBook API
   slug: open-gitbook-gitbook-api
+- collection_type: open
+  name: GitBook Change Request Content Imports API
+  slug: open-gitbook-imports-api
+- collection_type: open
+  name: GitBook Change Request Content Integrations API
+  slug: open-gitbook-integrations-api
+- collection_type: open
+  name: GitBook Change Request Content OpenAPI Specs API
+  slug: open-gitbook-openapi-specs-api
+- collection_type: open
+  name: GitBook Change Request Content Organization Members API
+  slug: open-gitbook-organization-members-api
+- collection_type: open
+  name: GitBook Change Request Content Organization Teams API
+  slug: open-gitbook-organization-teams-api
+- collection_type: open
+  name: GitBook Change Request Content Organizations API
+  slug: open-gitbook-organizations-api
+- collection_type: open
+  name: GitBook Change Request Content Search API
+  slug: open-gitbook-search-api
+- collection_type: open
+  name: GitBook Change Request Content Site Spaces API
+  slug: open-gitbook-site-spaces-api
+- collection_type: open
+  name: GitBook Change Request Content Space Content API
+  slug: open-gitbook-space-content-api
+- collection_type: open
+  name: GitBook Change Request Content Space Users API
+  slug: open-gitbook-space-users-api
+- collection_type: open
+  name: GitBook Change Request Content Spaces API
+  slug: open-gitbook-spaces-api
+- collection_type: open
+  name: GitBook Change Request Content URLs API
+  slug: open-gitbook-urls-api
+- collection_type: open
+  name: GitBook Change Request Content Users API
+  slug: open-gitbook-users-api
 common:
 - group: agent
   title: ''
@@ -192,7 +249,7 @@ plans:
 - name: Gitbook Plans Pricing
   plan_count: 3
   slug: gitbook-plans-pricing
-random_paper: 31
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Gitbook Rate Limits
@@ -234,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/screenshots/gitbook-2026-06-20T181833.png
 security:

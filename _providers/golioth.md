@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -174,8 +174,110 @@ apis:
 - description: The Usage API from Golioth — 5 operation(s) for usage.
   name: Golioth Usage API
   slug: golioth-usage-api
-artifact_total: 65
+artifact_total: 99
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Golioth Management Access API
+  slug: open-golioth-access-api
+- collection_type: open
+  name: Golioth Management Access API Keys API
+  slug: open-golioth-api-keys-api
+- collection_type: open
+  name: Golioth Management Access Artifacts API
+  slug: open-golioth-artifacts-api
+- collection_type: open
+  name: Golioth Management Access Billing API
+  slug: open-golioth-billing-api
+- collection_type: open
+  name: Golioth Management Access Blueprints API
+  slug: open-golioth-blueprints-api
+- collection_type: open
+  name: Golioth Management Access Boards API
+  slug: open-golioth-boards-api
+- collection_type: open
+  name: Golioth Management Access Certificates API
+  slug: open-golioth-certificates-api
+- collection_type: open
+  name: Golioth Management Access Cohorts API
+  slug: open-golioth-cohorts-api
+- collection_type: open
+  name: Golioth Management Access Credentials API
+  slug: open-golioth-credentials-api
+- collection_type: open
+  name: Golioth Management Access Deployments API
+  slug: open-golioth-deployments-api
+- collection_type: open
+  name: Golioth Management Access Devices API
+  slug: open-golioth-devices-api
+- collection_type: open
+  name: Golioth Management Access Firmware API
+  slug: open-golioth-firmware-api
+- collection_type: open
+  name: Golioth Management Access Integrations API
+  slug: open-golioth-integrations-api
+- collection_type: open
+  name: Golioth Management Access LightDB API
+  slug: open-golioth-lightdb-api
+- collection_type: open
+  name: Golioth Management Access LightDB Stream API
+  slug: open-golioth-lightdb-stream-api
+- collection_type: open
+  name: Golioth Management Access Location API
+  slug: open-golioth-location-api
+- collection_type: open
+  name: Golioth Management Access Logs API
+  slug: open-golioth-logs-api
+- collection_type: open
+  name: Golioth Management Access Networks API
+  slug: open-golioth-networks-api
+- collection_type: open
+  name: Golioth Management Access Notifications API
+  slug: open-golioth-notifications-api
+- collection_type: open
+  name: Golioth Management Access Organizations API
+  slug: open-golioth-organizations-api
+- collection_type: open
+  name: Golioth Management Access OTAEvents API
+  slug: open-golioth-otaevents-api
+- collection_type: open
+  name: Golioth Management Access Packages API
+  slug: open-golioth-packages-api
+- collection_type: open
+  name: Golioth Management Access Pipelines API
+  slug: open-golioth-pipelines-api
+- collection_type: open
+  name: Golioth Management Access PKI API
+  slug: open-golioth-pki-api
+- collection_type: open
+  name: Golioth Management Access Project Config API
+  slug: open-golioth-project-config-api
+- collection_type: open
+  name: Golioth Management Access Projects API
+  slug: open-golioth-projects-api
+- collection_type: open
+  name: Golioth Management Access Provisioning API
+  slug: open-golioth-provisioning-api
+- collection_type: open
+  name: Golioth Management Access Releases API
+  slug: open-golioth-releases-api
+- collection_type: open
+  name: Golioth Management Access Remote Procedure Call API
+  slug: open-golioth-remote-procedure-call-api
+- collection_type: open
+  name: Golioth Management Access Secrets API
+  slug: open-golioth-secrets-api
+- collection_type: open
+  name: Golioth Management Access Settings API
+  slug: open-golioth-settings-api
+- collection_type: open
+  name: Golioth Management Access Tags API
+  slug: open-golioth-tags-api
+- collection_type: open
+  name: Golioth Management Access Usage API
+  slug: open-golioth-usage-api
 - collection_type: open
   name: Golioth Management API
   slug: open-golioth
@@ -317,7 +419,7 @@ plans:
 - name: Golioth Plans Pricing
   plan_count: 1
   slug: golioth-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Golioth Rate Limits
@@ -359,7 +461,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/screenshots/golioth-2026-06-20T181951.png
 security:

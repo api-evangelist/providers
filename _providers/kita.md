@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: Register and manage HMAC-signed outbound webhooks.
   name: Kita Webhooks API
   slug: kita-webhooks-api
-artifact_total: 37
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Kita Capture Webhooks
@@ -129,6 +129,51 @@ collections:
 - collection_type: postman
   name: Kita Capture Applications Webhooks API
   slug: postman-kita-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kita Capture Applications API
+  slug: open-kita-applications-api
+- collection_type: open
+  name: Kita Capture Applications Batch API
+  slug: open-kita-batch-api
+- collection_type: open
+  name: Kita Capture Applications Conversation API
+  slug: open-kita-conversation-api
+- collection_type: open
+  name: Kita Capture Applications Credit API
+  slug: open-kita-credit-api
+- collection_type: open
+  name: Kita Capture Applications Documents API
+  slug: open-kita-documents-api
+- collection_type: open
+  name: Kita Capture Applications Exports API
+  slug: open-kita-exports-api
+- collection_type: open
+  name: Kita Capture Applications Folders API
+  slug: open-kita-folders-api
+- collection_type: open
+  name: Kita Capture Applications Memo API
+  slug: open-kita-memo-api
+- collection_type: open
+  name: Kita Capture Applications Processing API
+  slug: open-kita-processing-api
+- collection_type: open
+  name: Kita Capture Applications Results API
+  slug: open-kita-results-api
+- collection_type: open
+  name: Kita Capture Applications Schemas API
+  slug: open-kita-schemas-api
+- collection_type: open
+  name: Kita Capture Applications Transcripts API
+  slug: open-kita-transcripts-api
+- collection_type: open
+  name: Kita Capture Applications Verification API
+  slug: open-kita-verification-api
+- collection_type: open
+  name: Kita Capture Applications Webhooks API
+  slug: open-kita-webhooks-api
 common:
 - group: other
   title: ''
@@ -318,7 +363,7 @@ plans:
 - name: Kita Plans
   plan_count: 3
   slug: kita-plans
-random_paper: 65
+random_paper: 127
 rate_limits:
 - limit_count: 0
   name: Kita Rate Limits
@@ -352,7 +397,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
 security:

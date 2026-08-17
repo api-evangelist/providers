@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The public-api API from Nace Ai — 12 operation(s) for public-api.
   name: Nace Ai public-api API
   slug: nace-ai-public-api-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NDI Service health API
+  slug: open-nace-ai-health-api
+- collection_type: open
+  name: NDI Service health public-api API
+  slug: open-nace-ai-public-api-api
 common:
 - group: other
   title: ''
@@ -138,7 +148,7 @@ overview: 'Nace Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Nace Ai''s developer surface includes authentication, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Nace Ai Rate Limits
@@ -166,7 +176,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/screenshots/nace-ai-2026-08-07T184600.png
 security:

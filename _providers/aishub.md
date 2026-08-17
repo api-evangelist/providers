@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: Latest known positions and voyage data for vessels tracked by the network.
   name: AISHub Vessel Positions API
   slug: aishub-vessel-positions-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AISHub Web Service Stations API
+  slug: open-aishub-stations-api
+- collection_type: open
+  name: AISHub Web Service Stations Vessel Positions API
+  slug: open-aishub-vessel-positions-api
 common:
 - group: agent
   title: ''
@@ -102,7 +112,7 @@ plans:
 - name: Aishub Plans Pricing
   plan_count: 1
   slug: aishub-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Aishub Rate Limits
@@ -127,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/screenshots/aishub-2026-07-25T195448.png
 security:

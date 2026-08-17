@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: '**Individual research object resolution** - Perfect for detail pages, file access, and direct DPID links. Get complete research objects with full version history, specific files, or content in differe'
   name: DeSci Labs Resolve API
   slug: desci-labs-resolve-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dPID Resolver Data API
+  slug: open-desci-labs-data-api
+- collection_type: open
+  name: dPID Resolver Data Query API
+  slug: open-desci-labs-query-api
+- collection_type: open
+  name: dPID Resolver Data Resolve API
+  slug: open-desci-labs-resolve-api
 common:
 - group: other
   title: ''
@@ -162,7 +175,7 @@ overview: 'DeSci Labs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   DeSci Labs'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 17 more developer resources.'
-random_paper: 23
+random_paper: 89
 score:
   band: developing
   composite: 46.9
@@ -186,7 +199,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/screenshots/desci-labs-2026-07-25T211750.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,26 @@ apis:
 - description: The Responses API from RouterPlex — 1 operation(s) for responses.
   name: RouterPlex Responses API
   slug: routerplex-responses-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RouterPlex Chat API
+  slug: open-routerplex-chat-api
+- collection_type: open
+  name: RouterPlex Images API
+  slug: open-routerplex-images-api
+- collection_type: open
+  name: RouterPlex Messages API
+  slug: open-routerplex-messages-api
+- collection_type: open
+  name: RouterPlex Models API
+  slug: open-routerplex-models-api
+- collection_type: open
+  name: RouterPlex Responses API
+  slug: open-routerplex-responses-api
 common:
 - group: other
   title: ''
@@ -214,7 +233,7 @@ plans:
 - name: Routerplex Plans
   plan_count: 4
   slug: routerplex-plans
-random_paper: 34
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Routerplex Rate Limits
@@ -242,7 +261,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

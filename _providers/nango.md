@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Manage and trigger data syncs.
   name: Nango Syncs API
   slug: nango-syncs-api
-artifact_total: 30
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nango Actions API
+  slug: open-nango-actions-api
+- collection_type: open
+  name: Nango Actions Connections API
+  slug: open-nango-connections-api
+- collection_type: open
+  name: Nango Actions Integrations API
+  slug: open-nango-integrations-api
+- collection_type: open
+  name: Nango Actions Proxy API
+  slug: open-nango-proxy-api
+- collection_type: open
+  name: Nango Actions Syncs API
+  slug: open-nango-syncs-api
 - collection_type: open
   name: Nango API
   slug: open-nango
@@ -160,7 +178,7 @@ plans:
 - name: Nango Plans Pricing
   plan_count: 4
   slug: nango-plans-pricing
-random_paper: 51
+random_paper: 84
 rate_limits:
 - limit_count: 3
   name: Nango Rate Limits
@@ -185,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/screenshots/nango-2026-06-20T185934.png
 security:

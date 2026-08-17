@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Check budget allocations and remaining GPU hours
@@ -43,7 +43,23 @@ apis:
 - description: List, retrieve, and get statistics for GPU workloads
   name: Chamber Workloads API
   slug: chamber-workloads-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chamber Capacity API
+  slug: open-chamber-capacity-api
+- collection_type: open
+  name: Chamber Capacity Health API
+  slug: open-chamber-health-api
+- collection_type: open
+  name: Chamber Capacity Metrics API
+  slug: open-chamber-metrics-api
+- collection_type: open
+  name: Chamber Capacity Workloads API
+  slug: open-chamber-workloads-api
 common:
 - group: other
   title: ''
@@ -169,7 +185,7 @@ overview: 'Chamber publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Chamber''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 2
+random_paper: 126
 score:
   band: developing
   composite: 46.5
@@ -192,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/screenshots/chamber-2026-07-25T205029.png
 security:

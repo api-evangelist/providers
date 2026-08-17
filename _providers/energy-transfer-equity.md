@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Power demand is skyrocketing from AI, electrification and ...
   url: https://www.facebook.com/WilliamsEnergyCo/posts/power-demand-is-skyrocketing-from-ai-electrification-and-industrial-reshoring-bu/904918505241219/
-random_paper: 2
+random_paper: 47
 score:
   band: minimal
   composite: 4.3
@@ -88,7 +88,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-transfer-equity/refs/heads/main/screenshots/energy-transfer-equity-2026-06-20T180709.png
 slug: energy-transfer-equity

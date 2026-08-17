@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: The Accounts API from Copper.co — 1 operation(s) for accounts.
@@ -75,11 +75,69 @@ apis:
 - description: The wallets API from Copper.co — 2 operation(s) for wallets.
   name: Copper.co Wallets API
   slug: copper-co-wallets-api
-artifact_total: 25
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Copper Co Webhooks
   slug: copper-co-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Copper Platform Deprecated Accounts API
+  slug: open-copper-co-accounts-api
+- collection_type: open
+  name: Copper Platform Address Book API
+  slug: open-copper-co-address-book-api
+- collection_type: open
+  name: Copper Platform Blockchain API
+  slug: open-copper-co-blockchain-api
+- collection_type: open
+  name: Copper Platform Clearloop API
+  slug: open-copper-co-clearloop-api
+- collection_type: open
+  name: Copper Platform Currencies API
+  slug: open-copper-co-currencies-api
+- collection_type: open
+  name: Copper Platform Deposit Targets API
+  slug: open-copper-co-deposit-targets-api
+- collection_type: open
+  name: Copper Platform Exchange API
+  slug: open-copper-co-exchange-api
+- collection_type: open
+  name: Copper Platform Files API
+  slug: open-copper-co-files-api
+- collection_type: open
+  name: Copper Co Lending API
+  slug: open-copper-co-lending-api
+- collection_type: open
+  name: Copper Platform Network API
+  slug: open-copper-co-network-api
+- collection_type: open
+  name: Copper Platform Orders API
+  slug: open-copper-co-orders-api
+- collection_type: open
+  name: Copper Platform Organizations API
+  slug: open-copper-co-organizations-api
+- collection_type: open
+  name: Copper Platform Portfolios API
+  slug: open-copper-co-portfolios-api
+- collection_type: open
+  name: Copper Platform Reports API
+  slug: open-copper-co-reports-api
+- collection_type: open
+  name: Copper Unlimited Online Sign Async API
+  slug: open-copper-co-sign-async-api
+- collection_type: open
+  name: Copper Platform Stake API
+  slug: open-copper-co-stake-api
+- collection_type: open
+  name: Copper Platform Trades API
+  slug: open-copper-co-trades-api
+- collection_type: open
+  name: Copper Platform Wallets API
+  slug: open-copper-co-wallets-api
 common:
 - group: other
   title: ''
@@ -232,7 +290,7 @@ overview: 'Copper.co publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Copper.co''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 64
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Copper Co Rate Limits
@@ -265,7 +323,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/screenshots/copper-co-2026-08-07T163810.png
 security:

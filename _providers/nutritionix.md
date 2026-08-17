@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Search the nutrition database for common and branded foods.
   name: Nutritionix Search API
   slug: nutritionix-search-api
-artifact_total: 70
+artifact_total: 75
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nutritionix Track API v2 Brands API
+  slug: open-nutritionix-brands-api
+- collection_type: open
+  name: Nutritionix Track API v2 Brands Item API
+  slug: open-nutritionix-item-api
+- collection_type: open
+  name: Nutritionix Track API v2 Brands Natural Language API
+  slug: open-nutritionix-natural-language-api
+- collection_type: open
+  name: Nutritionix Track API v2 Brands Search API
+  slug: open-nutritionix-search-api
 - collection_type: open
   name: Nutritionix Track API v2
   slug: open-nutritionix-track
@@ -323,7 +338,7 @@ plans:
 - name: Nutritionix Plans Pricing
   plan_count: 2
   slug: nutritionix-plans-pricing
-random_paper: 29
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Nutritionix Rate Limits
@@ -371,7 +386,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutritionix/refs/heads/main/screenshots/nutritionix-2026-06-20T190531.png
 security:

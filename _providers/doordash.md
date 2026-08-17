@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Manage store locations associated with businesses.
   name: doordash Stores API
   slug: doordash-stores-api
-artifact_total: 221
+artifact_total: 234
 asyncapis:
 - description: 'DoorDash Drive sends webhook notifications for delivery status updates, enabling near-real-time information flow from DoorDash and Dashers to partner applications. Webhooks support scenarios like map '
   name: DoorDash Drive Delivery Webhooks
@@ -124,20 +124,59 @@ collections:
   name: DoorDash Drive Classic Addresses Stores API
   slug: postman-doordash-stores-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DoorDash Drive Classic Addresses API
+  slug: open-doordash-addresses-api
+- collection_type: open
+  name: DoorDash Drive Classic Addresses Businesses API
+  slug: open-doordash-businesses-api
+- collection_type: open
+  name: DoorDash Drive Classic Addresses Catalog API
+  slug: open-doordash-catalog-api
+- collection_type: open
+  name: DoorDash Drive Classic Addresses Deliveries API
+  slug: open-doordash-deliveries-api
+- collection_type: open
   name: DoorDash Drive Classic API
   slug: open-doordash-drive-classic
 - collection_type: open
   name: DoorDash Drive API
   slug: open-doordash-drive
 - collection_type: open
+  name: DoorDash Drive Classic Addresses Inventory API
+  slug: open-doordash-inventory-api
+- collection_type: open
   name: DoorDash Item Management API
   slug: open-doordash-item-management
+- collection_type: open
+  name: DoorDash Drive Classic Addresses Items API
+  slug: open-doordash-items-api
 - collection_type: open
   name: DoorDash Marketplace API
   slug: open-doordash-marketplace
 - collection_type: open
+  name: DoorDash Drive Classic Addresses Menus API
+  slug: open-doordash-menus-api
+- collection_type: open
+  name: DoorDash Drive Classic Addresses Orders API
+  slug: open-doordash-orders-api
+- collection_type: open
+  name: DoorDash Drive Classic Addresses Promotions API
+  slug: open-doordash-promotions-api
+- collection_type: open
+  name: DoorDash Drive Classic Addresses Quotes API
+  slug: open-doordash-quotes-api
+- collection_type: open
   name: DoorDash Reporting API
   slug: open-doordash-reporting
+- collection_type: open
+  name: DoorDash Drive Classic Addresses Reports API
+  slug: open-doordash-reports-api
+- collection_type: open
+  name: DoorDash Drive Classic Addresses Stores API
+  slug: open-doordash-stores-api
 common:
 - group: build
   title: ''
@@ -824,7 +863,7 @@ plans:
 - name: Doordash Plans Pricing
   plan_count: 3
   slug: doordash-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 1
   name: Doordash Rate Limits
@@ -874,7 +913,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png
 security:

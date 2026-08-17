@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -72,7 +72,7 @@ apis:
 - description: Vulnerability tracking and remediation management
   name: Vanta Vulnerabilities API
   slug: vanta-vulnerabilities-api
-artifact_total: 44
+artifact_total: 56
 collections:
 - collection_type: postman
   name: Conduct an audit Auditors API
@@ -108,8 +108,44 @@ collections:
   name: Conduct an audit Auditors Vulnerabilities API
   slug: postman-vanta-vulnerabilities-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Conduct an audit
   slug: open-vanta-auditor
+- collection_type: open
+  name: Conduct an audit Auditors API
+  slug: open-vanta-auditors-api
+- collection_type: open
+  name: Conduct an audit Auditors Audits API
+  slug: open-vanta-audits-api
+- collection_type: open
+  name: Conduct an audit Auditors Authentication API
+  slug: open-vanta-authentication-api
+- collection_type: open
+  name: Conduct an audit Auditors Controls API
+  slug: open-vanta-controls-api
+- collection_type: open
+  name: Conduct an audit Auditors Documents API
+  slug: open-vanta-documents-api
+- collection_type: open
+  name: Conduct an audit Auditors Integrations API
+  slug: open-vanta-integrations-api
+- collection_type: open
+  name: Conduct an audit Auditors Resources API
+  slug: open-vanta-resources-api
+- collection_type: open
+  name: Conduct an audit Auditors Tests API
+  slug: open-vanta-tests-api
+- collection_type: open
+  name: Conduct an audit Auditors Users API
+  slug: open-vanta-users-api
+- collection_type: open
+  name: Conduct an audit Auditors Vendors API
+  slug: open-vanta-vendors-api
+- collection_type: open
+  name: Conduct an audit Auditors Vulnerabilities API
+  slug: open-vanta-vulnerabilities-api
 - collection_type: open
   name: Vanta API
   slug: open-vanta
@@ -272,7 +308,7 @@ plans:
 - name: Vanta Plans Pricing
   plan_count: 3
   slug: vanta-plans-pricing
-random_paper: 58
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Vanta Rate Limits
@@ -319,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/screenshots/vanta-2026-06-20T200811.png
 security:

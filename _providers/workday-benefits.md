@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Manage time off and leave benefit plans
   name: Workday Benefits Time Off Plans API
   slug: workday-benefits-time-off-plans-api
-artifact_total: 45
+artifact_total: 52
 collections:
 - collection_type: postman
   name: Workday Benefits Benefit Enrollments API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Workday Benefits Benefit Enrollments Time Off Plans API
   slug: postman-workday-benefits-time-off-plans-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Benefits Benefit Enrollments API
+  slug: open-workday-benefits-benefit-enrollments-api
+- collection_type: open
+  name: Workday Benefits Benefit Enrollments Benefit Events API
+  slug: open-workday-benefits-benefit-events-api
+- collection_type: open
+  name: Workday Benefits Benefit Enrollments Benefit Plans API
+  slug: open-workday-benefits-benefit-plans-api
+- collection_type: open
+  name: Workday Benefits Benefit Enrollments Dependents API
+  slug: open-workday-benefits-dependents-api
+- collection_type: open
+  name: Workday Benefits Benefit Enrollments Employee Benefits API
+  slug: open-workday-benefits-employee-benefits-api
+- collection_type: open
+  name: Workday Benefits Benefit Enrollments Time Off Plans API
+  slug: open-workday-benefits-time-off-plans-api
 - collection_type: open
   name: Workday Benefits API
   slug: open-workday-benefits
@@ -235,7 +256,7 @@ plans:
 - name: Workday Benefits Plans Pricing
   plan_count: 3
   slug: workday-benefits-plans-pricing
-random_paper: 102
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Workday Benefits Rate Limits
@@ -282,7 +303,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/screenshots/workday-benefits-2026-06-20T201559.png
 security:

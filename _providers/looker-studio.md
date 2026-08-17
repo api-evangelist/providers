@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -72,7 +72,7 @@ apis:
 - description: Operations for loading and rendering community visualizations in Looker Studio reports.
   name: Looker Studio Visualization API
   slug: looker-studio-visualization-api
-artifact_total: 73
+artifact_total: 85
 collections:
 - collection_type: postman
   name: Looker Studio Assets API
@@ -108,8 +108,17 @@ collections:
   name: Looker Studio Assets Visualization API
   slug: postman-looker-studio-visualization-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Looker Studio API
   slug: open-looker-studio-api
+- collection_type: open
+  name: Looker Studio Assets API
+  slug: open-looker-studio-assets-api
+- collection_type: open
+  name: Looker Studio Assets Authentication API
+  slug: open-looker-studio-authentication-api
 - collection_type: open
   name: Looker Studio Community Connector API
   slug: open-looker-studio-community-connector-api
@@ -117,11 +126,38 @@ collections:
   name: Looker Studio Community Visualization API
   slug: open-looker-studio-community-visualization-api
 - collection_type: open
+  name: Looker Studio Assets Configuration API
+  slug: open-looker-studio-configuration-api
+- collection_type: open
+  name: Looker Studio Assets Data API
+  slug: open-looker-studio-data-api
+- collection_type: open
+  name: Looker Studio Assets Embed API
+  slug: open-looker-studio-embed-api
+- collection_type: open
   name: Looker Studio Embedding API
   slug: open-looker-studio-embedding-api
 - collection_type: open
   name: Looker Studio Linking API
   slug: open-looker-studio-linking-api
+- collection_type: open
+  name: Looker Studio Assets Manifest API
+  slug: open-looker-studio-manifest-api
+- collection_type: open
+  name: Looker Studio Assets oEmbed API
+  slug: open-looker-studio-oembed-api
+- collection_type: open
+  name: Looker Studio Assets Permissions API
+  slug: open-looker-studio-permissions-api
+- collection_type: open
+  name: Looker Studio Assets Reports API
+  slug: open-looker-studio-reports-api
+- collection_type: open
+  name: Looker Studio Assets Schema API
+  slug: open-looker-studio-schema-api
+- collection_type: open
+  name: Looker Studio Assets Visualization API
+  slug: open-looker-studio-visualization-api
 common:
 - group: build
   title: ''
@@ -365,7 +401,7 @@ plans:
 - name: Looker Studio Plans Pricing
   plan_count: 2
   slug: looker-studio-plans-pricing
-random_paper: 41
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Looker Studio Rate Limits
@@ -404,7 +440,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/screenshots/looker-studio-2026-06-20T184714.png
 security:

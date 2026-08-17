@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -145,7 +145,110 @@ arazzos:
 - description: Create a Dedicated Endpoint, wait for it to be ready, then run a chat completion.
   name: FriendliAI deploy a Dedicated Endpoint and infer
   slug: friendliai-deploy-and-infer
-artifact_total: 41
+artifact_total: 75
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio API
+  slug: open-friendliai-container-audio-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Container.Chat API
+  slug: open-friendliai-container-chat-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Container.Classification API
+  slug: open-friendliai-container-classification-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Container.Completions API
+  slug: open-friendliai-container-completions-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Container.Image API
+  slug: open-friendliai-container-image-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Container.Messages API
+  slug: open-friendliai-container-messages-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Container.Responses API
+  slug: open-friendliai-container-responses-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Container.Token API
+  slug: open-friendliai-container-token-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Cost API
+  slug: open-friendliai-cost-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dataset API
+  slug: open-friendliai-dataset-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Audio API
+  slug: open-friendliai-dedicated-audio-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Chat API
+  slug: open-friendliai-dedicated-chat-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.ChatRender API
+  slug: open-friendliai-dedicated-chatrender-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Classification API
+  slug: open-friendliai-dedicated-classification-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Completions API
+  slug: open-friendliai-dedicated-completions-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Embeddings API
+  slug: open-friendliai-dedicated-embeddings-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Endpoint API
+  slug: open-friendliai-dedicated-endpoint-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Image API
+  slug: open-friendliai-dedicated-image-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Messages API
+  slug: open-friendliai-dedicated-messages-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Responses API
+  slug: open-friendliai-dedicated-responses-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Dedicated.Token API
+  slug: open-friendliai-dedicated-token-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio File API
+  slug: open-friendliai-file-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.Audio API
+  slug: open-friendliai-serverless-audio-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.Chat API
+  slug: open-friendliai-serverless-chat-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.ChatRender API
+  slug: open-friendliai-serverless-chatrender-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.Completions API
+  slug: open-friendliai-serverless-completions-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.Knowledge API
+  slug: open-friendliai-serverless-knowledge-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.Messages API
+  slug: open-friendliai-serverless-messages-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.Model API
+  slug: open-friendliai-serverless-model-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.Responses API
+  slug: open-friendliai-serverless-responses-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.Token API
+  slug: open-friendliai-serverless-token-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Serverless.ToolAssistedChat API
+  slug: open-friendliai-serverless-toolassistedchat-api
+- collection_type: open
+  name: Friendli Suite API Reference Container.Audio Usage API
+  slug: open-friendliai-usage-api
 common:
 - group: other
   title: ''
@@ -307,7 +410,7 @@ overview: 'FriendliAI publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FriendliAI''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 87
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Friendliai Rate Limits
@@ -335,7 +438,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/screenshots/friendliai-2026-07-25T215224.png
 security:

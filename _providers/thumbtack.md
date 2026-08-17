@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,7 +69,38 @@ apis:
 - description: The Testing API from Thumbtack — 1 operation(s) for testing.
   name: Thumbtack Testing API
   slug: thumbtack-testing-api
-artifact_total: 18
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thumbtack Demand Authentication API
+  slug: open-thumbtack-authentication-api
+- collection_type: open
+  name: Thumbtack Demand Authentication Autocomplete API
+  slug: open-thumbtack-autocomplete-api
+- collection_type: open
+  name: Thumbtack Demand Authentication Categories API
+  slug: open-thumbtack-categories-api
+- collection_type: open
+  name: Thumbtack Demand Authentication Leads API
+  slug: open-thumbtack-leads-api
+- collection_type: open
+  name: Thumbtack Demand Authentication Messages API
+  slug: open-thumbtack-messages-api
+- collection_type: open
+  name: Thumbtack Demand Authentication Orders API
+  slug: open-thumbtack-orders-api
+- collection_type: open
+  name: Thumbtack Demand Authentication Pro Profiles API
+  slug: open-thumbtack-pro-profiles-api
+- collection_type: open
+  name: Thumbtack Demand Authentication Pros API
+  slug: open-thumbtack-pros-api
+- collection_type: open
+  name: Thumbtack Demand Authentication Testing API
+  slug: open-thumbtack-testing-api
 common:
 - group: agent
   title: ''
@@ -139,7 +170,7 @@ plans:
 - name: Thumbtack Plans Pricing
   plan_count: 3
   slug: thumbtack-plans-pricing
-random_paper: 3
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Thumbtack Rate Limits
@@ -169,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

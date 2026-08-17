@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -227,7 +227,209 @@ apis:
 - description: The update line item start/end dates API from MadHive — 1 operation(s) for update line item start/end dates.
   name: MadHive update line item start/end dates API
   slug: madhive-update-line-item-start-end-dates-api
-artifact_total: 72
+artifact_total: 139
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Madhive Ability to pause a campaign and all of its associated line items and creatives API
+  slug: open-madhive-ability-to-pause-a-campaign-and-all-of-its-associated-line-items-and-creatives-api
+- collection_type: open
+  name: Madhive Ability to pause a line item API
+  slug: open-madhive-ability-to-pause-a-line-item-api
+- collection_type: open
+  name: Madhive Advertiser API
+  slug: open-madhive-advertiser-api
+- collection_type: open
+  name: Madhive Agency API
+  slug: open-madhive-agency-api
+- collection_type: open
+  name: Madhive all products API
+  slug: open-madhive-all-products-api
+- collection_type: open
+  name: Madhive all publisher groups API
+  slug: open-madhive-all-publisher-groups-api
+- collection_type: open
+  name: Madhive all publishers API
+  slug: open-madhive-all-publishers-api
+- collection_type: open
+  name: Madhive archive a line item API
+  slug: open-madhive-archive-a-line-item-api
+- collection_type: open
+  name: Madhive Audiences API
+  slug: open-madhive-audiences-api
+- collection_type: open
+  name: Madhive campaign activation API
+  slug: open-madhive-campaign-activation-api
+- collection_type: open
+  name: Madhive Campaign API
+  slug: open-madhive-campaign-api
+- collection_type: open
+  name: Madhive campaign creatives API
+  slug: open-madhive-campaign-creatives-api
+- collection_type: open
+  name: Madhive campaign line items API
+  slug: open-madhive-campaign-line-items-api
+- collection_type: open
+  name: Madhive contextual segments API
+  slug: open-madhive-contextual-segments-api
+- collection_type: open
+  name: Madhive create new line item API
+  slug: open-madhive-create-new-line-item-api
+- collection_type: open
+  name: Madhive Creative API
+  slug: open-madhive-creative-api
+- collection_type: open
+  name: Madhive creative flight activation API
+  slug: open-madhive-creative-flight-activation-api
+- collection_type: open
+  name: Madhive Creative Line Item API
+  slug: open-madhive-creative-line-item-api
+- collection_type: open
+  name: Madhive deactivate advertiser API
+  slug: open-madhive-deactivate-advertiser-api
+- collection_type: open
+  name: Madhive deactivate agency API
+  slug: open-madhive-deactivate-agency-api
+- collection_type: open
+  name: Madhive deactivate audience API
+  slug: open-madhive-deactivate-audience-api
+- collection_type: open
+  name: Madhive deactivate campaign API
+  slug: open-madhive-deactivate-campaign-api
+- collection_type: open
+  name: Madhive deactivate creative API
+  slug: open-madhive-deactivate-creative-api
+- collection_type: open
+  name: Madhive deactivate creative line item API
+  slug: open-madhive-deactivate-creative-line-item-api
+- collection_type: open
+  name: Madhive deactivate publisher group API
+  slug: open-madhive-deactivate-publisher-group-api
+- collection_type: open
+  name: Madhive deactivate retargeting segment API
+  slug: open-madhive-deactivate-retargeting-segment-api
+- collection_type: open
+  name: Madhive Get Advertiser By ID API
+  slug: open-madhive-get-advertiser-by-id-api
+- collection_type: open
+  name: Madhive Get Agency By ID API
+  slug: open-madhive-get-agency-by-id-api
+- collection_type: open
+  name: Madhive Get Audience By ID API
+  slug: open-madhive-get-audience-by-id-api
+- collection_type: open
+  name: Madhive Get Creative By ID API
+  slug: open-madhive-get-creative-by-id-api
+- collection_type: open
+  name: Madhive Get Pixel By ID API
+  slug: open-madhive-get-pixel-by-id-api
+- collection_type: open
+  name: Madhive Health API
+  slug: open-madhive-health-api
+- collection_type: open
+  name: Madhive line item activation API
+  slug: open-madhive-line-item-activation-api
+- collection_type: open
+  name: Madhive MCP MCP Protocol API
+  slug: open-madhive-mcp-protocol-api
+- collection_type: open
+  name: Madhive media trust status API
+  slug: open-madhive-media-trust-status-api
+- collection_type: open
+  name: Madhive Metros API
+  slug: open-madhive-metros-api
+- collection_type: open
+  name: Madhive modify advertiser API
+  slug: open-madhive-modify-advertiser-api
+- collection_type: open
+  name: Madhive modify agency API
+  slug: open-madhive-modify-agency-api
+- collection_type: open
+  name: Madhive modify campaign API
+  slug: open-madhive-modify-campaign-api
+- collection_type: open
+  name: Madhive modify creative API
+  slug: open-madhive-modify-creative-api
+- collection_type: open
+  name: Madhive modify creative line item API
+  slug: open-madhive-modify-creative-line-item-api
+- collection_type: open
+  name: Madhive modify line item API
+  slug: open-madhive-modify-line-item-api
+- collection_type: open
+  name: Madhive modify retargeting campaign API
+  slug: open-madhive-modify-retargeting-campaign-api
+- collection_type: open
+  name: Madhive modify retargeting creative API
+  slug: open-madhive-modify-retargeting-creative-api
+- collection_type: open
+  name: Madhive modify retargeting line item API
+  slug: open-madhive-modify-retargeting-line-item-api
+- collection_type: open
+  name: Madhive modify retargeting tracking pixel API
+  slug: open-madhive-modify-retargeting-tracking-pixel-api
+- collection_type: open
+  name: Madhive optimization templates API
+  slug: open-madhive-optimization-templates-api
+- collection_type: open
+  name: Madhive Organizations API
+  slug: open-madhive-organizations-api
+- collection_type: open
+  name: Madhive Pixel API
+  slug: open-madhive-pixel-api
+- collection_type: open
+  name: Madhive publisher group API
+  slug: open-madhive-publisher-group-api
+- collection_type: open
+  name: Madhive publisher group modification API
+  slug: open-madhive-publisher-group-modification-api
+- collection_type: open
+  name: Madhive publisher group retrieval API
+  slug: open-madhive-publisher-group-retrieval-api
+- collection_type: open
+  name: Madhive retargeting campaign API
+  slug: open-madhive-retargeting-campaign-api
+- collection_type: open
+  name: Madhive retargeting creative API
+  slug: open-madhive-retargeting-creative-api
+- collection_type: open
+  name: Madhive retargeting line item API
+  slug: open-madhive-retargeting-line-item-api
+- collection_type: open
+  name: Madhive retargeting segment retrieval API
+  slug: open-madhive-retargeting-segment-retrieval-api
+- collection_type: open
+  name: Madhive retargeting tracking pixel API
+  slug: open-madhive-retargeting-tracking-pixel-api
+- collection_type: open
+  name: Madhive retrieve a campaign by its unique identifier API
+  slug: open-madhive-retrieve-a-campaign-by-its-unique-identifier-api
+- collection_type: open
+  name: Madhive retrieve a line item by its unique identifier API
+  slug: open-madhive-retrieve-a-line-item-by-its-unique-identifier-api
+- collection_type: open
+  name: Madhive Search Audiences API
+  slug: open-madhive-search-audiences-api
+- collection_type: open
+  name: Madhive Segments API
+  slug: open-madhive-segments-api
+- collection_type: open
+  name: Madhive Station API
+  slug: open-madhive-station-api
+- collection_type: open
+  name: Madhive Update Audience API
+  slug: open-madhive-update-audience-api
+- collection_type: open
+  name: Madhive update impression goal API
+  slug: open-madhive-update-impression-goal-api
+- collection_type: open
+  name: Madhive update line item budget API
+  slug: open-madhive-update-line-item-budget-api
+- collection_type: open
+  name: Madhive update line item start/end dates API
+  slug: open-madhive-update-line-item-start-end-dates-api
 common:
 - group: agent
   title: ''
@@ -389,7 +591,7 @@ overview: 'MadHive publishes 66 APIs on the [APIs.io](https://apis.io/) network,
 
 
   MadHive''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, FAQ, changelog, and 29 more developer resources.'
-random_paper: 14
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Madhive Rate Limits
@@ -422,7 +624,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/screenshots/madhive-2026-08-07T171916.png
 security:

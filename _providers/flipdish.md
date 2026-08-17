@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 323
   human_in_the_loop: 10
@@ -294,7 +294,7 @@ apis:
 - description: Operations for White Label Config.
   name: Flipdish WhiteLabelConfig API
   slug: flipdish-whitelabelconfig-api
-artifact_total: 1033
+artifact_total: 1119
 collections:
 - collection_type: postman
   name: Flipdish API - Apps Accounts API
@@ -552,35 +552,293 @@ collections:
   name: Flipdish API - Apps Accounts WhiteLabelConfig API
   slug: postman-flipdish-whitelabelconfig-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flipdish API - Apps Accounts API
+  slug: open-flipdish-accounts-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Address API
+  slug: open-flipdish-address-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Apm API
+  slug: open-flipdish-apm-api
+- collection_type: open
+  name: Flipdish API - Accounts Apps API
+  slug: open-flipdish-apps-api
+- collection_type: open
   name: Flipdish API - Apps
   slug: open-flipdish-apps
+- collection_type: open
+  name: Flipdish API - Apps Accounts AppStore API
+  slug: open-flipdish-appstore-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts AppStoreConfigurations API
+  slug: open-flipdish-appstoreconfigurations-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts AppStoreDeveloper API
+  slug: open-flipdish-appstoredeveloper-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts AppStoreEntitlements API
+  slug: open-flipdish-appstoreentitlements-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts AuditLogs API
+  slug: open-flipdish-auditlogs-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts AuthorizationTokens API
+  slug: open-flipdish-authorizationtokens-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts BankAccount API
+  slug: open-flipdish-bankaccount-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Campaigns API
+  slug: open-flipdish-campaigns-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts CardReaders API
+  slug: open-flipdish-cardreaders-api
 - collection_type: open
   name: Flipdish API - Catalog
   slug: open-flipdish-catalog
 - collection_type: open
+  name: Flipdish API - Apps Accounts CatalogChanges API
+  slug: open-flipdish-catalogchanges-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts CatalogGroups API
+  slug: open-flipdish-cataloggroups-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts CatalogImages API
+  slug: open-flipdish-catalogimages-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts CatalogItems API
+  slug: open-flipdish-catalogitems-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts CatalogProducts API
+  slug: open-flipdish-catalogproducts-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Channels API
+  slug: open-flipdish-channels-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Clients API
+  slug: open-flipdish-clients-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts ContentSecurityPolicy API
+  slug: open-flipdish-contentsecuritypolicy-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts CrossSell API
+  slug: open-flipdish-crosssell-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Customers API
+  slug: open-flipdish-customers-api
+- collection_type: open
   name: Flipdish API - Customers
   slug: open-flipdish-customers
+- collection_type: open
+  name: Flipdish API - Apps Accounts DeliveryZone API
+  slug: open-flipdish-deliveryzone-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Device API
+  slug: open-flipdish-device-api
 - collection_type: open
   name: Flipdish API - Devices
   slug: open-flipdish-devices
 - collection_type: open
+  name: Flipdish API - Apps Accounts Drivers API
+  slug: open-flipdish-drivers-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Events API
+  slug: open-flipdish-events-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Features API
+  slug: open-flipdish-features-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Files API
+  slug: open-flipdish-files-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts FirebaseApps API
+  slug: open-flipdish-firebaseapps-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Fpm API
+  slug: open-flipdish-fpm-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts FulfillmentStateConfiguration API
+  slug: open-flipdish-fulfillmentstateconfiguration-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Heartbeat API
+  slug: open-flipdish-heartbeat-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Home API
+  slug: open-flipdish-home-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Hydra API
+  slug: open-flipdish-hydra-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Intercom API
+  slug: open-flipdish-intercom-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Invoices API
+  slug: open-flipdish-invoices-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts KioskEntitlements API
+  slug: open-flipdish-kioskentitlements-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts KioskIot API
+  slug: open-flipdish-kioskiot-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Lightspeed API
+  slug: open-flipdish-lightspeed-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Location API
+  slug: open-flipdish-location-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts LocationAreas API
+  slug: open-flipdish-locationareas-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts LookerDashboard API
+  slug: open-flipdish-lookerdashboard-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts LookerSingleSignOn API
+  slug: open-flipdish-lookersinglesignon-api
+- collection_type: open
   name: Flipdish API - Marketing
   slug: open-flipdish-marketing
+- collection_type: open
+  name: Flipdish API - Apps Accounts MenuOptionSetItems API
+  slug: open-flipdish-menuoptionsetitems-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts MenuOptionSets API
+  slug: open-flipdish-menuoptionsets-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Menus API
+  slug: open-flipdish-menus-api
 - collection_type: open
   name: Flipdish API - Menus
   slug: open-flipdish-menus
 - collection_type: open
+  name: Flipdish API - Apps Accounts MenuSectionItems API
+  slug: open-flipdish-menusectionitems-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts MenuSections API
+  slug: open-flipdish-menusections-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts MenusNutritionInfo API
+  slug: open-flipdish-menusnutritioninfo-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts MenusNutritionInfoV2 API
+  slug: open-flipdish-menusnutritioninfov2-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts MenuZones API
+  slug: open-flipdish-menuzones-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts MetafieldDefinitions API
+  slug: open-flipdish-metafielddefinitions-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts MobileApps API
+  slug: open-flipdish-mobileapps-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts OAuthClients API
+  slug: open-flipdish-oauthclients-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Onboarding API
+  slug: open-flipdish-onboarding-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts OrderBatches API
+  slug: open-flipdish-orderbatches-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts OrderBatchingConfiguration API
+  slug: open-flipdish-orderbatchingconfiguration-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Orders API
+  slug: open-flipdish-orders-api
+- collection_type: open
   name: Flipdish API - Orders
   slug: open-flipdish-orders
+- collection_type: open
+  name: Flipdish API - Apps Accounts PaymentIntents API
+  slug: open-flipdish-paymentintents-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Payments API
+  slug: open-flipdish-payments-api
 - collection_type: open
   name: Flipdish API - Payments
   slug: open-flipdish-payments
 - collection_type: open
+  name: Flipdish API - Apps Accounts PayoutReports API
+  slug: open-flipdish-payoutreports-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Payouts API
+  slug: open-flipdish-payouts-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts PayoutsExport API
+  slug: open-flipdish-payoutsexport-api
+- collection_type: open
   name: Flipdish API - Platform
   slug: open-flipdish-platform
 - collection_type: open
+  name: Flipdish API - Apps Accounts ProcessingFeeConfigs API
+  slug: open-flipdish-processingfeeconfigs-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts PushNotifications API
+  slug: open-flipdish-pushnotifications-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Receipts API
+  slug: open-flipdish-receipts-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts RestaurantVouchersPayGreen API
+  slug: open-flipdish-restaurantvoucherspaygreen-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Search API
+  slug: open-flipdish-search-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts SmsProviderCredentials API
+  slug: open-flipdish-smsprovidercredentials-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts StoreGroups API
+  slug: open-flipdish-storegroups-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts StoreOrderCapacity API
+  slug: open-flipdish-storeordercapacity-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Stores API
+  slug: open-flipdish-stores-api
+- collection_type: open
   name: Flipdish API - Stores
   slug: open-flipdish-stores
+- collection_type: open
+  name: Flipdish API - Apps Accounts StripeCustomConnect API
+  slug: open-flipdish-stripecustomconnect-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Stuart API
+  slug: open-flipdish-stuart-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Subscriptions API
+  slug: open-flipdish-subscriptions-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Teammates API
+  slug: open-flipdish-teammates-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts TerminalIot API
+  slug: open-flipdish-terminaliot-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Tips API
+  slug: open-flipdish-tips-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Users API
+  slug: open-flipdish-users-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Vouchers API
+  slug: open-flipdish-vouchers-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Webhooks API
+  slug: open-flipdish-webhooks-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts Website API
+  slug: open-flipdish-website-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts WhiteLabelBuilds API
+  slug: open-flipdish-whitelabelbuilds-api
+- collection_type: open
+  name: Flipdish API - Apps Accounts WhiteLabelConfig API
+  slug: open-flipdish-whitelabelconfig-api
 common:
 - group: build
   title: ''
@@ -3291,7 +3549,7 @@ plans:
 - name: Flipdish Plans Pricing
   plan_count: 3
   slug: flipdish-plans-pricing
-random_paper: 11
+random_paper: 106
 rate_limits:
 - limit_count: 2
   name: Flipdish Rate Limits
@@ -3344,7 +3602,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/screenshots/flipdish-2026-06-20T181315.png
 security:

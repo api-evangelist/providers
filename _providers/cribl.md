@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -135,26 +135,125 @@ apis:
 - description: Manage Cribl Cloud workspaces which are unique VPC containers each isolating an instance of the Cribl Product Suite including Stream, Edge, Search, and Lake.
   name: Cribl Workspaces API
   slug: cribl-workspaces-api
-artifact_total: 93
+artifact_total: 126
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cribl As Code API Credentials API
+  slug: open-cribl-api-credentials-api
 - collection_type: open
   name: Cribl As Code API
   slug: open-cribl-as-code-api
 - collection_type: open
+  name: Cribl As Code API Credentials Authentication API
+  slug: open-cribl-authentication-api
+- collection_type: open
   name: Cribl Cloud API
   slug: open-cribl-cloud-api
+- collection_type: open
+  name: Cribl As Code API Credentials Collectors API
+  slug: open-cribl-collectors-api
+- collection_type: open
+  name: Cribl As Code API Credentials Database Connections API
+  slug: open-cribl-database-connections-api
+- collection_type: open
+  name: Cribl As Code API Credentials Datasets API
+  slug: open-cribl-datasets-api
+- collection_type: open
+  name: Cribl As Code API Credentials Destinations API
+  slug: open-cribl-destinations-api
 - collection_type: open
   name: Cribl Edge API
   slug: open-cribl-edge-api
 - collection_type: open
+  name: Cribl As Code API Credentials Edge Destinations API
+  slug: open-cribl-edge-destinations-api
+- collection_type: open
+  name: Cribl As Code API Credentials Edge Fleets API
+  slug: open-cribl-edge-fleets-api
+- collection_type: open
+  name: Cribl As Code API Credentials Edge Nodes API
+  slug: open-cribl-edge-nodes-api
+- collection_type: open
+  name: Cribl As Code API Credentials Edge Pipelines API
+  slug: open-cribl-edge-pipelines-api
+- collection_type: open
+  name: Cribl As Code API Credentials Edge Routes API
+  slug: open-cribl-edge-routes-api
+- collection_type: open
+  name: Cribl As Code API Credentials Edge Sources API
+  slug: open-cribl-edge-sources-api
+- collection_type: open
+  name: Cribl As Code API Credentials Functions API
+  slug: open-cribl-functions-api
+- collection_type: open
+  name: Cribl As Code API Credentials Groups API
+  slug: open-cribl-groups-api
+- collection_type: open
+  name: Cribl As Code API Credentials Health API
+  slug: open-cribl-health-api
+- collection_type: open
+  name: Cribl As Code API Credentials Jobs API
+  slug: open-cribl-jobs-api
+- collection_type: open
   name: Cribl Lake API
   slug: open-cribl-lake-api
+- collection_type: open
+  name: Cribl As Code API Credentials Lake Datasets API
+  slug: open-cribl-lake-datasets-api
+- collection_type: open
+  name: Cribl As Code API Credentials Lookups API
+  slug: open-cribl-lookups-api
+- collection_type: open
+  name: Cribl As Code API Credentials Nodes API
+  slug: open-cribl-nodes-api
+- collection_type: open
+  name: Cribl As Code API Credentials Notifications API
+  slug: open-cribl-notifications-api
+- collection_type: open
+  name: Cribl As Code API Credentials Packs API
+  slug: open-cribl-packs-api
+- collection_type: open
+  name: Cribl As Code API Credentials Pipelines API
+  slug: open-cribl-pipelines-api
+- collection_type: open
+  name: Cribl As Code API Credentials Retention API
+  slug: open-cribl-retention-api
+- collection_type: open
+  name: Cribl As Code API Credentials Routes API
+  slug: open-cribl-routes-api
+- collection_type: open
+  name: Cribl As Code API Credentials Saved Searches API
+  slug: open-cribl-saved-searches-api
 - collection_type: open
   name: Cribl Search API
   slug: open-cribl-search-api
 - collection_type: open
+  name: Cribl As Code API Credentials Search Jobs API
+  slug: open-cribl-search-jobs-api
+- collection_type: open
+  name: Cribl As Code API Credentials Search Notifications API
+  slug: open-cribl-search-notifications-api
+- collection_type: open
+  name: Cribl As Code API Credentials Sources API
+  slug: open-cribl-sources-api
+- collection_type: open
   name: Cribl Stream API
   slug: open-cribl-stream-api
+- collection_type: open
+  name: Cribl As Code API Credentials System API
+  slug: open-cribl-system-api
+- collection_type: open
+  name: Cribl As Code API Credentials Versioning API
+  slug: open-cribl-versioning-api
+- collection_type: open
+  name: Cribl As Code API Credentials Worker Groups API
+  slug: open-cribl-worker-groups-api
+- collection_type: open
+  name: Cribl As Code API Credentials Workspaces API
+  slug: open-cribl-workspaces-api
 common:
 - group: agent
   title: ''
@@ -387,7 +486,7 @@ plans:
 - name: Cribl Plans Pricing
   plan_count: 3
   slug: cribl-plans-pricing
-random_paper: 44
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Cribl Rate Limits
@@ -474,7 +573,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/screenshots/cribl-2026-06-20T175228.png
 security:

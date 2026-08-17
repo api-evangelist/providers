@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Tags API from Amazon CodeGuru Profiler — 2 operation(s) for tags.
   name: Amazon CodeGuru Profiler Tags API
   slug: amazon-codeguru-profiler-tags-api
-artifact_total: 325
+artifact_total: 330
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CodeGuru Profiler Internal API
+  slug: open-amazon-codeguru-profiler-internal-api
+- collection_type: open
+  name: Amazon CodeGuru Profiler Internal ProfilingGroups API
+  slug: open-amazon-codeguru-profiler-profilinggroups-api
+- collection_type: open
+  name: Amazon CodeGuru Profiler Internal ProfilingGroups#clientToken API
+  slug: open-amazon-codeguru-profiler-profilinggroups-clienttoken-api
+- collection_type: open
+  name: Amazon CodeGuru Profiler Internal Tags API
+  slug: open-amazon-codeguru-profiler-tags-api
 common:
 - group: agent
   title: ''
@@ -1046,7 +1062,7 @@ overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Profiler''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
-random_paper: 65
+random_paper: 81
 rules:
 - name: Amazon CodeGuru Profiler API Rules
   rule_count: 5
@@ -1086,7 +1102,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:

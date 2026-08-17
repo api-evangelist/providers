@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -164,7 +164,7 @@ overview: 'Jupiter Money is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Jupiter Money''s developer surface includes engineering blog, YouTube channel, and 28 more developer resources.'
-random_paper: 48
+random_paper: 27
 score:
   band: minimal
   composite: 12.0
@@ -184,7 +184,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupiter-money/refs/heads/main/screenshots/jupiter-money-2026-06-20T183838.png
 security:

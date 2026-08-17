@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: The Users API from Recraft — 1 operation(s) for users.
   name: Recraft Users API
   slug: recraft-users-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Recraft Images API
+  slug: open-recraft-images-api
+- collection_type: open
+  name: Recraft Images Prompts API
+  slug: open-recraft-prompts-api
+- collection_type: open
+  name: Recraft Images Styles API
+  slug: open-recraft-styles-api
+- collection_type: open
+  name: Recraft Images Users API
+  slug: open-recraft-users-api
 - collection_type: open
   name: Recraft API
   slug: open-recraft
@@ -132,7 +147,7 @@ plans:
 - name: Recraft Plans Pricing
   plan_count: 1
   slug: recraft-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 2
   name: Recraft Rate Limits
@@ -157,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/screenshots/recraft-2026-06-20T192705.png
 security:

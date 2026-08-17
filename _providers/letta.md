@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 346
   human_in_the_loop: 8
@@ -162,15 +162,162 @@ apis:
 - description: Voice (low-latency) chat completions endpoint for agents.
   name: Letta Voice API
   slug: letta-voice-api
-artifact_total: 446
+artifact_total: 495
 asyncapis:
 - description: AsyncAPI 2.6 description of Letta's **agent message streaming** surface. Letta does not publish a WebSocket API. The only asynchronous / event-style transport documented in Letta's OpenAPI spec (https
   name: Letta Agent Message Streaming (HTTP + SSE)
   slug: letta-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Letta Admin API
+  slug: open-letta-admin-api
+- collection_type: open
+  name: Letta Agent Templates API
+  slug: open-letta-agent-templates-api
+- collection_type: open
+  name: Letta Admin Agents API
+  slug: open-letta-agents-api
+- collection_type: open
   name: Letta API
   slug: open-letta-ai
+- collection_type: open
+  name: Letta Agent Templates Archival Memory API
+  slug: open-letta-archival-memory-api
+- collection_type: open
+  name: Letta Admin Archives API
+  slug: open-letta-archives-api
+- collection_type: open
+  name: Letta Admin Blocks API
+  slug: open-letta-blocks-api
+- collection_type: open
+  name: Letta Admin Chat API
+  slug: open-letta-chat-api
+- collection_type: open
+  name: Letta Agent Templates Chat Completions API
+  slug: open-letta-chat-completions-api
+- collection_type: open
+  name: Letta Admin Client-Side Access Tokens API
+  slug: open-letta-client-side-access-tokens-api
+- collection_type: open
+  name: Letta Admin Conversations API
+  slug: open-letta-conversations-api
+- collection_type: open
+  name: Letta Admin Device Storage API
+  slug: open-letta-device-storage-api
+- collection_type: open
+  name: Letta Admin Embeddings API
+  slug: open-letta-embeddings-api
+- collection_type: open
+  name: Letta Admin Environments API
+  slug: open-letta-environments-api
+- collection_type: open
+  name: Letta Admin Feeds API
+  slug: open-letta-feeds-api
+- collection_type: open
+  name: Letta Admin Folders API
+  slug: open-letta-folders-api
+- collection_type: open
+  name: Letta Admin Groups API
+  slug: open-letta-groups-api
+- collection_type: open
+  name: Letta Admin Health API
+  slug: open-letta-health-api
+- collection_type: open
+  name: Letta Admin Identities API
+  slug: open-letta-identities-api
+- collection_type: open
+  name: Letta Admin Internal Agents API
+  slug: open-letta-internal-agents-api
+- collection_type: open
+  name: Letta Admin Internal Blocks API
+  slug: open-letta-internal-blocks-api
+- collection_type: open
+  name: Letta Admin Internal Runs API
+  slug: open-letta-internal-runs-api
+- collection_type: open
+  name: Letta Admin Internal Templates API
+  slug: open-letta-internal-templates-api
+- collection_type: open
+  name: Letta Admin Jobs API
+  slug: open-letta-jobs-api
+- collection_type: open
+  name: Letta Admin LLMs API
+  slug: open-letta-llms-api
+- collection_type: open
+  name: Letta Admin MCP Servers API
+  slug: open-letta-mcp-servers-api
+- collection_type: open
+  name: Letta Agent Templates Memory Blocks API
+  slug: open-letta-memory-blocks-api
+- collection_type: open
+  name: Letta Admin Memory Files API
+  slug: open-letta-memory-files-api
+- collection_type: open
+  name: Letta Admin Messages API
+  slug: open-letta-messages-api
+- collection_type: open
+  name: Letta Admin Metadata API
+  slug: open-letta-metadata-api
+- collection_type: open
+  name: Letta Agent Templates Models and Providers API
+  slug: open-letta-models-and-providers-api
+- collection_type: open
+  name: Letta Admin Models API
+  slug: open-letta-models-api
+- collection_type: open
+  name: Letta Agent Templates Multi-Agent Groups API
+  slug: open-letta-multi-agent-groups-api
+- collection_type: open
+  name: Letta Admin Passages API
+  slug: open-letta-passages-api
+- collection_type: open
+  name: Letta Admin Pipelines API
+  slug: open-letta-pipelines-api
+- collection_type: open
+  name: Letta Admin Projects API
+  slug: open-letta-projects-api
+- collection_type: open
+  name: Letta Admin Providers API
+  slug: open-letta-providers-api
+- collection_type: open
+  name: Letta Admin Runs API
+  slug: open-letta-runs-api
+- collection_type: open
+  name: Letta Agent Templates Runs, Jobs and Steps API
+  slug: open-letta-runs-jobs-and-steps-api
+- collection_type: open
+  name: Letta Admin Sandboxes API
+  slug: open-letta-sandboxes-api
+- collection_type: open
+  name: Letta Admin Scheduled Messages API
+  slug: open-letta-scheduled-messages-api
+- collection_type: open
+  name: Letta Agent Templates Sources and Files API
+  slug: open-letta-sources-and-files-api
+- collection_type: open
+  name: Letta Admin Sources API
+  slug: open-letta-sources-api
+- collection_type: open
+  name: Letta Admin Steps API
+  slug: open-letta-steps-api
+- collection_type: open
+  name: Letta Admin Tag API
+  slug: open-letta-tag-api
+- collection_type: open
+  name: Letta Admin Telemetry API
+  slug: open-letta-telemetry-api
+- collection_type: open
+  name: Letta Admin Templates API
+  slug: open-letta-templates-api
+- collection_type: open
+  name: Letta Admin Tools API
+  slug: open-letta-tools-api
+- collection_type: open
+  name: Letta Admin Voice API
+  slug: open-letta-voice-api
 - collection_type: open
   name: Letta API
   slug: open-letta
@@ -1477,7 +1624,7 @@ plans:
 - name: Letta Plans Pricing
   plan_count: 3
   slug: letta-plans-pricing
-random_paper: 58
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Letta Rate Limits
@@ -1519,7 +1666,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/screenshots/letta-2026-07-25T224937.png
 security:

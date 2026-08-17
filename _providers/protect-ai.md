@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -136,7 +136,7 @@ overview: 'Protect AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Protect AI''s developer surface includes engineering blog, training material, documentation, YouTube channel, and 19 more developer resources.'
-random_paper: 56
+random_paper: 122
 score:
   band: minimal
   composite: 7.9
@@ -150,7 +150,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protect-ai/refs/heads/main/screenshots/protect-ai-2026-06-20T192212.png
 security:

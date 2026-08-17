@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Operations for managing security sources
   name: Google Cloud Security Command Center Sources API
   slug: google-cloud-security-command-center-sources-api
-artifact_total: 20
+artifact_total: 25
 collections:
 - collection_type: postman
   name: Google Cloud Security Command Center Assets API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Google Cloud Security Command Center Assets Sources API
   slug: postman-google-cloud-security-command-center-sources-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Security Command Center Assets API
+  slug: open-google-cloud-security-command-center-assets-api
+- collection_type: open
+  name: Google Cloud Security Command Center Assets Findings API
+  slug: open-google-cloud-security-command-center-findings-api
+- collection_type: open
+  name: Google Cloud Security Command Center Assets NotificationConfigs API
+  slug: open-google-cloud-security-command-center-notificationconfigs-api
+- collection_type: open
+  name: Google Cloud Security Command Center Assets Sources API
+  slug: open-google-cloud-security-command-center-sources-api
 - collection_type: open
   name: Google Cloud Security Command Center API
   slug: open-security-command-center-api
@@ -173,7 +188,7 @@ plans:
 - name: Google Cloud Security Command Center Plans Pricing
   plan_count: 3
   slug: google-cloud-security-command-center-plans-pricing
-random_paper: 16
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Google Cloud Security Command Center Rate Limits
@@ -212,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/screenshots/google-cloud-security-command-center-2026-06-20T182136.png
 security:

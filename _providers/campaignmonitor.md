@@ -10,31 +10,36 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
+  score: 50.9
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, subscriber lists, transactional emails, segments, journeys, templates, and campaign performance analytics.
   name: Campaign Monitor API
   slug: campaign-monitor-api
-artifact_total: 8
+artifact_total: 12
+asyncapis:
+- description: ''
+  name: Campaignmonitor Webhooks
+  slug: campaignmonitor-webhooks
 common:
 - group: auth
   title: ''
@@ -100,8 +105,104 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/campaignmonitor-context.jsonld
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.campaignmonitor.com/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.campaignmonitor.com/api/v3-3/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.campaignmonitor.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.campaignmonitor.com/signup/
+- group: start
+  title: ''
+  type: Login
+  url: https://login.createsend.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.campaignmonitor.com/policies/#terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.campaignmonitor.com/policies/#privacy-policy
+- group: build
+  title: ''
+  type: Packages
+  url: packages/campaignmonitor-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/campaignmonitor-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/campaignmonitor-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/campaignmonitor-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/campaignmonitor-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/campaignmonitor-conformance.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/campaignmonitor-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/campaignmonitor-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/campaignmonitor-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/campaignmonitor-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/campaignmonitor-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/campaignmonitor-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/campaignmonitor-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/campaignmonitor-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/campaignmonitor-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/campaignmonitor-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/campaignmonitor-llms.txt
 created: '2026-06-13'
-description: Email marketing platform with a REST API for managing campaigns, subscriber lists, transactional emails, segments, and accessing campaign performance analytics.
+description: Campaign Monitor, a Marigold brand, is an email marketing platform for marketers and agencies. Its REST API — served under the original createsend name at api.createsend.com/api/v3.3 — manages clients, subscriber lists, subscribers and custom fields, segments, campaigns, HTML templates, automated journeys, authenticated sending domains and transactional email, and returns per-recipient reporting for opens, clicks, bounces, unsubscribes and spam complaints. Authentication is OAuth 2.0 with twelve coarse permissions, or an API key over HTTP Basic. Per-list webhooks push Subscribe, Update and Deactivate events. Campaign Monitor publishes no OpenAPI, no AsyncAPI and no MCP server; the contract is HTML reference documentation plus seven official client libraries.
 finops:
 - name: Campaignmonitor Finops
   service_category: ''
@@ -113,49 +214,62 @@ jsonld:
   property_count: 1
   slug: campaignmonitor-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: campaignmonitor-mcp.yml
+  slug: campaignmonitor-mcpyml
+modified: '2026-08-13'
 name: Campaign Monitor
 nav: Providers
 network: true
 overview: 'Campaign Monitor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email Marketing, Campaigns, Subscribers, Transactional Email, and Segments.
 
 
-  The Campaign Monitor catalog on APIs.io includes 1 JSON-LD context.
+  The Campaign Monitor catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Campaign Monitor''s developer surface includes documentation, engineering blog, pricing, and 13 more developer resources.'
+  Campaign Monitor''s developer surface includes documentation, engineering blog, pricing, getting-started guide, support, signup flow, authentication, and 33 more developer resources.'
 plans:
 - name: Campaignmonitor Plans Pricing
   plan_count: 5
   slug: campaignmonitor-plans-pricing
-random_paper: 48
+random_paper: 118
 rate_limits:
 - limit_count: 2
   name: Campaignmonitor Rate Limits
   slug: campaignmonitor-rate-limits
+scopes:
+- name: Campaignmonitor Scopes
+  scope_count: 0
+  slug: campaignmonitor-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 35.6
-  delta: 0.0
+  band: exemplar
+  composite: 69.2
+  delta: 33.6
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 45.2
-    developer_ergonomics: 10.9
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 42.1
+    commercial_clarity: 100.0
+    contract_quality: 64.5
+    developer_ergonomics: 60.9
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 76.3
   previous_composite: 35.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 30.6
+    score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/screenshots/campaignmonitor-2026-06-20T173912.png
 security:
+- kind: authentication
+  name: Campaignmonitor Authentication
+  slug: campaignmonitor-authentication
+  summary_line: oauth2/http · 2 schemes
 - kind: domain-security
   name: Campaignmonitor Domain Security
   slug: campaignmonitor-domain-security
@@ -177,5 +291,9 @@ tags:
 - Segments
 - Newsletters
 - Automation
+- Marketing Automation
+- Webhooks
+- Email Deliverability
+- Marketing
 website: https://www.campaignmonitor.com/
 ---

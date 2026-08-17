@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ arazzos:
 - description: Authenticate, submit a tick history extraction, check the job status, and download the result when complete.
   name: Refinitiv Eikon Tick History Extraction and Poll
   slug: refinitiv-eikon-tickhistory-extraction-poll-workflow
-artifact_total: 112
+artifact_total: 127
 asyncapis:
 - description: Standards-based WebSocket API providing real-time streaming market data using JSON message formats following the Open Message Model (OMM). Connects to Refinitiv Real-Time Distribution Systems (RTDS) a
   name: LSEG (Refinitiv) Real-Time WebSocket API
@@ -248,11 +248,56 @@ collections:
   name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Symbology API
   slug: postman-refinitiv-eikon-symbology-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication API
+  slug: open-refinitiv-eikon-authentication-api
+- collection_type: open
   name: Refinitiv Eikon Refinitiv Data Platform APIs
   slug: open-refinitiv-eikon-data-platform
 - collection_type: open
   name: Refinitiv Eikon LSEG DataScope Select REST API
   slug: open-refinitiv-eikon-datascope-select
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication ESG API
+  slug: open-refinitiv-eikon-esg-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Extractions API
+  slug: open-refinitiv-eikon-extractions-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Files API
+  slug: open-refinitiv-eikon-files-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Historical Pricing API
+  slug: open-refinitiv-eikon-historical-pricing-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Instrument Lists API
+  slug: open-refinitiv-eikon-instrument-lists-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Jobs API
+  slug: open-refinitiv-eikon-jobs-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication News API
+  slug: open-refinitiv-eikon-news-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication On-Demand Extractions API
+  slug: open-refinitiv-eikon-on-demand-extractions-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Report Templates API
+  slug: open-refinitiv-eikon-report-templates-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Schedules API
+  slug: open-refinitiv-eikon-schedules-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Search API
+  slug: open-refinitiv-eikon-search-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Streaming Pricing API
+  slug: open-refinitiv-eikon-streaming-pricing-api
+- collection_type: open
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Symbology API
+  slug: open-refinitiv-eikon-symbology-api
 - collection_type: open
   name: Refinitiv Eikon LSEG Tick History REST API
   slug: open-refinitiv-eikon-tick-history
@@ -537,7 +582,7 @@ plans:
 - name: Refinitiv Eikon Plans Pricing
   plan_count: 1
   slug: refinitiv-eikon-plans-pricing
-random_paper: 115
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Refinitiv Eikon Rate Limits
@@ -593,7 +638,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:

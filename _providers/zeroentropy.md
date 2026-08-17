@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Admin API from ZeroEntropy — 7 operation(s) for admin.
@@ -52,7 +52,32 @@ apis:
 - description: The Usage API from ZeroEntropy — 6 operation(s) for usage.
   name: ZeroEntropy Usage API
   slug: zeroentropy-usage-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZeroEntropy Admin API
+  slug: open-zeroentropy-admin-api
+- collection_type: open
+  name: ZeroEntropy Admin Collections API
+  slug: open-zeroentropy-collections-api
+- collection_type: open
+  name: ZeroEntropy Admin Documents API
+  slug: open-zeroentropy-documents-api
+- collection_type: open
+  name: ZeroEntropy Admin Models API
+  slug: open-zeroentropy-models-api
+- collection_type: open
+  name: ZeroEntropy Admin Queries API
+  slug: open-zeroentropy-queries-api
+- collection_type: open
+  name: ZeroEntropy Admin Status API
+  slug: open-zeroentropy-status-api
+- collection_type: open
+  name: ZeroEntropy Admin Usage API
+  slug: open-zeroentropy-usage-api
 common:
 - group: agent
   title: ''
@@ -154,7 +179,7 @@ overview: 'ZeroEntropy publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ZeroEntropy''s developer surface includes authentication, documentation, API reference, quickstart, signup flow, pricing, engineering blog, and 14 more developer resources.'
-random_paper: 33
+random_paper: 41
 score:
   band: developing
   composite: 48.7
@@ -177,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

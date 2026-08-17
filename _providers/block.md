@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -95,11 +95,29 @@ arazzos:
 - description: Take a card payment and immediately re-read it to confirm the final status.
   name: Block Square Take Payment And Verify
   slug: block-take-payment-and-verify-workflow
-artifact_total: 58
+artifact_total: 64
 collections:
 - collection_type: postman
   name: Square API
   slug: postman-block-square-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Square Catalog API
+  slug: open-block-catalog-api
+- collection_type: open
+  name: Square Catalog Customers API
+  slug: open-block-customers-api
+- collection_type: open
+  name: Square Catalog Merchants API
+  slug: open-block-merchants-api
+- collection_type: open
+  name: Square Catalog Orders API
+  slug: open-block-orders-api
+- collection_type: open
+  name: Square Catalog Payments API
+  slug: open-block-payments-api
 common:
 - group: other
   title: ''
@@ -348,7 +366,7 @@ plans:
 - name: Block Plans Pricing
   plan_count: 3
   slug: block-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Block Rate Limits
@@ -401,7 +419,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png
 security:

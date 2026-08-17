@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Happytal
 nav: Providers
 network: true
 overview: Happytal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Healthcare, Health, and France.
-random_paper: 27
+random_paper: 122
 score:
   band: minimal
   composite: 11.0
@@ -84,7 +84,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happytal/refs/heads/main/screenshots/happytal-2026-07-25T220701.png
 security:

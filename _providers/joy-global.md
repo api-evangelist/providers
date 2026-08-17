@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Joy Global Inc. announces the acquisition of LeTourneau ...
   url: https://www.mlex.com/mlex/articles/2236199/company-statement-joy-global-inc-announces-the-acquisition-of-letourneau-technologies-inc
-random_paper: 48
+random_paper: 114
 score:
   band: minimal
   composite: 4.1
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joy-global/refs/heads/main/screenshots/joy-global-2026-06-20T183805.png
 security:

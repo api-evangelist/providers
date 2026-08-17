@@ -1,35 +1,41 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
+  confidence: high
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: 'Mutiny''s first-party hosted, remote Model Context Protocol server — the company''s only machine-callable surface. It lets an MCP-compatible assistant (Claude web, Claude Desktop, Claude Code, ChatGPT) '
+  name: Mutiny MCP Server
+  slug: mutiny-mcp-server
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -47,10 +53,58 @@ common:
   title: ''
   type: DomainSecurity
   url: security/mutiny-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mutiny-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/mutiny-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/mutiny-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mutiny-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/mutiny-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mutiny-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mutiny-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mutiny-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/mutiny-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/mutiny-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mutiny-packages.yml
 - group: docs
   title: ''
   type: Documentation
   url: https://help.mutinyhq.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.mutinyhq.com/articles/5003451538-connecting-mutiny-to-claude
 - group: operate
   title: ''
   type: Support
@@ -88,36 +142,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/mutinyhq
 created: '2026-07-17'
-description: 'Mutiny (mutinyhq.com) is the GTM assistant built for customer-facing work and workflow automation — vertical AI built specifically for sales execution. Founded in 2018 as part of Y Combinator''s S18 batch by Jaleh Rezaei (CEO) and Nikhil Mathew (CTO) and headquartered in New York City, Mutiny helps B2B revenue teams generate on-brand, deal-ready assets (self-updating deal rooms, pitch decks, pricing proposals, business cases, competitive comparisons, and AI-generated ABM campaigns) and automate the repetitive work around deals through agents, skills, and routines. The platform advertises Model Context Protocol (MCP) interoperability with Claude and other MCP-compatible tools and integrates with common GTM systems (CRM, email, the wider revenue stack). It is used by revenue teams at Snowflake, Uber, Rippling, GitLab, Figma, and BMC. Mutiny has raised $72M from Sequoia Capital, Insight Partners, Tiger Global, Cowboy Ventures, and Y Combinator. Note: Mutiny publishes no public
-  REST API, OpenAPI, or developer portal at this time — this profile captures its identity, provider-authored LLM information, and probed security posture. (Its earlier website-personalization / A/B-testing product has been retired.)'
+description: Mutiny (mutinyhq.com) is the GTM assistant built for customer-facing work and workflow automation — vertical AI built specifically for sales execution. Founded in 2018 as part of Y Combinator's S18 batch by Jaleh Rezaei (CEO) and Nikhil Mathew (CTO) and headquartered in New York City, Mutiny helps B2B revenue teams generate on-brand, deal-ready assets (self-updating deal rooms, pitch decks, pricing proposals, business cases, competitive comparisons, and AI-generated ABM campaigns) and automate the repetitive work around deals through agents, skills, and routines. The platform advertises Model Context Protocol (MCP) interoperability with Claude and other MCP-compatible tools and integrates with common GTM systems (CRM, email, the wider revenue stack). It is used by revenue teams at Snowflake, Uber, Rippling, GitLab, Figma, and BMC. Mutiny has raised $72M from Sequoia Capital, Insight Partners, Tiger Global, Cowboy Ventures, and Y Combinator. Mutiny's machine-callable surface
+  is a first-party hosted, remote Model Context Protocol server at https://mcp.mutinyhq.com/mcp, protected by OAuth 2.1 with PKCE and dynamic client registration and publishing five scopes covering asset creation, publication, and content-library management. There is no public REST API, no OpenAPI, no GraphQL endpoint, and no developer portal — MCP is the whole contract. (Its earlier website-personalization / A/B-testing product has been retired, along with the React SDK that served it.)
 image: https://framerusercontent.com/assets/Ec1hAhKLtluxlMfLydNP0NTrIA.png
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: mutiny-mcp.yml
+  slug: mutiny-mcpyml
+modified: '2026-08-13'
 name: Mutiny
 nav: Providers
 network: true
-overview: 'Mutiny is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Sales, Marketing, and Go-To-Market.
+overview: 'Mutiny publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Sales, Marketing, and Go-To-Market.
 
 
-  Mutiny''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 78
+  Mutiny''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+plans:
+- name: Mutiny Plans Pricing
+  plan_count: 3
+  slug: mutiny-plans-pricing
+random_paper: 82
+rate_limits:
+- limit_count: 3
+  name: Mutiny Rate Limits
+  slug: mutiny-rate-limits
+scopes:
+- name: Mutiny Scopes
+  scope_count: 0
+  slug: mutiny-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 18.4
-  delta: 0.0
+  band: thin
+  composite: 41.0
+  delta: 22.6
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 5.3
+    developer_ergonomics: 45.7
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 36.8
   previous_composite: 18.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/screenshots/mutiny-2026-08-07T184451.png
 security:
+- kind: authentication
+  name: Mutiny Authentication
+  slug: mutiny-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Mutiny Domain Security
   slug: mutiny-domain-security
@@ -134,5 +209,6 @@ tags:
 - Sales Enablement
 - Account Based Marketing
 - Workflow Automation
+- Model Context Protocol
 website: https://www.mutinyhq.com
 ---

@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -67,19 +67,49 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/tungee-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/tungee-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/tungee-rate-limits.yml
+coverage:
+  checked: '2026-08-14'
+  detail: 'Tungee markets an open API on its CRM integration page ("API接口灵活调用 -- 提供灵活开放的数据和功能调用接口，0代码对接") but publishes no reference for it anywhere: no developer host resolves in DNS (api./open./openapi./docs./developer. tungee.com are all NXDOMAIN) and the only route to it is an authenticated tenant at user.tungee.com.'
+  evidence:
+  - status: 200
+    url: https://www.tungee.com/solution/integrate/
+  - status: 200
+    url: https://www.tungee.com/sitemap-0.xml
+  - status: 404
+    url: https://www.tungee.com/.well-known/api-catalog
+  - status: 404
+    url: https://futern.com/openapi.json
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
 description: Tungee (Guangzhou Tungee Technology Co., Ltd., 探迹科技) is a Chinese AI sales-intelligence company backed by Qiming Venture Partners. Its Tungee AI Sales Cloud covers the full B2B sales cycle -- AI prospecting over a 300M+ company knowledge graph, inbound capture, outreach via call center, SMS, and email, and an AI CRM -- plus a Sales GPT agent line, a mobile app, and a DingTalk edition. The group also operates Futern, an international B2B leads product, and reports 50,000+ customers. Tungee publishes no public developer portal or API documentation.
 image: https://cdn.tungee.com/warehouse/logo/T.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: Tungee
 nav: Providers
 network: true
 overview: 'Tungee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Intelligence, CRM, Lead Generation, and AI Agents.
 
 
-  Tungee''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 48
+  Tungee''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
+plans:
+- name: Tungee Plans Pricing
+  plan_count: 0
+  slug: tungee-plans-pricing
+random_paper: 52
+rate_limits:
+- limit_count: 0
+  name: Tungee Rate Limits
+  slug: tungee-rate-limits
 score:
   band: emerging
   composite: 13.9
@@ -93,7 +123,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

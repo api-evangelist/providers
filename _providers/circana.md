@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
 - description: Retailer data and channel analytics
   name: Circana Retailers API
   slug: circana-retailers-api
-artifact_total: 132
+artifact_total: 140
 collections:
 - collection_type: postman
   name: Circana Liquid Data Brands API
@@ -122,6 +122,30 @@ collections:
 - collection_type: postman
   name: Circana Liquid Data Brands Retailers API
   slug: postman-circana-retailers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Circana Liquid Data Brands API
+  slug: open-circana-brands-api
+- collection_type: open
+  name: Circana Liquid Data Brands Categories API
+  slug: open-circana-categories-api
+- collection_type: open
+  name: Circana Liquid Data Brands Consumer Panel API
+  slug: open-circana-consumer-panel-api
+- collection_type: open
+  name: Circana Liquid Data Brands Exports API
+  slug: open-circana-exports-api
+- collection_type: open
+  name: Circana Liquid Data Brands Market Data API
+  slug: open-circana-market-data-api
+- collection_type: open
+  name: Circana Liquid Data Brands Reports API
+  slug: open-circana-reports-api
+- collection_type: open
+  name: Circana Liquid Data Brands Retailers API
+  slug: open-circana-retailers-api
 common:
 - group: build
   title: ''
@@ -472,7 +496,7 @@ plans:
 - name: Circana Plans Pricing
   plan_count: 1
   slug: circana-plans-pricing
-random_paper: 1
+random_paper: 125
 rate_limits:
 - limit_count: 2
   name: Circana Rate Limits
@@ -514,7 +538,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/screenshots/circana-2026-06-20T174349.png
 security:

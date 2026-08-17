@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Endpoints for searching, listing, and retrieving detailed property information including for-sale, for-rent, and recently sold listings.
   name: realtor Properties API
   slug: realtor-properties-api
-artifact_total: 20
+artifact_total: 25
 asyncapis:
 - description: The Realtor.com Connections Plus API provides a direct connection between the Realtor.com lead delivery system and supporting CRM platforms. It enables real estate agents, brokers, and offices to rece
   name: Realtor.com Connections Plus Events
@@ -66,6 +66,21 @@ asyncapis:
   name: Realtor.com Lead Delivery Events
   slug: realtor-lead-delivery-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Realtor.com Property Data Agents API
+  slug: open-realtor-agents-api
+- collection_type: open
+  name: Realtor.com Property Data Agents Finance API
+  slug: open-realtor-finance-api
+- collection_type: open
+  name: Realtor.com Property Data Agents Locations API
+  slug: open-realtor-locations-api
+- collection_type: open
+  name: Realtor.com Property Data Agents Properties API
+  slug: open-realtor-properties-api
 - collection_type: open
   name: Realtor.com Property Data API
   slug: open-realtor-property-data
@@ -136,7 +151,7 @@ plans:
 - name: Realtor Plans Pricing
   plan_count: 1
   slug: realtor-plans-pricing
-random_paper: 41
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Realtor Rate Limits
@@ -178,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/screenshots/realtor-2026-06-20T192649.png
 security:

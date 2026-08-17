@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Look Up Practitioners API from Orderly Health — 1 operation(s) for look up practitioners.
   name: Orderly Health Look Up Practitioners API
   slug: orderly-health-look-up-practitioners-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orderly Provider Directory Look Up Practitioners API
+  slug: open-orderly-health-look-up-practitioners-api
 common:
 - group: other
   title: ''
@@ -151,7 +158,7 @@ overview: 'Orderly Health publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Orderly Health''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 16 more developer resources.'
-random_paper: 4
+random_paper: 103
 score:
   band: developing
   composite: 42.7
@@ -181,7 +188,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/screenshots/orderly-health-2026-08-07T190912.png
 security:

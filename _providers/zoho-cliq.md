@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -105,7 +105,77 @@ apis:
 - description: User Preferences Module
   name: Zoho Cliq userpreferences API
   slug: zoho-cliq-userpreferences-api
-artifact_total: 74
+artifact_total: 97
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bots API
+  slug: open-zoho-cliq-bots-api
+- collection_type: open
+  name: Bots buttons API
+  slug: open-zoho-cliq-buttons-api
+- collection_type: open
+  name: Bots chats API
+  slug: open-zoho-cliq-chats-api
+- collection_type: open
+  name: Bots dndsettings API
+  slug: open-zoho-cliq-dndsettings-api
+- collection_type: open
+  name: Bots Extensions API
+  slug: open-zoho-cliq-extensions-api
+- collection_type: open
+  name: Bots Functions API
+  slug: open-zoho-cliq-functions-api
+- collection_type: open
+  name: Bots keyboardshortcuts API
+  slug: open-zoho-cliq-keyboardshortcuts-api
+- collection_type: open
+  name: Bots mentions API
+  slug: open-zoho-cliq-mentions-api
+- collection_type: open
+  name: Bots messageactions API
+  slug: open-zoho-cliq-messageactions-api
+- collection_type: open
+  name: Bots messagecards API
+  slug: open-zoho-cliq-messagecards-api
+- collection_type: open
+  name: Bots messageformat API
+  slug: open-zoho-cliq-messageformat-api
+- collection_type: open
+  name: Bots messages API
+  slug: open-zoho-cliq-messages-api
+- collection_type: open
+  name: Bots mobilesettings API
+  slug: open-zoho-cliq-mobilesettings-api
+- collection_type: open
+  name: Bots mypins API
+  slug: open-zoho-cliq-mypins-api
+- collection_type: open
+  name: Bots pinmessages API
+  slug: open-zoho-cliq-pinmessages-api
+- collection_type: open
+  name: Bots Platform_storage API
+  slug: open-zoho-cliq-platform-storage-api
+- collection_type: open
+  name: Bots reminders API
+  slug: open-zoho-cliq-reminders-api
+- collection_type: open
+  name: Bots scheduledmessages API
+  slug: open-zoho-cliq-scheduledmessages-api
+- collection_type: open
+  name: Bots slashcommands API
+  slug: open-zoho-cliq-slashcommands-api
+- collection_type: open
+  name: Bots Stars API
+  slug: open-zoho-cliq-stars-api
+- collection_type: open
+  name: Bots threads API
+  slug: open-zoho-cliq-threads-api
+- collection_type: open
+  name: Bots userpreferences API
+  slug: open-zoho-cliq-userpreferences-api
 common:
 - group: agent
   title: ''
@@ -327,7 +397,7 @@ plans:
 - name: Zoho Cliq Plans Pricing
   plan_count: 4
   slug: zoho-cliq-plans-pricing
-random_paper: 78
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Zoho Cliq Rate Limits
@@ -366,7 +436,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/screenshots/zoho-cliq-2026-06-20T201935.png
 security:

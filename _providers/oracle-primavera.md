@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Work Breakdown Structure management
   name: Oracle Primavera WBS API
   slug: oracle-primavera-wbs-api
-artifact_total: 27
+artifact_total: 34
 collections:
 - collection_type: postman
   name: Oracle Primavera P6 EPPM REST Activities API
@@ -87,8 +87,29 @@ collections:
   name: Oracle Primavera P6 EPPM REST Activities WBS API
   slug: postman-oracle-primavera-wbs-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Primavera P6 EPPM REST Activities API
+  slug: open-oracle-primavera-activities-api
+- collection_type: open
+  name: Oracle Primavera P6 EPPM REST Activities Baselines API
+  slug: open-oracle-primavera-baselines-api
+- collection_type: open
   name: Oracle Primavera P6 EPPM REST API
   slug: open-oracle-primavera-p6-eppm
+- collection_type: open
+  name: Oracle Primavera P6 EPPM REST Activities Projects API
+  slug: open-oracle-primavera-projects-api
+- collection_type: open
+  name: Oracle Primavera P6 EPPM REST Activities ResourceAssignments API
+  slug: open-oracle-primavera-resourceassignments-api
+- collection_type: open
+  name: Oracle Primavera P6 EPPM REST Activities Resources API
+  slug: open-oracle-primavera-resources-api
+- collection_type: open
+  name: Oracle Primavera P6 EPPM REST Activities WBS API
+  slug: open-oracle-primavera-wbs-api
 common:
 - group: build
   title: ''
@@ -205,7 +226,7 @@ plans:
 - name: Oracle Primavera Plans Pricing
   plan_count: 3
   slug: oracle-primavera-plans-pricing
-random_paper: 82
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Oracle Primavera Rate Limits
@@ -244,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/screenshots/oracle-primavera-2026-06-20T191153.png
 security:

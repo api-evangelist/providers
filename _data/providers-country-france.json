@@ -1,6 +1,6 @@
 {
- "total": 90,
- "shown": 90,
+ "total": 104,
+ "shown": 104,
  "limit": 1000,
  "bands": [
   {
@@ -15,6 +15,7 @@
      "name": "Pennylane",
      "slug": "pennylane",
      "description": "Pennylane is a French financial and accounting operating system for SMEs and accounting firms. The Company API (v2) lets companies, firms, and integration partners access and sync invoicing, accounting, banking, and financial data over a REST interface, and automate end-to-end workflows. V2 is the stable version; V1 is deprecated. All amounts are in EUR and the platform is built around French accounting (FEC exports, Plateforme Agréée e-invoicing, SEPA/GoCardless mandates).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/screenshots/pennylane-2026-08-17T081155.png",
      "score": 65.4,
      "band": "strong",
      "band_label": "Strong",
@@ -26,7 +27,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -71,7 +72,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -116,7 +117,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -154,7 +155,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -210,7 +211,7 @@
       "developer_ergonomics": 75.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -255,7 +256,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -300,7 +301,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -356,7 +357,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -401,7 +402,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -446,7 +447,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -490,7 +491,7 @@
       "developer_ergonomics": 21.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -528,7 +529,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 9.0,
      "agent_band": "agent-aware",
@@ -565,7 +566,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -609,7 +610,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 30.2,
      "agent_band": "agent-aware",
@@ -647,7 +648,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
@@ -695,7 +696,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -732,7 +733,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -776,7 +777,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -821,7 +822,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -859,7 +860,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -904,7 +905,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -941,7 +942,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -978,7 +979,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1016,7 +1017,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1061,7 +1062,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1099,7 +1100,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1137,7 +1138,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1182,7 +1183,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1227,7 +1228,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1265,7 +1266,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1309,7 +1310,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1354,7 +1355,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 2.7,
      "agent_band": "human-only",
@@ -1391,7 +1392,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1435,7 +1436,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1473,7 +1474,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1518,7 +1519,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1563,7 +1564,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1608,7 +1609,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1652,7 +1653,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1697,7 +1698,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 2.7,
      "agent_band": "human-only",
@@ -1735,7 +1736,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1780,7 +1781,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1817,7 +1818,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1854,7 +1855,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1899,7 +1900,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1943,7 +1944,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1988,7 +1989,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2026,7 +2027,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2063,7 +2064,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2101,7 +2102,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2149,7 +2150,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2187,7 +2188,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2232,7 +2233,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2270,7 +2271,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 9.0,
      "agent_band": "agent-aware",
@@ -2308,7 +2309,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2346,7 +2347,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2391,7 +2392,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2435,7 +2436,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2480,7 +2481,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2518,7 +2519,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2563,7 +2564,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2601,7 +2602,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2639,7 +2640,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2677,7 +2678,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2702,7 +2703,7 @@
     {
      "name": "Quandela",
      "slug": "quandela",
-     "description": "Quandela is a Paris-region (Massy, France) photonic quantum computing company building modular, scalable, and energy-efficient quantum systems driven by deterministic single-photon sources. Its hardware lineup includes Ascella (its first deployed cloud-accessible system), Belenos (a 12-qubit second-generation machine), Canopus (its latest state-of-the-art system), and Mosaiq (its flagship prototyping platform), alongside Prometheus single-photon sources and the Entropy quantum random number generator. Quandela develops Perceval, an open-source Python framework for programming photonic quantum computers, distributed via PyPI as perceval-quandela, and operates a cloud platform at cloud.quandela.com where users authenticate with a token and submit jobs to simulators and QPUs (e.g. \"sim:altair\", \"qpu:altair\") through Perceval's RemoteProcessor. The company also runs a Quantum Acceleration Program for enterprise pilots in cybersecurity, pharma, chemistry, logistics, finance, energy, and aerospace. There is no public REST/HTTP OpenAPI specification — the cloud surface is abstracted entirely behind the Perceval Python SDK and its companion perceval-interop bridges to Qiskit, QuTiP, cQASM, and myQLM.",
+     "description": "Quandela is a Paris-region (Massy, France) photonic quantum computing company building modular, scalable, energy-efficient quantum systems driven by deterministic single-photon sources. Its hardware lineup includes Ascella (its first cloud-accessible system), Belenos (a 12-qubit second-generation machine), Canopus, and Mosaiq (its flagship prototyping platform), alongside Prometheus single-photon sources and the Entropy quantum random number generator. Quandela develops Perceval, the open-source Python framework for programming photonic quantum computers, distributed on PyPI as perceval-quandela with the perceval-interop bridges to Qiskit, QuTiP, cQASM and myQLM and the exqalibur native optimisation kernel. It operates Quandela Cloud, which — contrary to an earlier reading of this profile — DOES publish a real, anonymously readable REST contract: OpenAPI 3.0.3 at https://api.cloud.quandela.com/openapi.json, version v2.8.0-rc4, with 55 paths, 59 operations and 54 component schemas, plus a Quantum Toolbox sub-specification at /qt-openapi.json. The surface covers Perceval job submission (submit-then-poll, with the circuit carried as an SDK-serialised opaque payload), a self-service Cloud Job Token lifecycle with a per-platform credit ledger, five typed Quantum Toolbox primitives (Chemistry VQE, Custom VQE, CVaR VQE, Graph DSI, Graph Isomorphism) each with a paired cost estimator, and the Entropy QRNG, whose draws return CHSH and min-entropy certification. Authentication is a single declared bearer scheme covering two distinct credentials — an account token from account.quandela.com and a Cloud Job Token minted over the API. Quandela also runs a Quantum Acceleration Program for enterprise pilots in cybersecurity, pharma, chemistry, logistics, finance, energy and aerospace, and publishes a 2024-2030 roadmap to fault-tolerant quantum computing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/screenshots/quandela-2026-06-20T192405.png",
      "score": 10.0,
      "band": "minimal",
@@ -2715,7 +2716,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2753,7 +2754,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2791,7 +2792,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2828,7 +2829,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2866,7 +2867,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2911,7 +2912,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2948,7 +2949,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2993,7 +2994,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3038,7 +3039,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3082,7 +3083,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3120,7 +3121,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3158,7 +3159,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3195,7 +3196,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3233,7 +3234,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3265,7 +3266,7 @@
     {
      "name": "8sec",
      "slug": "8sec",
-     "description": "8SEC is a hybrid-casual and hyper-casual mobile game studio based in Lyon, France, founded in 2015 by serial entrepreneur and investor Jeremie Berrebi. The studio rapidly prototypes and ships engaging free-to-play mobile games for iOS and Android, with titles such as Jump Race!, Turbo Taxi, Trivia.io, Untie!, and Human Puzzle that have collectively driven over 50 million downloads. 8SEC positions itself as a full-stack studio spanning game design, development, and publishing. It is a portfolio company of 500 Global, surfaced into the API Evangelist network via VC portfolio mapping. The company operates as a game producer and does not currently publish a public developer API, SDK, or documentation surface.",
+     "description": "8SEC was a hybrid-casual and hyper-casual mobile game studio based in Lyon, France, founded in 2015 and later opening a second office in Paris. Over a ten-year run it published more than 90 free-to-play mobile games for iOS and Android — Jump Race!, Turbo Taxi, Trivia.io, Untie! and Human Puzzle among them — collectively driving roughly 50 million downloads, and positioned itself as a full-stack studio spanning game design, development and publishing. UK publisher Kwalee invested EUR 1.5 million in January 2024 and took over publishing duties across the entire 8SEC catalogue. THE STUDIO IS NOW CLOSED — the shutdown was reported in October 2025, with all seven staff, including cofounders Louis Croquet and Louis Giraud, seeking new roles. The company's own site at 8sec.games is no longer deployed — the domain resolves to OVHcloud shared hosting serving a \"Site not installed\" 404 behind a certificate that does not cover the hostname — and the Teamtailor careers page returns 404. 8SEC was surfaced into the API Evangelist network as a 500 Global portfolio lead; it never published a public developer API, SDK, machine-readable specification or documentation surface, and it no longer exists to publish one.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3277,7 +3278,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3315,7 +3316,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3353,7 +3354,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3390,7 +3391,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3427,7 +3428,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3464,7 +3465,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3501,7 +3502,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3538,7 +3539,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3582,7 +3583,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3619,7 +3620,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3656,7 +3657,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3693,7 +3694,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3714,6 +3715,100 @@
       "dry_run_mode": false
      },
      "rank": 90
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 14,
+   "shown": 14,
+   "providers": [
+    {
+     "name": "Accenta",
+     "slug": "accenta",
+     "description": "Accenta is a French energy and carbon performance company for real estate portfolios, founded in 2016 and headquartered in Boulogne-Billancourt. It combines AI-driven building control (an intelligent building management system plus an Accenta Communication Box for sites with no BMS) with low-carbon heat and cold production built on shallow geothermal energy, inter-seasonal geostorage, heat pumps and solar, and it wraps the whole package in audit, design, build, operate, financing and performance-contract services. Accenta says it manages roughly 10 million square metres of real estate for owners such as Airbus, Prologis, Icade, Redevco and Decathlon, targeting energy reductions up to 80% and CO2 reductions up to 95%. Its software platform is effiPilot, acquired in 2020, delivered as a per-customer tenant on accenta.ai with a web application, an Android app and an HTTP API whose reference documentation sits behind the customer login.",
+     "rank": 91
+    },
+    {
+     "name": "Acheel",
+     "slug": "acheel",
+     "description": "Acheel is a French digital insurance company — a néo-assureur that carries its own insurance licence rather than broking someone else's. Founded in 2020 by Ralph Ruimy and Francky Défossé, it received its ACPR agrément and launched in 2021, and now reports more than 800,000 policyholders. ACHEEL SA (879 605 350 RCS Paris) underwrites; ACHEEL FRANCE (ORIAS 21003575) distributes. The range spans nine lines — habitation, auto, santé, animaux, PNO (propriétaire non occupant), emprunteur, scolaire, protection juridique and RC pro — sold 100% digitally, with a quote in about two minutes and subscription in five. Roughly 70% of revenue comes from B2B2C distribution: partner brokers are served under the Charlee brand (charlee.fr, broker portal \"Acheel Omega\" at back.charlee.fr) and partners embed a per-tenant white-label customer area served from *.widget.acheel.com. Acheel's own partner FAQ stated it makes its APIs available to partners (\"nous mettons à votre disposition nos APIs afin de vous faire bénéficier de notre Tech et de nos produits\"), but no developer portal, API reference, base URL or machine-readable specification is published anywhere on its public surface; API access travels with a brokerage partnership. Acheel is a certified B Corp.",
+     "rank": 92
+    },
+    {
+     "name": "Allo-Media",
+     "slug": "allo-media",
+     "description": "Allo-Media, which now trades as uh!ive, is a French conversational-voice-AI company that transcribes and analyses telephone conversations in real time and in batch. Its platform pairs speech-to-text tuned for 8kHz telephony with named entity recognition and redaction, speech analytics (intent, emotion and compliance tagging) and call tracking, hosted in France. Developers integrate through four surfaces: a read-only Activate REST API over processed calls and their transcripts, a WebSocket Stream API for live human-to-human conversations, an MRCP/WebSocket Stream API for voicebots, and a browser call-tracking script (Hermes), plus SFTP batch ingestion (JUpload) and an HMAC-signed webhook. Authentication is OAuth 2.0 client_credentials against a Keycloak realm; credentials are issued by an account manager rather than self-service.",
+     "rank": 93
+    },
+    {
+     "name": "AramisAuto",
+     "slug": "aramisauto",
+     "description": "Aramisauto is the French retail brand of Aramis Group (Euronext Paris: ARAMI, majority-owned by Stellantis), founded in 2001 by Nicolas Chartier and Guillaume Paoli. It sells used, 0km and new cars online as a mandataire, reconditions vehicles in its own refurbishing centres, runs a trade-in service (\"reprise\") that pays within 24 hours, and arranges financing (crédit, LOA, LLD) through Cetelem, Socram, PSA Banque, Lizauto and Opteven. Aramisauto operates no public developer programme: there is no portal, no OpenAPI and no SDK. What it does publish is machine-readable and first-party — ten JSON Schema 2020-12 contracts at schemas.aramis.group covering the vehicle catalog (search request/response, the multi-language ingest model, the single-language read model served from \"the preheated cache for the APIs\", and the search-index projection) plus the four-stage collect/map/filter/enrich configuration contracts third-party marketplace sellers are onboarded with — and an llms.txt at the site root. Its API vhost, api.aramisauto.com, answers every anonymous request with an HTTP 403 demanding a WSSE (WS-Security UsernameToken) credential.",
+     "rank": 94
+    },
+    {
+     "name": "Bitstack",
+     "slug": "bitstack",
+     "description": "Bitstack is a French consumer Bitcoin savings application operated by Bitstack Digital Assets SAS (Meyreuil, France), which lets retail users accumulate Bitcoin through automatic round-ups on everyday card purchases, recurring dollar-cost-averaging buys (hourly to monthly), one-off card buys from EUR 1, peer-to-peer transfers by phone number or email, a cash account with free SEPA instant transfers, and a Bitstack payment card that pays Bitcoin cashback. The company reports more than 350,000 users and over EUR 350M invested through the app. It is licensed as a Crypto-Assets Service Provider with the French Autorite des Marches Financiers (AMF) under number A2025-003 for exchange, order execution, custody and transfer of crypto-assets, and is a licensed agent of the electronic money institution Xpollens with the ACPR under number 747088. Bitstack publishes a public fee schedule and a regulatory documents hub, but ships no public developer API, developer portal, or machine-readable API contract of any kind: the product is delivered exclusively through its iOS and Android applications.",
+     "rank": 95
+    },
+    {
+     "name": "Cheerz",
+     "slug": "cheerz",
+     "description": "Cheerz is a French direct-to-consumer photo-printing brand. Customers pick photos from their phone camera roll or a connected cloud gallery in the Cheerz iOS/Android app or on cheerz.com, and Cheerz prints and ships the result as photo prints, fridge magnets, photo books and albums, wall canvases, framed prints and posters, calendars including advent calendars, puzzles, greeting and invitation cards, and the branded Cheerz Box and Memory Box gift formats. Founded in Paris in 2012 under the legal entity Printklub, backed by Serena Capital and Iron Capital, and acquired by the German photo-finishing group CEWE Stiftung & Co. KGaA in February 2018 for roughly EUR 45 million; it continues to operate as CEWE's Paris site. Cheerz publishes no public API, developer portal, SDK or machine-readable contract of any kind — it is an end-user retail product, and partnership, bulk-order and affiliate enquiries are handled by a human contact channel rather than a developer programme.",
+     "rank": 96
+    },
+    {
+     "name": "DESKi",
+     "slug": "deski",
+     "description": "DESKi is a French medical-device software company founded in 2016 in Bordeaux by brothers Bertrand and Olivier Moal, trading publicly under its HeartFocus brand. Its flagship product, HeartFocus, is an FDA-cleared AI cardiac imaging app that runs on iPhone and iPad with Butterfly Network iQ+ and iQ3 handheld ultrasound probes, giving any healthcare professional real-time probe guidance, automatic diagnostic-quality clip recording and live view validation across the 10 standard transthoracic echocardiographic views (PLAX, PSAX-AV, PSAX-MV, PSAX-PM, A4C, A5C, A2C, A3C, SC-4C, SC-IVC). A second product, HeartFocus Link, adds the same AI guidance to existing cart-based ultrasound systems from GE HealthCare, Philips, Siemens Healthineers, Mindray, FUJIFILM Sonosite, Samsung and Canon over a plain HDMI capture path, for education and training only. DESKi holds two FDA 510(k) clearances (K242807, 2025-04-04; K260780, 2026-06-03, product code QJU) and publishes a Coordinated Vulnerability Disclosure process, a HIPAA & HBNR applicability statement, per-probe list pricing and dated electronic instructions for use. Its only machine-facing integration surface is DICOM: exams are transferred from the mobile app to a customer-configured PACS server (server and client AE titles, host, port, optional TLS), and the DICOM conformance statement and CycloneDX SBOM are available only by emailing support. DESKi publishes no public REST or GraphQL API, no OpenAPI or AsyncAPI specification, no SDK, no CLI, no MCP server and no developer portal; portal.heartfocus.ai is a customer licence-management application, not a developer surface.",
+     "rank": 97
+    },
+    {
+     "name": "Educ-up",
+     "slug": "educ-up",
+     "description": "Educ-up is a French social-impact education group founded in 2016 by Mohamed El Mazzouji, headquartered in Saint-Denis, La Réunion with establishments in metropolitan France including Montreuil (Seine-Saint-Denis). It operates two consumer- and professional-facing brands rather than a software product: Domissori, launched in 2019, which places Montessori-trained educators in family homes for childcare, educational workshops and academic tutoring across Vannes, Chambéry, Lyon, Grenoble, Perpignan, Montpellier, Marseille and Saint-Denis; and Edacademy, a Qualiopi-certified training and apprenticeship centre for early-childhood and personal-care professions (CAP AEPE, Titre Pro ADVF, Bac Pro ASSP, parenting and Montessori support). The group also runs Ed'solidaire, a subsidy scheme that opens paid childcare to low-income families. Investors include Serena, M Capital, Inco Ventures, MakeSense and Racine2. Edacademy delivers its programmes through a self-hosted Moodle learning platform at formation.edacademy.fr, but that is an end-user LMS: as of August 2026 Educ-up publishes no developer portal, no API documentation and no machine-readable API contract, and its corporate domain educ-up.fr now redirects to a parked IONOS default site.",
+     "rank": 98
+    },
+    {
+     "name": "Electra",
+     "slug": "go-electra",
+     "description": "Electra is a European operator of ultra-fast electric-vehicle charging, headquartered at 104 rue de Richelieu in the 2nd arrondissement of Paris and led by co-founder and CEO Aurelien de Meaux. It designs, finances, installs and operates its own DC fast-charging stations rather than reselling someone else's hardware, advertising 770+ live stations with 68 more under construction, charge rates up to 400 kW, and a target of 2,200 stations / 15,000 charge points across Europe by 2030. Its own pricing and station pages cover France, Belgium, Spain, Italy, Germany, Austria, the Netherlands and Switzerland, with city hubs in Paris, Lyon, Marseille, Brussels, Antwerp, Liege, Milan, Bologna, Turin, Madrid, Barcelona and Zurich. The commercial surface is consumer- and fleet-facing: a mobile app, an Electra+ subscription that cuts up to 0.20 EUR/kWh, an RFID charging card, Autocharge and Plug&Charge, and a fleet dashboard at business.go-electra.com. It is a Serena portfolio company and has raised a 160 MEUR round, a 304 MEUR Series B and a 433 MEUR debt facility. Electra publishes NO developer portal, NO API documentation, NO OpenAPI, NO llms.txt, NO MCP server and NO A2A agent card — every one of those was probed and missed on 2026-08-17. What it does run, and what almost nobody looking at the marketing site would find, is a real machine-readable API: a live Open Charge Point Interface implementation in the Charge Point Operator role at https://ocpi.go-electra.com/ocpi/cpo, serving BOTH OCPI 2.1.1 and OCPI 2.2.1 concurrently. Its version-negotiation endpoints answer anonymously with HTTP 200 and enumerate the full module inventory — cdrs, commands, credentials, locations, sessions, tariffs and tokens, with SENDER/RECEIVER roles declared on the 2.2.1 surface — while every data module itself returns HTTP 401 with `WWW-Authenticate: Token realm=\"Application\"`, OCPI's own bilateral token scheme. That is a documented open industry standard, fully implemented, discoverable without credentials and readable only with a roaming agreement; its production use is evidenced by the 180+ e-mobility service provider cards Electra's own help centre lists as accepted at its chargers.",
+     "rank": 99
+    },
+    {
+     "name": "Implicity",
+     "slug": "implicity",
+     "description": "Implicity is a Paris-based digital health company operating a vendor-neutral, cloud-based cardiac remote monitoring platform. Its software ingests and normalizes transmissions from cardiac implantable electronic devices (CIED) and implantable loop recorders across every major manufacturer, then applies AI-based triage to surface clinically actionable alerts for care teams. The product family spans CIED remote monitoring, heart-failure remote monitoring, an ILR ECG Analyzer, AF alert management, SignalHF predictive AI, patient connectivity management, InLink in-clinic data capture, and an advanced research tool for academic medical centers and life-science partners. Implicity markets a bidirectional EHR/EMR integration and API framework to hospital IT teams, but publishes no public developer portal, API reference, or machine-readable contract; integration is arranged through its sales and IT teams. Security and compliance posture is published through a Bastion-hosted trust center covering ISO 27001:2022, ISO 13485, SOC 2 Type 2, HDS, C5, HIPAA, and GDPR.",
+     "rank": 100
+    },
+    {
+     "name": "Jam.gg",
+     "slug": "jam-gg",
+     "description": "Jam.gg, founded in Paris in 2020 as Piepacker and rebranded in 2022, built a browser-based social cloud gaming platform for playing retro and indie multiplayer games with friends with no download or install, on patented streaming technology the company said cut bandwidth requirements by roughly 15x. It passed 8 million users before pivoting to selling its cloud gaming technology B2B to game developers and publishers. Backed by Makers Fund, Serena Capital, LEGO Ventures, Kima Ventures and Kickstarter (~$15.4M raised) and a Y Combinator W20 company. Jam.gg never published an HTTP API: its developer surface was a native game-integration SDK plus a Compose Multiplatform virtual gamepad library, both shipped from the GitHub organization still named piepacker. Y Combinator's company directory now lists Jam.gg as Inactive, noting the business split into two entities in 2023 with Onibi emerging separately; the jam.gg web property no longer completes a TLS handshake and piepacker.com has left DNS.",
+     "rank": 101
+    },
+    {
+     "name": "Joy (ex-Privateaser)",
+     "slug": "joy-io",
+     "description": "Joy is a French SaaS platform for bars, restaurants and venues that turns group and event enquiries into confirmed bookings. Founded in 2014 as Privateaser, the company now runs a two-sided business: privateaser.com, the group-venue marketplace that captures demand, and Joy, the manager-facing application (web plus iOS/Android) where an establishment centralises requests from Google, Instagram, its own website, WhatsApp and Privateaser, then works them through a unified calendar and messaging inbox, an SEO/GEO-optimised event showcase page, a virtual phone assistant, quotes, French-compliant invoicing, and Stripe-backed deposits and prepayments. Joy reports more than 3,000 partner establishments and over EUR100M in bookings managed in 2025. It publishes no public API, SDK, webhook catalogue or developer portal; the only integration surfaces it documents for customers are an embeddable iframe booking form, Reserve-with-Google, and a one-click reservation copy into Zenchef.",
+     "rank": 102
+    },
+    {
+     "name": "May",
+     "slug": "may",
+     "description": "May is a French digital-health company, operated by LN CARE SAS, whose mobile app supports future and new parents from fertility and pregnancy through the first years of a child's life. It pairs a medical messaging service staffed by French-qualified midwives, pediatric nurses and doctors — answering questions seven days a week from 8am to 10pm — with an expert-reviewed content library, roughly hour-long audio masterclasses, everyday tracking tools for sleep, feeding and weight, and Mya, an in-app AI medical assistant. Founded in Paris in 2020 by Cécilia Creuzet, Antoine Creuzet and Adrien Brunet, it reported more than 400,000 users and a team of around 80 health professionals, raised €7M in September 2024 to expand into Spain and the United Kingdom, and also sells a parental-support benefit to employers. It was surfaced as a portfolio company of Serena and profiled in the API Evangelist network; it publishes a consumer marketing site, a blog and an Intercom help center, but no public developer program, no API reference and no machine-readable API contract of any kind.",
+     "rank": 103
+    },
+    {
+     "name": "Serena",
+     "slug": "serena",
+     "description": "Serena is a Paris-based European venture capital firm founded in 2008 by Xavier Lorphelin, Marc Fournier and Philippe Hayat, investing in Europe-based founders from pre-seed through Series A with initial tickets ranging from EUR 100K to EUR 15M. The firm closed its EUR 200M Fund IV in 2026, bringing total assets under management to over EUR 1 billion, and concentrates on applied AI, the modern data stack and AI infrastructure, SaaS, climate tech and the energy transition, commercial open source, blockchain, quantum, consumer innovation and impact. Serena describes itself as \"by entrepreneurs for entrepreneurs\" and pairs capital with an in-house operating team (Capital Boost), a dedicated data-focused arm in Serena Data Ventures, and the Racine squared impact and deep-tech vehicle. Its published portfolio of 113 companies includes Dataiku, Memo Bank, Descartes Underwriting, Mindee, Probabl, ACINQ, Brigad and Evaneos, alongside exits such as LaFourchette/The Fork to TripAdvisor, AramisAuto to PSA, PrestaShop to MBE Worldwide, iBanFirst to Marlin Equity Partners, Alkemics to Salsify, Hull to MessageBird, Koyeb and Emmi AI to Mistral, Leonardo.ai to Canva, Shadow to OVH, and the NYSE IPO of Sequans. The firm also publishes an unusually deep public research library, including the French AI Report, the Serena European SaaS Benchmark and the Commercial Open Source Software (COSS) Report. This profile tracks Serena's identity and its portfolio graph across the API Evangelist network.",
+     "rank": 104
     }
    ]
   }

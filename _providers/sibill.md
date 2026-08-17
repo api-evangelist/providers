@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -75,11 +75,51 @@ apis:
 - description: The Transaction API from Sibill — 2 operation(s) for transaction.
   name: Sibill Transaction API
   slug: sibill-transaction-api
-artifact_total: 18
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Sibill Webhooks
   slug: sibill-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sibill Integration Account API
+  slug: open-sibill-account-api
+- collection_type: open
+  name: Sibill Integration Account Category API
+  slug: open-sibill-category-api
+- collection_type: open
+  name: Sibill Integration Account Company API
+  slug: open-sibill-company-api
+- collection_type: open
+  name: Sibill Integration Account Counterpart API
+  slug: open-sibill-counterpart-api
+- collection_type: open
+  name: Sibill Integration Account Document API
+  slug: open-sibill-document-api
+- collection_type: open
+  name: Sibill Integration Account DocumentSectional API
+  slug: open-sibill-documentsectional-api
+- collection_type: open
+  name: Sibill Integration Account Flow API
+  slug: open-sibill-flow-api
+- collection_type: open
+  name: Sibill Integration Account Payment API
+  slug: open-sibill-payment-api
+- collection_type: open
+  name: Sibill Integration Account Product API
+  slug: open-sibill-product-api
+- collection_type: open
+  name: Sibill Integration Account Reconciliation API
+  slug: open-sibill-reconciliation-api
+- collection_type: open
+  name: Sibill Integration Account Subcategory API
+  slug: open-sibill-subcategory-api
+- collection_type: open
+  name: Sibill Integration Account Transaction API
+  slug: open-sibill-transaction-api
 common:
 - group: start
   title: ''
@@ -220,7 +260,7 @@ overview: 'Sibill publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sibill''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Sibill Rate Limits
@@ -254,7 +294,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

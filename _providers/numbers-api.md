@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: The Year API from Numbers API — 1 operation(s) for year.
   name: Numbers API Year API
   slug: numbers-api-year-api
-artifact_total: 19
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Numbers Date API
+  slug: open-numbers-api-date-api
+- collection_type: open
+  name: Numbers Date Math API
+  slug: open-numbers-api-math-api
+- collection_type: open
+  name: Numbers Date Numbers API API
+  slug: open-numbers-api-numbers-api-api
+- collection_type: open
+  name: Numbers Date Random API
+  slug: open-numbers-api-random-api
+- collection_type: open
+  name: Numbers Date Trivia API
+  slug: open-numbers-api-trivia-api
+- collection_type: open
+  name: Numbers Date Year API
+  slug: open-numbers-api-year-api
 common:
 - group: agent
   title: ''
@@ -158,7 +180,7 @@ plans:
 - name: Numbers Api Plans Pricing
   plan_count: 1
   slug: numbers-api-plans-pricing
-random_paper: 43
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Numbers Api Rate Limits
@@ -192,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/screenshots/numbers-api-2026-06-20T190517.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Agent-driven commerce surface for the Revibe Shopify store implemented via the Universal Commerce Protocol (UCP). A hosted MCP endpoint exposes catalog search, cart, checkout, and fulfillment tools; c
@@ -96,7 +96,7 @@ overview: 'Revibe publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Revibe''s developer surface includes engineering blog, signup flow, authentication, and 8 more developer resources.'
-random_paper: 37
+random_paper: 41
 score:
   band: emerging
   composite: 19.7
@@ -112,7 +112,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

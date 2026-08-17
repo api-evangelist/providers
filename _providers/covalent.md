@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: Manage SQL transforms applied to decoded events before delivery.
   name: Covalent Transforms API
   slug: covalent-transforms-api
-artifact_total: 56
+artifact_total: 74
 asyncapis:
 - description: Real-time blockchain data from GoldRush (Covalent) delivered over a single WebSocket endpoint that speaks the GraphQL over WebSocket protocol (`graphql-transport-ws`, the protocol implemented by the `
   name: GoldRush Streaming API
@@ -151,17 +151,71 @@ collections:
   name: GoldRush Foundational ABI Transforms API
   slug: postman-covalent-transforms-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GoldRush Foundational ABI API
+  slug: open-covalent-abi-api
+- collection_type: open
+  name: GoldRush Foundational ABI Balances API
+  slug: open-covalent-balances-api
+- collection_type: open
+  name: GoldRush Foundational ABI Base API
+  slug: open-covalent-base-api
+- collection_type: open
+  name: GoldRush Foundational ABI Bitcoin API
+  slug: open-covalent-bitcoin-api
+- collection_type: open
+  name: GoldRush Foundational ABI Cross-Chain API
+  slug: open-covalent-cross-chain-api
+- collection_type: open
+  name: GoldRush Foundational ABI Data API
+  slug: open-covalent-data-api
+- collection_type: open
+  name: GoldRush Foundational ABI Destinations API
+  slug: open-covalent-destinations-api
+- collection_type: open
+  name: GoldRush Foundational ABI Discovery API
+  slug: open-covalent-discovery-api
+- collection_type: open
   name: GoldRush Foundational API
   slug: open-covalent-foundational-api
+- collection_type: open
+  name: GoldRush Foundational ABI GraphQL API
+  slug: open-covalent-graphql-api
 - collection_type: open
   name: GoldRush Hyperliquid Info API
   slug: open-covalent-hyperliquid-info-api
 - collection_type: open
+  name: GoldRush Foundational ABI Info API
+  slug: open-covalent-info-api
+- collection_type: open
+  name: GoldRush Foundational ABI NFT API
+  slug: open-covalent-nft-api
+- collection_type: open
   name: GoldRush Pipeline API
   slug: open-covalent-pipeline-api
 - collection_type: open
+  name: GoldRush Foundational ABI Pipelines API
+  slug: open-covalent-pipelines-api
+- collection_type: open
+  name: GoldRush Foundational ABI Pricing API
+  slug: open-covalent-pricing-api
+- collection_type: open
+  name: GoldRush Foundational ABI Queries API
+  slug: open-covalent-queries-api
+- collection_type: open
+  name: GoldRush Foundational ABI Security API
+  slug: open-covalent-security-api
+- collection_type: open
   name: GoldRush Streaming API
   slug: open-covalent-streaming-api
+- collection_type: open
+  name: GoldRush Foundational ABI Transactions API
+  slug: open-covalent-transactions-api
+- collection_type: open
+  name: GoldRush Foundational ABI Transforms API
+  slug: open-covalent-transforms-api
 - collection_type: open
   name: GoldRush x402 API
   slug: open-covalent-x402-api
@@ -393,7 +447,7 @@ plans:
 - name: Covalent Plans Pricing
   plan_count: 4
   slug: covalent-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 4
   name: Covalent Rate Limits
@@ -435,7 +489,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/screenshots/covalent-2026-06-20T175115.png
 security:

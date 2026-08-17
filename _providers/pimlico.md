@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Unified ERC-4337 JSON-RPC endpoint exposing both the Pimlico bundler (eth_sendUserOperation, eth_estimateUserOperationGas, eth_getUserOperationReceipt, pimlico_getUserOperationGasPrice, pimlico_getUse
@@ -208,7 +208,7 @@ plans:
 - name: Pimlico Plans
   plan_count: 2
   slug: pimlico-plans
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Pimlico Rate Limits
@@ -236,7 +236,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

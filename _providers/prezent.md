@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
 - description: Receive signed HTTPS callbacks when Prezent jobs complete or fail. Subscriptions are scoped per API key, retried over a 21h window, and auto-disabled after 50 consecutive failures. See the [Webhooks g
   name: Prezent Webhooks API
   slug: prezent-webhooks-api
-artifact_total: 25
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Prezent Webhooks
@@ -98,6 +98,36 @@ collections:
 - collection_type: postman
   name: Prezent Platform Audiences Webhooks API
   slug: postman-prezent-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prezent Platform Audiences API
+  slug: open-prezent-audiences-api
+- collection_type: open
+  name: Prezent Platform Audiences AutoGenerator API
+  slug: open-prezent-autogenerator-api
+- collection_type: open
+  name: Prezent Platform Audiences File Access API
+  slug: open-prezent-file-access-api
+- collection_type: open
+  name: Prezent Platform Audiences Health API
+  slug: open-prezent-health-api
+- collection_type: open
+  name: Prezent Platform Audiences Streaming API
+  slug: open-prezent-streaming-api
+- collection_type: open
+  name: Prezent Platform Audiences Template Converter API
+  slug: open-prezent-template-converter-api
+- collection_type: open
+  name: Prezent Platform Audiences Themes API
+  slug: open-prezent-themes-api
+- collection_type: open
+  name: Prezent Platform Audiences Upload API
+  slug: open-prezent-upload-api
+- collection_type: open
+  name: Prezent Platform Audiences Webhooks API
+  slug: open-prezent-webhooks-api
 common:
 - group: build
   title: ''
@@ -258,7 +288,7 @@ overview: 'Prezent publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Prezent''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, sandbox, and 28 more developer resources.'
-random_paper: 56
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Prezent Rate Limits
@@ -292,7 +322,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

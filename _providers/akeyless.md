@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 4
@@ -41,7 +41,14 @@ apis:
 - description: The v2 API from Akeyless — 256 operation(s) for v2.
   name: Akeyless v2 API
   slug: akeyless-v2-api
-artifact_total: 16
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Akeyless v2 API
+  slug: open-akeyless-v2-api
 common:
 - group: agent
   title: ''
@@ -150,7 +157,7 @@ plans:
 - name: Akeyless Plans Pricing
   plan_count: 2
   slug: akeyless-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 4
   name: Akeyless Rate Limits
@@ -184,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akeyless/refs/heads/main/screenshots/akeyless-2026-06-20T171453.png
 security:

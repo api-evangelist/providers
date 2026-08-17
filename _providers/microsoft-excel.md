@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ arazzos:
 - description: Create a temporary worksheet, read it, rename and reposition it, then delete it.
   name: Microsoft Excel Scratch Worksheet Lifecycle
   slug: microsoft-excel-worksheet-lifecycle-workflow
-artifact_total: 76
+artifact_total: 86
 collections:
 - collection_type: postman
   name: Microsoft Graph Excel Charts API
@@ -138,6 +138,36 @@ collections:
 - collection_type: postman
   name: Microsoft Graph Excel Charts Worksheets API
   slug: postman-microsoft-excel-worksheets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Excel Charts API
+  slug: open-microsoft-excel-charts-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Functions API
+  slug: open-microsoft-excel-functions-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Named Items API
+  slug: open-microsoft-excel-named-items-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Ranges API
+  slug: open-microsoft-excel-ranges-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Sessions API
+  slug: open-microsoft-excel-sessions-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Table Columns API
+  slug: open-microsoft-excel-table-columns-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Table Rows API
+  slug: open-microsoft-excel-table-rows-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Tables API
+  slug: open-microsoft-excel-tables-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Worksheets API
+  slug: open-microsoft-excel-worksheets-api
 common:
 - group: build
   title: ''
@@ -418,7 +448,7 @@ plans:
 - name: Microsoft Excel Plans Pricing
   plan_count: 5
   slug: microsoft-excel-plans-pricing
-random_paper: 116
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Microsoft Excel Rate Limits
@@ -467,7 +497,7 @@ score:
       total: 9
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png
 security:

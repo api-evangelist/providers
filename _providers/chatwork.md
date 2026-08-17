@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -65,8 +65,38 @@ apis:
 - description: The Tasks API from Chatwork — 3 operation(s) for tasks.
   name: Chatwork Tasks API
   slug: chatwork-tasks-api
-artifact_total: 15
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chatwork API v2 Contacts API
+  slug: open-chatwork-contacts-api
+- collection_type: open
+  name: Chatwork API v2 Contacts Files API
+  slug: open-chatwork-files-api
+- collection_type: open
+  name: Chatwork API v2 Contacts Incoming Requests API
+  slug: open-chatwork-incoming-requests-api
+- collection_type: open
+  name: Chatwork API v2 Contacts Link API
+  slug: open-chatwork-link-api
+- collection_type: open
+  name: Chatwork API v2 Contacts Me API
+  slug: open-chatwork-me-api
+- collection_type: open
+  name: Chatwork API v2 Contacts Members API
+  slug: open-chatwork-members-api
+- collection_type: open
+  name: Chatwork API v2 Contacts Messages API
+  slug: open-chatwork-messages-api
+- collection_type: open
+  name: Chatwork API v2 Contacts Rooms API
+  slug: open-chatwork-rooms-api
+- collection_type: open
+  name: Chatwork API v2 Contacts Tasks API
+  slug: open-chatwork-tasks-api
 - collection_type: open
   name: Chatwork API v2
   slug: open-chatwork
@@ -159,7 +189,7 @@ overview: 'Chatwork publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Chatwork''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 27
+random_paper: 122
 score:
   band: thin
   composite: 37.3
@@ -180,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/screenshots/chatwork-2026-06-20T174238.png
 security:

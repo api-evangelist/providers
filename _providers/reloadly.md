@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,14 +63,41 @@ apis:
 - description: List and retrieve top-up transaction history.
   name: Reloadly Transactions API
   slug: reloadly-transactions-api
-artifact_total: 25
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Reloadly Airtime API
   slug: open-reloadly-airtime
 - collection_type: open
+  name: Reloadly Airtime Authentication API
+  slug: open-reloadly-authentication-api
+- collection_type: open
+  name: Reloadly Airtime Authentication Balance API
+  slug: open-reloadly-balance-api
+- collection_type: open
+  name: Reloadly Airtime Authentication Discounts API
+  slug: open-reloadly-discounts-api
+- collection_type: open
   name: Reloadly Gift Cards API
   slug: open-reloadly-gift-cards
+- collection_type: open
+  name: Reloadly Airtime Authentication Operators API
+  slug: open-reloadly-operators-api
+- collection_type: open
+  name: Reloadly Airtime Authentication Orders API
+  slug: open-reloadly-orders-api
+- collection_type: open
+  name: Reloadly Airtime Authentication Products API
+  slug: open-reloadly-products-api
+- collection_type: open
+  name: Reloadly Airtime Authentication Top-Ups API
+  slug: open-reloadly-top-ups-api
+- collection_type: open
+  name: Reloadly Airtime Authentication Transactions API
+  slug: open-reloadly-transactions-api
 common:
 - group: agent
   title: ''
@@ -181,7 +208,7 @@ plans:
 - name: Reloadly Plans Pricing
   plan_count: 3
   slug: reloadly-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Reloadly Rate Limits
@@ -229,7 +256,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/screenshots/reloadly-2026-06-20T192834.png
 security:

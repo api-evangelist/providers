@@ -15,21 +15,21 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     auth_clarity: false
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 5.9
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -63,30 +63,99 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/chasi-ai/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/chasi-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.chasi.ai/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/chasi-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chasi-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/chasi-rate-limits.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/chasi-conformance.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/chasi-robots.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/chasi-llms.txt
+- group: company
+  title: ''
+  type: Careers
+  url: https://app.dover.com/jobs/chasi
+- group: start
+  title: ''
+  type: Demo
+  url: https://demo.chasi.co
+- group: other
+  title: ''
+  type: iOSApp
+  url: https://apps.apple.com/us/app/chasi-ai/id6761392628
+coverage:
+  checked: '2026-08-13'
+  detail: 'Chasi ships real software — a Clerk-authenticated tenant app at app.chasi.ai, an iOS app (v1.6.0, 2026-07-27) and a Rootly status page — but runs no developer program: every spec path 404s on chasi.ai, api.chasi.ai and mcp.chasi.ai do not resolve (and chasi.ai has no wildcard DNS), the Chasi-AI GitHub org has 0 public repos, and the only docs-shaped subdomain, docs.chasi.ai, is mispointed at Cap''s (cap.so) documentation — its OpenAPI self-identifies as "Cap HTTP API", so it was rejected under the ownership check and nothing was derived from it.'
+  evidence:
+  - status: 404
+    url: https://chasi.ai/openapi.json
+  - status: 404
+    url: https://chasi.ai/llms.txt
+  - status: 404
+    url: https://chasi.ai/.well-known/agent-card.json
+  - status: 200
+    url: https://docs.chasi.ai/api
+  - status: 200
+    url: https://api.github.com/orgs/Chasi-AI/repos
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: 'Chasi (Chasi AI) is a Y Combinator Winter 2026 company building an AI revenue engine for the equipment industry — sales, rental, and service. Chasi deploys AI agents that plug into an equipment dealer or rental company''s existing stack and work around the clock to handle lead intake, quoting, CRM updates, follow-ups, and booking coordination, so teams respond faster, sell more, and maximize fleet utilization without adding headcount. Founded in 2025 by Akash Pavan and Sarman Aulakh, the company targets an industry where fleet utilization often sits below 60% and reps lose hours each day to email, voicemail, and manual data entry. At the time of profiling Chasi is pre-product-public: it exposes a marketing site, a trust center, and a demo booking flow, but publishes no public developer API, OpenAPI, or SDKs yet.'
+description: Chasi (Chasi AI) is a Y Combinator Winter 2026 company building an AI revenue engine for the equipment industry — sales, rental, and service. Chasi deploys AI agents that plug into an equipment dealer or rental company's existing stack and work around the clock to handle lead intake, quoting, CRM updates, follow-ups, and booking coordination, so teams respond faster, sell more, and maximize fleet utilization without adding headcount. Founded in 2025 by Akash Pavan and Sarman Aulakh, the company targets an industry where fleet utilization often sits below 60% and reps lose hours each day to email, voicemail, and manual data entry. Chasi ships a Clerk-authenticated tenant application at app.chasi.ai, a first-party iOS app, an interactive demo, a Rootly-hosted status page, and a trust center, and is live with equipment businesses in the US and Europe — but as of August 2026 it publishes no public developer API, OpenAPI, GraphQL, MCP server, agent card, or SDK, and its go-to-market
+  is sales-led through a booked demo and a 90-day pilot.
 image: https://framerusercontent.com/assets/GT39i2nj6q4IM9EL9nYFxG6psDA.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Chasi
 nav: Providers
 network: true
 overview: Chasi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Equipment, and Equipment Rental.
-random_paper: 40
+plans:
+- name: Chasi Plans Pricing
+  plan_count: 0
+  slug: chasi-plans-pricing
+random_paper: 73
+rate_limits:
+- limit_count: 0
+  name: Chasi Rate Limits
+  slug: chasi-rate-limits
 score:
-  band: minimal
-  composite: 11.5
-  delta: 0.0
+  band: emerging
+  composite: 14.3
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 11.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chasi/refs/heads/main/screenshots/chasi-2026-07-25T205115.png
 security:

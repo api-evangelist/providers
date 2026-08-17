@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,14 @@ apis:
 - description: The previous version of the UK Power Networks Open Data Portal REST API, still live and still serving its own OpenAPI 3.0.3 contract at the company domain. Same sixteen endpoints and same catalogue as
   name: UK Power Networks Open Data Explore API v2.0
   slug: uk-power-networks-explore-api-v2-0
-artifact_total: 13
+artifact_total: 15
+collections:
+- collection_type: open
+  name: Explore API
+  slug: open-uk-power-networks-explore-api-v2-0
+- collection_type: open
+  name: Explore API
+  slug: open-uk-power-networks-explore-api-v2-1
 common:
 - group: commercial
   title: ''
@@ -265,7 +272,7 @@ overview: 'UK Power Networks publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   UK Power Networks'' developer surface includes authentication, developer portal, documentation, developer console, signup flow, SDKs, changelog, and 42 more developer resources.'
-random_paper: 84
+random_paper: 125
 rate_limits:
 - limit_count: 1
   name: Uk Power Networks Rate Limits
@@ -294,7 +301,7 @@ score:
     regime_id: energy_utilities
     score: 48.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

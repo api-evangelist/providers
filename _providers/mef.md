@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 95
 apis:
 - description: MEF 133.1 streaming template — the AsyncAPI definition published by Mplify (formerly MEF) in the MEF LSO Interlude SDK, Kylie release. LSO Interlude is the Interface Reference Point between two Servic
@@ -306,7 +306,7 @@ apis:
 - description: MEF WorkOrder Management Notification from MEF — 3 path(s) described in OpenAPI.
   name: MEF WorkOrder Management Notification (Mef Lso Sonata Workorder Notification)
   slug: mef-lso-sonata-workorder-notification-openapi
-artifact_total: 101
+artifact_total: 195
 asyncapis:
 - description: ''
   name: MEF 133.1 streaming template
@@ -314,6 +314,289 @@ asyncapis:
 - description: ''
   name: Mef Webhooks
   slug: mef-webhooks
+collections:
+- collection_type: open
+  name: Alarm Management
+  slug: open-mef-lso-allegro-alarm-management
+- collection_type: open
+  name: Alarm Notification
+  slug: open-mef-lso-allegro-alarm-notification
+- collection_type: open
+  name: Fault Management
+  slug: open-mef-lso-allegro-fault-management
+- collection_type: open
+  name: Fault Management Notification
+  slug: open-mef-lso-allegro-fault-notification
+- collection_type: open
+  name: Performance Monitoring
+  slug: open-mef-lso-allegro-performance-monitoring
+- collection_type: open
+  name: Performance Monitoring Notification
+  slug: open-mef-lso-allegro-performance-notification
+- collection_type: open
+  name: Service Function Testing Notification
+  slug: open-mef-lso-allegro-service-function-test-notification
+- collection_type: open
+  name: Service Function Testing
+  slug: open-mef-lso-allegro-service-function-test
+- collection_type: open
+  name: Service Inventory Management
+  slug: open-mef-lso-allegro-service-inventory-management
+- collection_type: open
+  name: Service Inventory Notification
+  slug: open-mef-lso-allegro-service-inventory-notification
+- collection_type: open
+  name: Service Ordering Management
+  slug: open-mef-lso-allegro-service-ordering-management
+- collection_type: open
+  name: Service Ordering Notification
+  slug: open-mef-lso-allegro-service-ordering-notification
+- collection_type: open
+  name: Streaming Management
+  slug: open-mef-lso-allegro-streaming-management-all-in-one
+- collection_type: open
+  name: Streaming Management
+  slug: open-mef-lso-allegro-streaming-management
+- collection_type: open
+  name: Appointment Management
+  slug: open-mef-lso-cantata-appointment-management
+- collection_type: open
+  name: Appointment Management Notification
+  slug: open-mef-lso-cantata-appointment-notification
+- collection_type: open
+  name: Billing Management
+  slug: open-mef-lso-cantata-billing-management
+- collection_type: open
+  name: Billing Notification
+  slug: open-mef-lso-cantata-billing-notification
+- collection_type: open
+  name: Circuit Impairment and Maintenance Notification
+  slug: open-mef-lso-cantata-circuit-impairment-and-maintenance-notification
+- collection_type: open
+  name: Circuit Impairment and Maintenance
+  slug: open-mef-lso-cantata-circuit-impairment-and-maintenance
+- collection_type: open
+  name: Geographic Address Management
+  slug: open-mef-lso-cantata-geographic-address-management
+- collection_type: open
+  name: Geographic Address Notification
+  slug: open-mef-lso-cantata-geographic-address-notification
+- collection_type: open
+  name: Geographic Site Management
+  slug: open-mef-lso-cantata-geographic-site-management
+- collection_type: open
+  name: Product Catalog Notification
+  slug: open-mef-lso-cantata-product-catalog-notification
+- collection_type: open
+  name: Product Catalog
+  slug: open-mef-lso-cantata-product-catalog
+- collection_type: open
+  name: Product Inventory Management
+  slug: open-mef-lso-cantata-product-inventory-management
+- collection_type: open
+  name: Product Offering Availability And Pricing Discovery Management
+  slug: open-mef-lso-cantata-product-offering-availability-and-pricing-discovery
+- collection_type: open
+  name: Product Offering Qualification Management
+  slug: open-mef-lso-cantata-product-offering-qualification-management
+- collection_type: open
+  name: Product Offering Qualification Notification
+  slug: open-mef-lso-cantata-product-offering-qualification-notification
+- collection_type: open
+  name: Product Ordering Management
+  slug: open-mef-lso-cantata-product-order-management
+- collection_type: open
+  name: Product Ordering Notification
+  slug: open-mef-lso-cantata-product-order-notification
+- collection_type: open
+  name: Quote Management
+  slug: open-mef-lso-cantata-quote-management
+- collection_type: open
+  name: Quote Notification
+  slug: open-mef-lso-cantata-quote-notification
+- collection_type: open
+  name: Trouble Ticket and Incident Management
+  slug: open-mef-lso-cantata-trouble-ticket-management
+- collection_type: open
+  name: Trouble Ticket and Incident Notification
+  slug: open-mef-lso-cantata-trouble-ticket-notification
+- collection_type: open
+  name: WorkOrder Management
+  slug: open-mef-lso-cantata-workorder-management
+- collection_type: open
+  name: WorkOrder Management Notification
+  slug: open-mef-lso-cantata-workorder-notification
+- collection_type: open
+  name: Alarm Management
+  slug: open-mef-lso-interlude-alarm-management
+- collection_type: open
+  name: Alarm Notification
+  slug: open-mef-lso-interlude-alarm-notification
+- collection_type: open
+  name: Fault Management
+  slug: open-mef-lso-interlude-fault-management
+- collection_type: open
+  name: Fault Management Notification
+  slug: open-mef-lso-interlude-fault-notification
+- collection_type: open
+  name: Performance Monitoring
+  slug: open-mef-lso-interlude-performance-monitoring
+- collection_type: open
+  name: Performance Monitoring Notification
+  slug: open-mef-lso-interlude-performance-notification
+- collection_type: open
+  name: Service Function Testing Notification
+  slug: open-mef-lso-interlude-service-function-test-notification
+- collection_type: open
+  name: Service Function Testing
+  slug: open-mef-lso-interlude-service-function-test
+- collection_type: open
+  name: Service Inventory Management
+  slug: open-mef-lso-interlude-service-inventory-management
+- collection_type: open
+  name: Service Inventory Notification
+  slug: open-mef-lso-interlude-service-inventory-notification
+- collection_type: open
+  name: Service Ordering Management
+  slug: open-mef-lso-interlude-service-ordering-management
+- collection_type: open
+  name: Service Ordering Notification
+  slug: open-mef-lso-interlude-service-ordering-notification
+- collection_type: open
+  name: Streaming Management
+  slug: open-mef-lso-interlude-streaming-management-all-in-one
+- collection_type: open
+  name: Streaming Management
+  slug: open-mef-lso-interlude-streaming-management
+- collection_type: open
+  name: Alarm Management
+  slug: open-mef-lso-legato-alarm-management
+- collection_type: open
+  name: Alarm Notification
+  slug: open-mef-lso-legato-alarm-notification
+- collection_type: open
+  name: Fault Management
+  slug: open-mef-lso-legato-fault-management
+- collection_type: open
+  name: Fault Management Notification
+  slug: open-mef-lso-legato-fault-notification
+- collection_type: open
+  name: Performance Monitoring
+  slug: open-mef-lso-legato-performance-monitoring
+- collection_type: open
+  name: Performance Monitoring Notification
+  slug: open-mef-lso-legato-performance-notification
+- collection_type: open
+  name: Legato Service Catalog API
+  slug: open-mef-lso-legato-service-catalog-api
+- collection_type: open
+  name: Legato Service Catalog Notification API
+  slug: open-mef-lso-legato-service-catalog-notification-api
+- collection_type: open
+  name: Service Function Testing Notification
+  slug: open-mef-lso-legato-service-function-test-notification
+- collection_type: open
+  name: Service Function Testing
+  slug: open-mef-lso-legato-service-function-test
+- collection_type: open
+  name: Service Inventory Management
+  slug: open-mef-lso-legato-service-inventory-management
+- collection_type: open
+  name: Service Inventory Notification
+  slug: open-mef-lso-legato-service-inventory-notification
+- collection_type: open
+  name: Service Ordering Management
+  slug: open-mef-lso-legato-service-ordering-management
+- collection_type: open
+  name: Service Ordering Notification
+  slug: open-mef-lso-legato-service-ordering-notification
+- collection_type: open
+  name: Streaming Management
+  slug: open-mef-lso-legato-streaming-management-all-in-one
+- collection_type: open
+  name: Streaming Management
+  slug: open-mef-lso-legato-streaming-management
+- collection_type: open
+  name: mef-common,tapi-topology,tapi-common,tapi-connectivity,mef-common-types,nrm-connectivity,nrp-interface API
+  slug: open-mef-lso-presto-nrp-rcp-only
+- collection_type: open
+  name: mef-common,tapi-topology,tapi-common,tapi-connectivity,mef-common-types,nrm-connectivity,nrp-interface API
+  slug: open-mef-lso-presto-nrp-rpc-only-simplified-hierarchy
+- collection_type: open
+  name: mef-common,tapi-topology,tapi-common,tapi-connectivity,mef-common-types,nrm-connectivity,nrp-interface API
+  slug: open-mef-lso-presto-nrp-simplified-hierarchy
+- collection_type: open
+  name: Network Resource Provisioning
+  slug: open-mef-lso-presto-nrp
+- collection_type: open
+  name: Appointment Management
+  slug: open-mef-lso-sonata-appointment-management
+- collection_type: open
+  name: Appointment Management Notification
+  slug: open-mef-lso-sonata-appointment-notification
+- collection_type: open
+  name: Billing Management
+  slug: open-mef-lso-sonata-billing-management
+- collection_type: open
+  name: Billing Notification
+  slug: open-mef-lso-sonata-billing-notification
+- collection_type: open
+  name: Circuit Impairment and Maintenance Notification
+  slug: open-mef-lso-sonata-circuit-impairment-and-maintenance-notification
+- collection_type: open
+  name: Circuit Impairment and Maintenance
+  slug: open-mef-lso-sonata-circuit-impairment-and-maintenance
+- collection_type: open
+  name: Geographic Address Management
+  slug: open-mef-lso-sonata-geographic-address-management
+- collection_type: open
+  name: Geographic Address Notification
+  slug: open-mef-lso-sonata-geographic-address-notification
+- collection_type: open
+  name: Geographic Site Management
+  slug: open-mef-lso-sonata-geographic-site-management
+- collection_type: open
+  name: Product Catalog Notification
+  slug: open-mef-lso-sonata-product-catalog-notification
+- collection_type: open
+  name: Product Catalog
+  slug: open-mef-lso-sonata-product-catalog
+- collection_type: open
+  name: Product Inventory Management
+  slug: open-mef-lso-sonata-product-inventory-management
+- collection_type: open
+  name: Product Offering Availability And Pricing Discovery Management
+  slug: open-mef-lso-sonata-product-offering-availability-and-pricing-discovery
+- collection_type: open
+  name: Product Offering Qualification Management
+  slug: open-mef-lso-sonata-product-offering-qualification-management
+- collection_type: open
+  name: Product Offering Qualification Notification
+  slug: open-mef-lso-sonata-product-offering-qualification-notification
+- collection_type: open
+  name: Product Ordering Management
+  slug: open-mef-lso-sonata-product-order-management
+- collection_type: open
+  name: Product Ordering Notification
+  slug: open-mef-lso-sonata-product-order-notification
+- collection_type: open
+  name: Quote Management
+  slug: open-mef-lso-sonata-quote-management
+- collection_type: open
+  name: Quote Notification
+  slug: open-mef-lso-sonata-quote-notification
+- collection_type: open
+  name: Trouble Ticket and Incident Management
+  slug: open-mef-lso-sonata-trouble-ticket-management
+- collection_type: open
+  name: Trouble Ticket and Incident Notification
+  slug: open-mef-lso-sonata-trouble-ticket-notification
+- collection_type: open
+  name: WorkOrder Management
+  slug: open-mef-lso-sonata-workorder-management
+- collection_type: open
+  name: WorkOrder Management Notification
+  slug: open-mef-lso-sonata-workorder-notification
 common:
 - group: auth
   title: ''
@@ -543,7 +826,7 @@ overview: 'MEF publishes 95 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   MEF''s developer surface includes documentation, SDKs, tooling, getting-started guide, support, authentication, changelog, and 45 more developer resources.'
-random_paper: 72
+random_paper: 14
 scopes:
 - name: Mef Scopes
   scope_count: 218
@@ -577,7 +860,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/screenshots/mef-2026-08-07T172427.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -78,7 +78,44 @@ apis:
 - description: Users represent the people in your workspace. With these APIs, you can retrieve user profile information.
   name: Felt Users API
   slug: felt-users-api
-artifact_total: 31
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Felt Comments API
+  slug: open-felt-comments-api
+- collection_type: open
+  name: Felt Comments Elements API
+  slug: open-felt-elements-api
+- collection_type: open
+  name: Felt Comments Embed Tokens API
+  slug: open-felt-embed-tokens-api
+- collection_type: open
+  name: Felt Comments Layer Exports API
+  slug: open-felt-layer-exports-api
+- collection_type: open
+  name: Felt Comments Layer Library API
+  slug: open-felt-layer-library-api
+- collection_type: open
+  name: Felt Comments Layer Uploads API
+  slug: open-felt-layer-uploads-api
+- collection_type: open
+  name: Felt Comments Layers API
+  slug: open-felt-layers-api
+- collection_type: open
+  name: Felt Comments Maps API
+  slug: open-felt-maps-api
+- collection_type: open
+  name: Felt Comments Projects API
+  slug: open-felt-projects-api
+- collection_type: open
+  name: Felt Comments Sources API
+  slug: open-felt-sources-api
+- collection_type: open
+  name: Felt Comments Users API
+  slug: open-felt-users-api
 common:
 - group: agent
   title: ''
@@ -210,7 +247,7 @@ plans:
 - name: Felt Plans Pricing
   plan_count: 3
   slug: felt-plans-pricing
-random_paper: 67
+random_paper: 129
 rate_limits:
 - limit_count: 3
   name: Felt Rate Limits
@@ -244,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/screenshots/felt-2026-06-20T181135.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Memco enables AI agents to share knowledge across a platform while maintaining security and privacy controls, providing collective memory capabilities for AI-powered applications.
@@ -68,7 +68,7 @@ plans:
 - name: Memco Plans Pricing
   plan_count: 3
   slug: memco-plans-pricing
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Memco Rate Limits
@@ -86,7 +86,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 9.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memco/refs/heads/main/screenshots/memco-2026-06-20T185134.png
 security:

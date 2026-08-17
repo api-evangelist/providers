@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,7 +108,7 @@ overview: 'Muon Space is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Muon Space''s developer surface includes engineering blog and 15 more developer resources.'
-random_paper: 56
+random_paper: 122
 score:
   band: minimal
   composite: 8.2
@@ -122,7 +122,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/muon-space/refs/heads/main/screenshots/muon-space-2026-06-20T185858.png
 security:

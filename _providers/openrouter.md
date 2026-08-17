@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: List supported providers.
   name: OpenRouter Providers API
   slug: openrouter-providers-api
-artifact_total: 47
+artifact_total: 55
 collections:
 - collection_type: postman
   name: OpenRouter Chat API
@@ -83,6 +83,30 @@ collections:
 - collection_type: postman
   name: OpenRouter Chat Providers API
   slug: postman-openrouter-providers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenRouter Chat API
+  slug: open-openrouter-chat-api
+- collection_type: open
+  name: OpenRouter Chat Completions API
+  slug: open-openrouter-completions-api
+- collection_type: open
+  name: OpenRouter Chat Credits API
+  slug: open-openrouter-credits-api
+- collection_type: open
+  name: OpenRouter Chat Generation API
+  slug: open-openrouter-generation-api
+- collection_type: open
+  name: OpenRouter Chat Keys API
+  slug: open-openrouter-keys-api
+- collection_type: open
+  name: OpenRouter Chat Models API
+  slug: open-openrouter-models-api
+- collection_type: open
+  name: OpenRouter Chat Providers API
+  slug: open-openrouter-providers-api
 - collection_type: open
   name: OpenRouter API
   slug: open-openrouter
@@ -331,7 +355,7 @@ plans:
 - name: Openrouter Plans Pricing
   plan_count: 3
   slug: openrouter-plans-pricing
-random_paper: 27
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Openrouter Rate Limits
@@ -365,7 +389,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/screenshots/openrouter-2026-06-20T191028.png
 security:

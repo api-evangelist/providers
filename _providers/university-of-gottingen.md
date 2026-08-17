@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 231
   human_in_the_loop: 7
@@ -143,7 +143,107 @@ apis:
 - description: The Workflows API from University of Göttingen — 1 operation(s) for workflows.
   name: University of Göttingen Workflows API
   slug: university-of-gottingen-workflows-api
-artifact_total: 46
+artifact_total: 79
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GRO.data Dataverse REST Access API
+  slug: open-university-of-gottingen-access-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access addFilesToDataset API
+  slug: open-university-of-gottingen-addfilestodataset-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access addFileToDataset API
+  slug: open-university-of-gottingen-addfiletodataset-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access addGlobusFilesToDataset API
+  slug: open-university-of-gottingen-addglobusfilestodataset-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Admin API
+  slug: open-university-of-gottingen-admin-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Batch API
+  slug: open-university-of-gottingen-batch-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Builtin Users API
+  slug: open-university-of-gottingen-builtin-users-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Datasetfields API
+  slug: open-university-of-gottingen-datasetfields-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Datasets API
+  slug: open-university-of-gottingen-datasets-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Datatags API
+  slug: open-university-of-gottingen-datatags-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Dataverses API
+  slug: open-university-of-gottingen-dataverses-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Edit API
+  slug: open-university-of-gottingen-edit-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Files API
+  slug: open-university-of-gottingen-files-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Harvest API
+  slug: open-university-of-gottingen-harvest-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Inbox API
+  slug: open-university-of-gottingen-inbox-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Info API
+  slug: open-university-of-gottingen-info-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Ingest API
+  slug: open-university-of-gottingen-ingest-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Licenses API
+  slug: open-university-of-gottingen-licenses-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Logout API
+  slug: open-university-of-gottingen-logout-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Mail API
+  slug: open-university-of-gottingen-mail-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Meta API
+  slug: open-university-of-gottingen-meta-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Metadatablocks API
+  slug: open-university-of-gottingen-metadatablocks-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Mydata API
+  slug: open-university-of-gottingen-mydata-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Notifications API
+  slug: open-university-of-gottingen-notifications-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Pids API
+  slug: open-university-of-gottingen-pids-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access replaceFilesInDataset API
+  slug: open-university-of-gottingen-replacefilesindataset-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Roles API
+  slug: open-university-of-gottingen-roles-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access saveAuxiliaryFileWithVersion API
+  slug: open-university-of-gottingen-saveauxiliaryfilewithversion-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Search API
+  slug: open-university-of-gottingen-search-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access uploadDatasetLogo API
+  slug: open-university-of-gottingen-uploaddatasetlogo-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Users API
+  slug: open-university-of-gottingen-users-api
+- collection_type: open
+  name: GRO.data Dataverse REST Access Workflows API
+  slug: open-university-of-gottingen-workflows-api
 common:
 - group: agent
   title: ''
@@ -233,7 +333,7 @@ plans:
 - name: University Of Gottingen Plans Pricing
   plan_count: 2
   slug: university-of-gottingen-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: University Of Gottingen Rate Limits
@@ -275,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/screenshots/university-of-gottingen-2026-06-20T200154.png
 security:

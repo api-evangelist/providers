@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Retrieve, list, and delete previously stored crawls.
   name: Crawlbase Storage API API
   slug: crawlbase-storage-api-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crawlbase Crawling API API
+  slug: open-crawlbase-crawling-api-api
+- collection_type: open
+  name: Crawlbase Crawling API Leads API API
+  slug: open-crawlbase-leads-api-api
+- collection_type: open
+  name: Crawlbase Crawling API Scraper API API
+  slug: open-crawlbase-scraper-api-api
+- collection_type: open
+  name: Crawlbase Crawling API Screenshots API API
+  slug: open-crawlbase-screenshots-api-api
+- collection_type: open
+  name: Crawlbase Crawling API Storage API API
+  slug: open-crawlbase-storage-api-api
 - collection_type: open
   name: Crawlbase API
   slug: open-crawlbase
@@ -124,7 +142,7 @@ plans:
 - name: Crawlbase Plans Pricing
   plan_count: 10
   slug: crawlbase-plans-pricing
-random_paper: 108
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Crawlbase Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/screenshots/crawlbase-2026-07-25T210650.png
 security:

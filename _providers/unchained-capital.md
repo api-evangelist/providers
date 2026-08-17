@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Unchained Capital is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Unchained Capital''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 42
+random_paper: 83
 score:
   band: emerging
   composite: 25.5
@@ -121,7 +121,7 @@ score:
     regime_id: securities_market_data
     score: 40.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

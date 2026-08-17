@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: The Regions API from D-Wave — 2 operation(s) for regions.
   name: D-Wave Regions API
   slug: d-wave-regions-api
-artifact_total: 73
+artifact_total: 78
 collections:
 - collection_type: postman
   name: D-Wave Leap Hybrid Solvers Account API
@@ -78,6 +78,15 @@ collections:
   name: D-Wave Leap Hybrid Account Solvers API
   slug: postman-d-wave-solvers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: D-Wave Leap Hybrid Solvers Account API
+  slug: open-d-wave-account-api
+- collection_type: open
+  name: D-Wave Leap Solvers Account Hybrid API
+  slug: open-d-wave-hybrid-api
+- collection_type: open
   name: D-Wave Leap Hybrid Solvers
   slug: open-d-wave-hybrid-solvers
 - collection_type: open
@@ -87,13 +96,19 @@ collections:
   name: D-Wave Metadata API
   slug: open-d-wave-metadata-api
 - collection_type: open
-  name: D-Wave Solver API (SAPI) - Problems
+  name: D-Wave Leap Hybrid Solvers Account Problems API
   slug: open-d-wave-problems-api
+- collection_type: open
+  name: D-Wave Leap Hybrid Solvers Account QPU API
+  slug: open-d-wave-qpu-api
 - collection_type: open
   name: D-Wave QPU Samplers (Advantage / Advantage2)
   slug: open-d-wave-qpu-samplers
 - collection_type: open
-  name: D-Wave Solver API (SAPI) - Solvers
+  name: D-Wave Leap Hybrid Solvers Account Regions API
+  slug: open-d-wave-regions-api
+- collection_type: open
+  name: D-Wave Leap Hybrid Account Solvers API
   slug: open-d-wave-solvers-api
 common:
 - group: build
@@ -480,7 +495,7 @@ plans:
 - name: D Wave Plans Pricing
   plan_count: 3
   slug: d-wave-plans-pricing
-random_paper: 100
+random_paper: 133
 rate_limits:
 - limit_count: 4
   name: D Wave Rate Limits
@@ -527,7 +542,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/screenshots/d-wave-2026-06-20T175418.png
 security:

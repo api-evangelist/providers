@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Pricing API from GridX — 1 operation(s) for pricing.
   name: GridX Pricing API
   slug: gridx-pricing-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GridX Enterprise Rate Platform Authentication API
+  slug: open-gridx-authentication-api
+- collection_type: open
+  name: GridX Enterprise Rate Platform Authentication Customer API
+  slug: open-gridx-customer-api
+- collection_type: open
+  name: GridX Enterprise Rate Platform Authentication OpenADR API
+  slug: open-gridx-openadr-api
+- collection_type: open
+  name: GridX Enterprise Rate Platform Authentication Pricing API
+  slug: open-gridx-pricing-api
 - collection_type: open
   name: GridX Enterprise Rate Platform API
   slug: open-gridx
@@ -113,7 +128,7 @@ plans:
 - name: Gridx Plans Pricing
   plan_count: 1
   slug: gridx-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 3
   name: Gridx Rate Limits
@@ -144,7 +159,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/screenshots/gridx-2026-06-20T182406.png
 security:

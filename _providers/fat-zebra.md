@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -40,11 +40,24 @@ apis:
 - description: A Third-Party Processor (TPP) merchant onboarding API for the FDMS acquiring integration (OpenAPI 3.0.3) — create and list merchants and an internal onboard operation. Documented server is the sandbox
   name: Fat Zebra FDMS TPP Merchant Onboarding API
   slug: fat-zebra-fdms-tpp-merchant-onboarding-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Fat Zebra Webhooks
   slug: fat-zebra-webhooks
+collections:
+- collection_type: open
+  name: Fat Zebra Billing
+  slug: open-fat-zebra-billing
+- collection_type: open
+  name: FDMS TPP Merchant Onboarding
+  slug: open-fat-zebra-fdms-tpp-merchant-onboarding
+- collection_type: open
+  name: gateway
+  slug: open-fat-zebra-gateway
+- collection_type: open
+  name: Fat Zebra Partner API
+  slug: open-fat-zebra-partner
 common:
 - group: auth
   title: ''
@@ -229,7 +242,7 @@ overview: 'Fat Zebra publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Fat Zebra''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 34 more developer resources.'
-random_paper: 52
+random_paper: 147
 score:
   band: developing
   composite: 55.3
@@ -254,7 +267,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png
 security:

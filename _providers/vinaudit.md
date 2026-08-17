@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -71,7 +71,32 @@ apis:
 - description: The Specifications API from VINaudit — 1 operation(s) for specifications.
   name: VINaudit Specifications API
   slug: vinaudit-specifications-api
-artifact_total: 25
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VINaudit Vehicle History Getownershipcost.php API
+  slug: open-vinaudit-getownershipcost-php-api
+- collection_type: open
+  name: VINaudit Vehicle History Getownershipcost.php Marketvalue API
+  slug: open-vinaudit-marketvalue-api
+- collection_type: open
+  name: VINaudit Vehicle History Getownershipcost.php Pullreport API
+  slug: open-vinaudit-pullreport-api
+- collection_type: open
+  name: VINaudit Vehicle History Getownershipcost.php Query API
+  slug: open-vinaudit-query-api
+- collection_type: open
+  name: VINaudit Vehicle History Getownershipcost.php Report API
+  slug: open-vinaudit-report-api
+- collection_type: open
+  name: VINaudit Vehicle History Getownershipcost.php Selections API
+  slug: open-vinaudit-selections-api
+- collection_type: open
+  name: VINaudit Vehicle History Getownershipcost.php Specifications API
+  slug: open-vinaudit-specifications-api
 common:
 - group: agent
   title: ''
@@ -176,7 +201,7 @@ plans:
 - name: Vinaudit Plans Pricing
   plan_count: 4
   slug: vinaudit-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 5
   name: Vinaudit Rate Limits
@@ -210,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/screenshots/vinaudit-2026-06-20T201030.png
 security:

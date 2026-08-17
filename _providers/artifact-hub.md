@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -69,8 +69,38 @@ apis:
 - description: The Integrations API from Artifact Hub — 3 operation(s) for integrations.
   name: Artifact Hub Integrations API
   slug: artifact-hub-integrations-api
-artifact_total: 31
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Artifact Hub Availability checks API
+  slug: open-artifact-hub-availability-checks-api
+- collection_type: open
+  name: Artifact Hub Integrations API
+  slug: open-artifact-hub-integrations-api
+- collection_type: open
+  name: Artifact Hub Organizations API
+  slug: open-artifact-hub-organizations-api
+- collection_type: open
+  name: Artifact Hub Packages API
+  slug: open-artifact-hub-packages-api
+- collection_type: open
+  name: Artifact Hub Repositories API
+  slug: open-artifact-hub-repositories-api
+- collection_type: open
+  name: Artifact Hub Stats API
+  slug: open-artifact-hub-stats-api
+- collection_type: open
+  name: Artifact Hub Subscriptions API
+  slug: open-artifact-hub-subscriptions-api
+- collection_type: open
+  name: Artifact Hub Users API
+  slug: open-artifact-hub-users-api
+- collection_type: open
+  name: Artifact Hub Webhooks API
+  slug: open-artifact-hub-webhooks-api
 - collection_type: open
   name: Artifact Hub API
   slug: open-artifact-hub
@@ -177,7 +207,7 @@ plans:
 - name: Artifact Hub Plans Pricing
   plan_count: 3
   slug: artifact-hub-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Artifact Hub Rate Limits
@@ -202,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png
 security:

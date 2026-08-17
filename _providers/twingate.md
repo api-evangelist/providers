@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: GraphQL Admin API for managing Twingate resources, remote networks, connectors, users, groups, devices, service accounts, security policies, certificate authorities, and DNS filtering profiles. Authen
@@ -87,7 +87,7 @@ overview: 'Twingate publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Twingate''s developer surface includes documentation, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 27
+random_paper: 122
 score:
   band: emerging
   composite: 14.9
@@ -101,7 +101,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twingate/refs/heads/main/screenshots/twingate-2026-06-20T195919.png
 security:

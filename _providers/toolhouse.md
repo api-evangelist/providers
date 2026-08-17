@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -64,7 +64,7 @@ apis:
 - description: The User API API from Toolhouse — 58 operation(s) for user api.
   name: Toolhouse User API API
   slug: toolhouse-user-api-api
-artifact_total: 91
+artifact_total: 99
 collections:
 - collection_type: postman
   name: Toolhouse Agent Runs API
@@ -87,6 +87,30 @@ collections:
 - collection_type: postman
   name: Toolhouse Agent Runs User API API
   slug: postman-toolhouse-user-api-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toolhouse Agent Runs API
+  slug: open-toolhouse-agent-runs-api
+- collection_type: open
+  name: Toolhouse Agent Runs API Keys API
+  slug: open-toolhouse-api-keys-api
+- collection_type: open
+  name: Toolhouse Agent Runs Backoffice API
+  slug: open-toolhouse-backoffice-api
+- collection_type: open
+  name: Toolhouse Agent Runs Logs API
+  slug: open-toolhouse-logs-api
+- collection_type: open
+  name: Toolhouse Agent Runs Metrics API
+  slug: open-toolhouse-metrics-api
+- collection_type: open
+  name: Toolhouse Agent Runs SDK API API
+  slug: open-toolhouse-sdk-api-api
+- collection_type: open
+  name: Toolhouse Agent Runs User API API
+  slug: open-toolhouse-user-api-api
 common:
 - group: build
   title: ''
@@ -370,7 +394,7 @@ overview: 'Toolhouse publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Toolhouse''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, support, tooling, and 39 more developer resources.'
-random_paper: 34
+random_paper: 100
 rate_limits:
 - limit_count: 10
   name: Toolhouse Rate Limits
@@ -412,7 +436,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

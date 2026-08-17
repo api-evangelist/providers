@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Upload API from Bytescale — 3 operation(s) for upload.
   name: Bytescale Upload API
   slug: bytescale-upload-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bytescale Files API
+  slug: open-bytescale-files-api
+- collection_type: open
+  name: Bytescale Files Folders API
+  slug: open-bytescale-folders-api
+- collection_type: open
+  name: Bytescale Files Upload API
+  slug: open-bytescale-upload-api
 - collection_type: open
   name: Bytescale API
   slug: open-bytescale
@@ -118,7 +130,7 @@ plans:
 - name: Bytescale Plans Pricing
   plan_count: 6
   slug: bytescale-plans-pricing
-random_paper: 116
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Bytescale Rate Limits
@@ -143,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/screenshots/bytescale-2026-06-20T173832.png
 security:

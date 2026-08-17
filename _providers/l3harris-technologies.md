@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'L3Harris Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   L3Harris Technologies'' developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 97
+random_paper: 51
 score:
   band: minimal
   composite: 9.7
@@ -95,7 +95,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/l3harris-technologies/refs/heads/main/screenshots/l3harris-technologies-2026-06-20T184230.png
 security:

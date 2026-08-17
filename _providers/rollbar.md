@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: Retrieve user information within a Rollbar account.
   name: Rollbar Users API
   slug: rollbar-users-api
-artifact_total: 68
+artifact_total: 83
 asyncapis:
 - description: Rollbar's webhook notification system delivers real-time event notifications to configured endpoints when errors, deployments, and other significant events occur. Webhooks are triggered based on confi
   name: Rollbar Webhook Events
@@ -133,17 +133,62 @@ collections:
   name: Rollbar Deployment Access Tokens Users API
   slug: postman-rollbar-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rollbar Deployment Access Tokens API
+  slug: open-rollbar-access-tokens-api
+- collection_type: open
   name: Rollbar Deployment API
   slug: open-rollbar-deployment-api
 - collection_type: open
+  name: Rollbar Deployment Access Tokens Deploys API
+  slug: open-rollbar-deploys-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Invites API
+  slug: open-rollbar-invites-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Items API
+  slug: open-rollbar-items-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Items Metrics API
+  slug: open-rollbar-items-metrics-api
+- collection_type: open
   name: Rollbar Metrics API
   slug: open-rollbar-metrics-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Notifications API
+  slug: open-rollbar-notifications-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Occurrences API
+  slug: open-rollbar-occurrences-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Occurrences Metrics API
+  slug: open-rollbar-occurrences-metrics-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Projects API
+  slug: open-rollbar-projects-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Resolution Time Metrics API
+  slug: open-rollbar-resolution-time-metrics-api
 - collection_type: open
   name: Rollbar REST API
   slug: open-rollbar-rest-api
 - collection_type: open
   name: Rollbar RQL API
   slug: open-rollbar-rql-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens RQL Jobs API
+  slug: open-rollbar-rql-jobs-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Source Maps API
+  slug: open-rollbar-source-maps-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Teams API
+  slug: open-rollbar-teams-api
+- collection_type: open
+  name: Rollbar Deployment Access Tokens Users API
+  slug: open-rollbar-users-api
 common:
 - group: build
   title: ''
@@ -326,7 +371,7 @@ plans:
 - name: Rollbar Plans Pricing
   plan_count: 4
   slug: rollbar-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Rollbar Rate Limits
@@ -376,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/screenshots/rollbar-2026-06-20T193208.png
 security:

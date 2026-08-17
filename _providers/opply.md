@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 512
   human_in_the_loop: 18
@@ -180,7 +180,152 @@ apis:
 - description: The .well-known API from Opply — 3 operation(s) for .well-known.
   name: Opply .well-known API
   slug: opply-well-known-api
-artifact_total: 52
+artifact_total: 100
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Opply Activity Feed API
+  slug: open-opply-activity-feed-api
+- collection_type: open
+  name: Opply Activity Feed Admin panel API
+  slug: open-opply-admin-panel-api
+- collection_type: open
+  name: Opply Activity Feed Agents API
+  slug: open-opply-agents-api
+- collection_type: open
+  name: Opply Activity Feed Agreements API
+  slug: open-opply-agreements-api
+- collection_type: open
+  name: Opply Activity Feed api API
+  slug: open-opply-api-api
+- collection_type: open
+  name: Opply Activity Feed App Orders API
+  slug: open-opply-app-orders-api
+- collection_type: open
+  name: Opply Activity Feed Brain API
+  slug: open-opply-brain-api
+- collection_type: open
+  name: Opply Activity Feed Brands API
+  slug: open-opply-brands-api
+- collection_type: open
+  name: Opply Activity Feed Buyer Documents API
+  slug: open-opply-buyer-documents-api
+- collection_type: open
+  name: Opply Activity Feed Buyer Financial Documents API
+  slug: open-opply-buyer-financial-documents-api
+- collection_type: open
+  name: Opply Activity Feed Buyer Onboarding API
+  slug: open-opply-buyer-onboarding-api
+- collection_type: open
+  name: Opply Activity Feed Buyer self-onboarding API
+  slug: open-opply-buyer-self-onboarding-api
+- collection_type: open
+  name: Opply Activity Feed Buyers API
+  slug: open-opply-buyers-api
+- collection_type: open
+  name: Opply Activity Feed Canny API
+  slug: open-opply-canny-api
+- collection_type: open
+  name: Opply Activity Feed Catalog API
+  slug: open-opply-catalog-api
+- collection_type: open
+  name: Opply Activity Feed Chats API
+  slug: open-opply-chats-api
+- collection_type: open
+  name: Opply Activity Feed Companies API
+  slug: open-opply-companies-api
+- collection_type: open
+  name: Opply Activity Feed Credibility API
+  slug: open-opply-credibility-api
+- collection_type: open
+  name: Opply Activity Feed Customer Status API
+  slug: open-opply-customer-status-api
+- collection_type: open
+  name: Opply Activity Feed Deals API
+  slug: open-opply-deals-api
+- collection_type: open
+  name: Opply Activity Feed Files API
+  slug: open-opply-files-api
+- collection_type: open
+  name: Opply Activity Feed Ingredients API
+  slug: open-opply-ingredients-api
+- collection_type: open
+  name: Opply Activity Feed Inquiries API
+  slug: open-opply-inquiries-api
+- collection_type: open
+  name: Opply Activity Feed InquiryDeliveryAddresses API
+  slug: open-opply-inquirydeliveryaddresses-api
+- collection_type: open
+  name: Opply Activity Feed Insights API
+  slug: open-opply-insights-api
+- collection_type: open
+  name: Opply Activity Feed Integrations API
+  slug: open-opply-integrations-api
+- collection_type: open
+  name: Opply Activity Feed Masquerade API
+  slug: open-opply-masquerade-api
+- collection_type: open
+  name: Opply Activity Feed Merchant of Record API
+  slug: open-opply-merchant-of-record-api
+- collection_type: open
+  name: Opply Activity Feed Notes API
+  slug: open-opply-notes-api
+- collection_type: open
+  name: Opply Activity Feed Notifications API
+  slug: open-opply-notifications-api
+- collection_type: open
+  name: Opply Activity Feed Opply Documents API
+  slug: open-opply-opply-documents-api
+- collection_type: open
+  name: Opply Activity Feed Order Management Contracts API
+  slug: open-opply-order-management-contracts-api
+- collection_type: open
+  name: Opply Activity Feed Orders API
+  slug: open-opply-orders-api
+- collection_type: open
+  name: Opply Activity Feed Public Buyer Onboarding API
+  slug: open-opply-public-buyer-onboarding-api
+- collection_type: open
+  name: Opply Activity Feed QuoteDispatchAddresses API
+  slug: open-opply-quotedispatchaddresses-api
+- collection_type: open
+  name: Opply Activity Feed Quotes API
+  slug: open-opply-quotes-api
+- collection_type: open
+  name: Opply Activity Feed Rapyd API
+  slug: open-opply-rapyd-api
+- collection_type: open
+  name: Opply Activity Feed Recommendations API
+  slug: open-opply-recommendations-api
+- collection_type: open
+  name: Opply Activity Feed Registration Validation API
+  slug: open-opply-registration-validation-api
+- collection_type: open
+  name: Opply Activity Feed Sourcing API
+  slug: open-opply-sourcing-api
+- collection_type: open
+  name: Opply Activity Feed SSO API
+  slug: open-opply-sso-api
+- collection_type: open
+  name: Opply Activity Feed Suppliers API
+  slug: open-opply-suppliers-api
+- collection_type: open
+  name: Opply Activity Feed System Tasks API
+  slug: open-opply-system-tasks-api
+- collection_type: open
+  name: Opply Activity Feed Tasks API
+  slug: open-opply-tasks-api
+- collection_type: open
+  name: Opply Activity Feed Users API
+  slug: open-opply-users-api
+- collection_type: open
+  name: Opply Activity Feed Welcome Modal API
+  slug: open-opply-welcome-modal-api
+- collection_type: open
+  name: Opply Activity Feed .well-known API
+  slug: open-opply-well-known-api
 common:
 - group: agent
   title: ''
@@ -274,7 +419,7 @@ overview: 'Opply publishes 47 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Opply''s developer surface includes authentication, engineering blog, and 17 more developer resources.'
-random_paper: 84
+random_paper: 117
 scopes:
 - name: Opply Scopes
   scope_count: 29
@@ -309,7 +454,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/screenshots/opply-2026-08-07T190741.png
 security:

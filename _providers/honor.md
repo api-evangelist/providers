@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ name: Honor
 nav: Providers
 network: true
 overview: Honor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Home Care, Senior Care, Aging, Health Tech, and Care Platform.
-random_paper: 70
+random_paper: 103
 score:
   band: minimal
   composite: 5.4
@@ -81,7 +81,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honor/refs/heads/main/screenshots/honor-2026-07-25T221410.png
 security:

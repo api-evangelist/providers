@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -96,7 +96,7 @@ overview: 'EliseAI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   EliseAI''s developer surface includes support, engineering blog, signup flow, authentication, and 9 more developer resources.'
-random_paper: 12
+random_paper: 136
 scopes:
 - name: Eliseai Scopes
   scope_count: 14
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

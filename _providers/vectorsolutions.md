@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -80,7 +80,53 @@ apis:
 - description: The Users API from Vector Solutions — 4 operation(s) for users.
   name: Vector Solutions Users API
   slug: vectorsolutions-users-api
-artifact_total: 18
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TargetSolutions Courses API
+  slug: open-vectorsolutions-courses-api
+- collection_type: open
+  name: TargetSolutions Courses Credential Assignment API
+  slug: open-vectorsolutions-credential-assignment-api
+- collection_type: open
+  name: TargetSolutions Courses Credential Categories API
+  slug: open-vectorsolutions-credential-categories-api
+- collection_type: open
+  name: TargetSolutions Courses Credentials API
+  slug: open-vectorsolutions-credentials-api
+- collection_type: open
+  name: TargetSolutions Courses Feature Access API
+  slug: open-vectorsolutions-feature-access-api
+- collection_type: open
+  name: TargetSolutions Courses Profile Categories API
+  slug: open-vectorsolutions-profile-categories-api
+- collection_type: open
+  name: TargetSolutions Courses Profile Group Assignment API
+  slug: open-vectorsolutions-profile-group-assignment-api
+- collection_type: open
+  name: TargetSolutions Courses Profile Groups API
+  slug: open-vectorsolutions-profile-groups-api
+- collection_type: open
+  name: TargetSolutions Courses Sites API
+  slug: open-vectorsolutions-sites-api
+- collection_type: open
+  name: TargetSolutions Courses Supervisor Access API
+  slug: open-vectorsolutions-supervisor-access-api
+- collection_type: open
+  name: TargetSolutions Courses Training Assignments API
+  slug: open-vectorsolutions-training-assignments-api
+- collection_type: open
+  name: TargetSolutions Courses User Emails API
+  slug: open-vectorsolutions-user-emails-api
+- collection_type: open
+  name: TargetSolutions Courses User History API
+  slug: open-vectorsolutions-user-history-api
+- collection_type: open
+  name: TargetSolutions Courses Users API
+  slug: open-vectorsolutions-users-api
 common:
 - group: auth
   title: ''
@@ -198,7 +244,7 @@ overview: 'Vector Solutions publishes 14 APIs on the [APIs.io](https://apis.io/)
 
 
   Vector Solutions'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 107
+random_paper: 28
 score:
   band: thin
   composite: 35.4
@@ -222,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

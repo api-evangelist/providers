@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Score API from Flinks — 2 operation(s) for score.
   name: Flinks Score API
   slug: flinks-score-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flinks Authorize API
+  slug: open-flinks-authorize-api
+- collection_type: open
+  name: Flinks Authorize Connect API
+  slug: open-flinks-connect-api
+- collection_type: open
+  name: Flinks Authorize Enrich API
+  slug: open-flinks-enrich-api
+- collection_type: open
+  name: Flinks Authorize Fraud API
+  slug: open-flinks-fraud-api
+- collection_type: open
+  name: Flinks Authorize Identity API
+  slug: open-flinks-identity-api
+- collection_type: open
+  name: Flinks Authorize Score API
+  slug: open-flinks-score-api
 - collection_type: open
   name: Flinks API
   slug: open-flinks
@@ -131,7 +152,7 @@ plans:
 - name: Flinks Plans Pricing
   plan_count: 2
   slug: flinks-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Flinks Rate Limits
@@ -162,7 +183,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/screenshots/flinks-2026-07-25T214800.png
 security:

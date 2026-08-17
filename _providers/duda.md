@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: Subscribe to site and account events
   name: Duda Webhooks API
   slug: duda-webhooks-api
-artifact_total: 16
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Duda Partner Accounts API
+  slug: open-duda-accounts-api
+- collection_type: open
+  name: Duda Partner Accounts Authentication API
+  slug: open-duda-authentication-api
+- collection_type: open
+  name: Duda Partner Accounts Blog API
+  slug: open-duda-blog-api
+- collection_type: open
+  name: Duda Partner Accounts Collections API
+  slug: open-duda-collections-api
+- collection_type: open
+  name: Duda Partner Accounts eCommerce - Orders API
+  slug: open-duda-ecommerce-orders-api
+- collection_type: open
+  name: Duda Partner Accounts eCommerce - Products API
+  slug: open-duda-ecommerce-products-api
+- collection_type: open
+  name: Duda Partner Accounts Pages API
+  slug: open-duda-pages-api
+- collection_type: open
+  name: Duda Partner Accounts Sites API
+  slug: open-duda-sites-api
+- collection_type: open
+  name: Duda Partner Accounts Templates API
+  slug: open-duda-templates-api
+- collection_type: open
+  name: Duda Partner Accounts Webhooks API
+  slug: open-duda-webhooks-api
 common:
 - group: operate
   title: ''
@@ -159,7 +193,7 @@ plans:
 - name: Duda Plans Pricing
   plan_count: 5
   slug: duda-plans-pricing
-random_paper: 54
+random_paper: 116
 rate_limits:
 - limit_count: 2
   name: Duda Rate Limits
@@ -184,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/screenshots/duda-2026-06-20T180313.png
 security:

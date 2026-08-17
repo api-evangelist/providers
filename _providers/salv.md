@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -84,11 +84,60 @@ apis:
 - description: Endpoints to check if given entity has anything unresolved
   name: Salv unresolved-alerts API
   slug: salv-unresolved-alerts-api
-artifact_total: 23
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Salv Webhooks
   slug: salv-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salv AML alert API
+  slug: open-salv-alert-api
+- collection_type: open
+  name: Salv AML alert alerts API
+  slug: open-salv-alerts-api
+- collection_type: open
+  name: Salv alert aml API
+  slug: open-salv-aml-api
+- collection_type: open
+  name: Salv AML alert custom-list-record API
+  slug: open-salv-custom-list-record-api
+- collection_type: open
+  name: Salv AML alert custom-list-usable-field-public API
+  slug: open-salv-custom-list-usable-field-public-api
+- collection_type: open
+  name: Salv AML alert data-upload API
+  slug: open-salv-data-upload-api
+- collection_type: open
+  name: Salv AML alert manual-alerts API
+  slug: open-salv-manual-alerts-api
+- collection_type: open
+  name: Salv AML alert monitoring-checks API
+  slug: open-salv-monitoring-checks-api
+- collection_type: open
+  name: Salv AML alert note API
+  slug: open-salv-note-api
+- collection_type: open
+  name: Salv AML alert risk API
+  slug: open-salv-risk-api
+- collection_type: open
+  name: Salv AML alert screening-alerts API
+  slug: open-salv-screening-alerts-api
+- collection_type: open
+  name: Salv AML alert screening-checks API
+  slug: open-salv-screening-checks-api
+- collection_type: open
+  name: Salv AML alert screening-list-groups API
+  slug: open-salv-screening-list-groups-api
+- collection_type: open
+  name: Salv AML alert screening-searches API
+  slug: open-salv-screening-searches-api
+- collection_type: open
+  name: Salv AML alert unresolved-alerts API
+  slug: open-salv-unresolved-alerts-api
 common:
 - group: other
   title: ''
@@ -229,7 +278,7 @@ overview: 'Salv publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Salv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 1
   name: Salv Rate Limits
@@ -262,7 +311,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: List account users
   name: ProductPlan Users API
   slug: productplan-users-api
-artifact_total: 30
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ProductPlan REST Bars API
+  slug: open-productplan-bars-api
+- collection_type: open
+  name: ProductPlan REST Bars Discovery API
+  slug: open-productplan-discovery-api
+- collection_type: open
+  name: ProductPlan REST Bars Launches API
+  slug: open-productplan-launches-api
+- collection_type: open
+  name: ProductPlan REST Bars Roadmaps API
+  slug: open-productplan-roadmaps-api
+- collection_type: open
+  name: ProductPlan REST Bars Status API
+  slug: open-productplan-status-api
+- collection_type: open
+  name: ProductPlan REST Bars Strategy API
+  slug: open-productplan-strategy-api
+- collection_type: open
+  name: ProductPlan REST Bars Teams API
+  slug: open-productplan-teams-api
+- collection_type: open
+  name: ProductPlan REST Bars Users API
+  slug: open-productplan-users-api
 common:
 - group: agent
   title: ''
@@ -195,7 +223,7 @@ plans:
 - name: Productplan Plans Pricing
   plan_count: 1
   slug: productplan-plans-pricing
-random_paper: 116
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Productplan Rate Limits
@@ -229,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/screenshots/productplan-2026-06-20T192137.png
 security:

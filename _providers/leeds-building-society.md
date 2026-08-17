@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The UK Open Banking (OBIE) Open Data API standard for public, unauthenticated reference data - ATM locations, branch locations, personal and business current accounts, unsecured SME loans, and commerc
@@ -43,7 +43,11 @@ apis:
 - description: The OBIE Read/Write Confirmation of Funds (CBPII) standard for confirming whether funds are available on a payment account, secured with FAPI OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authenti
   name: OBIE Confirmation of Funds API (CBPII, shared standard)
   slug: obie-confirmation-of-funds-api
-artifact_total: 5
+artifact_total: 6
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-standard-swagger
 common:
 - group: auth
   title: ''
@@ -94,7 +98,7 @@ overview: 'Leeds Building Society publishes 1 API on the [APIs.io](https://apis.
 
 
   Leeds Building Society''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 69
+random_paper: 143
 score:
   band: emerging
   composite: 23.1
@@ -120,7 +124,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/screenshots/leeds-building-society-2026-07-25T224818.png
 security:

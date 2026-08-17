@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -113,11 +113,90 @@ apis:
 - description: The Workflows API from One Codex — 9 operation(s) for workflows.
   name: One Codex Workflows API
   slug: one-codex-workflows-api
-artifact_total: 31
+artifact_total: 57
 asyncapis:
 - description: ''
   name: One Codex Webhooks
   slug: one-codex-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: One Codex API (v1) Account API
+  slug: open-one-codex-account-api
+- collection_type: open
+  name: One Codex API (v1) Account Alignments API
+  slug: open-one-codex-alignments-api
+- collection_type: open
+  name: One Codex API (v1) Account Analyses API
+  slug: open-one-codex-analyses-api
+- collection_type: open
+  name: One Codex API (v1) Account Annotation Sets API
+  slug: open-one-codex-annotation-sets-api
+- collection_type: open
+  name: One Codex API (v1) Account Assemblies API
+  slug: open-one-codex-assemblies-api
+- collection_type: open
+  name: One Codex API (v1) Account Assets API
+  slug: open-one-codex-assets-api
+- collection_type: open
+  name: One Codex API (v1) Account Classifications API
+  slug: open-one-codex-classifications-api
+- collection_type: open
+  name: One Codex API (v1) Account Controls API
+  slug: open-one-codex-controls-api
+- collection_type: open
+  name: One Codex API (v1) Account Documents API
+  slug: open-one-codex-documents-api
+- collection_type: open
+  name: One Codex API (v1) Account Events API
+  slug: open-one-codex-events-api
+- collection_type: open
+  name: One Codex API (v1) Account Functional Profiles API
+  slug: open-one-codex-functional-profiles-api
+- collection_type: open
+  name: One Codex API (v1) Account Genomes API
+  slug: open-one-codex-genomes-api
+- collection_type: open
+  name: One Codex API (v1) Account Jobs API
+  slug: open-one-codex-jobs-api
+- collection_type: open
+  name: One Codex API (v1) Account Metadata API
+  slug: open-one-codex-metadata-api
+- collection_type: open
+  name: One Codex API (v1) Account Mlsts API
+  slug: open-one-codex-mlsts-api
+- collection_type: open
+  name: One Codex API (v1) Account Panels API
+  slug: open-one-codex-panels-api
+- collection_type: open
+  name: One Codex API (v1) Account Projects API
+  slug: open-one-codex-projects-api
+- collection_type: open
+  name: One Codex API (v1) Account Reports API
+  slug: open-one-codex-reports-api
+- collection_type: open
+  name: One Codex API (v1) Account Samples API
+  slug: open-one-codex-samples-api
+- collection_type: open
+  name: One Codex API (v1) Account Sequencing API
+  slug: open-one-codex-sequencing-api
+- collection_type: open
+  name: One Codex API (v1) Account Tags API
+  slug: open-one-codex-tags-api
+- collection_type: open
+  name: One Codex API (v1) Account Taxa API
+  slug: open-one-codex-taxa-api
+- collection_type: open
+  name: One Codex API (v1) Account Users API
+  slug: open-one-codex-users-api
+- collection_type: open
+  name: One Codex API (v1) Account Webhooks API
+  slug: open-one-codex-webhooks-api
+- collection_type: open
+  name: One Codex API (v1) Account Workflows API
+  slug: open-one-codex-workflows-api
 common:
 - group: start
   title: ''
@@ -270,7 +349,7 @@ overview: 'One Codex publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Codex''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 58
+random_paper: 4
 score:
   band: developing
   composite: 53.3
@@ -300,7 +379,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/screenshots/one-codex-2026-08-07T190241.png
 security:

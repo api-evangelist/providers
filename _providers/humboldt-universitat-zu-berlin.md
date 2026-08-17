@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,20 @@ apis:
 - description: API root and capability discovery
   name: Humboldt-Universität zu Berlin Root API
   slug: humboldt-universitat-zu-berlin-root-api
-artifact_total: 23
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: edoc-Server DSpace REST API (Humboldt-Universität zu Berlin) Core API
+  slug: open-humboldt-universitat-zu-berlin-core-api
+- collection_type: open
+  name: edoc-Server DSpace REST API (Humboldt-Universität zu Berlin) Core Discovery API
+  slug: open-humboldt-universitat-zu-berlin-discovery-api
+- collection_type: open
+  name: edoc-Server DSpace REST API (Humboldt-Universität zu Berlin) Core Root API
+  slug: open-humboldt-universitat-zu-berlin-root-api
 common:
 - group: agent
   title: ''
@@ -157,7 +170,7 @@ plans:
 - name: Humboldt Universitat Zu Berlin Plans Pricing
   plan_count: 2
   slug: humboldt-universitat-zu-berlin-plans-pricing
-random_paper: 87
+random_paper: 107
 rate_limits:
 - limit_count: 1
   name: Humboldt Universitat Zu Berlin Rate Limits
@@ -199,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/screenshots/humboldt-universitat-zu-berlin-2026-06-20T182937.png
 security:

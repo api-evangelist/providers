@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Real-time datafeeds (OMD-C SS, SP, SF tiers) for all securities traded on the Stock Exchange of Hong Kong, published in a proprietary binary message format over one-to-many IP multicast/UDP for high t
@@ -137,7 +137,7 @@ overview: 'HKEX publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   HKEX''s developer surface includes authentication, changelog, developer portal, documentation, engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 2
   name: Hkex Rate Limits
@@ -168,7 +168,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/screenshots/hkex-2026-07-22T202427.png
 security:

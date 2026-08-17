@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - description: Manage RPC consumption tokens.
   name: Triton One Tokens API
   slug: triton-one-tokens-api
-artifact_total: 61
+artifact_total: 69
 collections:
 - collection_type: postman
   name: Triton One Customers Accounts API
@@ -102,14 +102,38 @@ collections:
   name: Triton One Customers Accounts Tokens API
   slug: postman-triton-one-tokens-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Triton One Customers Accounts API
+  slug: open-triton-one-accounts-api
+- collection_type: open
+  name: Triton One Customers Accounts AddressWatchLists API
+  slug: open-triton-one-addresswatchlists-api
+- collection_type: open
+  name: Triton One Customers Accounts Assets API
+  slug: open-triton-one-assets-api
+- collection_type: open
   name: Triton One Customers API
   slug: open-triton-one-customers-api
 - collection_type: open
   name: Triton One Digital Assets API
   slug: open-triton-one-digital-assets-api
 - collection_type: open
+  name: Triton One Customers Accounts Endpoints API
+  slug: open-triton-one-endpoints-api
+- collection_type: open
   name: Triton One Solana RPC API
   slug: open-triton-one-solana-rpc-api
+- collection_type: open
+  name: Triton One Customers Accounts Standard API
+  slug: open-triton-one-standard-api
+- collection_type: open
+  name: Triton One Customers Accounts Subscriptions API
+  slug: open-triton-one-subscriptions-api
+- collection_type: open
+  name: Triton One Customers Accounts Tokens API
+  slug: open-triton-one-tokens-api
 common:
 - group: build
   title: ''
@@ -287,7 +311,7 @@ plans:
 - name: Triton One Plans Pricing
   plan_count: 1
   slug: triton-one-plans-pricing
-random_paper: 79
+random_paper: 145
 rate_limits:
 - limit_count: 0
   name: Triton One Rate Limits
@@ -321,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/screenshots/triton-one-2026-06-20T195737.png
 security:

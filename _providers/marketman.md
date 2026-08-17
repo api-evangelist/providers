@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Webhook subscriptions for order and account events.
   name: MarketMan Webhooks API
   slug: marketman-webhooks-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MarketMan API V3 Accounts API
+  slug: open-marketman-accounts-api
+- collection_type: open
+  name: MarketMan API V3 Accounts Authentication API
+  slug: open-marketman-authentication-api
+- collection_type: open
+  name: MarketMan API V3 Accounts Deliveries API
+  slug: open-marketman-deliveries-api
+- collection_type: open
+  name: MarketMan API V3 Accounts Docs API
+  slug: open-marketman-docs-api
+- collection_type: open
+  name: MarketMan API V3 Accounts Inventory API
+  slug: open-marketman-inventory-api
+- collection_type: open
+  name: MarketMan API V3 Accounts Items API
+  slug: open-marketman-items-api
+- collection_type: open
+  name: MarketMan API V3 Accounts Orders API
+  slug: open-marketman-orders-api
+- collection_type: open
+  name: MarketMan API V3 Accounts Recipes API
+  slug: open-marketman-recipes-api
+- collection_type: open
+  name: MarketMan API V3 Accounts Webhooks API
+  slug: open-marketman-webhooks-api
 - collection_type: open
   name: MarketMan API V3
   slug: open-marketman
@@ -132,7 +162,7 @@ plans:
 - name: Marketman Plans Pricing
   plan_count: 3
   slug: marketman-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Marketman Rate Limits
@@ -157,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/screenshots/marketman-2026-07-25T230236.png
 security:

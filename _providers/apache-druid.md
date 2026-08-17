@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: The Druid API from Apache Druid — 10 operation(s) for druid.
   name: Apache Druid Druid API
   slug: apache-druid-druid-api
-artifact_total: 42
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache REST Druid API
+  slug: open-apache-druid-druid-api
 - collection_type: open
   name: Apache Druid REST API
   slug: open-apache-druid
@@ -210,7 +216,7 @@ plans:
 - name: Apache Druid Plans Pricing
   plan_count: 3
   slug: apache-druid-plans-pricing
-random_paper: 111
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Apache Druid Rate Limits
@@ -244,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-druid/refs/heads/main/screenshots/apache-druid-2026-06-20T172055.png
 security:

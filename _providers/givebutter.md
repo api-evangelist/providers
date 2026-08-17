@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: The Webhooks API from Givebutter — 2 operation(s) for webhooks.
   name: Givebutter Webhooks API
   slug: givebutter-webhooks-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Givebutter Campaigns API
+  slug: open-givebutter-campaigns-api
+- collection_type: open
+  name: Givebutter Campaigns Contacts API
+  slug: open-givebutter-contacts-api
+- collection_type: open
+  name: Givebutter Campaigns Discount Codes API
+  slug: open-givebutter-discount-codes-api
+- collection_type: open
+  name: Givebutter Campaigns Funds API
+  slug: open-givebutter-funds-api
+- collection_type: open
+  name: Givebutter Campaigns Payouts API
+  slug: open-givebutter-payouts-api
+- collection_type: open
+  name: Givebutter Campaigns Plans API
+  slug: open-givebutter-plans-api
+- collection_type: open
+  name: Givebutter Campaigns Tickets API
+  slug: open-givebutter-tickets-api
+- collection_type: open
+  name: Givebutter Campaigns Transactions API
+  slug: open-givebutter-transactions-api
+- collection_type: open
+  name: Givebutter Campaigns Webhooks API
+  slug: open-givebutter-webhooks-api
 - collection_type: open
   name: Givebutter API
   slug: open-givebutter
@@ -127,7 +157,7 @@ plans:
 - name: Givebutter Plans Pricing
   plan_count: 3
   slug: givebutter-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Givebutter Rate Limits
@@ -152,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/screenshots/givebutter-2026-06-20T181853.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -62,7 +62,26 @@ apis:
 - description: Create and load Ceramic streams by StreamID or CommitID
   name: Self.ID Streams API
   slug: self-id-streams-api
-artifact_total: 21
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ceramic HTTP Commits API
+  slug: open-self-id-commits-api
+- collection_type: open
+  name: Ceramic HTTP Commits Multiqueries API
+  slug: open-self-id-multiqueries-api
+- collection_type: open
+  name: Ceramic HTTP Commits Node API
+  slug: open-self-id-node-api
+- collection_type: open
+  name: Ceramic HTTP Commits Pins API
+  slug: open-self-id-pins-api
+- collection_type: open
+  name: Ceramic HTTP Commits Streams API
+  slug: open-self-id-streams-api
 common:
 - group: agent
   title: ''
@@ -123,7 +142,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 76
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -157,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/screenshots/self-id-2026-06-20T193640.png
 security:

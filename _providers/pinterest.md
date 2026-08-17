@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 117
 apis:
 - description: The Access API from Pinterest — 3 operation(s) for access.
@@ -382,11 +382,362 @@ apis:
 - description: The Visit API from Pinterest — 1 operation(s) for visit.
   name: Pinterest Visit API
   slug: pinterest-visit-api
-artifact_total: 130
+artifact_total: 247
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pinterest Access API
+  slug: open-pinterest-access-api
+- collection_type: open
+  name: Pinterest Accounts API
+  slug: open-pinterest-accounts-api
+- collection_type: open
+  name: Pinterest Ad API
+  slug: open-pinterest-ad-api
+- collection_type: open
+  name: Pinterest Ad_groups API
+  slug: open-pinterest-ad-groups-api
+- collection_type: open
+  name: Pinterest Ads API
+  slug: open-pinterest-ads-api
+- collection_type: open
+  name: Pinterest Analytics API
+  slug: open-pinterest-analytics-api
+- collection_type: open
+  name: Pinterest Assets API
+  slug: open-pinterest-assets-api
 - collection_type: open
   name: Pinterest Webhooks (Lead Ads)
   slug: open-pinterest-asyncapi
+- collection_type: open
+  name: Pinterest Audience API
+  slug: open-pinterest-audience-api
+- collection_type: open
+  name: Pinterest Audience_insights API
+  slug: open-pinterest-audience-insights-api
+- collection_type: open
+  name: Pinterest Audiences API
+  slug: open-pinterest-audiences-api
+- collection_type: open
+  name: Pinterest Batch API
+  slug: open-pinterest-batch-api
+- collection_type: open
+  name: Pinterest Bid API
+  slug: open-pinterest-bid-api
+- collection_type: open
+  name: Pinterest Billing API
+  slug: open-pinterest-billing-api
+- collection_type: open
+  name: Pinterest Board API
+  slug: open-pinterest-board-api
+- collection_type: open
+  name: Pinterest Boards API
+  slug: open-pinterest-boards-api
+- collection_type: open
+  name: Pinterest Bulk API
+  slug: open-pinterest-bulk-api
+- collection_type: open
+  name: Pinterest Business API
+  slug: open-pinterest-business-api
+- collection_type: open
+  name: Pinterest Campaigns API
+  slug: open-pinterest-campaigns-api
+- collection_type: open
+  name: Pinterest Catalogs API
+  slug: open-pinterest-catalogs-api
+- collection_type: open
+  name: Pinterest Commerce API
+  slug: open-pinterest-commerce-api
+- collection_type: open
+  name: Pinterest Conversion API
+  slug: open-pinterest-conversion-api
+- collection_type: open
+  name: Pinterest Conversions API
+  slug: open-pinterest-conversions-api
+- collection_type: open
+  name: Pinterest Countries API
+  slug: open-pinterest-countries-api
+- collection_type: open
+  name: Pinterest Counts API
+  slug: open-pinterest-counts-api
+- collection_type: open
+  name: Pinterest Credit API
+  slug: open-pinterest-credit-api
+- collection_type: open
+  name: Pinterest Custom API
+  slug: open-pinterest-custom-api
+- collection_type: open
+  name: Pinterest Customer API
+  slug: open-pinterest-customer-api
+- collection_type: open
+  name: Pinterest Customer_lists API
+  slug: open-pinterest-customer-lists-api
+- collection_type: open
+  name: Pinterest Customers API
+  slug: open-pinterest-customers-api
+- collection_type: open
+  name: Pinterest Deliveries API
+  slug: open-pinterest-deliveries-api
+- collection_type: open
+  name: Pinterest Discounts API
+  slug: open-pinterest-discounts-api
+- collection_type: open
+  name: Pinterest Downloads API
+  slug: open-pinterest-downloads-api
+- collection_type: open
+  name: Pinterest Eligible API
+  slug: open-pinterest-eligible-api
+- collection_type: open
+  name: Pinterest Employers API
+  slug: open-pinterest-employers-api
+- collection_type: open
+  name: Pinterest Events API
+  slug: open-pinterest-events-api
+- collection_type: open
+  name: Pinterest External API
+  slug: open-pinterest-external-api
+- collection_type: open
+  name: Pinterest Feed API
+  slug: open-pinterest-feed-api
+- collection_type: open
+  name: Pinterest Feeds API
+  slug: open-pinterest-feeds-api
+- collection_type: open
+  name: Pinterest Filters API
+  slug: open-pinterest-filters-api
+- collection_type: open
+  name: Pinterest Floor API
+  slug: open-pinterest-floor-api
+- collection_type: open
+  name: Pinterest Follow API
+  slug: open-pinterest-follow-api
+- collection_type: open
+  name: Pinterest Followers API
+  slug: open-pinterest-followers-api
+- collection_type: open
+  name: Pinterest Following API
+  slug: open-pinterest-following-api
+- collection_type: open
+  name: Pinterest Forms API
+  slug: open-pinterest-forms-api
+- collection_type: open
+  name: Pinterest Groups API
+  slug: open-pinterest-groups-api
+- collection_type: open
+  name: Pinterest Id API
+  slug: open-pinterest-id-api
+- collection_type: open
+  name: Pinterest Ingest API
+  slug: open-pinterest-ingest-api
+- collection_type: open
+  name: Pinterest Insertion API
+  slug: open-pinterest-insertion-api
+- collection_type: open
+  name: Pinterest Insights API
+  slug: open-pinterest-insights-api
+- collection_type: open
+  name: Pinterest Integrations API
+  slug: open-pinterest-integrations-api
+- collection_type: open
+  name: Pinterest Interest API
+  slug: open-pinterest-interest-api
+- collection_type: open
+  name: Pinterest Interests API
+  slug: open-pinterest-interests-api
+- collection_type: open
+  name: Pinterest Invites API
+  slug: open-pinterest-invites-api
+- collection_type: open
+  name: Pinterest Issues API
+  slug: open-pinterest-issues-api
+- collection_type: open
+  name: Pinterest Item API
+  slug: open-pinterest-item-api
+- collection_type: open
+  name: Pinterest Items API
+  slug: open-pinterest-items-api
+- collection_type: open
+  name: Pinterest Keywords API
+  slug: open-pinterest-keywords-api
+- collection_type: open
+  name: Pinterest Lead API
+  slug: open-pinterest-lead-api
+- collection_type: open
+  name: Pinterest Line API
+  slug: open-pinterest-line-api
+- collection_type: open
+  name: Pinterest Lines API
+  slug: open-pinterest-lines-api
+- collection_type: open
+  name: Pinterest Logs API
+  slug: open-pinterest-logs-api
+- collection_type: open
+  name: Pinterest Media API
+  slug: open-pinterest-media-api
+- collection_type: open
+  name: Pinterest Member API
+  slug: open-pinterest-member-api
+- collection_type: open
+  name: Pinterest Members API
+  slug: open-pinterest-members-api
+- collection_type: open
+  name: Pinterest Metrics API
+  slug: open-pinterest-metrics-api
+- collection_type: open
+  name: Pinterest Multiple API
+  slug: open-pinterest-multiple-api
+- collection_type: open
+  name: Pinterest Order API
+  slug: open-pinterest-order-api
+- collection_type: open
+  name: Pinterest Orders API
+  slug: open-pinterest-orders-api
+- collection_type: open
+  name: Pinterest Page API
+  slug: open-pinterest-page-api
+- collection_type: open
+  name: Pinterest Partners API
+  slug: open-pinterest-partners-api
+- collection_type: open
+  name: Pinterest Pin API
+  slug: open-pinterest-pin-api
+- collection_type: open
+  name: Pinterest Pins API
+  slug: open-pinterest-pins-api
+- collection_type: open
+  name: Pinterest Processing API
+  slug: open-pinterest-processing-api
+- collection_type: open
+  name: Pinterest Product API
+  slug: open-pinterest-product-api
+- collection_type: open
+  name: Pinterest Product_groups API
+  slug: open-pinterest-product-groups-api
+- collection_type: open
+  name: Pinterest Products API
+  slug: open-pinterest-products-api
+- collection_type: open
+  name: Pinterest Profiles API
+  slug: open-pinterest-profiles-api
+- collection_type: open
+  name: Pinterest Promotion API
+  slug: open-pinterest-promotion-api
+- collection_type: open
+  name: Pinterest Promotions API
+  slug: open-pinterest-promotions-api
+- collection_type: open
+  name: Pinterest Questions API
+  slug: open-pinterest-questions-api
+- collection_type: open
+  name: Pinterest Ready API
+  slug: open-pinterest-ready-api
+- collection_type: open
+  name: Pinterest Redeem API
+  slug: open-pinterest-redeem-api
+- collection_type: open
+  name: Pinterest Region API
+  slug: open-pinterest-region-api
+- collection_type: open
+  name: Pinterest Related API
+  slug: open-pinterest-related-api
+- collection_type: open
+  name: Pinterest Reports API
+  slug: open-pinterest-reports-api
+- collection_type: open
+  name: Pinterest Request API
+  slug: open-pinterest-request-api
+- collection_type: open
+  name: Pinterest Resources API
+  slug: open-pinterest-resources-api
+- collection_type: open
+  name: Pinterest Results API
+  slug: open-pinterest-results-api
+- collection_type: open
+  name: Pinterest Sandbox API
+  slug: open-pinterest-sandbox-api
+- collection_type: open
+  name: Pinterest Save API
+  slug: open-pinterest-save-api
+- collection_type: open
+  name: Pinterest Search API
+  slug: open-pinterest-search-api
+- collection_type: open
+  name: Pinterest Section API
+  slug: open-pinterest-section-api
+- collection_type: open
+  name: Pinterest Sections API
+  slug: open-pinterest-sections-api
+- collection_type: open
+  name: Pinterest Service API
+  slug: open-pinterest-service-api
+- collection_type: open
+  name: Pinterest State API
+  slug: open-pinterest-state-api
+- collection_type: open
+  name: Pinterest Statistics API
+  slug: open-pinterest-statistics-api
+- collection_type: open
+  name: Pinterest Status API
+  slug: open-pinterest-status-api
+- collection_type: open
+  name: Pinterest Subscriptions API
+  slug: open-pinterest-subscriptions-api
+- collection_type: open
+  name: Pinterest Suggested API
+  slug: open-pinterest-suggested-api
+- collection_type: open
+  name: Pinterest Tags API
+  slug: open-pinterest-tags-api
+- collection_type: open
+  name: Pinterest Targeting API
+  slug: open-pinterest-targeting-api
+- collection_type: open
+  name: Pinterest Template API
+  slug: open-pinterest-template-api
+- collection_type: open
+  name: Pinterest Templates API
+  slug: open-pinterest-templates-api
+- collection_type: open
+  name: Pinterest Terms API
+  slug: open-pinterest-terms-api
+- collection_type: open
+  name: Pinterest Test API
+  slug: open-pinterest-test-api
+- collection_type: open
+  name: Pinterest Token API
+  slug: open-pinterest-token-api
+- collection_type: open
+  name: Pinterest Top API
+  slug: open-pinterest-top-api
+- collection_type: open
+  name: Pinterest Trend API
+  slug: open-pinterest-trend-api
+- collection_type: open
+  name: Pinterest Type API
+  slug: open-pinterest-type-api
+- collection_type: open
+  name: Pinterest User_account API
+  slug: open-pinterest-user-account-api
+- collection_type: open
+  name: Pinterest User API
+  slug: open-pinterest-user-api
+- collection_type: open
+  name: Pinterest User Names API
+  slug: open-pinterest-user-names-api
+- collection_type: open
+  name: Pinterest Users API
+  slug: open-pinterest-users-api
+- collection_type: open
+  name: Pinterest Verifications API
+  slug: open-pinterest-verifications-api
+- collection_type: open
+  name: Pinterest Videos API
+  slug: open-pinterest-videos-api
+- collection_type: open
+  name: Pinterest Visit API
+  slug: open-pinterest-visit-api
 common:
 - group: auth
   title: ''
@@ -536,7 +887,7 @@ plans:
 - name: Pinterest Plans Pricing
   plan_count: 3
   slug: pinterest-plans-pricing
-random_paper: 30
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Pinterest Rate Limits
@@ -560,7 +911,7 @@ score:
       marker_coverage: 0.0
       total: 118
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinterest/refs/heads/main/screenshots/pinterest-2026-06-20T191721.png
 security:

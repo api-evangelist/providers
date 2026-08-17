@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 101
 apis:
 - description: The Address Details API from Remote — 1 operation(s) for address details.
@@ -335,7 +335,7 @@ apis:
 - description: The Work Authorization API from Remote — 2 operation(s) for work authorization.
   name: Remote Work Authorization API
   slug: remote-work-authorization-api
-artifact_total: 209
+artifact_total: 311
 asyncapis:
 - description: ''
   name: Remote Webhooks
@@ -644,6 +644,312 @@ collections:
 - collection_type: postman
   name: Remote Address Details Work Authorization API
   slug: postman-remote-work-authorization-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Remote Address Details API
+  slug: open-remote-address-details-api
+- collection_type: open
+  name: Remote Address Details Administrative Details API
+  slug: open-remote-administrative-details-api
+- collection_type: open
+  name: Remote Address Details Background Checks API
+  slug: open-remote-background-checks-api
+- collection_type: open
+  name: Remote Address Details Bank Account Details API
+  slug: open-remote-bank-account-details-api
+- collection_type: open
+  name: Remote Address Details Basic Information API
+  slug: open-remote-basic-information-api
+- collection_type: open
+  name: Remote Address Details Benefit Offers API
+  slug: open-remote-benefit-offers-api
+- collection_type: open
+  name: Remote Address Details Benefit Offers By Employment API
+  slug: open-remote-benefit-offers-by-employment-api
+- collection_type: open
+  name: Remote Address Details Benefit Renewals API
+  slug: open-remote-benefit-renewals-api
+- collection_type: open
+  name: Remote Address Details Benefits API
+  slug: open-remote-benefits-api
+- collection_type: open
+  name: Remote Address Details Billing Address Details API
+  slug: open-remote-billing-address-details-api
+- collection_type: open
+  name: Remote Address Details Billing API
+  slug: open-remote-billing-api
+- collection_type: open
+  name: Remote Address Details Billing Documents API
+  slug: open-remote-billing-documents-api
+- collection_type: open
+  name: Remote Address Details Companies API
+  slug: open-remote-companies-api
+- collection_type: open
+  name: Remote Address Details Company Management API
+  slug: open-remote-company-management-api
+- collection_type: open
+  name: Remote Address Details Company Managers API
+  slug: open-remote-company-managers-api
+- collection_type: open
+  name: Remote Address Details Company Tokens API
+  slug: open-remote-company-tokens-api
+- collection_type: open
+  name: Remote Address Details Compliance API
+  slug: open-remote-compliance-api
+- collection_type: open
+  name: Remote Address Details Contract Amendments API
+  slug: open-remote-contract-amendments-api
+- collection_type: open
+  name: Remote Address Details Contract Details API
+  slug: open-remote-contract-details-api
+- collection_type: open
+  name: Remote Address Details Contract Documents API
+  slug: open-remote-contract-documents-api
+- collection_type: open
+  name: Remote Address Details Contract Eligibility API
+  slug: open-remote-contract-eligibility-api
+- collection_type: open
+  name: Remote Address Details Contractors API
+  slug: open-remote-contractors-api
+- collection_type: open
+  name: Remote Address Details Contracts API
+  slug: open-remote-contracts-api
+- collection_type: open
+  name: Remote Address Details Cost Calculator API
+  slug: open-remote-cost-calculator-api
+- collection_type: open
+  name: Remote Address Details Cost Center Allocations API
+  slug: open-remote-cost-center-allocations-api
+- collection_type: open
+  name: Remote Address Details Countries API
+  slug: open-remote-countries-api
+- collection_type: open
+  name: Remote Address Details Currencies API
+  slug: open-remote-currencies-api
+- collection_type: open
+  name: Remote Address Details Currency Conversion API
+  slug: open-remote-currency-conversion-api
+- collection_type: open
+  name: Remote Address Details Custom Fields API
+  slug: open-remote-custom-fields-api
+- collection_type: open
+  name: Remote Address Details Departments API
+  slug: open-remote-departments-api
+- collection_type: open
+  name: Remote Address Details Eligibility API
+  slug: open-remote-eligibility-api
+- collection_type: open
+  name: Remote Address Details Emergency Contact API
+  slug: open-remote-emergency-contact-api
+- collection_type: open
+  name: Remote Address Details Employee Actions API
+  slug: open-remote-employee-actions-api
+- collection_type: open
+  name: Remote Address Details Employee Address API
+  slug: open-remote-employee-address-api
+- collection_type: open
+  name: Remote Address Details Employee Bank Account API
+  slug: open-remote-employee-bank-account-api
+- collection_type: open
+  name: Remote Address Details Employee Documents API
+  slug: open-remote-employee-documents-api
+- collection_type: open
+  name: Remote Address Details Employee Emergency Contact API
+  slug: open-remote-employee-emergency-contact-api
+- collection_type: open
+  name: Remote Address Details Employee Federal Taxes API
+  slug: open-remote-employee-federal-taxes-api
+- collection_type: open
+  name: Remote Address Details Employee Files API
+  slug: open-remote-employee-files-api
+- collection_type: open
+  name: Remote Address Details Employee Personal Details API
+  slug: open-remote-employee-personal-details-api
+- collection_type: open
+  name: Remote Address Details Employee State Taxes API
+  slug: open-remote-employee-state-taxes-api
+- collection_type: open
+  name: Remote Address Details Employee Time Off API
+  slug: open-remote-employee-time-off-api
+- collection_type: open
+  name: Remote Address Details Employment Agreements API
+  slug: open-remote-employment-agreements-api
+- collection_type: open
+  name: Remote Address Details Employment Contracts API
+  slug: open-remote-employment-contracts-api
+- collection_type: open
+  name: Remote Address Details Employment Management API
+  slug: open-remote-employment-management-api
+- collection_type: open
+  name: Remote Address Details Employments API
+  slug: open-remote-employments-api
+- collection_type: open
+  name: Remote Address Details Engagement Agreement Details API
+  slug: open-remote-engagement-agreement-details-api
+- collection_type: open
+  name: Remote Address Details Expenses API
+  slug: open-remote-expenses-api
+- collection_type: open
+  name: Remote Address Details Federal Taxes API
+  slug: open-remote-federal-taxes-api
+- collection_type: open
+  name: Remote Address Details Files API
+  slug: open-remote-files-api
+- collection_type: open
+  name: Remote Address Details Getting Started API
+  slug: open-remote-getting-started-api
+- collection_type: open
+  name: Remote Address Details GL Reports API
+  slug: open-remote-gl-reports-api
+- collection_type: open
+  name: Remote Address Details Help Center Articles API
+  slug: open-remote-help-center-articles-api
+- collection_type: open
+  name: Remote Address Details Identity API
+  slug: open-remote-identity-api
+- collection_type: open
+  name: Remote Address Details Identity Verification API
+  slug: open-remote-identity-verification-api
+- collection_type: open
+  name: Remote Address Details Incentives API
+  slug: open-remote-incentives-api
+- collection_type: open
+  name: Remote Address Details Integrations API
+  slug: open-remote-integrations-api
+- collection_type: open
+  name: Remote Address Details Invoice Schedules API
+  slug: open-remote-invoice-schedules-api
+- collection_type: open
+  name: Remote Address Details Invoices API
+  slug: open-remote-invoices-api
+- collection_type: open
+  name: Remote Address Details Jobs API
+  slug: open-remote-jobs-api
+- collection_type: open
+  name: Remote Address Details Leave Policies API
+  slug: open-remote-leave-policies-api
+- collection_type: open
+  name: Remote Address Details Legal Entities API
+  slug: open-remote-legal-entities-api
+- collection_type: open
+  name: Remote Address Details Magic Link API
+  slug: open-remote-magic-link-api
+- collection_type: open
+  name: Remote Address Details OAuth2 API
+  slug: open-remote-oauth2-api
+- collection_type: open
+  name: Remote Address Details Offboarding API
+  slug: open-remote-offboarding-api
+- collection_type: open
+  name: Remote Address Details Onboarding API
+  slug: open-remote-onboarding-api
+- collection_type: open
+  name: Remote Address Details Org Structure API
+  slug: open-remote-org-structure-api
+- collection_type: open
+  name: Remote Address Details Partner Configuration API
+  slug: open-remote-partner-configuration-api
+- collection_type: open
+  name: Remote Address Details Pay Codes API
+  slug: open-remote-pay-codes-api
+- collection_type: open
+  name: Remote Address Details Pay & Compensation API
+  slug: open-remote-pay-compensation-api
+- collection_type: open
+  name: Remote Address Details Pay Items API
+  slug: open-remote-pay-items-api
+- collection_type: open
+  name: Remote Address Details Payroll Calendars API
+  slug: open-remote-payroll-calendars-api
+- collection_type: open
+  name: Remote Address Details Payroll Runs API
+  slug: open-remote-payroll-runs-api
+- collection_type: open
+  name: Remote Address Details Payslips API
+  slug: open-remote-payslips-api
+- collection_type: open
+  name: Remote Address Details Personal Details API
+  slug: open-remote-personal-details-api
+- collection_type: open
+  name: Remote Address Details Personal Information API
+  slug: open-remote-personal-information-api
+- collection_type: open
+  name: Remote Address Details Pre-Onboarding Documents API
+  slug: open-remote-pre-onboarding-documents-api
+- collection_type: open
+  name: Remote Address Details Pre-Onboarding Requirements API
+  slug: open-remote-pre-onboarding-requirements-api
+- collection_type: open
+  name: Remote Address Details Pricing Plan API
+  slug: open-remote-pricing-plan-api
+- collection_type: open
+  name: Remote Address Details Pricing Plans API
+  slug: open-remote-pricing-plans-api
+- collection_type: open
+  name: Remote Address Details Probation Extensions API
+  slug: open-remote-probation-extensions-api
+- collection_type: open
+  name: Remote Address Details Probation Letters API
+  slug: open-remote-probation-letters-api
+- collection_type: open
+  name: Remote Address Details Recurring Incentives API
+  slug: open-remote-recurring-incentives-api
+- collection_type: open
+  name: Remote Address Details Resignations API
+  slug: open-remote-resignations-api
+- collection_type: open
+  name: Remote Address Details Risk Reserve API
+  slug: open-remote-risk-reserve-api
+- collection_type: open
+  name: Remote Address Details Sandbox API
+  slug: open-remote-sandbox-api
+- collection_type: open
+  name: Remote Address Details SCIM API
+  slug: open-remote-scim-api
+- collection_type: open
+  name: Remote Address Details SSO Configuration API
+  slug: open-remote-sso-configuration-api
+- collection_type: open
+  name: Remote Address Details Subscriptions API
+  slug: open-remote-subscriptions-api
+- collection_type: open
+  name: Remote Address Details Telemetry API
+  slug: open-remote-telemetry-api
+- collection_type: open
+  name: Remote Address Details Terminations API
+  slug: open-remote-terminations-api
+- collection_type: open
+  name: Remote Address Details Test Schema API
+  slug: open-remote-test-schema-api
+- collection_type: open
+  name: Remote Address Details Testing & Sandbox API
+  slug: open-remote-testing-sandbox-api
+- collection_type: open
+  name: Remote Address Details Time & Attendance API
+  slug: open-remote-time-attendance-api
+- collection_type: open
+  name: Remote Address Details Time Off API
+  slug: open-remote-time-off-api
+- collection_type: open
+  name: Remote Address Details Time Off Balances API
+  slug: open-remote-time-off-balances-api
+- collection_type: open
+  name: Remote Address Details Timesheets API
+  slug: open-remote-timesheets-api
+- collection_type: open
+  name: Remote Address Details Travel Letters API
+  slug: open-remote-travel-letters-api
+- collection_type: open
+  name: Remote Address Details Webhook Events API
+  slug: open-remote-webhook-events-api
+- collection_type: open
+  name: Remote Address Details Webhooks API
+  slug: open-remote-webhooks-api
+- collection_type: open
+  name: Remote Address Details Work Authorization API
+  slug: open-remote-work-authorization-api
 common:
 - group: build
   title: ''
@@ -800,7 +1106,7 @@ overview: 'Remote publishes 101 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Remote''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Remote Rate Limits
@@ -832,7 +1138,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

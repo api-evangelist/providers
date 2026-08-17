@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 88
@@ -89,8 +89,56 @@ apis:
 - description: The wirelessController product area of the Cisco Meraki Dashboard API — 15 operations, from Cisco's published OpenAPI definition (v1.72.0).
   name: Cisco Meraki Dashboard API — wirelessController
   slug: wirelesscontroller
-artifact_total: 21
+artifact_total: 37
 collections:
+- collection_type: open
+  name: Cisco Meraki Dashboard API — administered
+  slug: open-cisco-meraki-administered-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — appliance
+  slug: open-cisco-meraki-appliance-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — camera
+  slug: open-cisco-meraki-camera-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — campusGateway
+  slug: open-cisco-meraki-campusgateway-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — cellularGateway
+  slug: open-cisco-meraki-cellulargateway-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — devices
+  slug: open-cisco-meraki-devices-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — insight
+  slug: open-cisco-meraki-insight-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — licensing
+  slug: open-cisco-meraki-licensing-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — networks
+  slug: open-cisco-meraki-networks-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — organizations
+  slug: open-cisco-meraki-organizations-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — sensor
+  slug: open-cisco-meraki-sensor-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — sm
+  slug: open-cisco-meraki-sm-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — spaces
+  slug: open-cisco-meraki-spaces-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — switch
+  slug: open-cisco-meraki-switch-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — wireless
+  slug: open-cisco-meraki-wireless-api
+- collection_type: open
+  name: Cisco Meraki Dashboard API — wirelessController
+  slug: open-cisco-meraki-wirelesscontroller-api
 - collection_type: open
   name: Cisco Meraki Dashboard API
   slug: open-cisco-meraki
@@ -155,7 +203,7 @@ overview: 'Cisco Meraki publishes 16 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cisco Meraki''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
-random_paper: 7
+random_paper: 15
 score:
   band: thin
   composite: 29.9
@@ -176,7 +224,7 @@ score:
       marker_coverage: 100.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/screenshots/cisco-meraki-2026-06-20T174358.png
 security:

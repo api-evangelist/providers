@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 4
@@ -73,7 +73,53 @@ apis:
 - description: user related operations
   name: ClimateAI User API
   slug: climateai-user-api
-artifact_total: 19
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClimateAI Platform Account API
+  slug: open-climateai-account-api
+- collection_type: open
+  name: ClimateAI Platform Account Config API
+  slug: open-climateai-account-config-api
+- collection_type: open
+  name: ClimateAI Platform Auth API
+  slug: open-climateai-auth-api
+- collection_type: open
+  name: ClimateAI Weather Current (v2) Current (v2) API
+  slug: open-climateai-current-v2-api
+- collection_type: open
+  name: ClimateAI Platform Device API
+  slug: open-climateai-device-api
+- collection_type: open
+  name: ClimateAI Platform Email API
+  slug: open-climateai-email-api
+- collection_type: open
+  name: ClimateAI Weather Legacy (v1) Legacy (v1) API
+  slug: open-climateai-legacy-v1-api
+- collection_type: open
+  name: ClimateAI Platform Permission API
+  slug: open-climateai-permission-api
+- collection_type: open
+  name: ClimateAI Platform API
+  slug: open-climateai-platform-api
+- collection_type: open
+  name: ClimateAI Platform Product API
+  slug: open-climateai-product-api
+- collection_type: open
+  name: ClimateAI Platform Report API
+  slug: open-climateai-report-api
+- collection_type: open
+  name: ClimateAI Platform Role API
+  slug: open-climateai-role-api
+- collection_type: open
+  name: ClimateAI Platform Routing API
+  slug: open-climateai-routing-api
+- collection_type: open
+  name: ClimateAI Platform User API
+  slug: open-climateai-user-api
 common:
 - group: company
   title: ''
@@ -195,7 +241,7 @@ overview: 'ClimateAI publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ClimateAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 97
+random_paper: 43
 score:
   band: developing
   composite: 42.9
@@ -219,7 +265,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/screenshots/climateai-2026-08-07T163452.png
 security:

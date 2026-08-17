@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -126,8 +126,95 @@ apis:
 - description: The Views API from Braintrust — 2 operation(s) for views.
   name: Braintrust Views API
   slug: braintrust-views-api
-artifact_total: 36
+artifact_total: 65
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Braintrust Acls API
+  slug: open-braintrust-acls-api
+- collection_type: open
+  name: Braintrust Acls AiSecrets API
+  slug: open-braintrust-aisecrets-api
+- collection_type: open
+  name: Braintrust Acls ApiKeys API
+  slug: open-braintrust-apikeys-api
+- collection_type: open
+  name: Braintrust Acls CORS API
+  slug: open-braintrust-cors-api
+- collection_type: open
+  name: Braintrust Acls CrossObject API
+  slug: open-braintrust-crossobject-api
+- collection_type: open
+  name: Braintrust Acls Datasets API
+  slug: open-braintrust-datasets-api
+- collection_type: open
+  name: Braintrust Acls DatasetSnapshots API
+  slug: open-braintrust-datasetsnapshots-api
+- collection_type: open
+  name: Braintrust Acls Environments API
+  slug: open-braintrust-environments-api
+- collection_type: open
+  name: Braintrust Acls EnvVars API
+  slug: open-braintrust-envvars-api
+- collection_type: open
+  name: Braintrust Acls Evals API
+  slug: open-braintrust-evals-api
+- collection_type: open
+  name: Braintrust Acls Experiments API
+  slug: open-braintrust-experiments-api
+- collection_type: open
+  name: Braintrust Acls Functions API
+  slug: open-braintrust-functions-api
+- collection_type: open
+  name: Braintrust Acls Groups API
+  slug: open-braintrust-groups-api
+- collection_type: open
+  name: Braintrust Acls Logs API
+  slug: open-braintrust-logs-api
+- collection_type: open
+  name: Braintrust Acls McpServers API
+  slug: open-braintrust-mcpservers-api
+- collection_type: open
+  name: Braintrust Acls Organizations API
+  slug: open-braintrust-organizations-api
+- collection_type: open
+  name: Braintrust Acls Other API
+  slug: open-braintrust-other-api
+- collection_type: open
+  name: Braintrust Acls ProjectAutomations API
+  slug: open-braintrust-projectautomations-api
+- collection_type: open
+  name: Braintrust Acls Projects API
+  slug: open-braintrust-projects-api
+- collection_type: open
+  name: Braintrust Acls ProjectScores API
+  slug: open-braintrust-projectscores-api
+- collection_type: open
+  name: Braintrust Acls ProjectTags API
+  slug: open-braintrust-projecttags-api
+- collection_type: open
+  name: Braintrust Acls Prompts API
+  slug: open-braintrust-prompts-api
+- collection_type: open
+  name: Braintrust Acls Proxy API
+  slug: open-braintrust-proxy-api
+- collection_type: open
+  name: Braintrust Acls Roles API
+  slug: open-braintrust-roles-api
+- collection_type: open
+  name: Braintrust Acls ServiceTokens API
+  slug: open-braintrust-servicetokens-api
+- collection_type: open
+  name: Braintrust Acls SpanIframes API
+  slug: open-braintrust-spaniframes-api
+- collection_type: open
+  name: Braintrust Acls Users API
+  slug: open-braintrust-users-api
+- collection_type: open
+  name: Braintrust Acls Views API
+  slug: open-braintrust-views-api
 - collection_type: open
   name: Braintrust API
   slug: open-braintrust
@@ -216,7 +303,7 @@ plans:
 - name: Braintrust Plans Pricing
   plan_count: 1
   slug: braintrust-plans-pricing
-random_paper: 22
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Braintrust Rate Limits
@@ -241,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/screenshots/braintrust-2026-06-20T173630.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,8 +59,32 @@ apis:
 - description: Service and database status reporting.
   name: Nominatim Status API
   slug: nominatim-status-api
-artifact_total: 53
+artifact_total: 61
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nominatim Deletable API
+  slug: open-nominatim-deletable-api
+- collection_type: open
+  name: Nominatim Deletable Details API
+  slug: open-nominatim-details-api
+- collection_type: open
+  name: Nominatim Deletable Lookup API
+  slug: open-nominatim-lookup-api
+- collection_type: open
+  name: Nominatim Deletable Polygons API
+  slug: open-nominatim-polygons-api
+- collection_type: open
+  name: Nominatim Deletable Reverse API
+  slug: open-nominatim-reverse-api
+- collection_type: open
+  name: Nominatim Deletable Search API
+  slug: open-nominatim-search-api
+- collection_type: open
+  name: Nominatim Deletable Status API
+  slug: open-nominatim-status-api
 - collection_type: open
   name: Nominatim API
   slug: open-nominatim
@@ -284,7 +308,7 @@ plans:
 - name: Nominatim Plans Pricing
   plan_count: 2
   slug: nominatim-plans-pricing
-random_paper: 12
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Nominatim Rate Limits
@@ -326,7 +350,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/screenshots/nominatim-2026-06-20T190357.png
 security:

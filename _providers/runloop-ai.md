@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 8
@@ -142,7 +142,7 @@ arazzos:
 - description: Boot a devbox, write a file into it, run a command that transforms the file, then read the resulting contents back.
   name: Runloop Write, Execute, and Read a File on a Devbox
   slug: runloop-ai-write-execute-read-file-workflow
-artifact_total: 95
+artifact_total: 120
 collections:
 - collection_type: postman
   name: Runloop Agents API
@@ -184,8 +184,83 @@ collections:
   name: Runloop Secrets API
   slug: postman-runloop-secrets-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Runloop Agents API
   slug: open-runloop-agents-api
+- collection_type: open
+  name: Runloop agents API
+  slug: open-runloop-ai-agents-api
+- collection_type: open
+  name: Runloop agents apikeys API
+  slug: open-runloop-ai-apikeys-api
+- collection_type: open
+  name: Runloop agents axons API
+  slug: open-runloop-ai-axons-api
+- collection_type: open
+  name: Runloop agents Benchmark API
+  slug: open-runloop-ai-benchmark-api
+- collection_type: open
+  name: Runloop agents Blueprint API
+  slug: open-runloop-ai-blueprint-api
+- collection_type: open
+  name: Runloop agents Blueprint-Lifecycle API
+  slug: open-runloop-ai-blueprint-lifecycle-api
+- collection_type: open
+  name: Runloop agents Blueprint-ObservabilityTools API
+  slug: open-runloop-ai-blueprint-observabilitytools-api
+- collection_type: open
+  name: Runloop agents Devbox API
+  slug: open-runloop-ai-devbox-api
+- collection_type: open
+  name: Runloop agents Devbox-FileTools API
+  slug: open-runloop-ai-devbox-filetools-api
+- collection_type: open
+  name: Runloop agents Devbox-Lifecycle API
+  slug: open-runloop-ai-devbox-lifecycle-api
+- collection_type: open
+  name: Runloop agents Devbox-NetworkTools API
+  slug: open-runloop-ai-devbox-networktools-api
+- collection_type: open
+  name: Runloop agents Devbox-ObservabilityTools API
+  slug: open-runloop-ai-devbox-observabilitytools-api
+- collection_type: open
+  name: Runloop agents Devbox-PersistenceTools API
+  slug: open-runloop-ai-devbox-persistencetools-api
+- collection_type: open
+  name: Runloop agents Devbox-ShellTools API
+  slug: open-runloop-ai-devbox-shelltools-api
+- collection_type: open
+  name: Runloop agents executions API
+  slug: open-runloop-ai-executions-api
+- collection_type: open
+  name: Runloop agents gateway-configs API
+  slug: open-runloop-ai-gateway-configs-api
+- collection_type: open
+  name: Runloop agents mcp-configs API
+  slug: open-runloop-ai-mcp-configs-api
+- collection_type: open
+  name: Runloop agents network-policies API
+  slug: open-runloop-ai-network-policies-api
+- collection_type: open
+  name: Runloop agents objects API
+  slug: open-runloop-ai-objects-api
+- collection_type: open
+  name: Runloop agents restricted_keys API
+  slug: open-runloop-ai-restricted-keys-api
+- collection_type: open
+  name: Runloop agents Scenario API
+  slug: open-runloop-ai-scenario-api
+- collection_type: open
+  name: Runloop agents ScenarioScorer API
+  slug: open-runloop-ai-scenarioscorer-api
+- collection_type: open
+  name: Runloop agents secrets API
+  slug: open-runloop-ai-secrets-api
+- collection_type: open
+  name: Runloop agents streaming API
+  slug: open-runloop-ai-streaming-api
 - collection_type: open
   name: RunLoop API
   slug: open-runloop-api
@@ -585,7 +660,7 @@ plans:
 - name: Runloop Ai Plans Pricing
   plan_count: 4
   slug: runloop-ai-plans-pricing
-random_paper: 70
+random_paper: 136
 rate_limits:
 - limit_count: 0
   name: Runloop Ai Rate Limits
@@ -627,7 +702,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/screenshots/runloop-ai-2026-06-20T193255.png
 security:

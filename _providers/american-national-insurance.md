@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 13
 common:
@@ -86,7 +86,7 @@ press:
 - date: '2026-05-25'
   title: American National Insurance Company Experiences Data ...
   url: https://www.jdsupra.com/legalnews/american-national-insurance-company-3470457/
-random_paper: 104
+random_paper: 62
 score:
   band: minimal
   composite: 5.6
@@ -106,7 +106,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

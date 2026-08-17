@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -108,11 +108,84 @@ apis:
 - description: The Wholesalers API from Ascend — 1 operation(s) for wholesalers.
   name: Ascend Wholesalers API
   slug: ascend-wholesalers-api
-artifact_total: 29
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Ascend Webhooks
   slug: ascend-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ascend API V1 Accounts API
+  slug: open-ascend-accounts-api
+- collection_type: open
+  name: Ascend API V1 Accounts Attachments API
+  slug: open-ascend-attachments-api
+- collection_type: open
+  name: Ascend API V1 Accounts Billables API
+  slug: open-ascend-billables-api
+- collection_type: open
+  name: Ascend API V1 Accounts CancelationReturns API
+  slug: open-ascend-cancelationreturns-api
+- collection_type: open
+  name: Ascend API V1 Accounts Carriers API
+  slug: open-ascend-carriers-api
+- collection_type: open
+  name: Ascend API V1 Accounts Contacts API
+  slug: open-ascend-contacts-api
+- collection_type: open
+  name: Ascend API V1 Accounts CoverageTypes API
+  slug: open-ascend-coveragetypes-api
+- collection_type: open
+  name: Ascend API V1 Accounts FinanceEstimate API
+  slug: open-ascend-financeestimate-api
+- collection_type: open
+  name: Ascend API V1 Accounts InstallmentPlans API
+  slug: open-ascend-installmentplans-api
+- collection_type: open
+  name: Ascend API V1 Accounts Installments API
+  slug: open-ascend-installments-api
+- collection_type: open
+  name: Ascend API V1 Accounts Insureds API
+  slug: open-ascend-insureds-api
+- collection_type: open
+  name: Ascend API V1 Accounts Invoices API
+  slug: open-ascend-invoices-api
+- collection_type: open
+  name: Ascend API V1 Accounts Loans API
+  slug: open-ascend-loans-api
+- collection_type: open
+  name: Ascend API V1 Accounts OneTimePayments API
+  slug: open-ascend-onetimepayments-api
+- collection_type: open
+  name: Ascend API V1 Accounts Organization Account Users API
+  slug: open-ascend-organization-account-users-api
+- collection_type: open
+  name: Ascend API V1 Accounts PaymentProposals API
+  slug: open-ascend-paymentproposals-api
+- collection_type: open
+  name: Ascend API V1 Accounts Payouts API
+  slug: open-ascend-payouts-api
+- collection_type: open
+  name: Ascend API V1 Accounts PremiumReducingEndorsements (Beta) API
+  slug: open-ascend-premiumreducingendorsements-beta-api
+- collection_type: open
+  name: Ascend API V1 Accounts Programs API
+  slug: open-ascend-programs-api
+- collection_type: open
+  name: Ascend API V1 Accounts Refunds API
+  slug: open-ascend-refunds-api
+- collection_type: open
+  name: Ascend API V1 Accounts Returns API
+  slug: open-ascend-returns-api
+- collection_type: open
+  name: Ascend API V1 Accounts Users API
+  slug: open-ascend-users-api
+- collection_type: open
+  name: Ascend API V1 Accounts Wholesalers API
+  slug: open-ascend-wholesalers-api
 common:
 - group: other
   title: ''
@@ -241,7 +314,7 @@ overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Ascend''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 20 more developer resources.'
-random_paper: 22
+random_paper: 26
 score:
   band: developing
   composite: 51.3
@@ -271,7 +344,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png
 security:

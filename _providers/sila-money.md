@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: ECDSA keypair (wallet) registration and management.
   name: Sila Wallets API
   slug: sila-money-wallets-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sila Money Accounts API
+  slug: open-sila-money-accounts-api
+- collection_type: open
+  name: Sila Money Accounts Identity API
+  slug: open-sila-money-identity-api
+- collection_type: open
+  name: Sila Money Accounts Payment Methods API
+  slug: open-sila-money-payment-methods-api
+- collection_type: open
+  name: Sila Money Accounts Payments API
+  slug: open-sila-money-payments-api
+- collection_type: open
+  name: Sila Money Accounts Wallets API
+  slug: open-sila-money-wallets-api
 - collection_type: open
   name: Sila Money API
   slug: open-sila-money
@@ -123,7 +141,7 @@ plans:
 - name: Sila Money Plans Pricing
   plan_count: 2
   slug: sila-money-plans-pricing
-random_paper: 62
+random_paper: 128
 rate_limits:
 - limit_count: 3
   name: Sila Money Rate Limits
@@ -154,7 +172,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

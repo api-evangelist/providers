@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - description: Server-side user management (requires server key)
   name: Appwrite Users API
   slug: appwrite-users-api
-artifact_total: 35
+artifact_total: 40
 asyncapis:
 - description: AsyncAPI specification for the Appwrite Realtime WebSocket API. Appwrite Realtime lets clients subscribe to channels and receive callbacks whenever a subscribed resource changes. Subscriptions are sco
   name: Appwrite Realtime API
@@ -70,6 +70,21 @@ collections:
 - collection_type: postman
   name: Appwrite Account Users API
   slug: postman-appwrite-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Appwrite Account API
+  slug: open-appwrite-account-api
+- collection_type: open
+  name: Appwrite Account Databases API
+  slug: open-appwrite-databases-api
+- collection_type: open
+  name: Appwrite Account Storage API
+  slug: open-appwrite-storage-api
+- collection_type: open
+  name: Appwrite Account Users API
+  slug: open-appwrite-users-api
 common:
 - group: operate
   title: ''
@@ -211,7 +226,7 @@ plans:
 - name: Appwrite Plans Pricing
   plan_count: 3
   slug: appwrite-plans-pricing
-random_paper: 36
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Appwrite Rate Limits
@@ -261,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/screenshots/appwrite-2026-06-20T172338.png
 security:

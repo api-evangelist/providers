@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -65,11 +65,42 @@ apis:
 - description: 'The webhook and event layer of the Syniverse Developer Community. The Event Subscription Service (ESS) API manages topics, topic-subscriptions, delivery-configurations, event-types, event-deliveries, '
   name: Syniverse Event Subscription Service API (Event Manager)
   slug: syniverse-event-subscription-service-api
-artifact_total: 19
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Syniverse Event Manager Webhooks
   slug: syniverse-event-manager-webhooks
+collections:
+- collection_type: open
+  name: Syniverse 10DLC Provissioning API
+  slug: open-syniverse-10dlc-number-pool
+- collection_type: open
+  name: 10DLC
+  slug: open-syniverse-10dlc
+- collection_type: open
+  name: Syniverse Account Takeover Detection API
+  slug: open-syniverse-account-takeover-detection
+- collection_type: open
+  name: MT Spam Datafeed
+  slug: open-syniverse-messaging-trust-datafeed
+- collection_type: open
+  name: SCG API
+  slug: open-syniverse-multi-factor-authentication
+- collection_type: open
+  name: SCG API
+  slug: open-syniverse-omni-channel-messaging
+- collection_type: open
+  name: PNV
+  slug: open-syniverse-phone-number-verification
+- collection_type: open
+  name: Syniverse Right Party Verification API
+  slug: open-syniverse-right-party-verification
+- collection_type: open
+  name: SDC Application Access Token Management
+  slug: open-syniverse-token-management
+- collection_type: open
+  name: Whitelisting_Service
+  slug: open-syniverse-whitelisting-service
 common:
 - group: agent
   title: ''
@@ -223,7 +254,7 @@ overview: 'Syniverse publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 40
+random_paper: 106
 rate_limits:
 - limit_count: 4
   name: Syniverse Rate Limits
@@ -262,7 +293,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

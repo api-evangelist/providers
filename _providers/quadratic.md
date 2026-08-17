@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: List and inspect team agent connections (third-party REST API bindings).
@@ -74,7 +74,53 @@ apis:
 - description: Manage cell validation rules.
   name: Quadratic Validations API
   slug: quadratic-validations-api
-artifact_total: 18
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quadratic Developer Agent Connections API
+  slug: open-quadratic-agent-connections-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Auth API
+  slug: open-quadratic-auth-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Cells API
+  slug: open-quadratic-cells-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Columns and rows API
+  slug: open-quadratic-columns-and-rows-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Conditional formats API
+  slug: open-quadratic-conditional-formats-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections API
+  slug: open-quadratic-connections-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Context, outline, search API
+  slug: open-quadratic-context-outline-search-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Documentation API
+  slug: open-quadratic-documentation-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Files API
+  slug: open-quadratic-files-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Health API
+  slug: open-quadratic-health-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections History API
+  slug: open-quadratic-history-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Sheets API
+  slug: open-quadratic-sheets-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Tables API
+  slug: open-quadratic-tables-api
+- collection_type: open
+  name: Quadratic Developer Agent Connections Validations API
+  slug: open-quadratic-validations-api
 common:
 - group: other
   title: ''
@@ -200,7 +246,7 @@ overview: 'Quadratic publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Quadratic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 118
+random_paper: 64
 score:
   band: developing
   composite: 50.2
@@ -223,7 +269,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

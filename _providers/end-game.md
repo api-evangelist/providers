@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-12'
+  score: 53.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -39,10 +39,17 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: The Threads API from Endgame — 2 operation(s) for threads.
+- description: The public Threads API from Endgame — 5 operations (create, get, list, rename, delete) rooted at /api/v1 on https://app.endgame.io, authenticated with a Bearer eak_ API key or a WorkOS M2M access toke
   name: Endgame Threads API
   slug: end-game-threads-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Endgame Public Threads API
+  slug: open-end-game-threads-api
 common:
 - group: auth
   title: ''
@@ -103,7 +110,7 @@ common:
 - group: operate
   title: ''
   type: StatusPage
-  url: https://docs.endgame.io/status
+  url: https://status.endgame.io
 - group: operate
   title: ''
   type: Support
@@ -172,6 +179,54 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/end-game-published-skill.md
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/end-game-a2a.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/end-game-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/end-game-scopes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/end-game-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/end-game-cli.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/end-game-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/end-game-plans-pricing.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Endgame-Labs
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/Endgame-Labs/endgame-cli
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://app.drata.com/trust/9cbf820f-0c38-11ee-865f-029d78a187d9
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/end-game-website-llms.txt
 created: '2026-07-17'
 description: Endgame (Endgame Labs, Inc.) is a context graph platform for go-to-market teams and AI agents that turns sales calls, CRM records, emails, Slack conversations, meeting transcripts, and uploaded documents into structured, queryable revenue intelligence. Sales and RevOps users ask questions across their book of business in natural language, and connected AI assistants reach the same knowledge through the Endgame MCP Server. The public REST API (rooted at /api/v1) lets developers create and manage Endgame threads programmatically over HTTPS with Bearer-token authentication, while a broad connector surface ingests context from Salesforce, Gong, Chorus, Clari Copilot, Zoom, Notion, Confluence, Highspot, Seismic, Snowflake, Slack, Microsoft Teams/SharePoint/Outlook, and Google Drive. Endgame was surfaced through the API Evangelist VC-portfolio pipeline and has been enriched from its published developer documentation, OpenAPI, MCP server, and trust/security programs.
 image: https://www.endgame.io/opengraph-image
@@ -180,30 +235,39 @@ mcp_servers:
 - description: ''
   name: end-game-mcp.yml
   slug: end-game-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Endgame
 nav: Providers
 network: true
 overview: 'Endgame publishes 1 API on the [APIs.io](https://apis.io/) network: Threads API. Tagged areas include Company, Sales, Revenue Intelligence, Go-To-Market, and Artificial Intelligence.
 
 
-  Endgame''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 25 more developer resources.'
-random_paper: 46
+  Endgame''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 37 more developer resources.'
+plans:
+- name: End Game Plans Pricing
+  plan_count: 0
+  slug: end-game-plans-pricing
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: End Game Rate Limits
   slug: end-game-rate-limits
+scopes:
+- name: End Game Scopes
+  scope_count: 4
+  slug: end-game-scopes
+  summary_line: 4 scopes
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.0
+  band: strong
+  composite: 58.8
+  delta: 3.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.7
-    developer_ergonomics: 62.5
-    discoverability: 75.9
+    developer_ergonomics: 69.0
+    discoverability: 87.0
     governance: 20.8
-    operational_transparency: 63.2
+    operational_transparency: 68.4
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -216,14 +280,14 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/screenshots/end-game-2026-07-25T213310.png
 security:
 - kind: authentication
   name: End Game Authentication
   slug: end-game-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: End Game Domain Security
   slug: end-game-domain-security

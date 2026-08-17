@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Sinks API from Google Cloud Logging — 1 operation(s) for sinks.
   name: Google Cloud Logging Sinks API
   slug: google-cloud-logging-sinks-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Logging Bucket API
+  slug: open-google-cloud-logging-bucket-api
+- collection_type: open
+  name: Google Cloud Logging Bucket Buckets API
+  slug: open-google-cloud-logging-buckets-api
+- collection_type: open
+  name: Google Cloud Logging Bucket Entries:copy API
+  slug: open-google-cloud-logging-entries-copy-api
+- collection_type: open
+  name: Google Cloud Logging Bucket Entries:list API
+  slug: open-google-cloud-logging-entries-list-api
+- collection_type: open
+  name: Google Cloud Logging Bucket Entries:tail API
+  slug: open-google-cloud-logging-entries-tail-api
+- collection_type: open
+  name: Google Cloud Logging Bucket Entries:write API
+  slug: open-google-cloud-logging-entries-write-api
+- collection_type: open
+  name: Google Cloud Logging Bucket Exclusions API
+  slug: open-google-cloud-logging-exclusions-api
+- collection_type: open
+  name: Google Cloud Logging Bucket Google Cloud Logging API API
+  slug: open-google-cloud-logging-google-cloud-logging-api-api
+- collection_type: open
+  name: Google Cloud Logging Bucket Sinks API
+  slug: open-google-cloud-logging-sinks-api
 - collection_type: open
   name: Google Cloud Logging API
   slug: open-google-cloud-logging
@@ -196,7 +226,7 @@ plans:
 - name: Google Cloud Logging Plans Pricing
   plan_count: 3
   slug: google-cloud-logging-plans-pricing
-random_paper: 85
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Google Cloud Logging Rate Limits
@@ -226,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/screenshots/google-cloud-logging-2026-06-20T182118.png
 security:

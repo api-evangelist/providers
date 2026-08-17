@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The SendOwl REST API provides third-party applications access to a merchant account's products, bundles (packages), subscriptions, drip items, orders, discounts, discount codes and license keys. Reque
@@ -157,7 +157,7 @@ plans:
 - name: Sendowl Plans Pricing
   plan_count: 4
   slug: sendowl-plans-pricing
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Sendowl Rate Limits
@@ -165,6 +165,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.0
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 51.6
@@ -172,6 +173,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 50.0
+  previous_composite: 53.0
   regulatory:
     applies: true
     matched_via: tags
@@ -179,7 +181,8 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Sendowl Authentication

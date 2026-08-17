@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-12'
+  score: 57.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -37,8 +38,56 @@ agentic_access:
   operation_count: 135
   slug: optimizely-agentic-access
   summary_line: 135 operations · 65 acting · 1 human-in-the-loop
-api_count: 34
+api_count: 50
 apis:
+- description: The core Optimizely REST API v2 shared by Web Experimentation and Feature Experimentation — projects, experiments, campaigns, audiences, pages, events, attributes, environments, features, groups, exte
+  name: Optimizely Experimentation REST API v2
+  slug: experimentation-rest-api-v2
+- description: Feature Experimentation Flags v1 — flags, variations, variable definitions, rulesets, rules, holdouts, groups, custom fields, environments and reports. 55 operations, RFC 9457 problem+json errors, res
+  name: Optimizely Feature Experimentation Flags API v1
+  slug: feature-experimentation-flags-api
+- description: Schedule future flag ruleset changes and read environment change-approval settings. Five operations. Harvested verbatim from the provider's published OpenAPI 2026-08-13.
+  name: Optimizely Flags Scheduling API
+  slug: flags-scheduling-api
+- description: Granular roles and permissions for Feature Experimentation — per-entity permissions for users and teams, plus team management. Introduced 2025-03-18. Harvested verbatim from the provider's published O
+  name: Optimizely Permission Service API
+  slug: permission-service-api
+- description: Optimizely Agent is a stand-alone open-source microservice that consolidates the Feature Experimentation SDK surface behind a REST API — config, datafile, decide, track, activate, override, lookup, sa
+  name: Optimizely Agent API
+  slug: agent-api
+- description: The Experimentation data-ingest endpoint. Accepts decision and conversion event payloads from SDKs and server-side integrations. Regional hosts for US and EU. Harvested verbatim from the provider's pu
+  name: Optimizely Event API
+  slug: event-api
+- description: Performance Edge decisioning endpoint used by Optimizely's edge delivery clients. Harvested verbatim from the provider's published OpenAPI 2026-08-13.
+  name: Optimizely Edge Decider API
+  slug: edge-decider-api
+- description: The Optimizely customer data platform, formerly Zaius. Eleven separately published OpenAPI documents covering customer profiles, events, objects, products, orders, lists and subscriptions, consent, re
+  name: Optimizely Data Platform (ODP) API v3
+  slug: data-platform-api
+- description: Optimizely Graph — the GraphQL content query layer over CMS, Commerce and connected sources, with a REST management surface for content ingestion, types, synonyms and best bets. Two published document
+  name: Optimizely Graph API
+  slug: graph-api
+- description: The CMP Open REST API — campaigns, tasks, work requests, templates, content, library assets (images, videos, raw files), users and settings. 115 paths, OAuth 2.0 with both authorization code and clien
+  name: Optimizely Content Marketing Platform (CMP) API v3
+  slug: content-marketing-platform-api
+- description: Email and omnichannel campaign management, formerly Episerver Campaign and optivo broadmail — mailings, smart campaigns and their nodes, recipient lists, transactional mail, unsubscribes and webhooks.
+  name: Optimizely Campaign REST API
+  slug: campaign-rest-api
+- description: B2B commerce, formerly Insite Software. Three published documents — Admin API V1 (1,577 paths), Storefront API V1 (168 paths) and Storefront API V2 (15 paths, running in parallel with V1 rather than s
+  name: Optimizely Configured Commerce API
+  slug: configured-commerce-api
+- description: Read-only content delivery from Optimizely CMS — content by identifier, children, ancestors, and site metadata. Deployed inside the customer's own CMS instance, so the base URL is the customer's CMS h
+  name: Optimizely CMS Content Delivery API v3.0
+  slug: cms-content-delivery-api
+- description: Content recommendation delivery, formerly Idio. Thirteen paths covering content, topics, users and recommendation delivery, authenticated with a key query parameter. The spec declares a templated serv
+  name: Optimizely Content Recommendations API
+  slug: content-recommendations-api
+- description: Deployment and environment management for Optimizely Digital Experience Platform (PaaS), served from the Episerver PaaS portal. Nine paths. Harvested verbatim 2026-08-13.
+  name: Optimizely DXP Cloud API
+  slug: dxp-cloud-api
+- description: Optimizely's hosted remote Model Context Protocol server for Web and Feature Experimentation, on the Opal MCP platform. Tools are prefixed exp_ and cover querying projects/flags/experiments/environmen
+  name: Optimizely Remote MCP Server — Experimentation
+  slug: mcp-experimentation
 - description: Manage campaign assets such as images and media files.
   name: Optimizely Assets API
   slug: optimizely-assets-api
@@ -141,7 +190,7 @@ apis:
 - description: Manage unsubscribe lists for opt-out recipients.
   name: Optimizely Unsubscribes API
   slug: optimizely-unsubscribes-api
-artifact_total: 185
+artifact_total: 238
 asyncapis:
 - description: The Optimizely Content Marketing Platform (CMP) provides webhook notifications when content events occur, such as when assets are published, tasks are completed or modified, and content items are upda
   name: Optimizely CMP Webhooks
@@ -149,6 +198,9 @@ asyncapis:
 - description: Optimizely Feature Experimentation provides webhook notifications when configuration changes occur, such as datafile updates. Webhooks notify external servers of changes, eliminating the need to const
   name: Optimizely Feature Experimentation Webhooks
   slug: optimizely-feature-experimentation-asyncapi
+- description: ''
+  name: Optimizely Webhooks
+  slug: optimizely-webhooks
 collections:
 - collection_type: postman
   name: Optimizely Campaign REST Assets API
@@ -253,8 +305,35 @@ collections:
   name: Optimizely Campaign REST Assets Unsubscribes API
   slug: postman-optimizely-unsubscribes-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Optimizely Campaign REST Assets API
+  slug: open-optimizely-assets-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Attributes API
+  slug: open-optimizely-attributes-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Audiences API
+  slug: open-optimizely-audiences-api
+- collection_type: open
   name: Optimizely Campaign REST API
   slug: open-optimizely-campaign
+- collection_type: open
+  name: Optimizely Campaign REST Assets Campaigns API
+  slug: open-optimizely-campaigns-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Catalog Entries API
+  slug: open-optimizely-catalog-entries-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Catalog Entry Relations API
+  slug: open-optimizely-catalog-entry-relations-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Catalog Nodes API
+  slug: open-optimizely-catalog-nodes-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Catalogs API
+  slug: open-optimizely-catalogs-api
 - collection_type: open
   name: Optimizely CMP Open REST API
   slug: open-optimizely-cmp
@@ -262,24 +341,234 @@ collections:
   name: Optimizely Commerce Service API
   slug: open-optimizely-commerce-service
 - collection_type: open
+  name: Optimizely Campaign REST Assets Content API
+  slug: open-optimizely-content-api
+- collection_type: open
   name: Optimizely Content Delivery API
   slug: open-optimizely-content-delivery
 - collection_type: open
   name: Optimizely Content Management API
   slug: open-optimizely-content-management
 - collection_type: open
+  name: Optimizely Campaign REST Assets Content Types API
+  slug: open-optimizely-content-types-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Customers API
+  slug: open-optimizely-customers-api
+- collection_type: open
   name: Optimizely Data Platform REST API
   slug: open-optimizely-data-platform
+- collection_type: open
+  name: Optimizely Campaign REST Assets Environments API
+  slug: open-optimizely-environments-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Events API
+  slug: open-optimizely-events-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Experiments API
+  slug: open-optimizely-experiments-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Extensions API
+  slug: open-optimizely-extensions-api
 - collection_type: open
   name: Optimizely Feature Experimentation REST API
   slug: open-optimizely-feature-experimentation
 - collection_type: open
+  name: Optimizely Campaign REST Assets Features API
+  slug: open-optimizely-features-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Flags API
+  slug: open-optimizely-flags-api
+- collection_type: open
   name: Optimizely Graph API
   slug: open-optimizely-graph
+- collection_type: open
+  name: Optimizely Campaign REST Assets GraphQL API
+  slug: open-optimizely-graphql-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Labels API
+  slug: open-optimizely-labels-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Mailing Lists API
+  slug: open-optimizely-mailing-lists-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Objects API
+  slug: open-optimizely-objects-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Orders API
+  slug: open-optimizely-orders-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Pages API
+  slug: open-optimizely-pages-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Profiles API
+  slug: open-optimizely-profiles-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Projects API
+  slug: open-optimizely-projects-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Recipients API
+  slug: open-optimizely-recipients-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Rulesets API
+  slug: open-optimizely-rulesets-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Schema API
+  slug: open-optimizely-schema-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Segments API
+  slug: open-optimizely-segments-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Sites API
+  slug: open-optimizely-sites-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Smart Campaigns API
+  slug: open-optimizely-smart-campaigns-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Tasks API
+  slug: open-optimizely-tasks-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Transactional Mail API
+  slug: open-optimizely-transactional-mail-api
+- collection_type: open
+  name: Optimizely Campaign REST Assets Unsubscribes API
+  slug: open-optimizely-unsubscribes-api
 - collection_type: open
   name: Optimizely Web Experimentation REST API
   slug: open-optimizely-web-experimentation
 common:
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/optimizely-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://docs.developers.optimizely.com/.well-known/api-catalog
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/optimizely-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/optimizely-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/optimizely-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/optimizely-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/optimizely-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/optimizely-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/optimizely-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/optimizely-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/optimizely-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/optimizely-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/optimizely-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/optimizely-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.optimizely.com/trust-center/compliance
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.optimizely.com/trust-center/security
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/optimizely-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.optimizely.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/optimizely-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/optimizely-webhooks.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/optimizely-feature-experimentation-asyncapi.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/optimizely-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/optimizely-plans-pricing.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optimizely-experimentation-v2-overlay.yaml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.developers.optimizely.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.developers.optimizely.com/web-experimentation/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.developers.optimizely.com/feature-experimentation/docs/get-started
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.optimizely.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.optimizely.com/free-trial/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.optimizely.com/hc/en-us/
+- group: operate
+  title: ''
+  type: Community
+  url: https://world.optimizely.com/
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/optimizely-vocabulary.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -343,7 +632,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.optimizely.com/legal/terms-of-service/
+  url: https://www.optimizely.com/legal/terms/
 created: '2025-03-04'
 description: Optimizely is a digital experience platform that provides A/B testing, feature flagging, content management, and commerce solutions for enterprises. Their developer platform offers a comprehensive suite of REST and GraphQL APIs spanning experimentation, content delivery, customer data, campaign management, and e-commerce capabilities.
 features:
@@ -611,24 +900,28 @@ jsonld:
   property_count: 12
   slug: optimizely-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: optimizely-mcp.yml
+  slug: optimizely-mcpyml
+modified: '2026-08-13'
 name: Optimizely
 nav: Providers
 network: true
-overview: 'Optimizely publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Attributes API, Audiences API, and 31 more. Tagged areas include A/B Testing, Content Management, Customer Data, E-Commerce, and Experimentation.
+overview: 'Optimizely publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Experimentation REST API v2, Feature Experimentation Flags API v1, Flags Scheduling API, and 46 more. Tagged areas include A/B Testing, Content Management, Customer Data, E-Commerce, and Experimentation.
 
 
-  The Optimizely catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Optimizely catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Optimizely''s developer surface includes authentication, engineering blog, support, and 13 more developer resources.'
+  Optimizely''s developer surface includes CLI, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 42 more developer resources.'
 plans:
 - name: Optimizely Plans Pricing
   plan_count: 3
   slug: optimizely-plans-pricing
-random_paper: 30
+random_paper: 67
 rate_limits:
-- limit_count: 3
+- limit_count: 8
   name: Optimizely Rate Limits
   slug: optimizely-rate-limits
 rules:
@@ -650,20 +943,20 @@ rules:
   slug: optimizely-jsonschema-spectral-rules
 scopes:
 - name: Optimizely Scopes
-  scope_count: 4
+  scope_count: 6
   slug: optimizely-scopes
-  summary_line: 4 scopes · clientCredentials
+  summary_line: 6 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: developing
-  composite: 49.7
-  delta: 0.0
+  band: exemplar
+  composite: 78.2
+  delta: 28.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 77.4
-    developer_ergonomics: 30.4
-    discoverability: 59.3
-    governance: 41.7
-    operational_transparency: 13.2
+    commercial_clarity: 76.3
+    contract_quality: 80.4
+    developer_ergonomics: 91.3
+    discoverability: 75.9
+    governance: 72.9
+    operational_transparency: 63.2
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -673,14 +966,14 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png
 security:
 - kind: authentication
   name: Optimizely Authentication
   slug: optimizely-authentication
-  summary_line: apiKey/http/oauth2 · 6 schemes
+  summary_line: oauth2/http/apiKey · 10 schemes
 - kind: domain-security
   name: Optimizely Domain Security
   slug: optimizely-domain-security

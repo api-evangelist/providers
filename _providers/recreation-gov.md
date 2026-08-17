@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: The Tours API from Recreation.gov — 2 operation(s) for tours.
   name: Recreation.gov Tours API
   slug: recreation-gov-tours-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities API
+  slug: open-recreation-gov-activities-api
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities Campsites API
+  slug: open-recreation-gov-campsites-api
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities Events API
+  slug: open-recreation-gov-events-api
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities Facilities API
+  slug: open-recreation-gov-facilities-api
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities Links API
+  slug: open-recreation-gov-links-api
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities Media API
+  slug: open-recreation-gov-media-api
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities Organizations API
+  slug: open-recreation-gov-organizations-api
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities Permitentrances API
+  slug: open-recreation-gov-permitentrances-api
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities Recareas API
+  slug: open-recreation-gov-recareas-api
+- collection_type: open
+  name: Recreation Information Database (RIDB) Activities Tours API
+  slug: open-recreation-gov-tours-api
 - collection_type: open
   name: Recreation Information Database (RIDB) API
   slug: open-recreation-gov
@@ -123,7 +156,7 @@ plans:
 - name: Recreation Gov Plans Pricing
   plan_count: 3
   slug: recreation-gov-plans-pricing
-random_paper: 5
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Recreation Gov Rate Limits
@@ -154,7 +187,7 @@ score:
     regime_id: government
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/screenshots/recreation-gov-2026-06-20T192708.png
 security:

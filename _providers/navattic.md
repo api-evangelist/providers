@@ -10,31 +10,39 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: near-conformant
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 55.2
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
-- description: The Navattic REST API allows developers to programmatically create and manage interactive product demos, retrieve analytics and engagement data, and integrate demo activity into downstream systems. Th
+- description: The Navattic REST API allows developers to programmatically create and manage interactive product demos, retrieve analytics and engagement data, and integrate demo activity into downstream systems. Na
   name: Navattic API
   slug: navattic-api
-artifact_total: 7
+- description: Navattic's hosted, remote Model Context Protocol server — the company's primary machine-readable product surface. Agents authenticate with an OAuth 2.1 authorization-code flow (PKCE, dynamic client re
+  name: Navattic MCP Server
+  slug: navattic-mcp-server
+artifact_total: 13
+asyncapis:
+- description: ''
+  name: Navattic Webhooks
+  slug: navattic-webhooks
 common:
 - group: auth
   title: ''
@@ -96,6 +104,114 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/navattic-context.jsonld
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.navattic.com/company/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/navattic-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.navattic.com/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/navattic-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/navattic-api-catalog.json
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/navattic-robots.txt
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/navattic-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/navattic-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/navattic-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/navattic-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/navattic-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/navattic-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/navattic-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/navattic-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/navattic-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/navattic-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/navattic-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/navattic-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/navattic-webhooks.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.navattic.com/build/demo
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.navattic.com/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.navattic.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.navattic.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.navattic.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.navattic.com/legal/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Navattic
 created: 2026-06-13
 description: Navattic is an interactive product demo platform that enables marketing and sales teams to create, manage, and embed no-code product demos without engineering involvement. The platform provides a REST API and webhook integration for automating demo workflows and syncing engagement data with CRM, marketing automation, and analytics tools. Navattic supports integrations with HubSpot, Salesforce, Marketo, Segment, Gong, and dozens of other go-to-market platforms. Teams use Navattic to accelerate sales cycles, improve lead qualification, and deliver personalized demo experiences across their entire funnel.
 finops:
@@ -109,43 +225,56 @@ jsonld:
   property_count: 0
   slug: navattic-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: navattic-mcp.yml
+  slug: navattic-mcpyml
+modified: 2026-08-13
 name: Navattic
 nav: Providers
 network: true
 overview: 'Navattic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Interactive Demos, Product Demo, Sales Enablement, Marketing, and No-Code.
 
 
-  The Navattic catalog on APIs.io includes 1 JSON-LD context.
+  The Navattic catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Navattic''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
+  Navattic''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, getting-started guide, support, and 35 more developer resources.'
 plans:
 - name: Navattic Plans Pricing
   plan_count: 5
   slug: navattic-plans-pricing
-random_paper: 18
+random_paper: 113
 rate_limits:
 - limit_count: 0
   name: Navattic Rate Limits
   slug: navattic-rate-limits
+scopes:
+- name: Navattic Scopes
+  scope_count: 11
+  slug: navattic-scopes
+  summary_line: 11 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.0
-  delta: 0.0
+  band: strong
+  composite: 60.2
+  delta: 35.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 100.0
+    contract_quality: 56.7
+    developer_ergonomics: 43.5
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 55.3
   previous_composite: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png
 security:
+- kind: authentication
+  name: Navattic Authentication
+  slug: navattic-authentication
+  summary_line: oauth2/http · 2 schemes
 - kind: domain-security
   name: Navattic Domain Security
   slug: navattic-domain-security
@@ -154,6 +283,10 @@ security:
   name: Navattic Vulnerability Disclosure
   slug: navattic-vulnerability-disclosure
   summary_line: disclosure policy published
+- kind: trust-center
+  name: Navattic Trust Center
+  slug: navattic-trust-center
+  summary_line: SOC 2 Type II, GDPR
 slug: navattic
 tags:
 - Interactive Demos
@@ -164,5 +297,8 @@ tags:
 - Webhooks
 - CRM Integration
 - Sales Automation
+- MCP
+- Agents
+- Product Analytics
 website: https://www.navattic.com/
 ---

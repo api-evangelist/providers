@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 25
 apis:
 - description: Bulk export API for LeanKit / Planview AgilePlace reporting data — cards, card lane positions, blocked card history, comments, connections, lanes, tags, and user assignments — consumed from Excel, Pow
@@ -106,7 +106,7 @@ apis:
 - description: The users API from LeanKit — 2 operation(s) for users.
   name: LeanKit users API
   slug: leankit-users-api
-artifact_total: 54
+artifact_total: 79
 asyncapis:
 - description: ''
   name: Leankit Automation Webhooks
@@ -184,6 +184,81 @@ collections:
 - collection_type: postman
   name: Planview AgilePlace API (LeanKit) v2 account users API
   slug: postman-leankit-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account API
+  slug: open-leankit-account-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account attachment API
+  slug: open-leankit-attachment-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account automation API
+  slug: open-leankit-automation-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account board API
+  slug: open-leankit-board-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account board-filter API
+  slug: open-leankit-board-filter-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account board-level API
+  slug: open-leankit-board-level-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account board-template API
+  slug: open-leankit-board-template-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account card API
+  slug: open-leankit-card-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account card-scoring API
+  slug: open-leankit-card-scoring-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account card-type API
+  slug: open-leankit-card-type-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account comment API
+  slug: open-leankit-comment-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account config API
+  slug: open-leankit-config-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account connections API
+  slug: open-leankit-connections-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account custom-field API
+  slug: open-leankit-custom-field-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account custom-icon API
+  slug: open-leankit-custom-icon-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account dependencies API
+  slug: open-leankit-dependencies-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account lane API
+  slug: open-leankit-lane-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account planning-series API
+  slug: open-leankit-planning-series-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account tags API
+  slug: open-leankit-tags-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account team API
+  slug: open-leankit-team-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account token-auth API
+  slug: open-leankit-token-auth-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account user API
+  slug: open-leankit-user-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account user-invitation API
+  slug: open-leankit-user-invitation-api
+- collection_type: open
+  name: Planview AgilePlace API (LeanKit) v2 account users API
+  slug: open-leankit-users-api
 common:
 - group: other
   title: ''
@@ -352,7 +427,7 @@ overview: 'LeanKit publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LeanKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 24
+random_paper: 148
 score:
   band: strong
   composite: 60.8
@@ -375,7 +450,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/screenshots/leankit-2026-07-25T224738.png
 security:

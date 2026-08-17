@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -99,7 +99,65 @@ apis:
 - description: The user-files API from LambdaTest — 3 operation(s) for user-files.
   name: LambdaTest user-files API
   slug: lambdatest-user-files-api
-artifact_total: 59
+artifact_total: 78
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs API
+  slug: open-lambdatest-autoheal-command-logs-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Build API
+  slug: open-lambdatest-build-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs extensions API
+  slug: open-lambdatest-extensions-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Fetch Build Screenshots API
+  slug: open-lambdatest-fetch-build-screenshots-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Geolocation API
+  slug: open-lambdatest-geolocation-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Get Build Status API
+  slug: open-lambdatest-get-build-status-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Get Screenshot Status API
+  slug: open-lambdatest-get-screenshot-status-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Lighthouse API
+  slug: open-lambdatest-lighthouse-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Organisation API
+  slug: open-lambdatest-organisation-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs platforms API
+  slug: open-lambdatest-platforms-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs prerun API
+  slug: open-lambdatest-prerun-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Resolution API
+  slug: open-lambdatest-resolution-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Session API
+  slug: open-lambdatest-session-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Session Logs (V2) API
+  slug: open-lambdatest-session-logs-v2-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Test API
+  slug: open-lambdatest-test-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs tunnel API
+  slug: open-lambdatest-tunnel-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs Upload Screenshots API
+  slug: open-lambdatest-upload-screenshots-api
+- collection_type: open
+  name: TestMu AI SmartUI API Documentation Autoheal Command Logs user-files API
+  slug: open-lambdatest-user-files-api
 common:
 - group: agent
   title: ''
@@ -213,7 +271,7 @@ plans:
 - name: Lambdatest Plans Pricing
   plan_count: 12
   slug: lambdatest-plans-pricing
-random_paper: 97
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Lambdatest Rate Limits
@@ -247,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/screenshots/lambdatest-2026-06-20T184255.png
 security:

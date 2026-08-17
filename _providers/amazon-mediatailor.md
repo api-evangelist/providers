@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -69,7 +69,7 @@ apis:
 - description: The Tags API from Amazon MediaTailor — 2 operation(s) for tags.
   name: Amazon MediaTailor Tags API
   slug: amazon-mediatailor-tags-api
-artifact_total: 500
+artifact_total: 511
 collections:
 - collection_type: postman
   name: AWS MediaTailor Alerts#resourceArn API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: AWS MediaTailor Alerts#resourceArn Tags API
   slug: postman-amazon-mediatailor-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn API
+  slug: open-amazon-mediatailor-alerts-resourcearn-api
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn Channel API
+  slug: open-amazon-mediatailor-channel-api
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn Channels API
+  slug: open-amazon-mediatailor-channels-api
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn ConfigureLogs API
+  slug: open-amazon-mediatailor-configurelogs-api
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn PlaybackConfiguration API
+  slug: open-amazon-mediatailor-playbackconfiguration-api
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn PlaybackConfigurations API
+  slug: open-amazon-mediatailor-playbackconfigurations-api
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn PrefetchSchedule API
+  slug: open-amazon-mediatailor-prefetchschedule-api
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn SourceLocation API
+  slug: open-amazon-mediatailor-sourcelocation-api
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn SourceLocations API
+  slug: open-amazon-mediatailor-sourcelocations-api
+- collection_type: open
+  name: AWS MediaTailor Alerts#resourceArn Tags API
+  slug: open-amazon-mediatailor-tags-api
 common:
 - group: build
   title: ''
@@ -1597,7 +1630,7 @@ plans:
 - name: Amazon Mediatailor Plans Pricing
   plan_count: 3
   slug: amazon-mediatailor-plans-pricing
-random_paper: 54
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Amazon Mediatailor Rate Limits
@@ -1639,7 +1672,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/screenshots/amazon-mediatailor-2026-06-20T171741.png
 security:

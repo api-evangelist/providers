@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,26 @@ apis:
 - description: 'StorageConnectionService provides access to storage connections: their metadata (requires the "storage:read" scope) and the files within them (ListFiles / GetDownloadCredentials, which require the "st'
   name: Element Biosciences Storage Connection Service API
   slug: element-biosciences-storageconnectionservice-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Element Biosciences Cloud Auth Service API
+  slug: open-element-biosciences-authservice-api
+- collection_type: open
+  name: Element Biosciences Cloud Execution Service API
+  slug: open-element-biosciences-executionservice-api
+- collection_type: open
+  name: Element Biosciences Cloud Instrument Service API
+  slug: open-element-biosciences-instrumentservice-api
+- collection_type: open
+  name: Element Biosciences Cloud Run Service API
+  slug: open-element-biosciences-runservice-api
+- collection_type: open
+  name: Element Biosciences Cloud Storage Connection Service API
+  slug: open-element-biosciences-storageconnectionservice-api
 common:
 - group: other
   title: ''
@@ -194,7 +213,7 @@ overview: 'Element Biosciences publishes 5 APIs on the [APIs.io](https://apis.io
 
 
   Element Biosciences'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
-random_paper: 30
+random_paper: 13
 scopes:
 - name: Element Biosciences Scopes
   scope_count: 12
@@ -229,7 +248,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/screenshots/element-biosciences-2026-08-07T164822.png
 security:

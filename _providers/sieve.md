@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Push, retrieve, list, and cancel asynchronous function jobs.
   name: Sieve Jobs API
   slug: sieve-jobs-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sieve Functions API
+  slug: open-sieve-functions-api
+- collection_type: open
+  name: Sieve Functions Jobs API
+  slug: open-sieve-jobs-api
 - collection_type: open
   name: Sieve API
   slug: open-sieve
@@ -115,7 +124,7 @@ plans:
 - name: Sieve Plans Pricing
   plan_count: 3
   slug: sieve-plans-pricing
-random_paper: 60
+random_paper: 93
 rate_limits:
 - limit_count: 3
   name: Sieve Rate Limits
@@ -140,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

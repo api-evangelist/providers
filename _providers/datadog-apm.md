@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Service Definitions API from Datadog APM — 2 operation(s) for service definitions.
@@ -46,7 +46,26 @@ apis:
 - description: The Traces API from Datadog APM — 1 operation(s) for traces.
   name: Datadog APM Traces API
   slug: datadog-apm-traces-api
-artifact_total: 14
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Datadog APM Service Definitions API
+  slug: open-datadog-apm-service-definitions-api
+- collection_type: open
+  name: Datadog APM Services API
+  slug: open-datadog-apm-services-api
+- collection_type: open
+  name: Datadog APM SL Os API
+  slug: open-datadog-apm-slos-api
+- collection_type: open
+  name: Datadog APM Spans API
+  slug: open-datadog-apm-spans-api
+- collection_type: open
+  name: Datadog APM Traces API
+  slug: open-datadog-apm-traces-api
 common:
 - group: auth
   title: ''
@@ -132,7 +151,7 @@ plans:
 - name: Datadog Apm Plans Pricing
   plan_count: 3
   slug: datadog-apm-plans-pricing
-random_paper: 7
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Datadog Apm Rate Limits
@@ -173,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/screenshots/datadog-apm-2026-06-20T175636.png
 security:

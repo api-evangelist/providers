@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ arazzos:
 - description: Identify the integration bot, list workspace users, then retrieve the first user in detail.
   name: Notion Resolve a Workspace User Directory
   slug: notion-user-directory-resolve-workflow
-artifact_total: 64
+artifact_total: 71
 asyncapis:
 - description: AsyncAPI 2.6 description of the Notion webhooks surface. Notion delivers workspace events (page, database, data source, and comment changes) to a subscriber-hosted HTTPS endpoint via signed POST reque
   name: Notion Webhooks
@@ -101,6 +101,27 @@ collections:
 - collection_type: postman
   name: Notion API
   slug: postman-notion
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Notion Blocks API
+  slug: open-notion-blocks-api
+- collection_type: open
+  name: Notion Blocks Comments API
+  slug: open-notion-comments-api
+- collection_type: open
+  name: Notion Blocks Databases API
+  slug: open-notion-databases-api
+- collection_type: open
+  name: Notion Blocks Pages API
+  slug: open-notion-pages-api
+- collection_type: open
+  name: Notion Blocks Search API
+  slug: open-notion-search-api
+- collection_type: open
+  name: Notion Blocks Users API
+  slug: open-notion-users-api
 - collection_type: open
   name: Notion API
   slug: open-notion
@@ -653,7 +674,7 @@ plans:
 - name: Notion Plans Pricing
   plan_count: 4
   slug: notion-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Notion Rate Limits
@@ -697,7 +718,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png
 security:

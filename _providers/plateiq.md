@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: The accounts API from PlateIQ — 3 operation(s) for accounts.
@@ -58,7 +58,38 @@ apis:
 - description: The vendors API from PlateIQ — 3 operation(s) for vendors.
   name: PlateIQ vendors API
   slug: plateiq-vendors-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference accounts API
+  slug: open-plateiq-accounts-api
+- collection_type: open
+  name: API Reference accounts batch API
+  slug: open-plateiq-batch-api
+- collection_type: open
+  name: API Reference accounts catalog API
+  slug: open-plateiq-catalog-api
+- collection_type: open
+  name: API Reference accounts dimensions API
+  slug: open-plateiq-dimensions-api
+- collection_type: open
+  name: API Reference accounts invoices API
+  slug: open-plateiq-invoices-api
+- collection_type: open
+  name: API Reference accounts oauth API
+  slug: open-plateiq-oauth-api
+- collection_type: open
+  name: API Reference accounts purchaseOrders API
+  slug: open-plateiq-purchaseorders-api
+- collection_type: open
+  name: API Reference accounts receipts API
+  slug: open-plateiq-receipts-api
+- collection_type: open
+  name: API Reference accounts vendors API
+  slug: open-plateiq-vendors-api
 common:
 - group: company
   title: ''
@@ -196,7 +227,7 @@ overview: 'PlateIQ publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PlateIQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 32
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Plateiq Rate Limits
@@ -234,7 +265,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

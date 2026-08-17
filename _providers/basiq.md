@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,11 +57,32 @@ apis:
 - description: The Users API from Basiq — 2 operation(s) for users.
   name: Basiq Users API
   slug: basiq-users-api
-artifact_total: 76
+artifact_total: 83
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Basiq Accounts API
+  slug: open-basiq-accounts-api
+- collection_type: open
+  name: Basiq Accounts Affordability API
+  slug: open-basiq-affordability-api
 - collection_type: open
   name: Basiq API
   slug: open-basiq-api
+- collection_type: open
+  name: Basiq Accounts Authentication API
+  slug: open-basiq-authentication-api
+- collection_type: open
+  name: Basiq Accounts Connections API
+  slug: open-basiq-connections-api
+- collection_type: open
+  name: Basiq Accounts Transactions API
+  slug: open-basiq-transactions-api
+- collection_type: open
+  name: Basiq Accounts Users API
+  slug: open-basiq-users-api
 common:
 - group: agent
   title: ''
@@ -299,7 +320,7 @@ plans:
 - name: Basiq Plans Pricing
   plan_count: 3
   slug: basiq-plans-pricing
-random_paper: 48
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Basiq Rate Limits
@@ -347,7 +368,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/screenshots/basiq-2026-06-20T173039.png
 security:

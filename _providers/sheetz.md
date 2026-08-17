@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Sheetz Distribution Services EDI and API integration capabilities enable suppliers and trading partners to exchange electronic data interchange documents including purchase orders, invoices, advance s
@@ -131,7 +131,7 @@ plans:
 - name: Sheetz Plans Pricing
   plan_count: 3
   slug: sheetz-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Sheetz Rate Limits
@@ -155,7 +155,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sheetz/refs/heads/main/screenshots/sheetz-2026-06-20T193759.png
 security:

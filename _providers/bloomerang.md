@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Webhook subscriptions for event notifications.
   name: Bloomerang Webhooks API
   slug: bloomerang-webhooks-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bloomerang REST API v2 Constituents API
+  slug: open-bloomerang-constituents-api
+- collection_type: open
+  name: Bloomerang REST API v2 Constituents Custom Fields API
+  slug: open-bloomerang-custom-fields-api
+- collection_type: open
+  name: Bloomerang REST API v2 Constituents Households API
+  slug: open-bloomerang-households-api
+- collection_type: open
+  name: Bloomerang REST API v2 Constituents Interactions API
+  slug: open-bloomerang-interactions-api
+- collection_type: open
+  name: Bloomerang REST API v2 Constituents Notes API
+  slug: open-bloomerang-notes-api
+- collection_type: open
+  name: Bloomerang REST API v2 Constituents Reference Data API
+  slug: open-bloomerang-reference-data-api
+- collection_type: open
+  name: Bloomerang REST API v2 Constituents Relationships API
+  slug: open-bloomerang-relationships-api
+- collection_type: open
+  name: Bloomerang REST API v2 Constituents Transactions API
+  slug: open-bloomerang-transactions-api
+- collection_type: open
+  name: Bloomerang REST API v2 Constituents Webhooks API
+  slug: open-bloomerang-webhooks-api
 - collection_type: open
   name: Bloomerang REST API v2
   slug: open-bloomerang
@@ -144,7 +174,7 @@ plans:
 - name: Bloomerang Plans Pricing
   plan_count: 4
   slug: bloomerang-plans-pricing
-random_paper: 102
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Bloomerang Rate Limits
@@ -174,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/screenshots/bloomerang-2026-07-25T203411.png
 security:

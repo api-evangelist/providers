@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-12'
+  score: 49.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -105,7 +105,80 @@ apis:
 - description: The video-scores > videoScores API from Coactive — 4 operation(s) for video-scores > videoscores.
   name: Coactive video-scores > videoScores API
   slug: coactive-video-scores-videoscores-api
-artifact_total: 27
+artifact_total: 53
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch API
+  slug: open-coactive-agentic-search-agenticsearch-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch celebrity-detection API
+  slug: open-coactive-celebrity-detection-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch classification API
+  slug: open-coactive-classification-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch concept API
+  slug: open-coactive-concept-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch connections > connections API
+  slug: open-coactive-connections-connections-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch context-studio > adSegments API
+  slug: open-coactive-context-studio-adsegments-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch datasets > dataset API
+  slug: open-coactive-datasets-dataset-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch datasets > datasetConfig API
+  slug: open-coactive-datasets-datasetconfig-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch datasets > encoder API
+  slug: open-coactive-datasets-encoder-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch dynamicTags API
+  slug: open-coactive-dynamictags-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch ingestion API
+  slug: open-coactive-ingestion-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch ingestion > ingest API
+  slug: open-coactive-ingestion-ingest-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch ingestion > status API
+  slug: open-coactive-ingestion-status-api
+- collection_type: open
+  name: API Collection
+  slug: open-coactive-openapi
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch queries API
+  slug: open-coactive-queries-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch search-metadata-filter API
+  slug: open-coactive-search-metadata-filter-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch search > search API
+  slug: open-coactive-search-search-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch search-video > searchVideo API
+  slug: open-coactive-search-video-searchvideo-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch systemCredentials API
+  slug: open-coactive-systemcredentials-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch userManagement API
+  slug: open-coactive-usermanagement-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch video-narative-metadata > videoNarrativeMetadata API
+  slug: open-coactive-video-narative-metadata-videonarrativemetadata-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch video-narative-metadata > videoSummarization API
+  slug: open-coactive-video-narative-metadata-videosummarization-api
+- collection_type: open
+  name: API Reference agentic-search > agenticSearch video-scores > videoScores API
+  slug: open-coactive-video-scores-videoscores-api
 common:
 - group: auth
   title: ''
@@ -215,10 +288,6 @@ common:
   title: ''
   type: Overlay
   url: overlays/coactive-openapi-overlay.yaml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/coactive-well-known.yml
 - group: design
   title: ''
   type: Conventions
@@ -239,6 +308,22 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/CoactiveAI
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/coactive-all/coactive-rest-api
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/coactive-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/coactive-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/coactive-rate-limits.yml
 created: '2026-07-17'
 description: Coactive is a multimodal AI platform that delivers a contextual intelligence layer for modern media, turning unstructured images and video into structured, searchable intelligence. The platform ingests visual assets at scale and provides agentic and semantic search, dynamic tagging, concept training and classification, celebrity and face detection, video narrative metadata and summarization, ad-segment context studio workflows, and analytics that plug into data warehouses and BI tools. Every capability is exposed programmatically through a versioned REST API (api.coactive.ai) with an official Python SDK, bearer-token authentication, and a hosted documentation MCP server. Coactive was founded to help enterprises search, moderate, understand, and monetize their content libraries for contextual advertising, brand safety, and content operations.
 image: https://www.coactive.ai/favicon.ico
@@ -247,23 +332,31 @@ mcp_servers:
 - description: ''
   name: coactive-mcp.yml
   slug: coactive-mcpyml
-modified: '2026-08-08'
+modified: '2026-08-13'
 name: Coactive
 nav: Providers
 network: true
 overview: 'Coactive publishes 22 APIs on the [APIs.io](https://apis.io/) network, including agentic-search > agenticSearch API, celebrity-detection API, classification API, and 19 more. Tagged areas include Company, Ai, Multimodal AI, Computer Vision, and Video Intelligence.
 
 
-  Coactive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 26 more developer resources.'
-random_paper: 6
+  Coactive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 29 more developer resources.'
+plans:
+- name: Coactive Plans Pricing
+  plan_count: 0
+  slug: coactive-plans-pricing
+random_paper: 101
+rate_limits:
+- limit_count: 0
+  name: Coactive Rate Limits
+  slug: coactive-rate-limits
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 54.2
+  delta: 0.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.7
-    developer_ergonomics: 69.0
+    developer_ergonomics: 73.4
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
@@ -279,7 +372,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/screenshots/coactive-2026-07-25T205821.png
 security:

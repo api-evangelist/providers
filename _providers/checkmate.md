@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Health API from Checkmate — 1 operation(s) for health.
@@ -40,7 +40,20 @@ apis:
 - description: The Shoppers API from Checkmate — 1 operation(s) for shoppers.
   name: Checkmate Shoppers API
   slug: checkmate-shoppers-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenStock Health API
+  slug: open-checkmate-health-api
+- collection_type: open
+  name: OpenStock Health Merchants API
+  slug: open-checkmate-merchants-api
+- collection_type: open
+  name: OpenStock Health Shoppers API
+  slug: open-checkmate-shoppers-api
 common:
 - group: other
   title: ''
@@ -158,7 +171,7 @@ overview: 'Checkmate publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Checkmate''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 93
+random_paper: 39
 score:
   band: developing
   composite: 43.1
@@ -187,7 +200,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/screenshots/checkmate-2026-07-25T205130.png
 security:

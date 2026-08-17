@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Practice client data-health metrics and activity statistics
   name: Dext Clients API
   slug: dext-clients-api
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dext Data Health & Insights Clients API
+  slug: open-dext-clients-api
 common:
 - group: other
   title: ''
@@ -172,7 +179,7 @@ overview: 'Dext publishes 1 API on the [APIs.io](https://apis.io/) network: Clie
 
 
   Dext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 77
+random_paper: 139
 rate_limits:
 - limit_count: 1
   name: Dext Rate Limits
@@ -205,7 +212,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/screenshots/dext-2026-07-25T211838.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,7 +103,7 @@ overview: 'Sails Co is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sails Co''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, and 10 more developer resources.'
-random_paper: 75
+random_paper: 50
 score:
   band: emerging
   composite: 16.1
@@ -117,7 +117,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 16.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

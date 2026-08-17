@@ -30,13 +30,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The MetadataONE Model Context Protocol server — Metadata's only public developer surface. 141 documented tools let an MCP client (Claude Code, Claude Desktop, Hermes, Paperclip, OpenClaw or a custom a
   name: Metadata MCP Server (MetadataONE)
   slug: metadata-mcp-server-metadataone
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: MCP Metadata Server
+  slug: open-metadata-mcp-server
 common:
 - group: company
   title: ''
@@ -127,7 +131,7 @@ plans:
 - name: Metadata Plans Pricing
   plan_count: 0
   slug: metadata-plans-pricing
-random_paper: 113
+random_paper: 88
 rate_limits:
 - limit_count: 0
   name: Metadata Rate Limits
@@ -140,7 +144,7 @@ scopes:
 score:
   band: developing
   composite: 43.1
-  delta: 24.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 42.5
@@ -148,10 +152,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 18.4
+  previous_composite: 43.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/screenshots/metadata-2026-08-07T172641.png
 security:
 - kind: authentication

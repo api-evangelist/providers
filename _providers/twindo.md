@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Public machine-readable company profile Twindo publishes for LLMs and agents (linked from the site footer as "LLM JSON API"): products, pricing, output formats, use cases, case studies, and resources '
@@ -108,7 +108,7 @@ overview: 'Twindo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Twindo''s developer surface includes engineering blog, pricing, signup flow, getting-started guide, support, authentication, changelog, and 8 more developer resources.'
-random_paper: 61
+random_paper: 65
 score:
   band: emerging
   composite: 24.9
@@ -122,7 +122,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Program Reporting API from Stamped — 2 operation(s) for program reporting.
   name: Stamped Program Reporting API
   slug: stamped-program-reporting-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Loyalty Operations Customer Actions API
+  slug: open-stamped-customer-actions-api
+- collection_type: open
+  name: Loyalty Operations Customer Actions Customers API
+  slug: open-stamped-customers-api
+- collection_type: open
+  name: Loyalty Operations Customer Actions Orders API
+  slug: open-stamped-orders-api
+- collection_type: open
+  name: Loyalty Operations Customer Actions Products API
+  slug: open-stamped-products-api
+- collection_type: open
+  name: Loyalty Operations Customer Actions Program Reporting API
+  slug: open-stamped-program-reporting-api
 common:
 - group: other
   title: ''
@@ -147,7 +166,7 @@ overview: 'Stamped publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Stamped''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 14 more developer resources.'
-random_paper: 30
+random_paper: 5
 score:
   band: thin
   composite: 35.1
@@ -171,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

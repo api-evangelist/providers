@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,12 +57,30 @@ apis:
 - description: Place and control outbound voice calls.
   name: Exotel Voice API
   slug: exotel-voice-api
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: Exotel AgentStream (also surfaced through the Voicebot and Stream applets) is a documented public WebSocket API for real-time voice media streaming during a call. When a call hits a Voicebot/Stream ap
   name: Exotel AgentStream Voice Streaming API
   slug: exotel-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Exotel Call Details API
+  slug: open-exotel-call-details-api
+- collection_type: open
+  name: Exotel Call Details Campaigns API
+  slug: open-exotel-campaigns-api
+- collection_type: open
+  name: Exotel Call Details Numbers API
+  slug: open-exotel-numbers-api
+- collection_type: open
+  name: Exotel Call Details SMS API
+  slug: open-exotel-sms-api
+- collection_type: open
+  name: Exotel Call Details Voice API
+  slug: open-exotel-voice-api
 - collection_type: open
   name: Exotel API
   slug: open-exotel
@@ -130,7 +148,7 @@ plans:
 - name: Exotel Plans Pricing
   plan_count: 4
   slug: exotel-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Exotel Rate Limits
@@ -170,7 +188,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/screenshots/exotel-2026-07-25T213905.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +56,29 @@ apis:
 - description: Theme, branding, and visual customization.
   name: Zudoku Theming API
   slug: zudoku-theming-api
-artifact_total: 19
+artifact_total: 25
 collections:
 - collection_type: open
-  name: Zudoku Configuration API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zudoku Configuration API References API
+  slug: open-zudoku-api-references-api
+- collection_type: open
+  name: Zudoku Configuration API References Authentication API
+  slug: open-zudoku-authentication-api
+- collection_type: open
+  name: Zudoku API References Configuration API
   slug: open-zudoku-configuration-api
+- collection_type: open
+  name: Zudoku Configuration API References Navigation API
+  slug: open-zudoku-navigation-api
+- collection_type: open
+  name: Zudoku Configuration API References Plugins API
+  slug: open-zudoku-plugins-api
+- collection_type: open
+  name: Zudoku Configuration API References Theming API
+  slug: open-zudoku-theming-api
 common:
 - group: agent
   title: ''
@@ -142,7 +160,7 @@ plans:
 - name: Zudoku Plans Pricing
   plan_count: 3
   slug: zudoku-plans-pricing
-random_paper: 74
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Zudoku Rate Limits
@@ -176,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/screenshots/zudoku-2026-06-20T201959.png
 security:

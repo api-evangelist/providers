@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Transactions API from BNY Mellon — 1 operation(s) for transactions.
   name: BNY Mellon Transactions API
   slug: bank-of-new-york-mellon-transactions-api
-artifact_total: 74
+artifact_total: 80
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BNY Mellon Treasury Services Accounts API
+  slug: open-bank-of-new-york-mellon-accounts-api
+- collection_type: open
+  name: BNY Mellon Treasury Services Accounts Balances API
+  slug: open-bank-of-new-york-mellon-balances-api
+- collection_type: open
+  name: BNY Mellon Treasury Services Accounts Funds Transfers API
+  slug: open-bank-of-new-york-mellon-funds-transfers-api
+- collection_type: open
+  name: BNY Mellon Treasury Services Accounts Payments API
+  slug: open-bank-of-new-york-mellon-payments-api
+- collection_type: open
+  name: BNY Mellon Treasury Services Accounts Transactions API
+  slug: open-bank-of-new-york-mellon-transactions-api
 - collection_type: open
   name: BNY Mellon Treasury Services API
   slug: open-bny-mellon-treasury-services-api
@@ -296,7 +314,7 @@ press:
 - date: '2026-05-25'
   title: BNY Shares Jump 65% As AI Hiring Push Accelerates
   url: https://finance.yahoo.com/sectors/technology/articles/bny-shares-jump-65-ai-115004909.html
-random_paper: 75
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Bank Of New York Mellon Rate Limits
@@ -357,7 +375,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/screenshots/bank-of-new-york-mellon-2026-06-20T172950.png
 security:

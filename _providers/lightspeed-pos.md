@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -121,8 +121,59 @@ apis:
 - description: The Tax Breakdown API from Lightspeed — 1 operation(s) for tax breakdown.
   name: Lightspeed Tax Breakdown API
   slug: lightspeed-pos-tax-breakdown-api
-artifact_total: 315
+artifact_total: 337
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account API
+  slug: open-lightspeed-pos-account-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Brands API
+  slug: open-lightspeed-pos-brands-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Catalog API
+  slug: open-lightspeed-pos-catalog-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Customer API
+  slug: open-lightspeed-pos-customer-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Customers API
+  slug: open-lightspeed-pos-customers-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Financial API
+  slug: open-lightspeed-pos-financial-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account FinancialV2 API
+  slug: open-lightspeed-pos-financialv2-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Gift Cards API
+  slug: open-lightspeed-pos-gift-cards-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account ID Cards API
+  slug: open-lightspeed-pos-id-cards-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Item API
+  slug: open-lightspeed-pos-item-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Items API
+  slug: open-lightspeed-pos-items-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Order and Pay API
+  slug: open-lightspeed-pos-order-and-pay-api
+- collection_type: open
+  name: 'Lightspeed Restaurant K Series Account Order and Pay: Webhook API'
+  slug: open-lightspeed-pos-order-and-pay-webhook-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account PMS API
+  slug: open-lightspeed-pos-pms-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Products API
+  slug: open-lightspeed-pos-products-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Reservations for Platforms API
+  slug: open-lightspeed-pos-reservations-for-platforms-api
 - collection_type: open
   name: Lightspeed Restaurant K Series API
   slug: open-lightspeed-pos-restaurant-k-series
@@ -132,6 +183,21 @@ collections:
 - collection_type: open
   name: Lightspeed Retail X-Series API
   slug: open-lightspeed-pos-retail-x-series
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Rich Item API
+  slug: open-lightspeed-pos-rich-item-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Sale API
+  slug: open-lightspeed-pos-sale-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Sales API
+  slug: open-lightspeed-pos-sales-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Staff API
+  slug: open-lightspeed-pos-staff-api
+- collection_type: open
+  name: Lightspeed Restaurant K Series Account Tax Breakdown API
+  slug: open-lightspeed-pos-tax-breakdown-api
 common:
 - group: agent
   title: ''
@@ -1011,7 +1077,7 @@ plans:
 - name: Lightspeed Pos Plans Pricing
   plan_count: 1
   slug: lightspeed-pos-plans-pricing
-random_paper: 8
+random_paper: 107
 rate_limits:
 - limit_count: 4
   name: Lightspeed Pos Rate Limits
@@ -1058,7 +1124,7 @@ score:
       marker_coverage: 100.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/screenshots/lightspeed-pos-2026-06-20T184525.png
 security:

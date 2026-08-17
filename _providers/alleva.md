@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 37
 apis:
 - description: The AdvancedForm API from Alleva — 8 operation(s) for advancedform.
@@ -132,7 +132,122 @@ apis:
 - description: The Users API from Alleva — 20 operation(s) for users.
   name: Alleva Users API
   slug: alleva-users-api
-artifact_total: 42
+artifact_total: 80
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alleva Rest Advanced Form API
+  slug: open-alleva-advancedform-api
+- collection_type: open
+  name: Alleva Rest Advanced Form Data Backup API
+  slug: open-alleva-advancedformdatabackup-api
+- collection_type: open
+  name: Alleva Rest Advanced Form Element API
+  slug: open-alleva-advancedformelement-api
+- collection_type: open
+  name: Alleva Rest Advanced Form Instance API
+  slug: open-alleva-advancedforminstance-api
+- collection_type: open
+  name: Alleva Rest Appointments API
+  slug: open-alleva-appointments-api
+- collection_type: open
+  name: Alleva Rest Bed API
+  slug: open-alleva-bed-api
+- collection_type: open
+  name: Alleva Rest Bed Occupancy API
+  slug: open-alleva-bedoccupancy-api
+- collection_type: open
+  name: Alleva Rest Bed Reservation API
+  slug: open-alleva-bedreservation-api
+- collection_type: open
+  name: Alleva Rest Client Device API
+  slug: open-alleva-clientdevice-api
+- collection_type: open
+  name: Alleva Rest Clients API
+  slug: open-alleva-clients-api
+- collection_type: open
+  name: Alleva Rest Data Facet API
+  slug: open-alleva-datafacet-api
+- collection_type: open
+  name: Alleva Rest Data Value API
+  slug: open-alleva-datavalue-api
+- collection_type: open
+  name: Alleva Rest Discharge Plan API
+  slug: open-alleva-dischargeplan-api
+- collection_type: open
+  name: Alleva Rest Document API
+  slug: open-alleva-document-api
+- collection_type: open
+  name: Alleva Rest Facilities API
+  slug: open-alleva-facilities-api
+- collection_type: open
+  name: Alleva Rest Homework API
+  slug: open-alleva-homework-api
+- collection_type: open
+  name: Alleva Rest Incident Report API
+  slug: open-alleva-incidentreport-api
+- collection_type: open
+  name: Alleva Rest Intake API
+  slug: open-alleva-intake-api
+- collection_type: open
+  name: Alleva Rest Level Of Care API
+  slug: open-alleva-levelofcare-api
+- collection_type: open
+  name: Alleva Rest Manage Intake API
+  slug: open-alleva-manageintake-api
+- collection_type: open
+  name: Alleva Rest Master Codes API
+  slug: open-alleva-mastercodes-api
+- collection_type: open
+  name: Alleva Rest Medications API
+  slug: open-alleva-medications-api
+- collection_type: open
+  name: Alleva Rest Organizations API
+  slug: open-alleva-organizations-api
+- collection_type: open
+  name: Alleva Rest Pronoun API
+  slug: open-alleva-pronoun-api
+- collection_type: open
+  name: Alleva Rest Prospects API
+  slug: open-alleva-prospects-api
+- collection_type: open
+  name: Alleva Rest Referral Companies API
+  slug: open-alleva-referralcompanies-api
+- collection_type: open
+  name: Alleva Rest Referral Contacts API
+  slug: open-alleva-referralcontacts-api
+- collection_type: open
+  name: Alleva Rest Rehab API
+  slug: open-alleva-rehab-api
+- collection_type: open
+  name: Alleva Rest Api
+  slug: open-alleva-rest-api
+- collection_type: open
+  name: Alleva Rest Room API
+  slug: open-alleva-room-api
+- collection_type: open
+  name: Alleva Rest Sessions API
+  slug: open-alleva-sessions-api
+- collection_type: open
+  name: Alleva Rest Shift Rounds API
+  slug: open-alleva-shiftrounds-api
+- collection_type: open
+  name: Alleva Rest Snapshot API
+  slug: open-alleva-snapshot-api
+- collection_type: open
+  name: Alleva Rest Survey API
+  slug: open-alleva-survey-api
+- collection_type: open
+  name: Alleva Rest Treatment Plans API
+  slug: open-alleva-treatmentplans-api
+- collection_type: open
+  name: Alleva Rest User License API
+  slug: open-alleva-userlicense-api
+- collection_type: open
+  name: Alleva Rest Users API
+  slug: open-alleva-users-api
 common:
 - group: company
   title: ''
@@ -251,7 +366,7 @@ overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Alleva''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 29
+random_paper: 33
 scopes:
 - name: Alleva Scopes
   scope_count: 1
@@ -285,7 +400,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/screenshots/alleva-2026-08-07T161220.png
 security:

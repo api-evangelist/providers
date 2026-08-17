@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Create, overwrite, and list Big Tables.
   name: Glide Tables API
   slug: glide-apps-tables-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Glide Queries API
+  slug: open-glide-apps-queries-api
+- collection_type: open
+  name: Glide Queries Rows API
+  slug: open-glide-apps-rows-api
+- collection_type: open
+  name: Glide Queries Stashes API
+  slug: open-glide-apps-stashes-api
+- collection_type: open
+  name: Glide Queries Tables API
+  slug: open-glide-apps-tables-api
 - collection_type: open
   name: Glide API
   slug: open-glide-apps
@@ -125,7 +140,7 @@ plans:
 - name: Glide Apps Plans Pricing
   plan_count: 5
   slug: glide-apps-plans-pricing
-random_paper: 38
+random_paper: 104
 rate_limits:
 - limit_count: 4
   name: Glide Apps Rate Limits
@@ -150,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/screenshots/glide-apps-2026-06-20T181910.png
 security:

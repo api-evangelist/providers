@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Start tracking an ocean shipment.
   name: Portcast Tracking Upload API
   slug: portcast-tracking-upload-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Portcast Container Tracking Augmentation API
+  slug: open-portcast-augmentation-api
+- collection_type: open
+  name: Portcast Container Tracking Augmentation Container Detail API
+  slug: open-portcast-container-detail-api
+- collection_type: open
+  name: Portcast Container Tracking Augmentation Reference API
+  slug: open-portcast-reference-api
+- collection_type: open
+  name: Portcast Container Tracking Augmentation Tracking Data API
+  slug: open-portcast-tracking-data-api
+- collection_type: open
+  name: Portcast Container Tracking Augmentation Tracking Upload API
+  slug: open-portcast-tracking-upload-api
 - collection_type: open
   name: Portcast Container Tracking API
   slug: open-portcast
@@ -120,7 +138,7 @@ plans:
 - name: Portcast Plans Pricing
   plan_count: 2
   slug: portcast-plans-pricing
-random_paper: 40
+random_paper: 135
 rate_limits:
 - limit_count: 2
   name: Portcast Rate Limits
@@ -145,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

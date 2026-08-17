@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API for the D-Tools Cloud platform. Read, create and update Clients, Products, Opportunities, Quotes, Projects, Change Orders, Purchase Orders, Service Contracts, Files and Time Entries. Requests
@@ -27,11 +27,18 @@ apis:
 - description: 'Cloud middleware API that bridges the on-premises or hosted D-Tools System Integrator application to third-party systems. It is a queue, not a live database: publishers POST projects, change orders, t'
   name: D-Tools System Integrator (SI) API
   slug: d-tools-system-integrator-si-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: D Tools Cloud Webhooks
   slug: d-tools-cloud-webhooks
+collections:
+- collection_type: open
+  name: D-Tools Cloud API
+  slug: open-d-tools-cloud-api
+- collection_type: open
+  name: D-Tools SI API Documentation
+  slug: open-d-tools-si-api
 common:
 - group: auth
   title: ''
@@ -165,7 +172,7 @@ plans:
 - name: D Tools Plans Pricing
   plan_count: 6
   slug: d-tools-plans-pricing
-random_paper: 106
+random_paper: 110
 rate_limits:
 - limit_count: 2
   name: D Tools Rate Limits
@@ -173,6 +180,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 52.2
@@ -180,8 +188,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 65.8
+  previous_composite: 57.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: D Tools Authentication

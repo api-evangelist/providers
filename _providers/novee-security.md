@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Novee Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Novee Security''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 34
+random_paper: 133
 score:
   band: emerging
   composite: 13.1
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novee-security/refs/heads/main/screenshots/novee-security-2026-08-07T185608.png
 security:

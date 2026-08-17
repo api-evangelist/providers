@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -65,8 +65,38 @@ apis:
 - description: The Webhooks API from Nifty — 1 operation(s) for webhooks.
   name: Nifty Webhooks API
   slug: nifty-webhooks-api
-artifact_total: 15
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nifty PM Authentication API
+  slug: open-nifty-authentication-api
+- collection_type: open
+  name: Nifty PM Authentication Documents API
+  slug: open-nifty-documents-api
+- collection_type: open
+  name: Nifty PM Authentication Files API
+  slug: open-nifty-files-api
+- collection_type: open
+  name: Nifty PM Authentication Folders API
+  slug: open-nifty-folders-api
+- collection_type: open
+  name: Nifty PM Authentication Members API
+  slug: open-nifty-members-api
+- collection_type: open
+  name: Nifty PM Authentication Milestones API
+  slug: open-nifty-milestones-api
+- collection_type: open
+  name: Nifty PM Authentication Projects API
+  slug: open-nifty-projects-api
+- collection_type: open
+  name: Nifty PM Authentication Tasks API
+  slug: open-nifty-tasks-api
+- collection_type: open
+  name: Nifty PM Authentication Webhooks API
+  slug: open-nifty-webhooks-api
 - collection_type: open
   name: Nifty PM API
   slug: open-nifty
@@ -135,7 +165,7 @@ overview: 'Nifty publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nifty''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 74
+random_paper: 107
 score:
   band: thin
   composite: 32.7
@@ -156,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/screenshots/nifty-2026-06-20T190320.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -72,14 +72,50 @@ apis:
 - description: Volume lifecycle management operations including creating, updating, expanding, shrinking, and deleting volumes. Volumes are the top-level storage namespaces in CubeFS.
   name: CubeFS Volumes API
   slug: cubefs-volumes-api
-artifact_total: 24
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CubeFS Master ACLs API
+  slug: open-cubefs-acls-api
+- collection_type: open
+  name: CubeFS Master ACLs Buckets API
+  slug: open-cubefs-buckets-api
+- collection_type: open
+  name: CubeFS Master ACLs Cluster API
+  slug: open-cubefs-cluster-api
+- collection_type: open
+  name: CubeFS Master ACLs DataNodes API
+  slug: open-cubefs-datanodes-api
+- collection_type: open
+  name: CubeFS Master ACLs DataPartitions API
+  slug: open-cubefs-datapartitions-api
 - collection_type: open
   name: CubeFS Master API
   slug: open-cubefs-master-api
 - collection_type: open
+  name: CubeFS Master ACLs MetaNodes API
+  slug: open-cubefs-metanodes-api
+- collection_type: open
+  name: CubeFS Master ACLs MetaPartitions API
+  slug: open-cubefs-metapartitions-api
+- collection_type: open
+  name: CubeFS Master ACLs Multipart API
+  slug: open-cubefs-multipart-api
+- collection_type: open
+  name: CubeFS Master ACLs Objects API
+  slug: open-cubefs-objects-api
+- collection_type: open
   name: CubeFS S3-Compatible API
   slug: open-cubefs-s3-api
+- collection_type: open
+  name: CubeFS Master ACLs Users API
+  slug: open-cubefs-users-api
+- collection_type: open
+  name: CubeFS Master ACLs Volumes API
+  slug: open-cubefs-volumes-api
 common:
 - group: operate
   title: ''
@@ -197,7 +233,7 @@ plans:
 - name: Cubefs Plans Pricing
   plan_count: 3
   slug: cubefs-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Cubefs Rate Limits
@@ -247,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/screenshots/cubefs-2026-06-20T175330.png
 security:

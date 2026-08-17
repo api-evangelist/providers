@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Attributes API from Stadia Maps — 1 operation(s) for attributes.
@@ -64,7 +64,7 @@ apis:
 - description: The Search API from Stadia Maps — 3 operation(s) for search.
   name: Stadia Maps Search API
   slug: stadia-maps-search-api
-artifact_total: 36
+artifact_total: 48
 collections:
 - collection_type: postman
   name: Stadia Maps Attributes API
@@ -99,6 +99,42 @@ collections:
 - collection_type: postman
   name: Stadia Maps Search API
   slug: postman-stadia-maps-search-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stadia Maps Attributes API
+  slug: open-stadia-maps-attributes-api
+- collection_type: open
+  name: Stadia Maps Autocomplete API
+  slug: open-stadia-maps-autocomplete-api
+- collection_type: open
+  name: Stadia Maps Geospatial API
+  slug: open-stadia-maps-geospatial-api
+- collection_type: open
+  name: Stadia Maps Lookups API
+  slug: open-stadia-maps-lookups-api
+- collection_type: open
+  name: Stadia Maps Match API
+  slug: open-stadia-maps-match-api
+- collection_type: open
+  name: Stadia Maps Place API
+  slug: open-stadia-maps-place-api
+- collection_type: open
+  name: Stadia Maps Reverse API
+  slug: open-stadia-maps-reverse-api
+- collection_type: open
+  name: Stadia Maps Roads API
+  slug: open-stadia-maps-roads-api
+- collection_type: open
+  name: Stadia Maps Routes API
+  slug: open-stadia-maps-routes-api
+- collection_type: open
+  name: Stadia Maps Routing API
+  slug: open-stadia-maps-routing-api
+- collection_type: open
+  name: Stadia Maps Search API
+  slug: open-stadia-maps-search-api
 common:
 - group: build
   title: ''
@@ -213,7 +249,7 @@ plans:
 - name: Stadia Maps Plans Pricing
   plan_count: 3
   slug: stadia-maps-plans-pricing
-random_paper: 28
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Stadia Maps Rate Limits
@@ -254,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/screenshots/stadia-maps-2026-06-20T194456.png
 security:

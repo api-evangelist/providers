@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,14 @@ apis:
 - description: The Authentication API from Depositphotos — 1 operation(s) for authentication.
   name: Depositphotos Authentication API
   slug: depositphotos-authentication-api
-artifact_total: 17
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Depositphotos Enterprise Authentication API
+  slug: open-depositphotos-authentication-api
 common:
 - group: agent
   title: ''
@@ -154,7 +161,7 @@ plans:
 - name: Depositphotos Plans Pricing
   plan_count: 6
   slug: depositphotos-plans-pricing
-random_paper: 109
+random_paper: 88
 rate_limits:
 - limit_count: 6
   name: Depositphotos Rate Limits
@@ -188,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depositphotos/refs/heads/main/screenshots/depositphotos-2026-06-20T175928.png
 security:

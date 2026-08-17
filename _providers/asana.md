@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ arazzos:
 - description: Create a task, place it in a section, and label it with a tag in one triage pass.
   name: Asana Triage and Tag a Task
   slug: asana-triage-and-tag-task-workflow
-artifact_total: 366
+artifact_total: 379
 asyncapis:
 - description: 'The Asana Webhooks Events API delivers real-time event notifications to your application when changes occur on Asana resources. Webhooks use HTTP POST to deliver events to a target URL you configure. '
   name: Asana Webhooks Events API
@@ -359,85 +359,124 @@ collections:
   name: Asana Workspaces API
   slug: postman-asana-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Asana Allocations API
   slug: open-asana-allocations-api
 - collection_type: open
-  name: Asana Attachments API
+  name: Asana Allocations Attachments API
   slug: open-asana-attachments-api
+- collection_type: open
+  name: Asana Allocations Audit Log API API
+  slug: open-asana-audit-log-api-api
+- collection_type: open
+  name: Asana Allocations Batch API API
+  slug: open-asana-batch-api-api
 - collection_type: open
   name: Asana Batch API
   slug: open-asana-batch-api
 - collection_type: open
-  name: Asana Custom Fields API
+  name: Asana Allocations Custom Field Settings API
+  slug: open-asana-custom-field-settings-api
+- collection_type: open
+  name: Asana Allocations Custom Fields API
   slug: open-asana-custom-fields-api
 - collection_type: open
-  name: Asana Enum Options API
+  name: Asana Allocations Enum Options API
   slug: open-asana-enum-options-api
 - collection_type: open
-  name: Asana Events API
+  name: Asana Allocations Events API
   slug: open-asana-events-api
 - collection_type: open
-  name: Asana Goal Relationships API
+  name: Asana Allocations Goal Relationships API
   slug: open-asana-goal-relationships-api
 - collection_type: open
-  name: Asana Goals API
+  name: Asana Allocations Goals API
   slug: open-asana-goals-api
 - collection_type: open
-  name: Asana Jobs API
+  name: Asana Allocations Jobs API
   slug: open-asana-jobs-api
 - collection_type: open
-  name: Asana Memberships API
+  name: Asana Allocations Memberships API
   slug: open-asana-memberships-api
 - collection_type: open
-  name: Asana Organization Exports API
+  name: Asana Allocations Organization Exports API
   slug: open-asana-organization-exports-api
 - collection_type: open
-  name: Asana Portfolios API
+  name: Asana Allocations Portfolio Memberships API
+  slug: open-asana-portfolio-memberships-api
+- collection_type: open
+  name: Asana Allocations Portfolios API
   slug: open-asana-portfolios-api
 - collection_type: open
-  name: Asana Project Templates API
+  name: Asana Allocations Project Briefs API
+  slug: open-asana-project-briefs-api
+- collection_type: open
+  name: Asana Allocations Project Memberships API
+  slug: open-asana-project-memberships-api
+- collection_type: open
+  name: Asana Allocations Project Statuses API
+  slug: open-asana-project-statuses-api
+- collection_type: open
+  name: Asana Allocations Project Templates API
   slug: open-asana-project-templates-api
 - collection_type: open
-  name: Asana Projects API
+  name: Asana Allocations Projects API
   slug: open-asana-projects-api
 - collection_type: open
   name: Asana Rule Triggers API
   slug: open-asana-rule-triggers-api
 - collection_type: open
-  name: Asana Sections API
+  name: Asana Allocations Rules API
+  slug: open-asana-rules-api
+- collection_type: open
+  name: Asana Allocations Sections API
   slug: open-asana-sections-api
 - collection_type: open
-  name: Asana Status Updates API
+  name: Asana Allocations Status Updates API
   slug: open-asana-status-updates-api
 - collection_type: open
-  name: Asana Tags API
+  name: Asana Allocations Stories API
+  slug: open-asana-stories-api
+- collection_type: open
+  name: Asana Allocations Tags API
   slug: open-asana-tags-api
 - collection_type: open
-  name: Asana Task Templates API
+  name: Asana Allocations Task Templates API
   slug: open-asana-task-templates-api
 - collection_type: open
-  name: Asana Tasks API
+  name: Asana Allocations Tasks API
   slug: open-asana-tasks-api
 - collection_type: open
-  name: Asana Teams API
+  name: Asana Allocations Team Memberships API
+  slug: open-asana-team-memberships-api
+- collection_type: open
+  name: Asana Allocations Teams API
   slug: open-asana-teams-api
 - collection_type: open
-  name: Asana Time Periods API
+  name: Asana Allocations Time Periods API
   slug: open-asana-time-periods-api
 - collection_type: open
-  name: Asana Time Tracking Entries API
+  name: Asana Allocations Time Tracking Entries API
   slug: open-asana-time-tracking-entries-api
 - collection_type: open
-  name: Asana User Task Lists API
+  name: Asana Allocations Typeahead API
+  slug: open-asana-typeahead-api
+- collection_type: open
+  name: Asana Allocations User Task Lists API
   slug: open-asana-user-task-lists-api
 - collection_type: open
-  name: Asana Users API
+  name: Asana Allocations Users API
   slug: open-asana-users-api
 - collection_type: open
-  name: Asana Webhooks API
+  name: Asana Allocations Webhooks API
   slug: open-asana-webhooks-api
 - collection_type: open
-  name: Asana Workspaces API
+  name: Asana Allocations Workspace Memberships API
+  slug: open-asana-workspace-memberships-api
+- collection_type: open
+  name: Asana Allocations Workspaces API
   slug: open-asana-workspaces-api
 - collection_type: open
   name: Asana
@@ -1434,7 +1473,7 @@ plans:
 - name: Asana Plans Pricing
   plan_count: 4
   slug: asana-plans-pricing
-random_paper: 36
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Asana Rate Limits
@@ -1481,7 +1520,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png
 security:

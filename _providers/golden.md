@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-12'
+  score: 51.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +48,20 @@ apis:
 - description: The Schema API API from Golden — 4 operation(s) for schema api.
   name: Golden Schema API API
   slug: golden-schema-api-api
-artifact_total: 7
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Golden API v2 Entity API API
+  slug: open-golden-entity-api-api
+- collection_type: open
+  name: Golden API v2 Entity API Query API API
+  slug: open-golden-query-api-api
+- collection_type: open
+  name: Golden API v2 Entity API Schema API API
+  slug: open-golden-schema-api-api
 common:
 - group: other
   title: ''
@@ -72,11 +86,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://golden.com/contact
-- group: company
-  title: ''
-  type: Blog
-  url: https://golden.com/blog
+  url: https://support.golden.com/
 - group: commercial
   title: ''
   type: Pricing
@@ -84,7 +94,11 @@ common:
 - group: start
   title: ''
   type: SignUp
-  url: https://golden.com/login
+  url: https://golden.com/signup
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/goldenrecursion
 - group: commercial
   title: ''
   type: TermsOfService
@@ -121,6 +135,10 @@ common:
   title: ''
   type: MCPServer
   url: mcp/golden-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/golden-tool-crosswalk.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -129,10 +147,18 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
-- group: agent
+- group: build
   title: ''
-  type: WellKnown
-  url: well-known/golden-well-known.yml
+  type: Packages
+  url: packages/golden-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/golden-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/golden-rate-limits.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,33 +168,42 @@ common:
   type: DomainSecurity
   url: security/golden-domain-security.yml
 created: '2026-07-17'
-description: 'Golden is a company-data and knowledge-graph platform that builds a continuously updated, citation-backed map of companies, technologies, people, and the relationships between them. The Golden Public API v2 gives developers programmatic, read access to that knowledge graph: retrieve entities and their properties, resolve the schema of entity types and predicates, and run natural-language Queries that return curated, source-cited lists of entities (for example, "companies in the artificial intelligence industry"). Authentication is via an API key passed in the `apikey` header, responses are cursor-paginated, and the API is documented with an OpenAPI 3.1 specification. Golden is backed by a16z and DCVC.'
+description: 'Golden is a company-data and knowledge-graph platform that builds a continuously updated, citation-backed map of companies, technologies, people, and the relationships between them. The Golden Public API v2 gives developers programmatic, read access to that knowledge graph: retrieve entities and their properties, resolve the schema of entity types and predicates, and run natural-language Queries that return curated, source-cited lists of entities (for example, "companies in the artificial intelligence industry"). Authentication is via an API key passed in the `apikey` header, responses are cursor-paginated, and the API is documented with an OpenAPI 3.1 specification. Golden was founded in San Francisco in 2017 by Jude Gomila, raised roughly $59.5M led by a16z with DCVC, Founders Fund, Gigafund and SV Angel participating, and was acquired by financial- crime-intelligence firm ComplyAdvantage in April 2024; the product site, self-serve plans and the Public API v2 host remain
+  live and reachable.'
 image: https://golden.com/static/images/38d57130206f78fb48c9.png
 layout: provider
 mcp_servers:
 - description: ''
   name: golden-mcp.yml
   slug: golden-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Golden
 nav: Providers
 network: true
 overview: 'Golden publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entity API API, Query API API, and Schema API API. Tagged areas include Company, Knowledge Graph, Company Data, Data, and Entities.
 
 
-  Golden''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 33
+  Golden''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 19 more developer resources.'
+plans:
+- name: Golden Plans Pricing
+  plan_count: 4
+  slug: golden-plans-pricing
+random_paper: 37
+rate_limits:
+- limit_count: 0
+  name: Golden Rate Limits
+  slug: golden-rate-limits
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 51.9
+  delta: 7.7
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 58.2
-    developer_ergonomics: 56.0
-    discoverability: 81.5
+    developer_ergonomics: 53.8
+    discoverability: 92.6
     governance: 11.5
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -181,8 +216,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/screenshots/golden-2026-07-25T220025.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: FeezBack
 nav: Providers
 network: true
 overview: FeezBack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Open Banking, Payments, and Payment Initiation.
-random_paper: 107
+random_paper: 82
 score:
   band: emerging
   composite: 15.0
@@ -86,7 +86,7 @@ score:
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feezback/refs/heads/main/screenshots/feezback-2026-07-25T214329.png
 security:

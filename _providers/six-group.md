@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Single API onto the SIX financial data universe - real-time, intraday, end-of-day, and historical pricing across asset classes, reference data, corporate actions, tax, and ESG datasets from 900+ price
@@ -59,11 +59,75 @@ apis:
 - description: Security settlement information reporting from the SIX custody cockpit for the Swiss market, publicly documented on the SIX API portal with a downloadable OpenAPI 3.0 definition (CC BY-ND 4.0 licensed
   name: Settlement Info Reporting API
   slug: settlement-info-reporting-api
-artifact_total: 14
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Six Group Debix Push Webhooks
   slug: six-group-debix-push-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS API'
+  slug: open-six-group-3ds-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS 3DS Authentication API'
+  slug: open-six-group-3ds-authentication-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS Alias Directory (Beta) API'
+  slug: open-six-group-alias-directory-beta-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS Authentication callback API'
+  slug: open-six-group-authentication-callback-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS bankmaster API'
+  slug: open-six-group-bankmaster-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS BulkSubscriptionManagement API'
+  slug: open-six-group-bulksubscriptionmanagement-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS BulkSubscriptionResults API'
+  slug: open-six-group-bulksubscriptionresults-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS calendar API'
+  slug: open-six-group-calendar-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS Card Management API'
+  slug: open-six-group-card-management-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS Card Usage API'
+  slug: open-six-group-card-usage-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS Click to Pay Issuer Offered API'
+  slug: open-six-group-click-to-pay-issuer-offered-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS debiX PUSH Management (Beta) API'
+  slug: open-six-group-debix-push-management-beta-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS Deprecated API'
+  slug: open-six-group-deprecated-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS DetailedSettlementInformation API'
+  slug: open-six-group-detailedsettlementinformation-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS Health check API'
+  slug: open-six-group-health-check-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS healthcheck API'
+  slug: open-six-group-healthcheck-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS iban API'
+  slug: open-six-group-iban-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS status API'
+  slug: open-six-group-status-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS Token Lifecycle Management API'
+  slug: open-six-group-token-lifecycle-management-api
+- collection_type: open
+  name: 'debiX Auth Provider API: Provider-to-SIX 3DS Token Provisioning API'
+  slug: open-six-group-token-provisioning-api
 common:
 - group: auth
   title: ''
@@ -220,7 +284,7 @@ overview: 'SIX publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   SIX''s developer surface includes developer portal, documentation, engineering blog, support, authentication, sandbox, changelog, and 27 more developer resources.'
-random_paper: 102
+random_paper: 48
 score:
   band: developing
   composite: 51.0
@@ -249,7 +313,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,11 +66,41 @@ apis:
 - description: Watchlist creation and management
   name: TD Ameritrade Holding Watchlists API
   slug: td-ameritrade-holding-watchlists-api
-artifact_total: 24
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: TD Ameritrade Accounts and Trading API
   slug: open-td-ameritrade-accounts-trading
+- collection_type: open
+  name: TD Ameritrade and Trading Accounts API
+  slug: open-td-ameritrade-holding-accounts-api
+- collection_type: open
+  name: TD Ameritrade and Trading Accounts Instruments API
+  slug: open-td-ameritrade-holding-instruments-api
+- collection_type: open
+  name: TD Ameritrade and Trading Accounts Market Data API
+  slug: open-td-ameritrade-holding-market-data-api
+- collection_type: open
+  name: TD Ameritrade and Trading Accounts Options API
+  slug: open-td-ameritrade-holding-options-api
+- collection_type: open
+  name: TD Ameritrade and Trading Accounts Orders API
+  slug: open-td-ameritrade-holding-orders-api
+- collection_type: open
+  name: TD Ameritrade and Trading Accounts Saved Orders API
+  slug: open-td-ameritrade-holding-saved-orders-api
+- collection_type: open
+  name: TD Ameritrade and Trading Accounts Transactions API
+  slug: open-td-ameritrade-holding-transactions-api
+- collection_type: open
+  name: TD Ameritrade and Trading Accounts User Management API
+  slug: open-td-ameritrade-holding-user-management-api
+- collection_type: open
+  name: TD Ameritrade and Trading Accounts Watchlists API
+  slug: open-td-ameritrade-holding-watchlists-api
 common:
 - group: agent
   title: ''
@@ -187,7 +217,7 @@ press:
 - date: '2026-05-25'
   title: TD Bank Financial Group - Media Room - Media Releases
   url: https://td.mediaroom.com/index.php?s=19518&%3Bitem=35847&o=965
-random_paper: 61
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Td Ameritrade Holding Rate Limits
@@ -240,7 +270,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/screenshots/td-ameritrade-holding-2026-06-20T194947.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -101,11 +101,78 @@ apis:
 - description: APIs for managing webhook subscriptions. Merchants can use webhook subscriptions to receive notifications about particular events, instead of having to make API calls periodically to check their statu
   name: Wish Webhook API
   slug: wish-webhook-api
-artifact_total: 28
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Wish Webhooks
   slug: wish-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wish Marketplace V3 Brands API
+  slug: open-wish-brands-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Bulk Products API
+  slug: open-wish-bulk-products-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Currencies API
+  slug: open-wish-currencies-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands EU Product Compliance API
+  slug: open-wish-eu-product-compliance-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands France EPR Compliance API
+  slug: open-wish-france-epr-compliance-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Germany EPR Compliance API
+  slug: open-wish-germany-epr-compliance-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Merchant API
+  slug: open-wish-merchant-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands OAuth API
+  slug: open-wish-oauth-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Orders API
+  slug: open-wish-orders-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Payments API
+  slug: open-wish-payments-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Penalties API
+  slug: open-wish-penalties-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands ProductBoost API
+  slug: open-wish-productboost-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Products API
+  slug: open-wish-products-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Promotions Platform API
+  slug: open-wish-promotions-platform-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Ratings API
+  slug: open-wish-ratings-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Taxonomy API
+  slug: open-wish-taxonomy-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Tickets API
+  slug: open-wish-tickets-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Unification Initiative API
+  slug: open-wish-unification-initiative-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Variations API
+  slug: open-wish-variations-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Videos API
+  slug: open-wish-videos-api
+- collection_type: open
+  name: Wish Marketplace V3 Brands Webhook API
+  slug: open-wish-webhook-api
 common:
 - group: agent
   title: ''
@@ -194,7 +261,7 @@ overview: 'Wish publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wish''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 13 more developer resources.'
-random_paper: 83
+random_paper: 145
 rate_limits:
 - limit_count: 0
   name: Wish Rate Limits
@@ -233,7 +300,7 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

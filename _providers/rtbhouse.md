@@ -11,15 +11,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 41.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: The User API from RTB House — 1 operation(s) for user.
   name: RTB House User API
   slug: rtbhouse-user-api
-artifact_total: 16
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Client's panel API docs Advertisers API
+  slug: open-rtbhouse-advertisers-api
+- collection_type: open
+  name: Client's panel API docs Advertisers Dev API
+  slug: open-rtbhouse-dev-api
+- collection_type: open
+  name: Client's panel API docs Advertisers Statistics API
+  slug: open-rtbhouse-statistics-api
+- collection_type: open
+  name: Client's panel API docs Advertisers Tokens API
+  slug: open-rtbhouse-tokens-api
+- collection_type: open
+  name: Client's panel API docs Advertisers User API
+  slug: open-rtbhouse-user-api
 common:
 - group: agent
   title: ''
@@ -88,18 +107,26 @@ common:
   title: ''
   type: Blog
   url: https://www.rtbhouse.com/blog
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.rtbhouse.com/contact
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://api.panel.rtbhouse.com/healthcheck
 - group: other
   title: ''
   type: X
   url: https://twitter.com/rtbhouse
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.panel.rtbhouse.com/api/redoc
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.rtbhouse.com/contact
+- group: start
+  title: ''
+  type: Login
+  url: https://panel.rtbhouse.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.rtbhouse.com/privacy-center/web-privacy-policy
 - group: commercial
   title: ''
   type: Plans
@@ -112,6 +139,50 @@ common:
   title: ''
   type: FinOps
   url: finops/rtbhouse-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/rtbhouse-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/rtbhouse-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/rtbhouse-cli.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/rtbhouse-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/rtbhouse-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/rtbhouse-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/rtbhouse-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/rtbhouse-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/rtbhouse-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/rtbhouse-conformance.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-06-13'
 description: RTB House is a next-generation performance demand-side platform (DSP) that uses proprietary deep learning algorithms to power retargeting and programmatic advertising campaigns. The platform provides a REST API for managing advertisers, campaigns, product feeds, audiences, RTB creatives, conversions, and accessing detailed performance analytics. RTB House operates in 90+ markets and serves thousands of leading brands worldwide.
 examples:
@@ -136,7 +207,7 @@ jsonld:
   property_count: 57
   slug: rtbhouse-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: RTB House
 nav: Providers
 network: true
@@ -146,12 +217,12 @@ overview: 'RTB House publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The RTB House catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  RTB House''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  RTB House''s developer surface includes authentication, documentation, engineering blog, API reference, support, CLI, changelog, and 20 more developer resources.'
 plans:
 - name: Rtbhouse Plans Pricing
   plan_count: 1
   slug: rtbhouse-plans-pricing
-random_paper: 36
+random_paper: 131
 rate_limits:
 - limit_count: 0
   name: Rtbhouse Rate Limits
@@ -167,14 +238,14 @@ rules:
   slug: rtbhouse-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 55.5
+  delta: 12.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 52.6
     contract_quality: 56.6
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
+    developer_ergonomics: 52.2
+    discoverability: 81.5
+    governance: 79.2
     operational_transparency: 21.1
   previous_composite: 43.5
   provenance:
@@ -185,18 +256,18 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/screenshots/rtbhouse-2026-06-20T193241.png
 security:
 - kind: authentication
   name: Rtbhouse Authentication
   slug: rtbhouse-authentication
-  summary_line: http · 2 schemes
+  summary_line: http · 3 schemes
 - kind: domain-security
   name: Rtbhouse Domain Security
   slug: rtbhouse-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: rtbhouse
 tags:
 - Advertising

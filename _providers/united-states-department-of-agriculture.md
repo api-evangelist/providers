@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Farm survey data retrieval
   name: United States Department of Agriculture Survey Data API
   slug: united-states-department-of-agriculture-survey-data-api
-artifact_total: 27
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USDA ERS ARMS Data API
+  slug: open-united-states-department-of-agriculture-data-api
+- collection_type: open
+  name: USDA ERS ARMS Data Foods API
+  slug: open-united-states-department-of-agriculture-foods-api
+- collection_type: open
+  name: USDA ERS ARMS Data Forecasts API
+  slug: open-united-states-department-of-agriculture-forecasts-api
+- collection_type: open
+  name: USDA ERS ARMS Data Metadata API
+  slug: open-united-states-department-of-agriculture-metadata-api
+- collection_type: open
+  name: USDA ERS ARMS Data Nutrients API
+  slug: open-united-states-department-of-agriculture-nutrients-api
+- collection_type: open
+  name: USDA ERS ARMS Data Stations API
+  slug: open-united-states-department-of-agriculture-stations-api
+- collection_type: open
+  name: USDA ERS ARMS Data Statistics API
+  slug: open-united-states-department-of-agriculture-statistics-api
+- collection_type: open
+  name: USDA ERS ARMS Data Survey Data API
+  slug: open-united-states-department-of-agriculture-survey-data-api
 - collection_type: open
   name: USDA ERS ARMS Data API
   slug: open-usda-ers-arms
@@ -147,7 +174,7 @@ plans:
 - name: United States Department Of Agriculture Plans Pricing
   plan_count: 3
   slug: united-states-department-of-agriculture-plans-pricing
-random_paper: 9
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: United States Department Of Agriculture Rate Limits
@@ -195,7 +222,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/screenshots/united-states-department-of-agriculture-2026-06-20T200058.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -68,8 +68,41 @@ apis:
 - description: The Subscriptions API from Orb — 2 operation(s) for subscriptions.
   name: Orb Subscriptions API
   slug: orb-subscriptions-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orb Alerts API
+  slug: open-orb-alerts-api
+- collection_type: open
+  name: Orb Alerts Availability API
+  slug: open-orb-availability-api
+- collection_type: open
+  name: Orb Alerts Coupons API
+  slug: open-orb-coupons-api
+- collection_type: open
+  name: Orb Alerts Credit Notes API
+  slug: open-orb-credit-notes-api
+- collection_type: open
+  name: Orb Alerts Customers API
+  slug: open-orb-customers-api
+- collection_type: open
+  name: Orb Alerts Events API
+  slug: open-orb-events-api
+- collection_type: open
+  name: Orb Alerts Invoices API
+  slug: open-orb-invoices-api
+- collection_type: open
+  name: Orb Alerts Plans API
+  slug: open-orb-plans-api
+- collection_type: open
+  name: Orb Alerts Prices API
+  slug: open-orb-prices-api
+- collection_type: open
+  name: Orb Alerts Subscriptions API
+  slug: open-orb-subscriptions-api
 - collection_type: open
   name: Orb API
   slug: open-orb
@@ -126,7 +159,7 @@ plans:
 - name: Orb Plans Pricing
   plan_count: 3
   slug: orb-plans-pricing
-random_paper: 83
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Orb Rate Limits
@@ -151,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orb/refs/heads/main/screenshots/orb-2026-06-20T191155.png
 security:

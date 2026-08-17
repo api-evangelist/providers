@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Electronic customs declaration filing for import, export and transit. Creates consignments and deliveries, transmits them to national customs systems (German ATLAS, EU AES/NCTS, UK CHIEF), and polls d
@@ -54,7 +54,41 @@ apis:
 - description: The bundled BSM (Business Solution Modules) HTTP API that AEB exposes for SAP and partner-system integration — one surface spanning BSM Carrier, AEB Delivery, BSM International Customs, Export Control
   name: AEB BSM API
   slug: aeb-bsm-api
-artifact_total: 11
+artifact_total: 22
+collections:
+- collection_type: open
+  name: BSM (TEST2) HTTP API
+  slug: open-aeb-bsm
+- collection_type: open
+  name: Carrier Connect HTTP API
+  slug: open-aeb-carrier-connect
+- collection_type: open
+  name: Carrier Event Service HTTP API
+  slug: open-aeb-carrier-event-service
+- collection_type: open
+  name: Carrier Select HTTP API
+  slug: open-aeb-carrier-select
+- collection_type: open
+  name: Customs Broker Portal HTTP API
+  slug: open-aeb-customs-broker-portal
+- collection_type: open
+  name: Customs Inventory Management HTTP API
+  slug: open-aeb-customs-inventory-management
+- collection_type: open
+  name: Customs Management HTTP API
+  slug: open-aeb-customs-management
+- collection_type: open
+  name: Document Service (DEMO1) HTTP API
+  slug: open-aeb-document-service
+- collection_type: open
+  name: Logistics Cost Management HTTP API
+  slug: open-aeb-logistics-cost-management
+- collection_type: open
+  name: Product Classification HTTP API
+  slug: open-aeb-product-classification
+- collection_type: open
+  name: Trade Compliance Management HTTP API
+  slug: open-aeb-trade-compliance-management
 common:
 - group: operate
   title: ''
@@ -121,7 +155,7 @@ overview: 'AEB publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   AEB''s developer surface includes documentation, changelog, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 56
+random_paper: 147
 score:
   band: emerging
   composite: 24.8
@@ -147,7 +181,7 @@ score:
     regime_id: telecommunications
     score: 6.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png
 slug: aeb

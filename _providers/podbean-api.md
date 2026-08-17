@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Manage private podcast members.
   name: Podbean API PrivateMembers API
   slug: podbean-api-privatemembers-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Podbean Analytics API
+  slug: open-podbean-api-analytics-api
+- collection_type: open
+  name: Podbean Analytics Episodes API
+  slug: open-podbean-api-episodes-api
+- collection_type: open
+  name: Podbean Analytics OAuth API
+  slug: open-podbean-api-oauth-api
+- collection_type: open
+  name: Podbean Analytics Podcasts API
+  slug: open-podbean-api-podcasts-api
+- collection_type: open
+  name: Podbean Analytics PrivateMembers API
+  slug: open-podbean-api-privatemembers-api
 - collection_type: open
   name: Podbean API
   slug: open-podbean-api
@@ -115,7 +133,7 @@ plans:
 - name: Podbean Api Plans Pricing
   plan_count: 3
   slug: podbean-api-plans-pricing
-random_paper: 8
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Podbean Api Rate Limits
@@ -145,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podbean-api/refs/heads/main/screenshots/podbean-api-2026-06-20T191831.png
 security:

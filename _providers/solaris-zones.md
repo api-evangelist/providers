@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 12
@@ -117,8 +117,11 @@ apis:
 - description: Individual zone operations including configuration, lifecycle, and resource management
   name: Solaris Zones Zones API
   slug: solaris-zones-zones-api
-artifact_total: 387
+artifact_total: 414
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Solaris Zones Oracle Solaris Kernel Zones API
   slug: open-solaris-kernel-zones
@@ -144,8 +147,86 @@ collections:
   name: Solaris Zones Monitoring Statistics API
   slug: open-solaris-zone-stats
 - collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation API
+  slug: open-solaris-zones-archive-creation-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Archive Deployment API
+  slug: open-solaris-zones-archive-deployment-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Archive Information API
+  slug: open-solaris-zones-archive-information-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Configuration API
+  slug: open-solaris-zones-configuration-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation CPU Statistics API
+  slug: open-solaris-zones-cpu-statistics-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Installation API
+  slug: open-solaris-zones-installation-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Kernel Statistics API
+  slug: open-solaris-zones-kernel-statistics-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Kernel Zone Configuration API
+  slug: open-solaris-zones-kernel-zone-configuration-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Kernel Zone Lifecycle API
+  slug: open-solaris-zones-kernel-zone-lifecycle-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Kernel Zone Management API
+  slug: open-solaris-zones-kernel-zone-management-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Kernel Zone Migration API
+  slug: open-solaris-zones-kernel-zone-migration-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Lifecycle API
+  slug: open-solaris-zones-lifecycle-api
+- collection_type: open
   name: Solaris Zones Management API
   slug: open-solaris-zones-management
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Memory Statistics API
+  slug: open-solaris-zones-memory-statistics-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Migration API
+  slug: open-solaris-zones-migration-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Resources API
+  slug: open-solaris-zones-resources-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation State Query API
+  slug: open-solaris-zones-state-query-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Statistics Discovery API
+  slug: open-solaris-zones-statistics-discovery-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Statistics Retrieval API
+  slug: open-solaris-zones-statistics-retrieval-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation System Statistics API
+  slug: open-solaris-zones-system-statistics-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Zone Info API
+  slug: open-solaris-zones-zone-info-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Zone Manager API
+  slug: open-solaris-zones-zone-manager-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Zone Migration API
+  slug: open-solaris-zones-zone-migration-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Zone Recovery API
+  slug: open-solaris-zones-zone-recovery-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Zone State API
+  slug: open-solaris-zones-zone-state-api
+- collection_type: open
+  name: Solaris Zones Oracle Solaris Kernel Zones Archive Creation Zone Statistics API
+  slug: open-solaris-zones-zone-statistics-api
+- collection_type: open
+  name: Solaris Oracle Solaris Kernel Archive Creation Zones API
+  slug: open-solaris-zones-zones-api
 common:
 - group: agent
   title: ''
@@ -1278,7 +1359,7 @@ plans:
 - name: Solaris Zones Plans Pricing
   plan_count: 1
   slug: solaris-zones-plans-pricing
-random_paper: 49
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Solaris Zones Rate Limits
@@ -1320,7 +1401,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/screenshots/solaris-zones-2026-06-20T194146.png
 security:

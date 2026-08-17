@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -71,8 +71,41 @@ apis:
 - description: The Time API from Paylocity — 2 operation(s) for time.
   name: Paylocity Time API
   slug: paylocity-time-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paylocity Integrations REST Background Check API
+  slug: open-paylocity-background-check-api
+- collection_type: open
+  name: Paylocity Integrations REST Background Check Company API
+  slug: open-paylocity-company-api
+- collection_type: open
+  name: Paylocity Integrations REST Background Check Deductions API
+  slug: open-paylocity-deductions-api
+- collection_type: open
+  name: Paylocity Integrations REST Background Check Earnings API
+  slug: open-paylocity-earnings-api
+- collection_type: open
+  name: Paylocity Integrations REST Background Check Employees API
+  slug: open-paylocity-employees-api
+- collection_type: open
+  name: Paylocity Integrations REST Background Check LMS API
+  slug: open-paylocity-lms-api
+- collection_type: open
+  name: Paylocity Integrations REST Background Check Payroll API
+  slug: open-paylocity-payroll-api
+- collection_type: open
+  name: Paylocity Integrations REST Background Check Scheduling API
+  slug: open-paylocity-scheduling-api
+- collection_type: open
+  name: Paylocity Integrations REST Background Check Taxes API
+  slug: open-paylocity-taxes-api
+- collection_type: open
+  name: Paylocity Integrations REST Background Check Time API
+  slug: open-paylocity-time-api
 - collection_type: open
   name: Paylocity Integrations REST API
   slug: open-paylocity
@@ -161,7 +194,7 @@ overview: 'Paylocity publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paylocity''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 30
+random_paper: 96
 scopes:
 - name: Paylocity Scopes
   scope_count: 1
@@ -187,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/screenshots/paylocity-2026-06-20T191505.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Generate Token API from Kuru — 1 operation(s) for generate token.
@@ -38,7 +38,17 @@ apis:
 - description: The Quote API from Kuru — 1 operation(s) for quote.
   name: Kuru Quote API
   slug: kuru-quote-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kuru WebSocket Generate Token API
+  slug: open-kuru-generate-token-api
+- collection_type: open
+  name: Kuru WebSocket Generate Token Quote API
+  slug: open-kuru-quote-api
 common:
 - group: other
   title: ''
@@ -168,7 +178,7 @@ overview: 'Kuru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Gen
 
 
   Kuru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
-random_paper: 95
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Kuru Rate Limits
@@ -201,7 +211,7 @@ score:
     regime_id: securities_market_data
     score: 35.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/screenshots/kuru-2026-07-25T224337.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 6
@@ -75,7 +75,38 @@ apis:
 - description: The Wallet API from MEXC — 10 operation(s) for wallet.
   name: MEXC Wallet API
   slug: mexc-wallet-api
-artifact_total: 37
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MEXC Futures REST API v1 Accounts and Transactions API
+  slug: open-mexc-accounts-and-transactions-api
+- collection_type: open
+  name: MEXC Futures REST API v1 Accounts and Transactions EFT API
+  slug: open-mexc-eft-api
+- collection_type: open
+  name: MEXC Futures REST API v1 Accounts and Transactions Margin API
+  slug: open-mexc-margin-api
+- collection_type: open
+  name: MEXC Futures REST API v1 Accounts and Transactions Market Date Endpoints API
+  slug: open-mexc-market-date-endpoints-api
+- collection_type: open
+  name: MEXC Futures REST API v1 Accounts and Transactions Parent child account API
+  slug: open-mexc-parent-child-account-api
+- collection_type: open
+  name: MEXC Futures REST API v1 Accounts and Transactions Quote API
+  slug: open-mexc-quote-api
+- collection_type: open
+  name: MEXC Futures REST API v1 Accounts and Transactions Rebate API
+  slug: open-mexc-rebate-api
+- collection_type: open
+  name: MEXC Futures REST API v1 Accounts and Transactions Spot Account/Trade API
+  slug: open-mexc-spot-account-trade-api
+- collection_type: open
+  name: MEXC Futures REST API v1 Accounts and Transactions Wallet API
+  slug: open-mexc-wallet-api
 common:
 - group: agent
   title: ''
@@ -202,7 +233,7 @@ plans:
 - name: Mexc Plans Pricing
   plan_count: 5
   slug: mexc-plans-pricing
-random_paper: 69
+random_paper: 131
 rate_limits:
 - limit_count: 12
   name: Mexc Rate Limits
@@ -242,7 +273,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/screenshots/mexc-2026-06-20T185344.png
 security:

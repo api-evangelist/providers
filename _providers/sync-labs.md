@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,8 +57,23 @@ apis:
 - description: Available AI model listing
   name: Sync Labs Models API
   slug: sync-labs-models-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sync Labs Assets API
+  slug: open-sync-labs-assets-api
+- collection_type: open
+  name: Sync Labs Assets Batch API
+  slug: open-sync-labs-batch-api
+- collection_type: open
+  name: Sync Labs Assets Generate API
+  slug: open-sync-labs-generate-api
+- collection_type: open
+  name: Sync Labs Assets Models API
+  slug: open-sync-labs-models-api
 - collection_type: open
   name: Sync Labs API
   slug: open-sync-labs
@@ -163,7 +178,7 @@ plans:
 - name: Sync Labs Plans Pricing
   plan_count: 5
   slug: sync-labs-plans-pricing
-random_paper: 68
+random_paper: 14
 rate_limits:
 - limit_count: 7
   name: Sync Labs Rate Limits
@@ -205,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/screenshots/sync-labs-2026-06-20T194835.png
 security:

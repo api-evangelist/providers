@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,11 +57,26 @@ apis:
 - description: Underwriting and risk assessment
   name: ACORD Underwriting API
   slug: acord-underwriting-api
-artifact_total: 80
+artifact_total: 85
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ACORD Next-Generation Digital Standards (NGDS) Claims API
+  slug: open-acord-claims-api
 - collection_type: open
   name: ACORD Next-Generation Digital Standards (NGDS) API
   slug: open-acord-ngds
+- collection_type: open
+  name: ACORD Next-Generation Digital Standards (NGDS) Claims Party API
+  slug: open-acord-party-api
+- collection_type: open
+  name: ACORD Next-Generation Digital Standards (NGDS) Claims Policy API
+  slug: open-acord-policy-api
+- collection_type: open
+  name: ACORD Next-Generation Digital Standards (NGDS) Claims Underwriting API
+  slug: open-acord-underwriting-api
 common:
 - group: agent
   title: ''
@@ -337,7 +352,7 @@ plans:
 - name: Acord Plans Pricing
   plan_count: 1
   slug: acord-plans-pricing
-random_paper: 41
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Acord Rate Limits
@@ -390,7 +405,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

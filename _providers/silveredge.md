@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Silverpush's first-party programmatic bid endpoint, registered upstream in the Prebid ecosystem under the bidder code "silverpush" and maintained from prebid@silverpush.co. It speaks OpenRTB over HTTP
@@ -141,7 +141,7 @@ plans:
 - name: Silveredge Plans Pricing
   plan_count: 0
   slug: silveredge-plans-pricing
-random_paper: 106
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Silveredge Rate Limits
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.0
-  delta: 25.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 9.7
@@ -157,10 +157,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 5.0
+  previous_composite: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Silveredge Authentication

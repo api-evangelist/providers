@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ arazzos:
 - description: Read an order's status and refund it only when funds have been captured.
   name: Tamara Order Status Refund
   slug: tamara-order-status-refund-workflow
-artifact_total: 57
+artifact_total: 64
 collections:
 - collection_type: postman
   name: Tamara Channel Partners API
@@ -127,28 +127,49 @@ collections:
   name: Tamara Webhooks API
   slug: postman-tamara-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tamara Channel Partners Captures API
+  slug: open-tamara-captures-api
+- collection_type: open
+  name: Tamara Channel Partners Captures Channel Partner Webhooks API
+  slug: open-tamara-channel-partner-webhooks-api
+- collection_type: open
   name: Tamara Channel Partners API
   slug: open-tamara-channel-partners-api
 - collection_type: open
   name: Tamara Checkout API
   slug: open-tamara-checkout-api
 - collection_type: open
-  name: Tamara Disputes API
+  name: Tamara Channel Partners Captures Checkout Sessions API
+  slug: open-tamara-checkout-sessions-api
+- collection_type: open
+  name: Tamara Channel Partners Captures Disputes API
   slug: open-tamara-disputes-api
 - collection_type: open
-  name: Tamara Pre-Checkout Eligibility API
+  name: Tamara Channel Partners Captures Eligibility API
   slug: open-tamara-eligibility-api
 - collection_type: open
-  name: Tamara In-Store Checkout API
+  name: Tamara Channel Partners Captures In-Store Checkout API
   slug: open-tamara-in-store-checkout-api
 - collection_type: open
-  name: Tamara Orders API
+  name: Tamara Channel Partners Captures Merchant API Keys API
+  slug: open-tamara-merchant-api-keys-api
+- collection_type: open
+  name: Tamara Channel Partners Captures Merchant Onboarding API
+  slug: open-tamara-merchant-onboarding-api
+- collection_type: open
+  name: Tamara Channel Partners Captures Orders API
   slug: open-tamara-orders-api
 - collection_type: open
   name: Tamara Payments API
   slug: open-tamara-payments-api
 - collection_type: open
-  name: Tamara Webhooks API
+  name: Tamara Channel Partners Captures Refunds API
+  slug: open-tamara-refunds-api
+- collection_type: open
+  name: Tamara Channel Partners Captures Webhooks API
   slug: open-tamara-webhooks-api
 common:
 - group: agent
@@ -398,7 +419,7 @@ plans:
 - name: Tamara Plans Pricing
   plan_count: 2
   slug: tamara-plans-pricing
-random_paper: 30
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Tamara Rate Limits
@@ -446,7 +467,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/screenshots/tamara-2026-06-20T194914.png
 security:

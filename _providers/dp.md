@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -83,7 +83,56 @@ apis:
 - description: Uni-Parser — 提取文本、表格、图表、公式。收费：0.05 元/页（触发时扣）。figure 模块无权限时可能 403。
   name: DP Technology (Bohrium) PDF 解析 (bohrium-pdf-parser) API
   slug: dp-pdf-bohrium-pdf-parser-api
-artifact_total: 19
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) API
+  slug: open-dp-ai-bohrium-mentor-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 数据集 (bohrium-dataset) API
+  slug: open-dp-bohrium-dataset-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 文件盘 (bohrium-file) API
+  slug: open-dp-bohrium-file-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 容器镜像 (bohrium-image) API
+  slug: open-dp-bohrium-image-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 计算任务 (bohrium-job) API
+  slug: open-dp-bohrium-job-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 知识库 (bohrium-knowledge-base) API
+  slug: open-dp-bohrium-knowledge-base-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 大知识模型 (bohrium-lkm) API
+  slug: open-dp-bohrium-lkm-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 开发节点 (bohrium-node) API
+  slug: open-dp-bohrium-node-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 论文与专利搜索 (bohrium-paper-search) API
+  slug: open-dp-bohrium-paper-search-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 项目管理 (bohrium-project) API
+  slug: open-dp-bohrium-project-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 学者搜索 (bohrium-scholar-search) API
+  slug: open-dp-bohrium-scholar-search-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 科学百科 (bohrium-sciencepedia) API
+  slug: open-dp-bohrium-sciencepedia-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 科学工具库 (bohrium-tools) API
+  slug: open-dp-bohrium-tools-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) 网页搜索 (bohrium-web-search) API
+  slug: open-dp-bohrium-web-search-api
+- collection_type: open
+  name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) PDF 解析 (bohrium-pdf-parser) API
+  slug: open-dp-pdf-bohrium-pdf-parser-api
 common:
 - group: docs
   title: ''
@@ -193,7 +242,7 @@ overview: 'DP Technology (Bohrium) publishes 15 APIs on the [APIs.io](https://ap
 
 
   DP Technology (Bohrium)''s developer surface includes authentication, CLI, documentation, API reference, signup flow, support, and 17 more developer resources.'
-random_paper: 92
+random_paper: 63
 score:
   band: thin
   composite: 37.1
@@ -217,7 +266,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/screenshots/dp-2026-07-25T212347.png
 security:

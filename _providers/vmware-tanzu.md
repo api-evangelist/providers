@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Create and manage TanzuKubernetesCluster resources
   name: VMware Tanzu Tanzu Kubernetes Clusters API
   slug: vmware-tanzu-tanzu-kubernetes-clusters-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VMware Tanzu Service Mesh Authentication API
+  slug: open-vmware-tanzu-authentication-api
+- collection_type: open
+  name: VMware Tanzu Service Mesh Authentication Clusters API
+  slug: open-vmware-tanzu-clusters-api
+- collection_type: open
+  name: VMware Tanzu Service Mesh Authentication Global Namespaces API
+  slug: open-vmware-tanzu-global-namespaces-api
+- collection_type: open
+  name: VMware Tanzu Service Mesh Authentication Resource Groups API
+  slug: open-vmware-tanzu-resource-groups-api
 - collection_type: open
   name: VMware Tanzu Service Mesh API
   slug: open-vmware-tanzu-service-mesh
+- collection_type: open
+  name: VMware Tanzu Kubernetes Grid Tanzu Kubernetes Clusters API
+  slug: open-vmware-tanzu-tanzu-kubernetes-clusters-api
 common:
 - group: agent
   title: ''
@@ -169,7 +187,7 @@ plans:
 - name: Vmware Tanzu Plans Pricing
   plan_count: 3
   slug: vmware-tanzu-plans-pricing
-random_paper: 65
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Vmware Tanzu Rate Limits
@@ -211,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/screenshots/vmware-tanzu-2026-06-20T201119.png
 security:

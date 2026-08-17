@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Browse and search the Sysco product catalog.
   name: Sysco Products API
   slug: sysco-products-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sysco Food Distribution Accounts API
+  slug: open-sysco-accounts-api
+- collection_type: open
+  name: Sysco Food Distribution Accounts Deliveries API
+  slug: open-sysco-deliveries-api
 - collection_type: open
   name: Sysco Food Distribution API
   slug: open-sysco-food-distribution-api
+- collection_type: open
+  name: Sysco Food Distribution Accounts Orders API
+  slug: open-sysco-orders-api
+- collection_type: open
+  name: Sysco Food Distribution Accounts Pricing API
+  slug: open-sysco-pricing-api
+- collection_type: open
+  name: Sysco Food Distribution Accounts Products API
+  slug: open-sysco-products-api
 common:
 - group: agent
   title: ''
@@ -167,7 +185,7 @@ press:
 - date: '2026-05-25'
   title: 2023 ANNUAL REPORT
   url: https://investors.sysco.com/~/media/Files/S/Sysco-IR/documents/annual-reports/Sysco_2023-Annual-Report_Web.pdf
-random_paper: 81
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Sysco Rate Limits
@@ -209,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

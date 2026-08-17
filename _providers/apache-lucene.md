@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Lucene provides a comprehensive Java API for full-text indexing, searching, faceting, hit highlighting, spatial search, vector nearest-neighbor search, and text analysis with support for custom analyz
@@ -152,7 +152,7 @@ plans:
 - name: Apache Lucene Plans Pricing
   plan_count: 3
   slug: apache-lucene-plans-pricing
-random_paper: 91
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Apache Lucene Rate Limits
@@ -170,7 +170,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 18.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-lucene/refs/heads/main/screenshots/apache-lucene-2026-06-20T172117.png
 security:

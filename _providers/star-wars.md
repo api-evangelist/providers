@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: Vehicles in the Star Wars universe
   name: Star Wars API Vehicles API
   slug: star-wars-vehicles-api
-artifact_total: 25
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Star Wars REST API (SWAPI) Films API
+  slug: open-star-wars-films-api
+- collection_type: open
+  name: Star Wars REST API (SWAPI) Films People API
+  slug: open-star-wars-people-api
+- collection_type: open
+  name: Star Wars REST API (SWAPI) Films Planets API
+  slug: open-star-wars-planets-api
+- collection_type: open
+  name: Star Wars REST API (SWAPI) Films Species API
+  slug: open-star-wars-species-api
+- collection_type: open
+  name: Star Wars REST API (SWAPI) Films Starships API
+  slug: open-star-wars-starships-api
+- collection_type: open
+  name: Star Wars REST API (SWAPI) Films Vehicles API
+  slug: open-star-wars-vehicles-api
 common:
 - group: agent
   title: ''
@@ -164,7 +186,7 @@ plans:
 - name: Star Wars Plans Pricing
   plan_count: 1
   slug: star-wars-plans-pricing
-random_paper: 92
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Star Wars Rate Limits
@@ -198,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/screenshots/star-wars-2026-06-20T194509.png
 security:

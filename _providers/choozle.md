@@ -1,34 +1,37 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Customer-only API, keys issued by support ticket
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - plans
+  - probe
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 48.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -38,17 +41,34 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 3
 apis:
-- description: The Accounts API from Choozle — 1 operation(s) for accounts.
+- description: Returns the advertising account structure the API user can reach — accounts, their campaigns, and each campaign's ad groups — in one unpaginated document. One operation, read-only.
   name: Choozle Accounts API
   slug: choozle-accounts-api
-- description: The Authorization API from Choozle — 1 operation(s) for authorization.
+- description: The token exchange. POST an API profile email, an ISO 8601 timestamp within five minutes of server time, and an HMAC-SHA256 hex signature to receive a token valid two hours. One operation, the API's o
   name: Choozle Authorization API
   slug: choozle-authorization-api
-- description: The Reports API from Choozle — 1 operation(s) for reports.
+- description: Returns one performance row per active ad group per day for an account, optionally filtered by date range and by exactly one of campaign, campaign status, or ad group ids. Rows are omitted for days wi
   name: Choozle Reports API
   slug: choozle-reports-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Choozle Reporting Accounts API
+  slug: open-choozle-accounts-api
+- collection_type: open
+  name: Choozle Reporting Authorization API
+  slug: open-choozle-authorization-api
+- collection_type: open
+  name: Choozle Reporting Reports API
+  slug: open-choozle-reports-api
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/openapi.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -61,14 +81,62 @@ common:
   title: ''
   type: Authentication
   url: authentication/choozle-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/choozle-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/choozle-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/choozle-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/choozle-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://choozle.com/data-processing-agreement/
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/choozle-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/choozle-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/choozle-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/vocabulary.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/jsonld.json
+- group: design
+  title: ''
+  type: Rules
+  url: rules/choozle-jsonschema-spectral-rules.yml
 - group: commercial
   title: ''
   type: Plans
-  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/plans/plans.md
+  url: plans/choozle-plans-pricing.yml
 - group: operate
   title: ''
   type: RateLimits
-  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/rate-limits/rate-limits.md
+  url: rate-limits/choozle-rate-limits.yml
 - group: commercial
   title: ''
   type: FinOps
@@ -81,28 +149,60 @@ common:
   title: ''
   type: Documentation
   url: https://help.choozle.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://app.choozle.com/apidoc/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.choozle.com/connecting-to-choozles-reporting-api
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.choozle.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/choozle
 - group: company
   title: ''
   type: Blog
   url: https://choozle.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://choozle.com/feed/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://choozle.com/managed-self-service/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.choozle.com/users/login
 - group: commercial
   title: ''
   type: TermsOfService
   url: https://choozle.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://choozle.com/privacy-policy/
 - group: other
   title: ''
   type: Platform
   url: https://choozle.com/the-platform/
 created: '2026-06-13'
-description: Choozle is a self-service digital advertising platform providing REST APIs for managing programmatic campaigns, audience segments, creative assets, publisher deals, and performance reporting across Display, CTV, Video, Audio, Native, DOOH, Search, and Social channels.
+description: 'Choozle is a Denver-based self-service demand-side platform (DSP) for programmatic digital advertising across Display, Connected TV, Video, Audio, Native, DOOH, Search and Social, with buying routed through The Trade Desk and Amazon DSP. Its public developer surface is a single read-only product, the Choozle Outbound Reporting API: three operations that exchange an HMAC-SHA256 signature for a two-hour token, return the account/campaign/ad group tree, and return daily per-ad-group performance rows. Campaign, audience, creative and deal management are performed in the web application only — no public API writes to them. Keys are issued by support ticket rather than self-service.'
 examples:
-- key_count: 3
+- key_count: 5
   name: Get Reports
   slug: get-reports
-- key_count: 3
+- key_count: 5
   name: Get Token
   slug: get-token
-- key_count: 3
+- key_count: 5
   name: List Accounts
   slug: list-accounts
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/choozle.png
@@ -111,21 +211,29 @@ json_schemas:
   property_count: 3
   slug: authorization-request
 - name: ReportRow
-  property_count: 10
+  property_count: 17
   slug: report-row
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: Choozle
 nav: Providers
 network: true
-overview: 'Choozle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Authorization API, and Reports API. Tagged areas include Digital Advertising, Programmatic Advertising, DSP, Demand-Side Platform, and Campaign Management.
+overview: 'Choozle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Authorization API, and Reports API. Tagged areas include Digital Advertising, Programmatic Advertising, DSP, Demand-Side Platform, and Advertising Reporting.
 
 
   The Choozle catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Choozle''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
-random_paper: 36
+  Choozle''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
+plans:
+- name: Choozle Plans Pricing
+  plan_count: 2
+  slug: choozle-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Choozle Rate Limits
+  slug: choozle-rate-limits
 rules:
 - name: Choozle API Rules
   rule_count: 5
@@ -136,16 +244,16 @@ rules:
     warn: 4
   slug: choozle-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 36.4
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: 26.2
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 62.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 0.0
+    commercial_clarity: 73.7
+    contract_quality: 68.7
+    developer_ergonomics: 50.0
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 5.3
   previous_composite: 36.4
   provenance:
     agentic_access: derived
@@ -155,8 +263,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/screenshots/choozle-2026-06-20T174326.png
 security:
 - kind: authentication
@@ -173,8 +281,8 @@ tags:
 - Programmatic Advertising
 - DSP
 - Demand-Side Platform
-- Campaign Management
-- Audience Targeting
+- Advertising Reporting
+- Campaign Reporting
 - Display Advertising
 - Connected TV
 - CTV
@@ -184,5 +292,6 @@ tags:
 - Reporting
 - Real-Time Bidding
 - RTB
+- AdTech
 website: https://choozle.com/
 ---

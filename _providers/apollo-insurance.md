@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -37,11 +37,21 @@ apis:
 - description: CoverTrack is APOLLO's tenant-insurance compliance product for REITs and property managers, served from its own api.covertrack.ca host. Three real operations plus one documented callback — read a sing
   name: APOLLO CoverTrack API
   slug: apollo-covertrack-api
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Apollo Insurance Covertrack Webhooks
   slug: apollo-insurance-covertrack-webhooks
+collections:
+- collection_type: open
+  name: Public API - Affiliates
+  slug: open-apollo-insurance-affiliates-legacy
+- collection_type: open
+  name: Affiliates API
+  slug: open-apollo-insurance-affiliates
+- collection_type: open
+  name: CoverTrack API's
+  slug: open-apollo-insurance-covertrack
 common:
 - group: agent
   title: ''
@@ -239,7 +249,7 @@ overview: 'APOLLO Insurance publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   APOLLO Insurance''s developer surface includes sandbox, code examples, authentication, documentation, engineering blog, API reference, getting-started guide, and 37 more developer resources.'
-random_paper: 100
+random_paper: 21
 score:
   band: developing
   composite: 50.0
@@ -269,7 +279,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/screenshots/apollo-insurance-2026-07-25T200828.png
 security:

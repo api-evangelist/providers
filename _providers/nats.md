@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,15 +83,51 @@ apis:
 - description: The Subscriptions API from NATS — 1 operation(s) for subscriptions.
   name: NATS Subscriptions API
   slug: nats-subscriptions-api
-artifact_total: 25
+artifact_total: 37
 asyncapis:
 - description: NATS provides cloud-native messaging with core pub-sub, request-reply, and queue group patterns, plus JetStream for persistent streaming with streams, consumers, key-value stores, and object stores.
   name: NATS Core and JetStream Messaging API
   slug: nats-messaging
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts API
+  slug: open-nats-accounts-api
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts Clustering API
+  slug: open-nats-clustering-api
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts Connections API
+  slug: open-nats-connections-api
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts Gateways API
+  slug: open-nats-gateways-api
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts Health API
+  slug: open-nats-health-api
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts JetStream API
+  slug: open-nats-jetstream-api
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts Leaf Nodes API
+  slug: open-nats-leaf-nodes-api
+- collection_type: open
+  name: NATS HTTP Accounts Monitoring API
+  slug: open-nats-monitoring-api
+- collection_type: open
   name: NATS Monitoring HTTP API
   slug: open-nats-monitoring
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts Routes API
+  slug: open-nats-routes-api
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts Server API
+  slug: open-nats-server-api
+- collection_type: open
+  name: NATS Monitoring HTTP Accounts Subscriptions API
+  slug: open-nats-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -216,7 +252,7 @@ plans:
 - name: Nats Plans Pricing
   plan_count: 8
   slug: nats-plans-pricing
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 8
   name: Nats Rate Limits
@@ -258,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/screenshots/nats-2026-06-20T190052.png
 security:

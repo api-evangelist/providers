@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: Outbound webhook subscriptions.
   name: Neon One Webhooks API
   slug: neonone-webhooks-api
-artifact_total: 20
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Neon CRM API v2 Accounts API
+  slug: open-neonone-accounts-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Campaigns API
+  slug: open-neonone-campaigns-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Custom Fields API
+  slug: open-neonone-custom-fields-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Donations API
+  slug: open-neonone-donations-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Events API
+  slug: open-neonone-events-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Households API
+  slug: open-neonone-households-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Memberships API
+  slug: open-neonone-memberships-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Orders API
+  slug: open-neonone-orders-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Properties API
+  slug: open-neonone-properties-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Store API
+  slug: open-neonone-store-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Volunteers API
+  slug: open-neonone-volunteers-api
+- collection_type: open
+  name: Neon CRM API v2 Accounts Webhooks API
+  slug: open-neonone-webhooks-api
 - collection_type: open
   name: Neon CRM API v2
   slug: open-neonone
@@ -145,7 +184,7 @@ plans:
 - name: Neonone Plans Pricing
   plan_count: 4
   slug: neonone-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Neonone Rate Limits
@@ -170,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/screenshots/neonone-2026-08-07T184850.png
 security:

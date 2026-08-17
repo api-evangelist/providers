@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Net asset value per share feeds.
@@ -39,7 +39,20 @@ apis:
 - description: On-chain redemption rate feeds.
   name: Accountable Redemption API
   slug: accountable-redemption-api
-artifact_total: 3
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accountable / Proof of Reserves Feeds NAV API
+  slug: open-accountable-nav-api
+- collection_type: open
+  name: Accountable NAV / Feeds Proof of Reserves API
+  slug: open-accountable-proof-of-reserves-api
+- collection_type: open
+  name: Accountable NAV / Proof of Reserves Feeds Redemption API
+  slug: open-accountable-redemption-api
 common:
 - group: company
   title: ''
@@ -54,7 +67,7 @@ name: Accountable
 nav: Providers
 network: true
 overview: 'Accountable publishes 3 APIs on the [APIs.io](https://apis.io/) network: NAV API, Proof of Reserves API, and Redemption API. Tagged areas include Company and Crypto.'
-random_paper: 73
+random_paper: 110
 score:
   band: emerging
   composite: 18.0
@@ -74,7 +87,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: accountable
 tags:

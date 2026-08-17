@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -85,11 +85,32 @@ arazzos:
 - description: Create a predictor, poll the listing until it is ACTIVE, and tag it.
   name: Amazon Forecast Train Predictor
   slug: amazon-forecast-train-predictor-workflow
-artifact_total: 56
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Amazon Forecast API
   slug: postman-amazon-forecast
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Forecast Dataset Groups API
+  slug: open-amazon-forecast-dataset-groups-api
+- collection_type: open
+  name: Amazon Forecast Dataset Groups Datasets API
+  slug: open-amazon-forecast-datasets-api
+- collection_type: open
+  name: Amazon Forecast Dataset Groups Export Jobs API
+  slug: open-amazon-forecast-export-jobs-api
+- collection_type: open
+  name: Amazon Forecast Dataset Groups Forecasts API
+  slug: open-amazon-forecast-forecasts-api
+- collection_type: open
+  name: Amazon Forecast Dataset Groups Predictors API
+  slug: open-amazon-forecast-predictors-api
+- collection_type: open
+  name: Amazon Forecast Dataset Groups Tags API
+  slug: open-amazon-forecast-tags-api
 - collection_type: open
   name: Amazon Forecast API
   slug: open-amazon-forecast
@@ -309,7 +330,7 @@ plans:
 - name: Amazon Forecast Plans Pricing
   plan_count: 3
   slug: amazon-forecast-plans-pricing
-random_paper: 106
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Amazon Forecast Rate Limits
@@ -351,7 +372,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/screenshots/amazon-forecast-2026-06-20T171651.png
 security:

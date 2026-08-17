@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 5
@@ -81,11 +81,57 @@ apis:
 - description: The Teams API from Gumloop — 1 operation(s) for teams.
   name: Gumloop Teams API
   slug: gumloop-teams-api
-artifact_total: 21
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Gumloop Webhooks
   slug: gumloop-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Agents API
+  slug: open-gumloop-agents-api
+- collection_type: open
+  name: Public Agents Artifacts API
+  slug: open-gumloop-artifacts-api
+- collection_type: open
+  name: Public Agents Brain API
+  slug: open-gumloop-brain-api
+- collection_type: open
+  name: Public Agents Chat completions API
+  slug: open-gumloop-chat-completions-api
+- collection_type: open
+  name: Public Agents Data Access API
+  slug: open-gumloop-data-access-api
+- collection_type: open
+  name: Public Agents Evaluations API
+  slug: open-gumloop-evaluations-api
+- collection_type: open
+  name: Public Agents Execution API
+  slug: open-gumloop-execution-api
+- collection_type: open
+  name: Public Agents File Handling API
+  slug: open-gumloop-file-handling-api
+- collection_type: open
+  name: Public Agents MCP API
+  slug: open-gumloop-mcp-api
+- collection_type: open
+  name: Public Agents Models API
+  slug: open-gumloop-models-api
+- collection_type: open
+  name: Public Agents Organization API
+  slug: open-gumloop-organization-api
+- collection_type: open
+  name: Public Agents Sessions API
+  slug: open-gumloop-sessions-api
+- collection_type: open
+  name: Public Agents Skills API
+  slug: open-gumloop-skills-api
+- collection_type: open
+  name: Public Agents Teams API
+  slug: open-gumloop-teams-api
 common:
 - group: other
   title: ''
@@ -234,7 +280,7 @@ overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 25 more developer resources.'
-random_paper: 51
+random_paper: 26
 scopes:
 - name: Gumloop Scopes
   scope_count: 5
@@ -263,7 +309,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/screenshots/gumloop-2026-07-25T220434.png
 security:

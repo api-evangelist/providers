@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ apis:
 - description: Manage user accounts
   name: SolarWinds Users API
   slug: solarwinds-users-api
-artifact_total: 307
+artifact_total: 332
 collections:
 - collection_type: postman
   name: SolarWinds Loggly Account API
@@ -207,8 +207,50 @@ collections:
   name: SolarWinds Loggly Account Users API
   slug: postman-solarwinds-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SolarWinds Loggly Account API
+  slug: open-solarwinds-account-api
+- collection_type: open
+  name: SolarWinds Loggly Account Assets API
+  slug: open-solarwinds-assets-api
+- collection_type: open
+  name: SolarWinds Loggly Account BulkOperations API
+  slug: open-solarwinds-bulkoperations-api
+- collection_type: open
+  name: SolarWinds Loggly Account Categories API
+  slug: open-solarwinds-categories-api
+- collection_type: open
+  name: SolarWinds Loggly Account Changes API
+  slug: open-solarwinds-changes-api
+- collection_type: open
+  name: SolarWinds Loggly Account Checks API
+  slug: open-solarwinds-checks-api
+- collection_type: open
+  name: SolarWinds Loggly Account Contacts API
+  slug: open-solarwinds-contacts-api
+- collection_type: open
+  name: SolarWinds Loggly Account CRUD API
+  slug: open-solarwinds-crud-api
+- collection_type: open
+  name: SolarWinds Loggly Account Events API
+  slug: open-solarwinds-events-api
+- collection_type: open
+  name: SolarWinds Loggly Account Groups API
+  slug: open-solarwinds-groups-api
+- collection_type: open
+  name: SolarWinds Loggly Account Incidents API
+  slug: open-solarwinds-incidents-api
+- collection_type: open
+  name: SolarWinds Loggly Account Invoke API
+  slug: open-solarwinds-invoke-api
+- collection_type: open
   name: SolarWinds Loggly API
   slug: open-solarwinds-loggly
+- collection_type: open
+  name: SolarWinds Loggly Account Maintenance API
+  slug: open-solarwinds-maintenance-api
 - collection_type: open
   name: SolarWinds Orion Platform API
   slug: open-solarwinds-orion
@@ -219,8 +261,41 @@ collections:
   name: SolarWinds Pingdom API
   slug: open-solarwinds-pingdom
 - collection_type: open
+  name: SolarWinds Loggly Account ProbeServers API
+  slug: open-solarwinds-probeservers-api
+- collection_type: open
+  name: SolarWinds Loggly Account Problems API
+  slug: open-solarwinds-problems-api
+- collection_type: open
+  name: SolarWinds Loggly Account Query API
+  slug: open-solarwinds-query-api
+- collection_type: open
+  name: SolarWinds Loggly Account Results API
+  slug: open-solarwinds-results-api
+- collection_type: open
+  name: SolarWinds Loggly Account SavedSearches API
+  slug: open-solarwinds-savedsearches-api
+- collection_type: open
+  name: SolarWinds Loggly Account Search API
+  slug: open-solarwinds-search-api
+- collection_type: open
   name: SolarWinds Service Desk API
   slug: open-solarwinds-service-desk
+- collection_type: open
+  name: SolarWinds Loggly Account ServiceRequests API
+  slug: open-solarwinds-servicerequests-api
+- collection_type: open
+  name: SolarWinds Loggly Account Summary API
+  slug: open-solarwinds-summary-api
+- collection_type: open
+  name: SolarWinds Loggly Account Systems API
+  slug: open-solarwinds-systems-api
+- collection_type: open
+  name: SolarWinds Loggly Account Teams API
+  slug: open-solarwinds-teams-api
+- collection_type: open
+  name: SolarWinds Loggly Account Users API
+  slug: open-solarwinds-users-api
 common:
 - group: build
   title: ''
@@ -1012,7 +1087,7 @@ plans:
 - name: Solarwinds Plans Pricing
   plan_count: 1
   slug: solarwinds-plans-pricing
-random_paper: 14
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Solarwinds Rate Limits
@@ -1054,7 +1129,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/screenshots/solarwinds-2026-06-20T194153.png
 security:

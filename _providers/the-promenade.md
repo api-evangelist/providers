@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: mppx (HTTP 402) purchases - virtual clout and Simcluster Delta
@@ -40,7 +40,20 @@ apis:
 - description: Self-signup with an Ethereum identity keypair (SIWE)
   name: The Promenade signup API
   slug: the-promenade-signup-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Simcluster Agent payments API
+  slug: open-the-promenade-payments-api
+- collection_type: open
+  name: Simcluster Agent payments session API
+  slug: open-the-promenade-session-api
+- collection_type: open
+  name: Simcluster Agent payments signup API
+  slug: open-the-promenade-signup-api
 common:
 - group: auth
   title: ''
@@ -106,7 +119,7 @@ overview: 'The Promenade publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   The Promenade''s developer surface includes documentation, support, authentication, and 9 more developer resources.'
-random_paper: 1
+random_paper: 129
 score:
   band: thin
   composite: 28.7
@@ -129,7 +142,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The New York Times Developer Network
@@ -60,7 +60,7 @@ name: New York Times
 nav: Providers
 network: true
 overview: New York Times publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include News and Public APIs.
-random_paper: 99
+random_paper: 78
 score:
   band: minimal
   composite: 5.7
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-times/refs/heads/main/screenshots/new-york-times-2026-06-20T190233.png
 security:

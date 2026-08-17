@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,15 +57,30 @@ apis:
 - description: Subscription lifecycle management
   name: Amdocs Subscriptions API
   slug: amdocs-subscriptions-api
-artifact_total: 88
+artifact_total: 93
 asyncapis:
 - description: The Amdocs connectX BSS Event API delivers real-time event notifications for telecom BSS operations including customer lifecycle events, subscription changes, billing events, and provisioning status u
   name: Amdocs connectX BSS Event API
   slug: amdocs-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amdocs connectX BSS Billing API
+  slug: open-amdocs-billing-api
+- collection_type: open
   name: Amdocs connectX BSS API
   slug: open-amdocs-connectx
+- collection_type: open
+  name: Amdocs connectX BSS Billing Customers API
+  slug: open-amdocs-customers-api
+- collection_type: open
+  name: Amdocs connectX BSS Billing Products API
+  slug: open-amdocs-products-api
+- collection_type: open
+  name: Amdocs connectX BSS Billing Subscriptions API
+  slug: open-amdocs-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -315,7 +330,7 @@ plans:
 - name: Amdocs Plans Pricing
   plan_count: 1
   slug: amdocs-plans-pricing
-random_paper: 31
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Amdocs Rate Limits
@@ -376,7 +391,7 @@ score:
     regime_id: telecommunications
     score: 47.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/screenshots/amdocs-2026-06-20T171859.png
 security:

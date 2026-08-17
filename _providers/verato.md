@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -99,7 +99,71 @@ apis:
 - description: The UnmergeIdentities API from Verato — 1 operation(s) for unmergeidentities.
   name: Verato UnmergeIdentities API
   slug: verato-unmergeidentities-api
-artifact_total: 25
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Verato Organization AddRelationshipService API
+  slug: open-verato-addrelationshipservice-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService CreateDataSource API
+  slug: open-verato-createdatasource-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService DeactivateSourceWs API
+  slug: open-verato-deactivatesourcews-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService DeleteRelationshipService API
+  slug: open-verato-deleterelationshipservice-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService DeleteSourceIdentity API
+  slug: open-verato-deletesourceidentity-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService DemographicsQuery API
+  slug: open-verato-demographicsquery-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService DemographicsSearch API
+  slug: open-verato-demographicssearch-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService HouseholdQuery API
+  slug: open-verato-householdquery-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService IdentityIdQuery API
+  slug: open-verato-identityidquery-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService LinkIdentities API
+  slug: open-verato-linkidentities-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService MergeIdentities API
+  slug: open-verato-mergeidentities-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService NativeIdQuery API
+  slug: open-verato-nativeidquery-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService PostIdentity API
+  slug: open-verato-postidentity-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService ReactivateSourceWs API
+  slug: open-verato-reactivatesourcews-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService RestoreSource API
+  slug: open-verato-restoresource-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService SearchNotifications API
+  slug: open-verato-searchnotifications-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService SearchRelationshipsService API
+  slug: open-verato-searchrelationshipsservice-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService SoftDeleteSource API
+  slug: open-verato-softdeletesource-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService UnlinkIdentities API
+  slug: open-verato-unlinkidentities-api
+- collection_type: open
+  name: Verato Organization AddRelationshipService UnmergeIdentities API
+  slug: open-verato-unmergeidentities-api
 common:
 - group: other
   title: ''
@@ -229,7 +293,7 @@ overview: 'Verato publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Verato''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 21 more developer resources.'
-random_paper: 57
+random_paper: 61
 score:
   band: developing
   composite: 46.8
@@ -259,7 +323,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

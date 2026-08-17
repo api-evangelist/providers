@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -72,8 +72,44 @@ apis:
 - description: The xAPI API from Sana — 2 operation(s) for xapi.
   name: Sana xAPI API
   slug: sana-labs-xapi-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sana Assignments API
+  slug: open-sana-labs-assignments-api
+- collection_type: open
+  name: Sana Assignments Authentication API
+  slug: open-sana-labs-authentication-api
+- collection_type: open
+  name: Sana Assignments Courses API
+  slug: open-sana-labs-courses-api
+- collection_type: open
+  name: Sana Assignments Groups API
+  slug: open-sana-labs-groups-api
+- collection_type: open
+  name: Sana Assignments Insights API
+  slug: open-sana-labs-insights-api
+- collection_type: open
+  name: Sana Assignments Paths API
+  slug: open-sana-labs-paths-api
+- collection_type: open
+  name: Sana Assignments Programs API
+  slug: open-sana-labs-programs-api
+- collection_type: open
+  name: Sana Assignments Reporting API
+  slug: open-sana-labs-reporting-api
+- collection_type: open
+  name: Sana Assignments Teamspaces API
+  slug: open-sana-labs-teamspaces-api
+- collection_type: open
+  name: Sana Assignments Users API
+  slug: open-sana-labs-users-api
+- collection_type: open
+  name: Sana Assignments xAPI API
+  slug: open-sana-labs-xapi-api
 - collection_type: open
   name: Sana API
   slug: open-sana-labs
@@ -138,7 +174,7 @@ plans:
 - name: Sana Labs Plans Pricing
   plan_count: 3
   slug: sana-labs-plans-pricing
-random_paper: 42
+random_paper: 137
 rate_limits:
 - limit_count: 2
   name: Sana Labs Rate Limits
@@ -163,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

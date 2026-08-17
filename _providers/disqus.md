@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: The Users API from Disqus — 3 operation(s) for users.
   name: Disqus Users API
   slug: disqus-users-api
-artifact_total: 10
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Disqus Public Categories API
+  slug: open-disqus-categories-api
+- collection_type: open
+  name: Disqus Public Categories Forums API
+  slug: open-disqus-forums-api
+- collection_type: open
+  name: Disqus Public Categories Posts API
+  slug: open-disqus-posts-api
+- collection_type: open
+  name: Disqus Public Categories Threads API
+  slug: open-disqus-threads-api
+- collection_type: open
+  name: Disqus Public Categories Users API
+  slug: open-disqus-users-api
 - collection_type: open
   name: Disqus Public API
   slug: open-disqus
@@ -147,7 +165,7 @@ overview: 'Disqus publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Disqus'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 65
+random_paper: 69
 scopes:
 - name: Disqus Scopes
   scope_count: 3
@@ -173,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/screenshots/disqus-2026-06-20T180049.png
 security:

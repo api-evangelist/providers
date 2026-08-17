@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Video metadata retrieval
   name: iStock Videos API
   slug: istock-videos-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: iStock API (Getty Images Platform) Countries API
+  slug: open-istock-countries-api
+- collection_type: open
+  name: iStock API (Getty Images Platform) Countries Downloads API
+  slug: open-istock-downloads-api
+- collection_type: open
+  name: iStock API (Getty Platform) Countries Images API
+  slug: open-istock-images-api
+- collection_type: open
+  name: iStock API (Getty Images Platform) Countries OAuth API
+  slug: open-istock-oauth-api
+- collection_type: open
+  name: iStock API (Getty Images Platform) Countries Search API
+  slug: open-istock-search-api
+- collection_type: open
+  name: iStock API (Getty Images Platform) Countries Videos API
+  slug: open-istock-videos-api
 - collection_type: open
   name: iStock API (Getty Images Platform)
   slug: open-istock
@@ -123,7 +144,7 @@ plans:
 - name: Istock Plans Pricing
   plan_count: 3
   slug: istock-plans-pricing
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Istock Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/screenshots/istock-2026-06-20T183628.png
 security:

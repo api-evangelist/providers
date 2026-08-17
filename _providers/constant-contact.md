@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 44.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -90,12 +90,74 @@ apis:
 - description: Use partner webhooks to subscribe to billing event notifications from Constant Contact.
   name: Constant Contact Technology Partners Webhooks API
   slug: constant-contact-technology-partners-webhooks-api
-artifact_total: 47
+artifact_total: 67
+asyncapis:
+- description: ''
+  name: Constant Contact Webhooks
+  slug: constant-contact-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AppConnect V3 Account Services API
+  slug: open-constant-contact-account-services-api
+- collection_type: open
+  name: AppConnect V3 Account Services Bulk Activities API
+  slug: open-constant-contact-bulk-activities-api
+- collection_type: open
+  name: AppConnect V3 Account Services Contact Lists API
+  slug: open-constant-contact-contact-lists-api
+- collection_type: open
+  name: AppConnect V3 Account Services Contact Tags API
+  slug: open-constant-contact-contact-tags-api
+- collection_type: open
+  name: AppConnect V3 Account Services Contacts API
+  slug: open-constant-contact-contacts-api
+- collection_type: open
+  name: AppConnect V3 Account Services Contacts Custom Fields API
+  slug: open-constant-contact-contacts-custom-fields-api
+- collection_type: open
+  name: AppConnect V3 Account Services Contacts Reporting API
+  slug: open-constant-contact-contacts-reporting-api
+- collection_type: open
+  name: AppConnect V3 Account Services Email Campaigns AB Tests API
+  slug: open-constant-contact-email-campaigns-ab-tests-api
+- collection_type: open
+  name: AppConnect V3 Account Services Email Campaigns API
+  slug: open-constant-contact-email-campaigns-api
+- collection_type: open
+  name: AppConnect V3 Account Services Email Reporting API
+  slug: open-constant-contact-email-reporting-api
+- collection_type: open
+  name: AppConnect V3 Account Services Email Scheduling API
+  slug: open-constant-contact-email-scheduling-api
+- collection_type: open
+  name: AppConnect V3 Account Services Events API
+  slug: open-constant-contact-events-api
+- collection_type: open
+  name: AppConnect V3 Account Services Landing Pages Reporting API
+  slug: open-constant-contact-landing-pages-reporting-api
+- collection_type: open
+  name: AppConnect V3 Account Services Segments API
+  slug: open-constant-contact-segments-api
+- collection_type: open
+  name: AppConnect V3 Account Services SMS Reporting API
+  slug: open-constant-contact-sms-reporting-api
+- collection_type: open
+  name: AppConnect V3 Account Services Technology Partners API
+  slug: open-constant-contact-technology-partners-api
+- collection_type: open
+  name: AppConnect V3 Account Services Technology Partners Webhooks API
+  slug: open-constant-contact-technology-partners-webhooks-api
 - collection_type: open
   name: AppConnect V3
   slug: open-constant-contact-v3
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/constant-contact-scopes.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,6 +242,70 @@ common:
   title: ''
   type: Spectral
   url: rules/constant-contact-rules.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/constant-contact-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/constant-contact-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/constant-contact-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/constant-contact-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/constant-contact-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/constant-contact-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/constant-contact-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/constant-contact-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/constant-contact-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/constant-contact-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/constant-contact-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/constant-contact-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.constantcontact.com/pricing
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://knowledgebase.constantcontact.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.constantcontact.com/api_guide/index.html
 created: '2025-03-01'
 description: Constant Contact is a small-business email and digital marketing platform offering email campaigns, automation, SMS, contact management, surveys, and events. The Constant Contact V3 API is a REST + JSON, OAuth2-protected service published at api.cc.email/v3 covering accounts, contacts, lists, tags, custom fields, segments, email campaigns, A/B tests, schedules and tests, bulk activities (CSV/JSON import, export, list and tag mutations), events with registration and check-in, reporting, and partner provisioning.
 features:
@@ -225,22 +351,22 @@ jsonld:
   property_count: 8
   slug: constant-contact-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Constant Contact
 nav: Providers
 network: true
 overview: 'Constant Contact publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Bulk Activities API, Contact Lists API, and 14 more. Tagged areas include Campaigns, Contacts, Email Marketing, Events, and Reporting.
 
 
-  The Constant Contact catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Constant Contact catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Constant Contact''s developer surface includes authentication, developer portal, getting-started guide, API reference, support, engineering blog, and 15 more developer resources.'
+  Constant Contact''s developer surface includes authentication, developer portal, getting-started guide, API reference, support, engineering blog, changelog, and 31 more developer resources.'
 plans:
 - name: Constant Contact Plans Pricing
   plan_count: 3
   slug: constant-contact-plans-pricing
-random_paper: 107
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Constant Contact Rate Limits
@@ -262,17 +388,22 @@ rules:
     info: 1
     warn: 5
   slug: constant-contact-rules
+scopes:
+- name: Constant Contact Scopes
+  scope_count: 6
+  slug: constant-contact-scopes
+  summary_line: 6 scopes · implicit/authorizationCode
 score:
-  band: developing
-  composite: 47.5
-  delta: 0.0
+  band: strong
+  composite: 63.6
+  delta: 16.1
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 62.1
-    developer_ergonomics: 43.5
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 28.9
+    commercial_clarity: 47.4
+    contract_quality: 69.9
+    developer_ergonomics: 65.2
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 52.6
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -286,10 +417,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
+    score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png
 security:
 - kind: authentication

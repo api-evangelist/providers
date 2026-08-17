@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -78,7 +78,7 @@ apis:
 - description: Manage MCP server instances
   name: Barndoor Servers API
   slug: barndoor-servers-api
-artifact_total: 149
+artifact_total: 156
 collections:
 - collection_type: postman
   name: Barndoor Platform Agents API
@@ -98,6 +98,27 @@ collections:
 - collection_type: postman
   name: Barndoor Platform Agents Servers API
   slug: postman-barndoor-servers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Barndoor Platform Agents API
+  slug: open-barndoor-agents-api
+- collection_type: open
+  name: Barndoor Platform Agents Connections API
+  slug: open-barndoor-connections-api
+- collection_type: open
+  name: Barndoor Platform Agents MCP Proxy API
+  slug: open-barndoor-mcp-proxy-api
+- collection_type: open
+  name: Barndoor Platform Agents Policies API
+  slug: open-barndoor-policies-api
+- collection_type: open
+  name: Barndoor Platform Agents Policy API
+  slug: open-barndoor-policy-api
+- collection_type: open
+  name: Barndoor Platform Agents Servers API
+  slug: open-barndoor-servers-api
 - collection_type: open
   name: Barndoor Platform API
   slug: open-barndoor
@@ -594,7 +615,7 @@ plans:
 - name: Barndoor Plans Pricing
   plan_count: 4
   slug: barndoor-plans-pricing
-random_paper: 15
+random_paper: 110
 rate_limits:
 - limit_count: 6
   name: Barndoor Rate Limits
@@ -642,7 +663,7 @@ score:
     regime_id: insurance
     score: 42.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/screenshots/barndoor-2026-06-20T173002.png
 security:

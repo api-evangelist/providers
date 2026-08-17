@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The Cart API from Passport — 1 operation(s) for cart.
@@ -45,7 +45,35 @@ apis:
 - description: The Void API from Passport — 1 operation(s) for void.
   name: Passport Void API
   slug: passport-void-api
-artifact_total: 11
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Getting Started with Passport Global Cart API
+  slug: open-passport-cart-api
+- collection_type: open
+  name: Getting Started with Passport Global Healthcheck API
+  slug: open-passport-healthcheck-api
+- collection_type: open
+  name: Getting Started with Passport Global Order API
+  slug: open-passport-order-api
+- collection_type: open
+  name: Getting Started with Passport Global Product Price API
+  slug: open-passport-product-price-api
+- collection_type: open
+  name: Getting Started with Passport Global Rate API
+  slug: open-passport-rate-api
+- collection_type: open
+  name: Getting Started with Passport Global Ship API
+  slug: open-passport-ship-api
+- collection_type: open
+  name: Getting Started with Passport Global Tax And Duty API
+  slug: open-passport-tax-and-duty-api
+- collection_type: open
+  name: Getting Started with Passport Global Void API
+  slug: open-passport-void-api
 common:
 - group: company
   title: ''
@@ -171,7 +199,7 @@ overview: 'Passport publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Passport''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 52
+random_paper: 147
 score:
   band: developing
   composite: 46.4
@@ -200,7 +228,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/screenshots/passport-2026-08-07T191541.png
 security:

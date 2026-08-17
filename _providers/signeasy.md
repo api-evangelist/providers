@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Authenticated account details and envelope credits.
   name: Signeasy Users API
   slug: signeasy-users-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Signeasy Embedded API
+  slug: open-signeasy-embedded-api
+- collection_type: open
+  name: Signeasy Embedded Envelopes API
+  slug: open-signeasy-envelopes-api
+- collection_type: open
+  name: Signeasy Embedded Originals API
+  slug: open-signeasy-originals-api
+- collection_type: open
+  name: Signeasy Embedded Templates API
+  slug: open-signeasy-templates-api
+- collection_type: open
+  name: Signeasy Embedded Users API
+  slug: open-signeasy-users-api
 - collection_type: open
   name: Signeasy API v3
   slug: open-signeasy
@@ -128,7 +146,7 @@ plans:
 - name: Signeasy Plans Pricing
   plan_count: 4
   slug: signeasy-plans-pricing
-random_paper: 27
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Signeasy Rate Limits
@@ -153,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

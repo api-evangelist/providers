@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,7 +65,23 @@ apis:
 - description: The Payloads API from Axelar — 2 operation(s) for payloads.
   name: Axelar Payloads API
   slug: axelar-payloads-api
-artifact_total: 19
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amplifier GMP Chains API
+  slug: open-axelar-chains-api
+- collection_type: open
+  name: Amplifier GMP Chains Contracts API
+  slug: open-axelar-contracts-api
+- collection_type: open
+  name: Amplifier GMP Chains Health API
+  slug: open-axelar-health-api
+- collection_type: open
+  name: Amplifier GMP Chains Payloads API
+  slug: open-axelar-payloads-api
 common:
 - group: operate
   title: ''
@@ -168,7 +184,7 @@ plans:
 - name: Axelar Plans Pricing
   plan_count: 2
   slug: axelar-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Axelar Rate Limits
@@ -202,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/screenshots/axelar-2026-06-20T172905.png
 security:

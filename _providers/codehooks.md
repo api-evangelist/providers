@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -51,15 +51,27 @@ apis:
 - description: Asynchronous job queue for worker processing
   name: Codehooks Queue API
   slug: codehooks-queue-api
-artifact_total: 19
+artifact_total: 23
 asyncapis:
 - description: Asynchronous event API for Codehooks serverless backend hooks and queue workers. Covers CRUD lifecycle hooks triggered on collection document operations and asynchronous queue worker processing for na
   name: Codehooks Events API
   slug: codehooks-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Codehooks Database REST API
   slug: open-codehooks-database-rest-api
+- collection_type: open
+  name: Codehooks Database REST Documents API
+  slug: open-codehooks-documents-api
+- collection_type: open
+  name: Codehooks Database REST Documents Key-Value Store API
+  slug: open-codehooks-key-value-store-api
+- collection_type: open
+  name: Codehooks Database REST Documents Queue API
+  slug: open-codehooks-queue-api
 common:
 - group: agent
   title: ''
@@ -175,7 +187,7 @@ plans:
 - name: Codehooks Plans Pricing
   plan_count: 3
   slug: codehooks-plans-pricing
-random_paper: 119
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Codehooks Rate Limits
@@ -225,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/screenshots/codehooks-2026-06-20T174700.png
 security:

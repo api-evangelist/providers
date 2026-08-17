@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Retrieve the permission whitelist / blacklist for an Access Control System.
@@ -37,7 +37,17 @@ apis:
 - description: Send access / entry transactions to keyper.
   name: Keyper Transactions API
   slug: keyper-transactions-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: keyper Access Permissions API
+  slug: open-keyper-permissions-api
+- collection_type: open
+  name: keyper Access Permissions Transactions API
+  slug: open-keyper-transactions-api
 common:
 - group: agent
   title: ''
@@ -143,7 +153,7 @@ overview: 'Keyper publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
 
 
   Keyper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 16 more developer resources.'
-random_paper: 56
+random_paper: 60
 score:
   band: developing
   composite: 43.4
@@ -166,7 +176,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/screenshots/keyper-2026-07-25T223658.png
 security:

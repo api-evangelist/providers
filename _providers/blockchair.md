@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Parsed transaction dashboards.
   name: Blockchair Transaction Dashboards API
   slug: blockchair-transaction-dashboards-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blockchair Address Dashboards API
+  slug: open-blockchair-address-dashboards-api
+- collection_type: open
+  name: Blockchair Address Dashboards Block Dashboards API
+  slug: open-blockchair-block-dashboards-api
+- collection_type: open
+  name: Blockchair Address Dashboards Broadcast API
+  slug: open-blockchair-broadcast-api
+- collection_type: open
+  name: Blockchair Address Dashboards Outputs Database API
+  slug: open-blockchair-outputs-database-api
+- collection_type: open
+  name: Blockchair Address Dashboards Raw Data API
+  slug: open-blockchair-raw-data-api
+- collection_type: open
+  name: Blockchair Address Dashboards Stats API
+  slug: open-blockchair-stats-api
+- collection_type: open
+  name: Blockchair Address Dashboards Transaction Dashboards API
+  slug: open-blockchair-transaction-dashboards-api
 - collection_type: open
   name: Blockchair API
   slug: open-blockchair
@@ -126,7 +150,7 @@ plans:
 - name: Blockchair Plans Pricing
   plan_count: 6
   slug: blockchair-plans-pricing
-random_paper: 82
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Blockchair Rate Limits
@@ -151,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

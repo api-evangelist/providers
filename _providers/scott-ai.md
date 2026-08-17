@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -128,7 +128,98 @@ apis:
 - description: The .well Known API from Scott Ai — 1 operation(s) for .well known.
   name: Scott Ai .well Known API
   slug: scott-ai-well-known-api
-artifact_total: 36
+artifact_total: 66
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: One-Shot access API
+  slug: open-scott-ai-access-api
+- collection_type: open
+  name: One-Shot access agent-counsel API
+  slug: open-scott-ai-agent-counsel-api
+- collection_type: open
+  name: One-Shot access agent-counsel-internal API
+  slug: open-scott-ai-agent-counsel-internal-api
+- collection_type: open
+  name: One-Shot access agent-loop API
+  slug: open-scott-ai-agent-loop-api
+- collection_type: open
+  name: One-Shot access agent-loop-internal API
+  slug: open-scott-ai-agent-loop-internal-api
+- collection_type: open
+  name: One-Shot access artifacts API
+  slug: open-scott-ai-artifacts-api
+- collection_type: open
+  name: One-Shot access auth API
+  slug: open-scott-ai-auth-api
+- collection_type: open
+  name: One-Shot access billing API
+  slug: open-scott-ai-billing-api
+- collection_type: open
+  name: One-Shot access cli-version API
+  slug: open-scott-ai-cli-version-api
+- collection_type: open
+  name: One-Shot access connected-sources API
+  slug: open-scott-ai-connected-sources-api
+- collection_type: open
+  name: One-Shot access conversations API
+  slug: open-scott-ai-conversations-api
+- collection_type: open
+  name: One-Shot access documents API
+  slug: open-scott-ai-documents-api
+- collection_type: open
+  name: One-Shot access e2b API
+  slug: open-scott-ai-e2b-api
+- collection_type: open
+  name: One-Shot access github API
+  slug: open-scott-ai-github-api
+- collection_type: open
+  name: One-Shot access github-links API
+  slug: open-scott-ai-github-links-api
+- collection_type: open
+  name: One-Shot access Health API
+  slug: open-scott-ai-health-api
+- collection_type: open
+  name: One-Shot access integrations API
+  slug: open-scott-ai-integrations-api
+- collection_type: open
+  name: One-Shot access invites API
+  slug: open-scott-ai-invites-api
+- collection_type: open
+  name: One-Shot access issues API
+  slug: open-scott-ai-issues-api
+- collection_type: open
+  name: One-Shot access notifications API
+  slug: open-scott-ai-notifications-api
+- collection_type: open
+  name: One-Shot access One Shot API API
+  slug: open-scott-ai-one-shot-api-api
+- collection_type: open
+  name: One-Shot access orgs API
+  slug: open-scott-ai-orgs-api
+- collection_type: open
+  name: One-Shot access probes API
+  slug: open-scott-ai-probes-api
+- collection_type: open
+  name: One-Shot access snapshots API
+  slug: open-scott-ai-snapshots-api
+- collection_type: open
+  name: One-Shot access sync-chat API
+  slug: open-scott-ai-sync-chat-api
+- collection_type: open
+  name: One-Shot access users API
+  slug: open-scott-ai-users-api
+- collection_type: open
+  name: One-Shot access waitlist API
+  slug: open-scott-ai-waitlist-api
+- collection_type: open
+  name: One-Shot access walkthroughs API
+  slug: open-scott-ai-walkthroughs-api
+- collection_type: open
+  name: One-Shot access .well Known API
+  slug: open-scott-ai-well-known-api
 common:
 - group: other
   title: ''
@@ -266,7 +357,7 @@ overview: 'Scott Ai publishes 30 APIs on the [APIs.io](https://apis.io/) network
 
 
   Scott Ai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 23 more developer resources.'
-random_paper: 84
+random_paper: 59
 score:
   band: developing
   composite: 47.9
@@ -290,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

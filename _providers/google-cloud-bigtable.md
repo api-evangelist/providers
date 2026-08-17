@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Operations on Bigtable tables
   name: Google Cloud Bigtable Tables API
   slug: google-cloud-bigtable-tables-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud Bigtable Admin Clusters API
@@ -60,8 +60,20 @@ collections:
   name: Google Cloud Bigtable Admin Clusters Tables API
   slug: postman-google-cloud-bigtable-tables-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Bigtable Admin API
   slug: open-cloud-bigtable
+- collection_type: open
+  name: Google Cloud Bigtable Admin Clusters API
+  slug: open-google-cloud-bigtable-clusters-api
+- collection_type: open
+  name: Google Cloud Bigtable Admin Clusters Instances API
+  slug: open-google-cloud-bigtable-instances-api
+- collection_type: open
+  name: Google Cloud Bigtable Admin Clusters Tables API
+  slug: open-google-cloud-bigtable-tables-api
 common:
 - group: build
   title: ''
@@ -167,7 +179,7 @@ plans:
 - name: Google Cloud Bigtable Plans Pricing
   plan_count: 3
   slug: google-cloud-bigtable-plans-pricing
-random_paper: 48
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Google Cloud Bigtable Rate Limits
@@ -206,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/screenshots/google-cloud-bigtable-2026-06-20T182046.png
 security:

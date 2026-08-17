@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -125,11 +125,102 @@ apis:
 - description: The VerifyService API from LayUp Technologies — 1 operation(s) for verifyservice.
   name: LayUp Technologies VerifyService API
   slug: layup-technologies-verifyservice-api
-artifact_total: 34
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Layup Technologies Webhooks
   slug: layup-technologies-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService API
+  slug: open-layup-technologies-absadebicheckservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService AbsaEftService API
+  slug: open-layup-technologies-absaeftservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService authService API
+  slug: open-layup-technologies-authservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService BankService API
+  slug: open-layup-technologies-bankservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService BankTransactionService API
+  slug: open-layup-technologies-banktransactionservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService CardService API
+  slug: open-layup-technologies-cardservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService ConnectorService API
+  slug: open-layup-technologies-connectorservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService DebiCheckService API
+  slug: open-layup-technologies-debicheckservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService DebitOrderMandateService API
+  slug: open-layup-technologies-debitordermandateservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService IntegrationService API
+  slug: open-layup-technologies-integrationservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService InternationalMsisdnService API
+  slug: open-layup-technologies-internationalmsisdnservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService InvoicesService API
+  slug: open-layup-technologies-invoicesservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService JournalFeeService API
+  slug: open-layup-technologies-journalfeeservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService JournalService API
+  slug: open-layup-technologies-journalservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService MerchantService API
+  slug: open-layup-technologies-merchantservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService OrderAmendmentService API
+  slug: open-layup-technologies-orderamendmentservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService OrderService API
+  slug: open-layup-technologies-orderservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService PayAtService API
+  slug: open-layup-technologies-payatservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService PaymentPlanService API
+  slug: open-layup-technologies-paymentplanservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService PaymentProviderSettlementService API
+  slug: open-layup-technologies-paymentprovidersettlementservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService PaymentService API
+  slug: open-layup-technologies-paymentservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService PaymentServiceV2 API
+  slug: open-layup-technologies-paymentservicev2-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService SettlementService API
+  slug: open-layup-technologies-settlementservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService ShopifyService API
+  slug: open-layup-technologies-shopifyservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService TerminalPaymentAppsService API
+  slug: open-layup-technologies-terminalpaymentappsservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService TerminalService API
+  slug: open-layup-technologies-terminalservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService TokenService API
+  slug: open-layup-technologies-tokenservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService UserService API
+  slug: open-layup-technologies-userservice-api
+- collection_type: open
+  name: Layup endpoints AbsaDebiCheckService VerifyService API
+  slug: open-layup-technologies-verifyservice-api
 common:
 - group: auth
   title: ''
@@ -270,7 +361,7 @@ overview: 'LayUp Technologies publishes 29 APIs on the [APIs.io](https://apis.io
 
 
   LayUp Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 84
+random_paper: 96
 score:
   band: developing
   composite: 42.6
@@ -300,7 +391,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/screenshots/layup-technologies-2026-07-25T224705.png
 security:

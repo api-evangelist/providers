@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -87,7 +87,47 @@ apis:
 - description: The transactions API from Safe (Gnosis Safe) — 13 operation(s) for transactions.
   name: Safe (Gnosis Safe) transactions API
   slug: gnosis-safe-transactions-api
-artifact_total: 150
+artifact_total: 163
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Safe Transaction Service 4337 API
+  slug: open-gnosis-safe-4337-api
+- collection_type: open
+  name: Safe Transaction Service 4337 about API
+  slug: open-gnosis-safe-about-api
+- collection_type: open
+  name: Safe Transaction Service 4337 analytics API
+  slug: open-gnosis-safe-analytics-api
+- collection_type: open
+  name: Safe Transaction Service 4337 contracts API
+  slug: open-gnosis-safe-contracts-api
+- collection_type: open
+  name: Safe Transaction Service 4337 data-decoder API
+  slug: open-gnosis-safe-data-decoder-api
+- collection_type: open
+  name: Safe Transaction Service 4337 delegates API
+  slug: open-gnosis-safe-delegates-api
+- collection_type: open
+  name: Safe Transaction Service 4337 messages API
+  slug: open-gnosis-safe-messages-api
+- collection_type: open
+  name: Safe Transaction Service 4337 modules API
+  slug: open-gnosis-safe-modules-api
+- collection_type: open
+  name: Safe Transaction Service 4337 owners API
+  slug: open-gnosis-safe-owners-api
+- collection_type: open
+  name: Safe Transaction Service 4337 safes API
+  slug: open-gnosis-safe-safes-api
+- collection_type: open
+  name: Safe Transaction Service 4337 tokens API
+  slug: open-gnosis-safe-tokens-api
+- collection_type: open
+  name: Safe Transaction Service 4337 transactions API
+  slug: open-gnosis-safe-transactions-api
 common:
 - group: operate
   title: ''
@@ -570,7 +610,7 @@ plans:
 - name: Gnosis Safe Plans Pricing
   plan_count: 4
   slug: gnosis-safe-plans-pricing
-random_paper: 39
+random_paper: 76
 rate_limits:
 - limit_count: 8
   name: Gnosis Safe Rate Limits
@@ -610,7 +650,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/screenshots/gnosis-safe-2026-06-20T181937.png
 security:

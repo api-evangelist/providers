@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -112,12 +112,48 @@ arazzos:
 - description: Resolve the cluster, create a topic with explicit partitioning, read it back, and produce a first record.
   name: Apache Kafka Provision a Topic and Produce a Record
   slug: apache-kafka-topic-provision-produce-workflow
-artifact_total: 113
+artifact_total: 125
 asyncapis:
 - description: 'Apache Kafka is a distributed event streaming platform capable of handling trillions of events a day. This spec describes the core messaging protocol for producing and consuming records to/from Kafka '
   name: Apache Kafka Messaging API
   slug: kafka-messaging
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kafka Connect REST ACL API
+  slug: open-apache-kafka-acl-api
+- collection_type: open
+  name: Kafka Connect REST ACL Broker API
+  slug: open-apache-kafka-broker-api
+- collection_type: open
+  name: Kafka Connect REST ACL Cluster API
+  slug: open-apache-kafka-cluster-api
+- collection_type: open
+  name: Kafka Connect REST ACL Connectors API
+  slug: open-apache-kafka-connectors-api
+- collection_type: open
+  name: Kafka Connect REST ACL Consumer Group API
+  slug: open-apache-kafka-consumer-group-api
+- collection_type: open
+  name: Kafka Connect REST ACL Offsets API
+  slug: open-apache-kafka-offsets-api
+- collection_type: open
+  name: Kafka Connect REST ACL Partition API
+  slug: open-apache-kafka-partition-api
+- collection_type: open
+  name: Kafka Connect REST ACL Plugins API
+  slug: open-apache-kafka-plugins-api
+- collection_type: open
+  name: Kafka Connect REST ACL Records API
+  slug: open-apache-kafka-records-api
+- collection_type: open
+  name: Kafka Connect REST ACL Tasks API
+  slug: open-apache-kafka-tasks-api
+- collection_type: open
+  name: Kafka Connect REST ACL Topic API
+  slug: open-apache-kafka-topic-api
 - collection_type: open
   name: Kafka Connect REST API
   slug: open-kafka-connect
@@ -531,7 +567,7 @@ plans:
 - name: Apache Kafka Plans Pricing
   plan_count: 3
   slug: apache-kafka-plans-pricing
-random_paper: 85
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Apache Kafka Rate Limits
@@ -583,7 +619,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
 security:

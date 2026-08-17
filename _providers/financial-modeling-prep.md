@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The Stock API from Financial Modeling Prep — 1 operation(s) for stock.
   name: Financial Modeling Prep Stock API
   slug: financial-modeling-prep-stock-api
-artifact_total: 33
+artifact_total: 50
 asyncapis:
 - description: AsyncAPI 2.6 description of Financial Modeling Prep's real-time market data WebSocket surface, documented at https://site.financialmodelingprep.com/datasets/websocket and https://site.financialmodelin
   name: Financial Modeling Prep Real-Time WebSocket API
@@ -108,6 +108,57 @@ collections:
 - collection_type: postman
   name: Financial Modeling Prep Stock API
   slug: postman-financial-modeling-prep-stock-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Financial Modeling Prep Analyst Estimates API
+  slug: open-financial-modeling-prep-analyst-estimates-api
+- collection_type: open
+  name: Financial Modeling Prep Balance Sheet Statement API
+  slug: open-financial-modeling-prep-balance-sheet-statement-api
+- collection_type: open
+  name: Financial Modeling Prep Cash Flow Statement API
+  slug: open-financial-modeling-prep-cash-flow-statement-api
+- collection_type: open
+  name: Financial Modeling Prep Analyst Estimates Economic Data API
+  slug: open-financial-modeling-prep-economic-data-api
+- collection_type: open
+  name: Financial Modeling Prep Analyst Estimates Financial Statements API
+  slug: open-financial-modeling-prep-financial-statements-api
+- collection_type: open
+  name: Financial Modeling Prep Analyst Estimates Fundamentals API
+  slug: open-financial-modeling-prep-fundamentals-api
+- collection_type: open
+  name: Financial Modeling Prep Historical Price Full API
+  slug: open-financial-modeling-prep-historical-price-full-api
+- collection_type: open
+  name: Financial Modeling Prep Income Statement API
+  slug: open-financial-modeling-prep-income-statement-api
+- collection_type: open
+  name: Financial Modeling Prep Insider Trading API
+  slug: open-financial-modeling-prep-insider-trading-api
+- collection_type: open
+  name: Financial Modeling Prep Profile API
+  slug: open-financial-modeling-prep-profile-api
+- collection_type: open
+  name: Financial Modeling Prep Quote API
+  slug: open-financial-modeling-prep-quote-api
+- collection_type: open
+  name: Financial Modeling Prep Analyst Estimates Quotes and Prices API
+  slug: open-financial-modeling-prep-quotes-and-prices-api
+- collection_type: open
+  name: Financial Modeling Prep Ratios API
+  slug: open-financial-modeling-prep-ratios-api
+- collection_type: open
+  name: Financial Modeling Prep Search API
+  slug: open-financial-modeling-prep-search-api
+- collection_type: open
+  name: Financial Modeling Prep Analyst Estimates SEC Filings API
+  slug: open-financial-modeling-prep-sec-filings-api
+- collection_type: open
+  name: Financial Modeling Prep Stock API
+  slug: open-financial-modeling-prep-stock-api
 - collection_type: open
   name: Financial Modeling Prep API
   slug: open-financial-modeling-prep
@@ -286,7 +337,7 @@ plans:
 - name: Financial Modeling Prep Plans Pricing
   plan_count: 4
   slug: financial-modeling-prep-plans-pricing
-random_paper: 29
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Financial Modeling Prep Rate Limits
@@ -329,7 +380,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

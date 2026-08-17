@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -53,7 +53,26 @@ apis:
 - description: The Validators API from Sapien — 9 operation(s) for validators.
   name: Sapien Validators API
   slug: sapien-validators-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sapien Developer Datapoints API
+  slug: open-sapien-datapoints-api
+- collection_type: open
+  name: Sapien Developer Datapoints Projects API
+  slug: open-sapien-projects-api
+- collection_type: open
+  name: Sapien Developer Datapoints System API
+  slug: open-sapien-system-api
+- collection_type: open
+  name: Sapien Developer Datapoints Upload Sessions API
+  slug: open-sapien-upload-sessions-api
+- collection_type: open
+  name: Sapien Developer Datapoints Validators API
+  slug: open-sapien-validators-api
 common:
 - group: auth
   title: ''
@@ -163,7 +182,7 @@ overview: 'Sapien publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sapien''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 40
+random_paper: 44
 score:
   band: thin
   composite: 41.1
@@ -187,7 +206,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The PSA Public API Methods API from Collectors — 6 operation(s) for psa public api methods.
   name: Collectors PSA Public API Methods API
   slug: collectors-psa-public-api-methods-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PSA Public PSA Public API Methods API
+  slug: open-collectors-psa-public-api-methods-api
 common:
 - group: company
   title: ''
@@ -139,7 +146,7 @@ overview: 'Collectors publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Collectors'' developer surface includes documentation, API reference, signup flow, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 2
+random_paper: 39
 score:
   band: thin
   composite: 34.3
@@ -169,7 +176,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/screenshots/collectors-2026-07-25T210048.png
 security:

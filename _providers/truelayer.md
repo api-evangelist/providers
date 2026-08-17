@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -58,7 +58,7 @@ apis:
 - description: Refund payments back to users
   name: TrueLayer Refunds API
   slug: truelayer-refunds-api
-artifact_total: 29
+artifact_total: 35
 collections:
 - collection_type: postman
   name: TrueLayer Payments Mandates API
@@ -76,8 +76,26 @@ collections:
   name: TrueLayer Payments Mandates Refunds API
   slug: postman-truelayer-refunds-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TrueLayer Payments Mandates API
+  slug: open-truelayer-mandates-api
+- collection_type: open
+  name: TrueLayer Payments Mandates Merchant Accounts API
+  slug: open-truelayer-merchant-accounts-api
+- collection_type: open
+  name: TrueLayer Mandates Payments API
+  slug: open-truelayer-payments-api
+- collection_type: open
   name: TrueLayer Payments API
   slug: open-truelayer-payments
+- collection_type: open
+  name: TrueLayer Payments Mandates Payouts API
+  slug: open-truelayer-payouts-api
+- collection_type: open
+  name: TrueLayer Payments Mandates Refunds API
+  slug: open-truelayer-refunds-api
 common:
 - group: build
   title: ''
@@ -206,7 +224,7 @@ plans:
 - name: Truelayer Plans Pricing
   plan_count: 3
   slug: truelayer-plans-pricing
-random_paper: 29
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Truelayer Rate Limits
@@ -254,7 +272,7 @@ score:
     regime_id: banking_open_finance
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png
 security:

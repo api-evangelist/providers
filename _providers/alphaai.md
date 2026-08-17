@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,11 +50,15 @@ apis:
 - description: 'Provider-published open-source pack of five Claude Code agent skills wrapping the MCP tools into ready-made workflows: one-ticker brief, market pulse, insider-activity scan, two-ticker read-across, an'
   name: AlphaAI Claude Code Skills
   slug: alphaai-claude-code-skills
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Alphaai Webhooks
   slug: alphaai-webhooks
+collections:
+- collection_type: open
+  name: alphai REST API
+  slug: open-alphaai-rest-api
 common:
 - group: start
   title: ''
@@ -238,7 +242,7 @@ plans:
 - name: Alphaai Plans Pricing
   plan_count: 4
   slug: alphaai-plans-pricing
-random_paper: 0
+random_paper: 124
 rate_limits:
 - limit_count: 6
   name: Alphaai Rate Limits
@@ -267,7 +271,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

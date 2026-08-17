@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Aleph is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aleph''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 42
+random_paper: 75
 score:
   band: emerging
   composite: 19.4
@@ -112,7 +112,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleph/refs/heads/main/screenshots/aleph-2026-07-25T195555.png
 security:

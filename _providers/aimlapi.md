@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -69,8 +69,41 @@ apis:
 - description: The [WIP] Completions API from AIMLAPI — 1 operation(s) for [wip] completions.
   name: AIMLAPI [WIP] Completions API
   slug: aimlapi-wip-completions-api
-artifact_total: 64
+artifact_total: 75
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management API
+  slug: open-aimlapi-api-key-management-api
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management Assistants API
+  slug: open-aimlapi-assistants-api
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management Chat API
+  slug: open-aimlapi-chat-api
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management Images API
+  slug: open-aimlapi-images-api
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management Models API
+  slug: open-aimlapi-models-api
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management Threads API
+  slug: open-aimlapi-threads-api
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management Threads > Messages API
+  slug: open-aimlapi-threads-messages-api
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management Threads > Runs API
+  slug: open-aimlapi-threads-runs-api
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management Voice API
+  slug: open-aimlapi-voice-api
+- collection_type: open
+  name: AIMLAPI AI/ML API Documentation API Key Management [WIP] Completions API
+  slug: open-aimlapi-wip-completions-api
 - collection_type: open
   name: AIMLAPI AI/ML API Documentation
   slug: open-aimlapi
@@ -275,7 +308,7 @@ plans:
 - name: Aimlapi Plans Pricing
   plan_count: 3
   slug: aimlapi-plans-pricing
-random_paper: 13
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: Aimlapi Rate Limits
@@ -317,7 +350,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/screenshots/aimlapi-2026-06-20T171417.png
 security:

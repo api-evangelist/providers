@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -96,7 +96,7 @@ plans:
 - name: Qut Plans Pricing
   plan_count: 2
   slug: qut-plans-pricing
-random_paper: 106
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Qut Rate Limits
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

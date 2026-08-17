@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Sessions API from Browserbase — 6 operation(s) for sessions.
   name: Browserbase Sessions API
   slug: browserbase-sessions-api
-artifact_total: 26
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Browserbase Contexts API
+  slug: open-browserbase-contexts-api
+- collection_type: open
+  name: Browserbase Contexts Extensions API
+  slug: open-browserbase-extensions-api
+- collection_type: open
+  name: Browserbase Contexts Projects API
+  slug: open-browserbase-projects-api
+- collection_type: open
+  name: Browserbase Contexts Sessions API
+  slug: open-browserbase-sessions-api
 - collection_type: open
   name: Browserbase API
   slug: open-browserbase
@@ -205,7 +220,7 @@ plans:
 - name: Browserbase Plans Pricing
   plan_count: 1
   slug: browserbase-plans-pricing
-random_paper: 103
+random_paper: 140
 rate_limits:
 - limit_count: 2
   name: Browserbase Rate Limits
@@ -247,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/screenshots/browserbase-2026-06-20T173725.png
 security:

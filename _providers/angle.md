@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 20
 apis:
 - description: The Allowances API from Angle — 1 operation(s) for allowances.
@@ -91,7 +91,71 @@ apis:
 - description: The Volume API from Angle — 1 operation(s) for volume.
   name: Angle Volume API
   slug: angle-volume-api
-artifact_total: 23
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Angle Allowances API
+  slug: open-angle-allowances-api
+- collection_type: open
+  name: Angle Allowances Angle Protocol Data API
+  slug: open-angle-angle-protocol-data-api
+- collection_type: open
+  name: Angle Allowances App API
+  slug: open-angle-app-api
+- collection_type: open
+  name: Angle Allowances Apr API
+  slug: open-angle-apr-api
+- collection_type: open
+  name: Angle Allowances Balances API
+  slug: open-angle-balances-api
+- collection_type: open
+  name: Angle Allowances Borrow API
+  slug: open-angle-borrow-api
+- collection_type: open
+  name: Angle Allowances Bridge API
+  slug: open-angle-bridge-api
+- collection_type: open
+  name: Angle Allowances Dao API
+  slug: open-angle-dao-api
+- collection_type: open
+  name: Angle Allowances Helpers API
+  slug: open-angle-helpers-api
+- collection_type: open
+  name: Angle Allowances Incentives API
+  slug: open-angle-incentives-api
+- collection_type: open
+  name: Angle Allowances Integrators API
+  slug: open-angle-integrators-api
+- collection_type: open
+  name: Angle Allowances Perpetuals API
+  slug: open-angle-perpetuals-api
+- collection_type: open
+  name: Angle Allowances Pools API
+  slug: open-angle-pools-api
+- collection_type: open
+  name: Angle Allowances Prices API
+  slug: open-angle-prices-api
+- collection_type: open
+  name: Angle Allowances Savings API
+  slug: open-angle-savings-api
+- collection_type: open
+  name: Angle Allowances Tvl API
+  slug: open-angle-tvl-api
+- collection_type: open
+  name: Angle Allowances User related information API
+  slug: open-angle-user-related-information-api
+- collection_type: open
+  name: Angle Allowances VaultManagers API
+  slug: open-angle-vaultmanagers-api
+- collection_type: open
+  name: Angle Allowances Vaults API
+  slug: open-angle-vaults-api
+- collection_type: open
+  name: Angle Allowances Volume API
+  slug: open-angle-volume-api
 common:
 - group: agent
   title: ''
@@ -213,7 +277,7 @@ overview: 'Angle publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Angle''s developer surface includes authentication, documentation, and 24 more developer resources.'
-random_paper: 39
+random_paper: 72
 score:
   band: thin
   composite: 34.3
@@ -236,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/screenshots/angle-2026-07-25T200241.png
 security:

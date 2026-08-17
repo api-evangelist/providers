@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,14 @@ apis:
 - description: The Constructions API from University of Birmingham — 2 operation(s) for constructions.
   name: University of Birmingham Constructions API
   slug: university-of-birmingham-constructions-api
-artifact_total: 15
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: English Constructicon Constructions API
+  slug: open-university-of-birmingham-constructions-api
 common:
 - group: agent
   title: ''
@@ -132,7 +139,7 @@ plans:
 - name: University Of Birmingham Plans Pricing
   plan_count: 2
   slug: university-of-birmingham-plans-pricing
-random_paper: 79
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: University Of Birmingham Rate Limits
@@ -180,7 +187,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/screenshots/university-of-birmingham-2026-06-20T200137.png
 security:

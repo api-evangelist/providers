@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,11 +61,17 @@ arazzos:
 - description: Create an OpenSearch domain and poll its status until the search endpoint is live.
   name: Amazon OpenSearch Service Provision Domain and Confirm Endpoint
   slug: amazon-opensearch-service-provision-domain-workflow
-artifact_total: 30
+artifact_total: 32
 collections:
 - collection_type: postman
   name: Amazon OpenSearch Service API
   slug: postman-amazon-opensearch-service
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon OpenSearch Service Domains API
+  slug: open-amazon-opensearch-service-domains-api
 - collection_type: open
   name: Amazon OpenSearch Service API
   slug: open-amazon-opensearch-service
@@ -280,7 +286,7 @@ plans:
 - name: Amazon Opensearch Service Plans Pricing
   plan_count: 3
   slug: amazon-opensearch-service-plans-pricing
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Opensearch Service Rate Limits
@@ -322,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/screenshots/amazon-opensearch-service-2026-06-20T171751.png
 security:

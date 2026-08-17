@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -117,7 +117,86 @@ apis:
 - description: The YearAssignmentMethod API from UNICEF Data — 1 operation(s) for yearassignmentmethod.
   name: UNICEF Data YearAssignmentMethod API
   slug: unicef-data-yearassignmentmethod-api
-artifact_total: 39
+artifact_total: 65
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GeoSight Basemap API
+  slug: open-unicef-data-basemap-api
+- collection_type: open
+  name: GeoSight Basemap Code List API
+  slug: open-unicef-data-code-list-api
+- collection_type: open
+  name: GeoSight Basemap Codelist API
+  slug: open-unicef-data-codelist-api
+- collection_type: open
+  name: GeoSight Basemap CollectionProcess API
+  slug: open-unicef-data-collectionprocess-api
+- collection_type: open
+  name: GeoSight Basemap Context layer API
+  slug: open-unicef-data-context-layer-api
+- collection_type: open
+  name: GeoSight Basemap Country API
+  slug: open-unicef-data-country-api
+- collection_type: open
+  name: GeoSight Basemap Custodian API
+  slug: open-unicef-data-custodian-api
+- collection_type: open
+  name: GeoSight Basemap Dashboard API
+  slug: open-unicef-data-dashboard-api
+- collection_type: open
+  name: GeoSight Basemap Data Browser API
+  slug: open-unicef-data-data-browser-api
+- collection_type: open
+  name: GeoSight Basemap DataSource API
+  slug: open-unicef-data-datasource-api
+- collection_type: open
+  name: GeoSight Basemap Group API
+  slug: open-unicef-data-group-api
+- collection_type: open
+  name: GeoSight Basemap HowMany API
+  slug: open-unicef-data-howmany-api
+- collection_type: open
+  name: GeoSight Basemap Indicator API
+  slug: open-unicef-data-indicator-api
+- collection_type: open
+  name: GeoSight Basemap IndicatorClassification API
+  slug: open-unicef-data-indicatorclassification-api
+- collection_type: open
+  name: GeoSight Basemap Language API
+  slug: open-unicef-data-language-api
+- collection_type: open
+  name: GeoSight Basemap Reference datasets API
+  slug: open-unicef-data-reference-datasets-api
+- collection_type: open
+  name: GeoSight Basemap Region API
+  slug: open-unicef-data-region-api
+- collection_type: open
+  name: GeoSight Basemap Related table API
+  slug: open-unicef-data-related-table-api
+- collection_type: open
+  name: GeoSight Basemap Related table data API
+  slug: open-unicef-data-related-table-data-api
+- collection_type: open
+  name: GeoSight Basemap Sector API
+  slug: open-unicef-data-sector-api
+- collection_type: open
+  name: GeoSight Basemap StrategicPlan API
+  slug: open-unicef-data-strategicplan-api
+- collection_type: open
+  name: GeoSight Basemap Style API
+  slug: open-unicef-data-style-api
+- collection_type: open
+  name: GeoSight Basemap Tag API
+  slug: open-unicef-data-tag-api
+- collection_type: open
+  name: GeoSight Basemap User API
+  slug: open-unicef-data-user-api
+- collection_type: open
+  name: GeoSight Basemap YearAssignmentMethod API
+  slug: open-unicef-data-yearassignmentmethod-api
 common:
 - group: agent
   title: ''
@@ -246,7 +325,7 @@ plans:
 - name: Unicef Data Plans Pricing
   plan_count: 3
   slug: unicef-data-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Unicef Data Rate Limits
@@ -286,7 +365,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -66,7 +66,7 @@ apis:
 - description: Manage metadata and version history for KV v2 secrets.
   name: HashiCorp Vault Secrets Metadata API
   slug: vault-secrets-metadata-api
-artifact_total: 123
+artifact_total: 132
 collections:
 - collection_type: postman
   name: HashiCorp Vault KV Secrets Engine Auth Methods API
@@ -93,8 +93,35 @@ collections:
   name: HashiCorp Vault KV Secrets Engine Auth Methods Secrets Metadata API
   slug: postman-vault-secrets-metadata-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HashiCorp Vault KV Secrets Engine Auth Methods API
+  slug: open-vault-auth-methods-api
+- collection_type: open
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Health API
+  slug: open-vault-health-api
+- collection_type: open
   name: HashiCorp Vault KV Secrets Engine API
   slug: open-vault-kv
+- collection_type: open
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Leases API
+  slug: open-vault-leases-api
+- collection_type: open
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Policies API
+  slug: open-vault-policies-api
+- collection_type: open
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Secrets Config API
+  slug: open-vault-secrets-config-api
+- collection_type: open
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Secrets Data API
+  slug: open-vault-secrets-data-api
+- collection_type: open
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Secrets Engines API
+  slug: open-vault-secrets-engines-api
+- collection_type: open
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Secrets Metadata API
+  slug: open-vault-secrets-metadata-api
 - collection_type: open
   name: HashiCorp Vault System Backend API
   slug: open-vault-sys
@@ -443,7 +470,7 @@ plans:
 - name: Vault Plans Pricing
   plan_count: 3
   slug: vault-plans-pricing
-random_paper: 76
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Vault Rate Limits
@@ -485,7 +512,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vault/refs/heads/main/screenshots/vault-2026-06-20T200835.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,7 +61,29 @@ apis:
 - description: Daily treasury asset holdings.
   name: OlympusDAO Treasury API
   slug: olympusdao-treasury-api
-artifact_total: 21
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Olympus Protocol Metrics Health API
+  slug: open-olympusdao-health-api
+- collection_type: open
+  name: Olympus Protocol Metrics Health Legacy API
+  slug: open-olympusdao-legacy-api
+- collection_type: open
+  name: Olympus Protocol Metrics Health Metadata API
+  slug: open-olympusdao-metadata-api
+- collection_type: open
+  name: Olympus Protocol Metrics Health OHM Supply API
+  slug: open-olympusdao-ohm-supply-api
+- collection_type: open
+  name: Olympus Health Protocol Metrics API
+  slug: open-olympusdao-protocol-metrics-api
+- collection_type: open
+  name: Olympus Protocol Metrics Health Treasury API
+  slug: open-olympusdao-treasury-api
 common:
 - group: agent
   title: ''
@@ -122,7 +144,7 @@ overview: 'OlympusDAO publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   OlympusDAO''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 21
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -156,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/screenshots/olympusdao-2026-06-20T190659.png
 security:

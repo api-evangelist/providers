@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 46
 apis:
 - description: 'Open-source gRPC geocoding and timezone-lookup service Rentberry built and runs for its own property search, with published proto3 definitions and PHP client bindings on Packagist. Two services: Geoco'
@@ -159,7 +159,146 @@ apis:
 - description: Virtual Tours
   name: Rentberry Virtual Tours API
   slug: rentberry-virtual-tours-api
-artifact_total: 49
+artifact_total: 95
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rentberry Applications API
+  slug: open-rentberry-applications-api
+- collection_type: open
+  name: Rentberry Auth API
+  slug: open-rentberry-auth-api
+- collection_type: open
+  name: Rentberry Breadcrumbs API
+  slug: open-rentberry-breadcrumbs-api
+- collection_type: open
+  name: Rentberry Complaints API
+  slug: open-rentberry-complaints-api
+- collection_type: open
+  name: Rentberry Contract Templates API
+  slug: open-rentberry-contract-templates-api
+- collection_type: open
+  name: Rentberry Contracts API
+  slug: open-rentberry-contracts-api
+- collection_type: open
+  name: Rentberry Devices API
+  slug: open-rentberry-devices-api
+- collection_type: open
+  name: Rentberry Events API
+  slug: open-rentberry-events-api
+- collection_type: open
+  name: Rentberry Features API
+  slug: open-rentberry-features-api
+- collection_type: open
+  name: Rentberry Integration Requests API
+  slug: open-rentberry-integration-requests-api
+- collection_type: open
+  name: Rentberry Landing Pages API
+  slug: open-rentberry-landing-pages-api
+- collection_type: open
+  name: Rentberry Landing Statistics API
+  slug: open-rentberry-landing-statistics-api
+- collection_type: open
+  name: Rentberry Leads API
+  slug: open-rentberry-leads-api
+- collection_type: open
+  name: Rentberry Listing Pictures API
+  slug: open-rentberry-listing-pictures-api
+- collection_type: open
+  name: Rentberry Listings API
+  slug: open-rentberry-listings-api
+- collection_type: open
+  name: Rentberry Location API
+  slug: open-rentberry-location-api
+- collection_type: open
+  name: Rentberry Messages API
+  slug: open-rentberry-messages-api
+- collection_type: open
+  name: Rentberry Mobile Search API
+  slug: open-rentberry-mobile-search-api
+- collection_type: open
+  name: Rentberry Newsletter API
+  slug: open-rentberry-newsletter-api
+- collection_type: open
+  name: Rentberry Notifications API
+  slug: open-rentberry-notifications-api
+- collection_type: open
+  name: Rentberry O Auth API
+  slug: open-rentberry-oauth-api
+- collection_type: open
+  name: Rentberry Payments API
+  slug: open-rentberry-payments-api
+- collection_type: open
+  name: Rentberry Providers API
+  slug: open-rentberry-providers-api
+- collection_type: open
+  name: Rentberry Registration API
+  slug: open-rentberry-registration-api
+- collection_type: open
+  name: Rentberry Rental API
+  slug: open-rentberry-rental-api
+- collection_type: open
+  name: Rentberry Rental Payments API
+  slug: open-rentberry-rental-payments-api
+- collection_type: open
+  name: Rentberry Rental Subscription API
+  slug: open-rentberry-rental-subscription-api
+- collection_type: open
+  name: Rentberry Rentals API
+  slug: open-rentberry-rentals-api
+- collection_type: open
+  name: Rentberry Resources API
+  slug: open-rentberry-resources-api
+- collection_type: open
+  name: Rentberry Saved Search API
+  slug: open-rentberry-saved-search-api
+- collection_type: open
+  name: Rentberry Screening API
+  slug: open-rentberry-screening-api
+- collection_type: open
+  name: Rentberry Screening Reports API
+  slug: open-rentberry-screening-reports-api
+- collection_type: open
+  name: Rentberry Search API
+  slug: open-rentberry-search-api
+- collection_type: open
+  name: Rentberry SEO Redirects API
+  slug: open-rentberry-seo-redirects-api
+- collection_type: open
+  name: Rentberry SEO URLs API
+  slug: open-rentberry-seo-urls-api
+- collection_type: open
+  name: Rentberry SMS API
+  slug: open-rentberry-sms-api
+- collection_type: open
+  name: Rentberry Subscriptions API
+  slug: open-rentberry-subscriptions-api
+- collection_type: open
+  name: Rentberry Translation API
+  slug: open-rentberry-translation-api
+- collection_type: open
+  name: Rentberry User API
+  slug: open-rentberry-user-api
+- collection_type: open
+  name: Rentberry User Phone Verification API
+  slug: open-rentberry-user-phone-verification-api
+- collection_type: open
+  name: Rentberry User Settings API
+  slug: open-rentberry-user-settings-api
+- collection_type: open
+  name: Rentberry User Status API
+  slug: open-rentberry-user-status-api
+- collection_type: open
+  name: Rentberry User Verification API
+  slug: open-rentberry-user-verification-api
+- collection_type: open
+  name: Rentberry V{version} V{version} API
+  slug: open-rentberry-v-version-api
+- collection_type: open
+  name: Rentberry Virtual Tours API
+  slug: open-rentberry-virtual-tours-api
 common:
 - group: agent
   title: ''
@@ -305,7 +444,7 @@ overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
-random_paper: 29
+random_paper: 95
 score:
   band: thin
   composite: 40.7
@@ -334,7 +473,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

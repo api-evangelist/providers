@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +67,29 @@ apis:
 - description: The Topics API from World Bank — 2 operation(s) for topics.
   name: World Bank Topics API
   slug: worldbank-topics-api
-artifact_total: 19
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: World Bank Indicators Classifications API
+  slug: open-worldbank-classifications-api
+- collection_type: open
+  name: World Bank Indicators Classifications Countries API
+  slug: open-worldbank-countries-api
+- collection_type: open
+  name: World Bank Classifications Indicators API
+  slug: open-worldbank-indicators-api
+- collection_type: open
+  name: World Bank Indicators Classifications Regions API
+  slug: open-worldbank-regions-api
+- collection_type: open
+  name: World Bank Indicators Classifications Sources API
+  slug: open-worldbank-sources-api
+- collection_type: open
+  name: World Bank Indicators Classifications Topics API
+  slug: open-worldbank-topics-api
 common:
 - group: agent
   title: ''
@@ -151,7 +173,7 @@ overview: 'World Bank publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   World Bank''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 9
   name: Worldbank Rate Limits
@@ -191,7 +213,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/screenshots/worldbank-2026-06-20T201620.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,7 +80,59 @@ apis:
 - description: The Trade History API from Caplight — 1 operation(s) for trade history.
   name: Caplight Trade History API
   slug: caplight-trade-history-api
-artifact_total: 22
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Caplight REST Companies API
+  slug: open-caplight-companies-api
+- collection_type: open
+  name: Caplight REST Company API
+  slug: open-caplight-company-api
+- collection_type: open
+  name: Caplight REST Company Details API
+  slug: open-caplight-company-details-api
+- collection_type: open
+  name: Caplight REST Company Filings API
+  slug: open-caplight-company-filings-api
+- collection_type: open
+  name: Caplight REST Company Lookup API
+  slug: open-caplight-company-lookup-api
+- collection_type: open
+  name: Caplight REST Composite Index API
+  slug: open-caplight-composite-index-api
+- collection_type: open
+  name: Caplight REST Comps API
+  slug: open-caplight-comps-api
+- collection_type: open
+  name: Caplight REST Fund Marks API
+  slug: open-caplight-fund-marks-api
+- collection_type: open
+  name: Caplight REST Funding Rounds API
+  slug: open-caplight-funding-rounds-api
+- collection_type: open
+  name: Caplight REST Investors API
+  slug: open-caplight-investors-api
+- collection_type: open
+  name: Caplight REST Live Orderbook API
+  slug: open-caplight-live-orderbook-api
+- collection_type: open
+  name: Caplight REST Market Price API
+  slug: open-caplight-marketprice-api
+- collection_type: open
+  name: Caplight REST News API
+  slug: open-caplight-news-api
+- collection_type: open
+  name: Caplight REST Order History API
+  slug: open-caplight-order-history-api
+- collection_type: open
+  name: Caplight REST Stock Splits API
+  slug: open-caplight-stock-splits-api
+- collection_type: open
+  name: Caplight REST Trade History API
+  slug: open-caplight-trade-history-api
 common:
 - group: other
   title: ''
@@ -213,7 +265,7 @@ overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Caplight''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
-random_paper: 4
+random_paper: 99
 score:
   band: developing
   composite: 46.2
@@ -243,7 +295,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

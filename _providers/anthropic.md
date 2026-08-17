@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -146,7 +146,7 @@ arazzos:
 - description: Upload a file, read back its metadata, and download its content when it is downloadable.
   name: Anthropic Upload, Verify, and Download a File
   slug: anthropic-upload-verify-download-file-workflow
-artifact_total: 99
+artifact_total: 117
 asyncapis:
 - description: 'AsyncAPI specification modeling the Server-Sent Events (SSE) stream produced by Anthropic''s Messages API when `"stream": true` is set on a POST to `/v1/messages`. Transport: HTTP/1.1 with `Content-Typ'
   name: Anthropic Messages Streaming API
@@ -186,38 +186,92 @@ collections:
   name: Anthropic Usage and Cost API
   slug: postman-anthropic-usage-cost-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Anthropic Admin API
   slug: open-anthropic-admin-api
 - collection_type: open
-  name: Anthropic Claude Code Analytics API
+  name: Anthropic Admin Agents API
+  slug: open-anthropic-agents-api
+- collection_type: open
+  name: Anthropic Admin Agents Api Keys API
+  slug: open-anthropic-api-keys-api
+- collection_type: open
+  name: Anthropic Admin Agents Claude Code Analytics API
   slug: open-anthropic-claude-code-analytics-api
 - collection_type: open
-  name: Anthropic Files API
+  name: Anthropic Admin Agents Cost API
+  slug: open-anthropic-cost-api
+- collection_type: open
+  name: Anthropic Admin Agents Environments API
+  slug: open-anthropic-environments-api
+- collection_type: open
+  name: Anthropic Admin Agents Events API
+  slug: open-anthropic-events-api
+- collection_type: open
+  name: Anthropic Admin Agents Files API
   slug: open-anthropic-files-api
 - collection_type: open
   name: Anthropic Managed Agents API
   slug: open-anthropic-managed-agents-api
 - collection_type: open
-  name: Anthropic Message Batches API
+  name: Anthropic Admin Agents Message Batches API
   slug: open-anthropic-message-batches-api
 - collection_type: open
-  name: Anthropic Messages API
+  name: Anthropic Admin Agents Messages API
   slug: open-anthropic-messages-api
 - collection_type: open
-  name: Anthropic Models API
+  name: Anthropic Admin Agents Models API
   slug: open-anthropic-models-api
+- collection_type: open
+  name: Anthropic Admin Agents Organization API
+  slug: open-anthropic-organization-api
+- collection_type: open
+  name: Anthropic Admin Agents Organization Invites API
+  slug: open-anthropic-organization-invites-api
+- collection_type: open
+  name: Anthropic Admin Agents Organization Members API
+  slug: open-anthropic-organization-members-api
+- collection_type: open
+  name: Anthropic Admin Agents Prompt Generation API
+  slug: open-anthropic-prompt-generation-api
+- collection_type: open
+  name: Anthropic Admin Agents Prompt Improvement API
+  slug: open-anthropic-prompt-improvement-api
+- collection_type: open
+  name: Anthropic Admin Agents Prompt Templatization API
+  slug: open-anthropic-prompt-templatization-api
 - collection_type: open
   name: Anthropic Prompt Tools API
   slug: open-anthropic-prompts-api
 - collection_type: open
-  name: Anthropic Skills API
+  name: Anthropic Admin Agents Sessions API
+  slug: open-anthropic-sessions-api
+- collection_type: open
+  name: Anthropic Admin Agents Skill Versions API
+  slug: open-anthropic-skill-versions-api
+- collection_type: open
+  name: Anthropic Admin Agents Skills API
   slug: open-anthropic-skills-api
 - collection_type: open
-  name: Anthropic Token Counting API
+  name: Anthropic Admin Agents Token Counting API
   slug: open-anthropic-token-counting-api
+- collection_type: open
+  name: Anthropic Admin Agents Tokens API
+  slug: open-anthropic-tokens-api
+- collection_type: open
+  name: Anthropic Admin Agents Usage API
+  slug: open-anthropic-usage-api
 - collection_type: open
   name: Anthropic Usage and Cost API
   slug: open-anthropic-usage-cost-api
+- collection_type: open
+  name: Anthropic Admin Agents Workspace Members API
+  slug: open-anthropic-workspace-members-api
+- collection_type: open
+  name: Anthropic Admin Agents Workspaces API
+  slug: open-anthropic-workspaces-api
 common:
 - group: agent
   title: ''
@@ -797,7 +851,7 @@ plans:
 - name: Anthropic Plans Pricing
   plan_count: 5
   slug: anthropic-plans-pricing
-random_paper: 8
+random_paper: 74
 rate_limits:
 - limit_count: 12
   name: Anthropic Rate Limits
@@ -841,7 +895,7 @@ score:
       total: 24
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:

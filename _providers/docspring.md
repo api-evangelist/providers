@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: The Templates API from DocSpring — 8 operation(s) for templates.
   name: DocSpring Templates API
   slug: docspring-templates-api
-artifact_total: 50
+artifact_total: 59
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DocSpring Authentication API
+  slug: open-docspring-authentication-api
+- collection_type: open
+  name: DocSpring Authentication Combine PDFs API
+  slug: open-docspring-combine-pdfs-api
+- collection_type: open
+  name: DocSpring Authentication Custom Files API
+  slug: open-docspring-custom-files-api
+- collection_type: open
+  name: DocSpring Authentication Data Requests API
+  slug: open-docspring-data-requests-api
+- collection_type: open
+  name: DocSpring Authentication Folders API
+  slug: open-docspring-folders-api
+- collection_type: open
+  name: DocSpring Authentication PDF Submissions API
+  slug: open-docspring-pdf-submissions-api
+- collection_type: open
+  name: DocSpring Authentication Submission Batches API
+  slug: open-docspring-submission-batches-api
+- collection_type: open
+  name: DocSpring Authentication Templates API
+  slug: open-docspring-templates-api
 common:
 - group: agent
   title: ''
@@ -255,7 +283,7 @@ plans:
 - name: Docspring Plans Pricing
   plan_count: 4
   slug: docspring-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Docspring Rate Limits
@@ -289,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/screenshots/docspring-2026-06-20T180114.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -57,12 +57,15 @@ apis:
 - description: The Payouts API from EBANX — 12 operation(s) for payouts.
   name: EBANX Payouts API
   slug: ebanx-payouts-api
-artifact_total: 33
+artifact_total: 37
 asyncapis:
 - description: EBANX sends HTTP POST callbacks to a merchant-configured Notification URL whenever a payment changes state — approved, pending, cancelled, refunded, or chargeback. Each request includes a digital sign
   name: EBANX Payment Notifications
   slug: ebanx-notifications-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: EBANX FX API
   slug: open-ebanx-fx-api
@@ -73,10 +76,19 @@ collections:
   name: EBANX Payment Page API
   slug: open-ebanx-payment-page-api
 - collection_type: open
+  name: EBANX FX PaymentPage API
+  slug: open-ebanx-paymentpage-api
+- collection_type: open
+  name: EBANX FX Payments API
+  slug: open-ebanx-payments-api
+- collection_type: open
   name: EBANX Payout API
   slug: open-ebanx-payout-api
 - collection_type: open
-  name: EBANX Tokenization API
+  name: EBANX FX Payouts API
+  slug: open-ebanx-payouts-api
+- collection_type: open
+  name: EBANX FX Tokenization API
   slug: open-ebanx-tokenization-api
 common:
 - group: agent
@@ -156,7 +168,7 @@ plans:
 - name: Ebanx Plans Pricing
   plan_count: 2
   slug: ebanx-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Ebanx Rate Limits
@@ -212,7 +224,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/screenshots/ebanx-2026-06-20T180446.png
 security:

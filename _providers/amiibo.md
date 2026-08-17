@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Reference data endpoints for types, series, characters, and game series
   name: Amiibo API Reference API
   slug: amiibo-reference-api
-artifact_total: 13
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amiibo API
+  slug: open-amiibo-amiibo-api
+- collection_type: open
+  name: Amiibo Metadata API
+  slug: open-amiibo-metadata-api
+- collection_type: open
+  name: Amiibo Reference API
+  slug: open-amiibo-reference-api
 common:
 - group: agent
   title: ''
@@ -118,7 +131,7 @@ plans:
 - name: Amiibo Plans Pricing
   plan_count: 1
   slug: amiibo-plans-pricing
-random_paper: 25
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Amiibo Rate Limits
@@ -152,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/screenshots/amiibo-2026-06-20T171931.png
 security:

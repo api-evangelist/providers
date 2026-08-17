@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The WordPress core REST API (wp/v2 namespace) served by elixirmedical.com, the Elixir Medical corporate website. It exposes the site's pages, news posts, media library, categories, tags, comments, aut
   name: Elixir Medical Website Content API (WordPress REST)
   slug: elixir-medical-wordpress-content
-artifact_total: 5
+artifact_total: 6
+collections:
+- collection_type: open
+  name: Elixir Medical Website Content API (WordPress REST wp/v2)
+  slug: open-elixir-medical-wordpress-content
 common:
 - group: auth
   title: ''
@@ -114,7 +118,7 @@ plans:
 - name: Elixir Medical Plans Pricing
   plan_count: 0
   slug: elixir-medical-plans-pricing
-random_paper: 97
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Elixir Medical Rate Limits
@@ -122,6 +126,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.0
@@ -129,6 +134,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 33.5
   regulatory:
     applies: true
     matched_via: tags
@@ -136,7 +142,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Elixir Medical Authentication

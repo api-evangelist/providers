@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -102,7 +102,7 @@ apis:
 - description: Manage workspaces (projects) which organize feature flags and experiments across business units, product lines, and applications.
   name: Split Workspaces API
   slug: split-workspaces-api
-artifact_total: 117
+artifact_total: 133
 collections:
 - collection_type: postman
   name: Split Admin API
@@ -153,14 +153,62 @@ collections:
   name: Split Admin Workspaces API
   slug: postman-split-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Split Admin API
   slug: open-split-admin-api
+- collection_type: open
+  name: Split Admin API Keys API
+  slug: open-split-api-keys-api
+- collection_type: open
+  name: Split Admin Attributes API
+  slug: open-split-attributes-api
+- collection_type: open
+  name: Split Admin Change Requests API
+  slug: open-split-change-requests-api
+- collection_type: open
+  name: Split Admin Environments API
+  slug: open-split-environments-api
+- collection_type: open
+  name: Split Admin Evaluation API
+  slug: open-split-evaluation-api
 - collection_type: open
   name: Split Evaluator API
   slug: open-split-evaluator-api
 - collection_type: open
+  name: Split Admin Events API
+  slug: open-split-events-api
+- collection_type: open
   name: Split Feature Flag API
   slug: open-split-feature-flag-api
+- collection_type: open
+  name: Split Admin Feature Flag Definitions API
+  slug: open-split-feature-flag-definitions-api
+- collection_type: open
+  name: Split Admin Feature Flags API
+  slug: open-split-feature-flags-api
+- collection_type: open
+  name: Split Admin Groups API
+  slug: open-split-groups-api
+- collection_type: open
+  name: Split Admin Identities API
+  slug: open-split-identities-api
+- collection_type: open
+  name: Split Admin Large Segments API
+  slug: open-split-large-segments-api
+- collection_type: open
+  name: Split Admin Segments API
+  slug: open-split-segments-api
+- collection_type: open
+  name: Split Admin Traffic Types API
+  slug: open-split-traffic-types-api
+- collection_type: open
+  name: Split Admin Users API
+  slug: open-split-users-api
+- collection_type: open
+  name: Split Admin Workspaces API
+  slug: open-split-workspaces-api
 common:
 - group: build
   title: ''
@@ -454,7 +502,7 @@ plans:
 - name: Split Plans Pricing
   plan_count: 3
   slug: split-plans-pricing
-random_paper: 76
+random_paper: 109
 rate_limits:
 - limit_count: 3
   name: Split Rate Limits
@@ -496,7 +544,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/screenshots/split-2026-06-20T194330.png
 security:

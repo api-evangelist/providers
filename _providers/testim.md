@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: REST API used to trigger and manage test executions, query test run status, and retrieve results for tests authored in Testim. Authentication is via a personal access token issued from the Testim work
@@ -106,7 +106,7 @@ plans:
 - name: Testim Plans Pricing
   plan_count: 1
   slug: testim-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Testim Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 20.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testim/refs/heads/main/screenshots/testim-2026-06-20T195153.png
 security:

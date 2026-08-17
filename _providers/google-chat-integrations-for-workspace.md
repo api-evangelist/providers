@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: The Spaces API from Google Chat Integrations for Workspace — 1 operation(s) for spaces.
   name: Google Chat Integrations for Workspace Spaces API
   slug: google-chat-integrations-for-workspace-spaces-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Chat CustomEmojis API
+  slug: open-google-chat-integrations-for-workspace-customemojis-api
+- collection_type: open
+  name: Google Chat CustomEmojis Google Chat API API
+  slug: open-google-chat-integrations-for-workspace-google-chat-api-api
+- collection_type: open
+  name: Google Chat CustomEmojis Members API
+  slug: open-google-chat-integrations-for-workspace-members-api
+- collection_type: open
+  name: Google Chat CustomEmojis Message API
+  slug: open-google-chat-integrations-for-workspace-message-api
+- collection_type: open
+  name: Google Chat CustomEmojis Messages API
+  slug: open-google-chat-integrations-for-workspace-messages-api
+- collection_type: open
+  name: Google Chat CustomEmojis Reactions API
+  slug: open-google-chat-integrations-for-workspace-reactions-api
+- collection_type: open
+  name: Google Chat CustomEmojis Spaces API
+  slug: open-google-chat-integrations-for-workspace-spaces-api
 - collection_type: open
   name: Google Chat API
   slug: open-google-chat-integrations-for-workspace
@@ -136,7 +160,7 @@ overview: 'Google Chat Integrations for Workspace publishes 7 APIs on the [APIs.
 
 
   Google Chat Integrations for Workspace''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 118
+random_paper: 113
 scopes:
 - name: Google Chat Integrations For Workspace Scopes
   scope_count: 3
@@ -162,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/screenshots/google-chat-integrations-for-workspace-2026-06-20T182041.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -63,7 +63,29 @@ apis:
 - description: The Policy API from Aserto — 2 operation(s) for policy.
   name: Aserto Policy API
   slug: aserto-policy-api
-artifact_total: 126
+artifact_total: 133
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: aserto//v2/.proto Authorizer API
+  slug: open-aserto-authorizer-api
+- collection_type: open
+  name: aserto//v2/.proto Authorizer authzen API
+  slug: open-aserto-authzen-api
+- collection_type: open
+  name: aserto//v2/.proto Authorizer decision_logs API
+  slug: open-aserto-decision-logs-api
+- collection_type: open
+  name: aserto//v2/.proto Authorizer directory API
+  slug: open-aserto-directory-api
+- collection_type: open
+  name: aserto//v2/.proto Authorizer Info API
+  slug: open-aserto-info-api
+- collection_type: open
+  name: aserto//v2/.proto Authorizer Policy API
+  slug: open-aserto-policy-api
 common:
 - group: agent
   title: ''
@@ -481,7 +503,7 @@ plans:
 - name: Aserto Plans Pricing
   plan_count: 3
   slug: aserto-plans-pricing
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Aserto Rate Limits
@@ -521,7 +543,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/screenshots/aserto-2026-06-20T172456.png
 security:

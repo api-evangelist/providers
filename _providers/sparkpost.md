@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -75,7 +75,47 @@ apis:
 - description: The Webhooks API from SparkPost — 6 operation(s) for webhooks.
   name: SparkPost Webhooks API
   slug: sparkpost-webhooks-api
-artifact_total: 27
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SparkPost Events DKIM Keys API
+  slug: open-sparkpost-dkim-keys-api
+- collection_type: open
+  name: SparkPost DKIM Keys Events API
+  slug: open-sparkpost-events-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Inbound Domains API
+  slug: open-sparkpost-inbound-domains-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Metrics API
+  slug: open-sparkpost-metrics-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Recipient Lists API
+  slug: open-sparkpost-recipient-lists-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Relay Webhooks API
+  slug: open-sparkpost-relay-webhooks-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Sending Domains API
+  slug: open-sparkpost-sending-domains-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Subaccounts API
+  slug: open-sparkpost-subaccounts-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Suppression List API
+  slug: open-sparkpost-suppression-list-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Templates API
+  slug: open-sparkpost-templates-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Transmissions API
+  slug: open-sparkpost-transmissions-api
+- collection_type: open
+  name: SparkPost Events DKIM Keys Webhooks API
+  slug: open-sparkpost-webhooks-api
 common:
 - group: agent
   title: ''
@@ -221,7 +261,7 @@ plans:
 - name: Sparkpost Plans Pricing
   plan_count: 3
   slug: sparkpost-plans-pricing
-random_paper: 39
+random_paper: 105
 rate_limits:
 - limit_count: 1
   name: Sparkpost Rate Limits
@@ -255,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/screenshots/sparkpost-2026-06-20T194256.png
 security:

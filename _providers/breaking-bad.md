@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,8 +49,23 @@ apis:
 - description: Memorable quotes attributed to characters.
   name: Breaking Bad Quotes API
   slug: breaking-bad-quotes-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Breaking Bad Characters API
+  slug: open-breaking-bad-characters-api
+- collection_type: open
+  name: Breaking Bad Characters Deaths API
+  slug: open-breaking-bad-deaths-api
+- collection_type: open
+  name: Breaking Bad Characters Episodes API
+  slug: open-breaking-bad-episodes-api
+- collection_type: open
+  name: Breaking Bad Characters Quotes API
+  slug: open-breaking-bad-quotes-api
 - collection_type: open
   name: Breaking Bad API
   slug: open-breaking-bad
@@ -146,7 +161,7 @@ overview: 'Breaking Bad publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   The Breaking Bad catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 95
+random_paper: 132
 rules:
 - name: Breaking Bad API Rules
   rule_count: 5
@@ -184,7 +199,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/screenshots/breaking-bad-2026-06-20T173647.png
 slug: breaking-bad

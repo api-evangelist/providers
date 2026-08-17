@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,14 +60,32 @@ apis:
 - description: Entity search and discovery
   name: S&P Global Search API
   slug: s-and-p-global-search-api
-artifact_total: 22
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: S&P Global Commodity Insights Authentication API
+  slug: open-s-and-p-global-authentication-api
 - collection_type: open
   name: S&P Global Commodity Insights API
   slug: open-s-and-p-global-commodity-insights
 - collection_type: open
+  name: S&P Global Commodity Insights Authentication Entity Resolution API
+  slug: open-s-and-p-global-entity-resolution-api
+- collection_type: open
   name: Kensho Link API
   slug: open-s-and-p-global-kensho-link
+- collection_type: open
+  name: S&P Global Commodity Insights Authentication Market Data API
+  slug: open-s-and-p-global-market-data-api
+- collection_type: open
+  name: S&P Global Commodity Insights Authentication Reference Data API
+  slug: open-s-and-p-global-reference-data-api
+- collection_type: open
+  name: S&P Global Commodity Insights Authentication Search API
+  slug: open-s-and-p-global-search-api
 common:
 - group: agent
   title: ''
@@ -168,7 +186,7 @@ plans:
 - name: S And P Global Plans Pricing
   plan_count: 1
   slug: s-and-p-global-plans-pricing
-random_paper: 94
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: S And P Global Rate Limits
@@ -216,7 +234,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/screenshots/s-and-p-global-2026-06-20T193312.png
 security:

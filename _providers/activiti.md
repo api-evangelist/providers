@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 1
@@ -168,7 +168,137 @@ apis:
 - description: Retrieve Workflow User
   name: Activiti Users Workflow API
   slug: activiti-users-workflow-api
-artifact_total: 66
+artifact_total: 109
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Activiti Public Rest About API
+  slug: open-activiti-about-api
+- collection_type: open
+  name: Activiti Public Rest About Admin Endpoints API
+  slug: open-activiti-admin-endpoints-api
+- collection_type: open
+  name: Activiti Public Rest About Admin Groups API
+  slug: open-activiti-admin-groups-api
+- collection_type: open
+  name: Activiti Public Rest About Admin Tenants API
+  slug: open-activiti-admin-tenants-api
+- collection_type: open
+  name: Activiti Public Rest About Admin Users API
+  slug: open-activiti-admin-users-api
+- collection_type: open
+  name: Activiti Public Rest About Alfresco API
+  slug: open-activiti-alfresco-api
+- collection_type: open
+  name: Activiti Public Rest About Apps API
+  slug: open-activiti-apps-api
+- collection_type: open
+  name: Activiti Public Rest About Apps Definition API
+  slug: open-activiti-apps-definition-api
+- collection_type: open
+  name: Activiti Public Rest About Apps Runtime API
+  slug: open-activiti-apps-runtime-api
+- collection_type: open
+  name: Activiti Public Rest About Comments API
+  slug: open-activiti-comments-api
+- collection_type: open
+  name: Activiti Public Rest About Content API
+  slug: open-activiti-content-api
+- collection_type: open
+  name: Activiti Public Rest About Content Rendition API
+  slug: open-activiti-content-rendition-api
+- collection_type: open
+  name: Activiti Public Rest About Editor API
+  slug: open-activiti-editor-api
+- collection_type: open
+  name: Activiti Public Rest About Groups API
+  slug: open-activiti-groups-api
+- collection_type: open
+  name: Activiti Public Rest About IDM Sync API
+  slug: open-activiti-idm-sync-api
+- collection_type: open
+  name: Activiti Public Rest About Integration Account API
+  slug: open-activiti-integration-account-api
+- collection_type: open
+  name: Activiti Public Rest About Integration Alfresco Cloud API
+  slug: open-activiti-integration-alfresco-cloud-api
+- collection_type: open
+  name: Activiti Public Rest About Integration Alfresco OnPremise API
+  slug: open-activiti-integration-alfresco-onpremise-api
+- collection_type: open
+  name: Activiti Public Rest About Integration API
+  slug: open-activiti-integration-api
+- collection_type: open
+  name: Activiti Public Rest About Integration Box API
+  slug: open-activiti-integration-box-api
+- collection_type: open
+  name: Activiti Public Rest About Integration Drive API
+  slug: open-activiti-integration-drive-api
+- collection_type: open
+  name: Activiti Public Rest About Model Bpmn API
+  slug: open-activiti-model-bpmn-api
+- collection_type: open
+  name: Activiti Public Rest About Models API
+  slug: open-activiti-models-api
+- collection_type: open
+  name: Activiti Public Rest About Models History API
+  slug: open-activiti-models-history-api
+- collection_type: open
+  name: Activiti Public Rest About Process API
+  slug: open-activiti-process-api
+- collection_type: open
+  name: Activiti Public Rest About Process Definitions API
+  slug: open-activiti-process-definitions-api
+- collection_type: open
+  name: Activiti Public Rest About Process Definitions Form API
+  slug: open-activiti-process-definitions-form-api
+- collection_type: open
+  name: Activiti Public Rest About Process Instances API
+  slug: open-activiti-process-instances-api
+- collection_type: open
+  name: Activiti Public Rest About Process Instances Information API
+  slug: open-activiti-process-instances-information-api
+- collection_type: open
+  name: Activiti Public Rest About Process Instances Listing API
+  slug: open-activiti-process-instances-listing-api
+- collection_type: open
+  name: Activiti Public Rest About Process Scope API
+  slug: open-activiti-process-scope-api
+- collection_type: open
+  name: Activiti Public Rest About Profile API
+  slug: open-activiti-profile-api
+- collection_type: open
+  name: Activiti Public Rest About Script File API
+  slug: open-activiti-script-file-api
+- collection_type: open
+  name: Activiti Public Rest About System Properties API
+  slug: open-activiti-system-properties-api
+- collection_type: open
+  name: Activiti Public Rest About Task Actions API
+  slug: open-activiti-task-actions-api
+- collection_type: open
+  name: Activiti Public Rest About Task API
+  slug: open-activiti-task-api
+- collection_type: open
+  name: Activiti Public Rest About Task CheckList API
+  slug: open-activiti-task-checklist-api
+- collection_type: open
+  name: Activiti Public Rest About Task Forms API
+  slug: open-activiti-task-forms-api
+- collection_type: open
+  name: Activiti Public Rest About Temporary API
+  slug: open-activiti-temporary-api
+- collection_type: open
+  name: Activiti Public Rest About User API
+  slug: open-activiti-user-api
+- collection_type: open
+  name: Activiti Public Rest About User Filters API
+  slug: open-activiti-user-filters-api
+- collection_type: open
+  name: Activiti Public Rest About Users Workflow API
+  slug: open-activiti-users-workflow-api
 common:
 - group: operate
   title: ''
@@ -333,7 +463,7 @@ plans:
 - name: Activiti Plans Pricing
   plan_count: 2
   slug: activiti-plans-pricing
-random_paper: 21
+random_paper: 116
 rate_limits:
 - limit_count: 0
   name: Activiti Rate Limits
@@ -367,7 +497,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activiti/refs/heads/main/screenshots/activiti-2026-06-20T164259.png
 security:

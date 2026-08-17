@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,8 +55,17 @@ apis:
 - description: Registry-wide metadata
   name: Bazel Registry API
   slug: bazel-build-registry-api
-artifact_total: 29
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bazel Central Registry Modules API
+  slug: open-bazel-build-modules-api
+- collection_type: open
+  name: Bazel Central Modules Registry API
+  slug: open-bazel-build-registry-api
 - collection_type: open
   name: Bazel Central Registry API
   slug: open-bazel-central-registry
@@ -327,7 +336,7 @@ overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mo
 
 
   Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 44 more developer resources.'
-random_paper: 19
+random_paper: 56
 rules:
 - name: Bazel API Rules
   rule_count: 5
@@ -365,7 +374,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -87,7 +87,53 @@ apis:
 - description: Various utilities
   name: University of Calgary Utils API
   slug: university-of-calgary-utils-api
-artifact_total: 32
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AuroraX Application.wadl API
+  slug: open-university-of-calgary-application-wadl-api
+- collection_type: open
+  name: AuroraX Application.wadl Auroral Transport Model (ATM) API
+  slug: open-university-of-calgary-auroral-transport-model-atm-api
+- collection_type: open
+  name: AuroraX Application.wadl Authenticate API
+  slug: open-university-of-calgary-authenticate-api
+- collection_type: open
+  name: AuroraX Application.wadl Availability API
+  slug: open-university-of-calgary-availability-api
+- collection_type: open
+  name: AuroraX Application.wadl Conjunction Search API
+  slug: open-university-of-calgary-conjunction-search-api
+- collection_type: open
+  name: AuroraX Application.wadl Data Distribution API
+  slug: open-university-of-calgary-data-distribution-api
+- collection_type: open
+  name: AuroraX Application.wadl Data Products Search API
+  slug: open-university-of-calgary-data-products-search-api
+- collection_type: open
+  name: AuroraX Application.wadl Data Sources API
+  slug: open-university-of-calgary-data-sources-api
+- collection_type: open
+  name: AuroraX Application.wadl Ephemeris Search API
+  slug: open-university-of-calgary-ephemeris-search-api
+- collection_type: open
+  name: AuroraX Application.wadl Manage Data API
+  slug: open-university-of-calgary-manage-data-api
+- collection_type: open
+  name: AuroraX Application.wadl Operations - SITL API
+  slug: open-university-of-calgary-operations-sitl-api
+- collection_type: open
+  name: AuroraX Application.wadl Real-Time Data API
+  slug: open-university-of-calgary-real-time-data-api
+- collection_type: open
+  name: AuroraX Application.wadl Utilities API
+  slug: open-university-of-calgary-utilities-api
+- collection_type: open
+  name: AuroraX Application.wadl Utils API
+  slug: open-university-of-calgary-utils-api
 common:
 - group: agent
   title: ''
@@ -202,7 +248,7 @@ plans:
 - name: University Of Calgary Plans Pricing
   plan_count: 2
   slug: university-of-calgary-plans-pricing
-random_paper: 4
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: University Of Calgary Rate Limits
@@ -250,7 +296,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/screenshots/university-of-calgary-2026-06-20T200144.png
 security:

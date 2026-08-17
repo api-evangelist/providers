@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -135,7 +135,7 @@ overview: 'Goose Insurance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Goose Insurance''s developer surface includes support, engineering blog, product news, and 22 more developer resources.'
-random_paper: 114
+random_paper: 64
 score:
   band: emerging
   composite: 14.2
@@ -157,7 +157,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/screenshots/goose-insurance-2026-07-25T220107.png
 security:

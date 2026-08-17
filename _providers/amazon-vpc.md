@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Operations for creating and managing Virtual Private Clouds
   name: Amazon VPC VPCs API
   slug: amazon-vpc-vpcs-api
-artifact_total: 56
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Amazon VPC Internet Gateways API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Amazon VPC Internet Gateways VPCs API
   slug: postman-amazon-vpc-vpcs-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon VPC Internet Gateways API
+  slug: open-amazon-vpc-internet-gateways-api
+- collection_type: open
+  name: Amazon VPC Internet Gateways NAT Gateways API
+  slug: open-amazon-vpc-nat-gateways-api
+- collection_type: open
+  name: Amazon VPC Internet Gateways Network ACLs API
+  slug: open-amazon-vpc-network-acls-api
+- collection_type: open
+  name: Amazon VPC Internet Gateways Route Tables API
+  slug: open-amazon-vpc-route-tables-api
+- collection_type: open
+  name: Amazon VPC Internet Gateways Subnets API
+  slug: open-amazon-vpc-subnets-api
+- collection_type: open
+  name: Amazon VPC Internet Gateways VPCs API
+  slug: open-amazon-vpc-vpcs-api
 - collection_type: open
   name: Amazon VPC API
   slug: open-amazon-vpc
@@ -308,7 +329,7 @@ plans:
 - name: Amazon Vpc Plans Pricing
   plan_count: 3
   slug: amazon-vpc-plans-pricing
-random_paper: 60
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Amazon Vpc Rate Limits
@@ -350,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/screenshots/amazon-vpc-2026-06-20T171843.png
 security:

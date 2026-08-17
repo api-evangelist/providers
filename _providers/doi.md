@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -162,7 +162,119 @@ apis:
 - description: The code that best describes the topographic setting in which the site is located. Topographic setting refers to the geomorphic features in the vicinity of the site.
   name: Department of Interior topographic-codes API
   slug: doi-topographic-codes-api
-artifact_total: 57
+artifact_total: 94
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes API
+  slug: open-doi-agency-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes altitude-datums API
+  slug: open-doi-altitude-datums-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes aquifer-codes API
+  slug: open-doi-aquifer-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes aquifer-types API
+  slug: open-doi-aquifer-types-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes channel-measurements API
+  slug: open-doi-channel-measurements-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes citations API
+  slug: open-doi-citations-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes combined-metadata API
+  slug: open-doi-combined-metadata-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes continuous API
+  slug: open-doi-continuous-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes coordinate-accuracy-codes API
+  slug: open-doi-coordinate-accuracy-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes coordinate-datum-codes API
+  slug: open-doi-coordinate-datum-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes coordinate-method-codes API
+  slug: open-doi-coordinate-method-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes counties API
+  slug: open-doi-counties-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes countries API
+  slug: open-doi-countries-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes daily API
+  slug: open-doi-daily-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes field-measurements API
+  slug: open-doi-field-measurements-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes field-measurements-metadata API
+  slug: open-doi-field-measurements-metadata-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes hydrologic-unit-codes API
+  slug: open-doi-hydrologic-unit-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes latest-continuous API
+  slug: open-doi-latest-continuous-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes latest-daily API
+  slug: open-doi-latest-daily-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes latest-field-measurements API
+  slug: open-doi-latest-field-measurements-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes medium-codes API
+  slug: open-doi-medium-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes method-categories API
+  slug: open-doi-method-categories-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes method-citations API
+  slug: open-doi-method-citations-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes methods API
+  slug: open-doi-methods-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes monitoring-locations API
+  slug: open-doi-monitoring-locations-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes national-aquifer-codes API
+  slug: open-doi-national-aquifer-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes parameter-codes API
+  slug: open-doi-parameter-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes peaks API
+  slug: open-doi-peaks-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes reliability-codes API
+  slug: open-doi-reliability-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes server API
+  slug: open-doi-server-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes site-types API
+  slug: open-doi-site-types-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes states API
+  slug: open-doi-states-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes statistic-codes API
+  slug: open-doi-statistic-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes time-series-metadata API
+  slug: open-doi-time-series-metadata-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes time-zone-codes API
+  slug: open-doi-time-zone-codes-api
+- collection_type: open
+  name: USGS Water Data OGC APIs agency-codes topographic-codes API
+  slug: open-doi-topographic-codes-api
 common:
 - group: agent
   title: ''
@@ -266,7 +378,7 @@ plans:
 - name: Doi Plans Pricing
   plan_count: 3
   slug: doi-plans-pricing
-random_paper: 76
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Doi Rate Limits
@@ -306,7 +418,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/screenshots/doi-2026-06-20T180128.png
 security:

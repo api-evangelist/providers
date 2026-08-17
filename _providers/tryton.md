@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RESTful API for Tryton ERP providing access to all business modules including financial accounting, stock/inventory, sales, purchasing, and production. Supports standard HTTP methods with JSON payload
@@ -100,7 +100,7 @@ plans:
 - name: Tryton Plans Pricing
   plan_count: 2
   slug: tryton-plans-pricing
-random_paper: 88
+random_paper: 92
 rate_limits:
 - limit_count: 0
   name: Tryton Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 25.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tryton/refs/heads/main/screenshots/tryton-2026-06-20T195813.png
 security:

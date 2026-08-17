@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -83,11 +83,59 @@ apis:
 - description: Work schedule patterns
   name: Humaans Working Patterns API
   slug: humaans-io-working-patterns-api
-artifact_total: 41
+artifact_total: 57
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Humaans API
   slug: open-humaans-api
+- collection_type: open
+  name: Humaans Audit Events API
+  slug: open-humaans-io-audit-events-api
+- collection_type: open
+  name: Humaans Audit Events Bank Accounts API
+  slug: open-humaans-io-bank-accounts-api
+- collection_type: open
+  name: Humaans Audit Events Companies API
+  slug: open-humaans-io-companies-api
+- collection_type: open
+  name: Humaans Audit Events Compensations API
+  slug: open-humaans-io-compensations-api
+- collection_type: open
+  name: Humaans Audit Events Custom Fields API
+  slug: open-humaans-io-custom-fields-api
+- collection_type: open
+  name: Humaans Audit Events Documents API
+  slug: open-humaans-io-documents-api
+- collection_type: open
+  name: Humaans Audit Events Equipment API
+  slug: open-humaans-io-equipment-api
+- collection_type: open
+  name: Humaans Audit Events Job Roles API
+  slug: open-humaans-io-job-roles-api
+- collection_type: open
+  name: Humaans Audit Events Locations API
+  slug: open-humaans-io-locations-api
+- collection_type: open
+  name: Humaans Audit Events People API
+  slug: open-humaans-io-people-api
+- collection_type: open
+  name: Humaans Audit Events Performance API
+  slug: open-humaans-io-performance-api
+- collection_type: open
+  name: Humaans Audit Events Time Away API
+  slug: open-humaans-io-time-away-api
+- collection_type: open
+  name: Humaans Audit Events Timesheet API
+  slug: open-humaans-io-timesheet-api
+- collection_type: open
+  name: Humaans Audit Events Webhooks API
+  slug: open-humaans-io-webhooks-api
+- collection_type: open
+  name: Humaans Audit Events Working Patterns API
+  slug: open-humaans-io-working-patterns-api
 common:
 - group: agent
   title: ''
@@ -263,7 +311,7 @@ overview: 'Humaans publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Humaans'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 28 more developer resources.'
-random_paper: 50
+random_paper: 116
 score:
   band: developing
   composite: 46.0
@@ -284,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/screenshots/humaans-io-2026-06-20T182927.png
 security:

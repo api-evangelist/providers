@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -60,7 +60,7 @@ apis:
 - description: Manage user accounts, groups, and membership for SnapLogic organizations.
   name: SnapLogic Users and Groups API
   slug: snaplogic-users-and-groups-api
-artifact_total: 117
+artifact_total: 122
 collections:
 - collection_type: postman
   name: SnapLogic Public APIs Asset Management API
@@ -75,8 +75,23 @@ collections:
   name: SnapLogic Public APIs Asset Management Users and Groups API
   slug: postman-snaplogic-users-and-groups-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SnapLogic Public APIs Asset Management API
+  slug: open-snaplogic-asset-management-api
+- collection_type: open
   name: SnapLogic Public APIs
   slug: open-snaplogic-public-apis
+- collection_type: open
+  name: SnapLogic Public APIs Asset Management Runtime API
+  slug: open-snaplogic-runtime-api
+- collection_type: open
+  name: SnapLogic Public APIs Asset Management Tasks API
+  slug: open-snaplogic-tasks-api
+- collection_type: open
+  name: SnapLogic Public APIs Asset Management Users and Groups API
+  slug: open-snaplogic-users-and-groups-api
 common:
 - group: build
   title: ''
@@ -286,7 +301,7 @@ plans:
 - name: Snaplogic Plans Pricing
   plan_count: 1
   slug: snaplogic-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Snaplogic Rate Limits
@@ -328,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/screenshots/snaplogic-2026-06-20T194106.png
 security:

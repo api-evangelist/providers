@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,17 @@ apis:
 - description: The University of Alberta Library publishes open-source code through its GitHub organization (ualbertalib), including tools that interact with repository and digital-asset platform APIs (for example D
   name: University of Alberta Library Open Source (GitHub)
   slug: library-open-source
-artifact_total: 18
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: University of Alberta Research Data (Borealis Dataverse) Info API
+  slug: open-university-of-alberta-info-api
+- collection_type: open
+  name: University of Alberta Research Data (Borealis Dataverse) Info Search API
+  slug: open-university-of-alberta-search-api
 common:
 - group: agent
   title: ''
@@ -143,7 +153,7 @@ plans:
 - name: University Of Alberta Plans Pricing
   plan_count: 2
   slug: university-of-alberta-plans-pricing
-random_paper: 116
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: University Of Alberta Rate Limits
@@ -191,7 +201,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

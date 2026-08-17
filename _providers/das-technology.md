@@ -29,13 +29,20 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The DAS Web API (DASWebAPI) is DAS Technology's REST API for the CDXP platform, served from api.digitalairstrike.com and documented by two Swashbuckle-generated Swagger 2.0 documents published side by
   name: DAS Web API
   slug: das-web-api
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: DASWebAPI V1
+  slug: open-das-technology-daswebapi-v1
+- collection_type: open
+  name: DASWebAPI V2
+  slug: open-das-technology-daswebapi-v2
 common:
 - group: company
   title: ''
@@ -102,7 +109,7 @@ plans:
 - name: Das Technology Plans Pricing
   plan_count: 0
   slug: das-technology-plans-pricing
-random_paper: 1
+random_paper: 100
 rate_limits:
 - limit_count: 0
   name: Das Technology Rate Limits
@@ -110,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.1
-  delta: 18.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 32.1
@@ -118,10 +125,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 13.1
+  previous_composite: 31.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/screenshots/das-technology-2026-07-25T211222.png
 security:
 - kind: authentication

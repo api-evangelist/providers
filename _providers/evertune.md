@@ -9,12 +9,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 12.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -75,6 +75,10 @@ common:
   title: ''
   type: YouTube
   url: https://www.youtube.com/@evertune-ai/videos
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Evertune-AI
 - group: agent
   title: ''
   type: LLMsTxt
@@ -83,37 +87,90 @@ common:
   title: ''
   type: DomainSecurity
   url: security/evertune-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/evertune-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/evertune-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/evertune-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/evertune-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/evertune-plans-pricing.yml
+coverage:
+  checked: '2026-08-13'
+  detail: 'Evertune is a consumer of the model providers'' APIs rather than a publisher of one — its own FAQ says base-model data is "reachable only through direct API integration with the model provider" — and it ships no developer surface of its own: the pricing page''s two demo-led tiers name no API access, the Intercom help center holds three end-user articles, and app.evertune.ai is a closed SPA whose backend is undocumented; the only machine-readable thing Evertune serves is the Auth0 OIDC discovery document on auth.evertune.ai, which signs users in to that app.'
+  evidence:
+  - status: 200
+    url: https://auth.evertune.ai/.well-known/openid-configuration
+  - status: 200
+    url: https://www.evertune.ai/pricing
+  - status: 200
+    url: https://docs.evertune.ai/llms.txt
+  - status: 404
+    url: https://www.evertune.ai/openapi.json
+  - status: 404
+    url: https://www.evertune.ai/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Evertune is a Generative Engine Optimization (GEO) and AI brand-intelligence platform that helps brands, marketers, and agencies understand, measure, and influence how they appear in AI-driven recommendations. As discovery shifts from traditional search engines to conversational answer engines like ChatGPT, Claude, Gemini, and Perplexity, Evertune tracks brand visibility and sentiment across 10+ AI models, analyzes how large language models describe a brand versus its competitors, and delivers prescriptive message and content briefs to improve that positioning. The platform combines large-scale prompt testing (100,000+ prompt responses per report via direct base-model API access), the EverPanel consumer panel, daily consumer-app data, an AI Brand Index and AI Brand Score, content activation, and AI advertising. Founded in 2024 by operators who helped scale The Trade Desk, Evertune is backed by Felicis and serves customers including Roku, WPP, athenahealth, and HexClad. Evertune
   is a data consumer of the major model APIs; it does not currently publish a first-party developer API, SDK, or OpenAPI.
 image: https://cdn.prod.website-files.com/65fc8aa2e86478511b710078/68b8a3ea1e6fb2d5d5503742_Logo.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Evertune
 nav: Providers
 network: true
 overview: 'Evertune is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Generative Engine Optimization, AI Search, Brand Monitoring, and Marketing Intelligence.
 
 
-  Evertune''s developer surface includes documentation, pricing, engineering blog, signup flow, YouTube channel, and 8 more developer resources.'
-random_paper: 38
+  Evertune''s developer surface includes documentation, pricing, engineering blog, signup flow, YouTube channel, authentication, and 13 more developer resources.'
+plans:
+- name: Evertune Plans Pricing
+  plan_count: 2
+  slug: evertune-plans-pricing
+random_paper: 133
+rate_limits:
+- limit_count: 0
+  name: Evertune Rate Limits
+  slug: evertune-rate-limits
+scopes:
+- name: Evertune Scopes
+  scope_count: 14
+  slug: evertune-scopes
+  summary_line: 14 scopes · authorizationCode/clientCredentials/implicit
 score:
   band: emerging
-  composite: 17.7
-  delta: 0.0
+  composite: 26.3
+  delta: 8.6
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 65.8
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 26.1
     discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
+    governance: 12.5
+    operational_transparency: 5.3
   previous_composite: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/evertune/refs/heads/main/screenshots/evertune-2026-07-25T213740.png
 security:
+- kind: authentication
+  name: Evertune Authentication
+  slug: evertune-authentication
+  summary_line: openIdConnect/oauth2 · 1 scheme
 - kind: domain-security
   name: Evertune Domain Security
   slug: evertune-domain-security

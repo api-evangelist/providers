@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: Constructed historical order books for the T7 trading venues of Deutsche Börse Group (Eurex, Xetra) with nanosecond granularity, accessed over REST with bearer-token authentication.
@@ -70,11 +70,69 @@ apis:
 - description: Cloud-delivered real-time market data streaming over WebSocket (host md.deutsche-boerse.com) with Protocol Buffers or JSON message encoding and API-key authentication - the published sample client sub
   name: Deutsche Börse Cloud Stream Market Data API
   slug: cloud-stream-market-data-api
-artifact_total: 18
+artifact_total: 37
 asyncapis:
 - description: 'Real-time market data streaming over WebSocket from Deutsche Börse Cloud Stream. Clients connect to md.deutsche-boerse.com with an API key generated in the GUI (passed as a token; the official Python '
   name: Deutsche Börse Cloud Stream Market Data
   slug: deutsche-boerse-cloud-stream-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API API
+  slug: open-deutsche-boerse-algo-management-api-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Auctions API
+  slug: open-deutsche-boerse-auctions-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API CME Reference data API API
+  slug: open-deutsche-boerse-cme-reference-data-api-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Dataset API API
+  slug: open-deutsche-boerse-dataset-api-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Datasets API
+  slug: open-deutsche-boerse-datasets-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Exchanges, assets, securities API
+  slug: open-deutsche-boerse-exchanges-assets-securities-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Exchanges, symbols, securities API
+  slug: open-deutsche-boerse-exchanges-symbols-securities-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Historical Time Series API
+  slug: open-deutsche-boerse-historical-time-series-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Indicators API
+  slug: open-deutsche-boerse-indicators-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Latency Historgram API
+  slug: open-deutsche-boerse-latency-historgram-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Market data API (EOBI) API
+  slug: open-deutsche-boerse-market-data-api-eobi-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Option Prices and Greeks API
+  slug: open-deutsche-boerse-option-prices-and-greeks-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Order book API API
+  slug: open-deutsche-boerse-order-book-api-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Pace of the Roll API
+  slug: open-deutsche-boerse-pace-of-the-roll-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Precalc API API
+  slug: open-deutsche-boerse-precalc-api-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Reference data API API
+  slug: open-deutsche-boerse-reference-data-api-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Sending times, packets, messages API
+  slug: open-deutsche-boerse-sending-times-packets-messages-api
+- collection_type: open
+  name: A7 Analytics Platform - Algo management Algo management API Symbols API
+  slug: open-deutsche-boerse-symbols-api
 common:
 - group: build
   title: ''
@@ -235,7 +293,7 @@ overview: 'Deutsche Börse publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Deutsche Börse''s developer surface includes changelog, API reference, getting-started guide, support, authentication, developer portal, documentation, and 28 more developer resources.'
-random_paper: 98
+random_paper: 48
 score:
   band: developing
   composite: 52.4
@@ -264,7 +322,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/screenshots/deutsche-boerse-2026-07-22T202326.png
 security:

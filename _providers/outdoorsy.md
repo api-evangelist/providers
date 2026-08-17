@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 150
   human_in_the_loop: 2
@@ -214,7 +214,200 @@ apis:
 - description: The wishlists API from Outdoorsy — 9 operation(s) for wishlists.
   name: Outdoorsy Wishlists API
   slug: outdoorsy-wishlists-api
-artifact_total: 67
+artifact_total: 131
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Outdoorsy API Documentation Admin API
+  slug: open-outdoorsy-admin-api
+- collection_type: open
+  name: Outdoorsy API Documentation Amenities API
+  slug: open-outdoorsy-amenities-api
+- collection_type: open
+  name: Outdoorsy API Documentation Announcements API
+  slug: open-outdoorsy-announcements-api
+- collection_type: open
+  name: Outdoorsy API Documentation Auth API
+  slug: open-outdoorsy-auth-api
+- collection_type: open
+  name: Outdoorsy API Documentation Banks API
+  slug: open-outdoorsy-banks-api
+- collection_type: open
+  name: Outdoorsy API Documentation Booking Bundles API
+  slug: open-outdoorsy-bookingbundles-api
+- collection_type: open
+  name: Outdoorsy API Documentation Booking Items API
+  slug: open-outdoorsy-bookingitems-api
+- collection_type: open
+  name: Outdoorsy API Documentation Booking Proposals API
+  slug: open-outdoorsy-bookingproposals-api
+- collection_type: open
+  name: Outdoorsy API Documentation Bookings API
+  slug: open-outdoorsy-bookings-api
+- collection_type: open
+  name: Outdoorsy API Documentation Booking Services API
+  slug: open-outdoorsy-bookingservices-api
+- collection_type: open
+  name: Outdoorsy API Documentation Booking Transactions API
+  slug: open-outdoorsy-bookingtransactions-api
+- collection_type: open
+  name: Outdoorsy Search Documentation Breadcrumbs API
+  slug: open-outdoorsy-breadcrumbs-api
+- collection_type: open
+  name: Outdoorsy API Documentation Bundle Features API
+  slug: open-outdoorsy-bundlefeatures-api
+- collection_type: open
+  name: Outdoorsy API Documentation Bundle Rules API
+  slug: open-outdoorsy-bundlerules-api
+- collection_type: open
+  name: Outdoorsy API Documentation Bundles API
+  slug: open-outdoorsy-bundles-api
+- collection_type: open
+  name: Outdoorsy Search Documentation Campgrounds API
+  slug: open-outdoorsy-campgrounds-api
+- collection_type: open
+  name: Outdoorsy API Documentation Checkout Steps API
+  slug: open-outdoorsy-checkoutsteps-api
+- collection_type: open
+  name: Outdoorsy API Documentation Conversations API
+  slug: open-outdoorsy-conversations-api
+- collection_type: open
+  name: Outdoorsy API Documentation Convert Currency API
+  slug: open-outdoorsy-convert-currency-api
+- collection_type: open
+  name: Outdoorsy Search Documentation External Campgrounds API
+  slug: open-outdoorsy-externalcampgrounds-api
+- collection_type: open
+  name: Outdoorsy API Documentation Favorites API
+  slug: open-outdoorsy-favorites-api
+- collection_type: open
+  name: Outdoorsy API Documentation Files API
+  slug: open-outdoorsy-files-api
+- collection_type: open
+  name: Outdoorsy API Documentation Funds API
+  slug: open-outdoorsy-funds-api
+- collection_type: open
+  name: Outdoorsy API Documentation Gateways API
+  slug: open-outdoorsy-gateways-api
+- collection_type: open
+  name: Outdoorsy Search Documentation Geodata API
+  slug: open-outdoorsy-geodata-api
+- collection_type: open
+  name: Outdoorsy Search Documentation Get Homepage Parks API
+  slug: open-outdoorsy-gethomepageparks-api
+- collection_type: open
+  name: Outdoorsy API Documentation Gift Cards API
+  slug: open-outdoorsy-giftcards-api
+- collection_type: open
+  name: Outdoorsy API Documentation Ics Calendars API
+  slug: open-outdoorsy-ics-calendars-api
+- collection_type: open
+  name: Outdoorsy API Documentation Instamatch API
+  slug: open-outdoorsy-instamatch-api
+- collection_type: open
+  name: Outdoorsy Search Documentation Localities API
+  slug: open-outdoorsy-localities-api
+- collection_type: open
+  name: Outdoorsy API Documentation Locations API
+  slug: open-outdoorsy-locations-api
+- collection_type: open
+  name: Outdoorsy API Documentation Messages API
+  slug: open-outdoorsy-messages-api
+- collection_type: open
+  name: Outdoorsy API Documentation Message Templates API
+  slug: open-outdoorsy-messagetemplates-api
+- collection_type: open
+  name: Outdoorsy API Documentation Notes To Renters API
+  slug: open-outdoorsy-notes-to-renters-api
+- collection_type: open
+  name: Outdoorsy API Documentation Notices API
+  slug: open-outdoorsy-notices-api
+- collection_type: open
+  name: Outdoorsy API Documentation
+  slug: open-outdoorsy-openapi-original
+- collection_type: open
+  name: Outdoorsy Search Documentation Parks API
+  slug: open-outdoorsy-parks-api
+- collection_type: open
+  name: Outdoorsy API Documentation Payouts API
+  slug: open-outdoorsy-payouts-api
+- collection_type: open
+  name: Outdoorsy API Documentation Pricing API
+  slug: open-outdoorsy-pricing-api
+- collection_type: open
+  name: Outdoorsy API Documentation Quote API
+  slug: open-outdoorsy-quote-api
+- collection_type: open
+  name: Outdoorsy API Documentation Quotes API
+  slug: open-outdoorsy-quotes-api
+- collection_type: open
+  name: Outdoorsy API Documentation Referrals API
+  slug: open-outdoorsy-referrals-api
+- collection_type: open
+  name: Outdoorsy API Documentation Rental Images API
+  slug: open-outdoorsy-rentalimages-api
+- collection_type: open
+  name: Outdoorsy API Documentation Rental Items API
+  slug: open-outdoorsy-rentalitems-api
+- collection_type: open
+  name: Outdoorsy API Documentation Rental Items Categories API
+  slug: open-outdoorsy-rentalitemscategories-api
+- collection_type: open
+  name: Outdoorsy Rentals API
+  slug: open-outdoorsy-rentals-api
+- collection_type: open
+  name: Outdoorsy API Documentation Reports API
+  slug: open-outdoorsy-reports-api
+- collection_type: open
+  name: Outdoorsy API Documentation Search API
+  slug: open-outdoorsy-search-api
+- collection_type: open
+  name: Outdoorsy Search Documentation
+  slug: open-outdoorsy-search-openapi-original
+- collection_type: open
+  name: Outdoorsy API Documentation Special Hours API
+  slug: open-outdoorsy-specialhours-api
+- collection_type: open
+  name: Outdoorsy API Documentation System Emails API
+  slug: open-outdoorsy-systememails-api
+- collection_type: open
+  name: Outdoorsy API Documentation Toweable API
+  slug: open-outdoorsy-toweable-api
+- collection_type: open
+  name: Outdoorsy API Documentation Towing Info API
+  slug: open-outdoorsy-towinginfo-api
+- collection_type: open
+  name: Outdoorsy API Documentation Transactions API
+  slug: open-outdoorsy-transactions-api
+- collection_type: open
+  name: Outdoorsy API Documentation Two Factor Auth API
+  slug: open-outdoorsy-twofactorauth-api
+- collection_type: open
+  name: Outdoorsy API Documentation Usage Based Items API
+  slug: open-outdoorsy-usagebaseditems-api
+- collection_type: open
+  name: Outdoorsy API Documentation Usage Based Item Tiers API
+  slug: open-outdoorsy-usagebaseditemtiers-api
+- collection_type: open
+  name: Outdoorsy API Documentation User Cards API
+  slug: open-outdoorsy-usercards-api
+- collection_type: open
+  name: Outdoorsy API Documentation User Notice Events API
+  slug: open-outdoorsy-usernoticeevents-api
+- collection_type: open
+  name: Outdoorsy Users API
+  slug: open-outdoorsy-users-api
+- collection_type: open
+  name: Outdoorsy Search Documentation Vacation Packages API
+  slug: open-outdoorsy-vacationpackages-api
+- collection_type: open
+  name: Outdoorsy API Documentation Validations API
+  slug: open-outdoorsy-validations-api
+- collection_type: open
+  name: Outdoorsy API Documentation Wishlists API
+  slug: open-outdoorsy-wishlists-api
 common:
 - group: other
   title: ''
@@ -348,7 +541,7 @@ overview: 'Outdoorsy publishes 62 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Outdoorsy''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 56
+random_paper: 122
 rate_limits:
 - limit_count: 1
   name: Outdoorsy Rate Limits
@@ -382,7 +575,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -103,7 +103,7 @@ overview: 'Accrete is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Accrete''s developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 14
+random_paper: 80
 score:
   band: emerging
   composite: 23.0
@@ -125,7 +125,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accrete-ai/refs/heads/main/screenshots/accrete-ai-2026-08-07T160807.png
 security:

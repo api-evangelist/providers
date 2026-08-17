@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Hearthstone metadata including sets, classes, types, and keywords
   name: Battle.net Metadata API
   slug: battle-net-metadata-api
-artifact_total: 87
+artifact_total: 92
 collections:
 - collection_type: postman
   name: Battle.net Hearthstone Game Data Card Backs API
@@ -89,6 +89,21 @@ collections:
 - collection_type: postman
   name: Battle.net Hearthstone Game Data Card Backs Metadata API
   slug: postman-battle-net-metadata-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Battle.net Hearthstone Game Data Card Backs API
+  slug: open-battle-net-card-backs-api
+- collection_type: open
+  name: Battle.net Hearthstone Game Data Card Backs Cards API
+  slug: open-battle-net-cards-api
+- collection_type: open
+  name: Battle.net Hearthstone Game Data Card Backs Decks API
+  slug: open-battle-net-decks-api
+- collection_type: open
+  name: Battle.net Hearthstone Game Data Card Backs Metadata API
+  slug: open-battle-net-metadata-api
 common:
 - group: build
   title: ''
@@ -367,7 +382,7 @@ plans:
 - name: Battle Net Plans Pricing
   plan_count: 1
   slug: battle-net-plans-pricing
-random_paper: 48
+random_paper: 114
 rate_limits:
 - limit_count: 2
   name: Battle Net Rate Limits
@@ -414,7 +429,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/screenshots/battle-net-2026-06-20T173043.png
 security:

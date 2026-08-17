@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Record purchases and returns and list loyalty transactions.
   name: Zinrelo Transactions API
   slug: zinrelo-transactions-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zinrelo Loyalty Events API
+  slug: open-zinrelo-events-api
+- collection_type: open
+  name: Zinrelo Loyalty Events Members API
+  slug: open-zinrelo-members-api
+- collection_type: open
+  name: Zinrelo Loyalty Events Points API
+  slug: open-zinrelo-points-api
+- collection_type: open
+  name: Zinrelo Loyalty Events Redemptions API
+  slug: open-zinrelo-redemptions-api
+- collection_type: open
+  name: Zinrelo Loyalty Events Rewards API
+  slug: open-zinrelo-rewards-api
+- collection_type: open
+  name: Zinrelo Loyalty Events Tiers API
+  slug: open-zinrelo-tiers-api
+- collection_type: open
+  name: Zinrelo Loyalty Events Transactions API
+  slug: open-zinrelo-transactions-api
 - collection_type: open
   name: Zinrelo Loyalty API
   slug: open-zinrelo
@@ -130,7 +154,7 @@ plans:
 - name: Zinrelo Plans Pricing
   plan_count: 3
   slug: zinrelo-plans-pricing
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Zinrelo Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,9 +18,9 @@ agent_readiness:
     agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
@@ -29,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-12'
+  score: 58.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ arazzos:
 - description: Confirm an audience export is active, then page through the users it contains.
   name: Google Analytics Query Audience Export Users
   slug: google-analytics-query-audience-export-users-workflow
-artifact_total: 451
+artifact_total: 466
 collections:
 - collection_type: postman
   name: Google Analytics Admin accounts API
@@ -169,6 +169,48 @@ collections:
 - collection_type: postman
   name: Google Analytics Admin accounts Validation API
   slug: postman-google-analytics-validation-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Analytics Admin accounts API
+  slug: open-google-analytics-accounts-api
+- collection_type: open
+  name: Google Analytics Admin accounts accountSummaries API
+  slug: open-google-analytics-accountsummaries-api
+- collection_type: open
+  name: Google Analytics Admin accounts data API
+  slug: open-google-analytics-data-api
+- collection_type: open
+  name: Google Analytics Admin accounts Events API
+  slug: open-google-analytics-events-api
+- collection_type: open
+  name: Google Analytics Admin accounts management API
+  slug: open-google-analytics-management-api
+- collection_type: open
+  name: Google Analytics Admin accounts metadata API
+  slug: open-google-analytics-metadata-api
+- collection_type: open
+  name: Google Analytics Admin accounts properties API
+  slug: open-google-analytics-properties-api
+- collection_type: open
+  name: Google Analytics Admin accounts provisioning API
+  slug: open-google-analytics-provisioning-api
+- collection_type: open
+  name: Google Analytics Admin accounts reports API
+  slug: open-google-analytics-reports-api
+- collection_type: open
+  name: Google Analytics Admin accounts User Deletion API
+  slug: open-google-analytics-user-deletion-api
+- collection_type: open
+  name: Google Analytics Admin accounts userActivity API
+  slug: open-google-analytics-useractivity-api
+- collection_type: open
+  name: Google Analytics Admin accounts userDeletion API
+  slug: open-google-analytics-userdeletion-api
+- collection_type: open
+  name: Google Analytics Admin accounts Validation API
+  slug: open-google-analytics-validation-api
 common:
 - group: agent
   title: ''
@@ -350,6 +392,166 @@ common:
   title: ''
   type: MCPServer
   url: https://github.com/googleanalytics/google-analytics-mcp
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/google-analytics-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/google-analytics-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-analytics-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/google-analytics-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-analytics-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-analytics-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/google-analytics-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-analytics-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-analytics-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-analytics-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-analytics-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/google-analytics-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-analytics-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-analytics-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-analytics-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/google-analytics-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/google-analytics-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-analytics-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-analytics-rate-limits.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/analytics/devguides/reporting/data/v1
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/analytics/devguides/reporting/data/v1/rest
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.google.com/analytics
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/google-analytics-data-v1beta-analytics_data_api.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/google-analytics-data-v1beta-data.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/google-analytics-admin-v1beta-analytics_admin.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/google-analytics-admin-v1beta-resources.proto
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-accounts-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-accountsummaries-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-data-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-events-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-management-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-metadata-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-properties-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-provisioning-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-reports-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-user-deletion-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-useractivity-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-userdeletion-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-validation-api-overlay.yaml
 created: '2024-01-01'
 description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.
 examples:
@@ -1389,7 +1591,10 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+- description: ''
+  name: MCP Server (artifact)
+  slug: mcp-server-artifact
+modified: '2026-08-13'
 name: Google Analytics
 nav: Providers
 network: true
@@ -1399,14 +1604,14 @@ overview: 'Google Analytics publishes 13 APIs on the [APIs.io](https://apis.io/)
   The Google Analytics catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Analytics'' developer surface includes authentication, getting-started guide, developer portal, developer console, signup flow, tooling, code examples, and 38 more developer resources.'
+  Google Analytics'' developer surface includes authentication, getting-started guide, developer portal, developer console, signup flow, tooling, code examples, and 78 more developer resources.'
 plans:
 - name: Google Analytics Plans Pricing
   plan_count: 2
   slug: google-analytics-plans-pricing
-random_paper: 90
+random_paper: 11
 rate_limits:
-- limit_count: 10
+- limit_count: 26
   name: Google Analytics Rate Limits
   slug: google-analytics-rate-limits
 rules:
@@ -1430,18 +1635,18 @@ scopes:
 - name: Google Analytics Scopes
   scope_count: 7
   slug: google-analytics-scopes
-  summary_line: 7 scopes · implicit/authorizationCode
+  summary_line: 7 scopes
 score:
-  band: strong
-  composite: 60.5
-  delta: 0.0
+  band: exemplar
+  composite: 70.5
+  delta: 10.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 66.6
-    developer_ergonomics: 63.0
-    discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 44.7
+    developer_ergonomics: 84.8
+    discoverability: 75.9
+    governance: 79.2
+    operational_transparency: 63.2
   previous_composite: 60.5
   provenance:
     agentic_access: derived
@@ -1451,14 +1656,14 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/screenshots/google-analytics-2026-07-25T220105.png
 security:
 - kind: authentication
   name: Google Analytics Authentication
   slug: google-analytics-authentication
-  summary_line: oauth2 · 2 schemes
+  summary_line: oauth2/apiKey · 5 schemes
 - kind: domain-security
   name: Google Analytics Domain Security
   slug: google-analytics-domain-security

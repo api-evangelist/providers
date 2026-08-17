@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,15 +54,33 @@ apis:
 - description: Manage webhook subscriptions for real-time payment status updates and event notifications.
   name: Remitian Webhooks API
   slug: remitian-webhooks-api
-artifact_total: 22
+artifact_total: 28
 asyncapis:
 - description: Real-time webhook events from the Remitian Tax Payment API. These events provide status updates for tax payments as they move through initiation, validation, processing, and completion. All webhook de
   name: Remitian Tax Payment Events
   slug: remitian-tax-payment-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Remitian Tax Payment Accounts API
+  slug: open-remitian-accounts-api
+- collection_type: open
+  name: Remitian Tax Payment Accounts Audit Logs API
+  slug: open-remitian-audit-logs-api
+- collection_type: open
+  name: Remitian Tax Payment Accounts Jurisdictions API
+  slug: open-remitian-jurisdictions-api
+- collection_type: open
+  name: Remitian Tax Payment Accounts Payments API
+  slug: open-remitian-payments-api
+- collection_type: open
   name: Remitian Tax Payment API
   slug: open-remitian-tax-payment
+- collection_type: open
+  name: Remitian Tax Payment Accounts Webhooks API
+  slug: open-remitian-webhooks-api
 common:
 - group: agent
   title: ''
@@ -150,7 +168,7 @@ plans:
 - name: Remitian Plans Pricing
   plan_count: 3
   slug: remitian-plans-pricing
-random_paper: 17
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Remitian Rate Limits
@@ -206,7 +224,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/screenshots/remitian-2026-06-20T192840.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,7 +111,7 @@ overview: 'Sworkit is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sworkit''s developer surface includes documentation, support, engineering blog, pricing, and 13 more developer resources.'
-random_paper: 67
+random_paper: 42
 score:
   band: emerging
   composite: 22.3
@@ -131,7 +131,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

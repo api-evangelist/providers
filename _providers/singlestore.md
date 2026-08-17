@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -66,7 +66,7 @@ apis:
 - description: Create, list, retrieve, update, suspend, resume, and delete workspaces within a workspace group. Workspaces are the compute resources that connect to a SingleStore database.
   name: SingleStore Workspaces API
   slug: singlestore-workspaces-api
-artifact_total: 35
+artifact_total: 45
 collections:
 - collection_type: postman
   name: SingleStore Data Files API
@@ -96,11 +96,41 @@ collections:
   name: SingleStore Data Files Workspaces API
   slug: postman-singlestore-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: SingleStore Data API
   slug: open-singlestore-data-api
 - collection_type: open
+  name: SingleStore Data Files API
+  slug: open-singlestore-files-api
+- collection_type: open
+  name: SingleStore Data Files Health API
+  slug: open-singlestore-health-api
+- collection_type: open
+  name: SingleStore Data Files Jobs API
+  slug: open-singlestore-jobs-api
+- collection_type: open
   name: SingleStore Management API
   slug: open-singlestore-management-api
+- collection_type: open
+  name: SingleStore Data Files Organizations API
+  slug: open-singlestore-organizations-api
+- collection_type: open
+  name: SingleStore Data Files Queries API
+  slug: open-singlestore-queries-api
+- collection_type: open
+  name: SingleStore Data Files Regions API
+  slug: open-singlestore-regions-api
+- collection_type: open
+  name: SingleStore Data Files Secrets API
+  slug: open-singlestore-secrets-api
+- collection_type: open
+  name: SingleStore Data Files WorkspaceGroups API
+  slug: open-singlestore-workspacegroups-api
+- collection_type: open
+  name: SingleStore Data Files Workspaces API
+  slug: open-singlestore-workspaces-api
 common:
 - group: build
   title: ''
@@ -216,7 +246,7 @@ plans:
 - name: Singlestore Plans Pricing
   plan_count: 3
   slug: singlestore-plans-pricing
-random_paper: 119
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Singlestore Rate Limits
@@ -258,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/screenshots/singlestore-2026-06-20T193949.png
 security:

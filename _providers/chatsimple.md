@@ -10,27 +10,39 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 48.2
+  scored_at: '2026-08-17'
+api_count: 2
+apis:
+- description: The only publicly documented HTTP endpoints Chatsimple (now Expertise AI) publishes. Documented on the Zapier integration page of docs.expertise.ai as four operations under the base URL https://api.ex
+  name: Expertise AI Zapier / Leads API
+  slug: chatsimple-zapier-leads-api
+- description: 'A remote Model Context Protocol server at https://api.expertise.ai/mcp, found by direct probe of the API host root and documented nowhere on the provider''s site. It implements the MCP Streamable HTTP '
+  name: Expertise AI MCP Server
+  slug: chatsimple-mcp-server
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Chatsimple Webhooks
+  slug: chatsimple-webhooks
 common:
 - group: company
   title: ''
@@ -88,40 +100,115 @@ common:
   title: ''
   type: DomainSecurity
   url: security/chatsimple-domain-security.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.expertise.ai/live/integrations/zapier
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.expertise.ai/getting-started/connect
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ChatSimple
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.expertise.ai/roadmap
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/chatsimple-changelog.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/chatsimple-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/chatsimple-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/chatsimple-conventions.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/chatsimple-webhooks.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/chatsimple-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/chatsimple-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/chatsimple-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/chatsimple-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/chatsimple-components.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/chatsimple-llms.txt
 created: '2026-07-17'
 description: Chatsimple (now operating as Expertise AI, expertise.ai) is an AI agent platform for revenue and go-to-market teams. It builds no-code conversational AI sales agents and chatbots that engage website visitors, qualify and capture leads, book meetings, and answer questions from a trained knowledge base, plus a Voice AI assistant and an "Expertise Assistant" library of 100+ pre-built GTM plays that automate prospecting, pipeline management, and outreach. The platform embeds on any website, integrates with CRM and communication tools such as HubSpot, Salesforce, Slack, Zapier, Marketo, and LeanData, and offers API access on its Enterprise tier. It is SOC 2 Type II, SOC 3, GDPR, and CCPA aligned with a public trust center. Originally launched as chatsimple.ai, the company rebranded to Expertise AI; chatsimple.ai now redirects to expertise.ai.
 image: https://www.expertise.ai/images/og-home-page.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: chatsimple-mcp.yml
+  slug: chatsimple-mcpyml
+modified: '2026-08-13'
 name: Chatsimple
 nav: Providers
 network: true
-overview: 'Chatsimple is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Conversational AI, Chatbot, and Lead Generation.
+overview: 'Chatsimple publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Conversational AI, Chatbot, and Lead Generation.
 
 
-  Chatsimple''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, and 8 more developer resources.'
+  The Chatsimple catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Chatsimple''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, API reference, and 22 more developer resources.'
 plans:
 - name: Chatsimple Plans
   plan_count: 9
   slug: chatsimple-plans
-random_paper: 106
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Chatsimple Rate Limits
+  slug: chatsimple-rate-limits
 score:
-  band: thin
-  composite: 28.2
-  delta: 0.0
+  band: strong
+  composite: 58.1
+  delta: 29.9
   facets:
     commercial_clarity: 92.1
-    contract_quality: 0.0
-    developer_ergonomics: 23.9
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 60.9
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 34.2
   previous_composite: 28.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/screenshots/chatsimple-2026-07-25T205118.png
 security:
+- kind: authentication
+  name: Chatsimple Authentication
+  slug: chatsimple-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Chatsimple Domain Security
   slug: chatsimple-domain-security

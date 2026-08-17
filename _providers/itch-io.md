@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: Wharf build infrastructure operations (butler/CI integration)
   name: Itch.io Wharf API
   slug: itch-io-wharf-api
-artifact_total: 26
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Itch.io Auth API
+  slug: open-itch-io-auth-api
+- collection_type: open
+  name: Itch.io Auth Builds API
+  slug: open-itch-io-builds-api
+- collection_type: open
+  name: Itch.io Auth Bundles API
+  slug: open-itch-io-bundles-api
+- collection_type: open
+  name: Itch.io Auth Collections API
+  slug: open-itch-io-collections-api
+- collection_type: open
+  name: Itch.io Auth Downloads API
+  slug: open-itch-io-downloads-api
+- collection_type: open
+  name: Itch.io Auth Games API
+  slug: open-itch-io-games-api
+- collection_type: open
+  name: Itch.io Auth Profile API
+  slug: open-itch-io-profile-api
+- collection_type: open
+  name: Itch.io Auth Search API
+  slug: open-itch-io-search-api
+- collection_type: open
+  name: Itch.io Auth Uploads API
+  slug: open-itch-io-uploads-api
+- collection_type: open
+  name: Itch.io Auth Users API
+  slug: open-itch-io-users-api
+- collection_type: open
+  name: Itch.io Auth Wharf API
+  slug: open-itch-io-wharf-api
 common:
 - group: agent
   title: ''
@@ -179,7 +216,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 85
+random_paper: 89
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -213,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

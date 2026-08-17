@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -69,7 +69,7 @@ apis:
 - description: The Tags API from Amazon Glue DataBrew — 2 operation(s) for tags.
   name: Amazon Glue DataBrew Tags API
   slug: amazon-glue-databrew-tags-api
-artifact_total: 725
+artifact_total: 736
 collections:
 - collection_type: postman
   name: AWS Glue DataBrew Datasets API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: AWS Glue DataBrew Datasets Tags API
   slug: postman-amazon-glue-databrew-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Glue DataBrew Datasets API
+  slug: open-amazon-glue-databrew-datasets-api
+- collection_type: open
+  name: AWS Glue DataBrew Datasets Jobs API
+  slug: open-amazon-glue-databrew-jobs-api
+- collection_type: open
+  name: AWS Glue DataBrew Datasets ProfileJobs API
+  slug: open-amazon-glue-databrew-profilejobs-api
+- collection_type: open
+  name: AWS Glue DataBrew Datasets Projects API
+  slug: open-amazon-glue-databrew-projects-api
+- collection_type: open
+  name: AWS Glue DataBrew Datasets RecipeJobs API
+  slug: open-amazon-glue-databrew-recipejobs-api
+- collection_type: open
+  name: AWS Glue DataBrew Datasets Recipes API
+  slug: open-amazon-glue-databrew-recipes-api
+- collection_type: open
+  name: AWS Glue DataBrew Datasets RecipeVersions#name API
+  slug: open-amazon-glue-databrew-recipeversions-name-api
+- collection_type: open
+  name: AWS Glue DataBrew Datasets Rulesets API
+  slug: open-amazon-glue-databrew-rulesets-api
+- collection_type: open
+  name: AWS Glue DataBrew Datasets Schedules API
+  slug: open-amazon-glue-databrew-schedules-api
+- collection_type: open
+  name: AWS Glue DataBrew Datasets Tags API
+  slug: open-amazon-glue-databrew-tags-api
 common:
 - group: build
   title: ''
@@ -2274,7 +2307,7 @@ plans:
 - name: Amazon Glue Databrew Plans Pricing
   plan_count: 3
   slug: amazon-glue-databrew-plans-pricing
-random_paper: 87
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Amazon Glue Databrew Rate Limits
@@ -2316,7 +2349,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/screenshots/amazon-glue-databrew-2026-06-20T171658.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: The Ethereum JSON RPC API API from Ethereum — 1 operation(s) for ethereum json rpc api.
   name: Ethereum Ethereum JSON RPC API API
   slug: ethereum-ethereum-json-rpc-api-api
-artifact_total: 11
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ethereum JSON-RPC Ethereum JSON RPC API API
+  slug: open-ethereum-ethereum-json-rpc-api-api
 - collection_type: open
   name: Ethereum JSON-RPC API
   slug: open-ethereum-json-rpc
@@ -127,7 +133,7 @@ plans:
 - name: Ethereum Plans Pricing
   plan_count: 3
   slug: ethereum-plans-pricing
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 5
   name: Ethereum Rate Limits
@@ -161,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethereum/refs/heads/main/screenshots/ethereum-2026-06-20T180835.png
 security:

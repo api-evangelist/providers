@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: List and inspect Mars rover records.
   name: NASA Mars Rovers Rovers API
   slug: nasa-mars-rovers-api
-artifact_total: 16
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NASA Mars Rover Photos Manifests API
+  slug: open-nasa-mars-manifests-api
+- collection_type: open
+  name: NASA Mars Rover Manifests Photos API
+  slug: open-nasa-mars-photos-api
+- collection_type: open
+  name: NASA Mars Rover Photos Manifests Rovers API
+  slug: open-nasa-mars-rovers-api
 common:
 - group: agent
   title: ''
@@ -151,7 +164,7 @@ plans:
 - name: Nasa Mars Plans Pricing
   plan_count: 2
   slug: nasa-mars-plans-pricing
-random_paper: 59
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Nasa Mars Rate Limits
@@ -191,7 +204,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-mars/refs/heads/main/screenshots/nasa-mars-2026-06-20T185952.png
 security:

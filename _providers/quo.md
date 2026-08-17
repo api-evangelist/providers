@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Operations related to calls
@@ -58,11 +58,42 @@ apis:
 - description: Operations related to webhooks
   name: Quo Webhooks API
   slug: quo-webhooks-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Quo Webhooks
   slug: quo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quo Public Calls API
+  slug: open-quo-calls-api
+- collection_type: open
+  name: Quo Public Calls Contact Custom Fields API
+  slug: open-quo-contact-custom-fields-api
+- collection_type: open
+  name: Quo Public Calls Contacts API
+  slug: open-quo-contacts-api
+- collection_type: open
+  name: Quo Public Calls Conversations API
+  slug: open-quo-conversations-api
+- collection_type: open
+  name: Quo Public Calls Messages API
+  slug: open-quo-messages-api
+- collection_type: open
+  name: Quo Public Calls Phone Numbers API
+  slug: open-quo-phone-numbers-api
+- collection_type: open
+  name: Quo Public Calls Tasks API
+  slug: open-quo-tasks-api
+- collection_type: open
+  name: Quo Public Calls Users API
+  slug: open-quo-users-api
+- collection_type: open
+  name: Quo Public Calls Webhooks API
+  slug: open-quo-webhooks-api
 common:
 - group: other
   title: ''
@@ -163,7 +194,7 @@ overview: 'Quo publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Quo''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 13 more developer resources.'
-random_paper: 101
+random_paper: 43
 score:
   band: developing
   composite: 47.6
@@ -192,7 +223,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

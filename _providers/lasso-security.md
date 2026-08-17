@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Masking API from Lasso Security — 1 operation(s) for masking.
   name: Lasso Security Masking API
   slug: lasso-security-masking-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lasso Security / Threat Detection Classify API
+  slug: open-lasso-security-classify-api
+- collection_type: open
+  name: Lasso Security / Threat Detection Classify Masking API
+  slug: open-lasso-security-masking-api
 - collection_type: open
   name: Lasso Security Classify / Threat Detection API
   slug: open-lasso-security
@@ -115,7 +124,7 @@ plans:
 - name: Lasso Security Plans Pricing
   plan_count: 3
   slug: lasso-security-plans-pricing
-random_paper: 39
+random_paper: 138
 rate_limits:
 - limit_count: 3
   name: Lasso Security Rate Limits
@@ -140,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/screenshots/lasso-security-2026-06-20T184320.png
 security:

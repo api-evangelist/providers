@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Poptin''s developer-facing surface. The hosted embed script renders popups, bars, sidebars, full-screen and mobile surfaces plus embedded forms into a host page, fires documented DOM CustomEvents with '
@@ -158,7 +158,7 @@ plans:
 - name: Poptin Plans Pricing
   plan_count: 0
   slug: poptin-plans-pricing
-random_paper: 66
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Poptin Rate Limits
@@ -166,6 +166,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -173,8 +174,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
+  previous_composite: 45.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Poptin Authentication

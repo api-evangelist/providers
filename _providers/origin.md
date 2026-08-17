@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Trades API from Origin — 3 operation(s) for trades.
   name: Origin Trades API
   slug: origin-trades-api
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trades API
+  slug: open-origin-trades-api
 common:
 - group: agent
   title: ''
@@ -161,7 +168,7 @@ overview: 'Origin publishes 1 API on the [APIs.io](https://apis.io/) network: Tr
 
 
   Origin''s developer surface includes authentication, changelog, documentation, API reference, engineering blog, support, and 17 more developer resources.'
-random_paper: 48
+random_paper: 52
 score:
   band: thin
   composite: 34.2
@@ -185,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/screenshots/origin-2026-08-07T190930.png
 security:

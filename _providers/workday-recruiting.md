@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -103,11 +103,50 @@ arazzos:
 - description: Find an application in review for a requisition, inspect it, and move it forward.
   name: Workday Recruiting Screen and Advance a Job Application
   slug: workday-recruiting-screen-and-advance-application-workflow
-artifact_total: 158
+artifact_total: 171
 collections:
 - collection_type: postman
   name: Workday Recruiting REST API
   slug: postman-workday-recruiting-rest-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Recruiting REST Applicants agentDefinition API
+  slug: open-workday-recruiting-agentdefinition-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants API
+  slug: open-workday-recruiting-applicants-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Background Checks API
+  slug: open-workday-recruiting-background-checks-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Candidates API
+  slug: open-workday-recruiting-candidates-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Configuration API
+  slug: open-workday-recruiting-configuration-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Evergreen Requisitions API
+  slug: open-workday-recruiting-evergreen-requisitions-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Interviews API
+  slug: open-workday-recruiting-interviews-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Job Applications API
+  slug: open-workday-recruiting-job-applications-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Job Postings API
+  slug: open-workday-recruiting-job-postings-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Job Requisitions API
+  slug: open-workday-recruiting-job-requisitions-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Positions API
+  slug: open-workday-recruiting-positions-api
+- collection_type: open
+  name: Workday Recruiting REST Applicants Recruiting Agencies API
+  slug: open-workday-recruiting-recruiting-agencies-api
 - collection_type: open
   name: Workday Recruiting REST API
   slug: open-workday-recruiting-rest-api
@@ -585,7 +624,7 @@ plans:
 - name: Workday Recruiting Plans Pricing
   plan_count: 3
   slug: workday-recruiting-plans-pricing
-random_paper: 98
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Workday Recruiting Rate Limits
@@ -632,7 +671,7 @@ score:
       marker_coverage: 100.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/screenshots/workday-recruiting-2026-06-20T201608.png
 security:

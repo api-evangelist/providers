@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Employer API from Finch — 7 operation(s) for employer.
   name: Finch Employer API
   slug: finch-employer-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Finch Auth API
+  slug: open-finch-auth-api
+- collection_type: open
+  name: Finch Auth Connect API
+  slug: open-finch-connect-api
+- collection_type: open
+  name: Finch Auth Employer API
+  slug: open-finch-employer-api
 - collection_type: open
   name: Finch API
   slug: open-finch
@@ -134,7 +146,7 @@ plans:
 - name: Finch Plans Pricing
   plan_count: 3
   slug: finch-plans-pricing
-random_paper: 40
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Finch Rate Limits
@@ -159,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/screenshots/finch-2026-06-20T181218.png
 security:

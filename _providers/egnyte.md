@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: The Users API from Egnyte — 2 operation(s) for users.
   name: Egnyte Users API
   slug: egnyte-users-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Egnyte Public File System API
+  slug: open-egnyte-file-system-api
+- collection_type: open
+  name: Egnyte Public File System Groups API
+  slug: open-egnyte-groups-api
+- collection_type: open
+  name: Egnyte Public File System Links API
+  slug: open-egnyte-links-api
+- collection_type: open
+  name: Egnyte Public File System Permissions API
+  slug: open-egnyte-permissions-api
+- collection_type: open
+  name: Egnyte Public File System Users API
+  slug: open-egnyte-users-api
 - collection_type: open
   name: Egnyte Public API
   slug: open-egnyte
@@ -175,7 +193,7 @@ overview: 'Egnyte publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Egnyte''s developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 52
+random_paper: 56
 scopes:
 - name: Egnyte Scopes
   scope_count: 6
@@ -201,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/screenshots/egnyte-2026-06-20T180523.png
 security:

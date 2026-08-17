@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -90,7 +90,62 @@ apis:
 - description: The .well Known API from Mireye — 1 operation(s) for .well known.
   name: Mireye .well Known API
   slug: mireye-well-known-api
-artifact_total: 22
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mireye Earth Ask API
+  slug: open-mireye-ask-api
+- collection_type: open
+  name: Mireye Earth Ask Ask Site API
+  slug: open-mireye-ask-site-api
+- collection_type: open
+  name: Mireye Earth Ask Auth API
+  slug: open-mireye-auth-api
+- collection_type: open
+  name: Mireye Earth Ask Authorize API
+  slug: open-mireye-authorize-api
+- collection_type: open
+  name: Mireye Earth Ask Feature Requests API
+  slug: open-mireye-feature-requests-api
+- collection_type: open
+  name: Mireye Earth Ask Fetch API
+  slug: open-mireye-fetch-api
+- collection_type: open
+  name: Mireye Earth Ask Healthz API
+  slug: open-mireye-healthz-api
+- collection_type: open
+  name: Mireye Earth Ask Mcp API
+  slug: open-mireye-mcp-api
+- collection_type: open
+  name: Mireye Earth Ask Meta API
+  slug: open-mireye-meta-api
+- collection_type: open
+  name: Mireye Earth Ask Oauth API
+  slug: open-mireye-oauth-api
+- collection_type: open
+  name: Mireye Earth Ask Readyz API
+  slug: open-mireye-readyz-api
+- collection_type: open
+  name: Mireye Earth Ask Register API
+  slug: open-mireye-register-api
+- collection_type: open
+  name: Mireye Earth Ask Revoke API
+  slug: open-mireye-revoke-api
+- collection_type: open
+  name: Mireye Earth Ask Sites API
+  slug: open-mireye-sites-api
+- collection_type: open
+  name: Mireye Earth Ask Token API
+  slug: open-mireye-token-api
+- collection_type: open
+  name: Mireye Earth Ask Users API
+  slug: open-mireye-users-api
+- collection_type: open
+  name: Mireye Earth Ask .well Known API
+  slug: open-mireye-well-known-api
 common:
 - group: start
   title: ''
@@ -221,7 +276,7 @@ overview: 'Mireye publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mireye''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 51
+random_paper: 55
 scopes:
 - name: Mireye Scopes
   scope_count: 1
@@ -256,7 +311,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/screenshots/mireye-2026-08-07T183719.png
 security:

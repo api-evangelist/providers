@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 92
 apis:
 - description: Internal API for activity operations including conversation creation
@@ -307,11 +307,291 @@ apis:
 - description: Endpoints for managing webhooks
   name: Phasio Webhooks API
   slug: phasio-webhooks-api
-artifact_total: 97
+artifact_total: 190
 asyncapis:
 - description: ''
   name: Phasio Webhooks
   slug: phasio-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Phasio Activity Internal API
+  slug: open-phasio-activity-internal-api
+- collection_type: open
+  name: Phasio Activity Internal Addresses API
+  slug: open-phasio-addresses-api
+- collection_type: open
+  name: Phasio Activity Internal cart-resource API
+  slug: open-phasio-cart-resource-api
+- collection_type: open
+  name: Phasio Activity Internal constraint-resource API
+  slug: open-phasio-constraint-resource-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Activity Controller API
+  slug: open-phasio-customer-activity-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Addresses API
+  slug: open-phasio-customer-addresses-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Analytics Controller API
+  slug: open-phasio-customer-analytics-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Assembly Controller API
+  slug: open-phasio-customer-assembly-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Authentication API
+  slug: open-phasio-customer-authentication-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Cart Controller API
+  slug: open-phasio-customer-cart-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Cart Item Controller API
+  slug: open-phasio-customer-cart-item-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Catalog Controller API
+  slug: open-phasio-customer-catalog-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Controller API
+  slug: open-phasio-customer-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Country Controller API
+  slug: open-phasio-customer-country-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Discount Controller API
+  slug: open-phasio-customer-discount-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Document Controller API
+  slug: open-phasio-customer-document-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Expense Controller API
+  slug: open-phasio-customer-expense-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Operator Controller API
+  slug: open-phasio-customer-operator-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Order Controller API
+  slug: open-phasio-customer-order-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Organisation Controller API
+  slug: open-phasio-customer-organisation-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Part Design Controller API
+  slug: open-phasio-customer-part-design-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Part Revision Controller API
+  slug: open-phasio-customer-part-revision-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Project Controller API
+  slug: open-phasio-customer-project-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Requisition Controller API
+  slug: open-phasio-customer-requisition-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Shipment Controller API
+  slug: open-phasio-customer-shipment-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Customer Thread File Controller API
+  slug: open-phasio-customer-thread-file-controller-api
+- collection_type: open
+  name: Phasio Activity Internal equation-resource API
+  slug: open-phasio-equation-resource-api
+- collection_type: open
+  name: Phasio Activity Internal File Analysis Controller API
+  slug: open-phasio-file-analysis-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Inbound Email Controller API
+  slug: open-phasio-inbound-email-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Internal Accounting Controller API
+  slug: open-phasio-internal-accounting-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Internal Customer Controller API
+  slug: open-phasio-internal-customer-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Internal Customer Organisation Controller API
+  slug: open-phasio-internal-customer-organisation-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Internal Operator Controller API
+  slug: open-phasio-internal-operator-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Internal Order Controller API
+  slug: open-phasio-internal-order-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Accounting API
+  slug: open-phasio-manufacturer-accounting-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Activity Controller API
+  slug: open-phasio-manufacturer-activity-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Analytics Controller API
+  slug: open-phasio-manufacturer-analytics-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Assembly Controller API
+  slug: open-phasio-manufacturer-assembly-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer CAMSPEC Controller API
+  slug: open-phasio-manufacturer-camspec-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Cart Item Controller API
+  slug: open-phasio-manufacturer-cart-item-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Catalog Controller API
+  slug: open-phasio-manufacturer-catalog-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Color Controller API
+  slug: open-phasio-manufacturer-color-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Countries Controller API
+  slug: open-phasio-manufacturer-countries-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Currencies Controller API
+  slug: open-phasio-manufacturer-currencies-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Customer Controller API
+  slug: open-phasio-manufacturer-customer-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Customer Organisation Controller API
+  slug: open-phasio-manufacturer-customer-organisation-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Discount Controller API
+  slug: open-phasio-manufacturer-discount-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Document Controller API
+  slug: open-phasio-manufacturer-document-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Document Template Controller API
+  slug: open-phasio-manufacturer-document-template-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Expense Controller API
+  slug: open-phasio-manufacturer-expense-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Infill Controller API
+  slug: open-phasio-manufacturer-infill-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Kanban Column Controller API
+  slug: open-phasio-manufacturer-kanban-column-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Lead Time Controller API
+  slug: open-phasio-manufacturer-lead-time-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Material Controller API
+  slug: open-phasio-manufacturer-material-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Material Prices Controller API
+  slug: open-phasio-manufacturer-material-prices-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Metrics Controller API
+  slug: open-phasio-manufacturer-metrics-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Operator Contact Controller API
+  slug: open-phasio-manufacturer-operator-contact-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Operator Controller API
+  slug: open-phasio-manufacturer-operator-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Operator Count Controller API
+  slug: open-phasio-manufacturer-operator-count-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Order Controller API
+  slug: open-phasio-manufacturer-order-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Part Design Controller API
+  slug: open-phasio-manufacturer-part-design-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Part Revision Controller API
+  slug: open-phasio-manufacturer-part-revision-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Part Specification Controller API
+  slug: open-phasio-manufacturer-part-specification-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Payment Information Controller API
+  slug: open-phasio-manufacturer-payment-information-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Post Processing Controller API
+  slug: open-phasio-manufacturer-post-processing-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Precision Prices Controller API
+  slug: open-phasio-manufacturer-precision-prices-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Process Prices Controller API
+  slug: open-phasio-manufacturer-process-prices-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Production Status Controller API
+  slug: open-phasio-manufacturer-production-status-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Production Step Controller API
+  slug: open-phasio-manufacturer-production-step-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Programmatic Client Controller API
+  slug: open-phasio-manufacturer-programmatic-client-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Project Controller API
+  slug: open-phasio-manufacturer-project-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Quote Controller API
+  slug: open-phasio-manufacturer-quote-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Reports API
+  slug: open-phasio-manufacturer-reports-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Requisition Controller API
+  slug: open-phasio-manufacturer-requisition-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Routing Template Controller API
+  slug: open-phasio-manufacturer-routing-template-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Search Controller API
+  slug: open-phasio-manufacturer-search-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Shipment Controller API
+  slug: open-phasio-manufacturer-shipment-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Shipping Box Controller API
+  slug: open-phasio-manufacturer-shipping-box-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Shipping Method Controller API
+  slug: open-phasio-manufacturer-shipping-method-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Tax Component Controller API
+  slug: open-phasio-manufacturer-tax-component-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Tax Jurisdiction Controller API
+  slug: open-phasio-manufacturer-tax-jurisdiction-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Thread Controller API
+  slug: open-phasio-manufacturer-thread-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Thread File Controller API
+  slug: open-phasio-manufacturer-thread-file-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Tracking Controller API
+  slug: open-phasio-manufacturer-tracking-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer User Controller API
+  slug: open-phasio-manufacturer-user-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Manufacturer Work Order Controller API
+  slug: open-phasio-manufacturer-work-order-controller-api
+- collection_type: open
+  name: Phasio Activity Internal Metrics Controller API
+  slug: open-phasio-metrics-controller-api
+- collection_type: open
+  name: Phasio Activity Internal payment-term-resource API
+  slug: open-phasio-payment-term-resource-api
+- collection_type: open
+  name: Phasio Activity Internal Pre-Order API
+  slug: open-phasio-pre-order-api
+- collection_type: open
+  name: Phasio Activity Internal User Authentication Controller API
+  slug: open-phasio-user-authentication-controller-api
+- collection_type: open
+  name: Phasio Activity Internal webhook-resource API
+  slug: open-phasio-webhook-resource-api
+- collection_type: open
+  name: Phasio Activity Internal Webhooks API
+  slug: open-phasio-webhooks-api
 common:
 - group: other
   title: ''
@@ -448,7 +728,7 @@ overview: 'Phasio publishes 92 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Phasio''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 22 more developer resources.'
-random_paper: 44
+random_paper: 48
 score:
   band: developing
   composite: 52.9
@@ -471,7 +751,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

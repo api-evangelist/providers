@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The Beta API from Quiver Quantitative — 6 operation(s) for beta.
   name: Quiver Quantitative Beta API
   slug: quiver-beta-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quiver Quantitative Beta API
+  slug: open-quiver-beta-api
 - collection_type: open
   name: Quiver Quantitative API
   slug: open-quiver
@@ -115,7 +121,7 @@ plans:
 - name: Quiver Plans Pricing
   plan_count: 3
   slug: quiver-plans-pricing
-random_paper: 68
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Quiver Rate Limits
@@ -146,7 +152,7 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/screenshots/quiver-2026-06-20T192443.png
 security:

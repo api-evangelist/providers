@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Paw (now RapidAPI for Mac) is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It provides a native macOS API testing experience with collaboration features.
@@ -68,7 +68,7 @@ plans:
 - name: Paw Plans Pricing
   plan_count: 3
   slug: paw-plans-pricing
-random_paper: 88
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Paw Rate Limits
@@ -86,7 +86,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 10.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paw/refs/heads/main/screenshots/paw-2026-06-20T191447.png
 security:

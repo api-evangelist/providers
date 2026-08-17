@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Bungie Platform API
@@ -52,7 +52,7 @@ name: Destiny The Game
 nav: Providers
 network: true
 overview: Destiny The Game publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 29
+random_paper: 99
 score:
   band: minimal
   composite: 5.7
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/destiny-the-game/refs/heads/main/screenshots/destiny-the-game-2026-06-20T175937.png
 slug: destiny-the-game

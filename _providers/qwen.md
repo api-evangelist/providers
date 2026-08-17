@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Models API from Qwen — 1 operation(s) for models.
   name: Qwen Models API
   slug: qwen-models-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qwen via Alibaba Cloud Model Studio (DashScope) Chat API
+  slug: open-qwen-chat-api
+- collection_type: open
+  name: Qwen via Alibaba Cloud Model Studio (DashScope) Chat Embeddings API
+  slug: open-qwen-embeddings-api
+- collection_type: open
+  name: Qwen via Alibaba Cloud Model Studio (DashScope) Chat Models API
+  slug: open-qwen-models-api
 - collection_type: open
   name: Qwen via Alibaba Cloud Model Studio (DashScope)
   slug: open-qwen
@@ -121,7 +133,7 @@ plans:
 - name: Qwen Plans Pricing
   plan_count: 3
   slug: qwen-plans-pricing
-random_paper: 83
+random_paper: 145
 rate_limits:
 - limit_count: 3
   name: Qwen Rate Limits
@@ -146,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/screenshots/qwen-2026-06-20T192458.png
 security:

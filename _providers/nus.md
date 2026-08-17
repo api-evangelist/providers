@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,17 @@ apis:
 - description: The Venues API from National University of Singapore — 2 operation(s) for venues.
   name: National University of Singapore Venues API
   slug: nus-venues-api
-artifact_total: 19
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NUSMods Modules API
+  slug: open-nus-modules-api
+- collection_type: open
+  name: NUSMods Modules Venues API
+  slug: open-nus-venues-api
 common:
 - group: agent
   title: ''
@@ -144,7 +154,7 @@ plans:
 - name: Nus Plans Pricing
   plan_count: 2
   slug: nus-plans-pricing
-random_paper: 102
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Nus Rate Limits
@@ -186,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/screenshots/nus-2026-06-20T190528.png
 security:

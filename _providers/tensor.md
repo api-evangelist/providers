@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -66,18 +66,45 @@ apis:
 - description: The Utility API from Tensor — 6 operation(s) for utility.
   name: Tensor Utility API
   slug: tensor-utility-api
-artifact_total: 47
+artifact_total: 56
 asyncapis:
 - description: Realtime subscription stream for the Tensor Solana NFT marketplace. Clients open a single WebSocket connection authenticated with `x-tensor-api-key`, then send JSON subscribe/unsubscribe control frame
   name: Tensor WebSocket API
   slug: tensor-websocket-api-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Tensor API
   slug: open-tensor-api
 - collection_type: open
+  name: Tensor Bids API
+  slug: open-tensor-bids-api
+- collection_type: open
+  name: Tensor Bids Collections API
+  slug: open-tensor-collections-api
+- collection_type: open
+  name: Tensor Bids Escrow API
+  slug: open-tensor-escrow-api
+- collection_type: open
+  name: Tensor Bids Listings API
+  slug: open-tensor-listings-api
+- collection_type: open
+  name: Tensor Bids NFTs API
+  slug: open-tensor-nfts-api
+- collection_type: open
+  name: Tensor Bids Pools API
+  slug: open-tensor-pools-api
+- collection_type: open
   name: Tensor Transaction (TX) API
   slug: open-tensor-tx-api
+- collection_type: open
+  name: Tensor Bids User API
+  slug: open-tensor-user-api
+- collection_type: open
+  name: Tensor Bids Utility API
+  slug: open-tensor-utility-api
 common:
 - group: agent
   title: ''
@@ -369,7 +396,7 @@ plans:
 - name: Tensor Plans Pricing
   plan_count: 2
   slug: tensor-plans-pricing
-random_paper: 67
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Tensor Rate Limits
@@ -425,7 +452,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/screenshots/tensor-2026-06-20T195119.png
 security:

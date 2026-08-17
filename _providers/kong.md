@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -457,7 +457,7 @@ apis:
 - description: 'The workspace object describes the workspace entity, which has an ID and a name. <br><br> Workspaces provide a way to segment Kong Gateway entities. Entities in a workspace are isolated from those in '
   name: Kong Workspaces API
   slug: kong-workspaces-api
-artifact_total: 1651
+artifact_total: 1784
 collections:
 - collection_type: postman
   name: Kong Enterprise Admin ACLs API
@@ -856,11 +856,410 @@ collections:
   name: Kong Enterprise Admin ACLs Workspaces API
   slug: postman-kong-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API
+  slug: open-kong-acls-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Add-Ons API
+  slug: open-kong-add-ons-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API API
+  slug: open-kong-api-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Attributes API
+  slug: open-kong-api-attributes-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Documentation API
+  slug: open-kong-api-documentation-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Image API
+  slug: open-kong-api-image-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Implementation API
+  slug: open-kong-api-implementation-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API-keys API
+  slug: open-kong-api-keys-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Operations API
+  slug: open-kong-api-operations-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Package Documentation API
+  slug: open-kong-api-package-documentation-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Package Image API
+  slug: open-kong-api-package-image-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Package Operations API
+  slug: open-kong-api-package-operations-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Package Specification API
+  slug: open-kong-api-package-specification-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Packages API
+  slug: open-kong-api-packages-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Publication API
+  slug: open-kong-api-publication-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Specification API
+  slug: open-kong-api-specification-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs API Version API
+  slug: open-kong-api-version-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs App Auth Strategies API
+  slug: open-kong-app-auth-strategies-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Application Registrations API
+  slug: open-kong-application-registrations-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Applications API
+  slug: open-kong-applications-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Assets API
+  slug: open-kong-assets-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Auth Settings API
+  slug: open-kong-auth-settings-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Authentication API
+  slug: open-kong-authentication-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Basic-auth credentials API
+  slug: open-kong-basic-auth-credentials-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs CA Certificates API
+  slug: open-kong-ca-certificates-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Catalog Integrations API
+  slug: open-kong-catalog-integrations-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Catalog Resource Mappings API
+  slug: open-kong-catalog-resource-mappings-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Catalog Resource Services API
+  slug: open-kong-catalog-resource-services-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Catalog Resources API
+  slug: open-kong-catalog-resources-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Catalog Service API Mappings API
+  slug: open-kong-catalog-service-api-mappings-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Catalog Service Resources API
+  slug: open-kong-catalog-service-resources-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Catalog Services API
+  slug: open-kong-catalog-services-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Certificates API
+  slug: open-kong-certificates-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Cloud Gateways Resource Quotas API
+  slug: open-kong-cloud-gateways-resource-quotas-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Config Store Secrets API
+  slug: open-kong-config-store-secrets-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Config Stores API
+  slug: open-kong-config-stores-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Consumer Groups API
+  slug: open-kong-consumer-groups-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Consumers API
+  slug: open-kong-consumers-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Control Plane Groups API
+  slug: open-kong-control-plane-groups-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Control Planes API
+  slug: open-kong-control-planes-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Criteria Templates API
+  slug: open-kong-criteria-templates-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Custom Domains API
+  slug: open-kong-custom-domains-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Custom Plugin Schemas API
+  slug: open-kong-custom-plugin-schemas-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs CustomPlugins API
+  slug: open-kong-customplugins-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Dashboards API
+  slug: open-kong-dashboards-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Data-Plane Group Configurations API
+  slug: open-kong-data-plane-group-configurations-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs DCR Providers API
+  slug: open-kong-dcr-providers-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Degraphql_routes API
+  slug: open-kong-degraphql-routes-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs DP Certificates API
+  slug: open-kong-dp-certificates-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs DP Nodes API
+  slug: open-kong-dp-nodes-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Backend Clusters API
+  slug: open-kong-event-gateway-backend-clusters-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway DataPlane Certificates API
+  slug: open-kong-event-gateway-dataplane-certificates-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Listener Policies API
+  slug: open-kong-event-gateway-listener-policies-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Listeners API
+  slug: open-kong-event-gateway-listeners-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Nodes API
+  slug: open-kong-event-gateway-nodes-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Schema Registries API
+  slug: open-kong-event-gateway-schema-registries-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Static Keys API
+  slug: open-kong-event-gateway-static-keys-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway TLS Trust Bundles API
+  slug: open-kong-event-gateway-tls-trust-bundles-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Virtual Cluster Consume Policies API
+  slug: open-kong-event-gateway-virtual-cluster-consume-policies-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Virtual Cluster Policies API
+  slug: open-kong-event-gateway-virtual-cluster-policies-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Virtual Cluster Produce Policies API
+  slug: open-kong-event-gateway-virtual-cluster-produce-policies-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateway Virtual Clusters API
+  slug: open-kong-event-gateway-virtual-clusters-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Event Gateways API
+  slug: open-kong-event-gateways-api
+- collection_type: open
   name: Kong Enterprise Admin API
   slug: open-kong-gateway-admin-api
 - collection_type: open
+  name: Kong Enterprise Admin ACLs GraphQL Cost Decorations API
+  slug: open-kong-graphql-cost-decorations-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Groups API
+  slug: open-kong-groups-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs HMAC-auth credentials API
+  slug: open-kong-hmac-auth-credentials-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Impersonation Settings API
+  slug: open-kong-impersonation-settings-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Integration Instance Auth Config API
+  slug: open-kong-integration-instance-auth-config-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Integration Instance Auth Credentials API
+  slug: open-kong-integration-instance-auth-credentials-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Integration Instances API
+  slug: open-kong-integration-instances-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Invites API
+  slug: open-kong-invites-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs JWTs API
+  slug: open-kong-jwts-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Keys API
+  slug: open-kong-keys-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs KeySets API
+  slug: open-kong-keysets-api
+- collection_type: open
   name: Konnect API - Go SDK
   slug: open-kong-konnect-platform-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs MCP Servers API
+  slug: open-kong-mcp-servers-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Me API
+  slug: open-kong-me-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Metering Events API
+  slug: open-kong-metering-events-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Meters API
+  slug: open-kong-meters-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs MTLS-auth credentials API
+  slug: open-kong-mtls-auth-credentials-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Networks API
+  slug: open-kong-networks-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Notifications API
+  slug: open-kong-notifications-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs OpenMeter Apps API
+  slug: open-kong-openmeter-apps-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs OpenMeter Billing API
+  slug: open-kong-openmeter-billing-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs OpenMeter Customers API
+  slug: open-kong-openmeter-customers-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs OpenMeter Entitlements API
+  slug: open-kong-openmeter-entitlements-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs OpenMeter Subscriptions API
+  slug: open-kong-openmeter-subscriptions-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Pages API
+  slug: open-kong-pages-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Partial Links API
+  slug: open-kong-partial-links-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Partials API
+  slug: open-kong-partials-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Personal Access Tokens API
+  slug: open-kong-personal-access-tokens-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Plugins API
+  slug: open-kong-plugins-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Audit Logs API
+  slug: open-kong-portal-audit-logs-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Auth Settings API
+  slug: open-kong-portal-auth-settings-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Custom Domains API
+  slug: open-kong-portal-custom-domains-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Customization API
+  slug: open-kong-portal-customization-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Developers API
+  slug: open-kong-portal-developers-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Emails API
+  slug: open-kong-portal-emails-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Integrations API
+  slug: open-kong-portal-integrations-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Team Membership API
+  slug: open-kong-portal-team-membership-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Team Roles API
+  slug: open-kong-portal-team-roles-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portal Teams API
+  slug: open-kong-portal-teams-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portals API
+  slug: open-kong-portals-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Portals IP Allow List API
+  slug: open-kong-portals-ip-allow-list-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Private DNS API
+  slug: open-kong-private-dns-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Provider Accounts API
+  slug: open-kong-provider-accounts-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs RBACRoleEndpoints API
+  slug: open-kong-rbacroleendpoints-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs RBACRoleEntities API
+  slug: open-kong-rbacroleentities-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs RBACRoles API
+  slug: open-kong-rbacroles-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs RBACUserGroups API
+  slug: open-kong-rbacusergroups-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs RBACUserRoles API
+  slug: open-kong-rbacuserroles-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs RBACUsers API
+  slug: open-kong-rbacusers-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Resource Availability API
+  slug: open-kong-resource-availability-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Resource Configurations API
+  slug: open-kong-resource-configurations-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Roles API
+  slug: open-kong-roles-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Routes API
+  slug: open-kong-routes-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Schemas API
+  slug: open-kong-schemas-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Scorecards API
+  slug: open-kong-scorecards-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Services API
+  slug: open-kong-services-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Snippets API
+  slug: open-kong-snippets-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs SNIs API
+  slug: open-kong-snis-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs System Accounts - Access Tokens API
+  slug: open-kong-system-accounts-access-tokens-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs System Accounts API
+  slug: open-kong-system-accounts-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs System Accounts - Roles API
+  slug: open-kong-system-accounts-roles-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs System Accounts - Team Membership API
+  slug: open-kong-system-accounts-team-membership-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Targets API
+  slug: open-kong-targets-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Team Membership API
+  slug: open-kong-team-membership-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Teams API
+  slug: open-kong-teams-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Transit Gateways API
+  slug: open-kong-transit-gateways-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Upstreams API
+  slug: open-kong-upstreams-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Users API
+  slug: open-kong-users-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Vaults API
+  slug: open-kong-vaults-api
+- collection_type: open
+  name: Kong Enterprise Admin ACLs Workspaces API
+  slug: open-kong-workspaces-api
 common:
 - group: operate
   title: ''
@@ -5098,7 +5497,7 @@ plans:
 - name: Kong Plans Pricing
   plan_count: 6
   slug: kong-plans-pricing
-random_paper: 71
+random_paper: 133
 rate_limits:
 - limit_count: 10
   name: Kong Rate Limits
@@ -5140,7 +5539,7 @@ score:
       marker_coverage: 0.0
       total: 132
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:

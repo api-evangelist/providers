@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Utilization of Artificial Intelligence Technology in Higher ...
   url: https://www.clausiuspress.com/article/10212.html
-random_paper: 14
+random_paper: 117
 score:
   band: minimal
   composite: 4.3
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/education-management/refs/heads/main/screenshots/education-management-2026-06-20T180459.png
 security:

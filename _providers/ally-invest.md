@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -72,7 +72,29 @@ apis:
 - description: Watchlist creation and symbol management
   name: Ally Invest Watchlists API
   slug: ally-invest-watchlists-api
-artifact_total: 38
+artifact_total: 45
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ally Invest Accounts API
+  slug: open-ally-invest-accounts-api
+- collection_type: open
+  name: Ally Invest Accounts Market Data API
+  slug: open-ally-invest-market-data-api
+- collection_type: open
+  name: Ally Invest Accounts Member API
+  slug: open-ally-invest-member-api
+- collection_type: open
+  name: Ally Invest Accounts Orders API
+  slug: open-ally-invest-orders-api
+- collection_type: open
+  name: Ally Invest Accounts Utilities API
+  slug: open-ally-invest-utilities-api
+- collection_type: open
+  name: Ally Invest Accounts Watchlists API
+  slug: open-ally-invest-watchlists-api
 common:
 - group: agent
   title: ''
@@ -224,7 +246,7 @@ plans:
 - name: Ally Invest Plans Pricing
   plan_count: 1
   slug: ally-invest-plans-pricing
-random_paper: 64
+random_paper: 101
 rate_limits:
 - limit_count: 3
   name: Ally Invest Rate Limits
@@ -264,7 +286,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

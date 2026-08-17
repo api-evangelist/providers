@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Device Faults API from Moxion Power Co — 1 operation(s) for device faults.
@@ -49,7 +49,29 @@ apis:
 - description: The Organizations API from Moxion Power Co — 1 operation(s) for organizations.
   name: Moxion Power Co Organizations API
   slug: moxion-power-co-organizations-api
-artifact_total: 9
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Moxion Power Developer Device Faults API
+  slug: open-moxion-power-co-device-faults-api
+- collection_type: open
+  name: Moxion Power Developer Device Faults Device Location API
+  slug: open-moxion-power-co-device-location-api
+- collection_type: open
+  name: Moxion Power Developer Device Faults Device Metrics API
+  slug: open-moxion-power-co-device-metrics-api
+- collection_type: open
+  name: Moxion Power Developer Device Faults Devices API
+  slug: open-moxion-power-co-devices-api
+- collection_type: open
+  name: Moxion Power Developer Device Faults Fleet Snapshot (AEMP) API
+  slug: open-moxion-power-co-fleet-snapshot-aemp-api
+- collection_type: open
+  name: Moxion Power Developer Device Faults Organizations API
+  slug: open-moxion-power-co-organizations-api
 common:
 - group: start
   title: ''
@@ -171,7 +193,7 @@ overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, GitHub presence, engineering blog, and 19 more developer resources.'
-random_paper: 83
+random_paper: 33
 score:
   band: thin
   composite: 38.2
@@ -200,7 +222,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
 security:

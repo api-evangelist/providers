@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Free; API credentials provisioned by the Linux Foundation
+  onboarding: unknown
+  pricing: free
   public: false
   source:
-  - authentication
+  - https://docs.linuxfoundation.org/lfx/community-management
+  - https://github.com/linuxfoundation/crowd.dev/blob/main/docs/adr/0016-akrites-cdp-public-api-authentication.md
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,12 +25,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-12'
+  score: 48.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -86,7 +88,59 @@ apis:
 - description: Manage and verify member work experiences (organization affiliations).
   name: Crowd.dev Work Experiences API
   slug: crowddev-work-experiences-api
-artifact_total: 21
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDP → Akrites External Advisories API
+  slug: open-crowddev-advisories-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Affiliations API
+  slug: open-crowddev-affiliations-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Contacts API
+  slug: open-crowddev-contacts-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Dashboard API
+  slug: open-crowddev-dashboard-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Maintainer Roles API
+  slug: open-crowddev-maintainer-roles-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Member Affiliations API API
+  slug: open-crowddev-member-affiliations-api-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Member Identities API
+  slug: open-crowddev-member-identities-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Member Organizations API API
+  slug: open-crowddev-member-organizations-api-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Members API
+  slug: open-crowddev-members-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Organizations API
+  slug: open-crowddev-organizations-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Packages API
+  slug: open-crowddev-packages-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Project Affiliations API
+  slug: open-crowddev-project-affiliations-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Stewardship Actions API
+  slug: open-crowddev-stewardship-actions-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Stewardship API
+  slug: open-crowddev-stewardship-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Stewardships API
+  slug: open-crowddev-stewardships-api
+- collection_type: open
+  name: CDP → Akrites External Advisories Work Experiences API
+  slug: open-crowddev-work-experiences-api
 common:
 - group: operate
   title: ''
@@ -123,15 +177,35 @@ common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://docs.crowd.dev/
-- group: docs
-  title: ''
-  type: Documentation
   url: https://docs.crowd.dev/docs/
 - group: docs
   title: ''
+  type: Documentation
+  url: https://docs.linuxfoundation.org/lfx/community-management
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.linuxfoundation.org/lfx/community-management/quick-start-guide
+- group: docs
+  title: ''
   type: APIReference
-  url: https://api.crowd.dev/
+  url: https://github.com/linuxfoundation/crowd.dev/tree/main/backend/src/api/public
+- group: operate
+  title: ''
+  type: Support
+  url: https://jira.linuxfoundation.org/plugins/servlet/desk/portal/4
+- group: start
+  title: ''
+  type: SignUp
+  url: https://cm.lfx.dev/project-groups
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.linuxfoundation.org/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.linuxfoundation.org/legal/privacy-policy
 - group: operate
   title: ''
   type: ChangeLog
@@ -186,12 +260,32 @@ common:
   url: llms/crowddev-llms.txt
 - group: agent
   title: ''
+  type: LLMsTxt
+  url: https://docs.linuxfoundation.org/lfx/llms.txt
+- group: agent
+  title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
   title: ''
   type: ChangeLog
   url: changelog/crowddev-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/crowddev-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/crowddev-rate-limits.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/crowddev-sandbox.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/crowddev-cli.yml
 created: '2026-07-17'
 description: Crowd.dev is an open-source developer data platform that centralizes community, product, and commercial data to unify contributor identities, resolve who is engaging with an open-source project, and activate that data for developer relations and community-led growth. Founded in Berlin and backed by Seedcamp, crowd.dev was acquired by the Linux Foundation in April 2024 and now powers the LFX Community Data Platform (CDP). The codebase is Apache-2.0 open source at github.com/CrowdDotDev (now linuxfoundation/crowd.dev), and the CDP Public API exposes transactional REST endpoints for member and organization profiles, identity verification, work-experience and project-affiliation management, contributor affiliation lookups, and open-source package/stewardship intelligence.
 image: https://avatars.githubusercontent.com/u/85551972?v=4
@@ -200,31 +294,39 @@ mcp_servers:
 - description: ''
   name: crowddev-mcp.yml
   slug: crowddev-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Crowd.dev
 nav: Providers
 network: true
 overview: 'Crowd.dev publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Advisories API, Affiliations API, Contacts API, and 13 more. Tagged areas include Company, Community, Developer Relations, Developer Data Platform, and Identity Resolution.
 
 
-  Crowd.dev''s developer surface includes authentication, documentation, API reference, changelog, and 22 more developer resources.'
-random_paper: 22
+  Crowd.dev''s developer surface includes authentication, documentation, getting-started guide, API reference, support, signup flow, changelog, and 29 more developer resources.'
+plans:
+- name: Crowddev Plans Pricing
+  plan_count: 1
+  slug: crowddev-plans-pricing
+random_paper: 117
+rate_limits:
+- limit_count: 4
+  name: Crowddev Rate Limits
+  slug: crowddev-rate-limits
 scopes:
 - name: Crowddev Scopes
-  scope_count: 13
+  scope_count: 17
   slug: crowddev-scopes
-  summary_line: 13 scopes · clientCredentials
+  summary_line: 17 scopes · clientCredentials
 score:
-  band: thin
-  composite: 37.6
-  delta: 0.0
+  band: strong
+  composite: 58.4
+  delta: 20.8
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 55.3
     contract_quality: 62.3
-    developer_ergonomics: 38.6
+    developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 36.8
+    operational_transparency: 68.4
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -237,14 +339,14 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/screenshots/crowddev-2026-07-25T210805.png
 security:
 - kind: authentication
   name: Crowddev Authentication
   slug: crowddev-authentication
-  summary_line: http/oauth2 · 2 schemes
+  summary_line: http/oauth2 · 4 schemes
 - kind: domain-security
   name: Crowddev Domain Security
   slug: crowddev-domain-security

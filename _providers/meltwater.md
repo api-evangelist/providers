@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: partial
+    mcp_server: true
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 67.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 80
   slug: meltwater-agentic-access
   summary_line: 80 operations · 32 acting
-api_count: 12
+api_count: 14
 apis:
 - description: Account Management API and Usage APIs
   name: Meltwater Account Management API
@@ -75,7 +76,57 @@ apis:
 - description: Retrieve owned social metrics and analytics.
   name: Meltwater Owned Analytics API
   slug: meltwater-owned-analytics-api
-artifact_total: 23
+- description: The Meltwater Public API v4 provides unified access to content export and analytics across Meltwater Explore+ data sources, plus LLM lens prompts for AI Visibility (GenAI Lens). v4 is the version Melt
+  name: Meltwater API v4
+  slug: meltwater-api-v4
+- description: Meltwater MCP is a single remote Model Context Protocol server that exposes a customer's Meltwater assets (saved searches, tags and other configured objects) and Meltwater data (news and social mentio
+  name: Meltwater MCP
+  slug: meltwater-mcp
+artifact_total: 42
+asyncapis:
+- description: ''
+  name: Meltwater Webhooks
+  slug: meltwater-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meltwater Account Management API
+  slug: open-meltwater-account-management-api
+- collection_type: open
+  name: Meltwater Account Management Bring Your Own Content (BYOC) API
+  slug: open-meltwater-bring-your-own-content-byoc-api
+- collection_type: open
+  name: Meltwater Account Management Explore+ Analytics API
+  slug: open-meltwater-explore-analytics-api
+- collection_type: open
+  name: Meltwater Account Management Explore+ Assets API
+  slug: open-meltwater-explore-assets-api
+- collection_type: open
+  name: Meltwater Account Management Explore+ Search API
+  slug: open-meltwater-explore-search-api
+- collection_type: open
+  name: Meltwater Account Management Listening Analytics API
+  slug: open-meltwater-listening-analytics-api
+- collection_type: open
+  name: Meltwater Account Management Listening Exports API
+  slug: open-meltwater-listening-exports-api
+- collection_type: open
+  name: Meltwater Account Management Listening Search API
+  slug: open-meltwater-listening-search-api
+- collection_type: open
+  name: Meltwater Account Management Listening Search Management API
+  slug: open-meltwater-listening-search-management-api
+- collection_type: open
+  name: Meltwater Account Management Listening Streaming API
+  slug: open-meltwater-listening-streaming-api
+- collection_type: open
+  name: Meltwater Account Management Mira API API
+  slug: open-meltwater-mira-api-api
+- collection_type: open
+  name: Meltwater Account Management Owned Analytics API
+  slug: open-meltwater-owned-analytics-api
 common:
 - group: agent
   title: ''
@@ -137,6 +188,138 @@ common:
   title: ''
   type: FinOps
   url: finops/meltwater-finops.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/meltwater-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/meltwater-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.meltwater.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/meltwater-trust-center.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/meltwater-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/meltwater-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/meltwater-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/meltwater-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/meltwater-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/meltwater-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/meltwater-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/meltwater-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/meltwater-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/meltwater-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/meltwater-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/meltwater-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/meltwater-packages.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/meltwater-api-examples.json
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/meltwater-vocabulary.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/meltwater-schemas.json
+- group: design
+  title: ''
+  type: Rules
+  url: rules/meltwater-jsonschema-spectral-rules.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/meltwater-api.jsonld
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.meltwater.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.meltwater.com/api-reference/api-reference-overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.meltwater.com/guides/getting-started/overview
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.meltwater.com/help/support
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://developer.meltwater.com/help/faqs
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.meltwater.com/en/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.meltwater.com/en/privacy
+- group: start
+  title: ''
+  type: Login
+  url: https://app.meltwater.com/
+- group: start
+  title: ''
+  type: Console
+  url: https://developer.meltwater.com/tools/overview
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/meltwater
 created: '2026-06-13'
 description: Meltwater is a media intelligence platform providing REST APIs for media monitoring, social listening, journalist outreach, PR analytics, and brand reputation management. The API enables programmatic access to billions of editorial, blog, and social media conversations across news sources and social networks, with capabilities for searching, exporting, streaming, and analyzing mentions, as well as fetching owned social account analytics.
 examples:
@@ -158,24 +341,28 @@ jsonld:
   property_count: 1
   slug: meltwater-api
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: meltwater-mcp.yml
+  slug: meltwater-mcpyml
+modified: '2026-08-13'
 name: Meltwater
 nav: Providers
 network: true
-overview: 'Meltwater publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Bring Your Own Content (BYOC) API, Explore+ Analytics API, and 9 more. Tagged areas include Media Monitoring, Social Listening, PR Analytics, Brand Intelligence, and News API.
+overview: 'Meltwater publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Bring Your Own Content (BYOC) API, Explore+ Analytics API, and 10 more. Tagged areas include Media Monitoring, Social Listening, PR Analytics, Brand Intelligence, and News API.
 
 
-  The Meltwater catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Meltwater catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Meltwater''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Meltwater''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, code examples, and 41 more developer resources.'
 plans:
 - name: Meltwater Plans Pricing
   plan_count: 3
   slug: meltwater-plans-pricing
-random_paper: 21
+random_paper: 87
 rate_limits:
-- limit_count: 5
+- limit_count: 7
   name: Meltwater Rate Limits
   slug: meltwater-rate-limits
 rules:
@@ -187,17 +374,22 @@ rules:
     info: 1
     warn: 5
   slug: meltwater-jsonschema-spectral-rules
+scopes:
+- name: Meltwater Scopes
+  scope_count: 5
+  slug: meltwater-scopes
+  summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.2
-  delta: 0.0
+  band: exemplar
+  composite: 82.4
+  delta: 31.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 62.3
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    commercial_clarity: 92.1
+    contract_quality: 71.8
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 86.8
   previous_composite: 51.2
   provenance:
     agentic_access: derived
@@ -207,14 +399,14 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/screenshots/meltwater-2026-06-20T185137.png
 security:
 - kind: authentication
   name: Meltwater Authentication
   slug: meltwater-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Meltwater Domain Security
   slug: meltwater-domain-security
@@ -223,6 +415,10 @@ security:
   name: Meltwater Vulnerability Disclosure
   slug: meltwater-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Meltwater Trust Center
+  slug: meltwater-trust-center
+  summary_line: trust center published
 slug: meltwater
 tags:
 - Media Monitoring

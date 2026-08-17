@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 68.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -99,11 +99,75 @@ apis:
 - description: Manage Workspaces and related operations.
   name: Frame.io Workspaces API
   slug: frameio-workspaces-api
-artifact_total: 27
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Frameio Webhooks
   slug: frameio-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Frame.io Account Permissions API
+  slug: open-frameio-account-permissions-api
+- collection_type: open
+  name: Frame.io Account Permissions Accounts API
+  slug: open-frameio-accounts-api
+- collection_type: open
+  name: Frame.io Account Permissions Collections API
+  slug: open-frameio-collections-api
+- collection_type: open
+  name: Frame.io Account Permissions Comments API
+  slug: open-frameio-comments-api
+- collection_type: open
+  name: Frame.io Account Permissions Custom Actions API
+  slug: open-frameio-custom-actions-api
+- collection_type: open
+  name: Frame.io Account Permissions Files API
+  slug: open-frameio-files-api
+- collection_type: open
+  name: Frame.io Account Permissions Folder Permissions API
+  slug: open-frameio-folder-permissions-api
+- collection_type: open
+  name: Frame.io Account Permissions Folders API
+  slug: open-frameio-folders-api
+- collection_type: open
+  name: Frame.io Account Permissions Groups API
+  slug: open-frameio-groups-api
+- collection_type: open
+  name: Frame.io Account Permissions Metadata API
+  slug: open-frameio-metadata-api
+- collection_type: open
+  name: Frame.io Account Permissions Metadata Fields API
+  slug: open-frameio-metadata-fields-api
+- collection_type: open
+  name: Frame.io Account Permissions Project Permissions API
+  slug: open-frameio-project-permissions-api
+- collection_type: open
+  name: Frame.io Account Permissions Projects API
+  slug: open-frameio-projects-api
+- collection_type: open
+  name: Frame.io Account Permissions Search API
+  slug: open-frameio-search-api
+- collection_type: open
+  name: Frame.io Account Permissions Shares API
+  slug: open-frameio-shares-api
+- collection_type: open
+  name: Frame.io Account Permissions Users API
+  slug: open-frameio-users-api
+- collection_type: open
+  name: Frame.io Account Permissions Version Stacks API
+  slug: open-frameio-version-stacks-api
+- collection_type: open
+  name: Frame.io Account Permissions Webhooks API
+  slug: open-frameio-webhooks-api
+- collection_type: open
+  name: Frame.io Account Permissions Workspace Permissions API
+  slug: open-frameio-workspace-permissions-api
+- collection_type: open
+  name: Frame.io Account Permissions Workspaces API
+  slug: open-frameio-workspaces-api
 common:
 - group: other
   title: ''
@@ -244,7 +308,7 @@ overview: 'Frame.io publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Frame.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 19
+random_paper: 143
 scopes:
 - name: Frameio Scopes
   scope_count: 6
@@ -273,7 +337,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frameio/refs/heads/main/screenshots/frameio-2026-07-25T215109.png
 security:

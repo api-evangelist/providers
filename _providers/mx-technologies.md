@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -132,7 +132,89 @@ apis:
 - description: The widgets API from MX Technologies — 4 operation(s) for widgets.
   name: MX Technologies widgets API
   slug: mx-technologies-widgets-api
-artifact_total: 44
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MX Platform accounts API
+  slug: open-mx-technologies-accounts-api
+- collection_type: open
+  name: MX Platform accounts ach return API
+  slug: open-mx-technologies-ach-return-api
+- collection_type: open
+  name: MX Platform accounts budgets API
+  slug: open-mx-technologies-budgets-api
+- collection_type: open
+  name: MX Platform accounts categories API
+  slug: open-mx-technologies-categories-api
+- collection_type: open
+  name: MX Platform accounts goals API
+  slug: open-mx-technologies-goals-api
+- collection_type: open
+  name: MX Platform accounts insights API
+  slug: open-mx-technologies-insights-api
+- collection_type: open
+  name: MX Platform accounts institutions API
+  slug: open-mx-technologies-institutions-api
+- collection_type: open
+  name: MX Platform accounts investment holdings API
+  slug: open-mx-technologies-investment-holdings-api
+- collection_type: open
+  name: MX Platform accounts managed data API
+  slug: open-mx-technologies-managed-data-api
+- collection_type: open
+  name: MX Platform accounts managed data [deprecated] API
+  slug: open-mx-technologies-managed-data-deprecated-api
+- collection_type: open
+  name: MX Platform accounts members API
+  slug: open-mx-technologies-members-api
+- collection_type: open
+  name: MX Platform accounts merchants API
+  slug: open-mx-technologies-merchants-api
+- collection_type: open
+  name: MX Platform accounts microdeposits API
+  slug: open-mx-technologies-microdeposits-api
+- collection_type: open
+  name: MX Platform accounts monthly cash flow profile API
+  slug: open-mx-technologies-monthly-cash-flow-profile-api
+- collection_type: open
+  name: MX Platform accounts notifications API
+  slug: open-mx-technologies-notifications-api
+- collection_type: open
+  name: MX Platform accounts processor token API
+  slug: open-mx-technologies-processor-token-api
+- collection_type: open
+  name: MX Platform accounts rewards API
+  slug: open-mx-technologies-rewards-api
+- collection_type: open
+  name: MX Platform accounts spending plan API
+  slug: open-mx-technologies-spending-plan-api
+- collection_type: open
+  name: MX Platform accounts statements API
+  slug: open-mx-technologies-statements-api
+- collection_type: open
+  name: MX Platform accounts taggings API
+  slug: open-mx-technologies-taggings-api
+- collection_type: open
+  name: MX Platform accounts tags API
+  slug: open-mx-technologies-tags-api
+- collection_type: open
+  name: MX Platform accounts transaction rules API
+  slug: open-mx-technologies-transaction-rules-api
+- collection_type: open
+  name: MX Platform accounts transactions API
+  slug: open-mx-technologies-transactions-api
+- collection_type: open
+  name: MX Platform accounts users API
+  slug: open-mx-technologies-users-api
+- collection_type: open
+  name: MX Platform accounts verifiable credentials API
+  slug: open-mx-technologies-verifiable-credentials-api
+- collection_type: open
+  name: MX Platform accounts widgets API
+  slug: open-mx-technologies-widgets-api
 common:
 - group: agent
   title: ''
@@ -250,7 +332,7 @@ plans:
 - name: Mx Technologies Plans Pricing
   plan_count: 2
   slug: mx-technologies-plans-pricing
-random_paper: 118
+random_paper: 68
 rate_limits:
 - limit_count: 8
   name: Mx Technologies Rate Limits
@@ -290,7 +372,7 @@ score:
     regime_id: banking_open_finance
     score: 35.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/screenshots/mx-technologies-2026-06-20T185910.png
 security:

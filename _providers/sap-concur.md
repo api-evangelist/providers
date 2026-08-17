@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -135,11 +135,29 @@ apis:
 - description: Operations for submitting, approving, recalling, and sending back expense reports through the approval workflow.
   name: SAP Concur Workflows API
   slug: sap-concur-workflows-api
-artifact_total: 205
+artifact_total: 211
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP Concur Expense Report Allocations API
+  slug: open-sap-concur-allocations-api
+- collection_type: open
+  name: SAP Concur Expense Report Allocations Comments API
+  slug: open-sap-concur-comments-api
 - collection_type: open
   name: SAP Concur Expense Report API
   slug: open-sap-concur-expense
+- collection_type: open
+  name: SAP Concur Expense Report Allocations Expenses API
+  slug: open-sap-concur-expenses-api
+- collection_type: open
+  name: SAP Concur Expense Report Allocations Reports API
+  slug: open-sap-concur-reports-api
+- collection_type: open
+  name: SAP Concur Expense Report Allocations Workflows API
+  slug: open-sap-concur-workflows-api
 common:
 - group: commercial
   title: ''
@@ -720,7 +738,7 @@ plans:
 - name: Sap Concur Plans Pricing
   plan_count: 1
   slug: sap-concur-plans-pricing
-random_paper: 59
+random_paper: 125
 rate_limits:
 - limit_count: 1
   name: Sap Concur Rate Limits
@@ -762,7 +780,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur/refs/heads/main/screenshots/sap-concur-2026-06-20T193423.png
 security:

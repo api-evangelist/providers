@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: Perform speech recognition on audio
   name: Google Cloud Speech-To-Text Speech API
   slug: google-cloud-speech-to-text-speech-api
-artifact_total: 14
+artifact_total: 17
 collections:
 - collection_type: postman
   name: Google Cloud Speech-to-Text Operations API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Google Cloud -to-Text Operations Speech API
   slug: postman-google-cloud-speech-to-text-speech-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Speech-to-Text Operations API
+  slug: open-google-cloud-speech-to-text-operations-api
+- collection_type: open
+  name: Google Cloud -to-Text Operations Speech API
+  slug: open-google-cloud-speech-to-text-speech-api
 - collection_type: open
   name: Google Cloud Speech-to-Text API
   slug: open-openapi
@@ -152,7 +161,7 @@ plans:
 - name: Google Cloud Speech To Text Plans Pricing
   plan_count: 3
   slug: google-cloud-speech-to-text-plans-pricing
-random_paper: 24
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Google Cloud Speech To Text Rate Limits
@@ -191,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-speech-to-text/refs/heads/main/screenshots/google-cloud-speech-to-text-2026-06-20T182137.png
 security:

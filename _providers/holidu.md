@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -107,11 +107,81 @@ apis:
 - description: The Testa API from Holidu — 1 operation(s) for testa.
   name: Holidu Testa API
   slug: holidu-testa-api
-artifact_total: 30
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Holidu Webhooks
   slug: holidu-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Affiliate Apartment API
+  slug: open-holidu-apartment-api
+- collection_type: open
+  name: Affiliate Apartment Availabilities API
+  slug: open-holidu-availabilities-api
+- collection_type: open
+  name: Affiliate Apartment Availability API
+  slug: open-holidu-availability-api
+- collection_type: open
+  name: Affiliate Apartment Booking Terms API
+  slug: open-holidu-booking-terms-api
+- collection_type: open
+  name: Affiliate Apartment Bookings API
+  slug: open-holidu-bookings-api
+- collection_type: open
+  name: Affiliate Apartment Changed API
+  slug: open-holidu-changed-api
+- collection_type: open
+  name: Affiliate Apartment Descriptions API
+  slug: open-holidu-descriptions-api
+- collection_type: open
+  name: Affiliate Apartment Details API
+  slug: open-holidu-details-api
+- collection_type: open
+  name: Affiliate Apartment Discounts API
+  slug: open-holidu-discounts-api
+- collection_type: open
+  name: Affiliate Apartment Extra Costs API
+  slug: open-holidu-extra-costs-api
+- collection_type: open
+  name: Affiliate Apartment Facilities API
+  slug: open-holidu-facilities-api
+- collection_type: open
+  name: Affiliate Apartment LOS API
+  slug: open-holidu-los-api
+- collection_type: open
+  name: Affiliate Apartment LOS Push API API
+  slug: open-holidu-los-push-api-api
+- collection_type: open
+  name: Affiliate Apartment MultiUnit API
+  slug: open-holidu-multiunit-api
+- collection_type: open
+  name: Affiliate Apartment MultiUnit Facility API
+  slug: open-holidu-multiunit-facility-api
+- collection_type: open
+  name: Affiliate Apartment MultiUnit Localization API
+  slug: open-holidu-multiunit-localization-api
+- collection_type: open
+  name: Affiliate Apartment MultiUnit Photo API
+  slug: open-holidu-multiunit-photo-api
+- collection_type: open
+  name: Affiliate Apartment Photos API
+  slug: open-holidu-photos-api
+- collection_type: open
+  name: Affiliate Apartment Rates API
+  slug: open-holidu-rates-api
+- collection_type: open
+  name: Affiliate Apartment Search API
+  slug: open-holidu-search-api
+- collection_type: open
+  name: Affiliate Apartment Test API
+  slug: open-holidu-test-api
+- collection_type: open
+  name: Affiliate Apartment Testa API
+  slug: open-holidu-testa-api
 common:
 - group: other
   title: ''
@@ -268,7 +338,7 @@ overview: 'Holidu publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Holidu''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 45
+random_paper: 49
 scopes:
 - name: Holidu Scopes
   scope_count: 0
@@ -297,7 +367,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/screenshots/holidu-2026-07-25T221319.png
 security:

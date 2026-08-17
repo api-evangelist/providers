@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -101,11 +101,15 @@ apis:
 - description: 'Export API against Telia ACE Interaction View that allows content and data from recorded contact-centre interactions to be exported to external systems for analytics, quality management or archiving. '
   name: Telia ACE Interaction View API
   slug: telia-ace-interaction-view-api
-artifact_total: 31
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Telia Webhooks
   slug: telia-webhooks
+collections:
+- collection_type: open
+  name: B2X-Global-SiteManagement-API-v1
+  slug: open-telia-lso-sonata-site-management
 common:
 - group: agent
   title: ''
@@ -287,7 +291,7 @@ overview: 'Telia Company publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Telia Company''s developer surface includes authentication, CLI, changelog, sandbox, documentation, support, getting-started guide, and 33 more developer resources.'
-random_paper: 47
+random_paper: 80
 scopes:
 - name: Telia Scopes
   scope_count: 2
@@ -322,7 +326,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -78,7 +78,47 @@ apis:
 - description: The Workflows API from APIContext — 3 operation(s) for workflows.
   name: APIContext Workflows API
   slug: apicontext-workflows-api
-artifact_total: 30
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APIContext Platform Agents API
+  slug: open-apicontext-agents-api
+- collection_type: open
+  name: APIContext Platform Agents Alerts API
+  slug: open-apicontext-alerts-api
+- collection_type: open
+  name: APIContext Platform Agents API Calls API
+  slug: open-apicontext-api-calls-api
+- collection_type: open
+  name: APIContext Platform Agents Directory API
+  slug: open-apicontext-directory-api
+- collection_type: open
+  name: APIContext Platform Agents Insights API
+  slug: open-apicontext-insights-api
+- collection_type: open
+  name: APIContext Platform Agents Projects API
+  slug: open-apicontext-projects-api
+- collection_type: open
+  name: APIContext Platform Agents Reports API
+  slug: open-apicontext-reports-api
+- collection_type: open
+  name: APIContext Platform Agents Results API
+  slug: open-apicontext-results-api
+- collection_type: open
+  name: APIContext Platform Agents Schedules API
+  slug: open-apicontext-schedules-api
+- collection_type: open
+  name: APIContext Platform Agents Statistics API
+  slug: open-apicontext-statistics-api
+- collection_type: open
+  name: APIContext Platform Agents Tokens API
+  slug: open-apicontext-tokens-api
+- collection_type: open
+  name: APIContext Platform Agents Workflows API
+  slug: open-apicontext-workflows-api
 common:
 - group: agent
   title: ''
@@ -153,7 +193,7 @@ plans:
 - name: Apicontext Plans Pricing
   plan_count: 3
   slug: apicontext-plans-pricing
-random_paper: 7
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Apicontext Rate Limits
@@ -178,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/screenshots/apicontext-2026-06-20T172235.png
 security:

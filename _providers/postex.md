@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Booking, tracking, and listing shipment orders
@@ -37,7 +37,17 @@ apis:
 - description: Operational cities and merchant address reference data
   name: PostEx Reference API
   slug: postex-reference-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PostEx Merchant Order Integration Orders API
+  slug: open-postex-orders-api
+- collection_type: open
+  name: PostEx Merchant Order Integration Orders Reference API
+  slug: open-postex-reference-api
 common:
 - group: other
   title: ''
@@ -87,7 +97,7 @@ overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: O
 
 
   PostEx''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 75
+random_paper: 79
 score:
   band: emerging
   composite: 25.9
@@ -116,7 +126,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

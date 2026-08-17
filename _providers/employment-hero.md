@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -74,8 +74,41 @@ apis:
 - description: The Job Histories API from Employment Hero — 1 operation(s) for job histories.
   name: Employment Hero Job Histories API
   slug: employment-hero-job-histories-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Employment Hero REST Bank Accounts API
+  slug: open-employment-hero-bank-accounts-api
+- collection_type: open
+  name: Employment Hero REST Bank Accounts Certifications API
+  slug: open-employment-hero-certifications-api
+- collection_type: open
+  name: Employment Hero REST Bank Accounts Cost Centres API
+  slug: open-employment-hero-cost-centres-api
+- collection_type: open
+  name: Employment Hero REST Bank Accounts Custom Fields API
+  slug: open-employment-hero-custom-fields-api
+- collection_type: open
+  name: Employment Hero REST Bank Accounts Departments API
+  slug: open-employment-hero-departments-api
+- collection_type: open
+  name: Employment Hero REST Bank Accounts Documents API
+  slug: open-employment-hero-documents-api
+- collection_type: open
+  name: Employment Hero REST Bank Accounts Emergency Contacts API
+  slug: open-employment-hero-emergency-contacts-api
+- collection_type: open
+  name: Employment Hero REST Bank Accounts Employees API
+  slug: open-employment-hero-employees-api
+- collection_type: open
+  name: Employment Hero REST Bank Accounts Forms API
+  slug: open-employment-hero-forms-api
+- collection_type: open
+  name: Employment Hero REST Bank Accounts Job Histories API
+  slug: open-employment-hero-job-histories-api
 - collection_type: open
   name: Employment Hero REST API
   slug: open-employment-hero
@@ -148,7 +181,7 @@ overview: 'Employment Hero publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Employment Hero''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 13
+random_paper: 83
 scopes:
 - name: Employment Hero Scopes
   scope_count: 0
@@ -174,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/screenshots/employment-hero-2026-06-20T180642.png
 security:

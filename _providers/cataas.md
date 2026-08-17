@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Submit a cat image (rate-limited / moderated)
   name: Cataas Upload API
   slug: cataas-upload-api
-artifact_total: 41
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cataas Admin API
+  slug: open-cataas-admin-api
+- collection_type: open
+  name: Cataas Admin Catalog API
+  slug: open-cataas-catalog-api
+- collection_type: open
+  name: Cataas Admin Cats API
+  slug: open-cataas-cats-api
+- collection_type: open
+  name: Cataas Admin Upload API
+  slug: open-cataas-upload-api
 common:
 - group: operate
   title: ''
@@ -199,7 +215,7 @@ overview: 'Cataas publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cataas'' developer surface includes authentication, tooling, and 13 more developer resources.'
-random_paper: 21
+random_paper: 25
 rules:
 - name: Cataas API Rules
   rule_count: 5
@@ -237,7 +253,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/screenshots/cataas-2026-06-20T174040.png
 security:

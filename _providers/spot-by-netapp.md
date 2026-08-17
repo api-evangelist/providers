@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The Ocean AWS API from Spot by NetApp — 3 operation(s) for ocean aws.
   name: Spot by NetApp Ocean AWS API
   slug: spot-by-netapp-ocean-aws-api
-artifact_total: 35
+artifact_total: 46
 collections:
 - collection_type: postman
   name: Spot by NetApp Audit Service API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: Spot by NetApp Audit Service Ocean AWS API
   slug: postman-spot-by-netapp-ocean-aws-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spot by NetApp Audit Service API
+  slug: open-spot-by-netapp-audit-service-api
+- collection_type: open
+  name: Spot by NetApp Audit Service Create an API Token API
+  slug: open-spot-by-netapp-create-an-api-token-api
+- collection_type: open
+  name: Spot by NetApp Audit Service Elastigroup AWS API
+  slug: open-spot-by-netapp-elastigroup-aws-api
+- collection_type: open
+  name: Spot by NetApp Audit Service Elastigroup Azure Spot VMs API
+  slug: open-spot-by-netapp-elastigroup-azure-spot-vms-api
+- collection_type: open
+  name: Spot by NetApp Audit Service Elastigroup GCP API
+  slug: open-spot-by-netapp-elastigroup-gcp-api
+- collection_type: open
+  name: Spot by NetApp Audit Service Health Check Service API
+  slug: open-spot-by-netapp-health-check-service-api
+- collection_type: open
+  name: Spot by NetApp Audit Service Insights Service API
+  slug: open-spot-by-netapp-insights-service-api
+- collection_type: open
+  name: Spot by NetApp Audit Service Notification Subscription Service API
+  slug: open-spot-by-netapp-notification-subscription-service-api
+- collection_type: open
+  name: Spot by NetApp Audit Service Ocean Automatic Rightsizing API
+  slug: open-spot-by-netapp-ocean-automatic-rightsizing-api
+- collection_type: open
+  name: Spot by NetApp Audit Service Ocean AWS API
+  slug: open-spot-by-netapp-ocean-aws-api
 - collection_type: open
   name: Spot by NetApp API
   slug: open-spot-by-netapp
@@ -231,7 +264,7 @@ plans:
 - name: Spot By Netapp Plans Pricing
   plan_count: 3
   slug: spot-by-netapp-plans-pricing
-random_paper: 91
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Spot By Netapp Rate Limits
@@ -273,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/screenshots/spot-by-netapp-2026-06-20T194351.png
 security:

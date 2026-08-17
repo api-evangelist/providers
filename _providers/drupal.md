@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -66,14 +66,41 @@ apis:
 - description: JSON:API endpoints for Drupal user entities. Config entities are read-only via JSON:API and require authentication.
   name: drupal Users API
   slug: drupal-users-api
-artifact_total: 24
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Drupal JSON: Comments API'
+  slug: open-drupal-comments-api
+- collection_type: open
+  name: 'Drupal JSON: Comments Files API'
+  slug: open-drupal-files-api
 - collection_type: open
   name: Drupal JSON:API
   slug: open-drupal-jsonapi
 - collection_type: open
+  name: 'Drupal JSON: Comments Node Articles API'
+  slug: open-drupal-node-articles-api
+- collection_type: open
+  name: 'Drupal JSON: Comments Node Pages API'
+  slug: open-drupal-node-pages-api
+- collection_type: open
+  name: 'Drupal JSON: Comments Nodes API'
+  slug: open-drupal-nodes-api
+- collection_type: open
   name: Drupal REST API
   slug: open-drupal-rest-api
+- collection_type: open
+  name: 'Drupal JSON: Comments Taxonomy Terms API'
+  slug: open-drupal-taxonomy-terms-api
+- collection_type: open
+  name: 'Drupal JSON: Comments Taxonomy Vocabularies API'
+  slug: open-drupal-taxonomy-vocabularies-api
+- collection_type: open
+  name: 'Drupal JSON: Comments Users API'
+  slug: open-drupal-users-api
 common:
 - group: agent
   title: ''
@@ -153,7 +180,7 @@ plans:
 - name: Drupal Plans Pricing
   plan_count: 3
   slug: drupal-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Drupal Rate Limits
@@ -192,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/screenshots/drupal-2026-06-20T180306.png
 security:

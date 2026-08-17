@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Operations on accounts
@@ -61,7 +61,41 @@ apis:
 - description: Operations on users
   name: Datto /v2/user API
   slug: datto-v2-user-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/account API
+  slug: open-datto-v2-account-api
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/activity-logs API
+  slug: open-datto-v2-activity-logs-api
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/alert API
+  slug: open-datto-v2-alert-api
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/audit API
+  slug: open-datto-v2-audit-api
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/device API
+  slug: open-datto-v2-device-api
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/filter API
+  slug: open-datto-v2-filter-api
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/job API
+  slug: open-datto-v2-job-api
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/site API
+  slug: open-datto-v2-site-api
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/system API
+  slug: open-datto-v2-system-api
+- collection_type: open
+  name: Datto RMM /v2/account /v2/account /v2/user API
+  slug: open-datto-v2-user-api
 common:
 - group: other
   title: ''
@@ -179,7 +213,7 @@ overview: 'Datto publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Datto''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 60
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Datto Rate Limits
@@ -206,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/screenshots/datto-2026-07-25T211420.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Workflows operations
   name: Azure Logic Apps Workflows API
   slug: microsoft-azure-logic-apps-workflows-api
-artifact_total: 25
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Logic Apps REST Operations API
+  slug: open-microsoft-azure-logic-apps-operations-api
+- collection_type: open
+  name: Azure Logic Apps REST Operations Workflows API
+  slug: open-microsoft-azure-logic-apps-workflows-api
 - collection_type: open
   name: Azure Logic Apps REST API
   slug: open-microsoft-azure-logic-apps
@@ -151,7 +160,7 @@ plans:
 - name: Microsoft Azure Logic Apps Plans Pricing
   plan_count: 3
   slug: microsoft-azure-logic-apps-plans-pricing
-random_paper: 110
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Logic Apps Rate Limits
@@ -181,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-logic-apps/refs/heads/main/screenshots/microsoft-azure-logic-apps-2026-06-20T185421.png
 security:

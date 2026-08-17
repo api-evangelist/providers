@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: The TransportPlans API from Forto — 4 operation(s) for transportplans.
   name: Forto TransportPlans API
   slug: forto-transportplans-api
-artifact_total: 31
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Forto Public Bookings API
+  slug: open-forto-bookings-api
+- collection_type: open
+  name: Forto Public Bookings Documents API
+  slug: open-forto-documents-api
+- collection_type: open
+  name: Forto Public Bookings Shipments API
+  slug: open-forto-shipments-api
+- collection_type: open
+  name: Forto Public Bookings Subscriptions API
+  slug: open-forto-subscriptions-api
+- collection_type: open
+  name: Forto Public Bookings Tokens API
+  slug: open-forto-tokens-api
+- collection_type: open
+  name: Forto Public Bookings TransportPlans API
+  slug: open-forto-transportplans-api
 - collection_type: open
   name: Forto Public API
   slug: open-forto
@@ -174,7 +195,7 @@ plans:
 - name: Forto Plans Pricing
   plan_count: 1
   slug: forto-plans-pricing
-random_paper: 74
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Forto Rate Limits
@@ -199,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/screenshots/forto-2026-06-20T181445.png
 security:

@@ -11,10 +11,11 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -23,16 +24,23 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-12'
+  score: 52.0
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Loopme Agentic Access
+  operation_count: 3
+  slug: loopme-agentic-access
+  summary_line: 3 operations
 api_count: 3
 apis:
-- description: The Ad Serving API from LoopMe — 1 operation(s) for ad serving.
-  name: LoopMe Ad Serving API
+- description: 'LoopMe''s server-to-server ad request endpoint. A third-party ad server, exchange or mediation platform sends a GET describing the device, app and user, and LoopMe returns an MRAID ad payload (ad HTML '
+  name: LoopMe S2S Ad Serving API
   slug: loopme-ad-serving-api
 - description: The Advertiser Reporting API from LoopMe — 1 operation(s) for advertiser reporting.
   name: LoopMe Advertiser Reporting API
@@ -40,8 +48,25 @@ apis:
 - description: The Publisher Reporting API from LoopMe — 1 operation(s) for publisher reporting.
   name: LoopMe Publisher Reporting API
   slug: loopme-publisher-reporting-api
-artifact_total: 6
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LoopMe S2S Ad Request API
+  slug: open-loopme-ad-serving-api
+- collection_type: open
+  name: LoopMe Reporting Ad Serving Advertiser Reporting API
+  slug: open-loopme-advertiser-reporting-api
+- collection_type: open
+  name: LoopMe Reporting Ad Serving Publisher Reporting API
+  slug: open-loopme-publisher-reporting-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/loopme-agentic-access.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -102,10 +127,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/loopme-mcp.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/loopme-well-known.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -126,6 +147,42 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/loopme-request-ad-s2s.md
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/loopme-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/loopme-rate-limits.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/loopme-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/loopme-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://legal.loopme.com/privacy-center
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/loopme-trust-center.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/loopme-components.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://loopme.ai/product-logins/
 created: '2026-07-17'
 description: LoopMe is a global brand-performance advertising platform that uses AI to bring brands into mobile and CTV apps. Its products span an AI-powered intelligent marketplace, PurchaseLoop outcome-based brand advertising, the Chartboost in-app monetization platform, and an Audience & Measurement Platform (AMP). For developers, LoopMe exposes a REST Reporting API for publisher (app/site) and advertiser (campaign) statistics, a server-to-server (S2S) ad request API, first-party United SDKs for Android and iOS, and a Prebid.js header-bidding adapter. LoopMe is backed by HV Capital and headquartered in the UK.
 image: https://loopme.ai/wp-content/themes/loopme/assets/images/logo.svg
@@ -134,25 +191,33 @@ mcp_servers:
 - description: ''
   name: loopme-mcp.yml
   slug: loopme-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: LoopMe
 nav: Providers
 network: true
-overview: 'LoopMe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ad Serving API, Advertiser Reporting API, and Publisher Reporting API. Tagged areas include Company, Advertising, AdTech, Mobile Advertising, and CTV.
+overview: 'LoopMe publishes 3 APIs on the [APIs.io](https://apis.io/) network: S2S Ad Serving API, Advertiser Reporting API, and Publisher Reporting API. Tagged areas include Company, Advertising, AdTech, Mobile Advertising, and CTV.
 
 
-  LoopMe''s developer surface includes documentation, API reference, engineering blog, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 52
+  LoopMe''s developer surface includes documentation, API reference, engineering blog, support, authentication, changelog, sandbox, and 23 more developer resources.'
+plans:
+- name: Loopme Plans Pricing
+  plan_count: 0
+  slug: loopme-plans-pricing
+random_paper: 56
+rate_limits:
+- limit_count: 0
+  name: Loopme Rate Limits
+  slug: loopme-rate-limits
 score:
-  band: thin
-  composite: 40.2
-  delta: 0.0
+  band: developing
+  composite: 50.6
+  delta: 10.4
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 59.0
-    developer_ergonomics: 51.6
-    discoverability: 81.5
-    governance: 0.0
+    commercial_clarity: 50.0
+    contract_quality: 58.0
+    developer_ergonomics: 58.2
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 21.1
   previous_composite: 40.2
   provenance:
@@ -164,8 +229,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/screenshots/loopme-2026-07-25T225535.png
 security:
 - kind: authentication
@@ -176,6 +241,10 @@ security:
   name: Loopme Domain Security
   slug: loopme-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Loopme Trust Center
+  slug: loopme-trust-center
+  summary_line: ePrivacyseal, TAG registered (Trustworthy Accountability Group)
 slug: loopme
 tags:
 - Company

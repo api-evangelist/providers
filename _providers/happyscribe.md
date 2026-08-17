@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Signed upload URLs for local media files.
   name: Happy Scribe Uploads API
   slug: happyscribe-uploads-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Happy Scribe Exports API
+  slug: open-happyscribe-exports-api
+- collection_type: open
+  name: Happy Scribe Exports Glossaries and Style Guides API
+  slug: open-happyscribe-glossaries-and-style-guides-api
+- collection_type: open
+  name: Happy Scribe Exports Orders API
+  slug: open-happyscribe-orders-api
+- collection_type: open
+  name: Happy Scribe Exports Organization Memberships API
+  slug: open-happyscribe-organization-memberships-api
+- collection_type: open
+  name: Happy Scribe Exports Organizations API
+  slug: open-happyscribe-organizations-api
+- collection_type: open
+  name: Happy Scribe Exports Transcriptions API
+  slug: open-happyscribe-transcriptions-api
+- collection_type: open
+  name: Happy Scribe Exports Uploads API
+  slug: open-happyscribe-uploads-api
 - collection_type: open
   name: Happy Scribe API
   slug: open-happyscribe
@@ -122,7 +146,7 @@ plans:
 - name: Happyscribe Plans Pricing
   plan_count: 5
   slug: happyscribe-plans-pricing
-random_paper: 98
+random_paper: 135
 rate_limits:
 - limit_count: 4
   name: Happyscribe Rate Limits
@@ -147,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/screenshots/happyscribe-2026-07-25T220659.png
 security:

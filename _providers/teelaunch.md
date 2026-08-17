@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: Products
   name: Teelaunch Products API
   slug: teelaunch-products-api
-artifact_total: 17
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: teelaunch Account API
+  slug: open-teelaunch-account-api
+- collection_type: open
+  name: teelaunch Account Account Payment API
+  slug: open-teelaunch-account-payment-api
+- collection_type: open
+  name: teelaunch Account Account Settings API
+  slug: open-teelaunch-account-settings-api
+- collection_type: open
+  name: teelaunch Account Blank API
+  slug: open-teelaunch-blank-api
+- collection_type: open
+  name: teelaunch Account Blank Category API
+  slug: open-teelaunch-blank-category-api
+- collection_type: open
+  name: teelaunch Account Orders API
+  slug: open-teelaunch-orders-api
+- collection_type: open
+  name: teelaunch Account Platform Store Product Variants API
+  slug: open-teelaunch-platform-store-product-variants-api
+- collection_type: open
+  name: teelaunch Account Platform Store Products API
+  slug: open-teelaunch-platform-store-products-api
+- collection_type: open
+  name: teelaunch Account Platform Stores API
+  slug: open-teelaunch-platform-stores-api
+- collection_type: open
+  name: teelaunch Account Platforms API
+  slug: open-teelaunch-platforms-api
+- collection_type: open
+  name: teelaunch Account Products API
+  slug: open-teelaunch-products-api
 common:
 - group: agent
   title: ''
@@ -138,7 +175,7 @@ plans:
 - name: Teelaunch Plans Pricing
   plan_count: 2
   slug: teelaunch-plans-pricing
-random_paper: 113
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Teelaunch Rate Limits
@@ -163,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

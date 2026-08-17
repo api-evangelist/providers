@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -43,7 +43,17 @@ apis:
 - description: The Orchestrator API from Expanso — 11 operation(s) for orchestrator.
   name: Expanso Orchestrator API
   slug: expanso-orchestrator-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bacalhau Ops API
+  slug: open-expanso-ops-api
+- collection_type: open
+  name: Bacalhau Ops Orchestrator API
+  slug: open-expanso-orchestrator-api
 common:
 - group: other
   title: ''
@@ -157,7 +167,7 @@ overview: 'Expanso publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Expanso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
-random_paper: 46
+random_paper: 21
 score:
   band: developing
   composite: 44.1
@@ -181,7 +191,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/screenshots/expanso-2026-07-25T213913.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,11 +70,48 @@ apis:
 - description: The Transactions API from Dapper Labs — 4 operation(s) for transactions.
   name: Dapper Labs Transactions API
   slug: dapper-labs-transactions-api
-artifact_total: 15
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Dapper Labs Flow Events Webhooks
   slug: dapper-labs-flow-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Access Accounts API
+  slug: open-dapper-labs-accounts-api
+- collection_type: open
+  name: Access Accounts Blocks API
+  slug: open-dapper-labs-blocks-api
+- collection_type: open
+  name: Access Accounts Collections API
+  slug: open-dapper-labs-collections-api
+- collection_type: open
+  name: Access Accounts Events API
+  slug: open-dapper-labs-events-api
+- collection_type: open
+  name: Access Accounts Execution Receipts API
+  slug: open-dapper-labs-execution-receipts-api
+- collection_type: open
+  name: Access Accounts Execution Results API
+  slug: open-dapper-labs-execution-results-api
+- collection_type: open
+  name: Access Accounts Network API
+  slug: open-dapper-labs-network-api
+- collection_type: open
+  name: Access Accounts NodeVersionInfo API
+  slug: open-dapper-labs-nodeversioninfo-api
+- collection_type: open
+  name: Access Accounts Scripts API
+  slug: open-dapper-labs-scripts-api
+- collection_type: open
+  name: Access Accounts Subscribe events API
+  slug: open-dapper-labs-subscribe-events-api
+- collection_type: open
+  name: Access Accounts Transactions API
+  slug: open-dapper-labs-transactions-api
 common:
 - group: agent
   title: ''
@@ -183,7 +220,7 @@ overview: 'Dapper Labs publishes 11 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Dapper Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, sandbox, and 16 more developer resources.'
-random_paper: 19
+random_paper: 56
 score:
   band: thin
   composite: 40.1
@@ -207,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/screenshots/dapper-labs-2026-07-25T211207.png
 security:

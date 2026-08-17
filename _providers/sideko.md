@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: Trigger and manage SDK generation jobs for the six supported languages Python, TypeScript, Java, Go, C#, and Rust, with optional GitHub Actions and LLM coding-assistant rule files (Claude Code, Cursor
   name: Sideko SDK Generation API
   slug: sideko-sdk-generation-api
-artifact_total: 44
+artifact_total: 53
 collections:
 - collection_type: postman
   name: Sideko API Projects API
@@ -119,6 +119,33 @@ collections:
 - collection_type: postman
   name: Sideko API Projects SDK Generation API
   slug: postman-sideko-sdk-generation-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sideko API Projects API
+  slug: open-sideko-api-projects-api
+- collection_type: open
+  name: Sideko API Projects API Versions API
+  slug: open-sideko-api-versions-api
+- collection_type: open
+  name: Sideko API Projects Authentication API
+  slug: open-sideko-authentication-api
+- collection_type: open
+  name: Sideko API Projects Documentation API
+  slug: open-sideko-documentation-api
+- collection_type: open
+  name: Sideko API Projects Linting API
+  slug: open-sideko-linting-api
+- collection_type: open
+  name: Sideko API Projects MCP Generation API
+  slug: open-sideko-mcp-generation-api
+- collection_type: open
+  name: Sideko API Projects Mock Servers API
+  slug: open-sideko-mock-servers-api
+- collection_type: open
+  name: Sideko API Projects SDK Generation API
+  slug: open-sideko-sdk-generation-api
 - collection_type: open
   name: Sideko API
   slug: open-sideko
@@ -234,7 +261,7 @@ plans:
 - name: Sideko Plans Pricing
   plan_count: 3
   slug: sideko-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Sideko Rate Limits
@@ -276,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/screenshots/sideko-2026-06-20T193853.png
 security:

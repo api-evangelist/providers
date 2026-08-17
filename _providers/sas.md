@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: The Reports API from SAS Institute — 2 operation(s) for reports.
   name: SAS Institute Reports API
   slug: sas-reports-api
-artifact_total: 46
+artifact_total: 57
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAS Viya REST BusinessRules API
+  slug: open-sas-businessrules-api
+- collection_type: open
+  name: SAS Viya REST BusinessRules CAS API
+  slug: open-sas-cas-api
+- collection_type: open
+  name: SAS Viya REST BusinessRules Decisions API
+  slug: open-sas-decisions-api
+- collection_type: open
+  name: SAS Viya REST BusinessRules Files API
+  slug: open-sas-files-api
+- collection_type: open
+  name: SAS Viya REST BusinessRules Folders API
+  slug: open-sas-folders-api
+- collection_type: open
+  name: SAS Viya REST BusinessRules Identities API
+  slug: open-sas-identities-api
+- collection_type: open
+  name: SAS Viya REST BusinessRules Jobs API
+  slug: open-sas-jobs-api
+- collection_type: open
+  name: SAS Viya REST BusinessRules Logon API
+  slug: open-sas-logon-api
+- collection_type: open
+  name: SAS Viya REST BusinessRules Models API
+  slug: open-sas-models-api
+- collection_type: open
+  name: SAS Viya REST BusinessRules Reports API
+  slug: open-sas-reports-api
 - collection_type: open
   name: SAS Viya REST API
   slug: open-sas-viya-rest-api
@@ -224,7 +257,7 @@ plans:
 - name: Sas Plans Pricing
   plan_count: 3
   slug: sas-plans-pricing
-random_paper: 87
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Sas Rate Limits
@@ -271,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/screenshots/sas-2026-06-20T193436.png
 security:

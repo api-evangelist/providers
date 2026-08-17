@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Contact sales — tokens issued by Windfall
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - authentication
+  - https://api-docs.windfall.com/authentication/
+  - https://www.windfall.com/blog/powering-real-time-ai-native-workflows-opening-the-windfall-api-to-all-customers-and-partners
+  - plans/windfall-plans-pricing.yml
   trial: false
   try_now: false
 agent_readiness:
@@ -29,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +44,14 @@ apis:
 - description: The Windfall API API from Windfall — 1 operation(s) for windfall api.
   name: Windfall Windfall API API
   slug: windfall-windfall-api-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Windfall Windfall API API
+  slug: open-windfall-windfall-api-api
 common:
 - group: other
   title: ''
@@ -134,6 +143,10 @@ common:
   url: skills/windfall-enrich-person-record.md
 - group: agent
   title: ''
+  type: AgentSkill
+  url: skills/windfall-sandbox-integration-test.md
+- group: agent
+  title: ''
   type: LLMsTxt
   url: llms/windfall-llms.txt
 - group: agent
@@ -144,23 +157,52 @@ common:
   title: ''
   type: DomainSecurity
   url: security/windfall-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/windfall-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/windfall-plans-pricing.yml
+- group: build
+  title: ''
+  type: CodeExamples
+  url: https://api-docs.windfall.com/examples/
+- group: company
+  title: ''
+  type: News
+  url: https://www.windfall.com/company/news
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/windfall-data/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/windfalldata
 created: '2026-07-17'
-description: Windfall is an AI-powered people intelligence platform that helps go-to-market teams personalize workflows with wealth and career data, serving 1,500+ organizations across finance, retail, education, healthcare, and nonprofits. The Windfall API delivers enriched household (net worth, Windfall ID, confidence) and career (LinkedIn URL, job title, confidence) data for a single person record in real time — submit basic PII and receive JSON in one HTTPS request. US coverage only; data refreshed weekly; rate limited to 5 requests/second; and a non-billed sandbox with deterministic fictitious personas mirrors production for integration testing.
-image: https://api-docs.windfall.com/logo.svg
+description: Windfall is an AI-powered people intelligence platform that helps go-to-market teams personalize workflows with wealth and career data, serving 1,500+ organizations across finance, retail, education, healthcare, and nonprofits. The Windfall API delivers enriched household and career data for a single person record in real time — submit basic PII and receive JSON in one HTTPS request. One operation (enrichRecord) returns up to 32 documented household fields (net worth and its confidence bounds, property, life events, philanthropy, political giving, financial signals) and 26 career fields (job title and level, job-change signals, employer firmographics, LinkedIn URL), with availability set by the customer's plan. US coverage only; the database is rebuilt weekly; rate limited to 5 requests/second; and a non-billed sandbox with 15 deterministic fictitious personas and a header-driven error simulator mirrors production for integration testing. Access is contractual — tokens are issued
+  by Windfall and API credits were bundled into existing subscriptions when the API opened to all customers and partners in May 2026.
+image: https://api-docs.windfall.com/static/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
   name: windfall-mcp.yml
   slug: windfall-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: Windfall
 nav: Providers
 network: true
 overview: 'Windfall publishes 1 API on the [APIs.io](https://apis.io/) network: Windfall API API. Tagged areas include Company, Fintech, Data Enrichment, Wealth Data, and People Intelligence.
 
 
-  Windfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 9
+  Windfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
+plans:
+- name: Windfall Plans Pricing
+  plan_count: 0
+  slug: windfall-plans-pricing
+random_paper: 104
 rate_limits:
 - limit_count: 1
   name: Windfall Rate Limits
@@ -188,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication
@@ -202,7 +244,7 @@ security:
 - kind: trust-center
   name: Windfall Trust Center
   slug: windfall-trust-center
-  summary_line: SOC 2 Type 2
+  summary_line: SOC 2 Type 2, CCPA / California registered data broker
 slug: windfall
 tags:
 - Company

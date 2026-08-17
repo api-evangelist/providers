@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - description: The Test Helpers API from Rye — 6 operation(s) for test helpers.
   name: Rye Test Helpers API
   slug: rye-test-helpers-api
-artifact_total: 34
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Rye Webhooks
@@ -123,6 +123,48 @@ collections:
 - collection_type: postman
   name: Universal Checkout Betas Test Helpers API
   slug: postman-rye-test-helpers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Universal Checkout Betas API
+  slug: open-rye-betas-api
+- collection_type: open
+  name: Universal Checkout Betas Billing API
+  slug: open-rye-billing-api
+- collection_type: open
+  name: Universal Checkout Betas Brands API
+  slug: open-rye-brands-api
+- collection_type: open
+  name: Universal Checkout Betas Checkout Intents API
+  slug: open-rye-checkout-intents-api
+- collection_type: open
+  name: Universal Checkout Betas Commissions API
+  slug: open-rye-commissions-api
+- collection_type: open
+  name: Universal Checkout Betas Events API
+  slug: open-rye-events-api
+- collection_type: open
+  name: Universal Checkout Betas Merchant Connectors API
+  slug: open-rye-merchant-connectors-api
+- collection_type: open
+  name: Universal Checkout Betas Orders API
+  slug: open-rye-orders-api
+- collection_type: open
+  name: Universal Checkout Betas Payment Gateways API
+  slug: open-rye-payment-gateways-api
+- collection_type: open
+  name: Universal Checkout Betas Products API
+  slug: open-rye-products-api
+- collection_type: open
+  name: Universal Checkout Betas Returns API
+  slug: open-rye-returns-api
+- collection_type: open
+  name: Universal Checkout Betas Shipments API
+  slug: open-rye-shipments-api
+- collection_type: open
+  name: Universal Checkout Betas Test Helpers API
+  slug: open-rye-test-helpers-api
 common:
 - group: other
   title: ''
@@ -307,7 +349,7 @@ overview: 'Rye publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 96
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Rye Rate Limits
@@ -341,7 +383,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

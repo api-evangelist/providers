@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Audio API from RightNow AI — 2 operation(s) for audio.
@@ -52,7 +52,32 @@ apis:
 - description: The Responses API from RightNow AI — 1 operation(s) for responses.
   name: RightNow AI Responses API
   slug: rightnow-responses-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RunInfra Audio API
+  slug: open-rightnow-audio-api
+- collection_type: open
+  name: RunInfra Audio Chat API
+  slug: open-rightnow-chat-api
+- collection_type: open
+  name: RunInfra Audio Embeddings API
+  slug: open-rightnow-embeddings-api
+- collection_type: open
+  name: RunInfra Audio Images API
+  slug: open-rightnow-images-api
+- collection_type: open
+  name: RunInfra Audio Models API
+  slug: open-rightnow-models-api
+- collection_type: open
+  name: RunInfra Audio Rerank API
+  slug: open-rightnow-rerank-api
+- collection_type: open
+  name: RunInfra Audio Responses API
+  slug: open-rightnow-responses-api
 common:
 - group: agent
   title: ''
@@ -198,7 +223,7 @@ overview: 'RightNow AI publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   RightNow AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 25 more developer resources.'
-random_paper: 42
+random_paper: 137
 score:
   band: developing
   composite: 54.8
@@ -221,7 +246,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

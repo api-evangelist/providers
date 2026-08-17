@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ apis:
 - description: User and group management
   name: Citrix Users API
   slug: citrix-users-api
-artifact_total: 110
+artifact_total: 133
 collections:
 - collection_type: postman
   name: Citrix ADC (NetScaler) NITRO Access Policies API
@@ -189,23 +189,92 @@ collections:
   name: Citrix ADC (NetScaler) NITRO Access Policies Users API
   slug: postman-citrix-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies API
+  slug: open-citrix-access-policies-api
+- collection_type: open
   name: Citrix ADC (NetScaler) NITRO API
   slug: open-citrix-adc-nitro
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Application Domains API
+  slug: open-citrix-application-domains-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Applications API
+  slug: open-citrix-applications-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Authentication API
+  slug: open-citrix-authentication-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Certificates API
+  slug: open-citrix-certificates-api
 - collection_type: open
   name: Citrix Cloud API
   slug: open-citrix-cloud
 - collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Content Switching API
+  slug: open-citrix-content-switching-api
+- collection_type: open
   name: Citrix DaaS REST API
   slug: open-citrix-daas
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Delivery Groups API
+  slug: open-citrix-delivery-groups-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Devices API
+  slug: open-citrix-devices-api
 - collection_type: open
   name: Citrix Endpoint Management REST API
   slug: open-citrix-endpoint-management
 - collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Hypervisors API
+  slug: open-citrix-hypervisors-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Launch API
+  slug: open-citrix-launch-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Load Balancing API
+  slug: open-citrix-load-balancing-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Machine Catalogs API
+  slug: open-citrix-machine-catalogs-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Machines API
+  slug: open-citrix-machines-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Notifications API
+  slug: open-citrix-notifications-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies API
+  slug: open-citrix-policies-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Resource Locations API
+  slug: open-citrix-resource-locations-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Resources API
+  slug: open-citrix-resources-api
+- collection_type: open
   name: Citrix Secure Private Access API
   slug: open-citrix-secure-private-access
 - collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Service Principals API
+  slug: open-citrix-service-principals-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Sessions API
+  slug: open-citrix-sessions-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies SSL API
+  slug: open-citrix-ssl-api
+- collection_type: open
   name: Citrix StoreFront Web API
   slug: open-citrix-storefront-web
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies System API
+  slug: open-citrix-system-api
+- collection_type: open
+  name: Citrix ADC (NetScaler) NITRO Access Policies Users API
+  slug: open-citrix-users-api
 common:
 - group: build
   title: ''
@@ -479,7 +548,7 @@ press:
 - date: '2026-05-25'
   title: Citrix Systems Archives - Software Strategies Blog
   url: http://softwarestrategiesblog.com/tag/citrix-systems/
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Citrix Rate Limits
@@ -521,7 +590,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/screenshots/citrix-2026-06-20T174413.png
 security:

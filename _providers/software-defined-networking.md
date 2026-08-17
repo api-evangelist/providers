@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Software-Defined Networking
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 98
 slug: software-defined-networking
 tags:
 - Cloud Infrastructure

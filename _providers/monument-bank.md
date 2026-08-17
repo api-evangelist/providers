@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -50,7 +50,11 @@ apis:
 - description: UK Open Banking Read/Write Confirmation of Funds (CBPII) API per the OBIE Read/Write API Standard - confirms availability of funds on an account for authorised card-based payment instrument issuers. F
   name: Monument Bank Confirmation of Funds API
   slug: monument-confirmation-of-funds-api
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-swagger
 common:
 - group: agent
   title: ''
@@ -149,7 +153,7 @@ overview: 'Monument Bank publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Monument Bank''s developer surface includes authentication, engineering blog, product news, support, FAQ, and 16 more developer resources.'
-random_paper: 20
+random_paper: 148
 scopes:
 - name: Monument Bank Scopes
   scope_count: 3
@@ -182,7 +186,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/screenshots/monument-bank-2026-08-07T184223.png
 security:

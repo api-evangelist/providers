@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -71,11 +71,54 @@ apis:
 - description: Supplier organizations represent external companies that supply goods or services
   name: Arkestro supplier organizations API
   slug: arkestro-supplier-organizations-api
-artifact_total: 21
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Arkestro Webhooks
   slug: arkestro-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: V2 Awards API
+  slug: open-arkestro-awards-api
+- collection_type: open
+  name: V2 business unit API
+  slug: open-arkestro-business-unit-api
+- collection_type: open
+  name: V2 corporate categories API
+  slug: open-arkestro-corporate-categories-api
+- collection_type: open
+  name: V2 corporate items API
+  slug: open-arkestro-corporate-items-api
+- collection_type: open
+  name: V2 corporate purchase orders API
+  slug: open-arkestro-corporate-purchase-orders-api
+- collection_type: open
+  name: V2 document submissions API
+  slug: open-arkestro-document-submissions-api
+- collection_type: open
+  name: V2 event analytics API
+  slug: open-arkestro-event-analytics-api
+- collection_type: open
+  name: V2 event documents API
+  slug: open-arkestro-event-documents-api
+- collection_type: open
+  name: V2 Events API
+  slug: open-arkestro-events-api
+- collection_type: open
+  name: V2 quote submissions API
+  slug: open-arkestro-quote-submissions-api
+- collection_type: open
+  name: V2 Schedules API
+  slug: open-arkestro-schedules-api
+- collection_type: open
+  name: V2 supplier contacts API
+  slug: open-arkestro-supplier-contacts-api
+- collection_type: open
+  name: V2 supplier organizations API
+  slug: open-arkestro-supplier-organizations-api
 common:
 - group: company
   title: ''
@@ -216,7 +259,7 @@ overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Arkestro''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 35
+random_paper: 130
 scopes:
 - name: Arkestro Scopes
   scope_count: 3
@@ -245,7 +288,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/screenshots/arkestro-2026-08-07T161720.png
 security:

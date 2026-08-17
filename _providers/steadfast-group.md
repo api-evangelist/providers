@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,11 @@ apis:
 - description: Steadfast Group's Okta-hosted OpenID Connect provider, issuer https://idp.steadfast.com.au. It fronts the credentialed broker portal used by the Steadfast Network's 414 brokerages and, by inference fr
   name: Steadfast Identity (OpenID Connect)
   slug: identity
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Steadfast Flood Risk Tracker API
+  slug: open-steadfast-group-flood-risk-tracker
 common:
 - group: agent
   title: ''
@@ -190,7 +194,7 @@ overview: 'Steadfast Group publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Steadfast Group''s developer surface includes engineering blog, legal docs, tooling, support, authentication, and 29 more developer resources.'
-random_paper: 1
+random_paper: 71
 scopes:
 - name: Steadfast Group Scopes
   scope_count: 7
@@ -225,7 +229,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

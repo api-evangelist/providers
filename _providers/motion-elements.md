@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Search the marketplace across media types.
   name: Motion Elements Search API
   slug: motion-elements-search-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MotionElements Marketplace Account API
+  slug: open-motion-elements-account-api
+- collection_type: open
+  name: MotionElements Marketplace Account Elements API
+  slug: open-motion-elements-elements-api
+- collection_type: open
+  name: MotionElements Marketplace Account Media types API
+  slug: open-motion-elements-media-types-api
+- collection_type: open
+  name: MotionElements Marketplace Account Search API
+  slug: open-motion-elements-search-api
 common:
 - group: other
   title: ''
@@ -164,7 +180,7 @@ overview: 'Motion Elements publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Motion Elements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 8
+random_paper: 78
 score:
   band: developing
   composite: 46.7
@@ -188,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/screenshots/motion-elements-2026-08-07T184326.png
 security:

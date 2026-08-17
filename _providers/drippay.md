@@ -10,16 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: verified
     mcp_server: true
@@ -28,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-12'
+  score: 65.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 2
@@ -108,11 +107,84 @@ apis:
 - description: Define workflow templates for agent execution.
   name: Drippay Workflows API
   slug: drippay-workflows-api
-artifact_total: 30
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Drippay Webhooks
   slug: drippay-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Drip BillableMetrics API
+  slug: open-drippay-billablemetrics-api
+- collection_type: open
+  name: Drip BillableMetrics Business API
+  slug: open-drippay-business-api
+- collection_type: open
+  name: Drip BillableMetrics Charges API
+  slug: open-drippay-charges-api
+- collection_type: open
+  name: Drip BillableMetrics Contracts API
+  slug: open-drippay-contracts-api
+- collection_type: open
+  name: Drip BillableMetrics Coupons API
+  slug: open-drippay-coupons-api
+- collection_type: open
+  name: Drip BillableMetrics Credit Notes API
+  slug: open-drippay-credit-notes-api
+- collection_type: open
+  name: Drip BillableMetrics Customer Portal API
+  slug: open-drippay-customer-portal-api
+- collection_type: open
+  name: Drip BillableMetrics Customers API
+  slug: open-drippay-customers-api
+- collection_type: open
+  name: Drip BillableMetrics Drift API
+  slug: open-drippay-drift-api
+- collection_type: open
+  name: Drip BillableMetrics Dunning API
+  slug: open-drippay-dunning-api
+- collection_type: open
+  name: Drip BillableMetrics Entitlements API
+  slug: open-drippay-entitlements-api
+- collection_type: open
+  name: Drip BillableMetrics Events API
+  slug: open-drippay-events-api
+- collection_type: open
+  name: Drip BillableMetrics Integrations API
+  slug: open-drippay-integrations-api
+- collection_type: open
+  name: Drip BillableMetrics Internal API
+  slug: open-drippay-internal-api
+- collection_type: open
+  name: Drip BillableMetrics Invoices API
+  slug: open-drippay-invoices-api
+- collection_type: open
+  name: Drip BillableMetrics Pricing Plans API
+  slug: open-drippay-pricing-plans-api
+- collection_type: open
+  name: Drip BillableMetrics Product Categories API
+  slug: open-drippay-product-categories-api
+- collection_type: open
+  name: Drip BillableMetrics Runs API
+  slug: open-drippay-runs-api
+- collection_type: open
+  name: Drip BillableMetrics Subscriptions API
+  slug: open-drippay-subscriptions-api
+- collection_type: open
+  name: Drip BillableMetrics Tax API
+  slug: open-drippay-tax-api
+- collection_type: open
+  name: Drip BillableMetrics Usage API
+  slug: open-drippay-usage-api
+- collection_type: open
+  name: Drip BillableMetrics Webhooks API
+  slug: open-drippay-webhooks-api
+- collection_type: open
+  name: Drip BillableMetrics Workflows API
+  slug: open-drippay-workflows-api
 common:
 - group: other
   title: ''
@@ -125,7 +197,7 @@ common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://usedrip.ai/
+  url: https://dreach.ai/
 - group: docs
   title: ''
   type: Documentation
@@ -141,31 +213,31 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://usedrip.ai/pricing
+  url: https://dreach.ai/pricing
 - group: start
   title: ''
   type: Login
-  url: https://usedrip.ai/login
+  url: https://dreach.ai/register
 - group: start
   title: ''
   type: SignUp
-  url: https://usedrip.ai/download/mac
+  url: https://dreach.ai/register
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://usedrip.ai/terms
+  url: https://dreach.ai/terms
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://usedrip.ai/privacy
+  url: https://dreach.ai/privacy
 - group: operate
   title: ''
   type: Support
-  url: https://usedrip.ai/contact
+  url: https://dreach.ai/contact
 - group: company
   title: ''
   type: Blog
-  url: https://usedrip.ai/guides
+  url: https://dreach.ai/guides
 - group: build
   title: ''
   type: GitHubOrganization
@@ -177,15 +249,15 @@ common:
 - group: operate
   title: ''
   type: RateLimits
-  url: conventions/drippay-conventions.yml
+  url: rate-limits/drippay-rate-limits.yml
 - group: auth
   title: ''
   type: Compliance
-  url: https://usedrip.ai/security
+  url: https://dreach.ai/security
 - group: auth
   title: ''
   type: Security
-  url: https://usedrip.ai/security
+  url: https://dreach.ai/security
 - group: auth
   title: ''
   type: SecurityTxt
@@ -234,15 +306,72 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/drippay-drip-published.md
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/drippay-a2a.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/drippay-scopes.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/drippay-cli.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/drippay-plans-pricing.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/drippay-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/drippay-authentication.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/drippay-conventions.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/drippay-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/drippay-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/drippay-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/drippay-webhooks.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/drippay-conformance.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/drippay-agentic-access.yml
 created: '2026-07-17'
-description: Drippay, Inc. ("drip") is a Y Combinator company (YC P26) building two connected products. drip is a local-first Mac app that turns LinkedIn, iMessage, and email conversations into a self-filling CRM with AI drafting, follow-up, and meeting booking. The Drip API is a usage-based billing and execution-ledger platform for AI agents — a Stripe-like metering and monetization backend exposing customers, subscriptions, pricing plans, billable metrics, usage events, invoices, credit notes, coupons, entitlements, charges, dunning, tax, contracts, drift detection, and webhooks over a REST interface at api.drippay.dev. It ships official Node, Python, and C++ SDKs, an idempotency-key contract, cursor pagination, a hosted MCP server, and a SOC 2 Type I security posture monitored with Vanta.
-image: https://usedrip.ai/favicon.ico
+description: 'Drippay, Inc. is a Y Combinator company (YC P26) that operates two connected products. dreach — renamed from drip in 2026, with usedrip.ai now redirecting to dreach.ai — is a local-first Mac app for staffing, recruiting and executive search firms: an Opportunity Radar that watches hiring demand and leadership changes, drafts outreach in the user''s voice, follows up, and books meetings, with a hosted MCP server at mcp.drippay.dev exposing seven outbound tools to any HTTP MCP client over OAuth. The Drip API is a separate usage-based billing and execution-ledger platform for AI agents — a Stripe-like metering and monetization backend covering customers, subscriptions, pricing plans, billable metrics, usage events, invoices, credit notes, coupons, entitlements, charges, dunning, tax, contracts, drift detection and webhooks across 245 REST operations at api.drippay.dev. It ships official Node, Python and C++ SDKs and a drip-cli binary, an idempotencyKey contract, cursor pagination,
+  role-scoped secret keys, an x402 payment-required flow for agent self-settlement, and a SOC 2 Type I posture monitored with Vanta.'
+image: https://dreach.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
   name: drippay-mcp.yml
   slug: drippay-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Drippay
 nav: Providers
 network: true
@@ -252,19 +381,32 @@ overview: 'Drippay publishes 23 APIs on the [APIs.io](https://apis.io/) network,
   The Drippay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Drippay''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 23 more developer resources.'
-random_paper: 41
+  Drippay''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 37 more developer resources.'
+plans:
+- name: Drippay Plans Pricing
+  plan_count: 4
+  slug: drippay-plans-pricing
+random_paper: 16
+rate_limits:
+- limit_count: 0
+  name: Drippay Rate Limits
+  slug: drippay-rate-limits
+scopes:
+- name: Drippay Scopes
+  scope_count: 0
+  slug: drippay-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.0
+  band: exemplar
+  composite: 69.8
+  delta: 14.1
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 67.0
-    developer_ergonomics: 64.7
+    developer_ergonomics: 82.1
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 47.4
+    operational_transparency: 55.3
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -281,16 +423,16 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
+    score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/screenshots/drippay-2026-07-25T212410.png
 security:
 - kind: authentication
   name: Drippay Authentication
   slug: drippay-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Drippay Domain Security
   slug: drippay-domain-security
@@ -317,5 +459,10 @@ tags:
 - MCP
 - CRM
 - Sales Automation
-website: https://usedrip.ai/
+- Agentic Payments
+- x402
+- Staffing
+- Recruiting
+- Outbound Sales
+website: https://dreach.ai/
 ---

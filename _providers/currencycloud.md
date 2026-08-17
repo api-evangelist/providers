@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ apis:
 - description: Manage withdrawal accounts
   name: Currencycloud Withdrawal Accounts API
   slug: currencycloud-withdrawal-accounts-api
-artifact_total: 61
+artifact_total: 89
 asyncapis:
 - description: ''
   name: Currencycloud Webhooks
@@ -206,6 +206,90 @@ collections:
 - collection_type: postman
   name: api-onboarding Account Usage Withdrawal Accounts API
   slug: postman-currencycloud-withdrawal-accounts-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: api-onboarding Account Usage API
+  slug: open-currencycloud-account-usage-api
+- collection_type: open
+  name: api-onboarding Account Usage Accounts API
+  slug: open-currencycloud-accounts-api
+- collection_type: open
+  name: api-onboarding Account Usage Authenticate API
+  slug: open-currencycloud-authenticate-api
+- collection_type: open
+  name: api-onboarding Account Usage Balances API
+  slug: open-currencycloud-balances-api
+- collection_type: open
+  name: api-onboarding Account Usage Beneficiaries API
+  slug: open-currencycloud-beneficiaries-api
+- collection_type: open
+  name: api-onboarding Account Usage Business Information API
+  slug: open-currencycloud-business-information-api
+- collection_type: open
+  name: api-onboarding Account Usage Contacts API
+  slug: open-currencycloud-contacts-api
+- collection_type: open
+  name: api-onboarding Account Usage Conversions API
+  slug: open-currencycloud-conversions-api
+- collection_type: open
+  name: api-onboarding Account Usage Country API
+  slug: open-currencycloud-country-api
+- collection_type: open
+  name: api-onboarding Account Usage Currency API
+  slug: open-currencycloud-currency-api
+- collection_type: open
+  name: api-onboarding Account Usage Demo API
+  slug: open-currencycloud-demo-api
+- collection_type: open
+  name: api-onboarding Account Usage Document Images API
+  slug: open-currencycloud-document-images-api
+- collection_type: open
+  name: api-onboarding Account Usage Documents API
+  slug: open-currencycloud-documents-api
+- collection_type: open
+  name: api-onboarding Account Usage Form API
+  slug: open-currencycloud-form-api
+- collection_type: open
+  name: api-onboarding Account Usage Funding API
+  slug: open-currencycloud-funding-api
+- collection_type: open
+  name: api-onboarding Account Usage Payers API
+  slug: open-currencycloud-payers-api
+- collection_type: open
+  name: api-onboarding Account Usage Payments API
+  slug: open-currencycloud-payments-api
+- collection_type: open
+  name: api-onboarding Account Usage People API
+  slug: open-currencycloud-people-api
+- collection_type: open
+  name: api-onboarding Account Usage Quotes API
+  slug: open-currencycloud-quotes-api
+- collection_type: open
+  name: api-onboarding Account Usage Rates API
+  slug: open-currencycloud-rates-api
+- collection_type: open
+  name: api-onboarding Account Usage Reference API
+  slug: open-currencycloud-reference-api
+- collection_type: open
+  name: api-onboarding Account Usage Reporting API
+  slug: open-currencycloud-reporting-api
+- collection_type: open
+  name: api-onboarding Account Usage Sender API
+  slug: open-currencycloud-sender-api
+- collection_type: open
+  name: api-onboarding Account Usage Transaction Approval API
+  slug: open-currencycloud-transaction-approval-api
+- collection_type: open
+  name: api-onboarding Account Usage Transactions API
+  slug: open-currencycloud-transactions-api
+- collection_type: open
+  name: api-onboarding Account Usage Transfers API
+  slug: open-currencycloud-transfers-api
+- collection_type: open
+  name: api-onboarding Account Usage Withdrawal Accounts API
+  slug: open-currencycloud-withdrawal-accounts-api
 common:
 - group: other
   title: ''
@@ -370,7 +454,7 @@ overview: 'Currencycloud publishes 27 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Currencycloud''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 29 more developer resources.'
-random_paper: 90
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Currencycloud Rate Limits
@@ -404,7 +488,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/screenshots/currencycloud-2026-07-25T210947.png
 security:

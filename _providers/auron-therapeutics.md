@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Auron Therapeutics
 nav: Providers
 network: true
 overview: Auron Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Drug Discovery.
-random_paper: 91
+random_paper: 103
 score:
   band: minimal
   composite: 10.5
@@ -84,7 +84,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auron-therapeutics/refs/heads/main/screenshots/auron-therapeutics-2026-07-25T201744.png
 security:

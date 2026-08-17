@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -74,11 +74,32 @@ apis:
 - description: The Search API from Spring Data — 2 operation(s) for search.
   name: Spring Data Search API
   slug: spring-data-search-api
-artifact_total: 25
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spring Data REST Association API
+  slug: open-spring-data-association-api
+- collection_type: open
+  name: Spring Data REST Association Collection API
+  slug: open-spring-data-collection-api
+- collection_type: open
+  name: Spring Data REST Association Discovery API
+  slug: open-spring-data-discovery-api
+- collection_type: open
+  name: Spring Data REST Association Item API
+  slug: open-spring-data-item-api
+- collection_type: open
+  name: Spring Data REST Association Profile API
+  slug: open-spring-data-profile-api
 - collection_type: open
   name: Spring Data REST API
   slug: open-spring-data-rest
+- collection_type: open
+  name: Spring Data REST Association Search API
+  slug: open-spring-data-search-api
 common:
 - group: agent
   title: ''
@@ -168,7 +189,7 @@ plans:
 - name: Spring Data Plans Pricing
   plan_count: 1
   slug: spring-data-plans-pricing
-random_paper: 34
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Spring Data Rate Limits
@@ -210,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/screenshots/spring-data-2026-06-20T194412.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: API to get Information about a Minecraft Server
@@ -60,7 +60,7 @@ name: Minecraft Server Status
 nav: Providers
 network: true
 overview: Minecraft Server Status publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 102
+random_paper: 147
 score:
   band: minimal
   composite: 5.7
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minecraft-server-status/refs/heads/main/screenshots/minecraft-server-status-2026-06-20T185600.png
 security:

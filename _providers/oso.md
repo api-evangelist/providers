@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: The Policy API from Oso Cloud — 2 operation(s) for policy.
   name: Oso Cloud Policy API
   slug: oso-policy-api
-artifact_total: 66
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oso Cloud HTTP Centralized Authorization Data API
+  slug: open-oso-centralized-authorization-data-api
+- collection_type: open
+  name: Oso Cloud HTTP Centralized Authorization Data Check API API
+  slug: open-oso-check-api-api
+- collection_type: open
+  name: Oso Cloud HTTP Centralized Authorization Data Local Check API API
+  slug: open-oso-local-check-api-api
+- collection_type: open
+  name: Oso Cloud HTTP Centralized Authorization Data Policy API
+  slug: open-oso-policy-api
 common:
 - group: agent
   title: ''
@@ -306,7 +322,7 @@ plans:
 - name: Oso Plans Pricing
   plan_count: 4
   slug: oso-plans-pricing
-random_paper: 97
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Oso Rate Limits
@@ -346,7 +362,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/screenshots/oso-2026-06-20T191220.png
 security:

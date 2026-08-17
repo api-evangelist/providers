@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Find Canadian Government Representatives
@@ -63,7 +63,7 @@ overview: 'Represent by Open North publishes 1 API on the [APIs.io](https://apis
 
 
   Represent by Open North''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 47
+random_paper: 92
 score:
   band: minimal
   composite: 6.9
@@ -83,7 +83,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/represent-by-open-north/refs/heads/main/screenshots/represent-by-open-north-2026-06-20T192908.png
 security:

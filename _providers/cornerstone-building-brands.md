@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Cornerstone Building Brands API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Cornerstone Building Brands Plans Pricing
   plan_count: 0
   slug: cornerstone-building-brands-plans-pricing
-random_paper: 12
+random_paper: 90
 rate_limits:
 - limit_count: 0
   name: Cornerstone Building Brands Rate Limits
@@ -83,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cornerstone-building-brands/refs/heads/main/screenshots/cornerstone-building-brands-2026-06-20T175036.png
 security:

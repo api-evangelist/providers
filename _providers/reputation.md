@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 45.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -87,7 +87,56 @@ apis:
 - description: User management
   name: Reputation Users API
   slug: reputation-users-api
-artifact_total: 33
+artifact_total: 50
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reputation Asset Library API
+  slug: open-reputation-asset-library-api
+- collection_type: open
+  name: Reputation Asset Library Authorize API
+  slug: open-reputation-authorize-api
+- collection_type: open
+  name: Reputation Asset Library Categories API
+  slug: open-reputation-categories-api
+- collection_type: open
+  name: Reputation Asset Library Credentials API
+  slug: open-reputation-credentials-api
+- collection_type: open
+  name: Reputation Asset Library Listing Audits API
+  slug: open-reputation-listing-audits-api
+- collection_type: open
+  name: Reputation Asset Library Locations API
+  slug: open-reputation-locations-api
+- collection_type: open
+  name: Reputation Asset Library Metrics API
+  slug: open-reputation-metrics-api
+- collection_type: open
+  name: Reputation Asset Library Reports API
+  slug: open-reputation-reports-api
+- collection_type: open
+  name: Reputation Asset Library Requests API
+  slug: open-reputation-requests-api
+- collection_type: open
+  name: Reputation Asset Library Rich Content API
+  slug: open-reputation-rich-content-api
+- collection_type: open
+  name: Reputation Asset Library Summary API
+  slug: open-reputation-summary-api
+- collection_type: open
+  name: Reputation Asset Library Surveys API
+  slug: open-reputation-surveys-api
+- collection_type: open
+  name: Reputation Asset Library Tenants API
+  slug: open-reputation-tenants-api
+- collection_type: open
+  name: Reputation Asset Library Tickets API
+  slug: open-reputation-tickets-api
+- collection_type: open
+  name: Reputation Asset Library Users API
+  slug: open-reputation-users-api
 common:
 - group: agent
   title: ''
@@ -157,6 +206,94 @@ common:
   title: ''
   type: FinOps
   url: finops/reputation-finops.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/reputation-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/reputation-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/reputation-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/reputation-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://reputation.com/security-posture/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/reputation-trust-center.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/reputation-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/reputation-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/reputation-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/reputation-get-reviews-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/reputation-get-locations-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/reputation-respond-to-review-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/reputation-send-review-request-example.json
+- group: design
+  title: ''
+  type: Rules
+  url: rules/reputation-jsonschema-spectral-rules.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://apidocs.reputation.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.reputation.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://apidocs.reputation.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.reputation.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.reputation.com/auth
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://reputation.com/legal-information/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://reputation.com/legal-information/privacy-notice
 created: '2026-06-13'
 description: Reputation is an AI-powered reputation performance platform providing a REST API for managing online reviews, social listening, business listings, surveys, and competitive intelligence across multiple locations.
 examples:
@@ -199,7 +336,7 @@ jsonld:
   property_count: 3
   slug: reputation-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: Reputation
 nav: Providers
 network: true
@@ -209,12 +346,12 @@ overview: 'Reputation publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
   The Reputation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Reputation''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Reputation''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, API reference, support, and 32 more developer resources.'
 plans:
 - name: Reputation Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: reputation-plans-pricing
-random_paper: 19
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Reputation Rate Limits
@@ -229,15 +366,15 @@ rules:
     warn: 3
   slug: reputation-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 51.6
-  delta: 0.0
+  band: exemplar
+  composite: 71.0
+  delta: 19.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 100.0
     contract_quality: 75.6
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 68.8
+    developer_ergonomics: 52.2
+    discoverability: 81.5
+    governance: 89.6
     operational_transparency: 21.1
   previous_composite: 51.6
   provenance:
@@ -248,8 +385,8 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/screenshots/reputation-2026-06-20T192944.png
 security:
 - kind: authentication
@@ -260,6 +397,10 @@ security:
   name: Reputation Domain Security
   slug: reputation-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Reputation Trust Center
+  slug: reputation-trust-center
+  summary_line: SOC 2 Type II, ISO 27001, HIPAA, GDPR, Gramm-Leach-Bliley Act Safeguards Rule, CCPA
 slug: reputation
 tags:
 - Reputation Management

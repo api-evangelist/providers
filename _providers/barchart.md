@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Barchart OnDemand APIs from Barchart — 71 path(s) described in OpenAPI.
   name: Barchart OnDemand APIs
   slug: barchart-ondemand-official-openapi
-artifact_total: 31
+artifact_total: 44
 collections:
 - collection_type: postman
   name: Barchart OnDemand Commodities & Agriculture API
@@ -110,6 +110,45 @@ collections:
 - collection_type: postman
   name: Barchart OnDemand Commodities & Agriculture Weather API
   slug: postman-barchart-weather-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture API
+  slug: open-barchart-commodities-agriculture-api
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture Corporate Actions & Earnings API
+  slug: open-barchart-corporate-actions-earnings-api
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture Cryptocurrency API
+  slug: open-barchart-cryptocurrency-api
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture Fundamentals API
+  slug: open-barchart-fundamentals-api
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture Futures & Options API
+  slug: open-barchart-futures-options-api
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture History API
+  slug: open-barchart-history-api
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture News & Filings API
+  slug: open-barchart-news-filings-api
+- collection_type: open
+  name: OnDemand APIs
+  slug: open-barchart-ondemand-official
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture Quotes API
+  slug: open-barchart-quotes-api
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture Reference & Equities API
+  slug: open-barchart-reference-equities-api
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture Technicals & Charts API
+  slug: open-barchart-technicals-charts-api
+- collection_type: open
+  name: Barchart OnDemand Commodities & Agriculture Weather API
+  slug: open-barchart-weather-api
 - collection_type: open
   name: Barchart OnDemand API
   slug: open-barchart
@@ -278,7 +317,7 @@ plans:
 - name: Barchart Plans Pricing
   plan_count: 3
   slug: barchart-plans-pricing
-random_paper: 119
+random_paper: 94
 rate_limits:
 - limit_count: 4
   name: Barchart Rate Limits
@@ -312,7 +351,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

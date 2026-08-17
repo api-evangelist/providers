@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ arazzos:
 - description: List open watchlist monitoring alerts for a profile and move a selected alert through its disposition.
   name: Socure Watchlist Alert Triage
   slug: socure-watchlist-alert-triage-workflow
-artifact_total: 65
+artifact_total: 71
 asyncapis:
 - description: Webhook event stream emitted by the Socure Predictive DocV service to notify the integrator of session lifecycle events. The customer registers a webhook URL when creating a DocV transaction; Socure P
   name: Socure DocV Webhooks
@@ -116,17 +116,35 @@ collections:
   name: Socure Global Watchlist Monitoring API
   slug: postman-socure-watchlist-monitoring-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Socure Account Intelligence API
   slug: open-socure-account-intelligence-api
 - collection_type: open
-  name: Socure Decision API
+  name: Socure Account Intelligence Alerts API
+  slug: open-socure-alerts-api
+- collection_type: open
+  name: Socure Account Intelligence Decision API
   slug: open-socure-decision-api
 - collection_type: open
   name: Socure Predictive DocV API
   slug: open-socure-docv-api
 - collection_type: open
+  name: Socure Account Intelligence ID+ API
+  slug: open-socure-id-api
+- collection_type: open
   name: Socure ID+ API
   slug: open-socure-idplus-api
+- collection_type: open
+  name: Socure Account Intelligence Monitoring API
+  slug: open-socure-monitoring-api
+- collection_type: open
+  name: Socure Account Intelligence Transactions API
+  slug: open-socure-transactions-api
+- collection_type: open
+  name: Socure Account Intelligence Uploads API
+  slug: open-socure-uploads-api
 - collection_type: open
   name: Socure Global Watchlist Monitoring API
   slug: open-socure-watchlist-monitoring-api
@@ -416,7 +434,7 @@ plans:
 - name: Socure Plans Pricing
   plan_count: 3
   slug: socure-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Socure Rate Limits
@@ -466,7 +484,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/screenshots/socure-2026-06-20T194123.png
 security:

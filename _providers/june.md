@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,7 +57,23 @@ apis:
 - description: The Users API from June — 1 operation(s) for users.
   name: June Users API
   slug: june-users-api
-artifact_total: 24
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: June Tracking Companies API
+  slug: open-june-companies-api
+- collection_type: open
+  name: June Tracking Companies Events API
+  slug: open-june-events-api
+- collection_type: open
+  name: June Tracking Companies Page Views API
+  slug: open-june-page-views-api
+- collection_type: open
+  name: June Tracking Companies Users API
+  slug: open-june-users-api
 common:
 - group: agent
   title: ''
@@ -177,7 +193,7 @@ plans:
 - name: June Plans Pricing
   plan_count: 2
   slug: june-plans-pricing
-random_paper: 74
+random_paper: 136
 rate_limits:
 - limit_count: 3
   name: June Rate Limits
@@ -211,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/screenshots/june-2026-06-20T183828.png
 security:

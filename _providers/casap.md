@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The Disputes API from Casap — 4 operation(s) for disputes.
   name: Casap Disputes API
   slug: casap-disputes-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Casap Auth API
+  slug: open-casap-auth-api
+- collection_type: open
+  name: Casap Auth Disputes API
+  slug: open-casap-disputes-api
 common:
 - group: agent
   title: ''
@@ -162,7 +172,7 @@ overview: 'Casap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Casap''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 40
+random_paper: 73
 score:
   band: developing
   composite: 42.8
@@ -192,7 +202,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/screenshots/casap-2026-07-25T204712.png
 security:

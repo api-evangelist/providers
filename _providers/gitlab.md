@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -245,7 +245,7 @@ arazzos:
 - description: Look up an instance CI variable and update it or create it if missing.
   name: GitLab Upsert an Instance-Level CI Variable
   slug: gitlab-upsert-instance-ci-variable-workflow
-artifact_total: 283
+artifact_total: 300
 asyncapis:
 - description: GitLab Webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in a GitLab project or group, such as pushes, merge requests, issues, pipeline status changes, and deploy
   name: GitLab Webhooks
@@ -291,8 +291,59 @@ collections:
   name: GitLab Webhooks API
   slug: postman-gitlab-webhooks
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitLab api/v4/ Admin API
+  slug: open-gitlab-admin-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Application API
+  slug: open-gitlab-application-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Applications API
+  slug: open-gitlab-applications-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Authorization API
+  slug: open-gitlab-authorization-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Avatar API
+  slug: open-gitlab-avatar-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Broadcast Messages API
+  slug: open-gitlab-broadcast-messages-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Bulk Imports API
+  slug: open-gitlab-bulk-imports-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Groups API
+  slug: open-gitlab-groups-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Metadata API
+  slug: open-gitlab-metadata-api
+- collection_type: open
   name: GitLab OAuth 2.0 API
   slug: open-gitlab-oauth2
+- collection_type: open
+  name: GitLab api/v4/ Admin Project Webhooks API
+  slug: open-gitlab-project-webhooks-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Projects API
+  slug: open-gitlab-projects-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Tokens API
+  slug: open-gitlab-tokens-api
+- collection_type: open
+  name: GitLab api/v4/ Admin User Info API
+  slug: open-gitlab-user-info-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Version API
+  slug: open-gitlab-version-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Webhook Configuration API
+  slug: open-gitlab-webhook-configuration-api
+- collection_type: open
+  name: GitLab api/v4/ Admin Webhook Events API
+  slug: open-gitlab-webhook-events-api
 - collection_type: open
   name: GitLab Webhooks API
   slug: open-gitlab-webhooks
@@ -1161,7 +1212,7 @@ plans:
 - name: Gitlab Plans Pricing
   plan_count: 3
   slug: gitlab-plans-pricing
-random_paper: 27
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Gitlab Rate Limits
@@ -1218,7 +1269,7 @@ score:
       total: 16
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/screenshots/gitlab-2026-06-20T181844.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -162,7 +162,122 @@ apis:
 - description: The WalletSetting API from Akash Network — 1 operation(s) for walletsetting.
   name: Akash Network WalletSetting API
   slug: akash-walletsetting-api
-artifact_total: 48
+artifact_total: 86
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses API
+  slug: open-akash-addresses-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Alert API
+  slug: open-akash-alert-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Analytics API
+  slug: open-akash-analytics-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses API Keys API
+  slug: open-akash-api-keys-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Auth API
+  slug: open-akash-auth-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Bank API
+  slug: open-akash-bank-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Bid Screening API
+  slug: open-akash-bid-screening-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Bids API
+  slug: open-akash-bids-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Billing API
+  slug: open-akash-billing-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Blocks API
+  slug: open-akash-blocks-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Certificate API
+  slug: open-akash-certificate-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Chain API
+  slug: open-akash-chain-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Deployment Settings API
+  slug: open-akash-deployment-settings-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses DeploymentAlert API
+  slug: open-akash-deploymentalert-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Deployments API
+  slug: open-akash-deployments-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Distribution API
+  slug: open-akash-distribution-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Gaia REST API
+  slug: open-akash-gaia-rest-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Governance API
+  slug: open-akash-governance-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Gpu API
+  slug: open-akash-gpu-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses JWT Token API
+  slug: open-akash-jwt-token-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Leases API
+  slug: open-akash-leases-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Mint API
+  slug: open-akash-mint-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses NotificationChannel API
+  slug: open-akash-notificationchannel-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Other API
+  slug: open-akash-other-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Payment API
+  slug: open-akash-payment-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Proposals API
+  slug: open-akash-proposals-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Providers API
+  slug: open-akash-providers-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Query API
+  slug: open-akash-query-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Service API
+  slug: open-akash-service-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Slashing API
+  slug: open-akash-slashing-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Staking API
+  slug: open-akash-staking-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Tendermint RPC API
+  slug: open-akash-tendermint-rpc-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Transactions API
+  slug: open-akash-transactions-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Users API
+  slug: open-akash-users-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Validators API
+  slug: open-akash-validators-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses Wallet API
+  slug: open-akash-wallet-api
+- collection_type: open
+  name: AKASH - gRPC Gateway docs Addresses WalletSetting API
+  slug: open-akash-walletsetting-api
 common:
 - group: agent
   title: ''
@@ -256,7 +371,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 40
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -281,7 +396,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akash/refs/heads/main/screenshots/akash-2026-06-20T171446.png
 security:

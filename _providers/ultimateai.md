@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Successor API surface of the Ultimate.ai platform after the Zendesk acquisition - Chat, Ticket, and Widget Escalation APIs with matching webhooks, plus Data Export and Delete User Data. Requires the A
@@ -94,7 +94,7 @@ overview: 'Ultimate.ai publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Ultimate.ai''s developer surface includes documentation, API reference, authentication, and 6 more developer resources.'
-random_paper: 111
+random_paper: 28
 score:
   band: emerging
   composite: 27.4
@@ -108,7 +108,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 27.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

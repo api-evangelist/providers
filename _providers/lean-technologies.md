@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -239,11 +239,216 @@ apis:
 - description: The Transactions Raw Data API from Lean Technologies — 1 operation(s) for transactions raw data.
   name: Lean Technologies Transactions Raw Data API
   slug: lean-technologies-transactions-raw-data-api
-artifact_total: 74
+artifact_total: 142
 asyncapis:
 - description: ''
   name: Lean Technologies Webhooks
   slug: lean-technologies-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Account Controls (New) API
+  slug: open-lean-technologies-account-controls-new-api
+- collection_type: open
+  name: Consents Account Controls (New) Account Controls (New) Account On File API
+  slug: open-lean-technologies-account-on-file-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Accounts Raw Data API
+  slug: open-lean-technologies-accounts-raw-data-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Assets API
+  slug: open-lean-technologies-assets-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Balance Raw Data API
+  slug: open-lean-technologies-balance-raw-data-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Balances API
+  slug: open-lean-technologies-balances-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Bank API
+  slug: open-lean-technologies-bank-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Bank Statements Report API
+  slug: open-lean-technologies-bank-statements-report-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Banks API
+  slug: open-lean-technologies-banks-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Behavioral Insights (New) API
+  slug: open-lean-technologies-behavioral-insights-new-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Beneficiaries Raw Data API
+  slug: open-lean-technologies-beneficiaries-raw-data-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Beneficiary Name Verification API
+  slug: open-lean-technologies-beneficiary-name-verification-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Cashflow Patterns (New) API
+  slug: open-lean-technologies-cashflow-patterns-new-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Cashflows API
+  slug: open-lean-technologies-cashflows-api
+- collection_type: open
+  name: Account Controls (New) Account Controls (New) Consents Account On File API
+  slug: open-lean-technologies-consents-account-on-file-api
+- collection_type: open
+  name: Account On File Account Controls (New) Account Controls (New) Consents API
+  slug: open-lean-technologies-consents-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Corporate Verification API
+  slug: open-lean-technologies-corporate-verification-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Credit Assessments (New) API
+  slug: open-lean-technologies-credit-assessments-new-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Credit Obligations (New) API
+  slug: open-lean-technologies-credit-obligations-new-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Customer API
+  slug: open-lean-technologies-customer-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Customers API
+  slug: open-lean-technologies-customers-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Data refresh API
+  slug: open-lean-technologies-data-refresh-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Deposits API
+  slug: open-lean-technologies-deposits-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Direct Debits Raw Data API
+  slug: open-lean-technologies-direct-debits-raw-data-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Enrichment API
+  slug: open-lean-technologies-enrichment-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Entities API
+  slug: open-lean-technologies-entities-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Entity Verification API
+  slug: open-lean-technologies-entity-verification-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Events API
+  slug: open-lean-technologies-events-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Expenses API
+  slug: open-lean-technologies-expenses-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Financial Insights Report API
+  slug: open-lean-technologies-financial-insights-report-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Freelancer API
+  slug: open-lean-technologies-freelancer-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Freelancer Verification API
+  slug: open-lean-technologies-freelancer-verification-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Iban Verification API
+  slug: open-lean-technologies-iban-verification-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Identity Raw Data API
+  slug: open-lean-technologies-identity-raw-data-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Income API
+  slug: open-lean-technologies-income-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) International AVS API
+  slug: open-lean-technologies-international-avs-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) KYC API
+  slug: open-lean-technologies-kyc-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Liabilities API
+  slug: open-lean-technologies-liabilities-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Name Verification API
+  slug: open-lean-technologies-name-verification-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking Account Parties API
+  slug: open-lean-technologies-open-banking-account-parties-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking Accounts API
+  slug: open-lean-technologies-open-banking-accounts-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking API
+  slug: open-lean-technologies-open-banking-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking Balances API
+  slug: open-lean-technologies-open-banking-balances-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking Beneficiaries API
+  slug: open-lean-technologies-open-banking-beneficiaries-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking Direct Debits API
+  slug: open-lean-technologies-open-banking-direct-debits-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking Parties API
+  slug: open-lean-technologies-open-banking-parties-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking Scheduled Payments API
+  slug: open-lean-technologies-open-banking-scheduled-payments-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking Standing Orders API
+  slug: open-lean-technologies-open-banking-standing-orders-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Open Banking Transactions API
+  slug: open-lean-technologies-open-banking-transactions-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Payment Destination API
+  slug: open-lean-technologies-payment-destination-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Payment Intents API
+  slug: open-lean-technologies-payment-intents-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Payment Links API
+  slug: open-lean-technologies-payment-links-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Payment Source API
+  slug: open-lean-technologies-payment-source-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Payments Account On File API
+  slug: open-lean-technologies-payments-account-on-file-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Payments API
+  slug: open-lean-technologies-payments-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Payouts API
+  slug: open-lean-technologies-payouts-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Pending & Asynchronous Requests API
+  slug: open-lean-technologies-pending-asynchronous-requests-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Property Verification API
+  slug: open-lean-technologies-property-verification-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Raw Data API
+  slug: open-lean-technologies-raw-data-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) reconciliation API
+  slug: open-lean-technologies-reconciliation-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Refunds API
+  slug: open-lean-technologies-refunds-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Report API
+  slug: open-lean-technologies-report-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Scheduled Payments Raw Data API
+  slug: open-lean-technologies-scheduled-payments-raw-data-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Schedules API
+  slug: open-lean-technologies-schedules-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Sessions API
+  slug: open-lean-technologies-sessions-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Standing Orders Raw Data API
+  slug: open-lean-technologies-standing-orders-raw-data-api
+- collection_type: open
+  name: Consents Account On File Account Controls (New) Account Controls (New) Transactions Raw Data API
+  slug: open-lean-technologies-transactions-raw-data-api
 common:
 - group: build
   title: ''
@@ -400,7 +605,7 @@ overview: 'Lean Technologies publishes 67 APIs on the [APIs.io](https://apis.io/
 
 
   Lean Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 27 more developer resources.'
-random_paper: 65
+random_paper: 106
 scopes:
 - name: Lean Technologies Scopes
   scope_count: 2
@@ -435,7 +640,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/screenshots/lean-technologies-2026-07-25T224735.png
 security:

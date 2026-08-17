@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Pomerium is an identity-aware reverse proxy that enables secure, zero-trust access to internal applications without a VPN.
@@ -84,7 +84,7 @@ plans:
 - name: Pomerium Plans Pricing
   plan_count: 3
   slug: pomerium-plans-pricing
-random_paper: 38
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Pomerium Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pomerium/refs/heads/main/screenshots/pomerium-2026-06-20T191915.png
 security:

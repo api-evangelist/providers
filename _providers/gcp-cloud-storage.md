@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 13
@@ -57,7 +57,7 @@ apis:
 - description: Operations for managing objects within Cloud Storage buckets
   name: Google Cloud Storage Objects API
   slug: gcp-cloud-storage-objects-api
-artifact_total: 69
+artifact_total: 75
 collections:
 - collection_type: postman
   name: Google Cloud Storage JSON BucketAccessControls API
@@ -75,8 +75,26 @@ collections:
   name: Google Cloud Storage JSON BucketAccessControls Objects API
   slug: postman-gcp-cloud-storage-objects-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Storage JSON BucketAccessControls API
+  slug: open-gcp-cloud-storage-bucketaccesscontrols-api
+- collection_type: open
+  name: Google Cloud Storage JSON BucketAccessControls Buckets API
+  slug: open-gcp-cloud-storage-buckets-api
+- collection_type: open
+  name: Google Cloud Storage JSON BucketAccessControls DefaultObjectAccessControls API
+  slug: open-gcp-cloud-storage-defaultobjectaccesscontrols-api
+- collection_type: open
   name: Google Cloud Storage JSON API
   slug: open-gcp-cloud-storage-json-api
+- collection_type: open
+  name: Google Cloud Storage JSON BucketAccessControls ObjectAccessControls API
+  slug: open-gcp-cloud-storage-objectaccesscontrols-api
+- collection_type: open
+  name: Google Cloud Storage JSON BucketAccessControls Objects API
+  slug: open-gcp-cloud-storage-objects-api
 common:
 - group: build
   title: ''
@@ -306,7 +324,7 @@ plans:
 - name: Gcp Cloud Storage Plans Pricing
   plan_count: 3
   slug: gcp-cloud-storage-plans-pricing
-random_paper: 16
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Gcp Cloud Storage Rate Limits
@@ -353,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/screenshots/gcp-cloud-storage-2026-06-20T181701.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: LPL Welcomes Vaughn Harvey as Chief Data and AI Officer
   url: https://www.lpl.com/news-media/press-releases/lpl-financial-welcomes-vaughn-harvey-as-chief-data-and-ai-officer.html
-random_paper: 47
+random_paper: 121
 score:
   band: minimal
   composite: 5.8
@@ -96,7 +96,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lpl-financial-holdings/refs/heads/main/screenshots/lpl-financial-holdings-2026-07-25T225629.png
 security:

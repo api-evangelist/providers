@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: The Users API from Citrix ShareFile — 2 operation(s) for users.
   name: Citrix ShareFile Users API
   slug: citrix-sharefile-users-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Citrix ShareFile REST API v3 Accounts API
+  slug: open-citrix-sharefile-accounts-api
+- collection_type: open
+  name: Citrix ShareFile REST API v3 Accounts Groups API
+  slug: open-citrix-sharefile-groups-api
+- collection_type: open
+  name: Citrix ShareFile REST API v3 Accounts Items API
+  slug: open-citrix-sharefile-items-api
+- collection_type: open
+  name: Citrix ShareFile REST API v3 Accounts Sessions API
+  slug: open-citrix-sharefile-sessions-api
+- collection_type: open
+  name: Citrix ShareFile REST API v3 Accounts Shares API
+  slug: open-citrix-sharefile-shares-api
+- collection_type: open
+  name: Citrix ShareFile REST API v3 Accounts Users API
+  slug: open-citrix-sharefile-users-api
 - collection_type: open
   name: Citrix ShareFile REST API v3
   slug: open-citrix-sharefile
@@ -125,7 +146,7 @@ overview: 'Citrix ShareFile publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Citrix ShareFile''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 91
+random_paper: 12
 score:
   band: thin
   composite: 33.1
@@ -146,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/screenshots/citrix-sharefile-2026-06-20T174414.png
 security:

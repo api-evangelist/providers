@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -92,8 +92,62 @@ apis:
 - description: The User API from Guru — 1 operation(s) for user.
   name: Guru User API
   slug: guru-user-api
-artifact_total: 22
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Guru Analytics API
+  slug: open-guru-analytics-api
+- collection_type: open
+  name: Guru Analytics Announcements API
+  slug: open-guru-announcements-api
+- collection_type: open
+  name: Guru Analytics Answers API
+  slug: open-guru-answers-api
+- collection_type: open
+  name: Guru Analytics CardComments API
+  slug: open-guru-cardcomments-api
+- collection_type: open
+  name: Guru Analytics Cards API
+  slug: open-guru-cards-api
+- collection_type: open
+  name: Guru Analytics CardVerifiers API
+  slug: open-guru-cardverifiers-api
+- collection_type: open
+  name: Guru Analytics Collections API
+  slug: open-guru-collections-api
+- collection_type: open
+  name: Guru Analytics Folders API
+  slug: open-guru-folders-api
+- collection_type: open
+  name: Guru Analytics Groups API
+  slug: open-guru-groups-api
+- collection_type: open
+  name: Guru Analytics Members API
+  slug: open-guru-members-api
+- collection_type: open
+  name: Guru Analytics People API
+  slug: open-guru-people-api
+- collection_type: open
+  name: Guru Analytics Search API
+  slug: open-guru-search-api
+- collection_type: open
+  name: Guru Analytics Tags API
+  slug: open-guru-tags-api
+- collection_type: open
+  name: Guru Analytics Tasks API
+  slug: open-guru-tasks-api
+- collection_type: open
+  name: Guru Analytics Templates API
+  slug: open-guru-templates-api
+- collection_type: open
+  name: Guru Analytics TicketLinking API
+  slug: open-guru-ticketlinking-api
+- collection_type: open
+  name: Guru Analytics User API
+  slug: open-guru-user-api
 - collection_type: open
   name: Guru API
   slug: open-guru
@@ -162,7 +216,7 @@ overview: 'Guru publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Guru''s developer surface includes authentication, documentation, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 91
+random_paper: 4
 score:
   band: thin
   composite: 33.9
@@ -183,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/screenshots/guru-2026-06-20T182441.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Webhook subscription management.
   name: Sesame HR Webhooks API
   slug: sesame-hr-webhooks-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sesame HR Public Absences and Leave API
+  slug: open-sesame-hr-absences-and-leave-api
+- collection_type: open
+  name: Sesame HR Public Absences and Leave Departments and Org API
+  slug: open-sesame-hr-departments-and-org-api
+- collection_type: open
+  name: Sesame HR Public Absences and Leave Employees API
+  slug: open-sesame-hr-employees-api
+- collection_type: open
+  name: Sesame HR Public Absences and Leave Meta API
+  slug: open-sesame-hr-meta-api
+- collection_type: open
+  name: Sesame HR Public Absences and Leave Scheduling API
+  slug: open-sesame-hr-scheduling-api
+- collection_type: open
+  name: Sesame HR Public Absences and Leave Time Tracking API
+  slug: open-sesame-hr-time-tracking-api
+- collection_type: open
+  name: Sesame HR Public Absences and Leave Webhooks API
+  slug: open-sesame-hr-webhooks-api
 - collection_type: open
   name: Sesame HR Public API
   slug: open-sesame-hr
@@ -118,7 +142,7 @@ plans:
 - name: Sesame Hr Plans Pricing
   plan_count: 4
   slug: sesame-hr-plans-pricing
-random_paper: 61
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Sesame Hr Rate Limits
@@ -143,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

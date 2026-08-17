@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 41.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 111
   slug: eloqua-agentic-access
   summary_line: 111 operations · 63 acting
-api_count: 22
+api_count: 23
 apis:
 - description: Export account data in bulk
   name: Oracle Eloqua Account Exports API
@@ -105,14 +105,86 @@ apis:
 - description: Manage system users
   name: Oracle Eloqua Users API
   slug: eloqua-users-api
-artifact_total: 36
+- description: Oracle's own published machine-readable contract for the Eloqua Marketing Cloud Service REST APIs, harvested verbatim from the Swagger document its REST reference links from index.html. A single Swagg
+  name: Oracle Eloqua REST API (Oracle-published contract)
+  slug: eloqua-published-rest-api
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports API
+  slug: open-eloqua-account-exports-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Account Fields API
+  slug: open-eloqua-account-fields-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Account Imports API
+  slug: open-eloqua-account-imports-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Accounts API
+  slug: open-eloqua-accounts-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Activity Exports API
+  slug: open-eloqua-activity-exports-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Activity Imports API
+  slug: open-eloqua-activity-imports-api
 - collection_type: open
   name: Oracle Eloqua Bulk API
   slug: open-eloqua-bulk
 - collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Campaigns API
+  slug: open-eloqua-campaigns-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Contact Exports API
+  slug: open-eloqua-contact-exports-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Contact Fields API
+  slug: open-eloqua-contact-fields-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Contact Imports API
+  slug: open-eloqua-contact-imports-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Contact Lists API
+  slug: open-eloqua-contact-lists-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Contact Segments API
+  slug: open-eloqua-contact-segments-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Contacts API
+  slug: open-eloqua-contacts-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Custom Object Exports API
+  slug: open-eloqua-custom-object-exports-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Custom Object Imports API
+  slug: open-eloqua-custom-object-imports-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Custom Objects API
+  slug: open-eloqua-custom-objects-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Emails API
+  slug: open-eloqua-emails-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Forms API
+  slug: open-eloqua-forms-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Landing Pages API
+  slug: open-eloqua-landing-pages-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Programs API
+  slug: open-eloqua-programs-api
+- collection_type: open
   name: Oracle Eloqua REST API
   slug: open-eloqua-rest
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Syncs API
+  slug: open-eloqua-syncs-api
+- collection_type: open
+  name: Oracle Eloqua Bulk Account Exports Users API
+  slug: open-eloqua-users-api
 common:
 - group: build
   title: ''
@@ -126,10 +198,6 @@ common:
   title: ''
   type: Documentation
   url: https://docs.oracle.com/en/cloud/saas/marketing/eloqua-develop/
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.oracle.com/cx/marketing/automation/
 - group: start
   title: ''
   type: SignUp
@@ -157,7 +225,7 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://docs.oracle.com/en/cloud/saas/marketing/eloqua-rest-api/GettingStarted.html
+  url: https://docs.oracle.com/en/cloud/saas/marketing/eloqua-rest-api/Getting_Started_Application.html
 - group: auth
   title: ''
   type: Authentication
@@ -174,10 +242,66 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.oracle.com/legal/privacy/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.oracle.com/en/cloud/saas/marketing/eloqua-rest-api/rest-endpoints.html
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.oracle.com/en/cloud/saas/marketing/eloqua-develop/
 - group: build
   title: ''
-  type: SDKs
-  url: https://docs.oracle.com/en/cloud/saas/marketing/eloqua-rest-api/SDKs.html
+  type: Packages
+  url: packages/eloqua-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/eloqua-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/eloqua-published-swagger-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/eloqua-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/eloqua-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/eloqua-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://community.oracle.com/customerconnect/categories/cx-eloqua-system-status/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/eloqua-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/eloqua-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/eloqua-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/eloqua-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/eloqua-rate-limits.yml
 created: '2025-01-01'
 description: Oracle Eloqua is a marketing automation platform that provides tools for lead management, email marketing, and marketing campaign management through comprehensive REST APIs. It enables marketing teams to create, execute, and measure the effectiveness of marketing programs and campaigns.
 finops:
@@ -201,24 +325,24 @@ jsonld:
   property_count: 10
   slug: eloqua-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Oracle Eloqua
 nav: Providers
 network: true
-overview: 'Oracle Eloqua publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account Exports API, Account Fields API, Account Imports API, and 19 more. Tagged areas include CRM, Email Marketing, Lead Management, and Marketing Automation.
+overview: 'Oracle Eloqua publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Exports API, Account Fields API, Account Imports API, and 20 more. Tagged areas include CRM, Email Marketing, Lead Management, Marketing Automation, and Campaign Management.
 
 
   The Oracle Eloqua catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Eloqua''s developer surface includes documentation, pricing, signup flow, authentication, getting-started guide, support, and 10 more developer resources.'
+  Oracle Eloqua''s developer surface includes documentation, signup flow, authentication, getting-started guide, support, API reference, changelog, and 22 more developer resources.'
 plans:
 - name: Eloqua Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: eloqua-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
-- limit_count: 5
+- limit_count: 4
   name: Eloqua Rate Limits
   slug: eloqua-rate-limits
 rules:
@@ -234,18 +358,18 @@ scopes:
 - name: Eloqua Scopes
   scope_count: 1
   slug: eloqua-scopes
-  summary_line: 1 scope · authorizationCode
+  summary_line: 1 scope · authorizationCode/implicit/password
 score:
-  band: developing
-  composite: 53.5
-  delta: 0.0
+  band: strong
+  composite: 60.9
+  delta: 7.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 68.7
-    developer_ergonomics: 41.3
-    discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 13.2
+    commercial_clarity: 42.1
+    contract_quality: 67.9
+    developer_ergonomics: 56.5
+    discoverability: 88.9
+    governance: 79.2
+    operational_transparency: 44.7
   previous_composite: 53.5
   provenance:
     agentic_access: derived
@@ -255,23 +379,29 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/screenshots/eloqua-2026-06-20T180617.png
 security:
 - kind: authentication
   name: Eloqua Authentication
   slug: eloqua-authentication
-  summary_line: http/oauth2 · 2 schemes
+  summary_line: oauth2/http · 2 schemes
 - kind: domain-security
   name: Eloqua Domain Security
   slug: eloqua-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: eloqua
 tags:
 - CRM
 - Email Marketing
 - Lead Management
 - Marketing Automation
+- Campaign Management
+- Bulk Data
+- Landing Pages
+- Forms
+- Reporting
+- B2B Marketing
 website: https://www.oracle.com/cx/marketing/automation/
 ---

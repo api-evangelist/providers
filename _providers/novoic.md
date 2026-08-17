@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Direct access to Novoic's speech processing, automated speech recognition, quality control systems, and speech-biomarker models for custom implementations. Access is enterprise/gated; no public develo
@@ -91,7 +91,7 @@ overview: 'Novoic publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Novoic''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 54
+random_paper: 58
 score:
   band: emerging
   composite: 17.2
@@ -113,7 +113,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novoic/refs/heads/main/screenshots/novoic-2026-08-07T185625.png
 security:

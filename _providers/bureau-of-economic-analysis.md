@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,17 @@ apis:
 - description: The Bureau Of Economic Analysis (BEA) API API from Bureau of Economic Analysis — 1 operation(s) for bureau of economic analysis (bea) api.
   name: Bureau of Economic Analysis Bureau Of Economic Analysis (BEA) API API
   slug: bureau-of-economic-analysis-bureau-of-economic-analysis-bea-api-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Bureau of Economic Analysis (BEA) API
   slug: open-bureau-of-economic-analysis-bea-api
+- collection_type: open
+  name: Bureau of Economic Analysis (BEA) Bureau Of Economic Analysis (BEA) API API
+  slug: open-bureau-of-economic-analysis-bureau-of-economic-analysis-bea-api-api
 common:
 - group: agent
   title: ''
@@ -118,7 +124,7 @@ plans:
 - name: Bureau Of Economic Analysis Plans Pricing
   plan_count: 3
   slug: bureau-of-economic-analysis-plans-pricing
-random_paper: 65
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Bureau Of Economic Analysis Rate Limits
@@ -149,7 +155,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-economic-analysis/refs/heads/main/screenshots/bureau-of-economic-analysis-2026-06-20T173804.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,6 +79,18 @@ common:
   title: ''
   type: Pricing
   url: https://www.7cups.com/upgrade/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/7cups-domain-security.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://help.7cups.com/hc/en-us/articles/360026079134-How-Much-Does-7-Cups-Online-Therapy-Cost
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/7cups-domain-security.yml
 created: '2026-07-17'
 description: 7 Cups (7cups.com) is an on-demand emotional health and online therapy service founded in 2013 and backed by Y Combinator. It connects people seeking support with a network of trained volunteer listeners for free, anonymous one-on-one chat, and matches members with licensed therapists and social workers for paid online therapy delivered by messaging, audio, or video. The platform also runs peer community forums, group support chat rooms, and self-help "growth path" content. 7 Cups operates across 189 countries in 140 languages with hundreds of thousands of trained listeners. It is a consumer web and mobile product rather than an API-first developer platform; this profile is maintained in the API Evangelist network as a company record and carries no public API at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/7cups.png
@@ -90,8 +102,8 @@ network: true
 overview: '7 Cups is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mental Health, Online Therapy, Emotional Support, and Counseling.
 
 
-  7 Cups'' developer surface includes support, signup flow, pricing, and 9 more developer resources.'
-random_paper: 18
+  7 Cups'' developer surface includes support, signup flow, pricing, and 12 more developer resources.'
+random_paper: 51
 score:
   band: emerging
   composite: 16.4
@@ -111,7 +123,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -99,11 +99,75 @@ apis:
 - description: The Webhook API from Shoplazza — 3 operation(s) for webhook.
   name: Shoplazza Webhook API
   slug: shoplazza-webhook-api
-artifact_total: 27
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Shoplazza Webhooks
   slug: shoplazza-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SPZ Admin Access API
+  slug: open-shoplazza-access-api
+- collection_type: open
+  name: SPZ Admin Access App Proxy API
+  slug: open-shoplazza-app-proxy-api
+- collection_type: open
+  name: SPZ Admin Access Billing API API
+  slug: open-shoplazza-billing-api-api
+- collection_type: open
+  name: SPZ Admin Access Custom Area API
+  slug: open-shoplazza-custom-area-api
+- collection_type: open
+  name: SPZ Admin Access Customer API
+  slug: open-shoplazza-customer-api
+- collection_type: open
+  name: SPZ Admin Access Data API
+  slug: open-shoplazza-data-api
+- collection_type: open
+  name: SPZ Admin Access Discounts API
+  slug: open-shoplazza-discounts-api
+- collection_type: open
+  name: SPZ Admin Access File API
+  slug: open-shoplazza-file-api
+- collection_type: open
+  name: SPZ Admin Access Fullfillment API
+  slug: open-shoplazza-fullfillment-api
+- collection_type: open
+  name: SPZ Admin Access Gift Card API
+  slug: open-shoplazza-gift-card-api
+- collection_type: open
+  name: SPZ Admin Access Meta Definition API
+  slug: open-shoplazza-meta-definition-api
+- collection_type: open
+  name: SPZ Admin Access Metafield API
+  slug: open-shoplazza-metafield-api
+- collection_type: open
+  name: SPZ Admin Access Order API
+  slug: open-shoplazza-order-api
+- collection_type: open
+  name: SPZ Admin Access Order Risk API
+  slug: open-shoplazza-order-risk-api
+- collection_type: open
+  name: SPZ Admin Access Page API
+  slug: open-shoplazza-page-api
+- collection_type: open
+  name: SPZ Admin Access Product API
+  slug: open-shoplazza-product-api
+- collection_type: open
+  name: SPZ Admin Access Redirect API
+  slug: open-shoplazza-redirect-api
+- collection_type: open
+  name: SPZ Admin Access Shop API
+  slug: open-shoplazza-shop-api
+- collection_type: open
+  name: SPZ Admin Access Theme API
+  slug: open-shoplazza-theme-api
+- collection_type: open
+  name: SPZ Admin Access Webhook API
+  slug: open-shoplazza-webhook-api
 common:
 - group: other
   title: ''
@@ -264,7 +328,7 @@ overview: 'Shoplazza publishes 20 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 28 more developer resources.'
-random_paper: 28
+random_paper: 94
 rate_limits:
 - limit_count: 4
   name: Shoplazza Rate Limits
@@ -303,7 +367,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

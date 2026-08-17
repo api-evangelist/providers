@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -66,7 +66,29 @@ apis:
 - description: Webhook configuration management
   name: Triplit Webhooks API
   slug: triplit-webhooks-api
-artifact_total: 26
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Triplit HTTP Advanced API
+  slug: open-triplit-advanced-api
+- collection_type: open
+  name: Triplit HTTP Advanced Auth API
+  slug: open-triplit-auth-api
+- collection_type: open
+  name: Triplit HTTP Advanced Data API
+  slug: open-triplit-data-api
+- collection_type: open
+  name: Triplit HTTP Advanced Schema API
+  slug: open-triplit-schema-api
+- collection_type: open
+  name: Triplit HTTP Advanced System API
+  slug: open-triplit-system-api
+- collection_type: open
+  name: Triplit HTTP Advanced Webhooks API
+  slug: open-triplit-webhooks-api
 common:
 - group: commercial
   title: ''
@@ -181,7 +203,7 @@ plans:
 - name: Triplit Plans Pricing
   plan_count: 1
   slug: triplit-plans-pricing
-random_paper: 56
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Triplit Rate Limits
@@ -215,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

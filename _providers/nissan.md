@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Nissan North America Developer PortalStart Building Apps Today.
@@ -64,7 +64,7 @@ plans:
 - name: Nissan Plans Pricing
   plan_count: 3
   slug: nissan-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Nissan Rate Limits
@@ -82,7 +82,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 9.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nissan/refs/heads/main/screenshots/nissan-2026-06-20T190331.png
 security:

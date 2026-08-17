@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -52,7 +52,32 @@ apis:
 - description: Banking Product endpoints
   name: Rabobank Australia Banking Products API
   slug: rabobank-australia-banking-products-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-rabobank-australia-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-rabobank-australia-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-rabobank-australia-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-rabobank-australia-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-rabobank-australia-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-rabobank-australia-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-rabobank-australia-banking-products-api
 common:
 - group: auth
   title: ''
@@ -154,7 +179,7 @@ overview: 'Rabobank Australia publishes 7 APIs on the [APIs.io](https://apis.io/
 
 
   Rabobank Australia''s developer surface includes authentication, API reference, documentation, support, and 17 more developer resources.'
-random_paper: 43
+random_paper: 55
 scopes:
 - name: Rabobank Australia Scopes
   scope_count: 10
@@ -188,7 +213,7 @@ score:
     regime_id: banking_open_finance
     score: 54.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -236,7 +236,7 @@ overview: 'TrackMan is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TrackMan''s developer surface includes developer portal, signup flow, documentation, support, training material, engineering blog, YouTube channel, and 40 more developer resources.'
-random_paper: 9
+random_paper: 104
 score:
   band: emerging
   composite: 17.3
@@ -250,7 +250,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trackman/refs/heads/main/screenshots/trackman-2026-06-20T195521.png
 security:

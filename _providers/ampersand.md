@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -93,7 +93,65 @@ apis:
 - description: The User API from Ampersand — 2 operation(s) for user.
   name: Ampersand User API
   slug: ampersand-user-api
-artifact_total: 189
+artifact_total: 208
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ampersand public API Key API
+  slug: open-ampersand-api-key-api
+- collection_type: open
+  name: Ampersand public API Key Billing Account API
+  slug: open-ampersand-billing-account-api
+- collection_type: open
+  name: Ampersand public API Key Connection API
+  slug: open-ampersand-connection-api
+- collection_type: open
+  name: Ampersand public API Key Destination API
+  slug: open-ampersand-destination-api
+- collection_type: open
+  name: Ampersand public API Key Installation API
+  slug: open-ampersand-installation-api
+- collection_type: open
+  name: Ampersand public API Key Integration API
+  slug: open-ampersand-integration-api
+- collection_type: open
+  name: Ampersand public API Key JWT Key API
+  slug: open-ampersand-jwt-key-api
+- collection_type: open
+  name: Ampersand public API Key Notification API
+  slug: open-ampersand-notification-api
+- collection_type: open
+  name: Ampersand public API Key OAuth API
+  slug: open-ampersand-oauth-api
+- collection_type: open
+  name: Ampersand public API Key Objects & Fields API
+  slug: open-ampersand-objects-fields-api
+- collection_type: open
+  name: Ampersand public API Key Operation API
+  slug: open-ampersand-operation-api
+- collection_type: open
+  name: Ampersand public API Key Org API
+  slug: open-ampersand-org-api
+- collection_type: open
+  name: Ampersand public API Key Project API
+  slug: open-ampersand-project-api
+- collection_type: open
+  name: Ampersand public API Key Provider API
+  slug: open-ampersand-provider-api
+- collection_type: open
+  name: Ampersand public API Key Provider App API
+  slug: open-ampersand-provider-app-api
+- collection_type: open
+  name: Ampersand public API Key Revision API
+  slug: open-ampersand-revision-api
+- collection_type: open
+  name: Ampersand public API Key Upload URL API
+  slug: open-ampersand-upload-url-api
+- collection_type: open
+  name: Ampersand public API Key User API
+  slug: open-ampersand-user-api
 common:
 - group: agent
   title: ''
@@ -650,7 +708,7 @@ plans:
 - name: Ampersand Plans Pricing
   plan_count: 3
   slug: ampersand-plans-pricing
-random_paper: 115
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Ampersand Rate Limits
@@ -692,7 +750,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/screenshots/ampersand-2026-06-20T171937.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Phillips 66 – Digital Transformation Strategies
   url: https://www.globaldata.com/store/report/phillips-66-enterprise-tech-analysis/
-random_paper: 62
+random_paper: 128
 score:
   band: minimal
   composite: 5.8
@@ -107,7 +107,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phillips-66/refs/heads/main/screenshots/phillips-66-2026-06-20T191638.png
 security:

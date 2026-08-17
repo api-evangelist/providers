@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 126
 apis:
 - description: Active Directory is supported as an external authorization and authentication provider. Active Directory may store and provide user and group attributes used by both NFS and SMB protocols. Active Dire
@@ -410,7 +410,389 @@ apis:
 - description: Webhooks send event information to external applications. Once defined, you can set them to be triggered by specific events.
   name: VAST Data webhooks API
   slug: vastdata-webhooks-api
-artifact_total: 129
+artifact_total: 256
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory API
+  slug: open-vastdata-activedirectory-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory alarms API
+  slug: open-vastdata-alarms-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory apitokens API
+  slug: open-vastdata-apitokens-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory basicsettings API
+  slug: open-vastdata-basicsettings-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory bgpconfigs API
+  slug: open-vastdata-bgpconfigs-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Blob Expansions API
+  slug: open-vastdata-blob-expansions-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Block Hosts API
+  slug: open-vastdata-block-hosts-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory blockhosts API
+  slug: open-vastdata-blockhosts-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory blockmappings API
+  slug: open-vastdata-blockmappings-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory callhomeconfigs API
+  slug: open-vastdata-callhomeconfigs-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory capacity API
+  slug: open-vastdata-capacity-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory carriers API
+  slug: open-vastdata-carriers-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory cboxes API
+  slug: open-vastdata-cboxes-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Certificates API
+  slug: open-vastdata-certificates-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory challengetokens API
+  slug: open-vastdata-challengetokens-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory clusters API
+  slug: open-vastdata-clusters-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory cnodegroups API
+  slug: open-vastdata-cnodegroups-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Cnodes API
+  slug: open-vastdata-cnodes-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory columns API
+  slug: open-vastdata-columns-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Compute Clusters API
+  slug: open-vastdata-compute-clusters-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory config API
+  slug: open-vastdata-config-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory dataspace API
+  slug: open-vastdata-dataspace-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory dboxes API
+  slug: open-vastdata-dboxes-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory delta API
+  slug: open-vastdata-delta-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory dnodes API
+  slug: open-vastdata-dnodes-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory dns API
+  slug: open-vastdata-dns-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory dtrays API
+  slug: open-vastdata-dtrays-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory eboxes API
+  slug: open-vastdata-eboxes-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory encryptedpaths API
+  slug: open-vastdata-encryptedpaths-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory encryptiongroups API
+  slug: open-vastdata-encryptiongroups-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory envs API
+  slug: open-vastdata-envs-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory eventdefinitionconfigs API
+  slug: open-vastdata-eventdefinitionconfigs-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory eventdefinitions API
+  slug: open-vastdata-eventdefinitions-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory events API
+  slug: open-vastdata-events-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory fans API
+  slug: open-vastdata-fans-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory filesystem API
+  slug: open-vastdata-filesystem-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory folders API
+  slug: open-vastdata-folders-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory globalsnapstreams API
+  slug: open-vastdata-globalsnapstreams-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory groups API
+  slug: open-vastdata-groups-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Health API
+  slug: open-vastdata-health-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory hosts API
+  slug: open-vastdata-hosts-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory iamroles API
+  slug: open-vastdata-iamroles-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory indestructibility API
+  slug: open-vastdata-indestructibility-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory injections API
+  slug: open-vastdata-injections-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory iodata API
+  slug: open-vastdata-iodata-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory issues API
+  slug: open-vastdata-issues-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory kafkabroker API
+  slug: open-vastdata-kafkabroker-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Kerberos API
+  slug: open-vastdata-kerberos-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory ldaps API
+  slug: open-vastdata-ldaps-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory licenses API
+  slug: open-vastdata-licenses-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory localproviders API
+  slug: open-vastdata-localproviders-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory locals3keys API
+  slug: open-vastdata-locals3keys-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory locks API
+  slug: open-vastdata-locks-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory login API
+  slug: open-vastdata-login-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory logout API
+  slug: open-vastdata-logout-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory managedapplications API
+  slug: open-vastdata-managedapplications-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory managers API
+  slug: open-vastdata-managers-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory metrics API
+  slug: open-vastdata-metrics-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory modules API
+  slug: open-vastdata-modules-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory monitors API
+  slug: open-vastdata-monitors-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory nativereplicationremotetargets API
+  slug: open-vastdata-nativereplicationremotetargets-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory nicports API
+  slug: open-vastdata-nicports-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory nics API
+  slug: open-vastdata-nics-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory nis API
+  slug: open-vastdata-nis-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory nvrams API
+  slug: open-vastdata-nvrams-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory objectpermissions API
+  slug: open-vastdata-objectpermissions-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory oidcs API
+  slug: open-vastdata-oidcs-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory openfilehandles API
+  slug: open-vastdata-openfilehandles-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory openfiles API
+  slug: open-vastdata-openfiles-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory openfilesqueries API
+  slug: open-vastdata-openfilesqueries-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory permissions API
+  slug: open-vastdata-permissions-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory ports API
+  slug: open-vastdata-ports-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory projectioncolumns API
+  slug: open-vastdata-projectioncolumns-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory projections API
+  slug: open-vastdata-projections-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory prometheusmetrics API
+  slug: open-vastdata-prometheusmetrics-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory protectedpaths API
+  slug: open-vastdata-protectedpaths-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory protectionpolicies API
+  slug: open-vastdata-protectionpolicies-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory psus API
+  slug: open-vastdata-psus-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory QoS Policies API
+  slug: open-vastdata-qos-policies-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory qospolicies API
+  slug: open-vastdata-qospolicies-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory quotaentityinfos API
+  slug: open-vastdata-quotaentityinfos-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory quotagroups API
+  slug: open-vastdata-quotagroups-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory quotas API
+  slug: open-vastdata-quotas-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Racks API
+  slug: open-vastdata-racks-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory realms API
+  slug: open-vastdata-realms-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory replicationpolicies API
+  slug: open-vastdata-replicationpolicies-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory replicationrestorepoints API
+  slug: open-vastdata-replicationrestorepoints-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory replicationstreams API
+  slug: open-vastdata-replicationstreams-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory replicationtargets API
+  slug: open-vastdata-replicationtargets-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory roles API
+  slug: open-vastdata-roles-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory S3 Keys API
+  slug: open-vastdata-s3-keys-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory s3lifecyclerules API
+  slug: open-vastdata-s3lifecyclerules-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory s3policies API
+  slug: open-vastdata-s3policies-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory schemas API
+  slug: open-vastdata-schemas-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory settingsdiff API
+  slug: open-vastdata-settingsdiff-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory snapshotpolicies API
+  slug: open-vastdata-snapshotpolicies-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory snapshots API
+  slug: open-vastdata-snapshots-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory ssds API
+  slug: open-vastdata-ssds-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory subnetmanager API
+  slug: open-vastdata-subnetmanager-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Support Bundles API
+  slug: open-vastdata-support-bundles-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory supportbundles API
+  slug: open-vastdata-supportbundles-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory supporteddrives API
+  slug: open-vastdata-supporteddrives-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory switches API
+  slug: open-vastdata-switches-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory tables API
+  slug: open-vastdata-tables-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Tenants API
+  slug: open-vastdata-tenants-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory tlscertificates API
+  slug: open-vastdata-tlscertificates-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory token API
+  slug: open-vastdata-token-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory topics API
+  slug: open-vastdata-topics-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory userquotas API
+  slug: open-vastdata-userquotas-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory users API
+  slug: open-vastdata-users-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vastauditlog API
+  slug: open-vastdata-vastauditlog-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vastcatalogconfig API
+  slug: open-vastdata-vastcatalogconfig-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vastcatalogindexedcolumns API
+  slug: open-vastdata-vastcatalogindexedcolumns-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vastdb API
+  slug: open-vastdata-vastdb-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory versions API
+  slug: open-vastdata-versions-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory viewpolicies API
+  slug: open-vastdata-viewpolicies-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Views API
+  slug: open-vastdata-views-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vippools API
+  slug: open-vastdata-vippools-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vips API
+  slug: open-vastdata-vips-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vm API
+  slug: open-vastdata-vm-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vms API
+  slug: open-vastdata-vms-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory Volumes API
+  slug: open-vastdata-volumes-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vpntunnels API
+  slug: open-vastdata-vpntunnels-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vsettings API
+  slug: open-vastdata-vsettings-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory vtasks API
+  slug: open-vastdata-vtasks-api
+- collection_type: open
+  name: VAST API Swagger Schema activedirectory webhooks API
+  slug: open-vastdata-webhooks-api
 common:
 - group: company
   title: ''
@@ -524,7 +906,7 @@ overview: 'VAST Data publishes 126 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VAST Data''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, CLI, and 18 more developer resources.'
-random_paper: 16
+random_paper: 111
 score:
   band: thin
   composite: 39.0
@@ -547,7 +929,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

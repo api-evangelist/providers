@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,20 @@ apis:
 - description: Web Map Service - retrieve map imagery from satellite datasets
   name: JAXA WMS API
   slug: jaxa-wms-api
-artifact_total: 13
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: G-Portal Web CSW API
+  slug: open-jaxa-csw-api
+- collection_type: open
+  name: G-Portal Web CSW WCS API
+  slug: open-jaxa-wcs-api
+- collection_type: open
+  name: G-Portal Web CSW WMS API
+  slug: open-jaxa-wms-api
 common:
 - group: agent
   title: ''
@@ -120,7 +133,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 60
+random_paper: 122
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -151,7 +164,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/screenshots/jaxa-2026-06-20T183708.png
 security:

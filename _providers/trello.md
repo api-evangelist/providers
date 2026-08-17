@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -87,15 +87,60 @@ apis:
 - description: Operations for creating, retrieving, updating, and deleting webhooks that deliver real-time notifications when Trello models change.
   name: trello Webhooks API
   slug: trello-webhooks-api
-artifact_total: 52
+artifact_total: 67
 asyncapis:
 - description: The Trello Webhooks API delivers real-time notifications when changes occur on Trello models such as boards, lists, cards, and members. Rather than polling the REST API for updates, webhooks push even
   name: Trello Webhooks Events
   slug: trello-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trello REST Actions API
+  slug: open-trello-actions-api
+- collection_type: open
+  name: Trello REST Actions Boards API
+  slug: open-trello-boards-api
+- collection_type: open
+  name: Trello REST Actions Cards API
+  slug: open-trello-cards-api
+- collection_type: open
+  name: Trello REST Actions Checklists API
+  slug: open-trello-checklists-api
+- collection_type: open
+  name: Trello REST Actions CustomFields API
+  slug: open-trello-customfields-api
+- collection_type: open
+  name: Trello REST Actions Labels API
+  slug: open-trello-labels-api
+- collection_type: open
+  name: Trello REST Actions Lists API
+  slug: open-trello-lists-api
+- collection_type: open
+  name: Trello REST Actions Members API
+  slug: open-trello-members-api
+- collection_type: open
+  name: Trello REST Actions Notifications API
+  slug: open-trello-notifications-api
+- collection_type: open
+  name: Trello REST Actions Organizations API
+  slug: open-trello-organizations-api
+- collection_type: open
+  name: Trello REST Actions Plugins API
+  slug: open-trello-plugins-api
+- collection_type: open
   name: Trello REST API
   slug: open-trello-rest-api
+- collection_type: open
+  name: Trello REST Actions Search API
+  slug: open-trello-search-api
+- collection_type: open
+  name: Trello REST Actions Tokens API
+  slug: open-trello-tokens-api
+- collection_type: open
+  name: Trello REST Actions Webhooks API
+  slug: open-trello-webhooks-api
 common:
 - group: agent
   title: ''
@@ -222,7 +267,7 @@ plans:
 - name: Trello Plans Pricing
   plan_count: 4
   slug: trello-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Trello Rate Limits
@@ -272,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/screenshots/trello-2026-06-20T195704.png
 security:

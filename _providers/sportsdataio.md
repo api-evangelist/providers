@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,20 +138,122 @@ apis:
 - description: The Soccer v4 Stats API from SportsDataIO — 11 operation(s) for soccer v4 stats.
   name: SportsDataIO Soccer v4 Stats API
   slug: sportsdataio-soccer-v4-stats-api
-artifact_total: 153
+artifact_total: 187
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MLB MLB v3 Headshots API
+  slug: open-sportsdataio-mlb-v3-headshots-api
+- collection_type: open
+  name: MLB MLB v3 Headshots MLB v3 Odds API
+  slug: open-sportsdataio-mlb-v3-odds-api
+- collection_type: open
+  name: MLB MLB v3 Headshots MLB v3 Play-by-Play API
+  slug: open-sportsdataio-mlb-v3-play-by-play-api
+- collection_type: open
+  name: MLB MLB v3 Headshots MLB v3 Projections API
+  slug: open-sportsdataio-mlb-v3-projections-api
+- collection_type: open
+  name: MLB MLB v3 Headshots MLB v3 RotoBaller Premium News API
+  slug: open-sportsdataio-mlb-v3-rotoballer-premium-news-api
+- collection_type: open
+  name: MLB MLB v3 Headshots MLB v3 Scores API
+  slug: open-sportsdataio-mlb-v3-scores-api
+- collection_type: open
+  name: MLB MLB v3 Headshots MLB v3 Stats API
+  slug: open-sportsdataio-mlb-v3-stats-api
 - collection_type: open
   name: MLB API
   slug: open-sportsdataio-mlb
 - collection_type: open
+  name: MLB MLB v3 Headshots NBA v3 Headshots API
+  slug: open-sportsdataio-nba-v3-headshots-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NBA v3 Odds API
+  slug: open-sportsdataio-nba-v3-odds-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NBA v3 Play-by-Play API
+  slug: open-sportsdataio-nba-v3-play-by-play-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NBA v3 Projections API
+  slug: open-sportsdataio-nba-v3-projections-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NBA v3 RotoBaller Premium News API
+  slug: open-sportsdataio-nba-v3-rotoballer-premium-news-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NBA v3 Scores API
+  slug: open-sportsdataio-nba-v3-scores-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NBA v3 Stats API
+  slug: open-sportsdataio-nba-v3-stats-api
+- collection_type: open
   name: NBA API
   slug: open-sportsdataio-nba
+- collection_type: open
+  name: MLB MLB v3 Headshots NFL v3 Headshots API
+  slug: open-sportsdataio-nfl-v3-headshots-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NFL v3 Odds API
+  slug: open-sportsdataio-nfl-v3-odds-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NFL v3 Play-by-Play API
+  slug: open-sportsdataio-nfl-v3-play-by-play-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NFL v3 Projections API
+  slug: open-sportsdataio-nfl-v3-projections-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NFL v3 RotoBaller Premium News API
+  slug: open-sportsdataio-nfl-v3-rotoballer-premium-news-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NFL v3 Scores API
+  slug: open-sportsdataio-nfl-v3-scores-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NFL v3 Stats API
+  slug: open-sportsdataio-nfl-v3-stats-api
 - collection_type: open
   name: NFL API
   slug: open-sportsdataio-nfl
 - collection_type: open
+  name: MLB MLB v3 Headshots NHL v3 Headshots API
+  slug: open-sportsdataio-nhl-v3-headshots-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NHL v3 Odds API
+  slug: open-sportsdataio-nhl-v3-odds-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NHL v3 Play-by-Play API
+  slug: open-sportsdataio-nhl-v3-play-by-play-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NHL v3 Projections API
+  slug: open-sportsdataio-nhl-v3-projections-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NHL v3 RotoBaller Premium News API
+  slug: open-sportsdataio-nhl-v3-rotoballer-premium-news-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NHL v3 Scores API
+  slug: open-sportsdataio-nhl-v3-scores-api
+- collection_type: open
+  name: MLB MLB v3 Headshots NHL v3 Stats API
+  slug: open-sportsdataio-nhl-v3-stats-api
+- collection_type: open
   name: NHL API
   slug: open-sportsdataio-nhl
+- collection_type: open
+  name: MLB MLB v3 Headshots Soccer v4 Headshots API
+  slug: open-sportsdataio-soccer-v4-headshots-api
+- collection_type: open
+  name: MLB MLB v3 Headshots Soccer v4 Odds API
+  slug: open-sportsdataio-soccer-v4-odds-api
+- collection_type: open
+  name: MLB MLB v3 Headshots Soccer v4 Projections API
+  slug: open-sportsdataio-soccer-v4-projections-api
+- collection_type: open
+  name: MLB MLB v3 Headshots Soccer v4 Scores API
+  slug: open-sportsdataio-soccer-v4-scores-api
+- collection_type: open
+  name: MLB MLB v3 Headshots Soccer v4 Stats API
+  slug: open-sportsdataio-soccer-v4-stats-api
 - collection_type: open
   name: SOCCER API
   slug: open-sportsdataio-soccer
@@ -560,7 +662,7 @@ plans:
 - name: Sportsdataio Plans Pricing
   plan_count: 4
   slug: sportsdataio-plans-pricing
-random_paper: 109
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Sportsdataio Rate Limits
@@ -602,7 +704,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/screenshots/sportsdataio-2026-06-20T194350.png
 security:

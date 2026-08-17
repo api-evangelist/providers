@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,14 +63,35 @@ apis:
 - description: Trigger and manage security scans.
   name: Synopsys Scans API
   slug: synopsys-scans-api
-artifact_total: 24
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Synopsys Cloud OpenLink API
   slug: open-synopsys-cloud-openlink
 - collection_type: open
+  name: Synopsys Cloud OpenLink Entitlements API
+  slug: open-synopsys-entitlements-api
+- collection_type: open
+  name: Synopsys Cloud OpenLink Entitlements Issues API
+  slug: open-synopsys-issues-api
+- collection_type: open
+  name: Synopsys Cloud OpenLink Entitlements Licenses API
+  slug: open-synopsys-licenses-api
+- collection_type: open
   name: Synopsys Polaris API
   slug: open-synopsys-polaris
+- collection_type: open
+  name: Synopsys Cloud OpenLink Entitlements Projects API
+  slug: open-synopsys-projects-api
+- collection_type: open
+  name: Synopsys Cloud OpenLink Entitlements Reports API
+  slug: open-synopsys-reports-api
+- collection_type: open
+  name: Synopsys Cloud OpenLink Entitlements Scans API
+  slug: open-synopsys-scans-api
 common:
 - group: agent
   title: ''
@@ -175,7 +196,7 @@ press:
 - date: '2026-05-25'
   title: Synopsys Outlines Vision for Engineering the Future
   url: https://www.prnewswire.com/news-releases/synopsys-outlines-vision-for-engineering-the-future-302711205.html
-random_paper: 80
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Synopsys Rate Limits
@@ -222,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/screenshots/synopsys-2026-06-20T194831.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -90,11 +90,66 @@ apis:
 - description: The Workflows API from Didit — 2 operation(s) for workflows.
   name: Didit Workflows API
   slug: didit-workflows-api
-artifact_total: 23
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Didit Webhooks
   slug: didit-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Didit Verification Billing API
+  slug: open-didit-billing-api
+- collection_type: open
+  name: Didit Verification Billing Businesses API
+  slug: open-didit-businesses-api
+- collection_type: open
+  name: Didit Verification Billing Case Blueprints API
+  slug: open-didit-case-blueprints-api
+- collection_type: open
+  name: Didit Verification Billing Cases API
+  slug: open-didit-cases-api
+- collection_type: open
+  name: Didit Verification Billing Customization API
+  slug: open-didit-customization-api
+- collection_type: open
+  name: Didit Verification Billing Questionnaires API
+  slug: open-didit-questionnaires-api
+- collection_type: open
+  name: Didit Verification Billing Regulatory Reports API
+  slug: open-didit-regulatory-reports-api
+- collection_type: open
+  name: Didit Verification Billing Report Templates API
+  slug: open-didit-report-templates-api
+- collection_type: open
+  name: Didit Verification Billing Session API
+  slug: open-didit-session-api
+- collection_type: open
+  name: Didit Verification Billing Sessions API
+  slug: open-didit-sessions-api
+- collection_type: open
+  name: Didit Verification Billing Standalone APIs API
+  slug: open-didit-standalone-apis-api
+- collection_type: open
+  name: Didit Verification Billing System API
+  slug: open-didit-system-api
+- collection_type: open
+  name: Didit Verification Billing Transactions API
+  slug: open-didit-transactions-api
+- collection_type: open
+  name: Didit Verification Billing Travel Rule API
+  slug: open-didit-travel-rule-api
+- collection_type: open
+  name: Didit Verification Billing Users API
+  slug: open-didit-users-api
+- collection_type: open
+  name: Didit Verification Billing Webhook API
+  slug: open-didit-webhook-api
+- collection_type: open
+  name: Didit Verification Billing Workflows API
+  slug: open-didit-workflows-api
 common:
 - group: start
   title: ''
@@ -251,7 +306,7 @@ overview: 'Didit publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Didit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 46
+random_paper: 79
 scopes:
 - name: Didit Scopes
   scope_count: 5
@@ -280,7 +335,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/screenshots/didit-2026-07-25T211951.png
 security:

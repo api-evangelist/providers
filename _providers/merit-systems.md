@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: The Send API from Merit Systems — 1 operation(s) for send.
   name: Merit Systems Send API
   slug: merit-systems-send-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AgentCash Balances API
+  slug: open-merit-systems-balances-api
+- collection_type: open
+  name: AgentCash Balances Invite Codes API
+  slug: open-merit-systems-invite-codes-api
+- collection_type: open
+  name: AgentCash Balances Organizations API
+  slug: open-merit-systems-organizations-api
+- collection_type: open
+  name: AgentCash Balances Payments API
+  slug: open-merit-systems-payments-api
+- collection_type: open
+  name: AgentCash Balances Search API
+  slug: open-merit-systems-search-api
+- collection_type: open
+  name: AgentCash Balances Send API
+  slug: open-merit-systems-send-api
 common:
 - group: company
   title: ''
@@ -195,7 +217,7 @@ overview: 'Merit Systems publishes 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Merit Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 23 more developer resources.'
-random_paper: 62
+random_paper: 41
 score:
   band: developing
   composite: 51.6
@@ -225,7 +247,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/screenshots/merit-systems-2026-08-07T172603.png
 security:

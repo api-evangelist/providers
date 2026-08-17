@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -234,11 +234,210 @@ apis:
 - description: Webhook requests are delivery attempts from Syntage to a webhook endpoint. Use them to monitor delivery status, inspect failed deliveries, and connect an event to the endpoint that received it.
   name: Syntage Webhook Requests API
   slug: syntage-webhook-requests-api
-artifact_total: 71
+artifact_total: 137
 asyncapis:
 - description: ''
   name: Syntage Webhooks
   slug: syntage-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Syntage Accounts Payable Insight API
+  slug: open-syntage-accounts-payable-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Accounts Receivable Insight API
+  slug: open-syntage-accounts-receivable-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Background Checks API
+  slug: open-syntage-background-checks-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Balance Sheet Insight API
+  slug: open-syntage-balance-sheet-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Cash Flow Insight API
+  slug: open-syntage-cash-flow-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Company Verification Reports API
+  slug: open-syntage-company-verification-reports-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Corporate Structure Insight API
+  slug: open-syntage-corporate-structure-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Customer Concentration Insight API
+  slug: open-syntage-customer-concentration-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Customer Network Insight API
+  slug: open-syntage-customer-network-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX BIL Reports API
+  slug: open-syntage-ds-mx-bil-reports-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX Buró de Crédito Authorizations API
+  slug: open-syntage-ds-mx-bur-de-cr-dito-authorizations-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX Buró de Crédito Reports API
+  slug: open-syntage-ds-mx-bur-de-cr-dito-reports-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX RPC Actos API
+  slug: open-syntage-ds-mx-rpc-actos-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX RPC Entidades API
+  slug: open-syntage-ds-mx-rpc-entidades-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX RPC Socios API
+  slug: open-syntage-ds-mx-rpc-socios-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX RUG Garantias API
+  slug: open-syntage-ds-mx-rug-garantias-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX RUG Operaciones API
+  slug: open-syntage-ds-mx-rug-operaciones-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Certificates API
+  slug: open-syntage-ds-mx-sat-certificates-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Credentials API
+  slug: open-syntage-ds-mx-sat-credentials-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Credit Notes API
+  slug: open-syntage-ds-mx-sat-credit-notes-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Electronic Accounting API
+  slug: open-syntage-ds-mx-sat-electronic-accounting-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Invoice Batch Payments API
+  slug: open-syntage-ds-mx-sat-invoice-batch-payments-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Invoice Line Items API
+  slug: open-syntage-ds-mx-sat-invoice-line-items-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Invoice Payments API
+  slug: open-syntage-ds-mx-sat-invoice-payments-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Invoice Relations API
+  slug: open-syntage-ds-mx-sat-invoice-relations-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Invoices API
+  slug: open-syntage-ds-mx-sat-invoices-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Tax Compliance Checks API
+  slug: open-syntage-ds-mx-sat-tax-compliance-checks-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Tax Retentions API
+  slug: open-syntage-ds-mx-sat-tax-retentions-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Tax Returns API
+  slug: open-syntage-ds-mx-sat-tax-returns-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS MX SAT Tax Status API
+  slug: open-syntage-ds-mx-sat-tax-status-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight DS Syntage Score API
+  slug: open-syntage-ds-syntage-score-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Employees Insight API
+  slug: open-syntage-employees-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Entities API
+  slug: open-syntage-entities-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Events API
+  slug: open-syntage-events-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Expenditures Insight API
+  slug: open-syntage-expenditures-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Exports API
+  slug: open-syntage-exports-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Extractions API
+  slug: open-syntage-extractions-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Files API
+  slug: open-syntage-files-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Financial Institutions Insight API
+  slug: open-syntage-financial-institutions-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Financial Ratios Insight API
+  slug: open-syntage-financial-ratios-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Government Customers Insight API
+  slug: open-syntage-government-customers-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Income Statement Insight API
+  slug: open-syntage-income-statement-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Insight Exports API
+  slug: open-syntage-insight-exports-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Invoicing Annual Comparison Insight API
+  slug: open-syntage-invoicing-annual-comparison-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Invoicing Blacklist Insight API
+  slug: open-syntage-invoicing-blacklist-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Invoicing Concentration Insight API
+  slug: open-syntage-invoicing-concentration-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Mexico Addresses API
+  slug: open-syntage-mexico-addresses-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Moratory Interest Insight API
+  slug: open-syntage-moratory-interest-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Products and Services Insight API
+  slug: open-syntage-products-and-services-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Reports API
+  slug: open-syntage-reports-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Risks Insight API
+  slug: open-syntage-risks-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight RPC Shareholders Insight API
+  slug: open-syntage-rpc-shareholders-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Sales Revenue Insight API
+  slug: open-syntage-sales-revenue-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Scheduler Rules API
+  slug: open-syntage-scheduler-rules-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Schedulers API
+  slug: open-syntage-schedulers-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Scores Insight API
+  slug: open-syntage-scores-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Shareholders API
+  slug: open-syntage-shareholders-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Shareholders Insight API
+  slug: open-syntage-shareholders-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Summary Insight API
+  slug: open-syntage-summary-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Tags API
+  slug: open-syntage-tags-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Trial Balance Insight API
+  slug: open-syntage-trial-balance-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Vendor Concentration Insight API
+  slug: open-syntage-vendor-concentration-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Vendor Network Insight API
+  slug: open-syntage-vendor-network-insight-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Webhook Endpoints API
+  slug: open-syntage-webhook-endpoints-api
+- collection_type: open
+  name: Syntage Accounts Payable Insight Webhook Requests API
+  slug: open-syntage-webhook-requests-api
 common:
 - group: start
   title: ''
@@ -395,7 +594,7 @@ overview: 'Syntage publishes 65 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Syntage''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 27 more developer resources.'
-random_paper: 43
+random_paper: 18
 score:
   band: developing
   composite: 53.8
@@ -419,7 +618,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

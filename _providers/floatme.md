@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'FloatMe is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   FloatMe''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 24
+random_paper: 148
 score:
   band: minimal
   composite: 11.6
@@ -87,7 +87,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/floatme/refs/heads/main/screenshots/floatme-2026-07-25T214810.png
 security:

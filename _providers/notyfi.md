@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -53,11 +53,30 @@ apis:
 - description: The webhooks API from Notyfi — 4 operation(s) for webhooks.
   name: Notyfi webhooks API
   slug: notyfi-webhooks-api
-artifact_total: 10
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Notyfi Webhooks
   slug: notyfi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Notyfi account API
+  slug: open-notyfi-account-api
+- collection_type: open
+  name: Notyfi account billing API
+  slug: open-notyfi-billing-api
+- collection_type: open
+  name: Notyfi account keys API
+  slug: open-notyfi-keys-api
+- collection_type: open
+  name: Notyfi account trackers API
+  slug: open-notyfi-trackers-api
+- collection_type: open
+  name: Notyfi account webhooks API
+  slug: open-notyfi-webhooks-api
 common:
 - group: other
   title: ''
@@ -162,7 +181,7 @@ overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Notyfi''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 65
+random_paper: 69
 score:
   band: developing
   composite: 44.8
@@ -186,7 +205,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/screenshots/notyfi-2026-08-07T185550.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,11 +45,17 @@ apis:
 - description: The GraphQL API from Taddy API — 1 operation(s) for graphql.
   name: Taddy API GraphQL API
   slug: taddy-api-graphql-api
-artifact_total: 19
+artifact_total: 21
 collections:
 - collection_type: postman
   name: Taddy Podcast GraphQL API
   slug: postman-taddy-api-graphql-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Taddy Podcast GraphQL API
+  slug: open-taddy-api-graphql-api
 - collection_type: open
   name: Taddy Podcast API
   slug: open-taddy-podcast
@@ -192,7 +198,7 @@ plans:
 - name: Taddy Api Plans Pricing
   plan_count: 3
   slug: taddy-api-plans-pricing
-random_paper: 53
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Taddy Api Rate Limits
@@ -234,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/screenshots/taddy-api-2026-06-20T194850.png
 security:

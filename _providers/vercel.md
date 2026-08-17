@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ arazzos:
 - description: Fetch an existing chat to confirm it exists, then continue it with a refinement.
   name: Vercel v0 Resume And Refine Chat
   slug: vercel-resume-and-refine-chat-workflow
-artifact_total: 59
+artifact_total: 64
 asyncapis:
 - description: AsyncAPI definition for Vercel's webhook surface. Vercel webhooks are HTTP POST deliveries from Vercel to a subscriber-configured endpoint URL registered either as an Account Webhook (Team Settings ->
   name: Vercel Webhooks
@@ -110,8 +110,23 @@ collections:
   name: Vercel AI Gateway Chat Models API
   slug: postman-vercel-models-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Vercel AI Gateway API
   slug: open-vercel-ai-gateway
+- collection_type: open
+  name: Vercel AI Gateway Chat API
+  slug: open-vercel-chat-api
+- collection_type: open
+  name: Vercel AI Gateway Chat Chats API
+  slug: open-vercel-chats-api
+- collection_type: open
+  name: Vercel AI Gateway Chat Embeddings API
+  slug: open-vercel-embeddings-api
+- collection_type: open
+  name: Vercel AI Gateway Chat Models API
+  slug: open-vercel-models-api
 - collection_type: open
   name: Vercel v0 Platform API
   slug: open-vercel-v0-platform
@@ -367,7 +382,7 @@ plans:
 - name: Vercel Plans Pricing
   plan_count: 3
   slug: vercel-plans-pricing
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 6
   name: Vercel Rate Limits
@@ -417,7 +432,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:

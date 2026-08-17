@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 25
@@ -66,8 +66,38 @@ apis:
 - description: 'The Altruistiq API uses TLS and follows the OAuth 2.0 Client credentials flow as per [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749#section-4.4) ### Generating `client_id` and `client_secret'
   name: Altruistiq Security API
   slug: altruistiq-security-api
-artifact_total: 47
+artifact_total: 57
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Altruistiq Datasource API
+  slug: open-altruistiq-datasource-api
+- collection_type: open
+  name: Altruistiq Datasource Export API
+  slug: open-altruistiq-export-api
+- collection_type: open
+  name: Altruistiq Datasource Facility API
+  slug: open-altruistiq-facility-api
+- collection_type: open
+  name: Altruistiq Datasource Location API
+  slug: open-altruistiq-location-api
+- collection_type: open
+  name: Altruistiq Datasource Organization API
+  slug: open-altruistiq-organization-api
+- collection_type: open
+  name: Altruistiq Datasource Product API
+  slug: open-altruistiq-product-api
+- collection_type: open
+  name: Altruistiq Datasource Product structure API
+  slug: open-altruistiq-product-structure-api
+- collection_type: open
+  name: Altruistiq Datasource Product structure inputs API
+  slug: open-altruistiq-product-structure-inputs-api
+- collection_type: open
+  name: Altruistiq Datasource Security API
+  slug: open-altruistiq-security-api
 - collection_type: open
   name: Altruistiq Datasource API
   slug: open-altruistiq
@@ -266,7 +296,7 @@ plans:
 - name: Altruistiq Plans Pricing
   plan_count: 4
   slug: altruistiq-plans-pricing
-random_paper: 26
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Altruistiq Rate Limits
@@ -319,7 +349,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/screenshots/altruistiq-2026-06-20T171616.png
 security:

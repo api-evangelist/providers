@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -168,26 +168,116 @@ apis:
 - description: Virtual IBAN issuance and management
   name: Montran Virtual IBANs API
   slug: montran-virtual-ibans-api
-artifact_total: 155
+artifact_total: 185
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information API
+  slug: open-montran-account-information-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Account Structures API
+  slug: open-montran-account-structures-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Accounts API
+  slug: open-montran-accounts-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Alerts API
+  slug: open-montran-alerts-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Approvals API
+  slug: open-montran-approvals-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Balances API
+  slug: open-montran-balances-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Beneficiaries API
+  slug: open-montran-beneficiaries-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Channels API
+  slug: open-montran-channels-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Clearing API
+  slug: open-montran-clearing-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Clearing Systems API
+  slug: open-montran-clearing-systems-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Configuration API
+  slug: open-montran-configuration-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Consent API
+  slug: open-montran-consent-api
 - collection_type: open
   name: Montran Corporate Payments Portal API
   slug: open-montran-corporate-payments-portal
 - collection_type: open
+  name: Montran Corporate Payments Portal Account Information Credit Transfers API
+  slug: open-montran-credit-transfers-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Direct Debits API
+  slug: open-montran-direct-debits-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Files API
+  slug: open-montran-files-api
+- collection_type: open
   name: Montran Global Payments Hub API
   slug: open-montran-global-payments-hub
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Instant Payments API
+  slug: open-montran-instant-payments-api
 - collection_type: open
   name: Montran Instant Payments Gateway API
   slug: open-montran-instant-payments-gateway
 - collection_type: open
+  name: Montran Corporate Payments Portal Account Information Lists API
+  slug: open-montran-lists-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Message Formats API
+  slug: open-montran-message-formats-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Message Routing API
+  slug: open-montran-message-routing-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Payment Initiation API
+  slug: open-montran-payment-initiation-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Payment Status API
+  slug: open-montran-payment-status-api
+- collection_type: open
+  name: Montran Corporate Portal Account Information Payments API
+  slug: open-montran-payments-api
+- collection_type: open
   name: Montran Payments Connectivity API
   slug: open-montran-payments-connectivity
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Request to Pay API
+  slug: open-montran-request-to-pay-api
 - collection_type: open
   name: Montran Sanctions Screening API
   slug: open-montran-sanctions-screening
 - collection_type: open
+  name: Montran Corporate Payments Portal Account Information Screening API
+  slug: open-montran-screening-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Statements API
+  slug: open-montran-statements-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information SWIFT API
+  slug: open-montran-swift-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Transactions API
+  slug: open-montran-transactions-api
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Virtual Accounts API
+  slug: open-montran-virtual-accounts-api
+- collection_type: open
   name: Montran Virtual Accounts API
   slug: open-montran-virtual-accounts
+- collection_type: open
+  name: Montran Corporate Payments Portal Account Information Virtual IBANs API
+  slug: open-montran-virtual-ibans-api
 common:
 - group: agent
   title: ''
@@ -570,7 +660,7 @@ plans:
 - name: Montran Plans Pricing
   plan_count: 1
   slug: montran-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Montran Rate Limits
@@ -615,7 +705,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/screenshots/montran-2026-06-20T185750.png
 security:

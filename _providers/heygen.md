@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -78,8 +78,47 @@ apis:
 - description: Webhook event and endpoint management.
   name: HeyGen Webhooks API
   slug: heygen-webhooks-api
-artifact_total: 22
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HeyGen Account API
+  slug: open-heygen-account-api
+- collection_type: open
+  name: HeyGen Account Assets API
+  slug: open-heygen-assets-api
+- collection_type: open
+  name: HeyGen Account Avatars API
+  slug: open-heygen-avatars-api
+- collection_type: open
+  name: HeyGen Account Digital Twins API
+  slug: open-heygen-digital-twins-api
+- collection_type: open
+  name: HeyGen Account Folders API
+  slug: open-heygen-folders-api
+- collection_type: open
+  name: HeyGen Account Photo Avatars API
+  slug: open-heygen-photo-avatars-api
+- collection_type: open
+  name: HeyGen Account Streaming API
+  slug: open-heygen-streaming-api
+- collection_type: open
+  name: HeyGen Account Templates API
+  slug: open-heygen-templates-api
+- collection_type: open
+  name: HeyGen Account Video Translation API
+  slug: open-heygen-video-translation-api
+- collection_type: open
+  name: HeyGen Account Videos API
+  slug: open-heygen-videos-api
+- collection_type: open
+  name: HeyGen Account Voices API
+  slug: open-heygen-voices-api
+- collection_type: open
+  name: HeyGen Account Webhooks API
+  slug: open-heygen-webhooks-api
 - collection_type: open
   name: HeyGen API
   slug: open-heygen
@@ -164,7 +203,7 @@ plans:
 - name: Heygen Plans Pricing
   plan_count: 1
   slug: heygen-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Heygen Rate Limits
@@ -189,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/screenshots/heygen-2026-06-20T182718.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -60,11 +60,35 @@ apis:
 - description: Manage webhook subscriptions for asynchronous event delivery.
   name: Persona Webhooks API
   slug: persona-webhooks-api
-artifact_total: 17
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Persona Accounts API
+  slug: open-persona-accounts-api
 - collection_type: open
   name: Persona Webhooks
   slug: open-persona-asyncapi
+- collection_type: open
+  name: Persona Accounts Inquiries API
+  slug: open-persona-inquiries-api
+- collection_type: open
+  name: Persona Accounts Lists API
+  slug: open-persona-lists-api
+- collection_type: open
+  name: Persona Accounts Reports API
+  slug: open-persona-reports-api
+- collection_type: open
+  name: Persona Accounts Transactions API
+  slug: open-persona-transactions-api
+- collection_type: open
+  name: Persona Accounts Verifications API
+  slug: open-persona-verifications-api
+- collection_type: open
+  name: Persona Accounts Webhooks API
+  slug: open-persona-webhooks-api
 - collection_type: open
   name: Persona API
   slug: open-persona
@@ -165,7 +189,7 @@ plans:
 - name: Persona Plans Pricing
   plan_count: 3
   slug: persona-plans-pricing
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Persona Rate Limits
@@ -190,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/screenshots/persona-2026-06-20T191619.png
 security:

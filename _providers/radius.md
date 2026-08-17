@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -120,8 +120,17 @@ apis:
 - description: The Volumes API from Radius — 2 operation(s) for volumes.
   name: Radius Volumes API
   slug: radius-volumes-api
-artifact_total: 39
+artifact_total: 67
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions API
+  slug: open-radius-apiversions-api
+- collection_type: open
+  name: .Core Management APIs ApiVersions Applications API
+  slug: open-radius-applications-api
 - collection_type: open
   name: Applications.Core Management APIs
   slug: open-radius-applications-core
@@ -135,8 +144,83 @@ collections:
   name: Applications.Messaging Resource Management APIs
   slug: open-radius-applications-messaging
 - collection_type: open
+  name: Applications.Core Management APIs ApiVersions AwsCredentials API
+  slug: open-radius-awscredentials-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions AwsPlanes API
+  slug: open-radius-awsplanes-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions AzureCredentials API
+  slug: open-radius-azurecredentials-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions AzurePlanes API
+  slug: open-radius-azureplanes-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions ConfigurationStores API
+  slug: open-radius-configurationstores-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions Containers API
+  slug: open-radius-containers-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions Environments API
+  slug: open-radius-environments-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions Extenders API
+  slug: open-radius-extenders-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions Gateways API
+  slug: open-radius-gateways-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions Locations API
+  slug: open-radius-locations-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions MongoDatabases API
+  slug: open-radius-mongodatabases-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions Operations API
+  slug: open-radius-operations-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions Planes API
+  slug: open-radius-planes-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions PubSubBrokers API
+  slug: open-radius-pubsubbrokers-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions RabbitMQQueues API
+  slug: open-radius-rabbitmqqueues-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions RadiusPlanes API
+  slug: open-radius-radiusplanes-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions RedisCaches API
+  slug: open-radius-rediscaches-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions ResourceGroups API
+  slug: open-radius-resourcegroups-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions ResourceProviders API
+  slug: open-radius-resourceproviders-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions Resources API
+  slug: open-radius-resources-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions ResourceTypes API
+  slug: open-radius-resourcetypes-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions SecretStores API
+  slug: open-radius-secretstores-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions SqlDatabases API
+  slug: open-radius-sqldatabases-api
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions StateStores API
+  slug: open-radius-statestores-api
+- collection_type: open
   name: Universal Control Plane Resource Management APIs
   slug: open-radius-ucp
+- collection_type: open
+  name: Applications.Core Management APIs ApiVersions Volumes API
+  slug: open-radius-volumes-api
 common:
 - group: commercial
   title: ''
@@ -194,7 +278,7 @@ plans:
 - name: Radius Plans Pricing
   plan_count: 3
   slug: radius-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Radius Rate Limits
@@ -224,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/screenshots/radius-2026-06-20T192521.png
 security:

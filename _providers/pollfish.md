@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Device register, offerwall, and survey rendering.
   name: Pollfish Survey Distribution API
   slug: pollfish-survey-distribution-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pollfish Apps API
+  slug: open-pollfish-apps-api
+- collection_type: open
+  name: Pollfish Apps Demographics API
+  slug: open-pollfish-demographics-api
+- collection_type: open
+  name: Pollfish Apps Logs API
+  slug: open-pollfish-logs-api
+- collection_type: open
+  name: Pollfish Apps Performance API
+  slug: open-pollfish-performance-api
+- collection_type: open
+  name: Pollfish Apps Revenue API
+  slug: open-pollfish-revenue-api
+- collection_type: open
+  name: Pollfish Apps Survey Distribution API
+  slug: open-pollfish-survey-distribution-api
 - collection_type: open
   name: Pollfish API
   slug: open-pollfish
@@ -131,7 +152,7 @@ plans:
 - name: Pollfish Plans Pricing
   plan_count: 4
   slug: pollfish-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: Pollfish Rate Limits
@@ -156,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

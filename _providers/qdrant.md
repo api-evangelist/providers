@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -66,11 +66,41 @@ apis:
 - description: Storage and collections snapshots.
   name: Qdrant Snapshots API
   slug: qdrant-snapshots-api
-artifact_total: 421
+artifact_total: 431
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qdrant Aliases API
+  slug: open-qdrant-aliases-api
+- collection_type: open
+  name: Qdrant Aliases Beta API
+  slug: open-qdrant-beta-api
+- collection_type: open
+  name: Qdrant Aliases Collections API
+  slug: open-qdrant-collections-api
+- collection_type: open
+  name: Qdrant Aliases Distributed API
+  slug: open-qdrant-distributed-api
+- collection_type: open
+  name: Qdrant Aliases Indexes API
+  slug: open-qdrant-indexes-api
 - collection_type: open
   name: Qdrant API
   slug: open-qdrant-openapi-original
+- collection_type: open
+  name: Qdrant Aliases Points API
+  slug: open-qdrant-points-api
+- collection_type: open
+  name: Qdrant Aliases Search API
+  slug: open-qdrant-search-api
+- collection_type: open
+  name: Qdrant Aliases Service API
+  slug: open-qdrant-service-api
+- collection_type: open
+  name: Qdrant Aliases Snapshots API
+  slug: open-qdrant-snapshots-api
 common:
 - group: agent
   title: ''
@@ -1327,7 +1357,7 @@ plans:
 - name: Qdrant Plans Pricing
   plan_count: 5
   slug: qdrant-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Qdrant Rate Limits
@@ -1361,7 +1391,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/screenshots/qdrant-2026-06-20T192338.png
 security:

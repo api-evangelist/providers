@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -58,7 +58,38 @@ apis:
 - description: The Users API from Vestaron — 6 operation(s) for users.
   name: Vestaron Users API
   slug: vestaron-users-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vestaron Content API (WordPress REST wp/v2) Comments API
+  slug: open-vestaron-comments-api
+- collection_type: open
+  name: Vestaron Content API (WordPress REST wp/v2) Discovery API
+  slug: open-vestaron-discovery-api
+- collection_type: open
+  name: Vestaron Content API (WordPress REST wp/v2) Media API
+  slug: open-vestaron-media-api
+- collection_type: open
+  name: Vestaron Content API (WordPress REST wp/v2) Pages API
+  slug: open-vestaron-pages-api
+- collection_type: open
+  name: Vestaron Content API (WordPress REST wp/v2) Posts API
+  slug: open-vestaron-posts-api
+- collection_type: open
+  name: Vestaron Content API (WordPress REST wp/v2) Search API
+  slug: open-vestaron-search-api
+- collection_type: open
+  name: Vestaron Content API (WordPress REST wp/v2) Settings API
+  slug: open-vestaron-settings-api
+- collection_type: open
+  name: Vestaron Content API (WordPress REST wp/v2) Taxonomy API
+  slug: open-vestaron-taxonomy-api
+- collection_type: open
+  name: Vestaron Content API (WordPress REST wp/v2) Users API
+  slug: open-vestaron-users-api
 common:
 - group: company
   title: ''
@@ -213,7 +244,7 @@ overview: 'Vestaron publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Vestaron''s developer surface includes product news, support, legal docs, YouTube channel, authentication, code examples, and 28 more developer resources.'
-random_paper: 42
+random_paper: 137
 scopes:
 - name: Vestaron Scopes
   scope_count: 1
@@ -248,7 +279,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

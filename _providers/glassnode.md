@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,8 +78,47 @@ apis:
 - description: The User API from Glassnode — 1 operation(s) for user.
   name: Glassnode User API
   slug: glassnode-user-api
-artifact_total: 20
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Glassnode Metrics Addresses API
+  slug: open-glassnode-addresses-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Derivatives API
+  slug: open-glassnode-derivatives-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Distribution API
+  slug: open-glassnode-distribution-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Indicators API
+  slug: open-glassnode-indicators-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Macro API
+  slug: open-glassnode-macro-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Market API
+  slug: open-glassnode-market-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Metadata API
+  slug: open-glassnode-metadata-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Options API
+  slug: open-glassnode-options-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Supply API
+  slug: open-glassnode-supply-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Transactions API
+  slug: open-glassnode-transactions-api
+- collection_type: open
+  name: Glassnode Metrics Addresses Treasuries API
+  slug: open-glassnode-treasuries-api
+- collection_type: open
+  name: Glassnode Metrics Addresses User API
+  slug: open-glassnode-user-api
 - collection_type: open
   name: Glassnode Metrics API
   slug: open-glassnode
@@ -156,7 +195,7 @@ plans:
 - name: Glassnode Plans Pricing
   plan_count: 4
   slug: glassnode-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Glassnode Rate Limits
@@ -181,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/screenshots/glassnode-2026-06-20T181914.png
 security:

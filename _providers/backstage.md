@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -78,18 +78,42 @@ apis:
 - description: The Token Verification API from Backstage — 1 operation(s) for token verification.
   name: Backstage Token Verification API
   slug: backstage-token-verification-api
-artifact_total: 95
+artifact_total: 108
 asyncapis:
 - description: The Backstage Events system provides a publish-subscribe mechanism for broadcasting and consuming events within a Backstage instance. It enables plugins to emit events when significant actions occur (
   name: Backstage Events System
   slug: backstage-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Backstage Auth Actions API
+  slug: open-backstage-actions-api
+- collection_type: open
   name: Backstage Auth API
   slug: open-backstage-auth
 - collection_type: open
+  name: Backstage Auth Actions Authentication API
+  slug: open-backstage-authentication-api
+- collection_type: open
+  name: Backstage Auth Actions Authorization API
+  slug: open-backstage-authorization-api
+- collection_type: open
   name: Backstage Catalog API
   slug: open-backstage-catalog
+- collection_type: open
+  name: Backstage Auth Actions Documentation API
+  slug: open-backstage-documentation-api
+- collection_type: open
+  name: Backstage Auth Actions Entities API
+  slug: open-backstage-entities-api
+- collection_type: open
+  name: Backstage Auth Actions Locations API
+  slug: open-backstage-locations-api
+- collection_type: open
+  name: Backstage Auth Actions Metadata API
+  slug: open-backstage-metadata-api
 - collection_type: open
   name: Backstage Permissions API
   slug: open-backstage-permissions
@@ -97,11 +121,26 @@ collections:
   name: Backstage Scaffolder API
   slug: open-backstage-scaffolder
 - collection_type: open
+  name: Backstage Auth Actions Search API
+  slug: open-backstage-search-api
+- collection_type: open
   name: Backstage Search API
   slug: open-backstage-search
 - collection_type: open
+  name: Backstage Auth Actions Sync API
+  slug: open-backstage-sync-api
+- collection_type: open
+  name: Backstage Auth Actions Tasks API
+  slug: open-backstage-tasks-api
+- collection_type: open
   name: Backstage TechDocs API
   slug: open-backstage-techdocs
+- collection_type: open
+  name: Backstage Auth Actions Templates API
+  slug: open-backstage-templates-api
+- collection_type: open
+  name: Backstage Auth Actions Token Verification API
+  slug: open-backstage-token-verification-api
 common:
 - group: agent
   title: ''
@@ -374,7 +413,7 @@ plans:
 - name: Backstage Plans Pricing
   plan_count: 4
   slug: backstage-plans-pricing
-random_paper: 93
+random_paper: 39
 rate_limits:
 - limit_count: 6
   name: Backstage Rate Limits
@@ -424,7 +463,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/screenshots/backstage-2026-06-20T172918.png
 security:

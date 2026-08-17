@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Agents API from Zoho Desk — 2 operation(s) for agents.
@@ -39,7 +39,20 @@ apis:
 - description: The Tickets API from Zoho Desk — 2 operation(s) for tickets.
   name: Zoho Desk Tickets API
   slug: zoho-desk-tickets-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zoho Desk Agents API
+  slug: open-zoho-desk-agents-api
+- collection_type: open
+  name: Zoho Desk Contacts API
+  slug: open-zoho-desk-contacts-api
+- collection_type: open
+  name: Zoho Desk Tickets API
+  slug: open-zoho-desk-tickets-api
 common:
 - group: auth
   title: ''
@@ -101,7 +114,7 @@ overview: 'Zoho Desk publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Zoho Desk''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 76
+random_paper: 22
 score:
   band: thin
   composite: 29.8
@@ -121,7 +134,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/screenshots/zoho-desk-2026-06-20T201938.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,11 +60,32 @@ apis:
 - description: Cloud subscription lifecycle management.
   name: Synnex Subscriptions API
   slug: synnex-subscriptions-api
-artifact_total: 22
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TD SYNNEX StreamOne ION Cart API
+  slug: open-synnex-cart-api
+- collection_type: open
+  name: TD SYNNEX StreamOne ION Cart Customers API
+  slug: open-synnex-customers-api
+- collection_type: open
+  name: TD SYNNEX StreamOne ION Cart Orders API
+  slug: open-synnex-orders-api
+- collection_type: open
+  name: TD SYNNEX StreamOne ION Cart Products API
+  slug: open-synnex-products-api
+- collection_type: open
+  name: TD SYNNEX StreamOne ION Cart Reports API
+  slug: open-synnex-reports-api
 - collection_type: open
   name: TD SYNNEX StreamOne ION API
   slug: open-synnex-streamone-ion
+- collection_type: open
+  name: TD SYNNEX StreamOne ION Cart Subscriptions API
+  slug: open-synnex-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -168,7 +189,7 @@ press:
 - date: '2026-05-25'
   title: TD SYNNEX Evolves AI Go-to-Market Strategy Through ...
   url: https://www.thecannatareport.com/td-synnex-ai-gtm/
-random_paper: 77
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Synnex Rate Limits
@@ -210,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/screenshots/synnex-2026-06-20T194829.png
 security:

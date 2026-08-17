@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -63,8 +63,35 @@ apis:
 - description: User registration, authentication, and session management.
   name: Backendless Users API
   slug: backendless-users-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Backendless REST Cache API
+  slug: open-backendless-cache-api
+- collection_type: open
+  name: Backendless REST Cache CloudCode API
+  slug: open-backendless-cloudcode-api
+- collection_type: open
+  name: Backendless REST Cache Counters API
+  slug: open-backendless-counters-api
+- collection_type: open
+  name: Backendless REST Cache Data API
+  slug: open-backendless-data-api
+- collection_type: open
+  name: Backendless REST Cache Files API
+  slug: open-backendless-files-api
+- collection_type: open
+  name: Backendless REST Cache Geo API
+  slug: open-backendless-geo-api
+- collection_type: open
+  name: Backendless REST Cache Messaging API
+  slug: open-backendless-messaging-api
+- collection_type: open
+  name: Backendless REST Cache Users API
+  slug: open-backendless-users-api
 - collection_type: open
   name: Backendless REST API
   slug: open-backendless
@@ -133,7 +160,7 @@ plans:
 - name: Backendless Plans Pricing
   plan_count: 4
   slug: backendless-plans-pricing
-random_paper: 71
+random_paper: 108
 rate_limits:
 - limit_count: 6
   name: Backendless Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/screenshots/backendless-2026-06-20T172920.png
 security:

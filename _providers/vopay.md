@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 0
@@ -97,11 +97,81 @@ apis:
 - description: VoPay's Virtual Accounts API — 6 documented operation(s) across 5 path(s) on VoPay's API-first embedded finance platform for Canadian and cross-border money movement.
   name: VoPay Virtual Accounts API
   slug: vopay-virtual-account-api-reference
-artifact_total: 29
+artifact_total: 52
 asyncapis:
 - description: VoPay webhook (event notification) surface. VoPay delivers 24 event types via HTTP POST to the URL configured with account/webhook-url or partner/webhook-url. Every payload carries a ValidationKey = s
   name: VoPay Webhooks
   slug: vopay-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: Accounts
+  slug: open-vopay-account-api-reference
+- collection_type: open
+  name: Account Onboarding
+  slug: open-vopay-account-onboarding
+- collection_type: open
+  name: Bill Pay
+  slug: open-vopay-bill-pay-references
+- collection_type: open
+  name: Blocked Accounts
+  slug: open-vopay-blocked-accounts-api-reference
+- collection_type: open
+  name: Branding
+  slug: open-vopay-branding-api-reference
+- collection_type: open
+  name: Client Accounts
+  slug: open-vopay-client-accounts
+- collection_type: open
+  name: Contact
+  slug: open-vopay-contact
+- collection_type: open
+  name: Convenience Fees
+  slug: open-vopay-convenience-fee-api-reference
+- collection_type: open
+  name: Dispute Management Endpoints
+  slug: open-vopay-dispute-management-api-reference
+- collection_type: open
+  name: eLinx
+  slug: open-vopay-elinx
+- collection_type: open
+  name: File Conversion
+  slug: open-vopay-file-conversion-api-reference
+- collection_type: open
+  name: Global Cash Management
+  slug: open-vopay-global-cash-management
+- collection_type: open
+  name: Integrations and Support
+  slug: open-vopay-integrations-and-support
+- collection_type: open
+  name: IQ11
+  slug: open-vopay-iq11
+- collection_type: open
+  name: Payments
+  slug: open-vopay-payment-api-reference
+- collection_type: open
+  name: Payment Methods
+  slug: open-vopay-payment-method-api-reference
+- collection_type: open
+  name: Payment Rails
+  slug: open-vopay-payment-rails-api-reference
+- collection_type: open
+  name: Ping
+  slug: open-vopay-ping
+- collection_type: open
+  name: Remittance API
+  slug: open-vopay-remittance-api-reference
+- collection_type: open
+  name: Scheduled Payments
+  slug: open-vopay-scheduled-payments-api-reference
+- collection_type: open
+  name: Transaction Management
+  slug: open-vopay-transaction-management
+- collection_type: open
+  name: verification
+  slug: open-vopay-verification
+- collection_type: open
+  name: Virtual Accounts
+  slug: open-vopay-virtual-account-api-reference
 common:
 - group: other
   title: ''
@@ -282,7 +352,7 @@ overview: 'VoPay publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   VoPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 33 more developer resources.'
-random_paper: 79
+random_paper: 112
 score:
   band: developing
   composite: 51.6
@@ -307,7 +377,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

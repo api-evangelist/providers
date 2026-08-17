@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,11 +51,27 @@ apis:
 - description: Webhook subscription configuration.
   name: Cogny Webhooks API
   slug: cogny-webhooks-api
-artifact_total: 10
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Cogny Webhooks
   slug: cogny-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cogny Reports API
+  slug: open-cogny-reports-api
+- collection_type: open
+  name: Cogny Reports Tickets API
+  slug: open-cogny-tickets-api
+- collection_type: open
+  name: Cogny Reports Warehouses API
+  slug: open-cogny-warehouses-api
+- collection_type: open
+  name: Cogny Reports Webhooks API
+  slug: open-cogny-webhooks-api
 common:
 - group: start
   title: ''
@@ -77,6 +93,10 @@ common:
   title: ''
   type: Blog
   url: https://cogny.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://cogny.com/contact
 - group: build
   title: ''
   type: GitHubOrganization
@@ -109,6 +129,10 @@ common:
   title: ''
   type: MCPServer
   url: mcp/cogny-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/cogny-tool-crosswalk.yml
 - group: build
   title: ''
   type: Packages
@@ -167,21 +191,49 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
+  type: AgentSkill
+  url: skills/cogny-published-skills.yml
+- group: agent
+  title: ''
   type: AgenticAccess
   url: agentic-access/cogny-agentic-access.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/cogny-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cogny-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cogny-rate-limits.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/cogny-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/cogny-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/cogny-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/cogny-trust-center.yml
 created: '2026-07-17'
-description: 'Cogny is a Stockholm-based AI marketing platform (Cogny AB) that runs marketing analytics and automation on autopilot for marketers and data teams. It connects ad accounts and data warehouses (Google BigQuery, Google Ads, Meta Ads, LinkedIn, GA4, Search Console, TikTok, X, Mailchimp and more) to any MCP-capable coding agent, exposing ~50 Model Context Protocol tools plus a REST API for AI-generated growth reports (with SSE streaming) and growth tickets. Cogny is deeply agent-native: a one-command install manifest (SKILL.md), an auth.md registration handshake that issues anonymous cogny_lite_* API keys with no browser bounce, an @cogny/cli, and machine-readable llms.txt and .well-known discovery surfaces.'
+description: 'Cogny is a Stockholm-based AI marketing platform (Cogny AB) that runs marketing analytics and automation on autopilot for marketers and data teams. It connects ad accounts and data warehouses (Google BigQuery, Google Ads, Meta Ads, LinkedIn, GA4, Search Console, TikTok, X, Mailchimp and more) to any MCP-capable coding agent, exposing ~50 Model Context Protocol tools plus a REST API for AI-generated growth reports (with SSE streaming) and growth tickets. Cogny is deeply agent-native: a one-command install manifest (SKILL.md), an auth.md registration handshake that issues anonymous cogny_lite_* API keys with no browser bounce, an @cogny/cli, a public library of 53 first-party Agent Skills, and machine-readable llms.txt and .well-known discovery surfaces.'
 image: https://app.cogny.com/logo512.png
 layout: provider
 mcp_servers:
 - description: ''
   name: cogny-mcp.yml
   slug: cogny-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Cogny
 nav: Providers
 network: true
@@ -191,24 +243,32 @@ overview: 'Cogny publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Cogny catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cogny''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 22 more developer resources.'
-random_paper: 64
+  Cogny''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Cogny Plans Pricing
+  plan_count: 3
+  slug: cogny-plans-pricing
+random_paper: 97
+rate_limits:
+- limit_count: 4
+  name: Cogny Rate Limits
+  slug: cogny-rate-limits
 scopes:
 - name: Cogny Scopes
   scope_count: 8
   slug: cogny-scopes
   summary_line: 8 scopes · authorizationCode
 score:
-  band: developing
-  composite: 54.6
-  delta: 0.0
+  band: exemplar
+  composite: 70.4
+  delta: 15.8
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 92.1
     contract_quality: 67.2
-    developer_ergonomics: 82.6
+    developer_ergonomics: 87.0
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 13.2
+    operational_transparency: 55.3
   previous_composite: 54.6
   provenance:
     agentic_access: derived
@@ -221,8 +281,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/screenshots/cogny-2026-07-25T210014.png
 security:
 - kind: authentication
@@ -233,6 +293,14 @@ security:
   name: Cogny Domain Security
   slug: cogny-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Cogny Vulnerability Disclosure
+  slug: cogny-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Cogny Trust Center
+  slug: cogny-trust-center
+  summary_line: trust center published
 slug: cogny
 tags:
 - Company

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'NATIX is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   NATIX''s developer surface includes documentation, engineering blog, support, signup flow, YouTube channel, and 11 more developer resources.'
-random_paper: 68
+random_paper: 101
 score:
   band: emerging
   composite: 16.3
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natix/refs/heads/main/screenshots/natix-2026-08-07T184656.png
 security:

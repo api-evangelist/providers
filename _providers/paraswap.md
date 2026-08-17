@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,7 +59,20 @@ apis:
 - description: Build parameters for a transaction
   name: ParaSwap transactions API
   slug: paraswap-transactions-api
-artifact_total: 19
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ParaSwap Market API v5 prices API
+  slug: open-paraswap-prices-api
+- collection_type: open
+  name: ParaSwap Market API v5 prices tokens API
+  slug: open-paraswap-tokens-api
+- collection_type: open
+  name: ParaSwap Market API v5 prices transactions API
+  slug: open-paraswap-transactions-api
 common:
 - group: agent
   title: ''
@@ -165,7 +178,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -199,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/screenshots/paraswap-2026-06-20T191402.png
 security:

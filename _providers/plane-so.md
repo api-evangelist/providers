@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The Work Items API from Plane — 2 operation(s) for work items.
   name: Plane Work Items API
   slug: plane-so-work-items-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Plane Cycle Work Items API
+  slug: open-plane-so-cycle-work-items-api
+- collection_type: open
+  name: Plane Cycle Work Items Cycles API
+  slug: open-plane-so-cycles-api
+- collection_type: open
+  name: Plane Cycle Work Items Labels API
+  slug: open-plane-so-labels-api
+- collection_type: open
+  name: Plane Cycle Work Items Members API
+  slug: open-plane-so-members-api
+- collection_type: open
+  name: Plane Cycle Work Items Module Work Items API
+  slug: open-plane-so-module-work-items-api
+- collection_type: open
+  name: Plane Cycle Work Items Modules API
+  slug: open-plane-so-modules-api
+- collection_type: open
+  name: Plane Cycle Work Items Projects API
+  slug: open-plane-so-projects-api
+- collection_type: open
+  name: Plane Cycle Work Items States API
+  slug: open-plane-so-states-api
+- collection_type: open
+  name: Plane Cycle Work Items Work Item Comments API
+  slug: open-plane-so-work-item-comments-api
+- collection_type: open
+  name: Plane Cycle Work Items Work Item Links API
+  slug: open-plane-so-work-item-links-api
+- collection_type: open
+  name: Plane Cycle Work Items API
+  slug: open-plane-so-work-items-api
 - collection_type: open
   name: Plane API
   slug: open-plane-so
@@ -146,7 +182,7 @@ plans:
 - name: Plane So Plans Pricing
   plan_count: 6
   slug: plane-so-plans-pricing
-random_paper: 79
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Plane So Rate Limits
@@ -171,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

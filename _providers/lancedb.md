@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -87,7 +87,35 @@ apis:
 - description: Operations that are related to a transaction
   name: LanceDB Transaction API
   slug: lancedb-transaction-api
-artifact_total: 36
+artifact_total: 45
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lance Namespace Specification Data API
+  slug: open-lancedb-data-api
+- collection_type: open
+  name: Lance Namespace Specification Data Index API
+  slug: open-lancedb-index-api
+- collection_type: open
+  name: Lance Namespace Specification Data MaterializedView API
+  slug: open-lancedb-materializedview-api
+- collection_type: open
+  name: Lance Namespace Specification Data Metadata API
+  slug: open-lancedb-metadata-api
+- collection_type: open
+  name: Lance Specification Data Namespace API
+  slug: open-lancedb-namespace-api
+- collection_type: open
+  name: Lance Namespace Specification Data Table API
+  slug: open-lancedb-table-api
+- collection_type: open
+  name: Lance Namespace Specification Data Tag API
+  slug: open-lancedb-tag-api
+- collection_type: open
+  name: Lance Namespace Specification Data Transaction API
+  slug: open-lancedb-transaction-api
 common:
 - group: operate
   title: ''
@@ -227,7 +255,7 @@ plans:
 - name: Lancedb Plans Pricing
   plan_count: 4
   slug: lancedb-plans-pricing
-random_paper: 113
+random_paper: 117
 rate_limits:
 - limit_count: 1
   name: Lancedb Rate Limits
@@ -274,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/screenshots/lancedb-2026-06-20T184404.png
 security:

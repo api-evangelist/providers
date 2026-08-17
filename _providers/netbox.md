@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 880
   human_in_the_loop: 1
@@ -81,8 +81,50 @@ apis:
 - description: The wireless API from NetBox — 6 operation(s) for wireless.
   name: NetBox wireless API
   slug: netbox-wireless-api
-artifact_total: 22
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NetBox REST authentication-check API
+  slug: open-netbox-authentication-check-api
+- collection_type: open
+  name: NetBox REST authentication-check circuits API
+  slug: open-netbox-circuits-api
+- collection_type: open
+  name: NetBox REST authentication-check core API
+  slug: open-netbox-core-api
+- collection_type: open
+  name: NetBox REST authentication-check dcim API
+  slug: open-netbox-dcim-api
+- collection_type: open
+  name: NetBox REST authentication-check extras API
+  slug: open-netbox-extras-api
+- collection_type: open
+  name: NetBox REST authentication-check ipam API
+  slug: open-netbox-ipam-api
+- collection_type: open
+  name: NetBox REST authentication-check schema API
+  slug: open-netbox-schema-api
+- collection_type: open
+  name: NetBox REST authentication-check status API
+  slug: open-netbox-status-api
+- collection_type: open
+  name: NetBox REST authentication-check tenancy API
+  slug: open-netbox-tenancy-api
+- collection_type: open
+  name: NetBox REST authentication-check users API
+  slug: open-netbox-users-api
+- collection_type: open
+  name: NetBox REST authentication-check virtualization API
+  slug: open-netbox-virtualization-api
+- collection_type: open
+  name: NetBox REST authentication-check vpn API
+  slug: open-netbox-vpn-api
+- collection_type: open
+  name: NetBox REST authentication-check wireless API
+  slug: open-netbox-wireless-api
 - collection_type: open
   name: NetBox REST API
   slug: open-netbox
@@ -151,7 +193,7 @@ plans:
 - name: Netbox Plans Pricing
   plan_count: 3
   slug: netbox-plans-pricing
-random_paper: 56
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Netbox Rate Limits
@@ -176,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/screenshots/netbox-2026-08-07T184926.png
 security:

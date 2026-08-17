@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -40,11 +40,36 @@ apis:
 - description: Swagger 2.0 resource contract generated from the OpenTravel 2.0 Object Model, 2018A Object Suite. Defines POST /Facilities, POST /HospitalityFindHospitalityAvailability and POST /HospitalityRetrieveFa
   name: OpenTravel 2018A Facility Resource
   slug: opentravel-2018a-facility-resource
-artifact_total: 27
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Opentravel Alliance Notifications Webhooks
   slug: opentravel-alliance-notifications-webhooks
+collections:
+- collection_type: open
+  name: FacilityResource
+  slug: open-opentravel-2018a-facility-resource-defs
+- collection_type: open
+  name: FacilityResource
+  slug: open-opentravel-2018a-facility-resource
+- collection_type: open
+  name: HospitalityOffersResource
+  slug: open-opentravel-2018a-hospitality-offers-resource-defs
+- collection_type: open
+  name: HospitalityOffersResource
+  slug: open-opentravel-2018a-hospitality-offers-resource
+- collection_type: open
+  name: FacilityResource
+  slug: open-opentravel-2020a-facility-resource-defs
+- collection_type: open
+  name: FacilityResource
+  slug: open-opentravel-2020a-facility-resource
+- collection_type: open
+  name: HotelDescriptiveContentResource
+  slug: open-opentravel-2020a-hotel-descriptive-content-resource-defs
+- collection_type: open
+  name: HotelDescriptiveContentResource
+  slug: open-opentravel-2020a-hotel-descriptive-content-resource
 common:
 - group: agent
   title: ''
@@ -327,7 +352,7 @@ overview: 'OpenTravel Alliance publishes 4 APIs on the [APIs.io](https://apis.io
 
 
   OpenTravel Alliance''s developer surface includes getting-started guide, support, authentication, changelog, CLI, code examples, API reference, and 45 more developer resources.'
-random_paper: 38
+random_paper: 21
 scopes:
 - name: Opentravel Alliance Scopes
   scope_count: 1
@@ -356,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/screenshots/opentravel-alliance-2026-08-07T190651.png
 security:

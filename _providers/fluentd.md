@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,12 +47,18 @@ apis:
 - description: Operations for posting log events and records to Fluentd via HTTP.
   name: Fluentd Events API
   slug: fluentd-events-api
-artifact_total: 14
+artifact_total: 16
 asyncapis:
 - description: The Fluentd Forward Protocol is a binary MessagePack-based protocol used to transport event streams between Fluentd nodes, Fluent Bit agents, and compatible forwarders over TCP or TLS. It supports mul
   name: Fluentd Forward Protocol
   slug: fluentd-forward-protocol-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fluentd HTTP Input Events API
+  slug: open-fluentd-events-api
 - collection_type: open
   name: Fluentd HTTP Input API
   slug: open-fluentd-http-input
@@ -173,7 +179,7 @@ plans:
 - name: Fluentd Plans Pricing
   plan_count: 3
   slug: fluentd-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Fluentd Rate Limits
@@ -215,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/screenshots/fluentd-2026-06-20T181334.png
 security:

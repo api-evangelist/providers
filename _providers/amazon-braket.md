@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Manage resource tags
   name: Amazon Braket Tags API
   slug: amazon-braket-tags-api
-artifact_total: 18
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Braket Devices API
+  slug: open-amazon-braket-devices-api
+- collection_type: open
+  name: Amazon Braket Devices Jobs API
+  slug: open-amazon-braket-jobs-api
+- collection_type: open
+  name: Amazon Braket Devices Quantum Tasks API
+  slug: open-amazon-braket-quantum-tasks-api
+- collection_type: open
+  name: Amazon Braket Devices Spending Limits API
+  slug: open-amazon-braket-spending-limits-api
+- collection_type: open
+  name: Amazon Braket Devices Tags API
+  slug: open-amazon-braket-tags-api
 common:
 - group: agent
   title: ''
@@ -197,7 +216,7 @@ overview: 'Amazon Braket publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amazon Braket''s developer surface includes authentication, developer portal, documentation, pricing, FAQ, getting-started guide, engineering blog, and 18 more developer resources.'
-random_paper: 4
+random_paper: 132
 rules:
 - name: Amazon Braket API Rules
   rule_count: 5
@@ -229,7 +248,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/screenshots/amazon-braket-2026-07-25T195944.png
 security:

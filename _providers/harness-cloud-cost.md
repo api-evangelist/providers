@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: AI-driven recommendations for cloud cost optimization.
   name: Harness Cloud Cost Management Recommendations API
   slug: harness-cloud-cost-recommendations-api
-artifact_total: 16
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harness Cloud Cost Management Anomalies API
+  slug: open-harness-cloud-cost-anomalies-api
+- collection_type: open
+  name: Harness Cloud Cost Management Anomalies Budgets API
+  slug: open-harness-cloud-cost-budgets-api
+- collection_type: open
+  name: Harness Cloud Cost Management Anomalies Connectors API
+  slug: open-harness-cloud-cost-connectors-api
+- collection_type: open
+  name: Harness Cloud Cost Management Anomalies Cost Categories API
+  slug: open-harness-cloud-cost-cost-categories-api
+- collection_type: open
+  name: Harness Cloud Cost Management Anomalies Perspectives API
+  slug: open-harness-cloud-cost-perspectives-api
+- collection_type: open
+  name: Harness Cloud Cost Management Anomalies Recommendations API
+  slug: open-harness-cloud-cost-recommendations-api
 - collection_type: open
   name: Harness Cloud Cost Management API
   slug: open-harness-cloud-cost
@@ -138,7 +159,7 @@ plans:
 - name: Harness Cloud Cost Plans Pricing
   plan_count: 3
   slug: harness-cloud-cost-plans-pricing
-random_paper: 22
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Harness Cloud Cost Rate Limits
@@ -172,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/screenshots/harness-cloud-cost-2026-06-20T182521.png
 security:

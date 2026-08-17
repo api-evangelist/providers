@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The Comments API from Life Biosciences — 1 operation(s) for comments.
@@ -55,7 +55,35 @@ apis:
 - description: The Taxonomies API from Life Biosciences — 4 operation(s) for taxonomies.
   name: Life Biosciences Taxonomies API
   slug: life-biosciences-taxonomies-api
-artifact_total: 11
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Life Biosciences WordPress Content Comments API
+  slug: open-life-biosciences-comments-api
+- collection_type: open
+  name: Life Biosciences WordPress Content Discovery API
+  slug: open-life-biosciences-discovery-api
+- collection_type: open
+  name: Life Biosciences WordPress Content Media API
+  slug: open-life-biosciences-media-api
+- collection_type: open
+  name: Life Biosciences WordPress Content O Embed API
+  slug: open-life-biosciences-oembed-api
+- collection_type: open
+  name: Life Biosciences WordPress Content Pages API
+  slug: open-life-biosciences-pages-api
+- collection_type: open
+  name: Life Biosciences WordPress Content Posts API
+  slug: open-life-biosciences-posts-api
+- collection_type: open
+  name: Life Biosciences WordPress Content Search API
+  slug: open-life-biosciences-search-api
+- collection_type: open
+  name: Life Biosciences WordPress Content Taxonomies API
+  slug: open-life-biosciences-taxonomies-api
 common:
 - group: company
   title: ''
@@ -190,7 +218,7 @@ overview: 'Life Biosciences publishes 8 APIs on the [APIs.io](https://apis.io/) 
 
 
   Life Biosciences'' developer surface includes engineering blog, authentication, code examples, and 26 more developer resources.'
-random_paper: 60
+random_paper: 130
 score:
   band: thin
   composite: 31.5
@@ -219,7 +247,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/screenshots/life-biosciences-2026-08-07T171618.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -71,18 +71,27 @@ apis:
 - description: Read-only transaction state.
   name: Nuvei Status API
   slug: nuvei-status-api
-artifact_total: 37
+artifact_total: 43
 asyncapis:
 - description: Asynchronous webhook notifications delivered from Nuvei to a merchant-configured notificationUrl when payments, payouts, refunds, voids, settles, or Control Panel events reach their final state. Payme
   name: Nuvei Direct Merchant Notifications (DMN)
   slug: nuvei-dmn-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Nuvei 3DS API
   slug: open-nuvei-3ds-api
 - collection_type: open
-  name: Nuvei DCC API
+  name: Nuvei 3DS DCC API
   slug: open-nuvei-dcc-api
+- collection_type: open
+  name: Nuvei 3DS Financial Operations API
+  slug: open-nuvei-financial-operations-api
+- collection_type: open
+  name: Nuvei 3DS Merchant API
+  slug: open-nuvei-merchant-api
 - collection_type: open
   name: Nuvei Merchant Configuration API
   slug: open-nuvei-merchant-config-api
@@ -90,16 +99,25 @@ collections:
   name: Nuvei Order API
   slug: open-nuvei-order-api
 - collection_type: open
-  name: Nuvei Payments API
+  name: Nuvei 3DS Orders API
+  slug: open-nuvei-orders-api
+- collection_type: open
+  name: Nuvei 3DS Payments API
   slug: open-nuvei-payments-api
 - collection_type: open
-  name: Nuvei Payouts API
+  name: Nuvei 3DS Payouts API
   slug: open-nuvei-payouts-api
 - collection_type: open
   name: Nuvei Session API
   slug: open-nuvei-session-api
 - collection_type: open
-  name: Nuvei User Payment Options API
+  name: Nuvei 3DS Sessions API
+  slug: open-nuvei-sessions-api
+- collection_type: open
+  name: Nuvei 3DS Status API
+  slug: open-nuvei-status-api
+- collection_type: open
+  name: Nuvei 3DS User Payment Options API
   slug: open-nuvei-user-payment-options-api
 common:
 - group: agent
@@ -255,7 +273,7 @@ plans:
 - name: Nuvei Plans Pricing
   plan_count: 1
   slug: nuvei-plans-pricing
-random_paper: 71
+random_paper: 104
 rate_limits:
 - limit_count: 0
   name: Nuvei Rate Limits
@@ -311,7 +329,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -72,14 +72,47 @@ apis:
 - description: Manage timeline tracks within a project
   name: Camtasia Tracks API
   slug: camtasia-tracks-api
-artifact_total: 24
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Camtasia Asset Library API
   slug: open-camtasia-asset-library
 - collection_type: open
+  name: Camtasia Asset Library Assets API
+  slug: open-camtasia-assets-api
+- collection_type: open
+  name: Camtasia Asset Library Assets Categories API
+  slug: open-camtasia-categories-api
+- collection_type: open
+  name: Camtasia Asset Library Assets Downloads API
+  slug: open-camtasia-downloads-api
+- collection_type: open
+  name: Camtasia Asset Library Assets Libraries API
+  slug: open-camtasia-libraries-api
+- collection_type: open
+  name: Camtasia Asset Library Assets Media API
+  slug: open-camtasia-media-api
+- collection_type: open
+  name: Camtasia Asset Library Assets Productions API
+  slug: open-camtasia-productions-api
+- collection_type: open
   name: Camtasia Project Management API
   slug: open-camtasia-project-management
+- collection_type: open
+  name: Camtasia Asset Library Assets Projects API
+  slug: open-camtasia-projects-api
+- collection_type: open
+  name: Camtasia Asset Library Assets Recordings API
+  slug: open-camtasia-recordings-api
+- collection_type: open
+  name: Camtasia Asset Library Assets Templates API
+  slug: open-camtasia-templates-api
+- collection_type: open
+  name: Camtasia Asset Library Assets Tracks API
+  slug: open-camtasia-tracks-api
 common:
 - group: operate
   title: ''
@@ -176,7 +209,7 @@ plans:
 - name: Camtasia Plans Pricing
   plan_count: 3
   slug: camtasia-plans-pricing
-random_paper: 115
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Camtasia Rate Limits
@@ -210,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/screenshots/camtasia-2026-06-20T173915.png
 security:

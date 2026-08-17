@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-12'
+  score: 53.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,7 +37,7 @@ agentic_access:
   operation_count: 5
   slug: yoast-agentic-access
   summary_line: 5 operations
-api_count: 6
+api_count: 9
 apis:
 - description: The Yoast Surfaces API provides a PHP interface for retrieving SEO metadata programmatically within WordPress. It exposes the YoastSEO() surface with methods to get metadata for the current page, a sp
   name: Yoast Surfaces API
@@ -56,11 +57,32 @@ apis:
 - description: Retrieve SEO metadata for any URL
   name: Yoast SEO Head API
   slug: yoast-seo-head-api
-artifact_total: 20
+- description: Yoast SEO registers its content-analysis results as WordPress Abilities (the Abilities API introduced in WordPress 6.9), making them discoverable and executable over the WordPress REST API by AI agent
+  name: Yoast SEO Abilities API
+  slug: yoast-abilities-api
+- description: The Yoast Schema Aggregator exposes a site's aggregated Schema.org structured data over the WordPress REST API as paginated JSON-L, plus an XML schemamap listing every available schema endpoint on the
+  name: Yoast Schema Aggregator API
+  slug: yoast-schema-aggregator-api
+- description: The MyYoast Provisioning API (also called the Subscription API) is the one API Yoast hosts itself. It lets an approved Yoast provisioning partner create, read, renew, cancel, refund and site-link Yoas
+  name: MyYoast Provisioning API
+  slug: myyoast-provisioning-api
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yoast REST Pages API
+  slug: open-yoast-pages-api
+- collection_type: open
+  name: Yoast REST Pages Posts API
+  slug: open-yoast-posts-api
 - collection_type: open
   name: Yoast REST API
   slug: open-yoast-rest
+- collection_type: open
+  name: Yoast REST Pages SEO Head API
+  slug: open-yoast-seo-head-api
 common:
 - group: agent
   title: ''
@@ -118,8 +140,173 @@ common:
   title: ''
   type: LlmsText
   url: https://yoast.com/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/yoast-llms.txt
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.yoast.com/customization/apis/overview/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.yoast.com/customization/apis/using-apis-classes/
+- group: operate
+  title: ''
+  type: Support
+  url: https://yoast.com/help/
+- group: start
+  title: ''
+  type: Signup
+  url: https://my.yoast.com/login
+- group: start
+  title: ''
+  type: Login
+  url: https://my.yoast.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://yoast.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://yoast.com/privacy-policy/
+- group: auth
+  title: ''
+  type: Security
+  url: https://yoast.com/security-program/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.yoast.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://github.com/Yoast/wordpress-seo/blob/trunk/DEPRECATING.md
+- group: operate
+  title: ''
+  type: DeprecationPolicy
+  url: https://github.com/Yoast/wordpress-seo/blob/trunk/DEPRECATING.md
+- group: design
+  title: ''
+  type: Versioning
+  url: https://developer.yoast.com/development/standards/version-control-conventions/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/yoast-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/yoast-security.txt
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: well-known/yoast-openid-configuration.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/yoast-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/yoast-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/yoast-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/yoast-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/yoast-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/yoast-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/yoast-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/yoast-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/yoast-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/yoast-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/yoast-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/yoast-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: MCP
+  url: mcp/yoast-mcp.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/yoast-mcp.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/yoast-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/yoast-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/yoast-finops.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/yoast-rules.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/yoast-seo-metadata-schema.json
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/yoast-seo-metadata-structure.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/yoast-context.jsonld
+- group: build
+  title: ''
+  type: Examples
+  url: examples/yoast-rest-get-seo-head-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/yoast-rest-get-post-seo-example.json
 created: '2025-01-14'
-description: Yoast is the maker of the world's most popular WordPress SEO plugin, active on over 13 million sites. Yoast provides developer APIs for integrating SEO metadata, structured data (Schema.org), meta tags, sitemaps, and SEO analysis into headless WordPress sites and third-party platforms. Key products include Yoast SEO Free, Yoast SEO Premium, WooCommerce SEO, Local SEO, Video SEO, and News SEO.
+description: 'Yoast is the maker of the world''s most popular WordPress SEO plugin, active on over 13 million sites, and is part of Newfold Digital. Yoast provides developer APIs for integrating SEO metadata, structured data (Schema.org), meta tags, sitemaps, and SEO analysis into headless WordPress sites and third-party platforms. Most of that surface ships as plugin code and runs on the customer''s own WordPress install: the Yoast REST API (/wp-json/yoast/v1/get_head plus yoast_head_json on WP posts and pages), the Schema Aggregator API that emits a site''s whole Schema.org graph as JSON-L, the Surfaces, Metadata and Schema PHP APIs, and — since Yoast SEO 27.5 — three read-only WordPress Abilities that hand SEO, readability and inclusive-language scores to AI agents. Yoast additionally operates one hosted API of its own, the MyYoast Provisioning (Subscription) API at my.yoast.com, a partner-gated Basic Auth surface for resellers, backed by an OpenID Connect issuer with dynamic client registration,
+  PKCE and DPoP. Key products include Yoast SEO Free, Yoast SEO Premium, Yoast SEO for Shopify, WooCommerce SEO, Local SEO, Video SEO, and News SEO.'
 examples:
 - key_count: 2
   name: Yoast Rest Get Post Seo Example
@@ -146,24 +333,28 @@ jsonld:
   property_count: 26
   slug: yoast-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: yoast-mcp.yml
+  slug: yoast-mcpyml
+modified: '2026-08-13'
 name: Yoast
 nav: Providers
 network: true
-overview: 'Yoast publishes 3 APIs on the [APIs.io](https://apis.io/) network: Pages API, Posts API, and SEO Head API. Tagged areas include SEO, WordPress, Content Optimization, Schema, and Metadata.
+overview: 'Yoast publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Posts API, SEO Head API, and 3 more. Tagged areas include SEO, WordPress, Content Optimization, Schema, and Metadata.
 
 
   The Yoast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yoast''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Yoast''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, signup flow, and 48 more developer resources.'
 plans:
 - name: Yoast Plans Pricing
   plan_count: 2
   slug: yoast-plans-pricing
-random_paper: 80
+random_paper: 113
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Yoast Rate Limits
   slug: yoast-rate-limits
 rules:
@@ -183,17 +374,22 @@ rules:
     info: 0
     warn: 6
   slug: yoast-rules
+scopes:
+- name: Yoast Scopes
+  scope_count: 0
+  slug: yoast-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 41.5
-  delta: 0.0
+  band: exemplar
+  composite: 69.9
+  delta: 28.4
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 60.4
-    developer_ergonomics: 19.6
-    discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 10.5
+    commercial_clarity: 57.9
+    contract_quality: 60.2
+    developer_ergonomics: 80.4
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 55.3
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -203,10 +399,14 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/screenshots/yoast-2026-06-20T201746.png
 security:
+- kind: authentication
+  name: Yoast Authentication
+  slug: yoast-authentication
+  summary_line: http/openIdConnect/none · 3 schemes
 - kind: domain-security
   name: Yoast Domain Security
   slug: yoast-domain-security
@@ -214,7 +414,7 @@ security:
 - kind: vulnerability-disclosure
   name: Yoast Vulnerability Disclosure
   slug: yoast-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
 slug: yoast
 tags:
 - SEO
@@ -222,5 +422,10 @@ tags:
 - Content Optimization
 - Schema
 - Metadata
+- Structured Data
+- Headless CMS
+- Content Analysis
+- Agent Readiness
+- Plugins
 website: https://yoast.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Tools API from Langbase — 2 operation(s) for tools.
   name: Langbase Tools API
   slug: langbase-tools-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Langbase Agent API
+  slug: open-langbase-agent-api
+- collection_type: open
+  name: Langbase Agent Chunker API
+  slug: open-langbase-chunker-api
+- collection_type: open
+  name: Langbase Agent Embed API
+  slug: open-langbase-embed-api
+- collection_type: open
+  name: Langbase Agent Memory API
+  slug: open-langbase-memory-api
+- collection_type: open
+  name: Langbase Agent Parser API
+  slug: open-langbase-parser-api
+- collection_type: open
+  name: Langbase Agent Pipes API
+  slug: open-langbase-pipes-api
+- collection_type: open
+  name: Langbase Agent Threads API
+  slug: open-langbase-threads-api
+- collection_type: open
+  name: Langbase Agent Tools API
+  slug: open-langbase-tools-api
 - collection_type: open
   name: Langbase API
   slug: open-langbase
@@ -137,7 +164,7 @@ plans:
 - name: Langbase Plans Pricing
   plan_count: 4
   slug: langbase-plans-pricing
-random_paper: 109
+random_paper: 84
 rate_limits:
 - limit_count: 6
   name: Langbase Rate Limits
@@ -162,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/screenshots/langbase-2026-07-25T224526.png
 security:

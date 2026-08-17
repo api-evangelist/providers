@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: Retrieve user session information
   name: Snipcart UserSessions API
   slug: snipcart-usersessions-api
-artifact_total: 16
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Snipcart REST AbandonedCarts API
+  slug: open-snipcart-abandonedcarts-api
+- collection_type: open
+  name: Snipcart REST AbandonedCarts Customers API
+  slug: open-snipcart-customers-api
+- collection_type: open
+  name: Snipcart REST AbandonedCarts Discounts API
+  slug: open-snipcart-discounts-api
+- collection_type: open
+  name: Snipcart REST AbandonedCarts Domains API
+  slug: open-snipcart-domains-api
+- collection_type: open
+  name: Snipcart REST AbandonedCarts Notifications API
+  slug: open-snipcart-notifications-api
+- collection_type: open
+  name: Snipcart REST AbandonedCarts Orders API
+  slug: open-snipcart-orders-api
+- collection_type: open
+  name: Snipcart REST AbandonedCarts Products API
+  slug: open-snipcart-products-api
+- collection_type: open
+  name: Snipcart REST AbandonedCarts Refunds API
+  slug: open-snipcart-refunds-api
+- collection_type: open
+  name: Snipcart REST AbandonedCarts UserSessions API
+  slug: open-snipcart-usersessions-api
 common:
 - group: agent
   title: ''
@@ -172,7 +203,7 @@ plans:
 - name: Snipcart Plans Pricing
   plan_count: 3
   slug: snipcart-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 2
   name: Snipcart Rate Limits
@@ -203,7 +234,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/screenshots/snipcart-2026-06-20T194105.png
 security:

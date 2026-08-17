@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: Create, retrieve, and update products. Products are created in draft status and synced to Shopify when activated.
   name: Maison Safqa Holdings Limited Products API
   slug: maison-safqa-holdings-limited-products-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Maison Safqa Brand Developer Inventory API
+  slug: open-maison-safqa-holdings-limited-inventory-api
+- collection_type: open
+  name: Maison Safqa Brand Developer Inventory Products API
+  slug: open-maison-safqa-holdings-limited-products-api
 common:
 - group: other
   title: ''
@@ -142,7 +152,7 @@ overview: 'Maison Safqa Holdings Limited publishes 2 APIs on the [APIs.io](https
 
 
   Maison Safqa Holdings Limited''s developer surface includes documentation, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 26
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Maison Safqa Holdings Limited Rate Limits
@@ -170,7 +180,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png
 security:

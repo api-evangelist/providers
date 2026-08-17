@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Dataloop (Dell Data Orchestration Engine) platform REST API. Every part of the platform — projects, datasets, items, annotations, recipes and ontologies, tasks and assignments, packages, services,
@@ -178,7 +178,7 @@ overview: 'DataLoop publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   DataLoop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
-random_paper: 12
+random_paper: 107
 score:
   band: strong
   composite: 56.1
@@ -195,7 +195,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/screenshots/dataloop-2026-08-07T164125.png
 security:

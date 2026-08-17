@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: The Configuration API from Lit Protocol — 4 operation(s) for configuration.
   name: Lit Protocol Configuration API
   slug: lit-protocol-configuration-api
-artifact_total: 53
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: lit-api-server Account Management API
+  slug: open-lit-protocol-account-management-api
+- collection_type: open
+  name: lit-api-server Account Management Actions API
+  slug: open-lit-protocol-actions-api
+- collection_type: open
+  name: lit-api-server Account Management Billing API
+  slug: open-lit-protocol-billing-api
+- collection_type: open
+  name: lit-api-server Account Management Configuration API
+  slug: open-lit-protocol-configuration-api
 - collection_type: open
   name: lit-api-server
   slug: open-lit-protocol-core-v1
@@ -247,7 +262,7 @@ plans:
 - name: Lit Protocol Plans Pricing
   plan_count: 2
   slug: lit-protocol-plans-pricing
-random_paper: 56
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Lit Protocol Rate Limits
@@ -281,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/screenshots/lit-protocol-2026-06-20T184559.png
 security:

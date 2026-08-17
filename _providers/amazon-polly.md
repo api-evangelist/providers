@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ arazzos:
 - description: Start an async speech synthesis task, then poll it until it completes.
   name: Amazon Polly Start Synthesis Task and Poll to Completion
   slug: amazon-polly-start-synthesis-task-poll-workflow
-artifact_total: 115
+artifact_total: 121
 collections:
 - collection_type: postman
   name: Amazon Polly Lexicons API
@@ -105,6 +105,24 @@ collections:
 - collection_type: postman
   name: Amazon Polly API
   slug: postman-amazon-polly
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Polly Lexicons API
+  slug: open-amazon-polly-lexicons-api
+- collection_type: open
+  name: Amazon Polly Lexicons Speech API
+  slug: open-amazon-polly-speech-api
+- collection_type: open
+  name: Amazon Polly Lexicons Speech Synthesis API
+  slug: open-amazon-polly-speech-synthesis-api
+- collection_type: open
+  name: Amazon Polly Lexicons SynthesisTasks API
+  slug: open-amazon-polly-synthesistasks-api
+- collection_type: open
+  name: Amazon Polly Lexicons Voices API
+  slug: open-amazon-polly-voices-api
 - collection_type: open
   name: Amazon Polly API
   slug: open-amazon-polly
@@ -752,7 +770,7 @@ plans:
 - name: Amazon Polly Plans Pricing
   plan_count: 3
   slug: amazon-polly-plans-pricing
-random_paper: 51
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Amazon Polly Rate Limits
@@ -794,7 +812,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/screenshots/amazon-polly-2026-06-20T171758.png
 security:

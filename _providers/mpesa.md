@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 4
@@ -72,7 +72,7 @@ apis:
 - description: The Transaction Status API from M-Pesa (Safaricom Daraja) — 1 operation(s) for transaction status.
   name: M-Pesa (Safaricom Daraja) Transaction Status API
   slug: mpesa-transaction-status-api
-artifact_total: 32
+artifact_total: 44
 asyncapis:
 - description: The asynchronous callback (webhook) surface of the M-Pesa Daraja API. Daraja delivers the real outcome of collections and funds-movement operations by POSTing JSON to caller-hosted HTTPS endpoints. Th
   name: M-Pesa Daraja Callbacks
@@ -111,6 +111,42 @@ collections:
 - collection_type: postman
   name: M-Pesa Daraja Account Balance Transaction Status API
   slug: postman-mpesa-transaction-status-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: M-Pesa Daraja Account Balance API
+  slug: open-mpesa-account-balance-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance Authorization API
+  slug: open-mpesa-authorization-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance B2B API
+  slug: open-mpesa-b2b-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance B2C API
+  slug: open-mpesa-b2c-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance C2B API
+  slug: open-mpesa-c2b-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance Dynamic QR API
+  slug: open-mpesa-dynamic-qr-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance M-Pesa Express API
+  slug: open-mpesa-m-pesa-express-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance Reversal API
+  slug: open-mpesa-reversal-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance Standing Order API
+  slug: open-mpesa-standing-order-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance Tax Remittance API
+  slug: open-mpesa-tax-remittance-api
+- collection_type: open
+  name: M-Pesa Daraja Account Balance Transaction Status API
+  slug: open-mpesa-transaction-status-api
 common:
 - group: build
   title: ''
@@ -287,7 +323,7 @@ plans:
 - name: Mpesa Plans Pricing
   plan_count: 3
   slug: mpesa-plans-pricing
-random_paper: 54
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Mpesa Rate Limits
@@ -321,7 +357,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/screenshots/mpesa-2026-08-07T184414.png
 security:

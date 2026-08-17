@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Create, retrieve, and list withdrawals (payouts) to a Pix key.
   name: AbacatePay Withdraw API
   slug: abacatepay-withdraw-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AbacatePay Billing API
+  slug: open-abacatepay-billing-api
+- collection_type: open
+  name: AbacatePay Billing Coupon API
+  slug: open-abacatepay-coupon-api
+- collection_type: open
+  name: AbacatePay Billing Customer API
+  slug: open-abacatepay-customer-api
+- collection_type: open
+  name: AbacatePay Billing Pix QR Code API
+  slug: open-abacatepay-pix-qr-code-api
+- collection_type: open
+  name: AbacatePay Billing Withdraw API
+  slug: open-abacatepay-withdraw-api
 - collection_type: open
   name: AbacatePay API
   slug: open-abacatepay
@@ -123,7 +141,7 @@ plans:
 - name: Abacatepay Plans Pricing
   plan_count: 2
   slug: abacatepay-plans-pricing
-random_paper: 75
+random_paper: 141
 rate_limits:
 - limit_count: 2
   name: Abacatepay Rate Limits
@@ -154,7 +172,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/screenshots/abacatepay-2026-07-25T181328.png
 security:

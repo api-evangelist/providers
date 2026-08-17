@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Create and retrieve shipment notifications (EDI 856) containing containerized data, tracking numbers, and fulfillment details for shipped order items.
   name: Toys R Us Shipments API
   slug: toys-r-us-shipments-api
-artifact_total: 19
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toys R Us Commerce Acknowledgements API
+  slug: open-toys-r-us-acknowledgements-api
 - collection_type: open
   name: Toys R Us Commerce API
   slug: open-toys-r-us-commerce
+- collection_type: open
+  name: Toys R Us Commerce Acknowledgements Invoices API
+  slug: open-toys-r-us-invoices-api
+- collection_type: open
+  name: Toys R Us Commerce Acknowledgements Orders API
+  slug: open-toys-r-us-orders-api
+- collection_type: open
+  name: Toys R Us Commerce Acknowledgements Products API
+  slug: open-toys-r-us-products-api
+- collection_type: open
+  name: Toys R Us Commerce Acknowledgements Shipments API
+  slug: open-toys-r-us-shipments-api
 common:
 - group: agent
   title: ''
@@ -155,7 +173,7 @@ press:
 - date: '2026-05-25'
   title: Toys 'R' Us calls AI-made video successful despite criticism
   url: https://www.nbcnews.com/tech/internet/toys-r-us-ai-video-ad-controversy-explained-commercial-rcna159030
-random_paper: 59
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Toys R Us Rate Limits
@@ -197,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/screenshots/toys-r-us-2026-06-20T195516.png
 security:

@@ -1,34 +1,36 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Contact sales
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
-  - authentication
+  - plans/permutive-plans-pricing.yml
+  - https://permutive.com/request-a-demo
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-12'
+  score: 66.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -36,56 +38,85 @@ agentic_access:
   operation_count: 23
   slug: permutive-agentic-access
   summary_line: 23 operations · 15 acting
-api_count: 6
+api_count: 7
 apis:
-- description: Create, read, update and delete audience cohorts.
+- description: Programmatic create, read, update and delete of audience cohorts in a Permutive workspace. Cohort behaviour is defined by a JSON query language; cohorts carry a UUID id, a short workspace-scoped integ
   name: Permutive Cohorts API
   slug: permutive-cohorts-api
-- description: Retrieve contextual cohort targeting values for ad-server integration.
+- description: Retrieve contextual cohort targeting values for a page URL without processing any user data, for ad-server integration. Returns cohort codes, per-destination activation mappings and content classifica
   name: Permutive Contextual API
   slug: permutive-contextual-api
-- description: Track first-party behavioural events into Permutive.
+- description: Track first-party behavioural events into Permutive for downstream segmentation, insights and data-lake routing. Events are validated against the event schema defined in the workspace; Permutive gener
   name: Permutive Events API
   slug: permutive-events-api
-- description: Create user IDs and associate identities with a Permutive user.
+- description: Mint a first-party Permutive user ID, associate external identities with it (email hashes, ID5, LiveRamp RampID, UID2) as prioritised aliases, and read the resolved identity set back. Publisher-scoped
   name: Permutive Identity API
   slug: permutive-identity-api
-- description: Cohort-based Segmentation (CCS) — evaluate a user's events into cohorts.
+- description: Custom Cohort Segmentation (CCS) — evaluate a batch of up to ten events for a user against the workspace's cohort definitions and return the cohorts they belong to plus per-destination activation valu
   name: Permutive Segmentation API
   slug: permutive-segmentation-api
-- description: Manage second-party data imports and their segment taxonomy.
+- description: Manage second- and third-party data imports and the segment taxonomy inside them — the mapping of partner segment codes to names, descriptions, categories and CPM. Supports single-segment addressing b
   name: Permutive Taxonomy API
   slug: permutive-taxonomy-api
-artifact_total: 11
+- description: Permutive's Model Context Protocol surface. A live, anonymous documentation MCP server at https://docs.permutive.com/mcp (search, virtual-filesystem query, feedback), plus an invitation-only audience-
+  name: Permutive MCP Server
+  slug: permutive-mcp
+artifact_total: 23
+asyncapis:
+- description: ''
+  name: Permutive Webhooks
+  slug: permutive-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cohorts API
+  slug: open-permutive-cohorts-api
+- collection_type: open
+  name: Permutive Cohorts Contextual API
+  slug: open-permutive-contextual-api
+- collection_type: open
+  name: Events API
+  slug: open-permutive-events-api
+- collection_type: open
+  name: Identity API
+  slug: open-permutive-identity-api
+- collection_type: open
+  name: Custom Cohort Segmentation API
+  slug: open-permutive-segmentation-api
+- collection_type: open
+  name: Taxonomy API
+  slug: open-permutive-taxonomy-api
 common:
-- group: other
+- group: company
   title: ''
-  type: Overlay
-  url: overlays/permutive-openapi-overlay.yaml
+  type: Website
+  url: https://permutive.com/
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://developer.permutive.com/
+  url: https://docs.permutive.com/
 - group: docs
   title: ''
   type: Documentation
-  url: https://developer.permutive.com/
+  url: https://docs.permutive.com/
 - group: docs
   title: ''
   type: APIReference
-  url: https://developer.permutive.com/api/introduction
+  url: https://docs.permutive.com/api/introduction
 - group: start
   title: ''
   type: GettingStarted
-  url: https://developer.permutive.com/introduction
-- group: auth
+  url: https://docs.permutive.com/introduction
+- group: start
   title: ''
-  type: Authentication
-  url: authentication/permutive-authentication.yml
+  type: Quickstart
+  url: https://docs.permutive.com/implementation-overview
 - group: company
   title: ''
   type: Blog
-  url: https://permutive.com/resources?category=blog
+  url: https://permutive.com/blog
 - group: build
   title: ''
   type: GitHubOrganization
@@ -94,6 +125,10 @@ common:
   title: ''
   type: Support
   url: https://support.permutive.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://dash.permutive.com/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -108,24 +143,28 @@ common:
   url: https://status.permutive.com/
 - group: auth
   title: ''
+  type: Security
+  url: https://docs.permutive.com/governance/security
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.permutive.com/
+- group: auth
+  title: ''
   type: TrustCenter
   url: security/permutive-trust-center.yml
-- group: agent
+- group: auth
   title: ''
-  type: MCPServer
-  url: mcp/permutive-mcp.yml
-- group: build
+  type: VulnerabilityDisclosure
+  url: security/permutive-vulnerability-disclosure.yml
+- group: auth
   title: ''
-  type: Packages
-  url: packages/permutive-packages.yml
-- group: build
+  type: DomainSecurity
+  url: security/permutive-domain-security.yml
+- group: auth
   title: ''
-  type: SDKs
-  url: packages/permutive-packages.yml
-- group: agent
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
+  type: Authentication
+  url: authentication/permutive-authentication.yml
 - group: design
   title: ''
   type: Conventions
@@ -138,6 +177,10 @@ common:
   title: ''
   type: Lifecycle
   url: lifecycle/permutive-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/permutive-changelog.yml
 - group: design
   title: ''
   type: DataModel
@@ -146,6 +189,46 @@ common:
   title: ''
   type: Conformance
   url: conformance/permutive-conformance.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/permutive-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/permutive-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/permutive-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/permutive-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/permutive-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/permutive-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/permutive-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/permutive-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/permutive-well-known.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -154,42 +237,49 @@ common:
   title: ''
   type: AgenticAccess
   url: agentic-access/permutive-agentic-access.yml
-- group: auth
+- group: other
   title: ''
-  type: DomainSecurity
-  url: security/permutive-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://permutive.com/
+  type: Overlay
+  url: overlays/permutive-cohorts-api-overlay.yaml
 created: '2026-07-17'
-description: Permutive is an agentic data collaboration and activation platform for premium publishers, advertisers and agencies. Its platform spans a Data Management Platform, a Data Clean Room for privacy-safe collaboration with 150+ premium publishers, AI-curated audiences, and the Halo agentic suite that scales direct buying. The developer platform exposes REST APIs for event tracking, identity, audience cohort management, contextual segmentation and second-party data imports, plus web, mobile and CTV SDKs and an official Model Context Protocol (MCP) server that makes audience intelligence available to AI agents.
+description: Permutive is a predictive data collaboration and activation platform for premium publishers, advertisers and agencies. Its platform spans a Data Management Platform, a Data Clean Room for privacy-safe collaboration with 150+ premium publishers, AI-curated audiences, and the Halo agentic suite that scales direct buying. The developer platform exposes six REST APIs — Events, Identity, Contextual, Custom Cohort Segmentation, Cohorts and Taxonomy — plus web, mobile and CTV SDKs, an anonymous documentation Model Context Protocol server, and an invitation-only audience-intelligence MCP server that makes cohort discovery, reach measurement and audience comparison available to AI agents. Authentication is a workspace-scoped API key; every call is bounded by the workspace that owns the key.
 image: https://mintcdn.com/permutive/zX9G7jjpccuZZlEf/logo/permutive-logo-light.svg
 layout: provider
 mcp_servers:
 - description: ''
   name: permutive-mcp.yml
   slug: permutive-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Permutive
 nav: Providers
 network: true
 overview: 'Permutive publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cohorts API, Contextual API, Events API, and 3 more. Tagged areas include Company, Publishing, Advertising, AdTech, and MarTech.
 
 
-  Permutive''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 20 more developer resources.'
-random_paper: 33
+  The Permutive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Permutive''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, authentication, and 31 more developer resources.'
+plans:
+- name: Permutive Plans Pricing
+  plan_count: 0
+  slug: permutive-plans-pricing
+random_paper: 99
+rate_limits:
+- limit_count: 0
+  name: Permutive Rate Limits
+  slug: permutive-rate-limits
 score:
-  band: developing
-  composite: 47.5
-  delta: 0.0
+  band: strong
+  composite: 59.3
+  delta: 11.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 62.7
+    commercial_clarity: 50.0
+    contract_quality: 70.8
     developer_ergonomics: 69.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
-    operational_transparency: 21.1
+    operational_transparency: 55.3
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -202,21 +292,25 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Permutive Authentication
   slug: permutive-authentication
-  summary_line: http · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Permutive Domain Security
   slug: permutive-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Permutive Vulnerability Disclosure
+  slug: permutive-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: Permutive Trust Center
   slug: permutive-trust-center
-  summary_line: trust center published
+  summary_line: SOC 2 Type II, SOC 3
 slug: permutive
 tags:
 - Company
@@ -229,5 +323,7 @@ tags:
 - Data Management Platform
 - Contextual
 - Identity
+- Segmentation
+- Agents
 website: https://permutive.com/
 ---

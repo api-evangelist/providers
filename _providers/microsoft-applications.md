@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Unified API endpoint for accessing Microsoft 365, Windows 10, and Enterprise Mobility + Security services.
@@ -76,7 +76,7 @@ plans:
 - name: Microsoft Applications Plans Pricing
   plan_count: 3
   slug: microsoft-applications-plans-pricing
-random_paper: 34
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Microsoft Applications Rate Limits
@@ -94,7 +94,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 17.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-applications/refs/heads/main/screenshots/microsoft-applications-2026-06-20T185349.png
 slug: microsoft-applications

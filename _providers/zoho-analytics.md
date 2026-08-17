@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 1
@@ -72,7 +72,47 @@ apis:
 - description: Manage User APIs allow you to add, remove, activate, or deactivate users in your Zoho Analytics organization programmatically.
   name: Zoho Analytics User Management APIs API
   slug: zoho-analytics-user-management-apis-api
-artifact_total: 23
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Collection
+  slug: open-zoho-analytics-api-common
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous API
+  slug: open-zoho-analytics-bulk-export-asynchronous-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous Bulk Export - Synchronous API
+  slug: open-zoho-analytics-bulk-export-synchronous-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous Bulk Import - Asynchronous API
+  slug: open-zoho-analytics-bulk-import-asynchronous-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous Bulk Import - Batch API
+  slug: open-zoho-analytics-bulk-import-batch-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous Bulk Import - Synchronous API
+  slug: open-zoho-analytics-bulk-import-synchronous-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous Data APIs API
+  slug: open-zoho-analytics-data-apis-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous Embed APIs API
+  slug: open-zoho-analytics-embed-apis-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous Metadata APIs API
+  slug: open-zoho-analytics-metadata-apis-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous Modeling APIs API
+  slug: open-zoho-analytics-modeling-apis-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous Sharing & Collaboration APIs API
+  slug: open-zoho-analytics-sharing-collaboration-apis-api
+- collection_type: open
+  name: Zoho Analytics Bulk Bulk Export - Asynchronous User Management APIs API
+  slug: open-zoho-analytics-user-management-apis-api
 common:
 - group: agent
   title: ''
@@ -174,7 +214,7 @@ plans:
 - name: Zoho Analytics Plans Pricing
   plan_count: 6
   slug: zoho-analytics-plans-pricing
-random_paper: 21
+random_paper: 120
 rate_limits:
 - limit_count: 0
   name: Zoho Analytics Rate Limits
@@ -213,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/screenshots/zoho-analytics-2026-06-20T201934.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: 'Multiplexed WebSocket gateway for all QFEX real-time market data streams: order book, trades, candles, BBO, mark price, funding rate, open interest, market stats and reference data. Documented as Asyn'
@@ -46,7 +46,7 @@ apis:
 - description: The user API from Qfex — 15 operation(s) for user.
   name: Qfex user API
   slug: qfex-user-api
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: Single WebSocket gateway for all QFEX real‑time streams. Clients publish subscription and order commands here, and receive all updates over the same endpoint.
   name: QFEX Multiplexed WebSocket API
@@ -57,6 +57,19 @@ asyncapis:
 - description: Single WebSocket gateway for all QFEX real‑time streams. Clients publish subscription and order commands here, and receive all updates over the same endpoint.
   name: QFEX Multiplexed WebSocket API
   slug: qfex-trade-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QFEX REST market-data API
+  slug: open-qfex-market-data-api
+- collection_type: open
+  name: QFEX REST market-data pnl API
+  slug: open-qfex-pnl-api
+- collection_type: open
+  name: QFEX REST market-data user API
+  slug: open-qfex-user-api
 common:
 - group: other
   title: ''
@@ -201,7 +214,7 @@ overview: 'Qfex publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Qfex''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 24 more developer resources.'
-random_paper: 76
+random_paper: 138
 score:
   band: developing
   composite: 53.9
@@ -230,7 +243,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

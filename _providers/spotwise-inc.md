@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: 'The product Model Context Protocol server for Spotwise aOS — the surface an agent connects to in order to reach Spotwise ad detections, leads, contacts and workflows. Streamable HTTP transport. Every '
@@ -166,7 +166,7 @@ plans:
 - name: Spotwise Inc Plans Pricing
   plan_count: 0
   slug: spotwise-inc-plans-pricing
-random_paper: 53
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Spotwise Inc Rate Limits
@@ -179,7 +179,7 @@ scopes:
 score:
   band: emerging
   composite: 26.0
-  delta: 13.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -187,10 +187,10 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 12.6
+  previous_composite: 26.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Spotwise Inc Authentication

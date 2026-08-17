@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -141,7 +141,113 @@ apis:
 - description: The Webhooks API from Smokeball — 4 operation(s) for webhooks.
   name: Smokeball Webhooks API
   slug: smokeball-webhooks-api
-artifact_total: 76
+artifact_total: 111
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smokeball Activity Codes API
+  slug: open-smokeball-activity-codes-api
+- collection_type: open
+  name: Smokeball Activity Codes Authorization API
+  slug: open-smokeball-authorization-api
+- collection_type: open
+  name: Smokeball Activity Codes Bank Accounts API
+  slug: open-smokeball-bank-accounts-api
+- collection_type: open
+  name: Smokeball Activity Codes Contacts API
+  slug: open-smokeball-contacts-api
+- collection_type: open
+  name: Smokeball Activity Codes Events API
+  slug: open-smokeball-events-api
+- collection_type: open
+  name: Smokeball Activity Codes Expenses API
+  slug: open-smokeball-expenses-api
+- collection_type: open
+  name: Smokeball Activity Codes Fees API
+  slug: open-smokeball-fees-api
+- collection_type: open
+  name: Smokeball Activity Codes Files API
+  slug: open-smokeball-files-api
+- collection_type: open
+  name: Smokeball Activity Codes Firm API
+  slug: open-smokeball-firm-api
+- collection_type: open
+  name: Smokeball Activity Codes Folders API
+  slug: open-smokeball-folders-api
+- collection_type: open
+  name: Smokeball Activity Codes Intake API
+  slug: open-smokeball-intake-api
+- collection_type: open
+  name: Smokeball Activity Codes Integrated Search API
+  slug: open-smokeball-integrated-search-api
+- collection_type: open
+  name: Smokeball Activity Codes Invoices API
+  slug: open-smokeball-invoices-api
+- collection_type: open
+  name: Smokeball Activity Codes Layout Designs API
+  slug: open-smokeball-layout-designs-api
+- collection_type: open
+  name: Smokeball Activity Codes Layout Matter Items API
+  slug: open-smokeball-layout-matter-items-api
+- collection_type: open
+  name: Smokeball Activity Codes Matter Items API
+  slug: open-smokeball-matter-items-api
+- collection_type: open
+  name: Smokeball Activity Codes Matter Types API
+  slug: open-smokeball-matter-types-api
+- collection_type: open
+  name: Smokeball Activity Codes Matters API
+  slug: open-smokeball-matters-api
+- collection_type: open
+  name: Smokeball Activity Codes Memos API
+  slug: open-smokeball-memos-api
+- collection_type: open
+  name: Smokeball Activity Codes Notifications API
+  slug: open-smokeball-notifications-api
+- collection_type: open
+  name: Smokeball Activity Codes Plugins API
+  slug: open-smokeball-plugins-api
+- collection_type: open
+  name: Smokeball Activity Codes Portal API
+  slug: open-smokeball-portal-api
+- collection_type: open
+  name: Smokeball Activity Codes Referral Types API
+  slug: open-smokeball-referral-types-api
+- collection_type: open
+  name: Smokeball Activity Codes Relationships API
+  slug: open-smokeball-relationships-api
+- collection_type: open
+  name: Smokeball Activity Codes Roles API
+  slug: open-smokeball-roles-api
+- collection_type: open
+  name: Smokeball Activity Codes Search API
+  slug: open-smokeball-search-api
+- collection_type: open
+  name: Smokeball Activity Codes Staff API
+  slug: open-smokeball-staff-api
+- collection_type: open
+  name: Smokeball Activity Codes Stages API
+  slug: open-smokeball-stages-api
+- collection_type: open
+  name: Smokeball Activity Codes Subscription Payments API
+  slug: open-smokeball-subscription-payments-api
+- collection_type: open
+  name: Smokeball Activity Codes Subscription Promotions API
+  slug: open-smokeball-subscription-promotions-api
+- collection_type: open
+  name: Smokeball Activity Codes Subscriptions API
+  slug: open-smokeball-subscriptions-api
+- collection_type: open
+  name: Smokeball Activity Codes Tasks API
+  slug: open-smokeball-tasks-api
+- collection_type: open
+  name: Smokeball Activity Codes Users API
+  slug: open-smokeball-users-api
+- collection_type: open
+  name: Smokeball Activity Codes Webhooks API
+  slug: open-smokeball-webhooks-api
 common:
 - group: agent
   title: ''
@@ -334,7 +440,7 @@ plans:
 - name: Smokeball Plans Pricing
   plan_count: 4
   slug: smokeball-plans-pricing
-random_paper: 114
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Smokeball Rate Limits
@@ -368,7 +474,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/screenshots/smokeball-2026-06-20T194100.png
 security:

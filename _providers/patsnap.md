@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 0
@@ -179,7 +179,152 @@ apis:
 - description: Trademark Data APIs.
   name: Patsnap Trademark Data API
   slug: patsnap-trademark-data-api
-artifact_total: 52
+artifact_total: 100
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Patsnap Open Platform AI Translation API
+  slug: open-patsnap-ai-translation-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Bio-Pharma Encyclopedia Q&A API
+  slug: open-patsnap-bio-pharma-encyclopedia-q-a-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Biopharmaceutical Dictionary Data API
+  slug: open-patsnap-biopharmaceutical-dictionary-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Chemical and Bio Data API
+  slug: open-patsnap-chemical-and-bio-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Chemical SAR Extract API
+  slug: open-patsnap-chemical-sar-extract-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Custom Aggregate Data API
+  slug: open-patsnap-custom-aggregate-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Design Infringement 1v1 API
+  slug: open-patsnap-design-infringement-1v1-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Design Infringement Search API
+  slug: open-patsnap-design-infringement-search-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Drug Basic Data API
+  slug: open-patsnap-drug-basic-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Drug Clinical Trial Data API
+  slug: open-patsnap-drug-clinical-trial-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Drug Mining Data API
+  slug: open-patsnap-drug-mining-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Drug R&D Orgnization API
+  slug: open-patsnap-drug-r-d-orgnization-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Drug Visual Analysis API
+  slug: open-patsnap-drug-visual-analysis-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Enterprise Basic Data API
+  slug: open-patsnap-enterprise-basic-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Enterprise IP Data API
+  slug: open-patsnap-enterprise-ip-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Enterprise Persona Data API
+  slug: open-patsnap-enterprise-persona-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Enterprise Tech Analysis API
+  slug: open-patsnap-enterprise-tech-analysis-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Enterprise Tech Evaluation API
+  slug: open-patsnap-enterprise-tech-evaluation-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Feasibility Analysis Assistant API
+  slug: open-patsnap-feasibility-analysis-assistant-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Formulation Assistant API
+  slug: open-patsnap-formulation-assistant-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation FTO Search API
+  slug: open-patsnap-fto-search-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Insights Company Report API
+  slug: open-patsnap-insights-company-report-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Literature Data API
+  slug: open-patsnap-literature-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation LS Search API
+  slug: open-patsnap-ls-search-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Novelty Check Assistant API
+  slug: open-patsnap-novelty-check-assistant-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Novelty Search API
+  slug: open-patsnap-novelty-search-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Others API
+  slug: open-patsnap-others-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Patent Basic Data API
+  slug: open-patsnap-patent-basic-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Patent Data Search API
+  slug: open-patsnap-patent-data-search-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Patent Legal Data API
+  slug: open-patsnap-patent-legal-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Patent Mining Data API
+  slug: open-patsnap-patent-mining-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Patent Monitor and Export API
+  slug: open-patsnap-patent-monitor-and-export-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Patent Valuation Data API
+  slug: open-patsnap-patent-valuation-data-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Patsnap Academy Course API
+  slug: open-patsnap-patsnap-academy-course-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Patsnap Analysis Report API
+  slug: open-patsnap-patsnap-analysis-report-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Patsnap LLM API
+  slug: open-patsnap-patsnap-llm-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation R&D solution search API
+  slug: open-patsnap-r-d-solution-search-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Specification Drafting API
+  slug: open-patsnap-specification-drafting-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Tech Pre-research Report API
+  slug: open-patsnap-tech-pre-research-report-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Tech Solution Exploration API
+  slug: open-patsnap-tech-solution-exploration-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Tech Solution Exploration(Materials) Tech Solution Exploration(Materials) Tech Solution Exploration(Materials) API
+  slug: open-patsnap-tech-solution-exploration-materials-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Technical Disclosure API
+  slug: open-patsnap-technical-disclosure-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Technical Q&A API
+  slug: open-patsnap-technical-q-a-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Technology Key Report API
+  slug: open-patsnap-technology-key-report-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Telecom API
+  slug: open-patsnap-telecom-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation TFFI Enterprise Evaluation (Level5) TFFI Enterprise Evaluation (Level5) TFFI Enterprise Evaluation (Level5) API
+  slug: open-patsnap-tffi-enterprise-evaluation-level5-api
+- collection_type: open
+  name: Patsnap Open Platform AI Translation Trademark Data API
+  slug: open-patsnap-trademark-data-api
 common:
 - group: agent
   title: ''
@@ -309,7 +454,7 @@ overview: 'Patsnap publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Patsnap''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 39
+random_paper: 14
 score:
   band: developing
   composite: 46.5
@@ -339,7 +484,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/screenshots/patsnap-2026-08-07T191600.png
 security:

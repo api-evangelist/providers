@@ -1,35 +1,41 @@
 ---
 access_model:
-  confidence: medium
-  label: Requires approval
-  onboarding: approval
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
+  confidence: high
+  label: Free tier, self-service sign-up
+  onboarding: unknown
+  pricing: freemium
+  public: true
+  source:
+  - https://www.scratchpad.com/pricing
+  - https://clearskies.cc/pricing
+  trial: true
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The Clearskies Customer Context Graph exposed as a single remote Model Context Protocol server. Connected AI clients (Claude, ChatGPT, Cursor, n8n, Retool) query unified, identity-resolved customer co
+  name: Clearskies MCP Server
+  slug: clearskies-mcp-server
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -79,35 +85,117 @@ common:
   title: ''
   type: DomainSecurity
   url: security/scratchpad-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://clearskies.cc/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://clearskies.cc/docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://clearskies.cc/docs/getting-started/quick-start
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.clearskies.cc/login
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/scratchpad-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/scratchpad-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/scratchpad-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/scratchpad-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/scratchpad-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/scratchpad-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/scratchpad-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/scratchpad-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/scratchpad-plans-pricing.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/scratchpad-sandbox.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/scratchpad-llms.txt
 created: '2026-07-17'
-description: Scratchpad is an AI-powered workspace for sales teams that sits on top of Salesforce, reducing the friction of keeping the CRM up to date. Reps manage notes, opportunities, tasks, and pipeline from a fast, lightweight interface that syncs everything back to Salesforce, with AI-native sheets and Kanban boards, an AI notetaker and call recorder, automated field updates, executive summaries, and CRM hygiene monitoring. The product connects to Salesforce via API and inherits its permissions and guardrails, and integrates with Slack, Zoom, and Gong. Founded in 2019 by Pouyan Salehi and Cyrus Karbassiyoon in San Francisco, and backed by Accel and Craft Ventures. Scratchpad does not publish its own public developer API; it is a Salesforce-native application. This profile captures its identity, commercial surface, and security posture for the API Evangelist network.
+description: Scratchpad is an AI-powered workspace for sales teams that sits on top of Salesforce, reducing the friction of keeping the CRM up to date. Reps manage notes, opportunities, tasks, and pipeline from a fast, lightweight interface that syncs everything back to Salesforce, with AI-native sheets and Kanban boards, an AI notetaker and call recorder, automated field updates, executive summaries, and CRM hygiene monitoring. The product connects to Salesforce via API and inherits its permissions and guardrails, and integrates with Slack, Zoom, and Gong. Founded in 2019 by Pouyan Salehi and Cyrus Karbassiyoon in San Francisco, and backed by Accel and Craft Ventures. Scratchpad publishes no REST API for its own Salesforce-native workspace, but the same company ships Clearskies (clearskies.cc), a Customer Context Graph delivered as a single remote MCP server at https://mcp.clearskies.cc/mcp, OAuth-protected with dynamic client registration and PKCE, that unifies Salesforce, HubSpot, Gong,
+  Scratchpad, Gmail/Outlook, calendars, Slack, Linear, Jira and Pylon behind one endpoint for Claude, ChatGPT, Cursor, n8n and Retool. This profile captures Scratchpad identity, its commercial surface, its agent surface, and its security posture.
 image: https://cdn.prod.website-files.com/5ec58e445ff9859286816f53/689655f9a5b2bc821c89f95e_Scratchpad%20-%20The%20AI%20workspace%20for%20sellers.png
 layout: provider
-modified: '2026-07-21'
+mcp_servers:
+- description: ''
+  name: scratchpad-mcp.yml
+  slug: scratchpad-mcpyml
+modified: '2026-08-13'
 name: Scratchpad
 nav: Providers
 network: true
-overview: 'Scratchpad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, Sales, CRM, and Salesforce.
+overview: 'Scratchpad publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, Sales, CRM, and Salesforce.
 
 
-  Scratchpad''s developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 93
+  Scratchpad''s developer surface includes pricing, engineering blog, support, documentation, getting-started guide, signup flow, authentication, and 20 more developer resources.'
+plans:
+- name: Scratchpad Plans Pricing
+  plan_count: 0
+  slug: scratchpad-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 0
+  name: Scratchpad Rate Limits
+  slug: scratchpad-rate-limits
+scopes:
+- name: Scratchpad Scopes
+  scope_count: 3
+  slug: scratchpad-scopes
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 19.2
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: 18.7
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
+    developer_ergonomics: 60.9
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 26.3
   previous_composite: 19.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Scratchpad Authentication
+  slug: scratchpad-authentication
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Scratchpad Domain Security
   slug: scratchpad-domain-security
@@ -130,5 +218,9 @@ tags:
 - Revenue Operations
 - Artificial Intelligence
 - SaaS
+- MCP
+- Model Context Protocol
+- Agents
+- Sales Intelligence
 website: https://www.scratchpad.com
 ---

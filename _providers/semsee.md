@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: 'Partner-gated Upload/Download integration that pushes ACORD-based application and submission data from an agency management system (AMS) into the Semsee platform for multi-carrier quoting. No public, '
@@ -43,8 +43,11 @@ apis:
 - description: No public webhook or event-notification surface is documented by Semsee. This entry is a placeholder reflecting that event-driven callbacks, if they exist, are part of a private partner integration an
   name: Semsee Webhooks API
   slug: semsee-webhooks-api
-artifact_total: 11
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Semsee API
   slug: open-semsee
@@ -109,7 +112,7 @@ plans:
 - name: Semsee Plans Pricing
   plan_count: 3
   slug: semsee-plans-pricing
-random_paper: 42
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Semsee Rate Limits
@@ -133,7 +136,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

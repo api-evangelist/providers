@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Cordant is Baker Hughes' modular AI-enabled industrial enterprise software platform for asset performance management (APM), process optimization, and emissions management. It provides a digital thread
@@ -168,7 +168,7 @@ press:
 - date: '2026-05-25'
   title: Baker Hughes and C3 AI to Provide Joint Enterprise AI ...
   url: https://www.linkedin.com/posts/bakerhughes_baker-hughes-and-c3-ai-to-provide-joint-enterprise-activity-6764960334307495936-z-zl
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Baker Hughes Rate Limits
@@ -209,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/screenshots/baker-hughes-2026-06-20T172934.png
 security:

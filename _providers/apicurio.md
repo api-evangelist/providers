@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -108,8 +108,68 @@ apis:
 - description: The Versions API from Apicurio — 11 operation(s) for versions.
   name: Apicurio Versions API
   slug: apicurio-versions-api
-artifact_total: 32
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apicurio Registry Admin API
+  slug: open-apicurio-admin-api
+- collection_type: open
+  name: Apicurio Registry Admin AI API
+  slug: open-apicurio-ai-api
+- collection_type: open
+  name: Apicurio Registry Admin Artifact rules API
+  slug: open-apicurio-artifact-rules-api
+- collection_type: open
+  name: Apicurio Registry Admin Artifact Type API
+  slug: open-apicurio-artifact-type-api
+- collection_type: open
+  name: Apicurio Registry Admin Artifacts API
+  slug: open-apicurio-artifacts-api
+- collection_type: open
+  name: Apicurio Registry Admin Branches API
+  slug: open-apicurio-branches-api
+- collection_type: open
+  name: Apicurio Registry Admin Content API
+  slug: open-apicurio-content-api
+- collection_type: open
+  name: Apicurio Registry Admin Contracts API
+  slug: open-apicurio-contracts-api
+- collection_type: open
+  name: Apicurio Registry Admin GitOps API
+  slug: open-apicurio-gitops-api
+- collection_type: open
+  name: Apicurio Registry Admin Global rules API
+  slug: open-apicurio-global-rules-api
+- collection_type: open
+  name: Apicurio Registry Admin Group rules API
+  slug: open-apicurio-group-rules-api
+- collection_type: open
+  name: Apicurio Registry Admin Groups API
+  slug: open-apicurio-groups-api
+- collection_type: open
+  name: Apicurio Registry Admin KafkaSQL API
+  slug: open-apicurio-kafkasql-api
+- collection_type: open
+  name: Apicurio Registry Admin Metadata API
+  slug: open-apicurio-metadata-api
+- collection_type: open
+  name: Apicurio Registry Admin Search API
+  slug: open-apicurio-search-api
+- collection_type: open
+  name: Apicurio Registry Admin Snapshot API
+  slug: open-apicurio-snapshot-api
+- collection_type: open
+  name: Apicurio Registry Admin System API
+  slug: open-apicurio-system-api
+- collection_type: open
+  name: Apicurio Registry Admin Users API
+  slug: open-apicurio-users-api
+- collection_type: open
+  name: Apicurio Registry Admin Versions API
+  slug: open-apicurio-versions-api
 - collection_type: open
   name: Apicurio Registry API
   slug: open-apicurio
@@ -178,7 +238,7 @@ plans:
 - name: Apicurio Plans Pricing
   plan_count: 3
   slug: apicurio-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Apicurio Rate Limits
@@ -208,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/screenshots/apicurio-2026-06-20T172228.png
 security:

@@ -9,27 +9,36 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 48.2
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The JSON API behind StoryTap's embeddable video widgets. Brands load a first-party loader script from StoryTap's CDN, and that script POSTs to api.storytap.com/w/* to fetch an embed's configuration an
+  name: StoryTap Video Widget API
+  slug: storytap-video-widget-api
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Storytap Webhooks
+  slug: storytap-webhooks
 common:
 - group: company
   title: ''
@@ -47,10 +56,6 @@ common:
   title: ''
   type: Pricing
   url: https://storytap.com/pricing/
-- group: start
-  title: ''
-  type: SignUp
-  url: https://app.storytap.com/signup
 - group: start
   title: ''
   type: Login
@@ -91,39 +96,106 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/storytap-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/storytap-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/storytap-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/storytap-components.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/storytap-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/storytap-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/storytap-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/storytap-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/storytap-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/storytap-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/storytap-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/storytap-mcp.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: https://storytap.com/contact/
 created: '2026-07-17'
 description: StoryTap is a patented AI-powered user-generated video (UGC) platform that automates the collection, editing, captioning, and distribution of authentic customer video testimonials and stories. It guides customers through recording on their own devices with no film crew or production stack, auto-edits share-ready clips, and publishes them to websites, social media, and Google Reviews. StoryTap holds six utility patents and is used by brands including TELUS, Samsung, Danone, Canadian Tire, AAA, and UCLA Anderson. A REST API and advanced webhooks are offered on Enterprise plans (not publicly documented). StoryTap is backed by Techstars and the Lazaridis Institute.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storytap.png
 layout: provider
-modified: '2026-07-21'
+mcp_servers:
+- description: ''
+  name: storytap-mcp.yml
+  slug: storytap-mcpyml
+modified: '2026-08-13'
 name: StoryTap
 nav: Providers
 network: true
-overview: 'StoryTap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Testimonials, User Generated Content, and Marketing.
+overview: 'StoryTap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Testimonials, User Generated Content, and Marketing.
 
 
-  StoryTap''s developer surface includes engineering blog, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 62
+  The StoryTap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  StoryTap''s developer surface includes engineering blog, pricing, support, authentication, and 22 more developer resources.'
+plans:
+- name: Storytap Plans Pricing
+  plan_count: 0
+  slug: storytap-plans-pricing
+random_paper: 8
+rate_limits:
+- limit_count: 0
+  name: Storytap Rate Limits
+  slug: storytap-rate-limits
 score:
-  band: emerging
-  composite: 19.4
-  delta: 0.0
+  band: developing
+  composite: 42.2
+  delta: 22.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 26.3
+    commercial_clarity: 52.6
+    contract_quality: 51.6
+    developer_ergonomics: 26.1
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 34.2
   previous_composite: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Storytap Authentication
+  slug: storytap-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Storytap Domain Security
   slug: storytap-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: vulnerability-disclosure
   name: Storytap Vulnerability Disclosure
   slug: storytap-vulnerability-disclosure

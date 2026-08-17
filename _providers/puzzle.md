@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -105,11 +105,92 @@ apis:
 - description: The Vendors API from Puzzle — 2 operation(s) for vendors.
   name: Puzzle Vendors API
   slug: puzzle-vendors-api
-artifact_total: 33
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Puzzle Api Accounts API
+  slug: open-puzzle-accounts-api
+- collection_type: open
+  name: Puzzle Api Accounts Attachments API
+  slug: open-puzzle-attachments-api
+- collection_type: open
+  name: Puzzle Api Accounts Bills API
+  slug: open-puzzle-bills-api
+- collection_type: open
+  name: Puzzle Accounting Accounts Categories API
+  slug: open-puzzle-categories-api
+- collection_type: open
+  name: Puzzle Accounting Accounts Companies API
+  slug: open-puzzle-companies-api
+- collection_type: open
+  name: Puzzle Api Accounts Company API
+  slug: open-puzzle-company-api
+- collection_type: open
+  name: Puzzle Api Accounts Customers API
+  slug: open-puzzle-customers-api
+- collection_type: open
+  name: Puzzle Api Accounts Departments API
+  slug: open-puzzle-departments-api
+- collection_type: open
+  name: Puzzle Api Accounts Documents API
+  slug: open-puzzle-documents-api
+- collection_type: open
+  name: Puzzle Accounting Accounts Integrations API
+  slug: open-puzzle-integrations-api
+- collection_type: open
+  name: Puzzle Api Accounts Invoices API
+  slug: open-puzzle-invoices-api
 - collection_type: open
   name: Puzzle Accounting API
   slug: open-puzzle-io
+- collection_type: open
+  name: Puzzle Accounting Accounts Journal Entries API
+  slug: open-puzzle-journal-entries-api
+- collection_type: open
+  name: Puzzle Api Accounts JournalEntries API
+  slug: open-puzzle-journalentries-api
+- collection_type: open
+  name: Puzzle Api Accounts JournalEntry API
+  slug: open-puzzle-journalentry-api
+- collection_type: open
+  name: Puzzle Api Accounts Locations API
+  slug: open-puzzle-locations-api
+- collection_type: open
+  name: Puzzle Api Accounts Metrics API
+  slug: open-puzzle-metrics-api
+- collection_type: open
+  name: Puzzle Api Accounts OAuth API
+  slug: open-puzzle-oauth-api
+- collection_type: open
+  name: Puzzle Api Accounts Onboarding API
+  slug: open-puzzle-onboarding-api
+- collection_type: open
+  name: Puzzle Api Accounts Payroll API
+  slug: open-puzzle-payroll-api
+- collection_type: open
+  name: Puzzle Api Accounts Products API
+  slug: open-puzzle-products-api
+- collection_type: open
+  name: Puzzle Api Accounts Reports API
+  slug: open-puzzle-reports-api
+- collection_type: open
+  name: Puzzle Api Accounts Requests API
+  slug: open-puzzle-requests-api
+- collection_type: open
+  name: Puzzle Api Accounts Tasks API
+  slug: open-puzzle-tasks-api
+- collection_type: open
+  name: Puzzle Api Accounts Transactions API
+  slug: open-puzzle-transactions-api
+- collection_type: open
+  name: Puzzle Api Accounts User API
+  slug: open-puzzle-user-api
+- collection_type: open
+  name: Puzzle Api Accounts Vendors API
+  slug: open-puzzle-vendors-api
 common:
 - group: start
   title: ''
@@ -287,7 +368,7 @@ plans:
 - name: Puzzle Plans Pricing
   plan_count: 4
   slug: puzzle-plans-pricing
-random_paper: 82
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Puzzle Rate Limits
@@ -320,7 +401,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

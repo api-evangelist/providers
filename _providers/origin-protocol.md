@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The account API from Origin Protocol — 2 operation(s) for account.
@@ -82,7 +82,62 @@ apis:
 - description: The token API from Origin Protocol — 12 operation(s) for token.
   name: Origin Protocol token API
   slug: origin-protocol-token-api
-artifact_total: 21
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: defi-analytics account API
+  slug: open-origin-protocol-account-api
+- collection_type: open
+  name: defi-analytics account arm API
+  slug: open-origin-protocol-arm-api
+- collection_type: open
+  name: defi-analytics account beacon-chain API
+  slug: open-origin-protocol-beacon-chain-api
+- collection_type: open
+  name: defi-analytics account cache API
+  slug: open-origin-protocol-cache-api
+- collection_type: open
+  name: defi-analytics account coingecko API
+  slug: open-origin-protocol-coingecko-api
+- collection_type: open
+  name: defi-analytics account defillama API
+  slug: open-origin-protocol-defillama-api
+- collection_type: open
+  name: defi-analytics account dune API
+  slug: open-origin-protocol-dune-api
+- collection_type: open
+  name: defi-analytics account hyperliquid API
+  slug: open-origin-protocol-hyperliquid-api
+- collection_type: open
+  name: defi-analytics account merkl API
+  slug: open-origin-protocol-merkl-api
+- collection_type: open
+  name: defi-analytics account oeth API
+  slug: open-origin-protocol-oeth-api
+- collection_type: open
+  name: defi-analytics account ofac API
+  slug: open-origin-protocol-ofac-api
+- collection_type: open
+  name: defi-analytics account ogn API
+  slug: open-origin-protocol-ogn-api
+- collection_type: open
+  name: defi-analytics account protocol API
+  slug: open-origin-protocol-protocol-api
+- collection_type: open
+  name: defi-analytics account reports API
+  slug: open-origin-protocol-reports-api
+- collection_type: open
+  name: defi-analytics account strapi API
+  slug: open-origin-protocol-strapi-api
+- collection_type: open
+  name: defi-analytics account supply API
+  slug: open-origin-protocol-supply-api
+- collection_type: open
+  name: defi-analytics account token API
+  slug: open-origin-protocol-token-api
 common:
 - group: agent
   title: ''
@@ -156,7 +211,7 @@ overview: 'Origin Protocol publishes 17 APIs on the [APIs.io](https://apis.io/) 
 
 
   Origin Protocol''s developer surface includes documentation, API reference, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 15
+random_paper: 85
 score:
   band: thin
   composite: 31.1
@@ -179,7 +234,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/screenshots/origin-protocol-2026-08-07T190935.png
 security:

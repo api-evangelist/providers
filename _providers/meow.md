@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -106,11 +106,93 @@ apis:
 - description: Manage webhook subscriptions and inspect delivery history.
   name: Meow Webhooks API
   slug: meow-webhooks-api
-artifact_total: 32
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Meow Webhooks
   slug: meow-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meow Accounts API
+  slug: open-meow-accounts-api
+- collection_type: open
+  name: Meow Accounts API Keys API
+  slug: open-meow-api-keys-api
+- collection_type: open
+  name: Meow Accounts Approvals API
+  slug: open-meow-approvals-api
+- collection_type: open
+  name: Meow Accounts Balances API
+  slug: open-meow-balances-api
+- collection_type: open
+  name: Meow Accounts Bills API
+  slug: open-meow-bills-api
+- collection_type: open
+  name: Meow Accounts Cards API
+  slug: open-meow-cards-api
+- collection_type: open
+  name: Meow Accounts Collection Accounts API
+  slug: open-meow-collection-accounts-api
+- collection_type: open
+  name: Meow Accounts Contacts API
+  slug: open-meow-contacts-api
+- collection_type: open
+  name: Meow Accounts Customers API
+  slug: open-meow-customers-api
+- collection_type: open
+  name: Meow Accounts Entities API
+  slug: open-meow-entities-api
+- collection_type: open
+  name: Meow Accounts Health API
+  slug: open-meow-health-api
+- collection_type: open
+  name: Meow Accounts Invoices API
+  slug: open-meow-invoices-api
+- collection_type: open
+  name: Meow Accounts Limits API
+  slug: open-meow-limits-api
+- collection_type: open
+  name: Meow Accounts Line Items API
+  slug: open-meow-line-items-api
+- collection_type: open
+  name: Meow Accounts Partner Onboarding API
+  slug: open-meow-partner-onboarding-api
+- collection_type: open
+  name: Meow Accounts Partner Webhooks API
+  slug: open-meow-partner-webhooks-api
+- collection_type: open
+  name: Meow Accounts Payment Methods API
+  slug: open-meow-payment-methods-api
+- collection_type: open
+  name: Meow Accounts Payment Networks API
+  slug: open-meow-payment-networks-api
+- collection_type: open
+  name: Meow Accounts Products API
+  slug: open-meow-products-api
+- collection_type: open
+  name: Meow Accounts Routing Numbers API
+  slug: open-meow-routing-numbers-api
+- collection_type: open
+  name: Meow Accounts Security Policies API
+  slug: open-meow-security-policies-api
+- collection_type: open
+  name: Meow Accounts Simulations API
+  slug: open-meow-simulations-api
+- collection_type: open
+  name: Meow Accounts Tax Forms API
+  slug: open-meow-tax-forms-api
+- collection_type: open
+  name: Meow Accounts Transactions API
+  slug: open-meow-transactions-api
+- collection_type: open
+  name: Meow Accounts Transfers API
+  slug: open-meow-transfers-api
+- collection_type: open
+  name: Meow Accounts Webhooks API
+  slug: open-meow-webhooks-api
 common:
 - group: agent
   title: ''
@@ -147,7 +229,7 @@ overview: 'Meow publishes 26 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   The Meow catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 80
+random_paper: 142
 scopes:
 - name: Meow Scopes
   scope_count: 0
@@ -182,7 +264,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meow/refs/heads/main/screenshots/meow-2026-08-07T172630.png
 security:

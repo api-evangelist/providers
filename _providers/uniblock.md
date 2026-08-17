@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,18 +60,39 @@ apis:
 - description: Endpoints for looking up transaction data by address or transaction hash, including detailed transaction information.
   name: Uniblock Transactions API
   slug: uniblock-transactions-api
-artifact_total: 27
+artifact_total: 34
 asyncapis:
 - description: Uniblock webhooks enable real-time notifications for blockchain events without the need to poll endpoints. By configuring webhooks through the Uniblock dashboard or API, developers can receive HTTP ca
   name: Uniblock Webhook Events
   slug: uniblock-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Uniblock Direct API
   slug: open-uniblock-direct-api
 - collection_type: open
-  name: Uniblock JSON-RPC API
+  name: Uniblock Direct Direct Pass-Through API
+  slug: open-uniblock-direct-pass-through-api
+- collection_type: open
+  name: Uniblock Direct Direct Pass-Through JSON-RPC API
   slug: open-uniblock-json-rpc-api
+- collection_type: open
+  name: Uniblock Direct Direct Pass-Through Market Data API
+  slug: open-uniblock-market-data-api
+- collection_type: open
+  name: Uniblock Direct Direct Pass-Through NFTs API
+  slug: open-uniblock-nfts-api
+- collection_type: open
+  name: Uniblock Direct Direct Pass-Through Scan API
+  slug: open-uniblock-scan-api
+- collection_type: open
+  name: Uniblock Direct Direct Pass-Through Tokens API
+  slug: open-uniblock-tokens-api
+- collection_type: open
+  name: Uniblock Direct Direct Pass-Through Transactions API
+  slug: open-uniblock-transactions-api
 - collection_type: open
   name: Uniblock Unified API
   slug: open-uniblock-unified-api
@@ -201,7 +222,7 @@ plans:
 - name: Uniblock Plans Pricing
   plan_count: 5
   slug: uniblock-plans-pricing
-random_paper: 15
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Uniblock Rate Limits
@@ -251,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/screenshots/uniblock-2026-06-20T200030.png
 security:

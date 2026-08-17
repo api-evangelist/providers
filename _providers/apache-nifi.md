@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 3
@@ -57,8 +57,23 @@ apis:
 - description: Read overall flow status and process group hierarchy
   name: Apache NiFi Flow API
   slug: apache-nifi-flow-api
-artifact_total: 38
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache NiFi REST Access API
+  slug: open-apache-nifi-access-api
+- collection_type: open
+  name: Apache NiFi REST Access Connections API
+  slug: open-apache-nifi-connections-api
+- collection_type: open
+  name: Apache NiFi REST Access Controller Services API
+  slug: open-apache-nifi-controller-services-api
+- collection_type: open
+  name: Apache NiFi REST Access Flow API
+  slug: open-apache-nifi-flow-api
 - collection_type: open
   name: Apache NiFi REST API
   slug: open-apache-nifi
@@ -201,7 +216,7 @@ plans:
 - name: Apache Nifi Plans Pricing
   plan_count: 3
   slug: apache-nifi-plans-pricing
-random_paper: 117
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Apache Nifi Rate Limits
@@ -226,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/screenshots/apache-nifi-2026-06-20T172124.png
 security:

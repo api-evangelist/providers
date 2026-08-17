@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -79,7 +79,41 @@ arazzos:
 - description: 'The core Understudy Desktop journey over the loopback Agent API - pick a model from the catalog, start and track its download, add a residency slot, assign and warm the model in the slot, then send a '
   name: Download, warm, and chat with a local model on Understudy Desktop
   slug: understudy-labs-download-warm-and-chat
-artifact_total: 17
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities API
+  slug: open-understudy-labs-capabilities-api
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities Conversations API
+  slug: open-understudy-labs-conversations-api
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities Downloads API
+  slug: open-understudy-labs-downloads-api
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities Feedback API
+  slug: open-understudy-labs-feedback-api
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities Metrics API
+  slug: open-understudy-labs-metrics-api
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities Models API
+  slug: open-understudy-labs-models-api
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities Residency API
+  slug: open-understudy-labs-residency-api
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities Runs API
+  slug: open-understudy-labs-runs-api
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities Status API
+  slug: open-understudy-labs-status-api
+- collection_type: open
+  name: Understudy Desktop Agent Capabilities Supervision API
+  slug: open-understudy-labs-supervision-api
 common:
 - group: other
   title: ''
@@ -209,7 +243,7 @@ overview: 'Understudy Labs publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Understudy Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 21 more developer resources.'
-random_paper: 14
+random_paper: 84
 score:
   band: developing
   composite: 49.0
@@ -233,7 +267,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

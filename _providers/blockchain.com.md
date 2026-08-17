@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -83,11 +83,42 @@ apis:
 - description: Retrieve current prices and markets
   name: Blockchain.com Unauthenticated API
   slug: blockchain.com-unauthenticated-api
-artifact_total: 27
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Blockchain.Com Event Surface
   slug: blockchain.com-event-surface
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blockchain.com Pay Partner Eligibility API
+  slug: open-blockchain
+- collection_type: open
+  name: Market Nft API
+  slug: open-blockchain
+- collection_type: open
+  name: NFT Market Nft V2 API
+  slug: open-blockchain
+- collection_type: open
+  name: Blockchain.com Pay Partner Orders API
+  slug: open-blockchain
+- collection_type: open
+  name: Blockchain.com Exchange REST Payments API
+  slug: open-blockchain
+- collection_type: open
+  name: NFT Market Public API
+  slug: open-blockchain
+- collection_type: open
+  name: Blockchain.com Pay Partner Quote API
+  slug: open-blockchain
+- collection_type: open
+  name: Blockchain.com Exchange REST Trading API
+  slug: open-blockchain
+- collection_type: open
+  name: Blockchain.com Exchange REST Unauthenticated API
+  slug: open-blockchain
 common:
 - group: agent
   title: ''
@@ -256,7 +287,7 @@ overview: 'Blockchain.com publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Blockchain.com''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 83
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Blockchain.Com Rate Limits
@@ -295,7 +326,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/screenshots/blockchain.com-2026-08-07T162627.png
 security:

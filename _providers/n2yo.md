@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Optically visible satellite pass predictions.
   name: N2YO Visual Passes API
   slug: n2yo-visual-passes-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: N2YO Satellite Tracking Above API
+  slug: open-n2yo-above-api
+- collection_type: open
+  name: N2YO Satellite Tracking Above Positions API
+  slug: open-n2yo-positions-api
+- collection_type: open
+  name: N2YO Satellite Tracking Above Radio Passes API
+  slug: open-n2yo-radio-passes-api
+- collection_type: open
+  name: N2YO Satellite Tracking Above TLE API
+  slug: open-n2yo-tle-api
+- collection_type: open
+  name: N2YO Satellite Tracking Above Visual Passes API
+  slug: open-n2yo-visual-passes-api
 - collection_type: open
   name: N2YO Satellite Tracking API
   slug: open-n2yo
@@ -120,7 +138,7 @@ plans:
 - name: N2Yo Plans Pricing
   plan_count: 3
   slug: n2yo-plans-pricing
-random_paper: 32
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: N2Yo Rate Limits
@@ -145,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/screenshots/n2yo-2026-06-20T185921.png
 security:

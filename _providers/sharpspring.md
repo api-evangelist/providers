@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The SharpSpring (Constant Contact Lead Gen & CRM) Open API — a single HTTPS POST endpoint that accepts a JSON envelope of method, params and id, very similar to JSON-RPC. Version v1 resolves timestamp
@@ -173,7 +173,7 @@ plans:
 - name: Sharpspring Plans Pricing
   plan_count: 0
   slug: sharpspring-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Sharpspring Rate Limits
@@ -181,6 +181,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -188,8 +189,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 71.1
+  previous_composite: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Sharpspring Authentication

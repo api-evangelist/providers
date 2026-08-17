@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Vouchers (receipts) used for expense and revenue bookkeeping.
   name: sevdesk Voucher API
   slug: sevdesk-voucher-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: sevdesk CheckAccount API
+  slug: open-sevdesk-checkaccount-api
+- collection_type: open
+  name: sevdesk CheckAccount CheckAccountTransaction API
+  slug: open-sevdesk-checkaccounttransaction-api
+- collection_type: open
+  name: sevdesk CheckAccount Contact API
+  slug: open-sevdesk-contact-api
+- collection_type: open
+  name: sevdesk CheckAccount CreditNote API
+  slug: open-sevdesk-creditnote-api
+- collection_type: open
+  name: sevdesk CheckAccount Invoice API
+  slug: open-sevdesk-invoice-api
+- collection_type: open
+  name: sevdesk CheckAccount Order API
+  slug: open-sevdesk-order-api
+- collection_type: open
+  name: sevdesk CheckAccount Part API
+  slug: open-sevdesk-part-api
+- collection_type: open
+  name: sevdesk CheckAccount Tag API
+  slug: open-sevdesk-tag-api
+- collection_type: open
+  name: sevdesk CheckAccount Voucher API
+  slug: open-sevdesk-voucher-api
 - collection_type: open
   name: sevdesk API
   slug: open-sevdesk
@@ -136,7 +166,7 @@ plans:
 - name: Sevdesk Plans Pricing
   plan_count: 5
   slug: sevdesk-plans-pricing
-random_paper: 37
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Sevdesk Rate Limits
@@ -161,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

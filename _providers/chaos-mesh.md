@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -60,14 +60,38 @@ apis:
 - description: Create and manage chaos engineering workflows with multiple steps
   name: Chaos Mesh Workflows API
   slug: chaos-mesh-workflows-api
-artifact_total: 74
+artifact_total: 82
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chaos Mesh Dashboard Archives API
+  slug: open-chaos-mesh-archives-api
+- collection_type: open
+  name: Chaos Mesh Dashboard Archives Common API
+  slug: open-chaos-mesh-common-api
 - collection_type: open
   name: Chaos Mesh Dashboard API
   slug: open-chaos-mesh-dashboard-api
 - collection_type: open
   name: Chaos Mesh Dashboard API
   slug: open-chaos-mesh-dashboard
+- collection_type: open
+  name: Chaos Mesh Dashboard Archives Events API
+  slug: open-chaos-mesh-events-api
+- collection_type: open
+  name: Chaos Mesh Dashboard Archives Experiments API
+  slug: open-chaos-mesh-experiments-api
+- collection_type: open
+  name: Chaos Mesh Dashboard Archives Schedules API
+  slug: open-chaos-mesh-schedules-api
+- collection_type: open
+  name: Chaos Mesh Dashboard Archives Templates API
+  slug: open-chaos-mesh-templates-api
+- collection_type: open
+  name: Chaos Mesh Dashboard Archives Workflows API
+  slug: open-chaos-mesh-workflows-api
 common:
 - group: operate
   title: ''
@@ -240,7 +264,7 @@ plans:
 - name: Chaos Mesh Plans Pricing
   plan_count: 3
   slug: chaos-mesh-plans-pricing
-random_paper: 40
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Chaos Mesh Rate Limits
@@ -274,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/screenshots/chaos-mesh-2026-06-20T174215.png
 security:

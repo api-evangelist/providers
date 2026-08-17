@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -78,8 +78,50 @@ apis:
 - description: User-generated content channels and contents.
   name: AccelByte UGC API
   slug: accelbyte-ugc-api
-artifact_total: 20
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement API
+  slug: open-accelbyte-achievement-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement Basic API
+  slug: open-accelbyte-basic-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement Cloud Save API
+  slug: open-accelbyte-cloud-save-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement DSMC API
+  slug: open-accelbyte-dsmc-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement Game Telemetry API
+  slug: open-accelbyte-game-telemetry-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement IAM API
+  slug: open-accelbyte-iam-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement Leaderboard API
+  slug: open-accelbyte-leaderboard-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement Matchmaking API
+  slug: open-accelbyte-matchmaking-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement Platform API
+  slug: open-accelbyte-platform-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement Season Pass API
+  slug: open-accelbyte-season-pass-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement Session API
+  slug: open-accelbyte-session-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement Statistics API
+  slug: open-accelbyte-statistics-api
+- collection_type: open
+  name: AccelByte Gaming Services (AGS) Achievement UGC API
+  slug: open-accelbyte-ugc-api
 - collection_type: open
   name: AccelByte Gaming Services (AGS) API
   slug: open-accelbyte
@@ -148,7 +190,7 @@ plans:
 - name: Accelbyte Plans Pricing
   plan_count: 3
   slug: accelbyte-plans-pricing
-random_paper: 100
+random_paper: 46
 rate_limits:
 - limit_count: 4
   name: Accelbyte Rate Limits
@@ -173,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/screenshots/accelbyte-2026-07-25T181428.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The Farm Machinery API from Farm Machinery and Equipment API — 1 operation(s) for farm machinery.
   name: Farm Machinery and Equipment API Farm Machinery API
   slug: farm-machinery-and-equipment-api-farm-machinery-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APIFarmer and Equipment Farm Machinery API
+  slug: open-farm-machinery-and-equipment-api-farm-machinery-api
 - collection_type: open
   name: APIFarmer Farm Machinery and Equipment API
   slug: open-farm-machinery-and-equipment-api
@@ -83,7 +89,7 @@ plans:
 - name: Farm Machinery And Equipment Api Plans Pricing
   plan_count: 3
   slug: farm-machinery-and-equipment-api-plans-pricing
-random_paper: 47
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Farm Machinery And Equipment Api Rate Limits
@@ -108,7 +114,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/screenshots/farm-machinery-and-equipment-api-2026-06-20T181042.png
 security:

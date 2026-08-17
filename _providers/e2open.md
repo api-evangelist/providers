@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,23 @@ apis:
 - description: Container and shipment tracking
   name: e2open Tracking API
   slug: e2open-tracking-api
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: INTTRA Ocean Execution API (e2open) Bookings API
+  slug: open-e2open-bookings-api
+- collection_type: open
+  name: INTTRA Ocean Execution API (e2open) Bookings Schedules API
+  slug: open-e2open-schedules-api
+- collection_type: open
+  name: INTTRA Ocean Execution API (e2open) Bookings Shipping Instructions API
+  slug: open-e2open-shipping-instructions-api
+- collection_type: open
+  name: INTTRA Ocean Execution API (e2open) Bookings Tracking API
+  slug: open-e2open-tracking-api
 - collection_type: open
   name: INTTRA Ocean Execution API (e2open)
   slug: open-inttra-ocean-execution
@@ -158,7 +173,7 @@ plans:
 - name: E2Open Plans Pricing
   plan_count: 3
   slug: e2open-plans-pricing
-random_paper: 105
+random_paper: 138
 rate_limits:
 - limit_count: 3
   name: E2Open Rate Limits
@@ -192,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/screenshots/e2open-2026-06-20T180355.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,18 +19,18 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 48.0
+  scored_at: '2026-08-17'
+api_count: 4
 apis:
 - description: The Insights API's transaction enrichment endpoints enable developers to clean and enhance their transaction data. This process includes standardizing merchant names, categorizing transactions, and ad
   name: FinGoal Enrichment API
@@ -40,11 +41,30 @@ apis:
 - description: Manage webhook callback URLs for your client. Supports default and tenant-specific configurations per webhook type.
   name: FinGoal Webhook Configurations API
   slug: fingoal-webhook-configurations-api
-artifact_total: 9
+- description: Link Money is an authentication portal in front of a shared account-aggregation instance. A bank or credit union buys one aggregation environment (a "tenant"), and Link Money authenticates its several
+  name: FinGoal Link Money API
+  slug: fingoal-link-money-api
+artifact_total: 17
 asyncapis:
+- description: ''
+  name: Fingoal Link Money Webhooks
+  slug: fingoal-link-money-webhooks
 - description: ''
   name: Fingoal Webhooks
   slug: fingoal-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Insights Enrichment API
+  slug: open-fingoal-enrichment-api
+- collection_type: open
+  name: Insights Enrichment User Tagging API
+  slug: open-fingoal-user-tagging-api
+- collection_type: open
+  name: Insights Enrichment Webhook Configurations API
+  slug: open-fingoal-webhook-configurations-api
 common:
 - group: other
   title: ''
@@ -150,6 +170,18 @@ common:
   title: ''
   type: DomainSecurity
   url: security/fingoal-domain-security.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fingoal-rate-limits.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/fingoal-components.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://fingoal.com/contact
 - group: company
   title: ''
   type: Website
@@ -162,34 +194,42 @@ mcp_servers:
 - description: ''
   name: fingoal-mcp.yml
   slug: fingoal-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: FinGoal
 nav: Providers
 network: true
-overview: 'FinGoal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Enrichment API, User Tagging API, and Webhook Configurations API. Tagged areas include Financial Services, Fintech, Transaction Enrichment, Data Enrichment, and Personal Financial Management.
+overview: 'FinGoal publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrichment API, User Tagging API, Webhook Configurations API, and 1 more. Tagged areas include Financial Services, Fintech, Transaction Enrichment, Data Enrichment, and Personal Financial Management.
 
 
-  The FinGoal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The FinGoal catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  FinGoal''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 20 more developer resources.'
-random_paper: 16
+  FinGoal''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 23 more developer resources.'
+plans:
+- name: Fingoal Plans Pricing
+  plan_count: 0
+  slug: fingoal-plans-pricing
+random_paper: 140
+rate_limits:
+- limit_count: 4
+  name: Fingoal Rate Limits
+  slug: fingoal-rate-limits
 scopes:
 - name: Fingoal Scopes
   scope_count: 3
   slug: fingoal-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.5
-  delta: 0.0
+  band: strong
+  composite: 57.7
+  delta: 4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.3
-    developer_ergonomics: 62.5
+    contract_quality: 70.1
+    developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
-    operational_transparency: 13.2
+    operational_transparency: 44.7
   previous_composite: 53.5
   provenance:
     conformance: first-party
@@ -207,14 +247,14 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/screenshots/fingoal-2026-07-25T214520.png
 security:
 - kind: authentication
   name: Fingoal Authentication
   slug: fingoal-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2 · 2 schemes
 - kind: domain-security
   name: Fingoal Domain Security
   slug: fingoal-domain-security

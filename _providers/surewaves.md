@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,11 +89,11 @@ plans:
 - name: Surewaves Plans Pricing
   plan_count: 0
   slug: surewaves-plans-pricing
-random_paper: 37
+random_paper: 103
 score:
   band: minimal
   composite: 9.3
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -101,9 +101,9 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 5.4
+  previous_composite: 9.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

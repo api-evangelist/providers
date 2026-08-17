@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Account information, stats, balance and preferred translators.
@@ -49,11 +49,33 @@ apis:
 - description: Language pairs, supported languages, quotes and unit counts.
   name: Gengo Service API
   slug: gengo-service-api
-artifact_total: 10
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Gengo Callbacks Webhooks
   slug: gengo-callbacks-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gengo Account API
+  slug: open-gengo-account-api
+- collection_type: open
+  name: Gengo Account Glossary API
+  slug: open-gengo-glossary-api
+- collection_type: open
+  name: Gengo Account Job API
+  slug: open-gengo-job-api
+- collection_type: open
+  name: Gengo Account Jobs API
+  slug: open-gengo-jobs-api
+- collection_type: open
+  name: Gengo Account Order API
+  slug: open-gengo-order-api
+- collection_type: open
+  name: Gengo Account Service API
+  slug: open-gengo-service-api
 common:
 - group: start
   title: ''
@@ -182,7 +204,7 @@ overview: 'Gengo publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Gengo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 48
+random_paper: 81
 score:
   band: developing
   composite: 47.0
@@ -205,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/screenshots/gengo-2026-07-25T215611.png
 security:

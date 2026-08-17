@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Watershed Platform API enables programmatic ingestion of activity data, retrieval of computed emissions footprints, and integration with reporting and decarbonization workflows. API keys are manag
@@ -108,7 +108,7 @@ plans:
 - name: Watershed Plans Pricing
   plan_count: 1
   slug: watershed-plans-pricing
-random_paper: 7
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Watershed Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

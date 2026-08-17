@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: JavaScript SDK providing publisher-side API methods for managing ad placements and requesting page views in single-page applications and infinite scroll implementations. Enables dynamic ad loading wit
@@ -47,7 +47,11 @@ apis:
 - description: OAuth-protected campaign reporting and analytics API over Yieldmo YMax exchange data, served as both a Model Context Protocol server and a REST API by one application at api.yieldmo.com/dcs/mcp. Ninet
   name: Yieldmo DCS Reporting API
   slug: yieldmo-dcs-reporting-api
-artifact_total: 13
+artifact_total: 14
+collections:
+- collection_type: open
+  name: FastAPI
+  slug: open-yieldmo-dcs-mcp
 common:
 - group: auth
   title: ''
@@ -197,7 +201,7 @@ plans:
 - name: Yieldmo Plans Pricing
   plan_count: 3
   slug: yieldmo-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Yieldmo Rate Limits
@@ -210,7 +214,7 @@ scopes:
 score:
   band: developing
   composite: 48.9
-  delta: 24.5
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 47.0
@@ -218,10 +222,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 24.4
+  previous_composite: 48.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/screenshots/yieldmo-2026-06-20T201742.png
 security:
 - kind: authentication

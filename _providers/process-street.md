@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -123,11 +123,99 @@ apis:
 - description: A workflow is a reusable process template that defines the structure, tasks, and form fields for a repeatable process. Use these endpoints to browse and inspect your organization's workflows.
   name: Process Street Workflows API
   slug: process-street-workflows-api
-artifact_total: 35
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Process Street Webhooks
   slug: process-street-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Process Street Public Attachments API
+  slug: open-process-street-attachments-api
+- collection_type: open
+  name: Process Street Public Attachments Comments API
+  slug: open-process-street-comments-api
+- collection_type: open
+  name: Process Street Public Attachments Data Set Incoming Webhooks API
+  slug: open-process-street-data-set-incoming-webhooks-api
+- collection_type: open
+  name: Process Street Public Attachments Data Sets API
+  slug: open-process-street-data-sets-api
+- collection_type: open
+  name: Process Street Public Attachments File Uploads API
+  slug: open-process-street-file-uploads-api
+- collection_type: open
+  name: Process Street Public Attachments Folders API
+  slug: open-process-street-folders-api
+- collection_type: open
+  name: Process Street Public Attachments Form Field Values API
+  slug: open-process-street-form-field-values-api
+- collection_type: open
+  name: Process Street Public Attachments Form Fields API
+  slug: open-process-street-form-fields-api
+- collection_type: open
+  name: Process Street Public Attachments My Work API
+  slug: open-process-street-my-work-api
+- collection_type: open
+  name: Process Street Public Attachments One-Off Tasks API
+  slug: open-process-street-one-off-tasks-api
+- collection_type: open
+  name: Process Street Public Attachments Page Revisions API
+  slug: open-process-street-page-revisions-api
+- collection_type: open
+  name: Process Street Public Attachments Page Widgets API
+  slug: open-process-street-page-widgets-api
+- collection_type: open
+  name: Process Street Public Attachments Pages API
+  slug: open-process-street-pages-api
+- collection_type: open
+  name: Process Street Public Attachments Scheduled Workflows API
+  slug: open-process-street-scheduled-workflows-api
+- collection_type: open
+  name: Process Street Public Attachments Tasks API
+  slug: open-process-street-tasks-api
+- collection_type: open
+  name: Process Street Public Attachments Users API
+  slug: open-process-street-users-api
+- collection_type: open
+  name: Process Street Public Attachments Utilities API
+  slug: open-process-street-utilities-api
+- collection_type: open
+  name: Process Street Public Attachments Webhooks API
+  slug: open-process-street-webhooks-api
+- collection_type: open
+  name: Process Street Public Attachments Workflow Due Date Rules API
+  slug: open-process-street-workflow-due-date-rules-api
+- collection_type: open
+  name: Process Street Public Attachments Workflow Incoming Webhooks API
+  slug: open-process-street-workflow-incoming-webhooks-api
+- collection_type: open
+  name: Process Street Public Attachments Workflow Logic Rules API
+  slug: open-process-street-workflow-logic-rules-api
+- collection_type: open
+  name: Process Street Public Attachments Workflow Revisions API
+  slug: open-process-street-workflow-revisions-api
+- collection_type: open
+  name: Process Street Public Attachments Workflow Runs API
+  slug: open-process-street-workflow-runs-api
+- collection_type: open
+  name: Process Street Public Attachments Workflow Task Assignment Rules API
+  slug: open-process-street-workflow-task-assignment-rules-api
+- collection_type: open
+  name: Process Street Public Attachments Workflow Task Due Date Rules API
+  slug: open-process-street-workflow-task-due-date-rules-api
+- collection_type: open
+  name: Process Street Public Attachments Workflow Tasks API
+  slug: open-process-street-workflow-tasks-api
+- collection_type: open
+  name: Process Street Public Attachments Workflow Widgets API
+  slug: open-process-street-workflow-widgets-api
+- collection_type: open
+  name: Process Street Public Attachments Workflows API
+  slug: open-process-street-workflows-api
 common:
 - group: other
   title: ''
@@ -244,7 +332,7 @@ overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) n
 
 
   Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
-random_paper: 35
+random_paper: 134
 score:
   band: developing
   composite: 53.0
@@ -268,7 +356,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

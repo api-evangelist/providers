@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: Webhook subscription management
   name: Gett Webhooks API
   slug: gett-webhooks-api
-artifact_total: 23
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gett Business Authentication API
+  slug: open-gett-authentication-api
+- collection_type: open
+  name: Gett Business Authentication Employee Management API
+  slug: open-gett-employee-management-api
+- collection_type: open
+  name: Gett Business Authentication Finance API
+  slug: open-gett-finance-api
+- collection_type: open
+  name: Gett Business Authentication Orders API
+  slug: open-gett-orders-api
+- collection_type: open
+  name: Gett Business Authentication Products API
+  slug: open-gett-products-api
+- collection_type: open
+  name: Gett Business Authentication Webhooks API
+  slug: open-gett-webhooks-api
 common:
 - group: agent
   title: ''
@@ -153,7 +175,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 76
+random_paper: 138
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -187,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/screenshots/gett-2026-06-20T181812.png
 security:

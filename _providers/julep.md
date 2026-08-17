@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -74,7 +74,47 @@ apis:
 - description: The Users API from Julep — 5 operation(s) for users.
   name: Julep Users API
   slug: julep-users-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Julep Agents API
+  slug: open-julep-agents-api
+- collection_type: open
+  name: Julep Agents Docs API
+  slug: open-julep-docs-api
+- collection_type: open
+  name: Julep Agents Embed API
+  slug: open-julep-embed-api
+- collection_type: open
+  name: Julep Agents Executions API
+  slug: open-julep-executions-api
+- collection_type: open
+  name: Julep Agents Files API
+  slug: open-julep-files-api
+- collection_type: open
+  name: Julep Agents Jobs API
+  slug: open-julep-jobs-api
+- collection_type: open
+  name: Julep Agents Projects API
+  slug: open-julep-projects-api
+- collection_type: open
+  name: Julep Agents Responses API
+  slug: open-julep-responses-api
+- collection_type: open
+  name: Julep Agents Secrets API
+  slug: open-julep-secrets-api
+- collection_type: open
+  name: Julep Agents Sessions API
+  slug: open-julep-sessions-api
+- collection_type: open
+  name: Julep Agents Tasks API
+  slug: open-julep-tasks-api
+- collection_type: open
+  name: Julep Agents Users API
+  slug: open-julep-users-api
 common:
 - group: agent
   title: ''
@@ -168,7 +208,7 @@ overview: 'Julep publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Julep''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 14 more developer resources.'
-random_paper: 64
+random_paper: 97
 score:
   band: thin
   composite: 36.0
@@ -192,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/screenshots/julep-2026-07-25T223304.png
 security:

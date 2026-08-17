@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 231
   human_in_the_loop: 6
@@ -124,7 +124,95 @@ apis:
 - description: This namespace contains endpoints and data types for user management.
   name: Dropbox Users API
   slug: dropbox-users-api
-artifact_total: 384
+artifact_total: 413
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dropbox API Reference Account API
+  slug: open-dropbox-account-api
+- collection_type: open
+  name: Dropbox API Reference Account Api App API
+  slug: open-dropbox-api-app-api
+- collection_type: open
+  name: Dropbox API Reference Account Auth API
+  slug: open-dropbox-auth-api
+- collection_type: open
+  name: Dropbox API Reference Account Bulk Send Job API
+  slug: open-dropbox-bulk-send-job-api
+- collection_type: open
+  name: Dropbox API Reference Account Check API
+  slug: open-dropbox-check-api
+- collection_type: open
+  name: Dropbox API Reference Account Contacts API
+  slug: open-dropbox-contacts-api
+- collection_type: open
+  name: Dropbox API Reference Account Embedded API
+  slug: open-dropbox-embedded-api
+- collection_type: open
+  name: Dropbox API Reference Account File_properties API
+  slug: open-dropbox-file-properties-api
+- collection_type: open
+  name: Dropbox API Reference Account File_requests API
+  slug: open-dropbox-file-requests-api
+- collection_type: open
+  name: Dropbox API Reference Account Files API
+  slug: open-dropbox-files-api
+- collection_type: open
+  name: Dropbox API Reference Account OAuth API
+  slug: open-dropbox-oauth-api
+- collection_type: open
+  name: Dropbox API Reference Account Report API
+  slug: open-dropbox-report-api
+- collection_type: open
+  name: Dropbox API Reference Account Sharing API
+  slug: open-dropbox-sharing-api
+- collection_type: open
+  name: Dropbox API Reference Account Signature Request API
+  slug: open-dropbox-signature-request-api
+- collection_type: open
+  name: Dropbox API Reference Account Team API
+  slug: open-dropbox-team-api
+- collection_type: open
+  name: Dropbox API Reference Account Team > Devices API
+  slug: open-dropbox-team-devices-api
+- collection_type: open
+  name: Dropbox API Reference Account Team > Groups API
+  slug: open-dropbox-team-groups-api
+- collection_type: open
+  name: Dropbox API Reference Account Team > Legal_holds API
+  slug: open-dropbox-team-legal-holds-api
+- collection_type: open
+  name: Dropbox API Reference Account Team > Linked_apps API
+  slug: open-dropbox-team-linked-apps-api
+- collection_type: open
+  name: Dropbox API Reference Account Team_log API
+  slug: open-dropbox-team-log-api
+- collection_type: open
+  name: Dropbox API Reference Account Team > Member_space_limits API
+  slug: open-dropbox-team-member-space-limits-api
+- collection_type: open
+  name: Dropbox API Reference Account Team > Members API
+  slug: open-dropbox-team-members-api
+- collection_type: open
+  name: Dropbox API Reference Account Team > Namespaces API
+  slug: open-dropbox-team-namespaces-api
+- collection_type: open
+  name: Dropbox API Reference Account Team > Reports API
+  slug: open-dropbox-team-reports-api
+- collection_type: open
+  name: Dropbox API Reference Account Team > Team_folder API
+  slug: open-dropbox-team-team-folder-api
+- collection_type: open
+  name: Dropbox API Reference Account Template API
+  slug: open-dropbox-template-api
+- collection_type: open
+  name: Dropbox API Reference Account Unclaimed Draft API
+  slug: open-dropbox-unclaimed-draft-api
+- collection_type: open
+  name: Dropbox API Reference Account Users API
+  slug: open-dropbox-users-api
 common:
 - group: agent
   title: ''
@@ -1222,7 +1310,7 @@ plans:
 - name: Dropbox Plans Pricing
   plan_count: 2
   slug: dropbox-plans-pricing
-random_paper: 46
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Dropbox Rate Limits
@@ -1256,7 +1344,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png
 security:

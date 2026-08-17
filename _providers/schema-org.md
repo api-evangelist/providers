@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: 'Schema.org is a collaborative, community-driven vocabulary for structured data on the internet. It provides a collection of shared vocabularies that webmasters and developers can use to mark up pages '
@@ -81,6 +81,62 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/schema-org-vocabulary.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://schema.org/docs/developers.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://schema.org/docs/gs.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/schemaorg
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://schema.org/docs/terms.html
+- group: build
+  title: ''
+  type: Packages
+  url: packages/schema-org-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/schema-org-llms.txt
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/schema-org-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/schema-org-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/schema-org-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/schema-org-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/schema-org-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/schema-org-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/schema-org-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/schema-org-rate-limits.yml
 created: '2026-05-02'
 description: Schema.org is a collaborative, community-driven project that creates and maintains a shared vocabulary for structured data on the web. Founded by Google, Microsoft, Yahoo, and Yandex in 2011, it provides types and properties that developers and webmasters use to annotate content in formats like JSON-LD, RDFa, and Microdata, enabling search engines and applications to better understand web content. The vocabulary currently consists of 800+ Types, 1500+ Properties, and covers domains including commerce, healthcare, organizations, events, creative works, and more. The Schema.org WebAPI type provides a standardized vocabulary for describing APIs in structured data.
 examples:
@@ -343,7 +399,7 @@ jsonld:
   property_count: 8
   slug: schema-org-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-08-13'
 name: Schema.org
 nav: Providers
 network: true
@@ -353,14 +409,14 @@ overview: 'Schema.org publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The Schema.org catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Schema.org''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
+  Schema.org''s developer surface includes documentation, engineering blog, support, getting-started guide, changelog, and 18 more developer resources.'
 plans:
 - name: Schema Org Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: schema-org-plans-pricing
-random_paper: 38
+random_paper: 104
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Schema Org Rate Limits
   slug: schema-org-rate-limits
 rules:
@@ -381,20 +437,20 @@ rules:
     warn: 5
   slug: schema-org-rules
 score:
-  band: emerging
-  composite: 27.3
-  delta: 0.0
+  band: thin
+  composite: 36.7
+  delta: 9.4
   facets:
-    commercial_clarity: 15.8
+    commercial_clarity: 18.4
     contract_quality: 17.7
-    developer_ergonomics: 15.2
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 7.9
+    developer_ergonomics: 34.8
+    discoverability: 81.5
+    governance: 81.3
+    operational_transparency: 28.9
   previous_composite: 27.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/screenshots/schema-org-2026-06-20T193515.png
 security:
 - kind: domain-security

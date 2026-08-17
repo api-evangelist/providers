@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,29 @@ apis:
 - description: Treasury securities auction results.
   name: U.S. Treasury Fiscal Data Securities API
   slug: fiscaldata-securities-api
-artifact_total: 11
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: U.S. Treasury Fiscal Data Daily Treasury Statement API
+  slug: open-fiscaldata-daily-treasury-statement-api
+- collection_type: open
+  name: U.S. Treasury Fiscal Data Daily Treasury Statement Debt API
+  slug: open-fiscaldata-debt-api
+- collection_type: open
+  name: U.S. Treasury Fiscal Data Daily Treasury Statement Exchange Rates API
+  slug: open-fiscaldata-exchange-rates-api
+- collection_type: open
+  name: U.S. Treasury Fiscal Data Daily Treasury Statement Interest Rates API
+  slug: open-fiscaldata-interest-rates-api
+- collection_type: open
+  name: U.S. Treasury Fiscal Data Daily Treasury Statement Monthly Treasury Statement API
+  slug: open-fiscaldata-monthly-treasury-statement-api
+- collection_type: open
+  name: U.S. Treasury Fiscal Data Daily Treasury Statement Securities API
+  slug: open-fiscaldata-securities-api
 - collection_type: open
   name: U.S. Treasury Fiscal Data API
   slug: open-fiscaldata
@@ -114,7 +135,7 @@ plans:
 - name: Fiscaldata Plans Pricing
   plan_count: 1
   slug: fiscaldata-plans-pricing
-random_paper: 76
+random_paper: 142
 rate_limits:
 - limit_count: 2
   name: Fiscaldata Rate Limits
@@ -145,7 +166,7 @@ score:
     regime_id: government
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/screenshots/fiscaldata-2026-07-25T214629.png
 slug: fiscaldata

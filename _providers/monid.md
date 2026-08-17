@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -32,7 +32,11 @@ apis:
 - description: The Monid HTTP API lets developers and AI agents discover data endpoints with natural language, inspect their details, run them, and manage runs, wallet balance, spend controls (budgets and run-caps),
   name: Monid API
   slug: monid-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Monid API
+  slug: open-monid
 common:
 - group: agent
   title: ''
@@ -149,7 +153,7 @@ overview: 'Monid publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Monid''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 55
+random_paper: 88
 scopes:
 - name: Monid Scopes
   scope_count: 5
@@ -178,7 +182,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/screenshots/monid-2026-08-07T184201.png
 security:

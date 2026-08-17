@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: The Apis API from Resend — 2 operation(s) for apis.
@@ -70,7 +70,7 @@ apis:
 - description: The Verify API from Resend — 1 operation(s) for verify.
   name: Resend Verify API
   slug: resend-verify-api
-artifact_total: 50
+artifact_total: 64
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Resend webhook surface. Resend delivers webhook events to subscriber-configured HTTPS endpoints using Svix as the underlying delivery and signing infrastructure. Every '
   name: Resend Webhooks
@@ -115,6 +115,48 @@ collections:
 - collection_type: postman
   name: Resend Verify API
   slug: postman-resend-verify-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Resend Apis API
+  slug: open-resend-apis-api
+- collection_type: open
+  name: Resend Audience API
+  slug: open-resend-audience-api
+- collection_type: open
+  name: Resend Audiences API
+  slug: open-resend-audiences-api
+- collection_type: open
+  name: Resend Batch API
+  slug: open-resend-batch-api
+- collection_type: open
+  name: Resend Broadcasts API
+  slug: open-resend-broadcasts-api
+- collection_type: open
+  name: Resend Cancel API
+  slug: open-resend-cancel-api
+- collection_type: open
+  name: Resend Contacts API
+  slug: open-resend-contacts-api
+- collection_type: open
+  name: Resend Domains API
+  slug: open-resend-domains-api
+- collection_type: open
+  name: Resend Email API
+  slug: open-resend-email-api
+- collection_type: open
+  name: Resend Emails API
+  slug: open-resend-emails-api
+- collection_type: open
+  name: Resend Keys API
+  slug: open-resend-keys-api
+- collection_type: open
+  name: Resend Send API
+  slug: open-resend-send-api
+- collection_type: open
+  name: Resend Verify API
+  slug: open-resend-verify-api
 common:
 - group: build
   title: ''
@@ -285,7 +327,7 @@ plans:
 - name: Resend Plans Pricing
   plan_count: 3
   slug: resend-plans-pricing
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Resend Rate Limits
@@ -334,7 +376,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

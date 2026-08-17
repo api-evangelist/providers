@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Model Context Protocol endpoint served from the Dragonfly Therapeutics website host. This is a platform-provided surface automatically provisioned by Wix for every site it builds — not a first-party D
@@ -112,7 +112,7 @@ plans:
 - name: Dragonfly Therapeutics Plans Pricing
   plan_count: 0
   slug: dragonfly-therapeutics-plans-pricing
-random_paper: 28
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Dragonfly Therapeutics Rate Limits
@@ -120,6 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -127,6 +128,7 @@ score:
     discoverability: 72.2
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: tags
@@ -134,7 +136,8 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Dragonfly Therapeutics Authentication

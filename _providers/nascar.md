@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -74,8 +74,47 @@ apis:
 - description: The Weekend API from NASCAR — 3 operation(s) for weekend.
   name: NASCAR Weekend API
   slug: nascar-weekend-api
-artifact_total: 18
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NASCAR Feed Companies API
+  slug: open-nascar-companies-api
+- collection_type: open
+  name: NASCAR Feed Companies Drivers API
+  slug: open-nascar-drivers-api
+- collection_type: open
+  name: NASCAR Feed Companies EntryList API
+  slug: open-nascar-entrylist-api
+- collection_type: open
+  name: NASCAR Feed Companies Inspection API
+  slug: open-nascar-inspection-api
+- collection_type: open
+  name: NASCAR Feed Companies Live API
+  slug: open-nascar-live-api
+- collection_type: open
+  name: NASCAR Feed Companies Points API
+  slug: open-nascar-points-api
+- collection_type: open
+  name: NASCAR Feed Companies Races API
+  slug: open-nascar-races-api
+- collection_type: open
+  name: NASCAR Feed Companies Series API
+  slug: open-nascar-series-api
+- collection_type: open
+  name: NASCAR Feed Companies Stats API
+  slug: open-nascar-stats-api
+- collection_type: open
+  name: NASCAR Feed Companies Tracks API
+  slug: open-nascar-tracks-api
+- collection_type: open
+  name: NASCAR Feed Companies TrackTemp API
+  slug: open-nascar-tracktemp-api
+- collection_type: open
+  name: NASCAR Feed Companies Weekend API
+  slug: open-nascar-weekend-api
 - collection_type: open
   name: NASCAR Feed API
   slug: open-nascar
@@ -128,7 +167,7 @@ plans:
 - name: Nascar Plans Pricing
   plan_count: 3
   slug: nascar-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Nascar Rate Limits
@@ -153,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/screenshots/nascar-2026-06-20T185957.png
 security:

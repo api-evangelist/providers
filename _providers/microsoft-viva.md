@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Viva Connections provides a personalized employee experience gateway built on SharePoint. Developers can create custom dashboard cards using Adaptive Card Extensions (ACEs) in the SharePoint Framework
@@ -98,7 +98,7 @@ plans:
 - name: Microsoft Viva Plans Pricing
   plan_count: 3
   slug: microsoft-viva-plans-pricing
-random_paper: 25
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Microsoft Viva Rate Limits
@@ -116,7 +116,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 19.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-viva/refs/heads/main/screenshots/microsoft-viva-2026-06-20T185542.png
 security:

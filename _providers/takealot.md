@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -73,11 +73,50 @@ apis:
 - description: The view sales orders API from Takealot — 2 operation(s) for view sales orders.
   name: Takealot view sales orders API
   slug: takealot-view-sales-orders-api
-artifact_total: 16
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Takealot Seller Create a batch API
+  slug: open-takealot-create-a-batch-api
+- collection_type: open
+  name: Takealot Seller Create a batch Create an offer API
+  slug: open-takealot-create-an-offer-api
+- collection_type: open
+  name: Takealot Seller Create a batch Get a batch API
+  slug: open-takealot-get-a-batch-api
+- collection_type: open
+  name: Takealot Seller Create a batch Get an offer API
+  slug: open-takealot-get-an-offer-api
+- collection_type: open
+  name: Takealot Seller Create a batch Get offers API
+  slug: open-takealot-get-offers-api
+- collection_type: open
+  name: Takealot Seller Create a batch Get offers count API
+  slug: open-takealot-get-offers-count-api
+- collection_type: open
+  name: Takealot Seller Create a batch Get stock counts API
+  slug: open-takealot-get-stock-counts-api
+- collection_type: open
+  name: Takealot Seller Create a batch Get stock health API
+  slug: open-takealot-get-stock-health-api
+- collection_type: open
+  name: Takealot Seller Create a batch sales summary API
+  slug: open-takealot-sales-summary-api
 - collection_type: open
   name: Takealot Seller API
   slug: open-takealot-seller
+- collection_type: open
+  name: Takealot Seller Create a batch Update an offer API
+  slug: open-takealot-update-an-offer-api
+- collection_type: open
+  name: Takealot Seller Create a batch view sales API
+  slug: open-takealot-view-sales-api
+- collection_type: open
+  name: Takealot Seller Create a batch view sales orders API
+  slug: open-takealot-view-sales-orders-api
 common:
 - group: agent
   title: ''
@@ -193,7 +232,7 @@ overview: 'Takealot publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Takealot''s developer surface includes GitHub presence, YouTube channel, and 23 more developer resources.'
-random_paper: 13
+random_paper: 108
 score:
   band: emerging
   composite: 22.7
@@ -214,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

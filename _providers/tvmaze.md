@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
 - description: The voted shows API from TVmaze — 2 operation(s) for voted shows.
   name: TVmaze voted shows API
   slug: tvmaze-voted-shows-api
-artifact_total: 152
+artifact_total: 170
 collections:
 - collection_type: postman
   name: TVmaze Premium User auth API
@@ -144,11 +144,65 @@ collections:
   name: TVmaze Premium User auth voted shows API
   slug: postman-tvmaze-voted-shows-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TVmaze Premium User auth API
+  slug: open-tvmaze-auth-api
+- collection_type: open
+  name: TVmaze Premium User auth Episodes API
+  slug: open-tvmaze-episodes-api
+- collection_type: open
+  name: TVmaze Premium User auth followed networks API
+  slug: open-tvmaze-followed-networks-api
+- collection_type: open
+  name: TVmaze Premium User auth followed people API
+  slug: open-tvmaze-followed-people-api
+- collection_type: open
+  name: TVmaze Premium User auth followed shows API
+  slug: open-tvmaze-followed-shows-api
+- collection_type: open
+  name: TVmaze Premium User auth followed webchannels API
+  slug: open-tvmaze-followed-webchannels-api
+- collection_type: open
+  name: TVmaze Premium User auth marked episodes API
+  slug: open-tvmaze-marked-episodes-api
+- collection_type: open
+  name: TVmaze Premium User auth People API
+  slug: open-tvmaze-people-api
+- collection_type: open
   name: TVmaze Premium User API
   slug: open-tvmaze-premium
 - collection_type: open
   name: TVmaze Public API
   slug: open-tvmaze-public
+- collection_type: open
+  name: TVmaze Premium User auth Schedule API
+  slug: open-tvmaze-schedule-api
+- collection_type: open
+  name: TVmaze Premium User auth scrobbling API
+  slug: open-tvmaze-scrobbling-api
+- collection_type: open
+  name: TVmaze Premium User auth Search API
+  slug: open-tvmaze-search-api
+- collection_type: open
+  name: TVmaze Premium User auth Seasons API
+  slug: open-tvmaze-seasons-api
+- collection_type: open
+  name: TVmaze Premium User auth Shows API
+  slug: open-tvmaze-shows-api
+- collection_type: open
+  name: TVmaze Premium User auth tagged shows API
+  slug: open-tvmaze-tagged-shows-api
+- collection_type: open
+  name: TVmaze Premium User auth Updates API
+  slug: open-tvmaze-updates-api
+- collection_type: open
+  name: TVmaze Premium User auth voted episodes API
+  slug: open-tvmaze-voted-episodes-api
+- collection_type: open
+  name: TVmaze Premium User auth voted shows API
+  slug: open-tvmaze-voted-shows-api
 common:
 - group: build
   title: ''
@@ -567,7 +621,7 @@ plans:
 - name: Tvmaze Plans Pricing
   plan_count: 5
   slug: tvmaze-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Tvmaze Rate Limits
@@ -609,7 +663,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/screenshots/tvmaze-2026-06-20T195842.png
 security:

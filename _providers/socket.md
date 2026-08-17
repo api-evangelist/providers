@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -99,11 +99,75 @@ apis:
 - description: The webhooks API from Socket — 2 operation(s) for webhooks.
   name: Socket webhooks API
   slug: socket-webhooks-api
-artifact_total: 28
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Socket Webhooks
   slug: socket-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Endpoints alerts API
+  slug: open-socket-alerts-api
+- collection_type: open
+  name: API Endpoints alerts api-tokens API
+  slug: open-socket-api-tokens-api
+- collection_type: open
+  name: API Endpoints alerts audit-log API
+  slug: open-socket-audit-log-api
+- collection_type: open
+  name: API Endpoints alerts dependencies API
+  slug: open-socket-dependencies-api
+- collection_type: open
+  name: API Endpoints alerts deprecated API
+  slug: open-socket-deprecated-api
+- collection_type: open
+  name: API Endpoints alerts diff-scans API
+  slug: open-socket-diff-scans-api
+- collection_type: open
+  name: API Endpoints alerts fixes API
+  slug: open-socket-fixes-api
+- collection_type: open
+  name: API Endpoints alerts full-scans API
+  slug: open-socket-full-scans-api
+- collection_type: open
+  name: API Endpoints alerts license-policy API
+  slug: open-socket-license-policy-api
+- collection_type: open
+  name: API Endpoints alerts metadata API
+  slug: open-socket-metadata-api
+- collection_type: open
+  name: API Endpoints alerts org-settings API
+  slug: open-socket-org-settings-api
+- collection_type: open
+  name: API Endpoints alerts org-snapshots API
+  slug: open-socket-org-snapshots-api
+- collection_type: open
+  name: API Endpoints alerts packages API
+  slug: open-socket-packages-api
+- collection_type: open
+  name: API Endpoints alerts repo-labels API
+  slug: open-socket-repo-labels-api
+- collection_type: open
+  name: API Endpoints alerts repos API
+  slug: open-socket-repos-api
+- collection_type: open
+  name: API Endpoints alerts security-policy API
+  slug: open-socket-security-policy-api
+- collection_type: open
+  name: API Endpoints alerts telemetry API
+  slug: open-socket-telemetry-api
+- collection_type: open
+  name: API Endpoints alerts threat-feed API
+  slug: open-socket-threat-feed-api
+- collection_type: open
+  name: API Endpoints alerts triage API
+  slug: open-socket-triage-api
+- collection_type: open
+  name: API Endpoints alerts webhooks API
+  slug: open-socket-webhooks-api
 common:
 - group: other
   title: ''
@@ -264,7 +328,7 @@ overview: 'Socket publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Socket''s developer surface includes documentation, getting-started guide, API reference, support, authentication, changelog, CLI, and 28 more developer resources.'
-random_paper: 49
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Socket Rate Limits
@@ -297,7 +361,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

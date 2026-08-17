@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -233,8 +233,203 @@ apis:
 - description: Manage the mode used with your WAF rules. Your mode you set determines how your rule sets are updated.
   name: 'Akamai API Security WAF rules: Update mode API'
   slug: akamai-api-security-waf-rules-update-mode-api
-artifact_total: 303
+artifact_total: 368
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Akamai: Application Security Activation history API'
+  slug: open-akamai-api-security-activation-history-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Activation status API'
+  slug: open-akamai-api-security-activation-status-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Activations API'
+  slug: open-akamai-api-security-activations-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history API endpoints API'
+  slug: open-akamai-api-security-api-endpoints-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history API request constraints API'
+  slug: open-akamai-api-security-api-request-constraints-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Attack payload logs API'
+  slug: open-akamai-api-security-attack-payload-logs-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Available hostnames API'
+  slug: open-akamai-api-security-available-hostnames-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Bypass network lists API'
+  slug: open-akamai-api-security-bypass-network-lists-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Client reputation API'
+  slug: open-akamai-api-security-client-reputation-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Client-Side Protections & Compliance API'
+  slug: open-akamai-api-security-client-side-protections-compliance-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Configuration: Evaluation hostnames API'
+  slug: open-akamai-api-security-configuration-evaluation-hostnames-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Configuration version diff API'
+  slug: open-akamai-api-security-configuration-version-diff-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Configuration version export API'
+  slug: open-akamai-api-security-configuration-version-export-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Contracts and groups API'
+  slug: open-akamai-api-security-contracts-and-groups-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Cookie Settings API'
+  slug: open-akamai-api-security-cookie-settings-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Custom rule actions API'
+  slug: open-akamai-api-security-custom-rule-actions-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history CVE Protections lookup API'
+  slug: open-akamai-api-security-cve-protections-lookup-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Discovered APIs API'
+  slug: open-akamai-api-security-discovered-apis-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Endpoints API'
+  slug: open-akamai-api-security-endpoints-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Evasive path match API'
+  slug: open-akamai-api-security-evasive-path-match-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Failover hostnames API'
+  slug: open-akamai-api-security-failover-hostnames-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history General configuration settings API'
+  slug: open-akamai-api-security-general-configuration-settings-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history General policy settings API'
+  slug: open-akamai-api-security-general-policy-settings-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Hostname coverage API'
+  slug: open-akamai-api-security-hostname-coverage-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Hostnames API'
+  slug: open-akamai-api-security-hostnames-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history HTTP header logs API'
+  slug: open-akamai-api-security-http-header-logs-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history IP/Geo Firewall settings API'
+  slug: open-akamai-api-security-ip-geo-firewall-settings-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Malware policy actions API'
+  slug: open-akamai-api-security-malware-policy-actions-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Match targets API'
+  slug: open-akamai-api-security-match-targets-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Onboarding: Activations and status API'
+  slug: open-akamai-api-security-onboarding-activations-and-status-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Onboarding: Creation and settings API'
+  slug: open-akamai-api-security-onboarding-creation-and-settings-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Onboarding: Post-activation validation API'
+  slug: open-akamai-api-security-onboarding-post-activation-validation-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history PII learning API'
+  slug: open-akamai-api-security-pii-learning-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Pragma settings API'
+  slug: open-akamai-api-security-pragma-settings-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Prefetch requests API'
+  slug: open-akamai-api-security-prefetch-requests-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Protections API'
+  slug: open-akamai-api-security-protections-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Rate policy actions API'
+  slug: open-akamai-api-security-rate-policy-actions-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Reputation analysis API'
+  slug: open-akamai-api-security-reputation-analysis-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Request body inspection limits API'
+  slug: open-akamai-api-security-request-body-inspection-limits-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Request body size API'
+  slug: open-akamai-api-security-request-body-size-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Security policy: Conditions and exceptions API'
+  slug: open-akamai-api-security-security-policy-conditions-and-exceptions-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Security policy: Evaluation attack groups API'
+  slug: open-akamai-api-security-security-policy-evaluation-attack-groups-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Security policy: Evaluation hostnames API'
+  slug: open-akamai-api-security-security-policy-evaluation-hostnames-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Security policy: Evaluation mode API'
+  slug: open-akamai-api-security-security-policy-evaluation-mode-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Security policy: Evaluation penalty box API'
+  slug: open-akamai-api-security-security-policy-evaluation-penalty-box-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Security policy: Evaluation rules API'
+  slug: open-akamai-api-security-security-policy-evaluation-rules-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Shared resources: Custom deny actions API'
+  slug: open-akamai-api-security-shared-resources-custom-deny-actions-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Shared resources: Custom rules API'
+  slug: open-akamai-api-security-shared-resources-custom-rules-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Shared resources: Malware policies API'
+  slug: open-akamai-api-security-shared-resources-malware-policies-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Shared resources: Rate policies API'
+  slug: open-akamai-api-security-shared-resources-rate-policies-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Shared resources: Reputation profiles API'
+  slug: open-akamai-api-security-shared-resources-reputation-profiles-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history SIEM settings API'
+  slug: open-akamai-api-security-siem-settings-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Slow POST protections API'
+  slug: open-akamai-api-security-slow-post-protections-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history Subscriptions API'
+  slug: open-akamai-api-security-subscriptions-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history URL protection policies API'
+  slug: open-akamai-api-security-url-protection-policies-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history URL protection policy actions API'
+  slug: open-akamai-api-security-url-protection-policy-actions-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history WAF rules: Attack groups API'
+  slug: open-akamai-api-security-waf-rules-attack-groups-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history WAF rules: Evaluation Penalty box conditions API'
+  slug: open-akamai-api-security-waf-rules-evaluation-penalty-box-conditions-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history WAF rules: General settings API'
+  slug: open-akamai-api-security-waf-rules-general-settings-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history WAF rules: Penalty box API'
+  slug: open-akamai-api-security-waf-rules-penalty-box-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history WAF rules: Penalty box conditions API'
+  slug: open-akamai-api-security-waf-rules-penalty-box-conditions-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history WAF rules: Rapid rules API'
+  slug: open-akamai-api-security-waf-rules-rapid-rules-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history WAF rules: Tuning recommendations API'
+  slug: open-akamai-api-security-waf-rules-tuning-recommendations-api
+- collection_type: open
+  name: 'Akamai: Application Security Activation history WAF rules: Update mode API'
+  slug: open-akamai-api-security-waf-rules-update-mode-api
 - collection_type: open
   name: 'Akamai: Application Security API'
   slug: open-akamai-api-security
@@ -993,7 +1188,7 @@ plans:
 - name: Akamai Api Security Plans Pricing
   plan_count: 3
   slug: akamai-api-security-plans-pricing
-random_paper: 104
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Akamai Api Security Rate Limits
@@ -1035,7 +1230,7 @@ score:
       marker_coverage: 0.0
       total: 64
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/screenshots/akamai-api-security-2026-06-20T171447.png
 security:

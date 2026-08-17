@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: Patient demographic and identity resources
   name: HL7 FHIR Patient API
   slug: hl7-fhir-patient-api
-artifact_total: 19
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HL7 FHIR R4 Healthcare Bundle API
+  slug: open-hl7-fhir-bundle-api
+- collection_type: open
+  name: HL7 FHIR R4 Healthcare Bundle Condition API
+  slug: open-hl7-fhir-condition-api
+- collection_type: open
+  name: HL7 FHIR R4 Healthcare Bundle Encounter API
+  slug: open-hl7-fhir-encounter-api
+- collection_type: open
+  name: HL7 FHIR R4 Healthcare Bundle MedicationRequest API
+  slug: open-hl7-fhir-medicationrequest-api
+- collection_type: open
+  name: HL7 FHIR R4 Healthcare Bundle Observation API
+  slug: open-hl7-fhir-observation-api
+- collection_type: open
+  name: HL7 FHIR R4 Healthcare Bundle Patient API
+  slug: open-hl7-fhir-patient-api
 - collection_type: open
   name: HL7 FHIR R4 Healthcare API
   slug: open-hl7-fhir-r4
@@ -161,7 +182,7 @@ plans:
 - name: Hl7 Fhir Plans Pricing
   plan_count: 3
   slug: hl7-fhir-plans-pricing
-random_paper: 17
+random_paper: 141
 rate_limits:
 - limit_count: 5
   name: Hl7 Fhir Rate Limits
@@ -206,7 +227,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/screenshots/hl7-fhir-2026-06-20T182802.png
 security:

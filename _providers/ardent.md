@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 2
@@ -56,7 +56,29 @@ apis:
 - description: The v1-projects API from Ardent — 2 operation(s) for v1-projects.
   name: Ardent v1-projects API
   slug: ardent-v1-projects-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ardent v1-api-keys API
+  slug: open-ardent-v1-api-keys-api
+- collection_type: open
+  name: Ardent v1-api-keys v1-branching API
+  slug: open-ardent-v1-branching-api
+- collection_type: open
+  name: Ardent v1-api-keys v1-connectors API
+  slug: open-ardent-v1-connectors-api
+- collection_type: open
+  name: Ardent v1-api-keys v1-operations API
+  slug: open-ardent-v1-operations-api
+- collection_type: open
+  name: Ardent v1-api-keys v1-orgs API
+  slug: open-ardent-v1-orgs-api
+- collection_type: open
+  name: Ardent v1-api-keys v1-projects API
+  slug: open-ardent-v1-projects-api
 common:
 - group: build
   title: ''
@@ -182,7 +204,7 @@ overview: 'Ardent publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ardent''s developer surface includes CLI, sandbox, authentication, documentation, API reference, getting-started guide, support, and 20 more developer resources.'
-random_paper: 38
+random_paper: 42
 score:
   band: developing
   composite: 45.7
@@ -206,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/screenshots/ardent-2026-07-25T201116.png
 security:

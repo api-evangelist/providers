@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Upload new content from a URL or a file
   name: Pixlee Media API
   slug: pixlee-media-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pixlee Content Albums API
+  slug: open-pixlee-albums-api
+- collection_type: open
+  name: Pixlee Albums Content API
+  slug: open-pixlee-content-api
+- collection_type: open
+  name: Pixlee Content Albums Media API
+  slug: open-pixlee-media-api
 common:
 - group: start
   title: ''
@@ -185,7 +198,7 @@ overview: 'Pixlee publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Pixlee''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 47
+random_paper: 51
 score:
   band: developing
   composite: 48.3
@@ -209,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

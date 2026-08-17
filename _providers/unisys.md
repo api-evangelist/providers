@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Isolate and un-isolate users from the Stealth network
   name: Unisys User Isolation API
   slug: unisys-user-isolation-api
-artifact_total: 25
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unisys Stealth Eco Combined Isolation API
+  slug: open-unisys-combined-isolation-api
+- collection_type: open
+  name: Unisys Stealth Eco Combined Isolation Endpoint Isolation API
+  slug: open-unisys-endpoint-isolation-api
+- collection_type: open
+  name: Unisys Stealth Eco Combined Isolation Roles API
+  slug: open-unisys-roles-api
+- collection_type: open
+  name: Unisys Stealth Eco Combined Isolation User Isolation API
+  slug: open-unisys-user-isolation-api
 common:
 - group: agent
   title: ''
@@ -150,7 +166,7 @@ press:
 - date: '2026-05-25'
   title: Earnings Releases
   url: https://www.unisys.com/investor-relations/earnings-releases/
-random_paper: 83
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Unisys Rate Limits
@@ -200,7 +216,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

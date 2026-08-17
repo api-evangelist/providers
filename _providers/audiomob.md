@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Audiomob is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Audiomob''s developer surface includes documentation, signup flow, engineering blog, support, changelog, and 7 more developer resources.'
-random_paper: 8
+random_paper: 103
 score:
   band: emerging
   composite: 19.4
@@ -105,7 +105,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audiomob/refs/heads/main/screenshots/audiomob-2026-07-25T201656.png
 security:

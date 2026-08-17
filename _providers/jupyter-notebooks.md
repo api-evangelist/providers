@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -54,8 +54,26 @@ apis:
 - description: Terminal sessions.
   name: Jupyter Notebooks Terminals API
   slug: jupyter-notebooks-terminals-api
-artifact_total: 16
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jupyter Notebook Server REST Contents API
+  slug: open-jupyter-notebooks-contents-api
+- collection_type: open
+  name: Jupyter Notebook Server REST Contents Kernels API
+  slug: open-jupyter-notebooks-kernels-api
+- collection_type: open
+  name: Jupyter Notebook Server REST Contents KernelSpecs API
+  slug: open-jupyter-notebooks-kernelspecs-api
+- collection_type: open
+  name: Jupyter Notebook Server REST Contents Sessions API
+  slug: open-jupyter-notebooks-sessions-api
+- collection_type: open
+  name: Jupyter Notebook Server REST Contents Terminals API
+  slug: open-jupyter-notebooks-terminals-api
 - collection_type: open
   name: Jupyter Notebook Server REST API
   slug: open-jupyter-notebooks
@@ -136,7 +154,7 @@ plans:
 - name: Jupyter Notebooks Plans Pricing
   plan_count: 3
   slug: jupyter-notebooks-plans-pricing
-random_paper: 12
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Jupyter Notebooks Rate Limits
@@ -170,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/screenshots/jupyter-notebooks-2026-06-20T183840.png
 security:

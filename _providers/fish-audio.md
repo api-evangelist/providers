@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: The Wallet API from Fish Audio — 2 operation(s) for wallet.
   name: Fish Audio Wallet API
   slug: fish-audio-wallet-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fish Audio Asr API
+  slug: open-fish-audio-asr-api
+- collection_type: open
+  name: Fish Audio Asr Model API
+  slug: open-fish-audio-model-api
+- collection_type: open
+  name: Fish Audio Asr Tts API
+  slug: open-fish-audio-tts-api
+- collection_type: open
+  name: Fish Audio Asr Wallet API
+  slug: open-fish-audio-wallet-api
 - collection_type: open
   name: Fish Audio API
   slug: open-fish-audio
@@ -132,7 +147,7 @@ plans:
 - name: Fish Audio Plans Pricing
   plan_count: 1
   slug: fish-audio-plans-pricing
-random_paper: 41
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Fish Audio Rate Limits
@@ -157,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/screenshots/fish-audio-2026-06-20T181249.png
 security:

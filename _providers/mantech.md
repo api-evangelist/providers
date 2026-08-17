@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ name: ManTech International
 nav: Providers
 network: true
 overview: ManTech International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Intelligence, Cybersecurity, Federal Services, and Information Technology.
-random_paper: 16
+random_paper: 140
 score:
   band: minimal
   composite: 6.5
@@ -100,7 +100,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantech/refs/heads/main/screenshots/mantech-2026-06-20T184929.png
 security:

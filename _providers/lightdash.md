@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 5
@@ -189,7 +189,161 @@ apis:
 - description: The Validation API from Lightdash — 2 operation(s) for validation.
   name: Lightdash Validation API
   slug: lightdash-validation-api
-artifact_total: 73
+artifact_total: 124
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lightdash AiAgents API
+  slug: open-lightdash-aiagents-api
+- collection_type: open
+  name: Lightdash AiAgents Bulk action API
+  slug: open-lightdash-bulk-action-api
+- collection_type: open
+  name: Lightdash AiAgents Catalog API
+  slug: open-lightdash-catalog-api
+- collection_type: open
+  name: Lightdash AiAgents Changesets API
+  slug: open-lightdash-changesets-api
+- collection_type: open
+  name: Lightdash AiAgents Charts API
+  slug: open-lightdash-charts-api
+- collection_type: open
+  name: Lightdash AiAgents Comments API
+  slug: open-lightdash-comments-api
+- collection_type: open
+  name: Lightdash AiAgents Content API
+  slug: open-lightdash-content-api
+- collection_type: open
+  name: Lightdash AiAgents Custom Roles API
+  slug: open-lightdash-custom-roles-api
+- collection_type: open
+  name: Lightdash AiAgents Dashboards API
+  slug: open-lightdash-dashboards-api
+- collection_type: open
+  name: Lightdash AiAgents Explorer API
+  slug: open-lightdash-explorer-api
+- collection_type: open
+  name: Lightdash AiAgents Exploring API
+  slug: open-lightdash-exploring-api
+- collection_type: open
+  name: Lightdash AiAgents Exports API
+  slug: open-lightdash-exports-api
+- collection_type: open
+  name: Lightdash AiAgents Feature Flag API
+  slug: open-lightdash-feature-flag-api
+- collection_type: open
+  name: Lightdash AiAgents Files API
+  slug: open-lightdash-files-api
+- collection_type: open
+  name: Lightdash AiAgents Funnel API
+  slug: open-lightdash-funnel-api
+- collection_type: open
+  name: Lightdash AiAgents Git Files API
+  slug: open-lightdash-git-files-api
+- collection_type: open
+  name: Lightdash AiAgents Git Integration API
+  slug: open-lightdash-git-integration-api
+- collection_type: open
+  name: Lightdash AiAgents Github API
+  slug: open-lightdash-github-api
+- collection_type: open
+  name: Lightdash AiAgents Gitlab API
+  slug: open-lightdash-gitlab-api
+- collection_type: open
+  name: Lightdash AiAgents Impersonation API
+  slug: open-lightdash-impersonation-api
+- collection_type: open
+  name: Lightdash AiAgents Integrations API
+  slug: open-lightdash-integrations-api
+- collection_type: open
+  name: Lightdash AiAgents Map API
+  slug: open-lightdash-map-api
+- collection_type: open
+  name: Lightdash AiAgents Metrics API
+  slug: open-lightdash-metrics-api
+- collection_type: open
+  name: Lightdash AiAgents Metrics Explorer API
+  slug: open-lightdash-metrics-explorer-api
+- collection_type: open
+  name: Lightdash AiAgents Move content API
+  slug: open-lightdash-move-content-api
+- collection_type: open
+  name: Lightdash AiAgents My Account API
+  slug: open-lightdash-my-account-api
+- collection_type: open
+  name: Lightdash AiAgents Notifications API
+  slug: open-lightdash-notifications-api
+- collection_type: open
+  name: Lightdash AiAgents Org API
+  slug: open-lightdash-org-api
+- collection_type: open
+  name: Lightdash AiAgents Organization Roles API
+  slug: open-lightdash-organization-roles-api
+- collection_type: open
+  name: Lightdash AiAgents Organization Warehouse Credentials API
+  slug: open-lightdash-organization-warehouse-credentials-api
+- collection_type: open
+  name: Lightdash AiAgents Organizations API
+  slug: open-lightdash-organizations-api
+- collection_type: open
+  name: Lightdash AiAgents Parameters API
+  slug: open-lightdash-parameters-api
+- collection_type: open
+  name: Lightdash AiAgents Pre-Aggregates API
+  slug: open-lightdash-pre-aggregates-api
+- collection_type: open
+  name: Lightdash AiAgents Project API
+  slug: open-lightdash-project-api
+- collection_type: open
+  name: Lightdash AiAgents Project Roles API
+  slug: open-lightdash-project-roles-api
+- collection_type: open
+  name: Lightdash AiAgents Projects API
+  slug: open-lightdash-projects-api
+- collection_type: open
+  name: Lightdash AiAgents Pull Requests API
+  slug: open-lightdash-pull-requests-api
+- collection_type: open
+  name: Lightdash AiAgents Query API
+  slug: open-lightdash-query-api
+- collection_type: open
+  name: Lightdash AiAgents Roles & Permissions API
+  slug: open-lightdash-roles-permissions-api
+- collection_type: open
+  name: Lightdash AiAgents Schedulers API
+  slug: open-lightdash-schedulers-api
+- collection_type: open
+  name: Lightdash AiAgents SCIM API
+  slug: open-lightdash-scim-api
+- collection_type: open
+  name: Lightdash AiAgents Share links API
+  slug: open-lightdash-share-links-api
+- collection_type: open
+  name: Lightdash AiAgents Spaces API
+  slug: open-lightdash-spaces-api
+- collection_type: open
+  name: Lightdash AiAgents Spotlight API
+  slug: open-lightdash-spotlight-api
+- collection_type: open
+  name: Lightdash AiAgents SQL runner API
+  slug: open-lightdash-sql-runner-api
+- collection_type: open
+  name: Lightdash AiAgents SSH Keypairs API
+  slug: open-lightdash-ssh-keypairs-api
+- collection_type: open
+  name: Lightdash AiAgents User attributes API
+  slug: open-lightdash-user-attributes-api
+- collection_type: open
+  name: Lightdash AiAgents User Groups API
+  slug: open-lightdash-user-groups-api
+- collection_type: open
+  name: Lightdash AiAgents v2 API
+  slug: open-lightdash-v2-api
+- collection_type: open
+  name: Lightdash AiAgents Validation API
+  slug: open-lightdash-validation-api
 common:
 - group: agent
   title: ''
@@ -322,7 +476,7 @@ plans:
 - name: Lightdash Plans Pricing
   plan_count: 3
   slug: lightdash-plans-pricing
-random_paper: 112
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Lightdash Rate Limits
@@ -356,7 +510,7 @@ score:
       marker_coverage: 0.0
       total: 50
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/screenshots/lightdash-2026-06-20T184520.png
 security:

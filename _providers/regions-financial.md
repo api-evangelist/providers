@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -54,8 +54,26 @@ apis:
 - description: Account transaction history
   name: regions-financial Transactions API
   slug: regions-financial-transactions-api
-artifact_total: 22
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Regions Open Banking Account Information API
+  slug: open-regions-financial-account-information-api
+- collection_type: open
+  name: Regions Open Banking Account Information Consent API
+  slug: open-regions-financial-consent-api
+- collection_type: open
+  name: Regions Open Banking Account Information Customer API
+  slug: open-regions-financial-customer-api
+- collection_type: open
+  name: Regions Open Banking Account Information Payments API
+  slug: open-regions-financial-payments-api
+- collection_type: open
+  name: Regions Open Banking Account Information Transactions API
+  slug: open-regions-financial-transactions-api
 - collection_type: open
   name: Regions Open Banking API
   slug: open-regions-open-banking
@@ -164,7 +182,7 @@ press:
 - date: '2026-05-25'
   title: Regions AI tool helps steer cross-selling
   url: https://www.americanbanker.com/news/regions-ai-tool-helps-steer-cross-selling
-random_paper: 57
+random_paper: 98
 rate_limits:
 - limit_count: 1
   name: Regions Financial Rate Limits
@@ -217,7 +235,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

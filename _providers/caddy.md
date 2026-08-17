@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -56,8 +56,26 @@ apis:
 - description: The Reverse Proxy API from Caddy — 1 operation(s) for reverse proxy.
   name: Caddy Reverse Proxy API
   slug: caddy-reverse-proxy-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Caddy Admin Adapt API
+  slug: open-caddy-adapt-api
+- collection_type: open
+  name: Caddy Admin Adapt Configuration API
+  slug: open-caddy-configuration-api
+- collection_type: open
+  name: Caddy Admin Adapt Lifecycle API
+  slug: open-caddy-lifecycle-api
+- collection_type: open
+  name: Caddy Admin Adapt PKI API
+  slug: open-caddy-pki-api
+- collection_type: open
+  name: Caddy Admin Adapt Reverse Proxy API
+  slug: open-caddy-reverse-proxy-api
 - collection_type: open
   name: Caddy Admin API
   slug: open-caddy
@@ -134,7 +152,7 @@ plans:
 - name: Caddy Plans Pricing
   plan_count: 3
   slug: caddy-plans-pricing
-random_paper: 37
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Caddy Rate Limits
@@ -159,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/screenshots/caddy-2026-06-20T173835.png
 security:

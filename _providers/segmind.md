@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: Upload reusable assets
   name: Segmind Storage API
   slug: segmind-storage-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Segmind Account API
+  slug: open-segmind-account-api
+- collection_type: open
+  name: Segmind Account Fine-tuning API
+  slug: open-segmind-fine-tuning-api
+- collection_type: open
+  name: Segmind Account Inference API
+  slug: open-segmind-inference-api
+- collection_type: open
+  name: Segmind Account Storage API
+  slug: open-segmind-storage-api
 - collection_type: open
   name: Segmind API
   slug: open-segmind
@@ -108,7 +123,7 @@ plans:
 - name: Segmind Plans Pricing
   plan_count: 3
   slug: segmind-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 5
   name: Segmind Rate Limits
@@ -133,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/screenshots/segmind-2026-06-20T193634.png
 security:

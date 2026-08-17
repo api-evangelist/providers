@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Generate Bearer tokens for authenticated access.
   name: Airport Gap Tokens API
   slug: airport-gap-tokens-api
-artifact_total: 20
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airport Gap REST Airports API
+  slug: open-airport-gap-airports-api
+- collection_type: open
+  name: Airport Gap REST Airports Distance API
+  slug: open-airport-gap-distance-api
+- collection_type: open
+  name: Airport Gap REST Airports Favorites API
+  slug: open-airport-gap-favorites-api
+- collection_type: open
+  name: Airport Gap REST Airports Tokens API
+  slug: open-airport-gap-tokens-api
 common:
 - group: operate
   title: ''
@@ -155,7 +171,7 @@ plans:
 - name: Airport Gap Plans Pricing
   plan_count: 1
   slug: airport-gap-plans-pricing
-random_paper: 46
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Airport Gap Rate Limits
@@ -189,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/screenshots/airport-gap-2026-06-20T171424.png
 security:

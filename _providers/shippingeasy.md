@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,11 +44,20 @@ apis:
 - description: API-enabled stores configured in the ShippingEasy account.
   name: ShippingEasy Stores API
   slug: shippingeasy-stores-api
-artifact_total: 6
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: ShippingEasy Customer API
   slug: open-shippingeasy-customer-api
+- collection_type: open
+  name: ShippingEasy Customer Orders API
+  slug: open-shippingeasy-orders-api
+- collection_type: open
+  name: ShippingEasy Customer Orders Stores API
+  slug: open-shippingeasy-stores-api
 common:
 - group: agent
   title: ''
@@ -150,7 +159,7 @@ overview: 'ShippingEasy publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ShippingEasy''s developer surface includes authentication, pricing, documentation, signup flow, support, engineering blog, YouTube channel, and 15 more developer resources.'
-random_paper: 100
+random_paper: 108
 score:
   band: thin
   composite: 35.4
@@ -177,7 +186,7 @@ score:
     regime_id: telecommunications
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/screenshots/shippingeasy-2026-06-20T193821.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,8 +60,23 @@ apis:
 - description: The Limitless Developer API API from Limitless — 1 operation(s) for limitless developer api.
   name: Limitless Limitless Developer API API
   slug: limitless-ai-limitless-developer-api-api
-artifact_total: 16
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Limitless Developer Chats API
+  slug: open-limitless-ai-chats-api
+- collection_type: open
+  name: Limitless Developer Chats Download Audio API
+  slug: open-limitless-ai-download-audio-api
+- collection_type: open
+  name: Limitless Developer Chats Lifelogs API
+  slug: open-limitless-ai-lifelogs-api
+- collection_type: open
+  name: Limitless Developer Chats Limitless Developer API API
+  slug: open-limitless-ai-limitless-developer-api-api
 - collection_type: open
   name: Limitless Developer API
   slug: open-limitless-ai
@@ -250,7 +265,7 @@ plans:
 - name: Limitless Ai Plans Pricing
   plan_count: 1
   slug: limitless-ai-plans-pricing
-random_paper: 29
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Limitless Ai Rate Limits
@@ -283,7 +298,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/screenshots/limitless-ai-2026-07-25T225205.png
 security:

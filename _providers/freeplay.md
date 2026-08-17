@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Record traces that group related completions.
   name: Freeplay Traces API
   slug: freeplay-traces-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freeplay HTTP Agents API
+  slug: open-freeplay-agents-api
+- collection_type: open
+  name: Freeplay HTTP Agents Completions API
+  slug: open-freeplay-completions-api
+- collection_type: open
+  name: Freeplay HTTP Agents Datasets API
+  slug: open-freeplay-datasets-api
+- collection_type: open
+  name: Freeplay HTTP Agents Feedback API
+  slug: open-freeplay-feedback-api
+- collection_type: open
+  name: Freeplay HTTP Agents Projects API
+  slug: open-freeplay-projects-api
+- collection_type: open
+  name: Freeplay HTTP Agents Prompt Templates API
+  slug: open-freeplay-prompt-templates-api
+- collection_type: open
+  name: Freeplay HTTP Agents Search API
+  slug: open-freeplay-search-api
+- collection_type: open
+  name: Freeplay HTTP Agents Sessions API
+  slug: open-freeplay-sessions-api
+- collection_type: open
+  name: Freeplay HTTP Agents Test Runs API
+  slug: open-freeplay-test-runs-api
+- collection_type: open
+  name: Freeplay HTTP Agents Traces API
+  slug: open-freeplay-traces-api
 - collection_type: open
   name: Freeplay HTTP API
   slug: open-freeplay
@@ -139,7 +172,7 @@ plans:
 - name: Freeplay Plans Pricing
   plan_count: 3
   slug: freeplay-plans-pricing
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 3
   name: Freeplay Rate Limits
@@ -164,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/screenshots/freeplay-2026-06-20T181534.png
 security:

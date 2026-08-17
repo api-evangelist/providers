@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Browse and search published quizzes
   name: QuizAPI Quizzes API
   slug: quiz-api-quizzes-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quiz Discovery API
+  slug: open-quiz-api-discovery-api
+- collection_type: open
+  name: Quiz Discovery Questions API
+  slug: open-quiz-api-questions-api
+- collection_type: open
+  name: Quiz Discovery Quizzes API
+  slug: open-quiz-api-quizzes-api
 - collection_type: open
   name: QuizAPI
   slug: open-quiz-api
@@ -110,7 +122,7 @@ plans:
 - name: Quiz Api Plans Pricing
   plan_count: 3
   slug: quiz-api-plans-pricing
-random_paper: 96
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Quiz Api Rate Limits
@@ -135,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quiz-api/refs/heads/main/screenshots/quiz-api-2026-06-20T192440.png
 security:

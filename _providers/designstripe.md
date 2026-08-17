@@ -22,19 +22,39 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/designstripe-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/designstripe-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/designstripe-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/designstripe-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/designstripe-llms.txt
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/DesignStripe
 - group: company
   title: ''
   type: Website
@@ -55,33 +75,58 @@ common:
   title: ''
   type: Support
   url: https://visual.app/contact
+coverage:
+  checked: '2026-08-13'
+  detail: Visual markets a design-agents API on the homepage ("every agent is an endpoint") but ships no developer surface behind it — /docs, /api and /developers all 404, no docs/developer/api subdomain resolves in DNS, and the only API-shaped host (api.designstripe.com) answers every path with a Google Cloud IAP challenge, while the product itself is reachable only by joining a waitlist.
+  evidence:
+  - status: 200
+    url: https://visual.app/
+  - status: 404
+    url: https://visual.app/docs
+  - status: 404
+    url: https://visual.app/developers
+  - status: 302
+    url: https://api.designstripe.com/
+  - status: 404
+    url: https://visual.app/.well-known/agent-card.json
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
-description: designstripe (rebranded in 2026 as Visual, visual.app) is an AI-powered design platform for go-to-market teams that automates the creation of presentations, proposals, QBRs, and marketing assets through conversational AI agents, with brand-lock consistency across generated materials. It serves sales, marketing, and customer success teams. Backed by Insight Partners. As of July 2026 the product is under active development / waitlist and references API integrations ("every agent is an endpoint"), but publishes no public developer documentation, OpenAPI definition, SDKs, or /.well-known discovery surface. This profile was surfaced as an Insight Partners portfolio company and enriched by the API Evangelist pipeline.
+description: 'The designstripe.com domain, blog and social handles were acquired by Visual (visual.app) in March 2025. Visual states on its own site that it acquired the marketing assets only and that Designstripe Inc. continues to operate independently, so this is an asset purchase rather than a rebrand. designstripe.com now 308-redirects to visual.app, an AI-first presentation and design-agent product for go-to-market teams — it generates presentations, proposals, QBRs and campaign assets through conversational agents with brand-lock consistency for sales, marketing and customer success. The legacy designstripe illustration marketplace and AI ad-maker have been retired. As of August 2026 the product is waitlist-only and markets an API on its homepage ("every agent is an endpoint... integrate design agents with your existing automation workflows or applications using our API"), but publishes no developer portal, API reference, OpenAPI definition, GraphQL endpoint, MCP server, SDK on any
+  package registry, pricing page, or /.well-known discovery document. The one API-shaped host, api.designstripe.com, sits behind Google Cloud Identity-Aware Proxy and answers every request with "Invalid IAP credentials: empty token" while presenting a TLS certificate for an unrelated host. This profile was surfaced as an Insight Partners portfolio lead and enriched by the API Evangelist pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/designstripe.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: designstripe
 nav: Providers
 network: true
 overview: 'designstripe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Design, Artificial Intelligence, and Presentations.
 
 
-  designstripe''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 97
+  designstripe''s developer surface includes engineering blog, support, and 9 more developer resources.'
+plans:
+- name: Designstripe Plans Pricing
+  plan_count: 0
+  slug: designstripe-plans-pricing
+random_paper: 105
+rate_limits:
+- limit_count: 0
+  name: Designstripe Rate Limits
+  slug: designstripe-rate-limits
 score:
   band: minimal
-  composite: 8.4
-  delta: 0.0
+  composite: 9.8
+  delta: 1.4
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 8.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

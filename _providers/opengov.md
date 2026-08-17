@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 102
 apis:
 - description: The activity API from OpenGov — 1 operation(s) for activity.
@@ -327,11 +327,321 @@ apis:
 - description: The vendors API from OpenGov — 5 operation(s) for vendors.
   name: OpenGov Vendors API
   slug: opengov-vendors-api
-artifact_total: 110
+artifact_total: 213
 asyncapis:
 - description: ''
   name: Opengov Permitting Licensing Webhooks
   slug: opengov-permitting-licensing-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenGov Purchase Order Activity API
+  slug: open-opengov-activity-api
+- collection_type: open
+  name: Permitting & Licensing Activity Logs API
+  slug: open-opengov-activity-logs-api
+- collection_type: open
+  name: OpenGov Purchase Order Admin Settings API
+  slug: open-opengov-adminsettings-api
+- collection_type: open
+  name: Permitting & Licensing Approval Steps API
+  slug: open-opengov-approval-steps-api
+- collection_type: open
+  name: OpenGov Purchase Order Attachment API
+  slug: open-opengov-attachment-api
+- collection_type: open
+  name: Opengov Attachment Limits API
+  slug: open-opengov-attachmentlimits-api
+- collection_type: open
+  name: Opengov Attachments API
+  slug: open-opengov-attachments-api
+- collection_type: open
+  name: Budgeting & Performance Budget API
+  slug: open-opengov-budget-api
+- collection_type: open
+  name: Opengov Categories API
+  slug: open-opengov-categories-api
+- collection_type: open
+  name: OpenGov Purchase Order Change Order API
+  slug: open-opengov-changeorder-api
+- collection_type: open
+  name: OpenGov Purchase Order Change Order By Po API
+  slug: open-opengov-changeorderbypo-api
+- collection_type: open
+  name: Budgeting & Performance Chart Of Accounts API
+  slug: open-opengov-chartofaccounts-api
+- collection_type: open
+  name: Permitting & Licensing Checklist Results API
+  slug: open-opengov-checklist-results-api
+- collection_type: open
+  name: Permitting & Licensing Checklist Templates API
+  slug: open-opengov-checklist-templates-api
+- collection_type: open
+  name: Opengov Claims API
+  slug: open-opengov-claims-api
+- collection_type: open
+  name: OpenGov Enterprise Asset Management Classes API
+  slug: open-opengov-classes-api
+- collection_type: open
+  name: OpenGov Purchase Order Co Attachment API
+  slug: open-opengov-coattachment-api
+- collection_type: open
+  name: OpenGov Purchase Order Co Comment API
+  slug: open-opengov-cocomment-api
+- collection_type: open
+  name: OpenGov Enterprise Asset Management Commands API
+  slug: open-opengov-commands-api
+- collection_type: open
+  name: OpenGov Purchase Order Comment API
+  slug: open-opengov-comment-api
+- collection_type: open
+  name: Opengov Contracts API
+  slug: open-opengov-contracts-api
+- collection_type: open
+  name: OpenGov Purchase Order Co Reason API
+  slug: open-opengov-coreason-api
+- collection_type: open
+  name: OpenGov Purchase Order Co Surface Versions API
+  slug: open-opengov-cosurfaceversions-api
+- collection_type: open
+  name: OpenGov Purchase Order Co Terms API
+  slug: open-opengov-coterms-api
+- collection_type: open
+  name: OpenGov Purchase Order Co Terms Attachment API
+  slug: open-opengov-cotermsattachment-api
+- collection_type: open
+  name: Opengov Datasets API
+  slug: open-opengov-datasets-api
+- collection_type: open
+  name: Permitting & Licensing Departments API
+  slug: open-opengov-departments-api
+- collection_type: open
+  name: Permitting & Licensing Document Steps API
+  slug: open-opengov-document-steps-api
+- collection_type: open
+  name: Vendor Management Entity Custom Fields API
+  slug: open-opengov-entity-custom-fields-api
+- collection_type: open
+  name: Vendor Management Entity Settings API
+  slug: open-opengov-entity-settings-api
+- collection_type: open
+  name: Vendor Management Entity Users API
+  slug: open-opengov-entity-users-api
+- collection_type: open
+  name: Permitting Licensing & Code Enforcement Event Types API
+  slug: open-opengov-event-types-api
+- collection_type: open
+  name: Permitting & Licensing Fees API
+  slug: open-opengov-fees-api
+- collection_type: open
+  name: Permitting & Licensing Files API
+  slug: open-opengov-files-api
+- collection_type: open
+  name: OpenGov Purchase Order Gl Suggestions API
+  slug: open-opengov-glsuggestions-api
+- collection_type: open
+  name: Open Data CKAN Action Group API
+  slug: open-opengov-group-api
+- collection_type: open
+  name: Permitting & Licensing Inspection Events API
+  slug: open-opengov-inspection-events-api
+- collection_type: open
+  name: Permitting & Licensing Inspection Results API
+  slug: open-opengov-inspection-results-api
+- collection_type: open
+  name: Permitting & Licensing Inspection Steps API
+  slug: open-opengov-inspection-steps-api
+- collection_type: open
+  name: Permitting & Licensing Inspection Type Templates API
+  slug: open-opengov-inspection-type-templates-api
+- collection_type: open
+  name: Permitting & Licensing Inspection Types API
+  slug: open-opengov-inspection-types-api
+- collection_type: open
+  name: OpenGov Purchase Order Invoice Sync API
+  slug: open-opengov-invoicesync-api
+- collection_type: open
+  name: Permitting & Licensing Issued Documents API
+  slug: open-opengov-issued-documents-api
+- collection_type: open
+  name: Permitting & Licensing Ledger Entries API
+  slug: open-opengov-ledger-entries-api
+- collection_type: open
+  name: OpenGov Purchase Order Line Item API
+  slug: open-opengov-lineitem-api
+- collection_type: open
+  name: Permitting & Licensing Location Flags API
+  slug: open-opengov-location-flags-api
+- collection_type: open
+  name: Permitting & Licensing Locations API
+  slug: open-opengov-locations-api
+- collection_type: open
+  name: OpenGov Purchase Order Operation Error API
+  slug: open-opengov-operationerror-api
+- collection_type: open
+  name: Opengov Organization API
+  slug: open-opengov-organization-api
+- collection_type: open
+  name: Open Data CKAN Action Package API
+  slug: open-opengov-package-api
+- collection_type: open
+  name: Permitting & Licensing Payment Steps API
+  slug: open-opengov-payment-steps-api
+- collection_type: open
+  name: OpenGov Purchase Order Print API
+  slug: open-opengov-print-api
+- collection_type: open
+  name: Permitting & Licensing Projects API
+  slug: open-opengov-projects-api
+- collection_type: open
+  name: OpenGov Purchase Order API
+  slug: open-opengov-purchaseorder-api
+- collection_type: open
+  name: OpenGov Purchase Order Purchase Order Type API
+  slug: open-opengov-purchaseordertype-api
+- collection_type: open
+  name: OpenGov Receipt Receipt Activity API
+  slug: open-opengov-receiptactivity-api
+- collection_type: open
+  name: OpenGov Receipt Receipt Attachments API
+  slug: open-opengov-receiptattachments-api
+- collection_type: open
+  name: OpenGov Receipt Receipt Comments API
+  slug: open-opengov-receiptcomments-api
+- collection_type: open
+  name: OpenGov Receipt Receipts API
+  slug: open-opengov-receipts-api
+- collection_type: open
+  name: OpenGov Receipt Receipt Surface Versions API
+  slug: open-opengov-receiptsurfaceversions-api
+- collection_type: open
+  name: OpenGov Purchase Order Receipt Sync API
+  slug: open-opengov-receiptsync-api
+- collection_type: open
+  name: Permitting & Licensing Record Additional Locations API
+  slug: open-opengov-record-additional-locations-api
+- collection_type: open
+  name: Permitting & Licensing Record API
+  slug: open-opengov-record-api
+- collection_type: open
+  name: Permitting & Licensing Record Applicant API
+  slug: open-opengov-record-applicant-api
+- collection_type: open
+  name: Permitting & Licensing Record Attachments API
+  slug: open-opengov-record-attachments-api
+- collection_type: open
+  name: Permitting & Licensing Record Change Requests API
+  slug: open-opengov-record-change-requests-api
+- collection_type: open
+  name: Permitting Licensing & Code Enforcement Record Contacts API
+  slug: open-opengov-record-contacts-api
+- collection_type: open
+  name: Permitting Licensing & Code Enforcement Record Form API
+  slug: open-opengov-record-form-api
+- collection_type: open
+  name: Permitting & Licensing Record Forms API
+  slug: open-opengov-record-forms-api
+- collection_type: open
+  name: Permitting & Licensing Record Guests API
+  slug: open-opengov-record-guests-api
+- collection_type: open
+  name: Permitting Licensing & Code Enforcement Record Locations API
+  slug: open-opengov-record-locations-api
+- collection_type: open
+  name: Permitting & Licensing Record Primary Location API
+  slug: open-opengov-record-primary-location-api
+- collection_type: open
+  name: Permitting & Licensing Record Type Attachments API
+  slug: open-opengov-record-type-attachments-api
+- collection_type: open
+  name: Permitting & Licensing Record Type Document Templates API
+  slug: open-opengov-record-type-document-templates-api
+- collection_type: open
+  name: Permitting & Licensing Record Type Fees API
+  slug: open-opengov-record-type-fees-api
+- collection_type: open
+  name: Permitting & Licensing Record Type Form API
+  slug: open-opengov-record-type-form-api
+- collection_type: open
+  name: Permitting & Licensing Record Type Workflow API
+  slug: open-opengov-record-type-workflow-api
+- collection_type: open
+  name: Permitting & Licensing Record Types API
+  slug: open-opengov-record-types-api
+- collection_type: open
+  name: Permitting & Licensing Record Workflow Step Comments API
+  slug: open-opengov-record-workflow-step-comments-api
+- collection_type: open
+  name: Permitting & Licensing Record Workflow Steps API
+  slug: open-opengov-record-workflow-steps-api
+- collection_type: open
+  name: Permitting Licensing & Code Enforcement Records API
+  slug: open-opengov-records-api
+- collection_type: open
+  name: Open Data CKAN Action Resource API
+  slug: open-opengov-resource-api
+- collection_type: open
+  name: OpenGov Purchase Order Revisions API
+  slug: open-opengov-revisions-api
+- collection_type: open
+  name: Vendor Management Saved Views API
+  slug: open-opengov-saved-views-api
+- collection_type: open
+  name: OpenGov Purchase Order Spend Summary API
+  slug: open-opengov-spendsummary-api
+- collection_type: open
+  name: Permitting Licensing & Code Enforcement Step Comments API
+  slug: open-opengov-step-comments-api
+- collection_type: open
+  name: Permitting Licensing & Code Enforcement Steps API
+  slug: open-opengov-steps-api
+- collection_type: open
+  name: OpenGov Purchase Order Surface Versions API
+  slug: open-opengov-surfaceversions-api
+- collection_type: open
+  name: Open Data CKAN Action System API
+  slug: open-opengov-system-api
+- collection_type: open
+  name: Open Data CKAN Action Tag API
+  slug: open-opengov-tag-api
+- collection_type: open
+  name: Opengov Tags API
+  slug: open-opengov-tags-api
+- collection_type: open
+  name: OpenGov Purchase Order Terms API
+  slug: open-opengov-terms-api
+- collection_type: open
+  name: OpenGov Purchase Order Terms Attachment API
+  slug: open-opengov-termsattachment-api
+- collection_type: open
+  name: Permitting & Licensing Transactions API
+  slug: open-opengov-transactions-api
+- collection_type: open
+  name: Permitting & Licensing User Flags API
+  slug: open-opengov-user-flags-api
+- collection_type: open
+  name: Permitting & Licensing Users API
+  slug: open-opengov-users-api
+- collection_type: open
+  name: Vendor Management Vendor Imports API
+  slug: open-opengov-vendor-imports-api
+- collection_type: open
+  name: Vendor Management Vendor Notes API
+  slug: open-opengov-vendor-notes-api
+- collection_type: open
+  name: Vendor Management Vendor Search API
+  slug: open-opengov-vendor-search-api
+- collection_type: open
+  name: Vendor Management Vendor Taskmaster API
+  slug: open-opengov-vendor-taskmaster-api
+- collection_type: open
+  name: Vendor Management Vendor Recommendations API
+  slug: open-opengov-vendorrecommendations-api
+- collection_type: open
+  name: Vendor Management Vendors API
+  slug: open-opengov-vendors-api
 common:
 - group: other
   title: ''
@@ -496,7 +806,7 @@ overview: 'OpenGov publishes 102 APIs on the [APIs.io](https://apis.io/) network
 
 
   OpenGov''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 46
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Opengov Rate Limits
@@ -534,7 +844,7 @@ score:
     regime_id: government
     score: 85.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/screenshots/opengov-2026-08-07T190607.png
 security:

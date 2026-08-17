@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -75,11 +75,51 @@ apis:
 - description: '### Supported integrations: ```Robinhood``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Binance``` ```Gemini``` ```OkCoin``` ```KuCoin``` ```BinanceInternational``` ```Bitstamp```'
   name: Mesh Connect Transfers API
   slug: mesh-connect-transfers-api
-artifact_total: 18
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Mesh Connect Transfers Webhooks
   slug: mesh-connect-transfers-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Admin Assets API
+  slug: open-mesh-connect-assets-api
+- collection_type: open
+  name: Admin Assets Auth token API
+  slug: open-mesh-connect-auth-token-api
+- collection_type: open
+  name: Admin Assets Balance API
+  slug: open-mesh-connect-balance-api
+- collection_type: open
+  name: Admin Assets BrokerAccountDetail API
+  slug: open-mesh-connect-brokeraccountdetail-api
+- collection_type: open
+  name: Admin Assets Main Clients API
+  slug: open-mesh-connect-main-clients-api
+- collection_type: open
+  name: Admin Assets Managed Account Authentication API
+  slug: open-mesh-connect-managed-account-authentication-api
+- collection_type: open
+  name: Admin Assets Managed Transfers API
+  slug: open-mesh-connect-managed-transfers-api
+- collection_type: open
+  name: Admin Assets Portfolio API
+  slug: open-mesh-connect-portfolio-api
+- collection_type: open
+  name: Admin Assets Registered Clients API
+  slug: open-mesh-connect-registered-clients-api
+- collection_type: open
+  name: Admin Assets Self Managed Account Authentication API
+  slug: open-mesh-connect-self-managed-account-authentication-api
+- collection_type: open
+  name: Admin Assets Transactions API
+  slug: open-mesh-connect-transactions-api
+- collection_type: open
+  name: Admin Assets Transfers API
+  slug: open-mesh-connect-transfers-api
 common:
 - group: other
   title: ''
@@ -224,7 +264,7 @@ overview: 'Mesh Connect publishes 12 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mesh Connect''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 24 more developer resources.'
-random_paper: 20
+random_paper: 28
 score:
   band: developing
   composite: 53.8
@@ -254,7 +294,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/screenshots/mesh-connect-2026-08-07T172619.png
 security:

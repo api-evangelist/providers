@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Authenticated user and profile actions
   name: SoundCloud Users API
   slug: soundcloud-users-api
-artifact_total: 16
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SoundCloud Playlists API
+  slug: open-soundcloud-playlists-api
+- collection_type: open
+  name: SoundCloud Playlists Search API
+  slug: open-soundcloud-search-api
+- collection_type: open
+  name: SoundCloud Playlists Social API
+  slug: open-soundcloud-social-api
+- collection_type: open
+  name: SoundCloud Playlists Tracks API
+  slug: open-soundcloud-tracks-api
+- collection_type: open
+  name: SoundCloud Playlists Users API
+  slug: open-soundcloud-users-api
 - collection_type: open
   name: SoundCloud API
   slug: open-soundcloud
@@ -139,7 +157,7 @@ plans:
 - name: Soundcloud Plans Pricing
   plan_count: 2
   slug: soundcloud-plans-pricing
-random_paper: 8
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Soundcloud Rate Limits
@@ -169,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/screenshots/soundcloud-2026-06-20T194220.png
 security:

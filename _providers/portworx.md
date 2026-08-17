@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 9
@@ -114,8 +114,86 @@ apis:
 - description: The OpenStorageWatch API from Portworx — 1 operation(s) for openstoragewatch.
   name: Portworx OpenStorageWatch API
   slug: portworx-openstoragewatch-api
-artifact_total: 32
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts API
+  slug: open-portworx-openstoragealerts-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageBucket API
+  slug: open-portworx-openstoragebucket-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageCloudBackup API
+  slug: open-portworx-openstoragecloudbackup-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageCluster API
+  slug: open-portworx-openstoragecluster-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageClusterDomains API
+  slug: open-portworx-openstorageclusterdomains-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageClusterPair API
+  slug: open-portworx-openstorageclusterpair-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageCredentials API
+  slug: open-portworx-openstoragecredentials-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageDiags API
+  slug: open-portworx-openstoragediags-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageFilesystemCheck API
+  slug: open-portworx-openstoragefilesystemcheck-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageFilesystemDefrag API
+  slug: open-portworx-openstoragefilesystemdefrag-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageFilesystemTrim API
+  slug: open-portworx-openstoragefilesystemtrim-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageIdentity API
+  slug: open-portworx-openstorageidentity-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageJob API
+  slug: open-portworx-openstoragejob-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageMigrate API
+  slug: open-portworx-openstoragemigrate-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageMountAttach API
+  slug: open-portworx-openstoragemountattach-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageNode API
+  slug: open-portworx-openstoragenode-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageObjectstore API
+  slug: open-portworx-openstorageobjectstore-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStoragePolicy API
+  slug: open-portworx-openstoragepolicy-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStoragePool API
+  slug: open-portworx-openstoragepool-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageRole API
+  slug: open-portworx-openstoragerole-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageSchedule API
+  slug: open-portworx-openstorageschedule-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageSchedulePolicy API
+  slug: open-portworx-openstorageschedulepolicy-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageVerifyChecksum API
+  slug: open-portworx-openstorageverifychecksum-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageVolume API
+  slug: open-portworx-openstoragevolume-api
+- collection_type: open
+  name: OpenStorage SDK OpenStorageAlerts OpenStorageWatch API
+  slug: open-portworx-openstoragewatch-api
 - collection_type: open
   name: OpenStorage SDK
   slug: open-portworx
@@ -184,7 +262,7 @@ plans:
 - name: Portworx Plans Pricing
   plan_count: 3
   slug: portworx-plans-pricing
-random_paper: 77
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Portworx Rate Limits
@@ -209,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/screenshots/portworx-2026-06-20T191941.png
 security:

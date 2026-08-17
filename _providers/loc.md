@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,7 +114,83 @@ apis:
 - description: Returns treaty data from the API
   name: Library of Congress treaty API
   slug: loc-treaty-api
-artifact_total: 36
+artifact_total: 61
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Congress.gov amendments API
+  slug: open-loc-amendments-api
+- collection_type: open
+  name: Congress.gov amendments bill API
+  slug: open-loc-bill-api
+- collection_type: open
+  name: Congress.gov amendments bound-congressional-record API
+  slug: open-loc-bound-congressional-record-api
+- collection_type: open
+  name: Congress.gov amendments collections API
+  slug: open-loc-collections-api
+- collection_type: open
+  name: Congress.gov amendments committee API
+  slug: open-loc-committee-api
+- collection_type: open
+  name: Congress.gov amendments committee-meeting API
+  slug: open-loc-committee-meeting-api
+- collection_type: open
+  name: Congress.gov amendments committee-print API
+  slug: open-loc-committee-print-api
+- collection_type: open
+  name: Congress.gov amendments committee-report API
+  slug: open-loc-committee-report-api
+- collection_type: open
+  name: .gov amendments congress API
+  slug: open-loc-congress-api
+- collection_type: open
+  name: Congress.gov amendments congressional-record API
+  slug: open-loc-congressional-record-api
+- collection_type: open
+  name: Congress.gov amendments crsreport API
+  slug: open-loc-crsreport-api
+- collection_type: open
+  name: Congress.gov amendments daily-congressional-record API
+  slug: open-loc-daily-congressional-record-api
+- collection_type: open
+  name: Congress.gov amendments formats API
+  slug: open-loc-formats-api
+- collection_type: open
+  name: Congress.gov amendments hearing API
+  slug: open-loc-hearing-api
+- collection_type: open
+  name: Congress.gov amendments house-communication API
+  slug: open-loc-house-communication-api
+- collection_type: open
+  name: Congress.gov amendments house-requirement API
+  slug: open-loc-house-requirement-api
+- collection_type: open
+  name: Congress.gov amendments house-vote API
+  slug: open-loc-house-vote-api
+- collection_type: open
+  name: Congress.gov amendments items API
+  slug: open-loc-items-api
+- collection_type: open
+  name: Congress.gov amendments member API
+  slug: open-loc-member-api
+- collection_type: open
+  name: Congress.gov amendments nomination API
+  slug: open-loc-nomination-api
+- collection_type: open
+  name: Congress.gov amendments search API
+  slug: open-loc-search-api
+- collection_type: open
+  name: Congress.gov amendments senate-communication API
+  slug: open-loc-senate-communication-api
+- collection_type: open
+  name: Congress.gov amendments summaries API
+  slug: open-loc-summaries-api
+- collection_type: open
+  name: Congress.gov amendments treaty API
+  slug: open-loc-treaty-api
 common:
 - group: operate
   title: ''
@@ -216,7 +292,7 @@ plans:
 - name: Loc Plans Pricing
   plan_count: 3
   slug: loc-plans-pricing
-random_paper: 78
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Loc Rate Limits
@@ -256,7 +332,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/screenshots/loc-2026-06-20T184630.png
 security:

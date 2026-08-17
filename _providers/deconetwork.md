@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: The Purchase Orders API from DecoNetwork — 2 operation(s) for purchase orders.
   name: DecoNetwork Purchase Orders API
   slug: deconetwork-purchase-orders-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DecoNetwork JSON Inventory API
+  slug: open-deconetwork-inventory-api
+- collection_type: open
+  name: DecoNetwork JSON Inventory Orders API
+  slug: open-deconetwork-orders-api
+- collection_type: open
+  name: DecoNetwork JSON Inventory Products API
+  slug: open-deconetwork-products-api
+- collection_type: open
+  name: DecoNetwork JSON Inventory Purchase Orders API
+  slug: open-deconetwork-purchase-orders-api
 common:
 - group: agent
   title: ''
@@ -113,7 +129,7 @@ plans:
 - name: Deconetwork Plans Pricing
   plan_count: 3
   slug: deconetwork-plans-pricing
-random_paper: 109
+random_paper: 146
 rate_limits:
 - limit_count: 3
   name: Deconetwork Rate Limits
@@ -138,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/screenshots/deconetwork-2026-07-25T211529.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,8 +40,14 @@ apis:
 - description: Placeholder image retrieval
   name: PlaceKitten Image API
   slug: placekitten-image-api
-artifact_total: 13
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PlaceKitten Image API
+  slug: open-placekitten-image-api
 - collection_type: open
   name: PlaceKitten
   slug: open-placekitten
@@ -104,7 +110,7 @@ overview: 'PlaceKitten publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   The PlaceKitten catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 92
+random_paper: 129
 rules:
 - name: PlaceKitten API Rules
   rule_count: 5
@@ -142,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

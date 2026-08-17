@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -106,7 +107,11 @@ arazzos:
 - description: Authenticate, register a patient demographic, run a national query across the health information networks, poll until the query completes, then collect the aggregated clinical record.
   name: Particle Health National Patient Record Retrieval
   slug: particle-health-patient-record-retrieval-workflow
-artifact_total: 52
+artifact_total: 72
+asyncapis:
+- description: ''
+  name: Particle Health Webhooks
+  slug: particle-health-webhooks
 collections:
 - collection_type: postman
   name: Particle Health Authentication API
@@ -159,6 +164,60 @@ collections:
 - collection_type: postman
   name: Particle Health Authentication Subscriptions API
   slug: postman-particle-health-subscriptions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Particle Health Authentication API
+  slug: open-particle-health-authentication-api
+- collection_type: open
+  name: Particle Health Authentication Batches API
+  slug: open-particle-health-batches-api
+- collection_type: open
+  name: Particle Health Authentication CCDA API
+  slug: open-particle-health-ccda-api
+- collection_type: open
+  name: Particle Health Authentication Deltas API
+  slug: open-particle-health-deltas-api
+- collection_type: open
+  name: Particle Health Authentication Documents API
+  slug: open-particle-health-documents-api
+- collection_type: open
+  name: Particle Health Authentication FHIR API
+  slug: open-particle-health-fhir-api
+- collection_type: open
+  name: Particle Health Authentication Files API
+  slug: open-particle-health-files-api
+- collection_type: open
+  name: Particle Health Authentication Flat API
+  slug: open-particle-health-flat-api
+- collection_type: open
+  name: Particle Health Authentication HL7v2 API
+  slug: open-particle-health-hl7v2-api
+- collection_type: open
+  name: Particle Health Authentication NetworkParticipants API
+  slug: open-particle-health-networkparticipants-api
+- collection_type: open
+  name: Particle Health Authentication Notifications API
+  slug: open-particle-health-notifications-api
+- collection_type: open
+  name: Particle Health Authentication Patients API
+  slug: open-particle-health-patients-api
+- collection_type: open
+  name: Particle Health Authentication Projects API
+  slug: open-particle-health-projects-api
+- collection_type: open
+  name: Particle Health Authentication ProviderMap API
+  slug: open-particle-health-providermap-api
+- collection_type: open
+  name: Particle Health Authentication Queries API
+  slug: open-particle-health-queries-api
+- collection_type: open
+  name: Particle Health Authentication Signal API
+  slug: open-particle-health-signal-api
+- collection_type: open
+  name: Particle Health Authentication Subscriptions API
+  slug: open-particle-health-subscriptions-api
 - collection_type: open
   name: Particle Health API
   slug: open-particle-health
@@ -303,6 +362,78 @@ common:
   title: ''
   type: ArazzoWorkflows
   url: ''
+- group: build
+  title: ''
+  type: Packages
+  url: packages/particle-health-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/particle-health-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/particle-health-mcp.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/particle-health-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/particle-health-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/particle-health-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/particle-health-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/particle-health-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/particle-health-lifecycle.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/particle-health-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/particle-health-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/particle-health-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/particle-health-data-model.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/particle-health-llms.txt
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://particlehealth.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://particlehealth.com/privacy-policy
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://particlehealth.com/developers
 created: '2026-05-24'
 description: Particle Health is a healthcare data interoperability platform that aggregates patient medical records from across the US healthcare system into a single RESTful API. Particle is connected to all three nationwide health information exchange networks (Carequality, CommonWell, eHealth Exchange), TEFCA / QHIN partners, state HIEs (Healthix in New York, Manifest MedEx in California), and Surescripts for pharmacy data. The platform exposes patient demographics, clinical resources, and document retrieval via FHIR R4, C-CDA, Flat, and Deltas formats, layered with deduplication, normalization, AI summarization (Particle Snapshot), real-time encounter and transition alerts (Particle Signal), and longitudinal patient journey tracking (Particle Navigator). Customer segments include value-based care organizations, payers, health systems, primary and specialty providers, and digital health developers.
 finops:
@@ -323,24 +454,28 @@ jsonld:
   property_count: 9
   slug: particle-health-context
 layout: provider
-modified: '2026-05-24'
+mcp_servers:
+- description: ''
+  name: particle-health-mcp.yml
+  slug: particle-health-mcpyml
+modified: '2026-08-14'
 name: Particle Health
 nav: Providers
 network: true
 overview: 'Particle Health publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Batches API, CCDA API, and 14 more. Tagged areas include ADT, C-CDA, Care Coordination, Carequality, and Clinical Data.
 
 
-  The Particle Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Particle Health catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Particle Health''s developer surface includes authentication, YouTube channel, documentation, API reference, sandbox, changelog, engineering blog, and 24 more developer resources.'
+  Particle Health''s developer surface includes authentication, YouTube channel, documentation, API reference, sandbox, changelog, engineering blog, and 42 more developer resources.'
 plans:
 - name: Particle Health Plans Pricing
   plan_count: 3
   slug: particle-health-plans-pricing
-random_paper: 87
+random_paper: 37
 rate_limits:
-- limit_count: 3
+- limit_count: 4
   name: Particle Health Rate Limits
   slug: particle-health-rate-limits
 rules:
@@ -353,16 +488,16 @@ rules:
     warn: 4
   slug: particle-health-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 54.0
-  delta: 0.0
+  band: exemplar
+  composite: 71.9
+  delta: 17.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 60.8
-    developer_ergonomics: 43.5
-    discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 68.4
+    commercial_clarity: 76.3
+    contract_quality: 69.8
+    developer_ergonomics: 73.9
+    discoverability: 75.9
+    governance: 77.1
+    operational_transparency: 94.7
   previous_composite: 54.0
   provenance:
     agentic_access: derived
@@ -376,10 +511,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 35.0
+    score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/screenshots/particle-health-2026-06-20T191425.png
 security:
 - kind: authentication

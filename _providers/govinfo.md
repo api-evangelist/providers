@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Discover documents on GovInfo using search queries and field operators available in the GovInfo UI
   name: GovInfo Search API
   slug: govinfo-search-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GovInfo Collections API
+  slug: open-govinfo-collections-api
+- collection_type: open
+  name: GovInfo Collections Packages API
+  slug: open-govinfo-packages-api
+- collection_type: open
+  name: GovInfo Collections Published API
+  slug: open-govinfo-published-api
+- collection_type: open
+  name: GovInfo Collections Related API
+  slug: open-govinfo-related-api
+- collection_type: open
+  name: GovInfo Collections Search API
+  slug: open-govinfo-search-api
 - collection_type: open
   name: GovInfo API
   slug: open-openapi
@@ -128,7 +146,7 @@ plans:
 - name: Govinfo Plans Pricing
   plan_count: 3
   slug: govinfo-plans-pricing
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Govinfo Rate Limits
@@ -159,7 +177,7 @@ score:
     regime_id: government
     score: 37.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/screenshots/govinfo-2026-06-20T182303.png
 security:

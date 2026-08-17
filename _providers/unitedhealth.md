@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: FHIR R4 Provider Directory API implementing Da Vinci PDex Plan Net IG
   name: UnitedHealth Group Provider Directory API
   slug: unitedhealth-provider-directory-api
-artifact_total: 33
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UnitedHealth Group Optum Clinical Data API
+  slug: open-unitedhealth-clinical-data-api
+- collection_type: open
+  name: UnitedHealth Group Optum Clinical Data Drug Formulary API
+  slug: open-unitedhealth-drug-formulary-api
 - collection_type: open
   name: UnitedHealth Group Optum API
   slug: open-unitedhealth-optum-api
+- collection_type: open
+  name: UnitedHealth Group Optum Clinical Data Patient Access API
+  slug: open-unitedhealth-patient-access-api
+- collection_type: open
+  name: UnitedHealth Group Optum Clinical Data Provider Directory API
+  slug: open-unitedhealth-provider-directory-api
 common:
 - group: agent
   title: ''
@@ -163,7 +178,7 @@ plans:
 - name: Unitedhealth Plans Pricing
   plan_count: 1
   slug: unitedhealth-plans-pricing
-random_paper: 79
+random_paper: 87
 rate_limits:
 - limit_count: 2
   name: Unitedhealth Rate Limits
@@ -211,7 +226,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/screenshots/unitedhealth-2026-06-20T200101.png
 security:

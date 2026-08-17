@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,8 +60,20 @@ apis:
 - description: The Tasking API from ICEYE — 5 operation(s) for tasking.
   name: ICEYE Tasking API
   slug: iceye-tasking-api
-artifact_total: 15
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ICEYE Constellation Catalog API
+  slug: open-iceye-catalog-api
+- collection_type: open
+  name: ICEYE Constellation Catalog Company API
+  slug: open-iceye-company-api
+- collection_type: open
+  name: ICEYE Constellation Catalog Tasking API
+  slug: open-iceye-tasking-api
 - collection_type: open
   name: ICEYE Constellation API
   slug: open-iceye
@@ -166,7 +178,7 @@ plans:
 - name: Iceye Plans Pricing
   plan_count: 1
   slug: iceye-plans-pricing
-random_paper: 47
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Iceye Rate Limits
@@ -191,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/screenshots/iceye-2026-06-20T183148.png
 security:

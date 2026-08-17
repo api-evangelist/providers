@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: The 3D Secure API from TabaPay — 3 operation(s) for 3d secure.
@@ -79,7 +79,59 @@ apis:
 - description: This resource represents a Client's Verification.
   name: TabaPay Verification API
   slug: tabapay-verification-api
-artifact_total: 20
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TabaPay APIs 3D Secure API
+  slug: open-tabapay-3d-secure-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Account API
+  slug: open-tabapay-account-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Bank API
+  slug: open-tabapay-bank-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Card API
+  slug: open-tabapay-card-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Client API
+  slug: open-tabapay-client-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure FXRate API
+  slug: open-tabapay-fxrate-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Health API
+  slug: open-tabapay-health-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Key API
+  slug: open-tabapay-key-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Ledger API
+  slug: open-tabapay-ledger-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure OFAC API
+  slug: open-tabapay-ofac-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure SubClient API
+  slug: open-tabapay-subclient-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Tag API
+  slug: open-tabapay-tag-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Transaction API
+  slug: open-tabapay-transaction-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure TransactionRequest API
+  slug: open-tabapay-transactionrequest-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure User API
+  slug: open-tabapay-user-api
+- collection_type: open
+  name: TabaPay APIs 3D Secure Verification API
+  slug: open-tabapay-verification-api
 common:
 - group: agent
   title: ''
@@ -237,7 +289,7 @@ overview: 'TabaPay publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TabaPay''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 28 more developer resources.'
-random_paper: 18
+random_paper: 142
 rate_limits:
 - limit_count: 2
   name: Tabapay Rate Limits
@@ -270,7 +322,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

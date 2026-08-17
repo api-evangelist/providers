@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -80,11 +80,54 @@ apis:
 - description: The Webhook Subscriptions API from Augustus — 3 operation(s) for webhook subscriptions.
   name: Augustus Webhook Subscriptions API
   slug: augustus-webhook-subscriptions-api
-artifact_total: 20
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Augustus Webhooks
   slug: augustus-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Augustus Banking Account Programs API
+  slug: open-augustus-account-programs-api
+- collection_type: open
+  name: Augustus Banking Account Programs Accounts API
+  slug: open-augustus-accounts-api
+- collection_type: open
+  name: Augustus Banking Account Programs API Key API
+  slug: open-augustus-api-key-api
+- collection_type: open
+  name: Augustus Banking Account Programs API Versions API
+  slug: open-augustus-api-versions-api
+- collection_type: open
+  name: Augustus Banking Account Programs Conversions API
+  slug: open-augustus-conversions-api
+- collection_type: open
+  name: Augustus Banking Account Programs Deposits API
+  slug: open-augustus-deposits-api
+- collection_type: open
+  name: Augustus Banking Account Programs Events API
+  slug: open-augustus-events-api
+- collection_type: open
+  name: Augustus Banking Account Programs Payouts API
+  slug: open-augustus-payouts-api
+- collection_type: open
+  name: Augustus Banking Account Programs Quotes API
+  slug: open-augustus-quotes-api
+- collection_type: open
+  name: Augustus Banking Account Programs Returns API
+  slug: open-augustus-returns-api
+- collection_type: open
+  name: Augustus Banking Account Programs Scopes API
+  slug: open-augustus-scopes-api
+- collection_type: open
+  name: Augustus Banking Account Programs Webhook Deliveries API
+  slug: open-augustus-webhook-deliveries-api
+- collection_type: open
+  name: Augustus Banking Account Programs Webhook Subscriptions API
+  slug: open-augustus-webhook-subscriptions-api
 common:
 - group: auth
   title: ''
@@ -237,7 +280,7 @@ overview: 'Augustus publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Augustus'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, sandbox, and 26 more developer resources.'
-random_paper: 57
+random_paper: 3
 scopes:
 - name: Augustus Scopes
   scope_count: 16
@@ -272,7 +315,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/screenshots/augustus-2026-07-25T201725.png
 security:

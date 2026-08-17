@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 7
@@ -135,11 +135,111 @@ apis:
 - description: The workflow_schedule API from Structify — 6 operation(s) for workflow_schedule.
   name: Structify workflow_schedule API
   slug: structify-workflow-schedule-api
-artifact_total: 39
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Structify Events Webhooks
   slug: structify-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Structify account API
+  slug: open-structify-account-api
+- collection_type: open
+  name: Structify account admin API
+  slug: open-structify-admin-api
+- collection_type: open
+  name: Structify account chat API
+  slug: open-structify-chat-api
+- collection_type: open
+  name: Structify account chat_templates API
+  slug: open-structify-chat-templates-api
+- collection_type: open
+  name: Structify account code API
+  slug: open-structify-code-api
+- collection_type: open
+  name: Structify account connector_catalog API
+  slug: open-structify-connector-catalog-api
+- collection_type: open
+  name: Structify account connectors API
+  slug: open-structify-connectors-api
+- collection_type: open
+  name: Structify account dataset API
+  slug: open-structify-dataset-api
+- collection_type: open
+  name: Structify account documents API
+  slug: open-structify-documents-api
+- collection_type: open
+  name: Structify account entity API
+  slug: open-structify-entity-api
+- collection_type: open
+  name: Structify account jobs API
+  slug: open-structify-jobs-api
+- collection_type: open
+  name: Structify account match API
+  slug: open-structify-match-api
+- collection_type: open
+  name: Structify account Nango API
+  slug: open-structify-nango-api
+- collection_type: open
+  name: Structify account project API
+  slug: open-structify-project-api
+- collection_type: open
+  name: Structify account public_sessions API
+  slug: open-structify-public-sessions-api
+- collection_type: open
+  name: Structify account sandbox API
+  slug: open-structify-sandbox-api
+- collection_type: open
+  name: Structify account scrape API
+  slug: open-structify-scrape-api
+- collection_type: open
+  name: Structify account server API
+  slug: open-structify-server-api
+- collection_type: open
+  name: Structify account sessions API
+  slug: open-structify-sessions-api
+- collection_type: open
+  name: Structify account slack API
+  slug: open-structify-slack-api
+- collection_type: open
+  name: Structify account source API
+  slug: open-structify-source-api
+- collection_type: open
+  name: Structify account structure API
+  slug: open-structify-structure-api
+- collection_type: open
+  name: Structify account team API
+  slug: open-structify-team-api
+- collection_type: open
+  name: Structify account teams API
+  slug: open-structify-teams-api
+- collection_type: open
+  name: Structify account transactions API
+  slug: open-structify-transactions-api
+- collection_type: open
+  name: Structify account usage API
+  slug: open-structify-usage-api
+- collection_type: open
+  name: Structify account user API
+  slug: open-structify-user-api
+- collection_type: open
+  name: Structify account webhook API
+  slug: open-structify-webhook-api
+- collection_type: open
+  name: Structify account whitelabel API
+  slug: open-structify-whitelabel-api
+- collection_type: open
+  name: Structify account wiki API
+  slug: open-structify-wiki-api
+- collection_type: open
+  name: Structify account workflow API
+  slug: open-structify-workflow-api
+- collection_type: open
+  name: Structify account workflow_schedule API
+  slug: open-structify-workflow-schedule-api
 common:
 - group: other
   title: ''
@@ -257,6 +357,26 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/structify-a2a.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/structify-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/structify-well-known.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/structify-plans-pricing.yml
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:team@structify.ai
 - group: company
   title: ''
   type: Website
@@ -269,7 +389,7 @@ mcp_servers:
 - description: ''
   name: structify-mcp.yml
   slug: structify-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: Structify
 nav: Providers
 network: true
@@ -279,20 +399,24 @@ overview: 'Structify publishes 32 APIs on the [APIs.io](https://apis.io/) networ
   The Structify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Structify''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, changelog, and 23 more developer resources.'
-random_paper: 45
+  Structify''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, changelog, and 28 more developer resources.'
+plans:
+- name: Structify Plans Pricing
+  plan_count: 3
+  slug: structify-plans-pricing
+random_paper: 111
 rate_limits:
 - limit_count: 2
   name: Structify Rate Limits
   slug: structify-rate-limits
 score:
-  band: developing
-  composite: 53.8
-  delta: 0.0
+  band: strong
+  composite: 61.0
+  delta: 7.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 81.6
     contract_quality: 56.2
-    developer_ergonomics: 58.2
+    developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 65.8
@@ -308,8 +432,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Structify Authentication
@@ -322,7 +446,7 @@ security:
 - kind: trust-center
   name: Structify Trust Center
   slug: structify-trust-center
-  summary_line: SOC 2, HIPAA
+  summary_line: SOC 2 Type II, HIPAA, CMMC, GDPR
 slug: structify
 tags:
 - Company

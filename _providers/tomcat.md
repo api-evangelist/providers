@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,11 +63,35 @@ apis:
 - description: Server status and metrics
   name: Apache Tomcat Status API
   slug: tomcat-status-api
-artifact_total: 21
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Tomcat Manager Applications API
+  slug: open-tomcat-applications-api
+- collection_type: open
+  name: Apache Tomcat Manager Applications Configuration API
+  slug: open-tomcat-configuration-api
+- collection_type: open
+  name: Apache Tomcat Manager Applications Diagnostics API
+  slug: open-tomcat-diagnostics-api
+- collection_type: open
+  name: Apache Tomcat Manager Applications JMX API
+  slug: open-tomcat-jmx-api
 - collection_type: open
   name: Apache Tomcat Manager API
   slug: open-tomcat-manager
+- collection_type: open
+  name: Apache Tomcat Manager Applications Sessions API
+  slug: open-tomcat-sessions-api
+- collection_type: open
+  name: Apache Tomcat Manager Applications SSL API
+  slug: open-tomcat-ssl-api
+- collection_type: open
+  name: Apache Tomcat Manager Applications Status API
+  slug: open-tomcat-status-api
 common:
 - group: commercial
   title: ''
@@ -164,7 +188,7 @@ plans:
 - name: Tomcat Plans Pricing
   plan_count: 3
   slug: tomcat-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Tomcat Rate Limits
@@ -198,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/screenshots/tomcat-2026-06-20T195439.png
 security:

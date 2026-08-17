@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Anonymous, read-only REST surface behind kallyope.com. Kallyope runs WordPress and exposes the WordPress REST API publicly at https://kallyope.com/wp-json with 326 registered routes across 14 namespac
   name: Kallyope Content REST API
   slug: content-api
-artifact_total: 5
+artifact_total: 6
+collections:
+- collection_type: open
+  name: Kallyope Content REST API (derived)
+  slug: open-kallyope-content-api
 common:
 - group: company
   title: ''
@@ -103,7 +107,7 @@ overview: 'Kallyope publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Kallyope''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 25
+random_paper: 120
 score:
   band: emerging
   composite: 14.2
@@ -132,7 +136,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/screenshots/kallyope-2026-08-07T171056.png
 security:

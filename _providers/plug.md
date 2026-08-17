@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -95,11 +95,69 @@ apis:
 - description: A Malga utiliza o serviço de webhooks para notificar o seu sistema sobre os eventos ocorridos na nossa plataforma. Através de webhooks você consegue atualizar seu sistema sempre que um evento importan
   name: Malga Webhooks API
   slug: plug-webhooks-api
-artifact_total: 24
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Plug Webhooks
   slug: plug-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga API
+  slug: open-plug-3ds2-malga-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Cards API
+  slug: open-plug-cards-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Charges API
+  slug: open-plug-charges-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Client-token API
+  slug: open-plug-client-token-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Customers API
+  slug: open-plug-customers-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Flows API
+  slug: open-plug-flows-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Merchants API
+  slug: open-plug-merchants-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Payouts API
+  slug: open-plug-payouts-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Prepayment API
+  slug: open-plug-prepayment-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Providers API
+  slug: open-plug-providers-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Seller Documents API
+  slug: open-plug-seller-documents-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Sellers API
+  slug: open-plug-sellers-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Sessions API
+  slug: open-plug-sessions-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Settings API
+  slug: open-plug-settings-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Subscriptions API
+  slug: open-plug-subscriptions-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Tokens API
+  slug: open-plug-tokens-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Vendors API
+  slug: open-plug-vendors-api
+- collection_type: open
+  name: Documentação Malga 3DS2 Malga Webhooks API
+  slug: open-plug-webhooks-api
 common:
 - group: company
   title: ''
@@ -264,7 +322,7 @@ overview: 'Malga publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Malga''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 29 more developer resources.'
-random_paper: 80
+random_paper: 142
 score:
   band: developing
   composite: 50.8
@@ -294,7 +352,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

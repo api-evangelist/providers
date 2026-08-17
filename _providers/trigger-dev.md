@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -69,7 +69,7 @@ apis:
 - description: Create, list, retrieve, and complete waitpoint tokens for human-in-the-loop workflows.
   name: Trigger.dev Waitpoints API
   slug: trigger-dev-waitpoints-api
-artifact_total: 40
+artifact_total: 50
 collections:
 - collection_type: postman
   name: Trigger.dev Management Batches API
@@ -99,8 +99,38 @@ collections:
   name: Trigger.dev Management Batches Waitpoints API
   slug: postman-trigger-dev-waitpoints-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trigger.dev Management Batches API
+  slug: open-trigger-dev-batches-api
+- collection_type: open
+  name: Trigger.dev Management Batches Deployments API
+  slug: open-trigger-dev-deployments-api
+- collection_type: open
+  name: Trigger.dev Management Batches Environment Variables API
+  slug: open-trigger-dev-environment-variables-api
+- collection_type: open
   name: Trigger.dev Management API
   slug: open-trigger-dev-management
+- collection_type: open
+  name: Trigger.dev Management Batches Query API
+  slug: open-trigger-dev-query-api
+- collection_type: open
+  name: Trigger.dev Management Batches Queues API
+  slug: open-trigger-dev-queues-api
+- collection_type: open
+  name: Trigger.dev Management Batches Runs API
+  slug: open-trigger-dev-runs-api
+- collection_type: open
+  name: Trigger.dev Management Batches Schedules API
+  slug: open-trigger-dev-schedules-api
+- collection_type: open
+  name: Trigger.dev Management Batches Tasks API
+  slug: open-trigger-dev-tasks-api
+- collection_type: open
+  name: Trigger.dev Management Batches Waitpoints API
+  slug: open-trigger-dev-waitpoints-api
 common:
 - group: build
   title: ''
@@ -259,7 +289,7 @@ plans:
 - name: Trigger Dev Plans Pricing
   plan_count: 4
   slug: trigger-dev-plans-pricing
-random_paper: 40
+random_paper: 77
 rate_limits:
 - limit_count: 23
   name: Trigger Dev Rate Limits
@@ -301,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/screenshots/trigger-dev-2026-06-20T195710.png
 security:

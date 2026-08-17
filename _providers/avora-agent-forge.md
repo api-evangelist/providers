@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -37,7 +37,17 @@ apis:
 - description: Public-data token evidence with mandatory human-review controls.
   name: AVORA Agent Forge Public Evidence API
   slug: avora-agent-forge-public-evidence-api
-artifact_total: 9
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AVORA Forge Commerce Agent API
+  slug: open-avora-agent-forge-agent-api
+- collection_type: open
+  name: AVORA Public AI Interoperability Public Evidence API
+  slug: open-avora-agent-forge-public-evidence-api
 common:
 - group: start
   title: ''
@@ -163,7 +173,7 @@ plans:
 - name: Avora Agent Forge Plans
   plan_count: 4
   slug: avora-agent-forge-plans
-random_paper: 5
+random_paper: 46
 score:
   band: thin
   composite: 39.9
@@ -193,7 +203,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

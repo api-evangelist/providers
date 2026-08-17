@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,8 +58,14 @@ arazzos:
 - description: Find a file by name within a folder and update it if it exists, otherwise create it.
   name: Google Drive Upsert a File by Name
   slug: google-drive-upsert-file-by-name-workflow
-artifact_total: 36
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Drive Files API
+  slug: open-google-drive-files-api
 - collection_type: open
   name: Google Drive API
   slug: open-google-drive
@@ -249,7 +255,7 @@ plans:
 - name: Google Drive Plans Pricing
   plan_count: 3
   slug: google-drive-plans-pricing
-random_paper: 20
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Google Drive Rate Limits
@@ -298,7 +304,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-06-20T182159.png
 security:

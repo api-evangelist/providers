@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -60,8 +60,32 @@ apis:
 - description: Secure credential and credit-card storage injected into runs.
   name: Notte Vaults API
   slug: notte-vaults-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Notte Agents API
+  slug: open-notte-agents-api
+- collection_type: open
+  name: Notte Agents Health API
+  slug: open-notte-health-api
+- collection_type: open
+  name: Notte Agents Page API
+  slug: open-notte-page-api
+- collection_type: open
+  name: Notte Agents Personas API
+  slug: open-notte-personas-api
+- collection_type: open
+  name: Notte Agents Scraping API
+  slug: open-notte-scraping-api
+- collection_type: open
+  name: Notte Agents Sessions API
+  slug: open-notte-sessions-api
+- collection_type: open
+  name: Notte Agents Vaults API
+  slug: open-notte-vaults-api
 - collection_type: open
   name: Notte API
   slug: open-notte
@@ -126,7 +150,7 @@ plans:
 - name: Notte Plans Pricing
   plan_count: 5
   slug: notte-plans-pricing
-random_paper: 74
+random_paper: 107
 rate_limits:
 - limit_count: 6
   name: Notte Rate Limits
@@ -151,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/screenshots/notte-2026-06-20T190427.png
 security:

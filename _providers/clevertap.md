@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 58.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -75,8 +76,27 @@ apis:
 - description: The Reports API from CleverTap — 2 operation(s) for reports.
   name: CleverTap Reports API
   slug: clevertap-reports-api
-artifact_total: 22
+artifact_total: 30
+asyncapis:
+- description: ''
+  name: Clevertap Webhooks
+  slug: clevertap-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CleverTap REST Campaigns API
+  slug: open-clevertap-campaigns-api
+- collection_type: open
+  name: CleverTap REST Campaigns Events API
+  slug: open-clevertap-events-api
+- collection_type: open
+  name: CleverTap REST Campaigns Profiles API
+  slug: open-clevertap-profiles-api
+- collection_type: open
+  name: CleverTap REST Campaigns Reports API
+  slug: open-clevertap-reports-api
 - collection_type: open
   name: CleverTap REST API
   slug: open-clevertap
@@ -153,6 +173,130 @@ common:
   title: ''
   type: Blog
   url: https://clevertap.com/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clevertap-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/clevertap-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/clevertap-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/clevertap-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/clevertap-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/clevertap-llms.txt
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/clevertap-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/clevertap-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/clevertap-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/clevertap-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/clevertap-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.clevertap.com/docs/changelog
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/clevertap-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://clevertap.com/security/
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/clevertap-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/clevertap-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clevertap-profiles-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clevertap-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clevertap-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clevertap-reports-overlay.yaml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/clevertap-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/clevertap-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/clevertap-finops.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://developer.clevertap.com/docs/clevertap-postman-collection
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.clevertap.com/docs/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.clevertap.com/docs/getting-started
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://developer.clevertap.com/docs/api-quickstart-guide
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.clevertap.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://eu1.dashboard.clevertap.com/self-serve.html
+- group: start
+  title: ''
+  type: Login
+  url: https://eu1.dashboard.clevertap.com/
 created: '2024-11-14'
 description: CleverTap is a customer engagement and retention platform that helps businesses understand user behavior, segment audiences, and deliver personalized experiences across mobile push, email, SMS, in-app, web push, and WhatsApp channels. CleverTap exposes a comprehensive REST API surface covering profiles, events, campaigns, real-time analytics, catalogs, feature flags, and more, authenticated via account ID and passcode headers.
 finops:
@@ -166,24 +310,28 @@ jsonld:
   property_count: 6
   slug: clevertap-context
 layout: provider
-modified: '2026-04-26'
+mcp_servers:
+- description: ''
+  name: clevertap-mcp.yml
+  slug: clevertap-mcpyml
+modified: '2026-08-13'
 name: CleverTap
 nav: Providers
 network: true
 overview: 'CleverTap publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Events API, Profiles API, and 1 more. Tagged areas include Audiences, Customer Engagement, Customer Retention, Marketing Automation, and Mobile Engagement.
 
 
-  The CleverTap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The CleverTap catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  CleverTap''s developer surface includes authentication, documentation, pricing, engineering blog, and 14 more developer resources.'
+  CleverTap''s developer surface includes authentication, documentation, pricing, engineering blog, changelog, API reference, getting-started guide, and 42 more developer resources.'
 plans:
 - name: Clevertap Plans Pricing
   plan_count: 3
   slug: clevertap-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
-- limit_count: 5
+- limit_count: 23
   name: Clevertap Rate Limits
   slug: clevertap-rate-limits
 rules:
@@ -195,17 +343,22 @@ rules:
     info: 0
     warn: 4
   slug: clevertap-rules
+scopes:
+- name: Clevertap Scopes
+  scope_count: 4
+  slug: clevertap-scopes
+  summary_line: 4 scopes · authorizationCode/refreshToken
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: exemplar
+  composite: 69.2
+  delta: 23.7
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 59.7
-    developer_ergonomics: 30.4
-    discoverability: 72.2
-    governance: 20.8
-    operational_transparency: 28.9
+    commercial_clarity: 76.3
+    contract_quality: 68.7
+    developer_ergonomics: 78.3
+    discoverability: 92.6
+    governance: 41.7
+    operational_transparency: 52.6
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -215,14 +368,14 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/screenshots/clevertap-2026-06-20T174517.png
 security:
 - kind: authentication
   name: Clevertap Authentication
   slug: clevertap-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey/http/oauth2 · 4 schemes
 - kind: domain-security
   name: Clevertap Domain Security
   slug: clevertap-domain-security
@@ -230,7 +383,7 @@ security:
 - kind: trust-center
   name: Clevertap Trust Center
   slug: clevertap-trust-center
-  summary_line: SOC 2, ISO 27001, HIPAA, GDPR, CSA STAR
+  summary_line: SOC 2, ISO 27001, ISO 27017, HIPAA, GDPR, CSA STAR
 slug: clevertap
 tags:
 - Audiences

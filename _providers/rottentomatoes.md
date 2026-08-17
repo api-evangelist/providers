@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: The Top Level Lists API from Rotten Tomatoes — 3 operation(s) for top level lists.
   name: Rotten Tomatoes Top Level Lists API
   slug: rottentomatoes-top-level-lists-api
-artifact_total: 21
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rotten Tomatoes Detailed Info API
+  slug: open-rottentomatoes-detailed-info-api
+- collection_type: open
+  name: Rotten Tomatoes Detailed Info DVD Lists API
+  slug: open-rottentomatoes-dvd-lists-api
+- collection_type: open
+  name: Rotten Tomatoes Detailed Info Movie Lists API
+  slug: open-rottentomatoes-movie-lists-api
+- collection_type: open
+  name: Rotten Tomatoes Detailed Info Search API
+  slug: open-rottentomatoes-search-api
+- collection_type: open
+  name: Rotten Tomatoes Detailed Info Top Level Lists API
+  slug: open-rottentomatoes-top-level-lists-api
 common:
 - group: agent
   title: ''
@@ -154,7 +173,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 104
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -188,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

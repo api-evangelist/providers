@@ -13,12 +13,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-12'
+  score: 38.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,20 @@ arazzos:
 - description: Initiate a release-of-information request for a patient's clinical chart, then poll the status endpoint with the returned moxeRequestId until Moxe delivers the chart via SFTP.
   name: Request a patient chart and poll for status
   slug: moxe-health-request-patient-chart
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: Chart Retrieval API
+  slug: open-moxe-health-chart-retrieval-initiate
+- collection_type: open
+  name: Chart Retrieval API
+  slug: open-moxe-health-chart-retrieval-status
+- collection_type: open
+  name: Chart Retrieval API
+  slug: open-moxe-health-claim-management-initiate
+- collection_type: open
+  name: Chart Retrieval API
+  slug: open-moxe-health-claim-management-status
 common:
 - group: auth
   title: ''
@@ -103,6 +116,18 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/moxe-health-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/moxe-health-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/moxe-health-rate-limits.yml
 - group: design
   title: ''
   type: Arazzo
@@ -207,8 +232,16 @@ network: true
 overview: 'Moxe Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chart Retrieval API and Claim Management API. Tagged areas include Healthcare, United States, Interoperability, Clinical Data, and Payer.
 
 
-  Moxe Health''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, engineering blog, support, and 30 more developer resources.'
-random_paper: 36
+  Moxe Health''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, engineering blog, support, and 33 more developer resources.'
+plans:
+- name: Moxe Health Plans Pricing
+  plan_count: 0
+  slug: moxe-health-plans-pricing
+random_paper: 73
+rate_limits:
+- limit_count: 0
+  name: Moxe Health Rate Limits
+  slug: moxe-health-rate-limits
 scopes:
 - name: Moxe Health Scopes
   scope_count: 4
@@ -243,7 +276,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/screenshots/moxe-health-2026-08-07T184405.png
 security:
@@ -254,7 +287,7 @@ security:
 - kind: domain-security
   name: Moxe Health Domain Security
   slug: moxe-health-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 - kind: vulnerability-disclosure
   name: Moxe Health Vulnerability Disclosure
   slug: moxe-health-vulnerability-disclosure

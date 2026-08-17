@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -108,8 +108,80 @@ apis:
 - description: Teacher wage tiers used to calculate pay.
   name: Teachworks Wage Tiers API
   slug: teachworks-wage-tiers-api
-artifact_total: 31
+artifact_total: 55
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Teachworks Availabilities API
+  slug: open-teachworks-availabilities-api
+- collection_type: open
+  name: Teachworks Availabilities Cost Premiums API
+  slug: open-teachworks-cost-premiums-api
+- collection_type: open
+  name: Teachworks Availabilities Credit Note Allocations API
+  slug: open-teachworks-credit-note-allocations-api
+- collection_type: open
+  name: Teachworks Availabilities Customers API
+  slug: open-teachworks-customers-api
+- collection_type: open
+  name: Teachworks Availabilities Employees API
+  slug: open-teachworks-employees-api
+- collection_type: open
+  name: Teachworks Availabilities Invoices API
+  slug: open-teachworks-invoices-api
+- collection_type: open
+  name: Teachworks Availabilities Lesson Participants API
+  slug: open-teachworks-lesson-participants-api
+- collection_type: open
+  name: Teachworks Availabilities Lessons API
+  slug: open-teachworks-lessons-api
+- collection_type: open
+  name: Teachworks Availabilities Locations API
+  slug: open-teachworks-locations-api
+- collection_type: open
+  name: Teachworks Availabilities Other Compensation API
+  slug: open-teachworks-other-compensation-api
+- collection_type: open
+  name: Teachworks Availabilities Other Events API
+  slug: open-teachworks-other-events-api
+- collection_type: open
+  name: Teachworks Availabilities Payment Allocations API
+  slug: open-teachworks-payment-allocations-api
+- collection_type: open
+  name: Teachworks Availabilities Payments API
+  slug: open-teachworks-payments-api
+- collection_type: open
+  name: Teachworks Availabilities Repertoires API
+  slug: open-teachworks-repertoires-api
+- collection_type: open
+  name: Teachworks Availabilities Result Groups API
+  slug: open-teachworks-result-groups-api
+- collection_type: open
+  name: Teachworks Availabilities Results API
+  slug: open-teachworks-results-api
+- collection_type: open
+  name: Teachworks Availabilities Services API
+  slug: open-teachworks-services-api
+- collection_type: open
+  name: Teachworks Availabilities Student Groups API
+  slug: open-teachworks-student-groups-api
+- collection_type: open
+  name: Teachworks Availabilities Students API
+  slug: open-teachworks-students-api
+- collection_type: open
+  name: Teachworks Availabilities Subjects API
+  slug: open-teachworks-subjects-api
+- collection_type: open
+  name: Teachworks Availabilities Unavailabilities API
+  slug: open-teachworks-unavailabilities-api
+- collection_type: open
+  name: Teachworks Availabilities Wage Payments API
+  slug: open-teachworks-wage-payments-api
+- collection_type: open
+  name: Teachworks Availabilities Wage Tiers API
+  slug: open-teachworks-wage-tiers-api
 - collection_type: open
   name: Teachworks API
   slug: open-teachworks
@@ -178,7 +250,7 @@ plans:
 - name: Teachworks Plans Pricing
   plan_count: 4
   slug: teachworks-plans-pricing
-random_paper: 3
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Teachworks Rate Limits
@@ -203,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

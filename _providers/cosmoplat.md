@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The 物联开发平台 (IoT development platform) API published by COSMOPlat as the "OpenApi-线上" reference. Twenty-six documented operations across product management, device management, alarm rules, alarm record
@@ -28,7 +28,7 @@ apis:
 - description: The MQTT publish/subscribe surface of the COSMOPlat IoT development platform, documented in 数据流转引擎 (data flow engine). Devices publish telemetry to iot.cosmoplat.com:1883 on v1/devices/me/telemetry; t
   name: COSMOPlat IoT Telemetry (MQTT)
   slug: cosmoplat-iot-telemetry-mqtt
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Cosmoplat Event Surface
@@ -36,6 +36,10 @@ asyncapis:
 - description: Machine-readable transcription of the COSMOPlat 物联开发平台 (IoT development platform) 数据流转引擎 / "data flow engine" documentation published at https://www.cosmoplat.com/help/detail/304/1064 That page publis
   name: COSMOPlat IoT Telemetry (MQTT)
   slug: cosmoplat-iot-telemetry-asyncapi
+collections:
+- collection_type: open
+  name: COSMOPlat IoT Platform OpenAPI
+  slug: open-cosmoplat-iot-platform
 common:
 - group: auth
   title: ''
@@ -169,7 +173,7 @@ plans:
 - name: Cosmoplat Plans Pricing
   plan_count: 0
   slug: cosmoplat-plans-pricing
-random_paper: 18
+random_paper: 84
 rate_limits:
 - limit_count: 0
   name: Cosmoplat Rate Limits
@@ -177,6 +181,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.7
@@ -184,8 +189,10 @@ score:
     discoverability: 77.8
     governance: 20.8
     operational_transparency: 13.2
+  previous_composite: 44.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Cosmoplat Authentication

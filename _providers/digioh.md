@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Client-side browser API exposed by the Digioh widget runtime once the Digioh JavaScript tag is installed on a site. Documented calls include DIGIOH_API.LIGHTBOX.loadLightbox(guid) to manually trigger '
@@ -169,7 +169,7 @@ plans:
 - name: Digioh Plans Pricing
   plan_count: 3
   slug: digioh-plans-pricing
-random_paper: 28
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Digioh Rate Limits
@@ -177,6 +177,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.9
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 51.6
@@ -184,8 +185,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 44.7
+  previous_composite: 55.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Digioh Authentication

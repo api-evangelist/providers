@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -87,7 +87,7 @@ apis:
 - description: The Term Sheets API from Lev — 2 operation(s) for term sheets.
   name: Lev Term Sheets API
   slug: lev-term-sheets-api
-artifact_total: 40
+artifact_total: 57
 collections:
 - collection_type: postman
   name: Lev Account & Team API
@@ -137,6 +137,57 @@ collections:
 - collection_type: postman
   name: Lev Account & Team Term Sheets API
   slug: postman-lev-term-sheets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lev Account & Team API
+  slug: open-lev-account-team-api
+- collection_type: open
+  name: Lev Account & Team API Keys API
+  slug: open-lev-api-keys-api
+- collection_type: open
+  name: Lev Account & Team Billing API
+  slug: open-lev-billing-api
+- collection_type: open
+  name: Lev Account & Team Companies API
+  slug: open-lev-companies-api
+- collection_type: open
+  name: Lev Account & Team Contacts API
+  slug: open-lev-contacts-api
+- collection_type: open
+  name: Lev Account & Team Deal Financials API
+  slug: open-lev-deal-financials-api
+- collection_type: open
+  name: Lev Account & Team Deal Properties API
+  slug: open-lev-deal-properties-api
+- collection_type: open
+  name: Lev Account & Team Deal Team API
+  slug: open-lev-deal-team-api
+- collection_type: open
+  name: Lev Account & Team Deals API
+  slug: open-lev-deals-api
+- collection_type: open
+  name: Lev Account & Team Lender Directory API
+  slug: open-lev-lender-directory-api
+- collection_type: open
+  name: Lev Account & Team Lev API Documentation API
+  slug: open-lev-lev-api-documentation-api
+- collection_type: open
+  name: Lev Account & Team Market Data API
+  slug: open-lev-market-data-api
+- collection_type: open
+  name: Lev Account & Team Pipelines API
+  slug: open-lev-pipelines-api
+- collection_type: open
+  name: Lev Account & Team Placements API
+  slug: open-lev-placements-api
+- collection_type: open
+  name: Lev Account & Team Quickstart API
+  slug: open-lev-quickstart-api
+- collection_type: open
+  name: Lev Account & Team Term Sheets API
+  slug: open-lev-term-sheets-api
 common:
 - group: other
   title: ''
@@ -311,7 +362,7 @@ plans:
 - name: Lev Plans
   plan_count: 4
   slug: lev-plans
-random_paper: 87
+random_paper: 29
 rate_limits:
 - limit_count: 6
   name: Lev Rate Limits
@@ -350,7 +401,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png
 security:

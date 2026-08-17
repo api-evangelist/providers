@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
@@ -52,7 +52,38 @@ apis:
 - description: The Settings API from IRONSCALES — 4 operation(s) for settings.
   name: IRONSCALES Settings API
   slug: ironscales-settings-api
-artifact_total: 17
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IRONSCALES Management Authorization API
+  slug: open-ironscales-authorization-api
+- collection_type: open
+  name: IRONSCALES Management Campaigns API
+  slug: open-ironscales-campaigns-api
+- collection_type: open
+  name: IRONSCALES Management Deepfake API
+  slug: open-ironscales-deepfake-api
+- collection_type: open
+  name: IRONSCALES Management Emails API
+  slug: open-ironscales-emails-api
+- collection_type: open
+  name: IRONSCALES Management Incident API
+  slug: open-ironscales-incident-api
+- collection_type: open
+  name: IRONSCALES Management Mailboxes API
+  slug: open-ironscales-mailboxes-api
+- collection_type: open
+  name: IRONSCALES Management Mitigation API
+  slug: open-ironscales-mitigation-api
+- collection_type: open
+  name: IRONSCALES Management SAT API
+  slug: open-ironscales-sat-api
+- collection_type: open
+  name: IRONSCALES Management Settings API
+  slug: open-ironscales-settings-api
 common:
 - group: other
   title: ''
@@ -214,7 +245,7 @@ overview: 'IRONSCALES publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 115
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Ironscales Rate Limits
@@ -241,7 +272,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/screenshots/ironscales-2026-08-07T170920.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -98,7 +98,71 @@ apis:
 - description: The Submit API from Amagi — 1 operation(s) for submit.
   name: Amagi Submit API
   slug: amagi-submit-api
-artifact_total: 24
+artifact_total: 45
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: services-amagi-tv Add User API
+  slug: open-amagi-add-user-api
+- collection_type: open
+  name: services-amagi-tv Add User Cancel API
+  slug: open-amagi-cancel-api
+- collection_type: open
+  name: services-amagi-tv Add User Create Customer API
+  slug: open-amagi-create-customer-api
+- collection_type: open
+  name: services-amagi-tv Add User Delete Customer API
+  slug: open-amagi-delete-customer-api
+- collection_type: open
+  name: services-amagi-tv Add User Destroy API
+  slug: open-amagi-destroy-api
+- collection_type: open
+  name: services-amagi-tv Add User Disable User API
+  slug: open-amagi-disable-user-api
+- collection_type: open
+  name: services-amagi-tv Add User Enable User API
+  slug: open-amagi-enable-user-api
+- collection_type: open
+  name: services-amagi-tv Add User Get Info API
+  slug: open-amagi-get-info-api
+- collection_type: open
+  name: services-amagi-tv Add User Get Key API
+  slug: open-amagi-get-key-api
+- collection_type: open
+  name: services-amagi-tv Add User Get Metrics API
+  slug: open-amagi-get-metrics-api
+- collection_type: open
+  name: services-amagi-tv Add User Head Key API
+  slug: open-amagi-head-key-api
+- collection_type: open
+  name: services-amagi-tv Add User List API
+  slug: open-amagi-list-api
+- collection_type: open
+  name: services-amagi-tv Add User List Keys API
+  slug: open-amagi-list-keys-api
+- collection_type: open
+  name: services-amagi-tv Add User List Versions API
+  slug: open-amagi-list-versions-api
+- collection_type: open
+  name: services-amagi-tv Add User Logs API
+  slug: open-amagi-logs-api
+- collection_type: open
+  name: services-amagi-tv Add User Regenerate Token API
+  slug: open-amagi-regenerate-token-api
+- collection_type: open
+  name: services-amagi-tv Add User Retry API
+  slug: open-amagi-retry-api
+- collection_type: open
+  name: services-amagi-tv Add User Set Key API
+  slug: open-amagi-set-key-api
+- collection_type: open
+  name: services-amagi-tv Add User Status API
+  slug: open-amagi-status-api
+- collection_type: open
+  name: services-amagi-tv Add User Submit API
+  slug: open-amagi-submit-api
 common:
 - group: other
   title: ''
@@ -192,7 +256,7 @@ overview: 'Amagi publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amagi''s developer surface includes documentation, support, engineering blog, authentication, CLI, and 14 more developer resources.'
-random_paper: 31
+random_paper: 64
 score:
   band: thin
   composite: 34.0
@@ -216,7 +280,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amagi/refs/heads/main/screenshots/amagi-2026-07-25T195909.png
 security:

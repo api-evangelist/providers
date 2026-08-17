@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -102,7 +102,7 @@ apis:
 - description: REST module template management. A template defines a URI pattern within a module for routing requests.
   name: Oracle APEX Templates API
   slug: oracle-apex-templates-api
-artifact_total: 71
+artifact_total: 82
 collections:
 - collection_type: postman
   name: Oracle REST Data Services (ORDS) REST AutoREST API
@@ -134,6 +134,39 @@ collections:
 - collection_type: postman
   name: Oracle REST Data Services (ORDS) REST AutoREST Templates API
   slug: postman-oracle-apex-templates-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST API
+  slug: open-oracle-apex-autorest-api
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST Handlers API
+  slug: open-oracle-apex-handlers-api
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST Modules API
+  slug: open-oracle-apex-modules-api
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST OAuth Clients API
+  slug: open-oracle-apex-oauth-clients-api
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST Overview API
+  slug: open-oracle-apex-overview-api
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST Parameters API
+  slug: open-oracle-apex-parameters-api
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST Privileges API
+  slug: open-oracle-apex-privileges-api
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST Properties API
+  slug: open-oracle-apex-properties-api
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST Roles API
+  slug: open-oracle-apex-roles-api
+- collection_type: open
+  name: Oracle REST Data Services (ORDS) REST AutoREST Templates API
+  slug: open-oracle-apex-templates-api
 - collection_type: open
   name: Oracle REST Data Services (ORDS) REST API
   slug: open-ords-rest-api
@@ -310,7 +343,7 @@ plans:
 - name: Oracle Apex Plans Pricing
   plan_count: 3
   slug: oracle-apex-plans-pricing
-random_paper: 25
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Oracle Apex Rate Limits
@@ -349,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/screenshots/oracle-apex-2026-06-20T191118.png
 security:

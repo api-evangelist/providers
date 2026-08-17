@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Configure trusted publisher settings for packages to enable OIDC token exchange from CI/CD providers without long-lived npm tokens.
   name: npm Trusted Publishers API
   slug: npm-trusted-publishers-api
-artifact_total: 52
+artifact_total: 59
 asyncapis:
 - description: The npm Hooks event system delivers HTTP POST payloads to subscriber endpoints whenever changes occur in the npm registry. Hooks can be configured to watch for changes to individual packages, all pack
   name: npm Hooks Events
@@ -100,14 +100,35 @@ collections:
   name: npm Hooks Downloads Trusted Publishers API
   slug: postman-npm-trusted-publishers-api
 - collection_type: open
-  name: npm Hooks API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: npm Hooks Downloads API
+  slug: open-npm-downloads-api
+- collection_type: open
+  name: npm Downloads Hooks API
   slug: open-npm-hooks-api
+- collection_type: open
+  name: npm Hooks Downloads OIDC API
+  slug: open-npm-oidc-api
+- collection_type: open
+  name: npm Hooks Downloads Packages API
+  slug: open-npm-packages-api
 - collection_type: open
   name: npm Public API
   slug: open-npm-public-api
 - collection_type: open
-  name: npm Registry API
+  name: npm Hooks Downloads Registry API
   slug: open-npm-registry-api
+- collection_type: open
+  name: npm Hooks Downloads Search API
+  slug: open-npm-search-api
+- collection_type: open
+  name: npm Hooks Downloads Tokens API
+  slug: open-npm-tokens-api
+- collection_type: open
+  name: npm Hooks Downloads Trusted Publishers API
+  slug: open-npm-trusted-publishers-api
 common:
 - group: auth
   title: ''
@@ -275,7 +296,7 @@ plans:
 - name: Npm Plans Pricing
   plan_count: 4
   slug: npm-plans-pricing
-random_paper: 91
+random_paper: 33
 rate_limits:
 - limit_count: 4
   name: Npm Rate Limits
@@ -317,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/screenshots/npm-2026-06-20T190449.png
 security:

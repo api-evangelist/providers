@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,14 +63,29 @@ apis:
 - description: Personal and small business transaction operations
   name: Truist Financial Transactions API
   slug: truist-financial-transactions-api
-artifact_total: 34
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Truist Commercial Account Transactions API
   slug: open-truist-commercial-account-transactions
 - collection_type: open
   name: Truist Commercial Accounts API
   slug: open-truist-commercial-accounts
+- collection_type: open
+  name: Truist Commercial Account Transactions Accounts API
+  slug: open-truist-financial-accounts-api
+- collection_type: open
+  name: Truist Commercial Account Transactions Accounts Commercial Accounts API
+  slug: open-truist-financial-commercial-accounts-api
+- collection_type: open
+  name: Truist Commercial Account Transactions Accounts Commercial Transactions API
+  slug: open-truist-financial-commercial-transactions-api
+- collection_type: open
+  name: Truist Commercial Account Accounts Transactions API
+  slug: open-truist-financial-transactions-api
 - collection_type: open
   name: Truist Personal and Small Business Accounts API
   slug: open-truist-personal-small-business-accounts
@@ -216,7 +231,7 @@ plans:
 - name: Truist Financial Plans Pricing
   plan_count: 1
   slug: truist-financial-plans-pricing
-random_paper: 101
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Truist Financial Rate Limits
@@ -269,7 +284,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/screenshots/truist-financial-2026-06-20T195759.png
 security:

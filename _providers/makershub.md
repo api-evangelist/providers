@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Makershub is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Makershub''s developer surface includes signup flow, pricing, engineering blog, changelog, support, and 9 more developer resources.'
-random_paper: 2
+random_paper: 68
 score:
   band: emerging
   composite: 23.6
@@ -121,7 +121,7 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makershub/refs/heads/main/screenshots/makershub-2026-07-25T225953.png
 security:

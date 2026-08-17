@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Modern REST API for Sage Intacct using standard HTTP verbs and predictable URLs to operate on Intacct objects and data. Authenticates with OAuth 2.0 and supports batch, bulk, and composite requests. S
@@ -171,7 +171,7 @@ overview: 'Sage Intacct publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Sage Intacct''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 22
+random_paper: 146
 scopes:
 - name: Intacct Scopes
   scope_count: 4
@@ -198,7 +198,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intacct/refs/heads/main/screenshots/intacct-2026-07-25T222634.png
 security:

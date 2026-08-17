@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -150,7 +150,113 @@ apis:
 - description: The Versions API from Autodesk Fusion — 8 operation(s) for versions.
   name: Autodesk Fusion Versions API
   slug: autodesk-fusion-versions-api
-artifact_total: 45
+artifact_total: 80
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Construction.Account.Admin Account Management API
+  slug: open-autodesk-fusion-account-management-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Account Users API
+  slug: open-autodesk-fusion-account-users-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Buckets API
+  slug: open-autodesk-fusion-buckets-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Business Units API
+  slug: open-autodesk-fusion-business-units-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Commands API
+  slug: open-autodesk-fusion-commands-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Companies API
+  slug: open-autodesk-fusion-companies-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Derivatives API
+  slug: open-autodesk-fusion-derivatives-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Exchange Token API
+  slug: open-autodesk-fusion-exchange-token-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Folders API
+  slug: open-autodesk-fusion-folders-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Hooks API
+  slug: open-autodesk-fusion-hooks-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Hubs API
+  slug: open-autodesk-fusion-hubs-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Informational API
+  slug: open-autodesk-fusion-informational-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Issue Attachments API
+  slug: open-autodesk-fusion-issue-attachments-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Issue Attribute Definitions API
+  slug: open-autodesk-fusion-issue-attribute-definitions-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Issue Attribute Mappings API
+  slug: open-autodesk-fusion-issue-attribute-mappings-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Issue Comments API
+  slug: open-autodesk-fusion-issue-comments-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Issue Root Cause Categories API
+  slug: open-autodesk-fusion-issue-root-cause-categories-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Issue Types API
+  slug: open-autodesk-fusion-issue-types-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Issues API
+  slug: open-autodesk-fusion-issues-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Issues Profile API
+  slug: open-autodesk-fusion-issues-profile-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Items API
+  slug: open-autodesk-fusion-items-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Jobs API
+  slug: open-autodesk-fusion-jobs-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Key Management API
+  slug: open-autodesk-fusion-key-management-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Manifest API
+  slug: open-autodesk-fusion-manifest-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Metadata API
+  slug: open-autodesk-fusion-metadata-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Objects API
+  slug: open-autodesk-fusion-objects-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Project Users API
+  slug: open-autodesk-fusion-project-users-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Projects API
+  slug: open-autodesk-fusion-projects-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Thumbnails API
+  slug: open-autodesk-fusion-thumbnails-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Token API
+  slug: open-autodesk-fusion-token-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Tokens API
+  slug: open-autodesk-fusion-tokens-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management User Projects API
+  slug: open-autodesk-fusion-user-projects-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Users API
+  slug: open-autodesk-fusion-users-api
+- collection_type: open
+  name: Construction.Account.Admin Account Management Versions API
+  slug: open-autodesk-fusion-versions-api
 common:
 - group: agent
   title: ''
@@ -252,7 +358,7 @@ plans:
 - name: Autodesk Fusion Plans Pricing
   plan_count: 5
   slug: autodesk-fusion-plans-pricing
-random_paper: 9
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Autodesk Fusion Rate Limits
@@ -282,7 +388,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/screenshots/autodesk-fusion-2026-06-20T172708.png
 security:

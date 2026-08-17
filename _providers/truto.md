@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -93,11 +93,68 @@ apis:
 - description: Time off requests and leave management
   name: Truto Timeoff API
   slug: truto-timeoff-api
-artifact_total: 42
+artifact_total: 61
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Truto Admin Accounts API
+  slug: open-truto-accounts-api
 - collection_type: open
   name: Truto Admin API
   slug: open-truto-admin
+- collection_type: open
+  name: Truto Admin Accounts Applications API
+  slug: open-truto-applications-api
+- collection_type: open
+  name: Truto Admin Accounts Candidates API
+  slug: open-truto-candidates-api
+- collection_type: open
+  name: Truto Admin Accounts Companies API
+  slug: open-truto-companies-api
+- collection_type: open
+  name: Truto Admin Accounts Contacts API
+  slug: open-truto-contacts-api
+- collection_type: open
+  name: Truto Admin Accounts Departments API
+  slug: open-truto-departments-api
+- collection_type: open
+  name: Truto Admin Accounts Employees API
+  slug: open-truto-employees-api
+- collection_type: open
+  name: Truto Admin Accounts Employments API
+  slug: open-truto-employments-api
+- collection_type: open
+  name: Truto Admin Accounts Groups API
+  slug: open-truto-groups-api
+- collection_type: open
+  name: Truto Admin Accounts Integrated Accounts API
+  slug: open-truto-integrated-accounts-api
+- collection_type: open
+  name: Truto Admin Accounts Jobs API
+  slug: open-truto-jobs-api
+- collection_type: open
+  name: Truto Admin Accounts Link Tokens API
+  slug: open-truto-link-tokens-api
+- collection_type: open
+  name: Truto Admin Accounts MCP Servers API
+  slug: open-truto-mcp-servers-api
+- collection_type: open
+  name: Truto Admin Accounts Offers API
+  slug: open-truto-offers-api
+- collection_type: open
+  name: Truto Admin Accounts Opportunities API
+  slug: open-truto-opportunities-api
+- collection_type: open
+  name: Truto Admin Accounts Stages API
+  slug: open-truto-stages-api
+- collection_type: open
+  name: Truto Admin Accounts Tasks API
+  slug: open-truto-tasks-api
+- collection_type: open
+  name: Truto Admin Accounts Timeoff API
+  slug: open-truto-timeoff-api
 - collection_type: open
   name: Truto Unified ATS API
   slug: open-truto-unified-ats
@@ -238,7 +295,7 @@ plans:
 - name: Truto Plans Pricing
   plan_count: 2
   slug: truto-plans-pricing
-random_paper: 94
+random_paper: 127
 rate_limits:
 - limit_count: 2
   name: Truto Rate Limits
@@ -280,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/screenshots/truto-2026-06-20T195809.png
 security:

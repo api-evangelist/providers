@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Create support tickets.
   name: Telemetron Ticket API
   slug: telemetron-ai-ticket-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telemetron External API (ext-v1) Customer API
+  slug: open-telemetron-ai-customer-api
+- collection_type: open
+  name: Telemetron External API (ext-v1) Customer Device API
+  slug: open-telemetron-ai-device-api
+- collection_type: open
+  name: Telemetron External API (ext-v1) Customer Device Assignment API
+  slug: open-telemetron-ai-device-assignment-api
+- collection_type: open
+  name: Telemetron External API (ext-v1) Customer Ticket API
+  slug: open-telemetron-ai-ticket-api
 common:
 - group: other
   title: ''
@@ -165,7 +181,7 @@ overview: 'Telemetron publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Telemetron''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
-random_paper: 14
+random_paper: 142
 score:
   band: developing
   composite: 44.7
@@ -189,7 +205,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

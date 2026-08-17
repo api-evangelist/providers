@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: 'REST API for online checkout and credit-application flows: retrieve supported devices, begin a sale, and receive completion webhooks. Bearer-token authenticated plus a symmetric E-commerce key for enc'
@@ -58,11 +58,39 @@ apis:
 - description: Endpoints related to vouchers management
   name: PayJoy Vouchers API
   slug: payjoy-vouchers-api
-artifact_total: 13
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Payjoy Webhooks
   slug: payjoy-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PayJoy Partner API V2 Carts API
+  slug: open-payjoy-carts-api
+- collection_type: open
+  name: PayJoy Partner API V2 Carts Down Payments API
+  slug: open-payjoy-down-payments-api
+- collection_type: open
+  name: PayJoy Partner API V2 Carts Merchants API
+  slug: open-payjoy-merchants-api
+- collection_type: open
+  name: PayJoy Partner API V2 Carts Reconciliation API
+  slug: open-payjoy-reconciliation-api
+- collection_type: open
+  name: PayJoy Partner API V2 Carts Repayments API
+  slug: open-payjoy-repayments-api
+- collection_type: open
+  name: PayJoy Partner API V2 Carts SalesClerks API
+  slug: open-payjoy-salesclerks-api
+- collection_type: open
+  name: PayJoy Partner API V2 Carts Status API
+  slug: open-payjoy-status-api
+- collection_type: open
+  name: PayJoy Partner API V2 Carts Vouchers API
+  slug: open-payjoy-vouchers-api
 common:
 - group: other
   title: ''
@@ -179,7 +207,7 @@ overview: 'PayJoy publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   PayJoy''s developer surface includes documentation, getting-started guide, support, signup flow, engineering blog, authentication, sandbox, and 17 more developer resources.'
-random_paper: 68
+random_paper: 72
 score:
   band: developing
   composite: 45.5
@@ -208,7 +236,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/screenshots/payjoy-2026-08-07T191639.png
 security:

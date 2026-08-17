@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ arazzos:
 - description: List transactions, retrieve the first in full, then pull GL accounts for coding.
   name: Ramp Trace Transaction To Account Detail
   slug: ramp-trace-transaction-to-account-detail-workflow
-artifact_total: 55
+artifact_total: 67
 asyncapis:
 - description: Event-driven surface for the Ramp Developer API. Ramp delivers webhook events to subscriber-provided HTTPS endpoints whenever state changes occur on resources such as transactions, bills, reimbursemen
   name: Ramp Developer API Webhooks
@@ -137,8 +137,44 @@ collections:
   name: Ramp Developer API
   slug: postman-ramp-developer-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ramp Developer Accounts API
+  slug: open-ramp-accounts-api
+- collection_type: open
+  name: Ramp Developer Accounts Audit Logs API
+  slug: open-ramp-audit-logs-api
+- collection_type: open
+  name: Ramp Developer Accounts Bills API
+  slug: open-ramp-bills-api
+- collection_type: open
+  name: Ramp Developer Accounts Cards API
+  slug: open-ramp-cards-api
+- collection_type: open
+  name: Ramp Developer Accounts Departments API
+  slug: open-ramp-departments-api
+- collection_type: open
   name: Ramp Developer API
   slug: open-ramp-developer-api
+- collection_type: open
+  name: Ramp Developer Accounts Locations API
+  slug: open-ramp-locations-api
+- collection_type: open
+  name: Ramp Developer Accounts Reimbursements API
+  slug: open-ramp-reimbursements-api
+- collection_type: open
+  name: Ramp Developer Accounts Statements API
+  slug: open-ramp-statements-api
+- collection_type: open
+  name: Ramp Developer Accounts Transactions API
+  slug: open-ramp-transactions-api
+- collection_type: open
+  name: Ramp Developer Accounts Users API
+  slug: open-ramp-users-api
+- collection_type: open
+  name: Ramp Developer Accounts Vendors API
+  slug: open-ramp-vendors-api
 common:
 - group: agent
   title: ''
@@ -362,7 +398,7 @@ plans:
 - name: Ramp Plans Pricing
   plan_count: 3
   slug: ramp-plans-pricing
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Ramp Rate Limits
@@ -423,7 +459,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png
 security:

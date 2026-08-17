@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -89,7 +89,44 @@ apis:
 - description: Floating/variable rate deposit and borrow operations
   name: Exactly Protocol Variable Rate API
   slug: exactly-variable-rate-api
-artifact_total: 31
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 API
+  slug: open-exactly-erc-4626-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Fixed Rate API
+  slug: open-exactly-fixed-rate-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Liquidations API
+  slug: open-exactly-liquidations-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Liquidity API
+  slug: open-exactly-liquidity-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Market Management API
+  slug: open-exactly-market-management-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Market State API
+  slug: open-exactly-market-state-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Markets API
+  slug: open-exactly-markets-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Reward Configuration API
+  slug: open-exactly-reward-configuration-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Rewards Claims API
+  slug: open-exactly-rewards-claims-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Rewards Query API
+  slug: open-exactly-rewards-query-api
+- collection_type: open
+  name: Exactly Protocol Auditor ERC-4626 Variable Rate API
+  slug: open-exactly-variable-rate-api
 common:
 - group: agent
   title: ''
@@ -219,7 +256,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 42
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -253,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/screenshots/exactly-2026-06-20T180920.png
 security:

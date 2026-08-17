@@ -19,13 +19,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for a ThriveCart account. Reads products, bump offers, upsells, downsells and their pricing options; searches transactions and affiliates; reads customer records; refunds transactions; cancel
   name: ThriveCart API
   slug: thrivecart-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ThriveCart delivers account events to subscriber endpoints over HTTP POST. Two surfaces exist and they do not share event names. **Event Subscription API (this document).** Created programmatically wi
   name: ThriveCart Event Subscriptions
@@ -34,6 +34,9 @@ collections:
 - collection_type: postman
   name: ThriveCart API
   slug: postman-thrivecart-api
+- collection_type: open
+  name: ThriveCart API
+  slug: open-thrivecart-api
 common:
 - group: auth
   title: ''
@@ -198,7 +201,7 @@ plans:
 - name: Thrivecart Plans Pricing
   plan_count: 3
   slug: thrivecart-plans-pricing
-random_paper: 4
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Thrivecart Rate Limits
@@ -211,6 +214,7 @@ scopes:
 score:
   band: strong
   composite: 63.1
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 59.7
@@ -218,6 +222,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 73.7
+  previous_composite: 63.1
   regulatory:
     applies: true
     matched_via: tags
@@ -225,7 +230,8 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Thrivecart Authentication

@@ -14,12 +14,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-12'
+  score: 58.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 1
@@ -50,11 +50,33 @@ apis:
 - description: A collection of RESTful web resources giving third parties access to Lone Wolf data — members, transactions, classifications, conditions, contact types, property types and sources of business. Authent
   name: Lone Wolf WolfConnect API
   slug: lone-wolf-wolfconnect-api
-artifact_total: 14
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Lone Wolf Authentisign Webhooks
   slug: lone-wolf-authentisign-webhooks
+collections:
+- collection_type: open
+  name: Authentisign API
+  slug: open-lone-wolf-authentisign-api
+- collection_type: open
+  name: Back Office API
+  slug: open-lone-wolf-back-office-online-api
+- collection_type: open
+  name: Deals API
+  slug: open-lone-wolf-deals-api
+- collection_type: open
+  name: Transact API
+  slug: open-lone-wolf-transact-api
+- collection_type: open
+  name: TransactionDesk Partner API
+  slug: open-lone-wolf-transactiondesk-api
+- collection_type: open
+  name: WolfConnect API
+  slug: open-lone-wolf-wolfconnect-api
+- collection_type: open
+  name: ZipForm Partner API
+  slug: open-lone-wolf-zipform-api
 common:
 - group: agent
   title: ''
@@ -104,6 +126,14 @@ common:
   title: ''
   type: Packages
   url: packages/lone-wolf-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/lone-wolf-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lone-wolf-plans-pricing.yml
 - group: design
   title: ''
   type: Webhooks
@@ -292,7 +322,7 @@ mcp_servers:
 - description: ''
   name: MCP server manifest and captured tools/list
   slug: mcp-server-manifest-and-captured-toolslist
-modified: '2026-07-26'
+modified: '2026-08-13'
 name: Lone Wolf Technologies
 nav: Providers
 network: true
@@ -302,8 +332,16 @@ overview: 'Lone Wolf Technologies publishes 7 APIs on the [APIs.io](https://apis
   The Lone Wolf Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lone Wolf Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, and 49 more developer resources.'
-random_paper: 75
+  Lone Wolf Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, and 51 more developer resources.'
+plans:
+- name: Lone Wolf Plans Pricing
+  plan_count: 0
+  slug: lone-wolf-plans-pricing
+random_paper: 21
+rate_limits:
+- limit_count: 0
+  name: Lone Wolf Rate Limits
+  slug: lone-wolf-rate-limits
 scopes:
 - name: Lone Wolf Scopes
   scope_count: 14
@@ -311,8 +349,8 @@ scopes:
   summary_line: 14 scopes
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 52.7
+  delta: 1.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.2
@@ -336,9 +374,9 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 58.3
+    score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/screenshots/lone-wolf-2026-08-07T171753.png
 security:

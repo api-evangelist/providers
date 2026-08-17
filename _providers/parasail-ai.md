@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Discover the models currently exposed on the serverless tier.
   name: Parasail Models API
   slug: parasail-ai-models-api
-artifact_total: 41
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Parasail Batch API
+  slug: open-parasail-ai-batch-api
+- collection_type: open
+  name: Parasail Batch Chat API
+  slug: open-parasail-ai-chat-api
+- collection_type: open
+  name: Parasail Batch Completions API
+  slug: open-parasail-ai-completions-api
+- collection_type: open
+  name: Parasail Batch Deployments API
+  slug: open-parasail-ai-deployments-api
+- collection_type: open
+  name: Parasail Batch Embeddings API
+  slug: open-parasail-ai-embeddings-api
+- collection_type: open
+  name: Parasail Batch Files API
+  slug: open-parasail-ai-files-api
+- collection_type: open
+  name: Parasail Batch Models API
+  slug: open-parasail-ai-models-api
 - collection_type: open
   name: Parasail Batch API
   slug: open-parasail-batch-api
@@ -243,7 +267,7 @@ plans:
 - name: Parasail Plans Pricing
   plan_count: 7
   slug: parasail-plans-pricing
-random_paper: 12
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Parasail Rate Limits
@@ -285,7 +309,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/screenshots/parasail-ai-2026-06-20T191400.png
 security:

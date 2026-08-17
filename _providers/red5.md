@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -90,24 +90,63 @@ apis:
 - description: Live stream enumeration, statistics, and control
   name: Red5 Streams API
   slug: red5-streams-api
-artifact_total: 37
+artifact_total: 50
 asyncapis:
 - description: AsyncAPI specification for the Red5 Pro WebRTC streaming event system, covering WebSocket signaling messages exchanged during publish and subscribe sessions. Red5 Pro WebRTC uses WebSocket connections
   name: Red5 Pro WebRTC Streaming Events
   slug: red5-webrtc-streaming-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin API
+  slug: open-red5-admin-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Applications API
+  slug: open-red5-applications-api
+- collection_type: open
   name: Red5 Pro Brew Mixer API
   slug: open-red5-brew-mixer-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin File Restreamer API
+  slug: open-red5-file-restreamer-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Images API
+  slug: open-red5-images-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Inputs API
+  slug: open-red5-inputs-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Logs API
+  slug: open-red5-logs-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Mixers API
+  slug: open-red5-mixers-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Provision API
+  slug: open-red5-provision-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Proxy API
+  slug: open-red5-proxy-api
 - collection_type: open
   name: Red5 Pro Restreamer API
   slug: open-red5-restreamer-api
 - collection_type: open
-  name: Red5 Pro Server API
+  name: Red5 Pro Brew Mixer Admin RTMP Restreamer API
+  slug: open-red5-rtmp-restreamer-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Server API
   slug: open-red5-server-api
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Servlet Configuration API
+  slug: open-red5-servlet-configuration-api
 - collection_type: open
   name: Red5 Pro Stream Manager 2.0 API
   slug: open-red5-stream-manager-2
+- collection_type: open
+  name: Red5 Pro Brew Mixer Admin Streams API
+  slug: open-red5-streams-api
 common:
 - group: agent
   title: ''
@@ -247,7 +286,7 @@ plans:
 - name: Red5 Plans Pricing
   plan_count: 2
   slug: red5-plans-pricing
-random_paper: 8
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Red5 Rate Limits
@@ -297,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/screenshots/red5-2026-06-20T192724.png
 security:

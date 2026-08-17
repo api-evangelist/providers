@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ arazzos:
 - description: Resolve a workspace, then list its tables and its saved searches together.
   name: Azure Log Analytics Workspace Inventory Report
   slug: azure-log-analytics-workspace-inventory-report-workflow
-artifact_total: 75
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Azure Log Analytics Ingestion API
@@ -108,6 +108,24 @@ collections:
 - collection_type: postman
   name: Azure Log Analytics Query API
   slug: postman-azure-log-analytics-query-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Log Analytics Ingestion API
+  slug: open-azure-log-analytics-ingestion-api
+- collection_type: open
+  name: Azure Log Analytics Ingestion Query API
+  slug: open-azure-log-analytics-query-api
+- collection_type: open
+  name: Azure Log Analytics Ingestion Saved Searches API
+  slug: open-azure-log-analytics-saved-searches-api
+- collection_type: open
+  name: Azure Log Analytics Ingestion Tables API
+  slug: open-azure-log-analytics-tables-api
+- collection_type: open
+  name: Azure Log Analytics Ingestion Workspaces API
+  slug: open-azure-log-analytics-workspaces-api
 common:
 - group: operate
   title: ''
@@ -415,7 +433,7 @@ plans:
 - name: Azure Log Analytics Plans Pricing
   plan_count: 4
   slug: azure-log-analytics-plans-pricing
-random_paper: 11
+random_paper: 143
 rate_limits:
 - limit_count: 19
   name: Azure Log Analytics Rate Limits
@@ -462,7 +480,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/screenshots/azure-log-analytics-2026-07-25T202128.png
 security:

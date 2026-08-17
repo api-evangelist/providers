@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Auxiliary service operations such as CommonCrawl data dumps
   name: Apache Nutch Services API
   slug: apache-nutch-services-api
-artifact_total: 93
+artifact_total: 101
 collections:
 - collection_type: postman
   name: Apache Nutch REST Admin API
@@ -83,6 +83,30 @@ collections:
 - collection_type: postman
   name: Apache Nutch REST Admin Services API
   slug: postman-apache-nutch-services-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Nutch REST Admin API
+  slug: open-apache-nutch-admin-api
+- collection_type: open
+  name: Apache Nutch REST Admin Configuration API
+  slug: open-apache-nutch-configuration-api
+- collection_type: open
+  name: Apache Nutch REST Admin Database API
+  slug: open-apache-nutch-database-api
+- collection_type: open
+  name: Apache Nutch REST Admin Job API
+  slug: open-apache-nutch-job-api
+- collection_type: open
+  name: Apache Nutch REST Admin Reader API
+  slug: open-apache-nutch-reader-api
+- collection_type: open
+  name: Apache Nutch REST Admin Seed API
+  slug: open-apache-nutch-seed-api
+- collection_type: open
+  name: Apache Nutch REST Admin Services API
+  slug: open-apache-nutch-services-api
 common:
 - group: auth
   title: ''
@@ -379,7 +403,7 @@ plans:
 - name: Apache Nutch Plans Pricing
   plan_count: 3
   slug: apache-nutch-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Apache Nutch Rate Limits
@@ -421,7 +445,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/screenshots/apache-nutch-2026-06-20T172129.png
 security:

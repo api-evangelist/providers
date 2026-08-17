@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -68,37 +68,40 @@ apis:
 - description: JSON-RPC methods in the blobstream module of celestia-node. Generates inclusion proofs against Blobstream data commitments so EVM chains can verify, via the Blobstream(X) bridge contracts, that a give
   name: Celestia Node Blobstream API
   slug: celestia-blobstream-api
-artifact_total: 56
+artifact_total: 57
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Celestia Node Blob API
   slug: open-celestia-blob-api
 - collection_type: open
-  name: Celestia Node Blobstream API
+  name: Celestia Node Blob Blobstream API
   slug: open-celestia-blobstream-api
 - collection_type: open
-  name: Celestia Node DA API
+  name: Celestia Node Blob DA API
   slug: open-celestia-da-api
 - collection_type: open
-  name: Celestia Node DAS API
+  name: Celestia Node Blob DAS API
   slug: open-celestia-das-api
 - collection_type: open
-  name: Celestia Node Fraud API
+  name: Celestia Node Blob Fraud API
   slug: open-celestia-fraud-api
 - collection_type: open
-  name: Celestia Node Header API
+  name: Celestia Node Blob Header API
   slug: open-celestia-header-api
 - collection_type: open
-  name: Celestia Node Admin API
+  name: Celestia Blob Node API
   slug: open-celestia-node-api
 - collection_type: open
-  name: Celestia Node P2P API
+  name: Celestia Node Blob P2P API
   slug: open-celestia-p2p-api
 - collection_type: open
-  name: Celestia Node Share API
+  name: Celestia Node Blob Share API
   slug: open-celestia-share-api
 - collection_type: open
-  name: Celestia Node State API
+  name: Celestia Node Blob State API
   slug: open-celestia-state-api
 - collection_type: open
   name: Celestia Node Subscriptions
@@ -309,7 +312,7 @@ overview: 'celestia publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   celestia''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, tooling, code examples, and 26 more developer resources.'
-random_paper: 2
+random_paper: 97
 rules:
 - name: celestia API Rules
   rule_count: 5
@@ -347,7 +350,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/screenshots/celestia-2026-06-20T174212.png
 security:

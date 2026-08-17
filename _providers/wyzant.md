@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: Real-time search against the live tutor database.
   name: Wyzant Search API
   slug: wyzant-search-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wyzant Partner Data Data Feed API
+  slug: open-wyzant-data-feed-api
+- collection_type: open
+  name: Wyzant Partner Data Data Feed Search API
+  slug: open-wyzant-search-api
 common:
 - group: agent
   title: ''
@@ -110,7 +120,7 @@ plans:
 - name: Wyzant Plans Pricing
   plan_count: 2
   slug: wyzant-plans-pricing
-random_paper: 85
+random_paper: 89
 rate_limits:
 - limit_count: 3
   name: Wyzant Rate Limits
@@ -135,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

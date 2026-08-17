@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,11 +60,29 @@ apis:
 - description: Test requests and analytical procedures
   name: LabVantage Solutions Tests API
   slug: labvantage-tests-api
-artifact_total: 17
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LabVantage LIMS Containers API
+  slug: open-labvantage-containers-api
+- collection_type: open
+  name: LabVantage LIMS Containers Instruments API
+  slug: open-labvantage-instruments-api
 - collection_type: open
   name: LabVantage LIMS API
   slug: open-labvantage-lims
+- collection_type: open
+  name: LabVantage LIMS Containers Results API
+  slug: open-labvantage-results-api
+- collection_type: open
+  name: LabVantage LIMS Containers Samples API
+  slug: open-labvantage-samples-api
+- collection_type: open
+  name: LabVantage LIMS Containers Tests API
+  slug: open-labvantage-tests-api
 common:
 - group: agent
   title: ''
@@ -113,7 +131,7 @@ plans:
 - name: Labvantage Plans Pricing
   plan_count: 1
   slug: labvantage-plans-pricing
-random_paper: 85
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Labvantage Rate Limits
@@ -153,7 +171,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/screenshots/labvantage-2026-06-20T184240.png
 security:

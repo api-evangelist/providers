@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: BM25 full-text search inside Postgres via the pg_search extension, built on Tantivy. Consumed as SQL over the PostgreSQL wire protocol - BM25 indexes are created with CREATE INDEX ... USING bm25, quer
@@ -40,8 +40,11 @@ apis:
 - description: The primary integration surface for ParadeDB - the PostgreSQL wire protocol itself. Any standard Postgres client, driver, or ORM (psql, libpq, Drizzle, Django, SQLAlchemy, Rails, EF Core) connects ove
   name: ParadeDB Postgres SQL Interface
   slug: postgres-sql-interface
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: ParadeDB SQL Interface (No REST API)
   slug: open-paradedb
@@ -106,7 +109,7 @@ plans:
 - name: Paradedb Plans Pricing
   plan_count: 4
   slug: paradedb-plans-pricing
-random_paper: 99
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Paradedb Rate Limits
@@ -124,7 +127,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradedb/refs/heads/main/screenshots/paradedb-2026-06-20T191455.png
 security:

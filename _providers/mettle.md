@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,11 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII) API for Mettle, letting card-based payment instrument issuers confirm whether funds are available on a customer's Mettle account. FAPI-secured with OAuth2
   name: Mettle Confirmation of Funds API
   slug: mettle-confirmation-of-funds-api
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-mettle-open-data-api
 common:
 - group: agent
   title: ''
@@ -177,7 +181,7 @@ overview: 'Mettle publishes 1 API on the [APIs.io](https://apis.io/) network: Op
 
 
   Mettle''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 22 more developer resources.'
-random_paper: 51
+random_paper: 55
 scopes:
 - name: Mettle Scopes
   scope_count: 4
@@ -212,7 +216,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/screenshots/mettle-2026-08-07T172804.png
 security:

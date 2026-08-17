@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -86,7 +86,59 @@ apis:
 - description: Manage user API keys.
   name: nexos.ai User Management API
   slug: nexosai-user-management-api
-artifact_total: 21
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management API
+  slug: open-nexosai-agent-management-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Assistant Management API
+  slug: open-nexosai-assistant-management-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Audio API
+  slug: open-nexosai-audio-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Batches API
+  slug: open-nexosai-batches-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Budget Limit Management API
+  slug: open-nexosai-budget-limit-management-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Chat API
+  slug: open-nexosai-chat-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Company Management API
+  slug: open-nexosai-company-management-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Embeddings API
+  slug: open-nexosai-embeddings-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Files API
+  slug: open-nexosai-files-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Images API
+  slug: open-nexosai-images-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Messages API
+  slug: open-nexosai-messages-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Models API
+  slug: open-nexosai-models-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Responses API
+  slug: open-nexosai-responses-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Storage API
+  slug: open-nexosai-storage-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management Team Management API
+  slug: open-nexosai-team-management-api
+- collection_type: open
+  name: Nexos AI Public API Production Agent Management User Management API
+  slug: open-nexosai-user-management-api
 common:
 - group: company
   title: ''
@@ -196,7 +248,7 @@ overview: 'nexos.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   nexos.ai''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 18 more developer resources.'
-random_paper: 39
+random_paper: 14
 score:
   band: thin
   composite: 39.7
@@ -220,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/screenshots/nexosai-2026-08-07T185156.png
 security:

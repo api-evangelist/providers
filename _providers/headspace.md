@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -143,6 +143,34 @@ common:
   title: ''
   type: Contact
   url: https://organizations.headspace.com/contact
+- group: company
+  title: ''
+  type: Website
+  url: https://www.headspace.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.headspace.com/about-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.headspace.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/headspacemeditation
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.headspace.com/subscriptions
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/headspace-domain-security.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/headspace-domain-security.yml
 created: '2026-05-23'
 description: Headspace is a global mental health platform offering consumer mindfulness, meditation, and sleep content alongside Headspace Care (formerly Ginger) — on-demand coaching, therapy, and psychiatry — and Headspace EAP. The B2B business (Headspace for Organizations) serves 4,000+ employers, health plans, and consultants in 190+ countries with a stratified care model (AI companion Ebb, coaches, therapists, psychiatrists). Integration surfaces for enterprise customers — eligibility file feeds, SSO, SCIM, benefit-platform connectors — are delivered under enterprise contracts and are not exposed via a public developer portal. There is no public REST API, no published OpenAPI specification, and no self-serve partner onboarding.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/headspace.png
@@ -154,19 +182,19 @@ network: true
 overview: 'Headspace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mental Health, Meditation, Sleep, Mindfulness, and Therapy.
 
 
-  Headspace''s developer surface includes pricing, engineering blog, YouTube channel, and 25 more developer resources.'
-random_paper: 86
+  Headspace''s developer surface includes pricing, engineering blog, YouTube channel, signup flow, and 31 more developer resources.'
+random_paper: 32
 score:
   band: emerging
-  composite: 15.6
-  delta: 0.0
+  composite: 18.5
+  delta: 2.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 15.6
   regulatory:
     applies: true
@@ -175,9 +203,9 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/headspace/refs/heads/main/screenshots/headspace-2026-06-20T182552.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/headspace/refs/heads/main/screenshots/headspace-2026-07-25T220826.png
 security:
 - kind: domain-security
   name: Headspace Domain Security

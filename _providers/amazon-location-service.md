@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -70,11 +70,17 @@ arazzos:
 - description: Create a tracker then push an initial device position update to it.
   name: Amazon Location Service Provision Tracker and Update Position
   slug: amazon-location-service-provision-tracker-workflow
-artifact_total: 45
+artifact_total: 47
 collections:
 - collection_type: postman
   name: Amazon Location Service API
   slug: postman-amazon-location-service
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Location Service Maps API
+  slug: open-amazon-location-service-maps-api
 - collection_type: open
   name: Amazon Location Service API
   slug: open-amazon-location-service
@@ -287,7 +293,7 @@ plans:
 - name: Amazon Location Service Plans Pricing
   plan_count: 3
   slug: amazon-location-service-plans-pricing
-random_paper: 66
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Amazon Location Service Rate Limits
@@ -329,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/screenshots/amazon-location-service-2026-06-20T171726.png
 security:

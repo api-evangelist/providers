@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -60,8 +60,32 @@ apis:
 - description: The Webhooks API from Terminal49 — 5 operation(s) for webhooks.
   name: Terminal49 Webhooks API
   slug: terminal49-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Terminal49 Containers API
+  slug: open-terminal49-containers-api
+- collection_type: open
+  name: Terminal49 Containers Shipments API
+  slug: open-terminal49-shipments-api
+- collection_type: open
+  name: Terminal49 Containers Shipping Lines API
+  slug: open-terminal49-shipping-lines-api
+- collection_type: open
+  name: Terminal49 Containers Terminals API
+  slug: open-terminal49-terminals-api
+- collection_type: open
+  name: Terminal49 Containers Tracking Requests API
+  slug: open-terminal49-tracking-requests-api
+- collection_type: open
+  name: Terminal49 Containers Transport Events API
+  slug: open-terminal49-transport-events-api
+- collection_type: open
+  name: Terminal49 Containers Webhooks API
+  slug: open-terminal49-webhooks-api
 - collection_type: open
   name: Terminal49 API
   slug: open-terminal49
@@ -130,7 +154,7 @@ plans:
 - name: Terminal49 Plans Pricing
   plan_count: 4
   slug: terminal49-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Terminal49 Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

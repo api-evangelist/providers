@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The ShipmentService API from Einride — 6 operation(s) for shipmentservice.
   name: Einride ShipmentService API
   slug: einride-shipmentservice-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Einride Extend: Authentication AuthenticationService API'
+  slug: open-einride-authenticationservice-api
+- collection_type: open
+  name: 'Einride Extend: Authentication AuthenticationService BookingService API'
+  slug: open-einride-bookingservice-api
+- collection_type: open
+  name: 'Einride Extend: Authentication AuthenticationService ShipmentService API'
+  slug: open-einride-shipmentservice-api
 common:
 - group: other
   title: ''
@@ -205,7 +218,7 @@ overview: 'Einride publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Einride''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 28 more developer resources.'
-random_paper: 16
+random_paper: 140
 score:
   band: thin
   composite: 39.9
@@ -229,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/screenshots/einride-2026-07-25T213026.png
 security:

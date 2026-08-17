@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -292,8 +292,11 @@ apis:
 - description: Workflows
   name: Visa Workflows API
   slug: visa-workflows-api
-artifact_total: 129
+artifact_total: 178
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: B2B Virtual Account Payment Method
   slug: open-b2b-virtual-account-payment-method
@@ -304,14 +307,50 @@ collections:
   name: API Collection
   slug: open-vca-data-exchange
 - collection_type: open
+  name: Foreign Exchange Rates Account Management service API
+  slug: open-visa-account-management-service-api
+- collection_type: open
+  name: Foreign Exchange Rates Alert History API API
+  slug: open-visa-alert-history-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Alerts Preference Management API API
+  slug: open-visa-alerts-preference-management-api-api
+- collection_type: open
+  name: Foreign Exchange Rates ATM Locator API API
+  slug: open-visa-atm-locator-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Authorization Data API API
+  slug: open-visa-authorization-data-api-api
+- collection_type: open
+  name: Foreign Exchange Rates B2B Connect API API
+  slug: open-visa-b2b-connect-api-api
+- collection_type: open
   name: Visa B2B Connect
   slug: open-visa-b2b-connect
 - collection_type: open
   name: Visa BIN Attribute Sharing Service
   slug: open-visa-bin-attribute-sharing
 - collection_type: open
+  name: Foreign Exchange Rates BIN File Transfer API
+  slug: open-visa-bin-file-transfer-api
+- collection_type: open
+  name: Foreign Exchange Rates BIN Files Metadata API
+  slug: open-visa-bin-files-metadata-api
+- collection_type: open
+  name: Foreign Exchange Rates Business Data Corporate Setup API API
+  slug: open-visa-business-data-corporate-setup-api-api
+- collection_type: open
   name: Visa Business Data Solutions
   slug: open-visa-business-data-solutions
+- collection_type: open
+  name: Foreign Exchange Rates Business Data Transactions API API
+  slug: open-visa-business-data-transactions-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Buyer Management Service API
+  slug: open-visa-buyer-management-service-api
+- collection_type: open
+  name: Foreign Exchange Rates Card on File Data Inquiry API API
+  slug: open-visa-card-on-file-data-inquiry-api-api
 - collection_type: open
   name: Visa Click to Pay
   slug: open-visa-click-to-pay
@@ -319,11 +358,35 @@ collections:
   name: Visa Consent Management Service
   slug: open-visa-consent-management-service
 - collection_type: open
+  name: Foreign Exchange Rates CTP Checkout API API
+  slug: open-visa-ctp-checkout-api-api
+- collection_type: open
+  name: Foreign Exchange Rates CTP Consumer Management API API
+  slug: open-visa-ctp-consumer-management-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Customer Rules API API
+  slug: open-visa-customer-rules-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Data Tokens API API
+  slug: open-visa-data-tokens-api-api
+- collection_type: open
   name: Visa Data Tokens
   slug: open-visa-data-tokens
 - collection_type: open
   name: Visa Direct
   slug: open-visa-direct
+- collection_type: open
+  name: Foreign Exchange Rates Foreign Exchange Rates API API
+  slug: open-visa-foreign-exchange-rates-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Full BIN List API
+  slug: open-visa-full-bin-list-api
+- collection_type: open
+  name: Foreign Exchange Rates Funds Transfer API API
+  slug: open-visa-funds-transfer-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Funds Transfer Attributes Inquiry API API
+  slug: open-visa-funds-transfer-attributes-inquiry-api-api
 - collection_type: open
   name: Visa Global ATM Locator
   slug: open-visa-global-atm-locator
@@ -331,17 +394,47 @@ collections:
   name: API Collection
   slug: open-visa-government-insights-hub
 - collection_type: open
+  name: Foreign Exchange Rates In-App Provisioning for Apple Pay API
+  slug: open-visa-in-app-provisioning-for-apple-pay-api
+- collection_type: open
+  name: Foreign Exchange Rates In-App Provisioning for Google Pay API
+  slug: open-visa-in-app-provisioning-for-google-pay-api
+- collection_type: open
+  name: Foreign Exchange Rates In-App Provisioning for Samsung Pay API
+  slug: open-visa-in-app-provisioning-for-samsung-pay-api
+- collection_type: open
+  name: Foreign Exchange Rates Issuer API API
+  slug: open-visa-issuer-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Issuer Stop Advice API API
+  slug: open-visa-issuer-stop-advice-api-api
+- collection_type: open
   name: Visa Merchant Offers Resource Center
   slug: open-visa-merchant-offers
 - collection_type: open
   name: Visa Merchant Screening Service
   slug: open-visa-merchant-screening
 - collection_type: open
+  name: Foreign Exchange Rates Merchant Search API API
+  slug: open-visa-merchant-search-api-api
+- collection_type: open
   name: Visa Merchant Search
   slug: open-visa-merchant-search
 - collection_type: open
+  name: Foreign Exchange Rates Nearby Merchants API API
+  slug: open-visa-nearby-merchants-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Offers Data API API
+  slug: open-visa-offers-data-api-api
+- collection_type: open
   name: API Collection
   slug: open-visa-payment-account-reference-inquiry
+- collection_type: open
+  name: Foreign Exchange Rates Payment Account Validation API API
+  slug: open-visa-payment-account-validation-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Payment Service API
+  slug: open-visa-payment-service-api
 - collection_type: open
   name: API Collection
   slug: open-visa-pilot-program-enablement
@@ -349,14 +442,68 @@ collections:
   name: API Collection
   slug: open-visa-practical-money-skills-financial-education-platform
 - collection_type: open
+  name: Foreign Exchange Rates Push Authorization Data API API
+  slug: open-visa-push-authorization-data-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Reference Data API API
+  slug: open-visa-reference-data-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Registered User Details Service API
+  slug: open-visa-registered-user-details-service-api
+- collection_type: open
+  name: Foreign Exchange Rates Single BIN Lookup API
+  slug: open-visa-single-bin-lookup-api
+- collection_type: open
+  name: Foreign Exchange Rates Single Use Account Pool Maintenance Service API
+  slug: open-visa-single-use-account-pool-maintenance-service-api
+- collection_type: open
   name: Visa Supplier Matching Service
   slug: open-visa-supplier-matching-service
+- collection_type: open
+  name: Foreign Exchange Rates Supplier Service API
+  slug: open-visa-supplier-service-api
+- collection_type: open
+  name: Foreign Exchange Rates Termination Inquiry APIs API
+  slug: open-visa-termination-inquiry-apis-api
 - collection_type: open
   name: Visa Transaction Controls
   slug: open-visa-transaction-controls
 - collection_type: open
+  name: Foreign Exchange Rates Transaction Enrichment API API
+  slug: open-visa-transaction-enrichment-api-api
+- collection_type: open
   name: API Collection
   slug: open-visa-underwriting-intelligence-solutions
+- collection_type: open
+  name: Foreign Exchange Rates Universal Card Enrollment API
+  slug: open-visa-universal-card-enrollment-api
+- collection_type: open
+  name: Foreign Exchange Rates URL Generation API API
+  slug: open-visa-url-generation-api-api
+- collection_type: open
+  name: Foreign Exchange Rates VCS Enrollment API API
+  slug: open-visa-vcs-enrollment-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Visa Account Updater Acquirer API API
+  slug: open-visa-visa-account-updater-acquirer-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Visa Account Updater Merchant API API
+  slug: open-visa-visa-account-updater-merchant-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Visa Card Program Enrollment  API
+  slug: open-visa-visa-card-program-enrollment-api
+- collection_type: open
+  name: Foreign Exchange Rates Visa Consent Management API API
+  slug: open-visa-visa-consent-management-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Visa Supplier Matching Service API API
+  slug: open-visa-visa-supplier-matching-service-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Visa Supplier Matching Service Bulk API API
+  slug: open-visa-visa-supplier-matching-service-bulk-api-api
+- collection_type: open
+  name: Foreign Exchange Rates Workflows API
+  slug: open-visa-workflows-api
 common:
 - group: start
   title: ''
@@ -514,7 +661,7 @@ press:
 - date: '2026-05-25'
   title: Visa's 30-Year AI Legacy Fuels Launch of New Global AI ...
   url: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20076.html
-random_paper: 75
+random_paper: 137
 rate_limits:
 - limit_count: 1
   name: Visa Rate Limits
@@ -562,7 +709,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Outbound webhook subscriptions for event notifications (MODELED).
   name: Sirion Webhooks API
   slug: sirion-webhooks-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sirion CLM API (Modeled) Contract Requests API
+  slug: open-sirion-contract-requests-api
+- collection_type: open
+  name: Sirion CLM API (Modeled) Contract Requests Contracts API
+  slug: open-sirion-contracts-api
+- collection_type: open
+  name: Sirion CLM API (Modeled) Contract Requests Metadata & Clauses API
+  slug: open-sirion-metadata-clauses-api
+- collection_type: open
+  name: Sirion CLM API (Modeled) Contract Requests Obligations API
+  slug: open-sirion-obligations-api
+- collection_type: open
+  name: Sirion CLM API (Modeled) Contract Requests Suppliers API
+  slug: open-sirion-suppliers-api
+- collection_type: open
+  name: Sirion CLM API (Modeled) Contract Requests Webhooks API
+  slug: open-sirion-webhooks-api
 - collection_type: open
   name: Sirion CLM API (Modeled)
   slug: open-sirion
@@ -119,7 +140,7 @@ plans:
 - name: Sirion Plans Pricing
   plan_count: 1
   slug: sirion-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Sirion Rate Limits
@@ -144,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: East Range Group
 nav: Providers
 network: true
 overview: East Range Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, High Purity Water, Water Treatment, Water Services, and Industrial Services.
-random_paper: 71
+random_paper: 21
 score:
   band: minimal
   composite: 5.0
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eastrangegroup/refs/heads/main/screenshots/eastrangegroup-2026-07-25T212712.png
 security:

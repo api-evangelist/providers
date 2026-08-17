@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Send, edit, and delete unit metric telemetry data related to your system operations.
   name: CloudZero Unit Metric Telemetry API
   slug: cloudzero-unit-metric-telemetry-api
-artifact_total: 43
+artifact_total: 50
 collections:
 - collection_type: postman
   name: CloudZero Allocation Telemetry API
@@ -96,8 +96,29 @@ collections:
   name: CloudZero Allocation Telemetry Unit Metric Telemetry API
   slug: postman-cloudzero-unit-metric-telemetry-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CloudZero Allocation Telemetry API
+  slug: open-cloudzero-allocation-telemetry-api
+- collection_type: open
+  name: CloudZero Allocation Telemetry AnyCost API
+  slug: open-cloudzero-anycost-api
+- collection_type: open
   name: CloudZero API
   slug: open-cloudzero-api
+- collection_type: open
+  name: CloudZero Allocation Telemetry Billing API
+  slug: open-cloudzero-billing-api
+- collection_type: open
+  name: CloudZero Allocation Telemetry Budgets API
+  slug: open-cloudzero-budgets-api
+- collection_type: open
+  name: CloudZero Allocation Telemetry Insights API
+  slug: open-cloudzero-insights-api
+- collection_type: open
+  name: CloudZero Allocation Telemetry Unit Metric Telemetry API
+  slug: open-cloudzero-unit-metric-telemetry-api
 common:
 - group: build
   title: ''
@@ -235,7 +256,7 @@ plans:
 - name: Cloudzero Plans Pricing
   plan_count: 1
   slug: cloudzero-plans-pricing
-random_paper: 23
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Cloudzero Rate Limits
@@ -277,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/screenshots/cloudzero-2026-06-20T174620.png
 security:

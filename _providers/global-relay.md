@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,17 +54,35 @@ apis:
 - description: Endpoints for archiving voice and video recordings
   name: Global Relay Voice API
   slug: global-relay-voice-api
-artifact_total: 26
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Global Relay Conversation Archiving API
   slug: open-global-relay-conversation-archiving-api
+- collection_type: open
+  name: Global Relay Conversation Archiving Conversations API
+  slug: open-global-relay-conversations-api
+- collection_type: open
+  name: Global Relay Conversation Archiving Conversations Email API
+  slug: open-global-relay-email-api
 - collection_type: open
   name: Global Relay Email Archiving API
   slug: open-global-relay-email-archiving-api
 - collection_type: open
   name: Global Relay Event Archiving API
   slug: open-global-relay-event-archiving-api
+- collection_type: open
+  name: Global Relay Conversation Archiving Conversations Events API
+  slug: open-global-relay-events-api
+- collection_type: open
+  name: Global Relay Conversation Archiving Conversations Files API
+  slug: open-global-relay-files-api
+- collection_type: open
+  name: Global Relay Conversation Archiving Conversations Voice API
+  slug: open-global-relay-voice-api
 - collection_type: open
   name: Global Relay Voice Archiving API
   slug: open-global-relay-voice-archiving-api
@@ -170,7 +188,7 @@ plans:
 - name: Global Relay Plans Pricing
   plan_count: 2
   slug: global-relay-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Global Relay Rate Limits
@@ -204,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/screenshots/global-relay-2026-06-20T181917.png
 security:

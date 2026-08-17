@@ -12,43 +12,73 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-12'
+  score: 50.9
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 2
   human_in_the_loop: 0
   name: Zenserp Agentic Access
-  operation_count: 6
+  operation_count: 13
   slug: zenserp-agentic-access
-  summary_line: 6 operations · 1 acting
-api_count: 3
+  summary_line: 13 operations · 2 acting
+api_count: 5
 apis:
-- description: Batch processing for multiple simultaneous queries.
+- description: 'Asynchronous batch endpoint for very large SERP datasets. Jobs are submitted together and results are POSTed back to a caller-supplied webhook_url, or polled by batch id. Available on the Medium plan '
   name: Zenserp Batch API
   slug: zenserp-batch-api
-- description: Reference list endpoints for supported languages, countries, locations, and engines.
+- description: 'Reference list endpoints publishing the enumerations the Search API parameters must draw from: supported interface languages (hl), countries (gl), canonical Google geo-targeting locations, and search-'
   name: Zenserp Lists API
   slug: zenserp-lists-api
-- description: Core search endpoints supporting all search types and engines.
+- description: Core search endpoint. One GET operation returns Google web, image, video, news, shopping and maps results (selected with tbm) plus Bing, Yandex, DuckDuckGo and YouTube results (selected with search_en
   name: Zenserp Search API
   slug: zenserp-search-api
-artifact_total: 15
+- description: Google Shopping product page endpoint, resolving a single product variant by product_id or a full product cluster across all merchants by gpc_id. Product ids are obtained from a shopping search. Serve
+  name: Zenserp Shopping Product Page API
+  slug: zenserp-shopping-api
+- description: Google Trends endpoints exposing keyword interest over time for one or more keywords, and the currently trending searches for a category, language and region. Served from the v1 base, not v2.
+  name: Zenserp Trends API
+  slug: zenserp-trends-api
+artifact_total: 24
+asyncapis:
+- description: ''
+  name: Zenserp Batch Webhooks
+  slug: zenserp-batch-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zenserp Batch API
+  slug: open-zenserp-batch-api
+- collection_type: open
+  name: Zenserp Lists API
+  slug: open-zenserp-lists-api
+- collection_type: open
+  name: Zenserp Search API
+  slug: open-zenserp-search-api
+- collection_type: open
+  name: Zenserp Shopping Product Page API
+  slug: open-zenserp-shopping-api
+- collection_type: open
+  name: Zenserp Trends API
+  slug: open-zenserp-trends-api
 common:
 - group: agent
   title: ''
@@ -74,10 +104,6 @@ common:
   title: ''
   type: Pricing
   url: https://zenserp.com/pricing-plans/
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://zenserp.freshstatus.io
 - group: company
   title: ''
   type: Blog
@@ -106,6 +132,94 @@ common:
   title: ''
   type: FinOps
   url: finops/zenserp-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/zenserp-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/zenserp-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/zenserp-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/zenserp-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/zenserp-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/zenserp-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/zenserp-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/zenserp-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/zenserp-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/zenserp-batch-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zenserp-search-overlay.yaml
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/collections/a888b56749cd50cc525d
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://app.zenserp.com/documentation
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://app.zenserp.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.zenserp.com/register
+- group: start
+  title: ''
+  type: Login
+  url: https://app.zenserp.com/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://apilayer.com/support
+- group: operate
+  title: ''
+  type: Contact
+  url: https://zenserp.com/contact/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://zenserp.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://zenserp.com/privacy-policy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/zenserp
 created: '2026-06-13'
 description: Zenserp is a Google SERP API that enables developers to fetch live, structured search engine results in real time without interruption. The API supports web, image, video, news, shopping, maps, YouTube, Bing, Yandex, DuckDuckGo, reverse image, and trends search types across 200+ countries, returning clean JSON responses. It offers geolocation-based queries, batch endpoints, keyword search volume and CPC data, and a bulk index checker tool, with a 99.9% uptime SLA.
 examples:
@@ -133,22 +247,22 @@ jsonld:
   property_count: 59
   slug: zenserp-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: Zenserp
 nav: Providers
 network: true
-overview: 'Zenserp publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch API, Lists API, and Search API. Tagged areas include SERP, Search Engine Results, Google Search, Web Scraping, and SEO.
+overview: 'Zenserp publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Lists API, Search API, and 2 more. Tagged areas include SERP, Search Engine Results, Google Search, Web Scraping, and SEO.
 
 
-  The Zenserp catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Zenserp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Zenserp''s developer surface includes authentication, documentation, pricing, engineering blog, and 10 more developer resources.'
+  Zenserp''s developer surface includes authentication, documentation, pricing, engineering blog, sandbox, API reference, signup flow, and 28 more developer resources.'
 plans:
 - name: Zenserp Plans Pricing
   plan_count: 6
   slug: zenserp-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 7
   name: Zenserp Rate Limits
@@ -163,16 +277,16 @@ rules:
     warn: 4
   slug: zenserp-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 52.7
-  delta: 0.0
+  band: exemplar
+  composite: 72.6
+  delta: 19.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.4
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    commercial_clarity: 84.2
+    contract_quality: 76.9
+    developer_ergonomics: 65.2
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 44.7
   previous_composite: 52.7
   provenance:
     agentic_access: derived
@@ -182,14 +296,14 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/screenshots/zenserp-2026-06-20T201820.png
 security:
 - kind: authentication
   name: Zenserp Authentication
   slug: zenserp-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey · 3 schemes
 - kind: domain-security
   name: Zenserp Domain Security
   slug: zenserp-domain-security

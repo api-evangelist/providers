@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Full-text and faceted search across entity types.
   name: Crunchbase Search API
   slug: crunchbase-search-api
-artifact_total: 20
+artifact_total: 25
 collections:
 - collection_type: postman
   name: Crunchbase Autocomplete API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Crunchbase Autocomplete Search API
   slug: postman-crunchbase-search-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crunchbase Autocomplete API
+  slug: open-crunchbase-autocomplete-api
+- collection_type: open
+  name: Crunchbase Autocomplete Deletes API
+  slug: open-crunchbase-deletes-api
+- collection_type: open
+  name: Crunchbase Autocomplete Entities API
+  slug: open-crunchbase-entities-api
+- collection_type: open
+  name: Crunchbase Autocomplete Search API
+  slug: open-crunchbase-search-api
 - collection_type: open
   name: Crunchbase API
   slug: open-crunchbase
@@ -205,7 +220,7 @@ plans:
 - name: Crunchbase Plans Pricing
   plan_count: 3
   slug: crunchbase-plans-pricing
-random_paper: 94
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Crunchbase Rate Limits
@@ -247,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchbase/refs/heads/main/screenshots/crunchbase-2026-06-20T175258.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 9
@@ -290,7 +290,263 @@ apis:
 - description: 'The #X Amz Target=Comprehend 20171127.UpdateFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.updateflywheel.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.UpdateFlywheel API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-updateflywheel-api
-artifact_total: 1189
+artifact_total: 1274
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectdominantlanguage-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectEntities API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectentities-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectKeyPhrases API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectkeyphrases-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectSentiment API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectsentiment-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectSyntax API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectsyntax-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectTargetedSentiment API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-batchdetecttargetedsentiment-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ClassifyDocument API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-classifydocument-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ContainsPiiEntities API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-containspiientities-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.CreateDataset API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-createdataset-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.CreateDocumentClassifier API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-createdocumentclassifier-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.CreateEndpoint API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-createendpoint-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.CreateEntityRecognizer API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-createentityrecognizer-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.CreateFlywheel API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-createflywheel-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DeleteDocumentClassifier API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-deletedocumentclassifier-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DeleteEndpoint API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-deleteendpoint-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DeleteEntityRecognizer API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-deleteentityrecognizer-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DeleteFlywheel API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-deleteflywheel-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DeleteResourcePolicy API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-deleteresourcepolicy-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeDataset API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describedataset-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeDocumentClassificationJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describedocumentclassificationjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeDocumentClassifier API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describedocumentclassifier-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeDominantLanguageDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describedominantlanguagedetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeEndpoint API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describeendpoint-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeEntitiesDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describeentitiesdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeEntityRecognizer API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describeentityrecognizer-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeEventsDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describeeventsdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeFlywheel API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describeflywheel-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeFlywheelIteration API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describeflywheeliteration-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeKeyPhrasesDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describekeyphrasesdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribePiiEntitiesDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describepiientitiesdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeResourcePolicy API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describeresourcepolicy-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeSentimentDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describesentimentdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeTargetedSentimentDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describetargetedsentimentdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DescribeTopicsDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-describetopicsdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DetectDominantLanguage API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-detectdominantlanguage-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DetectEntities API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-detectentities-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DetectKeyPhrases API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-detectkeyphrases-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DetectPiiEntities API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-detectpiientities-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DetectSentiment API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-detectsentiment-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DetectSyntax API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-detectsyntax-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.DetectTargetedSentiment API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-detecttargetedsentiment-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ImportModel API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-importmodel-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListDatasets API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listdatasets-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListDocumentClassificationJobs API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listdocumentclassificationjobs-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListDocumentClassifiers API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listdocumentclassifiers-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListDocumentClassifierSummaries API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listdocumentclassifiersummaries-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListDominantLanguageDetectionJobs API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listdominantlanguagedetectionjobs-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListEndpoints API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listendpoints-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListEntitiesDetectionJobs API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listentitiesdetectionjobs-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListEntityRecognizers API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listentityrecognizers-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListEntityRecognizerSummaries API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listentityrecognizersummaries-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListEventsDetectionJobs API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listeventsdetectionjobs-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListFlywheelIterationHistory API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listflywheeliterationhistory-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListFlywheels API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listflywheels-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListKeyPhrasesDetectionJobs API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listkeyphrasesdetectionjobs-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListPiiEntitiesDetectionJobs API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listpiientitiesdetectionjobs-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListSentimentDetectionJobs API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listsentimentdetectionjobs-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListTagsForResource API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listtagsforresource-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListTargetedSentimentDetectionJobs API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listtargetedsentimentdetectionjobs-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.ListTopicsDetectionJobs API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-listtopicsdetectionjobs-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.PutResourcePolicy API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-putresourcepolicy-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartDocumentClassificationJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-startdocumentclassificationjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartDominantLanguageDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-startdominantlanguagedetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartEntitiesDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-startentitiesdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartEventsDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-starteventsdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartFlywheelIteration API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-startflywheeliteration-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartKeyPhrasesDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-startkeyphrasesdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartPiiEntitiesDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-startpiientitiesdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartSentimentDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-startsentimentdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartTargetedSentimentDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-starttargetedsentimentdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StartTopicsDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-starttopicsdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StopDominantLanguageDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-stopdominantlanguagedetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StopEntitiesDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-stopentitiesdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StopEventsDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-stopeventsdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StopKeyPhrasesDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-stopkeyphrasesdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StopPiiEntitiesDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-stoppiientitiesdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StopSentimentDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-stopsentimentdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StopTargetedSentimentDetectionJob API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-stoptargetedsentimentdetectionjob-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StopTrainingDocumentClassifier API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-stoptrainingdocumentclassifier-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.StopTrainingEntityRecognizer API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-stoptrainingentityrecognizer-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.TagResource API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-tagresource-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.UntagResource API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-untagresource-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.UpdateEndpoint API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-updateendpoint-api
+- collection_type: open
+  name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.UpdateFlywheel API'
+  slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-updateflywheel-api
 common:
 - group: agent
   title: ''
@@ -3691,7 +3947,7 @@ overview: 'Amazon Comprehend publishes 84 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon Comprehend''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
-random_paper: 72
+random_paper: 113
 rules:
 - name: Amazon Comprehend API Rules
   rule_count: 5
@@ -3731,7 +3987,7 @@ score:
       total: 84
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/screenshots/amazon-comprehend-2026-07-25T200001.png
 security:

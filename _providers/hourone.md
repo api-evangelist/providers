@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -56,7 +56,7 @@ apis:
 - description: The webhook API from Hourone — 5 operation(s) for webhook.
   name: Hourone webhook API
   slug: hourone-webhook-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: Outbound webhook notifications for video processing lifecycle. Hour One POSTs a signed JSON payload to your registered endpoint when a video finishes rendering or fails. Each request carries an x-hour
   name: Hour One (MakeReals) Webhooks
@@ -64,6 +64,25 @@ asyncapis:
 - description: ''
   name: Hourone Webhooks
   slug: hourone-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: sizzle-server general API
+  slug: open-hourone-general-api
+- collection_type: open
+  name: sizzle-server general keys API
+  slug: open-hourone-keys-api
+- collection_type: open
+  name: sizzle-server general playground API
+  slug: open-hourone-playground-api
+- collection_type: open
+  name: sizzle-server general videos API
+  slug: open-hourone-videos-api
+- collection_type: open
+  name: sizzle-server general webhook API
+  slug: open-hourone-webhook-api
 common:
 - group: company
   title: ''
@@ -172,7 +191,7 @@ overview: 'Hourone publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Hourone''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 48
+random_paper: 23
 score:
   band: thin
   composite: 40.7
@@ -196,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/screenshots/hourone-2026-07-25T221530.png
 security:

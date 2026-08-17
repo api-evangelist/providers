@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Partner-facing eligibility lookup that returns the list of US states and the Hiscox products offered by profession, used to determine whether a risk can be quoted before a quote is requested. Listed a
@@ -137,7 +137,7 @@ overview: 'Hiscox publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Hiscox''s developer surface includes documentation, API reference, FAQ, support, signup flow, getting-started guide, engineering blog, and 15 more developer resources.'
-random_paper: 54
+random_paper: 58
 score:
   band: thin
   composite: 32.0
@@ -159,7 +159,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/screenshots/hiscox-2026-07-25T221253.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for creating contracts, sending them to signers over WhatsApp/SMS/email, running biometric identity verification, generating documents from templates, sending and verifying OTPs, and register
@@ -151,7 +151,7 @@ overview: 'Keynua publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Keynua''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, sandbox, and 16 more developer resources.'
-random_paper: 53
+random_paper: 57
 score:
   band: developing
   composite: 44.4
@@ -168,7 +168,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keynua/refs/heads/main/screenshots/keynua-2026-07-25T223656.png
 security:

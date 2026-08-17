@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,11 +52,38 @@ apis:
 - description: Partner callback reporting which cards a user actually saw.
   name: Dailyhunt Tracking API
   slug: dailyhunt-tracking-api
-artifact_total: 13
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Dailyhunt Content Syndication
   slug: postman-dailyhunt-content-syndication
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dailyhunt E-Commerce Shopping Catalog API
+  slug: open-dailyhunt-catalog-api
+- collection_type: open
+  name: Dailyhunt Content Syndication Channels API
+  slug: open-dailyhunt-channels-api
+- collection_type: open
+  name: Dailyhunt Content Syndication Content Fetch API
+  slug: open-dailyhunt-content-fetch-api
+- collection_type: open
+  name: Dailyhunt Content Syndication Cricket API
+  slug: open-dailyhunt-cricket-api
+- collection_type: open
+  name: Dailyhunt Content Syndication Feedback API
+  slug: open-dailyhunt-feedback-api
+- collection_type: open
+  name: Dailyhunt Content Syndication Languages API
+  slug: open-dailyhunt-languages-api
+- collection_type: open
+  name: Dailyhunt E-Commerce Shopping Catalog Products API
+  slug: open-dailyhunt-products-api
+- collection_type: open
+  name: Dailyhunt Content Syndication Tracking API
+  slug: open-dailyhunt-tracking-api
 common:
 - group: other
   title: ''
@@ -199,7 +226,7 @@ overview: 'Dailyhunt publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Dailyhunt''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
-random_paper: 18
+random_paper: 84
 score:
   band: developing
   composite: 47.8
@@ -223,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/screenshots/dailyhunt-2026-08-07T164025.png
 security:

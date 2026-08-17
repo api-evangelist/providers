@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -87,7 +87,7 @@ apis:
 - description: The Webhooks API from Ocrolus — 4 operation(s) for webhooks.
   name: Ocrolus Webhooks API
   slug: ocrolus-webhooks-api
-artifact_total: 40
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Ocrolus Webhooks
@@ -141,6 +141,57 @@ collections:
 - collection_type: postman
   name: Account Level Book Commands Webhooks API
   slug: postman-ocrolus-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Account Level Webhooks Book Commands API
+  slug: open-ocrolus-book-commands-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Book Queries API
+  slug: open-ocrolus-book-queries-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Business history API
+  slug: open-ocrolus-business-history-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Business Verification (Deprecated) API
+  slug: open-ocrolus-business-verification-deprecated-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Capture API
+  slug: open-ocrolus-capture-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Cash Flow Analytics API
+  slug: open-ocrolus-cash-flow-analytics-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Detect API
+  slug: open-ocrolus-detect-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Encore API
+  slug: open-ocrolus-encore-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands File Uploads API
+  slug: open-ocrolus-file-uploads-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Income API
+  slug: open-ocrolus-income-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Legacy Cash Flow Analytics (Deprecated) API
+  slug: open-ocrolus-legacy-cash-flow-analytics-deprecated-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Oauth API
+  slug: open-ocrolus-oauth-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Org Level Webhooks API
+  slug: open-ocrolus-org-level-webhooks-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands Tag Management API
+  slug: open-ocrolus-tag-management-api
+- collection_type: open
+  name: Account Level Webhooks Book Commands User management API
+  slug: open-ocrolus-user-management-api
+- collection_type: open
+  name: Account Level Book Commands Webhooks API
+  slug: open-ocrolus-webhooks-api
 common:
 - group: build
   title: ''
@@ -341,7 +392,7 @@ overview: 'Ocrolus publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ocrolus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 38 more developer resources.'
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Ocrolus Rate Limits
@@ -375,7 +426,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/screenshots/ocrolus-2026-08-07T185929.png
 security:

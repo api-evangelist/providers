@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,11 +50,27 @@ apis:
 - description: The Labels API from Moonbounce — 1 operation(s) for labels.
   name: Moonbounce Labels API
   slug: moonbounce-labels-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Moonbounce Webhooks
   slug: moonbounce-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clavata Public API v1 Batch Processing API
+  slug: open-moonbounce-batch-processing-api
+- collection_type: open
+  name: Clavata Public API v1 Batch Processing Create Jobs API
+  slug: open-moonbounce-create-jobs-api
+- collection_type: open
+  name: Clavata Public API v1 Batch Processing Get Jobs API
+  slug: open-moonbounce-get-jobs-api
+- collection_type: open
+  name: Clavata Public API v1 Batch Processing Labels API
+  slug: open-moonbounce-labels-api
 common:
 - group: docs
   title: ''
@@ -195,7 +211,7 @@ overview: 'Moonbounce publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Moonbounce''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 117
+random_paper: 34
 score:
   band: developing
   composite: 48.8
@@ -225,7 +241,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/screenshots/moonbounce-2026-08-07T184233.png
 security:

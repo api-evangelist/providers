@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -78,8 +78,50 @@ apis:
 - description: The VersionService API from Argo CD — 1 operation(s) for versionservice.
   name: Argo CD VersionService API
   slug: argo-cd-versionservice-api
-artifact_total: 850
+artifact_total: 864
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Argo CD AccountService API
+  slug: open-argo-cd-accountservice-api
+- collection_type: open
+  name: Argo CD AccountService ApplicationService API
+  slug: open-argo-cd-applicationservice-api
+- collection_type: open
+  name: Argo CD AccountService ApplicationSetService API
+  slug: open-argo-cd-applicationsetservice-api
+- collection_type: open
+  name: Argo CD AccountService CertificateService API
+  slug: open-argo-cd-certificateservice-api
+- collection_type: open
+  name: Argo CD AccountService ClusterService API
+  slug: open-argo-cd-clusterservice-api
+- collection_type: open
+  name: Argo CD AccountService GPGKeyService API
+  slug: open-argo-cd-gpgkeyservice-api
+- collection_type: open
+  name: Argo CD AccountService NotificationService API
+  slug: open-argo-cd-notificationservice-api
+- collection_type: open
+  name: Argo CD AccountService ProjectService API
+  slug: open-argo-cd-projectservice-api
+- collection_type: open
+  name: Argo CD AccountService RepoCredsService API
+  slug: open-argo-cd-repocredsservice-api
+- collection_type: open
+  name: Argo CD AccountService RepositoryService API
+  slug: open-argo-cd-repositoryservice-api
+- collection_type: open
+  name: Argo CD AccountService SessionService API
+  slug: open-argo-cd-sessionservice-api
+- collection_type: open
+  name: Argo CD AccountService SettingsService API
+  slug: open-argo-cd-settingsservice-api
+- collection_type: open
+  name: Argo CD AccountService VersionService API
+  slug: open-argo-cd-versionservice-api
 - collection_type: open
   name: Argo CD
   slug: open-argo-cd
@@ -2646,7 +2688,7 @@ plans:
 - name: Argo Cd Plans Pricing
   plan_count: 3
   slug: argo-cd-plans-pricing
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Argo Cd Rate Limits
@@ -2688,7 +2730,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/screenshots/argo-cd-2026-06-20T172417.png
 security:

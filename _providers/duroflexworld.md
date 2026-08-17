@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -92,7 +92,7 @@ overview: 'Duroflexworld is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Duroflexworld''s developer surface includes authentication, engineering blog, support, and 8 more developer resources.'
-random_paper: 105
+random_paper: 84
 scopes:
 - name: Duroflexworld Scopes
   scope_count: 4
@@ -113,7 +113,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duroflexworld/refs/heads/main/screenshots/duroflexworld-2026-08-07T164615.png
 security:

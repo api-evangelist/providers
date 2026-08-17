@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Twice-daily export of all historical reservation and guest data for the locations in a Tock business group. Payloads follow the published Reservation data model (party, purchased experiences, options,
@@ -90,7 +90,7 @@ plans:
 - name: Tock Reservations Plans Pricing
   plan_count: 3
   slug: tock-reservations-plans-pricing
-random_paper: 115
+random_paper: 7
 score:
   band: emerging
   composite: 15.5
@@ -104,7 +104,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

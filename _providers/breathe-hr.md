@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: The Sicknesses API from Breathe HR — 2 operation(s) for sicknesses.
   name: Breathe HR Sicknesses API
   slug: breathe-hr-sicknesses-api
-artifact_total: 10
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Breathe HR REST Absences API
+  slug: open-breathe-hr-absences-api
+- collection_type: open
+  name: Breathe HR REST Absences Account API
+  slug: open-breathe-hr-account-api
+- collection_type: open
+  name: Breathe HR REST Absences Employees API
+  slug: open-breathe-hr-employees-api
+- collection_type: open
+  name: Breathe HR REST Absences Holidays API
+  slug: open-breathe-hr-holidays-api
+- collection_type: open
+  name: Breathe HR REST Absences Sicknesses API
+  slug: open-breathe-hr-sicknesses-api
 - collection_type: open
   name: Breathe HR REST API
   slug: open-breathe-hr
@@ -118,7 +136,7 @@ overview: 'Breathe HR publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Breathe HR''s developer surface includes authentication, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 34
+random_paper: 100
 score:
   band: thin
   composite: 32.5
@@ -139,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/screenshots/breathe-hr-2026-06-20T173649.png
 security:

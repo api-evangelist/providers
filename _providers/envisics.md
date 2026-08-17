@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,32 @@ apis:
 - description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any envisics.com URL — a structured-data view of every page without scraping the HTML.
   name: Envisics SEO Metadata API
   slug: envisics-seo-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: Envisics Discovery API
+  slug: open-envisics-discovery-api
+- collection_type: open
+  name: Envisics Media API
+  slug: open-envisics-media-api
+- collection_type: open
+  name: Envisics oEmbed API
+  slug: open-envisics-oembed-api
+- collection_type: open
+  name: Envisics Pages API
+  slug: open-envisics-pages-api
+- collection_type: open
+  name: Envisics Posts API
+  slug: open-envisics-posts-api
+- collection_type: open
+  name: Envisics Search API
+  slug: open-envisics-search-api
+- collection_type: open
+  name: Envisics SEO Metadata API
+  slug: open-envisics-seo-api
+- collection_type: open
+  name: Envisics Taxonomy API
+  slug: open-envisics-taxonomy-api
 common:
 - group: agent
   title: ''
@@ -192,7 +217,7 @@ plans:
 - name: Envisics Plans Pricing
   plan_count: 0
   slug: envisics-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 0
   name: Envisics Rate Limits
@@ -200,6 +225,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.7
@@ -207,8 +233,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 32.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Envisics Authentication

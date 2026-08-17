@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Perform hybrid search (semantic and lexical) across OneDrive for work or school content using natural language queries. Preview API.
   name: Microsoft Copilot Search API
   slug: microsoft-copilot-search-api
-artifact_total: 151
+artifact_total: 157
 collections:
 - collection_type: postman
   name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications API
@@ -77,6 +77,24 @@ collections:
 - collection_type: postman
   name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications Search API
   slug: postman-microsoft-copilot-search-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications API
+  slug: open-microsoft-copilot-change-notifications-api
+- collection_type: open
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications Chat API
+  slug: open-microsoft-copilot-chat-api
+- collection_type: open
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications Interaction Export API
+  slug: open-microsoft-copilot-interaction-export-api
+- collection_type: open
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications Retrieval API
+  slug: open-microsoft-copilot-retrieval-api
+- collection_type: open
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications Search API
+  slug: open-microsoft-copilot-search-api
 - collection_type: open
   name: Microsoft Copilot Microsoft 365 Copilot APIs
   slug: open-microsoft-copilot
@@ -559,7 +577,7 @@ plans:
 - name: Microsoft Copilot Plans Pricing
   plan_count: 7
   slug: microsoft-copilot-plans-pricing
-random_paper: 109
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Microsoft Copilot Rate Limits
@@ -606,7 +624,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/screenshots/microsoft-copilot-2026-06-20T185448.png
 security:

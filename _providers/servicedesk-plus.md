@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: The Requests API from ManageEngine ServiceDesk Plus — 3 operation(s) for requests.
   name: ManageEngine ServiceDesk Plus Requests API
   slug: servicedesk-plus-requests-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ManageEngine ServiceDesk Plus Cloud Requests API
+  slug: open-servicedesk-plus-requests-api
 - collection_type: open
   name: ManageEngine ServiceDesk Plus Cloud API
   slug: open-servicedesk-plus
@@ -114,7 +120,7 @@ overview: 'ManageEngine ServiceDesk Plus publishes 1 API on the [APIs.io](https:
 
 
   ManageEngine ServiceDesk Plus'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 113
+random_paper: 34
 scopes:
 - name: Servicedesk Plus Scopes
   scope_count: 5
@@ -140,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/screenshots/servicedesk-plus-2026-06-20T193729.png
 security:

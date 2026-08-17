@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -76,7 +76,38 @@ apis:
 - description: The Webhooks API from Arcadia — 8 operation(s) for webhooks.
   name: Arcadia Webhooks API
   slug: arcadia-webhooks-api
-artifact_total: 48
+artifact_total: 58
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arcadia API Reference Auth API
+  slug: open-arcadia-auth-api
+- collection_type: open
+  name: Arcadia API Reference Auth Bundle (Beta) API
+  slug: open-arcadia-bundle-beta-api
+- collection_type: open
+  name: Arcadia API Reference Auth Plug API
+  slug: open-arcadia-plug-api
+- collection_type: open
+  name: Arcadia API Reference Auth Spark API
+  slug: open-arcadia-spark-api
+- collection_type: open
+  name: Arcadia API Reference Auth Users API
+  slug: open-arcadia-users-api
+- collection_type: open
+  name: Arcadia API Reference Auth Utility Accounts API
+  slug: open-arcadia-utility-accounts-api
+- collection_type: open
+  name: Arcadia API Reference Auth Utility Credentials API
+  slug: open-arcadia-utility-credentials-api
+- collection_type: open
+  name: Arcadia API Reference Auth Utility Meters (Beta) API
+  slug: open-arcadia-utility-meters-beta-api
+- collection_type: open
+  name: Arcadia API Reference Auth Webhooks API
+  slug: open-arcadia-webhooks-api
 common:
 - group: agent
   title: ''
@@ -250,7 +281,7 @@ plans:
 - name: Arcadia Plans Pricing
   plan_count: 2
   slug: arcadia-plans-pricing
-random_paper: 109
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Arcadia Rate Limits
@@ -290,7 +321,7 @@ score:
     regime_id: energy_utilities
     score: 37.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcadia/refs/heads/main/screenshots/arcadia-2026-06-20T172358.png
 security:

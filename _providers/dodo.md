@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Trade API from DODO — 1 operation(s) for trade.
   name: DODO Trade API
   slug: dodo-trade-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DODO / Route Trade API
+  slug: open-dodo-trade-api
 common:
 - group: other
   title: ''
@@ -135,7 +142,7 @@ overview: 'DODO publishes 1 API on the [APIs.io](https://apis.io/) network: Trad
 
 
   DODO''s developer surface includes documentation, API reference, authentication, and 16 more developer resources.'
-random_paper: 62
+random_paper: 124
 score:
   band: thin
   composite: 33.3
@@ -165,7 +172,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/screenshots/dodo-2026-07-25T212227.png
 security:

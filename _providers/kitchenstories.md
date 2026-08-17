@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 37
 apis:
 - description: The Articles Admin API from Kitchen Stories — 1 operation(s) for articles admin.
@@ -142,7 +142,122 @@ apis:
 - description: The Videos API from Kitchen Stories — 5 operation(s) for videos.
   name: Kitchen Stories Videos API
   slug: kitchenstories-videos-api
-artifact_total: 40
+artifact_total: 78
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin API
+  slug: open-kitchenstories-articles-admin-api
+- collection_type: open
+  name: Kitchen Stories Internal Admin Articles API
+  slug: open-kitchenstories-articles-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Authentication API
+  slug: open-kitchenstories-authentication-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Categories Admin API
+  slug: open-kitchenstories-categories-admin-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Categories API
+  slug: open-kitchenstories-categories-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Content Collections Admin API
+  slug: open-kitchenstories-content-collections-admin-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Content Collections API
+  slug: open-kitchenstories-content-collections-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Feed API
+  slug: open-kitchenstories-feed-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Indexer API
+  slug: open-kitchenstories-indexer-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Ingredients API
+  slug: open-kitchenstories-ingredients-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Other API
+  slug: open-kitchenstories-other-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Personalization Admin API
+  slug: open-kitchenstories-personalization-admin-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Personalization API
+  slug: open-kitchenstories-personalization-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin QA API
+  slug: open-kitchenstories-qa-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Recipes Admin API
+  slug: open-kitchenstories-recipes-admin-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Recipes API
+  slug: open-kitchenstories-recipes-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Reports API
+  slug: open-kitchenstories-reports-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Search Categories API
+  slug: open-kitchenstories-search-categories-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Shopping Tips (Affiliate Pages) API
+  slug: open-kitchenstories-shopping-tips-affiliate-pages-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Stats API
+  slug: open-kitchenstories-stats-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Tags API
+  slug: open-kitchenstories-tags-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Upload API
+  slug: open-kitchenstories-upload-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User API
+  slug: open-kitchenstories-user-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Comment Likes API
+  slug: open-kitchenstories-user-comment-likes-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Comments API
+  slug: open-kitchenstories-user-comments-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Cookbooks API
+  slug: open-kitchenstories-user-cookbooks-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User External Recipes API
+  slug: open-kitchenstories-user-external-recipes-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Likes API
+  slug: open-kitchenstories-user-likes-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Meal Plan API
+  slug: open-kitchenstories-user-meal-plan-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Private Favorite Ingredients API
+  slug: open-kitchenstories-user-private-favorite-ingredients-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Private Recipes API
+  slug: open-kitchenstories-user-private-recipes-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Public Cookbooks API
+  slug: open-kitchenstories-user-public-cookbooks-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Public Recipes API
+  slug: open-kitchenstories-user-public-recipes-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin User Ratings API
+  slug: open-kitchenstories-user-ratings-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin UserCookbooksRecipes API
+  slug: open-kitchenstories-usercookbooksrecipes-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Utensils API
+  slug: open-kitchenstories-utensils-api
+- collection_type: open
+  name: Kitchen Stories Internal Articles Admin Videos API
+  slug: open-kitchenstories-videos-api
 common:
 - group: agent
   title: ''
@@ -240,7 +355,7 @@ overview: 'Kitchen Stories publishes 37 APIs on the [APIs.io](https://apis.io/) 
 
 
   Kitchen Stories'' developer surface includes support, engineering blog, signup flow, pricing, and 16 more developer resources.'
-random_paper: 79
+random_paper: 29
 score:
   band: thin
   composite: 33.4
@@ -263,7 +378,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png
 security:

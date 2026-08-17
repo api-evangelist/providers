@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Water consumption tracking
   name: Salesforce Net Zero Cloud Water Usage API
   slug: salesforce-net-zero-cloud-water-usage-api
-artifact_total: 32
+artifact_total: 40
 collections:
 - collection_type: postman
   name: Salesforce Net Zero Cloud REST Carbon Emissions API
@@ -90,8 +90,32 @@ collections:
   name: Salesforce Net Zero Cloud REST Carbon Emissions Water Usage API
   slug: postman-salesforce-net-zero-cloud-water-usage-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesforce Net Zero Cloud REST Carbon Emissions API
+  slug: open-salesforce-net-zero-cloud-carbon-emissions-api
+- collection_type: open
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Emission Factors API
+  slug: open-salesforce-net-zero-cloud-emission-factors-api
+- collection_type: open
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Energy Consumption API
+  slug: open-salesforce-net-zero-cloud-energy-consumption-api
+- collection_type: open
+  name: Salesforce Net Zero Cloud REST Carbon Emissions ESG Reporting API
+  slug: open-salesforce-net-zero-cloud-esg-reporting-api
+- collection_type: open
   name: Salesforce Net Zero Cloud REST API
   slug: open-salesforce-net-zero-cloud-rest-api
+- collection_type: open
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Sustainability Goals API
+  slug: open-salesforce-net-zero-cloud-sustainability-goals-api
+- collection_type: open
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Waste Management API
+  slug: open-salesforce-net-zero-cloud-waste-management-api
+- collection_type: open
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Water Usage API
+  slug: open-salesforce-net-zero-cloud-water-usage-api
 common:
 - group: build
   title: ''
@@ -223,7 +247,7 @@ plans:
 - name: Salesforce Net Zero Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-net-zero-cloud-plans-pricing
-random_paper: 108
+random_paper: 124
 rate_limits:
 - limit_count: 1
   name: Salesforce Net Zero Cloud Rate Limits
@@ -270,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/screenshots/salesforce-net-zero-cloud-2026-06-20T193349.png
 security:

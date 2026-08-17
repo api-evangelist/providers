@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -173,8 +173,146 @@ apis:
 - description: The WorkloadProfileFeatures API from Humanitec — 1 operation(s) for workloadprofilefeatures.
   name: Humanitec WorkloadProfileFeatures API
   slug: humanitec-workloadprofilefeatures-api
-artifact_total: 51
+artifact_total: 97
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Humanitec AccountType API
+  slug: open-humanitec-accounttype-api
+- collection_type: open
+  name: Humanitec AccountType ActiveResource API
+  slug: open-humanitec-activeresource-api
+- collection_type: open
+  name: Humanitec AccountType Agents API
+  slug: open-humanitec-agents-api
+- collection_type: open
+  name: Humanitec AccountType Application API
+  slug: open-humanitec-application-api
+- collection_type: open
+  name: Humanitec AccountType Artefact API
+  slug: open-humanitec-artefact-api
+- collection_type: open
+  name: Humanitec AccountType ArtefactVersion API
+  slug: open-humanitec-artefactversion-api
+- collection_type: open
+  name: Humanitec AccountType AuditLogs API
+  slug: open-humanitec-auditlogs-api
+- collection_type: open
+  name: Humanitec AccountType AutomationRule API
+  slug: open-humanitec-automationrule-api
+- collection_type: open
+  name: Humanitec AccountType Delta API
+  slug: open-humanitec-delta-api
+- collection_type: open
+  name: Humanitec AccountType Deployment API
+  slug: open-humanitec-deployment-api
+- collection_type: open
+  name: Humanitec AccountType DriverDefinition API
+  slug: open-humanitec-driverdefinition-api
+- collection_type: open
+  name: Humanitec AccountType Environment API
+  slug: open-humanitec-environment-api
+- collection_type: open
+  name: Humanitec AccountType EnvironmentPausedInfo API
+  slug: open-humanitec-environmentpausedinfo-api
+- collection_type: open
+  name: Humanitec AccountType EnvironmentType API
+  slug: open-humanitec-environmenttype-api
+- collection_type: open
+  name: Humanitec AccountType Event API
+  slug: open-humanitec-event-api
+- collection_type: open
+  name: Humanitec AccountType Group API
+  slug: open-humanitec-group-api
+- collection_type: open
+  name: Humanitec AccountType HumanitecPublicKeys API
+  slug: open-humanitec-humanitecpublickeys-api
+- collection_type: open
+  name: Humanitec AccountType Image API
+  slug: open-humanitec-image-api
+- collection_type: open
+  name: Humanitec AccountType Logs API
+  slug: open-humanitec-logs-api
+- collection_type: open
+  name: Humanitec AccountType MatchingCriteria API
+  slug: open-humanitec-matchingcriteria-api
+- collection_type: open
+  name: Humanitec AccountType Organization API
+  slug: open-humanitec-organization-api
+- collection_type: open
+  name: Humanitec AccountType PipelineApprovals API
+  slug: open-humanitec-pipelineapprovals-api
+- collection_type: open
+  name: Humanitec AccountType PipelineRuns API
+  slug: open-humanitec-pipelineruns-api
+- collection_type: open
+  name: Humanitec AccountType Pipelines API
+  slug: open-humanitec-pipelines-api
+- collection_type: open
+  name: Humanitec AccountType public API
+  slug: open-humanitec-public-api
+- collection_type: open
+  name: Humanitec AccountType PublicKeys API
+  slug: open-humanitec-publickeys-api
+- collection_type: open
+  name: Humanitec AccountType Registry API
+  slug: open-humanitec-registry-api
+- collection_type: open
+  name: Humanitec AccountType Replicas API
+  slug: open-humanitec-replicas-api
+- collection_type: open
+  name: Humanitec AccountType ResourceAccount API
+  slug: open-humanitec-resourceaccount-api
+- collection_type: open
+  name: Humanitec AccountType ResourceClass API
+  slug: open-humanitec-resourceclass-api
+- collection_type: open
+  name: Humanitec AccountType ResourceDefinition API
+  slug: open-humanitec-resourcedefinition-api
+- collection_type: open
+  name: Humanitec AccountType ResourceDefinitionVersion API
+  slug: open-humanitec-resourcedefinitionversion-api
+- collection_type: open
+  name: Humanitec AccountType ResourceProvision API
+  slug: open-humanitec-resourceprovision-api
+- collection_type: open
+  name: Humanitec AccountType ResourceType API
+  slug: open-humanitec-resourcetype-api
+- collection_type: open
+  name: Humanitec AccountType RuntimeInfo API
+  slug: open-humanitec-runtimeinfo-api
+- collection_type: open
+  name: Humanitec AccountType SecretStore API
+  slug: open-humanitec-secretstore-api
+- collection_type: open
+  name: Humanitec AccountType Set API
+  slug: open-humanitec-set-api
+- collection_type: open
+  name: Humanitec AccountType TokenInfo API
+  slug: open-humanitec-tokeninfo-api
+- collection_type: open
+  name: Humanitec AccountType UserInvite API
+  slug: open-humanitec-userinvite-api
+- collection_type: open
+  name: Humanitec AccountType UserProfile API
+  slug: open-humanitec-userprofile-api
+- collection_type: open
+  name: Humanitec AccountType UserRole API
+  slug: open-humanitec-userrole-api
+- collection_type: open
+  name: Humanitec AccountType Value API
+  slug: open-humanitec-value-api
+- collection_type: open
+  name: Humanitec AccountType ValueSetVersion API
+  slug: open-humanitec-valuesetversion-api
+- collection_type: open
+  name: Humanitec AccountType WorkloadProfile API
+  slug: open-humanitec-workloadprofile-api
+- collection_type: open
+  name: Humanitec AccountType WorkloadProfileFeatures API
+  slug: open-humanitec-workloadprofilefeatures-api
 - collection_type: open
   name: Humanitec API
   slug: open-humanitec
@@ -243,7 +381,7 @@ plans:
 - name: Humanitec Plans Pricing
   plan_count: 3
   slug: humanitec-plans-pricing
-random_paper: 118
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Humanitec Rate Limits
@@ -268,7 +406,7 @@ score:
       marker_coverage: 0.0
       total: 45
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/screenshots/humanitec-2026-06-20T182935.png
 security:

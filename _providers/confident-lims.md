@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -76,11 +76,45 @@ arazzos:
 - description: A lab creates an order for a testing client, verifies it into the workflow, submits test results for a sample, attaches the COA, and completes the order.
   name: Confident LIMS — lab order to finalized results
   slug: confident-lims-lab-order-to-results
-artifact_total: 17
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Confident Lims Webhooks
   slug: confident-lims-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clients Client Info API
+  slug: open-confident-lims-client-info-api
+- collection_type: open
+  name: Client Info Clients API
+  slug: open-confident-lims-clients-api
+- collection_type: open
+  name: Clients Client Info Lab Info API
+  slug: open-confident-lims-lab-info-api
+- collection_type: open
+  name: Clients Client Info Labs API
+  slug: open-confident-lims-labs-api
+- collection_type: open
+  name: Clients Client Info Order Status API
+  slug: open-confident-lims-order-status-api
+- collection_type: open
+  name: Clients Client Info Orders API
+  slug: open-confident-lims-orders-api
+- collection_type: open
+  name: Clients Client Info Reference Data API
+  slug: open-confident-lims-reference-data-api
+- collection_type: open
+  name: Clients Client Info Sample Files API
+  slug: open-confident-lims-sample-files-api
+- collection_type: open
+  name: Clients Client Info Samples API
+  slug: open-confident-lims-samples-api
+- collection_type: open
+  name: Clients Client Info Test Results API
+  slug: open-confident-lims-test-results-api
 common:
 - group: other
   title: ''
@@ -213,7 +247,7 @@ overview: 'Confident LIMS publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Confident LIMS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 116
+random_paper: 95
 score:
   band: developing
   composite: 52.6
@@ -237,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/screenshots/confident-lims-2026-07-25T210248.png
 security:

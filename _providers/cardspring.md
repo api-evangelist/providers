@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: CardSpring
 nav: Providers
 network: true
 overview: CardSpring is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Card Linking, Offers, and Loyalty.
-random_paper: 109
+random_paper: 26
 score:
   band: minimal
   composite: 4.3
@@ -64,7 +64,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardspring/refs/heads/main/screenshots/cardspring-2026-07-25T204519.png
 slug: cardspring

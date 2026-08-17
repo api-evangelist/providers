@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,8 +81,44 @@ apis:
 - description: The Tournaments API from PandaScore — 2 operation(s) for tournaments.
   name: PandaScore Tournaments API
   slug: pandascore-tournaments-api
-artifact_total: 21
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PandaScore Changes API
+  slug: open-pandascore-changes-api
+- collection_type: open
+  name: PandaScore Changes Game - CS:GO API
+  slug: open-pandascore-game-cs-go-api
+- collection_type: open
+  name: PandaScore Changes Game - Dota 2 API
+  slug: open-pandascore-game-dota-2-api
+- collection_type: open
+  name: PandaScore Changes Game - League of Legends API
+  slug: open-pandascore-game-league-of-legends-api
+- collection_type: open
+  name: PandaScore Changes Game - Valorant API
+  slug: open-pandascore-game-valorant-api
+- collection_type: open
+  name: PandaScore Changes Leagues API
+  slug: open-pandascore-leagues-api
+- collection_type: open
+  name: PandaScore Changes Matches API
+  slug: open-pandascore-matches-api
+- collection_type: open
+  name: PandaScore Changes Players API
+  slug: open-pandascore-players-api
+- collection_type: open
+  name: PandaScore Changes Series API
+  slug: open-pandascore-series-api
+- collection_type: open
+  name: PandaScore Changes Teams API
+  slug: open-pandascore-teams-api
+- collection_type: open
+  name: PandaScore Changes Tournaments API
+  slug: open-pandascore-tournaments-api
 - collection_type: open
   name: PandaScore API
   slug: open-pandascore
@@ -159,7 +195,7 @@ plans:
 - name: Pandascore Plans Pricing
   plan_count: 1
   slug: pandascore-plans-pricing
-random_paper: 96
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Pandascore Rate Limits
@@ -184,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/screenshots/pandascore-2026-06-20T191336.png
 security:

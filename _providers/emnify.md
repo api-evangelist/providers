@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -178,14 +178,95 @@ arazzos:
 - description: Authenticate, read a SIM, and suspend it only when it is currently Activated.
   name: emnify Suspend SIM When Active
   slug: emnify-suspend-sim-when-active-workflow
-artifact_total: 96
+artifact_total: 123
 collections:
 - collection_type: postman
   name: emnify REST API
   slug: postman-emnify-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: emnify REST API
   slug: open-emnify-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens API
+  slug: open-emnify-subpackage-applicationtokens-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_authentication API
+  slug: open-emnify-subpackage-authentication-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_automations API
+  slug: open-emnify-subpackage-automations-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_cloudConnect API
+  slug: open-emnify-subpackage-cloudconnect-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_customEvents API
+  slug: open-emnify-subpackage-customevents-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_endpoint API
+  slug: open-emnify-subpackage-endpoint-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_euicc API
+  slug: open-emnify-subpackage-euicc-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_euiccOperation API
+  slug: open-emnify-subpackage-euiccoperation-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_events API
+  slug: open-emnify-subpackage-events-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_integrations API
+  slug: open-emnify-subpackage-integrations-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_ipAddressSpaces API
+  slug: open-emnify-subpackage-ipaddressspaces-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_lookups API
+  slug: open-emnify-subpackage-lookups-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_operator API
+  slug: open-emnify-subpackage-operator-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_organization API
+  slug: open-emnify-subpackage-organization-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_passwordManagementAndActivation API
+  slug: open-emnify-subpackage-passwordmanagementandactivation-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_serviceLookupsAndConfiguration API
+  slug: open-emnify-subpackage-servicelookupsandconfiguration-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_serviceProfiles API
+  slug: open-emnify-subpackage-serviceprofiles-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_sim API
+  slug: open-emnify-subpackage-sim-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_simOperation API
+  slug: open-emnify-subpackage-simoperation-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_simUnlinkedProductStatistics API
+  slug: open-emnify-subpackage-simunlinkedproductstatistics-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_systemEvents API
+  slug: open-emnify-subpackage-systemevents-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_tagManagement API
+  slug: open-emnify-subpackage-tagmanagement-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_tariffPlans API
+  slug: open-emnify-subpackage-tariffplans-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_tariffProfiles API
+  slug: open-emnify-subpackage-tariffprofiles-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_userManagement API
+  slug: open-emnify-subpackage-usermanagement-api
+- collection_type: open
+  name: emnify REST subpackage_applicationTokens subpackage_workspaces API
+  slug: open-emnify-subpackage-workspaces-api
 common:
 - group: agent
   title: ''
@@ -511,7 +592,7 @@ plans:
 - name: Emnify Plans Pricing
   plan_count: 11
   slug: emnify-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: Emnify Rate Limits
@@ -559,7 +640,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/screenshots/emnify-2026-06-20T180637.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,11 @@ arazzos:
 - description: From a latitude/longitude, find the nearest licensed transmitter sites, pull the frequency assignments in a band and postcode range around them, and attribute an assignment back to its licensee.
   name: ACMA — spectrum survey by location
   slug: acma-spectrum-survey-by-location
-artifact_total: 22
+artifact_total: 23
+collections:
+- collection_type: open
+  name: ACMA Spectrum Licensing API
+  slug: open-acma-spectrum-licensing
 common:
 - group: company
   title: ''
@@ -206,7 +210,7 @@ plans:
 - name: Acma Plans
   plan_count: 9
   slug: acma-plans
-random_paper: 42
+random_paper: 104
 rate_limits:
 - limit_count: 6
   name: Acma Rate Limits
@@ -240,7 +244,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/screenshots/acma-2026-08-07T160936.png
 security:

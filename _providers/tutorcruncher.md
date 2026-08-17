@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Webhook event catalog (action types).
   name: TutorCruncher Webhooks API
   slug: tutorcruncher-webhooks-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TutorCruncher Agents API
+  slug: open-tutorcruncher-agents-api
+- collection_type: open
+  name: TutorCruncher Agents Appointments API
+  slug: open-tutorcruncher-appointments-api
+- collection_type: open
+  name: TutorCruncher Agents Clients API
+  slug: open-tutorcruncher-clients-api
+- collection_type: open
+  name: TutorCruncher Agents Contractors API
+  slug: open-tutorcruncher-contractors-api
+- collection_type: open
+  name: TutorCruncher Agents Invoices API
+  slug: open-tutorcruncher-invoices-api
+- collection_type: open
+  name: TutorCruncher Agents Payments API
+  slug: open-tutorcruncher-payments-api
+- collection_type: open
+  name: TutorCruncher Agents Recipients API
+  slug: open-tutorcruncher-recipients-api
+- collection_type: open
+  name: TutorCruncher Agents Reference API
+  slug: open-tutorcruncher-reference-api
+- collection_type: open
+  name: TutorCruncher Agents Services API
+  slug: open-tutorcruncher-services-api
+- collection_type: open
+  name: TutorCruncher Agents Webhooks API
+  slug: open-tutorcruncher-webhooks-api
 - collection_type: open
   name: TutorCruncher API
   slug: open-tutorcruncher
@@ -139,7 +172,7 @@ plans:
 - name: Tutorcruncher Plans Pricing
   plan_count: 3
   slug: tutorcruncher-plans-pricing
-random_paper: 112
+random_paper: 91
 rate_limits:
 - limit_count: 3
   name: Tutorcruncher Rate Limits
@@ -170,7 +203,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

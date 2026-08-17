@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -102,7 +102,7 @@ apis:
 - description: The Ws Signing Key API from SuprSend — 3 operation(s) for ws signing key.
   name: SuprSend Ws Signing Key API
   slug: suprsend-ws-signing-key-api
-artifact_total: 51
+artifact_total: 72
 collections:
 - collection_type: postman
   name: SuprSend Broadcast API
@@ -164,6 +164,69 @@ collections:
 - collection_type: postman
   name: SuprSend Broadcast Ws Signing Key API
   slug: postman-suprsend-ws-signing-key-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SuprSend Broadcast API
+  slug: open-suprsend-broadcast-api
+- collection_type: open
+  name: SuprSend Broadcast Broadcast Run API
+  slug: open-suprsend-broadcast-run-api
+- collection_type: open
+  name: SuprSend Broadcast Bulk API
+  slug: open-suprsend-bulk-api
+- collection_type: open
+  name: SuprSend Broadcast Event API
+  slug: open-suprsend-event-api
+- collection_type: open
+  name: SuprSend Broadcast Message API
+  slug: open-suprsend-message-api
+- collection_type: open
+  name: SuprSend Broadcast Object API
+  slug: open-suprsend-object-api
+- collection_type: open
+  name: SuprSend Broadcast Preference Category API
+  slug: open-suprsend-preference-category-api
+- collection_type: open
+  name: SuprSend Broadcast Schema API
+  slug: open-suprsend-schema-api
+- collection_type: open
+  name: SuprSend Broadcast Subscriber List API
+  slug: open-suprsend-subscriber-list-api
+- collection_type: open
+  name: SuprSend Broadcast Template API
+  slug: open-suprsend-template-api
+- collection_type: open
+  name: SuprSend Broadcast Tenant API
+  slug: open-suprsend-tenant-api
+- collection_type: open
+  name: SuprSend Broadcast Translation API
+  slug: open-suprsend-translation-api
+- collection_type: open
+  name: SuprSend Broadcast Trigger API
+  slug: open-suprsend-trigger-api
+- collection_type: open
+  name: SuprSend Broadcast User API
+  slug: open-suprsend-user-api
+- collection_type: open
+  name: SuprSend Broadcast Workflow API
+  slug: open-suprsend-workflow-api
+- collection_type: open
+  name: SuprSend Broadcast Workflow Run API
+  slug: open-suprsend-workflow-run-api
+- collection_type: open
+  name: SuprSend Broadcast Workspace API
+  slug: open-suprsend-workspace-api
+- collection_type: open
+  name: SuprSend Broadcast Ws Api Key API
+  slug: open-suprsend-ws-api-key-api
+- collection_type: open
+  name: SuprSend Broadcast Ws Public Key API
+  slug: open-suprsend-ws-public-key-api
+- collection_type: open
+  name: SuprSend Broadcast Ws Signing Key API
+  slug: open-suprsend-ws-signing-key-api
 common:
 - group: build
   title: ''
@@ -281,7 +344,7 @@ plans:
 - name: Suprsend Plans Pricing
   plan_count: 4
   slug: suprsend-plans-pricing
-random_paper: 44
+random_paper: 139
 rate_limits:
 - limit_count: 3
   name: Suprsend Rate Limits
@@ -321,7 +384,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/screenshots/suprsend-2026-06-20T194803.png
 security:

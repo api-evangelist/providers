@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -93,7 +93,65 @@ apis:
 - description: The Visit Types API from Digitail — 1 operation(s) for visit types.
   name: Digitail Visit Types API
   slug: digitail-visit-types-api
-artifact_total: 25
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Digitail Open Appointments API
+  slug: open-digitail-appointments-api
+- collection_type: open
+  name: Digitail Open Appointments Breeds API
+  slug: open-digitail-breeds-api
+- collection_type: open
+  name: Digitail Open Appointments Charges API
+  slug: open-digitail-charges-api
+- collection_type: open
+  name: Digitail Open Appointments Clients API
+  slug: open-digitail-clients-api
+- collection_type: open
+  name: Digitail Open Appointments Clinics API
+  slug: open-digitail-clinics-api
+- collection_type: open
+  name: Digitail Open Appointments Files API
+  slug: open-digitail-files-api
+- collection_type: open
+  name: Digitail Open Appointments Invoices API
+  slug: open-digitail-invoices-api
+- collection_type: open
+  name: Digitail Open Appointments Labs API
+  slug: open-digitail-labs-api
+- collection_type: open
+  name: Digitail Open Appointments Medication API
+  slug: open-digitail-medication-api
+- collection_type: open
+  name: Digitail Open Appointments Pet Parents API
+  slug: open-digitail-pet-parents-api
+- collection_type: open
+  name: Digitail Open Appointments Pets API
+  slug: open-digitail-pets-api
+- collection_type: open
+  name: Digitail Open Appointments Prescriptions API
+  slug: open-digitail-prescriptions-api
+- collection_type: open
+  name: Digitail Open Appointments Records API
+  slug: open-digitail-records-api
+- collection_type: open
+  name: Digitail Open Appointments Reports API
+  slug: open-digitail-reports-api
+- collection_type: open
+  name: Digitail Open Appointments Sales API
+  slug: open-digitail-sales-api
+- collection_type: open
+  name: Digitail Open Appointments Species API
+  slug: open-digitail-species-api
+- collection_type: open
+  name: Digitail Open Appointments Vets API
+  slug: open-digitail-vets-api
+- collection_type: open
+  name: Digitail Open Appointments Visit Types API
+  slug: open-digitail-visit-types-api
 common:
 - group: agent
   title: ''
@@ -163,7 +221,7 @@ plans:
 - name: Digitail Plans Pricing
   plan_count: 4
   slug: digitail-plans-pricing
-random_paper: 119
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Digitail Rate Limits
@@ -199,7 +257,7 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/screenshots/digitail-2026-07-25T212019.png
 security:

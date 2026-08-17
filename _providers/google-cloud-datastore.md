@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,8 +47,14 @@ apis:
 - description: The Projects API from Google Cloud Datastore — 9 operation(s) for projects.
   name: Google Cloud Datastore Projects API
   slug: google-cloud-datastore-projects-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloud Datastore Projects API
+  slug: open-google-cloud-datastore-projects-api
 - collection_type: open
   name: Cloud Datastore API
   slug: open-google-cloud-datastore
@@ -117,7 +123,7 @@ overview: 'Google Cloud Datastore publishes 1 API on the [APIs.io](https://apis.
 
 
   Google Cloud Datastore''s developer surface includes authentication, documentation, pricing, signup flow, developer console, and 8 more developer resources.'
-random_paper: 69
+random_paper: 143
 scopes:
 - name: Google Cloud Datastore Scopes
   scope_count: 2
@@ -143,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/screenshots/google-cloud-datastore-2026-06-20T182103.png
 security:

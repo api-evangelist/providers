@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,7 +97,62 @@ apis:
 - description: Can only be used over websockets.
   name: Deribit WebSocket Only API
   slug: deribit-websocket-only-api
-artifact_total: 594
+artifact_total: 612
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deribit Account Management API
+  slug: open-deribit-account-management-api
+- collection_type: open
+  name: Deribit Account Management Authentication API
+  slug: open-deribit-authentication-api
+- collection_type: open
+  name: Deribit Account Management Block RFQ API
+  slug: open-deribit-block-rfq-api
+- collection_type: open
+  name: Deribit Account Management Block Trade API
+  slug: open-deribit-block-trade-api
+- collection_type: open
+  name: Deribit Account Management Combo Books API
+  slug: open-deribit-combo-books-api
+- collection_type: open
+  name: Deribit Account Management Mark Price API
+  slug: open-deribit-mark-price-api
+- collection_type: open
+  name: Deribit Account Management Market Data API
+  slug: open-deribit-market-data-api
+- collection_type: open
+  name: Deribit Account Management Matching Engine API
+  slug: open-deribit-matching-engine-api
+- collection_type: open
+  name: Deribit Account Management Portfolio Management API
+  slug: open-deribit-portfolio-management-api
+- collection_type: open
+  name: Deribit Account Management Private API
+  slug: open-deribit-private-api
+- collection_type: open
+  name: Deribit Account Management Public API
+  slug: open-deribit-public-api
+- collection_type: open
+  name: Deribit Account Management Session Management API
+  slug: open-deribit-session-management-api
+- collection_type: open
+  name: Deribit Account Management Subscription Management API
+  slug: open-deribit-subscription-management-api
+- collection_type: open
+  name: Deribit Account Management Supporting API
+  slug: open-deribit-supporting-api
+- collection_type: open
+  name: Deribit Account Management Trading API
+  slug: open-deribit-trading-api
+- collection_type: open
+  name: Deribit Account Management Wallet API
+  slug: open-deribit-wallet-api
+- collection_type: open
+  name: Deribit Account Management WebSocket Only API
+  slug: open-deribit-websocket-only-api
 common:
 - group: agent
   title: ''
@@ -1898,7 +1953,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 19
+random_paper: 143
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1938,7 +1993,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/screenshots/deribit-2026-06-20T175930.png
 security:

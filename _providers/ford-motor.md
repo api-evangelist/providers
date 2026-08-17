@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Automotive operations
   name: ford-motor Automotive API
   slug: ford-motor-automotive-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ford Developer Automotive API
+  slug: open-ford-motor-automotive-api
 - collection_type: open
   name: Ford Developer API
   slug: open-ford-motor-ford-api
@@ -103,7 +109,7 @@ press:
 - date: '2026-05-25'
   title: 'Ford''s Simple Vision for Smart Tech: Make It for Everyone'
   url: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-affordable-smart-vehicle-technology-strategy
-random_paper: 73
+random_paper: 139
 rate_limits:
 - limit_count: 2
   name: Ford Motor Rate Limits
@@ -128,7 +134,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/screenshots/ford-motor-2026-06-20T181422.png
 security:

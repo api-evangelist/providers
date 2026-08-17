@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: The Assignments API from Sana — 1 operation(s) for assignments.
@@ -61,11 +61,45 @@ apis:
 - description: The xAPI API from Sana — 1 operation(s) for xapi.
   name: Sana xAPI API
   slug: sana-xapi-api
-artifact_total: 16
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Sana Events Webhooks
   slug: sana-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sana Assignments API
+  slug: open-sana-assignments-api
+- collection_type: open
+  name: Sana Assignments Authentication API
+  slug: open-sana-authentication-api
+- collection_type: open
+  name: Sana Assignments Courses API
+  slug: open-sana-courses-api
+- collection_type: open
+  name: Sana Assignments Groups API
+  slug: open-sana-groups-api
+- collection_type: open
+  name: Sana Assignments Paths API
+  slug: open-sana-paths-api
+- collection_type: open
+  name: Sana Assignments Programs API
+  slug: open-sana-programs-api
+- collection_type: open
+  name: Sana Assignments Reporting API
+  slug: open-sana-reporting-api
+- collection_type: open
+  name: Sana Assignments Teamspaces API
+  slug: open-sana-teamspaces-api
+- collection_type: open
+  name: Sana Assignments Users API
+  slug: open-sana-users-api
+- collection_type: open
+  name: Sana Assignments xAPI API
+  slug: open-sana-xapi-api
 common:
 - group: other
   title: ''
@@ -174,7 +208,7 @@ overview: 'Sana publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Sana''s developer surface includes documentation, API reference, support, pricing, authentication, and 17 more developer resources.'
-random_paper: 59
+random_paper: 121
 scopes:
 - name: Sana Scopes
   scope_count: 2
@@ -202,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

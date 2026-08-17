@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Search and retrieve user records.
   name: Nudge Security Users API
   slug: nudge-security-users-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nudge Security Accounts API
+  slug: open-nudge-security-accounts-api
+- collection_type: open
+  name: Nudge Security Accounts App Integrations API
+  slug: open-nudge-security-app-integrations-api
+- collection_type: open
+  name: Nudge Security Accounts Apps API
+  slug: open-nudge-security-apps-api
+- collection_type: open
+  name: Nudge Security Accounts Events API
+  slug: open-nudge-security-events-api
+- collection_type: open
+  name: Nudge Security Accounts Fields API
+  slug: open-nudge-security-fields-api
+- collection_type: open
+  name: Nudge Security Accounts Findings API
+  slug: open-nudge-security-findings-api
+- collection_type: open
+  name: Nudge Security Accounts Labels API
+  slug: open-nudge-security-labels-api
+- collection_type: open
+  name: Nudge Security Accounts Notifications API
+  slug: open-nudge-security-notifications-api
+- collection_type: open
+  name: Nudge Security Accounts OAuth Grants API
+  slug: open-nudge-security-oauth-grants-api
+- collection_type: open
+  name: Nudge Security Accounts User Groups API
+  slug: open-nudge-security-user-groups-api
+- collection_type: open
+  name: Nudge Security Accounts Users API
+  slug: open-nudge-security-users-api
 - collection_type: open
   name: Nudge Security API
   slug: open-nudge-security
@@ -150,7 +186,7 @@ plans:
 - name: Nudge Security Plans Pricing
   plan_count: 3
   slug: nudge-security-plans-pricing
-random_paper: 24
+random_paper: 123
 rate_limits:
 - limit_count: 5
   name: Nudge Security Rate Limits
@@ -175,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/screenshots/nudge-security-2026-06-20T190516.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -117,11 +117,93 @@ apis:
 - description: The Work Entities API from Optibus — 2 operation(s) for work entities.
   name: Optibus Work Entities API
   slug: optibus-work-entities-api
-artifact_total: 32
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Optibus Operational Webhooks
   slug: optibus-operational-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Optibus Operations Driver Absences API
+  slug: open-optibus-driver-absences-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Driver App Notifications API
+  slug: open-optibus-driver-app-notifications-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Driver Custom Attributes API
+  slug: open-optibus-driver-custom-attributes-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Driver Employment Periods API
+  slug: open-optibus-driver-employment-periods-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Driver Groups API
+  slug: open-optibus-driver-groups-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Driver Volunteering Periods API
+  slug: open-optibus-driver-volunteering-periods-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Drivers API
+  slug: open-optibus-drivers-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Drivers (Deprecated) API
+  slug: open-optibus-drivers-deprecated-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Event Webhooks API
+  slug: open-optibus-event-webhooks-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Operational Plan API
+  slug: open-optibus-operational-plan-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Operational Plan (Deprecated) API
+  slug: open-optibus-operational-plan-deprecated-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Payroll API
+  slug: open-optibus-payroll-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Preferences API
+  slug: open-optibus-preferences-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Private Hires API
+  slug: open-optibus-private-hires-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Regions API
+  slug: open-optibus-regions-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Roster API
+  slug: open-optibus-roster-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Signing Times API
+  slug: open-optibus-signing-times-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Statistics API
+  slug: open-optibus-statistics-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Stops API
+  slug: open-optibus-stops-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Tacho Ingestion API
+  slug: open-optibus-tacho-ingestion-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Tasks API
+  slug: open-optibus-tasks-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Vehicle Custom Attributes API
+  slug: open-optibus-vehicle-custom-attributes-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Vehicle Downtimes API
+  slug: open-optibus-vehicle-downtimes-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Vehicles API
+  slug: open-optibus-vehicles-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Vehicles (Deprecated) API
+  slug: open-optibus-vehicles-deprecated-api
+- collection_type: open
+  name: Optibus Operations Driver Absences Work Entities API
+  slug: open-optibus-work-entities-api
 common:
 - group: agent
   title: ''
@@ -242,7 +324,7 @@ overview: 'Optibus publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Optibus'' developer surface includes documentation, API reference, engineering blog, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 54
+random_paper: 29
 score:
   band: developing
   composite: 48.6
@@ -266,7 +348,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optibus/refs/heads/main/screenshots/optibus-2026-08-07T190805.png
 security:

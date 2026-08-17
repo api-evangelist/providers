@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -105,8 +105,59 @@ apis:
 - description: The Wire API from Lead Bank — 4 operation(s) for wire.
   name: Lead Bank Wire API
   slug: lead-bank-wire-api
-artifact_total: 29
+artifact_total: 46
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lead Bank Account Number API
+  slug: open-lead-bank-account-number-api
+- collection_type: open
+  name: Lead Bank Account Number ACH API
+  slug: open-lead-bank-ach-api
+- collection_type: open
+  name: Lead Bank Account Number Blockchain Payment API
+  slug: open-lead-bank-blockchain-payment-api
+- collection_type: open
+  name: Lead Bank Account Number Compliance API
+  slug: open-lead-bank-compliance-api
+- collection_type: open
+  name: Lead Bank Account Number Entity API
+  slug: open-lead-bank-entity-api
+- collection_type: open
+  name: Lead Bank Account Number Events API
+  slug: open-lead-bank-events-api
+- collection_type: open
+  name: Lead Bank Account Number Funding API
+  slug: open-lead-bank-funding-api
+- collection_type: open
+  name: Lead Bank Account Number Instant Payments API
+  slug: open-lead-bank-instant-payments-api
+- collection_type: open
+  name: Lead Bank Account Number Internal Transfer API
+  slug: open-lead-bank-internal-transfer-api
+- collection_type: open
+  name: Lead Bank Account Number Lending API
+  slug: open-lead-bank-lending-api
+- collection_type: open
+  name: Lead Bank Account Number Lending Simulation API
+  slug: open-lead-bank-lending-simulation-api
+- collection_type: open
+  name: Lead Bank Account Number OAuth API
+  slug: open-lead-bank-oauth-api
+- collection_type: open
+  name: Lead Bank Account Number Originator API
+  slug: open-lead-bank-originator-api
+- collection_type: open
+  name: Lead Bank Account Number Simulation API
+  slug: open-lead-bank-simulation-api
+- collection_type: open
+  name: Lead Bank Account Number Subledger Balances API
+  slug: open-lead-bank-subledger-balances-api
+- collection_type: open
+  name: Lead Bank Account Number Wire API
+  slug: open-lead-bank-wire-api
 - collection_type: open
   name: Lead Bank
   slug: open-lead-bank
@@ -171,7 +222,7 @@ plans:
 - name: Lead Bank Plans Pricing
   plan_count: 1
   slug: lead-bank-plans-pricing
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 2
   name: Lead Bank Rate Limits
@@ -202,7 +253,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/screenshots/lead-bank-2026-06-20T184345.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 1
@@ -111,7 +111,7 @@ apis:
 - description: Tunnels represent individual tunnels within a tunnel session.
   name: ngrok Tunnels API
   slug: ngrok-tunnels-api
-artifact_total: 72
+artifact_total: 97
 collections:
 - collection_type: postman
   name: Ngrok Abuse Reports API
@@ -186,8 +186,83 @@ collections:
   name: Ngrok Abuse Reports Tunnels API
   slug: postman-ngrok-tunnels-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ngrok Abuse Reports API
+  slug: open-ngrok-abuse-reports-api
+- collection_type: open
+  name: Ngrok Abuse Reports Agent Ingresses API
+  slug: open-ngrok-agent-ingresses-api
+- collection_type: open
+  name: Ngrok Abuse Reports API Keys API
+  slug: open-ngrok-api-keys-api
+- collection_type: open
   name: Ngrok API
   slug: open-ngrok-api
+- collection_type: open
+  name: Ngrok Abuse Reports Backends API
+  slug: open-ngrok-backends-api
+- collection_type: open
+  name: Ngrok Abuse Reports Certificate Authorities API
+  slug: open-ngrok-certificate-authorities-api
+- collection_type: open
+  name: Ngrok Abuse Reports Credentials API
+  slug: open-ngrok-credentials-api
+- collection_type: open
+  name: Ngrok Abuse Reports Edges HTTPS API
+  slug: open-ngrok-edges-https-api
+- collection_type: open
+  name: Ngrok Abuse Reports Edges TCP API
+  slug: open-ngrok-edges-tcp-api
+- collection_type: open
+  name: Ngrok Abuse Reports Edges TLS API
+  slug: open-ngrok-edges-tls-api
+- collection_type: open
+  name: Ngrok Abuse Reports Endpoints API
+  slug: open-ngrok-endpoints-api
+- collection_type: open
+  name: Ngrok Abuse Reports Event Destinations API
+  slug: open-ngrok-event-destinations-api
+- collection_type: open
+  name: Ngrok Abuse Reports Event Subscriptions API
+  slug: open-ngrok-event-subscriptions-api
+- collection_type: open
+  name: Ngrok Abuse Reports IP Policies API
+  slug: open-ngrok-ip-policies-api
+- collection_type: open
+  name: Ngrok Abuse Reports IP Policy Rules API
+  slug: open-ngrok-ip-policy-rules-api
+- collection_type: open
+  name: Ngrok Abuse Reports IP Restrictions API
+  slug: open-ngrok-ip-restrictions-api
+- collection_type: open
+  name: Ngrok Abuse Reports Reserved Addresses API
+  slug: open-ngrok-reserved-addresses-api
+- collection_type: open
+  name: Ngrok Abuse Reports Reserved Domains API
+  slug: open-ngrok-reserved-domains-api
+- collection_type: open
+  name: Ngrok Abuse Reports SSH Certificate Authorities API
+  slug: open-ngrok-ssh-certificate-authorities-api
+- collection_type: open
+  name: Ngrok Abuse Reports SSH Credentials API
+  slug: open-ngrok-ssh-credentials-api
+- collection_type: open
+  name: Ngrok Abuse Reports SSH Host Certificates API
+  slug: open-ngrok-ssh-host-certificates-api
+- collection_type: open
+  name: Ngrok Abuse Reports SSH User Certificates API
+  slug: open-ngrok-ssh-user-certificates-api
+- collection_type: open
+  name: Ngrok Abuse Reports TLS Certificates API
+  slug: open-ngrok-tls-certificates-api
+- collection_type: open
+  name: Ngrok Abuse Reports Tunnel Sessions API
+  slug: open-ngrok-tunnel-sessions-api
+- collection_type: open
+  name: Ngrok Abuse Reports Tunnels API
+  slug: open-ngrok-tunnels-api
 common:
 - group: operate
   title: ''
@@ -370,7 +445,7 @@ plans:
 - name: Ngrok Plans Pricing
   plan_count: 3
   slug: ngrok-plans-pricing
-random_paper: 65
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Ngrok Rate Limits
@@ -404,7 +479,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ngrok/refs/heads/main/screenshots/ngrok-2026-06-20T190307.png
 security:

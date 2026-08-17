@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -35,7 +35,11 @@ apis:
 - description: Open's browser JavaScript library for embedding insurance into a partner's web app. Documented methods are opensdk.quote.load, opensdk.quote.prepare, opensdk.quote.portal, opensdk.quote.status, opensd
   name: Open.js Embedded Insurance SDK
   slug: open-js-embedded-insurance-sdk
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Open Insurance API
+  slug: open-open-insurance-certificate-of-currency
 common:
 - group: auth
   title: ''
@@ -202,7 +206,7 @@ overview: 'Open publishes 1 API on the [APIs.io](https://apis.io/) network: Cert
 
 
   Open''s developer surface includes documentation, API reference, authentication, status page, developer portal, getting-started guide, support, and 30 more developer resources.'
-random_paper: 7
+random_paper: 106
 score:
   band: developing
   composite: 48.1
@@ -227,7 +231,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -140,8 +140,11 @@ apis:
 - description: The WMTS API from NASA Open APIs — 1 operation(s) for wmts.
   name: NASA Open APIs WMTS API
   slug: nasa-gov-wmts-api
-artifact_total: 88
+artifact_total: 123
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: NASA Astronomy Picture of the Day (APOD) API
   slug: open-apod
@@ -175,6 +178,108 @@ collections:
 - collection_type: open
   name: NASA Mars Rover Photos API
   slug: open-mars-rover-photos
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album API
+  slug: open-nasa-gov-album-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day () Album APOD API
+  slug: open-nasa-gov-apod-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Asset API
+  slug: open-nasa-gov-asset-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Asteroids API
+  slug: open-nasa-gov-asteroids-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album CAD API
+  slug: open-nasa-gov-cad-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Categories API
+  slug: open-nasa-gov-categories-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album DONKI API
+  slug: open-nasa-gov-donki-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Earth API
+  slug: open-nasa-gov-earth-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Enhanced API
+  slug: open-nasa-gov-enhanced-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Events API
+  slug: open-nasa-gov-events-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Fireball API
+  slug: open-nasa-gov-fireball-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Layers API
+  slug: open-nasa-gov-layers-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Locations API
+  slug: open-nasa-gov-locations-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Magnitudes API
+  slug: open-nasa-gov-magnitudes-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Manifests API
+  slug: open-nasa-gov-manifests-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Natural API
+  slug: open-nasa-gov-natural-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album NHATS API
+  slug: open-nasa-gov-nhats-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Observatories API
+  slug: open-nasa-gov-observatories-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Patents API
+  slug: open-nasa-gov-patents-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Photos API
+  slug: open-nasa-gov-photos-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Projects API
+  slug: open-nasa-gov-projects-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Rovers API
+  slug: open-nasa-gov-rovers-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album SBDB API
+  slug: open-nasa-gov-sbdb-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Scout API
+  slug: open-nasa-gov-scout-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Search API
+  slug: open-nasa-gov-search-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Sentry API
+  slug: open-nasa-gov-sentry-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Software API
+  slug: open-nasa-gov-software-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Sources API
+  slug: open-nasa-gov-sources-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Spinoff API
+  slug: open-nasa-gov-spinoff-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Stations API
+  slug: open-nasa-gov-stations-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album TAP API
+  slug: open-nasa-gov-tap-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album TLE API
+  slug: open-nasa-gov-tle-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album Weather API
+  slug: open-nasa-gov-weather-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Album WMTS API
+  slug: open-nasa-gov-wmts-api
 - collection_type: open
   name: NASA Satellite Situation Center (SSC) Web Services
   slug: open-satellite-situation-center
@@ -396,7 +501,7 @@ overview: 'NASA Open APIs publishes 34 APIs on the [APIs.io](https://apis.io/) n
 
 
   NASA Open APIs'' developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, and 28 more developer resources.'
-random_paper: 76
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Nasa Gov Rate Limits
@@ -436,7 +541,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-gov/refs/heads/main/screenshots/nasa-gov-2026-06-20T185951.png
 security:

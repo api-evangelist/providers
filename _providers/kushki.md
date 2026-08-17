@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -75,8 +75,14 @@ apis:
 - description: Void or refund a previously captured charge
   name: Kushki Voids and Refunds API
   slug: kushki-voids-and-refunds-api
-artifact_total: 87
+artifact_total: 97
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kushki Card Payments Branches API
+  slug: open-kushki-branches-api
 - collection_type: open
   name: Kushki Card Payments API
   slug: open-kushki-card-payments-api
@@ -84,20 +90,44 @@ collections:
   name: Kushki Card Present API
   slug: open-kushki-card-present-api
 - collection_type: open
+  name: Kushki Card Payments Branches Card Present Charges API
+  slug: open-kushki-card-present-charges-api
+- collection_type: open
+  name: Kushki Card Payments Branches Cash API
+  slug: open-kushki-cash-api
+- collection_type: open
   name: Kushki Cash Payments API
   slug: open-kushki-cash-payments-api
+- collection_type: open
+  name: Kushki Card Payments Branches Charges API
+  slug: open-kushki-charges-api
 - collection_type: open
   name: Kushki Merchants and Branches API
   slug: open-kushki-merchants-api
 - collection_type: open
-  name: Kushki Payouts API
+  name: Kushki Card Payments Branches Payouts API
   slug: open-kushki-payouts-api
 - collection_type: open
-  name: Kushki Subscriptions API
+  name: Kushki Card Payments Branches Pre-Authorization API
+  slug: open-kushki-pre-authorization-api
+- collection_type: open
+  name: Kushki Card Payments Branches Subscriptions API
   slug: open-kushki-subscriptions-api
+- collection_type: open
+  name: Kushki Card Payments Branches Terminals API
+  slug: open-kushki-terminals-api
+- collection_type: open
+  name: Kushki Card Payments Branches Tokens API
+  slug: open-kushki-tokens-api
+- collection_type: open
+  name: Kushki Card Payments Branches Transfer API
+  slug: open-kushki-transfer-api
 - collection_type: open
   name: Kushki Transfer Payments API
   slug: open-kushki-transfer-payments-api
+- collection_type: open
+  name: Kushki Card Payments Branches Voids and Refunds API
+  slug: open-kushki-voids-and-refunds-api
 common:
 - group: agent
   title: ''
@@ -340,7 +370,7 @@ plans:
 - name: Kushki Plans Pricing
   plan_count: 6
   slug: kushki-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Kushki Rate Limits
@@ -388,7 +418,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/screenshots/kushki-2026-06-20T184217.png
 security:

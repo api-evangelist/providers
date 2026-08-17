@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: Inspect connected social accounts and per-network posting limits.
   name: dopost Social Accounts API
   slug: dopost-co-social-accounts-api
-artifact_total: 20
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dopost Social Scheduler Media API
+  slug: open-dopost-co-media-api
+- collection_type: open
+  name: dopost Social Scheduler Media Posts API
+  slug: open-dopost-co-posts-api
+- collection_type: open
+  name: dopost Social Scheduler Media Social Accounts API
+  slug: open-dopost-co-social-accounts-api
 - collection_type: open
   name: dopost Social Media Scheduler API
   slug: open-dopost
@@ -157,7 +169,7 @@ plans:
 - name: Dopost Co Plans Pricing
   plan_count: 3
   slug: dopost-co-plans-pricing
-random_paper: 80
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Dopost Co Rate Limits
@@ -199,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/screenshots/dopost-co-2026-06-20T180157.png
 security:

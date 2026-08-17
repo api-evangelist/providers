@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
 - description: REST API for activating the Weekly Featured Property product on a Zoopla listing from an agency CRM, reading activation history across an account or for a single listingId, and checking whether a list
   name: Zoopla Weekly Featured Property (WFP) Activations API
   slug: zoopla-weekly-featured-property-activations-api
-artifact_total: 29
+artifact_total: 32
 asyncapis:
 - description: API Evangelist derivation of Zoopla's Lead Push Service. Zoopla publishes no AsyncAPI document; this document is derived from the published push-service documentation at https://developers.zoopla.co.u
   name: Zoopla Lead Push Service
@@ -62,6 +62,15 @@ collections:
 - collection_type: postman
   name: 01. Products API
   slug: postman-zoopla-products-api
+- collection_type: open
+  name: Leads API
+  slug: open-zoopla-leads-api
+- collection_type: open
+  name: Premium Listing activations
+  slug: open-zoopla-premium-listing-activations
+- collection_type: open
+  name: Weekly Featured Property (WFP) Activations
+  slug: open-zoopla-weekly-featured-property-activations
 common:
 - group: agent
   title: ''
@@ -299,7 +308,7 @@ overview: 'Zoopla publishes 3 APIs on the [APIs.io](https://apis.io/) network: L
 
 
   Zoopla''s developer surface includes authentication, documentation, signup flow, support, getting-started guide, API reference, code examples, and 34 more developer resources.'
-random_paper: 61
+random_paper: 65
 scopes:
 - name: Zoopla Scopes
   scope_count: 3
@@ -328,7 +337,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

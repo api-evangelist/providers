@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -152,14 +152,26 @@ apis:
 - description: Operation to get device roaming status and country information (if roaming) synchronously
   name: Orange Business Roaming status retrieval API
   slug: orange-business-roaming-status-retrieval-api
-artifact_total: 53
+artifact_total: 68
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap API
+  slug: open-orange-business-check-device-swap-api
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Check SIM swap API
+  slug: open-orange-business-check-sim-swap-api
 - collection_type: open
   name: Device Location Retrieval
   slug: open-orange-business-device-location-retrieval
 - collection_type: open
   name: Device Location Verification
   slug: open-orange-business-device-location-verification
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Device reachability status API
+  slug: open-orange-business-device-reachability-status-api
 - collection_type: open
   name: Device Reachability Status
   slug: open-orange-business-device-reachability-status
@@ -170,20 +182,53 @@ collections:
   name: Device Swap
   slug: open-orange-business-device-swap
 - collection_type: open
+  name: Device Location Retrieval Check Device Swap Geofencing subscriptions API
+  slug: open-orange-business-geofencing-subscriptions-api
+- collection_type: open
   name: Device Geofencing Subscriptions
   slug: open-orange-business-geofencing
 - collection_type: open
   name: Know Your Customer Match
   slug: open-orange-business-kyc-match
 - collection_type: open
+  name: Device Check Device Swap Location retrieval API
+  slug: open-orange-business-location-retrieval-api
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Location verification API
+  slug: open-orange-business-location-verification-api
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Match API
+  slug: open-orange-business-match-api
+- collection_type: open
   name: Number Verification
   slug: open-orange-business-number-verification
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Phone number share API
+  slug: open-orange-business-phone-number-share-api
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Phone number verify API
+  slug: open-orange-business-phone-number-verify-api
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Population Density Data API
+  slug: open-orange-business-population-density-data-api
 - collection_type: open
   name: Population Density Data
   slug: open-orange-business-population-density-data
 - collection_type: open
+  name: Device Location Retrieval Check Device Swap QoS Sessions API
+  slug: open-orange-business-qos-sessions-api
+- collection_type: open
   name: Quality-On-Demand
   slug: open-orange-business-quality-on-demand
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Retrieve Device Swap Date API
+  slug: open-orange-business-retrieve-device-swap-date-api
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Retrieve SIM swap date API
+  slug: open-orange-business-retrieve-sim-swap-date-api
+- collection_type: open
+  name: Device Location Retrieval Check Device Swap Roaming status retrieval API
+  slug: open-orange-business-roaming-status-retrieval-api
 - collection_type: open
   name: SIM Swap
   slug: open-orange-business-sim-swap
@@ -343,7 +388,7 @@ overview: 'Orange Business publishes 14 APIs on the [APIs.io](https://apis.io/) 
 
 
   Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 29 more developer resources.'
-random_paper: 117
+random_paper: 67
 score:
   band: thin
   composite: 37.5
@@ -370,7 +415,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png
 security:

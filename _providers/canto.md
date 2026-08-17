@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -96,7 +96,68 @@ apis:
 - description: Webhooks are used to notify your application when certain events occur within the system. They can be configured to send a POST request to a specified URL when a specific event happens. Available reso
   name: Canto webhooks API
   slug: canto-webhooks-api
-artifact_total: 51
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs API
+  slug: open-canto-bulk-products-catalogs-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs bulk_products_channel_templates API
+  slug: open-canto-bulk-products-channel-templates-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs dimensions API
+  slug: open-canto-dimensions-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs filter API
+  slug: open-canto-filter-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs import_settings API
+  slug: open-canto-import-settings-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs imports API
+  slug: open-canto-imports-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs options API
+  slug: open-canto-options-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs product_catalog_products API
+  slug: open-canto-product-catalog-products-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs product_catalogs API
+  slug: open-canto-product-catalogs-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs product_categories API
+  slug: open-canto-product-categories-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs product_channel_template_products API
+  slug: open-canto-product-channel-template-products-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs product_channel_templates API
+  slug: open-canto-product-channel-templates-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs product_custom_attributes API
+  slug: open-canto-product-custom-attributes-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs product_share_links API
+  slug: open-canto-product-share-links-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs product_types API
+  slug: open-canto-product-types-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs products API
+  slug: open-canto-products-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs variants API
+  slug: open-canto-variants-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs webhook_events API
+  slug: open-canto-webhook-events-api
+- collection_type: open
+  name: Canto PIM bulk_products_catalogs webhooks API
+  slug: open-canto-webhooks-api
 common:
 - group: agent
   title: ''
@@ -257,7 +318,7 @@ plans:
 - name: Canto Plans Pricing
   plan_count: 4
   slug: canto-plans-pricing
-random_paper: 53
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Canto Rate Limits
@@ -291,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/screenshots/canto-2026-06-20T173928.png
 security:

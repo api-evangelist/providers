@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -66,8 +66,35 @@ apis:
 - description: Generate upload URLs for documents
   name: Sensible Upload API
   slug: sensible-io-upload-api
-artifact_total: 18
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sensible REST Account API
+  slug: open-sensible-io-account-api
+- collection_type: open
+  name: Sensible REST Account Classify API
+  slug: open-sensible-io-classify-api
+- collection_type: open
+  name: Sensible REST Account Configs API
+  slug: open-sensible-io-configs-api
+- collection_type: open
+  name: Sensible REST Account Document Types API
+  slug: open-sensible-io-document-types-api
+- collection_type: open
+  name: Sensible REST Account Documents API
+  slug: open-sensible-io-documents-api
+- collection_type: open
+  name: Sensible REST Account Extract API
+  slug: open-sensible-io-extract-api
+- collection_type: open
+  name: Sensible REST Account Reference Documents API
+  slug: open-sensible-io-reference-documents-api
+- collection_type: open
+  name: Sensible REST Account Upload API
+  slug: open-sensible-io-upload-api
 - collection_type: open
   name: Sensible REST API
   slug: open-sensible-io
@@ -152,7 +179,7 @@ plans:
 - name: Sensible Io Plans Pricing
   plan_count: 3
   slug: sensible-io-plans-pricing
-random_paper: 34
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Sensible Io Rate Limits
@@ -177,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/screenshots/sensible-io-2026-06-20T193703.png
 security:

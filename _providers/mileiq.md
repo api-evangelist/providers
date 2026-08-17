@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The users API from MileIQ — 3 operation(s) for users.
   name: MileIQ users API
   slug: mileiq-users-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MileIQ External groups API
+  slug: open-mileiq-groups-api
+- collection_type: open
+  name: MileIQ External groups users API
+  slug: open-mileiq-users-api
 common:
 - group: other
   title: ''
@@ -174,7 +184,7 @@ overview: 'MileIQ publishes 2 APIs on the [APIs.io](https://apis.io/) network: g
 
 
   MileIQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Mileiq Rate Limits
@@ -207,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/screenshots/mileiq-2026-08-07T172909.png
 security:

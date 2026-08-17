@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: REST API at https://api.meshy.ai for Text-to-3D (v2 with preview + refine workflow), Image-to-3D, Multi Image-to-3D, Remesh, Rigging, Animation, Retexture, Text-to-Image, Image-to-Image, Multi-Color P
@@ -40,7 +40,17 @@ apis:
 - description: The Text to 3D API from Meshy — 3 operation(s) for text to 3d.
   name: Meshy Text to 3D API
   slug: meshy-text-to-3d-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meshy Image to 3D API
+  slug: open-meshy-image-to-3d-api
+- collection_type: open
+  name: Meshy Text to 3D API
+  slug: open-meshy-text-to-3d-api
 common:
 - group: auth
   title: ''
@@ -106,7 +116,7 @@ plans:
 - name: Meshy Plans Pricing
   plan_count: 4
   slug: meshy-plans-pricing
-random_paper: 70
+random_paper: 103
 rate_limits:
 - limit_count: 7
   name: Meshy Rate Limits
@@ -130,7 +140,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meshy/refs/heads/main/screenshots/meshy-2026-06-20T185245.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: VIP program tiers and their thresholds and perks.
   name: Smile.io VIP Tiers API
   slug: smile-io-vip-tiers-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smile.io REST Activities API
+  slug: open-smile-io-activities-api
+- collection_type: open
+  name: Smile.io REST Activities Customer Identities API
+  slug: open-smile-io-customer-identities-api
+- collection_type: open
+  name: Smile.io REST Activities Customers API
+  slug: open-smile-io-customers-api
+- collection_type: open
+  name: Smile.io REST Activities Earning Rules API
+  slug: open-smile-io-earning-rules-api
+- collection_type: open
+  name: Smile.io REST Activities Points Products API
+  slug: open-smile-io-points-products-api
+- collection_type: open
+  name: Smile.io REST Activities Points Settings API
+  slug: open-smile-io-points-settings-api
+- collection_type: open
+  name: Smile.io REST Activities Points Transactions API
+  slug: open-smile-io-points-transactions-api
+- collection_type: open
+  name: Smile.io REST Activities Reward Fulfillments API
+  slug: open-smile-io-reward-fulfillments-api
+- collection_type: open
+  name: Smile.io REST Activities VIP Tiers API
+  slug: open-smile-io-vip-tiers-api
 - collection_type: open
   name: Smile.io REST API
   slug: open-smile-io
@@ -128,7 +158,7 @@ plans:
 - name: Smile Io Plans Pricing
   plan_count: 6
   slug: smile-io-plans-pricing
-random_paper: 79
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Smile Io Rate Limits
@@ -153,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

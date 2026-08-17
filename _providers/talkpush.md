@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -80,7 +80,53 @@ apis:
 - description: 'Endpoint for discovering the message tokens available for use inside Message Templates. Returns both system-level reserved tokens (e.g. `candidate_name`, `job_title`) and any custom tokens configured '
   name: TalkPush Tokens API API
   slug: talkpush-tokens-api-api
-artifact_total: 18
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Talkpush Agents API API
+  slug: open-talkpush-agents-api-api
+- collection_type: open
+  name: Talkpush Agents API Calls API API
+  slug: open-talkpush-calls-api-api
+- collection_type: open
+  name: Talkpush Agents API Campaigns API API
+  slug: open-talkpush-campaigns-api-api
+- collection_type: open
+  name: Talkpush Agents API Candidate Attributes API API
+  slug: open-talkpush-candidate-attributes-api-api
+- collection_type: open
+  name: Talkpush Agents API Document Tags API API
+  slug: open-talkpush-document-tags-api-api
+- collection_type: open
+  name: Talkpush Agents API Folders API API
+  slug: open-talkpush-folders-api-api
+- collection_type: open
+  name: Talkpush Agents API Labels API API
+  slug: open-talkpush-labels-api-api
+- collection_type: open
+  name: Talkpush Agents API Leads API API
+  slug: open-talkpush-leads-api-api
+- collection_type: open
+  name: Talkpush Agents API Managers API API
+  slug: open-talkpush-managers-api-api
+- collection_type: open
+  name: Talkpush Agents API Message Templates API API
+  slug: open-talkpush-message-templates-api-api
+- collection_type: open
+  name: Talkpush Agents API Messaging API API
+  slug: open-talkpush-messaging-api-api
+- collection_type: open
+  name: Talkpush Agents API Movement Reasons API API
+  slug: open-talkpush-movement-reasons-api-api
+- collection_type: open
+  name: Talkpush Agents API Requisition Management System API
+  slug: open-talkpush-requisition-management-system-api
+- collection_type: open
+  name: Talkpush Agents API Tokens API API
+  slug: open-talkpush-tokens-api-api
 common:
 - group: other
   title: ''
@@ -190,7 +236,7 @@ overview: 'TalkPush publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   TalkPush''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 36
+random_paper: 131
 score:
   band: thin
   composite: 41.2
@@ -214,7 +260,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

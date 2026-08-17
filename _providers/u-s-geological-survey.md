@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,7 +72,29 @@ apis:
 - description: Continuous and daily value water data from USGS monitoring locations.
   name: U.S. Geological Survey Time Series Data API
   slug: u-s-geological-survey-time-series-data-api
-artifact_total: 92
+artifact_total: 99
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USGS Earthquake Notifications, Feeds, and Web Services Catalog API
+  slug: open-u-s-geological-survey-catalog-api
+- collection_type: open
+  name: USGS Earthquake Notifications, Feeds, and Web Services Catalog Collections API
+  slug: open-u-s-geological-survey-collections-api
+- collection_type: open
+  name: USGS Earthquake Notifications, Feeds, and Web Services Catalog Earthquakes API
+  slug: open-u-s-geological-survey-earthquakes-api
+- collection_type: open
+  name: USGS Earthquake Notifications, Feeds, and Web Services Catalog Monitoring Locations API
+  slug: open-u-s-geological-survey-monitoring-locations-api
+- collection_type: open
+  name: USGS Earthquake Notifications, Feeds, and Web Services Catalog Reference Data API
+  slug: open-u-s-geological-survey-reference-data-api
+- collection_type: open
+  name: USGS Earthquake Notifications, Feeds, and Web Services Catalog Time Series Data API
+  slug: open-u-s-geological-survey-time-series-data-api
 common:
 - group: agent
   title: ''
@@ -337,7 +359,7 @@ plans:
 - name: U S Geological Survey Plans Pricing
   plan_count: 1
   slug: u-s-geological-survey-plans-pricing
-random_paper: 59
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: U S Geological Survey Rate Limits
@@ -393,7 +415,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/screenshots/u-s-geological-survey-2026-06-20T195914.png
 security:

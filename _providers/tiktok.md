@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Campaign performance reporting
   name: TikTok Reporting API
   slug: tiktok-reporting-api
-artifact_total: 38
+artifact_total: 49
 collections:
 - collection_type: postman
   name: TikTok API for Business Ad Groups API
@@ -102,11 +102,44 @@ collections:
   name: TikTok API for Business Ad Groups Reporting API
   slug: postman-tiktok-reporting-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TikTok API for Business Ad Groups API
+  slug: open-tiktok-ad-groups-api
+- collection_type: open
+  name: TikTok API for Business Ad Groups Ads API
+  slug: open-tiktok-ads-api
+- collection_type: open
+  name: TikTok API for Business Ad Groups Audiences API
+  slug: open-tiktok-audiences-api
+- collection_type: open
   name: TikTok API for Business
   slug: open-tiktok-business
 - collection_type: open
+  name: TikTok API for Business Ad Groups Campaigns API
+  slug: open-tiktok-campaigns-api
+- collection_type: open
+  name: TikTok API for Business Ad Groups Data Portability API
+  slug: open-tiktok-data-portability-api
+- collection_type: open
   name: TikTok Data Portability API
   slug: open-tiktok-data-portability
+- collection_type: open
+  name: TikTok API for Business Ad Groups Finance API
+  slug: open-tiktok-finance-api
+- collection_type: open
+  name: TikTok API for Business Ad Groups Logistics API
+  slug: open-tiktok-logistics-api
+- collection_type: open
+  name: TikTok API for Business Ad Groups Orders API
+  slug: open-tiktok-orders-api
+- collection_type: open
+  name: TikTok API for Business Ad Groups Products API
+  slug: open-tiktok-products-api
+- collection_type: open
+  name: TikTok API for Business Ad Groups Reporting API
+  slug: open-tiktok-reporting-api
 - collection_type: open
   name: TikTok Shop API
   slug: open-tiktok-shop
@@ -249,7 +282,7 @@ plans:
 - name: Tiktok Plans Pricing
   plan_count: 4
   slug: tiktok-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Tiktok Rate Limits
@@ -291,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/screenshots/tiktok-2026-06-20T195349.png
 security:

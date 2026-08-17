@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,12 +57,33 @@ apis:
 - description: The Utilities API from Moonshot AI — 1 operation(s) for utilities.
   name: Moonshot AI Utilities API
   slug: moonshot-ai-utilities-api
-artifact_total: 15
+artifact_total: 22
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Moonshot AI streaming chat completions surface. Moonshot''s `/v1/chat/completions` endpoint is OpenAI-compatible and, when invoked with `stream: true`, delivers incremen'
   name: Moonshot AI Chat Completions Streaming API
   slug: moonshot-ai-chat-completions-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Moonshot AI Batch API
+  slug: open-moonshot-ai-batch-api
+- collection_type: open
+  name: Moonshot AI Batch Billing API
+  slug: open-moonshot-ai-billing-api
+- collection_type: open
+  name: Moonshot AI Batch Chat API
+  slug: open-moonshot-ai-chat-api
+- collection_type: open
+  name: Moonshot AI Batch Files API
+  slug: open-moonshot-ai-files-api
+- collection_type: open
+  name: Moonshot AI Batch Models API
+  slug: open-moonshot-ai-models-api
+- collection_type: open
+  name: Moonshot AI Batch Utilities API
+  slug: open-moonshot-ai-utilities-api
 - collection_type: open
   name: Moonshot AI API
   slug: open-moonshot-ai
@@ -130,7 +151,7 @@ plans:
 - name: Moonshot Ai Plans Pricing
   plan_count: 2
   slug: moonshot-ai-plans-pricing
-random_paper: 54
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Moonshot Ai Rate Limits
@@ -164,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/screenshots/moonshot-ai-2026-06-20T185801.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Operations for managing service revisions
   name: Google Cloud Run Revisions API
   slug: google-cloud-run-revisions-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud Run Admin Jobs API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Google Cloud Run Admin Jobs Revisions API
   slug: postman-google-cloud-run-revisions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Run Admin Jobs API
+  slug: open-google-cloud-run-jobs-api
+- collection_type: open
+  name: Google Cloud Run Admin Jobs Projects API
+  slug: open-google-cloud-run-projects-api
+- collection_type: open
+  name: Google Cloud Run Admin Jobs Revisions API
+  slug: open-google-cloud-run-revisions-api
 - collection_type: open
   name: Google Cloud Run Admin API
   slug: open-google-cloud-run
@@ -163,7 +175,7 @@ plans:
 - name: Google Cloud Run Plans Pricing
   plan_count: 3
   slug: google-cloud-run-plans-pricing
-random_paper: 43
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Google Cloud Run Rate Limits
@@ -202,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/screenshots/google-cloud-run-2026-06-20T182136.png
 security:

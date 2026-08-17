@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -78,8 +78,32 @@ apis:
 - description: The Token API from iDenfy — 1 operation(s) for token.
   name: iDenfy Token API
   slug: idenfy-token-api
-artifact_total: 21
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: iDenfy Aml API
+  slug: open-idenfy-aml-api
+- collection_type: open
+  name: iDenfy Aml Bank API
+  slug: open-idenfy-bank-api
+- collection_type: open
+  name: iDenfy Aml Face Authentication API
+  slug: open-idenfy-face-authentication-api
+- collection_type: open
+  name: iDenfy Aml Fraud API
+  slug: open-idenfy-fraud-api
+- collection_type: open
+  name: iDenfy Aml Kyb API
+  slug: open-idenfy-kyb-api
+- collection_type: open
+  name: iDenfy Aml Kyc API
+  slug: open-idenfy-kyc-api
+- collection_type: open
+  name: iDenfy Aml Token API
+  slug: open-idenfy-token-api
 - collection_type: open
   name: iDenfy API
   slug: open-idenfy
@@ -144,7 +168,7 @@ plans:
 - name: Idenfy Plans Pricing
   plan_count: 3
   slug: idenfy-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Idenfy Rate Limits
@@ -169,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/screenshots/idenfy-2026-06-20T183205.png
 security:

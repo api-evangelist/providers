@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: New Jersey unveils resources for educators using AI in ...
   url: https://www.chalkbeat.org/newark/2024/06/20/department-of-education-artificial-intelligence-resources-to-help-educators-schools/
-random_paper: 25
+random_paper: 128
 score:
   band: minimal
   composite: 5.5
@@ -100,7 +100,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-jersey-resources/refs/heads/main/screenshots/new-jersey-resources-2026-06-20T190225.png
 security:

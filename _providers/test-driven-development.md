@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -54,8 +54,14 @@ apis:
 - description: The Repos API from Test-Driven Development — 7 operation(s) for repos.
   name: Test-Driven Development Repos API
   slug: test-driven-development-repos-api
-artifact_total: 41
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitHub Actions API (Test-Driven Development) Repos API
+  slug: open-test-driven-development-repos-api
 - collection_type: open
   name: GitHub Actions API (Test-Driven Development)
   slug: open-test-driven-development
@@ -190,7 +196,7 @@ plans:
 - name: Test Driven Development Plans Pricing
   plan_count: 3
   slug: test-driven-development-plans-pricing
-random_paper: 93
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Test Driven Development Rate Limits
@@ -224,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-driven-development/refs/heads/main/screenshots/test-driven-development-2026-06-20T195143.png
 security:

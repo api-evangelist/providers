@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -56,11 +56,32 @@ apis:
 - description: The Workflow Specs API from LittleHorse — 2 operation(s) for workflow specs.
   name: LittleHorse Workflow Specs API
   slug: littlehorse-workflow-specs-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: LittleHorse REST API
   slug: open-littlehorse-api
+- collection_type: open
+  name: LittleHorse REST External Events API
+  slug: open-littlehorse-external-events-api
+- collection_type: open
+  name: LittleHorse REST External Events Node Runs API
+  slug: open-littlehorse-node-runs-api
+- collection_type: open
+  name: LittleHorse REST External Events Task Definitions API
+  slug: open-littlehorse-task-definitions-api
+- collection_type: open
+  name: LittleHorse REST External Events User Tasks API
+  slug: open-littlehorse-user-tasks-api
+- collection_type: open
+  name: LittleHorse REST External Events Workflow Runs API
+  slug: open-littlehorse-workflow-runs-api
+- collection_type: open
+  name: LittleHorse REST External Events Workflow Specs API
+  slug: open-littlehorse-workflow-specs-api
 common:
 - group: agent
   title: ''
@@ -106,7 +127,7 @@ plans:
 - name: Littlehorse Plans Pricing
   plan_count: 3
   slug: littlehorse-plans-pricing
-random_paper: 119
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Littlehorse Rate Limits
@@ -131,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/screenshots/littlehorse-2026-06-20T184611.png
 security:

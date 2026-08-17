@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -119,7 +119,7 @@ plans:
 - name: Clicktivated Plans Pricing
   plan_count: 0
   slug: clicktivated-plans-pricing
-random_paper: 71
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Clicktivated Rate Limits
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.6
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -135,9 +135,9 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 8.4
+  previous_composite: 10.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clicktivated/refs/heads/main/screenshots/clicktivated-2026-07-25T205616.png
 security:

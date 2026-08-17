@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Manage user accounts and invitations in the organization.
   name: Rely.io Users API
   slug: rely-users-api
-artifact_total: 21
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rely.io Public Automations API
+  slug: open-rely-automations-api
+- collection_type: open
+  name: Rely.io Public Automations Blueprints API
+  slug: open-rely-blueprints-api
+- collection_type: open
+  name: Rely.io Public Automations Entities API
+  slug: open-rely-entities-api
+- collection_type: open
+  name: Rely.io Public Automations Scorecards API
+  slug: open-rely-scorecards-api
+- collection_type: open
+  name: Rely.io Public Automations Self-Service Actions API
+  slug: open-rely-self-service-actions-api
+- collection_type: open
+  name: Rely.io Public Automations Users API
+  slug: open-rely-users-api
 - collection_type: open
   name: Rely.io Public API
   slug: open-rely
@@ -157,7 +178,7 @@ plans:
 - name: Rely Plans Pricing
   plan_count: 3
   slug: rely-plans-pricing
-random_paper: 84
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Rely Rate Limits
@@ -199,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/screenshots/rely-2026-06-20T192840.png
 security:

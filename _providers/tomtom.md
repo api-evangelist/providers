@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -99,20 +99,68 @@ apis:
 - description: The WMS / WMTS API from TomTom — 3 operation(s) for wms / wmts.
   name: TomTom WMS / WMTS API
   slug: tomtom-wms-wmts-api
-artifact_total: 65
+artifact_total: 81
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Maps Additional Data API
+  slug: open-tomtom-additional-data-api
+- collection_type: open
+  name: Maps Additional Data Batch Routing API
+  slug: open-tomtom-batch-routing-api
+- collection_type: open
+  name: Maps Additional Data Copyrights API
+  slug: open-tomtom-copyrights-api
+- collection_type: open
+  name: Maps Additional Data Filters API
+  slug: open-tomtom-filters-api
+- collection_type: open
+  name: Maps Additional Data Geocoding API
+  slug: open-tomtom-geocoding-api
 - collection_type: open
   name: Maps
   slug: open-tomtom-maps
 - collection_type: open
+  name: Maps Additional Data Raster API
+  slug: open-tomtom-raster-api
+- collection_type: open
+  name: Maps Additional Data Reachable Range API
+  slug: open-tomtom-reachable-range-api
+- collection_type: open
+  name: Maps Additional Data Reverse Geocoding API
+  slug: open-tomtom-reverse-geocoding-api
+- collection_type: open
+  name: Maps Additional Data Routing API
+  slug: open-tomtom-routing-api
+- collection_type: open
   name: TomTom Routing API
   slug: open-tomtom-routing
+- collection_type: open
+  name: Maps Additional Data Search API
+  slug: open-tomtom-search-api
 - collection_type: open
   name: Search
   slug: open-tomtom-search
 - collection_type: open
+  name: Maps Additional Data Traffic Flow API
+  slug: open-tomtom-traffic-flow-api
+- collection_type: open
+  name: Maps Additional Data Traffic Incidents API
+  slug: open-tomtom-traffic-incidents-api
+- collection_type: open
+  name: Maps Additional Data Traffic Tiles API
+  slug: open-tomtom-traffic-tiles-api
+- collection_type: open
   name: TomTom Traffic API
   slug: open-tomtom-traffic
+- collection_type: open
+  name: Maps Additional Data Vector API
+  slug: open-tomtom-vector-api
+- collection_type: open
+  name: Maps Additional Data WMS / WMTS API
+  slug: open-tomtom-wms-wmts-api
 common:
 - group: agent
   title: ''
@@ -267,7 +315,7 @@ plans:
 - name: Tomtom Plans Pricing
   plan_count: 3
   slug: tomtom-plans-pricing
-random_paper: 72
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Tomtom Rate Limits
@@ -309,7 +357,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/screenshots/tomtom-2026-06-20T195447.png
 security:

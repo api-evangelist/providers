@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ press:
 - date: '2026-05-25'
   title: 2025-annual-report.pdf
   url: https://investor.zimmerbiomet.com/~/media/Files/Z/ZimmerBiomet-IR/documents/annual-reports/2025-annual-report.pdf
-random_paper: 2
+random_paper: 72
 score:
   band: minimal
   composite: 3.5
@@ -80,7 +80,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: lvb-acquisition
 tags:

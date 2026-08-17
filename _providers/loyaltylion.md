@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -57,8 +57,29 @@ apis:
 - description: Identity and diagnostic endpoints.
   name: LoyaltyLion Utility API
   slug: loyaltylion-utility-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LoyaltyLion Activities API
+  slug: open-loyaltylion-activities-api
+- collection_type: open
+  name: LoyaltyLion Activities Customers API
+  slug: open-loyaltylion-customers-api
+- collection_type: open
+  name: LoyaltyLion Activities Points API
+  slug: open-loyaltylion-points-api
+- collection_type: open
+  name: LoyaltyLion Activities Redemptions API
+  slug: open-loyaltylion-redemptions-api
+- collection_type: open
+  name: LoyaltyLion Activities Rewards API
+  slug: open-loyaltylion-rewards-api
+- collection_type: open
+  name: LoyaltyLion Activities Utility API
+  slug: open-loyaltylion-utility-api
 - collection_type: open
   name: LoyaltyLion API
   slug: open-loyaltylion
@@ -119,7 +140,7 @@ plans:
 - name: Loyaltylion Plans Pricing
   plan_count: 4
   slug: loyaltylion-plans-pricing
-random_paper: 16
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Loyaltylion Rate Limits
@@ -144,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/screenshots/loyaltylion-2026-07-25T225628.png
 security:

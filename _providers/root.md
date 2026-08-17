@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -93,7 +93,62 @@ apis:
 - description: The Webhooks API from Root Insurance — 9 operation(s) for webhooks.
   name: Root Insurance Webhooks API
   slug: root-webhooks-api
-artifact_total: 311
+artifact_total: 329
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Root Applications API
+  slug: open-root-applications-api
+- collection_type: open
+  name: Root Applications Calls API
+  slug: open-root-calls-api
+- collection_type: open
+  name: Root Applications Claims API
+  slug: open-root-claims-api
+- collection_type: open
+  name: Root Applications Complaints API
+  slug: open-root-complaints-api
+- collection_type: open
+  name: Root Applications Data exports API
+  slug: open-root-data-exports-api
+- collection_type: open
+  name: Root Applications Data stores API
+  slug: open-root-data-stores-api
+- collection_type: open
+  name: Root Applications Embed API
+  slug: open-root-embed-api
+- collection_type: open
+  name: Root Applications Files API
+  slug: open-root-files-api
+- collection_type: open
+  name: Root Applications Leads API
+  slug: open-root-leads-api
+- collection_type: open
+  name: Root Applications Notifications API
+  slug: open-root-notifications-api
+- collection_type: open
+  name: Root Applications Payment Methods API
+  slug: open-root-payment-methods-api
+- collection_type: open
+  name: Root Applications Payments API
+  slug: open-root-payments-api
+- collection_type: open
+  name: Root Applications Policies API
+  slug: open-root-policies-api
+- collection_type: open
+  name: Root Applications Policyholders API
+  slug: open-root-policyholders-api
+- collection_type: open
+  name: Root Applications Quotes API
+  slug: open-root-quotes-api
+- collection_type: open
+  name: Root Applications Secret keys API
+  slug: open-root-secret-keys-api
+- collection_type: open
+  name: Root Applications Webhooks API
+  slug: open-root-webhooks-api
 common:
 - group: agent
   title: ''
@@ -1037,7 +1092,7 @@ plans:
 - name: Root Plans Pricing
   plan_count: 4
   slug: root-plans-pricing
-random_paper: 92
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Root Rate Limits
@@ -1077,7 +1132,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/screenshots/root-2026-06-20T193217.png
 security:

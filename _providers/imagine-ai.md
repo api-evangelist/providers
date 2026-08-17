@@ -1,11 +1,13 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Sales-led — custom quote
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://www.imagineai.me/pricing
+  - https://form.typeform.com/to/wexUi8lH
   trial: false
   try_now: false
 agent_readiness:
@@ -22,14 +24,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -71,34 +73,91 @@ common:
   title: ''
   type: CompanyProfile
   url: https://www.ycombinator.com/companies/imagine-ai
+- group: other
+  title: ''
+  type: Product
+  url: https://benchmark.imagineai.me/dashboard
+- group: start
+  title: ''
+  type: Login
+  url: https://app.imagineai.me/sign-in
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/imagine-ai-inc
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/profile.php?id=61573966311744
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/imagineagi/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/imagine-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/imagine-ai-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/imagine-ai-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: 'Imagine AI sells a seat-based managed content service and ships one free public product (the Benchmark dashboard) — the only HTTP API on a host it controls is that dashboard''s own backend at benchmark.imagineai.me/api/*, which is Disallow''d in robots.txt and answers 401 "Authentication required. Provide Authorization: Bearer <token> or X-API-Key header." with no developer portal, reference or spec anywhere, and api.imagineai.me / developer.imagineai.me do not resolve at all.'
+  evidence:
+  - status: 401
+    url: https://benchmark.imagineai.me/api/companies
+  - status: 200
+    url: https://benchmark.imagineai.me/robots.txt
+  - status: 404
+    url: https://www.imagineai.me/openapi.json
+  - status: 404
+    url: https://www.imagineai.me/.well-known/agent-card.json
+  - status: 307
+    url: https://app.imagineai.me/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Imagine AI (YC F25) is a San Francisco B2B content platform, founded in 2025 by Neo Lee and Sky Yang, that reverse-engineers modern B2B growth starting with LinkedIn. It builds a persona-driven AI clone of a founder or executive by deeply analyzing their writing, speaking style, and market context, then uses that persona to plan content strategy, write LinkedIn posts, draft comments and DMs, and schedule coordinated distribution across an executive team (CEO, VP of Sales, Head of Marketing) from a single shared content calendar. Each client is paired with a dedicated content engineer, and the platform tracks engagement-quality analytics and inbound lead generation; early customers include MongoDB, Rippling, and Conduit. Imagine AI is a sales-led SaaS with no public self-serve developer API, SDK, or OpenAPI definition as of this catalog entry — this profile captures the company's identity and public web properties for the API Evangelist network.
+description: Imagine AI (YC F25) is a San Francisco B2B content platform, founded in 2025 by Neo Lee and Sky Yang, that reverse-engineers modern B2B growth starting with LinkedIn. It builds a persona-driven AI clone of a founder or executive by deeply analyzing their writing, speaking style, and market context, then uses that persona to plan content strategy, write LinkedIn posts, draft comments and DMs, and schedule coordinated distribution across an executive team (CEO, VP of Sales, Head of Marketing) from a single shared content calendar. Each client is paired with a dedicated content engineer, and the platform tracks engagement-quality analytics and inbound lead generation; early customers include MongoDB, Rippling, and Conduit. It also publishes Benchmark by Imagine AI, a free public LinkedIn competitor-benchmark dashboard covering 96 companies and 32,500+ analyzed posts with a documented statistical methodology. Imagine AI is a sales-led SaaS — three seat-based tiers, every one a custom
+  quote — with no developer portal, API reference, SDK, MCP server or OpenAPI/AsyncAPI/GraphQL definition published on any host it controls as of August 2026; this profile captures the company's identity and public web properties for the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/imagine-ai.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Imagine Ai
 nav: Providers
 network: true
 overview: 'Imagine Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Artificial Intelligence, B2B, and Content Marketing.
 
 
-  Imagine Ai''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
-random_paper: 17
+  Imagine Ai''s developer surface includes engineering blog, pricing, and 16 more developer resources.'
+plans:
+- name: Imagine Ai Plans Pricing
+  plan_count: 3
+  slug: imagine-ai-plans-pricing
+random_paper: 83
+rate_limits:
+- limit_count: 0
+  name: Imagine Ai Rate Limits
+  slug: imagine-ai-rate-limits
 score:
-  band: minimal
-  composite: 11.8
-  delta: 0.0
+  band: emerging
+  composite: 23.2
+  delta: 11.4
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 11.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/imagine-ai/refs/heads/main/screenshots/imagine-ai-2026-07-25T222121.png
 security:
 - kind: domain-security

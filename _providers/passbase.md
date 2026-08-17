@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,21 @@ apis:
 - description: Read project settings and verification configuration.
   name: Passbase Project API
   slug: passbase-project-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Passbase Webhooks
   slug: passbase-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Passbase Verifications Identity API
+  slug: open-passbase-identity-api
+- collection_type: open
+  name: Passbase Verifications Identity Project API
+  slug: open-passbase-project-api
 common:
 - group: other
   title: ''
@@ -137,7 +147,7 @@ overview: 'Passbase publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Passbase''s developer surface includes authentication and 16 more developer resources.'
-random_paper: 10
+random_paper: 105
 score:
   band: thin
   composite: 32.5
@@ -161,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/screenshots/passbase-2026-08-07T191532.png
 security:

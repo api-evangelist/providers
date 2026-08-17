@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -87,15 +87,30 @@ apis:
 - description: Access trend data for errors and projects. Trends provide time-series data showing how error rates and stability change over time.
   name: bugsnag Trends API
   slug: bugsnag-trends-api
-artifact_total: 94
+artifact_total: 111
 asyncapis:
 - description: 'Bugsnag webhooks deliver real-time notifications about error events to a configured callback URL via HTTP POST. The webhook integration sends JSON payloads containing information about the triggering '
   name: Bugsnag Webhook Events
   slug: bugsnag-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Bugsnag Build API
   slug: open-bugsnag-build
+- collection_type: open
+  name: Bugsnag Build Builds API
+  slug: open-bugsnag-builds-api
+- collection_type: open
+  name: Bugsnag Build Builds Collaborators API
+  slug: open-bugsnag-collaborators-api
+- collection_type: open
+  name: Bugsnag Build Builds Comments API
+  slug: open-bugsnag-comments-api
+- collection_type: open
+  name: Bugsnag Build Builds CurrentUser API
+  slug: open-bugsnag-currentuser-api
 - collection_type: open
   name: Bugsnag Data Access API
   slug: open-bugsnag-data-access
@@ -103,11 +118,47 @@ collections:
   name: Bugsnag Error Reporting API
   slug: open-bugsnag-error-reporting
 - collection_type: open
+  name: Bugsnag Build Builds Errors API
+  slug: open-bugsnag-errors-api
+- collection_type: open
+  name: Bugsnag Build Builds EventFields API
+  slug: open-bugsnag-eventfields-api
+- collection_type: open
+  name: Bugsnag Build Builds Events API
+  slug: open-bugsnag-events-api
+- collection_type: open
+  name: Bugsnag Build Builds Notifications API
+  slug: open-bugsnag-notifications-api
+- collection_type: open
+  name: Bugsnag Build Builds Organizations API
+  slug: open-bugsnag-organizations-api
+- collection_type: open
+  name: Bugsnag Build Builds Pivots API
+  slug: open-bugsnag-pivots-api
+- collection_type: open
+  name: Bugsnag Build Builds Projects API
+  slug: open-bugsnag-projects-api
+- collection_type: open
+  name: Bugsnag Build Builds Releases API
+  slug: open-bugsnag-releases-api
+- collection_type: open
   name: Bugsnag Session Tracking API
   slug: open-bugsnag-session-tracking
 - collection_type: open
+  name: Bugsnag Build Builds Sessions API
+  slug: open-bugsnag-sessions-api
+- collection_type: open
+  name: Bugsnag Build Builds Stability API
+  slug: open-bugsnag-stability-api
+- collection_type: open
   name: Bugsnag Trace API
   slug: open-bugsnag-trace
+- collection_type: open
+  name: Bugsnag Build Builds Traces API
+  slug: open-bugsnag-traces-api
+- collection_type: open
+  name: Bugsnag Build Builds Trends API
+  slug: open-bugsnag-trends-api
 common:
 - group: agent
   title: ''
@@ -333,7 +384,7 @@ plans:
 - name: Bugsnag Plans Pricing
   plan_count: 4
   slug: bugsnag-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 3
   name: Bugsnag Rate Limits
@@ -375,7 +426,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/screenshots/bugsnag-2026-06-20T173757.png
 security:

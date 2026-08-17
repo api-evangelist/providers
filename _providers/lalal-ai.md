@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 60.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -51,7 +51,7 @@ apis:
 - description: The Voice Change API from LALAL.AI — 2 operation(s) for voice change.
   name: LALAL.AI Voice Change API
   slug: lalal-ai-voice-change-api
-artifact_total: 46
+artifact_total: 52
 collections:
 - collection_type: postman
   name: LALAL.AI Batch Stem Separation API
@@ -66,8 +66,23 @@ collections:
   name: LALAL.AI Batch Stem Separation Voice Change API
   slug: postman-lalal-ai-voice-change-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: LALAL.AI API
   slug: open-lalal-ai-api
+- collection_type: open
+  name: LALAL.AI Batch Stem Separation API
+  slug: open-lalal-ai-batch-stem-separation-api
+- collection_type: open
+  name: LALAL.AI Batch Stem Separation Common API
+  slug: open-lalal-ai-common-api
+- collection_type: open
+  name: LALAL.AI Batch Stem Separation API
+  slug: open-lalal-ai-stem-separation-api
+- collection_type: open
+  name: LALAL.AI Batch Stem Separation Voice Change API
+  slug: open-lalal-ai-voice-change-api
 common:
 - group: operate
   title: ''
@@ -104,7 +119,7 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://www.lalal.ai/api/help/
+  url: https://www.lalal.ai/api/
 - group: commercial
   title: ''
   type: Pricing
@@ -120,7 +135,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://www.lalal.ai/support/
+  url: https://www.lalal.ai/help/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -157,6 +172,62 @@ common:
   title: ''
   type: FinOps
   url: finops/lalal-ai-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.lalal.ai/api/v1/docs/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/lalal-ai-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/lalal-ai-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lalal-ai-mcp.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/lalal-ai-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/lalal-ai-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/lalal-ai-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/lalal-ai-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://www.lalal.ai/api/help/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/lalal-ai-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/lalal-ai-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/lalal-ai-data-model.yml
+- group: start
+  title: ''
+  type: Console
+  url: sandbox/lalal-ai-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-05-25T00:00:00.000Z'
 description: LALAL.AI is an AI-powered audio separation and voice technology platform operated by OmniSale GmbH. It uses proprietary neural networks (Andromeda, Perseus, Orion, Phoenix, Lyra, Lynx) to isolate vocals, instruments, drums, bass, guitars, piano, synth, strings, and wind from mixed audio, clean voice recordings, and clone or convert voices with consent. The company ships a web app, native desktop, iOS and Android apps, a VST plug-in for DAWs, and a production REST API (v1) for embedding stem separation and voice cloning into third-party SaaS, media, and post-production pipelines.
 examples:
@@ -217,7 +288,11 @@ jsonld:
   property_count: 5
   slug: lalal-ai-context
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: API Evangelist candidate — LALAL.AI publishes no MCP server
+  slug: api-evangelist-candidate-lalalai-publishes-no-mcp-server
+modified: '2026-08-13'
 name: LALAL.AI
 nav: Providers
 network: true
@@ -227,12 +302,12 @@ overview: 'LALAL.AI publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The LALAL.AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 15 more developer resources.'
+  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 29 more developer resources.'
 plans:
 - name: Lalal Ai Plans Pricing
   plan_count: 9
   slug: lalal-ai-plans-pricing
-random_paper: 45
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Lalal Ai Rate Limits
@@ -255,16 +330,16 @@ rules:
     warn: 2
   slug: lalal-ai-rules
 score:
-  band: strong
-  composite: 60.7
-  delta: 0.0
+  band: exemplar
+  composite: 70.6
+  delta: 9.9
   facets:
     commercial_clarity: 71.1
     contract_quality: 72.1
-    developer_ergonomics: 56.5
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
+    developer_ergonomics: 84.8
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 28.9
   previous_composite: 60.7
   provenance:
     agentic_access: derived
@@ -274,8 +349,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/screenshots/lalal-ai-2026-06-20T184249.png
 security:
 - kind: authentication

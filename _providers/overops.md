@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -86,7 +86,59 @@ apis:
 - description: Fetch and manipulate grouping of events (i.e. Views) according to attribute sets (e.g. "uncaught exceptions", "errors from package com.acme")
   name: Overops Views API
   slug: overops-views-api
-artifact_total: 20
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Services Alerts API
+  slug: open-overops-alerts-api
+- collection_type: open
+  name: Services Alerts Categories API
+  slug: open-overops-categories-api
+- collection_type: open
+  name: Services Alerts Code Redaction API
+  slug: open-overops-code-redaction-api
+- collection_type: open
+  name: Services Alerts Data Redaction API
+  slug: open-overops-data-redaction-api
+- collection_type: open
+  name: Services Alerts Entry Points API
+  slug: open-overops-entry-points-api
+- collection_type: open
+  name: Services Alerts Environment Management API
+  slug: open-overops-environment-management-api
+- collection_type: open
+  name: Services Alerts Events API
+  slug: open-overops-events-api
+- collection_type: open
+  name: Services Alerts General API
+  slug: open-overops-general-api
+- collection_type: open
+  name: Services Alerts Labels API
+  slug: open-overops-labels-api
+- collection_type: open
+  name: Services Alerts Publish Metrics API
+  slug: open-overops-publish-metrics-api
+- collection_type: open
+  name: Services Alerts System Metrics API
+  slug: open-overops-system-metrics-api
+- collection_type: open
+  name: Services Alerts Team Management API
+  slug: open-overops-team-management-api
+- collection_type: open
+  name: Services Alerts Timers API
+  slug: open-overops-timers-api
+- collection_type: open
+  name: Services Alerts UDFs API
+  slug: open-overops-udfs-api
+- collection_type: open
+  name: Services Alerts View Metrics API
+  slug: open-overops-view-metrics-api
+- collection_type: open
+  name: Services Alerts Views API
+  slug: open-overops-views-api
 common:
 - group: other
   title: ''
@@ -196,7 +248,7 @@ overview: 'Overops publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 18 more developer resources.'
-random_paper: 62
+random_paper: 37
 score:
   band: thin
   composite: 39.5
@@ -220,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/screenshots/overops-2026-08-07T191135.png
 security:

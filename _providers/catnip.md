@@ -3,11 +3,12 @@ access_model:
   confidence: medium
   label: Self-serve signup
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
   - authentication
-  trial: false
+  - plans
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-aware
@@ -18,26 +19,29 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-12'
-api_count: 2
+  score: 30.2
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
+- description: Bulk-create WhatsApp contacts inside a Chatfuel automation. POST a list of up to 1,000 E.164 phone numbers plus a contact_data.properties map of custom attributes applied to every contact in the reque
+  name: Chatfuel Contacts API
+  slug: chatfuel-contacts-api
 - description: Programmatically send messages and trigger flows/blocks to a specific bot user on Messenger, Instagram, or WhatsApp. POST to the send endpoint with the bot's unique chatfuel_token and a flow name, blo
   name: Chatfuel Broadcasting API
   slug: chatfuel-broadcasting-api
 - description: Manage Chatfuel bots and their Facebook page bindings. Create empty bots, clone content between bots, generate role-scoped invite links (ADMIN, EDITOR, MARKETER, OPERATOR, VIEWER), and bind/unbind bot
   name: Chatfuel Dashboard API
   slug: chatfuel-dashboard-api
-artifact_total: 5
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -46,15 +50,39 @@ common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://docs.chatfuel.com
+  url: https://academy.chatfuel.com
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.chatfuel.com/en/collections/168839-api
+  url: https://help.chatfuel.com
 - group: docs
   title: ''
   type: APIReference
-  url: https://docs.chatfuel.com/en/collections/168839-api
+  url: https://help.chatfuel.com/create-contacts-in-chatfuel-via-api-23134b06ecf8800683b6efacab24b68d
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://academy.chatfuel.com/docs
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.chatfuel.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://chatfuel.com/blog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.chatfuel.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://academy.chatfuel.com/changelog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/catnip-changelog.yml
 - group: commercial
   title: ''
   type: Pricing
@@ -95,44 +123,80 @@ common:
   title: ''
   type: DomainSecurity
   url: security/catnip-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/catnip-plans-pricing.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/catnip-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/catnip-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/catnip-conformance.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/catnip-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/catnip-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/catnip-llms.txt
 created: '2026-07-17'
-description: 'Catnip Inc is the company behind Chatfuel, an AI-powered business messaging and chatbot automation platform for Facebook Messenger, Instagram, and WhatsApp. Chatfuel lets businesses build conversational flows, run broadcasts, qualify leads, book appointments, and automate customer support with AI agents. For developers Chatfuel exposes three public integration surfaces: a Broadcasting API for programmatically sending messages and triggering flows to bot users, a Dashboard API for managing bots and Facebook page bindings, and a JSON API plugin that lets a bot call an external backend and render dynamic content.'
+description: 'Catnip Inc is the company behind Chatfuel, an AI-powered business messaging and chatbot automation platform for WhatsApp, Instagram, Facebook Messenger, TikTok and an embeddable website chat widget. Chatfuel lets businesses and agencies build conversational flows, run Meta click-to-WhatsApp ad funnels, qualify leads, book appointments and automate customer support with AI agents. Its developer surface is small and shrinking: the only currently documented API is a Contacts API that bulk-imports up to 1,000 phone numbers into an automation using a Bearer token from Settings, while the older Broadcasting API on api.chatfuel.com and Dashboard API on dashboard.chatfuel.com remain live on the wire but lost their documentation when the docs.chatfuel.com developer help centre was retired. Chatfuel publishes no OpenAPI, but it does serve an llms.txt and a real remote MCP documentation server on its academy docs host.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/catnip.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: catnip-mcp.yml
+  slug: catnip-mcpyml
+modified: '2026-08-13'
 name: Catnip
 nav: Providers
 network: true
-overview: 'Catnip publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chatbots, Messaging, Conversational AI, and Marketing Automation.
+overview: 'Catnip publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chatbots, Messaging, Conversational AI, and Marketing Automation.
 
 
-  Catnip''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 9 more developer resources.'
-random_paper: 39
+  Catnip''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 20 more developer resources.'
+plans:
+- name: Catnip Plans Pricing
+  plan_count: 2
+  slug: catnip-plans-pricing
+random_paper: 43
 rate_limits:
-- limit_count: 1
+- limit_count: 2
   name: Catnip Rate Limits
   slug: catnip-rate-limits
 score:
-  band: emerging
-  composite: 27.1
-  delta: 0.0
+  band: developing
+  composite: 44.5
+  delta: 17.4
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 73.7
     contract_quality: 0.0
-    developer_ergonomics: 34.8
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    developer_ergonomics: 60.9
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 52.6
   previous_composite: 27.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/catnip/refs/heads/main/screenshots/catnip-2026-07-25T204810.png
 security:
 - kind: authentication
   name: Catnip Authentication
   slug: catnip-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: apiKey/http · 3 schemes
 - kind: domain-security
   name: Catnip Domain Security
   slug: catnip-domain-security
@@ -147,6 +211,8 @@ tags:
 - Facebook Messenger
 - Instagram
 - WhatsApp
+- TikTok
 - Customer Engagement
+- Lead Qualification
 website: https://chatfuel.com
 ---

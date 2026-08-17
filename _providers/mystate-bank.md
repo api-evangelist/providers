@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Banking Account Balance endpoints
@@ -55,7 +55,35 @@ apis:
 - description: The Products API from MyState Bank — 2 operation(s) for products.
   name: MyState Bank Products API
   slug: mystate-bank-products-api
-artifact_total: 11
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-mystate-bank-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-mystate-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-mystate-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-mystate-bank-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-mystate-bank-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-mystate-bank-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-mystate-bank-banking-products-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Products API
+  slug: open-mystate-bank-products-api
 common:
 - group: auth
   title: ''
@@ -157,7 +185,7 @@ overview: 'MyState Bank publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   MyState Bank''s developer surface includes support, documentation, authentication, and 18 more developer resources.'
-random_paper: 32
+random_paper: 40
 score:
   band: thin
   composite: 33.0
@@ -186,7 +214,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png
 security:

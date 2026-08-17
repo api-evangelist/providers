@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ overview: 'Parrot is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Parrot''s developer surface includes engineering blog, support, changelog, and 8 more developer resources.'
-random_paper: 64
+random_paper: 68
 score:
   band: emerging
   composite: 19.4
@@ -107,7 +107,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parrot/refs/heads/main/screenshots/parrot-2026-08-07T191451.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -48,11 +48,24 @@ apis:
 - description: The Understand API from Memories — 2 operation(s) for understand.
   name: Memories Understand API
   slug: memories-understand-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Memories Webhooks
   slug: memories-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Memories Platform API (Docs Mapping) Serve API
+  slug: open-memories-serve-api
+- collection_type: open
+  name: Memories Platform API (Docs Mapping) Serve Stream Understanding API
+  slug: open-memories-stream-understanding-api
+- collection_type: open
+  name: Memories Platform API (Docs Mapping) Serve Understand API
+  slug: open-memories-understand-api
 common:
 - group: auth
   title: ''
@@ -181,7 +194,7 @@ overview: 'Memories publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Memories'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, authentication, CLI, and 20 more developer resources.'
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 4
   name: Memories Rate Limits
@@ -209,7 +222,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/screenshots/memories-2026-08-07T172506.png
 security:

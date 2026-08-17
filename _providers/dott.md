@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Auto-discovery of available feeds and cities
@@ -46,7 +46,26 @@ apis:
 - description: Geofencing / operating zones
   name: Dott Zones API
   slug: dott-zones-api
-artifact_total: 13
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dott GBFS Discovery API
+  slug: open-dott-discovery-api
+- collection_type: open
+  name: Dott GBFS Discovery Stations API
+  slug: open-dott-stations-api
+- collection_type: open
+  name: Dott GBFS Discovery System API
+  slug: open-dott-system-api
+- collection_type: open
+  name: Dott GBFS Discovery Vehicles API
+  slug: open-dott-vehicles-api
+- collection_type: open
+  name: Dott GBFS Discovery Zones API
+  slug: open-dott-zones-api
 common:
 - group: company
   title: ''
@@ -168,7 +187,7 @@ overview: 'Dott publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Dott''s developer surface includes documentation, API reference, getting-started guide, engineering blog, code examples, authentication, and 16 more developer resources.'
-random_paper: 83
+random_paper: 145
 score:
   band: thin
   composite: 38.6
@@ -191,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/screenshots/dott-2026-07-25T212315.png
 security:

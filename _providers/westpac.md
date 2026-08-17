@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: First-party Westpac payment API (beyond CDR). PayWay is Westpac's merchant payment platform; its public REST API v1 processes real-time credit-card and bank-account payments, refunds, pre-authorisatio
@@ -58,7 +58,32 @@ apis:
 - description: Banking Product endpoints
   name: Westpac Banking Corporation Banking Products API
   slug: westpac-banking-products-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-westpac-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-westpac-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-westpac-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-westpac-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-westpac-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-westpac-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-westpac-banking-products-api
 common:
 - group: auth
   title: ''
@@ -184,7 +209,7 @@ overview: 'Westpac Banking Corporation publishes 7 APIs on the [APIs.io](https:/
 
 
   Westpac Banking Corporation''s developer surface includes documentation, authentication, changelog, sandbox, getting-started guide, API reference, and 21 more developer resources.'
-random_paper: 39
+random_paper: 14
 score:
   band: developing
   composite: 44.8
@@ -213,7 +238,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/screenshots/westpac-2026-07-21T114757.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -87,8 +87,29 @@ apis:
 - description: The Users API from Greenhouse — 3 operation(s) for users.
   name: Greenhouse Users API
   slug: greenhouse-users-api
-artifact_total: 31
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Greenhouse Harvest Applications API
+  slug: open-greenhouse-applications-api
+- collection_type: open
+  name: Greenhouse Harvest Applications Candidates API
+  slug: open-greenhouse-candidates-api
+- collection_type: open
+  name: Greenhouse Harvest Applications Departments API
+  slug: open-greenhouse-departments-api
+- collection_type: open
+  name: Greenhouse Harvest Applications Education API
+  slug: open-greenhouse-education-api
+- collection_type: open
+  name: Greenhouse Harvest Applications Graphql API
+  slug: open-greenhouse-graphql-api
+- collection_type: open
+  name: Greenhouse Harvest Applications Greenhouse Job Board API API
+  slug: open-greenhouse-greenhouse-job-board-api-api
 - collection_type: open
   name: Greenhouse Harvest API
   slug: open-greenhouse-harvest
@@ -99,8 +120,26 @@ collections:
   name: Greenhouse Job Board API
   slug: open-greenhouse-job-board
 - collection_type: open
+  name: Greenhouse Harvest Applications Jobs API
+  slug: open-greenhouse-jobs-api
+- collection_type: open
+  name: Greenhouse Harvest Applications Offices API
+  slug: open-greenhouse-offices-api
+- collection_type: open
   name: Greenhouse Onboarding API
   slug: open-greenhouse-onboarding
+- collection_type: open
+  name: Greenhouse Harvest Applications Prospects API
+  slug: open-greenhouse-prospects-api
+- collection_type: open
+  name: Greenhouse Harvest Applications Sections API
+  slug: open-greenhouse-sections-api
+- collection_type: open
+  name: Greenhouse Harvest Applications Tracking API
+  slug: open-greenhouse-tracking-api
+- collection_type: open
+  name: Greenhouse Harvest Applications Users API
+  slug: open-greenhouse-users-api
 common:
 - group: agent
   title: ''
@@ -165,7 +204,7 @@ plans:
 - name: Greenhouse Plans Pricing
   plan_count: 3
   slug: greenhouse-plans-pricing
-random_paper: 117
+random_paper: 34
 rate_limits:
 - limit_count: 4
   name: Greenhouse Rate Limits
@@ -204,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/screenshots/greenhouse-2026-06-20T182356.png
 security:

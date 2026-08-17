@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 58.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 14
   slug: mailmodo-agentic-access
   summary_line: 14 operations · 10 acting
-api_count: 5
+api_count: 8
 apis:
 - description: List campaigns, fetch reports, and trigger sends to individuals or lists
   name: Mailmodo Campaigns API
@@ -54,7 +55,20 @@ apis:
 - description: List interactive AMP email templates available on the workspace
   name: Mailmodo Templates API
   slug: mailmodo-templates-api
-artifact_total: 61
+- description: Add a contact to an automated email journey, or abort that journey for a contact
+  name: Mailmodo User Journeys API
+  slug: mailmodo-user-journeys-api
+- description: Trigger a campaign whose AMP email carries a form generated at runtime from the request payload
+  name: Mailmodo Dynamic Form API
+  slug: mailmodo-dynamic-form-api
+- description: Trigger a campaign whose AMP email repeats a content block once per item in the payload
+  name: Mailmodo Repeatable Block API
+  slug: mailmodo-repeatable-block-api
+artifact_total: 75
+asyncapis:
+- description: ''
+  name: Mailmodo Webhooks
+  slug: mailmodo-webhooks
 collections:
 - collection_type: postman
   name: Mailmodo Campaigns API
@@ -71,6 +85,33 @@ collections:
 - collection_type: postman
   name: Mailmodo Campaigns Templates API
   slug: postman-mailmodo-templates-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mailmodo Campaigns API
+  slug: open-mailmodo-campaigns-api
+- collection_type: open
+  name: Mailmodo Campaigns Contact Lists API
+  slug: open-mailmodo-contact-lists-api
+- collection_type: open
+  name: Mailmodo Campaigns Contacts API
+  slug: open-mailmodo-contacts-api
+- collection_type: open
+  name: Dynamic form
+  slug: open-mailmodo-dynamic-form-api
+- collection_type: open
+  name: Mailmodo Campaigns Events API
+  slug: open-mailmodo-events-api
+- collection_type: open
+  name: Repeatable Block
+  slug: open-mailmodo-repeatable-block-api
+- collection_type: open
+  name: Mailmodo Campaigns Templates API
+  slug: open-mailmodo-templates-api
+- collection_type: open
+  name: User Journeys
+  slug: open-mailmodo-user-journeys-api
 - collection_type: open
   name: Mailmodo API
   slug: open-mailmodo
@@ -179,6 +220,86 @@ common:
   title: ''
   type: FinOps
   url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/finops/mailmodo-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mailmodo-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/mailmodo-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/mailmodo-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mailmodo-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/mailmodo-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mailmodo-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mailmodo-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mailmodo-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mailmodo-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mailmodo-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.mailmodo.com/
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/mailmodo-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mailmodo-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/mailmodo-trust-center.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/mailmodo-webhooks.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.mailmodo.com/developers/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.mailmodo.com/developers/8e957152b6128-getting-started-with-mailmodo-api
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.mailmodo.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/mailmodo/overview
 created: '2026-05-25'
 description: Mailmodo is an AI-powered interactive email marketing and automation platform headquartered in Bengaluru with a presence in San Francisco. It pioneered AMP-for-Email at scale, letting brands embed forms, quizzes, polls, carousels, and calendars directly inside the inbox to drive engagement and conversions without a landing-page round-trip. The platform layers AI assistance on top of campaigns, journeys, segmentation, and analytics, and exposes a REST API for contact management, transactional sends, broadcast and bulk triggers, custom event ingestion, and campaign reporting.
 examples:
@@ -268,22 +389,26 @@ jsonld:
   property_count: 0
   slug: mailmodo-context
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: mailmodo-mcp.yml
+  slug: mailmodo-mcpyml
+modified: '2026-08-13'
 name: Mailmodo
 nav: Providers
 network: true
-overview: 'Mailmodo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contact Lists API, Contacts API, and 2 more. Tagged areas include Email, Interactive Email, AMP for Email, Marketing Automation, and Transactional Email.
+overview: 'Mailmodo publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contact Lists API, Contacts API, and 5 more. Tagged areas include Email, Interactive Email, AMP for Email, Marketing Automation, and Transactional Email.
 
 
-  The Mailmodo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Mailmodo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Mailmodo''s developer surface includes authentication, documentation, API reference, support, signup flow, developer portal, developer console, and 19 more developer resources.'
+  Mailmodo''s developer surface includes authentication, documentation, API reference, support, signup flow, developer portal, developer console, and 39 more developer resources.'
 plans:
 - name: Mailmodo Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: mailmodo-plans-pricing
-random_paper: 10
+random_paper: 105
 rate_limits:
 - limit_count: 0
   name: Mailmodo Rate Limits
@@ -306,16 +431,16 @@ rules:
     warn: 3
   slug: mailmodo-rules
 score:
-  band: strong
-  composite: 65.5
-  delta: 0.0
+  band: exemplar
+  composite: 84.1
+  delta: 18.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 73.1
-    developer_ergonomics: 52.2
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 21.1
+    commercial_clarity: 100.0
+    contract_quality: 84.5
+    developer_ergonomics: 91.3
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 44.7
   previous_composite: 65.5
   provenance:
     agentic_access: derived
@@ -325,14 +450,14 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/screenshots/mailmodo-2026-06-20T184904.png
 security:
 - kind: authentication
   name: Mailmodo Authentication
   slug: mailmodo-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Mailmodo Domain Security
   slug: mailmodo-domain-security
@@ -340,7 +465,7 @@ security:
 - kind: trust-center
   name: Mailmodo Trust Center
   slug: mailmodo-trust-center
-  summary_line: SOC 2, GDPR
+  summary_line: SOC 2 Type 2, GDPR
 slug: mailmodo
 solutions:
 - description: Cart recovery, product launches, post-purchase journeys with AMP forms.

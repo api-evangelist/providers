@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,11 +59,35 @@ apis:
 - description: The users API from Greenly — 2 operation(s) for users.
   name: Greenly users API
   slug: greenly-earth-users-api
-artifact_total: 32
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Greenly Carbon Analytics API
   slug: open-greenly-carbon-analytics-api
+- collection_type: open
+  name: Greenly Carbon Analytics alternatives API
+  slug: open-greenly-earth-alternatives-api
+- collection_type: open
+  name: Greenly Carbon Analytics alternatives live API
+  slug: open-greenly-earth-live-api
+- collection_type: open
+  name: Greenly Carbon Analytics alternatives offsetProjects API
+  slug: open-greenly-earth-offsetprojects-api
+- collection_type: open
+  name: Greenly Carbon Analytics alternatives purchaseCategories API
+  slug: open-greenly-earth-purchasecategories-api
+- collection_type: open
+  name: Greenly Carbon Analytics alternatives ready API
+  slug: open-greenly-earth-ready-api
+- collection_type: open
+  name: Greenly Carbon Analytics alternatives transactions API
+  slug: open-greenly-earth-transactions-api
+- collection_type: open
+  name: Greenly Carbon Analytics alternatives users API
+  slug: open-greenly-earth-users-api
 common:
 - group: agent
   title: ''
@@ -308,7 +332,7 @@ overview: 'Greenly publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Greenly''s developer surface includes authentication, developer portal, pricing, documentation, support, engineering blog, tooling, and 45 more developer resources.'
-random_paper: 15
+random_paper: 143
 score:
   band: thin
   composite: 33.3
@@ -335,7 +359,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/screenshots/greenly-earth-2026-06-20T182359.png
 security:

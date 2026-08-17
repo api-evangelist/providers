@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -92,7 +92,65 @@ apis:
 - description: Manage the watchers of a record
   name: Elementum Watchers API
   slug: elementum-watchers-api
-artifact_total: 22
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Elementum Access Token API
+  slug: open-elementum-access-token-api
+- collection_type: open
+  name: Elementum Access Token Agents API
+  slug: open-elementum-agents-api
+- collection_type: open
+  name: Elementum Access Token Apps API
+  slug: open-elementum-apps-api
+- collection_type: open
+  name: Elementum Access Token Attachments API
+  slug: open-elementum-attachments-api
+- collection_type: open
+  name: Elementum Access Token Automations API
+  slug: open-elementum-automations-api
+- collection_type: open
+  name: Elementum Access Token Comments API
+  slug: open-elementum-comments-api
+- collection_type: open
+  name: Elementum Access Token Domains API
+  slug: open-elementum-domains-api
+- collection_type: open
+  name: Elementum Access Token Elements API
+  slug: open-elementum-elements-api
+- collection_type: open
+  name: Elementum Access Token Flows API
+  slug: open-elementum-flows-api
+- collection_type: open
+  name: Elementum Access Token Groups API
+  slug: open-elementum-groups-api
+- collection_type: open
+  name: Elementum Access Token Records API
+  slug: open-elementum-records-api
+- collection_type: open
+  name: Elementum Access Token Related-items API
+  slug: open-elementum-related-items-api
+- collection_type: open
+  name: Elementum Access Token Search Tables API
+  slug: open-elementum-search-tables-api
+- collection_type: open
+  name: Elementum Access Token Skills API
+  slug: open-elementum-skills-api
+- collection_type: open
+  name: Elementum Access Token Tables API
+  slug: open-elementum-tables-api
+- collection_type: open
+  name: Elementum Access Token Users API
+  slug: open-elementum-users-api
+- collection_type: open
+  name: Elementum Access Token Views API
+  slug: open-elementum-views-api
+- collection_type: open
+  name: Elementum Access Token Watchers API
+  slug: open-elementum-watchers-api
 common:
 - group: other
   title: ''
@@ -206,7 +264,7 @@ overview: 'Elementum publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Elementum''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 12
+random_paper: 78
 score:
   band: developing
   composite: 45.4
@@ -230,7 +288,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/screenshots/elementum-2026-07-25T213131.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Read and update the events an Organizer manages. Confirmed request patterns include GET and PATCH on the events collection and nested resources such as /events/{event_id}/images/. Each API key is scop
@@ -104,7 +104,7 @@ plans:
 - name: Eventmobi Plans Pricing
   plan_count: 3
   slug: eventmobi-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Eventmobi Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventmobi/refs/heads/main/screenshots/eventmobi-2026-07-25T213712.png
 security:

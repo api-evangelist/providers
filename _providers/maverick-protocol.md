@@ -27,13 +27,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Latest API from Maverick Protocol — 1 operation(s) for latest.
   name: Maverick Protocol Latest API
   slug: maverick-protocol-latest-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Maverick V2 Data Latest API
+  slug: open-maverick-protocol-latest-api
 common:
 - group: agent
   title: ''
@@ -103,7 +110,7 @@ overview: 'Maverick Protocol publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Maverick Protocol''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 9 more developer resources.'
-random_paper: 97
+random_paper: 138
 score:
   band: thin
   composite: 30.1
@@ -131,7 +138,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/screenshots/maverick-protocol-2026-08-07T172331.png
 security:

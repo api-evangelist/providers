@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,11 +45,15 @@ apis:
 - description: Con Edison's distribution-grid open data, published as anonymously readable Esri ArcGIS REST feature services behind the public Hosting Capacity Map. Con Edison's own documentation states that "REST A
   name: Con Edison Hosting Capacity Map REST API
   slug: con-edison-hosting-capacity-map-rest-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Con Edison Batch Notification Webhooks
   slug: con-edison-batch-notification-webhooks
+collections:
+- collection_type: open
+  name: DCX GBC API V2
+  slug: open-con-edison-green-button-connect-my-data-swagger
 common:
 - group: agent
   title: ''
@@ -164,7 +168,7 @@ overview: 'Con Edison publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Con Edison''s developer surface includes support, documentation, signup flow, authentication, and 19 more developer resources.'
-random_paper: 47
+random_paper: 113
 rate_limits:
 - limit_count: 2
   name: Con Edison Rate Limits
@@ -203,7 +207,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/screenshots/con-edison-2026-08-07T163921.png
 security:

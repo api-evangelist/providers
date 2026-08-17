@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -84,11 +84,44 @@ apis:
 - description: Manage workspaces within tenants
   name: Tetrate Workspaces API
   slug: tetrate-workspaces-api
-artifact_total: 56
+artifact_total: 67
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs API
+  slug: open-tetrate-apis-api
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs Applications API
+  slug: open-tetrate-applications-api
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs Clusters API
+  slug: open-tetrate-clusters-api
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs Gateway Groups API
+  slug: open-tetrate-gateway-groups-api
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs Organizations API
+  slug: open-tetrate-organizations-api
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs RBAC API
+  slug: open-tetrate-rbac-api
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs Security Groups API
+  slug: open-tetrate-security-groups-api
 - collection_type: open
   name: Tetrate Service Bridge REST API
   slug: open-tetrate-service-bridge
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs Tenants API
+  slug: open-tetrate-tenants-api
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs Traffic Groups API
+  slug: open-tetrate-traffic-groups-api
+- collection_type: open
+  name: Tetrate Service Bridge REST APIs Workspaces API
+  slug: open-tetrate-workspaces-api
 common:
 - group: agent
   title: ''
@@ -290,7 +323,7 @@ plans:
 - name: Tetrate Plans Pricing
   plan_count: 2
   slug: tetrate-plans-pricing
-random_paper: 41
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Tetrate Rate Limits
@@ -332,7 +365,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/screenshots/tetrate-2026-06-20T195201.png
 security:

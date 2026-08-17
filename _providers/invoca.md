@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,18 +23,18 @@ agent_readiness:
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
+  score: 43.2
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Invoca's date-versioned REST developer platform covering call transactions, signal reporting, call ingestion, RingPool trackable-number allocation, network integration, and pre-call (PreSense) insight
   name: Invoca API
   slug: invoca-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -128,10 +128,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/invoca-mcp.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/invoca-well-known.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -140,6 +136,42 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/invoca-llms.txt
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.invoca.com/latest-releases
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/invoca-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/invoca-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/invoca-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/invoca-rate-limits.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/invoca-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/invoca-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/invoca-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-17'
 description: Invoca is an AI-powered revenue execution platform that connects marketing and sales teams by tracking and analyzing inbound phone calls across the buying journey. Its call tracking, conversation intelligence, and signal analytics attribute phone conversations back to the paid media, campaigns, and digital touchpoints that drove them, so revenue teams can optimize ad spend and improve buyer experiences. For developers, Invoca publishes a REST developer platform (developers.invoca.net) with date-versioned APIs covering call transactions, signals, call ingestion, RingPool number allocation, network integration, and pre-call insight, authenticated with self-serve Invoca API tokens or HTTP Basic.
 image: https://www.invoca.com/favicon.ico
@@ -148,33 +180,41 @@ mcp_servers:
 - description: ''
   name: invoca-mcp.yml
   slug: invoca-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Invoca
 nav: Providers
 network: true
 overview: 'Invoca publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Call Tracking, Conversation Intelligence, and Marketing.
 
 
-  Invoca''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 40
+  Invoca''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Invoca Plans Pricing
+  plan_count: 3
+  slug: invoca-plans-pricing
+random_paper: 44
+rate_limits:
+- limit_count: 0
+  name: Invoca Rate Limits
+  slug: invoca-rate-limits
 score:
-  band: thin
-  composite: 34.7
-  delta: 0.0
+  band: developing
+  composite: 54.8
+  delta: 20.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 54.3
+    commercial_clarity: 92.1
+    contract_quality: 32.3
+    developer_ergonomics: 67.4
     discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 28.9
+    governance: 11.5
+    operational_transparency: 44.7
   previous_composite: 34.7
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/screenshots/invoca-2026-07-25T222753.png
 security:
 - kind: authentication

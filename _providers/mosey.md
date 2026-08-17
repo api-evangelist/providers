@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -74,7 +74,47 @@ apis:
 - description: The Tasks API from Mosey — 9 operation(s) for tasks.
   name: Mosey Tasks API
   slug: mosey-tasks-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mosey Accounts API
+  slug: open-mosey-accounts-api
+- collection_type: open
+  name: Mosey Accounts Agency Accounts API
+  slug: open-mosey-agency-accounts-api
+- collection_type: open
+  name: Mosey Accounts Auth API
+  slug: open-mosey-auth-api
+- collection_type: open
+  name: Mosey Accounts Documents API
+  slug: open-mosey-documents-api
+- collection_type: open
+  name: Mosey Accounts Handbook API
+  slug: open-mosey-handbook-api
+- collection_type: open
+  name: Mosey Accounts Legal Entity API
+  slug: open-mosey-legal-entity-api
+- collection_type: open
+  name: Mosey Accounts Locations API
+  slug: open-mosey-locations-api
+- collection_type: open
+  name: Mosey Accounts Logins API
+  slug: open-mosey-logins-api
+- collection_type: open
+  name: Mosey Accounts Mail API
+  slug: open-mosey-mail-api
+- collection_type: open
+  name: Mosey Accounts Regions API
+  slug: open-mosey-regions-api
+- collection_type: open
+  name: Mosey Accounts Signup API
+  slug: open-mosey-signup-api
+- collection_type: open
+  name: Mosey Accounts Tasks API
+  slug: open-mosey-tasks-api
 common:
 - group: auth
   title: ''
@@ -180,7 +220,7 @@ overview: 'Mosey publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mosey''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 77
+random_paper: 110
 score:
   band: thin
   composite: 37.8
@@ -204,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/screenshots/mosey-2026-08-07T184318.png
 security:

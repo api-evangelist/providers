@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ arazzos:
 - description: Look up an Airflow variable and update it if it exists, otherwise create it, then read the result back.
   name: Apache Airflow Upsert a Variable
   slug: apache-airflow-upsert-variable-workflow
-artifact_total: 283
+artifact_total: 302
 collections:
 - collection_type: postman
   name: Airflow API (Stable) Config API
@@ -192,6 +192,63 @@ collections:
 - collection_type: postman
   name: Airflow API (Stable) Config XCom API
   slug: postman-apache-airflow-xcom-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airflow API (Stable) Config API
+  slug: open-apache-airflow-config-api
+- collection_type: open
+  name: Airflow API (Stable) Config Connection API
+  slug: open-apache-airflow-connection-api
+- collection_type: open
+  name: Airflow API (Stable) Config DAG API
+  slug: open-apache-airflow-dag-api
+- collection_type: open
+  name: Airflow API (Stable) Config DAGRun API
+  slug: open-apache-airflow-dagrun-api
+- collection_type: open
+  name: Airflow API (Stable) Config DagWarning API
+  slug: open-apache-airflow-dagwarning-api
+- collection_type: open
+  name: Airflow API (Stable) Config Dataset API
+  slug: open-apache-airflow-dataset-api
+- collection_type: open
+  name: Airflow API (Stable) Config EventLog API
+  slug: open-apache-airflow-eventlog-api
+- collection_type: open
+  name: Airflow API (Stable) Config ImportError API
+  slug: open-apache-airflow-importerror-api
+- collection_type: open
+  name: Airflow API (Stable) Config Monitoring API
+  slug: open-apache-airflow-monitoring-api
+- collection_type: open
+  name: Airflow API (Stable) Config Permission API
+  slug: open-apache-airflow-permission-api
+- collection_type: open
+  name: Airflow API (Stable) Config Plugin API
+  slug: open-apache-airflow-plugin-api
+- collection_type: open
+  name: Airflow API (Stable) Config Pool API
+  slug: open-apache-airflow-pool-api
+- collection_type: open
+  name: Airflow API (Stable) Config Provider API
+  slug: open-apache-airflow-provider-api
+- collection_type: open
+  name: Airflow API (Stable) Config Role API
+  slug: open-apache-airflow-role-api
+- collection_type: open
+  name: Airflow API (Stable) Config TaskInstance API
+  slug: open-apache-airflow-taskinstance-api
+- collection_type: open
+  name: Airflow API (Stable) Config User API
+  slug: open-apache-airflow-user-api
+- collection_type: open
+  name: Airflow API (Stable) Config Variable API
+  slug: open-apache-airflow-variable-api
+- collection_type: open
+  name: Airflow API (Stable) Config XCom API
+  slug: open-apache-airflow-xcom-api
 common:
 - group: other
   title: ''
@@ -1060,7 +1117,7 @@ plans:
 - name: Apache Airflow Plans Pricing
   plan_count: 3
   slug: apache-airflow-plans-pricing
-random_paper: 91
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Apache Airflow Rate Limits
@@ -1104,7 +1161,7 @@ score:
       total: 18
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/screenshots/apache-airflow-2026-06-20T172038.png
 security:

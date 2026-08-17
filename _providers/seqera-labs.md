@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 28
 apis:
 - description: Pipeline actions
@@ -115,7 +115,95 @@ apis:
 - description: Workspaces in an organization context
   name: Seqera Labs workspaces API
   slug: seqera-labs-workspaces-api
-artifact_total: 33
+artifact_total: 62
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Seqera actions API
+  slug: open-seqera-labs-actions-api
+- collection_type: open
+  name: Seqera actions admin API
+  slug: open-seqera-labs-admin-api
+- collection_type: open
+  name: Seqera actions agents API
+  slug: open-seqera-labs-agents-api
+- collection_type: open
+  name: Seqera actions avatars API
+  slug: open-seqera-labs-avatars-api
+- collection_type: open
+  name: Seqera actions compute-envs API
+  slug: open-seqera-labs-compute-envs-api
+- collection_type: open
+  name: Seqera actions credentials API
+  slug: open-seqera-labs-credentials-api
+- collection_type: open
+  name: Seqera actions data-links API
+  slug: open-seqera-labs-data-links-api
+- collection_type: open
+  name: Seqera actions datasets API
+  slug: open-seqera-labs-datasets-api
+- collection_type: open
+  name: Seqera actions ga4gh API
+  slug: open-seqera-labs-ga4gh-api
+- collection_type: open
+  name: Seqera actions identities API
+  slug: open-seqera-labs-identities-api
+- collection_type: open
+  name: Seqera actions labels API
+  slug: open-seqera-labs-labels-api
+- collection_type: open
+  name: Seqera actions launch API
+  slug: open-seqera-labs-launch-api
+- collection_type: open
+  name: Seqera actions orgs API
+  slug: open-seqera-labs-orgs-api
+- collection_type: open
+  name: Seqera actions pipeline-schemas API
+  slug: open-seqera-labs-pipeline-schemas-api
+- collection_type: open
+  name: Seqera actions pipeline-secrets API
+  slug: open-seqera-labs-pipeline-secrets-api
+- collection_type: open
+  name: Seqera actions pipeline-versions API
+  slug: open-seqera-labs-pipeline-versions-api
+- collection_type: open
+  name: Seqera actions pipelines API
+  slug: open-seqera-labs-pipelines-api
+- collection_type: open
+  name: Seqera actions platforms API
+  slug: open-seqera-labs-platforms-api
+- collection_type: open
+  name: Seqera actions roles API
+  slug: open-seqera-labs-roles-api
+- collection_type: open
+  name: Seqera actions service-info API
+  slug: open-seqera-labs-service-info-api
+- collection_type: open
+  name: Seqera actions ssh-keys API
+  slug: open-seqera-labs-ssh-keys-api
+- collection_type: open
+  name: Seqera actions studios API
+  slug: open-seqera-labs-studios-api
+- collection_type: open
+  name: Seqera actions teams API
+  slug: open-seqera-labs-teams-api
+- collection_type: open
+  name: Seqera actions tokens API
+  slug: open-seqera-labs-tokens-api
+- collection_type: open
+  name: Seqera actions trace API
+  slug: open-seqera-labs-trace-api
+- collection_type: open
+  name: Seqera actions users API
+  slug: open-seqera-labs-users-api
+- collection_type: open
+  name: Seqera actions workflows API
+  slug: open-seqera-labs-workflows-api
+- collection_type: open
+  name: Seqera actions workspaces API
+  slug: open-seqera-labs-workspaces-api
 common:
 - group: other
   title: ''
@@ -265,7 +353,7 @@ overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
-random_paper: 24
+random_paper: 61
 score:
   band: developing
   composite: 52.5
@@ -294,7 +382,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

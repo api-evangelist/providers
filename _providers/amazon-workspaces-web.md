@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The UserSettings API from Amazon WorkSpaces Web — 2 operation(s) for usersettings.
   name: Amazon WorkSpaces Web UserSettings API
   slug: amazon-workspaces-web-usersettings-api
-artifact_total: 513
+artifact_total: 524
 collections:
 - collection_type: postman
   name: Amazon WorkSpaces Web BrowserSettings API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: Amazon WorkSpaces Web BrowserSettings UserSettings API
   slug: postman-amazon-workspaces-web-usersettings-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings API
+  slug: open-amazon-workspaces-web-browsersettings-api
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings IdentityProviders API
+  slug: open-amazon-workspaces-web-identityproviders-api
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings IpAccessSettings API
+  slug: open-amazon-workspaces-web-ipaccesssettings-api
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings NetworkSettings API
+  slug: open-amazon-workspaces-web-networksettings-api
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings PortalIdp API
+  slug: open-amazon-workspaces-web-portalidp-api
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings Portals API
+  slug: open-amazon-workspaces-web-portals-api
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings Tags API
+  slug: open-amazon-workspaces-web-tags-api
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings TrustStores API
+  slug: open-amazon-workspaces-web-truststores-api
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings UserAccessLoggingSettings API
+  slug: open-amazon-workspaces-web-useraccessloggingsettings-api
+- collection_type: open
+  name: Amazon WorkSpaces Web BrowserSettings UserSettings API
+  slug: open-amazon-workspaces-web-usersettings-api
 common:
 - group: build
   title: ''
@@ -1637,7 +1670,7 @@ plans:
 - name: Amazon Workspaces Web Plans Pricing
   plan_count: 3
   slug: amazon-workspaces-web-plans-pricing
-random_paper: 104
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Amazon Workspaces Web Rate Limits
@@ -1679,7 +1712,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/screenshots/amazon-workspaces-web-2026-06-20T171850.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -56,11 +56,33 @@ apis:
 - description: List resources filtering and sorting them as needed.
   name: GetPaid Queries API
   slug: getpaid-queries-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Getpaid Webhooks
   slug: getpaid-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Getpaid Accounts API
+  slug: open-getpaid-accounts-api
+- collection_type: open
+  name: Getpaid Accounts Applications API
+  slug: open-getpaid-applications-api
+- collection_type: open
+  name: Getpaid Accounts Authentication API
+  slug: open-getpaid-authentication-api
+- collection_type: open
+  name: Getpaid Accounts Checkouts API
+  slug: open-getpaid-checkouts-api
+- collection_type: open
+  name: Getpaid Accounts Payments API
+  slug: open-getpaid-payments-api
+- collection_type: open
+  name: Getpaid Accounts Queries API
+  slug: open-getpaid-queries-api
 common:
 - group: other
   title: ''
@@ -189,7 +211,7 @@ overview: 'GetPaid publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GetPaid''s developer surface includes documentation, API reference, quickstart, signup flow, support, changelog, authentication, and 20 more developer resources.'
-random_paper: 14
+random_paper: 138
 scopes:
 - name: Getpaid Scopes
   scope_count: 4
@@ -224,7 +246,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/screenshots/getpaid-2026-07-25T215736.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -90,7 +90,56 @@ apis:
 - description: The Tickets API from Politecnico di Torino — 10 operation(s) for tickets.
   name: Politecnico di Torino Tickets API
   slug: politecnico-di-torino-tickets-api
-artifact_total: 35
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Polito Faculty Announcements API
+  slug: open-politecnico-di-torino-announcements-api
+- collection_type: open
+  name: Polito Faculty Announcements Auth API
+  slug: open-politecnico-di-torino-auth-api
+- collection_type: open
+  name: Polito Faculty Announcements Bookings API
+  slug: open-politecnico-di-torino-bookings-api
+- collection_type: open
+  name: Polito Faculty Announcements Courses API
+  slug: open-politecnico-di-torino-courses-api
+- collection_type: open
+  name: Polito Faculty Announcements Esc API
+  slug: open-politecnico-di-torino-esc-api
+- collection_type: open
+  name: Polito Faculty Announcements Exams API
+  slug: open-politecnico-di-torino-exams-api
+- collection_type: open
+  name: Polito Faculty Announcements Job offers API
+  slug: open-politecnico-di-torino-job-offers-api
+- collection_type: open
+  name: Polito Faculty Announcements Lectures API
+  slug: open-politecnico-di-torino-lectures-api
+- collection_type: open
+  name: Polito Faculty Announcements News API
+  slug: open-politecnico-di-torino-news-api
+- collection_type: open
+  name: Polito Faculty Announcements Offering API
+  slug: open-politecnico-di-torino-offering-api
+- collection_type: open
+  name: Polito Faculty Announcements People API
+  slug: open-politecnico-di-torino-people-api
+- collection_type: open
+  name: Polito Faculty Announcements Places API
+  slug: open-politecnico-di-torino-places-api
+- collection_type: open
+  name: Polito Faculty Announcements Student API
+  slug: open-politecnico-di-torino-student-api
+- collection_type: open
+  name: Polito Faculty Announcements Surveys API
+  slug: open-politecnico-di-torino-surveys-api
+- collection_type: open
+  name: Polito Faculty Announcements Tickets API
+  slug: open-politecnico-di-torino-tickets-api
 common:
 - group: commercial
   title: ''
@@ -202,7 +251,7 @@ plans:
 - name: Politecnico Di Torino Plans Pricing
   plan_count: 2
   slug: politecnico-di-torino-plans-pricing
-random_paper: 99
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Politecnico Di Torino Rate Limits
@@ -250,7 +299,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/screenshots/politecnico-di-torino-2026-06-20T191855.png
 security:

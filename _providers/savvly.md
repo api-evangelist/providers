@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,7 +37,20 @@ apis:
 - description: The Projections API from Savvly — 4 operation(s) for projections.
   name: Savvly Projections API
   slug: savvly-projections-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Savvly Public Comparisons API
+  slug: open-savvly-comparisons-api
+- collection_type: open
+  name: Savvly Public Comparisons Product API
+  slug: open-savvly-product-api
+- collection_type: open
+  name: Savvly Public Comparisons Projections API
+  slug: open-savvly-projections-api
 common:
 - group: agent
   title: ''
@@ -71,7 +84,7 @@ name: Savvly
 nav: Providers
 network: true
 overview: 'Savvly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Comparisons API, Product API, and Projections API. Tagged areas include Company.'
-random_paper: 77
+random_paper: 81
 score:
   band: emerging
   composite: 20.9
@@ -95,7 +108,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

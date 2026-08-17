@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -136,14 +136,74 @@ arazzos:
 - description: Create a build on a pipeline, then poll until it reaches a terminal state.
   name: Buildkite Trigger And Poll Build
   slug: buildkite-com-trigger-and-poll-build-workflow
-artifact_total: 97
+artifact_total: 117
 collections:
 - collection_type: postman
   name: Buildkite REST API
   slug: postman-buildkite-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Buildkite Agent API
   slug: open-buildkite-agent-api
+- collection_type: open
+  name: Buildkite Agent Access Token API
+  slug: open-buildkite-com-access-token-api
+- collection_type: open
+  name: Buildkite Agent Access Token Agent Tokens API
+  slug: open-buildkite-com-agent-tokens-api
+- collection_type: open
+  name: Buildkite Agent Access Token Agents API
+  slug: open-buildkite-com-agents-api
+- collection_type: open
+  name: Buildkite Agent Access Token Annotations API
+  slug: open-buildkite-com-annotations-api
+- collection_type: open
+  name: Buildkite Agent Access Token Artifacts API
+  slug: open-buildkite-com-artifacts-api
+- collection_type: open
+  name: Buildkite Agent Access Token Builds API
+  slug: open-buildkite-com-builds-api
+- collection_type: open
+  name: Buildkite Agent Access Token Clusters API
+  slug: open-buildkite-com-clusters-api
+- collection_type: open
+  name: Buildkite Agent Access Token Emojis API
+  slug: open-buildkite-com-emojis-api
+- collection_type: open
+  name: Buildkite Agent Access Token Jobs API
+  slug: open-buildkite-com-jobs-api
+- collection_type: open
+  name: Buildkite Agent Access Token Meta API
+  slug: open-buildkite-com-meta-api
+- collection_type: open
+  name: Buildkite Agent Access Token Metrics API
+  slug: open-buildkite-com-metrics-api
+- collection_type: open
+  name: Buildkite Agent Access Token Organizations API
+  slug: open-buildkite-com-organizations-api
+- collection_type: open
+  name: Buildkite Agent Access Token Pipeline Templates API
+  slug: open-buildkite-com-pipeline-templates-api
+- collection_type: open
+  name: Buildkite Agent Access Token Pipelines API
+  slug: open-buildkite-com-pipelines-api
+- collection_type: open
+  name: Buildkite Agent Access Token Queues API
+  slug: open-buildkite-com-queues-api
+- collection_type: open
+  name: Buildkite Agent Access Token Rules API
+  slug: open-buildkite-com-rules-api
+- collection_type: open
+  name: Buildkite Agent Access Token Stacks API
+  slug: open-buildkite-com-stacks-api
+- collection_type: open
+  name: Buildkite Agent Access Token Teams API
+  slug: open-buildkite-com-teams-api
+- collection_type: open
+  name: Buildkite Agent Access Token User API
+  slug: open-buildkite-com-user-api
 - collection_type: open
   name: Buildkite REST API
   slug: open-buildkite-rest-api
@@ -504,7 +564,7 @@ plans:
 - name: Buildkite Com Plans Pricing
   plan_count: 4
   slug: buildkite-com-plans-pricing
-random_paper: 1
+random_paper: 129
 rate_limits:
 - limit_count: 0
   name: Buildkite Com Rate Limits
@@ -553,7 +613,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:

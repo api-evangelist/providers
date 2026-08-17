@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Noise & Vibration Technologies
 nav: Providers
 network: true
 overview: Noise & Vibration Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test and Measurement, Vibration Testing, Noise, and Instrumentation.
-random_paper: 2
+random_paper: 113
 score:
   band: minimal
   composite: 5.0
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noise-and-vibration-technologies/refs/heads/main/screenshots/noise-and-vibration-technologies-2026-08-07T185436.png
 slug: noise-and-vibration-technologies

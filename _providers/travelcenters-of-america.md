@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Work order management for TA Truck Service
   name: TravelCenters of America Truck Service API
   slug: travelcenters-of-america-truck-service-api
-artifact_total: 20
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TravelCenters of America Fuel Codes API
+  slug: open-travelcenters-of-america-fuel-codes-api
+- collection_type: open
+  name: TravelCenters of America Fuel Codes Locations API
+  slug: open-travelcenters-of-america-locations-api
+- collection_type: open
+  name: TravelCenters of America Fuel Codes Parking API
+  slug: open-travelcenters-of-america-parking-api
+- collection_type: open
+  name: TravelCenters of America Fuel Codes Pricing API
+  slug: open-travelcenters-of-america-pricing-api
+- collection_type: open
+  name: TravelCenters of America Fuel Codes Showers API
+  slug: open-travelcenters-of-america-showers-api
+- collection_type: open
+  name: TravelCenters of America Fuel Codes Truck Service API
+  slug: open-travelcenters-of-america-truck-service-api
 - collection_type: open
   name: TravelCenters of America API
   slug: open-travelcenters-of-america
@@ -154,7 +175,7 @@ press:
 - date: '2026-05-25'
   title: TravelCenters of America and NATSO Foundation Work to ...
   url: https://www.prnewswire.com/news-releases/travelcenters-of-america-and-natso-foundation-work-to-enhance-safety-for-roadside-service-technicians-302112405.html
-random_paper: 35
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Travelcenters Of America Rate Limits
@@ -196,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/screenshots/travelcenters-of-america-2026-06-20T195634.png
 security:

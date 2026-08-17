@@ -16,19 +16,19 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-12'
+  score: 14.9
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Server-side API for sending advertiser conversion events (Purchase, AddToCart, Lead, ViewContent, etc.) to Teads for measurement and optimization, using a Conversion API Token generated in Teads Ad Ma
@@ -37,7 +37,7 @@ apis:
 - description: V2.0 REST API that lets chatbot and LLM publishers programmatically retrieve contextually relevant sponsored and organic ad recommendations and inject them into conversational interfaces, authenticate
   name: Teads In-Chat API
   slug: teads-in-chat-api
-artifact_total: 6
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -73,12 +73,40 @@ common:
   url: conventions/teads-conventions.yml
 - group: agent
   title: ''
-  type: MCPServer
-  url: mcp/teads-mcp.yml
-- group: agent
-  title: ''
   type: LLMsTxt
   url: llms/teads-llms.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/teads-security.txt
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/teads-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/teads-trust-center.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/teads-sandbox.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/teads-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/teads-plans-pricing.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/teads-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/teads-data-model.yml
 - group: design
   title: ''
   type: Lifecycle
@@ -103,6 +131,14 @@ common:
   title: ''
   type: Documentation
   url: https://developers.teads.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.teads.com/docs/Chatbot-AI-SDK/Getting-Started/integration-guide/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.teads.com/docs/Chatbot-AI-SDK/Getting-Started/
 - group: company
   title: ''
   type: Website
@@ -119,32 +155,48 @@ common:
   title: ''
   type: Blog
   url: https://www.teads.com/blog/
+- group: start
+  title: ''
+  type: Login
+  url: https://login.teads.tv/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.teads.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.teads.com/privacy-policy/
 created: '2026-07-17'
 description: Teads is an omnichannel advertising technology platform (combined with Outbrain since 2024) that helps brands reach audiences across video, display, CTV, and conversational surfaces on 10,000+ premium publisher properties in 50+ markets. For developers and advertisers Teads exposes a server-side Conversions API for privacy-safe conversion event delivery, an In-Chat Recommendations API (V2.0) for injecting contextual ad recommendations into chatbots and LLM experiences, and first-party mobile ad SDKs for iOS, Android, React Native, and Flutter used to build premium outstream inventory inside apps. This profile catalogs those developer-facing surfaces for API discovery.
 image: https://www.teads.com/wp-content/themes/teads/assets/img/teads-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: teads-mcp.yml
-  slug: teads-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Teads
 nav: Providers
 network: true
 overview: 'Teads publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Advertising Technology, and Video Advertising.
 
 
-  Teads'' developer surface includes authentication, changelog, documentation, support, engineering blog, and 15 more developer resources.'
-random_paper: 49
+  Teads'' developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 25 more developer resources.'
+plans:
+- name: Teads Plans Pricing
+  plan_count: 0
+  slug: teads-plans-pricing
+random_paper: 82
+rate_limits:
+- limit_count: 0
+  name: Teads Rate Limits
+  slug: teads-rate-limits
 score:
-  band: emerging
-  composite: 21.8
-  delta: 0.0
+  band: thin
+  composite: 37.2
+  delta: 15.4
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 43.5
-    discoverability: 75.9
+    developer_ergonomics: 65.2
+    discoverability: 87.0
     governance: 3.1
     operational_transparency: 39.5
   previous_composite: 21.8
@@ -152,8 +204,8 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Teads Authentication
@@ -167,6 +219,10 @@ security:
   name: Teads Vulnerability Disclosure
   slug: teads-vulnerability-disclosure
   summary_line: Hackerone
+- kind: trust-center
+  name: Teads Trust Center
+  slug: teads-trust-center
+  summary_line: SOX (Sarbanes-Oxley), unnamed security accreditations
 slug: teads
 tags:
 - Company

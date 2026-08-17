@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Official Carbon Intensity API for Great Britain developed by National Grid
@@ -52,7 +52,7 @@ name: UK Carbon Intensity
 nav: Providers
 network: true
 overview: UK Carbon Intensity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 22
+random_paper: 5
 score:
   band: minimal
   composite: 5.7
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uk-carbon-intensity/refs/heads/main/screenshots/uk-carbon-intensity-2026-06-20T200001.png
 slug: uk-carbon-intensity

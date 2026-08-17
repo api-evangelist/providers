@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Shows within a network, including feed and monetization settings.
   name: Megaphone Podcasts API
   slug: megaphone-podcasts-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Megaphone Campaigns API
+  slug: open-megaphone-campaigns-api
+- collection_type: open
+  name: Megaphone Campaigns Direct Sales v2 API
+  slug: open-megaphone-direct-sales-v2-api
+- collection_type: open
+  name: Megaphone Campaigns Episodes API
+  slug: open-megaphone-episodes-api
+- collection_type: open
+  name: Megaphone Campaigns Exports API
+  slug: open-megaphone-exports-api
+- collection_type: open
+  name: Megaphone Campaigns Networks API
+  slug: open-megaphone-networks-api
+- collection_type: open
+  name: Megaphone Campaigns Orders API
+  slug: open-megaphone-orders-api
+- collection_type: open
+  name: Megaphone Campaigns Podcasts API
+  slug: open-megaphone-podcasts-api
 - collection_type: open
   name: Megaphone API
   slug: open-megaphone
@@ -134,7 +158,7 @@ plans:
 - name: Megaphone Plans Pricing
   plan_count: 2
   slug: megaphone-plans-pricing
-random_paper: 108
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Megaphone Rate Limits
@@ -159,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/screenshots/megaphone-2026-08-07T172429.png
 security:

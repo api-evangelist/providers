@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,8 +72,29 @@ apis:
 - description: The Ws API from OpenWallet Foundation — 1 operation(s) for ws.
   name: OpenWallet Foundation Ws API
   slug: openwallet-foundation-ws-api
-artifact_total: 18
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ACA-Py Admin Basicmessages API
+  slug: open-openwallet-foundation-basicmessages-api
+- collection_type: open
+  name: ACA-Py Admin Basicmessages Connections API
+  slug: open-openwallet-foundation-connections-api
+- collection_type: open
+  name: ACA-Py Admin Basicmessages Forward API
+  slug: open-openwallet-foundation-forward-api
+- collection_type: open
+  name: ACA-Py Admin Basicmessages Issue Credential API
+  slug: open-openwallet-foundation-issue-credential-api
+- collection_type: open
+  name: ACA-Py Admin Basicmessages Present Proof API
+  slug: open-openwallet-foundation-present-proof-api
+- collection_type: open
+  name: ACA-Py Admin Basicmessages Ws API
+  slug: open-openwallet-foundation-ws-api
 - collection_type: open
   name: ACA-Py Admin API
   slug: open-openwallet-foundation
@@ -158,7 +179,7 @@ plans:
 - name: Openwallet Foundation Plans Pricing
   plan_count: 3
   slug: openwallet-foundation-plans-pricing
-random_paper: 47
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Openwallet Foundation Rate Limits
@@ -189,7 +210,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/screenshots/openwallet-foundation-2026-06-20T191051.png
 security:

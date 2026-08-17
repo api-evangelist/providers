@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Read and write translations and their states.
   name: Tolgee Translations API
   slug: tolgee-translations-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tolgee API Keys API
+  slug: open-tolgee-api-keys-api
+- collection_type: open
+  name: Tolgee API Keys Import/Export API
+  slug: open-tolgee-import-export-api
+- collection_type: open
+  name: Tolgee API Keys API
+  slug: open-tolgee-keys-api
+- collection_type: open
+  name: Tolgee API Keys Languages API
+  slug: open-tolgee-languages-api
+- collection_type: open
+  name: Tolgee API Keys Projects API
+  slug: open-tolgee-projects-api
+- collection_type: open
+  name: Tolgee API Keys Screenshots API
+  slug: open-tolgee-screenshots-api
+- collection_type: open
+  name: Tolgee API Keys Translations API
+  slug: open-tolgee-translations-api
 - collection_type: open
   name: Tolgee API
   slug: open-tolgee
@@ -130,7 +154,7 @@ plans:
 - name: Tolgee Plans Pricing
   plan_count: 6
   slug: tolgee-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Tolgee Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

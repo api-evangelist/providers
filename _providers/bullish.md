@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 3
@@ -125,7 +125,7 @@ apis:
 - description: Authenticated API for initiating asset transfers between trading accounts.
   name: Bullish Transfer API
   slug: bullish-transfer-api
-artifact_total: 45
+artifact_total: 70
 asyncapis:
 - description: 'The Auction Feed provides real-time auction data for markets with auctions enabled. Two topics are available: - `noii` - Net Order Imbalance Indicator (NOII) updates. Available during the Lockdown pha'
   name: Auction Feed
@@ -145,6 +145,82 @@ asyncapis:
 - description: This allows simultaneous trade subscriptions to multiple markets. Additionally, instead of sending trades one by one, trades are sent in batches. Upon subscribing to a market, the client will first re
   name: Anonymous Trades
   slug: bullish-ws-trades-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bullish Trading Account Assets API
+  slug: open-bullish-account-assets-api
+- collection_type: open
+  name: Bullish Trading Amm Instructions API
+  slug: open-bullish-amm-instructions-api
+- collection_type: open
+  name: Bullish Trading Asset Data API
+  slug: open-bullish-asset-data-api
+- collection_type: open
+  name: Bullish Trading Auction Public API
+  slug: open-bullish-auction-public-api
+- collection_type: open
+  name: Bullish Trading command entry API
+  slug: open-bullish-command-entry-api
+- collection_type: open
+  name: Bullish Trading Custody API
+  slug: open-bullish-custody-api
+- collection_type: open
+  name: Bullish Features Deprecated API
+  slug: open-bullish-deprecated-api
+- collection_type: open
+  name: Bullish Deprecated Features deprecated - q3 2024 API
+  slug: open-bullish-deprecated-q3-2024-api
+- collection_type: open
+  name: Bullish Trading Derivatives API
+  slug: open-bullish-derivatives-api
+- collection_type: open
+  name: Bullish Trading Derivatives Public API
+  slug: open-bullish-derivatives-public-api
+- collection_type: open
+  name: Bullish Trading General API
+  slug: open-bullish-general-api
+- collection_type: open
+  name: Bullish Trading History API
+  slug: open-bullish-history-api
+- collection_type: open
+  name: Bullish Trading Idb API
+  slug: open-bullish-idb-api
+- collection_type: open
+  name: Bullish Trading Index Price Data API
+  slug: open-bullish-index-price-data-api
+- collection_type: open
+  name: Bullish Trading Market Data API
+  slug: open-bullish-market-data-api
+- collection_type: open
+  name: Bullish Trading Market History Data API
+  slug: open-bullish-market-history-data-api
+- collection_type: open
+  name: Bullish Trading Market Maker Protection API
+  slug: open-bullish-market-maker-protection-api
+- collection_type: open
+  name: Bullish Trading Orders API
+  slug: open-bullish-orders-api
+- collection_type: open
+  name: Bullish Trading Otc API
+  slug: open-bullish-otc-api
+- collection_type: open
+  name: Bullish Trading Portfolio Margin Simulator API
+  slug: open-bullish-portfolio-margin-simulator-api
+- collection_type: open
+  name: Bullish Trading Session Management API
+  slug: open-bullish-session-management-api
+- collection_type: open
+  name: Bullish Trading Trades API
+  slug: open-bullish-trades-api
+- collection_type: open
+  name: Bullish Trading Trading Accounts API
+  slug: open-bullish-trading-accounts-api
+- collection_type: open
+  name: Bullish Trading Transfer API
+  slug: open-bullish-transfer-api
 common:
 - group: agent
   title: ''
@@ -322,7 +398,7 @@ overview: 'Bullish publishes 30 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bullish''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 32 more developer resources.'
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Bullish Rate Limits
@@ -356,7 +432,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

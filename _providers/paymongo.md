@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -69,7 +69,7 @@ apis:
 - description: The Webhooks API from PayMongo — 4 operation(s) for webhooks.
   name: PayMongo Webhooks API
   slug: paymongo-webhooks-api
-artifact_total: 30
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Paymongo Webhooks
@@ -105,6 +105,39 @@ collections:
 - collection_type: postman
   name: PayMongo Checkout Sessions Webhooks API
   slug: postman-paymongo-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PayMongo Checkout Sessions API
+  slug: open-paymongo-checkout-sessions-api
+- collection_type: open
+  name: PayMongo Checkout Sessions Customers API
+  slug: open-paymongo-customers-api
+- collection_type: open
+  name: PayMongo Checkout Sessions Payment Intents API
+  slug: open-paymongo-payment-intents-api
+- collection_type: open
+  name: PayMongo Checkout Sessions Payment Links API
+  slug: open-paymongo-payment-links-api
+- collection_type: open
+  name: PayMongo Checkout Sessions Payment Methods API
+  slug: open-paymongo-payment-methods-api
+- collection_type: open
+  name: PayMongo Checkout Sessions Payments API
+  slug: open-paymongo-payments-api
+- collection_type: open
+  name: PayMongo Checkout Sessions QR Ph API
+  slug: open-paymongo-qr-ph-api
+- collection_type: open
+  name: PayMongo Checkout Sessions Refunds API
+  slug: open-paymongo-refunds-api
+- collection_type: open
+  name: PayMongo Checkout Sessions Sources API
+  slug: open-paymongo-sources-api
+- collection_type: open
+  name: PayMongo Checkout Sessions Webhooks API
+  slug: open-paymongo-webhooks-api
 common:
 - group: build
   title: ''
@@ -301,7 +334,7 @@ plans:
 - name: Paymongo Plans Pricing
   plan_count: 4
   slug: paymongo-plans-pricing
-random_paper: 34
+random_paper: 129
 rate_limits:
 - limit_count: 2
   name: Paymongo Rate Limits
@@ -335,7 +368,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/screenshots/paymongo-2026-08-07T191645.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: The Timestags API from The New York Times — 1 operation(s) for timestags.
   name: The New York Times Timestags API
   slug: the-new-york-times-timestags-api
-artifact_total: 22
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The New York Times Archive API
+  slug: open-the-new-york-times-archive-api
+- collection_type: open
+  name: The New York Times Archive Content API
+  slug: open-the-new-york-times-content-api
+- collection_type: open
+  name: The New York Times Archive Movies API
+  slug: open-the-new-york-times-movies-api
+- collection_type: open
+  name: The New York Times Archive Name API
+  slug: open-the-new-york-times-name-api
+- collection_type: open
+  name: The New York Times Archive Search API
+  slug: open-the-new-york-times-search-api
+- collection_type: open
+  name: The New York Times Archive Stories API
+  slug: open-the-new-york-times-stories-api
+- collection_type: open
+  name: The New York Times Archive Timestags API
+  slug: open-the-new-york-times-timestags-api
 common:
 - group: agent
   title: ''
@@ -196,7 +221,7 @@ plans:
 - name: The New York Times Plans Pricing
   plan_count: 2
   slug: the-new-york-times-plans-pricing
-random_paper: 105
+random_paper: 146
 rate_limits:
 - limit_count: 1
   name: The New York Times Rate Limits
@@ -238,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/screenshots/the-new-york-times-2026-06-20T195228.png
 security:

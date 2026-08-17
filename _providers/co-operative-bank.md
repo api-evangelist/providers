@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,11 @@ apis:
 - description: Public, unauthenticated OBIE Open Data reference data (ATMs, Branches, Personal & Business Current Accounts, Unsecured SME Loans, Commercial Credit Cards). Represented here against the shared OBIE Ope
   name: The Co-operative Bank Open Data API (OBIE standard)
   slug: open-data-api
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-open-data-api-standard-swagger
 common:
 - group: auth
   title: ''
@@ -174,7 +178,7 @@ overview: 'The Co-operative Bank publishes 1 API on the [APIs.io](https://apis.i
 
 
   The Co-operative Bank''s developer surface includes documentation, getting-started guide, authentication, sandbox, support, signup flow, and 21 more developer resources.'
-random_paper: 7
+random_paper: 48
 scopes:
 - name: Co Operative Bank Scopes
   scope_count: 6
@@ -207,7 +211,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/screenshots/co-operative-bank-2026-07-25T205806.png
 security:

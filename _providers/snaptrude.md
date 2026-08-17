@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Client-side JavaScript/TypeScript Plugin API (the `snaptrude` global namespace) for extending the Snaptrude platform. Organized by namespace — Core, Design, Entity, Program, Presentation, Analysis — p
@@ -132,7 +132,7 @@ overview: 'Snaptrude publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Snaptrude''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 14 more developer resources.'
-random_paper: 22
+random_paper: 88
 score:
   band: thin
   composite: 28.0
@@ -146,7 +146,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

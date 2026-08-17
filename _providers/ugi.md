@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: UGI International manages LPG and natural gas distribution operations across Europe, primarily through Flaga, AvantiGas, and other regional brands serving 17 European countries with liquid petroleum g
@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: 'Press Release: UGI Selects IntelliShift for Vehicle AI Video ...'
   url: https://intellishift.com/resources/blog/press-release-ugi-selects-intellishift-for-vehicle-ai-video-deployment/
-random_paper: 85
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Ugi Rate Limits
@@ -138,7 +138,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ugi/refs/heads/main/screenshots/ugi-2026-06-20T195955.png
 security:

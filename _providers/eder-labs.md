@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,7 +49,23 @@ apis:
 - description: User (memory namespace) lifecycle
   name: Eder Labs Users API
   slug: eder-labs-users-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Persona Ingestion API
+  slug: open-eder-labs-ingestion-api
+- collection_type: open
+  name: Persona Ingestion Meta API
+  slug: open-eder-labs-meta-api
+- collection_type: open
+  name: Persona Ingestion Query API
+  slug: open-eder-labs-query-api
+- collection_type: open
+  name: Persona Ingestion Users API
+  slug: open-eder-labs-users-api
 common:
 - group: agent
   title: ''
@@ -115,7 +131,7 @@ overview: 'Eder Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Eder Labs'' developer surface includes documentation, getting-started guide, GitHub presence, support, and 8 more developer resources.'
-random_paper: 39
+random_paper: 134
 score:
   band: thin
   composite: 31.9
@@ -139,7 +155,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/screenshots/eder-labs-2026-07-25T212819.png
 security:

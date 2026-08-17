@@ -14,7 +14,7 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-12'
+  score: 23.0
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 4
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -50,7 +50,15 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://innovaccer.com/blog
+  url: https://innovaccer.com/blogs
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.innovaccer.com
+- group: start
+  title: ''
+  type: Login
+  url: https://nucleus.innovaccer.com/login
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -99,6 +107,34 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/innovaccer-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/innovaccer-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/innovaccer-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/innovaccer-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/innovaccer-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/innovaccer-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/innovaccer-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/innovaccer-rate-limits.yml
 created: '2026-07-17'
 description: Innovaccer is a healthcare AI cloud company whose FHIR-enabled Data Activation Platform unifies fragmented patient and clinical data across EHRs, claims, and other sources into a longitudinal record that powers population health, care management, analytics, and agentic healthcare applications. The company is HITRUST CSF certified and publishes open-source developer surfaces including the Masala Design System (a React component library) and the Healthcare Model Context Protocol (HMCP), an OAuth 2.0 / SMART on FHIR protocol for healthcare AI agents. Its core platform API is offered to customers and partners through the Innovaccer developer portal (Nucleus / Datashop Engine).
 image: https://cdn.prod.website-files.com/670e4ade75003c7364a3944d/69aea95986351ab53056a0e0_Meta%20image%20(2).png
@@ -107,26 +143,39 @@ mcp_servers:
 - description: ''
   name: Masala Design System MCP server
   slug: masala-design-system-mcp-server
-modified: '2026-07-19'
+modified: '2026-08-15'
 name: Innovaccer
 nav: Providers
 network: true
 overview: 'Innovaccer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Data, FHIR, and Interoperability.
 
 
-  Innovaccer''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
-random_paper: 104
+  Innovaccer''s developer surface includes documentation, engineering blog, support, authentication, changelog, and 21 more developer resources.'
+plans:
+- name: Innovaccer Plans Pricing
+  plan_count: 0
+  slug: innovaccer-plans-pricing
+random_paper: 21
+rate_limits:
+- limit_count: 0
+  name: Innovaccer Rate Limits
+  slug: innovaccer-rate-limits
+scopes:
+- name: Innovaccer Scopes
+  scope_count: 0
+  slug: innovaccer-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 24.6
-  delta: 0.0
+  band: thin
+  composite: 35.5
+  delta: 10.9
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 43.5
     discoverability: 57.4
     governance: 12.5
-    operational_transparency: 15.8
+    operational_transparency: 31.6
   previous_composite: 24.6
   provenance:
     conformance: first-party
@@ -136,12 +185,16 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/innovaccer/refs/heads/main/screenshots/innovaccer-2026-07-25T222505.png
 security:
+- kind: authentication
+  name: Innovaccer Authentication
+  slug: innovaccer-authentication
+  summary_line: 5 schemes
 - kind: domain-security
   name: Innovaccer Domain Security
   slug: innovaccer-domain-security

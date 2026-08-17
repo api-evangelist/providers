@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Anonymous, unaccredited Consumer Data Right energy Product Reference Data endpoint operated by the AER. Returns a paged summary of all current, generally available retail energy plans for one retailer
@@ -30,7 +30,14 @@ apis:
 - description: 'Anonymous Consumer Data Standards Common API discovery endpoints served by the AER on its CDR host. GET /discovery/status returns the current operational status of the data holder''s CDR endpoints and '
   name: AER CDR Discovery - Get Status and Get Outages
   slug: aer-cdr-discovery-status-and-outages
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: CDR Energy API
+  slug: open-cdr-energy-api
+- collection_type: open
+  name: CDR Common API
+  slug: open-cds-common-api
 common:
 - group: auth
   title: ''
@@ -217,7 +224,7 @@ overview: 'Australian Energy Regulator publishes 3 APIs on the [APIs.io](https:/
 
 
   Australian Energy Regulator''s developer surface includes documentation, API reference, engineering blog, getting-started guide, support, authentication, changelog, and 35 more developer resources.'
-random_paper: 72
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Aer Rate Limits
@@ -250,7 +257,7 @@ score:
     regime_id: energy_utilities
     score: 48.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

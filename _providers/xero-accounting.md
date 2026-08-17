@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: The Invoices API from Xero Accounting — 1 operation(s) for invoices.
   name: Xero Accounting Invoices API
   slug: xero-accounting-invoices-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xero Accounting Accounts API
+  slug: open-xero-accounting-accounts-api
+- collection_type: open
+  name: Xero Accounting Accounts BankTransactions API
+  slug: open-xero-accounting-banktransactions-api
+- collection_type: open
+  name: Xero Accounting Accounts BankTransfers API
+  slug: open-xero-accounting-banktransfers-api
+- collection_type: open
+  name: Xero Accounting Accounts BatchPayments API
+  slug: open-xero-accounting-batchpayments-api
+- collection_type: open
+  name: Xero Accounting Accounts Contacts API
+  slug: open-xero-accounting-contacts-api
+- collection_type: open
+  name: Xero Accounting Accounts Invoices API
+  slug: open-xero-accounting-invoices-api
 - collection_type: open
   name: Xero Accounting API
   slug: open-xero-accounting
@@ -133,7 +154,7 @@ overview: 'Xero Accounting publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Xero Accounting''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 118
+random_paper: 68
 scopes:
 - name: Xero Accounting Scopes
   scope_count: 6
@@ -159,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/screenshots/xero-accounting-2026-06-20T201700.png
 security:

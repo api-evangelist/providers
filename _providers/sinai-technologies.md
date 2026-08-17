@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Baseline forecasts API from Sinai Technologies — 7 operation(s) for baseline forecasts.
@@ -40,7 +40,20 @@ apis:
 - description: The Organization management API from Sinai Technologies — 20 operation(s) for organization management.
   name: Sinai Technologies Organization management API
   slug: sinai-technologies-organization-management-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SINAI Baseline forecasts API
+  slug: open-sinai-technologies-baseline-forecasts-api
+- collection_type: open
+  name: SINAI Baseline forecasts Carbon accounting API
+  slug: open-sinai-technologies-carbon-accounting-api
+- collection_type: open
+  name: SINAI Baseline forecasts Organization management API
+  slug: open-sinai-technologies-organization-management-api
 common:
 - group: auth
   title: ''
@@ -154,7 +167,7 @@ overview: 'Sinai Technologies publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   Sinai Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
-random_paper: 61
+random_paper: 73
 scopes:
 - name: Sinai Technologies Scopes
   scope_count: 6
@@ -182,7 +195,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

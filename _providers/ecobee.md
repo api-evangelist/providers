@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Update writable properties and run thermostat functions.
   name: ecobee Thermostat Update API
   slug: ecobee-thermostat-update-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ecobee Authorization API
+  slug: open-ecobee-authorization-api
+- collection_type: open
+  name: ecobee Authorization Demand Response API
+  slug: open-ecobee-demand-response-api
+- collection_type: open
+  name: ecobee Authorization Group API
+  slug: open-ecobee-group-api
+- collection_type: open
+  name: ecobee Authorization Hierarchy API
+  slug: open-ecobee-hierarchy-api
+- collection_type: open
+  name: ecobee Authorization Reports API
+  slug: open-ecobee-reports-api
+- collection_type: open
+  name: ecobee Authorization Thermostat API
+  slug: open-ecobee-thermostat-api
+- collection_type: open
+  name: ecobee Authorization Thermostat Update API
+  slug: open-ecobee-thermostat-update-api
 - collection_type: open
   name: ecobee API
   slug: open-ecobee
@@ -126,7 +150,7 @@ plans:
 - name: Ecobee Plans Pricing
   plan_count: 2
   slug: ecobee-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Ecobee Rate Limits
@@ -157,7 +181,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/screenshots/ecobee-2026-07-25T212750.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -130,14 +130,77 @@ arazzos:
 - description: Assemble a snapshot of the authenticated user's profile, all-time totals, recent stats, and projects.
   name: WakaTime User Profile Overview
   slug: wakatime-user-profile-overview-workflow
-artifact_total: 52
+artifact_total: 73
 collections:
 - collection_type: postman
   name: WakaTime API
   slug: postman-wakatime-api-v1
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: WakaTime API
   slug: open-wakatime-api-v1
+- collection_type: open
+  name: WakaTime Commits API
+  slug: open-wakatime-commits-api
+- collection_type: open
+  name: WakaTime Commits Custom Rules API
+  slug: open-wakatime-custom-rules-api
+- collection_type: open
+  name: WakaTime Commits Data Dumps API
+  slug: open-wakatime-data-dumps-api
+- collection_type: open
+  name: WakaTime Commits Durations API
+  slug: open-wakatime-durations-api
+- collection_type: open
+  name: WakaTime Commits Editors API
+  slug: open-wakatime-editors-api
+- collection_type: open
+  name: WakaTime Commits External Durations API
+  slug: open-wakatime-external-durations-api
+- collection_type: open
+  name: WakaTime Commits Goals API
+  slug: open-wakatime-goals-api
+- collection_type: open
+  name: WakaTime Commits Heartbeats API
+  slug: open-wakatime-heartbeats-api
+- collection_type: open
+  name: WakaTime Commits Insights API
+  slug: open-wakatime-insights-api
+- collection_type: open
+  name: WakaTime Commits Languages API
+  slug: open-wakatime-languages-api
+- collection_type: open
+  name: WakaTime Commits Leaderboards API
+  slug: open-wakatime-leaderboards-api
+- collection_type: open
+  name: WakaTime Commits Machines API
+  slug: open-wakatime-machines-api
+- collection_type: open
+  name: WakaTime Commits Meta API
+  slug: open-wakatime-meta-api
+- collection_type: open
+  name: WakaTime Commits Organizations API
+  slug: open-wakatime-organizations-api
+- collection_type: open
+  name: WakaTime Commits Projects API
+  slug: open-wakatime-projects-api
+- collection_type: open
+  name: WakaTime Commits Stats API
+  slug: open-wakatime-stats-api
+- collection_type: open
+  name: WakaTime Commits Status Bar API
+  slug: open-wakatime-status-bar-api
+- collection_type: open
+  name: WakaTime Commits Summaries API
+  slug: open-wakatime-summaries-api
+- collection_type: open
+  name: WakaTime Commits User Agents API
+  slug: open-wakatime-user-agents-api
+- collection_type: open
+  name: WakaTime Commits Users API
+  slug: open-wakatime-users-api
 common:
 - group: agent
   title: ''
@@ -658,7 +721,7 @@ plans:
 - name: Wakatime Plans Pricing
   plan_count: 5
   slug: wakatime-plans-pricing
-random_paper: 11
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Wakatime Rate Limits
@@ -705,7 +768,7 @@ score:
       marker_coverage: 100.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
 security:

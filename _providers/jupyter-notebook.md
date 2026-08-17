@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -81,18 +81,60 @@ apis:
 - description: User management including creation, deletion, server management, and token management.
   name: Jupyter Notebook Users API
   slug: jupyter-notebook-users-api
-artifact_total: 32
+artifact_total: 46
 asyncapis:
 - description: 'The Jupyter Kernel Messaging Protocol defines the WebSocket-based communication between Jupyter clients (notebooks, consoles) and computational kernels. Messages are exchanged over WebSocket channels '
   name: Jupyter Kernel Messaging Protocol
   slug: jupyter-kernel-messaging-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Jupyter Notebook Jupyter Kernel Gateway API
   slug: open-jupyter-kernel-gateway-api
 - collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization API
+  slug: open-jupyter-notebook-authorization-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Config API
+  slug: open-jupyter-notebook-config-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Contents API
+  slug: open-jupyter-notebook-contents-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization General API
+  slug: open-jupyter-notebook-general-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Groups API
+  slug: open-jupyter-notebook-groups-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Hub API
+  slug: open-jupyter-notebook-hub-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Kernels API
+  slug: open-jupyter-notebook-kernels-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Kernelspecs API
+  slug: open-jupyter-notebook-kernelspecs-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Proxy API
+  slug: open-jupyter-notebook-proxy-api
+- collection_type: open
   name: Jupyter Notebook REST API
   slug: open-jupyter-notebook-rest-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Services API
+  slug: open-jupyter-notebook-services-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Sessions API
+  slug: open-jupyter-notebook-sessions-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Terminals API
+  slug: open-jupyter-notebook-terminals-api
+- collection_type: open
+  name: Jupyter Notebook Jupyter Kernel Gateway Authorization Users API
+  slug: open-jupyter-notebook-users-api
 - collection_type: open
   name: Jupyter Notebook JupyterHub REST API
   slug: open-jupyterhub-rest-api
@@ -222,7 +264,7 @@ plans:
 - name: Jupyter Notebook Plans Pricing
   plan_count: 1
   slug: jupyter-notebook-plans-pricing
-random_paper: 17
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Jupyter Notebook Rate Limits
@@ -264,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/screenshots/jupyter-notebook-2026-06-20T183838.png
 security:

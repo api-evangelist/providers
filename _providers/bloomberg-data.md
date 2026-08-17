@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Provides access to Bloomberg's extensive financial data including real-time quotes, historical data, reference data, and analytics.
@@ -87,7 +87,7 @@ plans:
 - name: Bloomberg Data Plans Pricing
   plan_count: 3
   slug: bloomberg-data-plans-pricing
-random_paper: 88
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Bloomberg Data Rate Limits
@@ -111,7 +111,7 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/screenshots/bloomberg-data-2026-06-20T173410.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -82,11 +82,42 @@ apis:
 - description: HM Land Registry Use Land and Property Data API from HM Land Registry — 4 path(s) described in OpenAPI.
   name: HM Land Registry Use Land and Property Data API
   slug: hm-land-registry-use-land-property-data-openapi
-artifact_total: 37
+artifact_total: 47
 asyncapis:
 - description: Event surface of the HM Land Registry Business Gateway. As an application to change the Land Register moves through HMLR processing, HMLR raises notifications about it. Business units retrieve their n
   name: HM Land Registry Business Gateway Notifications
   slug: hm-land-registry-business-gateway-notifications-asyncapi
+collections:
+- collection_type: open
+  name: Land Register API
+  slug: open-hm-land-registry-land-register-api
+- collection_type: open
+  name: HMLR Business Gateway
+  slug: open-hm-land-registry-official-copy-document-availability-v1-customer-test
+- collection_type: open
+  name: Official Copy Document Availability Service
+  slug: open-hm-land-registry-official-copy-document-availability-v1
+- collection_type: open
+  name: HMLR Business Gateway
+  slug: open-hm-land-registry-official-copy-document-availability-v2-customer-test
+- collection_type: open
+  name: Official Copy Document Availability Service
+  slug: open-hm-land-registry-official-copy-document-availability-v2
+- collection_type: open
+  name: Official Search of Whole with Data
+  slug: open-hm-land-registry-official-search-of-whole-with-data
+- collection_type: open
+  name: Registered Proprietor Names Service
+  slug: open-hm-land-registry-registered-proprietor-names
+- collection_type: open
+  name: V0.3 'Submit an application to change the Land Register API' Schema
+  slug: open-hm-land-registry-submit-application-to-change-the-register-v0
+- collection_type: open
+  name: V1.0 'Submit an application to change the Land Register API' Schema
+  slug: open-hm-land-registry-submit-application-to-change-the-register-v1
+- collection_type: open
+  name: Use Land and Property Data API
+  slug: open-hm-land-registry-use-land-property-data
 common:
 - group: operate
   title: ''
@@ -406,7 +437,7 @@ overview: 'HM Land Registry publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   HM Land Registry''s developer surface includes authentication, documentation, API reference, signup flow, support, sandbox, changelog, and 54 more developer resources.'
-random_paper: 47
+random_paper: 117
 score:
   band: developing
   composite: 54.1
@@ -436,7 +467,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/screenshots/hm-land-registry-2026-08-07T170236.png
 security:

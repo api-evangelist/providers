@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,8 +63,41 @@ apis:
 - description: Subject endpoints
   name: ISBNdb Subject API
   slug: isbndb-subject-api
-artifact_total: 21
+artifact_total: 29
+collections:
+- collection_type: open
+  name: ISBNdb API v2 Author API
+  slug: open-isbndb-author-api
+- collection_type: open
+  name: ISBNdb API v2 Books API
+  slug: open-isbndb-books-api
+- collection_type: open
+  name: ISBNdb API v2 Feed API
+  slug: open-isbndb-feed-api
+- collection_type: open
+  name: ISBNdb API v2 Key API
+  slug: open-isbndb-key-api
+- collection_type: open
+  name: ISBNdb API v2 Publisher API
+  slug: open-isbndb-publisher-api
+- collection_type: open
+  name: ISBNdb API v2 Search API
+  slug: open-isbndb-search-api
+- collection_type: open
+  name: ISBNdb API v2 Stats API
+  slug: open-isbndb-stats-api
+- collection_type: open
+  name: ISBNdb API v2 Subject API
+  slug: open-isbndb-subject-api
 common:
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: https://www.postman.com/api-evangelist/isbndb/collection/86oo60r/isbndb-api
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/api-evangelist/isbndb
 - group: agent
   title: ''
   type: AgenticAccess
@@ -131,12 +164,12 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/isbndb.png
 json_schemas:
 - name: Book
-  property_count: 26
+  property_count: 25
   slug: book
 jsonld:
 - class_count: 2
   name: Isbndb Context
-  property_count: 33
+  property_count: 32
   slug: isbndb-context
 layout: provider
 modified: '2026-06-13'
@@ -149,12 +182,12 @@ overview: 'ISBNdb publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The ISBNdb catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ISBNdb''s developer surface includes authentication, documentation, pricing, engineering blog, and 7 more developer resources.'
+  ISBNdb''s developer surface includes authentication, documentation, pricing, engineering blog, and 9 more developer resources.'
 plans:
 - name: Isbndb Plans Pricing
   plan_count: 5
   slug: isbndb-plans-pricing
-random_paper: 26
+random_paper: 30
 rate_limits:
 - limit_count: 10
   name: Isbndb Rate Limits
@@ -170,12 +203,12 @@ rules:
   slug: isbndb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 48.5
+  delta: 0.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.2
-    developer_ergonomics: 21.7
+    contract_quality: 59.0
+    developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
@@ -188,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/screenshots/isbndb-2026-06-20T183614.png
 security:

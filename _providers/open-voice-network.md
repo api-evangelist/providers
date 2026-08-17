@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: API for the Open Voice Network, providing programmatic access to open standards and interoperability frameworks for AI-enabled voice assistance systems across platforms and devices.
@@ -72,7 +72,7 @@ plans:
 - name: Open Voice Network Plans Pricing
   plan_count: 3
   slug: open-voice-network-plans-pricing
-random_paper: 36
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Open Voice Network Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-voice-network/refs/heads/main/screenshots/open-voice-network-2026-06-20T190859.png
 security:

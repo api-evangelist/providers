@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Confirming (reverse factoring) invoices and payment instructions.
@@ -37,7 +37,17 @@ apis:
 - description: Dynamic discounting suppliers, invoices, payment instructions and adjustments.
   name: Novicap Dynamic Discounting API
   slug: novicap-dynamic-discounting-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Novicap Confirming Standard API
+  slug: open-novicap-confirming-standard-api
+- collection_type: open
+  name: Novicap Confirming Standard Dynamic Discounting API
+  slug: open-novicap-dynamic-discounting-api
 common:
 - group: other
   title: ''
@@ -135,7 +145,7 @@ overview: 'Novicap publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Novicap''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 32
+random_paper: 7
 score:
   band: emerging
   composite: 25.7
@@ -158,7 +168,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/screenshots/novicap-2026-08-07T185613.png
 security:

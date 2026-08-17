@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-12'
+  score: 54.7
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The Data Import API allows you to import mentions from external sources into YouScan topics. This feature enables you to bring historical data or mentions from sources not natively supported by YouSca
@@ -56,12 +56,44 @@ apis:
 - description: Webhooks push new mentions to your own server in real time, so you don't have to poll the API. Every time a new mention is found and saved to a topic, YouScan sends an HTTP `POST` with the mention pay
   name: YouScan Webhook API
   slug: youscan-webhook-api
-artifact_total: 12
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Youscan Mentions Webhooks
   slug: youscan-mentions-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: YouScan Data Import API
+  slug: open-youscan-data-import-api
+- collection_type: open
+  name: YouScan Data Import History API
+  slug: open-youscan-history-api
+- collection_type: open
+  name: YouScan Data Import Mentions API
+  slug: open-youscan-mentions-api
+- collection_type: open
+  name: YouScan Data Import Spaces API
+  slug: open-youscan-spaces-api
+- collection_type: open
+  name: YouScan Data Import Statistics API
+  slug: open-youscan-statistics-api
+- collection_type: open
+  name: YouScan Data Import Tags API
+  slug: open-youscan-tags-api
+- collection_type: open
+  name: YouScan Data Import Topics API
+  slug: open-youscan-topics-api
+- collection_type: open
+  name: YouScan Data Import Webhook API
+  slug: open-youscan-webhook-api
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/youscan-trust-center.yml
 - group: other
   title: ''
   type: Overlay
@@ -166,6 +198,30 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.youscan.io/en/articles/2754452-how-to-use-youscan-api
+- group: auth
+  title: ''
+  type: Security
+  url: security/youscan-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/youscan-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/youscan-trust-center.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/youscan-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/youscan-rate-limits.yml
 created: '2026-07-17'
 description: YouScan is an AI-powered social media listening and consumer-intelligence platform that monitors mentions, conversations, and images across social networks, news, blogs, forums, and review sites. It provides sentiment analysis, trend and topic detection, visual insights via image recognition, and an AI Insights Copilot for querying data in natural language. YouScan exposes a REST API (documented with an OpenAPI 3.1 specification) to manage monitoring topics, retrieve and stream mentions, manage tags, run data imports, and query statistics, plus outbound webhooks that push new mentions to subscriber endpoints in real time.
 image: https://youscan.io/favicon.ico
@@ -174,7 +230,7 @@ mcp_servers:
 - description: ''
   name: youscan-mcp.yml
   slug: youscan-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: YouScan
 nav: Providers
 network: true
@@ -184,19 +240,27 @@ overview: 'YouScan publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The YouScan catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  YouScan''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 19 more developer resources.'
-random_paper: 50
+  YouScan''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
+plans:
+- name: Youscan Plans Pricing
+  plan_count: 2
+  slug: youscan-plans-pricing
+random_paper: 25
+rate_limits:
+- limit_count: 2
+  name: Youscan Rate Limits
+  slug: youscan-rate-limits
 score:
-  band: developing
-  composite: 51.4
-  delta: 0.0
+  band: exemplar
+  composite: 66.1
+  delta: 14.7
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 81.6
     contract_quality: 72.2
-    developer_ergonomics: 45.1
-    discoverability: 81.5
+    developer_ergonomics: 56.0
+    discoverability: 92.6
     governance: 11.5
-    operational_transparency: 44.7
+    operational_transparency: 76.3
   previous_composite: 51.4
   provenance:
     conformance: derived
@@ -208,8 +272,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Youscan Authentication
@@ -219,6 +283,14 @@ security:
   name: Youscan Domain Security
   slug: youscan-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Youscan Vulnerability Disclosure
+  slug: youscan-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Youscan Trust Center
+  slug: youscan-trust-center
+  summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, GDPR
 slug: youscan
 tags:
 - Company

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,11 +73,26 @@ arazzos:
 - description: Verify an existing cluster, then build a replication group around it and poll.
   name: Amazon ElastiCache Replicate Existing Cluster
   slug: amazon-elasticache-replicate-existing-cluster-workflow
-artifact_total: 45
+artifact_total: 50
 collections:
 - collection_type: postman
   name: Amazon ElastiCache API
   slug: postman-amazon-elasticache
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon ElastiCache Amazon ElastiCache API API
+  slug: open-amazon-elasticache-amazon-elasticache-api-api
+- collection_type: open
+  name: 'Amazon ElastiCache Amazon ElastiCache API #CreateReplicationGroup API'
+  slug: open-amazon-elasticache-createreplicationgroup-api
+- collection_type: open
+  name: 'Amazon ElastiCache Amazon ElastiCache API #DeleteCacheCluster API'
+  slug: open-amazon-elasticache-deletecachecluster-api
+- collection_type: open
+  name: 'Amazon ElastiCache Amazon ElastiCache API #DescribeReplicationGroups API'
+  slug: open-amazon-elasticache-describereplicationgroups-api
 - collection_type: open
   name: Amazon ElastiCache API
   slug: open-amazon-elasticache
@@ -296,7 +311,7 @@ plans:
 - name: Amazon Elasticache Plans Pricing
   plan_count: 3
   slug: amazon-elasticache-plans-pricing
-random_paper: 33
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Amazon Elasticache Rate Limits
@@ -338,7 +353,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/screenshots/amazon-elasticache-2026-06-20T171652.png
 security:

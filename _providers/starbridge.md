@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Book a demo / contact sales
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
+  - plans/starbridge-plans-pricing.yml
   - authentication
   trial: false
   try_now: false
@@ -23,12 +24,12 @@ agent_readiness:
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-12'
+  score: 59.9
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Bridges API from Starbridge — 4 operation(s) for bridges.
@@ -49,11 +50,33 @@ apis:
 - description: The Signal API from Starbridge — 2 operation(s) for signal.
   name: Starbridge Signal API
   slug: starbridge-signal-api
-artifact_total: 10
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Starbridge Webhooks
   slug: starbridge-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Starbridge External Public Bridges API
+  slug: open-starbridge-bridges-api
+- collection_type: open
+  name: Starbridge External Public Bridges Buyer API
+  slug: open-starbridge-buyer-api
+- collection_type: open
+  name: Starbridge External Public Bridges Columns API
+  slug: open-starbridge-columns-api
+- collection_type: open
+  name: Starbridge External Public Bridges External API API
+  slug: open-starbridge-external-api-api
+- collection_type: open
+  name: Starbridge External Public Bridges External MCP API
+  slug: open-starbridge-external-mcp-api
+- collection_type: open
+  name: Starbridge External Public Bridges Signal API
+  slug: open-starbridge-signal-api
 common:
 - group: docs
   title: ''
@@ -63,10 +86,42 @@ common:
   title: ''
   type: MCPServer
   url: mcp/starbridge-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/starbridge-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/starbridge-a2a.yml
 - group: agent
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/starbridge-packages.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/starbridge-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/starbridge-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/starbridge-rate-limits.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/starbridge-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/starbridge-trust-center.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -91,6 +146,14 @@ common:
   title: ''
   type: ChangeLog
   url: changelog/starbridge-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://hc.starbridge.ai/release-notes
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://starbridge.statuspage.io
 - group: design
   title: ''
   type: Lifecycle
@@ -171,7 +234,7 @@ mcp_servers:
 - description: ''
   name: starbridge-mcp.yml
   slug: starbridge-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: Starbridge
 nav: Providers
 network: true
@@ -181,14 +244,27 @@ overview: 'Starbridge publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Starbridge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Starbridge''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 103
+  Starbridge''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 30 more developer resources.'
+plans:
+- name: Starbridge Plans Pricing
+  plan_count: 0
+  slug: starbridge-plans-pricing
+random_paper: 20
+rate_limits:
+- limit_count: 0
+  name: Starbridge Rate Limits
+  slug: starbridge-rate-limits
+scopes:
+- name: Starbridge Scopes
+  scope_count: 0
+  slug: starbridge-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 50.4
-  delta: 0.0
+  band: strong
+  composite: 57.3
+  delta: 6.9
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 50.0
     contract_quality: 68.9
     developer_ergonomics: 58.7
     discoverability: 81.5
@@ -209,10 +285,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 46.3
+    score: 74.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Starbridge Authentication
@@ -221,7 +297,11 @@ security:
 - kind: domain-security
   name: Starbridge Domain Security
   slug: starbridge-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Starbridge Trust Center
+  slug: starbridge-trust-center
+  summary_line: SOC 2 Type II
 slug: starbridge
 tags:
 - Company

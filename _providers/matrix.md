@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -98,12 +98,60 @@ apis:
 - description: The Sync API from Matrix — 1 operation(s) for sync.
   name: Matrix Sync API
   slug: matrix-sync-api
-artifact_total: 27
+artifact_total: 43
 asyncapis:
 - description: AsyncAPI description of the Matrix Client-Server sync mechanism. Matrix delivers real-time events to clients through the `/_matrix/client/v3/sync` endpoint, which is a long-lived HTTPS GET request (HT
   name: Matrix Client-Server Sync API
   slug: matrix-sync-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Matrix Client-Server Account API
+  slug: open-matrix-account-api
+- collection_type: open
+  name: Matrix Client-Server Account Capabilities API
+  slug: open-matrix-capabilities-api
+- collection_type: open
+  name: Matrix Client-Server Account CreateRoom API
+  slug: open-matrix-createroom-api
+- collection_type: open
+  name: Matrix Client-Server Account Devices API
+  slug: open-matrix-devices-api
+- collection_type: open
+  name: Matrix Client-Server Account Directory API
+  slug: open-matrix-directory-api
+- collection_type: open
+  name: Matrix Client-Server Account Join API
+  slug: open-matrix-join-api
+- collection_type: open
+  name: Matrix Client-Server Account Keys API
+  slug: open-matrix-keys-api
+- collection_type: open
+  name: Matrix Client-Server Account Login API
+  slug: open-matrix-login-api
+- collection_type: open
+  name: Matrix Client-Server Account Logout API
+  slug: open-matrix-logout-api
+- collection_type: open
+  name: Matrix Client-Server Account Profile API
+  slug: open-matrix-profile-api
+- collection_type: open
+  name: Matrix Client-Server Account PublicRooms API
+  slug: open-matrix-publicrooms-api
+- collection_type: open
+  name: Matrix Client-Server Account Refresh API
+  slug: open-matrix-refresh-api
+- collection_type: open
+  name: Matrix Client-Server Account Register API
+  slug: open-matrix-register-api
+- collection_type: open
+  name: Matrix Client-Server Account Rooms API
+  slug: open-matrix-rooms-api
+- collection_type: open
+  name: Matrix Client-Server Account Sync API
+  slug: open-matrix-sync-api
 - collection_type: open
   name: Matrix Client-Server API
   slug: open-matrix
@@ -171,7 +219,7 @@ overview: 'Matrix publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Matrix''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 61
+random_paper: 65
 rules:
 - name: Matrix API Rules
   rule_count: 5
@@ -201,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matrix/refs/heads/main/screenshots/matrix-2026-06-20T185038.png
 security:

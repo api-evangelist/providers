@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -95,11 +95,72 @@ apis:
 - description: The Webhooks API from Sikoia — 6 operation(s) for webhooks.
   name: Sikoia Webhooks API
   slug: sikoia-webhooks-api
-artifact_total: 25
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Sikoia Webhooks
   slug: sikoia-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sikoia Adverse Media API
+  slug: open-sikoia-adverse-media-api
+- collection_type: open
+  name: Sikoia Adverse Media Affordability Insights API
+  slug: open-sikoia-affordability-insights-api
+- collection_type: open
+  name: Sikoia Adverse Media Authentication API
+  slug: open-sikoia-authentication-api
+- collection_type: open
+  name: Sikoia Adverse Media Banking API
+  slug: open-sikoia-banking-api
+- collection_type: open
+  name: Sikoia Adverse Media Cases API
+  slug: open-sikoia-cases-api
+- collection_type: open
+  name: Sikoia Adverse Media Checklist API
+  slug: open-sikoia-checklist-api
+- collection_type: open
+  name: Sikoia Adverse Media Companies & People API
+  slug: open-sikoia-companies-people-api
+- collection_type: open
+  name: Sikoia Adverse Media Company Credit Report API
+  slug: open-sikoia-company-credit-report-api
+- collection_type: open
+  name: Sikoia Adverse Media Company Registry API
+  slug: open-sikoia-company-registry-api
+- collection_type: open
+  name: Sikoia Adverse Media Data Sources API
+  slug: open-sikoia-data-sources-api
+- collection_type: open
+  name: Sikoia Adverse Media Documents API
+  slug: open-sikoia-documents-api
+- collection_type: open
+  name: Sikoia Adverse Media Excel Report API
+  slug: open-sikoia-excel-report-api
+- collection_type: open
+  name: Sikoia Adverse Media Identity Verification API
+  slug: open-sikoia-identity-verification-api
+- collection_type: open
+  name: Sikoia Adverse Media Income & Employer Verification API
+  slug: open-sikoia-income-employer-verification-api
+- collection_type: open
+  name: Sikoia Adverse Media Online Data API
+  slug: open-sikoia-online-data-api
+- collection_type: open
+  name: Sikoia Adverse Media PEPs & Sanctions API
+  slug: open-sikoia-peps-sanctions-api
+- collection_type: open
+  name: Sikoia Adverse Media User Management API
+  slug: open-sikoia-user-management-api
+- collection_type: open
+  name: Sikoia Adverse Media Validation Checklists API
+  slug: open-sikoia-validation-checklists-api
+- collection_type: open
+  name: Sikoia Adverse Media Webhooks API
+  slug: open-sikoia-webhooks-api
 common:
 - group: start
   title: ''
@@ -252,7 +313,7 @@ overview: 'Sikoia publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sikoia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Sikoia Rate Limits
@@ -286,7 +347,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

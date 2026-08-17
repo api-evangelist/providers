@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +54,26 @@ apis:
 - description: Trademark status and documents
   name: USPTO Trademarks API
   slug: uspto-trademarks-api
-artifact_total: 37
+artifact_total: 42
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USPTO Patent & Trademark Assignments API
+  slug: open-uspto-assignments-api
 - collection_type: open
   name: USPTO Patent & Trademark API
   slug: open-uspto-patent-api
+- collection_type: open
+  name: USPTO Patent & Trademark Assignments Patents API
+  slug: open-uspto-patents-api
+- collection_type: open
+  name: USPTO Patent & Trademark Assignments PTAB API
+  slug: open-uspto-ptab-api
+- collection_type: open
+  name: USPTO Patent & Trademark Assignments Trademarks API
+  slug: open-uspto-trademarks-api
 common:
 - group: agent
   title: ''
@@ -225,7 +240,7 @@ plans:
 - name: Uspto Plans Pricing
   plan_count: 1
   slug: uspto-plans-pricing
-random_paper: 91
+random_paper: 124
 rate_limits:
 - limit_count: 1
   name: Uspto Rate Limits
@@ -273,7 +288,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/screenshots/uspto-2026-06-20T200719.png
 security:

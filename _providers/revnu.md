@@ -9,27 +9,39 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 0
+  score: 56.3
+  scored_at: '2026-08-17'
+api_count: 2
+apis:
+- description: A live remote MCP server over streamable HTTP that gives an AI assistant operator-level control of a Revnu store — 49 documented tools across store, products, coupons, analytics, purchases, affiliates
+  name: Revnu MCP Server
+  slug: revnu-mcp-server
+- description: The authentication API behind the @revnu/auth SDK, serving a Revnu store's buyers. Purchase-first — buying a product creates the account and sends a password setup link, so there is no separate sign-u
+  name: Revnu Auth API
+  slug: revnu-auth-api
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Revnu Webhooks
+  slug: revnu-webhooks
 common:
 - group: company
   title: ''
@@ -51,42 +63,178 @@ common:
   title: ''
   type: Support
   url: https://revnu.com/faq
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.gg/MBsVQ9eFKg
 - group: start
   title: ''
   type: SignUp
   url: https://revnu.com/book
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://revnu.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://revnu.com/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/revnu-app
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://auth.revnu.app/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://auth.revnu.app/docs/mcp
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://auth.revnu.app/docs/getting-started
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://auth.revnu.app/changelog
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/revnu-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/revnu-app-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/revnu-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/revnu-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/revnu-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/revnu-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/revnu-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/revnu-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/revnu-components.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/revnu-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/revnu-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/revnu-problem-types.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/revnu-webhooks.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/revnu-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/revnu-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/revnu-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/revnu-rate-limits.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/revnu-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/revnu-data-model.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/revnu-domain-security.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-17'
-description: Revnu is an AI-powered growth-automation platform for early-stage and technical founders, positioning itself as an "AI growth hire" that runs marketing work across channels so builders can stay in the codebase. The platform finds and qualifies leads from real signals, drafts cold outbound and partnership pitches, writes SEO content, runs paid ad experiments across Meta, LinkedIn, Reddit, and TikTok, turns product wins into short-form video and social posts, and tests pricing and landing-page copy, sending approvals and weekly recaps through iMessage, Slack, and email. Founded in 2026 out of the Y Combinator Spring 2026 batch and based in San Francisco, Revnu is a SaaS product with a dashboard/agent interface rather than an API-first platform; it currently publishes no public developer API, but does expose machine-readable llms.txt context files for AI agents.
+description: 'Revnu is an AI growth-automation platform for early-stage and technical founders, positioning itself as an "AI growth hire" that runs marketing work across channels so builders can stay in the codebase. The platform finds and qualifies leads from real signals, drafts cold outbound and partnership pitches, writes SEO content, runs paid ad experiments across Meta, LinkedIn, Reddit, and TikTok, turns product wins into short-form video and social posts, and tests pricing and landing-page copy. Founded in 2026 out of the Y Combinator Spring 2026 batch and based in San Francisco, Revnu is agent-first rather than API-first: it publishes no OpenAPI, but it does ship a live remote MCP server with a documented 49-tool surface, a first-party CLI, an authentication SDK for a customer''s own app, an HMAC-signed webhook catalog, an RFC 9727 api-catalog, and machine-readable llms.txt context files across its hosts.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revnu.png
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+modified: '2026-08-13'
 name: Revnu
 nav: Providers
 network: true
-overview: 'Revnu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Growth Automation, Marketing, Artificial Intelligence, and SaaS.
+overview: 'Revnu publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Growth Automation, Marketing, Artificial Intelligence, and SaaS.
 
 
-  Revnu''s developer surface includes pricing, engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 80
+  The Revnu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Revnu''s developer surface includes pricing, engineering blog, support, signup flow, documentation, API reference, getting-started guide, and 28 more developer resources.'
+plans:
+- name: Revnu Plans Pricing
+  plan_count: 1
+  slug: revnu-plans-pricing
+random_paper: 113
+rate_limits:
+- limit_count: 0
+  name: Revnu Rate Limits
+  slug: revnu-rate-limits
 score:
-  band: minimal
-  composite: 11.8
-  delta: 0.0
+  band: developing
+  composite: 54.4
+  delta: 42.6
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 65.8
+    contract_quality: 51.6
+    developer_ergonomics: 71.7
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 28.9
   previous_composite: 11.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
+security:
+- kind: authentication
+  name: Revnu Authentication
+  slug: revnu-authentication
+  summary_line: http/apiKey · 4 schemes
+- kind: domain-security
+  name: Revnu Domain Security
+  slug: revnu-domain-security
+  summary_line: TLSv1.3 · HSTS
 slug: revnu
 tags:
 - Company
@@ -97,5 +245,9 @@ tags:
 - Startups
 - Lead Generation
 - SEO
+- MCP
+- Agents
+- Commerce
+- A/B Testing
 website: https://revnu.com
 ---

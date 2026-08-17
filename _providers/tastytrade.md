@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -125,7 +125,92 @@ apis:
 - description: Allows an API client to fetch a user's watchlists.
   name: tastytrade user-watchlists API
   slug: tastytrade-user-watchlists-api
-artifact_total: 141
+artifact_total: 169
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Account Status accounts API
+  slug: open-tastytrade-accounts-api
+- collection_type: open
+  name: Account Status accounts api-quote-tokens API
+  slug: open-tastytrade-api-quote-tokens-api
+- collection_type: open
+  name: Account Status accounts Available Dates API
+  slug: open-tastytrade-available-dates-api
+- collection_type: open
+  name: Account Status accounts Backtests API
+  slug: open-tastytrade-backtests-api
+- collection_type: open
+  name: Account Status accounts balance-snapshots API
+  slug: open-tastytrade-balance-snapshots-api
+- collection_type: open
+  name: Account Status accounts complex-orders API
+  slug: open-tastytrade-complex-orders-api
+- collection_type: open
+  name: Account Status accounts customers API
+  slug: open-tastytrade-customers-api
+- collection_type: open
+  name: Account Status accounts futures-option-chains API
+  slug: open-tastytrade-futures-option-chains-api
+- collection_type: open
+  name: Account Status accounts instruments API
+  slug: open-tastytrade-instruments-api
+- collection_type: open
+  name: Account Status accounts margin-requirements API
+  slug: open-tastytrade-margin-requirements-api
+- collection_type: open
+  name: Account Status accounts margin-requirements-public-configuration API
+  slug: open-tastytrade-margin-requirements-public-configuration-api
+- collection_type: open
+  name: Account Status accounts market-data-controller API
+  slug: open-tastytrade-market-data-controller-api
+- collection_type: open
+  name: Account Status accounts Market Metrics API
+  slug: open-tastytrade-market-metrics-api
+- collection_type: open
+  name: Account Status accounts market-time API
+  slug: open-tastytrade-market-time-api
+- collection_type: open
+  name: Account Status accounts net-liq-controller API
+  slug: open-tastytrade-net-liq-controller-api
+- collection_type: open
+  name: Account Status accounts option-chains API
+  slug: open-tastytrade-option-chains-api
+- collection_type: open
+  name: Account Status accounts orders API
+  slug: open-tastytrade-orders-api
+- collection_type: open
+  name: Account Status accounts pairs-watchlists API
+  slug: open-tastytrade-pairs-watchlists-api
+- collection_type: open
+  name: Account Status accounts positions API
+  slug: open-tastytrade-positions-api
+- collection_type: open
+  name: Account Status accounts public-watchlists API
+  slug: open-tastytrade-public-watchlists-api
+- collection_type: open
+  name: Account Status accounts quote-alerts API
+  slug: open-tastytrade-quote-alerts-api
+- collection_type: open
+  name: Account Status accounts Simulate Trade API
+  slug: open-tastytrade-simulate-trade-api
+- collection_type: open
+  name: Account Status accounts span API
+  slug: open-tastytrade-span-api
+- collection_type: open
+  name: Account Status accounts Symbols API
+  slug: open-tastytrade-symbols-api
+- collection_type: open
+  name: Account Status accounts trading-status API
+  slug: open-tastytrade-trading-status-api
+- collection_type: open
+  name: Account Status accounts transactions API
+  slug: open-tastytrade-transactions-api
+- collection_type: open
+  name: Account Status accounts user-watchlists API
+  slug: open-tastytrade-user-watchlists-api
 common:
 - group: agent
   title: ''
@@ -541,7 +626,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 13
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Rate Limits
@@ -581,7 +666,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/screenshots/tastytrade-2026-06-20T194927.png
 security:

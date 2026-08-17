@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: SCIM is a provisioning system that lets you manage users within your identity provider (IdP). For more information, see [System for Cross-domain Identity management](https://docs.docker.com/security/f
   name: Docker Hub scim API
   slug: docker-hub-scim-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Docker HUB access-tokens API
+  slug: open-docker-hub-access-tokens-api
+- collection_type: open
+  name: Docker HUB access-tokens audit-logs API
+  slug: open-docker-hub-audit-logs-api
+- collection_type: open
+  name: Docker HUB access-tokens authentication-api API
+  slug: open-docker-hub-authentication-api-api
+- collection_type: open
+  name: Docker HUB access-tokens groups API
+  slug: open-docker-hub-groups-api
+- collection_type: open
+  name: Docker HUB access-tokens invites API
+  slug: open-docker-hub-invites-api
+- collection_type: open
+  name: Docker HUB access-tokens org-access-tokens API
+  slug: open-docker-hub-org-access-tokens-api
+- collection_type: open
+  name: Docker HUB access-tokens org-settings API
+  slug: open-docker-hub-org-settings-api
+- collection_type: open
+  name: Docker HUB access-tokens orgs API
+  slug: open-docker-hub-orgs-api
+- collection_type: open
+  name: Docker HUB access-tokens repositories API
+  slug: open-docker-hub-repositories-api
+- collection_type: open
+  name: Docker HUB access-tokens scim API
+  slug: open-docker-hub-scim-api
 - collection_type: open
   name: Docker HUB API
   slug: open-docker-hub
@@ -179,7 +212,7 @@ plans:
 - name: Docker Hub Plans Pricing
   plan_count: 3
   slug: docker-hub-plans-pricing
-random_paper: 36
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Docker Hub Rate Limits
@@ -204,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/screenshots/docker-hub-2026-06-20T180106.png
 security:

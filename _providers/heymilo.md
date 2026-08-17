@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -93,11 +93,69 @@ apis:
 - description: List the workspaces accessible to the authenticated caller. API-key callers receive a single entry; OAuth callers receive every workspace they are a member of.
   name: HeyMilo Workspaces API
   slug: heymilo-workspaces-api
-artifact_total: 25
+artifact_total: 44
 asyncapis:
 - description: HeyMilo delivers real-time HTTP notifications across the candidate interview lifecycle. Register a webhook via the Public REST API (POST /api/v2/webhooks) with a destination URL, an event_type, and th
   name: HeyMilo Webhooks
   slug: heymilo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HeyMilo Public ATS API
+  slug: open-heymilo-ats-api
+- collection_type: open
+  name: HeyMilo Public ATS Candidates API
+  slug: open-heymilo-candidates-api
+- collection_type: open
+  name: HeyMilo Public ATS Design Template Groups API
+  slug: open-heymilo-design-template-groups-api
+- collection_type: open
+  name: HeyMilo Public ATS Design Templates API
+  slug: open-heymilo-design-templates-api
+- collection_type: open
+  name: HeyMilo Public ATS Domains API
+  slug: open-heymilo-domains-api
+- collection_type: open
+  name: HeyMilo Public ATS Email Template Groups API
+  slug: open-heymilo-email-template-groups-api
+- collection_type: open
+  name: HeyMilo Public ATS Email Templates API
+  slug: open-heymilo-email-templates-api
+- collection_type: open
+  name: HeyMilo Public ATS Health API
+  slug: open-heymilo-health-api
+- collection_type: open
+  name: HeyMilo Public ATS Interview Templates API
+  slug: open-heymilo-interview-templates-api
+- collection_type: open
+  name: HeyMilo Public ATS Interviewers API
+  slug: open-heymilo-interviewers-api
+- collection_type: open
+  name: HeyMilo Public ATS Interviews API
+  slug: open-heymilo-interviews-api
+- collection_type: open
+  name: HeyMilo Public ATS Phone Numbers API
+  slug: open-heymilo-phone-numbers-api
+- collection_type: open
+  name: HeyMilo Public ATS Questions API
+  slug: open-heymilo-questions-api
+- collection_type: open
+  name: HeyMilo Public ATS Schema Discovery API
+  slug: open-heymilo-schema-discovery-api
+- collection_type: open
+  name: HeyMilo Public ATS Sender Emails API
+  slug: open-heymilo-sender-emails-api
+- collection_type: open
+  name: HeyMilo Public ATS Voices API
+  slug: open-heymilo-voices-api
+- collection_type: open
+  name: HeyMilo Public ATS Webhooks API
+  slug: open-heymilo-webhooks-api
+- collection_type: open
+  name: HeyMilo Public ATS Workspaces API
+  slug: open-heymilo-workspaces-api
 common:
 - group: agent
   title: ''
@@ -247,7 +305,7 @@ overview: 'HeyMilo publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   HeyMilo''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, authentication, and 25 more developer resources.'
-random_paper: 39
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Heymilo Rate Limits
@@ -275,7 +333,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/screenshots/heymilo-2026-07-25T221122.png
 security:

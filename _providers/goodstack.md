@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -101,11 +101,78 @@ apis:
 - description: The Webhook Subscriptions API from Goodstack — 2 operation(s) for webhook subscriptions.
   name: Goodstack Webhook Subscriptions API
   slug: goodstack-webhook-subscriptions-api
-artifact_total: 26
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Goodstack Webhooks
   slug: goodstack-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Goodstack Services Activities API
+  slug: open-goodstack-activities-api
+- collection_type: open
+  name: Goodstack Services Activities Agent Verifications API
+  slug: open-goodstack-agent-verifications-api
+- collection_type: open
+  name: Goodstack Services Activities Categories API
+  slug: open-goodstack-categories-api
+- collection_type: open
+  name: Goodstack Services Activities Countries API
+  slug: open-goodstack-countries-api
+- collection_type: open
+  name: Goodstack Services Activities Donation Sessions API
+  slug: open-goodstack-donation-sessions-api
+- collection_type: open
+  name: Goodstack Services Activities Donations API
+  slug: open-goodstack-donations-api
+- collection_type: open
+  name: Goodstack Services Activities Eligibility Subscriptions API
+  slug: open-goodstack-eligibility-subscriptions-api
+- collection_type: open
+  name: Goodstack Services Activities Gift Aid API
+  slug: open-goodstack-gift-aid-api
+- collection_type: open
+  name: Goodstack Services Activities Monitoring Subscriptions API
+  slug: open-goodstack-monitoring-subscriptions-api
+- collection_type: open
+  name: Goodstack Services Activities Org name search API
+  slug: open-goodstack-org-name-search-api
+- collection_type: open
+  name: Goodstack Services Activities Organisation API
+  slug: open-goodstack-organisation-api
+- collection_type: open
+  name: Goodstack Services Activities Organisations API
+  slug: open-goodstack-organisations-api
+- collection_type: open
+  name: Goodstack Services Activities Registries API
+  slug: open-goodstack-registries-api
+- collection_type: open
+  name: Goodstack Services Activities Users API
+  slug: open-goodstack-users-api
+- collection_type: open
+  name: Goodstack Services Activities Validation Invites API
+  slug: open-goodstack-validation-invites-api
+- collection_type: open
+  name: Goodstack Services Activities Validation Request Documents API
+  slug: open-goodstack-validation-request-documents-api
+- collection_type: open
+  name: Goodstack Services Activities Validation Requests API
+  slug: open-goodstack-validation-requests-api
+- collection_type: open
+  name: Goodstack Services Activities Validation Submission Configuration API
+  slug: open-goodstack-validation-submission-configuration-api
+- collection_type: open
+  name: Goodstack Services Activities Validation Submission Documents API
+  slug: open-goodstack-validation-submission-documents-api
+- collection_type: open
+  name: Goodstack Services Activities Validation Submissions API
+  slug: open-goodstack-validation-submissions-api
+- collection_type: open
+  name: Goodstack Services Activities Webhook Subscriptions API
+  slug: open-goodstack-webhook-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -242,7 +309,7 @@ overview: 'Goodstack publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Goodstack''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
-random_paper: 119
+random_paper: 65
 score:
   band: developing
   composite: 53.1
@@ -272,7 +339,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/screenshots/goodstack-2026-07-25T220057.png
 security:

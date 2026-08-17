@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -58,7 +58,17 @@ apis:
 - description: First-party partner API to search and filter transactions on Cashplus/Zempler accounts, for reconciliation and reporting. Requires a direct commercial relationship with the bank.
   name: Cashplus Transactions API
   slug: cashplus-transactions-api
-artifact_total: 15
+artifact_total: 18
+collections:
+- collection_type: open
+  name: Account and Transaction API Specification
+  slug: open-cashplus-account-information
+- collection_type: open
+  name: Confirmation of Funds API Specification
+  slug: open-cashplus-confirmation-of-funds
+- collection_type: open
+  name: Payment Initiation API
+  slug: open-cashplus-payment-initiation
 common:
 - group: auth
   title: ''
@@ -201,7 +211,7 @@ overview: 'Cashplus Bank publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 26 more developer resources.'
-random_paper: 27
+random_paper: 122
 scopes:
 - name: Cashplus Scopes
   scope_count: 3
@@ -236,7 +246,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/screenshots/cashplus-2026-07-25T204726.png
 security:

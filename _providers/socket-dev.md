@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -140,7 +140,7 @@ arazzos:
 - description: List the latest organization alerts and, when any are present, apply a triage state to one of them.
   name: Socket Triage Latest Alerts
   slug: socket-dev-triage-latest-alerts-workflow
-artifact_total: 103
+artifact_total: 123
 collections:
 - collection_type: postman
   name: Socket Alerts API
@@ -188,6 +188,9 @@ collections:
   name: Socket Webhooks API
   slug: postman-socket-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Socket Alerts API
   slug: open-socket-alerts-api
 - collection_type: open
@@ -199,6 +202,63 @@ collections:
 - collection_type: open
   name: Socket Dependencies API
   slug: open-socket-dependencies-api
+- collection_type: open
+  name: Socket alerts API
+  slug: open-socket-dev-alerts-api
+- collection_type: open
+  name: Socket alerts api-tokens API
+  slug: open-socket-dev-api-tokens-api
+- collection_type: open
+  name: Socket alerts audit-log API
+  slug: open-socket-dev-audit-log-api
+- collection_type: open
+  name: Socket alerts dependencies API
+  slug: open-socket-dev-dependencies-api
+- collection_type: open
+  name: Socket alerts diff-scans API
+  slug: open-socket-dev-diff-scans-api
+- collection_type: open
+  name: Socket alerts fixes API
+  slug: open-socket-dev-fixes-api
+- collection_type: open
+  name: Socket alerts full-scans API
+  slug: open-socket-dev-full-scans-api
+- collection_type: open
+  name: Socket alerts license-policy API
+  slug: open-socket-dev-license-policy-api
+- collection_type: open
+  name: Socket alerts metadata API
+  slug: open-socket-dev-metadata-api
+- collection_type: open
+  name: Socket alerts org-settings API
+  slug: open-socket-dev-org-settings-api
+- collection_type: open
+  name: Socket alerts org-snapshots API
+  slug: open-socket-dev-org-snapshots-api
+- collection_type: open
+  name: Socket alerts packages API
+  slug: open-socket-dev-packages-api
+- collection_type: open
+  name: Socket alerts repo-labels API
+  slug: open-socket-dev-repo-labels-api
+- collection_type: open
+  name: Socket alerts repos API
+  slug: open-socket-dev-repos-api
+- collection_type: open
+  name: Socket alerts security-policy API
+  slug: open-socket-dev-security-policy-api
+- collection_type: open
+  name: Socket alerts telemetry API
+  slug: open-socket-dev-telemetry-api
+- collection_type: open
+  name: Socket alerts threat-feed API
+  slug: open-socket-dev-threat-feed-api
+- collection_type: open
+  name: Socket alerts triage API
+  slug: open-socket-dev-triage-api
+- collection_type: open
+  name: Socket alerts webhooks API
+  slug: open-socket-dev-webhooks-api
 - collection_type: open
   name: Socket Diff Scans API
   slug: open-socket-diff-scans-api
@@ -637,7 +697,7 @@ plans:
 - name: Socket Dev Plans Pricing
   plan_count: 3
   slug: socket-dev-plans-pricing
-random_paper: 53
+random_paper: 119
 rate_limits:
 - limit_count: 3
   name: Socket Dev Rate Limits
@@ -686,7 +746,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/screenshots/socket-dev-2026-06-20T194122.png
 security:

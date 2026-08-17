@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Unified commercial insurance API connecting to 40+ carriers and MGAs through a single integration. Documented endpoint families include Applications (create and submit in a unified JSON schema), Quote
@@ -127,7 +127,7 @@ overview: 'Coverforce publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Coverforce''s developer surface includes documentation, API reference, signup flow, support, engineering blog, and 14 more developer resources.'
-random_paper: 110
+random_paper: 27
 score:
   band: emerging
   composite: 26.4
@@ -150,7 +150,7 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/screenshots/coverforce-2026-07-25T210552.png
 security:

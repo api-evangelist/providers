@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,17 @@ apis:
 - description: Time-series datasets and their metadata.
   name: Nasdaq Datasets API
   slug: nasdaq-omx-group-datasets-api
-artifact_total: 11
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nasdaq Data Link Databases API
+  slug: open-nasdaq-omx-group-databases-api
+- collection_type: open
+  name: Nasdaq Data Link Databases Datasets API
+  slug: open-nasdaq-omx-group-datasets-api
 - collection_type: open
   name: Nasdaq Data Link API
   slug: open-nasdaq-omx-group
@@ -125,7 +134,7 @@ press:
 - date: '2026-05-25'
   title: Nasdaq and Wall Street Executives Testify on Artificial ...
   url: https://www.c-span.org/program/house-committee/nasdaq-and-wall-street-executives-testify-on-artificial-intelligence/670205
-random_paper: 59
+random_paper: 129
 rate_limits:
 - limit_count: 11
   name: Nasdaq Omx Group Rate Limits
@@ -156,7 +165,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-omx-group/refs/heads/main/screenshots/nasdaq-omx-group-2026-06-20T185958.png
 security:

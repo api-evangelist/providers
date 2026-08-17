@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: Websites configured under an account.
   name: VWO Websites API
   slug: vwo-websites-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VWO Data Campaigns API
+  slug: open-vwo-campaigns-api
+- collection_type: open
+  name: VWO Data Campaigns Feature Flags API
+  slug: open-vwo-feature-flags-api
+- collection_type: open
+  name: VWO Data Campaigns Reports API
+  slug: open-vwo-reports-api
+- collection_type: open
+  name: VWO Data Campaigns Websites API
+  slug: open-vwo-websites-api
 - collection_type: open
   name: VWO Data API
   slug: open-vwo
@@ -128,7 +143,7 @@ plans:
 - name: Vwo Plans Pricing
   plan_count: 1
   slug: vwo-plans-pricing
-random_paper: 108
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Vwo Rate Limits
@@ -153,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/screenshots/vwo-2026-06-20T201152.png
 security:

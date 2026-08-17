@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Airbility
 nav: Providers
 network: true
 overview: Airbility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 9
+random_paper: 75
 score:
   band: minimal
   composite: 3.2
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbility/refs/heads/main/screenshots/airbility-2026-07-25T195411.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -78,8 +78,50 @@ apis:
 - description: MODELED. Configurable clinical and administrative forms.
   name: Open Dental Sheets API
   slug: opendental-sheets-api
-artifact_total: 20
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Dental Accounts & Ledger API
+  slug: open-opendental-accounts-ledger-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Appointments API
+  slug: open-opendental-appointments-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Claims API
+  slug: open-opendental-claims-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Documents API
+  slug: open-opendental-documents-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Fees & Fee Schedules API
+  slug: open-opendental-fees-fee-schedules-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Medications & Prescriptions API
+  slug: open-opendental-medications-prescriptions-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Patients API
+  slug: open-opendental-patients-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Payments API
+  slug: open-opendental-payments-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Procedures API
+  slug: open-opendental-procedures-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Providers API
+  slug: open-opendental-providers-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Recalls API
+  slug: open-opendental-recalls-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Referrals API
+  slug: open-opendental-referrals-api
+- collection_type: open
+  name: Open Dental Accounts & Ledger Sheets API
+  slug: open-opendental-sheets-api
 - collection_type: open
   name: Open Dental API
   slug: open-opendental
@@ -148,7 +190,7 @@ plans:
 - name: Opendental Plans Pricing
   plan_count: 3
   slug: opendental-plans-pricing
-random_paper: 106
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Opendental Rate Limits
@@ -179,7 +221,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/screenshots/opendental-2026-08-07T190545.png
 security:

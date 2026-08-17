@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,11 +53,29 @@ apis:
 - description: Yank and unyank crate versions
   name: crates.io Versions API
   slug: crates-io-versions-api
-artifact_total: 35
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: crates.io Sparse Index Config API
+  slug: open-crates-io-config-api
+- collection_type: open
+  name: .io Sparse Index Config Crates API
+  slug: open-crates-io-crates-api
+- collection_type: open
+  name: crates.io Sparse Config Index API
+  slug: open-crates-io-index-api
+- collection_type: open
+  name: crates.io Sparse Index Config Owners API
+  slug: open-crates-io-owners-api
 - collection_type: open
   name: crates.io Sparse Index API
   slug: open-crates-io-sparse-index
+- collection_type: open
+  name: crates.io Sparse Index Config Versions API
+  slug: open-crates-io-versions-api
 - collection_type: open
   name: crates.io Web API
   slug: open-crates-io-web-api
@@ -269,7 +287,7 @@ overview: 'crates.io publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   crates.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, tooling, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 63
+random_paper: 9
 rules:
 - name: crates.io API Rules
   rule_count: 6
@@ -307,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/screenshots/crates-io-2026-06-20T175213.png
 security:

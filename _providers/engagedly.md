@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: Manage user profiles, permissions, and activation status
   name: Engagedly Users API
   slug: engagedly-users-api
-artifact_total: 20
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Engagedly Activities API
+  slug: open-engagedly-activities-api
+- collection_type: open
+  name: Engagedly Activities Businesses API
+  slug: open-engagedly-businesses-api
+- collection_type: open
+  name: Engagedly Activities Departments API
+  slug: open-engagedly-departments-api
+- collection_type: open
+  name: Engagedly Activities Job Titles API
+  slug: open-engagedly-job-titles-api
+- collection_type: open
+  name: Engagedly Activities Locations API
+  slug: open-engagedly-locations-api
+- collection_type: open
+  name: Engagedly Activities Permissions API
+  slug: open-engagedly-permissions-api
+- collection_type: open
+  name: Engagedly Activities User Attributes API
+  slug: open-engagedly-user-attributes-api
+- collection_type: open
+  name: Engagedly Activities Users API
+  slug: open-engagedly-users-api
 common:
 - group: agent
   title: ''
@@ -163,7 +191,7 @@ plans:
 - name: Engagedly Plans Pricing
   plan_count: 8
   slug: engagedly-plans-pricing
-random_paper: 104
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Engagedly Rate Limits
@@ -197,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/screenshots/engagedly-2026-06-20T180715.png
 security:

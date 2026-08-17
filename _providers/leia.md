@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -35,11 +35,18 @@ apis:
 - description: OAuth 2.0 / OpenID Connect token endpoint for the Immersity AI Keycloak realm. Exchange a client ID and secret issued from the Immersity account page for a bearer access token using the client_credent
   name: Immersity AI Authentication API
   slug: immersity-ai-authentication-api
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Leia Callbacks
   slug: leia-callbacks
+collections:
+- collection_type: open
+  name: immersity-ai-authentication
+  slug: open-leia-immersity-authentication
+- collection_type: open
+  name: Immersity Cloud API
+  slug: open-leia-immersity-cloud-api
 common:
 - group: agent
   title: ''
@@ -193,7 +200,7 @@ plans:
 - name: Leia Plans
   plan_count: 6
   slug: leia-plans
-random_paper: 51
+random_paper: 113
 scopes:
 - name: Leia Scopes
   scope_count: 20
@@ -222,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/screenshots/leia-2026-08-07T171526.png
 security:

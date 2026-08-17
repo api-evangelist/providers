@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 3
@@ -187,14 +187,131 @@ arazzos:
 - description: Open a tool router session, search for a tool by use case, and execute it.
   name: Composio Tool Router Session
   slug: composio-tool-router-session-workflow
-artifact_total: 100
+artifact_total: 139
 collections:
 - collection_type: postman
   name: Composio Platform API
   slug: postman-composio-openapi-original
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Composio Platform Account Management API
+  slug: open-composio-account-management-api
+- collection_type: open
+  name: Composio Platform Account Management AI API
+  slug: open-composio-ai-api
+- collection_type: open
+  name: Composio Platform Account Management API Keys API
+  slug: open-composio-api-keys-api
+- collection_type: open
+  name: Composio Platform Account Management Applications API
+  slug: open-composio-applications-api
+- collection_type: open
+  name: Composio Platform Account Management Auth Configs API
+  slug: open-composio-auth-configs-api
+- collection_type: open
+  name: Composio Platform Account Management Authentication API
+  slug: open-composio-authentication-api
+- collection_type: open
+  name: Composio Platform Account Management Categories API
+  slug: open-composio-categories-api
+- collection_type: open
+  name: Composio Platform Account Management CLI API
+  slug: open-composio-cli-api
+- collection_type: open
+  name: Composio Platform Account Management CLI Authentication API
+  slug: open-composio-cli-authentication-api
+- collection_type: open
+  name: Composio Platform Account Management Configuration API
+  slug: open-composio-configuration-api
+- collection_type: open
+  name: Composio Platform Account Management Connected Accounts API
+  slug: open-composio-connected-accounts-api
+- collection_type: open
+  name: Composio Platform Account Management Custom API
+  slug: open-composio-custom-api
+- collection_type: open
+  name: Composio Platform Account Management Execution API
+  slug: open-composio-execution-api
+- collection_type: open
+  name: Composio Platform Account Management Files API
+  slug: open-composio-files-api
+- collection_type: open
+  name: Composio Platform Account Management Instances API
+  slug: open-composio-instances-api
+- collection_type: open
+  name: Composio Platform Account Management Integration API
+  slug: open-composio-integration-api
+- collection_type: open
+  name: Composio Platform Account Management Logs API
+  slug: open-composio-logs-api
+- collection_type: open
+  name: Composio Platform Account Management MCP API
+  slug: open-composio-mcp-api
+- collection_type: open
+  name: Composio Platform Account Management Migration API
+  slug: open-composio-migration-api
+- collection_type: open
+  name: Composio Platform Account Management Natural Language Processing API
+  slug: open-composio-natural-language-processing-api
+- collection_type: open
   name: Composio Platform API
   slug: open-composio-openapi-original
+- collection_type: open
+  name: Composio Platform Account Management Organization API
+  slug: open-composio-organization-api
+- collection_type: open
+  name: Composio Platform Account Management Organization Management API
+  slug: open-composio-organization-management-api
+- collection_type: open
+  name: Composio Platform Account Management Projects API
+  slug: open-composio-projects-api
+- collection_type: open
+  name: Composio Platform Account Management Proxy API
+  slug: open-composio-proxy-api
+- collection_type: open
+  name: Composio Platform Account Management Realtime API
+  slug: open-composio-realtime-api
+- collection_type: open
+  name: Composio Platform Account Management Servers API
+  slug: open-composio-servers-api
+- collection_type: open
+  name: Composio Platform Account Management Session API
+  slug: open-composio-session-api
+- collection_type: open
+  name: Composio Platform Account Management Tool Router API
+  slug: open-composio-tool-router-api
+- collection_type: open
+  name: Composio Platform Account Management Toolkits API
+  slug: open-composio-toolkits-api
+- collection_type: open
+  name: Composio Platform Account Management Tools API
+  slug: open-composio-tools-api
+- collection_type: open
+  name: Composio Platform Account Management Triggers API
+  slug: open-composio-triggers-api
+- collection_type: open
+  name: Composio Platform Account Management Upload API
+  slug: open-composio-upload-api
+- collection_type: open
+  name: Composio Platform Account Management URL Generation API
+  slug: open-composio-url-generation-api
+- collection_type: open
+  name: Composio Platform Account Management User API
+  slug: open-composio-user-api
+- collection_type: open
+  name: Composio Platform Account Management UUID Conversion API
+  slug: open-composio-uuid-conversion-api
+- collection_type: open
+  name: Composio Platform Account Management Webhook Endpoints API
+  slug: open-composio-webhook-endpoints-api
+- collection_type: open
+  name: Composio Platform Account Management Webhook Subscriptions API
+  slug: open-composio-webhook-subscriptions-api
+- collection_type: open
+  name: Composio Platform Account Management x-internal API
+  slug: open-composio-x-internal-api
 common:
 - group: operate
   title: ''
@@ -585,7 +702,7 @@ plans:
 - name: Composio Plans Pricing
   plan_count: 4
   slug: composio-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Composio Rate Limits
@@ -629,7 +746,7 @@ score:
       total: 38
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png
 security:

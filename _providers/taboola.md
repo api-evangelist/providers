@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-12'
+  score: 51.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -87,7 +88,7 @@ apis:
 - description: Performance video items (motion ads).
   name: Taboola Video Items API
   slug: taboola-video-items-api
-artifact_total: 72
+artifact_total: 93
 collections:
 - collection_type: postman
   name: Taboola Backstage Accounts API
@@ -138,6 +139,15 @@ collections:
   name: Taboola Backstage Accounts Video Items API
   slug: postman-taboola-video-items-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Taboola Backstage Accounts API
+  slug: open-taboola-accounts-api
+- collection_type: open
+  name: Taboola Backstage Accounts Audience Targeting API
+  slug: open-taboola-audience-targeting-api
+- collection_type: open
   name: Taboola Backstage Accounts API
   slug: open-taboola-backstage-accounts-api
 - collection_type: open
@@ -158,6 +168,48 @@ collections:
 - collection_type: open
   name: Taboola Backstage Reports API
   slug: open-taboola-backstage-reports-api
+- collection_type: open
+  name: Taboola Backstage Accounts Bulk Items API
+  slug: open-taboola-bulk-items-api
+- collection_type: open
+  name: Taboola Backstage Accounts Bulk Operations API
+  slug: open-taboola-bulk-operations-api
+- collection_type: open
+  name: Taboola Backstage Accounts Campaign Items API
+  slug: open-taboola-campaign-items-api
+- collection_type: open
+  name: Taboola Backstage Accounts Campaigns API
+  slug: open-taboola-campaigns-api
+- collection_type: open
+  name: Taboola Backstage Accounts Combined Audiences API
+  slug: open-taboola-combined-audiences-api
+- collection_type: open
+  name: Taboola Backstage Accounts Conversion Rules API
+  slug: open-taboola-conversion-rules-api
+- collection_type: open
+  name: Taboola Backstage Accounts Custom Audiences API
+  slug: open-taboola-custom-audiences-api
+- collection_type: open
+  name: Taboola Backstage Accounts Dictionary API
+  slug: open-taboola-dictionary-api
+- collection_type: open
+  name: Taboola Backstage Accounts First Party Audiences API
+  slug: open-taboola-first-party-audiences-api
+- collection_type: open
+  name: Taboola Backstage Accounts Lookalike Audiences API
+  slug: open-taboola-lookalike-audiences-api
+- collection_type: open
+  name: Taboola Backstage Accounts Marketplace Audiences API
+  slug: open-taboola-marketplace-audiences-api
+- collection_type: open
+  name: Taboola Backstage Accounts Reach Estimator API
+  slug: open-taboola-reach-estimator-api
+- collection_type: open
+  name: Taboola Backstage Accounts Reports API
+  slug: open-taboola-reports-api
+- collection_type: open
+  name: Taboola Backstage Accounts Video Items API
+  slug: open-taboola-video-items-api
 common:
 - group: build
   title: ''
@@ -194,7 +246,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://developers.taboola.com/llms.txt
+  url: https://developers.taboola.com/backstage-api/llms.txt
 - group: auth
   title: ''
   type: Authentication
@@ -270,7 +322,7 @@ common:
 - group: auth
   title: ''
   type: TrustCenter
-  url: https://trust.taboola.com/
+  url: https://www.taboola.com/trust-center
 - group: operate
   title: ''
   type: Support
@@ -351,6 +403,122 @@ common:
   title: ''
   type: FinOps
   url: finops/taboola-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/taboola-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/taboola-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/taboola-api-catalog.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/taboola-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/taboola-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/taboola-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/taboola-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/taboola-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/taboola-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/taboola-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/taboola-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/taboola-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/taboola-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/taboola-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/taboola-changelog.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/taboola-scopes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/taboola-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/taboola-components.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developers.taboola.com/backstage-api/changelog
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developers.taboola.com/backstage-api/reference/deprecated-endpoints
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.taboola.com/backstage-api/reference
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.taboola.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.taboola.com/backstage-api/docs/getting-account-details
+- group: auth
+  title: ''
+  type: Security
+  url: https://policies.taboola.com/vulnerability-disclosure-policy/
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://github.com/taboola/realize-claude-plugin
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.realize.com/mcp
+- group: start
+  title: ''
+  type: SignUp
+  url: https://ads.realizeperformance.com/signup
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.taboola.com/advertise/
 created: '2026-05-25T00:00:00.000Z'
 description: 'Taboola (NASDAQ: TBLA) is a New-York-headquartered native and discovery advertising company founded in 2007 by Adam Singolda. Its Realize performance marketing platform serves recommendation widgets across major publishers (a 30-year exclusive partnership with Yahoo since 2022) and offers advertisers programmatic access via the Backstage API for campaign management, audience targeting, conversion tracking, and reporting. The company also operates Connexity (commerce media), Skimlinks (publisher monetization), and DeeperDive (content discovery), and recently shipped Abby (AI ad assistant), the GenAI Ad Maker, and an official Realize MCP server for AI-driven campaign management.'
 features:
@@ -396,7 +564,14 @@ jsonld:
   property_count: 4
   slug: taboola-context
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: taboola-mcp.yml
+  slug: taboola-mcpyml
+- description: ''
+  name: Realize MCP endpoint
+  slug: realize-mcp-endpoint
+modified: '2026-08-13'
 name: Taboola
 nav: Providers
 network: true
@@ -406,12 +581,12 @@ overview: 'Taboola publishes 16 APIs on the [APIs.io](https://apis.io/) network,
   The Taboola catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Taboola''s developer surface includes authentication, developer portal, documentation, tooling, code examples, support, engineering blog, and 41 more developer resources.'
+  Taboola''s developer surface includes authentication, developer portal, documentation, tooling, code examples, support, engineering blog, and 70 more developer resources.'
 plans:
 - name: Taboola Plans Pricing
   plan_count: 2
   slug: taboola-plans-pricing
-random_paper: 18
+random_paper: 142
 rate_limits:
 - limit_count: 2
   name: Taboola Rate Limits
@@ -425,17 +600,22 @@ rules:
     info: 1
     warn: 4
   slug: taboola-jsonschema-spectral-rules
+scopes:
+- name: Taboola Scopes
+  scope_count: 0
+  slug: taboola-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 59.4
-  delta: 0.0
+  band: exemplar
+  composite: 78.3
+  delta: 18.9
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 89.5
     contract_quality: 72.0
-    developer_ergonomics: 54.3
-    discoverability: 59.3
-    governance: 58.3
-    operational_transparency: 26.3
+    developer_ergonomics: 87.0
+    discoverability: 75.9
+    governance: 79.2
+    operational_transparency: 60.5
   previous_composite: 59.4
   provenance:
     agentic_access: derived
@@ -445,14 +625,14 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/screenshots/taboola-2026-06-20T194849.png
 security:
 - kind: authentication
   name: Taboola Authentication
   slug: taboola-authentication
-  summary_line: http · 1 scheme
+  summary_line: oauth2/http · 3 schemes
 - kind: domain-security
   name: Taboola Domain Security
   slug: taboola-domain-security
@@ -460,7 +640,11 @@ security:
 - kind: vulnerability-disclosure
   name: Taboola Vulnerability Disclosure
   slug: taboola-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Taboola Trust Center
+  slug: taboola-trust-center
+  summary_line: ISO/IEC 27001:2022, ISO/IEC 27701:2019
 slug: taboola
 tags:
 - Advertising
@@ -473,5 +657,5 @@ tags:
 - Recommendation
 - Publisher
 - Programmatic
-website: https://www.taboola.com
+website: https://developers.taboola.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Answer operations
@@ -37,7 +37,17 @@ apis:
 - description: Search operations
   name: Seltz search API
   slug: seltz-search-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Seltz answer API
+  slug: open-seltz-answer-api
+- collection_type: open
+  name: Seltz answer search API
+  slug: open-seltz-search-api
 common:
 - group: other
   title: ''
@@ -155,7 +165,7 @@ overview: 'Seltz publishes 2 APIs on the [APIs.io](https://apis.io/) network: an
 
 
   Seltz''s developer surface includes documentation, API reference, getting-started guide, sandbox, pricing, signup flow, engineering blog, and 18 more developer resources.'
-random_paper: 82
+random_paper: 115
 score:
   band: developing
   composite: 50.8
@@ -178,7 +188,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

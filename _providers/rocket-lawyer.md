@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -62,20 +62,47 @@ apis:
 - description: The Templates API from Rocket Lawyer — 5 operation(s) for templates.
   name: Rocket Lawyer Templates API
   slug: rocket-lawyer-templates-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authentication Accesstoken API
+  slug: open-rocket-lawyer-accesstoken-api
 - collection_type: open
   name: Authentication API
   slug: open-rocket-lawyer-authentication-api
 - collection_type: open
+  name: Authentication Accesstoken Binders API
+  slug: open-rocket-lawyer-binders-api
+- collection_type: open
+  name: Authentication Accesstoken Documents API
+  slug: open-rocket-lawyer-documents-api
+- collection_type: open
+  name: Authentication Accesstoken Event Consumption API
+  slug: open-rocket-lawyer-event-consumption-api
+- collection_type: open
   name: Events API
   slug: open-rocket-lawyer-events-api
+- collection_type: open
+  name: Authentication Accesstoken Interviews API
+  slug: open-rocket-lawyer-interviews-api
 - collection_type: open
   name: RocketDocument v2 API
   slug: open-rocket-lawyer-rocketdocument-api
 - collection_type: open
   name: RocketSign & Binders API
   slug: open-rocket-lawyer-rocketsign-binders-api
+- collection_type: open
+  name: Authentication Accesstoken Servicetoken API
+  slug: open-rocket-lawyer-servicetoken-api
+- collection_type: open
+  name: Authentication Accesstoken Subscription Management API
+  slug: open-rocket-lawyer-subscription-management-api
+- collection_type: open
+  name: Authentication Accesstoken Templates API
+  slug: open-rocket-lawyer-templates-api
 common:
 - group: agent
   title: ''
@@ -234,7 +261,7 @@ overview: 'Rocket Lawyer publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Rocket Lawyer''s developer surface includes authentication, developer portal, getting-started guide, documentation, release notes, signup flow, support, and 29 more developer resources.'
-random_paper: 33
+random_paper: 12
 score:
   band: developing
   composite: 42.6
@@ -255,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/screenshots/rocket-lawyer-2026-06-20T193152.png
 security:

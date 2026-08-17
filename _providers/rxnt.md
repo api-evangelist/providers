@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: Retrieve patient CCDS clinical data.
   name: RXNT Clinical Data API
   slug: rxnt-clinical-data-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RXNT Clinical Data Authentication API
+  slug: open-rxnt-authentication-api
+- collection_type: open
+  name: RXNT Authentication Clinical Data API
+  slug: open-rxnt-clinical-data-api
 common:
 - group: agent
   title: ''
@@ -98,7 +108,7 @@ plans:
 - name: Rxnt Plans Pricing
   plan_count: 4
   slug: rxnt-plans-pricing
-random_paper: 100
+random_paper: 13
 score:
   band: thin
   composite: 28.4
@@ -125,7 +135,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

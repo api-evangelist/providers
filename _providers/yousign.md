@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -153,7 +153,125 @@ apis:
 - description: A way to partition your Yousign organization into separate entities.
   name: YouSign Workspace API
   slug: yousign-workspace-api
-artifact_total: 47
+artifact_total: 86
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Api v3 Applicant API
+  slug: open-yousign-applicant-api
+- collection_type: open
+  name: Public Api v3 Applicant Approver API
+  slug: open-yousign-approver-api
+- collection_type: open
+  name: Public Api v3 Applicant Archive API
+  slug: open-yousign-archive-api
+- collection_type: open
+  name: Public Api v3 Applicant Audit Trail API
+  slug: open-yousign-audit-trail-api
+- collection_type: open
+  name: Public Api v3 Applicant Bank Account Lookup Verification API
+  slug: open-yousign-bank-account-lookup-verification-api
+- collection_type: open
+  name: Public Api v3 Applicant Bank Account Verification API
+  slug: open-yousign-bank-account-verification-api
+- collection_type: open
+  name: Public Api v3 Applicant Company Verification API
+  slug: open-yousign-company-verification-api
+- collection_type: open
+  name: Public Api v3 Applicant Consumption API
+  slug: open-yousign-consumption-api
+- collection_type: open
+  name: Public Api v3 Applicant Contact API
+  slug: open-yousign-contact-api
+- collection_type: open
+  name: Public Api v3 Applicant Custom Experience API
+  slug: open-yousign-custom-experience-api
+- collection_type: open
+  name: Public Api v3 Applicant Custom Property API
+  slug: open-yousign-custom-property-api
+- collection_type: open
+  name: Public Api v3 Applicant Deprecated API
+  slug: open-yousign-deprecated-api
+- collection_type: open
+  name: Public Api v3 Applicant Document Analysis API
+  slug: open-yousign-document-analysis-api
+- collection_type: open
+  name: Public Api v3 Applicant Document API
+  slug: open-yousign-document-api
+- collection_type: open
+  name: Public Api v3 Applicant Electronic Seal API
+  slug: open-yousign-electronic-seal-api
+- collection_type: open
+  name: Public Api v3 Applicant Electronic Seal Audit Trail API
+  slug: open-yousign-electronic-seal-audit-trail-api
+- collection_type: open
+  name: Public Api v3 Applicant Electronic Seal Document API
+  slug: open-yousign-electronic-seal-document-api
+- collection_type: open
+  name: Public Api v3 Applicant Electronic Seal Image API
+  slug: open-yousign-electronic-seal-image-api
+- collection_type: open
+  name: Public Api v3 Applicant Field API
+  slug: open-yousign-field-api
+- collection_type: open
+  name: Public Api v3 Applicant Follower API
+  slug: open-yousign-follower-api
+- collection_type: open
+  name: Public Api v3 Applicant Identity Document Verification API
+  slug: open-yousign-identity-document-verification-api
+- collection_type: open
+  name: Public Api v3 Applicant Identity Video Verification API
+  slug: open-yousign-identity-video-verification-api
+- collection_type: open
+  name: Public Api v3 Applicant Label API
+  slug: open-yousign-label-api
+- collection_type: open
+  name: Public Api v3 Applicant Metadata API
+  slug: open-yousign-metadata-api
+- collection_type: open
+  name: Public Api v3 Applicant Proof of Address Verification API
+  slug: open-yousign-proof-of-address-verification-api
+- collection_type: open
+  name: Public Api v3 Applicant Signature Request API
+  slug: open-yousign-signature-request-api
+- collection_type: open
+  name: Public Api v3 Applicant Signer API
+  slug: open-yousign-signer-api
+- collection_type: open
+  name: Public Api v3 Applicant Signer Consent Request API
+  slug: open-yousign-signer-consent-request-api
+- collection_type: open
+  name: Public Api v3 Applicant Signer Document Request API
+  slug: open-yousign-signer-document-request-api
+- collection_type: open
+  name: Public Api v3 Applicant Template API
+  slug: open-yousign-template-api
+- collection_type: open
+  name: Public Api v3 Applicant User API
+  slug: open-yousign-user-api
+- collection_type: open
+  name: Public Api v3 Applicant User Invitation API
+  slug: open-yousign-user-invitation-api
+- collection_type: open
+  name: Public Api v3 Applicant Verification Audit Trail API
+  slug: open-yousign-verification-audit-trail-api
+- collection_type: open
+  name: Public Api v3 Applicant Watchlist Verification API
+  slug: open-yousign-watchlist-verification-api
+- collection_type: open
+  name: Public Api v3 Applicant Webhook API
+  slug: open-yousign-webhook-api
+- collection_type: open
+  name: Public Api v3 Applicant Workflow Session API
+  slug: open-yousign-workflow-session-api
+- collection_type: open
+  name: Public Api v3 Applicant Workflow Template API
+  slug: open-yousign-workflow-template-api
+- collection_type: open
+  name: Public Api v3 Applicant Workspace API
+  slug: open-yousign-workspace-api
 common:
 - group: agent
   title: ''
@@ -251,7 +369,7 @@ plans:
 - name: Yousign Plans Pricing
   plan_count: 4
   slug: yousign-plans-pricing
-random_paper: 62
+random_paper: 37
 rate_limits:
 - limit_count: 7
   name: Yousign Rate Limits
@@ -285,7 +403,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yousign/refs/heads/main/screenshots/yousign-2026-06-20T201749.png
 security:

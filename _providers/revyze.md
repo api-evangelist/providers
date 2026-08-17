@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: The Admin API from Revyze — 2 operation(s) for admin.
@@ -61,11 +61,45 @@ apis:
 - description: The Webhook API from Revyze — 2 operation(s) for webhook.
   name: Revyze Webhook API
   slug: revyze-webhook-api
-artifact_total: 13
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Revyze Webhooks
   slug: revyze-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast Admin API
+  slug: open-revyze-admin-api
+- collection_type: open
+  name: Fast Admin Coach API
+  slug: open-revyze-coach-api
+- collection_type: open
+  name: Fast Admin FastAPI API
+  slug: open-revyze-fastapi-api
+- collection_type: open
+  name: Fast Admin Force Upgrade App API
+  slug: open-revyze-force-upgrade-app-api
+- collection_type: open
+  name: Fast Admin Graphql3 API
+  slug: open-revyze-graphql3-api
+- collection_type: open
+  name: Fast Admin Health API
+  slug: open-revyze-health-api
+- collection_type: open
+  name: Fast Admin Multiplayer API
+  slug: open-revyze-multiplayer-api
+- collection_type: open
+  name: Fast Admin Privacy Policy API
+  slug: open-revyze-privacy-policy-api
+- collection_type: open
+  name: Fast Admin Privacy Policy En API
+  slug: open-revyze-privacy-policy-en-api
+- collection_type: open
+  name: Fast Admin Webhook API
+  slug: open-revyze-webhook-api
 common:
 - group: company
   title: ''
@@ -130,7 +164,7 @@ overview: 'Revyze publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Revyze''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 77
+random_paper: 81
 score:
   band: thin
   composite: 29.4
@@ -150,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

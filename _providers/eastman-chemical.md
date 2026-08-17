@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ press:
 - date: '2026-05-25'
   title: Assessing Eastman Chemical (EMN) Valuation As Cost ...
   url: https://finance.yahoo.com/news/assessing-eastman-chemical-emn-valuation-051826475.html
-random_paper: 52
+random_paper: 122
 score:
   band: minimal
   composite: 11.8
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eastman-chemical/refs/heads/main/screenshots/eastman-chemical-2026-06-20T180400.png
 security:

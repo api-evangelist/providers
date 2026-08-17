@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ overview: 'Lenus eHealth is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Lenus eHealth''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 71
+random_paper: 104
 score:
   band: emerging
   composite: 15.0
@@ -116,7 +116,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lenus/refs/heads/main/screenshots/lenus-2026-07-25T224916.png
 security:

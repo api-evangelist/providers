@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -60,7 +60,29 @@ apis:
 - description: Manage webhook configurations
   name: ChargeDesk Webhooks API
   slug: chargedesk-webhooks-api
-artifact_total: 26
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ChargeDesk REST Charges API
+  slug: open-chargedesk-charges-api
+- collection_type: open
+  name: ChargeDesk REST Charges Customers API
+  slug: open-chargedesk-customers-api
+- collection_type: open
+  name: ChargeDesk REST Charges Gateway API
+  slug: open-chargedesk-gateway-api
+- collection_type: open
+  name: ChargeDesk REST Charges Products API
+  slug: open-chargedesk-products-api
+- collection_type: open
+  name: ChargeDesk REST Charges Subscriptions API
+  slug: open-chargedesk-subscriptions-api
+- collection_type: open
+  name: ChargeDesk REST Charges Webhooks API
+  slug: open-chargedesk-webhooks-api
 common:
 - group: agent
   title: ''
@@ -182,7 +204,7 @@ plans:
 - name: Chargedesk Plans Pricing
   plan_count: 4
   slug: chargedesk-plans-pricing
-random_paper: 81
+random_paper: 147
 rate_limits:
 - limit_count: 0
   name: Chargedesk Rate Limits
@@ -222,7 +244,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/screenshots/chargedesk-2026-06-20T174221.png
 security:

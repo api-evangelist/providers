@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -150,11 +150,126 @@ apis:
 - description: The Zones (GO9) API from Lytx — 1 operation(s) for zones (go9).
   name: Lytx Zones (GO9) API
   slug: lytx-zones-go9-api
-artifact_total: 42
+artifact_total: 80
 asyncapis:
 - description: ''
   name: Lytx Webhooks
   slug: lytx-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lytx..Management.Api Consent API
+  slug: open-lytx-consent-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Devices (DriveCam) API
+  slug: open-lytx-devices-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Devices (GO9) API
+  slug: open-lytx-devices-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent DeviceStatusInfo (GO9) API
+  slug: open-lytx-devicestatusinfo-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Diagnostics (GO9) API
+  slug: open-lytx-diagnostics-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Distances (DriveCam) API
+  slug: open-lytx-distances-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Driver Assignments (DriveCam) API
+  slug: open-lytx-driver-assignments-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Driver ID (DriveCam) API
+  slug: open-lytx-driver-id-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Drivers (GO9) API
+  slug: open-lytx-drivers-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent DVIR (DriveCam) API
+  slug: open-lytx-dvir-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent DVIR (GO9) API
+  slug: open-lytx-dvir-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent ECM API
+  slug: open-lytx-ecm-api
+- collection_type: open
+  name: Lytx..Management.Api Consent ECM (DriveCam) API
+  slug: open-lytx-ecm-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent ExceptionEvent (GO9) API
+  slug: open-lytx-exceptionevent-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent FaultData (GO9) API
+  slug: open-lytx-faultdata-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent FleetUtilization (GO9) API
+  slug: open-lytx-fleetutilization-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Geofences (DriveCam) API
+  slug: open-lytx-geofences-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent GPS (DriveCam) API
+  slug: open-lytx-gps-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent GPS (GO9) API
+  slug: open-lytx-gps-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Groups API
+  slug: open-lytx-groups-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Groups (DriveCam) API
+  slug: open-lytx-groups-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Groups (GO9) API
+  slug: open-lytx-groups-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent HOS (DriveCam) API
+  slug: open-lytx-hos-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent HOS (GO9) API
+  slug: open-lytx-hos-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent IFTAReport (GO9) API
+  slug: open-lytx-iftareport-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent MaintenanceRecords (GO9) API
+  slug: open-lytx-maintenancerecords-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Rule (GO9) API
+  slug: open-lytx-rule-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Safety (DriveCam) API
+  slug: open-lytx-safety-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Safety Events (DriveCam) API
+  slug: open-lytx-safety-events-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent StatusData (GO9) API
+  slug: open-lytx-statusdata-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Trips (DriveCam) API
+  slug: open-lytx-trips-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Trips (GO9) API
+  slug: open-lytx-trips-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Users (DriveCam) API
+  slug: open-lytx-users-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Users (GO9) API
+  slug: open-lytx-users-go9-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Vehicles (DriveCam) API
+  slug: open-lytx-vehicles-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Video (DriveCam) API
+  slug: open-lytx-video-drivecam-api
+- collection_type: open
+  name: Lytx..Management.Api Consent Zones (GO9) API
+  slug: open-lytx-zones-go9-api
 common:
 - group: other
   title: ''
@@ -271,7 +386,7 @@ overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lytx''s developer surface includes documentation, getting-started guide, authentication, API reference, support, and 19 more developer resources.'
-random_paper: 105
+random_paper: 18
 score:
   band: developing
   composite: 43.6
@@ -295,7 +410,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/screenshots/lytx-2026-07-25T225802.png
 security:

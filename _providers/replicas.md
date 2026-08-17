@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -78,11 +78,51 @@ apis:
 - description: Manage interactive terminal sessions in active workspaces
   name: Replicas Terminal API
   slug: replicas-terminal-api
-artifact_total: 19
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Replicas Webhooks
   slug: replicas-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Replica Analytics API
+  slug: open-replicas-analytics-api
+- collection_type: open
+  name: Replica Analytics API Keys API
+  slug: open-replicas-api-keys-api
+- collection_type: open
+  name: Replica Analytics Automation API
+  slug: open-replicas-automation-api
+- collection_type: open
+  name: Replica Analytics Credentials API
+  slug: open-replicas-credentials-api
+- collection_type: open
+  name: Replica Analytics Downloads API
+  slug: open-replicas-downloads-api
+- collection_type: open
+  name: Replica Analytics Environments API
+  slug: open-replicas-environments-api
+- collection_type: open
+  name: Replica Analytics Google Search Console API
+  slug: open-replicas-google-search-console-api
+- collection_type: open
+  name: Replica Analytics Profile API
+  slug: open-replicas-profile-api
+- collection_type: open
+  name: Analytics Replica API
+  slug: open-replicas-replica-api
+- collection_type: open
+  name: Replica Analytics Repository API
+  slug: open-replicas-repository-api
+- collection_type: open
+  name: Replica Analytics Slack API
+  slug: open-replicas-slack-api
+- collection_type: open
+  name: Replica Analytics Terminal API
+  slug: open-replicas-terminal-api
 common:
 - group: other
   title: ''
@@ -223,7 +263,7 @@ overview: 'Replicas publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Replicas'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, GitHub presence, and 23 more developer resources.'
-random_paper: 11
+random_paper: 106
 score:
   band: developing
   composite: 54.4
@@ -247,7 +287,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

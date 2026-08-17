@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 542
   human_in_the_loop: 8
@@ -264,7 +264,227 @@ apis:
 - description: The Workflows API from University of Groningen — 1 operation(s) for workflows.
   name: University of Groningen Workflows API
   slug: university-of-groningen-workflows-api
-artifact_total: 94
+artifact_total: 167
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dataverse Access API
+  slug: open-university-of-groningen-access-api
+- collection_type: open
+  name: Dataverse Access activity API
+  slug: open-university-of-groningen-activity-api
+- collection_type: open
+  name: Dataverse Access addFilesToDataset API
+  slug: open-university-of-groningen-addfilestodataset-api
+- collection_type: open
+  name: Dataverse Access addFileToDataset API
+  slug: open-university-of-groningen-addfiletodataset-api
+- collection_type: open
+  name: Dataverse Access addGlobusFilesToDataset API
+  slug: open-university-of-groningen-addglobusfilestodataset-api
+- collection_type: open
+  name: Dataverse Access Admin API
+  slug: open-university-of-groningen-admin-api
+- collection_type: open
+  name: Dataverse Access application API
+  slug: open-university-of-groningen-application-api
+- collection_type: open
+  name: Dataverse Access authorCollaboration API
+  slug: open-university-of-groningen-authorcollaboration-api
+- collection_type: open
+  name: Dataverse Access award API
+  slug: open-university-of-groningen-award-api
+- collection_type: open
+  name: Dataverse Access Batch API
+  slug: open-university-of-groningen-batch-api
+- collection_type: open
+  name: Dataverse Access Builtin Users API
+  slug: open-university-of-groningen-builtin-users-api
+- collection_type: open
+  name: Dataverse Access classificationScheme API
+  slug: open-university-of-groningen-classificationscheme-api
+- collection_type: open
+  name: Dataverse Access concept API
+  slug: open-university-of-groningen-concept-api
+- collection_type: open
+  name: Dataverse Access conferenceSeries API
+  slug: open-university-of-groningen-conferenceseries-api
+- collection_type: open
+  name: Dataverse Access contract API
+  slug: open-university-of-groningen-contract-api
+- collection_type: open
+  name: Dataverse Access course API
+  slug: open-university-of-groningen-course-api
+- collection_type: open
+  name: Dataverse Access dataSet API
+  slug: open-university-of-groningen-dataset-api
+- collection_type: open
+  name: Dataverse Access Datasetfields API
+  slug: open-university-of-groningen-datasetfields-api
+- collection_type: open
+  name: Dataverse Access Datasets API
+  slug: open-university-of-groningen-datasets-api
+- collection_type: open
+  name: Dataverse Access Datatags API
+  slug: open-university-of-groningen-datatags-api
+- collection_type: open
+  name: Dataverse Access DataverseFeaturedItems API
+  slug: open-university-of-groningen-dataversefeatureditems-api
+- collection_type: open
+  name: Dataverse Access Dataverses API
+  slug: open-university-of-groningen-dataverses-api
+- collection_type: open
+  name: Dataverse Access Edit API
+  slug: open-university-of-groningen-edit-api
+- collection_type: open
+  name: Dataverse Access education API
+  slug: open-university-of-groningen-education-api
+- collection_type: open
+  name: Dataverse Access equipment API
+  slug: open-university-of-groningen-equipment-api
+- collection_type: open
+  name: Dataverse Access event API
+  slug: open-university-of-groningen-event-api
+- collection_type: open
+  name: Dataverse Access externalOrganization API
+  slug: open-university-of-groningen-externalorganization-api
+- collection_type: open
+  name: Dataverse Access externalPerson API
+  slug: open-university-of-groningen-externalperson-api
+- collection_type: open
+  name: Dataverse Access ExternalTools API
+  slug: open-university-of-groningen-externaltools-api
+- collection_type: open
+  name: Dataverse Access Files API
+  slug: open-university-of-groningen-files-api
+- collection_type: open
+  name: Dataverse Access fingerprint API
+  slug: open-university-of-groningen-fingerprint-api
+- collection_type: open
+  name: Dataverse Access fundingOpportunity API
+  slug: open-university-of-groningen-fundingopportunity-api
+- collection_type: open
+  name: Dataverse Access Harvest API
+  slug: open-university-of-groningen-harvest-api
+- collection_type: open
+  name: Dataverse Access impact API
+  slug: open-university-of-groningen-impact-api
+- collection_type: open
+  name: Dataverse Access Inbox API
+  slug: open-university-of-groningen-inbox-api
+- collection_type: open
+  name: Dataverse Access Info API
+  slug: open-university-of-groningen-info-api
+- collection_type: open
+  name: Dataverse Access Ingest API
+  slug: open-university-of-groningen-ingest-api
+- collection_type: open
+  name: Dataverse Access journal API
+  slug: open-university-of-groningen-journal-api
+- collection_type: open
+  name: Dataverse Access keywordGroupConfiguration API
+  slug: open-university-of-groningen-keywordgroupconfiguration-api
+- collection_type: open
+  name: Dataverse Access Licenses API
+  slug: open-university-of-groningen-licenses-api
+- collection_type: open
+  name: Dataverse Access Localcontexts API
+  slug: open-university-of-groningen-localcontexts-api
+- collection_type: open
+  name: Dataverse Access Logout API
+  slug: open-university-of-groningen-logout-api
+- collection_type: open
+  name: Dataverse Access Mail API
+  slug: open-university-of-groningen-mail-api
+- collection_type: open
+  name: Dataverse Access Meta API
+  slug: open-university-of-groningen-meta-api
+- collection_type: open
+  name: Dataverse Access Metadatablocks API
+  slug: open-university-of-groningen-metadatablocks-api
+- collection_type: open
+  name: Dataverse Access milestone API
+  slug: open-university-of-groningen-milestone-api
+- collection_type: open
+  name: Dataverse Access Mydata API
+  slug: open-university-of-groningen-mydata-api
+- collection_type: open
+  name: Dataverse Access Notifications API
+  slug: open-university-of-groningen-notifications-api
+- collection_type: open
+  name: Dataverse Access organization API
+  slug: open-university-of-groningen-organization-api
+- collection_type: open
+  name: Dataverse Access person API
+  slug: open-university-of-groningen-person-api
+- collection_type: open
+  name: Dataverse Access personExpertise API
+  slug: open-university-of-groningen-personexpertise-api
+- collection_type: open
+  name: Dataverse Access Pids API
+  slug: open-university-of-groningen-pids-api
+- collection_type: open
+  name: Dataverse Access pressMedia API
+  slug: open-university-of-groningen-pressmedia-api
+- collection_type: open
+  name: Dataverse Access prize API
+  slug: open-university-of-groningen-prize-api
+- collection_type: open
+  name: Dataverse Access project API
+  slug: open-university-of-groningen-project-api
+- collection_type: open
+  name: Dataverse Access publisher API
+  slug: open-university-of-groningen-publisher-api
+- collection_type: open
+  name: Dataverse Access replaceFilesInDataset API
+  slug: open-university-of-groningen-replacefilesindataset-api
+- collection_type: open
+  name: Dataverse Access researchOutput API
+  slug: open-university-of-groningen-researchoutput-api
+- collection_type: open
+  name: Dataverse Access role API
+  slug: open-university-of-groningen-role-api
+- collection_type: open
+  name: Dataverse Access Roles API
+  slug: open-university-of-groningen-roles-api
+- collection_type: open
+  name: Dataverse Access saveAuxiliaryFileWithVersion API
+  slug: open-university-of-groningen-saveauxiliaryfilewithversion-api
+- collection_type: open
+  name: Dataverse Access Search API
+  slug: open-university-of-groningen-search-api
+- collection_type: open
+  name: Dataverse Access semester API
+  slug: open-university-of-groningen-semester-api
+- collection_type: open
+  name: Dataverse Access Sendfeedback API
+  slug: open-university-of-groningen-sendfeedback-api
+- collection_type: open
+  name: Dataverse Access specialization API
+  slug: open-university-of-groningen-specialization-api
+- collection_type: open
+  name: Dataverse Access studentProject API
+  slug: open-university-of-groningen-studentproject-api
+- collection_type: open
+  name: Dataverse Access studentThesis API
+  slug: open-university-of-groningen-studentthesis-api
+- collection_type: open
+  name: Dataverse Access thesaurus API
+  slug: open-university-of-groningen-thesaurus-api
+- collection_type: open
+  name: Dataverse Access uploadDatasetLogo API
+  slug: open-university-of-groningen-uploaddatasetlogo-api
+- collection_type: open
+  name: Dataverse Access user API
+  slug: open-university-of-groningen-user-api
+- collection_type: open
+  name: Dataverse Access Users API
+  slug: open-university-of-groningen-users-api
+- collection_type: open
+  name: Dataverse Access Workflows API
+  slug: open-university-of-groningen-workflows-api
 common:
 - group: agent
   title: ''
@@ -376,7 +596,7 @@ plans:
 - name: University Of Groningen Plans Pricing
   plan_count: 2
   slug: university-of-groningen-plans-pricing
-random_paper: 112
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: University Of Groningen Rate Limits
@@ -424,7 +644,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png
 security:

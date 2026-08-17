@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,17 @@ apis:
 - description: Western Power's network asset and capacity spatial data — distribution and transmission overhead powerlines, underground cables, poles, pillars, pits, transformers, enclosures, substations, streetligh
   name: Western Power Public Secure Services (SLIP)
   slug: western-power-public-secure-services-slip
-artifact_total: 12
+artifact_total: 15
+collections:
+- collection_type: open
+  name: Western Power Outage Areas Feature Service (ArcGIS REST)
+  slug: open-western-power-arcgis-outage
+- collection_type: open
+  name: Western Power Corporate Web API
+  slug: open-western-power-corporate-web
+- collection_type: open
+  name: Western Power Outage Web API
+  slug: open-western-power-outage
 common:
 - group: agent
   title: ''
@@ -181,7 +191,7 @@ overview: 'Western Power publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Western Power''s developer surface includes authentication, support, engineering blog, documentation, developer portal, and 22 more developer resources.'
-random_paper: 58
+random_paper: 37
 score:
   band: thin
   composite: 39.0
@@ -211,7 +221,7 @@ score:
     regime_id: energy_utilities
     score: 43.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

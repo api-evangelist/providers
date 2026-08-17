@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -72,7 +72,41 @@ apis:
 - description: The symplectic API from Deakin University — 5 operation(s) for symplectic.
   name: Deakin University symplectic API
   slug: deakin-symplectic-api
-artifact_total: 31
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figshare altmetric API
+  slug: open-deakin-altmetric-api
+- collection_type: open
+  name: Figshare altmetric articles API
+  slug: open-deakin-articles-api
+- collection_type: open
+  name: Figshare altmetric authors API
+  slug: open-deakin-authors-api
+- collection_type: open
+  name: Figshare altmetric collections API
+  slug: open-deakin-collections-api
+- collection_type: open
+  name: Figshare altmetric institutions API
+  slug: open-deakin-institutions-api
+- collection_type: open
+  name: Figshare altmetric oauth API
+  slug: open-deakin-oauth-api
+- collection_type: open
+  name: Figshare altmetric other API
+  slug: open-deakin-other-api
+- collection_type: open
+  name: Figshare altmetric profiles API
+  slug: open-deakin-profiles-api
+- collection_type: open
+  name: Figshare altmetric projects API
+  slug: open-deakin-projects-api
+- collection_type: open
+  name: Figshare altmetric symplectic API
+  slug: open-deakin-symplectic-api
 common:
 - group: agent
   title: ''
@@ -187,7 +221,7 @@ plans:
 - name: Deakin Plans Pricing
   plan_count: 2
   slug: deakin-plans-pricing
-random_paper: 20
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Deakin Rate Limits
@@ -240,7 +274,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deakin/refs/heads/main/screenshots/deakin-2026-06-20T175744.png
 security:

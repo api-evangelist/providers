@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: The Withdrawals API from LootRush — 2 operation(s) for withdrawals.
   name: LootRush Withdrawals API
   slug: lootrush-withdrawals-api
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LootRush Partner Connect API
+  slug: open-lootrush-connect-api
+- collection_type: open
+  name: LootRush Partner Connect History API
+  slug: open-lootrush-history-api
+- collection_type: open
+  name: LootRush Partner Connect MCP API
+  slug: open-lootrush-mcp-api
+- collection_type: open
+  name: LootRush Partner Connect Withdrawals API
+  slug: open-lootrush-withdrawals-api
 common:
 - group: company
   title: ''
@@ -141,7 +157,7 @@ overview: 'LootRush publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LootRush''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
-random_paper: 56
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Lootrush Rate Limits
@@ -175,7 +191,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/screenshots/lootrush-2026-07-25T225545.png
 security:

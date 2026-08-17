@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -123,7 +123,7 @@ overview: 'Cheddar Up is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cheddar Up''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 29
+random_paper: 95
 score:
   band: thin
   composite: 37.9
@@ -143,7 +143,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cheddar-up/refs/heads/main/screenshots/cheddar-up-2026-07-25T205201.png
 security:

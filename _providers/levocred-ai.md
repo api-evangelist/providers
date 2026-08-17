@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,7 +64,7 @@ name: Levocred AI
 nav: Providers
 network: true
 overview: Levocred AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Services, Private Credit, and Lending.
-random_paper: 19
+random_paper: 56
 score:
   band: minimal
   composite: 10.0
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

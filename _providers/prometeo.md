@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 5
@@ -58,7 +58,7 @@ apis:
 - description: Account-to-account (open banking initiated) payment intents.
   name: Prometeo Payment API
   slug: prometeo-payment-api
-artifact_total: 21
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Prometeo Webhooks
@@ -79,6 +79,24 @@ collections:
 - collection_type: postman
   name: Prometeo Account Validation Payment API
   slug: postman-prometeo-payment-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prometeo Account Validation API
+  slug: open-prometeo-account-validation-api
+- collection_type: open
+  name: Prometeo Account Validation Banking API
+  slug: open-prometeo-banking-api
+- collection_type: open
+  name: Prometeo Account Validation Cross-Border API
+  slug: open-prometeo-cross-border-api
+- collection_type: open
+  name: Prometeo Account Validation Identity API
+  slug: open-prometeo-identity-api
+- collection_type: open
+  name: Prometeo Account Validation Payment API
+  slug: open-prometeo-payment-api
 common:
 - group: build
   title: ''
@@ -263,7 +281,7 @@ plans:
 - name: Prometeo Plans Pricing
   plan_count: 2
   slug: prometeo-plans-pricing
-random_paper: 35
+random_paper: 130
 rate_limits:
 - limit_count: 2
   name: Prometeo Rate Limits
@@ -297,7 +315,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

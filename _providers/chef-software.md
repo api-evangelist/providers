@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 7
@@ -128,7 +128,7 @@ apis:
 - description: The UserSettingsService API from Chef Software — 1 operation(s) for usersettingsservice.
   name: Chef Software UserSettingsService API
   slug: chef-software-usersettingsservice-api
-artifact_total: 67
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Chef Software Data Feed Webhooks
@@ -224,6 +224,99 @@ collections:
 - collection_type: postman
   name: external/applications/applications.proto ApplicationsService UserSettingsService API
   slug: postman-chef-software-usersettingsservice-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService API
+  slug: open-chef-software-applicationsservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService Authorization API
+  slug: open-chef-software-authorization-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService Cds API
+  slug: open-chef-software-cds-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService ChefIngester API
+  slug: open-chef-software-chefingester-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService Comp_Assets API
+  slug: open-chef-software-comp-assets-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService ConfigMgmt API
+  slug: open-chef-software-configmgmt-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService DatafeedService API
+  slug: open-chef-software-datafeedservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService DataLifecycle API
+  slug: open-chef-software-datalifecycle-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService EventFeedService API
+  slug: open-chef-software-eventfeedservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService hidden API
+  slug: open-chef-software-hidden-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService InfraProxy API
+  slug: open-chef-software-infraproxy-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService JobScheduler API
+  slug: open-chef-software-jobscheduler-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService JobsService API
+  slug: open-chef-software-jobsservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService NodeManagerService API
+  slug: open-chef-software-nodemanagerservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService NodesService API
+  slug: open-chef-software-nodesservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService policies API
+  slug: open-chef-software-policies-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService ProfilesService API
+  slug: open-chef-software-profilesservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService projects API
+  slug: open-chef-software-projects-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService ReportingService API
+  slug: open-chef-software-reportingservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService ReportManagerService API
+  slug: open-chef-software-reportmanagerservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService retention API
+  slug: open-chef-software-retention-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService roles API
+  slug: open-chef-software-roles-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService rules API
+  slug: open-chef-software-rules-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService SecretsService API
+  slug: open-chef-software-secretsservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService service_groups API
+  slug: open-chef-software-service-groups-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService StatsService API
+  slug: open-chef-software-statsservice-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService teams API
+  slug: open-chef-software-teams-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService tokens API
+  slug: open-chef-software-tokens-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService users API
+  slug: open-chef-software-users-api
+- collection_type: open
+  name: external/applications/applications.proto ApplicationsService UserSettingsService API
+  slug: open-chef-software-usersettingsservice-api
 common:
 - group: build
   title: ''
@@ -388,7 +481,7 @@ overview: 'Chef Software publishes 30 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Chef Software''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 6
+random_paper: 134
 score:
   band: strong
   composite: 56.6
@@ -412,7 +505,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/screenshots/chef-software-2026-07-25T205137.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -87,7 +87,7 @@ overview: 'Tacto is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tacto''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 59
+random_paper: 92
 score:
   band: emerging
   composite: 15.1
@@ -103,7 +103,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,23 @@ apis:
 - description: The Items API from Indian Institute of Science Bangalore — 2 operation(s) for items.
   name: Indian Institute of Science Bangalore Items API
   slug: iisc-items-api
-artifact_total: 22
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ETD@IISc DSpace REST Bitstreams API
+  slug: open-iisc-bitstreams-api
+- collection_type: open
+  name: ETD@IISc DSpace REST Bitstreams Collections API
+  slug: open-iisc-collections-api
+- collection_type: open
+  name: ETD@IISc DSpace REST Bitstreams Communities API
+  slug: open-iisc-communities-api
+- collection_type: open
+  name: ETD@IISc DSpace REST Bitstreams Items API
+  slug: open-iisc-items-api
 common:
 - group: agent
   title: ''
@@ -153,7 +169,7 @@ plans:
 - name: Iisc Plans Pricing
   plan_count: 2
   slug: iisc-plans-pricing
-random_paper: 64
+random_paper: 126
 rate_limits:
 - limit_count: 1
   name: Iisc Rate Limits
@@ -195,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/screenshots/iisc-2026-06-20T183226.png
 security:

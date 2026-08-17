@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>User managemen'
   name: Adaptive Security Users API
   slug: adaptive-security-users-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adaptive Audit Logs API
+  slug: open-adaptive-security-audit-logs-api
+- collection_type: open
+  name: Adaptive Audit Logs Groups API
+  slug: open-adaptive-security-groups-api
+- collection_type: open
+  name: Adaptive Audit Logs Phishing API
+  slug: open-adaptive-security-phishing-api
+- collection_type: open
+  name: Adaptive Audit Logs Training API
+  slug: open-adaptive-security-training-api
+- collection_type: open
+  name: Adaptive Audit Logs Users API
+  slug: open-adaptive-security-users-api
 common:
 - group: company
   title: ''
@@ -191,7 +210,7 @@ overview: 'Adaptive Security publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Adaptive Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 99
+random_paper: 140
 rate_limits:
 - limit_count: 0
   name: Adaptive Security Rate Limits
@@ -219,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/screenshots/adaptive-security-2026-07-25T181557.png
 security:

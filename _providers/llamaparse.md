@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ apis:
 - description: The V2 API from LlamaParse — 19 operation(s) for v2.
   name: LlamaParse V2 API
   slug: llamaparse-v2-api
-artifact_total: 92
+artifact_total: 126
 collections:
 - collection_type: postman
   name: Llama Platform Agent Data API
@@ -248,6 +248,108 @@ collections:
 - collection_type: postman
   name: Llama Platform Agent Data V2 API
   slug: postman-llamaparse-v2-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Llama Platform Agent Data API
+  slug: open-llamaparse-agent-data-api
+- collection_type: open
+  name: Llama Platform Agent Data Batch Processing API
+  slug: open-llamaparse-batch-processing-api
+- collection_type: open
+  name: Llama Platform Agent Data Batches API
+  slug: open-llamaparse-batches-api
+- collection_type: open
+  name: Llama Platform Agent Data Beta API
+  slug: open-llamaparse-beta-api
+- collection_type: open
+  name: Llama Platform Agent Data Chat API
+  slug: open-llamaparse-chat-api
+- collection_type: open
+  name: Llama Platform Agent Data Classifier API
+  slug: open-llamaparse-classifier-api
+- collection_type: open
+  name: Llama Platform Agent Data Classify API
+  slug: open-llamaparse-classify-api
+- collection_type: open
+  name: Llama Platform Agent Data Configurations API
+  slug: open-llamaparse-configurations-api
+- collection_type: open
+  name: Llama Platform Agent Data Data Sinks API
+  slug: open-llamaparse-data-sinks-api
+- collection_type: open
+  name: Llama Platform Agent Data Data Sources API
+  slug: open-llamaparse-data-sources-api
+- collection_type: open
+  name: Llama Platform Agent Data Directories API
+  slug: open-llamaparse-directories-api
+- collection_type: open
+  name: Llama Platform Agent Data Directory Files API
+  slug: open-llamaparse-directory-files-api
+- collection_type: open
+  name: Llama Platform Agent Data Embedding Model Configs API
+  slug: open-llamaparse-embedding-model-configs-api
+- collection_type: open
+  name: Llama Platform Agent Data Extract API
+  slug: open-llamaparse-extract-api
+- collection_type: open
+  name: Llama Platform Agent Data Files API
+  slug: open-llamaparse-files-api
+- collection_type: open
+  name: Llama Platform Agent Data Indexes API
+  slug: open-llamaparse-indexes-api
+- collection_type: open
+  name: Llama Platform Agent Data Job Dashboard API
+  slug: open-llamaparse-job-dashboard-api
+- collection_type: open
+  name: Llama Platform Agent Data LlamaExtract API
+  slug: open-llamaparse-llamaextract-api
+- collection_type: open
+  name: Llama Platform Agent Data Organizations API
+  slug: open-llamaparse-organizations-api
+- collection_type: open
+  name: Llama Platform Agent Data Page Figures API
+  slug: open-llamaparse-page-figures-api
+- collection_type: open
+  name: Llama Platform Agent Data Page Screenshots API
+  slug: open-llamaparse-page-screenshots-api
+- collection_type: open
+  name: Llama Platform Agent Data Parse API
+  slug: open-llamaparse-parse-api
+- collection_type: open
+  name: Llama Platform Agent Data Parsing API
+  slug: open-llamaparse-parsing-api
+- collection_type: open
+  name: Llama Platform Agent Data Pipeline Data Sources API
+  slug: open-llamaparse-pipeline-data-sources-api
+- collection_type: open
+  name: Llama Platform Agent Data Pipeline Files API
+  slug: open-llamaparse-pipeline-files-api
+- collection_type: open
+  name: Llama Platform Agent Data Pipelines API
+  slug: open-llamaparse-pipelines-api
+- collection_type: open
+  name: Llama Platform Agent Data Projects API
+  slug: open-llamaparse-projects-api
+- collection_type: open
+  name: Llama Platform Agent Data Retrieval API
+  slug: open-llamaparse-retrieval-api
+- collection_type: open
+  name: Llama Platform Agent Data Retrievers API
+  slug: open-llamaparse-retrievers-api
+- collection_type: open
+  name: Llama Platform Agent Data Sheets API
+  slug: open-llamaparse-sheets-api
+- collection_type: open
+  name: Llama Platform Agent Data Split API
+  slug: open-llamaparse-split-api
+- collection_type: open
+  name: Llama Platform Agent Data Usage Metrics API
+  slug: open-llamaparse-usage-metrics-api
+- collection_type: open
+  name: Llama Platform Agent Data V2 API
+  slug: open-llamaparse-v2-api
 common:
 - group: operate
   title: ''
@@ -440,7 +542,7 @@ plans:
 - name: Llamaparse Plans Pricing
   plan_count: 4
   slug: llamaparse-plans-pricing
-random_paper: 98
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Llamaparse Rate Limits
@@ -474,7 +576,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/screenshots/llamaparse-2026-06-20T184622.png
 security:

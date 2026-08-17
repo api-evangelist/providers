@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -66,8 +66,38 @@ apis:
 - description: The Webhooks API from PrintNode — 1 operation(s) for webhooks.
   name: PrintNode Webhooks API
   slug: printnode-webhooks-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PrintNode Account API
+  slug: open-printnode-account-api
+- collection_type: open
+  name: PrintNode Account API Keys API
+  slug: open-printnode-api-keys-api
+- collection_type: open
+  name: PrintNode Account Clients API
+  slug: open-printnode-clients-api
+- collection_type: open
+  name: PrintNode Account Computers API
+  slug: open-printnode-computers-api
+- collection_type: open
+  name: PrintNode Account Printers API
+  slug: open-printnode-printers-api
+- collection_type: open
+  name: PrintNode Account PrintJobs API
+  slug: open-printnode-printjobs-api
+- collection_type: open
+  name: PrintNode Account Scales API
+  slug: open-printnode-scales-api
+- collection_type: open
+  name: PrintNode Account Utility API
+  slug: open-printnode-utility-api
+- collection_type: open
+  name: PrintNode Account Webhooks API
+  slug: open-printnode-webhooks-api
 - collection_type: open
   name: PrintNode API
   slug: open-printnode
@@ -132,7 +162,7 @@ plans:
 - name: Printnode Plans Pricing
   plan_count: 7
   slug: printnode-plans-pricing
-random_paper: 19
+random_paper: 85
 rate_limits:
 - limit_count: 4
   name: Printnode Rate Limits
@@ -157,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

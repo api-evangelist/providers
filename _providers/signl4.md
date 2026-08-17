@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,8 +50,17 @@ apis:
 - description: The Webhook API from SIGNL4 — 1 operation(s) for webhook.
   name: SIGNL4 Webhook API
   slug: signl4-webhook-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SIGNL4 Webhook and REST Events API
+  slug: open-signl4-events-api
+- collection_type: open
+  name: SIGNL4 and REST Events Webhook API
+  slug: open-signl4-webhook-api
 - collection_type: open
   name: SIGNL4 Webhook and REST API
   slug: open-signl4
@@ -116,7 +125,7 @@ overview: 'SIGNL4 publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   SIGNL4''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, GitHub presence, and 5 more developer resources.'
-random_paper: 113
+random_paper: 146
 score:
   band: thin
   composite: 35.0
@@ -137,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/screenshots/signl4-2026-06-20T193912.png
 security:

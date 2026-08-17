@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Web Presence Review endpoints allow you to provide information about a business for TrueBiz to review. We look at the content on the website, find social media profiles, review sites, and other broade
@@ -64,7 +64,32 @@ apis:
 - description: Our website status endpoints help with checking to see if a provided URL is up and that it is not part of a website grouping that TrueBiz does not support.
   name: TrueBiz Website Status API
   slug: truebiz-website-status-api
-artifact_total: 14
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TrueBiz Web Presence Review Async Web Presence Review Fraud Searches API
+  slug: open-truebiz-fraud-searches-api
+- collection_type: open
+  name: TrueBiz Web Presence Review Async Web Presence Review History API
+  slug: open-truebiz-history-api
+- collection_type: open
+  name: TrueBiz Web Presence Review Async Web Presence Review Industry Discovery API
+  slug: open-truebiz-industry-discovery-api
+- collection_type: open
+  name: TrueBiz Web Presence Review Async Web Presence Review Industry Discovery History API
+  slug: open-truebiz-industry-discovery-history-api
+- collection_type: open
+  name: TrueBiz Web Presence Review Async Web Presence Review Monitoring Alerts API
+  slug: open-truebiz-monitoring-alerts-api
+- collection_type: open
+  name: TrueBiz Web Presence Review Async Web Presence Review Monitoring Domains API
+  slug: open-truebiz-monitoring-domains-api
+- collection_type: open
+  name: TrueBiz Web Presence Review Async Web Presence Review Website Status API
+  slug: open-truebiz-website-status-api
 common:
 - group: start
   title: ''
@@ -166,7 +191,7 @@ overview: 'TrueBiz publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TrueBiz''s developer surface includes developer portal, documentation, API reference, authentication, engineering blog, support, and 15 more developer resources.'
-random_paper: 53
+random_paper: 28
 score:
   band: thin
   composite: 40.0
@@ -195,7 +220,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

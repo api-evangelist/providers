@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Token issuance and session verification for the Origami Risk platform APIs. Two documented token formats — a simple JSON payload (Account, User, Password, ClientName) and an OAuth-style client_credent
@@ -48,11 +48,24 @@ apis:
 - description: Reporting surface for requesting a report run, retrieving report details and options, validating a report filter, and converting between the platform's view-filter string form and its JSON tree form.
   name: Origami Risk Reports API
   slug: origami-risk-reports-api
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Origami Risk Webhooks
   slug: origami-risk-webhooks
+collections:
+- collection_type: open
+  name: Origami Risk Authentication
+  slug: open-origami-risk-authentication
+- collection_type: open
+  name: Origami Risk Public API
+  slug: open-origami-risk-public-api
+- collection_type: open
+  name: Rating API
+  slug: open-origami-risk-rating-api
+- collection_type: open
+  name: Rating API
+  slug: open-origami-risk-standard-rating-api
 common:
 - group: auth
   title: ''
@@ -218,7 +231,7 @@ overview: 'Origami Risk publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Origami Risk''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 30
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Origami Risk Rate Limits
@@ -246,7 +259,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/screenshots/origami-risk-2026-08-07T190927.png
 security:

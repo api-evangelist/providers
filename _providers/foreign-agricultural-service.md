@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: Production, Supply and Distribution
   name: Foreign Agricultural Service PSD API
   slug: foreign-agricultural-service-psd-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USDA FAS Open Data Services ESR API
+  slug: open-foreign-agricultural-service-esr-api
+- collection_type: open
+  name: USDA FAS Open Data Services ESR GATS API
+  slug: open-foreign-agricultural-service-gats-api
+- collection_type: open
+  name: USDA FAS Open Data Services ESR PSD API
+  slug: open-foreign-agricultural-service-psd-api
 - collection_type: open
   name: USDA FAS Open Data Services
   slug: open-foreign-agricultural-service
@@ -97,7 +109,7 @@ plans:
 - name: Foreign Agricultural Service Plans Pricing
   plan_count: 3
   slug: foreign-agricultural-service-plans-pricing
-random_paper: 4
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Foreign Agricultural Service Rate Limits
@@ -128,7 +140,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/screenshots/foreign-agricultural-service-2026-06-20T181418.png
 security:

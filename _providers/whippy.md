@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Push first-party custom events into Whippy.
   name: Whippy Webhooks API
   slug: whippy-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Whippy Public Campaigns API
+  slug: open-whippy-campaigns-api
+- collection_type: open
+  name: Whippy Public Campaigns Channels API
+  slug: open-whippy-channels-api
+- collection_type: open
+  name: Whippy Public Campaigns Contacts API
+  slug: open-whippy-contacts-api
+- collection_type: open
+  name: Whippy Public Campaigns Conversations API
+  slug: open-whippy-conversations-api
+- collection_type: open
+  name: Whippy Public Campaigns Messaging API
+  slug: open-whippy-messaging-api
+- collection_type: open
+  name: Whippy Public Campaigns Sequences API
+  slug: open-whippy-sequences-api
+- collection_type: open
+  name: Whippy Public Campaigns Webhooks API
+  slug: open-whippy-webhooks-api
 - collection_type: open
   name: Whippy Public API
   slug: open-whippy
@@ -126,7 +150,7 @@ plans:
 - name: Whippy Plans Pricing
   plan_count: 6
   slug: whippy-plans-pricing
-random_paper: 73
+random_paper: 77
 rate_limits:
 - limit_count: 4
   name: Whippy Rate Limits
@@ -157,7 +181,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/screenshots/whippy-2026-06-20T201440.png
 security:

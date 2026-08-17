@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 5
@@ -138,8 +138,107 @@ apis:
 - description: The Visitors Data API from Convert — 7 operation(s) for visitors data.
   name: Convert Visitors Data API
   slug: convert-visitors-data-api
-artifact_total: 41
+artifact_total: 74
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Convert Accounts API
+  slug: open-convert-accounts-api
+- collection_type: open
+  name: Convert Accounts AI content API
+  slug: open-convert-ai-content-api
+- collection_type: open
+  name: Convert Accounts API Keys API
+  slug: open-convert-api-keys-api
+- collection_type: open
+  name: Convert Accounts Audiences API
+  slug: open-convert-audiences-api
+- collection_type: open
+  name: Convert Accounts Bulk API
+  slug: open-convert-bulk-api
+- collection_type: open
+  name: Convert Accounts Cdn Images API
+  slug: open-convert-cdn-images-api
+- collection_type: open
+  name: Convert Accounts Collaborators API
+  slug: open-convert-collaborators-api
+- collection_type: open
+  name: Convert Accounts Cookie Authentication API
+  slug: open-convert-cookie-authentication-api
+- collection_type: open
+  name: Convert Accounts Domains API
+  slug: open-convert-domains-api
+- collection_type: open
+  name: Convert Accounts Experience Sections API
+  slug: open-convert-experience-sections-api
+- collection_type: open
+  name: Convert Accounts Experience Variations API
+  slug: open-convert-experience-variations-api
+- collection_type: open
+  name: Convert Accounts Experiences API
+  slug: open-convert-experiences-api
+- collection_type: open
+  name: Convert Accounts Experiences Heatmaps API
+  slug: open-convert-experiences-heatmaps-api
+- collection_type: open
+  name: Convert Accounts Experiences Reports API
+  slug: open-convert-experiences-reports-api
+- collection_type: open
+  name: Convert Accounts Features API
+  slug: open-convert-features-api
+- collection_type: open
+  name: Convert Accounts Files API
+  slug: open-convert-files-api
+- collection_type: open
+  name: Convert Accounts Goals API
+  slug: open-convert-goals-api
+- collection_type: open
+  name: Convert Accounts Hypotheses API
+  slug: open-convert-hypotheses-api
+- collection_type: open
+  name: Convert Accounts Knowledge Bases API
+  slug: open-convert-knowledge-bases-api
+- collection_type: open
+  name: Convert Accounts Locations API
+  slug: open-convert-locations-api
+- collection_type: open
+  name: Convert Accounts OAuth API
+  slug: open-convert-oauth-api
+- collection_type: open
+  name: Convert Accounts OAuth Authorization API
+  slug: open-convert-oauth-authorization-api
+- collection_type: open
+  name: Convert Accounts Observations API
+  slug: open-convert-observations-api
+- collection_type: open
+  name: Convert Accounts Projects API
+  slug: open-convert-projects-api
+- collection_type: open
+  name: Convert Accounts SDK Keys API
+  slug: open-convert-sdk-keys-api
+- collection_type: open
+  name: Convert Accounts Section Versions API
+  slug: open-convert-section-versions-api
+- collection_type: open
+  name: Convert Accounts Tags API
+  slug: open-convert-tags-api
+- collection_type: open
+  name: Convert Accounts User API
+  slug: open-convert-user-api
+- collection_type: open
+  name: Convert Accounts Version Changes API
+  slug: open-convert-version-changes-api
+- collection_type: open
+  name: Convert Accounts Visitor Data Placeholders API
+  slug: open-convert-visitor-data-placeholders-api
+- collection_type: open
+  name: Convert Accounts Visitor Insights API
+  slug: open-convert-visitor-insights-api
+- collection_type: open
+  name: Convert Accounts Visitors Data API
+  slug: open-convert-visitors-data-api
 - collection_type: open
   name: Convert API
   slug: open-convert
@@ -208,7 +307,7 @@ plans:
 - name: Convert Plans Pricing
   plan_count: 1
   slug: convert-plans-pricing
-random_paper: 49
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Convert Rate Limits
@@ -233,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convert/refs/heads/main/screenshots/convert-2026-06-20T174956.png
 security:

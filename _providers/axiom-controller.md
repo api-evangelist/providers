@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,8 +50,20 @@ apis:
 - description: The Ingest API from Axiom Controller — 1 operation(s) for ingest.
   name: Axiom Controller Ingest API
   slug: axiom-controller-ingest-api
-artifact_total: 35
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Axiom Ingest Controller Datasets API
+  slug: open-axiom-controller-datasets-api
+- collection_type: open
+  name: Axiom Ingest Controller Datasets Edge API
+  slug: open-axiom-controller-edge-api
+- collection_type: open
+  name: Axiom Controller Datasets Ingest API
+  slug: open-axiom-controller-ingest-api
 - collection_type: open
   name: Axiom Ingest Controller API
   slug: open-axiom-controller
@@ -162,7 +174,7 @@ plans:
 - name: Axiom Controller Plans Pricing
   plan_count: 3
   slug: axiom-controller-plans-pricing
-random_paper: 119
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Axiom Controller Rate Limits
@@ -187,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/screenshots/axiom-controller-2026-06-20T172809.png
 security:

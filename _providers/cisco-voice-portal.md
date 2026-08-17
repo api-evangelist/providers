@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -111,7 +111,7 @@ apis:
 - description: Configure and manage CVP VXML Servers
   name: Cisco Voice Portal VXML Server Management API
   slug: cisco-voice-portal-vxml-server-management-api
-artifact_total: 241
+artifact_total: 265
 asyncapis:
 - description: The Cisco Unified Customer Voice Portal (CVP) generates real-time events during call processing that can be consumed for monitoring, analytics, and integration purposes. CVP publishes call lifecycle e
   name: Cisco Voice Portal Call Events API
@@ -187,14 +187,86 @@ collections:
   name: Cisco Voice Portal Administration Application Configuration VXML Server Management API
   slug: postman-cisco-voice-portal-vxml-server-management-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Cisco Voice Portal Administration API
   slug: open-cisco-voice-portal-administration
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration API
+  slug: open-cisco-voice-portal-application-configuration-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Application Management API
+  slug: open-cisco-voice-portal-application-management-api
 - collection_type: open
   name: Cisco Voice Portal Call Control API
   slug: open-cisco-voice-portal-call-control
 - collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Call Detail Records API
+  slug: open-cisco-voice-portal-call-detail-records-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Call Management API
+  slug: open-cisco-voice-portal-call-management-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Call Routing API
+  slug: open-cisco-voice-portal-call-routing-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Call Server Management API
+  slug: open-cisco-voice-portal-call-server-management-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Deployment API
+  slug: open-cisco-voice-portal-deployment-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Device Management API
+  slug: open-cisco-voice-portal-device-management-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Dialed Number Patterns API
+  slug: open-cisco-voice-portal-dialed-number-patterns-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Grammar Management API
+  slug: open-cisco-voice-portal-grammar-management-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Health API
+  slug: open-cisco-voice-portal-health-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Historical Reports API
+  slug: open-cisco-voice-portal-historical-reports-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Media Management API
+  slug: open-cisco-voice-portal-media-management-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Micro-Applications API
+  slug: open-cisco-voice-portal-micro-applications-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Real-Time Statistics API
+  slug: open-cisco-voice-portal-real-time-statistics-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Report Templates API
+  slug: open-cisco-voice-portal-report-templates-api
+- collection_type: open
   name: Cisco Voice Portal Reporting API
   slug: open-cisco-voice-portal-reporting
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Server Status API
+  slug: open-cisco-voice-portal-server-status-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration Session Monitoring API
+  slug: open-cisco-voice-portal-session-monitoring-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration SIP Configuration API
+  slug: open-cisco-voice-portal-sip-configuration-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration SIP Sessions API
+  slug: open-cisco-voice-portal-sip-sessions-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration System Configuration API
+  slug: open-cisco-voice-portal-system-configuration-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration User Management API
+  slug: open-cisco-voice-portal-user-management-api
+- collection_type: open
+  name: Cisco Voice Portal Administration Application Configuration VXML Server Management API
+  slug: open-cisco-voice-portal-vxml-server-management-api
 - collection_type: open
   name: Cisco Voice Portal VXML Services API
   slug: open-cisco-voice-portal-vxml-services
@@ -851,7 +923,7 @@ plans:
 - name: Cisco Voice Portal Plans Pricing
   plan_count: 1
   slug: cisco-voice-portal-plans-pricing
-random_paper: 11
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Cisco Voice Portal Rate Limits
@@ -901,7 +973,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/screenshots/cisco-voice-portal-2026-06-20T174408.png
 security:

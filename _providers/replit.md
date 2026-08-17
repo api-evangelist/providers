@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Users API from Replit — 3 operation(s) for users.
   name: Replit Users API
   slug: replit-users-api
-artifact_total: 20
+artifact_total: 24
 collections:
 - collection_type: postman
   name: Replit Deployments API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Replit Deployments Users API
   slug: postman-replit-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Replit Deployments API
+  slug: open-replit-deployments-api
+- collection_type: open
+  name: Replit Deployments Repls API
+  slug: open-replit-repls-api
+- collection_type: open
+  name: Replit Deployments Users API
+  slug: open-replit-users-api
 - collection_type: open
   name: Replit
   slug: open-replit
@@ -183,7 +195,7 @@ plans:
 - name: Replit Plans Pricing
   plan_count: 3
   slug: replit-plans-pricing
-random_paper: 56
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Replit Rate Limits
@@ -225,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/screenshots/replit-2026-06-20T192905.png
 security:

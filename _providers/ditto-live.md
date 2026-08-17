@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -60,7 +60,29 @@ apis:
 - description: The Sync API from Ditto — 1 operation(s) for sync.
   name: Ditto Sync API
   slug: ditto-live-sync-api
-artifact_total: 33
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ditto HTTP RPC API Keys API
+  slug: open-ditto-live-api-keys-api
+- collection_type: open
+  name: Ditto HTTP RPC API Keys Apps API
+  slug: open-ditto-live-apps-api
+- collection_type: open
+  name: Ditto HTTP RPC API Keys BigPeerReplication API
+  slug: open-ditto-live-bigpeerreplication-api
+- collection_type: open
+  name: Ditto HTTP RPC API Keys Data Bridge API
+  slug: open-ditto-live-data-bridge-api
+- collection_type: open
+  name: Ditto HTTP RPC API Keys Store API
+  slug: open-ditto-live-store-api
+- collection_type: open
+  name: Ditto HTTP RPC API Keys Sync API
+  slug: open-ditto-live-sync-api
 common:
 - group: agent
   title: ''
@@ -207,7 +229,7 @@ plans:
 - name: Ditto Live Plans Pricing
   plan_count: 3
   slug: ditto-live-plans-pricing
-random_paper: 65
+random_paper: 131
 rate_limits:
 - limit_count: 3
   name: Ditto Live Rate Limits
@@ -241,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/screenshots/ditto-live-2026-06-20T180058.png
 security:

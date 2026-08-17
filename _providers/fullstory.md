@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -72,12 +72,36 @@ apis:
 - description: Create, retrieve, update, and delete users in FullStory. Users can be anonymous or identified with a uid. Custom properties can be attached to enrich user profiles.
   name: FullStory Users API
   slug: fullstory-users-api
-artifact_total: 54
+artifact_total: 65
 asyncapis:
 - description: FullStory delivers real-time webhook notifications when specific events occur within the platform. Supported event types include segment creation, segment threshold alerts, custom event processing, an
   name: FullStory Webhook Events
   slug: fullstory-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FullStory Segments Export Batch Import API
+  slug: open-fullstory-batch-import-api
+- collection_type: open
+  name: FullStory Segments Export Batch Import Endpoints API
+  slug: open-fullstory-endpoints-api
+- collection_type: open
+  name: FullStory Segments Export Batch Import Event Types API
+  slug: open-fullstory-event-types-api
+- collection_type: open
+  name: FullStory Segments Export Batch Import Events API
+  slug: open-fullstory-events-api
+- collection_type: open
+  name: FullStory Segments Export Batch Import Exports API
+  slug: open-fullstory-exports-api
+- collection_type: open
+  name: FullStory Segments Export Batch Import Operations API
+  slug: open-fullstory-operations-api
+- collection_type: open
+  name: FullStory Export Batch Import Segments API
+  slug: open-fullstory-segments-api
 - collection_type: open
   name: FullStory Segments Export API
   slug: open-fullstory-segments-export-api
@@ -85,8 +109,17 @@ collections:
   name: FullStory Server API
   slug: open-fullstory-server-api
 - collection_type: open
-  name: FullStory Sessions API
+  name: FullStory Segments Export Batch Import Session Events API
+  slug: open-fullstory-session-events-api
+- collection_type: open
+  name: FullStory Segments Export Batch Import Session Summaries API
+  slug: open-fullstory-session-summaries-api
+- collection_type: open
+  name: FullStory Segments Export Batch Import Sessions API
   slug: open-fullstory-sessions-api
+- collection_type: open
+  name: FullStory Segments Export Batch Import Users API
+  slug: open-fullstory-users-api
 - collection_type: open
   name: FullStory Webhooks API
   slug: open-fullstory-webhooks-api
@@ -255,7 +288,7 @@ plans:
 - name: Fullstory Plans Pricing
   plan_count: 1
   slug: fullstory-plans-pricing
-random_paper: 52
+random_paper: 118
 rate_limits:
 - limit_count: 1
   name: Fullstory Rate Limits
@@ -297,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/screenshots/fullstory-2026-06-20T181612.png
 security:

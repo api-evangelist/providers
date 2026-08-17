@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -84,7 +84,47 @@ apis:
 - description: The Security API from Instructure — 2 operation(s) for security.
   name: Instructure Security API
   slug: instructure-security-api
-artifact_total: 48
+artifact_total: 61
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool API
+  slug: open-instructure-externaltool-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::AccountExternalTool API
+  slug: open-instructure-lti-accountexternaltool-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::AccountLookup API
+  slug: open-instructure-lti-accountlookup-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::DataService API
+  slug: open-instructure-lti-dataservice-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::IMS::Authentication API
+  slug: open-instructure-lti-ims-authentication-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::IMS::DynamicRegistration API
+  slug: open-instructure-lti-ims-dynamicregistration-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::IMS::LineItem API
+  slug: open-instructure-lti-ims-lineitem-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::IMS::NamesAndRole API
+  slug: open-instructure-lti-ims-namesandrole-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::IMS::Result API
+  slug: open-instructure-lti-ims-result-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::MembershipService API
+  slug: open-instructure-lti-membershipservice-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Lti::ToolConfigurationsApi API
+  slug: open-instructure-lti-toolconfigurationsapi-api
+- collection_type: open
+  name: Canvas LMS LTI ExternalTool Security API
+  slug: open-instructure-security-api
 common:
 - group: agent
   title: ''
@@ -259,7 +299,7 @@ plans:
 - name: Instructure Plans Pricing
   plan_count: 3
   slug: instructure-plans-pricing
-random_paper: 24
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Instructure Rate Limits
@@ -298,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/screenshots/instructure-2026-06-20T183421.png
 security:

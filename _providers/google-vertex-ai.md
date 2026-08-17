@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Manage training pipelines
   name: Google Vertex AI TrainingPipelines API
   slug: google-vertex-ai-trainingpipelines-api
-artifact_total: 21
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Google Vertex AI Datasets API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Google Vertex AI Datasets TrainingPipelines API
   slug: postman-google-vertex-ai-trainingpipelines-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Vertex AI Datasets API
+  slug: open-google-vertex-ai-datasets-api
+- collection_type: open
+  name: Google Vertex AI Datasets Endpoints API
+  slug: open-google-vertex-ai-endpoints-api
+- collection_type: open
+  name: Google Vertex AI Datasets Models API
+  slug: open-google-vertex-ai-models-api
+- collection_type: open
+  name: Google Vertex AI Datasets Predictions API
+  slug: open-google-vertex-ai-predictions-api
+- collection_type: open
+  name: Google Vertex AI Datasets TrainingPipelines API
+  slug: open-google-vertex-ai-trainingpipelines-api
 - collection_type: open
   name: Google Vertex AI API
   slug: open-openapi
@@ -174,7 +192,7 @@ plans:
 - name: Google Vertex Ai Plans Pricing
   plan_count: 3
   slug: google-vertex-ai-plans-pricing
-random_paper: 39
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Google Vertex Ai Rate Limits
@@ -213,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/screenshots/google-vertex-ai-2026-06-20T182247.png
 security:

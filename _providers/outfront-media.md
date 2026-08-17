@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 20
 common:
@@ -137,7 +137,7 @@ plans:
 - name: Outfront Media Plans Pricing
   plan_count: 0
   slug: outfront-media-plans-pricing
-random_paper: 14
+random_paper: 113
 rate_limits:
 - limit_count: 0
   name: Outfront Media Rate Limits
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.2
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -153,9 +153,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.7
+  previous_composite: 12.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outfront-media/refs/heads/main/screenshots/outfront-media-2026-06-20T191230.png
 security:

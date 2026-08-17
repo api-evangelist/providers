@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -72,7 +72,38 @@ apis:
 - description: User management endpoints
   name: Swimlane Users API
   slug: swimlane-users-api
-artifact_total: 26
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Swimlane REST Applications API
+  slug: open-swimlane-applications-api
+- collection_type: open
+  name: Swimlane REST Applications Authentication API
+  slug: open-swimlane-authentication-api
+- collection_type: open
+  name: Swimlane REST Applications Groups API
+  slug: open-swimlane-groups-api
+- collection_type: open
+  name: Swimlane REST Applications Logging API
+  slug: open-swimlane-logging-api
+- collection_type: open
+  name: Swimlane REST Applications Records API
+  slug: open-swimlane-records-api
+- collection_type: open
+  name: Swimlane REST Applications Reports API
+  slug: open-swimlane-reports-api
+- collection_type: open
+  name: Swimlane REST Applications Settings API
+  slug: open-swimlane-settings-api
+- collection_type: open
+  name: Swimlane REST Applications Tasks API
+  slug: open-swimlane-tasks-api
+- collection_type: open
+  name: Swimlane REST Applications Users API
+  slug: open-swimlane-users-api
 common:
 - group: agent
   title: ''
@@ -178,7 +209,7 @@ plans:
 - name: Swimlane Plans Pricing
   plan_count: 2
   slug: swimlane-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 1
   name: Swimlane Rate Limits
@@ -212,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/screenshots/swimlane-2026-06-20T194822.png
 security:

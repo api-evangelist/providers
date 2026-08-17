@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: GrayMatter Teams with Smucker's to Unlock Efficiency & Quality
   url: https://graymattersystems.com/smuckers-unlock-efficiency-quality-ai-digital-twins/
-random_paper: 62
+random_paper: 128
 score:
   band: minimal
   composite: 5.0
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jm-smucker/refs/heads/main/screenshots/jm-smucker-2026-06-20T183738.png
 security:

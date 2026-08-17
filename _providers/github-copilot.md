@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -98,11 +98,32 @@ arazzos:
 - description: Pull organization-wide Copilot metrics, then drill into a specific team's aggregated metrics.
   name: GitHub Copilot Team Metrics Report
   slug: github-copilot-team-metrics-report-workflow
-artifact_total: 185
+artifact_total: 192
 collections:
 - collection_type: postman
   name: GitHub Copilot REST API
   slug: postman-github-copilot
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitHub Copilot REST Copilot Billing API
+  slug: open-github-copilot-copilot-billing-api
+- collection_type: open
+  name: GitHub Copilot REST Copilot Billing Copilot Content Exclusion API
+  slug: open-github-copilot-copilot-content-exclusion-api
+- collection_type: open
+  name: GitHub Copilot REST Copilot Billing Copilot Metrics API
+  slug: open-github-copilot-copilot-metrics-api
+- collection_type: open
+  name: GitHub Copilot REST Copilot Billing Copilot Seats API
+  slug: open-github-copilot-copilot-seats-api
+- collection_type: open
+  name: GitHub Copilot REST Copilot Billing Copilot Usage Reports API
+  slug: open-github-copilot-copilot-usage-reports-api
+- collection_type: open
+  name: GitHub Copilot REST Copilot Billing Copilot User Management API
+  slug: open-github-copilot-copilot-user-management-api
 - collection_type: open
   name: GitHub Copilot REST API
   slug: open-github-copilot
@@ -774,7 +795,7 @@ plans:
 - name: Github Copilot Plans Pricing
   plan_count: 5
   slug: github-copilot-plans-pricing
-random_paper: 10
+random_paper: 109
 rate_limits:
 - limit_count: 11
   name: Github Copilot Rate Limits
@@ -823,7 +844,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/screenshots/github-copilot-2026-06-20T181939.png
 security:

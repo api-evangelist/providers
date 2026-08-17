@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,8 +68,35 @@ apis:
 - description: The User('{userId}') API from SAP SuccessFactors — 1 operation(s) for user('{userid}').
   name: SAP SuccessFactors User('{userId}') API
   slug: sap-successfactors-user-userid-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP SuccessFactors HXM Suite OData EmpEmployment API
+  slug: open-sap-successfactors-empemployment-api
+- collection_type: open
+  name: SAP SuccessFactors HXM Suite OData EmpEmployment EmpJob API
+  slug: open-sap-successfactors-empjob-api
+- collection_type: open
+  name: SAP SuccessFactors HXM Suite OData EmpEmployment FOCompany API
+  slug: open-sap-successfactors-focompany-api
+- collection_type: open
+  name: SAP SuccessFactors HXM Suite OData EmpEmployment Oauth API
+  slug: open-sap-successfactors-oauth-api
+- collection_type: open
+  name: SAP SuccessFactors HXM Suite OData EmpEmployment PerPerson API
+  slug: open-sap-successfactors-perperson-api
+- collection_type: open
+  name: SAP SuccessFactors HXM Suite OData EmpEmployment Upsert API
+  slug: open-sap-successfactors-upsert-api
+- collection_type: open
+  name: SAP SuccessFactors HXM Suite OData EmpEmployment User API
+  slug: open-sap-successfactors-user-api
+- collection_type: open
+  name: SAP SuccessFactors HXM Suite OData EmpEmployment User('{userId}') API
+  slug: open-sap-successfactors-user-userid-api
 - collection_type: open
   name: SAP SuccessFactors HXM Suite OData API
   slug: open-sap-successfactors
@@ -130,7 +157,7 @@ overview: 'SAP SuccessFactors publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   SAP SuccessFactors'' developer surface includes authentication, documentation, and 9 more developer resources.'
-random_paper: 84
+random_paper: 96
 scopes:
 - name: Sap Successfactors Scopes
   scope_count: 0
@@ -156,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/screenshots/sap-successfactors-2026-06-20T193430.png
 security:

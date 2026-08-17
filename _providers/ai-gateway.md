@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -152,8 +152,80 @@ apis:
 - description: The Workspaces API from AI Gateway — 4 operation(s) for workspaces.
   name: AI Gateway Workspaces API
   slug: ai-gateway-workspaces-api
-artifact_total: 84
+artifact_total: 108
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Portkey AI Gateway Analytics API
+  slug: open-ai-gateway-analytics-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics APIKeys API
+  slug: open-ai-gateway-apikeys-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Assistants API
+  slug: open-ai-gateway-assistants-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Audio API
+  slug: open-ai-gateway-audio-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Batches API
+  slug: open-ai-gateway-batches-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Chat API
+  slug: open-ai-gateway-chat-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Completions API
+  slug: open-ai-gateway-completions-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Configs API
+  slug: open-ai-gateway-configs-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Embeddings API
+  slug: open-ai-gateway-embeddings-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Feedback API
+  slug: open-ai-gateway-feedback-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Files API
+  slug: open-ai-gateway-files-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics FineTuning API
+  slug: open-ai-gateway-finetuning-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Guardrails API
+  slug: open-ai-gateway-guardrails-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Images API
+  slug: open-ai-gateway-images-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Integrations API
+  slug: open-ai-gateway-integrations-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Logs API
+  slug: open-ai-gateway-logs-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics MCP API
+  slug: open-ai-gateway-mcp-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Policies API
+  slug: open-ai-gateway-policies-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Prompts API
+  slug: open-ai-gateway-prompts-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Responses API
+  slug: open-ai-gateway-responses-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Threads API
+  slug: open-ai-gateway-threads-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics VirtualKeys API
+  slug: open-ai-gateway-virtualkeys-api
+- collection_type: open
+  name: Portkey AI Gateway Analytics Workspaces API
+  slug: open-ai-gateway-workspaces-api
 - collection_type: open
   name: Portkey AI Gateway API
   slug: open-ai-gateway
@@ -343,7 +415,7 @@ overview: 'AI Gateway publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AI Gateway''s developer surface includes authentication, code examples, developer portal, engineering blog, and 16 more developer resources.'
-random_paper: 41
+random_paper: 107
 rules:
 - name: AI Gateway API Rules
   rule_count: 5
@@ -373,7 +445,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/screenshots/ai-gateway-2026-06-20T170650.png
 security:

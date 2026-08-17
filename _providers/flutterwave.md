@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ arazzos:
 - description: Check a currency wallet balance, then only send a transfer to an existing recipient when funds are sufficient.
   name: Flutterwave Wallet Balance Guarded Payout
   slug: flutterwave-wallet-balance-guarded-payout-workflow
-artifact_total: 94
+artifact_total: 109
 collections:
 - collection_type: postman
   name: Flutterwave Banks API
@@ -178,22 +178,67 @@ collections:
   name: Flutterwave Webhooks API
   slug: postman-flutterwave-webhooks-api
 - collection_type: open
-  name: Flutterwave Banks API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flutterwave Banks AccountResolution API
+  slug: open-flutterwave-accountresolution-api
+- collection_type: open
+  name: Flutterwave AccountResolution Banks API
   slug: open-flutterwave-banks-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Chargebacks API
+  slug: open-flutterwave-chargebacks-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Charges API
+  slug: open-flutterwave-charges-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Customers API
+  slug: open-flutterwave-customers-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Fees API
+  slug: open-flutterwave-fees-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution MobileNetworks API
+  slug: open-flutterwave-mobilenetworks-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Orchestration API
+  slug: open-flutterwave-orchestration-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Orders API
+  slug: open-flutterwave-orders-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution PaymentMethods API
+  slug: open-flutterwave-paymentmethods-api
 - collection_type: open
   name: Flutterwave Payments API
   slug: open-flutterwave-payments-api
 - collection_type: open
-  name: Flutterwave Settlements API
+  name: Flutterwave Banks AccountResolution Rates API
+  slug: open-flutterwave-rates-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Recipients API
+  slug: open-flutterwave-recipients-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Refunds API
+  slug: open-flutterwave-refunds-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Senders API
+  slug: open-flutterwave-senders-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Settlements API
   slug: open-flutterwave-settlements-api
 - collection_type: open
-  name: Flutterwave Transfers API
+  name: Flutterwave Banks AccountResolution Transfers API
   slug: open-flutterwave-transfers-api
 - collection_type: open
-  name: Flutterwave Wallets API
+  name: Flutterwave Banks AccountResolution VirtualAccounts API
+  slug: open-flutterwave-virtualaccounts-api
+- collection_type: open
+  name: Flutterwave Banks AccountResolution Wallets API
   slug: open-flutterwave-wallets-api
 - collection_type: open
-  name: Flutterwave Webhooks API
+  name: Flutterwave Banks AccountResolution Webhooks API
   slug: open-flutterwave-webhooks-api
 common:
 - group: agent
@@ -566,7 +611,7 @@ plans:
 - name: Flutterwave Plans Pricing
   plan_count: 9
   slug: flutterwave-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Flutterwave Rate Limits
@@ -619,7 +664,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/screenshots/flutterwave-2026-06-20T181343.png
 security:

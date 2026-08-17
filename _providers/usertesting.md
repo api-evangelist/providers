@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The Clip API from UserTesting — 1 operation(s) for clip.
@@ -56,7 +56,35 @@ apis:
 - description: The Workspaces API from UserTesting — 2 operation(s) for workspaces.
   name: UserTesting Workspaces API
   slug: usertesting-workspaces-api
-artifact_total: 15
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Integrations (v1) Clip API
+  slug: open-usertesting-clip-api
+- collection_type: open
+  name: Integrations (v1) Clip General Session Data API
+  slug: open-usertesting-general-session-data-api
+- collection_type: open
+  name: Integrations (v1) Clip Highlightreel API
+  slug: open-usertesting-highlightreel-api
+- collection_type: open
+  name: Integrations (v1) Clip QXscore Data API
+  slug: open-usertesting-qxscore-data-api
+- collection_type: open
+  name: Integrations (v1) Clip Session API
+  slug: open-usertesting-session-api
+- collection_type: open
+  name: Integrations (v1) Clip Studies API
+  slug: open-usertesting-studies-api
+- collection_type: open
+  name: Integrations (v1) Clip Video Data API
+  slug: open-usertesting-video-data-api
+- collection_type: open
+  name: Integrations (v1) Clip Workspaces API
+  slug: open-usertesting-workspaces-api
 common:
 - group: company
   title: ''
@@ -214,7 +242,7 @@ overview: 'UserTesting publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   UserTesting''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 28 more developer resources.'
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Usertesting Rate Limits
@@ -246,7 +274,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

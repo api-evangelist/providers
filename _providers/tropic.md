@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Configure and manage webhook subscriptions
   name: Tropic Webhooks API
   slug: tropic-webhooks-api
-artifact_total: 27
+artifact_total: 33
 collections:
 - collection_type: postman
   name: Tropic Contracts API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Tropic Contracts Webhooks API
   slug: postman-tropic-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tropic Contracts API
+  slug: open-tropic-contracts-api
+- collection_type: open
+  name: Tropic Contracts Requests API
+  slug: open-tropic-requests-api
+- collection_type: open
+  name: Tropic Contracts Suppliers API
+  slug: open-tropic-suppliers-api
+- collection_type: open
+  name: Tropic Contracts Users API
+  slug: open-tropic-users-api
+- collection_type: open
+  name: Tropic Contracts Webhooks API
+  slug: open-tropic-webhooks-api
 - collection_type: open
   name: Tropic API
   slug: open-tropic
@@ -172,7 +190,7 @@ plans:
 - name: Tropic Plans Pricing
   plan_count: 3
   slug: tropic-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Tropic Rate Limits
@@ -214,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/screenshots/tropic-2026-06-20T195744.png
 security:

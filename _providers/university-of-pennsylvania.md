@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -134,7 +134,86 @@ apis:
 - description: The [PDP] Satisfied Rule Lists API from University of Pennsylvania — 1 operation(s) for [pdp] satisfied rule lists.
   name: University of Pennsylvania [PDP] Satisfied Rule Lists API
   slug: university-of-pennsylvania-pdp-satisfied-rule-lists-api
-artifact_total: 47
+artifact_total: 73
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [Accounts] User API
+  slug: open-university-of-pennsylvania-accounts-user-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCA] Registration API
+  slug: open-university-of-pennsylvania-pca-registration-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCA] Registration History API
+  slug: open-university-of-pennsylvania-pca-registration-history-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCP] Break API
+  slug: open-university-of-pennsylvania-pcp-break-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCP] Calendar API
+  slug: open-university-of-pennsylvania-pcp-calendar-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCP] Course Recommendations API
+  slug: open-university-of-pennsylvania-pcp-course-recommendations-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCP] Primary Schedule API
+  slug: open-university-of-pennsylvania-pcp-primary-schedule-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCP] Schedule API
+  slug: open-university-of-pennsylvania-pcp-schedule-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCR] Autocomplete Dump API
+  slug: open-university-of-pennsylvania-pcr-autocomplete-dump-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCR] Plots API
+  slug: open-university-of-pennsylvania-pcr-plots-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCx] Attributes API
+  slug: open-university-of-pennsylvania-pcx-attributes-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCx] Course API
+  slug: open-university-of-pennsylvania-pcx-course-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCx] Friendship API
+  slug: open-university-of-pennsylvania-pcx-friendship-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCx] Healths API
+  slug: open-university-of-pennsylvania-pcx-healths-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCx] NGSS Restrictions API
+  slug: open-university-of-pennsylvania-pcx-ngss-restrictions-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCx] Pre-NGSS Requirements API
+  slug: open-university-of-pennsylvania-pcx-pre-ngss-requirements-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCx] Section API
+  slug: open-university-of-pennsylvania-pcx-section-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PCx] Status Updates API
+  slug: open-university-of-pennsylvania-pcx-status-updates-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PDP] Degree API
+  slug: open-university-of-pennsylvania-pdp-degree-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PDP] Degree Plan Detail API
+  slug: open-university-of-pennsylvania-pdp-degree-plan-detail-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PDP] Degree Plan Lists API
+  slug: open-university-of-pennsylvania-pdp-degree-plan-lists-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PDP] Docked Course API
+  slug: open-university-of-pennsylvania-pdp-docked-course-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PDP] Fulfillment API
+  slug: open-university-of-pennsylvania-pdp-fulfillment-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PDP] Onboard From Transcript API
+  slug: open-university-of-pennsylvania-pdp-onboard-from-transcript-api
+- collection_type: open
+  name: Penn Courses API Documentation [Accounts] User [Accounts] User [PDP] Satisfied Rule Lists API
+  slug: open-university-of-pennsylvania-pdp-satisfied-rule-lists-api
 common:
 - group: agent
   title: ''
@@ -240,7 +319,7 @@ plans:
 - name: University Of Pennsylvania Plans Pricing
   plan_count: 2
   slug: university-of-pennsylvania-plans-pricing
-random_paper: 89
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: University Of Pennsylvania Rate Limits
@@ -288,7 +367,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/screenshots/university-of-pennsylvania-2026-06-20T200220.png
 security:

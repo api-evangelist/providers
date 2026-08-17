@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,8 +75,32 @@ apis:
 - description: The Wallets API from Crossmint — 2 operation(s) for wallets.
   name: Crossmint Wallets API
   slug: crossmint-wallets-api
-artifact_total: 20
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crossmint Wallets Balances API
+  slug: open-crossmint-balances-api
+- collection_type: open
+  name: Crossmint Wallets Balances NFTs API
+  slug: open-crossmint-nfts-api
+- collection_type: open
+  name: Crossmint Wallets Balances Signatures API
+  slug: open-crossmint-signatures-api
+- collection_type: open
+  name: Crossmint Wallets Balances Signers API
+  slug: open-crossmint-signers-api
+- collection_type: open
+  name: Crossmint Wallets Balances Transactions API
+  slug: open-crossmint-transactions-api
+- collection_type: open
+  name: Crossmint Wallets Balances Transfers API
+  slug: open-crossmint-transfers-api
+- collection_type: open
+  name: Crossmint Balances Wallets API
+  slug: open-crossmint-wallets-api
 - collection_type: open
   name: Crossmint Wallets API
   slug: open-crossmint
@@ -145,7 +169,7 @@ plans:
 - name: Crossmint Plans Pricing
   plan_count: 3
   slug: crossmint-plans-pricing
-random_paper: 34
+random_paper: 100
 rate_limits:
 - limit_count: 1
   name: Crossmint Rate Limits
@@ -176,7 +200,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossmint/refs/heads/main/screenshots/crossmint-2026-06-20T175244.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Tasks API from Capsule — 2 operation(s) for tasks.
   name: Capsule Tasks API
   slug: capsule-tasks-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Capsule CRM REST Opportunities API
+  slug: open-capsule-opportunities-api
+- collection_type: open
+  name: Capsule CRM REST Opportunities Parties API
+  slug: open-capsule-parties-api
+- collection_type: open
+  name: Capsule CRM REST Opportunities Projects API
+  slug: open-capsule-projects-api
+- collection_type: open
+  name: Capsule CRM REST Opportunities Tasks API
+  slug: open-capsule-tasks-api
 - collection_type: open
   name: Capsule CRM REST API
   slug: open-capsule
@@ -121,7 +136,7 @@ plans:
 - name: Capsule Plans Pricing
   plan_count: 3
   slug: capsule-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Capsule Rate Limits
@@ -146,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capsule/refs/heads/main/screenshots/capsule-2026-06-20T173941.png
 security:

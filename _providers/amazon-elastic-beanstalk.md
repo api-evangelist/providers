@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,11 +70,26 @@ arazzos:
 - description: Apply configuration option settings to a running environment and poll until the change settles.
   name: Amazon Elastic Beanstalk Update Environment Configuration
   slug: amazon-elastic-beanstalk-update-environment-configuration-workflow
-artifact_total: 47
+artifact_total: 52
 collections:
 - collection_type: postman
   name: Amazon Elastic Beanstalk AWS Elastic Beanstalk API
   slug: postman-amazon-elastic-beanstalk
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Elastic Beanstalk AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API API
+  slug: open-amazon-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api
+- collection_type: open
+  name: 'Amazon Elastic Beanstalk AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API #CreateEnvironment API'
+  slug: open-amazon-elastic-beanstalk-createenvironment-api
+- collection_type: open
+  name: 'Amazon Elastic Beanstalk AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API #DescribeEnvironments API'
+  slug: open-amazon-elastic-beanstalk-describeenvironments-api
+- collection_type: open
+  name: 'Amazon Elastic Beanstalk AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API #UpdateEnvironment API'
+  slug: open-amazon-elastic-beanstalk-updateenvironment-api
 - collection_type: open
   name: Amazon Elastic Beanstalk AWS Elastic Beanstalk API
   slug: open-amazon-elastic-beanstalk
@@ -298,7 +313,7 @@ plans:
 - name: Amazon Elastic Beanstalk Plans Pricing
   plan_count: 3
   slug: amazon-elastic-beanstalk-plans-pricing
-random_paper: 26
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Beanstalk Rate Limits
@@ -340,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/screenshots/amazon-elastic-beanstalk-2026-06-20T171638.png
 security:

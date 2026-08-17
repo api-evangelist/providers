@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
 - description: The Subscription API from Have I Been Pwned — 1 operation(s) for subscription.
   name: Have I Been Pwned Subscription API
   slug: have-i-been-pwned-subscription-api
-artifact_total: 85
+artifact_total: 106
 collections:
 - collection_type: postman
   name: Have I Been Pwned API v3 Breached Accounts API
@@ -113,6 +113,69 @@ collections:
 - collection_type: postman
   name: Have I Been Pwned API v3 Breached Accounts Subscription API
   slug: postman-have-i-been-pwned-subscription-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach API
+  slug: open-have-i-been-pwned-breach-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breached Accounts API
+  slug: open-have-i-been-pwned-breached-accounts-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Breachedaccount API
+  slug: open-have-i-been-pwned-breachedaccount-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Breacheddomain API
+  slug: open-have-i-been-pwned-breacheddomain-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Breaches API
+  slug: open-have-i-been-pwned-breaches-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breached Accounts Data Classes API
+  slug: open-have-i-been-pwned-data-classes-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Dataclasses API
+  slug: open-have-i-been-pwned-dataclasses-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breached Accounts Domain Search API
+  slug: open-have-i-been-pwned-domain-search-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Domainverification API
+  slug: open-have-i-been-pwned-domainverification-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Latestbreach API
+  slug: open-have-i-been-pwned-latestbreach-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Pasteaccount API
+  slug: open-have-i-been-pwned-pasteaccount-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breached Accounts Pastes API
+  slug: open-have-i-been-pwned-pastes-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Range API
+  slug: open-have-i-been-pwned-range-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breached Accounts Range Search API
+  slug: open-have-i-been-pwned-range-search-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breached Accounts Stealer Logs API
+  slug: open-have-i-been-pwned-stealer-logs-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Stealerlogsbyemail API
+  slug: open-have-i-been-pwned-stealerlogsbyemail-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Stealerlogsbyemaildomain API
+  slug: open-have-i-been-pwned-stealerlogsbyemaildomain-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Stealerlogsbywebsitedomain API
+  slug: open-have-i-been-pwned-stealerlogsbywebsitedomain-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Subscribeddomains API
+  slug: open-have-i-been-pwned-subscribeddomains-api
+- collection_type: open
+  name: Have I Been Pwned API v3 Breach Subscription API
+  slug: open-have-i-been-pwned-subscription-api
 - collection_type: open
   name: Have I Been Pwned API v3
   slug: open-have-i-been-pwned
@@ -362,7 +425,7 @@ plans:
 - name: Have I Been Pwned Plans Pricing
   plan_count: 6
   slug: have-i-been-pwned-plans-pricing
-random_paper: 52
+random_paper: 122
 rate_limits:
 - limit_count: 0
   name: Have I Been Pwned Rate Limits
@@ -404,7 +467,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/screenshots/have-i-been-pwned-2026-06-20T182538.png
 security:

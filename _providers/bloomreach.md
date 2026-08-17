@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 65.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -111,7 +112,78 @@ apis:
 - description: The Visual search API from Bloomreach — 2 operation(s) for visual search.
   name: Bloomreach Visual search API
   slug: bloomreach-visual-search-api
-artifact_total: 39
+artifact_total: 65
+asyncapis:
+- description: ''
+  name: Bloomreach Webhooks
+  slug: bloomreach-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 API
+  slug: open-bloomreach-autosuggest-api-v2-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Bestseller API v1 API
+  slug: open-bloomreach-bestseller-api-v1-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Catalog configuration API
+  slug: open-bloomreach-catalog-configuration-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Category-based widget API
+  slug: open-bloomreach-category-based-widget-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Category-based Widget Products API
+  slug: open-bloomreach-category-based-widget-products-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Content Search API v1 API
+  slug: open-bloomreach-content-search-api-v1-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Feed indexing API
+  slug: open-bloomreach-feed-indexing-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Global Recommendation Widget Products API
+  slug: open-bloomreach-global-recommendation-widget-products-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Global recommendations widget API
+  slug: open-bloomreach-global-recommendations-widget-api
+- collection_type: open
+  name: Workspace Autosuggest API v2 Imports API
+  slug: open-bloomreach-imports-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Item-based recommendation widget API
+  slug: open-bloomreach-item-based-recommendation-widget-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Item-based Recommendation Widget Products API
+  slug: open-bloomreach-item-based-recommendation-widget-products-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Job processing API
+  slug: open-bloomreach-job-processing-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Keyword-based widget API
+  slug: open-bloomreach-keyword-based-widget-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Keyword-based Widget Products API
+  slug: open-bloomreach-keyword-based-widget-products-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Manage feed records API
+  slug: open-bloomreach-manage-feed-records-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Personalization-based Widget Products API
+  slug: open-bloomreach-personalization-based-widget-products-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Personalization-based widgets API
+  slug: open-bloomreach-personalization-based-widgets-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Product & Category Search API v1 API
+  slug: open-bloomreach-product-category-search-api-v1-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 View Catalogs data API
+  slug: open-bloomreach-view-catalogs-data-api
+- collection_type: open
+  name: Workspace Imports Autosuggest API v2 Visual search API
+  slug: open-bloomreach-visual-search-api
 common:
 - group: operate
   title: ''
@@ -189,8 +261,128 @@ common:
   title: ''
   type: FinOps
   url: finops/bloomreach-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bloomreach-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/bloomreach-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bloomreach-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/bloomreach-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/bloomreach-api-catalog.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/bloomreach-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/bloomreach-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/bloomreach-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/bloomreach-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bloomreach-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/bloomreach-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bloomreach-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.bloomreach.com/en/legal/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/bloomreach-trust-center.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/bloomreach-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/bloomreach-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/bloomreach-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/bloomreach-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/bloomreach-webhooks.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.bloomreach.com/en/roadmap
+- group: build
+  title: ''
+  type: Postman
+  url: https://documentation.bloomreach.com/content/reference/postman
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://documentation.bloomreach.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://documentation.bloomreach.com/discovery/reference/welcome
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://documentation.bloomreach.com/engagement/reference/get-started-101
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.bloomreach.com
+- group: start
+  title: ''
+  type: SignUp
+  url: https://us.login.bloomreach.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bloomreach.com/en/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bloomreach.com/en/legal/privacy-policy
+- group: learn
+  title: ''
+  type: Academy
+  url: https://academy.bloomreach.com
 created: '2026-06-13'
-description: Digital commerce experience platform with REST APIs for search, merchandising, recommendations, CDP, and email/SMS marketing automation.
+description: Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.
 examples:
 - key_count: 3
   name: Bloomreach Autosuggest Response Example
@@ -225,22 +417,26 @@ jsonld:
   property_count: 59
   slug: bloomreach-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: Loomi Connect MCP
+  slug: loomi-connect-mcp
+modified: 2026-08-13
 name: Bloomreach
 nav: Providers
 network: true
 overview: 'Bloomreach publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Autosuggest API v2 API, Bestseller API v1 API, Catalog configuration API, and 18 more. Tagged areas include Digital Commerce, Search, Merchandising, Recommendations, and Customer Data Platform.
 
 
-  The Bloomreach catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Bloomreach catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Bloomreach''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
+  Bloomreach''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, API reference, and 42 more developer resources.'
 plans:
 - name: Bloomreach Plans Pricing
   plan_count: 5
   slug: bloomreach-plans-pricing
-random_paper: 92
+random_paper: 9
 rate_limits:
 - limit_count: 8
   name: Bloomreach Rate Limits
@@ -254,17 +450,22 @@ rules:
     info: 2
     warn: 3
   slug: bloomreach-jsonschema-spectral-rules
+scopes:
+- name: Bloomreach Scopes
+  scope_count: 3
+  slug: bloomreach-scopes
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.7
-  delta: 0.0
+  band: exemplar
+  composite: 87.4
+  delta: 35.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.6
-    developer_ergonomics: 21.7
-    discoverability: 40.7
-    governance: 68.8
-    operational_transparency: 52.6
+    commercial_clarity: 100.0
+    contract_quality: 81.6
+    developer_ergonomics: 84.8
+    discoverability: 87.0
+    governance: 89.6
+    operational_transparency: 81.6
   previous_composite: 51.7
   provenance:
     agentic_access: derived
@@ -274,18 +475,22 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-06-20T173521.png
 security:
 - kind: authentication
   name: Bloomreach Authentication
   slug: bloomreach-authentication
-  summary_line: http · 2 schemes
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Bloomreach Domain Security
   slug: bloomreach-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Bloomreach Trust Center
+  slug: bloomreach-trust-center
+  summary_line: SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 9001, ISO 22301, GDPR
 slug: bloomreach
 tags:
 - Digital Commerce

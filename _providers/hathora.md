@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -72,8 +72,44 @@ apis:
 - description: Create, list, and revoke organization API tokens.
   name: Hathora TokensV1 API
   slug: hathora-tokensv1-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hathora Cloud AppsV2 API
+  slug: open-hathora-appsv2-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 AuthV1 API
+  slug: open-hathora-authv1-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 BillingV1 API
+  slug: open-hathora-billingv1-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 BuildsV3 API
+  slug: open-hathora-buildsv3-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 DeploymentsV3 API
+  slug: open-hathora-deploymentsv3-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 DiscoveryV2 API
+  slug: open-hathora-discoveryv2-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 LogsV1 API
+  slug: open-hathora-logsv1-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 MetricsV1 API
+  slug: open-hathora-metricsv1-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 ProcessesV3 API
+  slug: open-hathora-processesv3-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 RoomsV2 API
+  slug: open-hathora-roomsv2-api
+- collection_type: open
+  name: Hathora Cloud AppsV2 TokensV1 API
+  slug: open-hathora-tokensv1-api
 - collection_type: open
   name: Hathora Cloud API
   slug: open-hathora
@@ -142,7 +178,7 @@ plans:
 - name: Hathora Plans Pricing
   plan_count: 3
   slug: hathora-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 5
   name: Hathora Rate Limits
@@ -167,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/screenshots/hathora-2026-07-25T220753.png
 security:

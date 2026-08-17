@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 1
@@ -156,7 +156,122 @@ apis:
 - description: User information
   name: University of Chicago user API
   slug: university-of-chicago-user-api
-artifact_total: 58
+artifact_total: 96
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user API
+  slug: open-university-of-chicago-admin-user-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user alias API
+  slug: open-university-of-chicago-alias-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user bulk API
+  slug: open-university-of-chicago-bulk-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user bundle API
+  slug: open-university-of-chicago-bundle-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user core metadata API
+  slug: open-university-of-chicago-core-metadata-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user credentials/api API
+  slug: open-university-of-chicago-credentials-api-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user credentials API
+  slug: open-university-of-chicago-credentials-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user credentials/cdis API
+  slug: open-university-of-chicago-credentials-cdis-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user credentials/google API
+  slug: open-university-of-chicago-credentials-google-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user credentials/{provider} API
+  slug: open-university-of-chicago-credentials-provider-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user data API
+  slug: open-university-of-chicago-data-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user datasets API
+  slug: open-university-of-chicago-datasets-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user dictionary API
+  slug: open-university-of-chicago-dictionary-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user DOS API
+  slug: open-university-of-chicago-dos-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user DRS API
+  slug: open-university-of-chicago-drs-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user dry run API
+  slug: open-university-of-chicago-dry-run-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user entity API
+  slug: open-university-of-chicago-entity-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user export API
+  slug: open-university-of-chicago-export-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user file API
+  slug: open-university-of-chicago-file-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user global API
+  slug: open-university-of-chicago-global-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user google API
+  slug: open-university-of-chicago-google-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user graphql API
+  slug: open-university-of-chicago-graphql-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user GUID API
+  slug: open-university-of-chicago-guid-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user index API
+  slug: open-university-of-chicago-index-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user keys API
+  slug: open-university-of-chicago-keys-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user link API
+  slug: open-university-of-chicago-link-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user login API
+  slug: open-university-of-chicago-login-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user logout API
+  slug: open-university-of-chicago-logout-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user oauth2 API
+  slug: open-university-of-chicago-oauth2-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user OIDC API
+  slug: open-university-of-chicago-oidc-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user privacy-policy API
+  slug: open-university-of-chicago-privacy-policy-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user program API
+  slug: open-university-of-chicago-program-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user project API
+  slug: open-university-of-chicago-project-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user query API
+  slug: open-university-of-chicago-query-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user register API
+  slug: open-university-of-chicago-register-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/user system API
+  slug: open-university-of-chicago-system-api
+- collection_type: open
+  name: Fence OpenAPI Specification admin/ user API
+  slug: open-university-of-chicago-user-api
 common:
 - group: agent
   title: ''
@@ -273,7 +388,7 @@ plans:
 - name: University Of Chicago Plans Pricing
   plan_count: 2
   slug: university-of-chicago-plans-pricing
-random_paper: 103
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: University Of Chicago Rate Limits
@@ -320,7 +435,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/screenshots/university-of-chicago-2026-06-20T200146.png
 security:

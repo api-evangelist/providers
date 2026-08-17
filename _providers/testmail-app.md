@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: Retrieve test emails from programmable inboxes
   name: Testmail Inbox API
   slug: testmail-app-inbox-api
-artifact_total: 18
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Testmail GraphQL API
+  slug: open-testmail-app-graphql-api
+- collection_type: open
+  name: Testmail GraphQL Inbox API
+  slug: open-testmail-app-inbox-api
 common:
 - group: agent
   title: ''
@@ -154,7 +164,7 @@ plans:
 - name: Testmail App Plans Pricing
   plan_count: 4
   slug: testmail-app-plans-pricing
-random_paper: 33
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Testmail App Rate Limits
@@ -188,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testmail-app/refs/heads/main/screenshots/testmail-app-2026-06-20T195154.png
 security:

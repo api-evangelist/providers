@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -75,12 +75,48 @@ apis:
 - description: Accounting vouchers (journal entries).
   name: Fortnox Vouchers API
   slug: fortnox-vouchers-api
-artifact_total: 21
+artifact_total: 33
 asyncapis:
 - description: AsyncAPI 2.6 description of Fortnox's **real duplex WebSocket API** at `wss://ws.fortnox.se/topics-v1` (the "Topics" service). Unlike the REST API at https://api.fortnox.se/3/, this is a genuine WebSo
   name: Fortnox Topics WebSocket API
   slug: fortnox-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts API
+  slug: open-fortnox-accounts-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Articles API
+  slug: open-fortnox-articles-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Customers API
+  slug: open-fortnox-customers-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Financial Years API
+  slug: open-fortnox-financial-years-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Invoices API
+  slug: open-fortnox-invoices-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Offers API
+  slug: open-fortnox-offers-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Orders API
+  slug: open-fortnox-orders-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Projects API
+  slug: open-fortnox-projects-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Supplier Invoices API
+  slug: open-fortnox-supplier-invoices-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Suppliers API
+  slug: open-fortnox-suppliers-api
+- collection_type: open
+  name: Fortnox REST API (Representative Subset) Accounts Vouchers API
+  slug: open-fortnox-vouchers-api
 - collection_type: open
   name: Fortnox REST API
   slug: open-fortnox
@@ -148,7 +184,7 @@ plans:
 - name: Fortnox Plans Pricing
   plan_count: 6
   slug: fortnox-plans-pricing
-random_paper: 64
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Fortnox Rate Limits
@@ -182,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/screenshots/fortnox-2026-07-25T215012.png
 security:

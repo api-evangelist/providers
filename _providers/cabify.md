@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -78,11 +78,54 @@ apis:
 - description: Subscribe to event-driven notifications to receive live updates about parcel status changes, location updates, and proof of delivery codes.
   name: Cabify webhooks API
   slug: cabify-webhooks-api
-artifact_total: 19
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Cabify Webhooks
   slug: cabify-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cabify Logistics delivery API
+  slug: open-cabify-delivery-api
+- collection_type: open
+  name: Cabify Logistics delivery Estimates API
+  slug: open-cabify-estimates-api
+- collection_type: open
+  name: Cabify Logistics delivery hubs API
+  slug: open-cabify-hubs-api
+- collection_type: open
+  name: Cabify Logistics delivery Journeys API
+  slug: open-cabify-journeys-api
+- collection_type: open
+  name: Cabify Logistics delivery label API
+  slug: open-cabify-label-api
+- collection_type: open
+  name: Cabify Logistics delivery Labels API
+  slug: open-cabify-labels-api
+- collection_type: open
+  name: Cabify Logistics delivery parcels API
+  slug: open-cabify-parcels-api
+- collection_type: open
+  name: Cabify Logistics delivery Sales API
+  slug: open-cabify-sales-api
+- collection_type: open
+  name: Cabify Logistics delivery shipment API
+  slug: open-cabify-shipment-api
+- collection_type: open
+  name: Cabify Logistics delivery shipping_types API
+  slug: open-cabify-shipping-types-api
+- collection_type: open
+  name: Cabify Logistics delivery status API
+  slug: open-cabify-status-api
+- collection_type: open
+  name: Cabify Logistics delivery users API
+  slug: open-cabify-users-api
+- collection_type: open
+  name: Cabify Logistics delivery webhooks API
+  slug: open-cabify-webhooks-api
 common:
 - group: other
   title: ''
@@ -227,7 +270,7 @@ overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cabify''s developer surface includes documentation, getting-started guide, API reference, authentication, sandbox, changelog, support, and 24 more developer resources.'
-random_paper: 22
+random_paper: 26
 score:
   band: developing
   composite: 53.2
@@ -251,7 +294,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/screenshots/cabify-2026-07-25T204159.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: Model and deployment metadata
   name: Microsoft Azure AI Foundry Models API
   slug: azure-ai-foundry-models-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure AI Foundry Model Inference REST Chat Completions API
+  slug: open-azure-ai-foundry-chat-completions-api
+- collection_type: open
+  name: Azure AI Foundry Model Inference REST Chat Completions API
+  slug: open-azure-ai-foundry-completions-api
+- collection_type: open
+  name: Azure AI Foundry Model Inference REST Chat Completions Embeddings API
+  slug: open-azure-ai-foundry-embeddings-api
+- collection_type: open
+  name: Azure AI Foundry Model Inference REST Chat Completions Images API
+  slug: open-azure-ai-foundry-images-api
+- collection_type: open
+  name: Azure AI Foundry Model Inference REST Chat Completions Models API
+  slug: open-azure-ai-foundry-models-api
 - collection_type: open
   name: Azure AI Foundry Model Inference REST API
   slug: open-azure-ai-foundry
@@ -122,7 +140,7 @@ overview: 'Microsoft Azure AI Foundry publishes 5 APIs on the [APIs.io](https://
 
 
   Microsoft Azure AI Foundry''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 58
+random_paper: 128
 scopes:
 - name: Azure Ai Foundry Scopes
   scope_count: 1
@@ -148,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/screenshots/azure-ai-foundry-2026-06-20T172847.png
 security:

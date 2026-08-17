@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Agent API from Sobot — 1 operation(s) for agent.
@@ -44,11 +44,27 @@ apis:
 - description: The User API from Sobot — 16 operation(s) for user.
   name: Sobot User API
   slug: sobot-user-api
-artifact_total: 8
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Sobot Voice Webhooks
   slug: sobot-voice-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenAPI Plant Store Agent API
+  slug: open-sobot-agent-api
+- collection_type: open
+  name: OpenAPI Plant Store Agent basic-public/service/坐席信息管理 API
+  slug: open-sobot-basic-public-service-api
+- collection_type: open
+  name: OpenAPI Plant Store Agent Exts API
+  slug: open-sobot-exts-api
+- collection_type: open
+  name: OpenAPI Plant Store Agent User API
+  slug: open-sobot-user-api
 common:
 - group: auth
   title: ''
@@ -181,7 +197,7 @@ overview: 'Sobot publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Sobot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 71
+random_paper: 104
 score:
   band: developing
   composite: 49.0
@@ -204,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

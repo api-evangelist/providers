@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: Tenant details and tenant authentication credentials.
   name: UrbanFox Tenants API
   slug: urbanfox-tenants-api
-artifact_total: 11
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UrbanFox Customer Cases API
+  slug: open-urbanfox-cases-api
+- collection_type: open
+  name: UrbanFox Customer Cases End User Accounts API
+  slug: open-urbanfox-end-user-accounts-api
+- collection_type: open
+  name: UrbanFox Customer Cases Metrics API
+  slug: open-urbanfox-metrics-api
+- collection_type: open
+  name: UrbanFox Customer Cases OAuth API
+  slug: open-urbanfox-oauth-api
+- collection_type: open
+  name: UrbanFox Customer Cases Snippet API
+  slug: open-urbanfox-snippet-api
+- collection_type: open
+  name: UrbanFox Customer Cases Tenants API
+  slug: open-urbanfox-tenants-api
 common:
 - group: other
   title: ''
@@ -170,7 +192,7 @@ overview: 'UrbanFox publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   UrbanFox''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 29
+random_paper: 124
 scopes:
 - name: Urbanfox Scopes
   scope_count: 13
@@ -205,7 +227,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

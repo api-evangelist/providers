@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Topics API from Apache RocketMQ — 2 operation(s) for topics.
   name: Apache RocketMQ Topics API
   slug: apache-rocketmq-topics-api
-artifact_total: 70
+artifact_total: 75
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache RocketMQ REST Brokers API
+  slug: open-apache-rocketmq-brokers-api
+- collection_type: open
+  name: Apache RocketMQ REST Brokers ConsumerGroups API
+  slug: open-apache-rocketmq-consumergroups-api
+- collection_type: open
+  name: Apache RocketMQ REST Brokers Messages API
+  slug: open-apache-rocketmq-messages-api
+- collection_type: open
+  name: Apache RocketMQ REST Brokers Topics API
+  slug: open-apache-rocketmq-topics-api
 common:
 - group: agent
   title: ''
@@ -265,7 +281,7 @@ plans:
 - name: Apache Rocketmq Plans Pricing
   plan_count: 3
   slug: apache-rocketmq-plans-pricing
-random_paper: 85
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Apache Rocketmq Rate Limits
@@ -307,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/screenshots/apache-rocketmq-2026-06-20T172138.png
 security:

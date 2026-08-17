@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - description: General-purpose developer utilities
   name: API Snap Utilities API
   slug: api-snap-utilities-api
-artifact_total: 65
+artifact_total: 71
 collections:
 - collection_type: postman
   name: API Snap Browser API
@@ -72,6 +72,24 @@ collections:
 - collection_type: postman
   name: API Snap Browser Utilities API
   slug: postman-api-snap-utilities-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Snap Browser API
+  slug: open-api-snap-browser-api
+- collection_type: open
+  name: API Snap Browser Documents API
+  slug: open-api-snap-documents-api
+- collection_type: open
+  name: API Snap Browser Images API
+  slug: open-api-snap-images-api
+- collection_type: open
+  name: API Snap Browser Security API
+  slug: open-api-snap-security-api
+- collection_type: open
+  name: API Snap Browser Utilities API
+  slug: open-api-snap-utilities-api
 - collection_type: open
   name: API Snap
   slug: open-api-snap
@@ -280,7 +298,7 @@ plans:
 - name: Api Snap Plans Pricing
   plan_count: 4
   slug: api-snap-plans-pricing
-random_paper: 73
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Api Snap Rate Limits
@@ -328,7 +346,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/screenshots/api-snap-2026-07-25T200604.png
 security:

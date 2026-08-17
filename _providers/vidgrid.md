@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -59,11 +59,36 @@ apis:
 - description: The Webhook API allows you to trigger webhook events.
   name: VidGrid Webhooks API
   slug: vidgrid-webhooks-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Vidgrid Webhooks
   slug: vidgrid-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VidGrid API Reference Caption API
+  slug: open-vidgrid-caption-api
+- collection_type: open
+  name: VidGrid API Reference Caption Folder API
+  slug: open-vidgrid-folder-api
+- collection_type: open
+  name: VidGrid API Reference Caption Search API
+  slug: open-vidgrid-search-api
+- collection_type: open
+  name: VidGrid API Reference Caption Token API
+  slug: open-vidgrid-token-api
+- collection_type: open
+  name: VidGrid API Reference Caption User API
+  slug: open-vidgrid-user-api
+- collection_type: open
+  name: VidGrid API Reference Caption Video API
+  slug: open-vidgrid-video-api
+- collection_type: open
+  name: VidGrid API Reference Caption Webhooks API
+  slug: open-vidgrid-webhooks-api
 common:
 - group: other
   title: ''
@@ -180,7 +205,7 @@ overview: 'VidGrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   VidGrid''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 19 more developer resources.'
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Vidgrid Rate Limits
@@ -208,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

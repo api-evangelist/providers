@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Disney character data including films, TV shows, and park attractions
   name: Walt Disney Characters API
   slug: walt-disney-characters-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Disney Characters API
+  slug: open-walt-disney-characters-api
 - collection_type: open
   name: Disney Characters API
   slug: open-walt-disney-disney-api
@@ -155,7 +161,7 @@ press:
 - date: '2026-05-25'
   title: The Walt Disney Company and OpenAI Reach Agreement ...
   url: https://thewaltdisneycompany.com/news/disney-openai-sora-agreement/
-random_paper: 57
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Walt Disney Rate Limits
@@ -197,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

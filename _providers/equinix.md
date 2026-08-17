@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 4
@@ -261,7 +261,233 @@ apis:
 - description: VRF Management. A VRF is a project-scoped virtual router resource that defines a collection of customer-managed IP blocks that can be used in BGP peering on one or more virtual networks. Metal Gateway
   name: Equinix VRFs API
   slug: equinix-vrfs-api
-artifact_total: 83
+artifact_total: 158
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Equinix API Authentication Agent Templates API
+  slug: open-equinix-agent-templates-api
+- collection_type: open
+  name: Equinix API Authentication Agents API
+  slug: open-equinix-agents-api
+- collection_type: open
+  name: Equinix API Authentication API
+  slug: open-equinix-authentication-api
+- collection_type: open
+  name: Equinix API Authentication availability API
+  slug: open-equinix-availability-api
+- collection_type: open
+  name: Equinix API Authentication Batches API
+  slug: open-equinix-batches-api
+- collection_type: open
+  name: Equinix API Authentication BGP API
+  slug: open-equinix-bgp-api
+- collection_type: open
+  name: Equinix API Authentication Capacity API
+  slug: open-equinix-capacity-api
+- collection_type: open
+  name: Equinix API Authentication Cloud Events API
+  slug: open-equinix-cloud-events-api
+- collection_type: open
+  name: Equinix API Authentication Cloud Routers API
+  slug: open-equinix-cloud-routers-api
+- collection_type: open
+  name: Equinix API Authentication Company Profiles API
+  slug: open-equinix-company-profiles-api
+- collection_type: open
+  name: Equinix API Authentication Connections API
+  slug: open-equinix-connections-api
+- collection_type: open
+  name: Equinix API Authentication Console Log Details API
+  slug: open-equinix-console-log-details-api
+- collection_type: open
+  name: Equinix API Authentication Devices API
+  slug: open-equinix-devices-api
+- collection_type: open
+  name: Equinix API Authentication EIA Service API
+  slug: open-equinix-eia-service-api
+- collection_type: open
+  name: Equinix API Authentication Emails API
+  slug: open-equinix-emails-api
+- collection_type: open
+  name: Equinix API Authentication Events API
+  slug: open-equinix-events-api
+- collection_type: open
+  name: Equinix API Authentication Facilities API
+  slug: open-equinix-facilities-api
+- collection_type: open
+  name: Equinix API Authentication Firmware Sets API
+  slug: open-equinix-firmware-sets-api
+- collection_type: open
+  name: Equinix API Authentication HardwareReservations API
+  slug: open-equinix-hardwarereservations-api
+- collection_type: open
+  name: Equinix API Authentication Health API
+  slug: open-equinix-health-api
+- collection_type: open
+  name: Equinix API Authentication Incidents API
+  slug: open-equinix-incidents-api
+- collection_type: open
+  name: Equinix API Authentication Interconnections API
+  slug: open-equinix-interconnections-api
+- collection_type: open
+  name: Equinix API Authentication Invitations API
+  slug: open-equinix-invitations-api
+- collection_type: open
+  name: Equinix API Authentication Invoices API
+  slug: open-equinix-invoices-api
+- collection_type: open
+  name: Equinix API Authentication IPAddresses API
+  slug: open-equinix-ipaddresses-api
+- collection_type: open
+  name: Equinix API Authentication Licenses API
+  slug: open-equinix-licenses-api
+- collection_type: open
+  name: Equinix API Authentication Logos API
+  slug: open-equinix-logos-api
+- collection_type: open
+  name: Equinix API Authentication Lookup API
+  slug: open-equinix-lookup-api
+- collection_type: open
+  name: Equinix API Authentication Marketplace Subscriptions API
+  slug: open-equinix-marketplace-subscriptions-api
+- collection_type: open
+  name: Equinix API Authentication Memberships API
+  slug: open-equinix-memberships-api
+- collection_type: open
+  name: Equinix API Authentication MetalGateways API
+  slug: open-equinix-metalgateways-api
+- collection_type: open
+  name: Equinix API Authentication Metrics API
+  slug: open-equinix-metrics-api
+- collection_type: open
+  name: Equinix API Authentication Metros API
+  slug: open-equinix-metros-api
+- collection_type: open
+  name: Equinix API Authentication Networks API
+  slug: open-equinix-networks-api
+- collection_type: open
+  name: Equinix API Authentication OAuth2 Token API
+  slug: open-equinix-oauth2-token-api
+- collection_type: open
+  name: Equinix API Authentication OperatingSystems API
+  slug: open-equinix-operatingsystems-api
+- collection_type: open
+  name: Equinix API Authentication Orders API
+  slug: open-equinix-orders-api
+- collection_type: open
+  name: Equinix API Authentication Organizations API
+  slug: open-equinix-organizations-api
+- collection_type: open
+  name: Equinix API Authentication OTPs API
+  slug: open-equinix-otps-api
+- collection_type: open
+  name: Equinix API Authentication PasswordResetTokens API
+  slug: open-equinix-passwordresettokens-api
+- collection_type: open
+  name: Equinix API Authentication PaymentMethods API
+  slug: open-equinix-paymentmethods-api
+- collection_type: open
+  name: Equinix API Authentication Plans API
+  slug: open-equinix-plans-api
+- collection_type: open
+  name: Equinix API Authentication Port Packages API
+  slug: open-equinix-port-packages-api
+- collection_type: open
+  name: Equinix API Authentication Ports API
+  slug: open-equinix-ports-api
+- collection_type: open
+  name: Equinix API Authentication Precision Time API
+  slug: open-equinix-precision-time-api
+- collection_type: open
+  name: Equinix API Authentication Prices API
+  slug: open-equinix-prices-api
+- collection_type: open
+  name: Equinix API Authentication Projects API
+  slug: open-equinix-projects-api
+- collection_type: open
+  name: Equinix API Authentication Retrieve Orders API
+  slug: open-equinix-retrieve-orders-api
+- collection_type: open
+  name: Equinix API Authentication Route Aggregation Rules API
+  slug: open-equinix-route-aggregation-rules-api
+- collection_type: open
+  name: Equinix API Authentication Route Aggregations API
+  slug: open-equinix-route-aggregations-api
+- collection_type: open
+  name: Equinix API Authentication Route Filter Rules API
+  slug: open-equinix-route-filter-rules-api
+- collection_type: open
+  name: Equinix API Authentication Route Filters API
+  slug: open-equinix-route-filters-api
+- collection_type: open
+  name: Equinix API Authentication Routing Protocols API
+  slug: open-equinix-routing-protocols-api
+- collection_type: open
+  name: Equinix API Authentication SelfServiceReservations API
+  slug: open-equinix-selfservicereservations-api
+- collection_type: open
+  name: Equinix API Authentication Service Profiles API
+  slug: open-equinix-service-profiles-api
+- collection_type: open
+  name: Equinix API Authentication Service Tokens API
+  slug: open-equinix-service-tokens-api
+- collection_type: open
+  name: Equinix API Authentication Smarthands API
+  slug: open-equinix-smarthands-api
+- collection_type: open
+  name: Equinix API Authentication SpotMarket API
+  slug: open-equinix-spotmarket-api
+- collection_type: open
+  name: Equinix API Authentication SSHKeys API
+  slug: open-equinix-sshkeys-api
+- collection_type: open
+  name: Equinix API Authentication Statistics API
+  slug: open-equinix-statistics-api
+- collection_type: open
+  name: Equinix API Authentication Stream Alert Rules API
+  slug: open-equinix-stream-alert-rules-api
+- collection_type: open
+  name: Equinix API Authentication Stream Subscriptions API
+  slug: open-equinix-stream-subscriptions-api
+- collection_type: open
+  name: Equinix API Authentication Streams API
+  slug: open-equinix-streams-api
+- collection_type: open
+  name: Equinix API Authentication SupportRequest API
+  slug: open-equinix-supportrequest-api
+- collection_type: open
+  name: Equinix API Authentication Tags API
+  slug: open-equinix-tags-api
+- collection_type: open
+  name: Equinix API Authentication TransferRequests API
+  slug: open-equinix-transferrequests-api
+- collection_type: open
+  name: Equinix API Authentication TwoFactorAuth API
+  slug: open-equinix-twofactorauth-api
+- collection_type: open
+  name: Equinix API Authentication Usages API
+  slug: open-equinix-usages-api
+- collection_type: open
+  name: Equinix API Authentication use API
+  slug: open-equinix-use-api
+- collection_type: open
+  name: Equinix API Authentication Userdata API
+  slug: open-equinix-userdata-api
+- collection_type: open
+  name: Equinix API Authentication Users API
+  slug: open-equinix-users-api
+- collection_type: open
+  name: Equinix API Authentication UserVerificationTokens API
+  slug: open-equinix-userverificationtokens-api
+- collection_type: open
+  name: Equinix API Authentication VLANs API
+  slug: open-equinix-vlans-api
+- collection_type: open
+  name: Equinix API Authentication VRFs API
+  slug: open-equinix-vrfs-api
 common:
 - group: agent
   title: ''
@@ -343,7 +569,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases | Equinix
   url: https://newsroom.equinix.com/press-releases-canada-en
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Equinix Rate Limits
@@ -368,7 +594,7 @@ score:
       marker_coverage: 0.0
       total: 74
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png
 security:

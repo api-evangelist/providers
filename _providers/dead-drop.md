@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Drop version history
   name: Dead Drop History API
   slug: dead-drop-history-api
-artifact_total: 25
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dead-drop API v1 Documentation API
+  slug: open-dead-drop-documentation-api
+- collection_type: open
+  name: dead-drop API v1 Documentation Drops API
+  slug: open-dead-drop-drops-api
+- collection_type: open
+  name: dead-drop API v1 Documentation Health API
+  slug: open-dead-drop-health-api
+- collection_type: open
+  name: dead-drop API v1 Documentation History API
+  slug: open-dead-drop-history-api
 - collection_type: open
   name: dead-drop API v1
   slug: open-dead-drop
@@ -163,7 +178,7 @@ plans:
 - name: Dead Drop Plans Pricing
   plan_count: 1
   slug: dead-drop-plans-pricing
-random_paper: 40
+random_paper: 135
 rate_limits:
 - limit_count: 2
   name: Dead Drop Rate Limits
@@ -205,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/screenshots/dead-drop-2026-06-20T175740.png
 security:

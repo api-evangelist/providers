@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -175,14 +175,26 @@ arazzos:
 - description: Find a recently deleted user, undelete it into an org unit, and confirm.
   name: Google Workspace Restore a Deleted User
   slug: google-workspace-restore-deleted-user-workflow
-artifact_total: 111
+artifact_total: 115
 collections:
 - collection_type: postman
   name: Google Workspace Admin SDK Directory API
   slug: postman-admin-sdk-directory-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Workspace Admin SDK Directory API
   slug: open-admin-sdk-directory-api
+- collection_type: open
+  name: Google Workspace Admin SDK Directory Groups API
+  slug: open-google-workspace-groups-api
+- collection_type: open
+  name: Google Workspace Admin SDK Directory Groups OrgUnits API
+  slug: open-google-workspace-orgunits-api
+- collection_type: open
+  name: Google Workspace Admin SDK Directory Groups Users API
+  slug: open-google-workspace-users-api
 common:
 - group: agent
   title: ''
@@ -488,7 +500,7 @@ plans:
 - name: Google Workspace Plans Pricing
   plan_count: 4
   slug: google-workspace-plans-pricing
-random_paper: 97
+random_paper: 18
 rate_limits:
 - limit_count: 7
   name: Google Workspace Rate Limits
@@ -535,7 +547,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/screenshots/google-workspace-2026-06-20T182248.png
 security:

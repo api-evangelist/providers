@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ arazzos:
 - description: Find a general ledger account by type, then read its full detail and balance.
   name: Workday Finance Verify Account Balance
   slug: workday-finance-verify-account-balance-workflow
-artifact_total: 64
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Workday Finance Financial Management API
@@ -130,11 +130,41 @@ collections:
   name: Workday Finance Procurement API
   slug: postman-workday-finance-procurement
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Finance Financial Management Accounts API
+  slug: open-workday-finance-accounts-api
+- collection_type: open
+  name: Workday Finance Financial Management Accounts Cost Centers API
+  slug: open-workday-finance-cost-centers-api
+- collection_type: open
   name: Workday Finance Financial Management API
   slug: open-workday-finance-financial-management
 - collection_type: open
+  name: Workday Finance Financial Management Accounts Financial Periods API
+  slug: open-workday-finance-financial-periods-api
+- collection_type: open
+  name: Workday Finance Financial Management Accounts Journal Entries API
+  slug: open-workday-finance-journal-entries-api
+- collection_type: open
   name: Workday Finance Procurement API
   slug: open-workday-finance-procurement
+- collection_type: open
+  name: Workday Finance Financial Management Accounts Purchase Orders API
+  slug: open-workday-finance-purchase-orders-api
+- collection_type: open
+  name: Workday Finance Financial Management Accounts Requisitions API
+  slug: open-workday-finance-requisitions-api
+- collection_type: open
+  name: Workday Finance Financial Management Accounts Supplier Invoices API
+  slug: open-workday-finance-supplier-invoices-api
+- collection_type: open
+  name: Workday Finance Financial Management Accounts Suppliers API
+  slug: open-workday-finance-suppliers-api
+- collection_type: open
+  name: Workday Finance Financial Management Accounts Worktags API
+  slug: open-workday-finance-worktags-api
 common:
 - group: agent
   title: ''
@@ -393,7 +423,7 @@ plans:
 - name: Workday Finance Plans Pricing
   plan_count: 1
   slug: workday-finance-plans-pricing
-random_paper: 98
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Workday Finance Rate Limits
@@ -435,7 +465,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/screenshots/workday-finance-2026-06-20T201558.png
 security:

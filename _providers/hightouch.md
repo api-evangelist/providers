@@ -11,56 +11,147 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 72.1
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 22
   human_in_the_loop: 0
   name: Hightouch Agentic Access
-  operation_count: 13
+  operation_count: 43
   slug: hightouch-agentic-access
-  summary_line: 13 operations · 4 acting
-api_count: 4
+  summary_line: 43 operations · 22 acting
+api_count: 9
 apis:
-- description: Data destinations
-  name: Hightouch Destinations API
-  slug: hightouch-destinations-api
-- description: Data models
-  name: Hightouch Models API
-  slug: hightouch-models-api
-- description: Data sources
+- description: The full Hightouch public REST API — sources, models, destinations, syncs and runs, campaigns, AI Decisioning flows and messages, event contracts and domains, and identity resolution. 43 operations, h
+  name: Hightouch API
+  slug: hightouch-api
+- description: Warehouse and database sources Hightouch reads from.
   name: Hightouch Sources API
   slug: hightouch-sources-api
-- description: Data syncs and runs
+- description: Model definitions (SQL, table, dbt, visual) over a source.
+  name: Hightouch Models API
+  slug: hightouch-models-api
+- description: Destination connectors receiving synced data.
+  name: Hightouch Destinations API
+  slug: hightouch-destinations-api
+- description: Syncs, sync runs, sync sequences and their triggers.
   name: Hightouch Syncs API
   slug: hightouch-syncs-api
-artifact_total: 13
+- description: Trigger a campaign send to handle- or profile-based recipients and read back per-send status.
+  name: Hightouch Campaigns API
+  slug: hightouch-campaigns-api
+- description: Decision-engine flows, their message variants, guardrails and runs.
+  name: Hightouch AI Decisioning API
+  slug: hightouch-ai-decisioning-api
+- description: First-party event governance — event contracts and event domains.
+  name: Hightouch Events API
+  slug: hightouch-events-api
+- description: Identity graph runs, reprocessing queues and run statistics.
+  name: Hightouch Identity Resolution API
+  slug: hightouch-identity-resolution-api
+artifact_total: 26
+asyncapis:
+- description: ''
+  name: Hightouch Webhooks
+  slug: hightouch-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hightouch Management Destinations API
+  slug: open-hightouch-destinations-api
+- collection_type: open
+  name: Hightouch Management Destinations Models API
+  slug: open-hightouch-models-api
+- collection_type: open
+  name: Hightouch Management Destinations Sources API
+  slug: open-hightouch-sources-api
+- collection_type: open
+  name: Hightouch Management Destinations Syncs API
+  slug: open-hightouch-syncs-api
 - collection_type: open
   name: Hightouch Management API
   slug: open-hightouch
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/hightouch-agentic-access.yml
+  type: Website
+  url: https://hightouch.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://hightouch.com/docs/developer-tools/api-guide
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://hightouch.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://hightouch.com/docs/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://hightouch.com/docs/getting-started/welcome
+- group: company
+  title: ''
+  type: Blog
+  url: https://hightouch.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://hightouch.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.hightouch.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.hightouch.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://hightouch.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://hightouch.com/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/hightouchio
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/hightouchio
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.hightouch.io
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://hightouch.com/platform/security
 - group: auth
   title: ''
   type: TrustCenter
@@ -73,44 +164,104 @@ common:
   title: ''
   type: Authentication
   url: authentication/hightouch-authentication.yml
-- group: company
+- group: auth
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/hightouchio
-- group: company
+  type: OAuthScopes
+  url: scopes/hightouch-scopes.yml
+- group: design
   title: ''
-  type: Website
-  url: https://hightouch.com/
-- group: docs
+  type: Conventions
+  url: conventions/hightouch-conventions.yml
+- group: design
   title: ''
-  type: Documentation
-  url: https://hightouch.com/docs
-- group: docs
+  type: Conformance
+  url: conformance/hightouch-conformance.yml
+- group: design
   title: ''
-  type: APIReference
-  url: https://hightouch.com/docs/api-reference
-- group: commercial
+  type: ErrorCatalog
+  url: errors/hightouch-problem-types.yml
+- group: design
   title: ''
-  type: Pricing
-  url: https://hightouch.com/pricing
-- group: company
+  type: ErrorCodes
+  url: errors/hightouch-error-codes.yml
+- group: design
   title: ''
-  type: Blog
-  url: https://hightouch.com/blog
-- group: start
+  type: Lifecycle
+  url: lifecycle/hightouch-lifecycle.yml
+- group: design
   title: ''
-  type: Signup
-  url: https://app.hightouch.com/signup
+  type: DataModel
+  url: data-model/hightouch-data-model.yml
 - group: build
   title: ''
-  type: GitHubOrganization
-  url: https://github.com/hightouchio
+  type: Packages
+  url: packages/hightouch-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/hightouch-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/hightouch-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/hightouch-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/hightouch-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/hightouch-webhooks.yml
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://hightouch.com/llms.txt
+  type: WellKnown
+  url: well-known/hightouch-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/hightouch-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/hightouch-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/hightouch-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/hightouch-agentic-access.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hightouch-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/hightouch-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/hightouch-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/hightouch-finops.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hightouch-api-overlay.yaml
 created: '2026-03-27'
-description: Hightouch is a composable Customer Data Platform (CDP) and data activation platform that syncs data from warehouses such as Snowflake and BigQuery to more than 300 SaaS destinations including Salesforce, HubSpot, Google Ads, and Facebook Ads. The platform supports reverse ETL, audience segmentation, journey orchestration, real-time personalization, AI Decisioning, and an Ad Studio for advertising campaigns. A Resource API provides programmatic management of the platform with git version control and approval workflows.
+description: Hightouch is a composable Customer Data Platform (CDP) and agentic marketing platform that activates data directly from cloud warehouses and lakehouses such as Snowflake, BigQuery, Databricks and Redshift to more than 290 SaaS destinations, without copying or storing customer data. The platform covers Reverse ETL, Customer Studio audience building and journey orchestration, identity resolution, first-party event collection with SDKs for web and mobile, real-time personalization, AI Decisioning, Match Booster and an Ad Studio for advertising creative. Developers get a bearer-authenticated REST API at https://api.hightouch.com/api/v1 covering sources, models, destinations, syncs and runs, campaigns, decision-engine flows, event contracts and identity graphs, plus an `ht` CLI, Git Sync for version-controlled resource YAML, workspace environments with approval flows, a public documentation MCP server, and an A2A agent card for the Hightouch Marketing Agent.
 finops:
 - name: Hightouch Finops
   service_category: API
@@ -121,34 +272,46 @@ graphqls:
   slug: hightouch-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hightouch.png
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: hightouch-mcp.yml
+  slug: hightouch-mcpyml
+modified: '2026-08-13'
 name: Hightouch
 nav: Providers
 network: true
-overview: 'Hightouch publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Destinations API, Models API, Sources API, and 1 more. Tagged areas include CDP, Data Activation, Reverse ETL, Audience Management, and Unified API.
+overview: 'Hightouch publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Sources API, Models API, and 7 more. Tagged areas include CDP, Data Activation, Reverse ETL, Audience Management, and Identity Resolution.
 
 
-  Hightouch''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, and 7 more developer resources.'
+  The Hightouch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Hightouch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 35 more developer resources.'
 plans:
 - name: Hightouch Plans Pricing
   plan_count: 3
   slug: hightouch-plans-pricing
-random_paper: 3
+random_paper: 69
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Hightouch Rate Limits
   slug: hightouch-rate-limits
+scopes:
+- name: Hightouch Scopes
+  scope_count: 4
+  slug: hightouch-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 40.2
-  delta: 0.0
+  band: strong
+  composite: 65.6
+  delta: 25.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 60.8
-    developer_ergonomics: 28.3
+    commercial_clarity: 76.3
+    contract_quality: 75.1
+    developer_ergonomics: 82.6
     discoverability: 81.5
-    governance: 0.0
-    operational_transparency: 13.2
+    governance: 20.8
+    operational_transparency: 34.2
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -158,14 +321,14 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/screenshots/hightouch-2026-06-20T182738.png
 security:
 - kind: authentication
   name: Hightouch Authentication
   slug: hightouch-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2/openIdConnect · 3 schemes
 - kind: domain-security
   name: Hightouch Domain Security
   slug: hightouch-domain-security
@@ -180,7 +343,11 @@ tags:
 - Data Activation
 - Reverse ETL
 - Audience Management
-- Unified API
+- Identity Resolution
+- Event Collection
 - Marketing
+- Advertising
+- AI Agents
+- Data Warehouse
 website: https://hightouch.com/
 ---

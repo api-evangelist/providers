@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -116,14 +116,59 @@ arazzos:
 - description: Find a published post by search and revert it to draft.
   name: WordPress Unpublish Post to Draft
   slug: wordpress-unpublish-post-to-draft-workflow
-artifact_total: 131
+artifact_total: 146
 collections:
 - collection_type: postman
   name: WordPress REST API
   slug: postman-wordpress-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WordPress REST Block Types API
+  slug: open-wordpress-block-types-api
+- collection_type: open
+  name: WordPress REST Block Types Blocks API
+  slug: open-wordpress-blocks-api
+- collection_type: open
+  name: WordPress REST Block Types Categories API
+  slug: open-wordpress-categories-api
+- collection_type: open
+  name: WordPress REST Block Types Comments API
+  slug: open-wordpress-comments-api
+- collection_type: open
+  name: WordPress REST Block Types Media API
+  slug: open-wordpress-media-api
+- collection_type: open
+  name: WordPress REST Block Types Pages API
+  slug: open-wordpress-pages-api
+- collection_type: open
+  name: WordPress REST Block Types Plugins API
+  slug: open-wordpress-plugins-api
+- collection_type: open
+  name: WordPress REST Block Types Post Types API
+  slug: open-wordpress-post-types-api
+- collection_type: open
+  name: WordPress REST Block Types Posts API
+  slug: open-wordpress-posts-api
+- collection_type: open
   name: WordPress REST API
   slug: open-wordpress-rest-api
+- collection_type: open
+  name: WordPress REST Block Types Search API
+  slug: open-wordpress-search-api
+- collection_type: open
+  name: WordPress REST Block Types Settings API
+  slug: open-wordpress-settings-api
+- collection_type: open
+  name: WordPress REST Block Types Tags API
+  slug: open-wordpress-tags-api
+- collection_type: open
+  name: WordPress REST Block Types Themes API
+  slug: open-wordpress-themes-api
+- collection_type: open
+  name: WordPress REST Block Types Users API
+  slug: open-wordpress-users-api
 common:
 - group: commercial
   title: ''
@@ -498,7 +543,7 @@ plans:
 - name: Wordpress Plans Pricing
   plan_count: 3
   slug: wordpress-plans-pricing
-random_paper: 41
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Wordpress Rate Limits
@@ -540,7 +585,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/screenshots/wordpress-2026-06-20T201546.png
 security:

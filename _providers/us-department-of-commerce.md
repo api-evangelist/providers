@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +65,23 @@ apis:
 - description: News articles published on Commerce.gov
   name: US Department of Commerce News API
   slug: us-department-of-commerce-news-api
-artifact_total: 21
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Commerce.gov API
   slug: open-commerce-gov-api
+- collection_type: open
+  name: Commerce.gov Blogs API
+  slug: open-us-department-of-commerce-blogs-api
+- collection_type: open
+  name: Commerce.gov Blogs Images API
+  slug: open-us-department-of-commerce-images-api
+- collection_type: open
+  name: Commerce.gov Blogs News API
+  slug: open-us-department-of-commerce-news-api
 common:
 - group: agent
   title: ''
@@ -124,7 +136,7 @@ plans:
 - name: Us Department Of Commerce Plans Pricing
   plan_count: 1
   slug: us-department-of-commerce-plans-pricing
-random_paper: 99
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Us Department Of Commerce Rate Limits
@@ -172,7 +184,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/screenshots/us-department-of-commerce-2026-06-20T200620.png
 security:

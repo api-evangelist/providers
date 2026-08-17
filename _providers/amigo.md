@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 8
@@ -254,7 +254,7 @@ apis:
 - description: The World API from Amigo — 21 operation(s) for world.
   name: Amigo World API
   slug: amigo-world-api
-artifact_total: 151
+artifact_total: 223
 asyncapis:
 - description: ''
   name: Amigo Classic Webhooks
@@ -476,6 +476,222 @@ collections:
 - collection_type: postman
   name: Amigo Account World API
   slug: postman-amigo-world-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amigo Account API
+  slug: open-amigo-account-api
+- collection_type: open
+  name: Amigo Account Admin API
+  slug: open-amigo-admin-api
+- collection_type: open
+  name: Amigo Account Agent Definitions API
+  slug: open-amigo-agent-definitions-api
+- collection_type: open
+  name: Amigo Account Agent Runs API
+  slug: open-amigo-agent-runs-api
+- collection_type: open
+  name: Amigo Account Agents API
+  slug: open-amigo-agents-api
+- collection_type: open
+  name: Amigo Account Analytics API
+  slug: open-amigo-analytics-api
+- collection_type: open
+  name: Amigo Account API Keys API
+  slug: open-amigo-api-keys-api
+- collection_type: open
+  name: Amigo Account Audit API
+  slug: open-amigo-audit-api
+- collection_type: open
+  name: Amigo Account Auth API
+  slug: open-amigo-auth-api
+- collection_type: open
+  name: Amigo Account Billing API
+  slug: open-amigo-billing-api
+- collection_type: open
+  name: Amigo Account Calls API
+  slug: open-amigo-calls-api
+- collection_type: open
+  name: Amigo Account Command Center API
+  slug: open-amigo-command-center-api
+- collection_type: open
+  name: Amigo Account Compliance API
+  slug: open-amigo-compliance-api
+- collection_type: open
+  name: Amigo Account Config API
+  slug: open-amigo-config-api
+- collection_type: open
+  name: Amigo Account Context Graphs API
+  slug: open-amigo-context-graphs-api
+- collection_type: open
+  name: Amigo Account Conversation API
+  slug: open-amigo-conversation-api
+- collection_type: open
+  name: Amigo Account conversations API
+  slug: open-amigo-conversations-api
+- collection_type: open
+  name: Amigo Account Dashboards API
+  slug: open-amigo-dashboards-api
+- collection_type: open
+  name: Amigo Account Data Query API
+  slug: open-amigo-data-query-api
+- collection_type: open
+  name: Amigo Account Data Sources API
+  slug: open-amigo-data-sources-api
+- collection_type: open
+  name: Amigo Account Dynamic Behavior Set API
+  slug: open-amigo-dynamic-behavior-set-api
+- collection_type: open
+  name: Amigo Account Entity Intelligence API
+  slug: open-amigo-entity-intelligence-api
+- collection_type: open
+  name: Amigo Account Evaluations API
+  slug: open-amigo-evaluations-api
+- collection_type: open
+  name: Amigo Account Events API
+  slug: open-amigo-events-api
+- collection_type: open
+  name: Amigo Account External Integrations API
+  slug: open-amigo-external-integrations-api
+- collection_type: open
+  name: Amigo Account External Role Assignments API
+  slug: open-amigo-external-role-assignments-api
+- collection_type: open
+  name: Amigo Account External Roles API
+  slug: open-amigo-external-roles-api
+- collection_type: open
+  name: Amigo Account FHIR API
+  slug: open-amigo-fhir-api
+- collection_type: open
+  name: Amigo Account Form Templates API
+  slug: open-amigo-form-templates-api
+- collection_type: open
+  name: Amigo Account Functions API
+  slug: open-amigo-functions-api
+- collection_type: open
+  name: Amigo Account Insights API
+  slug: open-amigo-insights-api
+- collection_type: open
+  name: Amigo Account Intake API
+  slug: open-amigo-intake-api
+- collection_type: open
+  name: Amigo Account Intake Upload API
+  slug: open-amigo-intake-upload-api
+- collection_type: open
+  name: Amigo Account Integrations API
+  slug: open-amigo-integrations-api
+- collection_type: open
+  name: Amigo Account M42 API
+  slug: open-amigo-m42-api
+- collection_type: open
+  name: Amigo Account Metering API
+  slug: open-amigo-metering-api
+- collection_type: open
+  name: Amigo Account Metric API
+  slug: open-amigo-metric-api
+- collection_type: open
+  name: Amigo Account Metrics API
+  slug: open-amigo-metrics-api
+- collection_type: open
+  name: Amigo Account Network API
+  slug: open-amigo-network-api
+- collection_type: open
+  name: Amigo Account Operators API
+  slug: open-amigo-operators-api
+- collection_type: open
+  name: Amigo Account Organization API
+  slug: open-amigo-organization-api
+- collection_type: open
+  name: Amigo Account Pipeline API
+  slug: open-amigo-pipeline-api
+- collection_type: open
+  name: Amigo Account Prompt Logs API
+  slug: open-amigo-prompt-logs-api
+- collection_type: open
+  name: Amigo Account Recordings API
+  slug: open-amigo-recordings-api
+- collection_type: open
+  name: Amigo Account Role API
+  slug: open-amigo-role-api
+- collection_type: open
+  name: Amigo Account Role Grants API
+  slug: open-amigo-role-grants-api
+- collection_type: open
+  name: Amigo Account Runs API
+  slug: open-amigo-runs-api
+- collection_type: open
+  name: Amigo Account Scheduling Rules API
+  slug: open-amigo-scheduling-rules-api
+- collection_type: open
+  name: Amigo Account Self-Image API
+  slug: open-amigo-self-image-api
+- collection_type: open
+  name: Amigo Account Sensorium API
+  slug: open-amigo-sensorium-api
+- collection_type: open
+  name: Amigo Account Service API
+  slug: open-amigo-service-api
+- collection_type: open
+  name: Amigo Account Services API
+  slug: open-amigo-services-api
+- collection_type: open
+  name: Amigo Account Sessions API
+  slug: open-amigo-sessions-api
+- collection_type: open
+  name: Amigo Account Settings API
+  slug: open-amigo-settings-api
+- collection_type: open
+  name: Amigo Account Simulation API
+  slug: open-amigo-simulation-api
+- collection_type: open
+  name: Amigo Account Simulations API
+  slug: open-amigo-simulations-api
+- collection_type: open
+  name: Amigo Account Skills API
+  slug: open-amigo-skills-api
+- collection_type: open
+  name: Amigo Account Surface Patient API
+  slug: open-amigo-surface-patient-api
+- collection_type: open
+  name: Amigo Account Surfaces API
+  slug: open-amigo-surfaces-api
+- collection_type: open
+  name: Amigo Account Tool API
+  slug: open-amigo-tool-api
+- collection_type: open
+  name: Amigo Account Tool Testing API
+  slug: open-amigo-tool-testing-api
+- collection_type: open
+  name: Amigo Account Traces API
+  slug: open-amigo-traces-api
+- collection_type: open
+  name: Amigo Account Triggers API
+  slug: open-amigo-triggers-api
+- collection_type: open
+  name: Amigo Account Use Cases API
+  slug: open-amigo-use-cases-api
+- collection_type: open
+  name: Amigo Account User API
+  slug: open-amigo-user-api
+- collection_type: open
+  name: Amigo Account Voice Judge API
+  slug: open-amigo-voice-judge-api
+- collection_type: open
+  name: Amigo Account Webhook Destination API
+  slug: open-amigo-webhook-destination-api
+- collection_type: open
+  name: Amigo Account Workspace Data Queries API
+  slug: open-amigo-workspace-data-queries-api
+- collection_type: open
+  name: Amigo Account Workspace Tables API
+  slug: open-amigo-workspace-tables-api
+- collection_type: open
+  name: Amigo Account Workspaces API
+  slug: open-amigo-workspaces-api
+- collection_type: open
+  name: Amigo Account World API
+  slug: open-amigo-world-api
 common:
 - group: other
   title: ''
@@ -640,7 +856,7 @@ overview: 'Amigo publishes 72 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 45
+random_paper: 78
 scopes:
 - name: Amigo Scopes
   scope_count: 53
@@ -675,7 +891,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/screenshots/amigo-2026-07-25T200104.png
 security:

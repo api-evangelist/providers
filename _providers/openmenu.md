@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Find restaurants, menu items, and sample menus by location and term.
   name: OpenMenu Search API
   slug: openmenu-search-api
-artifact_total: 22
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenMenu Analytics API
+  slug: open-openmenu-analytics-api
+- collection_type: open
+  name: OpenMenu Analytics Deals API
+  slug: open-openmenu-deals-api
+- collection_type: open
+  name: OpenMenu Analytics Ingredients API
+  slug: open-openmenu-ingredients-api
+- collection_type: open
+  name: OpenMenu Analytics Restaurants API
+  slug: open-openmenu-restaurants-api
+- collection_type: open
+  name: OpenMenu Analytics Search API
+  slug: open-openmenu-search-api
 - collection_type: open
   name: OpenMenu API
   slug: open-openmenu
@@ -152,7 +170,7 @@ plans:
 - name: Openmenu Plans Pricing
   plan_count: 4
   slug: openmenu-plans-pricing
-random_paper: 31
+random_paper: 126
 rate_limits:
 - limit_count: 0
   name: Openmenu Rate Limits
@@ -194,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/screenshots/openmenu-2026-06-20T191015.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Search across Smithsonian collections
   name: Smithsonian Institution search API
   slug: smithsonian-search-api
-artifact_total: 15
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smithsonian Open Access content API
+  slug: open-smithsonian-content-api
+- collection_type: open
+  name: Smithsonian Open Access content metrics API
+  slug: open-smithsonian-metrics-api
+- collection_type: open
+  name: Smithsonian Open Access content search API
+  slug: open-smithsonian-search-api
 common:
 - group: agent
   title: ''
@@ -148,7 +161,7 @@ plans:
 - name: Smithsonian Plans Pricing
   plan_count: 3
   slug: smithsonian-plans-pricing
-random_paper: 117
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Smithsonian Rate Limits
@@ -182,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/screenshots/smithsonian-2026-06-20T194054.png
 security:

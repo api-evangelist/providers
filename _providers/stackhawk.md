@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: Authenticated user information
   name: StackHawk User API
   slug: stackhawk-user-api
-artifact_total: 44
+artifact_total: 59
 collections:
 - collection_type: postman
   name: StackHawk Api Authentication API
@@ -125,6 +125,51 @@ collections:
 - collection_type: postman
   name: StackHawk Api Authentication User API
   slug: postman-stackhawk-user-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: StackHawk Api Authentication API
+  slug: open-stackhawk-api-authentication-api
+- collection_type: open
+  name: StackHawk Api Authentication Applications API
+  slug: open-stackhawk-applications-api
+- collection_type: open
+  name: StackHawk Api Authentication Global Configuration API
+  slug: open-stackhawk-global-configuration-api
+- collection_type: open
+  name: StackHawk Api Authentication Hosted OAS API
+  slug: open-stackhawk-hosted-oas-api
+- collection_type: open
+  name: StackHawk Api Authentication Organization Teams API
+  slug: open-stackhawk-organization-teams-api
+- collection_type: open
+  name: StackHawk Api Authentication Organizations API
+  slug: open-stackhawk-organizations-api
+- collection_type: open
+  name: StackHawk Api Authentication Perch API
+  slug: open-stackhawk-perch-api
+- collection_type: open
+  name: StackHawk Api Authentication Profile Scans API
+  slug: open-stackhawk-profile-scans-api
+- collection_type: open
+  name: StackHawk Api Authentication Reports API
+  slug: open-stackhawk-reports-api
+- collection_type: open
+  name: StackHawk Api Authentication Repositories API
+  slug: open-stackhawk-repositories-api
+- collection_type: open
+  name: StackHawk Api Authentication Scan Configuration API
+  slug: open-stackhawk-scan-configuration-api
+- collection_type: open
+  name: StackHawk Api Authentication Scan Policies API
+  slug: open-stackhawk-scan-policies-api
+- collection_type: open
+  name: StackHawk Api Authentication Scan Results API
+  slug: open-stackhawk-scan-results-api
+- collection_type: open
+  name: StackHawk Api Authentication User API
+  slug: open-stackhawk-user-api
 - collection_type: open
   name: StackHawk API
   slug: open-stackhawk
@@ -240,7 +285,7 @@ plans:
 - name: Stackhawk Plans Pricing
   plan_count: 3
   slug: stackhawk-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Stackhawk Rate Limits
@@ -282,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/screenshots/stackhawk-2026-06-20T194446.png
 security:

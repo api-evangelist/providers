@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -70,7 +70,50 @@ apis:
 - description: The Users API from Enveda — 3 operation(s) for users.
   name: Enveda Users API
   slug: enveda-biosciences-users-api
-artifact_total: 18
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Comments API
+  slug: open-enveda-biosciences-comments-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Discovery API
+  slug: open-enveda-biosciences-discovery-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Issues API
+  slug: open-enveda-biosciences-issues-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Media API
+  slug: open-enveda-biosciences-media-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) News API
+  slug: open-enveda-biosciences-news-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Pages API
+  slug: open-enveda-biosciences-pages-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) People API
+  slug: open-enveda-biosciences-people-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Posts API
+  slug: open-enveda-biosciences-posts-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Search API
+  slug: open-enveda-biosciences-search-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Settings API
+  slug: open-enveda-biosciences-settings-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Taxonomy API
+  slug: open-enveda-biosciences-taxonomy-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Trial Sites API
+  slug: open-enveda-biosciences-trial-sites-api
+- collection_type: open
+  name: Enveda Content API (WordPress REST wp/v2) Users API
+  slug: open-enveda-biosciences-users-api
 common:
 - group: other
   title: ''
@@ -197,7 +240,7 @@ overview: 'Enveda publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Enveda''s developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
-random_paper: 31
+random_paper: 43
 score:
   band: emerging
   composite: 23.3
@@ -227,7 +270,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png
 security:

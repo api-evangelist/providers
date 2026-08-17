@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ apis:
 - description: Wireless LAN configuration including SSIDs, security, and VLAN assignment.
   name: Juniper Networks WLANs API
   slug: juniper-networks-wlans-api
-artifact_total: 97
+artifact_total: 130
 asyncapis:
 - description: Junos Telemetry Interface provides real-time streaming telemetry from Juniper Networks devices using gRPC or UDP protocols. JTI pushes operational data from Junos devices at configured intervals, repl
   name: Junos Telemetry Interface (JTI) Streaming
@@ -154,20 +154,119 @@ asyncapis:
   slug: juniper-networks-mist-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms API
+  slug: open-juniper-networks-alarms-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Anomalies API
+  slug: open-juniper-networks-anomalies-api
+- collection_type: open
   name: Juniper Networks Juniper Apstra Intent-Based Networking API
   slug: open-juniper-networks-apstra
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Authentication API
+  slug: open-juniper-networks-authentication-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms BGP Routers API
+  slug: open-juniper-networks-bgp-routers-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Blueprints API
+  slug: open-juniper-networks-blueprints-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Clients API
+  slug: open-juniper-networks-clients-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Configuration API
+  slug: open-juniper-networks-configuration-api
 - collection_type: open
   name: Juniper Networks Juniper Contrail Networking REST API
   slug: open-juniper-networks-contrail
 - collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Design API
+  slug: open-juniper-networks-design-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Devices API
+  slug: open-juniper-networks-devices-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Floating IPs API
+  slug: open-juniper-networks-floating-ips-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms IBA API
+  slug: open-juniper-networks-iba-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Insights API
+  slug: open-juniper-networks-insights-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Inventory API
+  slug: open-juniper-networks-inventory-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Jobs API
+  slug: open-juniper-networks-jobs-api
+- collection_type: open
   name: Juniper Networks Junos Space Network Management Platform REST API
   slug: open-juniper-networks-junos-space
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Maps API
+  slug: open-juniper-networks-maps-api
 - collection_type: open
   name: Juniper Networks Juniper Mist Cloud API
   slug: open-juniper-networks-mist
 - collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Monitoring API
+  slug: open-juniper-networks-monitoring-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms NAT API
+  slug: open-juniper-networks-nat-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Network Policies API
+  slug: open-juniper-networks-network-policies-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Organizations API
+  slug: open-juniper-networks-organizations-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Projects API
+  slug: open-juniper-networks-projects-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Resources API
+  slug: open-juniper-networks-resources-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Scripts API
+  slug: open-juniper-networks-scripts-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Security Groups API
+  slug: open-juniper-networks-security-groups-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Security Policies API
+  slug: open-juniper-networks-security-policies-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Service Instances API
+  slug: open-juniper-networks-service-instances-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Sites API
+  slug: open-juniper-networks-sites-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms System API
+  slug: open-juniper-networks-system-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Systems API
+  slug: open-juniper-networks-systems-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Users API
+  slug: open-juniper-networks-users-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms Virtual Networks API
+  slug: open-juniper-networks-virtual-networks-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms VPN API
+  slug: open-juniper-networks-vpn-api
+- collection_type: open
   name: Juniper Networks Juniper vSRX REST API
   slug: open-juniper-networks-vsrx
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Intent-Based Networking Alarms WLANs API
+  slug: open-juniper-networks-wlans-api
 common:
 - group: agent
   title: ''
@@ -425,7 +524,7 @@ press:
 - date: '2026-05-25'
   title: Hewlett Packard Enterprise
   url: https://www.facebook.com/HewlettPackardEnterprise/posts/you-showed-up-in-the-comments-the-quotes-and-the-threads-since-hpes-juniper-acqu/1191246859707387/
-random_paper: 23
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Juniper Networks Rate Limits
@@ -467,7 +566,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/screenshots/juniper-networks-2026-06-20T183831.png
 security:

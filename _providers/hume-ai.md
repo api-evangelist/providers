@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -66,18 +66,48 @@ apis:
 - description: The subpackage_voices API from Hume AI — 1 operation(s) for subpackage_voices.
   name: Hume AI subpackage_voices API
   slug: hume-ai-subpackage-voices-api
-artifact_total: 21
+artifact_total: 31
 asyncapis:
 - description: 'Consolidated AsyncAPI definition for Hume AI''s two production WebSocket surfaces: - **Empathic Voice Interface (EVI)** — bidirectional speech-to-speech voice conversation at `wss://api.hume.ai/v0/evi/'
   name: Hume AI WebSocket APIs
   slug: hume-ai-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Speech-to-speech (EVI)  API
+  slug: open-hume-ai-default-api
+- collection_type: open
   name: Speech-to-speech (EVI)
   slug: open-hume-ai-evi
 - collection_type: open
   name: Expression Measurement API
   slug: open-hume-ai-expression
+- collection_type: open
+  name: Speech-to-speech (EVI) subpackage_batch API
+  slug: open-hume-ai-subpackage-batch-api
+- collection_type: open
+  name: Speech-to-speech (EVI) subpackage_chatGroups API
+  slug: open-hume-ai-subpackage-chatgroups-api
+- collection_type: open
+  name: Speech-to-speech (EVI) subpackage_chats API
+  slug: open-hume-ai-subpackage-chats-api
+- collection_type: open
+  name: Speech-to-speech (EVI) subpackage_configs API
+  slug: open-hume-ai-subpackage-configs-api
+- collection_type: open
+  name: Speech-to-speech (EVI) subpackage_controlPlane API
+  slug: open-hume-ai-subpackage-controlplane-api
+- collection_type: open
+  name: Speech-to-speech (EVI) subpackage_prompts API
+  slug: open-hume-ai-subpackage-prompts-api
+- collection_type: open
+  name: Speech-to-speech (EVI) subpackage_tools API
+  slug: open-hume-ai-subpackage-tools-api
+- collection_type: open
+  name: Speech-to-speech (EVI) subpackage_voices API
+  slug: open-hume-ai-subpackage-voices-api
 - collection_type: open
   name: Text-to-Speech (TTS)
   slug: open-hume-ai-tts
@@ -152,7 +182,7 @@ plans:
 - name: Hume Ai Plans Pricing
   plan_count: 8
   slug: hume-ai-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Hume Ai Rate Limits
@@ -186,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/screenshots/hume-ai-2026-06-20T183040.png
 security:

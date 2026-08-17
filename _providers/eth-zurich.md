@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +144,116 @@ apis:
 - description: The Util API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for util.
   name: ETH Zurich – Swiss Federal Institute of Technology Util API
   slug: eth-zurich-util-api
-artifact_total: 49
+artifact_total: 85
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Discovery bitstreams API
+  slug: open-eth-zurich-bitstreams-api
+- collection_type: open
+  name: Discovery bitstreams collections API
+  slug: open-eth-zurich-collections-api
+- collection_type: open
+  name: Discovery bitstreams communities API
+  slug: open-eth-zurich-communities-api
+- collection_type: open
+  name: Discovery bitstreams Content Item API
+  slug: open-eth-zurich-content-item-api
+- collection_type: open
+  name: Discovery bitstreams Contributors API
+  slug: open-eth-zurich-contributors-api
+- collection_type: open
+  name: Discovery bitstreams Core API
+  slug: open-eth-zurich-core-api
+- collection_type: open
+  name: Discovery bitstreams Discover API
+  slug: open-eth-zurich-discover-api
+- collection_type: open
+  name: Discovery bitstreams Dossier API
+  slug: open-eth-zurich-dossier-api
+- collection_type: open
+  name: Discovery bitstreams Dossiers API
+  slug: open-eth-zurich-dossiers-api
+- collection_type: open
+  name: Discovery bitstreams e-maps API
+  slug: open-eth-zurich-e-maps-api
+- collection_type: open
+  name: Discovery bitstreams E-Pics items API
+  slug: open-eth-zurich-e-pics-items-api
+- collection_type: open
+  name: Discovery bitstreams e-rara API
+  slug: open-eth-zurich-e-rara-api
+- collection_type: open
+  name: Discovery bitstreams ETH Research Collection API V2 API
+  slug: open-eth-zurich-eth-research-collection-api-v2-api
+- collection_type: open
+  name: Discovery bitstreams Geo Container API
+  slug: open-eth-zurich-geo-container-api
+- collection_type: open
+  name: Discovery bitstreams geo-topics API
+  slug: open-eth-zurich-geo-topics-api
+- collection_type: open
+  name: Discovery bitstreams Geodata API
+  slug: open-eth-zurich-geodata-api
+- collection_type: open
+  name: Discovery bitstreams handle API
+  slug: open-eth-zurich-handle-api
+- collection_type: open
+  name: Discovery bitstreams Information about a person API
+  slug: open-eth-zurich-information-about-a-person-api
+- collection_type: open
+  name: Discovery bitstreams items API
+  slug: open-eth-zurich-items-api
+- collection_type: open
+  name: Discovery bitstreams List of persons API
+  slug: open-eth-zurich-list-of-persons-api
+- collection_type: open
+  name: Discovery bitstreams Locations API
+  slug: open-eth-zurich-locations-api
+- collection_type: open
+  name: Discovery bitstreams Maps API
+  slug: open-eth-zurich-maps-api
+- collection_type: open
+  name: Discovery bitstreams Places API
+  slug: open-eth-zurich-places-api
+- collection_type: open
+  name: Discovery bitstreams Poi API
+  slug: open-eth-zurich-poi-api
+- collection_type: open
+  name: Discovery bitstreams Poi items API
+  slug: open-eth-zurich-poi-items-api
+- collection_type: open
+  name: Discovery bitstreams Pois API
+  slug: open-eth-zurich-pois-api
+- collection_type: open
+  name: Discovery bitstreams provenance items API
+  slug: open-eth-zurich-provenance-items-api
+- collection_type: open
+  name: Discovery bitstreams Publication places API
+  slug: open-eth-zurich-publication-places-api
+- collection_type: open
+  name: Discovery bitstreams Route API
+  slug: open-eth-zurich-route-api
+- collection_type: open
+  name: Discovery bitstreams Routes API
+  slug: open-eth-zurich-routes-api
+- collection_type: open
+  name: Discovery bitstreams search API
+  slug: open-eth-zurich-search-api
+- collection_type: open
+  name: Discovery bitstreams Search Portal resources API
+  slug: open-eth-zurich-search-portal-resources-api
+- collection_type: open
+  name: Discovery bitstreams Suggestion API
+  slug: open-eth-zurich-suggestion-api
+- collection_type: open
+  name: Discovery bitstreams Topics API
+  slug: open-eth-zurich-topics-api
+- collection_type: open
+  name: Discovery bitstreams Util API
+  slug: open-eth-zurich-util-api
 common:
 - group: operate
   title: ''
@@ -293,7 +402,7 @@ plans:
 - name: Eth Zurich Plans Pricing
   plan_count: 2
   slug: eth-zurich-plans-pricing
-random_paper: 67
+random_paper: 133
 rate_limits:
 - limit_count: 1
   name: Eth Zurich Rate Limits
@@ -341,7 +450,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png
 security:

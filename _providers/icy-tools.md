@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: GraphQL based NFT API
@@ -68,7 +68,7 @@ name: icy.tools
 nav: Providers
 network: true
 overview: icy.tools publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 91
+random_paper: 37
 score:
   band: minimal
   composite: 7.3
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icy-tools/refs/heads/main/screenshots/icy-tools-2026-06-20T183202.png
 security:

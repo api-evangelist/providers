@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Real-time HTTP notifications for response events.
   name: Formbricks Webhooks API
   slug: formbricks-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Formbricks Action Classes API
+  slug: open-formbricks-action-classes-api
+- collection_type: open
+  name: Formbricks Action Classes Client API
+  slug: open-formbricks-client-api
+- collection_type: open
+  name: Formbricks Action Classes Contacts API
+  slug: open-formbricks-contacts-api
+- collection_type: open
+  name: Formbricks Action Classes Me API
+  slug: open-formbricks-me-api
+- collection_type: open
+  name: Formbricks Action Classes Responses API
+  slug: open-formbricks-responses-api
+- collection_type: open
+  name: Formbricks Action Classes Surveys API
+  slug: open-formbricks-surveys-api
+- collection_type: open
+  name: Formbricks Action Classes Webhooks API
+  slug: open-formbricks-webhooks-api
 - collection_type: open
   name: Formbricks API
   slug: open-formbricks
@@ -130,7 +154,7 @@ plans:
 - name: Formbricks Plans Pricing
   plan_count: 5
   slug: formbricks-plans-pricing
-random_paper: 114
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Formbricks Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/screenshots/formbricks-2026-06-20T181436.png
 security:

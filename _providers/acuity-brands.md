@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Web content and product page data
   name: acuity-brands Webpages API
   slug: acuity-brands-webpages-api
-artifact_total: 44
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Acuity Brands Catalog API
+  slug: open-acuity-brands-catalog-api
+- collection_type: open
+  name: Acuity Brands Catalog Inventory API
+  slug: open-acuity-brands-inventory-api
+- collection_type: open
+  name: Acuity Brands Catalog Orders API
+  slug: open-acuity-brands-orders-api
+- collection_type: open
+  name: Acuity Brands Catalog Webpages API
+  slug: open-acuity-brands-webpages-api
 - collection_type: open
   name: Acuity Brands API
   slug: open-acuity-brands
@@ -237,7 +252,7 @@ press:
 - date: '2026-05-25'
   title: 6 Nuanced Takeaways from Acuity's Boldest Year Yet
   url: https://inside.lighting/news/25-10/6-nuanced-takeaways-acuitys-boldest-year-yet
-random_paper: 14
+random_paper: 142
 rate_limits:
 - limit_count: 0
   name: Acuity Brands Rate Limits
@@ -279,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/screenshots/acuity-brands-2026-06-20T164408.png
 security:

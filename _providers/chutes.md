@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,12 +51,27 @@ apis:
 - description: List models available on the Chutes network.
   name: Chutes Models API
   slug: chutes-models-api
-artifact_total: 13
+artifact_total: 18
 asyncapis:
 - description: AsyncAPI 2.6 description of Chutes' **chat completion streaming** surface. Chutes does not publish a public WebSocket API. The only asynchronous / event-style transport documented at https://chutes.ai
   name: Chutes Chat Completions Streaming (HTTP + SSE)
   slug: chutes-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chutes Chat API
+  slug: open-chutes-chat-api
+- collection_type: open
+  name: Chat Chutes API
+  slug: open-chutes-chutes-api
+- collection_type: open
+  name: Chutes Chat Images API
+  slug: open-chutes-images-api
+- collection_type: open
+  name: Chutes Chat Models API
+  slug: open-chutes-models-api
 - collection_type: open
   name: Chutes API
   slug: open-chutes
@@ -124,7 +139,7 @@ plans:
 - name: Chutes Plans Pricing
   plan_count: 5
   slug: chutes-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 6
   name: Chutes Rate Limits
@@ -158,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/screenshots/chutes-2026-07-25T205333.png
 security:

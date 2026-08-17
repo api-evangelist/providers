@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -78,8 +78,47 @@ apis:
 - description: Register webhooks and manage event triggers
   name: CometChat Webhooks API
   slug: cometchat-webhooks-api
-artifact_total: 20
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CometChat REST Management Auth Tokens API
+  slug: open-cometchat-auth-tokens-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Banned Users API
+  slug: open-cometchat-banned-users-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Blocked Users API
+  slug: open-cometchat-blocked-users-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Conversations API
+  slug: open-cometchat-conversations-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Friends API
+  slug: open-cometchat-friends-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Group Members API
+  slug: open-cometchat-group-members-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Groups API
+  slug: open-cometchat-groups-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Messages API
+  slug: open-cometchat-messages-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Reactions API
+  slug: open-cometchat-reactions-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Roles API
+  slug: open-cometchat-roles-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Users API
+  slug: open-cometchat-users-api
+- collection_type: open
+  name: CometChat REST Management Auth Tokens Webhooks API
+  slug: open-cometchat-webhooks-api
 - collection_type: open
   name: CometChat REST Management API
   slug: open-cometchat
@@ -148,7 +187,7 @@ plans:
 - name: Cometchat Plans Pricing
   plan_count: 4
   slug: cometchat-plans-pricing
-random_paper: 112
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Cometchat Rate Limits
@@ -173,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/screenshots/cometchat-2026-06-20T174808.png
 security:

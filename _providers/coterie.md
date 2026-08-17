@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Webhook subscription management.
   name: Coterie Insurance Webhooks API
   slug: coterie-webhooks-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coterie Commercial Insurance Applications API
+  slug: open-coterie-applications-api
+- collection_type: open
+  name: Coterie Commercial Insurance Applications Documents API
+  slug: open-coterie-documents-api
+- collection_type: open
+  name: Coterie Commercial Insurance Applications Industry API
+  slug: open-coterie-industry-api
+- collection_type: open
+  name: Coterie Commercial Insurance Applications Policies API
+  slug: open-coterie-policies-api
+- collection_type: open
+  name: Coterie Commercial Insurance Applications Quotes API
+  slug: open-coterie-quotes-api
+- collection_type: open
+  name: Coterie Commercial Insurance Applications Webhooks API
+  slug: open-coterie-webhooks-api
 - collection_type: open
   name: Coterie Commercial Insurance API
   slug: open-coterie
@@ -131,7 +152,7 @@ plans:
 - name: Coterie Plans Pricing
   plan_count: 2
   slug: coterie-plans-pricing
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Coterie Rate Limits
@@ -167,7 +188,7 @@ score:
     regime_id: insurance
     score: 43.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/screenshots/coterie-2026-07-25T210459.png
 security:

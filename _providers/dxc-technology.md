@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,11 +45,20 @@ apis:
 - description: Platform service operations
   name: DXC Technology Platform API
   slug: dxc-technology-platform-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: DXC Developer Central API
   slug: open-dxc-developer-central-api
+- collection_type: open
+  name: DXC Developer Central Integration API
+  slug: open-dxc-technology-integration-api
+- collection_type: open
+  name: DXC Developer Central Integration Platform API
+  slug: open-dxc-technology-platform-api
 common:
 - group: agent
   title: ''
@@ -99,7 +108,7 @@ plans:
 - name: Dxc Technology Plans Pricing
   plan_count: 1
   slug: dxc-technology-plans-pricing
-random_paper: 8
+random_paper: 107
 rate_limits:
 - limit_count: 1
   name: Dxc Technology Rate Limits
@@ -124,7 +133,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/screenshots/dxc-technology-2026-06-20T180335.png
 security:

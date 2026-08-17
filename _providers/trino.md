@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,11 +44,20 @@ apis:
 - description: Submit and manage SQL queries
   name: Trino Queries API
   slug: trino-queries-api
-artifact_total: 179
+artifact_total: 182
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Trino Client REST API
   slug: open-trino-client-api
+- collection_type: open
+  name: Trino Client REST Cluster API
+  slug: open-trino-cluster-api
+- collection_type: open
+  name: Trino Client REST Cluster Queries API
+  slug: open-trino-queries-api
 common:
 - group: agent
   title: ''
@@ -345,7 +354,7 @@ plans:
 - name: Trino Plans Pricing
   plan_count: 3
   slug: trino-plans-pricing
-random_paper: 76
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Trino Rate Limits
@@ -387,7 +396,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/screenshots/trino-2026-06-20T195720.png
 security:

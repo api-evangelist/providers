@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Recipe API from CalorieNinjas — 1 operation(s) for recipe.
   name: CalorieNinjas Recipe API
   slug: calorie-ninjas-recipe-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CalorieNinjas Imagetextnutrition API
+  slug: open-calorie-ninjas-imagetextnutrition-api
+- collection_type: open
+  name: CalorieNinjas Imagetextnutrition Nutrition API
+  slug: open-calorie-ninjas-nutrition-api
+- collection_type: open
+  name: CalorieNinjas Imagetextnutrition Recipe API
+  slug: open-calorie-ninjas-recipe-api
 - collection_type: open
   name: CalorieNinjas
   slug: open-calorieninjas
@@ -118,7 +130,7 @@ plans:
 - name: Calorie Ninjas Plans Pricing
   plan_count: 3
   slug: calorie-ninjas-plans-pricing
-random_paper: 103
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Calorie Ninjas Rate Limits
@@ -143,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/screenshots/calorie-ninjas-2026-06-20T173849.png
 security:

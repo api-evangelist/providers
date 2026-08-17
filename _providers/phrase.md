@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 0
@@ -210,7 +210,182 @@ apis:
 - description: The Webhooks API from Phrase — 3 operation(s) for webhooks.
   name: Phrase Webhooks API
   slug: phrase-webhooks-api
-artifact_total: 64
+artifact_total: 122
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Phrase Strings API Reference Accounts API
+  slug: open-phrase-accounts-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Authorizations API
+  slug: open-phrase-authorizations-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Automations API
+  slug: open-phrase-automations-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Blacklisted Keys API
+  slug: open-phrase-blacklisted-keys-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Branches API
+  slug: open-phrase-branches-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Comment Reactions API
+  slug: open-phrase-comment-reactions-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Comment Replies API
+  slug: open-phrase-comment-replies-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Comments API
+  slug: open-phrase-comments-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Custom Metadata API
+  slug: open-phrase-custom-metadata-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Distributions API
+  slug: open-phrase-distributions-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Documents API
+  slug: open-phrase-documents-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Figma attachments API
+  slug: open-phrase-figma-attachments-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Formats API
+  slug: open-phrase-formats-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Glossaries API
+  slug: open-phrase-glossaries-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Glossary Term Translations API
+  slug: open-phrase-glossary-term-translations-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Glossary Terms API
+  slug: open-phrase-glossary-terms-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts ICU API
+  slug: open-phrase-icu-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Invitations API
+  slug: open-phrase-invitations-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Job Annotations API
+  slug: open-phrase-job-annotations-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Job Comments API
+  slug: open-phrase-job-comments-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Job Locales API
+  slug: open-phrase-job-locales-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Job Template Locales API
+  slug: open-phrase-job-template-locales-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Job Templates API
+  slug: open-phrase-job-templates-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Jobs API
+  slug: open-phrase-jobs-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Key's Figma attachments API
+  slug: open-phrase-key-s-figma-attachments-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Keys API
+  slug: open-phrase-keys-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Linked Keys API
+  slug: open-phrase-linked-keys-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Locale Downloads API
+  slug: open-phrase-locale-downloads-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Locales API
+  slug: open-phrase-locales-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Members API
+  slug: open-phrase-members-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Notification Groups API
+  slug: open-phrase-notification-groups-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Notifications API
+  slug: open-phrase-notifications-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Orders API
+  slug: open-phrase-orders-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Organization Job Template Locales API
+  slug: open-phrase-organization-job-template-locales-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Organization Job Templates API
+  slug: open-phrase-organization-job-templates-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Projects API
+  slug: open-phrase-projects-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Quality performance score API
+  slug: open-phrase-quality-performance-score-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Release Triggers API
+  slug: open-phrase-release-triggers-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Releases API
+  slug: open-phrase-releases-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Repo Sync Events API
+  slug: open-phrase-repo-sync-events-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Repo Syncs API
+  slug: open-phrase-repo-syncs-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Reports API
+  slug: open-phrase-reports-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Screenshot Markers API
+  slug: open-phrase-screenshot-markers-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Screenshots API
+  slug: open-phrase-screenshots-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Search API
+  slug: open-phrase-search-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Spaces API
+  slug: open-phrase-spaces-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Style guides API
+  slug: open-phrase-style-guides-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Tags API
+  slug: open-phrase-tags-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Teams API
+  slug: open-phrase-teams-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Translations API
+  slug: open-phrase-translations-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Upload Batches API
+  slug: open-phrase-upload-batches-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Uploads API
+  slug: open-phrase-uploads-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Users API
+  slug: open-phrase-users-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Variables API
+  slug: open-phrase-variables-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Versions / History API
+  slug: open-phrase-versions-history-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Webhook Deliveries API
+  slug: open-phrase-webhook-deliveries-api
+- collection_type: open
+  name: Phrase Strings API Reference Accounts Webhooks API
+  slug: open-phrase-webhooks-api
 common:
 - group: agent
   title: ''
@@ -292,7 +467,7 @@ plans:
 - name: Phrase Plans Pricing
   plan_count: 3
   slug: phrase-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Phrase Rate Limits
@@ -317,7 +492,7 @@ score:
       marker_coverage: 0.0
       total: 57
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phrase/refs/heads/main/screenshots/phrase-2026-06-20T191657.png
 security:

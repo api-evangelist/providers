@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -43,11 +43,27 @@ apis:
 - description: A small helper API for the Dojo EPOS Tester tool, used to validate an EPOS integration against Dojo's EPOS Data contract. Version 1.0.0 (2 paths).
   name: Dojo EPOS Tester Tool API
   slug: dojo-epos-tester-tool-api
-artifact_total: 11
+artifact_total: 16
 asyncapis:
 - description: 'The Async Websocket API to enable Dojo integrated products. Core modules: - Tables - Areas - Orders - Parties - Reservations API modules can generally be implemented independently, with a small number'
   name: EPOS Data API (WebSockets)
   slug: dojo-epos-data-asyncapi
+collections:
+- collection_type: open
+  name: Dojo API
+  slug: open-dojo-api
+- collection_type: open
+  name: EPOS Data API (REST)
+  slug: open-dojo-epos-data-api
+- collection_type: open
+  name: EPOS Tester
+  slug: open-dojo-epos-tester-tool-api
+- collection_type: open
+  name: Tap to Pay on iPhone
+  slug: open-dojo-tap-to-pay-on-iphone-api
+- collection_type: open
+  name: Transaction API
+  slug: open-dojo-transactions-api
 common:
 - group: agent
   title: ''
@@ -221,7 +237,7 @@ overview: 'Dojo publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Dojo''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, engineering blog, and 31 more developer resources.'
-random_paper: 68
+random_paper: 130
 score:
   band: developing
   composite: 52.7
@@ -251,7 +267,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png
 security:

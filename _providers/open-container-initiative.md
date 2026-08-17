@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: The Tags API from Open Container Initiative — 1 operation(s) for tags.
   name: Open Container Initiative Tags API
   slug: open-container-initiative-tags-api
-artifact_total: 11
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OCI Distribution Specification Blobs API
+  slug: open-open-container-initiative-blobs-api
+- collection_type: open
+  name: OCI Distribution Specification Blobs Manifests API
+  slug: open-open-container-initiative-manifests-api
+- collection_type: open
+  name: Blobs OCI Distribution Specification API
+  slug: open-open-container-initiative-oci-distribution-specification-api
+- collection_type: open
+  name: OCI Distribution Specification Blobs Referrers API
+  slug: open-open-container-initiative-referrers-api
+- collection_type: open
+  name: OCI Distribution Specification Blobs Tags API
+  slug: open-open-container-initiative-tags-api
 - collection_type: open
   name: OCI Distribution Specification
   slug: open-open-container-initiative
@@ -111,7 +129,7 @@ plans:
 - name: Open Container Initiative Plans Pricing
   plan_count: 3
   slug: open-container-initiative-plans-pricing
-random_paper: 45
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Open Container Initiative Rate Limits
@@ -136,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/screenshots/open-container-initiative-2026-06-20T190734.png
 security:

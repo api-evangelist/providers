@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,8 +57,23 @@ apis:
 - description: Manage workspaces that isolate pipelines and data.
   name: Haystack / deepset Workspaces API
   slug: haystack-ai-workspaces-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: deepset Cloud API (deepset AI Platform) Files API
+  slug: open-haystack-ai-files-api
+- collection_type: open
+  name: deepset Cloud API (deepset AI Platform) Files Pipelines API
+  slug: open-haystack-ai-pipelines-api
+- collection_type: open
+  name: deepset Cloud API (deepset AI Platform) Files Search API
+  slug: open-haystack-ai-search-api
+- collection_type: open
+  name: deepset Cloud API (deepset AI Platform) Files Workspaces API
+  slug: open-haystack-ai-workspaces-api
 - collection_type: open
   name: deepset Cloud API (deepset AI Platform)
   slug: open-haystack-ai
@@ -135,7 +150,7 @@ plans:
 - name: Haystack Ai Plans Pricing
   plan_count: 2
   slug: haystack-ai-plans-pricing
-random_paper: 23
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Haystack Ai Rate Limits
@@ -160,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/screenshots/haystack-ai-2026-06-20T182543.png
 security:

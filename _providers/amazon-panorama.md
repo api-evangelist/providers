@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: The Tags API from Amazon Panorama — 2 operation(s) for tags.
   name: Amazon Panorama Tags API
   slug: amazon-panorama-tags-api
-artifact_total: 687
+artifact_total: 694
 collections:
 - collection_type: postman
   name: AWS Panorama Application Instances API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: AWS Panorama Application Instances Tags API
   slug: postman-amazon-panorama-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Panorama Application Instances API
+  slug: open-amazon-panorama-application-instances-api
+- collection_type: open
+  name: AWS Panorama Application Instances Devices API
+  slug: open-amazon-panorama-devices-api
+- collection_type: open
+  name: AWS Panorama Application Instances Jobs API
+  slug: open-amazon-panorama-jobs-api
+- collection_type: open
+  name: AWS Panorama Application Instances Nodes API
+  slug: open-amazon-panorama-nodes-api
+- collection_type: open
+  name: AWS Panorama Application Instances Packages API
+  slug: open-amazon-panorama-packages-api
+- collection_type: open
+  name: AWS Panorama Application Instances Tags API
+  slug: open-amazon-panorama-tags-api
 - collection_type: open
   name: AWS Panorama
   slug: open-amazon-panorama
@@ -2209,7 +2230,7 @@ plans:
 - name: Amazon Panorama Plans Pricing
   plan_count: 3
   slug: amazon-panorama-plans-pricing
-random_paper: 98
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Amazon Panorama Rate Limits
@@ -2251,7 +2272,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/screenshots/amazon-panorama-2026-06-20T171756.png
 security:

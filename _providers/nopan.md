@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,11 +60,30 @@ arazzos:
 - description: Authenticate, refund a previously captured payment, and confirm via events.
   name: Nopan — refund a captured payment
   slug: nopan-refund-payment
-artifact_total: 13
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Nopan Webhooks
   slug: nopan-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nopan Authentication APIs API
+  slug: open-nopan-authentication-apis-api
+- collection_type: open
+  name: Nopan Authentication APIs Payment Processing APIs API
+  slug: open-nopan-payment-processing-apis-api
+- collection_type: open
+  name: Nopan Authentication APIs Reporting APIs API
+  slug: open-nopan-reporting-apis-api
+- collection_type: open
+  name: Nopan Authentication APIs Testing APIs API
+  slug: open-nopan-testing-apis-api
+- collection_type: open
+  name: Nopan Authentication APIs Webhooks API
+  slug: open-nopan-webhooks-api
 common:
 - group: start
   title: ''
@@ -201,7 +220,7 @@ overview: 'Nopan publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nopan''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 22 more developer resources.'
-random_paper: 60
+random_paper: 93
 scopes:
 - name: Nopan Scopes
   scope_count: 2
@@ -236,7 +255,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/screenshots/nopan-2026-08-07T185510.png
 security:

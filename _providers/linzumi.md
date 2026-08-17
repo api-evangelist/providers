@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The private product API behind the Linzumi web workspace and the local Commander runner, served from serve.linzumi.com under a /api/v2 URI-versioned path. It is not a published developer API — there i
@@ -113,7 +113,7 @@ overview: 'Linzumi publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Linzumi''s developer surface includes support, CLI, authentication, changelog, and 11 more developer resources.'
-random_paper: 56
+random_paper: 31
 score:
   band: emerging
   composite: 19.5
@@ -129,7 +129,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linzumi/refs/heads/main/screenshots/linzumi-2026-07-25T225305.png
 security:

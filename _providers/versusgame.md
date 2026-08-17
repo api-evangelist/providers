@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 3
@@ -124,7 +124,110 @@ apis:
 - description: The widgets API from VersusGame — 5 operation(s) for widgets.
   name: VersusGame Widgets API
   slug: versusgame-widgets-api
-artifact_total: 36
+artifact_total: 70
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Versusgame Achievements API
+  slug: open-versusgame-achievements-api
+- collection_type: open
+  name: Versusgame App API
+  slug: open-versusgame-app-api
+- collection_type: open
+  name: Versusgame Assets API
+  slug: open-versusgame-assets-api
+- collection_type: open
+  name: Versusgame Auth API
+  slug: open-versusgame-auth-api
+- collection_type: open
+  name: Versusgame Autogame API
+  slug: open-versusgame-autogame-api
+- collection_type: open
+  name: Versusgame Autogame/article/v2 API
+  slug: open-versusgame-autogame-article-v2-api
+- collection_type: open
+  name: Versusgame Buddy List API
+  slug: open-versusgame-buddy-list-api
+- collection_type: open
+  name: Versusgame Categories API
+  slug: open-versusgame-categories-api
+- collection_type: open
+  name: Versusgame Creators API
+  slug: open-versusgame-creators-api
+- collection_type: open
+  name: Versusgame Custom URLS API
+  slug: open-versusgame-custom-urls-api
+- collection_type: open
+  name: Versusgame Cuts API
+  slug: open-versusgame-cuts-api
+- collection_type: open
+  name: Versusgame Gameplays API
+  slug: open-versusgame-gameplays-api
+- collection_type: open
+  name: Versusgame Games API
+  slug: open-versusgame-games-api
+- collection_type: open
+  name: Versusgame Gameset Plays API
+  slug: open-versusgame-gameset-plays-api
+- collection_type: open
+  name: Versusgame Gamesets API
+  slug: open-versusgame-gamesets-api
+- collection_type: open
+  name: Versusgame Health API
+  slug: open-versusgame-health-api
+- collection_type: open
+  name: Versusgame Internal API
+  slug: open-versusgame-internal-api
+- collection_type: open
+  name: Versusgame Invite API
+  slug: open-versusgame-invite-api
+- collection_type: open
+  name: Versusgame Keyframes API
+  slug: open-versusgame-keyframes-api
+- collection_type: open
+  name: Versusgame Leaderboards API
+  slug: open-versusgame-leaderboards-api
+- collection_type: open
+  name: Versusgame Ledger API
+  slug: open-versusgame-ledger-api
+- collection_type: open
+  name: Versusgame Legal API
+  slug: open-versusgame-legal-api
+- collection_type: open
+  name: Versusgame Meter Ads API
+  slug: open-versusgame-meter-ads-api
+- collection_type: open
+  name: Versusgame Notifications API
+  slug: open-versusgame-notifications-api
+- collection_type: open
+  name: Versusgame API
+  slug: open-versusgame-openapi-original
+- collection_type: open
+  name: Versusgame Partner Domain API
+  slug: open-versusgame-partner-domain-api
+- collection_type: open
+  name: Versusgame Payments API
+  slug: open-versusgame-payments-api
+- collection_type: open
+  name: Versusgame Personal Information API
+  slug: open-versusgame-personal-information-api
+- collection_type: open
+  name: Versusgame Playlists API
+  slug: open-versusgame-playlists-api
+- collection_type: open
+  name: Versusgame Products API
+  slug: open-versusgame-products-api
+- collection_type: open
+  name: Versusgame Profiles API
+  slug: open-versusgame-profiles-api
+- collection_type: open
+  name: Versusgame Wallets API
+  slug: open-versusgame-wallets-api
+- collection_type: open
+  name: Versusgame Widgets API
+  slug: open-versusgame-widgets-api
 common:
 - group: agent
   title: ''
@@ -234,7 +337,7 @@ overview: 'VersusGame publishes 32 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VersusGame''s developer surface includes authentication and 22 more developer resources.'
-random_paper: 10
+random_paper: 47
 score:
   band: thin
   composite: 30.2
@@ -264,7 +367,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

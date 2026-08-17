@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 4
@@ -96,17 +96,71 @@ apis:
 - description: Upload application archives to the administration server
   name: Oracle WebLogic Server APIs Upload API
   slug: weblogic-upload-api
-artifact_total: 84
+artifact_total: 102
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments API
+  slug: open-weblogic-application-deployments-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Applications API
+  slug: open-weblogic-applications-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Clusters API
+  slug: open-weblogic-clusters-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Data Sources API
+  slug: open-weblogic-data-sources-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Deployment Operations API
+  slug: open-weblogic-deployment-operations-api
 - collection_type: open
   name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment API
   slug: open-weblogic-deployment
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Diagnostics API
+  slug: open-weblogic-diagnostics-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Domain Configuration API
+  slug: open-weblogic-domain-configuration-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Domain Runtime API
+  slug: open-weblogic-domain-runtime-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Edit API
+  slug: open-weblogic-edit-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Health API
+  slug: open-weblogic-health-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments JMS API
+  slug: open-weblogic-jms-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Library Deployments API
+  slug: open-weblogic-library-deployments-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Lifecycle API
+  slug: open-weblogic-lifecycle-api
 - collection_type: open
   name: Oracle WebLogic Server APIs Oracle WebLogic Server Monitoring and Diagnostics API
   slug: open-weblogic-monitoring-diagnostics
 - collection_type: open
   name: Oracle WebLogic Server APIs Oracle WebLogic Server RESTful Management Services API
   slug: open-weblogic-restful-management-services
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Server Configuration API
+  slug: open-weblogic-server-configuration-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Server Runtime API
+  slug: open-weblogic-server-runtime-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Servers API
+  slug: open-weblogic-servers-api
+- collection_type: open
+  name: Oracle WebLogic Server APIs Oracle WebLogic Server Deployment Application Deployments Upload API
+  slug: open-weblogic-upload-api
 common:
 - group: agent
   title: ''
@@ -370,7 +424,7 @@ plans:
 - name: Weblogic Plans Pricing
   plan_count: 1
   slug: weblogic-plans-pricing
-random_paper: 4
+random_paper: 99
 rate_limits:
 - limit_count: 1
   name: Weblogic Rate Limits
@@ -412,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weblogic/refs/heads/main/screenshots/weblogic-2026-06-20T201334.png
 security:

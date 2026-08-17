@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ arazzos:
 - description: Submit an inference job with a webhook callback and confirm it was accepted into the queue.
   name: fal Webhook-Backed Submission
   slug: fal-ai-webhook-submission-workflow
-artifact_total: 66
+artifact_total: 73
 asyncapis:
 - description: 'AsyncAPI description of fal''s event-driven inference surfaces. fal exposes two real-time channels in addition to its REST queue: (1) a Server-Sent Events stream that pushes incremental status updates '
   name: fal Event-Driven APIs
@@ -119,6 +119,27 @@ collections:
 - collection_type: postman
   name: fal Storage API
   slug: postman-fal-storage-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: fal Model APIs Apps API
+  slug: open-fal-ai-apps-api
+- collection_type: open
+  name: fal Model APIs Apps Files API
+  slug: open-fal-ai-files-api
+- collection_type: open
+  name: fal Model APIs Apps Queue API
+  slug: open-fal-ai-queue-api
+- collection_type: open
+  name: fal Model APIs Apps Secrets API
+  slug: open-fal-ai-secrets-api
+- collection_type: open
+  name: fal Model APIs Apps Storage API
+  slug: open-fal-ai-storage-api
+- collection_type: open
+  name: fal Model APIs Apps Streaming API
+  slug: open-fal-ai-streaming-api
 - collection_type: open
   name: fal Model APIs
   slug: open-fal-model-apis
@@ -476,7 +497,7 @@ plans:
 - name: Fal Ai Plans Pricing
   plan_count: 2
   slug: fal-ai-plans-pricing
-random_paper: 74
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Fal Ai Rate Limits
@@ -528,7 +549,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/screenshots/fal-ai-2026-06-20T181030.png
 security:

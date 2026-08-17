@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Operations for managing EKS managed node groups
   name: Amazon EKS Node Groups API
   slug: amazon-eks-node-groups-api
-artifact_total: 117
+artifact_total: 122
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EKS Addons API
+  slug: open-amazon-eks-addons-api
+- collection_type: open
+  name: Amazon EKS Addons Clusters API
+  slug: open-amazon-eks-clusters-api
+- collection_type: open
+  name: Amazon EKS Addons Fargate Profiles API
+  slug: open-amazon-eks-fargate-profiles-api
+- collection_type: open
+  name: Amazon EKS Addons Node Groups API
+  slug: open-amazon-eks-node-groups-api
 - collection_type: open
   name: Amazon EKS API
   slug: open-amazon-eks
@@ -467,7 +482,7 @@ plans:
 - name: Amazon Eks Plans Pricing
   plan_count: 1
   slug: amazon-eks-plans-pricing
-random_paper: 54
+random_paper: 120
 rate_limits:
 - limit_count: 2
   name: Amazon Eks Rate Limits
@@ -509,7 +524,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/screenshots/amazon-eks-2026-06-20T171637.png
 security:

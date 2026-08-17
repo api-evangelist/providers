@@ -21,7 +21,7 @@ modified: '2026-04-21'
 name: Boycott Israeli Consumer Goods Dataset
 nav: Providers
 network: true
-random_paper: 15
+random_paper: 130
 slug: boycott-israeli-consumer-goods-dataset
 tags:
 - Boycotts

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -51,11 +51,26 @@ apis:
 - description: Manage versions of workflow definitions.
   name: Azure Logic Apps WorkflowVersions API
   slug: logic-apps-workflowversions-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Azure Logic Apps Management API
   slug: open-logic-apps-management-api
+- collection_type: open
+  name: Azure Logic Apps Management WorkflowRuns API
+  slug: open-logic-apps-workflowruns-api
+- collection_type: open
+  name: Azure Logic Apps Management WorkflowRuns Workflows API
+  slug: open-logic-apps-workflows-api
+- collection_type: open
+  name: Azure Logic Apps Management WorkflowRuns WorkflowTriggers API
+  slug: open-logic-apps-workflowtriggers-api
+- collection_type: open
+  name: Azure Logic Apps Management WorkflowRuns WorkflowVersions API
+  slug: open-logic-apps-workflowversions-api
 common:
 - group: agent
   title: ''
@@ -113,7 +128,7 @@ plans:
 - name: Logic Apps Plans Pricing
   plan_count: 3
   slug: logic-apps-plans-pricing
-random_paper: 47
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Logic Apps Rate Limits
@@ -143,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logic-apps/refs/heads/main/screenshots/logic-apps-2026-06-20T184652.png
 security:

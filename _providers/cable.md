@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -99,7 +99,71 @@ apis:
 - description: The utilities API from Cable — 1 operation(s) for utilities.
   name: Cable utilities API
   slug: cable-utilities-api
-artifact_total: 26
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference alerts API
+  slug: open-cable-alerts-api
+- collection_type: open
+  name: API Reference alerts authentication API
+  slug: open-cable-authentication-api
+- collection_type: open
+  name: API Reference alerts business API
+  slug: open-cable-business-api
+- collection_type: open
+  name: API Reference alerts checks API
+  slug: open-cable-checks-api
+- collection_type: open
+  name: API Reference alerts company API
+  slug: open-cable-company-api
+- collection_type: open
+  name: API Reference alerts customerSar API
+  slug: open-cable-customersar-api
+- collection_type: open
+  name: API Reference alerts helper API
+  slug: open-cable-helper-api
+- collection_type: open
+  name: API Reference alerts identityVerification API
+  slug: open-cable-identityverification-api
+- collection_type: open
+  name: API Reference alerts onboardingFlow API
+  slug: open-cable-onboardingflow-api
+- collection_type: open
+  name: API Reference alerts person API
+  slug: open-cable-person-api
+- collection_type: open
+  name: API Reference alerts retail API
+  slug: open-cable-retail-api
+- collection_type: open
+  name: API Reference alerts riskAssessment API
+  slug: open-cable-riskassessment-api
+- collection_type: open
+  name: API Reference alerts screening API
+  slug: open-cable-screening-api
+- collection_type: open
+  name: API Reference alerts suspiciousActivities API
+  slug: open-cable-suspiciousactivities-api
+- collection_type: open
+  name: API Reference alerts transactionAlerts API
+  slug: open-cable-transactionalerts-api
+- collection_type: open
+  name: API Reference alerts transactionChecks API
+  slug: open-cable-transactionchecks-api
+- collection_type: open
+  name: API Reference alerts transactions API
+  slug: open-cable-transactions-api
+- collection_type: open
+  name: API Reference alerts transactionSuspiciousActivities API
+  slug: open-cable-transactionsuspiciousactivities-api
+- collection_type: open
+  name: API Reference alerts upload API
+  slug: open-cable-upload-api
+- collection_type: open
+  name: API Reference alerts utilities API
+  slug: open-cable-utilities-api
 common:
 - group: auth
   title: ''
@@ -237,7 +301,7 @@ overview: 'Cable publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 24 more developer resources.'
-random_paper: 23
+random_paper: 56
 score:
   band: developing
   composite: 48.2
@@ -267,7 +331,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/screenshots/cable-2026-07-25T204213.png
 security:

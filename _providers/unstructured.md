@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -67,7 +67,38 @@ apis:
 - description: The workflows API from Unstructured — 6 operation(s) for workflows.
   name: Unstructured workflows API
   slug: unstructured-workflows-api
-artifact_total: 20
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unstructured Partition channels API
+  slug: open-unstructured-channels-api
+- collection_type: open
+  name: Unstructured Partition channels destinations API
+  slug: open-unstructured-destinations-api
+- collection_type: open
+  name: Unstructured Partition channels general API
+  slug: open-unstructured-general-api
+- collection_type: open
+  name: Unstructured Partition channels jobs API
+  slug: open-unstructured-jobs-api
+- collection_type: open
+  name: Unstructured Partition channels notifications API
+  slug: open-unstructured-notifications-api
+- collection_type: open
+  name: Unstructured Partition channels sources API
+  slug: open-unstructured-sources-api
+- collection_type: open
+  name: Unstructured Partition channels templates API
+  slug: open-unstructured-templates-api
+- collection_type: open
+  name: Unstructured Partition channels workflow-channels API
+  slug: open-unstructured-workflow-channels-api
+- collection_type: open
+  name: Unstructured Partition channels workflows API
+  slug: open-unstructured-workflows-api
 common:
 - group: agent
   title: ''
@@ -189,7 +220,7 @@ plans:
 - name: Unstructured Plans Pricing
   plan_count: 3
   slug: unstructured-plans-pricing
-random_paper: 16
+random_paper: 144
 rate_limits:
 - limit_count: 2
   name: Unstructured Rate Limits
@@ -223,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/screenshots/unstructured-2026-06-20T200434.png
 security:

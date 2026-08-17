@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -415,17 +415,113 @@ apis:
 - description: Operations related to Watch
   name: Google Watch API
   slug: google-watch-api
-artifact_total: 190
+artifact_total: 271
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Google Books API
   slug: open-books-api
 - collection_type: open
+  name: Google Books About API
+  slug: open-google-about-api
+- collection_type: open
+  name: Google Books About Activity API
+  slug: open-google-activity-api
+- collection_type: open
+  name: Google Books About Address API
+  slug: open-google-address-api
+- collection_type: open
+  name: Google Books About Addresses API
+  slug: open-google-addresses-api
+- collection_type: open
+  name: Google Books About Append API
+  slug: open-google-append-api
+- collection_type: open
+  name: Google Books About Applications API
+  slug: open-google-applications-api
+- collection_type: open
+  name: Google Books About Attachments API
+  slug: open-google-attachments-api
+- collection_type: open
+  name: Google Books About Audio Understanding API
+  slug: open-google-audio-understanding-api
+- collection_type: open
+  name: Google Books About Auto API
+  slug: open-google-auto-api
+- collection_type: open
+  name: Google Books About Batch API
+  slug: open-google-batch-api
+- collection_type: open
+  name: Google Books About Bookshelves API
+  slug: open-google-bookshelves-api
+- collection_type: open
+  name: Google Books About Calendar ACL Rules API
+  slug: open-google-calendar-acl-rules-api
+- collection_type: open
+  name: Google Books About Calendar ACLs API
+  slug: open-google-calendar-acls-api
+- collection_type: open
   name: Google Calendar API
   slug: open-google-calendar-api
 - collection_type: open
+  name: Google Books About Calendar Events API
+  slug: open-google-calendar-events-api
+- collection_type: open
+  name: Google Books About Calendars API
+  slug: open-google-calendars-api
+- collection_type: open
+  name: Google Books About Changes API
+  slug: open-google-changes-api
+- collection_type: open
+  name: Google Books About Channels API
+  slug: open-google-channels-api
+- collection_type: open
+  name: Google Books About Clear API
+  slug: open-google-clear-api
+- collection_type: open
+  name: Google Books About Colors API
+  slug: open-google-colors-api
+- collection_type: open
+  name: Google Books About Comments API
+  slug: open-google-comments-api
+- collection_type: open
+  name: Google Books About Content Generation API
+  slug: open-google-content-generation-api
+- collection_type: open
+  name: Google Books About Copy API
+  slug: open-google-copy-api
+- collection_type: open
+  name: Google Books About Create API
+  slug: open-google-create-api
+- collection_type: open
+  name: Google Books About Data API
+  slug: open-google-data-api
+- collection_type: open
+  name: Google Books About Delegates API
+  slug: open-google-delegates-api
+- collection_type: open
+  name: Google Books About Deletes API
+  slug: open-google-deletes-api
+- collection_type: open
+  name: Google Books About Developer API
+  slug: open-google-developer-api
+- collection_type: open
+  name: Google Books About Disables API
+  slug: open-google-disables-api
+- collection_type: open
   name: Google Docs API
   slug: open-google-docs-api
+- collection_type: open
+  name: Google Books About Document Understanding API
+  slug: open-google-document-understanding-api
+- collection_type: open
+  name: Google Books About Documents API
+  slug: open-google-documents-api
+- collection_type: open
+  name: Google Books About Drafts API
+  slug: open-google-drafts-api
 - collection_type: open
   name: Google Drive Activity API
   slug: open-google-drive-activity-api
@@ -436,14 +532,161 @@ collections:
   name: Google Drive Labels API
   slug: open-google-drive-labels-api
 - collection_type: open
+  name: Google Books About Drives API
+  slug: open-google-drives-api
+- collection_type: open
+  name: Google Books About Enables API
+  slug: open-google-enables-api
+- collection_type: open
+  name: Google Books About File Api API
+  slug: open-google-file-api-api
+- collection_type: open
+  name: Google Books About Files API
+  slug: open-google-files-api
+- collection_type: open
+  name: Google Books About Filter API
+  slug: open-google-filter-api
+- collection_type: open
+  name: Google Books About Free Busy API
+  slug: open-google-free-busy-api
+- collection_type: open
   name: Google Gemini API
   slug: open-google-gemini-api
+- collection_type: open
+  name: Google Books About Get API
+  slug: open-google-get-api
 - collection_type: open
   name: Google Gmail API
   slug: open-google-gmail-api
 - collection_type: open
+  name: Google Books About History API
+  slug: open-google-history-api
+- collection_type: open
+  name: Google Books About Image Generation API
+  slug: open-google-image-generation-api
+- collection_type: open
+  name: Google Books About Import API
+  slug: open-google-import-api
+- collection_type: open
+  name: Google Books About Info API
+  slug: open-google-info-api
+- collection_type: open
+  name: Google Books About Insert API
+  slug: open-google-insert-api
+- collection_type: open
+  name: Google Books About Labels API
+  slug: open-google-labels-api
+- collection_type: open
+  name: Google Books About Language API
+  slug: open-google-language-api
+- collection_type: open
+  name: Google Books About Limits API
+  slug: open-google-limits-api
+- collection_type: open
+  name: Google Books About Lists API
+  slug: open-google-lists-api
+- collection_type: open
+  name: Google Books About Messages API
+  slug: open-google-messages-api
+- collection_type: open
+  name: Google Books About Modify API
+  slug: open-google-modify-api
+- collection_type: open
+  name: Google Books About My Library API
+  slug: open-google-my-library-api
+- collection_type: open
+  name: Google Books About Notifications API
+  slug: open-google-notifications-api
+- collection_type: open
+  name: Google Books About Obliterate API
+  slug: open-google-obliterate-api
+- collection_type: open
+  name: Google Books About Patch API
+  slug: open-google-patch-api
+- collection_type: open
+  name: Google Books About Permissions API
+  slug: open-google-permissions-api
+- collection_type: open
+  name: Google Books About Pop API
+  slug: open-google-pop-api
+- collection_type: open
+  name: Google Books About Profile API
+  slug: open-google-profile-api
+- collection_type: open
+  name: Google Books About Replies API
+  slug: open-google-replies-api
+- collection_type: open
+  name: Google Books About Revisions API
+  slug: open-google-revisions-api
+- collection_type: open
+  name: Google Books About Search API
+  slug: open-google-search-api
+- collection_type: open
+  name: Google Books About Send API
+  slug: open-google-send-api
+- collection_type: open
+  name: Google Books About Sets API
+  slug: open-google-sets-api
+- collection_type: open
+  name: Google Books About Setting API
+  slug: open-google-setting-api
+- collection_type: open
+  name: Google Books About Settings API
+  slug: open-google-settings-api
+- collection_type: open
+  name: Google Books About Sheet API
+  slug: open-google-sheet-api
+- collection_type: open
   name: Google Sheets API
   slug: open-google-sheets-api
+- collection_type: open
+  name: Google Books About Speech Generation API
+  slug: open-google-speech-generation-api
+- collection_type: open
+  name: Google Books About Stop API
+  slug: open-google-stop-api
+- collection_type: open
+  name: Google Books About Streaming API
+  slug: open-google-streaming-api
+- collection_type: open
+  name: Google Books About Team Drives API
+  slug: open-google-team-drives-api
+- collection_type: open
+  name: Google Books About Threads API
+  slug: open-google-threads-api
+- collection_type: open
+  name: Google Books About Trash API
+  slug: open-google-trash-api
+- collection_type: open
+  name: Google Books About Update API
+  slug: open-google-update-api
+- collection_type: open
+  name: Google Books About User Calendars API
+  slug: open-google-user-calendars-api
+- collection_type: open
+  name: Google Books About User Settings API
+  slug: open-google-user-settings-api
+- collection_type: open
+  name: Google Books About Users API
+  slug: open-google-users-api
+- collection_type: open
+  name: Google Books About Vacation API
+  slug: open-google-vacation-api
+- collection_type: open
+  name: Google Books About Values API
+  slug: open-google-values-api
+- collection_type: open
+  name: Google Books About Verify API
+  slug: open-google-verify-api
+- collection_type: open
+  name: Google Books About Video Understanding API
+  slug: open-google-video-understanding-api
+- collection_type: open
+  name: Google Books About Volumes API
+  slug: open-google-volumes-api
+- collection_type: open
+  name: Google Books About Watch API
+  slug: open-google-watch-api
 common:
 - group: agent
   title: ''
@@ -650,7 +893,7 @@ plans:
 - name: Google Plans Pricing
   plan_count: 3
   slug: google-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Google Rate Limits
@@ -680,7 +923,7 @@ score:
       marker_coverage: 0.0
       total: 80
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/screenshots/google-2026-06-20T182002.png
 security:

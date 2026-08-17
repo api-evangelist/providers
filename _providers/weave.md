@@ -10,11 +10,11 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
@@ -23,18 +23,74 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 40.1
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 11
+  human_in_the_loop: 0
+  name: Weave Agentic Access
+  operation_count: 38
+  slug: weave-agentic-access
+  summary_line: 38 operations · 11 acting
+api_count: 9
 apis:
 - description: Weave's developer platform API for building apps and integrations against Weave communication, scheduling, and payments data. Authorized via OpenID Connect / OAuth 2.0 (authorization_code + client_cre
   name: Weave Platform API
   slug: weave-platform-api
-artifact_total: 6
+- description: Patient/customer contacts and contact info.
+  name: Weave Contacts API
+  slug: weave-hq-contacts-api
+- description: Platform events and subscription management.
+  name: Weave Events API
+  slug: weave-hq-events-api
+- description: Weave Digital Forms - templates, links, and submissions.
+  name: Weave Forms API
+  slug: weave-hq-forms-api
+- description: Two-way SMS/text messaging with patients.
+  name: Weave Messaging API
+  slug: weave-hq-messaging-api
+- description: Weave Payments methods (text-to-pay, card-on-file).
+  name: Weave Payments API
+  slug: weave-hq-payments-api
+- description: VoIP call records, recordings, voicemails, and call queues.
+  name: Weave Phone & Calls API
+  slug: weave-hq-phone-calls-api
+- description: Review generation, reputation, and business listings.
+  name: Weave Reviews API
+  slug: weave-hq-reviews-api
+- description: Appointments, appointment types, schedules, and calendar events.
+  name: Weave Scheduling API
+  slug: weave-hq-scheduling-api
+artifact_total: 26
+collections:
+- collection_type: open
+  name: Weave Contacts API
+  slug: open-weave-contacts-api
+- collection_type: open
+  name: Weave Contacts Events API
+  slug: open-weave-events-api
+- collection_type: open
+  name: Weave Contacts Forms API
+  slug: open-weave-forms-api
+- collection_type: open
+  name: Weave API
+  slug: open-weave-hq
+- collection_type: open
+  name: Weave Contacts Messaging API
+  slug: open-weave-messaging-api
+- collection_type: open
+  name: Weave Contacts Payments API
+  slug: open-weave-payments-api
+- collection_type: open
+  name: Weave Contacts Phone & Calls API
+  slug: open-weave-phone-calls-api
+- collection_type: open
+  name: Weave Contacts Scheduling API
+  slug: open-weave-scheduling-api
 common:
 - group: auth
   title: ''
@@ -132,35 +188,135 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/weave-llms.txt
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/weave-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/weave-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/weave-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/weave-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/weave-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/weave-scopes.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/getweave
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/weavehq
+- group: company
+  title: ''
+  type: Website
+  url: https://www.getweave.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://dp.getweave.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/weave-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/weave-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/weave-finops.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/weave-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/weave-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/weave-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/weave-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/weave-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/weave-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/weave-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/weave-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/weave-finops.yml
 created: '2026-07-17'
 description: 'Weave (Weave Communications, Inc., NYSE: WEAV) is an all-in-one customer communication and payments platform built for small and medium healthcare and services businesses — dental, optometry, veterinary, medical, and beyond. Weave brings together a cloud phone system (VoIP), two-way text messaging, appointment scheduling and reminders, online reviews, forms, and integrated payments so practices can automate front-office work, keep schedules full, get paid faster, and collect more reviews. For developers, Weave runs a Developer Platform at dp.getweave.com backed by an OpenID Connect / OAuth 2.0 authorization server (api.weaveconnect.com) that lets partners build apps and integrations against Weave data and events. A Y Combinator company (W14), Weave is HIPAA compliant and maintains ISO 27001 and SOC 2 Type 2 attestations.'
+finops:
+- name: Weave Finops
+  service_category: Business Communication and Payments
+  slug: weave-finops
 image: https://dp.getweave.com/weave-favicon.svg
 layout: provider
 modified: '2026-07-21'
 name: Weave
 nav: Providers
 network: true
-overview: 'Weave publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Communication, Messaging, Payments, and Healthcare.
+overview: 'Weave publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Events API, Forms API, and 5 more. Tagged areas include Company, Communication, Messaging, Payments, and Healthcare.
 
 
-  Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 56
+  Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 40 more developer resources.'
+plans:
+- name: Weave Plans Pricing
+  plan_count: 4
+  slug: weave-plans-pricing
+random_paper: 89
+rate_limits:
+- limit_count: 4
+  name: Weave Rate Limits
+  slug: weave-rate-limits
 scopes:
 - name: Weave Scopes
   scope_count: 3
   slug: weave-scopes
   summary_line: 3 scopes
 score:
-  band: thin
-  composite: 37.4
-  delta: 0.0
+  band: strong
+  composite: 59.6
+  delta: 22.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
+    commercial_clarity: 100.0
+    contract_quality: 54.5
     developer_ergonomics: 34.8
-    discoverability: 75.9
+    discoverability: 81.5
     governance: 12.5
-    operational_transparency: 31.6
+    operational_transparency: 63.2
   previous_composite: 37.4
   provenance:
     conformance: first-party
@@ -171,8 +327,8 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Weave Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -101,7 +101,74 @@ apis:
 - description: The Transactions API from NatWest Group — 3 operation(s) for transactions.
   name: NatWest Group Transactions API
   slug: natwest-transactions-api
-artifact_total: 27
+artifact_total: 49
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Account and Transaction API Specification Account Access API
+  slug: open-natwest-account-access-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Accounts API
+  slug: open-natwest-accounts-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Balances API
+  slug: open-natwest-balances-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Beneficiaries API
+  slug: open-natwest-beneficiaries-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Direct Debits API
+  slug: open-natwest-direct-debits-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Domestic Payments API
+  slug: open-natwest-domestic-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Domestic Scheduled Payments API
+  slug: open-natwest-domestic-scheduled-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Domestic Standing Orders API
+  slug: open-natwest-domestic-standing-orders-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access File Payments API
+  slug: open-natwest-file-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Funds Confirmations API
+  slug: open-natwest-funds-confirmations-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access International Payments API
+  slug: open-natwest-international-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access International Scheduled Payments API
+  slug: open-natwest-international-scheduled-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access International Standing Orders API
+  slug: open-natwest-international-standing-orders-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Offers API
+  slug: open-natwest-offers-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Parties API
+  slug: open-natwest-parties-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Payment Details API
+  slug: open-natwest-payment-details-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Products API
+  slug: open-natwest-products-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Scheduled Payments API
+  slug: open-natwest-scheduled-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Standing Orders API
+  slug: open-natwest-standing-orders-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Statements API
+  slug: open-natwest-statements-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Transactions API
+  slug: open-natwest-transactions-api
 common:
 - group: agent
   title: ''
@@ -267,7 +334,7 @@ overview: 'NatWest Group publishes 21 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NatWest Group''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, engineering blog, support, and 30 more developer resources.'
-random_paper: 54
+random_paper: 29
 scopes:
 - name: Natwest Scopes
   scope_count: 5
@@ -302,7 +369,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/screenshots/natwest-2026-08-07T184715.png
 security:

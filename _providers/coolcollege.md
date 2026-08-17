@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: '* OA系统 人员/部门变动事件推送API * 访问该目录下接口时header中需要携带参数 `access-token` 和 `enterprise-id` * access-token 参数来自鉴权接口返回的token值'
   name: 酷学院 (Cool College) thirdoa API
   slug: coolcollege-thirdoa-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 酷学院 REST 学习 API
+  slug: open-coolcollege-default-api
+- collection_type: open
+  name: 酷学院 REST 学习 pet API
+  slug: open-coolcollege-pet-api
+- collection_type: open
+  name: 酷学院 REST 学习 thirdoa API
+  slug: open-coolcollege-thirdoa-api
 common:
 - group: other
   title: ''
@@ -153,7 +166,7 @@ overview: '酷学院 (Cool College) publishes 3 APIs on the [APIs.io](https://ap
 
 
   酷学院 (Cool College)''s developer surface includes API reference, documentation, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 80
+random_paper: 117
 score:
   band: thin
   composite: 39.3
@@ -177,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/screenshots/coolcollege-2026-07-25T210405.png
 security:

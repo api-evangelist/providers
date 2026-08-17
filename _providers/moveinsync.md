@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: JWT-authenticated REST and webhook API for employee-transport integration. Partners authenticate at api.moveinsync.com/auth/token (OAuth2 client-credentials over HTTP Basic) to obtain a 24-hour JWT, t
@@ -115,7 +115,7 @@ overview: 'MoveInSync publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   MoveInSync''s developer surface includes authentication, documentation, support, engineering blog, and 11 more developer resources.'
-random_paper: 19
+random_paper: 56
 score:
   band: thin
   composite: 35.8
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveinsync/refs/heads/main/screenshots/moveinsync-2026-08-07T184350.png
 security:

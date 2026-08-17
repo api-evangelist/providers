@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -111,7 +111,7 @@ apis:
 - description: Create, manage, and execute automation workflows
   name: Commvault Workflows API
   slug: commvault-workflows-api
-artifact_total: 62
+artifact_total: 87
 collections:
 - collection_type: postman
   name: Commvault Automation Agents API
@@ -186,14 +186,89 @@ collections:
   name: Commvault Automation Agents Workflows API
   slug: postman-commvault-workflows-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Commvault Automation Agents API
+  slug: open-commvault-agents-api
+- collection_type: open
+  name: Commvault Automation Agents Alerts API
+  slug: open-commvault-alerts-api
+- collection_type: open
+  name: Commvault Automation Agents Authentication API
+  slug: open-commvault-authentication-api
+- collection_type: open
   name: Commvault Automation API
   slug: open-commvault-automation
+- collection_type: open
+  name: Commvault Automation Agents Clients API
+  slug: open-commvault-clients-api
 - collection_type: open
   name: Commvault Command Center API
   slug: open-commvault-command-center
 - collection_type: open
+  name: Commvault Automation Agents Dashboard API
+  slug: open-commvault-dashboard-api
+- collection_type: open
+  name: Commvault Automation Agents Databases API
+  slug: open-commvault-databases-api
+- collection_type: open
+  name: Commvault Automation Agents File Servers API
+  slug: open-commvault-file-servers-api
+- collection_type: open
+  name: Commvault Automation Agents Jobs API
+  slug: open-commvault-jobs-api
+- collection_type: open
+  name: Commvault Automation Agents Laptops API
+  slug: open-commvault-laptops-api
+- collection_type: open
+  name: Commvault Automation Agents Operations API
+  slug: open-commvault-operations-api
+- collection_type: open
+  name: Commvault Automation Agents Plans API
+  slug: open-commvault-plans-api
+- collection_type: open
+  name: Commvault Automation Agents Policies API
+  slug: open-commvault-policies-api
+- collection_type: open
+  name: Commvault Automation Agents Reports API
+  slug: open-commvault-reports-api
+- collection_type: open
   name: Commvault REST API
   slug: open-commvault-rest
+- collection_type: open
+  name: Commvault Automation Agents Schedule Policies API
+  slug: open-commvault-schedule-policies-api
+- collection_type: open
+  name: Commvault Automation Agents Schedules API
+  slug: open-commvault-schedules-api
+- collection_type: open
+  name: Commvault Automation Agents Scripts API
+  slug: open-commvault-scripts-api
+- collection_type: open
+  name: Commvault Automation Agents Server Groups API
+  slug: open-commvault-server-groups-api
+- collection_type: open
+  name: Commvault Automation Agents SLA API
+  slug: open-commvault-sla-api
+- collection_type: open
+  name: Commvault Automation Agents Storage API
+  slug: open-commvault-storage-api
+- collection_type: open
+  name: Commvault Automation Agents Storage Policies API
+  slug: open-commvault-storage-policies-api
+- collection_type: open
+  name: Commvault Automation Agents Subclients API
+  slug: open-commvault-subclients-api
+- collection_type: open
+  name: Commvault Automation Agents Users API
+  slug: open-commvault-users-api
+- collection_type: open
+  name: Commvault Automation Agents Virtual Machines API
+  slug: open-commvault-virtual-machines-api
+- collection_type: open
+  name: Commvault Automation Agents Workflows API
+  slug: open-commvault-workflows-api
 common:
 - group: build
   title: ''
@@ -302,7 +377,7 @@ plans:
 - name: Commvault Plans Pricing
   plan_count: 12
   slug: commvault-plans-pricing
-random_paper: 24
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Commvault Rate Limits
@@ -344,7 +419,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/screenshots/commvault-2026-06-20T174828.png
 security:

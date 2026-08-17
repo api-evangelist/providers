@@ -1,20 +1,22 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: 14-day free trial, then paid plans from $199/mo
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
   - authentication
-  trial: false
+  - https://www.metrilo.com/pricing
+  trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -23,13 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-12'
-api_count: 4
+  score: 48.4
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 10
+  human_in_the_loop: 0
+  name: Metrilo Agentic Access
+  operation_count: 10
+  slug: metrilo-agentic-access
+  summary_line: 10 operations · 10 acting
+api_count: 5
 apis:
 - description: The Categories API from Metrilo — 2 operation(s) for categories.
   name: Metrilo Categories API
@@ -43,8 +52,31 @@ apis:
 - description: The Products API from Metrilo — 2 operation(s) for products.
   name: Metrilo Products API
   slug: metrilo-products-api
-artifact_total: 7
+- description: Metrilo's own published specification for the tracking and CRM ingestion API — OpenAPI 3.0.1, version 2.1.1, 10 operations and 19 schemas covering categories, products, customers (including tag/untag)
+  name: Metrilo Tracking API
+  slug: metrilo-tracking-api
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Metrilo Tracking & CRM Categories API
+  slug: open-metrilo-categories-api
+- collection_type: open
+  name: Metrilo Tracking & CRM Categories Customers API
+  slug: open-metrilo-customers-api
+- collection_type: open
+  name: Metrilo Tracking & CRM Categories Orders API
+  slug: open-metrilo-orders-api
+- collection_type: open
+  name: Metrilo Tracking & CRM Categories Products API
+  slug: open-metrilo-products-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/metrilo-agentic-access.yml
 - group: other
   title: ''
   type: Overlay
@@ -64,7 +96,7 @@ common:
 - group: docs
   title: ''
   type: APIReference
-  url: https://github.com/Metrilo/custom-integration
+  url: https://app.swaggerhub.com/apis/metrilo/api/2.1.1
 - group: start
   title: ''
   type: GettingStarted
@@ -73,10 +105,6 @@ common:
   title: ''
   type: Support
   url: https://docs.metrilo.com
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.metrilo.com/blog
 - group: build
   title: ''
   type: GitHubOrganization
@@ -153,6 +181,22 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/metrilo-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/metrilo-tracking-api-overlay.yaml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/metrilo-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/metrilo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/metrilo-changelog.yml
 created: '2026-07-17'
 description: Metrilo is a plug-and-play ecommerce growth platform that combines real-time analytics, an ecommerce CRM, and email marketing for online brands. Founded in 2014 and acquired by Brevo (formerly Sendinblue) in 2021, Metrilo tracks visitor and customer behavior, builds rich customer profiles with 30+ segmentation filters, and powers retention-focused email campaigns. Developers integrate via official plugins for WooCommerce, Magento, and OpenCart, a client-side JavaScript tracking library (window.metrilo), and a server-side ingestion API at trk.mtrl.me/v2 that pushes customers, categories, products, and orders using an API Token plus an HMAC-SHA256 X-Digest request signature.
 image: https://www.metrilo.com/images/metrilo-1200x628.png
@@ -161,26 +205,34 @@ mcp_servers:
 - description: ''
   name: metrilo-mcp.yml
   slug: metrilo-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Metrilo
 nav: Providers
 network: true
-overview: 'Metrilo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Orders API, and 1 more. Tagged areas include Company, Ecommerce, Analytics, CRM, and Email Marketing.
+overview: 'Metrilo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Orders API, and 2 more. Tagged areas include Company, Ecommerce, Analytics, CRM, and Email Marketing.
 
 
-  Metrilo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 44
+  Metrilo''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
+plans:
+- name: Metrilo Plans Pricing
+  plan_count: 3
+  slug: metrilo-plans-pricing
+random_paper: 19
+rate_limits:
+- limit_count: 0
+  name: Metrilo Rate Limits
+  slug: metrilo-rate-limits
 score:
-  band: thin
-  composite: 38.0
-  delta: 0.0
+  band: developing
+  composite: 47.0
+  delta: 9.0
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 14.6
-    developer_ergonomics: 62.5
-    discoverability: 81.5
+    commercial_clarity: 84.2
+    contract_quality: 14.5
+    developer_ergonomics: 60.3
+    discoverability: 92.6
     governance: 20.8
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 38.0
   provenance:
     conformance: first-party
@@ -192,8 +244,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/screenshots/metrilo-2026-08-07T172735.png
 security:
 - kind: authentication
@@ -203,7 +255,7 @@ security:
 - kind: domain-security
   name: Metrilo Domain Security
   slug: metrilo-domain-security
-  summary_line: TLSv1.3
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: metrilo
 tags:
 - Company

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ overview: 'United States Capitol Police is profiled on the [APIs.io](https://api
 
 
   The United States Capitol Police catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 68
+random_paper: 146
 score:
   band: minimal
   composite: 10.1
@@ -96,7 +96,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-capitol-police/refs/heads/main/screenshots/united-states-capitol-police-2026-06-20T200048.png
 security:

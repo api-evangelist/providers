@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Exchange access/secret keys for an access token.
@@ -49,7 +49,7 @@ apis:
 - description: Register webhook subscriptions for Airmeet event triggers.
   name: Airmeet Webhooks API
   slug: airmeet-webhooks-api
-artifact_total: 18
+artifact_total: 25
 asyncapis:
 - description: Airmeet delivers event engagement and lifecycle notifications via webhooks. Subscribers register a destination URL against a trigger via POST /platform-integration/v1/webhook-register (headers x-acces
   name: Airmeet Webhooks
@@ -73,6 +73,27 @@ collections:
 - collection_type: postman
   name: Airmeet Public Authentication Webhooks API
   slug: postman-airmeet-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airmeet Public Authentication API
+  slug: open-airmeet-authentication-api
+- collection_type: open
+  name: Airmeet Public Authentication Event Details API
+  slug: open-airmeet-event-details-api
+- collection_type: open
+  name: Airmeet Public Authentication Manage Event API
+  slug: open-airmeet-manage-event-api
+- collection_type: open
+  name: Airmeet Public Authentication Manage Event Series API
+  slug: open-airmeet-manage-event-series-api
+- collection_type: open
+  name: Airmeet Public Authentication Manage Registrations API
+  slug: open-airmeet-manage-registrations-api
+- collection_type: open
+  name: Airmeet Public Authentication Webhooks API
+  slug: open-airmeet-webhooks-api
 common:
 - group: build
   title: ''
@@ -217,7 +238,7 @@ overview: 'Airmeet publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Airmeet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 24 more developer resources.'
-random_paper: 23
+random_paper: 147
 score:
   band: strong
   composite: 58.8
@@ -240,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/screenshots/airmeet-2026-07-25T195432.png
 security:

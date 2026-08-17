@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -89,8 +89,17 @@ apis:
 - description: Store and load configurations with an onlinecode
   name: Mercedes-Benz Mercedes me Saved configurations API
   slug: mercedes-me-saved-configurations-api
-artifact_total: 36
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Car Configurator Components API
+  slug: open-mercedes-me-components-api
+- collection_type: open
+  name: Car Configurator Components Configurations API
+  slug: open-mercedes-me-configurations-api
 - collection_type: open
   name: Car Configurator
   slug: open-mercedes-me-configurator-api
@@ -98,8 +107,35 @@ collections:
   name: Dealer
   slug: open-mercedes-me-dealer-api
 - collection_type: open
+  name: Car Configurator Components Dealer search API
+  slug: open-mercedes-me-dealer-search-api
+- collection_type: open
+  name: Car Configurator Components Diagnostic Trouble Code (DTC) Snapshots API
+  slug: open-mercedes-me-diagnostic-trouble-code-dtc-snapshots-api
+- collection_type: open
+  name: Car Configurator Components Diagnostic Trouble Codes (DTC's) API
+  slug: open-mercedes-me-diagnostic-trouble-codes-dtc-s-api
+- collection_type: open
+  name: Car Configurator Components Electronical Control Units (ECU's) API
+  slug: open-mercedes-me-electronical-control-units-ecu-s-api
+- collection_type: open
+  name: Car Configurator Components Images API
+  slug: open-mercedes-me-images-api
+- collection_type: open
+  name: Car Configurator Components Perspectives API
+  slug: open-mercedes-me-perspectives-api
+- collection_type: open
+  name: Car Configurator Components References API
+  slug: open-mercedes-me-references-api
+- collection_type: open
   name: Remote Diagnostic Support
   slug: open-mercedes-me-remote-diagnostic-support-api
+- collection_type: open
+  name: Car Configurator Components Resources API
+  slug: open-mercedes-me-resources-api
+- collection_type: open
+  name: Car Configurator Components Saved configurations API
+  slug: open-mercedes-me-saved-configurations-api
 - collection_type: open
   name: Vehicle Image
   slug: open-mercedes-me-vehicle-images-api
@@ -254,7 +290,7 @@ plans:
 - name: Mercedes Me Plans Pricing
   plan_count: 4
   slug: mercedes-me-plans-pricing
-random_paper: 15
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Mercedes Me Rate Limits
@@ -296,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/screenshots/mercedes-me-2026-06-20T185206.png
 security:

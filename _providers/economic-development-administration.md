@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Economic Development Administration
 nav: Providers
 network: true
 overview: Economic Development Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Economic Development and Federal Government.
-random_paper: 32
+random_paper: 56
 score:
   band: minimal
   composite: 5.1
@@ -72,7 +72,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/economic-development-administration/refs/heads/main/screenshots/economic-development-administration-2026-06-20T180455.png
 security:

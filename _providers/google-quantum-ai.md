@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: Measurement results returned by completed jobs.
   name: Google Quantum AI Results API
   slug: google-quantum-ai-results-api
-artifact_total: 54
+artifact_total: 61
 collections:
 - collection_type: postman
   name: Google Quantum Engine Calibrations API
@@ -104,6 +104,27 @@ collections:
 - collection_type: postman
   name: Google Quantum Engine Calibrations Results API
   slug: postman-google-quantum-ai-results-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Quantum Engine Calibrations API
+  slug: open-google-quantum-ai-calibrations-api
+- collection_type: open
+  name: Google Quantum Engine Calibrations Jobs API
+  slug: open-google-quantum-ai-jobs-api
+- collection_type: open
+  name: Google Quantum Engine Calibrations Processors API
+  slug: open-google-quantum-ai-processors-api
+- collection_type: open
+  name: Google Quantum Engine Calibrations Programs API
+  slug: open-google-quantum-ai-programs-api
+- collection_type: open
+  name: Google Quantum Engine Calibrations Reservations API
+  slug: open-google-quantum-ai-reservations-api
+- collection_type: open
+  name: Google Quantum Engine Calibrations Results API
+  slug: open-google-quantum-ai-results-api
 - collection_type: open
   name: Google Quantum Engine API
   slug: open-quantum-engine-api
@@ -391,7 +412,7 @@ plans:
 - name: Google Quantum Ai Plans Pricing
   plan_count: 3
   slug: google-quantum-ai-plans-pricing
-random_paper: 28
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Google Quantum Ai Rate Limits
@@ -438,7 +459,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/screenshots/google-quantum-ai-2026-06-20T182227.png
 security:

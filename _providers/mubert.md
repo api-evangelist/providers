@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -57,11 +57,32 @@ apis:
 - description: Subscription
   name: Mubert Subscription API
   slug: mubert-subscription-api
-artifact_total: 55
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Mubert AI Music API v3
   slug: open-mubert-music-api
+- collection_type: open
+  name: Mubert AI Music API v3 Price API
+  slug: open-mubert-price-api
+- collection_type: open
+  name: Mubert AI Music API v3 Price Public API
+  slug: open-mubert-public-api
+- collection_type: open
+  name: Mubert AI Music API v3 Price Public Service API
+  slug: open-mubert-public-service-api
+- collection_type: open
+  name: Mubert AI Music API v3 Price Service API
+  slug: open-mubert-service-api
+- collection_type: open
+  name: Mubert AI Music API v3 Price Stripe API
+  slug: open-mubert-stripe-api
+- collection_type: open
+  name: Mubert AI Music API v3 Price Subscription API
+  slug: open-mubert-subscription-api
 common:
 - group: agent
   title: ''
@@ -242,7 +263,7 @@ plans:
 - name: Mubert Plans Pricing
   plan_count: 4
   slug: mubert-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Mubert Rate Limits
@@ -284,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/screenshots/mubert-2026-06-20T185853.png
 security:

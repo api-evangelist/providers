@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -235,7 +235,7 @@ arazzos:
 - description: Read an API product, then update its quota limits while preserving its existing bindings.
   name: Apigee Update an API Product Quota
   slug: apigee-update-product-quota-workflow
-artifact_total: 214
+artifact_total: 255
 collections:
 - collection_type: postman
   name: Apigee API Hub API
@@ -253,20 +253,143 @@ collections:
   name: Apigee Registry API
   slug: postman-apigee-registry
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apigee API Hub Analytics API
+  slug: open-apigee-analytics-api
+- collection_type: open
+  name: Apigee API Hub Analytics API Deployments API
+  slug: open-apigee-api-deployments-api
+- collection_type: open
   name: Apigee API Hub API
   slug: open-apigee-api-hub
 - collection_type: open
   name: Apigee API Management
   slug: open-apigee-api-management
 - collection_type: open
+  name: Apigee API Hub Analytics API Observations API
+  slug: open-apigee-api-observations-api
+- collection_type: open
+  name: Apigee API Hub Analytics API Operations API
+  slug: open-apigee-api-operations-api
+- collection_type: open
+  name: Apigee API Hub Analytics API Products API
+  slug: open-apigee-api-products-api
+- collection_type: open
+  name: Apigee API Hub Analytics API Proxies API
+  slug: open-apigee-api-proxies-api
+- collection_type: open
+  name: Apigee API Hub Analytics API Proxy Revisions API
+  slug: open-apigee-api-proxy-revisions-api
+- collection_type: open
+  name: Apigee API Hub Analytics API Specs API
+  slug: open-apigee-api-specs-api
+- collection_type: open
+  name: Apigee API Hub Analytics API Versions API
+  slug: open-apigee-api-versions-api
+- collection_type: open
   name: Apigee API Management API
   slug: open-apigee-apim
+- collection_type: open
+  name: Apigee API Hub Analytics App Groups API
+  slug: open-apigee-app-groups-api
+- collection_type: open
+  name: Apigee API Hub Analytics Artifacts API
+  slug: open-apigee-artifacts-api
+- collection_type: open
+  name: Apigee API Hub Analytics Attributes API
+  slug: open-apigee-attributes-api
+- collection_type: open
+  name: Apigee API Hub Analytics Auth Configs API
+  slug: open-apigee-auth-configs-api
+- collection_type: open
+  name: Apigee API Hub Analytics Certificates API
+  slug: open-apigee-certificates-api
+- collection_type: open
+  name: Apigee API Hub Analytics Dependencies API
+  slug: open-apigee-dependencies-api
+- collection_type: open
+  name: Apigee API Hub Analytics Deployments API
+  slug: open-apigee-deployments-api
+- collection_type: open
+  name: Apigee API Hub Analytics Developer App Keys API
+  slug: open-apigee-developer-app-keys-api
+- collection_type: open
+  name: Apigee API Hub Analytics Developer Apps API
+  slug: open-apigee-developer-apps-api
+- collection_type: open
+  name: Apigee API Hub Analytics Developers API
+  slug: open-apigee-developers-api
+- collection_type: open
+  name: Apigee API Hub Analytics Environments API
+  slug: open-apigee-environments-api
+- collection_type: open
+  name: Apigee API Hub Analytics Executions API
+  slug: open-apigee-executions-api
+- collection_type: open
+  name: Apigee API Hub Analytics External APIs API
+  slug: open-apigee-external-apis-api
+- collection_type: open
+  name: Apigee API Hub Analytics Instances API
+  slug: open-apigee-instances-api
+- collection_type: open
+  name: Apigee API Hub Analytics Integration Versions API
+  slug: open-apigee-integration-versions-api
+- collection_type: open
+  name: Apigee API Hub Analytics Integrations API
+  slug: open-apigee-integrations-api
 - collection_type: open
   name: Apigee Integrations API
   slug: open-apigee-integrations
 - collection_type: open
+  name: Apigee API Hub Analytics Key Value Maps API
+  slug: open-apigee-key-value-maps-api
+- collection_type: open
+  name: Apigee API Hub Analytics Locations API
+  slug: open-apigee-locations-api
+- collection_type: open
+  name: Apigee API Hub Analytics Observation Jobs API
+  slug: open-apigee-observation-jobs-api
+- collection_type: open
+  name: Apigee API Hub Analytics Observation Sources API
+  slug: open-apigee-observation-sources-api
+- collection_type: open
+  name: Apigee API Hub Analytics Operations API
+  slug: open-apigee-operations-api
+- collection_type: open
+  name: Apigee API Hub Analytics Organizations API
+  slug: open-apigee-organizations-api
+- collection_type: open
+  name: Apigee API Hub Analytics Projects API
+  slug: open-apigee-projects-api
+- collection_type: open
   name: Apigee Registry API
   slug: open-apigee-registry
+- collection_type: open
+  name: Apigee API Hub Analytics Runtime Project Attachments API
+  slug: open-apigee-runtime-project-attachments-api
+- collection_type: open
+  name: Apigee API Hub Analytics SFDC Channels API
+  slug: open-apigee-sfdc-channels-api
+- collection_type: open
+  name: Apigee API Hub Analytics SFDC Instances API
+  slug: open-apigee-sfdc-instances-api
+- collection_type: open
+  name: Apigee API Hub Analytics Shared Flows API
+  slug: open-apigee-shared-flows-api
+- collection_type: open
+  name: Apigee API Hub Analytics Specs API
+  slug: open-apigee-specs-api
+- collection_type: open
+  name: Apigee API Hub Analytics Suspensions API
+  slug: open-apigee-suspensions-api
+- collection_type: open
+  name: Apigee API Hub Analytics Target Servers API
+  slug: open-apigee-target-servers-api
+- collection_type: open
+  name: Apigee API Hub Analytics Versions API
+  slug: open-apigee-versions-api
 common:
 - group: operate
   title: ''
@@ -992,7 +1115,7 @@ plans:
 - name: Apigee Plans Pricing
   plan_count: 5
   slug: apigee-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 16
   name: Apigee Rate Limits
@@ -1039,7 +1162,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/screenshots/apigee-2026-06-20T172238.png
 security:

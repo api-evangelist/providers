@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: The original CB Insights REST API — 11 documented GET operations over organizations, deals (fundings, investments, portfolio exits), people, business relationships, expert collections and the credit l
@@ -61,7 +61,44 @@ apis:
 - description: The StrategyMap API from CB Insights — 1 operation(s) for strategymap.
   name: CB Insights Strategy Map API
   slug: cb-insights-strategymap-api
-artifact_total: 19
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CB Insights Authorization API
+  slug: open-cb-insights-authorization-api
+- collection_type: open
+  name: CB Insights Business Relationships API
+  slug: open-cb-insights-businessrelationships-api
+- collection_type: open
+  name: CB Insights Chat CBI API
+  slug: open-cb-insights-chatcbi-api
+- collection_type: open
+  name: CB Insights Financial Transactions API
+  slug: open-cb-insights-financialtransactions-api
+- collection_type: open
+  name: CB Insights Firmographics API
+  slug: open-cb-insights-firmographics-api
+- collection_type: open
+  name: CB Insights Management And Board API
+  slug: open-cb-insights-managementandboard-api
+- collection_type: open
+  name: CB Insights Organizations API
+  slug: open-cb-insights-organizations-api
+- collection_type: open
+  name: CB Insights Outlook API
+  slug: open-cb-insights-outlook-api
+- collection_type: open
+  name: CB Insights Revenue API
+  slug: open-cb-insights-revenue-api
+- collection_type: open
+  name: CB Insights Scouting Reports API
+  slug: open-cb-insights-scoutingreports-api
+- collection_type: open
+  name: CB Insights Strategy Map API
+  slug: open-cb-insights-strategymap-api
 common:
 - group: operate
   title: ''
@@ -207,6 +244,14 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cb-insights-plans-pricing.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/cb-insights-scopes.yml
 created: '2026-08-09'
 description: 'CB Insights (CB Information Services, Inc.) is a New York-based private-market intelligence platform covering 12M+ private and public company profiles, funding deals, cap tables, M&A and IPO exits, business relationships, management and board data, and proprietary predictive scores (Mosaic, Commercial Maturity, Exit Probability, Competitor Score). The company exposes that data programmatically through the CB Insights API v2 — a token-authenticated REST API at api.cbinsights.com documented with a published Swagger 2.0 contract of 28 operations across Firmographics, Financial Transactions, Business Relationships, Management & Board, Outlook, Revenue, Strategy Map, Scouting Reports and the ChatCBI research LLM — plus a maintenance-mode v1 REST API, a hosted OAuth-protected MCP server at mcp.cbinsights.com listed in Claude, ChatGPT, Perplexity and Microsoft Copilot connector directories, a Snowflake Marketplace data share with Semantic Views and a Cortex Knowledge Extension, and
   Salesforce and Microsoft 365 Copilot connectors. Access is credit-metered and credential-gated: clientId/clientSecret are issued by CB Insights, exchanged for a 24-hour bearer token, and every data call debits an account credit ledger.'
@@ -219,19 +264,28 @@ mcp_servers:
 - description: ''
   name: mcp.cbinsights.com
   slug: mcpcbinsightscom
-modified: '2026-08-09'
+modified: '2026-08-14'
 name: CB Insights
 nav: Providers
 network: true
 overview: 'CB Insights publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Business Relationships API, Chat CBI API, and 8 more. Tagged areas include Company, market-intelligence, private-company-data, venture-capital, and funding-data.
 
 
-  CB Insights'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 35
+  CB Insights'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Cb Insights Plans Pricing
+  plan_count: 0
+  slug: cb-insights-plans-pricing
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Cb Insights Rate Limits
   slug: cb-insights-rate-limits
+scopes:
+- name: Cb Insights Scopes
+  scope_count: 3
+  slug: cb-insights-scopes
+  summary_line: 3 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
   composite: 55.3
@@ -254,7 +308,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

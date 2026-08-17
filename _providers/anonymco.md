@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -125,7 +125,7 @@ plans:
 - name: Anonymco Plans Pricing
   plan_count: 0
   slug: anonymco-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 0
   name: Anonymco Rate Limits
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.5
-  delta: 5.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -141,10 +141,10 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 10.5
-  previous_composite: 12.3
+  previous_composite: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/screenshots/anonymco-2026-07-25T200307.png
 security:
 - kind: domain-security

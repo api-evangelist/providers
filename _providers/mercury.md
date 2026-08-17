@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -87,12 +87,39 @@ apis:
 - description: The Webhooks API from Mercury — 2 operation(s) for webhooks.
   name: Mercury Webhooks API
   slug: mercury-webhooks-api
-artifact_total: 26
+artifact_total: 35
 asyncapis:
 - description: AsyncAPI description of Mercury Banking's outbound webhook surface. Mercury delivers event notifications by issuing HTTP POST requests with a JSON body to a subscriber HTTPS endpoint that is registere
   name: Mercury Webhooks
   slug: mercury-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mercury Accounts API
+  slug: open-mercury-accounts-api
+- collection_type: open
+  name: Mercury Accounts Cards API
+  slug: open-mercury-cards-api
+- collection_type: open
+  name: Mercury Accounts Payments API
+  slug: open-mercury-payments-api
+- collection_type: open
+  name: Mercury Accounts Recipients API
+  slug: open-mercury-recipients-api
+- collection_type: open
+  name: Mercury Accounts Statements API
+  slug: open-mercury-statements-api
+- collection_type: open
+  name: Mercury Accounts Transactions API
+  slug: open-mercury-transactions-api
+- collection_type: open
+  name: Mercury Accounts Treasury API
+  slug: open-mercury-treasury-api
+- collection_type: open
+  name: Mercury Accounts Webhooks API
+  slug: open-mercury-webhooks-api
 - collection_type: open
   name: Mercury API
   slug: open-mercury
@@ -180,7 +207,7 @@ plans:
 - name: Mercury Plans Pricing
   plan_count: 3
   slug: mercury-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 4
   name: Mercury Rate Limits
@@ -220,7 +247,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/screenshots/mercury-2026-06-20T185218.png
 security:

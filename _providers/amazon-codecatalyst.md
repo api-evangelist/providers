@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -50,7 +50,7 @@ apis:
 - description: The UserDetails API from Amazon CodeCatalyst — 1 operation(s) for userdetails.
   name: Amazon CodeCatalyst UserDetails API
   slug: amazon-codecatalyst-userdetails-api
-artifact_total: 461
+artifact_total: 466
 collections:
 - collection_type: postman
   name: Amazon CodeCatalyst AccessTokens API
@@ -64,6 +64,21 @@ collections:
 - collection_type: postman
   name: Amazon CodeCatalyst AccessTokens UserDetails API
   slug: postman-amazon-codecatalyst-userdetails-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CodeCatalyst AccessTokens API
+  slug: open-amazon-codecatalyst-accesstokens-api
+- collection_type: open
+  name: Amazon CodeCatalyst AccessTokens Session API
+  slug: open-amazon-codecatalyst-session-api
+- collection_type: open
+  name: Amazon CodeCatalyst AccessTokens Spaces API
+  slug: open-amazon-codecatalyst-spaces-api
+- collection_type: open
+  name: Amazon CodeCatalyst AccessTokens UserDetails API
+  slug: open-amazon-codecatalyst-userdetails-api
 common:
 - group: agent
   title: ''
@@ -1520,7 +1535,7 @@ overview: 'Amazon CodeCatalyst publishes 4 APIs on the [APIs.io](https://apis.io
 
 
   Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 22 more developer resources.'
-random_paper: 51
+random_paper: 34
 rules:
 - name: Amazon CodeCatalyst API Rules
   rule_count: 5
@@ -1560,7 +1575,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/screenshots/amazon-codecatalyst-2026-07-25T195952.png
 security:

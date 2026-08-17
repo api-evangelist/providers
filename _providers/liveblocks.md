@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -75,12 +75,42 @@ apis:
 - description: The Yjs API from Liveblocks — 2 operation(s) for yjs.
   name: Liveblocks Yjs API
   slug: liveblocks-yjs-api
-artifact_total: 23
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Review
   slug: review
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Liveblocks REST Active Users API
+  slug: open-liveblocks-active-users-api
+- collection_type: open
+  name: Liveblocks REST Active Users Comments API
+  slug: open-liveblocks-comments-api
+- collection_type: open
+  name: Liveblocks REST Active Users Events API
+  slug: open-liveblocks-events-api
+- collection_type: open
+  name: Liveblocks REST Active Users Reactions API
+  slug: open-liveblocks-reactions-api
+- collection_type: open
+  name: Liveblocks REST Active Users Rooms API
+  slug: open-liveblocks-rooms-api
+- collection_type: open
+  name: Liveblocks REST Active Users Storage API
+  slug: open-liveblocks-storage-api
+- collection_type: open
+  name: Liveblocks REST Active Users Threads API
+  slug: open-liveblocks-threads-api
+- collection_type: open
+  name: Liveblocks REST Active Users Versions API
+  slug: open-liveblocks-versions-api
+- collection_type: open
+  name: Liveblocks REST Active Users Yjs API
+  slug: open-liveblocks-yjs-api
 - collection_type: open
   name: Liveblocks REST API
   slug: open-liveblocks
@@ -196,7 +226,7 @@ plans:
 - name: Liveblocks Plans Pricing
   plan_count: 1
   slug: liveblocks-plans-pricing
-random_paper: 110
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Liveblocks Rate Limits
@@ -221,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/screenshots/liveblocks-2026-06-20T184615.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +43,20 @@ apis:
 - description: The Query API from Antimetal — 1 operation(s) for query.
   name: Antimetal Query API
   slug: antimetal-query-api
-artifact_total: 12
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Antimetal External Artifacts API
+  slug: open-antimetal-artifacts-api
+- collection_type: open
+  name: Antimetal External Issues API
+  slug: open-antimetal-issues-api
+- collection_type: open
+  name: Antimetal External Query API
+  slug: open-antimetal-query-api
 common:
 - group: other
   title: ''
@@ -206,7 +219,7 @@ overview: 'Antimetal publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Antimetal''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 29 more developer resources.'
-random_paper: 119
+random_paper: 65
 scopes:
 - name: Antimetal Scopes
   scope_count: 4
@@ -235,7 +248,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/screenshots/antimetal-2026-08-07T161424.png
 security:

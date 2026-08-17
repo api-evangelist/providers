@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +60,26 @@ apis:
 - description: Maintenance work orders and job management
   name: IFS Work Orders API
   slug: ifs-work-orders-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: IFS Cloud ERP API
   slug: open-ifs-cloud-erp
+- collection_type: open
+  name: IFS Cloud ERP Finance API
+  slug: open-ifs-finance-api
+- collection_type: open
+  name: IFS Cloud ERP Finance Inventory API
+  slug: open-ifs-inventory-api
+- collection_type: open
+  name: IFS Cloud ERP Finance Procurement API
+  slug: open-ifs-procurement-api
+- collection_type: open
+  name: IFS Cloud ERP Finance Work Orders API
+  slug: open-ifs-work-orders-api
 common:
 - group: agent
   title: ''
@@ -121,7 +136,7 @@ plans:
 - name: Ifs Plans Pricing
   plan_count: 1
   slug: ifs-plans-pricing
-random_paper: 82
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Ifs Rate Limits
@@ -166,7 +181,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/screenshots/ifs-2026-06-20T183215.png
 security:

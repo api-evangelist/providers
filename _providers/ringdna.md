@@ -10,31 +10,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
-- description: REST API endpoints for managing Guided Selling participant actions within Revenue.io sales engagement workflows, including completing and skipping participant steps in sales cadences.
+- description: Programmatic entry points into the Guided Selling managed package for completing participant actions, skipping (deferring) participant actions, and creating sequence-independent quick actions. These a
   name: RingDNA Guided Selling API
   slug: guided-selling-api
-artifact_total: 6
+- description: A live, remotely hosted Model Context Protocol server operated by Revenue.io at https://app.ringdna.com/mcp. An MCP client can POST to it today with no local install. It is protected by OAuth 2.1 with
+  name: RingDNA MCP Server
+  slug: mcp-server
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -51,7 +54,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://support.revenue.io/s/topic/0TO60000000TtSEGA0/ringdna
+  url: https://support.revenue.io/
 - group: build
   title: ''
   type: GitHubOrg
@@ -88,6 +91,86 @@ common:
   title: ''
   type: FinOps
   url: finops/ringdna-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ringdna-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ringdna-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ringdna-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ringdna-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/ringdna-scopes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ringdna-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ringdna-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.revenue.io/security
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ringdna-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ringdna-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ringdna-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ringdna-data-model.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ringdna-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ringdna-sandbox.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://support.revenue.io/guided-selling/salesforce-administration/api-endpoints/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.revenue.io/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.revenue.io
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.revenue.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.revenue.io/msa
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.revenue.io/privacy-policy
 created: '2026-06-13'
 description: RingDNA (now Revenue.io) is an intelligent revenue platform providing REST APIs for sales dialing, call recording, conversation analytics, real-time coaching, and CRM integration. The platform is 100% Salesforce-native and serves revenue teams with AI-driven sales engagement, guided selling cadences, conversation intelligence, and revenue orchestration capabilities including the RingDNA Dialer, Moments real-time guidance, and Guided Selling API endpoints.
 finops:
@@ -96,40 +179,53 @@ finops:
   slug: ringdna-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ringdna.png
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: ringdna-mcp.yml
+  slug: ringdna-mcpyml
+modified: '2026-08-14'
 name: RingDNA
 nav: Providers
 network: true
-overview: 'RingDNA publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Engagement, Conversation Intelligence, Sales Dialing, Call Recording, and Revenue Orchestration.
+overview: 'RingDNA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Engagement, Conversation Intelligence, Sales Dialing, Call Recording, and Revenue Orchestration.
 
 
-  RingDNA''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  RingDNA''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, sandbox, API reference, and 26 more developer resources.'
 plans:
 - name: Ringdna Plans Pricing
   plan_count: 3
   slug: ringdna-plans-pricing
-random_paper: 19
+random_paper: 143
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Ringdna Rate Limits
   slug: ringdna-rate-limits
+scopes:
+- name: Ringdna Scopes
+  scope_count: 4
+  slug: ringdna-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 23.4
-  delta: 0.0
+  band: developing
+  composite: 49.5
+  delta: 26.1
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 100.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    developer_ergonomics: 58.7
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 57.9
   previous_composite: 23.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/screenshots/ringdna-2026-06-20T193122.png
 security:
+- kind: authentication
+  name: Ringdna Authentication
+  slug: ringdna-authentication
+  summary_line: oauth2/apiKey · 3 schemes
 - kind: domain-security
   name: Ringdna Domain Security
   slug: ringdna-domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 15
@@ -213,11 +213,188 @@ apis:
 - description: Use this REST API to retrieve vulnerability details.
   name: Sonatype Vulnerability Details API
   slug: sonatype-vulnerability-details-api
-artifact_total: 73
+artifact_total: 132
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search API
+  slug: open-sonatype-advanced-search-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Application Categories API
+  slug: open-sonatype-application-categories-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Application Report Data API
+  slug: open-sonatype-application-report-data-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Applications API
+  slug: open-sonatype-applications-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Audit Logs API
+  slug: open-sonatype-audit-logs-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Auto Policy Waiver Exclusions API
+  slug: open-sonatype-auto-policy-waiver-exclusions-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Auto Policy Waivers API
+  slug: open-sonatype-auto-policy-waivers-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search CI Configuration API
+  slug: open-sonatype-ci-configuration-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Claim Components API
+  slug: open-sonatype-claim-components-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Component Labels API
+  slug: open-sonatype-component-labels-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Component Search API
+  slug: open-sonatype-component-search-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Components API
+  slug: open-sonatype-components-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Composite Source Control API
+  slug: open-sonatype-composite-source-control-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Composite Source Control Validator API
+  slug: open-sonatype-composite-source-control-validator-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Config Crowd API
+  slug: open-sonatype-config-crowd-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Config Jira API
+  slug: open-sonatype-config-jira-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Config Mail API
+  slug: open-sonatype-config-mail-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Config OIDC API
+  slug: open-sonatype-config-oidc-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Config Proxy Server API
+  slug: open-sonatype-config-proxy-server-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Config Reverse Proxy Authentication API
+  slug: open-sonatype-config-reverse-proxy-authentication-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Config SAML API
+  slug: open-sonatype-config-saml-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Config Source Control API
+  slug: open-sonatype-config-source-control-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Config Zscaler API
+  slug: open-sonatype-config-zscaler-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Configuration API
+  slug: open-sonatype-configuration-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Configure Artifactory Connection API
+  slug: open-sonatype-configure-artifactory-connection-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search CPE Matching Configuration API
+  slug: open-sonatype-cpe-matching-configuration-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search CycloneDX API
+  slug: open-sonatype-cyclonedx-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Data Retention Policies API
+  slug: open-sonatype-data-retention-policies-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Developer Priorities API
+  slug: open-sonatype-developer-priorities-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Endpoints API
+  slug: open-sonatype-endpoints-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Feature Configuration API
+  slug: open-sonatype-feature-configuration-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Firewall API
+  slug: open-sonatype-firewall-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search GitHub App Configuration API
+  slug: open-sonatype-github-app-configuration-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search License Legal Metadata Report API
+  slug: open-sonatype-license-legal-metadata-report-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search License Legal Metadata Template API
+  slug: open-sonatype-license-legal-metadata-template-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search License Overrides API
+  slug: open-sonatype-license-overrides-api
 - collection_type: open
   name: Sonatype Lifecycle Public REST API
   slug: open-sonatype-lifecycle
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Organizations API
+  slug: open-sonatype-organizations-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Policies API
+  slug: open-sonatype-policies-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Policy Evaluation API
+  slug: open-sonatype-policy-evaluation-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Policy Violation Details API
+  slug: open-sonatype-policy-violation-details-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Policy Waiver Reasons API
+  slug: open-sonatype-policy-waiver-reasons-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Policy Waiver Requests API
+  slug: open-sonatype-policy-waiver-requests-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Policy Waivers API
+  slug: open-sonatype-policy-waivers-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Product License API
+  slug: open-sonatype-product-license-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Reports API
+  slug: open-sonatype-reports-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Repositories API
+  slug: open-sonatype-repositories-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Role Memberships API
+  slug: open-sonatype-role-memberships-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Roles API
+  slug: open-sonatype-roles-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Security Vulnerability Overrides API
+  slug: open-sonatype-security-vulnerability-overrides-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Solutions API
+  slug: open-sonatype-solutions-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Source Control API
+  slug: open-sonatype-source-control-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Source Control Metrics API
+  slug: open-sonatype-source-control-metrics-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search SPDX API
+  slug: open-sonatype-spdx-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Third-Party Analysis API
+  slug: open-sonatype-third-party-analysis-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search User Token Configuration API
+  slug: open-sonatype-user-token-configuration-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search User Tokens API
+  slug: open-sonatype-user-tokens-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Users API
+  slug: open-sonatype-users-api
+- collection_type: open
+  name: Sonatype Lifecycle Public REST Advanced Search Vulnerability Details API
+  slug: open-sonatype-vulnerability-details-api
 common:
 - group: agent
   title: ''
@@ -313,7 +490,7 @@ plans:
 - name: Sonatype Plans Pricing
   plan_count: 3
   slug: sonatype-plans-pricing
-random_paper: 43
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Sonatype Rate Limits
@@ -355,7 +532,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/screenshots/sonatype-2026-06-20T194159.png
 security:

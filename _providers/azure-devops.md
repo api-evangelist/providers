@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: Work item CRUD and management
   name: Azure DevOps WorkItems API
   slug: azure-devops-workitems-api
-artifact_total: 78
+artifact_total: 84
 asyncapis:
 - description: Azure DevOps Service Hooks deliver event notifications for work item changes, build completions, pull request events, code pushes, and release deployments. Service hooks are configured in Azure DevOps
   name: Azure DevOps Service Hooks (Webhooks)
@@ -89,11 +89,29 @@ collections:
   name: Azure DevOps Pipelines Fields WorkItems API
   slug: postman-azure-devops-workitems-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure DevOps Pipelines Fields API
+  slug: open-azure-devops-fields-api
+- collection_type: open
+  name: Azure DevOps Fields Pipelines API
+  slug: open-azure-devops-pipelines-api
+- collection_type: open
   name: Azure DevOps Pipelines API
   slug: open-azure-devops-pipelines
 - collection_type: open
+  name: Azure DevOps Pipelines Fields Queries API
+  slug: open-azure-devops-queries-api
+- collection_type: open
+  name: Azure DevOps Pipelines Fields Runs API
+  slug: open-azure-devops-runs-api
+- collection_type: open
   name: Azure DevOps Work Item Tracking API
   slug: open-azure-devops-work-items
+- collection_type: open
+  name: Azure DevOps Pipelines Fields WorkItems API
+  slug: open-azure-devops-workitems-api
 common:
 - group: build
   title: ''
@@ -428,7 +446,7 @@ plans:
 - name: Azure Devops Plans Pricing
   plan_count: 6
   slug: azure-devops-plans-pricing
-random_paper: 53
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Azure Devops Rate Limits
@@ -483,7 +501,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/screenshots/azure-devops-2026-06-20T172853.png
 security:

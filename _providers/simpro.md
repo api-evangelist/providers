@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Webhook subscriptions for build event notifications.
   name: Simpro Webhooks API
   slug: simpro-webhooks-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Simpro REST Companies API
+  slug: open-simpro-companies-api
+- collection_type: open
+  name: Simpro REST Companies Cost Centers API
+  slug: open-simpro-cost-centers-api
+- collection_type: open
+  name: Simpro REST Companies Customers API
+  slug: open-simpro-customers-api
+- collection_type: open
+  name: Simpro REST Companies Invoices API
+  slug: open-simpro-invoices-api
+- collection_type: open
+  name: Simpro REST Companies Jobs API
+  slug: open-simpro-jobs-api
+- collection_type: open
+  name: Simpro REST Companies Quotes API
+  slug: open-simpro-quotes-api
+- collection_type: open
+  name: Simpro REST Companies Schedules API
+  slug: open-simpro-schedules-api
+- collection_type: open
+  name: Simpro REST Companies Sites API
+  slug: open-simpro-sites-api
+- collection_type: open
+  name: Simpro REST Companies Stock API
+  slug: open-simpro-stock-api
+- collection_type: open
+  name: Simpro REST Companies Vendor Orders API
+  slug: open-simpro-vendor-orders-api
+- collection_type: open
+  name: Simpro REST Companies Webhooks API
+  slug: open-simpro-webhooks-api
 - collection_type: open
   name: Simpro REST API
   slug: open-simpro
@@ -134,7 +170,7 @@ plans:
 - name: Simpro Plans Pricing
   plan_count: 3
   slug: simpro-plans-pricing
-random_paper: 66
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Simpro Rate Limits
@@ -159,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

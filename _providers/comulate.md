@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -87,19 +87,47 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/comulate-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/comulate-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/comulate-packages.yml
+coverage:
+  checked: '2026-08-14'
+  detail: api.comulate.com is a live first-party Comulate API host whose root health check returns 200 but which answers HTTP 401 "Unauthorized" on every other path including /openapi.json, and Comulate publishes no developer portal at all (comulate.com/developers returns 404 and docs.comulate.com does not resolve), so the contract is reachable only by contracted broker customers.
+  evidence:
+  - status: 200
+    url: https://api.comulate.com/
+  - status: 401
+    url: https://api.comulate.com/openapi.json
+  - status: 404
+    url: https://www.comulate.com/developers
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
 description: Comulate is an accounting automation and revenue intelligence platform built for large insurance brokers. It captures carrier statement data across spreadsheets, PDFs, and email, then automatically reconciles direct-bill and carrier-payables transactions against policies to eliminate manual back-office accounting work. Its Revenue Intelligence layer adds commission forecasting, variance tracking, and missing-commission detection. Comulate is delivered as a hosted application at app.comulate.com with native connectors to broker management systems including Epic, BenefitPoint, AMS360, Microsoft Dynamics, and Salesforce. The company was surfaced as a Bond Capital portfolio company and enriched in the API Evangelist network; it publishes no public developer API or documentation as of this profile.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/comulate.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Comulate
 nav: Providers
 network: true
 overview: 'Comulate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Accounting, and Reconciliation.
 
 
-  Comulate''s developer surface includes support and 13 more developer resources.'
-random_paper: 18
+  Comulate''s developer surface includes support and 15 more developer resources.'
+plans:
+- name: Comulate Plans Pricing
+  plan_count: 0
+  slug: comulate-plans-pricing
+random_paper: 113
+rate_limits:
+- limit_count: 0
+  name: Comulate Rate Limits
+  slug: comulate-rate-limits
 score:
   band: emerging
   composite: 25.1
@@ -121,7 +149,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/screenshots/comulate-2026-07-25T210210.png
 security:
@@ -132,7 +160,7 @@ security:
 - kind: vulnerability-disclosure
   name: Comulate Vulnerability Disclosure
   slug: comulate-vulnerability-disclosure
-  summary_line: contact published
+  summary_line: Hackerone · security.txt · contact published
 - kind: trust-center
   name: Comulate Trust Center
   slug: comulate-trust-center

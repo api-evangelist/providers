@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The SMS API from microsoft-azure-communication-services — 1 operation(s) for sms.
   name: microsoft-azure-communication-services SMS API
   slug: microsoft-azure-communication-services-sms-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Communication Services REST Email API
+  slug: open-microsoft-azure-communication-services-email-api
+- collection_type: open
+  name: Azure Communication Services REST Email Identity API
+  slug: open-microsoft-azure-communication-services-identity-api
+- collection_type: open
+  name: Azure Communication Services REST Email SMS API
+  slug: open-microsoft-azure-communication-services-sms-api
 - collection_type: open
   name: Azure Communication Services REST API
   slug: open-microsoft-azure-communication-services
@@ -118,7 +130,7 @@ plans:
 - name: Microsoft Azure Communication Services Plans Pricing
   plan_count: 3
   slug: microsoft-azure-communication-services-plans-pricing
-random_paper: 94
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Communication Services Rate Limits
@@ -143,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/screenshots/microsoft-azure-communication-services-2026-06-20T185404.png
 security:

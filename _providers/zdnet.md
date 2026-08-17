@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,11 +50,26 @@ apis:
 - description: Security feeds
   name: ZDNet Security API
   slug: zdnet-security-api
-artifact_total: 24
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZDNet RSS Feed AI API
+  slug: open-zdnet-ai-api
+- collection_type: open
+  name: ZDNet RSS Feed AI Cloud API
+  slug: open-zdnet-cloud-api
+- collection_type: open
+  name: ZDNet RSS Feed AI News API
+  slug: open-zdnet-news-api
 - collection_type: open
   name: ZDNet RSS Feed API
   slug: open-zdnet-rss
+- collection_type: open
+  name: ZDNet RSS Feed AI Security API
+  slug: open-zdnet-security-api
 common:
 - group: agent
   title: ''
@@ -193,7 +208,7 @@ plans:
 - name: Zdnet Plans Pricing
   plan_count: 3
   slug: zdnet-plans-pricing
-random_paper: 69
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Zdnet Rate Limits
@@ -235,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/screenshots/zdnet-2026-06-20T201804.png
 security:

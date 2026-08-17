@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 59.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -82,8 +82,45 @@ arazzos:
 - description: Locate a patient, then pull their US Core laboratory DiagnosticReports, read one report, and retrieve the discrete result Observations.
   name: Health Gorilla Lab Results Retrieval
   slug: health-gorilla-results-retrieval-workflow
-artifact_total: 21
+artifact_total: 37
+asyncapis:
+- description: ''
+  name: Health Gorilla Webhooks
+  slug: health-gorilla-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary API
+  slug: open-health-gorilla-binary-api
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary CapabilityStatement API
+  slug: open-health-gorilla-capabilitystatement-api
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary Coverage API
+  slug: open-health-gorilla-coverage-api
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary DiagnosticReport API
+  slug: open-health-gorilla-diagnosticreport-api
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary DocumentReference API
+  slug: open-health-gorilla-documentreference-api
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary Observation API
+  slug: open-health-gorilla-observation-api
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary Patient API
+  slug: open-health-gorilla-patient-api
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary Practitioner API
+  slug: open-health-gorilla-practitioner-api
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary RequestGroup API
+  slug: open-health-gorilla-requestgroup-api
+- collection_type: open
+  name: Health Gorilla FHIR R4 Binary ServiceRequest API
+  slug: open-health-gorilla-servicerequest-api
 - collection_type: open
   name: Health Gorilla FHIR R4 API
   slug: open-health-gorilla
@@ -132,6 +169,138 @@ common:
   title: ''
   type: ArazzoWorkflows
   url: ''
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/health-gorilla-well-known.yml
+- group: other
+  title: ''
+  type: CapabilityStatement
+  url: fhir/health-gorilla-fhir.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/health-gorilla-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/health-gorilla-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/health-gorilla-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/health-gorilla-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/health-gorilla-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.healthgorilla.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/health-gorilla-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.healthgorilla.com/changelog
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/health-gorilla-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/health-gorilla-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.healthgorilla.com/home/company/health-data-security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/health-gorilla-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/health-gorilla-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.healthgorilla.com/home/security-txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/health-gorilla-webhooks.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/health-gorilla-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/health-gorilla-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/health-gorilla-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/health-gorilla-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/health-gorilla-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/health-gorilla-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.healthgorilla.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.healthgorilla.com/reference/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.healthgorilla.com/docs/developer-quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.healthgorilla.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.healthgorilla.com/home/resources/blogs
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.healthgorilla.com/home/terms-of-use
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.healthgorilla.com/docs/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.healthgorilla.com/home/privacy-policy
+- group: start
+  title: ''
+  type: Login
+  url: https://www.healthgorilla.com/login
 created: '2026-06-21'
 description: Health Gorilla operates a national health-data interoperability network and a FHIR-first API suite for healthcare developers. Its HL7 FHIR R4 REST API provides access to patient records, person-authorized record retrieval across national exchange networks (QHIN / TEFCA), diagnostic (lab and radiology) ordering and results, clinical documents, and coverage/eligibility data under OAuth 2.0.
 finops:
@@ -140,34 +309,46 @@ finops:
   slug: health-gorilla-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/health-gorilla.png
 layout: provider
-modified: '2026-06-21'
+mcp_servers:
+- description: ''
+  name: health-gorilla-mcp.yml
+  slug: health-gorilla-mcpyml
+modified: '2026-08-14'
 name: Health Gorilla
 nav: Providers
 network: true
 overview: 'Health Gorilla publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Binary API, CapabilityStatement API, Coverage API, and 7 more. Tagged areas include Health, Interoperability, FHIR, Clinical Data, and Lab Ordering.
 
 
-  Health Gorilla''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  The Health Gorilla catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Health Gorilla''s developer surface includes authentication, documentation, changelog, sandbox, API reference, getting-started guide, support, and 36 more developer resources.'
 plans:
 - name: Health Gorilla Plans Pricing
   plan_count: 3
   slug: health-gorilla-plans-pricing
-random_paper: 101
+random_paper: 80
 rate_limits:
-- limit_count: 3
+- limit_count: 7
   name: Health Gorilla Rate Limits
   slug: health-gorilla-rate-limits
+scopes:
+- name: Health Gorilla Scopes
+  scope_count: 11
+  slug: health-gorilla-scopes
+  summary_line: 11 scopes · authorizationCode/implicit/clientCredentials/jwtBearer
 score:
-  band: thin
-  composite: 34.5
-  delta: 0.0
+  band: exemplar
+  composite: 71.9
+  delta: 37.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 55.7
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 89.5
+    contract_quality: 63.6
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 86.8
   previous_composite: 34.5
   provenance:
     agentic_access: derived
@@ -181,20 +362,28 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 15.0
+    score: 73.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/screenshots/health-gorilla-2026-07-25T220828.png
 security:
 - kind: authentication
   name: Health Gorilla Authentication
   slug: health-gorilla-authentication
-  summary_line: http · 1 scheme
+  summary_line: oauth2/openIdConnect/http · 3 schemes
 - kind: domain-security
   name: Health Gorilla Domain Security
   slug: health-gorilla-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Health Gorilla Vulnerability Disclosure
+  slug: health-gorilla-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Health Gorilla Trust Center
+  slug: health-gorilla-trust-center
+  summary_line: HITRUST r2, SOC 2 Type 2, HIPAA
 slug: health-gorilla
 tags:
 - Health
@@ -202,5 +391,13 @@ tags:
 - FHIR
 - Clinical Data
 - Lab Ordering
+- TEFCA
+- QHIN
+- Health Information Exchange
+- Lab Results
+- Clinical Documents
+- SMART on FHIR
+- Patient Records
+- HL7
 website: https://www.healthgorilla.com
 ---

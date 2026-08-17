@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ overview: 'ReelData AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   ReelData AI''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 1
+random_paper: 38
 score:
   band: emerging
   composite: 13.1
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

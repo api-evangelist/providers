@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -81,7 +81,7 @@ apis:
 - description: The Tags API from Amazon SimSpace Weaver — 2 operation(s) for tags.
   name: Amazon SimSpace Weaver Tags API
   slug: amazon-simspace-weaver-tags-api
-artifact_total: 198
+artifact_total: 213
 collections:
 - collection_type: postman
   name: AWS SimSpace Weaver Createsnapshot API
@@ -125,6 +125,51 @@ collections:
 - collection_type: postman
   name: AWS SimSpace Weaver Createsnapshot Tags API
   slug: postman-amazon-simspace-weaver-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot API
+  slug: open-amazon-simspace-weaver-createsnapshot-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Deleteapp#app&domain&simulation API
+  slug: open-amazon-simspace-weaver-deleteapp-app-domain-simulation-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Deletesimulation#simulation API
+  slug: open-amazon-simspace-weaver-deletesimulation-simulation-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Describeapp#app&domain&simulation API
+  slug: open-amazon-simspace-weaver-describeapp-app-domain-simulation-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Describesimulation#simulation API
+  slug: open-amazon-simspace-weaver-describesimulation-simulation-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Listapps#simulation API
+  slug: open-amazon-simspace-weaver-listapps-simulation-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Listsimulations API
+  slug: open-amazon-simspace-weaver-listsimulations-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Startapp API
+  slug: open-amazon-simspace-weaver-startapp-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Startclock API
+  slug: open-amazon-simspace-weaver-startclock-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Startsimulation API
+  slug: open-amazon-simspace-weaver-startsimulation-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Stopapp API
+  slug: open-amazon-simspace-weaver-stopapp-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Stopclock API
+  slug: open-amazon-simspace-weaver-stopclock-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Stopsimulation API
+  slug: open-amazon-simspace-weaver-stopsimulation-api
+- collection_type: open
+  name: AWS SimSpace Weaver Createsnapshot Tags API
+  slug: open-amazon-simspace-weaver-tags-api
 common:
 - group: build
   title: ''
@@ -702,7 +747,7 @@ plans:
 - name: Amazon Simspace Weaver Plans Pricing
   plan_count: 3
   slug: amazon-simspace-weaver-plans-pricing
-random_paper: 79
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Amazon Simspace Weaver Rate Limits
@@ -744,7 +789,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/screenshots/amazon-simspace-weaver-2026-06-20T171825.png
 security:

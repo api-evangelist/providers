@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1570
   human_in_the_loop: 37
@@ -146,8 +146,116 @@ apis:
 - description: The Workgroups API from Bitrix24 — 39 operation(s) for workgroups.
   name: Bitrix24 Workgroups API
   slug: bitrix24-workgroups-api
-artifact_total: 42
+artifact_total: 78
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bitrix24 REST BIconnector API
+  slug: open-bitrix24-biconnector-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Business Processes API
+  slug: open-bitrix24-business-processes-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Calendar API
+  slug: open-bitrix24-calendar-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Chatbots API
+  slug: open-bitrix24-chatbots-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Chats API
+  slug: open-bitrix24-chats-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Company Structure API
+  slug: open-bitrix24-company-structure-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector CoPilot / AI API
+  slug: open-bitrix24-copilot-ai-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector CRM API
+  slug: open-bitrix24-crm-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Data Storage API
+  slug: open-bitrix24-data-storage-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Deprecated Methods API
+  slug: open-bitrix24-deprecated-methods-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Document Generator API
+  slug: open-bitrix24-document-generator-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Drive API
+  slug: open-bitrix24-drive-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector E-Commerce API
+  slug: open-bitrix24-e-commerce-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Events API
+  slug: open-bitrix24-events-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector General Methods API
+  slug: open-bitrix24-general-methods-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Mail Services API
+  slug: open-bitrix24-mail-services-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Message Providers API
+  slug: open-bitrix24-message-providers-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector News Feed API
+  slug: open-bitrix24-news-feed-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Online Booking API
+  slug: open-bitrix24-online-booking-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Open Lines API
+  slug: open-bitrix24-open-lines-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Payment Systems API
+  slug: open-bitrix24-payment-systems-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Polls API
+  slug: open-bitrix24-polls-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector REST v3 API
+  slug: open-bitrix24-rest-v3-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Signature API
+  slug: open-bitrix24-signature-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Sites API
+  slug: open-bitrix24-sites-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Tasks API
+  slug: open-bitrix24-tasks-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Telephony API
+  slug: open-bitrix24-telephony-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Time Management API
+  slug: open-bitrix24-time-management-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Trade Catalog API
+  slug: open-bitrix24-trade-catalog-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Universal Lists API
+  slug: open-bitrix24-universal-lists-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector User Consent API
+  slug: open-bitrix24-user-consent-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Users API
+  slug: open-bitrix24-users-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Vibe API
+  slug: open-bitrix24-vibe-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Widgets API
+  slug: open-bitrix24-widgets-api
+- collection_type: open
+  name: Bitrix24 REST BIconnector Workgroups API
+  slug: open-bitrix24-workgroups-api
 - collection_type: open
   name: Bitrix24 REST API
   slug: open-bitrix24
@@ -224,7 +332,7 @@ overview: 'Bitrix24 publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bitrix24''s developer surface includes authentication, documentation, pricing, signup flow, training material, engineering blog, and 9 more developer resources.'
-random_paper: 40
+random_paper: 15
 scopes:
 - name: Bitrix24 Scopes
   scope_count: 51
@@ -250,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/screenshots/bitrix24-2026-06-20T173320.png
 security:

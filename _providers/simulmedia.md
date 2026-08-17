@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,18 +23,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 6.8
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: In-game rewarded-video ad API. A game server exchanges client credentials for a Bearer token, then requests ad opportunities for a player and reports the playback lifecycle (start, progress, complete,
   name: PlayerWON API
   slug: playerwon-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -51,7 +51,7 @@ common:
 - group: build
   title: ''
   type: GitHubOrganization
-  url: https://github.com/simulmedia
+  url: https://github.com/Simulmedia
 - group: company
   title: ''
   type: Blog
@@ -76,6 +76,18 @@ common:
   title: ''
   type: TermsOfService
   url: https://simulmedia.com/terms
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/simulmedia-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/simulmedia-plans-pricing.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.playerwon.com/developers
 created: '2026-07-17'
 description: Simulmedia is a technology-driven television advertising company that helps advertisers, agencies, and growth marketers plan, buy, and measure campaigns across linear TV, connected TV (CTV), and games. Its products include the Performance TV media-buying service, the AI-powered TV+ media-buying platform, and Simulmedia Self-Serve. Through PlayerWON, Simulmedia operates an in-game rewarded-video engagement and monetization platform for free-to-play console and PC games, exposed to game developers through the PlayerWON API and a first-party Unity/Unreal SDK. Simulmedia is a portfolio company of Union Square Ventures. This profile was enriched by the API Evangelist pipeline from the company's public developer surface and the open-source PlayerWON SDK.
 image: https://logo.clearbit.com/simulmedia.com
@@ -84,33 +96,41 @@ mcp_servers:
 - description: ''
   name: simulmedia-mcp.yml
   slug: simulmedia-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Simulmedia
 nav: Providers
 network: true
 overview: 'Simulmedia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Television, Connected TV, and Games.
 
 
-  Simulmedia''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 106
+  Simulmedia''s developer surface includes engineering blog, signup flow, support, changelog, and 9 more developer resources.'
+plans:
+- name: Simulmedia Plans Pricing
+  plan_count: 0
+  slug: simulmedia-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Simulmedia Rate Limits
+  slug: simulmedia-rate-limits
 score:
   band: emerging
-  composite: 16.8
-  delta: 0.0
+  composite: 21.7
+  delta: 4.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 75.9
+    developer_ergonomics: 15.2
+    discoverability: 87.0
     governance: 3.1
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 16.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

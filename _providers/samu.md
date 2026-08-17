@@ -1,35 +1,56 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid plans, API on Enterprise
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
+  source:
+  - plans
+  - authentication
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 52.3
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Samu Agentic Access
+  operation_count: 10
+  slug: samu-agentic-access
+  summary_line: 10 operations · 2 acting
+api_count: 2
+apis:
+- description: REST API for the Samu conversation-intelligence platform. Covers account users, meeting creation and update from externally recorded calls (audio/video URL plus optional transcription), meeting retrie
+  name: API Samu
+  slug: api-samu
+- description: Hosted, remote MCP server that connects Samu to Claude, ChatGPT and other AI agents, published as a Pro-plan feature. The endpoint answers MCP JSON-RPC over HTTP POST at https://api.samu.ai/mcp and is
+  name: Samu MCP Server
+  slug: samu-mcp-server
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Samu
+  slug: open-samu
 common:
 - group: company
   title: ''
@@ -38,7 +59,7 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://samu.ai/precio-samu-ai
+  url: https://samu.ai/precios
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -51,47 +72,160 @@ common:
   title: ''
   type: Login
   url: https://dashboard.samu.ai
+- group: start
+  title: ''
+  type: SignUp
+  url: https://samu.ai/solicitar-una-demo
 - group: company
   title: ''
   type: Blog
   url: https://primerareunion.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.samu.ai/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.samu.ai/docs
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.samu.ai/
+- group: auth
+  title: ''
+  type: Security
+  url: https://samu.ai/politica-de-seguridad-y-manejo-de-informacion
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://samu.ai/politica-de-seguridad-y-manejo-de-informacion
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/samu-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/samu-well-known.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/samu-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/samu-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/samu-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/samu-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/samu-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/samu-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/samu-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/samu-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/samu-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/samu-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/samu-agentic-access.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/samu-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/samu-domain-security.yml
 created: '2026-07-17'
-description: Samu (samu.ai) is an AI-powered conversation-intelligence and sales-analytics platform built for sales managers and revenue leaders across Latin America. It automatically records and transcribes customer interactions across WhatsApp, phone calls, video calls, Microsoft Teams, and Google Meet, then analyzes them to surface actionable coaching insights. Features include an AI "Samu Score" that evaluates call quality against customizable criteria, custom data extractors (e.g. competitor mentions or company size), analysis using SPICED, BANT, and SANDLER sales frameworks, and auto-generated CRM notes, tasks, and meeting summaries. Samu integrates bidirectionally with HubSpot, Pipedrive, Salesforce, and other CRMs, and emphasizes high-accuracy Spanish-language transcription. Programmatic inbound/outbound API access is available on the Enterprise plan, though no public developer documentation is published. Samu is backed by 500 Global.
+description: Samu (samu.ai) is an AI-powered conversation-intelligence and sales-analytics platform built for sales managers and revenue leaders across Latin America. It automatically records and transcribes customer interactions across WhatsApp, phone calls, video calls, Microsoft Teams, and Google Meet, then analyzes them to surface actionable coaching insights. Features include an AI "Samu Score" that evaluates call quality against customizable criteria, custom data extractors (e.g. competitor mentions or company size), analysis using SPICED, BANT, and SANDLER sales frameworks, and auto-generated CRM notes, tasks, and meeting summaries. Samu integrates bidirectionally with HubSpot, Pipedrive, Salesforce, and other CRMs, and emphasizes high-accuracy Spanish-language transcription. Samu publishes a REST API (OpenAPI 3.0.0, "API Samu") at api.samu.ai covering users, meetings, transcriptions and WhatsApp/chat threads, authenticated with an account apiKey header, plus an OAuth-protected hosted
+  MCP server at api.samu.ai/mcp that connects Samu to Claude, ChatGPT and other AI agents. API access is sold on the Enterprise plan and MCP on the Pro plan. Samu is backed by 500 Global.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/samu.png
 layout: provider
-modified: '2026-07-21'
+mcp_servers:
+- description: ''
+  name: samu-mcp.yml
+  slug: samu-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
+modified: '2026-08-13'
 name: Samu
 nav: Providers
 network: true
-overview: 'Samu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales, Sales Intelligence, and Conversation Intelligence.
+overview: 'Samu publishes 1 API on the [APIs.io](https://apis.io/) network: API Samu. Tagged areas include Company, Artificial Intelligence, Sales, Sales Intelligence, and Conversation Intelligence.
 
 
-  Samu''s developer surface includes pricing, engineering blog, and 5 more developer resources.'
-random_paper: 78
+  Samu''s developer surface includes pricing, signup flow, engineering blog, documentation, API reference, authentication, and 22 more developer resources.'
+plans:
+- name: Samu Plans Pricing
+  plan_count: 3
+  slug: samu-plans-pricing
+random_paper: 140
+rate_limits:
+- limit_count: 0
+  name: Samu Rate Limits
+  slug: samu-rate-limits
+scopes:
+- name: Samu Scopes
+  scope_count: 1
+  slug: samu-scopes
+  summary_line: 1 scope · authorizationCode/refreshToken
 score:
-  band: emerging
-  composite: 14.4
-  delta: 0.0
+  band: developing
+  composite: 50.2
+  delta: 35.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 84.2
+    contract_quality: 47.3
+    developer_ergonomics: 34.8
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 26.3
   previous_composite: 14.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Samu Authentication
+  slug: samu-authentication
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Samu Domain Security
   slug: samu-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Samu Vulnerability Disclosure
+  slug: samu-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: samu
 tags:
 - Company
@@ -103,5 +237,9 @@ tags:
 - Call Recording
 - Analytics
 - Latin America
+- Transcription
+- WhatsApp
+- MCP
+- Agent Native
 website: https://samu.ai
 ---

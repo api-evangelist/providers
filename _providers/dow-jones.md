@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -93,11 +93,63 @@ apis:
 - description: Retrieval endpoint for grounding generative-AI applications (RAG) in licensed Factiva content. No public OpenAPI is published; access requires a Factiva Retrieval agreement.
   name: Factiva Retrieval API
   slug: factiva-retrieval-api
-artifact_total: 24
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Dow Jones Riskcenter Third Party Webhooks
   slug: dow-jones-riskcenter-third-party-webhooks
+collections:
+- collection_type: open
+  name: Advanced Screening and Monitoring API
+  slug: open-dow-jones-advanced-screening-and-monitoring-api
+- collection_type: open
+  name: Calendar Live API
+  slug: open-dow-jones-calendar-live-api
+- collection_type: open
+  name: API for Search realtime Content resource
+  slug: open-dow-jones-company-news-radar-api
+- collection_type: open
+  name: Content API
+  slug: open-dow-jones-content-api-swagger
+- collection_type: open
+  name: Risk & Compliance Risk Reports
+  slug: open-dow-jones-due-diligence-reports-api
+- collection_type: open
+  name: DJ Factiva Newsletters API
+  slug: open-dow-jones-newsletters-api
+- collection_type: open
+  name: Content API Endpoint to Retrieve Article
+  slug: open-dow-jones-newswires-content-api
+- collection_type: open
+  name: Dow Jones Newswires Real-time API
+  slug: open-dow-jones-newswires-real-time-api
+- collection_type: open
+  name: Dow Jones Risk and Compliance Profile Version History API
+  slug: open-dow-jones-profile-version-history-api
+- collection_type: open
+  name: Dow Jones R&C Profile API
+  slug: open-dow-jones-risk-profiles-api
+- collection_type: open
+  name: Risk and Compliance APIs
+  slug: open-dow-jones-risk-search-api
+- collection_type: open
+  name: Risk and Compliance Taxonomy API
+  slug: open-dow-jones-risk-taxonomy-api
+- collection_type: open
+  name: RiskCenter Third Party Platform API 0.1
+  slug: open-dow-jones-riskcenter-third-party-api-0-1
+- collection_type: open
+  name: RiskCenter Third Party Platform API 0.2
+  slug: open-dow-jones-riskcenter-third-party-api-0-2
+- collection_type: open
+  name: Screening and Monitoring API
+  slug: open-dow-jones-screening-and-monitoring-api
+- collection_type: open
+  name: Screening and Monitoring Private Lists API
+  slug: open-dow-jones-screening-and-monitoring-private-lists-api
+- collection_type: open
+  name: Top Stories API
+  slug: open-dow-jones-top-stories-api
 common:
 - group: start
   title: ''
@@ -110,7 +162,7 @@ common:
 - group: docs
   title: ''
   type: APIReference
-  url: https://developer.dowjones.com/apis
+  url: https://developer.dowjones.com/documents/site-docs-getting_started-api_essentials
 - group: start
   title: ''
   type: GettingStarted
@@ -235,6 +287,30 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dow-jones-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dow-jones-plans-pricing.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/dow-jones-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/dow-jones-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/dow-jones-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/dow-jones-trust-center.yml
 created: '2026-05-05'
 description: Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dow-jones.png
@@ -243,7 +319,7 @@ mcp_servers:
 - description: ''
   name: dow-jones-mcp.yml
   slug: dow-jones-mcpyml
-modified: '2026-07-22'
+modified: '2026-08-13'
 name: Dow Jones
 nav: Providers
 network: true
@@ -253,24 +329,32 @@ overview: 'Dow Jones publishes 16 APIs on the [APIs.io](https://apis.io/) networ
   The Dow Jones catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dow Jones'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 27 more developer resources.'
-random_paper: 78
+  Dow Jones'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 33 more developer resources.'
+plans:
+- name: Dow Jones Plans Pricing
+  plan_count: 0
+  slug: dow-jones-plans-pricing
+random_paper: 24
+rate_limits:
+- limit_count: 3
+  name: Dow Jones Rate Limits
+  slug: dow-jones-rate-limits
 scopes:
 - name: Dow Jones Scopes
   scope_count: 7
   slug: dow-jones-scopes
   summary_line: 7 scopes · authorizationCode/implicit/password/jwt-bearer/refresh_token
 score:
-  band: developing
-  composite: 52.6
-  delta: 0.0
+  band: strong
+  composite: 64.2
+  delta: 11.6
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 50.0
     contract_quality: 63.8
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 36.8
+    operational_transparency: 78.9
   previous_composite: 52.6
   provenance:
     agentic_access: derived
@@ -287,10 +371,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 58.3
+    score: 86.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png
 security:
 - kind: authentication
@@ -301,6 +385,14 @@ security:
   name: Dow Jones Domain Security
   slug: dow-jones-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Dow Jones Vulnerability Disclosure
+  slug: dow-jones-vulnerability-disclosure
+  summary_line: Bugcrowd · contact published
+- kind: trust-center
+  name: Dow Jones Trust Center
+  slug: dow-jones-trust-center
+  summary_line: ISO/IEC 27001, ISAE 3000 (Revised) — Sanctions Assurance
 slug: dow-jones
 tags:
 - Financial

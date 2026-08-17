@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Outschool is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Outschool''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 32
+random_paper: 98
 score:
   band: emerging
   composite: 14.7
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outschool/refs/heads/main/screenshots/outschool-2026-08-07T191104.png
 security:

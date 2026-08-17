@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -228,7 +228,7 @@ apis:
 - description: 'The #X Amz Target=OvertureService.UpdateVirtualInterfaceAttributes API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updatevirtualinterfaceattributes.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.UpdateVirtualInterfaceAttributes API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-updatevirtualinterfaceattributes-api
-artifact_total: 207
+artifact_total: 271
 collections:
 - collection_type: postman
   name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal API'
@@ -419,6 +419,198 @@ collections:
 - collection_type: postman
   name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.UpdateVirtualInterfaceAttributes API'
   slug: postman-amazon-direct-connect-x-amz-target-overtureservice-updatevirtualinterfaceattributes-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-acceptdirectconnectgatewayassociationproposal-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AllocateConnectionOnInterconnect API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-allocateconnectiononinterconnect-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AllocateHostedConnection API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-allocatehostedconnection-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AllocatePrivateVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-allocateprivatevirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AllocatePublicVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-allocatepublicvirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AllocateTransitVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-allocatetransitvirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AssociateConnectionWithLag API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-associateconnectionwithlag-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AssociateHostedConnection API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-associatehostedconnection-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AssociateMacSecKey API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-associatemacseckey-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AssociateVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-associatevirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.ConfirmConnection API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-confirmconnection-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.ConfirmCustomerAgreement API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-confirmcustomeragreement-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.ConfirmPrivateVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-confirmprivatevirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.ConfirmPublicVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-confirmpublicvirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.ConfirmTransitVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-confirmtransitvirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreateBGPPeer API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createbgppeer-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreateConnection API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createconnection-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreateDirectConnectGateway API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createdirectconnectgateway-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreateDirectConnectGatewayAssociation API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createdirectconnectgatewayassociation-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreateDirectConnectGatewayAssociationProposal API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createdirectconnectgatewayassociationproposal-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreateInterconnect API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createinterconnect-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreateLag API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createlag-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreatePrivateVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createprivatevirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreatePublicVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createpublicvirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.CreateTransitVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-createtransitvirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DeleteBGPPeer API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-deletebgppeer-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DeleteConnection API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-deleteconnection-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DeleteDirectConnectGateway API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-deletedirectconnectgateway-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DeleteDirectConnectGatewayAssociation API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-deletedirectconnectgatewayassociation-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DeleteDirectConnectGatewayAssociationProposal API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-deletedirectconnectgatewayassociationproposal-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DeleteInterconnect API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-deleteinterconnect-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DeleteLag API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-deletelag-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DeleteVirtualInterface API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-deletevirtualinterface-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeConnectionLoa API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describeconnectionloa-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeConnections API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describeconnections-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeConnectionsOnInterconnect API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describeconnectionsoninterconnect-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeCustomerMetadata API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describecustomermetadata-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeDirectConnectGatewayAssociationProposals API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describedirectconnectgatewayassociationproposals-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeDirectConnectGatewayAssociations API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describedirectconnectgatewayassociations-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeDirectConnectGatewayAttachments API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describedirectconnectgatewayattachments-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeDirectConnectGateways API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describedirectconnectgateways-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeHostedConnections API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describehostedconnections-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeInterconnectLoa API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describeinterconnectloa-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeInterconnects API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describeinterconnects-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeLags API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describelags-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeLoa API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describeloa-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeLocations API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describelocations-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeRouterConfiguration API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describerouterconfiguration-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeTags API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describetags-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeVirtualGateways API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describevirtualgateways-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DescribeVirtualInterfaces API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-describevirtualinterfaces-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DisassociateConnectionFromLag API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-disassociateconnectionfromlag-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.DisassociateMacSecKey API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-disassociatemacseckey-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.ListVirtualInterfaceTestHistory API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-listvirtualinterfacetesthistory-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.StartBgpFailoverTest API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-startbgpfailovertest-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.StopBgpFailoverTest API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-stopbgpfailovertest-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.TagResource API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-tagresource-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.UntagResource API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-untagresource-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.UpdateConnection API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-updateconnection-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.UpdateDirectConnectGateway API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-updatedirectconnectgateway-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.UpdateDirectConnectGatewayAssociation API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-updatedirectconnectgatewayassociation-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.UpdateLag API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-updatelag-api
+- collection_type: open
+  name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.UpdateVirtualInterfaceAttributes API'
+  slug: open-amazon-direct-connect-x-amz-target-overtureservice-updatevirtualinterfaceattributes-api
 common:
 - group: build
   title: ''
@@ -727,7 +919,7 @@ plans:
 - name: Amazon Direct Connect Plans Pricing
   plan_count: 3
   slug: amazon-direct-connect-plans-pricing
-random_paper: 77
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Amazon Direct Connect Rate Limits
@@ -769,7 +961,7 @@ score:
       marker_coverage: 0.0
       total: 63
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/screenshots/amazon-direct-connect-2026-06-20T171629.png
 security:

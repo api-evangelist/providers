@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Manage user accounts and authentication for the RunSignup platform.
   name: RunSignup Users API
   slug: runsignup-users-api
-artifact_total: 24
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RunSignup Corrals API
+  slug: open-runsignup-corrals-api
+- collection_type: open
+  name: RunSignup Corrals Divisions API
+  slug: open-runsignup-divisions-api
+- collection_type: open
+  name: RunSignup Corrals Donations API
+  slug: open-runsignup-donations-api
+- collection_type: open
+  name: RunSignup Corrals Participants API
+  slug: open-runsignup-participants-api
+- collection_type: open
+  name: RunSignup Corrals Races API
+  slug: open-runsignup-races-api
+- collection_type: open
+  name: RunSignup Corrals Reference API
+  slug: open-runsignup-reference-api
+- collection_type: open
+  name: RunSignup Corrals Results API
+  slug: open-runsignup-results-api
+- collection_type: open
+  name: RunSignup Corrals Teams API
+  slug: open-runsignup-teams-api
+- collection_type: open
+  name: RunSignup Corrals Users API
+  slug: open-runsignup-users-api
 - collection_type: open
   name: RunSignup API
   slug: open-runsignup
@@ -163,7 +193,7 @@ plans:
 - name: Runsignup Plans Pricing
   plan_count: 3
   slug: runsignup-plans-pricing
-random_paper: 43
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Runsignup Rate Limits
@@ -210,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/screenshots/runsignup-2026-06-20T193255.png
 security:

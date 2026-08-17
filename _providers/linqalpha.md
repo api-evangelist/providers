@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Briefing Agent — automated market briefings with scheduling and delivery
@@ -62,7 +62,41 @@ apis:
 - description: The Vault API from LinqAlpha — 3 operation(s) for vault.
   name: LinqAlpha Vault API
   slug: linqalpha-vault-api
-artifact_total: 16
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LinqAlpha Briefing API
+  slug: open-linqalpha-briefing-api
+- collection_type: open
+  name: LinqAlpha Briefing Connectors API
+  slug: open-linqalpha-connectors-api
+- collection_type: open
+  name: LinqAlpha Briefing Data API
+  slug: open-linqalpha-data-api
+- collection_type: open
+  name: LinqAlpha Briefing Feedback API
+  slug: open-linqalpha-feedback-api
+- collection_type: open
+  name: LinqAlpha Briefing MCP API
+  slug: open-linqalpha-mcp-api
+- collection_type: open
+  name: LinqAlpha Briefing RMS API
+  slug: open-linqalpha-rms-api
+- collection_type: open
+  name: LinqAlpha Briefing Search API
+  slug: open-linqalpha-search-api
+- collection_type: open
+  name: LinqAlpha Briefing Source Management API
+  slug: open-linqalpha-source-management-api
+- collection_type: open
+  name: LinqAlpha Briefing Status API
+  slug: open-linqalpha-status-api
+- collection_type: open
+  name: LinqAlpha Briefing Vault API
+  slug: open-linqalpha-vault-api
 common:
 - group: company
   title: ''
@@ -192,7 +226,7 @@ overview: 'LinqAlpha publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LinqAlpha''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 114
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Linqalpha Rate Limits
@@ -230,7 +264,7 @@ score:
     regime_id: securities_market_data
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/screenshots/linqalpha-2026-07-25T225300.png
 security:

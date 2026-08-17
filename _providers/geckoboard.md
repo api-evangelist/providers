@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: API key verification
   name: Geckoboard Health API
   slug: geckoboard-health-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Geckoboard Datasets API
+  slug: open-geckoboard-datasets-api
+- collection_type: open
+  name: Geckoboard Datasets Health API
+  slug: open-geckoboard-health-api
 - collection_type: open
   name: Geckoboard Datasets API
   slug: open-geckoboard
@@ -121,7 +130,7 @@ overview: 'Geckoboard publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Geckoboard''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 81
+random_paper: 147
 score:
   band: thin
   composite: 36.8
@@ -142,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/screenshots/geckoboard-2026-06-20T181707.png
 security:

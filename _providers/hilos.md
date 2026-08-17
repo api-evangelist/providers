@@ -11,24 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-12'
+  score: 51.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -56,7 +57,33 @@ apis:
 - description: The WhatsApp API from Hilos — 3 operation(s) for whatsapp.
   name: Hilos WhatsApp API
   slug: hilos-whatsapp-api
-artifact_total: 10
+artifact_total: 20
+asyncapis:
+- description: ''
+  name: Hilos Events
+  slug: hilos-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hilos Contact API
+  slug: open-hilos-contact-api
+- collection_type: open
+  name: Hilos Contact Conversation API
+  slug: open-hilos-conversation-api
+- collection_type: open
+  name: Hilos Contact Flow Execution API
+  slug: open-hilos-flow-execution-api
+- collection_type: open
+  name: Hilos Contact Flow Execution Contact API
+  slug: open-hilos-flow-execution-contact-api
+- collection_type: open
+  name: Hilos Contact User API
+  slug: open-hilos-user-api
+- collection_type: open
+  name: Hilos Contact WhatsApp API
+  slug: open-hilos-whatsapp-api
 common:
 - group: other
   title: ''
@@ -85,11 +112,11 @@ common:
 - group: docs
   title: ''
   type: APIReference
-  url: https://hilos-40.mintlify.app/docs/developer/apidocs/contact/get-apicontact
+  url: https://hilos.io/docs/developer/apidocs/contact/get-apicontact
 - group: start
   title: ''
   type: GettingStarted
-  url: https://hilos-40.mintlify.app/docs/developer/getting-started/test-request
+  url: https://hilos.io/docs/developer/getting-started/test-request
 - group: auth
   title: ''
   type: Authentication
@@ -100,8 +127,8 @@ common:
   url: https://hilos.io/blog
 - group: commercial
   title: ''
-  type: Pricing
-  url: https://hilos.io/pricing
+  type: Plans
+  url: plans/hilos-plans-pricing.yml
 - group: start
   title: ''
   type: SignUp
@@ -150,6 +177,30 @@ common:
   title: ''
   type: MCPServer
   url: mcp/hilos-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/hilos-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/hilos-a2a.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/hilos-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hilos-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/hilos-rate-limits.yml
+- group: other
+  title: ''
+  type: Events
+  url: asyncapi/hilos-events.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -162,22 +213,33 @@ mcp_servers:
 - description: ''
   name: hilos-mcp.yml
   slug: hilos-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Hilos
 nav: Providers
 network: true
 overview: 'Hilos publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contact API, Conversation API, Flow Execution API, and 3 more. Tagged areas include Company, WhatsApp, Messaging, Automation, and CRM.
 
 
-  Hilos'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 63
+  The Hilos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Hilos'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, support, and 23 more developer resources.'
+plans:
+- name: Hilos Plans Pricing
+  plan_count: 0
+  slug: hilos-plans-pricing
+random_paper: 96
+rate_limits:
+- limit_count: 0
+  name: Hilos Rate Limits
+  slug: hilos-rate-limits
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 44.1
+  delta: 0.2
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 57.1
+    commercial_clarity: 34.2
+    contract_quality: 66.0
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -194,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/screenshots/hilos-2026-07-25T221229.png
 security:

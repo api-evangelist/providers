@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -52,8 +52,17 @@ apis:
 - description: The Version API from Ray — 1 operation(s) for version.
   name: Ray Version API
   slug: ray-version-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ray REST Jobs API
+  slug: open-ray-jobs-api
+- collection_type: open
+  name: Ray REST Jobs Version API
+  slug: open-ray-version-api
 - collection_type: open
   name: Ray Jobs REST API
   slug: open-ray
@@ -118,7 +127,7 @@ overview: 'Ray publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs
 
 
   Ray''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
-random_paper: 92
+random_paper: 34
 score:
   band: emerging
   composite: 22.7
@@ -139,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/screenshots/ray-2026-06-20T192611.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ apis:
 - description: The .well Known API from Slash — 1 operation(s) for .well known.
   name: Slash .well Known API
   slug: slash-well-known-api
-artifact_total: 59
+artifact_total: 86
 asyncapis:
 - description: ''
   name: Slash Webhooks
@@ -200,6 +200,87 @@ collections:
 - collection_type: postman
   name: Slash Public Account .well Known API
   slug: postman-slash-well-known-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Slash Public Account API
+  slug: open-slash-account-api
+- collection_type: open
+  name: Slash Public Account Agent Requests API
+  slug: open-slash-agent-requests-api
+- collection_type: open
+  name: Slash Public Account Analytics API
+  slug: open-slash-analytics-api
+- collection_type: open
+  name: Slash Public Account Card API
+  slug: open-slash-card-api
+- collection_type: open
+  name: Slash Public Account Card Group API
+  slug: open-slash-card-group-api
+- collection_type: open
+  name: Slash Public Account Card Product API
+  slug: open-slash-card-product-api
+- collection_type: open
+  name: Slash Public Account Contact API
+  slug: open-slash-contact-api
+- collection_type: open
+  name: Slash Public Account Crypto API
+  slug: open-slash-crypto-api
+- collection_type: open
+  name: Slash Public Account Customer API
+  slug: open-slash-customer-api
+- collection_type: open
+  name: Slash Public Account Developer Account API
+  slug: open-slash-developer-account-api
+- collection_type: open
+  name: Slash Public Account Developer Application API
+  slug: open-slash-developer-application-api
+- collection_type: open
+  name: Slash Public Account Expense Report API
+  slug: open-slash-expense-report-api
+- collection_type: open
+  name: Slash Public Account Fdx API
+  slug: open-slash-fdx-api
+- collection_type: open
+  name: Slash Public Account Invoice API
+  slug: open-slash-invoice-api
+- collection_type: open
+  name: Slash Public Account Legal Entity API
+  slug: open-slash-legal-entity-api
+- collection_type: open
+  name: Slash Public Account Merchant API
+  slug: open-slash-merchant-api
+- collection_type: open
+  name: Slash Public Account Merchant Category API
+  slug: open-slash-merchant-category-api
+- collection_type: open
+  name: Slash Public Account Oauth2 API
+  slug: open-slash-oauth2-api
+- collection_type: open
+  name: Slash Public Account Task API
+  slug: open-slash-task-api
+- collection_type: open
+  name: Slash Public Account Tokens API
+  slug: open-slash-tokens-api
+- collection_type: open
+  name: Slash Public Account Transaction API
+  slug: open-slash-transaction-api
+- collection_type: open
+  name: Slash Public Account Transfer API
+  slug: open-slash-transfer-api
+- collection_type: open
+  name: Slash Public Account Transfers API
+  slug: open-slash-transfers-api
+- collection_type: open
+  name: Slash Public Account Virtual Account API
+  slug: open-slash-virtual-account-api
+- collection_type: open
+  name: Slash Public Account Webhook API
+  slug: open-slash-webhook-api
+- collection_type: open
+  name: Slash Public Account .well Known API
+  slug: open-slash-well-known-api
 common:
 - group: other
   title: ''
@@ -372,7 +453,7 @@ overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 31 more developer resources.'
-random_paper: 59
+random_paper: 92
 scopes:
 - name: Slash Scopes
   scope_count: 0
@@ -407,7 +488,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

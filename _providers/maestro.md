@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -61,7 +61,7 @@ plans:
 - name: Maestro Plans Pricing
   plan_count: 3
   slug: maestro-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Maestro Rate Limits
@@ -79,7 +79,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 9.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maestro/refs/heads/main/screenshots/maestro-2026-06-20T184834.png
 security:

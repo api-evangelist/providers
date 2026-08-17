@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: Create and retrieve orders injected into the restaurant POS.
   name: Chowly Orders API
   slug: chowly-orders-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chowly POS Integration Menu API
+  slug: open-chowly-menu-api
+- collection_type: open
+  name: Chowly POS Integration Menu Orders API
+  slug: open-chowly-orders-api
 - collection_type: open
   name: Chowly POS Integration API
   slug: open-chowly
@@ -118,7 +127,7 @@ plans:
 - name: Chowly Plans Pricing
   plan_count: 1
   slug: chowly-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Chowly Rate Limits
@@ -143,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/screenshots/chowly-2026-07-25T205258.png
 security:

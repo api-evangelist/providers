@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Manage resource tags.
   name: Amazon Resilience Hub Tags API
   slug: amazon-resilience-hub-tags-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Resilience Hub Applications API
+  slug: open-amazon-resilience-hub-applications-api
+- collection_type: open
+  name: Amazon Resilience Hub Applications Assessments API
+  slug: open-amazon-resilience-hub-assessments-api
+- collection_type: open
+  name: Amazon Resilience Hub Applications Recommendations API
+  slug: open-amazon-resilience-hub-recommendations-api
+- collection_type: open
+  name: Amazon Resilience Hub Applications Resiliency Policies API
+  slug: open-amazon-resilience-hub-resiliency-policies-api
+- collection_type: open
+  name: Amazon Resilience Hub Applications Resource Management API
+  slug: open-amazon-resilience-hub-resource-management-api
+- collection_type: open
+  name: Amazon Resilience Hub Applications Tags API
+  slug: open-amazon-resilience-hub-tags-api
 - collection_type: open
   name: Amazon Resilience Hub
   slug: open-amazon-resilience-hub
@@ -155,7 +176,7 @@ plans:
 - name: Amazon Resilience Hub Plans Pricing
   plan_count: 3
   slug: amazon-resilience-hub-plans-pricing
-random_paper: 74
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Amazon Resilience Hub Rate Limits
@@ -180,7 +201,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/screenshots/amazon-resilience-hub-2026-06-20T171808.png
 security:

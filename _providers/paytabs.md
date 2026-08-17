@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -45,7 +45,7 @@ apis:
 - description: Query and manage existing transactions.
   name: PayTabs Transactions API
   slug: paytabs-transactions-api
-artifact_total: 14
+artifact_total: 17
 asyncapis:
 - description: 'PayTabs delivers transaction outcomes to merchants via server-to-server HTTP POST notifications. There are two flavors of the same payload: the Callback (a one-time notification whose URL is passed pe'
   name: PayTabs IPN / Callback Notifications
@@ -57,6 +57,15 @@ collections:
 - collection_type: postman
   name: PayTabs PT2 Payments Transactions API
   slug: postman-paytabs-transactions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PayTabs PT2 Payments API
+  slug: open-paytabs-payments-api
+- collection_type: open
+  name: PayTabs PT2 Payments Transactions API
+  slug: open-paytabs-transactions-api
 common:
 - group: build
   title: ''
@@ -253,7 +262,7 @@ plans:
 - name: Paytabs Plans Pricing
   plan_count: 2
   slug: paytabs-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Paytabs Rate Limits
@@ -287,7 +296,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paytabs/refs/heads/main/screenshots/paytabs-2026-08-07T191705.png
 security:

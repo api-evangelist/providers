@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: EQT Ventures
 nav: Providers
 network: true
-random_paper: 67
+random_paper: 75
 slug: eqt-ventures
 tags:
 - Venture Capital

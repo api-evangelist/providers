@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: World of Warcraft game data and profile APIs
   name: activision-blizzard World of Warcraft API
   slug: activision-blizzard-world-of-warcraft-api
-artifact_total: 68
+artifact_total: 74
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Activision Blizzard Battle.net Account API
+  slug: open-activision-blizzard-account-api
 - collection_type: open
   name: Activision Blizzard Battle.net API
   slug: open-activision-blizzard-battle-net
+- collection_type: open
+  name: Activision Blizzard Battle.net Account Diablo III API
+  slug: open-activision-blizzard-diablo-iii-api
+- collection_type: open
+  name: Activision Blizzard Battle.net Account Hearthstone API
+  slug: open-activision-blizzard-hearthstone-api
+- collection_type: open
+  name: Activision Blizzard Battle.net Account StarCraft II API
+  slug: open-activision-blizzard-starcraft-ii-api
+- collection_type: open
+  name: Activision Blizzard Battle.net Account World of Warcraft API
+  slug: open-activision-blizzard-world-of-warcraft-api
 common:
 - group: agent
   title: ''
@@ -323,7 +341,7 @@ press:
 - date: '2026-05-25'
   title: Activision Blizzard and Google Enter Into Multi-year ...
   url: https://www.googlecloudpresscorner.com/2020-01-24-Activision-Blizzard-and-Google-Enter-Into-Multi-year-Strategic-Relationship-to-Power-New-Player-Experiences
-random_paper: 72
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Activision Blizzard Rate Limits
@@ -370,7 +388,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/screenshots/activision-blizzard-2026-06-20T164248.png
 security:

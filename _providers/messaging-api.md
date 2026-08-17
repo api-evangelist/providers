@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Managing, sending, and receiving of messages via SMS and other channels.
   name: Messaging API Messages API
   slug: messaging-api-messages-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Messaging API Messages API
+  slug: open-messaging-api-messages-api
 - collection_type: open
   name: Messaging API Messages API
   slug: open-messaging-api
@@ -76,7 +82,7 @@ plans:
 - name: Messaging Api Plans Pricing
   plan_count: 3
   slug: messaging-api-plans-pricing
-random_paper: 117
+random_paper: 125
 rate_limits:
 - limit_count: 5
   name: Messaging Api Rate Limits
@@ -101,7 +107,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

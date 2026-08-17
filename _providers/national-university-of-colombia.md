@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Faceted search across archived objects.
   name: National University of Colombia REST - Discover API
   slug: national-university-of-colombia-rest-discover-api
-artifact_total: 18
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: National University of Colombia - Institutional Repository OAI-PMH API
+  slug: open-national-university-of-colombia-oai-pmh-api
+- collection_type: open
+  name: National University of Colombia - Institutional Repository OAI-PMH REST - Core API
+  slug: open-national-university-of-colombia-rest-core-api
+- collection_type: open
+  name: National University of Colombia - Institutional Repository OAI-PMH REST - Discover API
+  slug: open-national-university-of-colombia-rest-discover-api
 common:
 - group: agent
   title: ''
@@ -141,7 +154,7 @@ plans:
 - name: National University Of Colombia Plans Pricing
   plan_count: 2
   slug: national-university-of-colombia-plans-pricing
-random_paper: 42
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: National University Of Colombia Rate Limits
@@ -189,7 +202,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

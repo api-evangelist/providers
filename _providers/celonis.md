@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 5
@@ -90,7 +90,7 @@ apis:
 - description: The Triggers API from Celonis — 2 operation(s) for triggers.
   name: Celonis Triggers API
   slug: celonis-triggers-api
-artifact_total: 41
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Celonis Subscription Webhooks
@@ -147,6 +147,60 @@ collections:
 - collection_type: postman
   name: OpenAPI Specification Agents - Conversation Triggers API
   slug: postman-celonis-triggers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation API
+  slug: open-celonis-agents-conversation-api
+- collection_type: open
+  name: 'OpenAPI Specification Agents - Conversation Beta: OData Protocol API'
+  slug: open-celonis-beta-odata-protocol-api
+- collection_type: open
+  name: 'OpenAPI Specification Agents - Conversation Beta: Semantics for 3P AI Agents API'
+  slug: open-celonis-beta-semantics-for-3p-ai-agents-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Data API
+  slug: open-celonis-data-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Job Execution API
+  slug: open-celonis-job-execution-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Job Execution Group API
+  slug: open-celonis-job-execution-group-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Login History API API
+  slug: open-celonis-login-history-api-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Members API API
+  slug: open-celonis-members-api-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Notebook API
+  slug: open-celonis-notebook-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Notebook Execution API
+  slug: open-celonis-notebook-execution-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Notebook Resources API
+  slug: open-celonis-notebook-resources-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation OpenAPI Tool Calling API
+  slug: open-celonis-openapi-tool-calling-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Permissions Export API API
+  slug: open-celonis-permissions-export-api-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Schedule API
+  slug: open-celonis-schedule-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Schema API
+  slug: open-celonis-schema-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Subscriptions API
+  slug: open-celonis-subscriptions-api
+- collection_type: open
+  name: OpenAPI Specification Agents - Conversation Triggers API
+  slug: open-celonis-triggers-api
 common:
 - group: other
   title: ''
@@ -315,7 +369,7 @@ overview: 'Celonis publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Celonis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 29
+random_paper: 4
 scopes:
 - name: Celonis Scopes
   scope_count: 2
@@ -344,7 +398,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/screenshots/celonis-2026-07-25T204910.png
 security:

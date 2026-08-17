@@ -1,14 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Free tier with self-serve signup
   onboarding: self-serve
-  pricing: unknown
-  public: false
+  pricing: freemium
+  public: true
   source:
-  - authentication
-  trial: false
-  try_now: false
+  - https://docs.paragraph.com/account/plans-and-credits
+  - https://paragraph.com/pricing
+  - plans/paragraph-plans-pricing.yml
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -17,19 +19,19 @@ agent_readiness:
     agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-12'
+  score: 52.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,7 +71,41 @@ apis:
 - description: Operations related to users and authors
   name: Paragraph users API
   slug: paragraph-users-api
-artifact_total: 14
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paragraph analytics API
+  slug: open-paragraph-analytics-api
+- collection_type: open
+  name: Paragraph analytics auth API
+  slug: open-paragraph-auth-api
+- collection_type: open
+  name: Paragraph analytics coins API
+  slug: open-paragraph-coins-api
+- collection_type: open
+  name: Paragraph analytics discover API
+  slug: open-paragraph-discover-api
+- collection_type: open
+  name: Paragraph analytics emails API
+  slug: open-paragraph-emails-api
+- collection_type: open
+  name: Paragraph analytics me API
+  slug: open-paragraph-me-api
+- collection_type: open
+  name: Paragraph analytics posts API
+  slug: open-paragraph-posts-api
+- collection_type: open
+  name: Paragraph analytics publications API
+  slug: open-paragraph-publications-api
+- collection_type: open
+  name: Paragraph analytics subscribers API
+  slug: open-paragraph-subscribers-api
+- collection_type: open
+  name: Paragraph analytics users API
+  slug: open-paragraph-users-api
 common:
 - group: start
   title: ''
@@ -183,6 +219,30 @@ common:
   title: ''
   type: DomainSecurity
   url: security/paragraph-domain-security.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/paragraph-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/paragraph-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/paragraph-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/paragraph-changelog.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/paragraph-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/paragraph-robots.txt
 - group: company
   title: ''
   type: Website
@@ -195,26 +255,39 @@ mcp_servers:
 - description: ''
   name: paragraph-mcp.yml
   slug: paragraph-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Paragraph
 nav: Providers
 network: true
 overview: 'Paragraph publishes 10 APIs on the [APIs.io](https://apis.io/) network, including analytics API, auth API, coins API, and 7 more. Tagged areas include Company, Publishing, Newsletters, Web3, and Content.
 
 
-  Paragraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 110
+  Paragraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
+plans:
+- name: Paragraph Plans Pricing
+  plan_count: 5
+  slug: paragraph-plans-pricing
+random_paper: 56
+rate_limits:
+- limit_count: 0
+  name: Paragraph Rate Limits
+  slug: paragraph-rate-limits
+scopes:
+- name: Paragraph Scopes
+  scope_count: 0
+  slug: paragraph-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 50.8
-  delta: 0.0
+  band: strong
+  composite: 60.2
+  delta: 9.4
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 62.1
     developer_ergonomics: 80.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -227,8 +300,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/screenshots/paragraph-2026-08-07T191412.png
 security:
 - kind: authentication

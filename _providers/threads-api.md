@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -66,8 +66,38 @@ apis:
 - description: This folder will enbale you to perform basic toubleshooting.
   name: Threads Troubleshooting API
   slug: threads-api-troubleshooting-api
-artifact_total: 24
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Threads Authorization API
+  slug: open-threads-api-authorization-api
+- collection_type: open
+  name: Threads Authorization Post to Threads > Quote Threads Posts API
+  slug: open-threads-api-post-to-threads-quote-threads-posts-api
+- collection_type: open
+  name: Threads Authorization Post to Threads > Repost Threads Posts API
+  slug: open-threads-api-post-to-threads-repost-threads-posts-api
+- collection_type: open
+  name: Threads Authorization Read And Manage Threads > Read and Manage Threads Replies API
+  slug: open-threads-api-read-and-manage-threads-read-and-manage-threads-replies-api
+- collection_type: open
+  name: Threads Authorization Read And Manage Threads > Read Replies Media Objects API
+  slug: open-threads-api-read-and-manage-threads-read-replies-media-objects-api
+- collection_type: open
+  name: Threads Authorization Read And Manage Threads > Read Threads Insights API
+  slug: open-threads-api-read-and-manage-threads-read-threads-insights-api
+- collection_type: open
+  name: Threads Authorization Read And Manage Threads > Retrieve Threads Media Objects API
+  slug: open-threads-api-read-and-manage-threads-retrieve-threads-media-objects-api
+- collection_type: open
+  name: Threads Authorization Read And Manage Threads > Retrieve Threads Profiles API
+  slug: open-threads-api-read-and-manage-threads-retrieve-threads-profiles-api
+- collection_type: open
+  name: Threads Authorization Troubleshooting API
+  slug: open-threads-api-troubleshooting-api
 - collection_type: open
   name: Threads API
   slug: open-threads-api
@@ -171,7 +201,7 @@ plans:
 - name: Threads Api Plans Pricing
   plan_count: 3
   slug: threads-api-plans-pricing
-random_paper: 26
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Threads Api Rate Limits
@@ -213,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/screenshots/threads-api-2026-06-20T195314.png
 security:

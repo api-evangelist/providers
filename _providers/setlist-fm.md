@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,8 +83,77 @@ apis:
 - description: The /1.0/venue/{venueId}/setlists API from setlist.fm — 1 operation(s) for /1.0/venue/{venueid}/setlists.
   name: setlist.fm /1.0/venue/{venueId}/setlists API
   slug: setlist-fm-1-0-venue-venueid-setlists-api
-artifact_total: 39
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/artist/{mbid} API
+  slug: open-setlist-fm-1-0-artist-mbid-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/artist/{mbid}/setlists API
+  slug: open-setlist-fm-1-0-artist-mbid-setlists-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/city/{geoId} API
+  slug: open-setlist-fm-1-0-city-geoid-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/search/artists API
+  slug: open-setlist-fm-1-0-search-artists-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/search/cities API
+  slug: open-setlist-fm-1-0-search-cities-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/search/countries API
+  slug: open-setlist-fm-1-0-search-countries-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/search/setlists API
+  slug: open-setlist-fm-1-0-search-setlists-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/search/venues API
+  slug: open-setlist-fm-1-0-search-venues-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/setlist/{setlistId} API
+  slug: open-setlist-fm-1-0-setlist-setlistid-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/setlist/version/{versionId} API
+  slug: open-setlist-fm-1-0-setlist-version-versionid-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/user/{userId} API
+  slug: open-setlist-fm-1-0-user-userid-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/user/{userId}/attended API
+  slug: open-setlist-fm-1-0-user-userid-attended-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/user/{userId}/edited API
+  slug: open-setlist-fm-1-0-user-userid-edited-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/venue/{venueId} API
+  slug: open-setlist-fm-1-0-venue-venueid-api
+- collection_type: open
+  name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/venue/{venueId}/setlists API
+  slug: open-setlist-fm-1-0-venue-venueid-setlists-api
+- collection_type: open
+  name: setlist.fm REST Artists API
+  slug: open-setlist-fm-artists-api
+- collection_type: open
+  name: setlist.fm REST Artists Cities API
+  slug: open-setlist-fm-cities-api
+- collection_type: open
+  name: setlist.fm REST Artists Countries API
+  slug: open-setlist-fm-countries-api
+- collection_type: open
+  name: setlist.fm REST Artists Search API
+  slug: open-setlist-fm-search-api
+- collection_type: open
+  name: setlist.fm REST Artists Setlists API
+  slug: open-setlist-fm-setlists-api
+- collection_type: open
+  name: setlist.fm REST Artists User API
+  slug: open-setlist-fm-user-api
+- collection_type: open
+  name: setlist.fm REST Artists Venues API
+  slug: open-setlist-fm-venues-api
 - collection_type: open
   name: setlist.fm REST API
   slug: open-setlistfm
@@ -213,7 +282,7 @@ plans:
 - name: Setlist Fm Plans Pricing
   plan_count: 2
   slug: setlist-fm-plans-pricing
-random_paper: 72
+random_paper: 138
 rate_limits:
 - limit_count: 0
   name: Setlist Fm Rate Limits
@@ -247,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/screenshots/setlist-fm-2026-06-20T193734.png
 security:

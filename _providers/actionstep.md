@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -143,7 +143,116 @@ apis:
 - description: The UTBMS Codes API from Actionstep — 2 operation(s) for utbms codes.
   name: Actionstep UTBMS Codes API
   slug: actionstep-utbms-codes-api
-artifact_total: 43
+artifact_total: 79
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings API
+  slug: open-actionstep-action-bill-settings-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Action Folders API
+  slug: open-actionstep-action-folders-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Action NetDocuments Settings API
+  slug: open-actionstep-action-netdocuments-settings-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Action Participants API
+  slug: open-actionstep-action-participants-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Action Type Participant Types API
+  slug: open-actionstep-action-type-participant-types-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Actions API
+  slug: open-actionstep-actions-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings ActionTypes API
+  slug: open-actionstep-actiontypes-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Bills API
+  slug: open-actionstep-bills-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Contact Documents API
+  slug: open-actionstep-contact-documents-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Contact Folders API
+  slug: open-actionstep-contact-folders-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Contact Notes API
+  slug: open-actionstep-contact-notes-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Contact Relationships API
+  slug: open-actionstep-contact-relationships-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Cultural Identity API
+  slug: open-actionstep-cultural-identity-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Data Collection Field Dropdown Choices API
+  slug: open-actionstep-data-collection-field-dropdown-choices-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Data Collection Fields API
+  slug: open-actionstep-data-collection-fields-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Data Collection Record Values API
+  slug: open-actionstep-data-collection-record-values-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Data Collection Records API
+  slug: open-actionstep-data-collection-records-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Data Collections API
+  slug: open-actionstep-data-collections-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Disability Status API
+  slug: open-actionstep-disability-status-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Disbursements API
+  slug: open-actionstep-disbursements-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings File Notes API
+  slug: open-actionstep-file-notes-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Gender Types API
+  slug: open-actionstep-gender-types-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Participant Additional Notification Methods API
+  slug: open-actionstep-participant-additional-notification-methods-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Participant Data Field Dropdown Choices API
+  slug: open-actionstep-participant-data-field-dropdown-choices-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Participant Default Types API
+  slug: open-actionstep-participant-default-types-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Participant Relationship Types API
+  slug: open-actionstep-participant-relationship-types-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Participant Type Data Fields API
+  slug: open-actionstep-participant-type-data-fields-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Participants API
+  slug: open-actionstep-participants-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Phone Records API
+  slug: open-actionstep-phone-records-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Primary Language API
+  slug: open-actionstep-primary-language-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Quick Codes API
+  slug: open-actionstep-quick-codes-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings REST Hooks API
+  slug: open-actionstep-rest-hooks-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Tasks API
+  slug: open-actionstep-tasks-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings Time Entries API
+  slug: open-actionstep-time-entries-api
+- collection_type: open
+  name: Action (Matter) Bill Settings Action Bill Settings UTBMS Codes API
+  slug: open-actionstep-utbms-codes-api
 common:
 - group: agent
   title: ''
@@ -249,7 +358,7 @@ plans:
 - name: Actionstep Plans Pricing
   plan_count: 5
   slug: actionstep-plans-pricing
-random_paper: 2
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Actionstep Rate Limits
@@ -274,7 +383,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/screenshots/actionstep-2026-06-20T164049.png
 security:

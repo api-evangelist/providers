@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: List and invoke exported OFBiz services
   name: Apache OFBiz Services API
   slug: apache-ofbiz-services-api
-artifact_total: 55
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Apache OFBiz REST Authentication API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Apache OFBiz REST Authentication Services API
   slug: postman-apache-ofbiz-services-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache OFBiz REST Authentication API
+  slug: open-apache-ofbiz-authentication-api
+- collection_type: open
+  name: Apache OFBiz REST Authentication Services API
+  slug: open-apache-ofbiz-services-api
 common:
 - group: auth
   title: ''
@@ -266,7 +275,7 @@ plans:
 - name: Apache Ofbiz Plans Pricing
   plan_count: 3
   slug: apache-ofbiz-plans-pricing
-random_paper: 113
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Apache Ofbiz Rate Limits
@@ -308,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/screenshots/apache-ofbiz-2026-06-20T172127.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 324
   human_in_the_loop: 4
@@ -983,7 +983,7 @@ arazzos:
 - description: Fetch a Datadog monitor, then update its options and alert thresholds.
   name: Datadog Tune Monitor Thresholds
   slug: datadog-tune-monitor-thresholds-workflow
-artifact_total: 558
+artifact_total: 770
 collections:
 - collection_type: postman
   name: Datadog API
@@ -1004,23 +1004,659 @@ collections:
   name: Datadog Monitors API
   slug: postman-datadog-monitors
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Datadog Account API
+  slug: open-datadog-account-api
+- collection_type: open
+  name: Datadog Account Accounts API
+  slug: open-datadog-accounts-api
+- collection_type: open
+  name: Datadog Account Acknowledge API
+  slug: open-datadog-acknowledge-api
+- collection_type: open
+  name: Datadog Account Across API
+  slug: open-datadog-across-api
+- collection_type: open
+  name: Datadog Account Action API
+  slug: open-datadog-action-api
+- collection_type: open
+  name: Datadog Account Active API
+  slug: open-datadog-active-api
+- collection_type: open
+  name: Datadog Account Add API
+  slug: open-datadog-add-api
+- collection_type: open
+  name: Datadog Account Agent API
+  slug: open-datadog-agent-api
+- collection_type: open
+  name: Datadog Account Agents API
+  slug: open-datadog-agents-api
+- collection_type: open
+  name: Datadog Account Aggregate API
+  slug: open-datadog-aggregate-api
+- collection_type: open
+  name: Datadog Account Aggregated API
+  slug: open-datadog-aggregated-api
+- collection_type: open
+  name: Datadog Account Aggregations API
+  slug: open-datadog-aggregations-api
+- collection_type: open
+  name: Datadog Account All API
+  slug: open-datadog-all-api
+- collection_type: open
+  name: Datadog Account Analysis API
+  slug: open-datadog-analysis-api
+- collection_type: open
   name: Datadog API
   slug: open-datadog-api
+- collection_type: open
+  name: Datadog Account Applications API
+  slug: open-datadog-applications-api
+- collection_type: open
+  name: Datadog Account Archive API
+  slug: open-datadog-archive-api
+- collection_type: open
+  name: Datadog Account Archives API
+  slug: open-datadog-archives-api
+- collection_type: open
+  name: Datadog Account Assets API
+  slug: open-datadog-assets-api
+- collection_type: open
+  name: Datadog Account Assign API
+  slug: open-datadog-assign-api
+- collection_type: open
+  name: Datadog Account Assignee API
+  slug: open-datadog-assignee-api
+- collection_type: open
+  name: Datadog Account Attachments API
+  slug: open-datadog-attachments-api
+- collection_type: open
+  name: Datadog Account Attributes API
+  slug: open-datadog-attributes-api
+- collection_type: open
+  name: Datadog Account Audit API
+  slug: open-datadog-audit-api
+- collection_type: open
+  name: Datadog Account Available API
+  slug: open-datadog-available-api
+- collection_type: open
+  name: Datadog Account Batch API
+  slug: open-datadog-batch-api
+- collection_type: open
+  name: Datadog Account Billing API
+  slug: open-datadog-billing-api
+- collection_type: open
+  name: Datadog Account Budget API
+  slug: open-datadog-budget-api
+- collection_type: open
+  name: Datadog Account Budgets API
+  slug: open-datadog-budgets-api
+- collection_type: open
+  name: Datadog Account Cancel API
+  slug: open-datadog-cancel-api
+- collection_type: open
+  name: Datadog Account Cap API
+  slug: open-datadog-cap-api
+- collection_type: open
+  name: Datadog Account Cardinality API
+  slug: open-datadog-cardinality-api
+- collection_type: open
+  name: Datadog Account Case API
+  slug: open-datadog-case-api
+- collection_type: open
+  name: Datadog Account Cases API
+  slug: open-datadog-cases-api
+- collection_type: open
+  name: Datadog Account Change API
+  slug: open-datadog-change-api
+- collection_type: open
+  name: Datadog Account Channel API
+  slug: open-datadog-channel-api
+- collection_type: open
+  name: Datadog Account Cloud API
+  slug: open-datadog-cloud-api
+- collection_type: open
+  name: Datadog Account Cloudflare API
+  slug: open-datadog-cloudflare-api
+- collection_type: open
+  name: Datadog Account Configuration API
+  slug: open-datadog-configuration-api
+- collection_type: open
+  name: Datadog Account Configure API
+  slug: open-datadog-configure-api
+- collection_type: open
+  name: Datadog Account Connection API
+  slug: open-datadog-connection-api
+- collection_type: open
+  name: Datadog Account Connections API
+  slug: open-datadog-connections-api
+- collection_type: open
+  name: Datadog Account Containers API
+  slug: open-datadog-containers-api
+- collection_type: open
+  name: Datadog Account Convert API
+  slug: open-datadog-convert-api
+- collection_type: open
+  name: Datadog Account Cost API
+  slug: open-datadog-cost-api
+- collection_type: open
+  name: Datadog Account Coverage API
+  slug: open-datadog-coverage-api
+- collection_type: open
+  name: Datadog Account Create API
+  slug: open-datadog-create-api
+- collection_type: open
+  name: Datadog Account Current API
+  slug: open-datadog-current-api
+- collection_type: open
+  name: Datadog Account Custom API
+  slug: open-datadog-custom-api
+- collection_type: open
+  name: Datadog Account Dashboards API
+  slug: open-datadog-dashboards-api
+- collection_type: open
+  name: Datadog Account Data API
+  slug: open-datadog-data-api
+- collection_type: open
+  name: Datadog Account Definition API
+  slug: open-datadog-definition-api
+- collection_type: open
+  name: Datadog Account Definitions API
+  slug: open-datadog-definitions-api
+- collection_type: open
+  name: Datadog Account Delegate API
+  slug: open-datadog-delegate-api
+- collection_type: open
+  name: Datadog Account Delete API
+  slug: open-datadog-delete-api
+- collection_type: open
+  name: Datadog Account Demand API
+  slug: open-datadog-demand-api
+- collection_type: open
+  name: Datadog Account Deployments API
+  slug: open-datadog-deployments-api
+- collection_type: open
+  name: Datadog Account Destination API
+  slug: open-datadog-destination-api
+- collection_type: open
+  name: Datadog Account Destinations API
+  slug: open-datadog-destinations-api
+- collection_type: open
+  name: Datadog Account Detection API
+  slug: open-datadog-detection-api
+- collection_type: open
+  name: Datadog Account Devices API
+  slug: open-datadog-devices-api
+- collection_type: open
+  name: Datadog Account Dimension API
+  slug: open-datadog-dimension-api
+- collection_type: open
+  name: Datadog Account Dimensions API
+  slug: open-datadog-dimensions-api
+- collection_type: open
+  name: Datadog Account Disables API
+  slug: open-datadog-disables-api
+- collection_type: open
+  name: Datadog Account Domain API
+  slug: open-datadog-domain-api
+- collection_type: open
+  name: Datadog Account Download API
+  slug: open-datadog-download-api
+- collection_type: open
+  name: Datadog Account Edit API
+  slug: open-datadog-edit-api
+- collection_type: open
+  name: Datadog Account Emails API
+  slug: open-datadog-emails-api
+- collection_type: open
+  name: Datadog Account Enabled API
+  slug: open-datadog-enabled-api
+- collection_type: open
+  name: Datadog Account Entities API
+  slug: open-datadog-entities-api
+- collection_type: open
+  name: Datadog Account Entity API
+  slug: open-datadog-entity-api
+- collection_type: open
+  name: Datadog Account Entry API
+  slug: open-datadog-entry-api
+- collection_type: open
+  name: Datadog Account Escalate API
+  slug: open-datadog-escalate-api
+- collection_type: open
+  name: Datadog Account Events API
+  slug: open-datadog-events-api
 - collection_type: open
   name: Datadog Events API
   slug: open-datadog-events
 - collection_type: open
+  name: Datadog Account Execute API
+  slug: open-datadog-execute-api
+- collection_type: open
+  name: Datadog Account Existing API
+  slug: open-datadog-existing-api
+- collection_type: open
+  name: Datadog Account External API
+  slug: open-datadog-external-api
+- collection_type: open
+  name: Datadog Account Failure API
+  slug: open-datadog-failure-api
+- collection_type: open
+  name: Datadog Account Family API
+  slug: open-datadog-family-api
+- collection_type: open
+  name: Datadog Account Files API
+  slug: open-datadog-files-api
+- collection_type: open
+  name: Datadog Account Filter API
+  slug: open-datadog-filter-api
+- collection_type: open
+  name: Datadog Account Finding API
+  slug: open-datadog-finding-api
+- collection_type: open
+  name: Datadog Account Findings API
+  slug: open-datadog-findings-api
+- collection_type: open
+  name: Datadog Account Framework API
+  slug: open-datadog-framework-api
+- collection_type: open
+  name: Datadog Account Generate API
+  slug: open-datadog-generate-api
+- collection_type: open
+  name: Datadog Account Get API
+  slug: open-datadog-get-api
+- collection_type: open
+  name: Datadog Account Given API
+  slug: open-datadog-given-api
+- collection_type: open
+  name: Datadog Account Grants API
+  slug: open-datadog-grants-api
+- collection_type: open
+  name: Datadog Account Groups API
+  slug: open-datadog-groups-api
+- collection_type: open
+  name: Datadog Account Handle API
+  slug: open-datadog-handle-api
+- collection_type: open
+  name: Datadog Account Historical API
+  slug: open-datadog-historical-api
+- collection_type: open
+  name: Datadog Account History API
+  slug: open-datadog-history-api
+- collection_type: open
+  name: Datadog Account Hosts API
+  slug: open-datadog-hosts-api
+- collection_type: open
+  name: Datadog Account Hourly API
+  slug: open-datadog-hourly-api
+- collection_type: open
+  name: Datadog Account Identifiers API
+  slug: open-datadog-identifiers-api
+- collection_type: open
+  name: Datadog Account Images API
+  slug: open-datadog-images-api
+- collection_type: open
+  name: Datadog Account Incident API
+  slug: open-datadog-incident-api
+- collection_type: open
+  name: Datadog Account Incident Teams API
+  slug: open-datadog-incident-teams-api
+- collection_type: open
+  name: Datadog Account Incidents API
+  slug: open-datadog-incidents-api
+- collection_type: open
   name: Datadog Incidents API
   slug: open-datadog-incidents
+- collection_type: open
+  name: Datadog Account Information API
+  slug: open-datadog-information-api
+- collection_type: open
+  name: Datadog Account Instance API
+  slug: open-datadog-instance-api
+- collection_type: open
+  name: Datadog Account Instances API
+  slug: open-datadog-instances-api
+- collection_type: open
+  name: Datadog Account Integration API
+  slug: open-datadog-integration-api
+- collection_type: open
+  name: Datadog Account Integrations API
+  slug: open-datadog-integrations-api
+- collection_type: open
+  name: Datadog Account Interfaces API
+  slug: open-datadog-interfaces-api
+- collection_type: open
+  name: Datadog Account Invitation API
+  slug: open-datadog-invitation-api
+- collection_type: open
+  name: Datadog Account Invocations API
+  slug: open-datadog-invocations-api
+- collection_type: open
+  name: Datadog Account Ip API
+  slug: open-datadog-ip-api
+- collection_type: open
+  name: Datadog Account Items API
+  slug: open-datadog-items-api
+- collection_type: open
+  name: Datadog Account Jobs API
+  slug: open-datadog-jobs-api
+- collection_type: open
+  name: Datadog Account Keys API
+  slug: open-datadog-keys-api
+- collection_type: open
+  name: Datadog Account Lambda API
+  slug: open-datadog-lambda-api
+- collection_type: open
+  name: Datadog Account Link API
+  slug: open-datadog-link-api
+- collection_type: open
+  name: Datadog Account Links API
+  slug: open-datadog-links-api
+- collection_type: open
+  name: Datadog Account Lists API
+  slug: open-datadog-lists-api
+- collection_type: open
+  name: Datadog Account Log Aggregation API
+  slug: open-datadog-log-aggregation-api
+- collection_type: open
+  name: Datadog Account Log Indexes API
+  slug: open-datadog-log-indexes-api
+- collection_type: open
+  name: Datadog Account Logs API
+  slug: open-datadog-logs-api
 - collection_type: open
   name: Datadog Logs API
   slug: open-datadog-logs
 - collection_type: open
+  name: Datadog Account Management API
+  slug: open-datadog-management-api
+- collection_type: open
+  name: Datadog Account Mapping API
+  slug: open-datadog-mapping-api
+- collection_type: open
+  name: Datadog Account Memberships API
+  slug: open-datadog-memberships-api
+- collection_type: open
+  name: Datadog Account Metric Metadata API
+  slug: open-datadog-metric-metadata-api
+- collection_type: open
+  name: Datadog Account Metric Tags API
+  slug: open-datadog-metric-tags-api
+- collection_type: open
+  name: Datadog Account Metrics API
+  slug: open-datadog-metrics-api
+- collection_type: open
   name: Datadog Metrics API
   slug: open-datadog-metrics
 - collection_type: open
+  name: Datadog Account Modify API
+  slug: open-datadog-modify-api
+- collection_type: open
+  name: Datadog Account Monitor API
+  slug: open-datadog-monitor-api
+- collection_type: open
+  name: Datadog Account Monitor Muting API
+  slug: open-datadog-monitor-muting-api
+- collection_type: open
+  name: Datadog Account Monitor Validation API
+  slug: open-datadog-monitor-validation-api
+- collection_type: open
+  name: Datadog Account Monitors API
+  slug: open-datadog-monitors-api
+- collection_type: open
   name: Datadog Monitors API
   slug: open-datadog-monitors
+- collection_type: open
+  name: Datadog Account Monthly API
+  slug: open-datadog-monthly-api
+- collection_type: open
+  name: Datadog Account Multiple API
+  slug: open-datadog-multiple-api
+- collection_type: open
+  name: Datadog Account Mute API
+  slug: open-datadog-mute-api
+- collection_type: open
+  name: Datadog Account Names API
+  slug: open-datadog-names-api
+- collection_type: open
+  name: Datadog Account Namespaces API
+  slug: open-datadog-namespaces-api
+- collection_type: open
+  name: Datadog Account Objects API
+  slug: open-datadog-objects-api
+- collection_type: open
+  name: Datadog Account Observability API
+  slug: open-datadog-observability-api
+- collection_type: open
+  name: Datadog Account Options API
+  slug: open-datadog-options-api
+- collection_type: open
+  name: Datadog Account Order API
+  slug: open-datadog-order-api
+- collection_type: open
+  name: Datadog Account Organizations API
+  slug: open-datadog-organizations-api
+- collection_type: open
+  name: Datadog Account Owned API
+  slug: open-datadog-owned-api
+- collection_type: open
+  name: Datadog Account Pages API
+  slug: open-datadog-pages-api
+- collection_type: open
+  name: Datadog Account Patch API
+  slug: open-datadog-patch-api
+- collection_type: open
+  name: Datadog Account Patterns API
+  slug: open-datadog-patterns-api
+- collection_type: open
+  name: Datadog Account Permissions API
+  slug: open-datadog-permissions-api
+- collection_type: open
+  name: Datadog Account Pipelines API
+  slug: open-datadog-pipelines-api
+- collection_type: open
+  name: Datadog Account Policies API
+  slug: open-datadog-policies-api
+- collection_type: open
+  name: Datadog Account Post API
+  slug: open-datadog-post-api
+- collection_type: open
+  name: Datadog Account Principal API
+  slug: open-datadog-principal-api
+- collection_type: open
+  name: Datadog Account Priority API
+  slug: open-datadog-priority-api
+- collection_type: open
+  name: Datadog Account Product API
+  slug: open-datadog-product-api
+- collection_type: open
+  name: Datadog Account Products API
+  slug: open-datadog-products-api
+- collection_type: open
+  name: Datadog Account Projects API
+  slug: open-datadog-projects-api
+- collection_type: open
+  name: Datadog Account Protections API
+  slug: open-datadog-protections-api
+- collection_type: open
+  name: Datadog Account Publish API
+  slug: open-datadog-publish-api
+- collection_type: open
+  name: Datadog Account Queries API
+  slug: open-datadog-queries-api
+- collection_type: open
+  name: Datadog Account Read API
+  slug: open-datadog-read-api
+- collection_type: open
+  name: Datadog Account Ready API
+  slug: open-datadog-ready-api
+- collection_type: open
+  name: Datadog Account Related API
+  slug: open-datadog-related-api
+- collection_type: open
+  name: Datadog Account Remove API
+  slug: open-datadog-remove-api
+- collection_type: open
+  name: Datadog Account Reorder API
+  slug: open-datadog-reorder-api
+- collection_type: open
+  name: Datadog Account Reports API
+  slug: open-datadog-reports-api
+- collection_type: open
+  name: Datadog Account Resolve API
+  slug: open-datadog-resolve-api
+- collection_type: open
+  name: Datadog Account Resource API
+  slug: open-datadog-resource-api
+- collection_type: open
+  name: Datadog Account Resources API
+  slug: open-datadog-resources-api
+- collection_type: open
+  name: Datadog Account Restrictions API
+  slug: open-datadog-restrictions-api
+- collection_type: open
+  name: Datadog Account Result API
+  slug: open-datadog-result-api
+- collection_type: open
+  name: Datadog Account Retention API
+  slug: open-datadog-retention-api
+- collection_type: open
+  name: Datadog Account Revoke API
+  slug: open-datadog-revoke-api
+- collection_type: open
+  name: Datadog Account Role API
+  slug: open-datadog-role-api
+- collection_type: open
+  name: Datadog Account Roles API
+  slug: open-datadog-roles-api
+- collection_type: open
+  name: Datadog Account Routing API
+  slug: open-datadog-routing-api
+- collection_type: open
+  name: Datadog Account Rules API
+  slug: open-datadog-rules-api
+- collection_type: open
+  name: Datadog Account Rum API
+  slug: open-datadog-rum-api
+- collection_type: open
+  name: Datadog Account Runs API
+  slug: open-datadog-runs-api
+- collection_type: open
+  name: Datadog Account Save API
+  slug: open-datadog-save-api
+- collection_type: open
+  name: Datadog Account Scan API
+  slug: open-datadog-scan-api
+- collection_type: open
+  name: Datadog Account Scanning API
+  slug: open-datadog-scanning-api
+- collection_type: open
+  name: Datadog Account Schedules API
+  slug: open-datadog-schedules-api
+- collection_type: open
+  name: Datadog Account Search API
+  slug: open-datadog-search-api
+- collection_type: open
+  name: Datadog Account Security API
+  slug: open-datadog-security-api
+- collection_type: open
+  name: Datadog Account Send API
+  slug: open-datadog-send-api
+- collection_type: open
+  name: Datadog Account Serverless API
+  slug: open-datadog-serverless-api
+- collection_type: open
+  name: Datadog Account Sets API
+  slug: open-datadog-sets-api
+- collection_type: open
+  name: Datadog Account Setting API
+  slug: open-datadog-setting-api
+- collection_type: open
+  name: Datadog Account Settings API
+  slug: open-datadog-settings-api
+- collection_type: open
+  name: Datadog Account Signal API
+  slug: open-datadog-signal-api
+- collection_type: open
+  name: Datadog Account Single API
+  slug: open-datadog-single-api
+- collection_type: open
+  name: Datadog Account Specific API
+  slug: open-datadog-specific-api
+- collection_type: open
+  name: Datadog Account Standard API
+  slug: open-datadog-standard-api
+- collection_type: open
+  name: Datadog Account State API
+  slug: open-datadog-state-api
+- collection_type: open
+  name: Datadog Account Status API
+  slug: open-datadog-status-api
+- collection_type: open
+  name: Datadog Account Submit API
+  slug: open-datadog-submit-api
+- collection_type: open
+  name: Datadog Account Suppression API
+  slug: open-datadog-suppression-api
+- collection_type: open
+  name: Datadog Account Tasks API
+  slug: open-datadog-tasks-api
+- collection_type: open
+  name: Datadog Account Teams API
+  slug: open-datadog-teams-api
+- collection_type: open
+  name: Datadog Account Terraform API
+  slug: open-datadog-terraform-api
+- collection_type: open
+  name: Datadog Account Tests API
+  slug: open-datadog-tests-api
+- collection_type: open
+  name: Datadog Account Type API
+  slug: open-datadog-type-api
+- collection_type: open
+  name: Datadog Account Types API
+  slug: open-datadog-types-api
+- collection_type: open
+  name: Datadog Account Unarchive API
+  slug: open-datadog-unarchive-api
+- collection_type: open
+  name: Datadog Account Unassign API
+  slug: open-datadog-unassign-api
+- collection_type: open
+  name: Datadog Account Update API
+  slug: open-datadog-update-api
+- collection_type: open
+  name: Datadog Account Upload API
+  slug: open-datadog-upload-api
+- collection_type: open
+  name: Datadog Account Usage API
+  slug: open-datadog-usage-api
+- collection_type: open
+  name: Datadog Account Users API
+  slug: open-datadog-users-api
+- collection_type: open
+  name: Datadog Account Validate API
+  slug: open-datadog-validate-api
+- collection_type: open
+  name: Datadog Account Value API
+  slug: open-datadog-value-api
+- collection_type: open
+  name: Datadog Account Versions API
+  slug: open-datadog-versions-api
+- collection_type: open
+  name: Datadog Account Volumes API
+  slug: open-datadog-volumes-api
+- collection_type: open
+  name: Datadog Account Vulnerabilities API
+  slug: open-datadog-vulnerabilities-api
+- collection_type: open
+  name: Datadog Account Webhooks API
+  slug: open-datadog-webhooks-api
+- collection_type: open
+  name: Datadog Account Workflows API
+  slug: open-datadog-workflows-api
 common:
 - group: agent
   title: ''
@@ -1977,7 +2613,7 @@ plans:
 - name: Datadog Plans Pricing
   plan_count: 7
   slug: datadog-plans-pricing
-random_paper: 4
+random_paper: 128
 rate_limits:
 - limit_count: 6
   name: Datadog Rate Limits
@@ -2024,7 +2660,7 @@ score:
       marker_coverage: 0.0
       total: 211
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/screenshots/datadog-2026-06-20T175637.png
 security:

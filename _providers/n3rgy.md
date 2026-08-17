@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -168,7 +168,7 @@ overview: 'n3rgy publishes 1 API on the [APIs.io](https://apis.io/) network: Cus
 
 
   n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 15 more developer resources.'
-random_paper: 19
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: N3Rgy Rate Limits
@@ -202,7 +202,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/screenshots/n3rgy-2026-08-07T184554.png
 security:

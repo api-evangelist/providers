@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -169,7 +169,7 @@ arazzos:
 - description: Discover metric reports and subscribe to telemetry events.
   name: Dell Servers Telemetry Subscription Setup
   slug: dell-servers-telemetry-subscription-workflow
-artifact_total: 83
+artifact_total: 103
 collections:
 - collection_type: postman
   name: Dell Servers Dell iDRAC Redfish REST API
@@ -178,11 +178,71 @@ collections:
   name: Dell Servers Dell OpenManage Enterprise API
   slug: postman-dell-servers-openmanage-enterprise
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts API
+  slug: open-dell-servers-accounts-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Alerts API
+  slug: open-dell-servers-alerts-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Application Settings API
+  slug: open-dell-servers-application-settings-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Chassis API
+  slug: open-dell-servers-chassis-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Configuration API
+  slug: open-dell-servers-configuration-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Devices API
+  slug: open-dell-servers-devices-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Discovery API
+  slug: open-dell-servers-discovery-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Event Service API
+  slug: open-dell-servers-event-service-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Firmware API
+  slug: open-dell-servers-firmware-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Groups API
+  slug: open-dell-servers-groups-api
+- collection_type: open
   name: Dell Servers Dell iDRAC Redfish REST API
   slug: open-dell-servers-idrac-redfish
 - collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Jobs API
+  slug: open-dell-servers-jobs-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Managers API
+  slug: open-dell-servers-managers-api
+- collection_type: open
   name: Dell Servers Dell OpenManage Enterprise API
   slug: open-dell-servers-openmanage-enterprise
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Reports API
+  slug: open-dell-servers-reports-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Service Root API
+  slug: open-dell-servers-service-root-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Sessions API
+  slug: open-dell-servers-sessions-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Systems API
+  slug: open-dell-servers-systems-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Task Service API
+  slug: open-dell-servers-task-service-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Telemetry Service API
+  slug: open-dell-servers-telemetry-service-api
+- collection_type: open
+  name: Dell Servers Dell iDRAC Redfish REST Accounts Update Service API
+  slug: open-dell-servers-update-service-api
 common:
 - group: operate
   title: ''
@@ -445,7 +505,7 @@ plans:
 - name: Dell Servers Plans Pricing
   plan_count: 3
   slug: dell-servers-plans-pricing
-random_paper: 40
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Dell Servers Rate Limits
@@ -495,7 +555,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/screenshots/dell-servers-2026-06-20T175900.png
 security:

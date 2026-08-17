@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ arazzos:
 - description: Screen an IP for privacy/anonymizer signals and confirm residential proxy use.
   name: IPinfo IP Threat Screening
   slug: ipinfo-threat-screening-workflow
-artifact_total: 163
+artifact_total: 181
 collections:
 - collection_type: postman
   name: IPinfo.io OpenAPI Specification abuse API
@@ -166,6 +166,60 @@ collections:
 - collection_type: postman
   name: IPinfo.io OpenAPI Specification abuse whois API
   slug: postman-ipinfo-whois-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse API
+  slug: open-ipinfo-abuse-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse asn API
+  slug: open-ipinfo-asn-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse carrier API
+  slug: open-ipinfo-carrier-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse company API
+  slug: open-ipinfo-company-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse domains API
+  slug: open-ipinfo-domains-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse general API
+  slug: open-ipinfo-general-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse ipinfo core API
+  slug: open-ipinfo-ipinfo-core-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse ipinfo lite API
+  slug: open-ipinfo-ipinfo-lite-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse ipinfo max API
+  slug: open-ipinfo-ipinfo-max-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse ipinfo plus API
+  slug: open-ipinfo-ipinfo-plus-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse places API
+  slug: open-ipinfo-places-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse privacy detection API
+  slug: open-ipinfo-privacy-detection-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse privacy detection extended API
+  slug: open-ipinfo-privacy-detection-extended-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse ranges API
+  slug: open-ipinfo-ranges-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse residential proxy detection API
+  slug: open-ipinfo-residential-proxy-detection-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse single API
+  slug: open-ipinfo-single-api
+- collection_type: open
+  name: IPinfo.io OpenAPI Specification abuse whois API
+  slug: open-ipinfo-whois-api
 - collection_type: open
   name: IPinfo.io OpenAPI Specification
   slug: open-ipinfo
@@ -657,7 +711,7 @@ plans:
 - name: Ipinfo Plans Pricing
   plan_count: 6
   slug: ipinfo-plans-pricing
-random_paper: 45
+random_paper: 49
 rate_limits:
 - limit_count: 9
   name: Ipinfo Rate Limits
@@ -707,7 +761,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/screenshots/ipinfo-2026-06-20T183555.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -68,8 +68,26 @@ apis:
 - description: 'Partner-registered webhook endpoints invoked by Heap. The only documented action type is `segment.users.sync`, which delivers delta adds/removes for a Heap behavioral segment. Signature verification: '
   name: Heap Webhooks API
   slug: heap-webhooks-api
-artifact_total: 34
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Heap Server-Side Add Account Properties API
+  slug: open-heap-add-account-properties-api
+- collection_type: open
+  name: Heap Server-Side Add Account Properties Add User Properties API
+  slug: open-heap-add-user-properties-api
+- collection_type: open
+  name: Heap Server-Side Add Account Properties Identify API
+  slug: open-heap-identify-api
+- collection_type: open
+  name: Heap Server-Side Add Account Properties Track API
+  slug: open-heap-track-api
+- collection_type: open
+  name: Heap Server-Side Add Account Properties Webhooks API
+  slug: open-heap-webhooks-api
 - collection_type: open
   name: Heap Partner Webhooks (Data-out API)
   slug: open-heap-webhooks
@@ -186,7 +204,7 @@ plans:
 - name: Heap Plans Pricing
   plan_count: 4
   slug: heap-plans-pricing
-random_paper: 54
+random_paper: 116
 rate_limits:
 - limit_count: 3
   name: Heap Rate Limits
@@ -211,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/screenshots/heap-2026-06-20T182602.png
 security:

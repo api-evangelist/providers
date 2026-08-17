@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Upload and query evaluation snapshots (reports and test suites)
   name: Evidently AI Snapshots API
   slug: evidently-snapshots-api
-artifact_total: 11
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Evidently Platform REST Dashboards API
+  slug: open-evidently-dashboards-api
+- collection_type: open
+  name: Evidently Platform REST Dashboards Projects API
+  slug: open-evidently-projects-api
+- collection_type: open
+  name: Evidently Platform REST Dashboards Service API
+  slug: open-evidently-service-api
+- collection_type: open
+  name: Evidently Platform REST Dashboards Snapshots API
+  slug: open-evidently-snapshots-api
 common:
 - group: operate
   title: ''
@@ -161,7 +177,7 @@ plans:
 - name: Evidently Plans Pricing
   plan_count: 3
   slug: evidently-plans-pricing
-random_paper: 20
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Evidently Rate Limits
@@ -186,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/screenshots/evidently-2026-06-20T180913.png
 security:

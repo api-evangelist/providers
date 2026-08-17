@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Catalog of AI voices and accents.
   name: Creatify Voices API
   slug: creatify-voices-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Creatify AI Avatar API
+  slug: open-creatify-ai-avatar-api
+- collection_type: open
+  name: Creatify AI Avatar AI Editing API
+  slug: open-creatify-ai-editing-api
+- collection_type: open
+  name: Creatify AI Avatar AI Shorts API
+  slug: open-creatify-ai-shorts-api
+- collection_type: open
+  name: Creatify AI Avatar Custom Templates API
+  slug: open-creatify-custom-templates-api
+- collection_type: open
+  name: Creatify AI Avatar Link-to-Video API
+  slug: open-creatify-link-to-video-api
+- collection_type: open
+  name: Creatify AI Avatar Music API
+  slug: open-creatify-music-api
+- collection_type: open
+  name: Creatify AI Avatar Personas API
+  slug: open-creatify-personas-api
+- collection_type: open
+  name: Creatify AI Avatar Product-to-Video API
+  slug: open-creatify-product-to-video-api
+- collection_type: open
+  name: Creatify AI Avatar Text-to-Speech API
+  slug: open-creatify-text-to-speech-api
+- collection_type: open
+  name: Creatify AI Avatar Voices API
+  slug: open-creatify-voices-api
 - collection_type: open
   name: Creatify API
   slug: open-creatify
@@ -135,7 +168,7 @@ plans:
 - name: Creatify Plans Pricing
   plan_count: 6
   slug: creatify-plans-pricing
-random_paper: 15
+random_paper: 110
 rate_limits:
 - limit_count: 4
   name: Creatify Rate Limits
@@ -160,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/screenshots/creatify-2026-07-25T210659.png
 security:

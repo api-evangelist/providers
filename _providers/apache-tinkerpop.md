@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'The Gremlin Server provides WebSocket and HTTP endpoints for submitting Gremlin traversals to a remote graph database. The HTTP API accepts POST requests with Gremlin traversal strings or bytecode at '
@@ -141,7 +141,7 @@ plans:
 - name: Apache Tinkerpop Plans Pricing
   plan_count: 3
   slug: apache-tinkerpop-plans-pricing
-random_paper: 83
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Apache Tinkerpop Rate Limits
@@ -159,7 +159,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tinkerpop/refs/heads/main/screenshots/apache-tinkerpop-2026-06-20T172154.png
 security:

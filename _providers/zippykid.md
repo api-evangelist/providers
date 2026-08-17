@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -63,11 +63,39 @@ apis:
 - description: The zones API from ZippyKid — 5 operation(s) for zones.
   name: ZippyKid zones API
   slug: zippykid-zones-api
-artifact_total: 14
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Zippykid Webhooks
   slug: zippykid-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pressable API Documentation (v1) account API
+  slug: open-zippykid-account-api
+- collection_type: open
+  name: Pressable API Documentation (v1) account activity API
+  slug: open-zippykid-activity-api
+- collection_type: open
+  name: Pressable API Documentation (v1) account auth API
+  slug: open-zippykid-auth-api
+- collection_type: open
+  name: Pressable API Documentation (v1) account collaborators API
+  slug: open-zippykid-collaborators-api
+- collection_type: open
+  name: 'Pressable API Documentation (v1) account http: API'
+  slug: open-zippykid-http-api
+- collection_type: open
+  name: Pressable API Documentation (v1) account mu-plugins API
+  slug: open-zippykid-mu-plugins-api
+- collection_type: open
+  name: Pressable API Documentation (v1) account sites API
+  slug: open-zippykid-sites-api
+- collection_type: open
+  name: Pressable API Documentation (v1) account zones API
+  slug: open-zippykid-zones-api
 common:
 - group: company
   title: ''
@@ -208,7 +236,7 @@ overview: 'ZippyKid publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZippyKid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 44
+random_paper: 139
 scopes:
 - name: Zippykid Scopes
   scope_count: 13
@@ -237,7 +265,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

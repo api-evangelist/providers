@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Open Neural Network Exchange (ONNX) is an open format for representing deep learning models, enabling interoperability between AI frameworks.
@@ -138,7 +138,7 @@ plans:
 - name: Lf Ai And Data Plans Pricing
   plan_count: 3
   slug: lf-ai-and-data-plans-pricing
-random_paper: 64
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Lf Ai And Data Rate Limits
@@ -156,7 +156,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 17.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-ai-and-data/refs/heads/main/screenshots/lf-ai-and-data-2026-06-20T184449.png
 security:

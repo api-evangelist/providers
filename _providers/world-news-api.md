@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Sources API from World News API — 3 operation(s) for sources.
   name: World News API Sources API
   slug: world-news-api-sources-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: World News Geo API
+  slug: open-world-news-api-geo-api
+- collection_type: open
+  name: World Geo News API
+  slug: open-world-news-api-news-api
+- collection_type: open
+  name: World News Geo Sources API
+  slug: open-world-news-api-sources-api
 - collection_type: open
   name: World News API
   slug: open-world-news-api
@@ -90,7 +102,7 @@ plans:
 - name: World News Api Plans Pricing
   plan_count: 3
   slug: world-news-api-plans-pricing
-random_paper: 81
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: World News Api Rate Limits
@@ -115,7 +127,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/world-news-api/refs/heads/main/screenshots/world-news-api-2026-06-20T201617.png
 security:

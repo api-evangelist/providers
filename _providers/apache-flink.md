@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -68,7 +68,38 @@ apis:
 - description: The Taskmanagers API from Apache Flink — 6 operation(s) for taskmanagers.
   name: Apache Flink Taskmanagers API
   slug: apache-flink-taskmanagers-api
-artifact_total: 436
+artifact_total: 446
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flink JobManager REST Cluster API
+  slug: open-apache-flink-cluster-api
+- collection_type: open
+  name: Flink JobManager REST Cluster Config API
+  slug: open-apache-flink-config-api
+- collection_type: open
+  name: Flink JobManager REST Cluster Datasets API
+  slug: open-apache-flink-datasets-api
+- collection_type: open
+  name: Flink JobManager REST Cluster Jars API
+  slug: open-apache-flink-jars-api
+- collection_type: open
+  name: Flink REST Cluster Jobmanager API
+  slug: open-apache-flink-jobmanager-api
+- collection_type: open
+  name: Flink JobManager REST Cluster Jobs API
+  slug: open-apache-flink-jobs-api
+- collection_type: open
+  name: Flink JobManager REST Cluster Overview API
+  slug: open-apache-flink-overview-api
+- collection_type: open
+  name: Flink JobManager REST Cluster Savepoint Disposal API
+  slug: open-apache-flink-savepoint-disposal-api
+- collection_type: open
+  name: Flink JobManager REST Cluster Taskmanagers API
+  slug: open-apache-flink-taskmanagers-api
 common:
 - group: build
   title: ''
@@ -1387,7 +1418,7 @@ plans:
 - name: Apache Flink Plans Pricing
   plan_count: 3
   slug: apache-flink-plans-pricing
-random_paper: 107
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Apache Flink Rate Limits
@@ -1429,7 +1460,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/screenshots/apache-flink-2026-06-20T172057.png
 security:

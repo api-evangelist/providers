@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 107
   human_in_the_loop: 7
@@ -135,8 +135,104 @@ apis:
 - description: A Zone represents a [Domain Name System (DNS) zone](https://wikipedia.org/wiki/DNS_zone) managed by Hetzner authoritative nameservers. Please see [Hetzner Docs](https://docs.hetzner.com/dns-console/dn
   name: Hetzner Zones API
   slug: hetzner-zones-api
-artifact_total: 40
+artifact_total: 72
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hetzner Cloud Actions API
+  slug: open-hetzner-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Certificate Actions API
+  slug: open-hetzner-certificate-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Certificates API
+  slug: open-hetzner-certificates-api
+- collection_type: open
+  name: Hetzner Cloud Actions Data Centers API
+  slug: open-hetzner-data-centers-api
+- collection_type: open
+  name: Hetzner Cloud Actions Firewall Actions API
+  slug: open-hetzner-firewall-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Firewalls API
+  slug: open-hetzner-firewalls-api
+- collection_type: open
+  name: Hetzner Cloud Actions Floating IP Actions API
+  slug: open-hetzner-floating-ip-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Floating IPs API
+  slug: open-hetzner-floating-ips-api
+- collection_type: open
+  name: Hetzner Cloud Actions Image Actions API
+  slug: open-hetzner-image-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Images API
+  slug: open-hetzner-images-api
+- collection_type: open
+  name: Hetzner Cloud Actions ISOs API
+  slug: open-hetzner-isos-api
+- collection_type: open
+  name: Hetzner Cloud Actions Load Balancer Actions API
+  slug: open-hetzner-load-balancer-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Load Balancer Types API
+  slug: open-hetzner-load-balancer-types-api
+- collection_type: open
+  name: Hetzner Cloud Actions Load Balancers API
+  slug: open-hetzner-load-balancers-api
+- collection_type: open
+  name: Hetzner Cloud Actions Locations API
+  slug: open-hetzner-locations-api
+- collection_type: open
+  name: Hetzner Cloud Actions Network Actions API
+  slug: open-hetzner-network-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Networks API
+  slug: open-hetzner-networks-api
+- collection_type: open
+  name: Hetzner Cloud Actions Placement Groups API
+  slug: open-hetzner-placement-groups-api
+- collection_type: open
+  name: Hetzner Cloud Actions Pricing API
+  slug: open-hetzner-pricing-api
+- collection_type: open
+  name: Hetzner Cloud Actions Primary IP Actions API
+  slug: open-hetzner-primary-ip-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Primary IPs API
+  slug: open-hetzner-primary-ips-api
+- collection_type: open
+  name: Hetzner Cloud Actions Server Actions API
+  slug: open-hetzner-server-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Server Types API
+  slug: open-hetzner-server-types-api
+- collection_type: open
+  name: Hetzner Cloud Actions Servers API
+  slug: open-hetzner-servers-api
+- collection_type: open
+  name: Hetzner Cloud Actions SSH Keys API
+  slug: open-hetzner-ssh-keys-api
+- collection_type: open
+  name: Hetzner Cloud Actions Volume Actions API
+  slug: open-hetzner-volume-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Volumes API
+  slug: open-hetzner-volumes-api
+- collection_type: open
+  name: Hetzner Cloud Actions Zone Actions API
+  slug: open-hetzner-zone-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Zone RRSet Actions API
+  slug: open-hetzner-zone-rrset-actions-api
+- collection_type: open
+  name: Hetzner Cloud Actions Zone RRSets API
+  slug: open-hetzner-zone-rrsets-api
+- collection_type: open
+  name: Hetzner Cloud Actions Zones API
+  slug: open-hetzner-zones-api
 - collection_type: open
   name: Hetzner Cloud API
   slug: open-hetzner
@@ -225,7 +321,7 @@ plans:
 - name: Hetzner Plans Pricing
   plan_count: 3
   slug: hetzner-plans-pricing
-random_paper: 48
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Hetzner Rate Limits
@@ -250,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/screenshots/hetzner-2026-06-20T182656.png
 security:

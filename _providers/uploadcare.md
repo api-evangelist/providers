@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: The Webhook API from Uploadcare — 3 operation(s) for webhook.
   name: Uploadcare Webhook API
   slug: uploadcare-webhook-api
-artifact_total: 30
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: URL API Reference Add-Ons API
+  slug: open-uploadcare-add-ons-api
+- collection_type: open
+  name: URL API Reference Add-Ons Conversion API
+  slug: open-uploadcare-conversion-api
+- collection_type: open
+  name: URL API Reference Add-Ons File API
+  slug: open-uploadcare-file-api
+- collection_type: open
+  name: URL API Reference Add-Ons File information API
+  slug: open-uploadcare-file-information-api
+- collection_type: open
+  name: URL API Reference Add-Ons File metadata API
+  slug: open-uploadcare-file-metadata-api
+- collection_type: open
+  name: URL API Reference Add-Ons File names API
+  slug: open-uploadcare-file-names-api
+- collection_type: open
+  name: URL API Reference Add-Ons Group API
+  slug: open-uploadcare-group-api
+- collection_type: open
+  name: URL API Reference Add-Ons Groups API
+  slug: open-uploadcare-groups-api
+- collection_type: open
+  name: URL API Reference Add-Ons Project API
+  slug: open-uploadcare-project-api
+- collection_type: open
+  name: URL API Reference Add-Ons Upload API
+  slug: open-uploadcare-upload-api
+- collection_type: open
+  name: URL API Reference Add-Ons Webhook API
+  slug: open-uploadcare-webhook-api
 common:
 - group: agent
   title: ''
@@ -226,7 +263,7 @@ plans:
 - name: Uploadcare Plans Pricing
   plan_count: 4
   slug: uploadcare-plans-pricing
-random_paper: 96
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Uploadcare Rate Limits
@@ -260,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/screenshots/uploadcare-2026-06-20T200444.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: U.S. Department of Transportation Airport Status Web Service from U.S. Department of Transportation — 2 path(s) described in OpenAPI.
   name: U.S. Department of Transportation Airport Status Web Service
   slug: us-dot-faa-airport-status-web-service-openapi
-artifact_total: 27
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Us Dot Event Surfaces
@@ -72,6 +72,22 @@ asyncapis:
 - description: DERIVED, NOT PUBLISHED BY USDOT. The U.S. Department of Transportation publishes no AsyncAPI document. This document is a faithful derivation of the Kafka topic catalog the USDOT ITS Joint Program Off
   name: USDOT ITS JPO Operational Data Environment (ODE) — Kafka event surface
   slug: us-dot-its-jpo-ode-asyncapi
+collections:
+- collection_type: open
+  name: Aeronautic Product Release API
+  slug: open-us-dot-faa-aeronautic-product-release-api
+- collection_type: open
+  name: PRD Air Carrier API
+  slug: open-us-dot-faa-air-carrier-prd-api
+- collection_type: open
+  name: Airport Status Web Service
+  slug: open-us-dot-faa-airport-status-web-service
+- collection_type: open
+  name: sas-api
+  slug: open-us-dot-faa-safety-assurance-system-api
+- collection_type: open
+  name: ODE REST API
+  slug: open-us-dot-its-jpo-ode-rest-api
 common:
 - group: agent
   title: ''
@@ -303,7 +319,7 @@ overview: 'U.S. Department of Transportation publishes 5 APIs on the [APIs.io](h
 
 
   U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 39 more developer resources.'
-random_paper: 4
+random_paper: 8
 score:
   band: developing
   composite: 48.6
@@ -333,7 +349,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

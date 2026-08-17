@@ -28,10 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 5
+artifact_total: 6
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Celanese API
   slug: open-celanese
@@ -89,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Celanese's Chemille AI Assistant Revolutionizes Material ...
   url: https://www.linkedin.com/posts/useready_materialsscience-enterpriseai-chemicalindustry-activity-7433474582881259520-V9F8
-random_paper: 112
+random_paper: 87
 rate_limits:
 - limit_count: 2
   name: Celanese Rate Limits
@@ -107,7 +110,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celanese/refs/heads/main/screenshots/celanese-2026-06-20T174110.png
 security:

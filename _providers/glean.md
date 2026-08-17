@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -105,8 +105,59 @@ apis:
 - description: The verification API from Glean — 3 operation(s) for verification.
   name: Glean verification API
   slug: glean-verification-api
-artifact_total: 31
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Glean Client REST activity API
+  slug: open-glean-activity-api
+- collection_type: open
+  name: Glean Client REST activity agents API
+  slug: open-glean-agents-api
+- collection_type: open
+  name: Glean Client REST activity announcements API
+  slug: open-glean-announcements-api
+- collection_type: open
+  name: Glean Client REST activity answers API
+  slug: open-glean-answers-api
+- collection_type: open
+  name: Glean Client REST activity chat API
+  slug: open-glean-chat-api
+- collection_type: open
+  name: Glean Client REST activity collections API
+  slug: open-glean-collections-api
+- collection_type: open
+  name: Glean Client REST activity documents API
+  slug: open-glean-documents-api
+- collection_type: open
+  name: Glean Client REST activity governance API
+  slug: open-glean-governance-api
+- collection_type: open
+  name: Glean Client REST activity insights API
+  slug: open-glean-insights-api
+- collection_type: open
+  name: Glean Client REST activity people API
+  slug: open-glean-people-api
+- collection_type: open
+  name: Glean Client REST activity pins API
+  slug: open-glean-pins-api
+- collection_type: open
+  name: Glean Client REST activity search API
+  slug: open-glean-search-api
+- collection_type: open
+  name: Glean Client REST activity shortcuts API
+  slug: open-glean-shortcuts-api
+- collection_type: open
+  name: Glean Client REST activity summarize API
+  slug: open-glean-summarize-api
+- collection_type: open
+  name: Glean Client REST activity tools API
+  slug: open-glean-tools-api
+- collection_type: open
+  name: Glean Client REST activity verification API
+  slug: open-glean-verification-api
 - collection_type: open
   name: Glean Client REST API
   slug: open-glean
@@ -207,7 +258,7 @@ plans:
 - name: Glean Plans Pricing
   plan_count: 1
   slug: glean-plans-pricing
-random_paper: 39
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Glean Rate Limits
@@ -232,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/screenshots/glean-2026-06-20T181906.png
 security:

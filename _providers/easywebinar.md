@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The only anonymously reachable, machine-readable EasyWebinar API surface. The application host publishes a complete OpenID Connect discovery document and RFC 8414 authorization-server metadata, with l
@@ -138,7 +138,7 @@ plans:
 - name: Easywebinar Plans Pricing
   plan_count: 5
   slug: easywebinar-plans-pricing
-random_paper: 98
+random_paper: 135
 rate_limits:
 - limit_count: 0
   name: Easywebinar Rate Limits
@@ -151,6 +151,7 @@ scopes:
 score:
   band: developing
   composite: 46.2
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 51.6
@@ -158,8 +159,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 7.9
+  previous_composite: 46.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Easywebinar Authentication

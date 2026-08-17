@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -75,18 +75,57 @@ apis:
 - description: Create, read, update, and delete webinars.
   name: GoToWebinar Webinars API
   slug: gotowebinar-webinars-api
-artifact_total: 70
+artifact_total: 83
 asyncapis:
 - description: Outbound webhook events delivered by the GoToWebinar webhook infrastructure to a developer-supplied callback URL. All events are HTTP POSTs signed via the `X-Webhook-Signature` header so receivers can
   name: GoToWebinar Webhook Events
   slug: gotowebinar-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GoToWebinar REST Attendees API
+  slug: open-gotowebinar-attendees-api
+- collection_type: open
+  name: GoToWebinar REST Attendees Co-Organizers API
+  slug: open-gotowebinar-co-organizers-api
+- collection_type: open
+  name: GoToWebinar REST Attendees Panelists API
+  slug: open-gotowebinar-panelists-api
+- collection_type: open
+  name: GoToWebinar REST Attendees Polls API
+  slug: open-gotowebinar-polls-api
+- collection_type: open
+  name: GoToWebinar REST Attendees Questions API
+  slug: open-gotowebinar-questions-api
+- collection_type: open
+  name: GoToWebinar REST Attendees Recordings API
+  slug: open-gotowebinar-recordings-api
+- collection_type: open
+  name: GoToWebinar REST Attendees Registrants API
+  slug: open-gotowebinar-registrants-api
+- collection_type: open
   name: GoToWebinar REST API
   slug: open-gotowebinar-rest
 - collection_type: open
+  name: GoToWebinar REST Attendees Sessions API
+  slug: open-gotowebinar-sessions-api
+- collection_type: open
+  name: GoToWebinar REST Attendees Surveys API
+  slug: open-gotowebinar-surveys-api
+- collection_type: open
+  name: GoToWebinar REST Attendees User Subscriptions API
+  slug: open-gotowebinar-user-subscriptions-api
+- collection_type: open
+  name: GoToWebinar REST Attendees Webhooks API
+  slug: open-gotowebinar-webhooks-api
+- collection_type: open
   name: GoToWebinar Webhooks Management API
   slug: open-gotowebinar-webhooks
+- collection_type: open
+  name: GoToWebinar REST Attendees Webinars API
+  slug: open-gotowebinar-webinars-api
 common:
 - group: agent
   title: ''
@@ -279,7 +318,7 @@ plans:
 - name: Gotowebinar Plans Pricing
   plan_count: 4
   slug: gotowebinar-plans-pricing
-random_paper: 105
+random_paper: 142
 rate_limits:
 - limit_count: 0
   name: Gotowebinar Rate Limits
@@ -334,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/screenshots/gotowebinar-2026-06-20T182257.png
 security:

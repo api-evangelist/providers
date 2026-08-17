@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -69,8 +69,41 @@ apis:
 - description: Event webhooks
   name: Ambra Health Webhooks API
   slug: ambra-health-webhooks-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts API
+  slug: open-ambra-health-accounts-api
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts Groups API
+  slug: open-ambra-health-groups-api
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts Namespaces API
+  slug: open-ambra-health-namespaces-api
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts Patients API
+  slug: open-ambra-health-patients-api
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts Session API
+  slug: open-ambra-health-session-api
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts Sharing API
+  slug: open-ambra-health-sharing-api
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts Storage & Images API
+  slug: open-ambra-health-storage-images-api
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts Studies API
+  slug: open-ambra-health-studies-api
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts Users API
+  slug: open-ambra-health-users-api
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public Accounts Webhooks API
+  slug: open-ambra-health-webhooks-api
 - collection_type: open
   name: Ambra Health (InteleShare) v3 Services Public API
   slug: open-ambra-health
@@ -135,7 +168,7 @@ plans:
 - name: Ambra Health Plans Pricing
   plan_count: 3
   slug: ambra-health-plans-pricing
-random_paper: 110
+random_paper: 147
 rate_limits:
 - limit_count: 4
   name: Ambra Health Rate Limits
@@ -166,7 +199,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/screenshots/ambra-health-2026-07-25T200031.png
 security:

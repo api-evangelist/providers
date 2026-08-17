@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The Arrays API from Slope Software — 2 operation(s) for arrays.
@@ -80,7 +80,53 @@ arazzos:
 - description: Find a model, create a projection from a template, run it, and poll for completion.
   name: Run a SLOPE projection from a template
   slug: slope-software-run-projection
-artifact_total: 20
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Slope Arrays API
+  slug: open-slope-software-arrays-api
+- collection_type: open
+  name: Slope Arrays Authorize API
+  slug: open-slope-software-authorize-api
+- collection_type: open
+  name: Slope Arrays DataTables API
+  slug: open-slope-software-datatables-api
+- collection_type: open
+  name: Slope Arrays DecrementTables API
+  slug: open-slope-software-decrementtables-api
+- collection_type: open
+  name: Slope Arrays Files API
+  slug: open-slope-software-files-api
+- collection_type: open
+  name: Slope Arrays ImprovementScales API
+  slug: open-slope-software-improvementscales-api
+- collection_type: open
+  name: Slope Arrays ModelPointFields API
+  slug: open-slope-software-modelpointfields-api
+- collection_type: open
+  name: Slope Arrays Models API
+  slug: open-slope-software-models-api
+- collection_type: open
+  name: Slope Arrays Products API
+  slug: open-slope-software-products-api
+- collection_type: open
+  name: Slope Arrays Projections API
+  slug: open-slope-software-projections-api
+- collection_type: open
+  name: Slope Arrays Reports API
+  slug: open-slope-software-reports-api
+- collection_type: open
+  name: Slope Arrays ScenarioTables API
+  slug: open-slope-software-scenariotables-api
+- collection_type: open
+  name: Slope Arrays TableStructures API
+  slug: open-slope-software-tablestructures-api
+- collection_type: open
+  name: Slope Arrays Users API
+  slug: open-slope-software-users-api
 common:
 - group: auth
   title: ''
@@ -198,7 +244,7 @@ overview: 'Slope Software publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Slope Software''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 27
+random_paper: 126
 score:
   band: thin
   composite: 41.6
@@ -227,7 +273,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

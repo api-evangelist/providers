@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,8 +66,23 @@ apis:
 - description: Container image releases
   name: Balena Releases API
   slug: balena-releases-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Balena Cloud Applications API
+  slug: open-balena-applications-api
+- collection_type: open
+  name: Balena Cloud Applications Device Tags API
+  slug: open-balena-device-tags-api
+- collection_type: open
+  name: Balena Cloud Applications Devices API
+  slug: open-balena-devices-api
+- collection_type: open
+  name: Balena Cloud Applications Releases API
+  slug: open-balena-releases-api
 - collection_type: open
   name: Balena Cloud API
   slug: open-balena
@@ -176,7 +191,7 @@ plans:
 - name: Balena Plans Pricing
   plan_count: 1
   slug: balena-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Balena Rate Limits
@@ -201,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/screenshots/balena-2026-06-20T172927.png
 security:

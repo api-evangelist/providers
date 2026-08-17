@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -123,7 +123,92 @@ apis:
 - description: The subpackage_websites API from Middesk — 1 operation(s) for subpackage_websites.
   name: Middesk subpackage_websites API
   slug: middesk-subpackage-websites-api
-artifact_total: 60
+artifact_total: 88
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Middesk subpackage_actions API
+  slug: open-middesk-subpackage-actions-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_agents API
+  slug: open-middesk-subpackage-agents-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_applications API
+  slug: open-middesk-subpackage-applications-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_businessBatches API
+  slug: open-middesk-subpackage-businessbatches-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_businesses API
+  slug: open-middesk-subpackage-businesses-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_companies API
+  slug: open-middesk-subpackage-companies-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_connections API
+  slug: open-middesk-subpackage-connections-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_documents API
+  slug: open-middesk-subpackage-documents-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_identities API
+  slug: open-middesk-subpackage-identities-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_informationRequests API
+  slug: open-middesk-subpackage-informationrequests-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_jurisdictions API
+  slug: open-middesk-subpackage-jurisdictions-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_liens API
+  slug: open-middesk-subpackage-liens-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_lienTerminations API
+  slug: open-middesk-subpackage-lienterminations-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_mail API
+  slug: open-middesk-subpackage-mail-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_monitoring API
+  slug: open-middesk-subpackage-monitoring-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_orders API
+  slug: open-middesk-subpackage-orders-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_policyResults API
+  slug: open-middesk-subpackage-policyresults-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_prefill API
+  slug: open-middesk-subpackage-prefill-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_questions API
+  slug: open-middesk-subpackage-questions-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_registrationRequests API
+  slug: open-middesk-subpackage-registrationrequests-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_runs API
+  slug: open-middesk-subpackage-runs-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_signals API
+  slug: open-middesk-subpackage-signals-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_threads API
+  slug: open-middesk-subpackage-threads-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_timeline API
+  slug: open-middesk-subpackage-timeline-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_tinMatch API
+  slug: open-middesk-subpackage-tinmatch-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_webhooks API
+  slug: open-middesk-subpackage-webhooks-api
+- collection_type: open
+  name: Middesk subpackage_actions subpackage_websites API
+  slug: open-middesk-subpackage-websites-api
 common:
 - group: agent
   title: ''
@@ -286,7 +371,7 @@ plans:
 - name: Middesk Plans Pricing
   plan_count: 3
   slug: middesk-plans-pricing
-random_paper: 17
+random_paper: 141
 rules:
 - name: Middesk API Rules
   rule_count: 5
@@ -316,7 +401,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/screenshots/middesk-2026-06-20T185620.png
 security:

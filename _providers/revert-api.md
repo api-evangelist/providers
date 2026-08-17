@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Unified ticketing models - tasks, users, comments, collections.
   name: Revert Ticketing API
   slug: revert-api-ticketing-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Revert Unified Chat API
+  slug: open-revert-api-chat-api
+- collection_type: open
+  name: Revert Unified Chat Connection Management API
+  slug: open-revert-api-connection-management-api
+- collection_type: open
+  name: Revert Unified Chat CRM API
+  slug: open-revert-api-crm-api
+- collection_type: open
+  name: Revert Unified Chat Metadata API
+  slug: open-revert-api-metadata-api
+- collection_type: open
+  name: Revert Unified Chat Proxy API
+  slug: open-revert-api-proxy-api
+- collection_type: open
+  name: Revert Unified Chat Ticketing API
+  slug: open-revert-api-ticketing-api
 - collection_type: open
   name: Revert Unified API
   slug: open-revert-api
@@ -123,7 +144,7 @@ plans:
 - name: Revert Api Plans Pricing
   plan_count: 4
   slug: revert-api-plans-pricing
-random_paper: 63
+random_paper: 129
 rate_limits:
 - limit_count: 4
   name: Revert Api Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

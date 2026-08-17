@@ -15,26 +15,46 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     auth_clarity: false
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 5.9
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/rilla-vulnerability-disclosure.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/rilla-domain-security.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://app.rilla.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/rilla-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/rilla-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/rilla-llms.txt
 - group: company
   title: ''
   type: Website
@@ -42,7 +62,15 @@ common:
 - group: start
   title: ''
   type: Login
-  url: https://app.rillavoice.com/
+  url: https://app.rilla.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rilla.com/learn/rilla-labs
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/rillavoice
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -55,39 +83,68 @@ common:
   title: ''
   type: ChangeLog
   url: https://www.rilla.com/changelog
+coverage:
+  checked: '2026-08-14'
+  detail: Rilla's production API is the private backend of its own apps — every path under https://api.rillavoice.com/api/v1/ returns HTTP 401 "Invalid Token" and requires an active tenant session — and Rilla publishes no developer portal, reference or spec anywhere on rilla.com to read instead.
+  evidence:
+  - status: 401
+    url: https://api.rillavoice.com/api/v1/
+  - status: 401
+    url: https://api.rillavoice.com/api/v1/openapi.json
+  - status: 403
+    url: https://api.apirilla.com/openapi.json
+  - status: 404
+    url: https://www.rilla.com/llms.txt
+  - status: 200
+    url: https://app.rilla.com/.well-known/security.txt
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
-description: Rilla is an AI conversation-intelligence and coaching platform built for in-person and outside sales teams. Reps record their face-to-face customer conversations, and Rilla transcribes and analyzes them so managers can run virtual "ridealongs" and deliver targeted, data-driven coaching at scale. The platform surfaces talk patterns, objection handling, and outcome analytics across thousands of field conversations to help teams raise close rates, increase ticket size, and speed up rep ramp. Rilla is a GV (Google Ventures) portfolio company in the AI sector. As of this profile Rilla exposes no public developer API, documentation portal, or SDKs; this record captures its public web identity and a domain-security probe.
+description: Rilla is an AI conversation-intelligence and coaching platform built for in-person and outside sales teams. Reps record their face-to-face customer conversations, and Rilla transcribes and analyzes them so managers can run virtual "ridealongs" and deliver targeted, data-driven coaching at scale. The platform surfaces talk patterns, objection handling, and outcome analytics across thousands of field conversations to help teams raise close rates, increase ticket size, and speed up rep ramp. Rilla is a GV (Google Ventures) portfolio company in the AI sector. Rilla runs a real production API — api.rillavoice.com/api/v1/, the private backend of its web and mobile apps, which answers every path with 401 Invalid Token — plus an AWS API Gateway webhook receiver its partner SPOTIO documents, but it publishes no developer portal, reference, SDK, or machine-readable specification of any kind, and its CRM integrations are delivered by consuming the Merge unified API rather than by exposing
+  a contract. This record captures its public web identity, the RFC 9116 security.txt it serves from app.rilla.com, and live domain-security and well-known probes.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rilla.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: Rilla
 nav: Providers
 network: true
 overview: 'Rilla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Conversation Intelligence, Sales, and Coaching.
 
 
-  Rilla''s developer surface includes changelog and 5 more developer resources.'
-random_paper: 52
+  Rilla''s developer surface includes engineering blog, changelog, and 11 more developer resources.'
+plans:
+- name: Rilla Plans Pricing
+  plan_count: 0
+  slug: rilla-plans-pricing
+random_paper: 85
+rate_limits:
+- limit_count: 0
+  name: Rilla Rate Limits
+  slug: rilla-rate-limits
 score:
   band: emerging
-  composite: 13.9
-  delta: 0.0
+  composite: 18.2
+  delta: 4.3
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 2.2
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 31.6
   previous_composite: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security
   name: Rilla Domain Security
   slug: rilla-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Rilla Vulnerability Disclosure
+  slug: rilla-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: rilla
 tags:
 - Company

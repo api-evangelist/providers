@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -51,19 +51,22 @@ apis:
 - description: Retrieve the authenticated account record including the configured currency, default offset type preferences, and the public/private API key context. Useful for confirming which environment (sandbox v
   name: Cloverly Account API
   slug: cloverly-account-api
-artifact_total: 23
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Cloverly Account API
   slug: open-cloverly-account-api
 - collection_type: open
-  name: Cloverly Estimates API
+  name: Cloverly Account Estimates API
   slug: open-cloverly-estimates-api
 - collection_type: open
-  name: Cloverly Offset Types API
+  name: Cloverly Account Offset Types API
   slug: open-cloverly-offset-types-api
 - collection_type: open
-  name: Cloverly Purchases API
+  name: Cloverly Account Purchases API
   slug: open-cloverly-purchases-api
 common:
 - group: agent
@@ -235,7 +238,7 @@ plans:
 - name: Cloverly Plans Pricing
   plan_count: 3
   slug: cloverly-plans-pricing
-random_paper: 40
+random_paper: 135
 rate_limits:
 - limit_count: 2
   name: Cloverly Rate Limits
@@ -283,7 +286,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/screenshots/cloverly-2026-06-20T174623.png
 security:

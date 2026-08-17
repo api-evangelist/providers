@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,8 +63,26 @@ apis:
 - description: The UserAnalytics API from Windsurf — 1 operation(s) for useranalytics.
   name: Windsurf UserAnalytics API
   slug: windsurf-useranalytics-api
-artifact_total: 17
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Windsurf Enterprise Analytics CascadeAnalytics API
+  slug: open-windsurf-cascadeanalytics-api
+- collection_type: open
+  name: Windsurf Enterprise Analytics CascadeAnalytics CreditBalance API
+  slug: open-windsurf-creditbalance-api
+- collection_type: open
+  name: Windsurf Enterprise Analytics CascadeAnalytics CustomAnalytics API
+  slug: open-windsurf-customanalytics-api
+- collection_type: open
+  name: Windsurf Enterprise Analytics CascadeAnalytics UsageConfiguration API
+  slug: open-windsurf-usageconfiguration-api
+- collection_type: open
+  name: Windsurf Enterprise Analytics CascadeAnalytics UserAnalytics API
+  slug: open-windsurf-useranalytics-api
 - collection_type: open
   name: Windsurf Enterprise Analytics API
   slug: open-windsurf
@@ -145,7 +163,7 @@ plans:
 - name: Windsurf Plans Pricing
   plan_count: 1
   slug: windsurf-plans-pricing
-random_paper: 42
+random_paper: 137
 rate_limits:
 - limit_count: 1
   name: Windsurf Rate Limits
@@ -170,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/screenshots/windsurf-2026-06-20T201508.png
 security:

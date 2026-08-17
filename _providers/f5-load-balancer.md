@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -90,17 +90,71 @@ apis:
 - description: Manage virtual servers that direct client traffic to appropriate server pools based on configured rules and profiles.
   name: F5 Load Balancer Virtual Servers API
   slug: f5-load-balancer-virtual-servers-api
-artifact_total: 27
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) API
   slug: open-f5-load-balancer-as3
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config API
+  slug: open-f5-load-balancer-config-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Data Groups API
+  slug: open-f5-load-balancer-data-groups-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Declarations API
+  slug: open-f5-load-balancer-declarations-api
 - collection_type: open
   name: F5 Load Balancer F5 BIG-IP Declarative Onboarding (DO) API
   slug: open-f5-load-balancer-declarative-onboarding
 - collection_type: open
   name: F5 Load Balancer F5 BIG-IP iControl REST API
   slug: open-f5-load-balancer-icontrol-rest
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Info API
+  slug: open-f5-load-balancer-info-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Inspect API
+  slug: open-f5-load-balancer-inspect-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config iRules API
+  slug: open-f5-load-balancer-irules-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Monitors API
+  slug: open-f5-load-balancer-monitors-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Nodes API
+  slug: open-f5-load-balancer-nodes-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Policies API
+  slug: open-f5-load-balancer-policies-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Pool Members API
+  slug: open-f5-load-balancer-pool-members-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Pools API
+  slug: open-f5-load-balancer-pools-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Profiles API
+  slug: open-f5-load-balancer-profiles-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config SNAT Pools API
+  slug: open-f5-load-balancer-snat-pools-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config SSL Certificates API
+  slug: open-f5-load-balancer-ssl-certificates-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config System API
+  slug: open-f5-load-balancer-system-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Tasks API
+  slug: open-f5-load-balancer-tasks-api
+- collection_type: open
+  name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Virtual Servers API
+  slug: open-f5-load-balancer-virtual-servers-api
 common:
 - group: agent
   title: ''
@@ -170,7 +224,7 @@ plans:
 - name: F5 Load Balancer Plans Pricing
   plan_count: 4
   slug: f5-load-balancer-plans-pricing
-random_paper: 45
+random_paper: 144
 rate_limits:
 - limit_count: 3
   name: F5 Load Balancer Rate Limits
@@ -195,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/screenshots/f5-load-balancer-2026-06-20T180957.png
 security:

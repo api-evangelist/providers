@@ -10,31 +10,39 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 47.3
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
 - description: Demostack webhooks push real-time demo engagement events to any CRM, data warehouse, BI tool, or custom HTTP endpoint. Events are fired when prospects view, interact with, or complete a demo, enabling
   name: Demostack Webhooks
   slug: demostack-webhooks
-artifact_total: 8
+- description: 'Demostack MCP is a first-party remote Model Context Protocol server that brings demo intelligence into Claude, ChatGPT, Gemini, and any other MCP-compatible client. It is a live HTTPS endpoint an MCP '
+  name: Demostack MCP
+  slug: demostack-mcp
+artifact_total: 13
+asyncapis:
+- description: ''
+  name: Demostack Events Webhooks
+  slug: demostack-events-webhooks
 common:
 - group: auth
   title: ''
@@ -46,8 +54,20 @@ common:
   url: security/demostack-vulnerability-disclosure.yml
 - group: auth
   title: ''
+  type: Security
+  url: https://www.demostack.com/trust-center
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.demostack.com/trust-center
+- group: auth
+  title: ''
   type: DomainSecurity
   url: security/demostack-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/demostack-conformance.yml
 - group: company
   title: ''
   type: Website
@@ -55,11 +75,11 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.demostack.com/platform/integration/hubspot
-- group: build
+  url: https://help.demostack.com/
+- group: operate
   title: ''
-  type: GitHubOrg
-  url: https://github.com/demostack
+  type: Support
+  url: https://www.demostack.com/contact-us
 - group: company
   title: ''
   type: LinkedIn
@@ -72,10 +92,30 @@ common:
   title: ''
   type: Pricing
   url: https://www.demostack.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://app.demostack.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.demostack.com/termsandconditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.demostack.com/privacy
 - group: operate
   title: ''
   type: StatusPage
   url: https://status.demostack.com
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/demostack-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/demostack-changelog.yml
 - group: other
   title: ''
   type: X
@@ -92,8 +132,40 @@ common:
   title: ''
   type: FinOps
   url: finops/demostack-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/demostack-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/demostack-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/demostack-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/demostack-scopes.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/demostack-events-webhooks.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/demostack-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/demostack-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/demostack-llms.txt
 created: '2026-06-13'
-description: Demostack is an enterprise-grade product simulation and demo automation platform that enables SaaS go-to-market teams to create, deliver, and analyze interactive product demos at scale. The platform provides a patented Cloner technology that converts live product workflows into fully independent demo environments, allowing sales engineers to personalize demo data and product experiences without touching production systems. Demostack exposes webhooks and native CRM integrations to push real-time demo engagement events into Salesforce, HubSpot, Slack, and custom endpoints, enabling revenue teams to measure how demos impact deals. The platform additionally supports an MCP connector so demo intelligence can be queried through AI assistants such as Claude, ChatGPT, and Gemini using natural language.
+description: Demostack is an enterprise-grade product simulation and demo automation platform that enables SaaS go-to-market teams to create, deliver, and analyze interactive product demos at scale. The platform provides a patented Cloner technology that converts live product workflows into fully independent demo environments, allowing sales engineers to personalize demo data and product experiences without touching production systems. Demostack exposes webhooks and native CRM integrations to push real-time demo engagement events into Salesforce, HubSpot, Slack, and custom endpoints, enabling revenue teams to measure how demos impact deals. The platform additionally ships a first-party remote MCP server so demo intelligence can be queried through AI assistants such as Claude, ChatGPT, and Gemini using natural language. Demostack publishes no public API reference or OpenAPI definition; its machine-readable surface is the OAuth-protected MCP endpoint and the in-product webhook configuration.
 finops:
 - name: Demostack Finops
   service_category: ''
@@ -105,43 +177,56 @@ jsonld:
   property_count: 17
   slug: demostack-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: demostack-mcp.yml
+  slug: demostack-mcpyml
+modified: '2026-08-14'
 name: Demostack
 nav: Providers
 network: true
-overview: 'Demostack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Demo, Demo Automation, Product Simulation, Webhooks, and CRM Integration.
+overview: 'Demostack publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Demo, Demo Automation, Product Simulation, Webhooks, and CRM Integration.
 
 
-  The Demostack catalog on APIs.io includes 1 JSON-LD context.
+  The Demostack catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Demostack''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Demostack''s developer surface includes documentation, support, engineering blog, pricing, changelog, authentication, and 24 more developer resources.'
 plans:
 - name: Demostack Plans Pricing
-  plan_count: 4
+  plan_count: 0
   slug: demostack-plans-pricing
-random_paper: 115
+random_paper: 61
 rate_limits:
-- limit_count: 4
+- limit_count: 0
   name: Demostack Rate Limits
   slug: demostack-rate-limits
+scopes:
+- name: Demostack Scopes
+  scope_count: 4
+  slug: demostack-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 31.9
-  delta: 0.0
+  band: developing
+  composite: 54.7
+  delta: 22.8
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 17.7
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 52.6
+    commercial_clarity: 68.4
+    contract_quality: 69.4
+    developer_ergonomics: 34.8
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 50.0
   previous_composite: 31.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/screenshots/demostack-2026-06-20T175910.png
 security:
+- kind: authentication
+  name: Demostack Authentication
+  slug: demostack-authentication
+  summary_line: oauth2 · 4 schemes
 - kind: domain-security
   name: Demostack Domain Security
   slug: demostack-domain-security
@@ -149,11 +234,11 @@ security:
 - kind: vulnerability-disclosure
   name: Demostack Vulnerability Disclosure
   slug: demostack-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
 - kind: trust-center
   name: Demostack Trust Center
   slug: demostack-trust-center
-  summary_line: SOC 2
+  summary_line: SOC 2 Type II, HIPAA, GDPR, CCPA
 slug: demostack
 tags:
 - Sales Demo
@@ -166,5 +251,6 @@ tags:
 - Sales Engineering
 - Analytics
 - AI
+- MCP
 website: https://www.demostack.com
 ---

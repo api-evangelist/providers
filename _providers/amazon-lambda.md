@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -70,11 +70,20 @@ arazzos:
 - description: Push new function code, wait for the update to settle, then invoke to verify.
   name: Amazon Lambda Update Code and Verify
   slug: amazon-lambda-update-code-and-verify-workflow
-artifact_total: 47
+artifact_total: 50
 collections:
 - collection_type: postman
   name: Amazon Lambda API
   slug: postman-amazon-lambda
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Lambda Event Source Mappings API
+  slug: open-amazon-lambda-event-source-mappings-api
+- collection_type: open
+  name: Amazon Lambda Event Source Mappings Functions API
+  slug: open-amazon-lambda-functions-api
 - collection_type: open
   name: Amazon Lambda API
   slug: open-amazon-lambda
@@ -296,7 +305,7 @@ plans:
 - name: Amazon Lambda Plans Pricing
   plan_count: 3
   slug: amazon-lambda-plans-pricing
-random_paper: 100
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Amazon Lambda Rate Limits
@@ -338,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/screenshots/amazon-lambda-2026-06-20T171722.png
 security:

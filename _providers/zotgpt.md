@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The first-generation ZotGPT developer API, an OpenAI-compatible chat completions endpoint fronted by Azure API Management and available to UCI faculty and staff with "$200 in initial API credits to ge
@@ -37,7 +37,14 @@ apis:
 - description: ZotGPT (UC Irvine) ZotGPT Gateway from ZotGPT (UC Irvine) — 2 path(s) described in OpenAPI.
   name: ZotGPT (UC Irvine) ZotGPT Gateway
   slug: zotgpt-gateway-openapi
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: ZotGPT API (Deprecated)
+  slug: open-zotgpt-api
+- collection_type: open
+  name: ZotGPT Gateway
+  slug: open-zotgpt-gateway
 common:
 - group: company
   title: ''
@@ -196,7 +203,7 @@ plans:
 - name: Zotgpt Plans Pricing
   plan_count: 5
   slug: zotgpt-plans-pricing
-random_paper: 80
+random_paper: 84
 rate_limits:
 - limit_count: 6
   name: Zotgpt Rate Limits
@@ -222,7 +229,7 @@ score:
       total: 2
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

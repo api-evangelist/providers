@@ -10,9 +10,9 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
@@ -20,16 +20,16 @@ agent_readiness:
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 58.3
+  scored_at: '2026-08-17'
+api_count: 6
 apis:
 - description: The org audit shortcut.
   name: Salesgraph Audit API
@@ -40,7 +40,35 @@ apis:
 - description: Polling asynchronous audit runs.
   name: Salesgraph Runs API
   slug: salesgraph-runs-api
-artifact_total: 6
+- description: The Opportunity Management System — query the organization's own visible sales objects, traverse their relationships, inspect where each value came from, and manage continuous, cost-capped research wa
+  name: Salesgraph OMS API
+  slug: salesgraph-oms-api
+- description: A public, unauthenticated JSON status endpoint at /api/status carrying the platform headline, overall status, active incident count, a seven-component health array with per-component lastCheckedAt tim
+  name: Salesgraph Status API
+  slug: salesgraph-status-api
+- description: The remote MCP streamable-HTTP server at salesgraph.com/api/mcp, authenticated with an sg_live_ API key. It exposes 19 documented tools across three families — GTM commands (research, competitors, gtm
+  name: Salesgraph MCP Server
+  slug: salesgraph-mcp-server
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesgraph REST Audit API
+  slug: open-salesgraph-audit-api
+- collection_type: open
+  name: Salesgraph REST Audit Commands API
+  slug: open-salesgraph-commands-api
+- collection_type: open
+  name: Salesgraph REST OMS API
+  slug: open-salesgraph-oms-api
+- collection_type: open
+  name: Salesgraph REST Audit Runs API
+  slug: open-salesgraph-runs-api
+- collection_type: open
+  name: Salesgraph Platform Status API
+  slug: open-salesgraph-status-api
 common:
 - group: other
   title: ''
@@ -122,34 +150,79 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://salesgraph.com/privacy
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/salesgraph-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/salesgraph-a2a.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/salesgraph-well-known.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/salesgraph-conventions.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://salesgraph.com/status
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/salesgraph-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/salesgraph-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/salesgraph-packages.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://salesgraph.com/login
 created: '2026-07-17'
-description: 'Salesgraph is a Y Combinator-backed revenue automation platform that uses proactive AI agents to accelerate enterprise sales cycles — automating pre-call research, discovery analysis, follow-up communications, and collateral generation (business cases, mutual action plans, ROI calculators) from a shared organizational context graph. Beyond the product, Salesgraph ships a developer surface: a published MCP (Model Context Protocol) streamable-HTTP server at salesgraph.com/api/mcp and an equivalent REST API under /api/v1, both API-key authenticated, exposing GTM research and audit tools (research, competitors, gtm_audit, org_audit) that return cited markdown. It integrates with Salesforce, HubSpot, Attio, Outreach, Salesloft, Gong, and others, targeting mid-market and enterprise revenue teams in dev tools, SaaS, and cybersecurity.'
+description: 'Salesgraph is a Y Combinator-backed revenue automation platform that uses proactive AI agents to accelerate enterprise sales cycles — automating pre-call research, discovery analysis, follow-up communications, and collateral generation (business cases, mutual action plans, ROI calculators) from a shared organizational context graph. Beyond the product, Salesgraph ships a developer surface: a published MCP (Model Context Protocol) streamable-HTTP server at salesgraph.com/api/mcp and an equivalent REST API under /api/v1, both API-key authenticated, exposing 19 tools across GTM research and audit commands (research, competitors, gtm_audit, org_audit) that return cited markdown, and an OMS (Opportunity Management System) family that returns JSON — searching, traversing and tracing the provenance of the organization''s own Accounts and Opportunities, and putting cost-capped continuous research watches on them. OMS write intent always routes through a human approval request rather
+  than a direct write. It also serves an A2A agent card and a packaged Agent Skill from its docs host, and a public unauthenticated status API. It integrates with Salesforce, HubSpot, Attio, Outreach, Salesloft, Gong, and others, targeting mid-market and enterprise revenue teams in dev tools, SaaS, and cybersecurity.'
 image: https://salesgraph.com/opengraph-image
 layout: provider
 mcp_servers:
 - description: ''
   name: salesgraph-mcp.yml
   slug: salesgraph-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Salesgraph
 nav: Providers
 network: true
-overview: 'Salesgraph publishes 3 APIs on the [APIs.io](https://apis.io/) network: Audit API, Commands API, and Runs API. Tagged areas include Company, Sales, Revenue Automation, Go-To-Market, and AI Agents.
+overview: 'Salesgraph publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Commands API, Runs API, and 2 more. Tagged areas include Company, Sales, Revenue Automation, Go-To-Market, and AI Agents.
 
 
-  Salesgraph''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 13 more developer resources.'
-random_paper: 106
+  Salesgraph''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
+plans:
+- name: Salesgraph Plans Pricing
+  plan_count: 0
+  slug: salesgraph-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Salesgraph Rate Limits
+  slug: salesgraph-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 36.9
+  delta: 4.6
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 15.8
+    commercial_clarity: 34.2
+    contract_quality: 15.6
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 15.8
+    operational_transparency: 31.6
   previous_composite: 32.3
   provenance:
     conformance: derived
@@ -161,7 +234,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

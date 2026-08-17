@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ arazzos:
 - description: Create a sandbox test customer, set eligibility, create an order, and approve it.
   name: Simulate an approved order in the sandbox
   slug: slope-sandbox-approve-order
-artifact_total: 21
+artifact_total: 32
 asyncapis:
 - description: Generated event surface for Slope webhooks. Payload schemas documented at https://developers.slopepay.com/docs/schema. Signed via the Slope-Signature header (HMAC-SHA256).
   name: Slope Webhook Events
@@ -89,6 +89,40 @@ asyncapis:
 - description: ''
   name: Slope Webhooks
   slug: slope-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Slope v4 Auth API
+  slug: open-slope-auth-api
+- collection_type: open
+  name: Slope v4 Auth Customers API
+  slug: open-slope-customers-api
+- collection_type: open
+  name: Slope v4 Auth Files API
+  slug: open-slope-files-api
+- collection_type: open
+  name: Slope v4 Auth Orders API
+  slug: open-slope-orders-api
+- collection_type: open
+  name: Slope v4 Auth Payout Accounts API
+  slug: open-slope-payout-accounts-api
+- collection_type: open
+  name: Slope v4 Auth Persons API
+  slug: open-slope-persons-api
+- collection_type: open
+  name: Slope v4 Auth Prescreens API
+  slug: open-slope-prescreens-api
+- collection_type: open
+  name: Slope v4 Auth Simulation API
+  slug: open-slope-simulation-api
+- collection_type: open
+  name: Slope v4 Auth Transactions API
+  slug: open-slope-transactions-api
+- collection_type: open
+  name: Slope v4 Auth User Links API
+  slug: open-slope-user-links-api
 common:
 - group: company
   title: ''
@@ -249,7 +283,7 @@ overview: 'Slope publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slope''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, changelog, and 28 more developer resources.'
-random_paper: 67
+random_paper: 100
 rate_limits:
 - limit_count: 0
   name: Slope Rate Limits
@@ -283,7 +317,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: The Webhooks API from Mailgun — 2 operation(s) for webhooks.
   name: Mailgun Webhooks API
   slug: mailgun-webhooks-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mailgun Domains API
+  slug: open-mailgun-domains-api
+- collection_type: open
+  name: Mailgun Domains Events API
+  slug: open-mailgun-events-api
+- collection_type: open
+  name: Mailgun Domains Mailing Lists API
+  slug: open-mailgun-mailing-lists-api
+- collection_type: open
+  name: Mailgun Domains Messages API
+  slug: open-mailgun-messages-api
+- collection_type: open
+  name: Mailgun Domains Routes API
+  slug: open-mailgun-routes-api
+- collection_type: open
+  name: Mailgun Domains Suppressions API
+  slug: open-mailgun-suppressions-api
+- collection_type: open
+  name: Mailgun Domains Webhooks API
+  slug: open-mailgun-webhooks-api
 - collection_type: open
   name: Mailgun Webhooks
   slug: open-mailgun-webhooks-asyncapi
@@ -135,7 +159,7 @@ overview: 'Mailgun publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mailgun''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 29
+random_paper: 4
 score:
   band: thin
   composite: 34.9
@@ -156,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/screenshots/mailgun-2026-06-20T184856.png
 security:

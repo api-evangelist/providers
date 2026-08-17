@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,8 +71,44 @@ apis:
 - description: The Weather API from OpenF1 — 1 operation(s) for weather.
   name: OpenF1 Weather API
   slug: openf1-weather-api
-artifact_total: 23
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenF1 Drivers API
+  slug: open-openf1-drivers-api
+- collection_type: open
+  name: OpenF1 Drivers Laps API
+  slug: open-openf1-laps-api
+- collection_type: open
+  name: OpenF1 Drivers Meetings API
+  slug: open-openf1-meetings-api
+- collection_type: open
+  name: OpenF1 Drivers Pit API
+  slug: open-openf1-pit-api
+- collection_type: open
+  name: OpenF1 Drivers Position API
+  slug: open-openf1-position-api
+- collection_type: open
+  name: OpenF1 Drivers RaceControl API
+  slug: open-openf1-racecontrol-api
+- collection_type: open
+  name: OpenF1 Drivers Sessions API
+  slug: open-openf1-sessions-api
+- collection_type: open
+  name: OpenF1 Drivers Stints API
+  slug: open-openf1-stints-api
+- collection_type: open
+  name: OpenF1 Drivers TeamRadio API
+  slug: open-openf1-teamradio-api
+- collection_type: open
+  name: OpenF1 Drivers Telemetry API
+  slug: open-openf1-telemetry-api
+- collection_type: open
+  name: OpenF1 Drivers Weather API
+  slug: open-openf1-weather-api
 - collection_type: open
   name: OpenF1 API
   slug: open-openf1
@@ -134,7 +170,7 @@ plans:
 - name: Openf1 Plans Pricing
   plan_count: 3
   slug: openf1-plans-pricing
-random_paper: 105
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Openf1 Rate Limits
@@ -168,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/screenshots/openf1-2026-06-20T190958.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Create, update, and list trips for trip tracking.
   name: Radar Trips API
   slug: radar-io-trips-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Radar Addresses API
+  slug: open-radar-io-addresses-api
+- collection_type: open
+  name: Radar Addresses Events API
+  slug: open-radar-io-events-api
+- collection_type: open
+  name: Radar Addresses Geocoding API
+  slug: open-radar-io-geocoding-api
+- collection_type: open
+  name: Radar Addresses Geofences API
+  slug: open-radar-io-geofences-api
+- collection_type: open
+  name: Radar Addresses Routing API
+  slug: open-radar-io-routing-api
+- collection_type: open
+  name: Radar Addresses Search API
+  slug: open-radar-io-search-api
+- collection_type: open
+  name: Radar Addresses Tiles API
+  slug: open-radar-io-tiles-api
+- collection_type: open
+  name: Radar Addresses Track API
+  slug: open-radar-io-track-api
+- collection_type: open
+  name: Radar Addresses Trips API
+  slug: open-radar-io-trips-api
 - collection_type: open
   name: Radar API
   slug: open-radar-io
@@ -136,7 +166,7 @@ plans:
 - name: Radar Io Plans Pricing
   plan_count: 2
   slug: radar-io-plans-pricing
-random_paper: 63
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Radar Io Rate Limits
@@ -161,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

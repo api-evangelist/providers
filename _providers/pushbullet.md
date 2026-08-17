@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -71,11 +71,41 @@ apis:
 - description: The Users API from Pushbullet — 1 operation(s) for users.
   name: Pushbullet Users API
   slug: pushbullet-users-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Pushbullet Realtime Event Stream
   slug: open-pushbullet-asyncapi
+- collection_type: open
+  name: Pushbullet HTTP Channels API
+  slug: open-pushbullet-channels-api
+- collection_type: open
+  name: Pushbullet HTTP Channels Chats API
+  slug: open-pushbullet-chats-api
+- collection_type: open
+  name: Pushbullet HTTP Channels Devices API
+  slug: open-pushbullet-devices-api
+- collection_type: open
+  name: Pushbullet HTTP Channels Ephemerals API
+  slug: open-pushbullet-ephemerals-api
+- collection_type: open
+  name: Pushbullet HTTP Channels Pushes API
+  slug: open-pushbullet-pushes-api
+- collection_type: open
+  name: Pushbullet HTTP Channels Subscriptions API
+  slug: open-pushbullet-subscriptions-api
+- collection_type: open
+  name: Pushbullet HTTP Channels Texts API
+  slug: open-pushbullet-texts-api
+- collection_type: open
+  name: Pushbullet HTTP Channels Upload API
+  slug: open-pushbullet-upload-api
+- collection_type: open
+  name: Pushbullet HTTP Channels Users API
+  slug: open-pushbullet-users-api
 - collection_type: open
   name: Pushbullet HTTP API
   slug: open-pushbullet
@@ -144,7 +174,7 @@ overview: 'Pushbullet publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Pushbullet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 16
+random_paper: 53
 scopes:
 - name: Pushbullet Scopes
   scope_count: 1
@@ -176,7 +206,7 @@ score:
     regime_id: telecommunications
     score: 40.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/screenshots/pushbullet-2026-06-20T192316.png
 security:

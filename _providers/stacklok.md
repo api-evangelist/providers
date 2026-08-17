@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 8
@@ -67,7 +67,50 @@ apis:
 - description: The workloads API from Stacklok — 13 operation(s) for workloads.
   name: Stacklok workloads API
   slug: stacklok-workloads-api
-artifact_total: 17
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ToolHive Registry clients API
+  slug: open-stacklok-clients-api
+- collection_type: open
+  name: ToolHive Registry clients discovery API
+  slug: open-stacklok-discovery-api
+- collection_type: open
+  name: ToolHive Registry clients groups API
+  slug: open-stacklok-groups-api
+- collection_type: open
+  name: ToolHive Registry clients logs API
+  slug: open-stacklok-logs-api
+- collection_type: open
+  name: ToolHive clients registry API
+  slug: open-stacklok-registry-api
+- collection_type: open
+  name: ToolHive Registry clients registry-servers API
+  slug: open-stacklok-registry-servers-api
+- collection_type: open
+  name: ToolHive Registry clients registry-skills API
+  slug: open-stacklok-registry-skills-api
+- collection_type: open
+  name: ToolHive Registry clients secrets API
+  slug: open-stacklok-secrets-api
+- collection_type: open
+  name: ToolHive Registry clients skills API
+  slug: open-stacklok-skills-api
+- collection_type: open
+  name: ToolHive Registry clients system API
+  slug: open-stacklok-system-api
+- collection_type: open
+  name: ToolHive Registry clients v1 API
+  slug: open-stacklok-v1-api
+- collection_type: open
+  name: ToolHive Registry clients version API
+  slug: open-stacklok-version-api
+- collection_type: open
+  name: ToolHive Registry clients workloads API
+  slug: open-stacklok-workloads-api
 common:
 - group: agent
   title: ''
@@ -101,7 +144,7 @@ name: Stacklok
 nav: Providers
 network: true
 overview: Stacklok publishes 13 APIs on the [APIs.io](https://apis.io/) network, including clients API, discovery API, groups API, and 10 more. Tagged areas include Company and Open Source.
-random_paper: 20
+random_paper: 115
 score:
   band: emerging
   composite: 19.9
@@ -125,7 +168,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

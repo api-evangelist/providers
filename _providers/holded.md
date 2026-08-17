@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: The Team API from Holded — 2 operation(s) for team.
   name: Holded Team API
   slug: holded-team-api
-artifact_total: 10
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Holded REST Accounting API
+  slug: open-holded-accounting-api
+- collection_type: open
+  name: Holded REST Accounting Crm API
+  slug: open-holded-crm-api
+- collection_type: open
+  name: Holded REST Accounting Invoicing API
+  slug: open-holded-invoicing-api
+- collection_type: open
+  name: Holded REST Accounting Projects API
+  slug: open-holded-projects-api
+- collection_type: open
+  name: Holded REST Accounting Team API
+  slug: open-holded-team-api
 - collection_type: open
   name: Holded REST API
   slug: open-holded
@@ -118,7 +136,7 @@ overview: 'Holded publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Holded''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 24
+random_paper: 28
 score:
   band: thin
   composite: 31.7
@@ -139,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Retrieve ingredients and nutritional information for confirmed intakes.
   name: LogMeal Nutrition API
   slug: logmeal-nutrition-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: LogMeal Food Recognition API
   slug: open-logmeal-food-recognition-api
+- collection_type: open
+  name: LogMeal Food Recognition History API
+  slug: open-logmeal-history-api
+- collection_type: open
+  name: LogMeal Food Recognition History Image Recognition API
+  slug: open-logmeal-image-recognition-api
+- collection_type: open
+  name: LogMeal Food Recognition History Nutrition API
+  slug: open-logmeal-nutrition-api
 common:
 - group: agent
   title: ''
@@ -110,7 +122,7 @@ plans:
 - name: Logmeal Plans Pricing
   plan_count: 3
   slug: logmeal-plans-pricing
-random_paper: 17
+random_paper: 141
 rate_limits:
 - limit_count: 5
   name: Logmeal Rate Limits
@@ -135,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logmeal/refs/heads/main/screenshots/logmeal-2026-06-20T184658.png
 security:

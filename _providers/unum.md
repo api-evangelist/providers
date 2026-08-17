@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -63,11 +63,32 @@ apis:
 - description: Leave and absence request management
   name: Unum Leave Management API
   slug: unum-leave-management-api
-artifact_total: 25
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unum HR Connect Authentication API
+  slug: open-unum-authentication-api
+- collection_type: open
+  name: Unum HR Connect Authentication Billing API
+  slug: open-unum-billing-api
+- collection_type: open
+  name: Unum HR Connect Authentication Eligibility API
+  slug: open-unum-eligibility-api
+- collection_type: open
+  name: Unum HR Connect Authentication Enrollment API
+  slug: open-unum-enrollment-api
+- collection_type: open
+  name: Unum HR Connect Authentication Evidence of Insurability API
+  slug: open-unum-evidence-of-insurability-api
 - collection_type: open
   name: Unum HR Connect API
   slug: open-unum-hr-connect
+- collection_type: open
+  name: Unum HR Connect Authentication Leave Management API
+  slug: open-unum-leave-management-api
 common:
 - group: agent
   title: ''
@@ -174,7 +195,7 @@ press:
 - date: '2026-05-25'
   title: Financials - Quarterly Results - Unum Group - Investor Relations
   url: https://investors.unum.com/financials/quarterly-results/default.aspx
-random_paper: 93
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Unum Rate Limits
@@ -227,7 +248,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/screenshots/unum-2026-06-20T200424.png
 security:

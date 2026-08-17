@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Server-level information and utilities
   name: Apache CouchDB Server API
   slug: apache-couchdb-server-api
-artifact_total: 122
+artifact_total: 132
 asyncapis:
 - description: AsyncAPI 2.6 description of the Apache CouchDB database `_changes` feed. CouchDB exposes a per-database, append-only stream of document mutations at `GET /{db}/_changes` (and `POST /{db}/_changes` for
   name: Apache CouchDB _changes Feed
@@ -99,6 +99,36 @@ collections:
 - collection_type: postman
   name: Apache CouchDB HTTP Authentication Server API
   slug: postman-apache-couchdb-server-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache CouchDB HTTP Authentication API
+  slug: open-apache-couchdb-authentication-api
+- collection_type: open
+  name: Apache CouchDB HTTP Authentication Changes API
+  slug: open-apache-couchdb-changes-api
+- collection_type: open
+  name: Apache CouchDB HTTP Authentication Cluster API
+  slug: open-apache-couchdb-cluster-api
+- collection_type: open
+  name: Apache CouchDB HTTP Authentication Database API
+  slug: open-apache-couchdb-database-api
+- collection_type: open
+  name: Apache CouchDB HTTP Authentication Design Documents API
+  slug: open-apache-couchdb-design-documents-api
+- collection_type: open
+  name: Apache CouchDB HTTP Authentication Documents API
+  slug: open-apache-couchdb-documents-api
+- collection_type: open
+  name: Apache CouchDB HTTP Authentication Mango API
+  slug: open-apache-couchdb-mango-api
+- collection_type: open
+  name: Apache CouchDB HTTP Authentication Replication API
+  slug: open-apache-couchdb-replication-api
+- collection_type: open
+  name: Apache CouchDB HTTP Authentication Server API
+  slug: open-apache-couchdb-server-api
 common:
 - group: operate
   title: ''
@@ -457,7 +487,7 @@ plans:
 - name: Apache Couchdb Plans Pricing
   plan_count: 3
   slug: apache-couchdb-plans-pricing
-random_paper: 63
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Apache Couchdb Rate Limits
@@ -507,7 +537,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/screenshots/apache-couchdb-2026-06-20T172052.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -81,7 +81,50 @@ apis:
 - description: The workLocations API from Leapsome — 1 operation(s) for worklocations.
   name: Leapsome workLocations API
   slug: leapsome-worklocations-api
-artifact_total: 36
+artifact_total: 50
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Leapsome absences API
+  slug: open-leapsome-absences-api
+- collection_type: open
+  name: Leapsome absences accessRoles API
+  slug: open-leapsome-accessroles-api
+- collection_type: open
+  name: Leapsome absences auth API
+  slug: open-leapsome-auth-api
+- collection_type: open
+  name: Leapsome absences documents API
+  slug: open-leapsome-documents-api
+- collection_type: open
+  name: Leapsome absences feedback API
+  slug: open-leapsome-feedback-api
+- collection_type: open
+  name: Leapsome absences goals API
+  slug: open-leapsome-goals-api
+- collection_type: open
+  name: Leapsome absences Groups API
+  slug: open-leapsome-groups-api
+- collection_type: open
+  name: Leapsome absences Leapsome API API
+  slug: open-leapsome-leapsome-api-api
+- collection_type: open
+  name: Leapsome absences payroll API
+  slug: open-leapsome-payroll-api
+- collection_type: open
+  name: Leapsome absences Schemas API
+  slug: open-leapsome-schemas-api
+- collection_type: open
+  name: Leapsome absences timeTracking API
+  slug: open-leapsome-timetracking-api
+- collection_type: open
+  name: Leapsome absences users API
+  slug: open-leapsome-users-api
+- collection_type: open
+  name: Leapsome absences workLocations API
+  slug: open-leapsome-worklocations-api
 common:
 - group: agent
   title: ''
@@ -229,7 +272,7 @@ plans:
 - name: Leapsome Plans Pricing
   plan_count: 2
   slug: leapsome-plans-pricing
-random_paper: 14
+random_paper: 109
 rate_limits:
 - limit_count: 2
   name: Leapsome Rate Limits
@@ -263,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/screenshots/leapsome-2026-06-20T184400.png
 security:

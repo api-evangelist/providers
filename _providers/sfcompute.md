@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,11 +60,44 @@ apis:
 - description: The Prices API from SF Compute — 1 operation(s) for prices.
   name: SF Compute Prices API
   slug: sfcompute-prices-api
-artifact_total: 21
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: SF Compute API
   slug: open-sf-compute
+- collection_type: open
+  name: SF Compute Account API
+  slug: open-sfcompute-account-api
+- collection_type: open
+  name: SF Compute Account Balance API
+  slug: open-sfcompute-balance-api
+- collection_type: open
+  name: SF Compute Account Clusters API
+  slug: open-sfcompute-clusters-api
+- collection_type: open
+  name: SF Compute Account Contracts API
+  slug: open-sfcompute-contracts-api
+- collection_type: open
+  name: SF Compute Account Images API
+  slug: open-sfcompute-images-api
+- collection_type: open
+  name: SF Compute Account Money API
+  slug: open-sfcompute-money-api
+- collection_type: open
+  name: SF Compute Account Nodes API
+  slug: open-sfcompute-nodes-api
+- collection_type: open
+  name: SF Compute Account Orders API
+  slug: open-sfcompute-orders-api
+- collection_type: open
+  name: SF Compute Account Prices API
+  slug: open-sfcompute-prices-api
+- collection_type: open
+  name: SF Compute Account VMs API
+  slug: open-sfcompute-vms-api
 - collection_type: open
   name: SF Compute API
   slug: open-sfcompute
@@ -190,7 +223,7 @@ plans:
 - name: Sfcompute Plans Pricing
   plan_count: 3
   slug: sfcompute-plans-pricing
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 4
   name: Sfcompute Rate Limits
@@ -215,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/screenshots/sfcompute-2026-06-20T193742.png
 security:

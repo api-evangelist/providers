@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -93,11 +93,32 @@ apis:
 - description: Operations for creating, modifying, and managing storage volumes
   name: NetApp Volumes API
   slug: netapp-volumes-api
-artifact_total: 96
+artifact_total: 103
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NetApp ONTAP REST Aggregates API
+  slug: open-netapp-aggregates-api
+- collection_type: open
+  name: NetApp ONTAP REST Aggregates Cluster API
+  slug: open-netapp-cluster-api
+- collection_type: open
+  name: NetApp ONTAP REST Aggregates Network API
+  slug: open-netapp-network-api
 - collection_type: open
   name: NetApp ONTAP REST API
   slug: open-netapp-ontap
+- collection_type: open
+  name: NetApp ONTAP REST Aggregates Snapshots API
+  slug: open-netapp-snapshots-api
+- collection_type: open
+  name: NetApp ONTAP REST Aggregates SVMs API
+  slug: open-netapp-svms-api
+- collection_type: open
+  name: NetApp ONTAP REST Aggregates Volumes API
+  slug: open-netapp-volumes-api
 common:
 - group: operate
   title: ''
@@ -405,7 +426,7 @@ press:
 - date: '2026-05-25'
   title: AI in the wild | Watts the Future
   url: https://www.netapp.com/video/tM47Foy3L_U/ai-in-the-wild-watts-the-future/
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: Netapp Rate Limits
@@ -447,7 +468,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png
 security:

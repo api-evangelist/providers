@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -53,11 +53,30 @@ apis:
 - description: The Utility API from HealthSherpa — 1 operation(s) for utility.
   name: HealthSherpa Utility API
   slug: healthsherpa-utility-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Healthsherpa Ichra Webhooks
   slug: healthsherpa-ichra-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HealthSherpa Public Enrollment Sessions API
+  slug: open-healthsherpa-enrollment-sessions-api
+- collection_type: open
+  name: HealthSherpa Public Enrollment Sessions Enrollments API
+  slug: open-healthsherpa-enrollments-api
+- collection_type: open
+  name: HealthSherpa Public Enrollment Sessions Quotes API
+  slug: open-healthsherpa-quotes-api
+- collection_type: open
+  name: HealthSherpa Public Enrollment Sessions Reference API
+  slug: open-healthsherpa-reference-api
+- collection_type: open
+  name: HealthSherpa Public Enrollment Sessions Utility API
+  slug: open-healthsherpa-utility-api
 common:
 - group: start
   title: ''
@@ -174,7 +193,7 @@ overview: 'HealthSherpa publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   HealthSherpa''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 73
+random_paper: 81
 score:
   band: developing
   composite: 43.1
@@ -204,7 +223,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/screenshots/healthsherpa-2026-07-25T220840.png
 security:

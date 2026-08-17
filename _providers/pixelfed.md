@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -90,7 +90,62 @@ apis:
 - description: Home, public, tag, and list timelines
   name: Pixelfed Timelines API
   slug: pixelfed-timelines-api
-artifact_total: 25
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pixelfed REST Accounts API
+  slug: open-pixelfed-accounts-api
+- collection_type: open
+  name: Pixelfed REST Accounts Blocks and Mutes API
+  slug: open-pixelfed-blocks-and-mutes-api
+- collection_type: open
+  name: Pixelfed REST Accounts Bookmarks API
+  slug: open-pixelfed-bookmarks-api
+- collection_type: open
+  name: Pixelfed REST Accounts Collections API
+  slug: open-pixelfed-collections-api
+- collection_type: open
+  name: Pixelfed REST Accounts Direct Messages API
+  slug: open-pixelfed-direct-messages-api
+- collection_type: open
+  name: Pixelfed REST Accounts Discovery API
+  slug: open-pixelfed-discovery-api
+- collection_type: open
+  name: Pixelfed REST Accounts Favourites API
+  slug: open-pixelfed-favourites-api
+- collection_type: open
+  name: Pixelfed REST Accounts Follow Requests API
+  slug: open-pixelfed-follow-requests-api
+- collection_type: open
+  name: Pixelfed REST Accounts Instance API
+  slug: open-pixelfed-instance-api
+- collection_type: open
+  name: Pixelfed REST Accounts Lists API
+  slug: open-pixelfed-lists-api
+- collection_type: open
+  name: Pixelfed REST Accounts Media API
+  slug: open-pixelfed-media-api
+- collection_type: open
+  name: Pixelfed REST Accounts Notifications API
+  slug: open-pixelfed-notifications-api
+- collection_type: open
+  name: Pixelfed REST Accounts Push Notifications API
+  slug: open-pixelfed-push-notifications-api
+- collection_type: open
+  name: Pixelfed REST Accounts Search API
+  slug: open-pixelfed-search-api
+- collection_type: open
+  name: Pixelfed REST Accounts Statuses API
+  slug: open-pixelfed-statuses-api
+- collection_type: open
+  name: Pixelfed REST Accounts Stories API
+  slug: open-pixelfed-stories-api
+- collection_type: open
+  name: Pixelfed REST Accounts Timelines API
+  slug: open-pixelfed-timelines-api
 common:
 - group: commercial
   title: ''
@@ -140,7 +195,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 9
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Rate Limits
@@ -170,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixelfed/refs/heads/main/screenshots/pixelfed-2026-06-20T191736.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,11 +54,27 @@ arazzos:
 - description: Authenticate, create a signed payment request, and confirm the payment status.
   name: Pay1st - collect a payment
   slug: carry1st-collect-payment
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Carry1St Pay1St Webhooks
   slug: carry1st-pay1st-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pay1st Gateway Authentication API
+  slug: open-carry1st-authentication-api
+- collection_type: open
+  name: Pay1st Gateway Authentication Payment Methods API
+  slug: open-carry1st-payment-methods-api
+- collection_type: open
+  name: Pay1st Gateway Authentication Payments API
+  slug: open-carry1st-payments-api
+- collection_type: open
+  name: Pay1st Gateway Authentication Refunds API
+  slug: open-carry1st-refunds-api
 common:
 - group: other
   title: ''
@@ -195,7 +211,7 @@ overview: 'Carry1st publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Carry1st''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 22 more developer resources.'
-random_paper: 105
+random_paper: 80
 score:
   band: developing
   composite: 47.2
@@ -225,7 +241,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/screenshots/carry1st-2026-07-25T204645.png
 security:

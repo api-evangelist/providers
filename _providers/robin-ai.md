@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Reusable prompt sets that drive Table extraction
   name: Robin AI Templates API
   slug: robin-ai-templates-api
-artifact_total: 52
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Robin Legal Intelligence Platform Documents API
+  slug: open-robin-ai-documents-api
+- collection_type: open
+  name: Robin Legal Intelligence Platform Documents Groups API
+  slug: open-robin-ai-groups-api
+- collection_type: open
+  name: Robin Legal Intelligence Platform Documents Properties API
+  slug: open-robin-ai-properties-api
+- collection_type: open
+  name: Robin Legal Intelligence Platform Documents Tables API
+  slug: open-robin-ai-tables-api
+- collection_type: open
+  name: Robin Legal Intelligence Platform Documents Templates API
+  slug: open-robin-ai-templates-api
 - collection_type: open
   name: Robin Legal Intelligence Platform API
   slug: open-robin-ai
@@ -285,7 +303,7 @@ plans:
 - name: Robin Ai Plans Pricing
   plan_count: 4
   slug: robin-ai-plans-pricing
-random_paper: 65
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Robin Ai Rate Limits
@@ -327,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/screenshots/robin-ai-2026-06-20T193139.png
 security:

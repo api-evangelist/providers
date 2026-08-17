@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,8 +67,41 @@ apis:
 - description: Generate fake application user accounts.
   name: FakerAPI Users API
   slug: fakerapi-users-api
-artifact_total: 65
+artifact_total: 76
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Faker Addresses API
+  slug: open-fakerapi-addresses-api
+- collection_type: open
+  name: Faker Addresses Books API
+  slug: open-fakerapi-books-api
+- collection_type: open
+  name: Faker Addresses Companies API
+  slug: open-fakerapi-companies-api
+- collection_type: open
+  name: Faker Addresses Custom API
+  slug: open-fakerapi-custom-api
+- collection_type: open
+  name: Faker Addresses Images API
+  slug: open-fakerapi-images-api
+- collection_type: open
+  name: Faker Addresses Persons API
+  slug: open-fakerapi-persons-api
+- collection_type: open
+  name: Faker Addresses Places API
+  slug: open-fakerapi-places-api
+- collection_type: open
+  name: Faker Addresses Products API
+  slug: open-fakerapi-products-api
+- collection_type: open
+  name: Faker Addresses Texts API
+  slug: open-fakerapi-texts-api
+- collection_type: open
+  name: Faker Addresses Users API
+  slug: open-fakerapi-users-api
 - collection_type: open
   name: FakerAPI
   slug: open-fakerapi
@@ -245,7 +278,7 @@ overview: 'FakerAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   The FakerAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 115
+random_paper: 90
 rules:
 - name: FakerAPI API Rules
   rule_count: 5
@@ -283,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fakerapi/refs/heads/main/screenshots/fakerapi-2026-06-20T181022.png
 security:

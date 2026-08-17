@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The APIs.json specification defines a machine-readable JSON or YAML format for describing API operations. Unlike OpenAPI which describes the technical interface of a single API, APIs.json describes th
@@ -180,7 +180,7 @@ plans:
 - name: Apis Json Plans Pricing
   plan_count: 3
   slug: apis-json-plans-pricing
-random_paper: 76
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Apis Json Rate Limits
@@ -215,7 +215,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-json/refs/heads/main/screenshots/apis-json-2026-06-20T172256.png
 security:

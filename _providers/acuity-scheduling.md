@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,11 +53,23 @@ apis:
 - description: The Payments API from Acuity Scheduling — 1 operation(s) for payments.
   name: Acuity Scheduling Payments API
   slug: acuity-scheduling-payments-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Acuity Scheduling Appointments API
+  slug: open-acuity-scheduling-appointments-api
 - collection_type: open
   name: Acuity Scheduling Webhooks
   slug: open-acuity-scheduling-asyncapi
+- collection_type: open
+  name: Acuity Scheduling Appointments Meta API
+  slug: open-acuity-scheduling-meta-api
+- collection_type: open
+  name: Acuity Scheduling Appointments Payments API
+  slug: open-acuity-scheduling-payments-api
 - collection_type: open
   name: Acuity Scheduling API
   slug: open-acuity-scheduling
@@ -114,7 +126,7 @@ overview: 'Acuity Scheduling publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Acuity Scheduling''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 82
+random_paper: 123
 score:
   band: thin
   composite: 30.2
@@ -135,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/screenshots/acuity-scheduling-2026-06-20T164418.png
 security:

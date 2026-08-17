@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: Post categories.
@@ -67,7 +67,50 @@ apis:
 - description: Public post authors.
   name: EDDA Technology users API
   slug: edda-users-api
-artifact_total: 15
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EDDA Technology WordPress REST categories API
+  slug: open-edda-categories-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories comments API
+  slug: open-edda-comments-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories embed API
+  slug: open-edda-embed-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories media API
+  slug: open-edda-media-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories pages API
+  slug: open-edda-pages-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories posts API
+  slug: open-edda-posts-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories search API
+  slug: open-edda-search-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories statuses API
+  slug: open-edda-statuses-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories tags API
+  slug: open-edda-tags-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories taxonomies API
+  slug: open-edda-taxonomies-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories types API
+  slug: open-edda-types-api
+- collection_type: open
+  name: EDDA Technology WordPress REST categories users API
+  slug: open-edda-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-edda-wordpress-rest-discovery
 common:
 - group: other
   title: ''
@@ -174,7 +217,7 @@ overview: 'EDDA Technology publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   EDDA Technology''s developer surface includes engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 38
+random_paper: 100
 score:
   band: emerging
   composite: 18.2
@@ -203,7 +246,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/screenshots/edda-2026-07-25T212816.png
 security:

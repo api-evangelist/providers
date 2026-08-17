@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -90,7 +90,7 @@ apis:
 - description: URL categorization and filtering settings
   name: Trellix Web Gateway URL Filtering API
   slug: trellix-web-gateway-url-filtering-api
-artifact_total: 50
+artifact_total: 68
 collections:
 - collection_type: postman
   name: Trellix Web Gateway Policy Anti-Malware API
@@ -144,14 +144,68 @@ collections:
   name: Trellix Web Gateway Policy Anti-Malware URL Filtering API
   slug: postman-trellix-web-gateway-url-filtering-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware API
+  slug: open-trellix-web-gateway-anti-malware-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Authentication API
+  slug: open-trellix-web-gateway-authentication-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Configuration API
+  slug: open-trellix-web-gateway-configuration-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Dashboards API
+  slug: open-trellix-web-gateway-dashboards-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Data Loss Prevention API
+  slug: open-trellix-web-gateway-data-loss-prevention-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Files API
+  slug: open-trellix-web-gateway-files-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Lists API
+  slug: open-trellix-web-gateway-lists-api
+- collection_type: open
   name: Trellix Web Gateway Policy API
   slug: open-trellix-web-gateway-policy
 - collection_type: open
   name: Trellix Web Gateway Reporting API
   slug: open-trellix-web-gateway-reporting
 - collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Reports API
+  slug: open-trellix-web-gateway-reports-api
+- collection_type: open
   name: Trellix Web Gateway REST API
   slug: open-trellix-web-gateway-rest
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Rule Sets API
+  slug: open-trellix-web-gateway-rule-sets-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Rules API
+  slug: open-trellix-web-gateway-rules-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Security Events API
+  slug: open-trellix-web-gateway-security-events-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware SSL Scanning API
+  slug: open-trellix-web-gateway-ssl-scanning-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Statistics API
+  slug: open-trellix-web-gateway-statistics-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware System API
+  slug: open-trellix-web-gateway-system-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Traffic Logs API
+  slug: open-trellix-web-gateway-traffic-logs-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware Troubleshooting API
+  slug: open-trellix-web-gateway-troubleshooting-api
+- collection_type: open
+  name: Trellix Web Gateway Policy Anti-Malware URL Filtering API
+  slug: open-trellix-web-gateway-url-filtering-api
 common:
 - group: build
   title: ''
@@ -272,7 +326,7 @@ plans:
 - name: Trellix Web Gateway Plans Pricing
   plan_count: 1
   slug: trellix-web-gateway-plans-pricing
-random_paper: 14
+random_paper: 146
 rate_limits:
 - limit_count: 1
   name: Trellix Web Gateway Rate Limits
@@ -314,7 +368,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/screenshots/trellix-web-gateway-2026-06-20T195750.png
 security:

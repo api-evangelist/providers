@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -67,7 +67,38 @@ apis:
 - description: Subscribe/unsubscribe are reserved for websocket events.
   name: Sei Websocket API
   slug: sei-websocket-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HTTP API Console ABCI API
+  slug: open-sei-abci-api
+- collection_type: open
+  name: HTTP API Console ABCI Events API
+  slug: open-sei-events-api
+- collection_type: open
+  name: HTTP API Console ABCI Evidence API
+  slug: open-sei-evidence-api
+- collection_type: open
+  name: HTTP API Console ABCI Info API
+  slug: open-sei-info-api
+- collection_type: open
+  name: HTTP API Console ABCI Query API
+  slug: open-sei-query-api
+- collection_type: open
+  name: HTTP API Console ABCI Service API
+  slug: open-sei-service-api
+- collection_type: open
+  name: HTTP API Console ABCI Tx API
+  slug: open-sei-tx-api
+- collection_type: open
+  name: HTTP API Console ABCI Unsafe API
+  slug: open-sei-unsafe-api
+- collection_type: open
+  name: HTTP API Console ABCI Websocket API
+  slug: open-sei-websocket-api
 common:
 - group: agent
   title: ''
@@ -141,7 +172,7 @@ overview: 'Sei publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Sei''s developer surface includes documentation, GitHub presence, engineering blog, and 10 more developer resources.'
-random_paper: 81
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Sei Cosmos Rest Api Rate Limits
@@ -175,7 +206,7 @@ score:
     regime_id: securities_market_data
     score: 18.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/screenshots/sei-2026-06-20T193635.png
 security:

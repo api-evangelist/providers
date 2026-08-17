@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -66,7 +66,7 @@ apis:
 - description: Create and control voice calls
   name: Vonage Voice API
   slug: vonage-voice-api
-artifact_total: 68
+artifact_total: 75
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Vonage''s publicly-documented WebSocket surface. The only Vonage product whose realtime protocol is publicly specified frame-by-frame is the Voice API WebSocket endpoint: th'
   name: Vonage Voice WebSocket API
@@ -90,6 +90,27 @@ collections:
 - collection_type: postman
   name: Vonage Communications Applications Voice API
   slug: postman-vonage-voice-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vonage Communications Applications API
+  slug: open-vonage-applications-api
+- collection_type: open
+  name: Vonage Communications Applications Messages API
+  slug: open-vonage-messages-api
+- collection_type: open
+  name: Vonage Communications Applications Numbers API
+  slug: open-vonage-numbers-api
+- collection_type: open
+  name: Vonage Communications Applications SMS API
+  slug: open-vonage-sms-api
+- collection_type: open
+  name: Vonage Communications Applications Verify API
+  slug: open-vonage-verify-api
+- collection_type: open
+  name: Vonage Communications Applications Voice API
+  slug: open-vonage-voice-api
 - collection_type: open
   name: Vonage Communications API
   slug: open-vonage
@@ -324,7 +345,7 @@ plans:
 - name: Vonage Plans Pricing
   plan_count: 2
   slug: vonage-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Vonage Rate Limits
@@ -380,7 +401,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png
 security:

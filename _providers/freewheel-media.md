@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 0
@@ -56,7 +56,20 @@ apis:
 - description: FreeWheel's sell-side APIs for publishers and programmers running on MRM — advertiser and agency management, insertion orders and campaigns, placement operations, forecasting, analytics and reporting.
   name: FreeWheel Publisher (MRM) API
   slug: freewheel-media-publisher-api
-artifact_total: 11
+artifact_total: 15
+collections:
+- collection_type: open
+  name: buzz
+  slug: open-freewheel-media-advertiser-buzz-openapi-original
+- collection_type: open
+  name: audience-management-api
+  slug: open-freewheel-media-demand-audience-management-openapi-original
+- collection_type: open
+  name: Demand Creative Management API V1
+  slug: open-freewheel-media-demand-creative-management-openapi-original
+- collection_type: open
+  name: Deal Sync API
+  slug: open-freewheel-media-demand-deal-sync-openapi-original
 common:
 - group: agent
   title: ''
@@ -198,7 +211,7 @@ plans:
 - name: Freewheel Media Plans Pricing
   plan_count: 0
   slug: freewheel-media-plans-pricing
-random_paper: 68
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Freewheel Media Rate Limits
@@ -206,7 +219,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: 34.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 48.3
@@ -214,10 +227,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 42.1
-  previous_composite: 16.3
+  previous_composite: 50.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/screenshots/freewheel-media-2026-07-25T215145.png
 security:
 - kind: authentication

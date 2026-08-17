@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: The Webhooks API from Stay AI — 2 operation(s) for webhooks.
   name: Stay AI Webhooks API
   slug: stay-ai-webhooks-api
-artifact_total: 15
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stay AI Account API
+  slug: open-stay-ai-account-api
+- collection_type: open
+  name: Stay AI Account Catalog API
+  slug: open-stay-ai-catalog-api
+- collection_type: open
+  name: Stay AI Account Customer Portal API
+  slug: open-stay-ai-customer-portal-api
+- collection_type: open
+  name: Stay AI Account Data Export API
+  slug: open-stay-ai-data-export-api
+- collection_type: open
+  name: Stay AI Account Orders API
+  slug: open-stay-ai-orders-api
+- collection_type: open
+  name: Stay AI Account Selling Plans API
+  slug: open-stay-ai-selling-plans-api
+- collection_type: open
+  name: Stay AI Account Subscriptions API
+  slug: open-stay-ai-subscriptions-api
+- collection_type: open
+  name: Stay AI Account Webhooks API
+  slug: open-stay-ai-webhooks-api
 common:
 - group: agent
   title: ''
@@ -133,7 +161,7 @@ plans:
 - name: Stay Ai Plans Pricing
   plan_count: 2
   slug: stay-ai-plans-pricing
-random_paper: 96
+random_paper: 100
 rate_limits:
 - limit_count: 3
   name: Stay Ai Rate Limits
@@ -158,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

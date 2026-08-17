@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 90
 apis:
 - description: Account configurations
@@ -302,7 +302,281 @@ apis:
 - description: Manage webhooks.
   name: Xentral Webhook API
   slug: xentral-webhook-api
-artifact_total: 95
+artifact_total: 186
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xentral Account API
+  slug: open-xentral-account-api
+- collection_type: open
+  name: Xentral Account Accounting Export API
+  slug: open-xentral-accounting-export-api
+- collection_type: open
+  name: Xentral Account AuthPlatform API
+  slug: open-xentral-authplatform-api
+- collection_type: open
+  name: Xentral Account Collection API
+  slug: open-xentral-collection-api
+- collection_type: open
+  name: Xentral Account Collective Bill API
+  slug: open-xentral-collective-bill-api
+- collection_type: open
+  name: Xentral Account Credit API
+  slug: open-xentral-credit-api
+- collection_type: open
+  name: Xentral Account Credit Note API
+  slug: open-xentral-credit-note-api
+- collection_type: open
+  name: Xentral Account Credit Note Tag API
+  slug: open-xentral-credit-note-tag-api
+- collection_type: open
+  name: Xentral Account CreditNote API
+  slug: open-xentral-creditnote-api
+- collection_type: open
+  name: Xentral Account Customer Address API
+  slug: open-xentral-customer-address-api
+- collection_type: open
+  name: Xentral Account Customer API
+  slug: open-xentral-customer-api
+- collection_type: open
+  name: Xentral Account Customer - Contact Person API
+  slug: open-xentral-customer-contact-person-api
+- collection_type: open
+  name: Xentral Account Customer Delivery Address API
+  slug: open-xentral-customer-delivery-address-api
+- collection_type: open
+  name: Xentral Account Delivery API
+  slug: open-xentral-delivery-api
+- collection_type: open
+  name: Xentral Account Delivery Note API
+  slug: open-xentral-delivery-note-api
+- collection_type: open
+  name: Xentral Account Delivery Note Tag API
+  slug: open-xentral-delivery-note-tag-api
+- collection_type: open
+  name: Xentral Account Delivery Terms API
+  slug: open-xentral-delivery-terms-api
+- collection_type: open
+  name: Xentral Account DeliveryNote API
+  slug: open-xentral-deliverynote-api
+- collection_type: open
+  name: Xentral Account Documentation API
+  slug: open-xentral-documentation-api
+- collection_type: open
+  name: Xentral Account EmailAccount API
+  slug: open-xentral-emailaccount-api
+- collection_type: open
+  name: Xentral Account Employee API
+  slug: open-xentral-employee-api
+- collection_type: open
+  name: Xentral Account External Reference API
+  slug: open-xentral-external-reference-api
+- collection_type: open
+  name: Xentral Account External Reference Target API
+  slug: open-xentral-external-reference-target-api
+- collection_type: open
+  name: Xentral Account File API
+  slug: open-xentral-file-api
+- collection_type: open
+  name: Xentral Account General Ledger API
+  slug: open-xentral-general-ledger-api
+- collection_type: open
+  name: Xentral Account Goods Receipt API
+  slug: open-xentral-goods-receipt-api
+- collection_type: open
+  name: Xentral Account Invoice API
+  slug: open-xentral-invoice-api
+- collection_type: open
+  name: Xentral Account Invoice Tag API
+  slug: open-xentral-invoice-tag-api
+- collection_type: open
+  name: Xentral Account Liability API
+  slug: open-xentral-liability-api
+- collection_type: open
+  name: Xentral Account Matrixproduct API
+  slug: open-xentral-matrixproduct-api
+- collection_type: open
+  name: Xentral Account Offer API
+  slug: open-xentral-offer-api
+- collection_type: open
+  name: Xentral Account Payment Methods API
+  slug: open-xentral-payment-methods-api
+- collection_type: open
+  name: Xentral Account Payment Service Provider API
+  slug: open-xentral-payment-service-provider-api
+- collection_type: open
+  name: Xentral Account Payment Terms Group API
+  slug: open-xentral-payment-terms-group-api
+- collection_type: open
+  name: Xentral Account Payment Transaction API
+  slug: open-xentral-payment-transaction-api
+- collection_type: open
+  name: Xentral Account Point Of Sale API
+  slug: open-xentral-point-of-sale-api
+- collection_type: open
+  name: Xentral Account PriceInquiry API
+  slug: open-xentral-priceinquiry-api
+- collection_type: open
+  name: Xentral Account Print Jobs API
+  slug: open-xentral-print-jobs-api
+- collection_type: open
+  name: Xentral Account Product API
+  slug: open-xentral-product-api
+- collection_type: open
+  name: Xentral Account Product Category API
+  slug: open-xentral-product-category-api
+- collection_type: open
+  name: Xentral Account Product Free Field API
+  slug: open-xentral-product-free-field-api
+- collection_type: open
+  name: Xentral Account Product Label API
+  slug: open-xentral-product-label-api
+- collection_type: open
+  name: Xentral Account Product Media API
+  slug: open-xentral-product-media-api
+- collection_type: open
+  name: Xentral Account Product Merchandise Group API
+  slug: open-xentral-product-merchandise-group-api
+- collection_type: open
+  name: Xentral Account Product Property API
+  slug: open-xentral-product-property-api
+- collection_type: open
+  name: Xentral Account Product Tag API
+  slug: open-xentral-product-tag-api
+- collection_type: open
+  name: Xentral Account ProductCalculation API
+  slug: open-xentral-productcalculation-api
+- collection_type: open
+  name: Xentral Account ProductDeliveryThreshold API
+  slug: open-xentral-productdeliverythreshold-api
+- collection_type: open
+  name: Xentral Account Production API
+  slug: open-xentral-production-api
+- collection_type: open
+  name: Xentral Account ProformaInvoice API
+  slug: open-xentral-proformainvoice-api
+- collection_type: open
+  name: Xentral Account Project API
+  slug: open-xentral-project-api
+- collection_type: open
+  name: Xentral Account Provisional Return API
+  slug: open-xentral-provisional-return-api
+- collection_type: open
+  name: Xentral Account Purchase Order API
+  slug: open-xentral-purchase-order-api
+- collection_type: open
+  name: Xentral Account Purchase Price API
+  slug: open-xentral-purchase-price-api
+- collection_type: open
+  name: Xentral Account PurchaseOrder API
+  slug: open-xentral-purchaseorder-api
+- collection_type: open
+  name: Xentral Account Query API
+  slug: open-xentral-query-api
+- collection_type: open
+  name: Xentral Account Report API
+  slug: open-xentral-report-api
+- collection_type: open
+  name: Xentral Account Report Usage API
+  slug: open-xentral-report-usage-api
+- collection_type: open
+  name: Xentral Account Reporting Settings API
+  slug: open-xentral-reporting-settings-api
+- collection_type: open
+  name: Xentral Account Return API
+  slug: open-xentral-return-api
+- collection_type: open
+  name: Xentral Account Return Reason API
+  slug: open-xentral-return-reason-api
+- collection_type: open
+  name: Xentral Account ReturnOrder API
+  slug: open-xentral-returnorder-api
+- collection_type: open
+  name: Xentral Account Revenue Account Mapping API
+  slug: open-xentral-revenue-account-mapping-api
+- collection_type: open
+  name: Xentral Account Sales Channel API
+  slug: open-xentral-sales-channel-api
+- collection_type: open
+  name: Xentral Account Sales Channels Product Settings API
+  slug: open-xentral-sales-channels-product-settings-api
+- collection_type: open
+  name: Xentral Account Sales Order API
+  slug: open-xentral-sales-order-api
+- collection_type: open
+  name: Xentral Account Sales Price API
+  slug: open-xentral-sales-price-api
+- collection_type: open
+  name: Xentral Account SalesOrder API
+  slug: open-xentral-salesorder-api
+- collection_type: open
+  name: Xentral Account SalesPrice API
+  slug: open-xentral-salesprice-api
+- collection_type: open
+  name: Xentral Account ServiceOrder API
+  slug: open-xentral-serviceorder-api
+- collection_type: open
+  name: Xentral Account Setting API
+  slug: open-xentral-setting-api
+- collection_type: open
+  name: Xentral Account Shipments API
+  slug: open-xentral-shipments-api
+- collection_type: open
+  name: Xentral Account Shipping Methods API
+  slug: open-xentral-shipping-methods-api
+- collection_type: open
+  name: Xentral Account Stock Movement Types API
+  slug: open-xentral-stock-movement-types-api
+- collection_type: open
+  name: Xentral Account Storage Item API
+  slug: open-xentral-storage-item-api
+- collection_type: open
+  name: Xentral Account Storage Location API
+  slug: open-xentral-storage-location-api
+- collection_type: open
+  name: Xentral Account Supplier API
+  slug: open-xentral-supplier-api
+- collection_type: open
+  name: Xentral Account Supplier Delivery Address API
+  slug: open-xentral-supplier-delivery-address-api
+- collection_type: open
+  name: Xentral Account Supplier Tag API
+  slug: open-xentral-supplier-tag-api
+- collection_type: open
+  name: Xentral Account SupplierInvoice API
+  slug: open-xentral-supplierinvoice-api
+- collection_type: open
+  name: Xentral Account Tag API
+  slug: open-xentral-tag-api
+- collection_type: open
+  name: Xentral Account Tax Account Mapping API
+  slug: open-xentral-tax-account-mapping-api
+- collection_type: open
+  name: Xentral Account Tax API
+  slug: open-xentral-tax-api
+- collection_type: open
+  name: Xentral Account Tax Obligation API
+  slug: open-xentral-tax-obligation-api
+- collection_type: open
+  name: Xentral Account Tax Rate API
+  slug: open-xentral-tax-rate-api
+- collection_type: open
+  name: Xentral Account Tax Type API
+  slug: open-xentral-tax-type-api
+- collection_type: open
+  name: Xentral Account Tax Type Mapping API
+  slug: open-xentral-tax-type-mapping-api
+- collection_type: open
+  name: Xentral Account User API
+  slug: open-xentral-user-api
+- collection_type: open
+  name: Xentral Account Warehouse API
+  slug: open-xentral-warehouse-api
+- collection_type: open
+  name: Xentral Account Webhook API
+  slug: open-xentral-webhook-api
 common:
 - group: auth
   title: ''
@@ -444,7 +718,7 @@ overview: 'Xentral publishes 90 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Xentral''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 46
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Xentral Rate Limits
@@ -476,7 +750,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

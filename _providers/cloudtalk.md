@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -78,11 +78,54 @@ apis:
 - description: VoiceAgent API ver. 1.0.0
   name: CloudTalk VoiceAgent API
   slug: cloudtalk-voiceagent-api
-artifact_total: 20
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Cloudtalk Webhooks
   slug: cloudtalk-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CloudTalk Agents API
+  slug: open-cloudtalk-agents-api
+- collection_type: open
+  name: CloudTalk Agents Bulks API
+  slug: open-cloudtalk-bulks-api
+- collection_type: open
+  name: CloudTalk Agents Calls API
+  slug: open-cloudtalk-calls-api
+- collection_type: open
+  name: CloudTalk Agents Campaigns API
+  slug: open-cloudtalk-campaigns-api
+- collection_type: open
+  name: CloudTalk Agents Contacts API
+  slug: open-cloudtalk-contacts-api
+- collection_type: open
+  name: CloudTalk Agents Conversation Intelligence API
+  slug: open-cloudtalk-conversation-intelligence-api
+- collection_type: open
+  name: CloudTalk Agents CueCard API
+  slug: open-cloudtalk-cuecard-api
+- collection_type: open
+  name: CloudTalk Agents Groups API
+  slug: open-cloudtalk-groups-api
+- collection_type: open
+  name: CloudTalk Agents Numbers API
+  slug: open-cloudtalk-numbers-api
+- collection_type: open
+  name: CloudTalk Agents Other API
+  slug: open-cloudtalk-other-api
+- collection_type: open
+  name: CloudTalk Agents Sms API
+  slug: open-cloudtalk-sms-api
+- collection_type: open
+  name: CloudTalk Agents Tags API
+  slug: open-cloudtalk-tags-api
+- collection_type: open
+  name: CloudTalk Agents VoiceAgent API
+  slug: open-cloudtalk-voiceagent-api
 common:
 - group: start
   title: ''
@@ -96,6 +139,10 @@ common:
   title: ''
   type: APIReference
   url: https://developers.cloudtalk.io/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.cloudtalk.io/en/collections/441737-getting-started-with-cloudtalk
 - group: operate
   title: ''
   type: Support
@@ -143,7 +190,19 @@ common:
 - group: operate
   title: ''
   type: RateLimits
-  url: conventions/cloudtalk-conventions.yml
+  url: rate-limits/cloudtalk-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cloudtalk-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/cloudtalk-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cloudtalk-packages.yml
 - group: design
   title: ''
   type: ErrorCatalog
@@ -195,6 +254,10 @@ common:
 - group: agent
   title: ''
   type: LLMsTxt
+  url: llms/cloudtalk-help-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
   url: llms/cloudtalk-llms.txt
 - group: other
   title: ''
@@ -216,7 +279,7 @@ mcp_servers:
 - description: ''
   name: cloudtalk-mcp.yml
   slug: cloudtalk-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: CloudTalk
 nav: Providers
 network: true
@@ -226,19 +289,27 @@ overview: 'CloudTalk publishes 13 APIs on the [APIs.io](https://apis.io/) networ
   The CloudTalk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CloudTalk''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 3
+  CloudTalk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Cloudtalk Plans Pricing
+  plan_count: 4
+  slug: cloudtalk-plans-pricing
+random_paper: 69
+rate_limits:
+- limit_count: 1
+  name: Cloudtalk Rate Limits
+  slug: cloudtalk-rate-limits
 score:
-  band: developing
-  composite: 51.7
-  delta: 0.0
+  band: strong
+  composite: 63.0
+  delta: 11.3
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 62.1
-    developer_ergonomics: 45.1
+    developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 44.7
+    operational_transparency: 81.6
   previous_composite: 51.7
   provenance:
     agentic_access: derived
@@ -257,8 +328,8 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/screenshots/cloudtalk-2026-07-25T205712.png
 security:
 - kind: authentication
@@ -276,7 +347,7 @@ security:
 - kind: trust-center
   name: Cloudtalk Trust Center
   slug: cloudtalk-trust-center
-  summary_line: ISO 27001:2022, SOC 2 Type II, PCI DSS, HIPAA, GDPR, CCPA, CSA STAR, EU-US Data Privacy Framework, UK-US Data Privacy Framework
+  summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: cloudtalk
 tags:
 - Company

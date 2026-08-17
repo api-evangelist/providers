@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,8 +63,32 @@ apis:
 - description: The Visitors API from Pendo — 1 operation(s) for visitors.
   name: Pendo Visitors API
   slug: pendo-visitors-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pendo Engage Accounts API
+  slug: open-pendo-accounts-api
+- collection_type: open
+  name: Pendo Engage Accounts Features API
+  slug: open-pendo-features-api
+- collection_type: open
+  name: Pendo Engage Accounts Guides API
+  slug: open-pendo-guides-api
+- collection_type: open
+  name: Pendo Engage Accounts Metadata API
+  slug: open-pendo-metadata-api
+- collection_type: open
+  name: Pendo Engage Accounts Pages API
+  slug: open-pendo-pages-api
+- collection_type: open
+  name: Pendo Engage Accounts Reports API
+  slug: open-pendo-reports-api
+- collection_type: open
+  name: Pendo Engage Accounts Visitors API
+  slug: open-pendo-visitors-api
 - collection_type: open
   name: Pendo Engage API
   slug: open-pendo
@@ -145,7 +169,7 @@ plans:
 - name: Pendo Plans Pricing
   plan_count: 1
   slug: pendo-plans-pricing
-random_paper: 54
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Pendo Rate Limits
@@ -170,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendo/refs/heads/main/screenshots/pendo-2026-06-20T191536.png
 security:

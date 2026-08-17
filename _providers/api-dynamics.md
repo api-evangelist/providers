@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The APIDynamics platform provides AI-driven API security and observability including API discovery, traffic analysis, real-time risk scoring, adaptive MFA, Zero Trust enforcement, shadow/zombie API de
@@ -105,7 +105,7 @@ plans:
 - name: Api Dynamics Plans Pricing
   plan_count: 3
   slug: api-dynamics-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Api Dynamics Rate Limits
@@ -123,7 +123,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 14.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-dynamics/refs/heads/main/screenshots/api-dynamics-2026-06-20T172204.png
 security:

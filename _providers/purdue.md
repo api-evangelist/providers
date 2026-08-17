@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,7 +71,41 @@ apis:
 - description: The Terms API from Purdue University — 2 operation(s) for terms.
   name: Purdue University Terms API
   slug: purdue-terms-api
-artifact_total: 28
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings API
+  slug: open-purdue-buildings-api
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings Campuses API
+  slug: open-purdue-campuses-api
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings Classes API
+  slug: open-purdue-classes-api
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings Courses API
+  slug: open-purdue-courses-api
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings Instructors API
+  slug: open-purdue-instructors-api
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings Meetings API
+  slug: open-purdue-meetings-api
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings Rooms API
+  slug: open-purdue-rooms-api
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings Sections API
+  slug: open-purdue-sections-api
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings Subjects API
+  slug: open-purdue-subjects-api
+- collection_type: open
+  name: Purdue.io Course Catalog Buildings Terms API
+  slug: open-purdue-terms-api
 common:
 - group: agent
   title: ''
@@ -171,7 +205,7 @@ plans:
 - name: Purdue Plans Pricing
   plan_count: 2
   slug: purdue-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Purdue Rate Limits
@@ -219,7 +253,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/screenshots/purdue-2026-06-20T192313.png
 security:

@@ -23,13 +23,13 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-12'
-api_count: 2
+  score: 43.9
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
 - description: The Export API from Syft Data — 1 operation(s) for export.
   name: Syft Data Export API
@@ -37,11 +37,24 @@ apis:
 - description: The Lookup API from Syft Data — 1 operation(s) for lookup.
   name: Syft Data Lookup API
   slug: syft-data-lookup-api
-artifact_total: 7
+- description: The ingest endpoint the Syft browser tracking tag, SDK and server-side callers post behavioural and custom events to. Documented only inside the developer guide — no reference page, no published paylo
+  name: Syft Data Event Collection API
+  slug: syft-data-events-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Syft Data Webhooks
   slug: syft-data-webhooks
+collections:
+- collection_type: open
+  name: Syft Data Event Collection API
+  slug: open-syft-data-events-api
+- collection_type: open
+  name: Syft Data Lookup & Export API
+  slug: open-syft-data-export-api
+- collection_type: open
+  name: Syft Data & Export Lookup API
+  slug: open-syft-data-lookup-api
 common:
 - group: other
   title: ''
@@ -139,42 +152,90 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/syft-data-llms.txt
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/syft-data-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/syft-data-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/syft-data-rate-limits.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/syft-data-components.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/syft-data-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/syft-data-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/syft-data-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/syft-data-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/syft-data-conformance.yml
+- group: commercial
+  title: ''
+  type: DataProcessingAgreement
+  url: https://www.syftdata.com/dpa
 created: '2026-07-17'
 description: Syft Data, Inc. is a B2B lead-intelligence platform that identifies and qualifies high-intent prospects from inbound website traffic and LinkedIn engagement. Its tracking pixel reveals anonymous visitors, enriches contacts, scores them against an Ideal Customer Profile, and triggers multi-channel outreach ("motions") into CRM, email, LinkedIn, and ad platforms. For developers Syft ships a schema-driven analytics SDK and CLI (npm @syftdata/*), a server-side Lookup and Export REST API secured with sk_live_ keys, outbound webhooks, and an official hosted MCP server so AI agents can query visitor data and build automations from chat.
-image: https://www.syftdata.com/
+image: https://www.syftdata.com/logo_180.png
 layout: provider
 mcp_servers:
 - description: ''
   name: syft-data-mcp.yml
   slug: syft-data-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Syft Data
 nav: Providers
 network: true
-overview: 'Syft Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Export API and Lookup API. Tagged areas include Company, Lead Intelligence, Intent Data, Website Visitor Identification, and Sales Intelligence.
+overview: 'Syft Data publishes 3 APIs on the [APIs.io](https://apis.io/) network: Export API, Lookup API, and Event Collection API. Tagged areas include Company, Lead Intelligence, Intent Data, Website Visitor Identification, and Sales Intelligence.
 
 
   The Syft Data catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Syft Data''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 69
+  Syft Data''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Syft Data Plans Pricing
+  plan_count: 3
+  slug: syft-data-plans-pricing
+random_paper: 15
+rate_limits:
+- limit_count: 0
+  name: Syft Data Rate Limits
+  slug: syft-data-rate-limits
 scopes:
 - name: Syft Data Scopes
   scope_count: 0
   slug: syft-data-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 52.3
-  delta: 0.0
+  band: strong
+  composite: 63.4
+  delta: 11.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 79.1
+    commercial_clarity: 92.1
+    contract_quality: 77.9
     developer_ergonomics: 64.7
-    discoverability: 75.9
+    discoverability: 81.5
     governance: 11.5
-    operational_transparency: 13.2
+    operational_transparency: 23.7
   previous_composite: 52.3
   provenance:
     conformance: derived
@@ -186,8 +247,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Syft Data Authentication
@@ -197,6 +258,14 @@ security:
   name: Syft Data Domain Security
   slug: syft-data-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Syft Data Vulnerability Disclosure
+  slug: syft-data-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Syft Data Trust Center
+  slug: syft-data-trust-center
+  summary_line: SOC 2 Type I, SOC 2 Type II, Penetration Testing, ISO 27001
 slug: syft-data
 tags:
 - Company

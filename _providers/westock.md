@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -112,11 +112,11 @@ plans:
 - name: Westock Plans Pricing
   plan_count: 3
   slug: westock-plans-pricing
-random_paper: 48
+random_paper: 23
 score:
   band: emerging
   composite: 23.4
-  delta: 9.0
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -124,10 +124,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.4
+  previous_composite: 23.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Westock Domain Security

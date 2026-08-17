@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: The Ready API from Loki — 1 operation(s) for ready.
   name: Loki Ready API
   slug: loki-ready-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Loki HTTP Config API
+  slug: open-loki-config-api
+- collection_type: open
+  name: HTTP Config Loki API
+  slug: open-loki-loki-api
+- collection_type: open
+  name: Loki HTTP Config Metrics API
+  slug: open-loki-metrics-api
+- collection_type: open
+  name: Loki HTTP Config Otlp API
+  slug: open-loki-otlp-api
+- collection_type: open
+  name: Loki HTTP Config Ready API
+  slug: open-loki-ready-api
 - collection_type: open
   name: Loki HTTP API
   slug: open-loki
@@ -127,7 +145,7 @@ plans:
 - name: Loki Plans Pricing
   plan_count: 3
   slug: loki-plans-pricing
-random_paper: 71
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Loki Rate Limits
@@ -152,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/screenshots/loki-2026-06-20T184708.png
 security:

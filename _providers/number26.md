@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The default API from Number26 — 9 operation(s) for default.
   name: Number26 default API
   slug: number26-default-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: XS2A_N26 default API
+  slug: open-number26-default-api
 common:
 - group: auth
   title: ''
@@ -132,7 +139,7 @@ overview: 'Number26 publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Number26''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 33
+random_paper: 8
 score:
   band: thin
   composite: 36.4
@@ -160,7 +167,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/screenshots/number26-2026-08-07T185726.png
 security:

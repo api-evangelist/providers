@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Beamer REST API provides programmatic access to changelog posts, user management, segmentation, and notification feeds. Key endpoints include unread count retrieval, post creation and management, '
@@ -112,7 +112,7 @@ plans:
 - name: Beamer Plans Pricing
   plan_count: 3
   slug: beamer-plans-pricing
-random_paper: 20
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Beamer Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 18.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beamer/refs/heads/main/screenshots/beamer-2026-06-20T173106.png
 security:

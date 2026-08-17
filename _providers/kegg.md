@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,32 @@ apis:
 - description: Obtain a list of entry identifiers and associated names
   name: Kyoto Encyclopedia of Genes and Genomes (KEGG) list API
   slug: kegg-list-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: KEGG REST conv API
+  slug: open-kegg-conv-api
+- collection_type: open
+  name: KEGG REST conv ddi API
+  slug: open-kegg-ddi-api
+- collection_type: open
+  name: KEGG REST conv find API
+  slug: open-kegg-find-api
+- collection_type: open
+  name: KEGG REST conv get API
+  slug: open-kegg-get-api
+- collection_type: open
+  name: KEGG REST conv info API
+  slug: open-kegg-info-api
+- collection_type: open
+  name: KEGG REST conv link API
+  slug: open-kegg-link-api
+- collection_type: open
+  name: KEGG REST conv list API
+  slug: open-kegg-list-api
 common:
 - group: agent
   title: ''
@@ -89,7 +114,7 @@ plans:
 - name: Kegg Rest Api
   plan_count: 4
   slug: kegg-rest-api
-random_paper: 54
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: Kegg Rest Api
@@ -120,7 +145,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/screenshots/kegg-2026-06-20T183941.png
 security:

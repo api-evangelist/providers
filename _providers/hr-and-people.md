@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 27
 apis:
 - description: Workday is a cloud HCM, payroll, and finance suite with a Web Services / REST API catalog spanning Human Capital Management, Payroll, Recruiting, Talent, and Time Tracking.
@@ -213,7 +213,7 @@ overview: 'HR & People publishes 27 APIs on the [APIs.io](https://apis.io/) netw
 
 
   HR & People''s developer surface includes code examples and 9 more developer resources.'
-random_paper: 60
+random_paper: 68
 rules:
 - name: HR & People API Rules
   rule_count: 5
@@ -236,7 +236,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/screenshots/hr-and-people-2026-06-20T182901.png
 security:

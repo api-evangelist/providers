@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: List the voices available for audio and video production.
   name: Narakeet Voices API
   slug: narakeet-voices-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Narakeet Account API
+  slug: open-narakeet-account-api
+- collection_type: open
+  name: Narakeet Account Text to Speech API
+  slug: open-narakeet-text-to-speech-api
+- collection_type: open
+  name: Narakeet Account Video API
+  slug: open-narakeet-video-api
+- collection_type: open
+  name: Narakeet Account Voices API
+  slug: open-narakeet-voices-api
 - collection_type: open
   name: Narakeet API
   slug: open-narakeet
@@ -117,7 +132,7 @@ plans:
 - name: Narakeet Plans Pricing
   plan_count: 5
   slug: narakeet-plans-pricing
-random_paper: 3
+random_paper: 98
 rate_limits:
 - limit_count: 7
   name: Narakeet Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/screenshots/narakeet-2026-08-07T184630.png
 security:

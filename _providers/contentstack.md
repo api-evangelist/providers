@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -174,21 +174,48 @@ apis:
 - description: Voice Profiles define the writing style, tone, and persona characteristics for AI content generation within a Brand Kit. Multiple voice profiles can be created to support different content contexts or
   name: contentstack Voice Profiles API
   slug: contentstack-voice-profiles-api
-artifact_total: 169
+artifact_total: 210
 asyncapis:
 - description: Contentstack Webhooks provide event-driven notifications for content lifecycle events within a stack. When configured, Contentstack sends HTTP POST requests to your specified endpoint URL whenever mat
   name: Contentstack Webhooks
   slug: contentstack-webhooks-asyncapi
 collections:
 - collection_type: open
-  name: Contentstack Analytics API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Contentstack Analytics Accounts API
+  slug: open-contentstack-accounts-api
+- collection_type: open
+  name: Contentstack Accounts Analytics API
   slug: open-contentstack-analytics-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Assets API
+  slug: open-contentstack-assets-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Attributes API
+  slug: open-contentstack-attributes-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Audiences API
+  slug: open-contentstack-audiences-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Audit Logs API
+  slug: open-contentstack-audit-logs-api
 - collection_type: open
   name: Contentstack Automate Management API
   slug: open-contentstack-automate-management-api
 - collection_type: open
+  name: Contentstack Analytics Accounts Automations API
+  slug: open-contentstack-automations-api
+- collection_type: open
   name: Contentstack Brand Kit Management API
   slug: open-contentstack-brand-kit-management-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Brand Kits API
+  slug: open-contentstack-brand-kits-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Cache Analytics API
+  slug: open-contentstack-cache-analytics-api
 - collection_type: open
   name: Contentstack Content Delivery API
   slug: open-contentstack-content-delivery-api
@@ -196,14 +223,62 @@ collections:
   name: Contentstack Content Management API
   slug: open-contentstack-content-management-api
 - collection_type: open
-  name: Contentstack Generative AI API
+  name: Contentstack Analytics Accounts Content Types API
+  slug: open-contentstack-content-types-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Deployments API
+  slug: open-contentstack-deployments-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Device Usage API
+  slug: open-contentstack-device-usage-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Entries API
+  slug: open-contentstack-entries-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Entry Variants API
+  slug: open-contentstack-entry-variants-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Environments API
+  slug: open-contentstack-environments-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Events API
+  slug: open-contentstack-events-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Execution Logs API
+  slug: open-contentstack-execution-logs-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Experiences API
+  slug: open-contentstack-experiences-api
+- collection_type: open
+  name: Contentstack Analytics Accounts File Uploads API
+  slug: open-contentstack-file-uploads-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Generative AI API
   slug: open-contentstack-generative-ai-api
 - collection_type: open
-  name: Contentstack Knowledge Vault API
+  name: Contentstack Analytics Accounts Geolocation API
+  slug: open-contentstack-geolocation-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Global Fields API
+  slug: open-contentstack-global-fields-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Jobs API
+  slug: open-contentstack-jobs-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Knowledge Vault API
   slug: open-contentstack-knowledge-vault-api
 - collection_type: open
   name: Contentstack Launch API
   slug: open-contentstack-launch-api
+- collection_type: open
+  name: Contentstack Analytics Accounts LLM Configuration API
+  slug: open-contentstack-llm-configuration-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Manifest API
+  slug: open-contentstack-manifest-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Organizations API
+  slug: open-contentstack-organizations-api
 - collection_type: open
   name: Contentstack Personalize Edge API
   slug: open-contentstack-personalize-edge-api
@@ -211,8 +286,56 @@ collections:
   name: Contentstack Personalize Management API
   slug: open-contentstack-personalize-management-api
 - collection_type: open
+  name: Contentstack Analytics Accounts Projects API
+  slug: open-contentstack-projects-api
+- collection_type: open
   name: Contentstack SCIM API
   slug: open-contentstack-scim-api
+- collection_type: open
+  name: Contentstack Analytics Accounts SCIM Groups API
+  slug: open-contentstack-scim-groups-api
+- collection_type: open
+  name: Contentstack Analytics Accounts SCIM Schema Discovery API
+  slug: open-contentstack-scim-schema-discovery-api
+- collection_type: open
+  name: Contentstack Analytics Accounts SCIM Users API
+  slug: open-contentstack-scim-users-api
+- collection_type: open
+  name: Contentstack Analytics Accounts SDK Usage API
+  slug: open-contentstack-sdk-usage-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Stacks API
+  slug: open-contentstack-stacks-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Status Code Analytics API
+  slug: open-contentstack-status-code-analytics-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Subscription Usage API
+  slug: open-contentstack-subscription-usage-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Synchronization API
+  slug: open-contentstack-synchronization-api
+- collection_type: open
+  name: Contentstack Analytics Accounts URL Analytics API
+  slug: open-contentstack-url-analytics-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Usage Analytics API
+  slug: open-contentstack-usage-analytics-api
+- collection_type: open
+  name: Contentstack Analytics Accounts User Attributes API
+  slug: open-contentstack-user-attributes-api
+- collection_type: open
+  name: Contentstack Analytics Accounts User Sessions API
+  slug: open-contentstack-user-sessions-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Users API
+  slug: open-contentstack-users-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Variables API
+  slug: open-contentstack-variables-api
+- collection_type: open
+  name: Contentstack Analytics Accounts Voice Profiles API
+  slug: open-contentstack-voice-profiles-api
 common:
 - group: agent
   title: ''
@@ -599,7 +722,7 @@ plans:
 - name: Contentstack Plans Pricing
   plan_count: 3
   slug: contentstack-plans-pricing
-random_paper: 97
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Contentstack Rate Limits
@@ -649,7 +772,7 @@ score:
       marker_coverage: 0.0
       total: 43
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png
 security:

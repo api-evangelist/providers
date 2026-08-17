@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ apis:
 - description: The Users API from StackOne — 2 operation(s) for users.
   name: StackOne Users API
   slug: stackone-users-api
-artifact_total: 251
+artifact_total: 274
 collections:
 - collection_type: postman
   name: Marketing Accounts API
@@ -206,6 +206,75 @@ collections:
 - collection_type: postman
   name: Marketing Accounts Users API
   slug: postman-stackone-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Marketing Accounts API
+  slug: open-stackone-accounts-api
+- collection_type: open
+  name: Marketing Accounts Applications API
+  slug: open-stackone-applications-api
+- collection_type: open
+  name: Marketing Accounts Campaigns API
+  slug: open-stackone-campaigns-api
+- collection_type: open
+  name: Marketing Accounts Candidates API
+  slug: open-stackone-candidates-api
+- collection_type: open
+  name: Marketing Accounts Companies API
+  slug: open-stackone-companies-api
+- collection_type: open
+  name: Marketing Accounts Connect Sessions API
+  slug: open-stackone-connect-sessions-api
+- collection_type: open
+  name: Marketing Accounts Contacts API
+  slug: open-stackone-contacts-api
+- collection_type: open
+  name: Marketing Accounts Departments API
+  slug: open-stackone-departments-api
+- collection_type: open
+  name: Marketing Accounts Employees API
+  slug: open-stackone-employees-api
+- collection_type: open
+  name: Marketing Accounts Employments API
+  slug: open-stackone-employments-api
+- collection_type: open
+  name: Marketing Accounts Interview Stages API
+  slug: open-stackone-interview-stages-api
+- collection_type: open
+  name: Marketing Accounts Interviews API
+  slug: open-stackone-interviews-api
+- collection_type: open
+  name: Marketing Accounts Job Postings API
+  slug: open-stackone-job-postings-api
+- collection_type: open
+  name: Marketing Accounts Jobs API
+  slug: open-stackone-jobs-api
+- collection_type: open
+  name: Marketing Accounts Lists API
+  slug: open-stackone-lists-api
+- collection_type: open
+  name: Marketing Accounts Locations API
+  slug: open-stackone-locations-api
+- collection_type: open
+  name: Marketing Accounts Offers API
+  slug: open-stackone-offers-api
+- collection_type: open
+  name: Marketing Accounts Proxy API
+  slug: open-stackone-proxy-api
+- collection_type: open
+  name: Marketing Accounts Rejected Reasons API
+  slug: open-stackone-rejected-reasons-api
+- collection_type: open
+  name: Marketing Accounts Templates API
+  slug: open-stackone-templates-api
+- collection_type: open
+  name: Marketing Accounts Time Off API
+  slug: open-stackone-time-off-api
+- collection_type: open
+  name: Marketing Accounts Users API
+  slug: open-stackone-users-api
 - collection_type: open
   name: Marketing
   slug: open-stackone
@@ -854,7 +923,7 @@ plans:
 - name: Stackone Plans Pricing
   plan_count: 3
   slug: stackone-plans-pricing
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 3
   name: Stackone Rate Limits
@@ -896,7 +965,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/screenshots/stackone-2026-06-20T194449.png
 security:

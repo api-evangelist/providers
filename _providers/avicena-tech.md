@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -111,7 +111,7 @@ overview: 'Avicena Tech is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Avicena Tech''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 112
+random_paper: 0
 score:
   band: minimal
   composite: 8.3
@@ -125,7 +125,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avicena-tech/refs/heads/main/screenshots/avicena-tech-2026-08-07T162027.png
 security:

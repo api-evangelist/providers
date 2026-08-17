@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Public author profiles attached to published content.
@@ -42,7 +42,32 @@ apis:
 - description: The articles / videos / audio / presentations category taxonomy.
   name: JenaValve Technology Taxonomy API
   slug: jenavalve-technology-taxonomy-api
-artifact_total: 9
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JenaValve Site API (WordPress REST) Authors API
+  slug: open-jenavalve-technology-authors-api
+- collection_type: open
+  name: Jenavalve Technology Content API
+  slug: open-jenavalve-technology-content-api
+- collection_type: open
+  name: Jenavalve Technology Discovery API
+  slug: open-jenavalve-technology-discovery-api
+- collection_type: open
+  name: Jenavalve Technology Media API
+  slug: open-jenavalve-technology-media-api
+- collection_type: open
+  name: Jenavalve Technology O Embed API
+  slug: open-jenavalve-technology-oembed-api
+- collection_type: open
+  name: JenaValve Discover AR Site API (WordPress REST) SEO API
+  slug: open-jenavalve-technology-seo-api
+- collection_type: open
+  name: Jenavalve Technology Taxonomy API
+  slug: open-jenavalve-technology-taxonomy-api
 common:
 - group: other
   title: ''
@@ -169,7 +194,7 @@ overview: 'JenaValve Technology publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   JenaValve Technology''s developer surface includes engineering blog, product news, support, documentation, authentication, and 23 more developer resources.'
-random_paper: 45
+random_paper: 148
 score:
   band: thin
   composite: 33.4
@@ -197,7 +222,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/screenshots/jenavalve-technology-2026-08-07T170957.png
 security:

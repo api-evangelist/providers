@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The current cove.tool REST API. Thirteen operations across six tags — User, Profiles, Energy Codes, Projects, Project Geometry and Daylight Analysis — covering account creation, project create/read/up
@@ -27,7 +27,14 @@ apis:
 - description: 'The original cove.tool API, still served from the developer portal alongside v2. Three operations: obtain an API token, list projects and their associated information, and update run values (geometry)'
   name: cove.tool API v1
   slug: api-v1
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: cove.tool API
+  slug: open-cove
+- collection_type: open
+  name: cove.tool REST API v2
+  slug: open-cove
 common:
 - group: auth
   title: ''
@@ -129,7 +136,7 @@ plans:
 - name: Cove.Tool Plans Pricing
   plan_count: 0
   slug: cove.tool-plans-pricing
-random_paper: 81
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Cove.Tool Rate Limits
@@ -137,6 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 48.6
@@ -144,6 +152,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 5.3
+  previous_composite: 37.4
   regulatory:
     applies: true
     matched_via: tags
@@ -151,7 +160,8 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Cove.Tool Authentication

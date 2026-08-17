@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,7 +35,11 @@ apis:
 - description: EIA's bulk data distribution surface, served from the same api.eia.gov host as APIv2 but requiring no API key whatsoever. A single manifest at /bulk/manifest.txt returns a JSON catalog of every bulk d
   name: EIA Bulk Download Facility
   slug: eia-bulk-download-facility
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: EIA APIv2
+  slug: open-eia-api-v2
 common:
 - group: agent
   title: ''
@@ -231,7 +235,7 @@ overview: 'EIA publishes 1 API on the [APIs.io](https://apis.io/) network: Open 
 
 
   EIA''s developer surface includes authentication, developer portal, documentation, signup flow, developer console, tooling, API reference, and 37 more developer resources.'
-random_paper: 63
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Eia Rate Limits
@@ -265,7 +269,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/screenshots/eia-2026-08-07T164749.png
 security:

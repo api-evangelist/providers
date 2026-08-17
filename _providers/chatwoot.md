@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -138,11 +138,128 @@ apis:
 - description: Event notification webhooks
   name: Chatwoot Webhooks API
   slug: chatwoot-webhooks-api
-artifact_total: 64
+artifact_total: 103
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chatwoot Account AgentBots API
+  slug: open-chatwoot-account-agentbots-api
+- collection_type: open
+  name: Chatwoot AgentBots Account API
+  slug: open-chatwoot-account-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Account Users API
+  slug: open-chatwoot-account-users-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Accounts API
+  slug: open-chatwoot-accounts-api
+- collection_type: open
+  name: Chatwoot Account AgentBots API
+  slug: open-chatwoot-agentbots-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Agents API
+  slug: open-chatwoot-agents-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Audit Logs API
+  slug: open-chatwoot-audit-logs-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Automation Rule API
+  slug: open-chatwoot-automation-rule-api
+- collection_type: open
+  name: Chatwoot Agents Automation Rules API
+  slug: open-chatwoot-automation-rules-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Canned Responses API
+  slug: open-chatwoot-canned-responses-api
+- collection_type: open
+  name: Chatwoot Agents Client Contacts API
+  slug: open-chatwoot-client-contacts-api
+- collection_type: open
+  name: Chatwoot Agents Client Conversations API
+  slug: open-chatwoot-client-conversations-api
+- collection_type: open
+  name: Chatwoot Agents Client Messages API
+  slug: open-chatwoot-client-messages-api
 - collection_type: open
   name: Chatwoot API
   slug: open-chatwoot-com
+- collection_type: open
+  name: Chatwoot Account AgentBots Contact Labels API
+  slug: open-chatwoot-contact-labels-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Contacts API API
+  slug: open-chatwoot-contacts-api-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Contacts API
+  slug: open-chatwoot-contacts-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Conversation API
+  slug: open-chatwoot-conversation-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Conversation Assignments API
+  slug: open-chatwoot-conversation-assignments-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Conversations API API
+  slug: open-chatwoot-conversations-api-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Conversations API
+  slug: open-chatwoot-conversations-api
+- collection_type: open
+  name: Chatwoot Account AgentBots CSAT Survey Page API
+  slug: open-chatwoot-csat-survey-page-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Custom Attributes API
+  slug: open-chatwoot-custom-attributes-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Custom Filters API
+  slug: open-chatwoot-custom-filters-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Help Center API
+  slug: open-chatwoot-help-center-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Inbox API API
+  slug: open-chatwoot-inbox-api-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Inboxes API
+  slug: open-chatwoot-inboxes-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Integrations API
+  slug: open-chatwoot-integrations-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Labels API
+  slug: open-chatwoot-labels-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Messages API API
+  slug: open-chatwoot-messages-api-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Messages API
+  slug: open-chatwoot-messages-api
+- collection_type: open
+  name: Chatwoot Agents Platform Accounts API
+  slug: open-chatwoot-platform-accounts-api
+- collection_type: open
+  name: Chatwoot Agents Platform Agent Bots API
+  slug: open-chatwoot-platform-agent-bots-api
+- collection_type: open
+  name: Chatwoot Agents Platform Users API
+  slug: open-chatwoot-platform-users-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Profile API
+  slug: open-chatwoot-profile-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Reports API
+  slug: open-chatwoot-reports-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Teams API
+  slug: open-chatwoot-teams-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Users API
+  slug: open-chatwoot-users-api
+- collection_type: open
+  name: Chatwoot Account AgentBots Webhooks API
+  slug: open-chatwoot-webhooks-api
 common:
 - group: agent
   title: ''
@@ -301,7 +418,7 @@ plans:
 - name: Chatwoot Plans Pricing
   plan_count: 4
   slug: chatwoot-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 0
   name: Chatwoot Rate Limits
@@ -335,7 +452,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/screenshots/chatwoot-2026-07-25T205121.png
 security:

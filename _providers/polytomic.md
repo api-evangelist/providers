@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -102,8 +102,74 @@ apis:
 - description: The subpackage_webhooks API from Polytomic — 4 operation(s) for subpackage_webhooks.
   name: Polytomic subpackage_webhooks API
   slug: polytomic-subpackage-webhooks-api
-artifact_total: 30
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference subpackage_bulkSync API
+  slug: open-polytomic-subpackage-bulksync-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_bulkSync.subpackage_bulkSync/executions API
+  slug: open-polytomic-subpackage-bulksync-subpackage-bulksync-executions-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_bulkSync.subpackage_bulkSync/schedules API
+  slug: open-polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_bulkSync.subpackage_bulkSync/schemas API
+  slug: open-polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_connections API
+  slug: open-polytomic-subpackage-connections-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_entities API
+  slug: open-polytomic-subpackage-entities-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_events API
+  slug: open-polytomic-subpackage-events-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_identity API
+  slug: open-polytomic-subpackage-identity-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_jobs API
+  slug: open-polytomic-subpackage-jobs-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_models API
+  slug: open-polytomic-subpackage-models-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_modelSync API
+  slug: open-polytomic-subpackage-modelsync-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_modelSync.subpackage_modelSync/executions API
+  slug: open-polytomic-subpackage-modelsync-subpackage-modelsync-executions-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_modelSync.subpackage_modelSync/targets API
+  slug: open-polytomic-subpackage-modelsync-subpackage-modelsync-targets-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_notifications API
+  slug: open-polytomic-subpackage-notifications-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_organization API
+  slug: open-polytomic-subpackage-organization-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_permissions.subpackage_permissions/policies API
+  slug: open-polytomic-subpackage-permissions-subpackage-permissions-policies-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_permissions.subpackage_permissions/roles API
+  slug: open-polytomic-subpackage-permissions-subpackage-permissions-roles-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_queryRunner API
+  slug: open-polytomic-subpackage-queryrunner-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_schemas API
+  slug: open-polytomic-subpackage-schemas-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_users API
+  slug: open-polytomic-subpackage-users-api
+- collection_type: open
+  name: API Reference subpackage_bulkSync subpackage_webhooks API
+  slug: open-polytomic-subpackage-webhooks-api
 - collection_type: open
   name: API Reference
   slug: open-polytomic
@@ -176,7 +242,7 @@ plans:
 - name: Polytomic Plans Pricing
   plan_count: 3
   slug: polytomic-plans-pricing
-random_paper: 32
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Polytomic Rate Limits
@@ -201,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/screenshots/polytomic-2026-06-20T191910.png
 security:

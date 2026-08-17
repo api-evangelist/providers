@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ overview: 'Allica Bank publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Allica Bank''s developer surface includes authentication, sandbox, getting-started guide, documentation, engineering blog, support, and 24 more developer resources.'
-random_paper: 111
+random_paper: 28
 scopes:
 - name: Allica Bank Scopes
   scope_count: 17
@@ -214,7 +214,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png
 security:

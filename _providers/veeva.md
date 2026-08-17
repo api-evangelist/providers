@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 61.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 15
   slug: veeva-agentic-access
   summary_line: 15 operations · 8 acting
-api_count: 8
+api_count: 9
 apis:
 - description: 'The Veeva Vault Java SDK (VAPIL) is an open-source Java-based REST API client for the Vault REST API. Provides type-safe access to all Vault API operations including document management, object CRUD, '
   name: Veeva Vault Java SDK
@@ -63,7 +64,14 @@ apis:
 - description: Workflow and task management
   name: veeva Workflows API
   slug: veeva-workflows-api
-artifact_total: 72
+- description: Veeva ships two first-party Model Context Protocol servers. The Vault Documentation MCP at https://docs.veevavault.dev/mcp is public and anonymous, exposing one search_documentation tool over the Vaul
+  name: Veeva Vault MCP
+  slug: vault-mcp
+artifact_total: 83
+asyncapis:
+- description: ''
+  name: Veeva Spark Messaging Webhooks
+  slug: veeva-spark-messaging-webhooks
 collections:
 - collection_type: postman
   name: Veeva Vault REST Authentication API
@@ -84,8 +92,29 @@ collections:
   name: Veeva Vault REST Authentication Workflows API
   slug: postman-veeva-workflows-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veeva Vault REST Authentication API
+  slug: open-veeva-authentication-api
+- collection_type: open
+  name: Veeva Vault REST Authentication Documents API
+  slug: open-veeva-documents-api
+- collection_type: open
+  name: Veeva Vault REST Authentication Objects API
+  slug: open-veeva-objects-api
+- collection_type: open
+  name: Veeva Vault REST Authentication Query API
+  slug: open-veeva-query-api
+- collection_type: open
+  name: Veeva Vault REST Authentication Users API
+  slug: open-veeva-users-api
+- collection_type: open
   name: Veeva Vault REST API
   slug: open-veeva-vault
+- collection_type: open
+  name: Veeva Vault REST Authentication Workflows API
+  slug: open-veeva-workflows-api
 common:
 - group: build
   title: ''
@@ -163,7 +192,132 @@ common:
   title: Veeva Vocabulary
   type: Vocabulary
   url: vocabulary/veeva-vocabulary.yml
-description: Veeva Systems is a leader in cloud-based software for the global life sciences industry, providing solutions to help pharmaceutical and biotechnology companies bring products to market more efficiently.
+- group: build
+  title: Veeva first-party packages
+  type: Packages
+  url: packages/veeva-packages.yml
+- group: build
+  title: Veeva SDK inventory
+  type: SDKs
+  url: packages/veeva-packages.yml
+- group: agent
+  title: Vault Documentation MCP + Vault MCP Server
+  type: MCPServer
+  url: mcp/veeva-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/veeva-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/veeva-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/veeva-conformance.yml
+- group: auth
+  title: ISO 27001/27017/27018, ISO 9001, SOC 2 Type II
+  type: Compliance
+  url: conformance/veeva-conformance.yml
+- group: design
+  title: Vault API error types
+  type: ErrorCatalog
+  url: errors/veeva-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/veeva-lifecycle.yml
+- group: operate
+  title: Veeva Systems status page
+  type: StatusPage
+  url: https://trust.veeva.com/
+- group: auth
+  title: Veeva Security Program Overview
+  type: TrustCenter
+  url: https://www.veeva.com/trust/
+- group: start
+  title: Vault sandbox Vaults
+  type: Sandbox
+  url: sandbox/veeva-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/veeva-conventions.yml
+- group: operate
+  title: Developer release notes, structured
+  type: ChangeLog
+  url: changelog/veeva-changelog.yml
+- group: design
+  title: Custom Pages, Vault Web SDK, Vault Toolbox
+  type: Components
+  url: components/veeva-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/veeva-data-model.yml
+- group: design
+  title: Spark Messaging signed outbound events
+  type: Webhooks
+  url: asyncapi/veeva-spark-messaging-webhooks.yml
+- group: agent
+  title: API Evangelist agent skills for Vault
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/veeva-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/veeva-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/veeva-finops.yml
+- group: other
+  title: API Evangelist overlays for the Vault OpenAPIs
+  type: Overlay
+  url: overlays/veeva-documents-api-overlay.yaml
+- group: build
+  title: Veeva Vault public Postman workspace
+  type: Postman
+  url: https://www.postman.com/veevavault
+- group: start
+  title: Vault Developer Portal
+  type: DeveloperPortal
+  url: https://veevavault.dev
+- group: docs
+  title: Vault API Reference v26.2
+  type: APIReference
+  url: https://general.veevavault.dev/vault-api/api-reference/26.2
+- group: docs
+  title: Vault API documentation (current portal)
+  type: Documentation
+  url: https://general.veevavault.dev/vault-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://general.veevavault.dev/vault-api/getting-started/prerequisites
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.veeva.com/terms/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.veeva.com/veeva-blog/
+- group: operate
+  title: Veeva Developer Community
+  type: Community
+  url: http://devcommunity.veevavault.com/
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.veeva.com/meet-veeva/partners/
+created: '2026-05-03'
+description: 'Veeva Systems is the leading cloud software provider for the global life sciences industry, serving pharmaceutical, biotechnology, medical device and CRO customers across commercial, clinical, quality, regulatory, medical and safety operations. Its Vault platform is a single content-and-data cloud whose REST API covers documents, binders, configurable Vault objects, workflows, users, groups, SCIM provisioning, sandbox management and the Direct Data API for high-speed bulk export, all queryable with VQL and extensible through the Vault Java SDK, Custom Pages and Spark Messaging. Veeva also ships two first-party MCP servers: a public Vault Documentation MCP and a tenant-scoped Vault MCP Server that exposes Vault AI agent actions as MCP tools.'
 examples:
 - key_count: 5
   name: Veeva Vault Auth Response Example
@@ -303,24 +457,28 @@ jsonld:
   property_count: 7
   slug: veeva-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: veeva-mcp.yml
+  slug: veeva-mcpyml
+modified: '2026-08-15'
 name: veeva
 nav: Providers
 network: true
-overview: 'veeva publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Objects API, and 3 more.
+overview: 'veeva publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Objects API, and 3 more. Tagged areas include Life Sciences, Pharmaceutical, Clinical Trials, Regulatory, and Quality Management.
 
 
-  The veeva catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The veeva catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  veeva''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, and 13 more developer resources.'
+  veeva''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, sandbox, and 43 more developer resources.'
 plans:
 - name: Veeva Plans Pricing
   plan_count: 1
   slug: veeva-plans-pricing
-random_paper: 55
+random_paper: 88
 rate_limits:
-- limit_count: 2
+- limit_count: 3
   name: Veeva Rate Limits
   slug: veeva-rate-limits
 rules:
@@ -341,16 +499,16 @@ rules:
     warn: 23
   slug: veeva-spectral-rules
 score:
-  band: developing
-  composite: 52.3
-  delta: 0.0
+  band: exemplar
+  composite: 67.8
+  delta: 15.5
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 74.0
-    developer_ergonomics: 54.3
-    discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 26.3
+    commercial_clarity: 50.0
+    contract_quality: 81.9
+    developer_ergonomics: 84.8
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 52.6
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -359,20 +517,43 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png
 security:
 - kind: authentication
   name: Veeva Authentication
   slug: veeva-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/http/oauth2/openIdConnect · 6 schemes
 - kind: domain-security
   name: Veeva Domain Security
   slug: veeva-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Veeva Trust Center
+  slug: veeva-trust-center
+  summary_line: ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 9001, SOC 2 Type II
 slug: veeva
+tags:
+- Life Sciences
+- Pharmaceutical
+- Clinical Trials
+- Regulatory
+- Quality Management
+- Document Management
+- Content Management
+- Healthcare
+- SaaS
+- Enterprise
+- MCP
+- Agents
 use_cases:
 - description: Automate the assembly and submission of regulatory dossiers (CTD, eCTD) by programmatically managing document lifecycle, approvals, and publishing.
   name: Regulatory Document Submission

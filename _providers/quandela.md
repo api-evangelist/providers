@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -144,7 +144,7 @@ overview: 'Quandela is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Quandela''s developer surface includes documentation, GitHub presence, training material, engineering blog, YouTube channel, and 20 more developer resources.'
-random_paper: 3
+random_paper: 98
 score:
   band: minimal
   composite: 10.0
@@ -158,7 +158,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/screenshots/quandela-2026-06-20T192405.png
 security:

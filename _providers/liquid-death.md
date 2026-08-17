@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,7 +37,11 @@ apis:
 - description: The OpenID Connect and OAuth 2.0 authorization server for the Liquid Death customer account, hosted at account.liquiddeath.com and discoverable from both /.well-known/openid-configuration and /.well-k
   name: Liquid Death Customer Account OAuth
   slug: liquid-death-customer-account-oauth
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Liquid Death Storefront Read-Only JSON API
+  slug: open-liquid-death-storefront
 common:
 - group: company
   title: ''
@@ -188,7 +192,7 @@ overview: 'Liquid Death publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Liquid Death''s developer surface includes documentation, getting-started guide, authentication, FAQ, support, engineering blog, and 27 more developer resources.'
-random_paper: 11
+random_paper: 19
 scopes:
 - name: Liquid Death Scopes
   scope_count: 4
@@ -217,7 +221,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/screenshots/liquid-death-2026-08-07T171733.png
 security:

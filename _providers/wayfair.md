@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: GraphQL query and mutation operations for supplier management.
   name: Wayfair GraphQL API
   slug: wayfair-graphql-api
-artifact_total: 43
+artifact_total: 46
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wayfair Supplier Authentication API
+  slug: open-wayfair-authentication-api
+- collection_type: open
+  name: Wayfair Supplier Authentication GraphQL API
+  slug: open-wayfair-graphql-api
 - collection_type: open
   name: Wayfair Supplier API
   slug: open-wayfair-supplier-api
@@ -213,7 +222,7 @@ plans:
 - name: Wayfair Plans Pricing
   plan_count: 3
   slug: wayfair-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Wayfair Rate Limits
@@ -255,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/screenshots/wayfair-2026-06-20T201300.png
 security:

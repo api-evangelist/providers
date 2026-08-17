@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Object and event webhook subscriptions.
   name: ServiceM8 Webhooks API
   slug: servicem8-webhooks-api
-artifact_total: 20
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ServiceM8 REST Attachments API
+  slug: open-servicem8-attachments-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Badges API
+  slug: open-servicem8-badges-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Clients API
+  slug: open-servicem8-clients-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Job Activities API
+  slug: open-servicem8-job-activities-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Job Contacts API
+  slug: open-servicem8-job-contacts-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Jobs API
+  slug: open-servicem8-jobs-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Materials API
+  slug: open-servicem8-materials-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Queues API
+  slug: open-servicem8-queues-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Staff API
+  slug: open-servicem8-staff-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Vendors API
+  slug: open-servicem8-vendors-api
+- collection_type: open
+  name: ServiceM8 REST Attachments Webhooks API
+  slug: open-servicem8-webhooks-api
 - collection_type: open
   name: ServiceM8 REST API
   slug: open-servicem8
@@ -150,7 +186,7 @@ plans:
 - name: Servicem8 Plans Pricing
   plan_count: 5
   slug: servicem8-plans-pricing
-random_paper: 78
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Servicem8 Rate Limits
@@ -180,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

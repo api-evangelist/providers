@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Word API from Apache POI — 2 operation(s) for word.
   name: Apache POI Word API
   slug: apache-poi-word-api
-artifact_total: 76
+artifact_total: 81
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache POI Conversion API
+  slug: open-apache-poi-conversion-api
+- collection_type: open
+  name: Apache POI Conversion Excel API
+  slug: open-apache-poi-excel-api
+- collection_type: open
+  name: Apache POI Conversion PowerPoint API
+  slug: open-apache-poi-powerpoint-api
+- collection_type: open
+  name: Apache POI Conversion Word API
+  slug: open-apache-poi-word-api
 common:
 - group: agent
   title: ''
@@ -283,7 +299,7 @@ plans:
 - name: Apache Poi Plans Pricing
   plan_count: 3
   slug: apache-poi-plans-pricing
-random_paper: 23
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Apache Poi Rate Limits
@@ -325,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/screenshots/apache-poi-2026-06-20T172135.png
 security:

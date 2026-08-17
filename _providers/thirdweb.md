@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: User and server wallet management, signing, and transfers.
   name: thirdweb Wallets API
   slug: thirdweb-wallets-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: thirdweb Authentication API
+  slug: open-thirdweb-authentication-api
+- collection_type: open
+  name: thirdweb Authentication Contracts API
+  slug: open-thirdweb-contracts-api
+- collection_type: open
+  name: thirdweb Authentication Engine API
+  slug: open-thirdweb-engine-api
+- collection_type: open
+  name: thirdweb Authentication Insight API
+  slug: open-thirdweb-insight-api
+- collection_type: open
+  name: thirdweb Authentication Nebula API
+  slug: open-thirdweb-nebula-api
+- collection_type: open
+  name: thirdweb Authentication Payments API
+  slug: open-thirdweb-payments-api
+- collection_type: open
+  name: thirdweb Authentication Tokens API
+  slug: open-thirdweb-tokens-api
+- collection_type: open
+  name: thirdweb Authentication Transactions API
+  slug: open-thirdweb-transactions-api
+- collection_type: open
+  name: thirdweb Authentication Wallets API
+  slug: open-thirdweb-wallets-api
 - collection_type: open
   name: thirdweb API
   slug: open-thirdweb
@@ -136,7 +166,7 @@ plans:
 - name: Thirdweb Plans Pricing
   plan_count: 5
   slug: thirdweb-plans-pricing
-random_paper: 17
+random_paper: 112
 rate_limits:
 - limit_count: 6
   name: Thirdweb Rate Limits
@@ -167,7 +197,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/screenshots/thirdweb-2026-06-20T195307.png
 security:

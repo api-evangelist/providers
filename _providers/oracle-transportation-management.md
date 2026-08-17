@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,11 +54,26 @@ apis:
 - description: Shipment order management
   name: Oracle Transportation Management ShipmentOrders API
   slug: oracle-transportation-management-shipmentorders-api
-artifact_total: 16
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Oracle Transportation Management Business Object Resources REST API
   slug: open-oracle-otm-business-objects
+- collection_type: open
+  name: Oracle Transportation Management Business Object Resources REST Carriers API
+  slug: open-oracle-transportation-management-carriers-api
+- collection_type: open
+  name: Oracle Transportation Management Business Object Resources REST Carriers Locations API
+  slug: open-oracle-transportation-management-locations-api
+- collection_type: open
+  name: Oracle Transportation Management Business Object Resources REST Carriers Rates API
+  slug: open-oracle-transportation-management-rates-api
+- collection_type: open
+  name: Oracle Transportation Management Business Object Resources REST Carriers ShipmentOrders API
+  slug: open-oracle-transportation-management-shipmentorders-api
 common:
 - group: agent
   title: ''
@@ -160,7 +175,7 @@ plans:
 - name: Oracle Transportation Management Plans Pricing
   plan_count: 3
   slug: oracle-transportation-management-plans-pricing
-random_paper: 77
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Oracle Transportation Management Rate Limits
@@ -199,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/screenshots/oracle-transportation-management-2026-06-20T191148.png
 security:

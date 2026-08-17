@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Outscraper provides APIs for scraping Google Maps data, business information, reviews, and other web sources.
@@ -108,7 +108,7 @@ plans:
 - name: Outscraper Plans Pricing
   plan_count: 3
   slug: outscraper-plans-pricing
-random_paper: 16
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Outscraper Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 22.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outscraper/refs/heads/main/screenshots/outscraper-2026-06-20T191238.png
 security:

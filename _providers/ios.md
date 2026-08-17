@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 0
@@ -673,7 +673,7 @@ arazzos:
 - description: Open a review submission, add the App Store version as an item, and submit it to App Review.
   name: iOS Submit an App Store Version for Review
   slug: ios-submit-version-for-review-workflow
-artifact_total: 426
+artifact_total: 606
 asyncapis:
 - description: App Store Server Notifications V2 is Apple's webhook surface for in-app purchase and subscription lifecycle events. Apple POSTs a JWS-signed payload to the production and sandbox URLs registered in Ap
   name: App Store Server Notifications V2
@@ -1256,8 +1256,548 @@ collections:
   name: App Store Connect AccessibilityDeclarations WinBackOffers API
   slug: postman-ios-winbackoffers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: App Store Connect API
   slug: open-app-store-connect
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations API
+  slug: open-ios-accessibilitydeclarations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Actors API
+  slug: open-ios-actors-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AgeRatingDeclarations API
+  slug: open-ios-ageratingdeclarations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionDomains API
+  slug: open-ios-alternativedistributiondomains-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionKeys API
+  slug: open-ios-alternativedistributionkeys-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionPackageDeltas API
+  slug: open-ios-alternativedistributionpackagedeltas-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionPackages API
+  slug: open-ios-alternativedistributionpackages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionPackageVariants API
+  slug: open-ios-alternativedistributionpackagevariants-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionPackageVersions API
+  slug: open-ios-alternativedistributionpackageversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AnalyticsReportInstances API
+  slug: open-ios-analyticsreportinstances-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AnalyticsReportRequests API
+  slug: open-ios-analyticsreportrequests-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AnalyticsReports API
+  slug: open-ios-analyticsreports-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AnalyticsReportSegments API
+  slug: open-ios-analyticsreportsegments-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AndroidToIosAppMappingDetails API
+  slug: open-ios-androidtoiosappmappingdetails-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppAvailabilities API
+  slug: open-ios-appavailabilities-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppCategories API
+  slug: open-ios-appcategories-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppClipAdvancedExperienceImages API
+  slug: open-ios-appclipadvancedexperienceimages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppClipAdvancedExperiences API
+  slug: open-ios-appclipadvancedexperiences-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppClipDefaultExperienceLocalizations API
+  slug: open-ios-appclipdefaultexperiencelocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppClipDefaultExperiences API
+  slug: open-ios-appclipdefaultexperiences-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppClipHeaderImages API
+  slug: open-ios-appclipheaderimages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppClips API
+  slug: open-ios-appclips-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppCustomProductPageLocalizations API
+  slug: open-ios-appcustomproductpagelocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppCustomProductPages API
+  slug: open-ios-appcustomproductpages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppCustomProductPageVersions API
+  slug: open-ios-appcustomproductpageversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppEncryptionDeclarationDocuments API
+  slug: open-ios-appencryptiondeclarationdocuments-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppEncryptionDeclarations API
+  slug: open-ios-appencryptiondeclarations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppEventLocalizations API
+  slug: open-ios-appeventlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppEvents API
+  slug: open-ios-appevents-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppEventScreenshots API
+  slug: open-ios-appeventscreenshots-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppEventVideoClips API
+  slug: open-ios-appeventvideoclips-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppInfoLocalizations API
+  slug: open-ios-appinfolocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppInfos API
+  slug: open-ios-appinfos-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppPricePoints API
+  slug: open-ios-apppricepoints-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppPriceSchedules API
+  slug: open-ios-apppriceschedules-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Apps API
+  slug: open-ios-apps-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppScreenshots API
+  slug: open-ios-appscreenshots-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppScreenshotSets API
+  slug: open-ios-appscreenshotsets-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionExperiments API
+  slug: open-ios-appstoreversionexperiments-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionExperimentTreatmentLocalizations API
+  slug: open-ios-appstoreversionexperimenttreatmentlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionExperimentTreatments API
+  slug: open-ios-appstoreversionexperimenttreatments-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionLocalizations API
+  slug: open-ios-appstoreversionlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionPhasedReleases API
+  slug: open-ios-appstoreversionphasedreleases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionPromotions API
+  slug: open-ios-appstoreversionpromotions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionReleaseRequests API
+  slug: open-ios-appstoreversionreleaserequests-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppStoreVersions API
+  slug: open-ios-appstoreversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionSubmissions API
+  slug: open-ios-appstoreversionsubmissions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations AppTags API
+  slug: open-ios-apptags-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BackgroundAssets API
+  slug: open-ios-backgroundassets-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetUploadFiles API
+  slug: open-ios-backgroundassetuploadfiles-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetVersionAppStoreReleases API
+  slug: open-ios-backgroundassetversionappstorereleases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetVersionExternalBetaReleases API
+  slug: open-ios-backgroundassetversionexternalbetareleases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetVersionInternalBetaReleases API
+  slug: open-ios-backgroundassetversioninternalbetareleases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetVersions API
+  slug: open-ios-backgroundassetversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaAppClipInvocationLocalizations API
+  slug: open-ios-betaappclipinvocationlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaAppClipInvocations API
+  slug: open-ios-betaappclipinvocations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaAppLocalizations API
+  slug: open-ios-betaapplocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaBuildLocalizations API
+  slug: open-ios-betabuildlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaCrashLogs API
+  slug: open-ios-betacrashlogs-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaFeedbackCrashSubmissions API
+  slug: open-ios-betafeedbackcrashsubmissions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaFeedbackScreenshotSubmissions API
+  slug: open-ios-betafeedbackscreenshotsubmissions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaGroups API
+  slug: open-ios-betagroups-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaLicenseAgreements API
+  slug: open-ios-betalicenseagreements-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaRecruitmentCriteria API
+  slug: open-ios-betarecruitmentcriteria-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaRecruitmentCriterionOptions API
+  slug: open-ios-betarecruitmentcriterionoptions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaTesterInvitations API
+  slug: open-ios-betatesterinvitations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BetaTesters API
+  slug: open-ios-betatesters-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BuildBetaDetails API
+  slug: open-ios-buildbetadetails-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BuildBetaNotifications API
+  slug: open-ios-buildbetanotifications-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BuildBundles API
+  slug: open-ios-buildbundles-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Builds API
+  slug: open-ios-builds-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BuildUploadFiles API
+  slug: open-ios-builduploadfiles-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BuildUploads API
+  slug: open-ios-builduploads-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BundleIdCapabilities API
+  slug: open-ios-bundleidcapabilities-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations BundleIds API
+  slug: open-ios-bundleids-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Certificates API
+  slug: open-ios-certificates-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations CiArtifacts API
+  slug: open-ios-ciartifacts-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations CiBuildActions API
+  slug: open-ios-cibuildactions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations CiBuildRuns API
+  slug: open-ios-cibuildruns-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations CiIssues API
+  slug: open-ios-ciissues-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations CiMacOsVersions API
+  slug: open-ios-cimacosversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations CiProducts API
+  slug: open-ios-ciproducts-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations CiTestResults API
+  slug: open-ios-citestresults-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations CiWorkflows API
+  slug: open-ios-ciworkflows-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations CiXcodeVersions API
+  slug: open-ios-cixcodeversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Devices API
+  slug: open-ios-devices-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations DiagnosticSignatures API
+  slug: open-ios-diagnosticsignatures-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations EndAppAvailabilityPreOrders API
+  slug: open-ios-endappavailabilitypreorders-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations EndUserLicenseAgreements API
+  slug: open-ios-enduserlicenseagreements-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations FinanceReports API
+  slug: open-ios-financereports-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievementImages API
+  slug: open-ios-gamecenterachievementimages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievementLocalizations API
+  slug: open-ios-gamecenterachievementlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievementReleases API
+  slug: open-ios-gamecenterachievementreleases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievements API
+  slug: open-ios-gamecenterachievements-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievementVersions API
+  slug: open-ios-gamecenterachievementversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterActivities API
+  slug: open-ios-gamecenteractivities-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterActivityImages API
+  slug: open-ios-gamecenteractivityimages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterActivityLocalizations API
+  slug: open-ios-gamecenteractivitylocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterActivityVersionReleases API
+  slug: open-ios-gamecenteractivityversionreleases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterActivityVersions API
+  slug: open-ios-gamecenteractivityversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterAppVersions API
+  slug: open-ios-gamecenterappversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterChallengeImages API
+  slug: open-ios-gamecenterchallengeimages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterChallengeLocalizations API
+  slug: open-ios-gamecenterchallengelocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterChallenges API
+  slug: open-ios-gamecenterchallenges-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterChallengeVersionReleases API
+  slug: open-ios-gamecenterchallengeversionreleases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterChallengeVersions API
+  slug: open-ios-gamecenterchallengeversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterDetails API
+  slug: open-ios-gamecenterdetails-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterEnabledVersions API
+  slug: open-ios-gamecenterenabledversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterGroups API
+  slug: open-ios-gamecentergroups-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardEntrySubmissions API
+  slug: open-ios-gamecenterleaderboardentrysubmissions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardImages API
+  slug: open-ios-gamecenterleaderboardimages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardLocalizations API
+  slug: open-ios-gamecenterleaderboardlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardReleases API
+  slug: open-ios-gamecenterleaderboardreleases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboards API
+  slug: open-ios-gamecenterleaderboards-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetImages API
+  slug: open-ios-gamecenterleaderboardsetimages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetLocalizations API
+  slug: open-ios-gamecenterleaderboardsetlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetMemberLocalizations API
+  slug: open-ios-gamecenterleaderboardsetmemberlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetReleases API
+  slug: open-ios-gamecenterleaderboardsetreleases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSets API
+  slug: open-ios-gamecenterleaderboardsets-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetVersions API
+  slug: open-ios-gamecenterleaderboardsetversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardVersions API
+  slug: open-ios-gamecenterleaderboardversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingQueues API
+  slug: open-ios-gamecentermatchmakingqueues-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingRules API
+  slug: open-ios-gamecentermatchmakingrules-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingRuleSets API
+  slug: open-ios-gamecentermatchmakingrulesets-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingRuleSetTests API
+  slug: open-ios-gamecentermatchmakingrulesettests-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingTeams API
+  slug: open-ios-gamecentermatchmakingteams-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations GameCenterPlayerAchievementSubmissions API
+  slug: open-ios-gamecenterplayerachievementsubmissions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseAvailabilities API
+  slug: open-ios-inapppurchaseavailabilities-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseContents API
+  slug: open-ios-inapppurchasecontents-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseImages API
+  slug: open-ios-inapppurchaseimages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseLocalizations API
+  slug: open-ios-inapppurchaselocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseOfferCodeCustomCodes API
+  slug: open-ios-inapppurchaseoffercodecustomcodes-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseOfferCodeOneTimeUseCodes API
+  slug: open-ios-inapppurchaseoffercodeonetimeusecodes-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseOfferCodes API
+  slug: open-ios-inapppurchaseoffercodes-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchasePricePoints API
+  slug: open-ios-inapppurchasepricepoints-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchasePriceSchedules API
+  slug: open-ios-inapppurchasepriceschedules-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchases API
+  slug: open-ios-inapppurchases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseSubmissions API
+  slug: open-ios-inapppurchasesubmissions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations MarketplaceSearchDetails API
+  slug: open-ios-marketplacesearchdetails-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations MarketplaceWebhooks API
+  slug: open-ios-marketplacewebhooks-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations MerchantIds API
+  slug: open-ios-merchantids-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Metrics API
+  slug: open-ios-metrics-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Nominations API
+  slug: open-ios-nominations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations PassTypeIds API
+  slug: open-ios-passtypeids-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations PreReleaseVersions API
+  slug: open-ios-prereleaseversions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Profiles API
+  slug: open-ios-profiles-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations PromotedPurchases API
+  slug: open-ios-promotedpurchases-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations RoutingAppCoverages API
+  slug: open-ios-routingappcoverages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SalesReports API
+  slug: open-ios-salesreports-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SandboxTesters API
+  slug: open-ios-sandboxtesters-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SandboxTestersClearPurchaseHistoryRequest API
+  slug: open-ios-sandboxtestersclearpurchasehistoryrequest-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations ScmGitReferences API
+  slug: open-ios-scmgitreferences-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations ScmProviders API
+  slug: open-ios-scmproviders-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations ScmPullRequests API
+  slug: open-ios-scmpullrequests-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations ScmRepositories API
+  slug: open-ios-scmrepositories-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionAvailabilities API
+  slug: open-ios-subscriptionavailabilities-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionGracePeriods API
+  slug: open-ios-subscriptiongraceperiods-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionGroupLocalizations API
+  slug: open-ios-subscriptiongrouplocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionGroups API
+  slug: open-ios-subscriptiongroups-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionGroupSubmissions API
+  slug: open-ios-subscriptiongroupsubmissions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionImages API
+  slug: open-ios-subscriptionimages-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionIntroductoryOffers API
+  slug: open-ios-subscriptionintroductoryoffers-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionLocalizations API
+  slug: open-ios-subscriptionlocalizations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionOfferCodeCustomCodes API
+  slug: open-ios-subscriptionoffercodecustomcodes-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionOfferCodeOneTimeUseCodes API
+  slug: open-ios-subscriptionoffercodeonetimeusecodes-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionOfferCodes API
+  slug: open-ios-subscriptionoffercodes-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionPricePoints API
+  slug: open-ios-subscriptionpricepoints-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionPrices API
+  slug: open-ios-subscriptionprices-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionPromotionalOffers API
+  slug: open-ios-subscriptionpromotionaloffers-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Subscriptions API
+  slug: open-ios-subscriptions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations SubscriptionSubmissions API
+  slug: open-ios-subscriptionsubmissions-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Territories API
+  slug: open-ios-territories-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations TerritoryAvailabilities API
+  slug: open-ios-territoryavailabilities-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations UserInvitations API
+  slug: open-ios-userinvitations-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Users API
+  slug: open-ios-users-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations WebhookDeliveries API
+  slug: open-ios-webhookdeliveries-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations WebhookPings API
+  slug: open-ios-webhookpings-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations Webhooks API
+  slug: open-ios-webhooks-api
+- collection_type: open
+  name: App Store Connect AccessibilityDeclarations WinBackOffers API
+  slug: open-ios-winbackoffers-api
 common:
 - group: build
   title: ''
@@ -1496,7 +2036,7 @@ plans:
 - name: Ios Plans Pricing
   plan_count: 5
   slug: ios-plans-pricing
-random_paper: 91
+random_paper: 33
 rate_limits:
 - limit_count: 7
   name: Ios Rate Limits
@@ -1552,7 +2092,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/screenshots/ios-2026-06-20T183533.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,20 @@ apis:
 - description: Endpoints for retrieving aircraft trajectory tracks with detailed waypoint data.
   name: OpenSky Network Tracks API
   slug: opensky-tracks-api
-artifact_total: 19
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenSky Network REST Flights API
+  slug: open-opensky-flights-api
+- collection_type: open
+  name: OpenSky Network REST Flights State Vectors API
+  slug: open-opensky-state-vectors-api
+- collection_type: open
+  name: OpenSky Network REST Flights Tracks API
+  slug: open-opensky-tracks-api
 common:
 - group: commercial
   title: ''
@@ -161,7 +174,7 @@ plans:
 - name: Opensky Trino Api
   plan_count: 2
   slug: opensky-trino-api
-random_paper: 57
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Opensky Rest Api
@@ -198,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

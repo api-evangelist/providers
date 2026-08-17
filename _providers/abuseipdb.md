@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,14 +73,29 @@ arazzos:
 - description: Submit an abuse report for an IP and immediately re-check it to confirm the updated score.
   name: AbuseIPDB Report Then Verify
   slug: abuseipdb-report-then-verify-workflow
-artifact_total: 63
+artifact_total: 68
 collections:
 - collection_type: postman
   name: AbuseIPDB APIv2
   slug: postman-abuseipdb-apiv2
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: AbuseIPDB APIv2
   slug: open-abuseipdb-apiv2
+- collection_type: open
+  name: AbuseIPDB APIv2 Blacklist API
+  slug: open-abuseipdb-blacklist-api
+- collection_type: open
+  name: AbuseIPDB APIv2 Blacklist Management API
+  slug: open-abuseipdb-management-api
+- collection_type: open
+  name: AbuseIPDB APIv2 Blacklist Reports API
+  slug: open-abuseipdb-reports-api
+- collection_type: open
+  name: AbuseIPDB APIv2 Blacklist Reputation API
+  slug: open-abuseipdb-reputation-api
 common:
 - group: agent
   title: ''
@@ -333,7 +348,7 @@ plans:
 - name: Abuseipdb Plans Pricing
   plan_count: 4
   slug: abuseipdb-plans-pricing
-random_paper: 103
+random_paper: 49
 rate_limits:
 - limit_count: 25
   name: Abuseipdb Rate Limits
@@ -375,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/screenshots/abuseipdb-2026-06-20T163451.png
 security:

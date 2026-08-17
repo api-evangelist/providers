@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -60,7 +60,29 @@ apis:
 - description: The Review API from BigOven — 6 operation(s) for review.
   name: BigOven Review API
   slug: bigoven-review-api
-artifact_total: 137
+artifact_total: 144
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 1,000,000+ Recipe and Grocery List API (v2) Collection API
+  slug: open-bigoven-collection-api
+- collection_type: open
+  name: 1,000,000+ Recipe and Grocery List API (v2) Collection GroceryList API
+  slug: open-bigoven-grocerylist-api
+- collection_type: open
+  name: 1,000,000+ Recipe and Grocery List API (v2) Collection Images API
+  slug: open-bigoven-images-api
+- collection_type: open
+  name: 1,000,000+ Recipe and Grocery List API (v2) Collection Me API
+  slug: open-bigoven-me-api
+- collection_type: open
+  name: 1,000,000+ Recipe and Grocery List API (v2) Collection Note API
+  slug: open-bigoven-note-api
+- collection_type: open
+  name: 1,000,000+ and Grocery List API (v2) Collection Recipe API
+  slug: open-bigoven-recipe-api
 common:
 - group: agent
   title: ''
@@ -510,7 +532,7 @@ plans:
 - name: Bigoven Plans Pricing
   plan_count: 5
   slug: bigoven-plans-pricing
-random_paper: 26
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Bigoven Rate Limits
@@ -544,7 +566,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/screenshots/bigoven-2026-06-20T173235.png
 security:

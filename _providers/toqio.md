@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 49
 apis:
 - description: The Account API from Toqio — 7 operation(s) for account.
@@ -178,11 +178,162 @@ apis:
 - description: The Webhook API from Toqio — 2 operation(s) for webhook.
   name: Toqio Webhook API
   slug: toqio-webhook-api
-artifact_total: 54
+artifact_total: 104
 asyncapis:
 - description: ''
   name: Toqio Webhooks
   slug: toqio-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accounts Account API
+  slug: open-toqio-account-api
+- collection_type: open
+  name: Accounts Account Account information API
+  slug: open-toqio-account-information-api
+- collection_type: open
+  name: Accounts Account API Endpoints API
+  slug: open-toqio-api-endpoints-api
+- collection_type: open
+  name: Accounts Account Beneficiary actions API
+  slug: open-toqio-beneficiary-actions-api
+- collection_type: open
+  name: Accounts Account Beneficiary API
+  slug: open-toqio-beneficiary-api
+- collection_type: open
+  name: Accounts Account Card actions API
+  slug: open-toqio-card-actions-api
+- collection_type: open
+  name: Accounts Account Card Details API
+  slug: open-toqio-card-details-api
+- collection_type: open
+  name: Accounts Account Card Lifecycle API
+  slug: open-toqio-card-lifecycle-api
+- collection_type: open
+  name: Accounts Account Card Limits API
+  slug: open-toqio-card-limits-api
+- collection_type: open
+  name: Accounts Account Client accounts information API
+  slug: open-toqio-client-accounts-information-api
+- collection_type: open
+  name: Accounts Account Client actions API
+  slug: open-toqio-client-actions-api
+- collection_type: open
+  name: Accounts Account Client information API
+  slug: open-toqio-client-information-api
+- collection_type: open
+  name: Accounts Account Compliance API
+  slug: open-toqio-compliance-api
+- collection_type: open
+  name: Accounts Account compliance-controller API
+  slug: open-toqio-compliance-controller-api
+- collection_type: open
+  name: Accounts Account Create transaction API
+  slug: open-toqio-create-transaction-api
+- collection_type: open
+  name: Accounts Account Credit Cards API
+  slug: open-toqio-credit-cards-api
+- collection_type: open
+  name: Accounts Account Custom Faculties API
+  slug: open-toqio-custom-faculties-api
+- collection_type: open
+  name: Accounts Account Custom Ledger App Texts API
+  slug: open-toqio-custom-ledger-app-texts-api
+- collection_type: open
+  name: Accounts Account Custom Notifications API
+  slug: open-toqio-custom-notifications-api
+- collection_type: open
+  name: Accounts Account Customer API
+  slug: open-toqio-customer-api
+- collection_type: open
+  name: Accounts Account Delete Account API
+  slug: open-toqio-delete-account-api
+- collection_type: open
+  name: Accounts Account Direct debit API
+  slug: open-toqio-direct-debit-api
+- collection_type: open
+  name: Accounts Account Dynamic Account Button Configuration API
+  slug: open-toqio-dynamic-account-button-configuration-api
+- collection_type: open
+  name: Accounts Account Email Configuration API
+  slug: open-toqio-email-configuration-api
+- collection_type: open
+  name: Accounts Account Fees API
+  slug: open-toqio-fees-api
+- collection_type: open
+  name: Accounts Account Get Customer account information API
+  slug: open-toqio-get-customer-account-information-api
+- collection_type: open
+  name: Accounts Account JWT validation API
+  slug: open-toqio-jwt-validation-api
+- collection_type: open
+  name: Accounts Account Lending API
+  slug: open-toqio-lending-api
+- collection_type: open
+  name: Accounts Account Lending - Lender API
+  slug: open-toqio-lending-lender-api
+- collection_type: open
+  name: Accounts Account Lending - Loan API
+  slug: open-toqio-lending-loan-api
+- collection_type: open
+  name: Accounts Account Lending - Loan - Offer API
+  slug: open-toqio-lending-loan-offer-api
+- collection_type: open
+  name: Accounts Account Lending - Loan - Request API
+  slug: open-toqio-lending-loan-request-api
+- collection_type: open
+  name: Accounts Account Manage requests API
+  slug: open-toqio-manage-requests-api
+- collection_type: open
+  name: Accounts Account MeaWallet API
+  slug: open-toqio-meawallet-api
+- collection_type: open
+  name: Accounts Account Merchant API
+  slug: open-toqio-merchant-api
+- collection_type: open
+  name: Accounts Account Onboarding API
+  slug: open-toqio-onboarding-api
+- collection_type: open
+  name: Accounts Account onboarding-controller API
+  slug: open-toqio-onboarding-controller-api
+- collection_type: open
+  name: Accounts Account OTP API
+  slug: open-toqio-otp-api
+- collection_type: open
+  name: Accounts Account pre-signed-url-controller API
+  slug: open-toqio-pre-signed-url-controller-api
+- collection_type: open
+  name: Accounts Account Products API
+  slug: open-toqio-products-api
+- collection_type: open
+  name: Accounts Account Provider API
+  slug: open-toqio-provider-api
+- collection_type: open
+  name: Accounts Account Receive request payment API
+  slug: open-toqio-receive-request-payment-api
+- collection_type: open
+  name: Accounts Account Security API
+  slug: open-toqio-security-api
+- collection_type: open
+  name: Accounts Account Transaction API
+  slug: open-toqio-transaction-api
+- collection_type: open
+  name: Accounts Account Transactions information API
+  slug: open-toqio-transactions-information-api
+- collection_type: open
+  name: Accounts Account User API
+  slug: open-toqio-user-api
+- collection_type: open
+  name: Accounts Account User credentials API
+  slug: open-toqio-user-credentials-api
+- collection_type: open
+  name: Accounts Account User status API
+  slug: open-toqio-user-status-api
+- collection_type: open
+  name: Accounts Account Webhook API
+  slug: open-toqio-webhook-api
 common:
 - group: other
   title: ''
@@ -319,7 +470,7 @@ overview: 'Toqio publishes 49 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Toqio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 76
+random_paper: 109
 scopes:
 - name: Toqio Scopes
   scope_count: 3
@@ -353,7 +504,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

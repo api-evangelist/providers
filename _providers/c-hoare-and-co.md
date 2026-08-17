@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,7 +47,17 @@ apis:
 - description: OBIE Dynamic Client Registration (DCR) proxy — lets third-party providers submit a signed Software Statement Assertion to register an OAuth2 client with C. Hoare & Co. as part of TPP onboarding. Publi
   name: C. Hoare & Co. Dynamic Client Registration API
   slug: c-hoare-and-co-dynamic-client-registration-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Account and Transaction API Specification
+  slug: open-c-hoare-and-co-account-and-transaction-api
+- collection_type: open
+  name: Dynamic Client Registration API
+  slug: open-c-hoare-and-co-dynamic-client-registration-api
+- collection_type: open
+  name: Payment Initiation API
+  slug: open-c-hoare-and-co-payment-initiation-api
 common:
 - group: auth
   title: ''
@@ -170,7 +180,7 @@ overview: 'C. Hoare & Co. publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   C. Hoare & Co.''s developer surface includes authentication, documentation, support, legal docs, and 22 more developer resources.'
-random_paper: 78
+random_paper: 86
 scopes:
 - name: C Hoare And Co Scopes
   scope_count: 2
@@ -205,7 +215,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png
 security:

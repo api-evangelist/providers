@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,7 +102,74 @@ apis:
 - description: The Visualizations API from CourtListener — 2 operation(s) for visualizations.
   name: CourtListener Visualizations API
   slug: court-listener-visualizations-api
-artifact_total: 45
+artifact_total: 67
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CourtListener REST Alerts API
+  slug: open-court-listener-alerts-api
+- collection_type: open
+  name: CourtListener REST Alerts Audio API
+  slug: open-court-listener-audio-api
+- collection_type: open
+  name: CourtListener REST Alerts Citation API
+  slug: open-court-listener-citation-api
+- collection_type: open
+  name: CourtListener REST Alerts Cited By API
+  slug: open-court-listener-cited-by-api
+- collection_type: open
+  name: CourtListener REST Alerts Cites API
+  slug: open-court-listener-cites-api
+- collection_type: open
+  name: CourtListener REST Alerts Courts API
+  slug: open-court-listener-courts-api
+- collection_type: open
+  name: CourtListener REST Alerts Coverage API
+  slug: open-court-listener-coverage-api
+- collection_type: open
+  name: CourtListener REST Alerts Docket Alerts API
+  slug: open-court-listener-docket-alerts-api
+- collection_type: open
+  name: CourtListener REST Alerts Docket Entries API
+  slug: open-court-listener-docket-entries-api
+- collection_type: open
+  name: CourtListener REST Alerts Dockets API
+  slug: open-court-listener-dockets-api
+- collection_type: open
+  name: CourtListener REST Alerts Financial Disclosures API
+  slug: open-court-listener-financial-disclosures-api
+- collection_type: open
+  name: CourtListener REST Alerts FJC Database API
+  slug: open-court-listener-fjc-database-api
+- collection_type: open
+  name: CourtListener REST Alerts Jurisdiction API
+  slug: open-court-listener-jurisdiction-api
+- collection_type: open
+  name: CourtListener REST Alerts Opinion API
+  slug: open-court-listener-opinion-api
+- collection_type: open
+  name: CourtListener REST Alerts Opinion Clusters API
+  slug: open-court-listener-opinion-clusters-api
+- collection_type: open
+  name: CourtListener REST Alerts Opinions API
+  slug: open-court-listener-opinions-api
+- collection_type: open
+  name: CourtListener REST Alerts People API
+  slug: open-court-listener-people-api
+- collection_type: open
+  name: CourtListener REST Alerts Positions API
+  slug: open-court-listener-positions-api
+- collection_type: open
+  name: CourtListener REST Alerts RECAP Documents API
+  slug: open-court-listener-recap-documents-api
+- collection_type: open
+  name: CourtListener REST Alerts Search API
+  slug: open-court-listener-search-api
+- collection_type: open
+  name: CourtListener REST Alerts Visualizations API
+  slug: open-court-listener-visualizations-api
 common:
 - group: agent
   title: ''
@@ -236,7 +303,7 @@ plans:
 - name: Court Listener Plans Pricing
   plan_count: 7
   slug: court-listener-plans-pricing
-random_paper: 32
+random_paper: 131
 rate_limits:
 - limit_count: 0
   name: Court Listener Rate Limits
@@ -276,7 +343,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/screenshots/court-listener-2026-06-20T175112.png
 security:

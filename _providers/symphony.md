@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -177,17 +177,158 @@ apis:
 - description: The Violations API from Symphony — 7 operation(s) for violations.
   name: Symphony Violations API
   slug: symphony-violations-api
-artifact_total: 63
+artifact_total: 110
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Symphony Agent Add API
+  slug: open-symphony-add-api
+- collection_type: open
+  name: Symphony Agent Add All API
+  slug: open-symphony-all-api
+- collection_type: open
+  name: Symphony Agent Add App API
+  slug: open-symphony-app-api
+- collection_type: open
+  name: Symphony Agent Add Applications API
+  slug: open-symphony-applications-api
+- collection_type: open
+  name: Symphony Agent Add Attachment API
+  slug: open-symphony-attachment-api
+- collection_type: open
+  name: Symphony Agent Add Audittrail API
+  slug: open-symphony-audittrail-api
+- collection_type: open
+  name: Symphony Agent Add Authenticate API
+  slug: open-symphony-authenticate-api
 - collection_type: open
   name: Symphony Authenticator API
   slug: open-symphony-authenticator-api
 - collection_type: open
+  name: Symphony Agent Add Channelco API
+  slug: open-symphony-channelco-api
+- collection_type: open
   name: Symphony Community Connect API
   slug: open-symphony-community-connect-api
 - collection_type: open
+  name: Symphony Agent Add Company API
+  slug: open-symphony-company-api
+- collection_type: open
+  name: Symphony Agent Add Data API
+  slug: open-symphony-data-api
+- collection_type: open
+  name: Symphony Agent Add Datafeed API
+  slug: open-symphony-datafeed-api
+- collection_type: open
+  name: Symphony Agent Add Datafeeds API
+  slug: open-symphony-datafeeds-api
+- collection_type: open
+  name: Symphony Agent Add Delete API
+  slug: open-symphony-delete-api
+- collection_type: open
+  name: Symphony Agent Add Dictionaries API
+  slug: open-symphony-dictionaries-api
+- collection_type: open
+  name: Symphony Agent Add Disable API
+  slug: open-symphony-disable-api
+- collection_type: open
+  name: Symphony Agent Add Dlp API
+  slug: open-symphony-dlp-api
+- collection_type: open
+  name: Symphony Agent Add Echo API
+  slug: open-symphony-echo-api
+- collection_type: open
+  name: Symphony Agent Add Enable API
+  slug: open-symphony-enable-api
+- collection_type: open
+  name: Symphony Agent Add Events API
+  slug: open-symphony-events-api
+- collection_type: open
+  name: Symphony Agent Add Extended API
+  slug: open-symphony-extended-api
+- collection_type: open
+  name: Symphony Agent Add Groups API
+  slug: open-symphony-groups-api
+- collection_type: open
+  name: Symphony Agent Add Health API
+  slug: open-symphony-health-api
+- collection_type: open
+  name: Symphony Agent Add Idm API
+  slug: open-symphony-idm-api
+- collection_type: open
+  name: Symphony Agent Add Info API
+  slug: open-symphony-info-api
+- collection_type: open
   name: Symphony Login API
   slug: open-symphony-login-api
+- collection_type: open
+  name: Symphony Agent Add Logout API
+  slug: open-symphony-logout-api
+- collection_type: open
+  name: Symphony Agent Add Message API
+  slug: open-symphony-message-api
+- collection_type: open
+  name: Symphony Agent Add Onboarding API
+  slug: open-symphony-onboarding-api
+- collection_type: open
+  name: Symphony Agent Add Pod API
+  slug: open-symphony-pod-api
+- collection_type: open
+  name: Symphony Agent Add Policies API
+  slug: open-symphony-policies-api
+- collection_type: open
+  name: Symphony Agent Add Privileged User API
+  slug: open-symphony-privileged-user-api
+- collection_type: open
+  name: Symphony Agent Add Pubkey API
+  slug: open-symphony-pubkey-api
+- collection_type: open
+  name: Symphony Agent Add Read API
+  slug: open-symphony-read-api
+- collection_type: open
+  name: Symphony Agent Add Search API
+  slug: open-symphony-search-api
+- collection_type: open
+  name: Symphony Agent Add Share API
+  slug: open-symphony-share-api
+- collection_type: open
+  name: Symphony Agent Add Signals API
+  slug: open-symphony-signals-api
+- collection_type: open
+  name: Symphony Agent Add Stream API
+  slug: open-symphony-stream-api
+- collection_type: open
+  name: Symphony Agent Add Subscribe API
+  slug: open-symphony-subscribe-api
+- collection_type: open
+  name: Symphony Agent Add Subscribers API
+  slug: open-symphony-subscribers-api
+- collection_type: open
+  name: Symphony Agent Add Tenant API
+  slug: open-symphony-tenant-api
+- collection_type: open
+  name: Symphony Agent Add Types API
+  slug: open-symphony-types-api
+- collection_type: open
+  name: Symphony Agent Add Unsubscribe API
+  slug: open-symphony-unsubscribe-api
+- collection_type: open
+  name: Symphony Agent Add User API
+  slug: open-symphony-user-api
+- collection_type: open
+  name: Symphony Agent Add User Names API
+  slug: open-symphony-user-names-api
+- collection_type: open
+  name: Symphony Agent Add Users API
+  slug: open-symphony-users-api
+- collection_type: open
+  name: Symphony Agent Add Util API
+  slug: open-symphony-util-api
+- collection_type: open
+  name: Symphony Agent Add Violations API
+  slug: open-symphony-violations-api
 common:
 - group: agent
   title: ''
@@ -299,7 +440,7 @@ plans:
 - name: Symphony Plans Pricing
   plan_count: 1
   slug: symphony-plans-pricing
-random_paper: 63
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Symphony Rate Limits
@@ -341,7 +482,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/screenshots/symphony-2026-06-20T194823.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,17 @@ apis:
 - description: The Search API from SerpApi — 2 operation(s) for search.
   name: SerpApi Search API
   slug: serpapi-search-api
-artifact_total: 19
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SerpApi Search Account API
+  slug: open-serpapi-account-api
+- collection_type: open
+  name: SerpApi Account Search API
+  slug: open-serpapi-search-api
 - collection_type: open
   name: SerpApi Search API
   slug: open-serpapi
@@ -138,7 +147,7 @@ plans:
 - name: Serpapi Plans Pricing
   plan_count: 3
   slug: serpapi-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Serpapi Rate Limits
@@ -163,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/screenshots/serpapi-2026-06-20T193722.png
 security:

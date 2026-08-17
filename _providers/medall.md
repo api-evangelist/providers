@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'MedAll is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   MedAll''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 23
+random_paper: 27
 score:
   band: minimal
   composite: 12.7
@@ -83,7 +83,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medall/refs/heads/main/screenshots/medall-2026-08-07T172312.png
 security:

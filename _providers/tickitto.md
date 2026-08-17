@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -67,11 +67,39 @@ arazzos:
 - description: Create a basket, search inventory, fetch availability, add a ticket, and check out.
   name: Tickitto — Search to Checkout
   slug: tickitto-search-to-checkout
-artifact_total: 14
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Tickitto Webhooks
   slug: tickitto-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authentication API
+  slug: open-tickitto-authentication-api
+- collection_type: open
+  name: Authentication Availability API
+  slug: open-tickitto-availability-api
+- collection_type: open
+  name: Authentication Basket API
+  slug: open-tickitto-basket-api
+- collection_type: open
+  name: Authentication Events API
+  slug: open-tickitto-events-api
+- collection_type: open
+  name: Authentication Metadata API
+  slug: open-tickitto-metadata-api
+- collection_type: open
+  name: Authentication Search API
+  slug: open-tickitto-search-api
+- collection_type: open
+  name: Authentication System Status API
+  slug: open-tickitto-system-status-api
+- collection_type: open
+  name: Authentication Webhooks API
+  slug: open-tickitto-webhooks-api
 common:
 - group: other
   title: ''
@@ -188,7 +216,7 @@ overview: 'Tickitto publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tickitto''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, and 19 more developer resources.'
-random_paper: 35
+random_paper: 130
 score:
   band: thin
   composite: 39.7
@@ -218,7 +246,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

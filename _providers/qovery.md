@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 23
@@ -321,7 +321,293 @@ apis:
 - description: The Variable Main Calls API from Qovery — 5 operation(s) for variable main calls.
   name: Qovery Variable Main Calls API
   slug: qovery-variable-main-calls-api
-artifact_total: 109
+artifact_total: 204
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qovery Account Info API
+  slug: open-qovery-account-info-api
+- collection_type: open
+  name: Qovery Account Info Alert Receivers API
+  slug: open-qovery-alert-receivers-api
+- collection_type: open
+  name: Qovery Account Info Alert Rules API
+  slug: open-qovery-alert-rules-api
+- collection_type: open
+  name: Qovery Account Info Application Actions API
+  slug: open-qovery-application-actions-api
+- collection_type: open
+  name: Qovery Account Info Application Configuration API
+  slug: open-qovery-application-configuration-api
+- collection_type: open
+  name: Qovery Account Info Application Custom Domain API
+  slug: open-qovery-application-custom-domain-api
+- collection_type: open
+  name: Qovery Account Info Application Deployment History API
+  slug: open-qovery-application-deployment-history-api
+- collection_type: open
+  name: Qovery Account Info Application Deployment Restriction API
+  slug: open-qovery-application-deployment-restriction-api
+- collection_type: open
+  name: Qovery Account Info Application Environment Variable API
+  slug: open-qovery-application-environment-variable-api
+- collection_type: open
+  name: Qovery Account Info Application Logs API
+  slug: open-qovery-application-logs-api
+- collection_type: open
+  name: Qovery Account Info Application Main Calls API
+  slug: open-qovery-application-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Application Secret API
+  slug: open-qovery-application-secret-api
+- collection_type: open
+  name: Qovery Account Info Applications API
+  slug: open-qovery-applications-api
+- collection_type: open
+  name: Qovery Account Info ArgoCD API
+  slug: open-qovery-argocd-api
+- collection_type: open
+  name: Qovery Account Info Backups API
+  slug: open-qovery-backups-api
+- collection_type: open
+  name: Qovery Account Info Billing API
+  slug: open-qovery-billing-api
+- collection_type: open
+  name: Qovery Account Info Cloud Provider API
+  slug: open-qovery-cloud-provider-api
+- collection_type: open
+  name: Qovery Account Info Cloud Provider Credentials API
+  slug: open-qovery-cloud-provider-credentials-api
+- collection_type: open
+  name: Qovery Account Info Cluster API
+  slug: open-qovery-cluster-api
+- collection_type: open
+  name: Qovery Account Info Clusters API
+  slug: open-qovery-clusters-api
+- collection_type: open
+  name: Qovery Account Info Container Actions API
+  slug: open-qovery-container-actions-api
+- collection_type: open
+  name: Qovery Account Info Container Configuration API
+  slug: open-qovery-container-configuration-api
+- collection_type: open
+  name: Qovery Account Info Container Custom Domain API
+  slug: open-qovery-container-custom-domain-api
+- collection_type: open
+  name: Qovery Account Info Container Deployment History API
+  slug: open-qovery-container-deployment-history-api
+- collection_type: open
+  name: Qovery Account Info Container Environment Variable API
+  slug: open-qovery-container-environment-variable-api
+- collection_type: open
+  name: Qovery Account Info Container Logs API
+  slug: open-qovery-container-logs-api
+- collection_type: open
+  name: Qovery Account Info Container Main Calls API
+  slug: open-qovery-container-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Container Registries API
+  slug: open-qovery-container-registries-api
+- collection_type: open
+  name: Qovery Account Info Container Secret API
+  slug: open-qovery-container-secret-api
+- collection_type: open
+  name: Qovery Account Info Containers API
+  slug: open-qovery-containers-api
+- collection_type: open
+  name: Qovery Account Info Database Actions API
+  slug: open-qovery-database-actions-api
+- collection_type: open
+  name: Qovery Account Info Database Application API
+  slug: open-qovery-database-application-api
+- collection_type: open
+  name: Qovery Account Info Database Deployment History API
+  slug: open-qovery-database-deployment-history-api
+- collection_type: open
+  name: Qovery Account Info Database Main Calls API
+  slug: open-qovery-database-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Databases API
+  slug: open-qovery-databases-api
+- collection_type: open
+  name: Qovery Account Info Deployment Queue Actions API
+  slug: open-qovery-deployment-queue-actions-api
+- collection_type: open
+  name: Qovery Account Info Deployment Stage Main Calls API
+  slug: open-qovery-deployment-stage-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Environment Actions API
+  slug: open-qovery-environment-actions-api
+- collection_type: open
+  name: Qovery Account Info Environment API
+  slug: open-qovery-environment-api
+- collection_type: open
+  name: Qovery Account Info Environment Deployment History API
+  slug: open-qovery-environment-deployment-history-api
+- collection_type: open
+  name: Qovery Account Info Environment Deployment Rule API
+  slug: open-qovery-environment-deployment-rule-api
+- collection_type: open
+  name: Qovery Account Info Environment Export API
+  slug: open-qovery-environment-export-api
+- collection_type: open
+  name: Qovery Account Info Environment Logs API
+  slug: open-qovery-environment-logs-api
+- collection_type: open
+  name: Qovery Account Info Environment Main Calls API
+  slug: open-qovery-environment-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Environment Secret API
+  slug: open-qovery-environment-secret-api
+- collection_type: open
+  name: Qovery Account Info Environment Variable API
+  slug: open-qovery-environment-variable-api
+- collection_type: open
+  name: Qovery Account Info Environments API
+  slug: open-qovery-environments-api
+- collection_type: open
+  name: Qovery Account Info Git repositories API
+  slug: open-qovery-git-repositories-api
+- collection_type: open
+  name: Qovery Account Info Github App API
+  slug: open-qovery-github-app-api
+- collection_type: open
+  name: Qovery Account Info Helm Actions API
+  slug: open-qovery-helm-actions-api
+- collection_type: open
+  name: Qovery Account Info Helm Configuration API
+  slug: open-qovery-helm-configuration-api
+- collection_type: open
+  name: Qovery Account Info Helm Custom Domain API
+  slug: open-qovery-helm-custom-domain-api
+- collection_type: open
+  name: Qovery Account Info Helm Deployment History API
+  slug: open-qovery-helm-deployment-history-api
+- collection_type: open
+  name: Qovery Account Info Helm Deployment Restriction API
+  slug: open-qovery-helm-deployment-restriction-api
+- collection_type: open
+  name: Qovery Account Info Helm Main Calls API
+  slug: open-qovery-helm-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Helm Repositories API
+  slug: open-qovery-helm-repositories-api
+- collection_type: open
+  name: Qovery Account Info Helms API
+  slug: open-qovery-helms-api
+- collection_type: open
+  name: Qovery Account Info Job Actions API
+  slug: open-qovery-job-actions-api
+- collection_type: open
+  name: Qovery Account Info Job Configuration API
+  slug: open-qovery-job-configuration-api
+- collection_type: open
+  name: Qovery Account Info Job Deployment History API
+  slug: open-qovery-job-deployment-history-api
+- collection_type: open
+  name: Qovery Account Info Job Deployment Restriction API
+  slug: open-qovery-job-deployment-restriction-api
+- collection_type: open
+  name: Qovery Account Info Job Environment Variable API
+  slug: open-qovery-job-environment-variable-api
+- collection_type: open
+  name: Qovery Account Info Job Main Calls API
+  slug: open-qovery-job-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Job Secret API
+  slug: open-qovery-job-secret-api
+- collection_type: open
+  name: Qovery Account Info Jobs API
+  slug: open-qovery-jobs-api
+- collection_type: open
+  name: Qovery Account Info Lifecycle Template Main Calls API
+  slug: open-qovery-lifecycle-template-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Members API
+  slug: open-qovery-members-api
+- collection_type: open
+  name: Qovery Account Info Organization Account Git Repositories API
+  slug: open-qovery-organization-account-git-repositories-api
+- collection_type: open
+  name: Qovery Account Info Organization Annotations Group API
+  slug: open-qovery-organization-annotations-group-api
+- collection_type: open
+  name: Qovery Account Info Organization Api Token API
+  slug: open-qovery-organization-api-token-api
+- collection_type: open
+  name: Qovery Account Info Organization Cluster Lock API
+  slug: open-qovery-organization-cluster-lock-api
+- collection_type: open
+  name: Qovery Account Info Organization Custom Role API
+  slug: open-qovery-organization-custom-role-api
+- collection_type: open
+  name: Qovery Account Info Organization Enterprise Connection API
+  slug: open-qovery-organization-enterprise-connection-api
+- collection_type: open
+  name: Qovery Account Info Organization Event API
+  slug: open-qovery-organization-event-api
+- collection_type: open
+  name: Qovery Account Info Organization Labels Group API
+  slug: open-qovery-organization-labels-group-api
+- collection_type: open
+  name: Qovery Account Info Organization Main Calls API
+  slug: open-qovery-organization-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Organization Webhook API
+  slug: open-qovery-organization-webhook-api
+- collection_type: open
+  name: Qovery Account Info Project Deployment Rule API
+  slug: open-qovery-project-deployment-rule-api
+- collection_type: open
+  name: Qovery Account Info Project Environment Variable API
+  slug: open-qovery-project-environment-variable-api
+- collection_type: open
+  name: Qovery Account Info Project Main Calls API
+  slug: open-qovery-project-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Project Secret API
+  slug: open-qovery-project-secret-api
+- collection_type: open
+  name: Qovery Account Info Projects API
+  slug: open-qovery-projects-api
+- collection_type: open
+  name: Qovery Account Info Referral & Rewards API
+  slug: open-qovery-referral-rewards-api
+- collection_type: open
+  name: Qovery Account Info Service Main Calls API
+  slug: open-qovery-service-main-calls-api
+- collection_type: open
+  name: Qovery Account Info service_status API
+  slug: open-qovery-service-status-api
+- collection_type: open
+  name: Qovery Account Info Terraform Actions API
+  slug: open-qovery-terraform-actions-api
+- collection_type: open
+  name: Qovery Account Info Terraform Configuration API
+  slug: open-qovery-terraform-configuration-api
+- collection_type: open
+  name: Qovery Account Info Terraform Deployment History API
+  slug: open-qovery-terraform-deployment-history-api
+- collection_type: open
+  name: Qovery Account Info Terraform Deployment Restriction API
+  slug: open-qovery-terraform-deployment-restriction-api
+- collection_type: open
+  name: Qovery Account Info Terraform Main Calls API
+  slug: open-qovery-terraform-main-calls-api
+- collection_type: open
+  name: Qovery Account Info Terraform Resources API
+  slug: open-qovery-terraform-resources-api
+- collection_type: open
+  name: Qovery Account Info Terraforms API
+  slug: open-qovery-terraforms-api
+- collection_type: open
+  name: Qovery Account Info User Sign Up API
+  slug: open-qovery-user-sign-up-api
+- collection_type: open
+  name: Qovery Account Info Variable Main Calls API
+  slug: open-qovery-variable-main-calls-api
 common:
 - group: agent
   title: ''
@@ -443,7 +729,7 @@ plans:
 - name: Qovery Plans Pricing
   plan_count: 3
   slug: qovery-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Qovery Rate Limits
@@ -468,7 +754,7 @@ score:
       marker_coverage: 0.0
       total: 94
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/screenshots/qovery-2026-06-20T192353.png
 security:

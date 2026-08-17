@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The public, anonymously-readable WordPress REST content API served by inflammatix.com. Alongside the standard WordPress collections (posts, pages, media, categories, tags, comments, search) it exposes
@@ -27,7 +27,14 @@ apis:
 - description: The public, anonymously-readable WordPress REST content API served by support.inflammatix.com, the Inflammatix customer support and TriVerity/Myrna operator-training portal. In addition to the standar
   name: Inflammatix Support and Training Content API
   slug: support-content
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Inflammatix Site Content API (WordPress REST)
+  slug: open-inflammatix-content
+- collection_type: open
+  name: Inflammatix Support & Training Content API (WordPress REST)
+  slug: open-inflammatix-support-content
 common:
 - group: agent
   title: ''
@@ -150,7 +157,7 @@ overview: 'Inflammatix publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Inflammatix''s developer surface includes support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 98
+random_paper: 135
 score:
   band: thin
   composite: 38.4
@@ -179,7 +186,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/screenshots/inflammatix-2026-08-07T170701.png
 security:

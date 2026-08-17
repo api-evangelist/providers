@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Donations, ticket, and merchandise order transactions.
   name: Classy Transactions API
   slug: classy-org-transactions-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication API
+  slug: open-classy-org-authentication-api
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication Campaigns API
+  slug: open-classy-org-campaigns-api
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication Designations API
+  slug: open-classy-org-designations-api
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication Fundraising Pages API
+  slug: open-classy-org-fundraising-pages-api
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication Fundraising Teams API
+  slug: open-classy-org-fundraising-teams-api
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication Members API
+  slug: open-classy-org-members-api
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication Organizations API
+  slug: open-classy-org-organizations-api
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication Recurring Donation Plans API
+  slug: open-classy-org-recurring-donation-plans-api
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication Supporters API
+  slug: open-classy-org-supporters-api
+- collection_type: open
+  name: Classy API (GoFundMe Pro) Authentication Transactions API
+  slug: open-classy-org-transactions-api
 - collection_type: open
   name: Classy API (GoFundMe Pro)
   slug: open-classy-org
@@ -139,7 +172,7 @@ plans:
 - name: Classy Org Plans Pricing
   plan_count: 4
   slug: classy-org-plans-pricing
-random_paper: 68
+random_paper: 134
 rate_limits:
 - limit_count: 3
   name: Classy Org Rate Limits
@@ -170,7 +203,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/screenshots/classy-org-2026-07-25T205526.png
 security:

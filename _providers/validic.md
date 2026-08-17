@@ -1,26 +1,28 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Self-serve signup
+  label: Free developer tier · Enterprise contract for production
   onboarding: self-serve
-  pricing: enterprise
-  public: false
+  pricing: freemium
+  public: true
   source:
+  - https://dashboard.validic.com/register
+  - https://dashboard.validic.com/validic-developer-signup.txt
   - plans
   - authentication
-  trial: false
-  try_now: false
+  trial: true
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +30,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 44.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -37,7 +39,7 @@ agentic_access:
   operation_count: 21
   slug: validic-agentic-access
   summary_line: 21 operations · 9 acting
-api_count: 6
+api_count: 7
 apis:
 - description: Cellular-enabled health device activation and suspension.
   name: Validic Devices API
@@ -57,8 +59,36 @@ apis:
 - description: Provision and manage users within an organization.
   name: Validic Users API
   slug: validic-users-api
-artifact_total: 14
+- description: Self-serve registration, email verification, login and organization provisioning for the free Validic developer tier. Returns the organization_id and organization_token that every Inform API call requ
+  name: Validic Developer Signup API
+  slug: validic-developer-signup-api
+artifact_total: 24
+asyncapis:
+- description: ''
+  name: Validic Events Webhooks
+  slug: validic-events-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Validic Inform Devices API
+  slug: open-validic-devices-api
+- collection_type: open
+  name: Validic Inform Devices Marketplace & Connections API
+  slug: open-validic-marketplace-connections-api
+- collection_type: open
+  name: Validic Inform Devices Observations & Data API
+  slug: open-validic-observations-data-api
+- collection_type: open
+  name: Validic Inform Devices Push Service API
+  slug: open-validic-push-service-api
+- collection_type: open
+  name: Validic Inform Devices Streaming API
+  slug: open-validic-streaming-api
+- collection_type: open
+  name: Validic Inform Devices Users API
+  slug: open-validic-users-api
 - collection_type: open
   name: Validic Inform API
   slug: open-validic
@@ -67,10 +97,6 @@ common:
   title: ''
   type: AgenticAccess
   url: agentic-access/validic-agentic-access.yml
-- group: auth
-  title: ''
-  type: TrustCenter
-  url: security/validic-trust-center.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -111,6 +137,102 @@ common:
   title: ''
   type: Blog
   url: https://validic.com/blog/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.validic.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.validic.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.validic.com/docs/using-this-guide
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.validic.com/portal/2
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.validic.com/register
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://validic.com/online-service-agreement-inform/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://validic.com/privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://trust.validic.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/validic-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/validic-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/validic-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/validic-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/validic-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/validic-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/validic-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/validic-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/validic-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/validic-conformance.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/validic-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/validic-components.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/validic-events-webhooks.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/validic-inform-data-resources-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/validic-streaming-resources-overlay.yaml
 created: '2026-07-05'
 description: Validic is an enterprise health-data platform that connects patient-recorded data from digital health applications, medical devices, and wearables to healthcare organizations. Its Inform API and Mobile SDK provision users against an organization, present a hosted Marketplace for connecting API/cloud and Bluetooth sources, and return standardized health observations - CGM, intraday activity, point-in-time measurements, nutrition, sleep, daily summaries, and workouts. Validic also manages cellular-enabled devices, exposes connection-event history, and delivers data in real time through a Server-Sent Events Streaming API and a webhook Push Service. The platform is HITRUST-certified and HIPAA-compliant. Requests authenticate with an organization access token passed as the token query parameter over HTTPS.
 finops:
@@ -119,34 +241,37 @@ finops:
   slug: validic-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/validic.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-08-15'
 name: Validic
 nav: Providers
 network: true
 overview: 'Validic publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Marketplace & Connections API, Observations & Data API, and 3 more. Tagged areas include Health Data, Digital Health, Wearables, Remote Patient Monitoring, and Health IoT.
 
 
-  Validic''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  The Validic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Validic''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, signup flow, and 28 more developer resources.'
 plans:
 - name: Validic Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: validic-plans-pricing
-random_paper: 12
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Validic Rate Limits
   slug: validic-rate-limits
 score:
-  band: thin
-  composite: 37.6
-  delta: 0.0
+  band: strong
+  composite: 63.1
+  delta: 25.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 58.0
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 81.6
+    contract_quality: 66.9
+    developer_ergonomics: 71.7
+    discoverability: 92.6
+    governance: 8.3
+    operational_transparency: 76.3
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -160,23 +285,27 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.3
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Validic Authentication
   slug: validic-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Validic Domain Security
   slug: validic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Validic Vulnerability Disclosure
+  slug: validic-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Validic Trust Center
   slug: validic-trust-center
-  summary_line: SOC 2, ISO 27001
+  summary_line: HITRUST CSF, ISO/IEC 27001, HIPAA
 slug: validic
 tags:
 - Health Data

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 1
@@ -117,7 +117,74 @@ apis:
 - description: The user API from University of Bath — 7 operation(s) for user.
   name: University of Bath user API
   slug: university-of-bath-user-api
-artifact_total: 50
+artifact_total: 72
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-university-of-bath-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-university-of-bath-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-university-of-bath-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-university-of-bath-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-university-of-bath-classificationscheme-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-university-of-bath-dataset-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-university-of-bath-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-university-of-bath-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-university-of-bath-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-university-of-bath-externalperson-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-university-of-bath-journal-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-university-of-bath-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-university-of-bath-person-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-university-of-bath-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-university-of-bath-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-university-of-bath-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-university-of-bath-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-university-of-bath-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-university-of-bath-role-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-university-of-bath-studentthesis-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-university-of-bath-user-api
 common:
 - group: agent
   title: ''
@@ -239,7 +306,7 @@ plans:
 - name: University Of Bath Plans Pricing
   plan_count: 2
   slug: university-of-bath-plans-pricing
-random_paper: 40
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: University Of Bath Rate Limits
@@ -287,7 +354,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bath/refs/heads/main/screenshots/university-of-bath-2026-06-20T200134.png
 security:

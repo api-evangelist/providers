@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -302,7 +302,272 @@ apis:
 - description: Vision module client sessions
   name: Inductive Automation vision-sessions API
   slug: inductive-automation-vision-sessions-api
-artifact_total: 104
+artifact_total: 192
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ignition Gateway REST access-control API
+  slug: open-inductive-automation-access-control-api
+- collection_type: open
+  name: Ignition Gateway REST access-control agent-group API
+  slug: open-inductive-automation-agent-group-api
+- collection_type: open
+  name: Ignition Gateway REST access-control agent-management API
+  slug: open-inductive-automation-agent-management-api
+- collection_type: open
+  name: Ignition Gateway REST access-control alarm-journal-resources API
+  slug: open-inductive-automation-alarm-journal-resources-api
+- collection_type: open
+  name: Ignition Gateway REST access-control alarm-notification-profile API
+  slug: open-inductive-automation-alarm-notification-profile-api
+- collection_type: open
+  name: Ignition Gateway REST access-control api-token API
+  slug: open-inductive-automation-api-token-api
+- collection_type: open
+  name: Ignition Gateway REST access-control audit API
+  slug: open-inductive-automation-audit-api
+- collection_type: open
+  name: Ignition Gateway REST access-control call-script API
+  slug: open-inductive-automation-call-script-api
+- collection_type: open
+  name: Ignition Gateway REST access-control certificate-management API
+  slug: open-inductive-automation-certificate-management-api
+- collection_type: open
+  name: Ignition Gateway REST access-control charts-info API
+  slug: open-inductive-automation-charts-info-api
+- collection_type: open
+  name: Ignition Gateway REST access-control client-pki-certificate-management API
+  slug: open-inductive-automation-client-pki-certificate-management-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-alarm API
+  slug: open-inductive-automation-config-alarm-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-api-token API
+  slug: open-inductive-automation-config-api-token-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-audit-profiles API
+  slug: open-inductive-automation-config-audit-profiles-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-databases API
+  slug: open-inductive-automation-config-databases-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-edge-system-properties API
+  slug: open-inductive-automation-config-edge-system-properties-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-email-profile API
+  slug: open-inductive-automation-config-email-profile-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-gateway-network API
+  slug: open-inductive-automation-config-gateway-network-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-identity-provider API
+  slug: open-inductive-automation-config-identity-provider-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-keyboard-layouts API
+  slug: open-inductive-automation-config-keyboard-layouts-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-local-system-properties API
+  slug: open-inductive-automation-config-local-system-properties-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-management API
+  slug: open-inductive-automation-config-management-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-metrics-dashboard API
+  slug: open-inductive-automation-config-metrics-dashboard-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-oauth2-client API
+  slug: open-inductive-automation-config-oauth2-client-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-perspective-branding API
+  slug: open-inductive-automation-config-perspective-branding-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-perspective-fonts API
+  slug: open-inductive-automation-config-perspective-fonts-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-perspective-icons API
+  slug: open-inductive-automation-config-perspective-icons-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-perspective-themes API
+  slug: open-inductive-automation-config-perspective-themes-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-secret-provider API
+  slug: open-inductive-automation-config-secret-provider-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-security-levels API
+  slug: open-inductive-automation-config-security-levels-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-security-properties API
+  slug: open-inductive-automation-config-security-properties-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-security-zone API
+  slug: open-inductive-automation-config-security-zone-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-store-forward API
+  slug: open-inductive-automation-config-store-forward-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-system-properties API
+  slug: open-inductive-automation-config-system-properties-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-tag-provider API
+  slug: open-inductive-automation-config-tag-provider-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-translations API
+  slug: open-inductive-automation-config-translations-api
+- collection_type: open
+  name: Ignition Gateway REST access-control config-user-source API
+  slug: open-inductive-automation-config-user-source-api
+- collection_type: open
+  name: Ignition Gateway REST access-control data-syncs API
+  slug: open-inductive-automation-data-syncs-api
+- collection_type: open
+  name: Ignition Gateway REST access-control designer-sessions API
+  slug: open-inductive-automation-designer-sessions-api
+- collection_type: open
+  name: Ignition Gateway REST access-control device API
+  slug: open-inductive-automation-device-api
+- collection_type: open
+  name: Ignition Gateway REST access-control eam-tasks API
+  slug: open-inductive-automation-eam-tasks-api
+- collection_type: open
+  name: Ignition Gateway REST access-control encryption API
+  slug: open-inductive-automation-encryption-api
+- collection_type: open
+  name: Ignition Gateway REST access-control entity API
+  slug: open-inductive-automation-entity-api
+- collection_type: open
+  name: Ignition Gateway REST access-control event-thresholds API
+  slug: open-inductive-automation-event-thresholds-api
+- collection_type: open
+  name: Ignition Gateway REST access-control executors API
+  slug: open-inductive-automation-executors-api
+- collection_type: open
+  name: Ignition Gateway REST access-control gateway-backups API
+  slug: open-inductive-automation-gateway-backups-api
+- collection_type: open
+  name: Ignition Gateway REST access-control gateway-info API
+  slug: open-inductive-automation-gateway-info-api
+- collection_type: open
+  name: Ignition Gateway REST access-control gateway-network API
+  slug: open-inductive-automation-gateway-network-api
+- collection_type: open
+  name: Ignition Gateway REST access-control gateway-scripts API
+  slug: open-inductive-automation-gateway-scripts-api
+- collection_type: open
+  name: Ignition Gateway REST access-control general-alarm-settings API
+  slug: open-inductive-automation-general-alarm-settings-api
+- collection_type: open
+  name: Ignition Gateway REST access-control general API
+  slug: open-inductive-automation-general-api
+- collection_type: open
+  name: Ignition Gateway REST access-control groups-info API
+  slug: open-inductive-automation-groups-info-api
+- collection_type: open
+  name: Ignition Gateway REST access-control historian-config API
+  slug: open-inductive-automation-historian-config-api
+- collection_type: open
+  name: Ignition Gateway REST access-control launcher API
+  slug: open-inductive-automation-launcher-api
+- collection_type: open
+  name: Ignition Gateway REST access-control license-activation API
+  slug: open-inductive-automation-license-activation-api
+- collection_type: open
+  name: Ignition Gateway REST access-control license-management API
+  slug: open-inductive-automation-license-management-api
+- collection_type: open
+  name: Ignition Gateway REST access-control license-status API
+  slug: open-inductive-automation-license-status-api
+- collection_type: open
+  name: Ignition Gateway REST access-control local devices API
+  slug: open-inductive-automation-local-devices-api
+- collection_type: open
+  name: Ignition Gateway REST access-control logging API
+  slug: open-inductive-automation-logging-api
+- collection_type: open
+  name: Ignition Gateway REST access-control managed-tag-provider API
+  slug: open-inductive-automation-managed-tag-provider-api
+- collection_type: open
+  name: Ignition Gateway REST access-control module-certificate API
+  slug: open-inductive-automation-module-certificate-api
+- collection_type: open
+  name: Ignition Gateway REST access-control module-eula API
+  slug: open-inductive-automation-module-eula-api
+- collection_type: open
+  name: Ignition Gateway REST access-control module-settings API
+  slug: open-inductive-automation-module-settings-api
+- collection_type: open
+  name: Ignition Gateway REST access-control modules API
+  slug: open-inductive-automation-modules-api
+- collection_type: open
+  name: Ignition Gateway REST access-control opc connection API
+  slug: open-inductive-automation-opc-connection-api
+- collection_type: open
+  name: Ignition Gateway REST access-control overview API
+  slug: open-inductive-automation-overview-api
+- collection_type: open
+  name: Ignition Gateway REST access-control perspective-sessions API
+  slug: open-inductive-automation-perspective-sessions-api
+- collection_type: open
+  name: Ignition Gateway REST access-control pipeline-status API
+  slug: open-inductive-automation-pipeline-status-api
+- collection_type: open
+  name: Ignition Gateway REST access-control projects API
+  slug: open-inductive-automation-projects-api
+- collection_type: open
+  name: Ignition Gateway REST access-control quickstart API
+  slug: open-inductive-automation-quickstart-api
+- collection_type: open
+  name: Ignition Gateway REST access-control redundancy API
+  slug: open-inductive-automation-redundancy-api
+- collection_type: open
+  name: Ignition Gateway REST access-control remote-upgrade API
+  slug: open-inductive-automation-remote-upgrade-api
+- collection_type: open
+  name: Ignition Gateway REST access-control reports-info API
+  slug: open-inductive-automation-reports-info-api
+- collection_type: open
+  name: Ignition Gateway REST access-control restart-tasks API
+  slug: open-inductive-automation-restart-tasks-api
+- collection_type: open
+  name: Ignition Gateway REST access-control roster-config API
+  slug: open-inductive-automation-roster-config-api
+- collection_type: open
+  name: Ignition Gateway REST access-control running-scripts API
+  slug: open-inductive-automation-running-scripts-api
+- collection_type: open
+  name: Ignition Gateway REST access-control secret-providers API
+  slug: open-inductive-automation-secret-providers-api
+- collection_type: open
+  name: Ignition Gateway REST access-control server API
+  slug: open-inductive-automation-server-api
+- collection_type: open
+  name: Ignition Gateway REST access-control server-pki-certificate-management API
+  slug: open-inductive-automation-server-pki-certificate-management-api
+- collection_type: open
+  name: Ignition Gateway REST access-control service-connectors API
+  slug: open-inductive-automation-service-connectors-api
+- collection_type: open
+  name: Ignition Gateway REST access-control sfc-config API
+  slug: open-inductive-automation-sfc-config-api
+- collection_type: open
+  name: Ignition Gateway REST access-control storage API
+  slug: open-inductive-automation-storage-api
+- collection_type: open
+  name: Ignition Gateway REST access-control streams-info API
+  slug: open-inductive-automation-streams-info-api
+- collection_type: open
+  name: Ignition Gateway REST access-control system-performance API
+  slug: open-inductive-automation-system-performance-api
+- collection_type: open
+  name: Ignition Gateway REST access-control thread-diagnostics API
+  slug: open-inductive-automation-thread-diagnostics-api
+- collection_type: open
+  name: Ignition Gateway REST access-control user-management-scim API
+  slug: open-inductive-automation-user-management-scim-api
+- collection_type: open
+  name: Ignition Gateway REST access-control vision-sessions API
+  slug: open-inductive-automation-vision-sessions-api
 common:
 - group: agent
   title: ''
@@ -415,7 +680,7 @@ overview: 'Inductive Automation publishes 87 APIs on the [APIs.io](https://apis.
 
 
   Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 9 more developer resources.'
-random_paper: 65
+random_paper: 19
 rules:
 - name: Inductive Automation API Rules
   rule_count: 5
@@ -453,7 +718,7 @@ score:
       marker_coverage: 0.0
       total: 87
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -84,11 +84,56 @@ apis:
 - description: Multi-tenancy support for OpenSearch Dashboards.
   name: OpenSearch Tenants API
   slug: opensearch-tenants-api
-artifact_total: 37
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account API
+  slug: open-opensearch-account-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Action Groups API
+  slug: open-opensearch-action-groups-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Allowlist API
+  slug: open-opensearch-allowlist-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Audit API
+  slug: open-opensearch-audit-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Cache API
+  slug: open-opensearch-cache-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Certificates API
+  slug: open-opensearch-certificates-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Health API
+  slug: open-opensearch-health-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Internal Users API
+  slug: open-opensearch-internal-users-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Nodes DN API
+  slug: open-opensearch-nodes-dn-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Role Mappings API
+  slug: open-opensearch-role-mappings-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Roles API
+  slug: open-opensearch-roles-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Security Config API
+  slug: open-opensearch-security-config-api
 - collection_type: open
   name: OpenSearch Security Plugin REST API
   slug: open-opensearch-security
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account SSL Info API
+  slug: open-opensearch-ssl-info-api
+- collection_type: open
+  name: OpenSearch Security Plugin REST Account Tenants API
+  slug: open-opensearch-tenants-api
 common:
 - group: agent
   title: ''
@@ -210,7 +255,7 @@ plans:
 - name: Opensearch Plans Pricing
   plan_count: 3
   slug: opensearch-plans-pricing
-random_paper: 104
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Opensearch Rate Limits
@@ -244,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/screenshots/opensearch-2026-06-20T191032.png
 security:

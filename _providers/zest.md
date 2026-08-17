@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: Service health and OpenAPI introspection endpoints.
   name: Zest System API
   slug: zest-system-api
-artifact_total: 13
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Zest Webhooks
   slug: zest-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zest equity public api Authentication API
+  slug: open-zest-authentication-api
+- collection_type: open
+  name: Zest equity public api Authentication Contracts API
+  slug: open-zest-contracts-api
+- collection_type: open
+  name: Zest equity public api Authentication Investors API
+  slug: open-zest-investors-api
+- collection_type: open
+  name: Zest equity public api Authentication SPV Requests API
+  slug: open-zest-spv-requests-api
+- collection_type: open
+  name: Zest equity public api Authentication Subscription Forms API
+  slug: open-zest-subscription-forms-api
+- collection_type: open
+  name: Zest equity public api Authentication Subscription Fundings API
+  slug: open-zest-subscription-fundings-api
+- collection_type: open
+  name: Zest equity public api Authentication Subscriptions API
+  slug: open-zest-subscriptions-api
+- collection_type: open
+  name: Zest equity public api Authentication System API
+  slug: open-zest-system-api
 common:
 - group: other
   title: ''
@@ -191,7 +219,7 @@ overview: 'Zest publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zest''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 19 more developer resources.'
-random_paper: 94
+random_paper: 7
 score:
   band: developing
   composite: 47.2
@@ -215,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

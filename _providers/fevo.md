@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: A data-feed API that returns every field in the FEVO Sales Report — orders and order adjustments — so a customer can pull FEVO transaction data directly into their own data warehouse. Queries run by O
@@ -153,7 +153,7 @@ plans:
 - name: Fevo Plans Pricing
   plan_count: 0
   slug: fevo-plans-pricing
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 0
   name: Fevo Rate Limits
@@ -161,6 +161,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -168,6 +169,7 @@ score:
     discoverability: 66.7
     governance: 12.5
     operational_transparency: 31.6
+  previous_composite: 32.9
   regulatory:
     applies: true
     matched_via: tags
@@ -175,7 +177,8 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Fevo Authentication

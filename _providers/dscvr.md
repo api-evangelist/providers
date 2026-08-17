@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Public GraphQL API over DSCVR's SocialFi graph. Query users (by id or username), portals (by id or slug), content (posts and comments), on-chain wallets, reactions, and unpack Frame messages. Currentl
@@ -152,7 +152,7 @@ overview: 'DSCVR publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   DSCVR''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 18 more developer resources.'
-random_paper: 66
+random_paper: 99
 score:
   band: thin
   composite: 35.6
@@ -170,7 +170,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dscvr/refs/heads/main/screenshots/dscvr-2026-07-25T212432.png
 security:

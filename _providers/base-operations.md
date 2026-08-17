@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Analytics API from Base Operations — 2 operation(s) for analytics.
@@ -67,7 +67,47 @@ apis:
 - description: The Threats API from Base Operations — 6 operation(s) for threats.
   name: Base Operations Threats API
   slug: base-operations-threats-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Customer API - Base Operations Analytics API
+  slug: open-base-operations-analytics-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Base Score API
+  slug: open-base-operations-base-score-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Change Detection API
+  slug: open-base-operations-change-detection-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Key Takeaways API
+  slug: open-base-operations-key-takeaways-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Public Charts API
+  slug: open-base-operations-public-charts-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Radius Charts API
+  slug: open-base-operations-radius-charts-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Saved Location Charts API
+  slug: open-base-operations-saved-location-charts-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Saved Location Radius Charts API
+  slug: open-base-operations-saved-location-radius-charts-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Saved Locations API
+  slug: open-base-operations-saved-locations-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Source Categories API
+  slug: open-base-operations-source-categories-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Threat Categories API
+  slug: open-base-operations-threat-categories-api
+- collection_type: open
+  name: Customer API - Base Operations Analytics Threats API
+  slug: open-base-operations-threats-api
 common:
 - group: company
   title: ''
@@ -181,7 +221,7 @@ overview: 'Base Operations publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Base Operations'' developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 108
+random_paper: 58
 score:
   band: developing
   composite: 43.8
@@ -204,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/screenshots/base-operations-2026-07-25T202413.png
 security:

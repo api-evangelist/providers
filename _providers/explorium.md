@@ -11,64 +11,139 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 69.4
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 113
   human_in_the_loop: 0
   name: Explorium Agentic Access
-  operation_count: 17
+  operation_count: 127
   slug: explorium-agentic-access
-  summary_line: 17 operations · 14 acting
-api_count: 8
+  summary_line: 127 operations · 113 acting
+api_count: 22
 apis:
 - description: 'Native remote Model Context Protocol server exposing the AgentSource data as 11 agent tools - match-business, fetch-businesses, fetch-businesses- statistics, fetch-businesses-events, enrich-business, '
   name: Explorium AgentSource MCP Server
   slug: explorium-agentsource-mcp-server
-- description: Firmographic, technographic, financial, and operational company enrichments.
-  name: Explorium Business Enrichments API
-  slug: explorium-business-enrichments-api
-- description: Match, fetch, stat, and autocomplete over the 150M+ company dataset.
+- description: Match, fetch, stat, autocomplete, and event/enrollment operations over the Explorium business dataset (v1).
   name: Explorium Businesses API
   slug: explorium-businesses-api
-- description: Inspect the shared credit pool that meters all API usage.
+- description: Inspect the shared credit pool that meters all Explorium API usage, including the credit menu and consumption aggregation (v1).
   name: Explorium Credits API
   slug: explorium-credits-api
-- description: Business and prospect event tracking plus enrollment management.
-  name: Explorium Events API
-  slug: explorium-events-api
-- description: Contact information, profile, and social enrichments for people.
-  name: Explorium Prospect Enrichments API
-  slug: explorium-prospect-enrichments-api
-- description: Match, fetch, stat, and autocomplete over the 800M+ people dataset.
+- description: Match, fetch, stat, autocomplete, and event/enrollment operations over the Explorium prospect dataset (v1).
   name: Explorium Prospects API
   slug: explorium-prospects-api
-- description: Register endpoints that receive event notifications.
+- description: Register, retrieve, delete, and connectivity-test the webhook endpoints that receive Explorium business and prospect event notifications (v1).
   name: Explorium Webhooks API
   slug: explorium-webhooks-api
-artifact_total: 15
+- description: Submit any v2 company or people enrichment — plus AI research — as an asynchronous job over an uploaded entity-ID dataset.
+  name: Explorium Async Enrichment Jobs API
+  slug: explorium-asyncenrichmentjobs-api
+- description: List, poll, and cancel the asynchronous enrichment jobs that back batch runs of up to 10,000 records (v2).
+  name: Explorium Async Jobs API
+  slug: explorium-asyncjobs-api
+- description: Bulk (multi-record) versions of every v1 company enrichment, processing up to 50 business IDs per request.
+  name: Explorium Bulk Business Enrichments API
+  slug: explorium-bulkbusinessenrichments-api
+- description: 'Single-record company enrichments (v1): firmographics, technographics, webstack, website traffic and changes, financial indicators, funding and acquisition, workforce trends, company hierarchies, rati'
+  name: Explorium Business Enrichments API
+  slug: explorium-businessenrichments-api
+- description: Run a customer-specific custom enrichment, single-record or in bulk, by custom enrichment ID.
+  name: Explorium Custom Enrichments API
+  slug: explorium-customenrichments-api
+- description: Upload an entity-ID dataset that asynchronous v2 enrichment jobs run against.
+  name: Explorium Entity ID Datasets API
+  slug: explorium-entityiddatasets-api
+- description: Liveness and payload-size health probes for the Explorium AgentSource service.
+  name: Explorium Healthcheck API
+  slug: explorium-healthcheck-api
+- description: Bulk (multi-record) versions of the v1 people enrichments, processing up to 50 prospect IDs per request.
+  name: Explorium Prospects Bulk Enrichments API
+  slug: explorium-prospectsbulkenrichments-api
+- description: 'Single-record people enrichments (v1): contact information, professional profiles, and LinkedIn posts for a matched prospect.'
+  name: Explorium Prospects Enrichments API
+  slug: explorium-prospectsenrichments-api
+- description: Resolve free-text input to the standardized filter values the v2 search API accepts.
+  name: Explorium V2 Autocomplete API
+  slug: explorium-v2autocomplete-api
+- description: Synchronous v2 company enrichments — the same seventeen attribute families as v1, on the unified v2 request shape.
+  name: Explorium V2 Business Enrichments API
+  slug: explorium-v2businessenrichments-api
+- description: Match, fetch, and stat over the company dataset on the v2 (beta) surface, where bulk and single input share one endpoint.
+  name: Explorium V2 Businesses API
+  slug: explorium-v2businesses-api
+- description: Credit balance and consumption aggregation on the v2 (beta) surface.
+  name: Explorium V2 Credits API
+  slug: explorium-v2credits-api
+- description: 'Synchronous v2 people enrichments: contact information, professional profiles, and LinkedIn posts.'
+  name: Explorium V2 Prospect Enrichments API
+  slug: explorium-v2prospectenrichments-api
+- description: Match, fetch, and stat over the people dataset on the v2 (beta) surface.
+  name: Explorium V2 Prospects API
+  slug: explorium-v2prospects-api
+- description: Run a custom, AI-powered research task over a list of businesses or prospects using a natural-language query or prompt template, grounded in real-time web data (beta).
+  name: Explorium V2 Research API
+  slug: explorium-v2research-api
+- description: Report the deployed version of the Explorium AgentSource service.
+  name: Explorium Version API
+  slug: explorium-version-api
+artifact_total: 42
+asyncapis:
+- description: ''
+  name: Explorium Webhooks
+  slug: explorium-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Explorium AgentSource Business Enrichments API
+  slug: open-explorium-business-enrichments-api
+- collection_type: open
+  name: Explorium AgentSource Business Enrichments Businesses API
+  slug: open-explorium-businesses-api
+- collection_type: open
+  name: Explorium AgentSource Business Enrichments Credits API
+  slug: open-explorium-credits-api
+- collection_type: open
+  name: Explorium AgentSource Business Enrichments Events API
+  slug: open-explorium-events-api
+- collection_type: open
+  name: Explorium AgentSource Business Enrichments Prospect Enrichments API
+  slug: open-explorium-prospect-enrichments-api
+- collection_type: open
+  name: Explorium AgentSource Business Enrichments Prospects API
+  slug: open-explorium-prospects-api
+- collection_type: open
+  name: Explorium AgentSource Business Enrichments Webhooks API
+  slug: open-explorium-webhooks-api
 - collection_type: open
   name: Explorium AgentSource API
   slug: open-explorium
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/explorium-domain-security.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -113,8 +188,133 @@ common:
   title: ''
   type: Blog
   url: https://www.explorium.ai/blog/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/explorium-agentsource-openapi.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/explorium-agentsource-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/explorium-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/explorium-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/explorium-api-catalog.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/explorium-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/explorium-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/explorium-a2a.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/explorium-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/explorium-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.explorium.ai/data-security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/explorium-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/explorium-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/explorium-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/explorium-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/explorium-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/explorium-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/explorium-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/explorium-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/explorium-agentsource.md
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.explorium.ai/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.explorium.ai/reference/quick-starts/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.explorium.ai/reference/quick-starts/quick-starts
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://www.explorium.ai/auth.md
+- group: operate
+  title: ''
+  type: Support
+  url: https://developers.explorium.ai/reference/support-help-center
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.explorium.ai/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.explorium.ai/sign-up/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.explorium.ai/explorium-website-terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.explorium.ai/privacy-policy/
+- group: start
+  title: ''
+  type: Console
+  url: https://www.explorium.ai/mcp-playground/
 created: '2026-07-11'
-description: Explorium is a B2B data foundation for AI agents and go-to-market teams. Its AgentSource API is a single external-data and enrichment platform - one API plus a native MCP server - that resolves, fetches, enriches, and monitors a business dataset of 150M+ companies and a prospect dataset of 800M+ people aggregated from 100+ external sources. Capabilities include entity matching, filtered fetch and market-sizing stats, autocomplete, 30+ firmographic / technographic / financial / prospect-contact enrichment endpoints (single and bulk up to 50 records), real-time business and prospect event tracking with webhooks, and a shared credit pool that meters all usage. The API is hosted at https://api.explorium.ai, authenticated with an API_KEY header, and gated behind an Explorium account with a free 100-credit developer tier.
+description: Explorium is the B2B data layer for AI agents and go-to-market systems. Its AgentSource platform is one external-data and enrichment API plus a hosted MCP server, resolving, fetching, enriching and monitoring a company dataset and a people dataset aggregated from 100+ external sources. The REST API at https://api.explorium.ai publishes an anonymous OpenAPI 3.1 description covering 127 operations across two parallel surfaces - v1 (stable) and v2 (beta) - spanning entity matching, filtered fetch with cursor pagination, market-sizing statistics, autocomplete, seventeen company enrichment families and three people enrichment families (single, bulk to 50, and asynchronous to 10,000), AI-powered research, eighteen business and prospect event types delivered over HMAC-signed webhooks, and a shared prepaid credit pool that meters every call. Authentication is an api_key header on REST and OAuth 2.0 on MCP. Explorium is unusually agent-forward at the discovery layer, serving an RFC 9727
+  api-catalog, a conformant A2A agent card, an MCP server card, an ARD capability catalog, an agent-skills index and llms.txt from its own domain.
 finops:
 - name: Explorium Finops
   service_category: Data and Analytics
@@ -125,34 +325,40 @@ mcp_servers:
 - description: ''
   name: mcp
   slug: mcp
-modified: '2026-07-11'
+- description: ''
+  name: explorium-mcp.yml
+  slug: explorium-mcpyml
+modified: '2026-08-14'
 name: Explorium
 nav: Providers
 network: true
-overview: 'Explorium publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Business Enrichments API, Businesses API, Credits API, and 4 more. Tagged areas include Data Enrichment, Web Intelligence, Reference Data, B2B Data, and Company Data.
+overview: 'Explorium publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Businesses API, Credits API, Prospects API, and 18 more. Tagged areas include Data Enrichment, B2B Data, Company Data, Prospect Enrichment, and Firmographics.
 
 
-  Explorium''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  The Explorium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Explorium''s developer surface includes authentication, documentation, engineering blog, changelog, sandbox, API reference, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Explorium Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: explorium-plans-pricing
-random_paper: 37
+random_paper: 103
 rate_limits:
-- limit_count: 4
+- limit_count: 6
   name: Explorium Rate Limits
   slug: explorium-rate-limits
 score:
-  band: thin
-  composite: 39.7
-  delta: 0.0
+  band: exemplar
+  composite: 70.6
+  delta: 30.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 61.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 100.0
+    contract_quality: 64.6
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 60.5
   previous_composite: 39.7
   provenance:
     agentic_access: derived
@@ -162,24 +368,42 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/screenshots/explorium-2026-07-25T213931.png
 security:
 - kind: authentication
   name: Explorium Authentication
   slug: explorium-authentication
   summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Explorium Domain Security
+  slug: explorium-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Explorium Vulnerability Disclosure
+  slug: explorium-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Explorium Trust Center
+  slug: explorium-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR, CCPA
 slug: explorium
 tags:
 - Data Enrichment
-- Web Intelligence
-- Reference Data
 - B2B Data
 - Company Data
-- AI Agents
 - Prospect Enrichment
 - Firmographics
+- Technographics
+- Web Intelligence
+- Reference Data
+- AI Agents
 - MCP
+- Agent Readiness
+- Sales Intelligence
+- Business Events
+- Webhooks
+- Market Intelligence
 website: https://www.explorium.ai
 ---

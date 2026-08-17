@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Integrately platform connects 1500+ SaaS applications through a catalog of 20 million+ pre-built one-click automations covering common business workflows such as lead capture, CRM sync, marketing '
@@ -111,7 +111,7 @@ plans:
 - name: Integrately Plans Pricing
   plan_count: 3
   slug: integrately-plans-pricing
-random_paper: 112
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Integrately Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 25.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/screenshots/integrately-2026-06-20T183428.png
 security:

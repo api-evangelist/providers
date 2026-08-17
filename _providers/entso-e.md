@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Single query endpoint for every Transparency Platform data item. The documentType, processType, and domain parameters select the dataset.
   name: ENTSO-E Market Data Query API
   slug: entso-e-market-data-query-api
-artifact_total: 11
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ENTSO-E Transparency Platform RESTful Market Data Query API
+  slug: open-entso-e-market-data-query-api
 - collection_type: open
   name: ENTSO-E Transparency Platform RESTful API
   slug: open-entso-e
@@ -154,7 +160,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 99
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Entso E Rate Limits
@@ -188,7 +194,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/screenshots/entso-e-2026-07-25T213441.png
 security:

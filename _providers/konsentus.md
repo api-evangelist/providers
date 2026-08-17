@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,14 @@ apis:
 - description: Third-Party Provider identity and regulatory validation
   name: Konsentus PSP Checking Service API
   slug: konsentus-psp-checking-service-api
-artifact_total: 20
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Konsentus Verify PSP Checking Service API
+  slug: open-konsentus-psp-checking-service-api
 - collection_type: open
   name: Konsentus Verify API
   slug: open-konsentus-verify-api
@@ -187,7 +193,7 @@ overview: 'Konsentus publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Konsentus'' developer surface includes authentication, developer portal, documentation, getting-started guide, release notes, support, FAQ, and 20 more developer resources.'
-random_paper: 42
+random_paper: 108
 score:
   band: thin
   composite: 37.1
@@ -214,7 +220,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/screenshots/konsentus-2026-06-20T184135.png
 security:

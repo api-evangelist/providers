@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Transit stop search and details
   name: Walk Score Stops API
   slug: walk-score-stops-api
-artifact_total: 21
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Walk Score Cities API
+  slug: open-walk-score-cities-api
+- collection_type: open
+  name: Walk Score Cities Routes API
+  slug: open-walk-score-routes-api
+- collection_type: open
+  name: Walk Score Cities Scores API
+  slug: open-walk-score-scores-api
+- collection_type: open
+  name: Walk Score Cities Stops API
+  slug: open-walk-score-stops-api
 - collection_type: open
   name: Walk Score Transit API
   slug: open-walk-score-transit
@@ -141,7 +156,7 @@ plans:
 - name: Walk Score Plans Pricing
   plan_count: 3
   slug: walk-score-plans-pricing
-random_paper: 56
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Walk Score Rate Limits
@@ -183,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/screenshots/walk-score-2026-06-20T201208.png
 security:

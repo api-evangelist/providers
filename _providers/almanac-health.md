@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,6 +71,26 @@ common:
   title: ''
   type: Twitter
   url: https://x.com/almanac_health
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/almanac-health-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://almanac.chat
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/almanac-health
+- group: company
+  title: ''
+  type: Careers
+  url: https://almanac.chat/careers
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/almanac-health-domain-security.yml
 created: '2026-07-17'
 description: Almanac Health is a clinical AI company building a research-validated clinical decision support platform, delivered as Almanac Chat, that brings specialist-grade, evidence-based answers to clinicians at the point of care. Founded by physician-researcher Cyril Zakka, MD, the platform is designed to work within existing electronic health record (EHR) workflows, is governed by institutional controls, and is grounded in peer-reviewed research rather than pharmaceutical promotion. In April 2026 the company raised a $10 million seed round led by F-Prime with participation from General Catalyst and Lightspeed Venture Partners. This API Evangelist profile currently tracks the company's public web, trust, and security surface; Almanac Health does not publish a public developer API, OpenAPI specification, or SDKs at this time.
 image: https://almanac.chat/images/almanac-symbol.svg
@@ -82,19 +102,19 @@ network: true
 overview: 'Almanac Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Clinical AI, Artificial Intelligence, and Clinical Decision Support.
 
 
-  Almanac Health''s developer surface includes signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 72
+  Almanac Health''s developer surface includes signup flow, engineering blog, and 13 more developer resources.'
+random_paper: 51
 score:
   band: emerging
-  composite: 15.4
-  delta: 0.0
+  composite: 15.9
+  delta: 0.5
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 2.2
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 15.4
   regulatory:
     applies: true
@@ -103,7 +123,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/almanac-health/refs/heads/main/screenshots/almanac-health-2026-07-25T195739.png
 security:

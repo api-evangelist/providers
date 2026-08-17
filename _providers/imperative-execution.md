@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'IQX is the IntelligentCross proprietary market data feed. It disseminates all visible ASPEN resting orders, cancels for ASPEN visible orders, and all ASPEN executions, plus per-symbol reference data, '
@@ -132,7 +132,7 @@ overview: 'Imperative Execution publishes 1 API on the [APIs.io](https://apis.io
 
 
   Imperative Execution''s developer surface includes documentation, API reference, support, engineering blog, code examples, sandbox, changelog, and 14 more developer resources.'
-random_paper: 63
+random_paper: 17
 score:
   band: thin
   composite: 36.9
@@ -154,7 +154,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/screenshots/imperative-execution-2026-08-07T170628.png
 security:

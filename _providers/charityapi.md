@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Verify whether an EIN is a tax-deductible public charity
   name: CharityAPI Public Charity Check API
   slug: charityapi-public-charity-check-api
-artifact_total: 14
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Charity Autocomplete API
+  slug: open-charityapi-autocomplete-api
+- collection_type: open
+  name: Charity Autocomplete Organizations API
+  slug: open-charityapi-organizations-api
+- collection_type: open
+  name: Charity Autocomplete Public Charity Check API
+  slug: open-charityapi-public-charity-check-api
 - collection_type: open
   name: CharityAPI
   slug: open-charityapi
@@ -145,7 +157,7 @@ plans:
 - name: Charityapi Plans Pricing
   plan_count: 3
   slug: charityapi-plans-pricing
-random_paper: 110
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Charityapi Rate Limits
@@ -179,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/screenshots/charityapi-2026-06-20T174221.png
 security:

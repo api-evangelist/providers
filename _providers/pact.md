@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Webhooks API from Pact — 1 operation(s) for webhooks.
   name: Pact Webhooks API
   slug: pact-webhooks-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pact Broker Index API
+  slug: open-pact-index-api
+- collection_type: open
+  name: Pact Broker Index Pacticipants API
+  slug: open-pact-pacticipants-api
+- collection_type: open
+  name: Pact Broker Index Pacts API
+  slug: open-pact-pacts-api
+- collection_type: open
+  name: Pact Broker Index Verifications API
+  slug: open-pact-verifications-api
+- collection_type: open
+  name: Pact Broker Index Webhooks API
+  slug: open-pact-webhooks-api
 - collection_type: open
   name: Pact Broker API
   slug: open-pact
@@ -127,7 +145,7 @@ plans:
 - name: Pact Plans Pricing
   plan_count: 3
   slug: pact-plans-pricing
-random_paper: 64
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Pact Rate Limits
@@ -152,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/screenshots/pact-2026-06-20T191316.png
 security:

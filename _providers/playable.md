@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Public REST API for the Playable gamification platform. Covers campaign types, campaign lifecycle (list, view, update, copy, delete, activate, pause, resume, clear cache), campaign sections and regist
@@ -31,11 +31,15 @@ apis:
 - description: Browser-side JavaScript SDK (`@playable-marketing/campaign-sdk`) that exposes a promise-based `window.sdk` object plus an event stream so a host page can listen to campaign events and read campaign co
   name: Playable Campaign SDK
   slug: playable-campaign-sdk
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Playable Webhooks
   slug: playable-webhooks
+collections:
+- collection_type: open
+  name: Swagger with Laravel
+  slug: open-playable-api
 common:
 - group: auth
   title: ''
@@ -211,7 +215,7 @@ plans:
 - name: Playable Plans Pricing
   plan_count: 3
   slug: playable-plans-pricing
-random_paper: 2
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: Playable Rate Limits
@@ -224,6 +228,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.5
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 61.6
@@ -231,8 +236,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
+  previous_composite: 67.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Playable Authentication

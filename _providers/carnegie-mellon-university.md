@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -75,7 +75,41 @@ apis:
 - description: The symplectic API from Carnegie Mellon University — 5 operation(s) for symplectic.
   name: Carnegie Mellon University symplectic API
   slug: carnegie-mellon-university-symplectic-api
-artifact_total: 26
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figshare altmetric API
+  slug: open-carnegie-mellon-university-altmetric-api
+- collection_type: open
+  name: Figshare altmetric articles API
+  slug: open-carnegie-mellon-university-articles-api
+- collection_type: open
+  name: Figshare altmetric authors API
+  slug: open-carnegie-mellon-university-authors-api
+- collection_type: open
+  name: Figshare altmetric collections API
+  slug: open-carnegie-mellon-university-collections-api
+- collection_type: open
+  name: Figshare altmetric institutions API
+  slug: open-carnegie-mellon-university-institutions-api
+- collection_type: open
+  name: Figshare altmetric oauth API
+  slug: open-carnegie-mellon-university-oauth-api
+- collection_type: open
+  name: Figshare altmetric other API
+  slug: open-carnegie-mellon-university-other-api
+- collection_type: open
+  name: Figshare altmetric profiles API
+  slug: open-carnegie-mellon-university-profiles-api
+- collection_type: open
+  name: Figshare altmetric projects API
+  slug: open-carnegie-mellon-university-projects-api
+- collection_type: open
+  name: Figshare altmetric symplectic API
+  slug: open-carnegie-mellon-university-symplectic-api
 common:
 - group: agent
   title: ''
@@ -172,7 +206,7 @@ plans:
 - name: Carnegie Mellon University Plans Pricing
   plan_count: 2
   slug: carnegie-mellon-university-plans-pricing
-random_paper: 49
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Carnegie Mellon University Rate Limits
@@ -225,7 +259,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png
 security:

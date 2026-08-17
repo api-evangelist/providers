@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Configuration key-value stores for policy runtime use
   name: SAP API Management Key Value Maps API
   slug: sap-api-management-key-value-maps-api
-artifact_total: 30
+artifact_total: 36
 collections:
 - collection_type: postman
   name: SAP API Management API Portal API Products API
@@ -80,6 +80,24 @@ collections:
 - collection_type: postman
   name: SAP API Management API Portal API Products Key Value Maps API
   slug: postman-sap-api-management-key-value-maps-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP API Management API Portal API Products API
+  slug: open-sap-api-management-api-products-api
+- collection_type: open
+  name: SAP API Management API Portal API Products API Providers API
+  slug: open-sap-api-management-api-providers-api
+- collection_type: open
+  name: SAP API Management API Portal API Products API Proxies API
+  slug: open-sap-api-management-api-proxies-api
+- collection_type: open
+  name: SAP API Management API Portal API Products Applications API
+  slug: open-sap-api-management-applications-api
+- collection_type: open
+  name: SAP API Management API Portal API Products Key Value Maps API
+  slug: open-sap-api-management-key-value-maps-api
 - collection_type: open
   name: SAP API Management API Portal API
   slug: open-sap-api-management-portal
@@ -226,7 +244,7 @@ plans:
 - name: Sap Api Management Plans Pricing
   plan_count: 1
   slug: sap-api-management-plans-pricing
-random_paper: 101
+random_paper: 142
 rate_limits:
 - limit_count: 1
   name: Sap Api Management Rate Limits
@@ -273,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/screenshots/sap-api-management-2026-06-20T193414.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: Authentication and account service for the entire INRIX platform. Exchanges an appId plus a SHA-1 hashToken (or OAuth2 client credentials) for a bearer access token, and manages applications, applicat
@@ -75,7 +75,17 @@ apis:
 - description: Anonymized visit counts and dwell analytics for points of interest and custom polygons, derived from INRIX device and vehicle movement data.
   name: INRIX Visits Analytics API
   slug: inrix-visits-analytics-api
-artifact_total: 21
+artifact_total: 24
+collections:
+- collection_type: open
+  name: INRIX Parkme API
+  slug: open-inrix-parkme-openapi-original
+- collection_type: open
+  name: INRIX Analytics Webservice Template API
+  slug: open-inrix-signals-analytics-openapi-original
+- collection_type: open
+  name: Inrix.UserAccounts.Web
+  slug: open-inrix-user-accounts-openapi-original
 common:
 - group: agent
   title: ''
@@ -238,7 +248,7 @@ overview: 'INRIX publishes 3 APIs on the [APIs.io](https://apis.io/) network: Us
 
 
   INRIX''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, support, and 29 more developer resources.'
-random_paper: 74
+random_paper: 107
 score:
   band: developing
   composite: 49.8
@@ -261,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/screenshots/inrix-2026-08-07T170714.png
 security:

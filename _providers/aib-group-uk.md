@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,11 @@ apis:
 - description: FCA Service Metrics API for Business Current Accounts (BCA), publishing the service availability and performance metrics AIB Group (UK) is required to report under FCA rules.
   name: AIB Group (UK) FCA Service Metrics (BCA) API
   slug: aib-group-uk-fca-service-metrics-bca-api
-artifact_total: 13
+artifact_total: 14
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-aib-group-uk-open-data
 common:
 - group: agent
   title: ''
@@ -175,7 +179,7 @@ overview: 'AIB Group (UK) publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   AIB Group (UK)''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, and 17 more developer resources.'
-random_paper: 91
+random_paper: 128
 score:
   band: thin
   composite: 38.4
@@ -204,7 +208,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/screenshots/aib-group-uk-2026-07-25T195342.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -111,23 +111,98 @@ apis:
 - description: User account management
   name: SAP Commerce Cloud Users API
   slug: sap-commerce-cloud-users-api
-artifact_total: 132
+artifact_total: 157
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses API
+  slug: open-sap-commerce-cloud-addresses-api
 - collection_type: open
   name: SAP Commerce Cloud Admin API
   slug: open-sap-commerce-cloud-admin
 - collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Agents API
+  slug: open-sap-commerce-cloud-agents-api
+- collection_type: open
   name: SAP Commerce Cloud Assisted Service Module API
   slug: open-sap-commerce-cloud-assisted-service
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Cache API
+  slug: open-sap-commerce-cloud-cache-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Cart API
+  slug: open-sap-commerce-cloud-cart-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Carts API
+  slug: open-sap-commerce-cloud-carts-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Catalogs API
+  slug: open-sap-commerce-cloud-catalogs-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Categories API
+  slug: open-sap-commerce-cloud-categories-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Checkout API
+  slug: open-sap-commerce-cloud-checkout-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Classifications API
+  slug: open-sap-commerce-cloud-classifications-api
 - collection_type: open
   name: SAP Commerce Cloud Commerce Web Services API
   slug: open-sap-commerce-cloud-commerce-web-services
 - collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Configuration API
+  slug: open-sap-commerce-cloud-configuration-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Consents API
+  slug: open-sap-commerce-cloud-consents-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses CronJobs API
+  slug: open-sap-commerce-cloud-cronjobs-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Customers API
+  slug: open-sap-commerce-cloud-customers-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Health API
+  slug: open-sap-commerce-cloud-health-api
+- collection_type: open
   name: SAP Commerce Cloud Integration API
   slug: open-sap-commerce-cloud-integration
 - collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Media API
+  slug: open-sap-commerce-cloud-media-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Metadata API
+  slug: open-sap-commerce-cloud-metadata-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Monitoring API
+  slug: open-sap-commerce-cloud-monitoring-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Orders API
+  slug: open-sap-commerce-cloud-orders-api
+- collection_type: open
   name: SAP Commerce Cloud Product Content Management API
   slug: open-sap-commerce-cloud-product-content-management
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Products API
+  slug: open-sap-commerce-cloud-products-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Promotions API
+  slug: open-sap-commerce-cloud-promotions-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Sessions API
+  slug: open-sap-commerce-cloud-sessions-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Stock API
+  slug: open-sap-commerce-cloud-stock-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Stores API
+  slug: open-sap-commerce-cloud-stores-api
+- collection_type: open
+  name: SAP Commerce Cloud Admin Addresses Users API
+  slug: open-sap-commerce-cloud-users-api
 common:
 - group: agent
   title: ''
@@ -552,7 +627,7 @@ plans:
 - name: Sap Commerce Cloud Plans Pricing
   plan_count: 1
   slug: sap-commerce-cloud-plans-pricing
-random_paper: 112
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Sap Commerce Cloud Rate Limits
@@ -599,7 +674,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/screenshots/sap-commerce-cloud-2026-06-20T193424.png
 security:

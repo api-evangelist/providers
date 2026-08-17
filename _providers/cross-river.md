@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Domestic wire transfers and drawdowns (COS Payments, /wires).
   name: Cross River Wires API
   slug: cross-river-wires-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cross River Operating System (COS) Accounts API
+  slug: open-cross-river-accounts-api
+- collection_type: open
+  name: Cross River Operating System (COS) Accounts ACH API
+  slug: open-cross-river-ach-api
+- collection_type: open
+  name: Cross River Operating System (COS) Accounts Cards API
+  slug: open-cross-river-cards-api
+- collection_type: open
+  name: Cross River Operating System (COS) Accounts Customer Management API
+  slug: open-cross-river-customer-management-api
+- collection_type: open
+  name: Cross River Operating System (COS) Accounts Instant Payments API
+  slug: open-cross-river-instant-payments-api
+- collection_type: open
+  name: Cross River Operating System (COS) Accounts Lending API
+  slug: open-cross-river-lending-api
+- collection_type: open
+  name: Cross River Operating System (COS) Accounts Wires API
+  slug: open-cross-river-wires-api
 - collection_type: open
   name: Cross River Operating System (COS) API
   slug: open-cross-river
@@ -146,7 +170,7 @@ plans:
 - name: Cross River Plans Pricing
   plan_count: 2
   slug: cross-river-plans-pricing
-random_paper: 71
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Cross River Rate Limits
@@ -177,7 +201,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/screenshots/cross-river-2026-07-25T210751.png
 security:

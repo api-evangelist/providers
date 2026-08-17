@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Subscriptions for pushed biometric data and alert events.
   name: VivaLNK Webhooks API
   slug: vivalink-webhooks-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VivaLNK Biometrics Data Platform API (Modeled) Devices API
+  slug: open-vivalink-devices-api
+- collection_type: open
+  name: VivaLNK Biometrics Data Platform API (Modeled) Devices FHIR API
+  slug: open-vivalink-fhir-api
+- collection_type: open
+  name: VivaLNK Biometrics Data Platform API (Modeled) Devices Subjects API
+  slug: open-vivalink-subjects-api
+- collection_type: open
+  name: VivaLNK Biometrics Data Platform API (Modeled) Devices Vital Signs API
+  slug: open-vivalink-vital-signs-api
+- collection_type: open
+  name: VivaLNK Biometrics Data Platform API (Modeled) Devices Webhooks API
+  slug: open-vivalink-webhooks-api
 - collection_type: open
   name: VivaLNK Biometrics Data Platform API (Modeled)
   slug: open-vivalink
@@ -129,7 +147,7 @@ plans:
 - name: Vivalink Plans Pricing
   plan_count: 3
   slug: vivalink-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 5
   name: Vivalink Rate Limits
@@ -160,7 +178,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

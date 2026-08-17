@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: Read, create, update and delete creator (publisher) records in the customer's CreatorIQ CRM, plus their linked social accounts, scheduled posts, contacts and campaign relationships.
@@ -73,11 +73,63 @@ apis:
 - description: 'Subscribe to, unsubscribe from and list CreatorIQ event subscriptions. Events cover campaign create/delete/latest-post/payout-paid, creator account link/unlink/update/delete/campaign-added, One-Sheet '
   name: CreatorIQ Webhooks (pub/sub) API
   slug: creatoriq-webhooks-pubsub-api
-artifact_total: 24
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Creatoriq Webhooks
   slug: creatoriq-webhooks
+collections:
+- collection_type: open
+  name: CreatorIQ Brand Safety (draft)
+  slug: open-creatoriq-brand-safety-draft
+- collection_type: open
+  name: CreatorIQ SafeIQ Brand Safety API
+  slug: open-creatoriq-brand-safety
+- collection_type: open
+  name: CreatorIQ Campaign APIs
+  slug: open-creatoriq-campaigns
+- collection_type: open
+  name: Conversion Metrics API
+  slug: open-creatoriq-conversion-metrics
+- collection_type: open
+  name: CreatorIQ Ecommerce APIs
+  slug: open-creatoriq-ecommerce
+- collection_type: open
+  name: CreatorIQ CRM LinkTracking API
+  slug: open-creatoriq-link-tracking
+- collection_type: open
+  name: CreatorIQ CRM Lists API
+  slug: open-creatoriq-lists
+- collection_type: open
+  name: CreatorIQ CRM Publishers API
+  slug: open-creatoriq-notes
+- collection_type: open
+  name: CreatorIQ CRM Onesheets API
+  slug: open-creatoriq-onesheets
+- collection_type: open
+  name: CreatorIQ Payments API
+  slug: open-creatoriq-payments
+- collection_type: open
+  name: CreatorIQ CRM Publishers API
+  slug: open-creatoriq-publishers
+- collection_type: open
+  name: CreatorIQ Reporting APIs
+  slug: open-creatoriq-reports
+- collection_type: open
+  name: CreatorIQ Social Account APIs
+  slug: open-creatoriq-socials
+- collection_type: open
+  name: CreatorIQ Divisions APIs
+  slug: open-creatoriq-v1-divisions
+- collection_type: open
+  name: CreatorIQ CRM Campaigns API V2
+  slug: open-creatoriq-v2-campaigns
+- collection_type: open
+  name: CreatorIQ CRM Publishers API V2
+  slug: open-creatoriq-v2-publishers
+- collection_type: open
+  name: CreatorIQ Public APIs
+  slug: open-creatoriq-webhooks
 common:
 - group: company
   title: ''
@@ -231,7 +283,7 @@ plans:
 - name: Creatoriq Plans Pricing
   plan_count: 0
   slug: creatoriq-plans-pricing
-random_paper: 10
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Creatoriq Rate Limits
@@ -239,6 +291,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.0
@@ -246,6 +299,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 78.9
+  previous_composite: 62.5
   regulatory:
     applies: true
     matched_via: tags
@@ -253,7 +307,8 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Creatoriq Authentication

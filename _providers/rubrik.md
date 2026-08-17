@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -63,8 +63,23 @@ apis:
 - description: The Session API from Rubrik — 1 operation(s) for session.
   name: Rubrik Session API
   slug: rubrik-session-api
-artifact_total: 16
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rubrik Security Cloud Client Token API
+  slug: open-rubrik-client-token-api
+- collection_type: open
+  name: Rubrik Security Cloud Client Token Graphql API
+  slug: open-rubrik-graphql-api
+- collection_type: open
+  name: Rubrik Security Cloud Client Token Oauth API
+  slug: open-rubrik-oauth-api
+- collection_type: open
+  name: Rubrik Security Cloud Client Token Session API
+  slug: open-rubrik-session-api
 - collection_type: open
   name: Rubrik Security Cloud API
   slug: open-rubrik
@@ -173,7 +188,7 @@ plans:
 - name: Rubrik Plans Pricing
   plan_count: 1
   slug: rubrik-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Rubrik Rate Limits
@@ -198,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/screenshots/rubrik-2026-06-20T193244.png
 security:

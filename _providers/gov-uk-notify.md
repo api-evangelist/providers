@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -66,7 +66,20 @@ apis:
 - description: Retrieve and preview notification templates
   name: GOV.UK Notify Templates API
   slug: gov-uk-notify-templates-api
-artifact_total: 23
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GOV.UK Notify Notifications API
+  slug: open-gov-uk-notify-notifications-api
+- collection_type: open
+  name: GOV.UK Notify Notifications Received Text Messages API
+  slug: open-gov-uk-notify-received-text-messages-api
+- collection_type: open
+  name: GOV.UK Notify Notifications Templates API
+  slug: open-gov-uk-notify-templates-api
 common:
 - group: agent
   title: ''
@@ -167,7 +180,7 @@ plans:
 - name: Plans
   plan_count: 8
   slug: plans
-random_paper: 111
+random_paper: 119
 rate_limits:
 - limit_count: 11
   name: Rate Limits
@@ -207,7 +220,7 @@ score:
     regime_id: government
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/screenshots/gov-uk-notify-2026-06-20T182256.png
 security:

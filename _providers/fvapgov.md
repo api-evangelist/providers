@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,29 @@ apis:
 - description: XML schema definition.
   name: FVAP.gov Schema API
   slug: fvapgov-schema-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FVAP.gov XML Ballot Rules API
+  slug: open-fvapgov-ballot-rules-api
+- collection_type: open
+  name: FVAP.gov XML Ballot Rules Deadline Dates API
+  slug: open-fvapgov-deadline-dates-api
+- collection_type: open
+  name: FVAP.gov XML Ballot Rules Election Offices API
+  slug: open-fvapgov-election-offices-api
+- collection_type: open
+  name: FVAP.gov XML Ballot Rules eVAG API
+  slug: open-fvapgov-evag-api
+- collection_type: open
+  name: FVAP.gov XML Ballot Rules Important Info API
+  slug: open-fvapgov-important-info-api
+- collection_type: open
+  name: FVAP.gov XML Ballot Rules Schema API
+  slug: open-fvapgov-schema-api
 - collection_type: open
   name: FVAP.gov XML API
   slug: open-fvapgov-xml-api
@@ -113,7 +134,7 @@ plans:
 - name: Fvapgov Plans Pricing
   plan_count: 3
   slug: fvapgov-plans-pricing
-random_paper: 41
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Fvapgov Rate Limits
@@ -153,7 +174,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/screenshots/fvapgov-2026-06-20T181628.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: custom-columns operations
@@ -85,7 +85,65 @@ apis:
 - description: exports operations
   name: ComboCurve v2 exports API
   slug: combocurve-v2-exports-api
-artifact_total: 21
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns API
+  slug: open-combocurve-v1-custom-columns-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 daily-productions API
+  slug: open-combocurve-v1-daily-productions-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 directional-surveys API
+  slug: open-combocurve-v1-directional-surveys-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 econ-models API
+  slug: open-combocurve-v1-econ-models-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 econ-runs API
+  slug: open-combocurve-v1-econ-runs-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 exports API
+  slug: open-combocurve-v1-exports-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 forecast-configurations API
+  slug: open-combocurve-v1-forecast-configurations-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 forecast-daily-volumes API
+  slug: open-combocurve-v1-forecast-daily-volumes-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 forecast-monthly-volumes API
+  slug: open-combocurve-v1-forecast-monthly-volumes-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 monthly-productions API
+  slug: open-combocurve-v1-monthly-productions-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 ownership-qualifiers API
+  slug: open-combocurve-v1-ownership-qualifiers-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 projects API
+  slug: open-combocurve-v1-projects-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 tags API
+  slug: open-combocurve-v1-tags-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 users API
+  slug: open-combocurve-v1-users-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 well-comments API
+  slug: open-combocurve-v1-well-comments-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 wells API
+  slug: open-combocurve-v1-wells-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v1 wells-identifiers API
+  slug: open-combocurve-v1-wells-identifiers-api
+- collection_type: open
+  name: ComboCurve REST v1 custom-columns v2 exports API
+  slug: open-combocurve-v2-exports-api
 common:
 - group: other
   title: ''
@@ -207,7 +265,7 @@ overview: 'ComboCurve publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ComboCurve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 117
+random_paper: 34
 score:
   band: developing
   composite: 44.3
@@ -236,7 +294,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/screenshots/combocurve-2026-07-25T210107.png
 security:

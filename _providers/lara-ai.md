@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ overview: 'Lara AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lara AI''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 63
+random_paper: 67
 score:
   band: emerging
   composite: 15.1
@@ -108,7 +108,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lara-ai/refs/heads/main/screenshots/lara-ai-2026-07-25T224533.png
 security:

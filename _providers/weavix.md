@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: The User Management API from Weavix — 5 operation(s) for user management.
   name: Weavix User Management API
   slug: weavix-user-management-api
-artifact_total: 14
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Weavix Webhooks
   slug: weavix-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: weavix REST Channels & Messaging API
+  slug: open-weavix-channels-messaging-api
+- collection_type: open
+  name: weavix REST Channels & Messaging Crafts API
+  slug: open-weavix-crafts-api
+- collection_type: open
+  name: weavix REST Channels & Messaging Forms API
+  slug: open-weavix-forms-api
+- collection_type: open
+  name: weavix REST Channels & Messaging Geofences API
+  slug: open-weavix-geofences-api
+- collection_type: open
+  name: weavix REST Channels & Messaging Mass Alerts API
+  slug: open-weavix-mass-alerts-api
+- collection_type: open
+  name: weavix REST Channels & Messaging Permission Groups API
+  slug: open-weavix-permission-groups-api
+- collection_type: open
+  name: weavix REST Channels & Messaging Sites API
+  slug: open-weavix-sites-api
+- collection_type: open
+  name: weavix REST Channels & Messaging User Management API
+  slug: open-weavix-user-management-api
 common:
 - group: other
   title: ''
@@ -196,7 +224,7 @@ overview: 'Weavix publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Weavix''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 60
+random_paper: 64
 score:
   band: developing
   composite: 51.8
@@ -220,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

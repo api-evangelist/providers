@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -40,7 +40,11 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds Services (CBPII) API, CBS v2.0, allowing a consented card-based payment instrument issuer to confirm whether funds are available on an account. FAPI-secured (OAut
   name: Coventry Building Society Confirmation of Funds API (CBPII)
   slug: coventry-building-society-confirmation-of-funds-api
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-swagger
 common:
 - group: agent
   title: ''
@@ -167,7 +171,7 @@ overview: 'Coventry Building Society publishes 4 APIs on the [APIs.io](https://a
 
 
   Coventry Building Society''s developer surface includes authentication, documentation, support, and 24 more developer resources.'
-random_paper: 74
+random_paper: 61
 scopes:
 - name: Coventry Building Society Scopes
   scope_count: 3
@@ -202,7 +206,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
 security:

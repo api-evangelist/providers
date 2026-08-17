@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 73.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -58,11 +58,15 @@ apis:
 - description: Chargeback and dispute handling - accept a dispute, retrieve dispute details, upload response documents, and check image-upload status.
   name: Moneris Disputes API
   slug: moneris-disputes-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Moneris Subscriptions Webhooks
   slug: moneris-subscriptions-webhooks
+collections:
+- collection_type: open
+  name: Moneris API
+  slug: open-moneris-unified-api
 common:
 - group: auth
   title: ''
@@ -216,7 +220,7 @@ overview: 'Moneris publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Moneris'' developer surface includes authentication, sandbox, getting-started guide, changelog, signup flow, documentation, engineering blog, and 26 more developer resources.'
-random_paper: 45
+random_paper: 20
 scopes:
 - name: Moneris Scopes
   scope_count: 14
@@ -251,7 +255,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/screenshots/moneris-2026-08-07T184149.png
 security:

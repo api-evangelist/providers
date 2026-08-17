@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -127,24 +127,63 @@ arazzos:
 - description: Size the TSDB, snapshot it, and capture the snapshot directory name.
   name: Prometheus Take a TSDB Snapshot for Backup
   slug: prometheus-tsdb-snapshot-backup-workflow
-artifact_total: 45
+artifact_total: 58
 asyncapis:
 - description: The Prometheus Alertmanager webhook receiver sends HTTP POST requests to configured endpoints when alert groups are triggered. Each webhook payload contains a group of alerts sharing common routing la
   name: Prometheus Alertmanager Webhook Events
   slug: prometheus-alertmanager-webhook-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prometheus Alertmanager Admin API
+  slug: open-prometheus-admin-api
+- collection_type: open
   name: Prometheus Alertmanager API
   slug: open-prometheus-alertmanager-api
+- collection_type: open
+  name: Prometheus Alertmanager Admin Alerts API
+  slug: open-prometheus-alerts-api
 - collection_type: open
   name: Prometheus HTTP API
   slug: open-prometheus-http-api
 - collection_type: open
+  name: Prometheus Alertmanager Admin Lifecycle API
+  slug: open-prometheus-lifecycle-api
+- collection_type: open
   name: Prometheus Management API
   slug: open-prometheus-management-api
 - collection_type: open
+  name: Prometheus Alertmanager Admin Metadata API
+  slug: open-prometheus-metadata-api
+- collection_type: open
+  name: Prometheus Alertmanager Admin Metrics API
+  slug: open-prometheus-metrics-api
+- collection_type: open
   name: Prometheus Pushgateway API
   slug: open-prometheus-pushgateway-api
+- collection_type: open
+  name: Prometheus Alertmanager Admin Query API
+  slug: open-prometheus-query-api
+- collection_type: open
+  name: Prometheus Alertmanager Admin Receivers API
+  slug: open-prometheus-receivers-api
+- collection_type: open
+  name: Prometheus Alertmanager Admin Rules API
+  slug: open-prometheus-rules-api
+- collection_type: open
+  name: Prometheus Alertmanager Admin Silences API
+  slug: open-prometheus-silences-api
+- collection_type: open
+  name: Prometheus Alertmanager Admin Status API
+  slug: open-prometheus-status-api
+- collection_type: open
+  name: Prometheus Alertmanager Admin Targets API
+  slug: open-prometheus-targets-api
+- collection_type: open
+  name: Prometheus Alertmanager Admin TSDB API
+  slug: open-prometheus-tsdb-api
 common:
 - group: other
   title: ''
@@ -346,7 +385,7 @@ plans:
 - name: Prometheus Plans Pricing
   plan_count: 1
   slug: prometheus-plans-pricing
-random_paper: 20
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Prometheus Rate Limits
@@ -390,7 +429,7 @@ score:
       total: 12
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/screenshots/prometheus-2026-06-20T192155.png
 security:

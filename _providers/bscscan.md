@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: The Transactions API from BscScan — 2 operation(s) for transactions.
   name: BscScan Transactions API
   slug: bscscan-transactions-api
-artifact_total: 26
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BscScan Accounts API
+  slug: open-bscscan-accounts-api
+- collection_type: open
+  name: BscScan Accounts API PRO Endpoints API
+  slug: open-bscscan-api-pro-endpoints-api
+- collection_type: open
+  name: BscScan Accounts Blocks API
+  slug: open-bscscan-blocks-api
+- collection_type: open
+  name: BscScan Accounts Contracts API
+  slug: open-bscscan-contracts-api
+- collection_type: open
+  name: BscScan Accounts Gas Tracker API
+  slug: open-bscscan-gas-tracker-api
+- collection_type: open
+  name: BscScan Accounts Geth/Parity Proxy API
+  slug: open-bscscan-geth-parity-proxy-api
+- collection_type: open
+  name: BscScan Accounts Logs API
+  slug: open-bscscan-logs-api
+- collection_type: open
+  name: BscScan Accounts Stats API
+  slug: open-bscscan-stats-api
+- collection_type: open
+  name: BscScan Accounts Tokens API
+  slug: open-bscscan-tokens-api
+- collection_type: open
+  name: BscScan Accounts Transactions API
+  slug: open-bscscan-transactions-api
 common:
 - group: agent
   title: ''
@@ -138,7 +172,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 13
+random_paper: 137
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -172,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

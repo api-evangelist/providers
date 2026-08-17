@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Real-time and forecast air quality data with street-level accuracy, including pollutant levels (CO, NO2, O3, PM10, PM2.5, SO2), AQI scores, and health recommendations for any location worldwide.
@@ -116,7 +116,7 @@ plans:
 - name: Breezometer Plans Pricing
   plan_count: 3
   slug: breezometer-plans-pricing
-random_paper: 108
+random_paper: 145
 rate_limits:
 - limit_count: 0
   name: Breezometer Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breezometer/refs/heads/main/screenshots/breezometer-2026-06-20T173650.png
 security:

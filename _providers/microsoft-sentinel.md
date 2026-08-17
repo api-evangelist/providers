@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The ThreatIntelligence API from Microsoft Sentinel — 1 operation(s) for threatintelligence.
   name: Microsoft Sentinel ThreatIntelligence API
   slug: microsoft-sentinel-threatintelligence-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Sentinel REST AlertRules API
+  slug: open-microsoft-sentinel-alertrules-api
+- collection_type: open
+  name: Microsoft Sentinel REST AlertRules Bookmarks API
+  slug: open-microsoft-sentinel-bookmarks-api
+- collection_type: open
+  name: Microsoft Sentinel REST AlertRules DataConnectors API
+  slug: open-microsoft-sentinel-dataconnectors-api
+- collection_type: open
+  name: Microsoft Sentinel REST AlertRules Incidents API
+  slug: open-microsoft-sentinel-incidents-api
+- collection_type: open
+  name: Microsoft Sentinel REST AlertRules ThreatIntelligence API
+  slug: open-microsoft-sentinel-threatintelligence-api
 - collection_type: open
   name: Microsoft Sentinel REST API
   slug: open-microsoft-sentinel
@@ -140,7 +158,7 @@ plans:
 - name: Microsoft Sentinel Plans Pricing
   plan_count: 3
   slug: microsoft-sentinel-plans-pricing
-random_paper: 93
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Microsoft Sentinel Rate Limits
@@ -165,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/screenshots/microsoft-sentinel-2026-06-20T185532.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -95,11 +95,81 @@ apis:
 - description: View and replay webhook delivery attempts
   name: Primitive Webhook Deliveries API
   slug: primitive-webhook-deliveries-api
-artifact_total: 28
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Primitive Webhooks
   slug: primitive-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Primitive Account API
+  slug: open-primitive-account-api
+- collection_type: open
+  name: Primitive Account Agent API
+  slug: open-primitive-agent-api
+- collection_type: open
+  name: Primitive Account CLI API
+  slug: open-primitive-cli-api
+- collection_type: open
+  name: Primitive Account Demo API
+  slug: open-primitive-demo-api
+- collection_type: open
+  name: Primitive Account Discovery API
+  slug: open-primitive-discovery-api
+- collection_type: open
+  name: Primitive Account Domains API
+  slug: open-primitive-domains-api
+- collection_type: open
+  name: Primitive Account Emails API
+  slug: open-primitive-emails-api
+- collection_type: open
+  name: Primitive Account Endpoints API
+  slug: open-primitive-endpoints-api
+- collection_type: open
+  name: Primitive Account Filters API
+  slug: open-primitive-filters-api
+- collection_type: open
+  name: Primitive Account Functions API
+  slug: open-primitive-functions-api
+- collection_type: open
+  name: Primitive Account Inbox API
+  slug: open-primitive-inbox-api
+- collection_type: open
+  name: Primitive Account Memories API
+  slug: open-primitive-memories-api
+- collection_type: open
+  name: Primitive Account Payments API
+  slug: open-primitive-payments-api
+- collection_type: open
+  name: Primitive Account Registries API
+  slug: open-primitive-registries-api
+- collection_type: open
+  name: Primitive Account Routes API
+  slug: open-primitive-routes-api
+- collection_type: open
+  name: Primitive Account Search API
+  slug: open-primitive-search-api
+- collection_type: open
+  name: Primitive Account Sending API
+  slug: open-primitive-sending-api
+- collection_type: open
+  name: Primitive Account Service API
+  slug: open-primitive-service-api
+- collection_type: open
+  name: Primitive Account Templates API
+  slug: open-primitive-templates-api
+- collection_type: open
+  name: Primitive Account Threads API
+  slug: open-primitive-threads-api
+- collection_type: open
+  name: Primitive Account Wake API
+  slug: open-primitive-wake-api
+- collection_type: open
+  name: Primitive Account Webhook Deliveries API
+  slug: open-primitive-webhook-deliveries-api
 common:
 - group: agent
   title: ''
@@ -132,7 +202,7 @@ overview: 'Primitive publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 25
+random_paper: 91
 score:
   band: thin
   composite: 28.3
@@ -156,7 +226,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

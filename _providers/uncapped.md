@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,11 +54,30 @@ apis:
 - description: Webhook Subscriptions API for external access
   name: Uncapped Webhook Subscriptions API
   slug: uncapped-webhook-subscriptions-api
-artifact_total: 10
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Uncapped Webhooks
   slug: uncapped-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: api-partners Applicants API
+  slug: open-uncapped-applicants-api
+- collection_type: open
+  name: api-partners Applicants Applications API
+  slug: open-uncapped-applications-api
+- collection_type: open
+  name: api-partners Applicants Authentication API
+  slug: open-uncapped-authentication-api
+- collection_type: open
+  name: api-partners Applicants Estimations API
+  slug: open-uncapped-estimations-api
+- collection_type: open
+  name: api-partners Applicants Webhook Subscriptions API
+  slug: open-uncapped-webhook-subscriptions-api
 common:
 - group: other
   title: ''
@@ -167,7 +186,7 @@ overview: 'Uncapped publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Uncapped''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, sandbox, and 16 more developer resources.'
-random_paper: 8
+random_paper: 103
 score:
   band: developing
   composite: 43.9
@@ -191,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

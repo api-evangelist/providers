@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -139,7 +139,119 @@ apis:
 - description: The users API from OutSystems — 10 operation(s) for users.
   name: OutSystems Users API
   slug: outsystems-users-api
-artifact_total: 45
+artifact_total: 82
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Code Quality Analysis Status API
+  slug: open-outsystems-analysis-status-api
+- collection_type: open
+  name: User and Access Management Application Roles API
+  slug: open-outsystems-application-roles-api
+- collection_type: open
+  name: Outsystems Assets API
+  slug: open-outsystems-assets-api
+- collection_type: open
+  name: Code Quality Assets Quality Metrics API
+  slug: open-outsystems-assets-quality-metrics-api
+- collection_type: open
+  name: Operations Build API
+  slug: open-outsystems-build-api
+- collection_type: open
+  name: Native Mobile Build Build Operations API
+  slug: open-outsystems-buildoperations-api
+- collection_type: open
+  name: Code Quality Code Analyses API
+  slug: open-outsystems-code-analyses-api
+- collection_type: open
+  name: Dependency Management Deletion Analyses API
+  slug: open-outsystems-deletion-analyses-api
+- collection_type: open
+  name: Outsystems Deployed Assets API
+  slug: open-outsystems-deployed-assets-api
+- collection_type: open
+  name: Dependency Management Deployment Analyses API
+  slug: open-outsystems-deployment-analyses-api
+- collection_type: open
+  name: Deployments Deployment Operations API
+  slug: open-outsystems-deployment-operations-api
+- collection_type: open
+  name: Environment Configurations Domains API
+  slug: open-outsystems-domains-api
+- collection_type: open
+  name: Outsystems Environments API
+  slug: open-outsystems-environments-api
+- collection_type: open
+  name: Code Quality Findings API
+  slug: open-outsystems-findings-api
+- collection_type: open
+  name: Code Quality Findings Summary API
+  slug: open-outsystems-findings-summary-api
+- collection_type: open
+  name: Code Quality Findings Trend API
+  slug: open-outsystems-findings-trend-api
+- collection_type: open
+  name: External Library Generation Service Generation Operations API
+  slug: open-outsystems-generationoperations-api
+- collection_type: open
+  name: User and Access Management Groups API
+  slug: open-outsystems-groups-api
+- collection_type: open
+  name: User and Access Management Identity Providers API
+  slug: open-outsystems-identity-providers-api
+- collection_type: open
+  name: Environment Configurations IP filters API
+  slug: open-outsystems-ip-filters-api
+- collection_type: open
+  name: Portfolio Libraries API
+  slug: open-outsystems-libraries-api
+- collection_type: open
+  name: Native Mobile Build Native Builder Versions API
+  slug: open-outsystems-nativebuilderversions-api
+- collection_type: open
+  name: Native Mobile Build Native Build Extensibility Settings API
+  slug: open-outsystems-nativebuildextensibilitysettings-api
+- collection_type: open
+  name: Native Mobile Build Native Mobile Configurations API
+  slug: open-outsystems-nativemobileconfigurations-api
+- collection_type: open
+  name: Subscription Organization API
+  slug: open-outsystems-organization-api
+- collection_type: open
+  name: User and Access Management Organization Roles API
+  slug: open-outsystems-organization-roles-api
+- collection_type: open
+  name: Code Quality Patterns API
+  slug: open-outsystems-patterns-api
+- collection_type: open
+  name: User and Access Management Permissions API
+  slug: open-outsystems-permissions-api
+- collection_type: open
+  name: Portfolio Portfolios API
+  slug: open-outsystems-portfolios-api
+- collection_type: open
+  name: Environment Configurations Private gateways API
+  slug: open-outsystems-private-gateways-api
+- collection_type: open
+  name: Dependency Management Public Elements API
+  slug: open-outsystems-public-elements-api
+- collection_type: open
+  name: Deployments Publish Operations API
+  slug: open-outsystems-publish-operations-api
+- collection_type: open
+  name: External Library Generation Service Source Code Download API
+  slug: open-outsystems-sourcecodedownload-api
+- collection_type: open
+  name: External Library Generation Service Upload API
+  slug: open-outsystems-upload-api
+- collection_type: open
+  name: Asset Repository Uploads API
+  slug: open-outsystems-uploads-api
+- collection_type: open
+  name: User and Access Management Users API
+  slug: open-outsystems-users-api
 common:
 - group: other
   title: ''
@@ -314,7 +426,7 @@ overview: 'OutSystems publishes 36 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OutSystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 56
+random_paper: 93
 rate_limits:
 - limit_count: 12
   name: Outsystems Rate Limits
@@ -347,7 +459,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

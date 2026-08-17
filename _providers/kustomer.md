@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,12 +45,21 @@ apis:
 - description: Customer records in Kustomer
   name: Kustomer Customers API
   slug: kustomer-customers-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: Kustomer's outbound webhook surface delivers event notifications when resources in a Kustomer organization are created or updated. Apps subscribe to a configured array of event names in their app defi
   name: Kustomer Outbound Webhook Events
   slug: kustomer-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kustomer REST Conversations API
+  slug: open-kustomer-conversations-api
+- collection_type: open
+  name: Kustomer REST Conversations Customers API
+  slug: open-kustomer-customers-api
 - collection_type: open
   name: Kustomer REST API
   slug: open-kustomer
@@ -126,7 +135,7 @@ plans:
 - name: Kustomer Plans Pricing
   plan_count: 1
   slug: kustomer-plans-pricing
-random_paper: 50
+random_paper: 145
 rate_limits:
 - limit_count: 1
   name: Kustomer Rate Limits
@@ -160,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/screenshots/kustomer-2026-06-20T184221.png
 security:

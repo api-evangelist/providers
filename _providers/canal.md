@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The csv API from Canal — 3 operation(s) for csv.
@@ -82,11 +82,66 @@ apis:
 - description: The webhooks API from Canal — 2 operation(s) for webhooks.
   name: Canal webhooks API
   slug: canal-webhooks-api
-artifact_total: 21
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Canal Webhooks
   slug: canal-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rokt Catalog csv API
+  slug: open-canal-csv-api
+- collection_type: open
+  name: Rokt Catalog csv fulfillments API
+  slug: open-canal-fulfillments-api
+- collection_type: open
+  name: Rokt Catalog csv markets API
+  slug: open-canal-markets-api
+- collection_type: open
+  name: Rokt Catalog csv max-shipping-rates API
+  slug: open-canal-max-shipping-rates-api
+- collection_type: open
+  name: Rokt Catalog csv orders API
+  slug: open-canal-orders-api
+- collection_type: open
+  name: Rokt Catalog csv product_sets API
+  slug: open-canal-product-sets-api
+- collection_type: open
+  name: Rokt Catalog csv products API
+  slug: open-canal-products-api
+- collection_type: open
+  name: Rokt Catalog csv refunds API
+  slug: open-canal-refunds-api
+- collection_type: open
+  name: Rokt Catalog csv returns API
+  slug: open-canal-returns-api
+- collection_type: open
+  name: Rokt Catalog csv selection API
+  slug: open-canal-selection-api
+- collection_type: open
+  name: Rokt Catalog csv shipping API
+  slug: open-canal-shipping-api
+- collection_type: open
+  name: Rokt Catalog csv shipping-rates API
+  slug: open-canal-shipping-rates-api
+- collection_type: open
+  name: Rokt Catalog csv shops API
+  slug: open-canal-shops-api
+- collection_type: open
+  name: Rokt Catalog csv tax-and-shipping API
+  slug: open-canal-tax-and-shipping-api
+- collection_type: open
+  name: Rokt Catalog csv tax API
+  slug: open-canal-tax-api
+- collection_type: open
+  name: Rokt Catalog csv variants API
+  slug: open-canal-variants-api
+- collection_type: open
+  name: Rokt Catalog csv webhooks API
+  slug: open-canal-webhooks-api
 common:
 - group: auth
   title: ''
@@ -211,7 +266,7 @@ overview: 'Canal publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Canal''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 31
+random_paper: 64
 score:
   band: developing
   composite: 46.0
@@ -234,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/screenshots/canal-2026-07-25T204329.png
 security:

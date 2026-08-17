@@ -10,7 +10,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -18,8 +18,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-12'
+  score: 53.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -83,7 +83,69 @@ apis:
 - description: The Workflows API from Authenticx — 1 operation(s) for workflows.
   name: Authenticx Workflows API
   slug: authenticx-workflows-api
-artifact_total: 23
+artifact_total: 46
+asyncapis:
+- description: ''
+  name: Authenticx Emissions Webhooks
+  slug: authenticx-emissions-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AcxApi Production Agent API
+  slug: open-authenticx-agent-api
+- collection_type: open
+  name: AcxApi Production Conversations API
+  slug: open-authenticx-conversations-api
+- collection_type: open
+  name: AcxApi Production Evaluations API
+  slug: open-authenticx-evaluations-api
+- collection_type: open
+  name: AcxApi Production Hierarchy API
+  slug: open-authenticx-hierarchy-api
+- collection_type: open
+  name: AcxApi Production Interactions API
+  slug: open-authenticx-interactions-api
+- collection_type: open
+  name: AcxApi Production Media API
+  slug: open-authenticx-media-api
+- collection_type: open
+  name: AcxApi Production Metadata API
+  slug: open-authenticx-metadata-api
+- collection_type: open
+  name: AcxApi Production Model Results API
+  slug: open-authenticx-modelresults-api
+- collection_type: open
+  name: AcxApi Production Receipts API
+  slug: open-authenticx-receipts-api
+- collection_type: open
+  name: AcxApi Production Roles API
+  slug: open-authenticx-roles-api
+- collection_type: open
+  name: AcxApi Production (Scim) ResourceTypes (Scim) ResourceTypes API
+  slug: open-authenticx-scim-resourcetypes-api
+- collection_type: open
+  name: AcxApi Production (Scim) Schemas (Scim) Schemas API
+  slug: open-authenticx-scim-schemas-api
+- collection_type: open
+  name: AcxApi Production (Scim) ServiceProviderConfig (Scim) ServiceProviderConfig API
+  slug: open-authenticx-scim-serviceproviderconfig-api
+- collection_type: open
+  name: AcxApi Production (Scim) Users (Scim) Users API
+  slug: open-authenticx-scim-users-api
+- collection_type: open
+  name: AcxApi Production Text Media API
+  slug: open-authenticx-textmedia-api
+- collection_type: open
+  name: AcxApi Production User API
+  slug: open-authenticx-user-api
+- collection_type: open
+  name: AcxApi Production User Hierarchy API
+  slug: open-authenticx-userhierarchy-api
+- collection_type: open
+  name: AcxApi Production Workflows API
+  slug: open-authenticx-workflows-api
 common:
 - group: company
   title: ''
@@ -197,6 +259,22 @@ common:
   title: ''
   type: DomainSecurity
   url: security/authenticx-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://authenticx.com/privacy-security
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/authenticx-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/authenticx-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/authenticx-emissions-webhooks.yml
 created: '2026-08-06'
 description: Authenticx is a healthcare conversation intelligence platform that ingests contact-center interactions — call audio, chat transcripts, and email — and applies speech analytics and machine-learning classifiers to surface patient and member experience signals, quality-assurance scoring, and pharmacovigilance / adverse-event detection. Its AcxAPI is a REST API described by a live OpenAPI 3.0.1 definition covering conversation insights, transcriptions, model results, evaluations, metadata, workflows, audio and text media upload, agent, hierarchy and role administration, and SCIM 2.0 user provisioning. Interaction ingestion also runs through out-of-the-box connectors for Genesys Cloud, Amazon Connect, NICE CXone, Five9, Vonage Contact Center and Talkdesk, plus Salesforce/MuleSoft conversation enrichment and SFTP batch delivery. Authentication is OAuth 2.0 client credentials against an OpenID Connect provider, with separate production and experimental (staging) hosts.
 image: https://files.readme.io/e7477e0-small-authenticx-logo-black.png
@@ -205,15 +283,26 @@ mcp_servers:
 - description: ''
   name: authenticx-mcp.yml
   slug: authenticx-mcpyml
-modified: '2026-08-06'
+modified: '2026-08-14'
 name: Authenticx
 nav: Providers
 network: true
 overview: 'Authenticx publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 15 more. Tagged areas include conversation-intelligence, healthcare, speech-analytics, contact-center, and customer-experience.
 
 
-  Authenticx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 5
+  The Authenticx catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Authenticx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 26 more developer resources.'
+plans:
+- name: Authenticx Plans Pricing
+  plan_count: 0
+  slug: authenticx-plans-pricing
+random_paper: 42
+rate_limits:
+- limit_count: 0
+  name: Authenticx Rate Limits
+  slug: authenticx-rate-limits
 scopes:
 - name: Authenticx Scopes
   scope_count: 1
@@ -221,15 +310,15 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 52.2
+  delta: 4.1
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 54.6
+    commercial_clarity: 50.0
+    contract_quality: 63.6
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 5.3
+    operational_transparency: 13.2
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -248,7 +337,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/screenshots/authenticx-2026-08-07T161942.png
 security:
@@ -260,6 +349,10 @@ security:
   name: Authenticx Domain Security
   slug: authenticx-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Authenticx Trust Center
+  slug: authenticx-trust-center
+  summary_line: SOC 2 Type I & II, HIPAA, GDPR, CCPA
 slug: authenticx
 tags:
 - conversation-intelligence

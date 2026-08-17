@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Slides API from Google Workspace Suite — 3 operation(s) for slides.
   name: Google Workspace Suite Slides API
   slug: google-suite-docs-sheets-slides-gmail-slides-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Workspace Suite (, Sheets, Slides, Gmail) Docs API
+  slug: open-google-suite-docs-sheets-slides-gmail-docs-api
+- collection_type: open
+  name: Google Workspace Suite (, Sheets, Slides, ) Docs Gmail API
+  slug: open-google-suite-docs-sheets-slides-gmail-gmail-api
+- collection_type: open
+  name: Google Workspace Suite (, , Slides, Gmail) Docs Sheets API
+  slug: open-google-suite-docs-sheets-slides-gmail-sheets-api
+- collection_type: open
+  name: Google Workspace Suite (, Sheets, , Gmail) Docs Slides API
+  slug: open-google-suite-docs-sheets-slides-gmail-slides-api
 - collection_type: open
   name: Google Workspace Suite (Docs, Sheets, Slides, Gmail)
   slug: open-google-suite-docs-sheets-slides-gmail
@@ -129,7 +144,7 @@ plans:
 - name: Google Suite Docs Sheets Slides Gmail Plans Pricing
   plan_count: 3
   slug: google-suite-docs-sheets-slides-gmail-plans-pricing
-random_paper: 59
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Google Suite Docs Sheets Slides Gmail Rate Limits
@@ -159,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-suite-docs-sheets-slides-gmail/refs/heads/main/screenshots/google-suite-docs-sheets-slides-gmail-2026-06-20T182236.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -67,7 +67,26 @@ apis:
 - description: Bitstring Status List credential endpoint for credential revocation status.
   name: SpruceID Status API
   slug: spruceid-status-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SpruceID DIDKit HTTP Credentials API
+  slug: open-spruceid-credentials-api
+- collection_type: open
+  name: SpruceID DIDKit HTTP Credentials Health API
+  slug: open-spruceid-health-api
+- collection_type: open
+  name: SpruceID DIDKit HTTP Credentials Identifiers API
+  slug: open-spruceid-identifiers-api
+- collection_type: open
+  name: SpruceID DIDKit HTTP Credentials Presentations API
+  slug: open-spruceid-presentations-api
+- collection_type: open
+  name: SpruceID DIDKit HTTP Credentials Status API
+  slug: open-spruceid-status-api
 common:
 - group: commercial
   title: ''
@@ -125,7 +144,7 @@ overview: 'SpruceID publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SpruceID''s developer surface includes engineering blog, GitHub presence, and 9 more developer resources.'
-random_paper: 23
+random_paper: 118
 score:
   band: emerging
   composite: 22.2
@@ -152,7 +171,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/screenshots/spruceid-2026-06-20T194421.png
 security:

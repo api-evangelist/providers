@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 created: '2025-01-01'
@@ -39,7 +39,7 @@ name: Quality Standards
 nav: Providers
 network: true
 overview: Quality Standards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Best Practices, Compliance, Process Improvement, and Quality Assurance.
-random_paper: 106
+random_paper: 147
 score:
   band: minimal
   composite: 4.1
@@ -53,7 +53,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: quality-standards
 tags:

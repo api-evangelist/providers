@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 0
@@ -116,8 +116,86 @@ apis:
 - description: The users API from CloudQuery — 11 operation(s) for users.
   name: CloudQuery users API
   slug: cloudquery-users-api
-artifact_total: 32
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin API
+  slug: open-cloudquery-admin-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin alerts API
+  slug: open-cloudquery-alerts-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin api-keys API
+  slug: open-cloudquery-api-keys-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin apps API
+  slug: open-cloudquery-apps-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin audit-logs API
+  slug: open-cloudquery-audit-logs-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin chat API
+  slug: open-cloudquery-chat-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin custom-columns API
+  slug: open-cloudquery-custom-columns-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin filters API
+  slug: open-cloudquery-filters-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin healthcheck API
+  slug: open-cloudquery-healthcheck-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin insights API
+  slug: open-cloudquery-insights-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin notifications API
+  slug: open-cloudquery-notifications-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin onboardings API
+  slug: open-cloudquery-onboardings-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin Openapi.json API
+  slug: open-cloudquery-openapi-json-api
+- collection_type: open
+  name: CloudQuery OpenAPI Spec admin platform API
+  slug: open-cloudquery-platform-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin plugins API
+  slug: open-cloudquery-plugins-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin policies API
+  slug: open-cloudquery-policies-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin queries API
+  slug: open-cloudquery-queries-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin rbac API
+  slug: open-cloudquery-rbac-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin reports API
+  slug: open-cloudquery-reports-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin sync-integrations API
+  slug: open-cloudquery-sync-integrations-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin syncs API
+  slug: open-cloudquery-syncs-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin tables API
+  slug: open-cloudquery-tables-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin teams API
+  slug: open-cloudquery-teams-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin usage API
+  slug: open-cloudquery-usage-api
+- collection_type: open
+  name: CloudQuery Platform OpenAPI Spec admin users API
+  slug: open-cloudquery-users-api
 - collection_type: open
   name: CloudQuery Platform OpenAPI Spec
   slug: open-cloudquery
@@ -182,7 +260,7 @@ overview: 'CloudQuery publishes 25 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CloudQuery''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 21
+random_paper: 58
 score:
   band: thin
   composite: 31.9
@@ -203,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/screenshots/cloudquery-2026-06-20T174617.png
 security:

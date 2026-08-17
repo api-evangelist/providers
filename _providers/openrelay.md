@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 19
 apis:
 - description: 'OpenAI-compatible chat completions API (POST /v1/chat/completions) and, for supporting models, an Anthropic-compatible Messages API (POST /v1/messages). Drop-in: point the official OpenAI SDKs at the '
@@ -88,11 +88,69 @@ apis:
 - description: Subscribe to platform events with signed HTTP callbacks.
   name: OpenRelay Webhooks API
   slug: openrelay-webhooks-api
-artifact_total: 24
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Openrelay Webhooks
   slug: openrelay-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenRelay Account API
+  slug: open-openrelay-account-api
+- collection_type: open
+  name: OpenRelay Account API Keys API
+  slug: open-openrelay-api-keys-api
+- collection_type: open
+  name: OpenRelay Account Batches API
+  slug: open-openrelay-batches-api
+- collection_type: open
+  name: OpenRelay Account Billing API
+  slug: open-openrelay-billing-api
+- collection_type: open
+  name: OpenRelay Account Catalog API
+  slug: open-openrelay-catalog-api
+- collection_type: open
+  name: OpenRelay Account Clusters API
+  slug: open-openrelay-clusters-api
+- collection_type: open
+  name: OpenRelay Account Files API
+  slug: open-openrelay-files-api
+- collection_type: open
+  name: OpenRelay Account Internal API
+  slug: open-openrelay-internal-api
+- collection_type: open
+  name: OpenRelay Account Organizations API
+  slug: open-openrelay-organizations-api
+- collection_type: open
+  name: OpenRelay Account Provider API
+  slug: open-openrelay-provider-api
+- collection_type: open
+  name: OpenRelay Account Registry Credentials API
+  slug: open-openrelay-registry-credentials-api
+- collection_type: open
+  name: OpenRelay Account Runners API
+  slug: open-openrelay-runners-api
+- collection_type: open
+  name: OpenRelay Account Snapshots API
+  slug: open-openrelay-snapshots-api
+- collection_type: open
+  name: OpenRelay Account SSH Keys API
+  slug: open-openrelay-ssh-keys-api
+- collection_type: open
+  name: OpenRelay Account Transfers API
+  slug: open-openrelay-transfers-api
+- collection_type: open
+  name: OpenRelay Account Usage API
+  slug: open-openrelay-usage-api
+- collection_type: open
+  name: OpenRelay Account VMs API
+  slug: open-openrelay-vms-api
+- collection_type: open
+  name: OpenRelay Account Webhooks API
+  slug: open-openrelay-webhooks-api
 common:
 - group: other
   title: ''
@@ -237,7 +295,7 @@ overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   OpenRelay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 15
+random_paper: 81
 score:
   band: strong
   composite: 56.7
@@ -260,7 +318,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/screenshots/openrelay-2026-08-07T190635.png
 security:

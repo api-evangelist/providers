@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -72,8 +72,41 @@ apis:
 - description: The Volumes API from Vast.ai — 4 operation(s) for volumes.
   name: Vast.ai Volumes API
   slug: vast-ai-volumes-api
-artifact_total: 28
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vast.ai Accounts API
+  slug: open-vast-ai-accounts-api
+- collection_type: open
+  name: Vast.ai Accounts Billing API
+  slug: open-vast-ai-billing-api
+- collection_type: open
+  name: Vast.ai Accounts Instances API
+  slug: open-vast-ai-instances-api
+- collection_type: open
+  name: Vast.ai Accounts Machines API
+  slug: open-vast-ai-machines-api
+- collection_type: open
+  name: Vast.ai Accounts Network Volumes API
+  slug: open-vast-ai-network-volumes-api
+- collection_type: open
+  name: Vast.ai Accounts Search API
+  slug: open-vast-ai-search-api
+- collection_type: open
+  name: Vast.ai Accounts Serverless API
+  slug: open-vast-ai-serverless-api
+- collection_type: open
+  name: Vast.ai Accounts Team API
+  slug: open-vast-ai-team-api
+- collection_type: open
+  name: Vast.ai Accounts Templates API
+  slug: open-vast-ai-templates-api
+- collection_type: open
+  name: Vast.ai Accounts Volumes API
+  slug: open-vast-ai-volumes-api
 - collection_type: open
   name: Vast.ai API
   slug: open-vast-ai
@@ -208,7 +241,7 @@ plans:
 - name: Vast Ai Plans Pricing
   plan_count: 1
   slug: vast-ai-plans-pricing
-random_paper: 93
+random_paper: 97
 rate_limits:
 - limit_count: 2
   name: Vast Ai Rate Limits
@@ -233,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/screenshots/vast-ai-2026-06-20T200827.png
 security:

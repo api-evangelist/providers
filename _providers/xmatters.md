@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -71,8 +71,41 @@ apis:
 - description: The Shifts API from xMatters — 1 operation(s) for shifts.
   name: xMatters Shifts API
   slug: xmatters-shifts-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: xMatters REST Devices API
+  slug: open-xmatters-devices-api
+- collection_type: open
+  name: xMatters REST Devices Events API
+  slug: open-xmatters-events-api
+- collection_type: open
+  name: xMatters REST Devices Groups API
+  slug: open-xmatters-groups-api
+- collection_type: open
+  name: xMatters REST Devices Integrations API
+  slug: open-xmatters-integrations-api
+- collection_type: open
+  name: xMatters REST Devices OnCall API
+  slug: open-xmatters-oncall-api
+- collection_type: open
+  name: xMatters REST Devices People API
+  slug: open-xmatters-people-api
+- collection_type: open
+  name: xMatters REST Devices Plans API
+  slug: open-xmatters-plans-api
+- collection_type: open
+  name: xMatters REST Devices Scenarios API
+  slug: open-xmatters-scenarios-api
+- collection_type: open
+  name: xMatters REST Devices Services API
+  slug: open-xmatters-services-api
+- collection_type: open
+  name: xMatters REST Devices Shifts API
+  slug: open-xmatters-shifts-api
 - collection_type: open
   name: xMatters REST API
   slug: open-xmatters
@@ -153,7 +186,7 @@ overview: 'xMatters publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   xMatters'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 48
+random_paper: 143
 scopes:
 - name: Xmatters Scopes
   scope_count: 0
@@ -179,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/screenshots/xmatters-2026-06-20T201707.png
 security:

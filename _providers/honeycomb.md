@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -105,36 +105,84 @@ apis:
 - description: Visualize relationships between services using dependency requests.
   name: honeycomb Service Maps API
   slug: honeycomb-service-maps-api
-artifact_total: 112
+artifact_total: 128
 asyncapis:
 - description: 'AsyncAPI description of Honeycomb''s event-driven and streaming-style surfaces. Honeycomb does not publish a long-lived bidirectional streaming API (no public Kafka topic, no WebSocket, no Server-Sent '
   name: Honeycomb Streaming, OTLP Ingest & Trigger Webhooks
   slug: honeycomb-streaming-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Honeycomb API
   slug: open-honeycomb-api
 - collection_type: open
-  name: Honeycomb Boards API
+  name: Honeycomb Auth API
+  slug: open-honeycomb-auth-api
+- collection_type: open
+  name: Honeycomb Auth Boards API
   slug: open-honeycomb-boards-api
 - collection_type: open
-  name: Honeycomb Datasets API
+  name: Honeycomb Auth Burn Alerts API
+  slug: open-honeycomb-burn-alerts-api
+- collection_type: open
+  name: Honeycomb Auth Calculated Fields API
+  slug: open-honeycomb-calculated-fields-api
+- collection_type: open
+  name: Honeycomb Auth Columns API
+  slug: open-honeycomb-columns-api
+- collection_type: open
+  name: Honeycomb Auth Dataset Definitions API
+  slug: open-honeycomb-dataset-definitions-api
+- collection_type: open
+  name: Honeycomb Auth Datasets API
   slug: open-honeycomb-datasets-api
 - collection_type: open
-  name: Honeycomb Environments API
+  name: Honeycomb Auth Environments API
   slug: open-honeycomb-environments-api
 - collection_type: open
-  name: Honeycomb Events API
+  name: Honeycomb Auth Events API
   slug: open-honeycomb-events-api
 - collection_type: open
-  name: Honeycomb Markers API
+  name: Honeycomb Auth Key Management API
+  slug: open-honeycomb-key-management-api
+- collection_type: open
+  name: Honeycomb Auth Kinesis Events API
+  slug: open-honeycomb-kinesis-events-api
+- collection_type: open
+  name: Honeycomb Auth Marker Settings API
+  slug: open-honeycomb-marker-settings-api
+- collection_type: open
+  name: Honeycomb Auth Markers API
   slug: open-honeycomb-markers-api
 - collection_type: open
-  name: Honeycomb Queries API
+  name: Honeycomb Auth Queries API
   slug: open-honeycomb-queries-api
 - collection_type: open
-  name: Honeycomb SLOs API
+  name: Honeycomb Auth Query Annotations API
+  slug: open-honeycomb-query-annotations-api
+- collection_type: open
+  name: Honeycomb Auth Query Data API
+  slug: open-honeycomb-query-data-api
+- collection_type: open
+  name: Honeycomb Auth Query Results API
+  slug: open-honeycomb-query-results-api
+- collection_type: open
+  name: Honeycomb Auth Recipients API
+  slug: open-honeycomb-recipients-api
+- collection_type: open
+  name: Honeycomb Auth Reporting API
+  slug: open-honeycomb-reporting-api
+- collection_type: open
+  name: Honeycomb Auth Service Maps API
+  slug: open-honeycomb-service-maps-api
+- collection_type: open
+  name: Honeycomb Auth SLOs API
   slug: open-honeycomb-slos-api
+- collection_type: open
+  name: Honeycomb Auth Triggers API
+  slug: open-honeycomb-triggers-api
 common:
 - group: agent
   title: ''
@@ -395,7 +443,7 @@ plans:
 - name: Honeycomb Plans Pricing
   plan_count: 3
   slug: honeycomb-plans-pricing
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Honeycomb Rate Limits
@@ -437,7 +485,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/screenshots/honeycomb-2026-06-20T182822.png
 security:

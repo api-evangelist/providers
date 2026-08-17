@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Look up enriched third-party music metadata.
   name: ACRCloud Metadata API
   slug: acrcloud-metadata-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ACRCloud Audio Files API
+  slug: open-acrcloud-audio-files-api
+- collection_type: open
+  name: ACRCloud Audio Files Broadcast Monitoring API
+  slug: open-acrcloud-broadcast-monitoring-api
+- collection_type: open
+  name: ACRCloud Audio Files Buckets API
+  slug: open-acrcloud-buckets-api
+- collection_type: open
+  name: ACRCloud Audio Files File Scanning API
+  slug: open-acrcloud-file-scanning-api
+- collection_type: open
+  name: ACRCloud Audio Files Identification API
+  slug: open-acrcloud-identification-api
+- collection_type: open
+  name: ACRCloud Audio Files Metadata API
+  slug: open-acrcloud-metadata-api
 - collection_type: open
   name: ACRCloud API
   slug: open-acrcloud
@@ -127,7 +148,7 @@ plans:
 - name: Acrcloud Plans Pricing
   plan_count: 5
   slug: acrcloud-plans-pricing
-random_paper: 5
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Acrcloud Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/screenshots/acrcloud-2026-07-25T181514.png
 security:

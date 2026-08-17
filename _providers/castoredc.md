@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Users and study membership.
   name: Castor Users API
   slug: castoredc-users-api
-artifact_total: 20
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail API
+  slug: open-castoredc-audit-trail-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Data Export API
+  slug: open-castoredc-data-export-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Fields API
+  slug: open-castoredc-fields-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Institutes API
+  slug: open-castoredc-institutes-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Metadata API
+  slug: open-castoredc-metadata-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Participants API
+  slug: open-castoredc-participants-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Reports API
+  slug: open-castoredc-reports-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Studies API
+  slug: open-castoredc-studies-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Study Data Points API
+  slug: open-castoredc-study-data-points-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Surveys API
+  slug: open-castoredc-surveys-api
+- collection_type: open
+  name: Castor EDC / CDMS Audit Trail Users API
+  slug: open-castoredc-users-api
 - collection_type: open
   name: Castor EDC / CDMS API
   slug: open-castoredc
@@ -146,7 +182,7 @@ plans:
 - name: Castoredc Plans Pricing
   plan_count: 3
   slug: castoredc-plans-pricing
-random_paper: 112
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Castoredc Rate Limits
@@ -182,7 +218,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/screenshots/castoredc-2026-07-25T204743.png
 security:

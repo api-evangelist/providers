@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,8 +56,29 @@ apis:
 - description: Track metadata lookup by ReccoBeats or Spotify ID.
   name: ReccoBeats Track API
   slug: reccobeats-track-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ReccoBeats Album API
+  slug: open-reccobeats-album-api
+- collection_type: open
+  name: ReccoBeats Album Artist API
+  slug: open-reccobeats-artist-api
+- collection_type: open
+  name: ReccoBeats Album Audio Analysis API
+  slug: open-reccobeats-audio-analysis-api
+- collection_type: open
+  name: ReccoBeats Album Audio Features API
+  slug: open-reccobeats-audio-features-api
+- collection_type: open
+  name: ReccoBeats Album Recommendation API
+  slug: open-reccobeats-recommendation-api
+- collection_type: open
+  name: ReccoBeats Album Track API
+  slug: open-reccobeats-track-api
 - collection_type: open
   name: ReccoBeats API
   slug: open-reccobeats
@@ -114,7 +135,7 @@ plans:
 - name: Reccobeats Plans Pricing
   plan_count: 1
   slug: reccobeats-plans-pricing
-random_paper: 91
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Reccobeats Rate Limits
@@ -139,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

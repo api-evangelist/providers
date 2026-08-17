@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Webhooks API from Synthesia — 2 operation(s) for webhooks.
   name: Synthesia Webhooks API
   slug: synthesia-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Synthesia Assets API
+  slug: open-synthesia-assets-api
+- collection_type: open
+  name: Synthesia Assets AuditLogs API
+  slug: open-synthesia-auditlogs-api
+- collection_type: open
+  name: Synthesia Assets Dubbing API
+  slug: open-synthesia-dubbing-api
+- collection_type: open
+  name: Synthesia Assets Templates API
+  slug: open-synthesia-templates-api
+- collection_type: open
+  name: Synthesia Assets Translations API
+  slug: open-synthesia-translations-api
+- collection_type: open
+  name: Synthesia Assets Videos API
+  slug: open-synthesia-videos-api
+- collection_type: open
+  name: Synthesia Assets Webhooks API
+  slug: open-synthesia-webhooks-api
 - collection_type: open
   name: Synthesia API
   slug: open-synthesia
@@ -134,7 +158,7 @@ plans:
 - name: Synthesia Plans Pricing
   plan_count: 1
   slug: synthesia-plans-pricing
-random_paper: 24
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Synthesia Rate Limits
@@ -159,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/screenshots/synthesia-2026-06-20T194840.png
 security:

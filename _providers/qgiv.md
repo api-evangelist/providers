@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Confirmed. Read-only reporting on donation transactions.
   name: Qgiv Transactions API
   slug: qgiv-transactions-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qgiv Account Settings API
+  slug: open-qgiv-account-settings-api
+- collection_type: open
+  name: Qgiv Account Settings Custom Amounts API
+  slug: open-qgiv-custom-amounts-api
+- collection_type: open
+  name: Qgiv Account Settings Custom Fields API
+  slug: open-qgiv-custom-fields-api
+- collection_type: open
+  name: Qgiv Account Settings Events API
+  slug: open-qgiv-events-api
+- collection_type: open
+  name: Qgiv Account Settings Mappings API
+  slug: open-qgiv-mappings-api
+- collection_type: open
+  name: Qgiv Account Settings Recurring API
+  slug: open-qgiv-recurring-api
+- collection_type: open
+  name: Qgiv Account Settings Refunds API
+  slug: open-qgiv-refunds-api
+- collection_type: open
+  name: Qgiv Account Settings Registrations API
+  slug: open-qgiv-registrations-api
+- collection_type: open
+  name: Qgiv Account Settings Statements API
+  slug: open-qgiv-statements-api
+- collection_type: open
+  name: Qgiv Account Settings Transactions API
+  slug: open-qgiv-transactions-api
 - collection_type: open
   name: Qgiv API
   slug: open-qgiv
@@ -139,7 +172,7 @@ plans:
 - name: Qgiv Plans Pricing
   plan_count: 4
   slug: qgiv-plans-pricing
-random_paper: 79
+random_paper: 141
 rate_limits:
 - limit_count: 3
   name: Qgiv Rate Limits
@@ -170,7 +203,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

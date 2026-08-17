@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -75,11 +75,32 @@ apis:
 - description: Manage task execution schedules.
   name: Informatica Schedules API
   slug: informatica-schedules-api
-artifact_total: 144
+artifact_total: 151
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Informatica IICS Platform REST Authentication API
+  slug: open-informatica-authentication-api
+- collection_type: open
+  name: Informatica IICS Platform REST Authentication Connections API
+  slug: open-informatica-connections-api
+- collection_type: open
+  name: Informatica IICS Platform REST Authentication Jobs API
+  slug: open-informatica-jobs-api
+- collection_type: open
+  name: Informatica IICS Platform REST Authentication Mapping Tasks API
+  slug: open-informatica-mapping-tasks-api
+- collection_type: open
+  name: Informatica IICS Platform REST Authentication Mappings API
+  slug: open-informatica-mappings-api
 - collection_type: open
   name: Informatica IICS Platform REST API
   slug: open-informatica-platform-rest-api
+- collection_type: open
+  name: Informatica IICS Platform REST Authentication Schedules API
+  slug: open-informatica-schedules-api
 common:
 - group: agent
   title: ''
@@ -506,7 +527,7 @@ plans:
 - name: Informatica Plans Pricing
   plan_count: 3
   slug: informatica-plans-pricing
-random_paper: 85
+random_paper: 122
 rate_limits:
 - limit_count: 2
   name: Informatica Rate Limits
@@ -548,7 +569,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/screenshots/informatica-2026-06-20T183340.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: D-1 investor data for authorized fintechs and custodians - investment positions, account transactions, listed-asset buy/sell activity, public offering participation, and provisioned corporate events -
@@ -60,7 +60,50 @@ apis:
 - description: End-of-day and reference data service covering fixed income, equities, currencies, and debentures for mark-to-market, risk, and pricing workflows - standardized files in TXT, CSV, JSON, or XML deliver
   name: B3 UP2DATA
   slug: b3-up2data
-artifact_total: 15
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-auth-client-credentials
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-auth-ropc
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-banco-b3-custody
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-banco-b3-settlement
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-core-calculation
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-insurance-claim
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-investor-position
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-investor-transactions
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-isin
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-otc-public-info
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-securities-lending
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-tesouro-direto-bonds
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-tesouro-direto-orders
+- collection_type: open
+  name: API Collection
+  slug: open-b3-exchange-tesouro-direto-positions
 common:
 - group: auth
   title: ''
@@ -190,7 +233,7 @@ overview: 'B3 (Brasil Bolsa Balcão) publishes 8 APIs on the [APIs.io](https://a
 
 
   B3 (Brasil Bolsa Balcão)''s developer surface includes developer portal, documentation, support, authentication, sandbox, changelog, API reference, and 21 more developer resources.'
-random_paper: 69
+random_paper: 135
 scopes:
 - name: B3 Exchange Scopes
   scope_count: 2
@@ -219,7 +262,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
 security:

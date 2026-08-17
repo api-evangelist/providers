@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -29,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-12'
+  score: 55.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -287,7 +287,7 @@ arazzos:
 - description: Upsert contacts asynchronously and branch on whether they can be confirmed yet.
   name: SendGrid Upsert Contacts and Confirm
   slug: sendgrid-upsert-contacts-confirm-workflow
-artifact_total: 156
+artifact_total: 221
 asyncapis:
 - description: The SendGrid Event Webhook delivers near real-time event data about your email activity via HTTP POST requests. SendGrid batches events into arrays and sends them to your configured webhook URL. Event
   name: SendGrid Event Webhook
@@ -428,6 +428,198 @@ collections:
 - collection_type: postman
   name: Twilio SendGrid Webhook Configuration API
   slug: postman-tsg_webhooks_v3
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account API
+  slug: open-sendgrid-account-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Account State API
+  slug: open-sendgrid-account-state-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Alerts API
+  slug: open-sendgrid-alerts-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account API Keys API
+  slug: open-sendgrid-api-keys-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Blocks API
+  slug: open-sendgrid-blocks-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Bounces API
+  slug: open-sendgrid-bounces-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Bulk Email Address Validation API
+  slug: open-sendgrid-bulk-email-address-validation-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Campaigns API API
+  slug: open-sendgrid-campaigns-api-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Categories API
+  slug: open-sendgrid-categories-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Contacts API
+  slug: open-sendgrid-contacts-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Custom Fields API
+  slug: open-sendgrid-custom-fields-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Designs API
+  slug: open-sendgrid-designs-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Domain Authentication API
+  slug: open-sendgrid-domain-authentication-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Email Activity API
+  slug: open-sendgrid-email-activity-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Email Address Validation API
+  slug: open-sendgrid-email-address-validation-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Enforced TLS API
+  slug: open-sendgrid-enforced-tls-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Engagement Quality API
+  slug: open-sendgrid-engagement-quality-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Event Webhook API
+  slug: open-sendgrid-event-webhook-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account External Integration Endpoints API
+  slug: open-sendgrid-external-integration-endpoints-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Global Suppressions API
+  slug: open-sendgrid-global-suppressions-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Invalid Emails API
+  slug: open-sendgrid-invalid-emails-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account IP Access Management API
+  slug: open-sendgrid-ip-access-management-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account IP Address Management API
+  slug: open-sendgrid-ip-address-management-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account IP Addresses API
+  slug: open-sendgrid-ip-addresses-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account IP Pools API
+  slug: open-sendgrid-ip-pools-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account IP Warmup API
+  slug: open-sendgrid-ip-warmup-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Link Branding API
+  slug: open-sendgrid-link-branding-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Lists API
+  slug: open-sendgrid-lists-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Mail Batch API
+  slug: open-sendgrid-mail-batch-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Mail Send API
+  slug: open-sendgrid-mail-send-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Mail Settings API
+  slug: open-sendgrid-mail-settings-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Offering API
+  slug: open-sendgrid-offering-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Parse Webhook API
+  slug: open-sendgrid-parse-webhook-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Partner Settings API
+  slug: open-sendgrid-partner-settings-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Point Delete System API
+  slug: open-sendgrid-point-delete-system-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Recipients API
+  slug: open-sendgrid-recipients-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Reverse DNS API
+  slug: open-sendgrid-reverse-dns-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Scheduled Sends API
+  slug: open-sendgrid-scheduled-sends-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Scopes API
+  slug: open-sendgrid-scopes-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Segmenting Contacts API
+  slug: open-sendgrid-segmenting-contacts-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Segmenting Contacts V2 API
+  slug: open-sendgrid-segmenting-contacts-v2-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Segments API
+  slug: open-sendgrid-segments-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Send Test Email API
+  slug: open-sendgrid-send-test-email-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Sender Identities API
+  slug: open-sendgrid-sender-identities-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Sender Verification API
+  slug: open-sendgrid-sender-verification-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Senders API
+  slug: open-sendgrid-senders-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Single Sends API
+  slug: open-sendgrid-single-sends-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Spam Reports API
+  slug: open-sendgrid-spam-reports-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account SSO Certificates API
+  slug: open-sendgrid-sso-certificates-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account SSO Settings API
+  slug: open-sendgrid-sso-settings-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account SSO Teammates API
+  slug: open-sendgrid-sso-teammates-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Stats API
+  slug: open-sendgrid-stats-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Subuser Statistics API
+  slug: open-sendgrid-subuser-statistics-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Subuser Website Access API
+  slug: open-sendgrid-subuser-website-access-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Subusers API
+  slug: open-sendgrid-subusers-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Suppressions API
+  slug: open-sendgrid-suppressions-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Teammates API
+  slug: open-sendgrid-teammates-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Templates API
+  slug: open-sendgrid-templates-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Templates Versions API
+  slug: open-sendgrid-templates-versions-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Tracking API
+  slug: open-sendgrid-tracking-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Unsubscribe Groups API
+  slug: open-sendgrid-unsubscribe-groups-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Users API API
+  slug: open-sendgrid-users-api-api
+- collection_type: open
+  name: Twilio SendGrid Provisioning Account Webhook Security API
+  slug: open-sendgrid-webhook-security-api
 common:
 - group: other
   title: ''
@@ -437,10 +629,6 @@ common:
   title: ''
   type: Packages
   url: packages/sendgrid-packages.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/sendgrid-well-known.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -701,8 +889,104 @@ common:
   title: ''
   type: X (Twitter)
   url: https://x.com/sendgrid
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sendgrid-email-send.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sendgrid-webhooks.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sendgrid-suppressions.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sendgrid-account-setup.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sendgrid-email-settings.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sendgrid-engagement-quality.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sendgrid-inbound-parse.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sendgrid-deliverability-advisor.md
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/sendgrid-tool-crosswalk.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/sendgrid-event-webhook-asyncapi.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/sendgrid-inbound-parse-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/sendgrid-event-webhook-asyncapi.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/sendgrid-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sendgrid-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sendgrid-rate-limits.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/sendgrid-packages.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/sendgrid-lifecycle.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/sendgrid-trust-center.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/sendgrid-finops.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/sendgrid-spectral-rules.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/sendgrid-asyncapi-spectral-rules.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/sendgrid
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sendgrid-twilio-docs-llms.txt
 created: '2025-08-14'
-description: SendGrid is a cloud-based email delivery platform that provides reliable transactional and marketing email services.
+description: SendGrid is a cloud-based email delivery platform, acquired by Twilio in 2019, that provides transactional and marketing email at scale over an HTTP v3 REST API and an SMTP relay. The platform spans Mail Send, dynamic transactional templates, Marketing Campaigns (contacts, lists, Segments 2.0, Single Sends), email address validation, suppression management, domain authentication (SPF/DKIM/DMARC), dedicated IP management and warm-up, subusers, Engagement Quality scoring, and detailed delivery statistics. Event data is delivered asynchronously through the Event Webhook and inbound mail through Inbound Parse. All APIs authenticate with a scoped bearer API key against api.sendgrid.com, with an EU data-residency host at api.eu.sendgrid.com. Developer documentation and the API reference are published on the Twilio documentation site.
 features:
 - Mail Send v3 API for transactional email
 - SMTP Relay for legacy app integration
@@ -734,7 +1018,7 @@ mcp_servers:
 - description: ''
   name: sendgrid-mcp.yml
   slug: sendgrid-mcpyml
-modified: '2026-06-20'
+modified: '2026-08-13'
 name: SendGrid
 nav: Providers
 network: true
@@ -744,14 +1028,14 @@ overview: 'SendGrid publishes 63 APIs on the [APIs.io](https://apis.io/) network
   The SendGrid catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 2 Spectral governance rulesets.
 
 
-  SendGrid''s developer surface includes changelog, sandbox, authentication, developer portal, documentation, API reference, getting-started guide, and 61 more developer resources.'
+  SendGrid''s developer surface includes changelog, sandbox, authentication, developer portal, documentation, API reference, getting-started guide, and 84 more developer resources.'
 plans:
 - name: Sendgrid Plans Pricing
   plan_count: 4
   slug: sendgrid-plans-pricing
-random_paper: 8
+random_paper: 103
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Sendgrid Rate Limits
   slug: sendgrid-rate-limits
 rules:
@@ -771,17 +1055,22 @@ rules:
     info: 0
     warn: 9
   slug: sendgrid-spectral-rules
+scopes:
+- name: Sendgrid Scopes
+  scope_count: 0
+  slug: sendgrid-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 67.5
-  delta: 0.0
+  composite: 73.2
+  delta: 5.7
   facets:
-    commercial_clarity: 68.4
+    commercial_clarity: 76.3
     contract_quality: 73.6
-    developer_ergonomics: 80.4
-    discoverability: 57.4
+    developer_ergonomics: 87.0
+    discoverability: 75.9
     governance: 53.1
-    operational_transparency: 55.3
+    operational_transparency: 63.2
   previous_composite: 67.5
   provenance:
     agentic_access: derived
@@ -793,8 +1082,8 @@ score:
       total: 63
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:
 - kind: authentication

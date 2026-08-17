@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 55.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,7 +67,38 @@ apis:
 - description: The SEO Research API API from SpyFu — 17 operation(s) for seo research api.
   name: SpyFu SEO Research API API
   slug: spyfu-seo-research-api-api
-artifact_total: 36
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Account Account API API
+  slug: open-spyfu-account-api-api
+- collection_type: open
+  name: Account Account API Ad History Research API API
+  slug: open-spyfu-ad-history-research-api-api
+- collection_type: open
+  name: Account Account API Competitors API API
+  slug: open-spyfu-competitors-api-api
+- collection_type: open
+  name: Account Account API Domain Stats API API
+  slug: open-spyfu-domain-stats-api-api
+- collection_type: open
+  name: Account Account API Keyword Research API API
+  slug: open-spyfu-keyword-research-api-api
+- collection_type: open
+  name: Account Account API Kombat API API
+  slug: open-spyfu-kombat-api-api
+- collection_type: open
+  name: Account Account API PPC Research API API
+  slug: open-spyfu-ppc-research-api-api
+- collection_type: open
+  name: Account Account API Ranking History API API
+  slug: open-spyfu-ranking-history-api-api
+- collection_type: open
+  name: Account Account API SEO Research API API
+  slug: open-spyfu-seo-research-api-api
 common:
 - group: agent
   title: ''
@@ -120,6 +152,102 @@ common:
   title: ''
   type: FinOps
   url: finops/spyfu-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/spyfu-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/spyfu-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/spyfu-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/spyfu-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/spyfu-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/spyfu-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/spyfu-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/spyfu-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/spyfu-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/spyfu-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/spyfu-changelog.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/spyfu-vocabulary.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/spyfu-jsonschema-spectral-rules.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/spyfu-context.jsonld
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.spyfu.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.spyfu.com/reference
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://help.spyfu.com/en/articles/5640863-what-s-new-on-spyfu
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.spyfu.com/en/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.spyfu.com/termsconditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.spyfu.com/privacypolicy
+- group: start
+  title: ''
+  type: Login
+  url: https://www.spyfu.com/login
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/spyfu
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/spyfu/spyfu_api_docs
 created: 2026-06-13
 description: SpyFu is a competitive SEO and PPC intelligence platform that gives marketers and agencies programmatic access to competitor keyword rankings, ad history, backlinks, and domain performance data. The REST API covers eight research domains — Domain Stats, Ad History, PPC Research, SEO Research, Competitors, Kombat, Keyword Research, and Ranking History — and is indexed against 1.6 trillion search results, 8 billion keywords, and 152 million domains.
 examples:
@@ -192,7 +320,11 @@ jsonld:
   property_count: 23
   slug: spyfu-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: spyfu-mcp.yml
+  slug: spyfu-mcpyml
+modified: 2026-08-13
 name: SpyFu
 nav: Providers
 network: true
@@ -202,14 +334,14 @@ overview: 'SpyFu publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
   The SpyFu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SpyFu''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  SpyFu''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, support, and 30 more developer resources.'
 plans:
 - name: Spyfu Plans Pricing
   plan_count: 3
   slug: spyfu-plans-pricing
-random_paper: 87
+random_paper: 120
 rate_limits:
-- limit_count: 8
+- limit_count: 9
   name: Spyfu Rate Limits
   slug: spyfu-rate-limits
 rules:
@@ -222,16 +354,16 @@ rules:
     warn: 3
   slug: spyfu-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.8
-  delta: 0.0
+  band: exemplar
+  composite: 71.2
+  delta: 21.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.9
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    commercial_clarity: 84.2
+    contract_quality: 69.4
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 52.6
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -241,8 +373,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/screenshots/spyfu-2026-06-20T194429.png
 security:
 - kind: authentication

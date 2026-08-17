@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: Create, poll, and download programmatic visual generations.
   name: Napkin Visuals API
   slug: napkin-visuals-api
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Napkin Visuals API
+  slug: open-napkin-visuals-api
 common:
 - group: other
   title: ''
@@ -179,7 +186,7 @@ overview: 'Napkin publishes 1 API on the [APIs.io](https://apis.io/) network: Vi
 
 
   Napkin''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 41
+random_paper: 45
 scopes:
 - name: Napkin Scopes
   scope_count: 2
@@ -208,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/screenshots/napkin-2026-08-07T184622.png
 security:

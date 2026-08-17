@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 12
@@ -148,7 +148,7 @@ arazzos:
 - description: Stop a running sandbox, wait until it is fully stopped, then archive it to cold storage.
   name: Daytona Stop and Archive a Sandbox
   slug: daytona-io-stop-and-archive-sandbox-workflow
-artifact_total: 124
+artifact_total: 152
 collections:
 - collection_type: postman
   name: Daytona Admin API
@@ -187,6 +187,9 @@ collections:
   name: Daytona Webhooks API
   slug: postman-daytona-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Daytona Admin API
   slug: open-daytona-admin-api
 - collection_type: open
@@ -195,6 +198,87 @@ collections:
 - collection_type: open
   name: Daytona Health API
   slug: open-daytona-health-api
+- collection_type: open
+  name: Daytona admin API
+  slug: open-daytona-io-admin-api
+- collection_type: open
+  name: Daytona admin api-keys API
+  slug: open-daytona-io-api-keys-api
+- collection_type: open
+  name: Daytona admin audit API
+  slug: open-daytona-io-audit-api
+- collection_type: open
+  name: Daytona admin computer-use API
+  slug: open-daytona-io-computer-use-api
+- collection_type: open
+  name: Daytona admin config API
+  slug: open-daytona-io-config-api
+- collection_type: open
+  name: Daytona admin docker-registry API
+  slug: open-daytona-io-docker-registry-api
+- collection_type: open
+  name: Daytona admin file-system API
+  slug: open-daytona-io-file-system-api
+- collection_type: open
+  name: Daytona admin git API
+  slug: open-daytona-io-git-api
+- collection_type: open
+  name: Daytona admin Health API
+  slug: open-daytona-io-health-api
+- collection_type: open
+  name: Daytona admin info API
+  slug: open-daytona-io-info-api
+- collection_type: open
+  name: Daytona admin interpreter API
+  slug: open-daytona-io-interpreter-api
+- collection_type: open
+  name: Daytona admin jobs API
+  slug: open-daytona-io-jobs-api
+- collection_type: open
+  name: Daytona admin lsp API
+  slug: open-daytona-io-lsp-api
+- collection_type: open
+  name: Daytona admin object-storage API
+  slug: open-daytona-io-object-storage-api
+- collection_type: open
+  name: Daytona admin organizations API
+  slug: open-daytona-io-organizations-api
+- collection_type: open
+  name: Daytona admin port API
+  slug: open-daytona-io-port-api
+- collection_type: open
+  name: Daytona admin process API
+  slug: open-daytona-io-process-api
+- collection_type: open
+  name: Daytona admin regions API
+  slug: open-daytona-io-regions-api
+- collection_type: open
+  name: Daytona admin runners API
+  slug: open-daytona-io-runners-api
+- collection_type: open
+  name: Daytona admin sandbox API
+  slug: open-daytona-io-sandbox-api
+- collection_type: open
+  name: Daytona admin server API
+  slug: open-daytona-io-server-api
+- collection_type: open
+  name: Daytona admin snapshots API
+  slug: open-daytona-io-snapshots-api
+- collection_type: open
+  name: Daytona admin toolbox API
+  slug: open-daytona-io-toolbox-api
+- collection_type: open
+  name: Daytona admin users API
+  slug: open-daytona-io-users-api
+- collection_type: open
+  name: Daytona admin volumes API
+  slug: open-daytona-io-volumes-api
+- collection_type: open
+  name: Daytona admin webhooks API
+  slug: open-daytona-io-webhooks-api
+- collection_type: open
+  name: Daytona admin workspace API
+  slug: open-daytona-io-workspace-api
 - collection_type: open
   name: Daytona Organizations API
   slug: open-daytona-organizations-api
@@ -574,7 +658,7 @@ plans:
 - name: Daytona Io Plans Pricing
   plan_count: 4
   slug: daytona-io-plans-pricing
-random_paper: 53
+random_paper: 119
 rate_limits:
 - limit_count: 0
   name: Daytona Io Rate Limits
@@ -616,7 +700,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/screenshots/daytona-io-2026-06-20T175734.png
 security:

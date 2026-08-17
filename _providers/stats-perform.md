@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +60,35 @@ apis:
 - description: Retrieve team rosters, statistics, and metadata for all supported sports and leagues.
   name: Stats Perform Teams API
   slug: stats-perform-teams-api
-artifact_total: 22
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stats Perform STATS Editorial API
+  slug: open-stats-perform-editorial-api
+- collection_type: open
+  name: Stats Perform STATS Editorial Events API
+  slug: open-stats-perform-events-api
+- collection_type: open
+  name: Stats Perform STATS Editorial Players API
+  slug: open-stats-perform-players-api
+- collection_type: open
+  name: Stats Perform STATS Editorial Reference Data API
+  slug: open-stats-perform-reference-data-api
+- collection_type: open
+  name: Stats Perform STATS Editorial Standings API
+  slug: open-stats-perform-standings-api
+- collection_type: open
+  name: Stats Perform STATS Editorial Statistics API
+  slug: open-stats-perform-statistics-api
 - collection_type: open
   name: Stats Perform STATS API
   slug: open-stats-perform-stats-api
+- collection_type: open
+  name: Stats Perform STATS Editorial Teams API
+  slug: open-stats-perform-teams-api
 common:
 - group: agent
   title: ''
@@ -176,7 +200,7 @@ plans:
 - name: Stats Perform Plans Pricing
   plan_count: 3
   slug: stats-perform-plans-pricing
-random_paper: 47
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Stats Perform Rate Limits
@@ -218,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/screenshots/stats-perform-2026-06-20T194526.png
 security:

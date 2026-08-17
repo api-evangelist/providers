@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Enterprise, contact sales
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - authentication
+  - https://www.storyclash.com/pricing
+  - https://www.storyclash.com/integrations/api-integration
+  - https://storyclash.notion.site/Storyclash-API-Documentation-1266dc2ddd0880a79cf9e3d34c19fa01
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,23 +20,23 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 39.0
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
-- description: Enterprise REST API for the Storyclash influencer marketing platform. Token-based authentication over HTTPS returning structured JSON, with real-time webhooks for campaign updates and creator import s
+- description: 'Enterprise REST API for the Storyclash influencer marketing platform. Three documented endpoints under https://app.storyclash.com/external-api/: GET /campaigns lists the authenticated customer''s campa'
   name: Storyclash API
   slug: storyclash-api
-artifact_total: 4
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Storyclash Webhooks
@@ -100,11 +102,56 @@ common:
   title: ''
   type: DomainSecurity
   url: security/storyclash-domain-security.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://storyclash.notion.site/Storyclash-API-Documentation-1266dc2ddd0880a79cf9e3d34c19fa01
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/storyclash
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.storyclash.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.storyclash.com/request-demo
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/storyclash-error-codes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/storyclash-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/storyclash-plans-pricing.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/storyclash-data-model.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/storyclash-examples.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/storyclash-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/storyclash-conformance.yml
 created: '2026-07-17'
-description: Storyclash is an AI-powered influencer marketing software platform used by brands and agencies to discover creators, analyze brand and competitor strategies, manage collaborations in a purpose-built CRM, and measure campaign performance and revenue ROI across Instagram, TikTok, YouTube, and Facebook. Its AI-driven creator discovery includes neural visual search over 120M+ creators, letting teams match on a reference image or product URL rather than keywords alone. Storyclash exposes an enterprise REST API with token-based authentication and real-time webhooks that streams campaign KPIs (50+ metrics per campaign), creator profiles, content performance, and revenue attribution as structured JSON into BI tools such as Power BI, Tableau, and Looker Studio. The company, headquartered in Linz, Austria, was surfaced as a portfolio company of Speedinvest and has since been acquired by Kolsquare.
+description: 'Storyclash is an AI-powered influencer marketing software platform used by brands and agencies to discover creators, analyze brand and competitor strategies, manage collaborations in a purpose-built CRM, and measure campaign performance and revenue ROI across Instagram, TikTok, YouTube, and Facebook. Its AI-driven creator discovery includes neural visual search over 120M+ creators, letting teams match on a reference image or product URL rather than keywords alone. Storyclash exposes an enterprise REST API with token-based authentication and real-time webhooks that streams campaign KPIs (50+ metrics per campaign), creator profiles, content performance, and revenue attribution as structured JSON into BI tools such as Power BI, Tableau, and Looker Studio. The documented API surface is small and enterprise-gated: three endpoints under https://app.storyclash.com/external-api/ authenticated by a per-customer token passed as a query parameter, with a single outbound webhook that reports
+  the outcome of a bulk creator import. The company, headquartered in Linz, Austria, was surfaced as a portfolio company of Speedinvest and has since been acquired by Kolsquare, a team.blue brand, and now trades as "Storyclash by Kolsquare".'
 image: https://www.storyclash.com/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Storyclash
 nav: Providers
 network: true
@@ -114,28 +161,36 @@ overview: 'Storyclash publishes 1 API on the [APIs.io](https://apis.io/) network
   The Storyclash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Storyclash''s developer surface includes documentation, pricing, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 20
+  Storyclash''s developer surface includes documentation, pricing, engineering blog, support, authentication, API reference, signup flow, and 19 more developer resources.'
+plans:
+- name: Storyclash Plans Pricing
+  plan_count: 3
+  slug: storyclash-plans-pricing
+random_paper: 57
+rate_limits:
+- limit_count: 4
+  name: Storyclash Rate Limits
+  slug: storyclash-rate-limits
 score:
-  band: thin
-  composite: 39.5
-  delta: 0.0
+  band: developing
+  composite: 54.5
+  delta: 15.0
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 51.6
-    developer_ergonomics: 34.8
-    discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 23.7
+    developer_ergonomics: 41.3
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 60.5
   previous_composite: 39.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Storyclash Authentication
   slug: storyclash-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Storyclash Domain Security
   slug: storyclash-domain-security

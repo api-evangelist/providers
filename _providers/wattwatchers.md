@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -32,7 +32,11 @@ apis:
 - description: 'The Wattwatchers REST API v3, code-named Mercury — 14 documented operations across 13 paths, covering device inventory and configuration (including switch control via PATCH), 30-second "short energy" '
   name: Wattwatchers REST API v3 (Mercury)
   slug: wattwatchers-rest-api-v3
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Wattwatchers API
+  slug: open-wattwatchers-rest-api-v3
 common:
 - group: agent
   title: ''
@@ -179,7 +183,7 @@ overview: 'Wattwatchers publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Wattwatchers'' developer surface includes authentication, documentation, changelog, support, API reference, getting-started guide, code examples, and 24 more developer resources.'
-random_paper: 113
+random_paper: 121
 rate_limits:
 - limit_count: 2
   name: Wattwatchers Rate Limits
@@ -213,7 +217,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

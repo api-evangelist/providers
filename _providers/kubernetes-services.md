@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -78,12 +78,15 @@ apis:
 - description: Status subresource operations for Services, used to update load balancer provisioning state and conditions.
   name: Kubernetes Services ServiceStatus API
   slug: kubernetes-services-servicestatus-api
-artifact_total: 77
+artifact_total: 90
 asyncapis:
 - description: The Kubernetes Services watch API provides streaming event notifications for networking resources including Services, Ingresses, EndpointSlices, NetworkPolicies, and Gateway API resources. Clients sub
   name: Kubernetes Services Watch Events
   slug: kubernetes-services-watch-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Kubernetes Services Kubernetes EndpointSlices API
   slug: open-kubernetes-endpoint-slices
@@ -96,6 +99,42 @@ collections:
 - collection_type: open
   name: Kubernetes Services Kubernetes Network Policies API
   slug: open-kubernetes-network-policies
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices API
+  slug: open-kubernetes-services-endpointslices-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices Gateway API
+  slug: open-kubernetes-services-gateway-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices GatewayClass API
+  slug: open-kubernetes-services-gatewayclass-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices GRPCRoute API
+  slug: open-kubernetes-services-grpcroute-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices HTTPRoute API
+  slug: open-kubernetes-services-httproute-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices Ingress API
+  slug: open-kubernetes-services-ingress-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices IngressClass API
+  slug: open-kubernetes-services-ingressclass-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices IngressStatus API
+  slug: open-kubernetes-services-ingressstatus-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices Namespaces API
+  slug: open-kubernetes-services-namespaces-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices NetworkPolicy API
+  slug: open-kubernetes-services-networkpolicy-api
+- collection_type: open
+  name: Kubernetes Kubernetes EndpointSlices Services API
+  slug: open-kubernetes-services-services-api
+- collection_type: open
+  name: Kubernetes Services Kubernetes EndpointSlices ServiceStatus API
+  slug: open-kubernetes-services-servicestatus-api
 - collection_type: open
   name: Kubernetes Services API
   slug: open-kubernetes-services
@@ -358,7 +397,7 @@ plans:
 - name: Kubernetes Services Plans Pricing
   plan_count: 1
   slug: kubernetes-services-plans-pricing
-random_paper: 73
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Kubernetes Services Rate Limits
@@ -400,7 +439,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/screenshots/kubernetes-services-2026-06-20T184207.png
 security:

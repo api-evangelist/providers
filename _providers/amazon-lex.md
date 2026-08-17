@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: Lex bot management
   name: Amazon Lex Bots API
   slug: amazon-lex-bots-api
-artifact_total: 35
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Amazon Lex Bots API
   slug: postman-amazon-lex-bots-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Lex Bots API
+  slug: open-amazon-lex-bots-api
 - collection_type: open
   name: Amazon Lex API
   slug: open-amazon-lex
@@ -229,7 +235,7 @@ plans:
 - name: Amazon Lex Plans Pricing
   plan_count: 3
   slug: amazon-lex-plans-pricing
-random_paper: 60
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Amazon Lex Rate Limits
@@ -271,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/screenshots/amazon-lex-2026-06-20T171723.png
 security:

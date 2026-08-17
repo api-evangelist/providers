@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -786,17 +786,80 @@ apis:
 - description: The Widgets API from Mastercard — 1 operation(s) for widgets.
   name: Mastercard Widgets API
   slug: mastercard-widgets-api
-artifact_total: 1861
+artifact_total: 2027
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Mastercard Bill Payment Validator
   slug: open-bill-payment-validator
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Access A  User  Identity API
+  slug: open-mastercard-access-a-user-identity-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Access API
+  slug: open-mastercard-access-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Account Groups API
+  slug: open-mastercard-account-groups-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account  Opening API
+  slug: open-mastercard-account-opening-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Account  Subscriptions API
+  slug: open-mastercard-account-subscriptions-api
+- collection_type: open
   name: Mastercard Account to Account Commerce for Creditor Service Providers
   slug: open-mastercard-account-to-account-commerce-for-creditor-service-providers
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Accounts API
+  slug: open-mastercard-accounts-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Acquirer API
+  slug: open-mastercard-acquirer-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Acquirer  Merchant  I Ds API
+  slug: open-mastercard-acquirer-merchant-i-ds-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Activity API
+  slug: open-mastercard-activity-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Aggregate API
+  slug: open-mastercard-aggregate-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Aggregates API
+  slug: open-mastercard-aggregates-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Agreement API
+  slug: open-mastercard-agreement-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Agreements API
+  slug: open-mastercard-agreements-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Alert  Outcomes API
+  slug: open-mastercard-alert-outcomes-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Alerts  Merchants API
+  slug: open-mastercard-alerts-merchants-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Apis API
+  slug: open-mastercard-apis-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Approvals API
+  slug: open-mastercard-approvals-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Arid API
+  slug: open-mastercard-arid-api
+- collection_type: open
   name: Mastercard ATM Locations
   slug: open-mastercard-atm-locations
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Audit API
+  slug: open-mastercard-audit-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Authentication API
+  slug: open-mastercard-authentication-api
 - collection_type: open
   name: Mastercard Authentication Consent
   slug: open-mastercard-authentication-consent
@@ -804,23 +867,80 @@ collections:
   name: Mastercard Automatic Billing Updater API
   slug: open-mastercard-automatic-billing-updater-api
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening B I N  Lookup API
+  slug: open-mastercard-b-i-n-lookup-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Batch API
+  slug: open-mastercard-batch-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Benchmarks API
+  slug: open-mastercard-benchmarks-api
+- collection_type: open
   name: Mastercard Benefit Allocation Service API
   slug: open-mastercard-benefit-allocation-service
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Benefit-Allocations-Card-Management API
+  slug: open-mastercard-benefit-allocations-card-management-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Benefit-Allocations-Segment-Management API
+  slug: open-mastercard-benefit-allocations-segment-management-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Benefits API
+  slug: open-mastercard-benefits-api
 - collection_type: open
   name: API Collection
   slug: open-mastercard-bill-pay-api
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Bin API
+  slug: open-mastercard-bin-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Callbacks API
+  slug: open-mastercard-callbacks-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Carbon API
+  slug: open-mastercard-carbon-api
+- collection_type: open
   name: Mastercard Carbon Calculator Experience API
   slug: open-mastercard-carbon-calculator-experience-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Card API
+  slug: open-mastercard-card-api
 - collection_type: open
   name: Mastercard Card Issuance
   slug: open-mastercard-card-issuance
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Cards API
+  slug: open-mastercard-cards-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Catalog API
+  slug: open-mastercard-catalog-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Catalogs API
+  slug: open-mastercard-catalogs-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Categories API
+  slug: open-mastercard-categories-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Changes API
+  slug: open-mastercard-changes-api
+- collection_type: open
   name: Mastercard Checkout Solutions
   slug: open-mastercard-checkout-solutions
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Claim API
+  slug: open-mastercard-claim-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Claims API
+  slug: open-mastercard-claims-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Client API
+  slug: open-mastercard-client-api
+- collection_type: open
   name: API Collection
   slug: open-mastercard-cloud-commerce
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening CLS Activations API
+  slug: open-mastercard-cls-activations-api
 - collection_type: open
   name: API Collection
   slug: open-mastercard-commerce-pass-cxp
@@ -831,20 +951,65 @@ collections:
   name: Mastercard Community Pass Payment APIs
   slug: open-mastercard-community-pass-payment-apis
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Confirmations API
+  slug: open-mastercard-confirmations-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Confirmed  Fraud  Management API
+  slug: open-mastercard-confirmed-fraud-management-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Confirmed  Fraud  Submission API
+  slug: open-mastercard-confirmed-fraud-submission-api
+- collection_type: open
   name: Mastercard Confirmed Fraud
   slug: open-mastercard-confirmed-fraud
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Consent API
+  slug: open-mastercard-consent-api
 - collection_type: open
   name: Mastercard Consumer Credit Analytics
   slug: open-mastercard-consumer-credit-analytics
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Consumers API
+  slug: open-mastercard-consumers-api
+- collection_type: open
   name: API Collection
   slug: open-mastercard-contactless-reader-sdk
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Conversions API
+  slug: open-mastercard-conversions-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Countries API
+  slug: open-mastercard-countries-api
 - collection_type: open
   name: API Collection
   slug: open-mastercard-cross-border-services
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Currencies API
+  slug: open-mastercard-currencies-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Dashboards API
+  slug: open-mastercard-dashboards-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Data API
+  slug: open-mastercard-data-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Debit API
+  slug: open-mastercard-debit-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Debtor API
+  slug: open-mastercard-debtor-api
+- collection_type: open
   name: Mastercard Debtor Service Provider Resources API
   slug: open-mastercard-debtor-service-provider-resources-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Decisions API
+  slug: open-mastercard-decisions-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Deletions API
+  slug: open-mastercard-deletions-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Deregistrations API
+  slug: open-mastercard-deregistrations-api
 - collection_type: open
   name: API Collection
   slug: open-mastercard-direct-services
@@ -852,8 +1017,77 @@ collections:
   name: Mastercard Doconomy Aland Index
   slug: open-mastercard-doconomy-aland-index
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Documents API
+  slug: open-mastercard-documents-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Donations API
+  slug: open-mastercard-donations-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Donor API
+  slug: open-mastercard-donor-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Donors API
+  slug: open-mastercard-donors-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Driving API
+  slug: open-mastercard-driving-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Email API
+  slug: open-mastercard-email-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Email  O T P API
+  slug: open-mastercard-email-o-t-p-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Environmental  Impact API
+  slug: open-mastercard-environmental-impact-api
+- collection_type: open
   name: Mastercard Ethoca Merchant Self Services
   slug: open-mastercard-ethoca-merchant-self-services
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Events API
+  slug: open-mastercard-events-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Extractions API
+  slug: open-mastercard-extractions-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Field Mapping API
+  slug: open-mastercard-field-mapping-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Footprints API
+  slug: open-mastercard-footprints-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Fraud API
+  slug: open-mastercard-fraud-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Guest  Donation API
+  slug: open-mastercard-guest-donation-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Guid API
+  slug: open-mastercard-guid-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Health Checks API
+  slug: open-mastercard-health-checks-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening I D  Document  Data  Extraction API
+  slug: open-mastercard-i-d-document-data-extraction-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening I D  Document  Data  Source  Verification API
+  slug: open-mastercard-i-d-document-data-source-verification-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening I D P  Claim  Share  Insights API
+  slug: open-mastercard-i-d-p-claim-share-insights-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening I D P  Scopes  Request API
+  slug: open-mastercard-i-d-p-scopes-request-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Ica API
+  slug: open-mastercard-ica-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Id API
+  slug: open-mastercard-id-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Identity API
+  slug: open-mastercard-identity-api
 - collection_type: open
   name: Mastercard Identity Insights for Accounts
   slug: open-mastercard-identity-insights-for-accounts
@@ -861,29 +1095,293 @@ collections:
   name: Mastercard Identity Insights for Transactions
   slug: open-mastercard-identity-insights-for-transactions
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Ids API
+  slug: open-mastercard-ids-api
+- collection_type: open
   name: API Collection
   slug: open-mastercard-in-control-for-commercial-payments
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Initiate API
+  slug: open-mastercard-initiate-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Inquiries API
+  slug: open-mastercard-inquiries-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Insights API
+  slug: open-mastercard-insights-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Issued API
+  slug: open-mastercard-issued-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Issuer API
+  slug: open-mastercard-issuer-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Issuing API
+  slug: open-mastercard-issuing-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Items API
+  slug: open-mastercard-items-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Languages API
+  slug: open-mastercard-languages-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Licenses API
+  slug: open-mastercard-licenses-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Lifecycle API
+  slug: open-mastercard-lifecycle-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Locations API
+  slug: open-mastercard-locations-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Lookup Identifiers API
+  slug: open-mastercard-lookup-identifiers-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Lost Stolen API
+  slug: open-mastercard-lost-stolen-api
 - collection_type: open
   name: Mastercard Loyalty Insurance
   slug: open-mastercard-loyalty-insurance
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Manage A  User  Identity API
+  slug: open-mastercard-manage-a-user-identity-api
+- collection_type: open
+  name: Bill Payment Validator Account Opening Mastercard API
+  slug: open-mastercard-mastercard-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Member API
+  slug: open-mastercard-member-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Merchant API
+  slug: open-mastercard-merchant-api
+- collection_type: open
   name: Mastercard Merchant Locations
   slug: open-mastercard-merchant-locations
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Merchant  Logos API
+  slug: open-mastercard-merchant-logos-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Merchant  Participation API
+  slug: open-mastercard-merchant-participation-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Merchant  Registration API
+  slug: open-mastercard-merchant-registration-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Merchants API
+  slug: open-mastercard-merchants-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Multi API
+  slug: open-mastercard-multi-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Names API
+  slug: open-mastercard-names-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Notifications API
+  slug: open-mastercard-notifications-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Offers API
+  slug: open-mastercard-offers-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Orders API
+  slug: open-mastercard-orders-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Organization API
+  slug: open-mastercard-organization-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Organizations API
+  slug: open-mastercard-organizations-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Otps API
+  slug: open-mastercard-otps-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening PAN Blocks API
+  slug: open-mastercard-pan-blocks-api
+- collection_type: open
+  name: Mastercard Bill Validator Account Opening Payment API
+  slug: open-mastercard-payment-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Payment  Card API
+  slug: open-mastercard-payment-card-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Payment  Requests API
+  slug: open-mastercard-payment-requests-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Payments API
+  slug: open-mastercard-payments-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Plan API
+  slug: open-mastercard-plan-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Plans API
+  slug: open-mastercard-plans-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Premium API
+  slug: open-mastercard-premium-api
 - collection_type: open
   name: API Collection
   slug: open-mastercard-priceless-platform
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Products API
+  slug: open-mastercard-products-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Profiles API
+  slug: open-mastercard-profiles-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Program API
+  slug: open-mastercard-program-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Providers API
+  slug: open-mastercard-providers-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Rates API
+  slug: open-mastercard-rates-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Real  Card API
+  slug: open-mastercard-real-card-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Record API
+  slug: open-mastercard-record-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening References API
+  slug: open-mastercard-references-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Refunds API
+  slug: open-mastercard-refunds-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Registrations API
+  slug: open-mastercard-registrations-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Request API
+  slug: open-mastercard-request-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Retrievals API
+  slug: open-mastercard-retrievals-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Routing API
+  slug: open-mastercard-routing-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Scans API
+  slug: open-mastercard-scans-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Scopes API
+  slug: open-mastercard-scopes-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Scores API
+  slug: open-mastercard-scores-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Searches API
+  slug: open-mastercard-searches-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Service API
+  slug: open-mastercard-service-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Settlements API
+  slug: open-mastercard-settlements-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Setup API
+  slug: open-mastercard-setup-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Setup  Donation API
+  slug: open-mastercard-setup-donation-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Share A  User  Identity API
+  slug: open-mastercard-share-a-user-identity-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Share API
+  slug: open-mastercard-share-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Shares API
+  slug: open-mastercard-shares-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Sources API
+  slug: open-mastercard-sources-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Srci API
+  slug: open-mastercard-srci-api
+- collection_type: open
   name: Mastercard Standard Currency Conversion Calculator
   slug: open-mastercard-standard-currency-conversion-calculator
 - collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening States API
+  slug: open-mastercard-states-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Status API
+  slug: open-mastercard-status-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Statuses API
+  slug: open-mastercard-statuses-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Step API
+  slug: open-mastercard-step-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Subscription API
+  slug: open-mastercard-subscription-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Subscriptions API
+  slug: open-mastercard-subscriptions-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Summaries API
+  slug: open-mastercard-summaries-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Supported API
+  slug: open-mastercard-supported-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Supported  Parameters API
+  slug: open-mastercard-supported-parameters-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Surveys API
+  slug: open-mastercard-surveys-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Suspected  Fraud  Management API
+  slug: open-mastercard-suspected-fraud-management-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Suspected  Fraud  Submission API
+  slug: open-mastercard-suspected-fraud-submission-api
+- collection_type: open
   name: Mastercard Suspected Fraud
   slug: open-mastercard-suspected-fraud
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Token API
+  slug: open-mastercard-token-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Tokens API
+  slug: open-mastercard-tokens-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Transaction API
+  slug: open-mastercard-transaction-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Transactions API
+  slug: open-mastercard-transactions-api
 - collection_type: open
   name: Mastercard Unified Checkout Solutions
   slug: open-mastercard-unified-checkout-solutions
 - collection_type: open
   name: API Collection
   slug: open-mastercard-universal-specification-submission-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Up API
+  slug: open-mastercard-up-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Users API
+  slug: open-mastercard-users-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Valid API
+  slug: open-mastercard-valid-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Validations API
+  slug: open-mastercard-validations-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Vendors API
+  slug: open-mastercard-vendors-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Verifications API
+  slug: open-mastercard-verifications-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Virtual API
+  slug: open-mastercard-virtual-api
+- collection_type: open
+  name: Mastercard Bill Payment Validator Account Opening Widgets API
+  slug: open-mastercard-widgets-api
 common:
 - group: agent
   title: ''
@@ -5784,7 +6282,7 @@ press:
 - date: '2026-05-25'
   title: Mastercard unveils new tools and collaborations to power ...
   url: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-new-tools-and-collaborations-to-power-smarter,-safer-agentic-commerce.html
-random_paper: 102
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Mastercard Rate Limits
@@ -5832,7 +6330,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png
 security:

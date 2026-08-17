@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Statement (claim) operations
   name: Wikidata Statements API
   slug: wikidata-statements-api
-artifact_total: 75
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Wikidata REST API & MediaWiki Descriptions API
@@ -84,8 +84,26 @@ collections:
   name: Wikidata REST API & MediaWiki Descriptions Statements API
   slug: postman-wikidata-statements-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wikidata REST API & MediaWiki Descriptions API
+  slug: open-wikidata-descriptions-api
+- collection_type: open
+  name: Wikidata REST API & MediaWiki Descriptions Items API
+  slug: open-wikidata-items-api
+- collection_type: open
+  name: Wikidata REST API & MediaWiki Descriptions Labels API
+  slug: open-wikidata-labels-api
+- collection_type: open
   name: Wikidata REST API & MediaWiki API
   slug: open-wikidata-mediawiki
+- collection_type: open
+  name: Wikidata REST API & MediaWiki Descriptions Properties API
+  slug: open-wikidata-properties-api
+- collection_type: open
+  name: Wikidata REST API & MediaWiki Descriptions Statements API
+  slug: open-wikidata-statements-api
 common:
 - group: build
   title: ''
@@ -315,7 +333,7 @@ plans:
 - name: Wikidata Plans Pricing
   plan_count: 2
   slug: wikidata-plans-pricing
-random_paper: 6
+random_paper: 101
 rate_limits:
 - limit_count: 4
   name: Wikidata Rate Limits
@@ -368,7 +386,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/screenshots/wikidata-2026-06-20T201453.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Franchise dashboards and dashboard types
@@ -55,11 +55,38 @@ apis:
 - description: Service work order lifecycle
   name: Modern Work Orders API
   slug: modern-work-orders-api
-artifact_total: 12
+artifact_total: 21
 collections:
 - collection_type: postman
   name: MODERN Partner API - Documentation
   slug: postman-modern-partner-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MODERN Partner Dashboards API
+  slug: open-modern-dashboards-api
+- collection_type: open
+  name: MODERN Partner Dashboards Events API
+  slug: open-modern-events-api
+- collection_type: open
+  name: MODERN Partner Dashboards Federation API
+  slug: open-modern-federation-api
+- collection_type: open
+  name: MODERN Partner Dashboards Notes API
+  slug: open-modern-notes-api
+- collection_type: open
+  name: MODERN Partner Dashboards Notifications API
+  slug: open-modern-notifications-api
+- collection_type: open
+  name: MODERN Partner Dashboards Technicians API
+  slug: open-modern-technicians-api
+- collection_type: open
+  name: MODERN Partner Dashboards Users API
+  slug: open-modern-users-api
+- collection_type: open
+  name: MODERN Partner Dashboards Work Orders API
+  slug: open-modern-work-orders-api
 common:
 - group: agent
   title: ''
@@ -121,7 +148,7 @@ overview: 'Modern publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Modern''s developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
-random_paper: 45
+random_paper: 49
 score:
   band: thin
   composite: 36.5
@@ -144,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/screenshots/modern-2026-08-07T183934.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: The User Tasks API from Zeebe — 2 operation(s) for user tasks.
   name: Zeebe User Tasks API
   slug: zeebe-user-tasks-api
-artifact_total: 56
+artifact_total: 66
 collections:
 - collection_type: postman
   name: Zeebe REST Cluster API
@@ -96,8 +96,38 @@ collections:
   name: Zeebe REST Cluster User Tasks API
   slug: postman-zeebe-user-tasks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Zeebe REST API
   slug: open-zeebe-api
+- collection_type: open
+  name: Zeebe REST Cluster API
+  slug: open-zeebe-cluster-api
+- collection_type: open
+  name: Zeebe REST Cluster Deployments API
+  slug: open-zeebe-deployments-api
+- collection_type: open
+  name: Zeebe REST Cluster Incidents API
+  slug: open-zeebe-incidents-api
+- collection_type: open
+  name: Zeebe REST Cluster Jobs API
+  slug: open-zeebe-jobs-api
+- collection_type: open
+  name: Zeebe REST Cluster Messages API
+  slug: open-zeebe-messages-api
+- collection_type: open
+  name: Zeebe REST Cluster Process Instances API
+  slug: open-zeebe-process-instances-api
+- collection_type: open
+  name: Zeebe REST Cluster Resources API
+  slug: open-zeebe-resources-api
+- collection_type: open
+  name: Zeebe REST Cluster Signals API
+  slug: open-zeebe-signals-api
+- collection_type: open
+  name: Zeebe REST Cluster User Tasks API
+  slug: open-zeebe-user-tasks-api
 common:
 - group: build
   title: ''
@@ -292,7 +322,7 @@ plans:
 - name: Zeebe Plans Pricing
   plan_count: 3
   slug: zeebe-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Zeebe Rate Limits
@@ -334,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/screenshots/zeebe-2026-06-20T201806.png
 security:

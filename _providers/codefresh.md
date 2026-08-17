@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -80,8 +80,50 @@ apis:
 - description: The Workflows API from Codefresh — 1 operation(s) for workflows.
   name: Codefresh Workflows API
   slug: codefresh-workflows-api
-artifact_total: 18
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Codefresh REST Access Control API
+  slug: open-codefresh-access-control-api
+- collection_type: open
+  name: Codefresh REST Access Control Accounts API
+  slug: open-codefresh-accounts-api
+- collection_type: open
+  name: Codefresh REST Access Control Admin API
+  slug: open-codefresh-admin-api
+- collection_type: open
+  name: Codefresh REST Access Control Annotations API
+  slug: open-codefresh-annotations-api
+- collection_type: open
+  name: Codefresh REST Access Control Audit API
+  slug: open-codefresh-audit-api
+- collection_type: open
+  name: Codefresh REST Access Control Auth API
+  slug: open-codefresh-auth-api
+- collection_type: open
+  name: Codefresh REST Access Control Builds API
+  slug: open-codefresh-builds-api
+- collection_type: open
+  name: Codefresh REST Access Control Clusters API
+  slug: open-codefresh-clusters-api
+- collection_type: open
+  name: Codefresh REST Access Control Contexts API
+  slug: open-codefresh-contexts-api
+- collection_type: open
+  name: Codefresh REST Access Control Environments API
+  slug: open-codefresh-environments-api
+- collection_type: open
+  name: Codefresh REST Access Control Features API
+  slug: open-codefresh-features-api
+- collection_type: open
+  name: Codefresh REST Access Control Helm API
+  slug: open-codefresh-helm-api
+- collection_type: open
+  name: Codefresh REST Access Control Workflows API
+  slug: open-codefresh-workflows-api
 - collection_type: open
   name: Codefresh REST API
   slug: open-codefresh
@@ -142,7 +184,7 @@ overview: 'Codefresh publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Codefresh''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 107
+random_paper: 53
 score:
   band: thin
   composite: 31.7
@@ -163,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codefresh/refs/heads/main/screenshots/codefresh-2026-06-20T174700.png
 security:

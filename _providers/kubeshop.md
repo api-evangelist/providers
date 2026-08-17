@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 1
@@ -129,11 +129,105 @@ apis:
 - description: The Webhooks API from Kubeshop — 2 operation(s) for webhooks.
   name: Kubeshop Webhooks API
   slug: kubeshop-webhooks-api
-artifact_total: 37
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Kubeshop Testkube Webhooks
   slug: kubeshop-testkube-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Testkube Standalone Agent api API
+  slug: open-kubeshop-api-api
+- collection_type: open
+  name: Testkube Standalone Agent api artifacts API
+  slug: open-kubeshop-artifacts-api
+- collection_type: open
+  name: Testkube Standalone Agent api cluster-resources API
+  slug: open-kubeshop-cluster-resources-api
+- collection_type: open
+  name: Testkube Standalone Agent api Executions API
+  slug: open-kubeshop-executions-api
+- collection_type: open
+  name: Testkube Standalone Agent api executor API
+  slug: open-kubeshop-executor-api
+- collection_type: open
+  name: Testkube Standalone Agent api keymap API
+  slug: open-kubeshop-keymap-api
+- collection_type: open
+  name: Testkube Standalone Agent api labels API
+  slug: open-kubeshop-labels-api
+- collection_type: open
+  name: Testkube Standalone Agent api logs API
+  slug: open-kubeshop-logs-api
+- collection_type: open
+  name: Testkube Standalone Agent api Organizations API
+  slug: open-kubeshop-organizations-api
+- collection_type: open
+  name: Testkube Standalone Agent api pro API
+  slug: open-kubeshop-pro-api
+- collection_type: open
+  name: Testkube Standalone Agent api repository API
+  slug: open-kubeshop-repository-api
+- collection_type: open
+  name: Testkube Standalone Agent api secrets API
+  slug: open-kubeshop-secrets-api
+- collection_type: open
+  name: Testkube Standalone Agent api Status Pages API
+  slug: open-kubeshop-status-pages-api
+- collection_type: open
+  name: Testkube Standalone Agent api tags API
+  slug: open-kubeshop-tags-api
+- collection_type: open
+  name: Testkube Standalone Agent api template API
+  slug: open-kubeshop-template-api
+- collection_type: open
+  name: Testkube Standalone Agent api templates API
+  slug: open-kubeshop-templates-api
+- collection_type: open
+  name: Testkube Standalone Agent api test-sources API
+  slug: open-kubeshop-test-sources-api
+- collection_type: open
+  name: Testkube Standalone Agent api test-suites API
+  slug: open-kubeshop-test-suites-api
+- collection_type: open
+  name: Testkube Standalone Agent api test-triggers API
+  slug: open-kubeshop-test-triggers-api
+- collection_type: open
+  name: Testkube Standalone Agent api Test Workflow Executions API
+  slug: open-kubeshop-test-workflow-executions-api
+- collection_type: open
+  name: Testkube Standalone Agent api Test Workflow Templates API
+  slug: open-kubeshop-test-workflow-templates-api
+- collection_type: open
+  name: Testkube Standalone Agent api Test Workflow With Executions API
+  slug: open-kubeshop-test-workflow-with-executions-api
+- collection_type: open
+  name: Testkube Standalone Agent api Test Workflows API
+  slug: open-kubeshop-test-workflows-api
+- collection_type: open
+  name: Testkube Standalone Agent api tests API
+  slug: open-kubeshop-tests-api
+- collection_type: open
+  name: Testkube Standalone Agent api Triggers API
+  slug: open-kubeshop-triggers-api
+- collection_type: open
+  name: Testkube Standalone Agent api Users API
+  slug: open-kubeshop-users-api
+- collection_type: open
+  name: Testkube Standalone Agent api webhook API
+  slug: open-kubeshop-webhook-api
+- collection_type: open
+  name: Testkube Standalone Agent api webhook-template API
+  slug: open-kubeshop-webhook-template-api
+- collection_type: open
+  name: Testkube Standalone Agent api Webhook Templates API
+  slug: open-kubeshop-webhook-templates-api
+- collection_type: open
+  name: Testkube Standalone Agent api Webhooks API
+  slug: open-kubeshop-webhooks-api
 common:
 - group: other
   title: ''
@@ -314,7 +408,7 @@ overview: 'Kubeshop publishes 30 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kubeshop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 0
   name: Kubeshop Rate Limits
@@ -347,7 +441,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/screenshots/kubeshop-2026-07-25T224316.png
 security:

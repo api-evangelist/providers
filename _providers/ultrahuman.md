@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -51,7 +51,20 @@ apis:
 - description: Basic authorized-user profile information.
   name: Ultrahuman User API
   slug: ultrahuman-user-api
-artifact_total: 12
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ultrahuman Partner (UltraSignal) Metrics API
+  slug: open-ultrahuman-metrics-api
+- collection_type: open
+  name: Ultrahuman Partner (UltraSignal) Metrics OAuth API
+  slug: open-ultrahuman-oauth-api
+- collection_type: open
+  name: Ultrahuman Partner (UltraSignal) Metrics User API
+  slug: open-ultrahuman-user-api
 common:
 - group: agent
   title: ''
@@ -121,7 +134,7 @@ plans:
 - name: Ultrahuman Plans Pricing
   plan_count: 4
   slug: ultrahuman-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 4
   name: Ultrahuman Rate Limits
@@ -152,7 +165,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Card save / tokenization flows
@@ -37,7 +37,17 @@ apis:
 - description: Request payments, retrieve payment details, and refunds
   name: Reachware Inc. Payments API
   slug: reachware-inc-payments-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reach Pay Cards API
+  slug: open-reachware-inc-cards-api
+- collection_type: open
+  name: Reach Pay Cards Payments API
+  slug: open-reachware-inc-payments-api
 common:
 - group: docs
   title: ''
@@ -143,7 +153,7 @@ overview: 'Reachware Inc. publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Reachware Inc.''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 16 more developer resources.'
-random_paper: 105
+random_paper: 113
 score:
   band: developing
   composite: 46.0
@@ -172,7 +182,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

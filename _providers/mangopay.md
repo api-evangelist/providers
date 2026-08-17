@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -111,7 +111,83 @@ apis:
 - description: The Wallets API from Mangopay — 9 operation(s) for wallets.
   name: Mangopay Wallets API
   slug: mangopay-wallets-api
-artifact_total: 35
+artifact_total: 60
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mangopay REST Bank Accounts API
+  slug: open-mangopay-bank-accounts-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Client (Platform) API
+  slug: open-mangopay-client-platform-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Client Wallets API
+  slug: open-mangopay-client-wallets-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Conversions (FX) API
+  slug: open-mangopay-conversions-fx-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Country authorizations API
+  slug: open-mangopay-country-authorizations-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Disputes API
+  slug: open-mangopay-disputes-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Echo API
+  slug: open-mangopay-echo-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts IDV Sessions (hosted KYC API
+  slug: open-mangopay-idv-sessions-hosted-kyc-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts KYC Documents API
+  slug: open-mangopay-kyc-documents-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Notifications API
+  slug: open-mangopay-notifications-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Payment methods API
+  slug: open-mangopay-payment-methods-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Payouts API
+  slug: open-mangopay-payouts-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Recipients API
+  slug: open-mangopay-recipients-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Refunds API
+  slug: open-mangopay-refunds-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Reporting API
+  slug: open-mangopay-reporting-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Transactions API
+  slug: open-mangopay-transactions-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Transfers API
+  slug: open-mangopay-transfers-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts UBO Declarations API
+  slug: open-mangopay-ubo-declarations-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts User Data Format API
+  slug: open-mangopay-user-data-format-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts User EMoney API
+  slug: open-mangopay-user-emoney-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts User Regulatory Status API
+  slug: open-mangopay-user-regulatory-status-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Users API
+  slug: open-mangopay-users-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts View an API Response API
+  slug: open-mangopay-view-an-api-response-api
+- collection_type: open
+  name: Mangopay REST Bank Accounts Wallets API
+  slug: open-mangopay-wallets-api
 common:
 - group: agent
   title: ''
@@ -229,7 +305,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -274,7 +350,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/screenshots/mangopay-2026-06-20T184919.png
 security:

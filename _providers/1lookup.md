@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -9,19 +9,19 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
-    idempotency: false
+    event_surface_described: true
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: documented
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.7
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
-- description: RESTful API over HTTPS covering all 1Lookup products (phone/email/IP validation, fraud, enrichment, B2B data, SEO intelligence). API-key Bearer auth, JSON bodies, job-based bulk processing. Roughly 47
+- description: 'RESTful API over HTTPS covering all 1Lookup products (phone/email/IP validation, fraud, enrichment, B2B data, SEO intelligence). API-key Bearer auth (sk_live_ keys, organization-scoped), JSON bodies, '
   name: 1Lookup REST API
   slug: 1lookup-rest-api
 - description: First-party hosted/remote MCP connector with OAuth 2.1 auth (authorization code + PKCE, dynamic client registration, single `lookup` scope) exposing 5 tools (validate_phone, verify_email, ip_lookup, b
@@ -30,7 +30,11 @@ apis:
 - description: Machine-readable content indexes (llms.txt and llms-full.txt) for AI and answer engines, indexing the free tools, every product page, the comparison pages and the key site sections.
   name: 1Lookup LLMs Index
   slug: 1lookup-llms-index
-artifact_total: 12
+artifact_total: 13
+asyncapis:
+- description: ''
+  name: 1Lookup Webhooks
+  slug: 1lookup-webhooks
 common:
 - group: start
   title: ''
@@ -180,6 +184,22 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/1lookup-conventions.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/1lookup-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/1lookup-data-model.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/1lookup-examples.yml
 created: '2026-08-08'
 description: 1Lookup is a self-serve data verification and enrichment platform for SMBs, exposing more than forty products through a single REST API and one universal credit balance. It validates phone numbers (line type, carrier, HLR reachability, number portability, DNC status, spam/scam reputation, fraud score), email addresses (syntax, MX, deliverability, disposable and role-based detection) and IP addresses (geolocation, VPN/proxy/Tor and datacenter detection), then extends into B2B company and contact data (firmographics, prospect and account search, contact append, skip trace), SEO and web intelligence (domain authority, backlinks, keyword metrics, audience reports, SERP and website scraping), social and media lookups, property data and audio transcription. The same engine powers a web dashboard with batch CSV validation, roughly twenty-five free rate-limited browser tools, and a first-party hosted MCP connector authorized with OAuth 2.1 that gives AI agents five of the core tools
   without an API key.
@@ -192,21 +212,24 @@ mcp_servers:
 - description: ''
   name: 1lookup-mcp.yml
   slug: 1lookup-mcpyml
-modified: '2026-08-09'
+modified: '2026-08-14'
 name: 1Lookup
 nav: Providers
 network: true
 overview: '1Lookup publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include phone validation, email validation, IP intelligence, fraud & risk, and data enrichment.
 
 
-  1Lookup''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
+  The 1Lookup catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  1Lookup''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: 1Lookup Plans Pricing
   plan_count: 5
   slug: 1lookup-plans-pricing
-random_paper: 115
+random_paper: 119
 rate_limits:
-- limit_count: 2
+- limit_count: 6
   name: 1Lookup Rate Limits
   slug: 1lookup-rate-limits
 scopes:
@@ -215,24 +238,24 @@ scopes:
   slug: 1lookup-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 47.1
-  delta: 0.0
+  band: strong
+  composite: 62.4
+  delta: 15.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 0.0
+    contract_quality: 51.6
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 12.5
-    operational_transparency: 31.6
+    operational_transparency: 50.0
   previous_composite: 47.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: 1Lookup Authentication

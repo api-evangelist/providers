@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,26 @@ apis:
 - description: This endpoint contains information about university professors and the courses they have taught.
   name: University of Maryland College Park professors API
   slug: university-of-maryland-college-park-professors-api
-artifact_total: 29
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: umd.io bus API
+  slug: open-university-of-maryland-college-park-bus-api
+- collection_type: open
+  name: umd.io bus courses API
+  slug: open-university-of-maryland-college-park-courses-api
+- collection_type: open
+  name: umd.io bus majors API
+  slug: open-university-of-maryland-college-park-majors-api
+- collection_type: open
+  name: umd.io bus map API
+  slug: open-university-of-maryland-college-park-map-api
+- collection_type: open
+  name: umd.io bus professors API
+  slug: open-university-of-maryland-college-park-professors-api
 common:
 - group: agent
   title: ''
@@ -174,7 +193,7 @@ plans:
 - name: University Of Maryland College Park Plans Pricing
   plan_count: 2
   slug: university-of-maryland-college-park-plans-pricing
-random_paper: 52
+random_paper: 105
 rate_limits:
 - limit_count: 1
   name: University Of Maryland College Park Rate Limits
@@ -222,7 +241,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/screenshots/university-of-maryland-college-park-2026-06-20T200223.png
 security:

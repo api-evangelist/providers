@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -82,8 +82,17 @@ arazzos:
 - description: Score the same instances against a pinned candidate version and the default version to measure rollout drift.
   name: TensorFlow Serving Compare a Candidate Version Against the Default
   slug: tensorflow-version-canary-compare-workflow
-artifact_total: 31
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TensorFlow Serving REST Inference API
+  slug: open-tensorflow-inference-api
+- collection_type: open
+  name: TensorFlow Serving REST Inference Models API
+  slug: open-tensorflow-models-api
 - collection_type: open
   name: TensorFlow Serving REST API
   slug: open-tensorflow-serving
@@ -277,7 +286,7 @@ plans:
 - name: Tensorflow Plans Pricing
   plan_count: 1
   slug: tensorflow-plans-pricing
-random_paper: 27
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Tensorflow Rate Limits
@@ -322,7 +331,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/screenshots/tensorflow-2026-06-20T195120.png
 security:

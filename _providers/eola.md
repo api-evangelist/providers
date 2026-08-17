@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'eola is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   eola''s developer surface includes pricing, engineering blog, support, getting-started guide, signup flow, and 7 more developer resources.'
-random_paper: 57
+random_paper: 119
 score:
   band: emerging
   composite: 20.4
@@ -111,7 +111,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eola/refs/heads/main/screenshots/eola-2026-07-25T213500.png
 security:

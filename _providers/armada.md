@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -137,7 +137,110 @@ apis:
 - description: The VPC API from Armada — 4 operation(s) for vpc.
   name: Armada VPC API
   slug: armada-vpc-api
-artifact_total: 37
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orchestrator Admin Settings API
+  slug: open-armada-admin-settings-api
+- collection_type: open
+  name: Orchestrator Admin Settings App Catalog API
+  slug: open-armada-app-catalog-api
+- collection_type: open
+  name: Orchestrator Admin Settings Catalog API
+  slug: open-armada-catalog-api
+- collection_type: open
+  name: Orchestrator Admin Settings Clusters API
+  slug: open-armada-clusters-api
+- collection_type: open
+  name: Orchestrator Admin Settings CMS API
+  slug: open-armada-cms-api
+- collection_type: open
+  name: Orchestrator Admin Settings Dashboard API
+  slug: open-armada-dashboard-api
+- collection_type: open
+  name: Orchestrator Admin Settings Data Volumes API
+  slug: open-armada-data-volumes-api
+- collection_type: open
+  name: Orchestrator Admin Settings Datasets API
+  slug: open-armada-datasets-api
+- collection_type: open
+  name: Orchestrator Admin Settings Device Discovery API
+  slug: open-armada-device-discovery-api
+- collection_type: open
+  name: Orchestrator Admin Settings Endpoints API
+  slug: open-armada-endpoints-api
+- collection_type: open
+  name: Orchestrator Admin Settings Features API
+  slug: open-armada-features-api
+- collection_type: open
+  name: Orchestrator Admin Settings Health & Debug API
+  slug: open-armada-health-debug-api
+- collection_type: open
+  name: Orchestrator Admin Settings Infra Import API
+  slug: open-armada-infra-import-api
+- collection_type: open
+  name: Orchestrator Admin Settings Load Balancers API
+  slug: open-armada-load-balancers-api
+- collection_type: open
+  name: Orchestrator Admin Settings Log Level API
+  slug: open-armada-log-level-api
+- collection_type: open
+  name: Orchestrator Admin Settings Metal API
+  slug: open-armada-metal-api
+- collection_type: open
+  name: Orchestrator Admin Settings Models API
+  slug: open-armada-models-api
+- collection_type: open
+  name: Orchestrator Admin Settings Monetize API
+  slug: open-armada-monetize-api
+- collection_type: open
+  name: Orchestrator Admin Settings NetQ API
+  slug: open-armada-netq-api
+- collection_type: open
+  name: Orchestrator Admin Settings Network API
+  slug: open-armada-network-api
+- collection_type: open
+  name: Orchestrator Admin Settings PaaS API
+  slug: open-armada-paas-api
+- collection_type: open
+  name: Orchestrator Admin Settings Quotas API
+  slug: open-armada-quotas-api
+- collection_type: open
+  name: Orchestrator Admin Settings S3 API
+  slug: open-armada-s3-api
+- collection_type: open
+  name: Orchestrator Admin Settings Security Groups API
+  slug: open-armada-security-groups-api
+- collection_type: open
+  name: Orchestrator Admin Settings Servers API
+  slug: open-armada-servers-api
+- collection_type: open
+  name: Orchestrator Admin Settings Slurm API
+  slug: open-armada-slurm-api
+- collection_type: open
+  name: Orchestrator Admin Settings Storage API
+  slug: open-armada-storage-api
+- collection_type: open
+  name: Orchestrator Admin Settings Storage Classes API
+  slug: open-armada-storage-classes-api
+- collection_type: open
+  name: Orchestrator Admin Settings Templates API
+  slug: open-armada-templates-api
+- collection_type: open
+  name: Orchestrator Admin Settings Tenant Common Storage API
+  slug: open-armada-tenant-common-storage-api
+- collection_type: open
+  name: Orchestrator Admin Settings Tenants API
+  slug: open-armada-tenants-api
+- collection_type: open
+  name: Orchestrator Admin Settings VMs API
+  slug: open-armada-vms-api
+- collection_type: open
+  name: Orchestrator Admin Settings VPC API
+  slug: open-armada-vpc-api
 common:
 - group: company
   title: ''
@@ -235,7 +338,7 @@ overview: 'Armada publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Armada''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 14
+random_paper: 18
 score:
   band: thin
   composite: 37.2
@@ -259,7 +362,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/screenshots/armada-2026-07-25T201219.png
 security:

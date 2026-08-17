@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: SCE's Customer Data Access (CDA) platform, through which a customer can authorize a registered third party to receive their electric usage and billing data. SCE states on its public third-party page t
@@ -27,7 +27,11 @@ apis:
 - description: The machine-readable grid data layer behind SCE's Distribution Resources Plan External Portal (DRPEP). An anonymous, unauthenticated Esri ArcGIS REST service catalog (server version 11.1) exposing fif
   name: SCE DRPEP ArcGIS REST Services
   slug: sce-drpep-arcgis-rest-services
-artifact_total: 5
+artifact_total: 6
+collections:
+- collection_type: open
+  name: SCE DRPEP ArcGIS REST Services
+  slug: open-southern-california-edison-drpep-arcgis
 common:
 - group: auth
   title: ''
@@ -138,7 +142,7 @@ overview: 'Southern California Edison publishes 1 API on the [APIs.io](https://a
 
 
   Southern California Edison''s developer surface includes developer portal, signup flow, documentation, support, authentication, and 18 more developer resources.'
-random_paper: 28
+random_paper: 135
 score:
   band: emerging
   composite: 27.5
@@ -166,7 +170,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

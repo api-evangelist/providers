@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 26
 apis:
 - description: The Actions API from WorkSpan — 2 operation(s) for actions.
@@ -109,11 +109,93 @@ apis:
 - description: The View API from WorkSpan — 4 operation(s) for view.
   name: WorkSpan View API
   slug: workspan-view-api
-artifact_total: 31
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Workspan Webhooks
   slug: workspan-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authentication Actions API
+  slug: open-workspan-actions-api
+- collection_type: open
+  name: Authentication Actions Audit API
+  slug: open-workspan-audit-api
+- collection_type: open
+  name: Authentication Actions Authorize API
+  slug: open-workspan-authorize-api
+- collection_type: open
+  name: Authentication Actions Bulkload API
+  slug: open-workspan-bulkload-api
+- collection_type: open
+  name: Authentication Actions Bulkload Opportunity API
+  slug: open-workspan-bulkload-opportunity-api
+- collection_type: open
+  name: Authentication Actions Chart Data API
+  slug: open-workspan-chart-data-api
+- collection_type: open
+  name: Authentication Actions Chart Metadata API
+  slug: open-workspan-chart-metadata-api
+- collection_type: open
+  name: Authentication Actions Check Attribute API
+  slug: open-workspan-check-attribute-api
+- collection_type: open
+  name: Authentication Actions Cosell API
+  slug: open-workspan-cosell-api
+- collection_type: open
+  name: Authentication Actions Crm Inbound API
+  slug: open-workspan-crm-inbound-api
+- collection_type: open
+  name: Authentication Actions Crm Inbound V2 API
+  slug: open-workspan-crm-inbound-v2-api
+- collection_type: open
+  name: Authentication Actions Data API
+  slug: open-workspan-data-api
+- collection_type: open
+  name: Authentication Actions Data Schema API
+  slug: open-workspan-data-schema-api
+- collection_type: open
+  name: Authentication Actions Export Report API
+  slug: open-workspan-export-report-api
+- collection_type: open
+  name: Authentication Actions External Id API
+  slug: open-workspan-external-id-api
+- collection_type: open
+  name: Authentication Actions List API
+  slug: open-workspan-list-api
+- collection_type: open
+  name: Authentication Actions Lists API
+  slug: open-workspan-lists-api
+- collection_type: open
+  name: Authentication Actions Metadata API
+  slug: open-workspan-metadata-api
+- collection_type: open
+  name: Authentication Actions Status API
+  slug: open-workspan-status-api
+- collection_type: open
+  name: Authentication Actions Subscriber API
+  slug: open-workspan-subscriber-api
+- collection_type: open
+  name: Authentication Actions Token API
+  slug: open-workspan-token-api
+- collection_type: open
+  name: Authentication Actions Upload Partner Account API
+  slug: open-workspan-upload-partner-account-api
+- collection_type: open
+  name: Authentication Actions Usage API
+  slug: open-workspan-usage-api
+- collection_type: open
+  name: Authentication Actions Usage Upload API
+  slug: open-workspan-usage-upload-api
+- collection_type: open
+  name: Authentication Actions Users API
+  slug: open-workspan-users-api
+- collection_type: open
+  name: Authentication Actions View API
+  slug: open-workspan-view-api
 common:
 - group: other
   title: ''
@@ -250,7 +332,7 @@ overview: 'WorkSpan publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   WorkSpan''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 45
+random_paper: 140
 score:
   band: developing
   composite: 50.4
@@ -273,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

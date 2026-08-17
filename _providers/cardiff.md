@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,7 +87,59 @@ apis:
 - description: The Years API from Cardiff University — 1 operation(s) for years.
   name: Cardiff University Years API
   slug: cardiff-years-api
-artifact_total: 37
+artifact_total: 54
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CoursesApi Assessments API
+  slug: open-cardiff-assessments-api
+- collection_type: open
+  name: CoursesApi Assessments Clearing Adjustments API
+  slug: open-cardiff-clearing-adjustments-api
+- collection_type: open
+  name: CoursesApi Assessments Courses API
+  slug: open-cardiff-courses-api
+- collection_type: open
+  name: CoursesApi Assessments * API
+  slug: open-cardiff-default-api
+- collection_type: open
+  name: CoursesApi Assessments Groups API
+  slug: open-cardiff-groups-api
+- collection_type: open
+  name: CoursesApi Assessments Levels API
+  slug: open-cardiff-levels-api
+- collection_type: open
+  name: CoursesApi Assessments Modules API
+  slug: open-cardiff-modules-api
+- collection_type: open
+  name: CoursesApi Assessments Occurrences API
+  slug: open-cardiff-occurrences-api
+- collection_type: open
+  name: CoursesApi Assessments Publications API
+  slug: open-cardiff-publications-api
+- collection_type: open
+  name: CoursesApi Assessments Qualifications API
+  slug: open-cardiff-qualifications-api
+- collection_type: open
+  name: CoursesApi Assessments Rollover API
+  slug: open-cardiff-rollover-api
+- collection_type: open
+  name: CoursesApi Assessments Schools API
+  slug: open-cardiff-schools-api
+- collection_type: open
+  name: CoursesApi Assessments Semesters API
+  slug: open-cardiff-semesters-api
+- collection_type: open
+  name: CoursesApi Assessments Subjects API
+  slug: open-cardiff-subjects-api
+- collection_type: open
+  name: CoursesApi Assessments Test API
+  slug: open-cardiff-test-api
+- collection_type: open
+  name: CoursesApi Assessments Years API
+  slug: open-cardiff-years-api
 common:
 - group: agent
   title: ''
@@ -201,7 +253,7 @@ plans:
 - name: Cardiff Plans Pricing
   plan_count: 2
   slug: cardiff-plans-pricing
-random_paper: 119
+random_paper: 123
 rate_limits:
 - limit_count: 1
   name: Cardiff Rate Limits
@@ -254,7 +306,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/screenshots/cardiff-2026-06-20T173956.png
 security:

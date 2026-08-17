@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ name: MorphL
 nav: Providers
 network: true
 overview: MorphL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Personalization, and E-Commerce.
-random_paper: 58
+random_paper: 62
 score:
   band: minimal
   composite: 7.7
@@ -74,7 +74,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 7.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: morphl
 tags:

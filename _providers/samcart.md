@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Recurring subscriptions and payment plans.
   name: SamCart Subscriptions API
   slug: samcart-subscriptions-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SamCart Public Charges API
+  slug: open-samcart-charges-api
+- collection_type: open
+  name: SamCart Public Charges Customers API
+  slug: open-samcart-customers-api
+- collection_type: open
+  name: SamCart Public Charges Orders API
+  slug: open-samcart-orders-api
+- collection_type: open
+  name: SamCart Public Charges Products API
+  slug: open-samcart-products-api
+- collection_type: open
+  name: SamCart Public Charges Refunds API
+  slug: open-samcart-refunds-api
+- collection_type: open
+  name: SamCart Public Charges Subscriptions API
+  slug: open-samcart-subscriptions-api
 - collection_type: open
   name: SamCart Public API
   slug: open-samcart
@@ -123,7 +144,7 @@ plans:
 - name: Samcart Plans Pricing
   plan_count: 6
   slug: samcart-plans-pricing
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Samcart Rate Limits
@@ -154,7 +175,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

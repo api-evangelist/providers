@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,11 +53,29 @@ apis:
 - description: Aggregated Scope 3 supplier emissions data.
   name: Emitwise Suppliers API
   slug: emitwise-suppliers-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Emitwise API
   slug: open-emitwise-api
+- collection_type: open
+  name: Emitwise Facilities API
+  slug: open-emitwise-facilities-api
+- collection_type: open
+  name: Emitwise Facilities Files API
+  slug: open-emitwise-files-api
+- collection_type: open
+  name: Emitwise Facilities Projects API
+  slug: open-emitwise-projects-api
+- collection_type: open
+  name: Emitwise Facilities Schema API
+  slug: open-emitwise-schema-api
+- collection_type: open
+  name: Emitwise Facilities Suppliers API
+  slug: open-emitwise-suppliers-api
 common:
 - group: agent
   title: ''
@@ -147,7 +165,7 @@ overview: 'Emitwise publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Emitwise''s developer surface includes authentication, documentation, privacy policy, engineering blog, GitHub presence, and 10 more developer resources.'
-random_paper: 31
+random_paper: 126
 rules:
 - name: Emitwise API Rules
   rule_count: 5
@@ -183,7 +201,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/screenshots/emitwise-2026-06-20T180633.png
 security:

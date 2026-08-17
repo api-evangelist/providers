@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +45,14 @@ apis:
 - description: System and health endpoints.
   name: Common Sense Media system API
   slug: common-sense-media-system-api
-artifact_total: 12
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Common Sense Media reviews system API
+  slug: open-common-sense-media-system-api
 common:
 - group: agent
   title: ''
@@ -143,7 +150,7 @@ plans:
 - name: Common Sense Media Plans Pricing
   plan_count: 3
   slug: common-sense-media-plans-pricing
-random_paper: 113
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Common Sense Media Rate Limits
@@ -185,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/screenshots/common-sense-media-2026-06-20T174819.png
 security:

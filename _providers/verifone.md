@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -120,7 +120,77 @@ apis:
 - description: The Transactions API from Verifone — 7 operation(s) for transactions.
   name: Verifone Transactions API
   slug: verifone-transactions-api
-artifact_total: 542
+artifact_total: 565
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 3D Secure 3DS Authentication API
+  slug: open-verifone-3ds-authentication-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Batch API
+  slug: open-verifone-batch-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Billing Agreement API
+  slug: open-verifone-billing-agreement-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Billing Plans API
+  slug: open-verifone-billing-plans-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Checkout API
+  slug: open-verifone-checkout-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Customer API
+  slug: open-verifone-customer-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Ecom Payments API
+  slug: open-verifone-ecom-payments-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Hardware Orders API
+  slug: open-verifone-hardware-orders-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Lookup API
+  slug: open-verifone-lookup-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Merchant Maintenance API
+  slug: open-verifone-merchant-maintenance-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Merchant Orders API
+  slug: open-verifone-merchant-orders-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Payment Modifications API
+  slug: open-verifone-payment-modifications-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication POI Maintenance API
+  slug: open-verifone-poi-maintenance-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication POI Orders API
+  slug: open-verifone-poi-orders-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Products API
+  slug: open-verifone-products-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Reports API
+  slug: open-verifone-reports-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Subscriptions API
+  slug: open-verifone-subscriptions-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Templating API
+  slug: open-verifone-templating-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Theming API
+  slug: open-verifone-theming-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Token Management API
+  slug: open-verifone-token-management-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Transaction API
+  slug: open-verifone-transaction-api
+- collection_type: open
+  name: 3D Secure 3DS Authentication Transactions API
+  slug: open-verifone-transactions-api
 common:
 - group: agent
   title: ''
@@ -1725,7 +1795,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1765,7 +1835,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/screenshots/verifone-2026-06-20T200926.png
 security:

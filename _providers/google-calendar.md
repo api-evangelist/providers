@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
 - description: The Users API from Google Calendar — 2 operation(s) for users.
   name: Google Calendar Users API
   slug: google-calendar-users-api
-artifact_total: 17
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Calendar Calendars API
@@ -64,6 +64,21 @@ collections:
 - collection_type: postman
   name: Google Calendar Calendars Users API
   slug: postman-google-calendar-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Calendar Calendars API
+  slug: open-google-calendar-calendars-api
+- collection_type: open
+  name: Google Calendar Calendars Colors API
+  slug: open-google-calendar-colors-api
+- collection_type: open
+  name: Google Calendar Calendars freeBusy API
+  slug: open-google-calendar-freebusy-api
+- collection_type: open
+  name: Google Calendar Calendars Users API
+  slug: open-google-calendar-users-api
 - collection_type: open
   name: Google Calendar API
   slug: open-openapi
@@ -160,7 +175,7 @@ plans:
 - name: Google Calendar Plans Pricing
   plan_count: 3
   slug: google-calendar-plans-pricing
-random_paper: 68
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Google Calendar Rate Limits
@@ -194,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/screenshots/google-calendar-2026-06-20T182032.png
 security:

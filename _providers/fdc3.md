@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,7 +57,14 @@ apis:
 - description: The Application API from FDC3 — 5 operation(s) for application.
   name: FDC3 Application API
   slug: fdc3-application-api
-artifact_total: 16
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FDC3 Directory Application API
+  slug: open-fdc3-application-api
 common:
 - group: operate
   title: ''
@@ -171,7 +178,7 @@ plans:
 - name: Fdc3 Plans Pricing
   plan_count: 5
   slug: fdc3-plans-pricing
-random_paper: 112
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Fdc3 Rate Limits
@@ -205,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/screenshots/fdc3-2026-06-20T181104.png
 security:

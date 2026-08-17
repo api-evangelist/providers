@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -54,8 +54,23 @@ apis:
 - description: Manage webhook subscriptions for real-time events.
   name: Quiltt Webhooks API
   slug: quiltt-webhooks-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quiltt Admin & Auth REST Connections API
+  slug: open-quiltt-connections-api
+- collection_type: open
+  name: Quiltt Admin & Auth REST Connections Profiles API
+  slug: open-quiltt-profiles-api
+- collection_type: open
+  name: Quiltt Admin & Auth REST Connections Session Tokens API
+  slug: open-quiltt-session-tokens-api
+- collection_type: open
+  name: Quiltt Admin & Auth REST Connections Webhooks API
+  slug: open-quiltt-webhooks-api
 - collection_type: open
   name: Quiltt Admin & Auth REST API
   slug: open-quiltt
@@ -128,7 +143,7 @@ plans:
 - name: Quiltt Plans Pricing
   plan_count: 3
   slug: quiltt-plans-pricing
-random_paper: 75
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Quiltt Rate Limits
@@ -159,7 +174,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

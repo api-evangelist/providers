@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Create, describe, update, delete, and list state machines
   name: AWS Step Functions State Machines API
   slug: step-functions-state-machines-api
-artifact_total: 17
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Step Functions State Machines API
+  slug: open-step-functions-state-machines-api
 - collection_type: open
   name: AWS Step Functions API
   slug: open-step-functions
@@ -135,7 +141,7 @@ plans:
 - name: Step Functions Plans Pricing
   plan_count: 3
   slug: step-functions-plans-pricing
-random_paper: 34
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Step Functions Rate Limits
@@ -177,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/step-functions/refs/heads/main/screenshots/step-functions-2026-06-20T194541.png
 security:

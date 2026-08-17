@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The storefront's agent-facing commerce surface, implementing the Universal Commerce Protocol (UCP) over a hosted MCP endpoint for catalog search, cart, checkout, fulfillment and order tracking. Checko
@@ -92,7 +92,7 @@ overview: 'Barn & Willow publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Barn & Willow''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 46
+random_paper: 145
 scopes:
 - name: Barn And Willow Scopes
   scope_count: 4
@@ -114,7 +114,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barn-and-willow/refs/heads/main/screenshots/barn-and-willow-2026-08-07T162148.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -77,7 +77,41 @@ apis:
 - description: WebDriver session lifecycle management
   name: Appium Sessions API
   slug: appium-sessions-api
-artifact_total: 69
+artifact_total: 80
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Appium Server Actions API
+  slug: open-appium-actions-api
+- collection_type: open
+  name: Appium Server Actions Alerts API
+  slug: open-appium-alerts-api
+- collection_type: open
+  name: Appium Server Actions Appium Device API
+  slug: open-appium-appium-device-api
+- collection_type: open
+  name: Appium Server Actions Appium Session API
+  slug: open-appium-appium-session-api
+- collection_type: open
+  name: Appium Server Actions Cookies API
+  slug: open-appium-cookies-api
+- collection_type: open
+  name: Appium Server Actions Elements API
+  slug: open-appium-elements-api
+- collection_type: open
+  name: Appium Server Actions Navigation API
+  slug: open-appium-navigation-api
+- collection_type: open
+  name: Appium Server Actions Screenshots API
+  slug: open-appium-screenshots-api
+- collection_type: open
+  name: Appium Actions Server API
+  slug: open-appium-server-api
+- collection_type: open
+  name: Appium Server Actions Sessions API
+  slug: open-appium-sessions-api
 common:
 - group: operate
   title: ''
@@ -294,7 +328,7 @@ plans:
 - name: Appium Plans Pricing
   plan_count: 1
   slug: appium-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Appium Rate Limits
@@ -336,7 +370,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/screenshots/appium-2026-06-20T172316.png
 security:

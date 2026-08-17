@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: Question Answering resource management
   name: Biolevate Question Answering API
   slug: biolevate-question-answering-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Biolevate Agent API
+  slug: open-biolevate-agent-api
+- collection_type: open
+  name: Biolevate Agent Collections API
+  slug: open-biolevate-collections-api
+- collection_type: open
+  name: Biolevate Agent Extraction API
+  slug: open-biolevate-extraction-api
+- collection_type: open
+  name: Biolevate Agent Files API
+  slug: open-biolevate-files-api
+- collection_type: open
+  name: Biolevate Agent Find similar files API
+  slug: open-biolevate-find-similar-files-api
+- collection_type: open
+  name: Biolevate Agent Multi-Dimensional Extraction API
+  slug: open-biolevate-multi-dimensional-extraction-api
+- collection_type: open
+  name: Biolevate Agent Provider Items API
+  slug: open-biolevate-provider-items-api
+- collection_type: open
+  name: Biolevate Agent Providers API
+  slug: open-biolevate-providers-api
+- collection_type: open
+  name: Biolevate Agent Question Answering API
+  slug: open-biolevate-question-answering-api
 common:
 - group: docs
   title: ''
@@ -199,7 +230,7 @@ overview: 'Biolevate publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Biolevate''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 115
+random_paper: 61
 score:
   band: thin
   composite: 40.9
@@ -229,7 +260,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/screenshots/biolevate-2026-07-25T203041.png
 security:

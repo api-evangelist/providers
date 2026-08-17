@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 4
@@ -225,7 +225,188 @@ apis:
 - description: yatai components
   name: BentoML yatai components API
   slug: bentoml-yatai-components-api
-artifact_total: 71
+artifact_total: 131
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: yatai api server admin api v1 API
+  slug: open-bentoml-admin-api-v1-api
+- collection_type: open
+  name: yatai api server admin api v1 admin deployment resource API
+  slug: open-bentoml-admin-deployment-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 api token resource API
+  slug: open-bentoml-api-token-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 api tokens API
+  slug: open-bentoml-api-tokens-api
+- collection_type: open
+  name: yatai api server admin api v1 API
+  slug: open-bentoml-api-v1-api
+- collection_type: open
+  name: yatai api server admin api v1 auth API
+  slug: open-bentoml-auth-api
+- collection_type: open
+  name: yatai api server admin api v1 bento repositories API
+  slug: open-bentoml-bento-repositories-api
+- collection_type: open
+  name: yatai api server admin api v1 bento repositories statistics API
+  slug: open-bentoml-bento-repositories-statistics-api
+- collection_type: open
+  name: yatai api server admin api v1 bento repository resource API
+  slug: open-bentoml-bento-repository-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 bento resource API
+  slug: open-bentoml-bento-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 bentos API
+  slug: open-bentoml-bentos-api
+- collection_type: open
+  name: yatai api server admin api v1 certified bento repositories API
+  slug: open-bentoml-certified-bento-repositories-api
+- collection_type: open
+  name: yatai api server admin api v1 cluster deployments API
+  slug: open-bentoml-cluster-deployments-api
+- collection_type: open
+  name: yatai api server admin api v1 cluster resource API
+  slug: open-bentoml-cluster-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 cluster resource for admin panel API
+  slug: open-bentoml-cluster-resource-for-admin-panel-api
+- collection_type: open
+  name: yatai api server admin api v1 clusters API
+  slug: open-bentoml-clusters-api
+- collection_type: open
+  name: yatai api server admin api v1 clusters for admin panel API
+  slug: open-bentoml-clusters-for-admin-panel-api
+- collection_type: open
+  name: yatai api server admin api v1 current organization resource API
+  slug: open-bentoml-current-organization-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 customer resource API
+  slug: open-bentoml-customer-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 customers API
+  slug: open-bentoml-customers-api
+- collection_type: open
+  name: yatai api server admin api v1 deployment resource API
+  slug: open-bentoml-deployment-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 deployment revision resource API
+  slug: open-bentoml-deployment-revision-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 deployment revisions API
+  slug: open-bentoml-deployment-revisions-api
+- collection_type: open
+  name: yatai api server admin api v1 deployment v2 revision resource API
+  slug: open-bentoml-deployment-v2-revision-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 deployment v2 revisions API
+  slug: open-bentoml-deployment-v2-revisions-api
+- collection_type: open
+  name: yatai api server admin api v1 endpoint resource API
+  slug: open-bentoml-endpoint-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 gpu config resource API
+  slug: open-bentoml-gpu-config-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 gpu configs API
+  slug: open-bentoml-gpu-configs-api
+- collection_type: open
+  name: yatai api server admin api v1 host cluster resource API
+  slug: open-bentoml-host-cluster-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 host_clusters API
+  slug: open-bentoml-host-clusters-api
+- collection_type: open
+  name: yatai api server admin api v1 instance_types API
+  slug: open-bentoml-instance-types-api
+- collection_type: open
+  name: yatai api server admin api v1 labels API
+  slug: open-bentoml-labels-api
+- collection_type: open
+  name: yatai api server admin api v1 lago billable metrics API
+  slug: open-bentoml-lago-billable-metrics-api
+- collection_type: open
+  name: yatai api server admin api v1 lago customer API
+  slug: open-bentoml-lago-customer-api
+- collection_type: open
+  name: yatai api server admin api v1 lago plan API
+  slug: open-bentoml-lago-plan-api
+- collection_type: open
+  name: yatai api server admin api v1 limit group resource API
+  slug: open-bentoml-limit-group-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 limit groups API
+  slug: open-bentoml-limit-groups-api
+- collection_type: open
+  name: yatai api server admin api v1 model repositories API
+  slug: open-bentoml-model-repositories-api
+- collection_type: open
+  name: yatai api server admin api v1 model repository resource API
+  slug: open-bentoml-model-repository-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 model resource API
+  slug: open-bentoml-model-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 models API
+  slug: open-bentoml-models-api
+- collection_type: open
+  name: yatai api server admin api v1 org resource for admin panel API
+  slug: open-bentoml-org-resource-for-admin-panel-api
+- collection_type: open
+  name: yatai api server admin api v1 organization resource API
+  slug: open-bentoml-organization-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 organization secrets API
+  slug: open-bentoml-organization-secrets-api
+- collection_type: open
+  name: yatai api server admin api v1 organization secrets with check message API
+  slug: open-bentoml-organization-secrets-with-check-message-api
+- collection_type: open
+  name: yatai api server admin api v1 organization secrets with template API
+  slug: open-bentoml-organization-secrets-with-template-api
+- collection_type: open
+  name: yatai api server admin api v1 plans API
+  slug: open-bentoml-plans-api
+- collection_type: open
+  name: yatai api server admin api v1 request quota API
+  slug: open-bentoml-request-quota-api
+- collection_type: open
+  name: yatai api server admin api v1 resource instance resource API
+  slug: open-bentoml-resource-instance-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 resource instances API
+  slug: open-bentoml-resource-instances-api
+- collection_type: open
+  name: yatai api server admin api v1 secret names API
+  slug: open-bentoml-secret-names-api
+- collection_type: open
+  name: yatai api server admin api v1 slim bento repositories API
+  slug: open-bentoml-slim-bento-repositories-api
+- collection_type: open
+  name: yatai api server admin api v1 terminal record resource API
+  slug: open-bentoml-terminal-record-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 usage API
+  slug: open-bentoml-usage-api
+- collection_type: open
+  name: yatai api server admin api v1 user resource API
+  slug: open-bentoml-user-resource-api
+- collection_type: open
+  name: yatai api server admin api v1 users API
+  slug: open-bentoml-users-api
+- collection_type: open
+  name: yatai api server admin api v1 websocket v1 API
+  slug: open-bentoml-websocket-v1-api
+- collection_type: open
+  name: yatai api server admin api v1 websocket v2 API
+  slug: open-bentoml-websocket-v2-api
+- collection_type: open
+  name: yatai api server admin api v1 yatai components API
+  slug: open-bentoml-yatai-components-api
 common:
 - group: agent
   title: ''
@@ -335,7 +516,7 @@ plans:
 - name: Bentoml Plans Pricing
   plan_count: 3
   slug: bentoml-plans-pricing
-random_paper: 33
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Bentoml Rate Limits
@@ -369,7 +550,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/screenshots/bentoml-2026-06-20T173142.png
 security:

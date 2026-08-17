@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Biological sequence management for DNA, RNA, and protein sequences
   name: Scispot Sequences API
   slug: scispot-sequences-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scispot ELN API
+  slug: open-scispot-eln-api
+- collection_type: open
+  name: Scispot ELN Labsheets API
+  slug: open-scispot-labsheets-api
+- collection_type: open
+  name: Scispot ELN Manifests API
+  slug: open-scispot-manifests-api
+- collection_type: open
+  name: Scispot ELN Samples API
+  slug: open-scispot-samples-api
+- collection_type: open
+  name: Scispot ELN Sequences API
+  slug: open-scispot-sequences-api
 - collection_type: open
   name: Scispot API
   slug: open-scispot
@@ -138,7 +156,7 @@ plans:
 - name: Scispot Plans Pricing
   plan_count: 3
   slug: scispot-plans-pricing
-random_paper: 53
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Scispot Rate Limits
@@ -186,7 +204,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/screenshots/scispot-2026-06-20T193537.png
 security:

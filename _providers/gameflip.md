@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Account and wallet service.
@@ -49,7 +49,29 @@ apis:
 - description: Escrow Steam items.
   name: Gameflip Steam Escrow API
   slug: gameflip-steam-escrow-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gameflip API (GFAPI) Account API
+  slug: open-gameflip-account-api
+- collection_type: open
+  name: Gameflip API (GFAPI) Account Exchange API
+  slug: open-gameflip-exchange-api
+- collection_type: open
+  name: Gameflip API (GFAPI) Account Listing API
+  slug: open-gameflip-listing-api
+- collection_type: open
+  name: Gameflip API (GFAPI) Account Profile API
+  slug: open-gameflip-profile-api
+- collection_type: open
+  name: Gameflip API (GFAPI) Account Steam Bulk API
+  slug: open-gameflip-steam-bulk-api
+- collection_type: open
+  name: Gameflip API (GFAPI) Account Steam Escrow API
+  slug: open-gameflip-steam-escrow-api
 common:
 - group: agent
   title: ''
@@ -143,7 +165,7 @@ overview: 'Gameflip publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gameflip''s developer surface includes getting-started guide, documentation, API reference, support, engineering blog, signup flow, authentication, and 12 more developer resources.'
-random_paper: 117
+random_paper: 92
 rate_limits:
 - limit_count: 1
   name: Gameflip Rate Limits
@@ -176,7 +198,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png
 security:

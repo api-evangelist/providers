@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -54,7 +54,7 @@ apis:
 - description: Manage inbound webhooks
   name: Albato A Single No Code Platform For All Automations Webhooks API
   slug: albato-a-single-no-code-platform-for-all-automations-webhooks-api
-artifact_total: 58
+artifact_total: 64
 collections:
 - collection_type: postman
   name: Albato Automations Apps API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Albato Automations Apps Webhooks API
   slug: postman-albato-a-single-no-code-platform-for-all-automations-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Albato Automations Apps API
+  slug: open-albato-a-single-no-code-platform-for-all-automations-apps-api
+- collection_type: open
+  name: Albato Apps Automations API
+  slug: open-albato-a-single-no-code-platform-for-all-automations-automations-api
+- collection_type: open
+  name: Albato Automations Apps Connections API
+  slug: open-albato-a-single-no-code-platform-for-all-automations-connections-api
+- collection_type: open
+  name: Albato Automations Apps Executions API
+  slug: open-albato-a-single-no-code-platform-for-all-automations-executions-api
+- collection_type: open
+  name: Albato Automations Apps Webhooks API
+  slug: open-albato-a-single-no-code-platform-for-all-automations-webhooks-api
 common:
 - group: other
   title: ''
@@ -273,7 +291,7 @@ plans:
 - name: Albato A Single No Code Platform For All Automations Plans Pricing
   plan_count: 3
   slug: albato-a-single-no-code-platform-for-all-automations-plans-pricing
-random_paper: 31
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Albato A Single No Code Platform For All Automations Rate Limits
@@ -325,7 +343,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/screenshots/albato-a-single-no-code-platform-for-all-automations-2026-07-25T195539.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Shoreline is an incident automation platform that enables operators to build automated remediation for recurring incidents.
@@ -72,7 +72,7 @@ plans:
 - name: Shoreline Plans Pricing
   plan_count: 3
   slug: shoreline-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Shoreline Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 208
   human_in_the_loop: 23
@@ -159,8 +159,122 @@ apis:
 - description: The Webhooks API from Dynamic — 5 operation(s) for webhooks.
   name: Dynamic Webhooks API
   slug: dynamic-xyz-webhooks-api
-artifact_total: 49
+artifact_total: 87
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dashboard Allowlists API
+  slug: open-dynamic-xyz-allowlists-api
+- collection_type: open
+  name: Dashboard Allowlists Analytics API
+  slug: open-dynamic-xyz-analytics-api
+- collection_type: open
+  name: Dashboard Allowlists Chainalysis API
+  slug: open-dynamic-xyz-chainalysis-api
+- collection_type: open
+  name: Dashboard Allowlists Chains API
+  slug: open-dynamic-xyz-chains-api
+- collection_type: open
+  name: Dashboard Allowlists Custom Fields API
+  slug: open-dynamic-xyz-custom-fields-api
+- collection_type: open
+  name: Dashboard Allowlists Custom Networks API
+  slug: open-dynamic-xyz-custom-networks-api
+- collection_type: open
+  name: Dashboard Allowlists CustomHostnames API
+  slug: open-dynamic-xyz-customhostnames-api
+- collection_type: open
+  name: Dashboard Allowlists DeeplinkUrls API
+  slug: open-dynamic-xyz-deeplinkurls-api
+- collection_type: open
+  name: Dashboard Allowlists Environments API
+  slug: open-dynamic-xyz-environments-api
+- collection_type: open
+  name: Dashboard Allowlists Events API
+  slug: open-dynamic-xyz-events-api
+- collection_type: open
+  name: Dashboard Allowlists Exports API
+  slug: open-dynamic-xyz-exports-api
+- collection_type: open
+  name: Dashboard Allowlists ExternalJwt API
+  slug: open-dynamic-xyz-externaljwt-api
+- collection_type: open
+  name: Dashboard Allowlists Gates API
+  slug: open-dynamic-xyz-gates-api
+- collection_type: open
+  name: Dashboard Allowlists GlobalWalletAccessControl API
+  slug: open-dynamic-xyz-globalwalletaccesscontrol-api
+- collection_type: open
+  name: Dashboard Allowlists GlobalWalletConnections API
+  slug: open-dynamic-xyz-globalwalletconnections-api
+- collection_type: open
+  name: Dashboard Allowlists GlobalWallets API
+  slug: open-dynamic-xyz-globalwallets-api
+- collection_type: open
+  name: Dashboard Allowlists Invites API
+  slug: open-dynamic-xyz-invites-api
+- collection_type: open
+  name: Dashboard Allowlists Members API
+  slug: open-dynamic-xyz-members-api
+- collection_type: open
+  name: Dashboard Allowlists Mfa API
+  slug: open-dynamic-xyz-mfa-api
+- collection_type: open
+  name: Dashboard Allowlists MfaSettings API
+  slug: open-dynamic-xyz-mfasettings-api
+- collection_type: open
+  name: Dashboard Allowlists NameServices API
+  slug: open-dynamic-xyz-nameservices-api
+- collection_type: open
+  name: Dashboard Allowlists Organizations API
+  slug: open-dynamic-xyz-organizations-api
+- collection_type: open
+  name: Dashboard Allowlists Origins API
+  slug: open-dynamic-xyz-origins-api
+- collection_type: open
+  name: Dashboard Allowlists Projects API
+  slug: open-dynamic-xyz-projects-api
+- collection_type: open
+  name: Dashboard Allowlists SDK API
+  slug: open-dynamic-xyz-sdk-api
+- collection_type: open
+  name: Dashboard Allowlists SDK Views API
+  slug: open-dynamic-xyz-sdk-views-api
+- collection_type: open
+  name: Dashboard Allowlists Sessions API
+  slug: open-dynamic-xyz-sessions-api
+- collection_type: open
+  name: Dashboard Allowlists Settings API
+  slug: open-dynamic-xyz-settings-api
+- collection_type: open
+  name: Dashboard Allowlists TestAccount API
+  slug: open-dynamic-xyz-testaccount-api
+- collection_type: open
+  name: Dashboard Allowlists Tokens API
+  slug: open-dynamic-xyz-tokens-api
+- collection_type: open
+  name: Dashboard Allowlists UserApiTokens API
+  slug: open-dynamic-xyz-userapitokens-api
+- collection_type: open
+  name: Dashboard Allowlists Users API
+  slug: open-dynamic-xyz-users-api
+- collection_type: open
+  name: Dashboard Allowlists Visits API
+  slug: open-dynamic-xyz-visits-api
+- collection_type: open
+  name: Dashboard Allowlists Waas API
+  slug: open-dynamic-xyz-waas-api
+- collection_type: open
+  name: Dashboard Allowlists WalletConnect API
+  slug: open-dynamic-xyz-walletconnect-api
+- collection_type: open
+  name: Dashboard Allowlists Wallets API
+  slug: open-dynamic-xyz-wallets-api
+- collection_type: open
+  name: Dashboard Allowlists Webhooks API
+  slug: open-dynamic-xyz-webhooks-api
 - collection_type: open
   name: Dashboard API
   slug: open-dynamic-xyz
@@ -229,7 +343,7 @@ plans:
 - name: Dynamic Xyz Plans Pricing
   plan_count: 3
   slug: dynamic-xyz-plans-pricing
-random_paper: 69
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: Dynamic Xyz Rate Limits
@@ -260,7 +374,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic-xyz/refs/heads/main/screenshots/dynamic-xyz-2026-06-20T180335.png
 security:

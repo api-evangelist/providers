@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 598
   human_in_the_loop: 291
@@ -368,11 +368,360 @@ apis:
 - description: The workspace-template-controller API from Events.com — 2 operation(s) for workspace-template-controller.
   name: Events.com Workspace Template Controller API
   slug: eventscom-workspace-template-controller-api
-artifact_total: 118
+artifact_total: 234
 asyncapis:
 - description: ''
   name: Eventscom Webhooks
   slug: eventscom-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Saasxl-api doc Agent Config Controller API
+  slug: open-eventscom-agent-config-controller-api
+- collection_type: open
+  name: Saasxl-api doc Agent Config Migration Controller API
+  slug: open-eventscom-agent-config-migration-controller-api
+- collection_type: open
+  name: Saasxl-api doc Agent Email Controller API
+  slug: open-eventscom-agent-email-controller-api
+- collection_type: open
+  name: Saasxl-api doc Agent Job Update Controller API
+  slug: open-eventscom-agent-job-update-controller-api
+- collection_type: open
+  name: Saasxl-api doc Agent MCP API
+  slug: open-eventscom-agent-mcp-api
+- collection_type: open
+  name: Saasxl-api doc Agent MCP Config Controller API
+  slug: open-eventscom-agent-mcp-config-controller-api
+- collection_type: open
+  name: DataGol AI Agent Memory API
+  slug: open-eventscom-agent-memory-api
+- collection_type: open
+  name: Saasxl-api doc Agent Skill Controller API
+  slug: open-eventscom-agent-skill-controller-api
+- collection_type: open
+  name: Saasxl-api doc Agent Template Controller API
+  slug: open-eventscom-agent-template-controller-api
+- collection_type: open
+  name: Saasxl-api doc AI Feedback Controller API
+  slug: open-eventscom-ai-feedback-controller-api
+- collection_type: open
+  name: Saasxl-api doc AI Third Party Page Controller API
+  slug: open-eventscom-ai-third-party-page-controller-api
+- collection_type: open
+  name: Saasxl-api doc Alert Controller API
+  slug: open-eventscom-alert-controller-api
+- collection_type: open
+  name: Saasxl-api doc Alert History API
+  slug: open-eventscom-alert-history-api
+- collection_type: open
+  name: Saasxl-api doc Alert Notification History Controller API
+  slug: open-eventscom-alert-notification-history-controller-api
+- collection_type: open
+  name: Saasxl-api doc API Post Workflow Test Controller API
+  slug: open-eventscom-api-post-workflow-test-controller-api
+- collection_type: open
+  name: Saasxl-api doc AppX Deployment API
+  slug: open-eventscom-appx-deployment-api
+- collection_type: open
+  name: Saasxl-api doc Bi Page Controller API
+  slug: open-eventscom-bi-page-controller-api
+- collection_type: open
+  name: DataGol AI Bi Rag API
+  slug: open-eventscom-bi-rag-api
+- collection_type: open
+  name: Saasxl-api doc Biv 1 Controller API
+  slug: open-eventscom-biv-1-controller-api
+- collection_type: open
+  name: Saasxl-api doc Biv 2 Controller API
+  slug: open-eventscom-biv-2-controller-api
+- collection_type: open
+  name: Saasxl-api doc Cache Controller API
+  slug: open-eventscom-cache-controller-api
+- collection_type: open
+  name: Saasxl-api doc Catalog Search Controller API
+  slug: open-eventscom-catalog-search-controller-api
+- collection_type: open
+  name: Saasxl-api doc Chat Conversation Controller API
+  slug: open-eventscom-chat-conversation-controller-api
+- collection_type: open
+  name: Saasxl-api doc Comment Controller API
+  slug: open-eventscom-comment-controller-api
+- collection_type: open
+  name: Saasxl-api doc Company Ontology Controller API
+  slug: open-eventscom-company-ontology-controller-api
+- collection_type: open
+  name: Saasxl-api doc Company Unstructured Data Controller API
+  slug: open-eventscom-company-unstructured-data-controller-api
+- collection_type: open
+  name: Saasxl-api doc Config Controller API
+  slug: open-eventscom-config-controller-api
+- collection_type: open
+  name: Saasxl-api doc Connector Controller API
+  slug: open-eventscom-connector-controller-api
+- collection_type: open
+  name: Saasxl-api doc Conversation Controller API
+  slug: open-eventscom-conversation-controller-api
+- collection_type: open
+  name: DataGol AI Conversation File Upload API
+  slug: open-eventscom-conversation-file-upload-api
+- collection_type: open
+  name: DataGol AI Conversation Message V2 API
+  slug: open-eventscom-conversation-message-v2-api
+- collection_type: open
+  name: DataGol AI Conversation V2 API
+  slug: open-eventscom-conversation-v2-api
+- collection_type: open
+  name: Saasxl-api doc Custom Agents API
+  slug: open-eventscom-custom-agents-api
+- collection_type: open
+  name: DataGol AI Data Download API
+  slug: open-eventscom-data-download-api
+- collection_type: open
+  name: DataGol AI Data Extraction API
+  slug: open-eventscom-data-extraction-api
+- collection_type: open
+  name: Saasxl-api doc Data Pipeline Controller API
+  slug: open-eventscom-data-pipeline-controller-api
+- collection_type: open
+  name: Saasxl-api doc Data Pipeline Controller V2 API
+  slug: open-eventscom-data-pipeline-controller-v2-api
+- collection_type: open
+  name: Saasxl-api doc Data Quality Controller API
+  slug: open-eventscom-data-quality-controller-api
+- collection_type: open
+  name: Saasxl-api doc Data Source Migration Controller API
+  slug: open-eventscom-data-source-migration-controller-api
+- collection_type: open
+  name: DataGol AI Data Source Tables Controller API
+  slug: open-eventscom-data-source-tables-controller-api
+- collection_type: open
+  name: Saasxl-api doc Data Sources Controller API
+  slug: open-eventscom-data-sources-controller-api
+- collection_type: open
+  name: DataGol AI
+  slug: open-eventscom-datagol-ai
+- collection_type: open
+  name: Saasxl-api doc
+  slug: open-eventscom-datagol-platform
+- collection_type: open
+  name: DataGol AI
+  slug: open-eventscom-datagol-python-agent
+- collection_type: open
+  name: DataGol AI Document Validation Demo API
+  slug: open-eventscom-document-validation-demo-api
+- collection_type: open
+  name: Saasxl-api doc Element Link Controller API
+  slug: open-eventscom-element-link-controller-api
+- collection_type: open
+  name: Saasxl-api doc Element Permissions API
+  slug: open-eventscom-element-permissions-api
+- collection_type: open
+  name: Saasxl-api doc Etl Controller API
+  slug: open-eventscom-etl-controller-api
+- collection_type: open
+  name: Saasxl-api doc External Controller API
+  slug: open-eventscom-external-controller-api
+- collection_type: open
+  name: Saasxl-api doc External Embedding Config Controller API
+  slug: open-eventscom-external-embedding-config-controller-api
+- collection_type: open
+  name: Saasxl-api doc Extraction Controller API
+  slug: open-eventscom-extraction-controller-api
+- collection_type: open
+  name: Saasxl-api doc File Controller API
+  slug: open-eventscom-file-controller-api
+- collection_type: open
+  name: Saasxl-api doc Folder Controller API
+  slug: open-eventscom-folder-controller-api
+- collection_type: open
+  name: Saasxl-api doc Formula Processing Controller API
+  slug: open-eventscom-formula-processing-controller-api
+- collection_type: open
+  name: DataGol AI Gemini File Search (deprecated) Gemini File Search (deprecated) API
+  slug: open-eventscom-gemini-file-search-deprecated-api
+- collection_type: open
+  name: DataGol AI Global ID API
+  slug: open-eventscom-global-id-api
+- collection_type: open
+  name: Eventscom health check API
+  slug: open-eventscom-health-check-api
+- collection_type: open
+  name: Saasxl-api doc Health Check Controller API
+  slug: open-eventscom-health-check-controller-api
+- collection_type: open
+  name: DataGol AI Home Chat Agent APIs API
+  slug: open-eventscom-home-chat-agent-apis-api
+- collection_type: open
+  name: Saasxl-api doc IDP API
+  slug: open-eventscom-idp-api
+- collection_type: open
+  name: DataGol AI Internal API
+  slug: open-eventscom-internal-api
+- collection_type: open
+  name: Saasxl-api doc Internal Company Controller API
+  slug: open-eventscom-internal-company-controller-api
+- collection_type: open
+  name: Saasxl-api doc Internal Login And Registration Controller API
+  slug: open-eventscom-internal-login-and-registration-controller-api
+- collection_type: open
+  name: Saasxl-api doc Internal Table Controller API
+  slug: open-eventscom-internal-table-controller-api
+- collection_type: open
+  name: Saasxl-api doc Invoice Controller API
+  slug: open-eventscom-invoice-controller-api
+- collection_type: open
+  name: DataGol AI JIRA API
+  slug: open-eventscom-jira-api
+- collection_type: open
+  name: Saasxl-api doc KB Connectors API
+  slug: open-eventscom-kb-connectors-api
+- collection_type: open
+  name: Saasxl-api doc KB Internal API
+  slug: open-eventscom-kb-internal-api
+- collection_type: open
+  name: DataGol AI Knowledge Graph API
+  slug: open-eventscom-knowledge-graph-api
+- collection_type: open
+  name: Saasxl-api doc Kyuubi Admin Controller API
+  slug: open-eventscom-kyuubi-admin-controller-api
+- collection_type: open
+  name: Saasxl-api doc Lineages Controller API
+  slug: open-eventscom-lineages-controller-api
+- collection_type: open
+  name: Saasxl-api doc MCP Connector Auth API
+  slug: open-eventscom-mcp-connector-auth-api
+- collection_type: open
+  name: Saasxl-api doc MCP Connectors API
+  slug: open-eventscom-mcp-connectors-api
+- collection_type: open
+  name: DataGol AI Memories API
+  slug: open-eventscom-memories-api
+- collection_type: open
+  name: DataGol AI Message Feedback API
+  slug: open-eventscom-message-feedback-api
+- collection_type: open
+  name: DataGol AI ML Dashboard API
+  slug: open-eventscom-ml-dashboard-api
+- collection_type: open
+  name: Saasxl-api doc No Co Db API
+  slug: open-eventscom-nocodb-api
+- collection_type: open
+  name: Saasxl-api doc No Co Db V1 API
+  slug: open-eventscom-nocodbv1-api
+- collection_type: open
+  name: Saasxl-api doc No Co Db V2 API
+  slug: open-eventscom-nocodbv2-api
+- collection_type: open
+  name: Saasxl-api doc No Co Db V3 API
+  slug: open-eventscom-nocodbv3-api
+- collection_type: open
+  name: Saasxl-api doc Node Group Config Controller API
+  slug: open-eventscom-node-group-config-controller-api
+- collection_type: open
+  name: Saasxl-api doc Orchestration Controller API
+  slug: open-eventscom-orchestration-controller-api
+- collection_type: open
+  name: Saasxl-api doc Orchestrator Controller API
+  slug: open-eventscom-orchestrator-controller-api
+- collection_type: open
+  name: Saasxl-api doc Preference Controller API
+  slug: open-eventscom-preference-controller-api
+- collection_type: open
+  name: DataGol AI Python Agent API
+  slug: open-eventscom-python-agent-api
+- collection_type: open
+  name: DataGol AI Python Agent V2 API
+  slug: open-eventscom-python-agent-v2-api
+- collection_type: open
+  name: Saasxl-api doc Query Parser Controller API
+  slug: open-eventscom-query-parser-controller-api
+- collection_type: open
+  name: DataGol AI Research API
+  slug: open-eventscom-research-api
+- collection_type: open
+  name: Saasxl-api doc Search Controller API
+  slug: open-eventscom-search-controller-api
+- collection_type: open
+  name: Saasxl-api doc Send Email Controller API
+  slug: open-eventscom-send-email-controller-api
+- collection_type: open
+  name: Saasxl-api doc Shared Item Controller API
+  slug: open-eventscom-shared-item-controller-api
+- collection_type: open
+  name: Saasxl-api doc Shared Item Email Controller API
+  slug: open-eventscom-shared-item-email-controller-api
+- collection_type: open
+  name: Saasxl-api doc Shared Item Response Controller API
+  slug: open-eventscom-shared-item-response-controller-api
+- collection_type: open
+  name: Saasxl-api doc Shared Permissions Controller API
+  slug: open-eventscom-shared-permissions-controller-api
+- collection_type: open
+  name: Saasxl-api doc Slack Messaging Controller API
+  slug: open-eventscom-slack-messaging-controller-api
+- collection_type: open
+  name: Saasxl-api doc Spark Job Controller API
+  slug: open-eventscom-spark-job-controller-api
+- collection_type: open
+  name: DataGol AI SQL Parser APIs API
+  slug: open-eventscom-sql-parser-apis-api
+- collection_type: open
+  name: Saasxl-api doc Table Migration Controller API
+  slug: open-eventscom-table-migration-controller-api
+- collection_type: open
+  name: Saasxl-api doc Third Party Page Admin Controller API
+  slug: open-eventscom-third-party-page-admin-controller-api
+- collection_type: open
+  name: Saasxl-api doc Third Party Pages API
+  slug: open-eventscom-third-party-pages-api
+- collection_type: open
+  name: Saasxl-api doc Trigger Type Controller API
+  slug: open-eventscom-trigger-type-controller-api
+- collection_type: open
+  name: Saasxl-api doc Unreal Engine Controller API
+  slug: open-eventscom-unreal-engine-controller-api
+- collection_type: open
+  name: Saasxl-api doc Widget Controller API
+  slug: open-eventscom-widget-controller-api
+- collection_type: open
+  name: Saasxl-api doc Widget V1 API
+  slug: open-eventscom-widgetv1-api
+- collection_type: open
+  name: Saasxl-api doc Work Flow Controller API
+  slug: open-eventscom-work-flow-controller-api
+- collection_type: open
+  name: Saasxl-api doc Work Flow V 2 Controller API
+  slug: open-eventscom-work-flow-v-2-controller-api
+- collection_type: open
+  name: DataGol AI Workbook Agent API
+  slug: open-eventscom-workbook-agent-api
+- collection_type: open
+  name: DataGol AI Workbook AI Generate API
+  slug: open-eventscom-workbook-ai-generate-api
+- collection_type: open
+  name: Saasxl-api doc Workbook Enrichments API
+  slug: open-eventscom-workbook-enrichments-api
+- collection_type: open
+  name: DataGol AI Workbook Generate Dashboard API
+  slug: open-eventscom-workbook-generate-dashboard-api
+- collection_type: open
+  name: DataGol AI Workflow Builder API
+  slug: open-eventscom-workflow-builder-api
+- collection_type: open
+  name: Saasxl-api doc Workflow Job Scheduler Controller API
+  slug: open-eventscom-workflow-job-scheduler-controller-api
+- collection_type: open
+  name: Saasxl-api doc Workflow Status Controller API
+  slug: open-eventscom-workflow-status-controller-api
+- collection_type: open
+  name: Saasxl-api doc Workflow Template Controller API
+  slug: open-eventscom-workflow-template-controller-api
+- collection_type: open
+  name: Saasxl-api doc Workspace Template Controller API
+  slug: open-eventscom-workspace-template-controller-api
 common:
 - group: other
   title: ''
@@ -489,7 +838,7 @@ overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Events.com''s developer surface includes API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 20
+random_paper: 86
 score:
   band: thin
   composite: 41.5
@@ -513,7 +862,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png
 security:

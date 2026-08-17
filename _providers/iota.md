@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -90,7 +90,62 @@ apis:
 - description: The Ws API from IOTA — 1 operation(s) for ws.
   name: IOTA Ws API
   slug: iota-ws-api
-artifact_total: 41
+artifact_total: 59
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wasp auth API
+  slug: open-iota-auth-api
+- collection_type: open
+  name: Wasp auth chains API
+  slug: open-iota-chains-api
+- collection_type: open
+  name: Wasp auth Coin Query API
+  slug: open-iota-coin-query-api
+- collection_type: open
+  name: Wasp auth corecontracts API
+  slug: open-iota-corecontracts-api
+- collection_type: open
+  name: Wasp auth Extended API
+  slug: open-iota-extended-api
+- collection_type: open
+  name: Wasp auth Governance API
+  slug: open-iota-governance-api
+- collection_type: open
+  name: Wasp auth Health API
+  slug: open-iota-health-api
+- collection_type: open
+  name: Wasp auth metrics API
+  slug: open-iota-metrics-api
+- collection_type: open
+  name: Wasp auth Move Utils API
+  slug: open-iota-move-utils-api
+- collection_type: open
+  name: Wasp auth node API
+  slug: open-iota-node-api
+- collection_type: open
+  name: IOTA JSON-RPC
+  slug: open-iota-openrpc
+- collection_type: open
+  name: Wasp auth Read API
+  slug: open-iota-read-api
+- collection_type: open
+  name: Wasp auth requests API
+  slug: open-iota-requests-api
+- collection_type: open
+  name: Wasp auth Transaction Builder API
+  slug: open-iota-transaction-builder-api
+- collection_type: open
+  name: Wasp auth users API
+  slug: open-iota-users-api
+- collection_type: open
+  name: Wasp auth Write API
+  slug: open-iota-write-api
+- collection_type: open
+  name: Wasp auth Ws API
+  slug: open-iota-ws-api
 common:
 - group: operate
   title: ''
@@ -277,7 +332,7 @@ plans:
 - name: Iota Plans
   plan_count: 3
   slug: iota-plans
-random_paper: 69
+random_paper: 131
 rate_limits:
 - limit_count: 4
   name: Iota Rate Limits
@@ -302,7 +357,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/screenshots/iota-2026-06-20T183535.png
 security:

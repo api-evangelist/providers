@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,7 +81,32 @@ apis:
 - description: Fetch workspace availablility and maps throughout UCL
   name: UCL Workspaces API
   slug: ucl-workspaces-api
-artifact_total: 46
+artifact_total: 54
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UCL Analytics API
+  slug: open-ucl-analytics-api
+- collection_type: open
+  name: UCL Analytics OAuth API
+  slug: open-ucl-oauth-api
+- collection_type: open
+  name: UCL Analytics Resources API
+  slug: open-ucl-resources-api
+- collection_type: open
+  name: UCL Analytics Room Bookings API
+  slug: open-ucl-room-bookings-api
+- collection_type: open
+  name: UCL Analytics Search API
+  slug: open-ucl-search-api
+- collection_type: open
+  name: UCL Analytics Timetable API
+  slug: open-ucl-timetable-api
+- collection_type: open
+  name: UCL Analytics Workspaces API
+  slug: open-ucl-workspaces-api
 common:
 - group: commercial
   title: ''
@@ -276,7 +301,7 @@ plans:
 - name: Ucl Plans Pricing
   plan_count: 2
   slug: ucl-plans-pricing
-random_paper: 84
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Ucl Rate Limits
@@ -329,7 +354,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/screenshots/ucl-2026-06-20T195940.png
 security:

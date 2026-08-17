@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,14 +60,38 @@ apis:
 - description: User attribute retrieval with a bearer access token.
   name: Login.gov UserInfo API
   slug: login-gov-userinfo-api
-artifact_total: 37
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Login.gov OpenID Connect Authentication API
+  slug: open-login-gov-authentication-api
+- collection_type: open
+  name: Login.gov OpenID Connect Authentication Authorization API
+  slug: open-login-gov-authorization-api
+- collection_type: open
+  name: Login.gov OpenID Connect Authentication Discovery API
+  slug: open-login-gov-discovery-api
+- collection_type: open
+  name: Login.gov OpenID Connect Authentication Logout API
+  slug: open-login-gov-logout-api
+- collection_type: open
+  name: Login.gov OpenID Connect Authentication Metadata API
+  slug: open-login-gov-metadata-api
 - collection_type: open
   name: Login.gov OpenID Connect API
   slug: open-login-gov-oidc
 - collection_type: open
   name: Login.gov SAML 2.0 API
   slug: open-login-gov-saml
+- collection_type: open
+  name: Login.gov OpenID Connect Authentication Token API
+  slug: open-login-gov-token-api
+- collection_type: open
+  name: Login.gov OpenID Connect Authentication UserInfo API
+  slug: open-login-gov-userinfo-api
 common:
 - group: operate
   title: ''
@@ -237,7 +261,7 @@ plans:
 - name: Login Gov Plans Pricing
   plan_count: 2
   slug: login-gov-plans-pricing
-random_paper: 74
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Login Gov Rate Limits
@@ -285,7 +309,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/screenshots/login-gov-2026-06-20T184653.png
 security:

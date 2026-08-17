@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -69,7 +69,32 @@ apis:
 - description: API health and availability
   name: NOWPayments Status API
   slug: now-payments-status-api
-artifact_total: 23
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NOWPayments Authentication API
+  slug: open-now-payments-authentication-api
+- collection_type: open
+  name: NOWPayments Authentication Currencies API
+  slug: open-now-payments-currencies-api
+- collection_type: open
+  name: NOWPayments Authentication Estimates API
+  slug: open-now-payments-estimates-api
+- collection_type: open
+  name: NOWPayments Authentication Invoices API
+  slug: open-now-payments-invoices-api
+- collection_type: open
+  name: NOWPayments Authentication Payments API
+  slug: open-now-payments-payments-api
+- collection_type: open
+  name: NOWPayments Authentication Payouts API
+  slug: open-now-payments-payouts-api
+- collection_type: open
+  name: NOWPayments Authentication Status API
+  slug: open-now-payments-status-api
 common:
 - group: agent
   title: ''
@@ -178,7 +203,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 66
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -218,7 +243,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/screenshots/now-payments-2026-06-20T190442.png
 security:

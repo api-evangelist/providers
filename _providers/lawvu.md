@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -117,11 +117,93 @@ apis:
 - description: The WebhookSubscriptions API from LawVu — 2 operation(s) for webhooksubscriptions.
   name: LawVu WebhookSubscriptions API
   slug: lawvu-webhooksubscriptions-api
-artifact_total: 33
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Lawvu Webhooks
   slug: lawvu-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LawVu Account Auth API
+  slug: open-lawvu-auth-api
+- collection_type: open
+  name: LawVu Account Auth ContractFiles API
+  slug: open-lawvu-contractfiles-api
+- collection_type: open
+  name: LawVu Account Auth ContractKeyDate API
+  slug: open-lawvu-contractkeydate-api
+- collection_type: open
+  name: LawVu Account Auth Contracts API
+  slug: open-lawvu-contracts-api
+- collection_type: open
+  name: LawVu Account Auth ContractStatusMessage API
+  slug: open-lawvu-contractstatusmessage-api
+- collection_type: open
+  name: LawVu Account Auth ContractTemplates API
+  slug: open-lawvu-contracttemplates-api
+- collection_type: open
+  name: LawVu Account Auth ContractUser API
+  slug: open-lawvu-contractuser-api
+- collection_type: open
+  name: LawVu Account Auth Emails API
+  slug: open-lawvu-emails-api
+- collection_type: open
+  name: LawVu Account Auth Features API
+  slug: open-lawvu-features-api
+- collection_type: open
+  name: LawVu Account Auth Fields API
+  slug: open-lawvu-fields-api
+- collection_type: open
+  name: LawVu Account Auth Files API
+  slug: open-lawvu-files-api
+- collection_type: open
+  name: LawVu Account Auth Folders API
+  slug: open-lawvu-folders-api
+- collection_type: open
+  name: LawVu Account Auth Invoices API
+  slug: open-lawvu-invoices-api
+- collection_type: open
+  name: LawVu Account Auth LookupFields API
+  slug: open-lawvu-lookupfields-api
+- collection_type: open
+  name: LawVu Account Auth MatterCategories API
+  slug: open-lawvu-mattercategories-api
+- collection_type: open
+  name: LawVu Account Auth MatterFiles API
+  slug: open-lawvu-matterfiles-api
+- collection_type: open
+  name: LawVu Account Auth Matters API
+  slug: open-lawvu-matters-api
+- collection_type: open
+  name: LawVu Account Auth MattersInvoices API
+  slug: open-lawvu-mattersinvoices-api
+- collection_type: open
+  name: LawVu Account Auth MatterStatusMessage API
+  slug: open-lawvu-matterstatusmessage-api
+- collection_type: open
+  name: LawVu Account Auth MatterTasks API
+  slug: open-lawvu-mattertasks-api
+- collection_type: open
+  name: LawVu Account Auth MatterTaskTemplates API
+  slug: open-lawvu-mattertasktemplates-api
+- collection_type: open
+  name: LawVu Account Auth Organisations API
+  slug: open-lawvu-organisations-api
+- collection_type: open
+  name: LawVu Account Auth Recents API
+  slug: open-lawvu-recents-api
+- collection_type: open
+  name: LawVu Account Auth Teams API
+  slug: open-lawvu-teams-api
+- collection_type: open
+  name: LawVu Account Auth Users API
+  slug: open-lawvu-users-api
+- collection_type: open
+  name: LawVu Account Auth WebhookSubscriptions API
+  slug: open-lawvu-webhooksubscriptions-api
 common:
 - group: other
   title: ''
@@ -290,7 +372,7 @@ overview: 'LawVu publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LawVu''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 79
+random_paper: 112
 score:
   band: strong
   composite: 60.7
@@ -314,7 +396,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/screenshots/lawvu-2026-07-25T224645.png
 security:

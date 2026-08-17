@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: 'Asynchronous REST API for programmatically pulling Singular''s unified marketing data — attribution, cost, ad revenue, and creative metrics — as standardized, warehouse-ready reports. Create a report, '
@@ -236,7 +236,7 @@ plans:
 - name: Singular Plans Pricing
   plan_count: 3
   slug: singular-plans-pricing
-random_paper: 29
+random_paper: 124
 rate_limits:
 - limit_count: 11
   name: Singular Rate Limits
@@ -249,7 +249,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.8
-  delta: 39.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 51.6
@@ -257,10 +257,10 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 76.3
-  previous_composite: 27.5
+  previous_composite: 66.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Singular Authentication

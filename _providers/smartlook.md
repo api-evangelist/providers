@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Create and manage webhooks
   name: Smartlook Webhooks API
   slug: smartlook-webhooks-api
-artifact_total: 14
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smartlook REST Events API
+  slug: open-smartlook-events-api
+- collection_type: open
+  name: Smartlook REST Events Funnels API
+  slug: open-smartlook-funnels-api
+- collection_type: open
+  name: Smartlook REST Events mappingFiles API
+  slug: open-smartlook-mappingfiles-api
+- collection_type: open
+  name: Smartlook REST Events Sessions API
+  slug: open-smartlook-sessions-api
+- collection_type: open
+  name: Smartlook REST Events System API
+  slug: open-smartlook-system-api
+- collection_type: open
+  name: Smartlook REST Events Visitors API
+  slug: open-smartlook-visitors-api
+- collection_type: open
+  name: Smartlook REST Events Webhooks API
+  slug: open-smartlook-webhooks-api
 common:
 - group: agent
   title: ''
@@ -158,7 +183,7 @@ plans:
 - name: Smartlook Plans Pricing
   plan_count: 4
   slug: smartlook-plans-pricing
-random_paper: 28
+random_paper: 94
 rate_limits:
 - limit_count: 0
   name: Smartlook Rate Limits
@@ -183,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/screenshots/smartlook-2026-06-20T194043.png
 security:

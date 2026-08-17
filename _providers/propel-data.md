@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The OAuth2 API from Propel — 1 operation(s) for oauth2.
   name: Propel OAuth2 API
   slug: propel-data-oauth2-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Propel GraphQL API
+  slug: open-propel-data-graphql-api
+- collection_type: open
+  name: Propel GraphQL OAuth2 API
+  slug: open-propel-data-oauth2-api
 - collection_type: open
   name: Propel API
   slug: open-propel-data
@@ -115,7 +124,7 @@ plans:
 - name: Propel Data Plans Pricing
   plan_count: 3
   slug: propel-data-plans-pricing
-random_paper: 33
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Propel Data Rate Limits
@@ -140,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/screenshots/propel-data-2026-06-20T192200.png
 security:

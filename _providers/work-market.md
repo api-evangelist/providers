@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: The Addressbook API from Work Market — 5 operation(s) for addressbook.
@@ -61,11 +61,45 @@ apis:
 - description: The UpdateCheckIn API from Work Market — 2 operation(s) for updatecheckin.
   name: Work Market UpdateCheckIn API
   slug: work-market-updatecheckin-api
-artifact_total: 24
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Work Market Webhooks
   slug: work-market-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook API
+  slug: open-work-market-addressbook-api
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook Assignments API
+  slug: open-work-market-assignments-api
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook Authorization API
+  slug: open-work-market-authorization-api
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook Constants API
+  slug: open-work-market-constants-api
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook Custom Fields API
+  slug: open-work-market-custom-fields-api
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook Labels API
+  slug: open-work-market-labels-api
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook Locations API
+  slug: open-work-market-locations-api
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook Projects API
+  slug: open-work-market-projects-api
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook Talent Pools API
+  slug: open-work-market-talent-pools-api
+- collection_type: open
+  name: Swagger spec for Work Market API v1 Addressbook UpdateCheckIn API
+  slug: open-work-market-updatecheckin-api
 common:
 - group: other
   title: ''
@@ -237,7 +271,7 @@ overview: 'Work Market publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Work Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 23 more developer resources.'
-random_paper: 60
+random_paper: 97
 score:
   band: developing
   composite: 47.0
@@ -266,7 +300,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

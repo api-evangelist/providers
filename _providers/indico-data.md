@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Exchange an API token for a short-lived JWT access token
@@ -46,7 +46,26 @@ apis:
 - description: Document processing workflows
   name: Indico Data Workflows API
   slug: indico-data-workflows-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Indico REST Authentication API
+  slug: open-indico-data-authentication-api
+- collection_type: open
+  name: Indico REST Authentication Datasets API
+  slug: open-indico-data-datasets-api
+- collection_type: open
+  name: Indico REST Authentication Storage API
+  slug: open-indico-data-storage-api
+- collection_type: open
+  name: Indico REST Authentication Submissions API
+  slug: open-indico-data-submissions-api
+- collection_type: open
+  name: Indico REST Authentication Workflows API
+  slug: open-indico-data-workflows-api
 common:
 - group: other
   title: ''
@@ -164,7 +183,7 @@ overview: 'Indico Data publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Indico Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 5
+random_paper: 42
 score:
   band: developing
   composite: 49.7
@@ -193,7 +212,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
 security:

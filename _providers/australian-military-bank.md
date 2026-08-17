@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -52,7 +52,32 @@ apis:
 - description: Banking Product endpoints
   name: Australian Military Bank Banking Products API
   slug: australian-military-bank-banking-products-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-australian-military-bank-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-australian-military-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-australian-military-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-australian-military-bank-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-australian-military-bank-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-australian-military-bank-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-australian-military-bank-banking-products-api
 common:
 - group: auth
   title: ''
@@ -158,7 +183,7 @@ overview: 'Australian Military Bank publishes 7 APIs on the [APIs.io](https://ap
 
 
   Australian Military Bank''s developer surface includes support, API reference, authentication, and 19 more developer resources.'
-random_paper: 53
+random_paper: 69
 scopes:
 - name: Australian Military Bank Scopes
   scope_count: 0
@@ -192,7 +217,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T120337.png
 security:

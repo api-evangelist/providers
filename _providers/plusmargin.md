@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The stock WordPress REST API exposed by PlusMargin's marketing site. The root discovery document at /wp-json self-identifies as "Plus Margin" (url https://plusmargin.com) and registers 237 routes acro
@@ -127,7 +127,7 @@ plans:
 - name: Plusmargin Plans Pricing
   plan_count: 0
   slug: plusmargin-plans-pricing
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Plusmargin Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.9
-  delta: 4.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -143,9 +143,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.1
+  previous_composite: 11.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

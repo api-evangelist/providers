@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Checkout Session management
@@ -56,7 +56,7 @@ apis:
 - description: Settlement batches, details, and reconciliation
   name: Super Payments Settlements API
   slug: super-payments-settlements-api
-artifact_total: 21
+artifact_total: 30
 asyncapis:
 - description: Super Payments delivers real-time event notifications to merchant-configured endpoints. Webhooks are configured per Integration in the Business Portal. Every request carries a super-signature header (
   name: Super Payments Webhooks
@@ -86,6 +86,33 @@ collections:
 - collection_type: postman
   name: Super Payments Checkout Sessions Settlements API
   slug: postman-super-payments-settlements-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Super Payments Checkout Sessions API
+  slug: open-super-payments-checkout-sessions-api
+- collection_type: open
+  name: Super Payments Checkout Sessions Customer API
+  slug: open-super-payments-customer-api
+- collection_type: open
+  name: Super Payments Checkout Sessions Payment Links API
+  slug: open-super-payments-payment-links-api
+- collection_type: open
+  name: Super Payments Checkout Sessions Payment Methods API
+  slug: open-super-payments-payment-methods-api
+- collection_type: open
+  name: Super Checkout Sessions Payments API
+  slug: open-super-payments-payments-api
+- collection_type: open
+  name: Super Payments Checkout Sessions Refunds API
+  slug: open-super-payments-refunds-api
+- collection_type: open
+  name: Super Payments Checkout Sessions Rewards API
+  slug: open-super-payments-rewards-api
+- collection_type: open
+  name: Super Payments Checkout Sessions Settlements API
+  slug: open-super-payments-settlements-api
 common:
 - group: other
   title: ''
@@ -254,7 +281,7 @@ overview: 'Super Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Super Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 45
+random_paper: 144
 rate_limits:
 - limit_count: 2
   name: Super Payments Rate Limits
@@ -287,7 +314,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

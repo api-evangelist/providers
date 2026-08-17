@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -92,7 +92,7 @@ plans:
 - name: Divergent Plans Pricing
   plan_count: 0
   slug: divergent-plans-pricing
-random_paper: 8
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Divergent Rate Limits
@@ -100,6 +100,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -107,8 +108,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 11.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Divergent Domain Security

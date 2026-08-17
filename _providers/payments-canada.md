@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,7 +58,32 @@ apis:
 - description: Corporate Creditor Identification Number (CCIN) single-lookup API returning weekly extract data for a specific corporate creditor. Registered-user access via the developer portal.
   name: CCIN Lookup API
   slug: ccin-lookup-api
-artifact_total: 15
+artifact_total: 23
+collections:
+- collection_type: open
+  name: CCIN Output API
+  slug: open-ccin-extracts-api
+- collection_type: open
+  name: CCIN Output API
+  slug: open-ccin-lookup-api
+- collection_type: open
+  name: FIF Output API
+  slug: open-fif-branch-api
+- collection_type: open
+  name: FIF Output API
+  slug: open-fif-extracts-api
+- collection_type: open
+  name: Payment Capacity Balance Report
+  slug: open-rtr-balance-report-api
+- collection_type: open
+  name: Inbound Exchange Heartbeat API
+  slug: open-rtr-inbound-csp-heartbeat-api
+- collection_type: open
+  name: Inbound Participant Payment API
+  slug: open-rtr-inbound-participant-payment-api
+- collection_type: open
+  name: Interest Report
+  slug: open-rtr-interest-report-api
 common:
 - group: auth
   title: ''
@@ -185,7 +210,7 @@ overview: 'Payments Canada publishes 8 APIs on the [APIs.io](https://apis.io/) n
 
 
   Payments Canada''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 22 more developer resources.'
-random_paper: 86
+random_paper: 36
 scopes:
 - name: Payments Canada Scopes
   scope_count: 1
@@ -220,7 +245,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/screenshots/payments-canada-2026-08-07T191642.png
 security:

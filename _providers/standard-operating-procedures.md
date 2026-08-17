@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -75,7 +75,7 @@ overview: 'Standard Operating Procedures is profiled on the [APIs.io](https://ap
 
 
   Standard Operating Procedures'' developer surface includes documentation and 2 more developer resources.'
-random_paper: 112
+random_paper: 12
 rules:
 - name: Standard Operating Procedures API Rules
   rule_count: 7
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/standard-operating-procedures/refs/heads/main/screenshots/standard-operating-procedures-2026-06-20T194459.png
 slug: standard-operating-procedures

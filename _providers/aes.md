@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Mosaic is an AI-powered intelligent bidding application developed by Fluence (an AES and Siemens company) for optimizing energy market participation. Mosaic automates bidding strategies for battery en
@@ -145,7 +145,7 @@ press:
 - date: '2026-05-25'
   title: AES Deploys AI Safety Platform in U.S. Operations
   url: https://www.prnewswire.com/news-releases/aes-deploys-ai-safety-platform-in-us-operations-302711682.html
-random_paper: 73
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Aes Rate Limits
@@ -169,7 +169,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/screenshots/aes-2026-06-20T165545.png
 security:

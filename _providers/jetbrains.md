@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -138,20 +138,119 @@ apis:
 - description: Time tracking and work item management
   name: JetBrains Work Items API
   slug: jetbrains-work-items-api
-artifact_total: 54
+artifact_total: 87
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JetBrains Hub REST Activities API
+  slug: open-jetbrains-activities-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Agent Pools API
+  slug: open-jetbrains-agent-pools-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Agents API
+  slug: open-jetbrains-agents-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Agile Boards API
+  slug: open-jetbrains-agile-boards-api
+- collection_type: open
+  name: JetBrains Hub REST Activities API Model API
+  slug: open-jetbrains-api-model-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Applications API
+  slug: open-jetbrains-applications-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Automation API
+  slug: open-jetbrains-automation-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Build Configurations API
+  slug: open-jetbrains-build-configurations-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Build Queue API
+  slug: open-jetbrains-build-queue-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Builds API
+  slug: open-jetbrains-builds-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Changes API
+  slug: open-jetbrains-changes-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Chats API
+  slug: open-jetbrains-chats-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Groups API
+  slug: open-jetbrains-groups-api
 - collection_type: open
   name: JetBrains Hub REST API
   slug: open-jetbrains-hub
 - collection_type: open
+  name: JetBrains Hub REST Activities Issues API
+  slug: open-jetbrains-issues-api
+- collection_type: open
+  name: JetBrains Hub REST Activities IssueTags API
+  slug: open-jetbrains-issuetags-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Licenses API
+  slug: open-jetbrains-licenses-api
+- collection_type: open
   name: JetBrains Marketplace API
   slug: open-jetbrains-marketplace
+- collection_type: open
+  name: JetBrains Hub REST Activities OAuth2 API
+  slug: open-jetbrains-oauth2-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Packages API
+  slug: open-jetbrains-packages-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Permissions API
+  slug: open-jetbrains-permissions-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Plugin Download API
+  slug: open-jetbrains-plugin-download-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Plugin Upload API
+  slug: open-jetbrains-plugin-upload-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Plugins API
+  slug: open-jetbrains-plugins-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Projects API
+  slug: open-jetbrains-projects-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Roles API
+  slug: open-jetbrains-roles-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Saved Queries API
+  slug: open-jetbrains-saved-queries-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Server API
+  slug: open-jetbrains-server-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Services API
+  slug: open-jetbrains-services-api
 - collection_type: open
   name: JetBrains Space HTTP API
   slug: open-jetbrains-space
 - collection_type: open
+  name: JetBrains Hub REST Activities Team Directory API
+  slug: open-jetbrains-team-directory-api
+- collection_type: open
   name: JetBrains TeamCity REST API
   slug: open-jetbrains-teamcity
+- collection_type: open
+  name: JetBrains Hub REST Activities Tests API
+  slug: open-jetbrains-tests-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Users API
+  slug: open-jetbrains-users-api
+- collection_type: open
+  name: JetBrains Hub REST Activities VCS Roots API
+  slug: open-jetbrains-vcs-roots-api
+- collection_type: open
+  name: JetBrains Hub REST Activities Work Items API
+  slug: open-jetbrains-work-items-api
 - collection_type: open
   name: JetBrains YouTrack REST API
   slug: open-jetbrains-youtrack
@@ -247,7 +346,7 @@ plans:
 - name: Jetbrains Plans Pricing
   plan_count: 7
   slug: jetbrains-plans-pricing
-random_paper: 2
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Jetbrains Rate Limits
@@ -281,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/screenshots/jetbrains-2026-06-20T183725.png
 security:

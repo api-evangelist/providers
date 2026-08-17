@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 2
@@ -212,11 +212,189 @@ apis:
 - description: The Users API from tread.io — 23 operation(s) for users.
   name: tread.io Users API
   slug: treadio-users-api
-artifact_total: 63
+artifact_total: 122
 asyncapis:
 - description: ''
   name: Treadio Webhooks
   slug: treadio-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier API
+  slug: open-treadio-accountexternaltruckidentifier-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Accounts API
+  slug: open-treadio-accounts-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier AddOnCharges API
+  slug: open-treadio-addoncharges-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier AddOns API
+  slug: open-treadio-addons-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Agave API
+  slug: open-treadio-agave-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier ApprovalAssignments API
+  slug: open-treadio-approvalassignments-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Authentication API
+  slug: open-treadio-authentication-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier AutoAddOnAssignments API
+  slug: open-treadio-autoaddonassignments-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Companies API
+  slug: open-treadio-companies-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier CompanyDayJobStats API
+  slug: open-treadio-companydayjobstats-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier CompanyShares API
+  slug: open-treadio-companyshares-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Compliance API
+  slug: open-treadio-compliance-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier ComplianceDocuments API
+  slug: open-treadio-compliancedocuments-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Departments API
+  slug: open-treadio-departments-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier DriverDays API
+  slug: open-treadio-driverdays-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Drivers API
+  slug: open-treadio-drivers-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier DriverStateEvent API
+  slug: open-treadio-driverstateevent-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Equipment API
+  slug: open-treadio-equipment-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier EquipmentType API
+  slug: open-treadio-equipmenttype-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier FileAttachments API
+  slug: open-treadio-fileattachments-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Foremen API
+  slug: open-treadio-foremen-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier FuelSurcharges API
+  slug: open-treadio-fuelsurcharges-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier GeofenceTriggers API
+  slug: open-treadio-geofencetriggers-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier IamRoles API
+  slug: open-treadio-iamroles-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Integrations API
+  slug: open-treadio-integrations-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Invoices API
+  slug: open-treadio-invoices-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier JobAssignments API
+  slug: open-treadio-jobassignments-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Jobs API
+  slug: open-treadio-jobs-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier JobSummaries API
+  slug: open-treadio-jobsummaries-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier KMLFiles API
+  slug: open-treadio-kmlfiles-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Labels API
+  slug: open-treadio-labels-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier LineItemType API
+  slug: open-treadio-lineitemtype-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier LoadCycles API
+  slug: open-treadio-loadcycles-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Loads API
+  slug: open-treadio-loads-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier LoadSummaries API
+  slug: open-treadio-loadsummaries-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier LocationHistories API
+  slug: open-treadio-locationhistories-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier MaterialRates API
+  slug: open-treadio-materialrates-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Materials API
+  slug: open-treadio-materials-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier MaterialType API
+  slug: open-treadio-materialtype-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier OmniReports API
+  slug: open-treadio-omnireports-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Orders API
+  slug: open-treadio-orders-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Projects API
+  slug: open-treadio-projects-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Rates API
+  slug: open-treadio-rates-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Reflection API
+  slug: open-treadio-reflection-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier ResourceScopes API
+  slug: open-treadio-resourcescopes-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier ResourceUsageLogs API
+  slug: open-treadio-resourceusagelogs-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier ServiceClass API
+  slug: open-treadio-serviceclass-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Services API
+  slug: open-treadio-services-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Settlements API
+  slug: open-treadio-settlements-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier SiteRateSchedules API
+  slug: open-treadio-siterateschedules-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Sites API
+  slug: open-treadio-sites-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Telematics API
+  slug: open-treadio-telematics-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Tickets API
+  slug: open-treadio-tickets-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier TravelledDistances API
+  slug: open-treadio-travelleddistances-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier TwilioIntegrations API
+  slug: open-treadio-twiliointegrations-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Typeaheads API
+  slug: open-treadio-typeaheads-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier UserDevicePermission API
+  slug: open-treadio-userdevicepermission-api
+- collection_type: open
+  name: Horizon API V1 AccountExternalTruckIdentifier Users API
+  slug: open-treadio-users-api
 common:
 - group: company
   title: ''
@@ -345,7 +523,7 @@ overview: 'tread.io publishes 58 APIs on the [APIs.io](https://apis.io/) network
 
 
   tread.io''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 20 more developer resources.'
-random_paper: 24
+random_paper: 148
 score:
   band: developing
   composite: 51.6
@@ -369,7 +547,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,11 @@ apis:
 - description: The Opendatasoft Explore API v2.1 served from the SSEN Transmission Open Data Portal, exposing 60 CC BY 4.0 transmission datasets — Electricity Ten Year Statement circuits and fault levels, ground inv
   name: SSEN Transmission Open Data Explore API
   slug: ssen-transmission-open-data-explore-api
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Explore API
+  slug: open-ssen-transmission-opendatasoft-explore-v2
 common:
 - group: agent
   title: ''
@@ -200,7 +204,7 @@ overview: 'Scottish and Southern Electricity Networks publishes 1 API on the [AP
 
 
   Scottish and Southern Electricity Networks'' developer surface includes authentication, getting-started guide, support, engineering blog, signup flow, documentation, developer portal, and 28 more developer resources.'
-random_paper: 81
+random_paper: 143
 rate_limits:
 - limit_count: 1
   name: Ssen Rate Limits
@@ -229,7 +233,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

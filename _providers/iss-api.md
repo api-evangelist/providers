@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,17 @@ apis:
 - description: Endpoints for retrieving the current position of the International Space Station
   name: ISS Location API (Open Notify) ISS Location API
   slug: iss-api-iss-location-api
-artifact_total: 14
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ISS Location API (Open Notify) Astronauts API
+  slug: open-iss-api-astronauts-api
+- collection_type: open
+  name: API (Open Notify) Astronauts ISS Location API
+  slug: open-iss-api-iss-location-api
 common:
 - group: operate
   title: ''
@@ -127,7 +137,7 @@ plans:
 - name: Iss Api Plans
   plan_count: 1
   slug: iss-api-plans
-random_paper: 94
+random_paper: 98
 rate_limits:
 - limit_count: 2
   name: Iss Api Rate Limits
@@ -161,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/screenshots/iss-api-2026-06-20T183624.png
 security:

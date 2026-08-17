@@ -28,17 +28,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Receive data from remote device.
   name: UBTech subscriptions API
   slug: ubtech-subscriptions-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Ubtech Yanshee Subscriptions Webhooks
   slug: ubtech-yanshee-subscriptions-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yanshee Open ADK subscriptions API
+  slug: open-ubtech-subscriptions-api
 common:
 - group: company
   title: ''
@@ -151,7 +158,7 @@ overview: 'UBTech publishes 1 API on the [APIs.io](https://apis.io/) network: su
 
 
   UBTech''s developer surface includes documentation, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 35
+random_paper: 39
 score:
   band: thin
   composite: 40.2
@@ -174,7 +181,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

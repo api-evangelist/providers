@@ -27,13 +27,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: vaynermedia.com is a self-hosted WordPress site on WP Engine, and it leaves the WordPress REST API open for anonymous reads at https://vaynermedia.com/wp-json/. The site's own route index registers 36
   name: VaynerMedia WordPress Content API
   slug: wordpress-content-api
-artifact_total: 5
+artifact_total: 6
+collections:
+- collection_type: open
+  name: VaynerMedia WordPress Content API
+  slug: open-vaynermedia-wordpress-content
 common:
 - group: auth
   title: ''
@@ -204,7 +208,7 @@ plans:
 - name: Vaynermedia Plans Pricing
   plan_count: 0
   slug: vaynermedia-plans-pricing
-random_paper: 93
+random_paper: 130
 rate_limits:
 - limit_count: 0
   name: Vaynermedia Rate Limits
@@ -212,7 +216,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.7
-  delta: 26.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.0
@@ -220,10 +224,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 7.3
+  previous_composite: 33.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png
 security:
 - kind: authentication

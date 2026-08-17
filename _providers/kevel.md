@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -81,8 +81,41 @@ apis:
 - description: Manage zones.
   name: Kevel Zones API
   slug: kevel-zones-api
-artifact_total: 22
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kevel APIs Ads API
+  slug: open-kevel-ads-api
+- collection_type: open
+  name: Kevel APIs Ads Advertisers API
+  slug: open-kevel-advertisers-api
+- collection_type: open
+  name: Kevel APIs Ads Campaigns API
+  slug: open-kevel-campaigns-api
+- collection_type: open
+  name: Kevel APIs Ads Channels API
+  slug: open-kevel-channels-api
+- collection_type: open
+  name: Kevel APIs Ads Creatives API
+  slug: open-kevel-creatives-api
+- collection_type: open
+  name: Kevel APIs Ads Decision API
+  slug: open-kevel-decision-api
+- collection_type: open
+  name: Kevel APIs Ads Flights API
+  slug: open-kevel-flights-api
+- collection_type: open
+  name: Kevel APIs Ads Reporting API
+  slug: open-kevel-reporting-api
+- collection_type: open
+  name: Kevel APIs Ads Sites API
+  slug: open-kevel-sites-api
+- collection_type: open
+  name: Kevel APIs Ads Zones API
+  slug: open-kevel-zones-api
 - collection_type: open
   name: Kevel APIs
   slug: open-kevel
@@ -163,7 +196,7 @@ plans:
 - name: Kevel Plans Pricing
   plan_count: 3
   slug: kevel-plans-pricing
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Kevel Rate Limits
@@ -188,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/screenshots/kevel-2026-06-20T184002.png
 security:

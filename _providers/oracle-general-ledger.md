@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -93,8 +93,35 @@ apis:
 - description: The Ledger Options API from Oracle General Ledger — 1 operation(s) for ledger options.
   name: Oracle General Ledger Ledger Options API
   slug: oracle-general-ledger-ledger-options-api
-artifact_total: 25
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle General Ledger REST Accounting Periods API
+  slug: open-oracle-general-ledger-accounting-periods-api
+- collection_type: open
+  name: Oracle General Ledger REST Accounting Periods Budgetary Control API
+  slug: open-oracle-general-ledger-budgetary-control-api
+- collection_type: open
+  name: Oracle General Ledger REST Accounting Periods Currency Rates API
+  slug: open-oracle-general-ledger-currency-rates-api
+- collection_type: open
+  name: Oracle General Ledger REST Accounting Periods ERP Integrations API
+  slug: open-oracle-general-ledger-erp-integrations-api
+- collection_type: open
+  name: Oracle General Ledger REST Accounting Periods Intercompany API
+  slug: open-oracle-general-ledger-intercompany-api
+- collection_type: open
+  name: Oracle General Ledger REST Accounting Periods Journal Batches API
+  slug: open-oracle-general-ledger-journal-batches-api
+- collection_type: open
+  name: Oracle General Ledger REST Accounting Periods Ledger Balances API
+  slug: open-oracle-general-ledger-ledger-balances-api
+- collection_type: open
+  name: Oracle General Ledger REST Accounting Periods Ledger Options API
+  slug: open-oracle-general-ledger-ledger-options-api
 - collection_type: open
   name: Oracle General Ledger REST API
   slug: open-oracle-general-ledger
@@ -199,7 +226,7 @@ plans:
 - name: Oracle General Ledger Plans Pricing
   plan_count: 3
   slug: oracle-general-ledger-plans-pricing
-random_paper: 41
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Oracle General Ledger Rate Limits
@@ -224,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/screenshots/oracle-general-ledger-2026-06-20T191133.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -150,7 +150,7 @@ apis:
 - description: 'The #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API from Amazon Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.updatestatemachinealias.'
   name: 'Amazon Step Functions #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API'
   slug: amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api
-artifact_total: 465
+artifact_total: 503
 collections:
 - collection_type: postman
   name: Amazon Step Functions Executions API
@@ -263,6 +263,120 @@ collections:
 - collection_type: postman
   name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API'
   slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Step Functions Executions API
+  slug: open-amazon-step-functions-executions-api
+- collection_type: open
+  name: Amazon Step Functions Executions History API
+  slug: open-amazon-step-functions-history-api
+- collection_type: open
+  name: Amazon Step Functions Executions State Machines API
+  slug: open-amazon-step-functions-state-machines-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.CreateActivity API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-createactivity-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.CreateStateMachine API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-createstatemachine-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.CreateStateMachineAlias API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-createstatemachinealias-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DeleteActivity API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-deleteactivity-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DeleteStateMachine API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachine-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DeleteStateMachineAlias API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachinealias-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DeleteStateMachineVersion API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachineversion-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeActivity API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-describeactivity-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeExecution API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-describeexecution-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeMapRun API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-describemaprun-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeStateMachine API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-describestatemachine-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeStateMachineAlias API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-describestatemachinealias-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeStateMachineForExecution API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-describestatemachineforexecution-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.GetActivityTask API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-getactivitytask-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.GetExecutionHistory API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-getexecutionhistory-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListActivities API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-listactivities-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListExecutions API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-listexecutions-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListMapRuns API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-listmapruns-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListStateMachineAliases API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachinealiases-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListStateMachines API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachines-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListStateMachineVersions API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachineversions-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListTagsForResource API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-listtagsforresource-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.PublishStateMachineVersion API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-publishstatemachineversion-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.SendTaskFailure API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-sendtaskfailure-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.SendTaskHeartbeat API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-sendtaskheartbeat-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.SendTaskSuccess API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-sendtasksuccess-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.StartExecution API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-startexecution-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.StartSyncExecution API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-startsyncexecution-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.StopExecution API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-stopexecution-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.TagResource API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-tagresource-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.UntagResource API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-untagresource-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.UpdateMapRun API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-updatemaprun-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.UpdateStateMachine API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachine-api
+- collection_type: open
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API'
+  slug: open-amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api
 - collection_type: open
   name: Amazon Step Functions API
   slug: open-amazon-step-functions
@@ -1499,7 +1613,7 @@ plans:
 - name: Amazon Step Functions Plans Pricing
   plan_count: 3
   slug: amazon-step-functions-plans-pricing
-random_paper: 5
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Amazon Step Functions Rate Limits
@@ -1541,7 +1655,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/screenshots/amazon-step-functions-2026-06-20T171830.png
 security:

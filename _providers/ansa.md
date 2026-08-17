@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -59,11 +59,36 @@ apis:
 - description: The Transactions API from Ansa — 3 operation(s) for transactions.
   name: Ansa Transactions API
   slug: ansa-transactions-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Ansa Webhooks
   slug: ansa-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ansa Add Incentive API
+  slug: open-ansa-add-incentive-api
+- collection_type: open
+  name: Ansa Add Incentive Customer Segments API
+  slug: open-ansa-customer-segments-api
+- collection_type: open
+  name: Ansa Add Incentive Customers API
+  slug: open-ansa-customers-api
+- collection_type: open
+  name: Ansa Add Incentive Initialize Payment Session API
+  slug: open-ansa-initialize-payment-session-api
+- collection_type: open
+  name: Ansa Add Incentive Merchants API
+  slug: open-ansa-merchants-api
+- collection_type: open
+  name: Ansa Add Incentive Refunds API
+  slug: open-ansa-refunds-api
+- collection_type: open
+  name: Ansa Add Incentive Transactions API
+  slug: open-ansa-transactions-api
 common:
 - group: start
   title: ''
@@ -212,7 +237,7 @@ overview: 'Ansa publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ansa''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
-random_paper: 59
+random_paper: 121
 score:
   band: developing
   composite: 53.2
@@ -242,7 +267,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/screenshots/ansa-2026-07-25T200309.png
 security:

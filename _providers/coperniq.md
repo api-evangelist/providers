@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -123,11 +123,99 @@ apis:
 - description: The workOrders API from Coperniq — 9 operation(s) for workorders.
   name: Coperniq workOrders API
   slug: coperniq-workorders-api
-artifact_total: 34
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Coperniq Webhooks
   slug: coperniq-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Key accounts API
+  slug: open-coperniq-accounts-api
+- collection_type: open
+  name: API Key accounts ahJs API
+  slug: open-coperniq-ahjs-api
+- collection_type: open
+  name: API Key accounts appointments API
+  slug: open-coperniq-appointments-api
+- collection_type: open
+  name: API Key accounts assets API
+  slug: open-coperniq-assets-api
+- collection_type: open
+  name: API Key accounts authentication API
+  slug: open-coperniq-authentication-api
+- collection_type: open
+  name: API Key accounts bills API
+  slug: open-coperniq-bills-api
+- collection_type: open
+  name: API Key accounts calls API
+  slug: open-coperniq-calls-api
+- collection_type: open
+  name: API Key accounts catalogItems API
+  slug: open-coperniq-catalogitems-api
+- collection_type: open
+  name: API Key accounts contacts API
+  slug: open-coperniq-contacts-api
+- collection_type: open
+  name: API Key accounts files API
+  slug: open-coperniq-files-api
+- collection_type: open
+  name: API Key accounts forms API
+  slug: open-coperniq-forms-api
+- collection_type: open
+  name: API Key accounts formTemplates API
+  slug: open-coperniq-formtemplates-api
+- collection_type: open
+  name: API Key accounts invoices API
+  slug: open-coperniq-invoices-api
+- collection_type: open
+  name: API Key accounts labels API
+  slug: open-coperniq-labels-api
+- collection_type: open
+  name: API Key accounts lineItems API
+  slug: open-coperniq-lineitems-api
+- collection_type: open
+  name: API Key accounts notes API
+  slug: open-coperniq-notes-api
+- collection_type: open
+  name: API Key accounts opportunities API
+  slug: open-coperniq-opportunities-api
+- collection_type: open
+  name: API Key accounts payments API
+  slug: open-coperniq-payments-api
+- collection_type: open
+  name: API Key accounts projects API
+  slug: open-coperniq-projects-api
+- collection_type: open
+  name: API Key accounts properties API
+  slug: open-coperniq-properties-api
+- collection_type: open
+  name: API Key accounts quotes API
+  slug: open-coperniq-quotes-api
+- collection_type: open
+  name: API Key accounts reminders API
+  slug: open-coperniq-reminders-api
+- collection_type: open
+  name: API Key accounts sites API
+  slug: open-coperniq-sites-api
+- collection_type: open
+  name: API Key accounts taxes API
+  slug: open-coperniq-taxes-api
+- collection_type: open
+  name: API Key accounts users API
+  slug: open-coperniq-users-api
+- collection_type: open
+  name: API Key accounts vendors API
+  slug: open-coperniq-vendors-api
+- collection_type: open
+  name: API Key accounts workflows API
+  slug: open-coperniq-workflows-api
+- collection_type: open
+  name: API Key accounts workOrders API
+  slug: open-coperniq-workorders-api
 common:
 - group: other
   title: ''
@@ -280,7 +368,7 @@ overview: 'Coperniq publishes 28 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coperniq''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 26 more developer resources.'
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 2
   name: Coperniq Rate Limits
@@ -314,7 +402,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/screenshots/coperniq-2026-07-25T210410.png
 security:

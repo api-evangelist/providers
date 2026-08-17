@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
 - description: The Webhook Alerts API from GenLogs — 3 operation(s) for webhook alerts.
   name: GenLogs Webhook Alerts API
   slug: genlogs-webhook-alerts-api
-artifact_total: 17
+artifact_total: 28
 asyncapis:
 - description: GenLogs delivers alert.matches_found webhook notifications when detection alerts (license plate, VIN, USDOT, etc.) match roadside sensor observations. Payloads are signed with an HMAC-SHA512 signature
   name: GenLogs Alert Webhooks
@@ -76,6 +76,40 @@ asyncapis:
 - description: ''
   name: Genlogs Webhooks
   slug: genlogs-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GenLogs Alerts API
+  slug: open-genlogs-alerts-api
+- collection_type: open
+  name: GenLogs Alerts auth API
+  slug: open-genlogs-auth-api
+- collection_type: open
+  name: GenLogs Alerts Carrier API
+  slug: open-genlogs-carrier-api
+- collection_type: open
+  name: GenLogs Alerts carrier-vetting API
+  slug: open-genlogs-carrier-vetting-api
+- collection_type: open
+  name: GenLogs Alerts Compliance Rules API
+  slug: open-genlogs-compliance-rules-api
+- collection_type: open
+  name: GenLogs Alerts Facilities API
+  slug: open-genlogs-facilities-api
+- collection_type: open
+  name: GenLogs Alerts Mismatch alerts API
+  slug: open-genlogs-mismatch-alerts-api
+- collection_type: open
+  name: GenLogs Alerts Onboarded Carriers API
+  slug: open-genlogs-onboarded-carriers-api
+- collection_type: open
+  name: GenLogs Alerts Shipper API
+  slug: open-genlogs-shipper-api
+- collection_type: open
+  name: GenLogs Alerts Webhook Alerts API
+  slug: open-genlogs-webhook-alerts-api
 common:
 - group: agent
   title: ''
@@ -176,7 +210,7 @@ overview: 'GenLogs publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   GenLogs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 31
+random_paper: 6
 score:
   band: developing
   composite: 43.4
@@ -206,7 +240,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/screenshots/genlogs-2026-07-25T215622.png
 security:

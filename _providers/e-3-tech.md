@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ name: E-3 Tech
 nav: Providers
 network: true
 overview: E-3 Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investment, Private Equity, Mergers and Acquisitions, and Construction Services.
-random_paper: 62
+random_paper: 66
 score:
   band: minimal
   composite: 9.2
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e-3-tech/refs/heads/main/screenshots/e-3-tech-2026-07-25T212610.png
 slug: e-3-tech

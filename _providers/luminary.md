@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: The Valuations API from Luminary — 1 operation(s) for valuations.
   name: Luminary Valuations API
   slug: luminary-valuations-api
-artifact_total: 12
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Luminary Documents API
+  slug: open-luminary-documents-api
+- collection_type: open
+  name: Luminary Documents Entities API
+  slug: open-luminary-entities-api
+- collection_type: open
+  name: Luminary Documents Households API
+  slug: open-luminary-households-api
+- collection_type: open
+  name: Luminary Documents Individuals API
+  slug: open-luminary-individuals-api
+- collection_type: open
+  name: Luminary Documents Users API
+  slug: open-luminary-users-api
+- collection_type: open
+  name: Luminary Documents Valuations API
+  slug: open-luminary-valuations-api
 common:
 - group: other
   title: ''
@@ -178,7 +200,7 @@ overview: 'Luminary publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Luminary''s developer surface includes engineering blog, pricing, support, authentication, and 22 more developer resources.'
-random_paper: 41
+random_paper: 136
 scopes:
 - name: Luminary Scopes
   scope_count: 4
@@ -207,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/screenshots/luminary-2026-07-25T225714.png
 security:

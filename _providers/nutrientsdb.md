@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,7 +35,14 @@ arazzos:
 - description: 'Two-step flow over the free, keyless NutrientsDB Sample API: search the public 1,000-food sample by name fragment, then re-fetch the chosen record by its stable public_id. Both steps use the single pu'
   name: Resolve a food name to a NutrientsDB record and read its nutrient profile
   slug: nutrientsdb-search-then-lookup
-artifact_total: 12
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NutrientsDB Sample Foods API
+  slug: open-nutrientsdb-foods-api
 common:
 - group: agent
   title: ''
@@ -153,7 +160,7 @@ overview: 'NutrientsDB publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   NutrientsDB''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: thin
   composite: 41.2
@@ -183,7 +190,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

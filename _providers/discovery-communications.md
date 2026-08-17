@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Discovery Communications Invests $100 Million In Group ...
   url: https://www.adexchanger.com/publishers/discovery-communications-invests-100-million-group-nine-media/
-random_paper: 22
+random_paper: 9
 score:
   band: minimal
   composite: 6.1
@@ -97,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discovery-communications/refs/heads/main/screenshots/discovery-communications-2026-06-20T180049.png
 security:

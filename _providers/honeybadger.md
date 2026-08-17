@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -65,12 +65,33 @@ apis:
 - description: The Source Maps API from Honeybadger — 1 operation(s) for source maps.
   name: Honeybadger Source Maps API
   slug: honeybadger-source-maps-api
-artifact_total: 17
+artifact_total: 24
 asyncapis:
 - description: AsyncAPI description of the outbound webhook notifications Honeybadger delivers to subscriber URLs that have been configured via Project Settings > Alerts & Integrations. This surface covers the gener
   name: Honeybadger Outbound Webhook Notifications
   slug: honeybadger-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Honeybadger Check In API
+  slug: open-honeybadger-check-in-api
+- collection_type: open
+  name: Honeybadger Check In Deploys API
+  slug: open-honeybadger-deploys-api
+- collection_type: open
+  name: Honeybadger Check In Events API
+  slug: open-honeybadger-events-api
+- collection_type: open
+  name: Honeybadger Check In Notices API
+  slug: open-honeybadger-notices-api
+- collection_type: open
+  name: Honeybadger Check In Projects API
+  slug: open-honeybadger-projects-api
+- collection_type: open
+  name: Honeybadger Check In Source Maps API
+  slug: open-honeybadger-source-maps-api
 - collection_type: open
   name: Honeybadger API
   slug: open-honeybadger
@@ -154,7 +175,7 @@ overview: 'Honeybadger publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Honeybadger''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 80
+random_paper: 117
 rules:
 - name: Honeybadger API Rules
   rule_count: 8
@@ -184,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/screenshots/honeybadger-2026-06-20T182819.png
 security:

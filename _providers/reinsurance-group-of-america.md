@@ -28,8 +28,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-12'
-api_count: 2
+  scored_at: '2026-08-17'
+api_count: 4
 apis:
 - description: AURA NEXT is RGA's SaaS-based automated underwriting decision management platform powered by 40+ years of underwriting expertise. The API enables insurance carriers to integrate real-time underwriting
   name: AURA NEXT Automated Underwriting API
@@ -37,7 +37,13 @@ apis:
 - description: RGA's Digital Health Data (DHD) Risk Scoring service provides a real-time API for evaluating structured electronic medical record and medical claims data to derive actionable underwriting risk scores.
   name: Digital Health Data Risk Scoring API
   slug: digital-health-data
-artifact_total: 13
+- description: RGA's Digital Health Data (DHD) Risk Scoring service evaluates structured electronic medical record and medical claims data to derive actionable underwriting risk scores for seamless integration withi
+  name: Digital Health Data Scoring API
+  slug: digital-health-data-scoring
+- description: RGA Central provides a single point of access to exclusive applications and insights for RGA clients. The portal supports client authentication and access to underwriting tools, reporting, and analyti
+  name: RGA Central Portal API
+  slug: rga-central-portal
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -103,6 +109,34 @@ common:
   title: ''
   type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/examples/reinsurance-group-of-america-health-score-example.json
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/reinsurance-group-of-america-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.rgare.com
+- group: operate
+  title: ''
+  type: Press Releases
+  url: https://www.rgare.com/our-company/media/press-releases
+- group: company
+  title: ''
+  type: Investor Relations
+  url: https://investor.rgare.com
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/reinsurance-of-america/refs/heads/main/json-ld/reinsurance-of-america-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/reinsurance-of-america/refs/heads/main/vocabulary/reinsurance-of-america-vocabulary.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/reinsurance-group-of-america-domain-security.yml
 created: '2025-01-01'
 description: Reinsurance Group of America (RGA) is a leading global provider of life and health reinsurance and financial solutions, serving clients in more than 70 countries. RGA is the only global reinsurance company focused exclusively on life and health solutions. The company provides reinsurance, automated underwriting platforms, digital health data scoring, and financial risk management solutions to insurance carriers worldwide.
 examples:
@@ -138,13 +172,13 @@ modified: '2026-05-02'
 name: Reinsurance Group of America
 nav: Providers
 network: true
-overview: 'Reinsurance Group of America publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Health Insurance, Insurance Technology, Life Insurance, and Reinsurance.
+overview: 'Reinsurance Group of America publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Health Insurance, Insurance Technology, Life Insurance, and Reinsurance.
 
 
   The Reinsurance Group of America catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Reinsurance Group of America''s developer surface includes documentation, code examples, and 14 more developer resources.'
+  Reinsurance Group of America''s developer surface includes documentation, code examples, and 21 more developer resources.'
 plans:
 - name: Reinsurance Group Of America Plans Pricing
   plan_count: 1
@@ -165,7 +199,7 @@ press:
 - date: '2026-05-25'
   title: Reinsurance Group of America Reports Fourth Quarter Results
   url: https://investor.rgare.com/news-releases/news-release-details/reinsurance-group-america-reports-fourth-quarter-results-16?mobile=1
-random_paper: 50
+random_paper: 128
 rate_limits:
 - limit_count: 1
   name: Reinsurance Group Of America Rate Limits
@@ -181,13 +215,13 @@ rules:
   slug: reinsurance-group-of-america-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.9
-  delta: 0.0
+  composite: 21.6
+  delta: -0.3
   facets:
     commercial_clarity: 13.2
     contract_quality: 8.1
     developer_ergonomics: 8.7
-    discoverability: 68.5
+    discoverability: 64.8
     governance: 68.8
     operational_transparency: 10.5
   previous_composite: 21.9
@@ -198,9 +232,9 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/screenshots/reinsurance-group-of-america-2026-06-20T192806.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/screenshots/reinsurance-group-of-america-2026-06-20T192808.png
 security:
 - kind: domain-security
   name: Reinsurance Group Of America Domain Security

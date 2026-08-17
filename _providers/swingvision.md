@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'SwingVision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SwingVision''s developer surface includes engineering blog, documentation, support, FAQ, pricing, signup flow, changelog, and 7 more developer resources.'
-random_paper: 16
+random_paper: 24
 score:
   band: emerging
   composite: 20.5
@@ -113,7 +113,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

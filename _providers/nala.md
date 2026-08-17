@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,11 +53,30 @@ apis:
 - description: The Wallet API from NALA — 1 operation(s) for wallet.
   name: NALA Wallet API
   slug: nala-wallet-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Nala Rafiki Webhooks
   slug: nala-rafiki-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Resources Bank API
+  slug: open-nala-bank-api
+- collection_type: open
+  name: Resources Bank Lookup API
+  slug: open-nala-lookup-api
+- collection_type: open
+  name: Resources Bank Payment Account API
+  slug: open-nala-payment-account-api
+- collection_type: open
+  name: Resources Bank Payout API
+  slug: open-nala-payout-api
+- collection_type: open
+  name: Resources Bank Wallet API
+  slug: open-nala-wallet-api
 common:
 - group: agent
   title: ''
@@ -210,7 +229,7 @@ overview: 'NALA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   NALA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
-random_paper: 52
+random_paper: 114
 scopes:
 - name: Nala Scopes
   scope_count: 9
@@ -245,7 +264,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/screenshots/nala-2026-08-07T184612.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 44
 apis:
 - description: 'Structured real-time and historical financial news from the Benzinga newsroom, with channel filters, removed-news deltas, and Why Is It Moving (WIIM) one-line explanations of price action, queried by '
@@ -162,7 +162,7 @@ apis:
 - description: The transcripts API from Benzinga — 2 operation(s) for transcripts.
   name: Benzinga transcripts API
   slug: benzinga-transcripts-api
-artifact_total: 55
+artifact_total: 98
 asyncapis:
 - description: 'WebSocket API providing real-time analyst insights for specific ticker symbols. **Authentication** - Clients must provide their API token as a query parameter: ``` wss://api.benzinga.com/api/v1/analys'
   name: Benzinga Analyst Insights WebSocket Stream
@@ -185,6 +185,136 @@ asyncapis:
 - description: 'WebSocket API that allows clients to subscribe to real-time earnings call transcripts. **Authentication** - Clients must provide their API token as a query parameter: ``` wss://api.benzinga.com/api/v1'
   name: Benzinga Transcripts WebSocket API
   slug: benzinga-transcripts-stream-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights API
+  slug: open-benzinga-analyst-insights-api
+- collection_type: open
+  name: Raw Text Analyst Insights Analyst Reports API
+  slug: open-benzinga-analyst-reports-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Block Trade API
+  slug: open-benzinga-block-trade-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Bulls Say Bears Say API
+  slug: open-benzinga-bulls-say-bears-say-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights calls API
+  slug: open-benzinga-calls-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Channels API
+  slug: open-benzinga-channels-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights conference_calls API
+  slug: open-benzinga-conference-calls-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights consensus_ratings API
+  slug: open-benzinga-consensus-ratings-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Dividends API
+  slug: open-benzinga-dividends-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights earnings API
+  slug: open-benzinga-earnings-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Earnings Call Transcripts API
+  slug: open-benzinga-earnings-call-transcripts-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights economics API
+  slug: open-benzinga-economics-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights ERx Gaps API
+  slug: open-benzinga-erx-gaps-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights events API
+  slug: open-benzinga-events-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights fda API
+  slug: open-benzinga-fda-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Fundamentals API
+  slug: open-benzinga-fundamentals-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Government Trade Reports API
+  slug: open-benzinga-government-trade-reports-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Government Trades API
+  slug: open-benzinga-government-trades-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights guidance API
+  slug: open-benzinga-guidance-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Halt Resume API
+  slug: open-benzinga-halt-resume-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Insider Transaction API
+  slug: open-benzinga-insider-transaction-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights ipos API
+  slug: open-benzinga-ipos-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights logos API
+  slug: open-benzinga-logos-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights ma API
+  slug: open-benzinga-ma-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Market Data API
+  slug: open-benzinga-market-data-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights News Analytics API
+  slug: open-benzinga-news-analytics-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights News API
+  slug: open-benzinga-news-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights offerings API
+  slug: open-benzinga-offerings-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Option Activity API
+  slug: open-benzinga-option-activity-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights participants API
+  slug: open-benzinga-participants-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Press Releases API
+  slug: open-benzinga-press-releases-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights QuoteDelayed API
+  slug: open-benzinga-quotedelayed-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights ratings_analysts API
+  slug: open-benzinga-ratings-analysts-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights ratings API
+  slug: open-benzinga-ratings-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights ratings_firms API
+  slug: open-benzinga-ratings-firms-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights removed API
+  slug: open-benzinga-removed-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights splits API
+  slug: open-benzinga-splits-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights status API
+  slug: open-benzinga-status-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights summaries API
+  slug: open-benzinga-summaries-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Ticker Trends API
+  slug: open-benzinga-ticker-trends-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights transcripts API
+  slug: open-benzinga-transcripts-api
+- collection_type: open
+  name: Analyst Reports Raw Text Analyst Insights Webhook API
+  slug: open-benzinga-webhook-api
 common:
 - group: auth
   title: ''
@@ -337,7 +467,7 @@ overview: 'Benzinga publishes 43 APIs on the [APIs.io](https://apis.io/) network
 
 
   Benzinga''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, changelog, getting-started guide, and 26 more developer resources.'
-random_paper: 6
+random_paper: 101
 score:
   band: developing
   composite: 52.4
@@ -366,7 +496,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png
 security:

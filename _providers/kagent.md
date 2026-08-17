@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: kagent open-source framework for running AI agents in Kubernetes, automating DevOps operations and troubleshooting through intelligent agent workflows.
@@ -104,7 +104,7 @@ plans:
 - name: Kagent Plans Pricing
   plan_count: 3
   slug: kagent-plans-pricing
-random_paper: 34
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Kagent Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 16.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kagent/refs/heads/main/screenshots/kagent-2026-06-20T183852.png
 security:

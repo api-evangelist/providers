@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Karmada extends the Kubernetes API with custom resources for multi-cluster management including PropagationPolicy for distributing resources across clusters, OverridePolicy for cluster-specific custom
@@ -72,7 +72,7 @@ plans:
 - name: Karmada Plans Pricing
   plan_count: 3
   slug: karmada-plans-pricing
-random_paper: 1
+random_paper: 125
 rate_limits:
 - limit_count: 5
   name: Karmada Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karmada/refs/heads/main/screenshots/karmada-2026-06-20T183921.png
 security:

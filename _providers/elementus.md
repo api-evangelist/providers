@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API that resolves a batch of blockchain addresses to attribution data — beneficial owner, custodian, entity name, OFAC sanction flag and SDN name. Authenticated with an X-API-Key header. The oper
@@ -79,7 +79,7 @@ plans:
 - name: Elementus Plans Pricing
   plan_count: 0
   slug: elementus-plans-pricing
-random_paper: 18
+random_paper: 84
 rate_limits:
 - limit_count: 0
   name: Elementus Rate Limits
@@ -87,6 +87,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -94,8 +95,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Elementus Authentication

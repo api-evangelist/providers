@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The ServerConfig API from Google Kubernetes Engine — 1 operation(s) for serverconfig.
   name: Google Kubernetes Engine ServerConfig API
   slug: google-kubernetes-engine-serverconfig-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Kubernetes Engine Clusters API
+  slug: open-google-kubernetes-engine-clusters-api
+- collection_type: open
+  name: Google Kubernetes Engine Clusters Google Kubernetes Engine API API
+  slug: open-google-kubernetes-engine-google-kubernetes-engine-api-api
+- collection_type: open
+  name: Google Kubernetes Engine Clusters NodePools API
+  slug: open-google-kubernetes-engine-nodepools-api
+- collection_type: open
+  name: Google Kubernetes Engine Clusters Operations API
+  slug: open-google-kubernetes-engine-operations-api
+- collection_type: open
+  name: Google Kubernetes Engine Clusters ServerConfig API
+  slug: open-google-kubernetes-engine-serverconfig-api
 - collection_type: open
   name: Google Kubernetes Engine API
   slug: open-google-kubernetes-engine
@@ -132,7 +150,7 @@ plans:
 - name: Google Kubernetes Engine Plans Pricing
   plan_count: 3
   slug: google-kubernetes-engine-plans-pricing
-random_paper: 37
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Google Kubernetes Engine Rate Limits
@@ -162,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/screenshots/google-kubernetes-engine-2026-06-20T182210.png
 security:

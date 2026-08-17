@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,7 +54,23 @@ apis:
 - description: Flight status and schedule information
   name: United Airlines Status API
   slug: united-airlines-status-api
-artifact_total: 22
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: United Airlines NDC Booking API
+  slug: open-united-airlines-booking-api
+- collection_type: open
+  name: United Airlines NDC Booking Servicing API
+  slug: open-united-airlines-servicing-api
+- collection_type: open
+  name: United Airlines NDC Booking Shopping API
+  slug: open-united-airlines-shopping-api
+- collection_type: open
+  name: United Airlines NDC Booking Status API
+  slug: open-united-airlines-status-api
 common:
 - group: agent
   title: ''
@@ -181,7 +197,7 @@ plans:
 - name: United Airlines Plans Pricing
   plan_count: 1
   slug: united-airlines-plans-pricing
-random_paper: 109
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: United Airlines Rate Limits
@@ -228,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/screenshots/united-airlines-2026-06-20T200049.png
 security:

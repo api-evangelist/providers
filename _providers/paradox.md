@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Manage users including creating, retrieving, updating, deleting, deactivating, and reactivating
   name: Paradox Users API
   slug: paradox-users-api
-artifact_total: 57
+artifact_total: 69
 collections:
 - collection_type: postman
   name: Paradox Authentication API
@@ -108,8 +108,44 @@ collections:
   name: Paradox Authentication Users API
   slug: postman-paradox-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Paradox API
   slug: open-paradox-api
+- collection_type: open
+  name: Paradox Authentication API
+  slug: open-paradox-authentication-api
+- collection_type: open
+  name: Paradox Authentication Candidate Attributes API
+  slug: open-paradox-candidate-attributes-api
+- collection_type: open
+  name: Paradox Authentication Candidates API
+  slug: open-paradox-candidates-api
+- collection_type: open
+  name: Paradox Authentication Company API
+  slug: open-paradox-company-api
+- collection_type: open
+  name: Paradox Authentication Location Areas API
+  slug: open-paradox-location-areas-api
+- collection_type: open
+  name: Paradox Authentication Location Rooms API
+  slug: open-paradox-location-rooms-api
+- collection_type: open
+  name: Paradox Authentication Locations API
+  slug: open-paradox-locations-api
+- collection_type: open
+  name: Paradox Authentication Reporting API
+  slug: open-paradox-reporting-api
+- collection_type: open
+  name: Paradox Authentication Scheduling API
+  slug: open-paradox-scheduling-api
+- collection_type: open
+  name: Paradox Authentication User Permissions API
+  slug: open-paradox-user-permissions-api
+- collection_type: open
+  name: Paradox Authentication Users API
+  slug: open-paradox-users-api
 common:
 - group: build
   title: ''
@@ -308,7 +344,7 @@ plans:
 - name: Paradox Plans Pricing
   plan_count: 1
   slug: paradox-plans-pricing
-random_paper: 31
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Paradox Rate Limits
@@ -353,7 +389,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/screenshots/paradox-2026-06-20T191353.png
 security:

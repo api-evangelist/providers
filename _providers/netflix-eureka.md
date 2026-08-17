@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 2
@@ -47,11 +47,23 @@ apis:
 - description: Virtual IP address based queries
   name: Netflix Eureka VIP API
   slug: netflix-eureka-vip-api
-artifact_total: 8
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Netflix Eureka REST API
   slug: open-eureka-rest-api
+- collection_type: open
+  name: Netflix Eureka REST Applications API
+  slug: open-netflix-eureka-applications-api
+- collection_type: open
+  name: Netflix Eureka REST Applications Instances API
+  slug: open-netflix-eureka-instances-api
+- collection_type: open
+  name: Netflix Eureka REST Applications VIP API
+  slug: open-netflix-eureka-vip-api
 common:
 - group: agent
   title: ''
@@ -101,7 +113,7 @@ plans:
 - name: Netflix Eureka Plans Pricing
   plan_count: 3
   slug: netflix-eureka-plans-pricing
-random_paper: 4
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Netflix Eureka Rate Limits
@@ -126,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/screenshots/netflix-eureka-2026-06-20T190154.png
 slug: netflix-eureka

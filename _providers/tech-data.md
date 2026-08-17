@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -72,11 +72,44 @@ apis:
 - description: Customer subscription management
   name: Tech Data Subscriptions API
   slug: tech-data-subscriptions-api
-artifact_total: 28
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: TD SYNNEX StreamOne Ion API
   slug: open-streamone-ion
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication API
+  slug: open-tech-data-authentication-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication Cart Items API
+  slug: open-tech-data-cart-items-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication Carts API
+  slug: open-tech-data-carts-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication Cloud Providers API
+  slug: open-tech-data-cloud-providers-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication Customers API
+  slug: open-tech-data-customers-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication Orders API
+  slug: open-tech-data-orders-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication Products API
+  slug: open-tech-data-products-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication Provisioning Templates API
+  slug: open-tech-data-provisioning-templates-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication Reports API
+  slug: open-tech-data-reports-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Authentication Subscriptions API
+  slug: open-tech-data-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -190,7 +223,7 @@ press:
 - date: '2026-05-25'
   title: data & AI
   url: https://aholddelhaize.com/about/technology-innovation/data-ai/
-random_paper: 35
+random_paper: 130
 rate_limits:
 - limit_count: 5
   name: Tech Data Rate Limits
@@ -232,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/screenshots/tech-data-2026-06-20T195006.png
 security:

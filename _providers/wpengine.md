@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -90,7 +90,62 @@ apis:
 - description: The User API from WP Engine — 1 operation(s) for user.
   name: WP Engine User API
   slug: wpengine-user-api
-artifact_total: 137
+artifact_total: 155
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WP Engine Hosting Platform Account API
+  slug: open-wpengine-account-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Account User API
+  slug: open-wpengine-account-user-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Archive API
+  slug: open-wpengine-archive-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Backup API
+  slug: open-wpengine-backup-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Cache API
+  slug: open-wpengine-cache-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Certificates API
+  slug: open-wpengine-certificates-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Domain API
+  slug: open-wpengine-domain-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Install API
+  slug: open-wpengine-install-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Offload Settings API
+  slug: open-wpengine-offload-settings-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Site API
+  slug: open-wpengine-site-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Site Reports API
+  slug: open-wpengine-site-reports-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Site Transfer API
+  slug: open-wpengine-site-transfer-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account SSH Key API
+  slug: open-wpengine-ssh-key-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Status API
+  slug: open-wpengine-status-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Swagger API
+  slug: open-wpengine-swagger-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account Usage API
+  slug: open-wpengine-usage-api
+- collection_type: open
+  name: WP Engine Hosting Platform Account User API
+  slug: open-wpengine-user-api
 common:
 - group: agent
   title: ''
@@ -513,7 +568,7 @@ plans:
 - name: Wpengine Plans Pricing
   plan_count: 5
   slug: wpengine-plans-pricing
-random_paper: 21
+random_paper: 116
 rate_limits:
 - limit_count: 4
   name: Wpengine Rate Limits
@@ -547,7 +602,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/screenshots/wpengine-2026-06-20T201629.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API to embed IRS-authorized income-tax preparation and e-filing. Create a Column Tax user, obtain a short-lived authenticated URL to launch the embedded filing UI, list a user's tax returns and j
@@ -171,7 +171,7 @@ overview: 'Column Tax publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Column Tax''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, support, engineering blog, and 21 more developer resources.'
-random_paper: 72
+random_paper: 138
 score:
   band: developing
   composite: 44.0
@@ -194,7 +194,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/column-tax/refs/heads/main/screenshots/column-tax-2026-07-25T210102.png
 security:

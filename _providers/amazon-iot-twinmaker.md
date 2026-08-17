@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: The Workspaces List API from Amazon IoT TwinMaker — 1 operation(s) for workspaces list.
   name: Amazon IoT TwinMaker Workspaces List API
   slug: amazon-iot-twinmaker-workspaces-list-api
-artifact_total: 581
+artifact_total: 590
 collections:
 - collection_type: postman
   name: AWS IoT TwinMaker Pricingplan API
@@ -89,6 +89,33 @@ collections:
 - collection_type: postman
   name: AWS IoT TwinMaker Pricingplan Workspaces List API
   slug: postman-amazon-iot-twinmaker-workspaces-list-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS IoT TwinMaker Pricingplan API
+  slug: open-amazon-iot-twinmaker-pricingplan-api
+- collection_type: open
+  name: AWS IoT TwinMaker Pricingplan Queries API
+  slug: open-amazon-iot-twinmaker-queries-api
+- collection_type: open
+  name: AWS IoT TwinMaker Pricingplan Sync Jobs API
+  slug: open-amazon-iot-twinmaker-sync-jobs-api
+- collection_type: open
+  name: AWS IoT TwinMaker Pricingplan Tags API
+  slug: open-amazon-iot-twinmaker-tags-api
+- collection_type: open
+  name: AWS IoT TwinMaker Pricingplan Tags List API
+  slug: open-amazon-iot-twinmaker-tags-list-api
+- collection_type: open
+  name: AWS IoT TwinMaker Pricingplan Tags#resourceARN&tagKeys API
+  slug: open-amazon-iot-twinmaker-tags-resourcearn-tagkeys-api
+- collection_type: open
+  name: AWS IoT TwinMaker Pricingplan Workspaces API
+  slug: open-amazon-iot-twinmaker-workspaces-api
+- collection_type: open
+  name: AWS IoT TwinMaker Pricingplan Workspaces List API
+  slug: open-amazon-iot-twinmaker-workspaces-list-api
 common:
 - group: build
   title: ''
@@ -1859,7 +1886,7 @@ plans:
 - name: Amazon Iot Twinmaker Plans Pricing
   plan_count: 3
   slug: amazon-iot-twinmaker-plans-pricing
-random_paper: 6
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Twinmaker Rate Limits
@@ -1901,7 +1928,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/screenshots/amazon-iot-twinmaker-2026-06-20T171712.png
 security:

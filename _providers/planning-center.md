@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Cross-product event subscriptions and deliveries.
   name: Planning Center Webhooks API
   slug: planning-center-webhooks-api
-artifact_total: 19
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Planning Center Calendar API
+  slug: open-planning-center-calendar-api
+- collection_type: open
+  name: Planning Center Calendar Check-Ins API
+  slug: open-planning-center-check-ins-api
+- collection_type: open
+  name: Planning Center Calendar Giving API
+  slug: open-planning-center-giving-api
+- collection_type: open
+  name: Planning Center Calendar Groups API
+  slug: open-planning-center-groups-api
+- collection_type: open
+  name: Planning Center Calendar People API
+  slug: open-planning-center-people-api
+- collection_type: open
+  name: Planning Center Calendar Publishing API
+  slug: open-planning-center-publishing-api
+- collection_type: open
+  name: Planning Center Calendar Registrations API
+  slug: open-planning-center-registrations-api
+- collection_type: open
+  name: Planning Center Calendar Services API
+  slug: open-planning-center-services-api
+- collection_type: open
+  name: Planning Center Calendar Webhooks API
+  slug: open-planning-center-webhooks-api
 - collection_type: open
   name: Planning Center API
   slug: open-planning-center
@@ -148,7 +178,7 @@ plans:
 - name: Planning Center Plans Pricing
   plan_count: 5
   slug: planning-center-plans-pricing
-random_paper: 101
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Planning Center Rate Limits
@@ -178,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -92,11 +92,69 @@ apis:
 - description: Operations about vm_stacks
   name: Rainforest QA vm_stack API
   slug: rainforest-qa-vm-stack-api
-artifact_total: 24
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Rainforest Qa Webhooks
   slug: rainforest-qa-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rainforest callback API
+  slug: open-rainforest-qa-callback-api
+- collection_type: open
+  name: Rainforest callback clients API
+  slug: open-rainforest-qa-clients-api
+- collection_type: open
+  name: Rainforest callback connections API
+  slug: open-rainforest-qa-connections-api
+- collection_type: open
+  name: Rainforest callback credit_cards API
+  slug: open-rainforest-qa-credit-cards-api
+- collection_type: open
+  name: Rainforest callback environments API
+  slug: open-rainforest-qa-environments-api
+- collection_type: open
+  name: Rainforest callback features API
+  slug: open-rainforest-qa-features-api
+- collection_type: open
+  name: Rainforest callback folders API
+  slug: open-rainforest-qa-folders-api
+- collection_type: open
+  name: Rainforest callback generators API
+  slug: open-rainforest-qa-generators-api
+- collection_type: open
+  name: Rainforest callback on_premise_crowd API
+  slug: open-rainforest-qa-on-premise-crowd-api
+- collection_type: open
+  name: Rainforest callback run_groups API
+  slug: open-rainforest-qa-run-groups-api
+- collection_type: open
+  name: Rainforest callback runs API
+  slug: open-rainforest-qa-runs-api
+- collection_type: open
+  name: Rainforest callback site_environments API
+  slug: open-rainforest-qa-site-environments-api
+- collection_type: open
+  name: Rainforest callback sites API
+  slug: open-rainforest-qa-sites-api
+- collection_type: open
+  name: Rainforest callback tags API
+  slug: open-rainforest-qa-tags-api
+- collection_type: open
+  name: Rainforest callback test_results API
+  slug: open-rainforest-qa-test-results-api
+- collection_type: open
+  name: Rainforest callback tests API
+  slug: open-rainforest-qa-tests-api
+- collection_type: open
+  name: Rainforest callback users API
+  slug: open-rainforest-qa-users-api
+- collection_type: open
+  name: Rainforest callback vm_stack API
+  slug: open-rainforest-qa-vm-stack-api
 common:
 - group: other
   title: ''
@@ -241,7 +299,7 @@ overview: 'Rainforest QA publishes 18 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Rainforest QA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
-random_paper: 20
+random_paper: 148
 score:
   band: strong
   composite: 57.7
@@ -265,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Manage Access Control List (ACL) policies for fine-grained permission control.
@@ -55,7 +55,35 @@ apis:
 - description: Manage user profiles, roles, and API token generation.
   name: Rundeck Users API
   slug: rundeck-users-api
-artifact_total: 19
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rundeck ACL Policies API
+  slug: open-rundeck-acl-policies-api
+- collection_type: open
+  name: Rundeck Executions API
+  slug: open-rundeck-executions-api
+- collection_type: open
+  name: Rundeck Jobs API
+  slug: open-rundeck-jobs-api
+- collection_type: open
+  name: Rundeck Nodes API
+  slug: open-rundeck-nodes-api
+- collection_type: open
+  name: Rundeck Projects API
+  slug: open-rundeck-projects-api
+- collection_type: open
+  name: Rundeck System API
+  slug: open-rundeck-system-api
+- collection_type: open
+  name: Rundeck Tokens API
+  slug: open-rundeck-tokens-api
+- collection_type: open
+  name: Rundeck Users API
+  slug: open-rundeck-users-api
 common:
 - group: auth
   title: ''
@@ -144,7 +172,7 @@ plans:
 - name: Rundeck Plans Pricing
   plan_count: 3
   slug: rundeck-plans-pricing
-random_paper: 28
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Rundeck Rate Limits
@@ -185,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/screenshots/rundeck-2026-06-20T193250.png
 security:

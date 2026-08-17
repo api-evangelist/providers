@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -47,11 +47,24 @@ apis:
 - description: The Webhooks API from Lightning Social Ventures — 2 operation(s) for webhooks.
   name: Lightning Social Ventures Webhooks API
   slug: lightning-social-ventures-webhooks-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Lightning Social Ventures Webhooks
   slug: lightning-social-ventures-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lightning Reach Applications API
+  slug: open-lightning-social-ventures-applications-api
+- collection_type: open
+  name: Lightning Reach Applications Support Schemes API
+  slug: open-lightning-social-ventures-support-schemes-api
+- collection_type: open
+  name: Lightning Reach Applications Webhooks API
+  slug: open-lightning-social-ventures-webhooks-api
 common:
 - group: other
   title: ''
@@ -160,7 +173,7 @@ overview: 'Lightning Social Ventures publishes 3 APIs on the [APIs.io](https://a
 
 
   Lightning Social Ventures'' developer surface includes API reference, support, signup flow, and 19 more developer resources.'
-random_paper: 61
+random_paper: 48
 score:
   band: thin
   composite: 34.3
@@ -190,7 +203,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/screenshots/lightning-social-ventures-2026-07-25T225125.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Manage the vehicle fleet within a territory.
   name: WorkWave Vehicles API
   slug: workwave-vehicles-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WorkWave Route Manager Callback API
+  slug: open-workwave-callback-api
+- collection_type: open
+  name: WorkWave Route Manager Callback Companies API
+  slug: open-workwave-companies-api
+- collection_type: open
+  name: WorkWave Route Manager Callback Depots API
+  slug: open-workwave-depots-api
+- collection_type: open
+  name: WorkWave Route Manager Callback Drivers API
+  slug: open-workwave-drivers-api
+- collection_type: open
+  name: WorkWave Route Manager Callback GPS API
+  slug: open-workwave-gps-api
+- collection_type: open
+  name: WorkWave Route Manager Callback Orders API
+  slug: open-workwave-orders-api
+- collection_type: open
+  name: WorkWave Route Manager Callback Regions API
+  slug: open-workwave-regions-api
+- collection_type: open
+  name: WorkWave Route Manager Callback Routes API
+  slug: open-workwave-routes-api
+- collection_type: open
+  name: WorkWave Route Manager Callback Territories API
+  slug: open-workwave-territories-api
+- collection_type: open
+  name: WorkWave Route Manager Callback Validation API
+  slug: open-workwave-validation-api
+- collection_type: open
+  name: WorkWave Route Manager Callback Vehicles API
+  slug: open-workwave-vehicles-api
 - collection_type: open
   name: WorkWave Route Manager API
   slug: open-workwave
@@ -142,7 +178,7 @@ plans:
 - name: Workwave Plans Pricing
   plan_count: 2
   slug: workwave-plans-pricing
-random_paper: 46
+random_paper: 141
 rate_limits:
 - limit_count: 2
   name: Workwave Rate Limits
@@ -167,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

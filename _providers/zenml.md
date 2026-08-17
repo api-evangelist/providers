@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -118,11 +118,53 @@ arazzos:
 - description: Resolve a schedule, find the run it produced for its pipeline, and read that run.
   name: ZenML Track Scheduled Pipeline
   slug: zenml-track-scheduled-pipeline-workflow
-artifact_total: 48
+artifact_total: 62
 collections:
 - collection_type: postman
   name: ZenML OSS REST API
   slug: postman-zenml
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZenML OSS REST Artifacts API
+  slug: open-zenml-artifacts-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Auth API
+  slug: open-zenml-auth-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Deployments API
+  slug: open-zenml-deployments-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Models API
+  slug: open-zenml-models-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Pipeline Runs API
+  slug: open-zenml-pipeline-runs-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Pipelines API
+  slug: open-zenml-pipelines-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Projects API
+  slug: open-zenml-projects-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Schedules API
+  slug: open-zenml-schedules-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Secrets API
+  slug: open-zenml-secrets-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Service Connectors API
+  slug: open-zenml-service-connectors-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Stack Components API
+  slug: open-zenml-stack-components-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Stacks API
+  slug: open-zenml-stacks-api
+- collection_type: open
+  name: ZenML OSS REST Artifacts Users API
+  slug: open-zenml-users-api
 - collection_type: open
   name: ZenML OSS REST API
   slug: open-zenml
@@ -348,7 +390,7 @@ plans:
 - name: Zenml Plans Pricing
   plan_count: 3
   slug: zenml-plans-pricing
-random_paper: 70
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Zenml Rate Limits
@@ -390,7 +432,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/screenshots/zenml-2026-06-20T201813.png
 security:

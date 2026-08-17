@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: API health and account quota status.
   name: CurrencyAPI Status API
   slug: currencyapi-status-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Currency Convert API
+  slug: open-currencyapi-convert-api
+- collection_type: open
+  name: Currency Convert Currencies API
+  slug: open-currencyapi-currencies-api
+- collection_type: open
+  name: Currency Convert Historical API
+  slug: open-currencyapi-historical-api
+- collection_type: open
+  name: Currency Convert Latest API
+  slug: open-currencyapi-latest-api
+- collection_type: open
+  name: Currency Convert Range API
+  slug: open-currencyapi-range-api
+- collection_type: open
+  name: Currency Convert Status API
+  slug: open-currencyapi-status-api
 - collection_type: open
   name: CurrencyAPI
   slug: open-currencyapi
@@ -135,7 +156,7 @@ plans:
 - name: Currencyapi Plans Pricing
   plan_count: 5
   slug: currencyapi-plans-pricing
-random_paper: 109
+random_paper: 146
 rate_limits:
 - limit_count: 6
   name: Currencyapi Rate Limits
@@ -160,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/screenshots/currencyapi-2026-07-25T210945.png
 security:

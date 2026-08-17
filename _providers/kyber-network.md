@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The General API from Kyber Network — 2 operation(s) for general.
@@ -47,7 +47,26 @@ apis:
 - description: The Taker API from Kyber Network — 4 operation(s) for taker.
   name: Kyber Network Taker API
   slug: kyber-network-taker-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: KyberSwap Aggregator General API
+  slug: open-kyber-network-general-api
+- collection_type: open
+  name: KyberSwap Aggregator General Maker API
+  slug: open-kyber-network-maker-api
+- collection_type: open
+  name: KyberSwap Aggregator General Service API
+  slug: open-kyber-network-service-api
+- collection_type: open
+  name: KyberSwap Aggregator General swap API
+  slug: open-kyber-network-swap-api
+- collection_type: open
+  name: KyberSwap Aggregator General Taker API
+  slug: open-kyber-network-taker-api
 common:
 - group: other
   title: ''
@@ -189,7 +208,7 @@ overview: 'Kyber Network publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kyber Network''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 24 more developer resources.'
-random_paper: 44
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Kyber Network Rate Limits
@@ -222,7 +241,7 @@ score:
     regime_id: securities_market_data
     score: 36.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/screenshots/kyber-network-2026-07-25T224353.png
 security:

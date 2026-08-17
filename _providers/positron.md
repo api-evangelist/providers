@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,7 +43,32 @@ apis:
 - description: The users API from Positron — 3 operation(s) for users.
   name: Positron Users API
   slug: positron-users-api
-artifact_total: 9
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Olivaw Admin Access Tokens API
+  slug: open-positron-access-tokens-api
+- collection_type: open
+  name: Olivaw Admin API
+  slug: open-positron-admin
+- collection_type: open
+  name: Olivaw OpenAI Completion API
+  slug: open-positron-completion-api
+- collection_type: open
+  name: Olivaw OpenAI API
+  slug: open-positron-inference
+- collection_type: open
+  name: Positron Models API
+  slug: open-positron-models-api
+- collection_type: open
+  name: Olivaw Admin Service Nodes API
+  slug: open-positron-service-nodes-api
+- collection_type: open
+  name: Olivaw Admin Users API
+  slug: open-positron-users-api
 common:
 - group: agent
   title: ''
@@ -182,7 +207,7 @@ overview: 'Positron publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 24 more developer resources.'
-random_paper: 54
+random_paper: 0
 score:
   band: thin
   composite: 36.2
@@ -206,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

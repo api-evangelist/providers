@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 45.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: General search operations.
   name: UpLead Search API
   slug: uplead-search-api
-artifact_total: 24
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UpLead Account API
+  slug: open-uplead-account-api
+- collection_type: open
+  name: UpLead Account Combined API
+  slug: open-uplead-combined-api
+- collection_type: open
+  name: UpLead Account Company API
+  slug: open-uplead-company-api
+- collection_type: open
+  name: UpLead Account Lists API
+  slug: open-uplead-lists-api
+- collection_type: open
+  name: UpLead Account Person API
+  slug: open-uplead-person-api
+- collection_type: open
+  name: UpLead Account Prospector API
+  slug: open-uplead-prospector-api
+- collection_type: open
+  name: UpLead Account Reference API
+  slug: open-uplead-reference-api
+- collection_type: open
+  name: UpLead Account Search API
+  slug: open-uplead-search-api
 common:
 - group: agent
   title: ''
@@ -92,7 +120,7 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.uplead.com/pricing
+  url: https://www.uplead.com/pricing/
 - group: operate
   title: ''
   type: StatusPage
@@ -117,6 +145,74 @@ common:
   title: ''
   type: FinOps
   url: finops/uplead-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/uplead-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/uplead-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/uplead-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/uplead-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/uplead-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/uplead-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/uplead-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://support.uplead.com/en/collections/19646601-release-notes
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/uplead-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.uplead.com/data-api/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.uplead.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.uplead.com/getting-started-with-uplead/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.uplead.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.uplead.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.uplead.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.uplead.com/privacy/
 created: '2026-06-13'
 description: UpLead is a B2B contact and company data platform providing a REST API for searching leads, verifying emails, accessing company profiles, and enriching contact information. The API enables developers to look up verified contacts by email or name, search companies by domain or name, run prospector queries to find contacts by job title or function, and perform combined person-plus-company lookups in a single call. UpLead operates on a credit-based billing model where charges only apply when verified data is returned.
 examples:
@@ -156,7 +252,7 @@ jsonld:
   property_count: 13
   slug: uplead-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: UpLead
 nav: Providers
 network: true
@@ -166,12 +262,12 @@ overview: 'UpLead publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The UpLead catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  UpLead''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  UpLead''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 23 more developer resources.'
 plans:
 - name: Uplead Plans Pricing
   plan_count: 6
   slug: uplead-plans-pricing
-random_paper: 35
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Uplead Rate Limits
@@ -186,16 +282,16 @@ rules:
     warn: 4
   slug: uplead-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 50.5
-  delta: 0.0
+  band: exemplar
+  composite: 70.0
+  delta: 19.5
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 84.2
     contract_quality: 67.8
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    developer_ergonomics: 58.7
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 52.6
   previous_composite: 50.5
   provenance:
     agentic_access: derived
@@ -205,8 +301,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/screenshots/uplead-2026-06-20T200445.png
 security:
 - kind: authentication

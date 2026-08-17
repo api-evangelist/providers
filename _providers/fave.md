@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ arazzos:
 - description: Charge a customer via merchant scan, then list the outlet's recent transactions and acknowledge the new one. All operationIds are verified against the FavePay Omni OpenAPI.
   name: Merchant-scan charge and reconcile
   slug: fave-scan-and-reconcile
-artifact_total: 10
+artifact_total: 13
 asyncapis:
 - description: Webhook (callback) event surface for FavePay Omni. Fave POSTs the transaction object to the partner's callback_url whenever a transaction changes status. Each payload carries a `sign` (HMAC-SHA256) fi
   name: FavePay Omni Webhooks
@@ -59,6 +59,16 @@ asyncapis:
 - description: ''
   name: Fave Favepay Omni Webhooks
   slug: fave-favepay-omni-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FavePay Omni (FPO) Payments API
+  slug: open-fave-payments-api
+- collection_type: open
+  name: FavePay Omni (FPO) Payments Transactions API
+  slug: open-fave-transactions-api
 common:
 - group: company
   title: ''
@@ -191,7 +201,7 @@ overview: 'Fave publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pay
 
 
   Fave''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, sandbox, and 21 more developer resources.'
-random_paper: 58
+random_paper: 120
 score:
   band: developing
   composite: 43.7
@@ -221,7 +231,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/screenshots/fave-2026-07-25T214253.png
 security:

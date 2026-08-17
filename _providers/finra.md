@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,8 +57,23 @@ apis:
 - description: The Partitions API from FINRA — 1 operation(s) for partitions.
   name: FINRA Partitions API
   slug: finra-partitions-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FINRA Query Async API
+  slug: open-finra-async-api
+- collection_type: open
+  name: FINRA Query Async Datasets API
+  slug: open-finra-datasets-api
+- collection_type: open
+  name: FINRA Query Async Metadata API
+  slug: open-finra-metadata-api
+- collection_type: open
+  name: FINRA Query Async Partitions API
+  slug: open-finra-partitions-api
 - collection_type: open
   name: FINRA Query API
   slug: open-finra
@@ -151,7 +166,7 @@ plans:
 - name: Finra Plans Pricing
   plan_count: 3
   slug: finra-plans-pricing
-random_paper: 48
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Finra Rate Limits
@@ -182,7 +197,7 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/screenshots/finra-2026-06-20T181223.png
 security:

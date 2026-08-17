@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Webhooks API from Urjanet — 1 operation(s) for webhooks.
   name: Urjanet Webhooks API
   slug: urjanet-webhooks-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Urjanet Utility Cloud Authentication API
+  slug: open-urjanet-authentication-api
+- collection_type: open
+  name: Urjanet Utility Cloud Authentication Credentials & Connections API
+  slug: open-urjanet-credentials-connections-api
+- collection_type: open
+  name: Urjanet Utility Cloud Authentication Meters API
+  slug: open-urjanet-meters-api
+- collection_type: open
+  name: Urjanet Utility Cloud Authentication Statements & Bills API
+  slug: open-urjanet-statements-bills-api
+- collection_type: open
+  name: Urjanet Utility Cloud Authentication Users API
+  slug: open-urjanet-users-api
+- collection_type: open
+  name: Urjanet Utility Cloud Authentication Webhooks API
+  slug: open-urjanet-webhooks-api
 - collection_type: open
   name: Urjanet Utility Cloud API
   slug: open-urjanet
@@ -122,7 +143,7 @@ plans:
 - name: Urjanet Plans Pricing
   plan_count: 1
   slug: urjanet-plans-pricing
-random_paper: 41
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Urjanet Rate Limits
@@ -153,7 +174,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 4
@@ -42,11 +42,17 @@ apis:
 - description: The Prod API from Amazon MediaLive — 38 operation(s) for prod.
   name: Amazon MediaLive Prod API
   slug: amazon-medialive-prod-api
-artifact_total: 1883
+artifact_total: 1885
 collections:
 - collection_type: postman
   name: AWS Elemental MediaLive Prod API
   slug: postman-amazon-medialive-prod-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Elemental MediaLive Prod API
+  slug: open-amazon-medialive-prod-api
 common:
 - group: build
   title: ''
@@ -5748,7 +5754,7 @@ plans:
 - name: Amazon Medialive Plans Pricing
   plan_count: 3
   slug: amazon-medialive-plans-pricing
-random_paper: 75
+random_paper: 145
 rate_limits:
 - limit_count: 5
   name: Amazon Medialive Rate Limits
@@ -5790,7 +5796,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/screenshots/amazon-medialive-2026-06-20T171741.png
 security:

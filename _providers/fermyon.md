@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -84,8 +84,53 @@ apis:
 - description: The variable-pairs API from Fermyon — 1 operation(s) for variable-pairs.
   name: Fermyon variable-pairs API
   slug: fermyon-variable-pairs-api
-artifact_total: 23
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fermyon Cloud accounts API
+  slug: open-fermyon-accounts-api
+- collection_type: open
+  name: Fermyon Cloud accounts apps API
+  slug: open-fermyon-apps-api
+- collection_type: open
+  name: Fermyon Cloud accounts auth-tokens API
+  slug: open-fermyon-auth-tokens-api
+- collection_type: open
+  name: Fermyon Cloud accounts channels API
+  slug: open-fermyon-channels-api
+- collection_type: open
+  name: Fermyon Cloud accounts custom-domains API
+  slug: open-fermyon-custom-domains-api
+- collection_type: open
+  name: Fermyon Cloud accounts device-codes API
+  slug: open-fermyon-device-codes-api
+- collection_type: open
+  name: Fermyon Cloud accounts key-value-pairs API
+  slug: open-fermyon-key-value-pairs-api
+- collection_type: open
+  name: Fermyon Cloud accounts key-value-stores API
+  slug: open-fermyon-key-value-stores-api
+- collection_type: open
+  name: Fermyon Cloud accounts oci API
+  slug: open-fermyon-oci-api
+- collection_type: open
+  name: Fermyon Cloud accounts payments API
+  slug: open-fermyon-payments-api
+- collection_type: open
+  name: Fermyon Cloud accounts personal-access-tokens API
+  slug: open-fermyon-personal-access-tokens-api
+- collection_type: open
+  name: Fermyon Cloud accounts revisions API
+  slug: open-fermyon-revisions-api
+- collection_type: open
+  name: Fermyon Cloud accounts sql-databases API
+  slug: open-fermyon-sql-databases-api
+- collection_type: open
+  name: Fermyon Cloud accounts variable-pairs API
+  slug: open-fermyon-variable-pairs-api
 - collection_type: open
   name: Fermyon Cloud API
   slug: open-fermyon
@@ -154,7 +199,7 @@ plans:
 - name: Fermyon Plans Pricing
   plan_count: 3
   slug: fermyon-plans-pricing
-random_paper: 48
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Fermyon Rate Limits
@@ -179,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/screenshots/fermyon-2026-06-20T181140.png
 security:

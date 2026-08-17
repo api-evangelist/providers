@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -139,11 +139,11 @@ plans:
 - name: Haus Plans Pricing
   plan_count: 4
   slug: haus-plans-pricing
-random_paper: 73
+random_paper: 135
 score:
   band: thin
   composite: 30.0
-  delta: 9.5
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 0.0
@@ -151,10 +151,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.5
+  previous_composite: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haus/refs/heads/main/screenshots/haus-2026-07-25T220755.png
 security:
 - kind: domain-security

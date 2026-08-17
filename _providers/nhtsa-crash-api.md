@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: Fatality Analysis Reporting System datasets and queries
   name: NHTSA Crash API FARS API
   slug: nhtsa-crash-api-fars-api
-artifact_total: 9
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NHTSA Crash Data Cases API
+  slug: open-nhtsa-crash-api-cases-api
+- collection_type: open
+  name: NHTSA Crash Data Cases Crashes API
+  slug: open-nhtsa-crash-api-crashes-api
+- collection_type: open
+  name: NHTSA Crash Data Cases FARS API
+  slug: open-nhtsa-crash-api-fars-api
 - collection_type: open
   name: NHTSA Crash Data API
   slug: open-nhtsa-crash-api-nhtsa-crash-data-api
@@ -93,7 +105,7 @@ plans:
 - name: Nhtsa Crash Api Plans Pricing
   plan_count: 3
   slug: nhtsa-crash-api-plans-pricing
-random_paper: 35
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Nhtsa Crash Api Rate Limits
@@ -124,7 +136,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/screenshots/nhtsa-crash-api-2026-06-20T190316.png
 security:

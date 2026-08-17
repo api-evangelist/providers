@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -56,11 +56,30 @@ apis:
 - description: Start, monitor, retry, review, and debug automation runs, including artifacts.
   name: Eigenpal Runs API
   slug: eigenpal-runs-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Eigenpal Webhooks
   slug: eigenpal-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eigenpal Automations API
+  slug: open-eigenpal-automations-api
+- collection_type: open
+  name: Eigenpal Automations Evaluation API
+  slug: open-eigenpal-evaluation-api
+- collection_type: open
+  name: Eigenpal Automations Files API
+  slug: open-eigenpal-files-api
+- collection_type: open
+  name: Eigenpal Automations Metadata API
+  slug: open-eigenpal-metadata-api
+- collection_type: open
+  name: Eigenpal Automations Runs API
+  slug: open-eigenpal-runs-api
 common:
 - group: agent
   title: ''
@@ -189,7 +208,7 @@ overview: 'Eigenpal publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Eigenpal''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, changelog, and 21 more developer resources.'
-random_paper: 117
+random_paper: 92
 score:
   band: developing
   composite: 45.8
@@ -213,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/screenshots/eigenpal-2026-07-25T213002.png
 security:

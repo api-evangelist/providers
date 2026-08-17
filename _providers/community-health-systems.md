@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +54,26 @@ apis:
 - description: Provider information
   name: Community Health Systems Practitioner API
   slug: community-health-systems-practitioner-api
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Community Health Systems Patient Access API
   slug: open-chs-patient-access-api
+- collection_type: open
+  name: Community Health Systems Patient Access Claims API
+  slug: open-community-health-systems-claims-api
+- collection_type: open
+  name: Community Health Systems Patient Access Claims Formulary API
+  slug: open-community-health-systems-formulary-api
+- collection_type: open
+  name: Community Health Systems Access Claims Patient API
+  slug: open-community-health-systems-patient-api
+- collection_type: open
+  name: Community Health Systems Patient Access Claims Practitioner API
+  slug: open-community-health-systems-practitioner-api
 common:
 - group: agent
   title: ''
@@ -164,7 +179,7 @@ press:
 - date: '2026-05-25'
   title: Community Health Systems Completes Data Migration and ...
   url: https://www.prnewswire.com/news-releases/community-health-systems-completes-data-migration-and-implements-new-generative-ai-innovations-with-google-cloud-302048799.html
-random_paper: 109
+random_paper: 125
 rate_limits:
 - limit_count: 1
   name: Community Health Systems Rate Limits
@@ -217,7 +232,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/screenshots/community-health-systems-2026-06-20T174823.png
 security:

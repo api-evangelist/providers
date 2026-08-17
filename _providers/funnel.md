@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'The Funnel Control Plane API provides configuration-management operations for a Funnel subscription — workspaces, data sources, custom dimensions and metrics, and data exports to BigQuery, Snowflake, '
@@ -208,7 +208,7 @@ plans:
 - name: Funnel Plans Pricing
   plan_count: 3
   slug: funnel-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Funnel Rate Limits
@@ -221,7 +221,7 @@ scopes:
 score:
   band: strong
   composite: 59.8
-  delta: 26.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 51.6
@@ -229,12 +229,12 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 33.8
+  previous_composite: 59.8
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/screenshots/funnel-2026-07-25T215322.png
 security:
 - kind: authentication

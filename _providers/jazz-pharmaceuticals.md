@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Jazz Pharmaceuticals API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Jazz Pharmaceuticals Plans Pricing
   plan_count: 1
   slug: jazz-pharmaceuticals-plans-pricing
-random_paper: 42
+random_paper: 145
 rate_limits:
 - limit_count: 1
   name: Jazz Pharmaceuticals Rate Limits
@@ -83,7 +83,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jazz-pharmaceuticals/refs/heads/main/screenshots/jazz-pharmaceuticals-2026-06-20T183708.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 13
@@ -128,7 +128,101 @@ apis:
 - description: The Users In Role API from Cubist — 2 operation(s) for users in role.
   name: Cubist Users In Role API
   slug: cubist-users-in-role-api
-artifact_total: 36
+artifact_total: 67
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CubeSigner Account API
+  slug: open-cubist-account-api
+- collection_type: open
+  name: CubeSigner Account Accounts API
+  slug: open-cubist-accounts-api
+- collection_type: open
+  name: CubeSigner Account Audit API
+  slug: open-cubist-audit-api
+- collection_type: open
+  name: CubeSigner Account AuthMigration API
+  slug: open-cubist-authmigration-api
+- collection_type: open
+  name: CubeSigner Account Babylon API
+  slug: open-cubist-babylon-api
+- collection_type: open
+  name: CubeSigner Account Contact API
+  slug: open-cubist-contact-api
+- collection_type: open
+  name: CubeSigner Account Cube3Signer API
+  slug: open-cubist-cube3signer-api
+- collection_type: open
+  name: CubeSigner Account Identity API
+  slug: open-cubist-identity-api
+- collection_type: open
+  name: CubeSigner Account Internal API
+  slug: open-cubist-internal-api
+- collection_type: open
+  name: CubeSigner Account Keys API
+  slug: open-cubist-keys-api
+- collection_type: open
+  name: CubeSigner Account Keys In Role API
+  slug: open-cubist-keys-in-role-api
+- collection_type: open
+  name: CubeSigner Account Login API
+  slug: open-cubist-login-api
+- collection_type: open
+  name: CubeSigner Account Metrics API
+  slug: open-cubist-metrics-api
+- collection_type: open
+  name: CubeSigner Account MFA API
+  slug: open-cubist-mfa-api
+- collection_type: open
+  name: CubeSigner Account Misc API
+  slug: open-cubist-misc-api
+- collection_type: open
+  name: CubeSigner Account MMI API
+  slug: open-cubist-mmi-api
+- collection_type: open
+  name: CubeSigner Account OAuth2 API
+  slug: open-cubist-oauth2-api
+- collection_type: open
+  name: CubeSigner Account Org API
+  slug: open-cubist-org-api
+- collection_type: open
+  name: CubeSigner Account Orgs API
+  slug: open-cubist-orgs-api
+- collection_type: open
+  name: CubeSigner Account Policies API
+  slug: open-cubist-policies-api
+- collection_type: open
+  name: CubeSigner Account Role Access Tokens API
+  slug: open-cubist-role-access-tokens-api
+- collection_type: open
+  name: CubeSigner Account Roles API
+  slug: open-cubist-roles-api
+- collection_type: open
+  name: CubeSigner Account RPC API
+  slug: open-cubist-rpc-api
+- collection_type: open
+  name: CubeSigner Account Sessions API
+  slug: open-cubist-sessions-api
+- collection_type: open
+  name: CubeSigner Account SignerSession API
+  slug: open-cubist-signersession-api
+- collection_type: open
+  name: CubeSigner Account Signing API
+  slug: open-cubist-signing-api
+- collection_type: open
+  name: CubeSigner Account User API
+  slug: open-cubist-user-api
+- collection_type: open
+  name: CubeSigner Account User Export API
+  slug: open-cubist-user-export-api
+- collection_type: open
+  name: CubeSigner Account Users In Org API
+  slug: open-cubist-users-in-org-api
+- collection_type: open
+  name: CubeSigner Account Users In Role API
+  slug: open-cubist-users-in-role-api
 common:
 - group: other
   title: ''
@@ -266,7 +360,7 @@ overview: 'Cubist publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cubist''s developer surface includes documentation, engineering blog, support, authentication, sandbox, CLI, and 24 more developer resources.'
-random_paper: 50
+random_paper: 54
 scopes:
 - name: Cubist Scopes
   scope_count: 135
@@ -301,7 +395,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/screenshots/cubist-2026-07-25T210859.png
 security:

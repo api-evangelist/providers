@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,29 @@ apis:
 - description: Blended currency exchange rates
   name: Frankfurter Rates API
   slug: frankfurter-rates-api
-artifact_total: 80
+artifact_total: 87
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Frankfurter Currencies API
+  slug: open-frankfurter-currencies-api
+- collection_type: open
+  name: Frankfurter Currencies current-rates API
+  slug: open-frankfurter-current-rates-api
+- collection_type: open
+  name: Frankfurter Currencies historical-rates API
+  slug: open-frankfurter-historical-rates-api
+- collection_type: open
+  name: Frankfurter Currencies metadata API
+  slug: open-frankfurter-metadata-api
+- collection_type: open
+  name: Frankfurter Currencies Providers API
+  slug: open-frankfurter-providers-api
+- collection_type: open
+  name: Frankfurter Currencies Rates API
+  slug: open-frankfurter-rates-api
 - collection_type: open
   name: Frankfurter API
   slug: open-frankfurter-v1
@@ -322,7 +343,7 @@ plans:
 - name: Frankfurter Plans Pricing
   plan_count: 2
   slug: frankfurter-plans-pricing
-random_paper: 114
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Frankfurter Rate Limits
@@ -364,7 +385,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/screenshots/frankfurter-2026-06-20T181506.png
 security:

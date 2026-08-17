@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -32,7 +32,14 @@ apis:
 - description: Daily completion-event exports as xAPI statements.
   name: Cybrary Completions API
   slug: cybrary-completions-api
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cybrary Export Completions API
+  slug: open-cybrary-completions-api
 common:
 - group: agent
   title: ''
@@ -175,7 +182,7 @@ overview: 'Cybrary publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   Cybrary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Cybrary Rate Limits
@@ -208,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/screenshots/cybrary-2026-08-07T164005.png
 security:

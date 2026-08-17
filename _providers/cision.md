@@ -10,32 +10,47 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 48.2
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
 - description: REST API for CisionOne that allows connection of media monitoring data with internal tools and BI platforms. Provides access to mention streams, aggregated analytics, and media coverage data. Response
   name: CisionOne API
   slug: cisionone-api
-artifact_total: 6
+- description: REST API for the Next Generation Cision Communications Cloud, Cision's earned media monitoring and analytics platform. Runs off searches already created in the platform and returns either a list of ar
+  name: Next Generation Cision Communications Cloud API
+  slug: cision-communications-cloud-api
+- description: Public data API behind Cision Web Solutions, Cision's embeddable investor relations and online newsroom module library. Serves press release feeds and media feeds (JSON, XML and RSS), share price hist
+  name: Cision Web Solutions Public API
+  slug: cision-web-solutions-api
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Cision Webhooks
+  slug: cision-webhooks
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cision-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -50,7 +65,7 @@ common:
   url: https://cision.atlassian.net/wiki/spaces/CSM/pages/26385776684/CisionOne+-+API
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/cision
 - group: company
   title: ''
@@ -88,6 +103,90 @@ common:
   title: ''
   type: News
   url: https://www.cision.com/pr-distribution-and-placement/prnewswire/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.cision.one/docs/api/v2
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://cision.atlassian.net/wiki/spaces/CSM/pages/25764989843/Settings+-+Cision+API
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://cision.atlassian.net/wiki/spaces/CSM/overview
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.cision.com/contact-us/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.cision.one/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cision.com/legal/msa/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cision.com/legal/privacy-policy/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.cision.com/legal/security-statement/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/cision-cisionone-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cision-cisionone-overlay.yaml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cision-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cision-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cision-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cision-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/cision-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cision-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cision-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/cision-components.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/cision-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cision-llms.txt
 created: '2026-06-13'
 description: Cision is an AI-powered PR and earned media software platform offering REST APIs for media database access, press release distribution, media monitoring, analytics, and influencer identification. CisionOne provides a REST API that connects media monitoring data with internal tools, BI platforms, and reporting systems.
 finops:
@@ -101,43 +200,47 @@ jsonld:
   property_count: 5
   slug: cision-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-13'
 name: Cision
 nav: Providers
 network: true
 overview: 'Cision publishes 1 API on the [APIs.io](https://apis.io/) network: CisionOne API. Tagged areas include PR Software, Public Relations, Earned Media, Media Monitoring, and Press Release Distribution.
 
 
-  The Cision catalog on APIs.io includes 1 JSON-LD context.
+  The Cision catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Cision''s developer surface includes documentation, engineering blog, pricing, product news, and 9 more developer resources.'
+  Cision''s developer surface includes authentication, documentation, engineering blog, pricing, product news, API reference, getting-started guide, and 28 more developer resources.'
 plans:
 - name: Cision Plans Pricing
   plan_count: 5
   slug: cision-plans-pricing
-random_paper: 45
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Cision Rate Limits
   slug: cision-rate-limits
 score:
-  band: thin
-  composite: 34.6
-  delta: 0.0
+  band: strong
+  composite: 64.0
+  delta: 29.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 40.3
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 42.1
+    commercial_clarity: 92.1
+    contract_quality: 65.7
+    developer_ergonomics: 50.0
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 65.8
   previous_composite: 34.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png
 security:
+- kind: authentication
+  name: Cision Authentication
+  slug: cision-authentication
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Cision Domain Security
   slug: cision-domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Free, lower-rate-limit public API exposing basic account, transaction, and token endpoints used by the Solscan UI.
@@ -52,7 +52,26 @@ apis:
 - description: Transaction lookups
   name: Solscan Transaction API
   slug: solscan-transaction-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Solscan Pro Account API
+  slug: open-solscan-account-api
+- collection_type: open
+  name: Solscan Pro Block API
+  slug: open-solscan-block-api
+- collection_type: open
+  name: Solscan Pro NFT API
+  slug: open-solscan-nft-api
+- collection_type: open
+  name: Solscan Pro Token API
+  slug: open-solscan-token-api
+- collection_type: open
+  name: Solscan Pro Transaction API
+  slug: open-solscan-transaction-api
 common:
 - group: auth
   title: ''
@@ -110,7 +129,7 @@ plans:
 - name: Solscan Plans Pricing
   plan_count: 5
   slug: solscan-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Solscan Rate Limits
@@ -134,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/screenshots/solscan-2026-06-20T194154.png
 security:

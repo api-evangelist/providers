@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 223
   human_in_the_loop: 6
@@ -156,7 +156,128 @@ apis:
 - description: Well-Known routes provide information and resources that can be discovered by clients without the need for authentication.
   name: Logto Well-known API
   slug: logto-well-known-api
-artifact_total: 46
+artifact_total: 86
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Logto API references Account center API
+  slug: open-logto-account-center-api
+- collection_type: open
+  name: Logto API references Account center Applications API
+  slug: open-logto-applications-api
+- collection_type: open
+  name: Logto API references Account center Audit logs API
+  slug: open-logto-audit-logs-api
+- collection_type: open
+  name: Logto API references Account center Authn API
+  slug: open-logto-authn-api
+- collection_type: open
+  name: Logto API references Account center Captcha provider API
+  slug: open-logto-captcha-provider-api
+- collection_type: open
+  name: Logto API references Account center Configs API
+  slug: open-logto-configs-api
+- collection_type: open
+  name: Logto API references Account center Connector factories API
+  slug: open-logto-connector-factories-api
+- collection_type: open
+  name: Logto API references Account center Connectors API
+  slug: open-logto-connectors-api
+- collection_type: open
+  name: Logto API references Account center Custom phrases API
+  slug: open-logto-custom-phrases-api
+- collection_type: open
+  name: Logto API references Account center Custom profile fields API
+  slug: open-logto-custom-profile-fields-api
+- collection_type: open
+  name: Logto API references Account center Dashboard API
+  slug: open-logto-dashboard-api
+- collection_type: open
+  name: Logto API references Account center Domains API
+  slug: open-logto-domains-api
+- collection_type: open
+  name: Logto API references Account center Email templates API
+  slug: open-logto-email-templates-api
+- collection_type: open
+  name: Logto API references Account center Experience API
+  slug: open-logto-experience-api
+- collection_type: open
+  name: Logto API references Account center Hooks API
+  slug: open-logto-hooks-api
+- collection_type: open
+  name: Logto API references Account center My account API
+  slug: open-logto-my-account-api
+- collection_type: open
+  name: Logto API references Account center One-time tokens API
+  slug: open-logto-one-time-tokens-api
+- collection_type: open
+  name: Logto API references Account center Organization invitations API
+  slug: open-logto-organization-invitations-api
+- collection_type: open
+  name: Logto API references Account center Organization roles API
+  slug: open-logto-organization-roles-api
+- collection_type: open
+  name: Logto API references Account center Organization scopes API
+  slug: open-logto-organization-scopes-api
+- collection_type: open
+  name: Logto API references Account center Organizations API
+  slug: open-logto-organizations-api
+- collection_type: open
+  name: Logto API references Account center Resources API
+  slug: open-logto-resources-api
+- collection_type: open
+  name: Logto API references Account center Roles API
+  slug: open-logto-roles-api
+- collection_type: open
+  name: Logto API references Account center SAML applications API
+  slug: open-logto-saml-applications-api
+- collection_type: open
+  name: Logto API references Account center SAML applications auth flow API
+  slug: open-logto-saml-applications-auth-flow-api
+- collection_type: open
+  name: Logto API references Account center Secrets API
+  slug: open-logto-secrets-api
+- collection_type: open
+  name: Logto API references Account center Sentinel activities API
+  slug: open-logto-sentinel-activities-api
+- collection_type: open
+  name: Logto API references Account center Sign-in experience API
+  slug: open-logto-sign-in-experience-api
+- collection_type: open
+  name: Logto API references Account center SSO connector providers API
+  slug: open-logto-sso-connector-providers-api
+- collection_type: open
+  name: Logto API references Account center SSO connectors API
+  slug: open-logto-sso-connectors-api
+- collection_type: open
+  name: Logto API references Account center Status API
+  slug: open-logto-status-api
+- collection_type: open
+  name: Logto API references Account center Subject tokens API
+  slug: open-logto-subject-tokens-api
+- collection_type: open
+  name: Logto API references Account center Swagger.json API
+  slug: open-logto-swagger-json-api
+- collection_type: open
+  name: Logto API references Account center Systems API
+  slug: open-logto-systems-api
+- collection_type: open
+  name: Logto API references Account center User assets API
+  slug: open-logto-user-assets-api
+- collection_type: open
+  name: Logto API references Account center Users API
+  slug: open-logto-users-api
+- collection_type: open
+  name: Logto API references Account center Verification codes API
+  slug: open-logto-verification-codes-api
+- collection_type: open
+  name: Logto API references Account center Verifications API
+  slug: open-logto-verifications-api
+- collection_type: open
+  name: Logto API references Account center Well-known API
+  slug: open-logto-well-known-api
 common:
 - group: operate
   title: ''
@@ -242,7 +363,7 @@ plans:
 - name: Logto Plans Pricing
   plan_count: 3
   slug: logto-plans-pricing
-random_paper: 69
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Logto Rate Limits
@@ -272,7 +393,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logto/refs/heads/main/screenshots/logto-2026-06-20T184700.png
 security:

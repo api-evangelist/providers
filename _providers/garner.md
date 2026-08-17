@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Facilities API from Garner — 1 operation(s) for facilities.
@@ -43,7 +43,23 @@ apis:
 - description: The Providers API from Garner — 1 operation(s) for providers.
   name: Garner Providers API
   slug: garner-providers-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Garner Health Facilities API
+  slug: open-garner-facilities-api
+- collection_type: open
+  name: Garner Health Facilities Professionals API
+  slug: open-garner-professionals-api
+- collection_type: open
+  name: Garner Health Facilities Provider Annotations API
+  slug: open-garner-provider-annotations-api
+- collection_type: open
+  name: Garner Health Facilities Providers API
+  slug: open-garner-providers-api
 common:
 - group: other
   title: ''
@@ -129,7 +145,7 @@ overview: 'Garner publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Garner''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 12 more developer resources.'
-random_paper: 39
+random_paper: 43
 score:
   band: thin
   composite: 40.7
@@ -158,7 +174,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/screenshots/garner-2026-07-25T215448.png
 security:

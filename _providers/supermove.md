@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Supermove Developer API New Lead Endpoint API from Supermove — 1 operation(s) for supermove developer api new lead endpoint.
   name: Supermove Supermove Developer API New Lead Endpoint API
   slug: supermove-supermove-developer-api-new-lead-endpoint-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Supermove Developer API - New Lead Endpoint Supermove Developer API New Lead Endpoint API
+  slug: open-supermove-supermove-developer-api-new-lead-endpoint-api
 common:
 - group: agent
   title: ''
@@ -72,7 +79,7 @@ plans:
 - name: Supermove Plans Pricing
   plan_count: 1
   slug: supermove-plans-pricing
-random_paper: 38
+random_paper: 104
 score:
   band: emerging
   composite: 24.6
@@ -93,7 +100,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

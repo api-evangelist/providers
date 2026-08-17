@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,11 +50,23 @@ apis:
 - description: Manage gateway route definitions at runtime
   name: Spring Cloud Gateway Routes API
   slug: spring-cloud-gateway-routes-api
-artifact_total: 18
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Spring Cloud Gateway Actuator API
   slug: open-spring-cloud-gateway-actuator
+- collection_type: open
+  name: Spring Cloud Gateway Actuator Filters API
+  slug: open-spring-cloud-gateway-filters-api
+- collection_type: open
+  name: Spring Cloud Gateway Actuator Filters Predicates API
+  slug: open-spring-cloud-gateway-predicates-api
+- collection_type: open
+  name: Spring Cloud Gateway Actuator Filters Routes API
+  slug: open-spring-cloud-gateway-routes-api
 common:
 - group: operate
   title: ''
@@ -163,7 +175,7 @@ plans:
 - name: Spring Cloud Gateway Plans Pricing
   plan_count: 3
   slug: spring-cloud-gateway-plans-pricing
-random_paper: 118
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Spring Cloud Gateway Rate Limits
@@ -205,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/screenshots/spring-cloud-gateway-2026-06-20T194410.png
 security:

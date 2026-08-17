@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -91,7 +91,7 @@ arazzos:
 - description: Read the authenticated user's profile, list their recent videos, then refresh metadata for the newest video.
   name: TikTok User Profile and Recent Videos
   slug: tiktok-for-developers-user-profile-and-videos-workflow
-artifact_total: 45
+artifact_total: 54
 collections:
 - collection_type: postman
   name: TikTok Content Posting OAuth API
@@ -118,11 +118,38 @@ collections:
   name: TikTok Content Posting OAuth Video API
   slug: postman-tiktok-for-developers-video-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: TikTok Content Posting API
   slug: open-tiktok-content-posting
 - collection_type: open
   name: TikTok Display API
   slug: open-tiktok-display
+- collection_type: open
+  name: TikTok Content Posting OAuth API
+  slug: open-tiktok-for-developers-oauth-api
+- collection_type: open
+  name: TikTok Content Posting OAuth Post API
+  slug: open-tiktok-for-developers-post-api
+- collection_type: open
+  name: TikTok Content Posting OAuth Research Comments API
+  slug: open-tiktok-for-developers-research-comments-api
+- collection_type: open
+  name: TikTok Content Posting OAuth Research Social API
+  slug: open-tiktok-for-developers-research-social-api
+- collection_type: open
+  name: TikTok Content Posting OAuth Research Users API
+  slug: open-tiktok-for-developers-research-users-api
+- collection_type: open
+  name: TikTok Content Posting OAuth Research Videos API
+  slug: open-tiktok-for-developers-research-videos-api
+- collection_type: open
+  name: TikTok Content Posting OAuth User API
+  slug: open-tiktok-for-developers-user-api
+- collection_type: open
+  name: TikTok Content Posting OAuth Video API
+  slug: open-tiktok-for-developers-video-api
 - collection_type: open
   name: TikTok Login Kit API
   slug: open-tiktok-login-kit
@@ -307,7 +334,7 @@ plans:
 - name: Tiktok For Developers Plans Pricing
   plan_count: 4
   slug: tiktok-for-developers-plans-pricing
-random_paper: 0
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Tiktok For Developers Rate Limits
@@ -349,7 +376,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/screenshots/tiktok-for-developers-2026-06-20T195354.png
 security:

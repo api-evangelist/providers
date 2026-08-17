@@ -11,33 +11,34 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 59.5
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 10
-  human_in_the_loop: 0
+- acting_count: 21
+  human_in_the_loop: 1
   name: Cms Agentic Access
-  operation_count: 43
+  operation_count: 94
   slug: cms-agentic-access
-  summary_line: 43 operations · 10 acting
-api_count: 16
+  summary_line: 94 operations · 21 acting · 1 human-in-the-loop
+api_count: 26
 apis:
 - description: Enables Medicare Accountable Care Organizations (ACOs) and alternative payment model participants to retrieve Medicare Part A, B, and D claims data for their attributed enrollees. Implements the HL7 B
   name: CMS Beneficiary Claims Data API (BCDA)
@@ -87,7 +88,89 @@ apis:
 - description: Lookup information on providers, drugs, and what is covered under what plans.
   name: Centers for Medicare and Medicaid Services Provider & Drug Coverage API
   slug: cms-provider-drug-coverage-api
-artifact_total: 128
+- description: data.cms.gov hosts hundreds of CMS datasets including Medicare Fee-for-Service utilization and payment data, Provider of Services files, Medicare Part B/D Prescriber summaries, Marketplace open enroll
+  name: CMS Socrata Open Data API (data.cms.gov)
+  slug: cms-socrata-open-data
+- description: The Provider Data Catalog API (formerly Hospital Compare) exposes the Medicare.gov Care Compare datasets including Hospital, Nursing Home, Home Health, Hospice, Physician, Long-Term Care Hospital, Inp
+  name: CMS Provider Data Catalog API (Care Compare)
+  slug: cms-provider-data-catalog
+- description: The NPPES NPI Registry API provides free public access to look up active National Provider Identifier records for individual and organizational healthcare providers, supporting FHIR-compatible JSON re
+  name: NPPES NPI Registry API
+  slug: nppes-npi-registry
+- description: The Healthcare.gov Marketplace API and accompanying Open Data Plan Finder exposes Qualified Health Plan (QHP) details, plan attributes, provider networks, and formularies for the Federally-Facilitated
+  name: Healthcare.gov Marketplace API
+  slug: healthcare-gov-marketplace
+- description: The Quality Payment Program Measures Data repository and REST API publish machine-readable specifications of MIPS quality, promoting interoperability, improvement activities, and cost measures for eac
+  name: CMS Quality Payment Program (QPP) Measures API
+  slug: qpp-measures-api
+- description: The Medicare Coverage Database publishes National Coverage Determinations (NCDs), Local Coverage Determinations (LCDs), articles, and coding guidance used to determine Medicare coverage and reimbursem
+  name: Medicare Coverage Database (MCD) API
+  slug: medicare-coverage-database
+- description: FHIR server capability statements and metadata.
+  name: Centers for Medicare and Medicaid Services Capability API
+  slug: centers-for-medicare-and-medicaid-services-capability-api
+- description: Beneficiary coverage records.
+  name: Centers for Medicare and Medicaid Services Coverage API
+  slug: centers-for-medicare-and-medicaid-services-coverage-api
+- description: Medicare claims expressed as ExplanationOfBenefit resources.
+  name: Centers for Medicare and Medicaid Services ExplanationOfBenefit API
+  slug: centers-for-medicare-and-medicaid-services-explanationofbenefit-api
+- description: Beneficiary (Patient) resources.
+  name: Centers for Medicare and Medicaid Services Patient API
+  slug: centers-for-medicare-and-medicaid-services-patient-api
+artifact_total: 162
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Marketplace API Reference API
+  slug: open-cms-api-reference-api
+- collection_type: open
+  name: Marketplace API Reference Bulk Data API
+  slug: open-cms-bulk-data-api
+- collection_type: open
+  name: CMS Blue Button 2.0 Capability API
+  slug: open-cms-capability-api
+- collection_type: open
+  name: CMS Blue Button 2.0 API
+  slug: open-cms-cms-blue-button-2
+- collection_type: open
+  name: Marketplace API Reference Code Search API
+  slug: open-cms-code-search-api
+- collection_type: open
+  name: Marketplace API Reference Cost Search API
+  slug: open-cms-cost-search-api
+- collection_type: open
+  name: CMS Blue Button 2.0 Capability Coverage API
+  slug: open-cms-coverage-api
+- collection_type: open
+  name: Marketplace API Reference Enrollments API
+  slug: open-cms-enrollments-api
+- collection_type: open
+  name: CMS Blue Button 2.0 Capability ExplanationOfBenefit API
+  slug: open-cms-explanationofbenefit-api
+- collection_type: open
+  name: Marketplace API Reference Geography API
+  slug: open-cms-geography-api
+- collection_type: open
+  name: Marketplace API Reference Households & Eligibility API
+  slug: open-cms-households-eligibility-api
+- collection_type: open
+  name: Marketplace API Reference Insurance Issuers API
+  slug: open-cms-insurance-issuers-api
+- collection_type: open
+  name: Marketplace API Reference Insurance Plans API
+  slug: open-cms-insurance-plans-api
+- collection_type: open
+  name: CMS Blue Button 2.0 Capability Patient API
+  slug: open-cms-patient-api
+- collection_type: open
+  name: Marketplace API Reference Plans API
+  slug: open-cms-plans-api
+- collection_type: open
+  name: Marketplace API Reference Provider & Drug Coverage API
+  slug: open-cms-provider-drug-coverage-api
 common:
 - group: operate
   title: ''
@@ -149,6 +232,250 @@ common:
   title: ''
   type: PublicDatasets
   url: https://www.cms.gov/data-research/cms-data/data-available-everyone
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/cms-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cms.gov/
+- group: other
+  title: ''
+  type: Developer
+  url: https://developer.cms.gov/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://data.cms.gov/
+- group: other
+  title: ''
+  type: ProviderData
+  url: https://data.cms.gov/provider-data/
+- group: other
+  title: ''
+  type: BlueButton
+  url: https://bluebutton.cms.gov/
+- group: other
+  title: ''
+  type: BCDA
+  url: https://bcda.cms.gov/
+- group: other
+  title: ''
+  type: DPC
+  url: https://dpc.cms.gov/
+- group: other
+  title: ''
+  type: NPPES
+  url: https://npiregistry.cms.hhs.gov/
+- group: other
+  title: ''
+  type: Marketplace
+  url: https://www.healthcare.gov/developers/
+- group: other
+  title: ''
+  type: QPP
+  url: https://qpp.cms.gov/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/CMSgov
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cms.gov/privacy
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/cms-well-known.yml
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: https://api.bluebutton.cms.gov/.well-known/openid-configuration
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cms-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/cms-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/cms-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/cms-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cms-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cms-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://security.cms.gov/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://security.cms.gov/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cms-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cms-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://ab2d.cms.gov/status
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://bcda.cms.gov/v3/welcome-v3
+- group: design
+  title: ''
+  type: Versioning
+  url: https://bcda.cms.gov/bcda-data/difference-between-v1-v2.html
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/cms-changelog.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.cms.gov/vulnerability-disclosure-policy
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/cms-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cms-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/cms-sandbox.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/cms-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/cms-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cms-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cms-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cms-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/cms-finops.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/cms-jsonschema-spectral-rules.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/cms-context.jsonld
+- group: build
+  title: ''
+  type: Examples
+  url: examples/marketplace-plan-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/marketplace-household-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/marketplace-provider-example.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/marketplace-plan.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/marketplace-household.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/marketplace-eligibility.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/marketplace-provider.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/marketplace-drug.json
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/cms-cms-blue-button-2.postman_collection.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cms-bcda-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cms-ab2d-overlay.yaml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.cms.gov/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://bcda.cms.gov/api-documentation.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://bluebutton.cms.gov/api-documentation/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://bcda.cms.gov/api-documentation/get-a-bearer-token.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://bcda.cms.gov/support.html
+- group: start
+  title: ''
+  type: SignUp
+  url: https://sandbox.bluebutton.cms.gov/v1/accounts/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://bluebutton.cms.gov/terms/
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/cms-vocabulary.json
 created: '2026-06-13'
 description: The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insurance datasets. CMS APIs support interoperability standards including HL7 FHIR and OAuth 2.0 to power healthcare applications across the US health system.
 examples:
@@ -183,6 +510,9 @@ examples:
   name: Ppl Cost Example
   slug: ppl-cost-example
 finops:
+- name: Cms Finops
+  service_category: API
+  slug: cms-finops
 - name: Finops
   service_category: ''
   slug: finops
@@ -477,23 +807,33 @@ jsonld:
   property_count: 88
   slug: cms-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: cms-mcp.yml
+  slug: cms-mcpyml
+modified: '2026-08-15'
 name: Centers for Medicare and Medicaid Services
 nav: Providers
 network: true
-overview: 'Centers for Medicare and Medicaid Services publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API Reference API, Bulk Data API, Code Search API, and 8 more. Tagged areas include Medicare, Medicaid, Healthcare, Health Insurance, and FHIR.
+overview: 'Centers for Medicare and Medicaid Services publishes 17 APIs on the [APIs.io](https://apis.io/) network, including CMS Beneficiary Claims Data API (BCDA), CMS AB2D API (Claims Data to Part D Sponsors), API Reference API, and 14 more. Tagged areas include Medicare, Medicaid, Healthcare, Health Insurance, and FHIR.
 
 
   The Centers for Medicare and Medicaid Services catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Centers for Medicare and Medicaid Services'' developer surface includes authentication, developer portal, and 13 more developer resources.'
+  Centers for Medicare and Medicaid Services'' developer surface includes authentication, developer portal, changelog, sandbox, CLI, code examples, documentation, and 69 more developer resources.'
 plans:
+- name: Cms Plans Pricing
+  plan_count: 3
+  slug: cms-plans-pricing
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 83
+random_paper: 25
 rate_limits:
+- limit_count: 4
+  name: Cms Rate Limits
+  slug: cms-rate-limits
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
@@ -506,17 +846,22 @@ rules:
     info: 1
     warn: 4
   slug: cms-jsonschema-spectral-rules
+scopes:
+- name: Cms Scopes
+  scope_count: 6
+  slug: cms-scopes
+  summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.2
-  delta: 0.0
+  band: exemplar
+  composite: 79.8
+  delta: 38.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 57.3
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 31.6
+    commercial_clarity: 89.5
+    contract_quality: 64.6
+    developer_ergonomics: 89.1
+    discoverability: 83.3
+    governance: 89.6
+    operational_transparency: 86.8
   previous_composite: 41.2
   provenance:
     agentic_access: derived
@@ -530,20 +875,28 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.3
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png
 security:
 - kind: authentication
   name: Cms Authentication
   slug: cms-authentication
-  summary_line: apiKey · 3 schemes
+  summary_line: apiKey/http (bearer)/http (basic)/oauth2 · 9 schemes
 - kind: domain-security
   name: Cms Domain Security
   slug: cms-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Cms Vulnerability Disclosure
+  slug: cms-vulnerability-disclosure
+  summary_line: disclosure policy published
+- kind: trust-center
+  name: Cms Trust Center
+  slug: cms-trust-center
+  summary_line: trust center published
 slug: cms
 tags:
 - Medicare
@@ -556,5 +909,5 @@ tags:
 - Provider Data
 - Quality Measures
 - Claims Data
-website: https://developer.cms.gov/
+website: https://www.cms.gov/
 ---

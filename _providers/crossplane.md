@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Providers are Crossplane packages that install controllers and CRDs for managing resources on a specific infrastructure platform such as AWS, GCP, or Azure.
   name: Crossplane Providers API
   slug: crossplane-providers-api
-artifact_total: 27
+artifact_total: 35
 collections:
 - collection_type: postman
   name: Crossplane Kubernetes CompositeResourceDefinitions API
@@ -84,8 +84,32 @@ collections:
   name: Crossplane Kubernetes CompositeResourceDefinitions Providers API
   slug: postman-crossplane-providers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crossplane Kubernetes CompositeResourceDefinitions API
+  slug: open-crossplane-compositeresourcedefinitions-api
+- collection_type: open
+  name: Crossplane Kubernetes CompositeResourceDefinitions Compositions API
+  slug: open-crossplane-compositions-api
+- collection_type: open
+  name: Crossplane Kubernetes CompositeResourceDefinitions Configurations API
+  slug: open-crossplane-configurations-api
+- collection_type: open
+  name: Crossplane Kubernetes CompositeResourceDefinitions DeploymentRuntimeConfigs API
+  slug: open-crossplane-deploymentruntimeconfigs-api
+- collection_type: open
+  name: Crossplane Kubernetes CompositeResourceDefinitions EnvironmentConfigs API
+  slug: open-crossplane-environmentconfigs-api
+- collection_type: open
+  name: Crossplane Kubernetes CompositeResourceDefinitions Functions API
+  slug: open-crossplane-functions-api
+- collection_type: open
   name: Crossplane Kubernetes API
   slug: open-crossplane-kubernetes-api
+- collection_type: open
+  name: Crossplane Kubernetes CompositeResourceDefinitions Providers API
+  slug: open-crossplane-providers-api
 common:
 - group: operate
   title: ''
@@ -229,7 +253,7 @@ plans:
 - name: Crossplane Plans Pricing
   plan_count: 3
   slug: crossplane-plans-pricing
-random_paper: 2
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Crossplane Rate Limits
@@ -271,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/screenshots/crossplane-2026-06-20T175248.png
 security:

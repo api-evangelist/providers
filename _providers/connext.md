@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The Batched Intents API from Everclear — 2 operation(s) for batched intents.
@@ -45,7 +45,35 @@ apis:
 - description: The Tron API from Everclear — 1 operation(s) for tron.
   name: Everclear Tron API
   slug: connext-tron-api
-artifact_total: 10
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chimera Batched Intents API
+  slug: open-connext-batched-intents-api
+- collection_type: open
+  name: Chimera Configs API
+  slug: open-connext-configs-api
+- collection_type: open
+  name: Chimera History API
+  slug: open-connext-history-api
+- collection_type: open
+  name: Chimera Intents API
+  slug: open-connext-intents-api
+- collection_type: open
+  name: Chimera Invoices API
+  slug: open-connext-invoices-api
+- collection_type: open
+  name: Chimera Routes API
+  slug: open-connext-routes-api
+- collection_type: open
+  name: Chimera Solana API
+  slug: open-connext-solana-api
+- collection_type: open
+  name: Chimera Tron API
+  slug: open-connext-tron-api
 common:
 - group: auth
   title: ''
@@ -148,7 +176,7 @@ overview: 'Everclear publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Everclear''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 47
+random_paper: 22
 score:
   band: thin
   composite: 34.6
@@ -169,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

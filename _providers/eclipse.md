@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,8 +77,35 @@ apis:
 - description: The Taxonomy API from Eclipse Foundation — 1 operation(s) for taxonomy.
   name: Eclipse Foundation Taxonomy API
   slug: eclipse-taxonomy-api
-artifact_total: 20
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eclipse Marketplace REST Eclipse Marketplace REST API API
+  slug: open-eclipse-eclipse-marketplace-rest-api-api
+- collection_type: open
+  name: Eclipse Marketplace REST Eclipse Marketplace REST API Favorites API
+  slug: open-eclipse-favorites-api
+- collection_type: open
+  name: Eclipse Marketplace REST Eclipse Marketplace REST API Featured API
+  slug: open-eclipse-featured-api
+- collection_type: open
+  name: Eclipse Marketplace REST Eclipse Marketplace REST API Node API
+  slug: open-eclipse-node-api
+- collection_type: open
+  name: Eclipse Marketplace REST Eclipse Marketplace REST API Popular API
+  slug: open-eclipse-popular-api
+- collection_type: open
+  name: Eclipse Marketplace REST Eclipse Marketplace REST API Recent API
+  slug: open-eclipse-recent-api
+- collection_type: open
+  name: Eclipse Marketplace REST Eclipse Marketplace REST API Search API
+  slug: open-eclipse-search-api
+- collection_type: open
+  name: Eclipse Marketplace REST Eclipse Marketplace REST API Taxonomy API
+  slug: open-eclipse-taxonomy-api
 - collection_type: open
   name: Eclipse Marketplace REST API
   slug: open-eclipse
@@ -151,7 +178,7 @@ plans:
 - name: Eclipse Plans Pricing
   plan_count: 3
   slug: eclipse-plans-pricing
-random_paper: 21
+random_paper: 145
 rate_limits:
 - limit_count: 5
   name: Eclipse Rate Limits
@@ -176,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/screenshots/eclipse-2026-06-20T180424.png
 security:

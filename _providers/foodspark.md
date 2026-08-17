@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Foodspark provides a restaurant data API, food and grocery pricing API, restaurant menu API, and aggregated food-delivery data sourced from 100+ platforms. Endpoint and authentication details are prov
@@ -100,7 +100,7 @@ plans:
 - name: Foodspark Plans Pricing
   plan_count: 1
   slug: foodspark-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Foodspark Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foodspark/refs/heads/main/screenshots/foodspark-2026-06-20T181412.png
 security:

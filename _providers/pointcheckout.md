@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: API endpoints for branch management.
@@ -44,11 +44,27 @@ apis:
 - description: API endpoints for webhook management.
   name: PointCheckout Webhooks API
   slug: pointcheckout-webhooks-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Pointcheckout Webhooks
   slug: pointcheckout-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Merchant Branches API
+  slug: open-pointcheckout-branches-api
+- collection_type: open
+  name: Merchant Branches Checkout API
+  slug: open-pointcheckout-checkout-api
+- collection_type: open
+  name: Merchant Branches Customer subscription API
+  slug: open-pointcheckout-customer-subscription-api
+- collection_type: open
+  name: Merchant Branches Webhooks API
+  slug: open-pointcheckout-webhooks-api
 common:
 - group: other
   title: ''
@@ -185,7 +201,7 @@ overview: 'PointCheckout publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   PointCheckout''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, quickstart, support, and 22 more developer resources.'
-random_paper: 88
+random_paper: 67
 score:
   band: developing
   composite: 49.5
@@ -214,7 +230,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

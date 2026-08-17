@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: Manage security universes for data requests
   name: Bloomberg AIM Universes API
   slug: bloomberg-aim-universes-api
-artifact_total: 311
+artifact_total: 329
 collections:
 - collection_type: postman
   name: Bloomberg Data License API (HAPI) Broker Strategies API
@@ -146,6 +146,60 @@ collections:
 - collection_type: postman
   name: Bloomberg Data License API (HAPI) Broker Strategies Universes API
   slug: postman-bloomberg-aim-universes-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies API
+  slug: open-bloomberg-aim-broker-strategies-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Catalogs API
+  slug: open-bloomberg-aim-catalogs-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Distributions API
+  slug: open-bloomberg-aim-distributions-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Field Lists API
+  slug: open-bloomberg-aim-field-lists-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Field Search API
+  slug: open-bloomberg-aim-field-search-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Fills API
+  slug: open-bloomberg-aim-fills-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Historical Data API
+  slug: open-bloomberg-aim-historical-data-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Instruments API
+  slug: open-bloomberg-aim-instruments-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Intraday Data API
+  slug: open-bloomberg-aim-intraday-data-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Orders API
+  slug: open-bloomberg-aim-orders-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Reference Data API
+  slug: open-bloomberg-aim-reference-data-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Replies API
+  slug: open-bloomberg-aim-replies-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Requests API
+  slug: open-bloomberg-aim-requests-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Routes API
+  slug: open-bloomberg-aim-routes-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Teams API
+  slug: open-bloomberg-aim-teams-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Triggers API
+  slug: open-bloomberg-aim-triggers-api
+- collection_type: open
+  name: Bloomberg Data License API (HAPI) Broker Strategies Universes API
+  slug: open-bloomberg-aim-universes-api
 - collection_type: open
   name: Bloomberg Data License API (HAPI)
   slug: open-bloomberg-data-license-api
@@ -1016,7 +1070,7 @@ plans:
 - name: Bloomberg Aim Plans Pricing
   plan_count: 1
   slug: bloomberg-aim-plans-pricing
-random_paper: 109
+random_paper: 117
 rate_limits:
 - limit_count: 2
   name: Bloomberg Aim Rate Limits
@@ -1069,7 +1123,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/screenshots/bloomberg-aim-2026-06-20T173406.png
 security:

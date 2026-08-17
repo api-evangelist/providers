@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -254,7 +254,7 @@ arazzos:
 - description: Send a WhatsApp one-time passcode and authenticate the code the user enters.
   name: Stytch WhatsApp One-Time Passcode Login
   slug: stytch-whatsapp-otp-login-workflow
-artifact_total: 1085
+artifact_total: 1133
 collections:
 - collection_type: postman
   name: Stytch B2B Authentication API
@@ -266,14 +266,158 @@ collections:
   name: Stytch Management API
   slug: postman-stytch-management
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stytch B2B Authentication Application API
+  slug: open-stytch-application-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B IDP API
+  slug: open-stytch-b2b-idp-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B Impersonation API
+  slug: open-stytch-b2b-impersonation-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B Magic Links API
+  slug: open-stytch-b2b-magic-links-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B OAuth API
+  slug: open-stytch-b2b-oauth-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B OTP API
+  slug: open-stytch-b2b-otp-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B Passwords API
+  slug: open-stytch-b2b-passwords-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B RBAC API
+  slug: open-stytch-b2b-rbac-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B Recovery Codes API
+  slug: open-stytch-b2b-recovery-codes-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B SCIM API
+  slug: open-stytch-b2b-scim-api
+- collection_type: open
+  name: Stytch B2B Authentication Application B2B TOTP API
+  slug: open-stytch-b2b-totp-api
+- collection_type: open
   name: Stytch B2B Authentication API
   slug: open-stytch-b2b
+- collection_type: open
+  name: Stytch B2B Authentication Application Clients API
+  slug: open-stytch-clients-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Connected Apps API
+  slug: open-stytch-connected-apps-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Consumer RBAC API
+  slug: open-stytch-consumer-rbac-api
 - collection_type: open
   name: Stytch Consumer Authentication API
   slug: open-stytch-consumer
 - collection_type: open
+  name: Stytch B2B Authentication Application Country Code Allowlist API
+  slug: open-stytch-country-code-allowlist-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Crypto Wallet API
+  slug: open-stytch-crypto-wallet-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Debug API
+  slug: open-stytch-debug-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Discovery API
+  slug: open-stytch-discovery-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Email API
+  slug: open-stytch-email-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Email Template API
+  slug: open-stytch-email-template-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Environment API
+  slug: open-stytch-environment-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Event Log Streaming API
+  slug: open-stytch-event-log-streaming-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Fraud API
+  slug: open-stytch-fraud-api
+- collection_type: open
+  name: Stytch B2B Authentication Application IDP API
+  slug: open-stytch-idp-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Impersonation API
+  slug: open-stytch-impersonation-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Jwt Template API
+  slug: open-stytch-jwt-template-api
+- collection_type: open
+  name: Stytch B2B Authentication Application M2M API
+  slug: open-stytch-m2m-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Magic Links API
+  slug: open-stytch-magic-links-api
+- collection_type: open
   name: Stytch Management API
   slug: open-stytch-management
+- collection_type: open
+  name: Stytch B2B Authentication Application Members API
+  slug: open-stytch-members-api
+- collection_type: open
+  name: Stytch B2B Authentication Application OAuth API
+  slug: open-stytch-oauth-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Organization API
+  slug: open-stytch-organization-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Organizations API
+  slug: open-stytch-organizations-api
+- collection_type: open
+  name: Stytch B2B Authentication Application OTP API
+  slug: open-stytch-otp-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Password API
+  slug: open-stytch-password-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Passwords API
+  slug: open-stytch-passwords-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Project API
+  slug: open-stytch-project-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Public Token API
+  slug: open-stytch-public-token-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Rbac API
+  slug: open-stytch-rbac-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Redirect Url API
+  slug: open-stytch-redirect-url-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Sdk API
+  slug: open-stytch-sdk-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Secret API
+  slug: open-stytch-secret-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Session API
+  slug: open-stytch-session-api
+- collection_type: open
+  name: Stytch B2B Authentication Application SSO API
+  slug: open-stytch-sso-api
+- collection_type: open
+  name: Stytch B2B Authentication Application TOTP API
+  slug: open-stytch-totp-api
+- collection_type: open
+  name: Stytch B2B Authentication Application Trusted Token Profile API
+  slug: open-stytch-trusted-token-profile-api
+- collection_type: open
+  name: Stytch B2B Authentication Application User API
+  slug: open-stytch-user-api
+- collection_type: open
+  name: Stytch B2B Authentication Application WebAuthn API
+  slug: open-stytch-webauthn-api
 common:
 - group: agent
   title: ''
@@ -3656,7 +3800,7 @@ plans:
 - name: Stytch Plans Pricing
   plan_count: 2
   slug: stytch-plans-pricing
-random_paper: 71
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Stytch Rate Limits
@@ -3698,7 +3842,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png
 security:

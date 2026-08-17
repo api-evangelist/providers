@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: Retrieve dataset metadata and schema information.
   name: AmeriCorps Metadata API
   slug: americorps-metadata-api
-artifact_total: 24
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AmeriCorps Open Data Catalog API
+  slug: open-americorps-catalog-api
+- collection_type: open
+  name: AmeriCorps Open Data Catalog Datasets API
+  slug: open-americorps-datasets-api
+- collection_type: open
+  name: AmeriCorps Open Data Catalog Metadata API
+  slug: open-americorps-metadata-api
 - collection_type: open
   name: AmeriCorps Open Data API
   slug: open-americorps
@@ -133,7 +145,7 @@ plans:
 - name: Americorps Plans Pricing
   plan_count: 3
   slug: americorps-plans-pricing
-random_paper: 117
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Americorps Rate Limits
@@ -164,7 +176,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/screenshots/americorps-2026-06-20T171928.png
 security:

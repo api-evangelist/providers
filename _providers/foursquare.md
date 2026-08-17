@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,11 +75,38 @@ apis:
 - description: User tips associated with a place
   name: Foursquare Tips API
   slug: foursquare-tips-api
-artifact_total: 38
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Foursquare Places Ask API
+  slug: open-foursquare-ask-api
+- collection_type: open
+  name: Foursquare Places Ask Autocomplete API
+  slug: open-foursquare-autocomplete-api
+- collection_type: open
+  name: Foursquare Places Ask Details API
+  slug: open-foursquare-details-api
+- collection_type: open
+  name: Foursquare Places Ask Geotagging API
+  slug: open-foursquare-geotagging-api
+- collection_type: open
+  name: Foursquare Places Ask Match API
+  slug: open-foursquare-match-api
+- collection_type: open
+  name: Foursquare Places Ask Photos API
+  slug: open-foursquare-photos-api
 - collection_type: open
   name: Foursquare Places API
   slug: open-foursquare-places
+- collection_type: open
+  name: Foursquare Places Ask Search API
+  slug: open-foursquare-search-api
+- collection_type: open
+  name: Foursquare Places Ask Tips API
+  slug: open-foursquare-tips-api
 common:
 - group: agent
   title: ''
@@ -232,7 +259,7 @@ plans:
 - name: Foursquare Plans Pricing
   plan_count: 10
   slug: foursquare-plans-pricing
-random_paper: 21
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Foursquare Rate Limits
@@ -274,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/screenshots/foursquare-2026-06-20T181457.png
 security:

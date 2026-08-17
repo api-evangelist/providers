@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -120,7 +120,74 @@ apis:
 - description: Transaction and refund validation
   name: Roku Validation API
   slug: roku-validation-api
-artifact_total: 186
+artifact_total: 208
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps API
+  slug: open-roku-apps-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps asyncapi API
+  slug: open-roku-asyncapi-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps Billing API
+  slug: open-roku-billing-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps builds API
+  slug: open-roku-builds-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps devices API
+  slug: open-roku-devices-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps Diagnostics API
+  slug: open-roku-diagnostics-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps Discovery API
+  slug: open-roku-discovery-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps groups API
+  slug: open-roku-groups-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps healthz API
+  slug: open-roku-healthz-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps Input API
+  slug: open-roku-input-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps KeyPress API
+  slug: open-roku-keypress-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps organisation-roles API
+  slug: open-roku-organisation-roles-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps organisations API
+  slug: open-roku-organisations-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps personal-access-tokens API
+  slug: open-roku-personal-access-tokens-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps projects API
+  slug: open-roku-projects-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps Query API
+  slug: open-roku-query-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps serviceaccounts API
+  slug: open-roku-serviceaccounts-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps snapshots API
+  slug: open-roku-snapshots-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps Subscription API
+  slug: open-roku-subscription-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps users API
+  slug: open-roku-users-api
+- collection_type: open
+  name: Roku External Control Protocol (ECP) Apps Validation API
+  slug: open-roku-validation-api
 common:
 - group: agent
   title: ''
@@ -707,7 +774,7 @@ plans:
 - name: Roku Plans Pricing
   plan_count: 1
   slug: roku-plans-pricing
-random_paper: 89
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Roku Rate Limits
@@ -749,7 +816,7 @@ score:
       marker_coverage: 100.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png
 security:

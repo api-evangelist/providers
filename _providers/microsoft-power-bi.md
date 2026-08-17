@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -78,8 +78,41 @@ apis:
 - description: The Reports API from Microsoft Power BI — 5 operation(s) for reports.
   name: Microsoft Power BI Reports API
   slug: microsoft-power-bi-reports-api
-artifact_total: 20
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Power BI REST Apps API
+  slug: open-microsoft-power-bi-apps-api
+- collection_type: open
+  name: Microsoft Power BI REST Apps Capacities API
+  slug: open-microsoft-power-bi-capacities-api
+- collection_type: open
+  name: Microsoft Power BI REST Apps Dashboards API
+  slug: open-microsoft-power-bi-dashboards-api
+- collection_type: open
+  name: Microsoft Power BI REST Apps Dataflows API
+  slug: open-microsoft-power-bi-dataflows-api
+- collection_type: open
+  name: Microsoft Power BI REST Apps Datasets API
+  slug: open-microsoft-power-bi-datasets-api
+- collection_type: open
+  name: Microsoft Power BI REST Apps EmbedToken API
+  slug: open-microsoft-power-bi-embedtoken-api
+- collection_type: open
+  name: Microsoft Power BI REST Apps Gateways API
+  slug: open-microsoft-power-bi-gateways-api
+- collection_type: open
+  name: Microsoft Power BI REST Apps Groups API
+  slug: open-microsoft-power-bi-groups-api
+- collection_type: open
+  name: Microsoft Power BI REST Apps Imports API
+  slug: open-microsoft-power-bi-imports-api
+- collection_type: open
+  name: Microsoft Power BI REST Apps Reports API
+  slug: open-microsoft-power-bi-reports-api
 - collection_type: open
   name: Microsoft Power BI REST API
   slug: open-microsoft-power-bi
@@ -176,7 +209,7 @@ plans:
 - name: Microsoft Power Bi Plans Pricing
   plan_count: 3
   slug: microsoft-power-bi-plans-pricing
-random_paper: 32
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Bi Rate Limits
@@ -201,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-bi/refs/heads/main/screenshots/microsoft-power-bi-2026-06-20T185523.png
 security:

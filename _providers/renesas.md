@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: Endpoints for retrieving software tools.
   name: Renesas Software Tool API
   slug: renesas-software-tool-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Renesas Web Data Board & Kit API
+  slug: open-renesas-board-kit-api
+- collection_type: open
+  name: Renesas Web Data Board & Kit Document API
+  slug: open-renesas-document-api
+- collection_type: open
+  name: Renesas Web Data Board & Kit Package API
+  slug: open-renesas-package-api
+- collection_type: open
+  name: Renesas Web Data Board & Kit Product API
+  slug: open-renesas-product-api
+- collection_type: open
+  name: Renesas Web Data Board & Kit Product Part API
+  slug: open-renesas-product-part-api
+- collection_type: open
+  name: Renesas Web Data Board & Kit Software Tool API
+  slug: open-renesas-software-tool-api
 common:
 - group: agent
   title: ''
@@ -187,7 +209,7 @@ overview: 'Renesas publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Renesas'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 33
+random_paper: 8
 score:
   band: developing
   composite: 47.4
@@ -211,7 +233,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

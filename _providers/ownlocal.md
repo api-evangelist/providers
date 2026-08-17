@@ -29,13 +29,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Partner-facing REST API (v1) for OwnLocal's automated print-to-digital advertising platform. Publishers and their systems create and list ads, upload the source print-ad PDF for conversion, create and
   name: OwnLocal API
   slug: ownlocal-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: OwnLocal API — Ads
+  slug: open-ownlocal-ads
+- collection_type: open
+  name: OwnLocal API — Businesses
+  slug: open-ownlocal-businesses
+- collection_type: open
+  name: OwnLocal API — Categories
+  slug: open-ownlocal-categories
+- collection_type: open
+  name: OwnLocal API — Reports Data API
+  slug: open-ownlocal-reports-data-api
 common:
 - group: company
   title: ''
@@ -138,7 +151,7 @@ plans:
 - name: Ownlocal Plans Pricing
   plan_count: 0
   slug: ownlocal-plans-pricing
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 0
   name: Ownlocal Rate Limits
@@ -146,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.4
-  delta: 23.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 32.3
@@ -154,10 +167,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 6.5
+  previous_composite: 30.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/screenshots/ownlocal-2026-08-07T191206.png
 security:
 - kind: authentication

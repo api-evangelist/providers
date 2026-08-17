@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Comment collection. Registered and anonymously reachable, but empty — X-WP-Total is 0.
@@ -45,7 +45,35 @@ apis:
 - description: 'Categories and tags. Four categories are registered — Press Releases (14), In The News (4), Presentations and Publications (1), Uncategorized (0). The post_tag taxonomy holds three unused placeholder '
   name: Allay Therapeutics Taxonomy API
   slug: allay-therapeutics-taxonomy-api
-artifact_total: 10
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Allay Therapeutics Content Comments API
+  slug: open-allay-therapeutics-comments-api
+- collection_type: open
+  name: Allay Therapeutics Content Discovery API
+  slug: open-allay-therapeutics-discovery-api
+- collection_type: open
+  name: Allay Therapeutics Content Media API
+  slug: open-allay-therapeutics-media-api
+- collection_type: open
+  name: Allay Therapeutics Content Oembed API
+  slug: open-allay-therapeutics-oembed-api
+- collection_type: open
+  name: Allay Therapeutics Content Pages API
+  slug: open-allay-therapeutics-pages-api
+- collection_type: open
+  name: Allay Therapeutics Content Posts API
+  slug: open-allay-therapeutics-posts-api
+- collection_type: open
+  name: Allay Therapeutics Content Search API
+  slug: open-allay-therapeutics-search-api
+- collection_type: open
+  name: Allay Therapeutics Content Taxonomy API
+  slug: open-allay-therapeutics-taxonomy-api
 common:
 - group: other
   title: ''
@@ -156,7 +184,7 @@ overview: 'Allay Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   Allay Therapeutics'' developer surface includes product news, authentication, and 22 more developer resources.'
-random_paper: 73
+random_paper: 85
 score:
   band: thin
   composite: 30.2
@@ -184,7 +212,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/screenshots/allay-therapeutics-2026-08-07T161209.png
 security:

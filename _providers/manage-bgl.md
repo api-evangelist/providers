@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Health checks and operational status
   name: Manage BGL System API
   slug: manage-bgl-system-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jade Diabetes REST Authentication API
+  slug: open-manage-bgl-authentication-api
+- collection_type: open
+  name: Jade Diabetes REST Authentication Logs API
+  slug: open-manage-bgl-logs-api
+- collection_type: open
+  name: Jade Diabetes REST Authentication Predictions API
+  slug: open-manage-bgl-predictions-api
+- collection_type: open
+  name: Jade Diabetes REST Authentication Settings API
+  slug: open-manage-bgl-settings-api
+- collection_type: open
+  name: Jade Diabetes REST Authentication System API
+  slug: open-manage-bgl-system-api
 common:
 - group: agent
   title: ''
@@ -167,7 +186,7 @@ overview: 'Manage BGL publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Manage BGL''s developer surface includes API reference, documentation, sandbox, pricing, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 11
+random_paper: 77
 score:
   band: thin
   composite: 41.1
@@ -197,7 +216,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/screenshots/manage-bgl-2026-07-25T230015.png
 security:

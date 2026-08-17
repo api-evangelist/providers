@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -50,11 +50,18 @@ apis:
 - description: The platform's OAuth2 / OpenID Connect surface, tagged "NaC Authorization Server" and "Well Known Metadata" in the harvested specification. Real operations are GET /oauth2/v1/auth/clientcredentials (i
   name: Network as Code Authorization Server
   slug: authorization-server
-artifact_total: 15
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Nokia Network As Code Webhooks
   slug: nokia-network-as-code-webhooks
+collections:
+- collection_type: open
+  name: Network as Code
+  slug: open-nokia-network-as-code-camara
+- collection_type: open
+  name: Network as Code
+  slug: open-nokia-network-as-code-platform
 common:
 - group: operate
   title: ''
@@ -269,7 +276,7 @@ overview: 'Nokia Network as Code publishes 7 APIs on the [APIs.io](https://apis.
 
 
   Nokia Network as Code''s developer surface includes authentication, changelog, sandbox, API reference, developer portal, documentation, getting-started guide, and 41 more developer resources.'
-random_paper: 26
+random_paper: 129
 scopes:
 - name: Nokia Network As Code Scopes
   scope_count: 65
@@ -304,7 +311,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png
 security:

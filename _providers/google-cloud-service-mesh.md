@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -78,8 +78,44 @@ apis:
 - description: The TlsRoutes API from Google Cloud Service Mesh — 1 operation(s) for tlsroutes.
   name: Google Cloud Service Mesh TlsRoutes API
   slug: google-cloud-service-mesh-tlsroutes-api
-artifact_total: 22
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies API
+  slug: open-google-cloud-service-mesh-endpointpolicies-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies Gateways API
+  slug: open-google-cloud-service-mesh-gateways-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies Google Cloud Network Services API (Service Mesh) API
+  slug: open-google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies GrpcRoutes API
+  slug: open-google-cloud-service-mesh-grpcroutes-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies HttpRoutes API
+  slug: open-google-cloud-service-mesh-httproutes-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies Locations API
+  slug: open-google-cloud-service-mesh-locations-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies Meshes API
+  slug: open-google-cloud-service-mesh-meshes-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies Operations API
+  slug: open-google-cloud-service-mesh-operations-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies ServiceLbPolicies API
+  slug: open-google-cloud-service-mesh-servicelbpolicies-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies TcpRoutes API
+  slug: open-google-cloud-service-mesh-tcproutes-api
+- collection_type: open
+  name: Google Cloud Network Services API (Service Mesh) EndpointPolicies TlsRoutes API
+  slug: open-google-cloud-service-mesh-tlsroutes-api
 - collection_type: open
   name: Google Cloud Network Services API (Service Mesh)
   slug: open-google-cloud-service-mesh
@@ -164,7 +200,7 @@ plans:
 - name: Google Cloud Service Mesh Plans Pricing
   plan_count: 3
   slug: google-cloud-service-mesh-plans-pricing
-random_paper: 89
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Google Cloud Service Mesh Rate Limits
@@ -194,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/screenshots/google-cloud-service-mesh-2026-06-20T182137.png
 security:

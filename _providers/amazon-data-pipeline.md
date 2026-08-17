@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -79,11 +79,26 @@ arazzos:
 - description: Validate a candidate pipeline definition and only commit it when it is error free.
   name: Amazon Data Pipeline Validate Then Put Definition
   slug: amazon-data-pipeline-validate-then-put-definition-workflow
-artifact_total: 86
+artifact_total: 91
 collections:
 - collection_type: postman
   name: AWS Data Pipeline API
   slug: postman-amazon-data-pipeline
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Data Pipeline Pipeline Objects API
+  slug: open-amazon-data-pipeline-pipeline-objects-api
+- collection_type: open
+  name: AWS Data Pipeline Pipeline Objects Pipeline Runs API
+  slug: open-amazon-data-pipeline-pipeline-runs-api
+- collection_type: open
+  name: AWS Data Pipeline Pipeline Objects Pipelines API
+  slug: open-amazon-data-pipeline-pipelines-api
+- collection_type: open
+  name: AWS Data Pipeline Pipeline Objects Tags API
+  slug: open-amazon-data-pipeline-tags-api
 - collection_type: open
   name: AWS Data Pipeline API
   slug: open-amazon-data-pipeline
@@ -394,7 +409,7 @@ plans:
 - name: Amazon Data Pipeline Plans Pricing
   plan_count: 3
   slug: amazon-data-pipeline-plans-pricing
-random_paper: 80
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Amazon Data Pipeline Rate Limits
@@ -436,7 +451,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/screenshots/amazon-data-pipeline-2026-06-20T171620.png
 security:

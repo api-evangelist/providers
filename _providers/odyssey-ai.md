@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Odyssey Ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Odyssey Ai''s developer surface includes engineering blog, legal docs, and 6 more developer resources.'
-random_paper: 71
+random_paper: 137
 score:
   band: minimal
   composite: 5.4
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odyssey-ai/refs/heads/main/screenshots/odyssey-ai-2026-08-07T190119.png
 security:

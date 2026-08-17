@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -74,7 +74,47 @@ apis:
 - description: The Subagents Interactive API from SambaNova Systems — 4 operation(s) for subagents interactive.
   name: SambaNova Systems Subagents Interactive API
   slug: sambanova-systems-subagents-interactive-api
-artifact_total: 17
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sambanova Agents Service Audio API
+  slug: open-sambanova-systems-audio-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Chat completions API
+  slug: open-sambanova-systems-chat-completions-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Completions API
+  slug: open-sambanova-systems-completions-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Embeddings API
+  slug: open-sambanova-systems-embeddings-api
+- collection_type: open
+  name: Sambanova Agents Service Audio File Management API
+  slug: open-sambanova-systems-file-management-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Main Agent API
+  slug: open-sambanova-systems-main-agent-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Main Agent Interactive API
+  slug: open-sambanova-systems-main-agent-interactive-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Messages API
+  slug: open-sambanova-systems-messages-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Models API
+  slug: open-sambanova-systems-models-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Responses API
+  slug: open-sambanova-systems-responses-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Subagents API
+  slug: open-sambanova-systems-subagents-api
+- collection_type: open
+  name: Sambanova Agents Service Audio Subagents Interactive API
+  slug: open-sambanova-systems-subagents-interactive-api
 common:
 - group: other
   title: ''
@@ -216,7 +256,7 @@ overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/
 
 
   SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 109
+random_paper: 1
 rate_limits:
 - limit_count: 11
   name: Sambanova Systems Rate Limits
@@ -244,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

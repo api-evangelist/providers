@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: TestRail user lookup.
   name: TestRail Users API
   slug: testrail-users-api
-artifact_total: 17
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TestRail API (v2) Cases API
+  slug: open-testrail-cases-api
+- collection_type: open
+  name: TestRail API (v2) Cases Configurations API
+  slug: open-testrail-configurations-api
+- collection_type: open
+  name: TestRail API (v2) Cases Milestones API
+  slug: open-testrail-milestones-api
+- collection_type: open
+  name: TestRail API (v2) Cases Plans API
+  slug: open-testrail-plans-api
+- collection_type: open
+  name: TestRail API (v2) Cases Projects API
+  slug: open-testrail-projects-api
+- collection_type: open
+  name: TestRail API (v2) Cases Results API
+  slug: open-testrail-results-api
+- collection_type: open
+  name: TestRail API (v2) Cases Runs API
+  slug: open-testrail-runs-api
+- collection_type: open
+  name: TestRail API (v2) Cases Sections API
+  slug: open-testrail-sections-api
+- collection_type: open
+  name: TestRail API (v2) Cases Suites API
+  slug: open-testrail-suites-api
+- collection_type: open
+  name: TestRail API (v2) Cases Tests API
+  slug: open-testrail-tests-api
+- collection_type: open
+  name: TestRail API (v2) Cases Users API
+  slug: open-testrail-users-api
 - collection_type: open
   name: TestRail API (v2)
   slug: open-testrail
@@ -134,7 +170,7 @@ plans:
 - name: Testrail Plans Pricing
   plan_count: 4
   slug: testrail-plans-pricing
-random_paper: 32
+random_paper: 127
 rate_limits:
 - limit_count: 4
   name: Testrail Rate Limits
@@ -159,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

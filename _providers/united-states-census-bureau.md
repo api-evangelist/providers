@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +65,35 @@ apis:
 - description: Annual population estimates and projections
   name: United States Census Bureau Population Estimates API
   slug: united-states-census-bureau-population-estimates-api
-artifact_total: 24
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Census Data API
   slug: open-census-data-api
+- collection_type: open
+  name: Census Data American Community Survey API
+  slug: open-united-states-census-bureau-american-community-survey-api
+- collection_type: open
+  name: Census Data American Community Survey County Business Patterns API
+  slug: open-united-states-census-bureau-county-business-patterns-api
+- collection_type: open
+  name: Census Data American Community Survey Decennial Census API
+  slug: open-united-states-census-bureau-decennial-census-api
+- collection_type: open
+  name: Census Data American Community Survey Economic Census API
+  slug: open-united-states-census-bureau-economic-census-api
+- collection_type: open
+  name: Census Data American Community Survey Geographic Services API
+  slug: open-united-states-census-bureau-geographic-services-api
+- collection_type: open
+  name: Census Data American Community Survey International API
+  slug: open-united-states-census-bureau-international-api
+- collection_type: open
+  name: Census Data American Community Survey Population Estimates API
+  slug: open-united-states-census-bureau-population-estimates-api
 common:
 - group: agent
   title: ''
@@ -164,7 +188,7 @@ plans:
 - name: United States Census Bureau Plans Pricing
   plan_count: 3
   slug: united-states-census-bureau-plans-pricing
-random_paper: 105
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: United States Census Bureau Rate Limits
@@ -212,7 +236,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/screenshots/united-states-census-bureau-2026-06-20T200100.png
 security:

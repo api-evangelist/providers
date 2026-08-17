@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,11 +66,26 @@ apis:
 - description: Search and availability operations
   name: Sabre Hotel Search API
   slug: sabre-hotel-search-api
-artifact_total: 57
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sabre Bargain Finder Max Air Shopping API
+  slug: open-sabre-air-shopping-api
+- collection_type: open
+  name: Sabre Bargain Finder Max Air Shopping Authentication API
+  slug: open-sabre-authentication-api
 - collection_type: open
   name: Sabre Bargain Finder Max API
   slug: open-sabre-bargain-finder-max
+- collection_type: open
+  name: Sabre Bargain Finder Max Air Shopping Hotel Booking API
+  slug: open-sabre-hotel-booking-api
+- collection_type: open
+  name: Sabre Bargain Finder Max Air Shopping Hotel Search API
+  slug: open-sabre-hotel-search-api
 - collection_type: open
   name: Sabre Hotels API
   slug: open-sabre-hotels
@@ -314,7 +329,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases Archive
   url: https://www.sabre.com/releases/
-random_paper: 45
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Sabre Rate Limits
@@ -356,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/screenshots/sabre-2026-06-20T193316.png
 security:

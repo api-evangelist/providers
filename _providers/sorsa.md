@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Verify follow, comment, retweet, quote and community-membership relationships
   name: Sorsa Verification API
   slug: sorsa-verification-api
-artifact_total: 88
+artifact_total: 97
 collections:
 - collection_type: postman
   name: Sorsa Community API
@@ -89,6 +89,33 @@ collections:
 - collection_type: postman
   name: Sorsa Community Verification API
   slug: postman-sorsa-verification-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sorsa Community API
+  slug: open-sorsa-community-api
+- collection_type: open
+  name: Sorsa Community Lists API
+  slug: open-sorsa-lists-api
+- collection_type: open
+  name: Sorsa Community Search API
+  slug: open-sorsa-search-api
+- collection_type: open
+  name: Sorsa Community Sorsa Info Crypto Related API
+  slug: open-sorsa-sorsa-info-crypto-related-api
+- collection_type: open
+  name: Sorsa Community Technical Endpoints API
+  slug: open-sorsa-technical-endpoints-api
+- collection_type: open
+  name: Sorsa Community Tweets API
+  slug: open-sorsa-tweets-api
+- collection_type: open
+  name: Sorsa Community Users Data API
+  slug: open-sorsa-users-data-api
+- collection_type: open
+  name: Sorsa Community Verification API
+  slug: open-sorsa-verification-api
 - collection_type: open
   name: Sorsa API
   slug: open-sorsa
@@ -362,7 +389,7 @@ plans:
 - name: Sorsa Plans Pricing
   plan_count: 4
   slug: sorsa-plans-pricing
-random_paper: 72
+random_paper: 105
 rate_limits:
 - limit_count: 0
   name: Sorsa Rate Limits
@@ -404,7 +431,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/screenshots/sorsa-2026-06-20T194217.png
 security:

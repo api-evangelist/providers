@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - description: Endpoints for polling the status and retrieving completed image editing results.
   name: Flux Results API
   slug: flux-results-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Flux Image Editing API
@@ -61,11 +61,23 @@ collections:
   name: Flux Image Editing Results API
   slug: postman-flux-results-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flux Image Editing API
+  slug: open-flux-editing-api
+- collection_type: open
+  name: Flux Image Editing Generation API
+  slug: open-flux-generation-api
+- collection_type: open
   name: Flux Image Editing API
   slug: open-flux-image-editing
 - collection_type: open
   name: Flux Image Generation API
   slug: open-flux-image-generation
+- collection_type: open
+  name: Flux Image Editing Results API
+  slug: open-flux-results-api
 common:
 - group: operate
   title: ''
@@ -179,7 +191,7 @@ plans:
 - name: Flux Plans Pricing
   plan_count: 3
   slug: flux-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Flux Rate Limits
@@ -213,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/screenshots/flux-2026-06-20T181418.png
 security:

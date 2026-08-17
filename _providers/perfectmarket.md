@@ -27,36 +27,59 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
+coverage:
+  checked: '2026-08-13'
+  detail: Perfect Market was acquired by Taboola in August 2014 and absorbed into the Taboola-X publisher product; perfectmarket.com still has delegated nameservers and Google Workspace mail but publishes no A or CNAME record on the apex, www, api, developer or docs names, so every HTTP request fails at DNS and no web host, developer portal or API contract survives anywhere under the name.
+  evidence:
+  - status: 0
+    url: https://perfectmarket.com/
+  - status: 0
+    url: https://api.perfectmarket.com/
+  - status: 0
+    url: https://developer.perfectmarket.com/
+  - status: 404
+    url: https://perfectmarket.ai/.well-known/agent-card.json
+  - status: 404
+    url: https://perfectmarket.ai/openapi.json
+  - status: 404
+    url: https://pypi.org/pypi/perfectmarket/json
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: 'PerfectMarket is a company surfaced as a portfolio company of trinity-ventures and added to the API Evangelist network as a stub for enrichment. Sector: marketing. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Perfect Market, Inc. was a digital publishing technology company founded by Idealab in 2007 and backed by Trinity Ventures, building on the Idealab/Overture paid-search lineage. It sold software for driving traffic, engagement and advertising revenue to premium publishers, and claimed more than 200 customers including LATimes.com, ChicagoTribune.com, NBCNews.com, Mediaite.com and BusinessInsider.com. Taboola acquired Perfect Market in August 2014 for cash and stock and folded its programmatic advertising technology into the Taboola-X publisher monetization product. The company no longer operates independently and publishes no API surface: perfectmarket.com retains delegated nameservers and Google Workspace mail but resolves to no web host on the apex, www, api, developer or docs names, so there is no website, developer portal, documentation, or contract to profile.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/perfectmarket.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: PerfectMarket
 nav: Providers
 network: true
-overview: PerfectMarket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Marketing.
-random_paper: 69
+overview: PerfectMarket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Advertising, Publishing, and Content Monetization.
+random_paper: 48
 score:
   band: minimal
-  composite: 4.1
-  delta: 0.0
+  composite: 5.0
+  delta: 0.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 40.7
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: perfectmarket
 tags:
 - Company
 - Marketing
+- Advertising
+- Publishing
+- Content Monetization
+- Programmatic Advertising
+- Acquired
 ---

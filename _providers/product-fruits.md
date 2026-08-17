@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: User identification and management
   name: Product Fruits Users API
   slug: product-fruits-users-api
-artifact_total: 23
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Product Fruits REST Events API
+  slug: open-product-fruits-events-api
+- collection_type: open
+  name: Product Fruits REST Events Feedback API
+  slug: open-product-fruits-feedback-api
+- collection_type: open
+  name: Product Fruits REST Events Knowledge Base API
+  slug: open-product-fruits-knowledge-base-api
+- collection_type: open
+  name: Product Fruits REST Events Users API
+  slug: open-product-fruits-users-api
 common:
 - group: agent
   title: ''
@@ -172,7 +188,7 @@ plans:
 - name: Product Fruits Plans Pricing
   plan_count: 4
   slug: product-fruits-plans-pricing
-random_paper: 43
+random_paper: 142
 rate_limits:
 - limit_count: 0
   name: Product Fruits Rate Limits
@@ -206,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/screenshots/product-fruits-2026-06-20T192135.png
 security:

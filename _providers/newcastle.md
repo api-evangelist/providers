@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,23 @@ apis:
 - description: There may be more than one timeseries associated with a feed, provided for convenience. Ordinarily there will be a plain timeseries, representing raw data from the device. In some cases, there may the
   name: Newcastle University Timeseries API
   slug: newcastle-timeseries-api
-artifact_total: 27
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Urban Observatory API: Urban Sciences Building Entity API'
+  slug: open-newcastle-entity-api
+- collection_type: open
+  name: 'Urban Observatory API: Urban Sciences Building Entity Feed API'
+  slug: open-newcastle-feed-api
+- collection_type: open
+  name: 'Urban Observatory API: Urban Sciences Building Entity Summary API'
+  slug: open-newcastle-summary-api
+- collection_type: open
+  name: 'Urban Observatory API: Urban Sciences Building Entity Timeseries API'
+  slug: open-newcastle-timeseries-api
 common:
 - group: agent
   title: ''
@@ -168,7 +184,7 @@ plans:
 - name: Newcastle Plans Pricing
   plan_count: 2
   slug: newcastle-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Newcastle Rate Limits
@@ -216,7 +232,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/screenshots/newcastle-2026-06-20T190237.png
 security:

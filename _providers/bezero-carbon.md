@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Projects API from BeZero Carbon — 1 operation(s) for projects.
@@ -28,7 +28,17 @@ apis:
 - description: The Ratings API from BeZero Carbon — 3 operation(s) for ratings.
   name: BeZero Carbon Ratings API
   slug: bezero-carbon-ratings-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BeZero Ratings Projects API
+  slug: open-bezero-carbon-projects-api
+- collection_type: open
+  name: BeZero Ratings API
+  slug: open-bezero-carbon-ratings-api
 common:
 - group: company
   title: ''
@@ -166,7 +176,7 @@ overview: 'BeZero Carbon publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   BeZero Carbon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 1
+random_paper: 129
 rate_limits:
 - limit_count: 1
   name: Bezero Carbon Rate Limits
@@ -198,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/screenshots/bezero-carbon-2026-08-07T162353.png
 security:

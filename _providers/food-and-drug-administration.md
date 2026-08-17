@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Tobacco product problem reports.
   name: Food and Drug Administration Tobacco API
   slug: food-and-drug-administration-tobacco-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: openFDA Animal & Veterinary API
+  slug: open-food-and-drug-administration-animal-veterinary-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Device API
+  slug: open-food-and-drug-administration-device-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Drug API
+  slug: open-food-and-drug-administration-drug-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Food API
+  slug: open-food-and-drug-administration-food-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Other API
+  slug: open-food-and-drug-administration-other-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Tobacco API
+  slug: open-food-and-drug-administration-tobacco-api
 - collection_type: open
   name: openFDA API
   slug: open-openfda
@@ -122,7 +143,7 @@ plans:
 - name: Food And Drug Administration Plans Pricing
   plan_count: 3
   slug: food-and-drug-administration-plans-pricing
-random_paper: 50
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Food And Drug Administration Rate Limits
@@ -162,7 +183,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/screenshots/food-and-drug-administration-2026-06-20T181356.png
 security:

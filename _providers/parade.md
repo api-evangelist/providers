@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The Search API from Parade — 1 operation(s) for search.
   name: Parade Search API
   slug: parade-search-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Parade Transactions Available Trucks API
+  slug: open-parade-available-trucks-api
+- collection_type: open
+  name: Parade Transactions Available Trucks Bookings API
+  slug: open-parade-bookings-api
+- collection_type: open
+  name: Parade Transactions Available Trucks Carrier Onboarding Status API
+  slug: open-parade-carrier-onboarding-status-api
+- collection_type: open
+  name: Parade Transactions Available Trucks Carrier Synchronization API
+  slug: open-parade-carrier-synchronization-api
+- collection_type: open
+  name: Parade Transactions Available Trucks Digital Conversion API
+  slug: open-parade-digital-conversion-api
+- collection_type: open
+  name: Parade Transactions Available Trucks Load Synchronization API
+  slug: open-parade-load-synchronization-api
+- collection_type: open
+  name: Parade Transactions Available Trucks Quotes API
+  slug: open-parade-quotes-api
+- collection_type: open
+  name: Parade Transactions Available Trucks Search API
+  slug: open-parade-search-api
 common:
 - group: company
   title: ''
@@ -168,7 +196,7 @@ overview: 'Parade publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parade''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 16 more developer resources.'
-random_paper: 21
+random_paper: 25
 score:
   band: thin
   composite: 41.6
@@ -192,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/screenshots/parade-2026-08-07T191355.png
 security:

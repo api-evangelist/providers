@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -91,11 +91,26 @@ arazzos:
 - description: Resolve a spreadsheet via a data filter, update matching ranges by filter, then read them back by filter.
   name: Google Sheets Update and Read Values by Data Filter
   slug: google-sheets-update-and-read-by-data-filter-workflow
-artifact_total: 309
+artifact_total: 314
 collections:
 - collection_type: postman
   name: Google Sheets API
   slug: postman-google-sheets
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Sheets developerMetadata API
+  slug: open-google-sheets-developermetadata-api
+- collection_type: open
+  name: Google developerMetadata Sheets API
+  slug: open-google-sheets-sheets-api
+- collection_type: open
+  name: Google Sheets developerMetadata Spreadsheets API
+  slug: open-google-sheets-spreadsheets-api
+- collection_type: open
+  name: Google Sheets developerMetadata Values API
+  slug: open-google-sheets-values-api
 - collection_type: open
   name: Google Sheets API
   slug: open-google-sheets
@@ -1133,7 +1148,7 @@ plans:
 - name: Google Sheets Plans Pricing
   plan_count: 3
   slug: google-sheets-plans-pricing
-random_paper: 14
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: Google Sheets Rate Limits
@@ -1182,7 +1197,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/screenshots/google-sheets-2026-06-20T182233.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: CRUD operations on records within an object
   name: Stacker Records API
   slug: stacker-records-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stacker Accounts API
+  slug: open-stacker-accounts-api
+- collection_type: open
+  name: Stacker Accounts Hello API
+  slug: open-stacker-hello-api
+- collection_type: open
+  name: Stacker Accounts Objects API
+  slug: open-stacker-objects-api
+- collection_type: open
+  name: Stacker Accounts Records API
+  slug: open-stacker-records-api
 - collection_type: open
   name: Stacker API
   slug: open-stacker
@@ -151,7 +166,7 @@ plans:
 - name: Stacker Plans Pricing
   plan_count: 3
   slug: stacker-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Stacker Rate Limits
@@ -193,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/screenshots/stacker-2026-06-20T194549.png
 security:

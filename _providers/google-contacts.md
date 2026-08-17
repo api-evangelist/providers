@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: The People:searchContacts API from Google People API — 1 operation(s) for people:searchcontacts.
   name: Google People API People:searchContacts API
   slug: google-contacts-people-searchcontacts-api
-artifact_total: 20
+artifact_total: 25
 collections:
 - collection_type: postman
   name: Google People API (Contacts) ContactGroups API
@@ -66,8 +66,23 @@ collections:
   name: Google People API (Contacts) ContactGroups People:searchContacts API
   slug: postman-google-contacts-people-searchcontacts-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google People API (Contacts)
   slug: open-contacts
+- collection_type: open
+  name: Google People API (Contacts) ContactGroups API
+  slug: open-google-contacts-contactgroups-api
+- collection_type: open
+  name: Google API (Contacts) ContactGroups People API
+  slug: open-google-contacts-people-api
+- collection_type: open
+  name: Google People API (Contacts) ContactGroups People:createContact API
+  slug: open-google-contacts-people-createcontact-api
+- collection_type: open
+  name: Google People API (Contacts) ContactGroups People:searchContacts API
+  slug: open-google-contacts-people-searchcontacts-api
 common:
 - group: build
   title: ''
@@ -161,7 +176,7 @@ plans:
 - name: Google Contacts Plans Pricing
   plan_count: 3
   slug: google-contacts-plans-pricing
-random_paper: 105
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Google Contacts Rate Limits
@@ -200,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-contacts/refs/heads/main/screenshots/google-contacts-2026-06-20T182151.png
 security:

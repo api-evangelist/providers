@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -166,7 +166,140 @@ apis:
 - description: Handlers for sponsor visitors
   name: Eden Health grdn.routes.impl.visitor API
   slug: eden-health-grdn-routes-impl-visitor-api
-artifact_total: 45
+artifact_total: 89
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Grdn grdn.handler API
+  slug: open-eden-health-grdn-handler-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.addons API
+  slug: open-eden-health-grdn-routes-impl-addons-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.app API
+  slug: open-eden-health-grdn-routes-impl-app-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.appointments API
+  slug: open-eden-health-grdn-routes-impl-appointments-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.assignment API
+  slug: open-eden-health-grdn-routes-impl-assignment-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.athena-providers API
+  slug: open-eden-health-grdn-routes-impl-athena-providers-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.auth API
+  slug: open-eden-health-grdn-routes-impl-auth-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.bookable-entities API
+  slug: open-eden-health-grdn-routes-impl-bookable-entities-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.brad API
+  slug: open-eden-health-grdn-routes-impl-brad-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.bug API
+  slug: open-eden-health-grdn-routes-impl-bug-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.care-pods API
+  slug: open-eden-health-grdn-routes-impl-care-pods-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.careteam API
+  slug: open-eden-health-grdn-routes-impl-careteam-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.channel API
+  slug: open-eden-health-grdn-routes-impl-channel-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.chat API
+  slug: open-eden-health-grdn-routes-impl-chat-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.configuration API
+  slug: open-eden-health-grdn-routes-impl-configuration-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.consent API
+  slug: open-eden-health-grdn-routes-impl-consent-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.demographics API
+  slug: open-eden-health-grdn-routes-impl-demographics-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.document API
+  slug: open-eden-health-grdn-routes-impl-document-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.eligibility API
+  slug: open-eden-health-grdn-routes-impl-eligibility-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.event API
+  slug: open-eden-health-grdn-routes-impl-event-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.feedback API
+  slug: open-eden-health-grdn-routes-impl-feedback-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.images API
+  slug: open-eden-health-grdn-routes-impl-images-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.insurance API
+  slug: open-eden-health-grdn-routes-impl-insurance-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.macros API
+  slug: open-eden-health-grdn-routes-impl-macros-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.member API
+  slug: open-eden-health-grdn-routes-impl-member-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.membership API
+  slug: open-eden-health-grdn-routes-impl-membership-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.next-step API
+  slug: open-eden-health-grdn-routes-impl-next-step-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.patients API
+  slug: open-eden-health-grdn-routes-impl-patients-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.pediatric API
+  slug: open-eden-health-grdn-routes-impl-pediatric-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.popup API
+  slug: open-eden-health-grdn-routes-impl-popup-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.provider API
+  slug: open-eden-health-grdn-routes-impl-provider-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.provider-groups API
+  slug: open-eden-health-grdn-routes-impl-provider-groups-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.screener-response API
+  slug: open-eden-health-grdn-routes-impl-screener-response-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.screeners API
+  slug: open-eden-health-grdn-routes-impl-screeners-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.sendbird API
+  slug: open-eden-health-grdn-routes-impl-sendbird-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.sponsor API
+  slug: open-eden-health-grdn-routes-impl-sponsor-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.sponsor-user API
+  slug: open-eden-health-grdn-routes-impl-sponsor-user-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.ticklers API
+  slug: open-eden-health-grdn-routes-impl-ticklers-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.tools API
+  slug: open-eden-health-grdn-routes-impl-tools-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.validation API
+  slug: open-eden-health-grdn-routes-impl-validation-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.video API
+  slug: open-eden-health-grdn-routes-impl-video-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.video-visit API
+  slug: open-eden-health-grdn-routes-impl-video-visit-api
+- collection_type: open
+  name: Grdn grdn.handler grdn.routes.impl.visitor API
+  slug: open-eden-health-grdn-routes-impl-visitor-api
 common:
 - group: other
   title: ''
@@ -213,7 +346,7 @@ name: Eden Health
 nav: Providers
 network: true
 overview: Eden Health publishes 43 APIs on the [APIs.io](https://apis.io/) network, including grdn.handler API, grdn.routes.impl.addons API, grdn.routes.impl.app API, and 40 more. Tagged areas include Company, Healthcare, Primary Care, Virtual Care, and Telehealth.
-random_paper: 7
+random_paper: 44
 score:
   band: emerging
   composite: 17.4
@@ -241,7 +374,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

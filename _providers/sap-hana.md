@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
 - description: Operations for retrieving database performance metrics and resource utilization data for SAP HANA Cloud instances.
   name: SAP HANA Metrics API
   slug: sap-hana-metrics-api
-artifact_total: 151
+artifact_total: 157
 collections:
 - collection_type: postman
   name: SAP HANA Cloud REST Alerts API
@@ -108,8 +108,26 @@ collections:
   name: SAP HANA Cloud REST Alerts Metrics API
   slug: postman-sap-hana-metrics-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP HANA Cloud REST Alerts API
+  slug: open-sap-hana-alerts-api
+- collection_type: open
   name: SAP HANA Cloud REST API
   slug: open-sap-hana-cloud-rest-api
+- collection_type: open
+  name: SAP HANA Cloud REST Alerts Instance Mappings API
+  slug: open-sap-hana-instance-mappings-api
+- collection_type: open
+  name: SAP HANA Cloud REST Alerts Instances API
+  slug: open-sap-hana-instances-api
+- collection_type: open
+  name: SAP HANA Cloud REST Alerts Metering API
+  slug: open-sap-hana-metering-api
+- collection_type: open
+  name: SAP HANA Cloud REST Alerts Metrics API
+  slug: open-sap-hana-metrics-api
 common:
 - group: build
   title: ''
@@ -546,7 +564,7 @@ plans:
 - name: Sap Hana Plans Pricing
   plan_count: 1
   slug: sap-hana-plans-pricing
-random_paper: 57
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Sap Hana Rate Limits
@@ -593,7 +611,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/screenshots/sap-hana-2026-06-20T193427.png
 security:

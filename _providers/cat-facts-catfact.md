@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,8 +43,17 @@ apis:
 - description: Random cat trivia, individually or in paginated lists.
   name: Cat Facts (catfact.ninja) Facts API
   slug: cat-facts-catfact-facts-api
-artifact_total: 23
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cat Facts Breeds API
+  slug: open-cat-facts-catfact-breeds-api
+- collection_type: open
+  name: Cat Breeds Facts API
+  slug: open-cat-facts-catfact-facts-api
 - collection_type: open
   name: Cat Facts API
   slug: open-cat-facts-catfact
@@ -173,7 +182,7 @@ overview: 'Cat Facts (catfact.ninja) publishes 2 APIs on the [APIs.io](https://a
 
 
   Cat Facts (catfact.ninja)''s developer surface includes authentication, tooling, and 12 more developer resources.'
-random_paper: 97
+random_paper: 18
 rules:
 - name: Cat Facts (catfact.ninja) API Rules
   rule_count: 5
@@ -211,7 +220,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/screenshots/cat-facts-catfact-2026-06-20T174040.png
 security:

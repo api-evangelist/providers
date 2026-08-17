@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 3
@@ -99,8 +99,74 @@ apis:
 - description: The webhooks API from Schematic — 6 operation(s) for webhooks.
   name: Schematic webhooks API
   slug: schematic-webhooks-api
-artifact_total: 39
+artifact_total: 61
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Schematic Accesstokens API
+  slug: open-schematic-accesstokens-api
+- collection_type: open
+  name: Schematic accesstokens Accounts API
+  slug: open-schematic-accounts-api
+- collection_type: open
+  name: Schematic accesstokens Billing API
+  slug: open-schematic-billing-api
+- collection_type: open
+  name: Schematic accesstokens Checkout API
+  slug: open-schematic-checkout-api
+- collection_type: open
+  name: Schematic accesstokens Companies API
+  slug: open-schematic-companies-api
+- collection_type: open
+  name: Schematic accesstokens Components API
+  slug: open-schematic-components-api
+- collection_type: open
+  name: Schematic accesstokens Componentspublic API
+  slug: open-schematic-componentspublic-api
+- collection_type: open
+  name: Schematic accesstokens Credits API
+  slug: open-schematic-credits-api
+- collection_type: open
+  name: Schematic accesstokens Dataexports API
+  slug: open-schematic-dataexports-api
+- collection_type: open
+  name: Schematic accesstokens Entitlements API
+  slug: open-schematic-entitlements-api
+- collection_type: open
+  name: Schematic accesstokens Events API
+  slug: open-schematic-events-api
+- collection_type: open
+  name: Schematic accesstokens Features API
+  slug: open-schematic-features-api
+- collection_type: open
+  name: Schematic accesstokens Insights API
+  slug: open-schematic-insights-api
+- collection_type: open
+  name: Schematic accesstokens Integrationsapi API
+  slug: open-schematic-integrationsapi-api
+- collection_type: open
+  name: API Collection
+  slug: open-schematic-openapi-provenance
+- collection_type: open
+  name: Schematic accesstokens Planbundle API
+  slug: open-schematic-planbundle-api
+- collection_type: open
+  name: Schematic accesstokens Plangroups API
+  slug: open-schematic-plangroups-api
+- collection_type: open
+  name: Schematic accesstokens Planmigrations API
+  slug: open-schematic-planmigrations-api
+- collection_type: open
+  name: Schematic accesstokens Plans API
+  slug: open-schematic-plans-api
+- collection_type: open
+  name: Schematic accesstokens Scheduledcheckout API
+  slug: open-schematic-scheduledcheckout-api
+- collection_type: open
+  name: Schematic accesstokens Webhooks API
+  slug: open-schematic-webhooks-api
 - collection_type: open
   name: Schematic API
   slug: open-schematic
@@ -228,7 +294,7 @@ plans:
 - name: Schematic Plans Pricing
   plan_count: 3
   slug: schematic-plans-pricing
-random_paper: 105
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Schematic Rate Limits
@@ -270,7 +336,7 @@ score:
       marker_coverage: 4.8
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/screenshots/schematic-2026-06-20T193553.png
 security:

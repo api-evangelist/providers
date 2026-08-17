@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -87,8 +87,59 @@ apis:
 - description: The User API from Race Entry — 1 operation(s) for user.
   name: Race Entry User API
   slug: race-entry-user-api
-artifact_total: 23
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Race Entry Software Event API
+  slug: open-race-entry-event-api
+- collection_type: open
+  name: Race Entry Software Event Get Category Teams API
+  slug: open-race-entry-get-category-teams-api
+- collection_type: open
+  name: Race Entry Software Event Get Event Categories API
+  slug: open-race-entry-get-event-categories-api
+- collection_type: open
+  name: Race Entry Software Event Get Event Participants API
+  slug: open-race-entry-get-event-participants-api
+- collection_type: open
+  name: Race Entry Software Event Get Event Pin API
+  slug: open-race-entry-get-event-pin-api
+- collection_type: open
+  name: Race Entry Software Event Get Event Questions API
+  slug: open-race-entry-get-event-questions-api
+- collection_type: open
+  name: Race Entry Software Event Get Event Teams API
+  slug: open-race-entry-get-event-teams-api
+- collection_type: open
+  name: Race Entry Software Event Get Events API
+  slug: open-race-entry-get-events-api
+- collection_type: open
+  name: Race Entry Software Event Login API
+  slug: open-race-entry-login-api
+- collection_type: open
+  name: Race Entry Software Event Memberships API
+  slug: open-race-entry-memberships-api
+- collection_type: open
+  name: Race Entry Software Event Result API
+  slug: open-race-entry-result-api
+- collection_type: open
+  name: Race Entry Software Event Set Event App Access API
+  slug: open-race-entry-set-event-app-access-api
+- collection_type: open
+  name: Race Entry Software Event Set Event Pin API
+  slug: open-race-entry-set-event-pin-api
+- collection_type: open
+  name: Race Entry Software Event Update Event Participant API
+  slug: open-race-entry-update-event-participant-api
+- collection_type: open
+  name: Race Entry Software Event Upload API
+  slug: open-race-entry-upload-api
+- collection_type: open
+  name: Race Entry Software Event User API
+  slug: open-race-entry-user-api
 - collection_type: open
   name: Race Entry Software API
   slug: open-race-entry
@@ -129,7 +180,7 @@ plans:
 - name: Race Entry Plans Pricing
   plan_count: 3
   slug: race-entry-plans-pricing
-random_paper: 58
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Race Entry Rate Limits
@@ -154,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/screenshots/race-entry-2026-06-20T192506.png
 security:

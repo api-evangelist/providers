@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -59,11 +59,45 @@ apis:
 - description: The Workflow API API from 1Kosmos — 2 operation(s) for workflow api.
   name: 1Kosmos Workflow API API
   slug: 1kosmos-workflow-api-api
-artifact_total: 16
+artifact_total: 27
 asyncapis:
 - description: ''
   name: 1Kosmos Idverify Events
   slug: 1kosmos-idverify-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 1Kosmos BlockID Platform Access Code API
+  slug: open-1kosmos-access-code-api
+- collection_type: open
+  name: 1Kosmos BlockID Platform IAL API
+  slug: open-1kosmos-ial-api
+- collection_type: open
+  name: 1Kosmos BlockID Platform IAL2 API
+  slug: open-1kosmos-ial2-api
+- collection_type: open
+  name: 1Kosmos BlockID Platform ID Verification API
+  slug: open-1kosmos-id-verification-api
+- collection_type: open
+  name: 1Kosmos BlockID Platform OTP API
+  slug: open-1kosmos-otp-api
+- collection_type: open
+  name: 1Kosmos BlockID Platform Reports API
+  slug: open-1kosmos-reports-api
+- collection_type: open
+  name: 1Kosmos BlockID Platform Set up API
+  slug: open-1kosmos-set-up-api
+- collection_type: open
+  name: 1Kosmos BlockID Platform User Management API
+  slug: open-1kosmos-user-management-api
+- collection_type: open
+  name: 1Kosmos BlockID Platform Verifiable Credentials API
+  slug: open-1kosmos-verifiable-credentials-api
+- collection_type: open
+  name: 1Kosmos BlockID Platform Workflow API API
+  slug: open-1kosmos-workflow-api-api
 common:
 - group: agent
   title: ''
@@ -216,7 +250,7 @@ overview: '1Kosmos publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   1Kosmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, sandbox, and 26 more developer resources.'
-random_paper: 117
+random_paper: 121
 scopes:
 - name: 1Kosmos Scopes
   scope_count: 3
@@ -245,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/screenshots/1kosmos-2026-08-07T160649.png
 security:

@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-12'
+  score: 72.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -81,7 +81,11 @@ apis:
 - description: Create, retrieve, update, and delete Thanx users.
   name: Thanx Users API
   slug: thanx-users-api
-artifact_total: 134
+artifact_total: 153
+asyncapis:
+- description: ''
+  name: Thanx Webhooks
+  slug: thanx-webhooks
 collections:
 - collection_type: postman
   name: Thanx Consumer Account API
@@ -126,14 +130,59 @@ collections:
   name: Thanx Consumer Account Users API
   slug: postman-thanx-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thanx Consumer Account API
+  slug: open-thanx-account-api
+- collection_type: open
+  name: Thanx Consumer Account Auth API
+  slug: open-thanx-auth-api
+- collection_type: open
+  name: Thanx Consumer Account Baskets API
+  slug: open-thanx-baskets-api
+- collection_type: open
+  name: Thanx Consumer Account Campaigns API
+  slug: open-thanx-campaigns-api
+- collection_type: open
+  name: Thanx Consumer Account Cards API
+  slug: open-thanx-cards-api
+- collection_type: open
   name: Thanx Consumer API
   slug: open-thanx-consumer-api
+- collection_type: open
+  name: Thanx Consumer Account Gift Cards API
+  slug: open-thanx-gift-cards-api
+- collection_type: open
+  name: Thanx Consumer Account Issuance Jobs API
+  slug: open-thanx-issuance-jobs-api
+- collection_type: open
+  name: Thanx Consumer Account Locations API
+  slug: open-thanx-locations-api
 - collection_type: open
   name: Thanx Loyalty API
   slug: open-thanx-loyalty-api
 - collection_type: open
+  name: Thanx Consumer Account Metadata API
+  slug: open-thanx-metadata-api
+- collection_type: open
   name: Thanx Partner API
   slug: open-thanx-partner-api
+- collection_type: open
+  name: Thanx Consumer Account Points API
+  slug: open-thanx-points-api
+- collection_type: open
+  name: Thanx Consumer Account Purchases API
+  slug: open-thanx-purchases-api
+- collection_type: open
+  name: Thanx Consumer Account Rewards API
+  slug: open-thanx-rewards-api
+- collection_type: open
+  name: Thanx Consumer Account Subscribers API
+  slug: open-thanx-subscribers-api
+- collection_type: open
+  name: Thanx Consumer Account Users API
+  slug: open-thanx-users-api
 common:
 - group: build
   title: ''
@@ -239,6 +288,122 @@ common:
   title: ''
   type: Blog
   url: https://www.thanx.com/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/thanx-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/thanx-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/thanx-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/thanx-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/thanx-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/thanx-a2a.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/thanx-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/thanx-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/thanx-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/thanx-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/thanx-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/thanx-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.thanx.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/thanx-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/thanx-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/thanx-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/thanx-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/thanx-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/thanx-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/thanx-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/thanx-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.thanx.com/hc/en-us
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.thanx.com/talk-to-sales
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.thanx.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://dashboard.thanx.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://dashboard.thanx.com/privacy
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://thanx.launchnotes.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.thanx.com/consumer/overview
 created: '2026-06-02'
 description: Thanx is a customer engagement, loyalty, and marketing automation platform for restaurants and other offline businesses, built to acquire, engage, and retain best customers and grow customer lifetime value. The platform combines data infrastructure, lifecycle marketing, loyalty and CRM, and digital ordering experiences. Thanx is API-first and publishes a public developer portal documenting a Consumer API for custom consumer experiences, a Partner API for privileged integration use cases, and a Loyalty API for digital ordering and kiosk providers, along with webhooks and Connex data-export integrations to warehouses like Snowflake and BigQuery. Thanx serves roughly 500 brands and processes over a billion transactions annually. It also publishes a hosted Docs MCP server for natural-language API search and an open agent-skills starter kit.
 examples:
@@ -516,24 +681,28 @@ jsonld:
   property_count: 22
   slug: thanx-partner-api-context
 layout: provider
-modified: '2026-06-03'
+mcp_servers:
+- description: ''
+  name: thanx-mcp.yml
+  slug: thanx-mcpyml
+modified: '2026-08-13'
 name: Thanx
 nav: Providers
 network: true
 overview: 'Thanx publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Baskets API, and 11 more. Tagged areas include Restaurant, Loyalty, Guest Engagement, Marketing, and CRM.
 
 
-  The Thanx catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Thanx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Thanx''s developer surface includes authentication, documentation, getting-started guide, pricing, changelog, tooling, code examples, and 19 more developer resources.'
+  Thanx''s developer surface includes authentication, documentation, getting-started guide, pricing, changelog, tooling, code examples, and 48 more developer resources.'
 plans:
 - name: Thanx Plans Pricing
   plan_count: 1
   slug: thanx-plans-pricing
-random_paper: 67
+random_paper: 100
 rate_limits:
-- limit_count: 3
+- limit_count: 5
   name: Thanx Rate Limits
   slug: thanx-rate-limits
 rules:
@@ -553,17 +722,22 @@ rules:
     info: 10
     warn: 24
   slug: thanx-spectral-rules
+scopes:
+- name: Thanx Scopes
+  scope_count: 0
+  slug: thanx-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 59.5
-  delta: 0.0
+  band: exemplar
+  composite: 86.9
+  delta: 27.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 79.1
-    developer_ergonomics: 45.7
+    commercial_clarity: 89.5
+    contract_quality: 88.1
+    developer_ergonomics: 84.8
     discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 52.6
+    governance: 89.6
+    operational_transparency: 89.5
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -573,18 +747,22 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png
 security:
 - kind: authentication
   name: Thanx Authentication
   slug: thanx-authentication
-  summary_line: apiKey/http · 3 schemes
+  summary_line: apiKey/http/oauth2 · 4 schemes
 - kind: domain-security
   name: Thanx Domain Security
   slug: thanx-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Thanx Trust Center
+  slug: thanx-trust-center
+  summary_line: SOC 2 Type 2, PCI DSS, HIPAA, ISO 27001, FedRAMP
 slug: thanx
 tags:
 - Restaurant

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 2
@@ -89,7 +89,62 @@ apis:
 - description: The users API from Arize Phoenix — 3 operation(s) for users.
   name: Arize Phoenix users API
   slug: phoenix-users-api
-artifact_total: 38
+artifact_total: 56
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs API
+  slug: open-phoenix-annotation-configs-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs annotations API
+  slug: open-phoenix-annotations-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs Arize Phoenix Version API
+  slug: open-phoenix-arize-phoenix-version-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs Auth API
+  slug: open-phoenix-auth-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs chat API
+  slug: open-phoenix-chat-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs datasets API
+  slug: open-phoenix-datasets-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs experiments API
+  slug: open-phoenix-experiments-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs Healthz API
+  slug: open-phoenix-healthz-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs Oauth2 API
+  slug: open-phoenix-oauth2-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs projects API
+  slug: open-phoenix-projects-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs prompts API
+  slug: open-phoenix-prompts-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs Readyz API
+  slug: open-phoenix-readyz-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs secrets API
+  slug: open-phoenix-secrets-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs sessions API
+  slug: open-phoenix-sessions-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs spans API
+  slug: open-phoenix-spans-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs traces API
+  slug: open-phoenix-traces-api
+- collection_type: open
+  name: Arize-Phoenix REST annotation_configs users API
+  slug: open-phoenix-users-api
 common:
 - group: agent
   title: ''
@@ -211,7 +266,7 @@ plans:
 - name: Phoenix Plans Pricing
   plan_count: 5
   slug: phoenix-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Phoenix Rate Limits
@@ -245,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/screenshots/phoenix-2026-06-20T191644.png
 security:

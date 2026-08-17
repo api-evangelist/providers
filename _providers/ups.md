@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -63,11 +63,38 @@ apis:
 - description: Package tracking and status
   name: UPS Tracking API
   slug: ups-tracking-api
-artifact_total: 49
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UPS Shipping Address Validation API
+  slug: open-ups-address-validation-api
+- collection_type: open
+  name: UPS Shipping Address Validation OAuth API
+  slug: open-ups-oauth-api
+- collection_type: open
+  name: UPS Shipping Address Validation Paperless Documents API
+  slug: open-ups-paperless-documents-api
+- collection_type: open
+  name: UPS Shipping Address Validation Pickup API
+  slug: open-ups-pickup-api
+- collection_type: open
+  name: UPS Shipping Address Validation Rating API
+  slug: open-ups-rating-api
+- collection_type: open
+  name: UPS Address Validation Shipping API
+  slug: open-ups-shipping-api
 - collection_type: open
   name: UPS Shipping API
   slug: open-ups-shipping
+- collection_type: open
+  name: UPS Shipping Address Validation Time In Transit API
+  slug: open-ups-time-in-transit-api
+- collection_type: open
+  name: UPS Shipping Address Validation Tracking API
+  slug: open-ups-tracking-api
 common:
 - group: agent
   title: ''
@@ -238,7 +265,7 @@ press:
 - date: '2026-05-25'
   title: How UPS is using AI, from shipper pricing to customs ...
   url: https://www.supplychaindive.com/news/ups-ai-employee-upskilling-network-changes/816412/
-random_paper: 104
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Ups Rate Limits
@@ -285,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png
 security:

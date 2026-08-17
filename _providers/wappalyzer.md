@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 64.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 9
   slug: wappalyzer-agentic-access
   summary_line: 9 operations · 3 acting
-api_count: 8
+api_count: 11
 apis:
 - description: Analyze a single website URL for technology stack detection, returning a detailed breakdown of all identified technologies, frameworks, and platforms.
   name: Wappalyzer Analyze API
@@ -48,6 +49,15 @@ apis:
 - description: Bulk access to pre-built technographic datasets covering technology installations across millions of websites, suitable for market research and lead list generation.
   name: Wappalyzer Dataset API
   slug: wappalyzer-dataset-api
+- description: The provider-published OpenAPI 3.1 contract for every documented public REST endpoint — credit balance, technology lookup, lead lists, subdomain discovery and email verification — including the two as
+  name: Wappalyzer Public API
+  slug: wappalyzer-public-api
+- description: The four anonymous, unauthenticated technology and category reference endpoints on the v2 host — the technology directory (7,281 entries), a single technology profile, the category directory (106 entr
+  name: Wappalyzer Metadata API
+  slug: wappalyzer-metadata-api
+- description: First-party hosted Model Context Protocol server at https://mcp.wappalyzer.com/mcp — remote Streamable HTTP, OAuth 2.1 with PKCE and dynamic client registration, exposing three read-only tools and fou
+  name: Wappalyzer MCP Server
+  slug: wappalyzer-mcp
 - description: Shared authentication, billing, and response conventions.
   name: Wappalyzer Basics API
   slug: wappalyzer-basics-api
@@ -63,7 +73,30 @@ apis:
 - description: Email verification and deliverability checks.
   name: Wappalyzer Verify API
   slug: wappalyzer-verify-api
-artifact_total: 21
+artifact_total: 33
+asyncapis:
+- description: ''
+  name: Wappalyzer Webhooks
+  slug: wappalyzer-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wappalyzer Public Basics API
+  slug: open-wappalyzer-basics-api
+- collection_type: open
+  name: Wappalyzer Public Basics Lists API
+  slug: open-wappalyzer-lists-api
+- collection_type: open
+  name: Wappalyzer Public Basics Lookup API
+  slug: open-wappalyzer-lookup-api
+- collection_type: open
+  name: Wappalyzer Public Basics Subdomains API
+  slug: open-wappalyzer-subdomains-api
+- collection_type: open
+  name: Wappalyzer Public Basics Verify API
+  slug: open-wappalyzer-verify-api
 common:
 - group: agent
   title: ''
@@ -77,18 +110,114 @@ common:
   title: ''
   type: Authentication
   url: authentication/wappalyzer-authentication.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/wappalyzer-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://api.wappalyzer.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/wappalyzer-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/wappalyzer-well-known.yml
 - group: company
   title: ''
   type: Website
   url: https://www.wappalyzer.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.wappalyzer.com/api/
 - group: docs
   title: ''
   type: Documentation
   url: https://www.wappalyzer.com/docs/api/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.wappalyzer.com/docs/api/v2/basics/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.wappalyzer.com/docs/api/v2/basics/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://www.wappalyzer.com/openapi/v2-public.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/wappalyzer-mcp.yml
 - group: build
   title: ''
-  type: GitHubOrg
+  type: ToolCrosswalk
+  url: mcp/wappalyzer-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/wappalyzer-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/wappalyzer-webhooks.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/wappalyzer-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/wappalyzer-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/wappalyzer-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/wappalyzer-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/wappalyzer-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/wappalyzer-packages.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wappalyzer-v2-public-overlay.yaml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/wappalyzer-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/wappalyzer-jsonschema-spectral-rules.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/wappalyzer-context.jsonld
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/wappalyzer
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/wappalyzer/mcp
 - group: company
   title: ''
   type: LinkedIn
@@ -97,10 +226,34 @@ common:
   title: ''
   type: X
   url: https://twitter.com/Wappalyzer
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.wappalyzer.com/articles/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.wappalyzer.com/contact/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.wappalyzer.com/faq/api/
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.wappalyzer.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.wappalyzer.com/account/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.wappalyzer.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.wappalyzer.com/privacy/
 - group: operate
   title: ''
   type: StatusPage
@@ -147,22 +300,26 @@ jsonld:
   property_count: 44
   slug: wappalyzer-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: wappalyzer-mcp.yml
+  slug: wappalyzer-mcpyml
+modified: '2026-08-14'
 name: Wappalyzer
 nav: Providers
 network: true
-overview: 'Wappalyzer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Basics API, Lists API, Lookup API, and 2 more. Tagged areas include Technology Detection, Technographics, Website Analysis, CMS Detection, and Framework Detection.
+overview: 'Wappalyzer publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Public API, Metadata API, Basics API, and 4 more. Tagged areas include Technology Detection, Technographics, Website Analysis, CMS Detection, and Framework Detection.
 
 
-  The Wappalyzer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Wappalyzer catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Wappalyzer''s developer surface includes authentication, documentation, pricing, and 10 more developer resources.'
+  Wappalyzer''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 36 more developer resources.'
 plans:
 - name: Wappalyzer Plans Pricing
   plan_count: 4
   slug: wappalyzer-plans-pricing
-random_paper: 23
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Wappalyzer Rate Limits
@@ -177,16 +334,16 @@ rules:
     warn: 4
   slug: wappalyzer-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 51.6
-  delta: 0.0
+  band: exemplar
+  composite: 80.1
+  delta: 28.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.8
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    commercial_clarity: 84.2
+    contract_quality: 81.9
+    developer_ergonomics: 67.4
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 71.1
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -196,8 +353,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/screenshots/wappalyzer-2026-06-20T201222.png
 security:
 - kind: authentication
@@ -208,6 +365,10 @@ security:
   name: Wappalyzer Domain Security
   slug: wappalyzer-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Wappalyzer Vulnerability Disclosure
+  slug: wappalyzer-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: wappalyzer
 tags:
 - Technology Detection
@@ -217,5 +378,8 @@ tags:
 - Framework Detection
 - Lead Enrichment
 - Sales Intelligence
+- Subdomain Discovery
+- Email Verification
+- Market Research
 website: https://www.wappalyzer.com/
 ---

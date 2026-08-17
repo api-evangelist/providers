@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -149,7 +149,122 @@ apis:
 - description: Delivers an overview of your geo-zones.
   name: FleetMon Zone Information API
   slug: fleetmon-zone-information-api
-artifact_total: 40
+artifact_total: 78
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data API
+  slug: open-fleetmon-basic-vessel-data-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Current API
+  slug: open-fleetmon-current-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Distance To Port API
+  slug: open-fleetmon-distance-to-port-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Estimated Laytime - Specific Vessel API
+  slug: open-fleetmon-estimated-laytime-specific-vessel-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Expected Port Arrivals API
+  slug: open-fleetmon-expected-port-arrivals-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Fleet Tracker API
+  slug: open-fleetmon-fleet-tracker-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Historical AIS Static Messages API
+  slug: open-fleetmon-historical-ais-static-messages-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Historical Track API API
+  slug: open-fleetmon-historical-track-api-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Login Token API
+  slug: open-fleetmon-login-token-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Logistics API
+  slug: open-fleetmon-logistics-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data My Fleet Positions API
+  slug: open-fleetmon-my-fleet-positions-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Next Port / ETA Calculation API
+  slug: open-fleetmon-next-port-eta-calculation-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Non AIS Vessel Particulars API
+  slug: open-fleetmon-non-ais-vessel-particulars-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Port Calls per Port API
+  slug: open-fleetmon-port-calls-per-port-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Port Calls per Vessel API
+  slug: open-fleetmon-port-calls-per-vessel-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Port Search API
+  slug: open-fleetmon-port-search-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Regional AIS API
+  slug: open-fleetmon-regional-ais-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data RoRo Ferry Terminal Demo API
+  slug: open-fleetmon-roro-ferry-terminal-demo-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Change Events API
+  slug: open-fleetmon-vessel-change-events-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Dynamic AIS API
+  slug: open-fleetmon-vessel-dynamic-ais-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel ETA & Destination Change Events API
+  slug: open-fleetmon-vessel-eta-destination-change-events-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Identity API
+  slug: open-fleetmon-vessel-identity-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Photo API
+  slug: open-fleetmon-vessel-photo-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Positions Only API
+  slug: open-fleetmon-vessel-positions-only-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Positions with Extended Vessel Data API
+  slug: open-fleetmon-vessel-positions-with-extended-vessel-data-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Route From Last Port API
+  slug: open-fleetmon-vessel-route-from-last-port-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Route To Next Port API
+  slug: open-fleetmon-vessel-route-to-next-port-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Schedule API
+  slug: open-fleetmon-vessel-schedule-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessel Search API
+  slug: open-fleetmon-vessel-search-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessels in Port API
+  slug: open-fleetmon-vessels-in-port-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessels Near Position API
+  slug: open-fleetmon-vessels-near-position-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Vessels Nearby API
+  slug: open-fleetmon-vessels-nearby-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Voyage Planning API
+  slug: open-fleetmon-voyage-planning-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Water API
+  slug: open-fleetmon-water-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Weather API
+  slug: open-fleetmon-weather-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Zone Call API
+  slug: open-fleetmon-zone-call-api
+- collection_type: open
+  name: FleetMon API Reference Basic Vessel Data Zone Information API
+  slug: open-fleetmon-zone-information-api
 common:
 - group: agent
   title: ''
@@ -215,7 +330,7 @@ overview: 'FleetMon publishes 37 APIs on the [APIs.io](https://apis.io/) network
 
 
   FleetMon''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 18
+random_paper: 113
 score:
   band: emerging
   composite: 22.7
@@ -236,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetmon/refs/heads/main/screenshots/fleetmon-2026-07-25T214742.png
 security:

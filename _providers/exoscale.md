@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 219
   human_in_the_loop: 24
@@ -149,8 +149,122 @@ apis:
 - description: A Zone represents an independent datacenter in which Exoscale infrastructure is deployed into.
   name: Exoscale zone API
   slug: exoscale-zone-api
-artifact_total: 45
+artifact_total: 83
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Exoscale ai-api-key API
+  slug: open-exoscale-ai-api-key-api
+- collection_type: open
+  name: Exoscale ai-api-key anti-affinity-group API
+  slug: open-exoscale-anti-affinity-group-api
+- collection_type: open
+  name: Exoscale ai api-key API
+  slug: open-exoscale-api-key-api
+- collection_type: open
+  name: Exoscale ai-api-key block-storage API
+  slug: open-exoscale-block-storage-api
+- collection_type: open
+  name: Exoscale ai-api-key ccm API
+  slug: open-exoscale-ccm-api
+- collection_type: open
+  name: Exoscale ai-api-key cluster API
+  slug: open-exoscale-cluster-api
+- collection_type: open
+  name: Exoscale ai-api-key compute API
+  slug: open-exoscale-compute-api
+- collection_type: open
+  name: Exoscale ai-api-key crypto API
+  slug: open-exoscale-crypto-api
+- collection_type: open
+  name: Exoscale ai-api-key dbaas API
+  slug: open-exoscale-dbaas-api
+- collection_type: open
+  name: Exoscale ai-api-key deploy-target API
+  slug: open-exoscale-deploy-target-api
+- collection_type: open
+  name: Exoscale ai-api-key deployment API
+  slug: open-exoscale-deployment-api
+- collection_type: open
+  name: Exoscale ai-api-key domain API
+  slug: open-exoscale-domain-api
+- collection_type: open
+  name: Exoscale ai-api-key elastic-ip API
+  slug: open-exoscale-elastic-ip-api
+- collection_type: open
+  name: Exoscale ai-api-key event API
+  slug: open-exoscale-event-api
+- collection_type: open
+  name: Exoscale ai-api-key instance API
+  slug: open-exoscale-instance-api
+- collection_type: open
+  name: Exoscale ai-api-key instance-pool API
+  slug: open-exoscale-instance-pool-api
+- collection_type: open
+  name: Exoscale ai-api-key instance-type API
+  slug: open-exoscale-instance-type-api
+- collection_type: open
+  name: Exoscale ai-api-key kms-key API
+  slug: open-exoscale-kms-key-api
+- collection_type: open
+  name: Exoscale ai-api-key model API
+  slug: open-exoscale-model-api
+- collection_type: open
+  name: Exoscale ai-api-key network-load-balancer API
+  slug: open-exoscale-network-load-balancer-api
+- collection_type: open
+  name: Exoscale ai-api-key nodepool API
+  slug: open-exoscale-nodepool-api
+- collection_type: open
+  name: Exoscale ai-api-key nodepool-template API
+  slug: open-exoscale-nodepool-template-api
+- collection_type: open
+  name: Exoscale ai-api-key operation API
+  slug: open-exoscale-operation-api
+- collection_type: open
+  name: Exoscale ai-api-key organization API
+  slug: open-exoscale-organization-api
+- collection_type: open
+  name: Exoscale ai-api-key organization-policy API
+  slug: open-exoscale-organization-policy-api
+- collection_type: open
+  name: Exoscale ai-api-key private-network API
+  slug: open-exoscale-private-network-api
+- collection_type: open
+  name: Exoscale ai-api-key quotas API
+  slug: open-exoscale-quotas-api
+- collection_type: open
+  name: Exoscale ai-api-key record API
+  slug: open-exoscale-record-api
+- collection_type: open
+  name: Exoscale ai-api-key reverse-dns API
+  slug: open-exoscale-reverse-dns-api
+- collection_type: open
+  name: Exoscale ai-api-key role API
+  slug: open-exoscale-role-api
+- collection_type: open
+  name: Exoscale ai-api-key security-group API
+  slug: open-exoscale-security-group-api
+- collection_type: open
+  name: Exoscale ai-api-key snapshot API
+  slug: open-exoscale-snapshot-api
+- collection_type: open
+  name: Exoscale ai-api-key sos API
+  slug: open-exoscale-sos-api
+- collection_type: open
+  name: Exoscale ai-api-key ssh-key API
+  slug: open-exoscale-ssh-key-api
+- collection_type: open
+  name: Exoscale ai-api-key template API
+  slug: open-exoscale-template-api
+- collection_type: open
+  name: Exoscale ai-api-key user API
+  slug: open-exoscale-user-api
+- collection_type: open
+  name: Exoscale ai-api-key zone API
+  slug: open-exoscale-zone-api
 - collection_type: open
   name: Exoscale API
   slug: open-exoscale
@@ -239,7 +353,7 @@ plans:
 - name: Exoscale Plans Pricing
   plan_count: 3
   slug: exoscale-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Exoscale Rate Limits
@@ -264,7 +378,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exoscale/refs/heads/main/screenshots/exoscale-2026-06-20T180933.png
 security:

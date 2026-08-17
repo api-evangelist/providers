@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -139,7 +139,7 @@ overview: 'Uteach, Inc. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Uteach, Inc.''s developer surface includes pricing, engineering blog, support, signup flow, FAQ, YouTube channel, authentication, and 15 more developer resources.'
-random_paper: 33
+random_paper: 99
 score:
   band: thin
   composite: 35.2
@@ -155,7 +155,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

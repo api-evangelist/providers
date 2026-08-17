@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -231,24 +231,93 @@ apis:
 - description: The Users-applications Management API from Frontegg — 4 operation(s) for users-applications management.
   name: Frontegg Users-applications Management API
   slug: frontegg-users-applications-management-api
-artifact_total: 136
+artifact_total: 200
 asyncapis:
 - description: AsyncAPI 2.6 description of Frontegg's outbound webhook surface. Frontegg signs each delivery with an `x-webhook-secret` header containing the configured signing secret, and treats any 2XX HTTP respon
   name: Frontegg Webhooks
   slug: frontegg-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations API
+  slug: open-frontegg-account-invitations-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Account Invitations Settings API
+  slug: open-frontegg-account-invitations-settings-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Account Migration API
+  slug: open-frontegg-account-migration-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Account Roles API
+  slug: open-frontegg-account-roles-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Account Settings API
+  slug: open-frontegg-account-settings-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Accounts API
+  slug: open-frontegg-accounts-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations API Access Control API
+  slug: open-frontegg-api-access-control-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations API Access Control Configurations API
+  slug: open-frontegg-api-access-control-configurations-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations API Token API
+  slug: open-frontegg-api-token-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations API Tokens API
+  slug: open-frontegg-api-tokens-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Applications Settings API
+  slug: open-frontegg-applications-settings-api
+- collection_type: open
   name: Multi-Apps Overview
   slug: open-frontegg-applications
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Approval Flows API
+  slug: open-frontegg-approval-flows-api
 - collection_type: open
   name: Audits Overview
   slug: open-frontegg-audits
 - collection_type: open
+  name: Multi-Apps Overview Account Invitations Authenticate With Env Credentials API
+  slug: open-frontegg-authenticate-with-env-credentials-api
+- collection_type: open
   name: Entitlements Agent (PDP)
   slug: open-frontegg-combined
 - collection_type: open
+  name: Multi-Apps Overview Account Invitations Core Settings API
+  slug: open-frontegg-core-settings-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Custom Social OAuth Provider API
+  slug: open-frontegg-custom-social-oauth-provider-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Data Migration API
+  slug: open-frontegg-data-migration-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Delegation API
+  slug: open-frontegg-delegation-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Domain Restrictions API
+  slug: open-frontegg-domain-restrictions-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Email Configuration API
+  slug: open-frontegg-email-configuration-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Email Templates API
+  slug: open-frontegg-email-templates-api
+- collection_type: open
   name: Entitlements Agent (PDP)
   slug: open-frontegg-entitlements-agent
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Entitlements API
+  slug: open-frontegg-entitlements-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Entitlements Check API
+  slug: open-frontegg-entitlements-check-api
 - collection_type: open
   name: Entitlements Overview
   slug: open-frontegg-entitlements
@@ -256,17 +325,140 @@ collections:
   name: Authenticate with env credentials
   slug: open-frontegg-env-auth
 - collection_type: open
+  name: Multi-Apps Overview Account Invitations Feature Flags API
+  slug: open-frontegg-feature-flags-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Features API
+  slug: open-frontegg-features-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations General API
+  slug: open-frontegg-general-api
+- collection_type: open
   name: Authentication and Identity Management
   slug: open-frontegg-identity
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations IP Restrictions API
+  slug: open-frontegg-ip-restrictions-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Lockout Policy API
+  slug: open-frontegg-lockout-policy-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations M2M Tokens API
+  slug: open-frontegg-m2m-tokens-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Main API
+  slug: open-frontegg-main-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Metrics API
+  slug: open-frontegg-metrics-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations MFA API
+  slug: open-frontegg-mfa-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations MFA Configuration API
+  slug: open-frontegg-mfa-configuration-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations MFA Settings API
+  slug: open-frontegg-mfa-settings-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations OIDC Configurations API
+  slug: open-frontegg-oidc-configurations-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Password Settings API
+  slug: open-frontegg-password-settings-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Passwordless API
+  slug: open-frontegg-passwordless-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Permissions API
+  slug: open-frontegg-permissions-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Permissions Categories API
+  slug: open-frontegg-permissions-categories-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Personal Tokens API
+  slug: open-frontegg-personal-tokens-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Plans API
+  slug: open-frontegg-plans-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations ReBAC API
+  slug: open-frontegg-rebac-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Resources API
+  slug: open-frontegg-resources-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Roles API
+  slug: open-frontegg-roles-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations SAML Configurations API
+  slug: open-frontegg-saml-configurations-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations SCIM Configurations API
+  slug: open-frontegg-scim-configurations-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations SCIM Settings API
+  slug: open-frontegg-scim-settings-api
 - collection_type: open
   name: SCIM Provisioning Overview
   slug: open-frontegg-scim
 - collection_type: open
+  name: Multi-Apps Overview Account Invitations Sessions Configuration API
+  slug: open-frontegg-sessions-configuration-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Sessions Management API
+  slug: open-frontegg-sessions-management-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations SMS API
+  slug: open-frontegg-sms-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations SMS Configuration API
+  slug: open-frontegg-sms-configuration-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations SMS Templates API
+  slug: open-frontegg-sms-templates-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations SSO Configurations API
+  slug: open-frontegg-sso-configurations-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations SSO Settings API
+  slug: open-frontegg-sso-settings-api
+- collection_type: open
   name: Single Sign-On Overview
   slug: open-frontegg-sso
 - collection_type: open
+  name: Multi-Apps Overview Account Invitations Sub-accounts and Hierarchy API
+  slug: open-frontegg-sub-accounts-and-hierarchy-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Sub-accounts API
+  slug: open-frontegg-sub-accounts-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Tenants_other API
+  slug: open-frontegg-tenants-other-api
+- collection_type: open
   name: Account Management Overview
   slug: open-frontegg-tenants
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations User Emails Policy API
+  slug: open-frontegg-user-emails-policy-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations User Groups API
+  slug: open-frontegg-user-groups-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations User Management API
+  slug: open-frontegg-user-management-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations User Pools API
+  slug: open-frontegg-user-pools-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations User Sessions API
+  slug: open-frontegg-user-sessions-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Users API
+  slug: open-frontegg-users-api
+- collection_type: open
+  name: Multi-Apps Overview Account Invitations Users-applications Management API
+  slug: open-frontegg-users-applications-management-api
 common:
 - group: operate
   title: ''
@@ -572,7 +764,7 @@ plans:
 - name: Frontegg Plans Pricing
   plan_count: 2
   slug: frontegg-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 8
   name: Frontegg Rate Limits
@@ -686,7 +878,7 @@ score:
       marker_coverage: 0.0
       total: 63
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-06-20T181552.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 5
@@ -129,7 +129,101 @@ apis:
 - description: Upsell operations for the Deliverect Commerce API.
   name: Deliverect Upsell API
   slug: deliverect-upsell-api
-artifact_total: 187
+artifact_total: 218
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deliverect Channel Accounts API
+  slug: open-deliverect-accounts-api
+- collection_type: open
+  name: Deliverect Channel Accounts Allergens API
+  slug: open-deliverect-allergens-api
+- collection_type: open
+  name: Deliverect Channel Accounts Authentication API
+  slug: open-deliverect-authentication-api
+- collection_type: open
+  name: Deliverect Channel Accounts Baskets API
+  slug: open-deliverect-baskets-api
+- collection_type: open
+  name: Deliverect Channel Accounts Channel Links API
+  slug: open-deliverect-channel-links-api
+- collection_type: open
+  name: Deliverect Channel Accounts Checkout API
+  slug: open-deliverect-checkout-api
+- collection_type: open
+  name: Deliverect Channel Accounts Compensation Cards API
+  slug: open-deliverect-compensation-cards-api
+- collection_type: open
+  name: Deliverect Channel Accounts Configuration API
+  slug: open-deliverect-configuration-api
+- collection_type: open
+  name: Deliverect Channel Accounts Coupons API
+  slug: open-deliverect-coupons-api
+- collection_type: open
+  name: Deliverect Channel Accounts Couriers API
+  slug: open-deliverect-couriers-api
+- collection_type: open
+  name: Deliverect Channel Accounts Customers API
+  slug: open-deliverect-customers-api
+- collection_type: open
+  name: Deliverect Channel Accounts Floors API
+  slug: open-deliverect-floors-api
+- collection_type: open
+  name: Deliverect Channel Accounts Fulfillment API
+  slug: open-deliverect-fulfillment-api
+- collection_type: open
+  name: Deliverect Channel Accounts Gateways API
+  slug: open-deliverect-gateways-api
+- collection_type: open
+  name: Deliverect Channel Accounts Gift Cards API
+  slug: open-deliverect-gift-cards-api
+- collection_type: open
+  name: Deliverect Channel Accounts Inventory API
+  slug: open-deliverect-inventory-api
+- collection_type: open
+  name: Deliverect Channel Accounts Jobs API
+  slug: open-deliverect-jobs-api
+- collection_type: open
+  name: Deliverect Channel Accounts Locations API
+  slug: open-deliverect-locations-api
+- collection_type: open
+  name: Deliverect Channel Accounts Menus API
+  slug: open-deliverect-menus-api
+- collection_type: open
+  name: Deliverect Channel Accounts Opening Hours API
+  slug: open-deliverect-opening-hours-api
+- collection_type: open
+  name: Deliverect Channel Accounts Orders API
+  slug: open-deliverect-orders-api
+- collection_type: open
+  name: Deliverect Channel Accounts Payments API
+  slug: open-deliverect-payments-api
+- collection_type: open
+  name: Deliverect Channel Accounts Products API
+  slug: open-deliverect-products-api
+- collection_type: open
+  name: Deliverect Channel Accounts Profiles API
+  slug: open-deliverect-profiles-api
+- collection_type: open
+  name: Deliverect Channel Accounts Programs API
+  slug: open-deliverect-programs-api
+- collection_type: open
+  name: Deliverect Channel Accounts Registration API
+  slug: open-deliverect-registration-api
+- collection_type: open
+  name: Deliverect Channel Accounts Store Status API
+  slug: open-deliverect-store-status-api
+- collection_type: open
+  name: Deliverect Channel Accounts Stores API
+  slug: open-deliverect-stores-api
+- collection_type: open
+  name: Deliverect Channel Accounts Tables API
+  slug: open-deliverect-tables-api
+- collection_type: open
+  name: Deliverect Channel Accounts Upsell API
+  slug: open-deliverect-upsell-api
 common:
 - group: agent
   title: ''
@@ -745,7 +839,7 @@ plans:
 - name: Deliverect Plans Pricing
   plan_count: 2
   slug: deliverect-plans-pricing
-random_paper: 103
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Deliverect Rate Limits
@@ -792,7 +886,7 @@ score:
       marker_coverage: 100.0
       total: 30
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/screenshots/deliverect-2026-06-20T175855.png
 security:

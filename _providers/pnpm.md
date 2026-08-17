@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The pnpm command-line interface for managing JavaScript/Node.js packages. Provides commands for installing, updating, and removing dependencies; running package scripts; executing one-off packages via
@@ -219,7 +219,7 @@ overview: 'pnpm publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   pnpm''s developer surface includes developer portal, getting-started guide, documentation, release notes, legal docs, changelog, support, and 20 more developer resources.'
-random_paper: 83
+random_paper: 145
 score:
   band: emerging
   composite: 19.6
@@ -233,7 +233,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pnpm/refs/heads/main/screenshots/pnpm-2026-06-20T191821.png
 security:

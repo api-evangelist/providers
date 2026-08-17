@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,11 +68,17 @@ apis:
 - description: The Geocode API from Geoapify — 1 operation(s) for geocode.
   name: Geoapify Geocode API
   slug: geoapify-geocode-api
-artifact_total: 34
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Geoapify Forward Geocoding API
   slug: open-geoapify-forward-geocoding-api
+- collection_type: open
+  name: Geoapify Forward Geocoding Geocode API
+  slug: open-geoapify-geocode-api
 common:
 - group: agent
   title: ''
@@ -171,7 +177,7 @@ plans:
 - name: Geoapify Plans Pricing
   plan_count: 7
   slug: geoapify-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 6
   name: Geoapify Rate Limits
@@ -196,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/screenshots/geoapify-2026-06-20T181748.png
 security:

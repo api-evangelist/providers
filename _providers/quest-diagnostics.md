@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Quanum Data Exchange is Quest's interoperability service for delivering laboratory and diagnostic results into electronic health record systems, enabling integrated ordering and resulting workflows ac
@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Quest Diagnostics Introduces AI Companion to Help ...
   url: https://newsroom.questdiagnostics.com/2026-03-02-Quest-Diagnostics-Introduces-AI-Companion-to-Help-Patients-Understand-and-Act-on-Lab-Test-Results
-random_paper: 103
+random_paper: 144
 rate_limits:
 - limit_count: 1
   name: Quest Diagnostics Rate Limits
@@ -131,7 +131,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quest-diagnostics/refs/heads/main/screenshots/quest-diagnostics-2026-06-20T192427.png
 security:

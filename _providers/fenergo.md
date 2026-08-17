@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Fenergo SaaS Platform API surface covers Entity Data, Journey, ETL, Data Migration, External Data, Policy, Legal Entity Screening, Risk, Event Notification & Ingress, Portal, Review Journey Schedu
@@ -80,7 +80,7 @@ plans:
 - name: Fenergo Plans Pricing
   plan_count: 3
   slug: fenergo-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Fenergo Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/screenshots/fenergo-2026-06-20T181135.png
 security:

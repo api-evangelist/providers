@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 42
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
@@ -158,7 +158,7 @@ apis:
 - description: The WebSocket Clusters API from Laravel — 3 operation(s) for websocket clusters.
   name: Laravel WebSocket Clusters API
   slug: laravel-websocket-clusters-api
-artifact_total: 89
+artifact_total: 130
 asyncapis:
 - description: ''
   name: Laravel Webhooks
@@ -284,6 +284,129 @@ collections:
 - collection_type: postman
   name: Laravel Cloud Applications WebSocket Clusters API
   slug: postman-laravel-websocket-clusters-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Laravel Cloud Applications API
+  slug: open-laravel-applications-api
+- collection_type: open
+  name: Laravel Cloud Applications Background Processes API
+  slug: open-laravel-background-processes-api
+- collection_type: open
+  name: Laravel Cloud Applications Backups API
+  slug: open-laravel-backups-api
+- collection_type: open
+  name: Laravel Cloud Applications Bucket Keys API
+  slug: open-laravel-bucket-keys-api
+- collection_type: open
+  name: Laravel Cloud Applications Caches API
+  slug: open-laravel-caches-api
+- collection_type: open
+  name: Laravel Cloud Applications Commands API
+  slug: open-laravel-commands-api
+- collection_type: open
+  name: Laravel Cloud Applications Database Clusters API
+  slug: open-laravel-database-clusters-api
+- collection_type: open
+  name: Laravel Cloud Applications Database Restores API
+  slug: open-laravel-database-restores-api
+- collection_type: open
+  name: Laravel Cloud Applications Database Snapshots API
+  slug: open-laravel-database-snapshots-api
+- collection_type: open
+  name: Laravel Cloud Applications Databases API
+  slug: open-laravel-databases-api
+- collection_type: open
+  name: Laravel Cloud Applications Databases (Legacy) API
+  slug: open-laravel-databases-legacy-api
+- collection_type: open
+  name: Laravel Cloud Applications Dedicated Clusters API
+  slug: open-laravel-dedicated-clusters-api
+- collection_type: open
+  name: Laravel Cloud Applications Deployments API
+  slug: open-laravel-deployments-api
+- collection_type: open
+  name: Laravel Cloud Applications Domains API
+  slug: open-laravel-domains-api
+- collection_type: open
+  name: Laravel Cloud Applications Environments API
+  slug: open-laravel-environments-api
+- collection_type: open
+  name: Laravel Cloud Applications Firewall Rules API
+  slug: open-laravel-firewall-rules-api
+- collection_type: open
+  name: Laravel Cloud Applications Instances API
+  slug: open-laravel-instances-api
+- collection_type: open
+  name: Laravel Cloud Applications Integrations API
+  slug: open-laravel-integrations-api
+- collection_type: open
+  name: Laravel Cloud Applications Logs API
+  slug: open-laravel-logs-api
+- collection_type: open
+  name: Laravel Cloud Applications Meta API
+  slug: open-laravel-meta-api
+- collection_type: open
+  name: Laravel Cloud Applications Monitors API
+  slug: open-laravel-monitors-api
+- collection_type: open
+  name: Laravel Cloud Applications Nginx API
+  slug: open-laravel-nginx-api
+- collection_type: open
+  name: Laravel Cloud Applications Object Storage Buckets API
+  slug: open-laravel-object-storage-buckets-api
+- collection_type: open
+  name: Laravel Cloud Applications Organizations API
+  slug: open-laravel-organizations-api
+- collection_type: open
+  name: Laravel Cloud Applications Providers API
+  slug: open-laravel-providers-api
+- collection_type: open
+  name: Laravel Cloud Applications Recipes API
+  slug: open-laravel-recipes-api
+- collection_type: open
+  name: Laravel Cloud Applications Redirect Rules API
+  slug: open-laravel-redirect-rules-api
+- collection_type: open
+  name: Laravel Cloud Applications Roles API
+  slug: open-laravel-roles-api
+- collection_type: open
+  name: Laravel Cloud Applications Scheduled Jobs API
+  slug: open-laravel-scheduled-jobs-api
+- collection_type: open
+  name: Laravel Cloud Applications Security Rules API
+  slug: open-laravel-security-rules-api
+- collection_type: open
+  name: Laravel Cloud Applications Server Credentials API
+  slug: open-laravel-server-credentials-api
+- collection_type: open
+  name: Laravel Cloud Applications Servers API
+  slug: open-laravel-servers-api
+- collection_type: open
+  name: Laravel Cloud Applications Sites API
+  slug: open-laravel-sites-api
+- collection_type: open
+  name: Laravel Cloud Applications SSH Keys API
+  slug: open-laravel-ssh-keys-api
+- collection_type: open
+  name: Laravel Cloud Applications Storage Providers API
+  slug: open-laravel-storage-providers-api
+- collection_type: open
+  name: Laravel Cloud Applications Teams API
+  slug: open-laravel-teams-api
+- collection_type: open
+  name: Laravel Cloud Applications Usage API
+  slug: open-laravel-usage-api
+- collection_type: open
+  name: Laravel Cloud Applications User API
+  slug: open-laravel-user-api
+- collection_type: open
+  name: Laravel Cloud Applications WebSocket Applications API
+  slug: open-laravel-websocket-applications-api
+- collection_type: open
+  name: Laravel Cloud Applications WebSocket Clusters API
+  slug: open-laravel-websocket-clusters-api
 common:
 - group: build
   title: ''
@@ -468,7 +591,7 @@ overview: 'Laravel publishes 40 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Laravel''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 34 more developer resources.'
-random_paper: 23
+random_paper: 147
 scopes:
 - name: Laravel Scopes
   scope_count: 62
@@ -496,7 +619,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/screenshots/laravel-2026-07-25T224538.png
 security:

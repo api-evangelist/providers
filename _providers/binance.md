@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ apis:
 - description: Withdrawal endpoints for initiating and tracking withdrawals.
   name: Binance Withdrawals API
   slug: binance-withdrawals-api
-artifact_total: 121
+artifact_total: 148
 asyncapis:
 - description: 'Binance Pay sends webhook notifications to merchants for real-time payment status updates. When a customer completes a payment or a refund is processed, Binance Pay sends an HTTPS POST request to the '
   name: Binance Pay Webhooks
@@ -137,59 +137,140 @@ asyncapis:
   slug: binance-spot-websocket-streams-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Binance Algo Trading Account API
+  slug: open-binance-account-api
+- collection_type: open
   name: Binance Algo Trading API
   slug: open-binance-algo-trading
+- collection_type: open
+  name: Binance Algo Trading Account Assets API
+  slug: open-binance-assets-api
+- collection_type: open
+  name: Binance Algo Trading Account Auto-Invest API
+  slug: open-binance-auto-invest-api
 - collection_type: open
   name: Binance Auto-Invest API
   slug: open-binance-auto-invest
 - collection_type: open
+  name: Binance Algo Trading Account Borrow/Repay API
+  slug: open-binance-borrow-repay-api
+- collection_type: open
   name: Binance COIN-M Futures API
   slug: open-binance-coin-margined-futures
+- collection_type: open
+  name: Binance Algo Trading Account Convert API
+  slug: open-binance-convert-api
 - collection_type: open
   name: Binance Convert API
   slug: open-binance-convert
 - collection_type: open
+  name: Binance Algo Trading Account Copy Trading API
+  slug: open-binance-copy-trading-api
+- collection_type: open
   name: Binance Copy Trading API
   slug: open-binance-copy-trading
+- collection_type: open
+  name: Binance Algo Trading Account Crypto Loan API
+  slug: open-binance-crypto-loan-api
 - collection_type: open
   name: Binance Crypto Loan API
   slug: open-binance-crypto-loan
 - collection_type: open
+  name: Binance Algo Trading Account Deposits API
+  slug: open-binance-deposits-api
+- collection_type: open
   name: Binance European Options API
   slug: open-binance-european-options
+- collection_type: open
+  name: Binance Algo Trading Account Fiat API
+  slug: open-binance-fiat-api
 - collection_type: open
   name: Binance Fiat API
   slug: open-binance-fiat
 - collection_type: open
+  name: Binance Algo Trading Account Flexible Products API
+  slug: open-binance-flexible-products-api
+- collection_type: open
+  name: Binance Algo Trading Account Futures Algo API
+  slug: open-binance-futures-algo-api
+- collection_type: open
+  name: Binance Algo Trading Account General API
+  slug: open-binance-general-api
+- collection_type: open
+  name: Binance Algo Trading Account Gift Card API
+  slug: open-binance-gift-card-api
+- collection_type: open
   name: Binance Gift Card API
   slug: open-binance-gift-card
+- collection_type: open
+  name: Binance Algo Trading Account Locked Products API
+  slug: open-binance-locked-products-api
+- collection_type: open
+  name: Binance Algo Trading Account Market Data API
+  slug: open-binance-market-data-api
+- collection_type: open
+  name: Binance Algo Trading Account Mining API
+  slug: open-binance-mining-api
 - collection_type: open
   name: Binance Mining API
   slug: open-binance-mining
 - collection_type: open
+  name: Binance Algo Trading Account NFT API
+  slug: open-binance-nft-api
+- collection_type: open
   name: Binance NFT API
   slug: open-binance-nft
+- collection_type: open
+  name: Binance Algo Trading Account Orders API
+  slug: open-binance-orders-api
 - collection_type: open
   name: Binance Pay API
   slug: open-binance-pay
 - collection_type: open
+  name: Binance Algo Trading Account Payouts API
+  slug: open-binance-payouts-api
+- collection_type: open
   name: Binance Portfolio Margin API
   slug: open-binance-portfolio-margin
+- collection_type: open
+  name: Binance Algo Trading Account Refunds API
+  slug: open-binance-refunds-api
 - collection_type: open
   name: Binance Simple Earn API
   slug: open-binance-simple-earn
 - collection_type: open
+  name: Binance Algo Trading Account Spot Algo API
+  slug: open-binance-spot-algo-api
+- collection_type: open
   name: Binance Spot Trading API
   slug: open-binance-spot-trading
+- collection_type: open
+  name: Binance Algo Trading Account Sub-Account Assets API
+  slug: open-binance-sub-account-assets-api
+- collection_type: open
+  name: Binance Algo Trading Account Sub-Account Management API
+  slug: open-binance-sub-account-management-api
 - collection_type: open
   name: Binance Sub-Account API
   slug: open-binance-sub-account
 - collection_type: open
+  name: Binance Algo Account Trading API
+  slug: open-binance-trading-api
+- collection_type: open
   name: Binance USD-S Margined Futures API
   slug: open-binance-usds-margined-futures
 - collection_type: open
+  name: Binance Algo Trading Account User Data Stream API
+  slug: open-binance-user-data-stream-api
+- collection_type: open
   name: Binance Wallet API
   slug: open-binance-wallet
+- collection_type: open
+  name: Binance Algo Trading Account Withdrawals API
+  slug: open-binance-withdrawals-api
 common:
 - group: agent
   title: ''
@@ -385,7 +466,7 @@ plans:
 - name: Binance Plans Pricing
   plan_count: 4
   slug: binance-plans-pricing
-random_paper: 0
+random_paper: 124
 rate_limits:
 - limit_count: 4
   name: Binance Rate Limits
@@ -441,7 +522,7 @@ score:
     regime_id: securities_market_data
     score: 48.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/screenshots/binance-2026-06-20T173243.png
 security:

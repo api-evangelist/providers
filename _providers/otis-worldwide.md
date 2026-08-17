@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -47,7 +47,7 @@ name: otis-worldwide
 nav: Providers
 network: true
 overview: otis-worldwide is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 29
+random_paper: 128
 score:
   band: minimal
   composite: 2.6
@@ -61,7 +61,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: otis-worldwide
 website: https://www.otis-worldwide.com

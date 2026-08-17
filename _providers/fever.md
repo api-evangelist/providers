@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: 'The goal of the Session Endpoint is to provide all information about the session (or ticket types) of a plan. The delay of the data is less than 10 minutes from reality. ## Request filters `POST /v1/s'
   name: Fever Sessions API
   slug: fever-sessions-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fever - Reporting Authentication API
+  slug: open-fever-authentication-api
+- collection_type: open
+  name: Fever - Reporting Authentication FeverZone API
+  slug: open-fever-feverzone-api
+- collection_type: open
+  name: Fever - Reporting Authentication Order Items API
+  slug: open-fever-order-items-api
+- collection_type: open
+  name: Fever - Reporting Authentication Plans API
+  slug: open-fever-plans-api
+- collection_type: open
+  name: Fever - Reporting Authentication Sessions API
+  slug: open-fever-sessions-api
 common:
 - group: other
   title: ''
@@ -160,7 +179,7 @@ overview: 'Fever publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fever''s developer surface includes documentation, API reference, authentication, support, and 18 more developer resources.'
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Fever Rate Limits
@@ -188,7 +207,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/screenshots/fever-2026-07-25T214354.png
 security:

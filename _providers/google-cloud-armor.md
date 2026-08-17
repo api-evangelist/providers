@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: Manage individual rules within security policies
   name: Google Cloud Armor SecurityPolicyRules API
   slug: google-cloud-armor-securitypolicyrules-api
-artifact_total: 14
+artifact_total: 17
 collections:
 - collection_type: postman
   name: Google Cloud Armor SecurityPolicies API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Google Cloud Armor SecurityPolicies SecurityPolicyRules API
   slug: postman-google-cloud-armor-securitypolicyrules-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Armor SecurityPolicies API
+  slug: open-google-cloud-armor-securitypolicies-api
+- collection_type: open
+  name: Google Cloud Armor SecurityPolicies SecurityPolicyRules API
+  slug: open-google-cloud-armor-securitypolicyrules-api
 - collection_type: open
   name: Google Cloud Armor API
   slug: open-openapi
@@ -152,7 +161,7 @@ plans:
 - name: Google Cloud Armor Plans Pricing
   plan_count: 3
   slug: google-cloud-armor-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Google Cloud Armor Rate Limits
@@ -191,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/screenshots/google-cloud-armor-2026-06-20T182043.png
 security:

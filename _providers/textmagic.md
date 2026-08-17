@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Manage reusable message templates.
   name: Textmagic Templates API
   slug: textmagic-templates-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Textmagic REST Bulk API
+  slug: open-textmagic-bulk-api
+- collection_type: open
+  name: Textmagic REST Bulk Chats API
+  slug: open-textmagic-chats-api
+- collection_type: open
+  name: Textmagic REST Bulk Contacts API
+  slug: open-textmagic-contacts-api
+- collection_type: open
+  name: Textmagic REST Bulk Lists API
+  slug: open-textmagic-lists-api
+- collection_type: open
+  name: Textmagic REST Bulk Messages API
+  slug: open-textmagic-messages-api
+- collection_type: open
+  name: Textmagic REST Bulk Numbers API
+  slug: open-textmagic-numbers-api
+- collection_type: open
+  name: Textmagic REST Bulk Replies API
+  slug: open-textmagic-replies-api
+- collection_type: open
+  name: Textmagic REST Bulk Schedules API
+  slug: open-textmagic-schedules-api
+- collection_type: open
+  name: Textmagic REST Bulk Sender IDs API
+  slug: open-textmagic-sender-ids-api
+- collection_type: open
+  name: Textmagic REST Bulk Stats API
+  slug: open-textmagic-stats-api
+- collection_type: open
+  name: Textmagic REST Bulk Templates API
+  slug: open-textmagic-templates-api
 - collection_type: open
   name: Textmagic REST API
   slug: open-textmagic
@@ -142,7 +178,7 @@ plans:
 - name: Textmagic Plans Pricing
   plan_count: 4
   slug: textmagic-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Textmagic Rate Limits
@@ -173,7 +209,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/screenshots/textmagic-2026-06-20T195211.png
 security:

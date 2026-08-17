@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 0
@@ -73,7 +73,56 @@ apis:
 - description: The yoast/v1 API from Turntide Technologies — 59 operation(s) for yoast/v1.
   name: Turntide Technologies Yoast/v1 API
   slug: turntide-technologies-yoast-v1-api
-artifact_total: 20
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Turntide WordPress REST Coauthors/v1 API
+  slug: open-turntide-technologies-coauthors-v1-api
+- collection_type: open
+  name: Turntide WordPress REST Complianz/v1 API
+  slug: open-turntide-technologies-complianz-v1-api
+- collection_type: open
+  name: Turntide WordPress REST Core API
+  slug: open-turntide-technologies-core-api
+- collection_type: open
+  name: Turntide WordPress REST MCP API
+  slug: open-turntide-technologies-mcp-api
+- collection_type: open
+  name: Turntide WordPress REST Oembed/1.0 API
+  slug: open-turntide-technologies-oembed-1-0-api
+- collection_type: open
+  name: Turntide WordPress REST Redirection/v1 API
+  slug: open-turntide-technologies-redirection-v1-api
+- collection_type: open
+  name: Turntide WordPress REST Themeco API
+  slug: open-turntide-technologies-themeco-api
+- collection_type: open
+  name: Turntide WordPress REST Wp Abilities/v1 API
+  slug: open-turntide-technologies-wp-abilities-v1-api
+- collection_type: open
+  name: Turntide WordPress REST Wp Block Editor/v1 API
+  slug: open-turntide-technologies-wp-block-editor-v1-api
+- collection_type: open
+  name: Turntide WordPress REST Wp Site Health/v1 API
+  slug: open-turntide-technologies-wp-site-health-v1-api
+- collection_type: open
+  name: Turntide WordPress REST Wp/v2 API
+  slug: open-turntide-technologies-wp-v2-api
+- collection_type: open
+  name: Turntide WordPress REST Wpe/cache Plugin/v1 API
+  slug: open-turntide-technologies-wpe-cache-plugin-v1-api
+- collection_type: open
+  name: Turntide WordPress REST Wpe Sign On Plugin/v1 API
+  slug: open-turntide-technologies-wpe-sign-on-plugin-v1-api
+- collection_type: open
+  name: Turntide WordPress REST Wpforms/v1 API
+  slug: open-turntide-technologies-wpforms-v1-api
+- collection_type: open
+  name: Turntide WordPress REST Yoast/v1 API
+  slug: open-turntide-technologies-yoast-v1-api
 common:
 - group: other
   title: ''
@@ -219,7 +268,7 @@ overview: 'Turntide Technologies publishes 15 APIs on the [APIs.io](https://apis
 
 
   Turntide Technologies'' developer surface includes documentation, support, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 48
+random_paper: 122
 scopes:
 - name: Turntide Technologies Scopes
   scope_count: 1
@@ -254,7 +303,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

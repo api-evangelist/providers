@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Shipment location and status visibility.
   name: DAT Freight & Analytics Tracking API
   slug: dat-freight-tracking-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DAT Freight & Analytics API (Modeled) BookNow API
+  slug: open-dat-freight-booknow-api
+- collection_type: open
+  name: DAT Freight & Analytics API (Modeled) BookNow Freight Posting API
+  slug: open-dat-freight-freight-posting-api
+- collection_type: open
+  name: DAT Freight & Analytics API (Modeled) BookNow Identity API
+  slug: open-dat-freight-identity-api
+- collection_type: open
+  name: DAT Freight & Analytics API (Modeled) BookNow Load Board Search API
+  slug: open-dat-freight-load-board-search-api
+- collection_type: open
+  name: DAT Freight & Analytics API (Modeled) BookNow RateView API
+  slug: open-dat-freight-rateview-api
+- collection_type: open
+  name: DAT Freight & Analytics API (Modeled) BookNow Tracking API
+  slug: open-dat-freight-tracking-api
 - collection_type: open
   name: DAT Freight & Analytics API (Modeled)
   slug: open-dat-freight
@@ -127,7 +148,7 @@ plans:
 - name: Dat Freight Plans Pricing
   plan_count: 4
   slug: dat-freight-plans-pricing
-random_paper: 23
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Dat Freight Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/screenshots/dat-freight-2026-07-25T211230.png
 security:

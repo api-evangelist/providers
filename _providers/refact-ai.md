@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Local HTTP/LSP API exposed by the Rust `refact-lsp` engine that runs inside the user''s IDE or as a standalone server. Implements the agent runtime: provider/model capabilities, chat command queueing, '
@@ -183,7 +183,7 @@ overview: 'Refact.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Refact.ai''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 36
+random_paper: 131
 score:
   band: emerging
   composite: 18.3
@@ -197,7 +197,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 18.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refact-ai/refs/heads/main/screenshots/refact-ai-2026-06-20T192744.png
 security:

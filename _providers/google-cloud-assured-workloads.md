@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: Operations for managing assured workloads
   name: Google Cloud Assured Workloads Workloads API
   slug: google-cloud-assured-workloads-workloads-api
-artifact_total: 16
+artifact_total: 19
 collections:
 - collection_type: postman
   name: Google Cloud Assured Workloads Violations API
@@ -54,8 +54,17 @@ collections:
   name: Google Cloud Assured Violations Workloads API
   slug: postman-google-cloud-assured-workloads-workloads-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Assured Workloads API
   slug: open-assured-workloads-api
+- collection_type: open
+  name: Google Cloud Assured Workloads Violations API
+  slug: open-google-cloud-assured-workloads-violations-api
+- collection_type: open
+  name: Google Cloud Assured Violations Workloads API
+  slug: open-google-cloud-assured-workloads-workloads-api
 common:
 - group: build
   title: ''
@@ -161,7 +170,7 @@ plans:
 - name: Google Cloud Assured Workloads Plans Pricing
   plan_count: 3
   slug: google-cloud-assured-workloads-plans-pricing
-random_paper: 48
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Google Cloud Assured Workloads Rate Limits
@@ -200,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-assured-workloads/refs/heads/main/screenshots/google-cloud-assured-workloads-2026-06-20T182042.png
 security:

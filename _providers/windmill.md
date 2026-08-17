@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -247,7 +247,7 @@ arazzos:
 - description: Resolve a script, create a cron schedule for it, then read the schedule back.
   name: Windmill Schedule a Script
   slug: windmill-schedule-script-workflow
-artifact_total: 159
+artifact_total: 219
 collections:
 - collection_type: postman
   name: Windmill admin API
@@ -427,8 +427,188 @@ collections:
   name: Windmill admin workspace_integration API
   slug: postman-windmill-workspace-integration-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Windmill admin API
+  slug: open-windmill-admin-api
+- collection_type: open
+  name: Windmill admin agent_workers API
+  slug: open-windmill-agent-workers-api
+- collection_type: open
   name: Windmill API
   slug: open-windmill-api
+- collection_type: open
+  name: Windmill admin app API
+  slug: open-windmill-app-api
+- collection_type: open
+  name: Windmill admin asset API
+  slug: open-windmill-asset-api
+- collection_type: open
+  name: Windmill admin audit API
+  slug: open-windmill-audit-api
+- collection_type: open
+  name: Windmill admin azure_trigger API
+  slug: open-windmill-azure-trigger-api
+- collection_type: open
+  name: Windmill admin capture API
+  slug: open-windmill-capture-api
+- collection_type: open
+  name: Windmill admin concurrencyGroups API
+  slug: open-windmill-concurrencygroups-api
+- collection_type: open
+  name: Windmill admin config API
+  slug: open-windmill-config-api
+- collection_type: open
+  name: Windmill admin documentation API
+  slug: open-windmill-documentation-api
+- collection_type: open
+  name: Windmill admin draft API
+  slug: open-windmill-draft-api
+- collection_type: open
+  name: Windmill admin email_trigger API
+  slug: open-windmill-email-trigger-api
+- collection_type: open
+  name: Windmill admin favorite API
+  slug: open-windmill-favorite-api
+- collection_type: open
+  name: Windmill admin flow API
+  slug: open-windmill-flow-api
+- collection_type: open
+  name: Windmill admin flow_conversations API
+  slug: open-windmill-flow-conversations-api
+- collection_type: open
+  name: Windmill admin folder API
+  slug: open-windmill-folder-api
+- collection_type: open
+  name: Windmill admin gcp_trigger API
+  slug: open-windmill-gcp-trigger-api
+- collection_type: open
+  name: Windmill admin Git Sync API
+  slug: open-windmill-git-sync-api
+- collection_type: open
+  name: Windmill admin granular_acl API
+  slug: open-windmill-granular-acl-api
+- collection_type: open
+  name: Windmill admin group API
+  slug: open-windmill-group-api
+- collection_type: open
+  name: Windmill admin health API
+  slug: open-windmill-health-api
+- collection_type: open
+  name: Windmill admin helpers API
+  slug: open-windmill-helpers-api
+- collection_type: open
+  name: Windmill admin http_trigger API
+  slug: open-windmill-http-trigger-api
+- collection_type: open
+  name: Windmill admin indexSearch API
+  slug: open-windmill-indexsearch-api
+- collection_type: open
+  name: Windmill admin input API
+  slug: open-windmill-input-api
+- collection_type: open
+  name: Windmill admin integration API
+  slug: open-windmill-integration-api
+- collection_type: open
+  name: Windmill admin job API
+  slug: open-windmill-job-api
+- collection_type: open
+  name: Windmill admin kafka_trigger API
+  slug: open-windmill-kafka-trigger-api
+- collection_type: open
+  name: Windmill admin mcp API
+  slug: open-windmill-mcp-api
+- collection_type: open
+  name: Windmill admin mcp_oauth API
+  slug: open-windmill-mcp-oauth-api
+- collection_type: open
+  name: Windmill admin metrics API
+  slug: open-windmill-metrics-api
+- collection_type: open
+  name: Windmill admin mqtt_trigger API
+  slug: open-windmill-mqtt-trigger-api
+- collection_type: open
+  name: Windmill admin native_trigger API
+  slug: open-windmill-native-trigger-api
+- collection_type: open
+  name: Windmill admin nats_trigger API
+  slug: open-windmill-nats-trigger-api
+- collection_type: open
+  name: Windmill admin npm_proxy API
+  slug: open-windmill-npm-proxy-api
+- collection_type: open
+  name: Windmill admin oauth API
+  slug: open-windmill-oauth-api
+- collection_type: open
+  name: Windmill admin oidc API
+  slug: open-windmill-oidc-api
+- collection_type: open
+  name: Windmill admin openapi API
+  slug: open-windmill-openapi-api
+- collection_type: open
+  name: Windmill admin path_autocomplete API
+  slug: open-windmill-path-autocomplete-api
+- collection_type: open
+  name: Windmill admin postgres_trigger API
+  slug: open-windmill-postgres-trigger-api
+- collection_type: open
+  name: Windmill admin raw_app API
+  slug: open-windmill-raw-app-api
+- collection_type: open
+  name: Windmill admin resource API
+  slug: open-windmill-resource-api
+- collection_type: open
+  name: Windmill admin schedule API
+  slug: open-windmill-schedule-api
+- collection_type: open
+  name: Windmill admin script API
+  slug: open-windmill-script-api
+- collection_type: open
+  name: Windmill admin service_logs API
+  slug: open-windmill-service-logs-api
+- collection_type: open
+  name: Windmill admin setting API
+  slug: open-windmill-setting-api
+- collection_type: open
+  name: Windmill admin settings API
+  slug: open-windmill-settings-api
+- collection_type: open
+  name: Windmill admin sqs_trigger API
+  slug: open-windmill-sqs-trigger-api
+- collection_type: open
+  name: Windmill admin teams API
+  slug: open-windmill-teams-api
+- collection_type: open
+  name: Windmill admin token API
+  slug: open-windmill-token-api
+- collection_type: open
+  name: Windmill admin trigger API
+  slug: open-windmill-trigger-api
+- collection_type: open
+  name: Windmill admin user API
+  slug: open-windmill-user-api
+- collection_type: open
+  name: Windmill admin variable API
+  slug: open-windmill-variable-api
+- collection_type: open
+  name: Windmill admin volume API
+  slug: open-windmill-volume-api
+- collection_type: open
+  name: Windmill admin websocket_trigger API
+  slug: open-windmill-websocket-trigger-api
+- collection_type: open
+  name: Windmill admin worker API
+  slug: open-windmill-worker-api
+- collection_type: open
+  name: Windmill admin workspace API
+  slug: open-windmill-workspace-api
+- collection_type: open
+  name: Windmill admin workspace_dependencies API
+  slug: open-windmill-workspace-dependencies-api
+- collection_type: open
+  name: Windmill admin workspace_integration API
+  slug: open-windmill-workspace-integration-api
 common:
 - group: build
   title: ''
@@ -688,7 +868,7 @@ plans:
 - name: Windmill Plans Pricing
   plan_count: 3
   slug: windmill-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Windmill Rate Limits
@@ -730,7 +910,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:

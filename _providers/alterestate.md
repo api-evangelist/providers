@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Company agents
@@ -46,7 +46,26 @@ apis:
 - description: Property listings and detail views
   name: AlterEstate Properties API
   slug: alterestate-properties-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AlterEstate Agents API
+  slug: open-alterestate-agents-api
+- collection_type: open
+  name: AlterEstate Agents Developments API
+  slug: open-alterestate-developments-api
+- collection_type: open
+  name: AlterEstate Agents Leads API
+  slug: open-alterestate-leads-api
+- collection_type: open
+  name: AlterEstate Agents Locations API
+  slug: open-alterestate-locations-api
+- collection_type: open
+  name: AlterEstate Agents Properties API
+  slug: open-alterestate-properties-api
 common:
 - group: start
   title: ''
@@ -164,7 +183,7 @@ overview: 'AlterEstate publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AlterEstate''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 102
+random_paper: 139
 scopes:
 - name: Alterestate Scopes
   scope_count: 1
@@ -192,7 +211,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/screenshots/alterestate-2026-07-25T195823.png
 security:

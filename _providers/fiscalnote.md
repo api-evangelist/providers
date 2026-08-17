@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,20 +78,62 @@ apis:
 - description: Access stakeholder intelligence including government officials and organizational relationships.
   name: FiscalNote Stakeholders API
   slug: fiscalnote-stakeholders-api
-artifact_total: 28
+artifact_total: 42
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: FiscalNote AppData API
   slug: open-fiscalnote-appdata
 - collection_type: open
+  name: FiscalNote AppData Bills API
+  slug: open-fiscalnote-bills-api
+- collection_type: open
+  name: FiscalNote AppData Bills Committees API
+  slug: open-fiscalnote-committees-api
+- collection_type: open
+  name: FiscalNote AppData Bills Issues API
+  slug: open-fiscalnote-issues-api
+- collection_type: open
+  name: FiscalNote AppData Bills Labels API
+  slug: open-fiscalnote-labels-api
+- collection_type: open
+  name: FiscalNote AppData Bills Legislation API
+  slug: open-fiscalnote-legislation-api
+- collection_type: open
+  name: FiscalNote AppData Bills Legislators API
+  slug: open-fiscalnote-legislators-api
+- collection_type: open
+  name: FiscalNote AppData Bills Officials API
+  slug: open-fiscalnote-officials-api
+- collection_type: open
   name: FiscalNote Organization API
   slug: open-fiscalnote-organization
+- collection_type: open
+  name: FiscalNote AppData Bills Organizations API
+  slug: open-fiscalnote-organizations-api
 - collection_type: open
   name: FiscalNote People API
   slug: open-fiscalnote-people
 - collection_type: open
+  name: FiscalNote AppData Bills Policy Intelligence API
+  slug: open-fiscalnote-policy-intelligence-api
+- collection_type: open
   name: FiscalNote PolicyNote API
   slug: open-fiscalnote-policynote
+- collection_type: open
+  name: FiscalNote AppData Bills Presidential Transcripts API
+  slug: open-fiscalnote-presidential-transcripts-api
+- collection_type: open
+  name: FiscalNote AppData Bills Regulations API
+  slug: open-fiscalnote-regulations-api
+- collection_type: open
+  name: FiscalNote AppData Bills Regulatory Documents API
+  slug: open-fiscalnote-regulatory-documents-api
+- collection_type: open
+  name: FiscalNote AppData Bills Stakeholders API
+  slug: open-fiscalnote-stakeholders-api
 common:
 - group: agent
   title: ''
@@ -195,7 +237,7 @@ plans:
 - name: Fiscalnote Plans Pricing
   plan_count: 4
   slug: fiscalnote-plans-pricing
-random_paper: 104
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Fiscalnote Rate Limits
@@ -235,7 +277,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/screenshots/fiscalnote-2026-06-20T181249.png
 security:

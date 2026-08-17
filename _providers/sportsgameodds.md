@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Teams API from SportsGameOdds — 2 operation(s) for teams.
   name: SportsGameOdds Teams API
   slug: sportsgameodds-teams-api
-artifact_total: 23
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SportsGameOdds Account API
+  slug: open-sportsgameodds-account-api
+- collection_type: open
+  name: SportsGameOdds Account Events API
+  slug: open-sportsgameodds-events-api
+- collection_type: open
+  name: SportsGameOdds Account Leagues API
+  slug: open-sportsgameodds-leagues-api
+- collection_type: open
+  name: SportsGameOdds Account Markets API
+  slug: open-sportsgameodds-markets-api
+- collection_type: open
+  name: SportsGameOdds Account Players API
+  slug: open-sportsgameodds-players-api
+- collection_type: open
+  name: SportsGameOdds Account Sports API
+  slug: open-sportsgameodds-sports-api
+- collection_type: open
+  name: SportsGameOdds Account Stats API
+  slug: open-sportsgameodds-stats-api
+- collection_type: open
+  name: SportsGameOdds Account Teams API
+  slug: open-sportsgameodds-teams-api
 - collection_type: open
   name: SportsGameOdds API
   slug: open-sportsgameodds
@@ -175,7 +202,7 @@ plans:
 - name: Sportsgameodds Plans Pricing
   plan_count: 3
   slug: sportsgameodds-plans-pricing
-random_paper: 79
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Sportsgameodds Rate Limits
@@ -217,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/screenshots/sportsgameodds-2026-06-20T194349.png
 security:

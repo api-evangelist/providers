@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -62,8 +62,29 @@ apis:
 - description: The Types API from Riak KV — 7 operation(s) for types.
   name: Riak KV Types API
   slug: riak-types-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Riak KV HTTP Mapred API
+  slug: open-riak-mapred-api
+- collection_type: open
+  name: Riak KV HTTP Mapred Ping API
+  slug: open-riak-ping-api
+- collection_type: open
+  name: Riak KV HTTP Mapred Riak KV HTTP API API
+  slug: open-riak-riak-kv-http-api-api
+- collection_type: open
+  name: Riak KV HTTP Mapred Search API
+  slug: open-riak-search-api
+- collection_type: open
+  name: Riak KV HTTP Mapred Stats API
+  slug: open-riak-stats-api
+- collection_type: open
+  name: Riak KV HTTP Mapred Types API
+  slug: open-riak-types-api
 - collection_type: open
   name: Riak KV HTTP API
   slug: open-riak
@@ -132,7 +153,7 @@ overview: 'Riak KV publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Riak KV''s developer surface includes authentication, documentation, and 11 more developer resources.'
-random_paper: 63
+random_paper: 125
 score:
   band: emerging
   composite: 26.4
@@ -153,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/screenshots/riak-2026-06-20T193107.png
 security:

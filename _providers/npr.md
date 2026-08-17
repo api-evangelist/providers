@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -51,7 +51,20 @@ apis:
 - description: The Stationfinder API from NPR — 2 operation(s) for stationfinder.
   name: NPR Stationfinder API
   slug: npr-stationfinder-api
-artifact_total: 11
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NPR Identity Service Authorization API
+  slug: open-npr-authorization-api
+- collection_type: open
+  name: NPR Service Authorization Identity API
+  slug: open-npr-identity-api
+- collection_type: open
+  name: NPR Identity Service Authorization Stationfinder API
+  slug: open-npr-stationfinder-api
 common:
 - group: agent
   title: ''
@@ -105,7 +118,7 @@ plans:
 - name: Npr Plans Pricing
   plan_count: 1
   slug: npr-plans-pricing
-random_paper: 96
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Npr Rate Limits
@@ -135,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/screenshots/npr-2026-06-20T190453.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Opinions represent published and unpublished case law opinions. Opinions belong to a Court and Jurisdiction.
   name: OpenLaws Opinions API
   slug: openlaws-opinions-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenLaws API Documentation Courts API
+  slug: open-openlaws-courts-api
+- collection_type: open
+  name: OpenLaws API Documentation Courts Jurisdictions API
+  slug: open-openlaws-jurisdictions-api
+- collection_type: open
+  name: OpenLaws API Documentation Courts Law Divisions API
+  slug: open-openlaws-law-divisions-api
+- collection_type: open
+  name: OpenLaws API Documentation Courts Laws API
+  slug: open-openlaws-laws-api
+- collection_type: open
+  name: OpenLaws API Documentation Courts Opinions API
+  slug: open-openlaws-opinions-api
 - collection_type: open
   name: OpenLaws API Documentation
   slug: open-openlaws
@@ -132,7 +150,7 @@ plans:
 - name: Openlaws Plans Pricing
   plan_count: 3
   slug: openlaws-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Openlaws Rate Limits
@@ -163,7 +181,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/screenshots/openlaws-2026-06-20T191009.png
 security:

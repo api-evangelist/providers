@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -129,11 +129,99 @@ arazzos:
 - description: Request a quote, accept it, and confirm the resulting order and trade.
   name: Anchorage Digital - Trade via RFQ
   slug: anchorage-trade-rfq
-artifact_total: 37
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Anchorage Webhooks
   slug: anchorage-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses API
+  slug: open-anchorage-addresses-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses AML API
+  slug: open-anchorage-aml-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses API Key API
+  slug: open-anchorage-api-key-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Asset Types API
+  slug: open-anchorage-asset-types-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Asset Types & Networks API
+  slug: open-anchorage-asset-types-networks-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Atlas Settlement Network API
+  slug: open-anchorage-atlas-settlement-network-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Balances API
+  slug: open-anchorage-balances-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Collateral Management API
+  slug: open-anchorage-collateral-management-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Deposit Attribution API
+  slug: open-anchorage-deposit-attribution-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Fiat Banking Operations API
+  slug: open-anchorage-fiat-banking-operations-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Onboarding API
+  slug: open-anchorage-onboarding-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Stablecoins API
+  slug: open-anchorage-stablecoins-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Statements API
+  slug: open-anchorage-statements-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Subaccounts API
+  slug: open-anchorage-subaccounts-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Tagging API
+  slug: open-anchorage-tagging-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Tax API
+  slug: open-anchorage-tax-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Tax Reporting API
+  slug: open-anchorage-tax-reporting-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Trading API
+  slug: open-anchorage-trading-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Transaction Construction API
+  slug: open-anchorage-transaction-construction-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Transaction Creation API
+  slug: open-anchorage-transaction-creation-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Transactions API
+  slug: open-anchorage-transactions-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Transfers API
+  slug: open-anchorage-transfers-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Trusted Destinations API
+  slug: open-anchorage-trusted-destinations-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Vaults API
+  slug: open-anchorage-vaults-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Vesting API
+  slug: open-anchorage-vesting-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Wallet Operations API
+  slug: open-anchorage-wallet-operations-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Wallets API
+  slug: open-anchorage-wallets-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Webhook Notifications API
+  slug: open-anchorage-webhook-notifications-api
 common:
 - group: other
   title: ''
@@ -286,7 +374,7 @@ overview: 'Anchorage Digital publishes 28 APIs on the [APIs.io](https://apis.io/
 
 
   Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 26 more developer resources.'
-random_paper: 96
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Anchorage Rate Limits
@@ -320,7 +408,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/screenshots/anchorage-2026-07-25T200219.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,11 +64,20 @@ arazzos:
 - description: Remove tags from a DLM resource and confirm removal by listing the resource's tags.
   name: Amazon Data Lifecycle Manager Untag Policy Resource
   slug: amazon-data-lifecycle-manager-untag-policy-resource-workflow
-artifact_total: 78
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Amazon Data Lifecycle Manager API
   slug: postman-amazon-data-lifecycle-manager
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Data Lifecycle Manager Lifecycle Policies API
+  slug: open-amazon-data-lifecycle-manager-lifecycle-policies-api
+- collection_type: open
+  name: Amazon Data Lifecycle Manager Lifecycle Policies Tags API
+  slug: open-amazon-data-lifecycle-manager-tags-api
 - collection_type: open
   name: Amazon Data Lifecycle Manager API
   slug: open-amazon-data-lifecycle-manager
@@ -358,7 +367,7 @@ plans:
 - name: Amazon Data Lifecycle Manager Plans Pricing
   plan_count: 3
   slug: amazon-data-lifecycle-manager-plans-pricing
-random_paper: 106
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Amazon Data Lifecycle Manager Rate Limits
@@ -400,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/screenshots/amazon-data-lifecycle-manager-2026-06-20T171613.png
 security:

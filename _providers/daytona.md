@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 9
@@ -96,8 +96,65 @@ apis:
 - description: The workspace API from Daytona — 12 operation(s) for workspace.
   name: Daytona workspace API
   slug: daytona-workspace-api
-artifact_total: 27
+artifact_total: 46
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Daytona admin API
+  slug: open-daytona-admin-api
+- collection_type: open
+  name: Daytona admin api-keys API
+  slug: open-daytona-api-keys-api
+- collection_type: open
+  name: Daytona admin audit API
+  slug: open-daytona-audit-api
+- collection_type: open
+  name: Daytona admin config API
+  slug: open-daytona-config-api
+- collection_type: open
+  name: Daytona admin docker-registry API
+  slug: open-daytona-docker-registry-api
+- collection_type: open
+  name: Daytona admin Health API
+  slug: open-daytona-health-api
+- collection_type: open
+  name: Daytona admin jobs API
+  slug: open-daytona-jobs-api
+- collection_type: open
+  name: Daytona admin object-storage API
+  slug: open-daytona-object-storage-api
+- collection_type: open
+  name: Daytona admin organizations API
+  slug: open-daytona-organizations-api
+- collection_type: open
+  name: Daytona admin regions API
+  slug: open-daytona-regions-api
+- collection_type: open
+  name: Daytona admin runners API
+  slug: open-daytona-runners-api
+- collection_type: open
+  name: Daytona admin sandbox API
+  slug: open-daytona-sandbox-api
+- collection_type: open
+  name: Daytona admin snapshots API
+  slug: open-daytona-snapshots-api
+- collection_type: open
+  name: Daytona admin toolbox API
+  slug: open-daytona-toolbox-api
+- collection_type: open
+  name: Daytona admin users API
+  slug: open-daytona-users-api
+- collection_type: open
+  name: Daytona admin volumes API
+  slug: open-daytona-volumes-api
+- collection_type: open
+  name: Daytona admin webhooks API
+  slug: open-daytona-webhooks-api
+- collection_type: open
+  name: Daytona admin workspace API
+  slug: open-daytona-workspace-api
 - collection_type: open
   name: Daytona
   slug: open-daytona
@@ -186,7 +243,7 @@ plans:
 - name: Daytona Plans Pricing
   plan_count: 1
   slug: daytona-plans-pricing
-random_paper: 32
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Daytona Rate Limits
@@ -211,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona/refs/heads/main/screenshots/daytona-2026-06-20T175735.png
 security:

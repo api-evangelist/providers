@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 24
 apis:
 - description: The Attempted Delivery API API from Just Eat — 2 operation(s) for attempted delivery api.
@@ -103,11 +103,87 @@ apis:
 - description: The Search API from Just Eat — 2 operation(s) for search.
   name: Just Eat Search API
   slug: just-eat-search-api
-artifact_total: 28
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Just Eat Webhooks
   slug: just-eat-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API API
+  slug: open-just-eat-attempted-delivery-api-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Attempted Delivery Webhooks API
+  slug: open-just-eat-attempted-delivery-webhooks-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Checkout API
+  slug: open-just-eat-checkout-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Consumer Queries Webhooks API
+  slug: open-just-eat-consumer-queries-webhooks-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API ConsumerQueries API
+  slug: open-just-eat-consumerqueries-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Consumers API
+  slug: open-just-eat-consumers-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Delivery Pools API API
+  slug: open-just-eat-delivery-pools-api-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API DeliveryFee API
+  slug: open-just-eat-deliveryfee-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Order Acceptance API API
+  slug: open-just-eat-order-acceptance-api-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Order Acceptance Webhooks API
+  slug: open-just-eat-order-acceptance-webhooks-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Order API API
+  slug: open-just-eat-order-api-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Order Delivery API API
+  slug: open-just-eat-order-delivery-api-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Order Delivery Webhooks API
+  slug: open-just-eat-order-delivery-webhooks-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Order Webhooks API
+  slug: open-just-eat-order-webhooks-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API publicly-accessible API
+  slug: open-just-eat-publicly-accessible-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Restaurant Claims API
+  slug: open-just-eat-restaurant-claims-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Restaurant Events API
+  slug: open-just-eat-restaurant-events-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Restaurant Events Webhooks API
+  slug: open-just-eat-restaurant-events-webhooks-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Restaurant OrderTimes API
+  slug: open-just-eat-restaurant-ordertimes-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Restaurant Webhooks API
+  slug: open-just-eat-restaurant-webhooks-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API RestaurantQueries API
+  slug: open-just-eat-restaurantqueries-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API RestaurantQueries Webhooks API
+  slug: open-just-eat-restaurantqueries-webhooks-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Restaurants API
+  slug: open-just-eat-restaurants-api
+- collection_type: open
+  name: Just Eat UK Attempted Delivery API Search API
+  slug: open-just-eat-search-api
 common:
 - group: other
   title: ''
@@ -204,7 +280,7 @@ overview: 'Just Eat publishes 24 APIs on the [APIs.io](https://apis.io/) network
 
 
   Just Eat''s developer surface includes authentication, documentation, API reference, engineering blog, and 15 more developer resources.'
-random_paper: 93
+random_paper: 68
 score:
   band: thin
   composite: 37.9
@@ -227,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Pull tracking events for parcels.
   name: Ninja Van Tracking API API
   slug: ninjavan-tracking-api-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ninja Van API (ninjaAPI) OAuth API API
+  slug: open-ninjavan-oauth-api-api
+- collection_type: open
+  name: Ninja Van API (ninjaAPI) OAuth API Order API API
+  slug: open-ninjavan-order-api-api
+- collection_type: open
+  name: Ninja Van API (ninjaAPI) OAuth API PUDO API API
+  slug: open-ninjavan-pudo-api-api
+- collection_type: open
+  name: Ninja Van API (ninjaAPI) OAuth API Tariff API API
+  slug: open-ninjavan-tariff-api-api
+- collection_type: open
+  name: Ninja Van API (ninjaAPI) OAuth API Tracking API API
+  slug: open-ninjavan-tracking-api-api
 - collection_type: open
   name: Ninja Van API (ninjaAPI)
   slug: open-ninjavan
@@ -120,7 +138,7 @@ plans:
 - name: Ninjavan Plans Pricing
   plan_count: 3
   slug: ninjavan-plans-pricing
-random_paper: 13
+random_paper: 108
 rate_limits:
 - limit_count: 4
   name: Ninjavan Rate Limits
@@ -145,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/screenshots/ninjavan-2026-08-07T185328.png
 security:

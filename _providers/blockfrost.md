@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
 - description: The Nut.link API from Blockfrost — 4 operation(s) for nut.link.
   name: Blockfrost Nut.link API
   slug: blockfrost-nut-link-api
-artifact_total: 126
+artifact_total: 147
 collections:
 - collection_type: postman
   name: Blockfrost.io ~ API Documentation Cardano » Accounts API
@@ -161,6 +161,69 @@ collections:
 - collection_type: postman
   name: Blockfrost.io ~ API Documentation Cardano » Accounts Nut.link API
   slug: postman-blockfrost-nut-link-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts API
+  slug: open-blockfrost-cardano-accounts-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Addresses API
+  slug: open-blockfrost-cardano-addresses-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Assets API
+  slug: open-blockfrost-cardano-assets-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Blocks API
+  slug: open-blockfrost-cardano-blocks-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Epochs API
+  slug: open-blockfrost-cardano-epochs-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Governance API
+  slug: open-blockfrost-cardano-governance-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Ledger API
+  slug: open-blockfrost-cardano-ledger-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Mempool API
+  slug: open-blockfrost-cardano-mempool-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Metadata API
+  slug: open-blockfrost-cardano-metadata-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Network API
+  slug: open-blockfrost-cardano-network-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Pools API
+  slug: open-blockfrost-cardano-pools-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Scripts API
+  slug: open-blockfrost-cardano-scripts-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Transactions API
+  slug: open-blockfrost-cardano-transactions-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Utilities API
+  slug: open-blockfrost-cardano-utilities-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Health API
+  slug: open-blockfrost-health-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts IPFS » Add API
+  slug: open-blockfrost-ipfs-add-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts IPFS » Gateway API
+  slug: open-blockfrost-ipfs-gateway-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts IPFS » Pins API
+  slug: open-blockfrost-ipfs-pins-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Metrics API
+  slug: open-blockfrost-metrics-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Nut.link API
+  slug: open-blockfrost-nut-link-api
 common:
 - group: build
   title: ''
@@ -477,7 +540,7 @@ plans:
 - name: Blockfrost Plans Pricing
   plan_count: 3
   slug: blockfrost-plans-pricing
-random_paper: 1
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Blockfrost Rate Limits
@@ -519,7 +582,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockfrost/refs/heads/main/screenshots/blockfrost-2026-06-20T173358.png
 security:

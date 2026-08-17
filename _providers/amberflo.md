@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Find a customer by ID and update it if it exists, otherwise create it.
   name: Amberflo Upsert Customer
   slug: amberflo-upsert-customer-workflow
-artifact_total: 109
+artifact_total: 118
 collections:
 - collection_type: postman
   name: Amberflo Billing Customers API
@@ -132,6 +132,33 @@ collections:
 - collection_type: postman
   name: Amberflo Billing Customers Usage Queries API
   slug: postman-amberflo-usage-queries-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amberflo Billing Customers API
+  slug: open-amberflo-customers-api
+- collection_type: open
+  name: Amberflo Billing Customers Event Ingestion API
+  slug: open-amberflo-event-ingestion-api
+- collection_type: open
+  name: Amberflo Billing Customers Filtering Rules API
+  slug: open-amberflo-filtering-rules-api
+- collection_type: open
+  name: Amberflo Billing Customers Invoices API
+  slug: open-amberflo-invoices-api
+- collection_type: open
+  name: Amberflo Billing Customers Meter Definitions API
+  slug: open-amberflo-meter-definitions-api
+- collection_type: open
+  name: Amberflo Billing Customers Prepaid Orders API
+  slug: open-amberflo-prepaid-orders-api
+- collection_type: open
+  name: Amberflo Billing Customers Pricing Plans API
+  slug: open-amberflo-pricing-plans-api
+- collection_type: open
+  name: Amberflo Billing Customers Usage Queries API
+  slug: open-amberflo-usage-queries-api
 common:
 - group: build
   title: ''
@@ -500,7 +527,7 @@ plans:
 - name: Amberflo Plans Pricing
   plan_count: 4
   slug: amberflo-plans-pricing
-random_paper: 0
+random_paper: 95
 rate_limits:
 - limit_count: 3
   name: Amberflo Rate Limits
@@ -542,7 +569,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/screenshots/amberflo-2026-06-20T171855.png
 security:

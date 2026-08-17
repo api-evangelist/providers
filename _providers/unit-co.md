@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -90,7 +90,7 @@ apis:
 - description: Subscriptions that deliver events as signed HTTP callbacks.
   name: Unit Webhooks API
   slug: unit-co-webhooks-api
-artifact_total: 45
+artifact_total: 80
 asyncapis:
 - description: ''
   name: Unit Co Events Webhooks
@@ -144,6 +144,111 @@ collections:
 - collection_type: postman
   name: Unit Webhooks and Events API
   slug: postman-unit-co-webhooks-openapi
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unit Accounts API
+  slug: open-unit-co-accounts-api
+- collection_type: open
+  name: Unit Accounts API
+  slug: open-unit-co-accounts
+- collection_type: open
+  name: Unit Accounts API Tokens API
+  slug: open-unit-co-api-tokens-api
+- collection_type: open
+  name: Unit Accounts Applications API
+  slug: open-unit-co-applications-api
+- collection_type: open
+  name: Unit Applications API
+  slug: open-unit-co-applications
+- collection_type: open
+  name: Unit Accounts Authorizations API
+  slug: open-unit-co-authorizations-api
+- collection_type: open
+  name: Unit Card Authorizations API
+  slug: open-unit-co-authorizations
+- collection_type: open
+  name: Unit Accounts Cards API
+  slug: open-unit-co-cards-api
+- collection_type: open
+  name: Unit Cards API
+  slug: open-unit-co-cards
+- collection_type: open
+  name: Unit Accounts Checks API
+  slug: open-unit-co-checks-api
+- collection_type: open
+  name: Unit Checks API
+  slug: open-unit-co-checks
+- collection_type: open
+  name: Unit Accounts Counterparties API
+  slug: open-unit-co-counterparties-api
+- collection_type: open
+  name: Unit Accounts Credit and Repayments API
+  slug: open-unit-co-credit-and-repayments-api
+- collection_type: open
+  name: Unit Credit and Repayments API
+  slug: open-unit-co-credit
+- collection_type: open
+  name: Unit Accounts Customers API
+  slug: open-unit-co-customers-api
+- collection_type: open
+  name: Unit Customers API
+  slug: open-unit-co-customers
+- collection_type: open
+  name: Unit Disputes API
+  slug: open-unit-co-disputes
+- collection_type: open
+  name: Unit Accounts Events API
+  slug: open-unit-co-events-api
+- collection_type: open
+  name: Unit Accounts Fees and Rewards API
+  slug: open-unit-co-fees-and-rewards-api
+- collection_type: open
+  name: Unit Fees and Rewards API
+  slug: open-unit-co-fees-rewards
+- collection_type: open
+  name: Unit OpenAPI specifications
+  slug: open-unit-co-openapi-source
+- collection_type: open
+  name: Unit Accounts Payments API
+  slug: open-unit-co-payments-api
+- collection_type: open
+  name: Unit Payments API
+  slug: open-unit-co-payments
+- collection_type: open
+  name: Unit Accounts Risk and Fraud API
+  slug: open-unit-co-risk-and-fraud-api
+- collection_type: open
+  name: Unit Sandbox and Reference API
+  slug: open-unit-co-sandbox
+- collection_type: open
+  name: Unit Accounts Statements API
+  slug: open-unit-co-statements-api
+- collection_type: open
+  name: Unit Statements API
+  slug: open-unit-co-statements
+- collection_type: open
+  name: Unit Stop Payments API
+  slug: open-unit-co-stop-payments
+- collection_type: open
+  name: Unit Accounts Tax Forms API
+  slug: open-unit-co-tax-forms-api
+- collection_type: open
+  name: Unit Tax Forms API
+  slug: open-unit-co-tax-forms
+- collection_type: open
+  name: Unit Accounts Transactions API
+  slug: open-unit-co-transactions-api
+- collection_type: open
+  name: Unit Transactions API
+  slug: open-unit-co-transactions
+- collection_type: open
+  name: Unit Accounts Webhooks API
+  slug: open-unit-co-webhooks-api
+- collection_type: open
+  name: Unit Webhooks and Events API
+  slug: open-unit-co-webhooks
 - collection_type: open
   name: Unit API
   slug: open-unit-co
@@ -343,7 +448,7 @@ plans:
 - name: Unit Co Plans Pricing
   plan_count: 2
   slug: unit-co-plans-pricing
-random_paper: 103
+random_paper: 107
 rate_limits:
 - limit_count: 4
   name: Unit Co Rate Limits
@@ -382,7 +487,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
 security:

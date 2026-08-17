@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Operations for managing shapes on pages.
   name: Microsoft Visio Shapes API
   slug: microsoft-visio-shapes-api
-artifact_total: 47
+artifact_total: 54
 collections:
 - collection_type: postman
   name: Microsoft Graph Visio Comments API
@@ -80,6 +80,27 @@ collections:
 - collection_type: postman
   name: Microsoft Graph Visio Comments Shapes API
   slug: postman-microsoft-visio-shapes-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Visio Comments API
+  slug: open-microsoft-visio-comments-api
+- collection_type: open
+  name: Microsoft Graph Visio Comments Documents API
+  slug: open-microsoft-visio-documents-api
+- collection_type: open
+  name: Microsoft Graph Visio Comments Hyperlinks API
+  slug: open-microsoft-visio-hyperlinks-api
+- collection_type: open
+  name: Microsoft Graph Visio Comments Pages API
+  slug: open-microsoft-visio-pages-api
+- collection_type: open
+  name: Microsoft Graph Visio Comments Shape Data API
+  slug: open-microsoft-visio-shape-data-api
+- collection_type: open
+  name: Microsoft Graph Visio Comments Shapes API
+  slug: open-microsoft-visio-shapes-api
 common:
 - group: build
   title: ''
@@ -228,7 +249,7 @@ plans:
 - name: Microsoft Visio Plans Pricing
   plan_count: 3
   slug: microsoft-visio-plans-pricing
-random_paper: 21
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Microsoft Visio Rate Limits
@@ -275,7 +296,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/screenshots/microsoft-visio-2026-06-20T185541.png
 security:

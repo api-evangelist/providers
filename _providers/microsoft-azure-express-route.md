@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Operations operations
   name: Azure ExpressRoute Operations API
   slug: microsoft-azure-express-route-operations-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure ExpressRoute REST ExpressRoute Circuits API
+  slug: open-microsoft-azure-express-route-expressroute-circuits-api
+- collection_type: open
+  name: Azure ExpressRoute REST ExpressRoute Circuits Operations API
+  slug: open-microsoft-azure-express-route-operations-api
 - collection_type: open
   name: Azure ExpressRoute REST API
   slug: open-microsoft-azure-express-route
@@ -115,7 +124,7 @@ plans:
 - name: Microsoft Azure Express Route Plans Pricing
   plan_count: 3
   slug: microsoft-azure-express-route-plans-pricing
-random_paper: 5
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Express Route Rate Limits
@@ -145,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-express-route/refs/heads/main/screenshots/microsoft-azure-express-route-2026-06-20T185415.png
 security:

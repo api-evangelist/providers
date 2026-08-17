@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -32,11 +32,15 @@ apis:
 - description: The GetirFood (GetirYemek) partner integration API — a Swagger 2.0 contract with 62 operations across seven tags (auth, restaurants, products, chain-menus, food-orders, payment-methods, changelog, hea
   name: GetirFood API
   slug: getirfood-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Getir Food Webhooks
   slug: getir-food-webhooks
+collections:
+- collection_type: open
+  name: GetirFood API Documentation
+  slug: open-getir-food
 common:
 - group: agent
   title: ''
@@ -162,7 +166,7 @@ overview: 'Getir publishes 1 API on the [APIs.io](https://apis.io/) network: Get
 
 
   Getir''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
-random_paper: 59
+random_paper: 92
 rate_limits:
 - limit_count: 3
   name: Getir Rate Limits
@@ -190,7 +194,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/screenshots/getir-2026-08-07T165703.png
 security:

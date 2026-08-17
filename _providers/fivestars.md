@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -39,37 +39,111 @@ common:
   title: ''
   type: Website
   url: https://fivestars.com
+- group: build
+  title: ''
+  type: Packages
+  url: packages/fivestars-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/fivestars-packages.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/fivestars-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.fivestars.com
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fivestars-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/fivestars-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fivestars-rate-limits.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.fivestars.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/fivestars
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.fivestars.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://fsweb.fivestars.com/legal/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://fsweb.fivestars.com/privacy/
+coverage:
+  checked: '2026-08-13'
+  detail: Fivestars was fully absorbed into SumUp — fivestars.com 301s to sumup.com/en-us/loyalty-program/, api.fivestars.com resolves through SumUp's edge but 404s on every spec and .well-known path, developers.fivestars.com and docs.fivestars.com do not resolve, and the Wayback Machine holds no capture of a Fivestars developer portal at any point.
+  evidence:
+  - status: 301
+    url: https://fivestars.com/
+  - status: 404
+    url: https://api.fivestars.com/openapi.json
+  - status: 404
+    url: https://www.fivestars.com/developers
+  - status: 200
+    url: https://status.fivestars.com/api/v2/summary.json
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: Fivestars was a customer loyalty, rewards, and payments platform for small and mid-sized brick-and-mortar merchants, founded in 2010 and headquartered in San Francisco. It combined an automated marketing engine, a customer loyalty and rewards program, and integrated card payments so local businesses could turn one-time shoppers into repeat customers. Fivestars was backed by Lightspeed Venture Partners, Menlo Ventures, and Y Combinator, and historically operated a developer program exposing loyalty, promotions, and customer APIs. The company was acquired by SumUp in 2021 and its product has since been folded into SumUp Connect (SumUp Loyalty); the fivestars.com domain now redirects to SumUp's loyalty program and the standalone Fivestars developer portal and public APIs have been retired. This profile is retained in the API Evangelist network as a historical company record.
+description: Fivestars was a customer loyalty, rewards, and payments platform for small and mid-sized brick-and-mortar merchants, founded in 2010 and headquartered in San Francisco. It combined an automated marketing engine, a customer loyalty and rewards program, and integrated card payments so local businesses could turn one-time shoppers into repeat customers. Fivestars was backed by Lightspeed Venture Partners, Menlo Ventures, and Y Combinator. The company was acquired by SumUp in 2021 and its product has since been folded into SumUp Connect (SumUp Loyalty); fivestars.com now redirects to SumUp's loyalty program. Fivestars publishes no public API, no developer portal and no machine-readable contract — api.fivestars.com resolves but returns 404 on every spec and well-known path, and developers.fivestars.com does not resolve. Fivestars-branded surfaces that remain live include the marketing site, merchant dashboard, help center and a public status page, plus one first-party iOS library
+  (TapiSDK) for legacy cPay terminal integrators. This profile is retained in the API Evangelist network as a historical company record.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fivestars.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Fivestars
 nav: Providers
 network: true
-overview: Fivestars is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, Payments, and Point of Sale.
-random_paper: 23
+overview: 'Fivestars is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, Payments, and Point of Sale.
+
+
+  Fivestars'' developer surface includes support and 13 more developer resources.'
+plans:
+- name: Fivestars Plans Pricing
+  plan_count: 0
+  slug: fivestars-plans-pricing
+random_paper: 89
+rate_limits:
+- limit_count: 0
+  name: Fivestars Rate Limits
+  slug: fivestars-rate-limits
 score:
-  band: minimal
-  composite: 5.7
-  delta: 0.0
+  band: emerging
+  composite: 18.2
+  delta: 12.5
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 10.9
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 21.1
   previous_composite: 5.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 9.4
+    score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fivestars/refs/heads/main/screenshots/fivestars-2026-07-25T214648.png
 security:
 - kind: domain-security

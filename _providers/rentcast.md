@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Properties API from RentCast — 3 operation(s) for properties.
   name: RentCast Properties API
   slug: rentcast-properties-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RentCast Avm API
+  slug: open-rentcast-avm-api
+- collection_type: open
+  name: RentCast Avm Listings API
+  slug: open-rentcast-listings-api
+- collection_type: open
+  name: RentCast Avm Markets API
+  slug: open-rentcast-markets-api
+- collection_type: open
+  name: RentCast Avm Properties API
+  slug: open-rentcast-properties-api
 - collection_type: open
   name: RentCast API
   slug: open-rentcast
@@ -147,7 +162,7 @@ plans:
 - name: Rentcast Plans Pricing
   plan_count: 3
   slug: rentcast-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 5
   name: Rentcast Rate Limits
@@ -189,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/screenshots/rentcast-2026-06-20T192855.png
 security:

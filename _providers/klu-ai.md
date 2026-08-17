@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Workspace administration.
   name: Klu Workspaces API
   slug: klu-ai-workspaces-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Klu Actions API
+  slug: open-klu-ai-actions-api
+- collection_type: open
+  name: Klu Actions Apps API
+  slug: open-klu-ai-apps-api
+- collection_type: open
+  name: Klu Actions Context API
+  slug: open-klu-ai-context-api
+- collection_type: open
+  name: Klu Actions Data API
+  slug: open-klu-ai-data-api
+- collection_type: open
+  name: Klu Actions Feedback API
+  slug: open-klu-ai-feedback-api
+- collection_type: open
+  name: Klu Actions Models API
+  slug: open-klu-ai-models-api
+- collection_type: open
+  name: Klu Actions Sessions API
+  slug: open-klu-ai-sessions-api
+- collection_type: open
+  name: Klu Actions Workspaces API
+  slug: open-klu-ai-workspaces-api
 - collection_type: open
   name: Klu API
   slug: open-klu-ai
@@ -129,7 +156,7 @@ plans:
 - name: Klu Ai Plans Pricing
   plan_count: 3
   slug: klu-ai-plans-pricing
-random_paper: 99
+random_paper: 132
 rate_limits:
 - limit_count: 3
   name: Klu Ai Rate Limits
@@ -154,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/screenshots/klu-ai-2026-06-20T184105.png
 security:

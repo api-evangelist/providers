@@ -1,35 +1,48 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Customer-only API
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://cast.app/pricing.html
+  - https://school.cast.app/cast-api/
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 37.4
+  scored_at: '2026-08-17'
+api_count: 2
+apis:
+- description: Read-only REST API for exporting Cast.app campaign performance data — per-campaign engagement summaries, paged engagement events (delivered / view / play / action / feedback) with contact and device d
+  name: Cast Analytics API
+  slug: cast-analytics-api
+- description: Server-side endpoint for minting a personalized Cast presentation permalink for one contact in one project, in play (automated presentation), ama (Ask Me Anything), information (customer center), or p
+  name: Cast In-app Delivery API
+  slug: cast-in-app-delivery-api
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Cast Corporation Webhooks
+  slug: cast-corporation-webhooks
 common:
 - group: company
   title: ''
@@ -43,10 +56,26 @@ common:
   title: ''
   type: DeveloperPortal
   url: https://school.cast.app/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://school.cast.app/cast-api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://school.cast.app/getting-started/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/cast-corp
 - group: operate
   title: ''
   type: Support
   url: mailto:support@cast.app
+- group: operate
+  title: ''
+  type: Community
+  url: https://castcommunity.slack.com/join/shared_invite/zt-xd5ge8yq-sNtPTAXPaSKb0RXMUIAOvA
 - group: commercial
   title: ''
   type: Pricing
@@ -75,44 +104,112 @@ common:
   title: ''
   type: Compliance
   url: https://school.cast.app/security-documents/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cast-corporation-conformance.yml
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/cast-corporation-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cast-corporation-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cast-corporation-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cast-corporation-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cast-corporation-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cast-corporation-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/cast-corporation-webhooks.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/cast-corporation-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cast-corporation-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/cast-corporation-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cast-corporation-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cast-corporation-rate-limits.yml
+- group: operate
+  title: ''
+  type: SLA
+  url: https://school.cast.app/security-docs/service-level-agreement/
 created: '2026-07-17'
-description: Cast Corporation (Cast.app) is an AI-agent platform that automates customer success and post-sales revenue operations for B2B SaaS and technology companies. Its autonomous "digital CSM" agents deliver personalized business reviews, grounded answers, onboarding, usage adoption, churn reduction, renewal influence, and referral workflows across email, in-app, and chat in 17 languages. Cast positions itself as an autopilot layer over an existing stack, connecting natively to 60+ systems including Salesforce, HubSpot, Gainsight, Totango, and data warehouses, with customers such as Pure Storage, HPE, and Aruba Networks. Backed by Techstars. Cast does not currently publish a public developer API; this API Evangelist profile captures its identity, security posture, and public developer-adjacent surface.
+description: 'Cast Corporation (Cast.app) is an AI-agent platform that automates customer success and post-sales revenue operations for B2B SaaS and technology companies. Its autonomous "digital CSM" agents deliver personalized business reviews, grounded answers, onboarding, usage adoption, churn reduction, renewal influence, and referral workflows across email, in-app, and chat in 17 languages. Cast positions itself as an autopilot layer over an existing stack, connecting natively to 60+ systems including Salesforce, HubSpot, Gainsight, Totango, and data warehouses, with customers such as Pure Storage, HPE, and Aruba Networks. Backed by Techstars, Array Ventures, Soma Capital, New York Venture Partners, Leonis Capital, and Comcast NBCUniversal LiftLabs. Cast publishes two documented REST surfaces: a Cast Analytics API for exporting campaign engagement events and summaries, and an In-app Delivery API plus embeddable loader for minting personalized presentation permalinks inside a customer''s
+  own web app. Both are documented in prose only — Cast publishes no OpenAPI, AsyncAPI, GraphQL SDL, or Postman collection.'
 image: https://uploads-ssl.webflow.com/5f3f7b0970b95a4ebfda0084/66bd8a8750ec202866f9fbeb_cast-media.gif
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Cast Corporation
 nav: Providers
 network: true
-overview: 'Cast Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Success, Artificial Intelligence, AI Agents, and Revenue Operations.
+overview: 'Cast Corporation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Success, Artificial Intelligence, AI Agents, and Revenue Operations.
 
 
-  Cast Corporation''s developer surface includes documentation, support, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 112
+  The Cast Corporation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Cast Corporation''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 22 more developer resources.'
+plans:
+- name: Cast Corporation Plans Pricing
+  plan_count: 2
+  slug: cast-corporation-plans-pricing
+random_paper: 33
+rate_limits:
+- limit_count: 0
+  name: Cast Corporation Rate Limits
+  slug: cast-corporation-rate-limits
 score:
-  band: emerging
-  composite: 20.5
-  delta: 0.0
+  band: developing
+  composite: 49.7
+  delta: 29.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 23.9
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 71.1
+    contract_quality: 51.6
+    developer_ergonomics: 58.7
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 13.2
   previous_composite: 20.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/screenshots/cast-corporation-2026-07-25T204732.png
 security:
+- kind: authentication
+  name: Cast Corporation Authentication
+  slug: cast-corporation-authentication
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Cast Corporation Domain Security
   slug: cast-corporation-domain-security
-  summary_line: TLSv1.3 · DNSSEC · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 - kind: trust-center
   name: Cast Corporation Trust Center
   slug: cast-corporation-trust-center
@@ -127,5 +224,8 @@ tags:
 - SaaS
 - Automation
 - Post-Sales
+- Analytics
+- Webhooks
+- Embeddable
 website: https://cast.app/
 ---

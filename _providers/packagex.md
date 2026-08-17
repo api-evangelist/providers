@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,11 +42,18 @@ apis:
 - description: The shipments API from PackageX — 2 operation(s) for shipments.
   name: PackageX shipments API
   slug: packagex-shipments-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Packagex Webhooks
   slug: packagex-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Title shipments API
+  slug: open-packagex-shipments-api
 common:
 - group: start
   title: ''
@@ -183,7 +190,7 @@ overview: 'PackageX publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   PackageX''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, authentication, changelog, and 22 more developer resources.'
-random_paper: 116
+random_paper: 91
 score:
   band: developing
   composite: 49.1
@@ -207,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/screenshots/packagex-2026-08-07T191238.png
 security:

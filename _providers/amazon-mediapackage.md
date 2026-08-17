@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: The Tags API from Amazon MediaPackage — 2 operation(s) for tags.
   name: Amazon MediaPackage Tags API
   slug: amazon-mediapackage-tags-api
-artifact_total: 256
+artifact_total: 261
 collections:
 - collection_type: postman
   name: AWS Elemental MediaPackage Channels API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: AWS Elemental MediaPackage Channels Tags API
   slug: postman-amazon-mediapackage-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Elemental MediaPackage Channels API
+  slug: open-amazon-mediapackage-channels-api
+- collection_type: open
+  name: AWS Elemental MediaPackage Channels Harvest Jobs API
+  slug: open-amazon-mediapackage-harvest-jobs-api
+- collection_type: open
+  name: AWS Elemental MediaPackage Channels Origin Endpoints API
+  slug: open-amazon-mediapackage-origin-endpoints-api
+- collection_type: open
+  name: AWS Elemental MediaPackage Channels Tags API
+  slug: open-amazon-mediapackage-tags-api
 common:
 - group: build
   title: ''
@@ -868,7 +883,7 @@ plans:
 - name: Amazon Mediapackage Plans Pricing
   plan_count: 3
   slug: amazon-mediapackage-plans-pricing
-random_paper: 119
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Amazon Mediapackage Rate Limits
@@ -910,7 +925,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/screenshots/amazon-mediapackage-2026-06-20T171746.png
 security:

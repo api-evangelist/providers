@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -56,8 +56,20 @@ apis:
 - description: The Time Entries API from Toggl Track — 5 operation(s) for time entries.
   name: Toggl Track Time Entries API
   slug: toggl-time-entries-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toggl Track Me API
+  slug: open-toggl-me-api
+- collection_type: open
+  name: Toggl Track Me Reports API
+  slug: open-toggl-reports-api
+- collection_type: open
+  name: Toggl Track Me Time Entries API
+  slug: open-toggl-time-entries-api
 - collection_type: open
   name: Toggl Track API
   slug: open-toggl
@@ -134,7 +146,7 @@ overview: 'Toggl Track publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Toggl Track''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 61
+random_paper: 94
 score:
   band: thin
   composite: 35.7
@@ -155,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/screenshots/toggl-2026-06-20T195434.png
 security:

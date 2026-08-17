@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 2
@@ -248,7 +248,221 @@ apis:
 - description: The zzz-webhook API from CrunchDAO — 1 operation(s) for zzz-webhook.
   name: CrunchDAO zzz-webhook API
   slug: crunchdao-zzz-webhook-api
-artifact_total: 74
+artifact_total: 145
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tournament activity API
+  slug: open-crunchdao-activity-api
+- collection_type: open
+  name: Tournament activity auth:api-key API
+  slug: open-crunchdao-auth-api-key-api
+- collection_type: open
+  name: Tournament activity auth API
+  slug: open-crunchdao-auth-api
+- collection_type: open
+  name: Tournament activity auth:oauth API
+  slug: open-crunchdao-auth-oauth-api
+- collection_type: open
+  name: Tournament activity avatar API
+  slug: open-crunchdao-avatar-api
+- collection_type: open
+  name: Tournament activity bounty API
+  slug: open-crunchdao-bounty-api
+- collection_type: open
+  name: Tournament activity broadcast API
+  slug: open-crunchdao-broadcast-api
+- collection_type: open
+  name: Tournament activity calendar API
+  slug: open-crunchdao-calendar-api
+- collection_type: open
+  name: Tournament activity certificate API
+  slug: open-crunchdao-certificate-api
+- collection_type: open
+  name: Tournament activity chart API
+  slug: open-crunchdao-chart-api
+- collection_type: open
+  name: Tournament activity chart-definition API
+  slug: open-crunchdao-chart-definition-api
+- collection_type: open
+  name: Tournament activity competition API
+  slug: open-crunchdao-competition-api
+- collection_type: open
+  name: Tournament activity competition:participant API
+  slug: open-crunchdao-competition-participant-api
+- collection_type: open
+  name: Tournament activity competition:slice API
+  slug: open-crunchdao-competition-slice-api
+- collection_type: open
+  name: Tournament activity connection API
+  slug: open-crunchdao-connection-api
+- collection_type: open
+  name: Tournament activity country API
+  slug: open-crunchdao-country-api
+- collection_type: open
+  name: Tournament activity crunch API
+  slug: open-crunchdao-crunch-api
+- collection_type: open
+  name: Tournament activity crunch-target API
+  slug: open-crunchdao-crunch-target-api
+- collection_type: open
+  name: Tournament activity currency API
+  slug: open-crunchdao-currency-api
+- collection_type: open
+  name: Tournament activity data API
+  slug: open-crunchdao-data-api
+- collection_type: open
+  name: Tournament activity deployment API
+  slug: open-crunchdao-deployment-api
+- collection_type: open
+  name: Tournament activity export API
+  slug: open-crunchdao-export-api
+- collection_type: open
+  name: Tournament activity feedback API
+  slug: open-crunchdao-feedback-api
+- collection_type: open
+  name: Tournament activity global-leaderboard API
+  slug: open-crunchdao-global-leaderboard-api
+- collection_type: open
+  name: Tournament activity institution API
+  slug: open-crunchdao-institution-api
+- collection_type: open
+  name: Tournament activity leaderboard API
+  slug: open-crunchdao-leaderboard-api
+- collection_type: open
+  name: Tournament activity leaderboard:definition API
+  slug: open-crunchdao-leaderboard-definition-api
+- collection_type: open
+  name: Tournament activity legal API
+  slug: open-crunchdao-legal-api
+- collection_type: open
+  name: Tournament activity library API
+  slug: open-crunchdao-library-api
+- collection_type: open
+  name: Tournament activity library:request API
+  slug: open-crunchdao-library-request-api
+- collection_type: open
+  name: Tournament activity metric API
+  slug: open-crunchdao-metric-api
+- collection_type: open
+  name: Tournament activity model API
+  slug: open-crunchdao-model-api
+- collection_type: open
+  name: Tournament activity news API
+  slug: open-crunchdao-news-api
+- collection_type: open
+  name: Tournament activity onboard API
+  slug: open-crunchdao-onboard-api
+- collection_type: open
+  name: Tournament activity organizer API
+  slug: open-crunchdao-organizer-api
+- collection_type: open
+  name: Tournament activity organizer:application API
+  slug: open-crunchdao-organizer-application-api
+- collection_type: open
+  name: Tournament activity out-of-sample API
+  slug: open-crunchdao-out-of-sample-api
+- collection_type: open
+  name: Tournament activity payout API
+  slug: open-crunchdao-payout-api
+- collection_type: open
+  name: Tournament activity phase API
+  slug: open-crunchdao-phase-api
+- collection_type: open
+  name: Tournament activity pitch API
+  slug: open-crunchdao-pitch-api
+- collection_type: open
+  name: Tournament activity pitch:slice API
+  slug: open-crunchdao-pitch-slice-api
+- collection_type: open
+  name: Tournament activity prediction API
+  slug: open-crunchdao-prediction-api
+- collection_type: open
+  name: Tournament activity problem API
+  slug: open-crunchdao-problem-api
+- collection_type: open
+  name: Tournament activity project API
+  slug: open-crunchdao-project-api
+- collection_type: open
+  name: Tournament activity project:token API
+  slug: open-crunchdao-project-token-api
+- collection_type: open
+  name: Tournament activity quickstarter API
+  slug: open-crunchdao-quickstarter-api
+- collection_type: open
+  name: Tournament activity round API
+  slug: open-crunchdao-round-api
+- collection_type: open
+  name: Tournament activity rule API
+  slug: open-crunchdao-rule-api
+- collection_type: open
+  name: Tournament activity run API
+  slug: open-crunchdao-run-api
+- collection_type: open
+  name: Tournament activity runner API
+  slug: open-crunchdao-runner-api
+- collection_type: open
+  name: Tournament activity runtime:access-request API
+  slug: open-crunchdao-runtime-access-request-api
+- collection_type: open
+  name: Tournament activity runtime:definition API
+  slug: open-crunchdao-runtime-definition-api
+- collection_type: open
+  name: Tournament activity season API
+  slug: open-crunchdao-season-api
+- collection_type: open
+  name: Tournament activity season:slice API
+  slug: open-crunchdao-season-slice-api
+- collection_type: open
+  name: Tournament activity security-credentials API
+  slug: open-crunchdao-security-credentials-api
+- collection_type: open
+  name: Tournament activity submission API
+  slug: open-crunchdao-submission-api
+- collection_type: open
+  name: Tournament activity target API
+  slug: open-crunchdao-target-api
+- collection_type: open
+  name: Tournament activity team API
+  slug: open-crunchdao-team-api
+- collection_type: open
+  name: Tournament activity team:invitation API
+  slug: open-crunchdao-team-invitation-api
+- collection_type: open
+  name: Tournament activity team:referendum API
+  slug: open-crunchdao-team-referendum-api
+- collection_type: open
+  name: Tournament activity timeline API
+  slug: open-crunchdao-timeline-api
+- collection_type: open
+  name: Tournament activity todo API
+  slug: open-crunchdao-todo-api
+- collection_type: open
+  name: Tournament activity transparency API
+  slug: open-crunchdao-transparency-api
+- collection_type: open
+  name: Tournament activity upload API
+  slug: open-crunchdao-upload-api
+- collection_type: open
+  name: Tournament activity user API
+  slug: open-crunchdao-user-api
+- collection_type: open
+  name: Tournament activity user:profile API
+  slug: open-crunchdao-user-profile-api
+- collection_type: open
+  name: Tournament activity webapp API
+  slug: open-crunchdao-webapp-api
+- collection_type: open
+  name: Tournament activity zzz-admin API
+  slug: open-crunchdao-zzz-admin-api
+- collection_type: open
+  name: Tournament activity zzz-debug API
+  slug: open-crunchdao-zzz-debug-api
+- collection_type: open
+  name: Tournament activity zzz-webhook API
+  slug: open-crunchdao-zzz-webhook-api
 common:
 - group: other
   title: ''
@@ -354,7 +568,7 @@ overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 15 more developer resources.'
-random_paper: 111
+random_paper: 57
 score:
   band: developing
   composite: 42.5
@@ -378,7 +592,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/screenshots/crunchdao-2026-07-25T210819.png
 security:

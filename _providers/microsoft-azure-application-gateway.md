@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Operations operations
   name: Azure Application Gateway Operations API
   slug: microsoft-azure-application-gateway-operations-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Application Gateway REST Application Gateways API
+  slug: open-microsoft-azure-application-gateway-application-gateways-api
+- collection_type: open
+  name: Azure Application Gateway REST Application Gateways Operations API
+  slug: open-microsoft-azure-application-gateway-operations-api
 - collection_type: open
   name: Azure Application Gateway REST API
   slug: open-microsoft-azure-application-gateway
@@ -119,7 +128,7 @@ plans:
 - name: Microsoft Azure Application Gateway Plans Pricing
   plan_count: 3
   slug: microsoft-azure-application-gateway-plans-pricing
-random_paper: 114
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Application Gateway Rate Limits
@@ -149,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/screenshots/microsoft-azure-application-gateway-2026-06-20T185354.png
 security:

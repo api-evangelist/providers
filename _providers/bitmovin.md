@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 4
@@ -93,7 +93,59 @@ apis:
 - description: The Webhooks API from Bitmovin — 21 operation(s) for webhooks.
   name: Bitmovin Webhooks API
   slug: bitmovin-webhooks-api
-artifact_total: 25
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bitmovin Encoding Config API
+  slug: open-bitmovin-config-api
+- collection_type: open
+  name: Bitmovin Encoding Config Configurations API
+  slug: open-bitmovin-configurations-api
+- collection_type: open
+  name: Bitmovin Encoding Config Emails API
+  slug: open-bitmovin-emails-api
+- collection_type: open
+  name: Bitmovin Encoding Config Encodings API
+  slug: open-bitmovin-encodings-api
+- collection_type: open
+  name: Bitmovin Encoding Config Filters API
+  slug: open-bitmovin-filters-api
+- collection_type: open
+  name: Bitmovin Encoding Config Infrastructure API
+  slug: open-bitmovin-infrastructure-api
+- collection_type: open
+  name: Bitmovin Encoding Config Inputs API
+  slug: open-bitmovin-inputs-api
+- collection_type: open
+  name: Bitmovin Encoding Config Live API
+  slug: open-bitmovin-live-api
+- collection_type: open
+  name: Bitmovin Encoding Config Manifests API
+  slug: open-bitmovin-manifests-api
+- collection_type: open
+  name: Bitmovin Encoding Config Notifications API
+  slug: open-bitmovin-notifications-api
+- collection_type: open
+  name: Bitmovin Encoding Config Outputs API
+  slug: open-bitmovin-outputs-api
+- collection_type: open
+  name: Bitmovin Encoding Config Search API
+  slug: open-bitmovin-search-api
+- collection_type: open
+  name: Bitmovin Encoding Config Signing-keys API
+  slug: open-bitmovin-signing-keys-api
+- collection_type: open
+  name: Bitmovin Encoding Config Templates API
+  slug: open-bitmovin-templates-api
+- collection_type: open
+  name: Bitmovin Encoding Config Video API
+  slug: open-bitmovin-video-api
+- collection_type: open
+  name: Bitmovin Encoding Config Webhooks API
+  slug: open-bitmovin-webhooks-api
 common:
 - group: agent
   title: ''
@@ -187,7 +239,7 @@ plans:
 - name: Bitmovin Plans Pricing
   plan_count: 2
   slug: bitmovin-plans-pricing
-random_paper: 32
+random_paper: 127
 rate_limits:
 - limit_count: 0
   name: Bitmovin Rate Limits
@@ -212,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/screenshots/bitmovin-2026-06-20T173317.png
 security:

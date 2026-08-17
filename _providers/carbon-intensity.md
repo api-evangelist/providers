@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Carbon intensity statistics and aggregations
   name: Carbon Intensity API Statistics API
   slug: carbon-intensity-statistics-api
-artifact_total: 21
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Carbon Intensity Factors API
+  slug: open-carbon-intensity-factors-api
+- collection_type: open
+  name: Carbon Intensity Factors Generation Mix API
+  slug: open-carbon-intensity-generation-mix-api
+- collection_type: open
+  name: Carbon Intensity Factors National Intensity API
+  slug: open-carbon-intensity-national-intensity-api
+- collection_type: open
+  name: Carbon Intensity Factors Regional API
+  slug: open-carbon-intensity-regional-api
+- collection_type: open
+  name: Carbon Intensity Factors Statistics API
+  slug: open-carbon-intensity-statistics-api
 common:
 - group: operate
   title: ''
@@ -152,7 +171,7 @@ plans:
 - name: Carbon Intensity Plans
   plan_count: 1
   slug: carbon-intensity-plans
-random_paper: 113
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Carbon Intensity Rate Limits
@@ -192,7 +211,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/screenshots/carbon-intensity-2026-06-20T173949.png
 security:

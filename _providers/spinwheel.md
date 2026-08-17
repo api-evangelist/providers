@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Register and manage webhook endpoints.
   name: Spinwheel Webhooks API
   slug: spinwheel-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spinwheel Embedded Debt Solutions Bank Accounts API
+  slug: open-spinwheel-bank-accounts-api
+- collection_type: open
+  name: Spinwheel Embedded Debt Solutions Bank Accounts Credit Data API
+  slug: open-spinwheel-credit-data-api
+- collection_type: open
+  name: Spinwheel Embedded Debt Solutions Bank Accounts Liabilities API
+  slug: open-spinwheel-liabilities-api
+- collection_type: open
+  name: Spinwheel Embedded Debt Solutions Bank Accounts Payments API
+  slug: open-spinwheel-payments-api
+- collection_type: open
+  name: Spinwheel Embedded Debt Solutions Bank Accounts Reference API
+  slug: open-spinwheel-reference-api
+- collection_type: open
+  name: Spinwheel Embedded Debt Solutions Bank Accounts Users API
+  slug: open-spinwheel-users-api
+- collection_type: open
+  name: Spinwheel Embedded Debt Solutions Bank Accounts Webhooks API
+  slug: open-spinwheel-webhooks-api
 - collection_type: open
   name: Spinwheel Embedded Debt Solutions API
   slug: open-spinwheel
@@ -126,7 +150,7 @@ plans:
 - name: Spinwheel Plans Pricing
   plan_count: 2
   slug: spinwheel-plans-pricing
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 4
   name: Spinwheel Rate Limits
@@ -157,7 +181,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/screenshots/spinwheel-2026-06-20T194318.png
 security:

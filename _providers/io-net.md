@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: OpenAI-compatible inference API for open-source AI models hosted on io.net's decentralized GPU network. Exposes /v1/models and /v1/chat/completions over the base URL https://api.intelligence.io.soluti
@@ -227,7 +227,7 @@ overview: 'io.net publishes 8 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   io.net''s developer surface includes developer portal, documentation, getting-started guide, API reference, signup flow, developer console, engineering blog, and 28 more developer resources.'
-random_paper: 108
+random_paper: 141
 score:
   band: emerging
   composite: 27.0
@@ -241,7 +241,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 27.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/io-net/refs/heads/main/screenshots/io-net-2026-06-20T183527.png
 security:

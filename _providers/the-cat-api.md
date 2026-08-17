@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Cast and manage votes on cat images.
   name: The Cat API Votes API
   slug: the-cat-api-votes-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Cat Breeds API
+  slug: open-the-cat-api-breeds-api
+- collection_type: open
+  name: The Cat Breeds Categories API
+  slug: open-the-cat-api-categories-api
+- collection_type: open
+  name: The Cat Breeds Favourites API
+  slug: open-the-cat-api-favourites-api
+- collection_type: open
+  name: The Cat Breeds Images API
+  slug: open-the-cat-api-images-api
+- collection_type: open
+  name: The Cat Breeds Votes API
+  slug: open-the-cat-api-votes-api
 - collection_type: open
   name: The Cat API
   slug: open-the-cat-api
@@ -145,7 +163,7 @@ plans:
 - name: The Cat Api Plans Pricing
   plan_count: 3
   slug: the-cat-api-plans-pricing
-random_paper: 77
+random_paper: 143
 rate_limits:
 - limit_count: 5
   name: The Cat Api Rate Limits
@@ -187,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/screenshots/the-cat-api-2026-06-20T195216.png
 security:

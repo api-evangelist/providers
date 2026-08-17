@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Manage VPC networks
   name: Google Cloud Compute Engine Networks API
   slug: google-cloud-compute-engine-networks-api
-artifact_total: 20
+artifact_total: 25
 collections:
 - collection_type: postman
   name: Google Cloud Compute Engine Google Compute Engine Disks API
@@ -66,8 +66,23 @@ collections:
   name: Google Cloud Compute Engine Google Compute Engine Disks Networks API
   slug: postman-google-cloud-compute-engine-networks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Compute Engine Google Compute Engine API
   slug: open-compute
+- collection_type: open
+  name: Google Cloud Compute Engine Google Compute Engine Disks API
+  slug: open-google-cloud-compute-engine-disks-api
+- collection_type: open
+  name: Google Cloud Compute Engine Google Compute Engine Disks Firewalls API
+  slug: open-google-cloud-compute-engine-firewalls-api
+- collection_type: open
+  name: Google Cloud Compute Engine Google Compute Engine Disks Instances API
+  slug: open-google-cloud-compute-engine-instances-api
+- collection_type: open
+  name: Google Cloud Compute Engine Google Compute Engine Disks Networks API
+  slug: open-google-cloud-compute-engine-networks-api
 common:
 - group: build
   title: ''
@@ -169,7 +184,7 @@ plans:
 - name: Google Cloud Compute Engine Plans Pricing
   plan_count: 3
   slug: google-cloud-compute-engine-plans-pricing
-random_paper: 62
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Google Cloud Compute Engine Rate Limits
@@ -208,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/screenshots/google-cloud-compute-engine-2026-06-20T182054.png
 security:

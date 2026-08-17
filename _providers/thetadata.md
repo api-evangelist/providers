@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: JSON WebSocket streaming of US stock trade/quote, options trade/quote, and index price streams, served locally by the Theta Terminal at ws://127.0.0.1:25520/v1/events. Requires a paid subscription wit
@@ -75,7 +75,7 @@ apis:
 - description: The Year API from ThetaData — 1 operation(s) for year.
   name: ThetaData Year API
   slug: thetadata-year-api
-artifact_total: 32
+artifact_total: 45
 asyncapis:
 - description: JSON WebSocket streaming of US stock trade/quote, option trade/quote/full-trade, and index price/market-value streams, served locally by Theta Terminal v3. A single connection per user is permitted; a
   name: ThetaData Streaming WebSocket API (derived)
@@ -117,6 +117,45 @@ collections:
 - collection_type: postman
   name: Theta Data v3 At-Time Year API
   slug: postman-thetadata-year-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Theta Data v3 At-Time API
+  slug: open-thetadata-at-time-api
+- collection_type: open
+  name: Theta Data v3 At-Time Calendar API
+  slug: open-thetadata-calendar-api
+- collection_type: open
+  name: Theta Data v3 At-Time FlatFile API
+  slug: open-thetadata-flatfile-api
+- collection_type: open
+  name: Theta Data v3 At-Time History API
+  slug: open-thetadata-history-api
+- collection_type: open
+  name: Theta Data v3 At-Time Index API
+  slug: open-thetadata-index-api
+- collection_type: open
+  name: Theta Data v3 At-Time Interest Rate API
+  slug: open-thetadata-interest-rate-api
+- collection_type: open
+  name: Theta Data v3 At-Time List API
+  slug: open-thetadata-list-api
+- collection_type: open
+  name: Theta Data v3 At-Time Option API
+  slug: open-thetadata-option-api
+- collection_type: open
+  name: Theta Data v3 At-Time Single Day API
+  slug: open-thetadata-single-day-api
+- collection_type: open
+  name: Theta Data v3 At-Time Snapshot API
+  slug: open-thetadata-snapshot-api
+- collection_type: open
+  name: Theta Data v3 At-Time Stock API
+  slug: open-thetadata-stock-api
+- collection_type: open
+  name: Theta Data v3 At-Time Year API
+  slug: open-thetadata-year-api
 common:
 - group: build
   title: ''
@@ -285,7 +324,7 @@ plans:
 - name: Thetadata Plans
   plan_count: 7
   slug: thetadata-plans
-random_paper: 104
+random_paper: 50
 rate_limits:
 - limit_count: 6
   name: Thetadata Rate Limits
@@ -318,7 +357,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
 security:

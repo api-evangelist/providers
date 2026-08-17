@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
 - description: The Timeseries API from Amazon IoT SiteWise — 5 operation(s) for timeseries.
   name: Amazon IoT SiteWise Timeseries API
   slug: amazon-iot-sitewise-timeseries-api
-artifact_total: 633
+artifact_total: 650
 collections:
 - collection_type: postman
   name: AWS IoT SiteWise Access Policies API
@@ -137,6 +137,57 @@ collections:
 - collection_type: postman
   name: AWS IoT SiteWise Access Policies Timeseries API
   slug: postman-amazon-iot-sitewise-timeseries-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies API
+  slug: open-amazon-iot-sitewise-access-policies-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Asset Models API
+  slug: open-amazon-iot-sitewise-asset-models-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Assets API
+  slug: open-amazon-iot-sitewise-assets-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Configuration API
+  slug: open-amazon-iot-sitewise-configuration-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Dashboards API
+  slug: open-amazon-iot-sitewise-dashboards-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Dashboards#projectId API
+  slug: open-amazon-iot-sitewise-dashboards-projectid-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Gateways API
+  slug: open-amazon-iot-sitewise-gateways-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Jobs API
+  slug: open-amazon-iot-sitewise-jobs-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Logging API
+  slug: open-amazon-iot-sitewise-logging-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Portals API
+  slug: open-amazon-iot-sitewise-portals-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Projects API
+  slug: open-amazon-iot-sitewise-projects-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Projects#portalId API
+  slug: open-amazon-iot-sitewise-projects-portalid-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Properties API
+  slug: open-amazon-iot-sitewise-properties-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Tags#resourceArn API
+  slug: open-amazon-iot-sitewise-tags-resourcearn-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Tags#resourceArn&tagKeys API
+  slug: open-amazon-iot-sitewise-tags-resourcearn-tagkeys-api
+- collection_type: open
+  name: AWS IoT SiteWise Access Policies Timeseries API
+  slug: open-amazon-iot-sitewise-timeseries-api
 common:
 - group: build
   title: ''
@@ -2012,7 +2063,7 @@ plans:
 - name: Amazon Iot Sitewise Plans Pricing
   plan_count: 3
   slug: amazon-iot-sitewise-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Sitewise Rate Limits
@@ -2054,7 +2105,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/screenshots/amazon-iot-sitewise-2026-06-20T171713.png
 security:

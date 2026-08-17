@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -52,11 +52,24 @@ arazzos:
 - description: Find an available human by skill, review the profile, create a booking for a physical-world task, confirm it, and read back the booking status.
   name: RentAHuman — search and book a human
   slug: rentahuman-search-and-book
-artifact_total: 11
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Rentahuman Webhooks
   slug: rentahuman-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RentAHuman.ai Bookings API
+  slug: open-rentahuman-bookings-api
+- collection_type: open
+  name: RentAHuman.ai Bookings Humans API
+  slug: open-rentahuman-humans-api
+- collection_type: open
+  name: RentAHuman.ai Bookings Wallet API
+  slug: open-rentahuman-wallet-api
 common:
 - group: other
   title: ''
@@ -197,7 +210,7 @@ overview: 'Rentahuman publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Rentahuman''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 115
+random_paper: 32
 rate_limits:
 - limit_count: 9
   name: Rentahuman Rate Limits
@@ -231,7 +244,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

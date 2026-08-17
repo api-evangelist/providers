@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -54,8 +54,26 @@ apis:
 - description: The Listeners (v2) API from LangGraph — 2 operation(s) for listeners (v2).
   name: LangGraph Listeners (v2) API
   slug: langgraph-listeners-v2-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LangSmith Deployment Control Plane Agent Connections (v2) Agent Connections (v2) Agent Connections (v2) API
+  slug: open-langgraph-agent-connections-v2-api
+- collection_type: open
+  name: LangSmith Deployment Control Plane Agent Connections (v2) Agent Connections (v2) Auth Service (v2) API
+  slug: open-langgraph-auth-service-v2-api
+- collection_type: open
+  name: LangSmith Deployment Control Plane Agent Connections (v2) Agent Connections (v2) Deployments (v2) API
+  slug: open-langgraph-deployments-v2-api
+- collection_type: open
+  name: LangSmith Deployment Control Plane Agent Connections (v2) Agent Connections (v2) Integrations (v1) API
+  slug: open-langgraph-integrations-v1-api
+- collection_type: open
+  name: LangSmith Deployment Control Plane Agent Connections (v2) Agent Connections (v2) Listeners (v2) API
+  slug: open-langgraph-listeners-v2-api
 - collection_type: open
   name: LangSmith Deployment Control Plane API
   slug: open-langgraph
@@ -132,7 +150,7 @@ plans:
 - name: Langgraph Plans Pricing
   plan_count: 3
   slug: langgraph-plans-pricing
-random_paper: 108
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Langgraph Rate Limits
@@ -157,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/screenshots/langgraph-2026-06-20T184305.png
 security:

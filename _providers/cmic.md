@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,11 +60,32 @@ apis:
 - description: Subcontractor and vendor management
   name: CMiC Subcontractors API
   slug: cmic-subcontractors-api
-artifact_total: 19
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: CMiC Construction ERP API
   slug: open-cmic-construction-erp
+- collection_type: open
+  name: CMiC Construction ERP Cost Tracking API
+  slug: open-cmic-cost-tracking-api
+- collection_type: open
+  name: CMiC Construction ERP Cost Tracking Documents API
+  slug: open-cmic-documents-api
+- collection_type: open
+  name: CMiC Construction ERP Cost Tracking Equipment API
+  slug: open-cmic-equipment-api
+- collection_type: open
+  name: CMiC Construction ERP Cost Tracking Jobs API
+  slug: open-cmic-jobs-api
+- collection_type: open
+  name: CMiC Construction ERP Cost Tracking Projects API
+  slug: open-cmic-projects-api
+- collection_type: open
+  name: CMiC Construction ERP Cost Tracking Subcontractors API
+  slug: open-cmic-subcontractors-api
 common:
 - group: agent
   title: ''
@@ -162,7 +183,7 @@ plans:
 - name: Cmic Plans Pricing
   plan_count: 3
   slug: cmic-plans-pricing
-random_paper: 52
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Cmic Rate Limits
@@ -209,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/screenshots/cmic-2026-06-20T174629.png
 security:

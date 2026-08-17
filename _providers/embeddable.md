@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Server-side REST APIs for managing Embeddable deployments — mint short-lived JWT security tokens for embeds, list embeddables (dashboards), manage published versions, and read data-model schemas. All '
@@ -161,7 +161,7 @@ overview: 'Embeddable publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Embeddable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 53
+random_paper: 119
 score:
   band: thin
   composite: 41.7
@@ -178,7 +178,7 @@ score:
     conformance: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/screenshots/embeddable-2026-07-25T213227.png
 security:

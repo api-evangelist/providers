@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -57,7 +57,23 @@ apis:
 - description: The sitepackage API from TYPO3 — 1 operation(s) for sitepackage.
   name: TYPO3 sitepackage API
   slug: typo3-sitepackage-api
-artifact_total: 13
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: get.typo3.org Cache API
+  slug: open-typo3-cache-api
+- collection_type: open
+  name: get.typo3.org Cache Major API
+  slug: open-typo3-major-api
+- collection_type: open
+  name: get.typo3.org Cache Release API
+  slug: open-typo3-release-api
+- collection_type: open
+  name: get.typo3.org Cache sitepackage API
+  slug: open-typo3-sitepackage-api
 common:
 - group: commercial
   title: ''
@@ -147,7 +163,7 @@ plans:
 - name: Typo3 Plans Pricing
   plan_count: 3
   slug: typo3-plans-pricing
-random_paper: 31
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Typo3 Rate Limits
@@ -172,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/screenshots/typo3-2026-06-20T195907.png
 security:

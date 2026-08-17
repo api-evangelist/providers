@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: DSpace 8.3 REST (HAL) API for Western University's Open Repository, Scholarship@Western, hosted on the national Scholaris service by Scholars Portal. Exposes communities, collections, items, bitstream
@@ -107,7 +107,7 @@ plans:
 - name: Western Plans Pricing
   plan_count: 2
   slug: western-plans-pricing
-random_paper: 56
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Western Rate Limits
@@ -125,7 +125,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/screenshots/western-2026-06-20T201359.png
 security:

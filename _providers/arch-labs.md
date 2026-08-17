@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: The Accounts API from Arch Labs — 2 operation(s) for accounts.
@@ -76,7 +76,56 @@ apis:
 - description: The Users API from Arch Labs — 2 operation(s) for users.
   name: Arch Labs Users API
   slug: arch-labs-users-api
-artifact_total: 20
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arch Client Accounts API
+  slug: open-arch-labs-accounts-api
+- collection_type: open
+  name: Arch Client Accounts Activities API
+  slug: open-arch-labs-activities-api
+- collection_type: open
+  name: Arch Client Accounts Addepar API
+  slug: open-arch-labs-addepar-api
+- collection_type: open
+  name: Arch Client Accounts Authentication API
+  slug: open-arch-labs-authentication-api
+- collection_type: open
+  name: Arch Client Accounts Cash Flows API
+  slug: open-arch-labs-cash-flows-api
+- collection_type: open
+  name: Arch Client Accounts Firms API
+  slug: open-arch-labs-firms-api
+- collection_type: open
+  name: Arch Client Accounts Holdings API
+  slug: open-arch-labs-holdings-api
+- collection_type: open
+  name: Arch Client Accounts Investing Entities API
+  slug: open-arch-labs-investing-entities-api
+- collection_type: open
+  name: Arch Client Accounts Issuing Entities API
+  slug: open-arch-labs-issuing-entities-api
+- collection_type: open
+  name: Arch Client Accounts Lookthroughs API
+  slug: open-arch-labs-lookthroughs-api
+- collection_type: open
+  name: Arch Client Accounts Offerings API
+  slug: open-arch-labs-offerings-api
+- collection_type: open
+  name: Arch Client Accounts Tasks API
+  slug: open-arch-labs-tasks-api
+- collection_type: open
+  name: Arch Client Accounts Tax Documents API
+  slug: open-arch-labs-tax-documents-api
+- collection_type: open
+  name: Arch Client Accounts User Roles API
+  slug: open-arch-labs-user-roles-api
+- collection_type: open
+  name: Arch Client Accounts Users API
+  slug: open-arch-labs-users-api
 common:
 - group: agent
   title: ''
@@ -186,7 +235,7 @@ overview: 'Arch Labs publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Arch Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 17 more developer resources.'
-random_paper: 37
+random_paper: 132
 score:
   band: developing
   composite: 47.8
@@ -209,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch-labs/refs/heads/main/screenshots/arch-labs-2026-07-25T201015.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 6
@@ -66,8 +66,38 @@ apis:
 - description: System backend operations (init, seal, mounts, auth, audit)
   name: HashiCorp Vault System API
   slug: hashicorp-vault-system-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HashiCorp Vault HTTP Auth - AppRole API
+  slug: open-hashicorp-vault-auth-approle-api
+- collection_type: open
+  name: HashiCorp Vault HTTP Auth - AppRole Auth - Token API
+  slug: open-hashicorp-vault-auth-token-api
+- collection_type: open
+  name: HashiCorp Vault HTTP Auth - AppRole Auth - Userpass API
+  slug: open-hashicorp-vault-auth-userpass-api
+- collection_type: open
+  name: HashiCorp Vault HTTP Auth - AppRole Identity API
+  slug: open-hashicorp-vault-identity-api
+- collection_type: open
+  name: HashiCorp Vault HTTP Auth - AppRole Leases API
+  slug: open-hashicorp-vault-leases-api
+- collection_type: open
+  name: HashiCorp Vault HTTP Auth - AppRole Policy API
+  slug: open-hashicorp-vault-policy-api
+- collection_type: open
+  name: HashiCorp Vault HTTP Auth - AppRole Secrets - KV v2 API
+  slug: open-hashicorp-vault-secrets-kv-v2-api
+- collection_type: open
+  name: HashiCorp Vault HTTP Auth - AppRole Secrets - Transit API
+  slug: open-hashicorp-vault-secrets-transit-api
+- collection_type: open
+  name: HashiCorp Vault HTTP Auth - AppRole System API
+  slug: open-hashicorp-vault-system-api
 - collection_type: open
   name: HashiCorp Vault HTTP API
   slug: open-hashicorp-vault
@@ -152,7 +182,7 @@ plans:
 - name: Hashicorp Vault Plans Pricing
   plan_count: 3
   slug: hashicorp-vault-plans-pricing
-random_paper: 2
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Hashicorp Vault Rate Limits
@@ -177,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/screenshots/hashicorp-vault-2026-06-20T182532.png
 security:

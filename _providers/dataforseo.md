@@ -11,24 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 61.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 2
@@ -74,7 +75,51 @@ apis:
 - description: The Serp API from DataForSEO — 181 operation(s) for serp.
   name: DataForSEO Serp API
   slug: dataforseo-serp-api
-artifact_total: 32
+artifact_total: 48
+asyncapis:
+- description: ''
+  name: Dataforseo Webhooks
+  slug: dataforseo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DataForSEO AiOptimization API
+  slug: open-dataforseo-aioptimization-api
+- collection_type: open
+  name: DataForSEO AiOptimization AppData API
+  slug: open-dataforseo-appdata-api
+- collection_type: open
+  name: DataForSEO AiOptimization Appendix API
+  slug: open-dataforseo-appendix-api
+- collection_type: open
+  name: DataForSEO AiOptimization Backlinks API
+  slug: open-dataforseo-backlinks-api
+- collection_type: open
+  name: DataForSEO AiOptimization BusinessData API
+  slug: open-dataforseo-businessdata-api
+- collection_type: open
+  name: DataForSEO AiOptimization ContentAnalysis API
+  slug: open-dataforseo-contentanalysis-api
+- collection_type: open
+  name: DataForSEO AiOptimization DataforseoLabs API
+  slug: open-dataforseo-dataforseolabs-api
+- collection_type: open
+  name: DataForSEO AiOptimization DomainAnalytics API
+  slug: open-dataforseo-domainanalytics-api
+- collection_type: open
+  name: DataForSEO AiOptimization KeywordsData API
+  slug: open-dataforseo-keywordsdata-api
+- collection_type: open
+  name: DataForSEO AiOptimization Merchant API
+  slug: open-dataforseo-merchant-api
+- collection_type: open
+  name: DataForSEO AiOptimization OnPage API
+  slug: open-dataforseo-onpage-api
+- collection_type: open
+  name: DataForSEO AiOptimization Serp API
+  slug: open-dataforseo-serp-api
 common:
 - group: agent
   title: ''
@@ -132,6 +177,134 @@ common:
   title: ''
   type: FinOps
   url: finops/dataforseo-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://dataforseo.com/apis
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.dataforseo.com/v3/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://dataforseo.com/blog/a-kickstart-guide-to-using-dataforseo-apis
+- group: operate
+  title: ''
+  type: Support
+  url: https://dataforseo.com/help-center
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/dataforseo
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.dataforseo.com/register
+- group: start
+  title: ''
+  type: Login
+  url: https://app.dataforseo.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://dataforseo.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://dataforseo.com/privacy-policy/
+- group: build
+  title: ''
+  type: Postman
+  url: https://documenter.getpostman.com/view/55275669/2sBXwmRYr2
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://dataforseo.com/updates
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://dataforseo.com/wp-content/uploads/2021/12/27001_DATAFORSEO-.pdf
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dataforseo-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/dataforseo-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/dataforseo-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/dataforseo-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/dataforseo-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dataforseo-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dataforseo-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/dataforseo-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dataforseo-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/dataforseo-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/dataforseo-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/dataforseo-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/dataforseo-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/dataforseo-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/dataforseo-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/dataforseo-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/dataforseo-vocabulary.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/dataforseo-jsonschema-spectral-rules.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/dataforseo-context.jsonld
 created: '2026-06-13'
 description: DataForSEO is an SEO data platform offering REST APIs for SERP results, keyword data, backlink analysis, on-page audits, domain analytics, and competitor research across 100+ search engines. It provides pay-as-you-go access to structured SEO and digital marketing data for software developers, agencies, and enterprise teams.
 finops:
@@ -182,22 +355,26 @@ jsonld:
   property_count: 45
   slug: dataforseo-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: dataforseo-mcp.yml
+  slug: dataforseo-mcpyml
+modified: '2026-08-13'
 name: DataForSEO
 nav: Providers
 network: true
 overview: 'DataForSEO publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AiOptimization API, AppData API, Appendix API, and 9 more. Tagged areas include SEO, SERP, Keywords, Backlinks, and Domain Analytics.
 
 
-  The DataForSEO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The DataForSEO catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  DataForSEO''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  DataForSEO''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 39 more developer resources.'
 plans:
 - name: Dataforseo Plans Pricing
   plan_count: 0
   slug: dataforseo-plans-pricing
-random_paper: 104
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Dataforseo Rate Limits
@@ -211,17 +388,22 @@ rules:
     info: 1
     warn: 5
   slug: dataforseo-jsonschema-spectral-rules
+scopes:
+- name: Dataforseo Scopes
+  scope_count: 2
+  slug: dataforseo-scopes
+  summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 40.4
-  delta: 0.0
+  band: exemplar
+  composite: 74.8
+  delta: 34.4
   facets:
-    commercial_clarity: 18.4
-    contract_quality: 60.9
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
+    commercial_clarity: 60.5
+    contract_quality: 74.4
+    developer_ergonomics: 91.3
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 44.7
   previous_composite: 40.4
   provenance:
     agentic_access: derived
@@ -231,14 +413,14 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/screenshots/dataforseo-2026-06-20T175648.png
 security:
 - kind: authentication
   name: Dataforseo Authentication
   slug: dataforseo-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Dataforseo Domain Security
   slug: dataforseo-domain-security

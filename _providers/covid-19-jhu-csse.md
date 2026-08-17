@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Open-source API for exploring Covid19 cases based on JHU CSSE
@@ -56,7 +56,7 @@ name: Covid-19 JHU CSSE
 nav: Providers
 network: true
 overview: Covid-19 JHU CSSE publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 91
+random_paper: 41
 score:
   band: minimal
   composite: 6.0
@@ -76,7 +76,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covid-19-jhu-csse/refs/heads/main/screenshots/covid-19-jhu-csse-2026-06-20T175134.png
 security:

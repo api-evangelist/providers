@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -128,7 +128,7 @@ overview: 'OVO Energy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   OVO Energy''s developer surface includes engineering blog, support, signup flow, pricing, and 19 more developer resources.'
-random_paper: 75
+random_paper: 141
 score:
   band: emerging
   composite: 21.7
@@ -150,7 +150,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/screenshots/ovo-energy-2026-08-07T191145.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Read-only API for querying OpenStreetMap data. Supports retrieval of nodes, ways, relations, and areas using the Overpass Query Language (QL) or XML syntax, with output in JSON, XML, CSV, or custom fo
@@ -103,7 +103,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 42
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -127,7 +127,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overpass-api/refs/heads/main/screenshots/overpass-api-2026-06-20T191236.png
 security:

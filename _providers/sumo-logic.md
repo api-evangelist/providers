@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 9
@@ -201,12 +201,198 @@ apis:
 - description: User management API. To manage users, you must have the administrator role or your role must have been assigned the manage users and roles capability. For more information, see [Manage Users](https://
   name: Sumo Logic userManagement API
   slug: sumo-logic-usermanagement-api
-artifact_total: 74
+artifact_total: 136
 asyncapis:
 - description: 'AsyncAPI description of Sumo Logic''s outbound webhook surfaces. Sumo Logic delivers alert and recovery notifications via HTTP POST to user-configured webhook connections. Each connection type targets '
   name: Sumo Logic Webhook Connections
   slug: sumo-logic-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sumo Logic accessKeyManagement API
+  slug: open-sumo-logic-accesskeymanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement accountManagement API
+  slug: open-sumo-logic-accountmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement appManagement API
+  slug: open-sumo-logic-appmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement appManagementV2 API
+  slug: open-sumo-logic-appmanagementv2-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement archiveManagement API
+  slug: open-sumo-logic-archivemanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement budgetManagement API
+  slug: open-sumo-logic-budgetmanagement-api
+- collection_type: open
+  name: Sumo Logic REST Collectors API
+  slug: open-sumo-logic-collectors-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement connectionManagement API
+  slug: open-sumo-logic-connectionmanagement-api
+- collection_type: open
+  name: Sumo Logic REST Collectors Content API
+  slug: open-sumo-logic-content-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement contentManagement API
+  slug: open-sumo-logic-contentmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement contentPermissions API
+  slug: open-sumo-logic-contentpermissions-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement dashboardManagement API
+  slug: open-sumo-logic-dashboardmanagement-api
+- collection_type: open
+  name: Sumo Logic REST Collectors Dashboards API
+  slug: open-sumo-logic-dashboards-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement dataDeletionRules API
+  slug: open-sumo-logic-datadeletionrules-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement dataMaskingManagement API
+  slug: open-sumo-logic-datamaskingmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement dynamicParsingRuleManagement API
+  slug: open-sumo-logic-dynamicparsingrulemanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement eventAnalytics API
+  slug: open-sumo-logic-eventanalytics-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement extractionRuleManagement API
+  slug: open-sumo-logic-extractionrulemanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement fieldManagementV1 API
+  slug: open-sumo-logic-fieldmanagementv1-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement folderManagement API
+  slug: open-sumo-logic-foldermanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement healthEvents API
+  slug: open-sumo-logic-healthevents-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement ingestBudgetManagementV2 API
+  slug: open-sumo-logic-ingestbudgetmanagementv2-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement logsDataForwardingManagement API
+  slug: open-sumo-logic-logsdataforwardingmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement logSearchesEstimatedUsage API
+  slug: open-sumo-logic-logsearchesestimatedusage-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement logSearchesManagement API
+  slug: open-sumo-logic-logsearchesmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement lookupManagement API
+  slug: open-sumo-logic-lookupmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement macroManagement API
+  slug: open-sumo-logic-macromanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement metricsQuery API
+  slug: open-sumo-logic-metricsquery-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement metricsSearchesManagement API
+  slug: open-sumo-logic-metricssearchesmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement metricsSearchesManagementV2 API
+  slug: open-sumo-logic-metricssearchesmanagementv2-api
+- collection_type: open
+  name: Sumo Logic REST Collectors Monitors API
+  slug: open-sumo-logic-monitors-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement monitorsLibraryManagement API
+  slug: open-sumo-logic-monitorslibrarymanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement mutingSchedulesLibraryManagement API
+  slug: open-sumo-logic-mutingscheduleslibrarymanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement oauthManagement API
+  slug: open-sumo-logic-oauthmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement orgsManagement API
+  slug: open-sumo-logic-orgsmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement otCollectorManagementExternal API
+  slug: open-sumo-logic-otcollectormanagementexternal-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement parsersLibraryManagement API
+  slug: open-sumo-logic-parserslibrarymanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement partitionManagement API
+  slug: open-sumo-logic-partitionmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement passwordPolicy API
+  slug: open-sumo-logic-passwordpolicy-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement policiesManagement API
+  slug: open-sumo-logic-policiesmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement roleManagement API
+  slug: open-sumo-logic-rolemanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement roleManagementV2 API
+  slug: open-sumo-logic-rolemanagementv2-api
+- collection_type: open
+  name: Sumo Logic REST Collectors Roles API
+  slug: open-sumo-logic-roles-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement samlConfigurationManagement API
+  slug: open-sumo-logic-samlconfigurationmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement scheduledViewManagement API
+  slug: open-sumo-logic-scheduledviewmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement schemaBaseManagement API
+  slug: open-sumo-logic-schemabasemanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement scimUserManagement API
+  slug: open-sumo-logic-scimusermanagement-api
+- collection_type: open
+  name: Sumo Logic REST Collectors Search Jobs API
+  slug: open-sumo-logic-search-jobs-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement serviceAccountManagement API
+  slug: open-sumo-logic-serviceaccountmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement serviceAllowlistManagement API
+  slug: open-sumo-logic-serviceallowlistmanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement serviceMap API
+  slug: open-sumo-logic-servicemap-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement slosLibraryManagement API
+  slug: open-sumo-logic-sloslibrarymanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement sourceTemplateManagementExternal API
+  slug: open-sumo-logic-sourcetemplatemanagementexternal-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement spanAnalytics API
+  slug: open-sumo-logic-spananalytics-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement threatIntelIngest API
+  slug: open-sumo-logic-threatintelingest-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement threatIntelIngestProducer API
+  slug: open-sumo-logic-threatintelingestproducer-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement tokensLibraryManagement API
+  slug: open-sumo-logic-tokenslibrarymanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement traces API
+  slug: open-sumo-logic-traces-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement transformationRuleManagement API
+  slug: open-sumo-logic-transformationrulemanagement-api
+- collection_type: open
+  name: Sumo Logic accessKeyManagement userManagement API
+  slug: open-sumo-logic-usermanagement-api
+- collection_type: open
+  name: Sumo Logic REST Collectors Users API
+  slug: open-sumo-logic-users-api
 - collection_type: open
   name: Sumo Logic API
   slug: open-sumo-logic
@@ -336,7 +522,7 @@ plans:
 - name: Sumo Logic Plans Pricing
   plan_count: 3
   slug: sumo-logic-plans-pricing
-random_paper: 63
+random_paper: 129
 rate_limits:
 - limit_count: 5
   name: Sumo Logic Rate Limits
@@ -386,7 +572,7 @@ score:
       marker_coverage: 0.0
       total: 61
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/screenshots/sumo-logic-2026-06-20T194649.png
 security:

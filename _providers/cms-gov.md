@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -113,14 +113,26 @@ apis:
 - description: The Submissions API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for submissions.
   name: CMS — Centers for Medicare & Medicaid Services Submissions API
   slug: cms-gov-submissions-api
-artifact_total: 50
+artifact_total: 76
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: CMS AB2D API
   slug: open-cms-gov-ab2d
 - collection_type: open
+  name: CMS AB2D Articles API
+  slug: open-cms-gov-articles-api
+- collection_type: open
+  name: CMS AB2D Articles Auth API
+  slug: open-cms-gov-auth-api
+- collection_type: open
   name: CMS Beneficiary Claims Data API (BCDA)
   slug: open-cms-gov-bcda
+- collection_type: open
+  name: CMS AB2D Articles Benchmarks API
+  slug: open-cms-gov-benchmarks-api
 - collection_type: open
   name: CMS Beneficiary FHIR Data Server (BFD)
   slug: open-cms-gov-bfd
@@ -128,8 +140,41 @@ collections:
   name: CMS Blue Button 2.0 API
   slug: open-cms-gov-blue-button-2
 - collection_type: open
+  name: CMS AB2D Articles Bulk Export API
+  slug: open-cms-gov-bulk-export-api
+- collection_type: open
+  name: CMS AB2D Articles Catalog API
+  slug: open-cms-gov-catalog-api
+- collection_type: open
+  name: CMS AB2D Articles Coverage API
+  slug: open-cms-gov-coverage-api
+- collection_type: open
+  name: CMS AB2D Articles Data API
+  slug: open-cms-gov-data-api
+- collection_type: open
   name: CMS Data at the Point of Care API (DPC)
   slug: open-cms-gov-dpc
+- collection_type: open
+  name: CMS AB2D Articles Drugs API
+  slug: open-cms-gov-drugs-api
+- collection_type: open
+  name: CMS AB2D Articles Eligibility API
+  slug: open-cms-gov-eligibility-api
+- collection_type: open
+  name: CMS AB2D Articles ExplanationOfBenefit API
+  slug: open-cms-gov-explanationofbenefit-api
+- collection_type: open
+  name: CMS AB2D Articles Geography API
+  slug: open-cms-gov-geography-api
+- collection_type: open
+  name: CMS AB2D Articles Group API
+  slug: open-cms-gov-group-api
+- collection_type: open
+  name: CMS AB2D Articles Issuers API
+  slug: open-cms-gov-issuers-api
+- collection_type: open
+  name: CMS AB2D Articles LCD API
+  slug: open-cms-gov-lcd-api
 - collection_type: open
   name: CMS Marketplace API
   slug: open-cms-gov-marketplace
@@ -137,14 +182,47 @@ collections:
   name: CMS Medicare Coverage Database API
   slug: open-cms-gov-mcd
 - collection_type: open
+  name: CMS AB2D Articles Measurements API
+  slug: open-cms-gov-measurements-api
+- collection_type: open
+  name: CMS AB2D Articles MEDCAC API
+  slug: open-cms-gov-medcac-api
+- collection_type: open
+  name: CMS AB2D Articles Metadata API
+  slug: open-cms-gov-metadata-api
+- collection_type: open
+  name: CMS AB2D Articles NCD API
+  slug: open-cms-gov-ncd-api
+- collection_type: open
   name: CMS Open Data API (data.cms.gov)
   slug: open-cms-gov-open-data
+- collection_type: open
+  name: CMS AB2D Articles Organization API
+  slug: open-cms-gov-organization-api
+- collection_type: open
+  name: CMS AB2D Articles Patient API
+  slug: open-cms-gov-patient-api
+- collection_type: open
+  name: CMS AB2D Articles Plans API
+  slug: open-cms-gov-plans-api
+- collection_type: open
+  name: CMS AB2D Articles Practitioner API
+  slug: open-cms-gov-practitioner-api
 - collection_type: open
   name: CMS Provider Data Catalog API
   slug: open-cms-gov-provider-data
 - collection_type: open
+  name: CMS AB2D Articles Providers API
+  slug: open-cms-gov-providers-api
+- collection_type: open
   name: CMS Quality Payment Program API
   slug: open-cms-gov-qpp
+- collection_type: open
+  name: CMS AB2D Articles Scoring API
+  slug: open-cms-gov-scoring-api
+- collection_type: open
+  name: CMS AB2D Articles Submissions API
+  slug: open-cms-gov-submissions-api
 common:
 - group: operate
   title: ''
@@ -321,7 +399,7 @@ overview: 'CMS — Centers for Medicare & Medicaid Services publishes 25 APIs on
 
 
   CMS — Centers for Medicare & Medicaid Services'' developer surface includes authentication, developer portal, support, sandbox, engineering blog, privacy policy, documentation, and 26 more developer resources.'
-random_paper: 100
+random_paper: 104
 rate_limits:
 - limit_count: 0
   name: Cms Gov Rate Limits
@@ -374,7 +452,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png
 security:

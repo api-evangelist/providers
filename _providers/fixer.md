@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Daily historical rates between two dates.
   name: Fixer Time Series API
   slug: fixer-time-series-api
-artifact_total: 63
+artifact_total: 69
 collections:
 - collection_type: postman
   name: Fixer Conversion API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Fixer Conversion Time Series API
   slug: postman-fixer-time-series-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fixer Conversion API
+  slug: open-fixer-conversion-api
+- collection_type: open
+  name: Fixer Conversion Fluctuation API
+  slug: open-fixer-fluctuation-api
+- collection_type: open
+  name: Fixer Conversion Rates API
+  slug: open-fixer-rates-api
+- collection_type: open
+  name: Fixer Conversion Symbols API
+  slug: open-fixer-symbols-api
+- collection_type: open
+  name: Fixer Conversion Time Series API
+  slug: open-fixer-time-series-api
 - collection_type: open
   name: Fixer API
   slug: open-fixer
@@ -281,7 +299,7 @@ plans:
 - name: Fixer Plans Pricing
   plan_count: 5
   slug: fixer-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 0
   name: Fixer Rate Limits
@@ -323,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/screenshots/fixer-2026-06-20T181258.png
 security:

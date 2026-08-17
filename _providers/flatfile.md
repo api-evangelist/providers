@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -136,11 +136,110 @@ apis:
 - description: The subpackage_workbooks API from Flatfile — 3 operation(s) for subpackage_workbooks.
   name: Flatfile subpackage_workbooks API
   slug: flatfile-subpackage-workbooks-api
-artifact_total: 41
+artifact_total: 74
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: API Reference
   slug: open-flatfile-api
+- collection_type: open
+  name: API Reference subpackage_accounts API
+  slug: open-flatfile-subpackage-accounts-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_actions API
+  slug: open-flatfile-subpackage-actions-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_agent-exports API
+  slug: open-flatfile-subpackage-agent-exports-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_agents API
+  slug: open-flatfile-subpackage-agents-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_apps API
+  slug: open-flatfile-subpackage-apps-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_assistant API
+  slug: open-flatfile-subpackage-assistant-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_auth API
+  slug: open-flatfile-subpackage-auth-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_canvas-areas API
+  slug: open-flatfile-subpackage-canvas-areas-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_commits API
+  slug: open-flatfile-subpackage-commits-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_data-clips API
+  slug: open-flatfile-subpackage-data-clips-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_data-retention-policies API
+  slug: open-flatfile-subpackage-data-retention-policies-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_documents API
+  slug: open-flatfile-subpackage-documents-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_entitlements API
+  slug: open-flatfile-subpackage-entitlements-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_environments API
+  slug: open-flatfile-subpackage-environments-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_events API
+  slug: open-flatfile-subpackage-events-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_files API
+  slug: open-flatfile-subpackage-files-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_flags API
+  slug: open-flatfile-subpackage-flags-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_guests API
+  slug: open-flatfile-subpackage-guests-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_jobs API
+  slug: open-flatfile-subpackage-jobs-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_mapping API
+  slug: open-flatfile-subpackage-mapping-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_records API
+  slug: open-flatfile-subpackage-records-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_roles API
+  slug: open-flatfile-subpackage-roles-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_routines API
+  slug: open-flatfile-subpackage-routines-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_runbooks API
+  slug: open-flatfile-subpackage-runbooks-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_secrets API
+  slug: open-flatfile-subpackage-secrets-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_sheets API
+  slug: open-flatfile-subpackage-sheets-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_snapshots API
+  slug: open-flatfile-subpackage-snapshots-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_spaces API
+  slug: open-flatfile-subpackage-spaces-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_users API
+  slug: open-flatfile-subpackage-users-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_versions API
+  slug: open-flatfile-subpackage-versions-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_views API
+  slug: open-flatfile-subpackage-views-api
+- collection_type: open
+  name: API Reference subpackage_accounts subpackage_workbooks API
+  slug: open-flatfile-subpackage-workbooks-api
 common:
 - group: agent
   title: ''
@@ -230,7 +329,7 @@ plans:
 - name: Flatfile Plans Pricing
   plan_count: 3
   slug: flatfile-plans-pricing
-random_paper: 119
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Flatfile Rate Limits
@@ -255,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/screenshots/flatfile-2026-06-20T181305.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -66,11 +66,42 @@ apis:
 - description: Create and manage virtual accounts for USD to USDC conversions
   name: Fin Virtual Accounts API
   slug: fin-virtual-accounts-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Fin Webhooks
   slug: fin-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fin.com Authentication API
+  slug: open-fin-authentication-api
+- collection_type: open
+  name: Fin.com Authentication Balances API
+  slug: open-fin-balances-api
+- collection_type: open
+  name: Fin.com Authentication Beneficiaries API
+  slug: open-fin-beneficiaries-api
+- collection_type: open
+  name: Fin.com Authentication Catalogue API
+  slug: open-fin-catalogue-api
+- collection_type: open
+  name: Fin.com Authentication Crypto Orchestration API
+  slug: open-fin-crypto-orchestration-api
+- collection_type: open
+  name: Fin.com Authentication Customers API
+  slug: open-fin-customers-api
+- collection_type: open
+  name: Fin.com Authentication Fees & FX Rates API
+  slug: open-fin-fees-fx-rates-api
+- collection_type: open
+  name: Fin.com Authentication Transactions API
+  slug: open-fin-transactions-api
+- collection_type: open
+  name: Fin.com Authentication Virtual Accounts API
+  slug: open-fin-virtual-accounts-api
 common:
 - group: start
   title: ''
@@ -191,7 +222,7 @@ overview: 'Fin publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Fin''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 18 more developer resources.'
-random_paper: 77
+random_paper: 19
 score:
   band: developing
   composite: 42.4
@@ -221,7 +252,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/screenshots/fin-2026-07-25T214454.png
 security:

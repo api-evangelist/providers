@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,8 +43,17 @@ apis:
 - description: Feature service and layer metadata.
   name: USDA SNAP Retailer Locator Service API
   slug: usda-snap-service-api
-artifact_total: 6
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SNAP Retailer Location Data Retailers API
+  slug: open-usda-snap-retailers-api
+- collection_type: open
+  name: SNAP Retailer Location Data Retailers Service API
+  slug: open-usda-snap-service-api
 - collection_type: open
   name: USDA SNAP Retailer Location Data API
   slug: open-usda-snap
@@ -86,7 +95,7 @@ overview: 'USDA SNAP Retailer Locator publishes 2 APIs on the [APIs.io](https://
 
 
   USDA SNAP Retailer Locator''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 68
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Usda Snap Rate Limits
@@ -117,7 +126,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

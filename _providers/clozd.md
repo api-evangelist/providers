@@ -13,12 +13,12 @@ agent_readiness:
     idempotency: documented
     mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-12'
+  score: 63.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,7 +52,32 @@ apis:
 - description: The /programs/:program_id/touchpoints/:touchpoint_id API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints/:touchpoint_id.
   name: Clozd /programs/:program Id/touchpoints/:touchpoint ID API
   slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
-artifact_total: 16
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clozd Data /programs /programs API
+  slug: open-clozd-programs-api
+- collection_type: open
+  name: Clozd Data /programs/:program Id/competitors /programs/:program Id/competitors API
+  slug: open-clozd-programs-program-id-competitors-api
+- collection_type: open
+  name: Clozd /programs/:program Id/deals /programs/:program Id/deals API
+  slug: open-clozd-programs-program-id-deals-api
+- collection_type: open
+  name: Clozd /programs/:program Id/deals/:deal ID /programs/:program Id/deals/:deal ID API
+  slug: open-clozd-programs-program-id-deals-deal-id-api
+- collection_type: open
+  name: Clozd Data /programs/:program Id/deals/import /programs/:program Id/deals/import API
+  slug: open-clozd-programs-program-id-deals-import-api
+- collection_type: open
+  name: Clozd Data /programs/:program Id/touchpoints /programs/:program Id/touchpoints API
+  slug: open-clozd-programs-program-id-touchpoints-api
+- collection_type: open
+  name: Clozd Data /programs/:program Id/touchpoints/:touchpoint ID /programs/:program Id/touchpoints/:touchpoint ID API
+  slug: open-clozd-programs-program-id-touchpoints-touchpoint-id-api
 common:
 - group: other
   title: ''
@@ -178,6 +203,34 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clozd-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/clozd-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/clozd-rate-limits.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/clozd-components.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/clozd-trust-center.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clozd-data-api-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clozd-data-api-v3-overlay.yaml
 created: '2026-08-02'
 description: 'Clozd is a Lehi, Utah based decision-intelligence and win-loss analysis platform that collects structured buyer feedback — through human-led live interviews, AI-assisted Flex interviews, and autonomous Flow interviews — and turns it into decision drivers, competitor sentiment, win rates, and verbatim buyer quotes for sales, marketing, product, and customer-success teams. The platform integrates with Salesforce, HubSpot, Microsoft Dynamics, Gong, Slack, Calendly, Outlook, and Gmail, and exposes two public programmatic surfaces: the versioned Clozd Data API (v1/v2/v3) documented with OpenAPI 3.0.3 and Swagger UI at app.clozd.com for importing deals and participants and exporting programs, deals, touchpoints, responses, transcripts, and competitors; and a hosted, OAuth 2.0 protected Model Context Protocol server at mcp.clozd.com that gives Claude, ChatGPT, Cursor, Copilot, Windsurf, Antigravity, and Gemini CLI direct tool access to the same win-loss data.'
 image: https://cdn.prod.website-files.com/602c29edc35660e6c913f956/65a18029f28b360a5bc33674_Group%2011337.png
@@ -189,15 +242,23 @@ mcp_servers:
 - description: ''
   name: mcp
   slug: mcp
-modified: '2026-08-04'
+modified: '2026-08-14'
 name: Clozd
 nav: Providers
 network: true
 overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 4 more. Tagged areas include win-loss-analysis, customer-feedback, decision-intelligence, sales-intelligence, and market-research.
 
 
-  Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 60
+  Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 31 more developer resources.'
+plans:
+- name: Clozd Plans Pricing
+  plan_count: 0
+  slug: clozd-plans-pricing
+random_paper: 93
+rate_limits:
+- limit_count: 0
+  name: Clozd Rate Limits
+  slug: clozd-rate-limits
 scopes:
 - name: Clozd Scopes
   scope_count: 5
@@ -226,7 +287,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
 security:

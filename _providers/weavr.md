@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -174,7 +174,140 @@ arazzos:
 - description: Create a corporate identity, authenticate, open a managed account and issue a virtual card on the Weavr Multi API. Fork and run against the sandbox (https://sandbox.weavr.io).
   name: Onboard a corporate and issue a virtual card
   slug: weavr-onboard-corporate-and-issue-card
-artifact_total: 50
+artifact_total: 94
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token API
+  slug: open-weavr-access-token-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Access Tokens API
+  slug: open-weavr-access-tokens-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Accounts API
+  slug: open-weavr-accounts-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Additional Factors API
+  slug: open-weavr-additional-factors-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Authentication Factors API
+  slug: open-weavr-authentication-factors-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Authorised Signatories API
+  slug: open-weavr-authorised-signatories-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Authorised Users API
+  slug: open-weavr-authorised-users-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Buyer Authorised Users API
+  slug: open-weavr-buyer-authorised-users-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Buyers API
+  slug: open-weavr-buyers-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Card Payments API
+  slug: open-weavr-card-payments-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Cards API
+  slug: open-weavr-cards-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Confirmation Challenges API
+  slug: open-weavr-confirmation-challenges-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Consumers API
+  slug: open-weavr-consumers-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Corporates API
+  slug: open-weavr-corporates-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Correspondent Bank Transfers API
+  slug: open-weavr-correspondent-bank-transfers-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Customer Data & Due Diligence API
+  slug: open-weavr-customer-data-due-diligence-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Factors API
+  slug: open-weavr-factors-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Fees API
+  slug: open-weavr-fees-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Incoming Wire Transfers API
+  slug: open-weavr-incoming-wire-transfers-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Institutions API
+  slug: open-weavr-institutions-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Linked Accounts API
+  slug: open-weavr-linked-accounts-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Manage API
+  slug: open-weavr-manage-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Managed Accounts API
+  slug: open-weavr-managed-accounts-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Managed Cards API
+  slug: open-weavr-managed-cards-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Operations API
+  slug: open-weavr-operations-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Outgoing Wire Transfers API
+  slug: open-weavr-outgoing-wire-transfers-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Passwords API
+  slug: open-weavr-passwords-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Payment runs API
+  slug: open-weavr-payment-runs-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Roles API
+  slug: open-weavr-roles-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Sends API
+  slug: open-weavr-sends-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Setup API
+  slug: open-weavr-setup-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Sign-in API
+  slug: open-weavr-sign-in-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Simulator API
+  slug: open-weavr-simulator-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Simulator Linked accounts API
+  slug: open-weavr-simulator-linked-accounts-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Spend Controls API
+  slug: open-weavr-spend-controls-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Step up API
+  slug: open-weavr-step-up-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Step-up Challenges API
+  slug: open-weavr-step-up-challenges-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Tokens API
+  slug: open-weavr-tokens-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Transaction Activity API
+  slug: open-weavr-transaction-activity-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Transfers API
+  slug: open-weavr-transfers-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Trusted Payees API
+  slug: open-weavr-trusted-payees-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token User Impersonation API
+  slug: open-weavr-user-impersonation-api
+- collection_type: open
+  name: Weavr Multi Product BackOffice Access Token Wiretransfers API
+  slug: open-weavr-wiretransfers-api
 common:
 - group: other
   title: ''
@@ -340,7 +473,7 @@ overview: 'Weavr publishes 43 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 30 more developer resources.'
-random_paper: 69
+random_paper: 102
 score:
   band: strong
   composite: 57.7
@@ -370,7 +503,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,12 +69,39 @@ apis:
 - description: The KeyBank Webhooks service delivers real-time payment event notifications to subscribed commercial client applications for ACH, Wire, and RTP alerts. It defines client-hosted callback endpoints (ale
   name: KeyBank Webhooks
   slug: webhooks
-artifact_total: 19
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Keycorp Payment Alerts Webhooks
   slug: keycorp-payment-alerts-webhooks
 collections:
+- collection_type: open
+  name: Account Validation v2 API
+  slug: open-keycorp-account-validation
+- collection_type: open
+  name: ACH Inquiry
+  slug: open-keycorp-ach-inquiry
+- collection_type: open
+  name: ACH Origination
+  slug: open-keycorp-ach-originations
+- collection_type: open
+  name: Check Services
+  slug: open-keycorp-check-services
+- collection_type: open
+  name: Commercial Accounts Reporting
+  slug: open-keycorp-commercial-accounts-reporting
+- collection_type: open
+  name: RTP Inquiry API
+  slug: open-keycorp-rtp-inquiry
+- collection_type: open
+  name: RTP and Wire Payments API
+  slug: open-keycorp-rtp-wire-payments
+- collection_type: open
+  name: Webhooks
+  slug: open-keycorp-webhooks
+- collection_type: open
+  name: Wire Inquiry
+  slug: open-keycorp-wire-inquiry
 - collection_type: open
   name: KeyBank Commercial Banking APIs
   slug: open-keycorp
@@ -226,7 +253,7 @@ press:
 - date: '2026-05-25'
   title: Yesterday, we announced KeyCorp's First Quarter 2026 ...
   url: https://www.facebook.com/keybank/posts/yesterday-we-announced-keycorps-first-quarter-2026-earnings-learn-more-at/1351056593721210/
-random_paper: 45
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Keycorp Rate Limits
@@ -260,7 +287,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png
 security:

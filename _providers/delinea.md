@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 524
   human_in_the_loop: 28
@@ -345,7 +345,308 @@ apis:
 - description: View and maintain Workflow Templates
   name: Delinea WorkflowTemplates API
   slug: delinea-workflowtemplates-api
-artifact_total: 141
+artifact_total: 241
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Secret Server Rest Activations API
+  slug: open-delinea-activations-api
+- collection_type: open
+  name: Secret Server Rest Activations ActiveDirectory API
+  slug: open-delinea-activedirectory-api
+- collection_type: open
+  name: Secret Server Rest Activations AdvancedConfigSettings API
+  slug: open-delinea-advancedconfigsettings-api
+- collection_type: open
+  name: Secret Server Rest Activations ApiToken API
+  slug: open-delinea-apitoken-api
+- collection_type: open
+  name: Secret Server Rest Activations AppClients API
+  slug: open-delinea-appclients-api
+- collection_type: open
+  name: Secret Server Rest Activations ApplicationAccounts API
+  slug: open-delinea-applicationaccounts-api
+- collection_type: open
+  name: Secret Server Rest Activations ApplicationRequest API
+  slug: open-delinea-applicationrequest-api
+- collection_type: open
+  name: Secret Server Rest Activations AppState API
+  slug: open-delinea-appstate-api
+- collection_type: open
+  name: Secret Server Rest Activations BulkOperations API
+  slug: open-delinea-bulkoperations-api
+- collection_type: open
+  name: Secret Server Rest Activations BulkSecretOperations API
+  slug: open-delinea-bulksecretoperations-api
+- collection_type: open
+  name: Secret Server Rest Activations BulkUserOperations API
+  slug: open-delinea-bulkuseroperations-api
+- collection_type: open
+  name: Secret Server Rest Activations Bundle API
+  slug: open-delinea-bundle-api
+- collection_type: open
+  name: Secret Server Rest Activations CategorizedLists API
+  slug: open-delinea-categorizedlists-api
+- collection_type: open
+  name: Secret Server Rest Activations CharacterSets API
+  slug: open-delinea-charactersets-api
+- collection_type: open
+  name: Secret Server Rest Activations CloudDiagnostics API
+  slug: open-delinea-clouddiagnostics-api
+- collection_type: open
+  name: Secret Server Rest Activations Configuration API
+  slug: open-delinea-configuration-api
+- collection_type: open
+  name: Secret Server Rest Activations ConnectionManagerSettings API
+  slug: open-delinea-connectionmanagersettings-api
+- collection_type: open
+  name: Secret Server Rest Activations DependencyChanger API
+  slug: open-delinea-dependencychanger-api
+- collection_type: open
+  name: Secret Server Rest Activations DevOpsSecretsVaultSync API
+  slug: open-delinea-devopssecretsvaultsync-api
+- collection_type: open
+  name: Secret Server Rest Activations DevOpsSecretsVaultTenant API
+  slug: open-delinea-devopssecretsvaulttenant-api
+- collection_type: open
+  name: Secret Server Rest Activations Diagnostics API
+  slug: open-delinea-diagnostics-api
+- collection_type: open
+  name: Secret Server Rest Activations DiagnosticsV2 API
+  slug: open-delinea-diagnosticsv2-api
+- collection_type: open
+  name: Secret Server Rest Activations DirectoryServices API
+  slug: open-delinea-directoryservices-api
+- collection_type: open
+  name: Secret Server Rest Activations DisasterRecovery API
+  slug: open-delinea-disasterrecovery-api
+- collection_type: open
+  name: Secret Server Rest Activations Discovery API
+  slug: open-delinea-discovery-api
+- collection_type: open
+  name: Secret Server Rest Activations DistributedEngine API
+  slug: open-delinea-distributedengine-api
+- collection_type: open
+  name: Secret Server Rest Activations DomainNameIndex API
+  slug: open-delinea-domainnameindex-api
+- collection_type: open
+  name: Secret Server Rest Activations DualControls API
+  slug: open-delinea-dualcontrols-api
+- collection_type: open
+  name: Secret Server Rest Activations Enterprise API
+  slug: open-delinea-enterprise-api
+- collection_type: open
+  name: Secret Server Rest Activations EventPipeline API
+  slug: open-delinea-eventpipeline-api
+- collection_type: open
+  name: Secret Server Rest Activations EventPipelineAudit API
+  slug: open-delinea-eventpipelineaudit-api
+- collection_type: open
+  name: Secret Server Rest Activations EventPipelinePolicy API
+  slug: open-delinea-eventpipelinepolicy-api
+- collection_type: open
+  name: Secret Server Rest Activations EventPipelineSettings API
+  slug: open-delinea-eventpipelinesettings-api
+- collection_type: open
+  name: Secret Server Rest Activations EventPipelineTrigger API
+  slug: open-delinea-eventpipelinetrigger-api
+- collection_type: open
+  name: Secret Server Rest Activations EventSubscriptions API
+  slug: open-delinea-eventsubscriptions-api
+- collection_type: open
+  name: Secret Server Rest Activations ExtendedFields API
+  slug: open-delinea-extendedfields-api
+- collection_type: open
+  name: Secret Server Rest Activations FeatureFlag API
+  slug: open-delinea-featureflag-api
+- collection_type: open
+  name: Secret Server Rest Activations FolderPermissions API
+  slug: open-delinea-folderpermissions-api
+- collection_type: open
+  name: Secret Server Rest Activations Folders API
+  slug: open-delinea-folders-api
+- collection_type: open
+  name: Secret Server Rest Activations Groups API
+  slug: open-delinea-groups-api
+- collection_type: open
+  name: Secret Server Rest Activations HealthCheck API
+  slug: open-delinea-healthcheck-api
+- collection_type: open
+  name: Secret Server Rest Activations HsmConfiguration API
+  slug: open-delinea-hsmconfiguration-api
+- collection_type: open
+  name: Secret Server Rest Activations Inbox API
+  slug: open-delinea-inbox-api
+- collection_type: open
+  name: Secret Server Rest Activations InboxRules API
+  slug: open-delinea-inboxrules-api
+- collection_type: open
+  name: Secret Server Rest Activations Install API
+  slug: open-delinea-install-api
+- collection_type: open
+  name: Secret Server Rest Activations IpAddressRestrictions API
+  slug: open-delinea-ipaddressrestrictions-api
+- collection_type: open
+  name: Secret Server Rest Activations JumpboxRoute API
+  slug: open-delinea-jumpboxroute-api
+- collection_type: open
+  name: Secret Server Rest Activations KeyManagement API
+  slug: open-delinea-keymanagement-api
+- collection_type: open
+  name: Secret Server Rest Activations LauncherAgents API
+  slug: open-delinea-launcheragents-api
+- collection_type: open
+  name: Secret Server Rest Activations Launchers API
+  slug: open-delinea-launchers-api
+- collection_type: open
+  name: Secret Server Rest Activations License API
+  slug: open-delinea-license-api
+- collection_type: open
+  name: Secret Server Rest Activations Metadata API
+  slug: open-delinea-metadata-api
+- collection_type: open
+  name: Secret Server Rest Activations Mobile API
+  slug: open-delinea-mobile-api
+- collection_type: open
+  name: Secret Server Rest Activations OAuthExpiration API
+  slug: open-delinea-oauthexpiration-api
+- collection_type: open
+  name: Secret Server Rest Activations OneTimePasswordCode API
+  slug: open-delinea-onetimepasswordcode-api
+- collection_type: open
+  name: Secret Server Rest Activations PasswordRequirements API
+  slug: open-delinea-passwordrequirements-api
+- collection_type: open
+  name: Secret Server Rest Activations PbaConfiguration API
+  slug: open-delinea-pbaconfiguration-api
+- collection_type: open
+  name: Secret Server Rest Activations Platform API
+  slug: open-delinea-platform-api
+- collection_type: open
+  name: Secret Server Rest Activations Proxy API
+  slug: open-delinea-proxy-api
+- collection_type: open
+  name: Secret Server Rest Activations RemotePasswordChanging API
+  slug: open-delinea-remotepasswordchanging-api
+- collection_type: open
+  name: Secret Server Rest Activations Reports API
+  slug: open-delinea-reports-api
+- collection_type: open
+  name: Secret Server Rest Activations RestApiDocs API
+  slug: open-delinea-restapidocs-api
+- collection_type: open
+  name: Secret Server Rest Activations RoleAudit API
+  slug: open-delinea-roleaudit-api
+- collection_type: open
+  name: Secret Server Rest Activations RolePermissions API
+  slug: open-delinea-rolepermissions-api
+- collection_type: open
+  name: Secret Server Rest Activations Roles API
+  slug: open-delinea-roles-api
+- collection_type: open
+  name: Secret Server Rest Activations Schedule API
+  slug: open-delinea-schedule-api
+- collection_type: open
+  name: Secret Server Rest Activations Script API
+  slug: open-delinea-script-api
+- collection_type: open
+  name: Secret Server Rest Activations SdkClientAccounts API
+  slug: open-delinea-sdkclientaccounts-api
+- collection_type: open
+  name: Secret Server Rest Activations SdkClientAudits API
+  slug: open-delinea-sdkclientaudits-api
+- collection_type: open
+  name: Secret Server Rest Activations SdkClientRules API
+  slug: open-delinea-sdkclientrules-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretAccessRequests API
+  slug: open-delinea-secretaccessrequests-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretDependencies API
+  slug: open-delinea-secretdependencies-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretEraseRequests API
+  slug: open-delinea-secreteraserequests-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretExtensions API
+  slug: open-delinea-secretextensions-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretHealth API
+  slug: open-delinea-secrethealth-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretHooks API
+  slug: open-delinea-secrethooks-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretPermissions API
+  slug: open-delinea-secretpermissions-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretPolicy API
+  slug: open-delinea-secretpolicy-api
+- collection_type: open
+  name: Secret Server Rest Activations Secrets API
+  slug: open-delinea-secrets-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretServerSettings API
+  slug: open-delinea-secretserversettings-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretSessions API
+  slug: open-delinea-secretsessions-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretTemplatePermissions API
+  slug: open-delinea-secrettemplatepermissions-api
+- collection_type: open
+  name: Secret Server Rest Activations SecretTemplates API
+  slug: open-delinea-secrettemplates-api
+- collection_type: open
+  name: Secret Server Rest Activations SecurityAuditLogs API
+  slug: open-delinea-securityauditlogs-api
+- collection_type: open
+  name: Secret Server Rest Activations ServerNodes API
+  slug: open-delinea-servernodes-api
+- collection_type: open
+  name: Secret Server Rest Activations Sites API
+  slug: open-delinea-sites-api
+- collection_type: open
+  name: Secret Server Rest Activations Slack API
+  slug: open-delinea-slack-api
+- collection_type: open
+  name: Secret Server Rest Activations SshCipherSuite API
+  slug: open-delinea-sshciphersuite-api
+- collection_type: open
+  name: Secret Server Rest Activations SshCommand API
+  slug: open-delinea-sshcommand-api
+- collection_type: open
+  name: Secret Server Rest Activations SshCommandBlocklist API
+  slug: open-delinea-sshcommandblocklist-api
+- collection_type: open
+  name: Secret Server Rest Activations SshCommandMenu API
+  slug: open-delinea-sshcommandmenu-api
+- collection_type: open
+  name: Secret Server Rest Activations Subscriptions API
+  slug: open-delinea-subscriptions-api
+- collection_type: open
+  name: Secret Server Rest Activations Teams API
+  slug: open-delinea-teams-api
+- collection_type: open
+  name: Secret Server Rest Activations TicketSystems API
+  slug: open-delinea-ticketsystems-api
+- collection_type: open
+  name: Secret Server Rest Activations Users API
+  slug: open-delinea-users-api
+- collection_type: open
+  name: Secret Server Rest Activations Version API
+  slug: open-delinea-version-api
+- collection_type: open
+  name: Secret Server Rest Activations WorkflowInstances API
+  slug: open-delinea-workflowinstances-api
+- collection_type: open
+  name: Secret Server Rest Activations WorkflowStepTemplates API
+  slug: open-delinea-workflowsteptemplates-api
+- collection_type: open
+  name: Secret Server Rest Activations WorkflowTemplates API
+  slug: open-delinea-workflowtemplates-api
 common:
 - group: agent
   title: ''
@@ -529,7 +830,7 @@ plans:
 - name: Delinea Plans Pricing
   plan_count: 4
   slug: delinea-plans-pricing
-random_paper: 2
+random_paper: 126
 rate_limits:
 - limit_count: 3
   name: Delinea Rate Limits
@@ -563,7 +864,7 @@ score:
       marker_coverage: 0.0
       total: 99
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delinea/refs/heads/main/screenshots/delinea-2026-06-20T175854.png
 security:

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 57.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,8 +64,30 @@ apis:
 - description: Manage creatives
   name: Microsoft LinkedIn AdCreatives API
   slug: microsoft-linkedin-adcreatives-api
-artifact_total: 17
+artifact_total: 26
+asyncapis:
+- description: ''
+  name: Microsoft Linkedin Webhooks
+  slug: microsoft-linkedin-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LinkedIn Marketing AdAccounts API
+  slug: open-microsoft-linkedin-adaccounts-api
+- collection_type: open
+  name: LinkedIn Marketing AdAccounts AdAccountUsers API
+  slug: open-microsoft-linkedin-adaccountusers-api
+- collection_type: open
+  name: LinkedIn Marketing AdAccounts AdCampaignGroups API
+  slug: open-microsoft-linkedin-adcampaigngroups-api
+- collection_type: open
+  name: LinkedIn Marketing AdAccounts AdCampaigns API
+  slug: open-microsoft-linkedin-adcampaigns-api
+- collection_type: open
+  name: LinkedIn Marketing AdAccounts AdCreatives API
+  slug: open-microsoft-linkedin-adcreatives-api
 - collection_type: open
   name: LinkedIn Marketing API
   slug: open-microsoft-linkedin
@@ -121,29 +144,160 @@ common:
   title: ''
   type: Support
   url: https://www.linkedin.com/help/linkedin
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.linkedin.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://learn.microsoft.com/en-us/linkedin/shared/references/v2/object-types
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/linkedin/marketing/quick-start
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.linkedin.com/developers/apps/new
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.linkedin.com/developers/news
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/linkedin-developer-apis/workspace/linkedin-marketing-solutions-versioned-apis/overview
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.linkedin-apistatus.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/microsoft-linkedin-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/microsoft-linkedin-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/microsoft-linkedin-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/microsoft-linkedin-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/microsoft-linkedin-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/microsoft-linkedin-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/microsoft-linkedin-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/microsoft-linkedin-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/microsoft-linkedin-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/microsoft-linkedin-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/microsoft-linkedin-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/microsoft-linkedin-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/microsoft-linkedin-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/microsoft-linkedin-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/microsoft-linkedin-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/microsoft-linkedin-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/microsoft-linkedin-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/microsoft-linkedin-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/microsoft-linkedin-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/microsoft-linkedin-llms.txt
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-linkedin-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/microsoft-linkedin-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/microsoft-linkedin-finops.yml
 created: '2024-01-01'
-description: LinkedIn, owned by Microsoft, provides APIs for accessing professional networking data, marketing and advertising capabilities, talent solutions, and consumer features including sign-in with LinkedIn.
+description: LinkedIn, owned by Microsoft, operates a versioned Rest.li API platform covering advertising and marketing, company page and community management, talent and recruiting, sales navigation, learning, and consumer sign-in. The versioned Marketing surface lives under https://api.linkedin.com/rest/ and requires a Linkedin-Version YYYYMM header on every call, with each monthly version supported for a minimum of twelve months before it is sunset. Authentication is OAuth 2.0, and Sign In with LinkedIn is a conformant OpenID Connect provider with a live discovery document. Access to the Marketing, Talent, Sales and Learning APIs is gated behind product approval and, in most cases, a commercial partner relationship; LinkedIn publishes no API pricing and no OpenAPI definitions of its own.
 finops:
 - name: Microsoft Linkedin Finops
   service_category: API
   slug: microsoft-linkedin-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-linkedin.png
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: microsoft-linkedin-mcp.yml
+  slug: microsoft-linkedin-mcpyml
+modified: '2026-08-13'
 name: Microsoft LinkedIn
 nav: Providers
 network: true
 overview: 'Microsoft LinkedIn publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AdAccounts API, AdAccountUsers API, AdCampaignGroups API, and 2 more. Tagged areas include Marketing, Microsoft, Professional Networking, Recruiting, and Social Network.
 
 
-  Microsoft LinkedIn''s developer surface includes authentication, developer portal, documentation, support, and 9 more developer resources.'
+  The Microsoft LinkedIn catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Microsoft LinkedIn''s developer surface includes authentication, developer portal, documentation, support, API reference, getting-started guide, signup flow, and 37 more developer resources.'
 plans:
 - name: Microsoft Linkedin Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: microsoft-linkedin-plans-pricing
-random_paper: 73
+random_paper: 85
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Microsoft Linkedin Rate Limits
   slug: microsoft-linkedin-rate-limits
 scopes:
@@ -152,16 +306,16 @@ scopes:
   slug: microsoft-linkedin-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 36.8
-  delta: 0.0
+  band: strong
+  composite: 64.1
+  delta: 27.3
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 55.2
-    developer_ergonomics: 32.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 13.2
+    commercial_clarity: 57.9
+    contract_quality: 64.2
+    developer_ergonomics: 84.8
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 68.4
   previous_composite: 36.8
   provenance:
     agentic_access: derived
@@ -171,8 +325,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/screenshots/microsoft-linkedin-2026-06-20T185506.png
 security:
 - kind: authentication
@@ -186,7 +340,11 @@ security:
 - kind: vulnerability-disclosure
   name: Microsoft Linkedin Vulnerability Disclosure
   slug: microsoft-linkedin-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Microsoft Linkedin Trust Center
+  slug: microsoft-linkedin-trust-center
+  summary_line: ISO/IEC 27001, ISO/IEC 27018, ISO 22301, SOC 2 Type II, PCI DSS
 slug: microsoft-linkedin
 tags:
 - Marketing

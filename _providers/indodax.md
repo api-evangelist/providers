@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Trade your Bitcoin and other assets with rupiah
@@ -59,7 +59,7 @@ overview: 'Indodax publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Indodax''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 23
+random_paper: 147
 score:
   band: minimal
   composite: 5.4
@@ -73,7 +73,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indodax/refs/heads/main/screenshots/indodax-2026-06-20T183326.png
 slug: indodax

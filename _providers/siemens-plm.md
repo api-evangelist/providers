@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 157
   human_in_the_loop: 0
@@ -192,7 +192,158 @@ apis:
 - description: The Work Items API from Siemens PLM — 12 operation(s) for work items.
   name: Siemens PLM Work Items API
   slug: siemens-plm-work-items-api
-artifact_total: 65
+artifact_total: 115
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Polarion REST Account API
+  slug: open-siemens-plm-account-api
+- collection_type: open
+  name: Polarion REST Account Administration API
+  slug: open-siemens-plm-administration-api
+- collection_type: open
+  name: Polarion REST Account Basic API
+  slug: open-siemens-plm-basic-api
+- collection_type: open
+  name: Polarion REST Account Collections API
+  slug: open-siemens-plm-collections-api
+- collection_type: open
+  name: Polarion REST Account Custom Fields API
+  slug: open-siemens-plm-custom-fields-api
+- collection_type: open
+  name: 'Polarion REST Account Customer Information: API Key API'
+  slug: open-siemens-plm-customer-information-api-key-api
+- collection_type: open
+  name: Polarion REST Account Document Attachments API
+  slug: open-siemens-plm-document-attachments-api
+- collection_type: open
+  name: Polarion REST Account Document Comments API
+  slug: open-siemens-plm-document-comments-api
+- collection_type: open
+  name: Polarion REST Account Document Parts API
+  slug: open-siemens-plm-document-parts-api
+- collection_type: open
+  name: Polarion REST Account Documents API
+  slug: open-siemens-plm-documents-api
+- collection_type: open
+  name: Polarion REST Account Enumerations API
+  slug: open-siemens-plm-enumerations-api
+- collection_type: open
+  name: Polarion REST Account Externally Linked Work Items API
+  slug: open-siemens-plm-externally-linked-work-items-api
+- collection_type: open
+  name: Polarion REST Account Feature Selections API
+  slug: open-siemens-plm-feature-selections-api
+- collection_type: open
+  name: Polarion REST Account Icons API
+  slug: open-siemens-plm-icons-api
+- collection_type: open
+  name: 'Polarion REST Account Import/Export: Calculations API'
+  slug: open-siemens-plm-import-export-calculations-api
+- collection_type: open
+  name: 'Polarion REST Account Import/Export: MasterData API'
+  slug: open-siemens-plm-import-export-masterdata-api
+- collection_type: open
+  name: Polarion REST Account Jobs API
+  slug: open-siemens-plm-jobs-api
+- collection_type: open
+  name: Polarion REST Account License API
+  slug: open-siemens-plm-license-api
+- collection_type: open
+  name: Polarion REST Account Linked Oslc Resources API
+  slug: open-siemens-plm-linked-oslc-resources-api
+- collection_type: open
+  name: Polarion REST Account Linked Work Items API
+  slug: open-siemens-plm-linked-work-items-api
+- collection_type: open
+  name: Polarion REST Account Metadata API
+  slug: open-siemens-plm-metadata-api
+- collection_type: open
+  name: Polarion REST Account Page Attachments API
+  slug: open-siemens-plm-page-attachments-api
+- collection_type: open
+  name: Polarion REST Account Page Comments API
+  slug: open-siemens-plm-page-comments-api
+- collection_type: open
+  name: Polarion REST Account Pages API
+  slug: open-siemens-plm-pages-api
+- collection_type: open
+  name: Polarion REST Account Plans API
+  slug: open-siemens-plm-plans-api
+- collection_type: open
+  name: Polarion REST Account Product costing API
+  slug: open-siemens-plm-product-costing-api
+- collection_type: open
+  name: 'Polarion REST Account Product Information: Delivery API'
+  slug: open-siemens-plm-product-information-delivery-api
+- collection_type: open
+  name: 'Polarion REST Account Product Information: Obsolescence API'
+  slug: open-siemens-plm-product-information-obsolescence-api
+- collection_type: open
+  name: Polarion REST Account Profitability Calculation API
+  slug: open-siemens-plm-profitability-calculation-api
+- collection_type: open
+  name: Polarion REST Account Project API
+  slug: open-siemens-plm-project-api
+- collection_type: open
+  name: Polarion REST Account Project Templates API
+  slug: open-siemens-plm-project-templates-api
+- collection_type: open
+  name: Polarion REST Account Projects API
+  slug: open-siemens-plm-projects-api
+- collection_type: open
+  name: Polarion REST Account Revisions API
+  slug: open-siemens-plm-revisions-api
+- collection_type: open
+  name: Polarion REST Account Roles API
+  slug: open-siemens-plm-roles-api
+- collection_type: open
+  name: Polarion REST Account Test Record Attachments API
+  slug: open-siemens-plm-test-record-attachments-api
+- collection_type: open
+  name: Polarion REST Account Test Records API
+  slug: open-siemens-plm-test-records-api
+- collection_type: open
+  name: Polarion REST Account Test Run Attachments API
+  slug: open-siemens-plm-test-run-attachments-api
+- collection_type: open
+  name: Polarion REST Account Test Run Comments API
+  slug: open-siemens-plm-test-run-comments-api
+- collection_type: open
+  name: Polarion REST Account Test Runs API
+  slug: open-siemens-plm-test-runs-api
+- collection_type: open
+  name: Polarion REST Account Test Step Result Attachments API
+  slug: open-siemens-plm-test-step-result-attachments-api
+- collection_type: open
+  name: Polarion REST Account Test Step Results API
+  slug: open-siemens-plm-test-step-results-api
+- collection_type: open
+  name: Polarion REST Account Test Steps API
+  slug: open-siemens-plm-test-steps-api
+- collection_type: open
+  name: Polarion REST Account User Groups API
+  slug: open-siemens-plm-user-groups-api
+- collection_type: open
+  name: Polarion REST Account Users API
+  slug: open-siemens-plm-users-api
+- collection_type: open
+  name: Polarion REST Account Work Item Approvals API
+  slug: open-siemens-plm-work-item-approvals-api
+- collection_type: open
+  name: Polarion REST Account Work Item Attachments API
+  slug: open-siemens-plm-work-item-attachments-api
+- collection_type: open
+  name: Polarion REST Account Work Item Comments API
+  slug: open-siemens-plm-work-item-comments-api
+- collection_type: open
+  name: Polarion REST Account Work Item Work Records API
+  slug: open-siemens-plm-work-item-work-records-api
+- collection_type: open
+  name: Polarion REST Account Work Items API
+  slug: open-siemens-plm-work-items-api
 common:
 - group: agent
   title: ''
@@ -307,7 +458,7 @@ plans:
 - name: Siemens Plm Plans Pricing
   plan_count: 4
   slug: siemens-plm-plans-pricing
-random_paper: 50
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Siemens Plm Rate Limits
@@ -341,7 +492,7 @@ score:
       marker_coverage: 0.0
       total: 49
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

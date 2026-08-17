@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 20
 apis:
 - description: The Availability API from Despegar — 2 operation(s) for availability.
@@ -92,7 +92,71 @@ apis:
 - description: The Suggestions API from Despegar — 16 operation(s) for suggestions.
   name: Despegar Suggestions API
   slug: despegar-suggestions-api
-artifact_total: 24
+artifact_total: 45
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Activities Availability API
+  slug: open-despegar-availability-api
+- collection_type: open
+  name: Activities Availability Booking API
+  slug: open-despegar-booking-api
+- collection_type: open
+  name: Activities Availability Cancellations API
+  slug: open-despegar-cancellations-api
+- collection_type: open
+  name: Activities Availability Changes API
+  slug: open-despegar-changes-api
+- collection_type: open
+  name: Activities Availability Commission Update API
+  slug: open-despegar-commission-update-api
+- collection_type: open
+  name: Activities Availability Discovery API
+  slug: open-despegar-discovery-api
+- collection_type: open
+  name: Activities Availability Flights API
+  slug: open-despegar-flights-api
+- collection_type: open
+  name: Activities Availability Geography API
+  slug: open-despegar-geography-api
+- collection_type: open
+  name: Activities Availability hotel API
+  slug: open-despegar-hotel-api
+- collection_type: open
+  name: Activities Availability Hotel content API
+  slug: open-despegar-hotel-content-api
+- collection_type: open
+  name: Activities Availability HotelAvailability API
+  slug: open-despegar-hotelavailability-api
+- collection_type: open
+  name: Activities Availability Hotels inventory API
+  slug: open-despegar-hotels-inventory-api
+- collection_type: open
+  name: Activities Availability Modalities API
+  slug: open-despegar-modalities-api
+- collection_type: open
+  name: Activities Availability Payments API
+  slug: open-despegar-payments-api
+- collection_type: open
+  name: Activities Availability Pre-booking API
+  slug: open-despegar-pre-booking-api
+- collection_type: open
+  name: Activities Availability Price Jump API
+  slug: open-despegar-price-jump-api
+- collection_type: open
+  name: Activities Availability Reschedulings API
+  slug: open-despegar-reschedulings-api
+- collection_type: open
+  name: Activities Availability Reservations API
+  slug: open-despegar-reservations-api
+- collection_type: open
+  name: Activities Availability Special Requests API
+  slug: open-despegar-special-requests-api
+- collection_type: open
+  name: Activities Availability Suggestions API
+  slug: open-despegar-suggestions-api
 common:
 - group: start
   title: ''
@@ -202,7 +266,7 @@ overview: 'Despegar publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Despegar''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 3
+random_paper: 98
 score:
   band: thin
   composite: 39.0
@@ -225,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/screenshots/despegar-2026-07-25T211758.png
 security:

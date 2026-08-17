@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Admin API from Boltz — 7 operation(s) for admin.
@@ -52,7 +52,32 @@ apis:
 - description: The Small Molecule API from Boltz — 14 operation(s) for small molecule.
   name: Boltz Small Molecule API
   slug: boltz-small-molecule-api
-artifact_total: 10
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Boltz Compute Admin API
+  slug: open-boltz-admin-api
+- collection_type: open
+  name: Boltz Compute Admin Auth API
+  slug: open-boltz-auth-api
+- collection_type: open
+  name: Boltz Compute Admin CLI API
+  slug: open-boltz-cli-api
+- collection_type: open
+  name: Boltz Compute Admin Predictions API
+  slug: open-boltz-predictions-api
+- collection_type: open
+  name: Boltz Compute Admin Protein API
+  slug: open-boltz-protein-api
+- collection_type: open
+  name: Boltz Compute Admin Share Links API
+  slug: open-boltz-share-links-api
+- collection_type: open
+  name: Boltz Compute Admin Small Molecule API
+  slug: open-boltz-small-molecule-api
 common:
 - group: company
   title: ''
@@ -186,7 +211,7 @@ overview: 'Boltz publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boltz''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, sandbox, and 22 more developer resources.'
-random_paper: 75
+random_paper: 108
 score:
   band: developing
   composite: 50.8
@@ -215,7 +240,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/screenshots/boltz-2026-07-25T203543.png
 security:

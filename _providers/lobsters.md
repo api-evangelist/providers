@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Lobsters user profiles
   name: Lobsters Users API
   slug: lobsters-users-api
-artifact_total: 20
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lobsters Comments API
+  slug: open-lobsters-comments-api
+- collection_type: open
+  name: Lobsters Comments Stories API
+  slug: open-lobsters-stories-api
+- collection_type: open
+  name: Lobsters Comments Tags API
+  slug: open-lobsters-tags-api
+- collection_type: open
+  name: Lobsters Comments Users API
+  slug: open-lobsters-users-api
 common:
 - group: operate
   title: ''
@@ -146,7 +162,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 38
+random_paper: 133
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -180,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobsters/refs/heads/main/screenshots/lobsters-2026-06-20T184628.png
 security:

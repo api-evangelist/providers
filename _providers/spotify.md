@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: The Users API from Spotify — 8 operation(s) for users.
   name: Spotify Users API
   slug: spotify-users-api
-artifact_total: 47
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Spotify Web Albums API
@@ -131,6 +131,54 @@ collections:
 - collection_type: postman
   name: Spotify Web Albums Users API
   slug: postman-spotify-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spotify Web Albums API
+  slug: open-spotify-albums-api
+- collection_type: open
+  name: Spotify Web Albums Artists API
+  slug: open-spotify-artists-api
+- collection_type: open
+  name: Spotify Web Albums Audiobooks API
+  slug: open-spotify-audiobooks-api
+- collection_type: open
+  name: Spotify Web Albums Categories API
+  slug: open-spotify-categories-api
+- collection_type: open
+  name: Spotify Web Albums Chapters API
+  slug: open-spotify-chapters-api
+- collection_type: open
+  name: Spotify Web Albums Episodes API
+  slug: open-spotify-episodes-api
+- collection_type: open
+  name: Spotify Web Albums Genres API
+  slug: open-spotify-genres-api
+- collection_type: open
+  name: Spotify Web Albums Library API
+  slug: open-spotify-library-api
+- collection_type: open
+  name: Spotify Web Albums Markets API
+  slug: open-spotify-markets-api
+- collection_type: open
+  name: Spotify Web Albums Player API
+  slug: open-spotify-player-api
+- collection_type: open
+  name: Spotify Web Albums Playlists API
+  slug: open-spotify-playlists-api
+- collection_type: open
+  name: Spotify Web Albums Search API
+  slug: open-spotify-search-api
+- collection_type: open
+  name: Spotify Web Albums Shows API
+  slug: open-spotify-shows-api
+- collection_type: open
+  name: Spotify Web Albums Tracks API
+  slug: open-spotify-tracks-api
+- collection_type: open
+  name: Spotify Web Albums Users API
+  slug: open-spotify-users-api
 common:
 - group: build
   title: ''
@@ -266,7 +314,7 @@ plans:
 - name: Spotify Plans Pricing
   plan_count: 3
   slug: spotify-plans-pricing
-random_paper: 62
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Spotify Rate Limits
@@ -313,7 +361,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/screenshots/spotify-2026-06-20T194353.png
 security:

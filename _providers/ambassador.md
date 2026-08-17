@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -72,8 +72,29 @@ apis:
 - description: Manage TLSContext resources that configure TLS settings for Ambassador, including certificates, protocols, and cipher suites.
   name: Ambassador TLSContexts API
   slug: ambassador-tlscontexts-api
-artifact_total: 152
+artifact_total: 159
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ambassador Edge Stack Diagnostics API
+  slug: open-ambassador-diagnostics-api
+- collection_type: open
+  name: Ambassador Edge Stack Diagnostics Hosts API
+  slug: open-ambassador-hosts-api
+- collection_type: open
+  name: Ambassador Edge Stack Diagnostics Mappings API
+  slug: open-ambassador-mappings-api
+- collection_type: open
+  name: Ambassador Edge Stack Diagnostics Modules API
+  slug: open-ambassador-modules-api
+- collection_type: open
+  name: Ambassador Edge Stack Diagnostics RateLimits API
+  slug: open-ambassador-ratelimits-api
+- collection_type: open
+  name: Ambassador Edge Stack Diagnostics TLSContexts API
+  slug: open-ambassador-tlscontexts-api
 - collection_type: open
   name: Ambassador Edge Stack API
   slug: open-ambassador
@@ -581,7 +602,7 @@ plans:
 - name: Ambassador Plans Pricing
   plan_count: 4
   slug: ambassador-plans-pricing
-random_paper: 93
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Ambassador Rate Limits
@@ -623,7 +644,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/screenshots/ambassador-2026-06-20T171959.png
 security:

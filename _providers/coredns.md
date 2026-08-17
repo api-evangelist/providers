@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,14 +53,26 @@ apis:
 - description: Readiness check endpoints that indicate whether CoreDNS plugins have finished initializing and are ready to serve DNS queries.
   name: CoreDNS Ready API
   slug: coredns-ready-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CoreDNS Health API
+  slug: open-coredns-health-api
 - collection_type: open
   name: CoreDNS Health API
   slug: open-coredns-health
 - collection_type: open
+  name: CoreDNS Health Metrics API
+  slug: open-coredns-metrics-api
+- collection_type: open
   name: CoreDNS Metrics API
   slug: open-coredns-metrics
+- collection_type: open
+  name: CoreDNS Health Ready API
+  slug: open-coredns-ready-api
 common:
 - group: operate
   title: ''
@@ -178,7 +190,7 @@ plans:
 - name: Coredns Plans Pricing
   plan_count: 1
   slug: coredns-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Coredns Rate Limits
@@ -228,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png
 security:

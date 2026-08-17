@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: Annotation track listings and data retrieval
   name: UCSC Genomic Data Tracks API
   slug: ucsc-genomic-data-tracks-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UCSC Genome Browser REST Genomes API
+  slug: open-ucsc-genomic-data-genomes-api
+- collection_type: open
+  name: UCSC Genome Browser REST Genomes Hubs API
+  slug: open-ucsc-genomic-data-hubs-api
+- collection_type: open
+  name: UCSC Genome Browser REST Genomes Search API
+  slug: open-ucsc-genomic-data-search-api
+- collection_type: open
+  name: UCSC Genome Browser REST Genomes Sequences API
+  slug: open-ucsc-genomic-data-sequences-api
+- collection_type: open
+  name: UCSC Genome Browser REST Genomes Tracks API
+  slug: open-ucsc-genomic-data-tracks-api
 - collection_type: open
   name: UCSC Genome Browser REST API
   slug: open-ucsc-genomic-data
@@ -129,7 +147,7 @@ plans:
 - name: Ucsc Genomic Data Plans Pricing
   plan_count: 3
   slug: ucsc-genomic-data-plans-pricing
-random_paper: 108
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Ucsc Genomic Data Rate Limits
@@ -171,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsc-genomic-data/refs/heads/main/screenshots/ucsc-genomic-data-2026-06-20T195951.png
 security:

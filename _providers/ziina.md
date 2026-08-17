@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -67,7 +67,7 @@ arazzos:
 - description: Issue a refund against an existing payment intent, then poll the refund until it reaches a terminal status.
   name: Ziina - refund a payment and confirm
   slug: ziina-refund-payment.arazzo
-artifact_total: 27
+artifact_total: 35
 asyncapis:
 - description: Event surface for Ziina payment webhooks. When a webhook URL is registered (POST /webhook), Ziina delivers events as HTTP POST callbacks over HTTPS to that URL. Non-2xx responses are retried up to 3 t
   name: Ziina Webhooks
@@ -94,6 +94,30 @@ collections:
 - collection_type: postman
   name: Ziina Account Webhook API
   slug: postman-ziina-webhook-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ziina Account API
+  slug: open-ziina-account-api
+- collection_type: open
+  name: Ziina Account HealthCheck API
+  slug: open-ziina-healthcheck-api
+- collection_type: open
+  name: Ziina Account Log API
+  slug: open-ziina-log-api
+- collection_type: open
+  name: Ziina Account PaymentIntent API
+  slug: open-ziina-paymentintent-api
+- collection_type: open
+  name: Ziina Account Refund API
+  slug: open-ziina-refund-api
+- collection_type: open
+  name: Ziina Account Transfer API
+  slug: open-ziina-transfer-api
+- collection_type: open
+  name: Ziina Account Webhook API
+  slug: open-ziina-webhook-api
 common:
 - group: build
   title: ''
@@ -286,7 +310,7 @@ plans:
 - name: Ziina Plans Pricing
   plan_count: 3
   slug: ziina-plans-pricing
-random_paper: 59
+random_paper: 92
 rate_limits:
 - limit_count: 1
   name: Ziina Rate Limits
@@ -325,7 +349,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

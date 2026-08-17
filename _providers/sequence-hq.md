@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Usage event ingestion, usage metrics, and seats.
   name: Sequence Usage API
   slug: sequence-hq-usage-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sequence Billing Schedules API
+  slug: open-sequence-hq-billing-schedules-api
+- collection_type: open
+  name: Sequence Billing Schedules Customers API
+  slug: open-sequence-hq-customers-api
+- collection_type: open
+  name: Sequence Billing Schedules Invoices API
+  slug: open-sequence-hq-invoices-api
+- collection_type: open
+  name: Sequence Billing Schedules Products API
+  slug: open-sequence-hq-products-api
+- collection_type: open
+  name: Sequence Billing Schedules Quotes API
+  slug: open-sequence-hq-quotes-api
+- collection_type: open
+  name: Sequence Billing Schedules Usage API
+  slug: open-sequence-hq-usage-api
 - collection_type: open
   name: Sequence API
   slug: open-sequence-hq
@@ -127,7 +148,7 @@ plans:
 - name: Sequence Hq Plans Pricing
   plan_count: 3
   slug: sequence-hq-plans-pricing
-random_paper: 39
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Sequence Hq Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

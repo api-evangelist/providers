@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Track metadata, streaming, and download URL generation
   name: Qobuz Tracks API
   slug: qobuz-tracks-api
-artifact_total: 28
+artifact_total: 35
 collections:
 - collection_type: postman
   name: Qobuz Music Albums API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Qobuz Music Albums Tracks API
   slug: postman-qobuz-tracks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qobuz Music Albums API
+  slug: open-qobuz-albums-api
+- collection_type: open
+  name: Qobuz Music Albums Artists API
+  slug: open-qobuz-artists-api
+- collection_type: open
+  name: Qobuz Music Albums Authentication API
+  slug: open-qobuz-authentication-api
+- collection_type: open
+  name: Qobuz Music Albums Playlists API
+  slug: open-qobuz-playlists-api
+- collection_type: open
+  name: Qobuz Music Albums Search API
+  slug: open-qobuz-search-api
+- collection_type: open
+  name: Qobuz Music Albums Tracks API
+  slug: open-qobuz-tracks-api
 common:
 - group: build
   title: ''
@@ -217,7 +238,7 @@ plans:
 - name: Qobuz Plans Pricing
   plan_count: 6
   slug: qobuz-plans-pricing
-random_paper: 81
+random_paper: 114
 rate_limits:
 - limit_count: 4
   name: Qobuz Rate Limits
@@ -251,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/screenshots/qobuz-2026-06-20T192346.png
 security:

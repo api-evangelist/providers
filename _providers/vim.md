@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,16 +21,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-12'
+  score: 53.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,12 +58,24 @@ apis:
 - description: 'Ingestion surface for pushing patient-specific clinical insights and gaps (Diagnosis Gaps, Risk, Quality, Social Determinants of Health) into Vim for surfacing at the point of care, via either API or '
   name: Vim Data Source
   slug: vim-data-source
-artifact_total: 12
+artifact_total: 16
+asyncapis:
+- description: ''
+  name: Vim Webhooks
+  slug: vim-webhooks
+collections:
+- collection_type: open
+  name: Vim Data Source API Integration
+  slug: open-vim-data-source-openapi-original
 common:
 - group: docs
   title: ''
   type: OpenAPI
   url: openapi/vim-data-source-openapi-original.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/vim-rest-api-openapi-original.json
 - group: agent
   title: ''
   type: MCPServer
@@ -123,6 +136,38 @@ common:
   title: ''
   type: Overlay
   url: overlays/vim-data-source-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vim-rest-api-overlay.yaml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/vim-error-codes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/vim-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/vim-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/vim-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/vim-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/vim-plans-pricing.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/vim-components.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -171,6 +216,22 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/getvim
+- group: build
+  title: ''
+  type: Postman
+  url: https://docs.getvim.com/invitations-postman-collection.json
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.getvim.com/change-log/
+- group: operate
+  title: ''
+  type: Support
+  url: https://getvim.com/contact-us/
+- group: start
+  title: ''
+  type: Login
+  url: https://console.getvim.com
 - group: operate
   title: ''
   type: StatusPage
@@ -200,31 +261,42 @@ mcp_servers:
 - description: ''
   name: vim-mcp.yml
   slug: vim-mcpyml
-modified: '2026-07-24'
+modified: '2026-08-15'
 name: Vim
 nav: Providers
 network: true
-overview: 'Vim publishes 1 API on the [APIs.io](https://apis.io/) network: Data Source. Tagged areas include Healthcare, United States, Clinical AI, EHR Integration, and Point of Care.
+overview: 'Vim publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications & Organizations API, Invitations API, Appointments API, and 2 more. Tagged areas include Healthcare, United States, Clinical AI, EHR Integration, and Point of Care.
 
 
-  Vim''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, and 28 more developer resources.'
-random_paper: 92
+  The Vim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Vim''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 39 more developer resources.'
+plans:
+- name: Vim Plans Pricing
+  plan_count: 0
+  slug: vim-plans-pricing
+random_paper: 34
+rate_limits:
+- limit_count: 5
+  name: Vim Rate Limits
+  slug: vim-rate-limits
 scopes:
 - name: Vim Scopes
   scope_count: 4
   slug: vim-scopes
   summary_line: 4 scopes · implicit/clientCredentials
 score:
-  band: developing
-  composite: 48.4
-  delta: 0.0
+  band: strong
+  composite: 62.5
+  delta: 14.1
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 50.7
-    developer_ergonomics: 58.2
+    commercial_clarity: 50.0
+    contract_quality: 65.3
+    developer_ergonomics: 73.4
     discoverability: 83.3
     governance: 20.8
-    operational_transparency: 31.6
+    operational_transparency: 86.8
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -243,8 +315,8 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Vim Authentication

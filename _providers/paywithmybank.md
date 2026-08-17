@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -71,11 +71,48 @@ apis:
 - description: The verifyCustomer API from PayWithMyBank (Trustly) — 1 operation(s) for verifycustomer.
   name: PayWithMyBank (Trustly) verifyCustomer API
   slug: paywithmybank-verifycustomer-api
-artifact_total: 16
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Paywithmybank Webhooks
   slug: paywithmybank-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: accountData API
+  slug: open-paywithmybank-accountdata-api
+- collection_type: open
+  name: accountData accounts API
+  slug: open-paywithmybank-accounts-api
+- collection_type: open
+  name: accountData countries API
+  slug: open-paywithmybank-countries-api
+- collection_type: open
+  name: accountData customers API
+  slug: open-paywithmybank-customers-api
+- collection_type: open
+  name: accountData disputeManagement API
+  slug: open-paywithmybank-disputemanagement-api
+- collection_type: open
+  name: accountData identity API
+  slug: open-paywithmybank-identity-api
+- collection_type: open
+  name: accountData networkCheckApi API
+  slug: open-paywithmybank-networkcheckapi-api
+- collection_type: open
+  name: accountData paymentProviders API
+  slug: open-paywithmybank-paymentproviders-api
+- collection_type: open
+  name: accountData payments API
+  slug: open-paywithmybank-payments-api
+- collection_type: open
+  name: accountData transactions API
+  slug: open-paywithmybank-transactions-api
+- collection_type: open
+  name: accountData verifyCustomer API
+  slug: open-paywithmybank-verifycustomer-api
 common:
 - group: company
   title: ''
@@ -228,7 +265,7 @@ overview: 'PayWithMyBank (Trustly) publishes 11 APIs on the [APIs.io](https://ap
 
 
   PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 96
+random_paper: 75
 score:
   band: developing
   composite: 47.9
@@ -258,7 +295,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/screenshots/paywithmybank-2026-08-07T191723.png
 security:

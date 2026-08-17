@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Raw punch records across a date range
@@ -39,7 +39,20 @@ apis:
 - description: User records for the uAttend account
   name: Workwell Technologies Users API
   slug: workwell-technologies-users-api
-artifact_total: 4
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WorkWell Technologies API (uAttend) Punch Reports API
+  slug: open-workwell-technologies-punch-reports-api
+- collection_type: open
+  name: WorkWell Technologies API (uAttend) Punch Reports Timecards API
+  slug: open-workwell-technologies-timecards-api
+- collection_type: open
+  name: WorkWell Technologies API (uAttend) Punch Reports Users API
+  slug: open-workwell-technologies-users-api
 common:
 - group: agent
   title: ''
@@ -93,7 +106,7 @@ overview: 'Workwell Technologies publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Workwell Technologies'' developer surface includes documentation, API reference, support, engineering blog, and 5 more developer resources.'
-random_paper: 56
+random_paper: 130
 score:
   band: thin
   composite: 35.8
@@ -114,7 +127,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: workwell-technologies
 tags:

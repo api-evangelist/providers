@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,7 +57,20 @@ apis:
 - description: Trades, vessels, and other observed fact data.
   name: Kpler Facts API
   slug: kpler-facts-api
-artifact_total: 12
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kpler Direct Access Aggregations API
+  slug: open-kpler-aggregations-api
+- collection_type: open
+  name: Kpler Direct Access Aggregations Authentication API
+  slug: open-kpler-authentication-api
+- collection_type: open
+  name: Kpler Direct Access Aggregations Facts API
+  slug: open-kpler-facts-api
 common:
 - group: agent
   title: ''
@@ -123,7 +136,7 @@ plans:
 - name: Kpler Plans Pricing
   plan_count: 3
   slug: kpler-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 4
   name: Kpler Rate Limits
@@ -154,7 +167,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/screenshots/kpler-2026-07-25T224256.png
 security:

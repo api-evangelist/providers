@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -66,7 +66,7 @@ apis:
 - description: The Users API from Sauce Labs — 1 operation(s) for users.
   name: Sauce Labs Users API
   slug: sauce-labs-users-api
-artifact_total: 28
+artifact_total: 35
 collections:
 - collection_type: postman
   name: Sauce Labs Jobs Devices API
@@ -86,6 +86,27 @@ collections:
 - collection_type: postman
   name: Sauce Labs Jobs Devices Users API
   slug: postman-sauce-labs-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sauce Labs Jobs Devices API
+  slug: open-sauce-labs-devices-api
+- collection_type: open
+  name: Sauce Labs Jobs Devices Job Assets API
+  slug: open-sauce-labs-job-assets-api
+- collection_type: open
+  name: Sauce Labs Devices Jobs API
+  slug: open-sauce-labs-jobs-api
+- collection_type: open
+  name: Sauce Labs Jobs Devices Platform API
+  slug: open-sauce-labs-platform-api
+- collection_type: open
+  name: Sauce Labs Jobs Devices Sessions API
+  slug: open-sauce-labs-sessions-api
+- collection_type: open
+  name: Sauce Labs Jobs Devices Users API
+  slug: open-sauce-labs-users-api
 common:
 - group: build
   title: ''
@@ -212,7 +233,7 @@ plans:
 - name: Sauce Labs Plans Pricing
   plan_count: 5
   slug: sauce-labs-plans-pricing
-random_paper: 32
+random_paper: 98
 rate_limits:
 - limit_count: 3
   name: Sauce Labs Rate Limits
@@ -246,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/screenshots/sauce-labs-2026-06-20T193442.png
 security:

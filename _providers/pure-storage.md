@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 756
   human_in_the_loop: 18
@@ -429,14 +429,404 @@ apis:
 - description: Workloads organize storage resources (such as volumes) and their related configuration and policy objects into logical groupings. Workloads can be deployed from workload presets.
   name: Pure Storage Workloads API
   slug: pure-storage-workloads-api
-artifact_total: 279
+artifact_total: 409
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: FlashArray REST API
   slug: open-flasharray-rest-api
 - collection_type: open
   name: FlashBlade REST API
   slug: open-flashblade-rest-api
+- collection_type: open
+  name: FlashArray REST Active Directory API
+  slug: open-pure-storage-active-directory-api
+- collection_type: open
+  name: FlashArray REST Active Directory Administrators API
+  slug: open-pure-storage-administrators-api
+- collection_type: open
+  name: FlashArray REST Active Directory Alert Watchers API
+  slug: open-pure-storage-alert-watchers-api
+- collection_type: open
+  name: FlashArray REST Active Directory Alerts API
+  slug: open-pure-storage-alerts-api
+- collection_type: open
+  name: FlashArray REST Active Directory API Clients API
+  slug: open-pure-storage-api-clients-api
+- collection_type: open
+  name: FlashArray REST Active Directory Apps API
+  slug: open-pure-storage-apps-api
+- collection_type: open
+  name: FlashArray REST Active Directory Array Connections API
+  slug: open-pure-storage-array-connections-api
+- collection_type: open
+  name: FlashArray REST Active Directory Arrays API
+  slug: open-pure-storage-arrays-api
+- collection_type: open
+  name: FlashArray REST Active Directory Audit Log Target for File Systems API
+  slug: open-pure-storage-audit-log-target-for-file-systems-api
+- collection_type: open
+  name: FlashArray REST Active Directory Audit Log Target for Object Store API
+  slug: open-pure-storage-audit-log-target-for-object-store-api
+- collection_type: open
+  name: FlashArray REST Active Directory Audits API
+  slug: open-pure-storage-audits-api
+- collection_type: open
+  name: FlashArray REST Active Directory Authorization API
+  slug: open-pure-storage-authorization-api
+- collection_type: open
+  name: FlashArray REST Active Directory Blades API
+  slug: open-pure-storage-blades-api
+- collection_type: open
+  name: FlashArray REST Active Directory Bucket Replica Links API
+  slug: open-pure-storage-bucket-replica-links-api
+- collection_type: open
+  name: FlashArray REST Active Directory Buckets API
+  slug: open-pure-storage-buckets-api
+- collection_type: open
+  name: FlashArray REST Active Directory Certificate Groups API
+  slug: open-pure-storage-certificate-groups-api
+- collection_type: open
+  name: FlashArray REST Active Directory Certificates API
+  slug: open-pure-storage-certificates-api
+- collection_type: open
+  name: FlashArray REST Active Directory Clients API
+  slug: open-pure-storage-clients-api
+- collection_type: open
+  name: FlashArray REST Active Directory Connections API
+  slug: open-pure-storage-connections-api
+- collection_type: open
+  name: FlashArray REST Active Directory Container Default Protections API
+  slug: open-pure-storage-container-default-protections-api
+- collection_type: open
+  name: FlashArray REST Active Directory Controllers API
+  slug: open-pure-storage-controllers-api
+- collection_type: open
+  name: FlashArray REST Active Directory Directories API
+  slug: open-pure-storage-directories-api
+- collection_type: open
+  name: FlashArray REST Active Directory Directory Exports API
+  slug: open-pure-storage-directory-exports-api
+- collection_type: open
+  name: FlashArray REST Active Directory Directory Quotas API
+  slug: open-pure-storage-directory-quotas-api
+- collection_type: open
+  name: FlashArray REST Active Directory Directory Services API
+  slug: open-pure-storage-directory-services-api
+- collection_type: open
+  name: FlashArray REST Active Directory Directory Snapshots API
+  slug: open-pure-storage-directory-snapshots-api
+- collection_type: open
+  name: FlashArray REST Active Directory DNS API
+  slug: open-pure-storage-dns-api
+- collection_type: open
+  name: FlashArray REST Active Directory Drives API
+  slug: open-pure-storage-drives-api
+- collection_type: open
+  name: FlashArray REST Active Directory File System Exports API
+  slug: open-pure-storage-file-system-exports-api
+- collection_type: open
+  name: FlashArray REST Active Directory File System Junctions API
+  slug: open-pure-storage-file-system-junctions-api
+- collection_type: open
+  name: FlashArray REST Active Directory File System Replica Links API
+  slug: open-pure-storage-file-system-replica-links-api
+- collection_type: open
+  name: FlashArray REST Active Directory File System Snapshots API
+  slug: open-pure-storage-file-system-snapshots-api
+- collection_type: open
+  name: FlashArray REST Active Directory File Systems API
+  slug: open-pure-storage-file-systems-api
+- collection_type: open
+  name: FlashArray REST Active Directory Files API
+  slug: open-pure-storage-files-api
+- collection_type: open
+  name: FlashArray REST Active Directory Fleets API
+  slug: open-pure-storage-fleets-api
+- collection_type: open
+  name: FlashArray REST Active Directory Hardware API
+  slug: open-pure-storage-hardware-api
+- collection_type: open
+  name: FlashArray REST Active Directory Hardware Connectors API
+  slug: open-pure-storage-hardware-connectors-api
+- collection_type: open
+  name: FlashArray REST Active Directory Host Groups API
+  slug: open-pure-storage-host-groups-api
+- collection_type: open
+  name: FlashArray REST Active Directory Hosts API
+  slug: open-pure-storage-hosts-api
+- collection_type: open
+  name: FlashArray REST Active Directory Invoices API
+  slug: open-pure-storage-invoices-api
+- collection_type: open
+  name: FlashArray REST Active Directory Keytabs API
+  slug: open-pure-storage-keytabs-api
+- collection_type: open
+  name: FlashArray REST Active Directory KMIP API
+  slug: open-pure-storage-kmip-api
+- collection_type: open
+  name: FlashArray REST Active Directory Legal Holds API
+  slug: open-pure-storage-legal-holds-api
+- collection_type: open
+  name: FlashArray REST Active Directory Lifecycle Rules API
+  slug: open-pure-storage-lifecycle-rules-api
+- collection_type: open
+  name: FlashArray REST Active Directory Link Aggregation Groups API
+  slug: open-pure-storage-link-aggregation-groups-api
+- collection_type: open
+  name: FlashArray REST Active Directory Log Targets API
+  slug: open-pure-storage-log-targets-api
+- collection_type: open
+  name: FlashArray REST Active Directory Logs API
+  slug: open-pure-storage-logs-api
+- collection_type: open
+  name: FlashArray REST Active Directory Maintenance Windows API
+  slug: open-pure-storage-maintenance-windows-api
+- collection_type: open
+  name: FlashArray REST Active Directory Metrics API
+  slug: open-pure-storage-metrics-api
+- collection_type: open
+  name: FlashArray REST Active Directory Network Interfaces API
+  slug: open-pure-storage-network-interfaces-api
+- collection_type: open
+  name: FlashArray REST Active Directory Node Groups API
+  slug: open-pure-storage-node-groups-api
+- collection_type: open
+  name: FlashArray REST Active Directory Nodes API
+  slug: open-pure-storage-nodes-api
+- collection_type: open
+  name: FlashArray REST Active Directory Object Store Access Keys API
+  slug: open-pure-storage-object-store-access-keys-api
+- collection_type: open
+  name: FlashArray REST Active Directory Object Store Account Exports API
+  slug: open-pure-storage-object-store-account-exports-api
+- collection_type: open
+  name: FlashArray REST Active Directory Object Store Accounts API
+  slug: open-pure-storage-object-store-accounts-api
+- collection_type: open
+  name: FlashArray REST Active Directory Object Store Remote Credentials API
+  slug: open-pure-storage-object-store-remote-credentials-api
+- collection_type: open
+  name: FlashArray REST Active Directory Object Store Roles API
+  slug: open-pure-storage-object-store-roles-api
+- collection_type: open
+  name: FlashArray REST Active Directory Object Store Users API
+  slug: open-pure-storage-object-store-users-api
+- collection_type: open
+  name: FlashArray REST Active Directory Object Store Virtual Hosts API
+  slug: open-pure-storage-object-store-virtual-hosts-api
+- collection_type: open
+  name: FlashArray REST Active Directory Offloads API
+  slug: open-pure-storage-offloads-api
+- collection_type: open
+  name: FlashArray REST Active Directory OIDC SSO API
+  slug: open-pure-storage-oidc-sso-api
+- collection_type: open
+  name: FlashArray REST Active Directory Pod Replica Links API
+  slug: open-pure-storage-pod-replica-links-api
+- collection_type: open
+  name: FlashArray REST Active Directory Pods API
+  slug: open-pure-storage-pods-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies (All) API
+  slug: open-pure-storage-policies-all-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies API
+  slug: open-pure-storage-policies-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Audit for File Systems API
+  slug: open-pure-storage-policies-audit-for-file-systems-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Audit for Object Store API
+  slug: open-pure-storage-policies-audit-for-object-store-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Data Eviction API
+  slug: open-pure-storage-policies-data-eviction-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Management Access API
+  slug: open-pure-storage-policies-management-access-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Management Authentication API
+  slug: open-pure-storage-policies-management-authentication-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Network Access API
+  slug: open-pure-storage-policies-network-access-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - NFS API
+  slug: open-pure-storage-policies-nfs-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Object Store Access API
+  slug: open-pure-storage-policies-object-store-access-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Password API
+  slug: open-pure-storage-policies-password-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - QoS API
+  slug: open-pure-storage-policies-qos-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - S3 Export API
+  slug: open-pure-storage-policies-s3-export-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - SMB Client API
+  slug: open-pure-storage-policies-smb-client-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - SMB Share API
+  slug: open-pure-storage-policies-smb-share-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Snapshot API
+  slug: open-pure-storage-policies-snapshot-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - SSH Certificate Authority API
+  slug: open-pure-storage-policies-ssh-certificate-authority-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - Storage Class Tiering API
+  slug: open-pure-storage-policies-storage-class-tiering-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - TLS API
+  slug: open-pure-storage-policies-tls-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - User and Group Quota Policy API
+  slug: open-pure-storage-policies-user-and-group-quota-policy-api
+- collection_type: open
+  name: FlashArray REST Active Directory Policies - WORM Data API
+  slug: open-pure-storage-policies-worm-data-api
+- collection_type: open
+  name: FlashArray REST Active Directory Ports API
+  slug: open-pure-storage-ports-api
+- collection_type: open
+  name: FlashArray REST Active Directory Presets API
+  slug: open-pure-storage-presets-api
+- collection_type: open
+  name: FlashArray REST Active Directory Protection Group Snapshots API
+  slug: open-pure-storage-protection-group-snapshots-api
+- collection_type: open
+  name: FlashArray REST Active Directory Protection Groups API
+  slug: open-pure-storage-protection-groups-api
+- collection_type: open
+  name: FlashArray REST Active Directory Public Keys API
+  slug: open-pure-storage-public-keys-api
+- collection_type: open
+  name: FlashArray REST Active Directory Quotas API
+  slug: open-pure-storage-quotas-api
+- collection_type: open
+  name: FlashArray REST Active Directory RDL API
+  slug: open-pure-storage-rdl-api
+- collection_type: open
+  name: FlashArray REST Active Directory Realm Connections API
+  slug: open-pure-storage-realm-connections-api
+- collection_type: open
+  name: FlashArray REST Active Directory Realms API
+  slug: open-pure-storage-realms-api
+- collection_type: open
+  name: FlashArray REST Active Directory Remote Arrays API
+  slug: open-pure-storage-remote-arrays-api
+- collection_type: open
+  name: FlashArray REST Active Directory Remote Pods API
+  slug: open-pure-storage-remote-pods-api
+- collection_type: open
+  name: FlashArray REST Active Directory Remote Protection Group Snapshots API
+  slug: open-pure-storage-remote-protection-group-snapshots-api
+- collection_type: open
+  name: FlashArray REST Active Directory Remote Protection Groups API
+  slug: open-pure-storage-remote-protection-groups-api
+- collection_type: open
+  name: FlashArray REST Active Directory Remote Realms API
+  slug: open-pure-storage-remote-realms-api
+- collection_type: open
+  name: FlashArray REST Active Directory Remote Volume Snapshots API
+  slug: open-pure-storage-remote-volume-snapshots-api
+- collection_type: open
+  name: FlashArray REST Active Directory Resiliency Groups API
+  slug: open-pure-storage-resiliency-groups-api
+- collection_type: open
+  name: FlashArray REST Active Directory Resource Accesses API
+  slug: open-pure-storage-resource-accesses-api
+- collection_type: open
+  name: FlashArray REST Active Directory Roles API
+  slug: open-pure-storage-roles-api
+- collection_type: open
+  name: FlashArray REST Active Directory SAML2 SSO API
+  slug: open-pure-storage-saml2-sso-api
+- collection_type: open
+  name: FlashArray REST Active Directory Servers API
+  slug: open-pure-storage-servers-api
+- collection_type: open
+  name: FlashArray REST Active Directory Sessions API
+  slug: open-pure-storage-sessions-api
+- collection_type: open
+  name: FlashArray REST Active Directory SMI-S API
+  slug: open-pure-storage-smi-s-api
+- collection_type: open
+  name: FlashArray REST Active Directory SMTP API
+  slug: open-pure-storage-smtp-api
+- collection_type: open
+  name: FlashArray REST Active Directory SNMP Agents API
+  slug: open-pure-storage-snmp-agents-api
+- collection_type: open
+  name: FlashArray REST Active Directory SNMP Managers API
+  slug: open-pure-storage-snmp-managers-api
+- collection_type: open
+  name: FlashArray REST Active Directory Software API
+  slug: open-pure-storage-software-api
+- collection_type: open
+  name: FlashArray REST Active Directory Subnets API
+  slug: open-pure-storage-subnets-api
+- collection_type: open
+  name: FlashArray REST Active Directory Subscription Assets API
+  slug: open-pure-storage-subscription-assets-api
+- collection_type: open
+  name: FlashArray REST Active Directory Subscriptions API
+  slug: open-pure-storage-subscriptions-api
+- collection_type: open
+  name: FlashArray REST Active Directory Support API
+  slug: open-pure-storage-support-api
+- collection_type: open
+  name: FlashArray REST Active Directory Support Diagnostics API
+  slug: open-pure-storage-support-diagnostics-api
+- collection_type: open
+  name: FlashArray REST Active Directory Sustainability API
+  slug: open-pure-storage-sustainability-api
+- collection_type: open
+  name: FlashArray REST Active Directory Syslog API
+  slug: open-pure-storage-syslog-api
+- collection_type: open
+  name: FlashArray REST Active Directory Targets API
+  slug: open-pure-storage-targets-api
+- collection_type: open
+  name: FlashArray REST Active Directory Topology Groups API
+  slug: open-pure-storage-topology-groups-api
+- collection_type: open
+  name: FlashArray REST Active Directory Usage API
+  slug: open-pure-storage-usage-api
+- collection_type: open
+  name: FlashArray REST Active Directory User Group Quotas API
+  slug: open-pure-storage-user-group-quotas-api
+- collection_type: open
+  name: FlashArray REST Active Directory Vchost Connections API
+  slug: open-pure-storage-vchost-connections-api
+- collection_type: open
+  name: FlashArray REST Active Directory Vchosts API
+  slug: open-pure-storage-vchosts-api
+- collection_type: open
+  name: FlashArray REST Active Directory Verification Keys API
+  slug: open-pure-storage-verification-keys-api
+- collection_type: open
+  name: FlashArray REST Active Directory Virtual Machines API
+  slug: open-pure-storage-virtual-machines-api
+- collection_type: open
+  name: FlashArray REST Active Directory Volume Groups API
+  slug: open-pure-storage-volume-groups-api
+- collection_type: open
+  name: FlashArray REST Active Directory Volume Snapshots API
+  slug: open-pure-storage-volume-snapshots-api
+- collection_type: open
+  name: FlashArray REST Active Directory Volumes API
+  slug: open-pure-storage-volumes-api
+- collection_type: open
+  name: FlashArray REST Active Directory Workloads API
+  slug: open-pure-storage-workloads-api
 - collection_type: open
   name: Pure1 Public REST API
   slug: open-pure1-cloud-api
@@ -926,7 +1316,7 @@ plans:
 - name: Pure Storage Plans Pricing
   plan_count: 1
   slug: pure-storage-plans-pricing
-random_paper: 46
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Pure Storage Rate Limits
@@ -968,7 +1358,7 @@ score:
       marker_coverage: 0.0
       total: 129
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/screenshots/pure-storage-2026-06-20T192313.png
 security:

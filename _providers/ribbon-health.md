@@ -12,14 +12,15 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 48.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 73
   slug: ribbon-health-agentic-access
   summary_line: 73 operations · 34 acting
-api_count: 10
+api_count: 11
 apis:
 - description: The Cost Estimates API from Ribbon Health — 4 operation(s) for cost estimates.
   name: Ribbon Health Cost Estimates API
@@ -69,6 +70,9 @@ apis:
 - description: The TINs API from Ribbon Health — 2 operation(s) for tins.
   name: Ribbon Health TINs API
   slug: ribbon-health-tins-api
+- description: The Price Transparency v2 API from H1 (Ribbon Health) — 7 location-first operations for negotiated-rate shopping. Prices are scoped to a facility rather than to a provider, carriers use string busines
+  name: Ribbon Health Price Transparency v2 API
+  slug: ribbon-health-price-transparency-v2-api
 arazzos:
 - description: Find a practice location by address and name, read its detail record, then list the insurances accepted in that state.
   name: Ribbon Health Location and Insurance Lookup
@@ -79,7 +83,41 @@ arazzos:
 - description: Resolve an insurance carrier, find in-network providers by specialty and location, then read the matched provider's detail record.
   name: Ribbon Health Provider Directory Search
   slug: ribbon-health-provider-search-workflow
-artifact_total: 85
+artifact_total: 97
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ribbon-health Cost Estimates API
+  slug: open-ribbon-health-cost-estimates-api
+- collection_type: open
+  name: ribbon-health Cost Estimates Filters API
+  slug: open-ribbon-health-filters-api
+- collection_type: open
+  name: ribbon-health Cost Estimates Focus Area Endpoints API
+  slug: open-ribbon-health-focus-area-endpoints-api
+- collection_type: open
+  name: ribbon-health Cost Estimates Locations API
+  slug: open-ribbon-health-locations-api
+- collection_type: open
+  name: ribbon-health Cost Estimates Networks API
+  slug: open-ribbon-health-networks-api
+- collection_type: open
+  name: ribbon-health Cost Estimates Organizations API
+  slug: open-ribbon-health-organizations-api
+- collection_type: open
+  name: ribbon-health Cost Estimates Price Transparency API
+  slug: open-ribbon-health-price-transparency-api
+- collection_type: open
+  name: ribbon-health Cost Estimates Providers API
+  slug: open-ribbon-health-providers-api
+- collection_type: open
+  name: ribbon-health Cost Estimates Reference Endpoints API
+  slug: open-ribbon-health-reference-endpoints-api
+- collection_type: open
+  name: ribbon-health Cost Estimates TINs API
+  slug: open-ribbon-health-tins-api
 common:
 - group: agent
   title: ''
@@ -96,15 +134,15 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://h1.co
+  url: https://h1.com
 - group: docs
   title: ''
   type: Documentation
   url: https://ribbon.readme.io/
 - group: build
   title: ''
-  type: GitHub
-  url: https://github.com/nikothomas/ribbon-health
+  type: GitHubOrganization
+  url: https://github.com/h1insights
 - group: company
   title: ''
   type: LinkedIn
@@ -112,11 +150,11 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://h1.co/blog/
+  url: https://h1.com/blog/
 - group: commercial
   title: ''
   type: Pricing
-  url: https://h1.co/request-demo/
+  url: https://h1.com/request-demo/
 - group: operate
   title: ''
   type: StatusPage
@@ -148,7 +186,71 @@ common:
 - group: company
   title: ''
   type: BlogRSS
-  url: https://h1.co/blog/feed
+  url: https://h1.com/blog/feed/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ribbon-health-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ribbon-health-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ribbon-health-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ribbon-health-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ribbon-health-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ribbon-health-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ribbon-health-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://ribbon.readme.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://ribbon.readme.io/reference/getcustomproviders
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://ribbon.readme.io/docs/welcome-to-the-ribbon-health-api
+- group: operate
+  title: ''
+  type: Support
+  url: https://h1.com/company/contact-us/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://h1.com/request-demo/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://h1.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://h1.com/privacy-policy/
 - group: design
   title: ''
   type: ArazzoWorkflows
@@ -360,24 +462,24 @@ jsonld:
   property_count: 43
   slug: ribbon-health-context
 layout: provider
-modified: 2026-06-12
+modified: 2026-08-14
 name: Ribbon Health
 nav: Providers
 network: true
-overview: 'Ribbon Health publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Cost Estimates API, Filters API, Focus Area Endpoints API, and 7 more. Tagged areas include Healthcare, Provider Directory, Insurance, Clinical Data, and Care Navigation.
+overview: 'Ribbon Health publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cost Estimates API, Filters API, Focus Area Endpoints API, and 8 more. Tagged areas include Healthcare, Provider Directory, Insurance, Clinical Data, and Care Navigation.
 
 
   The Ribbon Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ribbon Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 12 more developer resources.'
+  Ribbon Health''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, API reference, getting-started guide, and 26 more developer resources.'
 plans:
 - name: Ribbon Health Plans Pricing
   plan_count: 1
   slug: ribbon-health-plans-pricing
-random_paper: 111
+random_paper: 119
 rate_limits:
-- limit_count: 8
+- limit_count: 9
   name: Ribbon Health Rate Limits
   slug: ribbon-health-rate-limits
 rules:
@@ -390,15 +492,15 @@ rules:
     warn: 4
   slug: ribbon-health-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 48.5
-  delta: 0.0
+  band: strong
+  composite: 64.9
+  delta: 16.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 74.3
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 68.8
+    commercial_clarity: 73.7
+    contract_quality: 74.4
+    developer_ergonomics: 58.7
+    discoverability: 81.5
+    governance: 89.6
     operational_transparency: 52.6
   previous_composite: 48.5
   provenance:
@@ -413,10 +515,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.3
+    score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/screenshots/ribbon-health-2026-06-20T193110.png
 security:
 - kind: authentication
@@ -439,5 +541,5 @@ tags:
 - Provider Search
 - Health Plans
 - Digital Health
-website: https://h1.co
+website: https://h1.com
 ---

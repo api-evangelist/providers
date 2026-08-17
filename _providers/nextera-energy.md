@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: NextEra Energy and Google Cloud Announce Landmark ...
   url: https://newsroom.nexteraenergy.com/2025-12-08-NextEra-Energy-and-Google-Cloud-Announce-Landmark-Strategic-Energy-and-Technology-Partnership-to-Accelerate-AI-Growth-and-Transform-the-Energy-Industry?l=12
-random_paper: 14
+random_paper: 113
 score:
   band: minimal
   composite: 5.5
@@ -108,7 +108,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextera-energy/refs/heads/main/screenshots/nextera-energy-2026-06-20T190258.png
 security:

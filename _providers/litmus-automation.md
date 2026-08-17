@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Industrial edge data platform for device connectivity, industrial DataOps, edge intelligence, and analytics. Around 871 endpoints in the 4.0.x line; most endpoints are REST while newer areas (DeviceHu
@@ -166,7 +166,7 @@ overview: 'Litmus Automation publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Litmus Automation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 4
+random_paper: 16
 score:
   band: developing
   composite: 42.3
@@ -183,7 +183,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/screenshots/litmus-automation-2026-07-25T225339.png
 security:

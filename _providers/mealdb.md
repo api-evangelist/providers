@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Search.php API from TheMealDB — 1 operation(s) for search.php.
   name: TheMealDB Search.php API
   slug: mealdb-search-php-api
-artifact_total: 20
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TheMealDB Categories.php API
+  slug: open-mealdb-categories-php-api
+- collection_type: open
+  name: TheMealDB Categories.php Filter.php API
+  slug: open-mealdb-filter-php-api
+- collection_type: open
+  name: TheMealDB Categories.php List.php API
+  slug: open-mealdb-list-php-api
+- collection_type: open
+  name: TheMealDB Categories.php Lookup.php API
+  slug: open-mealdb-lookup-php-api
+- collection_type: open
+  name: TheMealDB Categories.php Premium API
+  slug: open-mealdb-premium-api
+- collection_type: open
+  name: TheMealDB Categories.php Random.php API
+  slug: open-mealdb-random-php-api
+- collection_type: open
+  name: TheMealDB Categories.php Search.php API
+  slug: open-mealdb-search-php-api
 common:
 - group: agent
   title: ''
@@ -161,7 +186,7 @@ plans:
 - name: Mealdb Plans Pricing
   plan_count: 2
   slug: mealdb-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Mealdb Rate Limits
@@ -201,7 +226,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/screenshots/mealdb-2026-06-20T185110.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,20 @@ apis:
 - description: The Title Parameter API from OMDb — 1 operation(s) for title parameter.
   name: OMDb Title Parameter API
   slug: omdb-title-parameter-api
-artifact_total: 17
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OMDb ID Parameter API
+  slug: open-omdb-id-parameter-api
+- collection_type: open
+  name: OMDb ID Parameter Search Parameter API
+  slug: open-omdb-search-parameter-api
+- collection_type: open
+  name: OMDb ID Parameter Title Parameter API
+  slug: open-omdb-title-parameter-api
 common:
 - group: agent
   title: ''
@@ -154,7 +167,7 @@ plans:
 - name: Omdb Plans Pricing
   plan_count: 2
   slug: omdb-plans-pricing
-random_paper: 58
+random_paper: 120
 rate_limits:
 - limit_count: 3
   name: Omdb Rate Limits
@@ -194,7 +207,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/screenshots/omdb-2026-06-20T190703.png
 security:

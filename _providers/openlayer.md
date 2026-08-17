@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Define, evaluate, and read project tests.
   name: Openlayer Tests API
   slug: openlayer-tests-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Openlayer Commits API
+  slug: open-openlayer-commits-api
+- collection_type: open
+  name: Openlayer Commits Data Stream API
+  slug: open-openlayer-data-stream-api
+- collection_type: open
+  name: Openlayer Commits Inference Pipelines API
+  slug: open-openlayer-inference-pipelines-api
+- collection_type: open
+  name: Openlayer Commits Projects API
+  slug: open-openlayer-projects-api
+- collection_type: open
+  name: Openlayer Commits Storage API
+  slug: open-openlayer-storage-api
+- collection_type: open
+  name: Openlayer Commits Tests API
+  slug: open-openlayer-tests-api
 - collection_type: open
   name: Openlayer API
   slug: open-openlayer
@@ -131,7 +152,7 @@ plans:
 - name: Openlayer Plans Pricing
   plan_count: 2
   slug: openlayer-plans-pricing
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Openlayer Rate Limits
@@ -156,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/screenshots/openlayer-2026-06-20T191012.png
 security:

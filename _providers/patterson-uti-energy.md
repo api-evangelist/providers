@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: PATTERSON UTI ENERGY INC Earnings Call Transcript ...
   url: https://www.stockinsights.ai/us/PTEN/earnings-transcript/fy25-q3-ad15
-random_paper: 30
+random_paper: 133
 score:
   band: minimal
   composite: 5.3
@@ -92,7 +92,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patterson-uti-energy/refs/heads/main/screenshots/patterson-uti-energy-2026-06-20T191445.png
 security:

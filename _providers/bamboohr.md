@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -62,11 +62,32 @@ apis:
 - description: Time-off requests and balances
   name: BambooHR Time Off API
   slug: bamboohr-time-off-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: BambooHR Webhooks
   slug: open-bamboohr-asyncapi
+- collection_type: open
+  name: BambooHR REST Directory API
+  slug: open-bamboohr-directory-api
+- collection_type: open
+  name: BambooHR REST Directory Employees API
+  slug: open-bamboohr-employees-api
+- collection_type: open
+  name: BambooHR REST Directory Files API
+  slug: open-bamboohr-files-api
+- collection_type: open
+  name: BambooHR REST Directory Meta API
+  slug: open-bamboohr-meta-api
+- collection_type: open
+  name: BambooHR REST Directory Reports API
+  slug: open-bamboohr-reports-api
+- collection_type: open
+  name: BambooHR REST Directory Time Off API
+  slug: open-bamboohr-time-off-api
 - collection_type: open
   name: BambooHR REST API
   slug: open-bamboohr
@@ -151,7 +172,7 @@ overview: 'BambooHR publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BambooHR''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, and 10 more developer resources.'
-random_paper: 2
+random_paper: 97
 scopes:
 - name: Bamboohr Scopes
   scope_count: 1
@@ -177,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/screenshots/bamboohr-2026-06-20T172934.png
 security:

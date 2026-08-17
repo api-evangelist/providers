@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -93,8 +93,44 @@ apis:
 - description: The Webhooks API from airSlate — 2 operation(s) for webhooks.
   name: airSlate Webhooks API
   slug: airslate-webhooks-api
-artifact_total: 25
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: airSlate signNow REST Document Fields API
+  slug: open-airslate-document-fields-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields Document Groups API
+  slug: open-airslate-document-groups-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields Documents API
+  slug: open-airslate-documents-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields Embedded API
+  slug: open-airslate-embedded-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields Folders API
+  slug: open-airslate-folders-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields Invites API
+  slug: open-airslate-invites-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields OAuth API
+  slug: open-airslate-oauth-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields Smart Fields API
+  slug: open-airslate-smart-fields-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields Templates API
+  slug: open-airslate-templates-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields Users API
+  slug: open-airslate-users-api
+- collection_type: open
+  name: airSlate signNow REST Document Fields Webhooks API
+  slug: open-airslate-webhooks-api
 - collection_type: open
   name: airSlate signNow REST API
   slug: open-airslate
@@ -155,7 +191,7 @@ plans:
 - name: Airslate Plans Pricing
   plan_count: 1
   slug: airslate-plans-pricing
-random_paper: 13
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Airslate Rate Limits
@@ -180,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/screenshots/airslate-2026-06-20T171429.png
 security:

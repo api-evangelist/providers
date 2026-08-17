@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,11 +59,36 @@ apis:
 - description: A Transfer is a record of funds sent to a Relationship.
   name: Palla Transfers API
   slug: palla-transfers-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Palla Webhooks
   slug: palla-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Palla Platform Partner Accounts API
+  slug: open-palla-accounts-api
+- collection_type: open
+  name: Palla Platform Partner Accounts Auth API
+  slug: open-palla-auth-api
+- collection_type: open
+  name: Palla Platform Partner Accounts Health API
+  slug: open-palla-health-api
+- collection_type: open
+  name: Palla Platform Partner Accounts Links API
+  slug: open-palla-links-api
+- collection_type: open
+  name: Palla Platform Partner Accounts Payment Methods API
+  slug: open-palla-payment-methods-api
+- collection_type: open
+  name: Palla Platform Partner Accounts Relationships API
+  slug: open-palla-relationships-api
+- collection_type: open
+  name: Palla Platform Partner Accounts Transfers API
+  slug: open-palla-transfers-api
 common:
 - group: other
   title: ''
@@ -200,7 +225,7 @@ overview: 'Palla publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Palla''s developer surface includes documentation, API reference, authentication, and 26 more developer resources.'
-random_paper: 42
+random_paper: 75
 score:
   band: developing
   composite: 46.9
@@ -230,7 +255,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/screenshots/palla-2026-08-07T191320.png
 security:

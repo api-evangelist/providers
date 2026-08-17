@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Reservation data model and delivery surface published at api.exploretock.com. Reservation records (bookings, ticketed experiences, takeout/delivery orders, parties, pricing, payments, refunds, notes, '
@@ -38,8 +38,11 @@ apis:
 - description: Guest (CRM) data model and ingest surface published at api.exploretock.com. Guest profiles capture contact details, dietary restrictions and preferences, tags, per-business and group-level notes and s
   name: Tock Guest API
   slug: guest-api
-artifact_total: 170
+artifact_total: 171
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Tock Guest Model
   slug: open-tock-guest-profile
@@ -597,7 +600,7 @@ plans:
 - name: Tock Plans Pricing
   plan_count: 2
   slug: tock-plans-pricing
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 3
   name: Tock Rate Limits
@@ -624,7 +627,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/screenshots/tock-2026-06-20T195428.png
 security:

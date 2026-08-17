@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: The Scoring API from ReasonBlocks — 1 operation(s) for scoring.
   name: ReasonBlocks Scoring API
   slug: reasonblocks-scoring-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ReasonBlocks Billing API
+  slug: open-reasonblocks-billing-api
+- collection_type: open
+  name: ReasonBlocks Billing Codebase Findings API
+  slug: open-reasonblocks-codebase-findings-api
+- collection_type: open
+  name: ReasonBlocks Billing Health API
+  slug: open-reasonblocks-health-api
+- collection_type: open
+  name: ReasonBlocks Billing monitor API
+  slug: open-reasonblocks-monitor-api
+- collection_type: open
+  name: ReasonBlocks Billing Monitor Telemetry API
+  slug: open-reasonblocks-monitor-telemetry-api
+- collection_type: open
+  name: ReasonBlocks Billing Monitors API
+  slug: open-reasonblocks-monitors-api
+- collection_type: open
+  name: ReasonBlocks Billing Pattern Library API
+  slug: open-reasonblocks-pattern-library-api
+- collection_type: open
+  name: ReasonBlocks Billing Patterns & Traces API
+  slug: open-reasonblocks-patterns-traces-api
+- collection_type: open
+  name: ReasonBlocks Billing Scoring API
+  slug: open-reasonblocks-scoring-api
 common:
 - group: start
   title: ''
@@ -171,7 +202,7 @@ overview: 'ReasonBlocks publishes 9 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ReasonBlocks'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 17 more developer resources.'
-random_paper: 86
+random_paper: 94
 score:
   band: thin
   composite: 36.3
@@ -195,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

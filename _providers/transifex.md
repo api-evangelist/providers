@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -93,7 +93,65 @@ apis:
 - description: Represents Transifex's users.
   name: Transifex Users API
   slug: transifex-users-api
-artifact_total: 35
+artifact_total: 54
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Transifex Activity Reports API
+  slug: open-transifex-activity-reports-api
+- collection_type: open
+  name: Transifex Activity Reports Context Screenshots API
+  slug: open-transifex-context-screenshots-api
+- collection_type: open
+  name: Transifex Activity Reports Glossaries API
+  slug: open-transifex-glossaries-api
+- collection_type: open
+  name: Transifex Activity Reports I18n Formats API
+  slug: open-transifex-i18n-formats-api
+- collection_type: open
+  name: Transifex Activity Reports Languages API
+  slug: open-transifex-languages-api
+- collection_type: open
+  name: Transifex Activity Reports Organizations API
+  slug: open-transifex-organizations-api
+- collection_type: open
+  name: Transifex Activity Reports Project Webhooks API
+  slug: open-transifex-project-webhooks-api
+- collection_type: open
+  name: Transifex Activity Reports Projects API
+  slug: open-transifex-projects-api
+- collection_type: open
+  name: Transifex Activity Reports Resource String Comments API
+  slug: open-transifex-resource-string-comments-api
+- collection_type: open
+  name: Transifex Activity Reports Resource Strings API
+  slug: open-transifex-resource-strings-api
+- collection_type: open
+  name: Transifex Activity Reports Resource Translations API
+  slug: open-transifex-resource-translations-api
+- collection_type: open
+  name: Transifex Activity Reports Resources API
+  slug: open-transifex-resources-api
+- collection_type: open
+  name: Transifex Activity Reports Statistics API
+  slug: open-transifex-statistics-api
+- collection_type: open
+  name: Transifex Activity Reports Tasks API
+  slug: open-transifex-tasks-api
+- collection_type: open
+  name: Transifex Activity Reports Team Memberships API
+  slug: open-transifex-team-memberships-api
+- collection_type: open
+  name: Transifex Activity Reports Teams API
+  slug: open-transifex-teams-api
+- collection_type: open
+  name: Transifex Activity Reports Translation Memory API
+  slug: open-transifex-translation-memory-api
+- collection_type: open
+  name: Transifex Activity Reports Users API
+  slug: open-transifex-users-api
 common:
 - group: agent
   title: ''
@@ -209,7 +267,7 @@ plans:
 - name: Transifex Plans Pricing
   plan_count: 3
   slug: transifex-plans-pricing
-random_paper: 20
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Transifex Rate Limits
@@ -243,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/screenshots/transifex-2026-06-20T195541.png
 security:

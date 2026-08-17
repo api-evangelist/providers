@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 5
@@ -111,12 +111,84 @@ apis:
 - description: Operations for video upload and processing.
   name: Bluesky Video API
   slug: bluesky-video-api
-artifact_total: 35
+artifact_total: 59
 asyncapis:
 - description: 'AsyncAPI definition for the public event streams of the Bluesky network and the underlying AT Protocol. Three streams are documented: * **`com.atproto.sync.subscribeRepos`** - the primary repository e'
   name: Bluesky / AT Protocol Event Streams
   slug: bluesky-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bluesky Social Actor Profiles API
+  slug: open-bluesky-actor-profiles-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Administration API
+  slug: open-bluesky-administration-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Chat Actors API
+  slug: open-bluesky-chat-actors-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Chat Moderation API
+  slug: open-bluesky-chat-moderation-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Content Labels API
+  slug: open-bluesky-content-labels-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Conversations API
+  slug: open-bluesky-conversations-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Feeds API
+  slug: open-bluesky-feeds-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Identity API
+  slug: open-bluesky-identity-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Labels API
+  slug: open-bluesky-labels-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Moderation API
+  slug: open-bluesky-moderation-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Notifications API
+  slug: open-bluesky-notifications-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Ozone Communication API
+  slug: open-bluesky-ozone-communication-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Ozone Moderation API
+  slug: open-bluesky-ozone-moderation-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Ozone Server API
+  slug: open-bluesky-ozone-server-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Ozone Sets API
+  slug: open-bluesky-ozone-sets-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Ozone Settings API
+  slug: open-bluesky-ozone-settings-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Ozone Signatures API
+  slug: open-bluesky-ozone-signatures-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Ozone Team API
+  slug: open-bluesky-ozone-team-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Repository API
+  slug: open-bluesky-repository-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Server API
+  slug: open-bluesky-server-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Social Graph API
+  slug: open-bluesky-social-graph-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Sync API
+  slug: open-bluesky-sync-api
+- collection_type: open
+  name: Bluesky Social Actor Profiles Video API
+  slug: open-bluesky-video-api
 - collection_type: open
   name: Bluesky Social API
   slug: open-bluesky
@@ -263,7 +335,7 @@ plans:
 - name: Bluesky Plans Pricing
   plan_count: 3
   slug: bluesky-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Bluesky Rate Limits
@@ -297,7 +369,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/screenshots/bluesky-2026-06-20T173536.png
 security:

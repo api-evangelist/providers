@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ arazzos:
 - description: Create a reusable Saved Filter and apply it to a new Cost Report.
   name: Vantage Reuse a Saved Filter on a New Cost Report
   slug: vantage-saved-filter-to-cost-report-workflow
-artifact_total: 235
+artifact_total: 261
 collections:
 - collection_type: postman
   name: Vantage Cloud Pricing API
@@ -158,11 +158,89 @@ collections:
   name: Vantage Cost Management API
   slug: postman-vantage-cost-management-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants API
+  slug: open-vantage-access-grants-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Anomaly Alerts API
+  slug: open-vantage-anomaly-alerts-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Budget Alerts API
+  slug: open-vantage-budget-alerts-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Business Metrics API
+  slug: open-vantage-business-metrics-api
+- collection_type: open
   name: Vantage Cloud Pricing API
   slug: open-vantage-cloud-pricing-api
 - collection_type: open
   name: Vantage Cost Management API
   slug: open-vantage-cost-management-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Cost Providers API
+  slug: open-vantage-cost-providers-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Cost Reports API
+  slug: open-vantage-cost-reports-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Costs API
+  slug: open-vantage-costs-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Dashboards API
+  slug: open-vantage-dashboards-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Financial Commitment Reports API
+  slug: open-vantage-financial-commitment-reports-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Folders API
+  slug: open-vantage-folders-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Integrations API
+  slug: open-vantage-integrations-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Kubernetes API
+  slug: open-vantage-kubernetes-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Managed Accounts API
+  slug: open-vantage-managed-accounts-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Network Flow Reports API
+  slug: open-vantage-network-flow-reports-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Prices API
+  slug: open-vantage-prices-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Products API
+  slug: open-vantage-products-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Providers API
+  slug: open-vantage-providers-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Recommendations API
+  slug: open-vantage-recommendations-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Resource Reports API
+  slug: open-vantage-resource-reports-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Resources API
+  slug: open-vantage-resources-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Saved Filters API
+  slug: open-vantage-saved-filters-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Segments API
+  slug: open-vantage-segments-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Services API
+  slug: open-vantage-services-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Teams API
+  slug: open-vantage-teams-api
+- collection_type: open
+  name: Vantage Cloud Pricing Access Grants Workspaces API
+  slug: open-vantage-workspaces-api
 common:
 - group: agent
   title: ''
@@ -812,7 +890,7 @@ plans:
 - name: Vantage Plans Pricing
   plan_count: 3
   slug: vantage-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Vantage Rate Limits
@@ -854,7 +932,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/screenshots/vantage-2026-06-20T200813.png
 security:

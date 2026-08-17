@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: User account, sign-in, sessions, settings
@@ -85,11 +85,69 @@ apis:
 - description: Tenant CRUD, config, structure
   name: LaserData Tenants API
   slug: laserdata-tenants-api
-artifact_total: 23
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Laserdata Notifications Webhooks
   slug: laserdata-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LaserData Cloud Audit Account API
+  slug: open-laserdata-account-api
+- collection_type: open
+  name: LaserData Cloud Audit Account API Keys API
+  slug: open-laserdata-api-keys-api
+- collection_type: open
+  name: LaserData Cloud Account Audit API
+  slug: open-laserdata-audit-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Billing API
+  slug: open-laserdata-billing-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Cloud Accounts API
+  slug: open-laserdata-cloud-accounts-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Clouds API
+  slug: open-laserdata-clouds-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Connectors API
+  slug: open-laserdata-connectors-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Deployments API
+  slug: open-laserdata-deployments-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Divisions API
+  slug: open-laserdata-divisions-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Environments API
+  slug: open-laserdata-environments-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Invitations API
+  slug: open-laserdata-invitations-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Members API
+  slug: open-laserdata-members-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Notification Channels API
+  slug: open-laserdata-notification-channels-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Notification Subscriptions API
+  slug: open-laserdata-notification-subscriptions-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Notifications API
+  slug: open-laserdata-notifications-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Payments API
+  slug: open-laserdata-payments-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Roles API
+  slug: open-laserdata-roles-api
+- collection_type: open
+  name: LaserData Cloud Audit Account Tenants API
+  slug: open-laserdata-tenants-api
 common:
 - group: other
   title: ''
@@ -242,7 +300,7 @@ overview: 'LaserData publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LaserData''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 26 more developer resources.'
-random_paper: 105
+random_paper: 51
 score:
   band: strong
   composite: 57.6
@@ -265,7 +323,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/screenshots/laserdata-2026-07-25T224540.png
 security:

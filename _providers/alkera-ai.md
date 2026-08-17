@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,7 +112,7 @@ overview: 'Alkera Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Alkera Ai''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, CLI, and 11 more developer resources.'
-random_paper: 31
+random_paper: 126
 score:
   band: emerging
   composite: 23.7
@@ -126,7 +126,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 23.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkera-ai/refs/heads/main/screenshots/alkera-ai-2026-07-25T195631.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -72,8 +72,38 @@ apis:
 - description: The Systems API from Enphase Energy — 13 operation(s) for systems.
   name: Enphase Energy Systems API
   slug: enphase-energy-systems-api
-artifact_total: 29
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Enlighten Systems Device Level Production Monitoring API
+  slug: open-enphase-energy-device-level-production-monitoring-api
+- collection_type: open
+  name: The Enlighten Systems Device Level Production Monitoring EV Charger Control API
+  slug: open-enphase-energy-ev-charger-control-api
+- collection_type: open
+  name: The Enlighten Systems Device Level Production Monitoring EV Charger Monitoring API
+  slug: open-enphase-energy-ev-charger-monitoring-api
+- collection_type: open
+  name: The Enlighten Systems Device Level Production Monitoring Site Level Consumption Monitoring API
+  slug: open-enphase-energy-site-level-consumption-monitoring-api
+- collection_type: open
+  name: The Enlighten Systems Device Level Production Monitoring Site Level Production Monitoring API
+  slug: open-enphase-energy-site-level-production-monitoring-api
+- collection_type: open
+  name: The Enlighten Systems Device Level Production Monitoring Streaming APIs API
+  slug: open-enphase-energy-streaming-apis-api
+- collection_type: open
+  name: The Enlighten Systems Device Level Production Monitoring System Configurations API
+  slug: open-enphase-energy-system-configurations-api
+- collection_type: open
+  name: The Enlighten Systems Device Level Production Monitoring System Details API
+  slug: open-enphase-energy-system-details-api
+- collection_type: open
+  name: The Enlighten Device Level Production Monitoring Systems API
+  slug: open-enphase-energy-systems-api
 - collection_type: open
   name: The Enlighten Systems API
   slug: open-enphase-enlighten-v2
@@ -201,7 +231,7 @@ plans:
 - name: Enphase Energy Plans Pricing
   plan_count: 5
   slug: enphase-energy-plans-pricing
-random_paper: 115
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Enphase Energy Rate Limits
@@ -249,7 +279,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/screenshots/enphase-energy-2026-06-20T180721.png
 security:

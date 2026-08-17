@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -81,11 +81,57 @@ apis:
 - description: The Webhooks API from Jinba — 3 operation(s) for webhooks.
   name: Jinba Webhooks API
   slug: jinba-webhooks-api
-artifact_total: 19
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Jinba Toolbox Webhooks
   slug: jinba-toolbox-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jinba Flow External API Keys API
+  slug: open-jinba-api-keys-api
+- collection_type: open
+  name: Jinba Flow External API Keys Credits API
+  slug: open-jinba-credits-api
+- collection_type: open
+  name: Jinba Flow External API Keys Execution API
+  slug: open-jinba-execution-api
+- collection_type: open
+  name: Jinba Flow External API Keys Explore API
+  slug: open-jinba-explore-api
+- collection_type: open
+  name: Jinba Flow External API Keys Flows API
+  slug: open-jinba-flows-api
+- collection_type: open
+  name: Jinba Flow External API Keys MCP API
+  slug: open-jinba-mcp-api
+- collection_type: open
+  name: Jinba Flow External API Keys Members API
+  slug: open-jinba-members-api
+- collection_type: open
+  name: Jinba Flow External API Keys Organizations API
+  slug: open-jinba-organizations-api
+- collection_type: open
+  name: Jinba Flow External API Keys Public API
+  slug: open-jinba-public-api
+- collection_type: open
+  name: Jinba Flow External API Keys Runs API
+  slug: open-jinba-runs-api
+- collection_type: open
+  name: Jinba Flow External API Keys Tools API
+  slug: open-jinba-tools-api
+- collection_type: open
+  name: Jinba Flow External API Keys ToolSets API
+  slug: open-jinba-toolsets-api
+- collection_type: open
+  name: Jinba Flow External API Keys Versions API
+  slug: open-jinba-versions-api
+- collection_type: open
+  name: Jinba Flow External API Keys Webhooks API
+  slug: open-jinba-webhooks-api
 common:
 - group: other
   title: ''
@@ -219,7 +265,7 @@ overview: 'Jinba publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Jinba''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 36
+random_paper: 69
 score:
   band: developing
   composite: 53.4
@@ -243,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/screenshots/jinba-2026-07-25T223154.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -93,8 +93,62 @@ apis:
 - description: The Users API from Cvent Social Tables — 1 operation(s) for users.
   name: Cvent Social Tables Users API
   slug: cvent-social-tables-users-api
-artifact_total: 26
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Social Tables API Gateway Authentication API
+  slug: open-cvent-social-tables-authentication-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Diagram Favorites API
+  slug: open-cvent-social-tables-diagram-favorites-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Diagram Layouts API
+  slug: open-cvent-social-tables-diagram-layouts-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Diagram Template Presets API
+  slug: open-cvent-social-tables-diagram-template-presets-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Diagrams API
+  slug: open-cvent-social-tables-diagrams-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Events API
+  slug: open-cvent-social-tables-events-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Guest Checkin API
+  slug: open-cvent-social-tables-guest-checkin-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Guest Groups API
+  slug: open-cvent-social-tables-guest-groups-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Guest Lists API
+  slug: open-cvent-social-tables-guest-lists-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Guest Meals API
+  slug: open-cvent-social-tables-guest-meals-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Guest Tags API
+  slug: open-cvent-social-tables-guest-tags-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Guests API
+  slug: open-cvent-social-tables-guests-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Layout Automation API
+  slug: open-cvent-social-tables-layout-automation-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Properties API
+  slug: open-cvent-social-tables-properties-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Rooms API
+  slug: open-cvent-social-tables-rooms-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication SNC Event Integration API
+  slug: open-cvent-social-tables-snc-event-integration-api
+- collection_type: open
+  name: Social Tables API Gateway Authentication Users API
+  slug: open-cvent-social-tables-users-api
 - collection_type: open
   name: Social Tables API Gateway
   slug: open-cvent-social-tables
@@ -187,7 +241,7 @@ plans:
 - name: Cvent Social Tables Plans Pricing
   plan_count: 3
   slug: cvent-social-tables-plans-pricing
-random_paper: 104
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Cvent Social Tables Rate Limits
@@ -217,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/screenshots/cvent-social-tables-2026-06-20T175404.png
 security:

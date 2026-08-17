@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Artillery Cloud provides a hosted platform for running distributed load tests at scale, storing test results, team collaboration, and integrating with CI/CD pipelines. The Artillery Cloud API enables '
@@ -142,7 +142,7 @@ plans:
 - name: Artillery Plans Pricing
   plan_count: 3
   slug: artillery-plans-pricing
-random_paper: 24
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Artillery Rate Limits
@@ -160,7 +160,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artillery/refs/heads/main/screenshots/artillery-2026-06-20T172444.png
 security:

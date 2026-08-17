@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -47,7 +47,7 @@ name: guidewell-mutual
 nav: Providers
 network: true
 overview: guidewell-mutual is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 111
+random_paper: 32
 score:
   band: minimal
   composite: 2.6
@@ -61,7 +61,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: guidewell-mutual
 website: https://www.guidewell-mutual.com

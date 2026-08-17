@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The Bookings API from GetYourGuide — 2 operation(s) for bookings.
@@ -59,7 +59,32 @@ arazzos:
 - description: Search the GetYourGuide marketplace, pick a tour option, check availability, then create and confirm a booking via the two-step cart flow.
   name: Search a tour and create a booking
   slug: getyourguide-search-and-book
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Partner Api Bookings API
+  slug: open-getyourguide-bookings-api
+- collection_type: open
+  name: Partner Api Bookings Carts API
+  slug: open-getyourguide-carts-api
+- collection_type: open
+  name: Partner Api Bookings Categories API
+  slug: open-getyourguide-categories-api
+- collection_type: open
+  name: Partner Api Bookings Configuration API
+  slug: open-getyourguide-configuration-api
+- collection_type: open
+  name: Partner Api Bookings Options API
+  slug: open-getyourguide-options-api
+- collection_type: open
+  name: Partner Api Bookings Suppliers API
+  slug: open-getyourguide-suppliers-api
+- collection_type: open
+  name: Partner Api Bookings Tours API
+  slug: open-getyourguide-tours-api
 common:
 - group: other
   title: ''
@@ -185,7 +210,7 @@ overview: 'GetYourGuide publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   GetYourGuide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 109
+random_paper: 117
 score:
   band: developing
   composite: 43.2
@@ -208,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/screenshots/getyourguide-2026-07-25T215748.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Health checks and capability discovery.
@@ -40,7 +40,20 @@ apis:
 - description: Per-key usage and metering.
   name: Kalpa Labs Usage API
   slug: kalpa-labs-usage-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kalpa Speech Meta API
+  slug: open-kalpa-labs-meta-api
+- collection_type: open
+  name: Kalpa Meta Speech API
+  slug: open-kalpa-labs-speech-api
+- collection_type: open
+  name: Kalpa Speech Meta Usage API
+  slug: open-kalpa-labs-usage-api
 common:
 - group: company
   title: ''
@@ -150,7 +163,7 @@ overview: 'Kalpa Labs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kalpa Labs'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, authentication, and 17 more developer resources.'
-random_paper: 24
+random_paper: 90
 rate_limits:
 - limit_count: 0
   name: Kalpa Labs Rate Limits
@@ -177,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/screenshots/kalpa-labs-2026-07-25T223437.png
 security:

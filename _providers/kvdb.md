@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Custom Lua script management and execution
   name: KVdb Scripts API
   slug: kvdb-scripts-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: KVdb Buckets API
+  slug: open-kvdb-buckets-api
+- collection_type: open
+  name: KVdb Buckets Keys API
+  slug: open-kvdb-keys-api
+- collection_type: open
+  name: KVdb Buckets Scripts API
+  slug: open-kvdb-scripts-api
 - collection_type: open
   name: KVdb API
   slug: open-kvdb
@@ -98,7 +110,7 @@ plans:
 - name: Kvdb Plans Pricing
   plan_count: 3
   slug: kvdb-plans-pricing
-random_paper: 63
+random_paper: 125
 rate_limits:
 - limit_count: 5
   name: Kvdb Rate Limits
@@ -123,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/screenshots/kvdb-2026-06-20T184222.png
 security:

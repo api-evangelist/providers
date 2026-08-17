@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: OAuth access keys are created in Merchant Dashboard and can be exchanged for bearer tokens. Use the `/access-keys/token` endpoint to mint a bearer token from a valid `client_id` and `client_secret`.
@@ -67,7 +67,7 @@ apis:
 - description: Webhooks allow you to receive real-time notifications about events in your Resolve account. When an event occurs, Resolve sends an HTTP POST request to your configured webhook endpoint with details ab
   name: Resolve Webhooks API
   slug: resolve-webhooks-api
-artifact_total: 30
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Resolve Webhooks
@@ -109,6 +109,45 @@ collections:
 - collection_type: postman
   name: Resolve API Reference Access Keys Webhooks API
   slug: postman-resolve-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Resolve API Reference Access Keys API
+  slug: open-resolve-access-keys-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Charges API
+  slug: open-resolve-charges-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Credit Notes API
+  slug: open-resolve-credit-notes-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Customers API
+  slug: open-resolve-customers-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Invoices API
+  slug: open-resolve-invoices-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Merchants API
+  slug: open-resolve-merchants-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Orders API
+  slug: open-resolve-orders-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Payments API
+  slug: open-resolve-payments-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Payout Transactions API
+  slug: open-resolve-payout-transactions-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Payouts API
+  slug: open-resolve-payouts-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Shipments API
+  slug: open-resolve-shipments-api
+- collection_type: open
+  name: Resolve API Reference Access Keys Webhooks API
+  slug: open-resolve-webhooks-api
 common:
 - group: other
   title: ''
@@ -265,7 +304,7 @@ overview: 'Resolve publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 48
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Resolve Rate Limits
@@ -303,7 +342,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

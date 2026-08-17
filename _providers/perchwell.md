@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -62,7 +62,32 @@ apis:
 - description: RESO Property resource (listings; Media is nested).
   name: Perchwell Property API
   slug: perchwell-property-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Perchwell JSON Listings API
+  slug: open-perchwell-listings-api
+- collection_type: open
+  name: Perchwell JSON Listings Media API
+  slug: open-perchwell-media-api
+- collection_type: open
+  name: Perchwell JSON Listings Member API
+  slug: open-perchwell-member-api
+- collection_type: open
+  name: Perchwell JSON Listings Metadata API
+  slug: open-perchwell-metadata-api
+- collection_type: open
+  name: Perchwell JSON Listings Office API
+  slug: open-perchwell-office-api
+- collection_type: open
+  name: Perchwell JSON Listings OpenHouse API
+  slug: open-perchwell-openhouse-api
+- collection_type: open
+  name: Perchwell JSON Listings Property API
+  slug: open-perchwell-property-api
 common:
 - group: agent
   title: ''
@@ -184,7 +209,7 @@ overview: 'Perchwell publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Perchwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 6
+random_paper: 72
 score:
   band: developing
   composite: 44.9
@@ -208,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

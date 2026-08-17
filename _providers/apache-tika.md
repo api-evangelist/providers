@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -77,8 +77,47 @@ apis:
 - description: The Unpack API from Apache Tika — 2 operation(s) for unpack.
   name: Apache Tika Unpack API
   slug: apache-tika-unpack-api
-artifact_total: 36
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API API
+  slug: open-apache-tika-apache-tika-server-rest-api-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Detect API
+  slug: open-apache-tika-detect-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Detectors API
+  slug: open-apache-tika-detectors-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Language API
+  slug: open-apache-tika-language-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Meta API
+  slug: open-apache-tika-meta-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Mime Types API
+  slug: open-apache-tika-mime-types-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Parsers API
+  slug: open-apache-tika-parsers-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Rmeta API
+  slug: open-apache-tika-rmeta-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Status API
+  slug: open-apache-tika-status-api
+- collection_type: open
+  name: Apache Server REST Apache Server REST API Tika API
+  slug: open-apache-tika-tika-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Translate API
+  slug: open-apache-tika-translate-api
+- collection_type: open
+  name: Apache Tika Server REST Apache Tika Server REST API Unpack API
+  slug: open-apache-tika-unpack-api
 - collection_type: open
   name: Apache Tika Server REST API
   slug: open-apache-tika
@@ -189,7 +228,7 @@ plans:
 - name: Apache Tika Plans Pricing
   plan_count: 3
   slug: apache-tika-plans-pricing
-random_paper: 0
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Apache Tika Rate Limits
@@ -214,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/screenshots/apache-tika-2026-06-20T172153.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,7 +52,23 @@ apis:
 - description: Operations about QR codes
   name: Gravatar qr-code API
   slug: gravatar-qr-code-api
-artifact_total: 37
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gravatar Public avatars API
+  slug: open-gravatar-avatars-api
+- collection_type: open
+  name: Gravatar Public avatars experimental API
+  slug: open-gravatar-experimental-api
+- collection_type: open
+  name: Gravatar Public avatars profiles API
+  slug: open-gravatar-profiles-api
+- collection_type: open
+  name: Gravatar Public avatars qr-code API
+  slug: open-gravatar-qr-code-api
 common:
 - group: agent
   title: ''
@@ -229,7 +245,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -268,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/screenshots/gravatar-2026-06-20T182344.png
 security:

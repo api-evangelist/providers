@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -81,14 +81,56 @@ apis:
 - description: Record on-site visits for installation or service
   name: Lunar Energy Visits API
   slug: lunar-energy-visits-api
-artifact_total: 54
+artifact_total: 68
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Gridshare Customer API
   slug: open-gridshare-customer-api
 - collection_type: open
   name: Gridshare Partner API
   slug: open-gridshare-partner-api
+- collection_type: open
+  name: Gridshare Customer Devices API
+  slug: open-lunar-energy-devices-api
+- collection_type: open
+  name: Gridshare Customer Devices Diff Requests API
+  slug: open-lunar-energy-diff-requests-api
+- collection_type: open
+  name: Gridshare Customer Devices Dynamic Tariffs API
+  slug: open-lunar-energy-dynamic-tariffs-api
+- collection_type: open
+  name: Gridshare Customer Devices Flex Dispatches API
+  slug: open-lunar-energy-flex-dispatches-api
+- collection_type: open
+  name: Gridshare Customer Devices Flex Events API
+  slug: open-lunar-energy-flex-events-api
+- collection_type: open
+  name: Gridshare Customer Devices Flex Groups API
+  slug: open-lunar-energy-flex-groups-api
+- collection_type: open
+  name: Gridshare Customer Devices Operation Mode API
+  slug: open-lunar-energy-operation-mode-api
+- collection_type: open
+  name: Gridshare Customer Devices Periodical Tariffs API
+  slug: open-lunar-energy-periodical-tariffs-api
+- collection_type: open
+  name: Gridshare Customer Devices Plans API
+  slug: open-lunar-energy-plans-api
+- collection_type: open
+  name: Gridshare Customer Devices Prognoses API
+  slug: open-lunar-energy-prognoses-api
+- collection_type: open
+  name: Gridshare Customer Devices Sites API
+  slug: open-lunar-energy-sites-api
+- collection_type: open
+  name: Gridshare Customer Devices Telemetry API
+  slug: open-lunar-energy-telemetry-api
+- collection_type: open
+  name: Gridshare Customer Devices Visits API
+  slug: open-lunar-energy-visits-api
 common:
 - group: agent
   title: ''
@@ -282,7 +324,7 @@ plans:
 - name: Lunar Energy Plans Pricing
   plan_count: 4
   slug: lunar-energy-plans-pricing
-random_paper: 41
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Lunar Energy Rate Limits
@@ -335,7 +377,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/screenshots/lunar-energy-2026-06-20T184758.png
 security:

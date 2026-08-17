@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,11 +57,29 @@ apis:
 - description: User and team management operations
   name: Stanley Black & Decker Users API
   slug: stanley-black-and-decker-users-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stanley Black & Decker Tool Connect Assets API
+  slug: open-stanley-black-and-decker-assets-api
+- collection_type: open
+  name: Stanley Black & Decker Tool Connect Assets Batteries API
+  slug: open-stanley-black-and-decker-batteries-api
+- collection_type: open
+  name: Stanley Black & Decker Tool Connect Assets Jobsites API
+  slug: open-stanley-black-and-decker-jobsites-api
 - collection_type: open
   name: Stanley Black & Decker Tool Connect API
   slug: open-stanley-black-and-decker-tool-connect-api
+- collection_type: open
+  name: Stanley Black & Decker Tool Connect Assets Tools API
+  slug: open-stanley-black-and-decker-tools-api
+- collection_type: open
+  name: Stanley Black & Decker Tool Connect Assets Users API
+  slug: open-stanley-black-and-decker-users-api
 common:
 - group: agent
   title: ''
@@ -177,7 +195,7 @@ press:
 - date: '2026-05-25'
   title: H2O.ai Empowers Stanley Black & Decker to Develop ...
   url: https://h2o.ai/company/press-media/2018/h2o-ai-empowers-stanley-black-decker-to-develop-innovative-manufacturing-processes/
-random_paper: 61
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: Stanley Black And Decker Rate Limits
@@ -219,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/screenshots/stanley-black-and-decker-2026-06-20T194505.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Tags API from Radio Cult — 1 operation(s) for tags.
   name: Radio Cult Tags API
   slug: radio-cult-tags-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Radio Cult Artists API
+  slug: open-radio-cult-artists-api
+- collection_type: open
+  name: Radio Cult Artists Media API
+  slug: open-radio-cult-media-api
+- collection_type: open
+  name: Radio Cult Artists Playlists API
+  slug: open-radio-cult-playlists-api
+- collection_type: open
+  name: Radio Cult Artists Recordings API
+  slug: open-radio-cult-recordings-api
+- collection_type: open
+  name: Radio Cult Artists Schedule API
+  slug: open-radio-cult-schedule-api
+- collection_type: open
+  name: Radio Cult Artists Streaming API
+  slug: open-radio-cult-streaming-api
+- collection_type: open
+  name: Radio Cult Artists Tags API
+  slug: open-radio-cult-tags-api
 - collection_type: open
   name: Radio Cult API
   slug: open-radio-cult
@@ -106,7 +130,7 @@ plans:
 - name: Radio Cult Plans Pricing
   plan_count: 3
   slug: radio-cult-plans-pricing
-random_paper: 52
+random_paper: 118
 rate_limits:
 - limit_count: 5
   name: Radio Cult Rate Limits
@@ -131,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/screenshots/radio-cult-2026-06-20T192517.png
 security:

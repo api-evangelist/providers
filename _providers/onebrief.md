@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ overview: 'Onebrief is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Onebrief''s developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 2
+random_paper: 97
 score:
   band: minimal
   composite: 12.9
@@ -90,7 +90,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onebrief/refs/heads/main/screenshots/onebrief-2026-08-07T190301.png
 security:

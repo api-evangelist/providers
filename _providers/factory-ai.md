@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: TypeScript SDK for building, invoking, and orchestrating Droids. Public source on GitHub at Factory-AI/droid-sdk-typescript.
@@ -197,7 +197,7 @@ plans:
 - name: Factory Ai Plans Pricing
   plan_count: 1
   slug: factory-ai-plans-pricing
-random_paper: 47
+random_paper: 113
 rate_limits:
 - limit_count: 2
   name: Factory Ai Rate Limits
@@ -215,7 +215,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factory-ai/refs/heads/main/screenshots/factory-ai-2026-06-20T181010.png
 security:

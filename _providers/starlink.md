@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -50,11 +50,15 @@ apis:
 - description: 'The API behind space-safety.starlink.com, SpaceX''s free conjunction screening and maneuver coordination platform for satellite operators. Version 0.1 of the reference documents five resource groups - '
   name: Starlink Space Traffic Coordination API
   slug: starlink-space-traffic-coordination-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: 'Event surface for Starlink enterprise device telemetry. Starlink exposes it as a poll-based JSON-over-HTTP stream rather than a broker: the consumer makes continuous small-batch POST requests to /publ'
   name: Starlink Telemetry Stream and Device Alerts
   slug: starlink-telemetry-asyncapi
+collections:
+- collection_type: open
+  name: Starlink Public API
+  slug: open-starlink-public-api-v2
 common:
 - group: company
   title: ''
@@ -268,7 +272,7 @@ overview: 'Starlink publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Starlink''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, developer portal, and 41 more developer resources.'
-random_paper: 32
+random_paper: 127
 rate_limits:
 - limit_count: 3
   name: Starlink Rate Limits
@@ -307,7 +311,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

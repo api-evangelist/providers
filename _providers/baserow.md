@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 10
@@ -213,7 +213,185 @@ apis:
 - description: The Workspaces API from Baserow — 14 operation(s) for workspaces.
   name: Baserow Workspaces API
   slug: baserow-workspaces-api
-artifact_total: 68
+artifact_total: 127
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Baserow API spec Admin API
+  slug: open-baserow-admin-api
+- collection_type: open
+  name: Baserow API spec Admin Admin data scanner API
+  slug: open-baserow-admin-data-scanner-api
+- collection_type: open
+  name: Baserow API spec Admin AI Assistant API
+  slug: open-baserow-ai-assistant-api
+- collection_type: open
+  name: Baserow API spec Admin Applications API
+  slug: open-baserow-applications-api
+- collection_type: open
+  name: Baserow API spec Admin Audit log API
+  slug: open-baserow-audit-log-api
+- collection_type: open
+  name: Baserow API spec Admin Auth API
+  slug: open-baserow-auth-api
+- collection_type: open
+  name: Baserow API spec Admin Automation history API
+  slug: open-baserow-automation-history-api
+- collection_type: open
+  name: Baserow API spec Admin Automation nodes API
+  slug: open-baserow-automation-nodes-api
+- collection_type: open
+  name: Baserow API spec Admin Automation workflows API
+  slug: open-baserow-automation-workflows-api
+- collection_type: open
+  name: Baserow API spec Admin Builder data sources API
+  slug: open-baserow-builder-data-sources-api
+- collection_type: open
+  name: Baserow API spec Admin Builder domains API
+  slug: open-baserow-builder-domains-api
+- collection_type: open
+  name: Baserow API spec Admin Builder elements API
+  slug: open-baserow-builder-elements-api
+- collection_type: open
+  name: Baserow API spec Admin Builder pages API
+  slug: open-baserow-builder-pages-api
+- collection_type: open
+  name: Baserow API spec Admin Builder public API
+  slug: open-baserow-builder-public-api
+- collection_type: open
+  name: Baserow API spec Admin Builder theme API
+  slug: open-baserow-builder-theme-api
+- collection_type: open
+  name: Baserow API spec Admin Builder workflow actions API
+  slug: open-baserow-builder-workflow-actions-api
+- collection_type: open
+  name: Baserow API spec Admin Core webhooks API
+  slug: open-baserow-core-webhooks-api
+- collection_type: open
+  name: Baserow API spec Admin Dashboard data sources API
+  slug: open-baserow-dashboard-data-sources-api
+- collection_type: open
+  name: Baserow API spec Admin Dashboard widgets API
+  slug: open-baserow-dashboard-widgets-api
+- collection_type: open
+  name: Baserow API spec Admin Database table calendar view API
+  slug: open-baserow-database-table-calendar-view-api
+- collection_type: open
+  name: Baserow API spec Admin Database table export API
+  slug: open-baserow-database-table-export-api
+- collection_type: open
+  name: Baserow API spec Admin Database table fields API
+  slug: open-baserow-database-table-fields-api
+- collection_type: open
+  name: Baserow API spec Admin Database table form view API
+  slug: open-baserow-database-table-form-view-api
+- collection_type: open
+  name: Baserow API spec Admin Database table gallery view API
+  slug: open-baserow-database-table-gallery-view-api
+- collection_type: open
+  name: Baserow API spec Admin Database table grid view API
+  slug: open-baserow-database-table-grid-view-api
+- collection_type: open
+  name: Baserow API spec Admin Database table kanban view API
+  slug: open-baserow-database-table-kanban-view-api
+- collection_type: open
+  name: Baserow API spec Admin Database table rows API
+  slug: open-baserow-database-table-rows-api
+- collection_type: open
+  name: Baserow API spec Admin Database table timeline view API
+  slug: open-baserow-database-table-timeline-view-api
+- collection_type: open
+  name: Baserow API spec Admin Database table view decorations API
+  slug: open-baserow-database-table-view-decorations-api
+- collection_type: open
+  name: Baserow API spec Admin Database table view export API
+  slug: open-baserow-database-table-view-export-api
+- collection_type: open
+  name: Baserow API spec Admin Database table view filters API
+  slug: open-baserow-database-table-view-filters-api
+- collection_type: open
+  name: Baserow API spec Admin Database table view groupings API
+  slug: open-baserow-database-table-view-groupings-api
+- collection_type: open
+  name: Baserow API spec Admin Database table view sortings API
+  slug: open-baserow-database-table-view-sortings-api
+- collection_type: open
+  name: Baserow API spec Admin Database table views API
+  slug: open-baserow-database-table-views-api
+- collection_type: open
+  name: Baserow API spec Admin Database table webhooks API
+  slug: open-baserow-database-table-webhooks-api
+- collection_type: open
+  name: Baserow API spec Admin Database tables API
+  slug: open-baserow-database-tables-api
+- collection_type: open
+  name: Baserow API spec Admin Database tokens API
+  slug: open-baserow-database-tokens-api
+- collection_type: open
+  name: Baserow API spec Admin Field permissions API
+  slug: open-baserow-field-permissions-api
+- collection_type: open
+  name: Baserow API spec Admin Field rules API
+  slug: open-baserow-field-rules-api
+- collection_type: open
+  name: Baserow API spec Admin Health API
+  slug: open-baserow-health-api
+- collection_type: open
+  name: Baserow API spec Admin Integrations API
+  slug: open-baserow-integrations-api
+- collection_type: open
+  name: Baserow API spec Admin Jobs API
+  slug: open-baserow-jobs-api
+- collection_type: open
+  name: Baserow API spec Admin MCP endpoints API
+  slug: open-baserow-mcp-endpoints-api
+- collection_type: open
+  name: Baserow API spec Admin Notifications API
+  slug: open-baserow-notifications-api
+- collection_type: open
+  name: Baserow API spec Admin Role assignments API
+  slug: open-baserow-role-assignments-api
+- collection_type: open
+  name: Baserow API spec Admin Search API
+  slug: open-baserow-search-api
+- collection_type: open
+  name: Baserow API spec Admin Secure file serve API
+  slug: open-baserow-secure-file-serve-api
+- collection_type: open
+  name: Baserow API spec Admin Settings API
+  slug: open-baserow-settings-api
+- collection_type: open
+  name: Baserow API spec Admin Snapshots API
+  slug: open-baserow-snapshots-api
+- collection_type: open
+  name: Baserow API spec Admin Teams API
+  slug: open-baserow-teams-api
+- collection_type: open
+  name: Baserow API spec Admin Templates API
+  slug: open-baserow-templates-api
+- collection_type: open
+  name: Baserow API spec Admin Trash API
+  slug: open-baserow-trash-api
+- collection_type: open
+  name: Baserow API spec Admin User API
+  slug: open-baserow-user-api
+- collection_type: open
+  name: Baserow API spec Admin User files API
+  slug: open-baserow-user-files-api
+- collection_type: open
+  name: Baserow API spec Admin User source roles API
+  slug: open-baserow-user-source-roles-api
+- collection_type: open
+  name: Baserow API spec Admin User sources API
+  slug: open-baserow-user-sources-api
+- collection_type: open
+  name: Baserow API spec Admin Workspace invitations API
+  slug: open-baserow-workspace-invitations-api
+- collection_type: open
+  name: Baserow API spec Admin Workspaces API
+  slug: open-baserow-workspaces-api
 common:
 - group: operate
   title: ''
@@ -347,7 +525,7 @@ plans:
 - name: Baserow Plans Pricing
   plan_count: 4
   slug: baserow-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Baserow Rate Limits
@@ -381,7 +559,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/screenshots/baserow-2026-06-20T173022.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: The Models API from SambaNova — 1 operation(s) for models.
   name: SambaNova Models API
   slug: sambanova-models-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SambaCloud Chat API
+  slug: open-sambanova-chat-api
+- collection_type: open
+  name: SambaCloud Chat Completions API
+  slug: open-sambanova-completions-api
+- collection_type: open
+  name: SambaCloud Chat Embeddings API
+  slug: open-sambanova-embeddings-api
+- collection_type: open
+  name: SambaCloud Chat Models API
+  slug: open-sambanova-models-api
 - collection_type: open
   name: SambaCloud API
   slug: open-sambanova
@@ -136,7 +151,7 @@ plans:
 - name: Sambanova Plans Pricing
   plan_count: 1
   slug: sambanova-plans-pricing
-random_paper: 112
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Sambanova Rate Limits
@@ -161,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/screenshots/sambanova-2026-06-20T193358.png
 security:

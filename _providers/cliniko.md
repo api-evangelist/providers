@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Structured clinical notes about a patient visit.
   name: Cliniko Treatment Notes API
   slug: cliniko-treatment-notes-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cliniko Appointment Types API
+  slug: open-cliniko-appointment-types-api
+- collection_type: open
+  name: Cliniko Appointment Types Appointments API
+  slug: open-cliniko-appointments-api
+- collection_type: open
+  name: Cliniko Appointment Types Businesses API
+  slug: open-cliniko-businesses-api
+- collection_type: open
+  name: Cliniko Appointment Types Invoices API
+  slug: open-cliniko-invoices-api
+- collection_type: open
+  name: Cliniko Appointment Types Patients API
+  slug: open-cliniko-patients-api
+- collection_type: open
+  name: Cliniko Appointment Types Practitioners API
+  slug: open-cliniko-practitioners-api
+- collection_type: open
+  name: Cliniko Appointment Types Treatment Notes API
+  slug: open-cliniko-treatment-notes-api
 - collection_type: open
   name: Cliniko API
   slug: open-cliniko
@@ -126,7 +150,7 @@ plans:
 - name: Cliniko Plans Pricing
   plan_count: 8
   slug: cliniko-plans-pricing
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Cliniko Rate Limits
@@ -157,7 +181,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/screenshots/cliniko-2026-07-25T205628.png
 security:

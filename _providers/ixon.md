@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 460
   human_in_the_loop: 16
@@ -1116,8 +1116,1088 @@ apis:
 - description: The WebhookSubscriptionTriggerList API from IXON — 1 operation(s) for webhooksubscriptiontriggerlist.
   name: IXON WebhookSubscriptionTriggerList API
   slug: ixon-webhooksubscriptiontriggerlist-api
-artifact_total: 368
+artifact_total: 728
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IXON AccessRecoverList API
+  slug: open-ixon-accessrecoverlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AccessToken API
+  slug: open-ixon-accesstoken-api
+- collection_type: open
+  name: IXON AccessRecoverList AccessTokenList API
+  slug: open-ixon-accesstokenlist-api
+- collection_type: open
+  name: IXON AccessRecoverList Agent API
+  slug: open-ixon-agent-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequest API
+  slug: open-ixon-agentaccessrequest-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequestApprove API
+  slug: open-ixon-agentaccessrequestapprove-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequestApproverList API
+  slug: open-ixon-agentaccessrequestapproverlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequestAuthenticatedApprove API
+  slug: open-ixon-agentaccessrequestauthenticatedapprove-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequestAuthenticatedReject API
+  slug: open-ixon-agentaccessrequestauthenticatedreject-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequestInfo API
+  slug: open-ixon-agentaccessrequestinfo-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequestList API
+  slug: open-ixon-agentaccessrequestlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequestReject API
+  slug: open-ixon-agentaccessrequestreject-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequestResend API
+  slug: open-ixon-agentaccessrequestresend-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAccessRequestResendList API
+  slug: open-ixon-agentaccessrequestresendlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAppAlarming API
+  slug: open-ixon-agentappalarming-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAppAlarmingList API
+  slug: open-ixon-agentappalarminglist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAppAlarmingListActivate API
+  slug: open-ixon-agentappalarminglistactivate-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAppLogging API
+  slug: open-ixon-agentapplogging-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAppLoggingList API
+  slug: open-ixon-agentapplogginglist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAppLoggingListActivate API
+  slug: open-ixon-agentapplogginglistactivate-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentAuditLogList API
+  slug: open-ixon-agentauditloglist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentBackendComponentFunctionCall API
+  slug: open-ixon-agentbackendcomponentfunctioncall-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentConfigurationImport API
+  slug: open-ixon-agentconfigurationimport-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentControlKey API
+  slug: open-ixon-agentcontrolkey-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataAlarm API
+  slug: open-ixon-agentdataalarm-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataAlarmList API
+  slug: open-ixon-agentdataalarmlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataAlarmOccurrence API
+  slug: open-ixon-agentdataalarmoccurrence-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataAlarmOccurrenceLatestList API
+  slug: open-ixon-agentdataalarmoccurrencelatestlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataAlarmOccurrenceList API
+  slug: open-ixon-agentdataalarmoccurrencelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataCondition API
+  slug: open-ixon-agentdatacondition-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataConditionList API
+  slug: open-ixon-agentdataconditionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataProtocolList API
+  slug: open-ixon-agentdataprotocollist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataSource API
+  slug: open-ixon-agentdatasource-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataSourceList API
+  slug: open-ixon-agentdatasourcelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataTag API
+  slug: open-ixon-agentdatatag-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataTagList API
+  slug: open-ixon-agentdatataglist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataVariable API
+  slug: open-ixon-agentdatavariable-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDataVariableList API
+  slug: open-ixon-agentdatavariablelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDevice API
+  slug: open-ixon-agentdevice-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentDeviceList API
+  slug: open-ixon-agentdevicelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstance API
+  slug: open-ixon-agentedgeappinstance-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceDelete API
+  slug: open-ixon-agentedgeappinstancedelete-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceDeleteList API
+  slug: open-ixon-agentedgeappinstancedeletelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceDeploy API
+  slug: open-ixon-agentedgeappinstancedeploy-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceDeployList API
+  slug: open-ixon-agentedgeappinstancedeploylist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceFile API
+  slug: open-ixon-agentedgeappinstancefile-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceFileList API
+  slug: open-ixon-agentedgeappinstancefilelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceFileUpload API
+  slug: open-ixon-agentedgeappinstancefileupload-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceList API
+  slug: open-ixon-agentedgeappinstancelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceService API
+  slug: open-ixon-agentedgeappinstanceservice-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentEdgeAppInstanceServiceList API
+  slug: open-ixon-agentedgeappinstanceservicelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentFirmwareUpgrade API
+  slug: open-ixon-agentfirmwareupgrade-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentFromTemplate API
+  slug: open-ixon-agentfromtemplate-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentLicenceBundleActivate API
+  slug: open-ixon-agentlicencebundleactivate-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentLicenceBundles API
+  slug: open-ixon-agentlicencebundles-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentList API
+  slug: open-ixon-agentlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentListActivate API
+  slug: open-ixon-agentlistactivate-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentListConfigurationImport API
+  slug: open-ixon-agentlistconfigurationimport-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentListConfigurationPush API
+  slug: open-ixon-agentlistconfigurationpush-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentListFromTemplate API
+  slug: open-ixon-agentlistfromtemplate-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentListLoggingConfigurationPush API
+  slug: open-ixon-agentlistloggingconfigurationpush-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentListOpenVpnConnection API
+  slug: open-ixon-agentlistopenvpnconnection-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentListPull API
+  slug: open-ixon-agentlistpull-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentMembership API
+  slug: open-ixon-agentmembership-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentMembershipList API
+  slug: open-ixon-agentmembershiplist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentObjectStorageDeleteAction API
+  slug: open-ixon-agentobjectstoragedeleteaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentObjectStorageDownloadAction API
+  slug: open-ixon-agentobjectstoragedownloadaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentObjectStorageListAction API
+  slug: open-ixon-agentobjectstoragelistaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentObjectStorageObjectMetaUpdateAction API
+  slug: open-ixon-agentobjectstorageobjectmetaupdateaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentObjectStorageUploadAction API
+  slug: open-ixon-agentobjectstorageuploadaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentOpenVpnConnection API
+  slug: open-ixon-agentopenvpnconnection-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentPageLink API
+  slug: open-ixon-agentpagelink-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentPageLinkGroup API
+  slug: open-ixon-agentpagelinkgroup-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentPageLinkGroupList API
+  slug: open-ixon-agentpagelinkgrouplist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentPageLinkList API
+  slug: open-ixon-agentpagelinklist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentPageList API
+  slug: open-ixon-agentpagelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentPullCode API
+  slug: open-ixon-agentpullcode-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentQueueReportList API
+  slug: open-ixon-agentqueuereportlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentReboot API
+  slug: open-ixon-agentreboot-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRegistrationProfile API
+  slug: open-ixon-agentregistrationprofile-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRegistrationProfileList API
+  slug: open-ixon-agentregistrationprofilelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRegistrationProfileMembership API
+  slug: open-ixon-agentregistrationprofilemembership-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRegistrationProfileMembershipList API
+  slug: open-ixon-agentregistrationprofilemembershiplist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentReportSchedule API
+  slug: open-ixon-agentreportschedule-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentReportScheduleList API
+  slug: open-ixon-agentreportschedulelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterAdditionalSubnet API
+  slug: open-ixon-agentrouteradditionalsubnet-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterAdditionalSubnetList API
+  slug: open-ixon-agentrouteradditionalsubnetlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterDisplayConfig API
+  slug: open-ixon-agentrouterdisplayconfig-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterLanConfig API
+  slug: open-ixon-agentrouterlanconfig-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterLanWanAccessRule API
+  slug: open-ixon-agentrouterlanwanaccessrule-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterLanWanAccessRuleList API
+  slug: open-ixon-agentrouterlanwanaccessrulelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterNtpServer API
+  slug: open-ixon-agentrouterntpserver-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterNtpServerList API
+  slug: open-ixon-agentrouterntpserverlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterOneToOneNatRule API
+  slug: open-ixon-agentrouteronetoonenatrule-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterOneToOneNatRuleList API
+  slug: open-ixon-agentrouteronetoonenatrulelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterPortForward API
+  slug: open-ixon-agentrouterportforward-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterPortForwardList API
+  slug: open-ixon-agentrouterportforwardlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterVpnAccessRule API
+  slug: open-ixon-agentroutervpnaccessrule-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterVpnAccessRuleList API
+  slug: open-ixon-agentroutervpnaccessrulelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterVpnConfig API
+  slug: open-ixon-agentroutervpnconfig-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterWanConfig API
+  slug: open-ixon-agentrouterwanconfig-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterWanConfigCellularPush API
+  slug: open-ixon-agentrouterwanconfigcellularpush-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentRouterWanConfigWlanPush API
+  slug: open-ixon-agentrouterwanconfigwlanpush-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentServer API
+  slug: open-ixon-agentserver-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentServerFromTemplateList API
+  slug: open-ixon-agentserverfromtemplatelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentServerList API
+  slug: open-ixon-agentserverlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentTemplate API
+  slug: open-ixon-agenttemplate-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentTemplateFromAgentList API
+  slug: open-ixon-agenttemplatefromagentlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentTemplateList API
+  slug: open-ixon-agenttemplatelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentTemplateVersion API
+  slug: open-ixon-agenttemplateversion-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentTemplateVersionFromTemplate API
+  slug: open-ixon-agenttemplateversionfromtemplate-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentTemplateVersionList API
+  slug: open-ixon-agenttemplateversionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentTypeFileList API
+  slug: open-ixon-agenttypefilelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentTypeList API
+  slug: open-ixon-agenttypelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentVpnUsage API
+  slug: open-ixon-agentvpnusage-api
+- collection_type: open
+  name: IXON AccessRecoverList AgentVpnUsageList API
+  slug: open-ixon-agentvpnusagelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AppConfigUpdate API
+  slug: open-ixon-appconfigupdate-api
+- collection_type: open
+  name: IXON AccessRecoverList AppInstall API
+  slug: open-ixon-appinstall-api
+- collection_type: open
+  name: IXON AccessRecoverList AppUninstall API
+  slug: open-ixon-appuninstall-api
+- collection_type: open
+  name: IXON AccessRecoverList Asset API
+  slug: open-ixon-asset-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetAppConfig API
+  slug: open-ixon-assetappconfig-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetAppConfigList API
+  slug: open-ixon-assetappconfiglist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetAppConfigResource API
+  slug: open-ixon-assetappconfigresource-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetAppConfigResourceList API
+  slug: open-ixon-assetappconfigresourcelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetBackendComponentFunctionCall API
+  slug: open-ixon-assetbackendcomponentfunctioncall-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetDescendantList API
+  slug: open-ixon-assetdescendantlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetLibrary API
+  slug: open-ixon-assetlibrary-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetLibraryInstanceDetach API
+  slug: open-ixon-assetlibraryinstancedetach-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetLibraryInstanceDetachList API
+  slug: open-ixon-assetlibraryinstancedetachlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetLibraryInstanceList API
+  slug: open-ixon-assetlibraryinstancelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetLibraryList API
+  slug: open-ixon-assetlibrarylist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetLibraryVersionCompanyList API
+  slug: open-ixon-assetlibraryversioncompanylist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetLibraryVersionList API
+  slug: open-ixon-assetlibraryversionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetList API
+  slug: open-ixon-assetlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetMembership API
+  slug: open-ixon-assetmembership-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetMembershipList API
+  slug: open-ixon-assetmembershiplist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetObjectStorageDeleteAction API
+  slug: open-ixon-assetobjectstoragedeleteaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetObjectStorageDownloadAction API
+  slug: open-ixon-assetobjectstoragedownloadaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetObjectStorageListAction API
+  slug: open-ixon-assetobjectstoragelistaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetObjectStorageObjectMetaUpdateAction API
+  slug: open-ixon-assetobjectstorageobjectmetaupdateaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetObjectStorageUploadAction API
+  slug: open-ixon-assetobjectstorageuploadaction-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetPageLink API
+  slug: open-ixon-assetpagelink-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetPageLinkGroup API
+  slug: open-ixon-assetpagelinkgroup-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetPageLinkGroupList API
+  slug: open-ixon-assetpagelinkgrouplist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetPageLinkList API
+  slug: open-ixon-assetpagelinklist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetPageList API
+  slug: open-ixon-assetpagelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetQueueReportList API
+  slug: open-ixon-assetqueuereportlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetRender API
+  slug: open-ixon-assetrender-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetReportSchedule API
+  slug: open-ixon-assetreportschedule-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetReportScheduleList API
+  slug: open-ixon-assetreportschedulelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetTreeList API
+  slug: open-ixon-assettreelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetType API
+  slug: open-ixon-assettype-api
+- collection_type: open
+  name: IXON AccessRecoverList AssetTypeList API
+  slug: open-ixon-assettypelist-api
+- collection_type: open
+  name: IXON AccessRecoverList Audience API
+  slug: open-ixon-audience-api
+- collection_type: open
+  name: IXON AccessRecoverList AudienceAgentReferenceList API
+  slug: open-ixon-audienceagentreferencelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AudienceAssetReferenceList API
+  slug: open-ixon-audienceassetreferencelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AudienceDefault API
+  slug: open-ixon-audiencedefault-api
+- collection_type: open
+  name: IXON AccessRecoverList AudienceList API
+  slug: open-ixon-audiencelist-api
+- collection_type: open
+  name: IXON AccessRecoverList AuditLogExport API
+  slug: open-ixon-auditlogexport-api
+- collection_type: open
+  name: IXON AccessRecoverList AuditLogList API
+  slug: open-ixon-auditloglist-api
+- collection_type: open
+  name: IXON AccessRecoverList AuthTokenAiChatList API
+  slug: open-ixon-authtokenaichatlist-api
+- collection_type: open
+  name: IXON AccessRecoverList AuthTokenChangeNotificationsList API
+  slug: open-ixon-authtokenchangenotificationslist-api
+- collection_type: open
+  name: IXON AccessRecoverList AuthTokenDataList API
+  slug: open-ixon-authtokendatalist-api
+- collection_type: open
+  name: IXON AccessRecoverList AuthTokenList API
+  slug: open-ixon-authtokenlist-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentFunctionCall API
+  slug: open-ixon-backendcomponentfunctioncall-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentMessageSubscription API
+  slug: open-ixon-backendcomponentmessagesubscription-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentMessageSubscriptionList API
+  slug: open-ixon-backendcomponentmessagesubscriptionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentMessageTriggerList API
+  slug: open-ixon-backendcomponentmessagetriggerlist-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplate API
+  slug: open-ixon-backendcomponenttemplate-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplateConfig API
+  slug: open-ixon-backendcomponenttemplateconfig-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplateConfigList API
+  slug: open-ixon-backendcomponenttemplateconfiglist-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplateDownloadLogs API
+  slug: open-ixon-backendcomponenttemplatedownloadlogs-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplateList API
+  slug: open-ixon-backendcomponenttemplatelist-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplateShare API
+  slug: open-ixon-backendcomponenttemplateshare-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplateShareList API
+  slug: open-ixon-backendcomponenttemplatesharelist-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplateVersion API
+  slug: open-ixon-backendcomponenttemplateversion-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplateVersionList API
+  slug: open-ixon-backendcomponenttemplateversionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList BackendComponentTemplateVersionUpload API
+  slug: open-ixon-backendcomponenttemplateversionupload-api
+- collection_type: open
+  name: IXON AccessRecoverList BrandingList API
+  slug: open-ixon-brandinglist-api
+- collection_type: open
+  name: IXON AccessRecoverList Company API
+  slug: open-ixon-company-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyBranding API
+  slug: open-ixon-companybranding-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyList API
+  slug: open-ixon-companylist-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyPrivacyStatementDownload API
+  slug: open-ixon-companyprivacystatementdownload-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyPrivacyStatementLanguage API
+  slug: open-ixon-companyprivacystatementlanguage-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyPrivacyStatementList API
+  slug: open-ixon-companyprivacystatementlist-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyPrivacyStatementPublish API
+  slug: open-ixon-companyprivacystatementpublish-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyTermsOfUsePolicyAccept API
+  slug: open-ixon-companytermsofusepolicyaccept-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyTermsOfUsePolicyDownload API
+  slug: open-ixon-companytermsofusepolicydownload-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyTermsOfUsePolicyLanguage API
+  slug: open-ixon-companytermsofusepolicylanguage-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyTermsOfUsePolicyList API
+  slug: open-ixon-companytermsofusepolicylist-api
+- collection_type: open
+  name: IXON AccessRecoverList CompanyTermsOfUsePolicyPublish API
+  slug: open-ixon-companytermsofusepolicypublish-api
+- collection_type: open
+  name: IXON AccessRecoverList ControlledDevice API
+  slug: open-ixon-controlleddevice-api
+- collection_type: open
+  name: IXON AccessRecoverList ControlledDeviceAuditLogList API
+  slug: open-ixon-controlleddeviceauditloglist-api
+- collection_type: open
+  name: IXON AccessRecoverList ControlledDeviceList API
+  slug: open-ixon-controlleddevicelist-api
+- collection_type: open
+  name: IXON AccessRecoverList ControlledDeviceMembership API
+  slug: open-ixon-controlleddevicemembership-api
+- collection_type: open
+  name: IXON AccessRecoverList ControlledDeviceMembershipList API
+  slug: open-ixon-controlleddevicemembershiplist-api
+- collection_type: open
+  name: IXON AccessRecoverList CustomProperty API
+  slug: open-ixon-customproperty-api
+- collection_type: open
+  name: IXON AccessRecoverList CustomPropertyList API
+  slug: open-ixon-custompropertylist-api
+- collection_type: open
+  name: IXON AccessRecoverList DataDeletionRequestList API
+  slug: open-ixon-datadeletionrequestlist-api
+- collection_type: open
+  name: IXON AccessRecoverList DataExport API
+  slug: open-ixon-dataexport-api
+- collection_type: open
+  name: IXON AccessRecoverList DataList API
+  slug: open-ixon-datalist-api
+- collection_type: open
+  name: IXON AccessRecoverList DemoDeviceList API
+  slug: open-ixon-demodevicelist-api
+- collection_type: open
+  name: IXON AccessRecoverList Discovery API
+  slug: open-ixon-discovery-api
+- collection_type: open
+  name: IXON AccessRecoverList EdgeAppList API
+  slug: open-ixon-edgeapplist-api
+- collection_type: open
+  name: IXON AccessRecoverList EdgeAppVersionList API
+  slug: open-ixon-edgeappversionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList EdgeAppVersionUpload API
+  slug: open-ixon-edgeappversionupload-api
+- collection_type: open
+  name: IXON AccessRecoverList Feedback API
+  slug: open-ixon-feedback-api
+- collection_type: open
+  name: IXON AccessRecoverList Group API
+  slug: open-ixon-group-api
+- collection_type: open
+  name: IXON AccessRecoverList GroupList API
+  slug: open-ixon-grouplist-api
+- collection_type: open
+  name: IXON AccessRecoverList GroupPageImport API
+  slug: open-ixon-grouppageimport-api
+- collection_type: open
+  name: IXON AccessRecoverList GroupRoleList API
+  slug: open-ixon-grouprolelist-api
+- collection_type: open
+  name: IXON AccessRecoverList GroupType API
+  slug: open-ixon-grouptype-api
+- collection_type: open
+  name: IXON AccessRecoverList GroupTypeList API
+  slug: open-ixon-grouptypelist-api
+- collection_type: open
+  name: IXON AccessRecoverList HistoricalDataUsage API
+  slug: open-ixon-historicaldatausage-api
+- collection_type: open
+  name: IXON AccessRecoverList Invite API
+  slug: open-ixon-invite-api
+- collection_type: open
+  name: IXON AccessRecoverList InviteFinish API
+  slug: open-ixon-invitefinish-api
+- collection_type: open
+  name: IXON AccessRecoverList InviteList API
+  slug: open-ixon-invitelist-api
+- collection_type: open
+  name: IXON AccessRecoverList InviteResend API
+  slug: open-ixon-inviteresend-api
+- collection_type: open
+  name: IXON AccessRecoverList InviteResendList API
+  slug: open-ixon-inviteresendlist-api
+- collection_type: open
+  name: IXON AccessRecoverList LabelList API
+  slug: open-ixon-labellist-api
+- collection_type: open
+  name: IXON AccessRecoverList Licence API
+  slug: open-ixon-licence-api
+- collection_type: open
+  name: IXON AccessRecoverList LicenceBundleExtend API
+  slug: open-ixon-licencebundleextend-api
+- collection_type: open
+  name: IXON AccessRecoverList LicenceBundleList API
+  slug: open-ixon-licencebundlelist-api
+- collection_type: open
+  name: IXON AccessRecoverList LicenceExtend API
+  slug: open-ixon-licenceextend-api
+- collection_type: open
+  name: IXON AccessRecoverList LicenceList API
+  slug: open-ixon-licencelist-api
+- collection_type: open
+  name: IXON AccessRecoverList LicenceListExtend API
+  slug: open-ixon-licencelistextend-api
+- collection_type: open
+  name: IXON AccessRecoverList LicenceType API
+  slug: open-ixon-licencetype-api
+- collection_type: open
+  name: IXON AccessRecoverList LicenceTypeList API
+  slug: open-ixon-licencetypelist-api
+- collection_type: open
+  name: IXON AccessRecoverList MachineGroupList API
+  slug: open-ixon-machinegrouplist-api
+- collection_type: open
+  name: IXON AccessRecoverList MenuItem API
+  slug: open-ixon-menuitem-api
+- collection_type: open
+  name: IXON AccessRecoverList MenuItemList API
+  slug: open-ixon-menuitemlist-api
+- collection_type: open
+  name: IXON AccessRecoverList Message API
+  slug: open-ixon-message-api
+- collection_type: open
+  name: IXON AccessRecoverList MessageAll API
+  slug: open-ixon-messageall-api
+- collection_type: open
+  name: IXON AccessRecoverList MessageFilter API
+  slug: open-ixon-messagefilter-api
+- collection_type: open
+  name: IXON AccessRecoverList MessageFilterList API
+  slug: open-ixon-messagefilterlist-api
+- collection_type: open
+  name: IXON AccessRecoverList MessageList API
+  slug: open-ixon-messagelist-api
+- collection_type: open
+  name: IXON AccessRecoverList MqttBroker API
+  slug: open-ixon-mqttbroker-api
+- collection_type: open
+  name: IXON AccessRecoverList MqttBrokerClient API
+  slug: open-ixon-mqttbrokerclient-api
+- collection_type: open
+  name: IXON AccessRecoverList MqttBrokerClientList API
+  slug: open-ixon-mqttbrokerclientlist-api
+- collection_type: open
+  name: IXON AccessRecoverList MqttBrokerClientMessage API
+  slug: open-ixon-mqttbrokerclientmessage-api
+- collection_type: open
+  name: IXON AccessRecoverList MqttBrokerList API
+  slug: open-ixon-mqttbrokerlist-api
+- collection_type: open
+  name: IXON AccessRecoverList MyAccessRecover API
+  slug: open-ixon-myaccessrecover-api
+- collection_type: open
+  name: IXON AccessRecoverList MyAccessRecoverFinish API
+  slug: open-ixon-myaccessrecoverfinish-api
+- collection_type: open
+  name: IXON AccessRecoverList MyAccessToken API
+  slug: open-ixon-myaccesstoken-api
+- collection_type: open
+  name: IXON AccessRecoverList MyCompany API
+  slug: open-ixon-mycompany-api
+- collection_type: open
+  name: IXON AccessRecoverList MyCompanyCustomProperty API
+  slug: open-ixon-mycompanycustomproperty-api
+- collection_type: open
+  name: IXON AccessRecoverList MyCompanyCustomPropertyList API
+  slug: open-ixon-mycompanycustompropertylist-api
+- collection_type: open
+  name: IXON AccessRecoverList MyCompanyPlatformServerList API
+  slug: open-ixon-mycompanyplatformserverlist-api
+- collection_type: open
+  name: IXON AccessRecoverList MyCompanySupportAccess API
+  slug: open-ixon-mycompanysupportaccess-api
+- collection_type: open
+  name: IXON AccessRecoverList MyEmailAddressChange API
+  slug: open-ixon-myemailaddresschange-api
+- collection_type: open
+  name: IXON AccessRecoverList MyEmailAddressChangeFinish API
+  slug: open-ixon-myemailaddresschangefinish-api
+- collection_type: open
+  name: IXON AccessRecoverList MyInvite API
+  slug: open-ixon-myinvite-api
+- collection_type: open
+  name: IXON AccessRecoverList MyInviteFinish API
+  slug: open-ixon-myinvitefinish-api
+- collection_type: open
+  name: IXON AccessRecoverList MyOtpAuthDisable API
+  slug: open-ixon-myotpauthdisable-api
+- collection_type: open
+  name: IXON AccessRecoverList MyOtpAuthDisableFinish API
+  slug: open-ixon-myotpauthdisablefinish-api
+- collection_type: open
+  name: IXON AccessRecoverList MyRegistration API
+  slug: open-ixon-myregistration-api
+- collection_type: open
+  name: IXON AccessRecoverList MyRegistrationFinish API
+  slug: open-ixon-myregistrationfinish-api
+- collection_type: open
+  name: IXON AccessRecoverList MySector API
+  slug: open-ixon-mysector-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUser API
+  slug: open-ixon-myuser-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserEmailAddressChange API
+  slug: open-ixon-myuseremailaddresschange-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserEmailAddressChangeList API
+  slug: open-ixon-myuseremailaddresschangelist-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserInvite API
+  slug: open-ixon-myuserinvite-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserInviteList API
+  slug: open-ixon-myuserinvitelist-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserLeaveCompanyList API
+  slug: open-ixon-myuserleavecompanylist-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserOtpAuthDisable API
+  slug: open-ixon-myuserotpauthdisable-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserOtpAuthEnable API
+  slug: open-ixon-myuserotpauthenable-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserOtpAuthSmsEnable API
+  slug: open-ixon-myuserotpauthsmsenable-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserOtpAuthVerify API
+  slug: open-ixon-myuserotpauthverify-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserPassword API
+  slug: open-ixon-myuserpassword-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserPushDevice API
+  slug: open-ixon-myuserpushdevice-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserPushDeviceActivate API
+  slug: open-ixon-myuserpushdeviceactivate-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserPushDeviceClaim API
+  slug: open-ixon-myuserpushdeviceclaim-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserPushDeviceDeactivate API
+  slug: open-ixon-myuserpushdevicedeactivate-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserPushDeviceList API
+  slug: open-ixon-myuserpushdevicelist-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserPushDeviceReleaseClaim API
+  slug: open-ixon-myuserpushdevicereleaseclaim-api
+- collection_type: open
+  name: IXON AccessRecoverList MyUserVpnConfigList API
+  slug: open-ixon-myuservpnconfiglist-api
+- collection_type: open
+  name: IXON AccessRecoverList OciRegistry API
+  slug: open-ixon-ociregistry-api
+- collection_type: open
+  name: IXON AccessRecoverList OciRegistryList API
+  slug: open-ixon-ociregistrylist-api
+- collection_type: open
+  name: IXON AccessRecoverList Page API
+  slug: open-ixon-page-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponent API
+  slug: open-ixon-pagecomponent-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentList API
+  slug: open-ixon-pagecomponentlist-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplate API
+  slug: open-ixon-pagecomponenttemplate-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplateCategoryList API
+  slug: open-ixon-pagecomponenttemplatecategorylist-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplateConfig API
+  slug: open-ixon-pagecomponenttemplateconfig-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplateConfigList API
+  slug: open-ixon-pagecomponenttemplateconfiglist-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplateList API
+  slug: open-ixon-pagecomponenttemplatelist-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplateShare API
+  slug: open-ixon-pagecomponenttemplateshare-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplateShareList API
+  slug: open-ixon-pagecomponenttemplatesharelist-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplateVersion API
+  slug: open-ixon-pagecomponenttemplateversion-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplateVersionList API
+  slug: open-ixon-pagecomponenttemplateversionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList PageComponentTemplateVersionUpload API
+  slug: open-ixon-pagecomponenttemplateversionupload-api
+- collection_type: open
+  name: IXON AccessRecoverList PageDefault API
+  slug: open-ixon-pagedefault-api
+- collection_type: open
+  name: IXON AccessRecoverList PageDraft API
+  slug: open-ixon-pagedraft-api
+- collection_type: open
+  name: IXON AccessRecoverList PageDraftList API
+  slug: open-ixon-pagedraftlist-api
+- collection_type: open
+  name: IXON AccessRecoverList PageDuplicate API
+  slug: open-ixon-pageduplicate-api
+- collection_type: open
+  name: IXON AccessRecoverList PageDuplicateList API
+  slug: open-ixon-pageduplicatelist-api
+- collection_type: open
+  name: IXON AccessRecoverList PageExport API
+  slug: open-ixon-pageexport-api
+- collection_type: open
+  name: IXON AccessRecoverList PageImport API
+  slug: open-ixon-pageimport-api
+- collection_type: open
+  name: IXON AccessRecoverList PageList API
+  slug: open-ixon-pagelist-api
+- collection_type: open
+  name: IXON AccessRecoverList PagePage API
+  slug: open-ixon-pagepage-api
+- collection_type: open
+  name: IXON AccessRecoverList PagePageList API
+  slug: open-ixon-pagepagelist-api
+- collection_type: open
+  name: IXON AccessRecoverList PageVersion API
+  slug: open-ixon-pageversion-api
+- collection_type: open
+  name: IXON AccessRecoverList PageVersionList API
+  slug: open-ixon-pageversionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList PermissionList API
+  slug: open-ixon-permissionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList PipelineFunctionList API
+  slug: open-ixon-pipelinefunctionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList PlatformServerList API
+  slug: open-ixon-platformserverlist-api
+- collection_type: open
+  name: IXON AccessRecoverList PremiumDomain API
+  slug: open-ixon-premiumdomain-api
+- collection_type: open
+  name: IXON AccessRecoverList PrivacyStatement API
+  slug: open-ixon-privacystatement-api
+- collection_type: open
+  name: IXON AccessRecoverList PrivacyStatementDownload API
+  slug: open-ixon-privacystatementdownload-api
+- collection_type: open
+  name: IXON AccessRecoverList PrivacyStatementList API
+  slug: open-ixon-privacystatementlist-api
+- collection_type: open
+  name: IXON AccessRecoverList PublicFileUpload API
+  slug: open-ixon-publicfileupload-api
+- collection_type: open
+  name: IXON AccessRecoverList QueueReportList API
+  slug: open-ixon-queuereportlist-api
+- collection_type: open
+  name: IXON AccessRecoverList RegistrationList API
+  slug: open-ixon-registrationlist-api
+- collection_type: open
+  name: IXON AccessRecoverList Role API
+  slug: open-ixon-role-api
+- collection_type: open
+  name: IXON AccessRecoverList RoleAudience API
+  slug: open-ixon-roleaudience-api
+- collection_type: open
+  name: IXON AccessRecoverList RoleAudienceList API
+  slug: open-ixon-roleaudiencelist-api
+- collection_type: open
+  name: IXON AccessRecoverList RoleList API
+  slug: open-ixon-rolelist-api
+- collection_type: open
+  name: IXON AccessRecoverList RolePermission API
+  slug: open-ixon-rolepermission-api
+- collection_type: open
+  name: IXON AccessRecoverList RolePermissionList API
+  slug: open-ixon-rolepermissionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList RouterDisplayScreensaver API
+  slug: open-ixon-routerdisplayscreensaver-api
+- collection_type: open
+  name: IXON AccessRecoverList RouterDisplayScreensaverUpload API
+  slug: open-ixon-routerdisplayscreensaverupload-api
+- collection_type: open
+  name: IXON AccessRecoverList ScimSchemas API
+  slug: open-ixon-scimschemas-api
+- collection_type: open
+  name: IXON AccessRecoverList ScimServiceProviderConfig API
+  slug: open-ixon-scimserviceproviderconfig-api
+- collection_type: open
+  name: IXON AccessRecoverList Sector API
+  slug: open-ixon-sector-api
+- collection_type: open
+  name: IXON AccessRecoverList SectorList API
+  slug: open-ixon-sectorlist-api
+- collection_type: open
+  name: IXON AccessRecoverList ServerTime API
+  slug: open-ixon-servertime-api
+- collection_type: open
+  name: IXON AccessRecoverList ServerValidation API
+  slug: open-ixon-servervalidation-api
+- collection_type: open
+  name: IXON AccessRecoverList ServiceAccount API
+  slug: open-ixon-serviceaccount-api
+- collection_type: open
+  name: IXON AccessRecoverList ServiceAccountList API
+  slug: open-ixon-serviceaccountlist-api
+- collection_type: open
+  name: IXON AccessRecoverList ShellAgentList API
+  slug: open-ixon-shellagentlist-api
+- collection_type: open
+  name: IXON AccessRecoverList SsoAccessTokenList API
+  slug: open-ixon-ssoaccesstokenlist-api
+- collection_type: open
+  name: IXON AccessRecoverList SsoAuthenticationRequestList API
+  slug: open-ixon-ssoauthenticationrequestlist-api
+- collection_type: open
+  name: IXON AccessRecoverList SsoIdentityProviderList API
+  slug: open-ixon-ssoidentityproviderlist-api
+- collection_type: open
+  name: IXON AccessRecoverList SsoRedirect API
+  slug: open-ixon-ssoredirect-api
+- collection_type: open
+  name: IXON AccessRecoverList SsoRegistrationList API
+  slug: open-ixon-ssoregistrationlist-api
+- collection_type: open
+  name: IXON AccessRecoverList TermsOfUsePolicy API
+  slug: open-ixon-termsofusepolicy-api
+- collection_type: open
+  name: IXON AccessRecoverList TermsOfUsePolicyAccept API
+  slug: open-ixon-termsofusepolicyaccept-api
+- collection_type: open
+  name: IXON AccessRecoverList TermsOfUsePolicyDownload API
+  slug: open-ixon-termsofusepolicydownload-api
+- collection_type: open
+  name: IXON AccessRecoverList TermsOfUsePolicyList API
+  slug: open-ixon-termsofusepolicylist-api
+- collection_type: open
+  name: IXON AccessRecoverList TranslationList API
+  slug: open-ixon-translationlist-api
+- collection_type: open
+  name: IXON AccessRecoverList TrustedDevice API
+  slug: open-ixon-trusteddevice-api
+- collection_type: open
+  name: IXON AccessRecoverList TrustedDeviceList API
+  slug: open-ixon-trusteddevicelist-api
+- collection_type: open
+  name: IXON AccessRecoverList User API
+  slug: open-ixon-user-api
+- collection_type: open
+  name: IXON AccessRecoverList UserList API
+  slug: open-ixon-userlist-api
+- collection_type: open
+  name: IXON AccessRecoverList UserMembership API
+  slug: open-ixon-usermembership-api
+- collection_type: open
+  name: IXON AccessRecoverList UserMembershipList API
+  slug: open-ixon-usermembershiplist-api
+- collection_type: open
+  name: IXON AccessRecoverList UserMembershipUserList API
+  slug: open-ixon-usermembershipuserlist-api
+- collection_type: open
+  name: IXON AccessRecoverList UserZoneGrantsList API
+  slug: open-ixon-userzonegrantslist-api
+- collection_type: open
+  name: IXON AccessRecoverList VpnUsage API
+  slug: open-ixon-vpnusage-api
+- collection_type: open
+  name: IXON AccessRecoverList VpnUsageList API
+  slug: open-ixon-vpnusagelist-api
+- collection_type: open
+  name: IXON AccessRecoverList WebAccess API
+  slug: open-ixon-webaccess-api
+- collection_type: open
+  name: IXON AccessRecoverList WebAccessEntry API
+  slug: open-ixon-webaccessentry-api
+- collection_type: open
+  name: IXON AccessRecoverList WebAccessList API
+  slug: open-ixon-webaccesslist-api
+- collection_type: open
+  name: IXON AccessRecoverList WebaccessSessionRecording API
+  slug: open-ixon-webaccesssessionrecording-api
+- collection_type: open
+  name: IXON AccessRecoverList WebaccessSessionRecordingDownload API
+  slug: open-ixon-webaccesssessionrecordingdownload-api
+- collection_type: open
+  name: IXON AccessRecoverList WebaccessSessionRecordingList API
+  slug: open-ixon-webaccesssessionrecordinglist-api
+- collection_type: open
+  name: IXON AccessRecoverList WebhookSubscription API
+  slug: open-ixon-webhooksubscription-api
+- collection_type: open
+  name: IXON AccessRecoverList WebhookSubscriptionList API
+  slug: open-ixon-webhooksubscriptionlist-api
+- collection_type: open
+  name: IXON AccessRecoverList WebhookSubscriptionTriggerList API
+  slug: open-ixon-webhooksubscriptiontriggerlist-api
 - collection_type: open
   name: IXON API
   slug: open-ixon
@@ -1194,7 +2274,7 @@ plans:
 - name: Ixon Plans Pricing
   plan_count: 3
   slug: ixon-plans-pricing
-random_paper: 86
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Ixon Rate Limits
@@ -1219,7 +2299,7 @@ score:
       marker_coverage: 0.0
       total: 359
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ixon/refs/heads/main/screenshots/ixon-2026-06-20T183642.png
 security:

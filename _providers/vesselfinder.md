@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Predefined-fleet data, subscription-based.
   name: VesselFinder Vessels List API
   slug: vesselfinder-vessels-list-api
-artifact_total: 54
+artifact_total: 65
 collections:
 - collection_type: postman
   name: VesselFinder AIS Containers API
@@ -102,11 +102,44 @@ collections:
   name: VesselFinder AIS Containers Vessels List API
   slug: postman-vesselfinder-vessels-list-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: VesselFinder AIS API
   slug: open-vesselfinder-ais-api
 - collection_type: open
   name: VesselFinder Container Tracking API
   slug: open-vesselfinder-container-tracking-api
+- collection_type: open
+  name: VesselFinder AIS Containers API
+  slug: open-vesselfinder-containers-api
+- collection_type: open
+  name: VesselFinder AIS Containers Distance API
+  slug: open-vesselfinder-distance-api
+- collection_type: open
+  name: VesselFinder AIS Containers Expected Arrivals API
+  slug: open-vesselfinder-expected-arrivals-api
+- collection_type: open
+  name: VesselFinder AIS Containers List Manager API
+  slug: open-vesselfinder-list-manager-api
+- collection_type: open
+  name: VesselFinder AIS Containers Live Data API
+  slug: open-vesselfinder-live-data-api
+- collection_type: open
+  name: VesselFinder AIS Containers Master Data API
+  slug: open-vesselfinder-master-data-api
+- collection_type: open
+  name: VesselFinder AIS Containers Port Calls API
+  slug: open-vesselfinder-port-calls-api
+- collection_type: open
+  name: VesselFinder AIS Containers Status API
+  slug: open-vesselfinder-status-api
+- collection_type: open
+  name: VesselFinder AIS Containers Vessels API
+  slug: open-vesselfinder-vessels-api
+- collection_type: open
+  name: VesselFinder AIS Containers Vessels List API
+  slug: open-vesselfinder-vessels-list-api
 common:
 - group: build
   title: ''
@@ -305,7 +338,7 @@ plans:
 - name: Vesselfinder Plans Pricing
   plan_count: 10
   slug: vesselfinder-plans-pricing
-random_paper: 90
+random_paper: 98
 rate_limits:
 - limit_count: 0
   name: Vesselfinder Rate Limits
@@ -347,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png
 security:

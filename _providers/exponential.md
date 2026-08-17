@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,7 +61,26 @@ arazzos:
 - description: Read a vault's current snapshot, yield and TVL history, and a user's pending redemptions.
   name: YO vault snapshot and user position
   slug: exponential-vault-snapshot
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yo Protocol Agent API
+  slug: open-exponential-agent-api
+- collection_type: open
+  name: Yo Protocol Agent History API
+  slug: open-exponential-history-api
+- collection_type: open
+  name: Yo Protocol Agent Performance API
+  slug: open-exponential-performance-api
+- collection_type: open
+  name: Yo Protocol Agent Public API
+  slug: open-exponential-public-api
+- collection_type: open
+  name: Yo Protocol Agent Vault API
+  slug: open-exponential-vault-api
 common:
 - group: other
   title: ''
@@ -199,7 +218,7 @@ overview: 'Exponential publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Exponential''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 22 more developer resources.'
-random_paper: 111
+random_paper: 148
 score:
   band: developing
   composite: 43.3
@@ -223,7 +242,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/screenshots/exponential-2026-07-25T213934.png
 security:

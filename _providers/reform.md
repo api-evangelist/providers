@@ -10,31 +10,35 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
+  score: 33.8
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
-- description: REST API for creating and managing form definitions, collecting form submissions, triggering webhooks, and integrating forms with third-party platforms including HubSpot, Salesforce, Zapier, and Googl
-  name: Reform Forms API
-  slug: reform-forms-api
-artifact_total: 6
+- description: Reform's public integration surface. It is not a REST management API — no endpoint exists to create, read or update forms and submissions. What Reform publishes is the hosted form host (forms.reform.a
+  name: Reform Forms
+  slug: reform-forms
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Reform Webhooks
+  slug: reform-webhooks
 common:
 - group: auth
   title: ''
@@ -48,6 +52,18 @@ common:
   title: ''
   type: Documentation
   url: https://docs.reform.app/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://docs.reform.app/
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.reform.app/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.reform.app/article/49-building-your-first-form
 - group: company
   title: ''
   type: Blog
@@ -56,6 +72,18 @@ common:
   title: ''
   type: Pricing
   url: https://www.reform.app/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.reform.app/register
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.reform.app/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.reform.app/legal/terms-of-service
 - group: other
   title: ''
   type: Templates
@@ -68,6 +96,50 @@ common:
   title: ''
   type: X
   url: https://x.com/heyreform
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/reform-llms.txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/reform-webhooks.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/reform-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/reform-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/reform-conventions.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/reform-authentication.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/reform-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/reform-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/reform-lifecycle.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/reform-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/reform-trust-center.yml
 - group: commercial
   title: ''
   type: Plans
@@ -81,7 +153,7 @@ common:
   type: FinOps
   url: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/finops/reform-finops.yml
 created: '2026-06-13'
-description: Reform is a developer-first, conversion-optimized form builder with a REST API for creating type-safe forms, managing form definitions, collecting submissions, and embedding forms in web applications including React. It offers headless form capabilities, webhooks, and deep integrations with CRMs and marketing platforms.
+description: Reform is a conversion-focused, no-code form builder for B2B and SaaS teams, acquired by conversion-rate-optimization agency FunnelEnvy. It builds multi-step forms with conditional logic, lead qualification and enrichment, and syncs submissions to CRMs and marketing platforms. Reform publishes no REST API, SDK or OpenAPI definition; its integration surface is three published pieces — a signed outbound webhook (form.submitted, HMAC-SHA256), a CDN-hosted browser embed loader with a parent-page event API, and a headless mode that posts your own HTML form to Reform using answers[block-id] field naming.
 finops:
 - name: Reform Finops
   service_category: ''
@@ -93,47 +165,55 @@ jsonld:
   property_count: 1
   slug: reform-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-14'
 name: Reform
 nav: Providers
 network: true
 overview: 'Reform publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Form Builder, Lead Generation, Headless Forms, and Webhooks.
 
 
-  The Reform catalog on APIs.io includes 1 JSON-LD context.
+  The Reform catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Reform''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
+  Reform''s developer surface includes documentation, support, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
 plans:
 - name: Reform Plans Pricing
   plan_count: 4
   slug: reform-plans-pricing
-random_paper: 51
+random_paper: 55
 rate_limits:
-- limit_count: 4
+- limit_count: 0
   name: Reform Rate Limits
   slug: reform-rate-limits
 score:
-  band: emerging
-  composite: 26.4
-  delta: 0.0
+  band: developing
+  composite: 51.5
+  delta: 25.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 12.9
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 31.6
+    commercial_clarity: 89.5
+    contract_quality: 64.5
+    developer_ergonomics: 37.0
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 7.9
   previous_composite: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/screenshots/reform-2026-06-20T192748.png
 security:
+- kind: authentication
+  name: Reform Authentication
+  slug: reform-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Reform Domain Security
   slug: reform-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Reform Trust Center
+  slug: reform-trust-center
+  summary_line: SOC 2, ISO 27001
 slug: reform
 tags:
 - Forms
@@ -144,5 +224,7 @@ tags:
 - No-Code
 - Integrations
 - CRM
+- Conversion Rate Optimization
+- Embeddable Components
 website: https://www.reform.app/
 ---

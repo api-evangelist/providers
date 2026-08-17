@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -138,8 +138,56 @@ apis:
 - description: The TimeTracking API from Workable — 3 operation(s) for timetracking.
   name: Workable TimeTracking API
   slug: workable-timetracking-api
-artifact_total: 49
+artifact_total: 65
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workable Accounts API
+  slug: open-workable-accounts-api
+- collection_type: open
+  name: Workable Accounts Candidates API
+  slug: open-workable-candidates-api
+- collection_type: open
+  name: Workable Accounts CustomAttributes API
+  slug: open-workable-customattributes-api
+- collection_type: open
+  name: Workable Accounts Departments API
+  slug: open-workable-departments-api
+- collection_type: open
+  name: Workable Accounts Employees API
+  slug: open-workable-employees-api
+- collection_type: open
+  name: Workable Accounts Events API
+  slug: open-workable-events-api
+- collection_type: open
+  name: Workable Accounts Jobs API
+  slug: open-workable-jobs-api
+- collection_type: open
+  name: Workable Accounts Members API
+  slug: open-workable-members-api
+- collection_type: open
+  name: Workable Accounts Offers API
+  slug: open-workable-offers-api
+- collection_type: open
+  name: Workable Accounts Recruiters API
+  slug: open-workable-recruiters-api
+- collection_type: open
+  name: Workable Accounts Requisitions API
+  slug: open-workable-requisitions-api
+- collection_type: open
+  name: Workable Accounts Stages API
+  slug: open-workable-stages-api
+- collection_type: open
+  name: Workable Accounts Subscriptions API
+  slug: open-workable-subscriptions-api
+- collection_type: open
+  name: Workable Accounts TimeOff API
+  slug: open-workable-timeoff-api
+- collection_type: open
+  name: Workable Accounts TimeTracking API
+  slug: open-workable-timetracking-api
 - collection_type: open
   name: Workable API
   slug: open-workable
@@ -249,7 +297,7 @@ plans:
 - name: Workable Plans Pricing
   plan_count: 7
   slug: workable-plans-pricing
-random_paper: 15
+random_paper: 110
 rate_limits:
 - limit_count: 3
   name: Workable Rate Limits
@@ -274,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/screenshots/workable-2026-06-20T201548.png
 security:

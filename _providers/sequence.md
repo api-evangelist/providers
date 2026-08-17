@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Analytics API from Sequence — 177 operation(s) for analytics.
@@ -46,11 +46,30 @@ apis:
 - description: Endpoints that require a Sequence service token intended to be secret. You can manually generate one on Sequence Builder and pass it as a Bearer Token.
   name: Sequence secret API
   slug: sequence-secret-api
-artifact_total: 9
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Sequence Indexer Webhooks
   slug: sequence-indexer-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Api Analytics API
+  slug: open-sequence-analytics-api
+- collection_type: open
+  name: Api Analytics Marketplace API
+  slug: open-sequence-marketplace-api
+- collection_type: open
+  name: Api Analytics public API
+  slug: open-sequence-public-api
+- collection_type: open
+  name: Api Analytics Rpc API
+  slug: open-sequence-rpc-api
+- collection_type: open
+  name: Api Analytics secret API
+  slug: open-sequence-secret-api
 common:
 - group: other
   title: ''
@@ -191,7 +210,7 @@ overview: 'Sequence publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Sequence''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, changelog, and 23 more developer resources.'
-random_paper: 17
+random_paper: 112
 score:
   band: developing
   composite: 44.1
@@ -220,7 +239,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

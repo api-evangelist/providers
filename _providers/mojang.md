@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -80,17 +80,62 @@ apis:
 - description: Player skin and cape texture lookup
   name: Mojang Textures API
   slug: mojang-textures-api
-artifact_total: 129
+artifact_total: 144
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Minecraft Services Attributes API
+  slug: open-mojang-attributes-api
+- collection_type: open
+  name: Minecraft Services Attributes Authentication API
+  slug: open-mojang-authentication-api
+- collection_type: open
+  name: Minecraft Services Attributes Blocklist API
+  slug: open-mojang-blocklist-api
+- collection_type: open
+  name: Minecraft Services Attributes Capes API
+  slug: open-mojang-capes-api
+- collection_type: open
+  name: Minecraft Services Attributes Entitlements API
+  slug: open-mojang-entitlements-api
+- collection_type: open
+  name: Minecraft Services Attributes Friends API
+  slug: open-mojang-friends-api
+- collection_type: open
+  name: Minecraft Services Attributes Identity API
+  slug: open-mojang-identity-api
+- collection_type: open
+  name: Minecraft Services Attributes Keys API
+  slug: open-mojang-keys-api
 - collection_type: open
   name: Minecraft Services API
   slug: open-mojang-minecraft-services
 - collection_type: open
+  name: Minecraft Services Attributes Presence API
+  slug: open-mojang-presence-api
+- collection_type: open
+  name: Minecraft Services Attributes Profile API
+  slug: open-mojang-profile-api
+- collection_type: open
   name: Mojang Public API
   slug: open-mojang-public-api
 - collection_type: open
+  name: Minecraft Services Attributes Server API
+  slug: open-mojang-server-api
+- collection_type: open
+  name: Minecraft Services Attributes Session API
+  slug: open-mojang-session-api
+- collection_type: open
   name: Mojang Session Server
   slug: open-mojang-session-server
+- collection_type: open
+  name: Minecraft Services Attributes Skins API
+  slug: open-mojang-skins-api
+- collection_type: open
+  name: Minecraft Services Attributes Textures API
+  slug: open-mojang-textures-api
 common:
 - group: operate
   title: ''
@@ -517,7 +562,7 @@ overview: 'Mojang publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mojang''s developer surface includes authentication, documentation, and 19 more developer resources.'
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 6
   name: Mojang Rate Limits
@@ -559,7 +604,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mojang/refs/heads/main/screenshots/mojang-2026-06-20T185707.png
 security:

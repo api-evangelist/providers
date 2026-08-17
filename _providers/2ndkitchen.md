@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Authentication API from 2ndKitchen — 5 operation(s) for authentication.
@@ -67,7 +67,47 @@ apis:
 - description: The Users API from 2ndKitchen — 4 operation(s) for users.
   name: 2ndKitchen Users API
   slug: 2ndkitchen-users-api
-artifact_total: 14
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 2ndKitchen - Service Authentication API
+  slug: open-2ndkitchen-authentication-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Brand API
+  slug: open-2ndkitchen-brand-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Business API
+  slug: open-2ndkitchen-business-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Coupons API
+  slug: open-2ndkitchen-coupons-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Deliveries API
+  slug: open-2ndkitchen-deliveries-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Orders API
+  slug: open-2ndkitchen-orders-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Payment API
+  slug: open-2ndkitchen-payment-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Product API
+  slug: open-2ndkitchen-product-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Products API
+  slug: open-2ndkitchen-products-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Restaurant API
+  slug: open-2ndkitchen-restaurant-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Restaurants API
+  slug: open-2ndkitchen-restaurants-api
+- collection_type: open
+  name: 2ndKitchen - Service Authentication Users API
+  slug: open-2ndkitchen-users-api
 common:
 - group: auth
   title: ''
@@ -105,7 +145,7 @@ overview: '2ndKitchen publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   2ndKitchen''s developer surface includes authentication, documentation, API reference, and 3 more developer resources.'
-random_paper: 42
+random_paper: 108
 score:
   band: emerging
   composite: 23.3
@@ -131,7 +171,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/screenshots/2ndkitchen-2026-07-25T181134.png
 security:

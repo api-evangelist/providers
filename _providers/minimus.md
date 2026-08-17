@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -132,7 +132,7 @@ overview: 'Minimus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Minimus'' developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 15 more developer resources.'
-random_paper: 50
+random_paper: 25
 score:
   band: thin
   composite: 29.8
@@ -148,7 +148,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/screenshots/minimus-2026-08-07T172951.png
 security:

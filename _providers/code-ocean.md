@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Versioned datasets and result data
   name: Code Ocean Data Assets API
   slug: code-ocean-data-assets-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Code Ocean Capsules API
+  slug: open-code-ocean-capsules-api
+- collection_type: open
+  name: Code Ocean Capsules Computations API
+  slug: open-code-ocean-computations-api
+- collection_type: open
+  name: Code Ocean Capsules Data Assets API
+  slug: open-code-ocean-data-assets-api
 common:
 - group: other
   title: ''
@@ -141,7 +154,7 @@ overview: 'Code Ocean publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Code Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 14
+random_paper: 80
 scopes:
 - name: Code Ocean Scopes
   scope_count: 4
@@ -176,7 +189,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/screenshots/code-ocean-2026-07-25T205905.png
 security:

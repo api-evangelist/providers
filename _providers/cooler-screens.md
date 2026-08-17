@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: A live, OAuth-protected Model Context Protocol endpoint served by CoolerX from its own apex host and discovered through the RFC 9728 protected-resource metadata document at https://coolerx.com/.well-k
@@ -98,7 +98,7 @@ plans:
 - name: Cooler Screens Plans Pricing
   plan_count: 0
   slug: cooler-screens-plans-pricing
-random_paper: 4
+random_paper: 103
 rate_limits:
 - limit_count: 0
   name: Cooler Screens Rate Limits
@@ -111,7 +111,7 @@ scopes:
 score:
   band: emerging
   composite: 16.0
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -119,10 +119,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 7.8
+  previous_composite: 16.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Cooler Screens Authentication

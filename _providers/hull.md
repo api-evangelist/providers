@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Closed — platform shut down 31 December 2022
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
-  - authentication
+  - https://www.hull.io/pricing/
+  - https://www.hull.io/faq/
   trial: false
   try_now: false
 agent_readiness:
@@ -23,18 +24,18 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 40.1
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Flat REST API for Hull's Customer Data Platform, addressing objects by ID under the /api/v1 prefix on a per-organization hullapp.io subdomain. Covers Users, Accounts, Events, Segments, organization/co
   name: Hull HTTP API
   slug: hull-http-api
-artifact_total: 5
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Hull Webhooks
@@ -128,15 +129,60 @@ common:
   title: ''
   type: DomainSecurity
   url: security/hull-domain-security.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.hull.io/faq/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://changes.hull.io
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/hull-changelog.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://www.hull.io/faq/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/hull-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/hull-rate-limits.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/hull-sandbox.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/hull-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.hull.io/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/hull-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.hull.io/security/
 created: '2026-07-17'
-description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-lifecycle pipeline (Ingest / Compute / Notify), organizes people and companies into Segments, and syncs the resulting profiles out to more than fifty tools via Connectors ("ships"). Developers integrate through a flat HTTP API at https://{organization}.hullapp.io/api/v1 covering Users, Accounts, Events, Segments, Status and Bulk operations, plus first-party Node, browser, PHP and Ruby client libraries and an outgoing/incoming webhook surface. Hull is now part of MessageBird (Bird) and is no longer accepting new customers.
+description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-lifecycle pipeline (Ingest / Compute / Notify), organizes people and companies into Segments, and syncs the resulting profiles out to more than fifty tools via Connectors ("ships"). Developers integrate through a flat HTTP API at https://{organization}.hullapp.io/api/v1 covering Users, Accounts, Events, Segments, Status and Bulk operations, plus first-party Node, browser, PHP and Ruby client libraries and an outgoing/incoming webhook surface. Hull was acquired by MessageBird (now Bird) and the platform was switched off at 09:00 ET on 31 December 2022, with all infrastructure decommissioned and customer data deleted; the marketing site and documentation remain published but the API host
+  no longer answers.
 image: https://www.hull.io/assets/images/logo/logo_dark@2x.png
 layout: provider
 mcp_servers:
 - description: ''
   name: hull-mcp.yml
   slug: hull-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Hull
 nav: Providers
 network: true
@@ -146,26 +192,34 @@ overview: 'Hull publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   The Hull catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hull''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 77
+  Hull''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, support, and 26 more developer resources.'
+plans:
+- name: Hull Plans Pricing
+  plan_count: 3
+  slug: hull-plans-pricing
+random_paper: 139
+rate_limits:
+- limit_count: 2
+  name: Hull Rate Limits
+  slug: hull-rate-limits
 score:
-  band: thin
-  composite: 40.1
-  delta: 0.0
+  band: strong
+  composite: 59.0
+  delta: 18.9
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 68.4
     contract_quality: 51.6
-    developer_ergonomics: 56.5
+    developer_ergonomics: 67.4
     discoverability: 75.9
     governance: 3.1
-    operational_transparency: 28.9
+    operational_transparency: 84.2
   previous_composite: 40.1
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hull/refs/heads/main/screenshots/hull-2026-07-25T221636.png
 security:
 - kind: authentication
@@ -176,6 +230,14 @@ security:
   name: Hull Domain Security
   slug: hull-domain-security
   summary_line: DMARC
+- kind: vulnerability-disclosure
+  name: Hull Vulnerability Disclosure
+  slug: hull-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Hull Trust Center
+  slug: hull-trust-center
+  summary_line: SOC 2 Type 2, GDPR, EU-US Privacy Shield, Penetration testing
 slug: hull
 tags:
 - Company

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The Users API from Physna — 4 operation(s) for users.
   name: Physna Users API
   slug: physna-users-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Physna Public ClientCredentials API
+  slug: open-physna-clientcredentials-api
+- collection_type: open
+  name: Physna Public ClientCredentials Collections API
+  slug: open-physna-collections-api
+- collection_type: open
+  name: Physna Public ClientCredentials Deprecated API
+  slug: open-physna-deprecated-api
+- collection_type: open
+  name: Physna Public ClientCredentials Folders API
+  slug: open-physna-folders-api
+- collection_type: open
+  name: Physna Public ClientCredentials Image Search API
+  slug: open-physna-image-search-api
+- collection_type: open
+  name: Physna Public ClientCredentials Metadata API
+  slug: open-physna-metadata-api
+- collection_type: open
+  name: Physna Public ClientCredentials Models API
+  slug: open-physna-models-api
+- collection_type: open
+  name: Physna Public ClientCredentials Users API
+  slug: open-physna-users-api
 common:
 - group: agent
   title: ''
@@ -172,7 +200,7 @@ overview: 'Physna publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Physna''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 59
+random_paper: 63
 scopes:
 - name: Physna Scopes
   scope_count: 6
@@ -201,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

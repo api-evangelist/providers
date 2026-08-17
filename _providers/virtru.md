@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -80,7 +80,53 @@ apis:
 - description: The wellknownconfiguration.WellKnownService API from Virtru — 1 operation(s) for wellknownconfiguration.wellknownservice.
   name: Virtru wellknownconfiguration.WellKnownService API
   slug: virtru-wellknownconfiguration-wellknownservice-api
-artifact_total: 20
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: authorization authorization.AuthorizationService API
+  slug: open-virtru-authorization-authorizationservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService authorization.v2.AuthorizationService API
+  slug: open-virtru-authorization-v2-authorizationservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService entityresolution.v2.EntityResolutionService API
+  slug: open-virtru-entityresolution-v2-entityresolutionservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService kas.AccessService API
+  slug: open-virtru-kas-accessservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService policy.actions.ActionService API
+  slug: open-virtru-policy-actions-actionservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService policy.attributes.AttributesService API
+  slug: open-virtru-policy-attributes-attributesservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService policy.kasregistry.KeyAccessServerRegistryService API
+  slug: open-virtru-policy-kasregistry-keyaccessserverregistryservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService policy.keymanagement.KeyManagementService API
+  slug: open-virtru-policy-keymanagement-keymanagementservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService policy.namespaces.NamespaceService API
+  slug: open-virtru-policy-namespaces-namespaceservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService policy.obligations.Service API
+  slug: open-virtru-policy-obligations-service-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService policy.registeredresources.RegisteredResourcesService API
+  slug: open-virtru-policy-registeredresources-registeredresourcesservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService policy.resourcemapping.ResourceMappingService API
+  slug: open-virtru-policy-resourcemapping-resourcemappingservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService policy.subjectmapping.SubjectMappingService API
+  slug: open-virtru-policy-subjectmapping-subjectmappingservice-api
+- collection_type: open
+  name: authorization authorization.AuthorizationService wellknownconfiguration.WellKnownService API
+  slug: open-virtru-wellknownconfiguration-wellknownservice-api
 common:
 - group: company
   title: ''
@@ -234,7 +280,7 @@ overview: 'Virtru publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Virtru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 27 more developer resources.'
-random_paper: 84
+random_paper: 88
 score:
   band: developing
   composite: 48.5
@@ -258,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -77,12 +77,18 @@ apis:
 - description: The Starknet JSON RPC API API from Starknet — 1 operation(s) for starknet json rpc api.
   name: Starknet Starknet JSON RPC API API
   slug: starknet-starknet-json-rpc-api-api
-artifact_total: 21
+artifact_total: 23
 asyncapis:
 - description: AsyncAPI 2.6 description of the Starknet WebSocket JSON-RPC API as defined by the upstream `starknet_ws_api.json` OpenRPC specification (https://github.com/starkware-libs/starknet-specs/blob/master/ap
   name: Starknet WebSocket RPC API
   slug: starknet-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Starknet JSON-RPC Starknet JSON RPC API API
+  slug: open-starknet-starknet-json-rpc-api-api
 - collection_type: open
   name: Starknet JSON-RPC API
   slug: open-starknet
@@ -166,7 +172,7 @@ plans:
 - name: Starknet Plans Pricing
   plan_count: 1
   slug: starknet-plans-pricing
-random_paper: 36
+random_paper: 131
 rate_limits:
 - limit_count: 2
   name: Starknet Rate Limits
@@ -200,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/screenshots/starknet-2026-06-20T194515.png
 security:

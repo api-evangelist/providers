@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -84,7 +84,56 @@ apis:
 - description: The Users API from Aptly — 2 operation(s) for users.
   name: Aptly Users API
   slug: aptly-users-api
-artifact_total: 19
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aptly App API
+  slug: open-aptly-app-api
+- collection_type: open
+  name: Aptly App Board API
+  slug: open-aptly-board-api
+- collection_type: open
+  name: Aptly App Boards API
+  slug: open-aptly-boards-api
+- collection_type: open
+  name: Aptly App Cards API
+  slug: open-aptly-cards-api
+- collection_type: open
+  name: Aptly App Company API
+  slug: open-aptly-company-api
+- collection_type: open
+  name: Aptly App Contacts API
+  slug: open-aptly-contacts-api
+- collection_type: open
+  name: Aptly App Email API
+  slug: open-aptly-email-api
+- collection_type: open
+  name: Aptly App Files API
+  slug: open-aptly-files-api
+- collection_type: open
+  name: Aptly App Inboxes API
+  slug: open-aptly-inboxes-api
+- collection_type: open
+  name: Aptly App Knowledge API
+  slug: open-aptly-knowledge-api
+- collection_type: open
+  name: Aptly App RoutingGroups API
+  slug: open-aptly-routinggroups-api
+- collection_type: open
+  name: Aptly App Schema API
+  slug: open-aptly-schema-api
+- collection_type: open
+  name: Aptly App Tasks API
+  slug: open-aptly-tasks-api
+- collection_type: open
+  name: Aptly App Templates API
+  slug: open-aptly-templates-api
+- collection_type: open
+  name: Aptly App Users API
+  slug: open-aptly-users-api
 common:
 - group: start
   title: ''
@@ -214,7 +263,7 @@ overview: 'Aptly publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aptly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 74
+random_paper: 107
 score:
   band: developing
   composite: 48.9
@@ -238,7 +287,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/screenshots/aptly-2026-07-25T200942.png
 security:

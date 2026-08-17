@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -105,8 +105,17 @@ apis:
 - description: The Core::Me API from Factorial — 1 operation(s) for core::me.
   name: Factorial Core::Me API
   slug: factorial-hr-core-me-api
-artifact_total: 54
+artifact_total: 57
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Factorial Core::Employees::V2 API
+  slug: open-factorial-hr-core-employees-v2-api
+- collection_type: open
+  name: Factorial Core::Employees::V2 Core::Me API
+  slug: open-factorial-hr-core-me-api
 - collection_type: open
   name: Factorial API
   slug: open-factorial
@@ -365,7 +374,7 @@ plans:
 - name: Factorial Plans Pricing
   plan_count: 5
   slug: factorial-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Factorial Rate Limits
@@ -412,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png
 security:

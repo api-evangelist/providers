@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,12 +57,33 @@ apis:
 - description: Manage Pub/Sub topics
   name: Google Pub/Sub Topics API
   slug: google-pub-sub-topics-api
-artifact_total: 18
+artifact_total: 25
 asyncapis:
 - description: Google Cloud Pub/Sub is a fully managed real-time messaging service that allows you to send and receive messages between independent applications. This AsyncAPI spec describes the event-driven messagi
   name: Google Cloud Pub/Sub
   slug: google-pub-sub-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Pub/Sub Google Cloud Pub/Sub Publish API
+  slug: open-google-pub-sub-publish-api
+- collection_type: open
+  name: Google Pub/Sub Google Cloud Pub/Sub Publish Schemas API
+  slug: open-google-pub-sub-schemas-api
+- collection_type: open
+  name: Google Pub/Sub Google Cloud Pub/Sub Publish Snapshots API
+  slug: open-google-pub-sub-snapshots-api
+- collection_type: open
+  name: Google Pub/Sub Google Cloud Pub/Sub Publish Subscribe API
+  slug: open-google-pub-sub-subscribe-api
+- collection_type: open
+  name: Google Pub/Sub Google Cloud Pub/Sub Publish Subscriptions API
+  slug: open-google-pub-sub-subscriptions-api
+- collection_type: open
+  name: Google Pub/Sub Google Cloud Pub/Sub Publish Topics API
+  slug: open-google-pub-sub-topics-api
 - collection_type: open
   name: Google Pub/Sub Google Cloud Pub/Sub API
   slug: open-google-pub-sub
@@ -134,7 +155,7 @@ plans:
 - name: Google Pub Sub Plans Pricing
   plan_count: 3
   slug: google-pub-sub-plans-pricing
-random_paper: 64
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Google Pub Sub Rate Limits
@@ -181,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/screenshots/google-pub-sub-2026-06-20T182227.png
 security:

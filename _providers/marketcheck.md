@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,7 +83,35 @@ apis:
 - description: VIN decoding and vehicle specifications
   name: MarketCheck VIN Decoder API
   slug: marketcheck-vin-decoder-api
-artifact_total: 26
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MarketCheck Cars Dealer API
+  slug: open-marketcheck-dealer-api
+- collection_type: open
+  name: MarketCheck Cars Dealer Facets API
+  slug: open-marketcheck-facets-api
+- collection_type: open
+  name: MarketCheck Cars Dealer Graphs API
+  slug: open-marketcheck-graphs-api
+- collection_type: open
+  name: MarketCheck Cars Dealer History API
+  slug: open-marketcheck-history-api
+- collection_type: open
+  name: MarketCheck Cars Dealer Inventory API
+  slug: open-marketcheck-inventory-api
+- collection_type: open
+  name: MarketCheck Cars Dealer Listings API
+  slug: open-marketcheck-listings-api
+- collection_type: open
+  name: MarketCheck Cars Dealer Market API
+  slug: open-marketcheck-market-api
+- collection_type: open
+  name: MarketCheck Cars Dealer VIN Decoder API
+  slug: open-marketcheck-vin-decoder-api
 common:
 - group: agent
   title: ''
@@ -175,7 +203,7 @@ plans:
 - name: Marketcheck Plans Pricing
   plan_count: 4
   slug: marketcheck-plans-pricing
-random_paper: 74
+random_paper: 111
 rate_limits:
 - limit_count: 0
   name: Marketcheck Rate Limits
@@ -215,7 +243,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/screenshots/marketcheck-2026-06-20T184954.png
 security:

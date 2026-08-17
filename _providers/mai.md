@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The one public, callable API MAI publishes. A single unauthenticated write-only endpoint, POST /api/collect, that ingests first-party commerce events from a merchant's storefront — product views, cart
@@ -161,7 +161,7 @@ plans:
 - name: Mai Plans Pricing
   plan_count: 2
   slug: mai-plans-pricing
-random_paper: 71
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Mai Rate Limits
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.8
-  delta: 14.3
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 9.7
@@ -177,10 +177,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.5
+  previous_composite: 29.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mai/refs/heads/main/screenshots/mai-2026-07-25T225907.png
 security:
 - kind: authentication

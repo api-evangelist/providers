@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,11 @@ apis:
 - description: OpenPrescribing API from OpenPrescribing — 19 path(s) described in OpenAPI.
   name: OpenPrescribing API
   slug: openprescribing-openapi
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: OpenPrescribing API
+  slug: open-openprescribing
 common:
 - group: commercial
   title: ''
@@ -168,7 +172,7 @@ overview: 'OpenPrescribing publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   OpenPrescribing''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, authentication, and 19 more developer resources.'
-random_paper: 50
+random_paper: 120
 score:
   band: thin
   composite: 32.7
@@ -198,7 +202,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/screenshots/openprescribing-2026-08-07T190634.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Sift's REST API for Digital Trust & Safety — send behavioral and transaction Events, request risk Scores, apply Decisions and Labels, run Workflows, and verify users. Data is sent as JSON over HTTPS a
@@ -159,7 +159,7 @@ overview: 'Sift Science publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Sift Science''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 19 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: developing
   composite: 50.2
@@ -181,7 +181,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

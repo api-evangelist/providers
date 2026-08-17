@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,14 @@ apis:
 - description: The public, anonymous WordPress REST API behind mindmazetherapeutics.com. It is not a MindMaze product, clinical or device API - none exists - but it is a real machine-readable surface, and because Mi
   name: MindMaze Therapeutics Content API
   slug: mindmaze-therapeutics-content-api
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-mindmaze-content-wp-routes-original
+- collection_type: open
+  name: MindMaze Therapeutics Content API
+  slug: open-mindmaze-content
 common:
 - group: agent
   title: ''
@@ -197,7 +204,7 @@ overview: 'MindMaze publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 31 more developer resources.'
-random_paper: 13
+random_paper: 108
 score:
   band: emerging
   composite: 22.4
@@ -227,7 +234,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png
 security:

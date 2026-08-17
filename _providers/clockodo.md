@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -66,8 +66,38 @@ apis:
 - description: Co-workers/users in the account.
   name: Clockodo Users API
   slug: clockodo-users-api
-artifact_total: 20
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clockodo Absences API
+  slug: open-clockodo-absences-api
+- collection_type: open
+  name: Clockodo Absences Clock API
+  slug: open-clockodo-clock-api
+- collection_type: open
+  name: Clockodo Absences Customers API
+  slug: open-clockodo-customers-api
+- collection_type: open
+  name: Clockodo Absences Entries API
+  slug: open-clockodo-entries-api
+- collection_type: open
+  name: Clockodo Absences HolidaysQuota API
+  slug: open-clockodo-holidaysquota-api
+- collection_type: open
+  name: Clockodo Absences LumpSumServices API
+  slug: open-clockodo-lumpsumservices-api
+- collection_type: open
+  name: Clockodo Absences Projects API
+  slug: open-clockodo-projects-api
+- collection_type: open
+  name: Clockodo Absences Services API
+  slug: open-clockodo-services-api
+- collection_type: open
+  name: Clockodo Absences Users API
+  slug: open-clockodo-users-api
 - collection_type: open
   name: Clockodo API
   slug: open-clockodo
@@ -160,7 +190,7 @@ plans:
 - name: Clockodo Plans Pricing
   plan_count: 3
   slug: clockodo-plans-pricing
-random_paper: 6
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Clockodo Rate Limits
@@ -202,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/screenshots/clockodo-2026-06-20T174529.png
 security:

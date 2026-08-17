@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -470,7 +470,7 @@ arazzos:
 - description: Start a verification, fetch it to read its status, and cancel it if it is still pending.
   name: Twilio Verify Start, Poll, and Cancel a Verification
   slug: twilio-verify-start-poll-and-cancel-workflow
-artifact_total: 236
+artifact_total: 352
 asyncapis:
 - description: 'AsyncAPI 2.6 specification for Twilio''s public WebSocket APIs: - **Media Streams** — Bidirectional and one-way raw audio over WebSocket. Twilio acts as the WebSocket *client* and connects out to a cus'
   name: Twilio Real-Time WebSocket APIs
@@ -597,29 +597,377 @@ collections:
   name: Twilio - Wireless
   slug: postman-wireless-openapi-original
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Twilio - Accounts A2p API
+  slug: open-twilio-a2p-api
+- collection_type: open
+  name: Twilio - Accounts A2p Access Tokens API
+  slug: open-twilio-access-tokens-api
+- collection_type: open
+  name: Twilio - A2p Accounts API
+  slug: open-twilio-accounts-api
+- collection_type: open
   name: Twilio Accounts API
   slug: open-twilio-accounts
+- collection_type: open
+  name: Twilio - Accounts A2p Alerts API
+  slug: open-twilio-alerts-api
+- collection_type: open
+  name: Twilio - Accounts A2p Alpha Senders API
+  slug: open-twilio-alpha-senders-api
+- collection_type: open
+  name: Twilio - Accounts A2p Apps API
+  slug: open-twilio-apps-api
+- collection_type: open
+  name: Twilio - Accounts A2p Archives API
+  slug: open-twilio-archives-api
+- collection_type: open
+  name: Twilio - Accounts A2p Assistants API
+  slug: open-twilio-assistants-api
+- collection_type: open
+  name: Twilio - Accounts A2p Attempts API
+  slug: open-twilio-attempts-api
+- collection_type: open
+  name: Twilio - Accounts A2p Auth Tokens API
+  slug: open-twilio-auth-tokens-api
+- collection_type: open
+  name: Twilio - Accounts A2p Auth Tokens API
+  slug: open-twilio-authtokens-api
+- collection_type: open
+  name: Twilio - Accounts A2p Byoc Trunks API
+  slug: open-twilio-byoctrunks-api
+- collection_type: open
+  name: Twilio - Accounts A2p Calls API
+  slug: open-twilio-calls-api
+- collection_type: open
+  name: Twilio - Accounts A2p Challenges API
+  slug: open-twilio-challenges-api
+- collection_type: open
+  name: Twilio - Accounts A2p Channels API
+  slug: open-twilio-channels-api
+- collection_type: open
+  name: Twilio - Accounts A2p Commands API
+  slug: open-twilio-commands-api
+- collection_type: open
+  name: Twilio - Accounts A2p Compliance Inquiries API
+  slug: open-twilio-complianceinquiries-api
+- collection_type: open
+  name: Twilio - Accounts A2p Composition Hooks API
+  slug: open-twilio-composition-hooks-api
+- collection_type: open
+  name: Twilio - Accounts A2p Composition Hooks API
+  slug: open-twilio-compositionhooks-api
+- collection_type: open
+  name: Twilio - Accounts A2p Compositions API
+  slug: open-twilio-compositions-api
+- collection_type: open
+  name: Twilio - Accounts A2p Composition Settings API
+  slug: open-twilio-compositionsettings-api
+- collection_type: open
+  name: Twilio - Accounts A2p Conferences API
+  slug: open-twilio-conferences-api
+- collection_type: open
+  name: Twilio - Accounts A2p Configs API
+  slug: open-twilio-configs-api
+- collection_type: open
+  name: Twilio - Accounts A2p Configuration API
+  slug: open-twilio-configuration-api
+- collection_type: open
+  name: Twilio - Accounts A2p Connection Policies API
+  slug: open-twilio-connectionpolicies-api
+- collection_type: open
+  name: Twilio - Accounts A2p Contacts API
+  slug: open-twilio-contacts-api
+- collection_type: open
+  name: Twilio - Accounts A2p Content API
+  slug: open-twilio-content-api
+- collection_type: open
+  name: Twilio - Accounts A2p Content And Approvals API
+  slug: open-twilio-contentandapprovals-api
+- collection_type: open
+  name: Twilio - Accounts A2p Conversations API
+  slug: open-twilio-conversations-api
+- collection_type: open
+  name: Twilio - Accounts A2p Credentials API
+  slug: open-twilio-credentials-api
+- collection_type: open
+  name: Twilio - Accounts A2p Customer Profiles API
+  slug: open-twilio-customerprofiles-api
+- collection_type: open
+  name: Twilio - Accounts A2p Deactivations API
+  slug: open-twilio-deactivations-api
+- collection_type: open
+  name: Twilio - Accounts A2p Devices API
+  slug: open-twilio-devices-api
+- collection_type: open
+  name: Twilio - Accounts A2p Dialing Permissions API
+  slug: open-twilio-dialingpermissions-api
+- collection_type: open
+  name: Twilio - Accounts A2p Email Validation API
+  slug: open-twilio-email-validation-api
+- collection_type: open
+  name: Twilio - Accounts A2p End Users API
+  slug: open-twilio-endusers-api
+- collection_type: open
+  name: Twilio - Accounts A2p End User Types API
+  slug: open-twilio-endusertypes-api
+- collection_type: open
+  name: Twilio - Accounts A2p Entities API
+  slug: open-twilio-entities-api
+- collection_type: open
+  name: Twilio - Accounts A2p E Sim Profiles API
+  slug: open-twilio-esimprofiles-api
+- collection_type: open
+  name: Twilio - Accounts A2p Events API
+  slug: open-twilio-events-api
+- collection_type: open
+  name: Twilio - Accounts A2p Exports API
+  slug: open-twilio-exports-api
+- collection_type: open
+  name: Twilio - Accounts A2p Factors API
+  slug: open-twilio-factors-api
+- collection_type: open
+  name: Twilio - Accounts A2p Fleets API
+  slug: open-twilio-fleets-api
+- collection_type: open
+  name: Twilio - Accounts A2p Flex Flows API
+  slug: open-twilio-flex-flows-api
 - collection_type: open
   name: Twilio Flex API
   slug: open-twilio-flex
 - collection_type: open
+  name: Twilio - Accounts A2p Flows API
+  slug: open-twilio-flows-api
+- collection_type: open
+  name: Twilio - Accounts A2p Forms API
+  slug: open-twilio-forms-api
+- collection_type: open
+  name: Twilio - Accounts A2p Hosted Number API
+  slug: open-twilio-hostednumber-api
+- collection_type: open
+  name: Twilio - Accounts A2p Insights API
+  slug: open-twilio-insights-api
+- collection_type: open
+  name: Twilio - Accounts A2p Interactions API
+  slug: open-twilio-interactions-api
+- collection_type: open
+  name: Twilio - Accounts A2p Ip Commands API
+  slug: open-twilio-ipcommands-api
+- collection_type: open
+  name: Twilio - Accounts A2p Ip Records API
+  slug: open-twilio-iprecords-api
+- collection_type: open
+  name: Twilio - Accounts A2p Keys API
+  slug: open-twilio-keys-api
+- collection_type: open
+  name: Twilio - Accounts A2p Legacy Content API
+  slug: open-twilio-legacycontent-api
+- collection_type: open
+  name: Twilio - Accounts A2p Link Shortening API
+  slug: open-twilio-linkshortening-api
+- collection_type: open
+  name: Twilio - Accounts A2p Lists API
+  slug: open-twilio-lists-api
+- collection_type: open
   name: Twilio Lookup API
   slug: open-twilio-lookup
+- collection_type: open
+  name: Twilio - Accounts A2p Mail Send API
+  slug: open-twilio-mail-send-api
+- collection_type: open
+  name: Twilio - Accounts A2p Marketplace API
+  slug: open-twilio-marketplace-api
+- collection_type: open
+  name: Twilio - Accounts A2p Media API
+  slug: open-twilio-media-api
+- collection_type: open
+  name: Twilio - Accounts A2p Media Processors API
+  slug: open-twilio-mediaprocessors-api
+- collection_type: open
+  name: Twilio - Accounts A2p Media Recordings API
+  slug: open-twilio-mediarecordings-api
+- collection_type: open
+  name: Twilio - Accounts A2p Messages API
+  slug: open-twilio-messages-api
+- collection_type: open
+  name: Twilio - Accounts A2p Messaging Services API
+  slug: open-twilio-messaging-services-api
 - collection_type: open
   name: Twilio Messaging API
   slug: open-twilio-messaging
 - collection_type: open
+  name: Twilio - Accounts A2p Network Access Profiles API
+  slug: open-twilio-networkaccessprofiles-api
+- collection_type: open
+  name: Twilio - Accounts A2p Networks API
+  slug: open-twilio-networks-api
+- collection_type: open
+  name: Twilio - Accounts A2p Participant Conversations API
+  slug: open-twilio-participantconversations-api
+- collection_type: open
+  name: Twilio - Accounts A2p Participants API
+  slug: open-twilio-participants-api
+- collection_type: open
+  name: Twilio - Accounts A2p Phone Numbers API
+  slug: open-twilio-phone-numbers-api
+- collection_type: open
+  name: Twilio - Accounts A2p Phone Numbers API
+  slug: open-twilio-phonenumbers-api
+- collection_type: open
+  name: Twilio - Accounts A2p Player Streamers API
+  slug: open-twilio-playerstreamers-api
+- collection_type: open
+  name: Twilio - Accounts A2p Plugins API
+  slug: open-twilio-plugins-api
+- collection_type: open
+  name: Twilio - Accounts A2p Policies API
+  slug: open-twilio-policies-api
+- collection_type: open
+  name: Twilio - Accounts A2p Queues API
+  slug: open-twilio-queues-api
+- collection_type: open
+  name: Twilio - Accounts A2p Rate Limits API
+  slug: open-twilio-rate-limits-api
+- collection_type: open
+  name: Twilio - Accounts A2p Rate Plans API
+  slug: open-twilio-rateplans-api
+- collection_type: open
+  name: Twilio - Accounts A2p Recording Rules API
+  slug: open-twilio-recording-rules-api
+- collection_type: open
+  name: Twilio - Accounts A2p Recordings API
+  slug: open-twilio-recordings-api
+- collection_type: open
+  name: Twilio - Accounts A2p Recording Settings API
+  slug: open-twilio-recordingsettings-api
+- collection_type: open
+  name: Twilio - Accounts A2p Regulatory Compliance API
+  slug: open-twilio-regulatorycompliance-api
+- collection_type: open
+  name: Twilio - Accounts A2p Roles API
+  slug: open-twilio-roles-api
+- collection_type: open
+  name: Twilio - Accounts A2p Rooms API
+  slug: open-twilio-rooms-api
+- collection_type: open
+  name: Twilio - Accounts A2p Safe List API
+  slug: open-twilio-safelist-api
+- collection_type: open
+  name: Twilio - Accounts A2p Schemas API
+  slug: open-twilio-schemas-api
+- collection_type: open
+  name: Twilio - Accounts A2p Secrets API
+  slug: open-twilio-secrets-api
+- collection_type: open
+  name: Twilio - Accounts A2p Senders API
+  slug: open-twilio-senders-api
+- collection_type: open
   name: Twilio SendGrid Email API
   slug: open-twilio-sendgrid
+- collection_type: open
+  name: Twilio - Accounts A2p Services API
+  slug: open-twilio-services-api
+- collection_type: open
+  name: Twilio - Accounts A2p Settings API
+  slug: open-twilio-settings-api
+- collection_type: open
+  name: Twilio - Accounts A2p Settings Updates API
+  slug: open-twilio-settingsupdates-api
+- collection_type: open
+  name: Twilio - Accounts A2p Short Codes API
+  slug: open-twilio-short-codes-api
+- collection_type: open
+  name: Twilio - Accounts A2p Sims API
+  slug: open-twilio-sims-api
+- collection_type: open
+  name: Twilio - Accounts A2p Sinks API
+  slug: open-twilio-sinks-api
+- collection_type: open
+  name: Twilio - Accounts A2p Sip Domains API
+  slug: open-twilio-sipdomains-api
+- collection_type: open
+  name: Twilio - Accounts A2p Sms Commands API
+  slug: open-twilio-smscommands-api
+- collection_type: open
+  name: Twilio - Accounts A2p Source Ip Mappings API
+  slug: open-twilio-sourceipmappings-api
+- collection_type: open
+  name: Twilio - Accounts A2p Stats API
+  slug: open-twilio-stats-api
+- collection_type: open
+  name: Twilio - Accounts A2p Subscriptions API
+  slug: open-twilio-subscriptions-api
+- collection_type: open
+  name: Twilio - Accounts A2p Supporting Documents API
+  slug: open-twilio-supportingdocuments-api
+- collection_type: open
+  name: Twilio - Accounts A2p Supporting Document Types API
+  slug: open-twilio-supportingdocumenttypes-api
+- collection_type: open
+  name: Twilio - Accounts A2p Suppressions API
+  slug: open-twilio-suppressions-api
+- collection_type: open
+  name: Twilio - Accounts A2p Templates API
+  slug: open-twilio-templates-api
+- collection_type: open
+  name: Twilio - Accounts A2p Tollfree API
+  slug: open-twilio-tollfree-api
+- collection_type: open
+  name: Twilio - Accounts A2p Transcripts API
+  slug: open-twilio-transcripts-api
+- collection_type: open
+  name: Twilio - Accounts A2p Trunking API
+  slug: open-twilio-trunking-api
+- collection_type: open
+  name: Twilio - Accounts A2p Trunks API
+  slug: open-twilio-trunks-api
+- collection_type: open
+  name: Twilio - Accounts A2p Trust Products API
+  slug: open-twilio-trustproducts-api
+- collection_type: open
+  name: Twilio - Accounts A2p Types API
+  slug: open-twilio-types-api
+- collection_type: open
+  name: Twilio - Accounts A2p Understand API
+  slug: open-twilio-understand-api
+- collection_type: open
+  name: Twilio - Accounts A2p Usage Records API
+  slug: open-twilio-usagerecords-api
+- collection_type: open
+  name: Twilio - Accounts A2p Users API
+  slug: open-twilio-users-api
+- collection_type: open
+  name: Twilio - Accounts A2p Verification Checks API
+  slug: open-twilio-verification-checks-api
+- collection_type: open
+  name: Twilio - Accounts A2p Verifications API
+  slug: open-twilio-verifications-api
 - collection_type: open
   name: Twilio Verify API
   slug: open-twilio-verify
 - collection_type: open
+  name: Twilio - Accounts A2p Video API
+  slug: open-twilio-video-api
+- collection_type: open
   name: Twilio Video API
   slug: open-twilio-video
 - collection_type: open
+  name: Twilio - Accounts A2p Voice API
+  slug: open-twilio-voice-api
+- collection_type: open
   name: Twilio Voice API
   slug: open-twilio-voice
+- collection_type: open
+  name: Twilio - Accounts A2p Web Channels API
+  slug: open-twilio-web-channels-api
+- collection_type: open
+  name: Twilio - Accounts A2p Webhooks API
+  slug: open-twilio-webhooks-api
+- collection_type: open
+  name: Twilio - Accounts A2p Workspaces API
+  slug: open-twilio-workspaces-api
 common:
 - group: agent
   title: ''
@@ -1135,7 +1483,7 @@ plans:
 - name: Twilio Plans Pricing
   plan_count: 2
   slug: twilio-plans-pricing
-random_paper: 64
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Twilio Rate Limits
@@ -1194,7 +1542,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

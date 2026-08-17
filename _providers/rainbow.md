@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,17 +60,41 @@ apis:
 - description: User profile and presence operations
   name: Rainbow Users API
   slug: rainbow-users-api
-artifact_total: 26
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Rainbow Application Portal API
   slug: open-rainbow-application
 - collection_type: open
+  name: Rainbow Application Portal Applications API
+  slug: open-rainbow-applications-api
+- collection_type: open
+  name: Rainbow Application Portal Applications Authentication API
+  slug: open-rainbow-authentication-api
+- collection_type: open
+  name: Rainbow Application Portal Applications Bubbles API
+  slug: open-rainbow-bubbles-api
+- collection_type: open
+  name: Rainbow Application Portal Applications Contacts API
+  slug: open-rainbow-contacts-api
+- collection_type: open
   name: Rainbow Contacts API
   slug: open-rainbow-contacts
 - collection_type: open
+  name: Rainbow Application Portal Applications Conversations API
+  slug: open-rainbow-conversations-api
+- collection_type: open
+  name: Rainbow Application Portal Applications Messages API
+  slug: open-rainbow-messages-api
+- collection_type: open
   name: Rainbow Messaging API
   slug: open-rainbow-messaging
+- collection_type: open
+  name: Rainbow Application Portal Applications Users API
+  slug: open-rainbow-users-api
 common:
 - group: agent
   title: ''
@@ -189,7 +213,7 @@ plans:
 - name: Rainbow Plans Pricing
   plan_count: 1
   slug: rainbow-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Rainbow Rate Limits
@@ -237,7 +261,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/screenshots/rainbow-2026-06-20T192535.png
 security:

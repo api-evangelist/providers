@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: Reporting on the referrals you've sent Steadily and the referral fees you've earned. The lead, account, and policy endpoints follow each referral through its lifetime. The summary views provide aggreg
   name: Steadily Reporting API
   slug: steadily-reporting-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Partner Account API
+  slug: open-steadily-account-api
+- collection_type: open
+  name: Partner Account Draft Quote API
+  slug: open-steadily-draft-quote-api
+- collection_type: open
+  name: Partner Account Lead Referrals API
+  slug: open-steadily-lead-referrals-api
+- collection_type: open
+  name: Partner Account Lender API
+  slug: open-steadily-lender-api
+- collection_type: open
+  name: Partner Account Policy API
+  slug: open-steadily-policy-api
+- collection_type: open
+  name: Partner Account Quote Estimates API
+  slug: open-steadily-quote-estimates-api
+- collection_type: open
+  name: Partner Account Quote Offer API
+  slug: open-steadily-quote-offer-api
+- collection_type: open
+  name: Partner Account Reporting API
+  slug: open-steadily-reporting-api
 common:
 - group: other
   title: ''
@@ -172,7 +200,7 @@ overview: 'Steadily publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 17 more developer resources.'
-random_paper: 23
+random_paper: 118
 score:
   band: thin
   composite: 39.5
@@ -202,7 +230,7 @@ score:
     regime_id: insurance
     score: 40.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

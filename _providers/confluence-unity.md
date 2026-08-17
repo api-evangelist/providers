@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -88,7 +88,7 @@ plans:
 - name: Confluence Unity Plans Pricing
   plan_count: 3
   slug: confluence-unity-plans-pricing
-random_paper: 112
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Confluence Unity Rate Limits
@@ -106,7 +106,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence-unity/refs/heads/main/screenshots/confluence-unity-2026-06-20T174856.png
 security:

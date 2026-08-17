@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 6
@@ -114,11 +114,89 @@ apis:
 - description: Manage webhooks for event notifications
   name: Kion Webhooks API
   slug: kion-webhooks-api
-artifact_total: 51
+artifact_total: 77
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kion Cloud Operations Accounts API
+  slug: open-kion-accounts-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts App Configuration API
+  slug: open-kion-app-configuration-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Azure ARM Templates API
+  slug: open-kion-azure-arm-templates-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Azure Policies API
+  slug: open-kion-azure-policies-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Azure Roles API
+  slug: open-kion-azure-roles-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Cloud Access Roles API
+  slug: open-kion-cloud-access-roles-api
 - collection_type: open
   name: Kion Cloud Operations API
   slug: open-kion-cloud-operations-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Cloud Rules API
+  slug: open-kion-cloud-rules-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts CloudFormation Templates API
+  slug: open-kion-cloudformation-templates-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Compliance Checks API
+  slug: open-kion-compliance-checks-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Compliance Standards API
+  slug: open-kion-compliance-standards-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Custom Variables API
+  slug: open-kion-custom-variables-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Enforcements API
+  slug: open-kion-enforcements-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Funding Sources API
+  slug: open-kion-funding-sources-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts GCP IAM Roles API
+  slug: open-kion-gcp-iam-roles-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts IAM Policies API
+  slug: open-kion-iam-policies-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Identity Management API
+  slug: open-kion-identity-management-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Labels API
+  slug: open-kion-labels-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Organizational Units API
+  slug: open-kion-organizational-units-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Permission Mappings API
+  slug: open-kion-permission-mappings-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Projects API
+  slug: open-kion-projects-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts SAML Group Associations API
+  slug: open-kion-saml-group-associations-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Service Control Policies API
+  slug: open-kion-service-control-policies-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts User Groups API
+  slug: open-kion-user-groups-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Users API
+  slug: open-kion-users-api
+- collection_type: open
+  name: Kion Cloud Operations Accounts Webhooks API
+  slug: open-kion-webhooks-api
 common:
 - group: agent
   title: ''
@@ -253,7 +331,7 @@ plans:
 - name: Kion Plans Pricing
   plan_count: 3
   slug: kion-plans-pricing
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 5
   name: Kion Rate Limits
@@ -287,7 +365,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kion/refs/heads/main/screenshots/kion-2026-06-20T184046.png
 security:

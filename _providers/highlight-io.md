@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ arazzos:
 - description: Open a session, attach track-event properties to it, then flush a recording payload.
   name: Highlight Session Track Event
   slug: highlight-io-session-track-event-workflow
-artifact_total: 58
+artifact_total: 64
 collections:
 - collection_type: postman
   name: Highlight OTLP Logs API
@@ -107,6 +107,24 @@ collections:
 - collection_type: postman
   name: Highlight Session Ingestion API
   slug: postman-highlight-session-ingestion-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Highlight OTLP Logs API
+  slug: open-highlight-io-logs-api
+- collection_type: open
+  name: Highlight OTLP Logs Metrics API
+  slug: open-highlight-io-metrics-api
+- collection_type: open
+  name: Highlight OTLP Logs Sessions API
+  slug: open-highlight-io-sessions-api
+- collection_type: open
+  name: Highlight OTLP Logs Traces API
+  slug: open-highlight-io-traces-api
+- collection_type: open
+  name: Highlight OTLP Logs Webhooks API
+  slug: open-highlight-io-webhooks-api
 - collection_type: open
   name: Highlight OTLP Logs API
   slug: open-highlight-otlp-logs-api
@@ -461,7 +479,7 @@ plans:
 - name: Highlight Io Plans Pricing
   plan_count: 6
   slug: highlight-io-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 7
   name: Highlight Io Rate Limits
@@ -503,7 +521,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/screenshots/highlight-io-2026-06-20T182728.png
 security:

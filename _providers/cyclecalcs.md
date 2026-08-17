@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,7 +128,101 @@ arazzos:
 - description: Resolve a place name, take the whole-sky snapshot, then find the dark moonless observing window for the next week.
   name: Tonight's sky for a place
   slug: cyclecalcs-tonights-sky
-artifact_total: 52
+artifact_total: 83
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CycleCalcs Astronomy Apsides API
+  slug: open-cyclecalcs-apsides-api
+- collection_type: open
+  name: CycleCalcs Astronomy Attribution API
+  slug: open-cyclecalcs-attribution-api
+- collection_type: open
+  name: CycleCalcs Astronomy Conjunctions API
+  slug: open-cyclecalcs-conjunctions-api
+- collection_type: open
+  name: CycleCalcs Astronomy Conventions API
+  slug: open-cyclecalcs-conventions-api
+- collection_type: open
+  name: CycleCalcs Astronomy CycleCalcs Astronomy API API
+  slug: open-cyclecalcs-cyclecalcs-astronomy-api-api
+- collection_type: open
+  name: CycleCalcs Astronomy Cycles API
+  slug: open-cyclecalcs-cycles-api
+- collection_type: open
+  name: CycleCalcs Astronomy Dark Window API
+  slug: open-cyclecalcs-dark-window-api
+- collection_type: open
+  name: CycleCalcs Astronomy Eclipses API
+  slug: open-cyclecalcs-eclipses-api
+- collection_type: open
+  name: CycleCalcs Astronomy Enums API
+  slug: open-cyclecalcs-enums-api
+- collection_type: open
+  name: CycleCalcs Astronomy Equation Of Time API
+  slug: open-cyclecalcs-equation-of-time-api
+- collection_type: open
+  name: CycleCalcs Astronomy Jupiter Moons API
+  slug: open-cyclecalcs-jupiter-moons-api
+- collection_type: open
+  name: CycleCalcs Astronomy Libration API
+  slug: open-cyclecalcs-libration-api
+- collection_type: open
+  name: CycleCalcs Astronomy Moon API
+  slug: open-cyclecalcs-moon-api
+- collection_type: open
+  name: CycleCalcs Astronomy Moon Nodes API
+  slug: open-cyclecalcs-moon-nodes-api
+- collection_type: open
+  name: CycleCalcs Astronomy Phases API
+  slug: open-cyclecalcs-phases-api
+- collection_type: open
+  name: CycleCalcs Astronomy Places API
+  slug: open-cyclecalcs-places-api
+- collection_type: open
+  name: CycleCalcs Astronomy Planet Board API
+  slug: open-cyclecalcs-planet-board-api
+- collection_type: open
+  name: CycleCalcs Astronomy Planet Events API
+  slug: open-cyclecalcs-planet-events-api
+- collection_type: open
+  name: CycleCalcs Astronomy Positions API
+  slug: open-cyclecalcs-positions-api
+- collection_type: open
+  name: CycleCalcs Astronomy Retrogrades API
+  slug: open-cyclecalcs-retrogrades-api
+- collection_type: open
+  name: CycleCalcs Astronomy Rise Set API
+  slug: open-cyclecalcs-rise-set-api
+- collection_type: open
+  name: CycleCalcs Astronomy Seasons API
+  slug: open-cyclecalcs-seasons-api
+- collection_type: open
+  name: CycleCalcs Astronomy Separation API
+  slug: open-cyclecalcs-separation-api
+- collection_type: open
+  name: CycleCalcs Astronomy Sidereal Time API
+  slug: open-cyclecalcs-sidereal-time-api
+- collection_type: open
+  name: CycleCalcs Astronomy Sky Quality API
+  slug: open-cyclecalcs-sky-quality-api
+- collection_type: open
+  name: CycleCalcs Astronomy Sun API
+  slug: open-cyclecalcs-sun-api
+- collection_type: open
+  name: CycleCalcs Astronomy Time API
+  slug: open-cyclecalcs-time-api
+- collection_type: open
+  name: CycleCalcs Astronomy Today API
+  slug: open-cyclecalcs-today-api
+- collection_type: open
+  name: CycleCalcs Astronomy Twilight API
+  slug: open-cyclecalcs-twilight-api
+- collection_type: open
+  name: API Collection
+  slug: open-cyclecalcs-v2-discovery
 common:
 - group: other
   title: ''
@@ -331,7 +425,7 @@ plans:
 - name: Cyclecalcs Plans
   plan_count: 4
   slug: cyclecalcs-plans
-random_paper: 86
+random_paper: 3
 rate_limits:
 - limit_count: 15
   name: Cyclecalcs Rate Limits
@@ -359,7 +453,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

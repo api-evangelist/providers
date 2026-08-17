@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,24 +23,27 @@ agent_readiness:
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 43.2
+  scored_at: '2026-08-17'
+api_count: 4
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
   name: Practice Fusion FHIR API (Patient Data Sharing)
   slug: practice-fusion-fhir-api-patient-data-sharing
+- description: Patient-facing personal health record API documented in the PDS API Developer Guide. Serves a patient their own clinical documents and record data from the Practice Fusion EHR, authorized with OAuth 2
+  name: Practice Fusion Patient Fusion PHR API
+  slug: practice-fusion-patient-fusion-phr-api
 - description: Proprietary bi-directional laboratory integration API connecting practices with 300+ independent, hospital, and health-system labs including Labcorp, Quest Diagnostics, RadNet, SimonMed, and Rayus for
   name: Practice Fusion Labs API
   slug: practice-fusion-labs-api
 - description: Proprietary bi-directional imaging integration API for order receipt and study transmission across imaging providers, supporting 100,000+ medical professionals.
   name: Practice Fusion Imaging API
   slug: practice-fusion-imaging-api
-artifact_total: 7
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -142,6 +145,62 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.practicefusion.com/pages/privacy-policy.html
+- group: build
+  title: ''
+  type: Packages
+  url: packages/practice-fusion-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/practice-fusion-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/practice-fusion-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/practice-fusion-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/practice-fusion-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/practice-fusion-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://veradigm.com/legal/security-program/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/practicefusion
+- group: start
+  title: ''
+  type: Login
+  url: https://static.practicefusion.com/apps/ehr/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.practicefusion.com/developer-center/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.practicefusion.com/pds-api/developer-guide/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.practicefusion.com/pds-api/termsofservice/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.practicefusion.com/s/article/using-fhir-in-practice-fusion
 created: '2026-07-17'
 description: Practice Fusion is a cloud-based electronic health record (EHR) platform for independent ambulatory medical practices, serving roughly 6.4% of U.S. ambulatory practices with more than 43 million clinical records and around 5 million patient visits per month. Its developer surface centers on an ONC Certified Health IT FHIR R4 (Patient Data Sharing / PDS) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1 over SMART-on-FHIR OAuth2, alongside proprietary bi-directional Labs and Imaging APIs and a partner marketplace of 600+ integrated companies.
 image: https://www.practicefusion.com/assets/img/practice-fusion-logo.png
@@ -150,31 +209,39 @@ mcp_servers:
 - description: ''
   name: practice-fusion-mcp.yml
   slug: practice-fusion-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Practice Fusion
 nav: Providers
 network: true
-overview: 'Practice Fusion publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Electronic Health Records, EHR, and FHIR.
+overview: 'Practice Fusion publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Electronic Health Records, EHR, and FHIR.
 
 
-  Practice Fusion''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, engineering blog, and 18 more developer resources.'
-random_paper: 108
+  Practice Fusion''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, engineering blog, and 32 more developer resources.'
+plans:
+- name: Practice Fusion Plans Pricing
+  plan_count: 8
+  slug: practice-fusion-plans-pricing
+random_paper: 58
+rate_limits:
+- limit_count: 0
+  name: Practice Fusion Rate Limits
+  slug: practice-fusion-rate-limits
 scopes:
 - name: Practice Fusion Scopes
   scope_count: 0
   slug: practice-fusion-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 46.6
-  delta: 0.0
+  band: strong
+  composite: 59.0
+  delta: 12.4
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 92.1
     contract_quality: 40.0
-    developer_ergonomics: 54.3
+    developer_ergonomics: 60.9
     discoverability: 81.5
     governance: 12.5
-    operational_transparency: 15.8
+    operational_transparency: 47.4
   previous_composite: 46.6
   provenance:
     conformance: first-party
@@ -184,10 +251,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
+    score: 73.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Practice Fusion Authentication
@@ -197,6 +264,14 @@ security:
   name: Practice Fusion Domain Security
   slug: practice-fusion-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Practice Fusion Vulnerability Disclosure
+  slug: practice-fusion-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Practice Fusion Trust Center
+  slug: practice-fusion-trust-center
+  summary_line: SOC 2 Type 2, EHNAC accreditation, EPCS certification, ISO 9001:2015, ONC Certification Rule (Certified Health IT), HIPAA
 slug: practice-fusion
 tags:
 - Company

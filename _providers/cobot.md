@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 44
 apis:
 - description: The original Cobot REST API, still available and still the only surface that carries the webhook subscription API. Documented per-resource on dev.cobot.me/api-docs; Cobot directs new integrations to A
@@ -154,11 +154,135 @@ apis:
 - description: Confirms if a given email address is free to take.
   name: Cobot User Email Preview API
   slug: cobot-user-email-preview-api
-artifact_total: 49
+artifact_total: 90
 asyncapis:
 - description: ''
   name: Cobot Webhooks
   slug: cobot-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cobot Allocation API
+  slug: open-cobot-allocation-api
+- collection_type: open
+  name: Cobot Approval API
+  slug: open-cobot-approval-api
+- collection_type: open
+  name: Cobot Article API
+  slug: open-cobot-article-api
+- collection_type: open
+  name: Cobot Booking API
+  slug: open-cobot-booking-api
+- collection_type: open
+  name: Cobot Booking Credit API
+  slug: open-cobot-booking-credit-api
+- collection_type: open
+  name: Cobot Built-in Email Customizations API
+  slug: open-cobot-built-in-email-customizations-api
+- collection_type: open
+  name: Cobot Calendar Blocker API
+  slug: open-cobot-calendar-blocker-api
+- collection_type: open
+  name: Cobot Check In API
+  slug: open-cobot-check-in-api
+- collection_type: open
+  name: Cobot Contact API
+  slug: open-cobot-contact-api
+- collection_type: open
+  name: Cobot Cost Center API
+  slug: open-cobot-cost-center-api
+- collection_type: open
+  name: Cobot Customer API
+  slug: open-cobot-customer-api
+- collection_type: open
+  name: Cobot Discount Code API
+  slug: open-cobot-discount-code-api
+- collection_type: open
+  name: Cobot Drop-In Pass API
+  slug: open-cobot-drop-in-pass-api
+- collection_type: open
+  name: Cobot Drop-In Pass Purchase API
+  slug: open-cobot-drop-in-pass-purchase-api
+- collection_type: open
+  name: Cobot Drop-In Pass Template API
+  slug: open-cobot-drop-in-pass-template-api
+- collection_type: open
+  name: Cobot Event API
+  slug: open-cobot-event-api
+- collection_type: open
+  name: Cobot External Booking API
+  slug: open-cobot-external-booking-api
+- collection_type: open
+  name: Cobot External Resource API
+  slug: open-cobot-external-resource-api
+- collection_type: open
+  name: Cobot Invoice API
+  slug: open-cobot-invoice-api
+- collection_type: open
+  name: Cobot Invoice Reminder API
+  slug: open-cobot-invoice-reminder-api
+- collection_type: open
+  name: Cobot Membership API
+  slug: open-cobot-membership-api
+- collection_type: open
+  name: Cobot Membership Plan API
+  slug: open-cobot-membership-plan-api
+- collection_type: open
+  name: Cobot Membership Profile API
+  slug: open-cobot-membership-profile-api
+- collection_type: open
+  name: Cobot Navigation Link API
+  slug: open-cobot-navigation-link-api
+- collection_type: open
+  name: Cobot Network API
+  slug: open-cobot-network-api
+- collection_type: open
+  name: Cobot Payment API
+  slug: open-cobot-payment-api
+- collection_type: open
+  name: Cobot Payment Method API
+  slug: open-cobot-payment-method-api
+- collection_type: open
+  name: Cobot Product API
+  slug: open-cobot-product-api
+- collection_type: open
+  name: Cobot Refund API
+  slug: open-cobot-refund-api
+- collection_type: open
+  name: Cobot Resource API
+  slug: open-cobot-resource-api
+- collection_type: open
+  name: Cobot Revenue Account API
+  slug: open-cobot-revenue-account-api
+- collection_type: open
+  name: Cobot Single page app API
+  slug: open-cobot-single-page-app-api
+- collection_type: open
+  name: Cobot Space API
+  slug: open-cobot-space-api
+- collection_type: open
+  name: Cobot Space Billing Details API
+  slug: open-cobot-space-billing-details-api
+- collection_type: open
+  name: Cobot Space Payment Method API
+  slug: open-cobot-space-payment-method-api
+- collection_type: open
+  name: Cobot Space Profile API
+  slug: open-cobot-space-profile-api
+- collection_type: open
+  name: Cobot Subscription API
+  slug: open-cobot-subscription-api
+- collection_type: open
+  name: Cobot Team API
+  slug: open-cobot-team-api
+- collection_type: open
+  name: Cobot URL API
+  slug: open-cobot-url-api
+- collection_type: open
+  name: Cobot User API
+  slug: open-cobot-user-api
 common:
 - group: other
   title: ''
@@ -319,7 +443,7 @@ overview: 'Cobot publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 55
+random_paper: 88
 scopes:
 - name: Cobot Scopes
   scope_count: 60
@@ -353,7 +477,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 7
 common:
@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: WILLBROS GROUP INC (DE) Reports Operating Results ...
   url: https://www.gurufocus.com/news/174979/willbros-group-inc-de-reports-operating-results-10q?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
-random_paper: 40
+random_paper: 139
 score:
   band: minimal
   composite: 5.5
@@ -97,7 +97,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/willbros-group/refs/heads/main/screenshots/willbros-group-2026-06-20T201504.png
 security:

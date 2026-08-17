@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -84,7 +84,56 @@ apis:
 - description: Retrieve information about the public API, including the current API version.
   name: LSEG World-Check One API Info API
   slug: lseg-world-check-one-api-info-api
-artifact_total: 22
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info API
+  slug: open-london-stock-exchange-group-api-info-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Audit API
+  slug: open-london-stock-exchange-group-audit-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Case API
+  slug: open-london-stock-exchange-group-case-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Case-Rating API
+  slug: open-london-stock-exchange-group-case-rating-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Client-Watchlist API
+  slug: open-london-stock-exchange-group-client-watchlist-api
+- collection_type: open
+  name: London Stock Exchange LSEG World-Check One Api-Info Group API
+  slug: open-london-stock-exchange-group-group-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Linked-Cases API
+  slug: open-london-stock-exchange-group-linked-cases-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Media-Check API
+  slug: open-london-stock-exchange-group-media-check-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Passport-Check API
+  slug: open-london-stock-exchange-group-passport-check-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Reference API
+  slug: open-london-stock-exchange-group-reference-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Reporting API
+  slug: open-london-stock-exchange-group-reporting-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Smart-Filter API
+  slug: open-london-stock-exchange-group-smart-filter-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Upcoming API
+  slug: open-london-stock-exchange-group-upcoming-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info User API
+  slug: open-london-stock-exchange-group-user-api
+- collection_type: open
+  name: London Stock Exchange Group LSEG World-Check One Api-Info Zfs API
+  slug: open-london-stock-exchange-group-zfs-api
 common:
 - group: company
   title: ''
@@ -242,7 +291,7 @@ plans:
 - name: London Stock Exchange Group Plans Pricing
   plan_count: 3
   slug: london-stock-exchange-group-plans-pricing
-random_paper: 85
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: London Stock Exchange Group Rate Limits
@@ -276,7 +325,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/screenshots/london-stock-exchange-group-2026-06-20T184706.png
 security:

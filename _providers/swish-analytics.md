@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: The ATP Tennis API from Swish Analytics — 3 operation(s) for atp tennis.
@@ -61,7 +61,41 @@ apis:
 - description: The WTA Tennis API from Swish Analytics — 3 operation(s) for wta tennis.
   name: Swish Analytics WTA Tennis API
   slug: swish-analytics-wta-tennis-api
-artifact_total: 13
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis API
+  slug: open-swish-analytics-atp-tennis-api
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis Bet Request API
+  slug: open-swish-analytics-bet-request-api
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis MLB API
+  slug: open-swish-analytics-mlb-api
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis NBA API
+  slug: open-swish-analytics-nba-api
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis NCAA Basketball API
+  slug: open-swish-analytics-ncaa-basketball-api
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis NCAA Football API
+  slug: open-swish-analytics-ncaa-football-api
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis NFL API
+  slug: open-swish-analytics-nfl-api
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis NHL API
+  slug: open-swish-analytics-nhl-api
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis Soccer API
+  slug: open-swish-analytics-soccer-api
+- collection_type: open
+  name: Swish Analytics Sportsbook ATP Tennis WTA Tennis API
+  slug: open-swish-analytics-wta-tennis-api
 common:
 - group: other
   title: ''
@@ -163,7 +197,7 @@ overview: 'Swish Analytics publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Swish Analytics'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, and 15 more developer resources.'
-random_paper: 11
+random_paper: 81
 score:
   band: thin
   composite: 40.1
@@ -186,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

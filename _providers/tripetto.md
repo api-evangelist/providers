@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Configure outbound webhook integrations
   name: Tripetto Webhooks API
   slug: tripetto-webhooks-api
-artifact_total: 22
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Tripetto FormBuilder SDK Forms API
@@ -63,8 +63,20 @@ collections:
   name: Tripetto FormBuilder SDK Forms Webhooks API
   slug: postman-tripetto-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Tripetto FormBuilder SDK API
   slug: open-tripetto-form-builder
+- collection_type: open
+  name: Tripetto FormBuilder SDK Forms API
+  slug: open-tripetto-forms-api
+- collection_type: open
+  name: Tripetto FormBuilder SDK Forms Responses API
+  slug: open-tripetto-responses-api
+- collection_type: open
+  name: Tripetto FormBuilder SDK Forms Webhooks API
+  slug: open-tripetto-webhooks-api
 common:
 - group: build
   title: ''
@@ -204,7 +216,7 @@ plans:
 - name: Tripetto Plans Pricing
   plan_count: 3
   slug: tripetto-plans-pricing
-random_paper: 51
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Tripetto Rate Limits
@@ -246,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/screenshots/tripetto-2026-06-20T195723.png
 security:

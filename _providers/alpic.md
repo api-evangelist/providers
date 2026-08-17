@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The tunnels API from Alpic — 1 operation(s) for tunnels.
   name: Alpic tunnels API
   slug: alpic-tunnels-api
-artifact_total: 14
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alpic analytics API
+  slug: open-alpic-analytics-api
+- collection_type: open
+  name: Alpic analytics beacon API
+  slug: open-alpic-beacon-api
+- collection_type: open
+  name: Alpic analytics deployments API
+  slug: open-alpic-deployments-api
+- collection_type: open
+  name: Alpic analytics distribution API
+  slug: open-alpic-distribution-api
+- collection_type: open
+  name: Alpic analytics environments API
+  slug: open-alpic-environments-api
+- collection_type: open
+  name: Alpic analytics projects API
+  slug: open-alpic-projects-api
+- collection_type: open
+  name: Alpic analytics teams API
+  slug: open-alpic-teams-api
+- collection_type: open
+  name: Alpic analytics tunnels API
+  slug: open-alpic-tunnels-api
 common:
 - group: agent
   title: ''
@@ -176,7 +204,7 @@ overview: 'Alpic publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Alpic''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 41
+random_paper: 74
 scopes:
 - name: Alpic Scopes
   scope_count: 3
@@ -205,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/screenshots/alpic-2026-07-25T195808.png
 security:

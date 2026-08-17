@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -113,11 +113,68 @@ apis:
 - description: Statistics and metrics endpoints.
   name: Envoy Proxy Statistics API
   slug: envoy-proxy-statistics-api
-artifact_total: 38
+artifact_total: 57
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Envoy Proxy Admin API
   slug: open-envoy-proxy-admin-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates API
+  slug: open-envoy-proxy-certificates-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Cluster Discovery API
+  slug: open-envoy-proxy-cluster-discovery-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Clusters API
+  slug: open-envoy-proxy-clusters-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Configuration API
+  slug: open-envoy-proxy-configuration-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Debugging API
+  slug: open-envoy-proxy-debugging-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Endpoint Discovery API
+  slug: open-envoy-proxy-endpoint-discovery-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates General API
+  slug: open-envoy-proxy-general-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Health API
+  slug: open-envoy-proxy-health-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Listener Discovery API
+  slug: open-envoy-proxy-listener-discovery-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Listeners API
+  slug: open-envoy-proxy-listeners-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Logging API
+  slug: open-envoy-proxy-logging-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Profiling API
+  slug: open-envoy-proxy-profiling-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Route Discovery API
+  slug: open-envoy-proxy-route-discovery-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Runtime API
+  slug: open-envoy-proxy-runtime-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Runtime Discovery API
+  slug: open-envoy-proxy-runtime-discovery-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Secret Discovery API
+  slug: open-envoy-proxy-secret-discovery-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Server API
+  slug: open-envoy-proxy-server-api
+- collection_type: open
+  name: Envoy Proxy Admin Certificates Statistics API
+  slug: open-envoy-proxy-statistics-api
 - collection_type: open
   name: Envoy Proxy xDS Discovery API
   slug: open-envoy-proxy-xds-discovery-api
@@ -255,7 +312,7 @@ plans:
 - name: Envoy Proxy Plans Pricing
   plan_count: 1
   slug: envoy-proxy-plans-pricing
-random_paper: 104
+random_paper: 141
 rate_limits:
 - limit_count: 2
   name: Envoy Proxy Rate Limits
@@ -289,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/screenshots/envoy-proxy-2026-06-20T180741.png
 security:

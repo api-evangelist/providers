@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-12'
+  score: 69.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -60,7 +60,36 @@ apis:
 - description: Manage individual recipients and bulk imports
   name: Stannp Recipients API
   slug: stannp-recipients-api
-artifact_total: 22
+artifact_total: 33
+asyncapis:
+- description: ''
+  name: Stannp Webhooks
+  slug: stannp-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stannp Direct Mail Account API
+  slug: open-stannp-account-api
+- collection_type: open
+  name: Stannp Direct Mail Account Campaigns API
+  slug: open-stannp-campaigns-api
+- collection_type: open
+  name: Stannp Direct Mail Account Events API
+  slug: open-stannp-events-api
+- collection_type: open
+  name: Stannp Direct Mail Account Groups API
+  slug: open-stannp-groups-api
+- collection_type: open
+  name: Stannp Direct Mail Account Letters API
+  slug: open-stannp-letters-api
+- collection_type: open
+  name: Stannp Direct Mail Account Postcards API
+  slug: open-stannp-postcards-api
+- collection_type: open
+  name: Stannp Direct Mail Account Recipients API
+  slug: open-stannp-recipients-api
 common:
 - group: agent
   title: ''
@@ -72,20 +101,108 @@ common:
   url: security/stannp-trust-center.yml
 - group: auth
   title: ''
+  type: Compliance
+  url: https://www.stannp.com/us/accreditations
+- group: auth
+  title: ''
   type: DomainSecurity
   url: security/stannp-domain-security.yml
 - group: auth
   title: ''
+  type: VulnerabilityDisclosure
+  url: security/stannp-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.stannp.com/us/trust
+- group: auth
+  title: ''
   type: Authentication
   url: authentication/stannp-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/stannp-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/stannp-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/stannp-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/stannp-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/stannp-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/stannp-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.stannp.com/
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/stannp-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/stannp-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/stannp-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/stannp-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/stannp-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/stannp-llms.txt
 - group: company
   title: ''
   type: Website
   url: https://www.stannp.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.stannp.com/us/developer-tools
 - group: docs
   title: ''
   type: Documentation
   url: https://www.stannp.com/us/direct-mail-api/guide
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.stannp.com/us/direct-mail-api/postcards
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.stannp.com/us/direct-mail-api/guide#introduction
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.stannp.com/us/support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://knowledge.stannp.com/us
 - group: build
   title: ''
   type: GitHubOrganization
@@ -101,15 +218,31 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://go.stannp.com/blogs
+  url: https://go.stannp.com/en-us/blogs
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.stannp.com/us/pricing-tiers
+  url: https://www.stannp.com/us/pricing
 - group: commercial
   title: ''
   type: Plans
   url: plans/stannp-plans-pricing.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app-us1.stannp.com/register
+- group: start
+  title: ''
+  type: Login
+  url: https://app-us1.stannp.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.stannp.com/us/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.stannp.com/us/privacy-policy
 - group: operate
   title: ''
   type: RateLimits
@@ -151,22 +284,26 @@ jsonld:
   property_count: 9
   slug: stannp-context
 layout: provider
-modified: '2026-06-12'
+mcp_servers:
+- description: ''
+  name: stannp-mcp.yml
+  slug: stannp-mcpyml
+modified: '2026-08-13'
 name: Stannp
 nav: Providers
 network: true
 overview: 'Stannp publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Campaigns API, Events API, and 4 more. Tagged areas include Direct Mail, Postcards, Letters, Print, and Physical Mail.
 
 
-  The Stannp catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Stannp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Stannp''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Stannp''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
 plans:
 - name: Stannp Plans Pricing
   plan_count: 5
   slug: stannp-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 4
   name: Stannp Rate Limits
@@ -181,16 +318,16 @@ rules:
     warn: 4
   slug: stannp-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 53.9
-  delta: 0.0
+  band: exemplar
+  composite: 79.9
+  delta: 26.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 75.3
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    commercial_clarity: 100.0
+    contract_quality: 84.3
+    developer_ergonomics: 80.4
+    discoverability: 92.6
+    governance: 79.2
+    operational_transparency: 71.1
   previous_composite: 53.9
   provenance:
     agentic_access: derived
@@ -199,23 +336,33 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/screenshots/stannp-2026-06-20T194506.png
 security:
 - kind: authentication
   name: Stannp Authentication
   slug: stannp-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/apiKey · 3 schemes
 - kind: domain-security
   name: Stannp Domain Security
   slug: stannp-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Stannp Vulnerability Disclosure
+  slug: stannp-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: Stannp Trust Center
   slug: stannp-trust-center
-  summary_line: trust center published
+  summary_line: HIPAA, ISO 27001, ISO 9001, GDPR, ICO registration ZA134992 (UK Data Processor), USPS CASS certification, Royal Mail PAF accreditation, Royal Mail Mail Made Easy partner, SecurityScorecard A rating
 slug: stannp
 tags:
 - Direct Mail
@@ -225,5 +372,10 @@ tags:
 - Physical Mail
 - Marketing Automation
 - Campaigns
+- Address Verification
+- SMS
+- Webhooks
+- Mailing Lists
+- Fulfillment
 website: https://www.stannp.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -117,8 +117,35 @@ apis:
 - description: Privacy-preserving news feed integrated into the browser's new tab page, sourced from a curated set of publisher feeds.
   name: Brave News
   slug: news
-artifact_total: 34
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brave Search Images API
+  slug: open-brave-browser-images-api
+- collection_type: open
+  name: Brave Search Images Local API
+  slug: open-brave-browser-local-api
+- collection_type: open
+  name: Brave Search Images News API
+  slug: open-brave-browser-news-api
+- collection_type: open
+  name: Brave Search Images Spellcheck API
+  slug: open-brave-browser-spellcheck-api
+- collection_type: open
+  name: Brave Search Images Suggest API
+  slug: open-brave-browser-suggest-api
+- collection_type: open
+  name: Brave Search Images Summarizer API
+  slug: open-brave-browser-summarizer-api
+- collection_type: open
+  name: Brave Search Images Videos API
+  slug: open-brave-browser-videos-api
+- collection_type: open
+  name: Brave Search Images Web API
+  slug: open-brave-browser-web-api
 - collection_type: open
   name: Brave Search API
   slug: open-brave-browser
@@ -199,7 +226,7 @@ plans:
 - name: Brave Browser Plans Pricing
   plan_count: 1
   slug: brave-browser-plans-pricing
-random_paper: 25
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Brave Browser Rate Limits
@@ -224,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/screenshots/brave-browser-2026-06-20T173637.png
 security:

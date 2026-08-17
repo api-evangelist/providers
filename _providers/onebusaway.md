@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: The Where API from OneBusAway — 17 operation(s) for where.
   name: OneBusAway Where API
   slug: onebusaway-where-api
-artifact_total: 99
+artifact_total: 102
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OneBusAway default API
+  slug: open-onebusaway-default-api
+- collection_type: open
+  name: OneBusAway default Where API
+  slug: open-onebusaway-where-api
 common:
 - group: commercial
   title: ''
@@ -454,7 +464,7 @@ plans:
 - name: Onebusaway Plans Pricing
   plan_count: 2
   slug: onebusaway-plans-pricing
-random_paper: 6
+random_paper: 43
 rules:
 - name: OneBusAway API Rules
   rule_count: 5
@@ -490,7 +500,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/screenshots/onebusaway-2026-06-20T190710.png
 security:

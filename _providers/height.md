@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: The Workspace API from Height — 1 operation(s) for workspace.
   name: Height Workspace API
   slug: height-workspace-api
-artifact_total: 16
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Height APP Activities API
+  slug: open-height-activities-api
+- collection_type: open
+  name: Height APP Activities Field Templates API
+  slug: open-height-field-templates-api
+- collection_type: open
+  name: Height APP Activities Groups API
+  slug: open-height-groups-api
+- collection_type: open
+  name: Height APP Activities Lists API
+  slug: open-height-lists-api
+- collection_type: open
+  name: Height APP Activities Security Log Events API
+  slug: open-height-security-log-events-api
+- collection_type: open
+  name: Height APP Activities Task Forms API
+  slug: open-height-task-forms-api
+- collection_type: open
+  name: Height APP Activities Tasks API
+  slug: open-height-tasks-api
+- collection_type: open
+  name: Height APP Activities Users API
+  slug: open-height-users-api
+- collection_type: open
+  name: Height APP Activities Workspace API
+  slug: open-height-workspace-api
 common:
 - group: agent
   title: ''
@@ -152,7 +183,7 @@ plans:
 - name: Height Plans Pricing
   plan_count: 4
   slug: height-plans-pricing
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Height Rate Limits
@@ -177,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/screenshots/height-2026-06-20T182618.png
 security:

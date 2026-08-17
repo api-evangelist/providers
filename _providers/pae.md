@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'PAE is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   PAE''s developer surface includes GitHub presence and 3 more developer resources.'
-random_paper: 70
+random_paper: 12
 score:
   band: minimal
   composite: 4.8
@@ -79,7 +79,7 @@ score:
     regime_id: government
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pae/refs/heads/main/screenshots/pae-2026-06-20T191319.png
 slug: pae

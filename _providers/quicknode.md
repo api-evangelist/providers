@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -64,18 +64,45 @@ apis:
 - description: Manage Streams definitions and lifecycle.
   name: QuickNode Streams API
   slug: quicknode-streams-api
-artifact_total: 31
+artifact_total: 40
 asyncapis:
 - description: AsyncAPI definition for QuickNode WebSocket subscription endpoints across Ethereum (and EVM-compatible chains) and Solana. All subscriptions use the JSON-RPC 2.0 envelope. After a successful subscript
   name: QuickNode WebSocket Subscription API
   slug: quicknode-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QuickNode IPFS REST Account API
+  slug: open-quicknode-account-api
+- collection_type: open
+  name: QuickNode IPFS REST Account Batch API
+  slug: open-quicknode-batch-api
+- collection_type: open
+  name: QuickNode IPFS REST Account Database API
+  slug: open-quicknode-database-api
+- collection_type: open
+  name: QuickNode IPFS REST Account Gateway API
+  slug: open-quicknode-gateway-api
+- collection_type: open
   name: QuickNode IPFS REST API
   slug: open-quicknode-ipfs
 - collection_type: open
   name: QuickNode Key-Value Store REST API
   slug: open-quicknode-key-value-store
+- collection_type: open
+  name: QuickNode IPFS REST Account Keys API
+  slug: open-quicknode-keys-api
+- collection_type: open
+  name: QuickNode IPFS REST Account Logs API
+  slug: open-quicknode-logs-api
+- collection_type: open
+  name: QuickNode IPFS REST Account Pinning API
+  slug: open-quicknode-pinning-api
+- collection_type: open
+  name: QuickNode IPFS REST Account Streams API
+  slug: open-quicknode-streams-api
 - collection_type: open
   name: QuickNode Streams REST API
   slug: open-quicknode-streams
@@ -170,7 +197,7 @@ plans:
 - name: Quicknode Plans Pricing
   plan_count: 5
   slug: quicknode-plans-pricing
-random_paper: 3
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Quicknode Rate Limits
@@ -212,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/screenshots/quicknode-2026-06-20T192434.png
 security:

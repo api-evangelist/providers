@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -102,7 +102,7 @@ apis:
 - description: The Tasks API from Mezmo — 2 operation(s) for tasks.
   name: Mezmo Tasks API
   slug: mezmo-tasks-api
-artifact_total: 63
+artifact_total: 80
 collections:
 - collection_type: postman
   name: Mezmo Alerts Archiving API
@@ -162,14 +162,41 @@ collections:
   name: Mezmo Alerts Archiving Views API
   slug: postman-mezmo-views-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Mezmo Alerts API
   slug: open-mezmo-alerts-api
 - collection_type: open
-  name: Mezmo Archiving API
+  name: Mezmo Alerts Archiving API
   slug: open-mezmo-archiving-api
+- collection_type: open
+  name: Mezmo Alerts Archiving AuditEvents API
+  slug: open-mezmo-auditevents-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Classification API
+  slug: open-mezmo-classification-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Deployments API
+  slug: open-mezmo-deployments-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Destinations API
+  slug: open-mezmo-destinations-api
 - collection_type: open
   name: Mezmo Edge API
   slug: open-mezmo-edge-api
+- collection_type: open
+  name: Mezmo Alerts Archiving EdgeClients API
+  slug: open-mezmo-edgeclients-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Exclusions API
+  slug: open-mezmo-exclusions-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Export API
+  slug: open-mezmo-export-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Heartbeats API
+  slug: open-mezmo-heartbeats-api
 - collection_type: open
   name: Mezmo Ingestion Control API
   slug: open-mezmo-ingestion-control-api
@@ -180,16 +207,40 @@ collections:
   name: Mezmo Log Ingestion API
   slug: open-mezmo-log-ingestion-api
 - collection_type: open
+  name: Mezmo Alerts Archiving Logs API
+  slug: open-mezmo-logs-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Metrics API
+  slug: open-mezmo-metrics-api
+- collection_type: open
   name: Mezmo Pipeline API
   slug: open-mezmo-pipeline-api
 - collection_type: open
   name: Mezmo Pipeline Classification API
   slug: open-mezmo-pipeline-classification-api
 - collection_type: open
-  name: Mezmo Usage API
+  name: Mezmo Alerts Archiving Pipelines API
+  slug: open-mezmo-pipelines-api
+- collection_type: open
+  name: Mezmo Alerts Archiving PresetAlerts API
+  slug: open-mezmo-presetalerts-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Processors API
+  slug: open-mezmo-processors-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Sources API
+  slug: open-mezmo-sources-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Suspension API
+  slug: open-mezmo-suspension-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Tasks API
+  slug: open-mezmo-tasks-api
+- collection_type: open
+  name: Mezmo Alerts Archiving Usage API
   slug: open-mezmo-usage-api
 - collection_type: open
-  name: Mezmo Views API
+  name: Mezmo Alerts Archiving Views API
   slug: open-mezmo-views-api
 common:
 - group: build
@@ -358,7 +409,7 @@ plans:
 - name: Mezmo Plans Pricing
   plan_count: 2
   slug: mezmo-plans-pricing
-random_paper: 72
+random_paper: 105
 rate_limits:
 - limit_count: 4
   name: Mezmo Rate Limits
@@ -400,7 +451,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/screenshots/mezmo-2026-06-20T185318.png
 security:

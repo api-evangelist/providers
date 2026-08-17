@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Login and token refresh for the Nextiva Contact Center platform. Basic authentication generates a JWT bearer token carrying the user's authorities; the token-refresh operation exchanges an existing be
@@ -36,11 +36,27 @@ apis:
 - description: Send outbound SMS messages from a Nextiva user. Inbound SMS arrives as a workitem on the SDK event stream rather than as a customer-configured webhook.
   name: Nextiva SMS Messaging API
   slug: sms-messaging
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Nextiva Events
   slug: nextiva-events
+collections:
+- collection_type: open
+  name: Provider Authentication API
+  slug: open-nextiva-authentication
+- collection_type: open
+  name: Conversation API
+  slug: open-nextiva-conversation
+- collection_type: open
+  name: Provider Authentication API
+  slug: open-nextiva-provider-authentication
+- collection_type: open
+  name: SMS Messaging API
+  slug: open-nextiva-sms-messaging
+- collection_type: open
+  name: Workitem Service API
+  slug: open-nextiva-workitem-service
 common:
 - group: company
   title: ''
@@ -177,7 +193,7 @@ overview: 'Nextiva publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Nextiva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 47
+random_paper: 22
 score:
   band: developing
   composite: 53.3
@@ -206,7 +222,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/screenshots/nextiva-2026-08-07T185215.png
 security:

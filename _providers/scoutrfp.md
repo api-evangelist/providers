@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -177,7 +177,140 @@ apis:
 - description: 'Use the worksheets API to create, update, and query the worksheets in Workday Strategic Sourcing. ## Worksheet Object <SchemaDefinition schemaRef="#/components/schemas/WorksheetModel" showReadOnly={tr'
   name: Scout RFP (Workday Strategic Sourcing) worksheets API
   slug: scoutrfp-worksheets-api
-artifact_total: 52
+artifact_total: 96
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Strategic Sourcing attachments API
+  slug: open-scoutrfp-attachments-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments award_line_items API
+  slug: open-scoutrfp-award-line-items-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments awards API
+  slug: open-scoutrfp-awards-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments bid_line_items API
+  slug: open-scoutrfp-bid-line-items-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments bids API
+  slug: open-scoutrfp-bids-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments contact_types API
+  slug: open-scoutrfp-contact-types-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments contract_milestone_reports API
+  slug: open-scoutrfp-contract-milestone-reports-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments contract_reports API
+  slug: open-scoutrfp-contract-reports-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments contract_types API
+  slug: open-scoutrfp-contract-types-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments contracts API
+  slug: open-scoutrfp-contracts-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments discovery API
+  slug: open-scoutrfp-discovery-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments event_reports API
+  slug: open-scoutrfp-event-reports-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments event_supplier_companies API
+  slug: open-scoutrfp-event-supplier-companies-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments event_supplier_contacts API
+  slug: open-scoutrfp-event-supplier-contacts-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments event_templates API
+  slug: open-scoutrfp-event-templates-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments events API
+  slug: open-scoutrfp-events-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments field_groups API
+  slug: open-scoutrfp-field-groups-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments field_options API
+  slug: open-scoutrfp-field-options-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments fields API
+  slug: open-scoutrfp-fields-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments line_items API
+  slug: open-scoutrfp-line-items-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments payment_currencies API
+  slug: open-scoutrfp-payment-currencies-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments payment_terms API
+  slug: open-scoutrfp-payment-terms-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments payment_types API
+  slug: open-scoutrfp-payment-types-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments project_milestone_reports API
+  slug: open-scoutrfp-project-milestone-reports-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments project_reports API
+  slug: open-scoutrfp-project-reports-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments project_supplier_companies API
+  slug: open-scoutrfp-project-supplier-companies-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments project_supplier_contacts API
+  slug: open-scoutrfp-project-supplier-contacts-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments project_types API
+  slug: open-scoutrfp-project-types-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments projects API
+  slug: open-scoutrfp-projects-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments savings_reports API
+  slug: open-scoutrfp-savings-reports-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments spend_categories API
+  slug: open-scoutrfp-spend-categories-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments supplier_categories API
+  slug: open-scoutrfp-supplier-categories-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments supplier_classifications API
+  slug: open-scoutrfp-supplier-classifications-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments supplier_companies API
+  slug: open-scoutrfp-supplier-companies-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments supplier_company_risks API
+  slug: open-scoutrfp-supplier-company-risks-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments supplier_company_segmentation_statuses API
+  slug: open-scoutrfp-supplier-company-segmentation-statuses-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments supplier_company_segmentations API
+  slug: open-scoutrfp-supplier-company-segmentations-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments supplier_contacts API
+  slug: open-scoutrfp-supplier-contacts-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments supplier_groups API
+  slug: open-scoutrfp-supplier-groups-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments supplier_reports API
+  slug: open-scoutrfp-supplier-reports-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments suppliers API
+  slug: open-scoutrfp-suppliers-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments user API
+  slug: open-scoutrfp-user-api
+- collection_type: open
+  name: Workday Strategic Sourcing attachments worksheets API
+  slug: open-scoutrfp-worksheets-api
 common:
 - group: company
   title: ''
@@ -315,7 +448,7 @@ overview: 'Scout RFP (Workday Strategic Sourcing) publishes 46 APIs on the [APIs
 
 
   Scout RFP (Workday Strategic Sourcing)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 25 more developer resources.'
-random_paper: 46
+random_paper: 141
 rate_limits:
 - limit_count: 1
   name: Scoutrfp Rate Limits
@@ -343,7 +476,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

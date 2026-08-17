@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -66,11 +66,42 @@ apis:
 - description: The Webhook API from Simplifi/Simplifipay — 4 operation(s) for webhook.
   name: Simplifi/Simplifipay Webhook API
   slug: simplifi-simplifipay-webhook-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: 'Outbound webhook events SimpliFi delivers to a client-configured HTTPS endpoint. Async model: an API call returns 2xx/202 on receipt; the outcome arrives here. Each delivery carries X-SimpliFi-Webhook'
   name: SimpliFi Webhooks
   slug: simplifi-simplifipay-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SimpliFi Cards Auth API
+  slug: open-simplifi-simplifipay-auth-api
+- collection_type: open
+  name: SimpliFi Cards Auth Card API
+  slug: open-simplifi-simplifipay-card-api
+- collection_type: open
+  name: SimpliFi Cards Auth Card Program API
+  slug: open-simplifi-simplifipay-card-program-api
+- collection_type: open
+  name: SimpliFi Cards Auth Document API
+  slug: open-simplifi-simplifipay-document-api
+- collection_type: open
+  name: SimpliFi Cards Auth Fee API
+  slug: open-simplifi-simplifipay-fee-api
+- collection_type: open
+  name: SimpliFi Cards Auth Funding Source API
+  slug: open-simplifi-simplifipay-funding-source-api
+- collection_type: open
+  name: SimpliFi Cards Auth Transaction API
+  slug: open-simplifi-simplifipay-transaction-api
+- collection_type: open
+  name: SimpliFi Cards Auth User API
+  slug: open-simplifi-simplifipay-user-api
+- collection_type: open
+  name: SimpliFi Cards Auth Webhook API
+  slug: open-simplifi-simplifipay-webhook-api
 common:
 - group: other
   title: ''
@@ -199,7 +230,7 @@ overview: 'Simplifi/Simplifipay publishes 9 APIs on the [APIs.io](https://apis.i
 
 
   Simplifi/Simplifipay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 57
+random_paper: 11
 score:
   band: developing
   composite: 50.7
@@ -229,7 +260,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

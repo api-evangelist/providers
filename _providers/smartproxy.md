@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Manage IP whitelist for proxy authentication
   name: Smartproxy Whitelisted IPs API
   slug: smartproxy-whitelisted-ips-api
-artifact_total: 21
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smartproxy Authentication API
+  slug: open-smartproxy-authentication-api
+- collection_type: open
+  name: Smartproxy Authentication Endpoints API
+  slug: open-smartproxy-endpoints-api
+- collection_type: open
+  name: Smartproxy Authentication Sub-Users API
+  slug: open-smartproxy-sub-users-api
+- collection_type: open
+  name: Smartproxy Authentication Subscriptions API
+  slug: open-smartproxy-subscriptions-api
+- collection_type: open
+  name: Smartproxy Authentication Traffic API
+  slug: open-smartproxy-traffic-api
+- collection_type: open
+  name: Smartproxy Authentication Whitelisted IPs API
+  slug: open-smartproxy-whitelisted-ips-api
 - collection_type: open
   name: Smartproxy API
   slug: open-smartproxy
@@ -177,7 +198,7 @@ plans:
 - name: Smartproxy Plans Pricing
   plan_count: 3
   slug: smartproxy-plans-pricing
-random_paper: 49
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Smartproxy Rate Limits
@@ -219,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/screenshots/smartproxy-2026-06-20T194046.png
 security:

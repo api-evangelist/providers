@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Endpoints to search podcasts and episodes.
   name: Listen Notes Search API API
   slug: listennotes-search-api-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Listen API: Podcast Search, Directory, and Insights Directory API API'
+  slug: open-listennotes-directory-api-api
+- collection_type: open
+  name: 'Listen API: Podcast Search, Directory, and Insights Directory API Insights API API'
+  slug: open-listennotes-insights-api-api
+- collection_type: open
+  name: 'Listen API: Podcast Search, Directory, and Insights Directory API Playlist API API'
+  slug: open-listennotes-playlist-api-api
+- collection_type: open
+  name: 'Listen API: Podcast Search, Directory, and Insights Directory API Podcaster API API'
+  slug: open-listennotes-podcaster-api-api
+- collection_type: open
+  name: 'Listen API: Podcast Search, Directory, and Insights Directory API Search API API'
+  slug: open-listennotes-search-api-api
 - collection_type: open
   name: Listen API (Listen Notes)
   slug: open-listennotes
@@ -120,7 +138,7 @@ plans:
 - name: Listennotes Plans Pricing
   plan_count: 3
   slug: listennotes-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 8
   name: Listennotes Rate Limits
@@ -145,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/screenshots/listennotes-2026-07-25T225323.png
 security:

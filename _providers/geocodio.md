@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Convert coordinates into addresses.
   name: Geocodio Reverse Geocoding API
   slug: geocodio-reverse-geocoding-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Geocodio Batch API
+  slug: open-geocodio-batch-api
+- collection_type: open
+  name: Geocodio Batch Forward Geocoding API
+  slug: open-geocodio-forward-geocoding-api
+- collection_type: open
+  name: Geocodio Batch Lists API
+  slug: open-geocodio-lists-api
+- collection_type: open
+  name: Geocodio Batch Reverse Geocoding API
+  slug: open-geocodio-reverse-geocoding-api
 - collection_type: open
   name: Geocodio API
   slug: open-geocodio
@@ -129,7 +144,7 @@ plans:
 - name: Geocodio Plans Pricing
   plan_count: 3
   slug: geocodio-plans-pricing
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 4
   name: Geocodio Rate Limits
@@ -154,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/screenshots/geocodio-2026-07-25T215651.png
 security:

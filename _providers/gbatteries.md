@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Gbatteries
 nav: Providers
 network: true
 overview: Gbatteries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Batteries, Energy Storage, Electric Mobility, and Battery Management.
-random_paper: 106
+random_paper: 23
 score:
   band: minimal
   composite: 8.1
@@ -72,7 +72,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gbatteries/refs/heads/main/screenshots/gbatteries-2026-07-25T215505.png
 security:

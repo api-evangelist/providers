@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -48,11 +48,18 @@ apis:
 - description: The HL7 FHIR API for Best Practice Bp Premier, delivered through Halo Connect. Built to the AU Base 4.1.0 implementation guide, falling back to FHIR R4 (4.0.1) where needed. Resources are served under
   name: FHIR API for Bp Premier
   slug: fhir-api-bp-premier
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Best Practice Webhooks
   slug: best-practice-webhooks
+collections:
+- collection_type: open
+  name: Halo Cloud API for Desktop Applications
+  slug: open-haloconnect-desktop
+- collection_type: open
+  name: Halo Cloud API for Integrators
+  slug: open-haloconnect-integrator
 common:
 - group: agent
   title: ''
@@ -186,7 +193,7 @@ overview: 'Best Practice Software publishes 3 APIs on the [APIs.io](https://apis
 
 
   Best Practice Software''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 21 more developer resources.'
-random_paper: 118
+random_paper: 126
 score:
   band: developing
   composite: 48.5
@@ -216,7 +223,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/screenshots/best-practice-2026-07-25T202754.png
 security:

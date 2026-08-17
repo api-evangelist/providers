@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -72,7 +72,44 @@ apis:
 - description: Unit inventory, unit groups/types, and tiered rate management.
   name: Storable Units & Rates API
   slug: storable-units-rates-api
-artifact_total: 17
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions API
+  slug: open-storable-delinquency-auctions-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Documents & eSign API
+  slug: open-storable-documents-esign-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Gate Access API
+  slug: open-storable-gate-access-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Insurance API
+  slug: open-storable-insurance-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Leads & Reservations API
+  slug: open-storable-leads-reservations-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Ledgers & Payments API
+  slug: open-storable-ledgers-payments-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Move Ins & Outs API
+  slug: open-storable-move-ins-outs-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Reporting API
+  slug: open-storable-reporting-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Tasks API
+  slug: open-storable-tasks-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Tenants API
+  slug: open-storable-tenants-api
+- collection_type: open
+  name: Storable Edge (storEDGE) Delinquency & Auctions Units & Rates API
+  slug: open-storable-units-rates-api
 common:
 - group: agent
   title: ''
@@ -134,7 +171,7 @@ plans:
 - name: Storable Plans Pricing
   plan_count: 3
   slug: storable-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Storable Rate Limits
@@ -165,7 +202,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

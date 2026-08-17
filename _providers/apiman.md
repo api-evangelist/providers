@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -86,8 +86,56 @@ apis:
 - description: The Users API from Apiman — 13 operation(s) for users.
   name: Apiman Users API
   slug: apiman-users-api
-artifact_total: 43
+artifact_total: 59
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Manager REST Actions API
+  slug: open-apiman-actions-api
+- collection_type: open
+  name: API Manager REST Actions Blobs API
+  slug: open-apiman-blobs-api
+- collection_type: open
+  name: API Manager REST Actions Developers API
+  slug: open-apiman-developers-api
+- collection_type: open
+  name: API Manager REST Actions Devportal API
+  slug: open-apiman-devportal-api
+- collection_type: open
+  name: API Manager REST Actions Downloads API
+  slug: open-apiman-downloads-api
+- collection_type: open
+  name: API Manager REST Actions Events API
+  slug: open-apiman-events-api
+- collection_type: open
+  name: API Manager REST Actions Experimental API
+  slug: open-apiman-experimental-api
+- collection_type: open
+  name: API Manager REST Actions Gateways API
+  slug: open-apiman-gateways-api
+- collection_type: open
+  name: API Manager REST Actions Organizations API
+  slug: open-apiman-organizations-api
+- collection_type: open
+  name: API Manager REST Actions Plugins API
+  slug: open-apiman-plugins-api
+- collection_type: open
+  name: API Manager REST Actions Policy Definitions API
+  slug: open-apiman-policy-definitions-api
+- collection_type: open
+  name: API Manager REST Actions Roles API
+  slug: open-apiman-roles-api
+- collection_type: open
+  name: API Manager REST Actions Search API
+  slug: open-apiman-search-api
+- collection_type: open
+  name: API Manager REST Actions System API
+  slug: open-apiman-system-api
+- collection_type: open
+  name: API Manager REST Actions Users API
+  slug: open-apiman-users-api
 - collection_type: open
   name: API Manager REST API
   slug: open-apiman
@@ -206,7 +254,7 @@ plans:
 - name: Apiman Plans Pricing
   plan_count: 3
   slug: apiman-plans-pricing
-random_paper: 30
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Apiman Rate Limits
@@ -240,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/screenshots/apiman-2026-06-20T172245.png
 security:

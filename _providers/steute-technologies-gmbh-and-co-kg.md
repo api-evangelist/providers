@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -59,11 +59,36 @@ apis:
 - description: The System Status API from steute Technologies GmbH & Co. KG — 1 operation(s) for system status.
   name: steute Technologies GmbH & Co. KG System Status API
   slug: steute-technologies-gmbh-and-co-kg-system-status-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: The Sensor Bridge sends JSON data via HTTP POST to configured target URLs whenever a switch is actuated, a switch or actor sends a wake-up message, or expected wake-up messages are not received (wake-
   name: steute nexy Sensor Bridge HTTP(S) Notifications
   slug: steute-technologies-gmbh-and-co-kg-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sensor Bridge API Version 2 Access Point API
+  slug: open-steute-technologies-gmbh-and-co-kg-access-point-api
+- collection_type: open
+  name: Sensor Bridge API Version 2 Access Point Auth API
+  slug: open-steute-technologies-gmbh-and-co-kg-auth-api
+- collection_type: open
+  name: Sensor Bridge API Version 2 Access Point History API
+  slug: open-steute-technologies-gmbh-and-co-kg-history-api
+- collection_type: open
+  name: Sensor Bridge API Version 2 Access Point Notification Config API
+  slug: open-steute-technologies-gmbh-and-co-kg-notification-config-api
+- collection_type: open
+  name: Sensor Bridge API Version 2 Access Point Switch API
+  slug: open-steute-technologies-gmbh-and-co-kg-switch-api
+- collection_type: open
+  name: Sensor Bridge API Version 2 Access Point Switch Group API
+  slug: open-steute-technologies-gmbh-and-co-kg-switch-group-api
+- collection_type: open
+  name: Sensor Bridge API Version 2 Access Point System Status API
+  slug: open-steute-technologies-gmbh-and-co-kg-system-status-api
 common:
 - group: other
   title: ''
@@ -172,7 +197,7 @@ overview: 'steute Technologies GmbH & Co. KG publishes 7 APIs on the [APIs.io](h
 
 
   steute Technologies GmbH & Co. KG''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 15 more developer resources.'
-random_paper: 76
+random_paper: 38
 score:
   band: thin
   composite: 37.5
@@ -202,7 +227,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

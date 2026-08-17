@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -60,12 +60,36 @@ apis:
 - description: Run and manage multi-step workflows.
   name: Agno Workflows API
   slug: agno-agi-workflows-api
-artifact_total: 16
+artifact_total: 24
 asyncapis:
 - description: AsyncAPI 2.6 description of AgentOS's **run streaming** surface. AgentOS does not publish a documented public WebSocket API. The asynchronous / event-style transport documented at https://docs.agno.co
   name: Agno AgentOS Run Streaming (HTTP + SSE)
   slug: agno-agi-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agno AgentOS Agents API
+  slug: open-agno-agi-agents-api
+- collection_type: open
+  name: Agno AgentOS Agents Evals API
+  slug: open-agno-agi-evals-api
+- collection_type: open
+  name: Agno AgentOS Agents Knowledge API
+  slug: open-agno-agi-knowledge-api
+- collection_type: open
+  name: Agno AgentOS Agents Memory API
+  slug: open-agno-agi-memory-api
+- collection_type: open
+  name: Agno AgentOS Agents Sessions API
+  slug: open-agno-agi-sessions-api
+- collection_type: open
+  name: Agno AgentOS Agents Teams API
+  slug: open-agno-agi-teams-api
+- collection_type: open
+  name: Agno AgentOS Agents Workflows API
+  slug: open-agno-agi-workflows-api
 - collection_type: open
   name: Agno AgentOS API
   slug: open-agno-agi
@@ -137,7 +161,7 @@ plans:
 - name: Agno Agi Plans Pricing
   plan_count: 3
   slug: agno-agi-plans-pricing
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 4
   name: Agno Agi Rate Limits
@@ -171,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/screenshots/agno-agi-2026-07-25T195318.png
 security:

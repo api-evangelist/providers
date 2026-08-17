@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -151,7 +151,7 @@ arazzos:
 - description: Detect whether a lookup exists, then update it if present or create it if missing, and read the result back.
   name: Oracle Integration Upsert a Lookup Table
   slug: oracle-integration-upsert-lookup-workflow
-artifact_total: 106
+artifact_total: 130
 collections:
 - collection_type: postman
   name: Oracle Integration Developer API
@@ -159,6 +159,78 @@ collections:
 - collection_type: postman
   name: Oracle Integration Process Automation API
   slug: postman-oracle-integration-process-automation-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Integration Developer Adapters API
+  slug: open-oracle-integration-adapters-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Analytics API
+  slug: open-oracle-integration-analytics-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters B2B Documents API
+  slug: open-oracle-integration-b2b-documents-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters B2B Monitoring API
+  slug: open-oracle-integration-b2b-monitoring-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Certificates API
+  slug: open-oracle-integration-certificates-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Connections API
+  slug: open-oracle-integration-connections-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Decision Models API
+  slug: open-oracle-integration-decision-models-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Deployed Projects API
+  slug: open-oracle-integration-deployed-projects-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Dynamic Processes API
+  slug: open-oracle-integration-dynamic-processes-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Environment API
+  slug: open-oracle-integration-environment-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Identities API
+  slug: open-oracle-integration-identities-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Integrations API
+  slug: open-oracle-integration-integrations-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Libraries API
+  slug: open-oracle-integration-libraries-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Lookups API
+  slug: open-oracle-integration-lookups-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Monitoring API
+  slug: open-oracle-integration-monitoring-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Packages API
+  slug: open-oracle-integration-packages-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Process Definitions API
+  slug: open-oracle-integration-process-definitions-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Process Instances API
+  slug: open-oracle-integration-process-instances-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Projects API
+  slug: open-oracle-integration-projects-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Scheduled Integrations API
+  slug: open-oracle-integration-scheduled-integrations-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Spaces API
+  slug: open-oracle-integration-spaces-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Tasks API
+  slug: open-oracle-integration-tasks-api
+- collection_type: open
+  name: Oracle Integration Developer Adapters Trading Partners API
+  slug: open-oracle-integration-trading-partners-api
 common:
 - group: agent
   title: ''
@@ -463,7 +535,7 @@ plans:
 - name: Oracle Integration Plans Pricing
   plan_count: 4
   slug: oracle-integration-plans-pricing
-random_paper: 63
+random_paper: 75
 rate_limits:
 - limit_count: 24
   name: Oracle Integration Rate Limits
@@ -510,7 +582,7 @@ score:
       marker_coverage: 100.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/screenshots/oracle-integration-2026-08-07T190823.png
 security:

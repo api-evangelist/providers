@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Augur is a CHAOSS reference implementation that collects data from GitHub, GitLab, mailing lists, and other community sources, and exposes a REST API for querying CHAOSS-aligned metrics on repositorie
@@ -174,7 +174,7 @@ plans:
 - name: Chaoss Plans Pricing
   plan_count: 3
   slug: chaoss-plans-pricing
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Chaoss Rate Limits
@@ -198,7 +198,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/screenshots/chaoss-2026-06-20T174222.png
 security:

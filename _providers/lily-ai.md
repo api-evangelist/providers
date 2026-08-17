@@ -27,13 +27,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The middleware API behind Lily AI's customer application at app.lily.ai. Publicly served with a Swagger UI at /api and an OpenAPI 3.0.0 contract at /api-json (63 paths, 100 operations, 41 schemas), co
   name: LilyApp Middleware API
   slug: lilyapp-middleware-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: LilyApp API - Nest Based Application
+  slug: open-lily-ai-lilyapp-api
 common:
 - group: build
   title: ''
@@ -140,7 +144,7 @@ plans:
 - name: Lily Ai Plans Pricing
   plan_count: 0
   slug: lily-ai-plans-pricing
-random_paper: 89
+random_paper: 93
 rate_limits:
 - limit_count: 3
   name: Lily Ai Rate Limits
@@ -148,7 +152,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.4
-  delta: 23.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 39.6
@@ -156,10 +160,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 18.0
+  previous_composite: 41.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/screenshots/lily-ai-2026-07-25T225157.png
 security:
 - kind: authentication

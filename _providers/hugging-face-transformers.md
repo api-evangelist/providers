@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 2
@@ -121,8 +121,80 @@ apis:
 - description: The following endpoints are for use with webhooks.
   name: Hugging Face Transformers webhooks API
   slug: hugging-face-transformers-webhooks-api
-artifact_total: 38
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning API
+  slug: open-hugging-face-transformers-agentic-provisioning-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning auth API
+  slug: open-hugging-face-transformers-auth-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning buckets API
+  slug: open-hugging-face-transformers-buckets-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning collections API
+  slug: open-hugging-face-transformers-collections-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning datasets API
+  slug: open-hugging-face-transformers-datasets-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning discussions API
+  slug: open-hugging-face-transformers-discussions-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning docs API
+  slug: open-hugging-face-transformers-docs-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning inference-endpoints API
+  slug: open-hugging-face-transformers-inference-endpoints-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning jobs API
+  slug: open-hugging-face-transformers-jobs-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning kernels API
+  slug: open-hugging-face-transformers-kernels-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning models API
+  slug: open-hugging-face-transformers-models-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning notifications API
+  slug: open-hugging-face-transformers-notifications-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning oauth API
+  slug: open-hugging-face-transformers-oauth-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning orgs API
+  slug: open-hugging-face-transformers-orgs-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning papers API
+  slug: open-hugging-face-transformers-papers-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning repo-search API
+  slug: open-hugging-face-transformers-repo-search-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning repos API
+  slug: open-hugging-face-transformers-repos-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning resource-groups API
+  slug: open-hugging-face-transformers-resource-groups-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning scim API
+  slug: open-hugging-face-transformers-scim-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning spaces API
+  slug: open-hugging-face-transformers-spaces-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning sql-console API
+  slug: open-hugging-face-transformers-sql-console-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning users API
+  slug: open-hugging-face-transformers-users-api
+- collection_type: open
+  name: Hub API Endpoints agentic-provisioning webhooks API
+  slug: open-hugging-face-transformers-webhooks-api
 - collection_type: open
   name: Hub API Endpoints
   slug: open-hugging-face-transformers
@@ -299,7 +371,7 @@ plans:
 - name: Hugging Face Transformers Plans Pricing
   plan_count: 3
   slug: hugging-face-transformers-plans-pricing
-random_paper: 32
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Hugging Face Transformers Rate Limits
@@ -331,7 +403,7 @@ score:
       total: 23
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/screenshots/hugging-face-transformers-2026-06-20T182926.png
 security:

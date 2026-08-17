@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 412
   human_in_the_loop: 6
@@ -135,7 +135,107 @@ apis:
 - description: The webhooks API from Misskey — 7 operation(s) for webhooks.
   name: Misskey webhooks API
   slug: misskey-webhooks-api
-artifact_total: 162
+artifact_total: 195
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Misskey account API
+  slug: open-misskey-account-api
+- collection_type: open
+  name: Misskey account Admin API
+  slug: open-misskey-admin-api
+- collection_type: open
+  name: Misskey account antennas API
+  slug: open-misskey-antennas-api
+- collection_type: open
+  name: Misskey account app API
+  slug: open-misskey-app-api
+- collection_type: open
+  name: Misskey account auth API
+  slug: open-misskey-auth-api
+- collection_type: open
+  name: Misskey account Bubble Game API
+  slug: open-misskey-bubble-game-api
+- collection_type: open
+  name: Misskey account channels API
+  slug: open-misskey-channels-api
+- collection_type: open
+  name: Misskey account charts API
+  slug: open-misskey-charts-api
+- collection_type: open
+  name: Misskey account clip API
+  slug: open-misskey-clip-api
+- collection_type: open
+  name: Misskey account clips API
+  slug: open-misskey-clips-api
+- collection_type: open
+  name: Misskey account drive API
+  slug: open-misskey-drive-api
+- collection_type: open
+  name: Misskey account Export Custom Emojis API
+  slug: open-misskey-export-custom-emojis-api
+- collection_type: open
+  name: Misskey account federation API
+  slug: open-misskey-federation-api
+- collection_type: open
+  name: Misskey account flash API
+  slug: open-misskey-flash-api
+- collection_type: open
+  name: Misskey account flashs API
+  slug: open-misskey-flashs-api
+- collection_type: open
+  name: Misskey account following API
+  slug: open-misskey-following-api
+- collection_type: open
+  name: Misskey account gallery API
+  slug: open-misskey-gallery-api
+- collection_type: open
+  name: Misskey account hashtags API
+  slug: open-misskey-hashtags-api
+- collection_type: open
+  name: Misskey account I API
+  slug: open-misskey-i-api
+- collection_type: open
+  name: Misskey account lists API
+  slug: open-misskey-lists-api
+- collection_type: open
+  name: Misskey account meta API
+  slug: open-misskey-meta-api
+- collection_type: open
+  name: Misskey account non-productive API
+  slug: open-misskey-non-productive-api
+- collection_type: open
+  name: Misskey account notes API
+  slug: open-misskey-notes-api
+- collection_type: open
+  name: Misskey account notifications API
+  slug: open-misskey-notifications-api
+- collection_type: open
+  name: Misskey account Page Push API
+  slug: open-misskey-page-push-api
+- collection_type: open
+  name: Misskey account pages API
+  slug: open-misskey-pages-api
+- collection_type: open
+  name: Misskey account reactions API
+  slug: open-misskey-reactions-api
+- collection_type: open
+  name: Misskey account reset password API
+  slug: open-misskey-reset-password-api
+- collection_type: open
+  name: Misskey account Reversi API
+  slug: open-misskey-reversi-api
+- collection_type: open
+  name: Misskey account role API
+  slug: open-misskey-role-api
+- collection_type: open
+  name: Misskey account Users API
+  slug: open-misskey-users-api
+- collection_type: open
+  name: Misskey account webhooks API
+  slug: open-misskey-webhooks-api
 common:
 - group: operate
   title: ''
@@ -614,7 +714,7 @@ plans:
 - name: Misskey Plans Pricing
   plan_count: 3
   slug: misskey-plans-pricing
-random_paper: 53
+random_paper: 28
 rate_limits:
 - limit_count: 6
   name: Misskey Rate Limits
@@ -648,7 +748,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/screenshots/misskey-2026-06-20T185633.png
 security:

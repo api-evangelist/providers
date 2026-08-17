@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Endpoints for retrieving metadata about the FOCUS dataset schema, including column definitions, data types, and version information.
   name: FinOps Foundation Schema Metadata API
   slug: finops-foundation-schema-metadata-api
-artifact_total: 14
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FinOps Foundation FOCUS Cost and Usage Contract Commitments API
+  slug: open-finops-foundation-contract-commitments-api
+- collection_type: open
+  name: FinOps Foundation FOCUS Contract Commitments Cost and Usage API
+  slug: open-finops-foundation-cost-and-usage-api
 - collection_type: open
   name: FinOps Foundation FOCUS Cost and Usage API
   slug: open-finops-foundation-focus-cost-and-usage
+- collection_type: open
+  name: FinOps Foundation FOCUS Cost and Usage Contract Commitments Schema Metadata API
+  slug: open-finops-foundation-schema-metadata-api
 common:
 - group: operate
   title: ''
@@ -129,7 +141,7 @@ plans:
 - name: Finops Foundation Plans Pricing
   plan_count: 3
   slug: finops-foundation-plans-pricing
-random_paper: 99
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Finops Foundation Rate Limits
@@ -163,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/screenshots/finops-foundation-2026-06-20T181221.png
 security:

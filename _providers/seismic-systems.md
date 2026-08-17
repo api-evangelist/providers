@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,14 @@ apis:
 - description: The tokens API from Seismic Systems — 2 operation(s) for tokens.
   name: Seismic Systems tokens API
   slug: seismic-systems-tokens-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Seismic SRC20 Factory REST tokens API
+  slug: open-seismic-systems-tokens-api
 common:
 - group: agent
   title: ''
@@ -144,7 +151,7 @@ overview: 'Seismic Systems publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Seismic Systems'' developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, authentication, and 14 more developer resources.'
-random_paper: 26
+random_paper: 96
 score:
   band: thin
   composite: 32.9
@@ -168,7 +175,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

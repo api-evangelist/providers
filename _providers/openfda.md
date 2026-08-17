@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,29 @@ apis:
 - description: Tobacco product problem reports.
   name: openFDA Tobacco API
   slug: openfda-tobacco-api
-artifact_total: 45
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: openFDA Animal & Veterinary API
+  slug: open-openfda-animal-veterinary-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Device API
+  slug: open-openfda-device-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Drug API
+  slug: open-openfda-drug-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Food API
+  slug: open-openfda-food-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Other API
+  slug: open-openfda-other-api
+- collection_type: open
+  name: openFDA Animal & Veterinary Tobacco API
+  slug: open-openfda-tobacco-api
 - collection_type: open
   name: openFDA API
   slug: open-openfda
@@ -240,7 +261,7 @@ overview: 'openFDA publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   openFDA''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, API reference, changelog, and 24 more developer resources.'
-random_paper: 13
+random_paper: 137
 rate_limits:
 - limit_count: 0
   name: Openfda Rate Limits
@@ -288,7 +309,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfda/refs/heads/main/screenshots/openfda-2026-06-20T190958.png
 security:

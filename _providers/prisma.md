@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -146,7 +146,7 @@ arazzos:
 - description: Create a resumable named event stream, read its cursor position, and fetch the last persisted event by ULID.
   name: Prisma Pulse Create and Resume a Named Stream
   slug: prisma-pulse-named-stream-resume-workflow
-artifact_total: 125
+artifact_total: 149
 collections:
 - collection_type: postman
   name: Prisma Accelerate API
@@ -167,14 +167,62 @@ collections:
   name: Prisma Pulse API
   slug: postman-prisma-pulse
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Prisma Accelerate API
   slug: open-prisma-accelerate
+- collection_type: open
+  name: Prisma Accelerate Aggregation API
+  slug: open-prisma-aggregation-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation API Keys API
+  slug: open-prisma-api-keys-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Batch API
+  slug: open-prisma-batch-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Cache API
+  slug: open-prisma-cache-api
 - collection_type: open
   name: Prisma Client API
   slug: open-prisma-client
 - collection_type: open
+  name: Prisma Accelerate Aggregation Connections API
+  slug: open-prisma-connections-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation CRUD API
+  slug: open-prisma-crud-api
+- collection_type: open
   name: Prisma Data Platform API
   slug: open-prisma-data-platform
+- collection_type: open
+  name: Prisma Accelerate Aggregation Database Backups API
+  slug: open-prisma-database-backups-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Database Usage API
+  slug: open-prisma-database-usage-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Databases API
+  slug: open-prisma-databases-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Environments API
+  slug: open-prisma-environments-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Events API
+  slug: open-prisma-events-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Health API
+  slug: open-prisma-health-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Integrations API
+  slug: open-prisma-integrations-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Members API
+  slug: open-prisma-members-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Metrics API
+  slug: open-prisma-metrics-api
 - collection_type: open
   name: Prisma Optimize API
   slug: open-prisma-optimize
@@ -182,8 +230,32 @@ collections:
   name: Prisma Postgres Management API
   slug: open-prisma-postgres-management
 - collection_type: open
+  name: Prisma Accelerate Aggregation Projects API
+  slug: open-prisma-projects-api
+- collection_type: open
   name: Prisma Pulse API
   slug: open-prisma-pulse
+- collection_type: open
+  name: Prisma Accelerate Aggregation Queries API
+  slug: open-prisma-queries-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Raw API
+  slug: open-prisma-raw-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Recommendations API
+  slug: open-prisma-recommendations-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Sessions API
+  slug: open-prisma-sessions-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Streams API
+  slug: open-prisma-streams-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Subscriptions API
+  slug: open-prisma-subscriptions-api
+- collection_type: open
+  name: Prisma Accelerate Aggregation Workspaces API
+  slug: open-prisma-workspaces-api
 common:
 - group: agent
   title: ''
@@ -582,7 +654,7 @@ plans:
 - name: Prisma Plans Pricing
   plan_count: 5
   slug: prisma-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Prisma Rate Limits
@@ -616,7 +688,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/screenshots/prisma-2026-06-20T192111.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -45,7 +45,14 @@ arazzos:
 - description: Create a buyer, confirm qualification, then create a financed subscription and read its status.
   name: Capchase Qualify a Buyer and Create a Financed Subscription
   slug: capchase-buyer-to-subscription
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Capchase Pay API
+  slug: open-capchase-pay-api
 common:
 - group: agent
   title: ''
@@ -151,7 +158,7 @@ overview: 'Capchase publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Capchase''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 15 more developer resources.'
-random_paper: 104
+random_paper: 79
 score:
   band: developing
   composite: 45.6
@@ -181,7 +188,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/screenshots/capchase-2026-07-25T204424.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -92,7 +92,59 @@ apis:
 - description: The user API from Withings — 7 operation(s) for user.
   name: Withings user API
   slug: withings-user-api
-artifact_total: 38
+artifact_total: 55
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Withings developer documentation answers API
+  slug: open-withings-answers-api
+- collection_type: open
+  name: Withings developer documentation answers device API
+  slug: open-withings-device-api
+- collection_type: open
+  name: Withings developer documentation answers dropshipment API
+  slug: open-withings-dropshipment-api
+- collection_type: open
+  name: Withings developer documentation answers heart API
+  slug: open-withings-heart-api
+- collection_type: open
+  name: Withings developer documentation answers measure API
+  slug: open-withings-measure-api
+- collection_type: open
+  name: Withings developer documentation answers notify API
+  slug: open-withings-notify-api
+- collection_type: open
+  name: Withings developer documentation answers nudge API
+  slug: open-withings-nudge-api
+- collection_type: open
+  name: Withings developer documentation answers nudgecampaign API
+  slug: open-withings-nudgecampaign-api
+- collection_type: open
+  name: Withings developer documentation answers oauth2 API
+  slug: open-withings-oauth2-api
+- collection_type: open
+  name: Withings developer documentation answers order API
+  slug: open-withings-order-api
+- collection_type: open
+  name: Withings developer documentation answers rawdata API
+  slug: open-withings-rawdata-api
+- collection_type: open
+  name: Withings developer documentation answers signature API
+  slug: open-withings-signature-api
+- collection_type: open
+  name: Withings developer documentation answers sleep API
+  slug: open-withings-sleep-api
+- collection_type: open
+  name: Withings developer documentation answers stetho API
+  slug: open-withings-stetho-api
+- collection_type: open
+  name: Withings developer documentation answers survey API
+  slug: open-withings-survey-api
+- collection_type: open
+  name: Withings developer documentation answers user API
+  slug: open-withings-user-api
 common:
 - group: agent
   title: ''
@@ -232,7 +284,7 @@ plans:
 - name: Withings Plans Pricing
   plan_count: 2
   slug: withings-plans-pricing
-random_paper: 37
+random_paper: 132
 rate_limits:
 - limit_count: 1
   name: Withings Rate Limits
@@ -272,7 +324,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png
 security:

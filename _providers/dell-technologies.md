@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: Enterprise IT operations
   name: Dell Technologies Enterprise IT API
   slug: dell-technologies-enterprise-it-api
-artifact_total: 13
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Dell Technologies API
   slug: open-dell-technologies-dell-api
+- collection_type: open
+  name: Dell Technologies Enterprise IT API
+  slug: open-dell-technologies-enterprise-it-api
 common:
 - group: agent
   title: ''
@@ -128,7 +134,7 @@ plans:
 - name: Dell Technologies Plans Pricing
   plan_count: 1
   slug: dell-technologies-plans-pricing
-random_paper: 66
+random_paper: 107
 rate_limits:
 - limit_count: 1
   name: Dell Technologies Rate Limits
@@ -170,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/screenshots/dell-technologies-2026-06-20T175900.png
 security:

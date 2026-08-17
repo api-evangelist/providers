@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ arazzos:
 - description: Resolve an application by name, read it, then patch its web redirect URIs and description.
   name: Active Directory Update Application Redirect URIs
   slug: active-directory-update-application-redirect-uris-workflow
-artifact_total: 76
+artifact_total: 84
 collections:
 - collection_type: postman
   name: Microsoft Graph Applications and Service Principals API
@@ -132,6 +132,30 @@ collections:
 - collection_type: postman
   name: Microsoft Graph Users API
   slug: postman-active-directory-users
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Applications and Service Principals App Role Assignments API
+  slug: open-active-directory-app-role-assignments-api
+- collection_type: open
+  name: Microsoft Graph and Service Principals App Role Assignments Applications API
+  slug: open-active-directory-applications-api
+- collection_type: open
+  name: Microsoft Graph Applications and Service Principals App Role Assignments Groups API
+  slug: open-active-directory-groups-api
+- collection_type: open
+  name: Microsoft Graph Applications and Service Principals App Role Assignments Members API
+  slug: open-active-directory-members-api
+- collection_type: open
+  name: Microsoft Graph Applications and Service Principals App Role Assignments Owners API
+  slug: open-active-directory-owners-api
+- collection_type: open
+  name: Microsoft Graph Applications and App Role Assignments Service Principals API
+  slug: open-active-directory-service-principals-api
+- collection_type: open
+  name: Microsoft Graph Applications and Service Principals App Role Assignments Users API
+  slug: open-active-directory-users-api
 common:
 - group: agent
   title: ''
@@ -397,7 +421,7 @@ plans:
 - name: Active Directory Plans Pricing
   plan_count: 8
   slug: active-directory-plans-pricing
-random_paper: 102
+random_paper: 23
 rate_limits:
 - limit_count: 7
   name: Active Directory Rate Limits
@@ -444,7 +468,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/screenshots/active-directory-2026-07-25T181526.png
 security:

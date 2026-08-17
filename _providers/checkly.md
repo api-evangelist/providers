@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -90,8 +90,59 @@ apis:
 - description: The Variables API from Checkly — 1 operation(s) for variables.
   name: Checkly Variables API
   slug: checkly-variables-api
-artifact_total: 27
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Checkly Public Accounts API
+  slug: open-checkly-accounts-api
+- collection_type: open
+  name: Checkly Public Accounts Alert Channels API
+  slug: open-checkly-alert-channels-api
+- collection_type: open
+  name: Checkly Public Accounts Analytics API
+  slug: open-checkly-analytics-api
+- collection_type: open
+  name: Checkly Public Accounts Check Alerts API
+  slug: open-checkly-check-alerts-api
+- collection_type: open
+  name: Checkly Public Accounts Check Groups API
+  slug: open-checkly-check-groups-api
+- collection_type: open
+  name: Checkly Public Accounts Check Results API
+  slug: open-checkly-check-results-api
+- collection_type: open
+  name: Checkly Public Accounts Check Statuses API
+  slug: open-checkly-check-statuses-api
+- collection_type: open
+  name: Checkly Public Accounts Checks API
+  slug: open-checkly-checks-api
+- collection_type: open
+  name: Checkly Public Accounts Dashboards API
+  slug: open-checkly-dashboards-api
+- collection_type: open
+  name: Checkly Public Accounts Heartbeats API
+  slug: open-checkly-heartbeats-api
+- collection_type: open
+  name: Checkly Public Accounts Incidents API
+  slug: open-checkly-incidents-api
+- collection_type: open
+  name: Checkly Public Accounts Locations API
+  slug: open-checkly-locations-api
+- collection_type: open
+  name: Checkly Public Accounts Maintenance Windows API
+  slug: open-checkly-maintenance-windows-api
+- collection_type: open
+  name: Checkly Public Accounts Private Locations API
+  slug: open-checkly-private-locations-api
+- collection_type: open
+  name: Checkly Public Accounts Reports API
+  slug: open-checkly-reports-api
+- collection_type: open
+  name: Checkly Public Accounts Variables API
+  slug: open-checkly-variables-api
 - collection_type: open
   name: Checkly Public API
   slug: open-checkly
@@ -156,7 +207,7 @@ plans:
 - name: Checkly Plans Pricing
   plan_count: 3
   slug: checkly-plans-pricing
-random_paper: 19
+random_paper: 143
 rate_limits:
 - limit_count: 5
   name: Checkly Rate Limits
@@ -181,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/screenshots/checkly-2026-06-20T174251.png
 security:

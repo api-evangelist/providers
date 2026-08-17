@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -92,7 +92,68 @@ apis:
 - description: The viewExports API from SandboxAQ — 1 operation(s) for viewexports.
   name: SandboxAQ View Exports API
   slug: sandboxaq-viewexports-api
-artifact_total: 25
+artifact_total: 45
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flint AI Platform Aispm Agents API
+  slug: open-sandboxaq-aispm-agents-api
+- collection_type: open
+  name: Flint AI Platform Aispm Dashboard API
+  slug: open-sandboxaq-aispm-dashboard-api
+- collection_type: open
+  name: Flint AI Platform Aispm Guardrails API
+  slug: open-sandboxaq-aispm-guardrails-api
+- collection_type: open
+  name: Flint AI Platform Aispm Llm Interactions API
+  slug: open-sandboxaq-aispm-llm-interactions-api
+- collection_type: open
+  name: Flint AI Platform Aispm Llm Sessions API
+  slug: open-sandboxaq-aispm-llm-sessions-api
+- collection_type: open
+  name: Flint AI Platform Aispm MCP Servers API
+  slug: open-sandboxaq-aispm-mcp-servers-api
+- collection_type: open
+  name: Flint AI Platform Aispm Models API
+  slug: open-sandboxaq-aispm-models-api
+- collection_type: open
+  name: Flint AI Platform Aispm Tools API
+  slug: open-sandboxaq-aispm-tools-api
+- collection_type: open
+  name: Flint AI Platform Assets API
+  slug: open-sandboxaq-assets-api
+- collection_type: open
+  name: Flint AI Platform Client Storage API
+  slug: open-sandboxaq-client-storage-api
+- collection_type: open
+  name: Flint AI Platform Fine Issues API
+  slug: open-sandboxaq-fine-issues-api
+- collection_type: open
+  name: Flint AI Platform Inventory API
+  slug: open-sandboxaq-inventory-api
+- collection_type: open
+  name: Flint AI Platform issues aispm histograms API
+  slug: open-sandboxaq-issues-aispm-histograms-api
+- collection_type: open
+  name: Flint AI Platform Issues API
+  slug: open-sandboxaq-issues-api
+- collection_type: open
+  name: Flint AI Platform Locations API
+  slug: open-sandboxaq-locations-api
+- collection_type: open
+  name: Flint AI Platform Rules API
+  slug: open-sandboxaq-rules-api
+- collection_type: open
+  name: Flint AI Platform Scans API
+  slug: open-sandboxaq-scans-api
+- collection_type: open
+  name: Flint AI Platform scans assets API
+  slug: open-sandboxaq-scans-assets-api
+- collection_type: open
+  name: Flint AI Platform View Exports API
+  slug: open-sandboxaq-viewexports-api
 common:
 - group: agent
   title: ''
@@ -250,7 +311,7 @@ overview: 'SandboxAQ publishes 19 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SandboxAQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 28 more developer resources.'
-random_paper: 1
+random_paper: 67
 score:
   band: developing
   composite: 52.4
@@ -274,7 +335,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

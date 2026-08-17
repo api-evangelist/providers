@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: 'The Webhook: Payload Structure for Order Notification API from Zubale — 1 operation(s) for webhook: payload structure for order notification.'
   name: 'Zubale Webhook: Payload Structure for Order Notification API'
   slug: zubale-webhook-payload-structure-for-order-notification-api
-artifact_total: 16
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Zubale Webhooks
   slug: zubale-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zubale API Documentation for External Notification Handler API
+  slug: open-zubale-api-documentation-for-external-notification-handler-api
+- collection_type: open
+  name: Zubale API Documentation for External Notification Handler Cancel tasks API
+  slug: open-zubale-cancel-tasks-api
+- collection_type: open
+  name: Zubale API Documentation for External Notification Handler Delivery API API
+  slug: open-zubale-delivery-api-api
+- collection_type: open
+  name: Zubale API Documentation for External Notification Handler External outbound API
+  slug: open-zubale-external-outbound-api
+- collection_type: open
+  name: Zubale API Documentation for External Notification Handler Live Tracking For Cencosud API
+  slug: open-zubale-live-tracking-for-cencosud-api
+- collection_type: open
+  name: Zubale API Documentation for External Notification Handler Picking & Delivery API API
+  slug: open-zubale-picking-delivery-api-api
+- collection_type: open
+  name: Zubale API Documentation for External Notification Handler Product catalog API
+  slug: open-zubale-product-catalog-api
+- collection_type: open
+  name: 'Zubale API Documentation for External Notification Handler Webhook: Payload Structure for Order Notification API'
+  slug: open-zubale-webhook-payload-structure-for-order-notification-api
 common:
 - group: agent
   title: ''
@@ -119,7 +147,7 @@ overview: 'Zubale publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Zubale''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 43
+random_paper: 47
 scopes:
 - name: Zubale Scopes
   scope_count: 0
@@ -147,7 +175,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

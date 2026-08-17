@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Rowy's primary inbound API surface. Each table can generate an HTTPS webhook endpoint running on Google Cloud Run (the rowy-hooks service) that receives POST requests from external systems. Built-in t
@@ -40,8 +40,11 @@ apis:
 - description: Rowy tables map directly onto Google Cloud Firestore collections. Programmatic data access is not a Rowy-specific REST API; it is the underlying Firestore data store reached via the Firebase/Google Cl
   name: Rowy Firestore Data
   slug: rowy-firestore-data
-artifact_total: 8
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Rowy
   slug: open-rowy
@@ -98,7 +101,7 @@ plans:
 - name: Rowy Plans Pricing
   plan_count: 3
   slug: rowy-plans-pricing
-random_paper: 105
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Rowy Rate Limits
@@ -116,7 +119,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 28.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/screenshots/rowy-2026-06-20T193228.png
 security:

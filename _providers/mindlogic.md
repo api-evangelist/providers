@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Video API from Mindlogic — 3 operation(s) for video.
   name: Mindlogic Video API
   slug: mindlogic-video-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast Audio API
+  slug: open-mindlogic-audio-api
+- collection_type: open
+  name: Fast Audio Chat API
+  slug: open-mindlogic-chat-api
+- collection_type: open
+  name: Fast Audio Credits API
+  slug: open-mindlogic-credits-api
+- collection_type: open
+  name: Fast Audio gateway API
+  slug: open-mindlogic-gateway-api
+- collection_type: open
+  name: Fast Audio Images API
+  slug: open-mindlogic-images-api
+- collection_type: open
+  name: Fast Audio Models API
+  slug: open-mindlogic-models-api
+- collection_type: open
+  name: Fast Audio Video API
+  slug: open-mindlogic-video-api
 common:
 - group: start
   title: ''
@@ -161,7 +186,7 @@ overview: 'Mindlogic publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Mindlogic''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 15 more developer resources.'
-random_paper: 110
+random_paper: 56
 score:
   band: thin
   composite: 38.0
@@ -185,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/screenshots/mindlogic-2026-08-07T172941.png
 security:

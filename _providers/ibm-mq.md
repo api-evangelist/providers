@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -72,18 +72,48 @@ apis:
 - description: Manage and query topic objects
   name: IBM MQ Topics API
   slug: ibm-mq-topics-api
-artifact_total: 27
+artifact_total: 37
 asyncapis:
 - description: Asynchronous messaging interface for IBM MQ, supporting point-to-point queue-based messaging and publish/subscribe topic-based messaging. Defines the channels, operations, and message formats for appl
   name: IBM MQ Messaging
   slug: ibm-mq-messaging-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: IBM MQ Administration REST API
   slug: open-ibm-mq-admin-rest
 - collection_type: open
+  name: IBM MQ Administration REST Channels API
+  slug: open-ibm-mq-channels-api
+- collection_type: open
+  name: IBM MQ Administration REST Channels Installations API
+  slug: open-ibm-mq-installations-api
+- collection_type: open
+  name: IBM MQ Administration REST Channels Login API
+  slug: open-ibm-mq-login-api
+- collection_type: open
   name: IBM MQ Messaging REST API
   slug: open-ibm-mq-messaging-rest
+- collection_type: open
+  name: IBM MQ Administration REST Channels Queue Managers API
+  slug: open-ibm-mq-queue-managers-api
+- collection_type: open
+  name: IBM MQ Administration REST Channels Queue Messaging API
+  slug: open-ibm-mq-queue-messaging-api
+- collection_type: open
+  name: IBM MQ Administration REST Channels Queues API
+  slug: open-ibm-mq-queues-api
+- collection_type: open
+  name: IBM MQ Administration REST Channels Subscriptions API
+  slug: open-ibm-mq-subscriptions-api
+- collection_type: open
+  name: IBM MQ Administration REST Channels Topic Messaging API
+  slug: open-ibm-mq-topic-messaging-api
+- collection_type: open
+  name: IBM MQ Administration REST Channels Topics API
+  slug: open-ibm-mq-topics-api
 common:
 - group: agent
   title: ''
@@ -180,7 +210,7 @@ plans:
 - name: Ibm Mq Plans Pricing
   plan_count: 3
   slug: ibm-mq-plans-pricing
-random_paper: 99
+random_paper: 132
 rate_limits:
 - limit_count: 3
   name: Ibm Mq Rate Limits
@@ -230,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/screenshots/ibm-mq-2026-06-20T183135.png
 security:

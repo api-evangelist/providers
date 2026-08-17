@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,8 +62,14 @@ apis:
 - description: The Modal Web Endpoints (Representative) API from Modal — 2 operation(s) for modal web endpoints (representative).
   name: Modal Modal Web Endpoints (Representative) API
   slug: modal-labs-modal-web-endpoints-representative-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Modal Web Endpoints (Representative) Modal Web Endpoints (Representative) Modal Web Endpoints (Representative) Modal Web Endpoints (Representative) API
+  slug: open-modal-labs-modal-web-endpoints-representative-api
 - collection_type: open
   name: Modal Web Endpoints (Representative)
   slug: open-modal-labs
@@ -128,7 +134,7 @@ plans:
 - name: Modal Labs Plans Pricing
   plan_count: 4
   slug: modal-labs-plans-pricing
-random_paper: 28
+random_paper: 94
 rate_limits:
 - limit_count: 6
   name: Modal Labs Rate Limits
@@ -153,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

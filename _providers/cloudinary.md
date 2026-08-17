@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,12 +66,24 @@ apis:
 - description: Asset upload and management.
   name: Cloudinary Upload API
   slug: cloudinary-upload-api
-artifact_total: 41
+artifact_total: 45
 asyncapis:
 - description: 'AsyncAPI description of Cloudinary''s outbound notification (webhook) surface. Cloudinary delivers event notifications by issuing HTTP POST requests with a JSON body to a notification URL the customer '
   name: Cloudinary Notifications
   slug: cloudinary-notifications-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudinary Upload Backup API
+  slug: open-cloudinary-backup-api
+- collection_type: open
+  name: Cloudinary Upload Backup Transformation API
+  slug: open-cloudinary-transformation-api
+- collection_type: open
+  name: Cloudinary Backup Upload API
+  slug: open-cloudinary-upload-api
 - collection_type: open
   name: Cloudinary Upload API
   slug: open-cloudinary
@@ -193,7 +205,7 @@ plans:
 - name: Cloudinary Plans Pricing
   plan_count: 4
   slug: cloudinary-plans-pricing
-random_paper: 2
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Cloudinary Rate Limits
@@ -235,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/screenshots/cloudinary-2026-06-20T174606.png
 security:

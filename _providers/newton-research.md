@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ plans:
 - name: Newton Research Plans Pricing
   plan_count: 0
   slug: newton-research-plans-pricing
-random_paper: 117
+random_paper: 67
 score:
   band: minimal
   composite: 12.2
@@ -115,7 +115,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newton-research/refs/heads/main/screenshots/newton-research-2026-08-07T185140.png
 security:

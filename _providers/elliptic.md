@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -87,7 +87,56 @@ apis:
 - description: The Wallet Workflow API from Elliptic — 2 operation(s) for wallet workflow.
   name: Elliptic Wallet Workflow API
   slug: elliptic-wallet-workflow-api
-artifact_total: 24
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AML API OAuth Assets API
+  slug: open-elliptic-assets-api
+- collection_type: open
+  name: AML API OAuth Assets Count Analyses API
+  slug: open-elliptic-count-analyses-api
+- collection_type: open
+  name: AML API OAuth Assets Criteria API
+  slug: open-elliptic-criteria-api
+- collection_type: open
+  name: AML API OAuth Assets Customers API
+  slug: open-elliptic-customers-api
+- collection_type: open
+  name: AML API OAuth Assets Health API
+  slug: open-elliptic-health-api
+- collection_type: open
+  name: AML API OAuth Assets Risk Rules API
+  slug: open-elliptic-risk-rules-api
+- collection_type: open
+  name: AML API OAuth Assets Sanctions API
+  slug: open-elliptic-sanctions-api
+- collection_type: open
+  name: AML API OAuth Assets Screenings API
+  slug: open-elliptic-screenings-api
+- collection_type: open
+  name: AML API OAuth Assets Transaction Analyses API
+  slug: open-elliptic-transaction-analyses-api
+- collection_type: open
+  name: AML API OAuth Assets Transaction Workflow API
+  slug: open-elliptic-transaction-workflow-api
+- collection_type: open
+  name: AML API OAuth Assets Tron NodeIntelligence API
+  slug: open-elliptic-tron-nodeintelligence-api
+- collection_type: open
+  name: AML API OAuth Assets Users API
+  slug: open-elliptic-users-api
+- collection_type: open
+  name: AML API OAuth Assets Wallet Analyses API
+  slug: open-elliptic-wallet-analyses-api
+- collection_type: open
+  name: AML API OAuth Assets Wallet Analyses Count API
+  slug: open-elliptic-wallet-analyses-count-api
+- collection_type: open
+  name: AML API OAuth Assets Wallet Workflow API
+  slug: open-elliptic-wallet-workflow-api
 common:
 - group: agent
   title: ''
@@ -185,7 +234,7 @@ plans:
 - name: Elliptic Plans
   plan_count: 1
   slug: elliptic-plans
-random_paper: 14
+random_paper: 109
 rate_limits:
 - limit_count: 0
   name: Aml Api
@@ -221,7 +270,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/screenshots/elliptic-2026-06-20T180613.png
 security:

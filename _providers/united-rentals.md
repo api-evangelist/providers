@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Rental reservations and orders
   name: United Rentals Rentals API
   slug: united-rentals-rentals-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: United Rentals Total Control Equipment API
+  slug: open-united-rentals-equipment-api
+- collection_type: open
+  name: United Rentals Total Control Equipment Fleet API
+  slug: open-united-rentals-fleet-api
+- collection_type: open
+  name: United Rentals Total Control Equipment Invoices API
+  slug: open-united-rentals-invoices-api
+- collection_type: open
+  name: United Rentals Total Control Equipment Locations API
+  slug: open-united-rentals-locations-api
+- collection_type: open
+  name: United Total Control Equipment Rentals API
+  slug: open-united-rentals-rentals-api
 - collection_type: open
   name: United Rentals Total Control API
   slug: open-united-rentals-total-control
@@ -189,7 +207,7 @@ press:
 - date: '2026-05-25'
   title: United Rentals Expands Digital Customer Experience with ...
   url: https://www.businesswire.com/news/home/20260519107330/en/United-Rentals-Expands-Digital-Customer-Experience-with-Equipment-Agent-Launch-in-ChatGPT
-random_paper: 15
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: United Rentals Rate Limits
@@ -231,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/screenshots/united-rentals-2026-06-20T200042.png
 security:

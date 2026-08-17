@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -62,8 +62,35 @@ apis:
 - description: Absences, time-off requests, types, statuses, and balances.
   name: Kenjo Time Off API
   slug: kenjo-time-off-api
-artifact_total: 13
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kenjo Attendance API
+  slug: open-kenjo-attendance-api
+- collection_type: open
+  name: Kenjo Attendance Authentication API
+  slug: open-kenjo-authentication-api
+- collection_type: open
+  name: Kenjo Attendance Compensation API
+  slug: open-kenjo-compensation-api
+- collection_type: open
+  name: Kenjo Attendance Documents API
+  slug: open-kenjo-documents-api
+- collection_type: open
+  name: Kenjo Attendance Employees API
+  slug: open-kenjo-employees-api
+- collection_type: open
+  name: Kenjo Attendance Organization API
+  slug: open-kenjo-organization-api
+- collection_type: open
+  name: Kenjo Attendance Recruiting API
+  slug: open-kenjo-recruiting-api
+- collection_type: open
+  name: Kenjo Attendance Time Off API
+  slug: open-kenjo-time-off-api
 - collection_type: open
   name: Kenjo API
   slug: open-kenjo
@@ -124,7 +151,7 @@ plans:
 - name: Kenjo Plans Pricing
   plan_count: 3
   slug: kenjo-plans-pricing
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 3
   name: Kenjo Rate Limits
@@ -149,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/screenshots/kenjo-2026-07-25T223611.png
 slug: kenjo

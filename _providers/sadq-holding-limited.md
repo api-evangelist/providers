@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -81,11 +81,57 @@ apis:
 - description: Create and manage document signing workflows
   name: Sadq Holding Limited Workflows API
   slug: sadq-holding-limited-workflows-api
-artifact_total: 20
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Sadq Holding Limited Webhooks
   slug: sadq-holding-limited-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations API
+  slug: open-sadq-holding-limited-archiving-delegations-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Authentication API
+  slug: open-sadq-holding-limited-authentication-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Configuration API
+  slug: open-sadq-holding-limited-configuration-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Documents API
+  slug: open-sadq-holding-limited-documents-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Envelopes API
+  slug: open-sadq-holding-limited-envelopes-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations eSign API
+  slug: open-sadq-holding-limited-esign-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Invitations API
+  slug: open-sadq-holding-limited-invitations-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations KYB API
+  slug: open-sadq-holding-limited-kyb-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Reports & Requests API
+  slug: open-sadq-holding-limited-reports-requests-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Sign API
+  slug: open-sadq-holding-limited-sign-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Templates API
+  slug: open-sadq-holding-limited-templates-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Users API
+  slug: open-sadq-holding-limited-users-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Webhooks API
+  slug: open-sadq-holding-limited-webhooks-api
+- collection_type: open
+  name: Sadq Integration Archiving & Delegations Workflows API
+  slug: open-sadq-holding-limited-workflows-api
 common:
 - group: company
   title: ''
@@ -214,7 +260,7 @@ overview: 'Sadq Holding Limited publishes 14 APIs on the [APIs.io](https://apis.
 
 
   Sadq Holding Limited''s developer surface includes documentation, API reference, quickstart, signup flow, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 80
+random_paper: 63
 scopes:
 - name: Sadq Holding Limited Scopes
   scope_count: 4
@@ -243,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

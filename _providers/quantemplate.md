@@ -28,17 +28,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The FabricAPI API from QuanTemplate — 2 operation(s) for fabricapi.
   name: QuanTemplate FabricAPI API
   slug: quantemplate-fabricapi-api
-artifact_total: 5
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Quantemplate Webhooks
   slug: quantemplate-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quantemplate FabricAPI API
+  slug: open-quantemplate-fabricapi-api
 common:
 - group: other
   title: ''
@@ -167,7 +174,7 @@ overview: 'QuanTemplate publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   QuanTemplate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 97
+random_paper: 105
 score:
   band: developing
   composite: 47.9
@@ -196,7 +203,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

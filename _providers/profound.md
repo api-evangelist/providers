@@ -1,36 +1,57 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Enterprise, on request
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
+  source:
+  - https://www.tryprofound.com/pricing
+  - https://docs.tryprofound.com/rest-api/introduction
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    mcp_server: true
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 73.0
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 90
+  human_in_the_loop: 0
+  name: Profound Agentic Access
+  operation_count: 125
+  slug: profound-agentic-access
+  summary_line: 125 operations · 90 acting
+api_count: 2
+apis:
+- description: 'The programmatic interface to Profound''s Answer Engine Optimization data: brand visibility, citations, sentiment, query fan-outs, FactCheck accuracy, shopping visibility, YouTube social reports, AI cr'
+  name: Profound External API
+  slug: profound-external-api
+- description: The inbound log-ingestion endpoint for Profound Agent Analytics. Customers POST batches of up to 1,000 web-request log entries as JSON (timestamp, method, host, path, status_code, ip, user_agent, plus
+  name: Profound Agent Analytics Ingestion API
+  slug: profound-agent-analytics-ingestion-api
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/profound-agentic-access.yml
 - group: company
   title: ''
   type: Website
@@ -43,10 +64,14 @@ common:
   title: ''
   type: Documentation
   url: https://docs.tryprofound.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.tryprofound.com/api-reference/organization/get-categories
 - group: start
   title: ''
   type: GettingStarted
-  url: https://help.tryprofound.com
+  url: https://docs.tryprofound.com/rest-api/introduction
 - group: operate
   title: ''
   type: Support
@@ -55,14 +80,26 @@ common:
   title: ''
   type: Blog
   url: https://www.tryprofound.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/cooper-square-technologies
 - group: operate
   title: ''
   type: StatusPage
   url: https://status.tryprofound.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.tryprofound.com/rest-api/changelog
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.tryprofound.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://platform.tryprofound.com/signup
 - group: start
   title: ''
   type: Login
@@ -71,6 +108,82 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.tryprofound.com/legal/privacy-policy
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/profound-external-api-openapi.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/profound-external-api-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/profound-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/profound-packages.yml
+- group: build
+  title: ''
+  type: Python SDK
+  url: https://pypi.org/project/profound/
+- group: build
+  title: ''
+  type: JavaScript SDK
+  url: https://www.npmjs.com/package/@profoundai/client
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/profound-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/profound-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/profound-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/profound-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/profound-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/profound-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/profound-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/profound-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/profound-conformance.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/profound-changelog.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/profound-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/profound-plans-pricing.yml
 - group: design
   title: ''
   type: Lifecycle
@@ -108,34 +221,55 @@ common:
   type: Compliance
   url: https://trust.tryprofound.com
 created: '2026-07-17'
-description: Profound is a marketing platform for the AI era and a leading platform for Answer Engine Optimization (AEO). Operated by Cooper Square Technologies Inc. (dba Profound) in New York, it helps brands measure and improve how they are represented across AI answer engines and assistants — ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews and AI Mode, Copilot, and Grok — through answer-engine insights, agent analytics, prompt volumes, shopping visibility, and content optimization. Profound runs a programmatic Profound External API and an Agent Analytics Ingestion API (API access is included on the Enterprise plan), is SOC 2 and HIPAA aligned, and publishes a responsible-disclosure policy. Backed by Kleiner Perkins.
+description: Profound is a marketing platform for the AI era and a leading platform for Answer Engine Optimization (AEO). Operated by Cooper Square Technologies Inc. (dba Profound) in New York, it helps brands measure and improve how they are represented across AI answer engines and assistants — ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews and AI Mode, Copilot, and Grok — through answer-engine insights, agent analytics, prompt volumes, shopping visibility, and content optimization. Profound publishes a 125-operation OpenAPI 3.1 for its External API at api.tryprofound.com, runs a separate Agent Analytics Ingestion API, ships official Python and TypeScript SDKs, and operates a hosted remote MCP server at mcp.tryprofound.com with OAuth 2.1 and a conformant A2A agent card. API access is included on the Enterprise plan on request. Profound is SOC 2 and HIPAA aligned and publishes a responsible-disclosure policy. Backed by Kleiner Perkins.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/profound.png
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: profound-mcp.yml
+  slug: profound-mcpyml
+modified: '2026-08-13'
 name: Profound
 nav: Providers
 network: true
-overview: 'Profound is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Answer Engine Optimization, AEO, and AI Search.
+overview: 'Profound publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Company, AI, Answer Engine Optimization, AEO, and AI Search.
 
 
-  Profound''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 37
+  Profound''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+plans:
+- name: Profound Plans Pricing
+  plan_count: 3
+  slug: profound-plans-pricing
+random_paper: 132
+rate_limits:
+- limit_count: 1
+  name: Profound Rate Limits
+  slug: profound-rate-limits
+scopes:
+- name: Profound Scopes
+  scope_count: 4
+  slug: profound-scopes
+  summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
-  band: emerging
-  composite: 26.1
-  delta: 0.0
+  band: exemplar
+  composite: 66.9
+  delta: 40.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 34.8
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 26.3
+    commercial_clarity: 81.6
+    contract_quality: 51.6
+    developer_ergonomics: 82.6
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 76.3
   previous_composite: 26.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Profound Authentication
+  slug: profound-authentication
+  summary_line: apiKey/http/oauth2 · 3 schemes
 - kind: domain-security
   name: Profound Domain Security
   slug: profound-domain-security
@@ -159,5 +293,8 @@ tags:
 - Marketing
 - Analytics
 - Agent Analytics
+- Brand Visibility
+- Citations
+- MCP
 website: https://www.tryprofound.com
 ---

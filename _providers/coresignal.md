@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -79,7 +80,11 @@ arazzos:
 - description: Search the Multi-source Jobs API by filters, then collect the full top-matching job posting.
   name: Coresignal Job Search and Collect
   slug: coresignal-job-search-collect-workflow
-artifact_total: 37
+artifact_total: 43
+asyncapis:
+- description: ''
+  name: Coresignal Webhooks
+  slug: coresignal-webhooks
 collections:
 - collection_type: postman
   name: Coresignal Multi-source Company API
@@ -91,6 +96,12 @@ collections:
   name: Coresignal Multi-source Jobs API
   slug: postman-coresignal-multi-source-jobs-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coresignal Multi-source Company Collect API
+  slug: open-coresignal-collect-api
+- collection_type: open
   name: Coresignal Multi-source Company API
   slug: open-coresignal-multi-source-company-api
 - collection_type: open
@@ -99,6 +110,9 @@ collections:
 - collection_type: open
   name: Coresignal Multi-source Jobs API
   slug: open-coresignal-multi-source-jobs-api
+- collection_type: open
+  name: Coresignal Multi-source Company Collect Search API
+  slug: open-coresignal-search-api
 common:
 - group: agent
   title: ''
@@ -244,6 +258,138 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.coresignal.com/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/coresignal-llms.txt
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.coresignal.com/api-introduction/apis-overview
+- group: operate
+  title: ''
+  type: Support
+  url: https://coresignal.com/contact-us/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.coresignal.com/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.coresignal.com/sign-in
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.coresignal.com/release-notes/release-notes
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/coresignal-changelog.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://coresignal.com/data-transparency
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/coresignal-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/coresignal-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/coresignal-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/coresignal-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/coresignal-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/coresignal-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/coresignal-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/coresignal-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/coresignal-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/coresignal-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/coresignal-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/coresignal-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/coresignal-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/coresignal-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/coresignal-finops.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/coresignal-search-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/coresignal-collect-api-overlay.yaml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/coresignal-company-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/coresignal-companyfilter-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/coresignal-employee-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/coresignal-employeefilter-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/coresignal-job-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/coresignal-jobfilter-schema.json
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/coresignal-structure.json
 created: '2025-02-12'
 description: Coresignal is a data-as-a-service company providing access to public web data on companies, employees, and jobs through a suite of REST APIs. The platform aggregates and refines more than 4.5 billion data records covering 75M+ companies (with 500+ data fields), 865M+ employee profiles (300+ fields), and 461M+ job postings (85+ fields). Coresignal offers Multi-source, Clean, and Base data tiers across Company, Employee, and Jobs APIs, plus specialized real-time, employee posts, agentic search, and company enrichment endpoints. Authentication uses a single apikey HTTP header.
 finops:
@@ -280,24 +426,28 @@ jsonld:
   property_count: 0
   slug: coresignal-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: coresignal-mcp.yml
+  slug: coresignal-mcpyml
+modified: '2026-08-13'
 name: Coresignal
 nav: Providers
 network: true
 overview: 'Coresignal publishes 2 APIs on the [APIs.io](https://apis.io/) network: Collect API and Search API. Tagged areas include Agentic Search, B2B Data, Companies, Company Data, and Data as a Service.
 
 
-  The Coresignal catalog on APIs.io includes 1 JSON-LD context and 4 Spectral governance rulesets.
+  The Coresignal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 4 Spectral governance rulesets.
 
 
-  Coresignal''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, engineering blog, and 30 more developer resources.'
+  Coresignal''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, engineering blog, API reference, and 62 more developer resources.'
 plans:
 - name: Coresignal Plans Pricing
-  plan_count: 5
+  plan_count: 8
   slug: coresignal-plans-pricing
-random_paper: 103
+random_paper: 20
 rate_limits:
-- limit_count: 7
+- limit_count: 9
   name: Coresignal Rate Limits
   slug: coresignal-rate-limits
 rules:
@@ -333,17 +483,22 @@ rules:
     info: 0
     warn: 2
   slug: coresignal-multi-source-jobs-api-rules
+scopes:
+- name: Coresignal Scopes
+  scope_count: 4
+  slug: coresignal-scopes
+  summary_line: 4 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: strong
-  composite: 59.2
-  delta: 0.0
+  band: exemplar
+  composite: 75.2
+  delta: 16.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 67.2
-    developer_ergonomics: 45.7
-    discoverability: 81.5
-    governance: 68.8
-    operational_transparency: 36.8
+    commercial_clarity: 68.4
+    contract_quality: 76.1
+    developer_ergonomics: 78.3
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 52.6
   previous_composite: 59.2
   provenance:
     agentic_access: derived
@@ -353,14 +508,14 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/screenshots/coresignal-2026-06-20T175026.png
 security:
 - kind: authentication
   name: Coresignal Authentication
   slug: coresignal-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 - kind: domain-security
   name: Coresignal Domain Security
   slug: coresignal-domain-security

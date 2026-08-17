@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,8 +63,26 @@ apis:
 - description: SEPM group management
   name: Symantec Groups API
   slug: symantec-groups-api
-artifact_total: 22
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Symantec Endpoint Protection Manager Administrators API
+  slug: open-symantec-administrators-api
+- collection_type: open
+  name: Symantec Endpoint Protection Manager Administrators API Version API
+  slug: open-symantec-api-version-api
+- collection_type: open
+  name: Symantec Endpoint Protection Manager Administrators Authentication API
+  slug: open-symantec-authentication-api
+- collection_type: open
+  name: Symantec Endpoint Protection Manager Administrators Computers API
+  slug: open-symantec-computers-api
+- collection_type: open
+  name: Symantec Endpoint Protection Manager Administrators Groups API
+  slug: open-symantec-groups-api
 - collection_type: open
   name: Symantec Endpoint Protection Manager API
   slug: open-symantec-sepm-api
@@ -200,7 +218,7 @@ press:
 - date: '2026-05-25'
   title: Cyber Security - Symantec Enterprise Cloud
   url: https://jp.broadcom.com/products/cybersecurity?ver=1.11.4
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 2
   name: Symantec Rate Limits
@@ -242,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/screenshots/symantec-2026-06-20T194819.png
 security:

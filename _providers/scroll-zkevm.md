@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,8 +65,14 @@ apis:
 - description: Ethereum JSON-RPC over HTTP POST
   name: Scroll JSON-RPC API
   slug: scroll-zkevm-json-rpc-api
-artifact_total: 15
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scroll JSON-RPC API
+  slug: open-scroll-zkevm-json-rpc-api
 - collection_type: open
   name: Scroll JSON-RPC
   slug: open-scroll-zkevm
@@ -127,7 +133,7 @@ plans:
 - name: Scroll Zkevm Plans Pricing
   plan_count: 1
   slug: scroll-zkevm-plans-pricing
-random_paper: 57
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Scroll Zkevm Rate Limits
@@ -152,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scroll-zkevm/refs/heads/main/screenshots/scroll-zkevm-2026-06-20T193608.png
 security:

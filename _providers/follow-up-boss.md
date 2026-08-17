@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -65,8 +65,35 @@ apis:
 - description: The Webhooks API from Follow Up Boss — 2 operation(s) for webhooks.
   name: Follow Up Boss Webhooks API
   slug: follow-up-boss-webhooks-api
-artifact_total: 14
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Follow Up Boss Calls API
+  slug: open-follow-up-boss-calls-api
+- collection_type: open
+  name: Follow Up Boss Calls Deals API
+  slug: open-follow-up-boss-deals-api
+- collection_type: open
+  name: Follow Up Boss Calls Events API
+  slug: open-follow-up-boss-events-api
+- collection_type: open
+  name: Follow Up Boss Calls Notes API
+  slug: open-follow-up-boss-notes-api
+- collection_type: open
+  name: Follow Up Boss Calls People API
+  slug: open-follow-up-boss-people-api
+- collection_type: open
+  name: Follow Up Boss Calls Tasks API
+  slug: open-follow-up-boss-tasks-api
+- collection_type: open
+  name: Follow Up Boss Calls TextMessages API
+  slug: open-follow-up-boss-textmessages-api
+- collection_type: open
+  name: Follow Up Boss Calls Webhooks API
+  slug: open-follow-up-boss-webhooks-api
 - collection_type: open
   name: Follow Up Boss API
   slug: open-follow-up-boss
@@ -139,7 +166,7 @@ overview: 'Follow Up Boss publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Follow Up Boss'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 97
+random_paper: 76
 score:
   band: thin
   composite: 33.9
@@ -160,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/screenshots/follow-up-boss-2026-06-20T181354.png
 security:

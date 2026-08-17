@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The tags API from RAWG — 2 operation(s) for tags.
   name: RAWG tags API
   slug: rawg-tags-api
-artifact_total: 25
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RAWG Video Games Database creator-roles API
+  slug: open-rawg-creator-roles-api
+- collection_type: open
+  name: RAWG Video Games Database creator-roles creators API
+  slug: open-rawg-creators-api
+- collection_type: open
+  name: RAWG Video Games Database creator-roles developers API
+  slug: open-rawg-developers-api
+- collection_type: open
+  name: RAWG Video Database creator-roles games API
+  slug: open-rawg-games-api
+- collection_type: open
+  name: RAWG Video Games Database creator-roles genres API
+  slug: open-rawg-genres-api
+- collection_type: open
+  name: RAWG Video Games Database creator-roles platforms API
+  slug: open-rawg-platforms-api
+- collection_type: open
+  name: RAWG Video Games Database creator-roles publishers API
+  slug: open-rawg-publishers-api
+- collection_type: open
+  name: RAWG Video Games Database creator-roles stores API
+  slug: open-rawg-stores-api
+- collection_type: open
+  name: RAWG Video Games Database creator-roles tags API
+  slug: open-rawg-tags-api
 - collection_type: open
   name: RAWG Video Games Database API
   slug: open-rawg
@@ -157,7 +187,7 @@ plans:
 - name: Rawg Plans Pricing
   plan_count: 3
   slug: rawg-plans-pricing
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 5
   name: Rawg Rate Limits
@@ -199,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/screenshots/rawg-2026-06-20T192612.png
 security:

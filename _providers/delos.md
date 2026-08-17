@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 71.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -32,11 +32,15 @@ apis:
 - description: REST API behind the WellCube / Darwin Cloud platform. Covers session and limited-session issuance, user product entitlements and product invitations, installation and product administration with per-i
   name: WellCube Cloud BE API
   slug: wellcube-cloud-be-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Delos Events
   slug: delos-events
+collections:
+- collection_type: open
+  name: Cloud BE
+  slug: open-delos-wellcube-cloud-be
 common:
 - group: agent
   title: ''
@@ -169,7 +173,7 @@ plans:
 - name: Delos Plans Pricing
   plan_count: 0
   slug: delos-plans-pricing
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 0
   name: Delos Rate Limits
@@ -177,6 +181,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 55.2
@@ -184,8 +189,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 5.3
+  previous_composite: 42.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Delos Authentication

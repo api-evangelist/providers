@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ apis:
 - description: The Workout Routes API from Oura — 2 operation(s) for workout routes.
   name: Oura Workout Routes API
   slug: oura-ring-workout-routes-api
-artifact_total: 86
+artifact_total: 109
 collections:
 - collection_type: postman
   name: Oura Daily Activity Routes API
@@ -173,8 +173,77 @@ collections:
   name: Oura Daily Activity Routes Workout Routes API
   slug: postman-oura-ring-workout-routes-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Oura API
   slug: open-oura-api
+- collection_type: open
+  name: Oura Daily Activity Routes API
+  slug: open-oura-ring-daily-activity-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Daily Cardiovascular Age Routes API
+  slug: open-oura-ring-daily-cardiovascular-age-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Daily Readiness Routes API
+  slug: open-oura-ring-daily-readiness-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Daily Resilience Routes API
+  slug: open-oura-ring-daily-resilience-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Daily Sleep Routes API
+  slug: open-oura-ring-daily-sleep-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Daily Spo2 Routes API
+  slug: open-oura-ring-daily-spo2-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Daily Stress Routes API
+  slug: open-oura-ring-daily-stress-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Enhanced Tag Routes API
+  slug: open-oura-ring-enhanced-tag-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Heart Rate Routes API
+  slug: open-oura-ring-heart-rate-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Interbeat Interval Routes API
+  slug: open-oura-ring-interbeat-interval-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Personal Info Routes API
+  slug: open-oura-ring-personal-info-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Rest Mode Period Routes API
+  slug: open-oura-ring-rest-mode-period-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Ring Battery Level Routes API
+  slug: open-oura-ring-ring-battery-level-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Ring Configuration Routes API
+  slug: open-oura-ring-ring-configuration-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Sandbox Routes API
+  slug: open-oura-ring-sandbox-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Session Routes API
+  slug: open-oura-ring-session-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Sleep Routes API
+  slug: open-oura-ring-sleep-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Sleep Time Routes API
+  slug: open-oura-ring-sleep-time-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Tag Routes API
+  slug: open-oura-ring-tag-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes VO2 Max Routes API
+  slug: open-oura-ring-vo2-max-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Webhook Subscription Routes API
+  slug: open-oura-ring-webhook-subscription-routes-api
+- collection_type: open
+  name: Oura Daily Activity Routes Workout Routes API
+  slug: open-oura-ring-workout-routes-api
 common:
 - group: build
   title: ''
@@ -381,7 +450,7 @@ plans:
 - name: Oura Ring Plans Pricing
   plan_count: 6
   slug: oura-ring-plans-pricing
-random_paper: 76
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Oura Ring Rate Limits
@@ -429,7 +498,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura-ring/refs/heads/main/screenshots/oura-ring-2026-06-20T191228.png
 security:

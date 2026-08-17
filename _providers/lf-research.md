@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Programmatic access to LF Research publications, open source trend data, and industry analysis resources.
@@ -84,7 +84,7 @@ plans:
 - name: Lf Research Plans Pricing
   plan_count: 3
   slug: lf-research-plans-pricing
-random_paper: 20
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Lf Research Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-research/refs/heads/main/screenshots/lf-research-2026-06-20T184453.png
 security:

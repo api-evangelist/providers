@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Cycode's REST API and webhooks for the ASPM / software supply chain security platform, including the Risk Intelligence Graph (RIG) reporting API. JWT bearer authentication obtained by exchanging a Cli
@@ -144,7 +144,7 @@ overview: 'Cycode publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cycode''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, CLI, authentication, and 16 more developer resources.'
-random_paper: 31
+random_paper: 35
 score:
   band: thin
   composite: 35.7
@@ -161,7 +161,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycode/refs/heads/main/screenshots/cycode-2026-07-25T211037.png
 security:

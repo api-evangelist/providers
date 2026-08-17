@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,20 @@ apis:
 - description: FEMA disaster declaration data
   name: United States Fire Administration Disaster Declarations API
   slug: united-states-fire-administration-disaster-declarations-api
-artifact_total: 16
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: OpenFEMA Fire Data API
   slug: open-openfema-fire-data
+- collection_type: open
+  name: OpenFEMA Fire Data Datasets API
+  slug: open-united-states-fire-administration-datasets-api
+- collection_type: open
+  name: OpenFEMA Fire Data Datasets Disaster Declarations API
+  slug: open-united-states-fire-administration-disaster-declarations-api
 common:
 - group: agent
   title: ''
@@ -105,7 +114,7 @@ plans:
 - name: United States Fire Administration Plans Pricing
   plan_count: 3
   slug: united-states-fire-administration-plans-pricing
-random_paper: 16
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: United States Fire Administration Rate Limits
@@ -153,7 +162,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-fire-administration/refs/heads/main/screenshots/united-states-fire-administration-2026-06-20T200055.png
 security:

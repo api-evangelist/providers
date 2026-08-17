@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -162,7 +162,134 @@ apis:
 - description: Voter records store the ballot history of a single signup.
   name: NationBuilder Voters API
   slug: nationbuilder-voters-api
-artifact_total: 46
+artifact_total: 88
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NationBuilder V2 Async Processes API
+  slug: open-nationbuilder-async-processes-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Automation Enrollments API
+  slug: open-nationbuilder-automation-enrollments-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Automations API
+  slug: open-nationbuilder-automations-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Ballots API
+  slug: open-nationbuilder-ballots-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Broadcasters API
+  slug: open-nationbuilder-broadcasters-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Contacts API
+  slug: open-nationbuilder-contacts-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Custom Fields API
+  slug: open-nationbuilder-custom-fields-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Donation Tracking Codes API
+  slug: open-nationbuilder-donation-tracking-codes-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Donations API
+  slug: open-nationbuilder-donations-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Elections API
+  slug: open-nationbuilder-elections-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Event Rsvps API
+  slug: open-nationbuilder-event-rsvps-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Event Ticket Levels API
+  slug: open-nationbuilder-event-ticket-levels-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Events API
+  slug: open-nationbuilder-events-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Imports API
+  slug: open-nationbuilder-imports-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Lists API
+  slug: open-nationbuilder-lists-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Mailings API
+  slug: open-nationbuilder-mailings-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Membership Types API
+  slug: open-nationbuilder-membership-types-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Memberships API
+  slug: open-nationbuilder-memberships-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Pages API
+  slug: open-nationbuilder-pages-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Path Histories API
+  slug: open-nationbuilder-path-histories-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Path Journey Status Changes API
+  slug: open-nationbuilder-path-journey-status-changes-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Path Journeys API
+  slug: open-nationbuilder-path-journeys-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Path Steps API
+  slug: open-nationbuilder-path-steps-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Paths API
+  slug: open-nationbuilder-paths-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Petition Signatures API
+  slug: open-nationbuilder-petition-signatures-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Petitions API
+  slug: open-nationbuilder-petitions-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Pledges API
+  slug: open-nationbuilder-pledges-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Precincts API
+  slug: open-nationbuilder-precincts-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Relationships API
+  slug: open-nationbuilder-relationships-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Signup Profiles API
+  slug: open-nationbuilder-signup-profiles-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Signup Taggings API
+  slug: open-nationbuilder-signup-taggings-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Signup Tags API
+  slug: open-nationbuilder-signup-tags-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Signups API
+  slug: open-nationbuilder-signups-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Sites API
+  slug: open-nationbuilder-sites-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Suggestion Boxes API
+  slug: open-nationbuilder-suggestion-boxes-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Suggestions API
+  slug: open-nationbuilder-suggestions-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Survey Question Possible Responses API
+  slug: open-nationbuilder-survey-question-possible-responses-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Survey Question Responses API
+  slug: open-nationbuilder-survey-question-responses-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Survey Questions API
+  slug: open-nationbuilder-survey-questions-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Surveys API
+  slug: open-nationbuilder-surveys-api
+- collection_type: open
+  name: NationBuilder V2 Async Processes Voters API
+  slug: open-nationbuilder-voters-api
 common:
 - group: agent
   title: ''
@@ -296,7 +423,7 @@ overview: 'NationBuilder publishes 41 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NationBuilder''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
-random_paper: 72
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Nationbuilder Rate Limits
@@ -324,7 +451,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

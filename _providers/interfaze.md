@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,14 @@ apis:
 - description: The Chat API from Interfaze — 1 operation(s) for chat.
   name: Interfaze Chat API
   slug: interfaze-chat-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Interfaze Chat API
+  slug: open-interfaze-chat-api
 common:
 - group: other
   title: ''
@@ -172,7 +179,7 @@ overview: 'Interfaze publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Interfaze''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 21 more developer resources.'
-random_paper: 8
+random_paper: 74
 score:
   band: developing
   composite: 49.8
@@ -196,7 +203,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/screenshots/interfaze-2026-07-25T222700.png
 security:

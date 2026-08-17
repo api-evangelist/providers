@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: General data upload endpoints.
   name: The Climate Corporation Uploads API
   slug: the-climate-corporation-uploads-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Climate FieldView Platform APIs Boundaries API
+  slug: open-the-climate-corporation-boundaries-api
+- collection_type: open
+  name: Climate FieldView Platform APIs Boundaries Exports API
+  slug: open-the-climate-corporation-exports-api
+- collection_type: open
+  name: Climate FieldView Platform APIs Boundaries FarmOrganizations API
+  slug: open-the-climate-corporation-farmorganizations-api
+- collection_type: open
+  name: Climate FieldView Platform APIs Boundaries Fields API
+  slug: open-the-climate-corporation-fields-api
+- collection_type: open
+  name: Climate FieldView Platform APIs Boundaries Layers API
+  slug: open-the-climate-corporation-layers-api
+- collection_type: open
+  name: Climate FieldView Platform APIs Boundaries Operations API
+  slug: open-the-climate-corporation-operations-api
+- collection_type: open
+  name: Climate FieldView Platform APIs Boundaries ResourceOwners API
+  slug: open-the-climate-corporation-resourceowners-api
+- collection_type: open
+  name: Climate FieldView Platform APIs Boundaries Uploads API
+  slug: open-the-climate-corporation-uploads-api
 common:
 - group: other
   title: ''
@@ -168,7 +196,7 @@ overview: 'The Climate Corporation publishes 8 APIs on the [APIs.io](https://api
 
 
   The Climate Corporation''s developer surface includes documentation, API reference, signup flow, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 66
+random_paper: 111
 scopes:
 - name: The Climate Corporation Scopes
   scope_count: 24
@@ -197,7 +225,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

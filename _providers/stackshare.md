@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The StackShare GraphQL API provides programmatic access to StackShare''s database of developer tools and company tech stacks. It exposes four primary capability areas: Leads (find companies using speci'
@@ -139,7 +139,7 @@ plans:
 - name: Stackshare Plans Pricing
   plan_count: 3
   slug: stackshare-plans-pricing
-random_paper: 105
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Stackshare Rate Limits
@@ -166,7 +166,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 36.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

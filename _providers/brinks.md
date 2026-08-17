@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The 24SEVEN ACCESS customer portal enables businesses to digitally manage Brink's cash management services including tracking cash deposits, ordering change, and monitoring operations through mobile d
@@ -93,7 +93,7 @@ press:
 - date: '2026-05-25'
   title: Brink's Delivers Strong Second-Quarter Results Exceeding ...
   url: https://investors.brinks.com/news-releases/news-release-details/brinks-delivers-strong-second-quarter-results-exceeding-top-end/
-random_paper: 49
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Brinks Rate Limits
@@ -111,7 +111,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 9.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/screenshots/brinks-2026-06-20T173710.png
 security:

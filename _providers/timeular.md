@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -71,11 +71,48 @@ apis:
 - description: The Webhooks API from Timeular — 3 operation(s) for webhooks.
   name: Timeular Webhooks API
   slug: timeular-webhooks-api
-artifact_total: 16
+artifact_total: 28
 asyncapis:
 - description: Event surface derived from the EARLY (Timeular) public webhook API. Consumers subscribe a publicly reachable HTTPS target URL to a named event via POST /api/v4/webhooks/subscription; EARLY delivers th
   name: EARLY (Timeular) Webhooks
   slug: timeular-early-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EARLY (Timeular) Public Activities API
+  slug: open-timeular-activities-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Authentication API
+  slug: open-timeular-authentication-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Current Tracking API
+  slug: open-timeular-current-tracking-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Folders API
+  slug: open-timeular-folders-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Leaves API
+  slug: open-timeular-leaves-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Members API
+  slug: open-timeular-members-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Reports API
+  slug: open-timeular-reports-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Tags & Mentions API
+  slug: open-timeular-tags-mentions-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Time Entries API
+  slug: open-timeular-time-entries-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Users API
+  slug: open-timeular-users-api
+- collection_type: open
+  name: EARLY (Timeular) Public Activities Webhooks API
+  slug: open-timeular-webhooks-api
 common:
 - group: other
   title: ''
@@ -176,7 +213,7 @@ overview: 'Timeular publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Timeular''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 27
+random_paper: 122
 score:
   band: developing
   composite: 44.7
@@ -200,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

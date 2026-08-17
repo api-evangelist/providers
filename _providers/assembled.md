@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -166,7 +166,7 @@ arazzos:
 - description: Confirm an agent exists, push a batch of state records, then read back the condensed timeline.
   name: Assembled Stream and Verify Agent State
   slug: assembled-stream-agent-state-workflow
-artifact_total: 106
+artifact_total: 126
 collections:
 - collection_type: postman
   name: Assembled Activities API
@@ -205,41 +205,101 @@ collections:
   name: Assembled Time Off API
   slug: postman-assembled-time-off-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Assembled Activities API
   slug: open-assembled-activities-api
 - collection_type: open
-  name: Assembled Agent State API
+  name: Assembled Activities Activity Types API
+  slug: open-assembled-activity-types-api
+- collection_type: open
+  name: Assembled Activities Agent Associations API
+  slug: open-assembled-agent-associations-api
+- collection_type: open
+  name: Assembled Activities Agent State API
   slug: open-assembled-agent-state-api
 - collection_type: open
   name: Assembled Assist API
   slug: open-assembled-assist-api
 - collection_type: open
-  name: Assembled Conversations API
+  name: Assembled Activities Assist Articles API
+  slug: open-assembled-assist-articles-api
+- collection_type: open
+  name: Assembled Activities Assist Conversations API
+  slug: open-assembled-assist-conversations-api
+- collection_type: open
+  name: Assembled Activities Assist Replies API
+  slug: open-assembled-assist-replies-api
+- collection_type: open
+  name: Assembled Activities Assist Responses API
+  slug: open-assembled-assist-responses-api
+- collection_type: open
+  name: Assembled Activities Conversations API
   slug: open-assembled-conversations-api
+- collection_type: open
+  name: Assembled Activities Event Changes API
+  slug: open-assembled-event-changes-api
 - collection_type: open
   name: Assembled Filters API
   slug: open-assembled-filters-api
 - collection_type: open
-  name: Assembled Forecasts API
+  name: Assembled Activities Forecast Adjustments API
+  slug: open-assembled-forecast-adjustments-api
+- collection_type: open
+  name: Assembled Activities Forecast Outliers API
+  slug: open-assembled-forecast-outliers-api
+- collection_type: open
+  name: Assembled Activities Forecast Totals API
+  slug: open-assembled-forecast-totals-api
+- collection_type: open
+  name: Assembled Activities Forecasts API
   slug: open-assembled-forecasts-api
 - collection_type: open
-  name: Assembled People API
+  name: Assembled Activities Forecasts Vs Actuals API
+  slug: open-assembled-forecasts-vs-actuals-api
+- collection_type: open
+  name: Assembled Activities People API
   slug: open-assembled-people-api
 - collection_type: open
   name: Assembled QA API
   slug: open-assembled-qa-api
 - collection_type: open
-  name: Assembled Reports API
+  name: Assembled Activities Quality Assurance API
+  slug: open-assembled-quality-assurance-api
+- collection_type: open
+  name: Assembled Activities Queues API
+  slug: open-assembled-queues-api
+- collection_type: open
+  name: Assembled Activities Reports API
   slug: open-assembled-reports-api
 - collection_type: open
-  name: Assembled Requirements API
+  name: Assembled Activities Requirement Types API
+  slug: open-assembled-requirement-types-api
+- collection_type: open
+  name: Assembled Activities Requirements API
   slug: open-assembled-requirements-api
+- collection_type: open
+  name: Assembled Activities Roles API
+  slug: open-assembled-roles-api
 - collection_type: open
   name: Assembled Scheduling Rules API
   slug: open-assembled-scheduling-rules-api
 - collection_type: open
-  name: Assembled Time Off API
+  name: Assembled Activities Sites API
+  slug: open-assembled-sites-api
+- collection_type: open
+  name: Assembled Activities Skills API
+  slug: open-assembled-skills-api
+- collection_type: open
+  name: Assembled Activities Teams API
+  slug: open-assembled-teams-api
+- collection_type: open
+  name: Assembled Activities Time Off API
   slug: open-assembled-time-off-api
+- collection_type: open
+  name: Assembled Activities Working Hours API
+  slug: open-assembled-working-hours-api
 common:
 - group: agent
   title: ''
@@ -544,7 +604,7 @@ plans:
 - name: Assembled Plans Pricing
   plan_count: 6
   slug: assembled-plans-pricing
-random_paper: 104
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Assembled Rate Limits
@@ -586,7 +646,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/screenshots/assembled-2026-06-20T172502.png
 security:

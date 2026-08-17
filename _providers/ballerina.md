@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,11 +47,23 @@ apis:
 - description: The Packages API from Ballerina — 5 operation(s) for packages.
   name: Ballerina Packages API
   slug: ballerina-packages-api
-artifact_total: 78
+artifact_total: 82
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Ballerina Central API
   slug: open-ballerina-central-api
+- collection_type: open
+  name: Ballerina Central Connectors API
+  slug: open-ballerina-connectors-api
+- collection_type: open
+  name: Ballerina Central Connectors Organizations API
+  slug: open-ballerina-organizations-api
+- collection_type: open
+  name: Ballerina Central Connectors Packages API
+  slug: open-ballerina-packages-api
 common:
 - group: agent
   title: ''
@@ -286,7 +298,7 @@ plans:
 - name: Ballerina Plans Pricing
   plan_count: 3
   slug: ballerina-plans-pricing
-random_paper: 98
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Ballerina Rate Limits
@@ -328,7 +340,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/screenshots/ballerina-2026-06-20T172929.png
 security:

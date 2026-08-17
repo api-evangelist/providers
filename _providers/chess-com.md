@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,11 +68,44 @@ apis:
 - description: Tournament details, rounds, and groups
   name: Chess.com Tournaments API
   slug: chess-com-tournaments-api
-artifact_total: 27
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chess.com Published Data Clubs API
+  slug: open-chess-com-clubs-api
+- collection_type: open
+  name: Chess.com Published Data Clubs Countries API
+  slug: open-chess-com-countries-api
+- collection_type: open
+  name: Chess.com Published Data Clubs Games API
+  slug: open-chess-com-games-api
+- collection_type: open
+  name: Chess.com Published Data Clubs Leaderboards API
+  slug: open-chess-com-leaderboards-api
+- collection_type: open
+  name: Chess.com Published Data Clubs Matches API
+  slug: open-chess-com-matches-api
+- collection_type: open
+  name: Chess.com Published Data Clubs Players API
+  slug: open-chess-com-players-api
 - collection_type: open
   name: Chess.com Published Data API
   slug: open-chess-com-published-data-api
+- collection_type: open
+  name: Chess.com Published Data Clubs Puzzles API
+  slug: open-chess-com-puzzles-api
+- collection_type: open
+  name: Chess.com Published Data Clubs Streamers API
+  slug: open-chess-com-streamers-api
+- collection_type: open
+  name: Chess.com Published Data Clubs Titled Players API
+  slug: open-chess-com-titled-players-api
+- collection_type: open
+  name: Chess.com Published Data Clubs Tournaments API
+  slug: open-chess-com-tournaments-api
 common:
 - group: agent
   title: ''
@@ -249,7 +282,7 @@ plans:
 - name: Chess Com Plans Pricing
   plan_count: 5
   slug: chess-com-plans-pricing
-random_paper: 58
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Chess Com Rate Limits
@@ -291,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/screenshots/chess-com-2026-06-20T174300.png
 security:

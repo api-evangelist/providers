@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The PipelineTemplateDefinitions API from Azure DevOps — 1 operation(s) for pipelinetemplatedefinitions.
   name: Azure DevOps PipelineTemplateDefinitions API
   slug: azure-dev-ops-pipelinetemplatedefinitions-api
-artifact_total: 62
+artifact_total: 66
 collections:
 - collection_type: postman
   name: Azure DevOps Operations API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Azure DevOps Operations PipelineTemplateDefinitions API
   slug: postman-azure-dev-ops-pipelinetemplatedefinitions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure DevOps Operations API
+  slug: open-azure-dev-ops-operations-api
+- collection_type: open
+  name: Azure DevOps Operations Pipelines API
+  slug: open-azure-dev-ops-pipelines-api
+- collection_type: open
+  name: Azure DevOps Operations PipelineTemplateDefinitions API
+  slug: open-azure-dev-ops-pipelinetemplatedefinitions-api
 common:
 - group: agent
   title: ''
@@ -310,7 +322,7 @@ plans:
 - name: Azure Dev Ops Plans Pricing
   plan_count: 3
   slug: azure-dev-ops-plans-pricing
-random_paper: 98
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Azure Dev Ops Rate Limits
@@ -357,7 +369,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/screenshots/azure-dev-ops-2026-06-20T172849.png
 security:

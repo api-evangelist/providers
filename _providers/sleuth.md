@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,8 +54,20 @@ apis:
 - description: The Manual Changes API from Sleuth — 1 operation(s) for manual changes.
   name: Sleuth Manual Changes API
   slug: sleuth-manual-changes-api
-artifact_total: 13
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sleuth Deployment & Impact Registration Deployments API
+  slug: open-sleuth-deployments-api
+- collection_type: open
+  name: Sleuth Deployment & Registration Deployments Impact API
+  slug: open-sleuth-impact-api
+- collection_type: open
+  name: Sleuth Deployment & Impact Registration Deployments Manual Changes API
+  slug: open-sleuth-manual-changes-api
 - collection_type: open
   name: Sleuth Deployment & Impact Registration API
   slug: open-sleuth
@@ -124,7 +136,7 @@ plans:
 - name: Sleuth Plans Pricing
   plan_count: 3
   slug: sleuth-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Sleuth Rate Limits
@@ -149,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

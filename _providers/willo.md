@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Notifications posted to a third-party endpoint on new response, stage change, new comment, or new score.
   name: Willo Webhooks API
   slug: willo-webhooks-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Willo Integration API V2 Child Organisations API
+  slug: open-willo-child-organisations-api
+- collection_type: open
+  name: Willo Integration API V2 Child Organisations Departments API
+  slug: open-willo-departments-api
+- collection_type: open
+  name: Willo Integration API V2 Child Organisations Interview Templates API
+  slug: open-willo-interview-templates-api
+- collection_type: open
+  name: Willo Integration API V2 Child Organisations Interviews API
+  slug: open-willo-interviews-api
+- collection_type: open
+  name: Willo Integration API V2 Child Organisations Message Templates API
+  slug: open-willo-message-templates-api
+- collection_type: open
+  name: Willo Integration API V2 Child Organisations Participants API
+  slug: open-willo-participants-api
+- collection_type: open
+  name: Willo Integration API V2 Child Organisations Reference API
+  slug: open-willo-reference-api
+- collection_type: open
+  name: Willo Integration API V2 Child Organisations Users API
+  slug: open-willo-users-api
+- collection_type: open
+  name: Willo Integration API V2 Child Organisations Webhooks API
+  slug: open-willo-webhooks-api
 - collection_type: open
   name: Willo Integration API V2
   slug: open-willo
@@ -156,7 +186,7 @@ plans:
 - name: Willo Plans Pricing
   plan_count: 4
   slug: willo-plans-pricing
-random_paper: 71
+random_paper: 104
 rate_limits:
 - limit_count: 4
   name: Willo Rate Limits
@@ -181,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

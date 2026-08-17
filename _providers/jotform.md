@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -69,12 +69,39 @@ apis:
 - description: The Webhook API from Jotform — 2 operation(s) for webhook.
   name: Jotform Webhook API
   slug: jotform-webhook-api
-artifact_total: 20
+artifact_total: 29
 asyncapis:
 - description: AsyncAPI definition for Jotform's webhook surface. Jotform delivers a POST request to a configured webhook URL each time a form receives a submission. The request body is sent as multipart/form-data a
   name: Jotform Webhooks AsyncAPI
   slug: jotform-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jotform REST Folder API
+  slug: open-jotform-folder-api
+- collection_type: open
+  name: Jotform REST Folder Form API
+  slug: open-jotform-form-api
+- collection_type: open
+  name: Jotform REST Folder Label API
+  slug: open-jotform-label-api
+- collection_type: open
+  name: Jotform REST Folder Report API
+  slug: open-jotform-report-api
+- collection_type: open
+  name: Jotform REST Folder Submission API
+  slug: open-jotform-submission-api
+- collection_type: open
+  name: Jotform REST Folder System API
+  slug: open-jotform-system-api
+- collection_type: open
+  name: Jotform REST Folder User API
+  slug: open-jotform-user-api
+- collection_type: open
+  name: Jotform REST Folder Webhook API
+  slug: open-jotform-webhook-api
 - collection_type: open
   name: Jotform REST API
   slug: open-jotform
@@ -158,7 +185,7 @@ plans:
 - name: Jotform Plans Pricing
   plan_count: 5
   slug: jotform-plans-pricing
-random_paper: 49
+random_paper: 24
 rate_limits:
 - limit_count: 9
   name: Jotform Rate Limits
@@ -192,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/screenshots/jotform-2026-06-20T183806.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -99,11 +99,75 @@ apis:
 - description: The Workspaces API from Dyspatch — 2 operation(s) for workspaces.
   name: Dyspatch Workspaces API
   slug: dyspatch-workspaces-api
-artifact_total: 26
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Dyspatch Webhooks
   slug: dyspatch-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dyspatch Blocks API
+  slug: open-dyspatch-blocks-api
+- collection_type: open
+  name: Dyspatch Blocks Customer Profiles API
+  slug: open-dyspatch-customer-profiles-api
+- collection_type: open
+  name: Dyspatch Blocks Drafts API
+  slug: open-dyspatch-drafts-api
+- collection_type: open
+  name: Dyspatch Blocks Live Activity Drafts API
+  slug: open-dyspatch-live-activity-drafts-api
+- collection_type: open
+  name: Dyspatch Blocks Live Activity Localizations API
+  slug: open-dyspatch-live-activity-localizations-api
+- collection_type: open
+  name: Dyspatch Blocks Live Activity Templates API
+  slug: open-dyspatch-live-activity-templates-api
+- collection_type: open
+  name: Dyspatch Blocks Localizations API
+  slug: open-dyspatch-localizations-api
+- collection_type: open
+  name: Dyspatch Blocks Push Drafts API
+  slug: open-dyspatch-push-drafts-api
+- collection_type: open
+  name: Dyspatch Blocks Push Localizations API
+  slug: open-dyspatch-push-localizations-api
+- collection_type: open
+  name: Dyspatch Blocks Push Templates API
+  slug: open-dyspatch-push-templates-api
+- collection_type: open
+  name: Dyspatch Blocks SMS Drafts API
+  slug: open-dyspatch-sms-drafts-api
+- collection_type: open
+  name: Dyspatch Blocks SMS Localizations API
+  slug: open-dyspatch-sms-localizations-api
+- collection_type: open
+  name: Dyspatch Blocks SMS Templates API
+  slug: open-dyspatch-sms-templates-api
+- collection_type: open
+  name: Dyspatch Blocks Tags API
+  slug: open-dyspatch-tags-api
+- collection_type: open
+  name: Dyspatch Blocks Templates API
+  slug: open-dyspatch-templates-api
+- collection_type: open
+  name: Dyspatch Blocks Themes API
+  slug: open-dyspatch-themes-api
+- collection_type: open
+  name: Dyspatch Blocks Voice Drafts API
+  slug: open-dyspatch-voice-drafts-api
+- collection_type: open
+  name: Dyspatch Blocks Voice Localizations API
+  slug: open-dyspatch-voice-localizations-api
+- collection_type: open
+  name: Dyspatch Blocks Voice Templates API
+  slug: open-dyspatch-voice-templates-api
+- collection_type: open
+  name: Dyspatch Blocks Workspaces API
+  slug: open-dyspatch-workspaces-api
 common:
 - group: start
   title: ''
@@ -201,6 +265,10 @@ common:
   title: ''
   type: MCPServer
   url: mcp/dyspatch-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/dyspatch-tool-crosswalk.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -209,6 +277,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/dyspatch-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dyspatch-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dyspatch-rate-limits.yml
 - group: design
   title: ''
   type: Webhooks
@@ -217,10 +293,6 @@ common:
   title: ''
   type: SecurityTxt
   url: well-known/dyspatch-security.txt
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/dyspatch-well-known.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -245,7 +317,7 @@ mcp_servers:
 - description: ''
   name: dyspatch-mcp.yml
   slug: dyspatch-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Dyspatch
 nav: Providers
 network: true
@@ -255,14 +327,22 @@ overview: 'Dyspatch publishes 20 APIs on the [APIs.io](https://apis.io/) network
   The Dyspatch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dyspatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 24
+  Dyspatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
+plans:
+- name: Dyspatch Plans Pricing
+  plan_count: 3
+  slug: dyspatch-plans-pricing
+random_paper: 119
+rate_limits:
+- limit_count: 0
+  name: Dyspatch Rate Limits
+  slug: dyspatch-rate-limits
 score:
-  band: developing
-  composite: 55.0
-  delta: 0.0
+  band: strong
+  composite: 60.3
+  delta: 5.3
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 70.4
     developer_ergonomics: 69.0
     discoverability: 81.5
@@ -286,8 +366,8 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/screenshots/dyspatch-2026-07-25T212608.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,12 +63,33 @@ apis:
 - description: The Video API from Luma AI — 3 operation(s) for video.
   name: Luma AI Video API
   slug: luma-ai-video-api
-artifact_total: 17
+artifact_total: 24
 asyncapis:
 - description: Server-to-server callback delivered by the Luma Dream Machine API when an asynchronous generation transitions between states. Luma POSTs a JSON document carrying the `Generation` object to a customer-
   name: Luma Dream Machine API Callback
   slug: luma-ai-callback-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Luma Dream Machine Concepts API
+  slug: open-luma-ai-concepts-api
+- collection_type: open
+  name: Luma Dream Machine Concepts Credits API
+  slug: open-luma-ai-credits-api
+- collection_type: open
+  name: Luma Dream Machine Concepts Generations API
+  slug: open-luma-ai-generations-api
+- collection_type: open
+  name: Luma Dream Machine Concepts Image API
+  slug: open-luma-ai-image-api
+- collection_type: open
+  name: Luma Dream Machine Concepts System API
+  slug: open-luma-ai-system-api
+- collection_type: open
+  name: Luma Dream Machine Concepts Video API
+  slug: open-luma-ai-video-api
 - collection_type: open
   name: Luma Dream Machine API
   slug: open-luma-ai
@@ -140,7 +161,7 @@ plans:
 - name: Luma Ai Plans Pricing
   plan_count: 3
   slug: luma-ai-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Luma Ai Rate Limits
@@ -174,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/screenshots/luma-ai-2026-06-20T184752.png
 security:

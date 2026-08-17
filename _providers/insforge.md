@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Admin API from Insforge — 54 operation(s) for admin.
@@ -64,7 +64,44 @@ apis:
 - description: Stripe Checkout, Billing Portal, catalog, sync, customer, subscription, and transaction routes
   name: Insforge Stripe Payments API
   slug: insforge-stripe-payments-api
-artifact_total: 16
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Insforge AI Admin API
+  slug: open-insforge-admin-api
+- collection_type: open
+  name: Insforge AI Admin Channels API
+  slug: open-insforge-channels-api
+- collection_type: open
+  name: Insforge AI Admin Client API
+  slug: open-insforge-client-api
+- collection_type: open
+  name: Insforge AI Admin Configuration API
+  slug: open-insforge-configuration-api
+- collection_type: open
+  name: Insforge AI Admin Messages API
+  slug: open-insforge-messages-api
+- collection_type: open
+  name: Insforge AI Admin Payment Webhooks API
+  slug: open-insforge-payment-webhooks-api
+- collection_type: open
+  name: Insforge AI Admin Permissions API
+  slug: open-insforge-permissions-api
+- collection_type: open
+  name: Insforge AI Admin Razorpay Payments API
+  slug: open-insforge-razorpay-payments-api
+- collection_type: open
+  name: Insforge AI Admin S3 Access Keys API
+  slug: open-insforge-s3-access-keys-api
+- collection_type: open
+  name: Insforge AI Admin S3 Protocol API
+  slug: open-insforge-s3-protocol-api
+- collection_type: open
+  name: Insforge AI Admin Stripe Payments API
+  slug: open-insforge-stripe-payments-api
 common:
 - group: other
   title: ''
@@ -218,7 +255,7 @@ overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
-random_paper: 21
+random_paper: 116
 scopes:
 - name: Insforge Scopes
   scope_count: 11
@@ -252,7 +289,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:

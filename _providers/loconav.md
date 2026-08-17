@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: <p>With our Alert subscription APIs, you can manage the alerts effectively on a platform</p>
@@ -67,7 +67,7 @@ apis:
 - description: The Video Telematics VT / Videos API from LocoNav — 2 operation(s) for video telematics vt / videos.
   name: LocoNav Video Telematics VT / Videos API
   slug: loconav-video-telematics-vt-videos-api
-artifact_total: 18
+artifact_total: 31
 asyncapis:
 - description: AsyncAPI description of LocoNav alert and live-location webhooks derived from the published Postman webhook examples. LocoNav POSTs these events to a partner-registered receiver URL.
   name: LocoNav Webhooks
@@ -75,6 +75,46 @@ asyncapis:
 - description: ''
   name: Loconav Webhooks
   slug: loconav-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions API
+  slug: open-loconav-alert-subscriptions-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Alerts API
+  slug: open-loconav-alerts-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Alerts Subscriptions API
+  slug: open-loconav-alerts-subscriptions-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Drivers API
+  slug: open-loconav-drivers-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Mobilization API
+  slug: open-loconav-mobilization-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Polygon (Geofence) API
+  slug: open-loconav-polygon-geofence-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Trips API
+  slug: open-loconav-trips-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Users API
+  slug: open-loconav-users-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Vehicles API
+  slug: open-loconav-vehicles-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Vehicles / Telematics API
+  slug: open-loconav-vehicles-telematics-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Video Telematics VT / Live Stream API
+  slug: open-loconav-video-telematics-vt-live-stream-api
+- collection_type: open
+  name: LocoNav Integration Alert Subscriptions Video Telematics VT / Videos API
+  slug: open-loconav-video-telematics-vt-videos-api
 common:
 - group: other
   title: ''
@@ -187,7 +227,7 @@ overview: 'LocoNav publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LocoNav''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Loconav Rate Limits
@@ -214,7 +254,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png
 security:

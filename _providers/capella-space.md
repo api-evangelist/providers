@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,8 +66,29 @@ apis:
 - description: The Tiles API from Capella Space — 1 operation(s) for tiles.
   name: Capella Space Tiles API
   slug: capella-space-tiles-api
-artifact_total: 31
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Capella Space Collects API
+  slug: open-capella-space-collects-api
+- collection_type: open
+  name: Capella Space Collects Keys API
+  slug: open-capella-space-keys-api
+- collection_type: open
+  name: Capella Space Collects Orders API
+  slug: open-capella-space-orders-api
+- collection_type: open
+  name: Capella Space Collects RepeatRequests API
+  slug: open-capella-space-repeatrequests-api
+- collection_type: open
+  name: Capella Space Collects Tasking API
+  slug: open-capella-space-tasking-api
+- collection_type: open
+  name: Capella Space Collects Tiles API
+  slug: open-capella-space-tiles-api
 - collection_type: open
   name: Capella Space API
   slug: open-capella-space
@@ -214,7 +235,7 @@ plans:
 - name: Capella Space Plans Pricing
   plan_count: 1
   slug: capella-space-plans-pricing
-random_paper: 91
+random_paper: 99
 rate_limits:
 - limit_count: 2
   name: Capella Space Rate Limits
@@ -239,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/screenshots/capella-space-2026-06-20T173938.png
 security:

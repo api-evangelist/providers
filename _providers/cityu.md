@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 1
@@ -144,7 +144,110 @@ apis:
 - description: The user API from City University of Hong Kong — 7 operation(s) for user.
   name: City University of Hong Kong user API
   slug: cityu-user-api
-artifact_total: 52
+artifact_total: 86
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-cityu-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-cityu-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-cityu-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-cityu-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-cityu-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-cityu-concept-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-cityu-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-cityu-dataset-api
+- collection_type: open
+  name: Pure activity education API
+  slug: open-cityu-education-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-cityu-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-cityu-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-cityu-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-cityu-externalperson-api
+- collection_type: open
+  name: Pure activity fingerprint API
+  slug: open-cityu-fingerprint-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-cityu-fundingopportunity-api
+- collection_type: open
+  name: Pure activity impact API
+  slug: open-cityu-impact-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-cityu-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-cityu-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity milestone API
+  slug: open-cityu-milestone-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-cityu-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-cityu-person-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-cityu-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-cityu-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-cityu-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-cityu-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-cityu-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-cityu-role-api
+- collection_type: open
+  name: Pure activity semester API
+  slug: open-cityu-semester-api
+- collection_type: open
+  name: Pure activity specialization API
+  slug: open-cityu-specialization-api
+- collection_type: open
+  name: Pure activity studentProject API
+  slug: open-cityu-studentproject-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-cityu-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-cityu-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-cityu-user-api
 common:
 - group: agent
   title: ''
@@ -245,7 +348,7 @@ plans:
 - name: Cityu Plans Pricing
   plan_count: 2
   slug: cityu-plans-pricing
-random_paper: 78
+random_paper: 111
 rate_limits:
 - limit_count: 1
   name: Cityu Rate Limits
@@ -287,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/screenshots/cityu-2026-06-20T174434.png
 security:

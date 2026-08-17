@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: The Recalls API from Consumer Product Safety Commission — 1 operation(s) for recalls.
   name: Consumer Product Safety Commission Recalls API
   slug: consumer-product-safety-commission-recalls-api
-artifact_total: 12
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CPSC Recalls API
+  slug: open-consumer-product-safety-commission-recalls-api
 - collection_type: open
   name: CPSC Recalls API
   slug: open-cpsc-recalls
@@ -131,7 +137,7 @@ plans:
 - name: Consumer Product Safety Commission Plans Pricing
   plan_count: 3
   slug: consumer-product-safety-commission-plans-pricing
-random_paper: 41
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Consumer Product Safety Commission Rate Limits
@@ -179,7 +185,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/screenshots/consumer-product-safety-commission-2026-06-20T174919.png
 security:

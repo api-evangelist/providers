@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -128,7 +128,7 @@ overview: 'Saul Ewing LLP is profiled on the [APIs.io](https://apis.io/) network
 
 
   Saul Ewing LLP''s developer surface includes product news, engineering blog, GitHub presence, and 18 more developer resources.'
-random_paper: 60
+random_paper: 126
 score:
   band: minimal
   composite: 5.9
@@ -148,7 +148,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saul-ewing/refs/heads/main/screenshots/saul-ewing-2026-06-20T193440.png
 security:

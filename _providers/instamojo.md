@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Create and retrieve refunds
   name: Instamojo Refunds API
   slug: instamojo-refunds-api
-artifact_total: 18
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Instamojo Payments Authentication API
+  slug: open-instamojo-authentication-api
+- collection_type: open
+  name: Instamojo Payments Authentication Orders API
+  slug: open-instamojo-orders-api
+- collection_type: open
+  name: Instamojo Payments Authentication Payment Requests API
+  slug: open-instamojo-payment-requests-api
+- collection_type: open
+  name: Instamojo Authentication Payments API
+  slug: open-instamojo-payments-api
+- collection_type: open
+  name: Instamojo Payments Authentication Refunds API
+  slug: open-instamojo-refunds-api
 common:
 - group: agent
   title: ''
@@ -153,7 +172,7 @@ plans:
 - name: Instamojo Plans Pricing
   plan_count: 8
   slug: instamojo-plans-pricing
-random_paper: 20
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Instamojo Rate Limits
@@ -193,7 +212,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/screenshots/instamojo-2026-06-20T183413.png
 security:

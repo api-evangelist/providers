@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -57,7 +57,7 @@ apis:
 - description: DigiKYC - identity verification via CKYC, KRA, DigiLocker, and offline Aadhaar.
   name: Digio KYC API
   slug: digio-kyc-api
-artifact_total: 20
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Digio Webhooks
@@ -75,6 +75,21 @@ collections:
 - collection_type: postman
   name: Digio Documents KYC API
   slug: postman-digio-kyc-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Digio Documents API
+  slug: open-digio-documents-api
+- collection_type: open
+  name: Digio Documents eMandate API
+  slug: open-digio-emandate-api
+- collection_type: open
+  name: Digio Documents eSign API
+  slug: open-digio-esign-api
+- collection_type: open
+  name: Digio Documents KYC API
+  slug: open-digio-kyc-api
 common:
 - group: build
   title: ''
@@ -243,7 +258,7 @@ plans:
 - name: Digio Plans Pricing
   plan_count: 1
   slug: digio-plans-pricing
-random_paper: 44
+random_paper: 77
 rate_limits:
 - limit_count: 3
   name: Digio Rate Limits
@@ -271,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png
 security:

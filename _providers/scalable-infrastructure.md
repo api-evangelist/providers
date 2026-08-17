@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -48,8 +48,14 @@ apis:
 - description: The EC2 API from Scalable Infrastructure — 1 operation(s) for ec2.
   name: Scalable Infrastructure EC2 API
   slug: scalable-infrastructure-ec2-api
-artifact_total: 17
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EC2 API
+  slug: open-scalable-infrastructure-ec2-api
 - collection_type: open
   name: Amazon EC2 API
   slug: open-scalable-infrastructure
@@ -139,7 +145,7 @@ plans:
 - name: Scalable Infrastructure Plans Pricing
   plan_count: 3
   slug: scalable-infrastructure-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Scalable Infrastructure Rate Limits
@@ -173,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-infrastructure/refs/heads/main/screenshots/scalable-infrastructure-2026-06-20T193459.png
 security:

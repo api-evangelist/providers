@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -128,11 +128,104 @@ apis:
 - description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: CAMARA Project Unconditional Call Forwarding information retrieval API
   slug: camara-project-unconditional-call-forwarding-information-retrieval-api
-artifact_total: 67
+artifact_total: 98
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Call Forwarding Signal
   slug: open-call-forwarding-signal
+- collection_type: open
+  name: Call Forwarding Signal Age Verification API
+  slug: open-camara-project-age-verification-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Call Forwarding information retrieval API
+  slug: open-camara-project-call-forwarding-information-retrieval-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Check Device Swap API
+  slug: open-camara-project-check-device-swap-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Check SIM swap API
+  slug: open-camara-project-check-sim-swap-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Connected Network Type API
+  slug: open-camara-project-connected-network-type-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Device reachability status API
+  slug: open-camara-project-device-reachability-status-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Discovery API
+  slug: open-camara-project-discovery-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Fill-in API
+  slug: open-camara-project-fill-in-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Geofencing subscriptions API
+  slug: open-camara-project-geofencing-subscriptions-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Home Devices QoD API
+  slug: open-camara-project-home-devices-qod-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Location retrieval API
+  slug: open-camara-project-location-retrieval-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Location verification API
+  slug: open-camara-project-location-verification-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Match API
+  slug: open-camara-project-match-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Network Quality API
+  slug: open-camara-project-network-quality-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification One Step Payment API
+  slug: open-camara-project-one-step-payment-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification OTP Management API
+  slug: open-camara-project-otp-management-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Payment API
+  slug: open-camara-project-payment-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Phone number share API
+  slug: open-camara-project-phone-number-share-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Phone number verify API
+  slug: open-camara-project-phone-number-verify-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Population Density Data API
+  slug: open-camara-project-population-density-data-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification QoS Assignment API
+  slug: open-camara-project-qos-assignment-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification QoS Profiles API
+  slug: open-camara-project-qos-profiles-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification QoS Sessions API
+  slug: open-camara-project-qos-sessions-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Retrieve Device Swap Date API
+  slug: open-camara-project-retrieve-device-swap-date-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Retrieve SIM swap date API
+  slug: open-camara-project-retrieve-sim-swap-date-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Roaming status retrieval API
+  slug: open-camara-project-roaming-status-retrieval-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Send SMS API
+  slug: open-camara-project-send-sms-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Sim Swap Subscription API
+  slug: open-camara-project-sim-swap-subscription-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Two Step Payment API
+  slug: open-camara-project-two-step-payment-api
+- collection_type: open
+  name: Call Forwarding Signal Age Verification Unconditional Call Forwarding information retrieval API
+  slug: open-camara-project-unconditional-call-forwarding-information-retrieval-api
 - collection_type: open
   name: Carrier Billing
   slug: open-carrier-billing
@@ -406,7 +499,7 @@ overview: 'CAMARA Project publishes 30 APIs on the [APIs.io](https://apis.io/) n
 
 
   CAMARA Project''s developer surface includes authentication, developer portal, documentation, engineering blog, product news, and 40 more developer resources.'
-random_paper: 97
+random_paper: 76
 score:
   band: emerging
   composite: 25.8
@@ -433,7 +526,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/screenshots/camara-project-2026-06-20T173902.png
 security:

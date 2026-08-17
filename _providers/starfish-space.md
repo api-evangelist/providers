@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -134,7 +134,116 @@ apis:
 - description: wp_pattern_category routes.
   name: Starfish Space Wp Pattern Category API
   slug: starfish-space-wp-pattern-category-api
-artifact_total: 51
+artifact_total: 87
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Block Directory API
+  slug: open-starfish-space-block-directory-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Block Patterns API
+  slug: open-starfish-space-block-patterns-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Block Renderer API
+  slug: open-starfish-space-block-renderer-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Block Types API
+  slug: open-starfish-space-block-types-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Blocks API
+  slug: open-starfish-space-blocks-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Categories API
+  slug: open-starfish-space-categories-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Comments API
+  slug: open-starfish-space-comments-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Font Collections API
+  slug: open-starfish-space-font-collections-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Font Families API
+  slug: open-starfish-space-font-families-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Global Styles API
+  slug: open-starfish-space-global-styles-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Icons API
+  slug: open-starfish-space-icons-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Media API
+  slug: open-starfish-space-media-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Menu Items API
+  slug: open-starfish-space-menu-items-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Menu Locations API
+  slug: open-starfish-space-menu-locations-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Menus API
+  slug: open-starfish-space-menus-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Navigation API
+  slug: open-starfish-space-navigation-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Pages API
+  slug: open-starfish-space-pages-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Pattern Directory API
+  slug: open-starfish-space-pattern-directory-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Plugins API
+  slug: open-starfish-space-plugins-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Posts API
+  slug: open-starfish-space-posts-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Search API
+  slug: open-starfish-space-search-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Settings API
+  slug: open-starfish-space-settings-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Sidebars API
+  slug: open-starfish-space-sidebars-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Statuses API
+  slug: open-starfish-space-statuses-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Tags API
+  slug: open-starfish-space-tags-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Taxonomies API
+  slug: open-starfish-space-taxonomies-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Template Parts API
+  slug: open-starfish-space-template-parts-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Templates API
+  slug: open-starfish-space-templates-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Themes API
+  slug: open-starfish-space-themes-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Types API
+  slug: open-starfish-space-types-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Users API
+  slug: open-starfish-space-users-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Widget Types API
+  slug: open-starfish-space-widget-types-api
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Widgets API
+  slug: open-starfish-space-widgets-api
+- collection_type: open
+  name: API Collection
+  slug: open-starfish-space-wordpress-routes
+- collection_type: open
+  name: Starfish Space Website Content API (WordPress REST v2) Wp Pattern Category API
+  slug: open-starfish-space-wp-pattern-category-api
 common:
 - group: agent
   title: ''
@@ -282,7 +391,7 @@ overview: 'Starfish Space publishes 34 APIs on the [APIs.io](https://apis.io/) n
 
 
   Starfish Space''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 117
+random_paper: 96
 scopes:
 - name: Starfish Space Scopes
   scope_count: 1
@@ -311,7 +420,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

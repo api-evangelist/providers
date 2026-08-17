@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ arazzos:
 - description: Retrieve the default webhook signing secret, then create a prediction that posts to a webhook.
   name: Replicate Fetch Webhook Secret and Run a Webhook Prediction
   slug: replicate-webhook-secured-predict-workflow
-artifact_total: 73
+artifact_total: 90
 asyncapis:
 - description: 'AsyncAPI definition for Replicate''s event-driven surfaces: - Server-Sent Events (SSE) stream returned for predictions where the model supports streaming output. The stream URL is published by the Pred'
   name: Replicate Streaming and Webhooks API
@@ -128,6 +128,57 @@ collections:
 - collection_type: postman
   name: Replicate
   slug: postman-replicate
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Replicate Accounts API
+  slug: open-replicate-accounts-api
+- collection_type: open
+  name: Replicate Accounts Cancel API
+  slug: open-replicate-cancel-api
+- collection_type: open
+  name: Replicate Accounts Collections API
+  slug: open-replicate-collections-api
+- collection_type: open
+  name: Replicate Accounts Deployments API
+  slug: open-replicate-deployments-api
+- collection_type: open
+  name: Replicate Accounts Hardware API
+  slug: open-replicate-hardware-api
+- collection_type: open
+  name: Replicate Accounts Model API
+  slug: open-replicate-model-api
+- collection_type: open
+  name: Replicate Accounts Models API
+  slug: open-replicate-models-api
+- collection_type: open
+  name: Replicate Accounts Name API
+  slug: open-replicate-name-api
+- collection_type: open
+  name: Replicate Accounts Owner API
+  slug: open-replicate-owner-api
+- collection_type: open
+  name: Replicate Accounts Predictions API
+  slug: open-replicate-predictions-api
+- collection_type: open
+  name: Replicate Accounts Secrets API
+  slug: open-replicate-secrets-api
+- collection_type: open
+  name: Replicate Accounts Slug API
+  slug: open-replicate-slug-api
+- collection_type: open
+  name: Replicate Accounts Training API
+  slug: open-replicate-training-api
+- collection_type: open
+  name: Replicate Accounts Trainings API
+  slug: open-replicate-trainings-api
+- collection_type: open
+  name: Replicate Accounts Version API
+  slug: open-replicate-version-api
+- collection_type: open
+  name: Replicate Accounts Webhooks API
+  slug: open-replicate-webhooks-api
 - collection_type: open
   name: Replicate
   slug: open-replicate
@@ -359,7 +410,7 @@ plans:
 - name: Replicate Plans Pricing
   plan_count: 4
   slug: replicate-plans-pricing
-random_paper: 113
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Replicate Rate Limits
@@ -409,7 +460,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/screenshots/replicate-2026-06-20T192926.png
 security:

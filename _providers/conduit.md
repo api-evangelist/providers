@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -195,7 +195,167 @@ apis:
 - description: The Zora Sepolia 0thyhxtf5e API from Conduit — 1 operation(s) for zora sepolia 0thyhxtf5e.
   name: Conduit Zora Sepolia 0thyhxtf5e API
   slug: conduit-zora-sepolia-0thyhxtf5e-api
-artifact_total: 59
+artifact_total: 112
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 API
+  slug: open-conduit-aevo-mainnet-prod-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Aevo Testnet K1zx5a2ajj API
+  slug: open-conduit-aevo-testnet-k1zx5a2ajj-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Bob Mainnet 0 API
+  slug: open-conduit-bob-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Bob Sepolia Dm6uw0yhh3 API
+  slug: open-conduit-bob-sepolia-dm6uw0yhh3-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Celes 8f2cp9klol API
+  slug: open-conduit-celes-8f2cp9klol-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Chainbounty Wds7p7mqo6 API
+  slug: open-conduit-chainbounty-wds7p7mqo6-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Codex Mainnet 4s9qf7vr0k API
+  slug: open-conduit-codex-mainnet-4s9qf7vr0k-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Codex Testnet Vmc5bxalmp API
+  slug: open-conduit-codex-testnet-vmc5bxalmp-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Conduit Demo Cdk G3 API
+  slug: open-conduit-conduit-demo-cdk-g3-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Cypher Testnet Uvgtmiptr7 API
+  slug: open-conduit-cypher-testnet-uvgtmiptr7-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Dia Lasernet Mainnet N208gs8dc3 API
+  slug: open-conduit-dia-lasernet-mainnet-n208gs8dc3-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Doma Dev Ix58nm4rnd API
+  slug: open-conduit-doma-dev-ix58nm4rnd-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Doma Mainnet Qvzsfv8nv0 API
+  slug: open-conduit-doma-mainnet-qvzsfv8nv0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Dust Mainnet 0 API
+  slug: open-conduit-dust-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Flynet Testnet 3s9g5ptucn API
+  slug: open-conduit-flynet-testnet-3s9g5ptucn-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Flynet U82lq6zgmf API
+  slug: open-conduit-flynet-u82lq6zgmf-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Forknet API
+  slug: open-conduit-forknet-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Gravity Mainnet 0 API
+  slug: open-conduit-gravity-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Hpp Mainnet Xeajiyxsci API
+  slug: open-conduit-hpp-mainnet-xeajiyxsci-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Hpp Sepolia Turdrv0107 API
+  slug: open-conduit-hpp-sepolia-turdrv0107-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Katana API
+  slug: open-conduit-katana-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Katana Bokuto API
+  slug: open-conduit-katana-bokuto-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Kewi Green Svxeewxcc5 API
+  slug: open-conduit-kewi-green-svxeewxcc5-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Lyra Mainnet 0 API
+  slug: open-conduit-lyra-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Metal L2 Testnet 3bbzi9kufn API
+  slug: open-conduit-metal-l2-testnet-3bbzi9kufn-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Metal Mainnet 0 API
+  slug: open-conduit-metal-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Mode Mainnet 0 API
+  slug: open-conduit-mode-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Mode Sepolia Vtnhnpim72 API
+  slug: open-conduit-mode-sepolia-vtnhnpim72-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Onyx 6l1k4gho61 API
+  slug: open-conduit-onyx-6l1k4gho61-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Orderly L2 4460 Sepolia 8tc3sd7dvy API
+  slug: open-conduit-orderly-l2-4460-sepolia-8tc3sd7dvy-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Orderly Mainnet 0 API
+  slug: open-conduit-orderly-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Pepu V2 Mainnet 0 API
+  slug: open-conduit-pepu-v2-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Phala Mainnet 0 API
+  slug: open-conduit-phala-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Plume Mainnet 1 API
+  slug: open-conduit-plume-mainnet-1-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Plume Testnet 1 API
+  slug: open-conduit-plume-testnet-1-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Powerloom Mainnet V2 V52tbqo4if API
+  slug: open-conduit-powerloom-mainnet-v2-v52tbqo4if-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Prod Testnet 0eakp60405 API
+  slug: open-conduit-prod-testnet-0eakp60405-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Ronin Mainnet Bfz9fadqzl API
+  slug: open-conduit-ronin-mainnet-bfz9fadqzl-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Saigon Testnet Cc58e966ql API
+  slug: open-conduit-saigon-testnet-cc58e966ql-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Sepolia Superseed 826s35710w API
+  slug: open-conduit-sepolia-superseed-826s35710w-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Sheer Tan Crawdad Ggq0xy4dvx API
+  slug: open-conduit-sheer-tan-crawdad-ggq0xy4dvx-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Stratostack 8h1p47v0ck API
+  slug: open-conduit-stratostack-8h1p47v0ck-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Stratostack Dpd6y4jwnm API
+  slug: open-conduit-stratostack-dpd6y4jwnm-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Superposition 1v9rjalnat API
+  slug: open-conduit-superposition-1v9rjalnat-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Superseed Mainnet 0 API
+  slug: open-conduit-superseed-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Tempo API
+  slug: open-conduit-tempo-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Tempo Moderato API
+  slug: open-conduit-tempo-moderato-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Varity Testnet Rroe52pwjp API
+  slug: open-conduit-varity-testnet-rroe52pwjp-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Zama Gateway Mainnet API
+  slug: open-conduit-zama-gateway-mainnet-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Zama Testnet 0 API
+  slug: open-conduit-zama-testnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Zora Mainnet 0 API
+  slug: open-conduit-zora-mainnet-0-api
+- collection_type: open
+  name: Conduit Nodes Aevo Mainnet Prod 0 Zora Sepolia 0thyhxtf5e API
+  slug: open-conduit-zora-sepolia-0thyhxtf5e-api
 common:
 - group: other
   title: ''
@@ -357,7 +517,7 @@ overview: 'Conduit publishes 52 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Conduit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Conduit Rate Limits
@@ -385,7 +545,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/screenshots/conduit-2026-07-25T210242.png
 security:

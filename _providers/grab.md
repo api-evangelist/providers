@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -96,8 +96,20 @@ apis:
 - description: The GrabPay API from Grab — 4 operation(s) for grabpay.
   name: Grab GrabPay API
   slug: grab-grabpay-api
-artifact_total: 27
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Grab Partner APIs (GrabID, GrabPay, ) GrabExpress API
+  slug: open-grab-grabexpress-api
+- collection_type: open
+  name: Grab Partner APIs (, GrabPay, ) GrabExpress GrabID API
+  slug: open-grab-grabid-api
+- collection_type: open
+  name: Grab Partner APIs (GrabID, , ) GrabExpress GrabPay API
+  slug: open-grab-grabpay-api
 - collection_type: open
   name: Grab Partner APIs (GrabID, GrabPay, GrabExpress)
   slug: open-grab
@@ -190,7 +202,7 @@ plans:
 - name: Grab Plans Pricing
   plan_count: 1
   slug: grab-plans-pricing
-random_paper: 52
+random_paper: 114
 rate_limits:
 - limit_count: 2
   name: Grab Rate Limits
@@ -221,7 +233,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/screenshots/grab-2026-06-20T182311.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,8 +95,53 @@ apis:
 - description: The PublicAssistanceFundedProjectsDetails API from Department of Homeland Security — 1 operation(s) for publicassistancefundedprojectsdetails.
   name: Department of Homeland Security PublicAssistanceFundedProjectsDetails API
   slug: department-of-homeland-security-publicassistancefundedprojectsdetails-api
-artifact_total: 26
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries API
+  slug: open-department-of-homeland-security-disasterdeclarationssummaries-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries EmergencyManagementPerformanceGrants API
+  slug: open-department-of-homeland-security-emergencymanagementperformancegrants-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries FemaRegions API
+  slug: open-department-of-homeland-security-femaregions-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries FemaWebDisasterSummaries API
+  slug: open-department-of-homeland-security-femawebdisastersummaries-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries FimaNfipClaims API
+  slug: open-department-of-homeland-security-fimanfipclaims-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries FimaNfipPolicies API
+  slug: open-department-of-homeland-security-fimanfippolicies-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries HazardMitigationAssistanceProjects API
+  slug: open-department-of-homeland-security-hazardmitigationassistanceprojects-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries HazardMitigationGrants API
+  slug: open-department-of-homeland-security-hazardmitigationgrants-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries HousingAssistanceOwners API
+  slug: open-department-of-homeland-security-housingassistanceowners-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries HousingAssistanceRenters API
+  slug: open-department-of-homeland-security-housingassistancerenters-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries IndividualsAndHouseholdsProgramValidRegistrations API
+  slug: open-department-of-homeland-security-individualsandhouseholdsprogramvalidregistrations-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries MissionAssignments API
+  slug: open-department-of-homeland-security-missionassignments-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries PublicAssistanceApplicants API
+  slug: open-department-of-homeland-security-publicassistanceapplicants-api
+- collection_type: open
+  name: OpenFEMA DisasterDeclarationsSummaries PublicAssistanceFundedProjectsDetails API
+  slug: open-department-of-homeland-security-publicassistancefundedprojectsdetails-api
 - collection_type: open
   name: OpenFEMA API
   slug: open-department-of-homeland-security
@@ -217,7 +262,7 @@ plans:
 - name: Department Of Homeland Security Plans Pricing
   plan_count: 3
   slug: department-of-homeland-security-plans-pricing
-random_paper: 32
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Department Of Homeland Security Rate Limits
@@ -248,7 +293,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/screenshots/department-of-homeland-security-2026-06-20T175917.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: ''
@@ -82,7 +82,62 @@ apis:
 - description: True Caller Controller
   name: Power2SME true-caller-controller API
   slug: power2sme-true-caller-controller-api
-artifact_total: 20
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: POWER2SME Bank Master API
+  slug: open-power2sme-bank-master-api
+- collection_type: open
+  name: POWER2SME Bank Master Customer Contact API
+  slug: open-power2sme-customer-contact-api
+- collection_type: open
+  name: POWER2SME Bank Master Email Verification API
+  slug: open-power2sme-email-verification-api
+- collection_type: open
+  name: POWER2SME Bank Master Employee Login API
+  slug: open-power2sme-employee-login-api
+- collection_type: open
+  name: POWER2SME Bank Master General Mobile OTP Service API
+  slug: open-power2sme-general-mobile-otp-service-api
+- collection_type: open
+  name: POWER2SME Bank Master General Mobile OTP Service By Template API
+  slug: open-power2sme-general-mobile-otp-service-by-template-api
+- collection_type: open
+  name: POWER2SME Bank Master Holiday Calendar API
+  slug: open-power2sme-holiday-calendar-api
+- collection_type: open
+  name: POWER2SME Bank Master Location Master API
+  slug: open-power2sme-location-master-api
+- collection_type: open
+  name: POWER2SME Bank Master Mobile Application API
+  slug: open-power2sme-mobile-application-api
+- collection_type: open
+  name: POWER2SME Bank Master Mobile OTP Service By Template for Customer only API
+  slug: open-power2sme-mobile-otp-service-by-template-for-customer-only-api
+- collection_type: open
+  name: POWER2SME Bank Master Mobile OTP Service for Customer only API
+  slug: open-power2sme-mobile-otp-service-for-customer-only-api
+- collection_type: open
+  name: POWER2SME Bank Master Notification Service API
+  slug: open-power2sme-notification-service-api
+- collection_type: open
+  name: POWER2SME Bank Master P2S RPT API
+  slug: open-power2sme-p2s-rpt-api
+- collection_type: open
+  name: POWER2SME Bank Master SKU Navision API
+  slug: open-power2sme-sku-navision-api
+- collection_type: open
+  name: POWER2SME Bank Master SKU's information API
+  slug: open-power2sme-sku-s-information-api
+- collection_type: open
+  name: POWER2SME Bank Master Static information API
+  slug: open-power2sme-static-information-api
+- collection_type: open
+  name: POWER2SME Bank Master true-caller-controller API
+  slug: open-power2sme-true-caller-controller-api
 common:
 - group: other
   title: ''
@@ -144,7 +199,7 @@ overview: 'Power2SME publishes 17 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Power2SME''s developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
-random_paper: 92
+random_paper: 38
 score:
   band: thin
   composite: 31.9
@@ -167,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

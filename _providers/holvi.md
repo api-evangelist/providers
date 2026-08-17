@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: TPP certificate lifecycle.
   name: Holvi Third Party Provider API
   slug: holvi-third-party-provider-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Holvi PSD2 Account Information API
+  slug: open-holvi-account-information-api
+- collection_type: open
+  name: Holvi PSD2 Account Information Consent API
+  slug: open-holvi-consent-api
+- collection_type: open
+  name: Holvi PSD2 Account Information Payment Initiation API
+  slug: open-holvi-payment-initiation-api
+- collection_type: open
+  name: Holvi PSD2 Account Information Third Party Provider API
+  slug: open-holvi-third-party-provider-api
 common:
 - group: agent
   title: ''
@@ -176,7 +192,7 @@ overview: 'Holvi publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 20 more developer resources.'
-random_paper: 66
+random_paper: 99
 score:
   band: developing
   composite: 46.2
@@ -206,7 +222,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png
 security:

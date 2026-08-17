@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
 - description: Create, retrieve, update, and delete backup policies. Manage policy schedules, client lists, and backup selections that define what data gets backed up, when, and how.
   name: Veritas NetBackup Policies API
   slug: veritas-netbackup-policies-api
-artifact_total: 192
+artifact_total: 198
 collections:
 - collection_type: postman
   name: Veritas NetBackup REST Clients API
@@ -116,6 +116,24 @@ collections:
 - collection_type: postman
   name: Veritas NetBackup REST Clients Policies API
   slug: postman-veritas-netbackup-policies-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veritas NetBackup REST Clients API
+  slug: open-veritas-netbackup-clients-api
+- collection_type: open
+  name: Veritas NetBackup REST Clients Images API
+  slug: open-veritas-netbackup-images-api
+- collection_type: open
+  name: Veritas NetBackup REST Clients Jobs API
+  slug: open-veritas-netbackup-jobs-api
+- collection_type: open
+  name: Veritas NetBackup REST Clients Login API
+  slug: open-veritas-netbackup-login-api
+- collection_type: open
+  name: Veritas NetBackup REST Clients Policies API
+  slug: open-veritas-netbackup-policies-api
 - collection_type: open
   name: Veritas NetBackup REST API
   slug: open-veritas-netbackup-rest-api
@@ -722,7 +740,7 @@ plans:
 - name: Veritas Netbackup Plans Pricing
   plan_count: 1
   slug: veritas-netbackup-plans-pricing
-random_paper: 88
+random_paper: 129
 rate_limits:
 - limit_count: 1
   name: Veritas Netbackup Rate Limits
@@ -764,7 +782,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/screenshots/veritas-netbackup-2026-06-20T200933.png
 security:

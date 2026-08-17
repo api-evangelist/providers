@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 7
@@ -152,7 +152,119 @@ apis:
 - description: The Workflows API from Maastricht University — 1 operation(s) for workflows.
   name: Maastricht University Workflows API
   slug: maastricht-workflows-api
-artifact_total: 54
+artifact_total: 91
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dataverse Access API
+  slug: open-maastricht-access-api
+- collection_type: open
+  name: Dataverse Access addFilesToDataset API
+  slug: open-maastricht-addfilestodataset-api
+- collection_type: open
+  name: Dataverse Access addFileToDataset API
+  slug: open-maastricht-addfiletodataset-api
+- collection_type: open
+  name: Dataverse Access addGlobusFilesToDataset API
+  slug: open-maastricht-addglobusfilestodataset-api
+- collection_type: open
+  name: Dataverse Access Admin API
+  slug: open-maastricht-admin-api
+- collection_type: open
+  name: Dataverse Access Batch API
+  slug: open-maastricht-batch-api
+- collection_type: open
+  name: Dataverse Access Builtin Users API
+  slug: open-maastricht-builtin-users-api
+- collection_type: open
+  name: Dataverse Access Datasetfields API
+  slug: open-maastricht-datasetfields-api
+- collection_type: open
+  name: Dataverse Access Datasets API
+  slug: open-maastricht-datasets-api
+- collection_type: open
+  name: Dataverse Access Datatags API
+  slug: open-maastricht-datatags-api
+- collection_type: open
+  name: Dataverse Access DataverseFeaturedItems API
+  slug: open-maastricht-dataversefeatureditems-api
+- collection_type: open
+  name: Dataverse Access Dataverses API
+  slug: open-maastricht-dataverses-api
+- collection_type: open
+  name: Dataverse Access Edit API
+  slug: open-maastricht-edit-api
+- collection_type: open
+  name: Dataverse Access ExternalTools API
+  slug: open-maastricht-externaltools-api
+- collection_type: open
+  name: Dataverse Access Files API
+  slug: open-maastricht-files-api
+- collection_type: open
+  name: Dataverse Access Harvest API
+  slug: open-maastricht-harvest-api
+- collection_type: open
+  name: Dataverse Access Inbox API
+  slug: open-maastricht-inbox-api
+- collection_type: open
+  name: Dataverse Access Info API
+  slug: open-maastricht-info-api
+- collection_type: open
+  name: Dataverse Access Ingest API
+  slug: open-maastricht-ingest-api
+- collection_type: open
+  name: Dataverse Access Licenses API
+  slug: open-maastricht-licenses-api
+- collection_type: open
+  name: Dataverse Access Localcontexts API
+  slug: open-maastricht-localcontexts-api
+- collection_type: open
+  name: Dataverse Access Logout API
+  slug: open-maastricht-logout-api
+- collection_type: open
+  name: Dataverse Access Mail API
+  slug: open-maastricht-mail-api
+- collection_type: open
+  name: Dataverse Access Meta API
+  slug: open-maastricht-meta-api
+- collection_type: open
+  name: Dataverse Access Metadatablocks API
+  slug: open-maastricht-metadatablocks-api
+- collection_type: open
+  name: Dataverse Access Mydata API
+  slug: open-maastricht-mydata-api
+- collection_type: open
+  name: Dataverse Access Notifications API
+  slug: open-maastricht-notifications-api
+- collection_type: open
+  name: Dataverse Access Pids API
+  slug: open-maastricht-pids-api
+- collection_type: open
+  name: Dataverse Access replaceFilesInDataset API
+  slug: open-maastricht-replacefilesindataset-api
+- collection_type: open
+  name: Dataverse Access Roles API
+  slug: open-maastricht-roles-api
+- collection_type: open
+  name: Dataverse Access saveAuxiliaryFileWithVersion API
+  slug: open-maastricht-saveauxiliaryfilewithversion-api
+- collection_type: open
+  name: Dataverse Access Search API
+  slug: open-maastricht-search-api
+- collection_type: open
+  name: Dataverse Access Sendfeedback API
+  slug: open-maastricht-sendfeedback-api
+- collection_type: open
+  name: Dataverse Access uploadDatasetLogo API
+  slug: open-maastricht-uploaddatasetlogo-api
+- collection_type: open
+  name: Dataverse Access Users API
+  slug: open-maastricht-users-api
+- collection_type: open
+  name: Dataverse Access Workflows API
+  slug: open-maastricht-workflows-api
 common:
 - group: agent
   title: ''
@@ -250,7 +362,7 @@ plans:
 - name: Maastricht Plans Pricing
   plan_count: 2
   slug: maastricht-plans-pricing
-random_paper: 112
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Maastricht Rate Limits
@@ -298,7 +410,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png
 security:

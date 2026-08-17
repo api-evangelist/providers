@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -126,7 +126,7 @@ apis:
 - description: These endpoints configure, retrieve and remove webhooks. See <a href="https://developer.token.io/token_rest_api_doc/content/e-rest/api-basics.htm#Webhook" target="_blank">Webhooks</a> for more details
   name: token-io Webhooks API
   slug: token-io-webhooks-api
-artifact_total: 94
+artifact_total: 113
 collections:
 - collection_type: postman
   name: Token.io's Open Banking API for TPPs Account on File API
@@ -182,6 +182,63 @@ collections:
 - collection_type: postman
   name: Token.io's Open Banking API for TPPs Account on File Webhooks API
   slug: postman-token-io-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File API
+  slug: open-token-io-account-on-file-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Accounts API
+  slug: open-token-io-accounts-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Authentication keys API
+  slug: open-token-io-authentication-keys-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Banks v1 API
+  slug: open-token-io-banks-v1-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Banks v2 API
+  slug: open-token-io-banks-v2-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Pay by Link API
+  slug: open-token-io-pay-by-link-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Payments v2 API
+  slug: open-token-io-payments-v2-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Payouts API
+  slug: open-token-io-payouts-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Refunds API
+  slug: open-token-io-refunds-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Reports API
+  slug: open-token-io-reports-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Requests - for Payments v1 or AIS API
+  slug: open-token-io-requests-for-payments-v1-or-ais-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Settlement Accounts API
+  slug: open-token-io-settlement-accounts-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Sub-TPPs API
+  slug: open-token-io-sub-tpps-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Tokens API
+  slug: open-token-io-tokens-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Transfers - for Payments v1 API
+  slug: open-token-io-transfers-for-payments-v1-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Variable Recurring Payments API
+  slug: open-token-io-variable-recurring-payments-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Verification API
+  slug: open-token-io-verification-api
+- collection_type: open
+  name: Token.io's Open Banking API for TPPs Account on File Webhooks API
+  slug: open-token-io-webhooks-api
 - collection_type: open
   name: Token.io's Open Banking API for TPPs
   slug: open-token-io
@@ -325,7 +382,7 @@ plans:
 - name: Token Io Plans Pricing
   plan_count: 4
   slug: token-io-plans-pricing
-random_paper: 86
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Token Io Rate Limits
@@ -359,7 +416,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/screenshots/token-io-2026-06-20T195438.png
 security:

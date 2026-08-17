@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,7 +54,20 @@ arazzos:
 - description: Authenticate, start an ETL process, and read its status.
   name: Trigger a Minubo ETL run and monitor it
   slug: minubo-trigger-etl-and-monitor
-artifact_total: 10
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Minubo Auth API
+  slug: open-minubo-auth-api
+- collection_type: open
+  name: Minubo Auth Data API
+  slug: open-minubo-data-api
+- collection_type: open
+  name: Minubo Auth ETL API
+  slug: open-minubo-etl-api
 common:
 - group: other
   title: ''
@@ -180,7 +193,7 @@ overview: 'Minubo publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Minubo Rate Limits
@@ -208,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/screenshots/minubo-2026-08-07T173004.png
 security:

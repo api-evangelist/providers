@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -50,11 +50,26 @@ apis:
 - description: The Vehicles API from Tesla Motors — 11 operation(s) for vehicles.
   name: Tesla Motors Vehicles API
   slug: tesla-motors-vehicles-api
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tesla Motors Owner Authentication API
+  slug: open-tesla-motors-authentication-api
+- collection_type: open
+  name: Tesla Motors Owner Authentication Media Control API
+  slug: open-tesla-motors-media-control-api
 - collection_type: open
   name: Tesla Motors Owner API
   slug: open-tesla-motors-owner
+- collection_type: open
+  name: Tesla Motors Owner Authentication Vehicle Commands API
+  slug: open-tesla-motors-vehicle-commands-api
+- collection_type: open
+  name: Tesla Motors Owner Authentication Vehicles API
+  slug: open-tesla-motors-vehicles-api
 common:
 - group: commercial
   title: ''
@@ -164,7 +179,7 @@ press:
 - date: '2026-05-25'
   title: 'Musk: Tesla to Launch ''Terafab'' AI Chip Factory Project Next ...'
   url: https://teslahubs.com/blogs/tips/musk-tesla-to-launch-terafab-ai-chip-factory-project-next-week?srsltid=AfmBOorSHTkVXbFNBbtpovoc853bqvVX0P-7cAmhsuGy2Jx5jlVcsFDs
-random_paper: 58
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Tesla Motors Rate Limits
@@ -206,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

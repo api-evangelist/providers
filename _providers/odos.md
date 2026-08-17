@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,7 +53,20 @@ apis:
 - description: Swap tokens
   name: Odos Smart Order Routing API
   slug: odos-smart-order-routing-api
-artifact_total: 14
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Odos Information API
+  slug: open-odos-information-api
+- collection_type: open
+  name: Odos Information Pricing API
+  slug: open-odos-pricing-api
+- collection_type: open
+  name: Odos Information Smart Order Routing API
+  slug: open-odos-smart-order-routing-api
 common:
 - group: agent
   title: ''
@@ -155,7 +168,7 @@ plans:
 - name: Apis
   plan_count: 4
   slug: apis
-random_paper: 77
+random_paper: 139
 rate_limits:
 - limit_count: 0
   name: Apis
@@ -189,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/screenshots/odos-2026-06-20T190622.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -74,11 +74,51 @@ apis:
 - description: The Records API from End Close — 3 operation(s) for records.
   name: End Close Records API
   slug: end-close-records-api
-artifact_total: 19
+artifact_total: 32
 asyncapis:
 - description: ''
   name: End Close Webhooks
   slug: end-close-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: End Close Bank Account Balances API
+  slug: open-end-close-bank-account-balances-api
+- collection_type: open
+  name: End Close Bank Account Balances Bank Accounts API
+  slug: open-end-close-bank-accounts-api
+- collection_type: open
+  name: End Close Bank Account Balances Bulk Requests API
+  slug: open-end-close-bulk-requests-api
+- collection_type: open
+  name: End Close Bank Account Balances Data Stream Property Definitions API
+  slug: open-end-close-data-stream-property-definitions-api
+- collection_type: open
+  name: End Close Bank Account Balances Data Streams API
+  slug: open-end-close-data-streams-api
+- collection_type: open
+  name: End Close Bank Account Balances Import Batches API
+  slug: open-end-close-import-batches-api
+- collection_type: open
+  name: End Close Bank Account Balances Reconciliation Exceptions API
+  slug: open-end-close-reconciliation-exceptions-api
+- collection_type: open
+  name: End Close Bank Account Balances Reconciliation Matches API
+  slug: open-end-close-reconciliation-matches-api
+- collection_type: open
+  name: End Close Bank Account Balances Reconciliation Rules API
+  slug: open-end-close-reconciliation-rules-api
+- collection_type: open
+  name: End Close Bank Account Balances Reconciliation Stories API
+  slug: open-end-close-reconciliation-stories-api
+- collection_type: open
+  name: End Close Bank Account Balances Reconciliations API
+  slug: open-end-close-reconciliations-api
+- collection_type: open
+  name: End Close Bank Account Balances Records API
+  slug: open-end-close-records-api
 common:
 - group: start
   title: ''
@@ -179,7 +219,7 @@ overview: 'End Close publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   End Close''s developer surface includes authentication and 19 more developer resources.'
-random_paper: 50
+random_paper: 145
 score:
   band: thin
   composite: 37.2
@@ -208,7 +248,7 @@ score:
     regime_id: banking_open_finance
     score: 35.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png
 security:

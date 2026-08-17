@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 1
@@ -161,7 +161,134 @@ apis:
 - description: The user API from Calyptia — 1 operation(s) for user.
   name: Calyptia user API
   slug: calyptia-user-api
-artifact_total: 46
+artifact_total: 88
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Calyptia Cloud agent API
+  slug: open-calyptia-agent-api
+- collection_type: open
+  name: Calyptia Cloud agent agent_config API
+  slug: open-calyptia-agent-config-api
+- collection_type: open
+  name: Calyptia Cloud agent agent_error API
+  slug: open-calyptia-agent-error-api
+- collection_type: open
+  name: Calyptia Cloud agent aggregator API
+  slug: open-calyptia-aggregator-api
+- collection_type: open
+  name: Calyptia Cloud agent audit_log API
+  slug: open-calyptia-audit-log-api
+- collection_type: open
+  name: Calyptia Cloud agent aws_marketplace API
+  slug: open-calyptia-aws-marketplace-api
+- collection_type: open
+  name: Calyptia Cloud agent cluster_object API
+  slug: open-calyptia-cluster-object-api
+- collection_type: open
+  name: Calyptia Cloud agent cluster_object_regex API
+  slug: open-calyptia-cluster-object-regex-api
+- collection_type: open
+  name: Calyptia Cloud agent config_section API
+  slug: open-calyptia-config-section-api
+- collection_type: open
+  name: Calyptia Cloud agent config_validator API
+  slug: open-calyptia-config-validator-api
+- collection_type: open
+  name: Calyptia Cloud agent config_validator_v2 API
+  slug: open-calyptia-config-validator-v2-api
+- collection_type: open
+  name: Calyptia Cloud agent core_instance API
+  slug: open-calyptia-core-instance-api
+- collection_type: open
+  name: Calyptia Cloud agent core_instance_check API
+  slug: open-calyptia-core-instance-check-api
+- collection_type: open
+  name: Calyptia Cloud agent core_instance_file API
+  slug: open-calyptia-core-instance-file-api
+- collection_type: open
+  name: Calyptia Cloud agent core_instance_secret API
+  slug: open-calyptia-core-instance-secret-api
+- collection_type: open
+  name: Calyptia Cloud agent environment API
+  slug: open-calyptia-environment-api
+- collection_type: open
+  name: Calyptia Cloud agent fleet API
+  slug: open-calyptia-fleet-api
+- collection_type: open
+  name: Calyptia Cloud agent invitation API
+  slug: open-calyptia-invitation-api
+- collection_type: open
+  name: Calyptia Cloud agent membership API
+  slug: open-calyptia-membership-api
+- collection_type: open
+  name: Calyptia Cloud agent metric API
+  slug: open-calyptia-metric-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline API
+  slug: open-calyptia-pipeline-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline_check API
+  slug: open-calyptia-pipeline-check-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline_cluster_objects API
+  slug: open-calyptia-pipeline-cluster-objects-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline_config API
+  slug: open-calyptia-pipeline-config-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline_file API
+  slug: open-calyptia-pipeline-file-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline_log API
+  slug: open-calyptia-pipeline-log-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline_metadata API
+  slug: open-calyptia-pipeline-metadata-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline_port API
+  slug: open-calyptia-pipeline-port-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline_secret API
+  slug: open-calyptia-pipeline-secret-api
+- collection_type: open
+  name: Calyptia Cloud agent pipeline_status API
+  slug: open-calyptia-pipeline-status-api
+- collection_type: open
+  name: Calyptia Cloud agent processing_rule API
+  slug: open-calyptia-processing-rule-api
+- collection_type: open
+  name: Calyptia Cloud agent processing_rule_template API
+  slug: open-calyptia-processing-rule-template-api
+- collection_type: open
+  name: Calyptia Cloud agent project API
+  slug: open-calyptia-project-api
+- collection_type: open
+  name: Calyptia Cloud agent resource_profile API
+  slug: open-calyptia-resource-profile-api
+- collection_type: open
+  name: Calyptia Cloud agent saml_mapping API
+  slug: open-calyptia-saml-mapping-api
+- collection_type: open
+  name: Calyptia Cloud agent search API
+  slug: open-calyptia-search-api
+- collection_type: open
+  name: Calyptia Cloud agent sidecar API
+  slug: open-calyptia-sidecar-api
+- collection_type: open
+  name: Calyptia Cloud agent token API
+  slug: open-calyptia-token-api
+- collection_type: open
+  name: Calyptia Cloud agent trace_record API
+  slug: open-calyptia-trace-record-api
+- collection_type: open
+  name: Calyptia Cloud agent trace_session API
+  slug: open-calyptia-trace-session-api
+- collection_type: open
+  name: Calyptia Cloud agent user API
+  slug: open-calyptia-user-api
 common:
 - group: other
   title: ''
@@ -291,7 +418,7 @@ overview: 'Calyptia publishes 41 APIs on the [APIs.io](https://apis.io/) network
 
 
   Calyptia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 21 more developer resources.'
-random_paper: 15
+random_paper: 110
 scopes:
 - name: Calyptia Scopes
   scope_count: 6
@@ -320,7 +447,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/screenshots/calyptia-2026-07-25T204254.png
 security:

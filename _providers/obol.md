@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -89,7 +89,62 @@ apis:
 - description: The tvs API from Obol — 2 operation(s) for tvs.
   name: Obol tvs API
   slug: obol-tvs-api
-artifact_total: 22
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Obol Address API
+  slug: open-obol-address-api
+- collection_type: open
+  name: Obol Address Cluster Definition API
+  slug: open-obol-cluster-definition-api
+- collection_type: open
+  name: Obol Address Cluster Effectiveness API
+  slug: open-obol-cluster-effectiveness-api
+- collection_type: open
+  name: Obol Address Cluster Lock API
+  slug: open-obol-cluster-lock-api
+- collection_type: open
+  name: Obol Address Deposit Data API
+  slug: open-obol-deposit-data-api
+- collection_type: open
+  name: Obol Address DV Exit API
+  slug: open-obol-dv-exit-api
+- collection_type: open
+  name: Obol Address DV Migrate API
+  slug: open-obol-dv-migrate-api
+- collection_type: open
+  name: Obol Address Fee Recipient API
+  slug: open-obol-fee-recipient-api
+- collection_type: open
+  name: Obol Address Metrics API
+  slug: open-obol-metrics-api
+- collection_type: open
+  name: Obol Address OWR Information API
+  slug: open-obol-owr-information-api
+- collection_type: open
+  name: Obol Address Positions API
+  slug: open-obol-positions-api
+- collection_type: open
+  name: Obol Address State API
+  slug: open-obol-state-api
+- collection_type: open
+  name: Obol Address System API
+  slug: open-obol-system-api
+- collection_type: open
+  name: Obol Address Techne Credentials API
+  slug: open-obol-techne-credentials-api
+- collection_type: open
+  name: Obol Address Terms And Conditions API
+  slug: open-obol-terms-and-conditions-api
+- collection_type: open
+  name: Obol Address Test API
+  slug: open-obol-test-api
+- collection_type: open
+  name: Obol Address tvs API
+  slug: open-obol-tvs-api
 common:
 - group: start
   title: ''
@@ -239,7 +294,7 @@ overview: 'Obol publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Obol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 26 more developer resources.'
-random_paper: 68
+random_paper: 130
 score:
   band: developing
   composite: 50.2
@@ -263,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/screenshots/obol-2026-08-07T185909.png
 security:

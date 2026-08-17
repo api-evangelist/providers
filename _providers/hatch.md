@@ -28,17 +28,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The contacts API from Hatch — 1 operation(s) for contacts.
   name: Hatch contacts API
   slug: hatch-contacts-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Hatch Webhooks
   slug: hatch-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hatch contacts API
+  slug: open-hatch-contacts-api
 common:
 - group: agent
   title: ''
@@ -167,7 +174,7 @@ overview: 'Hatch publishes 1 API on the [APIs.io](https://apis.io/) network: con
 
 
   Hatch''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 40
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Hatch Rate Limits
@@ -200,7 +207,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/screenshots/hatch-2026-07-25T220750.png
 security:

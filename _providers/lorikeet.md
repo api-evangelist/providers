@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Manage webhook subscriptions and receive Lorikeet events.
   name: Lorikeet Webhooks API
   slug: lorikeet-webhooks-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lorikeet Conversations API
+  slug: open-lorikeet-conversations-api
+- collection_type: open
+  name: Lorikeet Conversations Knowledge API
+  slug: open-lorikeet-knowledge-api
+- collection_type: open
+  name: Lorikeet Conversations Messages API
+  slug: open-lorikeet-messages-api
+- collection_type: open
+  name: Lorikeet Conversations Webhooks API
+  slug: open-lorikeet-webhooks-api
 - collection_type: open
   name: Lorikeet API
   slug: open-lorikeet
@@ -117,7 +132,7 @@ plans:
 - name: Lorikeet Plans Pricing
   plan_count: 1
   slug: lorikeet-plans-pricing
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 4
   name: Lorikeet Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/screenshots/lorikeet-2026-07-25T225543.png
 security:

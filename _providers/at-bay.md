@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Register webhook endpoints for asynchronous status callbacks.
   name: At-Bay Webhooks API
   slug: at-bay-webhooks-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: At-Bay Partner Documents API
+  slug: open-at-bay-documents-api
+- collection_type: open
+  name: At-Bay Partner Documents Health API
+  slug: open-at-bay-health-api
 - collection_type: open
   name: At-Bay Partner API
   slug: open-at-bay-partner-api
+- collection_type: open
+  name: At-Bay Partner Documents Policies API
+  slug: open-at-bay-policies-api
+- collection_type: open
+  name: At-Bay Partner Documents Quotes API
+  slug: open-at-bay-quotes-api
+- collection_type: open
+  name: At-Bay Partner Documents Webhooks API
+  slug: open-at-bay-webhooks-api
 common:
 - group: agent
   title: ''
@@ -229,7 +247,7 @@ plans:
 - name: At Bay Plans Pricing
   plan_count: 4
   slug: at-bay-plans-pricing
-random_paper: 94
+random_paper: 127
 rate_limits:
 - limit_count: 0
   name: At Bay Rate Limits
@@ -277,7 +295,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/screenshots/at-bay-2026-06-20T172516.png
 security:

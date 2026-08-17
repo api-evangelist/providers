@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 4
@@ -94,7 +94,62 @@ arazzos:
 - description: Creates a serverless Astra DB database, waits for it to become active, adds a keyspace, downloads the secure-connect bundle, and issues an application token scoped to the org roles — all against the A
   name: Provision an Astra database and issue a scoped token
   slug: datastax-provision-database
-artifact_total: 23
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Astra DevOps Access List API
+  slug: open-datastax-access-list-api
+- collection_type: open
+  name: Astra DevOps Access List Authentication API
+  slug: open-datastax-authentication-api
+- collection_type: open
+  name: Astra DevOps Access List Clone API
+  slug: open-datastax-clone-api
+- collection_type: open
+  name: Astra DevOps Access List Customer Keys API
+  slug: open-datastax-customer-keys-api
+- collection_type: open
+  name: Astra DevOps Access List Database Operations API
+  slug: open-datastax-database-operations-api
+- collection_type: open
+  name: Astra DevOps Access List API
+  slug: open-datastax-devops-access-list-api
+- collection_type: open
+  name: Astra DevOps Access List Enterprise Operations API
+  slug: open-datastax-enterprise-operations-api
+- collection_type: open
+  name: Astra DevOps Access List Migrations API
+  slug: open-datastax-migrations-api
+- collection_type: open
+  name: Astra DevOps Access List Organization Operations API
+  slug: open-datastax-organization-operations-api
+- collection_type: open
+  name: Astra DevOps Access List PCU API
+  slug: open-datastax-pcu-api
+- collection_type: open
+  name: Astra DevOps Access List Private Link API
+  slug: open-datastax-private-link-api
+- collection_type: open
+  name: Astra DevOps Access List Regions API
+  slug: open-datastax-regions-api
+- collection_type: open
+  name: Astra DevOps Access List Roles API
+  slug: open-datastax-roles-api
+- collection_type: open
+  name: Astra DevOps Access List SCIM API
+  slug: open-datastax-scim-api
+- collection_type: open
+  name: Astra DevOps Access List Token API
+  slug: open-datastax-token-api
+- collection_type: open
+  name: Astra DevOps Access List Users API
+  slug: open-datastax-users-api
+- collection_type: open
+  name: Astra DevOps Access List VPC Peering API
+  slug: open-datastax-vpc-peering-api
 common:
 - group: company
   title: ''
@@ -240,7 +295,7 @@ overview: 'DataStax publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   DataStax''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, engineering blog, and 25 more developer resources.'
-random_paper: 18
+random_paper: 113
 scopes:
 - name: Datastax Scopes
   scope_count: 15
@@ -269,7 +324,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
 security:

@@ -28,13 +28,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The REST API behind the Optimyzee web application. Covers Google Ads campaign creation (search creation, AI search creation, keyword planner, RSA builder, sitelink builder), analysis (account audit, a
   name: Optimyzee Application API
   slug: optimyzee-application-api
-artifact_total: 5
+artifact_total: 6
+collections:
+- collection_type: open
+  name: Optimyzee Application API
+  slug: open-optimyzee
 common:
 - group: auth
   title: ''
@@ -137,7 +141,7 @@ plans:
 - name: Optimyzee Plans Pricing
   plan_count: 3
   slug: optimyzee-plans-pricing
-random_paper: 38
+random_paper: 104
 rate_limits:
 - limit_count: 0
   name: Optimyzee Rate Limits
@@ -145,7 +149,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.3
-  delta: 28.1
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 45.6
@@ -153,10 +157,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 15.2
+  previous_composite: 43.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimyzee/refs/heads/main/screenshots/optimyzee-2026-08-07T190810.png
 security:
 - kind: authentication

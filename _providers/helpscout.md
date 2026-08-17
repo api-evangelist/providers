@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ apis:
 - description: The Workflows API from Help Scout — 1 operation(s) for workflows.
   name: Help Scout Workflows API
   slug: helpscout-workflows-api
-artifact_total: 56
+artifact_total: 66
 asyncapis:
 - description: 'Help Scout publishes webhook events from the Mailbox, Beacon, Docs, and organization surfaces to subscriber-configured URLs. Each delivery is an HTTP POST containing a JSON body, an X-HelpScout-Event '
   name: Help Scout Webhooks
@@ -147,6 +147,36 @@ collections:
 - collection_type: postman
   name: Help Scout Mailbox Conversations Workflows API
   slug: postman-helpscout-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Help Scout Mailbox Conversations API
+  slug: open-helpscout-conversations-api
+- collection_type: open
+  name: Help Scout Mailbox Conversations Customers API
+  slug: open-helpscout-customers-api
+- collection_type: open
+  name: Help Scout Mailbox Conversations Mailboxes API
+  slug: open-helpscout-mailboxes-api
+- collection_type: open
+  name: Help Scout Mailbox Conversations Tags API
+  slug: open-helpscout-tags-api
+- collection_type: open
+  name: Help Scout Mailbox Conversations Teams API
+  slug: open-helpscout-teams-api
+- collection_type: open
+  name: Help Scout Mailbox Conversations Threads API
+  slug: open-helpscout-threads-api
+- collection_type: open
+  name: Help Scout Mailbox Conversations Users API
+  slug: open-helpscout-users-api
+- collection_type: open
+  name: Help Scout Mailbox Conversations Webhooks API
+  slug: open-helpscout-webhooks-api
+- collection_type: open
+  name: Help Scout Mailbox Conversations Workflows API
+  slug: open-helpscout-workflows-api
 - collection_type: open
   name: Help Scout Mailbox API
   slug: open-helpscout
@@ -289,7 +319,7 @@ plans:
 - name: Helpscout Plans Pricing
   plan_count: 7
   slug: helpscout-plans-pricing
-random_paper: 23
+random_paper: 89
 rate_limits:
 - limit_count: 3
   name: Helpscout Rate Limits
@@ -328,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/screenshots/helpscout-2026-06-20T182635.png
 security:

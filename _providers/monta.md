@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -57,8 +57,26 @@ apis:
 - description: The Wallet Transactions API from Monta — 3 operation(s) for wallet transactions.
   name: Monta Wallet Transactions API
   slug: monta-wallet-transactions-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Monta Public Authentication API
+  slug: open-monta-authentication-api
+- collection_type: open
+  name: Monta Public Authentication Charge Points API
+  slug: open-monta-charge-points-api
+- collection_type: open
+  name: Monta Public Authentication Charges API
+  slug: open-monta-charges-api
+- collection_type: open
+  name: Monta Public Authentication Utilities API
+  slug: open-monta-utilities-api
+- collection_type: open
+  name: Monta Public Authentication Wallet Transactions API
+  slug: open-monta-wallet-transactions-api
 - collection_type: open
   name: Monta Public API
   slug: open-monta
@@ -123,7 +141,7 @@ plans:
 - name: Monta Plans Pricing
   plan_count: 2
   slug: monta-plans-pricing
-random_paper: 63
+random_paper: 96
 rate_limits:
 - limit_count: 4
   name: Monta Rate Limits
@@ -154,7 +172,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/screenshots/monta-2026-08-07T184221.png
 security:

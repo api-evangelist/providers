@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Tariff schedule, peak/off-peak rate plans, and TOU optimization
   name: Tesla Energy Time Of Use API
   slug: tesla-energy-time-of-use-api
-artifact_total: 54
+artifact_total: 65
 collections:
 - collection_type: postman
   name: Tesla Fleet Energy Backup API
@@ -102,8 +102,41 @@ collections:
   name: Tesla Fleet Energy Backup Time Of Use API
   slug: postman-tesla-energy-time-of-use-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tesla Fleet Energy Backup API
+  slug: open-tesla-energy-backup-api
+- collection_type: open
   name: Tesla Fleet Energy API
   slug: open-tesla-energy-fleet-api
+- collection_type: open
+  name: Tesla Fleet Energy Backup History API
+  slug: open-tesla-energy-history-api
+- collection_type: open
+  name: Tesla Fleet Energy Backup Live Status API
+  slug: open-tesla-energy-live-status-api
+- collection_type: open
+  name: Tesla Fleet Energy Backup Off Grid Charging API
+  slug: open-tesla-energy-off-grid-charging-api
+- collection_type: open
+  name: Tesla Fleet Energy Backup Operation API
+  slug: open-tesla-energy-operation-api
+- collection_type: open
+  name: Tesla Fleet Energy Backup Products API
+  slug: open-tesla-energy-products-api
+- collection_type: open
+  name: Tesla Fleet Energy Backup Programs API
+  slug: open-tesla-energy-programs-api
+- collection_type: open
+  name: Tesla Fleet Energy Backup Site Info API
+  slug: open-tesla-energy-site-info-api
+- collection_type: open
+  name: Tesla Fleet Energy Backup Storm Mode API
+  slug: open-tesla-energy-storm-mode-api
+- collection_type: open
+  name: Tesla Fleet Energy Backup Time Of Use API
+  slug: open-tesla-energy-time-of-use-api
 common:
 - group: build
   title: ''
@@ -307,7 +340,7 @@ plans:
 - name: Tesla Energy Plans Pricing
   plan_count: 5
   slug: tesla-energy-plans-pricing
-random_paper: 32
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Tesla Energy Rate Limits
@@ -360,7 +393,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -78,11 +78,54 @@ apis:
 - description: Endpoints for users resource
   name: Rocketlane Users API
   slug: rocketlane-users-api
-artifact_total: 21
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Rocketlane Webhooks
   slug: rocketlane-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rocketlane Comments API
+  slug: open-rocketlane-comments-api
+- collection_type: open
+  name: Rocketlane Comments Conversations API
+  slug: open-rocketlane-conversations-api
+- collection_type: open
+  name: Rocketlane Comments Fields API
+  slug: open-rocketlane-fields-api
+- collection_type: open
+  name: Rocketlane Comments Invoices API
+  slug: open-rocketlane-invoices-api
+- collection_type: open
+  name: Rocketlane Comments Phases API
+  slug: open-rocketlane-phases-api
+- collection_type: open
+  name: Rocketlane Comments Projects API
+  slug: open-rocketlane-projects-api
+- collection_type: open
+  name: Rocketlane Comments Resource Allocations API
+  slug: open-rocketlane-resource-allocations-api
+- collection_type: open
+  name: Rocketlane Comments Space Documents API
+  slug: open-rocketlane-space-documents-api
+- collection_type: open
+  name: Rocketlane Comments Spaces API
+  slug: open-rocketlane-spaces-api
+- collection_type: open
+  name: Rocketlane Comments Tasks API
+  slug: open-rocketlane-tasks-api
+- collection_type: open
+  name: Rocketlane Comments Time-Offs API
+  slug: open-rocketlane-time-offs-api
+- collection_type: open
+  name: Rocketlane Comments Time Tracking API
+  slug: open-rocketlane-time-tracking-api
+- collection_type: open
+  name: Rocketlane Comments Users API
+  slug: open-rocketlane-users-api
 common:
 - group: agent
   title: ''
@@ -247,7 +290,7 @@ overview: 'Rocketlane publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Rocketlane''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 104
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Rocketlane Rate Limits
@@ -275,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

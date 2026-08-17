@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -90,14 +90,53 @@ apis:
 - description: Snap search and discovery
   name: Ubuntu Search API
   slug: ubuntu-search-api
-artifact_total: 34
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ubuntu Security CVE Bugs API
+  slug: open-ubuntu-bugs-api
+- collection_type: open
+  name: Ubuntu Security CVE Bugs Categories API
+  slug: open-ubuntu-categories-api
 - collection_type: open
   name: Ubuntu Security CVE API
   slug: open-ubuntu-cve
 - collection_type: open
+  name: Ubuntu Security CVE Bugs CVEs API
+  slug: open-ubuntu-cves-api
+- collection_type: open
+  name: Ubuntu Security CVE Bugs Distributions API
+  slug: open-ubuntu-distributions-api
+- collection_type: open
+  name: Ubuntu Security CVE Bugs Info API
+  slug: open-ubuntu-info-api
+- collection_type: open
   name: Launchpad REST API
   slug: open-ubuntu-launchpad
+- collection_type: open
+  name: Ubuntu Security CVE Bugs Metrics API
+  slug: open-ubuntu-metrics-api
+- collection_type: open
+  name: Ubuntu Security CVE Bugs Notices API
+  slug: open-ubuntu-notices-api
+- collection_type: open
+  name: Ubuntu Security CVE Bugs Packages API
+  slug: open-ubuntu-packages-api
+- collection_type: open
+  name: Ubuntu Security CVE Bugs People API
+  slug: open-ubuntu-people-api
+- collection_type: open
+  name: Ubuntu Security CVE Bugs Projects API
+  slug: open-ubuntu-projects-api
+- collection_type: open
+  name: Ubuntu Security CVE Bugs Refresh API
+  slug: open-ubuntu-refresh-api
+- collection_type: open
+  name: Ubuntu Security CVE Bugs Search API
+  slug: open-ubuntu-search-api
 - collection_type: open
   name: Snap Store Devices API
   slug: open-ubuntu-snap-store
@@ -164,7 +203,7 @@ plans:
 - name: Ubuntu Plans Pricing
   plan_count: 3
   slug: ubuntu-plans-pricing
-random_paper: 75
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Ubuntu Rate Limits
@@ -206,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/screenshots/ubuntu-2026-06-20T195936.png
 security:

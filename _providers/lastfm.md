@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ arazzos:
 - description: Read a user's profile, find their top artist for a period, and surface that artist's top tracks.
   name: Last.fm User Taste Profile
   slug: lastfm-user-taste-profile-workflow
-artifact_total: 64
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Last.fm Album API
@@ -105,6 +105,36 @@ collections:
 - collection_type: postman
   name: Last.fm Web Services API (2.0)
   slug: postman-lastfm-openapi-original
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Last.fm Web Services API (2.0) Album API
+  slug: open-lastfm-album-api
+- collection_type: open
+  name: Last.fm Web Services API (2.0) Album Artist API
+  slug: open-lastfm-artist-api
+- collection_type: open
+  name: Last.fm Web Services API (2.0) Album Auth API
+  slug: open-lastfm-auth-api
+- collection_type: open
+  name: Last.fm Web Services API (2.0) Album Chart API
+  slug: open-lastfm-chart-api
+- collection_type: open
+  name: Last.fm Web Services API (2.0) Album Geo API
+  slug: open-lastfm-geo-api
+- collection_type: open
+  name: Last.fm Web Services API (2.0) Album Library API
+  slug: open-lastfm-library-api
+- collection_type: open
+  name: Last.fm Web Services API (2.0) Album Tag API
+  slug: open-lastfm-tag-api
+- collection_type: open
+  name: Last.fm Web Services API (2.0) Album Track API
+  slug: open-lastfm-track-api
+- collection_type: open
+  name: Last.fm Web Services API (2.0) Album User API
+  slug: open-lastfm-user-api
 common:
 - group: agent
   title: ''
@@ -434,7 +464,7 @@ plans:
 - name: Lastfm Plans Pricing
   plan_count: 2
   slug: lastfm-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Lastfm Rate Limits
@@ -476,7 +506,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/screenshots/lastfm-2026-06-20T184325.png
 security:

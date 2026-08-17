@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Contact sales
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - authentication
+  - plans/signal-ai-plans-pricing.yml
+  - https://signal-ai.com/solutions/api
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,18 +20,18 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-12'
-api_count: 10
+  score: 47.1
+  scored_at: '2026-08-17'
+api_count: 11
 apis:
 - description: 'The Affinity API endpoints allow API users to leverage the power of the Signal AI Knowledge Graph, derived from billions of documents and updated regularly. The Signal AI Knowledge Graph consists of: '
   name: Signal AI Affinity API
@@ -61,7 +63,47 @@ apis:
 - description: The Topics API from Signal AI — 2 operation(s) for topics.
   name: Signal AI Topics API
   slug: signal-ai-topics-api
-artifact_total: 14
+- description: 'Organisation administration for the Signal AI API. `GET /users` returns all users in the organisation of the authenticated API credential, and requires a credential carrying the `manage-organisation` '
+  name: Signal AI Organisation API
+  slug: signal-ai-organisation-api
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Signal AI Affinity API
+  slug: open-signal-ai-affinity-api
+- collection_type: open
+  name: Signal AI Affinity Categories API
+  slug: open-signal-ai-categories-api
+- collection_type: open
+  name: Signal AI Affinity Content Metrics API
+  slug: open-signal-ai-content-metrics-api
+- collection_type: open
+  name: Signal AI Affinity Content Search API
+  slug: open-signal-ai-content-search-api
+- collection_type: open
+  name: Signal AI Affinity Entities API
+  slug: open-signal-ai-entities-api
+- collection_type: open
+  name: Signal AI Affinity Events API
+  slug: open-signal-ai-events-api
+- collection_type: open
+  name: Signal AI Affinity Openapi.json API
+  slug: open-signal-ai-openapi-json-api
+- collection_type: open
+  name: Signal AI Organisation API
+  slug: open-signal-ai-organisation-api
+- collection_type: open
+  name: Signal AI Affinity Publication sources API
+  slug: open-signal-ai-publication-sources-api
+- collection_type: open
+  name: Signal AI Affinity Risk Events API
+  slug: open-signal-ai-risk-events-api
+- collection_type: open
+  name: Signal AI Affinity Topics API
+  slug: open-signal-ai-topics-api
 common:
 - group: auth
   title: ''
@@ -147,6 +189,46 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/signal-ai-packages.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/signal-ai-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/signal-ai-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/signal-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/signal-ai-changelog.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/signal-ai-tool-crosswalk.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.signal-ai.com/docs
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/signal-ai
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/signal-ai/signal-api-tools
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/signal-ai/signal-api-tools#getting-started-with-the-signal-ai-api
 created: '2026-07-17'
 description: Signal AI (Signal Media Ltd) is an AI-powered reputation and risk intelligence platform that turns the world's largest real-time dataset of global news, social, broadcast and regulatory content into actionable insight. Its proprietary AIQ framework understands, enriches and surfaces relevant coverage across 226 markets and 120+ languages, ingesting 5.5M+ articles and labelling 100M+ entities and topics daily. The Signal AI API is an HTTP+JSON API offering programmatic access to the platform via Content Search, Content Metrics, Affinity (the Signal AI Knowledge Graph), Events, and Risk Events endpoints, secured with OAuth2 client-credentials.
 image: https://login.signal-ai.com/auth/resources/hlcwe/login/signal/img/apple-touch-icon.png
@@ -155,31 +237,39 @@ mcp_servers:
 - description: ''
   name: signal-ai-mcp.yml
   slug: signal-ai-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Signal AI
 nav: Providers
 network: true
-overview: 'Signal AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Affinity API, Categories API, Content Metrics API, and 7 more. Tagged areas include Company, Media Intelligence, Reputation Management, Risk Intelligence, and News.
+overview: 'Signal AI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Affinity API, Categories API, Content Metrics API, and 8 more. Tagged areas include Company, Media Intelligence, Reputation Management, Risk Intelligence, and News.
 
 
-  Signal AI''s developer surface includes authentication, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 45
+  Signal AI''s developer surface includes authentication, documentation, engineering blog, support, changelog, API reference, getting-started guide, and 24 more developer resources.'
+plans:
+- name: Signal Ai Plans Pricing
+  plan_count: 0
+  slug: signal-ai-plans-pricing
+random_paper: 140
+rate_limits:
+- limit_count: 8
+  name: Signal Ai Rate Limits
+  slug: signal-ai-rate-limits
 scopes:
 - name: Signal Ai Scopes
-  scope_count: 6
+  scope_count: 7
   slug: signal-ai-scopes
-  summary_line: 6 scopes · clientCredentials
+  summary_line: 7 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 53.6
+  delta: 10.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 54.7
-    developer_ergonomics: 45.1
+    contract_quality: 54.9
+    developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 23.7
+    operational_transparency: 76.3
   previous_composite: 43.3
   provenance:
     conformance: derived
@@ -191,8 +281,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Signal Ai Authentication

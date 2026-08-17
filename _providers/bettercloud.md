@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Manage automation workflows and triggers
   name: BetterCloud Workflows API
   slug: bettercloud-workflows-api
-artifact_total: 109
+artifact_total: 115
 collections:
 - collection_type: postman
   name: BetterCloud Platform Events API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: BetterCloud Platform Events Workflows API
   slug: postman-bettercloud-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BetterCloud Platform Events API
+  slug: open-bettercloud-events-api
+- collection_type: open
+  name: BetterCloud Platform Events Groups API
+  slug: open-bettercloud-groups-api
+- collection_type: open
+  name: BetterCloud Platform Events Integrations API
+  slug: open-bettercloud-integrations-api
+- collection_type: open
+  name: BetterCloud Platform Events Users API
+  slug: open-bettercloud-users-api
+- collection_type: open
+  name: BetterCloud Platform Events Workflows API
+  slug: open-bettercloud-workflows-api
 common:
 - group: build
   title: ''
@@ -402,7 +420,7 @@ plans:
 - name: Bettercloud Plans Pricing
   plan_count: 3
   slug: bettercloud-plans-pricing
-random_paper: 101
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Bettercloud Rate Limits
@@ -444,7 +462,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/screenshots/bettercloud-2026-06-20T173204.png
 security:

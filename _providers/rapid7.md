@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 221
   human_in_the_loop: 5
@@ -190,8 +190,11 @@ apis:
 - description: Resources and operations for retrieving vulnerability results on assessed assets.
   name: Rapid7 Vulnerability Result API
   slug: rapid7-vulnerability-result-api
-artifact_total: 273
+artifact_total: 321
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: InsightAppSec API
   slug: open-insightappsec
@@ -201,6 +204,147 @@ collections:
 - collection_type: open
   name: InsightVM API
   slug: open-insightvm-console-swagger
+- collection_type: open
+  name: InsightAppSec Accounts API
+  slug: open-rapid7-accounts-api
+- collection_type: open
+  name: InsightAppSec Accounts Administration API
+  slug: open-rapid7-administration-api
+- collection_type: open
+  name: InsightAppSec Accounts Apps API
+  slug: open-rapid7-apps-api
+- collection_type: open
+  name: InsightAppSec Accounts Asset API
+  slug: open-rapid7-asset-api
+- collection_type: open
+  name: InsightAppSec Accounts Asset Discovery API
+  slug: open-rapid7-asset-discovery-api
+- collection_type: open
+  name: InsightAppSec Accounts Asset Group API
+  slug: open-rapid7-asset-group-api
+- collection_type: open
+  name: InsightAppSec Accounts Assets API
+  slug: open-rapid7-assets-api
+- collection_type: open
+  name: InsightAppSec Accounts Attachments API
+  slug: open-rapid7-attachments-api
+- collection_type: open
+  name: InsightAppSec Accounts Attack Templates API
+  slug: open-rapid7-attack-templates-api
+- collection_type: open
+  name: InsightAppSec Accounts Blackouts API
+  slug: open-rapid7-blackouts-api
+- collection_type: open
+  name: InsightAppSec Accounts Collectors API
+  slug: open-rapid7-collectors-api
+- collection_type: open
+  name: InsightAppSec Accounts Comments API
+  slug: open-rapid7-comments-api
+- collection_type: open
+  name: InsightAppSec Accounts Community Threats API
+  slug: open-rapid7-community-threats-api
+- collection_type: open
+  name: InsightAppSec Accounts Credential API
+  slug: open-rapid7-credential-api
+- collection_type: open
+  name: InsightAppSec Accounts Engine Groups API
+  slug: open-rapid7-engine-groups-api
+- collection_type: open
+  name: InsightAppSec Accounts Engines API
+  slug: open-rapid7-engines-api
+- collection_type: open
+  name: InsightAppSec Accounts Files API
+  slug: open-rapid7-files-api
+- collection_type: open
+  name: InsightAppSec Accounts Health Metrics API
+  slug: open-rapid7-health-metrics-api
+- collection_type: open
+  name: InsightAppSec Accounts Investigations API
+  slug: open-rapid7-investigations-api
+- collection_type: open
+  name: InsightAppSec Accounts Local Accounts API
+  slug: open-rapid7-local-accounts-api
+- collection_type: open
+  name: InsightAppSec Accounts Policy API
+  slug: open-rapid7-policy-api
+- collection_type: open
+  name: InsightAppSec Accounts Policy Override API
+  slug: open-rapid7-policy-override-api
+- collection_type: open
+  name: InsightAppSec Accounts Remediation API
+  slug: open-rapid7-remediation-api
+- collection_type: open
+  name: InsightAppSec Accounts Report API
+  slug: open-rapid7-report-api
+- collection_type: open
+  name: InsightAppSec Accounts Reports API
+  slug: open-rapid7-reports-api
+- collection_type: open
+  name: InsightAppSec Accounts Root API
+  slug: open-rapid7-root-api
+- collection_type: open
+  name: InsightAppSec Accounts Scan API
+  slug: open-rapid7-scan-api
+- collection_type: open
+  name: InsightAppSec Accounts Scan Configs API
+  slug: open-rapid7-scan-configs-api
+- collection_type: open
+  name: InsightAppSec Accounts Scan Engine API
+  slug: open-rapid7-scan-engine-api
+- collection_type: open
+  name: InsightAppSec Accounts Scan Template API
+  slug: open-rapid7-scan-template-api
+- collection_type: open
+  name: InsightAppSec Accounts Scans API
+  slug: open-rapid7-scans-api
+- collection_type: open
+  name: InsightAppSec Accounts Schedules API
+  slug: open-rapid7-schedules-api
+- collection_type: open
+  name: InsightAppSec Accounts Search API
+  slug: open-rapid7-search-api
+- collection_type: open
+  name: InsightAppSec Accounts Site API
+  slug: open-rapid7-site-api
+- collection_type: open
+  name: InsightAppSec Accounts Tag API
+  slug: open-rapid7-tag-api
+- collection_type: open
+  name: InsightAppSec Accounts Tags API
+  slug: open-rapid7-tags-api
+- collection_type: open
+  name: InsightAppSec Accounts Targets API
+  slug: open-rapid7-targets-api
+- collection_type: open
+  name: InsightAppSec Accounts User API
+  slug: open-rapid7-user-api
+- collection_type: open
+  name: InsightAppSec Accounts Users API
+  slug: open-rapid7-users-api
+- collection_type: open
+  name: InsightAppSec Accounts Variances Documentation API
+  slug: open-rapid7-variances-documentation-api
+- collection_type: open
+  name: InsightAppSec Accounts Vulnerabilities API
+  slug: open-rapid7-vulnerabilities-api
+- collection_type: open
+  name: InsightAppSec Accounts Vulnerability API
+  slug: open-rapid7-vulnerability-api
+- collection_type: open
+  name: InsightAppSec Accounts Vulnerability Check API
+  slug: open-rapid7-vulnerability-check-api
+- collection_type: open
+  name: InsightAppSec Accounts Vulnerability Comments API
+  slug: open-rapid7-vulnerability-comments-api
+- collection_type: open
+  name: InsightAppSec Accounts Vulnerability Exception API
+  slug: open-rapid7-vulnerability-exception-api
+- collection_type: open
+  name: InsightAppSec Accounts Vulnerability History API
+  slug: open-rapid7-vulnerability-history-api
+- collection_type: open
+  name: InsightAppSec Accounts Vulnerability Result API
+  slug: open-rapid7-vulnerability-result-api
 common:
 - group: agent
   title: ''
@@ -930,7 +1074,7 @@ plans:
 - name: Rapid7 Plans Pricing
   plan_count: 1
   slug: rapid7-plans-pricing
-random_paper: 103
+random_paper: 136
 rate_limits:
 - limit_count: 2
   name: Rapid7 Rate Limits
@@ -964,7 +1108,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png
 security:

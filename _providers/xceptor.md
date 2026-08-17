@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -81,17 +81,50 @@ apis:
 - description: Operations for creating, updating, listing, and deleting workflow definitions.
   name: Xceptor Workflows API
   slug: xceptor-workflows-api
-artifact_total: 56
+artifact_total: 67
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xceptor Document Upload Authentication API
+  slug: open-xceptor-authentication-api
+- collection_type: open
+  name: Xceptor Document Upload Authentication Data Sources API
+  slug: open-xceptor-data-sources-api
 - collection_type: open
   name: Xceptor Document Upload API
   slug: open-xceptor-document-upload-api
 - collection_type: open
+  name: Xceptor Document Upload Authentication Documents API
+  slug: open-xceptor-documents-api
+- collection_type: open
+  name: Xceptor Document Upload Authentication Extraction API
+  slug: open-xceptor-extraction-api
+- collection_type: open
+  name: Xceptor Document Upload Authentication Health API
+  slug: open-xceptor-health-api
+- collection_type: open
+  name: Xceptor Document Upload Authentication Jobs API
+  slug: open-xceptor-jobs-api
+- collection_type: open
   name: Xceptor REST API
   slug: open-xceptor-rest-api
 - collection_type: open
+  name: Xceptor Document Upload Authentication Templates API
+  slug: open-xceptor-templates-api
+- collection_type: open
   name: Xceptor Workflow API
   slug: open-xceptor-workflow-api
+- collection_type: open
+  name: Xceptor Document Upload Authentication Workflow Runs API
+  slug: open-xceptor-workflow-runs-api
+- collection_type: open
+  name: Xceptor Document Upload Authentication Workflow Steps API
+  slug: open-xceptor-workflow-steps-api
+- collection_type: open
+  name: Xceptor Document Upload Authentication Workflows API
+  slug: open-xceptor-workflows-api
 common:
 - group: agent
   title: ''
@@ -330,7 +363,7 @@ plans:
 - name: Xceptor Plans Pricing
   plan_count: 1
   slug: xceptor-plans-pricing
-random_paper: 53
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Xceptor Rate Limits
@@ -364,7 +397,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/screenshots/xceptor-2026-06-20T201656.png
 security:

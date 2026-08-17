@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -90,7 +90,62 @@ apis:
 - description: The Workflow API API from SEDNA — 2 operation(s) for workflow api.
   name: SEDNA Workflow API API
   slug: sedna-workflow-api-api
-artifact_total: 22
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sedna Authentication API
+  slug: open-sedna-authentication-api
+- collection_type: open
+  name: Sedna Authentication Category Tag API API
+  slug: open-sedna-category-tag-api-api
+- collection_type: open
+  name: Sedna Authentication Comment API API
+  slug: open-sedna-comment-api-api
+- collection_type: open
+  name: Sedna Authentication Company API API
+  slug: open-sedna-company-api-api
+- collection_type: open
+  name: Sedna Authentication Contact API API
+  slug: open-sedna-contact-api-api
+- collection_type: open
+  name: Sedna Authentication Document API API
+  slug: open-sedna-document-api-api
+- collection_type: open
+  name: Sedna Authentication Download API API
+  slug: open-sedna-download-api-api
+- collection_type: open
+  name: Sedna Authentication Event API API
+  slug: open-sedna-event-api-api
+- collection_type: open
+  name: Sedna Authentication Job Reference API API
+  slug: open-sedna-job-reference-api-api
+- collection_type: open
+  name: Sedna Authentication Keyword API API
+  slug: open-sedna-keyword-api-api
+- collection_type: open
+  name: Sedna Authentication Message API API
+  slug: open-sedna-message-api-api
+- collection_type: open
+  name: Sedna Authentication Saved Search API API
+  slug: open-sedna-saved-search-api-api
+- collection_type: open
+  name: Sedna Authentication Team API API
+  slug: open-sedna-team-api-api
+- collection_type: open
+  name: Sedna Authentication Template API API
+  slug: open-sedna-template-api-api
+- collection_type: open
+  name: Sedna Authentication User API API
+  slug: open-sedna-user-api-api
+- collection_type: open
+  name: Sedna Authentication Vessel API API
+  slug: open-sedna-vessel-api-api
+- collection_type: open
+  name: Sedna Authentication Workflow API API
+  slug: open-sedna-workflow-api-api
 common:
 - group: other
   title: ''
@@ -208,7 +263,7 @@ overview: 'SEDNA publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   SEDNA''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 43
+random_paper: 76
 scopes:
 - name: Sedna Scopes
   scope_count: 53
@@ -237,7 +292,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

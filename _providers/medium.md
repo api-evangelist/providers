@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,14 +57,35 @@ apis:
 - description: Operations for retrieving authenticated user profile information including username, name, URL, and avatar image.
   name: medium Users API
   slug: medium-users-api
-artifact_total: 19
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Medium OAuth2 Authorization API
+  slug: open-medium-authorization-api
+- collection_type: open
+  name: Medium OAuth2 Authorization Images API
+  slug: open-medium-images-api
 - collection_type: open
   name: Medium OAuth2 API
   slug: open-medium-oauth2
 - collection_type: open
+  name: Medium OAuth2 Authorization Posts API
+  slug: open-medium-posts-api
+- collection_type: open
+  name: Medium OAuth2 Authorization Publications API
+  slug: open-medium-publications-api
+- collection_type: open
   name: Medium REST API
   slug: open-medium-rest-api
+- collection_type: open
+  name: Medium OAuth2 Authorization Tokens API
+  slug: open-medium-tokens-api
+- collection_type: open
+  name: Medium OAuth2 Authorization Users API
+  slug: open-medium-users-api
 common:
 - group: agent
   title: ''
@@ -139,7 +160,7 @@ plans:
 - name: Medium Plans Pricing
   plan_count: 3
   slug: medium-plans-pricing
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Medium Rate Limits
@@ -173,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/screenshots/medium-2026-06-20T185123.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -159,7 +159,131 @@ apis:
 - description: A **Utility Meter** measures consumption (electricity, gas, water, heating or cooling) for a **Building**. Meters are created and updated through the API, identified by your `external_id`, and own the
   name: Alasco Utility Meters API
   slug: alasco-utility-meters-api
-artifact_total: 46
+artifact_total: 87
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CAPEX Annual Consumption API
+  slug: open-alasco-annual-consumption-api
+- collection_type: open
+  name: CAPEX Annual Consumption Asset API
+  slug: open-alasco-asset-api
+- collection_type: open
+  name: CAPEX Annual Consumption Audit Log API
+  slug: open-alasco-audit-log-api
+- collection_type: open
+  name: CAPEX Annual Consumption Budget Shift API
+  slug: open-alasco-budget-shift-api
+- collection_type: open
+  name: CAPEX Annual Consumption Buildings API
+  slug: open-alasco-buildings-api
+- collection_type: open
+  name: CAPEX Annual Consumption Cash Outflow Cost Element View API
+  slug: open-alasco-cash-outflow-cost-element-view-api
+- collection_type: open
+  name: CAPEX Annual Consumption Change Order API
+  slug: open-alasco-change-order-api
+- collection_type: open
+  name: CAPEX Annual Consumption Change Order Document API
+  slug: open-alasco-change-order-document-api
+- collection_type: open
+  name: CAPEX Annual Consumption Consumption Intervals API
+  slug: open-alasco-consumption-intervals-api
+- collection_type: open
+  name: CAPEX Annual Consumption Contact API
+  slug: open-alasco-contact-api
+- collection_type: open
+  name: CAPEX Annual Consumption Contract API
+  slug: open-alasco-contract-api
+- collection_type: open
+  name: CAPEX Annual Consumption Contract Document API
+  slug: open-alasco-contract-document-api
+- collection_type: open
+  name: CAPEX Annual Consumption Contract Financials API
+  slug: open-alasco-contract-financials-api
+- collection_type: open
+  name: CAPEX Annual Consumption Contract Unit API
+  slug: open-alasco-contract-unit-api
+- collection_type: open
+  name: CAPEX Annual Consumption Contract Unit Financials API
+  slug: open-alasco-contract-unit-financials-api
+- collection_type: open
+  name: CAPEX Annual Consumption Contracting Entity API
+  slug: open-alasco-contracting-entity-api
+- collection_type: open
+  name: CAPEX Annual Consumption Contractor API
+  slug: open-alasco-contractor-api
+- collection_type: open
+  name: CAPEX Annual Consumption Cost Element API
+  slug: open-alasco-cost-element-api
+- collection_type: open
+  name: CAPEX Annual Consumption Cost Element Contract Financials API
+  slug: open-alasco-cost-element-contract-financials-api
+- collection_type: open
+  name: CAPEX Annual Consumption Cost Element Contract Unit Financials API
+  slug: open-alasco-cost-element-contract-unit-financials-api
+- collection_type: open
+  name: CAPEX Annual Consumption Cost Element Financials API
+  slug: open-alasco-cost-element-financials-api
+- collection_type: open
+  name: CAPEX Annual Consumption Cost Element Tree Template API
+  slug: open-alasco-cost-element-tree-template-api
+- collection_type: open
+  name: CAPEX Annual Consumption Custom Field API
+  slug: open-alasco-custom-field-api
+- collection_type: open
+  name: CAPEX Annual Consumption Custom Field Definition API
+  slug: open-alasco-custom-field-definition-api
+- collection_type: open
+  name: CAPEX Annual Consumption Documents API
+  slug: open-alasco-documents-api
+- collection_type: open
+  name: CAPEX Annual Consumption Invoice API
+  slug: open-alasco-invoice-api
+- collection_type: open
+  name: CAPEX Annual Consumption Invoice Document API
+  slug: open-alasco-invoice-document-api
+- collection_type: open
+  name: CAPEX Annual Consumption Invoice Tag API
+  slug: open-alasco-invoice-tag-api
+- collection_type: open
+  name: CAPEX Annual Consumption Measure API
+  slug: open-alasco-measure-api
+- collection_type: open
+  name: CAPEX Annual Consumption Outright Sale API
+  slug: open-alasco-outright-sale-api
+- collection_type: open
+  name: CAPEX Annual Consumption Project API
+  slug: open-alasco-project-api
+- collection_type: open
+  name: CAPEX Annual Consumption Project Financials API
+  slug: open-alasco-project-financials-api
+- collection_type: open
+  name: CAPEX Annual Consumption Property API
+  slug: open-alasco-property-api
+- collection_type: open
+  name: CAPEX Annual Consumption Rent Unit API
+  slug: open-alasco-rent-unit-api
+- collection_type: open
+  name: CAPEX Annual Consumption Sales Unit API
+  slug: open-alasco-sales-unit-api
+- collection_type: open
+  name: CAPEX Annual Consumption Tenant Consumption Links API
+  slug: open-alasco-tenant-consumption-links-api
+- collection_type: open
+  name: CAPEX Annual Consumption Tenants API
+  slug: open-alasco-tenants-api
+- collection_type: open
+  name: CAPEX Annual Consumption Utility Data Batch Info API
+  slug: open-alasco-utility-data-batch-info-api
+- collection_type: open
+  name: CAPEX Annual Consumption Utility Meter Readings API
+  slug: open-alasco-utility-meter-readings-api
+- collection_type: open
+  name: CAPEX Annual Consumption Utility Meters API
+  slug: open-alasco-utility-meters-api
 common:
 - group: other
   title: ''
@@ -305,7 +429,7 @@ overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 27
+random_paper: 31
 score:
   band: developing
   composite: 52.4
@@ -329,7 +453,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/screenshots/alasco-2026-07-25T195534.png
 security:

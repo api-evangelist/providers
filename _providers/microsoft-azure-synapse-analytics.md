@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 6
@@ -181,7 +181,7 @@ arazzos:
 - description: Subscribe an event trigger to its events and poll until the status settles.
   name: Azure Synapse Analytics Subscribe Trigger to Events
   slug: microsoft-azure-synapse-analytics-subscribe-trigger-to-events-workflow
-artifact_total: 252
+artifact_total: 288
 collections:
 - collection_type: postman
   name: Azure Synapse Analytics - Access Control API
@@ -274,6 +274,9 @@ collections:
   name: Azure Synapse Analytics - Workspace API
   slug: postman-azure-synapse-analytics-workspace
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Synapse Analytics - Access Control API
   slug: open-azure-synapse-analytics-access-control
 - collection_type: open
@@ -363,6 +366,111 @@ collections:
 - collection_type: open
   name: Azure Synapse Analytics - Workspace API
   slug: open-azure-synapse-analytics-workspace
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications API
+  slug: open-microsoft-azure-synapse-analytics-azureadonlyauthentications-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications BigDataPools API
+  slug: open-microsoft-azure-synapse-analytics-bigdatapools-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Credential API
+  slug: open-microsoft-azure-synapse-analytics-credential-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications DataFlow API
+  slug: open-microsoft-azure-synapse-analytics-dataflow-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications DataFlowDebugSession API
+  slug: open-microsoft-azure-synapse-analytics-dataflowdebugsession-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Dataset API
+  slug: open-microsoft-azure-synapse-analytics-dataset-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications GitIntegration API
+  slug: open-microsoft-azure-synapse-analytics-gitintegration-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications IntegrationRuntimes API
+  slug: open-microsoft-azure-synapse-analytics-integrationruntimes-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications IpFirewallRules API
+  slug: open-microsoft-azure-synapse-analytics-ipfirewallrules-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Keys API
+  slug: open-microsoft-azure-synapse-analytics-keys-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications KqlScripts API
+  slug: open-microsoft-azure-synapse-analytics-kqlscripts-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications KustoPools API
+  slug: open-microsoft-azure-synapse-analytics-kustopools-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Library API
+  slug: open-microsoft-azure-synapse-analytics-library-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications LinkConnection API
+  slug: open-microsoft-azure-synapse-analytics-linkconnection-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications LinkedService API
+  slug: open-microsoft-azure-synapse-analytics-linkedservice-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications ManagedPrivateEndpoints API
+  slug: open-microsoft-azure-synapse-analytics-managedprivateendpoints-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Monitoring API
+  slug: open-microsoft-azure-synapse-analytics-monitoring-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Notebook API
+  slug: open-microsoft-azure-synapse-analytics-notebook-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Pipeline API
+  slug: open-microsoft-azure-synapse-analytics-pipeline-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications PrivateEndpointConnections API
+  slug: open-microsoft-azure-synapse-analytics-privateendpointconnections-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications PrivateLinkHubs API
+  slug: open-microsoft-azure-synapse-analytics-privatelinkhubs-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications RoleAssignments API
+  slug: open-microsoft-azure-synapse-analytics-roleassignments-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications SparkBatch API
+  slug: open-microsoft-azure-synapse-analytics-sparkbatch-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications SparkConfiguration API
+  slug: open-microsoft-azure-synapse-analytics-sparkconfiguration-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications SparkJobDefinition API
+  slug: open-microsoft-azure-synapse-analytics-sparkjobdefinition-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications SparkSession API
+  slug: open-microsoft-azure-synapse-analytics-sparksession-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications SqlPoolRestorePoints API
+  slug: open-microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications SqlPools API
+  slug: open-microsoft-azure-synapse-analytics-sqlpools-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications SqlPoolTransparentDataEncryption API
+  slug: open-microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications SqlScript API
+  slug: open-microsoft-azure-synapse-analytics-sqlscript-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications SynapseLink API
+  slug: open-microsoft-azure-synapse-analytics-synapselink-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Trigger API
+  slug: open-microsoft-azure-synapse-analytics-trigger-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications WorkspaceAadAdmins API
+  slug: open-microsoft-azure-synapse-analytics-workspaceaadadmins-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications WorkspaceManagedIdentity API
+  slug: open-microsoft-azure-synapse-analytics-workspacemanagedidentity-api
+- collection_type: open
+  name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Workspaces API
+  slug: open-microsoft-azure-synapse-analytics-workspaces-api
 common:
 - group: agent
   title: ''
@@ -962,7 +1070,7 @@ plans:
 - name: Microsoft Azure Synapse Analytics Plans Pricing
   plan_count: 5
   slug: microsoft-azure-synapse-analytics-plans-pricing
-random_paper: 47
+random_paper: 129
 rate_limits:
 - limit_count: 7
   name: Microsoft Azure Synapse Analytics Rate Limits
@@ -1001,7 +1109,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/screenshots/microsoft-azure-synapse-analytics-2026-06-20T185441.png
 security:

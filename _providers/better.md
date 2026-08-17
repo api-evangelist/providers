@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -92,7 +92,7 @@ overview: 'Better is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Better''s developer surface includes engineering blog, support, pricing, authentication, and 8 more developer resources.'
-random_paper: 46
+random_paper: 50
 scopes:
 - name: Better Scopes
   scope_count: 4
@@ -119,7 +119,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/better/refs/heads/main/screenshots/better-2026-07-25T202802.png
 security:

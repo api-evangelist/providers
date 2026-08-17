@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,14 @@ apis:
 - description: The Siteverify API from Friendly Captcha — 1 operation(s) for siteverify.
   name: Friendly Captcha Siteverify API
   slug: friendly-captcha-siteverify-api
-artifact_total: 12
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Friendly Captcha Siteverify API
+  slug: open-friendly-captcha-siteverify-api
 - collection_type: open
   name: Friendly Captcha Siteverify API
   slug: open-friendly-captcha
@@ -136,7 +142,7 @@ plans:
 - name: Friendly Captcha Plans Pricing
   plan_count: 1
   slug: friendly-captcha-plans-pricing
-random_paper: 70
+random_paper: 140
 rate_limits:
 - limit_count: 2
   name: Friendly Captcha Rate Limits
@@ -161,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/screenshots/friendly-captcha-2026-06-20T181553.png
 security:

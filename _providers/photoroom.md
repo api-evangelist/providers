@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Segment API from Photoroom — 1 operation(s) for segment.
   name: Photoroom Segment API
   slug: photoroom-segment-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Photoroom Account API
+  slug: open-photoroom-account-api
+- collection_type: open
+  name: Photoroom Account Edit API
+  slug: open-photoroom-edit-api
+- collection_type: open
+  name: Photoroom Account Render API
+  slug: open-photoroom-render-api
+- collection_type: open
+  name: Photoroom Account Segment API
+  slug: open-photoroom-segment-api
 - collection_type: open
   name: Photoroom API
   slug: open-photoroom
@@ -125,7 +140,7 @@ plans:
 - name: Photoroom Plans Pricing
   plan_count: 5
   slug: photoroom-plans-pricing
-random_paper: 39
+random_paper: 105
 rate_limits:
 - limit_count: 3
   name: Photoroom Rate Limits
@@ -150,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/screenshots/photoroom-2026-06-20T191651.png
 security:

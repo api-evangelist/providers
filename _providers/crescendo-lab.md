@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-12'
+  score: 60.1
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Bulk (1-to-many) SMS. Small batches dispatch inline; >30 recipients queue asynchronously.
@@ -43,11 +43,27 @@ apis:
 - description: Cost-attribution teams. Tag sends with a team to see which team sent/spent how much (shared wallet — reporting only, not a wallet split).
   name: Crescendo Lab Teams API
   slug: crescendo-lab-teams-api
-artifact_total: 8
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Crescendo Lab Maacgo Webhooks
   slug: crescendo-lab-maacgo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MAAC Go Broadcast API
+  slug: open-crescendo-lab-broadcast-api
+- collection_type: open
+  name: MAAC Go Broadcast Contacts API
+  slug: open-crescendo-lab-contacts-api
+- collection_type: open
+  name: MAAC Go Broadcast SMS API
+  slug: open-crescendo-lab-sms-api
+- collection_type: open
+  name: MAAC Go Broadcast Teams API
+  slug: open-crescendo-lab-teams-api
 common:
 - group: other
   title: ''
@@ -80,6 +96,10 @@ common:
 - group: start
   title: ''
   type: SignUp
+  url: https://sms.cresclab.com/signup.html
+- group: start
+  title: ''
+  type: Login
   url: https://sms.cresclab.com/app.html
 - group: commercial
   title: ''
@@ -113,10 +133,34 @@ common:
   title: ''
   type: MCPServer
   url: mcp/crescendo-lab-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/crescendo-lab-tool-crosswalk.yml
 - group: agent
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/crescendo-lab-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/crescendo-lab-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://sms.cresclab.com/openapi.yaml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://sms.cresclab.com/developers.html
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/crescendo-lab-sandbox.yml
 - group: auth
   title: ''
   type: Authentication
@@ -133,10 +177,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/crescendo-lab-domain-security.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/crescendo-lab-well-known.yml
 created: '2026-07-17'
 description: Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel customer communication software company (cresclab.com) serving 800+ global brands, and a LINE Biz-Solutions Gold Partner. Its platform spans MAAC (AI marketing automation), CAAC (conversational applications), and DAAC (data intelligence) across LINE, WhatsApp, SMS, email, and social channels. Its developer-facing surface is MAAC Go (sms.cresclab.com) — a self-serve, NCC-compliant Taiwan SMS API with a published OpenAPI spec, first-party Node/Python SDKs, a CLI, an official MCP server, and delivery webhooks. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crescendo-lab.png
@@ -145,7 +185,7 @@ mcp_servers:
 - description: ''
   name: crescendo-lab-mcp.yml
   slug: crescendo-lab-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Crescendo Lab
 nav: Providers
 network: true
@@ -155,19 +195,27 @@ overview: 'Crescendo Lab publishes 4 APIs on the [APIs.io](https://apis.io/) net
   The Crescendo Lab catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Crescendo Lab''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 16 more developer resources.'
-random_paper: 98
+  Crescendo Lab''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, API reference, getting-started guide, and 21 more developer resources.'
+plans:
+- name: Crescendo Lab Plans Pricing
+  plan_count: 8
+  slug: crescendo-lab-plans-pricing
+random_paper: 106
+rate_limits:
+- limit_count: 2
+  name: Crescendo Lab Rate Limits
+  slug: crescendo-lab-rate-limits
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 55.8
+  delta: 11.8
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 64.3
-    developer_ergonomics: 58.2
+    developer_ergonomics: 82.1
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 5.3
+    operational_transparency: 26.3
   previous_composite: 44.0
   provenance:
     conformance: derived
@@ -185,8 +233,8 @@ score:
     regime_id: telecommunications
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,11 +59,26 @@ apis:
 - description: Endpoints for searching and retrieving distributed traces.
   name: Jaeger Traces API
   slug: jaeger-traces-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jaeger Query Dependencies API
+  slug: open-jaeger-dependencies-api
+- collection_type: open
+  name: Jaeger Query Dependencies Metrics API
+  slug: open-jaeger-metrics-api
 - collection_type: open
   name: Jaeger Query API
   slug: open-jaeger-query-api
+- collection_type: open
+  name: Jaeger Query Dependencies Services API
+  slug: open-jaeger-services-api
+- collection_type: open
+  name: Jaeger Query Dependencies Traces API
+  slug: open-jaeger-traces-api
 common:
 - group: operate
   title: ''
@@ -164,7 +179,7 @@ plans:
 - name: Jaeger Plans Pricing
   plan_count: 3
   slug: jaeger-plans-pricing
-random_paper: 22
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Jaeger Rate Limits
@@ -198,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/screenshots/jaeger-2026-06-20T183651.png
 security:

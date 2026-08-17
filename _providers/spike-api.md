@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -75,8 +75,44 @@ apis:
 - description: Query normalized workouts and physical activities.
   name: Spike Workouts API
   slug: spike-api-workouts-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spike Application User Auth API
+  slug: open-spike-api-auth-api
+- collection_type: open
+  name: Spike Application User Auth Lab Reports API
+  slug: open-spike-api-lab-reports-api
+- collection_type: open
+  name: Spike Application User Auth Nutrition AI API
+  slug: open-spike-api-nutrition-ai-api
+- collection_type: open
+  name: Spike Application User Auth Provider Integrations API
+  slug: open-spike-api-provider-integrations-api
+- collection_type: open
+  name: Spike Application User Auth Provider Records API
+  slug: open-spike-api-provider-records-api
+- collection_type: open
+  name: Spike Application User Auth SDK Push API
+  slug: open-spike-api-sdk-push-api
+- collection_type: open
+  name: Spike Application User Auth Sleep API
+  slug: open-spike-api-sleep-api
+- collection_type: open
+  name: Spike Application User Auth Statistics API
+  slug: open-spike-api-statistics-api
+- collection_type: open
+  name: Spike Application User Auth Time Series API
+  slug: open-spike-api-time-series-api
+- collection_type: open
+  name: Spike Application User Auth Users API
+  slug: open-spike-api-users-api
+- collection_type: open
+  name: Spike Application User Auth Workouts API
+  slug: open-spike-api-workouts-api
 - collection_type: open
   name: Spike Application User API
   slug: open-spike-api
@@ -145,7 +181,7 @@ plans:
 - name: Spike Api Plans Pricing
   plan_count: 4
   slug: spike-api-plans-pricing
-random_paper: 59
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Spike Api Rate Limits
@@ -176,7 +212,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

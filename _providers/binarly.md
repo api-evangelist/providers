@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -105,7 +105,71 @@ arazzos:
 - description: Create (or reuse) a product, upload a firmware/binary image, run a scan, poll until it completes, then list the findings and pull a PDF report — the core CI/CD gate flow for the Binarly Transparency P
   name: Scan firmware in CI/CD with Binarly
   slug: binarly-scan-firmware
-artifact_total: 27
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Binarly Assistant API
+  slug: open-binarly-assistant-api
+- collection_type: open
+  name: Binarly Assistant Chart API
+  slug: open-binarly-chart-api
+- collection_type: open
+  name: Binarly Assistant CustomRules API
+  slug: open-binarly-customrules-api
+- collection_type: open
+  name: Binarly Assistant Escalation API
+  slug: open-binarly-escalation-api
+- collection_type: open
+  name: Binarly Assistant File API
+  slug: open-binarly-file-api
+- collection_type: open
+  name: Binarly Assistant Finding API
+  slug: open-binarly-finding-api
+- collection_type: open
+  name: Binarly Assistant Grid API
+  slug: open-binarly-grid-api
+- collection_type: open
+  name: Binarly Assistant Group API
+  slug: open-binarly-group-api
+- collection_type: open
+  name: Binarly Assistant Image API
+  slug: open-binarly-image-api
+- collection_type: open
+  name: Binarly Assistant Integration API
+  slug: open-binarly-integration-api
+- collection_type: open
+  name: Binarly Assistant Notification API
+  slug: open-binarly-notification-api
+- collection_type: open
+  name: Binarly Assistant Product API
+  slug: open-binarly-product-api
+- collection_type: open
+  name: Binarly Assistant RoleBinding API
+  slug: open-binarly-rolebinding-api
+- collection_type: open
+  name: Binarly Assistant Scan API
+  slug: open-binarly-scan-api
+- collection_type: open
+  name: Binarly Assistant Search API
+  slug: open-binarly-search-api
+- collection_type: open
+  name: Binarly Assistant Subscription API
+  slug: open-binarly-subscription-api
+- collection_type: open
+  name: Binarly Assistant TempFile API
+  slug: open-binarly-tempfile-api
+- collection_type: open
+  name: Binarly Assistant User API
+  slug: open-binarly-user-api
+- collection_type: open
+  name: Binarly Assistant UserStorage API
+  slug: open-binarly-userstorage-api
+- collection_type: open
+  name: Binarly Assistant Vulnerability API
+  slug: open-binarly-vulnerability-api
 common:
 - group: agent
   title: ''
@@ -231,7 +295,7 @@ overview: 'Binarly publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Binarly''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
-random_paper: 33
+random_paper: 8
 score:
   band: developing
   composite: 48.5
@@ -255,7 +319,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/screenshots/binarly-2026-07-25T202957.png
 security:

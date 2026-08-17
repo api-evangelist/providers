@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Partner-only API access for shipping, payment, and integration partners. Not self-serve; access granted under partnership agreements.
@@ -92,7 +92,7 @@ plans:
 - name: Mercari Plans Pricing
   plan_count: 1
   slug: mercari-plans-pricing
-random_paper: 19
+random_paper: 143
 rate_limits:
 - limit_count: 1
   name: Mercari Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercari/refs/heads/main/screenshots/mercari-2026-06-20T185213.png
 security:

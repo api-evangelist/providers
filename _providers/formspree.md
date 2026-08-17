@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,14 @@ apis:
 - description: The Forms API from Formspree — 1 operation(s) for forms.
   name: Formspree Forms API
   slug: formspree-forms-api
-artifact_total: 12
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Formspree Form Submissions Forms API
+  slug: open-formspree-forms-api
 - collection_type: open
   name: Formspree Form Submissions API
   slug: open-formspree
@@ -134,7 +140,7 @@ plans:
 - name: Formspree Plans Pricing
   plan_count: 4
   slug: formspree-plans-pricing
-random_paper: 19
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Formspree Rate Limits
@@ -159,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formspree/refs/heads/main/screenshots/formspree-2026-06-20T181435.png
 security:

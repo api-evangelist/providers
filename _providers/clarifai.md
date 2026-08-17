@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 247
   human_in_the_loop: 6
@@ -41,7 +41,14 @@ apis:
 - description: The V2 API from Clarifai — 297 operation(s) for v2.
   name: Clarifai V2 API
   slug: clarifai-v2-api
-artifact_total: 40
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: proto/clarifai/api/service.proto V2 API
+  slug: open-clarifai-v2-api
 common:
 - group: agent
   title: ''
@@ -223,7 +230,7 @@ plans:
 - name: Clarifai Plans Pricing
   plan_count: 4
   slug: clarifai-plans-pricing
-random_paper: 107
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Clarifai Rate Limits
@@ -257,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/screenshots/clarifai-2026-06-20T174436.png
 security:

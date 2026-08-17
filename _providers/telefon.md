@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Recording transcription management
   name: Telefon Transcriptions API
   slug: telefon-transcriptions-api
-artifact_total: 31
+artifact_total: 39
 collections:
 - collection_type: postman
   name: Telefon Number Management Available Numbers API
@@ -84,14 +84,38 @@ collections:
   name: Telefon Number Management Available Numbers Transcriptions API
   slug: postman-telefon-transcriptions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telefon Number Management Available Numbers API
+  slug: open-telefon-available-numbers-api
+- collection_type: open
+  name: Telefon Number Management Available Numbers Calls API
+  slug: open-telefon-calls-api
+- collection_type: open
+  name: Telefon Number Management Available Numbers Conferences API
+  slug: open-telefon-conferences-api
+- collection_type: open
+  name: Telefon Number Management Available Numbers Messages API
+  slug: open-telefon-messages-api
+- collection_type: open
   name: Telefon Number Management API
   slug: open-telefon-numbers
+- collection_type: open
+  name: Telefon Number Management Available Numbers Owned Numbers API
+  slug: open-telefon-owned-numbers-api
 - collection_type: open
   name: Telefon Call Recording API
   slug: open-telefon-recording
 - collection_type: open
+  name: Telefon Number Management Available Numbers Recordings API
+  slug: open-telefon-recordings-api
+- collection_type: open
   name: Telefon SMS API
   slug: open-telefon-sms
+- collection_type: open
+  name: Telefon Number Management Available Numbers Transcriptions API
+  slug: open-telefon-transcriptions-api
 - collection_type: open
   name: Telefon Voice API
   slug: open-telefon-voice
@@ -203,7 +227,7 @@ plans:
 - name: Telefon Plans Pricing
   plan_count: 1
   slug: telefon-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Telefon Rate Limits
@@ -251,7 +275,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/screenshots/telefon-2026-06-20T195028.png
 security:

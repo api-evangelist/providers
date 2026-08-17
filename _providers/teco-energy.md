@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,14 +57,32 @@ apis:
 - description: The Service Requests API from TECO Energy — 1 operation(s) for service requests.
   name: TECO Energy Service Requests API
   slug: teco-energy-service-requests-api
-artifact_total: 22
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Tampa Electric Account API
   slug: open-teco-energy-account
 - collection_type: open
+  name: Tampa Electric Account Accounts API
+  slug: open-teco-energy-accounts-api
+- collection_type: open
+  name: Tampa Electric Account Accounts Billing API
+  slug: open-teco-energy-billing-api
+- collection_type: open
+  name: Tampa Electric Account Accounts Energy Usage API
+  slug: open-teco-energy-energy-usage-api
+- collection_type: open
   name: Tampa Electric Outage API
   slug: open-teco-energy-outage
+- collection_type: open
+  name: Tampa Electric Account Accounts Outages API
+  slug: open-teco-energy-outages-api
+- collection_type: open
+  name: Tampa Electric Account Accounts Service Requests API
+  slug: open-teco-energy-service-requests-api
 common:
 - group: agent
   title: ''
@@ -164,7 +182,7 @@ press:
 - date: '2026-05-25'
   title: Tampa Electric is warning customers about a growing ...
   url: https://www.facebook.com/FOX13TampaBay/posts/tampa-electric-is-warning-customers-about-a-growing-wave-of-utility-scams-using-/1458260039680854/
-random_paper: 42
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Teco Energy Rate Limits
@@ -212,7 +230,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/screenshots/teco-energy-2026-06-20T195017.png
 security:

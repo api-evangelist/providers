@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: The Agent API from Langdock — 2 operation(s) for agent.
@@ -77,7 +77,7 @@ apis:
 - description: The User Management API from Langdock — 2 operation(s) for user management.
   name: Langdock User Management API
   slug: langdock-user-management-api
-artifact_total: 37
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Langdock Webhooks
@@ -128,6 +128,54 @@ collections:
 - collection_type: postman
   name: Langdock Agent User Management API
   slug: postman-langdock-user-management-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Langdock Agent API
+  slug: open-langdock-agent-api
+- collection_type: open
+  name: Langdock Agent Agent Build API
+  slug: open-langdock-agent-build-api
+- collection_type: open
+  name: Langdock Agent Assistant API
+  slug: open-langdock-assistant-api
+- collection_type: open
+  name: Langdock Agent Assistant Build API
+  slug: open-langdock-assistant-build-api
+- collection_type: open
+  name: Langdock Agent Attachments API
+  slug: open-langdock-attachments-api
+- collection_type: open
+  name: Langdock Agent Audit Logs API
+  slug: open-langdock-audit-logs-api
+- collection_type: open
+  name: Langdock Agent Chat API
+  slug: open-langdock-chat-api
+- collection_type: open
+  name: Langdock Agent Embeddings API
+  slug: open-langdock-embeddings-api
+- collection_type: open
+  name: Langdock Agent fim API
+  slug: open-langdock-fim-api
+- collection_type: open
+  name: Langdock Agent Google API
+  slug: open-langdock-google-api
+- collection_type: open
+  name: Langdock Agent Knowledge API
+  slug: open-langdock-knowledge-api
+- collection_type: open
+  name: Langdock Agent Messages API
+  slug: open-langdock-messages-api
+- collection_type: open
+  name: Langdock Agent Skills API
+  slug: open-langdock-skills-api
+- collection_type: open
+  name: Langdock Agent Usage Export API
+  slug: open-langdock-usage-export-api
+- collection_type: open
+  name: Langdock Agent User Management API
+  slug: open-langdock-user-management-api
 common:
 - group: other
   title: ''
@@ -292,7 +340,7 @@ overview: 'Langdock publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Langdock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
-random_paper: 115
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Langdock Rate Limits
@@ -319,7 +367,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png
 security:

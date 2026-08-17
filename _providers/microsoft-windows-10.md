@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -300,7 +300,7 @@ arazzos:
 - description: Verify the user with biometrics or PIN, open their key credential, and sign a server challenge for step-up authentication.
   name: Microsoft Windows 10 Windows Hello Step-Up Sign Challenge
   slug: microsoft-windows-10-windows-hello-stepup-sign-workflow
-artifact_total: 284
+artifact_total: 361
 collections:
 - collection_type: postman
   name: Microsoft Windows 10 Windows Background Tasks API
@@ -354,35 +354,167 @@ collections:
   name: Microsoft Windows 10 WinUI API
   slug: postman-microsoft-windows-10-winui
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer API
+  slug: open-microsoft-windows-10-accelerometer-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Access API
+  slug: open-microsoft-windows-10-access-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Activation API
+  slug: open-microsoft-windows-10-activation-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Animations API
+  slug: open-microsoft-windows-10-animations-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer API Categories API
+  slug: open-microsoft-windows-10-api-categories-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer App Data API
+  slug: open-microsoft-windows-10-app-data-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Attestation API
+  slug: open-microsoft-windows-10-attestation-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Authentication API
+  slug: open-microsoft-windows-10-authentication-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Availability API
+  slug: open-microsoft-windows-10-availability-api
+- collection_type: open
   name: Microsoft Windows 10 Windows Background Tasks API
   slug: open-microsoft-windows-10-background-tasks
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Background Transfers API
+  slug: open-microsoft-windows-10-background-transfers-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Badge Notifications API
+  slug: open-microsoft-windows-10-badge-notifications-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Barometer API
+  slug: open-microsoft-windows-10-barometer-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer BLE Scanning API
+  slug: open-microsoft-windows-10-ble-scanning-api
 - collection_type: open
   name: Microsoft Windows 10 Windows Bluetooth API
   slug: open-microsoft-windows-10-bluetooth
 - collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Change Tracking API
+  slug: open-microsoft-windows-10-change-tracking-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Classes API
+  slug: open-microsoft-windows-10-classes-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Collections API
+  slug: open-microsoft-windows-10-collections-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Command Queues API
+  slug: open-microsoft-windows-10-command-queues-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Compass API
+  slug: open-microsoft-windows-10-compass-api
+- collection_type: open
   name: Microsoft Windows 10 Windows Composition API
   slug: open-microsoft-windows-10-composition
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Connectivity API
+  slug: open-microsoft-windows-10-connectivity-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Controls API
+  slug: open-microsoft-windows-10-controls-api
 - collection_type: open
   name: Microsoft Windows 10 Windows Cortana API
   slug: open-microsoft-windows-10-cortana
 - collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Credentials API
+  slug: open-microsoft-windows-10-credentials-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Devices API
+  slug: open-microsoft-windows-10-devices-api
+- collection_type: open
   name: Microsoft Windows 10 DirectX Graphics API
   slug: open-microsoft-windows-10-directx
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Drawing Attributes API
+  slug: open-microsoft-windows-10-drawing-attributes-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Effects API
+  slug: open-microsoft-windows-10-effects-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Evaluation API
+  slug: open-microsoft-windows-10-evaluation-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer File Operations API
+  slug: open-microsoft-windows-10-file-operations-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Files API
+  slug: open-microsoft-windows-10-files-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Folders API
+  slug: open-microsoft-windows-10-folders-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Functions API
+  slug: open-microsoft-windows-10-functions-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer GATT Characteristics API
+  slug: open-microsoft-windows-10-gatt-characteristics-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer GATT Operations API
+  slug: open-microsoft-windows-10-gatt-operations-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer GATT Services API
+  slug: open-microsoft-windows-10-gatt-services-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Geofencing API
+  slug: open-microsoft-windows-10-geofencing-api
 - collection_type: open
   name: Microsoft Windows 10 Windows Geolocation API
   slug: open-microsoft-windows-10-geolocation
 - collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Gyrometer API
+  slug: open-microsoft-windows-10-gyrometer-api
+- collection_type: open
   name: Microsoft Windows 10 Windows Hello Authentication API
   slug: open-microsoft-windows-10-hello
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer HTTP Client API
+  slug: open-microsoft-windows-10-http-client-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Human Presence API
+  slug: open-microsoft-windows-10-human-presence-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Icons API
+  slug: open-microsoft-windows-10-icons-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Inclinometer API
+  slug: open-microsoft-windows-10-inclinometer-api
 - collection_type: open
   name: Microsoft Windows 10 Windows Ink API
   slug: open-microsoft-windows-10-ink
 - collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Libraries API
+  slug: open-microsoft-windows-10-libraries-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Light Sensor API
+  slug: open-microsoft-windows-10-light-sensor-api
+- collection_type: open
   name: Microsoft Windows 10 Windows Media Capture API
   slug: open-microsoft-windows-10-media-capture
 - collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Messages API
+  slug: open-microsoft-windows-10-messages-api
+- collection_type: open
   name: Microsoft Windows 10 Windows ML API
   slug: open-microsoft-windows-10-ml
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Models API
+  slug: open-microsoft-windows-10-models-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Namespaces API
+  slug: open-microsoft-windows-10-namespaces-api
 - collection_type: open
   name: Microsoft Windows 10 Windows Networking API
   slug: open-microsoft-windows-10-networking
@@ -390,11 +522,110 @@ collections:
   name: Microsoft Windows 10 Windows Notifications API
   slug: open-microsoft-windows-10-notifications
 - collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Orientation API
+  slug: open-microsoft-windows-10-orientation-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Pedometer API
+  slug: open-microsoft-windows-10-pedometer-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Photo Capture API
+  slug: open-microsoft-windows-10-photo-capture-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Phrase Lists API
+  slug: open-microsoft-windows-10-phrase-lists-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Pipeline API
+  slug: open-microsoft-windows-10-pipeline-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Position API
+  slug: open-microsoft-windows-10-position-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Presentation API
+  slug: open-microsoft-windows-10-presentation-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Proximity API
+  slug: open-microsoft-windows-10-proximity-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Recognition API
+  slug: open-microsoft-windows-10-recognition-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Resources API
+  slug: open-microsoft-windows-10-resources-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Responses API
+  slug: open-microsoft-windows-10-responses-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer RFCOMM API
+  slug: open-microsoft-windows-10-rfcomm-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Scheduled Notifications API
+  slug: open-microsoft-windows-10-scheduled-notifications-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Sensors API
+  slug: open-microsoft-windows-10-sensors-api
+- collection_type: open
   name: Microsoft Windows 10 Windows Sensors API
   slug: open-microsoft-windows-10-sensors
 - collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Service Connections API
+  slug: open-microsoft-windows-10-service-connections-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Sessions API
+  slug: open-microsoft-windows-10-sessions-api
+- collection_type: open
   name: Microsoft Windows 10 Windows Storage API
   slug: open-microsoft-windows-10-storage
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Strokes API
+  slug: open-microsoft-windows-10-strokes-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Structures API
+  slug: open-microsoft-windows-10-structures-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Styles API
+  slug: open-microsoft-windows-10-styles-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Surfaces API
+  slug: open-microsoft-windows-10-surfaces-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Accelerometer Tasks API
+  slug: open-microsoft-windows-10-tasks-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer TCP Sockets API
+  slug: open-microsoft-windows-10-tcp-sockets-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Themes API
+  slug: open-microsoft-windows-10-themes-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Tile Notifications API
+  slug: open-microsoft-windows-10-tile-notifications-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Toast Notifications API
+  slug: open-microsoft-windows-10-toast-notifications-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Tracking API
+  slug: open-microsoft-windows-10-tracking-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Triggers API
+  slug: open-microsoft-windows-10-triggers-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer UDP Sockets API
+  slug: open-microsoft-windows-10-udp-sockets-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Video Recording API
+  slug: open-microsoft-windows-10-video-recording-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Visits API
+  slug: open-microsoft-windows-10-visits-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Visuals API
+  slug: open-microsoft-windows-10-visuals-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer Voice Commands API
+  slug: open-microsoft-windows-10-voice-commands-api
+- collection_type: open
+  name: Microsoft Windows 10 Windows Background Tasks Accelerometer WebSockets API
+  slug: open-microsoft-windows-10-websockets-api
 - collection_type: open
   name: Microsoft Windows 10 Win32 API
   slug: open-microsoft-windows-10-win32
@@ -1052,7 +1283,7 @@ plans:
 - name: Microsoft Windows 10 Plans Pricing
   plan_count: 5
   slug: microsoft-windows-10-plans-pricing
-random_paper: 28
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Microsoft Windows 10 Rate Limits
@@ -1086,7 +1317,7 @@ score:
       marker_coverage: 0.0
       total: 77
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-10/refs/heads/main/screenshots/microsoft-windows-10-2026-06-20T185545.png
 security:

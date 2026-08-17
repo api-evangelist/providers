@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Manage webhook subscriptions for fax and number events.
   name: Documo Webhooks API
   slug: documo-webhooks-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Documo Account API
+  slug: open-documo-account-api
+- collection_type: open
+  name: Documo Account Fax API
+  slug: open-documo-fax-api
+- collection_type: open
+  name: Documo Account Numbers API
+  slug: open-documo-numbers-api
+- collection_type: open
+  name: Documo Account Webhooks API
+  slug: open-documo-webhooks-api
 - collection_type: open
   name: Documo API
   slug: open-documo
@@ -121,7 +136,7 @@ plans:
 - name: Documo Plans Pricing
   plan_count: 5
   slug: documo-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Documo Rate Limits
@@ -146,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/screenshots/documo-2026-07-25T212222.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -100,7 +100,7 @@ arazzos:
 - description: Add a user to a group and welcome them with a targeted message in one flow.
   name: Azure Web PubSub Onboard User to Group
   slug: microsoft-azure-web-pubsub-user-onboard-to-group-workflow
-artifact_total: 32
+artifact_total: 36
 asyncapis:
 - description: Azure Web PubSub is a fully managed real-time messaging service from Microsoft Azure that lets clients exchange publish/subscribe messages over WebSockets without operating WebSocket infrastructure. C
   name: Azure Web PubSub
@@ -115,6 +115,18 @@ collections:
 - collection_type: postman
   name: Azure Web PubSub Service Data Plane REST ClientToken Permission API
   slug: postman-microsoft-azure-web-pubsub-permission-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Web PubSub Service Data Plane REST ClientToken API
+  slug: open-microsoft-azure-web-pubsub-clienttoken-api
+- collection_type: open
+  name: Azure Web PubSub Service Data Plane REST ClientToken Hub API
+  slug: open-microsoft-azure-web-pubsub-hub-api
+- collection_type: open
+  name: Azure Web PubSub Service Data Plane REST ClientToken Permission API
+  slug: open-microsoft-azure-web-pubsub-permission-api
 - collection_type: open
   name: Azure Web PubSub Service Data Plane REST API
   slug: open-microsoft-azure-web-pubsub
@@ -318,7 +330,7 @@ plans:
 - name: Microsoft Azure Web Pubsub Plans Pricing
   plan_count: 3
   slug: microsoft-azure-web-pubsub-plans-pricing
-random_paper: 3
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Web Pubsub Rate Limits
@@ -352,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/screenshots/microsoft-azure-web-pubsub-2026-06-20T185444.png
 security:

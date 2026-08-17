@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 34
 apis:
 - description: Managed ClickHouse-based columnar cloud database (AWS us-east-1) pre-loaded with two petabytes of AlgoSeek historical and near-real-time market data, queried with full SQL. Programmatic access is docu
@@ -132,7 +132,110 @@ apis:
 - description: The Vendor API from AlgoSeek — 4 operation(s) for vendor.
   name: AlgoSeek Vendor API
   slug: algoseek-vendor-api
-artifact_total: 37
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: metadata-api AWSAccount API
+  slug: open-algoseek-awsaccount-api
+- collection_type: open
+  name: metadata-api AWSAccount AWSResourceType API
+  slug: open-algoseek-awsresourcetype-api
+- collection_type: open
+  name: metadata-api AWSAccount BucketGroup API
+  slug: open-algoseek-bucketgroup-api
+- collection_type: open
+  name: metadata-api AWSAccount BucketMonitoring API
+  slug: open-algoseek-bucketmonitoring-api
+- collection_type: open
+  name: metadata-api AWSAccount BucketSource API
+  slug: open-algoseek-bucketsource-api
+- collection_type: open
+  name: metadata-api AWSAccount BucketUpdate API
+  slug: open-algoseek-bucketupdate-api
+- collection_type: open
+  name: metadata-api AWSAccount CloudStorage API
+  slug: open-algoseek-cloudstorage-api
+- collection_type: open
+  name: metadata-api AWSAccount CSVColumn API
+  slug: open-algoseek-csvcolumn-api
+- collection_type: open
+  name: metadata-api AWSAccount DatabaseObject API
+  slug: open-algoseek-databaseobject-api
+- collection_type: open
+  name: metadata-api AWSAccount DatabaseTable API
+  slug: open-algoseek-databasetable-api
+- collection_type: open
+  name: metadata-api AWSAccount DataClass API
+  slug: open-algoseek-dataclass-api
+- collection_type: open
+  name: metadata-api AWSAccount DataFormat API
+  slug: open-algoseek-dataformat-api
+- collection_type: open
+  name: metadata-api AWSAccount DataGroup API
+  slug: open-algoseek-datagroup-api
+- collection_type: open
+  name: metadata-api AWSAccount DataGroupPricing API
+  slug: open-algoseek-datagrouppricing-api
+- collection_type: open
+  name: metadata-api AWSAccount Dataset API
+  slug: open-algoseek-dataset-api
+- collection_type: open
+  name: metadata-api AWSAccount DatasetChange API
+  slug: open-algoseek-datasetchange-api
+- collection_type: open
+  name: metadata-api AWSAccount DataType API
+  slug: open-algoseek-datatype-api
+- collection_type: open
+  name: metadata-api AWSAccount DBObjectType API
+  slug: open-algoseek-dbobjecttype-api
+- collection_type: open
+  name: metadata-api AWSAccount DeliveryMethod API
+  slug: open-algoseek-deliverymethod-api
+- collection_type: open
+  name: metadata-api AWSAccount Documentation API
+  slug: open-algoseek-documentation-api
+- collection_type: open
+  name: metadata-api AWSAccount Healthcheck API
+  slug: open-algoseek-healthcheck-api
+- collection_type: open
+  name: metadata-api AWSAccount Identity API
+  slug: open-algoseek-identity-api
+- collection_type: open
+  name: metadata-api AWSAccount Login API
+  slug: open-algoseek-login-api
+- collection_type: open
+  name: metadata-api AWSAccount Person API
+  slug: open-algoseek-person-api
+- collection_type: open
+  name: metadata-api AWSAccount Region API
+  slug: open-algoseek-region-api
+- collection_type: open
+  name: metadata-api AWSAccount S3Object API
+  slug: open-algoseek-s3object-api
+- collection_type: open
+  name: metadata-api AWSAccount SampleData API
+  slug: open-algoseek-sampledata-api
+- collection_type: open
+  name: metadata-api AWSAccount SQLColumn API
+  slug: open-algoseek-sqlcolumn-api
+- collection_type: open
+  name: metadata-api AWSAccount Status API
+  slug: open-algoseek-status-api
+- collection_type: open
+  name: metadata-api AWSAccount StorageType API
+  slug: open-algoseek-storagetype-api
+- collection_type: open
+  name: metadata-api AWSAccount TimeGranularity API
+  slug: open-algoseek-timegranularity-api
+- collection_type: open
+  name: metadata-api AWSAccount TTLPeriodType API
+  slug: open-algoseek-ttlperiodtype-api
+- collection_type: open
+  name: metadata-api AWSAccount Vendor API
+  slug: open-algoseek-vendor-api
 common:
 - group: auth
   title: ''
@@ -262,7 +365,7 @@ overview: 'AlgoSeek publishes 33 APIs on the [APIs.io](https://apis.io/) network
 
 
   AlgoSeek''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 3
+random_paper: 98
 score:
   band: developing
   composite: 46.3
@@ -291,7 +394,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/screenshots/algoseek-2026-07-22T202132.png
 security:

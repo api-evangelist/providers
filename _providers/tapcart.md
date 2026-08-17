@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Insights (Insights Pro) Metrics API returns aggregated analytics for a Tapcart app from a single POST endpoint whose response shape varies by the requested metricType — push explorer, sessions, re
@@ -43,11 +43,30 @@ apis:
 - description: The Development API - Layouts API from Tapcart — 1 operation(s) for development api - layouts.
   name: Tapcart Development API - Layouts API
   slug: tapcart-development-api-layouts-api
-artifact_total: 12
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Tapcart Webhooks
   slug: tapcart-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tapcart @tapcart/app-pages Development API - Block Templates API
+  slug: open-tapcart-development-api-block-templates-api
+- collection_type: open
+  name: Tapcart @tapcart/app-pages Development API - Blocks API
+  slug: open-tapcart-development-api-blocks-api
+- collection_type: open
+  name: Tapcart @tapcart/app-pages Development API - Components API
+  slug: open-tapcart-development-api-components-api
+- collection_type: open
+  name: Tapcart @tapcart/app-pages Development API - Dependencies API
+  slug: open-tapcart-development-api-dependencies-api
+- collection_type: open
+  name: Tapcart @tapcart/app-pages Development API - Layouts API
+  slug: open-tapcart-development-api-layouts-api
 common:
 - group: other
   title: ''
@@ -216,7 +235,7 @@ overview: 'Tapcart publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tapcart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 31
+random_paper: 6
 score:
   band: strong
   composite: 59.0
@@ -239,7 +258,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

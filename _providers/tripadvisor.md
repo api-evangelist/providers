@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,14 +60,35 @@ apis:
 - description: Search for locations by keyword query or geographic proximity. Returns up to 10 matching locations per request.
   name: Tripadvisor Location Search API
   slug: tripadvisor-location-search-api
-artifact_total: 50
+artifact_total: 57
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tripadvisor Content Availability API
+  slug: open-tripadvisor-availability-api
+- collection_type: open
+  name: Tripadvisor Content Availability Configuration API
+  slug: open-tripadvisor-configuration-api
 - collection_type: open
   name: Tripadvisor Content API
   slug: open-tripadvisor-content-api
 - collection_type: open
   name: Tripadvisor Hotel Availability Check API
   slug: open-tripadvisor-hotel-availability-check-api
+- collection_type: open
+  name: Tripadvisor Content Availability Hotel Inventory API
+  slug: open-tripadvisor-hotel-inventory-api
+- collection_type: open
+  name: Tripadvisor Content Availability Location Details API
+  slug: open-tripadvisor-location-details-api
+- collection_type: open
+  name: Tripadvisor Content Availability Location Photos API
+  slug: open-tripadvisor-location-photos-api
+- collection_type: open
+  name: Tripadvisor Content Availability Location Search API
+  slug: open-tripadvisor-location-search-api
 common:
 - group: agent
   title: ''
@@ -222,7 +243,7 @@ plans:
 - name: Tripadvisor Plans Pricing
   plan_count: 2
   slug: tripadvisor-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Tripadvisor Rate Limits
@@ -264,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/screenshots/tripadvisor-2026-06-20T195729.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Hosted Model Context Protocol server at mcp.botify.com, advertised via RFC 9728 protected-resource metadata as "Botify Agents MCP" with the single scope mcp_read_write. Authorization is delegated to a
@@ -48,7 +48,35 @@ apis:
 - description: The User API from Botify — 1 operation(s) for user.
   name: Botify User API
   slug: botify-user-api
-artifact_total: 14
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Botify Analysis API
+  slug: open-botify-analysis-api
+- collection_type: open
+  name: Botify Collections API
+  slug: open-botify-collections-api
+- collection_type: open
+  name: Botify Datasource API
+  slug: open-botify-datasource-api
+- collection_type: open
+  name: Botify Job API
+  slug: open-botify-job-api
+- collection_type: open
+  name: Botify Keywords Groups API
+  slug: open-botify-keywordsgroups-api
+- collection_type: open
+  name: Botify Project API
+  slug: open-botify-project-api
+- collection_type: open
+  name: Botify Project Query API
+  slug: open-botify-projectquery-api
+- collection_type: open
+  name: Botify User API
+  slug: open-botify-user-api
 common:
 - group: other
   title: ''
@@ -185,7 +213,7 @@ overview: 'Botify publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Botify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 53
+random_paper: 57
 scopes:
 - name: Botify Scopes
   scope_count: 0
@@ -213,7 +241,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

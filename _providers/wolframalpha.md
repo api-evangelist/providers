@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ arazzos:
 - description: Get a spoken-word answer, falling back to a short text answer when none is available.
   name: Wolfram|Alpha Voice Assistant Answer
   slug: wolframalpha-voice-assistant-answer-workflow
-artifact_total: 69
+artifact_total: 72
 collections:
 - collection_type: postman
   name: Wolfram|Alpha Fast Query Recognizer API
@@ -85,6 +85,12 @@ collections:
   name: Wolfram|Alpha Spoken Results API
   slug: postman-wolframalpha-spoken-results-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wolfram|Alpha Fast Query Recognizer Classification API
+  slug: open-wolframalpha-classification-api
+- collection_type: open
   name: Wolfram|Alpha Fast Query Recognizer API
   slug: open-wolframalpha-fast-query-recognizer-api
 - collection_type: open
@@ -93,6 +99,9 @@ collections:
 - collection_type: open
   name: Wolfram|Alpha LLM API
   slug: open-wolframalpha-llm-api
+- collection_type: open
+  name: Wolfram|Alpha Fast Query Recognizer Classification Queries API
+  slug: open-wolframalpha-queries-api
 - collection_type: open
   name: Wolfram|Alpha Short Answers API
   slug: open-wolframalpha-short-answers-api
@@ -398,7 +407,7 @@ plans:
 - name: Wolframalpha Plans Pricing
   plan_count: 3
   slug: wolframalpha-plans-pricing
-random_paper: 78
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Wolframalpha Rate Limits
@@ -440,7 +449,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/screenshots/wolframalpha-2026-06-20T201538.png
 security:

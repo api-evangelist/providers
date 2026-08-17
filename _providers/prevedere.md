@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 19
 apis:
 - description: The Alert API from Prevedere — 1 operation(s) for alert.
@@ -88,7 +88,68 @@ apis:
 - description: Workbenches are a powerful feature in the Board Foresight application that allow users to organize and analyze data through indicators. They enable the creation of models by selecting primary and addi
   name: Prevedere Workbench API
   slug: prevedere-workbench-api
-artifact_total: 22
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Board Foresight API - V1 Alert API
+  slug: open-prevedere-alert-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert AlertDefinition API
+  slug: open-prevedere-alertdefinition-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert AnalysisJob API
+  slug: open-prevedere-analysisjob-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert ComponentContributionOverrideValues API
+  slug: open-prevedere-componentcontributionoverridevalues-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert Context API
+  slug: open-prevedere-context-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert DataIntegration API
+  slug: open-prevedere-dataintegration-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert DiscoverJob API
+  slug: open-prevedere-discoverjob-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert Enumeration API
+  slug: open-prevedere-enumeration-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert Favorites API
+  slug: open-prevedere-favorites-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert ForecastModel API
+  slug: open-prevedere-forecastmodel-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert ForecastModelHistory API
+  slug: open-prevedere-forecastmodelhistory-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert ForecastSummary API
+  slug: open-prevedere-forecastsummary-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert Indicator API
+  slug: open-prevedere-indicator-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert Provider API
+  slug: open-prevedere-provider-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert Scenario API
+  slug: open-prevedere-scenario-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert Tag API
+  slug: open-prevedere-tag-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert Test API
+  slug: open-prevedere-test-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert UserContext API
+  slug: open-prevedere-usercontext-api
+- collection_type: open
+  name: Board Foresight API - V1 Alert Workbench API
+  slug: open-prevedere-workbench-api
 common:
 - group: auth
   title: ''
@@ -182,7 +243,7 @@ overview: 'Prevedere publishes 19 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prevedere''s developer surface includes authentication, documentation, API reference, pricing, support, and 14 more developer resources.'
-random_paper: 2
+random_paper: 68
 score:
   band: thin
   composite: 35.1
@@ -205,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

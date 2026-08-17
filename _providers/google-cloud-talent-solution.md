@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Tenants API from Google Cloud Talent Solution — 2 operation(s) for tenants.
   name: Google Cloud Talent Solution Tenants API
   slug: google-cloud-talent-solution-tenants-api
-artifact_total: 15
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Talent Solution Companies API
+  slug: open-google-cloud-talent-solution-companies-api
+- collection_type: open
+  name: Google Cloud Talent Solution Companies Jobs API
+  slug: open-google-cloud-talent-solution-jobs-api
+- collection_type: open
+  name: Google Cloud Talent Solution Companies Tenants API
+  slug: open-google-cloud-talent-solution-tenants-api
 - collection_type: open
   name: Google Cloud Talent Solution API
   slug: open-openapi
@@ -126,7 +138,7 @@ plans:
 - name: Google Cloud Talent Solution Plans Pricing
   plan_count: 3
   slug: google-cloud-talent-solution-plans-pricing
-random_paper: 88
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Google Cloud Talent Solution Rate Limits
@@ -165,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/screenshots/google-cloud-talent-solution-2026-06-20T182140.png
 security:

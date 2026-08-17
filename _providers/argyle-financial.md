@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -117,7 +117,7 @@ apis:
 - description: The Webhooks API from Argyle — 1 operation(s) for webhooks.
   name: Argyle Webhooks API
   slug: argyle-financial-webhooks-api
-artifact_total: 109
+artifact_total: 135
 collections:
 - collection_type: postman
   name: Argyle API Accounts API
@@ -195,6 +195,9 @@ collections:
   name: Argyle API Accounts Webhooks API
   slug: postman-argyle-financial-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Argyle API - Accounts
   slug: open-argyle-accounts
 - collection_type: open
@@ -206,6 +209,81 @@ collections:
 - collection_type: open
   name: Employments API
   slug: open-argyle-employments
+- collection_type: open
+  name: Argyle API Accounts API
+  slug: open-argyle-financial-accounts-api
+- collection_type: open
+  name: Argyle API Accounts Deposit Destinations API
+  slug: open-argyle-financial-deposit-destinations-api
+- collection_type: open
+  name: Argyle API Accounts Employer Search API
+  slug: open-argyle-financial-employer-search-api
+- collection_type: open
+  name: Argyle API Accounts Employments API
+  slug: open-argyle-financial-employments-api
+- collection_type: open
+  name: Argyle API Accounts Gigs API
+  slug: open-argyle-financial-gigs-api
+- collection_type: open
+  name: Argyle API Accounts Identities API
+  slug: open-argyle-financial-identities-api
+- collection_type: open
+  name: Argyle API Accounts Invites API
+  slug: open-argyle-financial-invites-api
+- collection_type: open
+  name: Argyle API Accounts Item Filters API
+  slug: open-argyle-financial-item-filters-api
+- collection_type: open
+  name: Argyle API Accounts Item Migrations API
+  slug: open-argyle-financial-item-migrations-api
+- collection_type: open
+  name: Argyle API Accounts Items API
+  slug: open-argyle-financial-items-api
+- collection_type: open
+  name: Argyle API Accounts Partners API
+  slug: open-argyle-financial-partners-api
+- collection_type: open
+  name: Argyle API Accounts Payroll Documents API
+  slug: open-argyle-financial-payroll-documents-api
+- collection_type: open
+  name: Argyle API Accounts Paystubs API
+  slug: open-argyle-financial-paystubs-api
+- collection_type: open
+  name: Argyle API Accounts Ratings API
+  slug: open-argyle-financial-ratings-api
+- collection_type: open
+  name: Argyle API Accounts Receipts API
+  slug: open-argyle-financial-receipts-api
+- collection_type: open
+  name: Argyle API Accounts Reports API
+  slug: open-argyle-financial-reports-api
+- collection_type: open
+  name: Argyle API Accounts Sessions API
+  slug: open-argyle-financial-sessions-api
+- collection_type: open
+  name: Argyle API Accounts Shifts API
+  slug: open-argyle-financial-shifts-api
+- collection_type: open
+  name: Argyle API Accounts User Forms API
+  slug: open-argyle-financial-user-forms-api
+- collection_type: open
+  name: Argyle API Accounts User Tokens API
+  slug: open-argyle-financial-user-tokens-api
+- collection_type: open
+  name: Argyle API Accounts User Uploads API
+  slug: open-argyle-financial-user-uploads-api
+- collection_type: open
+  name: Argyle API Accounts Users API
+  slug: open-argyle-financial-users-api
+- collection_type: open
+  name: Argyle API Accounts Vehicles API
+  slug: open-argyle-financial-vehicles-api
+- collection_type: open
+  name: Argyle API Accounts Verifications API
+  slug: open-argyle-financial-verifications-api
+- collection_type: open
+  name: Argyle API Accounts Webhooks API
+  slug: open-argyle-financial-webhooks-api
 - collection_type: open
   name: Gigs API
   slug: open-argyle-gigs
@@ -468,7 +546,7 @@ plans:
 - name: Argyle Financial Plans Pricing
   plan_count: 3
   slug: argyle-financial-plans-pricing
-random_paper: 62
+random_paper: 132
 rate_limits:
 - limit_count: 4
   name: Argyle Financial Rate Limits
@@ -516,7 +594,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argyle-financial/refs/heads/main/screenshots/argyle-financial-2026-06-20T172425.png
 security:

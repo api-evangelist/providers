@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 41
@@ -34,11 +34,15 @@ apis:
 - description: Public machine-readable status feed for the Netomi platform, served by Atlassian Statuspage at status.netomi.com. Exposes the standard Statuspage v2 JSON surface (summary, status, components, incident
   name: Netomi Status API
   slug: netomi-status-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Netomi Events
   slug: netomi-events
+collections:
+- collection_type: open
+  name: AgentDesk REST API
+  slug: open-netomi-agentdesk
 common:
 - group: agent
   title: ''
@@ -200,7 +204,7 @@ overview: 'Netomi publishes 1 API on the [APIs.io](https://apis.io/) network: Pl
 
 
   Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 28 more developer resources.'
-random_paper: 52
+random_paper: 56
 score:
   band: developing
   composite: 53.3
@@ -219,7 +223,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/screenshots/netomi-2026-08-07T185015.png
 security:

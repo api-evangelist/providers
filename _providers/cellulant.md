@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ arazzos:
 - description: Validate the destination account, then post a mobile money or bank payout through the Beep platform.
   name: Cellulant Validate and Post Payout
   slug: cellulant-validate-and-post-payout-workflow
-artifact_total: 35
+artifact_total: 42
 collections:
 - collection_type: postman
   name: Cellulant Tingg Checkout API
@@ -100,11 +100,32 @@ collections:
   name: Cellulant Tingg Payouts API
   slug: postman-cellulant-payouts-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cellulant Tingg Checkout Acknowledgement API
+  slug: open-cellulant-acknowledgement-api
+- collection_type: open
+  name: Cellulant Tingg Checkout Acknowledgement Authentication API
+  slug: open-cellulant-authentication-api
+- collection_type: open
   name: Cellulant Tingg Checkout API
   slug: open-cellulant-checkout-api
 - collection_type: open
+  name: Cellulant Tingg Checkout Acknowledgement Custom Checkout API
+  slug: open-cellulant-custom-checkout-api
+- collection_type: open
   name: Cellulant Tingg Engage API
   slug: open-cellulant-engage-api
+- collection_type: open
+  name: Cellulant Tingg Checkout Acknowledgement Engagement API
+  slug: open-cellulant-engagement-api
+- collection_type: open
+  name: Cellulant Tingg Checkout Acknowledgement Express Checkout API
+  slug: open-cellulant-express-checkout-api
+- collection_type: open
+  name: Cellulant Tingg Checkout Acknowledgement Payments API
+  slug: open-cellulant-payments-api
 - collection_type: open
   name: Cellulant Tingg Payouts API
   slug: open-cellulant-payouts-api
@@ -378,7 +399,7 @@ overview: 'Cellulant publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cellulant''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, pricing, and 50 more developer resources.'
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Cellulant Rate Limits
@@ -426,7 +447,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/screenshots/cellulant-2026-06-20T174113.png
 security:

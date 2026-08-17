@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -58,11 +58,48 @@ apis:
 - description: The Uploads API from Agora Data — 1 operation(s) for uploads.
   name: Agora Data Uploads API
   slug: agora-data-uploads-api
-artifact_total: 16
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Agora Data Webhooks
   slug: agora-data-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast Health API
+  slug: open-agora-data-health-api
+- collection_type: open
+  name: Fast Hooks API
+  slug: open-agora-data-hooks-api
+- collection_type: open
+  name: Fast Import API
+  slug: open-agora-data-import-api
+- collection_type: open
+  name: Fast Inventory API
+  slug: open-agora-data-inventory-api
+- collection_type: open
+  name: Fast Loans API
+  slug: open-agora-data-loans-api
+- collection_type: open
+  name: Fast Login API
+  slug: open-agora-data-login-api
+- collection_type: open
+  name: Fast OAUTH API
+  slug: open-agora-data-oauth-api
+- collection_type: open
+  name: FastAPI
+  slug: open-agora-data-openapi-original
+- collection_type: open
+  name: Fast Providers API
+  slug: open-agora-data-providers-api
+- collection_type: open
+  name: Fast Status API
+  slug: open-agora-data-status-api
+- collection_type: open
+  name: Fast Uploads API
+  slug: open-agora-data-uploads-api
 common:
 - group: company
   title: ''
@@ -203,7 +240,7 @@ overview: 'Agora Data publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Agora Data''s developer surface includes engineering blog, support, getting-started guide, documentation, API reference, authentication, and 24 more developer resources.'
-random_paper: 17
+random_paper: 83
 scopes:
 - name: Agora Data Scopes
   scope_count: 6
@@ -232,7 +269,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/screenshots/agora-data-2026-08-07T161038.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -31,11 +31,15 @@ apis:
 - description: The Fixflo v2 REST API, described by a publicly downloadable OpenAPI 3.0 document on the Fixflo Stoplight developer portal. It exposes the repairs and maintenance domain — issues and issue drafts, pro
   name: Fixflo API v2
   slug: fixflo-api-v2
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Fixflo Webhooks
   slug: fixflo-webhooks
+collections:
+- collection_type: open
+  name: Fixflo
+  slug: open-fixflo-api-v2
 common:
 - group: auth
   title: ''
@@ -209,7 +213,7 @@ overview: 'Fixflo publishes 1 API on the [APIs.io](https://apis.io/) network: AP
 
 
   Fixflo''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, support, and 31 more developer resources.'
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Fixflo Rate Limits
@@ -242,7 +246,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/screenshots/fixflo-2026-08-07T165332.png
 security:

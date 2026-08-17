@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -56,7 +56,29 @@ apis:
 - description: User operations
   name: Door Users API
   slug: door-users-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authentication Access Management API
+  slug: open-door-access-management-api
+- collection_type: open
+  name: Authentication Access Management Buildings API
+  slug: open-door-buildings-api
+- collection_type: open
+  name: Authentication Access Management Doors and Keys API
+  slug: open-door-doors-and-keys-api
+- collection_type: open
+  name: Authentication Access Management Partner Authentication API
+  slug: open-door-partner-authentication-api
+- collection_type: open
+  name: Authentication Access Management User Authentication API
+  slug: open-door-user-authentication-api
+- collection_type: open
+  name: Authentication Access Management Users API
+  slug: open-door-users-api
 common:
 - group: company
   title: ''
@@ -198,7 +220,7 @@ overview: 'Door publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Door''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 76
+random_paper: 138
 score:
   band: developing
   composite: 50.0
@@ -222,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/screenshots/door-2026-07-25T212301.png
 security:

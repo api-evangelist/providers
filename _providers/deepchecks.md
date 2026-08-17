@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: Backend metadata.
   name: Deepchecks System API
   slug: deepchecks-system-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deepchecks LLM Evaluation Application Versions API
+  slug: open-deepchecks-application-versions-api
+- collection_type: open
+  name: Deepchecks LLM Evaluation Application Versions Applications API
+  slug: open-deepchecks-applications-api
+- collection_type: open
+  name: Deepchecks LLM Evaluation Application Versions Interactions API
+  slug: open-deepchecks-interactions-api
+- collection_type: open
+  name: Deepchecks LLM Evaluation Application Versions Properties API
+  slug: open-deepchecks-properties-api
+- collection_type: open
+  name: Deepchecks LLM Evaluation Application Versions Spans API
+  slug: open-deepchecks-spans-api
+- collection_type: open
+  name: Deepchecks LLM Evaluation Application Versions System API
+  slug: open-deepchecks-system-api
 - collection_type: open
   name: Deepchecks LLM Evaluation API
   slug: open-deepchecks
@@ -126,7 +147,7 @@ plans:
 - name: Deepchecks Plans Pricing
   plan_count: 4
   slug: deepchecks-plans-pricing
-random_paper: 79
+random_paper: 145
 rate_limits:
 - limit_count: 4
   name: Deepchecks Rate Limits
@@ -151,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/screenshots/deepchecks-2026-06-20T175801.png
 security:

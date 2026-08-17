@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -69,15 +69,42 @@ apis:
 - description: Workout records (CRUD + listing).
   name: Wahoo Fitness Workouts API
   slug: wahoo-workouts-api
-artifact_total: 25
+artifact_total: 34
 asyncapis:
 - description: Wahoo Cloud delivers `workout_summary` webhook events to a callback URL registered against a developer application. Webhooks require the `offline_data` OAuth scope. Failed deliveries (non-200) are ret
   name: Wahoo Cloud Webhooks
   slug: wahoo-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Wahoo Cloud API
   slug: open-wahoo-cloud-api
+- collection_type: open
+  name: Wahoo Cloud Permissions API
+  slug: open-wahoo-permissions-api
+- collection_type: open
+  name: Wahoo Cloud Permissions Plans API
+  slug: open-wahoo-plans-api
+- collection_type: open
+  name: Wahoo Cloud Permissions Power Zones API
+  slug: open-wahoo-power-zones-api
+- collection_type: open
+  name: Wahoo Cloud Permissions Routes API
+  slug: open-wahoo-routes-api
+- collection_type: open
+  name: Wahoo Cloud Permissions Users API
+  slug: open-wahoo-users-api
+- collection_type: open
+  name: Wahoo Cloud Permissions Workout File Uploads API
+  slug: open-wahoo-workout-file-uploads-api
+- collection_type: open
+  name: Wahoo Cloud Permissions Workout Summaries API
+  slug: open-wahoo-workout-summaries-api
+- collection_type: open
+  name: Wahoo Cloud Permissions Workouts API
+  slug: open-wahoo-workouts-api
 common:
 - group: agent
   title: ''
@@ -186,7 +213,7 @@ plans:
 - name: Wahoo Plans Pricing
   plan_count: 2
   slug: wahoo-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 6
   name: Wahoo Rate Limits
@@ -239,7 +266,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/screenshots/wahoo-2026-06-20T201201.png
 security:

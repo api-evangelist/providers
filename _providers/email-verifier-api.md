@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-12'
+  score: 48.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,11 +43,17 @@ apis:
 - description: Real-time email-address verification operations.
   name: Email Verifier API Verification API
   slug: email-verifier-api-verification-api
-artifact_total: 40
+artifact_total: 42
 collections:
 - collection_type: postman
   name: Email Verifier Verification API
   slug: postman-email-verifier-api-verification-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Email Verifier Verification API
+  slug: open-email-verifier-api-verification-api
 - collection_type: open
   name: Email Verifier API
   slug: open-email-verifier-api
@@ -119,6 +126,54 @@ common:
   title: ''
   type: LlmsText
   url: https://emailverifierapi.com/llms.txt
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://emailverifierapi.com/api-docs/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/email-verifier-api-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/email-verifier-api-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/email-verifier-api-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/email-verifier-api-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/email-verifier-api-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/email-verifier-api-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/email-verifier-api-conformance.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/email-verifier-api-verification-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnownProbe
+  url: well-known/email-verifier-api-well-known.yml
+- group: agent
+  title: ''
+  type: MCPCandidate
+  url: mcp/email-verifier-api-mcp.yml
 created: '2026-05-06'
 description: Email Verifier API is a real-time email verification service offering a 16-point engine that validates deliverability through syntax checking, DNS / MX lookups, real-time SMTP handshakes, mailbox existence probing, catch-all and greylisting detection, disposable address detection, role-account flagging, spam-trap and complainer detection, gibberish and offensive-language scanning, B2B / B2C classification, typo correction, and SMTP provider identification. The service is delivered as a single REST endpoint that accepts GET or POST requests, returns JSON or XML, and meters usage against a credit-pack balance that never expires. The product targets growth teams, ESPs, and lead-generation operators that need to eliminate hard bounces and protect sender reputation before they send.
 examples:
@@ -189,7 +244,7 @@ jsonld:
   property_count: 3
   slug: email-verifier-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Email Verifier API
 nav: Providers
 network: true
@@ -199,12 +254,12 @@ overview: 'Email Verifier API publishes 1 API on the [APIs.io](https://apis.io/)
   The Email Verifier API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Email Verifier API''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 9 more developer resources.'
+  Email Verifier API''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, API reference, and 20 more developer resources.'
 plans:
 - name: Email Verifier Api Plans Pricing
   plan_count: 14
   slug: email-verifier-api-plans-pricing
-random_paper: 104
+random_paper: 145
 rate_limits:
 - limit_count: 3
   name: Email Verifier Api Rate Limits
@@ -227,15 +282,15 @@ rules:
     warn: 3
   slug: email-verifier-api-rules
 score:
-  band: strong
-  composite: 61.4
-  delta: 0.0
+  band: exemplar
+  composite: 66.5
+  delta: 5.1
   facets:
     commercial_clarity: 84.2
     contract_quality: 73.9
-    developer_ergonomics: 37.0
+    developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 58.3
+    governance: 79.2
     operational_transparency: 31.6
   previous_composite: 61.4
   provenance:
@@ -246,8 +301,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/screenshots/email-verifier-api-2026-06-20T180621.png
 security:
 - kind: authentication

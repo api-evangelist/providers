@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Server status and version information
   name: OpenStreetMap Status API
   slug: openstreetmap-status-api
-artifact_total: 56
+artifact_total: 67
 collections:
 - collection_type: postman
   name: OpenStreetMap API v0.6 Capabilities API
@@ -99,8 +99,41 @@ collections:
   name: OpenStreetMap API v0.6 Capabilities Ways API
   slug: postman-openstreetmap-ways-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenStreetMap API v0.6 Capabilities API
+  slug: open-openstreetmap-capabilities-api
+- collection_type: open
+  name: OpenStreetMap API v0.6 Capabilities Changesets API
+  slug: open-openstreetmap-changesets-api
+- collection_type: open
+  name: OpenStreetMap Nominatim Geocoding API
+  slug: open-openstreetmap-geocoding-api
+- collection_type: open
   name: OpenStreetMap API v0.6
   slug: open-openstreetmap-main
+- collection_type: open
+  name: OpenStreetMap API v0.6 Capabilities Map Data API
+  slug: open-openstreetmap-map-data-api
+- collection_type: open
+  name: OpenStreetMap API v0.6 Capabilities Nodes API
+  slug: open-openstreetmap-nodes-api
+- collection_type: open
+  name: OpenStreetMap API v0.6 Capabilities Notes API
+  slug: open-openstreetmap-notes-api
+- collection_type: open
+  name: OpenStreetMap API v0.6 Capabilities Relations API
+  slug: open-openstreetmap-relations-api
+- collection_type: open
+  name: OpenStreetMap Nominatim Geocoding Status API
+  slug: open-openstreetmap-status-api
+- collection_type: open
+  name: OpenStreetMap API v0.6 Capabilities Users API
+  slug: open-openstreetmap-users-api
+- collection_type: open
+  name: OpenStreetMap API v0.6 Capabilities Ways API
+  slug: open-openstreetmap-ways-api
 common:
 - group: build
   title: ''
@@ -283,7 +316,7 @@ plans:
 - name: Openstreetmap Plans Pricing
   plan_count: 3
   slug: openstreetmap-plans-pricing
-random_paper: 95
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Openstreetmap Rate Limits
@@ -328,7 +361,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/screenshots/openstreetmap-2026-06-20T191043.png
 security:

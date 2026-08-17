@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -77,8 +77,47 @@ apis:
 - description: Platform-wide usage statistics
   name: BrewPage Stats API
   slug: brewpage-stats-api
-artifact_total: 68
+artifact_total: 81
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BrewPage Files API
+  slug: open-brewpage-files-api
+- collection_type: open
+  name: BrewPage Files Gallery API
+  slug: open-brewpage-gallery-api
+- collection_type: open
+  name: BrewPage Files HTML API
+  slug: open-brewpage-html-api
+- collection_type: open
+  name: BrewPage Files JSON API
+  slug: open-brewpage-json-api
+- collection_type: open
+  name: BrewPage Files KV API
+  slug: open-brewpage-kv-api
+- collection_type: open
+  name: BrewPage Files Namespace API
+  slug: open-brewpage-namespace-api
+- collection_type: open
+  name: BrewPage Files Owner Check API
+  slug: open-brewpage-owner-check-api
+- collection_type: open
+  name: BrewPage Files Reports API
+  slug: open-brewpage-reports-api
+- collection_type: open
+  name: BrewPage Files SEO API
+  slug: open-brewpage-seo-api
+- collection_type: open
+  name: BrewPage Files Short Links API
+  slug: open-brewpage-short-links-api
+- collection_type: open
+  name: BrewPage Files Sites API
+  slug: open-brewpage-sites-api
+- collection_type: open
+  name: BrewPage Files Stats API
+  slug: open-brewpage-stats-api
 - collection_type: open
   name: BrewPage API
   slug: open-brewpage
@@ -258,7 +297,7 @@ plans:
 - name: Brewpage Plans Pricing
   plan_count: 1
   slug: brewpage-plans-pricing
-random_paper: 5
+random_paper: 100
 rate_limits:
 - limit_count: 11
   name: Brewpage Rate Limits
@@ -300,7 +339,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/screenshots/brewpage-2026-06-20T173653.png
 security:

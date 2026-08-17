@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for API key management, usage credits/metering, rate limiting, and traffic analytics. POST/JSON endpoints authenticated with a project root key via Bearer token; single unauthenticated GET /h
@@ -154,7 +154,7 @@ plans:
 - name: Reqkey Plans
   plan_count: 3
   slug: reqkey-plans
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 6
   name: Reqkey Rate Limits
@@ -175,7 +175,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

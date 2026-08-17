@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The single HTTP endpoint VEIR declares in its own RFC 9727 API catalog. It returns veir.com page content as text/markdown for agent consumption. Probed 2026-08-05: it returns HTTP 200 with content-typ'
@@ -117,7 +117,7 @@ overview: 'VEIR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   VEIR''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 78
+random_paper: 140
 scopes:
 - name: Veir Scopes
   scope_count: 3
@@ -144,7 +144,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

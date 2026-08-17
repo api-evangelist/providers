@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: Chat deployment settings
   name: Salesforce Service Cloud Settings API
   slug: salesforce-service-cloud-settings-api
-artifact_total: 47
+artifact_total: 58
 asyncapis:
 - description: 'Real-time event streaming API for Salesforce Service Cloud using the Bayeux protocol over CometD. Supports PushTopic events for sObject changes, Platform Events for custom event-driven architectures, '
   name: Salesforce Service Cloud Streaming API
@@ -130,11 +130,44 @@ collections:
   name: Salesforce Service Cloud Salesforce Chat REST Accounts Settings API
   slug: postman-salesforce-service-cloud-settings-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Salesforce Service Cloud Salesforce Chat REST API
   slug: open-salesforce-live-agent
 - collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts API
+  slug: open-salesforce-service-cloud-accounts-api
+- collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Availability API
+  slug: open-salesforce-service-cloud-availability-api
+- collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Cases API
+  slug: open-salesforce-service-cloud-cases-api
+- collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Contacts API
+  slug: open-salesforce-service-cloud-contacts-api
+- collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Knowledge API
+  slug: open-salesforce-service-cloud-knowledge-api
+- collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Messages API
+  slug: open-salesforce-service-cloud-messages-api
+- collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Query API
+  slug: open-salesforce-service-cloud-query-api
+- collection_type: open
   name: Salesforce Service Cloud REST API
   slug: open-salesforce-service-cloud-rest
+- collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Search API
+  slug: open-salesforce-service-cloud-search-api
+- collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Sessions API
+  slug: open-salesforce-service-cloud-sessions-api
+- collection_type: open
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Settings API
+  slug: open-salesforce-service-cloud-settings-api
 common:
 - group: build
   title: ''
@@ -295,7 +328,7 @@ plans:
 - name: Salesforce Service Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-service-cloud-plans-pricing
-random_paper: 41
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Salesforce Service Cloud Rate Limits
@@ -350,7 +383,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/screenshots/salesforce-service-cloud-2026-06-20T193350.png
 security:

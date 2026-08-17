@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -49,7 +49,23 @@ apis:
 - description: The System Rules API from Alibaba Sentinel — 1 operation(s) for system rules.
   name: Alibaba Sentinel System Rules API
   slug: alibaba-sentinel-system-rules-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alibaba Sentinel Dashboard Authority Rules API
+  slug: open-alibaba-sentinel-authority-rules-api
+- collection_type: open
+  name: Alibaba Sentinel Dashboard Authority Rules Degrade Rules API
+  slug: open-alibaba-sentinel-degrade-rules-api
+- collection_type: open
+  name: Alibaba Sentinel Dashboard Authority Rules Flow Rules API
+  slug: open-alibaba-sentinel-flow-rules-api
+- collection_type: open
+  name: Alibaba Sentinel Dashboard Authority Rules System Rules API
+  slug: open-alibaba-sentinel-system-rules-api
 common:
 - group: agent
   title: ''
@@ -141,7 +157,7 @@ overview: 'Alibaba Sentinel publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Alibaba Sentinel''s developer surface includes documentation, getting-started guide, GitHub presence, and 13 more developer resources.'
-random_paper: 51
+random_paper: 121
 rules:
 - name: Alibaba Sentinel API Rules
   rule_count: 5
@@ -173,7 +189,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/screenshots/alibaba-sentinel-2026-07-25T195610.png
 security:

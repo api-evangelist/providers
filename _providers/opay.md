@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,11 +47,20 @@ apis:
 - description: Refund creation and status.
   name: OPay Refunds API
   slug: opay-refunds-api
-artifact_total: 43
+artifact_total: 46
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: OPay Cashier API
   slug: open-opay-cashier-api
+- collection_type: open
+  name: OPay Cashier Payments API
+  slug: open-opay-payments-api
+- collection_type: open
+  name: OPay Cashier Refunds API
+  slug: open-opay-refunds-api
 common:
 - group: agent
   title: ''
@@ -228,7 +237,7 @@ overview: 'OPay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cas
 
 
   OPay''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, sandbox, signup flow, and 22 more developer resources.'
-random_paper: 81
+random_paper: 143
 score:
   band: thin
   composite: 41.3
@@ -255,7 +264,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/screenshots/opay-2026-06-20T190727.png
 security:

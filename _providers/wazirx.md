@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,7 +63,32 @@ apis:
 - description: Endpoints for WebSocket authentication token generation
   name: WazirX WebSocket API
   slug: wazirx-websocket-api
-artifact_total: 25
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WazirX REST Account API
+  slug: open-wazirx-account-api
+- collection_type: open
+  name: WazirX REST Account General API
+  slug: open-wazirx-general-api
+- collection_type: open
+  name: WazirX REST Account Market Data API
+  slug: open-wazirx-market-data-api
+- collection_type: open
+  name: WazirX REST Account Sub-Account API
+  slug: open-wazirx-sub-account-api
+- collection_type: open
+  name: WazirX REST Account Trading API
+  slug: open-wazirx-trading-api
+- collection_type: open
+  name: WazirX REST Account Wallet API
+  slug: open-wazirx-wallet-api
+- collection_type: open
+  name: WazirX REST Account WebSocket API
+  slug: open-wazirx-websocket-api
 common:
 - group: agent
   title: ''
@@ -186,7 +211,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 77
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -226,7 +251,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/screenshots/wazirx-2026-06-20T201306.png
 security:

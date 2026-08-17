@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - description: Operations for publishing, retrieving, and listing CloudWatch metrics
   name: Amazon CloudWatch Metrics API
   slug: amazon-cloudwatch-metrics-api
-artifact_total: 61
+artifact_total: 65
 collections:
 - collection_type: postman
   name: Amazon CloudWatch Alarms API
@@ -58,6 +58,18 @@ collections:
 - collection_type: postman
   name: Amazon CloudWatch Alarms Metrics API
   slug: postman-amazon-cloudwatch-metrics-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CloudWatch Alarms API
+  slug: open-amazon-cloudwatch-alarms-api
+- collection_type: open
+  name: Amazon CloudWatch Alarms Dashboards API
+  slug: open-amazon-cloudwatch-dashboards-api
+- collection_type: open
+  name: Amazon CloudWatch Alarms Metrics API
+  slug: open-amazon-cloudwatch-metrics-api
 common:
 - group: agent
   title: ''
@@ -323,7 +335,7 @@ overview: 'Amazon CloudWatch publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CloudWatch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 81
+random_paper: 122
 rules:
 - name: Amazon CloudWatch API Rules
   rule_count: 5
@@ -363,7 +375,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/screenshots/amazon-cloudwatch-2026-07-25T195951.png
 security:

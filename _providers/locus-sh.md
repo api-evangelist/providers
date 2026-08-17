@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -86,8 +86,11 @@ apis:
 - description: The VehicleModel API from Locus — 2 operation(s) for vehiclemodel.
   name: Locus VehicleModel API
   slug: locus-sh-vehiclemodel-api
-artifact_total: 24
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Locus API
   slug: open-locus-entities
@@ -97,6 +100,54 @@ collections:
 - collection_type: open
   name: Locus API
   slug: open-locus-platform
+- collection_type: open
+  name: Locus HomebaseMaster API
+  slug: open-locus-sh-homebasemaster-api
+- collection_type: open
+  name: Locus HomebaseMaster LocationMaster API
+  slug: open-locus-sh-locationmaster-api
+- collection_type: open
+  name: Locus HomebaseMaster Order API
+  slug: open-locus-sh-order-api
+- collection_type: open
+  name: Locus HomebaseMaster OrderServiceability API
+  slug: open-locus-sh-orderserviceability-api
+- collection_type: open
+  name: Locus HomebaseMaster PersonnelMaster API
+  slug: open-locus-sh-personnelmaster-api
+- collection_type: open
+  name: Locus HomebaseMaster Rider API
+  slug: open-locus-sh-rider-api
+- collection_type: open
+  name: Locus HomebaseMaster RiderPersona API
+  slug: open-locus-sh-riderpersona-api
+- collection_type: open
+  name: Locus HomebaseMaster Roster API
+  slug: open-locus-sh-roster-api
+- collection_type: open
+  name: Locus HomebaseMaster ServiceType API
+  slug: open-locus-sh-servicetype-api
+- collection_type: open
+  name: Locus HomebaseMaster ServiceTypeConfiguration API
+  slug: open-locus-sh-servicetypeconfiguration-api
+- collection_type: open
+  name: Locus HomebaseMaster ShiftTag API
+  slug: open-locus-sh-shifttag-api
+- collection_type: open
+  name: Locus HomebaseMaster SKUMaster API
+  slug: open-locus-sh-skumaster-api
+- collection_type: open
+  name: Locus HomebaseMaster TeamMaster API
+  slug: open-locus-sh-teammaster-api
+- collection_type: open
+  name: Locus HomebaseMaster Transporter API
+  slug: open-locus-sh-transporter-api
+- collection_type: open
+  name: Locus HomebaseMaster Vehicle API
+  slug: open-locus-sh-vehicle-api
+- collection_type: open
+  name: Locus HomebaseMaster VehicleModel API
+  slug: open-locus-sh-vehiclemodel-api
 common:
 - group: agent
   title: ''
@@ -231,7 +282,7 @@ overview: 'Locus publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Locus'' developer surface includes authentication, developer portal, documentation, API reference, engineering blog, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 94
+random_paper: 69
 score:
   band: thin
   composite: 35.7
@@ -252,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/screenshots/locus-sh-2026-06-20T184640.png
 security:

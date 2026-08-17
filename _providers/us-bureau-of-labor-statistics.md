@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Retrieve time series data for BLS statistical series
   name: US Bureau of Labor Statistics Time Series API
   slug: us-bureau-of-labor-statistics-time-series-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: BLS Public Data API
   slug: open-bls-public-data-api
+- collection_type: open
+  name: BLS Public Data Popular Series API
+  slug: open-us-bureau-of-labor-statistics-popular-series-api
+- collection_type: open
+  name: BLS Public Data Popular Series Surveys API
+  slug: open-us-bureau-of-labor-statistics-surveys-api
+- collection_type: open
+  name: BLS Public Data Popular Series Time Series API
+  slug: open-us-bureau-of-labor-statistics-time-series-api
 common:
 - group: agent
   title: ''
@@ -113,7 +125,7 @@ plans:
 - name: Us Bureau Of Labor Statistics Plans Pricing
   plan_count: 3
   slug: us-bureau-of-labor-statistics-plans-pricing
-random_paper: 16
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Us Bureau Of Labor Statistics Rate Limits
@@ -161,7 +173,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bureau-of-labor-statistics/refs/heads/main/screenshots/us-bureau-of-labor-statistics-2026-06-20T200548.png
 security:

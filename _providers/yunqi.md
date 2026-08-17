@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -144,7 +144,7 @@ overview: 'Yunqi (ClickZetta / Singdata Lakehouse) is profiled on the [APIs.io](
 
 
   Yunqi (ClickZetta / Singdata Lakehouse)''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, changelog, and 17 more developer resources.'
-random_paper: 86
+random_paper: 119
 score:
   band: thin
   composite: 33.0
@@ -162,7 +162,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

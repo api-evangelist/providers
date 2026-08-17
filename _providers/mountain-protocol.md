@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Mountain Protocol is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Mountain Protocol''s developer surface includes documentation, getting-started guide, API reference, support, and 8 more developer resources.'
-random_paper: 2
+random_paper: 14
 score:
   band: emerging
   composite: 18.1
@@ -105,7 +105,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 18.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mountain-protocol/refs/heads/main/screenshots/mountain-protocol-2026-08-07T184342.png
 security:

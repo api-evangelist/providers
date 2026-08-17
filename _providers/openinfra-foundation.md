@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -77,8 +77,41 @@ apis:
 - description: The Users API from OpenInfra Foundation — 1 operation(s) for users.
   name: OpenInfra Foundation Users API
   slug: openinfra-foundation-users-api
-artifact_total: 19
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth API
+  slug: open-openinfra-foundation-auth-api
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth Credentials API
+  slug: open-openinfra-foundation-credentials-api
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth Domains API
+  slug: open-openinfra-foundation-domains-api
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth Endpoints API
+  slug: open-openinfra-foundation-endpoints-api
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth Extensions API
+  slug: open-openinfra-foundation-extensions-api
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth Groups API
+  slug: open-openinfra-foundation-groups-api
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth Networks API
+  slug: open-openinfra-foundation-networks-api
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth Roles API
+  slug: open-openinfra-foundation-roles-api
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth Servers API
+  slug: open-openinfra-foundation-servers-api
+- collection_type: open
+  name: OpenStack API (OpenInfra Foundation) Auth Users API
+  slug: open-openinfra-foundation-users-api
 - collection_type: open
   name: OpenStack API (OpenInfra Foundation)
   slug: open-openinfra-foundation
@@ -131,7 +164,7 @@ plans:
 - name: Openinfra Foundation Plans Pricing
   plan_count: 3
   slug: openinfra-foundation-plans-pricing
-random_paper: 46
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Openinfra Foundation Rate Limits
@@ -156,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/screenshots/openinfra-foundation-2026-06-20T191011.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -77,7 +77,35 @@ apis:
 - description: The ValueSet API from NHS API — 2 operation(s) for valueset.
   name: NHS API ValueSet API
   slug: nhs-api-valueset-api
-artifact_total: 24
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: e-Referrals Service CodeSystem API
+  slug: open-nhs-api-codesystem-api
+- collection_type: open
+  name: e-Referrals Service CodeSystem List{id} API
+  slug: open-nhs-api-list-id-api
+- collection_type: open
+  name: e-Referrals Service CodeSystem Metadata API
+  slug: open-nhs-api-metadata-api
+- collection_type: open
+  name: e-Referrals Service CodeSystem Organization API
+  slug: open-nhs-api-organization-api
+- collection_type: open
+  name: e-Referrals Service CodeSystem OrganizationAffiliation API
+  slug: open-nhs-api-organizationaffiliation-api
+- collection_type: open
+  name: e-Referrals Service CodeSystem R4 API
+  slug: open-nhs-api-r4-api
+- collection_type: open
+  name: e-Referrals Service CodeSystem STU3 API
+  slug: open-nhs-api-stu3-api
+- collection_type: open
+  name: e-Referrals Service CodeSystem ValueSet API
+  slug: open-nhs-api-valueset-api
 common:
 - group: agent
   title: ''
@@ -188,7 +216,7 @@ overview: 'NHS API publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   NHS API''s developer surface includes authentication, developer portal, documentation, getting-started guide, status page, and 13 more developer resources.'
-random_paper: 88
+random_paper: 92
 rules:
 - name: NHS API API Rules
   rule_count: 5
@@ -224,7 +252,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/screenshots/nhs-api-2026-08-07T185236.png
 security:

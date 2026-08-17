@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -80,11 +80,57 @@ apis:
 - description: Webhook Controller
   name: Veem webhook-controller API
   slug: veem-webhook-controller-api
-artifact_total: 20
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Veem Webhooks
   slug: veem-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veem API v1.2 attachment-controller API
+  slug: open-veem-attachment-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller bank-account-controller API
+  slug: open-veem-bank-account-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller beneficial-owner-information-controller API
+  slug: open-veem-beneficial-owner-information-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller claimless-payment-controller API
+  slug: open-veem-claimless-payment-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller contact-controller API
+  slug: open-veem-contact-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller crypto-wallet-controller API
+  slug: open-veem-crypto-wallet-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller customer-controller API
+  slug: open-veem-customer-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller exchange-rate-controller API
+  slug: open-veem-exchange-rate-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller invoice-controller API
+  slug: open-veem-invoice-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller meta-controller API
+  slug: open-veem-meta-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller open-account-controller API
+  slug: open-veem-open-account-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller payment-controller API
+  slug: open-veem-payment-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller wallet-controller API
+  slug: open-veem-wallet-controller-api
+- collection_type: open
+  name: Veem API v1.2 attachment-controller webhook-controller API
+  slug: open-veem-webhook-controller-api
 common:
 - group: other
   title: ''
@@ -221,7 +267,7 @@ overview: 'Veem publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Veem''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 24 more developer resources.'
-random_paper: 69
+random_paper: 131
 scopes:
 - name: Veem Scopes
   scope_count: 1
@@ -256,7 +302,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

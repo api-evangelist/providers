@@ -1,35 +1,37 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  label: Freemium · Self-serve signup · 14-day trial
   onboarding: self-serve
   pricing: freemium
   public: false
   source:
   - plans
   - authentication
-  trial: false
+  - https://www.simpleanalytics.com/pricing
+  trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 49.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -39,20 +41,35 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 4
 apis:
-- description: The Events API from Simple Analytics — 1 operation(s) for events.
+- description: The Events API from Simple Analytics — server-side collection of custom events and page views, with customer-defined metadata, posted unauthenticated to the collection queue.
   name: Simple Analytics Events API
   slug: simpleanalytics-events-api
-- description: The Export API from Simple Analytics — 1 operation(s) for export.
+- description: The Export API from Simple Analytics — raw, unsampled data point export (page views and events) as JSON or CSV over a date range, with per-field selection.
   name: Simple Analytics Export API
   slug: simpleanalytics-export-api
-- description: The Stats API from Simple Analytics — 1 operation(s) for stats.
+- description: The Stats API from Simple Analytics — the aggregated dashboard statistics (pageviews, visitors, histogram, pages, countries, referrers, UTM and device breakdowns) as JSON for any tracked hostname.
   name: Simple Analytics Stats API
   slug: simpleanalytics-stats-api
-- description: The Websites API from Simple Analytics — 2 operation(s) for websites.
+- description: The Websites API from Simple Analytics — the Admin surface for listing the websites in an account and adding a new one with timezone, visibility and label.
   name: Simple Analytics Websites API
   slug: simpleanalytics-websites-api
-artifact_total: 11
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Simple Analytics Events API
+  slug: open-simpleanalytics-events-api
+- collection_type: open
+  name: Simple Analytics Events Export API
+  slug: open-simpleanalytics-export-api
+- collection_type: open
+  name: Simple Analytics Events Stats API
+  slug: open-simpleanalytics-stats-api
+- collection_type: open
+  name: Simple Analytics Events Websites API
+  slug: open-simpleanalytics-websites-api
 - collection_type: open
   name: Simple Analytics API
   slug: open-simpleanalytics
@@ -69,6 +86,74 @@ common:
   title: ''
   type: Authentication
   url: authentication/simpleanalytics-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/simpleanalytics-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/simpleanalytics-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/simpleanalytics-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/simpleanalytics-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.simpleanalytics.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.simpleanalytics.com/changelog
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.simpleanalytics.com/roadmap
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/simpleanalytics-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.simpleanalytics.com/gdpr-compliance
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/simpleanalytics-trust-center.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/simpleanalytics-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/simpleanalytics-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/simpleanalytics-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/simpleanalytics-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/simpleanalytics-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/simpleanalytics-llms.txt
 - group: company
   title: ''
   type: Blog
@@ -85,10 +170,46 @@ common:
   title: ''
   type: Website
   url: https://www.simpleanalytics.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.simpleanalytics.com/api
 - group: docs
   title: ''
   type: Documentation
   url: https://docs.simpleanalytics.com/api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.simpleanalytics.com/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.simpleanalytics.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.simpleanalytics.com/support
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.simpleanalytics.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.simpleanalytics.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.simpleanalytics.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.simpleanalytics.com/general-terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.simpleanalytics.com/privacy-policy
 - group: commercial
   title: ''
   type: Plans
@@ -102,41 +223,45 @@ common:
   type: FinOps
   url: finops/simpleanalytics-finops.yml
 created: '2026-06-21'
-description: Simple Analytics is a privacy-first, cookieless web analytics platform built in the EU. It collects no personal data and needs no cookie banner, while exposing a REST API to pull aggregated dashboard stats, export raw data points (page views and events), collect custom events server-side, and manage the websites in an account.
+description: Simple Analytics is a privacy-first, cookieless web analytics platform built and hosted in the European Union by Simple Analytics B.V. in the Netherlands. It collects no personal data, sets no cookies, stores no IP addresses and needs no consent banner, while exposing a REST API surface to pull aggregated dashboard statistics, export raw unsampled data points (page views and events) to warehouses and BI tools, collect custom events server-side from backends and mobile apps, and administer the websites in an account. Public websites can be read anonymously on both read APIs, and a large first-party plugin library installs the tracking script across common frameworks and CMSes.
 finops:
 - name: Simpleanalytics Finops
   service_category: Analytics
   slug: simpleanalytics-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simpleanalytics.png
 layout: provider
-modified: '2026-06-21'
+mcp_servers:
+- description: ''
+  name: simpleanalytics-mcp.yml
+  slug: simpleanalytics-mcpyml
+modified: '2026-08-13'
 name: Simple Analytics
 nav: Providers
 network: true
 overview: 'Simple Analytics publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Export API, Stats API, and 1 more. Tagged areas include Analytics, Web Analytics, Privacy, Cookieless, and GDPR.
 
 
-  Simple Analytics'' developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
+  Simple Analytics'' developer surface includes authentication, changelog, sandbox, engineering blog, documentation, API reference, getting-started guide, and 30 more developer resources.'
 plans:
 - name: Simpleanalytics Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: simpleanalytics-plans-pricing
-random_paper: 58
+random_paper: 128
 rate_limits:
-- limit_count: 4
+- limit_count: 0
   name: Simpleanalytics Rate Limits
   slug: simpleanalytics-rate-limits
 score:
-  band: thin
-  composite: 39.0
-  delta: 0.0
+  band: exemplar
+  composite: 66.7
+  delta: 27.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 100.0
     contract_quality: 58.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 42.1
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -146,8 +271,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Simpleanalytics Authentication
@@ -157,6 +282,10 @@ security:
   name: Simpleanalytics Domain Security
   slug: simpleanalytics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Simpleanalytics Trust Center
+  slug: simpleanalytics-trust-center
+  summary_line: SOC 2 Type II, ISO 27001, HIPAA, PCI DSS
 slug: simpleanalytics
 tags:
 - Analytics
@@ -164,5 +293,8 @@ tags:
 - Privacy
 - Cookieless
 - GDPR
+- Events
+- Data Export
+- Europe
 website: https://www.simpleanalytics.com
 ---

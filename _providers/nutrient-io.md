@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Deliver rich document interactions directly in the browser including PDF rendering, annotation, form filling, and signature collection.
@@ -133,7 +133,7 @@ plans:
 - name: Nutrient Io Plans Pricing
   plan_count: 3
   slug: nutrient-io-plans-pricing
-random_paper: 70
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Nutrient Io Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 31.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrient-io/refs/heads/main/screenshots/nutrient-io-2026-06-20T190530.png
 security:

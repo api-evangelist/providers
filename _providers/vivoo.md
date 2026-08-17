@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Hosted Universal Commerce Protocol (UCP) shopping MCP server exposed natively by the Shopify-hosted Vivoo storefront: agent-driven catalog search, cart, and buyer-approved checkout. Checkout requires '
@@ -96,7 +96,7 @@ overview: 'Vivoo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Vivoo''s developer surface includes authentication, support, and 9 more developer resources.'
-random_paper: 83
+random_paper: 116
 scopes:
 - name: Vivoo Scopes
   scope_count: 4
@@ -123,7 +123,7 @@ score:
     regime_id: health
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

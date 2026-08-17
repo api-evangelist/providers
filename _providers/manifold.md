@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +59,17 @@ apis:
 - description: Validate a wallet signature session token to confirm a user's wallet address server-side.
   name: Manifold Signature Grant API
   slug: manifold-signature-grant-api
-artifact_total: 14
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Manifold OAuth2 Authentication Authorization Code Grant API
+  slug: open-manifold-authorization-code-grant-api
+- collection_type: open
+  name: Manifold OAuth2 Authentication Authorization Code Grant Signature Grant API
+  slug: open-manifold-signature-grant-api
 common:
 - group: agent
   title: ''
@@ -149,7 +159,7 @@ plans:
 - name: Manifold Plans Pricing
   plan_count: 1
   slug: manifold-plans-pricing
-random_paper: 2
+random_paper: 97
 rate_limits:
 - limit_count: 3
   name: Manifold Rate Limits
@@ -183,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manifold/refs/heads/main/screenshots/manifold-2026-06-20T184923.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -117,8 +117,89 @@ apis:
 - description: The XCom API from Apache Airflow — 2 operation(s) for xcom.
   name: Apache Airflow XCom API
   slug: airflow-xcom-api
-artifact_total: 475
+artifact_total: 502
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airflow Asset API
+  slug: open-airflow-asset-api
+- collection_type: open
+  name: Airflow Asset Backfill API
+  slug: open-airflow-backfill-api
+- collection_type: open
+  name: Airflow Asset Config API
+  slug: open-airflow-config-api
+- collection_type: open
+  name: Airflow Asset Connection API
+  slug: open-airflow-connection-api
+- collection_type: open
+  name: Airflow Asset DAG API
+  slug: open-airflow-dag-api
+- collection_type: open
+  name: Airflow Asset DAG Parsing API
+  slug: open-airflow-dag-parsing-api
+- collection_type: open
+  name: Airflow Asset DagRun API
+  slug: open-airflow-dagrun-api
+- collection_type: open
+  name: Airflow Asset DagSource API
+  slug: open-airflow-dagsource-api
+- collection_type: open
+  name: Airflow Asset DagStats API
+  slug: open-airflow-dagstats-api
+- collection_type: open
+  name: Airflow Asset DagVersion API
+  slug: open-airflow-dagversion-api
+- collection_type: open
+  name: Airflow Asset DagWarning API
+  slug: open-airflow-dagwarning-api
+- collection_type: open
+  name: Airflow Asset Event Log API
+  slug: open-airflow-event-log-api
+- collection_type: open
+  name: Airflow Asset experimental API
+  slug: open-airflow-experimental-api
+- collection_type: open
+  name: Airflow Asset Extra Links API
+  slug: open-airflow-extra-links-api
+- collection_type: open
+  name: Airflow Asset Import Error API
+  slug: open-airflow-import-error-api
+- collection_type: open
+  name: Airflow Asset Job API
+  slug: open-airflow-job-api
+- collection_type: open
+  name: Airflow Asset Login API
+  slug: open-airflow-login-api
+- collection_type: open
+  name: Airflow Asset Monitor API
+  slug: open-airflow-monitor-api
+- collection_type: open
+  name: Airflow Asset Plugin API
+  slug: open-airflow-plugin-api
+- collection_type: open
+  name: Airflow Asset Pool API
+  slug: open-airflow-pool-api
+- collection_type: open
+  name: Airflow Asset Provider API
+  slug: open-airflow-provider-api
+- collection_type: open
+  name: Airflow Asset Task API
+  slug: open-airflow-task-api
+- collection_type: open
+  name: Airflow Asset Task Instance API
+  slug: open-airflow-task-instance-api
+- collection_type: open
+  name: Airflow Asset Variable API
+  slug: open-airflow-variable-api
+- collection_type: open
+  name: Airflow Asset Version API
+  slug: open-airflow-version-api
+- collection_type: open
+  name: Airflow Asset XCom API
+  slug: open-airflow-xcom-api
 - collection_type: open
   name: Airflow API
   slug: open-airflow
@@ -1504,7 +1585,7 @@ plans:
 - name: Airflow Plans Pricing
   plan_count: 3
   slug: airflow-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Airflow Rate Limits
@@ -1551,7 +1632,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/screenshots/airflow-2026-06-20T171427.png
 security:

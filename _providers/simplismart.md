@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: LLM/VLM model training endpoints
   name: Simplismart Training API
   slug: simplismart-training-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DeepSeek R1 Distil Qwen-32B Chat Completion API
+  slug: open-simplismart-chat-completion-api
+- collection_type: open
+  name: DeepSeek R1 Distil Qwen-32B Chat Completion Flux API
+  slug: open-simplismart-flux-api
+- collection_type: open
+  name: DeepSeek R1 Distil Qwen-32B Chat Completion Flux Training API
+  slug: open-simplismart-flux-training-api
+- collection_type: open
+  name: DeepSeek R1 Distil Qwen-32B Chat Completion Llm API
+  slug: open-simplismart-llm-api
+- collection_type: open
+  name: DeepSeek R1 Distil Qwen-32B Chat Completion Metrics API
+  slug: open-simplismart-metrics-api
+- collection_type: open
+  name: DeepSeek R1 Distil Qwen-32B Chat Completion Model API
+  slug: open-simplismart-model-api
+- collection_type: open
+  name: DeepSeek R1 Distil Qwen-32B Chat Completion Speech to Text API
+  slug: open-simplismart-speech-to-text-api
+- collection_type: open
+  name: DeepSeek R1 Distil Qwen-32B Chat Completion Training API
+  slug: open-simplismart-training-api
 common:
 - group: company
   title: ''
@@ -196,7 +224,7 @@ overview: 'Simplismart publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Simplismart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 5
+random_paper: 13
 score:
   band: developing
   composite: 53.0
@@ -220,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

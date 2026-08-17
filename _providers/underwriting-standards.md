@@ -21,7 +21,7 @@ modified: '2026-05-03'
 name: Underwriting Standards
 nav: Providers
 network: true
-random_paper: 43
+random_paper: 88
 slug: underwriting-standards
 tags:
 - Underwriting

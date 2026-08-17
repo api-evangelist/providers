@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,7 +65,23 @@ apis:
 - description: Extension to WFS3 Core to support STAC metadata model and search API
   name: NASA CMR STAC API
   slug: nasa-cmr-stac-api
-artifact_total: 28
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CMR Search Capabilities API
+  slug: open-nasa-cmr-capabilities-api
+- collection_type: open
+  name: CMR Search Capabilities Collections API
+  slug: open-nasa-cmr-collections-api
+- collection_type: open
+  name: CMR Search Capabilities Data API
+  slug: open-nasa-cmr-data-api
+- collection_type: open
+  name: CMR Search Capabilities STAC API
+  slug: open-nasa-cmr-stac-api
 common:
 - group: operate
   title: ''
@@ -195,7 +211,7 @@ plans:
 - name: Nasa Cmr Plans Pricing
   plan_count: 3
   slug: nasa-cmr-plans-pricing
-random_paper: 66
+random_paper: 41
 rate_limits:
 - limit_count: 6
   name: Nasa Cmr Rate Limits
@@ -235,7 +251,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/screenshots/nasa-cmr-2026-06-20T185946.png
 security:

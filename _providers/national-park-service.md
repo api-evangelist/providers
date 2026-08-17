@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The Visitorcenters API from National Park Service — 1 operation(s) for visitorcenters.
   name: National Park Service Visitorcenters API
   slug: national-park-service-visitorcenters-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: National Park Service Data Activities API
+  slug: open-national-park-service-activities-api
+- collection_type: open
+  name: National Park Service Data Activities Alerts API
+  slug: open-national-park-service-alerts-api
+- collection_type: open
+  name: National Park Service Data Activities Articles API
+  slug: open-national-park-service-articles-api
+- collection_type: open
+  name: National Park Service Data Activities Campgrounds API
+  slug: open-national-park-service-campgrounds-api
+- collection_type: open
+  name: National Park Service Data Activities Events API
+  slug: open-national-park-service-events-api
+- collection_type: open
+  name: National Park Service Data Activities Newsreleases API
+  slug: open-national-park-service-newsreleases-api
+- collection_type: open
+  name: National Park Service Data Activities Parks API
+  slug: open-national-park-service-parks-api
+- collection_type: open
+  name: National Park Service Data Activities People API
+  slug: open-national-park-service-people-api
+- collection_type: open
+  name: National Park Service Data Activities Places API
+  slug: open-national-park-service-places-api
+- collection_type: open
+  name: National Park Service Data Activities Topics API
+  slug: open-national-park-service-topics-api
+- collection_type: open
+  name: National Park Service Data Activities Visitorcenters API
+  slug: open-national-park-service-visitorcenters-api
 - collection_type: open
   name: National Park Service Data API
   slug: open-national-park-service
@@ -126,7 +162,7 @@ plans:
 - name: National Park Service Plans Pricing
   plan_count: 3
   slug: national-park-service-plans-pricing
-random_paper: 87
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: National Park Service Rate Limits
@@ -157,7 +193,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-park-service/refs/heads/main/screenshots/national-park-service-2026-06-20T190036.png
 security:

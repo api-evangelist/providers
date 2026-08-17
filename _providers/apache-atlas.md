@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Manage type definitions including entity types, classifications, and relationships.
   name: Apache Atlas Types API
   slug: apache-atlas-types-api
-artifact_total: 78
+artifact_total: 85
 collections:
 - collection_type: postman
   name: Apache Atlas REST Discovery API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Apache Atlas REST Discovery Types API
   slug: postman-apache-atlas-types-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Atlas REST Discovery API
+  slug: open-apache-atlas-discovery-api
+- collection_type: open
+  name: Apache Atlas REST Discovery Entities API
+  slug: open-apache-atlas-entities-api
+- collection_type: open
+  name: Apache Atlas REST Discovery Glossary API
+  slug: open-apache-atlas-glossary-api
+- collection_type: open
+  name: Apache Atlas REST Discovery Lineage API
+  slug: open-apache-atlas-lineage-api
+- collection_type: open
+  name: Apache Atlas REST Discovery Relationships API
+  slug: open-apache-atlas-relationships-api
+- collection_type: open
+  name: Apache Atlas REST Discovery Types API
+  slug: open-apache-atlas-types-api
 common:
 - group: build
   title: ''
@@ -308,7 +329,7 @@ plans:
 - name: Apache Atlas Plans Pricing
   plan_count: 3
   slug: apache-atlas-plans-pricing
-random_paper: 108
+random_paper: 145
 rate_limits:
 - limit_count: 5
   name: Apache Atlas Rate Limits
@@ -350,7 +371,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/screenshots/apache-atlas-2026-06-20T172046.png
 security:

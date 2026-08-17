@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Company incorporation request submission and management
   name: Vistra Incorporations API
   slug: vistra-incorporations-api
-artifact_total: 18
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vistra Incorporations Documents API
+  slug: open-vistra-documents-api
+- collection_type: open
+  name: Vistra Documents Incorporations API
+  slug: open-vistra-incorporations-api
 - collection_type: open
   name: Vistra Incorporations API
   slug: open-vistra-incorporations
@@ -166,7 +175,7 @@ plans:
 - name: Vistra Plans Pricing
   plan_count: 1
   slug: vistra-plans-pricing
-random_paper: 65
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Vistra Rate Limits
@@ -208,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png
 security:

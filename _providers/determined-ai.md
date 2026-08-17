@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Manage users
   name: Determined AI Users API
   slug: determined-ai-users-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Determined AI REST Authentication API
+  slug: open-determined-ai-authentication-api
+- collection_type: open
+  name: Determined AI REST Authentication Checkpoints API
+  slug: open-determined-ai-checkpoints-api
+- collection_type: open
+  name: Determined AI REST Authentication Cluster API
+  slug: open-determined-ai-cluster-api
+- collection_type: open
+  name: Determined AI REST Authentication Experiments API
+  slug: open-determined-ai-experiments-api
+- collection_type: open
+  name: Determined AI REST Authentication Models API
+  slug: open-determined-ai-models-api
+- collection_type: open
+  name: Determined AI REST Authentication Templates API
+  slug: open-determined-ai-templates-api
+- collection_type: open
+  name: Determined AI REST Authentication Tokens API
+  slug: open-determined-ai-tokens-api
+- collection_type: open
+  name: Determined AI REST Authentication Users API
+  slug: open-determined-ai-users-api
 - collection_type: open
   name: Determined AI REST API
   slug: open-determined-ai
@@ -121,7 +148,7 @@ plans:
 - name: Determined Ai Plans Pricing
   plan_count: 3
   slug: determined-ai-plans-pricing
-random_paper: 104
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Determined Ai Rate Limits
@@ -146,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/screenshots/determined-ai-2026-07-25T211812.png
 security:

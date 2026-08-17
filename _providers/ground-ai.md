@@ -1,11 +1,13 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Demo-gated
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://joinground.com/book-a-demo
+  - https://apps.shopify.com/ground
   trial: false
   try_now: false
 agent_readiness:
@@ -15,21 +17,21 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     auth_clarity: false
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 5.9
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -51,31 +53,87 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://joinground.com/legal/privacy-policy
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://joinground.com/documentation/what-is-ground
+- group: company
+  title: ''
+  type: Blog
+  url: https://joinground.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://joinground.com/faq
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ground-ai-llms.txt
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/ground-ai-robots.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ground-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ground-ai-rate-limits.yml
+coverage:
+  checked: '2026-08-14'
+  detail: 'Ground ships its AI revenue agents as managed connectors into Shopify, Klaviyo, Attentive and Mailchimp and markets a "no dev time" setup, so there is nothing to call: joinground.com/api, /docs, /developers and /openapi.json all return 404, no api. or docs. subdomain resolves, and the only machine-readable documents on the domain are llms.txt, robots.txt and sitemap.xml.'
+  evidence:
+  - status: 404
+    url: https://joinground.com/developers
+  - status: 404
+    url: https://joinground.com/openapi.json
+  - status: 404
+    url: https://joinground.com/api-docs
+  - status: 404
+    url: https://joinground.com/.well-known/agent-card.json
+  - status: 200
+    url: https://joinground.com/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Ground (joinground.com) is an AI-native revenue platform for consumer and e-commerce brands, delivering autonomous "AI revenue agents" that drive growth across the customer lifecycle. Its products include Greet AI for converting new visitors, ReBeat AI for repeat purchases and retention, and Terra, an AI-native revenue engine that orchestrates actions across the funnel. Ground positions itself as Growth-as-a-Service, plugging into a brand's existing stack (Shopify, Klaviyo, Mailchimp, Recharge, Salesforce, Meta, Google Ads and 20+ platforms) with a fast, low-lift deployment. Headquartered in New York and Silicon Valley with a global team, Ground is a Techstars-backed company. This profile was added to the API Evangelist network via VC-portfolio discovery; the company publishes no public API, developer portal, SDKs, or technical documentation at this time.
+description: 'Ground — legally Cheres, Inc (dba Ground), 20 Exchange Place, New York — is an AI-native revenue platform for consumer and e-commerce brands, delivering autonomous "AI revenue agents" that work across the customer lifecycle. Its named agents are Greet AI for first-touch conversion of new visitors, ReCartify for identity resolution, ReBeat AI for repeat purchase and winback, and Terra for repetitive marketer tasks. Ground positions itself as Growth-as-a-Service, plugging into a brand''s existing stack — Shopify, Adobe Commerce, WooCommerce, Klaviyo, Mailchimp, Attentive, Postscript, Yotpo, Meta Ads and Amped — with a stated 15-minute, no-developer setup. It is Techstars-backed and ships a free Shopify App Store listing. Ground publishes product documentation, a blog, an FAQ and a machine-readable llms.txt, and its robots.txt carries an explicit Cloudflare Content Signals AI-use reservation (search=yes, ai-train=no, use=reference). It publishes no public API, OpenAPI, MCP server,
+  SDK, webhook catalog or developer portal: the platform is delivered as managed connectors into the tools a brand already runs, and every commercial path terminates in a demo booking.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ground-ai.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Ground AI
 nav: Providers
 network: true
-overview: Ground AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Artificial Intelligence, Commerce, and Revenue.
-random_paper: 62
+overview: 'Ground AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Artificial Intelligence, Commerce, and Revenue.
+
+
+  Ground AI''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
+plans:
+- name: Ground Ai Plans Pricing
+  plan_count: 1
+  slug: ground-ai-plans-pricing
+random_paper: 8
+rate_limits:
+- limit_count: 0
+  name: Ground Ai Rate Limits
+  slug: ground-ai-rate-limits
 score:
-  band: minimal
-  composite: 11.8
-  delta: 0.0
+  band: emerging
+  composite: 19.8
+  delta: 8.0
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 55.3
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 15.2
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ground-ai/refs/heads/main/screenshots/ground-ai-2026-07-25T220342.png
 security:
 - kind: domain-security
@@ -93,5 +151,7 @@ tags:
 - Marketing Automation
 - AI Agents
 - Growth
+- Shopify
+- Agentic Commerce
 website: https://joinground.com/
 ---

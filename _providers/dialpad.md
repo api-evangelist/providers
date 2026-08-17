@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -87,11 +87,41 @@ apis:
 - description: The Webhooks API from Dialpad — 2 operation(s) for webhooks.
   name: Dialpad Webhooks API
   slug: dialpad-webhooks-api
-artifact_total: 27
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Dialpad Webhook Events API
   slug: open-dialpad-asyncapi
+- collection_type: open
+  name: Dialpad Calls API
+  slug: open-dialpad-calls-api
+- collection_type: open
+  name: Dialpad Calls Contacts API
+  slug: open-dialpad-contacts-api
+- collection_type: open
+  name: Dialpad Calls Offices API
+  slug: open-dialpad-offices-api
+- collection_type: open
+  name: Dialpad Calls Recordings API
+  slug: open-dialpad-recordings-api
+- collection_type: open
+  name: Dialpad Calls Rooms API
+  slug: open-dialpad-rooms-api
+- collection_type: open
+  name: Dialpad Calls Subscriptions API
+  slug: open-dialpad-subscriptions-api
+- collection_type: open
+  name: Dialpad Calls Transcripts API
+  slug: open-dialpad-transcripts-api
+- collection_type: open
+  name: Dialpad Calls Users API
+  slug: open-dialpad-users-api
+- collection_type: open
+  name: Dialpad Calls Webhooks API
+  slug: open-dialpad-webhooks-api
 - collection_type: open
   name: Dialpad API
   slug: open-dialpad
@@ -168,7 +198,7 @@ plans:
 - name: Dialpad Plans Pricing
   plan_count: 1
   slug: dialpad-plans-pricing
-random_paper: 119
+random_paper: 123
 rate_limits:
 - limit_count: 1
   name: Dialpad Rate Limits
@@ -193,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/screenshots/dialpad-2026-06-20T180006.png
 security:

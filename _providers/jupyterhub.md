@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 4
@@ -72,11 +72,47 @@ apis:
 - description: User account management.
   name: JupyterHub Users API
   slug: jupyterhub-users-api
-artifact_total: 25
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JupyterHub REST Activity API
+  slug: open-jupyterhub-activity-api
+- collection_type: open
+  name: JupyterHub REST Activity Admin API
+  slug: open-jupyterhub-admin-api
+- collection_type: open
+  name: JupyterHub REST Activity Authorizations API
+  slug: open-jupyterhub-authorizations-api
+- collection_type: open
+  name: JupyterHub REST Activity General API
+  slug: open-jupyterhub-general-api
+- collection_type: open
+  name: JupyterHub REST Activity Groups API
+  slug: open-jupyterhub-groups-api
+- collection_type: open
+  name: JupyterHub REST Activity OAuth2 API
+  slug: open-jupyterhub-oauth2-api
+- collection_type: open
+  name: JupyterHub REST Activity Proxy API
+  slug: open-jupyterhub-proxy-api
 - collection_type: open
   name: JupyterHub REST API
   slug: open-jupyterhub-rest-api
+- collection_type: open
+  name: JupyterHub REST Activity Servers API
+  slug: open-jupyterhub-servers-api
+- collection_type: open
+  name: JupyterHub REST Activity Services API
+  slug: open-jupyterhub-services-api
+- collection_type: open
+  name: JupyterHub REST Activity Tokens API
+  slug: open-jupyterhub-tokens-api
+- collection_type: open
+  name: JupyterHub REST Activity Users API
+  slug: open-jupyterhub-users-api
 common:
 - group: operate
   title: ''
@@ -192,7 +228,7 @@ plans:
 - name: Jupyterhub Plans Pricing
   plan_count: 3
   slug: jupyterhub-plans-pricing
-random_paper: 26
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Jupyterhub Rate Limits
@@ -231,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/screenshots/jupyterhub-2026-06-20T183841.png
 security:

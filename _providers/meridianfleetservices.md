@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Meridianfleetservices
 nav: Providers
 network: true
 overview: Meridianfleetservices is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Services, Fleet Management, Transportation, and Holding Company.
-random_paper: 77
+random_paper: 2
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meridianfleetservices/refs/heads/main/screenshots/meridianfleetservices-2026-08-07T172600.png
 security:

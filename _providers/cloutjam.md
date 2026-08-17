@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,14 +23,18 @@ agent_readiness:
     idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 23.9
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 4
+  score: 35.1
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: 'The v1 REST API behind Cloutdesk''s Agent Platform — the programmatic surface agencies, brands, and talent representatives use to run influencer marketing through AI agents. Cursor-paginated, URI-path '
+  name: Cloutdesk Agent Platform API
+  slug: agent-platform
+artifact_total: 7
 common:
 - group: agent
   title: ''
@@ -86,56 +90,100 @@ common:
   url: conformance/cloutjam-conformance.yml
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/cloutjam-well-known.yml
-- group: agent
-  title: ''
   type: LLMsTxt
   url: llms/cloutjam-llms.txt
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/cloutjam-domain-security.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cloutjam-packages.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cloutjam-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cloutjam-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cloutjam-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloutjam-rate-limits.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/cloutjam-cli.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/cloutdesk
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/cloutdesk/agents
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/cloutdesk/agents#quick-start
 created: '2026-07-17'
-description: CloutDesk (formerly CloutJam) is a 500 Global-backed, New York-based platform for modern influencer marketing and creator management, building open infrastructure that lets agencies, brands, and talent representatives run creator partnerships end-to-end - outreach, relationship management, content approval, contract negotiation, invoicing, reporting, and payments. Its agent-first Agent Platform (Beta) exposes every workflow to AI agents through an MCP server, a cursor-paginated REST API with RFC 7807 errors and idempotent writes, and a CLI.
+description: CloutDesk (formerly CloutJam) is a 500 Global-backed, New York-based platform for modern influencer marketing and creator management, building open infrastructure that lets agencies, brands, and talent representatives run creator partnerships end-to-end - outreach, relationship management, content approval, contract negotiation, invoicing, reporting, and payments. Its agent-first Agent Platform (closed beta) exposes every workflow to AI agents through an MCP server with six published tools, a cursor-paginated v1 REST API with RFC 7807 errors and idempotent writes, and a CLI. CloutDesk also publishes 16 MIT-licensed Agent Skills and four agent templates for Claude Code, OpenAI Codex, and Microsoft Agent Framework in its own public GitHub org.
 image: https://cdn.prod.website-files.com/684989b6fb9b11bb4d485104/68cd29a469d19b89648e1d17_open-graph.avif
 layout: provider
 mcp_servers:
 - description: ''
   name: cloutjam-mcp.yml
   slug: cloutjam-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: CloutJam
 nav: Providers
 network: true
-overview: 'CloutJam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Management, Creator Economy, and Marketing.
+overview: 'CloutJam publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Management, Creator Economy, and Marketing.
 
 
-  CloutJam''s developer surface includes documentation, support, authentication, and 13 more developer resources.'
-random_paper: 23
+  CloutJam''s developer surface includes documentation, support, authentication, CLI, getting-started guide, and 20 more developer resources.'
+plans:
+- name: Cloutjam Plans Pricing
+  plan_count: 0
+  slug: cloutjam-plans-pricing
+random_paper: 118
+rate_limits:
+- limit_count: 0
+  name: Cloutjam Rate Limits
+  slug: cloutjam-rate-limits
 scopes:
 - name: Cloutjam Scopes
-  scope_count: 3
+  scope_count: 4
   slug: cloutjam-scopes
-  summary_line: 3 scopes · authorizationCode
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 22.3
-  delta: 0.0
+  band: thin
+  composite: 30.8
+  delta: 8.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 41.3
-    discoverability: 57.4
+    developer_ergonomics: 65.2
+    discoverability: 87.0
     governance: 12.5
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/screenshots/cloutjam-2026-07-25T205717.png
 security:
 - kind: authentication
@@ -155,5 +203,9 @@ tags:
 - Marketing
 - Agentic AI
 - Agents
+- MCP
+- Agent Skills
+- Talent Management
+- Influencer Marketing Platform
 website: https://cloutdesk.com
 ---

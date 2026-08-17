@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: Repair and service jobs, and work order types.
   name: Skimmer Work Orders API
   slug: skimmer-pool-work-orders-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Skimmer Public Bodies of Water API
+  slug: open-skimmer-pool-bodies-of-water-api
+- collection_type: open
+  name: Skimmer Public Bodies of Water Customers API
+  slug: open-skimmer-pool-customers-api
+- collection_type: open
+  name: Skimmer Public Bodies of Water Invoices API
+  slug: open-skimmer-pool-invoices-api
+- collection_type: open
+  name: Skimmer Public Bodies of Water Products API
+  slug: open-skimmer-pool-products-api
+- collection_type: open
+  name: Skimmer Public Bodies of Water Quotes API
+  slug: open-skimmer-pool-quotes-api
+- collection_type: open
+  name: Skimmer Public Bodies of Water Routes API
+  slug: open-skimmer-pool-routes-api
+- collection_type: open
+  name: Skimmer Public Bodies of Water Service Locations API
+  slug: open-skimmer-pool-service-locations-api
+- collection_type: open
+  name: Skimmer Public Bodies of Water Users API
+  slug: open-skimmer-pool-users-api
+- collection_type: open
+  name: Skimmer Public Bodies of Water Work Orders API
+  slug: open-skimmer-pool-work-orders-api
 common:
 - group: agent
   title: ''
@@ -132,7 +163,7 @@ plans:
 - name: Skimmer Pool Plans Pricing
   plan_count: 3
   slug: skimmer-pool-plans-pricing
-random_paper: 47
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Skimmer Pool Rate Limits
@@ -157,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -69,8 +69,17 @@ apis:
 - description: Track API v1 operations
   name: FedEx Track API
   slug: fedex-track-api
-artifact_total: 21
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FedEx Track Authorization API
+  slug: open-fedex-authorization-api
+- collection_type: open
+  name: FedEx Authorization Track API
+  slug: open-fedex-track-api
 - collection_type: open
   name: FedEx Track API
   slug: open-fedex
@@ -155,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: FedEx Announces Expansion of FedEx Fulfillment With ...
   url: https://newsroom.fedex.com/newsroom/global-english/fedex-announces-expansion-of-fedex-fulfillment-with-nimble-alliance
-random_paper: 44
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Fedex Rate Limits
@@ -180,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png
 security:

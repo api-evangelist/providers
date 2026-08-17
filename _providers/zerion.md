@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -74,7 +74,7 @@ arazzos:
 - description: Pull a wallet's portfolio, positions, transaction history, and PnL in one flow.
   name: Zerion wallet overview
   slug: zerion-wallet-overview.arazzo
-artifact_total: 27
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Zerion Transactions Webhooks
@@ -107,6 +107,36 @@ collections:
 - collection_type: postman
   name: REST chains wallets API
   slug: postman-zerion-wallets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: REST chains API
+  slug: open-zerion-chains-api
+- collection_type: open
+  name: REST chains dapps API
+  slug: open-zerion-dapps-api
+- collection_type: open
+  name: REST chains fungibles API
+  slug: open-zerion-fungibles-api
+- collection_type: open
+  name: REST chains gas API
+  slug: open-zerion-gas-api
+- collection_type: open
+  name: REST chains nfts API
+  slug: open-zerion-nfts-api
+- collection_type: open
+  name: REST chains subscriptions to transactions API
+  slug: open-zerion-subscriptions-to-transactions-api
+- collection_type: open
+  name: REST chains swap API
+  slug: open-zerion-swap-api
+- collection_type: open
+  name: REST chains wallet sets API
+  slug: open-zerion-wallet-sets-api
+- collection_type: open
+  name: REST chains wallets API
+  slug: open-zerion-wallets-api
 common:
 - group: build
   title: ''
@@ -267,7 +297,7 @@ plans:
 - name: Zerion Plans
   plan_count: 5
   slug: zerion-plans
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Zerion Rate Limits
@@ -301,7 +331,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

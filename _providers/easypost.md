@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -72,12 +72,33 @@ apis:
 - description: The Trackers API from EasyPost — 2 operation(s) for trackers.
   name: EasyPost Trackers API
   slug: easypost-trackers-api
-artifact_total: 21
+artifact_total: 28
 asyncapis:
 - description: AsyncAPI specification for EasyPost's webhook surface. EasyPost dispatches Event objects to subscriber URLs whenever asynchronous objects (batches, trackers, scan forms, refunds, reports, payments, cl
   name: EasyPost Webhooks API
   slug: easypost-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EasyPost Shipping Addresses API
+  slug: open-easypost-addresses-api
+- collection_type: open
+  name: EasyPost Shipping Addresses Parcels API
+  slug: open-easypost-parcels-api
+- collection_type: open
+  name: EasyPost Shipping Addresses Refunds API
+  slug: open-easypost-refunds-api
+- collection_type: open
+  name: EasyPost Shipping Addresses Reports API
+  slug: open-easypost-reports-api
+- collection_type: open
+  name: EasyPost Shipping Addresses Shipments API
+  slug: open-easypost-shipments-api
+- collection_type: open
+  name: EasyPost Shipping Addresses Trackers API
+  slug: open-easypost-trackers-api
 - collection_type: open
   name: EasyPost Shipping API
   slug: open-easypost
@@ -157,7 +178,7 @@ plans:
 - name: Easypost Plans Pricing
   plan_count: 5
   slug: easypost-plans-pricing
-random_paper: 48
+random_paper: 143
 rate_limits:
 - limit_count: 2
   name: Easypost Rate Limits
@@ -197,7 +218,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/screenshots/easypost-2026-07-25T212719.png
 security:

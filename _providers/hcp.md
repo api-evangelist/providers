@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -66,8 +66,26 @@ apis:
 - description: Secret synchronization
   name: HashiCorp Cloud Platform Sync API
   slug: hcp-sync-api
-artifact_total: 16
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HCP Vault Secrets Apps API
+  slug: open-hcp-apps-api
+- collection_type: open
+  name: HCP Vault Secrets Apps Gateway API
+  slug: open-hcp-gateway-api
+- collection_type: open
+  name: HCP Vault Secrets Apps Integrations API
+  slug: open-hcp-integrations-api
+- collection_type: open
+  name: HCP Vault Apps Secrets API
+  slug: open-hcp-secrets-api
+- collection_type: open
+  name: HCP Vault Secrets Apps Sync API
+  slug: open-hcp-sync-api
 - collection_type: open
   name: HCP Vault Secrets API
   slug: open-hcp
@@ -148,7 +166,7 @@ press:
 - date: '2026-05-25'
   title: Charter HCP Announces Direct Investment Focus on ...
   url: https://www.jacksonville.com/press-release/story/990353/charter-hcp-announces-direct-investment-focus-on-financial-services-and-ai-guardrail-startups/
-random_paper: 75
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Hcp Rate Limits
@@ -173,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/screenshots/hcp-2026-06-20T182554.png
 security:

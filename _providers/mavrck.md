@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 183
 apis:
 - description: 'The Reporting API exposes Later Influence campaign performance for aggregation outside the platform: instance-level KPIs and time series, campaign performance and estimated ROI, social-network channel'
@@ -583,11 +583,534 @@ apis:
 - description: The Social Network Level API from Mavrck — 2 operation(s) for social network level.
   name: Mavrck Social Network Level API
   slug: mavrck-social-network-level-api
-artifact_total: 189
+artifact_total: 363
 asyncapis:
 - description: 'AsyncAPI description of the Mavrck (Later Influence) outbound webhook surface, derived faithfully from the provider''s own published contract: "Workflow Stage Change Event Webhook" 1.0.0, an OpenAPI 3.'
   name: Mavrck Webhooks
   slug: mavrck-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MAVRCK.IO Account Invitations API
+  slug: open-mavrck-accountinvitations-api
+- collection_type: open
+  name: MAVRCK.IO Action Groups API
+  slug: open-mavrck-action-groups-api
+- collection_type: open
+  name: MAVRCK.IO Action Group Brief API
+  slug: open-mavrck-actiongroupbrief-api
+- collection_type: open
+  name: MAVRCK.IO Action Group Bulk Scheduled Messages API
+  slug: open-mavrck-actiongroupbulkscheduledmessages-api
+- collection_type: open
+  name: MAVRCK.IO Action Group Conversation Templates API
+  slug: open-mavrck-actiongroupconversationtemplates-api
+- collection_type: open
+  name: MAVRCK.IO Action Group Custom Influencer Statuses API
+  slug: open-mavrck-actiongroupcustominfluencerstatuses-api
+- collection_type: open
+  name: MAVRCK.IO Action Group Custom Statuses API
+  slug: open-mavrck-actiongroupcustomstatuses-api
+- collection_type: open
+  name: MAVRCK.IO Action Groups API
+  slug: open-mavrck-actiongroups-api
+- collection_type: open
+  name: MAVRCK.IO Action Group Scheduled Messages API
+  slug: open-mavrck-actiongroupscheduledmessages-api
+- collection_type: open
+  name: MAVRCK.IO Action Groups Status API
+  slug: open-mavrck-actiongroupsstatus-api
+- collection_type: open
+  name: MAVRCK.IO Actions API
+  slug: open-mavrck-actions-api
+- collection_type: open
+  name: MAVRCK.IO Activations API
+  slug: open-mavrck-activations-api
+- collection_type: open
+  name: MAVRCK.IO Activation Tags API
+  slug: open-mavrck-activationtags-api
+- collection_type: open
+  name: MAVRCK.IO Activation Tags Associations API
+  slug: open-mavrck-activationtagsassociations-api
+- collection_type: open
+  name: MAVRCK.IO Activity History API
+  slug: open-mavrck-activityhistory-api
+- collection_type: open
+  name: MAVRCK.IO Administration Account Slow Migration API
+  slug: open-mavrck-administrationaccountslowmigration-api
+- collection_type: open
+  name: MAVRCK.IO Administrator Accounts API
+  slug: open-mavrck-administratoraccounts-api
+- collection_type: open
+  name: MAVRCK.IO Analytics API
+  slug: open-mavrck-analytics-api
+- collection_type: open
+  name: MAVRCK.IO Anonymous Comments API
+  slug: open-mavrck-anonymouscomments-api
+- collection_type: open
+  name: MAVRCK.IO Anonymous Incentive Claim API
+  slug: open-mavrck-anonymousincentiveclaim-api
+- collection_type: open
+  name: MAVRCK.IO Application API
+  slug: open-mavrck-application-api
+- collection_type: open
+  name: Mavrck Authentication API
+  slug: open-mavrck-authentication-api
+- collection_type: open
+  name: MAVRCK.IO Backfill Analytics API
+  slug: open-mavrck-backfill-analytics-api
+- collection_type: open
+  name: MAVRCK.IO Batch Jobs API
+  slug: open-mavrck-batchjobs-api
+- collection_type: open
+  name: MAVRCK.IO Bazaar Voice API
+  slug: open-mavrck-bazaarvoice-api
+- collection_type: open
+  name: MAVRCK.IO Blogs API
+  slug: open-mavrck-blogs-api
+- collection_type: open
+  name: MAVRCK.IO Brand Suitability API
+  slug: open-mavrck-brandsuitability-api
+- collection_type: open
+  name: MAVRCK.IO Brand Suitability Harness API
+  slug: open-mavrck-brandsuitabilityharness-api
+- collection_type: open
+  name: MAVRCK.IO Budgets API
+  slug: open-mavrck-budgets-api
+- collection_type: open
+  name: MAVRCK.IO Bulk Assign Custom Statuses Requirements API
+  slug: open-mavrck-bulkassigncustomstatusesrequirements-api
+- collection_type: open
+  name: Later Influence™ Campaign Level API
+  slug: open-mavrck-campaign-level-api
+- collection_type: open
+  name: MAVRCK.IO Campaign Application API
+  slug: open-mavrck-campaignapplication-api
+- collection_type: open
+  name: MAVRCK.IO Campaign Performance API
+  slug: open-mavrck-campaignperformance-api
+- collection_type: open
+  name: MAVRCK.IO Campaign Platform Callback API
+  slug: open-mavrck-campaignplatformcallback-api
+- collection_type: open
+  name: MAVRCK.IO Campaigns API
+  slug: open-mavrck-campaigns-api
+- collection_type: open
+  name: MAVRCK.IO Candidates API
+  slug: open-mavrck-candidates-api
+- collection_type: open
+  name: MAVRCK.IO Cash Payments API
+  slug: open-mavrck-cashpayments-api
+- collection_type: open
+  name: MAVRCK.IO Comments API
+  slug: open-mavrck-comments-api
+- collection_type: open
+  name: MAVRCK.IO Communities API
+  slug: open-mavrck-communities-api
+- collection_type: open
+  name: MAVRCK.IO Community API
+  slug: open-mavrck-community-api
+- collection_type: open
+  name: MAVRCK.IO Community Benchmarks API
+  slug: open-mavrck-communitybenchmarks-api
+- collection_type: open
+  name: MAVRCK.IO Community Metrics API
+  slug: open-mavrck-communitymetrics-api
+- collection_type: open
+  name: MAVRCK.IO Concepts API
+  slug: open-mavrck-concepts-api
+- collection_type: open
+  name: MAVRCK.IO Content API
+  slug: open-mavrck-content-api
+- collection_type: open
+  name: MAVRCK.IO Conversations API
+  slug: open-mavrck-conversations-api
+- collection_type: open
+  name: MAVRCK.IO Conversation Templates API
+  slug: open-mavrck-conversationtemplates-api
+- collection_type: open
+  name: MAVRCK.IO Conversions API
+  slug: open-mavrck-conversions-api
+- collection_type: open
+  name: MAVRCK.IO Conversion Tags API
+  slug: open-mavrck-conversiontags-api
+- collection_type: open
+  name: MAVRCK.IO Creator Profile Upsert API
+  slug: open-mavrck-creatorprofileupsert-api
+- collection_type: open
+  name: MAVRCK.IO Creator Summary API
+  slug: open-mavrck-creatorsummary-api
+- collection_type: open
+  name: MAVRCK.IO Custom Analytics Admin API
+  slug: open-mavrck-custom-analytics-admin-api
+- collection_type: open
+  name: MAVRCK.IO Custom Analytics Controller API
+  slug: open-mavrck-custom-analytics-controller-api
+- collection_type: open
+  name: MAVRCK.IO Datapoints API
+  slug: open-mavrck-datapoints-api
+- collection_type: open
+  name: MAVRCK.IO Data Subject Request API
+  slug: open-mavrck-datasubjectrequest-api
+- collection_type: open
+  name: MAVRCK.IO DB Influencer Agreement History Fields API
+  slug: open-mavrck-dbinfluenceragreementhistoryfields-api
+- collection_type: open
+  name: MAVRCK.IO Draft Content Viewed API
+  slug: open-mavrck-draftcontentviewed-api
+- collection_type: open
+  name: MAVRCK.IO Drafts API
+  slug: open-mavrck-drafts-api
+- collection_type: open
+  name: MAVRCK.IO Earned Media Value API
+  slug: open-mavrck-earnedmediavalue-api
+- collection_type: open
+  name: MAVRCK.IO Elasticsearch API
+  slug: open-mavrck-elasticsearch-api
+- collection_type: open
+  name: MAVRCK.IO Elasticsearch Options API
+  slug: open-mavrck-elasticsearchoptions-api
+- collection_type: open
+  name: MAVRCK.IO Email Suppressions API
+  slug: open-mavrck-email-suppressions-api
+- collection_type: open
+  name: MAVRCK.IO Email Settings API
+  slug: open-mavrck-emailsettings-api
+- collection_type: open
+  name: MAVRCK.IO Entitlements API
+  slug: open-mavrck-entitlements-api
+- collection_type: open
+  name: MAVRCK.IO Event Logs API
+  slug: open-mavrck-eventlogs-api
+- collection_type: open
+  name: MAVRCK.IO Exchange Rates API
+  slug: open-mavrck-exchangerates-api
+- collection_type: open
+  name: MAVRCK.IO Expiring Access Tokens API
+  slug: open-mavrck-expiringaccesstokens-api
+- collection_type: open
+  name: MAVRCK.IO Exports API
+  slug: open-mavrck-exports-api
+- collection_type: open
+  name: MAVRCK.IO External Clients API
+  slug: open-mavrck-externalclients-api
+- collection_type: open
+  name: MAVRCK.IO Facebook Profile API
+  slug: open-mavrck-facebookprofile-api
+- collection_type: open
+  name: MAVRCK.IO Facebook Profiles API
+  slug: open-mavrck-facebookprofiles-api
+- collection_type: open
+  name: MAVRCK.IO Features API
+  slug: open-mavrck-features-api
+- collection_type: open
+  name: MAVRCK.IO Gift Cards API
+  slug: open-mavrck-giftcards-api
+- collection_type: open
+  name: MAVRCK.IO Global User API
+  slug: open-mavrck-globaluser-api
+- collection_type: open
+  name: MAVRCK.IO Global User Audience API
+  slug: open-mavrck-globaluseraudience-api
+- collection_type: open
+  name: MAVRCK.IO Global User Lists API
+  slug: open-mavrck-globaluserlists-api
+- collection_type: open
+  name: MAVRCK.IO Global User Merge API
+  slug: open-mavrck-globalusermerge-api
+- collection_type: open
+  name: MAVRCK.IO Global Users API
+  slug: open-mavrck-globalusers-api
+- collection_type: open
+  name: MAVRCK.IO Group High API
+  slug: open-mavrck-grouphigh-api
+- collection_type: open
+  name: MAVRCK.IO Images API
+  slug: open-mavrck-images-api
+- collection_type: open
+  name: MAVRCK.IO Incentives API
+  slug: open-mavrck-incentives-api
+- collection_type: open
+  name: Later Influence™ Influencer Level API
+  slug: open-mavrck-influencer-level-api
+- collection_type: open
+  name: MAVRCK.IO Influencer Polling API
+  slug: open-mavrck-influencer-polling-api
+- collection_type: open
+  name: MAVRCK.IO Influencer Campaign API
+  slug: open-mavrck-influencercampaign-api
+- collection_type: open
+  name: MAVRCK.IO Influencer Contract Campaign Templates API
+  slug: open-mavrck-influencercontractcampaigntemplates-api
+- collection_type: open
+  name: MAVRCK.IO Influencer Contract Community Templates API
+  slug: open-mavrck-influencercontractcommunitytemplates-api
+- collection_type: open
+  name: MAVRCK.IO Influencer Links API
+  slug: open-mavrck-influencerlinks-api
+- collection_type: open
+  name: MAVRCK.IO Influencer List API
+  slug: open-mavrck-influencerlist-api
+- collection_type: open
+  name: MAVRCK.IO Influencers API
+  slug: open-mavrck-influencers-api
+- collection_type: open
+  name: MAVRCK.IO Influencer Topics API
+  slug: open-mavrck-influencertopics-api
+- collection_type: open
+  name: MAVRCK.IO Instagram Account API
+  slug: open-mavrck-instagramaccount-api
+- collection_type: open
+  name: Later Influence™ Instance Level API
+  slug: open-mavrck-instance-level-api
+- collection_type: open
+  name: MAVRCK.IO Instance User Materialized View API
+  slug: open-mavrck-instance-user-materialized-view-api
+- collection_type: open
+  name: MAVRCK.IO Instance Brands API
+  slug: open-mavrck-instancebrands-api
+- collection_type: open
+  name: MAVRCK.IO Instance Deactivation API
+  slug: open-mavrck-instancedeactivation-api
+- collection_type: open
+  name: MAVRCK.IO Instance Reactivation API
+  slug: open-mavrck-instancereactivation-api
+- collection_type: open
+  name: MAVRCK.IO Instances API
+  slug: open-mavrck-instances-api
+- collection_type: open
+  name: MAVRCK.IO Later Influencer API
+  slug: open-mavrck-laterinfluencer-api
+- collection_type: open
+  name: MAVRCK.IO Links API
+  slug: open-mavrck-links-api
+- collection_type: open
+  name: MAVRCK.IO List Deliverables API
+  slug: open-mavrck-listdeliverables-api
+- collection_type: open
+  name: MAVRCK.IO List Member API
+  slug: open-mavrck-listmember-api
+- collection_type: open
+  name: MAVRCK.IO List Member Deliverables API
+  slug: open-mavrck-listmemberdeliverables-api
+- collection_type: open
+  name: MAVRCK.IO List Member Mavely Profiles API
+  slug: open-mavrck-listmembermavelyprofiles-api
+- collection_type: open
+  name: MAVRCK.IO List Member Reward Win API
+  slug: open-mavrck-listmemberrewardwin-api
+- collection_type: open
+  name: MAVRCK.IO List Members API
+  slug: open-mavrck-listmembers-api
+- collection_type: open
+  name: MAVRCK.IO Lists API
+  slug: open-mavrck-lists-api
+- collection_type: open
+  name: MAVRCK.IO Marketer Filter Preferences API
+  slug: open-mavrck-marketerfilterpreferences-api
+- collection_type: open
+  name: MAVRCK.IO Marketer Notifications API
+  slug: open-mavrck-marketernotifications-api
+- collection_type: open
+  name: MAVRCK.IO Mavely Transfers API
+  slug: open-mavrck-mavelytransfers-api
+- collection_type: open
+  name: MAVRCK.IO Membership API
+  slug: open-mavrck-membership-api
+- collection_type: open
+  name: MAVRCK.IO Membership Data Points API
+  slug: open-mavrck-membershipdatapoints-api
+- collection_type: open
+  name: MAVRCK.IO Membership Purchases API
+  slug: open-mavrck-membershippurchases-api
+- collection_type: open
+  name: MAVRCK.IO Merge Tags Catalog API
+  slug: open-mavrck-mergetagscatalog-api
+- collection_type: open
+  name: MAVRCK.IO Meta Ad Admin API
+  slug: open-mavrck-meta-ad-admin-api
+- collection_type: open
+  name: MAVRCK.IO Meta Business Assets API
+  slug: open-mavrck-meta-business-assets-api
+- collection_type: open
+  name: MAVRCK.IO Meta Business Integrations API
+  slug: open-mavrck-meta-business-integrations-api
+- collection_type: open
+  name: MAVRCK.IO Meta Business Portfolios API
+  slug: open-mavrck-meta-business-portfolios-api
+- collection_type: open
+  name: MAVRCK.IO Meta Post Partnerships API
+  slug: open-mavrck-meta-post-partnerships-api
+- collection_type: open
+  name: MAVRCK.IO Networks API
+  slug: open-mavrck-networks-api
+- collection_type: open
+  name: MAVRCK.IO Notifications API
+  slug: open-mavrck-notifications-api
+- collection_type: open
+  name: MAVRCK.IO Open AI Search API
+  slug: open-mavrck-openaisearch-api
+- collection_type: open
+  name: MAVRCK.IO Opt In API
+  slug: open-mavrck-optin-api
+- collection_type: open
+  name: MAVRCK.IO Payment Account API
+  slug: open-mavrck-paymentaccount-api
+- collection_type: open
+  name: MAVRCK.IO Payment App Admins API
+  slug: open-mavrck-paymentappadmins-api
+- collection_type: open
+  name: MAVRCK.IO Payment Provider API
+  slug: open-mavrck-paymentprovider-api
+- collection_type: open
+  name: MAVRCK.IO Payment Recipient API
+  slug: open-mavrck-paymentrecipient-api
+- collection_type: open
+  name: MAVRCK.IO Payments Ledger API
+  slug: open-mavrck-paymentsledger-api
+- collection_type: open
+  name: MAVRCK.IO Pay Pal Account API
+  slug: open-mavrck-paypalaccount-api
+- collection_type: open
+  name: MAVRCK.IO Pending Batch Jobs API
+  slug: open-mavrck-pendingbatchjobs-api
+- collection_type: open
+  name: MAVRCK.IO Pinterest Auth API
+  slug: open-mavrck-pinterestauth-api
+- collection_type: open
+  name: MAVRCK.IO Points API
+  slug: open-mavrck-points-api
+- collection_type: open
+  name: MAVRCK.IO Points Admin API
+  slug: open-mavrck-pointsadmin-api
+- collection_type: open
+  name: MAVRCK.IO Polling Queue Management API
+  slug: open-mavrck-polling-queue-management-api
+- collection_type: open
+  name: Later Influence™ Post Level API
+  slug: open-mavrck-post-level-api
+- collection_type: open
+  name: MAVRCK.IO Product API
+  slug: open-mavrck-product-api
+- collection_type: open
+  name: MAVRCK.IO Products API
+  slug: open-mavrck-products-api
+- collection_type: open
+  name: MAVRCK.IO Program API
+  slug: open-mavrck-program-api
+- collection_type: open
+  name: MAVRCK.IO Programs API
+  slug: open-mavrck-programs-api
+- collection_type: open
+  name: MAVRCK.IO Public API
+  slug: open-mavrck-public-api
+- collection_type: open
+  name: MAVRCK.IO Referral Program API
+  slug: open-mavrck-referralprogram-api
+- collection_type: open
+  name: MAVRCK.IO Reports API
+  slug: open-mavrck-reports-api
+- collection_type: open
+  name: MAVRCK.IO Reward Wins API
+  slug: open-mavrck-rewardwins-api
+- collection_type: open
+  name: MAVRCK.IO Shareable Links Visitors API
+  slug: open-mavrck-shareablelinksvisitors-api
+- collection_type: open
+  name: MAVRCK.IO Shared Cipher API
+  slug: open-mavrck-sharedcipher-api
+- collection_type: open
+  name: MAVRCK.IO Shopify Account API
+  slug: open-mavrck-shopifyaccount-api
+- collection_type: open
+  name: MAVRCK.IO Shopify Admin API API
+  slug: open-mavrck-shopifyadminapi-api
+- collection_type: open
+  name: MAVRCK.IO Snapchat Content API
+  slug: open-mavrck-snapchatcontent-api
+- collection_type: open
+  name: MAVRCK.IO Social Account Ingestion API
+  slug: open-mavrck-social-account-ingestion-api
+- collection_type: open
+  name: Later Influence™ Social Network Level API
+  slug: open-mavrck-social-network-level-api
+- collection_type: open
+  name: MAVRCK.IO Social Presence Create API
+  slug: open-mavrck-socialpresencecreate-api
+- collection_type: open
+  name: MAVRCK.IO Social Profile Updates API
+  slug: open-mavrck-socialprofileupdates-api
+- collection_type: open
+  name: MAVRCK.IO Specs API
+  slug: open-mavrck-specs-api
+- collection_type: open
+  name: MAVRCK.IO Stripe Payments API
+  slug: open-mavrck-stripepayments-api
+- collection_type: open
+  name: MAVRCK.IO Subscribers API
+  slug: open-mavrck-subscribers-api
+- collection_type: open
+  name: MAVRCK.IO Survey Response API
+  slug: open-mavrck-surveyresponse-api
+- collection_type: open
+  name: MAVRCK.IO Surveys API
+  slug: open-mavrck-surveys-api
+- collection_type: open
+  name: MAVRCK.IO Tiktok Activations API
+  slug: open-mavrck-tiktok-activations-api
+- collection_type: open
+  name: MAVRCK.IO TikTok TTCM API
+  slug: open-mavrck-tiktok-ttcm-api
+- collection_type: open
+  name: MAVRCK.IO Tik Tok Campaign Fields API
+  slug: open-mavrck-tiktokcampaignfields-api
+- collection_type: open
+  name: MAVRCK.IO Tipalti Payee API
+  slug: open-mavrck-tipaltipayee-api
+- collection_type: open
+  name: MAVRCK.IO Tipalti Transfers API
+  slug: open-mavrck-tipaltitransfers-api
+- collection_type: open
+  name: MAVRCK.IO Topics API
+  slug: open-mavrck-topics-api
+- collection_type: open
+  name: MAVRCK.IO Tracking Link API
+  slug: open-mavrck-tracking-link-api
+- collection_type: open
+  name: MAVRCK.IO Tracking Links API
+  slug: open-mavrck-trackinglinks-api
+- collection_type: open
+  name: MAVRCK.IO Translations API
+  slug: open-mavrck-translations-api
+- collection_type: open
+  name: MAVRCK.IO Upload Policy API
+  slug: open-mavrck-uploadpolicy-api
+- collection_type: open
+  name: MAVRCK.IO URL Metadata API
+  slug: open-mavrck-urlmetadata-api
+- collection_type: open
+  name: MAVRCK.IO User Account API
+  slug: open-mavrck-useraccount-api
+- collection_type: open
+  name: MAVRCK.IO Webhooks API
+  slug: open-mavrck-webhooks-api
+- collection_type: open
+  name: MAVRCK.IO Web Plugin Widgets API
+  slug: open-mavrck-webpluginwidgets-api
+- collection_type: open
+  name: MAVRCK.IO Workflow API
+  slug: open-mavrck-workflow-api
+- collection_type: open
+  name: MAVRCK.IO Yotpo API
+  slug: open-mavrck-yotpo-api
+- collection_type: open
+  name: MAVRCK.IO Ytbc Action Group Channels API
+  slug: open-mavrck-ytbcactiongroupchannels-api
+- collection_type: open
+  name: MAVRCK.IO Ytbc Brand Channels API
+  slug: open-mavrck-ytbcbrandchannels-api
 common:
 - group: auth
   title: ''
@@ -729,7 +1252,7 @@ plans:
 - name: Mavrck Plans Pricing
   plan_count: 0
   slug: mavrck-plans-pricing
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Mavrck Rate Limits
@@ -737,7 +1260,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.6
-  delta: 42.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.2
@@ -745,7 +1268,7 @@ score:
     discoverability: 57.4
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 5.0
+  previous_composite: 47.6
   regulatory:
     applies: true
     matched_via: tags
@@ -753,8 +1276,8 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/screenshots/mavrck-2026-07-25T230437.png
 security:
 - kind: authentication

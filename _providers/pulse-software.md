@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: API for managing user details in Pulse including additional attributes
   name: Pulse Software User Details API v2 API
   slug: pulse-software-user-details-api-v2-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pulse Public Authentication API
+  slug: open-pulse-software-authentication-api
+- collection_type: open
+  name: Pulse Public Authentication Corporate Planning API API
+  slug: open-pulse-software-corporate-planning-api-api
+- collection_type: open
+  name: Pulse Public Authentication Forms API API
+  slug: open-pulse-software-forms-api-api
+- collection_type: open
+  name: Pulse Public Authentication Learning API API
+  slug: open-pulse-software-learning-api-api
+- collection_type: open
+  name: Pulse Public Authentication Project API API
+  slug: open-pulse-software-project-api-api
+- collection_type: open
+  name: Pulse Public Authentication Recruitment API API
+  slug: open-pulse-software-recruitment-api-api
+- collection_type: open
+  name: Pulse Public Authentication Sync API API
+  slug: open-pulse-software-sync-api-api
+- collection_type: open
+  name: Pulse Public Authentication User Details API API
+  slug: open-pulse-software-user-details-api-api
+- collection_type: open
+  name: Pulse Public Authentication User Details API v2 API
+  slug: open-pulse-software-user-details-api-v2-api
 - collection_type: open
   name: Pulse Public API
   slug: open-pulse-software
@@ -111,7 +141,7 @@ plans:
 - name: Pulse Software Plans Pricing
   plan_count: 3
   slug: pulse-software-plans-pricing
-random_paper: 33
+random_paper: 132
 rate_limits:
 - limit_count: 5
   name: Pulse Software Rate Limits
@@ -136,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/screenshots/pulse-software-2026-06-20T192256.png
 security:

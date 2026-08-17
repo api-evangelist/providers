@@ -18,13 +18,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Default namespace
   name: Nomad Health Default API
   slug: nomad-health-default-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nomad Health Default API
+  slug: open-nomad-health-default-api
 common:
 - group: other
   title: ''
@@ -135,7 +142,7 @@ overview: 'Nomad Health publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Nomad Health''s developer surface includes API reference, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: thin
   composite: 31.0
@@ -164,7 +171,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/screenshots/nomad-health-2026-08-07T185440.png
 security:

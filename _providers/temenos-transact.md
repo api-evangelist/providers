@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,11 +78,44 @@ apis:
 - description: Retrieve transaction history, statement details, and account activity records for all account types and arrangements.
   name: Temenos Transact Transactions API
   slug: temenos-transact-transactions-api
-artifact_total: 178
+artifact_total: 189
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts API
+  slug: open-temenos-transact-accounts-api
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts Beneficiaries API
+  slug: open-temenos-transact-beneficiaries-api
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts Cards API
+  slug: open-temenos-transact-cards-api
 - collection_type: open
   name: Temenos Transact Core Banking API
   slug: open-temenos-transact-core-banking
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts Customers API
+  slug: open-temenos-transact-customers-api
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts Deposits API
+  slug: open-temenos-transact-deposits-api
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts Loans API
+  slug: open-temenos-transact-loans-api
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts Payments API
+  slug: open-temenos-transact-payments-api
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts Products API
+  slug: open-temenos-transact-products-api
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts Reference Data API
+  slug: open-temenos-transact-reference-data-api
+- collection_type: open
+  name: Temenos Transact Core Banking Accounts Transactions API
+  slug: open-temenos-transact-transactions-api
 common:
 - group: agent
   title: ''
@@ -629,7 +662,7 @@ plans:
 - name: Temenos Transact Plans Pricing
   plan_count: 1
   slug: temenos-transact-plans-pricing
-random_paper: 112
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Temenos Transact Rate Limits
@@ -677,7 +710,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/screenshots/temenos-transact-2026-06-20T195053.png
 security:

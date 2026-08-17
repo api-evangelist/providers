@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +53,26 @@ apis:
 - description: Controlled vocabularies for DCAT-AP metadata
   name: EU Open Data Portal Vocabularies API
   slug: eu-open-data-portal-vocabularies-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EU Open Data Portal Search Catalogs API
+  slug: open-eu-open-data-portal-catalogs-api
+- collection_type: open
+  name: EU Open Data Portal Search Catalogs Datasets API
+  slug: open-eu-open-data-portal-datasets-api
+- collection_type: open
+  name: EU Open Data Portal Search Catalogs Distributions API
+  slug: open-eu-open-data-portal-distributions-api
 - collection_type: open
   name: EU Open Data Portal Search API
   slug: open-eu-open-data-portal-search
+- collection_type: open
+  name: EU Open Data Portal Search Catalogs Vocabularies API
+  slug: open-eu-open-data-portal-vocabularies-api
 common:
 - group: agent
   title: ''
@@ -106,7 +121,7 @@ plans:
 - name: Eu Open Data Portal Plans Pricing
   plan_count: 3
   slug: eu-open-data-portal-plans-pricing
-random_paper: 55
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Eu Open Data Portal Rate Limits
@@ -146,7 +161,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/screenshots/eu-open-data-portal-2026-06-20T180843.png
 security:

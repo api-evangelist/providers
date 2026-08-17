@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -78,15 +78,45 @@ apis:
 - description: Tax rate configuration
   name: Sage Tax Rates API
   slug: sage-tax-rates-api
-artifact_total: 75
+artifact_total: 85
 asyncapis:
 - description: AsyncAPI 2.6 description of the documented webhook / event surface across Sage developer products. Sage's webhook story is fragmented across product lines and only a subset of products publish a webho
   name: Sage Webhooks
   slug: sage-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Sage Accounting API
   slug: open-sage-accounting
+- collection_type: open
+  name: Sage Accounting Bank Accounts API
+  slug: open-sage-bank-accounts-api
+- collection_type: open
+  name: Sage Accounting Bank Accounts Business API
+  slug: open-sage-business-api
+- collection_type: open
+  name: Sage Accounting Bank Accounts Contacts API
+  slug: open-sage-contacts-api
+- collection_type: open
+  name: Sage Accounting Bank Accounts Ledger Accounts API
+  slug: open-sage-ledger-accounts-api
+- collection_type: open
+  name: Sage Accounting Bank Accounts Payments API
+  slug: open-sage-payments-api
+- collection_type: open
+  name: Sage Accounting Bank Accounts Products API
+  slug: open-sage-products-api
+- collection_type: open
+  name: Sage Accounting Bank Accounts Purchase Invoices API
+  slug: open-sage-purchase-invoices-api
+- collection_type: open
+  name: Sage Accounting Bank Accounts Sales Invoices API
+  slug: open-sage-sales-invoices-api
+- collection_type: open
+  name: Sage Accounting Bank Accounts Tax Rates API
+  slug: open-sage-tax-rates-api
 common:
 - group: agent
   title: ''
@@ -356,7 +386,7 @@ plans:
 - name: Sage Plans Pricing
   plan_count: 1
   slug: sage-plans-pricing
-random_paper: 56
+random_paper: 118
 rate_limits:
 - limit_count: 1
   name: Sage Rate Limits
@@ -411,7 +441,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/screenshots/sage-2026-06-20T193330.png
 security:

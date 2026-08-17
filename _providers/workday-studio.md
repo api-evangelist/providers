@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: Web service operations for time entry, timesheet management, time calculations, and clock-in/clock-out records.
   name: Workday Studio Time Tracking API
   slug: workday-studio-time-tracking-api
-artifact_total: 117
+artifact_total: 133
 collections:
 - collection_type: postman
   name: Workday Studio Integration Absence Management API
@@ -141,8 +141,56 @@ collections:
   name: Workday Studio Integration Absence Management Time Tracking API
   slug: postman-workday-studio-time-tracking-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Studio Integration Absence Management API
+  slug: open-workday-studio-absence-management-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Benefits Administration API
+  slug: open-workday-studio-benefits-administration-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Compensation API
+  slug: open-workday-studio-compensation-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Financial Management API
+  slug: open-workday-studio-financial-management-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Human Resources API
+  slug: open-workday-studio-human-resources-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Integration Assemblies API
+  slug: open-workday-studio-integration-assemblies-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Integration Events API
+  slug: open-workday-studio-integration-events-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Integration Systems API
+  slug: open-workday-studio-integration-systems-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Integration Templates API
+  slug: open-workday-studio-integration-templates-api
+- collection_type: open
   name: Workday Studio Integration API
   slug: open-workday-studio-integration
+- collection_type: open
+  name: Workday Studio Integration Absence Management Launch Parameters API
+  slug: open-workday-studio-launch-parameters-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Payroll API
+  slug: open-workday-studio-payroll-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Recruiting API
+  slug: open-workday-studio-recruiting-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Service Directory API
+  slug: open-workday-studio-service-directory-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Staffing API
+  slug: open-workday-studio-staffing-api
+- collection_type: open
+  name: Workday Studio Integration Absence Management Time Tracking API
+  slug: open-workday-studio-time-tracking-api
 - collection_type: open
   name: Workday Studio Workday Web Services API
   slug: open-workday-studio-web-services
@@ -443,7 +491,7 @@ plans:
 - name: Workday Studio Plans Pricing
   plan_count: 1
   slug: workday-studio-plans-pricing
-random_paper: 38
+random_paper: 137
 rate_limits:
 - limit_count: 1
   name: Workday Studio Rate Limits
@@ -490,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/screenshots/workday-studio-2026-06-20T201611.png
 security:

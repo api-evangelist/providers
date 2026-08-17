@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1290
   human_in_the_loop: 26
@@ -1169,7 +1169,7 @@ arazzos:
 - description: Read an existing issue, comment on it, then transition it to a triaged status.
   name: Atlassian Jira Triage Issue
   slug: atlassian-triage-issue-workflow
-artifact_total: 3363
+artifact_total: 3683
 collections:
 - collection_type: postman
   name: Atlassian Admin API
@@ -1460,8 +1460,92 @@ collections:
   name: Atlassian workspaces/
   slug: postman-atlassian-workspaces--openapi-original
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Atlassian Admin Account API
+  slug: open-atlassian-account-api
+- collection_type: open
+  name: Atlassian Admin Account Activity API
+  slug: open-atlassian-activity-api
+- collection_type: open
+  name: Atlassian Admin Account Add API
+  slug: open-atlassian-add-api
+- collection_type: open
+  name: Atlassian Admin Account Addon API
+  slug: open-atlassian-addon-api
+- collection_type: open
+  name: Atlassian Admin Account Addons API
+  slug: open-atlassian-addons-api
+- collection_type: open
+  name: Atlassian Admin Account Address API
+  slug: open-atlassian-address-api
+- collection_type: open
+  name: Atlassian Admin Account Addresses API
+  slug: open-atlassian-addresses-api
+- collection_type: open
   name: Atlassian Admin API
   slug: open-atlassian-admin-api
+- collection_type: open
+  name: Atlassian Admin Account All API
+  slug: open-atlassian-all-api
+- collection_type: open
+  name: Atlassian Admin Account Analytics API
+  slug: open-atlassian-analytics-api
+- collection_type: open
+  name: Atlassian Admin Account Ancestor API
+  slug: open-atlassian-ancestor-api
+- collection_type: open
+  name: Atlassian Admin Account Annotations API
+  slug: open-atlassian-annotations-api
+- collection_type: open
+  name: Atlassian Admin Account Announcement Banner API
+  slug: open-atlassian-announcement-banner-api
+- collection_type: open
+  name: Atlassian Admin Account App Data Policies (EAP) API
+  slug: open-atlassian-app-data-policies-eap-api
+- collection_type: open
+  name: Atlassian Admin Account App Migration API
+  slug: open-atlassian-app-migration-api
+- collection_type: open
+  name: Atlassian Admin Account App Properties API
+  slug: open-atlassian-app-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Application Roles API
+  slug: open-atlassian-application-roles-api
+- collection_type: open
+  name: Atlassian Admin Account Applications API
+  slug: open-atlassian-applications-api
+- collection_type: open
+  name: Atlassian Admin Account Approve API
+  slug: open-atlassian-approve-api
+- collection_type: open
+  name: Atlassian Admin Account Archive API
+  slug: open-atlassian-archive-api
+- collection_type: open
+  name: Atlassian Admin Account Artifacts API
+  slug: open-atlassian-artifacts-api
+- collection_type: open
+  name: Atlassian Admin Account Asynchronously API
+  slug: open-atlassian-asynchronously-api
+- collection_type: open
+  name: Atlassian Admin Account Attachments API
+  slug: open-atlassian-attachments-api
+- collection_type: open
+  name: Atlassian Admin Account Audit API
+  slug: open-atlassian-audit-api
+- collection_type: open
+  name: Atlassian Admin Account Audit Records API
+  slug: open-atlassian-audit-records-api
+- collection_type: open
+  name: Atlassian Admin Account Available API
+  slug: open-atlassian-available-api
+- collection_type: open
+  name: Atlassian Admin Account Avatars API
+  slug: open-atlassian-avatars-api
+- collection_type: open
+  name: Atlassian Admin Account Between API
+  slug: open-atlassian-between-api
 - collection_type: open
   name: Atlassian Bit Bucket Addon API
   slug: open-atlassian-bitbucket-addon-api
@@ -1486,6 +1570,81 @@ collections:
 - collection_type: open
   name: Atlassian Bit Bucket Workspaces API
   slug: open-atlassian-bitbucket-workspaces-api
+- collection_type: open
+  name: Atlassian Admin Account Bodies API
+  slug: open-atlassian-bodies-api
+- collection_type: open
+  name: Atlassian Admin Account Body API
+  slug: open-atlassian-body-api
+- collection_type: open
+  name: Atlassian Admin Account Branch Restrictions API
+  slug: open-atlassian-branch-restrictions-api
+- collection_type: open
+  name: Atlassian Admin Account Branches API
+  slug: open-atlassian-branches-api
+- collection_type: open
+  name: Atlassian Admin Account Branching API
+  slug: open-atlassian-branching-api
+- collection_type: open
+  name: Atlassian Admin Account Branching Model API
+  slug: open-atlassian-branching-model-api
+- collection_type: open
+  name: Atlassian Admin Account Builds API
+  slug: open-atlassian-builds-api
+- collection_type: open
+  name: Atlassian Admin Account Bulk API
+  slug: open-atlassian-bulk-api
+- collection_type: open
+  name: Atlassian Admin Account Cache API
+  slug: open-atlassian-cache-api
+- collection_type: open
+  name: Atlassian Admin Account Caches API
+  slug: open-atlassian-caches-api
+- collection_type: open
+  name: Atlassian Admin Account Case API
+  slug: open-atlassian-case-api
+- collection_type: open
+  name: Atlassian Admin Account Cases API
+  slug: open-atlassian-cases-api
+- collection_type: open
+  name: Atlassian Admin Account Change API
+  slug: open-atlassian-change-api
+- collection_type: open
+  name: Atlassian Admin Account Changes API
+  slug: open-atlassian-changes-api
+- collection_type: open
+  name: Atlassian Admin Account Checks API
+  slug: open-atlassian-checks-api
+- collection_type: open
+  name: Atlassian Admin Account Children API
+  slug: open-atlassian-children-api
+- collection_type: open
+  name: Atlassian Admin Account Classification Levels API
+  slug: open-atlassian-classification-levels-api
+- collection_type: open
+  name: Atlassian Admin Account Code API
+  slug: open-atlassian-code-api
+- collection_type: open
+  name: Atlassian Admin Account Comments API
+  slug: open-atlassian-comments-api
+- collection_type: open
+  name: Atlassian Admin Account Commit Statuses API
+  slug: open-atlassian-commit-statuses-api
+- collection_type: open
+  name: Atlassian Admin Account Commits API
+  slug: open-atlassian-commits-api
+- collection_type: open
+  name: Atlassian Admin Account Common API
+  slug: open-atlassian-common-api
+- collection_type: open
+  name: Atlassian Admin Account Compare API
+  slug: open-atlassian-compare-api
+- collection_type: open
+  name: Atlassian Admin Account Components API
+  slug: open-atlassian-components-api
+- collection_type: open
+  name: Atlassian Admin Account Configuration API
+  slug: open-atlassian-configuration-api
 - collection_type: open
   name: Atlassian Confluence Analytics API
   slug: open-atlassian-confluence-analytics-api
@@ -1534,6 +1693,807 @@ collections:
 - collection_type: open
   name: Atlassian Confluence User API
   slug: open-atlassian-confluence-user-api
+- collection_type: open
+  name: Atlassian Admin Account Contain API
+  slug: open-atlassian-contain-api
+- collection_type: open
+  name: Atlassian Admin Account Containers API
+  slug: open-atlassian-containers-api
+- collection_type: open
+  name: Atlassian Admin Account Content API
+  slug: open-atlassian-content-api
+- collection_type: open
+  name: Atlassian Admin Account Content - Attachments API
+  slug: open-atlassian-content-attachments-api
+- collection_type: open
+  name: Atlassian Admin Account Content Body API
+  slug: open-atlassian-content-body-api
+- collection_type: open
+  name: Atlassian Admin Account Content - Children and Descendants API
+  slug: open-atlassian-content-children-and-descendants-api
+- collection_type: open
+  name: Atlassian Admin Account Content Comments API
+  slug: open-atlassian-content-comments-api
+- collection_type: open
+  name: Atlassian Admin Account Content Labels API
+  slug: open-atlassian-content-labels-api
+- collection_type: open
+  name: Atlassian Admin Account Content - Macro Body API
+  slug: open-atlassian-content-macro-body-api
+- collection_type: open
+  name: Atlassian Admin Account Content Permissions API
+  slug: open-atlassian-content-permissions-api
+- collection_type: open
+  name: Atlassian Admin Account Content Properties API
+  slug: open-atlassian-content-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Content Restrictions API
+  slug: open-atlassian-content-restrictions-api
+- collection_type: open
+  name: Atlassian Admin Account Content States API
+  slug: open-atlassian-content-states-api
+- collection_type: open
+  name: Atlassian Admin Account Content Versions API
+  slug: open-atlassian-content-versions-api
+- collection_type: open
+  name: Atlassian Admin Account Content Watches API
+  slug: open-atlassian-content-watches-api
+- collection_type: open
+  name: Atlassian Admin Account Convert API
+  slug: open-atlassian-convert-api
+- collection_type: open
+  name: Atlassian Admin Account Converted API
+  slug: open-atlassian-converted-api
+- collection_type: open
+  name: Atlassian Admin Account Copy API
+  slug: open-atlassian-copy-api
+- collection_type: open
+  name: Atlassian Admin Account Create API
+  slug: open-atlassian-create-api
+- collection_type: open
+  name: Atlassian Admin Account Current API
+  slug: open-atlassian-current-api
+- collection_type: open
+  name: Atlassian Admin Account Currently API
+  slug: open-atlassian-currently-api
+- collection_type: open
+  name: Atlassian Admin Account Dashboards API
+  slug: open-atlassian-dashboards-api
+- collection_type: open
+  name: Atlassian Admin Account Data API
+  slug: open-atlassian-data-api
+- collection_type: open
+  name: Atlassian Admin Account Decline API
+  slug: open-atlassian-decline-api
+- collection_type: open
+  name: Atlassian Admin Account Defined API
+  slug: open-atlassian-defined-api
+- collection_type: open
+  name: Atlassian Admin Account Delete API
+  slug: open-atlassian-delete-api
+- collection_type: open
+  name: Atlassian Admin Account Deploy API
+  slug: open-atlassian-deploy-api
+- collection_type: open
+  name: Atlassian Admin Account Deployments API
+  slug: open-atlassian-deployments-api
+- collection_type: open
+  name: Atlassian Admin Account Descendants API
+  slug: open-atlassian-descendants-api
+- collection_type: open
+  name: Atlassian Admin Account Directories API
+  slug: open-atlassian-directories-api
+- collection_type: open
+  name: Atlassian Admin Account Domains API
+  slug: open-atlassian-domains-api
+- collection_type: open
+  name: Atlassian Admin Account Download API
+  slug: open-atlassian-download-api
+- collection_type: open
+  name: Atlassian Admin Account Downloads API
+  slug: open-atlassian-downloads-api
+- collection_type: open
+  name: Atlassian Admin Account Drafts API
+  slug: open-atlassian-drafts-api
+- collection_type: open
+  name: Atlassian Admin Account Dynamic Modules API
+  slug: open-atlassian-dynamic-modules-api
+- collection_type: open
+  name: Atlassian Admin Account Effective API
+  slug: open-atlassian-effective-api
+- collection_type: open
+  name: Atlassian Admin Account Email API
+  slug: open-atlassian-email-api
+- collection_type: open
+  name: Atlassian Admin Account Emails API
+  slug: open-atlassian-emails-api
+- collection_type: open
+  name: Atlassian Admin Account Environments API
+  slug: open-atlassian-environments-api
+- collection_type: open
+  name: Atlassian Admin Account Events API
+  slug: open-atlassian-events-api
+- collection_type: open
+  name: Atlassian Admin Account Executions API
+  slug: open-atlassian-executions-api
+- collection_type: open
+  name: Atlassian Admin Account Experimental API
+  slug: open-atlassian-experimental-api
+- collection_type: open
+  name: Atlassian Admin Account Explicit API
+  slug: open-atlassian-explicit-api
+- collection_type: open
+  name: Atlassian Admin Account Exports API
+  slug: open-atlassian-exports-api
+- collection_type: open
+  name: Atlassian Admin Account Files API
+  slug: open-atlassian-files-api
+- collection_type: open
+  name: Atlassian Admin Account Filter Sharing API
+  slug: open-atlassian-filter-sharing-api
+- collection_type: open
+  name: Atlassian Admin Account Filters API
+  slug: open-atlassian-filters-api
+- collection_type: open
+  name: Atlassian Admin Account Forks API
+  slug: open-atlassian-forks-api
+- collection_type: open
+  name: Atlassian Admin Account Get API
+  slug: open-atlassian-get-api
+- collection_type: open
+  name: Atlassian Admin Account Given API
+  slug: open-atlassian-given-api
+- collection_type: open
+  name: Atlassian Admin Account Group and User Picker API
+  slug: open-atlassian-group-and-user-picker-api
+- collection_type: open
+  name: Atlassian Admin Account Group API
+  slug: open-atlassian-group-api
+- collection_type: open
+  name: Atlassian Admin Account Groups API
+  slug: open-atlassian-groups-api
+- collection_type: open
+  name: Atlassian Admin Account Head API
+  slug: open-atlassian-head-api
+- collection_type: open
+  name: Atlassian Admin Account Hierarchy API
+  slug: open-atlassian-hierarchy-api
+- collection_type: open
+  name: Atlassian Admin Account History API
+  slug: open-atlassian-history-api
+- collection_type: open
+  name: Atlassian Admin Account Hosts API
+  slug: open-atlassian-hosts-api
+- collection_type: open
+  name: Atlassian Admin Account Identifiers API
+  slug: open-atlassian-identifiers-api
+- collection_type: open
+  name: Atlassian Admin Account Import API
+  slug: open-atlassian-import-api
+- collection_type: open
+  name: Atlassian Admin Account Inheritance API
+  slug: open-atlassian-inheritance-api
+- collection_type: open
+  name: Atlassian Admin Account Inline Tasks API
+  slug: open-atlassian-inline-tasks-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Attachments API
+  slug: open-atlassian-issue-attachments-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Comment Properties API
+  slug: open-atlassian-issue-comment-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Comments API
+  slug: open-atlassian-issue-comments-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Custom Field Configuration (Apps) API
+  slug: open-atlassian-issue-custom-field-configuration-apps-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Custom Field Contexts API
+  slug: open-atlassian-issue-custom-field-contexts-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Custom Field Options API
+  slug: open-atlassian-issue-custom-field-options-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Custom Field Options (Apps) API
+  slug: open-atlassian-issue-custom-field-options-apps-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Custom Field Values (Apps) API
+  slug: open-atlassian-issue-custom-field-values-apps-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Field Configurations API
+  slug: open-atlassian-issue-field-configurations-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Fields API
+  slug: open-atlassian-issue-fields-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Link Types API
+  slug: open-atlassian-issue-link-types-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Links API
+  slug: open-atlassian-issue-links-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Navigator Settings API
+  slug: open-atlassian-issue-navigator-settings-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Notification Schemes API
+  slug: open-atlassian-issue-notification-schemes-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Priorities API
+  slug: open-atlassian-issue-priorities-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Properties API
+  slug: open-atlassian-issue-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Remote Links API
+  slug: open-atlassian-issue-remote-links-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Resolutions API
+  slug: open-atlassian-issue-resolutions-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Search API
+  slug: open-atlassian-issue-search-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Security Level API
+  slug: open-atlassian-issue-security-level-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Security Schemes API
+  slug: open-atlassian-issue-security-schemes-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Tracker API
+  slug: open-atlassian-issue-tracker-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Type Properties API
+  slug: open-atlassian-issue-type-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Type Schemes API
+  slug: open-atlassian-issue-type-schemes-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Type Screen Schemes API
+  slug: open-atlassian-issue-type-screen-schemes-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Types API
+  slug: open-atlassian-issue-types-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Votes API
+  slug: open-atlassian-issue-votes-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Watchers API
+  slug: open-atlassian-issue-watchers-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Worklog Properties API
+  slug: open-atlassian-issue-worklog-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Issue Worklogs API
+  slug: open-atlassian-issue-worklogs-api
+- collection_type: open
+  name: Atlassian Admin Account Issues API
+  slug: open-atlassian-issues-api
+- collection_type: open
+  name: Atlassian Admin Account Jira Expressions API
+  slug: open-atlassian-jira-expressions-api
+- collection_type: open
+  name: Atlassian Admin Account Jira Settings API
+  slug: open-atlassian-jira-settings-api
+- collection_type: open
+  name: Atlassian Admin Account JQL API
+  slug: open-atlassian-jql-api
+- collection_type: open
+  name: Atlassian Admin Account JQL Functions (Apps) API
+  slug: open-atlassian-jql-functions-apps-api
+- collection_type: open
+  name: Atlassian Admin Account Keys API
+  slug: open-atlassian-keys-api
+- collection_type: open
+  name: Atlassian Admin Account Known API
+  slug: open-atlassian-known-api
+- collection_type: open
+  name: Atlassian Admin Account Label Info API
+  slug: open-atlassian-label-info-api
+- collection_type: open
+  name: Atlassian Admin Account Labels API
+  slug: open-atlassian-labels-api
+- collection_type: open
+  name: Atlassian Admin Account Legacy API
+  slug: open-atlassian-legacy-api
+- collection_type: open
+  name: Atlassian Admin Account License Metrics API
+  slug: open-atlassian-license-metrics-api
+- collection_type: open
+  name: Atlassian Admin Account Link API
+  slug: open-atlassian-link-api
+- collection_type: open
+  name: Atlassian Admin Account Linkers API
+  slug: open-atlassian-linkers-api
+- collection_type: open
+  name: Atlassian Admin Account Lists API
+  slug: open-atlassian-lists-api
+- collection_type: open
+  name: Atlassian Admin Account Location API
+  slug: open-atlassian-location-api
+- collection_type: open
+  name: Atlassian Admin Account Log API
+  slug: open-atlassian-log-api
+- collection_type: open
+  name: Atlassian Admin Account Logs API
+  slug: open-atlassian-logs-api
+- collection_type: open
+  name: Atlassian Admin Account Long-Running Task API
+  slug: open-atlassian-long-running-task-api
+- collection_type: open
+  name: Atlassian Admin Account Macro API
+  slug: open-atlassian-macro-api
+- collection_type: open
+  name: Atlassian Admin Account Macros API
+  slug: open-atlassian-macros-api
+- collection_type: open
+  name: Atlassian Admin Account Main API
+  slug: open-atlassian-main-api
+- collection_type: open
+  name: Atlassian Admin Account Memberships API
+  slug: open-atlassian-memberships-api
+- collection_type: open
+  name: Atlassian Admin Account Merge API
+  slug: open-atlassian-merge-api
+- collection_type: open
+  name: Atlassian Admin Account Milestones API
+  slug: open-atlassian-milestones-api
+- collection_type: open
+  name: Atlassian Admin Account Model API
+  slug: open-atlassian-model-api
+- collection_type: open
+  name: Atlassian Admin Account Models API
+  slug: open-atlassian-models-api
+- collection_type: open
+  name: Atlassian Admin Account Modified API
+  slug: open-atlassian-modified-api
+- collection_type: open
+  name: Atlassian Admin Account Modify API
+  slug: open-atlassian-modify-api
+- collection_type: open
+  name: Atlassian Admin Account Modules API
+  slug: open-atlassian-modules-api
+- collection_type: open
+  name: Atlassian Admin Account Move API
+  slug: open-atlassian-move-api
+- collection_type: open
+  name: Atlassian Admin Account Myself API
+  slug: open-atlassian-myself-api
+- collection_type: open
+  name: Atlassian Admin Account Next API
+  slug: open-atlassian-next-api
+- collection_type: open
+  name: Atlassian Admin Account Number API
+  slug: open-atlassian-number-api
+- collection_type: open
+  name: Atlassian Admin Account Objects API
+  slug: open-atlassian-objects-api
+- collection_type: open
+  name: Atlassian Admin Account Open API
+  slug: open-atlassian-open-api
+- collection_type: open
+  name: Atlassian Admin Account Openid Connect API
+  slug: open-atlassian-openid-connect-api
+- collection_type: open
+  name: Atlassian Admin Account Operations API
+  slug: open-atlassian-operations-api
+- collection_type: open
+  name: Atlassian Admin Account Organizations API
+  slug: open-atlassian-organizations-api
+- collection_type: open
+  name: Atlassian Admin Account Output API
+  slug: open-atlassian-output-api
+- collection_type: open
+  name: Atlassian Admin Account Page API
+  slug: open-atlassian-page-api
+- collection_type: open
+  name: Atlassian Admin Account Pages API
+  slug: open-atlassian-pages-api
+- collection_type: open
+  name: Atlassian Admin Account Pairs API
+  slug: open-atlassian-pairs-api
+- collection_type: open
+  name: Atlassian Admin Account Parameter API
+  slug: open-atlassian-parameter-api
+- collection_type: open
+  name: Atlassian Admin Account Patch API
+  slug: open-atlassian-patch-api
+- collection_type: open
+  name: Atlassian Admin Account Period API
+  slug: open-atlassian-period-api
+- collection_type: open
+  name: Atlassian Admin Account Permission Schemes API
+  slug: open-atlassian-permission-schemes-api
+- collection_type: open
+  name: Atlassian Admin Account Permissions API
+  slug: open-atlassian-permissions-api
+- collection_type: open
+  name: Atlassian Admin Account Pipeline API
+  slug: open-atlassian-pipeline-api
+- collection_type: open
+  name: Atlassian Admin Account Pipelines API
+  slug: open-atlassian-pipelines-api
+- collection_type: open
+  name: Atlassian Admin Account Policies API
+  slug: open-atlassian-policies-api
+- collection_type: open
+  name: Atlassian Admin Account Post API
+  slug: open-atlassian-post-api
+- collection_type: open
+  name: Atlassian Admin Account Previous API
+  slug: open-atlassian-previous-api
+- collection_type: open
+  name: Atlassian Admin Account Project Avatars API
+  slug: open-atlassian-project-avatars-api
+- collection_type: open
+  name: Atlassian Admin Account Project Categories API
+  slug: open-atlassian-project-categories-api
+- collection_type: open
+  name: Atlassian Admin Account Project Classification Levels API
+  slug: open-atlassian-project-classification-levels-api
+- collection_type: open
+  name: Atlassian Admin Account Project Components API
+  slug: open-atlassian-project-components-api
+- collection_type: open
+  name: Atlassian Admin Account Project Email API
+  slug: open-atlassian-project-email-api
+- collection_type: open
+  name: Atlassian Admin Account Project Features API
+  slug: open-atlassian-project-features-api
+- collection_type: open
+  name: Atlassian Admin Account Project Key and Name Validation API
+  slug: open-atlassian-project-key-and-name-validation-api
+- collection_type: open
+  name: Atlassian Admin Account Project Permission Schemes API
+  slug: open-atlassian-project-permission-schemes-api
+- collection_type: open
+  name: Atlassian Admin Account Project Properties API
+  slug: open-atlassian-project-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Project Role Actors API
+  slug: open-atlassian-project-role-actors-api
+- collection_type: open
+  name: Atlassian Admin Account Project Roles API
+  slug: open-atlassian-project-roles-api
+- collection_type: open
+  name: Atlassian Admin Account Project Types API
+  slug: open-atlassian-project-types-api
+- collection_type: open
+  name: Atlassian Admin Account Project Versions API
+  slug: open-atlassian-project-versions-api
+- collection_type: open
+  name: Atlassian Admin Account Projects API
+  slug: open-atlassian-projects-api
+- collection_type: open
+  name: Atlassian Admin Account Projects - Workspaces API
+  slug: open-atlassian-projects-workspaces-api
+- collection_type: open
+  name: Atlassian Admin Account Properties API
+  slug: open-atlassian-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Property API
+  slug: open-atlassian-property-api
+- collection_type: open
+  name: Atlassian Admin Account Publish API
+  slug: open-atlassian-publish-api
+- collection_type: open
+  name: Atlassian Admin Account Publishes API
+  slug: open-atlassian-publishes-api
+- collection_type: open
+  name: Atlassian Admin Account Pull API
+  slug: open-atlassian-pull-api
+- collection_type: open
+  name: Atlassian Admin Account Pullrequests API
+  slug: open-atlassian-pullrequests-api
+- collection_type: open
+  name: Atlassian Admin Account Pullrequests - Commit Statuses API
+  slug: open-atlassian-pullrequests-commit-statuses-api
+- collection_type: open
+  name: Atlassian Admin Account Put API
+  slug: open-atlassian-put-api
+- collection_type: open
+  name: Atlassian Admin Account Query API
+  slug: open-atlassian-query-api
+- collection_type: open
+  name: Atlassian Admin Account Raw API
+  slug: open-atlassian-raw-api
+- collection_type: open
+  name: Atlassian Admin Account Reasons API
+  slug: open-atlassian-reasons-api
+- collection_type: open
+  name: Atlassian Admin Account Records API
+  slug: open-atlassian-records-api
+- collection_type: open
+  name: Atlassian Admin Account Refs API
+  slug: open-atlassian-refs-api
+- collection_type: open
+  name: Atlassian Admin Account Register API
+  slug: open-atlassian-register-api
+- collection_type: open
+  name: Atlassian Admin Account Relation API
+  slug: open-atlassian-relation-api
+- collection_type: open
+  name: Atlassian Admin Account Relative API
+  slug: open-atlassian-relative-api
+- collection_type: open
+  name: Atlassian Admin Account Remove API
+  slug: open-atlassian-remove-api
+- collection_type: open
+  name: Atlassian Admin Account Reopen API
+  slug: open-atlassian-reopen-api
+- collection_type: open
+  name: Atlassian Admin Account Reports API
+  slug: open-atlassian-reports-api
+- collection_type: open
+  name: Atlassian Admin Account Reports - Commits API
+  slug: open-atlassian-reports-commits-api
+- collection_type: open
+  name: Atlassian Admin Account Repositories API
+  slug: open-atlassian-repositories-api
+- collection_type: open
+  name: Atlassian Admin Account Repositories - Webhooks API
+  slug: open-atlassian-repositories-webhooks-api
+- collection_type: open
+  name: Atlassian Admin Account Representations API
+  slug: open-atlassian-representations-api
+- collection_type: open
+  name: Atlassian Admin Account Requests API
+  slug: open-atlassian-requests-api
+- collection_type: open
+  name: Atlassian Admin Account Resolve API
+  slug: open-atlassian-resolve-api
+- collection_type: open
+  name: Atlassian Admin Account Restore API
+  slug: open-atlassian-restore-api
+- collection_type: open
+  name: Atlassian Admin Account Restriction API
+  slug: open-atlassian-restriction-api
+- collection_type: open
+  name: Atlassian Admin Account Restrictions API
+  slug: open-atlassian-restrictions-api
+- collection_type: open
+  name: Atlassian Admin Account Retention API
+  slug: open-atlassian-retention-api
+- collection_type: open
+  name: Atlassian Admin Account Retrieve API
+  slug: open-atlassian-retrieve-api
+- collection_type: open
+  name: Atlassian Admin Account Revisions API
+  slug: open-atlassian-revisions-api
+- collection_type: open
+  name: Atlassian Admin Account Root API
+  slug: open-atlassian-root-api
+- collection_type: open
+  name: Atlassian Admin Account Rules API
+  slug: open-atlassian-rules-api
+- collection_type: open
+  name: Atlassian Admin Account Runs API
+  slug: open-atlassian-runs-api
+- collection_type: open
+  name: Atlassian Admin Account Schedule API
+  slug: open-atlassian-schedule-api
+- collection_type: open
+  name: Atlassian Admin Account Schedules API
+  slug: open-atlassian-schedules-api
+- collection_type: open
+  name: Atlassian Admin Account Screen Schemes API
+  slug: open-atlassian-screen-schemes-api
+- collection_type: open
+  name: Atlassian Admin Account Screen Tab Fields API
+  slug: open-atlassian-screen-tab-fields-api
+- collection_type: open
+  name: Atlassian Admin Account Screen Tabs API
+  slug: open-atlassian-screen-tabs-api
+- collection_type: open
+  name: Atlassian Admin Account Screens API
+  slug: open-atlassian-screens-api
+- collection_type: open
+  name: Atlassian Admin Account Search API
+  slug: open-atlassian-search-api
+- collection_type: open
+  name: Atlassian Admin Account Server Info API
+  slug: open-atlassian-server-info-api
+- collection_type: open
+  name: Atlassian Admin Account Service Registry API
+  slug: open-atlassian-service-registry-api
+- collection_type: open
+  name: Atlassian Admin Account Sets API
+  slug: open-atlassian-sets-api
+- collection_type: open
+  name: Atlassian Admin Account Settings API
+  slug: open-atlassian-settings-api
+- collection_type: open
+  name: Atlassian Admin Account Shared API
+  slug: open-atlassian-shared-api
+- collection_type: open
+  name: Atlassian Admin Account Single API
+  slug: open-atlassian-single-api
+- collection_type: open
+  name: Atlassian Admin Account Snippets API
+  slug: open-atlassian-snippets-api
+- collection_type: open
+  name: Atlassian Admin Account Source - Repositories API
+  slug: open-atlassian-source-repositories-api
+- collection_type: open
+  name: Atlassian Admin Account Space API
+  slug: open-atlassian-space-api
+- collection_type: open
+  name: Atlassian Admin Account Space Permissions API
+  slug: open-atlassian-space-permissions-api
+- collection_type: open
+  name: Atlassian Admin Account Space Properties API
+  slug: open-atlassian-space-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Space Settings API
+  slug: open-atlassian-space-settings-api
+- collection_type: open
+  name: Atlassian Admin Account Spaces API
+  slug: open-atlassian-spaces-api
+- collection_type: open
+  name: Atlassian Admin Account Specific API
+  slug: open-atlassian-specific-api
+- collection_type: open
+  name: Atlassian Admin Account Ssh API
+  slug: open-atlassian-ssh-api
+- collection_type: open
+  name: Atlassian Admin Account State API
+  slug: open-atlassian-state-api
+- collection_type: open
+  name: Atlassian Admin Account States API
+  slug: open-atlassian-states-api
+- collection_type: open
+  name: Atlassian Admin Account Status API
+  slug: open-atlassian-status-api
+- collection_type: open
+  name: Atlassian Admin Account Statuses API
+  slug: open-atlassian-statuses-api
+- collection_type: open
+  name: Atlassian Admin Account Step API
+  slug: open-atlassian-step-api
+- collection_type: open
+  name: Atlassian Admin Account Steps API
+  slug: open-atlassian-steps-api
+- collection_type: open
+  name: Atlassian Admin Account Stop API
+  slug: open-atlassian-stop-api
+- collection_type: open
+  name: Atlassian Admin Account Subscribable API
+  slug: open-atlassian-subscribable-api
+- collection_type: open
+  name: Atlassian Admin Account Summaries API
+  slug: open-atlassian-summaries-api
+- collection_type: open
+  name: Atlassian Admin Account Synchronously API
+  slug: open-atlassian-synchronously-api
+- collection_type: open
+  name: Atlassian Admin Account Target API
+  slug: open-atlassian-target-api
+- collection_type: open
+  name: Atlassian Admin Account Task API
+  slug: open-atlassian-task-api
+- collection_type: open
+  name: Atlassian Admin Account Tasks API
+  slug: open-atlassian-tasks-api
+- collection_type: open
+  name: Atlassian Admin Account Teams API
+  slug: open-atlassian-teams-api
+- collection_type: open
+  name: Atlassian Admin Account Template API
+  slug: open-atlassian-template-api
+- collection_type: open
+  name: Atlassian Admin Account Tests API
+  slug: open-atlassian-tests-api
+- collection_type: open
+  name: Atlassian Admin Account Themes API
+  slug: open-atlassian-themes-api
+- collection_type: open
+  name: Atlassian Admin Account Threads API
+  slug: open-atlassian-threads-api
+- collection_type: open
+  name: Atlassian Admin Account Time API
+  slug: open-atlassian-time-api
+- collection_type: open
+  name: Atlassian Admin Account Time Tracking API
+  slug: open-atlassian-time-tracking-api
+- collection_type: open
+  name: Atlassian Admin Account Trees API
+  slug: open-atlassian-trees-api
+- collection_type: open
+  name: Atlassian Admin Account Type API
+  slug: open-atlassian-type-api
+- collection_type: open
+  name: Atlassian Admin Account Types API
+  slug: open-atlassian-types-api
+- collection_type: open
+  name: Atlassian Admin Account UI Modifications (Apps) API
+  slug: open-atlassian-ui-modifications-apps-api
+- collection_type: open
+  name: Atlassian Admin Account Unapprove API
+  slug: open-atlassian-unapprove-api
+- collection_type: open
+  name: Atlassian Admin Account Update API
+  slug: open-atlassian-update-api
+- collection_type: open
+  name: Atlassian Admin Account Upload API
+  slug: open-atlassian-upload-api
+- collection_type: open
+  name: Atlassian Admin Account Uploading API
+  slug: open-atlassian-uploading-api
+- collection_type: open
+  name: Atlassian Admin Account User Properties API
+  slug: open-atlassian-user-properties-api
+- collection_type: open
+  name: Atlassian Admin Account User Search API
+  slug: open-atlassian-user-search-api
+- collection_type: open
+  name: Atlassian Admin Account Users API
+  slug: open-atlassian-users-api
+- collection_type: open
+  name: Atlassian Admin Account Value API
+  slug: open-atlassian-value-api
+- collection_type: open
+  name: Atlassian Admin Account Variables API
+  slug: open-atlassian-variables-api
+- collection_type: open
+  name: Atlassian Admin Account Versions API
+  slug: open-atlassian-versions-api
+- collection_type: open
+  name: Atlassian Admin Account Viewers API
+  slug: open-atlassian-viewers-api
+- collection_type: open
+  name: Atlassian Admin Account Views API
+  slug: open-atlassian-views-api
+- collection_type: open
+  name: Atlassian Admin Account Voted API
+  slug: open-atlassian-voted-api
+- collection_type: open
+  name: Atlassian Admin Account Votes API
+  slug: open-atlassian-votes-api
+- collection_type: open
+  name: Atlassian Admin Account Watch API
+  slug: open-atlassian-watch-api
+- collection_type: open
+  name: Atlassian Admin Account Watchers API
+  slug: open-atlassian-watchers-api
+- collection_type: open
+  name: Atlassian Admin Account Watches API
+  slug: open-atlassian-watches-api
+- collection_type: open
+  name: Atlassian Admin Account Watching API
+  slug: open-atlassian-watching-api
+- collection_type: open
+  name: Atlassian Admin Account Webhooks API
+  slug: open-atlassian-webhooks-api
+- collection_type: open
+  name: Atlassian Admin Account Workflow Scheme Drafts API
+  slug: open-atlassian-workflow-scheme-drafts-api
+- collection_type: open
+  name: Atlassian Admin Account Workflow Scheme Project Associations API
+  slug: open-atlassian-workflow-scheme-project-associations-api
+- collection_type: open
+  name: Atlassian Admin Account Workflow Schemes API
+  slug: open-atlassian-workflow-schemes-api
+- collection_type: open
+  name: Atlassian Admin Account Workflow Status Categories API
+  slug: open-atlassian-workflow-status-categories-api
+- collection_type: open
+  name: Atlassian Admin Account Workflow Statuses API
+  slug: open-atlassian-workflow-statuses-api
+- collection_type: open
+  name: Atlassian Admin Account Workflow Transition Properties API
+  slug: open-atlassian-workflow-transition-properties-api
+- collection_type: open
+  name: Atlassian Admin Account Workflow Transition Rules API
+  slug: open-atlassian-workflow-transition-rules-api
+- collection_type: open
+  name: Atlassian Admin Account Workflows API
+  slug: open-atlassian-workflows-api
+- collection_type: open
+  name: Atlassian Admin Account Workspaces API
+  slug: open-atlassian-workspaces-api
+- collection_type: open
+  name: Atlassian Admin Account Workspaces - Webhooks API
+  slug: open-atlassian-workspaces-webhooks-api
 common:
 - group: agent
   title: ''
@@ -10265,7 +11225,7 @@ plans:
 - name: Atlassian Plans Pricing
   plan_count: 4
   slug: atlassian-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Atlassian Rate Limits
@@ -10312,7 +11272,7 @@ score:
       marker_coverage: 0.0
       total: 320
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -126,11 +126,102 @@ apis:
 - description: Operations on Work Requests
   name: MaintainX Work Requests API
   slug: maintainx-work-requests-api
-artifact_total: 36
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Maintainx Webhooks
   slug: maintainx-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MaintainX Asset Criticalities API
+  slug: open-maintainx-asset-criticalities-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Asset Custom Statuses API
+  slug: open-maintainx-asset-custom-statuses-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Asset Statuses API
+  slug: open-maintainx-asset-statuses-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Assets API
+  slug: open-maintainx-assets-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Categories API
+  slug: open-maintainx-categories-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Conversations API
+  slug: open-maintainx-conversations-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Custom Fields API
+  slug: open-maintainx-custom-fields-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Locations API
+  slug: open-maintainx-locations-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Maintenance Plans API
+  slug: open-maintainx-maintenance-plans-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Manufacturers API
+  slug: open-maintainx-manufacturers-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Meter Readings API
+  slug: open-maintainx-meter-readings-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Meter Triggers API
+  slug: open-maintainx-meter-triggers-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Meters API
+  slug: open-maintainx-meters-api
+- collection_type: open
+  name: MaintainX Asset Criticalities OpenAPI Documentation API
+  slug: open-maintainx-openapi-documentation-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Organizations API
+  slug: open-maintainx-organizations-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Part Transfer Requests API
+  slug: open-maintainx-part-transfer-requests-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Parts API
+  slug: open-maintainx-parts-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Procedure Template Rows API
+  slug: open-maintainx-procedure-template-rows-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Procedure Templates API
+  slug: open-maintainx-procedure-templates-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Purchase Orders API
+  slug: open-maintainx-purchase-orders-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Root Cause Analysis Reports API
+  slug: open-maintainx-root-cause-analysis-reports-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Subscriptions & Webhooks API
+  slug: open-maintainx-subscriptions-webhooks-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Teams API
+  slug: open-maintainx-teams-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Users API
+  slug: open-maintainx-users-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Vendors API
+  slug: open-maintainx-vendors-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Work Orders API
+  slug: open-maintainx-work-orders-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Work Permits API
+  slug: open-maintainx-work-permits-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Work Request Portals API
+  slug: open-maintainx-work-request-portals-api
+- collection_type: open
+  name: MaintainX Asset Criticalities Work Requests API
+  slug: open-maintainx-work-requests-api
 common:
 - group: company
   title: ''
@@ -279,7 +370,7 @@ overview: 'MaintainX publishes 29 APIs on the [APIs.io](https://apis.io/) networ
 
 
   MaintainX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 6
   name: Maintainx Rate Limits
@@ -307,7 +398,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/screenshots/maintainx-2026-07-25T225951.png
 security:

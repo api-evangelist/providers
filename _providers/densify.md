@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,8 +60,26 @@ apis:
 - description: The System API from Densify — 1 operation(s) for system.
   name: Densify System API
   slug: densify-system-api
-artifact_total: 16
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Densify / Kubex Public Cloud Authentication API
+  slug: open-densify-authentication-api
+- collection_type: open
+  name: Densify / Kubex Public Cloud Authentication Cloud Analysis API
+  slug: open-densify-cloud-analysis-api
+- collection_type: open
+  name: Densify / Kubex Public Cloud Authentication Kubernetes API
+  slug: open-densify-kubernetes-api
+- collection_type: open
+  name: Densify / Kubex Public Cloud Authentication Recommendations API
+  slug: open-densify-recommendations-api
+- collection_type: open
+  name: Densify / Kubex Public Cloud Authentication System API
+  slug: open-densify-system-api
 - collection_type: open
   name: Densify / Kubex Public Cloud API
   slug: open-densify
@@ -182,7 +200,7 @@ plans:
 - name: Densify Plans Pricing
   plan_count: 3
   slug: densify-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Densify Rate Limits
@@ -207,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/screenshots/densify-2026-06-20T175916.png
 security:

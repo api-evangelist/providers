@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,11 @@ apis:
 - description: A live, anonymously readable JSON:API v1.1 surface over the NAIC's public regulatory content estate, served by Drupal 11 at content.naic.org/jsonapi. The NAIC neither documents nor advertises it - the
   name: NAIC Content JSON:API
   slug: content-jsonapi
-artifact_total: 11
+artifact_total: 12
+collections:
+- collection_type: open
+  name: NAIC Content JSON:API
+  slug: open-naic-content-jsonapi
 common:
 - group: agent
   title: ''
@@ -182,7 +186,7 @@ overview: 'NAIC publishes 1 API on the [APIs.io](https://apis.io/) network: Cont
 
 
   NAIC''s developer surface includes authentication, code examples, engineering blog, documentation, developer portal, support, and 22 more developer resources.'
-random_paper: 51
+random_paper: 113
 score:
   band: emerging
   composite: 26.6
@@ -212,7 +216,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png
 security:

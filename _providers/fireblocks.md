@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 3
@@ -144,7 +144,7 @@ apis:
 - description: The Workspace Management API from fireblocks — 13 operation(s) for workspace management.
   name: fireblocks Workspace Management API
   slug: fireblocks-workspace-management-api
-artifact_total: 127
+artifact_total: 155
 collections:
 - collection_type: postman
   name: Fireblocks Blockchains and Assets Approval Requests API
@@ -252,50 +252,134 @@ collections:
   name: Fireblocks Blockchains and Assets Approval Requests Workspace Management API
   slug: postman-fireblocks-workspace-management-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests API
+  slug: open-fireblocks-approval-requests-api
+- collection_type: open
   name: Fireblocks Blockchains and Assets API
   slug: open-fireblocks-assets-api
 - collection_type: open
-  name: Fireblocks Compliance and Policy API
+  name: Fireblocks Blockchains and Assets Approval Requests Blockchains & Assets API
+  slug: open-fireblocks-blockchains-assets-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Compliance API
   slug: open-fireblocks-compliance-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Connected Accounts (Beta) API
+  slug: open-fireblocks-connected-accounts-beta-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Contract Interactions API
+  slug: open-fireblocks-contract-interactions-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Contract Templates API
+  slug: open-fireblocks-contract-templates-api
 - collection_type: open
   name: Fireblocks Smart Contracts API
   slug: open-fireblocks-contracts-api
 - collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Cosigners (Beta) API
+  slug: open-fireblocks-cosigners-beta-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests dApp Connections API
+  slug: open-fireblocks-dapp-connections-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Deployed Contracts API
+  slug: open-fireblocks-deployed-contracts-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Exchange Accounts API
+  slug: open-fireblocks-exchange-accounts-api
+- collection_type: open
   name: Fireblocks Exchange and Fiat Accounts API
   slug: open-fireblocks-exchange-api
 - collection_type: open
-  name: Fireblocks Gas Station API
+  name: Fireblocks Blockchains and Assets Approval Requests Fiat Accounts API
+  slug: open-fireblocks-fiat-accounts-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Fireblocks Network API
+  slug: open-fireblocks-fireblocks-network-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Gas Station API
   slug: open-fireblocks-gas-station-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Job Management API
+  slug: open-fireblocks-job-management-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Key Link API
+  slug: open-fireblocks-key-link-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Keys (Beta) API
+  slug: open-fireblocks-keys-beta-api
 - collection_type: open
   name: Fireblocks Network and Off-Exchange API
   slug: open-fireblocks-network-api
 - collection_type: open
-  name: Fireblocks NFTs API
+  name: Fireblocks Blockchains and Assets Approval Requests NFTs API
   slug: open-fireblocks-nfts-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Off Exchange API
+  slug: open-fireblocks-off-exchange-api
 - collection_type: open
   name: Fireblocks Payments API
   slug: open-fireblocks-payments-api
 - collection_type: open
-  name: Fireblocks Staking API
+  name: Fireblocks Blockchains and Assets Approval Requests Payments - Flows API
+  slug: open-fireblocks-payments-flows-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Payments - Payout API
+  slug: open-fireblocks-payments-payout-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Policy Editor (Beta) API
+  slug: open-fireblocks-policy-editor-beta-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Policy Editor V2 (Beta) API
+  slug: open-fireblocks-policy-editor-v2-beta-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Smart Transfers API
+  slug: open-fireblocks-smart-transfers-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Staking API
   slug: open-fireblocks-staking-api
 - collection_type: open
-  name: Fireblocks Tokenization API
+  name: Fireblocks Blockchains and Assets Approval Requests Tags API
+  slug: open-fireblocks-tags-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Tokenization API
   slug: open-fireblocks-tokenization-api
 - collection_type: open
-  name: Fireblocks Transactions API
+  name: Fireblocks Blockchains and Assets Approval Requests Trading (Beta) API
+  slug: open-fireblocks-trading-beta-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Transactions API
   slug: open-fireblocks-transactions-api
 - collection_type: open
-  name: Fireblocks Vaults API
+  name: Fireblocks Blockchains and Assets Approval Requests Vaults API
   slug: open-fireblocks-vaults-api
 - collection_type: open
   name: Fireblocks Whitelisted Wallets API
   slug: open-fireblocks-wallets-api
 - collection_type: open
-  name: Fireblocks Webhooks API
+  name: Fireblocks Blockchains and Assets Approval Requests Webhooks API
   slug: open-fireblocks-webhooks-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Webhooks V2 API
+  slug: open-fireblocks-webhooks-v2-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Whitelisted Contracts API
+  slug: open-fireblocks-whitelisted-contracts-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Whitelisted External Wallets API
+  slug: open-fireblocks-whitelisted-external-wallets-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Whitelisted Internal Wallets API
+  slug: open-fireblocks-whitelisted-internal-wallets-api
 - collection_type: open
   name: Fireblocks Workspace Management API
   slug: open-fireblocks-workspace-api
+- collection_type: open
+  name: Fireblocks Blockchains and Assets Approval Requests Workspace Management API
+  slug: open-fireblocks-workspace-management-api
 common:
 - group: operate
   title: ''
@@ -662,7 +746,7 @@ plans:
 - name: Fireblocks Plans Pricing
   plan_count: 6
   slug: fireblocks-plans-pricing
-random_paper: 100
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Fireblocks Rate Limits
@@ -696,7 +780,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png
 security:

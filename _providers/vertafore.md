@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The newest and preferred REST API for AMS360, the flagship property and casualty agency management system. It exposes agency data as REST resources - Customers, Policies, Service Agreements, Invoices,
@@ -103,7 +103,7 @@ plans:
 - name: Vertafore Plans Pricing
   plan_count: 4
   slug: vertafore-plans-pricing
-random_paper: 14
+random_paper: 80
 score:
   band: emerging
   composite: 16.2
@@ -123,7 +123,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Aura is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Aura''s developer surface includes pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 65
+random_paper: 127
 score:
   band: emerging
   composite: 18.4
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aura/refs/heads/main/screenshots/aura-2026-07-25T201731.png
 security:

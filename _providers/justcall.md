@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,8 +50,20 @@ apis:
 - description: Send and manage SMS/MMS messages.
   name: JustCall SMS API
   slug: justcall-sms-api
-artifact_total: 9
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JustCall REST Calls API
+  slug: open-justcall-calls-api
+- collection_type: open
+  name: JustCall REST Calls Contacts API
+  slug: open-justcall-contacts-api
+- collection_type: open
+  name: JustCall REST Calls SMS API
+  slug: open-justcall-sms-api
 - collection_type: open
   name: JustCall REST API
   slug: open-justcall
@@ -120,7 +132,7 @@ overview: 'JustCall publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   JustCall''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 26
+random_paper: 121
 score:
   band: thin
   composite: 34.4
@@ -147,7 +159,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/screenshots/justcall-2026-06-20T183845.png
 security:

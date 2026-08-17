@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -85,7 +85,7 @@ arazzos:
 - description: Find a failed run in a flow's history, inspect it, and resubmit its trigger.
   name: Microsoft Power Automate Triage and Resubmit a Failed Run
   slug: microsoft-power-automate-triage-failed-run-workflow
-artifact_total: 71
+artifact_total: 78
 collections:
 - collection_type: postman
   name: Microsoft Power Automate Management Connections API
@@ -105,6 +105,27 @@ collections:
 - collection_type: postman
   name: Microsoft Power Automate Management Connections Flows API
   slug: postman-microsoft-power-automate-flows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Power Automate Management Connections API
+  slug: open-microsoft-power-automate-connections-api
+- collection_type: open
+  name: Microsoft Power Automate Management Connections Connectors API
+  slug: open-microsoft-power-automate-connectors-api
+- collection_type: open
+  name: Microsoft Power Automate Management Connections Environments API
+  slug: open-microsoft-power-automate-environments-api
+- collection_type: open
+  name: Microsoft Power Automate Management Connections Flow Permissions API
+  slug: open-microsoft-power-automate-flow-permissions-api
+- collection_type: open
+  name: Microsoft Power Automate Management Connections Flow Runs API
+  slug: open-microsoft-power-automate-flow-runs-api
+- collection_type: open
+  name: Microsoft Power Automate Management Connections Flows API
+  slug: open-microsoft-power-automate-flows-api
 common:
 - group: other
   title: ''
@@ -383,7 +404,7 @@ plans:
 - name: Microsoft Power Automate Plans Pricing
   plan_count: 3
   slug: microsoft-power-automate-plans-pricing
-random_paper: 93
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Automate Rate Limits
@@ -438,7 +459,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-06-20T185521.png
 security:

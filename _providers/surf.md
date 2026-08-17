@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: OpenAI-style Chat/Research API. POST /responses with a surf-2.0 or surf-2.0-instant model and a natural-language crypto question; returns synthesized answers with inline citations drawn from live mark
@@ -79,7 +79,56 @@ apis:
 - description: Fetch and search web content. Retrieve any URL and convert it to clean, LLM-friendly markdown, or search the internet for crypto-related articles, reports, and resources.
   name: Surf Web API
   slug: surf-web-api
-artifact_total: 19
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hermod DEX API
+  slug: open-surf-dex-api
+- collection_type: open
+  name: Hermod DEX Exchange API
+  slug: open-surf-exchange-api
+- collection_type: open
+  name: Hermod DEX Fund API
+  slug: open-surf-fund-api
+- collection_type: open
+  name: Hermod DEX Hyperliquid API
+  slug: open-surf-hyperliquid-api
+- collection_type: open
+  name: Hermod DEX Market API
+  slug: open-surf-market-api
+- collection_type: open
+  name: Hermod DEX News API
+  slug: open-surf-news-api
+- collection_type: open
+  name: Hermod DEX Onchain API
+  slug: open-surf-onchain-api
+- collection_type: open
+  name: Hermod DEX Prediction Market API
+  slug: open-surf-prediction-market-api
+- collection_type: open
+  name: Hermod DEX Project API
+  slug: open-surf-project-api
+- collection_type: open
+  name: Hermod DEX Search API
+  slug: open-surf-search-api
+- collection_type: open
+  name: Hermod DEX Signal API
+  slug: open-surf-signal-api
+- collection_type: open
+  name: Hermod DEX Social API
+  slug: open-surf-social-api
+- collection_type: open
+  name: Hermod DEX Token API
+  slug: open-surf-token-api
+- collection_type: open
+  name: Hermod DEX Wallet API
+  slug: open-surf-wallet-api
+- collection_type: open
+  name: Hermod DEX Web API
+  slug: open-surf-web-api
 common:
 - group: other
   title: ''
@@ -185,7 +234,7 @@ overview: 'Surf publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Surf''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, CLI, and 15 more developer resources.'
-random_paper: 88
+random_paper: 1
 score:
   band: thin
   composite: 41.4
@@ -214,7 +263,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

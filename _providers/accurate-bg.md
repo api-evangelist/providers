@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -69,7 +69,38 @@ apis:
 - description: Employment and education verification attempts.
   name: Accurate Background Verifications API
   slug: accurate-bg-verifications-api
-artifact_total: 17
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accurate Background Adjudication API
+  slug: open-accurate-bg-adjudication-api
+- collection_type: open
+  name: Accurate Background Adjudication Candidates API
+  slug: open-accurate-bg-candidates-api
+- collection_type: open
+  name: Accurate Background Adjudication Documents API
+  slug: open-accurate-bg-documents-api
+- collection_type: open
+  name: Accurate Background Adjudication Notifications API
+  slug: open-accurate-bg-notifications-api
+- collection_type: open
+  name: Accurate Background Adjudication Orders API
+  slug: open-accurate-bg-orders-api
+- collection_type: open
+  name: Accurate Background Adjudication Packages API
+  slug: open-accurate-bg-packages-api
+- collection_type: open
+  name: Accurate Background Adjudication Reports API
+  slug: open-accurate-bg-reports-api
+- collection_type: open
+  name: Accurate Background Adjudication Utility API
+  slug: open-accurate-bg-utility-api
+- collection_type: open
+  name: Accurate Background Adjudication Verifications API
+  slug: open-accurate-bg-verifications-api
 common:
 - group: agent
   title: ''
@@ -139,7 +170,7 @@ plans:
 - name: Accurate Bg Plans Pricing
   plan_count: 3
   slug: accurate-bg-plans-pricing
-random_paper: 6
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Accurate Bg Rate Limits
@@ -169,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/screenshots/accurate-bg-2026-07-25T181442.png
 security:

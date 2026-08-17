@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Qeen's first-party mobile analytics and commerce-event SDK, shipped as a binary XCFramework for iOS (Swift Package Manager) and an AAR for Android (self-hosted Maven). It exposes a typed commerce even
@@ -157,7 +157,7 @@ plans:
 - name: Qeenai Plans Pricing
   plan_count: 4
   slug: qeenai-plans-pricing
-random_paper: 27
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Qeenai Rate Limits
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.3
-  delta: 23.0
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -173,10 +173,10 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 12.3
+  previous_composite: 35.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Qeenai Authentication

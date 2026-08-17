@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Retrieve botanical subkingdom classification data.
   name: Trefle Subkingdoms API
   slug: trefle-subkingdoms-api
-artifact_total: 25
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trefle Distributions API
+  slug: open-trefle-distributions-api
+- collection_type: open
+  name: Trefle Distributions Division Classes API
+  slug: open-trefle-division-classes-api
+- collection_type: open
+  name: Trefle Distributions Division Orders API
+  slug: open-trefle-division-orders-api
+- collection_type: open
+  name: Trefle Distributions Divisions API
+  slug: open-trefle-divisions-api
+- collection_type: open
+  name: Trefle Distributions Families API
+  slug: open-trefle-families-api
+- collection_type: open
+  name: Trefle Distributions Genus API
+  slug: open-trefle-genus-api
+- collection_type: open
+  name: Trefle Distributions Kingdoms API
+  slug: open-trefle-kingdoms-api
+- collection_type: open
+  name: Trefle Distributions Plants API
+  slug: open-trefle-plants-api
+- collection_type: open
+  name: Trefle Distributions Species API
+  slug: open-trefle-species-api
+- collection_type: open
+  name: Trefle Distributions Subkingdoms API
+  slug: open-trefle-subkingdoms-api
 - collection_type: open
   name: Trefle API
   slug: open-trefle
@@ -157,7 +190,7 @@ plans:
 - name: Trefle Plans Pricing
   plan_count: 3
   slug: trefle-plans-pricing
-random_paper: 42
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Trefle Rate Limits
@@ -205,7 +238,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/screenshots/trefle-2026-06-20T195651.png
 security:

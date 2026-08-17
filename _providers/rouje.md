@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the Rouje storefront, implementing the Universal Commerce Protocol (UCP) over MCP: catalog search, cart, checkout, fulfillment, and order tools, with a buyer-approval'
@@ -100,7 +100,7 @@ overview: 'Rouje publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rouje''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 69
+random_paper: 102
 scopes:
 - name: Rouje Scopes
   scope_count: 4
@@ -122,7 +122,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

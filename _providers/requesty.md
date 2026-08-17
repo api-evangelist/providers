@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,12 +43,30 @@ apis:
 - description: Usage statistics and spend reporting.
   name: Requesty Usage API
   slug: requesty-usage-api
-artifact_total: 16
+artifact_total: 22
 asyncapis:
 - description: AsyncAPI 2.6 description of Requesty's **chat completion streaming** surface. Requesty does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://docs.reques
   name: Requesty Chat Completions Streaming (HTTP + SSE)
   slug: requesty-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Requesty Router API Keys API
+  slug: open-requesty-api-keys-api
+- collection_type: open
+  name: Requesty Router API Keys Chat API
+  slug: open-requesty-chat-api
+- collection_type: open
+  name: Requesty Router API Keys Embeddings API
+  slug: open-requesty-embeddings-api
+- collection_type: open
+  name: Requesty Router API Keys Models API
+  slug: open-requesty-models-api
+- collection_type: open
+  name: Requesty Router API Keys Usage API
+  slug: open-requesty-usage-api
 - collection_type: open
   name: Requesty Router API
   slug: open-requesty
@@ -132,7 +150,7 @@ plans:
 - name: Requesty Plans Pricing
   plan_count: 3
   slug: requesty-plans-pricing
-random_paper: 58
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Requesty Rate Limits
@@ -166,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/screenshots/requesty-2026-06-20T192926.png
 security:

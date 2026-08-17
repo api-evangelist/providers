@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -75,17 +75,56 @@ apis:
 - description: IP and VPC traffic filter rulesets for deployments.
   name: Elastic TrafficFilters API
   slug: elastic-trafficfilters-api
-artifact_total: 46
+artifact_total: 59
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Elastic Cloud Account API
+  slug: open-elastic-account-api
 - collection_type: open
   name: Elastic Cloud API
   slug: open-elastic-cloud
 - collection_type: open
+  name: Elastic Cloud Account Cluster API
+  slug: open-elastic-cluster-api
+- collection_type: open
+  name: Elastic Cloud Account DataViews API
+  slug: open-elastic-dataviews-api
+- collection_type: open
+  name: Elastic Cloud Account Deployments API
+  slug: open-elastic-deployments-api
+- collection_type: open
+  name: Elastic Cloud Account Documents API
+  slug: open-elastic-documents-api
+- collection_type: open
   name: Elasticsearch REST API
   slug: open-elastic-elasticsearch
 - collection_type: open
+  name: Elastic Cloud Account Indices API
+  slug: open-elastic-indices-api
+- collection_type: open
   name: Kibana API
   slug: open-elastic-kibana
+- collection_type: open
+  name: Elastic Cloud Account SavedObjects API
+  slug: open-elastic-savedobjects-api
+- collection_type: open
+  name: Elastic Cloud Account Search API
+  slug: open-elastic-search-api
+- collection_type: open
+  name: Elastic Cloud Account Security API
+  slug: open-elastic-security-api
+- collection_type: open
+  name: Elastic Cloud Account Spaces API
+  slug: open-elastic-spaces-api
+- collection_type: open
+  name: Elastic Cloud Account Status API
+  slug: open-elastic-status-api
+- collection_type: open
+  name: Elastic Cloud Account TrafficFilters API
+  slug: open-elastic-trafficfilters-api
 common:
 - group: agent
   title: ''
@@ -203,7 +242,7 @@ plans:
 - name: Elastic Plans Pricing
   plan_count: 3
   slug: elastic-plans-pricing
-random_paper: 21
+random_paper: 145
 rate_limits:
 - limit_count: 3
   name: Elastic Rate Limits
@@ -237,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/screenshots/elastic-2026-06-20T180547.png
 security:

@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -75,34 +75,78 @@ common:
   title: ''
   type: DomainSecurity
   url: security/playplay-domain-security.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://playplay.com/sign-up
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/playplay-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/playplay-lifecycle.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/playplay-components.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/playplay-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: PlayPlay ships no developer program at all — api./developer./developers./docs.playplay.com have no DNS record, /openapi.json 404s on playplay.com, app.playplay.com and design.playplay.com, and all 242 English Help Center articles pulled from the public Zendesk API mention an API zero times; the only integration PlayPlay documents is a copy-paste HTML video embed.
+  evidence:
+  - status: 404
+    url: https://playplay.com/openapi.json
+  - status: 404
+    url: https://app.playplay.com/openapi.json
+  - status: 404
+    url: https://app.playplay.com/graphql
+  - status: 404
+    url: https://playplay.com/.well-known/agent-card.json
+  - status: 200
+    url: https://playplay-support.zendesk.com/api/v2/help_center/en-us/articles.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: PlayPlay is an online video and visual creation platform that lets business teams produce on-brand videos and images without prior editing experience. Through a drag-and-drop editor, AI-assisted tools (text-to-video, script and voice-over generation, automatic subtitles) and enterprise collaboration, brand-kit and review workflows, it serves marketing, communications and HR teams at large organizations. Founded in France and backed by Balderton Capital, Insight Partners and Point Nine, PlayPlay is a SaaS product without a public developer API; this API Evangelist profile captures its published identity, legal and security surface (ISO 27001, SOC 2, GDPR).
 image: https://playplay.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: PlayPlay
 nav: Providers
 network: true
 overview: 'PlayPlay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Creation, Content Creation, and Marketing.
 
 
-  PlayPlay''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 36
+  PlayPlay''s developer surface includes pricing, engineering blog, support, signup flow, and 12 more developer resources.'
+plans:
+- name: Playplay Plans Pricing
+  plan_count: 2
+  slug: playplay-plans-pricing
+random_paper: 131
+rate_limits:
+- limit_count: 0
+  name: Playplay Rate Limits
+  slug: playplay-rate-limits
 score:
   band: emerging
-  composite: 17.1
-  delta: 0.0
+  composite: 24.7
+  delta: 7.6
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 81.6
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 17.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Playplay Domain Security
@@ -115,7 +159,7 @@ security:
 - kind: trust-center
   name: Playplay Trust Center
   slug: playplay-trust-center
-  summary_line: SOC 2 Type I, SOC 2 Type II, ISO 27001:2022, GDPR, CCPA
+  summary_line: SOC 2, ISO 27001, GDPR
 slug: playplay
 tags:
 - Company

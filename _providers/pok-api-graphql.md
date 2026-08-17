@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Unofficial GraphQL for PokeAPI
@@ -56,7 +56,7 @@ name: PokéAPI (GraphQL)
 nav: Providers
 network: true
 overview: PokéAPI (GraphQL) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 45
+random_paper: 144
 score:
   band: minimal
   composite: 5.0
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pok-api-graphql/refs/heads/main/screenshots/pok-api-graphql-2026-06-20T191846.png
 slug: pok-api-graphql

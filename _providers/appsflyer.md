@@ -14,13 +14,13 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-12'
-api_count: 10
+  score: 58.8
+  scored_at: '2026-08-17'
+api_count: 11
 apis:
 - description: 'Report-pull endpoints that export AppsFlyer attribution and analytics data as CSV/JSON: raw-data installs, in-app events, re-engagements, retargeting, uninstalls, ad-revenue and protect360 reports (V1'
   name: Pull API (Reporting Data)
@@ -49,14 +49,135 @@ apis:
 - description: The ROI360 net-revenue API returns store-tax and net-revenue figures per app and store so marketers can measure return on ad spend against revenue net of app-store commission and taxes, plus the suppo
   name: ROI360 Net Revenue API
   slug: roi360-net-revenue-api
+- description: The Creative External API uploads creative assets and publishes ads to ad networks programmatically, bypassing the AppsFlyer Creative Dashboard UI. It is asynchronous — a batch is submitted for upload
+  name: Creative External API
+  slug: creative-external-api
 - description: AppsFlyer's hosted Model Context Protocol server exposes AppsFlyer's unified marketing data to LLM clients and agents over an OAuth 2.1 authorization-code + PKCE flow with dynamic client registration,
   name: AppsFlyer MCP Server
   slug: appsflyer-mcp-server
-artifact_total: 16
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Appsflyer Push Api Webhooks
   slug: appsflyer-push-api-webhooks
+collections:
+- collection_type: open
+  name: Additional Identifiers API
+  slug: open-appsflyer-additional-identifiers-api
+- collection_type: open
+  name: AdRevenue Account Integrations API
+  slug: open-appsflyer-adrevenue-account-integrations-api
+- collection_type: open
+  name: Aggregate Pull API V1 Token
+  slug: open-appsflyer-aggregate-pull-api-v1-token
+- collection_type: open
+  name: Aggregate Pull API V2 Token
+  slug: open-appsflyer-aggregate-pull-api-v2-token
+- collection_type: open
+  name: App list API
+  slug: open-appsflyer-app-list-api
+- collection_type: open
+  name: App management API V2.0
+  slug: open-appsflyer-app-management-api-v20
+- collection_type: open
+  name: Audience External API
+  slug: open-appsflyer-audience-external-api
+- collection_type: open
+  name: Audience Import API
+  slug: open-appsflyer-audience-import-api
+- collection_type: open
+  name: Audiences User Attribution Import API
+  slug: open-appsflyer-audiences-user-attribution-import-api
+- collection_type: open
+  name: Audit Public API
+  slug: open-appsflyer-audit-public-api
+- collection_type: open
+  name: Click Signing API
+  slug: open-appsflyer-click-signing-api
+- collection_type: open
+  name: Cohort API
+  slug: open-appsflyer-cohort-api
+- collection_type: open
+  name: Deep linking REST API
+  slug: open-appsflyer-deep-linking-rest-api
+- collection_type: open
+  name: Engagements API
+  slug: open-appsflyer-engagements-api
+- collection_type: open
+  name: GCD API for SDK attribution testing
+  slug: open-appsflyer-gcd-api-for-sdk-attribution-testing-1
+- collection_type: open
+  name: InCost API
+  slug: open-appsflyer-incost-api-1
+- collection_type: open
+  name: '[Legacy] Server-to-server events API (for mobile)'
+  slug: open-appsflyer-legacy-server-to-server-events-api-for-mobile
+- collection_type: open
+  name: Master API
+  slug: open-appsflyer-master-api
+- collection_type: open
+  name: Master freshness API
+  slug: open-appsflyer-master-freshness-api
+- collection_type: open
+  name: OneLink API v2.0
+  slug: open-appsflyer-onelink-api-v20
+- collection_type: open
+  name: OpenDSR API
+  slug: open-appsflyer-opendsr-api
+- collection_type: open
+  name: Partner integration settings API
+  slug: open-appsflyer-partner-integration-settings-api
+- collection_type: open
+  name: PC/Console/CTV Client-app Events API
+  slug: open-appsflyer-pcconsolectv-client-app-events-api
+- collection_type: open
+  name: PC/Console/CTV Events API
+  slug: open-appsflyer-pcconsolectv-events-api
+- collection_type: open
+  name: Preload C2S Measurement API
+  slug: open-appsflyer-preload-c2s-measurement-api
+- collection_type: open
+  name: Preload Measurement API
+  slug: open-appsflyer-preload-measurement-api-1
+- collection_type: open
+  name: Push API Configuration API
+  slug: open-appsflyer-push-api-configuration-api
+- collection_type: open
+  name: Raw Data Pull API V1 Token
+  slug: open-appsflyer-raw-data-pull-api-v1-token
+- collection_type: open
+  name: Raw Data Pull API V2 Token
+  slug: open-appsflyer-raw-data-pull-api-v2-token
+- collection_type: open
+  name: ROI360 Net Revenue API (v2.0)
+  slug: open-appsflyer-roi360-net-revenue-api-v20
+- collection_type: open
+  name: Server-to-server events API (for mobile)
+  slug: open-appsflyer-server-to-server-events-api-for-mobile
+- collection_type: open
+  name: SKAN aggregated performance report API
+  slug: open-appsflyer-skan-aggregated-performance-report-api
+- collection_type: open
+  name: SKAN aggregated postback by arrival date API
+  slug: open-appsflyer-skan-aggregated-postback-by-arrival-date-api
+- collection_type: open
+  name: SKAN conversion studio API
+  slug: open-appsflyer-skan-conversion-studio-api
+- collection_type: open
+  name: SKAN CV schema API for ad networks
+  slug: open-appsflyer-skan-cv-schema-api-for-ad-networks-2
+- collection_type: open
+  name: SKAN CV Schema API for Advertisers
+  slug: open-appsflyer-skan-cv-schema-api-for-advertisers-1
+- collection_type: open
+  name: Test Console API
+  slug: open-appsflyer-test-console-api
+- collection_type: open
+  name: User management
+  slug: open-appsflyer-user-management
+- collection_type: open
+  name: WEB Server-TO-Server API
+  slug: open-appsflyer-web-server-to-server-api
 common:
 - group: auth
   title: ''
@@ -214,6 +335,14 @@ common:
   title: ''
   type: TrustCenter
   url: security/appsflyer-trust-center.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/appsflyer-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/appsflyer-rate-limits.yml
 created: '2026-07-31'
 description: 'AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Roku, Tizen, webOS) and a large REST API estate published on the AppsFlyer developer hub: Pull APIs for raw and aggregate report export, the Master and Cohort reporting APIs, server-to-server and client-to-server event ingestion APIs, the OneLink deep-linking API, audience import/activation APIs, SKAdNetwork conversion-value and postback APIs, app and user management APIs, the Protect360 click-signing anti-fraud API, the ROI360 net-revenue API, and an OpenDSR privacy-request API. AppsFlyer also runs a Push API webhook surface for real-time postbacks and a hosted Model Context Protocol (MCP) server for agent access.'
 image: https://www.appsflyer.com/wp-content/uploads/2020/08/appsflyer-logo.svg
@@ -222,7 +351,7 @@ mcp_servers:
 - description: ''
   name: appsflyer-mcp.yml
   slug: appsflyer-mcpyml
-modified: '2026-07-31'
+modified: '2026-08-13'
 name: AppsFlyer
 nav: Providers
 network: true
@@ -232,19 +361,27 @@ overview: 'AppsFlyer publishes 9 APIs on the [APIs.io](https://apis.io/) network
   The AppsFlyer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AppsFlyer''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 22
+  AppsFlyer''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
+plans:
+- name: Appsflyer Plans Pricing
+  plan_count: 3
+  slug: appsflyer-plans-pricing
+random_paper: 88
+rate_limits:
+- limit_count: 11
+  name: Appsflyer Rate Limits
+  slug: appsflyer-rate-limits
 score:
-  band: strong
-  composite: 60.6
-  delta: 0.0
+  band: exemplar
+  composite: 71.0
+  delta: 10.4
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 67.8
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 44.7
+    operational_transparency: 76.3
   previous_composite: 60.6
   provenance:
     conformance: derived
@@ -256,8 +393,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png
 security:
 - kind: authentication

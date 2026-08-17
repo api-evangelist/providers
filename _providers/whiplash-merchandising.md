@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 21
 apis:
 - description: Bundle Items are components that make up a bundle, defining the quantity and relationship of items within product bundles.
@@ -94,11 +94,78 @@ apis:
 - description: The wholesale_items API from Whiplash Merchandising — 2 operation(s) for wholesale_items.
   name: Whiplash Merchandising wholesale_items API
   slug: whiplash-merchandising-wholesale-items-api
-artifact_total: 25
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Whiplash Merchandising Notifications Webhooks
   slug: whiplash-merchandising-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rydership bundle_items API
+  slug: open-whiplash-merchandising-bundle-items-api
+- collection_type: open
+  name: Rydership bundle_items consumer_returns API
+  slug: open-whiplash-merchandising-consumer-returns-api
+- collection_type: open
+  name: Rydership bundle_items customers API
+  slug: open-whiplash-merchandising-customers-api
+- collection_type: open
+  name: Rydership bundle_items documents API
+  slug: open-whiplash-merchandising-documents-api
+- collection_type: open
+  name: Rydership bundle_items items API
+  slug: open-whiplash-merchandising-items-api
+- collection_type: open
+  name: Rydership bundle_items load_scacs API
+  slug: open-whiplash-merchandising-load-scacs-api
+- collection_type: open
+  name: Rydership bundle_items notification_events API
+  slug: open-whiplash-merchandising-notification-events-api
+- collection_type: open
+  name: Rydership bundle_items notification_subscriptions API
+  slug: open-whiplash-merchandising-notification-subscriptions-api
+- collection_type: open
+  name: Rydership bundle_items order_documents API
+  slug: open-whiplash-merchandising-order-documents-api
+- collection_type: open
+  name: Rydership bundle_items order_items API
+  slug: open-whiplash-merchandising-order-items-api
+- collection_type: open
+  name: Rydership bundle_items order_totes API
+  slug: open-whiplash-merchandising-order-totes-api
+- collection_type: open
+  name: Rydership bundle_items orders API
+  slug: open-whiplash-merchandising-orders-api
+- collection_type: open
+  name: Rydership bundle_items originators API
+  slug: open-whiplash-merchandising-originators-api
+- collection_type: open
+  name: Rydership bundle_items packages API
+  slug: open-whiplash-merchandising-packages-api
+- collection_type: open
+  name: Rydership bundle_items projects API
+  slug: open-whiplash-merchandising-projects-api
+- collection_type: open
+  name: Rydership bundle_items scancodes API
+  slug: open-whiplash-merchandising-scancodes-api
+- collection_type: open
+  name: Rydership bundle_items shipnotice_items API
+  slug: open-whiplash-merchandising-shipnotice-items-api
+- collection_type: open
+  name: Rydership bundle_items shipnotices API
+  slug: open-whiplash-merchandising-shipnotices-api
+- collection_type: open
+  name: Rydership bundle_items simulate API
+  slug: open-whiplash-merchandising-simulate-api
+- collection_type: open
+  name: Rydership bundle_items templates API
+  slug: open-whiplash-merchandising-templates-api
+- collection_type: open
+  name: Rydership bundle_items wholesale_items API
+  slug: open-whiplash-merchandising-wholesale-items-api
 common:
 - group: auth
   title: ''
@@ -227,7 +294,7 @@ overview: 'Whiplash Merchandising publishes 21 APIs on the [APIs.io](https://api
 
 
   Whiplash Merchandising''s developer surface includes documentation, API reference, support, pricing, authentication, and 22 more developer resources.'
-random_paper: 1
+random_paper: 46
 score:
   band: developing
   composite: 46.0
@@ -250,7 +317,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

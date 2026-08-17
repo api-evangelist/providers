@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -66,7 +66,38 @@ apis:
 - description: The Video API from Algebras AI Inc. — 2 operation(s) for video.
   name: Algebras AI Inc. Video API
   slug: algebras-ai-inc-video-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Algebras Authentication API
+  slug: open-algebras-ai-inc-authentication-api
+- collection_type: open
+  name: Algebras Authentication Common API
+  slug: open-algebras-ai-inc-common-api
+- collection_type: open
+  name: Algebras Authentication Glossaries API
+  slug: open-algebras-ai-inc-glossaries-api
+- collection_type: open
+  name: Algebras Authentication Languages API
+  slug: open-algebras-ai-inc-languages-api
+- collection_type: open
+  name: Algebras Authentication Localization API
+  slug: open-algebras-ai-inc-localization-api
+- collection_type: open
+  name: Algebras Authentication Realtime API
+  slug: open-algebras-ai-inc-realtime-api
+- collection_type: open
+  name: Algebras Authentication Storage API
+  slug: open-algebras-ai-inc-storage-api
+- collection_type: open
+  name: Algebras Authentication Translation API
+  slug: open-algebras-ai-inc-translation-api
+- collection_type: open
+  name: Algebras Authentication Video API
+  slug: open-algebras-ai-inc-video-api
 common:
 - group: other
   title: ''
@@ -196,7 +227,7 @@ overview: 'Algebras AI Inc. publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   Algebras AI Inc.''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 119
+random_paper: 98
 score:
   band: developing
   composite: 48.9
@@ -220,7 +251,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/screenshots/algebras-ai-inc-2026-07-25T195603.png
 security:

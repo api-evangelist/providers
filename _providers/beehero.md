@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -41,7 +41,23 @@ apis:
 - description: Get sensors sample data
   name: BeeHero Sensors API
   slug: beehero-sensors-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BeeHero API Documentation Audio API
+  slug: open-beehero-audio-api
+- collection_type: open
+  name: BeeHero API Documentation Auth API
+  slug: open-beehero-auth-api
+- collection_type: open
+  name: BeeHero API Documentation Gateways API
+  slug: open-beehero-gateways-api
+- collection_type: open
+  name: BeeHero API Documentation Sensors API
+  slug: open-beehero-sensors-api
 common:
 - group: agent
   title: ''
@@ -151,7 +167,7 @@ overview: 'BeeHero publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   BeeHero''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 18 more developer resources.'
-random_paper: 10
+random_paper: 134
 score:
   band: developing
   composite: 42.0
@@ -175,7 +191,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/screenshots/beehero-2026-08-07T162253.png
 security:

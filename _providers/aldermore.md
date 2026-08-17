@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -40,7 +40,11 @@ apis:
 - description: The UK Open Banking Read/Write Confirmation of Funds (CBPII) API standard, FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Represented here as the shared OBIE stand
   name: Aldermore Confirmation of Funds API (OBIE Read/Write Standard)
   slug: aldermore-confirmation-of-funds-api
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-aldermore-obie-open-data
 common:
 - group: agent
   title: ''
@@ -171,7 +175,7 @@ overview: 'Aldermore Bank publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Aldermore Bank''s developer surface includes authentication, support, legal docs, and 25 more developer resources.'
-random_paper: 115
+random_paper: 61
 scopes:
 - name: Aldermore Scopes
   scope_count: 3
@@ -206,7 +210,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aldermore/refs/heads/main/screenshots/aldermore-2026-07-25T195550.png
 security:

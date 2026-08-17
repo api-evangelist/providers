@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -84,8 +84,56 @@ apis:
 - description: The Webhook API from Port — 3 operation(s) for webhook.
   name: Port Webhook API
   slug: port-webhook-api
-artifact_total: 24
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Port Action Runs API
+  slug: open-port-action-runs-api
+- collection_type: open
+  name: Port Action Runs Actions API
+  slug: open-port-actions-api
+- collection_type: open
+  name: Port Action Runs Apps API
+  slug: open-port-apps-api
+- collection_type: open
+  name: Port Action Runs Audit API
+  slug: open-port-audit-api
+- collection_type: open
+  name: Port Action Runs Authentication / Authorization API
+  slug: open-port-authentication-authorization-api
+- collection_type: open
+  name: Port Action Runs Blueprints API
+  slug: open-port-blueprints-api
+- collection_type: open
+  name: Port Action Runs Entities API
+  slug: open-port-entities-api
+- collection_type: open
+  name: Port Action Runs Integrations API
+  slug: open-port-integrations-api
+- collection_type: open
+  name: Port Action Runs Migrations API
+  slug: open-port-migrations-api
+- collection_type: open
+  name: Port Action Runs Organization API
+  slug: open-port-organization-api
+- collection_type: open
+  name: Port Action Runs Pages API
+  slug: open-port-pages-api
+- collection_type: open
+  name: Port Action Runs Scorecards API
+  slug: open-port-scorecards-api
+- collection_type: open
+  name: Port Action Runs Teams API
+  slug: open-port-teams-api
+- collection_type: open
+  name: Port Action Runs Users API
+  slug: open-port-users-api
+- collection_type: open
+  name: Port Action Runs Webhook API
+  slug: open-port-webhook-api
 - collection_type: open
   name: Port API
   slug: open-port
@@ -202,7 +250,7 @@ plans:
 - name: Port Plans Pricing
   plan_count: 3
   slug: port-plans-pricing
-random_paper: 93
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Port Rate Limits
@@ -227,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/port/refs/heads/main/screenshots/port-2026-06-20T191926.png
 security:

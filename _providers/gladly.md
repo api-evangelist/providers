@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ apis:
 - description: A **Webhook** is a way to send notifications about Gladly events as a POST request to the endpoint of your choice.
   name: Gladly Webhooks API
   slug: gladly-webhooks-api
-artifact_total: 150
+artifact_total: 172
 collections:
 - collection_type: postman
   name: Gladly Agents API
@@ -190,8 +190,74 @@ collections:
   name: Gladly Agents Webhooks API
   slug: postman-gladly-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gladly Agents API
+  slug: open-gladly-agents-api
+- collection_type: open
+  name: Gladly Agents Answer Management API
+  slug: open-gladly-answer-management-api
+- collection_type: open
+  name: Gladly Agents Audiences API
+  slug: open-gladly-audiences-api
+- collection_type: open
+  name: Gladly Agents Business Hours API
+  slug: open-gladly-business-hours-api
+- collection_type: open
+  name: Gladly Agents Communications API
+  slug: open-gladly-communications-api
+- collection_type: open
+  name: Gladly Agents Conversations API
+  slug: open-gladly-conversations-api
+- collection_type: open
+  name: Gladly Agents Customers API
+  slug: open-gladly-customers-api
+- collection_type: open
+  name: Gladly Agents Events API
+  slug: open-gladly-events-api
+- collection_type: open
+  name: Gladly Agents Export API
+  slug: open-gladly-export-api
+- collection_type: open
+  name: Gladly Agents Freeform Topics API
+  slug: open-gladly-freeform-topics-api
+- collection_type: open
+  name: Gladly Agents Inboxes API
+  slug: open-gladly-inboxes-api
+- collection_type: open
+  name: Gladly Agents Organization API
+  slug: open-gladly-organization-api
+- collection_type: open
+  name: Gladly Agents Payloads API
+  slug: open-gladly-payloads-api
+- collection_type: open
+  name: Gladly Agents Proactive Conversations API
+  slug: open-gladly-proactive-conversations-api
+- collection_type: open
+  name: Gladly Agents Public Answer API
+  slug: open-gladly-public-answer-api
+- collection_type: open
+  name: Gladly Agents Reports API
+  slug: open-gladly-reports-api
+- collection_type: open
   name: Gladly API
   slug: open-gladly-rest-api
+- collection_type: open
+  name: Gladly Agents Tasks API
+  slug: open-gladly-tasks-api
+- collection_type: open
+  name: Gladly Agents Teams API
+  slug: open-gladly-teams-api
+- collection_type: open
+  name: Gladly Agents Topics API
+  slug: open-gladly-topics-api
+- collection_type: open
+  name: Gladly Agents User Identity API
+  slug: open-gladly-user-identity-api
+- collection_type: open
+  name: Gladly Agents Webhooks API
+  slug: open-gladly-webhooks-api
 common:
 - group: build
   title: ''
@@ -498,7 +564,7 @@ plans:
 - name: Gladly Plans Pricing
   plan_count: 7
   slug: gladly-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Gladly Rate Limits
@@ -546,7 +612,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/screenshots/gladly-2026-06-20T181857.png
 security:

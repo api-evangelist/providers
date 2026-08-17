@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -39,16 +39,32 @@ common:
   title: ''
   type: Website
   url: https://bravado.co/
+coverage:
+  checked: '2026-08-14'
+  detail: bravado.co refuses HTTPS outright and serves a Gandi "this domain name is parked by the owner" page over plain HTTP for every path, so the War Room product, its GraphQL backend and any developer surface are simply gone from the public internet.
+  evidence:
+  - status: 0
+    url: https://bravado.co/
+  - status: 200
+    url: http://bravado.co/
+  - status: 200
+    url: http://bravado.co/.well-known/agent-card.json
+  - status: 200
+    url: http://bravado.co/openapi.json
+  - status: 0
+    url: https://bravado.me/war-room
+  reason: defunct
+  state: none
 created: '2026-07-17'
 description: Bravado is a community platform for sales professionals, best known as the War Room, which it describes as the world's largest online sales community with more than 400,000 members. Founded in 2016 and headquartered in San Francisco, Bravado offers career networking, anonymous peer Q&A, a jobs and hiring marketplace that matches sales talent with companies, an AI recruiter called Hunter, and a virtual "commission points" rewards currency, delivered through the web and a mobile app. The company is backed by Redpoint Ventures. Bravado does not publish a public developer API; its product is built on an internal GraphQL backend. As of this profile's enrichment date the primary domain bravado.co resolves to a Gandi parking page ("this domain name is unavailable") and is not serving the live product.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bravado.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Bravado
 nav: Providers
 network: true
 overview: Bravado is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Community, Sales Enablement, and Careers.
-random_paper: 15
+random_paper: 139
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

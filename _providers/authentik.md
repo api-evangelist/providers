@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Flow stages (identification, password, etc.).
   name: Authentik Stages API
   slug: authentik-stages-api
-artifact_total: 36
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: authentik Core API
+  slug: open-authentik-core-api
+- collection_type: open
+  name: authentik Core Crypto API
+  slug: open-authentik-crypto-api
+- collection_type: open
+  name: authentik Core Events API
+  slug: open-authentik-events-api
+- collection_type: open
+  name: authentik Core Flows API
+  slug: open-authentik-flows-api
+- collection_type: open
+  name: authentik Core Policies API
+  slug: open-authentik-policies-api
+- collection_type: open
+  name: authentik Core Providers API
+  slug: open-authentik-providers-api
+- collection_type: open
+  name: authentik Core RBAC API
+  slug: open-authentik-rbac-api
+- collection_type: open
+  name: authentik Core Schema API
+  slug: open-authentik-schema-api
+- collection_type: open
+  name: authentik Core Sources API
+  slug: open-authentik-sources-api
+- collection_type: open
+  name: authentik Core Stages API
+  slug: open-authentik-stages-api
 - collection_type: open
   name: authentik API
   slug: open-authentik
@@ -193,7 +226,7 @@ plans:
 - name: Authentik Plans Pricing
   plan_count: 3
   slug: authentik-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Authentik Rate Limits
@@ -218,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/screenshots/authentik-2026-06-20T172603.png
 security:

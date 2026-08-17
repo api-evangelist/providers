@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -78,7 +78,50 @@ apis:
 - description: The Transaction service API API from Przelewy24 — 2 operation(s) for transaction service api.
   name: Przelewy24 Transaction service API API
   slug: przelewy24-transaction-service-api-api
-artifact_total: 435
+artifact_total: 449
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality API
+  slug: open-przelewy24-additional-api-functionality-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality Additional services Mass Payments Transactions API
+  slug: open-przelewy24-additional-services-mass-payments-transactions-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality APay API API
+  slug: open-przelewy24-apay-api-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality BLIK API API
+  slug: open-przelewy24-blik-api-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality Card API API
+  slug: open-przelewy24-card-api-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality Ekspres P24 API API
+  slug: open-przelewy24-ekspres-p24-api-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality GPay API API
+  slug: open-przelewy24-gpay-api-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality Marketplace Management API API
+  slug: open-przelewy24-marketplace-management-api-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality Marketplace Merchant API API
+  slug: open-przelewy24-marketplace-merchant-api-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality Marketplace Partner API API
+  slug: open-przelewy24-marketplace-partner-api-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality Recursion (doPayment) API
+  slug: open-przelewy24-recursion-dopayment-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality Report API API
+  slug: open-przelewy24-report-api-api
+- collection_type: open
+  name: Ekspres Przelewy24 REST API Documentation Additional API functionality Transaction service API API
+  slug: open-przelewy24-transaction-service-api-api
 common:
 - group: agent
   title: ''
@@ -1413,7 +1456,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 40
+random_paper: 106
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1453,7 +1496,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png
 security:

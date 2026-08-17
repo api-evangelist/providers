@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Webhooks API from Akute Health — 2 operation(s) for webhooks.
   name: Akute Health Webhooks API
   slug: akute-webhooks-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Akute Health Customer Appointments API
+  slug: open-akute-appointments-api
+- collection_type: open
+  name: Akute Health Customer Appointments Documents API
+  slug: open-akute-documents-api
+- collection_type: open
+  name: Akute Health Customer Appointments Encounters API
+  slug: open-akute-encounters-api
+- collection_type: open
+  name: Akute Health Customer Appointments Labs API
+  slug: open-akute-labs-api
+- collection_type: open
+  name: Akute Health Customer Appointments Medications API
+  slug: open-akute-medications-api
+- collection_type: open
+  name: Akute Health Customer Appointments Patients API
+  slug: open-akute-patients-api
+- collection_type: open
+  name: Akute Health Customer Appointments Tasks API
+  slug: open-akute-tasks-api
+- collection_type: open
+  name: Akute Health Customer Appointments Webhooks API
+  slug: open-akute-webhooks-api
 - collection_type: open
   name: Akute Health Customer API
   slug: open-akute
@@ -133,7 +160,7 @@ plans:
 - name: Akute Plans Pricing
   plan_count: 4
   slug: akute-plans-pricing
-random_paper: 58
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Akute Rate Limits
@@ -164,7 +191,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/screenshots/akute-2026-07-25T195526.png
 security:

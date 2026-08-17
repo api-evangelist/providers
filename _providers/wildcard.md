@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Wildcard is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Wildcard''s developer surface includes engineering blog, support, signup flow, and 2 more developer resources.'
-random_paper: 2
+random_paper: 97
 score:
   band: minimal
   composite: 9.0
@@ -83,7 +83,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

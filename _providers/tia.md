@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,6 +67,38 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/tia-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tia-domain-security.yml
+- group: other
+  title: ''
+  type: CareTeam
+  url: https://asktia.com/care-team/
+- group: other
+  title: ''
+  type: Locations
+  url: https://asktia.com/locations/
+- group: other
+  title: ''
+  type: Membership
+  url: https://asktia.com/membership/
+- group: other
+  title: ''
+  type: Outcomes
+  url: https://asktia.com/article/2024-Outcomes-Report/
+- group: company
+  title: ''
+  type: Careers
+  url: https://asktia.com/careers/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/asktia/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tia-domain-security.yml
 created: '2026-07-17'
 description: Tia is a women's healthcare company that operates in-person clinics and a virtual care platform, bringing primary care, gynecology, mental health, and wellness services into one connected care experience. Founded in 2017 and backed by Canaan Partners, Tia runs clinics in New York, Los Angeles, San Francisco, and Phoenix, offers virtual visits across multiple states, and partners with health systems. Tia is a consumer healthcare provider and does not publish a public developer portal, API documentation, or client SDKs.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tia.png
@@ -78,8 +110,8 @@ network: true
 overview: 'Tia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Womens Health, Primary Care, and Gynecology.
 
 
-  Tia''s developer surface includes signup flow, support, and 7 more developer resources.'
-random_paper: 78
+  Tia''s developer surface includes signup flow, support, and 15 more developer resources.'
+random_paper: 20
 score:
   band: emerging
   composite: 14.6
@@ -99,8 +131,9 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tia/refs/heads/main/screenshots/tia-2026-06-20T195331.png
 security:
 - kind: domain-security
   name: Tia Domain Security

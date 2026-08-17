@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The docs API from Soda Health — 10 operation(s) for docs.
@@ -43,7 +43,23 @@ apis:
 - description: The health API from Soda Health — 3 operation(s) for health.
   name: Soda Health health API
   slug: soda-health-health-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Evermore Portal docs API
+  slug: open-soda-health-docs-api
+- collection_type: open
+  name: Evermore Portal docs docs-auth API
+  slug: open-soda-health-docs-auth-api
+- collection_type: open
+  name: Evermore Portal docs Evermore Docs Portal API
+  slug: open-soda-health-evermore-docs-portal-api
+- collection_type: open
+  name: Evermore Portal docs health API
+  slug: open-soda-health-health-api
 common:
 - group: start
   title: ''
@@ -121,7 +137,7 @@ overview: 'Soda Health publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Soda Health''s developer surface includes documentation, API reference, authentication, and 12 more developer resources.'
-random_paper: 18
+random_paper: 55
 score:
   band: thin
   composite: 28.6
@@ -150,7 +166,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

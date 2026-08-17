@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -63,8 +63,26 @@ apis:
 - description: The Users API from Microsoft Active Directory — 3 operation(s) for users.
   name: Microsoft Active Directory Users API
   slug: microsoft-active-directory-users-api
-artifact_total: 17
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Active Directory (via Microsoft Graph) Applications API
+  slug: open-microsoft-active-directory-applications-api
+- collection_type: open
+  name: Microsoft Active Directory (via Microsoft Graph) Applications Directory Roles API
+  slug: open-microsoft-active-directory-directory-roles-api
+- collection_type: open
+  name: Microsoft Active Directory (via Microsoft Graph) Applications Groups API
+  slug: open-microsoft-active-directory-groups-api
+- collection_type: open
+  name: Microsoft Active Directory (via Microsoft Graph) Applications Service Principals API
+  slug: open-microsoft-active-directory-service-principals-api
+- collection_type: open
+  name: Microsoft Active Directory (via Microsoft Graph) Applications Users API
+  slug: open-microsoft-active-directory-users-api
 - collection_type: open
   name: Microsoft Active Directory (via Microsoft Graph)
   slug: open-microsoft-active-directory
@@ -133,7 +151,7 @@ plans:
 - name: Microsoft Active Directory Plans Pricing
   plan_count: 3
   slug: microsoft-active-directory-plans-pricing
-random_paper: 49
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Microsoft Active Directory Rate Limits
@@ -163,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-active-directory/refs/heads/main/screenshots/microsoft-active-directory-2026-06-20T185347.png
 security:

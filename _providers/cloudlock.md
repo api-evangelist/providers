@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ overview: 'CloudLock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CloudLock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 5 more developer resources.'
-random_paper: 0
+random_paper: 66
 score:
   band: emerging
   composite: 14.6
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudlock/refs/heads/main/screenshots/cloudlock-2026-07-25T205704.png
 security:

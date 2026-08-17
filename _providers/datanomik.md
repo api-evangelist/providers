@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,7 +68,41 @@ apis:
 - description: The Transactions API from Datanomik — 2 operation(s) for transactions.
   name: Datanomik Transactions API
   slug: datanomik-transactions-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: openbanking-api Accounts API
+  slug: open-datanomik-accounts-api
+- collection_type: open
+  name: openbanking-api Accounts Applications API
+  slug: open-datanomik-applications-api
+- collection_type: open
+  name: openbanking-api Accounts Balances API
+  slug: open-datanomik-balances-api
+- collection_type: open
+  name: openbanking-api Accounts General Owners API
+  slug: open-datanomik-general-owners-api
+- collection_type: open
+  name: openbanking-api Accounts Investments API
+  slug: open-datanomik-investments-api
+- collection_type: open
+  name: openbanking-api Accounts Links API
+  slug: open-datanomik-links-api
+- collection_type: open
+  name: openbanking-api Accounts Payment Slips API
+  slug: open-datanomik-payment-slips-api
+- collection_type: open
+  name: openbanking-api Accounts Payments API
+  slug: open-datanomik-payments-api
+- collection_type: open
+  name: openbanking-api Accounts Pix Transactions API
+  slug: open-datanomik-pix-transactions-api
+- collection_type: open
+  name: openbanking-api Accounts Transactions API
+  slug: open-datanomik-transactions-api
 common:
 - group: other
   title: ''
@@ -214,7 +248,7 @@ overview: 'Datanomik publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Datanomik''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 112
+random_paper: 58
 score:
   band: developing
   composite: 47.9
@@ -244,7 +278,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/screenshots/datanomik-2026-07-25T211349.png
 security:

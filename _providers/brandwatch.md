@@ -1,34 +1,37 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Contact Sales
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
   - plans
+  - https://www.brandwatch.com/plans/
+  - https://developers.brandwatch.com/docs/authenticate
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: verified
     rate_limit_signal: documented
-    spec_presence: false
-    well_known_catalog: false
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
+  score: 57.2
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
@@ -49,8 +52,23 @@ apis:
 - description: Consolidate conversations from social media inboxes with customer inquiries across platforms. Enables integration of Brandwatch's engagement tools with CRM and customer service systems for unified con
   name: Brandwatch Engage API
   slug: engage-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: Consumer Research API
+  slug: open-brandwatch-consumer-research-authentication
+- collection_type: open
+  name: Consumer Research API
+  slug: open-brandwatch-consumer-research
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/brandwatch-scopes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/brandwatch-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -83,6 +101,134 @@ common:
   title: ''
   type: Blog
   url: https://www.brandwatch.com/blog/feed/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.brandwatch.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.brandwatch.com/docs/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.brandwatch.com/customer-support/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.brandwatch.com/
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.brandwatch.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.brandwatch.com/plans/
+- group: start
+  title: ''
+  type: Login
+  url: https://login.brandwatch.com/
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: https://signin.brandwatch.com/auth/realms/bwone/.well-known/openid-configuration
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cision.com/legal/msa/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.brandwatch.com/legal/user-privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.brandwatch.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/brandwatch-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/brandwatch-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/brandwatch-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/brandwatch-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.brandwatch.com/legal/information-security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/brandwatch-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.brandwatch.com/legal/information-security/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/brandwatch-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/brandwatch-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://developers.brandwatch.com/.well-known/api-catalog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/brandwatch-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/brandwatch-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/brandwatch-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/brandwatch-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/brandwatch-finops.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/brandwatch-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/brandwatch-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/brandwatch-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/brandwatch-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brandwatch-consumer-research-overlay.yaml
 created: '2025-03-01'
 description: Brandwatch is a leading consumer intelligence and social media analytics platform providing access to trillions of consumer conversations. The platform offers six distinct APIs for analysis, data upload, consumer research, social metrics, publishing, and engagement. Businesses use Brandwatch to track brand mentions, monitor competitors, analyze sentiment, and integrate social data with existing analytics and CRM systems for strategic decision-making.
 finops:
@@ -91,44 +237,65 @@ finops:
   slug: brandwatch-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brandwatch.png
 layout: provider
-modified: '2026-04-21'
+mcp_servers:
+- description: ''
+  name: brandwatch-mcp.yml
+  slug: brandwatch-mcpyml
+modified: '2026-08-13'
 name: Brandwatch
 nav: Providers
 network: true
-overview: 'Brandwatch publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Social Media, Social Media Monitoring, Consumer Intelligence, and Brand Management.
+overview: 'Brandwatch publishes 1 API on the [APIs.io](https://apis.io/) network: Consumer Research API. Tagged areas include Analytics, Social Media, Social Media Monitoring, Consumer Intelligence, and Brand Management.
 
 
-  Brandwatch''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Brandwatch''s developer surface includes authentication, documentation, engineering blog, getting-started guide, support, pricing, changelog, and 35 more developer resources.'
 plans:
 - name: Brandwatch Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: brandwatch-plans-pricing
-random_paper: 94
+random_paper: 11
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Brandwatch Rate Limits
   slug: brandwatch-rate-limits
+scopes:
+- name: Brandwatch Scopes
+  scope_count: 3
+  slug: brandwatch-scopes
+  summary_line: 3 scopes · password
 score:
-  band: emerging
-  composite: 14.3
-  delta: 0.0
+  band: strong
+  composite: 58.1
+  delta: 43.8
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 72.2
-    governance: 0.0
-    operational_transparency: 13.2
+    commercial_clarity: 68.4
+    contract_quality: 53.0
+    developer_ergonomics: 67.4
+    discoverability: 83.3
+    governance: 20.8
+    operational_transparency: 52.6
   previous_composite: 14.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/screenshots/brandwatch-2026-06-20T173633.png
 security:
+- kind: authentication
+  name: Brandwatch Authentication
+  slug: brandwatch-authentication
+  summary_line: apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Brandwatch Domain Security
   slug: brandwatch-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Brandwatch Vulnerability Disclosure
+  slug: brandwatch-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Brandwatch Trust Center
+  slug: brandwatch-trust-center
+  summary_line: ISO/IEC 27001:2022
 slug: brandwatch
 tags:
 - Analytics

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,7 +69,32 @@ apis:
 - description: Services and price lists offered by a core facility
   name: agilent-technologies Services API
   slug: agilent-technologies-services-api
-artifact_total: 95
+artifact_total: 103
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agilent iLab Operations Cores API
+  slug: open-agilent-technologies-cores-api
+- collection_type: open
+  name: Agilent iLab Operations Cores Invoices API
+  slug: open-agilent-technologies-invoices-api
+- collection_type: open
+  name: Agilent iLab Operations Cores Members API
+  slug: open-agilent-technologies-members-api
+- collection_type: open
+  name: Agilent iLab Operations Cores Projects API
+  slug: open-agilent-technologies-projects-api
+- collection_type: open
+  name: Agilent iLab Operations Cores Reservations API
+  slug: open-agilent-technologies-reservations-api
+- collection_type: open
+  name: Agilent iLab Operations Cores Service Requests API
+  slug: open-agilent-technologies-service-requests-api
+- collection_type: open
+  name: Agilent iLab Operations Cores Services API
+  slug: open-agilent-technologies-services-api
 common:
 - group: agent
   title: ''
@@ -364,7 +389,7 @@ press:
 - date: '2026-05-25'
   title: Lunit and Agilent Technologies Announce Collaboration to ...
   url: https://www.prnewswire.com/news-releases/lunit-and-agilent-technologies-announce-collaboration-to-enhance-development-of-companion-diagnostic-solutions-powered-with-ai-for-precision-medicine-302562617.html
-random_paper: 29
+random_paper: 132
 rate_limits:
 - limit_count: 1
   name: Agilent Technologies Rate Limits
@@ -412,7 +437,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png
 security:

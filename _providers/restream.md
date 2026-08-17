@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: User profile and account management
   name: Restream User API
   slug: restream-user-api
-artifact_total: 32
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Restream Channels API
@@ -77,6 +77,24 @@ collections:
 - collection_type: postman
   name: Restream Channels User API
   slug: postman-restream-user-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Restream Channels API
+  slug: open-restream-channels-api
+- collection_type: open
+  name: Restream Channels Events API
+  slug: open-restream-events-api
+- collection_type: open
+  name: Restream Channels Platforms API
+  slug: open-restream-platforms-api
+- collection_type: open
+  name: Restream Channels Stream Keys API
+  slug: open-restream-stream-keys-api
+- collection_type: open
+  name: Restream Channels User API
+  slug: open-restream-user-api
 - collection_type: open
   name: Restream API
   slug: open-restream
@@ -207,7 +225,7 @@ plans:
 - name: Restream Plans Pricing
   plan_count: 5
   slug: restream-plans-pricing
-random_paper: 27
+random_paper: 122
 rate_limits:
 - limit_count: 2
   name: Restream Rate Limits
@@ -254,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/screenshots/restream-2026-06-20T193034.png
 security:

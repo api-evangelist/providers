@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: List, create, delete and merge branches
@@ -52,7 +52,32 @@ apis:
 - description: List tests by branch, search by test name, and execute tests
   name: Testim Io Tests API
   slug: testim-io-tests-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Testim.io Public Branches API
+  slug: open-testim-io-branches-api
+- collection_type: open
+  name: Testim.io Public Branches Executions API
+  slug: open-testim-io-executions-api
+- collection_type: open
+  name: Testim.io Public Branches Labels API
+  slug: open-testim-io-labels-api
+- collection_type: open
+  name: Testim.io Public Branches Mobile Applications API
+  slug: open-testim-io-mobile-applications-api
+- collection_type: open
+  name: Testim.io Public Branches Suites API
+  slug: open-testim-io-suites-api
+- collection_type: open
+  name: Testim.io Public Branches Test plans API
+  slug: open-testim-io-test-plans-api
+- collection_type: open
+  name: Testim.io Public Branches Tests API
+  slug: open-testim-io-tests-api
 common:
 - group: other
   title: ''
@@ -170,7 +195,7 @@ overview: 'Testim Io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Testim Io''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, CLI, and 18 more developer resources.'
-random_paper: 83
+random_paper: 29
 score:
   band: developing
   composite: 44.0
@@ -193,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

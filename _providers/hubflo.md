@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -123,11 +123,99 @@ apis:
 - description: The workspace API from Hubflo — 24 operation(s) for workspace.
   name: Hubflo workspace API
   slug: hubflo-workspace-api
-artifact_total: 34
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Hubflo Webhooks
   slug: hubflo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hubflo chat_room API
+  slug: open-hubflo-chat-room-api
+- collection_type: open
+  name: Hubflo chat_room comment API
+  slug: open-hubflo-comment-api
+- collection_type: open
+  name: Hubflo chat_room company API
+  slug: open-hubflo-company-api
+- collection_type: open
+  name: Hubflo chat_room contact API
+  slug: open-hubflo-contact-api
+- collection_type: open
+  name: Hubflo chat_room custom_field API
+  slug: open-hubflo-custom-field-api
+- collection_type: open
+  name: Hubflo chat_room custom_field_value API
+  slug: open-hubflo-custom-field-value-api
+- collection_type: open
+  name: Hubflo chat_room folder API
+  slug: open-hubflo-folder-api
+- collection_type: open
+  name: Hubflo chat_room form API
+  slug: open-hubflo-form-api
+- collection_type: open
+  name: Hubflo chat_room invoice API
+  slug: open-hubflo-invoice-api
+- collection_type: open
+  name: Hubflo chat_room invoicing_profile API
+  slug: open-hubflo-invoicing-profile-api
+- collection_type: open
+  name: Hubflo chat_room item API
+  slug: open-hubflo-item-api
+- collection_type: open
+  name: Hubflo chat_room member API
+  slug: open-hubflo-member-api
+- collection_type: open
+  name: Hubflo chat_room message API
+  slug: open-hubflo-message-api
+- collection_type: open
+  name: Hubflo chat_room note API
+  slug: open-hubflo-note-api
+- collection_type: open
+  name: Hubflo chat_room organizations API
+  slug: open-hubflo-organizations-api
+- collection_type: open
+  name: Hubflo chat_room ping API
+  slug: open-hubflo-ping-api
+- collection_type: open
+  name: Hubflo chat_room portals API
+  slug: open-hubflo-portals-api
+- collection_type: open
+  name: Hubflo chat_room project API
+  slug: open-hubflo-project-api
+- collection_type: open
+  name: Hubflo chat_room project_section API
+  slug: open-hubflo-project-section-api
+- collection_type: open
+  name: Hubflo chat_room project_type API
+  slug: open-hubflo-project-type-api
+- collection_type: open
+  name: Hubflo chat_room proposal API
+  slug: open-hubflo-proposal-api
+- collection_type: open
+  name: Hubflo chat_room smartdoc API
+  slug: open-hubflo-smartdoc-api
+- collection_type: open
+  name: Hubflo chat_room tag API
+  slug: open-hubflo-tag-api
+- collection_type: open
+  name: Hubflo chat_room task API
+  slug: open-hubflo-task-api
+- collection_type: open
+  name: Hubflo chat_room task_template API
+  slug: open-hubflo-task-template-api
+- collection_type: open
+  name: Hubflo chat_room time_tracking API
+  slug: open-hubflo-time-tracking-api
+- collection_type: open
+  name: Hubflo chat_room webhook API
+  slug: open-hubflo-webhook-api
+- collection_type: open
+  name: Hubflo chat_room workspace API
+  slug: open-hubflo-workspace-api
 common:
 - group: other
   title: ''
@@ -260,7 +348,7 @@ overview: 'Hubflo publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Hubflo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Hubflo Rate Limits
@@ -288,7 +376,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png
 security:

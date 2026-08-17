@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,11 +59,36 @@ apis:
 - description: Describe how to create webhooks and receive notifications from our system.
   name: Ostrom Webhooks API
   slug: ostrom-webhooks-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Ostrom Webhooks
   slug: ostrom-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ostrom Auth API
+  slug: open-ostrom-auth-api
+- collection_type: open
+  name: Ostrom Auth Contracts API
+  slug: open-ostrom-contracts-api
+- collection_type: open
+  name: Ostrom Auth Orders API
+  slug: open-ostrom-orders-api
+- collection_type: open
+  name: Ostrom Auth Prices API
+  slug: open-ostrom-prices-api
+- collection_type: open
+  name: Ostrom Auth Products API
+  slug: open-ostrom-products-api
+- collection_type: open
+  name: Ostrom Auth Users API
+  slug: open-ostrom-users-api
+- collection_type: open
+  name: Ostrom Auth Webhooks API
+  slug: open-ostrom-webhooks-api
 common:
 - group: other
   title: ''
@@ -192,7 +217,7 @@ overview: 'Ostrom publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ostrom''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 76
+random_paper: 80
 score:
   band: developing
   composite: 48.0
@@ -222,7 +247,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/screenshots/ostrom-2026-08-07T191022.png
 security:

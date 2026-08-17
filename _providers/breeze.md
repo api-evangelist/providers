@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -84,7 +84,56 @@ apis:
 - description: Yield source information and statistics
   name: Breeze Yield Sources API
   slug: breeze-yield-sources-api
-artifact_total: 19
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Breeze Admin API
+  slug: open-breeze-admin-api
+- collection_type: open
+  name: Breeze Admin Deposits API
+  slug: open-breeze-deposits-api
+- collection_type: open
+  name: Breeze Admin fund API
+  slug: open-breeze-fund-api
+- collection_type: open
+  name: Breeze Admin Funds API
+  slug: open-breeze-funds-api
+- collection_type: open
+  name: Breeze Admin Global Config API
+  slug: open-breeze-global-config-api
+- collection_type: open
+  name: Breeze Admin Organization API Keys API
+  slug: open-breeze-organization-api-keys-api
+- collection_type: open
+  name: Breeze Admin Organization API
+  slug: open-breeze-organization-api
+- collection_type: open
+  name: Breeze Admin Organization Funds API
+  slug: open-breeze-organization-funds-api
+- collection_type: open
+  name: Breeze Admin Organization Settings API
+  slug: open-breeze-organization-settings-api
+- collection_type: open
+  name: Breeze Admin Selective Yield Sources API
+  slug: open-breeze-selective-yield-sources-api
+- collection_type: open
+  name: Breeze Admin Strategies API
+  slug: open-breeze-strategies-api
+- collection_type: open
+  name: Breeze Admin Strategy API
+  slug: open-breeze-strategy-api
+- collection_type: open
+  name: Breeze Admin User Data API
+  slug: open-breeze-user-data-api
+- collection_type: open
+  name: Breeze Admin Withdrawals API
+  slug: open-breeze-withdrawals-api
+- collection_type: open
+  name: Breeze Admin Yield Sources API
+  slug: open-breeze-yield-sources-api
 common:
 - group: company
   title: ''
@@ -198,7 +247,7 @@ overview: 'Breeze publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Breeze''s developer surface includes signup flow, documentation, API reference, getting-started guide, support, authentication, and 18 more developer resources.'
-random_paper: 37
+random_paper: 41
 score:
   band: thin
   composite: 37.2
@@ -228,7 +277,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/screenshots/breeze-2026-07-25T203743.png
 security:

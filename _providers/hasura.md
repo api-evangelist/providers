@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - description: The Version API from Hasura — 1 operation(s) for version.
   name: Hasura Version API
   slug: hasura-version-api
-artifact_total: 38
+artifact_total: 47
 asyncapis:
 - description: AsyncAPI definition for Hasura GraphQL Engine real-time subscriptions delivered over WebSocket at the `/v1/graphql` endpoint. Hasura supports two WebSocket subprotocols, negotiated via the `Sec-WebSoc
   name: Hasura GraphQL Subscriptions over WebSocket
@@ -108,6 +108,33 @@ collections:
 - collection_type: postman
   name: Hasura Engine HTTP APIs Graphql Version API
   slug: postman-hasura-version-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hasura Engine HTTP APIs Graphql API
+  slug: open-hasura-graphql-api
+- collection_type: open
+  name: Hasura Engine HTTP APIs Graphql Healthz API
+  slug: open-hasura-healthz-api
+- collection_type: open
+  name: Hasura Engine HTTP APIs Graphql Metadata API
+  slug: open-hasura-metadata-api
+- collection_type: open
+  name: Hasura Engine HTTP APIs Graphql Query API
+  slug: open-hasura-query-api
+- collection_type: open
+  name: Hasura Engine HTTP APIs Graphql Source Health API
+  slug: open-hasura-source-health-api
+- collection_type: open
+  name: Hasura Engine HTTP APIs Graphql V1alpha1 API
+  slug: open-hasura-v1alpha1-api
+- collection_type: open
+  name: Hasura Engine HTTP APIs Graphql V1beta1 API
+  slug: open-hasura-v1beta1-api
+- collection_type: open
+  name: Hasura Engine HTTP APIs Graphql Version API
+  slug: open-hasura-version-api
 - collection_type: open
   name: Hasura GraphQL Engine HTTP APIs
   slug: open-hasura
@@ -372,7 +399,7 @@ plans:
 - name: Hasura Plans Pricing
   plan_count: 3
   slug: hasura-plans-pricing
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Hasura Rate Limits
@@ -406,7 +433,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png
 security:

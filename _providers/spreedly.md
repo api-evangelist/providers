@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - description: Strong Customer Authentication endpoints to authenticate a given payment method and manage SCA providers on a merchant profile, supporting 3-D Secure 2.x authentication flows for cardholder verificati
   name: Spreedly 3-D Secure / SCA Authentication API
   slug: spreedly-sca-api
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Spreedly Webhooks
@@ -58,6 +58,9 @@ collections:
 - collection_type: postman
   name: Spreedly API V1
   slug: postman-spreedly-api-v1
+- collection_type: open
+  name: Spreedly API V1
+  slug: open-spreedly-api-v1
 common:
 - group: build
   title: ''
@@ -251,7 +254,7 @@ overview: 'Spreedly publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 36 more developer resources.'
-random_paper: 32
+random_paper: 127
 score:
   band: strong
   composite: 61.0
@@ -276,7 +279,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

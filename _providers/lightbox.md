@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Power your digital workflows using comprehensive property and location intelligence data from LightBox.
@@ -61,7 +61,7 @@ plans:
 - name: Lightbox Plans Pricing
   plan_count: 3
   slug: lightbox-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: Lightbox Rate Limits
@@ -79,7 +79,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/screenshots/lightbox-2026-06-20T184513.png
 security:

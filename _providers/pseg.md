@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'PSEG is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   PSEG''s developer surface includes engineering blog, support, documentation, and 14 more developer resources.'
-random_paper: 71
+random_paper: 133
 score:
   band: emerging
   composite: 17.6
@@ -123,7 +123,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,20 @@ apis:
 - description: The Stats API from VPN — 2 operation(s) for stats.
   name: VPN Stats API
   slug: vpn-stats-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NordVPN Public Catalog API
+  slug: open-vpn-catalog-api
+- collection_type: open
+  name: NordVPN Public Catalog Servers API
+  slug: open-vpn-servers-api
+- collection_type: open
+  name: NordVPN Public Catalog Stats API
+  slug: open-vpn-stats-api
 - collection_type: open
   name: NordVPN Public API
   slug: open-vpn
@@ -138,7 +150,7 @@ plans:
 - name: Vpn Plans Pricing
   plan_count: 3
   slug: vpn-plans-pricing
-random_paper: 100
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Vpn Rate Limits
@@ -172,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/screenshots/vpn-2026-06-20T201144.png
 security:

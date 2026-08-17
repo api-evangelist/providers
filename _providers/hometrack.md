@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -58,7 +58,26 @@ apis:
 - description: Hometrack Valuation API from Hometrack — 3 path(s) described in OpenAPI.
   name: Hometrack Valuation API
   slug: hometrack-valuation-api-v1-openapi
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: Hometrack API Public
+  slug: open-hometrack-api-public
+- collection_type: open
+  name: Broker Avm API
+  slug: open-hometrack-broker-avm-api
+- collection_type: open
+  name: Climate API (v2)
+  slug: open-hometrack-climate-api-v2
+- collection_type: open
+  name: Climate GraphQL
+  slug: open-hometrack-climate-graphql-api
+- collection_type: open
+  name: (PRH) - Core External Client API v2.0
+  slug: open-hometrack-prh-core-external-client-api-v2
+- collection_type: open
+  name: Valuation API
+  slug: open-hometrack-valuation-api-v1
 common:
 - group: docs
   title: ''
@@ -238,7 +257,7 @@ overview: 'Hometrack publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hometrack''s developer surface includes API reference, changelog, developer console, sandbox, authentication, documentation, signup flow, and 33 more developer resources.'
-random_paper: 118
+random_paper: 64
 scopes:
 - name: Hometrack Scopes
   scope_count: 2
@@ -267,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/screenshots/hometrack-2026-08-07T170250.png
 security:

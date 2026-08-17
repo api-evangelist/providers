@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,7 +47,29 @@ apis:
 - description: The <b>Transaction APIs</b> enable external enterprise customers to <b>ingest and retrieve transaction ledger records</b> within the <b>73 Strings platform</b>.<br><br>These APIs are intended for <b>c
   name: 73 Strings Transaction API API
   slug: 73-strings-transaction-api-api
-artifact_total: 12
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Asset Info API
+  slug: open-73-strings-asset-info-api
+- collection_type: open
+  name: Captable API
+  slug: open-73-strings-captable-api
+- collection_type: open
+  name: Documents API
+  slug: open-73-strings-documents-api
+- collection_type: open
+  name: Financial Data API
+  slug: open-73-strings-financial-data-api
+- collection_type: open
+  name: Qualitative Data API
+  slug: open-73-strings-qualitative-data-api
+- collection_type: open
+  name: Transaction Transaction API API
+  slug: open-73-strings-transaction-api-api
 common:
 - group: auth
   title: ''
@@ -198,7 +220,7 @@ plans:
 - name: 73 Strings Plans
   plan_count: 4
   slug: 73-strings-plans
-random_paper: 89
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: 73 Strings Rate Limits
@@ -226,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:

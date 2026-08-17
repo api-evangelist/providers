@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 14
@@ -385,11 +385,333 @@ apis:
 - description: Provision sandbox API users and API keys for the MTN MoMo Open API test environment, the self-serve step that lets a developer obtain credentials before calling Collection, Disbursements or Remittance
   name: MTN MoMo Sandbox User Provisioning API
   slug: momo-sandbox-user-provisioning
-artifact_total: 125
+artifact_total: 232
 asyncapis:
 - description: ''
   name: Mtn Group Webhooks
   slug: mtn-group-webhooks
+collections:
+- collection_type: open
+  name: Account Decisioning API
+  slug: open-mtn-group-account-decisioning
+- collection_type: open
+  name: TMF666 Account Management API
+  slug: open-mtn-group-account-management-coe
+- collection_type: open
+  name: Mobile Advertisement
+  slug: open-mtn-group-advertising-v2
+- collection_type: open
+  name: MTN Agent Profile API
+  slug: open-mtn-group-agent-profile
+- collection_type: open
+  name: Consent Validation API
+  slug: open-mtn-group-ayo-preapproval
+- collection_type: open
+  name: MTN Accountholders API
+  slug: open-mtn-group-ayoaccountholderinfo
+- collection_type: open
+  name: Balance Management V1
+  slug: open-mtn-group-balance-management-v1
+- collection_type: open
+  name: Authentication APIs
+  slug: open-mtn-group-bss-tt-oauth-v1
+- collection_type: open
+  name: Callmeback V1
+  slug: open-mtn-group-callmeback-v1
+- collection_type: open
+  name: Callmeback V2
+  slug: open-mtn-group-callmeback-v2
+- collection_type: open
+  name: Communication Management API
+  slug: open-mtn-group-communication-management-v1
+- collection_type: open
+  name: Content Push API
+  slug: open-mtn-group-content-push
+- collection_type: open
+  name: MTN Customer Account Management API
+  slug: open-mtn-group-customer-account-management-v1
+- collection_type: open
+  name: Customer Billing Token API
+  slug: open-mtn-group-customer-billing-token-v1
+- collection_type: open
+  name: Customer Transfer
+  slug: open-mtn-group-customer-data-transfer-ng-prod
+- collection_type: open
+  name: Customer Delivery Booking API
+  slug: open-mtn-group-customer-delivery-booking
+- collection_type: open
+  name: Customer Identification API
+  slug: open-mtn-group-customer-identification-v1
+- collection_type: open
+  name: MTN Customer KYC Verification API
+  slug: open-mtn-group-customer-kyc-verification
+- collection_type: open
+  name: Customer Loyalty Management API
+  slug: open-mtn-group-customer-loyalty-management
+- collection_type: open
+  name: Customer Management - COE
+  slug: open-mtn-group-customer-management-coe-za-preprod
+- collection_type: open
+  name: MTN Customer Management API
+  slug: open-mtn-group-customer-management
+- collection_type: open
+  name: Customer PIN Management API
+  slug: open-mtn-group-customer-pin-management-v2
+- collection_type: open
+  name: Customer Promotion Placeholder
+  slug: open-mtn-group-customer-promotion
+- collection_type: open
+  name: Device Swap API
+  slug: open-mtn-group-device-swap-v1
+- collection_type: open
+  name: Digital Partners Management API
+  slug: open-mtn-group-digital-partner-management
+- collection_type: open
+  name: Document
+  slug: open-mtn-group-document-managment
+- collection_type: open
+  name: GENEYSIS - EEC TOKENS MANAGEMENT API-mtn
+  slug: open-mtn-group-eec-token-management
+- collection_type: open
+  name: MTN G2M Product Offering API
+  slug: open-mtn-group-g2m
+- collection_type: open
+  name: Leave Balance
+  slug: open-mtn-group-hcm-v1
+- collection_type: open
+  name: Insurance API
+  slug: open-mtn-group-insurance
+- collection_type: open
+  name: IoT Device Management
+  slug: open-mtn-group-iot-device-management
+- collection_type: open
+  name: ServiceNow - Remedy Incident synchronisation
+  slug: open-mtn-group-job-card-management
+- collection_type: open
+  name: Customer Kyc Consent
+  slug: open-mtn-group-kyc-consent
+- collection_type: open
+  name: MTN Customer Loan API
+  slug: open-mtn-group-loans-v2
+- collection_type: open
+  name: Logback Failure Service
+  slug: open-mtn-group-logback-v1
+- collection_type: open
+  name: Medallia SMS Experience API
+  slug: open-mtn-group-medallia-sms-v2
+- collection_type: open
+  name: MTN Merchant Provisioning API
+  slug: open-mtn-group-merchant-provisioning-v1
+- collection_type: open
+  name: Mobile Customer Information API
+  slug: open-mtn-group-mobile-customer-information
+- collection_type: open
+  name: MoMo Verification API
+  slug: open-mtn-group-momo-verification
+- collection_type: open
+  name: Mobile Advertisement API
+  slug: open-mtn-group-mtn-advertising-api-v1
+- collection_type: open
+  name: Customer Bill Management API
+  slug: open-mtn-group-mtn-customer-bill-management
+- collection_type: open
+  name: Customer Transfer
+  slug: open-mtn-group-mtn-customer-datatransfer
+- collection_type: open
+  name: Api Documentation
+  slug: open-mtn-group-mtn-customer-loans-api-v1
+- collection_type: open
+  name: MTN Customer Plans API
+  slug: open-mtn-group-mtn-customer-plans-api-v2
+- collection_type: open
+  name: MTN Customer Score API
+  slug: open-mtn-group-mtn-customer-score
+- collection_type: open
+  name: Customer Data Share API
+  slug: open-mtn-group-mtn-nigeria-customer-datashare
+- collection_type: open
+  name: Customer Data Gifting API
+  slug: open-mtn-group-mtn-nigeria-data-gifting-v1
+- collection_type: open
+  name: Party Management API
+  slug: open-mtn-group-mtn-party-management
+- collection_type: open
+  name: MTN Product API
+  slug: open-mtn-group-mtn-product-offering-api-v2
+- collection_type: open
+  name: MTN Product API
+  slug: open-mtn-group-mtn-product-offering-api-v3
+- collection_type: open
+  name: MTN Messaging API
+  slug: open-mtn-group-mtn-sms-api-v1
+- collection_type: open
+  name: MTNID-getInfo
+  slug: open-mtn-group-mtnid-getinfo
+- collection_type: open
+  name: Notifications API
+  slug: open-mtn-group-notification-production
+- collection_type: open
+  name: Notifications API
+  slug: open-mtn-group-notification-v2
+- collection_type: open
+  name: MTN MADAPI OAuth2
+  slug: open-mtn-group-oauth-v1
+- collection_type: open
+  name: Order Fulfillment API
+  slug: open-mtn-group-order-fulfillment
+- collection_type: open
+  name: Payment Methods Management
+  slug: open-mtn-group-payment-methods-management-sa
+- collection_type: open
+  name: Payments v1
+  slug: open-mtn-group-payments-v1
+- collection_type: open
+  name: Product Catalog Management
+  slug: open-mtn-group-product-catalog-coe
+- collection_type: open
+  name: Product Catalog Management
+  slug: open-mtn-group-product-catalog-management-v1
+- collection_type: open
+  name: Product Catalog Management
+  slug: open-mtn-group-product-catalogue-management
+- collection_type: open
+  name: Product Ordering
+  slug: open-mtn-group-product-ordering-coe
+- collection_type: open
+  name: Api Documentation Unified Balance
+  slug: open-mtn-group-provisioning
+- collection_type: open
+  name: Madapi-MTN-RCS API
+  slug: open-mtn-group-rcs-capability
+- collection_type: open
+  name: Communication Management
+  slug: open-mtn-group-rcs-communication
+- collection_type: open
+  name: Resource Configuration API
+  slug: open-mtn-group-resource-config-v1
+- collection_type: open
+  name: TMF685 - Resource Pool Management - BSS
+  slug: open-mtn-group-resource-pool-management
+- collection_type: open
+  name: MTN Customer Risk Management API
+  slug: open-mtn-group-risk-management
+- collection_type: open
+  name: Party Management API
+  slug: open-mtn-group-rwanda-party-management
+- collection_type: open
+  name: API Sales
+  slug: open-mtn-group-sales-management
+- collection_type: open
+  name: API Service Activation and Configuration
+  slug: open-mtn-group-service-activation-and-configuration
+- collection_type: open
+  name: API ServiceOrdering
+  slug: open-mtn-group-service-ordering
+- collection_type: open
+  name: MTN Siebel API
+  slug: open-mtn-group-siebel
+- collection_type: open
+  name: Sim Management
+  slug: open-mtn-group-sim-management-staging
+- collection_type: open
+  name: SIM Swap Verification API
+  slug: open-mtn-group-sim-swap-verification-v1
+- collection_type: open
+  name: MTN Customer SIM Verification API
+  slug: open-mtn-group-simverification
+- collection_type: open
+  name: Short Message Service (SMS) API
+  slug: open-mtn-group-sms-v3-api
+- collection_type: open
+  name: Api Documentation
+  slug: open-mtn-group-subscriber-details
+- collection_type: open
+  name: Subscriber Management API
+  slug: open-mtn-group-subscriber-management
+- collection_type: open
+  name: Api Documentation
+  slug: open-mtn-group-subscriber-type
+- collection_type: open
+  name: Taxation
+  slug: open-mtn-group-taxation-v1
+- collection_type: open
+  name: ServiceNow - Remedy Incident synchronisation
+  slug: open-mtn-group-ticket
+- collection_type: open
+  name: Digital Identity Management
+  slug: open-mtn-group-tmf-720-digital-identity-management
+- collection_type: open
+  name: API CustomerBill
+  slug: open-mtn-group-tmf-customer-bill-management
+- collection_type: open
+  name: Document Management
+  slug: open-mtn-group-tmf-document-management-tmf667
+- collection_type: open
+  name: LoyaltySwagger
+  slug: open-mtn-group-tmf-loyalty-management-tmf658
+- collection_type: open
+  name: Party Interaction
+  slug: open-mtn-group-tmf-party-interaction-tmf683
+- collection_type: open
+  name: MTN TMF632 Party Management Aggregator Service
+  slug: open-mtn-group-tmf-party-management
+- collection_type: open
+  name: TMF676 Payment Management
+  slug: open-mtn-group-tmf-payment-management-tmf676
+- collection_type: open
+  name: Prepay Balance Management
+  slug: open-mtn-group-tmf-prepay-balance-management-tmf654
+- collection_type: open
+  name: Product Catalog Management
+  slug: open-mtn-group-tmf-product-catalog-tmf620
+- collection_type: open
+  name: Product Ordering
+  slug: open-mtn-group-tmf-product-ordering-tmf622
+- collection_type: open
+  name: Resource Ordering Management
+  slug: open-mtn-group-tmf-resource-ordering-tmf652
+- collection_type: open
+  name: API Resource Inventory Management
+  slug: open-mtn-group-tmf-resourceinventorymanagement-tmf639
+- collection_type: open
+  name: service-activation-aggregator
+  slug: open-mtn-group-tmf-service-activation-tmf678
+- collection_type: open
+  name: TMF621 Trouble Ticket Management  Aggregator
+  slug: open-mtn-group-tmf-trouble-ticket-tmf621
+- collection_type: open
+  name: Usage Consumption API
+  slug: open-mtn-group-tmf-usage-consumption-tmf677
+- collection_type: open
+  name: MTN Usage Management
+  slug: open-mtn-group-tmf-usage-management-tmf635
+- collection_type: open
+  name: TMF629- Customer Management
+  slug: open-mtn-group-tmf629-customer-management
+- collection_type: open
+  name: MTN Shopping Cart Management API
+  slug: open-mtn-group-tmf633-shopping-cart-management
+- collection_type: open
+  name: Communication Management API TMF-681
+  slug: open-mtn-group-tmf681-communication-management
+- collection_type: open
+  name: Event Streaming API
+  slug: open-mtn-group-tmf688-event-management
+- collection_type: open
+  name: Api Documentation Unified Balance
+  slug: open-mtn-group-unified-balance-v1
+- collection_type: open
+  name: Usage Consumption API
+  slug: open-mtn-group-usage-consumption
+- collection_type: open
+  name: MTN Usage Management
+  slug: open-mtn-group-usage-management
+- collection_type: open
+  name: MTN Messaging USSD API
+  slug: open-mtn-group-ussd
+- collection_type: open
+  name: Mobile Money Withdrawals v1
+  slug: open-mtn-group-withdrawals-v1
 common:
 - group: agent
   title: ''
@@ -611,7 +933,7 @@ overview: 'MTN Group publishes 115 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   MTN Group''s developer surface includes authentication, documentation, API reference, signup flow, FAQ, support, YouTube channel, and 43 more developer resources.'
-random_paper: 97
+random_paper: 43
 scopes:
 - name: Mtn Group Scopes
   scope_count: 2
@@ -646,7 +968,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/screenshots/mtn-group-2026-08-07T184423.png
 security:

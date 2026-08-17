@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -66,11 +66,32 @@ apis:
 - description: Health and status monitoring
   name: Xerox Status API
   slug: xerox-status-api
-artifact_total: 16
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xerox Public Print EULA API
+  slug: open-xerox-eula-api
+- collection_type: open
+  name: Xerox Public Print EULA Jobs API
+  slug: open-xerox-jobs-api
+- collection_type: open
+  name: Xerox Public Print EULA Provider Types API
+  slug: open-xerox-provider-types-api
+- collection_type: open
+  name: Xerox Public Print EULA Providers API
+  slug: open-xerox-providers-api
 - collection_type: open
   name: Xerox Public Print API
   slug: open-xerox-public-print
+- collection_type: open
+  name: Xerox Public Print EULA Sites API
+  slug: open-xerox-sites-api
+- collection_type: open
+  name: Xerox Public Print EULA Status API
+  slug: open-xerox-status-api
 common:
 - group: agent
   title: ''
@@ -156,7 +177,7 @@ press:
 - date: '2026-05-25'
   title: Xerox AI – the future's almost here!
   url: https://www.perfectcolours.com/blog/2018/11/22/xerox-ai-the-futures-almost-here/?srsltid=AfmBOoqAEnZunThO-KFMQdJFUucWJHvzFvh7hZCDOCpuORD4prbBzVA3
-random_paper: 86
+random_paper: 119
 rate_limits:
 - limit_count: 2
   name: Xerox Rate Limits
@@ -181,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/screenshots/xerox-2026-06-20T201703.png
 security:

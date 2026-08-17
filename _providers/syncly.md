@@ -1,37 +1,54 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
+  - plans
   - authentication
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: true
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 4
+  score: 56.3
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Syncly Agentic Access
+  operation_count: 4
+  slug: syncly-agentic-access
+  summary_line: 4 operations
+api_count: 1
+apis:
+- description: Syncly's only programmatic surface. A hosted remote Model Context Protocol server that exposes a connected Syncly workspace — TikTok, Reels and Shorts social listening, creator discovery, competitor b
+  name: Syncly Social MCP Server
+  slug: syncly-social-mcp-server
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/syncly-agentic-access.yml
 - group: company
   title: ''
   type: Website
@@ -100,6 +117,50 @@ common:
   title: ''
   type: Security
   url: https://syncly.app/security
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/syncly-social-mcp-openapi.json
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/syncly-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/syncly-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/syncly-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/syncly-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/syncly-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/syncly-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/syncly-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/syncly-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syncly-social-mcp-overlay.yaml
 created: '2026-07-17'
 description: Syncly is an AI-native social and customer intelligence platform (backed by Y Combinator, SoftBank, 500 Global, and Rebel) that unifies customer feedback and social conversations into a single source of truth. It aggregates feedback from tickets, chat, email, surveys, reviews, and social, then uses AI to auto-tag, cluster, and sentiment-score every message into the themes that matter. Its social intelligence surface listens across TikTok, Reels, and Shorts with speech-to-text and vision AI for competitive analysis, creator discovery, and campaign measurement, while "Hey Syncly" lets teams query their data in plain language. Syncly exposes its data to AI assistants through a hosted remote MCP connector (Claude, ChatGPT, Cursor, and more) rather than a public REST API.
 image: https://framerusercontent.com/images/eVsReqyksUv6paQaME2J7epX8.png
@@ -108,38 +169,51 @@ mcp_servers:
 - description: ''
   name: syncly-mcp.yml
   slug: syncly-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Syncly
 nav: Providers
 network: true
-overview: 'Syncly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Intelligence, Social Listening, Customer Feedback, and Voice of Customer.
+overview: 'Syncly publishes 1 API on the [APIs.io](https://apis.io/) network: Social MCP Server. Tagged areas include Company, Social Intelligence, Social Listening, Customer Feedback, and Voice of Customer.
 
 
-  Syncly''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, and 11 more developer resources.'
-random_paper: 74
+  Syncly''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
+plans:
+- name: Syncly Plans Pricing
+  plan_count: 3
+  slug: syncly-plans-pricing
+random_paper: 78
+rate_limits:
+- limit_count: 0
+  name: Syncly Rate Limits
+  slug: syncly-rate-limits
+scopes:
+- name: Syncly Scopes
+  scope_count: 2
+  slug: syncly-scopes
+  summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 29.1
-  delta: 0.0
+  band: developing
+  composite: 50.2
+  delta: 21.1
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 57.4
-    governance: 12.5
+    commercial_clarity: 84.2
+    contract_quality: 38.1
+    developer_ergonomics: 56.5
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 10.5
   previous_composite: 29.1
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Syncly Authentication
   slug: syncly-authentication
-  summary_line: connection-url · 1 scheme
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Syncly Domain Security
   slug: syncly-domain-security

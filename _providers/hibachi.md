@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,11 +48,24 @@ apis:
 - description: 'Authenticated trading: orders, positions, account info, settlements, leverage'
   name: Hibachi Trade API
   slug: hibachi-trade-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: Hibachi exposes a WebSocket API alongside its REST API for lower-latency access to real-time trading and market data. Public market streams (/ws/market) require no API key; account and trading streams
   name: Hibachi WebSocket API
   slug: hibachi-ws-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hibachi Capital API
+  slug: open-hibachi-capital-api
+- collection_type: open
+  name: Hibachi Capital Market API
+  slug: open-hibachi-market-api
+- collection_type: open
+  name: Hibachi Capital Trade API
+  slug: open-hibachi-trade-api
 common:
 - group: company
   title: ''
@@ -189,7 +202,7 @@ overview: 'Hibachi publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Hibachi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 112
+random_paper: 116
 score:
   band: developing
   composite: 50.9
@@ -219,7 +232,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/screenshots/hibachi-2026-07-25T221135.png
 security:

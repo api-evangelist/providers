@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The AddToNodeV2 API from Tana — 1 operation(s) for addtonodev2.
   name: Tana AddToNodeV2 API
   slug: tana-addtonodev2-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tana Documentation AddToNodeV2 API
+  slug: open-tana-addtonodev2-api
+- collection_type: open
+  name: Tana Documentation AddToNodeV2 Docs API
+  slug: open-tana-docs-api
 common:
 - group: start
   title: ''
@@ -182,7 +192,7 @@ overview: 'Tana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Doc
 
 
   Tana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 60
+random_paper: 122
 rate_limits:
 - limit_count: 0
   name: Tana Rate Limits
@@ -210,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

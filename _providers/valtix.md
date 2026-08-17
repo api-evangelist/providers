@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -103,7 +103,7 @@ overview: 'Valtix is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Valtix''s developer surface includes documentation, getting-started guide, support, changelog, authentication, and 8 more developer resources.'
-random_paper: 64
+random_paper: 68
 score:
   band: thin
   composite: 29.4
@@ -117,7 +117,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 29.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

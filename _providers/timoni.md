@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Timoni module management and distribution
   name: Timoni Modules API
   slug: timoni-modules-api
-artifact_total: 14
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Timoni Module Registry Artifacts API
+  slug: open-timoni-artifacts-api
+- collection_type: open
+  name: Timoni Module Registry Artifacts Modules API
+  slug: open-timoni-modules-api
 - collection_type: open
   name: Timoni Module Registry API
   slug: open-timoni
@@ -143,7 +152,7 @@ plans:
 - name: Timoni Plans Pricing
   plan_count: 3
   slug: timoni-plans-pricing
-random_paper: 56
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Timoni Rate Limits
@@ -177,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/screenshots/timoni-2026-06-20T195403.png
 security:

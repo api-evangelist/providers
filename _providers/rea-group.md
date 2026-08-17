@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -74,7 +74,35 @@ apis:
 - description: The realestate.com.au Partner Portal is REA Group's integration surface for agencies and their software / CRM providers - covering partner onboarding, API credential management (Client ID + API secret
   name: realestate.com.au Partner Portal
   slug: realestate-partner-portal
-artifact_total: 17
+artifact_total: 26
+collections:
+- collection_type: open
+  name: Address API
+  slug: open-rea-group-address
+- collection_type: open
+  name: Coming Soon
+  slug: open-rea-group-coming-soon
+- collection_type: open
+  name: Disclaimers API
+  slug: open-rea-group-disclaimers
+- collection_type: open
+  name: Listings API
+  slug: open-rea-group-listings
+- collection_type: open
+  name: Market
+  slug: open-rea-group-market
+- collection_type: open
+  name: OAuth 2.0
+  slug: open-rea-group-oauth
+- collection_type: open
+  name: Properties API
+  slug: open-rea-group-properties
+- collection_type: open
+  name: Reports
+  slug: open-rea-group-reports
+- collection_type: open
+  name: Transactions
+  slug: open-rea-group-transactions
 common:
 - group: company
   title: ''
@@ -245,7 +273,7 @@ plans:
 - name: Rea Group Plans
   plan_count: 2
   slug: rea-group-plans
-random_paper: 74
+random_paper: 20
 rate_limits:
 - limit_count: 16
   name: Rea Group Rate Limits
@@ -273,7 +301,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png
 security:

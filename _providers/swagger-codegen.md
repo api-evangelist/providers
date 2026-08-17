@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: Template rendering and intermediate model generation
   name: Swagger Codegen Utilities API
   slug: swagger-codegen-utilities-api
-artifact_total: 22
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Swagger Generator Generation API
+  slug: open-swagger-codegen-generation-api
+- collection_type: open
+  name: Swagger Generator Generation Languages API
+  slug: open-swagger-codegen-languages-api
+- collection_type: open
+  name: Swagger Generator Generation Options API
+  slug: open-swagger-codegen-options-api
+- collection_type: open
+  name: Swagger Generator Generation Utilities API
+  slug: open-swagger-codegen-utilities-api
 - collection_type: open
   name: Swagger Generator API
   slug: open-swagger-generator
@@ -262,7 +277,7 @@ plans:
 - name: Swagger Codegen Plans Pricing
   plan_count: 3
   slug: swagger-codegen-plans-pricing
-random_paper: 82
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Swagger Codegen Rate Limits
@@ -307,7 +322,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/screenshots/swagger-codegen-2026-06-20T194753.png
 security:

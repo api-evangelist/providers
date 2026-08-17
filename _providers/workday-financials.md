@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -135,11 +135,65 @@ apis:
 - description: Access trial balance data
   name: Workday Financials Trial Balances API
   slug: workday-financials-trial-balances-api
-artifact_total: 113
+artifact_total: 146
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations API
+  slug: open-workday-financials-account-reconciliations-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Accounting Journals API
+  slug: open-workday-financials-accounting-journals-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Accounting Periods API
+  slug: open-workday-financials-accounting-periods-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Accounts Payable API
+  slug: open-workday-financials-accounts-payable-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Accounts Receivable API
+  slug: open-workday-financials-accounts-receivable-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Audit Logs API
+  slug: open-workday-financials-audit-logs-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Bank Accounts API
+  slug: open-workday-financials-bank-accounts-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Bank Transactions API
+  slug: open-workday-financials-bank-transactions-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Billing Schedules API
+  slug: open-workday-financials-billing-schedules-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Cash Forecasts API
+  slug: open-workday-financials-cash-forecasts-api
 - collection_type: open
   name: Workday Financials Workday Cash Management API
   slug: open-workday-financials-cash-management
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Cash Positions API
+  slug: open-workday-financials-cash-positions-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Companies API
+  slug: open-workday-financials-companies-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Cost Centers API
+  slug: open-workday-financials-cost-centers-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Custom Reports API
+  slug: open-workday-financials-custom-reports-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Expense Items API
+  slug: open-workday-financials-expense-items-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Expense Policies API
+  slug: open-workday-financials-expense-policies-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Expense Reports API
+  slug: open-workday-financials-expense-reports-api
 - collection_type: open
   name: Workday Financials Workday Expenses API
   slug: open-workday-financials-expenses
@@ -150,14 +204,59 @@ collections:
   name: Workday Financials Workday Financial Management API
   slug: open-workday-financials-financial-management
 - collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Journal Entries API
+  slug: open-workday-financials-journal-entries-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Ledger Accounts API
+  slug: open-workday-financials-ledger-accounts-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Payments API
+  slug: open-workday-financials-payments-api
+- collection_type: open
   name: Workday Financials Workday Procurement API
   slug: open-workday-financials-procurement
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Purchase Orders API
+  slug: open-workday-financials-purchase-orders-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Purchase Requisitions API
+  slug: open-workday-financials-purchase-requisitions-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Receipts API
+  slug: open-workday-financials-receipts-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Report Execution API
+  slug: open-workday-financials-report-execution-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Report Prompts API
+  slug: open-workday-financials-report-prompts-api
 - collection_type: open
   name: Workday Financials Workday Reporting API
   slug: open-workday-financials-reporting
 - collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Reports API
+  slug: open-workday-financials-reports-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Revenue Contracts API
+  slug: open-workday-financials-revenue-contracts-api
+- collection_type: open
   name: Workday Financials Workday Revenue Management API
   slug: open-workday-financials-revenue-management
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Revenue Recognition API
+  slug: open-workday-financials-revenue-recognition-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Revenue Schedules API
+  slug: open-workday-financials-revenue-schedules-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Supplier Contracts API
+  slug: open-workday-financials-supplier-contracts-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Suppliers API
+  slug: open-workday-financials-suppliers-api
+- collection_type: open
+  name: Workday Financials Workday Cash Management Account Reconciliations Trial Balances API
+  slug: open-workday-financials-trial-balances-api
 common:
 - group: agent
   title: ''
@@ -454,7 +553,7 @@ plans:
 - name: Workday Financials Plans Pricing
   plan_count: 1
   slug: workday-financials-plans-pricing
-random_paper: 62
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Workday Financials Rate Limits
@@ -496,7 +595,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-financials/refs/heads/main/screenshots/workday-financials-2026-06-20T201558.png
 security:

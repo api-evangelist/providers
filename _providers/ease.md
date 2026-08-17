@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,11 +35,21 @@ apis:
 - description: The public, anonymous Atlassian Statuspage v2 API for the Ease platform, hosted at status.ease.com (page id 13zw4w6v89nk) and documented by Ease itself at https://status.ease.com/api. Eight GET endpoi
   name: Ease Status API
   slug: ease-status-api
-artifact_total: 13
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Ease Status Webhooks
   slug: ease-status-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-ease-content-wp-routes-original
+- collection_type: open
+  name: Ease Content & Marketplace API
+  slug: open-ease-content
+- collection_type: open
+  name: Ease Status API
+  slug: open-ease-status
 common:
 - group: agent
   title: ''
@@ -210,7 +220,7 @@ overview: 'Ease publishes 2 APIs on the [APIs.io](https://apis.io/) network: Con
 
 
   Ease''s developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, pricing, and 26 more developer resources.'
-random_paper: 54
+random_paper: 116
 score:
   band: developing
   composite: 42.6
@@ -240,7 +250,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png
 security:

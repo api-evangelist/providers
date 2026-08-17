@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,12 +45,21 @@ apis:
 - description: List available SUTRA models.
   name: SUTRA (Two AI) Models API
   slug: sutra-ai-models-api
-artifact_total: 11
+artifact_total: 14
 asyncapis:
 - description: AsyncAPI 2.6 description of SUTRA's **chat completion streaming** surface. Two AI (Numeric) does not publish a WebSocket API for SUTRA. The only asynchronous / event-style transport documented at http
   name: SUTRA Chat Completions Streaming (HTTP + SSE)
   slug: sutra-ai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SUTRA Chat API
+  slug: open-sutra-ai-chat-api
+- collection_type: open
+  name: SUTRA Chat Models API
+  slug: open-sutra-ai-models-api
 - collection_type: open
   name: SUTRA API
   slug: open-sutra-ai
@@ -118,7 +127,7 @@ plans:
 - name: Sutra Ai Plans Pricing
   plan_count: 3
   slug: sutra-ai-plans-pricing
-random_paper: 86
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Sutra Ai Rate Limits
@@ -152,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

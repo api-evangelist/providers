@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -133,7 +133,7 @@ arazzos:
 - description: Tokenize a card, verify the stored token, then charge it in a card payment.
   name: dLocal Tokenize Card and Charge
   slug: d-local-tokenize-card-and-charge-workflow
-artifact_total: 124
+artifact_total: 136
 collections:
 - collection_type: postman
   name: dLocal Cards API
@@ -163,23 +163,50 @@ collections:
   name: dLocal Refunds API
   slug: postman-d-local-refunds-api
 - collection_type: open
-  name: dLocal Cards API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dLocal Cards Accounts API
+  slug: open-d-local-accounts-api
+- collection_type: open
+  name: dLocal Cards Accounts Authorizations API
+  slug: open-d-local-authorizations-api
+- collection_type: open
+  name: dLocal Cards Accounts Balance API
+  slug: open-d-local-balance-api
+- collection_type: open
+  name: dLocal Cards Accounts BankAccounts API
+  slug: open-d-local-bankaccounts-api
+- collection_type: open
+  name: dLocal Accounts Cards API
   slug: open-d-local-cards-api
 - collection_type: open
-  name: dLocal Chargebacks API
+  name: dLocal Cards Accounts Chargebacks API
   slug: open-d-local-chargebacks-api
 - collection_type: open
-  name: dLocal Enrollments API
+  name: dLocal Cards Accounts Documents API
+  slug: open-d-local-documents-api
+- collection_type: open
+  name: dLocal Cards Accounts Enrollments API
   slug: open-d-local-enrollments-api
 - collection_type: open
   name: dLocal Exchange Rates API
   slug: open-d-local-exchange-rates-api
 - collection_type: open
+  name: dLocal Cards Accounts ExchangeRates API
+  slug: open-d-local-exchangerates-api
+- collection_type: open
+  name: dLocal Cards Accounts KYC API
+  slug: open-d-local-kyc-api
+- collection_type: open
   name: dLocal KYC Verifications API
   slug: open-d-local-kyc-verifications-api
 - collection_type: open
-  name: dLocal Payments API
+  name: dLocal Cards Accounts Payments API
   slug: open-d-local-payments-api
+- collection_type: open
+  name: dLocal Cards Accounts Payouts API
+  slug: open-d-local-payouts-api
 - collection_type: open
   name: dLocal Payouts V3 API
   slug: open-d-local-payouts-v3-api
@@ -187,8 +214,17 @@ collections:
   name: dLocal For Platforms API
   slug: open-d-local-platforms-api
 - collection_type: open
-  name: dLocal Refunds API
+  name: dLocal Cards Accounts Quotes API
+  slug: open-d-local-quotes-api
+- collection_type: open
+  name: dLocal Cards Accounts Refunds API
   slug: open-d-local-refunds-api
+- collection_type: open
+  name: dLocal Cards Accounts Transfers API
+  slug: open-d-local-transfers-api
+- collection_type: open
+  name: dLocal Cards Accounts Verifications API
+  slug: open-d-local-verifications-api
 common:
 - group: agent
   title: ''
@@ -615,7 +651,7 @@ plans:
 - name: D Local Plans Pricing
   plan_count: 5
   slug: d-local-plans-pricing
-random_paper: 68
+random_paper: 72
 rate_limits:
 - limit_count: 4
   name: D Local Rate Limits
@@ -663,7 +699,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/screenshots/d-local-2026-06-20T175421.png
 security:

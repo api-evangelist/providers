@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -69,7 +69,7 @@ apis:
 - description: The symplectic API from Figshare — 5 operation(s) for symplectic.
   name: Figshare symplectic API
   slug: figshare-symplectic-api
-artifact_total: 46
+artifact_total: 57
 collections:
 - collection_type: postman
   name: Figshare altmetric API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: Figshare altmetric symplectic API
   slug: postman-figshare-symplectic-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figshare altmetric API
+  slug: open-figshare-altmetric-api
+- collection_type: open
+  name: Figshare altmetric articles API
+  slug: open-figshare-articles-api
+- collection_type: open
+  name: Figshare altmetric authors API
+  slug: open-figshare-authors-api
+- collection_type: open
+  name: Figshare altmetric collections API
+  slug: open-figshare-collections-api
+- collection_type: open
+  name: Figshare altmetric institutions API
+  slug: open-figshare-institutions-api
+- collection_type: open
+  name: Figshare altmetric oauth API
+  slug: open-figshare-oauth-api
+- collection_type: open
+  name: Figshare altmetric other API
+  slug: open-figshare-other-api
+- collection_type: open
+  name: Figshare altmetric profiles API
+  slug: open-figshare-profiles-api
+- collection_type: open
+  name: Figshare altmetric projects API
+  slug: open-figshare-projects-api
+- collection_type: open
+  name: Figshare altmetric symplectic API
+  slug: open-figshare-symplectic-api
 common:
 - group: build
   title: ''
@@ -271,7 +304,7 @@ plans:
 - name: Figshare Plans Pricing
   plan_count: 8
   slug: figshare-plans-pricing
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 3
   name: Figshare Rate Limits
@@ -310,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/screenshots/figshare-2026-06-20T181159.png
 security:

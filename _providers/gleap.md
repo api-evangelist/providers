@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 0
@@ -138,7 +138,110 @@ apis:
 - description: The User API from Gleap — 11 operation(s) for user.
   name: Gleap User API
   slug: gleap-user-api
-artifact_total: 72
+artifact_total: 106
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gleap AI content API
+  slug: open-gleap-ai-content-api
+- collection_type: open
+  name: Gleap AI content AiModels API
+  slug: open-gleap-aimodels-api
+- collection_type: open
+  name: Gleap AI content Code API
+  slug: open-gleap-code-api
+- collection_type: open
+  name: Gleap AI content ContactMemory API
+  slug: open-gleap-contactmemory-api
+- collection_type: open
+  name: Gleap AI content Custom components API
+  slug: open-gleap-custom-components-api
+- collection_type: open
+  name: Gleap AI content Engagement API
+  slug: open-gleap-engagement-api
+- collection_type: open
+  name: Gleap AI content Engagement Banner API
+  slug: open-gleap-engagement-banner-api
+- collection_type: open
+  name: Gleap AI content Engagement Chat Message API
+  slug: open-gleap-engagement-chat-message-api
+- collection_type: open
+  name: Gleap AI content Engagement Checklist API
+  slug: open-gleap-engagement-checklist-api
+- collection_type: open
+  name: Gleap AI content Engagement Cobrowse API
+  slug: open-gleap-engagement-cobrowse-api
+- collection_type: open
+  name: Gleap AI content Engagement Email API
+  slug: open-gleap-engagement-email-api
+- collection_type: open
+  name: Gleap AI content Engagement Modal API
+  slug: open-gleap-engagement-modal-api
+- collection_type: open
+  name: Gleap AI content Engagement News API
+  slug: open-gleap-engagement-news-api
+- collection_type: open
+  name: Gleap AI content Engagement Product Tour API
+  slug: open-gleap-engagement-product-tour-api
+- collection_type: open
+  name: Gleap AI content Engagement Push Notification API
+  slug: open-gleap-engagement-push-notification-api
+- collection_type: open
+  name: Gleap AI content Engagement Survey API
+  slug: open-gleap-engagement-survey-api
+- collection_type: open
+  name: Gleap AI content Engagement Tooltip API
+  slug: open-gleap-engagement-tooltip-api
+- collection_type: open
+  name: Gleap AI content Engagement Whatsapp Messages API
+  slug: open-gleap-engagement-whatsapp-messages-api
+- collection_type: open
+  name: Gleap AI content Help center API
+  slug: open-gleap-help-center-api
+- collection_type: open
+  name: Gleap AI content Help center articles API
+  slug: open-gleap-help-center-articles-api
+- collection_type: open
+  name: Gleap AI content Help center collections API
+  slug: open-gleap-help-center-collections-api
+- collection_type: open
+  name: Gleap AI content Help center redirects API
+  slug: open-gleap-help-center-redirects-api
+- collection_type: open
+  name: Gleap AI content Invitation API
+  slug: open-gleap-invitation-api
+- collection_type: open
+  name: Gleap AI content Knowledge API
+  slug: open-gleap-knowledge-api
+- collection_type: open
+  name: Gleap AI content Message templates API
+  slug: open-gleap-message-templates-api
+- collection_type: open
+  name: Gleap AI content Messages API
+  slug: open-gleap-messages-api
+- collection_type: open
+  name: Gleap AI content Project API
+  slug: open-gleap-project-api
+- collection_type: open
+  name: Gleap AI content Session API
+  slug: open-gleap-session-api
+- collection_type: open
+  name: Gleap AI content Statistics API
+  slug: open-gleap-statistics-api
+- collection_type: open
+  name: Gleap AI content Team API
+  slug: open-gleap-team-api
+- collection_type: open
+  name: Gleap AI content Ticket API
+  slug: open-gleap-ticket-api
+- collection_type: open
+  name: Gleap AI content Translations API
+  slug: open-gleap-translations-api
+- collection_type: open
+  name: Gleap AI content User API
+  slug: open-gleap-user-api
 common:
 - group: agent
   title: ''
@@ -319,7 +422,7 @@ plans:
 - name: Gleap Plans Pricing
   plan_count: 4
   slug: gleap-plans-pricing
-random_paper: 41
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Gleap Rate Limits
@@ -353,7 +456,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/screenshots/gleap-2026-06-20T181906.png
 security:

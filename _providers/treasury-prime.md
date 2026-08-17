@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -72,8 +72,38 @@ apis:
 - description: The Webhooks API from Treasury Prime — 2 operation(s) for webhooks.
   name: Treasury Prime Webhooks API
   slug: treasury-prime-webhooks-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Treasury Prime Bank Accounts API
+  slug: open-treasury-prime-accounts-api
+- collection_type: open
+  name: Treasury Prime Bank Accounts Businesses API
+  slug: open-treasury-prime-businesses-api
+- collection_type: open
+  name: Treasury Prime Bank Accounts Cards API
+  slug: open-treasury-prime-cards-api
+- collection_type: open
+  name: Treasury Prime Bank Accounts Health API
+  slug: open-treasury-prime-health-api
+- collection_type: open
+  name: Treasury Prime Bank Accounts Payments API
+  slug: open-treasury-prime-payments-api
+- collection_type: open
+  name: Treasury Prime Bank Accounts Persons API
+  slug: open-treasury-prime-persons-api
+- collection_type: open
+  name: Treasury Prime Bank Accounts Statements API
+  slug: open-treasury-prime-statements-api
+- collection_type: open
+  name: Treasury Prime Bank Accounts Transactions API
+  slug: open-treasury-prime-transactions-api
+- collection_type: open
+  name: Treasury Prime Bank Accounts Webhooks API
+  slug: open-treasury-prime-webhooks-api
 - collection_type: open
   name: Treasury Prime Bank API
   slug: open-treasury-prime
@@ -162,7 +192,7 @@ plans:
 - name: Treasury Prime Plans Pricing
   plan_count: 2
   slug: treasury-prime-plans-pricing
-random_paper: 41
+random_paper: 140
 rate_limits:
 - limit_count: 1
   name: Treasury Prime Rate Limits
@@ -193,7 +223,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/screenshots/treasury-prime-2026-06-20T195641.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 25
 apis:
 - description: The Asset Categories API from BanQu — 2 operation(s) for asset categories.
@@ -96,11 +96,90 @@ apis:
 - description: Automation workflows for custom validations on any write API actions
   name: BanQu Validation Workflows API
   slug: banqu-validation-workflows-api
-artifact_total: 29
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Banqu Webhooks
   slug: banqu-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BanQu Asset Categories API
+  slug: open-banqu-asset-categories-api
+- collection_type: open
+  name: BanQu Asset Sharing API
+  slug: open-banqu-asset-sharing-api
+- collection_type: open
+  name: BanQu Asset Transactions API
+  slug: open-banqu-asset-transactions-api
+- collection_type: open
+  name: BanQu Asset Transfer Claiming API
+  slug: open-banqu-asset-transfer-claiming-api
+- collection_type: open
+  name: BanQu Asset Transfers API
+  slug: open-banqu-asset-transfers-api
+- collection_type: open
+  name: BanQu Asset Transformations API
+  slug: open-banqu-asset-transformations-api
+- collection_type: open
+  name: BanQu Assets API
+  slug: open-banqu-assets-api
+- collection_type: open
+  name: BanQu Attachments API
+  slug: open-banqu-attachments-api
+- collection_type: open
+  name: BanQu Authentication API
+  slug: open-banqu-authentication-api
+- collection_type: open
+  name: BanQu Connections API
+  slug: open-banqu-connections-api
+- collection_type: open
+  name: BanQu Data Processors API
+  slug: open-banqu-data-processors-api
+- collection_type: open
+  name: BanQu Form Data Entries API
+  slug: open-banqu-form-data-entries-api
+- collection_type: open
+  name: BanQu Forms API
+  slug: open-banqu-forms-api
+- collection_type: open
+  name: BanQu Notifications API
+  slug: open-banqu-notifications-api
+- collection_type: open
+  name: BanQu Organization Associates API
+  slug: open-banqu-organization-associates-api
+- collection_type: open
+  name: BanQu Organization Features API
+  slug: open-banqu-organization-features-api
+- collection_type: open
+  name: BanQu Organization Roles API
+  slug: open-banqu-organization-roles-api
+- collection_type: open
+  name: BanQu Organizations API
+  slug: open-banqu-organizations-api
+- collection_type: open
+  name: BanQu Payment Adjustments API
+  slug: open-banqu-payment-adjustments-api
+- collection_type: open
+  name: BanQu Public Profiles API
+  slug: open-banqu-public-profiles-api
+- collection_type: open
+  name: BanQu Smart Contracts API
+  slug: open-banqu-smart-contracts-api
+- collection_type: open
+  name: BanQu Tutorials API
+  slug: open-banqu-tutorials-api
+- collection_type: open
+  name: BanQu User Profile API
+  slug: open-banqu-user-profile-api
+- collection_type: open
+  name: BanQu User Profile Sharing API
+  slug: open-banqu-user-profile-sharing-api
+- collection_type: open
+  name: BanQu Validation Workflows API
+  slug: open-banqu-validation-workflows-api
 common:
 - group: agent
   title: ''
@@ -210,7 +289,7 @@ overview: 'BanQu publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   BanQu''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 55
+random_paper: 88
 score:
   band: thin
   composite: 36.5
@@ -233,7 +312,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/screenshots/banqu-2026-08-07T162129.png
 security:

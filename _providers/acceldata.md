@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -82,11 +82,35 @@ arazzos:
 - description: Resolve a dataset, pull its open alerts, and acknowledge the most severe one.
   name: Acceldata Triage Dataset Alerts
   slug: acceldata-triage-dataset-alerts-workflow
-artifact_total: 91
+artifact_total: 99
 collections:
 - collection_type: postman
   name: Acceldata - Data Observability Cloud API
   slug: postman-acceldata-adoc-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Acceldata - Data Observability Cloud Alerts API
+  slug: open-acceldata-alerts-api
+- collection_type: open
+  name: Acceldata - Data Observability Cloud Alerts Data Quality Rules API
+  slug: open-acceldata-data-quality-rules-api
+- collection_type: open
+  name: Acceldata - Data Observability Cloud Alerts Datasets API
+  slug: open-acceldata-datasets-api
+- collection_type: open
+  name: Acceldata - Data Observability Cloud Alerts Lineage API
+  slug: open-acceldata-lineage-api
+- collection_type: open
+  name: Acceldata - Data Observability Cloud Alerts Pipeline Jobs API
+  slug: open-acceldata-pipeline-jobs-api
+- collection_type: open
+  name: Acceldata - Data Observability Cloud Alerts Roles API
+  slug: open-acceldata-roles-api
+- collection_type: open
+  name: Acceldata - Data Observability Cloud Alerts Users API
+  slug: open-acceldata-users-api
 common:
 - group: agent
   title: ''
@@ -395,7 +419,7 @@ plans:
 - name: Acceldata Plans Pricing
   plan_count: 3
   slug: acceldata-plans-pricing
-random_paper: 74
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Acceldata Rate Limits
@@ -437,7 +461,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/screenshots/acceldata-2026-06-20T163543.png
 security:

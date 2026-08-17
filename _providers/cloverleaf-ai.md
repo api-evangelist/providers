@@ -9,27 +9,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: A remote, OAuth-protected Model Context Protocol server that exposes Cloverleaf AI's government meeting intelligence to AI agents and assistants. Found by host discovery (mcp.cloverleaf.ai) rather tha
+  name: Cloverleaf AI MCP Server
+  slug: cloverleaf-ai-mcp-server
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -83,47 +87,120 @@ common:
   title: ''
   type: WellKnown
   url: well-known/cloverleaf-ai-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/cloverleaf-ai-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cloverleaf-ai-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/cloverleaf-ai-scopes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cloverleaf-ai-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cloverleaf.ai/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cloverleaf-ai-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cloverleaf-ai-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cloverleaf-ai-conventions.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cloverleaf-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloverleaf-ai-rate-limits.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://app.cloverleaf.ai/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cloverleaf.ai/feed/
 created: '2026-07-17'
-description: Cloverleaf AI is a business-to-government (B2G) sales intelligence platform, headquartered in Denver, Colorado, that monitors 45,000+ government organizations across federal, state, local, and education (SLED) agencies and turns 1.5 million public government meetings into pre-RFP buying signals. It analyzes committee meetings, budget discussions, and procurement activity, applies custom speech-to-text and speaker "vocal fingerprinting" (70,000+ verified speakers) to attribute officials' positions, and delivers a prioritized, territory-specific daily brief to each seller, synced to Salesforce, so government contractors reach buyers before the RFP is published. Products include the Opportunity Database and Vocal Fingerprinting. Cloverleaf AI is Techstars-backed and raised seed funding led by Jackson Square Ventures. No public developer API or documentation is currently published; the platform is delivered as a SaaS product with a Salesforce integration and a demo-request sales
-  motion.
+description: Cloverleaf AI is a business-to-government (B2G) sales intelligence platform, headquartered in Denver, Colorado, that monitors 45,000+ government organizations across federal, state, local, and education (SLED) agencies and turns 1.5 million public government meetings into pre-RFP buying signals. It analyzes committee meetings, budget discussions, and procurement activity, applies custom speech-to-text and speaker "vocal fingerprinting" (70,000+ verified speakers) to attribute officials' positions, and delivers a prioritized, territory-specific daily brief to each seller, synced to Salesforce, so government contractors reach buyers before the RFP is published. Products include the Opportunity Database and Vocal Fingerprinting. Cloverleaf AI is Techstars-backed and raised seed funding led by Jackson Square Ventures. It publishes no REST API, OpenAPI, SDK or developer portal, but it does operate a remote, OAuth-protected Model Context Protocol (MCP) server at mcp.cloverleaf.ai
+  that exposes the platform to AI agents — an agent surface the company documents nowhere on its own site. The platform is otherwise delivered as a SaaS product with a Salesforce integration and a demo-request sales motion.
 image: https://www.cloverleaf.ai/wp-content/uploads/cloverleaf-logo.svg
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: cloverleaf-ai-mcp.yml
+  slug: cloverleaf-ai-mcpyml
+modified: '2026-08-14'
 name: Cloverleaf AI
 nav: Providers
 network: true
-overview: 'Cloverleaf AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, B2G, Sales Intelligence, and Public Sector.
+overview: 'Cloverleaf AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, B2G, Sales Intelligence, and Public Sector.
 
 
-  Cloverleaf AI''s developer surface includes signup flow, getting-started guide, support, and 10 more developer resources.'
-random_paper: 106
+  Cloverleaf AI''s developer surface includes signup flow, getting-started guide, support, authentication, and 21 more developer resources.'
+plans:
+- name: Cloverleaf Ai Plans Pricing
+  plan_count: 0
+  slug: cloverleaf-ai-plans-pricing
+random_paper: 114
+rate_limits:
+- limit_count: 0
+  name: Cloverleaf Ai Rate Limits
+  slug: cloverleaf-ai-rate-limits
+scopes:
+- name: Cloverleaf Ai Scopes
+  scope_count: 4
+  slug: cloverleaf-ai-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 19.9
-  delta: 0.0
+  band: thin
+  composite: 34.6
+  delta: 14.7
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 34.8
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 15.8
   previous_composite: 19.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 35.2
+    score: 74.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/screenshots/cloverleaf-ai-2026-07-25T205722.png
 security:
+- kind: authentication
+  name: Cloverleaf Ai Authentication
+  slug: cloverleaf-ai-authentication
+  summary_line: oauth2/openIdConnect · 2 schemes
 - kind: domain-security
   name: Cloverleaf Ai Domain Security
   slug: cloverleaf-ai-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Cloverleaf Ai Trust Center
+  slug: cloverleaf-ai-trust-center
+  summary_line: trust center published
 slug: cloverleaf-ai
 tags:
 - Company

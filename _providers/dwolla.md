@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 69.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ apis:
 - description: Dwolla API from Dwolla — 59 path(s) described in OpenAPI.
   name: Dwolla API
   slug: dwolla-openapi
-artifact_total: 44
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Dwolla Webhooks
@@ -155,6 +155,63 @@ collections:
 - collection_type: postman
   name: Dwolla API - Webhooks
   slug: postman-dwolla-webhooks
+- collection_type: open
+  name: Dwolla API - Accounts
+  slug: open-dwolla-accounts
+- collection_type: open
+  name: Dwolla API - Beneficial Owners
+  slug: open-dwolla-beneficial-owners
+- collection_type: open
+  name: Dwolla API - Client Tokens
+  slug: open-dwolla-client-tokens
+- collection_type: open
+  name: Dwolla API - Customers
+  slug: open-dwolla-customers
+- collection_type: open
+  name: Dwolla API - Documents
+  slug: open-dwolla-documents
+- collection_type: open
+  name: Dwolla API - Events
+  slug: open-dwolla-events
+- collection_type: open
+  name: Dwolla API - Exchange Sessions
+  slug: open-dwolla-exchange-sessions
+- collection_type: open
+  name: Dwolla API - Exchanges
+  slug: open-dwolla-exchanges
+- collection_type: open
+  name: Dwolla API - Funding Sources
+  slug: open-dwolla-funding-sources
+- collection_type: open
+  name: Dwolla API - Kba
+  slug: open-dwolla-kba
+- collection_type: open
+  name: Dwolla API - Labels
+  slug: open-dwolla-labels
+- collection_type: open
+  name: Dwolla API - Mass Payments
+  slug: open-dwolla-mass-payments
+- collection_type: open
+  name: Dwolla API - Root
+  slug: open-dwolla-root
+- collection_type: open
+  name: Dwolla API - Sandbox Simulations
+  slug: open-dwolla-sandbox-simulations
+- collection_type: open
+  name: Dwolla API - Tokens
+  slug: open-dwolla-tokens
+- collection_type: open
+  name: Dwolla API - Transfers
+  slug: open-dwolla-transfers
+- collection_type: open
+  name: Dwolla API - Webhook Subscriptions
+  slug: open-dwolla-webhook-subscriptions
+- collection_type: open
+  name: Dwolla API - Webhooks
+  slug: open-dwolla-webhooks
+- collection_type: open
+  name: Dwolla API
+  slug: open-dwolla
 common:
 - group: operate
   title: ''
@@ -367,7 +424,7 @@ overview: 'Dwolla publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 41 more developer resources.'
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Dwolla Rate Limits
@@ -401,7 +458,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png
 security:

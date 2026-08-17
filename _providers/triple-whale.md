@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-12'
+  score: 63.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 16
   slug: triple-whale-agentic-access
   summary_line: 16 operations · 15 acting
-api_count: 4
+api_count: 5
 apis:
 - description: The API Keys API from Triple Whale — 1 operation(s) for api keys.
   name: Triple Whale API Keys API
@@ -51,7 +51,10 @@ apis:
 - description: The Data Out API from Triple Whale — 4 operation(s) for data out.
   name: Triple Whale Data Out API
   slug: triple-whale-data-out-api
-artifact_total: 19
+- description: An unauthenticated e-commerce advertising benchmarks API from Triple Whale — aggregate CTR, CPM, CPC, ROAS and MER for Facebook, Google, TikTok, Snapchat and Pinterest, segmentable by shop industry, m
+  name: Triple Whale Benchmarks API
+  slug: triple-whale-benchmarks-api
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Triple Whale API Keys API
@@ -65,6 +68,21 @@ collections:
 - collection_type: postman
   name: Triple Whale API Keys Data Out API
   slug: postman-triple-whale-data-out-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Triple Whale API Keys API
+  slug: open-triple-whale-api-keys-api
+- collection_type: open
+  name: Triple Whale API Keys Compliance API
+  slug: open-triple-whale-compliance-api
+- collection_type: open
+  name: Triple Whale API Keys Data In API
+  slug: open-triple-whale-data-in-api
+- collection_type: open
+  name: Triple Whale API Keys Data Out API
+  slug: open-triple-whale-data-out-api
 common:
 - group: build
   title: ''
@@ -134,6 +152,126 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/triple-whale-context.jsonld
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.triplewhale.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://triplewhale.readme.io/reference/introduction-to-the-triple-whale-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://triplewhale.readme.io/reference/api-setup-guide-for-custom-sales-platform
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://kb.triplewhale.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.triplewhale.com/signup-free
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.triplewhale.com/pages/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.triplewhale.com/pages/privacy-notice
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Triple-Whale
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/Triple-Whale/triple-whale-public-apis
+- group: build
+  title: ''
+  type: Packages
+  url: packages/triple-whale-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/triple-whale-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/triple-whale-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/triple-whale-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/triple-whale-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/triple-whale-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/triple-whale-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/triple-whale-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/triple-whale-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/triple-whale-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/triple-whale-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/triple-whale-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/triple-whale-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/triple-whale-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.triplewhale.com/
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/triple-whale-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/triple-whale-api-keys-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/triple-whale-compliance-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/triple-whale-data-in-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/triple-whale-data-out-api-overlay.yaml
 created: '2026-06-13'
 description: E-commerce analytics and attribution platform for Shopify brands with a REST API for accessing pixel data, cohort analytics, creative metrics, and blended ROAS. Offers a two-way data highway with Data-In and Data-Out APIs supporting OAuth2 and API key authentication.
 finops:
@@ -154,22 +292,26 @@ jsonld:
   property_count: 37
   slug: triple-whale-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: triple-whale-mcp.yml
+  slug: triple-whale-mcpyml
+modified: '2026-08-13'
 name: Triple Whale
 nav: Providers
 network: true
-overview: 'Triple Whale publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Compliance API, Data In API, and 1 more. Tagged areas include E-commerce, Analytics, Attribution, Shopify, and Pixel Tracking.
+overview: 'Triple Whale publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Compliance API, Data In API, and 2 more. Tagged areas include E-commerce, Analytics, Attribution, Shopify, and Pixel Tracking.
 
 
   The Triple Whale catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Triple Whale''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Triple Whale''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, signup flow, and 40 more developer resources.'
 plans:
 - name: Triple Whale Plans Pricing
   plan_count: 4
   slug: triple-whale-plans-pricing
-random_paper: 30
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Triple Whale Rate Limits
@@ -183,17 +325,22 @@ rules:
     info: 1
     warn: 4
   slug: triple-whale-jsonschema-spectral-rules
+scopes:
+- name: Triple Whale Scopes
+  scope_count: 0
+  slug: triple-whale-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 56.7
-  delta: 0.0
+  band: exemplar
+  composite: 82.3
+  delta: 25.6
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 74.6
-    developer_ergonomics: 26.1
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 52.6
+    commercial_clarity: 100.0
+    contract_quality: 70.6
+    developer_ergonomics: 84.8
+    discoverability: 92.6
+    governance: 79.2
+    operational_transparency: 68.4
   previous_composite: 56.7
   provenance:
     agentic_access: derived
@@ -203,14 +350,14 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
 security:
 - kind: authentication
   name: Triple Whale Authentication
   slug: triple-whale-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Triple Whale Domain Security
   slug: triple-whale-domain-security

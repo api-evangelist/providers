@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Payform is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Payform''s developer surface includes signup flow, pricing, documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 46
+random_paper: 21
 score:
   band: emerging
   composite: 19.2
@@ -111,7 +111,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payform/refs/heads/main/screenshots/payform-2026-08-07T191633.png
 security:

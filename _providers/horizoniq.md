@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -65,7 +65,38 @@ apis:
 - description: Enpionts related to user accounts
   name: HorizonIQ User Accounts API
   slug: horizoniq-user-accounts-api
-artifact_total: 14
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Compass Action Items API
+  slug: open-horizoniq-action-items-api
+- collection_type: open
+  name: Compass Action Items Billing API
+  slug: open-horizoniq-billing-api
+- collection_type: open
+  name: Compass Action Items Devices API
+  slug: open-horizoniq-devices-api
+- collection_type: open
+  name: Compass Action Items Images API
+  slug: open-horizoniq-images-api
+- collection_type: open
+  name: Compass Action Items Managed Firewalls API
+  slug: open-horizoniq-managed-firewalls-api
+- collection_type: open
+  name: Compass Action Items Servers API
+  slug: open-horizoniq-servers-api
+- collection_type: open
+  name: Compass Action Items SSL Certificates API
+  slug: open-horizoniq-ssl-certificates-api
+- collection_type: open
+  name: Compass Action Items Support API
+  slug: open-horizoniq-support-api
+- collection_type: open
+  name: Compass Action Items User Accounts API
+  slug: open-horizoniq-user-accounts-api
 common:
 - group: start
   title: ''
@@ -195,7 +226,7 @@ overview: 'HorizonIQ publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   HorizonIQ''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 35
+random_paper: 101
 score:
   band: developing
   composite: 47.1
@@ -219,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/screenshots/horizoniq-2026-07-25T221431.png
 security:

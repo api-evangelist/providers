@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -81,8 +81,38 @@ apis:
 - description: Worksheet operations
   name: Microsoft Excel (Advanced) Worksheets API
   slug: microsoft-excel-advanced-worksheets-api
-artifact_total: 23
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Excel Charts API
+  slug: open-microsoft-excel-advanced-charts-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Functions API
+  slug: open-microsoft-excel-advanced-functions-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts NamedItems API
+  slug: open-microsoft-excel-advanced-nameditems-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Range API
+  slug: open-microsoft-excel-advanced-range-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Sessions API
+  slug: open-microsoft-excel-advanced-sessions-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts TableColumns API
+  slug: open-microsoft-excel-advanced-tablecolumns-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts TableRows API
+  slug: open-microsoft-excel-advanced-tablerows-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Tables API
+  slug: open-microsoft-excel-advanced-tables-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Worksheets API
+  slug: open-microsoft-excel-advanced-worksheets-api
 - collection_type: open
   name: Microsoft Graph Excel API
   slug: open-microsoft-excel-advanced
@@ -151,7 +181,7 @@ plans:
 - name: Microsoft Excel Advanced Plans Pricing
   plan_count: 3
   slug: microsoft-excel-advanced-plans-pricing
-random_paper: 23
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Microsoft Excel Advanced Rate Limits
@@ -181,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/screenshots/microsoft-excel-advanced-2026-06-20T185500.png
 security:

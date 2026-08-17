@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -57,11 +57,33 @@ apis:
 - description: We support generating a Quote for a potential Order as well as confirming that Quote to place an Order.
   name: Airspace Technologies Quotes API
   slug: airspace-technologies-quotes-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Airspace Technologies Webhooks
   slug: airspace-technologies-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airspace API Documentation Address Books API
+  slug: open-airspace-technologies-address-books-api
+- collection_type: open
+  name: Airspace API Documentation Address Books Invoices API
+  slug: open-airspace-technologies-invoices-api
+- collection_type: open
+  name: Airspace API Documentation Address Books Labels API
+  slug: open-airspace-technologies-labels-api
+- collection_type: open
+  name: Airspace API Documentation Address Books Orders API
+  slug: open-airspace-technologies-orders-api
+- collection_type: open
+  name: Airspace API Documentation Address Books Piece Libraries API
+  slug: open-airspace-technologies-piece-libraries-api
+- collection_type: open
+  name: Airspace API Documentation Address Books Quotes API
+  slug: open-airspace-technologies-quotes-api
 common:
 - group: other
   title: ''
@@ -186,7 +208,7 @@ overview: 'Airspace Technologies publishes 6 APIs on the [APIs.io](https://apis.
 
 
   Airspace Technologies'' developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 9
+random_paper: 83
 score:
   band: developing
   composite: 51.9
@@ -210,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/screenshots/airspace-technologies-2026-07-25T195443.png
 security:

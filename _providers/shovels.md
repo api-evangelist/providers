@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Permits API from Shovels — 2 operation(s) for permits.
   name: Shovels Permits API
   slug: shovels-permits-api
-artifact_total: 22
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shovels Addresses API
+  slug: open-shovels-addresses-api
+- collection_type: open
+  name: Shovels Addresses Contractors API
+  slug: open-shovels-contractors-api
+- collection_type: open
+  name: Shovels Addresses Geography API
+  slug: open-shovels-geography-api
+- collection_type: open
+  name: Shovels Addresses Lists API
+  slug: open-shovels-lists-api
+- collection_type: open
+  name: Shovels Addresses Meta API
+  slug: open-shovels-meta-api
+- collection_type: open
+  name: Shovels Addresses Permits API
+  slug: open-shovels-permits-api
 - collection_type: open
   name: Shovels API
   slug: open-shovels
@@ -137,7 +158,7 @@ plans:
 - name: Shovels Plans Pricing
   plan_count: 3
   slug: shovels-plans-pricing
-random_paper: 52
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Shovels Rate Limits
@@ -179,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/screenshots/shovels-2026-06-20T193844.png
 security:

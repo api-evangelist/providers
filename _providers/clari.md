@@ -12,9 +12,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +23,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-12'
+  score: 59.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -37,11 +38,14 @@ agentic_access:
   operation_count: 15
   slug: clari-agentic-access
   summary_line: 15 operations · 7 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 11
 apis:
-- description: The Clari Copilot API provides access to conversation intelligence features including call recordings, AI-generated summaries, coaching insights, deal intelligence, and competitor tracking signals cap
+- description: The Clari Copilot API provides access to conversation intelligence features including call recordings, transcripts, AI-generated summaries and action items, coaching scorecards, competitor sentiment s
   name: Clari Copilot API
   slug: clari-copilot-api
+- description: 'Clari''s first-party remote Model Context Protocol server. It exposes live Clari + Salesloft revenue context — accounts, deals, people, calls and conversation intelligence, cadences and activity, team '
+  name: Clari MCP Server
+  slug: clari-mcp-server
 - description: The Activity API API from Clari — 1 operation(s) for activity api.
   name: Clari Activity API API
   slug: clari-activity-api-api
@@ -69,7 +73,41 @@ apis:
 - description: The Opportunity API API from Clari — 1 operation(s) for opportunity api.
   name: Clari Opportunity API API
   slug: clari-opportunity-api-api
-artifact_total: 26
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clari API Reference Activity API API
+  slug: open-clari-activity-api-api
+- collection_type: open
+  name: Clari API Reference Activity API Administrative API API
+  slug: open-clari-administrative-api-api
+- collection_type: open
+  name: Clari API Reference Activity API Audit API API
+  slug: open-clari-audit-api-api
+- collection_type: open
+  name: Clari API Reference Activity API Bulk Export Framework API
+  slug: open-clari-bulk-export-framework-api
+- collection_type: open
+  name: Clari API Reference Activity API Bulk Ingest Job Status API API
+  slug: open-clari-bulk-ingest-job-status-api-api
+- collection_type: open
+  name: rest-api
+  slug: open-clari-copilot-api
+- collection_type: open
+  name: Clari API Reference Activity API Export API
+  slug: open-clari-export-api
+- collection_type: open
+  name: Clari API Reference Activity API Forecast API API
+  slug: open-clari-forecast-api-api
+- collection_type: open
+  name: Clari API Reference Activity API Ingestion API API
+  slug: open-clari-ingestion-api-api
+- collection_type: open
+  name: Clari API Reference Activity API Opportunity API API
+  slug: open-clari-opportunity-api-api
 common:
 - group: agent
   title: ''
@@ -135,6 +173,114 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/clari-vocabulary.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/clari-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/clari-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/clari-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/clari-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/clari-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/clari-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/clari-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/clari-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/clari-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/clari-trust-center.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/clari-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clari-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/clari-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.clari.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.clari.com/documentation/external_spec
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://community.clari.com/product-q-a-6/how-to-use-copilot-apis-2258
+- group: operate
+  title: ''
+  type: Support
+  url: https://clari.my.site.com/customer/s/get-support
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.clari.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.clari.com/privacy/
+- group: auth
+  title: ''
+  type: Security
+  url: security/clari-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/clari-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://www.clari.com/security/
+- group: auth
+  title: ''
+  type: SecurityAddendum
+  url: https://www.clari.com/security-addendum/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@clarihq
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.clari.com/careers/
+- group: company
+  title: ''
+  type: Press
+  url: https://www.clari.com/press/
 - group: design
   title: ''
   type: JSONLDContext
@@ -144,7 +290,8 @@ common:
   type: BlogPosts
   url: blogs/blogs.json
 created: '2026-06-13'
-description: Clari is a revenue operations platform that provides a REST API for accessing pipeline data, forecasts, opportunity signals, activity intelligence, and CRM-enriched deal insights. The API enables revenue teams to programmatically export forecast submissions, query activity data (meetings, emails, attachments), and ingest custom entity data into the Clari platform. Clari also offers a Copilot API for accessing conversation intelligence data including call recordings, AI summaries, and coaching insights. The platform serves enterprise B2B organizations with tools to improve forecast accuracy, accelerate pipeline execution, and unify revenue operations across sales, marketing, and customer success teams.
+description: Clari is an enterprise revenue orchestration platform that publishes three machine surfaces. The Clari Revenue API v5 (api.clari.com/v4) is an asynchronous, job-based export and ingest surface — queue a forecast, activity or audit export, poll until the job reads DONE, then download the results — plus a partner Ingestion API for pushing third-party data into Clari accounts and opportunities. The Clari Copilot REST API (rest-api.copilot.clari.com) is a synchronous conversation-intelligence and CRM surface covering calls, transcripts, AI summaries, action items, competitor sentiment, coaching scorecards, and CRUD over accounts, contacts and deals keyed on the customer's own CRM id. Clari also runs a first-party remote MCP server at mcp.clari.com/mcp, OAuth protected via Okta and listed natively in the Claude connector directory, which exposes live Clari + Salesloft revenue context to AI agents. Both HTTP APIs authenticate with header API keys, support no idempotency keys, and
+  return no rate-limit headers.
 examples:
 - key_count: 3
   name: Clari Activity Export Example
@@ -160,7 +307,7 @@ finops:
   service_category: ''
   slug: clari-finops
 graphqls:
-- description: This document describes a conceptual GraphQL schema for the Clari revenue operations platform. Clari provides programmatic access to pipeline data, forecasts, opportunity signals, activity intelligenc
+- description: '> **NOT PUBLISHED BY CLARI — DO NOT WIRE THIS AS AN API.**'
   name: Clari GraphQL Schema
   slug: clari-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clari.png
@@ -180,24 +327,28 @@ jsonld:
   property_count: 6
   slug: clari-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: clari-mcp.yml
+  slug: clari-mcpyml
+modified: '2026-08-13'
 name: Clari
 nav: Providers
 network: true
-overview: 'Clari publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Activity API API, Administrative API API, Audit API API, and 6 more. Tagged areas include Revenue Operations, Forecasting, Pipeline Management, Sales Intelligence, and Activity Intelligence.
+overview: 'Clari publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Copilot API, Activity API API, Administrative API API, and 7 more. Tagged areas include Revenue Operations, Forecasting, Pipeline Management, Sales Intelligence, and Activity Intelligence.
 
 
   The Clari catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clari''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  Clari''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Clari Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: clari-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
-- limit_count: 6
+- limit_count: 5
   name: Clari Rate Limits
   slug: clari-rate-limits
 rules:
@@ -209,17 +360,22 @@ rules:
     info: 2
     warn: 3
   slug: clari-jsonschema-spectral-rules
+scopes:
+- name: Clari Scopes
+  scope_count: 0
+  slug: clari-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: exemplar
+  composite: 71.0
+  delta: 13.1
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 78.0
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    commercial_clarity: 44.7
+    contract_quality: 77.7
+    developer_ergonomics: 67.4
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 78.9
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -229,22 +385,26 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/screenshots/clari-2026-06-20T174439.png
 security:
 - kind: authentication
   name: Clari Authentication
   slug: clari-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 3 schemes
 - kind: domain-security
   name: Clari Domain Security
   slug: clari-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Clari Vulnerability Disclosure
+  slug: clari-vulnerability-disclosure
+  summary_line: disclosure policy published
 - kind: trust-center
   name: Clari Trust Center
   slug: clari-trust-center
-  summary_line: SOC 2, ISO 27001, GDPR
+  summary_line: ISO/IEC 27001, ISO/IEC 27701, SOC 2 Type II, CSA, ADA, GDPR
 slug: clari
 tags:
 - Revenue Operations
@@ -257,5 +417,10 @@ tags:
 - Conversation Intelligence
 - B2B
 - Enterprise
+- MCP
+- Agents
+- Sales Engagement
+- Bulk Export
+- Data Ingestion
 website: https://www.clari.com/
 ---

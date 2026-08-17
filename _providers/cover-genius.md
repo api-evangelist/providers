@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: The Offers API from Cover Genius — 2 operation(s) for offers.
   name: Cover Genius Offers API
   slug: cover-genius-offers-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cover Genius XCover Bookings API
+  slug: open-cover-genius-bookings-api
+- collection_type: open
+  name: Cover Genius XCover Bookings Offers API
+  slug: open-cover-genius-offers-api
 - collection_type: open
   name: Cover Genius XCover API
   slug: open-cover-genius
@@ -114,7 +123,7 @@ plans:
 - name: Cover Genius Plans Pricing
   plan_count: 1
   slug: cover-genius-plans-pricing
-random_paper: 39
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Cover Genius Rate Limits
@@ -145,7 +154,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/screenshots/cover-genius-2026-06-20T175139.png
 security:

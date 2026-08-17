@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,26 +60,50 @@ apis:
 - description: API endpoints for parsing user agent strings into browser, device, layout engine, and operating system details. Supports single lookups via request header, custom string lookups via JSON body, and bul
   name: IPGeolocation.io User Agent API
   slug: ipgeolocation-user-agent-api
-artifact_total: 169
+artifact_total: 177
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: 'IPGeolocation.io: Abuse Contact API'
   slug: open-ipgeolocation-abuse
 - collection_type: open
+  name: 'IPGeolocation.io: Abuse Contact ASN Lookup API'
+  slug: open-ipgeolocation-asn-lookup-api
+- collection_type: open
   name: 'IPGeolocation.io: ASN Lookup API'
   slug: open-ipgeolocation-asn
+- collection_type: open
+  name: 'IPGeolocation.io: Abuse Contact ASN Lookup Astronomy API'
+  slug: open-ipgeolocation-astronomy-api
 - collection_type: open
   name: 'IPGeolocation.io: Astronomy API'
   slug: open-ipgeolocation-astronomy
 - collection_type: open
+  name: 'IPGeolocation.io: Abuse Contact ASN Lookup IP Abuse Contact API'
+  slug: open-ipgeolocation-ip-abuse-contact-api
+- collection_type: open
+  name: 'IPGeolocation.io: Abuse Contact ASN Lookup IP Geolocation API'
+  slug: open-ipgeolocation-ip-geolocation-api
+- collection_type: open
   name: 'IPGeolocation.io: IPGeolocation API'
   slug: open-ipgeolocation-ip-location
+- collection_type: open
+  name: 'IPGeolocation.io: Abuse Contact ASN Lookup IP Security API'
+  slug: open-ipgeolocation-ip-security-api
 - collection_type: open
   name: 'IPGeolocation.io: IP Security API'
   slug: open-ipgeolocation-security
 - collection_type: open
+  name: 'IPGeolocation.io: Abuse Contact ASN Lookup Timezone API'
+  slug: open-ipgeolocation-timezone-api
+- collection_type: open
   name: 'IPGeolocation.io: Date, Time & Timezone API'
   slug: open-ipgeolocation-timezone
+- collection_type: open
+  name: 'IPGeolocation.io: Abuse Contact ASN Lookup User Agent API'
+  slug: open-ipgeolocation-user-agent-api
 - collection_type: open
   name: 'IPGeolocation.io: User Agent API'
   slug: open-ipgeolocation-user-agent
@@ -668,7 +692,7 @@ plans:
 - name: Ipgeolocation Plans Pricing
   plan_count: 10
   slug: ipgeolocation-plans-pricing
-random_paper: 69
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: Ipgeolocation Rate Limits
@@ -710,7 +734,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/screenshots/ipgeolocation-2026-06-20T183555.png
 security:

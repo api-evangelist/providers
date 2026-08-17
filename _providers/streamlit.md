@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,11 +51,23 @@ apis:
 - description: Manage Streamlit Community Cloud workspaces and their settings.
   name: Streamlit Workspaces API
   slug: streamlit-workspaces-api
-artifact_total: 19
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Streamlit Community Cloud Apps API
+  slug: open-streamlit-apps-api
 - collection_type: open
   name: Streamlit Community Cloud API
   slug: open-streamlit-cloud
+- collection_type: open
+  name: Streamlit Community Cloud Apps Secrets API
+  slug: open-streamlit-secrets-api
+- collection_type: open
+  name: Streamlit Community Cloud Apps Workspaces API
+  slug: open-streamlit-workspaces-api
 common:
 - group: agent
   title: ''
@@ -180,7 +192,7 @@ plans:
 - name: Streamlit Plans Pricing
   plan_count: 3
   slug: streamlit-plans-pricing
-random_paper: 21
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Streamlit Rate Limits
@@ -222,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/screenshots/streamlit-2026-06-20T194618.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Duck.ai is DuckDuckGo's anonymizing proxy in front of third-party LLMs. Free tier currently includes Anthropic Claude 4.5 Haiku, Meta Llama 4 Scout, Mistral Small 3 24B, OpenAI GPT-4o mini / GPT-5 min
@@ -46,7 +46,17 @@ apis:
 - description: Zero-click answers, abstracts, definitions and disambiguations.
   name: DuckDuckGo Instant Answers API
   slug: duckduckgo-instant-answers-api
-artifact_total: 20
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DuckDuckGo Instant Answer Bangs API
+  slug: open-duckduckgo-bangs-api
+- collection_type: open
+  name: DuckDuckGo Instant Answer Instant Answers API
+  slug: open-duckduckgo-instant-answers-api
 common:
 - group: operate
   title: ''
@@ -184,7 +194,7 @@ plans:
 - name: Duckduckgo Plans Pricing
   plan_count: 6
   slug: duckduckgo-plans-pricing
-random_paper: 100
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Duckduckgo Rate Limits
@@ -225,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duckduckgo/refs/heads/main/screenshots/duckduckgo-2026-06-20T180307.png
 security:

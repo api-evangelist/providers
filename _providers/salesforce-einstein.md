@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -90,14 +90,44 @@ apis:
 - description: Manage Einstein Discovery stories
   name: Salesforce Einstein Stories API
   slug: salesforce-einstein-stories-api
-artifact_total: 96
+artifact_total: 114
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights API
+  slug: open-salesforce-einstein-ai-record-insights-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights API Usage API
+  slug: open-salesforce-einstein-api-usage-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Bot Definitions API
+  slug: open-salesforce-einstein-bot-definitions-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Bot Versions API
+  slug: open-salesforce-einstein-bot-versions-api
 - collection_type: open
   name: Salesforce Einstein Bots API
   slug: open-salesforce-einstein-bots
 - collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Dashboards API
+  slug: open-salesforce-einstein-dashboards-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Datasets API
+  slug: open-salesforce-einstein-datasets-api
+- collection_type: open
   name: Salesforce Einstein Discovery API
   slug: open-salesforce-einstein-discovery
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Examples API
+  slug: open-salesforce-einstein-examples-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Feedback API
+  slug: open-salesforce-einstein-feedback-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Generations API
+  slug: open-salesforce-einstein-generations-api
 - collection_type: open
   name: Salesforce Einstein GPT API
   slug: open-salesforce-einstein-gpt
@@ -105,8 +135,32 @@ collections:
   name: Salesforce Einstein Language API
   slug: open-salesforce-einstein-language
 - collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Lenses API
+  slug: open-salesforce-einstein-lenses-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Messages API
+  slug: open-salesforce-einstein-messages-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Models API
+  slug: open-salesforce-einstein-models-api
+- collection_type: open
   name: Salesforce Einstein Prediction Builder API
   slug: open-salesforce-einstein-prediction-builder
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Prediction Definitions API
+  slug: open-salesforce-einstein-prediction-definitions-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Predictions API
+  slug: open-salesforce-einstein-predictions-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Prompt Templates API
+  slug: open-salesforce-einstein-prompt-templates-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Sessions API
+  slug: open-salesforce-einstein-sessions-api
+- collection_type: open
+  name: Salesforce Einstein Bots AI Record Insights Stories API
+  slug: open-salesforce-einstein-stories-api
 - collection_type: open
   name: Salesforce Einstein Vision API
   slug: open-salesforce-einstein-vision
@@ -427,7 +481,7 @@ plans:
 - name: Salesforce Einstein Plans Pricing
   plan_count: 1
   slug: salesforce-einstein-plans-pricing
-random_paper: 51
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Salesforce Einstein Rate Limits
@@ -474,7 +528,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/screenshots/salesforce-einstein-2026-06-20T193344.png
 security:

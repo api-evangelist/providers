@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: The Hello API from HTTPie — 1 operation(s) for hello.
   name: HTTPie Hello API
   slug: httpie-hello-api
-artifact_total: 13
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HTTPie App API
+  slug: open-httpie-app-api
+- collection_type: open
+  name: HTTPie App Hello API
+  slug: open-httpie-hello-api
 - collection_type: open
   name: HTTPie API
   slug: open-httpie-httpie
@@ -124,7 +133,7 @@ plans:
 - name: Httpie Plans Pricing
   plan_count: 3
   slug: httpie-plans-pricing
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Httpie Rate Limits
@@ -158,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/screenshots/httpie-2026-06-20T182915.png
 security:

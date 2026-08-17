@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,16 +19,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
-    idempotency: false
+    event_surface_described: true
+    idempotency: documented
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-12'
+  score: 47.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 10
   slug: shopmy-agentic-access
   summary_line: 10 operations · 6 acting
-api_count: 6
+api_count: 7
 apis:
 - description: Search the ShopMy catalog and resolve/rate product URLs (OAuth).
   name: ShopMy Catalog API
@@ -56,7 +56,36 @@ apis:
 - description: Read the authenticated user's public ShopMy profile (OAuth).
   name: ShopMy Profile API
   slug: shopmy-profile-api
-artifact_total: 11
+- description: Server-to-server affiliate tracking routes a brand calls to report completed orders to ShopMy for creator commission attribution, and to keep those commissions accurate through returns, edits and canc
+  name: ShopMy Tracking API
+  slug: shopmy-tracking-api
+artifact_total: 22
+asyncapis:
+- description: ''
+  name: Shopmy Tracking Events
+  slug: shopmy-tracking-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ShopMy Partners Catalog API
+  slug: open-shopmy-catalog-api
+- collection_type: open
+  name: ShopMy Partners Catalog Collections API
+  slug: open-shopmy-collections-api
+- collection_type: open
+  name: ShopMy Partners Catalog Links API
+  slug: open-shopmy-links-api
+- collection_type: open
+  name: ShopMy Partners Catalog OAuth API
+  slug: open-shopmy-oauth-api
+- collection_type: open
+  name: ShopMy Partners Catalog Order Reporting API
+  slug: open-shopmy-order-reporting-api
+- collection_type: open
+  name: ShopMy Partners Catalog Profile API
+  slug: open-shopmy-profile-api
 common:
 - group: other
   title: ''
@@ -94,6 +123,34 @@ common:
   title: ''
   type: ErrorCatalog
   url: errors/shopmy-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/shopmy-outcome-codes.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/shopmy-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/shopmy-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/shopmy-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/shopmy-packages.yml
+- group: other
+  title: ''
+  type: EventCatalog
+  url: asyncapi/shopmy-tracking-events.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.shopmy.us/reference/privacy-and-data-handling
 - group: design
   title: ''
   type: Lifecycle
@@ -162,15 +219,26 @@ mcp_servers:
 - description: ''
   name: shopmy-mcp.yml
   slug: shopmy-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: ShopMy
 nav: Providers
 network: true
 overview: 'ShopMy publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Collections API, Links API, and 3 more. Tagged areas include Company, Commerce, Creator Economy, Creator Commerce, and Affiliate Marketing.
 
 
-  ShopMy''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, signup flow, and 17 more developer resources.'
-random_paper: 72
+  The ShopMy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  ShopMy''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, signup flow, and 24 more developer resources.'
+plans:
+- name: Shopmy Plans Pricing
+  plan_count: 0
+  slug: shopmy-plans-pricing
+random_paper: 76
+rate_limits:
+- limit_count: 2
+  name: Shopmy Rate Limits
+  slug: shopmy-rate-limits
 scopes:
 - name: Shopmy Scopes
   scope_count: 5
@@ -178,15 +246,15 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 51.1
+  delta: 6.6
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 62.7
+    commercial_clarity: 42.1
+    contract_quality: 71.6
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 0.0
+    operational_transparency: 21.1
   previous_composite: 44.5
   provenance:
     agentic_access: derived
@@ -199,8 +267,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Shopmy Authentication

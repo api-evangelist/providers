@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Attestation/proof-of-existence REST API. Client-side SHA-256 hashing, signed PDF certificates, RFC 3161 timestamps, OpenTimestamps/Bitcoin anchoring, verifiable certificate pages, and status telemetry
@@ -27,7 +27,11 @@ apis:
 - description: 'Hosted, zero-install MCP server (Streamable HTTP, protocol 2025-06-18) exposing the attestation service to MCP-capable agents. The eight tools were read live from tools/list on 2026-08-11: service_sta'
   name: imgauth Remote MCP Server
   slug: imgauth-remote-mcp-server
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: imgauth — API di attestazione opere digitali
+  slug: open-imgauth-api-di-attestazione-opere-digitali-openapi-original
 common:
 - group: auth
   title: ''
@@ -193,7 +197,7 @@ plans:
 - name: Imgauth Api Di Attestazione Opere Digitali Plans Pricing
   plan_count: 4
   slug: imgauth-api-di-attestazione-opere-digitali-plans-pricing
-random_paper: 100
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Imgauth Api Di Attestazione Opere Digitali Rate Limits
@@ -211,7 +215,7 @@ score:
     operational_transparency: 78.9
   previous_composite: 65.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

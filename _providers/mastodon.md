@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: This is an OpenAPI for the Mastodon API.
@@ -103,7 +103,7 @@ plans:
 - name: Mastodon Plans Pricing
   plan_count: 3
   slug: mastodon-plans-pricing
-random_paper: 29
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Mastodon Rate Limits
@@ -136,7 +136,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/heads/main/screenshots/mastodon-2026-06-20T185024.png
 security:

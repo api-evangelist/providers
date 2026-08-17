@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Policy Definitions operations
   name: Azure Policy Policy Definitions API
   slug: microsoft-azure-policy-policy-definitions-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Policy REST Operations API
+  slug: open-microsoft-azure-policy-operations-api
+- collection_type: open
+  name: Azure Policy REST Operations Policy Definitions API
+  slug: open-microsoft-azure-policy-policy-definitions-api
 - collection_type: open
   name: Azure Policy REST API
   slug: open-microsoft-azure-policy
@@ -131,7 +140,7 @@ plans:
 - name: Microsoft Azure Policy Plans Pricing
   plan_count: 3
   slug: microsoft-azure-policy-plans-pricing
-random_paper: 119
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Policy Rate Limits
@@ -167,7 +176,7 @@ score:
     regime_id: insurance
     score: 56.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/screenshots/microsoft-azure-policy-2026-06-20T185431.png
 security:

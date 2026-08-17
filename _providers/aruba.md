@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -72,11 +72,29 @@ apis:
 - description: Site and location management for organizing network infrastructure by physical location.
   name: Aruba Sites API
   slug: aruba-sites-api
-artifact_total: 135
+artifact_total: 141
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aruba Central Access Points API
+  slug: open-aruba-access-points-api
 - collection_type: open
   name: Aruba Central API
   slug: open-aruba-central-api
+- collection_type: open
+  name: Aruba Central Access Points Devices API
+  slug: open-aruba-devices-api
+- collection_type: open
+  name: Aruba Central Access Points Groups API
+  slug: open-aruba-groups-api
+- collection_type: open
+  name: Aruba Central Access Points Monitoring API
+  slug: open-aruba-monitoring-api
+- collection_type: open
+  name: Aruba Central Access Points Sites API
+  slug: open-aruba-sites-api
 common:
 - group: agent
   title: ''
@@ -476,7 +494,7 @@ plans:
 - name: Aruba Plans Pricing
   plan_count: 1
   slug: aruba-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Aruba Rate Limits
@@ -518,7 +536,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/screenshots/aruba-2026-06-20T172454.png
 security:

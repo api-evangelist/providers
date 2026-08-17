@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Cinder
 nav: Providers
 network: true
 overview: Cinder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Trust and Safety, Content Moderation, and Policy Enforcement.
-random_paper: 29
+random_paper: 33
 score:
   band: minimal
   composite: 5.6
@@ -68,7 +68,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cinder/refs/heads/main/screenshots/cinder-2026-07-25T205353.png
 security:

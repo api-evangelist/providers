@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -105,7 +105,7 @@ apis:
 - description: Top Up Management
   name: 1NCE Volume Top Up API
   slug: 1nce-volume-top-up-api
-artifact_total: 81
+artifact_total: 104
 collections:
 - collection_type: postman
   name: Authorization Administration Logs API
@@ -174,20 +174,74 @@ collections:
   name: Authorization Administration Logs Volume Top Up API
   slug: postman-1nce-volume-top-up-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authorization Administration Logs API
+  slug: open-1nce-administration-logs-api
+- collection_type: open
+  name: Authorization Administration Logs Agreements API
+  slug: open-1nce-agreements-api
+- collection_type: open
   name: Authorization
   slug: open-1nce-authorization-v2
 - collection_type: open
   name: Authorization
   slug: open-1nce-authorization
 - collection_type: open
+  name: Authorization Administration Logs Bearer Authorization API
+  slug: open-1nce-bearer-authorization-api
+- collection_type: open
+  name: Authorization Administration Logs Connectivity API
+  slug: open-1nce-connectivity-api
+- collection_type: open
+  name: Authorization Administration Logs Device Inspector API
+  slug: open-1nce-device-inspector-api
+- collection_type: open
+  name: Authorization Administration Logs Device Locator API
+  slug: open-1nce-device-locator-api
+- collection_type: open
+  name: Authorization Administration Logs Devices API
+  slug: open-1nce-devices-api
+- collection_type: open
+  name: Authorization Administration Logs General SIMs API
+  slug: open-1nce-general-sims-api
+- collection_type: open
+  name: Authorization Administration Logs IoT Integrator API
+  slug: open-1nce-iot-integrator-api
+- collection_type: open
+  name: Authorization Administration Logs Optimizer API
+  slug: open-1nce-optimizer-api
+- collection_type: open
   name: Order Management
   slug: open-1nce-order-management
+- collection_type: open
+  name: Authorization Administration Logs Orders API
+  slug: open-1nce-orders-api
 - collection_type: open
   name: 1NCE OS
   slug: open-1nce-os
 - collection_type: open
+  name: Authorization Administration Logs Plugin system API
+  slug: open-1nce-plugin-system-api
+- collection_type: open
   name: Product Information
   slug: open-1nce-product-information
+- collection_type: open
+  name: Authorization Administration Logs Products API
+  slug: open-1nce-products-api
+- collection_type: open
+  name: Authorization Administration Logs Service Requests API
+  slug: open-1nce-service-requests-api
+- collection_type: open
+  name: Authorization Administration Logs Settings API
+  slug: open-1nce-settings-api
+- collection_type: open
+  name: Authorization Administration Logs SIM Events API
+  slug: open-1nce-sim-events-api
+- collection_type: open
+  name: Authorization Administration Logs SIM Extension API
+  slug: open-1nce-sim-extension-api
 - collection_type: open
   name: SIM Management
   slug: open-1nce-sim-management-v2
@@ -195,8 +249,23 @@ collections:
   name: SIM Management
   slug: open-1nce-sim-management
 - collection_type: open
+  name: Authorization Administration Logs SIM Usage API
+  slug: open-1nce-sim-usage-api
+- collection_type: open
+  name: Authorization Administration Logs SMS API
+  slug: open-1nce-sms-api
+- collection_type: open
+  name: Authorization Administration Logs SMS by ICCID API
+  slug: open-1nce-sms-by-iccid-api
+- collection_type: open
   name: Support Management
   slug: open-1nce-support-management
+- collection_type: open
+  name: Authorization Administration Logs Volume Limits API
+  slug: open-1nce-volume-limits-api
+- collection_type: open
+  name: Authorization Administration Logs Volume Top Up API
+  slug: open-1nce-volume-top-up-api
 common:
 - group: build
   title: ''
@@ -408,7 +477,7 @@ plans:
 - name: 1Nce Plans Pricing
   plan_count: 5
   slug: 1nce-plans-pricing
-random_paper: 119
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: 1Nce Rate Limits
@@ -448,7 +517,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/screenshots/1nce-2026-06-20T162509.png
 security:

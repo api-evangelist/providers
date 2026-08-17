@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,11 +59,36 @@ apis:
 - description: The Users API from Beyond — 3 operation(s) for users.
   name: Beyond Users API
   slug: beyond-users-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Beyond Webhooks
   slug: beyond-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Beyond Pricing Public Accounts API
+  slug: open-beyond-accounts-api
+- collection_type: open
+  name: Beyond Pricing Public Accounts Compsets API
+  slug: open-beyond-compsets-api
+- collection_type: open
+  name: Beyond Pricing Public Accounts Customizations API
+  slug: open-beyond-customizations-api
+- collection_type: open
+  name: Beyond Pricing Public Accounts Insights API
+  slug: open-beyond-insights-api
+- collection_type: open
+  name: Beyond Pricing Public Accounts Listings API
+  slug: open-beyond-listings-api
+- collection_type: open
+  name: Beyond Pricing Public Accounts OAuth2 API
+  slug: open-beyond-oauth2-api
+- collection_type: open
+  name: Beyond Pricing Public Accounts Users API
+  slug: open-beyond-users-api
 common:
 - group: start
   title: ''
@@ -204,7 +229,7 @@ overview: 'Beyond publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Beyond''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 23 more developer resources.'
-random_paper: 41
+random_paper: 45
 scopes:
 - name: Beyond Scopes
   scope_count: 9
@@ -233,7 +258,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/screenshots/beyond-2026-07-25T202828.png
 security:

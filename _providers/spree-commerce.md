@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 311
   human_in_the_loop: 5
@@ -330,23 +330,260 @@ apis:
 - description: The Zones API from Spree Commerce — 2 operation(s) for zones.
   name: Spree Commerce Zones API
   slug: spree-commerce-zones-api
-artifact_total: 108
+artifact_total: 187
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Admin Account / Address API
+  slug: open-spree-commerce-account-address-api
+- collection_type: open
+  name: Admin / Address Account API
+  slug: open-spree-commerce-account-api
+- collection_type: open
+  name: Admin Account / Address Account / Credit Cards API
+  slug: open-spree-commerce-account-credit-cards-api
+- collection_type: open
+  name: Admin Account / Address Account / Orders API
+  slug: open-spree-commerce-account-orders-api
+- collection_type: open
+  name: Admin Account / Address Addresses API
+  slug: open-spree-commerce-addresses-api
+- collection_type: open
+  name: Admin Account / Address Adjustments API
+  slug: open-spree-commerce-adjustments-api
 - collection_type: open
   name: Admin API
   slug: open-spree-commerce-admin-api
 - collection_type: open
+  name: Admin Account / Address Adyen API
+  slug: open-spree-commerce-adyen-api
+- collection_type: open
+  name: Admin Account / Address Authentication API
+  slug: open-spree-commerce-authentication-api
+- collection_type: open
+  name: Admin Account / Address Cart API
+  slug: open-spree-commerce-cart-api
+- collection_type: open
+  name: Admin Account / Address Cart / Coupons API
+  slug: open-spree-commerce-cart-coupons-api
+- collection_type: open
+  name: Admin Account / Address Cart / Line Items API
+  slug: open-spree-commerce-cart-line-items-api
+- collection_type: open
+  name: Admin Account / Address Cart / Other API
+  slug: open-spree-commerce-cart-other-api
+- collection_type: open
+  name: Admin Account / Address Carts API
+  slug: open-spree-commerce-carts-api
+- collection_type: open
+  name: Admin Account / Address Checkout API
+  slug: open-spree-commerce-checkout-api
+- collection_type: open
+  name: Admin Account / Address Checkout / Payments API
+  slug: open-spree-commerce-checkout-payments-api
+- collection_type: open
+  name: Admin Account / Address Checkout / Shipments API
+  slug: open-spree-commerce-checkout-shipments-api
+- collection_type: open
+  name: Admin Account / Address Checkout / State API
+  slug: open-spree-commerce-checkout-state-api
+- collection_type: open
+  name: Admin Account / Address Checkout / Store Credit API
+  slug: open-spree-commerce-checkout-store-credit-api
+- collection_type: open
+  name: Admin Account / Address Classifications API
+  slug: open-spree-commerce-classifications-api
+- collection_type: open
+  name: Admin Account / Address CMS Pages API
+  slug: open-spree-commerce-cms-pages-api
+- collection_type: open
+  name: Admin Account / Address CMS Sections API
+  slug: open-spree-commerce-cms-sections-api
+- collection_type: open
+  name: Admin Account / Address Configuration API
+  slug: open-spree-commerce-configuration-api
+- collection_type: open
+  name: Admin Account / Address Countries API
+  slug: open-spree-commerce-countries-api
+- collection_type: open
+  name: Admin Account / Address Custom Fields API
+  slug: open-spree-commerce-custom-fields-api
+- collection_type: open
+  name: Admin Account / Address Customers API
+  slug: open-spree-commerce-customers-api
+- collection_type: open
+  name: Admin Account / Address Data Feeds API
+  slug: open-spree-commerce-data-feeds-api
+- collection_type: open
+  name: Admin Account / Address Digital Assets API
+  slug: open-spree-commerce-digital-assets-api
+- collection_type: open
+  name: Admin Account / Address Digital Downloads API
+  slug: open-spree-commerce-digital-downloads-api
+- collection_type: open
+  name: Admin Account / Address Digital Links API
+  slug: open-spree-commerce-digital-links-api
+- collection_type: open
+  name: Admin Account / Address Digitals API
+  slug: open-spree-commerce-digitals-api
+- collection_type: open
+  name: Admin Account / Address Exports API
+  slug: open-spree-commerce-exports-api
+- collection_type: open
+  name: Admin Account / Address Gift Cards API
+  slug: open-spree-commerce-gift-cards-api
+- collection_type: open
+  name: Admin Account / Address Line Items API
+  slug: open-spree-commerce-line-items-api
+- collection_type: open
+  name: Admin Account / Address Markets API
+  slug: open-spree-commerce-markets-api
+- collection_type: open
+  name: Admin Account / Address Menu Items API
+  slug: open-spree-commerce-menu-items-api
+- collection_type: open
+  name: Admin Account / Address Menus API
+  slug: open-spree-commerce-menus-api
+- collection_type: open
+  name: Admin Account / Address Newsletter Subscribers API
+  slug: open-spree-commerce-newsletter-subscribers-api
+- collection_type: open
   name: Authentication
   slug: open-spree-commerce-oauth-api
+- collection_type: open
+  name: Admin Account / Address Option Types API
+  slug: open-spree-commerce-option-types-api
+- collection_type: open
+  name: Admin Account / Address Option Values API
+  slug: open-spree-commerce-option-values-api
+- collection_type: open
+  name: Admin Account / Address Order Status API
+  slug: open-spree-commerce-order-status-api
+- collection_type: open
+  name: Admin Account / Address Orders API
+  slug: open-spree-commerce-orders-api
+- collection_type: open
+  name: Admin Account / Address Payment Methods API
+  slug: open-spree-commerce-payment-methods-api
+- collection_type: open
+  name: Admin Account / Address Payments API
+  slug: open-spree-commerce-payments-api
 - collection_type: open
   name: Platform API
   slug: open-spree-commerce-platform-api
 - collection_type: open
+  name: Admin Account / Address Policies API
+  slug: open-spree-commerce-policies-api
+- collection_type: open
+  name: Admin Account / Address Post Categories API
+  slug: open-spree-commerce-post-categories-api
+- collection_type: open
+  name: Admin Account / Address Posts API
+  slug: open-spree-commerce-posts-api
+- collection_type: open
+  name: Admin Account / Address Product Catalog API
+  slug: open-spree-commerce-product-catalog-api
+- collection_type: open
+  name: Admin Account / Address Products API
+  slug: open-spree-commerce-products-api
+- collection_type: open
+  name: Admin Account / Address Promotion Actions API
+  slug: open-spree-commerce-promotion-actions-api
+- collection_type: open
+  name: Admin Account / Address Promotion Categories API
+  slug: open-spree-commerce-promotion-categories-api
+- collection_type: open
+  name: Admin Account / Address Promotion Rules API
+  slug: open-spree-commerce-promotion-rules-api
+- collection_type: open
+  name: Admin Account / Address Promotions API
+  slug: open-spree-commerce-promotions-api
+- collection_type: open
+  name: Admin Account / Address Roles API
+  slug: open-spree-commerce-roles-api
+- collection_type: open
+  name: Admin Account / Address Shipments API
+  slug: open-spree-commerce-shipments-api
+- collection_type: open
+  name: Admin Account / Address Shipping Categories API
+  slug: open-spree-commerce-shipping-categories-api
+- collection_type: open
+  name: Admin Account / Address Shipping Methods API
+  slug: open-spree-commerce-shipping-methods-api
+- collection_type: open
+  name: Admin Account / Address States API
+  slug: open-spree-commerce-states-api
+- collection_type: open
+  name: Admin Account / Address Stock Items API
+  slug: open-spree-commerce-stock-items-api
+- collection_type: open
+  name: Admin Account / Address Stock Locations API
+  slug: open-spree-commerce-stock-locations-api
+- collection_type: open
   name: Store API
   slug: open-spree-commerce-store-api
 - collection_type: open
+  name: Admin Account / Address Store Credit Categories API
+  slug: open-spree-commerce-store-credit-categories-api
+- collection_type: open
+  name: Admin Account / Address Store Credit Types API
+  slug: open-spree-commerce-store-credit-types-api
+- collection_type: open
+  name: Admin Account / Address Store Credits API
+  slug: open-spree-commerce-store-credits-api
+- collection_type: open
   name: Storefront API
   slug: open-spree-commerce-storefront-api
+- collection_type: open
+  name: Admin Account / Address Stores API
+  slug: open-spree-commerce-stores-api
+- collection_type: open
+  name: Admin Account / Address Stripe API
+  slug: open-spree-commerce-stripe-api
+- collection_type: open
+  name: Admin Account / Address Tax Categories API
+  slug: open-spree-commerce-tax-categories-api
+- collection_type: open
+  name: Admin Account / Address Tax Rates API
+  slug: open-spree-commerce-tax-rates-api
+- collection_type: open
+  name: Admin Account / Address Taxonomies API
+  slug: open-spree-commerce-taxonomies-api
+- collection_type: open
+  name: Admin Account / Address Taxons API
+  slug: open-spree-commerce-taxons-api
+- collection_type: open
+  name: Admin Account / Address Token API
+  slug: open-spree-commerce-token-api
+- collection_type: open
+  name: Admin Account / Address Users API
+  slug: open-spree-commerce-users-api
+- collection_type: open
+  name: Admin Account / Address Variants API
+  slug: open-spree-commerce-variants-api
+- collection_type: open
+  name: Admin Account / Address Vendors API
+  slug: open-spree-commerce-vendors-api
+- collection_type: open
+  name: Admin Account / Address Webhook Events API
+  slug: open-spree-commerce-webhook-events-api
+- collection_type: open
+  name: Admin Account / Address Webhook Subscribers API
+  slug: open-spree-commerce-webhook-subscribers-api
+- collection_type: open
+  name: Admin Account / Address Wished Items API
+  slug: open-spree-commerce-wished-items-api
+- collection_type: open
+  name: Admin Account / Address Wishlists API
+  slug: open-spree-commerce-wishlists-api
+- collection_type: open
+  name: Admin Account / Address Wishlists / Wished Items API
+  slug: open-spree-commerce-wishlists-wished-items-api
+- collection_type: open
+  name: Admin Account / Address Zones API
+  slug: open-spree-commerce-zones-api
 common:
 - group: commercial
   title: ''
@@ -424,7 +661,7 @@ plans:
 - name: Spree Commerce Plans Pricing
   plan_count: 2
   slug: spree-commerce-plans-pricing
-random_paper: 111
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Spree Commerce Rate Limits
@@ -449,7 +686,7 @@ score:
       marker_coverage: 0.0
       total: 78
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree-commerce/refs/heads/main/screenshots/spree-commerce-2026-06-20T194400.png
 security:

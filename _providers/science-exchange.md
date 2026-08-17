@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 23
 apis:
 - description: Addresses resource.
@@ -100,7 +100,80 @@ apis:
 - description: Users resource.
   name: Science Exchange users API
   slug: science-exchange-users-api
-artifact_total: 27
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Science Exchange Providers addresses API
+  slug: open-science-exchange-addresses-api
+- collection_type: open
+  name: Science Exchange Providers addresses attachments API
+  slug: open-science-exchange-attachments-api
+- collection_type: open
+  name: Science Exchange Providers addresses currency_codes API
+  slug: open-science-exchange-currency-codes-api
+- collection_type: open
+  name: Science Exchange Providers addresses experiment_type_fields API
+  slug: open-science-exchange-experiment-type-fields-api
+- collection_type: open
+  name: Science Exchange Providers addresses experiment_types API
+  slug: open-science-exchange-experiment-types-api
+- collection_type: open
+  name: Science Exchange Providers addresses facilities API
+  slug: open-science-exchange-facilities-api
+- collection_type: open
+  name: Science Exchange Providers addresses facility_members API
+  slug: open-science-exchange-facility-members-api
+- collection_type: open
+  name: Science Exchange Providers addresses facility_photos API
+  slug: open-science-exchange-facility-photos-api
+- collection_type: open
+  name: Science Exchange Providers addresses groups API
+  slug: open-science-exchange-groups-api
+- collection_type: open
+  name: Science Exchange Providers addresses line_items API
+  slug: open-science-exchange-line-items-api
+- collection_type: open
+  name: Science Exchange Providers addresses pricing_units API
+  slug: open-science-exchange-pricing-units-api
+- collection_type: open
+  name: Science Exchange Providers addresses quote_versions API
+  slug: open-science-exchange-quote-versions-api
+- collection_type: open
+  name: Science Exchange Providers addresses quotes API
+  slug: open-science-exchange-quotes-api
+- collection_type: open
+  name: Science Exchange Providers addresses ratings API
+  slug: open-science-exchange-ratings-api
+- collection_type: open
+  name: Science Exchange Providers addresses rfq_collaborators API
+  slug: open-science-exchange-rfq-collaborators-api
+- collection_type: open
+  name: Science Exchange Providers addresses rfq_events API
+  slug: open-science-exchange-rfq-events-api
+- collection_type: open
+  name: Science Exchange Providers addresses rfq_fields API
+  slug: open-science-exchange-rfq-fields-api
+- collection_type: open
+  name: Science Exchange Providers addresses rfq_messages API
+  slug: open-science-exchange-rfq-messages-api
+- collection_type: open
+  name: Science Exchange Providers addresses rfqs API
+  slug: open-science-exchange-rfqs-api
+- collection_type: open
+  name: Science Exchange Providers addresses services API
+  slug: open-science-exchange-services-api
+- collection_type: open
+  name: Science Exchange Providers addresses tag_contexts API
+  slug: open-science-exchange-tag-contexts-api
+- collection_type: open
+  name: Science Exchange Providers addresses tags API
+  slug: open-science-exchange-tags-api
+- collection_type: open
+  name: Science Exchange Providers addresses users API
+  slug: open-science-exchange-users-api
 common:
 - group: other
   title: ''
@@ -226,7 +299,7 @@ overview: 'Science Exchange publishes 23 APIs on the [APIs.io](https://apis.io/)
 
 
   Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 50
+random_paper: 120
 score:
   band: developing
   composite: 44.3
@@ -255,7 +328,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

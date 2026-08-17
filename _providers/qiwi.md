@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -69,8 +69,14 @@ apis:
 - description: The Partner API from Qiwi — 16 operation(s) for partner.
   name: Qiwi Partner API
   slug: qiwi-partner-api
-artifact_total: 17
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QIWI Payments Partner API
+  slug: open-qiwi-partner-api
 - collection_type: open
   name: QIWI Payments API
   slug: open-qiwi
@@ -131,7 +137,7 @@ plans:
 - name: Qiwi Plans Pricing
   plan_count: 3
   slug: qiwi-plans-pricing
-random_paper: 82
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Qiwi Rate Limits
@@ -162,7 +168,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/screenshots/qiwi-2026-06-20T192337.png
 security:

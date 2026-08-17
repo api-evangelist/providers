@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ name: WalkerCo
 nav: Providers
 network: true
 overview: WalkerCo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health and Beauty, Consumer Products, Ecommerce, and Grooming.
-random_paper: 16
+random_paper: 111
 score:
   band: emerging
   composite: 16.3
@@ -108,7 +108,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Snorkel Flow Python SDK (snorkelflow) drives the platform programmatically, connecting to a customer's Snorkel Flow instance via SnorkelFlowContext and an API key. The snorkelflow.client module wr
@@ -44,8 +44,11 @@ apis:
 - description: The free, open-source snorkel Python library (Apache-2.0) for programmatically building and managing training data with weak supervision - labeling functions, the LabelModel, transformation functions,
   name: Open-Source Snorkel Library
   slug: open-source-snorkel-library
-artifact_total: 12
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Snorkel Flow Platform API
   slug: open-snorkel-ai
@@ -118,7 +121,7 @@ plans:
 - name: Snorkel Ai Plans Pricing
   plan_count: 3
   slug: snorkel-ai-plans-pricing
-random_paper: 53
+random_paper: 119
 rate_limits:
 - limit_count: 3
   name: Snorkel Ai Rate Limits
@@ -136,7 +139,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 34.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

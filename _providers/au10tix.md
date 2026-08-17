@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Orchestrates identity verification workflows (the Back Office Server, "BOS"). Creates a verification session/workflow, accepts document and selfie media, and returns a unique session/document identifi
@@ -47,8 +47,11 @@ apis:
 - description: Pushes verification decisions to a customer-registered callback URL the moment a workflow reaches a terminal state, removing the need to poll for status. Payload schemas are documented in AU10TIX's au
   name: AU10TIX Webhooks API
   slug: au10tix-webhooks-api
-artifact_total: 11
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: AU10TIX API
   slug: open-au10tix
@@ -109,7 +112,7 @@ plans:
 - name: Au10Tix Plans Pricing
   plan_count: 1
   slug: au10tix-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Au10Tix Rate Limits
@@ -127,7 +130,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/screenshots/au10tix-2026-07-25T201647.png
 security:

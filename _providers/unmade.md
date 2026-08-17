@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Design API API from Unmade — 9 operation(s) for design api.
@@ -49,7 +49,26 @@ apis:
 - description: The Unmade Editor API from Unmade — 2 operation(s) for unmade editor.
   name: Unmade Unmade Editor API
   slug: unmade-unmade-editor-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unmade Integration Reference Design API API
+  slug: open-unmade-design-api-api
+- collection_type: open
+  name: Unmade Integration Reference Design API Ecommerce Orders API API
+  slug: open-unmade-ecommerce-orders-api-api
+- collection_type: open
+  name: Unmade Integration Reference Design API Factory API API
+  slug: open-unmade-factory-api-api
+- collection_type: open
+  name: Unmade Integration Reference Design API Outfit API API
+  slug: open-unmade-outfit-api-api
+- collection_type: open
+  name: Unmade Integration Reference Design API Unmade Editor API
+  slug: open-unmade-unmade-editor-api
 common:
 - group: company
   title: ''
@@ -151,7 +170,7 @@ overview: 'Unmade publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Unmade''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 34
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Unmade Rate Limits
@@ -178,7 +197,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

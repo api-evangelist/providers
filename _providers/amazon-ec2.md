@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,11 +121,38 @@ arazzos:
 - description: Stop an instance, wait until stopped, then start it again and confirm running.
   name: Amazon EC2 Stop and Start Instance Cycle
   slug: amazon-ec2-stop-start-instance-cycle-workflow
-artifact_total: 71
+artifact_total: 80
 collections:
 - collection_type: postman
   name: Amazon EC2 API
   slug: postman-amazon-ec2
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EC2 AMIs API
+  slug: open-amazon-ec2-amis-api
+- collection_type: open
+  name: Amazon EC2 AMIs Elastic IPs API
+  slug: open-amazon-ec2-elastic-ips-api
+- collection_type: open
+  name: Amazon EC2 AMIs Instances API
+  slug: open-amazon-ec2-instances-api
+- collection_type: open
+  name: Amazon EC2 AMIs Key Pairs API
+  slug: open-amazon-ec2-key-pairs-api
+- collection_type: open
+  name: Amazon EC2 AMIs Launch Templates API
+  slug: open-amazon-ec2-launch-templates-api
+- collection_type: open
+  name: Amazon EC2 AMIs Regions API
+  slug: open-amazon-ec2-regions-api
+- collection_type: open
+  name: Amazon EC2 AMIs Security Groups API
+  slug: open-amazon-ec2-security-groups-api
+- collection_type: open
+  name: Amazon EC2 AMIs Spot Instances API
+  slug: open-amazon-ec2-spot-instances-api
 - collection_type: open
   name: Amazon EC2 API
   slug: open-amazon-ec2
@@ -412,7 +439,7 @@ plans:
 - name: Amazon Ec2 Plans Pricing
   plan_count: 3
   slug: amazon-ec2-plans-pricing
-random_paper: 101
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Amazon Ec2 Rate Limits
@@ -454,7 +481,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/screenshots/amazon-ec2-2026-06-20T171637.png
 security:

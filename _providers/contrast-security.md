@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: Vulnerabilities detected in runtime by Contrast Assess are weaknesses in the application code that allow an attacker to cause harm.
   name: Contrast Security Vulnerabilities API
   slug: contrast-security-vulnerabilities-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Contrast Assess Applications API
+  slug: open-contrast-security-applications-api
+- collection_type: open
+  name: Contrast Assess Applications Organizations API
+  slug: open-contrast-security-organizations-api
+- collection_type: open
+  name: Contrast Assess Applications Rules API
+  slug: open-contrast-security-rules-api
+- collection_type: open
+  name: Contrast Assess Applications Vulnerabilities API
+  slug: open-contrast-security-vulnerabilities-api
 - collection_type: open
   name: Contrast Assess API
   slug: open-contrast-security
@@ -134,7 +149,7 @@ overview: 'Contrast Security publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Contrast Security''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 11
+random_paper: 23
 score:
   band: thin
   composite: 33.7
@@ -155,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/screenshots/contrast-security-2026-06-20T174948.png
 security:

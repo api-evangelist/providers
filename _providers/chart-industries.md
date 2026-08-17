@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Chart Industries
 nav: Providers
 network: true
 overview: Chart Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial, Cryogenics, Energy, Manufacturing, and Clean Energy.
-random_paper: 113
+random_paper: 34
 score:
   band: minimal
   composite: 5.0
@@ -72,7 +72,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chart-industries/refs/heads/main/screenshots/chart-industries-2026-06-20T174228.png
 security:

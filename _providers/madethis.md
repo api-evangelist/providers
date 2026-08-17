@@ -9,12 +9,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 12.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -59,36 +59,98 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/madethis-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/madethis-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/madethis-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/madethis-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/madethis-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/madethis-plans-pricing.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://madethis.com/support
+- group: start
+  title: ''
+  type: Login
+  url: https://madethis.com/login
+coverage:
+  checked: '2026-08-13'
+  detail: 'MadeThis is an end-user product with no developer program at all: every OpenAPI, Swagger, GraphQL, llms.txt and agent-card path 404s on madethis.com, and its own product backend api.madethis.com answers every path with the Convex router''s "No matching routes found", so the only machine-readable documents on any MadeThis host are the OIDC/OAuth discovery files its vendor identity subdomain clerk.madethis.com serves for end-user sign-in.'
+  evidence:
+  - status: 404
+    url: https://madethis.com/openapi.json
+  - status: 404
+    url: https://api.madethis.com/openapi.json
+  - status: 404
+    url: https://madethis.com/.well-known/agent-card.json
+  - status: 404
+    url: https://madethis.com/llms.txt
+  - status: 200
+    url: https://clerk.madethis.com/.well-known/openid-configuration
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: MadeThis (madethis.com) is a Y Combinator (Fall 2025) startup based in San Francisco that markets itself as "Your AI Co-Founder" — a platform of AI employees that build, market, and run a business on the founder's behalf. A user describes a business idea and MadeThis autonomously handles website and app development, Stripe-based payment and billing setup, ad-campaign creation and optimization, 24/7 AI customer support, email automation and cold outbound, market and competitor research, and code generation and deployment, iterating on founder feedback. It targets e-commerce, SaaS, agencies, online courses, coaching, and service businesses across Starter, Growth, Scale, and Enterprise tiers. As of this enrichment pass MadeThis publishes no public API, developer portal, SDKs, or API documentation — it is a consumer/SMB SaaS product, so most API-oriented artifacts are not applicable.
+description: MadeThis (madethis.com) is a Y Combinator (Fall 2025) startup based in San Francisco, founded in 2025 by Jacob Wright, Cambree Bernkopf and Santiago Gomez Paz, that markets itself as "Your AI Co-Founder" and "the autonomous business platform" — a team of AI employees that build, market, and run a business on the founder's behalf. A user describes a business idea and MadeThis autonomously handles website and app development, Stripe-based payment and billing setup, ad-campaign creation and optimization, 24/7 AI customer support, email automation and cold outbound, market and competitor research, and code generation and deployment, iterating on founder feedback. It targets e-commerce, SaaS, agencies, online courses, coaching, and service businesses across Starter ($49/mo), Growth ($79/mo), Scale ($199/mo) and Enterprise (from $5,000/mo) tiers metered in AI-work credits, with an Enterprise line that builds a "company brain" digital twin and trains AI employees on a customer's top
+  performers. MadeThis publishes no public API, developer portal, SDK, CLI or API documentation — every spec path probed on madethis.com and on its Convex product backend api.madethis.com returns 404. The only machine-readable documents any MadeThis host serves are the OIDC and RFC 8414 discovery documents on clerk.madethis.com, a vendor-run identity instance for end-user sign-in. Its Enterprise page notes that customer systems connect through MCP and ACP, which makes MadeThis an MCP consumer rather than an MCP publisher.
 image: https://madethis.com/opengraph-image
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: MadeThis
 nav: Providers
 network: true
 overview: 'MadeThis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Business Automation, and SaaS.
 
 
-  MadeThis'' developer surface includes signup flow, pricing, and 5 more developer resources.'
-random_paper: 7
+  MadeThis'' developer surface includes signup flow, pricing, authentication, support, and 10 more developer resources.'
+plans:
+- name: Madethis Plans Pricing
+  plan_count: 4
+  slug: madethis-plans-pricing
+random_paper: 102
+rate_limits:
+- limit_count: 0
+  name: Madethis Rate Limits
+  slug: madethis-rate-limits
+scopes:
+- name: Madethis Scopes
+  scope_count: 7
+  slug: madethis-scopes
+  summary_line: 7 scopes · authorizationCode
 score:
   band: emerging
-  composite: 14.7
-  delta: 0.0
+  composite: 26.7
+  delta: 12.0
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 57.4
-    governance: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 14.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/screenshots/madethis-2026-07-25T225830.png
 security:
+- kind: authentication
+  name: Madethis Authentication
+  slug: madethis-authentication
+  summary_line: oauth2/openIdConnect · 2 schemes
 - kind: domain-security
   name: Madethis Domain Security
   slug: madethis-domain-security
@@ -103,5 +165,10 @@ tags:
 - Marketing Automation
 - Startup Tools
 - Y Combinator
+- No-Code
+- Website Builder
+- E-Commerce
+- Small Business
+- AI Employees
 website: https://madethis.com
 ---

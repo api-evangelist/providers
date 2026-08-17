@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,8 +78,50 @@ apis:
 - description: The Zones API from National Weather Service — 6 operation(s) for zones.
   name: National Weather Service Zones API
   slug: national-weather-service-zones-api
-artifact_total: 20
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: weather.gov Alerts API
+  slug: open-national-weather-service-alerts-api
+- collection_type: open
+  name: weather.gov Alerts Aviation API
+  slug: open-national-weather-service-aviation-api
+- collection_type: open
+  name: weather.gov Alerts Glossary API
+  slug: open-national-weather-service-glossary-api
+- collection_type: open
+  name: weather.gov Alerts Gridpoints API
+  slug: open-national-weather-service-gridpoints-api
+- collection_type: open
+  name: weather.gov Alerts Icons API
+  slug: open-national-weather-service-icons-api
+- collection_type: open
+  name: weather.gov Alerts Offices API
+  slug: open-national-weather-service-offices-api
+- collection_type: open
+  name: weather.gov Alerts Points API
+  slug: open-national-weather-service-points-api
+- collection_type: open
+  name: weather.gov Alerts Products API
+  slug: open-national-weather-service-products-api
+- collection_type: open
+  name: weather.gov Alerts Radar API
+  slug: open-national-weather-service-radar-api
+- collection_type: open
+  name: weather.gov Alerts Radio API
+  slug: open-national-weather-service-radio-api
+- collection_type: open
+  name: weather.gov Alerts Stations API
+  slug: open-national-weather-service-stations-api
+- collection_type: open
+  name: weather.gov Alerts Thumbnails API
+  slug: open-national-weather-service-thumbnails-api
+- collection_type: open
+  name: weather.gov Alerts Zones API
+  slug: open-national-weather-service-zones-api
 - collection_type: open
   name: weather.gov API
   slug: open-national-weather-service
@@ -132,7 +174,7 @@ plans:
 - name: National Weather Service Plans Pricing
   plan_count: 3
   slug: national-weather-service-plans-pricing
-random_paper: 49
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: National Weather Service Rate Limits
@@ -163,7 +205,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-weather-service/refs/heads/main/screenshots/national-weather-service-2026-06-20T190047.png
 security:

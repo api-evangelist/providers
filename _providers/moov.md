@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -87,18 +87,69 @@ apis:
 - description: Create and manage Moov digital wallets that hold funds within the platform. Supports wallet transactions and balance adjustments.
   name: Moov Wallets API
   slug: moov-wallets-api
-artifact_total: 110
+artifact_total: 127
 asyncapis:
 - description: Moov delivers real-time event notifications to your application via webhooks when state changes occur on your platform. When an event occurs, Moov sends an HTTP POST request with a JSON payload to you
   name: Moov Webhooks
   slug: moov-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Moov Accounts API
+  slug: open-moov-accounts-api
+- collection_type: open
   name: Moov API
   slug: open-moov-api
 - collection_type: open
+  name: Moov Accounts Authentication API
+  slug: open-moov-authentication-api
+- collection_type: open
+  name: Moov Accounts Bank Accounts API
+  slug: open-moov-bank-accounts-api
+- collection_type: open
+  name: Moov Accounts Capabilities API
+  slug: open-moov-capabilities-api
+- collection_type: open
+  name: Moov Accounts Card Issuing API
+  slug: open-moov-card-issuing-api
+- collection_type: open
+  name: Moov Accounts Cards API
+  slug: open-moov-cards-api
+- collection_type: open
+  name: Moov Accounts Disputes API
+  slug: open-moov-disputes-api
+- collection_type: open
+  name: Moov Accounts Institutions API
+  slug: open-moov-institutions-api
+- collection_type: open
   name: Moov API
   slug: open-moov-io
+- collection_type: open
+  name: Moov Accounts Payment Links API
+  slug: open-moov-payment-links-api
+- collection_type: open
+  name: Moov Accounts Payment Methods API
+  slug: open-moov-payment-methods-api
+- collection_type: open
+  name: Moov Accounts Refunds API
+  slug: open-moov-refunds-api
+- collection_type: open
+  name: Moov Accounts Representatives API
+  slug: open-moov-representatives-api
+- collection_type: open
+  name: Moov Accounts Sweeps API
+  slug: open-moov-sweeps-api
+- collection_type: open
+  name: Moov Accounts Transfers API
+  slug: open-moov-transfers-api
+- collection_type: open
+  name: Moov Accounts Underwriting API
+  slug: open-moov-underwriting-api
+- collection_type: open
+  name: Moov Accounts Wallets API
+  slug: open-moov-wallets-api
 common:
 - group: operate
   title: ''
@@ -434,7 +485,7 @@ plans:
 - name: Moov Plans Pricing
   plan_count: 7
   slug: moov-plans-pricing
-random_paper: 89
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Moov Rate Limits
@@ -482,7 +533,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-08-07T184251.png
 security:

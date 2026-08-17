@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The ASCE Hazard Tool API provides a simple interface to query locations in the United States for environmental hazard data by geographic location. It provides site-specific hazard values used in struc
@@ -84,7 +84,7 @@ plans:
 - name: Asce Amplify Plans Pricing
   plan_count: 3
   slug: asce-amplify-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Asce Amplify Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 11.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/screenshots/asce-amplify-2026-06-20T172456.png
 security:

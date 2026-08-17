@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Alerts API from Tracebit — 2 operation(s) for alerts.
@@ -37,7 +37,17 @@ apis:
 - description: The Canary Credentials API from Tracebit — 2 operation(s) for canary credentials.
   name: Tracebit Canary Credentials API
   slug: tracebit-canary-credentials-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tracebit Alerts API
+  slug: open-tracebit-alerts-api
+- collection_type: open
+  name: Tracebit Alerts Canary Credentials API
+  slug: open-tracebit-canary-credentials-api
 common:
 - group: company
   title: ''
@@ -171,7 +181,7 @@ overview: 'Tracebit publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Tracebit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 6
+random_paper: 101
 score:
   band: developing
   composite: 53.8
@@ -194,7 +204,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

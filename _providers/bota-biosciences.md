@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'Bota Biosciences is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Bota Biosciences'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 66
+random_paper: 136
 score:
   band: minimal
   composite: 7.3
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

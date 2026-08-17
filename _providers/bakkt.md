@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -89,11 +89,66 @@ apis:
 - description: Transfers allow users to access deposit and withdrawal functionality both within the Bakkt network and across the blockchain.
   name: Bakkt Transfers API
   slug: bakkt-transfers-api
-artifact_total: 22
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Bakkt Webhooks
   slug: bakkt-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts API
+  slug: open-bakkt-accounts-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Authorization API
+  slug: open-bakkt-authorization-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Block Trade & Allocate API
+  slug: open-bakkt-block-trade-allocate-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Configuration and Status API
+  slug: open-bakkt-configuration-and-status-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Currency Onboarding API
+  slug: open-bakkt-currency-onboarding-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Documents API
+  slug: open-bakkt-documents-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Fiat Onboarding API
+  slug: open-bakkt-fiat-onboarding-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Gift API
+  slug: open-bakkt-gift-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Instruments API
+  slug: open-bakkt-instruments-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Jurisdictions API
+  slug: open-bakkt-jurisdictions-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Orders API
+  slug: open-bakkt-orders-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Partner Connectivity API
+  slug: open-bakkt-partner-connectivity-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Partner Party Funding API
+  slug: open-bakkt-partner-party-funding-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Partner Party Kyc API
+  slug: open-bakkt-partner-party-kyc-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Partner Party Linking API
+  slug: open-bakkt-partner-party-linking-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Positions API
+  slug: open-bakkt-positions-api
+- collection_type: open
+  name: Bakkt Crypto Solutions Accounts Transfers API
+  slug: open-bakkt-transfers-api
 common:
 - group: other
   title: ''
@@ -230,7 +285,7 @@ overview: 'Bakkt publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bakkt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 22 more developer resources.'
-random_paper: 45
+random_paper: 78
 score:
   band: developing
   composite: 46.5
@@ -260,7 +315,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/screenshots/bakkt-2026-07-25T202255.png
 security:

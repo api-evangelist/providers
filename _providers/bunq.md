@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The authenticated user (person, company, or payment service provider).
   name: bunq User API
   slug: bunq-user-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: bunq Public Attachment API
+  slug: open-bunq-attachment-api
+- collection_type: open
+  name: bunq Public Attachment Card API
+  slug: open-bunq-card-api
+- collection_type: open
+  name: bunq Public Attachment Customer Statement API
+  slug: open-bunq-customer-statement-api
+- collection_type: open
+  name: bunq Public Attachment Handshake API
+  slug: open-bunq-handshake-api
+- collection_type: open
+  name: bunq Public Attachment Monetary Account API
+  slug: open-bunq-monetary-account-api
+- collection_type: open
+  name: bunq Public Attachment Notification Filter API
+  slug: open-bunq-notification-filter-api
+- collection_type: open
+  name: bunq Public Attachment Payment API
+  slug: open-bunq-payment-api
+- collection_type: open
+  name: bunq Public Attachment Request Inquiry API
+  slug: open-bunq-request-inquiry-api
+- collection_type: open
+  name: bunq Public Attachment User API
+  slug: open-bunq-user-api
 - collection_type: open
   name: bunq Public API
   slug: open-bunq
@@ -164,7 +194,7 @@ plans:
 - name: Bunq Plans Pricing
   plan_count: 7
   slug: bunq-plans-pricing
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 6
   name: Bunq Rate Limits
@@ -195,7 +225,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png
 security:

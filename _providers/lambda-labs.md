@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -78,12 +78,42 @@ apis:
 - description: The Lambda Support Ticketing API is currently in beta. Contact support to enable access.
   name: Lambda Support Tickets API
   slug: lambda-labs-support-tickets-api
-artifact_total: 32
+artifact_total: 42
 asyncapis:
 - description: AsyncAPI 2.6 description of the Lambda (formerly Lambda Labs) **Inference API** chat completion streaming surface. The Lambda Inference API is an OpenAI-compatible REST gateway hosted at `https://api.
   name: Lambda Inference API Chat Completions Streaming (HTTP + SSE)
   slug: lambda-labs-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lambda Cloud Audit Events API
+  slug: open-lambda-labs-audit-events-api
+- collection_type: open
+  name: Lambda Cloud Audit Events Fabric API
+  slug: open-lambda-labs-fabric-api
+- collection_type: open
+  name: Lambda Cloud Audit Events Filesystems API
+  slug: open-lambda-labs-filesystems-api
+- collection_type: open
+  name: Lambda Cloud Audit Events Firewalls API
+  slug: open-lambda-labs-firewalls-api
+- collection_type: open
+  name: Lambda Cloud Audit Events Images API
+  slug: open-lambda-labs-images-api
+- collection_type: open
+  name: Lambda Cloud Audit Events Instances API
+  slug: open-lambda-labs-instances-api
+- collection_type: open
+  name: Lambda Cloud Audit Events Regions API
+  slug: open-lambda-labs-regions-api
+- collection_type: open
+  name: Lambda Cloud Audit Events SSH keys API
+  slug: open-lambda-labs-ssh-keys-api
+- collection_type: open
+  name: Lambda Cloud Audit Events Support Tickets API
+  slug: open-lambda-labs-support-tickets-api
 - collection_type: open
   name: Lambda Cloud API
   slug: open-lambda-labs
@@ -209,7 +239,7 @@ plans:
 - name: Lambda Labs Plans Pricing
   plan_count: 1
   slug: lambda-labs-plans-pricing
-random_paper: 112
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Lambda Labs Rate Limits
@@ -243,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/screenshots/lambda-labs-2026-06-20T184251.png
 security:

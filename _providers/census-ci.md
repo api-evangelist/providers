@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Syncs API from Census — 3 operation(s) for syncs.
   name: Census Syncs API
   slug: census-ci-syncs-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Census Management Connectors API
+  slug: open-census-ci-connectors-api
+- collection_type: open
+  name: Census Management Connectors Datasets and Models API
+  slug: open-census-ci-datasets-and-models-api
+- collection_type: open
+  name: Census Management Connectors Destinations API
+  slug: open-census-ci-destinations-api
+- collection_type: open
+  name: Census Management Connectors Segments API
+  slug: open-census-ci-segments-api
+- collection_type: open
+  name: Census Management Connectors Sources API
+  slug: open-census-ci-sources-api
+- collection_type: open
+  name: Census Management Connectors Sync Runs API
+  slug: open-census-ci-sync-runs-api
+- collection_type: open
+  name: Census Management Connectors Syncs API
+  slug: open-census-ci-syncs-api
 - collection_type: open
   name: Census Management API
   slug: open-census-ci
@@ -130,7 +154,7 @@ plans:
 - name: Census Ci Plans Pricing
   plan_count: 3
   slug: census-ci-plans-pricing
-random_paper: 66
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Census Ci Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/screenshots/census-ci-2026-07-25T204919.png
 security:

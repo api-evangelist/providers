@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: Event subscriptions delivering signed callbacks.
   name: Commerce Layer Webhooks API
   slug: commercelayer-webhooks-api
-artifact_total: 20
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Commerce Layer Core Addresses API
+  slug: open-commercelayer-addresses-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Customers API
+  slug: open-commercelayer-customers-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Line Items API
+  slug: open-commercelayer-line-items-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Markets API
+  slug: open-commercelayer-markets-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Orders API
+  slug: open-commercelayer-orders-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Payment Methods API
+  slug: open-commercelayer-payment-methods-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Prices API
+  slug: open-commercelayer-prices-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Promotions API
+  slug: open-commercelayer-promotions-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Shipments API
+  slug: open-commercelayer-shipments-api
+- collection_type: open
+  name: Commerce Layer Core Addresses SKUs API
+  slug: open-commercelayer-skus-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Stock Items API
+  slug: open-commercelayer-stock-items-api
+- collection_type: open
+  name: Commerce Layer Core Addresses Webhooks API
+  slug: open-commercelayer-webhooks-api
 - collection_type: open
   name: Commerce Layer Core API
   slug: open-commercelayer
@@ -149,7 +188,7 @@ plans:
 - name: Commercelayer Plans Pricing
   plan_count: 3
   slug: commercelayer-plans-pricing
-random_paper: 64
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Commercelayer Rate Limits
@@ -174,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/screenshots/commercelayer-2026-07-25T210126.png
 security:

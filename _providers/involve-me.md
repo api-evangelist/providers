@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'A live, OAuth-protected Model Context Protocol server that involve.me serves from its own infrastructure and advertises through RFC 9728 protected-resource metadata on www.involve.me. SCOPE: it expose'
@@ -174,7 +174,7 @@ plans:
 - name: Involve Me Plans Pricing
   plan_count: 5
   slug: involve-me-plans-pricing
-random_paper: 66
+random_paper: 132
 rate_limits:
 - limit_count: 0
   name: Involve Me Rate Limits
@@ -187,6 +187,7 @@ scopes:
 score:
   band: developing
   composite: 52.5
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 51.6
@@ -194,8 +195,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 39.5
+  previous_composite: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Involve Me Authentication

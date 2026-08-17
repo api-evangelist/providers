@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -60,11 +60,32 @@ apis:
 - description: The Usage API from SearchStax — 1 operation(s) for usage.
   name: SearchStax Usage API
   slug: searchstax-usage-api
-artifact_total: 21
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SearchStax Provisioning Authentication API
+  slug: open-searchstax-authentication-api
+- collection_type: open
+  name: SearchStax Provisioning Authentication Backup API
+  slug: open-searchstax-backup-api
+- collection_type: open
+  name: SearchStax Provisioning Authentication Deployments API
+  slug: open-searchstax-deployments-api
+- collection_type: open
+  name: SearchStax Provisioning Authentication Nodes API
+  slug: open-searchstax-nodes-api
+- collection_type: open
+  name: SearchStax Provisioning Authentication Plans API
+  slug: open-searchstax-plans-api
 - collection_type: open
   name: SearchStax Provisioning API
   slug: open-searchstax-provisioning
+- collection_type: open
+  name: SearchStax Provisioning Authentication Usage API
+  slug: open-searchstax-usage-api
 common:
 - group: agent
   title: ''
@@ -182,7 +203,7 @@ plans:
 - name: Searchstax Plans Pricing
   plan_count: 3
   slug: searchstax-plans-pricing
-random_paper: 118
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Searchstax Rate Limits
@@ -224,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/screenshots/searchstax-2026-06-20T193615.png
 security:

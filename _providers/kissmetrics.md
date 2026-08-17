@@ -1,47 +1,131 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Public free tier
   onboarding: unknown
   pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
+  public: true
+  source:
+  - https://kissmetrics.io/pricing
+  - https://ai.kissmetrics.io/get-started
+  trial: true
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    mcp_server: true
+    openapi_examples: verified
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 62.6
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Kissmetrics Agentic Access
+  operation_count: 11
+  slug: kissmetrics-agentic-access
+  summary_line: 11 operations · 5 acting
 api_count: 2
 apis:
-- description: REST API for programmatic access to Kissmetrics reports, segments, events, properties, and account metadata. Used to pull report data into dashboards, spreadsheets, and BI tools, and to export user se
+- description: 'REST API for programmatic access to Kissmetrics reports, segments, events, properties and account metadata. Queries are asynchronous: a POST to /queries, /queries/report or /queries/metric returns a q'
   name: Kissmetrics REST API
   slug: rest-api
-- description: Legacy Data Out API for exporting raw Kissmetrics data. Documented in the older support portal alongside the current v3 REST API.
-  name: Kissmetrics Data Out API
-  slug: data-out-api
-artifact_total: 3
+- description: Event ingest surface. Three query-string endpoints record an event (/e), set person properties (/s) and irreversibly alias two identities to one person (/a), accepting GET or POST with the product key
+  name: Kissmetrics Tracking API (Beacon)
+  slug: tracking-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Kissmetrics REST API — exports
+  slug: open-kissmetrics-exports-api
+- collection_type: open
+  name: Kissmetrics REST API — products
+  slug: open-kissmetrics-products-api
+- collection_type: open
+  name: Kissmetrics REST API — queries
+  slug: open-kissmetrics-queries-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/kissmetrics-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/kissmetrics-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/kissmetrics-domain-security.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/kissmetrics-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/kissmetrics-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/kissmetrics-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/kissmetrics-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/kissmetrics-data-model.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/kissmetrics-rest-api-examples.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/kissmetrics-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/kissmetrics-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/kissmetrics-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/kissmetrics-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kissmetrics-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/kissmetrics-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/kissmetrics-llms.txt
 - group: company
   title: ''
   type: LinkedIn
@@ -50,10 +134,22 @@ common:
   title: ''
   type: Website
   url: https://www.kissmetrics.io
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://support.kissmetrics.io
 - group: docs
   title: ''
   type: Documentation
-  url: https://support.kissmetrics.io
+  url: https://support.kissmetrics.io/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://support.kissmetrics.io/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.kissmetrics.io/docs/installing-the-javascript-library-quickstart
 - group: other
   title: ''
   type: Product Page
@@ -62,6 +158,30 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/kissmetrics
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://kissmetrics.io/updates
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.kissmetrics.io/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://ai.kissmetrics.io/get-started
+- group: start
+  title: ''
+  type: Login
+  url: https://ai.kissmetrics.io/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kissmetrics.io/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kissmetrics.io/privacy
 - group: start
   title: ''
   type: Signup
@@ -77,37 +197,57 @@ common:
 - group: company
   title: ''
   type: Blog
+  url: https://www.kissmetrics.io/blog
+- group: company
+  title: ''
+  type: BlogRSS
   url: https://www.kissmetrics.io/feed.xml
 created: '2026-05-11'
-description: Kissmetrics is a product and behavioral analytics platform that tracks individual user activity across web and mobile, surfacing funnels, cohorts, retention, and revenue reports tied to identified people. The platform helps product, marketing, and growth teams understand user journeys and pinpoint conversion drop-off. Kissmetrics provides REST APIs for querying reports, exporting segments, and ingesting events, authenticated via HTTP Basic auth.
+description: 'Kissmetrics is a product and behavioral analytics platform that tracks individual people across web and mobile rather than sessions, resolving every event to a persistent identity and surfacing funnels, cohorts, retention, paths, revenue and A/B test reports against that person-level history. Product, marketing and growth teams use it to understand user journeys and pinpoint conversion drop-off, and it now markets an LLM Acquisition report that measures human traffic arriving from AI assistants. Two programmable surfaces are published: a Basic-auth REST Query API at query.kissmetrics.io/v3 for getting data out — account metadata, asynchronous ad-hoc and saved queries, SQL, and CSV/S3 exports — and a query-string tracking beacon at trk.kissmetrics.io for getting events in, alongside first-party Ruby, PHP, Python, iOS and Android libraries and a hosted JavaScript snippet.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kissmetrics.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: kissmetrics-mcp.yml
+  slug: kissmetrics-mcpyml
+modified: '2026-08-13'
 name: Kissmetrics
 nav: Providers
 network: true
-overview: 'Kissmetrics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Product Analytics, Behavioral Analytics, Marketing Analytics, and Funnels.
+overview: 'Kissmetrics publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Analytics, Product Analytics, Behavioral Analytics, Marketing Analytics, and Customer Analytics.
 
 
-  Kissmetrics'' developer surface includes documentation, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 1
+  Kissmetrics'' developer surface includes authentication, code examples, documentation, API reference, getting-started guide, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Kissmetrics Plans Pricing
+  plan_count: 4
+  slug: kissmetrics-plans-pricing
+random_paper: 9
+rate_limits:
+- limit_count: 1
+  name: Kissmetrics Rate Limits
+  slug: kissmetrics-rate-limits
 score:
-  band: emerging
-  composite: 14.0
-  delta: 0.0
+  band: strong
+  composite: 59.0
+  delta: 45.0
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 0.0
-    developer_ergonomics: 15.2
+    commercial_clarity: 76.3
+    contract_quality: 59.0
+    developer_ergonomics: 73.9
     discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 5.3
+    governance: 20.8
+    operational_transparency: 31.6
   previous_composite: 14.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/screenshots/kissmetrics-2026-06-20T184049.png
 security:
+- kind: authentication
+  name: Kissmetrics Authentication
+  slug: kissmetrics-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Kissmetrics Domain Security
   slug: kissmetrics-domain-security
@@ -118,7 +258,12 @@ tags:
 - Product Analytics
 - Behavioral Analytics
 - Marketing Analytics
+- Customer Analytics
+- Event Tracking
 - Funnels
 - Cohorts
+- Retention
+- Attribution
+- Data Export
 website: https://www.kissmetrics.io
 ---

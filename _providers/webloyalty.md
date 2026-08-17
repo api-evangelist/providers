@@ -9,27 +9,27 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 23.0
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -51,35 +51,113 @@ common:
   title: ''
   type: Support
   url: https://webloyalty.co.uk/contact-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://webloyalty.co.uk/news-views/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://webloyalty.co.uk/feed/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/webloyalty-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/webloyalty-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/webloyalty-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/webloyalty-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/webloyalty-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/webloyalty-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/webloyalty-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/webloyalty-components.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/webloyalty-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/webloyalty-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/webloyalty-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/webloyalty-llms.txt
 created: '2026-07-17'
-description: Webloyalty is a customer-engagement and loyalty-marketing company that helps ecommerce and retail businesses build stronger, more profitable customer relationships. Its market-leading rewards platform delivers savings, cashback, and shopping benefits to consumers, typically presented after an online transaction, while generating incremental secondary revenue for the retail partner. Founded in 1999 and historically part of the Affinion Group, the company operates localized programs across the United States, United Kingdom, France, Ireland, Spain, the Netherlands, Switzerland, Turkey, and Mexico. This API Evangelist profile was surfaced as a portfolio company of Canaan Partners. Webloyalty markets a consumer rewards/membership product and a partner engagement platform, but publishes no public developer program or API.
+description: Webloyalty is a customer-engagement and loyalty-marketing company that helps ecommerce and retail businesses build stronger, more profitable customer relationships. Its market-leading rewards platform delivers savings, cashback, and shopping benefits to consumers, typically presented after an online transaction, while generating incremental secondary revenue for the retail partner. Founded in 1999 and historically part of the Affinion Group, the company operates localized programs across the United States, United Kingdom, France, Ireland, Spain, the Netherlands, Switzerland, Turkey, and Mexico. This API Evangelist profile was surfaced as a portfolio company of Canaan Partners. Webloyalty markets a consumer rewards/membership product and a partner engagement platform, and is a brand of Tenerity (formerly Affinion Group). It publishes no developer portal, API reference or OpenAPI — its commercial integration is sold as "bespoke API solutions" through sales. Its only public programmable
+  surfaces are an OAuth-protected Model Context Protocol endpoint served from the UK site's WordPress REST API, and a first-party React Native SDK for embedding Webloyalty campaign banners in partner apps.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/webloyalty.png
 layout: provider
-modified: '2026-07-21'
+mcp_servers:
+- description: ''
+  name: webloyalty-mcp.yml
+  slug: webloyalty-mcpyml
+modified: '2026-08-13'
 name: Webloyalty
 nav: Providers
 network: true
 overview: 'Webloyalty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, Ecommerce, and Customer Engagement.
 
 
-  Webloyalty''s developer surface includes support and 4 more developer resources.'
-random_paper: 20
+  Webloyalty''s developer surface includes support, engineering blog, authentication, changelog, and 15 more developer resources.'
+plans:
+- name: Webloyalty Plans Pricing
+  plan_count: 0
+  slug: webloyalty-plans-pricing
+random_paper: 57
+rate_limits:
+- limit_count: 0
+  name: Webloyalty Rate Limits
+  slug: webloyalty-rate-limits
+scopes:
+- name: Webloyalty Scopes
+  scope_count: 0
+  slug: webloyalty-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: minimal
-  composite: 10.1
-  delta: 0.0
+  band: emerging
+  composite: 20.0
+  delta: 9.9
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 4.3
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 32.6
+    discoverability: 57.4
+    governance: 12.5
+    operational_transparency: 15.8
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Webloyalty Authentication
+  slug: webloyalty-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Webloyalty Domain Security
   slug: webloyalty-domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -54,7 +54,7 @@ apis:
 - description: The Tags API from Amazon Signer — 2 operation(s) for tags.
   name: Amazon Signer Tags API
   slug: amazon-signer-tags-api
-artifact_total: 219
+artifact_total: 225
 collections:
 - collection_type: postman
   name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Tags API
   slug: postman-amazon-signer-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes API
+  slug: open-amazon-signer-revocations-signaturetimestamp-platformid-profileversionarn-jobarn-certificatehashes-api
+- collection_type: open
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Signing Jobs API
+  slug: open-amazon-signer-signing-jobs-api
+- collection_type: open
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Signing Platforms API
+  slug: open-amazon-signer-signing-platforms-api
+- collection_type: open
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Signing Profiles API
+  slug: open-amazon-signer-signing-profiles-api
+- collection_type: open
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Tags API
+  slug: open-amazon-signer-tags-api
 common:
 - group: build
   title: ''
@@ -760,7 +778,7 @@ plans:
 - name: Amazon Signer Plans Pricing
   plan_count: 3
   slug: amazon-signer-plans-pricing
-random_paper: 19
+random_paper: 147
 rate_limits:
 - limit_count: 5
   name: Amazon Signer Rate Limits
@@ -802,7 +820,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/screenshots/amazon-signer-2026-06-20T171827.png
 security:

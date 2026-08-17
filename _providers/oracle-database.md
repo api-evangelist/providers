@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 3
@@ -126,7 +126,7 @@ apis:
 - description: Oracle Scheduler job management
   name: Oracle Database Scheduler API
   slug: oracle-database-scheduler-api
-artifact_total: 201
+artifact_total: 226
 asyncapis:
 - description: Oracle Transactional Event Queues provide Kafka-compatible event streaming and message queuing capabilities built into Oracle Database. TxEventQ enables event-driven architectures with transactional g
   name: Oracle Transactional Event Queues (TxEventQ) API
@@ -205,11 +205,86 @@ collections:
   name: Oracle Database Oracle Cloud Infrastructure Database APEX Scheduler API
   slug: postman-oracle-database-scheduler-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX API
+  slug: open-oracle-database-apex-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Autonomous Databases API
+  slug: open-oracle-database-autonomous-databases-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Backups API
+  slug: open-oracle-database-backups-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Bulk Operations API
+  slug: open-oracle-database-bulk-operations-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Collections API
+  slug: open-oracle-database-collections-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Data Dictionary API
+  slug: open-oracle-database-data-dictionary-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Data Guard API
+  slug: open-oracle-database-data-guard-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Data Pump API
+  slug: open-oracle-database-data-pump-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Database Homes API
+  slug: open-oracle-database-database-homes-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Databases API
+  slug: open-oracle-database-databases-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX DB Systems API
+  slug: open-oracle-database-db-systems-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Documents API
+  slug: open-oracle-database-documents-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX General API
+  slug: open-oracle-database-general-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Indexes API
+  slug: open-oracle-database-indexes-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Metadata API
+  slug: open-oracle-database-metadata-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Monitoring API
+  slug: open-oracle-database-monitoring-api
+- collection_type: open
   name: Oracle Database Oracle Cloud Infrastructure Database API
   slug: open-oracle-database-oci
 - collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Open Service Broker API
+  slug: open-oracle-database-open-service-broker-api
+- collection_type: open
   name: Oracle Database Oracle REST Data Services (ORDS) API
   slug: open-oracle-database-ords
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX PDB Snapshots API
+  slug: open-oracle-database-pdb-snapshots-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Performance API
+  slug: open-oracle-database-performance-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Pluggable Databases API
+  slug: open-oracle-database-pluggable-databases-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Queries API
+  slug: open-oracle-database-queries-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX RDF Graph API
+  slug: open-oracle-database-rdf-graph-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX REST Services API
+  slug: open-oracle-database-rest-services-api
+- collection_type: open
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Scheduler API
+  slug: open-oracle-database-scheduler-api
 - collection_type: open
   name: Oracle Database Oracle SODA (Simple Oracle Document Access) REST API
   slug: open-oracle-database-soda
@@ -734,7 +809,7 @@ plans:
 - name: Oracle Database Plans Pricing
   plan_count: 6
   slug: oracle-database-plans-pricing
-random_paper: 56
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Oracle Database Rate Limits
@@ -781,7 +856,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/screenshots/oracle-database-2026-06-20T191126.png
 security:

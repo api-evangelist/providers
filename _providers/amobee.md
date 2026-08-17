@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API for managing cross-channel advertising campaigns including advertisers, insertion orders, line items, packages, creatives, and ads across programmatic channels. Authentication uses OAuth2 cli
@@ -37,7 +37,11 @@ apis:
 - description: Public utility surface served by the Amobee services gateway at services.amobee.com — the IAB TCF vendor device-storage disclosure document, a request/IP echo endpoint and a health check. It is the on
   name: Amobee Services Gateway API
   slug: amobee-services-gateway-api
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: OpenAPI definition
+  slug: open-amobee-services
 common:
 - group: auth
   title: ''
@@ -163,7 +167,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -171,7 +175,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.3
-  delta: 11.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 38.8
@@ -179,10 +183,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 28.0
+  previous_composite: 39.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/screenshots/amobee-2026-06-20T171938.png
 security:
 - kind: authentication

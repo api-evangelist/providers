@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Patronus Evaluation API scores LLM outputs against built-in and custom evaluators covering hallucination, answer relevance, context utilization, safety, and PII. Evaluators can be invoked synchron
@@ -168,7 +168,7 @@ plans:
 - name: Patronus Ai Plans Pricing
   plan_count: 1
   slug: patronus-ai-plans-pricing
-random_paper: 59
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Patronus Ai Rate Limits
@@ -186,7 +186,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 27.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patronus-ai/refs/heads/main/screenshots/patronus-ai-2026-06-20T191445.png
 security:

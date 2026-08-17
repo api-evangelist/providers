@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,12 +51,27 @@ apis:
 - description: Model catalog discovery.
   name: Featherless AI Models API
   slug: featherless-models-api
-artifact_total: 13
+artifact_total: 18
 asyncapis:
 - description: AsyncAPI 2.6 description of Featherless AI's **chat completion streaming** surface. Featherless AI's core inference API is OpenAI-compatible and does not publish a WebSocket API for chat. The asynchro
   name: Featherless AI Chat Completions Streaming (HTTP + SSE)
   slug: featherless-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Featherless AI Chat API
+  slug: open-featherless-chat-api
+- collection_type: open
+  name: Featherless AI Chat Completions API
+  slug: open-featherless-completions-api
+- collection_type: open
+  name: Featherless AI Chat Embeddings API
+  slug: open-featherless-embeddings-api
+- collection_type: open
+  name: Featherless AI Chat Models API
+  slug: open-featherless-models-api
 - collection_type: open
   name: Featherless AI API
   slug: open-featherless
@@ -128,7 +143,7 @@ plans:
 - name: Featherless Plans Pricing
   plan_count: 4
   slug: featherless-plans-pricing
-random_paper: 94
+random_paper: 131
 rate_limits:
 - limit_count: 3
   name: Featherless Rate Limits
@@ -162,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/screenshots/featherless-2026-07-25T214310.png
 security:

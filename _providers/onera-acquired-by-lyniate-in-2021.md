@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Onera (acquired by Lyniate in 2021)
 nav: Providers
 network: true
 overview: Onera (acquired by Lyniate in 2021) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Supply Chain, Inventory, and Order Management.
-random_paper: 113
+random_paper: 13
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onera-acquired-by-lyniate-in-2021/refs/heads/main/screenshots/onera-acquired-by-lyniate-in-2021-2026-08-07T190338.png
 slug: onera-acquired-by-lyniate-in-2021

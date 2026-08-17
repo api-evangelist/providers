@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: The Accounts API from Lorum — 5 operation(s) for accounts.
@@ -61,11 +61,45 @@ apis:
 - description: The Transactions API from Lorum — 8 operation(s) for transactions.
   name: Lorum Transactions API
   slug: lorum-transactions-api
-artifact_total: 14
+artifact_total: 25
 asyncapis:
 - description: Real-time webhook events emitted by Lorum for payments, transfers, currency exchanges, account changes, and customer onboarding. Generated from the provider's published webhook catalogue (docs.lorum.c
   name: Lorum (Fuse) Webhooks
   slug: lorum-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fuse Accounts API
+  slug: open-lorum-accounts-api
+- collection_type: open
+  name: Fuse Accounts Customers API
+  slug: open-lorum-customers-api
+- collection_type: open
+  name: Fuse Accounts Customers V2 API
+  slug: open-lorum-customers-v2-api
+- collection_type: open
+  name: Fuse Accounts Documents API
+  slug: open-lorum-documents-api
+- collection_type: open
+  name: Fuse Accounts Exchange API
+  slug: open-lorum-exchange-api
+- collection_type: open
+  name: Fuse Accounts Internal Transfers API
+  slug: open-lorum-internal-transfers-api
+- collection_type: open
+  name: Fuse Accounts Oauth API
+  slug: open-lorum-oauth-api
+- collection_type: open
+  name: Fuse Accounts Payments API
+  slug: open-lorum-payments-api
+- collection_type: open
+  name: Fuse Accounts Simulation API
+  slug: open-lorum-simulation-api
+- collection_type: open
+  name: Fuse Accounts Transactions API
+  slug: open-lorum-transactions-api
 common:
 - group: other
   title: ''
@@ -190,7 +224,7 @@ overview: 'Lorum publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lorum''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 19 more developer resources.'
-random_paper: 79
+random_paper: 112
 score:
   band: developing
   composite: 45.4
@@ -219,7 +253,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/screenshots/lorum-2026-07-25T225554.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,20 @@ apis:
 - description: The Reference API from Forex — 1 operation(s) for reference.
   name: Forex Reference API
   slug: forex-reference-api
-artifact_total: 14
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Exchange Rates Account API
+  slug: open-forex-account-api
+- collection_type: open
+  name: Open Exchange Account Rates API
+  slug: open-forex-rates-api
+- collection_type: open
+  name: Open Exchange Rates Account Reference API
+  slug: open-forex-reference-api
 - collection_type: open
   name: Open Exchange Rates API
   slug: open-forex
@@ -98,7 +110,7 @@ plans:
 - name: Forex Plans Pricing
   plan_count: 3
   slug: forex-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Forex Rate Limits
@@ -129,7 +141,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/screenshots/forex-2026-06-20T181424.png
 security:

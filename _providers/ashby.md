@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -198,14 +198,176 @@ apis:
 - description: The Workflow.update API from Ashby — 1 operation(s) for workflow.update.
   name: Ashby Workflow.update API
   slug: ashby-workflow-update-api
-artifact_total: 73
+artifact_total: 127
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ashby API Key API
+  slug: open-ashby-api-key-api
 - collection_type: open
   name: Ashby API
   slug: open-ashby-api
 - collection_type: open
+  name: Ashby API Key Application API
+  slug: open-ashby-application-api
+- collection_type: open
+  name: Ashby API Key Application Feedback API
+  slug: open-ashby-application-feedback-api
+- collection_type: open
+  name: Ashby API Key Application Form API
+  slug: open-ashby-application-form-api
+- collection_type: open
+  name: Ashby API Key Application Hiring Team Role API
+  slug: open-ashby-application-hiring-team-role-api
+- collection_type: open
+  name: Ashby API Key Approval API
+  slug: open-ashby-approval-api
+- collection_type: open
+  name: Ashby API Key Approval Definition API
+  slug: open-ashby-approval-definition-api
+- collection_type: open
+  name: Ashby API Key Archive Reason API
+  slug: open-ashby-archive-reason-api
+- collection_type: open
+  name: Ashby API Key Assessment API
+  slug: open-ashby-assessment-api
+- collection_type: open
   name: ashby-api-assessments-partner-implemented-endpoints
   slug: open-ashby-assessments-partner
+- collection_type: open
+  name: Ashby API Key Brand API
+  slug: open-ashby-brand-api
+- collection_type: open
+  name: Ashby API Key Candidate API
+  slug: open-ashby-candidate-api
+- collection_type: open
+  name: Ashby API Key Candidate Tag API
+  slug: open-ashby-candidate-tag-api
+- collection_type: open
+  name: Ashby API Key Close Reason API
+  slug: open-ashby-close-reason-api
+- collection_type: open
+  name: Ashby API Key Communication Template API
+  slug: open-ashby-communication-template-api
+- collection_type: open
+  name: Ashby API Key Custom Field API
+  slug: open-ashby-custom-field-api
+- collection_type: open
+  name: Ashby API Key Department API
+  slug: open-ashby-department-api
+- collection_type: open
+  name: Ashby API Key Department & Team API
+  slug: open-ashby-department-team-api
+- collection_type: open
+  name: Ashby API Key Feedback Form Definition API
+  slug: open-ashby-feedback-form-definition-api
+- collection_type: open
+  name: Ashby API Key File API
+  slug: open-ashby-file-api
+- collection_type: open
+  name: Ashby API Key Hiring Team API
+  slug: open-ashby-hiring-team-api
+- collection_type: open
+  name: Ashby API Key Hiring Team Role API
+  slug: open-ashby-hiring-team-role-api
+- collection_type: open
+  name: Ashby API Key Interview API
+  slug: open-ashby-interview-api
+- collection_type: open
+  name: Ashby API Key Interview Event API
+  slug: open-ashby-interview-event-api
+- collection_type: open
+  name: Ashby API Key Interview Plan API
+  slug: open-ashby-interview-plan-api
+- collection_type: open
+  name: Ashby API Key Interview Schedule API
+  slug: open-ashby-interview-schedule-api
+- collection_type: open
+  name: Ashby API Key Interview Stage API
+  slug: open-ashby-interview-stage-api
+- collection_type: open
+  name: Ashby API Key Interview Stage Group API
+  slug: open-ashby-interview-stage-group-api
+- collection_type: open
+  name: Ashby API Key Interviewer Pool API
+  slug: open-ashby-interviewer-pool-api
+- collection_type: open
+  name: Ashby API Key Job API
+  slug: open-ashby-job-api
+- collection_type: open
+  name: Ashby API Key Job Board API
+  slug: open-ashby-job-board-api
+- collection_type: open
+  name: Ashby API Key Job Interview Plan API
+  slug: open-ashby-job-interview-plan-api
+- collection_type: open
+  name: Ashby API Key Job Posting API
+  slug: open-ashby-job-posting-api
+- collection_type: open
+  name: Ashby API Key Job Template API
+  slug: open-ashby-job-template-api
+- collection_type: open
+  name: Ashby API Key Location API
+  slug: open-ashby-location-api
+- collection_type: open
+  name: Ashby API Key Notetaker Transcript API
+  slug: open-ashby-notetaker-transcript-api
+- collection_type: open
+  name: Ashby API Key Offer API
+  slug: open-ashby-offer-api
+- collection_type: open
+  name: Ashby API Key Offer Process API
+  slug: open-ashby-offer-process-api
+- collection_type: open
+  name: Ashby API Key Openings API
+  slug: open-ashby-openings-api
+- collection_type: open
+  name: Ashby API Key Project API
+  slug: open-ashby-project-api
+- collection_type: open
+  name: Ashby API Key Referral API
+  slug: open-ashby-referral-api
+- collection_type: open
+  name: Ashby API Key Referral Form API
+  slug: open-ashby-referral-form-api
+- collection_type: open
+  name: Ashby API Key Report API
+  slug: open-ashby-report-api
+- collection_type: open
+  name: Ashby API Key Source API
+  slug: open-ashby-source-api
+- collection_type: open
+  name: Ashby API Key Source Tracking Links API
+  slug: open-ashby-source-tracking-links-api
+- collection_type: open
+  name: Ashby API Key Survey Form Definition API
+  slug: open-ashby-survey-form-definition-api
+- collection_type: open
+  name: Ashby API Key Survey Request API
+  slug: open-ashby-survey-request-api
+- collection_type: open
+  name: Ashby API Key Survey Submission API
+  slug: open-ashby-survey-submission-api
+- collection_type: open
+  name: Ashby API Key User API
+  slug: open-ashby-user-api
+- collection_type: open
+  name: Ashby API Key Webhook API
+  slug: open-ashby-webhook-api
+- collection_type: open
+  name: Ashby API Key Workflow.info API
+  slug: open-ashby-workflow-info-api
+- collection_type: open
+  name: Ashby API Key Workflow.list API
+  slug: open-ashby-workflow-list-api
+- collection_type: open
+  name: Ashby API Key Workflow.start API
+  slug: open-ashby-workflow-start-api
+- collection_type: open
+  name: Ashby API Key Workflow.update API
+  slug: open-ashby-workflow-update-api
 common:
 - group: agent
   title: ''
@@ -333,7 +495,7 @@ plans:
 - name: Ashby Plans Pricing
   plan_count: 6
   slug: ashby-plans-pricing
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 3
   name: Ashby Rate Limits
@@ -358,7 +520,7 @@ score:
       marker_coverage: 0.0
       total: 53
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/screenshots/ashby-2026-06-20T172459.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -54,11 +54,30 @@ apis:
 - description: The Webhooks API from Luxury Presence — 3 operation(s) for webhooks.
   name: Luxury Presence Webhooks API
   slug: luxury-presence-webhooks-api
-artifact_total: 10
+artifact_total: 16
 asyncapis:
 - description: Outbound webhooks that deliver lead-activity events from Luxury Presence websites. Currently the `leads` event is supported. Subscriptions are managed through the Public API webhook endpoints (/crm/v1
   name: Luxury Presence Lead Activity Webhooks
   slug: luxury-presence-leads-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Documentation Agents API
+  slug: open-luxury-presence-agents-api
+- collection_type: open
+  name: API Documentation Agents Media API
+  slug: open-luxury-presence-media-api
+- collection_type: open
+  name: API Documentation Agents Offices API
+  slug: open-luxury-presence-offices-api
+- collection_type: open
+  name: API Documentation Agents Teams API
+  slug: open-luxury-presence-teams-api
+- collection_type: open
+  name: API Documentation Agents Webhooks API
+  slug: open-luxury-presence-webhooks-api
 common:
 - group: other
   title: ''
@@ -183,7 +202,7 @@ overview: 'Luxury Presence publishes 5 APIs on the [APIs.io](https://apis.io/) n
 
 
   Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 35
+random_paper: 105
 score:
   band: developing
   composite: 49.2
@@ -207,7 +226,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/screenshots/luxury-presence-2026-07-25T225740.png
 security:

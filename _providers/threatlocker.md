@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -82,11 +82,72 @@ apis:
 - description: The VDIHyperV API from ThreatLocker — 1 operation(s) for vdihyperv.
   name: ThreatLocker VDI Hyper V API
   slug: threatlocker-vdihyperv-api
-artifact_total: 24
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Threatlocker Webhooks
   slug: threatlocker-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Portal Action Log API
+  slug: open-threatlocker-actionlog-api
+- collection_type: open
+  name: Portal Application API
+  slug: open-threatlocker-application-api
+- collection_type: open
+  name: Portal Approval Request API
+  slug: open-threatlocker-approvalrequest-api
+- collection_type: open
+  name: Portal Computer API
+  slug: open-threatlocker-computer-api
+- collection_type: open
+  name: Portal Computer Checkin API
+  slug: open-threatlocker-computercheckin-api
+- collection_type: open
+  name: Portal Computer Group API
+  slug: open-threatlocker-computergroup-api
+- collection_type: open
+  name: Portal Maintenance Mode API
+  slug: open-threatlocker-maintenancemode-api
+- collection_type: open
+  name: Portal Online Devices API
+  slug: open-threatlocker-onlinedevices-api
+- collection_type: open
+  name: Portal Organization API
+  slug: open-threatlocker-organization-api
+- collection_type: open
+  name: Portal Policy API
+  slug: open-threatlocker-policy-api
+- collection_type: open
+  name: PortalAPI
+  slug: open-threatlocker-portal-openapi-original
+- collection_type: open
+  name: Portal Report API
+  slug: open-threatlocker-report-api
+- collection_type: open
+  name: Portal Save Search API
+  slug: open-threatlocker-savesearch-api
+- collection_type: open
+  name: Portal Scheduled Agent Action API
+  slug: open-threatlocker-scheduledagentaction-api
+- collection_type: open
+  name: Portal System Audit API
+  slug: open-threatlocker-systemaudit-api
+- collection_type: open
+  name: Portal Tag API
+  slug: open-threatlocker-tag-api
+- collection_type: open
+  name: Portal Threat Locker Version API
+  slug: open-threatlocker-threatlockerversion-api
+- collection_type: open
+  name: Portal Upload Request API
+  slug: open-threatlocker-uploadrequest-api
+- collection_type: open
+  name: Portal VDI Hyper V API
+  slug: open-threatlocker-vdihyperv-api
 common:
 - group: agent
   title: ''
@@ -235,7 +296,7 @@ overview: 'ThreatLocker publishes 18 APIs on the [APIs.io](https://apis.io/) net
 
 
   ThreatLocker''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 88
+random_paper: 96
 score:
   band: developing
   composite: 53.0
@@ -259,7 +320,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

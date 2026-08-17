@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: AptarGroup product catalog
   name: AptarGroup Products API
   slug: aptargroup-products-api
-artifact_total: 14
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AptarGroup Product Catalog Orders API
+  slug: open-aptargroup-orders-api
+- collection_type: open
+  name: AptarGroup Product Catalog Orders Products API
+  slug: open-aptargroup-products-api
 common:
 - group: agent
   title: ''
@@ -122,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Healthcare's Quiet AI Boom Is Creating a New Class of ...
   url: https://www.prnewswire.com/news-releases/healthcares-quiet-ai-boom-is-creating-a-new-class-of-breakout-contenders-302465869.html
-random_paper: 13
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Aptargroup Rate Limits
@@ -164,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

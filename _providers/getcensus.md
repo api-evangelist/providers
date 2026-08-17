@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,14 +27,18 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
+  score: 33.8
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Census Management REST API allows developers to programmatically manage syncs, connections, models, segments, and destinations within Census workspaces and organizations. Supports both workspace-l
   name: Census Management API
   slug: census-management-api
-artifact_total: 6
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Getcensus Sync Lifecycle Webhooks
+  slug: getcensus-sync-lifecycle-webhooks
 common:
 - group: auth
   title: ''
@@ -92,10 +96,86 @@ common:
   title: ''
   type: ChangeLog
   url: https://whatsnew.getcensus.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/getcensus-changelog.yml
 - group: other
   title: ''
   type: Terraform
-  url: https://docs.getcensus.com/misc/developers/terraform
+  url: https://fivetran.com/docs/activations/rest-api/terraform
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://fivetran.com/docs/activations/rest-api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://fivetran.com/docs/activations/rest-api/api-reference/introduction
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.fivetran.com/hc/en-us
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.getcensus.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.fivetran.com/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.fivetran.com/legal/privacy
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/getcensus/workspace/census-api/overview
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.fivetran.com/security
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/getcensus-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/getcensus-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/getcensus-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/getcensus-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/getcensus-lifecycle.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/getcensus-sync-lifecycle-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/getcensus-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/getcensus-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/getcensus-components.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/getcensus-llms.txt
 created: '2026-06-13'
 description: Census (now Fivetran Activations) is a reverse ETL platform that syncs data from data warehouses to CRM, marketing, advertising, and other business destinations. It enables data teams to define SQL-based models and segments, then automatically activate that data to over 200 destinations including Salesforce, HubSpot, Facebook Ads, and Google Ads without writing custom integrations.
 finops:
@@ -104,40 +184,47 @@ finops:
   slug: getcensus-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getcensus.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: Census
 nav: Providers
 network: true
 overview: 'Census publishes 1 API on the [APIs.io](https://apis.io/) network: Management API. Tagged areas include Reverse ETL, Data Activation, Data Warehouse, CRM, and Marketing Automation.
 
 
-  Census'' developer surface includes documentation, engineering blog, pricing, changelog, and 11 more developer resources.'
+  The Census catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Census'' developer surface includes documentation, engineering blog, pricing, changelog, API reference, support, signup flow, and 27 more developer resources.'
 plans:
 - name: Getcensus Plans Pricing
   plan_count: 4
   slug: getcensus-plans-pricing
-random_paper: 17
+random_paper: 83
 rate_limits:
 - limit_count: 2
   name: Getcensus Rate Limits
   slug: getcensus-rate-limits
 score:
-  band: thin
-  composite: 36.2
-  delta: 0.0
+  band: strong
+  composite: 61.0
+  delta: 24.8
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 32.3
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 57.9
+    commercial_clarity: 100.0
+    contract_quality: 51.6
+    developer_ergonomics: 52.2
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 65.8
   previous_composite: 36.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/screenshots/getcensus-2026-06-20T181807.png
 security:
+- kind: authentication
+  name: Getcensus Authentication
+  slug: getcensus-authentication
+  summary_line: http · 2 schemes
 - kind: domain-security
   name: Getcensus Domain Security
   slug: getcensus-domain-security

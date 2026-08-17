@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-12'
+  score: 55.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 42
   slug: snapchat-agentic-access
   summary_line: 42 operations · 18 acting
-api_count: 16
+api_count: 17
 apis:
 - description: The Snapchat Ads API (Marketing API) allows developers to programmatically create, manage, and optimize advertising campaigns on the Snapchat platform. It provides endpoints for managing organizations
   name: Snapchat Ads API
@@ -87,17 +88,59 @@ apis:
 - description: Endpoints for retrieving authenticated user profile information including display name and Bitmoji avatar.
   name: Snapchat User Profile API
   slug: snapchat-user-profile-api
-artifact_total: 57
+- description: Snap's first-party hosted Model Context Protocol server for the Snapchat Ads API. A supported agent connects over streamable HTTP to https://mcp.snapchat.com/ads and authenticates with OAuth 2.0 (auth
+  name: Snapchat Ads MCP Server
+  slug: snapchat-ads-mcp
+artifact_total: 74
 collections:
 - collection_type: open
-  name: Snapchat Ads API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Snapchat Ads Ad Accounts API
+  slug: open-snapchat-ad-accounts-api
+- collection_type: open
+  name: Snapchat Ads Ad Accounts Ad Squads API
+  slug: open-snapchat-ad-squads-api
+- collection_type: open
+  name: Snapchat Ad Accounts Ads API
   slug: open-snapchat-ads-api
+- collection_type: open
+  name: Snapchat Ads Ad Accounts Audience Segments API
+  slug: open-snapchat-audience-segments-api
+- collection_type: open
+  name: Snapchat Ads Ad Accounts Campaigns API
+  slug: open-snapchat-campaigns-api
+- collection_type: open
+  name: Snapchat Ads Ad Accounts Conversion Events API
+  slug: open-snapchat-conversion-events-api
 - collection_type: open
   name: Snapchat Conversions API
   slug: open-snapchat-conversions-api
 - collection_type: open
+  name: Snapchat Ads Ad Accounts Creatives API
+  slug: open-snapchat-creatives-api
+- collection_type: open
+  name: Snapchat Ads Ad Accounts Funding Sources API
+  slug: open-snapchat-funding-sources-api
+- collection_type: open
   name: Snapchat Login Kit API
   slug: open-snapchat-login-kit
+- collection_type: open
+  name: Snapchat Ads Ad Accounts Measurement API
+  slug: open-snapchat-measurement-api
+- collection_type: open
+  name: Snapchat Ads Ad Accounts Media API
+  slug: open-snapchat-media-api
+- collection_type: open
+  name: Snapchat Ads Ad Accounts OAuth API
+  slug: open-snapchat-oauth-api
+- collection_type: open
+  name: Snapchat Ads Ad Accounts Organizations API
+  slug: open-snapchat-organizations-api
+- collection_type: open
+  name: Snapchat Ads Ad Accounts User Profile API
+  slug: open-snapchat-user-profile-api
 common:
 - group: agent
   title: ''
@@ -167,6 +210,110 @@ common:
   title: ''
   type: LlmsText
   url: https://developers.snap.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/snapchat-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/snapchat-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/snapchat-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/snapchat-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/snapchat-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/snapchat-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/snapchat-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-ads-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/snapchat-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/snapchat-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/snapchat-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/snapchat-lifecycle.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/snapchat-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/snapchat-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/snapchat-trust-center.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/snapchat-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/snapchat-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/snapchat-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/snapchat-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/snapchat-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/snapchat-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/snapchat-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.snap.com/marketing-api/Ads-API/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.snap.com/marketing-api/home
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developers.snap.com/marketing-api/Ads-API/changelog
 created: '2026-05-02'
 description: Snap Inc. operates Snapchat, a visual messaging app and camera platform with developer tools including the Marketing API for programmatic advertising, Conversions API for server-side conversion tracking, Login Kit for OAuth-based user authentication, Creative Kit for content sharing to Snapchat, Camera Kit for embedding Snap AR technology into third-party apps, and Lens Studio for building augmented reality experiences.
 examples:
@@ -268,7 +415,11 @@ jsonld:
   property_count: 10
   slug: snapchat-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: snapchat-mcp.yml
+  slug: snapchat-mcpyml
+modified: '2026-08-13'
 name: Snapchat
 nav: Providers
 network: true
@@ -278,12 +429,12 @@ overview: 'Snapchat publishes 13 APIs on the [APIs.io](https://apis.io/) network
   The Snapchat catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Snapchat''s developer surface includes authentication, documentation, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
+  Snapchat''s developer surface includes authentication, documentation, engineering blog, support, pricing, signup flow, sandbox, and 36 more developer resources.'
 plans:
 - name: Snapchat Plans Pricing
   plan_count: 1
   slug: snapchat-plans-pricing
-random_paper: 10
+random_paper: 105
 rate_limits:
 - limit_count: 2
   name: Snapchat Rate Limits
@@ -307,20 +458,20 @@ rules:
   slug: snapchat-rules
 scopes:
 - name: Snapchat Scopes
-  scope_count: 1
+  scope_count: 7
   slug: snapchat-scopes
-  summary_line: 1 scope · authorizationCode
+  summary_line: 7 scopes · authorizationCode/implicit
 score:
-  band: developing
-  composite: 52.2
-  delta: 0.0
+  band: exemplar
+  composite: 69.9
+  delta: 17.7
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 65.8
     contract_quality: 72.3
-    developer_ergonomics: 34.8
+    developer_ergonomics: 80.4
     discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 10.5
+    governance: 79.2
+    operational_transparency: 44.7
   previous_composite: 52.2
   provenance:
     agentic_access: derived
@@ -330,18 +481,26 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png
 security:
 - kind: authentication
   name: Snapchat Authentication
   slug: snapchat-authentication
-  summary_line: apiKey/http/oauth2 · 3 schemes
+  summary_line: oauth2/http/apiKey · 5 schemes
 - kind: domain-security
   name: Snapchat Domain Security
   slug: snapchat-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Snapchat Vulnerability Disclosure
+  slug: snapchat-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Snapchat Trust Center
+  slug: snapchat-trust-center
+  summary_line: trust center published
 slug: snapchat
 tags:
 - Advertising

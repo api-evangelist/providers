@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -90,8 +90,65 @@ apis:
 - description: Manual review notes and decisions on entities.
   name: Alloy Reviews API
   slug: alloy-com-reviews-api
-artifact_total: 65
+artifact_total: 84
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alloy Bank Accounts API
+  slug: open-alloy-com-bank-accounts-api
+- collection_type: open
+  name: Alloy Bank Accounts Batches API
+  slug: open-alloy-com-batches-api
+- collection_type: open
+  name: Alloy Bank Accounts Cases API
+  slug: open-alloy-com-cases-api
+- collection_type: open
+  name: Alloy Bank Accounts Custom Lists API
+  slug: open-alloy-com-custom-lists-api
+- collection_type: open
+  name: Alloy Bank Accounts Documents API
+  slug: open-alloy-com-documents-api
+- collection_type: open
+  name: Alloy Bank Accounts Entities API
+  slug: open-alloy-com-entities-api
+- collection_type: open
+  name: Alloy Identity Bank Accounts Entity Groups API
+  slug: open-alloy-com-entity-groups-api
+- collection_type: open
+  name: Alloy Bank Accounts Evaluations API
+  slug: open-alloy-com-evaluations-api
+- collection_type: open
+  name: Alloy Bank Accounts Events API
+  slug: open-alloy-com-events-api
+- collection_type: open
+  name: Alloy Bank Accounts Groups API
+  slug: open-alloy-com-groups-api
+- collection_type: open
+  name: Alloy Bank Accounts Investigations API
+  slug: open-alloy-com-investigations-api
+- collection_type: open
+  name: Alloy Bank Accounts Journeys API
+  slug: open-alloy-com-journeys-api
+- collection_type: open
+  name: Alloy Bank Accounts Lists API
+  slug: open-alloy-com-lists-api
+- collection_type: open
+  name: Alloy Bank Accounts OAuth API
+  slug: open-alloy-com-oauth-api
+- collection_type: open
+  name: Alloy Bank Accounts Parameters API
+  slug: open-alloy-com-parameters-api
+- collection_type: open
+  name: Alloy Bank Accounts Portfolio Evaluations API
+  slug: open-alloy-com-portfolio-evaluations-api
+- collection_type: open
+  name: Alloy Bank Accounts Published Attributes API
+  slug: open-alloy-com-published-attributes-api
+- collection_type: open
+  name: Alloy Identity Bank Accounts Transactions API
+  slug: open-alloy-com-transactions-api
 - collection_type: open
   name: Alloy API
   slug: open-alloy
@@ -319,7 +376,7 @@ plans:
 - name: Alloy Plans Pricing
   plan_count: 2
   slug: alloy-plans-pricing
-random_paper: 69
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Alloy Com Rate Limits
@@ -367,7 +424,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/screenshots/alloy-com-2026-06-20T171540.png
 security:

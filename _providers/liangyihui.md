@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ name: liangyihui
 nav: Providers
 network: true
 overview: liangyihui is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, China, Venture Backed, Qiming Portfolio, and Private API.
-random_paper: 115
+random_paper: 32
 score:
   band: minimal
   composite: 6.9
@@ -67,7 +67,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liangyihui/refs/heads/main/screenshots/liangyihui-2026-07-25T225014.png
 security:

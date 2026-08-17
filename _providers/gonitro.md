@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ arazzos:
 - description: Authenticate, create an envelope, add a document, participant, and signature field, then send it for signing.
   name: Create and send a Nitro Sign envelope
   slug: gonitro-create-and-send-envelope
-artifact_total: 23
+artifact_total: 32
 asyncapis:
 - description: Event surface for Nitro. Sign delivers envelope lifecycle webhooks (HTTP POST) signed with RFC 9421 HTTP Message Signatures (HMAC-SHA256; headers Content-Digest, Signature-Input, Signature). One webho
   name: Nitro Sign & PDF Services Webhooks
@@ -97,6 +97,33 @@ collections:
 - collection_type: postman
   name: Nitro PDF Services Public Authentication Transformations API
   slug: postman-gonitro-transformations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nitro PDF Services Public Authentication API
+  slug: open-gonitro-authentication-api
+- collection_type: open
+  name: Nitro PDF Services Public Authentication Conversions API
+  slug: open-gonitro-conversions-api
+- collection_type: open
+  name: Nitro PDF Services Public Authentication Extractions API
+  slug: open-gonitro-extractions-api
+- collection_type: open
+  name: Nitro PDF Services Public Authentication Generations API
+  slug: open-gonitro-generations-api
+- collection_type: open
+  name: Nitro PDF Services Public Authentication Jobs API
+  slug: open-gonitro-jobs-api
+- collection_type: open
+  name: Nitro PDF Services Public Authentication Platform API
+  slug: open-gonitro-platform-api
+- collection_type: open
+  name: Nitro PDF Services Public Authentication Sign API
+  slug: open-gonitro-sign-api
+- collection_type: open
+  name: Nitro PDF Services Public Authentication Transformations API
+  slug: open-gonitro-transformations-api
 common:
 - group: other
   title: ''
@@ -265,7 +292,7 @@ overview: 'GoNitro publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GoNitro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 50
+random_paper: 25
 score:
   band: strong
   composite: 60.4
@@ -289,7 +316,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/screenshots/gonitro-2026-07-25T220034.png
 security:

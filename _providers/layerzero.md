@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: The Transfer API from LayerZero — 4 operation(s) for transfer.
   name: LayerZero Transfer API
   slug: layerzero-transfer-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LayerZero OFT Transfer Discovery API
+  slug: open-layerzero-discovery-api
+- collection_type: open
+  name: LayerZero OFT Transfer Discovery messages API
+  slug: open-layerzero-messages-api
+- collection_type: open
+  name: LayerZero OFT Transfer Discovery ofts API
+  slug: open-layerzero-ofts-api
+- collection_type: open
+  name: LayerZero OFT Transfer Discovery openapi API
+  slug: open-layerzero-openapi-api
+- collection_type: open
+  name: LayerZero OFT Discovery Transfer API
+  slug: open-layerzero-transfer-api
 common:
 - group: operate
   title: ''
@@ -156,7 +175,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 29
+random_paper: 95
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -181,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/screenshots/layerzero-2026-06-20T184335.png
 security:

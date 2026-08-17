@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -75,11 +75,44 @@ apis:
 - description: The Teaser API from Pinnacle Sports Betting — 1 operation(s) for teaser.
   name: ' Pinnacle Sports Betting Teaser API'
   slug: pinnacle-teaser-api
-artifact_total: 20
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Pinnacle Lines API - Long-Poll Surface
   slug: open-pinnacle-asyncapi
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons API
+  slug: open-pinnacle-cancellationreasons-api
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons Currencies API
+  slug: open-pinnacle-currencies-api
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons Fixtures API
+  slug: open-pinnacle-fixtures-api
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons Inrunning API
+  slug: open-pinnacle-inrunning-api
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons Leagues API
+  slug: open-pinnacle-leagues-api
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons Line API
+  slug: open-pinnacle-line-api
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons Odds API
+  slug: open-pinnacle-odds-api
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons Periods API
+  slug: open-pinnacle-periods-api
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons Sports API
+  slug: open-pinnacle-sports-api
+- collection_type: open
+  name: Pinnacle Lines Cancellationreasons Teaser API
+  slug: open-pinnacle-teaser-api
 - collection_type: open
   name: Pinnacle Lines API
   slug: open-pinnacle
@@ -124,7 +157,7 @@ plans:
 - name: Pinnacle Plans Pricing
   plan_count: 3
   slug: pinnacle-plans-pricing
-random_paper: 2
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Pinnacle Rate Limits
@@ -149,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/screenshots/pinnacle-2026-06-20T191716.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,11 +57,32 @@ apis:
 - description: Advanced Ship Notice (ASN) retrieval
   name: Texas Instruments Shipments API
   slug: texas-instruments-shipments-api
-artifact_total: 22
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Texas Instruments Product Information Financial API
+  slug: open-texas-instruments-financial-api
+- collection_type: open
+  name: Texas Instruments Product Information Financial Orders API
+  slug: open-texas-instruments-orders-api
+- collection_type: open
+  name: Texas Instruments Financial Product Information API
+  slug: open-texas-instruments-product-information-api
+- collection_type: open
+  name: Texas Instruments Product Information Financial Product Information Orchestrated API
+  slug: open-texas-instruments-product-information-orchestrated-api
 - collection_type: open
   name: Texas Instruments Product Information API
   slug: open-texas-instruments-product-information
+- collection_type: open
+  name: Texas Instruments Product Information Financial Products API
+  slug: open-texas-instruments-products-api
+- collection_type: open
+  name: Texas Instruments Product Information Financial Shipments API
+  slug: open-texas-instruments-shipments-api
 - collection_type: open
   name: Texas Instruments Store API
   slug: open-texas-instruments-store
@@ -193,7 +214,7 @@ press:
 - date: '2026-05-25'
   title: TI's new power-management solutions enable scalable AI ...
   url: https://www.ti.com/about-ti/newsroom/news-releases/2025/tis-new-power-management-solutions-enable-scalable-ai-infrastructures.html
-random_paper: 22
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Texas Instruments Rate Limits
@@ -240,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/screenshots/texas-instruments-2026-06-20T195203.png
 security:

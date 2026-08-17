@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Providers API from Garner Health — 1 operation(s) for providers.
   name: Garner Health Providers API
   slug: garner-health-providers-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Garner Health Facilities API
+  slug: open-garner-health-facilities-api
+- collection_type: open
+  name: Garner Health Facilities Professionals API
+  slug: open-garner-health-professionals-api
+- collection_type: open
+  name: Garner Health Facilities Provider Annotations API
+  slug: open-garner-health-provider-annotations-api
+- collection_type: open
+  name: Garner Health Facilities Providers API
+  slug: open-garner-health-providers-api
 common:
 - group: company
   title: ''
@@ -172,7 +188,7 @@ overview: 'Garner Health publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Garner Health''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 114
+random_paper: 122
 score:
   band: developing
   composite: 44.7
@@ -202,7 +218,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/screenshots/garner-health-2026-07-25T215450.png
 security:

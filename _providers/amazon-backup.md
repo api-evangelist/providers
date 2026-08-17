@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,7 +49,23 @@ apis:
 - description: Operations for restoring backed-up resources
   name: Amazon Backup Restore Jobs API
   slug: amazon-backup-restore-jobs-api
-artifact_total: 15
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Backup Backup Jobs API
+  slug: open-amazon-backup-backup-jobs-api
+- collection_type: open
+  name: Amazon Backup Backup Jobs Backup Plans API
+  slug: open-amazon-backup-backup-plans-api
+- collection_type: open
+  name: Amazon Backup Backup Jobs Backup Vaults API
+  slug: open-amazon-backup-backup-vaults-api
+- collection_type: open
+  name: Amazon Backup Backup Jobs Restore Jobs API
+  slug: open-amazon-backup-restore-jobs-api
 common:
 - group: agent
   title: ''
@@ -194,7 +210,7 @@ overview: 'Amazon Backup publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amazon Backup''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, status page, and 19 more developer resources.'
-random_paper: 1
+random_paper: 129
 rules:
 - name: Amazon Backup API Rules
   rule_count: 5
@@ -226,7 +242,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/screenshots/amazon-backup-2026-07-25T195935.png
 security:

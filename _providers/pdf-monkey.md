@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,8 +48,23 @@ apis:
 - description: Manage document templates for PDF generation
   name: PDF Monkey Templates API
   slug: pdf-monkey-templates-api
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PDF Monkey Authentication API
+  slug: open-pdf-monkey-authentication-api
+- collection_type: open
+  name: PDFMonkey Document Cards API
+  slug: open-pdf-monkey-document-cards-api
+- collection_type: open
+  name: PDF Monkey Authentication Documents API
+  slug: open-pdf-monkey-documents-api
+- collection_type: open
+  name: PDF Monkey Authentication Templates API
+  slug: open-pdf-monkey-templates-api
 - collection_type: open
   name: PDFMonkey API
   slug: open-pdfmonkey
@@ -159,7 +174,7 @@ plans:
 - name: Pdf Monkey Plans Pricing
   plan_count: 5
   slug: pdf-monkey-plans-pricing
-random_paper: 58
+random_paper: 124
 rate_limits:
 - limit_count: 0
   name: Pdf Monkey Rate Limits
@@ -193,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/screenshots/pdf-monkey-2026-08-07T191719.png
 security:

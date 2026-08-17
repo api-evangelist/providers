@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,8 +46,17 @@ apis:
 - description: The Simplifier.net FHIR Package API API from Firely — 2 operation(s) for simplifier.net fhir package api.
   name: Firely Simplifier.net FHIR Package API API
   slug: firely-server-simplifier-net-fhir-package-api-api
-artifact_total: 31
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Simplifier.net FHIR Package Catalog API
+  slug: open-firely-server-catalog-api
+- collection_type: open
+  name: Simplifier.net FHIR Package Catalog Simplifier.net FHIR Package API API
+  slug: open-firely-server-simplifier-net-fhir-package-api-api
 - collection_type: open
   name: Simplifier.net FHIR Package API
   slug: open-simplifier-package-api
@@ -311,7 +320,7 @@ overview: 'Firely publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Firely''s developer surface includes developer portal, documentation, tooling, code examples, pricing, signup flow, training material, and 48 more developer resources.'
-random_paper: 39
+random_paper: 18
 score:
   band: thin
   composite: 28.4
@@ -338,7 +347,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/screenshots/firely-server-2026-06-20T181232.png
 security:

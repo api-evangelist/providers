@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: OpenID Connect 1.0 / OAuth 2.0 provider endpoints.
   name: Authelia OIDC API
   slug: authelia-oidc-api
-artifact_total: 29
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authelia OpenID Connect 1.0 Endpoints Discovery API
+  slug: open-authelia-discovery-api
+- collection_type: open
+  name: Authelia OpenID Connect 1.0 Endpoints Discovery OIDC API
+  slug: open-authelia-oidc-api
 - collection_type: open
   name: Authelia OpenID Connect 1.0 Endpoints
   slug: open-authelia
@@ -164,7 +173,7 @@ plans:
 - name: Authelia Plans Pricing
   plan_count: 3
   slug: authelia-plans-pricing
-random_paper: 5
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Authelia Rate Limits
@@ -194,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/screenshots/authelia-2026-06-20T172602.png
 security:

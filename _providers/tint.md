@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Rated plan quotes for a policy.
   name: Tint Quotes API
   slug: tint-quotes-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tint Claims API
+  slug: open-tint-claims-api
+- collection_type: open
+  name: Tint Claims Decisions API
+  slug: open-tint-decisions-api
+- collection_type: open
+  name: Tint Claims Policies API
+  slug: open-tint-policies-api
+- collection_type: open
+  name: Tint Claims Programs API
+  slug: open-tint-programs-api
+- collection_type: open
+  name: Tint Claims Questionnaires API
+  slug: open-tint-questionnaires-api
+- collection_type: open
+  name: Tint Claims Quotes API
+  slug: open-tint-quotes-api
 - collection_type: open
   name: Tint API
   slug: open-tint
@@ -123,7 +144,7 @@ plans:
 - name: Tint Plans Pricing
   plan_count: 1
   slug: tint-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Tint Rate Limits
@@ -154,7 +175,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

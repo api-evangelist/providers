@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Live, versioned HTTP event-ingest API behind the Black Crow AI JavaScript tag. POST /v1/events/{event_name} accepts a JSON body identified by siteName, pageId and visitorId and carries the visit, purc
@@ -162,7 +162,7 @@ plans:
 - name: Black Crow Ai Plans Pricing
   plan_count: 0
   slug: black-crow-ai-plans-pricing
-random_paper: 44
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Black Crow Ai Rate Limits
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.1
-  delta: 12.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -178,10 +178,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 16.6
+  previous_composite: 29.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-crow-ai/refs/heads/main/screenshots/black-crow-ai-2026-07-25T203228.png
 security:
 - kind: authentication

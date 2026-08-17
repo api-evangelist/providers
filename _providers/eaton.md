@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -96,8 +96,35 @@ apis:
 - description: Tenant organizations that own devices and users.
   name: Eaton Organizations API
   slug: eaton-organizations-api
-artifact_total: 40
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eaton Smart Breaker Authorization API
+  slug: open-eaton-authorization-api
+- collection_type: open
+  name: Eaton Smart Breaker Authorization Device Commands API
+  slug: open-eaton-device-commands-api
+- collection_type: open
+  name: Eaton Smart Breaker Authorization Devices API
+  slug: open-eaton-devices-api
+- collection_type: open
+  name: Eaton Smart Breaker Authorization Energy Data API
+  slug: open-eaton-energy-data-api
+- collection_type: open
+  name: Eaton Smart Breaker Authorization EV Only API
+  slug: open-eaton-ev-only-api
+- collection_type: open
+  name: Eaton Smart Breaker Authorization Events API
+  slug: open-eaton-events-api
+- collection_type: open
+  name: Eaton Smart Breaker Authorization Locations API
+  slug: open-eaton-locations-api
+- collection_type: open
+  name: Eaton Smart Breaker Authorization Organizations API
+  slug: open-eaton-organizations-api
 - collection_type: open
   name: Eaton Smart Breaker API
   slug: open-smart-breaker
@@ -303,7 +330,7 @@ plans:
 - name: Eaton Plans Pricing
   plan_count: 9
   slug: eaton-plans-pricing
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 0
   name: Eaton Rate Limits
@@ -356,7 +383,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/screenshots/eaton-2026-06-20T180408.png
 security:

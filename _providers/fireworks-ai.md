@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 227
   human_in_the_loop: 2
@@ -69,15 +69,36 @@ apis:
 - description: The text-completion.openapi_other API from Fireworks AI — 2 operation(s) for text-completion.openapi_other.
   name: Fireworks AI text-completion.openapi_other API
   slug: fireworks-ai-text-completion-openapi-other-api
-artifact_total: 24
+artifact_total: 35
 asyncapis:
 - description: AsyncAPI description of the Fireworks AI streaming inference surface. Fireworks streams generation deltas over HTTP using Server-Sent Events (SSE) on a single `text/event-stream` response when `stream
   name: Fireworks AI Streaming Inference API
   slug: fireworks-ai-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fireworks AI Anthropic Compatible Messages anthropic-messages.openapi_other API
+  slug: open-fireworks-ai-anthropic-messages-openapi-other-api
+- collection_type: open
   name: Fireworks AI Anthropic Compatible Messages API
   slug: open-fireworks-ai-anthropic-messages
+- collection_type: open
+  name: Fireworks AI Anthropic Compatible Messages anthropic-messages.openapi_other Chat API
+  slug: open-fireworks-ai-chat-api
+- collection_type: open
+  name: Fireworks AI Anthropic Compatible Messages anthropic-messages.openapi_other Completions API
+  slug: open-fireworks-ai-completions-api
+- collection_type: open
+  name: Fireworks AI Anthropic Compatible Messages anthropic-messages.openapi_other Gateway API
+  slug: open-fireworks-ai-gateway-api
+- collection_type: open
+  name: Fireworks AI Anthropic Compatible Messages anthropic-messages.openapi_other gateway-extra.openapi_Gateway API
+  slug: open-fireworks-ai-gateway-extra-openapi-gateway-api
+- collection_type: open
+  name: Fireworks AI Anthropic Compatible Messages anthropic-messages.openapi_other gateway.openapi_Gateway API
+  slug: open-fireworks-ai-gateway-openapi-gateway-api
 - collection_type: open
   name: Gateway REST API
   slug: open-fireworks-ai-gateway
@@ -85,8 +106,20 @@ collections:
   name: Gateway REST API
   slug: open-fireworks-ai-merged
 - collection_type: open
+  name: Fireworks AI Anthropic Compatible anthropic-.openapi_other Messages API
+  slug: open-fireworks-ai-messages-api
+- collection_type: open
+  name: Fireworks AI Anthropic Compatible Messages anthropic-messages.openapi_other Responses API
+  slug: open-fireworks-ai-responses-api
+- collection_type: open
+  name: Fireworks AI Anthropic Compatible Messages anthropic-messages.openapi_other responses.openapi_other API
+  slug: open-fireworks-ai-responses-openapi-other-api
+- collection_type: open
   name: Fireworks Responses API
   slug: open-fireworks-ai-responses
+- collection_type: open
+  name: Fireworks AI Anthropic Compatible Messages anthropic-messages.openapi_other text-completion.openapi_other API
+  slug: open-fireworks-ai-text-completion-openapi-other-api
 - collection_type: open
   name: Fireworks Text Completion API
   slug: open-fireworks-ai-text-completion
@@ -166,7 +199,7 @@ plans:
 - name: Fireworks Ai Plans Pricing
   plan_count: 5
   slug: fireworks-ai-plans-pricing
-random_paper: 35
+random_paper: 43
 rate_limits:
 - limit_count: 6
   name: Fireworks Ai Rate Limits
@@ -200,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/screenshots/fireworks-ai-2026-06-20T181235.png
 security:

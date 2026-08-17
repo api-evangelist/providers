@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -88,7 +88,7 @@ overview: 'Apis Partners is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Apis Partners'' developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 33
+random_paper: 12
 scopes:
 - name: Apis Partners Scopes
   scope_count: 2
@@ -113,7 +113,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-partners/refs/heads/main/screenshots/apis-partners-2026-07-25T200639.png
 security:

@@ -12,9 +12,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +23,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-12'
+  score: 54.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -108,7 +109,7 @@ apis:
 - description: Trigger workflow enrollments and manage journey-based automation workflows.
   name: Iterable Workflows API
   slug: iterable-workflows-api
-artifact_total: 90
+artifact_total: 110
 asyncapis:
 - description: Iterable system webhooks send real-time event data from an Iterable project to external systems via HTTP POST requests whenever specified events occur. System webhooks can be configured to fire on ema
   name: Iterable System Webhooks
@@ -172,12 +173,177 @@ collections:
   name: Iterable Export Campaigns Workflows API
   slug: postman-iterable-workflows-api
 - collection_type: open
-  name: Iterable Export API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Iterable Export Campaigns API
+  slug: open-iterable-campaigns-api
+- collection_type: open
+  name: Iterable Export Campaigns Catalogs API
+  slug: open-iterable-catalogs-api
+- collection_type: open
+  name: Iterable Export Campaigns Channels API
+  slug: open-iterable-channels-api
+- collection_type: open
+  name: Iterable Export Campaigns Commerce API
+  slug: open-iterable-commerce-api
+- collection_type: open
+  name: Iterable Export Campaigns Email API
+  slug: open-iterable-email-api
+- collection_type: open
+  name: Iterable Export Campaigns Events API
+  slug: open-iterable-events-api
+- collection_type: open
+  name: Iterable Export Campaigns ExperimentMetrics API
+  slug: open-iterable-experimentmetrics-api
+- collection_type: open
+  name: Iterable Export Campaigns Experiments API
+  slug: open-iterable-experiments-api
+- collection_type: open
+  name: Iterable Campaigns Export API
   slug: open-iterable-export-api
+- collection_type: open
+  name: Iterable Export Campaigns InApp API
+  slug: open-iterable-inapp-api
+- collection_type: open
+  name: Iterable Export Campaigns Lists API
+  slug: open-iterable-lists-api
+- collection_type: open
+  name: Iterable Export Campaigns MessageTypes API
+  slug: open-iterable-messagetypes-api
+- collection_type: open
+  name: Iterable Export Campaigns Metadata API
+  slug: open-iterable-metadata-api
+- collection_type: open
+  name: Iterable Export Campaigns Push API
+  slug: open-iterable-push-api
 - collection_type: open
   name: Iterable REST API
   slug: open-iterable-rest-api
+- collection_type: open
+  name: Iterable Export Campaigns SMS API
+  slug: open-iterable-sms-api
+- collection_type: open
+  name: Iterable Export Campaigns Templates API
+  slug: open-iterable-templates-api
+- collection_type: open
+  name: Iterable Export Campaigns Users API
+  slug: open-iterable-users-api
+- collection_type: open
+  name: Iterable Export Campaigns WebPush API
+  slug: open-iterable-webpush-api
+- collection_type: open
+  name: Iterable Export Campaigns Workflows API
+  slug: open-iterable-workflows-api
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/iterable-api-openapi.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/iterable-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/iterable-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/iterable-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/iterable-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/iterable-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/iterable-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/iterable-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/iterable-error-codes.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/iterable-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/iterable-rate-limits.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/iterable-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/iterable-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.iterable.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://support.iterable.com/hc/en-us/articles/360046136171-SDK-Support-Policy
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/iterable-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.iterable.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/iterable-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://support.iterable.com/hc/en-us/articles/44900665796628-2026-Release-Notes
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/iterable-vocabulary.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://support.iterable.com/hc/en-us/categories/360002288712
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.iterable.com/api/docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.iterable.com/hc/en-us/articles/41044692130196-Getting-Started-with-Iterable-s-API
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Iterable
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.iterable.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -253,7 +419,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://iterable.com/trust/terms-of-service/
+  url: https://iterable.com/legal/terms/
 created: '2026-03-20'
 description: Iterable is an AI customer engagement platform that powers unified cross-channel marketing experiences and empowers marketers to create, optimize, and measure relevant interactions across email, push, SMS, in-app, and web channels. Their developer platform provides REST APIs, export APIs, AsyncAPI webhooks, and native SDKs for web, iOS, Android, and React Native.
 features:
@@ -344,7 +510,11 @@ jsonld:
   property_count: 8
   slug: iterable-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: Iterable MCP Server (@iterable/mcp, local stdio)
+  slug: iterable-mcp-server-iterablemcp-local-stdio
+modified: '2026-08-13'
 name: Iterable
 nav: Providers
 network: true
@@ -354,14 +524,14 @@ overview: 'Iterable publishes 19 APIs on the [APIs.io](https://apis.io/) network
   The Iterable catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Iterable''s developer surface includes authentication, documentation, support, engineering blog, and 15 more developer resources.'
+  Iterable''s developer surface includes CLI, changelog, API reference, getting-started guide, authentication, documentation, support, and 39 more developer resources.'
 plans:
 - name: Iterable Plans Pricing
   plan_count: 3
   slug: iterable-plans-pricing
-random_paper: 0
+random_paper: 95
 rate_limits:
-- limit_count: 3
+- limit_count: 54
   name: Iterable Rate Limits
   slug: iterable-rate-limits
 rules:
@@ -382,16 +552,16 @@ rules:
     warn: 3
   slug: iterable-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 50.0
-  delta: 0.0
+  band: exemplar
+  composite: 70.2
+  delta: 20.2
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 65.8
     contract_quality: 78.4
-    developer_ergonomics: 30.4
-    discoverability: 74.1
-    governance: 47.9
-    operational_transparency: 7.9
+    developer_ergonomics: 84.8
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 60.5
   previous_composite: 50.0
   provenance:
     agentic_access: derived
@@ -407,14 +577,14 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/screenshots/iterable-2026-06-20T183630.png
 security:
 - kind: authentication
   name: Iterable Authentication
   slug: iterable-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Iterable Domain Security
   slug: iterable-domain-security

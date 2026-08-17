@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -68,8 +68,35 @@ apis:
 - description: The Projects API from HiBob — 3 operation(s) for projects.
   name: HiBob Projects API
   slug: hibob-projects-api
-artifact_total: 14
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bob (HiBob) Public Attendance API
+  slug: open-hibob-attendance-api
+- collection_type: open
+  name: Bob (HiBob) Public Attendance Documents API
+  slug: open-hibob-documents-api
+- collection_type: open
+  name: Bob (HiBob) Public Attendance Employee Tables API
+  slug: open-hibob-employee-tables-api
+- collection_type: open
+  name: Bob (HiBob) Public Attendance Goals API
+  slug: open-hibob-goals-api
+- collection_type: open
+  name: Bob (HiBob) Public Attendance Hiring API
+  slug: open-hibob-hiring-api
+- collection_type: open
+  name: Bob (HiBob) Public Attendance Learning API
+  slug: open-hibob-learning-api
+- collection_type: open
+  name: Bob (HiBob) Public Attendance People API
+  slug: open-hibob-people-api
+- collection_type: open
+  name: Bob (HiBob) Public Attendance Projects API
+  slug: open-hibob-projects-api
 - collection_type: open
   name: Bob (HiBob) Public API
   slug: open-hibob
@@ -126,7 +153,7 @@ overview: 'HiBob publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   HiBob''s developer surface includes authentication, documentation, support, pricing, and 6 more developer resources.'
-random_paper: 36
+random_paper: 69
 score:
   band: thin
   composite: 28.8
@@ -147,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibob/refs/heads/main/screenshots/hibob-2026-06-20T182725.png
 security:

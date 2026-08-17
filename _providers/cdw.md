@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The CDW Catalog API uses JSON to deliver customers real-time pricing and inventory status alongside any special pricing or catalog restrictions. It supports integration with eProcurement platforms for
@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence (AI) Solutions
   url: https://www.cdw.com/content/cdw/en/solutions/ai-and-data/artificial-intelligence-ai.html
-random_paper: 78
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Cdw Rate Limits
@@ -121,7 +121,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdw/refs/heads/main/screenshots/cdw-2026-06-20T174108.png
 security:

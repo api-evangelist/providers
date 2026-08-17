@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -106,7 +106,86 @@ apis:
 - description: The Yolo World API from Roboflow — 1 operation(s) for yolo world.
   name: Roboflow Yolo World API
   slug: roboflow-yolo-world-api
-artifact_total: 33
+artifact_total: 59
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Roboflow Inference Server Clip API
+  slug: open-roboflow-clip-api
+- collection_type: open
+  name: Roboflow Inference Server Dashboard.html API
+  slug: open-roboflow-dashboard-html-api
+- collection_type: open
+  name: Roboflow Inference Server Doctr API
+  slug: open-roboflow-doctr-api
+- collection_type: open
+  name: Roboflow Inference Server Easy Ocr API
+  slug: open-roboflow-easy-ocr-api
+- collection_type: open
+  name: Roboflow Inference Server Gaze API
+  slug: open-roboflow-gaze-api
+- collection_type: open
+  name: Roboflow Inference Server Grounding Dino API
+  slug: open-roboflow-grounding-dino-api
+- collection_type: open
+  name: Roboflow Inference Server Healthz API
+  slug: open-roboflow-healthz-api
+- collection_type: open
+  name: Roboflow Inference Server Infer API
+  slug: open-roboflow-infer-api
+- collection_type: open
+  name: Roboflow Inference Server
+  slug: open-roboflow-inference
+- collection_type: open
+  name: Roboflow Inference Server Info API
+  slug: open-roboflow-info-api
+- collection_type: open
+  name: Roboflow Inference Server Initialise Webrtc Worker API
+  slug: open-roboflow-initialise-webrtc-worker-api
+- collection_type: open
+  name: Roboflow Inference Server Logs API
+  slug: open-roboflow-logs-api
+- collection_type: open
+  name: Roboflow Inference Server Metrics API
+  slug: open-roboflow-metrics-api
+- collection_type: open
+  name: Roboflow Inference Server Model API
+  slug: open-roboflow-model-api
+- collection_type: open
+  name: Roboflow Inference Server Ocr API
+  slug: open-roboflow-ocr-api
+- collection_type: open
+  name: Roboflow Inference Server Owlv2 API
+  slug: open-roboflow-owlv2-api
+- collection_type: open
+  name: Roboflow Inference Server Perception Encoder API
+  slug: open-roboflow-perception-encoder-api
+- collection_type: open
+  name: Roboflow Inference Server Readiness API
+  slug: open-roboflow-readiness-api
+- collection_type: open
+  name: Roboflow Inference Server API
+  slug: open-roboflow-roboflow-inference-server-api
+- collection_type: open
+  name: Roboflow Inference Server Sam API
+  slug: open-roboflow-sam-api
+- collection_type: open
+  name: Roboflow Inference Server Sam2 API
+  slug: open-roboflow-sam2-api
+- collection_type: open
+  name: Roboflow Inference Server Sam3 3d API
+  slug: open-roboflow-sam3-3d-api
+- collection_type: open
+  name: Roboflow Inference Server Sam3 API
+  slug: open-roboflow-sam3-api
+- collection_type: open
+  name: Roboflow Inference Server Webrtc API
+  slug: open-roboflow-webrtc-api
+- collection_type: open
+  name: Roboflow Inference Server Yolo World API
+  slug: open-roboflow-yolo-world-api
 common:
 - group: other
   title: ''
@@ -264,7 +343,7 @@ overview: 'Roboflow publishes 24 APIs on the [APIs.io](https://apis.io/) network
 
 
   Roboflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 34
+random_paper: 129
 rate_limits:
 - limit_count: 3
   name: Roboflow Rate Limits
@@ -297,7 +376,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

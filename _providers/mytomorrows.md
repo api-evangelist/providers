@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -49,7 +49,23 @@ apis:
 - description: The V1 API from myTomorrows — 38 operation(s) for v1.
   name: myTomorrows V1 API
   slug: mytomorrows-v1-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Enterprise Search Legacy GraphQL Proxy API
+  slug: open-mytomorrows-legacy-graphql-proxy-api
+- collection_type: open
+  name: Enterprise Search Legacy GraphQL Proxy Public API
+  slug: open-mytomorrows-public-api
+- collection_type: open
+  name: Enterprise Search Legacy GraphQL Proxy System API
+  slug: open-mytomorrows-system-api
+- collection_type: open
+  name: Enterprise Search Legacy GraphQL Proxy V1 API
+  slug: open-mytomorrows-v1-api
 common:
 - group: other
   title: ''
@@ -155,7 +171,7 @@ overview: 'myTomorrows publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   myTomorrows'' developer surface includes engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 50
+random_paper: 58
 score:
   band: thin
   composite: 34.8
@@ -185,7 +201,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/screenshots/mytomorrows-2026-08-07T184546.png
 security:

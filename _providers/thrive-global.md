@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Ambient soundscapes and narrated bedtime stories — audio for focus, relaxation, and sleep
@@ -56,7 +56,35 @@ apis:
 - description: Articles, role model stories, and recipes
   name: Thrive Global stories API
   slug: thrive-global-stories-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thrive Global Partner audio experiences API
+  slug: open-thrive-global-audio-experiences-api
+- collection_type: open
+  name: Thrive Global Partner audio experiences auth API
+  slug: open-thrive-global-auth-api
+- collection_type: open
+  name: Thrive Global Partner audio experiences content API
+  slug: open-thrive-global-content-api
+- collection_type: open
+  name: Thrive Global Partner audio experiences meditations API
+  slug: open-thrive-global-meditations-api
+- collection_type: open
+  name: Thrive Global Partner audio experiences programs API
+  slug: open-thrive-global-programs-api
+- collection_type: open
+  name: Thrive Global Partner audio experiences resets API
+  slug: open-thrive-global-resets-api
+- collection_type: open
+  name: Thrive Global Partner audio experiences search API
+  slug: open-thrive-global-search-api
+- collection_type: open
+  name: Thrive Global Partner audio experiences stories API
+  slug: open-thrive-global-stories-api
 common:
 - group: other
   title: ''
@@ -178,7 +206,7 @@ overview: 'Thrive Global publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Thrive Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 8
+random_paper: 136
 score:
   band: developing
   composite: 49.4
@@ -207,7 +235,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

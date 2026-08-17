@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Anonymous, publicly callable MCP server on binske's direct-to-consumer storefront host implementing the Universal Commerce Protocol shopping service. A live JSON-RPC 2.0 tools/list returned 13 tools w
@@ -129,7 +129,7 @@ overview: 'Binske publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Binske''s developer surface includes documentation, authentication, engineering blog, support, and 17 more developer resources.'
-random_paper: 36
+random_paper: 40
 scopes:
 - name: Binske Scopes
   scope_count: 0
@@ -152,7 +152,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/screenshots/binske-2026-08-07T162438.png
 security:

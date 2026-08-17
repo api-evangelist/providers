@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 48.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +43,17 @@ apis:
 - description: Email address validation and verification operations.
   name: mailboxlayer Verification API
   slug: mailboxlayer-verification-api
-artifact_total: 50
+artifact_total: 52
 collections:
 - collection_type: postman
   name: mailboxlayer Verification API
   slug: postman-mailboxlayer-verification-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: mailboxlayer Verification API
+  slug: open-mailboxlayer-verification-api
 - collection_type: open
   name: mailboxlayer API
   slug: open-mailboxlayer
@@ -102,7 +109,79 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://mailboxlayer.com/support
+  url: https://apilayer.com/support/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://mailboxlayer.com/contact
+- group: operate
+  title: ''
+  type: Community
+  url: https://discord.com/invite/hgjA78638n
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.apilayer.com/mailboxlayer/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.apilayer.com/mailboxlayer/docs/api-documentation
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.apilayer.com/mailboxlayer/docs/mailboxlayer-api-v-1-0-0
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.apilayer.com/
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://mailboxlayer.com/faq
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://mailboxlayer.com/api-status
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mailboxlayer-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://apilayer.com/playground/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mailboxlayer-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mailboxlayer-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mailboxlayer-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mailboxlayer-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mailboxlayer-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mailboxlayer-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mailboxlayer-verification-api-overlay.yaml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -232,7 +311,7 @@ jsonld:
   property_count: 17
   slug: mailboxlayer-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-08-14'
 name: mailboxlayer
 nav: Providers
 network: true
@@ -242,14 +321,14 @@ overview: 'mailboxlayer publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The mailboxlayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  mailboxlayer''s developer surface includes authentication, developer portal, signup flow, pricing, getting-started guide, support, and 19 more developer resources.'
+  mailboxlayer''s developer surface includes authentication, developer portal, signup flow, pricing, getting-started guide, support, documentation, and 36 more developer resources.'
 plans:
 - name: Mailboxlayer Plans Pricing
   plan_count: 5
   slug: mailboxlayer-plans-pricing
-random_paper: 89
+random_paper: 97
 rate_limits:
-- limit_count: 0
+- limit_count: 4
   name: Mailboxlayer Rate Limits
   slug: mailboxlayer-rate-limits
 rules:
@@ -270,16 +349,16 @@ rules:
     warn: 4
   slug: mailboxlayer-rules
 score:
-  band: strong
-  composite: 62.3
-  delta: 0.0
+  band: exemplar
+  composite: 79.9
+  delta: 17.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 72.4
-    developer_ergonomics: 54.3
-    discoverability: 75.9
-    governance: 68.8
-    operational_transparency: 5.3
+    contract_quality: 76.1
+    developer_ergonomics: 84.8
+    discoverability: 94.4
+    governance: 89.6
+    operational_transparency: 52.6
   previous_composite: 62.3
   provenance:
     agentic_access: derived
@@ -289,14 +368,14 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/screenshots/mailboxlayer-2026-06-20T184850.png
 security:
 - kind: authentication
   name: Mailboxlayer Authentication
   slug: mailboxlayer-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Mailboxlayer Domain Security
   slug: mailboxlayer-domain-security

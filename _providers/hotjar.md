@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,11 +60,26 @@ apis:
 - description: Endpoints for looking up user data and submitting deletion requests for GDPR compliance.
   name: hotjar User Lookup API
   slug: hotjar-user-lookup-api
-artifact_total: 46
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hotjar REST Authentication API
+  slug: open-hotjar-authentication-api
 - collection_type: open
   name: Hotjar REST API
   slug: open-hotjar-rest-api
+- collection_type: open
+  name: Hotjar REST Authentication Survey Responses API
+  slug: open-hotjar-survey-responses-api
+- collection_type: open
+  name: Hotjar REST Authentication Surveys API
+  slug: open-hotjar-surveys-api
+- collection_type: open
+  name: Hotjar REST Authentication User Lookup API
+  slug: open-hotjar-user-lookup-api
 common:
 - group: agent
   title: ''
@@ -186,7 +201,7 @@ plans:
 - name: Hotjar Plans Pricing
   plan_count: 6
   slug: hotjar-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Hotjar Rate Limits
@@ -220,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/screenshots/hotjar-2026-06-20T182845.png
 security:

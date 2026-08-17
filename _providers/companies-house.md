@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,7 +66,35 @@ apis:
 - description: Search
   name: Companies House search API
   slug: companies-house-search-api
-artifact_total: 146
+artifact_total: 155
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Companies House Public Data charges API
+  slug: open-companies-house-charges-api
+- collection_type: open
+  name: Companies House Public Data charges filingHistory API
+  slug: open-companies-house-filinghistory-api
+- collection_type: open
+  name: Companies House Public Data charges insolvency API
+  slug: open-companies-house-insolvency-api
+- collection_type: open
+  name: Companies House Public Data charges officerDisqualifications API
+  slug: open-companies-house-officerdisqualifications-api
+- collection_type: open
+  name: Companies House Public Data charges officers API
+  slug: open-companies-house-officers-api
+- collection_type: open
+  name: Companies House Public Data charges personsWithSignificantControl API
+  slug: open-companies-house-personswithsignificantcontrol-api
+- collection_type: open
+  name: Companies House Public Data charges registeredOfficeAddress API
+  slug: open-companies-house-registeredofficeaddress-api
+- collection_type: open
+  name: Companies House Public Data charges search API
+  slug: open-companies-house-search-api
 common:
 - group: agent
   title: ''
@@ -566,7 +594,7 @@ plans:
 - name: Companies House Plans Pricing
   plan_count: 2
   slug: companies-house-plans-pricing
-random_paper: 112
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Companies House Rate Limits
@@ -606,7 +634,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/screenshots/companies-house-2026-06-20T174828.png
 security:

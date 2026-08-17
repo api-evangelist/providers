@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Metrics API from Eppo — 1 operation(s) for metrics.
   name: Eppo Metrics API
   slug: eppo-metrics-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eppo Cloud REST Allocations API
+  slug: open-eppo-allocations-api
+- collection_type: open
+  name: Eppo Cloud REST Allocations Assignments API
+  slug: open-eppo-assignments-api
+- collection_type: open
+  name: Eppo Cloud REST Allocations Experiments API
+  slug: open-eppo-experiments-api
+- collection_type: open
+  name: Eppo Cloud REST Allocations Flags API
+  slug: open-eppo-flags-api
+- collection_type: open
+  name: Eppo Cloud REST Allocations Metrics API
+  slug: open-eppo-metrics-api
 - collection_type: open
   name: Eppo Cloud REST API
   slug: open-eppo
@@ -131,7 +149,7 @@ plans:
 - name: Eppo Plans Pricing
   plan_count: 1
   slug: eppo-plans-pricing
-random_paper: 76
+random_paper: 138
 rate_limits:
 - limit_count: 1
   name: Eppo Rate Limits
@@ -156,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/screenshots/eppo-2026-06-20T180759.png
 security:

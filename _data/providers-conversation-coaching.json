@@ -27,7 +27,7 @@
       "developer_ergonomics": 100.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -72,7 +72,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -117,7 +117,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 68.5,
      "agent_band": "agent-ready",
@@ -155,7 +155,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -200,7 +200,7 @@
       "developer_ergonomics": 91.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -245,7 +245,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 58.6,
      "agent_band": "agent-ready",
@@ -271,6 +271,7 @@
      "name": "SendPulse",
      "slug": "sendpulse",
      "description": "SendPulse is a multichannel marketing automation platform covering bulk email, SMTP transactional email, SMS, web push, website pop-ups, a CRM, an online course builder, and chatbots across WhatsApp, Telegram, Facebook Messenger, Instagram, Viber, TikTok and its own live chat widget. It publishes nineteen first-party OpenAPI 3.1 specifications totalling 635 operations from https://api.sendpulse.com/.well-known/openapi/, indexed by a master index.yaml and mirrored by an llms.txt, an llms-full.txt, a service-directory.json and an ai-plugin.json. Authentication is OAuth 2.0 client_credentials against POST /oauth/access_token (one-hour Bearer tokens) or a static account API key in the same Authorization header. SendPulse also operates a first-party remote MCP server at https://mcp.sendpulse.com/mcp with 147 published tools covering chatbots, CRM, courses, email and SMTP.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/screenshots/sendpulse-2026-08-17T080418.png",
      "score": 74.1,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -282,7 +283,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -327,7 +328,7 @@
       "developer_ergonomics": 91.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 60.8,
      "agent_band": "agent-ready",
@@ -365,7 +366,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 58.6,
      "agent_band": "agent-ready",
@@ -403,7 +404,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 62.6,
      "agent_band": "agent-ready",
@@ -441,7 +442,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 59.5,
      "agent_band": "agent-ready",
@@ -479,7 +480,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -524,7 +525,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 58.6,
      "agent_band": "agent-ready",
@@ -562,7 +563,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -607,7 +608,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 55.0,
      "agent_band": "agent-ready",
@@ -645,7 +646,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
@@ -694,7 +695,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
@@ -732,7 +733,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 57.4,
      "agent_band": "agent-native",
@@ -770,7 +771,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -808,7 +809,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -853,7 +854,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 59.0,
      "agent_band": "agent-ready",
@@ -891,7 +892,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -936,7 +937,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -981,7 +982,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 46.6,
      "agent_band": "agent-ready",
@@ -1007,6 +1008,7 @@
      "name": "SPOTIO",
      "slug": "spotio",
      "description": "SPOTIO is a field sales engagement and territory management platform for outside sales teams - lead and prospect tracking, activity logging, territory mapping and assignment, route optimization, appointment setting, and pipeline visibility, delivered through a mobile-first field app and a web console. Behind that product is a substantial and genuinely public API: SPOTIO 2.0 is an OpenAPI 3.0.1 contract of 238 paths and 295 operations across 39 capabilities, published from SPOTIO's own Stoplight project at developer.spotio2.com and exportable without authentication. Authentication is a bearer JWT minted from a clientId/secret pair; collections page on a scrollId cursor; and SPOTIO's data model is polymorphic - there is no fixed Lead entity, only a tenant-defined DataObject whose types, stages and fields are read from a Workflow before anything can be written. SPOTIO also operates a first-party remote MCP server at app.spotio2.com/mcp, authenticated with a SPOTIO-MCP-KEY that the API itself mints, plus a signed outbound webhook system covering ten lead, activity and appointment events. It publishes no SDK in any language, no idempotency contract, no rate limits and no security.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/screenshots/spotio-2026-08-17T082034.png",
      "score": 62.1,
      "band": "strong",
      "band_label": "Strong",
@@ -1018,7 +1020,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 68.5,
      "agent_band": "agent-ready",
@@ -1056,7 +1058,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
@@ -1094,7 +1096,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 57.2,
      "agent_band": "agent-ready",
@@ -1132,7 +1134,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1177,7 +1179,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
@@ -1215,7 +1217,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 55.2,
      "agent_band": "agent-native",
@@ -1241,6 +1243,7 @@
      "name": "Kixie",
      "slug": "kixie",
      "description": "Kixie is a Los Angeles based sales-engagement and revenue-communications platform built around PowerCall, a multi-line power dialer, business phone service and SMS/MMS product that plugs bi-directionally into HubSpot, Salesforce, Pipedrive, Zoho and GoHighLevel. Its public developer surface is a small, event-oriented HTTP API served from the apig.kixie.com gateway: a single POST /app/event endpoint that dispatches on an eventname discriminator to place calls, send SMS and Team SMS, add and remove contacts from PowerLists, push numbers into and out of calling queues and cadences; a webhook management API for creating, listing, updating and deleting the eight documented event webhooks; and an agent-status lookup. Authentication is a single account scoped API key plus a Business ID, and the platform publishes a documented daily usage cap of 10,000 API calls per account. Kixie publishes no OpenAPI, AsyncAPI or GraphQL contract and ships no first-party client SDKs; the reference is human-readable HTML on developer.kixie.com and in the Zendesk help center.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/screenshots/kixie-2026-08-17T081010.png",
      "score": 59.0,
      "band": "strong",
      "band_label": "Strong",
@@ -1252,7 +1255,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1297,7 +1300,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 53.4,
      "agent_band": "agent-ready",
@@ -1335,7 +1338,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1380,7 +1383,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1425,7 +1428,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -1451,6 +1454,7 @@
      "name": "tl;dv",
      "slug": "tl-dv",
      "description": "tl;dv is an AI meeting notetaker for Zoom, Google Meet and Microsoft Teams that automatically records, transcribes and summarizes meetings in 30+ languages and syncs the resulting insights into CRMs and productivity tools. Its public API (base URL https://pasta.tldv.io, version v1alpha1) gives developers programmatic access to meetings, speaker-attributed transcripts and AI-generated notes, plus meeting import from a URL and webhook delivery of MeetingReady and TranscriptReady events. Authentication is via an x-api-key header issued from account settings, and API access requires a Business or Enterprise plan. tl;dv also ships an official Model Context Protocol server — an open-source stdio build at github.com/tldv-public/tldv-mcp-server exposing four read tools, plus a live OAuth-protected hosted endpoint at https://mcp.tldv.io/mcp — making meetings, transcripts and highlights callable directly by AI agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/screenshots/tl-dv-2026-08-17T082359.png",
      "score": 57.3,
      "band": "strong",
      "band_label": "Strong",
@@ -1462,7 +1466,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -1500,7 +1504,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 51.8,
      "agent_band": "agent-ready",
@@ -1526,6 +1530,7 @@
      "name": "Spekit",
      "slug": "spekit",
      "description": "Spekit is an AI-powered revenue enablement platform for B2B sales teams, delivering coaching, content, and deal intelligence inside rep workflows. Its GTM Knowledge Engine keeps governed go-to-market knowledge accurate and on-brand, pairs agentic coaching (the AI Sidekick) with unified deal context from Salesforce, Gong, and email, and generates personalized buyer experiences such as automated deal rooms. Spekit exposes its governed knowledge to AI agents over the Model Context Protocol (MCP) so any LLM or MCP-enabled tool always has the latest content. It is SOC 2 Type II audited and integrates across Salesforce, Slack, Gmail, Outlook, HubSpot, and major SSO providers. Spekit ships two independent programmatic surfaces that do not overlap: a read-only REST API at api.spekit.co, published as OpenAPI 3.0.3 and rendered in Swagger UI, returning users, searches, Spek views and reactions, and a 21-type activity feed for BI and enablement-ROI reporting; and a remote MCP connector at mcp.spekit.co/mcp with 19 read and write tools over governed content, secured by OAuth 2.0 authorization code with PKCE and dynamic client registration. Surfaced as a portfolio company of Craft Ventures, Felicis, and Foundry Group and enriched by the API Evangelist pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/screenshots/spekit-2026-08-17T082023.png",
      "score": 56.5,
      "band": "strong",
      "band_label": "Strong",
@@ -1537,7 +1542,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -1575,7 +1580,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1620,7 +1625,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 39.4,
      "agent_band": "agent-ready",
@@ -1669,7 +1674,7 @@
       "developer_ergonomics": 82.1,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1702,6 +1707,7 @@
      "name": "VoiceGenie",
      "slug": "voicegenie",
      "description": "VoiceGenie (Ori Labs Ltd.) is a conversational voice AI platform for sales automation that lets teams deploy AI voice agents to run outbound and inbound phone calls end to end. Businesses build assistants (voice bots) with a chosen voice, language, script and knowledge base, attach a phone number (via Twilio or Plivo), upload contact lists, and launch campaigns that qualify leads, book meetings, send SMS, run surveys, chase payment reminders, and hand off to human agents when needed. VoiceGenie exposes a Public REST API on core-saas.voicegenie.ai for placing calls, adding calls to recurring campaigns, pausing/resuming campaigns, fetching call analysis and status, retrieving inbound-call updates, checking transfer status, and removing customers from campaigns, plus a post-call analysis webhook, so voice workflows can be automated from n8n, Zapier, Zoho Flow, HubSpot, HighLevel, Cal.com and custom applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/screenshots/voicegenie-2026-08-17T082816.png",
      "score": 55.8,
      "band": "developing",
      "band_label": "Developing",
@@ -1713,7 +1719,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 57.0,
      "agent_band": "agent-ready",
@@ -1751,7 +1757,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1796,7 +1802,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 43.2,
      "agent_band": "agent-ready",
@@ -1834,7 +1840,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 47.3,
      "agent_band": "agent-ready",
@@ -1860,6 +1866,7 @@
      "name": "DealHub",
      "slug": "dealhub",
      "description": "DealHub is an agentic quote-to-revenue platform that unifies CPQ (Configure, Price, Quote), CLM (contract lifecycle management), DealRoom digital sales rooms, subscription management, usage-based billing and revenue recognition. The platform is governed by the customer's CRM — with native connectors for Salesforce, HubSpot and Microsoft Dynamics — and centers the quoting experience on a guided-selling Playbook that generates products, calculates pricing and applies discount and approval workflows automatically. DealHub publishes a public developer portal at developers.dealhub.io covering eleven OpenAPI 3.0.3 contracts: Quote, Headless Quote, Actions, CRM, CRM Import, User, Partner, Pricing and Version APIs on api.dealhub.io, the Subskribe billing and revenue API acquired with Subskribe on api.app.subskribe.com, plus two inbound callback contracts (External Query and Callouts) that customers implement so DealHub can pull real-time data and pricing from an external system during quote generation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/screenshots/dealhub-2026-08-17T080848.png",
      "score": 54.0,
      "band": "developing",
      "band_label": "Developing",
@@ -1871,7 +1878,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 62.6,
      "agent_band": "agent-ready",
@@ -1897,6 +1904,7 @@
      "name": "Replicant",
      "slug": "replicant",
      "description": "Replicant is an enterprise agentic customer service platform that automates high-volume contact center conversations across voice, chat, and messaging, and analyzes 100% of interactions for QA, compliance, and automation insights. Its two products — Conversation Automation and Conversation Intelligence — replicate top-performing human agents using a hybrid agentic-plus-deterministic architecture with human-in-the-loop escalation, and integrate with existing CCaaS, CRM, telephony, and ticketing stacks. Replicant is telephony-native, runs multi-region on Google Cloud, and is built for SOC 2, HIPAA, PCI, and GDPR requirements. It is sales-led with no public developer portal, but it does publish one machine-readable contract — the Replicant Outbound API (OpenAPI 3.0.0, v2.0.1), served from the provider's own Swagger UI at docs.replicant.ai and live on api.replicant.ai — which places outbound AI voice calls and SMS against a configured campaign and notifies the caller of call status.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/screenshots/replicant-2026-08-17T081526.png",
      "score": 53.1,
      "band": "developing",
      "band_label": "Developing",
@@ -1908,7 +1916,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 57.2,
      "agent_band": "agent-ready",
@@ -1946,7 +1954,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1991,7 +1999,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -2028,7 +2036,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -2066,7 +2074,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -2092,6 +2100,7 @@
      "name": "Samu",
      "slug": "samu",
      "description": "Samu (samu.ai) is an AI-powered conversation-intelligence and sales-analytics platform built for sales managers and revenue leaders across Latin America. It automatically records and transcribes customer interactions across WhatsApp, phone calls, video calls, Microsoft Teams, and Google Meet, then analyzes them to surface actionable coaching insights. Features include an AI \"Samu Score\" that evaluates call quality against customizable criteria, custom data extractors (e.g. competitor mentions or company size), analysis using SPICED, BANT, and SANDLER sales frameworks, and auto-generated CRM notes, tasks, and meeting summaries. Samu integrates bidirectionally with HubSpot, Pipedrive, Salesforce, and other CRMs, and emphasizes high-accuracy Spanish-language transcription. Samu publishes a REST API (OpenAPI 3.0.0, \"API Samu\") at api.samu.ai covering users, meetings, transcriptions and WhatsApp/chat threads, authenticated with an account apiKey header, plus an OAuth-protected hosted MCP server at api.samu.ai/mcp that connects Samu to Claude, ChatGPT and other AI agents. API access is sold on the Enterprise plan and MCP on the Pro plan. Samu is backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/screenshots/samu-2026-08-17T081719.png",
      "score": 50.2,
      "band": "developing",
      "band_label": "Developing",
@@ -2103,7 +2112,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 52.3,
      "agent_band": "agent-ready",
@@ -2129,6 +2138,7 @@
      "name": "Siro",
      "slug": "siro",
      "description": "Siro is an AI sales coaching platform for in-person and field sales teams. Reps record their live sales conversations from the Siro mobile app, and Siro transcribes each conversation, surfaces coaching insights, generates scorecards and summaries, and extracts structured fields (budget, objections, decision makers, timelines) that are pushed back into the team's CRM. Siro publishes a documented REST API and webhook surface that enables fully bidirectional, custom CRM integrations: syncing appointments/engagements, opportunities and accounts into Siro, matching recordings to CRM entities, and pulling recording details, summaries, entity extractions and coaching scorecards back out. The platform ships prebuilt integrations for Salesforce, HubSpot, Microsoft Dynamics, Pipedrive, Zoho, SalesRabbit, Leap SalesPro, Hatch, CompanyCam and a range of dealership DMS and home-services tools. Siro is backed by CRV and Index Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/screenshots/siro-2026-08-17T081908.png",
      "score": 49.7,
      "band": "developing",
      "band_label": "Developing",
@@ -2140,7 +2150,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 48.0,
      "agent_band": "agent-ready",
@@ -2166,7 +2176,7 @@
      "name": "Chorus.ai",
      "slug": "chorus-ai",
      "description": "Chorus.ai is a conversation intelligence platform, acquired by ZoomInfo in 2021 and sold as \"Chorus by ZoomInfo\", that records, transcribes and analyzes customer-facing calls, meetings and emails to surface deal insights and coach sales reps. It publishes a single public REST contract — the Chorus API, an OpenAPI 3.0.3 document with 81 operations served unauthenticated at https://chorus.ai/api/openapi.json — covering engagement search, recording upload and media retrieval, coaching moments and playlists, scorecards, AI sales-qualification analysis with CRM writeback, and webhook registration. The API is JSON:API shaped on its /api/v1 surface with an older flat /v3 surface alongside it. Notably, the chorus.ai marketing site has been retired to a redirect shell pointing at zoominfo.com, but the API and both of its documentation surfaces remain live on the original domain.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/screenshots/chorus-ai-2026-06-20T174336.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/screenshots/chorus-ai-2026-08-17T082957.png",
      "score": 49.5,
      "band": "developing",
      "band_label": "Developing",
@@ -2178,7 +2188,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 55.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 45.0,
      "agent_band": "agent-ready",
@@ -2216,7 +2226,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -2254,7 +2264,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 49.3,
      "agent_band": "agent-ready",
@@ -2292,7 +2302,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 59.9,
      "agent_band": "agent-ready",
@@ -2330,7 +2340,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -2368,7 +2378,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
@@ -2406,7 +2416,7 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
@@ -2444,7 +2454,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
@@ -2470,6 +2480,7 @@
      "name": "Voyc",
      "slug": "voyc",
      "description": "Voyc is a conversation intelligence and compliance monitoring platform for regulated industries such as financial services and insurance. The platform automatically monitors 100% of contact centre interactions using speech analytics AI, flagging high-risk cases, complaints, and vulnerable customers in near real time, automating QA review, and producing the management information firms need to evidence regulatory compliance (including FCA Consumer Duty). Calls reach Voyc from telephony platforms like Twilio, Genesys, Five9, RingCentral, Aircall, Amazon Connect, and Talkdesk via SFTP or API, and a Voyc API (v3) supports conversation uploads and data export alongside webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/screenshots/voyc-2026-08-17T082827.png",
      "score": 45.6,
      "band": "developing",
      "band_label": "Developing",
@@ -2481,7 +2492,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
@@ -2519,7 +2530,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 61.1,
      "agent_band": "agent-native",
@@ -2557,7 +2568,7 @@
       "developer_ergonomics": 21.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 38.5,
      "agent_band": "agent-ready",
@@ -2595,7 +2606,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2640,7 +2651,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 30.2,
      "agent_band": "agent-aware",
@@ -2678,7 +2689,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 31.1,
      "agent_band": "agent-aware",
@@ -2716,7 +2727,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -2754,7 +2765,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -2792,7 +2803,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -2818,6 +2829,7 @@
      "name": "TermScout",
      "slug": "termscout",
      "description": "TermScout is a contract intelligence and certification company for legal, procurement, and sales teams. Its platform analyzes and benchmarks commercial agreements against market standards, generates contract signals through Certify (AI contract analysis), and certifies contracts with TrustMark as an external, third-party signal of fairness that helps buyers and sellers close deals faster with less negotiation. TermScout was surfaced as a Techstars portfolio company and profiled in the API Evangelist network. TermScout does publish a machine-readable contract: an OpenAPI 3.0.1 definition for the \"termscout-data\" API is served anonymously at https://api.termscout.com/docs, covering contract upload, processing status, extracted fields, citations, predicted labels and red flags, playbook results, and aggregate market data across contract positions. The API itself is key-gated (x-api-key plus an Authorization bearer credential) and access is arranged through sales; there is no self-serve developer portal, SDK, or published API reference. Its end-user products are delivered through the app.termscout.com web application, which also publishes an llms.txt index of public TrustMark contract reports.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/screenshots/termscout-2026-08-17T082319.png",
      "score": 42.5,
      "band": "developing",
      "band_label": "Developing",
@@ -2829,7 +2841,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -2877,7 +2889,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2922,7 +2934,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2967,7 +2979,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -3005,7 +3017,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3050,7 +3062,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -3088,7 +3100,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -3126,7 +3138,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 41.7,
      "agent_band": "agent-ready",
@@ -3164,7 +3176,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -3201,7 +3213,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3239,7 +3251,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 30.2,
      "agent_band": "agent-aware",
@@ -3276,7 +3288,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -3313,7 +3325,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3350,7 +3362,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3394,7 +3406,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -3432,7 +3444,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -3470,7 +3482,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 5.9,
      "agent_band": "human-only",
@@ -3508,7 +3520,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -3546,7 +3558,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -3584,7 +3596,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -3621,7 +3633,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -3658,7 +3670,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -3695,7 +3707,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3750,7 +3762,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -3788,7 +3800,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -3825,7 +3837,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 29.3,
      "agent_band": "agent-aware",
@@ -3863,7 +3875,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -3901,7 +3913,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3938,7 +3950,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -3975,7 +3987,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 7.7,
      "agent_band": "agent-aware",
@@ -4013,7 +4025,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -4050,7 +4062,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -4088,7 +4100,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -4125,7 +4137,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -4162,7 +4174,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4200,7 +4212,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4238,7 +4250,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4275,7 +4287,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -4312,7 +4324,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -4350,7 +4362,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4387,7 +4399,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -4432,7 +4444,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -4470,7 +4482,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 29.3,
      "agent_band": "agent-aware",
@@ -4508,7 +4520,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -4545,7 +4557,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -4589,7 +4601,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 5.9,
      "agent_band": "human-only",
@@ -4627,7 +4639,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -4665,7 +4677,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4703,7 +4715,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4751,7 +4763,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4788,7 +4800,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4825,7 +4837,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

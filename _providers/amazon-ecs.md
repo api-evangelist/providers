@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -78,7 +78,7 @@ apis:
 - description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.updateservice.'
   name: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
   slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-updateservice-api
-artifact_total: 186
+artifact_total: 197
 collections:
 - collection_type: postman
   name: Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers API
@@ -110,6 +110,39 @@ collections:
 - collection_type: postman
   name: 'Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
   slug: postman-amazon-ecs-x-amz-target-amazonec2containerservicev20141113-updateservice-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers API
+  slug: open-amazon-ecs-capacity-providers-api
+- collection_type: open
+  name: Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers Clusters API
+  slug: open-amazon-ecs-clusters-api
+- collection_type: open
+  name: Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers Container Instances API
+  slug: open-amazon-ecs-container-instances-api
+- collection_type: open
+  name: Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers Task Definitions API
+  slug: open-amazon-ecs-task-definitions-api
+- collection_type: open
+  name: Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers Tasks API
+  slug: open-amazon-ecs-tasks-api
+- collection_type: open
+  name: 'Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API'
+  slug: open-amazon-ecs-x-amz-target-amazonec2containerservicev20141113-createservice-api
+- collection_type: open
+  name: 'Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API'
+  slug: open-amazon-ecs-x-amz-target-amazonec2containerservicev20141113-deleteservice-api
+- collection_type: open
+  name: 'Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API'
+  slug: open-amazon-ecs-x-amz-target-amazonec2containerservicev20141113-describeservices-api
+- collection_type: open
+  name: 'Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API'
+  slug: open-amazon-ecs-x-amz-target-amazonec2containerservicev20141113-listservices-api
+- collection_type: open
+  name: 'Amazon ECS Amazon Elastic Container Service (ECS) Capacity Providers #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
+  slug: open-amazon-ecs-x-amz-target-amazonec2containerservicev20141113-updateservice-api
 - collection_type: open
   name: Amazon ECS Amazon Elastic Container Service (ECS) API
   slug: open-amazon-ecs
@@ -712,7 +745,7 @@ plans:
 - name: Amazon Ecs Plans Pricing
   plan_count: 3
   slug: amazon-ecs-plans-pricing
-random_paper: 46
+random_paper: 112
 rate_limits:
 - limit_count: 2
   name: Amazon Ecs Rate Limits
@@ -754,7 +787,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/screenshots/amazon-ecs-2026-06-20T171639.png
 security:

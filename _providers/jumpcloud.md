@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,8 +59,23 @@ apis:
 - description: Commands that can be executed across managed systems.
   name: JumpCloud Commands API
   slug: jumpcloud-commands-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JumpCloud API V1 Application Templates API
+  slug: open-jumpcloud-application-templates-api
+- collection_type: open
+  name: JumpCloud API V1 Application Templates Applications API
+  slug: open-jumpcloud-applications-api
+- collection_type: open
+  name: JumpCloud API V1 Application Templates Command Results API
+  slug: open-jumpcloud-command-results-api
+- collection_type: open
+  name: JumpCloud API V1 Application Templates Commands API
+  slug: open-jumpcloud-commands-api
 - collection_type: open
   name: JumpCloud API V1
   slug: open-jumpcloud
@@ -125,7 +140,7 @@ overview: 'JumpCloud publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   JumpCloud''s developer surface includes authentication, documentation, support, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 19
+random_paper: 85
 score:
   band: thin
   composite: 33.3
@@ -146,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/screenshots/jumpcloud-2026-06-20T183831.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: View record operations
   name: Caspio Views API
   slug: caspio-views-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Caspio REST Applications API
+  slug: open-caspio-applications-api
+- collection_type: open
+  name: Caspio REST Applications Authentication API
+  slug: open-caspio-authentication-api
+- collection_type: open
+  name: Caspio REST Applications Files API
+  slug: open-caspio-files-api
+- collection_type: open
+  name: Caspio REST Applications Tables API
+  slug: open-caspio-tables-api
+- collection_type: open
+  name: Caspio REST Applications Tasks API
+  slug: open-caspio-tasks-api
+- collection_type: open
+  name: Caspio REST Applications Users API
+  slug: open-caspio-users-api
+- collection_type: open
+  name: Caspio REST Applications Views API
+  slug: open-caspio-views-api
 - collection_type: open
   name: Caspio REST API
   slug: open-caspio
@@ -124,7 +148,7 @@ overview: 'Caspio publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Caspio''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 39
+random_paper: 43
 score:
   band: thin
   composite: 32.9
@@ -145,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/screenshots/caspio-2026-06-20T174035.png
 security:

@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +23,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-12'
+  score: 59.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -54,7 +55,26 @@ apis:
 - description: Monitor API token quota and usage.
   name: Event Registry Usage API
   slug: event-registry-usage-api
-artifact_total: 18
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Event Registry (NewsAPI.ai) Articles API
+  slug: open-event-registry-articles-api
+- collection_type: open
+  name: Event Registry (NewsAPI.ai) Articles Events API
+  slug: open-event-registry-events-api
+- collection_type: open
+  name: Event Registry (NewsAPI.ai) Articles Suggest API
+  slug: open-event-registry-suggest-api
+- collection_type: open
+  name: Event Registry (NewsAPI.ai) Articles Topic Pages API
+  slug: open-event-registry-topic-pages-api
+- collection_type: open
+  name: Event Registry (NewsAPI.ai) Articles Usage API
+  slug: open-event-registry-usage-api
 common:
 - group: agent
   title: ''
@@ -108,6 +128,74 @@ common:
   title: ''
   type: FinOps
   url: finops/event-registry-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/event-registry-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/event-registry-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/event-registry-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/event-registry-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/event-registry-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/event-registry-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/event-registry-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/event-registry-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/event-registry-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/event-registry-conformance.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/event-registry-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/event-registry-sandbox.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://newsapi.ai/terms
+- group: start
+  title: ''
+  type: SignUp
+  url: https://newsapi.ai/register
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://newsapi.ai/documentation
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/EventRegistry/newsapi-mcp
 created: 2026-06-13
 description: Event Registry (NewsAPI.ai) is the world's leading news intelligence platform providing a REST API for accessing global news articles, trending topics, event detection, named entities, sentiment analysis, and media monitoring across 150,000+ sources in 60+ languages, with historical archive access dating back to 2014.
 examples:
@@ -138,7 +226,11 @@ jsonld:
   property_count: 1
   slug: context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: event-registry-mcp.yml
+  slug: event-registry-mcpyml
+modified: 2026-08-13
 name: Event Registry
 nav: Providers
 network: true
@@ -148,12 +240,12 @@ overview: 'Event Registry publishes 5 APIs on the [APIs.io](https://apis.io/) ne
   The Event Registry catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Event Registry''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  Event Registry''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, signup flow, and 23 more developer resources.'
 plans:
 - name: Event Registry Plans Pricing
   plan_count: 5
   slug: event-registry-plans-pricing
-random_paper: 40
+random_paper: 139
 rate_limits:
 - limit_count: 2
   name: Event Registry Rate Limits
@@ -168,16 +260,16 @@ rules:
     warn: 4
   slug: event-registry-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.3
-  delta: 0.0
+  band: exemplar
+  composite: 66.3
+  delta: 17.0
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 73.7
     contract_quality: 68.4
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 26.3
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 42.1
   previous_composite: 49.3
   provenance:
     agentic_access: derived
@@ -187,8 +279,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/screenshots/event-registry-2026-06-20T180857.png
 security:
 - kind: authentication

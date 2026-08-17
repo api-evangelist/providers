@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for audio fingerprint lookup and submission. Accepts Chromaprint-generated fingerprints and returns AcoustID track identifiers along with linked MusicBrainz metadata including recordings, art
@@ -96,7 +96,7 @@ plans:
 - name: Acoustid Plans Pricing
   plan_count: 5
   slug: acoustid-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 2
   name: Acoustid Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acoustid/refs/heads/main/screenshots/acoustid-2026-06-20T163933.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -66,7 +66,26 @@ apis:
 - description: Address autocomplete suggestions
   name: Regrid Typeahead API
   slug: regrid-typeahead-api
-artifact_total: 20
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Regrid Parcel Metadata API
+  slug: open-regrid-metadata-api
+- collection_type: open
+  name: Regrid Parcel Metadata Parcel Query API
+  slug: open-regrid-parcel-query-api
+- collection_type: open
+  name: Regrid Parcel Metadata Parcel Search API
+  slug: open-regrid-parcel-search-api
+- collection_type: open
+  name: Regrid Parcel Metadata Schemas API
+  slug: open-regrid-schemas-api
+- collection_type: open
+  name: Regrid Parcel Metadata Typeahead API
+  slug: open-regrid-typeahead-api
 common:
 - group: agent
   title: ''
@@ -183,7 +202,7 @@ plans:
 - name: Regrid Plans Pricing
   plan_count: 4
   slug: regrid-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Regrid Rate Limits
@@ -217,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/screenshots/regrid-2026-06-20T192759.png
 security:

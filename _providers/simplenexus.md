@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API that replaces the legacy SimpleNexus API. The initial release covers Organization and User Management (companies, branches, users) and a modern webhook flow with delivery retries, e
@@ -115,7 +115,7 @@ overview: 'SimpleNexus publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SimpleNexus'' developer surface includes documentation, API reference, getting-started guide, support, authentication, and 10 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: thin
   composite: 34.9
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -219,11 +219,195 @@ apis:
 - description: The Workflows API from Bluejay — 3 operation(s) for workflows.
   name: Bluejay Workflows API
   slug: bluejay-workflows-api
-artifact_total: 65
+artifact_total: 126
 asyncapis:
 - description: ''
   name: Bluejay Webhooks
   slug: bluejay-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bluejay Agents API
+  slug: open-bluejay-agents-api
+- collection_type: open
+  name: Bluejay Agents Alerts API
+  slug: open-bluejay-alerts-api
+- collection_type: open
+  name: Bluejay Agents Api Keys API
+  slug: open-bluejay-api-keys-api
+- collection_type: open
+  name: Bluejay Agents bland API
+  slug: open-bluejay-bland-api
+- collection_type: open
+  name: Bluejay Agents Call Logs API
+  slug: open-bluejay-call-logs-api
+- collection_type: open
+  name: Bluejay Agents Check Queue Simulation Run API
+  slug: open-bluejay-check-queue-simulation-run-api
+- collection_type: open
+  name: Bluejay Agents Communities API
+  slug: open-bluejay-communities-api
+- collection_type: open
+  name: Bluejay Agents Compare Experiment Runs API
+  slug: open-bluejay-compare-experiment-runs-api
+- collection_type: open
+  name: Bluejay Agents Create Schedule API
+  slug: open-bluejay-create-schedule-api
+- collection_type: open
+  name: Bluejay Agents Create Simulation API
+  slug: open-bluejay-create-simulation-api
+- collection_type: open
+  name: Bluejay Agents Custom Metrics API
+  slug: open-bluejay-custom-metrics-api
+- collection_type: open
+  name: Bluejay Agents Customer Personas API
+  slug: open-bluejay-customer-personas-api
+- collection_type: open
+  name: Bluejay Agents Customer Traits API
+  slug: open-bluejay-customer-traits-api
+- collection_type: open
+  name: Bluejay Agents Delete Schedule API
+  slug: open-bluejay-delete-schedule-api
+- collection_type: open
+  name: Bluejay Agents Digital Humans API
+  slug: open-bluejay-digital-humans-api
+- collection_type: open
+  name: Bluejay Agents ElevenLabs API
+  slug: open-bluejay-elevenlabs-api
+- collection_type: open
+  name: Bluejay Agents End Conversations API
+  slug: open-bluejay-end-conversations-api
+- collection_type: open
+  name: Bluejay Agents Evaluate API
+  slug: open-bluejay-evaluate-api
+- collection_type: open
+  name: Bluejay Agents Folders API
+  slug: open-bluejay-folders-api
+- collection_type: open
+  name: Bluejay Agents Generate Custom Metrics API
+  slug: open-bluejay-generate-custom-metrics-api
+- collection_type: open
+  name: Bluejay Agents Generate Customer Personas API
+  slug: open-bluejay-generate-customer-personas-api
+- collection_type: open
+  name: Bluejay Agents Generate Digital Humans API
+  slug: open-bluejay-generate-digital-humans-api
+- collection_type: open
+  name: Bluejay Agents Generate Test Scenarios API
+  slug: open-bluejay-generate-test-scenarios-api
+- collection_type: open
+  name: Bluejay Agents Generate Translated Transcript API
+  slug: open-bluejay-generate-translated-transcript-api
+- collection_type: open
+  name: Bluejay Agents Get All Simulations API
+  slug: open-bluejay-get-all-simulations-api
+- collection_type: open
+  name: Bluejay Agents Get Simulation Runs API
+  slug: open-bluejay-get-simulation-runs-api
+- collection_type: open
+  name: Bluejay Agents Get Simulations By Agent API
+  slug: open-bluejay-get-simulations-by-agent-api
+- collection_type: open
+  name: Bluejay Agents Goals API
+  slug: open-bluejay-goals-api
+- collection_type: open
+  name: Bluejay Agents HTTP Text Agent API
+  slug: open-bluejay-http-text-agent-api
+- collection_type: open
+  name: Bluejay Agents Integration Keys API
+  slug: open-bluejay-integration-keys-api
+- collection_type: open
+  name: Bluejay Agents Knowledge Bases API
+  slug: open-bluejay-knowledge-bases-api
+- collection_type: open
+  name: Bluejay Agents Labels API
+  slug: open-bluejay-labels-api
+- collection_type: open
+  name: Bluejay Agents Metrics Lab API
+  slug: open-bluejay-metrics-lab-api
+- collection_type: open
+  name: Bluejay Agents Move Regen Test Scenarios API
+  slug: open-bluejay-move-regen-test-scenarios-api
+- collection_type: open
+  name: Bluejay Agents Optimize API
+  slug: open-bluejay-optimize-api
+- collection_type: open
+  name: Bluejay Agents Phone Number Management API
+  slug: open-bluejay-phone-number-management-api
+- collection_type: open
+  name: Bluejay Agents Phone Numbers API
+  slug: open-bluejay-phone-numbers-api
+- collection_type: open
+  name: Bluejay Agents Ping API
+  slug: open-bluejay-ping-api
+- collection_type: open
+  name: Bluejay Agents Prompts API
+  slug: open-bluejay-prompts-api
+- collection_type: open
+  name: Bluejay Agents Queue Simulation Run API
+  slug: open-bluejay-queue-simulation-run-api
+- collection_type: open
+  name: Bluejay Agents Re-evaluate API
+  slug: open-bluejay-re-evaluate-api
+- collection_type: open
+  name: Bluejay Agents Regen Test Scenarios API
+  slug: open-bluejay-regen-test-scenarios-api
+- collection_type: open
+  name: Bluejay Agents Regeneration API
+  slug: open-bluejay-regeneration-api
+- collection_type: open
+  name: Bluejay Agents retell API
+  slug: open-bluejay-retell-api
+- collection_type: open
+  name: Bluejay Agents Retrieve Simulation Result API
+  slug: open-bluejay-retrieve-simulation-result-api
+- collection_type: open
+  name: Bluejay Agents Retrieve Simulation Results API
+  slug: open-bluejay-retrieve-simulation-results-api
+- collection_type: open
+  name: Bluejay Agents Send Text API
+  slug: open-bluejay-send-text-api
+- collection_type: open
+  name: Bluejay Agents Simulation Results API
+  slug: open-bluejay-simulation-results-api
+- collection_type: open
+  name: Bluejay Agents Simulation Runs API
+  slug: open-bluejay-simulation-runs-api
+- collection_type: open
+  name: Bluejay Agents Simulations API
+  slug: open-bluejay-simulations-api
+- collection_type: open
+  name: Bluejay Agents Subscription API
+  slug: open-bluejay-subscription-api
+- collection_type: open
+  name: Bluejay Agents Text Simulations API
+  slug: open-bluejay-text-simulations-api
+- collection_type: open
+  name: Bluejay Agents Traces API
+  slug: open-bluejay-traces-api
+- collection_type: open
+  name: Bluejay Agents Translation API
+  slug: open-bluejay-translation-api
+- collection_type: open
+  name: Bluejay Agents Twilio SIP Webhook API
+  slug: open-bluejay-twilio-sip-webhook-api
+- collection_type: open
+  name: Bluejay Agents Update Schedule API
+  slug: open-bluejay-update-schedule-api
+- collection_type: open
+  name: Bluejay Agents vapi API
+  slug: open-bluejay-vapi-api
+- collection_type: open
+  name: Bluejay Agents Webhook Management API
+  slug: open-bluejay-webhook-management-api
+- collection_type: open
+  name: Bluejay Agents Weekly notifications API
+  slug: open-bluejay-weekly-notifications-api
+- collection_type: open
+  name: Bluejay Agents Workflows API
+  slug: open-bluejay-workflows-api
 common:
 - group: company
   title: ''
@@ -360,7 +544,7 @@ overview: 'Bluejay publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bluejay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
-random_paper: 28
+random_paper: 3
 score:
   band: developing
   composite: 50.5
@@ -384,7 +568,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/screenshots/bluejay-2026-07-25T203452.png
 security:

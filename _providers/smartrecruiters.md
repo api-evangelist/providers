@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -75,17 +75,41 @@ apis:
 - description: The Teams API from SmartRecruiters — 1 operation(s) for teams.
   name: SmartRecruiters Teams API
   slug: smartrecruiters-teams-api
-artifact_total: 58
+artifact_total: 66
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SmartRecruiters Candidate Applications API
+  slug: open-smartrecruiters-applications-api
+- collection_type: open
+  name: SmartRecruiters Candidate Applications Candidates API
+  slug: open-smartrecruiters-candidates-api
 - collection_type: open
   name: SmartRecruiters Candidate API
   slug: open-smartrecruiters-candidates
 - collection_type: open
+  name: SmartRecruiters Candidate Applications Documents API
+  slug: open-smartrecruiters-documents-api
+- collection_type: open
+  name: SmartRecruiters Candidate Applications Jobs API
+  slug: open-smartrecruiters-jobs-api
+- collection_type: open
   name: SmartRecruiters Job API
   slug: open-smartrecruiters-jobs
 - collection_type: open
+  name: SmartRecruiters Candidate Applications Messages API
+  slug: open-smartrecruiters-messages-api
+- collection_type: open
   name: SmartRecruiters Posting API
   slug: open-smartrecruiters-posting
+- collection_type: open
+  name: SmartRecruiters Candidate Applications Postings API
+  slug: open-smartrecruiters-postings-api
+- collection_type: open
+  name: SmartRecruiters Candidate Applications Teams API
+  slug: open-smartrecruiters-teams-api
 common:
 - group: agent
   title: ''
@@ -270,7 +294,7 @@ plans:
 - name: Smartrecruiters Plans Pricing
   plan_count: 4
   slug: smartrecruiters-plans-pricing
-random_paper: 87
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Smartrecruiters Rate Limits
@@ -317,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/screenshots/smartrecruiters-2026-06-20T194047.png
 security:

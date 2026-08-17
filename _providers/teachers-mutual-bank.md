@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -52,7 +52,32 @@ apis:
 - description: Banking Product endpoints
   name: Teachers Mutual Bank Banking Products API
   slug: teachers-mutual-bank-banking-products-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-teachers-mutual-bank-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-teachers-mutual-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-teachers-mutual-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-teachers-mutual-bank-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-teachers-mutual-bank-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-teachers-mutual-bank-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-teachers-mutual-bank-banking-products-api
 common:
 - group: auth
   title: ''
@@ -170,7 +195,7 @@ overview: 'Teachers Mutual Bank publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Teachers Mutual Bank''s developer surface includes authentication, API reference, getting-started guide, documentation, support, and 20 more developer resources.'
-random_paper: 93
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Teachers Mutual Bank Rate Limits
@@ -208,7 +233,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/screenshots/teachers-mutual-bank-2026-07-21T114753.png
 security:

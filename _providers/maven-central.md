@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: The Search API from Maven Central — 1 operation(s) for search.
   name: Maven Central Search API
   slug: maven-central-search-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sonatype Central Portal Publishing Deployment API
+  slug: open-maven-central-deployment-api
+- collection_type: open
+  name: Sonatype Central Portal Publishing Deployment Download API
+  slug: open-maven-central-download-api
 - collection_type: open
   name: Sonatype Central Portal Publishing API
   slug: open-maven-central-portal
+- collection_type: open
+  name: Sonatype Central Portal Publishing Deployment Search API
+  slug: open-maven-central-search-api
 - collection_type: open
   name: Maven Central Search API
   slug: open-maven-central-search
@@ -117,7 +129,7 @@ plans:
 - name: Maven Central Plans Pricing
   plan_count: 3
   slug: maven-central-plans-pricing
-random_paper: 5
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Maven Central Rate Limits
@@ -142,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/screenshots/maven-central-2026-06-20T185044.png
 security:

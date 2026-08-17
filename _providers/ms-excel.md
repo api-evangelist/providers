@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: The Me API from Microsoft Excel API — 9 operation(s) for me.
   name: Microsoft Excel API Me API
   slug: ms-excel-me-api
-artifact_total: 10
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Excel Me API
+  slug: open-ms-excel-me-api
 - collection_type: open
   name: Microsoft Graph Excel API
   slug: open-ms-excel
@@ -112,7 +118,7 @@ plans:
 - name: Ms Excel Plans Pricing
   plan_count: 3
   slug: ms-excel-plans-pricing
-random_paper: 78
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Ms Excel Rate Limits
@@ -142,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-excel/refs/heads/main/screenshots/ms-excel-2026-06-20T185845.png
 security:

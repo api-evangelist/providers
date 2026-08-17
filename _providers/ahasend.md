@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Manage webhook notifications
   name: AhaSend Webhooks API
   slug: ahasend-webhooks-api
-artifact_total: 244
+artifact_total: 256
 collections:
 - collection_type: postman
   name: AhaSend API v2 Accounts API
@@ -107,6 +107,42 @@ collections:
 - collection_type: postman
   name: AhaSend API v2 Accounts Webhooks API
   slug: postman-ahasend-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AhaSend API v2 Accounts API
+  slug: open-ahasend-accounts-api
+- collection_type: open
+  name: AhaSend API v2 Accounts API Keys API
+  slug: open-ahasend-api-keys-api
+- collection_type: open
+  name: AhaSend API v2 Accounts Domains API
+  slug: open-ahasend-domains-api
+- collection_type: open
+  name: AhaSend API v2 Accounts Email API
+  slug: open-ahasend-email-api
+- collection_type: open
+  name: AhaSend API v2 Accounts Messages API
+  slug: open-ahasend-messages-api
+- collection_type: open
+  name: AhaSend API v2 Accounts Routes API
+  slug: open-ahasend-routes-api
+- collection_type: open
+  name: AhaSend API v2 Accounts SMTP Credentials API
+  slug: open-ahasend-smtp-credentials-api
+- collection_type: open
+  name: AhaSend API v2 Accounts Statistics API
+  slug: open-ahasend-statistics-api
+- collection_type: open
+  name: AhaSend API v2 Accounts Suppressions API
+  slug: open-ahasend-suppressions-api
+- collection_type: open
+  name: AhaSend API v2 Accounts Utility API
+  slug: open-ahasend-utility-api
+- collection_type: open
+  name: AhaSend API v2 Accounts Webhooks API
+  slug: open-ahasend-webhooks-api
 - collection_type: open
   name: AhaSend Email API
   slug: open-ahasend
@@ -826,7 +862,7 @@ plans:
 - name: Ahasend Plans Pricing
   plan_count: 3
   slug: ahasend-plans-pricing
-random_paper: 4
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Ahasend Rate Limits
@@ -868,7 +904,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/screenshots/ahasend-2026-06-20T170542.png
 security:

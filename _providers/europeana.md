@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Discover records via keyword, faceted, and filtered search
   name: Europeana Search API
   slug: europeana-search-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Europeana Search and Record API
+  slug: open-europeana-record-api
+- collection_type: open
+  name: Europeana and Record Search API
+  slug: open-europeana-search-api
 - collection_type: open
   name: Europeana Search and Record API
   slug: open-europeana
@@ -135,7 +144,7 @@ plans:
 - name: Europeana Plans Pricing
   plan_count: 3
   slug: europeana-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Europeana Rate Limits
@@ -160,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/europeana/refs/heads/main/screenshots/europeana-2026-07-25T213706.png
 security:

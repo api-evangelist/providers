@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -51,7 +51,7 @@ overview: 'Docker Swarm is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Docker Swarm''s developer surface includes documentation and 1 more developer resources.'
-random_paper: 31
+random_paper: 39
 score:
   band: minimal
   composite: 7.3
@@ -65,7 +65,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker-swarm/refs/heads/main/screenshots/docker-swarm-2026-06-20T180106.png
 slug: docker-swarm

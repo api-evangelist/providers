@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Pricing, prepaid balance, and checkout.
@@ -55,7 +55,35 @@ apis:
 - description: The V1beta API from Overshoot — 1 operation(s) for v1beta.
   name: Overshoot V1beta API
   slug: overshoot-v1beta-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inference Service Billing API
+  slug: open-overshoot-billing-api
+- collection_type: open
+  name: Inference Service Billing Chat API
+  slug: open-overshoot-chat-api
+- collection_type: open
+  name: Inference Service Billing Healthz API
+  slug: open-overshoot-healthz-api
+- collection_type: open
+  name: Inference Service Billing Metrics API
+  slug: open-overshoot-metrics-api
+- collection_type: open
+  name: Inference Service Billing Models API
+  slug: open-overshoot-models-api
+- collection_type: open
+  name: Inference Service Billing Readyz API
+  slug: open-overshoot-readyz-api
+- collection_type: open
+  name: Inference Service Billing Streams API
+  slug: open-overshoot-streams-api
+- collection_type: open
+  name: Inference Service Billing V1beta API
+  slug: open-overshoot-v1beta-api
 common:
 - group: auth
   title: ''
@@ -165,7 +193,7 @@ overview: 'Overshoot publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Overshoot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 41
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Overshoot Rate Limits
@@ -192,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/screenshots/overshoot-2026-08-07T191138.png
 security:

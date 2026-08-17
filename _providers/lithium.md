@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 100
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -332,11 +332,312 @@ apis:
 - description: The Workqueues API from Lithium — 1 operation(s) for workqueues.
   name: Lithium Workqueues API
   slug: lithium-workqueues-api
-artifact_total: 108
+artifact_total: 209
 asyncapis:
 - description: ''
   name: Lithium Webhooks
   slug: lithium-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: agent-states-api-v2 AccountSet API
+  slug: open-lithium-accountset-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Active API
+  slug: open-lithium-active-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Admin API
+  slug: open-lithium-admin-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Agent States Api V2 API
+  slug: open-lithium-agent-states-api-v2-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Asset API
+  slug: open-lithium-asset-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Assets API
+  slug: open-lithium-assets-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Author Api V2 API
+  slug: open-lithium-author-api-v2-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Authors API
+  slug: open-lithium-authors-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Broadcast API
+  slug: open-lithium-broadcast-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Businesshours API
+  slug: open-lithium-businesshours-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet BySourceDocumentId API
+  slug: open-lithium-bysourcedocumentid-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Case API
+  slug: open-lithium-case-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Changed API
+  slug: open-lithium-changed-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Compare.json?streams API
+  slug: open-lithium-compare-json-streams-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Compare.json?streams={content}&sort API
+  slug: open-lithium-compare-json-streams-content-sort-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Compare.json?streams={content}&target API
+  slug: open-lithium-compare-json-streams-content-target-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Compare.json?streams={content}&target={number}&precision API
+  slug: open-lithium-compare-json-streams-content-target-number-precision-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Config API
+  slug: open-lithium-config-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Control API
+  slug: open-lithium-control-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Conversation Api V2 API
+  slug: open-lithium-conversation-api-v2-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Conversation Tag Rules V2 API
+  slug: open-lithium-conversation-tag-rules-v2-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Conversations API
+  slug: open-lithium-conversations-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Csv API
+  slug: open-lithium-csv-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Csv Long API
+  slug: open-lithium-csv-long-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet CurrentTAR API
+  slug: open-lithium-currenttar-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Customer API
+  slug: open-lithium-customer-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Customer (COPY) API
+  slug: open-lithium-customer-copy-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Customers API
+  slug: open-lithium-customers-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Data API
+  slug: open-lithium-data-api
+- collection_type: open
+  name: 'agent-states-api-v2 AccountSet # API'
+  slug: open-lithium-default-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Discussion API
+  slug: open-lithium-discussion-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet DisplayIds API
+  slug: open-lithium-displayids-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Email API
+  slug: open-lithium-email-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Entities.json?entity Ids API
+  slug: open-lithium-entities-json-entity-ids-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Export API
+  slug: open-lithium-export-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Flow Rest Api API
+  slug: open-lithium-flow-rest-api-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Folder API
+  slug: open-lithium-folder-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Form API
+  slug: open-lithium-form-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet GetForms API
+  slug: open-lithium-getforms-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Handover API
+  slug: open-lithium-handover-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Health API
+  slug: open-lithium-health-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Initiatives API
+  slug: open-lithium-initiatives-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Introspection Api API
+  slug: open-lithium-introspection-api-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Khorosapi API
+  slug: open-lithium-khorosapi-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Labels API
+  slug: open-lithium-labels-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Labelsets Api API
+  slug: open-lithium-labelsets-api-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet List API
+  slug: open-lithium-list-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Me API
+  slug: open-lithium-me-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Messages API
+  slug: open-lithium-messages-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta API
+  slug: open-lithium-meta-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?activity API
+  slug: open-lithium-meta-json-activity-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?all Topics API
+  slug: open-lithium-meta-json-all-topics-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json API
+  slug: open-lithium-meta-json-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?disregard API
+  slug: open-lithium-meta-json-disregard-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?finish API
+  slug: open-lithium-meta-json-finish-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json? Networks API
+  slug: open-lithium-meta-json-networks-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?num Contributors API
+  slug: open-lithium-meta-json-num-contributors-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?num Days API
+  slug: open-lithium-meta-json-num-days-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?num Hashtags API
+  slug: open-lithium-meta-json-num-hashtags-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?num Hours API
+  slug: open-lithium-meta-json-num-hours-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?num Minutes API
+  slug: open-lithium-meta-json-num-minutes-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?num Trends API
+  slug: open-lithium-meta-json-num-trends-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?percent API
+  slug: open-lithium-meta-json-percent-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?precision API
+  slug: open-lithium-meta-json-precision-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?sort API
+  slug: open-lithium-meta-json-sort-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?top Count API
+  slug: open-lithium-meta-json-top-count-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?top Periods API
+  slug: open-lithium-meta-json-top-periods-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Meta.json?top Periods Relative API
+  slug: open-lithium-meta-json-top-periods-relative-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet MultiChannelMessages API
+  slug: open-lithium-multichannelmessages-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Networks API
+  slug: open-lithium-networks-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Note API
+  slug: open-lithium-note-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Pause API
+  slug: open-lithium-pause-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Permissions API
+  slug: open-lithium-permissions-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Plans API
+  slug: open-lithium-plans-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Priority API
+  slug: open-lithium-priority-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Projects API
+  slug: open-lithium-projects-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Registrations API
+  slug: open-lithium-registrations-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Report API
+  slug: open-lithium-report-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Reports API
+  slug: open-lithium-reports-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Request API
+  slug: open-lithium-request-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Requests API
+  slug: open-lithium-requests-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Resolve API
+  slug: open-lithium-resolve-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Respond API
+  slug: open-lithium-respond-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Smart Views Api V2 API
+  slug: open-lithium-smart-views-api-v2-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet SsoId API
+  slug: open-lithium-ssoid-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Stream Api API
+  slug: open-lithium-stream-api-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Streams API
+  slug: open-lithium-streams-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Subscription API
+  slug: open-lithium-subscription-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Surveys API
+  slug: open-lithium-surveys-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Tag Api V2 API
+  slug: open-lithium-tag-api-v2-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Tag API
+  slug: open-lithium-tag-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Teams API
+  slug: open-lithium-teams-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Threads API
+  slug: open-lithium-threads-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Tokens API
+  slug: open-lithium-tokens-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Trigger API
+  slug: open-lithium-trigger-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Users API
+  slug: open-lithium-users-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Uuid API
+  slug: open-lithium-uuid-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Workqueue API
+  slug: open-lithium-workqueue-api
+- collection_type: open
+  name: agent-states-api-v2 AccountSet Workqueues API
+  slug: open-lithium-workqueues-api
 common:
 - group: auth
   title: ''
@@ -494,6 +795,14 @@ common:
   title: ''
   type: VulnerabilityDisclosure
   url: security/lithium-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lithium-plans-pricing.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://developer.khoros.com/.well-known/api-catalog
 - group: agent
   title: ''
   type: AgentSkill
@@ -523,7 +832,7 @@ mcp_servers:
 - description: ''
   name: lithium-mcp.yml
   slug: lithium-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Lithium
 nav: Providers
 network: true
@@ -533,8 +842,12 @@ overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network,
   The Lithium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lithium''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 37 more developer resources.'
-random_paper: 44
+  Lithium''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 39 more developer resources.'
+plans:
+- name: Lithium Plans Pricing
+  plan_count: 0
+  slug: lithium-plans-pricing
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Lithium Rate Limits
@@ -546,13 +859,13 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 63.7
-  delta: 0.0
+  composite: 65.6
+  delta: 1.9
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.8
     developer_ergonomics: 69.0
-    discoverability: 68.5
+    discoverability: 87.0
     governance: 20.8
     operational_transparency: 86.8
   previous_composite: 63.7
@@ -566,7 +879,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:

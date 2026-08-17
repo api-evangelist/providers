@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -71,7 +71,11 @@ arazzos:
 - description: The maintenance work-order flow, using the v2 job-task shape for create and read and the shared v1 sub-resources for quotations, transitions and attachments. Requires activity:read and activity:write,
   name: Raise, quote, approve and complete a PropertyMe maintenance job
   slug: propertyme-maintenance-job
-artifact_total: 19
+artifact_total: 20
+collections:
+- collection_type: open
+  name: PropertyMe
+  slug: open-propertyme
 common:
 - group: agent
   title: ''
@@ -251,7 +255,7 @@ overview: 'PropertyMe publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   PropertyMe''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 31
+random_paper: 68
 scopes:
 - name: Propertyme Scopes
   scope_count: 20
@@ -281,7 +285,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/screenshots/propertyme-2026-07-27T125353.png
 security:

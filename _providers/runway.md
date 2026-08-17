@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
 - description: Upscale video resolution and quality.
   name: Runway Video Upscale API
   slug: runway-video-upscale-api
-artifact_total: 67
+artifact_total: 82
 asyncapis:
 - description: The Runway Characters realtime event interface describes the WebRTC-based communication protocol for live conversational avatar sessions powered by GWM-1. Once a realtime session is created via the RE
   name: Runway Characters Realtime Events
@@ -137,14 +137,59 @@ collections:
   name: Runway Characters Avatars Video Upscale API
   slug: postman-runway-video-upscale-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Runway Characters Avatars API
+  slug: open-runway-avatars-api
+- collection_type: open
+  name: Runway Characters Avatars Character Performance API
+  slug: open-runway-character-performance-api
+- collection_type: open
   name: Runway Characters API
   slug: open-runway-characters
+- collection_type: open
+  name: Runway Characters Avatars Documents API
+  slug: open-runway-documents-api
+- collection_type: open
+  name: Runway Characters Avatars Frame Interpolation API
+  slug: open-runway-frame-interpolation-api
 - collection_type: open
   name: Runway Image Generation API
   slug: open-runway-image-generation
 - collection_type: open
+  name: Runway Characters Avatars Image to Video API
+  slug: open-runway-image-to-video-api
+- collection_type: open
+  name: Runway Characters Avatars Lip Sync API
+  slug: open-runway-lip-sync-api
+- collection_type: open
+  name: Runway Characters Avatars Realtime Sessions API
+  slug: open-runway-realtime-sessions-api
+- collection_type: open
+  name: Runway Characters Avatars Sound Effects API
+  slug: open-runway-sound-effects-api
+- collection_type: open
+  name: Runway Characters Avatars Tasks API
+  slug: open-runway-tasks-api
+- collection_type: open
+  name: Runway Characters Avatars Text to Image API
+  slug: open-runway-text-to-image-api
+- collection_type: open
+  name: Runway Characters Avatars Text to Video API
+  slug: open-runway-text-to-video-api
+- collection_type: open
+  name: Runway Characters Avatars Uploads API
+  slug: open-runway-uploads-api
+- collection_type: open
   name: Runway Video Generation API
   slug: open-runway-video-generation
+- collection_type: open
+  name: Runway Characters Avatars Video to Video API
+  slug: open-runway-video-to-video-api
+- collection_type: open
+  name: Runway Characters Avatars Video Upscale API
+  slug: open-runway-video-upscale-api
 common:
 - group: commercial
   title: ''
@@ -297,7 +342,7 @@ plans:
 - name: Runway Plans Pricing
   plan_count: 5
   slug: runway-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Runway Rate Limits
@@ -347,7 +392,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:

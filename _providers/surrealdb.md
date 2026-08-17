@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The SurrealDB HTTP REST API provides stateless access to SurrealDB instances over standard HTTP. It supports CRUD operations on tables and records, SurrealQL query execution via POST /sql, GraphQL que
@@ -139,7 +139,7 @@ plans:
 - name: Surrealdb Plans Pricing
   plan_count: 3
   slug: surrealdb-plans-pricing
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Surrealdb Rate Limits
@@ -157,7 +157,7 @@ score:
     operational_transparency: 57.9
   previous_composite: 41.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/screenshots/surrealdb-2026-06-20T194741.png
 security:

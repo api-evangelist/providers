@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Manage webhook endpoints for event notifications.
   name: Dynamic Webhooks API
   slug: dynamic-labs-webhooks-api
-artifact_total: 19
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dynamic Allowlists API
+  slug: open-dynamic-labs-allowlists-api
+- collection_type: open
+  name: Dynamic Allowlists Analytics API
+  slug: open-dynamic-labs-analytics-api
+- collection_type: open
+  name: Dynamic Allowlists API Tokens API
+  slug: open-dynamic-labs-api-tokens-api
+- collection_type: open
+  name: Dynamic Allowlists Embedded Wallets API
+  slug: open-dynamic-labs-embedded-wallets-api
+- collection_type: open
+  name: Dynamic Allowlists Environments API
+  slug: open-dynamic-labs-environments-api
+- collection_type: open
+  name: Dynamic Allowlists Exports API
+  slug: open-dynamic-labs-exports-api
+- collection_type: open
+  name: Dynamic Allowlists JWKS API
+  slug: open-dynamic-labs-jwks-api
+- collection_type: open
+  name: Dynamic Allowlists Users API
+  slug: open-dynamic-labs-users-api
+- collection_type: open
+  name: Dynamic Allowlists Wallets API
+  slug: open-dynamic-labs-wallets-api
+- collection_type: open
+  name: Dynamic Allowlists Webhooks API
+  slug: open-dynamic-labs-webhooks-api
 - collection_type: open
   name: Dynamic API
   slug: open-dynamic-labs
@@ -143,7 +176,7 @@ plans:
 - name: Dynamic Labs Plans Pricing
   plan_count: 3
   slug: dynamic-labs-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Dynamic Labs Rate Limits
@@ -174,7 +207,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/screenshots/dynamic-labs-2026-07-25T212555.png
 security:

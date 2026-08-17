@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -60,11 +60,36 @@ apis:
 - description: The User API from hubilo — 9 operation(s) for user.
   name: hubilo User API
   slug: hubilo-user-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Hubilo Webhooks
   slug: hubilo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hubilo (Virtual PRO) Public Event API
+  slug: open-hubilo-event-api
+- collection_type: open
+  name: Hubilo (Virtual PRO) Public Event Exhibitor API
+  slug: open-hubilo-exhibitor-api
+- collection_type: open
+  name: Hubilo (Virtual PRO) Public Event Organiser API
+  slug: open-hubilo-organiser-api
+- collection_type: open
+  name: Hubilo (Virtual PRO) Public Event Session API
+  slug: open-hubilo-session-api
+- collection_type: open
+  name: Hubilo (Virtual PRO) Public Event Speaker API
+  slug: open-hubilo-speaker-api
+- collection_type: open
+  name: Hubilo (Virtual PRO) Public Event Upload Media API
+  slug: open-hubilo-upload-media-api
+- collection_type: open
+  name: Hubilo (Virtual PRO) Public Event User API
+  slug: open-hubilo-user-api
 common:
 - group: company
   title: ''
@@ -189,7 +214,7 @@ overview: 'hubilo publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   hubilo''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, changelog, and 19 more developer resources.'
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Hubilo Rate Limits
@@ -217,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/screenshots/hubilo-2026-07-25T221615.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 5
@@ -335,11 +335,321 @@ apis:
 - description: The Workspaces API from Tricentis — 5 operation(s) for workspaces.
   name: Tricentis Workspaces API
   slug: tricentis-workspaces-api
-artifact_total: 110
+artifact_total: 213
 asyncapis:
 - description: ''
   name: Tricentis Qtest Webhooks
   slug: tricentis-qtest-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: qTest Data Export Access Files API
+  slug: open-tricentis-accessfiles-api
+- collection_type: open
+  name: qTest Pulse Action API
+  slug: open-tricentis-action-api
+- collection_type: open
+  name: NeoLoad Administration of users API
+  slug: open-tricentis-administration-of-users-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Attachment API
+  slug: open-tricentis-attachment-api
+- collection_type: open
+  name: TTM for Jira Attachments API
+  slug: open-tricentis-attachments-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Auth Systems API
+  slug: open-tricentis-auth-systems-api
+- collection_type: open
+  name: qTest Parameters Authentication API
+  slug: open-tricentis-authentication-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Automation Job API
+  slug: open-tricentis-automation-job-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Bridgerequirementsetlinks API
+  slug: open-tricentis-bridgerequirementsetlinks-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Build API
+  slug: open-tricentis-build-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Builds API
+  slug: open-tricentis-builds-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Common API
+  slug: open-tricentis-common-api
+- collection_type: open
+  name: qTest Pulse Constant API
+  slug: open-tricentis-constant-api
+- collection_type: open
+  name: TTM for Jira Cycles API
+  slug: open-tricentis-cycles-api
+- collection_type: open
+  name: qTest Parameters Datasets API
+  slug: open-tricentis-datasets-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Defect API
+  slug: open-tricentis-defect-api
+- collection_type: open
+  name: Tricentis Defects API
+  slug: open-tricentis-defects-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Defecttestrunlogs API
+  slug: open-tricentis-defecttestrunlogs-api
+- collection_type: open
+  name: NeoLoad Deletion Policies API
+  slug: open-tricentis-deletion-policies-api
+- collection_type: open
+  name: qTest Pulse Execution API
+  slug: open-tricentis-execution-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Executionsummaries API
+  slug: open-tricentis-executionsummaries-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Field API
+  slug: open-tricentis-field-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Folderhierarchies API
+  slug: open-tricentis-folderhierarchies-api
+- collection_type: open
+  name: Tricentis Folders API
+  slug: open-tricentis-folders-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Groups API
+  slug: open-tricentis-groups-api
+- collection_type: open
+  name: NeoLoad Information API
+  slug: open-tricentis-information-api
+- collection_type: open
+  name: NeoLoad Infrastructure Providers API
+  slug: open-tricentis-infrastructure-providers-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Integration Settings API
+  slug: open-tricentis-integration-settings-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Latestrunlogs API
+  slug: open-tricentis-latestrunlogs-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Latesttestrunstatuses API
+  slug: open-tricentis-latesttestrunstatuses-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Login API
+  slug: open-tricentis-login-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Module API
+  slug: open-tricentis-module-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Object Link API
+  slug: open-tricentis-object-link-api
+- collection_type: open
+  name: qTest Parameters API
+  slug: open-tricentis-parameters-api
+- collection_type: open
+  name: Tricentis Project API
+  slug: open-tricentis-project-api
+- collection_type: open
+  name: Tricentis Projects API
+  slug: open-tricentis-projects-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Release API
+  slug: open-tricentis-release-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Releases API
+  slug: open-tricentis-releases-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Requirement API
+  slug: open-tricentis-requirement-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Requirementreleases API
+  slug: open-tricentis-requirementreleases-api
+- collection_type: open
+  name: Tricentis Requirements API
+  slug: open-tricentis-requirements-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Requirementsets API
+  slug: open-tricentis-requirementsets-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Requirementtestcases API
+  slug: open-tricentis-requirementtestcases-api
+- collection_type: open
+  name: NeoLoad Resources|Reservations API
+  slug: open-tricentis-resources-reservations-api
+- collection_type: open
+  name: NeoLoad Resources|Zones API
+  slug: open-tricentis-resources-zones-api
+- collection_type: open
+  name: NeoLoad Results API
+  slug: open-tricentis-results-api
+- collection_type: open
+  name: NeoLoad Results|Elements API
+  slug: open-tricentis-results-elements-api
+- collection_type: open
+  name: NeoLoad Results|Events API
+  slug: open-tricentis-results-events-api
+- collection_type: open
+  name: NeoLoad Results|Monitors API
+  slug: open-tricentis-results-monitors-api
+- collection_type: open
+  name: NeoLoad Results|Reporting API
+  slug: open-tricentis-results-reporting-api
+- collection_type: open
+  name: NeoLoad Results|SL As API
+  slug: open-tricentis-results-slas-api
+- collection_type: open
+  name: qTest Pulse Rule API
+  slug: open-tricentis-rule-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Search API
+  slug: open-tricentis-search-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Site Templates API
+  slug: open-tricentis-site-templates-api
+- collection_type: open
+  name: TTM for Jira Status API
+  slug: open-tricentis-status-api
+- collection_type: open
+  name: qTest Parameters Tasks API
+  slug: open-tricentis-tasks-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Test Case API
+  slug: open-tricentis-test-case-api
+- collection_type: open
+  name: TTM for Jira Test Cases API
+  slug: open-tricentis-test-cases-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Test Cycle API
+  slug: open-tricentis-test-cycle-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Test Log API
+  slug: open-tricentis-test-log-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Test Run API
+  slug: open-tricentis-test-run-api
+- collection_type: open
+  name: TTM for Jira Test Runs API
+  slug: open-tricentis-test-runs-api
+- collection_type: open
+  name: TTM for Jira Test Runs Fields API
+  slug: open-tricentis-test-runs-fields-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Test Suite API
+  slug: open-tricentis-test-suite-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Testcases API
+  slug: open-tricentis-testcases-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Testrunlogs API
+  slug: open-tricentis-testrunlogs-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Testruns API
+  slug: open-tricentis-testruns-api
+- collection_type: open
+  name: NeoLoad Tests API
+  slug: open-tricentis-tests-api
+- collection_type: open
+  name: NeoLoad Tests|Projects API
+  slug: open-tricentis-tests-projects-api
+- collection_type: open
+  name: NeoLoad Tests|Runtime API
+  slug: open-tricentis-tests-runtime-api
+- collection_type: open
+  name: NeoLoad Tests|Test Analysis API
+  slug: open-tricentis-tests-test-analysis-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Testsuites API
+  slug: open-tricentis-testsuites-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Tosca API
+  slug: open-tricentis-tosca-api
+- collection_type: open
+  name: qTest Pulse Trigger API
+  slug: open-tricentis-trigger-api
+- collection_type: open
+  name: Tricentis User API
+  slug: open-tricentis-user-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 User Profile API
+  slug: open-tricentis-user-profile-api
+- collection_type: open
+  name: Tricentis Analytics (Tech Review) Users API
+  slug: open-tricentis-users-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 Application Information API
+  slug: open-tricentis-v2-application-information-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 Coverage API
+  slug: open-tricentis-v2-coverage-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 Project API
+  slug: open-tricentis-v2-project-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 Project Settings API
+  slug: open-tricentis-v2-project-settings-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 Resource API
+  slug: open-tricentis-v2-resource-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 Screen API
+  slug: open-tricentis-v2-screen-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 Script Generator Plugin API
+  slug: open-tricentis-v2-script-generator-plugin-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 Session API
+  slug: open-tricentis-v2-session-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 System Information API
+  slug: open-tricentis-v2-system-information-api
+- collection_type: open
+  name: qTest Explorer | Sessions V2 View Setting API
+  slug: open-tricentis-v2-view-setting-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Application Information API
+  slug: open-tricentis-v3-application-information-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Config API
+  slug: open-tricentis-v3-config-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Coverage API
+  slug: open-tricentis-v3-coverage-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Export API
+  slug: open-tricentis-v3-export-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Project Settings API
+  slug: open-tricentis-v3-project-settings-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Query API
+  slug: open-tricentis-v3-query-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Resource API
+  slug: open-tricentis-v3-resource-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Screen API
+  slug: open-tricentis-v3-screen-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Search API
+  slug: open-tricentis-v3-search-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Session API
+  slug: open-tricentis-v3-session-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 System Information API
+  slug: open-tricentis-v3-system-information-api
+- collection_type: open
+  name: qTest Explorer | Sessions V3 Upload API
+  slug: open-tricentis-v3-upload-api
+- collection_type: open
+  name: qTest Explorer | Sessions V4 Query API
+  slug: open-tricentis-v4-query-api
+- collection_type: open
+  name: qTest Manager API Version 3.0 Webhook API
+  slug: open-tricentis-webhook-api
+- collection_type: open
+  name: NeoLoad Workspaces API
+  slug: open-tricentis-workspaces-api
 common:
 - group: agent
   title: ''
@@ -528,7 +838,7 @@ overview: 'Tricentis publishes 102 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tricentis'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 35 more developer resources.'
-random_paper: 21
+random_paper: 87
 scopes:
 - name: Tricentis Scopes
   scope_count: 1
@@ -557,7 +867,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

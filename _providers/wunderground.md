@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Current and real-time PWS observations
   name: Weather Underground Observations API
   slug: wunderground-observations-api
-artifact_total: 17
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Weather Underground PWS Forecast API
+  slug: open-wunderground-forecast-api
+- collection_type: open
+  name: Weather Underground PWS Forecast Historical API
+  slug: open-wunderground-historical-api
+- collection_type: open
+  name: Weather Underground PWS Forecast Location API
+  slug: open-wunderground-location-api
+- collection_type: open
+  name: Weather Underground PWS Forecast Observations API
+  slug: open-wunderground-observations-api
 common:
 - group: agent
   title: ''
@@ -155,7 +171,7 @@ plans:
 - name: Wunderground Plans Pricing
   plan_count: 1
   slug: wunderground-plans-pricing
-random_paper: 116
+random_paper: 124
 rate_limits:
 - limit_count: 2
   name: Wunderground Rate Limits
@@ -189,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/screenshots/wunderground-2026-06-20T201644.png
 security:

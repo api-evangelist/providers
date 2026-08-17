@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: The Variation API from Leonardo.AI — 6 operation(s) for variation.
   name: Leonardo.AI Variation API
   slug: leonardo-ai-variation-api
-artifact_total: 80
+artifact_total: 95
 asyncapis:
 - description: AsyncAPI description of Leonardo.AI's outbound webhook callback surface. Leonardo delivers asynchronous job-completion notifications to a customer- hosted HTTPS endpoint that is configured per Product
   name: Leonardo.AI Webhook Callbacks
@@ -130,41 +130,86 @@ collections:
   name: Leonardo.AI 3D Model Assets Variation API
   slug: postman-leonardo-ai-variation-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Leonardo.AI 3D Model Assets API
+  slug: open-leonardo-ai-3d-model-assets-api
+- collection_type: open
   name: Leonardo.AI 3D Model Assets API
   slug: open-leonardo-ai-3d-model-assets
+- collection_type: open
+  name: Leonardo.AI 3D Model Assets Blueprints API
+  slug: open-leonardo-ai-blueprints-api
 - collection_type: open
   name: Leonardo.AI Blueprints API
   slug: open-leonardo-ai-blueprints
 - collection_type: open
+  name: Leonardo.AI 3D Model Assets Dataset API
+  slug: open-leonardo-ai-dataset-api
+- collection_type: open
   name: Leonardo.AI Datasets API
   slug: open-leonardo-ai-datasets
+- collection_type: open
+  name: Leonardo.AI 3D Model Assets Elements API
+  slug: open-leonardo-ai-elements-api
 - collection_type: open
   name: Leonardo.AI Elements API
   slug: open-leonardo-ai-elements
 - collection_type: open
+  name: Leonardo.AI 3D Model Assets Image API
+  slug: open-leonardo-ai-image-api
+- collection_type: open
   name: Leonardo.AI Image Generation API
   slug: open-leonardo-ai-image-generation
+- collection_type: open
+  name: Leonardo.AI 3D Model Assets Init Images API
+  slug: open-leonardo-ai-init-images-api
 - collection_type: open
   name: Leonardo.AI Init Images API
   slug: open-leonardo-ai-init-images
 - collection_type: open
+  name: Leonardo.AI 3D Model Assets Media API
+  slug: open-leonardo-ai-media-api
+- collection_type: open
   name: Leonardo.AI Media API
   slug: open-leonardo-ai-media
+- collection_type: open
+  name: Leonardo.AI 3D Model Assets Models API
+  slug: open-leonardo-ai-models-api
 - collection_type: open
   name: Leonardo.AI Models API
   slug: open-leonardo-ai-models
 - collection_type: open
+  name: Leonardo.AI 3D Model Assets Motion API
+  slug: open-leonardo-ai-motion-api
+- collection_type: open
+  name: Leonardo.AI 3D Model Assets Pricing Calculator API
+  slug: open-leonardo-ai-pricing-calculator-api
+- collection_type: open
   name: Leonardo.AI Pricing Calculator API
   slug: open-leonardo-ai-pricing-calculator
+- collection_type: open
+  name: Leonardo.AI 3D Model Assets Prompt API
+  slug: open-leonardo-ai-prompt-api
 - collection_type: open
   name: Leonardo.AI Prompt API
   slug: open-leonardo-ai-prompt
 - collection_type: open
+  name: Leonardo.AI 3D Model Assets Realtime Canvas API
+  slug: open-leonardo-ai-realtime-canvas-api
+- collection_type: open
   name: Leonardo.AI Realtime Canvas API
   slug: open-leonardo-ai-realtime-canvas
 - collection_type: open
+  name: Leonardo.AI 3D Model Assets User API
+  slug: open-leonardo-ai-user-api
+- collection_type: open
   name: Leonardo.AI User API
   slug: open-leonardo-ai-user
+- collection_type: open
+  name: Leonardo.AI 3D Model Assets Variation API
+  slug: open-leonardo-ai-variation-api
 - collection_type: open
   name: Leonardo.AI Variation & Upscale API
   slug: open-leonardo-ai-variation
@@ -427,7 +472,7 @@ plans:
 - name: Leonardo Ai Plans Pricing
   plan_count: 5
   slug: leonardo-ai-plans-pricing
-random_paper: 19
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Leonardo Ai Rate Limits
@@ -477,7 +522,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/screenshots/leonardo-ai-2026-06-20T184426.png
 security:

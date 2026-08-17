@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Health API from Alice Bob — 1 operation(s) for health.
@@ -30,7 +30,20 @@ apis:
 - description: The Targets API from Alice Bob — 3 operation(s) for targets.
   name: Alice Bob Targets API
   slug: alice--bob-targets-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Felis Cloud • API Reference Health API
+  slug: open-alice--bob-health-api
+- collection_type: open
+  name: Felis Cloud • API Reference Jobs API
+  slug: open-alice--bob-jobs-api
+- collection_type: open
+  name: Felis Cloud • API Reference Targets API
+  slug: open-alice--bob-targets-api
 common:
 - group: agent
   title: ''
@@ -164,7 +177,7 @@ plans:
 - name: Alice  Bob Plans
   plan_count: 3
   slug: alice--bob-plans
-random_paper: 67
+random_paper: 13
 score:
   band: developing
   composite: 51.4
@@ -187,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/screenshots/alice--bob-2026-08-07T161203.png
 security:

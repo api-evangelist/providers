@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,7 +69,29 @@ apis:
 - description: Operations for retrieving document summaries
   name: PubMed Summary API
   slug: pubmed-summary-api
-artifact_total: 25
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NCBI Entrez E-utilities History API
+  slug: open-pubmed-history-api
+- collection_type: open
+  name: NCBI Entrez E-utilities History Info API
+  slug: open-pubmed-info-api
+- collection_type: open
+  name: NCBI Entrez E-utilities History Links API
+  slug: open-pubmed-links-api
+- collection_type: open
+  name: NCBI Entrez E-utilities History Retrieval API
+  slug: open-pubmed-retrieval-api
+- collection_type: open
+  name: NCBI Entrez E-utilities History Search API
+  slug: open-pubmed-search-api
+- collection_type: open
+  name: NCBI Entrez E-utilities History Summary API
+  slug: open-pubmed-summary-api
 common:
 - group: agent
   title: ''
@@ -139,7 +161,7 @@ plans:
 - name: Entrez Eutils
   plan_count: 2
   slug: entrez-eutils
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Entrez Eutils
@@ -179,7 +201,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubmed/refs/heads/main/screenshots/pubmed-2026-06-20T192246.png
 security:

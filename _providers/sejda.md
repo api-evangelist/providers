@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,8 +51,14 @@ apis:
 - description: The HTML to PDF API from Sejda — 1 operation(s) for html to pdf.
   name: Sejda HTML to PDF API
   slug: sejda-html-to-pdf-api
-artifact_total: 12
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sejda HTML to PDF API
+  slug: open-sejda-html-to-pdf-api
 - collection_type: open
   name: Sejda HTML to PDF API
   slug: open-sejda
@@ -125,7 +131,7 @@ plans:
 - name: Sejda Plans Pricing
   plan_count: 9
   slug: sejda-plans-pricing
-random_paper: 39
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Sejda Rate Limits
@@ -150,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

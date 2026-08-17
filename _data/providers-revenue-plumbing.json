@@ -27,7 +27,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 68.5,
      "agent_band": "agent-ready",
@@ -65,7 +65,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 64.9,
      "agent_band": "agent-ready",
@@ -103,7 +103,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -148,7 +148,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 68.0,
      "agent_band": "agent-ready",
@@ -186,7 +186,7 @@
       "developer_ergonomics": 91.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -231,7 +231,7 @@
       "developer_ergonomics": 100.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 60.8,
      "agent_band": "agent-ready",
@@ -269,7 +269,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 54.1,
      "agent_band": "agent-ready",
@@ -307,7 +307,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 39.2,
      "agent_band": "agent-ready",
@@ -345,7 +345,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 56.5,
      "agent_band": "agent-ready",
@@ -383,7 +383,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -428,7 +428,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -473,7 +473,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -518,7 +518,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -563,7 +563,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 55.9,
      "agent_band": "agent-ready",
@@ -601,7 +601,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 67.6,
      "agent_band": "agent-ready",
@@ -639,7 +639,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 49.5,
      "agent_band": "agent-ready",
@@ -677,7 +677,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 55.9,
      "agent_band": "agent-ready",
@@ -703,6 +703,7 @@
      "name": "Chili Piper",
      "slug": "chili-piper",
      "description": "Chili Piper is a demand conversion platform for B2B go-to-market teams, founded in 2016 by Alina and Nicolas Vandenberghe and headquartered in New York. Its products - Concierge, Distro, Handoff, Chat AI, Web Experiences, Re-engagement and ChiliCal - turn inbound website visitors and form submissions into booked meetings by qualifying, enriching, routing and scheduling leads against Salesforce or HubSpot ownership, territory and round-robin distribution logic. For developers, Chili Piper publishes the Edge API (https://fire.chilipiper.com/api/fire-edge), a bearer-token REST surface covering users, workspaces, teams, routing rules, distributions, meetings, meeting types, scheduling links, handoff and Concierge routing; a hosted remote MCP server with 55 documented tools; official Agent Skills and ChatGPT GPT actions published under the Chili-Piper GitHub organization; a Concierge JavaScript embed distributed on npm; and custom webhooks for booked, updated and cancelled meetings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/screenshots/chili-piper-2026-08-17T080410.png",
      "score": 66.5,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -714,7 +715,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 64.9,
      "agent_band": "agent-ready",
@@ -752,7 +753,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
@@ -801,7 +802,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -839,7 +840,7 @@
       "developer_ergonomics": 82.6,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 72.1,
      "agent_band": "agent-ready",
@@ -877,7 +878,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 46.6,
      "agent_band": "agent-ready",
@@ -915,7 +916,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -960,7 +961,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -993,6 +994,7 @@
      "name": "Demio",
      "slug": "demio",
      "description": "Demio is a browser-based webinar and virtual-event platform built for B2B marketing and sales teams, operated by Banzai International, Inc. (NASDAQ: BNZI). It runs live, automated/evergreen, on-demand and series webinars with no attendee download, and pairs them with customizable registration pages, embeddable registration forms, in-session engagement tools (polls, handouts, featured actions, chat), recordings, Showcase event listings and post-webinar analytics. Its public developer surface is the Public Demio API — a key/secret authorized REST API at https://my.demio.com/api/v1 covering Events, Event Sessions (Dates), attendee registration with unique join links, and per-Session participation reporting. Demio documents the API as an Apiary API Blueprint, publishes burst rate limits and daily call quotas, runs a public Atlassian Statuspage, ships one first-party PHP SDK from its meetdemio GitHub organization, and offers a Zapier app with registration, join, no-show and event-update triggers for teams that do not want to call the API directly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/screenshots/demio-2026-08-17T080854.png",
      "score": 63.9,
      "band": "strong",
      "band_label": "Strong",
@@ -1004,7 +1006,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 60.8,
      "agent_band": "agent-ready",
@@ -1042,7 +1044,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1086,7 +1088,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1131,7 +1133,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 54.3,
      "agent_band": "agent-native",
@@ -1169,7 +1171,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
@@ -1195,6 +1197,7 @@
      "name": "Sumble",
      "slug": "sumble",
      "description": "Sumble provides account intelligence data that powers go-to-market work across the revenue org — sales, RevOps, marketing, and customer success. Its data captures the most detailed view of what companies use (technologies and projects), who works there (people, teams, job posts), and when they are ready to buy (signals). Sumble exposes this as a RESTful enrichment API (OpenAPI 3.1, bearer-token auth) plus a hosted MCP server, letting teams enrich CRM data, build lead-generation tools, and run market research programmatically. Surfaced as a portfolio company of Bloomberg Beta and enriched into the API Evangelist network from its public developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/screenshots/sumble-2026-08-17T082151.png",
      "score": 62.5,
      "band": "strong",
      "band_label": "Strong",
@@ -1206,7 +1209,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 59.2,
      "agent_band": "agent-ready",
@@ -1244,7 +1247,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1289,7 +1292,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -1327,7 +1330,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -1353,6 +1356,7 @@
      "name": "Kartra",
      "slug": "kartra",
      "description": "Kartra is an all-in-one online business platform operated by Kartra, Inc. of Las Vegas, Nevada, that bundles landing pages and funnels, email marketing with automation sequences, checkouts and recurring billing, membership sites and courses, video hosting, calendars and booking, helpdesks, affiliate management and lead scoring into a single subscription. Its developer surface is three distinct things: an inbound API that is a single form-encoded POST endpoint at https://app.kartra.com/api driven by 29 documented `cmd` values and scoped to exactly one lead per call; an outbound API that POSTs 24 JSON lead and commerce events to URLs configured in the account; and an IPN system that POSTs six payment-lifecycle notifications as flat form variables. Kartra publishes no OpenAPI, no SDK in any language, no signed webhooks and no idempotency contract, and it returns HTTP 200 for every outcome including authentication failure — the numeric `type` field in the response body is the real error signal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/screenshots/kartra-2026-08-17T081006.png",
      "score": 60.2,
      "band": "strong",
      "band_label": "Strong",
@@ -1364,7 +1368,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1397,6 +1401,7 @@
      "name": "VBOUT",
      "slug": "vbout",
      "description": "VBOUT is an AI-enabled marketing automation platform used by agencies and small-to-mid-size businesses to run email marketing, social media scheduling, landing pages, popups, lead scoring, and an AI chatbot from one place. The VBOUT REST API (v1.0 at api.vbout.com/1) exposes the platform programmatically — contacts, lists, audiences, email campaigns and stats, social channels, calendar and posts, conversion goals, sub-users and groups, on-site engagement actions, automations, pipeline boards, and account settings — authenticated with an account API key, with responses in JSON or XML and a documented 15 requests/second rate limit. VBOUT is a 500 Global portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/screenshots/vbout-2026-08-17T082712.png",
      "score": 59.9,
      "band": "strong",
      "band_label": "Strong",
@@ -1408,7 +1413,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 49.8,
      "agent_band": "agent-ready",
@@ -1446,7 +1451,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
@@ -1484,7 +1489,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 59.2,
      "agent_band": "agent-ready",
@@ -1522,7 +1527,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1555,6 +1560,7 @@
      "name": "tl;dv",
      "slug": "tl-dv",
      "description": "tl;dv is an AI meeting notetaker for Zoom, Google Meet and Microsoft Teams that automatically records, transcribes and summarizes meetings in 30+ languages and syncs the resulting insights into CRMs and productivity tools. Its public API (base URL https://pasta.tldv.io, version v1alpha1) gives developers programmatic access to meetings, speaker-attributed transcripts and AI-generated notes, plus meeting import from a URL and webhook delivery of MeetingReady and TranscriptReady events. Authentication is via an x-api-key header issued from account settings, and API access requires a Business or Enterprise plan. tl;dv also ships an official Model Context Protocol server — an open-source stdio build at github.com/tldv-public/tldv-mcp-server exposing four read tools, plus a live OAuth-protected hosted endpoint at https://mcp.tldv.io/mcp — making meetings, transcripts and highlights callable directly by AI agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/screenshots/tl-dv-2026-08-17T082359.png",
      "score": 57.3,
      "band": "strong",
      "band_label": "Strong",
@@ -1566,7 +1572,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -1604,7 +1610,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 58.1,
      "agent_band": "agent-ready",
@@ -1642,7 +1648,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -1680,7 +1686,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1713,6 +1719,7 @@
      "name": "Leadpages",
      "slug": "leadpages",
      "description": "Leadpages is an AI web platform with built-in conversion optimization, part of the Redbrick family of brands. It builds and hosts landing pages, multi-page sites and blogs that improve themselves through A/B testing, Smart Traffic variant routing, click and scroll heatmaps, dynamic text replacement and auto-personalization, with no traffic caps on any plan. For developers and agents it publishes a REST API covering pages, sites, assets, blogs, analytics, forms, custom domains and brand kits; a hosted Model Context Protocol server exposing 47 tools over OAuth 2.0 with PKCE; webhooks for page-publish, lead-capture and form-submission events; and an A2A agent card describing a nine-agent campaign team. Founded 2012 and rebuilt from scratch in 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/screenshots/leadpages-2026-08-17T081052.png",
      "score": 56.2,
      "band": "strong",
      "band_label": "Strong",
@@ -1724,7 +1731,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 48.9,
      "agent_band": "agent-ready",
@@ -1762,7 +1769,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 39.4,
      "agent_band": "agent-ready",
@@ -1799,6 +1806,7 @@
      "name": "Digioh",
      "slug": "digioh",
      "description": "Digioh is a US-based onsite personalization and zero-party data platform for ecommerce brands. It ships product recommendation quizzes, pop-ups, banners, sidebars, inline embeds, landing pages, email/SMS preference centers and post-purchase surveys as a JavaScript widget layer installed on a merchant's storefront, plus Digioh Passport for cross-session visitor identification and Digioh Pipelines for routing form submissions into ESP/CRM destinations such as Klaviyo, Iterable, Braze, Attentive, Ometria, HubSpot and Salesforce. Its developer surface is client-side rather than server-side - a documented browser JavaScript API (DIGIOH_API.LIGHTBOX), an outbound \"API Form POST\" webhook integration that posts submission JSON to a customer-controlled endpoint, iOS and Android embed SDKs, and a WordPress plugin and Shopify app. Digioh publishes no public inbound REST API, no OpenAPI definition and no developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/screenshots/digioh-2026-08-17T080859.png",
      "score": 55.9,
      "band": "developing",
      "band_label": "Developing",
@@ -1810,7 +1818,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -1848,7 +1856,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -1886,7 +1894,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 43.2,
      "agent_band": "agent-ready",
@@ -1912,6 +1920,7 @@
      "name": "Zoca",
      "slug": "zoca",
      "description": "Zoca is an AI-powered marketing platform built for local beauty and wellness businesses — salons, spas, med spas and wellness clinics. It packages its automation as agents: a Discovery Agent that improves local ranking and Google Business Profile visibility, a Win Agent that converts inquiries into confirmed appointments over chat, SMS and voice, a Loyalty Agent that drives rebooking and retention, and a Social Agent that produces Instagram, TikTok and Facebook content. Zoca also runs free self-serve tools including a Local Business Demand Tracker, a Local Website Grader and a Google Business Profile Optimizer. Zoca is operated by ZOCAAI TECHNOLOGIES PRIVATE LIMITED, was founded in 2021, and is an Accel portfolio company. Zoca runs no developer program — no portal, no API reference, no SDK and no documented API — but it serves three real OpenAPI 3.0.0 documents publicly and unauthenticated at api.zoca.ai/swagger.json, tasks.zoca.ai/swagger.json and public.zoca.com/swagger.json, together describing 2,624 operations across 2,267 paths. Those are the application's own backend contracts rather than a product, and they ship with minified operationIds and untyped schemas.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/screenshots/zoca-2026-08-17T083114.png",
      "score": 52.8,
      "band": "developing",
      "band_label": "Developing",
@@ -1923,7 +1932,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 72.5,
      "agent_band": "agent-native",
@@ -1961,7 +1970,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1994,6 +2003,7 @@
      "name": "involve.me",
      "slug": "involve-me",
      "description": "involve.me is an AI quiz, form and funnel builder with built-in email automation and a lightweight CRM, operated by stereosense GmbH and used by marketing teams to capture, qualify and follow up on leads. Customers build quizzes, assessments, calculators, product finders, landing pages, surveys and payment pages in a no-code editor, publish them as a hosted page or an embedded widget, and route submissions into 55+ native CRM and email destinations. Its programmable surface is deliberately narrow: there is no public REST API and no OpenAPI, and the only machine-addressable paths are an outbound webhook that fires when a participant completes a funnel (Scale plan and above), a copy-paste JavaScript embed loader, Zapier and Make connectors, and an OAuth-protected Model Context Protocol server that exposes the marketing website's Statamic CMS rather than the product itself.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/involve-me/refs/heads/main/screenshots/involve-me-2026-08-17T081000.png",
      "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
@@ -2005,7 +2015,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 47.3,
      "agent_band": "agent-ready",
@@ -2031,6 +2041,7 @@
      "name": "Voyant.io",
      "slug": "voyant",
      "description": "Voyant.io is a brand-context platform that turns a company's positioning, messaging, personas, products, pricing, and competitive intelligence into structured \"context streams\" that any AI tool or agent can read at generation time, so AI-produced copy stays on-message instead of drifting or hallucinating claims. The product is delivered as a large FastAPI-based REST API (783 operations across 79 tags covering context streams, RAG search, messaging frameworks, target graph, telemetry, social signal harvesting, competitive intelligence, and content generation), a hosted MCP server exposing 15 tools to agent clients, and a set of published agent-governance files (`/.well-known/llms.txt`, `/.well-known/context.txt`) that declare training permissions and inference-control rules for the domain itself. Marketed to B2B GTM teams scaling from $5M to $100M ARR. Pre-seed, founded by Andrew M. Brown; the API runs under the internal name \"VoiceForge\".",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/screenshots/voyant-2026-08-17T082904.png",
      "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
@@ -2042,7 +2053,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 55.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 72.1,
      "agent_band": "agent-ready",
@@ -2080,7 +2091,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -2118,7 +2129,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 29.3,
      "agent_band": "agent-aware",
@@ -2156,7 +2167,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 60.4,
      "agent_band": "agent-ready",
@@ -2194,7 +2205,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 74.1,
      "agent_band": "agent-native",
@@ -2232,7 +2243,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
@@ -2258,6 +2269,7 @@
      "name": "EasyWebinar",
      "slug": "easywebinar",
      "description": "EasyWebinar is a live and automated webinar platform for course creators, marketers, coaches and enterprise teams, combining live webinars, automated/simulive and evergreen webinars, an AI webinar funnel builder, EasyCast multistreaming to YouTube, LinkedIn, Facebook and custom RTMP destinations, built-in checkout for paid webinars, and Easy Suite — a native CRM with lead scoring, email sequences and automated follow-up. The platform scales to 100,000 live attendees on Dolby OptiView (Millicast) WebRTC infrastructure and is SOC 2 Type II certified (audited by Scrut Automation) with GDPR controls, SAML 2.0 SSO and SCIM provisioning on the Enterprise tier. EasyWebinar publicly serves an OAuth 2.0 / OpenID Connect authorization server at app.easywebinar.com and markets a REST API and webhooks covering registration, attendance, lead data, CRM sync and event lifecycle events — but that API is a Scale-plan and Enterprise entitlement, and no public reference, OpenAPI or webhook catalogue is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/screenshots/easywebinar-2026-08-17T080912.png",
      "score": 46.2,
      "band": "developing",
      "band_label": "Developing",
@@ -2269,7 +2281,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
@@ -2295,6 +2307,7 @@
      "name": "Poptin",
      "slug": "poptin",
      "description": "Poptin is an Israeli-founded, no-code conversion and lifecycle marketing platform that bundles website popups, bars, embedded forms, coupons, email campaigns, email automation, contact management, audience segmentation and website tracking into a single SaaS product aimed at ecommerce stores, SaaS companies, agencies and small businesses. Delivery is a hosted embed script (cdn.popt.in/pixel.js) installed via first-party plugins for WordPress, Magento 2, Craft CMS, SilverStripe, TYPO3, OctoberCMS, Contao, Shopify, Wix and Google Tag Manager. Its developer surface is client-side and event-shaped rather than REST: documented DOM CustomEvents (poptinView, poptinClose, poptinSubmit, couponCopy) with a published event.detail field set, named global callbacks, and an outbound per-popup Webhooks integration that posts lead data to a subscriber URL. Poptin publishes no public API reference, no OpenAPI, and no developer portal; a Make/Zapier API key is issued from account settings for its two automation connectors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/poptin/refs/heads/main/screenshots/poptin-2026-08-17T081328.png",
      "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
@@ -2306,7 +2319,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -2344,7 +2357,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2399,7 +2412,7 @@
       "developer_ergonomics": 32.1,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2453,7 +2466,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -2491,7 +2504,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -2529,7 +2542,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2567,7 +2580,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2604,7 +2617,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -2642,7 +2655,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 1.6,
      "agent_band": "human-only",

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 2
@@ -114,20 +114,95 @@ apis:
 - description: Manage webhook subscriptions.
   name: Zesty Webhooks API
   slug: zesty-webhooks-api
-artifact_total: 49
+artifact_total: 74
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Zesty Accounts API
   slug: open-zesty-accounts-api
 - collection_type: open
+  name: Zesty Accounts Apps API
+  slug: open-zesty-apps-api
+- collection_type: open
+  name: Zesty Accounts Apps Audits API
+  slug: open-zesty-audits-api
+- collection_type: open
   name: Zesty Auth API
   slug: open-zesty-auth-api
 - collection_type: open
-  name: Zesty Instances API
+  name: Zesty Accounts Apps Authentication API
+  slug: open-zesty-authentication-api
+- collection_type: open
+  name: Zesty Accounts Apps Bins API
+  slug: open-zesty-bins-api
+- collection_type: open
+  name: Zesty Accounts Apps Content Items API
+  slug: open-zesty-content-items-api
+- collection_type: open
+  name: Zesty Accounts Apps Content Models API
+  slug: open-zesty-content-models-api
+- collection_type: open
+  name: Zesty Accounts Apps Fields API
+  slug: open-zesty-fields-api
+- collection_type: open
+  name: Zesty Accounts Apps Files API
+  slug: open-zesty-files-api
+- collection_type: open
+  name: Zesty Accounts Apps Groups API
+  slug: open-zesty-groups-api
+- collection_type: open
+  name: Zesty Accounts Apps Head Tags API
+  slug: open-zesty-head-tags-api
+- collection_type: open
+  name: Zesty Accounts Apps Instances API
   slug: open-zesty-instances-api
 - collection_type: open
   name: Zesty Media API
   slug: open-zesty-media-api
+- collection_type: open
+  name: Zesty Accounts Apps Navigation API
+  slug: open-zesty-navigation-api
+- collection_type: open
+  name: Zesty Accounts Apps Password API
+  slug: open-zesty-password-api
+- collection_type: open
+  name: Zesty Accounts Apps Publishing API
+  slug: open-zesty-publishing-api
+- collection_type: open
+  name: Zesty Accounts Apps Resolver API
+  slug: open-zesty-resolver-api
+- collection_type: open
+  name: Zesty Accounts Apps Roles API
+  slug: open-zesty-roles-api
+- collection_type: open
+  name: Zesty Accounts Apps Scripts API
+  slug: open-zesty-scripts-api
+- collection_type: open
+  name: Zesty Accounts Apps Search API
+  slug: open-zesty-search-api
+- collection_type: open
+  name: Zesty Accounts Apps Settings API
+  slug: open-zesty-settings-api
+- collection_type: open
+  name: Zesty Accounts Apps Stylesheets API
+  slug: open-zesty-stylesheets-api
+- collection_type: open
+  name: Zesty Accounts Apps Teams API
+  slug: open-zesty-teams-api
+- collection_type: open
+  name: Zesty Accounts Apps Tokens API
+  slug: open-zesty-tokens-api
+- collection_type: open
+  name: Zesty Accounts Apps Users API
+  slug: open-zesty-users-api
+- collection_type: open
+  name: Zesty Accounts Apps Views API
+  slug: open-zesty-views-api
+- collection_type: open
+  name: Zesty Accounts Apps Webhooks API
+  slug: open-zesty-webhooks-api
 common:
 - group: agent
   title: ''
@@ -243,7 +318,7 @@ plans:
 - name: Zesty Plans Pricing
   plan_count: 4
   slug: zesty-plans-pricing
-random_paper: 95
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Zesty Rate Limits
@@ -277,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png
 security:

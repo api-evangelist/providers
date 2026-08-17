@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -67,7 +67,7 @@ apis:
 - description: The Transcription V2 API from Gladia — 3 operation(s) for transcription v2.
   name: Gladia Transcription V2 API
   slug: gladia-transcription-v2-api
-artifact_total: 36
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Gladia Control AudioToText API
@@ -93,6 +93,33 @@ collections:
 - collection_type: postman
   name: Gladia Control AudioToText Transcription V2 API
   slug: postman-gladia-transcription-v2-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gladia Control AudioToText API
+  slug: open-gladia-audiototext-api
+- collection_type: open
+  name: Gladia Control AudioToText File Management API
+  slug: open-gladia-file-management-api
+- collection_type: open
+  name: Gladia Control AudioToText Job History API
+  slug: open-gladia-job-history-api
+- collection_type: open
+  name: Gladia Control AudioToText Live V2 API
+  slug: open-gladia-live-v2-api
+- collection_type: open
+  name: Gladia Control AudioToText OpenRouter API
+  slug: open-gladia-openrouter-api
+- collection_type: open
+  name: Gladia Control AudioToText Pre-recorded V2 API
+  slug: open-gladia-pre-recorded-v2-api
+- collection_type: open
+  name: Gladia Control AudioToText Transcription V1 API
+  slug: open-gladia-transcription-v1-api
+- collection_type: open
+  name: Gladia Control AudioToText Transcription V2 API
+  slug: open-gladia-transcription-v2-api
 common:
 - group: build
   title: ''
@@ -255,7 +282,7 @@ plans:
 - name: Gladia Plans Pricing
   plan_count: 3
   slug: gladia-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 8
   name: Gladia Rate Limits
@@ -289,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/screenshots/gladia-2026-06-20T181856.png
 security:

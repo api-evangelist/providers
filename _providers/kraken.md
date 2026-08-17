@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ arazzos:
 - description: Check balance and withdrawal fees, withdraw to a saved address, then track status.
   name: Kraken Withdraw Funds with Fee Preview
   slug: kraken-withdraw-funds-workflow
-artifact_total: 388
+artifact_total: 401
 asyncapis:
 - description: 'Public WebSocket API for the Kraken cryptocurrency exchange (Spot v2). Provides real-time market data through subscribe/unsubscribe semantics over JSON. Channels documented here are restricted to the '
   name: Kraken Spot WebSocket API v2
@@ -156,11 +156,50 @@ collections:
   name: Kraken Spot REST API
   slug: postman-kraken-spot-rest
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kraken Futures REST Account API
+  slug: open-kraken-account-api
+- collection_type: open
+  name: Kraken Futures REST Account Account Data API
+  slug: open-kraken-account-data-api
+- collection_type: open
+  name: Kraken Futures REST Account Auth API
+  slug: open-kraken-auth-api
+- collection_type: open
+  name: Kraken Futures REST Account Charts API
+  slug: open-kraken-charts-api
+- collection_type: open
+  name: Kraken Futures REST Account Earn API
+  slug: open-kraken-earn-api
+- collection_type: open
+  name: Kraken Futures REST Account Funding API
+  slug: open-kraken-funding-api
+- collection_type: open
   name: Kraken Futures REST API
   slug: open-kraken-futures-rest
 - collection_type: open
+  name: Kraken Futures REST Account History API
+  slug: open-kraken-history-api
+- collection_type: open
+  name: Kraken Futures REST Account Market Data API
+  slug: open-kraken-market-data-api
+- collection_type: open
   name: Kraken Spot REST API
   slug: open-kraken-spot-rest
+- collection_type: open
+  name: Kraken Futures REST Account Subaccounts API
+  slug: open-kraken-subaccounts-api
+- collection_type: open
+  name: Kraken Futures REST Account Trading API
+  slug: open-kraken-trading-api
+- collection_type: open
+  name: Kraken Futures REST Account Transfers API
+  slug: open-kraken-transfers-api
+- collection_type: open
+  name: Kraken Futures REST Account WebSocket API
+  slug: open-kraken-websocket-api
 common:
 - group: agent
   title: ''
@@ -1412,7 +1451,7 @@ plans:
 - name: Kraken Plans Pricing
   plan_count: 8
   slug: kraken-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 16
   name: Kraken Rate Limits
@@ -1470,7 +1509,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,11 +55,29 @@ apis:
 - description: The Users API from Pushover — 1 operation(s) for users.
   name: Pushover Users API
   slug: pushover-users-api
-artifact_total: 10
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pushover Message Apps API
+  slug: open-pushover-apps-api
 - collection_type: open
   name: Pushover Open Client API
   slug: open-pushover-asyncapi
+- collection_type: open
+  name: Pushover Message Apps Messages.json API
+  slug: open-pushover-messages-json-api
+- collection_type: open
+  name: Pushover Message Apps Receipts API
+  slug: open-pushover-receipts-api
+- collection_type: open
+  name: Pushover Message Apps Sounds.json API
+  slug: open-pushover-sounds-json-api
+- collection_type: open
+  name: Pushover Message Apps Users API
+  slug: open-pushover-users-api
 - collection_type: open
   name: Pushover Message API
   slug: open-pushover
@@ -120,7 +138,7 @@ overview: 'Pushover publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Pushover''s developer surface includes documentation, pricing, signup flow, FAQ, support, engineering blog, and 5 more developer resources.'
-random_paper: 52
+random_paper: 147
 score:
   band: thin
   composite: 32.6
@@ -141,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/screenshots/pushover-2026-06-20T192319.png
 security:

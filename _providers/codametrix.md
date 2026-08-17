@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,26 @@ apis:
 - description: Combined rollup of status, components, unresolved incidents and active/upcoming maintenances.
   name: CodaMetrix Summary API
   slug: codametrix-summary-api
-artifact_total: 18
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CodaMetrix Status Components API
+  slug: open-codametrix-components-api
+- collection_type: open
+  name: CodaMetrix Status Incidents API
+  slug: open-codametrix-incidents-api
+- collection_type: open
+  name: CodaMetrix Status Scheduled Maintenances API
+  slug: open-codametrix-scheduled-maintenances-api
+- collection_type: open
+  name: CodaMetrix Status API
+  slug: open-codametrix-status-api
+- collection_type: open
+  name: CodaMetrix Status Summary API
+  slug: open-codametrix-summary-api
 common:
 - group: agent
   title: ''
@@ -206,7 +225,7 @@ overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 25 more developer resources.'
-random_paper: 112
+random_paper: 29
 score:
   band: thin
   composite: 29.3
@@ -236,7 +255,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -84,11 +84,59 @@ apis:
 - description: Outbound webhooks for record and form events
   name: Fulcrum Webhooks API
   slug: fulcrum-webhooks-api
-artifact_total: 23
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Fulcrum API
   slug: open-fulcrum-api
+- collection_type: open
+  name: Fulcrum Audio API
+  slug: open-fulcrum-audio-api
+- collection_type: open
+  name: Fulcrum Audio Changesets API
+  slug: open-fulcrum-changesets-api
+- collection_type: open
+  name: Fulcrum Audio Choice Lists API
+  slug: open-fulcrum-choice-lists-api
+- collection_type: open
+  name: Fulcrum Audio Classification Sets API
+  slug: open-fulcrum-classification-sets-api
+- collection_type: open
+  name: Fulcrum Audio Forms API
+  slug: open-fulcrum-forms-api
+- collection_type: open
+  name: Fulcrum Audio Layers API
+  slug: open-fulcrum-layers-api
+- collection_type: open
+  name: Fulcrum Audio Memberships API
+  slug: open-fulcrum-memberships-api
+- collection_type: open
+  name: Fulcrum Audio Photos API
+  slug: open-fulcrum-photos-api
+- collection_type: open
+  name: Fulcrum Audio Projects API
+  slug: open-fulcrum-projects-api
+- collection_type: open
+  name: Fulcrum Audio Query API
+  slug: open-fulcrum-query-api
+- collection_type: open
+  name: Fulcrum Audio Records API
+  slug: open-fulcrum-records-api
+- collection_type: open
+  name: Fulcrum Audio Roles API
+  slug: open-fulcrum-roles-api
+- collection_type: open
+  name: Fulcrum Audio Signatures API
+  slug: open-fulcrum-signatures-api
+- collection_type: open
+  name: Fulcrum Audio Videos API
+  slug: open-fulcrum-videos-api
+- collection_type: open
+  name: Fulcrum Audio Webhooks API
+  slug: open-fulcrum-webhooks-api
 common:
 - group: agent
   title: ''
@@ -174,7 +222,7 @@ plans:
 - name: Fulcrum Plans Pricing
   plan_count: 3
   slug: fulcrum-plans-pricing
-random_paper: 46
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Fulcrum Rate Limits
@@ -199,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/screenshots/fulcrum-2026-06-20T181606.png
 security:

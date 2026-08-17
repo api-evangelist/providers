@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Dealership account information for dealers who have a relationship with Dealer.com. GET /accounts/search returns a filterable, paginated list; GET /accounts/id/{accountId} returns one account. Payload
@@ -217,7 +217,7 @@ plans:
 - name: Dealer Com Plans Pricing
   plan_count: 3
   slug: dealer-com-plans-pricing
-random_paper: 25
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Dealer Com Rate Limits
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.0
-  delta: 27.4
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 0.0
@@ -233,10 +233,10 @@ score:
     discoverability: 72.2
     governance: 12.5
     operational_transparency: 78.9
-  previous_composite: 17.6
+  previous_composite: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/screenshots/dealer-com-2026-07-25T211507.png
 security:
 - kind: authentication

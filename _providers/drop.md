@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'Drop is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Drop''s developer surface includes support and 3 more developer resources.'
-random_paper: 77
+random_paper: 139
 score:
   band: minimal
   composite: 6.6
@@ -73,7 +73,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drop/refs/heads/main/screenshots/drop-2026-07-25T212424.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 32
@@ -203,8 +203,176 @@ apis:
 - description: Create, read, update, and delete webhooks
   name: Gremlin webhooks API
   slug: gremlin-webhooks-api
-artifact_total: 64
+artifact_total: 120
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gremlin agents API
+  slug: open-gremlin-agents-api
+- collection_type: open
+  name: Gremlin agents apikeys API
+  slug: open-gremlin-apikeys-api
+- collection_type: open
+  name: Gremlin agents attacks API
+  slug: open-gremlin-attacks-api
+- collection_type: open
+  name: Gremlin agents aws.metadata API
+  slug: open-gremlin-aws-metadata-api
+- collection_type: open
+  name: Gremlin agents clients API
+  slug: open-gremlin-clients-api
+- collection_type: open
+  name: Gremlin agents companies API
+  slug: open-gremlin-companies-api
+- collection_type: open
+  name: Gremlin agents containers API
+  slug: open-gremlin-containers-api
+- collection_type: open
+  name: Gremlin agents datadog API
+  slug: open-gremlin-datadog-api
+- collection_type: open
+  name: Gremlin agents disaster-recovery-test-reports API
+  slug: open-gremlin-disaster-recovery-test-reports-api
+- collection_type: open
+  name: Gremlin agents disaster-recovery-tests API
+  slug: open-gremlin-disaster-recovery-tests-api
+- collection_type: open
+  name: Gremlin agents executions API
+  slug: open-gremlin-executions-api
+- collection_type: open
+  name: Gremlin agents external-integrations API
+  slug: open-gremlin-external-integrations-api
+- collection_type: open
+  name: Gremlin agents failure-flags.apps API
+  slug: open-gremlin-failure-flags-apps-api
+- collection_type: open
+  name: Gremlin agents failure-flags.experiments API
+  slug: open-gremlin-failure-flags-experiments-api
+- collection_type: open
+  name: Gremlin agents failure-flags.flags API
+  slug: open-gremlin-failure-flags-flags-api
+- collection_type: open
+  name: Gremlin agents gamedays API
+  slug: open-gremlin-gamedays-api
+- collection_type: open
+  name: Gremlin agents google-cloud.integration API
+  slug: open-gremlin-google-cloud-integration-api
+- collection_type: open
+  name: Gremlin agents google-cloud.integration.resources API
+  slug: open-gremlin-google-cloud-integration-resources-api
+- collection_type: open
+  name: Gremlin agents grafana API
+  slug: open-gremlin-grafana-api
+- collection_type: open
+  name: Gremlin agents halts API
+  slug: open-gremlin-halts-api
+- collection_type: open
+  name: Gremlin agents health checks API
+  slug: open-gremlin-health-checks-api
+- collection_type: open
+  name: Gremlin agents images API
+  slug: open-gremlin-images-api
+- collection_type: open
+  name: Gremlin agents integration-clients API
+  slug: open-gremlin-integration-clients-api
+- collection_type: open
+  name: Gremlin agents integration-invocations API
+  slug: open-gremlin-integration-invocations-api
+- collection_type: open
+  name: Gremlin agents jira API
+  slug: open-gremlin-jira-api
+- collection_type: open
+  name: Gremlin agents kubernetes.attacks API
+  slug: open-gremlin-kubernetes-attacks-api
+- collection_type: open
+  name: Gremlin agents kubernetes.targets API
+  slug: open-gremlin-kubernetes-targets-api
+- collection_type: open
+  name: Gremlin agents load-generators API
+  slug: open-gremlin-load-generators-api
+- collection_type: open
+  name: Gremlin agents metadata API
+  slug: open-gremlin-metadata-api
+- collection_type: open
+  name: Gremlin agents metrics API
+  slug: open-gremlin-metrics-api
+- collection_type: open
+  name: Gremlin agents newrelic API
+  slug: open-gremlin-newrelic-api
+- collection_type: open
+  name: Gremlin agents Notification Integrations API
+  slug: open-gremlin-notification-integrations-api
+- collection_type: open
+  name: Gremlin agents notification-settings API
+  slug: open-gremlin-notification-settings-api
+- collection_type: open
+  name: Gremlin agents oauth API
+  slug: open-gremlin-oauth-api
+- collection_type: open
+  name: Gremlin agents orgs API
+  slug: open-gremlin-orgs-api
+- collection_type: open
+  name: Gremlin agents pagerduty API
+  slug: open-gremlin-pagerduty-api
+- collection_type: open
+  name: Gremlin agents providers API
+  slug: open-gremlin-providers-api
+- collection_type: open
+  name: Gremlin agents reliability-management API
+  slug: open-gremlin-reliability-management-api
+- collection_type: open
+  name: Gremlin agents reliability-report API
+  slug: open-gremlin-reliability-report-api
+- collection_type: open
+  name: Gremlin agents reliability-tests API
+  slug: open-gremlin-reliability-tests-api
+- collection_type: open
+  name: Gremlin agents reports API
+  slug: open-gremlin-reports-api
+- collection_type: open
+  name: Gremlin agents reports.security API
+  slug: open-gremlin-reports-security-api
+- collection_type: open
+  name: Gremlin agents roles API
+  slug: open-gremlin-roles-api
+- collection_type: open
+  name: Gremlin agents scenarios API
+  slug: open-gremlin-scenarios-api
+- collection_type: open
+  name: Gremlin agents scenarios.recommended API
+  slug: open-gremlin-scenarios-recommended-api
+- collection_type: open
+  name: Gremlin agents schedules API
+  slug: open-gremlin-schedules-api
+- collection_type: open
+  name: Gremlin agents service-overview API
+  slug: open-gremlin-service-overview-api
+- collection_type: open
+  name: Gremlin agents services API
+  slug: open-gremlin-services-api
+- collection_type: open
+  name: Gremlin agents sharedAssets API
+  slug: open-gremlin-sharedassets-api
+- collection_type: open
+  name: Gremlin agents teams API
+  slug: open-gremlin-teams-api
+- collection_type: open
+  name: Gremlin agents test-suites API
+  slug: open-gremlin-test-suites-api
+- collection_type: open
+  name: Gremlin agents users API
+  slug: open-gremlin-users-api
+- collection_type: open
+  name: Gremlin agents users.auth API
+  slug: open-gremlin-users-auth-api
+- collection_type: open
+  name: Gremlin agents users.auth.mfa API
+  slug: open-gremlin-users-auth-mfa-api
+- collection_type: open
+  name: Gremlin agents webhooks API
+  slug: open-gremlin-webhooks-api
 - collection_type: open
   name: Gremlin API
   slug: open-gremlin
@@ -292,7 +460,7 @@ plans:
 - name: Gremlin Plans Pricing
   plan_count: 3
   slug: gremlin-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Gremlin Rate Limits
@@ -326,7 +494,7 @@ score:
       marker_coverage: 0.0
       total: 55
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gremlin/refs/heads/main/screenshots/gremlin-2026-06-20T182400.png
 security:

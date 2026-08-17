@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Electric power operational statistics by fuel type.
   name: Thermal Power Power Operations API
   slug: thermal-power-power-operations-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thermal Power Capacity API
+  slug: open-thermal-power-capacity-api
+- collection_type: open
+  name: Thermal Power Capacity Plant Operations API
+  slug: open-thermal-power-plant-operations-api
+- collection_type: open
+  name: Thermal Power Capacity Power Operations API
+  slug: open-thermal-power-power-operations-api
 - collection_type: open
   name: Thermal Power API
   slug: open-thermal-power
@@ -129,7 +141,7 @@ plans:
 - name: Thermal Power Plans Pricing
   plan_count: 3
   slug: thermal-power-plans-pricing
-random_paper: 31
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Thermal Power Rate Limits
@@ -177,7 +189,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/screenshots/thermal-power-2026-06-20T195251.png
 security:

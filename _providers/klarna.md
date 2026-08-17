@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -102,18 +102,66 @@ apis:
 - description: The Transactions API from Klarna — 1 operation(s) for transactions.
   name: Klarna Transactions API
   slug: klarna-transactions-api
-artifact_total: 98
+artifact_total: 114
 asyncapis:
 - description: AsyncAPI 2.6 description of Klarna's outbound HTTP push surface — the set of server-to-server callbacks that Klarna issues to merchant-hosted endpoints when payment, checkout, and order lifecycle even
   name: Klarna Push Notifications
   slug: klarna-push-notifications-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Klarna HPP
   slug: open-hosted-payment-page-api
 - collection_type: open
+  name: Klarna HPP Captures API
+  slug: open-klarna-captures-api
+- collection_type: open
+  name: Klarna HPP Captures Checkout API
+  slug: open-klarna-checkout-api
+- collection_type: open
+  name: Klarna HPP Captures Customer Token API
+  slug: open-klarna-customer-token-api
+- collection_type: open
+  name: Klarna Captures Hpp API
+  slug: open-klarna-hpp-api
+- collection_type: open
+  name: Klarna HPP Captures Merchant Urls.address Update API
+  slug: open-klarna-merchant-urls-address-update-api
+- collection_type: open
+  name: Klarna HPP Captures Merchant Urls.country Change API
+  slug: open-klarna-merchant-urls-country-change-api
+- collection_type: open
+  name: Klarna HPP Captures Merchant Urls.shipping Option Update API
+  slug: open-klarna-merchant-urls-shipping-option-update-api
+- collection_type: open
+  name: Klarna HPP Captures Merchant Urls.validation API
+  slug: open-klarna-merchant-urls-validation-api
+- collection_type: open
+  name: Klarna HPP Captures Merchantcard API
+  slug: open-klarna-merchantcard-api
+- collection_type: open
+  name: Klarna HPP Captures Orders API
+  slug: open-klarna-orders-api
+- collection_type: open
+  name: Klarna HPP Captures Payments API
+  slug: open-klarna-payments-api
+- collection_type: open
+  name: Klarna HPP Captures Payouts API
+  slug: open-klarna-payouts-api
+- collection_type: open
+  name: Klarna HPP Captures Refunds API
+  slug: open-klarna-refunds-api
+- collection_type: open
+  name: Klarna HPP Captures Reports API
+  slug: open-klarna-reports-api
+- collection_type: open
   name: Klarna Settlements API
   slug: open-klarna-settlements-api
+- collection_type: open
+  name: Klarna HPP Captures Transactions API
+  slug: open-klarna-transactions-api
 - collection_type: open
   name: Klarna Merchant Card Service API
   slug: open-merchant-card-service-api
@@ -379,7 +427,7 @@ plans:
 - name: Klarna Plans Pricing
   plan_count: 1
   slug: klarna-plans-pricing
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Klarna Rate Limits
@@ -427,7 +475,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

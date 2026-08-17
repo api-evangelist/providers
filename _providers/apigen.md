@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -63,11 +63,38 @@ apis:
 - description: Manage user profiles.
   name: APIGen Users API
   slug: apigen-users-api
-artifact_total: 42
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: APIGen API
   slug: open-apigen-apigen
+- collection_type: open
+  name: APIGen Connectors API
+  slug: open-apigen-connectors-api
+- collection_type: open
+  name: APIGen Connectors Deployments API
+  slug: open-apigen-deployments-api
+- collection_type: open
+  name: APIGen Connectors Endpoints API
+  slug: open-apigen-endpoints-api
+- collection_type: open
+  name: APIGen Connectors Projects API
+  slug: open-apigen-projects-api
+- collection_type: open
+  name: APIGen Connectors Schemas API
+  slug: open-apigen-schemas-api
+- collection_type: open
+  name: APIGen Connectors Tests API
+  slug: open-apigen-tests-api
+- collection_type: open
+  name: APIGen Connectors Tokens API
+  slug: open-apigen-tokens-api
+- collection_type: open
+  name: APIGen Connectors Users API
+  slug: open-apigen-users-api
 common:
 - group: operate
   title: ''
@@ -192,7 +219,7 @@ plans:
 - name: Apigen Plans Pricing
   plan_count: 3
   slug: apigen-plans-pricing
-random_paper: 28
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Apigen Rate Limits
@@ -234,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/screenshots/apigen-2026-06-20T172236.png
 security:

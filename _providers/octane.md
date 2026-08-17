@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -90,7 +90,62 @@ apis:
 - description: Manage webhook endpoints
   name: Octane Webhooks API
   slug: octane-webhooks-api
-artifact_total: 33
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Octane REST Admin API
+  slug: open-octane-admin-api
+- collection_type: open
+  name: Octane REST Admin Avalara API
+  slug: open-octane-avalara-api
+- collection_type: open
+  name: Octane REST Admin Billing Settings API
+  slug: open-octane-billing-settings-api
+- collection_type: open
+  name: Octane REST Admin Coupons API
+  slug: open-octane-coupons-api
+- collection_type: open
+  name: Octane REST Admin Credits API
+  slug: open-octane-credits-api
+- collection_type: open
+  name: Octane REST Admin Customer Portal API
+  slug: open-octane-customer-portal-api
+- collection_type: open
+  name: Octane REST Admin Customers API
+  slug: open-octane-customers-api
+- collection_type: open
+  name: Octane REST Admin Features API
+  slug: open-octane-features-api
+- collection_type: open
+  name: Octane REST Admin Invoices API
+  slug: open-octane-invoices-api
+- collection_type: open
+  name: Octane REST Admin Live Measurements API
+  slug: open-octane-live-measurements-api
+- collection_type: open
+  name: Octane REST Admin Measurements API
+  slug: open-octane-measurements-api
+- collection_type: open
+  name: Octane REST Admin Meters API
+  slug: open-octane-meters-api
+- collection_type: open
+  name: Octane REST Admin Price Plans API
+  slug: open-octane-price-plans-api
+- collection_type: open
+  name: Octane REST Admin Refunds API
+  slug: open-octane-refunds-api
+- collection_type: open
+  name: Octane REST Admin Revenue Recognition API
+  slug: open-octane-revenue-recognition-api
+- collection_type: open
+  name: Octane REST Admin Subscriptions API
+  slug: open-octane-subscriptions-api
+- collection_type: open
+  name: Octane REST Admin Webhooks API
+  slug: open-octane-webhooks-api
 common:
 - group: agent
   title: ''
@@ -198,7 +253,7 @@ plans:
 - name: Octane Plans Pricing
   plan_count: 1
   slug: octane-plans-pricing
-random_paper: 34
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Octane Rate Limits
@@ -238,7 +293,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/screenshots/octane-2026-06-20T190608.png
 security:

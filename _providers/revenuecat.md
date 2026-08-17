@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -75,8 +75,44 @@ apis:
 - description: v1 customer (app user) records, attributes, and state.
   name: RevenueCat Subscribers API
   slug: revenuecat-subscribers-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RevenueCat REST Apps API
+  slug: open-revenuecat-apps-api
+- collection_type: open
+  name: RevenueCat REST Apps Customers API
+  slug: open-revenuecat-customers-api
+- collection_type: open
+  name: RevenueCat REST Apps Entitlements (v1) API
+  slug: open-revenuecat-entitlements-v1-api
+- collection_type: open
+  name: RevenueCat REST Apps Entitlements (v2) API
+  slug: open-revenuecat-entitlements-v2-api
+- collection_type: open
+  name: RevenueCat REST Apps Offerings (v1) API
+  slug: open-revenuecat-offerings-v1-api
+- collection_type: open
+  name: RevenueCat REST Apps Offerings (v2) API
+  slug: open-revenuecat-offerings-v2-api
+- collection_type: open
+  name: RevenueCat REST Apps Packages API
+  slug: open-revenuecat-packages-api
+- collection_type: open
+  name: RevenueCat REST Apps Products API
+  slug: open-revenuecat-products-api
+- collection_type: open
+  name: RevenueCat REST Apps Projects API
+  slug: open-revenuecat-projects-api
+- collection_type: open
+  name: RevenueCat REST Apps Purchases API
+  slug: open-revenuecat-purchases-api
+- collection_type: open
+  name: RevenueCat REST Apps Subscribers API
+  slug: open-revenuecat-subscribers-api
 - collection_type: open
   name: RevenueCat REST API
   slug: open-revenuecat
@@ -145,7 +181,7 @@ plans:
 - name: Revenuecat Plans Pricing
   plan_count: 4
   slug: revenuecat-plans-pricing
-random_paper: 114
+random_paper: 31
 rate_limits:
 - limit_count: 7
   name: Revenuecat Rate Limits
@@ -170,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

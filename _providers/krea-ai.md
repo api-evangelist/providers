@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -59,8 +59,32 @@ apis:
 - description: Video generation endpoints
   name: Krea Video API
   slug: krea-ai-video-api
-artifact_total: 29
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Krea Assets API
+  slug: open-krea-ai-assets-api
+- collection_type: open
+  name: Krea Assets General API
+  slug: open-krea-ai-general-api
+- collection_type: open
+  name: Krea Assets Image API
+  slug: open-krea-ai-image-api
+- collection_type: open
+  name: Krea Assets Image Enhance API
+  slug: open-krea-ai-image-enhance-api
+- collection_type: open
+  name: Krea Assets Node Apps API
+  slug: open-krea-ai-node-apps-api
+- collection_type: open
+  name: Krea Assets Styles API
+  slug: open-krea-ai-styles-api
+- collection_type: open
+  name: Krea Assets Video API
+  slug: open-krea-ai-video-api
 - collection_type: open
   name: Krea API
   slug: open-krea-api
@@ -275,7 +299,7 @@ overview: 'Krea publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Krea''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, sandbox, YouTube channel, and 38 more developer resources.'
-random_paper: 66
+random_paper: 70
 score:
   band: thin
   composite: 38.7
@@ -296,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/screenshots/krea-ai-2026-06-20T184155.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,33 +55,57 @@ common:
   title: ''
   type: SignUp
   url: https://redef.com/signup/join
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/REDEF
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/redef-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: REDEF is a hand-curated consumer media site and email newsletter with no developer program at all — redef.com answers every probed API path (/openapi.json, /graphql, /api, /docs, /llms.txt and all /.well-known/*) with the identical 504,882-byte HTML catch-all page it serves for "/", api./developer./docs.redef.com are NXDOMAIN, and the REDEF GitHub org holds one forked EJS build tool from 2015.
+  evidence:
+  - status: 200
+    url: https://redef.com/openapi.json
+  - status: 200
+    url: https://redef.com/.well-known/agent-card.json
+  - status: 200
+    url: https://redef.com/api
+  - status: 200
+    url: https://redef.com/open_search.xml
+  - status: 200
+    url: https://api.github.com/orgs/REDEF/repos
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: REDEF is a media curation and newsletter company founded and led by Jason Hirschhorn (CEO + Chief Curator) that "DJs the internet" — surfacing daily remixes of the stories, people, and ideas that matter across Media, Fashion, Music, Sports, and Tech. Readers follow curated Mixes, Sets, Originals, Charts, and email Newsletters ("interest remixes for curious minds"), and can build and share their own mixes. ReDEF was surfaced as a portfolio company of bloomberg-beta and added to the API Evangelist network; enrichment found a public consumer content website (redef.com) but no public developer program, API, documentation, or machine-readable surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/redef.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: ReDEF
 nav: Providers
 network: true
 overview: 'ReDEF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Curation, Newsletters, and Content.
 
 
-  ReDEF''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 38
+  ReDEF''s developer surface includes support, signup flow, and 6 more developer resources.'
+random_paper: 71
 score:
-  band: minimal
-  composite: 12.7
-  delta: 0.0
+  band: emerging
+  composite: 14.1
+  delta: 1.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 12.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

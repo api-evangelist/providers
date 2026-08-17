@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Customer vehicles serviced by the shop.
   name: Tekmetric Vehicles API
   slug: tekmetric-vehicles-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tekmetric Appointments API
+  slug: open-tekmetric-appointments-api
+- collection_type: open
+  name: Tekmetric Appointments Canned Jobs API
+  slug: open-tekmetric-canned-jobs-api
+- collection_type: open
+  name: Tekmetric Appointments Customers API
+  slug: open-tekmetric-customers-api
+- collection_type: open
+  name: Tekmetric Appointments Employees API
+  slug: open-tekmetric-employees-api
+- collection_type: open
+  name: Tekmetric Appointments Inventory API
+  slug: open-tekmetric-inventory-api
+- collection_type: open
+  name: Tekmetric Appointments Jobs API
+  slug: open-tekmetric-jobs-api
+- collection_type: open
+  name: Tekmetric Appointments Repair Orders API
+  slug: open-tekmetric-repair-orders-api
+- collection_type: open
+  name: Tekmetric Appointments Shops API
+  slug: open-tekmetric-shops-api
+- collection_type: open
+  name: Tekmetric Appointments Vehicles API
+  slug: open-tekmetric-vehicles-api
 - collection_type: open
   name: Tekmetric API
   slug: open-tekmetric
@@ -140,7 +170,7 @@ plans:
 - name: Tekmetric Plans Pricing
   plan_count: 6
   slug: tekmetric-plans-pricing
-random_paper: 8
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Tekmetric Rate Limits
@@ -170,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

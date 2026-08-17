@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Create, read, update, and delete users within a Retool organization. Manage user roles (admin, standard, end-user) and activation status.
   name: Retool Users API
   slug: retool-users-api
-artifact_total: 31
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Retool Management Apps API
@@ -78,8 +78,26 @@ collections:
   name: Retool Management Apps Users API
   slug: postman-retool-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Retool Management Apps API
+  slug: open-retool-apps-api
+- collection_type: open
+  name: Retool Management Apps Folders API
+  slug: open-retool-folders-api
+- collection_type: open
+  name: Retool Management Apps Groups API
+  slug: open-retool-groups-api
+- collection_type: open
   name: Retool Management API
   slug: open-retool-management-api
+- collection_type: open
+  name: Retool Management Apps Resources API
+  slug: open-retool-resources-api
+- collection_type: open
+  name: Retool Management Apps Users API
+  slug: open-retool-users-api
 common:
 - group: build
   title: ''
@@ -221,7 +239,7 @@ plans:
 - name: Retool Plans Pricing
   plan_count: 4
   slug: retool-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Retool Rate Limits
@@ -263,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/screenshots/retool-2026-06-20T193043.png
 security:

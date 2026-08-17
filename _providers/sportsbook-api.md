@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Reference API from Sportsbook API — 2 operation(s) for reference.
   name: Sportsbook API Reference API
   slug: sportsbook-api-reference-api
-artifact_total: 18
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sportsbook Betting Analysis API
+  slug: open-sportsbook-api-betting-analysis-api
+- collection_type: open
+  name: Sportsbook Betting Analysis Odds API
+  slug: open-sportsbook-api-odds-api
+- collection_type: open
+  name: Sportsbook Betting Analysis Reference API
+  slug: open-sportsbook-api-reference-api
 - collection_type: open
   name: Sportsbook API
   slug: open-sportsbook-api
@@ -128,7 +140,7 @@ plans:
 - name: Sportsbook Api Plans Pricing
   plan_count: 3
   slug: sportsbook-api-plans-pricing
-random_paper: 29
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Sportsbook Api Rate Limits
@@ -170,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/screenshots/sportsbook-api-2026-06-20T194345.png
 security:

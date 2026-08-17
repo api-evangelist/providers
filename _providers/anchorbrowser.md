@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 13
@@ -100,8 +100,62 @@ apis:
 - description: The Tools API from Anchor Browser — 4 operation(s) for tools.
   name: Anchor Browser Tools API
   slug: anchorbrowser-tools-api
-artifact_total: 48
+artifact_total: 66
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities API
+  slug: open-anchorbrowser-agentic-capabilities-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities AI Tools API
+  slug: open-anchorbrowser-ai-tools-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Applications API
+  slug: open-anchorbrowser-applications-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Batch Sessions API
+  slug: open-anchorbrowser-batch-sessions-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Billing API
+  slug: open-anchorbrowser-billing-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Browser Sessions API
+  slug: open-anchorbrowser-browser-sessions-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Certificates API
+  slug: open-anchorbrowser-certificates-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Event Coordination API
+  slug: open-anchorbrowser-event-coordination-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Extensions API
+  slug: open-anchorbrowser-extensions-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Identities API
+  slug: open-anchorbrowser-identities-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Integrations API
+  slug: open-anchorbrowser-integrations-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities OS Level Control API
+  slug: open-anchorbrowser-os-level-control-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Profiles API
+  slug: open-anchorbrowser-profiles-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Session Recordings API
+  slug: open-anchorbrowser-session-recordings-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Tasks API
+  slug: open-anchorbrowser-tasks-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Tasks (Legacy) API
+  slug: open-anchorbrowser-tasks-legacy-api
+- collection_type: open
+  name: AnchorBrowser Agentic capabilities Tools API
+  slug: open-anchorbrowser-tools-api
 - collection_type: open
   name: AnchorBrowser API
   slug: open-anchorbrowser
@@ -238,7 +292,7 @@ plans:
 - name: Anchorbrowser Plans Pricing
   plan_count: 1
   slug: anchorbrowser-plans-pricing
-random_paper: 87
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Anchorbrowser Rate Limits
@@ -263,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/screenshots/anchorbrowser-2026-06-20T171955.png
 security:

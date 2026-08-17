@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -146,7 +146,119 @@ apis:
 - description: Workflows
   name: Aloft Workflows API
   slug: aloft-workflows-api
-artifact_total: 42
+artifact_total: 79
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aloft API V1 Accounts API
+  slug: open-aloft-accounts-api
+- collection_type: open
+  name: Aloft API V1 Accounts Activity API
+  slug: open-aloft-activity-api
+- collection_type: open
+  name: Aloft API V1 Accounts Aircraft API
+  slug: open-aloft-aircraft-api
+- collection_type: open
+  name: Aloft API V1 Accounts AirMesh API
+  slug: open-aloft-airmesh-api
+- collection_type: open
+  name: Aloft API V1 Accounts Airspace API
+  slug: open-aloft-airspace-api
+- collection_type: open
+  name: Aloft API V1 Accounts Alert Recipients API
+  slug: open-aloft-alert-recipients-api
+- collection_type: open
+  name: Aloft API V1 Accounts Alerts API
+  slug: open-aloft-alerts-api
+- collection_type: open
+  name: Aloft API V1 Accounts Application Notices API
+  slug: open-aloft-application-notices-api
+- collection_type: open
+  name: Aloft API V1 Accounts Auth API
+  slug: open-aloft-auth-api
+- collection_type: open
+  name: Aloft API V1 Accounts Auto Tags API
+  slug: open-aloft-auto-tags-api
+- collection_type: open
+  name: Aloft API V1 Accounts Batteries API
+  slug: open-aloft-batteries-api
+- collection_type: open
+  name: Aloft API V1 Accounts Certification Renewal API
+  slug: open-aloft-certification-renewal-api
+- collection_type: open
+  name: Aloft API V1 Accounts Certifications API
+  slug: open-aloft-certifications-api
+- collection_type: open
+  name: Aloft API V1 Accounts Checklist Executions API
+  slug: open-aloft-checklist-executions-api
+- collection_type: open
+  name: Aloft API V1 Accounts Checklists API
+  slug: open-aloft-checklists-api
+- collection_type: open
+  name: Aloft API V1 Accounts Components API
+  slug: open-aloft-components-api
+- collection_type: open
+  name: Aloft API V1 Accounts Connections API
+  slug: open-aloft-connections-api
+- collection_type: open
+  name: Aloft API V1 Accounts Files API
+  slug: open-aloft-files-api
+- collection_type: open
+  name: Aloft API V1 Accounts Files by Resource API
+  slug: open-aloft-files-by-resource-api
+- collection_type: open
+  name: Aloft API V1 Accounts Flight Logs API
+  slug: open-aloft-flight-logs-api
+- collection_type: open
+  name: Aloft API V1 Accounts Flight Sessions API
+  slug: open-aloft-flight-sessions-api
+- collection_type: open
+  name: Aloft API V1 Accounts Flights API
+  slug: open-aloft-flights-api
+- collection_type: open
+  name: Aloft API V1 Accounts Incidents API
+  slug: open-aloft-incidents-api
+- collection_type: open
+  name: Aloft API V1 Accounts Maintenance API
+  slug: open-aloft-maintenance-api
+- collection_type: open
+  name: Aloft API V1 Accounts Maintenance Recommendations API
+  slug: open-aloft-maintenance-recommendations-api
+- collection_type: open
+  name: Aloft API V1 Accounts Maintenance Schedules (Beta) API
+  slug: open-aloft-maintenance-schedules-beta-api
+- collection_type: open
+  name: Aloft API V1 Accounts Missions API
+  slug: open-aloft-missions-api
+- collection_type: open
+  name: Aloft API V1 Accounts Notify & Fly API
+  slug: open-aloft-notify-fly-api
+- collection_type: open
+  name: Aloft API V1 Accounts Risk Assessment Executions API
+  slug: open-aloft-risk-assessment-executions-api
+- collection_type: open
+  name: Aloft API V1 Accounts Risk Assessments API
+  slug: open-aloft-risk-assessments-api
+- collection_type: open
+  name: Aloft API V1 Accounts Tag Associations API
+  slug: open-aloft-tag-associations-api
+- collection_type: open
+  name: Aloft API V1 Accounts Tag Groups API
+  slug: open-aloft-tag-groups-api
+- collection_type: open
+  name: Aloft API V1 Accounts Tags API
+  slug: open-aloft-tags-api
+- collection_type: open
+  name: Aloft API V1 Accounts Users API
+  slug: open-aloft-users-api
+- collection_type: open
+  name: Aloft API V1 Accounts VideoStreaming API
+  slug: open-aloft-videostreaming-api
+- collection_type: open
+  name: Aloft API V1 Accounts Workflows API
+  slug: open-aloft-workflows-api
 common:
 - group: other
   title: ''
@@ -268,7 +380,7 @@ overview: 'Aloft publishes 36 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aloft''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 21 more developer resources.'
-random_paper: 54
+random_paper: 87
 score:
   band: developing
   composite: 48.3
@@ -292,7 +404,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aloft/refs/heads/main/screenshots/aloft-2026-07-25T195743.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Buyers API from Kriya — 6 operation(s) for buyers.
@@ -49,11 +49,33 @@ apis:
 - description: The Scenario API from Kriya — 1 operation(s) for scenario.
   name: Kriya Scenario API
   slug: kriya-scenario-api
-artifact_total: 11
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Kriya Payments Webhooks
   slug: kriya-payments-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kriya Onboarding Buyers API
+  slug: open-kriya-buyers-api
+- collection_type: open
+  name: Kriya Onboarding Buyers Onboarding API API
+  slug: open-kriya-onboarding-api-api
+- collection_type: open
+  name: Kriya Onboarding Buyers OnboardingJourney API
+  slug: open-kriya-onboardingjourney-api
+- collection_type: open
+  name: Kriya Onboarding Buyers Orders API
+  slug: open-kriya-orders-api
+- collection_type: open
+  name: Kriya Onboarding Buyers Payments API
+  slug: open-kriya-payments-api
+- collection_type: open
+  name: Kriya Onboarding Buyers Scenario API
+  slug: open-kriya-scenario-api
 common:
 - group: other
   title: ''
@@ -182,7 +204,7 @@ overview: 'Kriya publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kriya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 20 more developer resources.'
-random_paper: 64
+random_paper: 97
 score:
   band: developing
   composite: 48.2
@@ -211,7 +233,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/screenshots/kriya-2026-07-25T224301.png
 security:

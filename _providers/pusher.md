@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -54,12 +54,24 @@ apis:
 - description: The Users API from Pusher — 1 operation(s) for users.
   name: Pusher Users API
   slug: pusher-users-api
-artifact_total: 17
+artifact_total: 21
 asyncapis:
 - description: AsyncAPI definition of the Pusher Channels public WebSocket wire protocol (protocol version 7). Pusher Channels is a pub/sub realtime messaging service. Clients connect over WebSocket to `ws-{cluster}
   name: Pusher Channels WebSocket Protocol
   slug: pusher-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pusher HTTP Channels API
+  slug: open-pusher-channels-api
+- collection_type: open
+  name: Pusher HTTP Channels Events API
+  slug: open-pusher-events-api
+- collection_type: open
+  name: Pusher HTTP Channels Users API
+  slug: open-pusher-users-api
 - collection_type: open
   name: Pusher Channels HTTP API
   slug: open-pusher
@@ -151,7 +163,7 @@ plans:
 - name: Pusher Plans Pricing
   plan_count: 9
   slug: pusher-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 9
   name: Pusher Rate Limits
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/screenshots/pusher-2026-06-20T192318.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 2
@@ -230,11 +230,204 @@ apis:
 - description: The vtex API from Picker — 1 operation(s) for vtex.
   name: Picker vtex API
   slug: picker-vtex-api
-artifact_total: 69
+artifact_total: 133
 asyncapis:
 - description: ''
   name: Picker Webhooks
   slug: picker-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Picker Production Documentation accounting API
+  slug: open-picker-accounting-api
+- collection_type: open
+  name: Picker Production Documentation accounting Admin API
+  slug: open-picker-admin-api
+- collection_type: open
+  name: Picker Production Documentation accounting antiFraud API
+  slug: open-picker-antifraud-api
+- collection_type: open
+  name: Picker Production Documentation accounting appVersion API
+  slug: open-picker-appversion-api
+- collection_type: open
+  name: Picker Production Documentation accounting banner API
+  slug: open-picker-banner-api
+- collection_type: open
+  name: Picker Production Documentation accounting bill API
+  slug: open-picker-bill-api
+- collection_type: open
+  name: Picker Production Documentation accounting booking API
+  slug: open-picker-booking-api
+- collection_type: open
+  name: Picker Production Documentation accounting bookingAssignment API
+  slug: open-picker-bookingassignment-api
+- collection_type: open
+  name: Picker Production Documentation accounting bookingIssue API
+  slug: open-picker-bookingissue-api
+- collection_type: open
+  name: Picker Production Documentation accounting BookingIssues API
+  slug: open-picker-bookingissues-api
+- collection_type: open
+  name: Picker Production Documentation accounting bookings API
+  slug: open-picker-bookings-api
+- collection_type: open
+  name: Picker Production Documentation accounting business API
+  slug: open-picker-business-api
+- collection_type: open
+  name: Picker Production Documentation accounting businesses API
+  slug: open-picker-businesses-api
+- collection_type: open
+  name: Picker Production Documentation accounting busy API
+  slug: open-picker-busy-api
+- collection_type: open
+  name: Picker Production Documentation accounting cancel API
+  slug: open-picker-cancel-api
+- collection_type: open
+  name: Picker Production Documentation accounting cancelReason API
+  slug: open-picker-cancelreason-api
+- collection_type: open
+  name: Picker Production Documentation accounting card API
+  slug: open-picker-card-api
+- collection_type: open
+  name: Picker Production Documentation accounting cards API
+  slug: open-picker-cards-api
+- collection_type: open
+  name: Picker Production Documentation accounting chat API
+  slug: open-picker-chat-api
+- collection_type: open
+  name: Picker Production Documentation accounting chatbot API
+  slug: open-picker-chatbot-api
+- collection_type: open
+  name: Picker Production Documentation accounting cronJobs API
+  slug: open-picker-cronjobs-api
+- collection_type: open
+  name: Picker Production Documentation accounting customer API
+  slug: open-picker-customer-api
+- collection_type: open
+  name: Picker Production Documentation accounting dashboard API
+  slug: open-picker-dashboard-api
+- collection_type: open
+  name: Picker Production Documentation accounting datil API
+  slug: open-picker-datil-api
+- collection_type: open
+  name: Picker Production Documentation accounting deliveryPartner API
+  slug: open-picker-deliverypartner-api
+- collection_type: open
+  name: Picker Production Documentation accounting DeliveryPartnerMarketingData API
+  slug: open-picker-deliverypartnermarketingdata-api
+- collection_type: open
+  name: Picker Production Documentation accounting driver API
+  slug: open-picker-driver-api
+- collection_type: open
+  name: Picker Production Documentation accounting driverTag API
+  slug: open-picker-drivertag-api
+- collection_type: open
+  name: Picker Production Documentation accounting duty API
+  slug: open-picker-duty-api
+- collection_type: open
+  name: Picker Production Documentation accounting fares API
+  slug: open-picker-fares-api
+- collection_type: open
+  name: Picker Production Documentation accounting favorite API
+  slug: open-picker-favorite-api
+- collection_type: open
+  name: Picker Production Documentation accounting health-check API
+  slug: open-picker-health-check-api
+- collection_type: open
+  name: Picker Production Documentation accounting integrations API
+  slug: open-picker-integrations-api
+- collection_type: open
+  name: Picker Production Documentation accounting list API
+  slug: open-picker-list-api
+- collection_type: open
+  name: Picker Production Documentation accounting location API
+  slug: open-picker-location-api
+- collection_type: open
+  name: Picker Production Documentation accounting Mass Delivery API
+  slug: open-picker-mass-delivery-api
+- collection_type: open
+  name: Picker Production Documentation accounting notification API
+  slug: open-picker-notification-api
+- collection_type: open
+  name: Picker Production Documentation accounting pause API
+  slug: open-picker-pause-api
+- collection_type: open
+  name: Picker Production Documentation accounting paymentez API
+  slug: open-picker-paymentez-api
+- collection_type: open
+  name: Picker Production Documentation accounting play API
+  slug: open-picker-play-api
+- collection_type: open
+  name: Picker Production Documentation accounting product API
+  slug: open-picker-product-api
+- collection_type: open
+  name: Picker Production Documentation accounting products API
+  slug: open-picker-products-api
+- collection_type: open
+  name: Picker Production Documentation accounting promo API
+  slug: open-picker-promo-api
+- collection_type: open
+  name: Picker Production Documentation accounting public API
+  slug: open-picker-public-api
+- collection_type: open
+  name: Picker Production Documentation accounting referral API
+  slug: open-picker-referral-api
+- collection_type: open
+  name: Picker Production Documentation accounting region API
+  slug: open-picker-region-api
+- collection_type: open
+  name: Picker Production Documentation accounting reports API
+  slug: open-picker-reports-api
+- collection_type: open
+  name: Picker Production Documentation accounting service API
+  slug: open-picker-service-api
+- collection_type: open
+  name: Picker Production Documentation accounting serviceProvider API
+  slug: open-picker-serviceprovider-api
+- collection_type: open
+  name: Picker Production Documentation accounting Share My Ride API
+  slug: open-picker-share-my-ride-api
+- collection_type: open
+  name: Picker Production Documentation accounting shopify API
+  slug: open-picker-shopify-api
+- collection_type: open
+  name: Picker Production Documentation accounting social API
+  slug: open-picker-social-api
+- collection_type: open
+  name: Picker Production Documentation accounting spoonity API
+  slug: open-picker-spoonity-api
+- collection_type: open
+  name: Picker Production Documentation accounting stripePay API
+  slug: open-picker-stripepay-api
+- collection_type: open
+  name: Picker Production Documentation accounting support API
+  slug: open-picker-support-api
+- collection_type: open
+  name: Picker Production Documentation accounting ticket API
+  slug: open-picker-ticket-api
+- collection_type: open
+  name: Picker Production Documentation accounting tracking API
+  slug: open-picker-tracking-api
+- collection_type: open
+  name: Picker Production Documentation accounting update API
+  slug: open-picker-update-api
+- collection_type: open
+  name: Picker Production Documentation accounting user API
+  slug: open-picker-user-api
+- collection_type: open
+  name: Picker Production Documentation accounting UsermarketingData API
+  slug: open-picker-usermarketingdata-api
+- collection_type: open
+  name: Picker Production Documentation accounting users API
+  slug: open-picker-users-api
+- collection_type: open
+  name: Picker Production Documentation accounting vehicles API
+  slug: open-picker-vehicles-api
+- collection_type: open
+  name: Picker Production Documentation accounting vtex API
+  slug: open-picker-vtex-api
 common:
 - group: auth
   title: ''
@@ -339,7 +532,7 @@ overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Picker''s developer surface includes authentication, sandbox, documentation, API reference, pricing, signup flow, engineering blog, and 14 more developer resources.'
-random_paper: 38
+random_paper: 42
 score:
   band: thin
   composite: 39.0
@@ -363,7 +556,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

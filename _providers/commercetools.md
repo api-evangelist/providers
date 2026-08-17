@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -96,21 +96,66 @@ apis:
 - description: The Subscriptions API from commercetools — 2 operation(s) for subscriptions.
   name: commercetools Subscriptions API
   slug: commercetools-subscriptions-api
-artifact_total: 129
+artifact_total: 144
 asyncapis:
 - description: The commercetools Subscriptions system delivers real-time change notifications and domain messages to external message queue destinations when resources are created, updated, or deleted within a Compo
   name: commercetools Subscriptions Events
   slug: commercetools-subscriptions-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: commercetools Change History Carts API
+  slug: open-commercetools-carts-api
+- collection_type: open
+  name: commercetools Change History Carts Categories API
+  slug: open-commercetools-categories-api
+- collection_type: open
   name: commercetools Change History API
   slug: open-commercetools-change-history-api
+- collection_type: open
+  name: commercetools Change History Carts ChangeHistory API
+  slug: open-commercetools-changehistory-api
+- collection_type: open
+  name: commercetools Change History Carts Customers API
+  slug: open-commercetools-customers-api
 - collection_type: open
   name: commercetools HTTP API
   slug: open-commercetools-http-api
 - collection_type: open
   name: commercetools Import API
   slug: open-commercetools-import-api
+- collection_type: open
+  name: commercetools Change History Carts ImportContainers API
+  slug: open-commercetools-importcontainers-api
+- collection_type: open
+  name: commercetools Change History Carts ImportOperations API
+  slug: open-commercetools-importoperations-api
+- collection_type: open
+  name: commercetools Change History Carts Inventory API
+  slug: open-commercetools-inventory-api
+- collection_type: open
+  name: commercetools Change History Carts Orders API
+  slug: open-commercetools-orders-api
+- collection_type: open
+  name: commercetools Change History Carts Payments API
+  slug: open-commercetools-payments-api
+- collection_type: open
+  name: commercetools Change History Carts Products API
+  slug: open-commercetools-products-api
+- collection_type: open
+  name: commercetools Change History Carts ProductVariants API
+  slug: open-commercetools-productvariants-api
+- collection_type: open
+  name: commercetools Change History Carts Project API
+  slug: open-commercetools-project-api
+- collection_type: open
+  name: commercetools Change History Carts StandalonePrices API
+  slug: open-commercetools-standaloneprices-api
+- collection_type: open
+  name: commercetools Change History Carts Subscriptions API
+  slug: open-commercetools-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -461,7 +506,7 @@ plans:
 - name: Commercetools Plans Pricing
   plan_count: 3
   slug: commercetools-plans-pricing
-random_paper: 84
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Commercetools Rate Limits
@@ -511,7 +556,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/screenshots/commercetools-2026-06-20T174814.png
 security:

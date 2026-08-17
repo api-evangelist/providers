@@ -1,13 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Free tier, then self-serve checkout
   onboarding: self-serve
-  pricing: unknown
+  pricing: freemium
   public: false
   source:
   - authentication
-  trial: false
+  - https://www.exec.com/pricing
+  - https://docs.exec.com/platform/plans
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-native
@@ -28,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -65,11 +67,42 @@ apis:
 - description: The Workspace API from Exec — 3 operation(s) for workspace.
   name: Exec Workspace API
   slug: exec-workspace-api
-artifact_total: 16
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Exec Webhooks
   slug: exec-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Exec Collections API
+  slug: open-exec-collections-api
+- collection_type: open
+  name: Exec Collections Knowledge Hub - Folders API
+  slug: open-exec-knowledge-hub-folders-api
+- collection_type: open
+  name: Exec Collections Knowledge Hub - Pages API
+  slug: open-exec-knowledge-hub-pages-api
+- collection_type: open
+  name: Exec Collections Knowledge Hub - Sources API
+  slug: open-exec-knowledge-hub-sources-api
+- collection_type: open
+  name: Exec Collections Scenario Studio API
+  slug: open-exec-scenario-studio-api
+- collection_type: open
+  name: Exec Collections Scenarios API
+  slug: open-exec-scenarios-api
+- collection_type: open
+  name: Exec Collections Sessions API
+  slug: open-exec-sessions-api
+- collection_type: open
+  name: Exec Collections Skills API
+  slug: open-exec-skills-api
+- collection_type: open
+  name: Exec Collections Workspace API
+  slug: open-exec-workspace-api
 common:
 - group: docs
   title: ''
@@ -139,10 +172,22 @@ common:
   title: ''
   type: MCPServer
   url: mcp/exec-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/exec-tool-crosswalk.yml
 - group: agent
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/exec-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/exec-plans-pricing.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -203,7 +248,7 @@ mcp_servers:
 - description: ''
   name: exec-mcp.yml
   slug: exec-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Exec
 nav: Providers
 network: true
@@ -213,18 +258,22 @@ overview: 'Exec publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
   The Exec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Exec''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 61
+  Exec''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+plans:
+- name: Exec Plans Pricing
+  plan_count: 4
+  slug: exec-plans-pricing
+random_paper: 123
 rate_limits:
 - limit_count: 3
   name: Exec Rate Limits
   slug: exec-rate-limits
 score:
   band: strong
-  composite: 58.7
-  delta: 0.0
+  composite: 65.0
+  delta: 6.3
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 70.1
     developer_ergonomics: 56.0
     discoverability: 81.5
@@ -242,8 +291,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/screenshots/exec-2026-07-25T213855.png
 security:
 - kind: authentication
@@ -253,7 +302,7 @@ security:
 - kind: domain-security
   name: Exec Domain Security
   slug: exec-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: trust-center
   name: Exec Trust Center
   slug: exec-trust-center

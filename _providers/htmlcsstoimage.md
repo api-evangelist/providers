@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Templates API from HTML/CSS to Image — 4 operation(s) for templates.
   name: HTML/CSS to Image Templates API
   slug: htmlcsstoimage-templates-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HTML/CSS to Image Image Generation API
+  slug: open-htmlcsstoimage-image-generation-api
+- collection_type: open
+  name: HTML/CSS to Image Image Generation Signed URLs API
+  slug: open-htmlcsstoimage-signed-urls-api
+- collection_type: open
+  name: HTML/CSS to Image Image Generation Templates API
+  slug: open-htmlcsstoimage-templates-api
 - collection_type: open
   name: HTML/CSS to Image API
   slug: open-htmlcsstoimage
@@ -114,7 +126,7 @@ plans:
 - name: Htmlcsstoimage Plans Pricing
   plan_count: 12
   slug: htmlcsstoimage-plans-pricing
-random_paper: 68
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Htmlcsstoimage Rate Limits
@@ -139,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/screenshots/htmlcsstoimage-2026-06-20T182903.png
 security:

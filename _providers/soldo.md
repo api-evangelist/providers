@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -176,11 +176,144 @@ apis:
 - description: The Workflows API from Soldo — 3 operation(s) for workflows.
   name: Soldo Workflows API
   slug: soldo-workflows-api
-artifact_total: 52
+artifact_total: 96
 asyncapis:
 - description: ''
   name: Soldo Webhooks
   slug: soldo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification API
+  slug: open-soldo-accounting-classification-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Addresses API
+  slug: open-soldo-addresses-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Authentication API
+  slug: open-soldo-authentication-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Auto-Transfer Presets API
+  slug: open-soldo-auto-transfer-presets-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Autotags API
+  slug: open-soldo-autotags-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Business Trips API
+  slug: open-soldo-business-trips-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Card Rules API
+  slug: open-soldo-card-rules-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Card Rules Presets API
+  slug: open-soldo-card-rules-presets-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Cards API
+  slug: open-soldo-cards-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Company API
+  slug: open-soldo-company-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Contacts API
+  slug: open-soldo-contacts-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Documents API
+  slug: open-soldo-documents-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Expense Categories API
+  slug: open-soldo-expense-categories-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Expense Policies API
+  slug: open-soldo-expense-policies-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Expense Reports API
+  slug: open-soldo-expense-reports-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Groups API
+  slug: open-soldo-groups-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Lists API
+  slug: open-soldo-lists-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Online Ads API
+  slug: open-soldo-online-ads-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Orders API
+  slug: open-soldo-orders-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Out of Office API
+  slug: open-soldo-out-of-office-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Permissions API
+  slug: open-soldo-permissions-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Pre-approved Spend API
+  slug: open-soldo-pre-approved-spend-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Refueling Transactions API
+  slug: open-soldo-refueling-transactions-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Requests API
+  slug: open-soldo-requests-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Resource Sets API
+  slug: open-soldo-resource-sets-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Statements API
+  slug: open-soldo-statements-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Subscriptions API
+  slug: open-soldo-subscriptions-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Tags API
+  slug: open-soldo-tags-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Transaction Attachments API
+  slug: open-soldo-transaction-attachments-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Transaction Custom Export API
+  slug: open-soldo-transaction-custom-export-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Transaction Expense Category API
+  slug: open-soldo-transaction-expense-category-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Transaction Metadata API
+  slug: open-soldo-transaction-metadata-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Transaction Split API
+  slug: open-soldo-transaction-split-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Transaction Tags API
+  slug: open-soldo-transaction-tags-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Transaction VAT Rate API
+  slug: open-soldo-transaction-vat-rate-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Transactions API
+  slug: open-soldo-transactions-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification User Roles API
+  slug: open-soldo-user-roles-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Users API
+  slug: open-soldo-users-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification VAT Rates API
+  slug: open-soldo-vat-rates-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Vehicles API
+  slug: open-soldo-vehicles-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Wallets API
+  slug: open-soldo-wallets-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Webhook Subscriptions API
+  slug: open-soldo-webhook-subscriptions-api
+- collection_type: open
+  name: Soldo Business API v2.0 Accounting Classification Workflows API
+  slug: open-soldo-workflows-api
 common:
 - group: start
   title: ''
@@ -313,7 +446,7 @@ overview: 'Soldo publishes 46 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Soldo''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, engineering blog, and 21 more developer resources.'
-random_paper: 65
+random_paper: 98
 scopes:
 - name: Soldo Scopes
   scope_count: 59
@@ -348,7 +481,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

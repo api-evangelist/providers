@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Trex Company API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Trex Plans Pricing
   plan_count: 1
   slug: trex-plans-pricing
-random_paper: 91
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Trex Rate Limits
@@ -83,7 +83,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trex/refs/heads/main/screenshots/trex-2026-06-20T195701.png
 security:

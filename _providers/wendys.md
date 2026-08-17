@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: Leading Drive-Thru Innovation with Wendy's FreshAi
   url: https://www.wendys.com/blog/drive-thru-innovation-wendys-freshai
-random_paper: 66
+random_paper: 70
 score:
   band: minimal
   composite: 9.9
@@ -109,7 +109,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wendys/refs/heads/main/screenshots/wendys-2026-06-20T201353.png
 security:

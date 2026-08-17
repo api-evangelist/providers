@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 2
@@ -126,7 +126,7 @@ apis:
 - description: The Webhooks API from Discord — 8 operation(s) for webhooks.
   name: Discord Webhooks API
   slug: discord-webhooks-api
-artifact_total: 527
+artifact_total: 550
 asyncapis:
 - description: The Discord Gateway API provides persistent, stateful WebSocket connections between your client and Discord servers. These connections are used for sending and receiving real-time events your client c
   name: Discord Gateway API
@@ -211,20 +211,89 @@ collections:
   name: Discord Interactions Application Commands Webhooks API
   slug: postman-discord-webhooks-api
 - collection_type: open
-  name: Discord Interactions API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Discord Interactions Application Commands API
+  slug: open-discord-application-commands-api
+- collection_type: open
+  name: Discord Interactions Application Commands Applications API
+  slug: open-discord-applications-api
+- collection_type: open
+  name: Discord Interactions Application Commands Audit Log API
+  slug: open-discord-audit-log-api
+- collection_type: open
+  name: Discord Interactions Application Commands Auto Moderation API
+  slug: open-discord-auto-moderation-api
+- collection_type: open
+  name: Discord Interactions Application Commands Channels API
+  slug: open-discord-channels-api
+- collection_type: open
+  name: Discord Interactions Application Commands Emojis API
+  slug: open-discord-emojis-api
+- collection_type: open
+  name: Discord Interactions Application Commands Gateway API
+  slug: open-discord-gateway-api
+- collection_type: open
+  name: Discord Interactions Application Commands Guilds API
+  slug: open-discord-guilds-api
+- collection_type: open
+  name: Discord Interactions Application Commands Interaction Responses API
+  slug: open-discord-interaction-responses-api
+- collection_type: open
+  name: Discord Application Commands Interactions API
   slug: open-discord-interactions-api
+- collection_type: open
+  name: Discord Interactions Application Commands Invites API
+  slug: open-discord-invites-api
 - collection_type: open
   name: Discord Linked Roles API
   slug: open-discord-linked-roles-api
 - collection_type: open
-  name: Discord OAuth2 API
+  name: Discord Interactions Application Commands Members API
+  slug: open-discord-members-api
+- collection_type: open
+  name: Discord Interactions Application Commands Messages API
+  slug: open-discord-messages-api
+- collection_type: open
+  name: Discord Interactions Application Commands OAuth2 API
   slug: open-discord-oauth2-api
 - collection_type: open
   name: Discord REST API
   slug: open-discord-rest-api
 - collection_type: open
-  name: Discord Webhook Events API
+  name: Discord Interactions Application Commands Role Connections API
+  slug: open-discord-role-connections-api
+- collection_type: open
+  name: Discord Interactions Application Commands Roles API
+  slug: open-discord-roles-api
+- collection_type: open
+  name: Discord Interactions Application Commands Scheduled Events API
+  slug: open-discord-scheduled-events-api
+- collection_type: open
+  name: Discord Interactions Application Commands Stage Instances API
+  slug: open-discord-stage-instances-api
+- collection_type: open
+  name: Discord Interactions Application Commands Sticker Packs API
+  slug: open-discord-sticker-packs-api
+- collection_type: open
+  name: Discord Interactions Application Commands Stickers API
+  slug: open-discord-stickers-api
+- collection_type: open
+  name: Discord Interactions Application Commands User Identity API
+  slug: open-discord-user-identity-api
+- collection_type: open
+  name: Discord Interactions Application Commands Users API
+  slug: open-discord-users-api
+- collection_type: open
+  name: Discord Interactions Application Commands Voice API
+  slug: open-discord-voice-api
+- collection_type: open
+  name: Discord Interactions Application Commands Webhook Events API
   slug: open-discord-webhook-events-api
+- collection_type: open
+  name: Discord Interactions Application Commands Webhooks API
+  slug: open-discord-webhooks-api
 common:
 - group: operate
   title: ''
@@ -1811,7 +1880,7 @@ plans:
 - name: Discord Plans Pricing
   plan_count: 3
   slug: discord-plans-pricing
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Discord Rate Limits
@@ -1858,7 +1927,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/screenshots/discord-2026-06-20T180039.png
 security:

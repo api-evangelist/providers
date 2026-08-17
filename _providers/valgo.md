@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The v1 API from Valgo — 7 operation(s) for v1.
   name: Valgo v1 API
   slug: valgo-v1-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Human Crash Baselines Compute API
+  slug: open-valgo-compute-api
+- collection_type: open
+  name: Human Crash Baselines Compute Compute Batch API
+  slug: open-valgo-compute-batch-api
+- collection_type: open
+  name: Human Crash Baselines Compute Compute Depot Route API
+  slug: open-valgo-compute-depot-route-api
+- collection_type: open
+  name: Human Crash Baselines Compute Compute Route API
+  slug: open-valgo-compute-route-api
+- collection_type: open
+  name: Human Crash Baselines Compute Health API
+  slug: open-valgo-health-api
+- collection_type: open
+  name: Human Crash Baselines Compute Manifest API
+  slug: open-valgo-manifest-api
+- collection_type: open
+  name: Human Crash Baselines Compute Request Api Key API
+  slug: open-valgo-request-api-key-api
+- collection_type: open
+  name: Human Crash Baselines Compute v1 API
+  slug: open-valgo-v1-api
 common:
 - group: other
   title: ''
@@ -172,7 +200,7 @@ overview: 'Valgo publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Valgo''s developer surface includes authentication, changelog, support, signup flow, engineering blog, and 18 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: thin
   composite: 37.0
@@ -202,7 +230,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

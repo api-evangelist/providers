@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Retrieve machine telemetry and sensor data.
   name: agco Telemetry API
   slug: agco-telemetry-api
-artifact_total: 34
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: AGCO AgCommand API
   slug: open-agco-agcommand-api
+- collection_type: open
+  name: AGCO AgCommand Locations API
+  slug: open-agco-locations-api
+- collection_type: open
+  name: AGCO AgCommand Locations Machines API
+  slug: open-agco-machines-api
+- collection_type: open
+  name: AGCO AgCommand Locations Telemetry API
+  slug: open-agco-telemetry-api
 common:
 - group: agent
   title: ''
@@ -227,7 +239,7 @@ press:
 - date: '2026-05-25'
   title: AGCO to Showcase Full-Line Innovation and Smart ...
   url: https://www.prnewswire.com/news-releases/agco-to-showcase-full-line-innovation-and-smart-farming-technologies-at-agritechnica-2025-302604586.html
-random_paper: 50
+random_paper: 112
 rate_limits:
 - limit_count: 1
   name: Agco Rate Limits
@@ -269,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/screenshots/agco-2026-06-20T165808.png
 security:

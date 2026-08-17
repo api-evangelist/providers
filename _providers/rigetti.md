@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -91,14 +91,44 @@ arazzos:
 - description: Resolve the caller's identity and balance, read a processor's maintenance calendar, and surface available reservation slots before booking.
   name: Rigetti Reservation Readiness Check
   slug: rigetti-reservation-readiness-check-workflow
-artifact_total: 69
+artifact_total: 79
 collections:
 - collection_type: postman
   name: Rigetti QCS API
   slug: postman-rigetti-qcs-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rigetti QCS account API
+  slug: open-rigetti-account-api
+- collection_type: open
+  name: Rigetti QCS account authentication API
+  slug: open-rigetti-authentication-api
+- collection_type: open
+  name: Rigetti QCS account clientApplications API
+  slug: open-rigetti-clientapplications-api
+- collection_type: open
+  name: Rigetti QCS account endpoints API
+  slug: open-rigetti-endpoints-api
+- collection_type: open
+  name: Rigetti QCS account engagements API
+  slug: open-rigetti-engagements-api
+- collection_type: open
+  name: Rigetti QCS account Healthcheck API
+  slug: open-rigetti-healthcheck-api
+- collection_type: open
   name: Rigetti QCS API
   slug: open-rigetti-qcs-api
+- collection_type: open
+  name: Rigetti QCS account quantumProcessors API
+  slug: open-rigetti-quantumprocessors-api
+- collection_type: open
+  name: Rigetti QCS account reservations API
+  slug: open-rigetti-reservations-api
+- collection_type: open
+  name: Rigetti QCS account Rigetti QCS API API
+  slug: open-rigetti-rigetti-qcs-api-api
 common:
 - group: agent
   title: ''
@@ -388,7 +418,7 @@ plans:
 - name: Rigetti Plans Pricing
   plan_count: 6
   slug: rigetti-plans-pricing
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Rigetti Rate Limits
@@ -422,7 +452,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/screenshots/rigetti-2026-06-20T193115.png
 security:

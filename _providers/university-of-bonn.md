@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,23 @@ apis:
 - description: Search the published catalog of datasets, dataverses, and files.
   name: University of Bonn Search API
   slug: university-of-bonn-search-api
-artifact_total: 20
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: bonndata Dataverse Native REST API (Public Read Subset) Datasets API
+  slug: open-university-of-bonn-datasets-api
+- collection_type: open
+  name: bonndata Dataverse Native REST API (Public Read Subset) Datasets Info API
+  slug: open-university-of-bonn-info-api
+- collection_type: open
+  name: bonndata Dataverse Native REST API (Public Read Subset) Datasets Metrics API
+  slug: open-university-of-bonn-metrics-api
+- collection_type: open
+  name: bonndata Dataverse Native REST API (Public Read Subset) Datasets Search API
+  slug: open-university-of-bonn-search-api
 common:
 - group: agent
   title: ''
@@ -148,7 +164,7 @@ plans:
 - name: University Of Bonn Plans Pricing
   plan_count: 2
   slug: university-of-bonn-plans-pricing
-random_paper: 54
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: University Of Bonn Rate Limits
@@ -196,7 +212,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/screenshots/university-of-bonn-2026-06-20T200139.png
 security:

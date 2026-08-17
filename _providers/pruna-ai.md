@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Core prediction workflow operations
   name: Pruna AI Predictions API
   slug: pruna-ai-predictions-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: P Content Delivery API
+  slug: open-pruna-ai-content-delivery-api
+- collection_type: open
+  name: P Content Delivery File Management API
+  slug: open-pruna-ai-file-management-api
+- collection_type: open
+  name: P Content Delivery Predictions API
+  slug: open-pruna-ai-predictions-api
 common:
 - group: other
   title: ''
@@ -178,7 +191,7 @@ overview: 'Pruna AI publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pruna AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 77
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Pruna Ai Rate Limits
@@ -206,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

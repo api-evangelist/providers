@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The @hcengineering/api-client Node.js package provides typed programmatic access to the Huly Platform. It exposes a WebSocket client (connect) holding a persistent transactor connection and a REST cli
@@ -43,8 +43,11 @@ apis:
 - description: Documents is Huly's collaborative knowledge-management module for rich-text documents with code blocks and real-time editing. Document content is modeled as platform markup and accessed through the Hu
   name: Huly Documents
   slug: huly-documents
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Huly Platform API
   slug: open-huly
@@ -101,7 +104,7 @@ plans:
 - name: Huly Plans Pricing
   plan_count: 6
   slug: huly-plans-pricing
-random_paper: 90
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Huly Rate Limits
@@ -119,7 +122,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/screenshots/huly-2026-07-25T221637.png
 security:

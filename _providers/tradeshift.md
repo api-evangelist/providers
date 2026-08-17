@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 38
 apis:
 - description: The Admin API from Tradeshift — 11 operation(s) for admin.
@@ -135,11 +135,135 @@ apis:
 - description: The Tools API from Tradeshift — 3 operation(s) for tools.
   name: Tradeshift Tools API
   slug: tradeshift-tools-api
-artifact_total: 54
+artifact_total: 95
 asyncapis:
 - description: ''
   name: Tradeshift Webhooks
   slug: tradeshift-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MCP HTTP Bridge & Management Admin API
+  slug: open-tradeshift-admin-api
+- collection_type: open
+  name: Tradeshift External Document Validation API
+  slug: open-tradeshift-document-validation-api
+- collection_type: open
+  name: Tradeshift External Dx Category Accounts Branches API
+  slug: open-tradeshift-dx-category-accounts-branches-api
+- collection_type: open
+  name: Tradeshift External Dx Category Accounts Company API
+  slug: open-tradeshift-dx-category-accounts-company-api
+- collection_type: open
+  name: Tradeshift External Dx Category Accounts Gli Prefixes API
+  slug: open-tradeshift-dx-category-accounts-gli-prefixes-api
+- collection_type: open
+  name: Tradeshift External Dx Category Accounts Legal Entities API
+  slug: open-tradeshift-dx-category-accounts-legal-entities-api
+- collection_type: open
+  name: Tradeshift External Dx Category Accounts Taxes API
+  slug: open-tradeshift-dx-category-accounts-taxes-api
+- collection_type: open
+  name: Tradeshift External Dx Category Accounts Validations API
+  slug: open-tradeshift-dx-category-accounts-validations-api
+- collection_type: open
+  name: Tradeshift External Dx Category Assignments Create API
+  slug: open-tradeshift-dx-category-assignments-create-api
+- collection_type: open
+  name: Tradeshift External Dx Category Assignments Find API
+  slug: open-tradeshift-dx-category-assignments-find-api
+- collection_type: open
+  name: Tradeshift External Dx Category Assignments Logs API
+  slug: open-tradeshift-dx-category-assignments-logs-api
+- collection_type: open
+  name: Tradeshift External Dx Category Assignments Reassign API
+  slug: open-tradeshift-dx-category-assignments-reassign-api
+- collection_type: open
+  name: Tradeshift External Dx Category Assignments Update API
+  slug: open-tradeshift-dx-category-assignments-update-api
+- collection_type: open
+  name: Tradeshift External Dx Category Bsd Documents API
+  slug: open-tradeshift-dx-category-bsd-documents-api
+- collection_type: open
+  name: Tradeshift External Dx Category Document Validation Validate Document API
+  slug: open-tradeshift-dx-category-document-validation-validate-document-api
+- collection_type: open
+  name: Tradeshift External Dx Category Document Validation Validators Delete API
+  slug: open-tradeshift-dx-category-document-validation-validators-delete-api
+- collection_type: open
+  name: Tradeshift External Dx Category Document Validation Validators Find All API
+  slug: open-tradeshift-dx-category-document-validation-validators-find-all-api
+- collection_type: open
+  name: Tradeshift External Dx Category Document Validation Validators Find API
+  slug: open-tradeshift-dx-category-document-validation-validators-find-api
+- collection_type: open
+  name: Tradeshift External Dx Category Document Validation Validators History API
+  slug: open-tradeshift-dx-category-document-validation-validators-history-api
+- collection_type: open
+  name: Tradeshift External Dx Category Document Validation Validators Save API
+  slug: open-tradeshift-dx-category-document-validation-validators-save-api
+- collection_type: open
+  name: Tradeshift External Dx Category Documents Assignments API
+  slug: open-tradeshift-dx-category-documents-assignments-api
+- collection_type: open
+  name: Tradeshift External Dx Category Documents Attachments API
+  slug: open-tradeshift-dx-category-documents-attachments-api
+- collection_type: open
+  name: Tradeshift External Dx Category Documents Document API
+  slug: open-tradeshift-dx-category-documents-document-api
+- collection_type: open
+  name: Tradeshift External Dx Category Documents Document Files API
+  slug: open-tradeshift-dx-category-documents-document-files-api
+- collection_type: open
+  name: Tradeshift External Dx Category Documents Quotes API
+  slug: open-tradeshift-dx-category-documents-quotes-api
+- collection_type: open
+  name: Tradeshift External Dx Category Documents Receipt Advices API
+  slug: open-tradeshift-dx-category-documents-receipt-advices-api
+- collection_type: open
+  name: Tradeshift External Dx Category Documents Requisitions API
+  slug: open-tradeshift-dx-category-documents-requisitions-api
+- collection_type: open
+  name: Tradeshift External Dx Category Network Connection Properties API
+  slug: open-tradeshift-dx-category-network-connection-properties-api
+- collection_type: open
+  name: Tradeshift External Dx Category Network Connections API
+  slug: open-tradeshift-dx-category-network-connections-api
+- collection_type: open
+  name: Tradeshift External Dx Category Network Document Profiles API
+  slug: open-tradeshift-dx-category-network-document-profiles-api
+- collection_type: open
+  name: Tradeshift External Dx Category Network Requests API
+  slug: open-tradeshift-dx-category-network-requests-api
+- collection_type: open
+  name: Tradeshift External Dx Category Network Search API
+  slug: open-tradeshift-dx-category-network-search-api
+- collection_type: open
+  name: Tradeshift External Dx Category Users Accounts API
+  slug: open-tradeshift-dx-category-users-accounts-api
+- collection_type: open
+  name: Tradeshift External Dx Category Users Memberships API
+  slug: open-tradeshift-dx-category-users-memberships-api
+- collection_type: open
+  name: Tradeshift External Dx Category Users Profile Images API
+  slug: open-tradeshift-dx-category-users-profile-images-api
+- collection_type: open
+  name: Tradeshift External API
+  slug: open-tradeshift-external-api
+- collection_type: open
+  name: MCP HTTP Bridge & Management Health API
+  slug: open-tradeshift-health-api
+- collection_type: open
+  name: MCP HTTP Bridge & Management
+  slug: open-tradeshift-mcp-bridge
+- collection_type: open
+  name: MCP HTTP Bridge & Management API
+  slug: open-tradeshift-mcp-http-bridge-management-api
+- collection_type: open
+  name: MCP HTTP Bridge & Management Tools API
+  slug: open-tradeshift-tools-api
 common:
 - group: auth
   title: ''
@@ -369,7 +493,7 @@ overview: 'Tradeshift publishes 38 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tradeshift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
-random_paper: 110
+random_paper: 27
 scopes:
 - name: Tradeshift Scopes
   scope_count: 7
@@ -397,7 +521,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

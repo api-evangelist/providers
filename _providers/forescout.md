@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'The Web API plugin of the Forescout eyeExtend Connect Open Integration Module lets external systems query and act on the Forescout platform over HTTP. Clients authenticate at POST /api/login and pass '
@@ -126,7 +126,7 @@ overview: 'Forescout publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Forescout''s developer surface includes documentation, API reference, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 26
+random_paper: 92
 score:
   band: emerging
   composite: 23.3
@@ -143,7 +143,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forescout/refs/heads/main/screenshots/forescout-2026-07-25T214933.png
 security:

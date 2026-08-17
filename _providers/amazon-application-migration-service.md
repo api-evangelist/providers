@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -69,7 +69,41 @@ apis:
 - description: Wave-based migration orchestration
   name: Amazon Application Migration Service Waves API
   slug: amazon-application-migration-service-waves-api
-artifact_total: 344
+artifact_total: 355
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Application Migration Service Applications API
+  slug: open-amazon-application-migration-service-applications-api
+- collection_type: open
+  name: Amazon Application Migration Service Applications Exports API
+  slug: open-amazon-application-migration-service-exports-api
+- collection_type: open
+  name: Amazon Application Migration Service Applications Jobs API
+  slug: open-amazon-application-migration-service-jobs-api
+- collection_type: open
+  name: Amazon Application Migration Service Applications Launch API
+  slug: open-amazon-application-migration-service-launch-api
+- collection_type: open
+  name: Amazon Application Migration Service Applications Lifecycle Hooks API
+  slug: open-amazon-application-migration-service-lifecycle-hooks-api
+- collection_type: open
+  name: Amazon Application Migration Service Applications Replication API
+  slug: open-amazon-application-migration-service-replication-api
+- collection_type: open
+  name: Amazon Application Migration Service Applications Source Servers API
+  slug: open-amazon-application-migration-service-source-servers-api
+- collection_type: open
+  name: Amazon Application Migration Service Applications Tags API
+  slug: open-amazon-application-migration-service-tags-api
+- collection_type: open
+  name: Amazon Application Migration Service Applications Vcenter Clients API
+  slug: open-amazon-application-migration-service-vcenter-clients-api
+- collection_type: open
+  name: Amazon Application Migration Service Applications Waves API
+  slug: open-amazon-application-migration-service-waves-api
 common:
 - group: agent
   title: ''
@@ -1056,7 +1090,7 @@ overview: 'Amazon Application Migration Service publishes 10 APIs on the [APIs.i
 
 
   Amazon Application Migration Service''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 76
+random_paper: 100
 rules:
 - name: Amazon Application Migration Service API Rules
   rule_count: 5
@@ -1096,7 +1130,7 @@ score:
       total: 10
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/screenshots/amazon-application-migration-service-2026-07-25T195925.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The Populations API from Oracle Health Data Intelligence — 2 operation(s) for populations.
   name: Oracle Health Data Intelligence Populations API
   slug: oracle-health-data-intelligence-populations-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Health Data Intelligence - Allergy Populations API
+  slug: open-oracle-health-data-intelligence-populations-api
 - collection_type: open
   name: Oracle Health Data Intelligence - Allergy API
   slug: open-oracle-health-data-intelligence
@@ -87,7 +93,7 @@ plans:
 - name: Oracle Health Data Intelligence Plans Pricing
   plan_count: 3
   slug: oracle-health-data-intelligence-plans-pricing
-random_paper: 72
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Oracle Health Data Intelligence Rate Limits
@@ -118,7 +124,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/screenshots/oracle-health-data-intelligence-2026-06-20T191145.png
 security:

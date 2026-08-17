@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Event subscriptions for inventory and order-request changes.
   name: Quartzy Webhooks API
   slug: quartzy-webhooks-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quartzy Public Inventory Items API
+  slug: open-quartzy-inventory-items-api
+- collection_type: open
+  name: Quartzy Public Inventory Items Labs API
+  slug: open-quartzy-labs-api
+- collection_type: open
+  name: Quartzy Public Inventory Items Order Requests API
+  slug: open-quartzy-order-requests-api
+- collection_type: open
+  name: Quartzy Public Inventory Items Types API
+  slug: open-quartzy-types-api
+- collection_type: open
+  name: Quartzy Public Inventory Items User API
+  slug: open-quartzy-user-api
+- collection_type: open
+  name: Quartzy Public Inventory Items Webhooks API
+  slug: open-quartzy-webhooks-api
 - collection_type: open
   name: Quartzy Public API
   slug: open-quartzy
@@ -135,7 +156,7 @@ plans:
 - name: Quartzy Plans Pricing
   plan_count: 3
   slug: quartzy-plans-pricing
-random_paper: 80
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Quartzy Rate Limits
@@ -171,7 +192,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

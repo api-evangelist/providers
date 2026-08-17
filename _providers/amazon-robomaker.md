@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ apis:
 - description: The UpdateWorldTemplate API from Amazon RoboMaker — 1 operation(s) for updateworldtemplate.
   name: Amazon RoboMaker UpdateWorldTemplate API
   slug: amazon-robomaker-updateworldtemplate-api
-artifact_total: 850
+artifact_total: 906
 collections:
 - collection_type: postman
   name: AWS RoboMaker BatchDeleteWorlds API
@@ -371,6 +371,174 @@ collections:
 - collection_type: postman
   name: AWS RoboMaker BatchDeleteWorlds UpdateWorldTemplate API
   slug: postman-amazon-robomaker-updateworldtemplate-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds API
+  slug: open-amazon-robomaker-batchdeleteworlds-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds BatchDescribeSimulationJob API
+  slug: open-amazon-robomaker-batchdescribesimulationjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CancelDeploymentJob API
+  slug: open-amazon-robomaker-canceldeploymentjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CancelSimulationJob API
+  slug: open-amazon-robomaker-cancelsimulationjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CancelSimulationJobBatch API
+  slug: open-amazon-robomaker-cancelsimulationjobbatch-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CancelWorldExportJob API
+  slug: open-amazon-robomaker-cancelworldexportjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CancelWorldGenerationJob API
+  slug: open-amazon-robomaker-cancelworldgenerationjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateDeploymentJob API
+  slug: open-amazon-robomaker-createdeploymentjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateFleet API
+  slug: open-amazon-robomaker-createfleet-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateRobot API
+  slug: open-amazon-robomaker-createrobot-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateRobotApplication API
+  slug: open-amazon-robomaker-createrobotapplication-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateRobotApplicationVersion API
+  slug: open-amazon-robomaker-createrobotapplicationversion-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateSimulationApplication API
+  slug: open-amazon-robomaker-createsimulationapplication-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateSimulationApplicationVersion API
+  slug: open-amazon-robomaker-createsimulationapplicationversion-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateSimulationJob API
+  slug: open-amazon-robomaker-createsimulationjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateWorldExportJob API
+  slug: open-amazon-robomaker-createworldexportjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateWorldGenerationJob API
+  slug: open-amazon-robomaker-createworldgenerationjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds CreateWorldTemplate API
+  slug: open-amazon-robomaker-createworldtemplate-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DeleteFleet API
+  slug: open-amazon-robomaker-deletefleet-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DeleteRobot API
+  slug: open-amazon-robomaker-deleterobot-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DeleteRobotApplication API
+  slug: open-amazon-robomaker-deleterobotapplication-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DeleteSimulationApplication API
+  slug: open-amazon-robomaker-deletesimulationapplication-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DeleteWorldTemplate API
+  slug: open-amazon-robomaker-deleteworldtemplate-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DeregisterRobot API
+  slug: open-amazon-robomaker-deregisterrobot-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeDeploymentJob API
+  slug: open-amazon-robomaker-describedeploymentjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeFleet API
+  slug: open-amazon-robomaker-describefleet-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeRobot API
+  slug: open-amazon-robomaker-describerobot-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeRobotApplication API
+  slug: open-amazon-robomaker-describerobotapplication-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeSimulationApplication API
+  slug: open-amazon-robomaker-describesimulationapplication-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeSimulationJob API
+  slug: open-amazon-robomaker-describesimulationjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeSimulationJobBatch API
+  slug: open-amazon-robomaker-describesimulationjobbatch-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeWorld API
+  slug: open-amazon-robomaker-describeworld-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeWorldExportJob API
+  slug: open-amazon-robomaker-describeworldexportjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeWorldGenerationJob API
+  slug: open-amazon-robomaker-describeworldgenerationjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds DescribeWorldTemplate API
+  slug: open-amazon-robomaker-describeworldtemplate-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds GetWorldTemplateBody API
+  slug: open-amazon-robomaker-getworldtemplatebody-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListDeploymentJobs API
+  slug: open-amazon-robomaker-listdeploymentjobs-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListFleets API
+  slug: open-amazon-robomaker-listfleets-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListRobotApplications API
+  slug: open-amazon-robomaker-listrobotapplications-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListRobots API
+  slug: open-amazon-robomaker-listrobots-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListSimulationApplications API
+  slug: open-amazon-robomaker-listsimulationapplications-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListSimulationJobBatches API
+  slug: open-amazon-robomaker-listsimulationjobbatches-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListSimulationJobs API
+  slug: open-amazon-robomaker-listsimulationjobs-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListWorldExportJobs API
+  slug: open-amazon-robomaker-listworldexportjobs-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListWorldGenerationJobs API
+  slug: open-amazon-robomaker-listworldgenerationjobs-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListWorlds API
+  slug: open-amazon-robomaker-listworlds-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds ListWorldTemplates API
+  slug: open-amazon-robomaker-listworldtemplates-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds RegisterRobot API
+  slug: open-amazon-robomaker-registerrobot-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds RestartSimulationJob API
+  slug: open-amazon-robomaker-restartsimulationjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds StartSimulationJobBatch API
+  slug: open-amazon-robomaker-startsimulationjobbatch-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds SyncDeploymentJob API
+  slug: open-amazon-robomaker-syncdeploymentjob-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds Tags API
+  slug: open-amazon-robomaker-tags-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds UpdateRobotApplication API
+  slug: open-amazon-robomaker-updaterobotapplication-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds UpdateSimulationApplication API
+  slug: open-amazon-robomaker-updatesimulationapplication-api
+- collection_type: open
+  name: AWS RoboMaker BatchDeleteWorlds UpdateWorldTemplate API
+  slug: open-amazon-robomaker-updateworldtemplate-api
 - collection_type: open
   name: AWS RoboMaker
   slug: open-amazon-robomaker
@@ -5586,7 +5754,7 @@ plans:
 - name: Amazon Robomaker Plans Pricing
   plan_count: 3
   slug: amazon-robomaker-plans-pricing
-random_paper: 93
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Robomaker Rate Limits
@@ -5628,7 +5796,7 @@ score:
       marker_coverage: 0.0
       total: 55
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/screenshots/amazon-robomaker-2026-06-20T171810.png
 security:

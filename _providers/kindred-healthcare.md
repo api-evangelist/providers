@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ press:
 - date: '2026-05-25'
   title: Anchor Health Properties Engaged to Develop Tampa ...
   url: https://www.tgh.org/news/tgh-press-releases/2020/october/anchor-health-properties-engaged-to-develop-tampa-general-hospital-and-kindred-healthcares-first
-random_paper: 23
+random_paper: 35
 score:
   band: minimal
   composite: 10.5
@@ -119,7 +119,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kindred-healthcare/refs/heads/main/screenshots/kindred-healthcare-2026-06-20T184042.png
 security:

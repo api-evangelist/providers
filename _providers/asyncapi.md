@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: The Validate API from AsyncAPI — 1 operation(s) for validate.
   name: AsyncAPI Validate API
   slug: asyncapi-validate-api
-artifact_total: 26
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AsyncAPI Server Bundle API
+  slug: open-asyncapi-bundle-api
+- collection_type: open
+  name: AsyncAPI Server Bundle Convert API
+  slug: open-asyncapi-convert-api
+- collection_type: open
+  name: AsyncAPI Server Bundle Diff API
+  slug: open-asyncapi-diff-api
+- collection_type: open
+  name: AsyncAPI Server Bundle Generate API
+  slug: open-asyncapi-generate-api
+- collection_type: open
+  name: AsyncAPI Server Bundle Help API
+  slug: open-asyncapi-help-api
+- collection_type: open
+  name: AsyncAPI Server Bundle Parse API
+  slug: open-asyncapi-parse-api
+- collection_type: open
+  name: AsyncAPI Server Bundle Validate API
+  slug: open-asyncapi-validate-api
 - collection_type: open
   name: AsyncAPI Server API
   slug: open-asyncapi
@@ -137,7 +161,7 @@ plans:
 - name: Asyncapi Plans Pricing
   plan_count: 3
   slug: asyncapi-plans-pricing
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Asyncapi Rate Limits
@@ -162,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/screenshots/asyncapi-2026-06-20T172514.png
 security:

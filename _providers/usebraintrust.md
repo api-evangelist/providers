@@ -27,13 +27,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Public Braintrust network statistics.
   name: Braintrust (Talent Network) dashboard API
   slug: usebraintrust-dashboard-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Braintrust Network Stats dashboard API
+  slug: open-usebraintrust-dashboard-api
 common:
 - group: other
   title: ''
@@ -131,7 +138,7 @@ overview: 'Braintrust (Talent Network) publishes 1 API on the [APIs.io](https://
 
 
   Braintrust (Talent Network)''s developer surface includes documentation, engineering blog, pricing, support, signup flow, changelog, and 13 more developer resources.'
-random_paper: 115
+random_paper: 94
 score:
   band: thin
   composite: 31.4
@@ -154,7 +161,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

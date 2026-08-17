@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -102,8 +102,71 @@ apis:
 - description: The wallet API from Audius — 1 operation(s) for wallet.
   name: Audius wallet API
   slug: audius-wallet-api
-artifact_total: 30
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Audius challenges API
+  slug: open-audius-challenges-api
+- collection_type: open
+  name: Audius challenges cid_data API
+  slug: open-audius-cid-data-api
+- collection_type: open
+  name: Audius challenges coins API
+  slug: open-audius-coins-api
+- collection_type: open
+  name: Audius challenges comments API
+  slug: open-audius-comments-api
+- collection_type: open
+  name: Audius challenges dashboard_wallet_users API
+  slug: open-audius-dashboard-wallet-users-api
+- collection_type: open
+  name: Audius challenges developer_apps API
+  slug: open-audius-developer-apps-api
+- collection_type: open
+  name: Audius challenges events API
+  slug: open-audius-events-api
+- collection_type: open
+  name: Audius challenges explore API
+  slug: open-audius-explore-api
+- collection_type: open
+  name: Audius challenges notifications API
+  slug: open-audius-notifications-api
+- collection_type: open
+  name: Audius challenges playlists API
+  slug: open-audius-playlists-api
+- collection_type: open
+  name: Audius challenges prizes API
+  slug: open-audius-prizes-api
+- collection_type: open
+  name: Audius challenges reactions API
+  slug: open-audius-reactions-api
+- collection_type: open
+  name: Audius challenges resolve API
+  slug: open-audius-resolve-api
+- collection_type: open
+  name: Audius challenges rewards API
+  slug: open-audius-rewards-api
+- collection_type: open
+  name: Audius challenges search API
+  slug: open-audius-search-api
+- collection_type: open
+  name: Audius challenges tips API
+  slug: open-audius-tips-api
+- collection_type: open
+  name: Audius challenges tracks API
+  slug: open-audius-tracks-api
+- collection_type: open
+  name: Audius challenges transactions API
+  slug: open-audius-transactions-api
+- collection_type: open
+  name: Audius challenges users API
+  slug: open-audius-users-api
+- collection_type: open
+  name: Audius challenges wallet API
+  slug: open-audius-wallet-api
 - collection_type: open
   name: Audius API
   slug: open-audius
@@ -176,7 +239,7 @@ plans:
 - name: Audius Plans Pricing
   plan_count: 1
   slug: audius-plans-pricing
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Audius Rate Limits
@@ -206,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/screenshots/audius-2026-06-20T172554.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -51,12 +51,27 @@ apis:
 - description: Durable worker lifecycle and invocation operations.
   name: Golem Worker API
   slug: golem-cloud-worker-api
-artifact_total: 13
+artifact_total: 18
 asyncapis:
 - description: AsyncAPI description of Golem's worker `connect` WebSocket endpoint. The REST route GET /v1/components/{component_id}/workers/{agent_name}/connect upgrades the connection to a WebSocket (wss://) and s
   name: Golem Worker Connect (WebSocket) API
   slug: golem-cloud-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Golem Cloud ApiDefinition API
+  slug: open-golem-cloud-apidefinition-api
+- collection_type: open
+  name: Golem Cloud ApiDefinition Component API
+  slug: open-golem-cloud-component-api
+- collection_type: open
+  name: Golem Cloud ApiDefinition Plugin API
+  slug: open-golem-cloud-plugin-api
+- collection_type: open
+  name: Golem Cloud ApiDefinition Worker API
+  slug: open-golem-cloud-worker-api
 - collection_type: open
   name: Golem Cloud API
   slug: open-golem-cloud
@@ -128,7 +143,7 @@ plans:
 - name: Golem Cloud Plans Pricing
   plan_count: 4
   slug: golem-cloud-plans-pricing
-random_paper: 32
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Golem Cloud Rate Limits
@@ -162,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/screenshots/golem-cloud-2026-06-20T181950.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Operations on workflow templates
   name: Google Cloud Dataproc WorkflowTemplates API
   slug: google-cloud-dataproc-workflowtemplates-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud Dataproc Clusters API
@@ -60,8 +60,20 @@ collections:
   name: Google Cloud Dataproc Clusters WorkflowTemplates API
   slug: postman-google-cloud-dataproc-workflowtemplates-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Dataproc API
   slug: open-cloud-dataproc
+- collection_type: open
+  name: Google Cloud Dataproc Clusters API
+  slug: open-google-cloud-dataproc-clusters-api
+- collection_type: open
+  name: Google Cloud Dataproc Clusters Jobs API
+  slug: open-google-cloud-dataproc-jobs-api
+- collection_type: open
+  name: Google Cloud Dataproc Clusters WorkflowTemplates API
+  slug: open-google-cloud-dataproc-workflowtemplates-api
 common:
 - group: build
   title: ''
@@ -163,7 +175,7 @@ plans:
 - name: Google Cloud Dataproc Plans Pricing
   plan_count: 3
   slug: google-cloud-dataproc-plans-pricing
-random_paper: 68
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Google Cloud Dataproc Rate Limits
@@ -202,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/screenshots/google-cloud-dataproc-2026-06-20T182106.png
 security:

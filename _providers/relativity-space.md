@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Terran R is a reusable medium-to-heavy lift launch vehicle offering up to 23,500 kg to LEO (downrange landing) and 5,500 kg to GTO, with a planned first launch from Launch Complex 16 at Cape Canaveral
@@ -40,8 +40,11 @@ apis:
 - description: Payload integration for dedicated constellation deployments, single large satellites, and multi-customer rideshare missions, supported through a standard Payload Attach Fitting (PAF) interface and doc
   name: Relativity Space Payload and Rideshare
   slug: payload-rideshare
-artifact_total: 8
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Relativity Space API
   slug: open-relativity-space
@@ -94,7 +97,7 @@ plans:
 - name: Relativity Space Plans Pricing
   plan_count: 1
   slug: relativity-space-plans-pricing
-random_paper: 110
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Relativity Space Rate Limits
@@ -112,7 +115,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/screenshots/relativity-space-2026-06-20T192820.png
 security:

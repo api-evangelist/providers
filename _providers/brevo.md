@@ -11,33 +11,33 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    idempotency: documented
+    mcp_server: true
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-12'
+  score: 65.3
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 47
-  human_in_the_loop: 0
+- acting_count: 218
+  human_in_the_loop: 4
   name: Brevo Agentic Access
-  operation_count: 75
+  operation_count: 360
   slug: brevo-agentic-access
-  summary_line: 75 operations · 47 acting
-api_count: 23
+  summary_line: 360 operations · 218 acting · 4 human-in-the-loop
+api_count: 29
 apis:
 - description: Manage agent online status for conversation availability.
   name: brevo Agent Status API
@@ -108,33 +108,153 @@ apis:
 - description: Create and manage WhatsApp message templates that require Meta approval before use.
   name: brevo WhatsApp Templates API
   slug: brevo-whatsapp-templates-api
-artifact_total: 106
+- description: Build and operate reward programs programmatically — create and publish loyalty programs, define point balances and limits, enroll contacts, run the two-phase credit/debit transaction lifecycle, issue
+  name: Brevo Loyalty API
+  slug: brevo-loyalty-api
+- description: 'Manage the Brevo Sales CRM object graph — deals, companies, tasks, notes, files and pipelines — including linking and unlinking deals to contacts and companies, bulk import, and server-side filtering '
+  name: Brevo Sales CRM API
+  slug: brevo-sales-crm-api
+- description: 'Account-level administration: sender identities and IPs, sending domain creation and authentication, webhook subscriptions, organization users and permissions, master-account and sub-account managemen'
+  name: Brevo Accounts and Settings API
+  slug: brevo-accounts-and-settings-api
+- description: Track contact interactions by creating individual or batched events against a contact identifier, feeding automation triggers and segmentation. Batch requests wrap the event array in an events object.
+  name: Brevo Events API
+  slug: brevo-events-api
+- description: Generic create, read and delete over account-defined custom object record types, letting an account model data Brevo does not ship natively — subscription dates, store locations, bookings — and use it
+  name: Brevo Object Management API
+  slug: brevo-object-management-api
+- description: 'Generate a per-contact installation URL for an Apple Wallet or Google Wallet pass. The returned URL encodes the pass, contact and organization identifiers in an encrypted token so it can be shared by '
+  name: Brevo Wallet API
+  slug: brevo-wallet-api
+artifact_total: 150
 asyncapis:
 - description: Brevo delivers real-time event notifications via webhooks for transactional emails, marketing campaigns, transactional SMS, and conversations. When configured, Brevo sends HTTP POST requests to your s
   name: Brevo Webhook Events
   slug: brevo-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accounts and Settings
+  slug: open-brevo-accounts-and-settings
+- collection_type: open
+  name: Brevo Contacts Agent Status API
+  slug: open-brevo-agent-status-api
+- collection_type: open
+  name: Brevo Contacts Agent Status Automated Messages API
+  slug: open-brevo-automated-messages-api
+- collection_type: open
+  name: Brevo Contacts Agent Status Campaign Statistics API
+  slug: open-brevo-campaign-statistics-api
+- collection_type: open
+  name: Brevo Contacts Agent Status Categories API
+  slug: open-brevo-categories-api
+- collection_type: open
+  name: Brevo Contacts Agent Status Contact Attributes API
+  slug: open-brevo-contact-attributes-api
+- collection_type: open
+  name: Brevo Contacts Agent Status Contact Lists API
+  slug: open-brevo-contact-lists-api
+- collection_type: open
+  name: Contact Management
+  slug: open-brevo-contact-management
+- collection_type: open
+  name: Brevo Agent Status Contacts API
+  slug: open-brevo-contacts-api
+- collection_type: open
   name: Brevo Contacts API
   slug: open-brevo-contacts
 - collection_type: open
-  name: Brevo Conversations API
+  name: Conversations
   slug: open-brevo-conversations
 - collection_type: open
-  name: Brevo eCommerce API
+  name: Ecommerce
   slug: open-brevo-ecommerce
+- collection_type: open
+  name: Brevo Contacts Agent Status Email Activity API
+  slug: open-brevo-email-activity-api
+- collection_type: open
+  name: Email API
+  slug: open-brevo-email-api
+- collection_type: open
+  name: Brevo Contacts Agent Status Email Campaigns API
+  slug: open-brevo-email-campaigns-api
 - collection_type: open
   name: Brevo Email Campaigns API
   slug: open-brevo-email-campaigns
 - collection_type: open
+  name: Brevo Contacts Agent Status Email Templates API
+  slug: open-brevo-email-templates-api
+- collection_type: open
+  name: Events
+  slug: open-brevo-events
+- collection_type: open
+  name: Brevo Contacts Agent Status Folders API
+  slug: open-brevo-folders-api
+- collection_type: open
+  name: Brevo Contacts Agent Status Import API
+  slug: open-brevo-import-api
+- collection_type: open
+  name: Loyalty
+  slug: open-brevo-loyalty
+- collection_type: open
+  name: Marketing Campaigns
+  slug: open-brevo-marketing-campaigns
+- collection_type: open
+  name: Brevo Contacts Agent Status Messages API
+  slug: open-brevo-messages-api
+- collection_type: open
+  name: Object Management
+  slug: open-brevo-object-management
+- collection_type: open
+  name: Brevo Contacts Agent Status Orders API
+  slug: open-brevo-orders-api
+- collection_type: open
+  name: Brevo Contacts Agent Status Products API
+  slug: open-brevo-products-api
+- collection_type: open
+  name: Sales CRM
+  slug: open-brevo-sales-crm
+- collection_type: open
+  name: Brevo Contacts Agent Status Senders API
+  slug: open-brevo-senders-api
+- collection_type: open
+  name: Brevo Contacts Agent Status SMS Statistics API
+  slug: open-brevo-sms-statistics-api
+- collection_type: open
   name: Brevo Transactional Email API
   slug: open-brevo-transactional-email
 - collection_type: open
-  name: Brevo Transactional SMS API
+  name: Brevo Contacts Agent Status Transactional Emails API
+  slug: open-brevo-transactional-emails-api
+- collection_type: open
+  name: Brevo Contacts Agent Status Transactional SMS API
+  slug: open-brevo-transactional-sms-api
+- collection_type: open
+  name: Transactional SMS
   slug: open-brevo-transactional-sms
+- collection_type: open
+  name: Transactional WhatsApp
+  slug: open-brevo-transactional-whatsapp
+- collection_type: open
+  name: Wallet
+  slug: open-brevo-wallet
+- collection_type: open
+  name: Brevo Contacts Agent Status Webhooks API
+  slug: open-brevo-webhooks-api
 - collection_type: open
   name: Brevo Webhooks API
   slug: open-brevo-webhooks
+- collection_type: open
+  name: Brevo Contacts Agent Status WhatsApp Campaigns API
+  slug: open-brevo-whatsapp-campaigns-api
+- collection_type: open
+  name: Brevo Contacts Agent Status WhatsApp Messages API
+  slug: open-brevo-whatsapp-messages-api
+- collection_type: open
+  name: Brevo Contacts Agent Status WhatsApp Templates API
+  slug: open-brevo-whatsapp-templates-api
 - collection_type: open
   name: Brevo WhatsApp API
   slug: open-brevo-whatsapp
@@ -179,7 +299,244 @@ common:
   title: ''
   type: LlmsText
   url: https://developers.brevo.com/llms.txt
-description: Send transactional emails with static or dynamic content using the Messaging API.
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://developers.brevo.com/.well-known/api-catalog
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/brevo-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/brevo-api-catalog.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/brevo-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/brevo-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/brevo-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/brevo-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/brevo-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/brevo-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/brevo-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/brevo-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/brevo-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/brevo-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.brevo.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developers.brevo.com/changelog/2026/5/12
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/brevo-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developers.brevo.com/changelog
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/brevo-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/brevo-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.brevo.com/features/data-security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/brevo-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/brevo-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.brevo.com/legal/responsible-disclosure/
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/brevo-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/brevo-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/brevo-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/brevo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/brevo-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/brevo-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/brevo-vocabulary.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://developers.brevo.com/docs/how-to-use-webhooks
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/brevo-webhooks-asyncapi.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-email-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-transactional-sms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-transactional-whatsapp-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-marketing-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-contact-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-object-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-accounts-and-settings-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-sales-crm-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-conversations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-ecommerce-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-loyalty-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brevo-wallet-overlay.yaml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.brevo.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.brevo.com/docs/getting-started
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.brevo.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.brevo.com/docs/quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.brevo.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.brevo.com/blog/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/sib-apiv3/workspace/sendinblue
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.brevo.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://onboarding.brevo.com/account/register
+- group: start
+  title: ''
+  type: Login
+  url: https://app.brevo.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.brevo.com/legal/termsofuse/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.brevo.com/legal/privacypolicy/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.brevo.com/
+created: '2026-05-04'
+description: Brevo (formerly Sendinblue) is a French customer-relationship platform that combines email marketing, transactional email and SMTP relay, transactional and campaign SMS, WhatsApp messaging, web and mobile push, live chat, a sales CRM, an ecommerce attribution layer and a loyalty and rewards engine behind a single REST API at api.brevo.com/v3. Brevo publishes thirteen OpenAPI 3.1 definitions covering 285 operations, advertises them through an RFC 9727 API catalog at its developer portal, ships seven official SDKs and a first-party CLI for OAuth app management, and operates a hosted MCP server exposing 27 modules to AI agents.
 finops:
 - name: Brevo Finops
   service_category: Email & Marketing Automation
@@ -389,24 +746,28 @@ jsonld:
   property_count: 10
   slug: brevo-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: brevo-mcp.yml
+  slug: brevo-mcpyml
+modified: '2026-08-13'
 name: Brevo
 nav: Providers
 network: true
-overview: 'Brevo publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Agent Status API, Automated Messages API, Campaign Statistics API, and 20 more. Tagged areas include Marketing, Marketing Automation, Email Marketing, Transactional Email, and SMS Marketing.
+overview: 'Brevo publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Agent Status API, Automated Messages API, Campaign Statistics API, and 26 more. Tagged areas include Marketing, Marketing Automation, Email Marketing, Transactional Email, and SMS Marketing.
 
 
   The Brevo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Brevo''s developer surface includes authentication and 9 more developer resources.'
+  Brevo''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 62 more developer resources.'
 plans:
 - name: Brevo Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: brevo-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
-- limit_count: 10
+- limit_count: 30
   name: Brevo Rate Limits
   slug: brevo-rate-limits
 rules:
@@ -426,18 +787,23 @@ rules:
     info: 2
     warn: 4
   slug: brevo-jsonschema-spectral-rules
+scopes:
+- name: Brevo Scopes
+  scope_count: 37
+  slug: brevo-scopes
+  summary_line: 37 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 37.2
-  delta: -1.4
+  band: exemplar
+  composite: 80.2
+  delta: 43.0
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 80.4
-    developer_ergonomics: 10.9
-    discoverability: 66.7
-    governance: 47.9
-    operational_transparency: 13.2
-  previous_composite: 38.6
+    commercial_clarity: 76.3
+    contract_quality: 79.5
+    developer_ergonomics: 91.3
+    discoverability: 92.6
+    governance: 79.2
+    operational_transparency: 71.1
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -450,20 +816,28 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 23.6
+    score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png
 security:
 - kind: authentication
   name: Brevo Authentication
   slug: brevo-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Brevo Domain Security
   slug: brevo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Brevo Vulnerability Disclosure
+  slug: brevo-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Brevo Trust Center
+  slug: brevo-trust-center
+  summary_line: ISO/IEC 27001:2022
 slug: brevo
 tags:
 - Marketing
@@ -471,9 +845,18 @@ tags:
 - Email Marketing
 - Transactional Email
 - SMS Marketing
+- WhatsApp
 - Campaigns
 - CRM
+- Sales
+- Ecommerce
+- Loyalty
+- Events
+- Live Chat
 - Email
 - SMS
 - Automation
+- Messaging
+- Contacts
+website: https://www.brevo.com/
 ---

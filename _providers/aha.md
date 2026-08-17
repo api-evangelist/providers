@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -215,8 +215,188 @@ apis:
 - description: The Workflows API from Aha.io — 2 operation(s) for workflows.
   name: Aha.io Workflows API
   slug: aha-workflows-api
-artifact_total: 64
+artifact_total: 124
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aha! Account backups API
+  slug: open-aha-account-backups-api
+- collection_type: open
+  name: Aha! Account backups Attachments API
+  slug: open-aha-attachments-api
+- collection_type: open
+  name: Aha! Account backups Audits API
+  slug: open-aha-audits-api
+- collection_type: open
+  name: Aha! Account backups Capacity estimate values API
+  slug: open-aha-capacity-estimate-values-api
+- collection_type: open
+  name: Aha! Account backups Capacity investments API
+  slug: open-aha-capacity-investments-api
+- collection_type: open
+  name: Aha! Account backups Capacity scenarios API
+  slug: open-aha-capacity-scenarios-api
+- collection_type: open
+  name: Aha! Account backups Comments API
+  slug: open-aha-comments-api
+- collection_type: open
+  name: Aha! Account backups Competitors API
+  slug: open-aha-competitors-api
+- collection_type: open
+  name: Aha! Account backups Creative briefs API
+  slug: open-aha-creative-briefs-api
+- collection_type: open
+  name: Aha! Account backups Custom field options API
+  slug: open-aha-custom-field-options-api
+- collection_type: open
+  name: Aha! Account backups Custom fields API
+  slug: open-aha-custom-fields-api
+- collection_type: open
+  name: Aha! Account backups Custom Layouts API
+  slug: open-aha-custom-layouts-api
+- collection_type: open
+  name: Aha! Account backups Custom pivots API
+  slug: open-aha-custom-pivots-api
+- collection_type: open
+  name: Aha! Account backups Custom table record links API
+  slug: open-aha-custom-table-record-links-api
+- collection_type: open
+  name: Aha! Account backups Custom table records API
+  slug: open-aha-custom-table-records-api
+- collection_type: open
+  name: Aha! Account backups Deletions API
+  slug: open-aha-deletions-api
+- collection_type: open
+  name: Aha! Account backups Epics API
+  slug: open-aha-epics-api
+- collection_type: open
+  name: Aha! Account backups Features API
+  slug: open-aha-features-api
+- collection_type: open
+  name: Aha! Account backups Goals API
+  slug: open-aha-goals-api
+- collection_type: open
+  name: Aha! Account backups Historical Audits API
+  slug: open-aha-historical-audits-api
+- collection_type: open
+  name: Aha! Account backups Idea categories API
+  slug: open-aha-idea-categories-api
+- collection_type: open
+  name: Aha! Account backups Idea comments API
+  slug: open-aha-idea-comments-api
+- collection_type: open
+  name: Aha! Account backups Idea organizations API
+  slug: open-aha-idea-organizations-api
+- collection_type: open
+  name: Aha! Account backups Idea Portals API
+  slug: open-aha-idea-portals-api
+- collection_type: open
+  name: Aha! Account backups Idea subscriptions API
+  slug: open-aha-idea-subscriptions-api
+- collection_type: open
+  name: Aha! Account backups Idea users API
+  slug: open-aha-idea-users-api
+- collection_type: open
+  name: Aha! Account backups Idea votes API
+  slug: open-aha-idea-votes-api
+- collection_type: open
+  name: Aha! Account backups Ideas API
+  slug: open-aha-ideas-api
+- collection_type: open
+  name: Aha! Account backups Ideas portal user subscriptions API
+  slug: open-aha-ideas-portal-user-subscriptions-api
+- collection_type: open
+  name: Aha! Account backups Ideas portal users API
+  slug: open-aha-ideas-portal-users-api
+- collection_type: open
+  name: Aha! Account backups Identity providers API
+  slug: open-aha-identity-providers-api
+- collection_type: open
+  name: Aha! Account backups Initiatives API
+  slug: open-aha-initiatives-api
+- collection_type: open
+  name: Aha! Account backups Integration changes API
+  slug: open-aha-integration-changes-api
+- collection_type: open
+  name: Aha! Account backups Integration fields API
+  slug: open-aha-integration-fields-api
+- collection_type: open
+  name: Aha! Account backups Integrations API
+  slug: open-aha-integrations-api
+- collection_type: open
+  name: Aha! Account backups Key results API
+  slug: open-aha-key-results-api
+- collection_type: open
+  name: Aha! Account backups Me API
+  slug: open-aha-me-api
+- collection_type: open
+  name: Aha! Account backups Notes API
+  slug: open-aha-notes-api
+- collection_type: open
+  name: Aha! Account backups Paid Seat Groups API
+  slug: open-aha-paid-seat-groups-api
+- collection_type: open
+  name: Aha! Account backups Personas API
+  slug: open-aha-personas-api
+- collection_type: open
+  name: Aha! Account backups Products API
+  slug: open-aha-products-api
+- collection_type: open
+  name: Aha! Account backups Record links API
+  slug: open-aha-record-links-api
+- collection_type: open
+  name: Aha! Account backups Release phases API
+  slug: open-aha-release-phases-api
+- collection_type: open
+  name: Aha! Account backups Releases API
+  slug: open-aha-releases-api
+- collection_type: open
+  name: Aha! Account backups Requirements API
+  slug: open-aha-requirements-api
+- collection_type: open
+  name: Aha! Account backups Roll up releases API
+  slug: open-aha-roll-up-releases-api
+- collection_type: open
+  name: Aha! Account backups Schedulable changes API
+  slug: open-aha-schedulable-changes-api
+- collection_type: open
+  name: Aha! Account backups Schedules API
+  slug: open-aha-schedules-api
+- collection_type: open
+  name: Aha! Account backups Strategic models API
+  slug: open-aha-strategic-models-api
+- collection_type: open
+  name: Aha! Account backups Strategic positionings API
+  slug: open-aha-strategic-positionings-api
+- collection_type: open
+  name: Aha! Account backups Strategic visions API
+  slug: open-aha-strategic-visions-api
+- collection_type: open
+  name: Aha! Account backups Team members API
+  slug: open-aha-team-members-api
+- collection_type: open
+  name: Aha! Account backups Team memberships API
+  slug: open-aha-team-memberships-api
+- collection_type: open
+  name: Aha! Account backups Teams API
+  slug: open-aha-teams-api
+- collection_type: open
+  name: Aha! Account backups Time tracking events API
+  slug: open-aha-time-tracking-events-api
+- collection_type: open
+  name: Aha! Account backups To-dos API
+  slug: open-aha-to-dos-api
+- collection_type: open
+  name: Aha! Account backups Users API
+  slug: open-aha-users-api
+- collection_type: open
+  name: Aha! Account backups Webhooks API
+  slug: open-aha-webhooks-api
+- collection_type: open
+  name: Aha! Account backups Workflows API
+  slug: open-aha-workflows-api
 - collection_type: open
   name: Aha! API
   slug: open-aha
@@ -277,7 +457,7 @@ overview: 'Aha.io publishes 59 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Aha.io''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 58
+random_paper: 0
 scopes:
 - name: Aha Scopes
   scope_count: 0
@@ -303,7 +483,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/screenshots/aha-2026-06-20T170530.png
 security:

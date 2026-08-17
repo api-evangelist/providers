@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,11 +59,35 @@ apis:
 - description: Active vehicle locations and assignments
   name: Sound Transit Vehicles API
   slug: sound-transit-vehicles-api
-artifact_total: 20
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sound Transit OneBusAway Agencies API
+  slug: open-sound-transit-agencies-api
+- collection_type: open
+  name: Sound Transit OneBusAway Agencies Arrivals And Departures API
+  slug: open-sound-transit-arrivals-and-departures-api
 - collection_type: open
   name: Sound Transit OneBusAway API
   slug: open-sound-transit-onebusaway
+- collection_type: open
+  name: Sound Transit OneBusAway Agencies Routes API
+  slug: open-sound-transit-routes-api
+- collection_type: open
+  name: Sound Transit OneBusAway Agencies Stops API
+  slug: open-sound-transit-stops-api
+- collection_type: open
+  name: Sound Transit OneBusAway Agencies System API
+  slug: open-sound-transit-system-api
+- collection_type: open
+  name: Sound Transit OneBusAway Agencies Trips API
+  slug: open-sound-transit-trips-api
+- collection_type: open
+  name: Sound Transit OneBusAway Agencies Vehicles API
+  slug: open-sound-transit-vehicles-api
 common:
 - group: agent
   title: ''
@@ -172,7 +196,7 @@ plans:
 - name: Sound Transit Plans Pricing
   plan_count: 3
   slug: sound-transit-plans-pricing
-random_paper: 51
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Sound Transit Rate Limits
@@ -220,7 +244,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/screenshots/sound-transit-2026-06-20T194217.png
 security:

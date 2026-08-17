@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,8 +47,14 @@ apis:
 - description: The Shopper API from Salesforce Commerce Cloud — 9 operation(s) for shopper.
   name: Salesforce Commerce Cloud Shopper API
   slug: salesforce-commerce-cloud-shopper-api
-artifact_total: 33
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesforce Commerce API (SCAPI) - Subset Shopper API
+  slug: open-salesforce-commerce-cloud-shopper-api
 - collection_type: open
   name: Salesforce Commerce API (SCAPI) - Shopper Subset
   slug: open-salesforce-commerce-cloud
@@ -137,7 +143,7 @@ overview: 'Salesforce Commerce Cloud publishes 1 API on the [APIs.io](https://ap
 
 
   Salesforce Commerce Cloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 11
+random_paper: 147
 score:
   band: thin
   composite: 36.1
@@ -158,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/screenshots/salesforce-commerce-cloud-2026-06-20T193346.png
 security:

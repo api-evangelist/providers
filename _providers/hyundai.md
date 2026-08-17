@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Hyundai's developer platform provides APIs for connected vehicle services including remote control, vehicle status, energy management, diagnostics, and other mobility features for partners and integra
@@ -88,7 +88,7 @@ plans:
 - name: Hyundai Plans Pricing
   plan_count: 3
   slug: hyundai-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Hyundai Rate Limits
@@ -106,7 +106,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyundai/refs/heads/main/screenshots/hyundai-2026-06-20T183205.png
 security:

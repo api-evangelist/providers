@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Datafy Data API is a beta JSON-over-HTTP reporting API that returns aggregated visitation analytics for a destination. It is RPC-shaped rather than resource-shaped: three fixed endpoints, with the'
@@ -154,7 +154,7 @@ plans:
 - name: Datafy Plans Pricing
   plan_count: 0
   slug: datafy-plans-pricing
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Datafy Rate Limits
@@ -162,7 +162,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.2
-  delta: 13.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -170,10 +170,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 13.1
+  previous_composite: 26.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafy/refs/heads/main/screenshots/datafy-2026-07-25T211320.png
 security:
 - kind: authentication

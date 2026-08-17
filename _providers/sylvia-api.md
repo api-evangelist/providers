@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Comments API from Sylvia API — 2 operation(s) for comments.
@@ -42,7 +42,32 @@ apis:
 - description: The Users API from Sylvia API — 3 operation(s) for users.
   name: Sylvia API Users API
   slug: sylvia-api-users-api
-artifact_total: 8
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sylvia Comments API
+  slug: open-sylvia-api-comments-api
+- collection_type: open
+  name: Sylvia Datasets API
+  slug: open-sylvia-api-datasets-api
+- collection_type: open
+  name: Sylvia Live API
+  slug: open-sylvia-api-live-api
+- collection_type: open
+  name: Sylvia Posts API
+  slug: open-sylvia-api-posts-api
+- collection_type: open
+  name: Sylvia Subreddits API
+  slug: open-sylvia-api-subreddits-api
+- collection_type: open
+  name: Sylvia Usage API
+  slug: open-sylvia-api-usage-api
+- collection_type: open
+  name: Sylvia Users API
+  slug: open-sylvia-api-users-api
 common:
 - group: company
   title: ''
@@ -68,7 +93,7 @@ overview: 'Sylvia API publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Sylvia API''s developer surface includes authentication and 2 more developer resources.'
-random_paper: 63
+random_paper: 129
 score:
   band: emerging
   composite: 25.6
@@ -88,7 +113,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

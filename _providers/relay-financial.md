@@ -28,10 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 5
+artifact_total: 6
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Relay API
   slug: open-relay-financial
@@ -88,7 +91,7 @@ plans:
 - name: Relay Financial Plans Pricing
   plan_count: 3
   slug: relay-financial-plans-pricing
-random_paper: 79
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Relay Financial Rate Limits
@@ -112,7 +115,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relay-financial/refs/heads/main/screenshots/relay-financial-2026-06-20T192825.png
 security:

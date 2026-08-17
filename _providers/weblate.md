@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 0
@@ -103,7 +103,74 @@ apis:
 - description: Added in version 4.0.
   name: Weblate users API
   slug: weblate-users-api
-artifact_total: 40
+artifact_total: 62
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Weblate's REST addons API
+  slug: open-weblate-addons-api
+- collection_type: open
+  name: Weblate's REST addons categories API
+  slug: open-weblate-categories-api
+- collection_type: open
+  name: Weblate's REST addons changes API
+  slug: open-weblate-changes-api
+- collection_type: open
+  name: Weblate's REST addons component-lists API
+  slug: open-weblate-component-lists-api
+- collection_type: open
+  name: Weblate's REST addons components API
+  slug: open-weblate-components-api
+- collection_type: open
+  name: Weblate's REST addons contributions API
+  slug: open-weblate-contributions-api
+- collection_type: open
+  name: Weblate's REST addons groups API
+  slug: open-weblate-groups-api
+- collection_type: open
+  name: Weblate's REST addons hooks API
+  slug: open-weblate-hooks-api
+- collection_type: open
+  name: Weblate's REST addons languages API
+  slug: open-weblate-languages-api
+- collection_type: open
+  name: Weblate's REST addons memory API
+  slug: open-weblate-memory-api
+- collection_type: open
+  name: Weblate's REST addons metrics API
+  slug: open-weblate-metrics-api
+- collection_type: open
+  name: Weblate's REST addons projects API
+  slug: open-weblate-projects-api
+- collection_type: open
+  name: Weblate's REST addons roles API
+  slug: open-weblate-roles-api
+- collection_type: open
+  name: Weblate's REST addons schema API
+  slug: open-weblate-schema-api
+- collection_type: open
+  name: Weblate's REST addons screenshots API
+  slug: open-weblate-screenshots-api
+- collection_type: open
+  name: Weblate's REST addons search API
+  slug: open-weblate-search-api
+- collection_type: open
+  name: Weblate's REST addons statistics API
+  slug: open-weblate-statistics-api
+- collection_type: open
+  name: Weblate's REST addons tasks API
+  slug: open-weblate-tasks-api
+- collection_type: open
+  name: Weblate's REST addons translations API
+  slug: open-weblate-translations-api
+- collection_type: open
+  name: Weblate's REST addons units API
+  slug: open-weblate-units-api
+- collection_type: open
+  name: Weblate's REST addons users API
+  slug: open-weblate-users-api
 common:
 - group: agent
   title: ''
@@ -225,7 +292,7 @@ plans:
 - name: Weblate Plans Pricing
   plan_count: 10
   slug: weblate-plans-pricing
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 3
   name: Weblate Rate Limits
@@ -259,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/screenshots/weblate-2026-06-20T201333.png
 security:

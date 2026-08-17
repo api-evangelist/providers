@@ -1,36 +1,58 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Contact sales
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://www.moonscale.com/
+  - https://vidlab7-d7584a5d.mintlify.app/api-reference/endpoint/createApiKey
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    openapi_examples: documented
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 52.5
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Moonscale Agentic Access
+  operation_count: 4
+  slug: moonscale-agentic-access
+  summary_line: 4 operations · 2 acting
+api_count: 1
+apis:
+- description: The Moonscale API covers two surfaces. The live-avatar surface creates single-participant meeting rooms hosted by a real-time AI sales avatar and returns the conversation transcript plus an AI-generat
+  name: Moonscale API
+  slug: moonscale-api
+artifact_total: 7
+asyncapis:
+- description: ''
+  name: Moonscale Webhooks
+  slug: moonscale-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/moonscale-agentic-access.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -55,36 +77,128 @@ common:
   title: ''
   type: TermsOfService
   url: https://www.moonscale.com/legal/terms-and-conditions
+- group: other
+  title: ''
+  type: Imprint
+  url: https://www.moonscale.com/legal/imprint
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://vidlab7-d7584a5d.mintlify.app/api-reference/introduction
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://vidlab7-d7584a5d.mintlify.app/api-reference/endpoint/liveAvatarsCreateRoom
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://vidlab7-d7584a5d.mintlify.app/api-reference/endpoint/createApiKey
+- group: start
+  title: ''
+  type: Login
+  url: https://app.moonscale.com
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/moonscale-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/moonscale-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/moonscale-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/moonscale-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/moonscale-data-model.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/moonscale-examples.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/moonscale-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/moonscale-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/moonscale-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/moonscale-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/moonscale-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/moonscale-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moonscale-api-overlay.yaml
 created: '2026-07-17'
-description: Moonscale is an AI sales advisor platform that automates top-of-funnel sales conversations and lead qualification with AI-powered sales avatars. Its avatars pitch products, qualify inbound buyers, handle objections, book meetings, and follow up around the clock across websites, landing pages, emails, and apps, with support for 130+ languages and CRM connections to Salesforce, HubSpot, Pipedrive, Slack, and Clay. Moonscale markets a no-code, "no dev work required" deployment and, as of this enrichment pass, publishes no public API, SDK, developer portal, or OpenAPI surface. Backed by EQT Ventures. Added to the API Evangelist network as a portfolio company profile.
+description: 'Moonscale (formerly VidLab7) is a Munich-based AI sales advisor platform whose "Digital Sales Human" avatars automate top-of-funnel sales conversations — pitching products, qualifying inbound buyers, running interactive demos, handling objections, booking meetings and following up around the clock across websites, landing pages, emails and apps, with support for 130+ languages and CRM connections to Salesforce, HubSpot, Pipedrive, Slack and Clay. Moonscale does publish a real, machine-readable API: an OpenAPI 3.0.1 document titled "Moonscale API" served from its Mintlify documentation site, covering four operations across two surfaces — live-avatar meeting rooms with conversation transcripts and summaries (/api/v1/), and asynchronous studio-avatar video generation with a caller-registered completion webhook (/api/studio-avatar/). Requests authenticate with an x-api-key header against https://api-prd.moonscale.com; keys are issued from Moonscale Studio, but API access is feature-flagged
+  per account and must be requested from support. There is no first-party SDK, MCP server, agent card, status page, changelog, published rate limit or published price. Backed by EQT Ventures.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moonscale.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Moonscale
 nav: Providers
 network: true
-overview: 'Moonscale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales, Sales Automation, and Lead Generation.
+overview: 'Moonscale publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales, Sales Automation, and Lead Generation.
 
 
-  Moonscale''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 1
+  The Moonscale catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Moonscale''s developer surface includes engineering blog, support, documentation, API reference, getting-started guide, authentication, code examples, and 19 more developer resources.'
+plans:
+- name: Moonscale Plans Pricing
+  plan_count: 0
+  slug: moonscale-plans-pricing
+random_paper: 67
+rate_limits:
+- limit_count: 0
+  name: Moonscale Rate Limits
+  slug: moonscale-rate-limits
 score:
-  band: minimal
-  composite: 10.5
-  delta: 0.0
+  band: developing
+  composite: 42.0
+  delta: 31.5
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 34.2
+    contract_quality: 56.0
+    developer_ergonomics: 50.0
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 7.9
   previous_composite: 10.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/screenshots/moonscale-2026-08-07T184246.png
 security:
+- kind: authentication
+  name: Moonscale Authentication
+  slug: moonscale-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Moonscale Domain Security
   slug: moonscale-domain-security
@@ -99,5 +213,9 @@ tags:
 - AI Agents
 - Conversational AI
 - CRM
+- Video Generation
+- Avatars
+- Speech
+- Germany
 website: https://www.moonscale.com/
 ---

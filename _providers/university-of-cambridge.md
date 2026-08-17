@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,23 @@ apis:
 - description: 'Methods for querying and manipulating people. #### Notes on the fetch parameter All methods that return people, institutions or groups also accept an optional `fetch` parameter that may be used to req'
   name: University of Cambridge person API
   slug: university-of-cambridge-person-api
-artifact_total: 25
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lookup/Ibis web service group API
+  slug: open-university-of-cambridge-group-api
+- collection_type: open
+  name: Lookup/ web service group ibis API
+  slug: open-university-of-cambridge-ibis-api
+- collection_type: open
+  name: Lookup/Ibis web service group institution API
+  slug: open-university-of-cambridge-institution-api
+- collection_type: open
+  name: Lookup/Ibis web service group person API
+  slug: open-university-of-cambridge-person-api
 common:
 - group: agent
   title: ''
@@ -172,7 +188,7 @@ plans:
 - name: University Of Cambridge Plans Pricing
   plan_count: 2
   slug: university-of-cambridge-plans-pricing
-random_paper: 71
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: University Of Cambridge Rate Limits
@@ -214,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/screenshots/university-of-cambridge-2026-06-20T200140.png
 security:

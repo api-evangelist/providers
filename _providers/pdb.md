@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -59,7 +59,23 @@ apis:
 - description: The Suggest Service API from RCSB PDB — 1 operation(s) for suggest service.
   name: RCSB PDB Suggest Service API
   slug: pdb-suggest-service-api
-artifact_total: 13
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ModelServer General API
+  slug: open-pdb-general-api
+- collection_type: open
+  name: ModelServer General Metadata Service API
+  slug: open-pdb-metadata-service-api
+- collection_type: open
+  name: ModelServer General Search Service API
+  slug: open-pdb-search-service-api
+- collection_type: open
+  name: ModelServer General Suggest Service API
+  slug: open-pdb-suggest-service-api
 common:
 - group: agent
   title: ''
@@ -149,7 +165,7 @@ plans:
 - name: Pdb Plans Pricing
   plan_count: 1
   slug: pdb-plans-pricing
-random_paper: 70
+random_paper: 12
 rate_limits:
 - limit_count: 7
   name: Pdb Rate Limits
@@ -180,7 +196,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/screenshots/pdb-2026-06-20T191514.png
 security:

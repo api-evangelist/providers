@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Retrieve food records by FDC ID
   name: USDA Agricultural Research Service (ARS) Foods API
   slug: usda-agricultural-research-service-ars--foods-api
-artifact_total: 18
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USDA Ag Data Commons CKAN Datasets API
+  slug: open-usda-agricultural-research-service-ars--datasets-api
+- collection_type: open
+  name: USDA Ag Data Commons CKAN Datasets Food Search API
+  slug: open-usda-agricultural-research-service-ars--food-search-api
+- collection_type: open
+  name: USDA Ag Data Commons CKAN Datasets Foods API
+  slug: open-usda-agricultural-research-service-ars--foods-api
 - collection_type: open
   name: USDA Ag Data Commons CKAN API
   slug: open-usda-ars-ag-data-commons
@@ -120,7 +132,7 @@ plans:
 - name: Usda Agricultural Research Service Ars  Plans Pricing
   plan_count: 3
   slug: usda-agricultural-research-service-ars--plans-pricing
-random_paper: 33
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Usda Agricultural Research Service Ars  Rate Limits
@@ -168,7 +180,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/screenshots/usda-agricultural-research-service-ars--2026-06-20T200650.png
 security:

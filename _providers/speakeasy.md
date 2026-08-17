@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 3
@@ -88,7 +88,7 @@ apis:
 - description: REST APIs for managing Workspaces (speakeasy tenancy)
   name: Speakeasy Workspaces API
   slug: speakeasy-workspaces-api
-artifact_total: 148
+artifact_total: 162
 collections:
 - collection_type: postman
   name: Speakeasy Artifacts API
@@ -129,6 +129,48 @@ collections:
 - collection_type: postman
   name: Speakeasy Artifacts Workspaces API
   slug: postman-speakeasy-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Speakeasy Artifacts API
+  slug: open-speakeasy-artifacts-api
+- collection_type: open
+  name: Speakeasy Artifacts Auth API
+  slug: open-speakeasy-auth-api
+- collection_type: open
+  name: Speakeasy Artifacts CodeSamples API
+  slug: open-speakeasy-codesamples-api
+- collection_type: open
+  name: Speakeasy Artifacts Events API
+  slug: open-speakeasy-events-api
+- collection_type: open
+  name: Speakeasy Artifacts Github API
+  slug: open-speakeasy-github-api
+- collection_type: open
+  name: Speakeasy Artifacts Organizations API
+  slug: open-speakeasy-organizations-api
+- collection_type: open
+  name: Speakeasy Artifacts PublishingTokens API
+  slug: open-speakeasy-publishingtokens-api
+- collection_type: open
+  name: Speakeasy Artifacts Reports API
+  slug: open-speakeasy-reports-api
+- collection_type: open
+  name: Speakeasy Artifacts SchemaStore API
+  slug: open-speakeasy-schemastore-api
+- collection_type: open
+  name: Speakeasy Artifacts ShortURLs API
+  slug: open-speakeasy-shorturls-api
+- collection_type: open
+  name: Speakeasy Artifacts Subscriptions API
+  slug: open-speakeasy-subscriptions-api
+- collection_type: open
+  name: Speakeasy Artifacts Suggest API
+  slug: open-speakeasy-suggest-api
+- collection_type: open
+  name: Speakeasy Artifacts Workspaces API
+  slug: open-speakeasy-workspaces-api
 - collection_type: open
   name: Speakeasy API
   slug: open-speakeasy
@@ -560,7 +602,7 @@ plans:
 - name: Speakeasy Plans Pricing
   plan_count: 5
   slug: speakeasy-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Speakeasy Rate Limits
@@ -602,7 +644,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

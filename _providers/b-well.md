@@ -14,12 +14,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-12'
+  score: 60.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,11 +44,27 @@ apis:
 - description: The Webhook API from b.well — 1 operation(s) for webhook.
   name: b.well Webhook API
   slug: b-well-webhook-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: B Well Webhooks
   slug: b-well-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Client Webhook API
+  slug: open-b-well-client-webhook-api
+- collection_type: open
+  name: bwell User Data Operations
+  slug: open-b-well-user-data-operations
+- collection_type: open
+  name: bwell User Data Operations Users API
+  slug: open-b-well-users-api
+- collection_type: open
+  name: Client Webhook API
+  slug: open-b-well-webhook-api
 common:
 - group: other
   title: ''
@@ -206,6 +222,22 @@ common:
   title: ''
   type: Webhooks
   url: asyncapi/b-well-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/b-well-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/b-well-rate-limits.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/b-well-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/b-well-trust-center.yml
 created: '2026-08-06'
 description: b.well Connected Health is a Baltimore-based digital health platform that unifies a person's fragmented medical, pharmacy, claims, wearable and lab data into a single FHIR-native longitudinal health record, then exposes that record to partner applications through a developer platform. The company operates a consumer-mediated health data network spanning millions of providers, health plans, HIEs/HINs, TEFCA QHINs and CMS-aligned networks, and licenses it to health systems, payers, employers and retail health brands who embed it in their own apps. Its developer surface is built around four Health SDKs (Web/TypeScript, Android/Kotlin, iOS/Swift and an AI SDK that speaks Model Context Protocol), a federated GraphQL gateway, REST endpoints for user data operations and webhooks, and a FHIR R4 server (the open-source Helix FHIR Server) supporting $everything and International Patient Summary retrieval. Authentication is OAuth 2.0 throughout — token exchange with OIDC for end-user context,
   client credentials for system-to-system access, and HMAC-SHA512 request signing on the user data operations API.
@@ -215,7 +247,7 @@ mcp_servers:
 - description: ''
   name: b-well-mcp.yml
   slug: b-well-mcpyml
-modified: '2026-08-06'
+modified: '2026-08-15'
 name: b.well
 nav: Providers
 network: true
@@ -225,8 +257,16 @@ overview: 'b.well publishes 2 APIs on the [APIs.io](https://apis.io/) network: U
   The b.well catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  b.well''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 32 more developer resources.'
-random_paper: 99
+  b.well''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 36 more developer resources.'
+plans:
+- name: B Well Plans Pricing
+  plan_count: 0
+  slug: b-well-plans-pricing
+random_paper: 132
+rate_limits:
+- limit_count: 0
+  name: B Well Rate Limits
+  slug: b-well-rate-limits
 scopes:
 - name: B Well Scopes
   scope_count: 4
@@ -234,10 +274,10 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 61.9
+  delta: 3.6
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 50.0
     contract_quality: 63.1
     developer_ergonomics: 75.5
     discoverability: 92.6
@@ -259,9 +299,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 67.5
+    score: 73.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/screenshots/b-well-2026-08-07T162052.png
 security:
@@ -277,6 +317,10 @@ security:
   name: B Well Vulnerability Disclosure
   slug: b-well-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: B Well Trust Center
+  slug: b-well-trust-center
+  summary_line: HITRUST, NIST Cybersecurity Framework (CSF), HIPAA
 slug: b-well
 tags:
 - Company

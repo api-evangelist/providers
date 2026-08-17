@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Add training images to an OCR model from public URLs, then start training.
   name: Nanonets Upload Training URLs and Train
   slug: nanonets-upload-training-urls-and-train-workflow
-artifact_total: 106
+artifact_total: 115
 collections:
 - collection_type: postman
   name: Nanonets External Integrations API
@@ -121,17 +121,44 @@ collections:
   name: Nanonets OCR API
   slug: postman-nanonets-ocr-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Nanonets External Integrations API
   slug: open-nanonets-external-integrations-api
+- collection_type: open
+  name: Nanonets External Integrations File Assignment API
+  slug: open-nanonets-file-assignment-api
+- collection_type: open
+  name: Nanonets External Integrations File Delete API
+  slug: open-nanonets-file-delete-api
+- collection_type: open
+  name: Nanonets External Integrations File Export API
+  slug: open-nanonets-file-export-api
 - collection_type: open
   name: Nanonets File Management API
   slug: open-nanonets-file-management-api
 - collection_type: open
+  name: Nanonets External Integrations File Update API
+  slug: open-nanonets-file-update-api
+- collection_type: open
   name: Nanonets Image Classification API
   slug: open-nanonets-image-classification-api
 - collection_type: open
+  name: Nanonets External Integrations Image Classification Predict API
+  slug: open-nanonets-image-classification-predict-api
+- collection_type: open
   name: Nanonets OCR API
   slug: open-nanonets-ocr-api
+- collection_type: open
+  name: Nanonets External Integrations OCR Predict API
+  slug: open-nanonets-ocr-predict-api
+- collection_type: open
+  name: Nanonets External Integrations OCR Retrieve API
+  slug: open-nanonets-ocr-retrieve-api
+- collection_type: open
+  name: Nanonets External Integrations OCR Train API
+  slug: open-nanonets-ocr-train-api
 common:
 - group: agent
   title: ''
@@ -504,7 +531,7 @@ plans:
 - name: Nanonets Plans Pricing
   plan_count: 3
   slug: nanonets-plans-pricing
-random_paper: 30
+random_paper: 125
 rate_limits:
 - limit_count: 3
   name: Nanonets Rate Limits
@@ -546,7 +573,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/screenshots/nanonets-2026-06-20T185940.png
 security:

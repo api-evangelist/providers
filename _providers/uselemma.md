@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Artifacts API from Lemma — 6 operation(s) for artifacts.
@@ -43,11 +43,27 @@ apis:
 - description: The Traces API from Lemma — 17 operation(s) for traces.
   name: Lemma Traces API
   slug: uselemma-traces-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Uselemma Webhooks
   slug: uselemma-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lemma Platform Artifacts API
+  slug: open-uselemma-artifacts-api
+- collection_type: open
+  name: Lemma Platform Artifacts Issues API
+  slug: open-uselemma-issues-api
+- collection_type: open
+  name: Lemma Platform Artifacts Projects API
+  slug: open-uselemma-projects-api
+- collection_type: open
+  name: Lemma Platform Artifacts Traces API
+  slug: open-uselemma-traces-api
 common:
 - group: other
   title: ''
@@ -172,7 +188,7 @@ overview: 'Lemma publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lemma''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, authentication, and 20 more developer resources.'
-random_paper: 17
+random_paper: 112
 score:
   band: developing
   composite: 46.4
@@ -195,7 +211,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

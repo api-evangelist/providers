@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 3
@@ -93,8 +93,65 @@ apis:
 - description: '[Usage events](https://docs.metronome.com/connecting-metronome/send-usage-data/) are the basis for billable metrics. Use these endpoints to send usage events to Metronome and retrieve aggregated event'
   name: Metronome Usage API
   slug: metronome-usage-api
-artifact_total: 26
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Metronome Alerts API
+  slug: open-metronome-alerts-api
+- collection_type: open
+  name: Metronome Alerts Billable Metrics API
+  slug: open-metronome-billable-metrics-api
+- collection_type: open
+  name: Metronome Alerts Contracts API
+  slug: open-metronome-contracts-api
+- collection_type: open
+  name: Metronome Alerts Credits and commits API
+  slug: open-metronome-credits-and-commits-api
+- collection_type: open
+  name: Metronome Alerts Custom fields API
+  slug: open-metronome-custom-fields-api
+- collection_type: open
+  name: Metronome Alerts Customers API
+  slug: open-metronome-customers-api
+- collection_type: open
+  name: Metronome Alerts Integrations API
+  slug: open-metronome-integrations-api
+- collection_type: open
+  name: Metronome Alerts Invoices API
+  slug: open-metronome-invoices-api
+- collection_type: open
+  name: Metronome Alerts Named schedules API
+  slug: open-metronome-named-schedules-api
+- collection_type: open
+  name: Metronome Alerts Notifications API
+  slug: open-metronome-notifications-api
+- collection_type: open
+  name: Metronome Alerts Packages API
+  slug: open-metronome-packages-api
+- collection_type: open
+  name: Metronome Alerts Payments API
+  slug: open-metronome-payments-api
+- collection_type: open
+  name: Metronome Alerts Products API
+  slug: open-metronome-products-api
+- collection_type: open
+  name: Metronome Alerts Rate cards API
+  slug: open-metronome-rate-cards-api
+- collection_type: open
+  name: Metronome Alerts Security API
+  slug: open-metronome-security-api
+- collection_type: open
+  name: Metronome Alerts Settings API
+  slug: open-metronome-settings-api
+- collection_type: open
+  name: Metronome Alerts Threshold billing API
+  slug: open-metronome-threshold-billing-api
+- collection_type: open
+  name: Metronome Alerts Usage API
+  slug: open-metronome-usage-api
 - collection_type: open
   name: Metronome
   slug: open-metronome
@@ -163,7 +220,7 @@ plans:
 - name: Metronome Plans Pricing
   plan_count: 3
   slug: metronome-plans-pricing
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Metronome Rate Limits
@@ -188,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/screenshots/metronome-2026-06-20T185311.png
 security:

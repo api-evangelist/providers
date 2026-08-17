@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Manage human and machine users
   name: Zitadel Users API
   slug: zitadel-users-api
-artifact_total: 93
+artifact_total: 101
 collections:
 - collection_type: postman
   name: Zitadel Management Applications API
@@ -96,8 +96,32 @@ collections:
   name: Zitadel Management Applications Users API
   slug: postman-zitadel-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zitadel Management Applications API
+  slug: open-zitadel-applications-api
+- collection_type: open
+  name: Zitadel Management Applications Identity Providers API
+  slug: open-zitadel-identity-providers-api
+- collection_type: open
   name: Zitadel Management API
   slug: open-zitadel-management
+- collection_type: open
+  name: Zitadel Management Applications Organizations API
+  slug: open-zitadel-organizations-api
+- collection_type: open
+  name: Zitadel Management Applications Policies API
+  slug: open-zitadel-policies-api
+- collection_type: open
+  name: Zitadel Management Applications Projects API
+  slug: open-zitadel-projects-api
+- collection_type: open
+  name: Zitadel Management Applications Roles API
+  slug: open-zitadel-roles-api
+- collection_type: open
+  name: Zitadel Management Applications Users API
+  slug: open-zitadel-users-api
 common:
 - group: build
   title: ''
@@ -388,7 +412,7 @@ plans:
 - name: Zitadel Plans Pricing
   plan_count: 3
   slug: zitadel-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Zitadel Rate Limits
@@ -430,7 +454,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/screenshots/zitadel-2026-06-20T201924.png
 security:

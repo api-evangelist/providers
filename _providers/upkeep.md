@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Work order creation and management
   name: UpKeep Work Orders API
   slug: upkeep-work-orders-api
-artifact_total: 26
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UpKeep Assets API
+  slug: open-upkeep-assets-api
+- collection_type: open
+  name: UpKeep Assets Authentication API
+  slug: open-upkeep-authentication-api
+- collection_type: open
+  name: UpKeep Assets Locations API
+  slug: open-upkeep-locations-api
+- collection_type: open
+  name: UpKeep Assets Meters API
+  slug: open-upkeep-meters-api
+- collection_type: open
+  name: UpKeep Assets Parts API
+  slug: open-upkeep-parts-api
+- collection_type: open
+  name: UpKeep Assets Preventive Maintenance API
+  slug: open-upkeep-preventive-maintenance-api
+- collection_type: open
+  name: UpKeep Assets Purchase Orders API
+  slug: open-upkeep-purchase-orders-api
+- collection_type: open
+  name: UpKeep Assets Requests API
+  slug: open-upkeep-requests-api
+- collection_type: open
+  name: UpKeep Assets Webhooks API
+  slug: open-upkeep-webhooks-api
+- collection_type: open
+  name: UpKeep Assets Work Orders API
+  slug: open-upkeep-work-orders-api
 - collection_type: open
   name: UpKeep API
   slug: open-upkeep
@@ -165,7 +198,7 @@ plans:
 - name: Upkeep Plans Pricing
   plan_count: 3
   slug: upkeep-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Upkeep Rate Limits
@@ -207,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/screenshots/upkeep-2026-06-20T200501.png
 security:

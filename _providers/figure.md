@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: The Payment History V2 API from Figure — 1 operation(s) for payment history v2.
   name: Figure Payment History V2 API
   slug: figure-payment-history-v2-api
-artifact_total: 13
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Figure Webhooks
   slug: figure-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HELOC Inquiries Encryption API
+  slug: open-figure-encryption-api
+- collection_type: open
+  name: HELOC Inquiries Encryption HELOC application requests API
+  slug: open-figure-heloc-application-requests-api
+- collection_type: open
+  name: HELOC Inquiries Encryption HELOC Offers API
+  slug: open-figure-heloc-offers-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Loan Originator requests API
+  slug: open-figure-loan-originator-requests-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Loan Tape V1 API
+  slug: open-figure-loan-tape-v1-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Loan Tape V2 API
+  slug: open-figure-loan-tape-v2-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Payment History V1 API
+  slug: open-figure-payment-history-v1-api
+- collection_type: open
+  name: HELOC Inquiries Encryption Payment History V2 API
+  slug: open-figure-payment-history-v2-api
 common:
 - group: company
   title: ''
@@ -199,7 +227,7 @@ overview: 'Figure publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Figure''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 42
+random_paper: 46
 score:
   band: developing
   composite: 48.1
@@ -223,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/screenshots/figure-2026-07-25T214439.png
 security:

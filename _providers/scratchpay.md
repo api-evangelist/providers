@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,11 +44,21 @@ apis:
 - description: The Borrower application result API from Scratchpay — 1 operation(s) for borrower application result.
   name: Scratchpay Borrower application result API
   slug: scratchpay-borrower-application-result-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Scratchpay Partner Webhooks
   slug: scratchpay-partner-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Partner Borrower application API
+  slug: open-scratchpay-borrower-application-api
+- collection_type: open
+  name: Partner Borrower application Borrower application result API
+  slug: open-scratchpay-borrower-application-result-api
 common:
 - group: other
   title: ''
@@ -153,7 +163,7 @@ overview: 'Scratchpay publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Scratchpay''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 114
+random_paper: 31
 score:
   band: thin
   composite: 37.7
@@ -182,7 +192,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

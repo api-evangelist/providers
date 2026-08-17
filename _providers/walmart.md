@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -114,7 +114,83 @@ apis:
 - description: The Utilities API from Walmart — 4 operation(s) for utilities.
   name: Walmart Utilities API
   slug: walmart-utilities-api
-artifact_total: 44
+artifact_total: 69
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations API
+  slug: open-walmart-assortment-recommendations-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Authorization API
+  slug: open-walmart-authorization-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations DSV Cost API
+  slug: open-walmart-dsv-cost-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations DSV Orders API
+  slug: open-walmart-dsv-orders-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Feeds API
+  slug: open-walmart-feeds-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Fulfillment API
+  slug: open-walmart-fulfillment-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Insight API
+  slug: open-walmart-insight-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Inventory API
+  slug: open-walmart-inventory-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Items API
+  slug: open-walmart-items-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Lag Time API
+  slug: open-walmart-lag-time-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Listing Quality API
+  slug: open-walmart-listing-quality-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Notifications API
+  slug: open-walmart-notifications-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations On-Request Report API
+  slug: open-walmart-on-request-report-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations On Request Reports API
+  slug: open-walmart-on-request-reports-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Orders API
+  slug: open-walmart-orders-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Pre-Generated Reports API
+  slug: open-walmart-pre-generated-reports-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Prices API
+  slug: open-walmart-prices-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Promotions API
+  slug: open-walmart-promotions-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Reports API
+  slug: open-walmart-reports-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Returns/Refunds API
+  slug: open-walmart-returns-refunds-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Rules API
+  slug: open-walmart-rules-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Settings API
+  slug: open-walmart-settings-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Ship with Walmart API
+  slug: open-walmart-ship-with-walmart-api
+- collection_type: open
+  name: Walmart Cost Management Assortment Recommendations Utilities API
+  slug: open-walmart-utilities-api
 common:
 - group: agent
   title: ''
@@ -246,7 +322,7 @@ press:
 - date: '2026-05-25'
   title: Walmart Partners with OpenAI to Create AI-First Shopping ...
   url: https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Walmart Rate Limits
@@ -288,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png
 security:

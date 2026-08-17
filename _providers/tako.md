@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: The tako API from Tako — 7 operation(s) for tako.
   name: Tako tako API
   slug: tako-tako-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Knowledge Search agent API
+  slug: open-tako-agent-api
+- collection_type: open
+  name: Knowledge Search agent tako API
+  slug: open-tako-tako-api
 common:
 - group: start
   title: ''
@@ -188,7 +198,7 @@ overview: 'Tako publishes 2 APIs on the [APIs.io](https://apis.io/) network: age
 
 
   Tako''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
-random_paper: 71
+random_paper: 133
 rate_limits:
 - limit_count: 1
   name: Tako Rate Limits
@@ -216,7 +226,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

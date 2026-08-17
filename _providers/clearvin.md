@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Report API from ClearVIN — 1 operation(s) for report.
   name: ClearVIN Report API
   slug: clearvin-report-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClearVIN Vendor Authentication API
+  slug: open-clearvin-authentication-api
+- collection_type: open
+  name: ClearVIN Vendor Authentication Report API
+  slug: open-clearvin-report-api
 - collection_type: open
   name: ClearVIN Vendor API
   slug: open-clearvin
@@ -107,7 +116,7 @@ plans:
 - name: Clearvin Plans Pricing
   plan_count: 5
   slug: clearvin-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 4
   name: Clearvin Rate Limits
@@ -132,7 +141,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/screenshots/clearvin-2026-07-25T205553.png
 security:

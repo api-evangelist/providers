@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,17 +18,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-12'
+  score: 38.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The user API from QuotaPath — 1 operation(s) for user.
   name: QuotaPath user API
   slug: quotapath-user-api
-artifact_total: 12
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QuotaPath data API
+  slug: open-quotapath-data-api
+- collection_type: open
+  name: QuotaPath data deal API
+  slug: open-quotapath-deal-api
+- collection_type: open
+  name: QuotaPath data path API
+  slug: open-quotapath-path-api
+- collection_type: open
+  name: QuotaPath data payout API
+  slug: open-quotapath-payout-api
+- collection_type: open
+  name: QuotaPath data plan API
+  slug: open-quotapath-plan-api
+- collection_type: open
+  name: QuotaPath data team API
+  slug: open-quotapath-team-api
+- collection_type: open
+  name: QuotaPath data user API
+  slug: open-quotapath-user-api
 common:
 - group: agent
   title: ''
@@ -165,6 +190,26 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.quotapath.com/privacy/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.quotapath.com/en/articles/8097859-api-documentation
+- group: build
+  title: ''
+  type: Packages
+  url: packages/quotapath-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/quotapath-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/quotapath-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/quotapath-problem-types.yml
 created: '2026-07-17'
 description: QuotaPath is a sales commission tracking and compensation management platform that helps revenue, finance, and sales operations teams design, automate, and audit variable-pay programs. It sits as a system of record between a company's CRM, finance stack, and payroll — pulling deals from HubSpot and Salesforce, applying commission plans, quotas, and ASC 606 ledger logic, and syncing payouts to accounting and HRIS systems like QuickBooks, NetSuite, and Rippling. QuotaPath exposes a REST API (available on the Premium tier) for pushing deals, reading payouts, managing quota assignments, and building custom CRM and payroll integrations. The API uses token-based API-key authentication over https://api.quotapath.com/v1 with limit/offset pagination.
 image: https://storage.googleapis.com/quotapath-prod-app/qp_logos/logo_primary.png
@@ -173,23 +218,31 @@ mcp_servers:
 - description: ''
   name: quotapath-mcp.yml
   slug: quotapath-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: QuotaPath
 nav: Providers
 network: true
 overview: 'QuotaPath publishes 7 APIs on the [APIs.io](https://apis.io/) network, including data API, deal API, path API, and 4 more. Tagged areas include Company, Sales Commissions, Compensation Management, Sales Operations, and Revenue Operations.
 
 
-  QuotaPath''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 23
+  QuotaPath''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Quotapath Plans Pricing
+  plan_count: 3
+  slug: quotapath-plans-pricing
+random_paper: 89
+rate_limits:
+- limit_count: 0
+  name: Quotapath Rate Limits
+  slug: quotapath-rate-limits
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 51.7
+  delta: 8.5
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 47.5
-    developer_ergonomics: 45.1
+    developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
@@ -205,8 +258,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Quotapath Authentication

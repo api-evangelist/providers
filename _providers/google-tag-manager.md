@@ -12,12 +12,13 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-12'
+  score: 50.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -103,14 +104,41 @@ arazzos:
 - description: Freeze a workspace into a container version and publish it live.
   name: Google Tag Manager Version and Publish a Workspace
   slug: google-tag-manager-version-and-publish-workspace-workflow
-artifact_total: 171
+artifact_total: 181
 collections:
 - collection_type: postman
   name: Google Tag Manager API
   slug: postman-google-tag-manager-api-v2
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Tag Manager Accounts API
+  slug: open-google-tag-manager-accounts-api
+- collection_type: open
   name: Google Tag Manager API
   slug: open-google-tag-manager-api-v2
+- collection_type: open
+  name: Google Tag Manager Accounts Containers API
+  slug: open-google-tag-manager-containers-api
+- collection_type: open
+  name: Google Tag Manager Accounts Tagmanager API
+  slug: open-google-tag-manager-tagmanager-api
+- collection_type: open
+  name: Google Tag Manager Accounts Triggers API
+  slug: open-google-tag-manager-triggers-api
+- collection_type: open
+  name: Google Tag Manager Accounts User Permissions API
+  slug: open-google-tag-manager-user-permissions-api
+- collection_type: open
+  name: Google Tag Manager Accounts Variables API
+  slug: open-google-tag-manager-variables-api
+- collection_type: open
+  name: Google Tag Manager Accounts Versions API
+  slug: open-google-tag-manager-versions-api
+- collection_type: open
+  name: Google Tag Manager Accounts Workspaces API
+  slug: open-google-tag-manager-workspaces-api
 common:
 - group: agent
   title: ''
@@ -128,6 +156,54 @@ common:
   title: ''
   type: MCPServer
   url: mcp/google-tag-manager-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/google-tag-manager-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/google-tag-manager-sandbox.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-tag-manager-security.txt
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/google-tag-manager-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://support.google.com/marketingplatform/answer/9013962
+- group: auth
+  title: ''
+  type: Security
+  url: https://g.co/vrp
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-tag-manager-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-tag-manager-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://marketingplatform.google.com/about/tag-manager/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/tag-platform/tag-manager/api/reference/rest
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/googleapis
 - group: agent
   title: ''
   type: LLMsTxt
@@ -135,7 +211,35 @@ common:
 - group: other
   title: ''
   type: Overlay
-  url: overlays/google-tag-manager-api-v2-overlay.yaml
+  url: overlays/google-tag-manager-accounts-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-tag-manager-containers-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-tag-manager-tagmanager-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-tag-manager-triggers-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-tag-manager-user-permissions-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-tag-manager-variables-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-tag-manager-versions-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-tag-manager-workspaces-api-overlay.yaml
 - group: design
   title: ''
   type: Conformance
@@ -260,10 +364,6 @@ common:
   title: ''
   type: Support
   url: https://support.google.com/tagmanager
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.cloud.google.com/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -301,7 +401,7 @@ common:
   type: SpectralRules
   url: rules/google-tag-manager-spectral-rules.yml
 created: '2024-01-01'
-description: Google Tag Manager is a tag management system that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.
+description: 'Google Tag Manager is a tag management system that lets teams deploy and update measurement codes and related code fragments — collectively known as tags — on a website, mobile app, or server-side container without editing site code on every change. The Tag Manager API v2 exposes that configuration programmatically: accounts, containers, workspaces, tags, triggers, variables, container versions, and user permissions, across web, iOS, Android, AMP, and server-side usage contexts. Changes are staged in a workspace, frozen into an immutable container version, and then published to live traffic, with fingerprint-based optimistic concurrency guarding every write. Access is OAuth 2.0 only, with seven granular scopes separating read, edit, publish, and user-management rights.'
 examples:
 - key_count: 1
   name: Google Tag Manager V2 Account Access Example
@@ -701,7 +801,7 @@ mcp_servers:
 - description: ''
   name: google-tag-manager-mcp.yml
   slug: google-tag-manager-mcpyml
-modified: '2026-06-20'
+modified: '2026-08-13'
 name: Google Tag Manager
 nav: Providers
 network: true
@@ -711,14 +811,14 @@ overview: 'Google Tag Manager publishes 8 APIs on the [APIs.io](https://apis.io/
   The Google Tag Manager catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Tag Manager''s developer surface includes changelog, authentication, developer portal, getting-started guide, documentation, engineering blog, support, and 40 more developer resources.'
+  Google Tag Manager''s developer surface includes sandbox, pricing, API reference, changelog, authentication, developer portal, getting-started guide, and 58 more developer resources.'
 plans:
 - name: Google Tag Manager Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: google-tag-manager-plans-pricing
-random_paper: 94
+random_paper: 135
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Google Tag Manager Rate Limits
   slug: google-tag-manager-rate-limits
 rules:
@@ -744,16 +844,16 @@ scopes:
   slug: google-tag-manager-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 62.8
-  delta: 0.0
+  band: exemplar
+  composite: 72.0
+  delta: 9.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 73.7
     contract_quality: 73.9
-    developer_ergonomics: 58.7
-    discoverability: 90.7
+    developer_ergonomics: 78.3
+    discoverability: 100.0
     governance: 69.8
-    operational_transparency: 39.5
+    operational_transparency: 36.8
   previous_composite: 62.8
   provenance:
     agentic_access: derived
@@ -765,8 +865,8 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:
 - kind: authentication
@@ -781,6 +881,10 @@ security:
   name: Google Tag Manager Vulnerability Disclosure
   slug: google-tag-manager-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Google Tag Manager Trust Center
+  slug: google-tag-manager-trust-center
+  summary_line: ISO/IEC 27001
 slug: google-tag-manager
 tags:
 - Analytics

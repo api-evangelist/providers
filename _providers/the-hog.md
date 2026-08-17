@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Waitlist (beta launch full)
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
+  - https://thehog.ai/pricing
   - authentication
-  trial: false
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-native
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 64.2
-  scored_at: '2026-08-12'
+  score: 67.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -62,7 +63,35 @@ apis:
 - description: The Search API from The Hog — 2 operation(s) for search.
   name: The Hog Search API
   slug: the-hog-search-api
-artifact_total: 13
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Hog Company Search API
+  slug: open-the-hog-company-search-api
+- collection_type: open
+  name: The Hog Company Search Deep Research API
+  slug: open-the-hog-deep-research-api
+- collection_type: open
+  name: The Hog Company Search Enrichments API
+  slug: open-the-hog-enrichments-api
+- collection_type: open
+  name: The Hog Company Search Monitors API
+  slug: open-the-hog-monitors-api
+- collection_type: open
+  name: The Hog Company Search Operations API
+  slug: open-the-hog-operations-api
+- collection_type: open
+  name: The Hog Company Search People Search API
+  slug: open-the-hog-people-search-api
+- collection_type: open
+  name: The Hog Company Search Scrapers API
+  slug: open-the-hog-scrapers-api
+- collection_type: open
+  name: The Hog Company Search API
+  slug: open-the-hog-search-api
 common:
 - group: other
   title: ''
@@ -168,6 +197,30 @@ common:
   title: ''
   type: AgenticAccess
   url: agentic-access/the-hog-agentic-access.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/the-hog-a2a.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/the-hog-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/the-hog-plans-pricing.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/the-hog-scopes.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/the-hog-cli.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/the-hog-packages.yml
 created: '2026-07-17'
 description: The Hog is a real-time web intelligence API for AI agents and go-to-market teams, founded in 2025 (Y Combinator F25) by Hudson Liao and Paulo Nascimento in San Francisco. One credit-based REST API unifies company and people search, contact enrichment, LLM-powered deep research, multi-platform web and social scraping (LinkedIn, X, Reddit, Instagram, TikTok, YouTube, Facebook), SEO intelligence, and recurring signal monitors. Fast calls return synchronously; long-running jobs run asynchronously with polling, organization-scoped idempotency keys, cursor pagination, request-id tracing, and a consistent JSON error envelope. A hosted OAuth MCP server and a local stdio MCP package expose the same capabilities to agents.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-hog.png
@@ -176,27 +229,36 @@ mcp_servers:
 - description: ''
   name: the-hog-mcp.yml
   slug: the-hog-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: The Hog
 nav: Providers
 network: true
 overview: 'The Hog publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Company Search API, Deep Research API, Enrichments API, and 5 more. Tagged areas include Company, GTM Intelligence, Sales Intelligence, Data Enrichment, and Web Scraping.
 
 
-  The Hog''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 84
+  The Hog''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
+plans:
+- name: The Hog Plans Pricing
+  plan_count: 2
+  slug: the-hog-plans-pricing
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: The Hog Rate Limits
   slug: the-hog-rate-limits
+scopes:
+- name: The Hog Scopes
+  scope_count: 0
+  slug: the-hog-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 49.9
-  delta: 0.0
+  band: strong
+  composite: 56.8
+  delta: 6.9
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 65.8
     contract_quality: 61.2
-    developer_ergonomics: 58.2
+    developer_ergonomics: 71.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
@@ -212,8 +274,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: The Hog Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -66,12 +66,42 @@ apis:
 - description: End-user (customer) analytics.
   name: Keywords AI Users API
   slug: keywordsai-users-api
-artifact_total: 19
+artifact_total: 29
 asyncapis:
 - description: AsyncAPI 2.6 description of Keywords AI's **chat completion streaming** surface on the OpenAI-compatible gateway. Keywords AI does not publish a WebSocket API. The only asynchronous / event-style tran
   name: Keywords AI Chat Completions Streaming (HTTP + SSE)
   slug: keywordsai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Keywords AI Datasets API
+  slug: open-keywordsai-datasets-api
+- collection_type: open
+  name: Keywords AI Datasets Evaluators API
+  slug: open-keywordsai-evaluators-api
+- collection_type: open
+  name: Keywords AI Datasets Experiments API
+  slug: open-keywordsai-experiments-api
+- collection_type: open
+  name: Keywords AI Datasets Gateway API
+  slug: open-keywordsai-gateway-api
+- collection_type: open
+  name: Keywords AI Datasets Logging API
+  slug: open-keywordsai-logging-api
+- collection_type: open
+  name: Keywords AI Datasets Prompts API
+  slug: open-keywordsai-prompts-api
+- collection_type: open
+  name: Keywords AI Datasets Threads API
+  slug: open-keywordsai-threads-api
+- collection_type: open
+  name: Keywords AI Datasets Traces API
+  slug: open-keywordsai-traces-api
+- collection_type: open
+  name: Keywords AI Datasets Users API
+  slug: open-keywordsai-users-api
 - collection_type: open
   name: Keywords AI API
   slug: open-keywordsai
@@ -143,7 +173,7 @@ plans:
 - name: Keywordsai Plans Pricing
   plan_count: 3
   slug: keywordsai-plans-pricing
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Keywordsai Rate Limits
@@ -177,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/screenshots/keywordsai-2026-06-20T184016.png
 security:

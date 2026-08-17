@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The Accounts API from Newcastle Permanent Building Society — 6 operation(s) for accounts.
@@ -73,7 +73,53 @@ apis:
 - description: The Scheduled Payments API from Newcastle Permanent Building Society — 2 operation(s) for scheduled payments.
   name: Newcastle Permanent Building Society Scheduled Payments API
   slug: newcastle-permanent-scheduled-payments-api
-artifact_total: 18
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Accounts API
+  slug: open-newcastle-permanent-accounts-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Balances API
+  slug: open-newcastle-permanent-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Direct Debits API
+  slug: open-newcastle-permanent-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Scheduled Payments API
+  slug: open-newcastle-permanent-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Account Transactions API
+  slug: open-newcastle-permanent-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Accounts API
+  slug: open-newcastle-permanent-banking-accounts-api
+- collection_type: open
+  name: CDR Accounts Banking API
+  slug: open-newcastle-permanent-banking-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Payees API
+  slug: open-newcastle-permanent-banking-payees-api
+- collection_type: open
+  name: CDR Banking Accounts Banking Products API
+  slug: open-newcastle-permanent-banking-products-api
+- collection_type: open
+  name: CDR Banking Accounts Common API
+  slug: open-newcastle-permanent-common-api
+- collection_type: open
+  name: CDR Banking Accounts Customer API
+  slug: open-newcastle-permanent-customer-api
+- collection_type: open
+  name: CDR Banking Accounts Direct Debits API
+  slug: open-newcastle-permanent-direct-debits-api
+- collection_type: open
+  name: CDR Banking Accounts Payees API
+  slug: open-newcastle-permanent-payees-api
+- collection_type: open
+  name: CDR Banking Accounts Scheduled Payments API
+  slug: open-newcastle-permanent-scheduled-payments-api
 common:
 - group: auth
   title: ''
@@ -203,7 +249,7 @@ overview: 'Newcastle Permanent Building Society publishes 14 APIs on the [APIs.i
 
 
   Newcastle Permanent Building Society''s developer surface includes getting-started guide, documentation, API reference, sandbox, authentication, support, and 22 more developer resources.'
-random_paper: 61
+random_paper: 44
 scopes:
 - name: Newcastle Permanent Scopes
   scope_count: 12
@@ -237,7 +283,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png
 security:

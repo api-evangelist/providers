@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Auth API from Altinity — 8 operation(s) for auth.
   name: Altinity Auth API
   slug: altinity-auth-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Altinity Cloud Manager Auth API
+  slug: open-altinity-auth-api
 common:
 - group: other
   title: ''
@@ -148,7 +155,7 @@ overview: 'Altinity publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Altinity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
-random_paper: 38
+random_paper: 133
 score:
   band: developing
   composite: 47.3
@@ -171,7 +178,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/screenshots/altinity-2026-07-25T195834.png
 security:

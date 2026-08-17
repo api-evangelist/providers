@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The live EatStreet API, served under https://eatstreet.com/api/v2 and protected by OAuth 2.0 authorization code with PKCE. EatStreet publishes no reference, no OpenAPI and no developer portal for it; '
@@ -118,7 +118,7 @@ plans:
 - name: Eatstreet Plans Pricing
   plan_count: 0
   slug: eatstreet-plans-pricing
-random_paper: 17
+random_paper: 83
 rate_limits:
 - limit_count: 0
   name: Eatstreet Rate Limits
@@ -131,6 +131,7 @@ scopes:
 score:
   band: emerging
   composite: 17.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -138,8 +139,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Eatstreet Authentication

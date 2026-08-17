@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -96,7 +96,7 @@ apis:
 - description: The Transactions API from Lean Technologies — 1 operation(s) for transactions.
   name: Lean Technologies Transactions API
   slug: lean-tech-transactions-api
-artifact_total: 67
+artifact_total: 87
 collections:
 - collection_type: postman
   name: Lean Authentication Account on File API
@@ -156,6 +156,9 @@ collections:
   name: Lean Authentication Account on File Transactions API
   slug: postman-lean-tech-transactions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Lean Authentication API
   slug: open-lean-authentication-api
 - collection_type: open
@@ -185,6 +188,63 @@ collections:
 - collection_type: open
   name: Lean Refunds API
   slug: open-lean-refunds-api
+- collection_type: open
+  name: Lean Authentication Account on File API
+  slug: open-lean-tech-account-on-file-api
+- collection_type: open
+  name: Lean Authentication Account on File Account Verification API
+  slug: open-lean-tech-account-verification-api
+- collection_type: open
+  name: Lean Authentication Account on File Accounts API
+  slug: open-lean-tech-accounts-api
+- collection_type: open
+  name: Lean Account on File Authentication API
+  slug: open-lean-tech-authentication-api
+- collection_type: open
+  name: Lean Authentication Account on File Balances API
+  slug: open-lean-tech-balances-api
+- collection_type: open
+  name: Lean Authentication Account on File Banks API
+  slug: open-lean-tech-banks-api
+- collection_type: open
+  name: Lean Authentication Account on File Consents API
+  slug: open-lean-tech-consents-api
+- collection_type: open
+  name: Lean Authentication Account on File Customers API
+  slug: open-lean-tech-customers-api
+- collection_type: open
+  name: Lean Authentication Account on File Entities API
+  slug: open-lean-tech-entities-api
+- collection_type: open
+  name: Lean Authentication Account on File Identity API
+  slug: open-lean-tech-identity-api
+- collection_type: open
+  name: Lean Authentication Account on File Insights API
+  slug: open-lean-tech-insights-api
+- collection_type: open
+  name: Lean Authentication Account on File Name Verification API
+  slug: open-lean-tech-name-verification-api
+- collection_type: open
+  name: Lean Authentication Account on File Payment Intents API
+  slug: open-lean-tech-payment-intents-api
+- collection_type: open
+  name: Lean Authentication Account on File Payment Sources API
+  slug: open-lean-tech-payment-sources-api
+- collection_type: open
+  name: Lean Authentication Account on File Payout Destinations API
+  slug: open-lean-tech-payout-destinations-api
+- collection_type: open
+  name: Lean Authentication Account on File Payouts API
+  slug: open-lean-tech-payouts-api
+- collection_type: open
+  name: Lean Authentication Account on File Refreshes API
+  slug: open-lean-tech-refreshes-api
+- collection_type: open
+  name: Lean Authentication Account on File Refunds API
+  slug: open-lean-tech-refunds-api
+- collection_type: open
+  name: Lean Authentication Account on File Transactions API
+  slug: open-lean-tech-transactions-api
 - collection_type: open
   name: Lean Verifications API
   slug: open-lean-verifications-api
@@ -344,7 +404,7 @@ plans:
 - name: Lean Tech Plans Pricing
   plan_count: 5
   slug: lean-tech-plans-pricing
-random_paper: 41
+random_paper: 136
 rate_limits:
 - limit_count: 6
   name: Lean Tech Rate Limits
@@ -392,7 +452,7 @@ score:
     regime_id: banking_open_finance
     score: 35.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/screenshots/lean-tech-2026-06-20T184402.png
 security:

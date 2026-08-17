@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 3
@@ -75,12 +75,33 @@ apis:
 - description: Session and account management (com.atproto.server.*)
   name: AT Protocol Server API
   slug: at-protocol-server-api
-artifact_total: 21
+artifact_total: 28
 asyncapis:
 - description: AsyncAPI definition for the AT Protocol event subscription surface. AT Protocol defines streaming endpoints as Lexicon "subscription" types, served over WebSocket using length-prefixed binary frames e
   name: AT Protocol Firehose & Event Streams
   slug: at-protocol-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AT Protocol XRPC Actor API
+  slug: open-at-protocol-actor-api
+- collection_type: open
+  name: AT Protocol XRPC Actor Feed API
+  slug: open-at-protocol-feed-api
+- collection_type: open
+  name: AT Protocol XRPC Actor Graph API
+  slug: open-at-protocol-graph-api
+- collection_type: open
+  name: AT Protocol XRPC Actor Identity API
+  slug: open-at-protocol-identity-api
+- collection_type: open
+  name: AT Protocol XRPC Actor Repo API
+  slug: open-at-protocol-repo-api
+- collection_type: open
+  name: AT Protocol XRPC Actor Server API
+  slug: open-at-protocol-server-api
 - collection_type: open
   name: AT Protocol XRPC API
   slug: open-at-protocol
@@ -180,7 +201,7 @@ plans:
 - name: At Protocol Plans Pricing
   plan_count: 1
   slug: at-protocol-plans-pricing
-random_paper: 60
+random_paper: 97
 rate_limits:
 - limit_count: 2
   name: At Protocol Rate Limits
@@ -214,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

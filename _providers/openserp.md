@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -35,11 +35,15 @@ apis:
 - description: The MIT-licensed, self-hosted OpenSERP REST server. Runs on port 7000 by default and exposes dedicated per-engine web and image search, Google and Bing SERP HTML parsing, multi-engine mega search, sin
   name: OpenSERP Server (self-hosted)
   slug: openserp-oss
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Openserp Monitor Webhooks
   slug: openserp-monitor-webhooks
+collections:
+- collection_type: open
+  name: OpenSERP API
+  slug: open-openserp-oss
 common:
 - group: commercial
   title: ''
@@ -239,7 +243,7 @@ overview: 'OpenSERP publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   OpenSERP''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, signup flow, and 37 more developer resources.'
-random_paper: 36
+random_paper: 131
 score:
   band: developing
   composite: 51.8
@@ -263,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

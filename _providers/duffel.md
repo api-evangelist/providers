@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Register endpoints to receive event notifications.
   name: Duffel Webhooks API
   slug: duffel-webhooks-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Duffel Ancillaries API
+  slug: open-duffel-ancillaries-api
+- collection_type: open
+  name: Duffel Ancillaries Offer Requests API
+  slug: open-duffel-offer-requests-api
+- collection_type: open
+  name: Duffel Ancillaries Offers API
+  slug: open-duffel-offers-api
+- collection_type: open
+  name: Duffel Ancillaries Order Cancellations API
+  slug: open-duffel-order-cancellations-api
+- collection_type: open
+  name: Duffel Ancillaries Order Changes API
+  slug: open-duffel-order-changes-api
+- collection_type: open
+  name: Duffel Ancillaries Orders API
+  slug: open-duffel-orders-api
+- collection_type: open
+  name: Duffel Ancillaries Payments API
+  slug: open-duffel-payments-api
+- collection_type: open
+  name: Duffel Ancillaries Seat Maps API
+  slug: open-duffel-seat-maps-api
+- collection_type: open
+  name: Duffel Ancillaries Stays API
+  slug: open-duffel-stays-api
+- collection_type: open
+  name: Duffel Ancillaries Webhooks API
+  slug: open-duffel-webhooks-api
 - collection_type: open
   name: Duffel API
   slug: open-duffel
@@ -143,7 +176,7 @@ plans:
 - name: Duffel Plans Pricing
   plan_count: 3
   slug: duffel-plans-pricing
-random_paper: 30
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Duffel Rate Limits
@@ -174,7 +207,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/screenshots/duffel-2026-07-25T212455.png
 security:

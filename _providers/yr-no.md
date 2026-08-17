@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,20 @@ apis:
 - description: Service metadata endpoints
   name: Yr metadata API
   slug: yr-no-metadata-api
-artifact_total: 18
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Locationforecast alerts API
+  slug: open-yr-no-alerts-api
+- collection_type: open
+  name: Locationforecast alerts data API
+  slug: open-yr-no-data-api
+- collection_type: open
+  name: Locationforecast alerts metadata API
+  slug: open-yr-no-metadata-api
 common:
 - group: agent
   title: ''
@@ -175,7 +188,7 @@ plans:
 - name: Yr No Plans Pricing
   plan_count: 1
   slug: yr-no-plans-pricing
-random_paper: 21
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Yr No Rate Limits
@@ -215,7 +228,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/screenshots/yr-no-2026-06-20T201749.png
 security:

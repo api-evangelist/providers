@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Send cryptocurrency payouts to beneficiaries
   name: CoinGate Send Requests API
   slug: coingate-send-requests-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CoinGate Payment Gateway Conversions API
+  slug: open-coingate-conversions-api
+- collection_type: open
+  name: CoinGate Payment Gateway Conversions Currencies API
+  slug: open-coingate-currencies-api
+- collection_type: open
+  name: CoinGate Payment Gateway Conversions Orders API
+  slug: open-coingate-orders-api
+- collection_type: open
+  name: CoinGate Payment Gateway Conversions Refunds API
+  slug: open-coingate-refunds-api
+- collection_type: open
+  name: CoinGate Payment Gateway Conversions Send Requests API
+  slug: open-coingate-send-requests-api
 common:
 - group: agent
   title: ''
@@ -164,7 +183,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 2
+random_paper: 97
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -195,7 +214,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/screenshots/coingate-2026-06-20T174732.png
 security:

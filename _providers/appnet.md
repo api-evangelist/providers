@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The App.net Stream API — a RESTful, OAuth 2.0-secured social API covering posts, users, follows, channels/messages, files, filters, and a real-time streaming surface. Responses use a uniform {data, me
@@ -100,7 +100,7 @@ overview: 'App.net publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   App.net''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Appnet Rate Limits
@@ -125,7 +125,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/screenshots/appnet-2026-07-25T200825.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -64,7 +64,7 @@ apis:
 - description: Deprecated Afterpay Global API for creating and managing recurring billing agreements; retained here as harvested for historical completeness and marked deprecated by Cash App.
   name: Afterpay Billing Agreements API (Deprecated)
   slug: afterpay-billing-agreements-api
-artifact_total: 31
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Cash App Webhooks
@@ -106,6 +106,42 @@ collections:
 - collection_type: postman
   name: Service Status
   slug: postman-cash-app-service-status-openapi
+- collection_type: open
+  name: Billing Agreements (Deprecated)
+  slug: open-cash-app-billing-agreements-deprecated
+- collection_type: open
+  name: Checkouts
+  slug: open-cash-app-checkouts
+- collection_type: open
+  name: Configuration
+  slug: open-cash-app-configuration
+- collection_type: open
+  name: Customer Request API
+  slug: open-cash-app-customer-request-api
+- collection_type: open
+  name: Disputes
+  slug: open-cash-app-disputes
+- collection_type: open
+  name: Grants - Afterpay
+  slug: open-cash-app-grants-afterpay
+- collection_type: open
+  name: Add Cash App Pay to Your Site
+  slug: open-cash-app-grants-cash-app-pay
+- collection_type: open
+  name: Management API
+  slug: open-cash-app-management-api
+- collection_type: open
+  name: Network API
+  slug: open-cash-app-network-api
+- collection_type: open
+  name: Orders
+  slug: open-cash-app-orders
+- collection_type: open
+  name: Payments
+  slug: open-cash-app-payments
+- collection_type: open
+  name: Service Status
+  slug: open-cash-app-service-status
 common:
 - group: agent
   title: ''
@@ -303,7 +339,7 @@ overview: 'Cash App publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cash App''s developer surface includes API reference, authentication, documentation, support, getting-started guide, signup flow, changelog, and 37 more developer resources.'
-random_paper: 61
+random_paper: 36
 scopes:
 - name: Cash App Scopes
   scope_count: 4
@@ -333,7 +369,7 @@ score:
     regime_id: payments
     score: 70.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png
 security:

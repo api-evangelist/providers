@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,7 +57,23 @@ apis:
 - description: Sessions
   name: Log10 Sessions API
   slug: log10-sessions-api
-artifact_total: 23
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Log10 Feedback API Spec Completions API
+  slug: open-log10-completions-api
+- collection_type: open
+  name: Log10 API Spec Completions Feedback API
+  slug: open-log10-feedback-api
+- collection_type: open
+  name: Log10 Feedback API Spec Completions FeedbackTasks API
+  slug: open-log10-feedbacktasks-api
+- collection_type: open
+  name: Log10 Feedback API Spec Completions Sessions API
+  slug: open-log10-sessions-api
 common:
 - group: agent
   title: ''
@@ -202,7 +218,7 @@ plans:
 - name: Log10 Plans Pricing
   plan_count: 3
   slug: log10-plans-pricing
-random_paper: 59
+random_paper: 121
 rate_limits:
 - limit_count: 2
   name: Log10 Rate Limits
@@ -236,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/screenshots/log10-2026-06-20T184646.png
 security:

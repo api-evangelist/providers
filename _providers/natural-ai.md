@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 72.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 6
@@ -83,7 +83,7 @@ apis:
 - description: Webhook endpoint management
   name: Natural AI Webhooks API
   slug: natural-ai-webhooks-api
-artifact_total: 37
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Natural Ai Webhooks
@@ -134,6 +134,54 @@ collections:
 - collection_type: postman
   name: Natural Agent Keys Webhooks API
   slug: postman-natural-ai-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Natural Agent Keys API
+  slug: open-natural-ai-agent-keys-api
+- collection_type: open
+  name: Natural Agent Keys Agents API
+  slug: open-natural-ai-agents-api
+- collection_type: open
+  name: Natural Agent Keys API Keys API
+  slug: open-natural-ai-api-keys-api
+- collection_type: open
+  name: Natural Agent Keys Approvals API
+  slug: open-natural-ai-approvals-api
+- collection_type: open
+  name: Natural Agent Keys Customers API
+  slug: open-natural-ai-customers-api
+- collection_type: open
+  name: Natural Agent Keys Events API
+  slug: open-natural-ai-events-api
+- collection_type: open
+  name: Natural Agent Keys External Accounts API
+  slug: open-natural-ai-external-accounts-api
+- collection_type: open
+  name: Natural Agent Keys Invitations API
+  slug: open-natural-ai-invitations-api
+- collection_type: open
+  name: Natural Agent Keys Parties API
+  slug: open-natural-ai-parties-api
+- collection_type: open
+  name: Natural Agent Keys PaymentRequests API
+  slug: open-natural-ai-paymentrequests-api
+- collection_type: open
+  name: Natural Agent Keys Payments API
+  slug: open-natural-ai-payments-api
+- collection_type: open
+  name: Natural Agent Keys Transactions API
+  slug: open-natural-ai-transactions-api
+- collection_type: open
+  name: Natural Agent Keys Transfers API
+  slug: open-natural-ai-transfers-api
+- collection_type: open
+  name: Natural Agent Keys Wallets API
+  slug: open-natural-ai-wallets-api
+- collection_type: open
+  name: Natural Agent Keys Webhooks API
+  slug: open-natural-ai-webhooks-api
 common:
 - group: build
   title: ''
@@ -306,7 +354,7 @@ overview: 'Natural AI publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Natural AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, changelog, and 31 more developer resources.'
-random_paper: 46
+random_paper: 112
 rate_limits:
 - limit_count: 0
   name: Natural Ai Rate Limits
@@ -345,7 +393,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/screenshots/natural-ai-2026-08-07T184702.png
 security:

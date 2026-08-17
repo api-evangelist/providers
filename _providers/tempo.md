@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: Retrieve individual traces by trace ID
   name: Tempo Traces API
   slug: tempo-traces-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Grafana Tempo HTTP Health API
+  slug: open-tempo-health-api
+- collection_type: open
+  name: Grafana Tempo HTTP Health Metrics API
+  slug: open-tempo-metrics-api
+- collection_type: open
+  name: Grafana Tempo HTTP Health Search API
+  slug: open-tempo-search-api
+- collection_type: open
+  name: Grafana Tempo HTTP Health Tags API
+  slug: open-tempo-tags-api
+- collection_type: open
+  name: Grafana Tempo HTTP Health Traces API
+  slug: open-tempo-traces-api
 - collection_type: open
   name: Grafana Tempo HTTP API
   slug: open-tempo
@@ -193,7 +211,7 @@ plans:
 - name: Tempo Plans Pricing
   plan_count: 3
   slug: tempo-plans-pricing
-random_paper: 69
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Tempo Rate Limits
@@ -235,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/screenshots/tempo-2026-06-20T195059.png
 security:

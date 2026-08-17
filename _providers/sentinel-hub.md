@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -117,7 +117,86 @@ apis:
 - description: The zarr_collection API from Sentinel Hub — 3 operation(s) for zarr_collection.
   name: Sentinel Hub zarr_collection API
   slug: sentinel-hub-zarr-collection-api
-artifact_total: 317
+artifact_total: 343
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference async_process API
+  slug: open-sentinel-hub-async-process-api
+- collection_type: open
+  name: API Reference async_process batch_statistical API
+  slug: open-sentinel-hub-batch-statistical-api
+- collection_type: open
+  name: API Reference async_process batch_v2_process API
+  slug: open-sentinel-hub-batch-v2-process-api
+- collection_type: open
+  name: API Reference async_process batch_v2_tiling_grid API
+  slug: open-sentinel-hub-batch-v2-tiling-grid-api
+- collection_type: open
+  name: API Reference async_process byoc_collection API
+  slug: open-sentinel-hub-byoc-collection-api
+- collection_type: open
+  name: API Reference async_process byoc_tile API
+  slug: open-sentinel-hub-byoc-tile-api
+- collection_type: open
+  name: API Reference async_process catalog_collections API
+  slug: open-sentinel-hub-catalog-collections-api
+- collection_type: open
+  name: API Reference async_process catalog_core API
+  slug: open-sentinel-hub-catalog-core-api
+- collection_type: open
+  name: API Reference async_process catalog_features API
+  slug: open-sentinel-hub-catalog-features-api
+- collection_type: open
+  name: API Reference async_process catalog_item_search API
+  slug: open-sentinel-hub-catalog-item-search-api
+- collection_type: open
+  name: API Reference async_process dataimport_delivery API
+  slug: open-sentinel-hub-dataimport-delivery-api
+- collection_type: open
+  name: API Reference async_process dataimport_order API
+  slug: open-sentinel-hub-dataimport-order-api
+- collection_type: open
+  name: API Reference async_process dataimport_product API
+  slug: open-sentinel-hub-dataimport-product-api
+- collection_type: open
+  name: API Reference async_process dataimport_quota API
+  slug: open-sentinel-hub-dataimport-quota-api
+- collection_type: open
+  name: API Reference async_process dataimport_search API
+  slug: open-sentinel-hub-dataimport-search-api
+- collection_type: open
+  name: API Reference async_process dataimport_subscription API
+  slug: open-sentinel-hub-dataimport-subscription-api
+- collection_type: open
+  name: API Reference async_process dataimport_subscription_delivery API
+  slug: open-sentinel-hub-dataimport-subscription-delivery-api
+- collection_type: open
+  name: API Reference async_process dataimport_subscription_tile_delivery API
+  slug: open-sentinel-hub-dataimport-subscription-tile-delivery-api
+- collection_type: open
+  name: API Reference async_process dataimport_tile_delivery API
+  slug: open-sentinel-hub-dataimport-tile-delivery-api
+- collection_type: open
+  name: API Reference async_process metadata_collection API
+  slug: open-sentinel-hub-metadata-collection-api
+- collection_type: open
+  name: API Reference async_process metadata_location API
+  slug: open-sentinel-hub-metadata-location-api
+- collection_type: open
+  name: API Reference async_process process API
+  slug: open-sentinel-hub-process-api
+- collection_type: open
+  name: API Reference async_process statistical API
+  slug: open-sentinel-hub-statistical-api
+- collection_type: open
+  name: API Reference async_process zarr_array API
+  slug: open-sentinel-hub-zarr-array-api
+- collection_type: open
+  name: API Reference async_process zarr_collection API
+  slug: open-sentinel-hub-zarr-collection-api
 common:
 - group: agent
   title: ''
@@ -1060,7 +1139,7 @@ plans:
 - name: Sentinel Hub Plans Pricing
   plan_count: 2
   slug: sentinel-hub-plans-pricing
-random_paper: 30
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Sentinel Hub Rate Limits
@@ -1099,7 +1178,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/screenshots/sentinel-hub-2026-06-20T193707.png
 security:

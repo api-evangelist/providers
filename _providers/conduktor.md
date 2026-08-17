@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Gateway virtual clusters, service accounts, and tokens
   name: Conduktor Virtual Clusters API
   slug: conduktor-virtual-clusters-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Conduktor Certificates API
+  slug: open-conduktor-certificates-api
+- collection_type: open
+  name: Conduktor Certificates Clusters API
+  slug: open-conduktor-clusters-api
+- collection_type: open
+  name: Conduktor Certificates Groups API
+  slug: open-conduktor-groups-api
+- collection_type: open
+  name: Conduktor Certificates Interceptors API
+  slug: open-conduktor-interceptors-api
+- collection_type: open
+  name: Conduktor Certificates Self-Service API
+  slug: open-conduktor-self-service-api
+- collection_type: open
+  name: Conduktor Certificates Users API
+  slug: open-conduktor-users-api
+- collection_type: open
+  name: Conduktor Certificates Virtual Clusters API
+  slug: open-conduktor-virtual-clusters-api
 - collection_type: open
   name: Conduktor API
   slug: open-conduktor
@@ -138,7 +162,7 @@ plans:
 - name: Conduktor Plans Pricing
   plan_count: 5
   slug: conduktor-plans-pricing
-random_paper: 25
+random_paper: 91
 rate_limits:
 - limit_count: 3
   name: Conduktor Rate Limits
@@ -163,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/screenshots/conduktor-2026-07-25T210238.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 2
@@ -296,11 +296,282 @@ apis:
 - description: '**Access:** requires a JWT access token.'
   name: '1Fort user: default-access-role API'
   slug: 1fort-user-default-access-role-api
-artifact_total: 97
+artifact_total: 187
 asyncapis:
 - description: ''
   name: 1Fort Webhooks
   slug: 1fort-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 1Fort API Documentation agent_runtime (v2) agent_runtime (v2) API
+  slug: open-1fort-agent-runtime-v2-api
+- collection_type: open
+  name: 1Fort API Documentation Analytics API
+  slug: open-1fort-analytics-api
+- collection_type: open
+  name: '1Fort API Documentation application: applications API'
+  slug: open-1fort-application-applications-api
+- collection_type: open
+  name: '1Fort API Documentation application: clients API'
+  slug: open-1fort-application-clients-api
+- collection_type: open
+  name: '1Fort API Documentation application (v2): applications API'
+  slug: open-1fort-application-v2-applications-api
+- collection_type: open
+  name: '1Fort API Documentation application (v2): coverages API'
+  slug: open-1fort-application-v2-coverages-api
+- collection_type: open
+  name: 1Fort API Documentation Ascend API
+  slug: open-1fort-ascend-api
+- collection_type: open
+  name: 1Fort API Documentation ascend (v2) ascend (v2) API
+  slug: open-1fort-ascend-v2-api
+- collection_type: open
+  name: 1Fort API Documentation Auth API
+  slug: open-1fort-auth-api
+- collection_type: open
+  name: 1Fort API Documentation Authentication API
+  slug: open-1fort-authentication-api
+- collection_type: open
+  name: 1Fort API Documentation billing (v2) billing (v2) API
+  slug: open-1fort-billing-v2-api
+- collection_type: open
+  name: '1Fort API Documentation broker: ai-customization-types API'
+  slug: open-1fort-broker-ai-customization-types-api
+- collection_type: open
+  name: '1Fort API Documentation broker: ai-customizations API'
+  slug: open-1fort-broker-ai-customizations-api
+- collection_type: open
+  name: 1Fort API Documentation Broker Ams Integration API
+  slug: open-1fort-broker-ams-integration-api
+- collection_type: open
+  name: 1Fort API Documentation Broker API
+  slug: open-1fort-broker-api
+- collection_type: open
+  name: '1Fort API Documentation broker: clients API'
+  slug: open-1fort-broker-clients-api
+- collection_type: open
+  name: '1Fort API Documentation broker: email_preferences API'
+  slug: open-1fort-broker-email-preferences-api
+- collection_type: open
+  name: 1Fort API Documentation Broker Google API
+  slug: open-1fort-broker-google-api
+- collection_type: open
+  name: 1Fort API Documentation Broker Groups API
+  slug: open-1fort-broker-groups-api
+- collection_type: open
+  name: 1Fort API Documentation Broker Office365 API
+  slug: open-1fort-broker-office365-api
+- collection_type: open
+  name: 1Fort API Documentation Broker Office365 Individual API
+  slug: open-1fort-broker-office365-individual-api
+- collection_type: open
+  name: '1Fort API Documentation broker: proposal-preferences API'
+  slug: open-1fort-broker-proposal-preferences-api
+- collection_type: open
+  name: 1Fort API Documentation Broker Settings API
+  slug: open-1fort-broker-settings-api
+- collection_type: open
+  name: '1Fort API Documentation broker: take-rates API'
+  slug: open-1fort-broker-take-rates-api
+- collection_type: open
+  name: '1Fort API Documentation broker: user-ai-customizations API'
+  slug: open-1fort-broker-user-ai-customizations-api
+- collection_type: open
+  name: '1Fort API Documentation broker: users API'
+  slug: open-1fort-broker-users-api
+- collection_type: open
+  name: '1Fort API Documentation broker (v2): applications API'
+  slug: open-1fort-broker-v2-applications-api
+- collection_type: open
+  name: '1Fort API Documentation broker (v2): clients API'
+  slug: open-1fort-broker-v2-clients-api
+- collection_type: open
+  name: '1Fort API Documentation broker (v2): coverages API'
+  slug: open-1fort-broker-v2-coverages-api
+- collection_type: open
+  name: '1Fort API Documentation broker (v2): email-templates API'
+  slug: open-1fort-broker-v2-email-templates-api
+- collection_type: open
+  name: '1Fort API Documentation broker (v2): quote-policies API'
+  slug: open-1fort-broker-v2-quote-policies-api
+- collection_type: open
+  name: '1Fort API Documentation broker (v2): quotes API'
+  slug: open-1fort-broker-v2-quotes-api
+- collection_type: open
+  name: '1Fort API Documentation broker (v2): storefront API'
+  slug: open-1fort-broker-v2-storefront-api
+- collection_type: open
+  name: '1Fort API Documentation broker (v2): team-users API'
+  slug: open-1fort-broker-v2-team-users-api
+- collection_type: open
+  name: 1Fort API Documentation Business Admin API
+  slug: open-1fort-business-admin-api
+- collection_type: open
+  name: 1Fort API Documentation Business API
+  slug: open-1fort-business-api
+- collection_type: open
+  name: 1Fort API Documentation Business Broker Users API
+  slug: open-1fort-business-broker-users-api
+- collection_type: open
+  name: 1Fort API Documentation Business User API
+  slug: open-1fort-business-user-api
+- collection_type: open
+  name: 1Fort API Documentation Carrier API
+  slug: open-1fort-carrier-api
+- collection_type: open
+  name: 1Fort API Documentation Checkout API
+  slug: open-1fort-checkout-api
+- collection_type: open
+  name: 1Fort API Documentation Email AI Agent API
+  slug: open-1fort-email-ai-agent-api
+- collection_type: open
+  name: 1Fort API Documentation Email AI Agent - Attachments API
+  slug: open-1fort-email-ai-agent-attachments-api
+- collection_type: open
+  name: 1Fort API Documentation Email AI Agent - Businesses API
+  slug: open-1fort-email-ai-agent-businesses-api
+- collection_type: open
+  name: 1Fort API Documentation Email AI Agent - Entities API
+  slug: open-1fort-email-ai-agent-entities-api
+- collection_type: open
+  name: 1Fort API Documentation Email AI Agent - Markets API
+  slug: open-1fort-email-ai-agent-markets-api
+- collection_type: open
+  name: 1Fort API Documentation Email AI Agent - Profiles API
+  slug: open-1fort-email-ai-agent-profiles-api
+- collection_type: open
+  name: 1Fort API Documentation Email AI Agent - Reference Data API
+  slug: open-1fort-email-ai-agent-reference-data-api
+- collection_type: open
+  name: 1Fort API Documentation Email AI API
+  slug: open-1fort-email-ai-api
+- collection_type: open
+  name: '1Fort API Documentation email_ai (v2): attachments API'
+  slug: open-1fort-email-ai-v2-attachments-api
+- collection_type: open
+  name: '1Fort API Documentation email_ai (v2): carriers API'
+  slug: open-1fort-email-ai-v2-carriers-api
+- collection_type: open
+  name: '1Fort API Documentation email_ai (v2): coverage-types API'
+  slug: open-1fort-email-ai-v2-coverage-types-api
+- collection_type: open
+  name: '1Fort API Documentation email_ai (v2): emails API'
+  slug: open-1fort-email-ai-v2-emails-api
+- collection_type: open
+  name: '1Fort API Documentation email_ai (v2): gmail API'
+  slug: open-1fort-email-ai-v2-gmail-api
+- collection_type: open
+  name: '1Fort API Documentation email_ai (v2): office365 API'
+  slug: open-1fort-email-ai-v2-office365-api
+- collection_type: open
+  name: '1Fort API Documentation email_ai (v2): profiles API'
+  slug: open-1fort-email-ai-v2-profiles-api
+- collection_type: open
+  name: '1Fort API Documentation email_ai (v2): wholesalers API'
+  slug: open-1fort-email-ai-v2-wholesalers-api
+- collection_type: open
+  name: 1Fort API Documentation google_workspace (v2) google_workspace (v2) API
+  slug: open-1fort-google-workspace-v2-api
+- collection_type: open
+  name: 1Fort API Documentation herald (v2) herald (v2) API
+  slug: open-1fort-herald-v2-api
+- collection_type: open
+  name: 1Fort API Documentation indications (v2) indications (v2) API
+  slug: open-1fort-indications-v2-api
+- collection_type: open
+  name: 1Fort API Documentation insurance (v2) insurance (v2) API
+  slug: open-1fort-insurance-v2-api
+- collection_type: open
+  name: 1Fort API Documentation Invite API
+  slug: open-1fort-invite-api
+- collection_type: open
+  name: 1Fort API Documentation Legal API
+  slug: open-1fort-legal-api
+- collection_type: open
+  name: 1Fort API Documentation market (v2) market (v2) API
+  slug: open-1fort-market-v2-api
+- collection_type: open
+  name: 1Fort API Documentation Markets API
+  slug: open-1fort-markets-api
+- collection_type: open
+  name: 1Fort API Documentation Markets - Business API
+  slug: open-1fort-markets-business-api
+- collection_type: open
+  name: 1Fort API Documentation office365 (v2) office365 (v2) API
+  slug: open-1fort-office365-v2-api
+- collection_type: open
+  name: 1Fort API Documentation premium_finance (v2) premium_finance (v2) API
+  slug: open-1fort-premium-finance-v2-api
+- collection_type: open
+  name: 1Fort API Documentation quote_ai (v2) quote_ai (v2) API
+  slug: open-1fort-quote-ai-v2-api
+- collection_type: open
+  name: '1Fort API Documentation quote: applications API'
+  slug: open-1fort-quote-applications-api
+- collection_type: open
+  name: '1Fort API Documentation quote: clients API'
+  slug: open-1fort-quote-clients-api
+- collection_type: open
+  name: '1Fort API Documentation quote: quotes API'
+  slug: open-1fort-quote-quotes-api
+- collection_type: open
+  name: '1Fort API Documentation quote (v2): application API'
+  slug: open-1fort-quote-v2-application-api
+- collection_type: open
+  name: '1Fort API Documentation quote (v2): binders API'
+  slug: open-1fort-quote-v2-binders-api
+- collection_type: open
+  name: '1Fort API Documentation quote (v2): checkout API'
+  slug: open-1fort-quote-v2-checkout-api
+- collection_type: open
+  name: '1Fort API Documentation quote (v2): cios API'
+  slug: open-1fort-quote-v2-cios-api
+- collection_type: open
+  name: '1Fort API Documentation quote (v2): coverages API'
+  slug: open-1fort-quote-v2-coverages-api
+- collection_type: open
+  name: '1Fort API Documentation quote (v2): quote-policies API'
+  slug: open-1fort-quote-v2-quote-policies-api
+- collection_type: open
+  name: '1Fort API Documentation quote (v2): quotes API'
+  slug: open-1fort-quote-v2-quotes-api
+- collection_type: open
+  name: '1Fort API Documentation quote (v2): tasks API'
+  slug: open-1fort-quote-v2-tasks-api
+- collection_type: open
+  name: 1Fort API Documentation Reports API
+  slug: open-1fort-reports-api
+- collection_type: open
+  name: 1Fort API Documentation Reward API
+  slug: open-1fort-reward-api
+- collection_type: open
+  name: 1Fort API Documentation Risk Manager API
+  slug: open-1fort-risk-manager-api
+- collection_type: open
+  name: 1Fort API Documentation Sanity Check AI API
+  slug: open-1fort-sanity-check-ai-api
+- collection_type: open
+  name: 1Fort API Documentation storefront (v2) storefront (v2) API
+  slug: open-1fort-storefront-v2-api
+- collection_type: open
+  name: 1Fort API Documentation Stripe API
+  slug: open-1fort-stripe-api
+- collection_type: open
+  name: 1Fort API Documentation Suggestion AI API
+  slug: open-1fort-suggestion-ai-api
+- collection_type: open
+  name: 1Fort API Documentation treasury (v2) treasury (v2) API
+  slug: open-1fort-treasury-v2-api
+- collection_type: open
+  name: 1Fort API Documentation User API
+  slug: open-1fort-user-api
+- collection_type: open
+  name: '1Fort API Documentation user: default-access-role API'
+  slug: open-1fort-user-default-access-role-api
 common:
 - group: agent
   title: ''
@@ -465,7 +736,7 @@ overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   1Fort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
-random_paper: 12
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: 1Fort Rate Limits
@@ -499,7 +770,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/screenshots/1fort-2026-08-07T160647.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,7 +57,20 @@ apis:
 - description: Health and deployment information
   name: API3 Status API
   slug: api3-status-api
-artifact_total: 13
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API3 Signed Airnodes API
+  slug: open-api3-airnodes-api
+- collection_type: open
+  name: API3 Signed Airnodes Signed Data API
+  slug: open-api3-signed-data-api
+- collection_type: open
+  name: API3 Signed Airnodes Status API
+  slug: open-api3-status-api
 common:
 - group: agent
   title: ''
@@ -159,7 +172,7 @@ plans:
 - name: Api3 Plans
   plan_count: 3
   slug: api3-plans
-random_paper: 5
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Api3 Rate Limits
@@ -184,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/screenshots/api3-2026-06-20T172222.png
 security:

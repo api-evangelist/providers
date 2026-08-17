@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,26 @@ apis:
 - description: Faculties and organizational units
   name: University of Warsaw fac API
   slug: university-of-warsaw-fac-api
-artifact_total: 24
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USOS API (University of Warsaw) apiref API
+  slug: open-university-of-warsaw-apiref-api
+- collection_type: open
+  name: USOS API (University of Warsaw) apiref apisrv API
+  slug: open-university-of-warsaw-apisrv-api
+- collection_type: open
+  name: USOS API (University of Warsaw) apiref calendar API
+  slug: open-university-of-warsaw-calendar-api
+- collection_type: open
+  name: USOS API (University of Warsaw) apiref courses API
+  slug: open-university-of-warsaw-courses-api
+- collection_type: open
+  name: USOS API (University of Warsaw) apiref fac API
+  slug: open-university-of-warsaw-fac-api
 common:
 - group: agent
   title: ''
@@ -169,7 +188,7 @@ plans:
 - name: University Of Warsaw Plans Pricing
   plan_count: 2
   slug: university-of-warsaw-plans-pricing
-random_paper: 46
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: University Of Warsaw Rate Limits
@@ -217,7 +236,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png
 security:

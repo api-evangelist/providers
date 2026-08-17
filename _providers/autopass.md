@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Partner parking locations (POIs)
@@ -40,11 +40,24 @@ apis:
 - description: In-progress parking sessions
   name: Autopass Sessions API
   slug: autopass-sessions-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Autopass Webhooks
   slug: autopass-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Autopass Service Authorization Locations API
+  slug: open-autopass-locations-api
+- collection_type: open
+  name: Autopass Service Authorization Locations Orders API
+  slug: open-autopass-orders-api
+- collection_type: open
+  name: Autopass Service Authorization Locations Sessions API
+  slug: open-autopass-sessions-api
 common:
 - group: other
   title: ''
@@ -137,7 +150,7 @@ overview: 'Autopass publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Autopass'' developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 40
+random_paper: 135
 scopes:
 - name: Autopass Scopes
   scope_count: 1
@@ -170,7 +183,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png
 security:

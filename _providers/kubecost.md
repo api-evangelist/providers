@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,8 +41,11 @@ apis:
 - description: The Model API from Kubecost — 15 operation(s) for model.
   name: Kubecost Model API
   slug: kubecost-model-api
-artifact_total: 29
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Kubecost Allocation API
   slug: open-kubecost-allocation
@@ -58,6 +61,9 @@ collections:
 - collection_type: open
   name: Kubecost Forecast API
   slug: open-kubecost-forecast
+- collection_type: open
+  name: Kubecost Allocation Model API
+  slug: open-kubecost-model-api
 - collection_type: open
   name: Kubecost Savings API
   slug: open-kubecost-savings
@@ -150,7 +156,7 @@ plans:
 - name: Kubecost Plans Pricing
   plan_count: 3
   slug: kubecost-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 2
   name: Kubecost Rate Limits
@@ -184,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/screenshots/kubecost-2026-06-20T184207.png
 security:

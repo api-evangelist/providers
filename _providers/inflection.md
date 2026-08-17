@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Status API from Inflection AI — 1 operation(s) for status.
   name: Inflection AI Status API
   slug: inflection-status-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inflection Inference Chat API
+  slug: open-inflection-chat-api
+- collection_type: open
+  name: Inflection Inference Chat Discovery API
+  slug: open-inflection-discovery-api
+- collection_type: open
+  name: Inflection Inference Chat Embeddings API
+  slug: open-inflection-embeddings-api
+- collection_type: open
+  name: Inflection Inference Chat External API
+  slug: open-inflection-external-api
+- collection_type: open
+  name: Inflection Inference Chat Status API
+  slug: open-inflection-status-api
 - collection_type: open
   name: Inflection Inference API
   slug: open-inflection
@@ -124,7 +142,7 @@ plans:
 - name: Inflection Plans Pricing
   plan_count: 3
   slug: inflection-plans-pricing
-random_paper: 107
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Inflection Rate Limits
@@ -154,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/screenshots/inflection-2026-06-20T183333.png
 security:

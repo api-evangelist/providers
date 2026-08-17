@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Generate, deliver, and verify one-time passwords.
   name: Termii Token API
   slug: termii-token-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Termii Campaigns API
+  slug: open-termii-campaigns-api
+- collection_type: open
+  name: Termii Campaigns Contacts API
+  slug: open-termii-contacts-api
+- collection_type: open
+  name: Termii Campaigns Insights API
+  slug: open-termii-insights-api
+- collection_type: open
+  name: Termii Campaigns Messaging API
+  slug: open-termii-messaging-api
+- collection_type: open
+  name: Termii Campaigns Sender IDs API
+  slug: open-termii-sender-ids-api
+- collection_type: open
+  name: Termii Campaigns Token API
+  slug: open-termii-token-api
 - collection_type: open
   name: Termii API
   slug: open-termii
@@ -119,7 +140,7 @@ plans:
 - name: Termii Plans Pricing
   plan_count: 2
   slug: termii-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Termii Rate Limits
@@ -150,7 +171,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/screenshots/termii-2026-06-20T195127.png
 security:

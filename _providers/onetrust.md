@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -75,8 +75,32 @@ apis:
 - description: The Privacy Notices API from OneTrust — 2 operation(s) for privacy notices.
   name: OneTrust Privacy Notices API
   slug: onetrust-privacy-notices-api
-artifact_total: 20
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OneTrust Platform AI Governance API
+  slug: open-onetrust-ai-governance-api
+- collection_type: open
+  name: OneTrust Platform AI Governance Applications API
+  slug: open-onetrust-applications-api
+- collection_type: open
+  name: OneTrust Platform AI Governance Consent API
+  slug: open-onetrust-consent-api
+- collection_type: open
+  name: OneTrust Platform AI Governance Cookies API
+  slug: open-onetrust-cookies-api
+- collection_type: open
+  name: OneTrust Platform AI Governance Data Subjects API
+  slug: open-onetrust-data-subjects-api
+- collection_type: open
+  name: OneTrust Platform AI Governance Domains API
+  slug: open-onetrust-domains-api
+- collection_type: open
+  name: OneTrust Platform AI Governance Privacy Notices API
+  slug: open-onetrust-privacy-notices-api
 - collection_type: open
   name: OneTrust Platform API
   slug: open-onetrust
@@ -153,7 +177,7 @@ plans:
 - name: Onetrust Plans Pricing
   plan_count: 1
   slug: onetrust-plans-pricing
-random_paper: 60
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Onetrust Rate Limits
@@ -178,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/screenshots/onetrust-2026-06-20T190718.png
 security:

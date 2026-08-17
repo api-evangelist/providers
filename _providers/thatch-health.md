@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Payroll deductions track the costs of plan premiums to employees.
@@ -52,7 +52,32 @@ apis:
 - description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
   name: Thatch Health Pay Schedules API
   slug: thatch-health-pay-schedules-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thatch for Platforms Deductions API
+  slug: open-thatch-health-deductions-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Employees API
+  slug: open-thatch-health-employees-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Employer onboarding sessions API
+  slug: open-thatch-health-employer-onboarding-sessions-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Employers API
+  slug: open-thatch-health-employers-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Enrollments API
+  slug: open-thatch-health-enrollments-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Members API
+  slug: open-thatch-health-members-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Pay Schedules API
+  slug: open-thatch-health-pay-schedules-api
 common:
 - group: other
   title: ''
@@ -190,7 +215,7 @@ overview: 'Thatch Health publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 111
+random_paper: 119
 score:
   band: developing
   composite: 49.8
@@ -219,7 +244,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

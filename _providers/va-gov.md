@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -143,14 +143,32 @@ apis:
 - description: The Veteran Verification API from VA Lighthouse — 3 operation(s) for veteran verification.
   name: VA Lighthouse Veteran Verification API
   slug: va-gov-veteran-verification-api
-artifact_total: 85
+artifact_total: 115
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Address Validation 5103 Waiver API
+  slug: open-va-gov-5103-waiver-api
+- collection_type: open
+  name: Address Validation 5103 Waiver ACA Coverage API
+  slug: open-va-gov-aca-coverage-api
 - collection_type: open
   name: Address Validation
   slug: open-va-gov-address-validation-v3
 - collection_type: open
+  name: Address Validation 5103 Waiver AddressValidation-v3 API
+  slug: open-va-gov-addressvalidation-v3-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Appealable Issues API
+  slug: open-va-gov-appealable-issues-api
+- collection_type: open
   name: Appealable Issues
   slug: open-va-gov-appealable-issues-v0
+- collection_type: open
+  name: Address Validation 5103 Waiver Appeals Status API
+  slug: open-va-gov-appeals-status-api
 - collection_type: open
   name: Appeals
   slug: open-va-gov-appeals-status-v0
@@ -173,11 +191,35 @@ collections:
   name: Benefits Data Lookup API
   slug: open-va-gov-benefits-reference-data-v1
 - collection_type: open
+  name: Address Validation 5103 Waiver Claims API
+  slug: open-va-gov-claims-api
+- collection_type: open
   name: Community Care Eligibility
   slug: open-va-gov-community-care-eligibility-v0
 - collection_type: open
   name: Direct Deposit Management API
   slug: open-va-gov-direct-deposit-management-v1
+- collection_type: open
+  name: Address Validation 5103 Waiver DirectDeposit API
+  slug: open-va-gov-directdeposit-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Disability API
+  slug: open-va-gov-disability-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Disability Compensation Claims API
+  slug: open-va-gov-disability-compensation-claims-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Disability Rating API
+  slug: open-va-gov-disability-rating-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Documents Service API
+  slug: open-va-gov-documents-service-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Enrolled Benefits API
+  slug: open-va-gov-enrolled-benefits-api
+- collection_type: open
+  name: Address Validation 5103 Waiver facilities API
+  slug: open-va-gov-facilities-api
 - collection_type: open
   name: VA Facilities
   slug: open-va-gov-facilities-v0
@@ -185,26 +227,74 @@ collections:
   name: VA Facilities
   slug: open-va-gov-facilities-v1
 - collection_type: open
+  name: Address Validation 5103 Waiver Flashes API
+  slug: open-va-gov-flashes-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Forms API
+  slug: open-va-gov-forms-api
+- collection_type: open
   name: VA Forms
   slug: open-va-gov-forms-v0
+- collection_type: open
+  name: Address Validation 5103 Waiver Intent to File API
+  slug: open-va-gov-intent-to-file-api
+- collection_type: open
+  name: Address Validation 5103 Waiver JWS Validation API
+  slug: open-va-gov-jws-validation-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Legacy Appeals API
+  slug: open-va-gov-legacy-appeals-api
 - collection_type: open
   name: Legacy Appeals
   slug: open-va-gov-legacy-appeals-v0
 - collection_type: open
+  name: Address Validation 5103 Waiver Letters API
+  slug: open-va-gov-letters-api
+- collection_type: open
   name: VA Loan Guaranty - Loan Review REST API
   slug: open-va-gov-loan-review-v1
+- collection_type: open
+  name: Address Validation 5103 Waiver Path API
+  slug: open-va-gov-path-api
 - collection_type: open
   name: API Collection
   slug: open-va-gov-patient-health-fhir-r4-capability
 - collection_type: open
+  name: Address Validation 5103 Waiver Permanent And Total Disability API
+  slug: open-va-gov-permanent-and-total-disability-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Power of Attorney API
+  slug: open-va-gov-power-of-attorney-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Reference Data API
+  slug: open-va-gov-reference-data-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Search API
+  slug: open-va-gov-search-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Service History API
+  slug: open-va-gov-service-history-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Status API
+  slug: open-va-gov-status-api
+- collection_type: open
+  name: Address Validation 5103 Waiver Uploads API
+  slug: open-va-gov-uploads-api
+- collection_type: open
   name: VA Letter Generator API
   slug: open-va-gov-va-letter-generator-v1
+- collection_type: open
+  name: Address Validation 5103 Waiver veteran_confirmation_status API
+  slug: open-va-gov-veteran-confirmation-status-api
 - collection_type: open
   name: Veteran Confirmation
   slug: open-va-gov-veteran-confirmation-v0
 - collection_type: open
   name: Veteran Confirmation
   slug: open-va-gov-veteran-confirmation-v1
+- collection_type: open
+  name: Address Validation 5103 Waiver Veteran Verification API
+  slug: open-va-gov-veteran-verification-api
 - collection_type: open
   name: Veteran Verification
   slug: open-va-gov-veteran-verification-v0
@@ -418,7 +508,7 @@ overview: 'VA Lighthouse publishes 30 APIs on the [APIs.io](https://apis.io/) ne
 
 
   VA Lighthouse''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, support, engineering blog, and 33 more developer resources.'
-random_paper: 112
+random_paper: 145
 scopes:
 - name: Va Gov Scopes
   scope_count: 35
@@ -450,7 +540,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png
 security:

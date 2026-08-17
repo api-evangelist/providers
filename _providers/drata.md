@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -84,8 +84,44 @@ apis:
 - description: The Vendors API from Drata — 1 operation(s) for vendors.
   name: Drata Vendors API
   slug: drata-vendors-api
-artifact_total: 24
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Drata Public API v2 Assets API
+  slug: open-drata-assets-api
+- collection_type: open
+  name: Drata Public API v2 Assets Audits API
+  slug: open-drata-audits-api
+- collection_type: open
+  name: Drata Public API v2 Assets Controls API
+  slug: open-drata-controls-api
+- collection_type: open
+  name: Drata Public API v2 Assets Evidence Library API
+  slug: open-drata-evidence-library-api
+- collection_type: open
+  name: Drata Public API v2 Assets Frameworks API
+  slug: open-drata-frameworks-api
+- collection_type: open
+  name: Drata Public API v2 Assets Monitoring Tests API
+  slug: open-drata-monitoring-tests-api
+- collection_type: open
+  name: Drata Public API v2 Assets Personnel API
+  slug: open-drata-personnel-api
+- collection_type: open
+  name: Drata Public API v2 Assets Policies API
+  slug: open-drata-policies-api
+- collection_type: open
+  name: Drata Public API v2 Assets Risks API
+  slug: open-drata-risks-api
+- collection_type: open
+  name: Drata Public API v2 Assets Tasks API
+  slug: open-drata-tasks-api
+- collection_type: open
+  name: Drata Public API v2 Assets Vendors API
+  slug: open-drata-vendors-api
 - collection_type: open
   name: Drata Public API v2
   slug: open-drata
@@ -158,7 +194,7 @@ plans:
 - name: Drata Plans Pricing
   plan_count: 1
   slug: drata-plans-pricing
-random_paper: 44
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Drata Rate Limits
@@ -183,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/screenshots/drata-2026-06-20T180244.png
 security:

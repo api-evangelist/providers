@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,8 +86,53 @@ apis:
 - description: The Works API from ORCID — 2 operation(s) for works.
   name: ORCID Works API
   slug: orcid-works-api
-artifact_total: 22
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ORCID Public Address API
+  slug: open-orcid-address-api
+- collection_type: open
+  name: ORCID Public Address Educations API
+  slug: open-orcid-educations-api
+- collection_type: open
+  name: ORCID Public Address Email API
+  slug: open-orcid-email-api
+- collection_type: open
+  name: ORCID Public Address Employments API
+  slug: open-orcid-employments-api
+- collection_type: open
+  name: ORCID Public Address External Identifiers API
+  slug: open-orcid-external-identifiers-api
+- collection_type: open
+  name: ORCID Public Address Fundings API
+  slug: open-orcid-fundings-api
+- collection_type: open
+  name: ORCID Public Address Keywords API
+  slug: open-orcid-keywords-api
+- collection_type: open
+  name: ORCID Public Address Other Names API
+  slug: open-orcid-other-names-api
+- collection_type: open
+  name: ORCID Public Address Person API
+  slug: open-orcid-person-api
+- collection_type: open
+  name: ORCID Public Address Personal Details API
+  slug: open-orcid-personal-details-api
+- collection_type: open
+  name: ORCID Public Address Record API
+  slug: open-orcid-record-api
+- collection_type: open
+  name: ORCID Public Address Researcher Urls API
+  slug: open-orcid-researcher-urls-api
+- collection_type: open
+  name: ORCID Public Address Summary API
+  slug: open-orcid-summary-api
+- collection_type: open
+  name: ORCID Public Address Works API
+  slug: open-orcid-works-api
 - collection_type: open
   name: ORCID Public API
   slug: open-orcid
@@ -168,7 +213,7 @@ plans:
 - name: Orcid Plans Pricing
   plan_count: 3
   slug: orcid-plans-pricing
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Orcid Rate Limits
@@ -193,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/screenshots/orcid-2026-06-20T191203.png
 security:

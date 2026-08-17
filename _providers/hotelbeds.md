@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Transfers API from Hotelbeds — 1 operation(s) for transfers.
   name: Hotelbeds Transfers API
   slug: hotelbeds-transfers-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hotelbeds APItude Activities API
+  slug: open-hotelbeds-activities-api
+- collection_type: open
+  name: Hotelbeds APItude Activities Booking API
+  slug: open-hotelbeds-booking-api
+- collection_type: open
+  name: Hotelbeds APItude Activities Cache API
+  slug: open-hotelbeds-cache-api
+- collection_type: open
+  name: Hotelbeds APItude Activities Content API
+  slug: open-hotelbeds-content-api
+- collection_type: open
+  name: Hotelbeds APItude Activities Transfers API
+  slug: open-hotelbeds-transfers-api
 - collection_type: open
   name: Hotelbeds APItude API
   slug: open-hotelbeds
@@ -116,7 +134,7 @@ plans:
 - name: Hotelbeds Plans Pricing
   plan_count: 2
   slug: hotelbeds-plans-pricing
-random_paper: 114
+random_paper: 60
 rate_limits:
 - limit_count: 4
   name: Hotelbeds Rate Limits
@@ -141,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/screenshots/hotelbeds-2026-07-25T221500.png
 security:

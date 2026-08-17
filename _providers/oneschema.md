@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ apis:
 - description: Workspace operations
   name: Oneschema Workspaces API
   slug: oneschema-workspaces-api
-artifact_total: 63
+artifact_total: 92
 asyncapis:
 - description: ''
   name: Oneschema Webhooks
@@ -212,6 +212,93 @@ collections:
 - collection_type: postman
   name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Workspaces API
   slug: postman-oneschema-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts API
+  slug: open-oneschema-aws-secrets-manager-accounts-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts AWS Secrets Manager Secrets API
+  slug: open-oneschema-aws-secrets-manager-secrets-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Azure Key Vault Accounts API
+  slug: open-oneschema-azure-key-vault-accounts-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Azure Key Vault Secrets API
+  slug: open-oneschema-azure-key-vault-secrets-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Code Hooks (Legacy) API
+  slug: open-oneschema-code-hooks-legacy-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Event Webhooks API
+  slug: open-oneschema-event-webhooks-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeed Folders API
+  slug: open-oneschema-filefeed-folders-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeed Mappings API
+  slug: open-oneschema-filefeed-mappings-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeeds API
+  slug: open-oneschema-filefeeds-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeeds Embed Sessions API
+  slug: open-oneschema-filefeeds-embed-sessions-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeeds Imports API
+  slug: open-oneschema-filefeeds-imports-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Headless Importer API
+  slug: open-oneschema-headless-importer-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Importer Embed Events API
+  slug: open-oneschema-importer-embed-events-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Importer Embeds API
+  slug: open-oneschema-importer-embeds-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Importer Webhooks API
+  slug: open-oneschema-importer-webhooks-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts MCP Server API
+  slug: open-oneschema-mcp-server-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeed Commits API
+  slug: open-oneschema-multi-filefeed-commits-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeed Folders API
+  slug: open-oneschema-multi-filefeed-folders-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeed Imports API
+  slug: open-oneschema-multi-filefeed-imports-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeed Transforms API
+  slug: open-oneschema-multi-filefeed-transforms-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeeds API
+  slug: open-oneschema-multi-filefeeds-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts S3 Accounts API
+  slug: open-oneschema-s3-accounts-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts SFTP Accounts API
+  slug: open-oneschema-sftp-accounts-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Sheets API
+  slug: open-oneschema-sheets-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Template Hooks API
+  slug: open-oneschema-template-hooks-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Templates API
+  slug: open-oneschema-templates-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Workspace Sheets API
+  slug: open-oneschema-workspace-sheets-api
+- collection_type: open
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Workspaces API
+  slug: open-oneschema-workspaces-api
 common:
 - group: other
   title: ''
@@ -384,7 +471,7 @@ overview: 'Oneschema publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 31 more developer resources.'
-random_paper: 107
+random_paper: 53
 score:
   band: strong
   composite: 63.9
@@ -408,7 +495,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/screenshots/oneschema-2026-08-07T190340.png
 security:

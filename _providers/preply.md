@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,14 @@ apis:
 - description: The Chatgpt Openapi API from Preply — 2 operation(s) for chatgpt openapi.
   name: Preply Chatgpt Openapi API
   slug: preply-chatgpt-openapi-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Preply plugin Chatgpt Openapi API
+  slug: open-preply-chatgpt-openapi-api
 common:
 - group: agent
   title: ''
@@ -130,7 +137,7 @@ overview: 'Preply publishes 1 API on the [APIs.io](https://apis.io/) network: Ch
 
 
   Preply''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 68
+random_paper: 72
 score:
   band: thin
   composite: 30.0
@@ -154,7 +161,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

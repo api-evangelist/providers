@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Operations for managing DNS authorizations
   name: Google Cloud Certificate Manager DnsAuthorizations API
   slug: google-cloud-certificate-manager-dnsauthorizations-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud Certificate Manager CertificateMaps API
@@ -60,8 +60,20 @@ collections:
   name: Google Cloud Certificate Manager CertificateMaps DnsAuthorizations API
   slug: postman-google-cloud-certificate-manager-dnsauthorizations-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Certificate Manager API
   slug: open-certificate-manager-api
+- collection_type: open
+  name: Google Cloud Certificate Manager CertificateMaps API
+  slug: open-google-cloud-certificate-manager-certificatemaps-api
+- collection_type: open
+  name: Google Cloud Certificate Manager CertificateMaps Certificates API
+  slug: open-google-cloud-certificate-manager-certificates-api
+- collection_type: open
+  name: Google Cloud Certificate Manager CertificateMaps DnsAuthorizations API
+  slug: open-google-cloud-certificate-manager-dnsauthorizations-api
 common:
 - group: build
   title: ''
@@ -163,7 +175,7 @@ plans:
 - name: Google Cloud Certificate Manager Plans Pricing
   plan_count: 3
   slug: google-cloud-certificate-manager-plans-pricing
-random_paper: 73
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Google Cloud Certificate Manager Rate Limits
@@ -202,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/screenshots/google-cloud-certificate-manager-2026-06-20T182052.png
 security:

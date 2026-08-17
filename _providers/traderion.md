@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Traderion
 nav: Providers
 network: true
 overview: Traderion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Trading, Training, and Simulation.
-random_paper: 8
+random_paper: 74
 score:
   band: minimal
   composite: 6.4
@@ -84,7 +84,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: A seller's orders (authenticated).
@@ -40,7 +40,23 @@ apis:
 - description: Store product listings (public read).
   name: Tindie product API
   slug: tindie-product-api
-artifact_total: 6
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tindie order API
+  slug: open-tindie-order-api
+- collection_type: open
+  name: Tindie order orderitem API
+  slug: open-tindie-orderitem-api
+- collection_type: open
+  name: Tindie order product API
+  slug: open-tindie-product-api
+- collection_type: open
+  name: API Collection
+  slug: open-tindie-product-schema
 common:
 - group: auth
   title: ''
@@ -130,7 +146,7 @@ overview: 'Tindie publishes 3 APIs on the [APIs.io](https://apis.io/) network: o
 
 
   Tindie''s developer surface includes API reference, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 37
+random_paper: 41
 score:
   band: thin
   composite: 32.4
@@ -153,7 +169,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

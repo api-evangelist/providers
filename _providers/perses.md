@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: Manage Perses projects (workspaces).
   name: Perses Projects API
   slug: perses-projects-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Perses Dashboards API
+  slug: open-perses-dashboards-api
+- collection_type: open
+  name: Perses Dashboards Datasources API
+  slug: open-perses-datasources-api
+- collection_type: open
+  name: Perses Dashboards Global Datasources API
+  slug: open-perses-global-datasources-api
+- collection_type: open
+  name: Perses Dashboards Projects API
+  slug: open-perses-projects-api
 - collection_type: open
   name: Perses API
   slug: open-perses
@@ -123,7 +138,7 @@ plans:
 - name: Perses Plans Pricing
   plan_count: 3
   slug: perses-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Perses Rate Limits
@@ -148,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/screenshots/perses-2026-06-20T191616.png
 security:

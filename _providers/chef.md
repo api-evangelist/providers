@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Create a role, read it back, then place it in a node's run list.
   name: Chef Define a Role and Assign It to a Node
   slug: chef-role-assignment-workflow
-artifact_total: 52
+artifact_total: 66
 collections:
 - collection_type: postman
   name: Chef Automate Channels API
@@ -148,14 +148,56 @@ collections:
   name: Chef Automate Channels Users API
   slug: postman-chef-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Chef Automate API
   slug: open-chef-automate-api
+- collection_type: open
+  name: Chef Automate Channels API
+  slug: open-chef-channels-api
+- collection_type: open
+  name: Chef Automate Channels Clients API
+  slug: open-chef-clients-api
+- collection_type: open
+  name: Chef Automate Channels Cookbooks API
+  slug: open-chef-cookbooks-api
+- collection_type: open
+  name: Chef Automate Channels Data Bags API
+  slug: open-chef-data-bags-api
+- collection_type: open
+  name: Chef Automate Channels Environments API
+  slug: open-chef-environments-api
 - collection_type: open
   name: Chef Habitat Builder API
   slug: open-chef-habitat-builder-api
 - collection_type: open
+  name: Chef Automate Channels IAM API
+  slug: open-chef-iam-api
+- collection_type: open
   name: Chef Infra Server API
   slug: open-chef-infra-server-api
+- collection_type: open
+  name: Chef Automate Channels Nodes API
+  slug: open-chef-nodes-api
+- collection_type: open
+  name: Chef Automate Channels Packages API
+  slug: open-chef-packages-api
+- collection_type: open
+  name: Chef Automate Channels Profiles API
+  slug: open-chef-profiles-api
+- collection_type: open
+  name: Chef Automate Channels Reports API
+  slug: open-chef-reports-api
+- collection_type: open
+  name: Chef Automate Channels Roles API
+  slug: open-chef-roles-api
+- collection_type: open
+  name: Chef Automate Channels Scans API
+  slug: open-chef-scans-api
+- collection_type: open
+  name: Chef Automate Channels Users API
+  slug: open-chef-users-api
 common:
 - group: other
   title: ''
@@ -367,7 +409,7 @@ plans:
 - name: Chef Plans Pricing
   plan_count: 3
   slug: chef-plans-pricing
-random_paper: 46
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Chef Rate Limits
@@ -403,7 +445,7 @@ score:
       total: 13
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/screenshots/chef-2026-06-20T174250.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,17 +18,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-12'
+  score: 48.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 13
   slug: localytics-agentic-access
   summary_line: 13 operations · 8 acting
-api_count: 3
+api_count: 10
 apis:
 - description: Requests relating to audiences
   name: Localytics Audiences API
@@ -47,7 +47,41 @@ apis:
 - description: Requests relating to push-channel campaigns
   name: Localytics Push Campaigns API
   slug: localytics-push-campaigns-api
-artifact_total: 8
+- description: Programmatic push messaging delivery. Submit a batch of pushes for an application targeting customer_ids, an audience_id, a profile query, or a broadcast; messages are forwarded to push-segmenter or m
+  name: Localytics Transactional Push API
+  slug: localytics-transactional-push-api
+- description: HAL+JSON reporting and analytics API. Run queries over apps, events, sessions, users, profiles and attribution data with metrics, dimensions and conditions; the service root at https://api.localytics.
+  name: Localytics Query API
+  slug: localytics-query-api
+- description: Read, create, update and delete user profile attributes used for targeting and segmentation, addressed by customer_id at the org, app or customer scope. No machine-readable specification is published.
+  name: Localytics Profile API
+  slug: localytics-profile-api
+- description: Server-side event ingestion for in-app activity that completes off-device (purchases, fulfilment, backend conversions). Accepts JSON or gzipped JSON up to 256 KB per POST, validated against a publishe
+  name: Localytics Events API
+  slug: localytics-events-api
+- description: Bulk export of audiences, profiles and raw analytics logs. Requests return a 302 redirect to a generated export file; audiences must be enabled for export in the dashboard first. No machine-readable s
+  name: Localytics Export APIs
+  slug: localytics-export-apis
+- description: Bulk import of user profiles and audience lists built in external systems (CRM, marketing cloud) into Localytics for targeting and campaign use, with an asynchronous status endpoint per import job. No
+  name: Localytics Import APIs
+  slug: localytics-import-apis
+- description: Point-of-interest sync for location-triggered messaging — upload and manage the geofence/POI set an app monitors. Rate limited to 20 requests per hour and 50 per day per app. No machine-readable speci
+  name: Localytics Places API
+  slug: localytics-places-api
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Localytics Campaigns And Audience Audiences API
+  slug: open-localytics-audiences-api
+- collection_type: open
+  name: Localytics And Audience Audiences Campaigns API
+  slug: open-localytics-campaigns-api
+- collection_type: open
+  name: Localytics Campaigns And Audience Audiences Push Campaigns API
+  slug: open-localytics-push-campaigns-api
 common:
 - group: start
   title: ''
@@ -153,38 +187,99 @@ common:
   title: ''
   type: Website
   url: https://www.localytics.com/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/localytics-transactional-push-openapi.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/localytics-transactional-push-overlay.yaml
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/localytics-push.proto
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/localytics-events-api-v1-schema.json
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/localytics-tool-crosswalk.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/localytics-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/localytics-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/localytics-plans-pricing.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.localytics.com/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/localytics-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.localytics.com/security
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/localytics
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.localytics.com/login
 created: '2026-07-17'
-description: Localytics is a mobile analytics and customer-engagement platform that turns the behavioral signals a mobile app already produces into real-time analytics and personalized, data-driven campaigns across push notifications, in-app messages, and inbox messaging. It serves product, marketing, and engineering teams with segmentation, audience building, and campaign management. For developers it exposes a set of HTTP REST APIs — a Query/Reporting API (HAL+JSON), a Push API for message delivery, and a Campaigns & Audience API (OpenAPI 3.0.3) for programmatic campaign and audience management — alongside first-party SDKs for Android, iOS, Apple TV, React Native, Web, and Windows. Added to the API Evangelist network as a portfolio lead and enriched from its live developer documentation.
+description: 'Localytics is a mobile analytics and customer-engagement platform that turns the behavioral signals a mobile app already produces into real-time analytics and personalized, data-driven campaigns across push notifications, in-app messages, and inbox messaging. It serves product, marketing, and engineering teams with segmentation, audience building, and campaign management. Its developer surface is broad but unevenly specified: two real OpenAPI 3.0.3 documents (a Campaigns & Audience API and a Transactional Push API served live at messaging.localytics.com/swagger.json), an MIT-licensed proto3 definition for a bidirectional streaming gRPC push service, and a published JSON Schema for Events API requests — alongside six further production REST APIs (Query/Reporting in HAL+JSON, Profile, Events, Exports, Imports, Places) that are documented only in prose. Everything authenticates with one organization-level API key and secret over HTTP Basic; there is no OAuth, no scopes and no
+  rate-limit response headers anywhere. First-party SDKs cover iOS, Android, Web, Maui, Flutter, React Native, tvOS, Xamarin, Unity, Cordova and Windows. Localytics is an Upland Software product.'
 image: https://localytics.com/og-image.png
+json_schemas:
+- name: Events API Request V1
+  property_count: 8
+  slug: localytics-events-api-v1
 layout: provider
 mcp_servers:
 - description: ''
   name: localytics-mcp.yml
   slug: localytics-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Localytics
 nav: Providers
 network: true
-overview: 'Localytics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Audiences API, Campaigns API, and Push Campaigns API. Tagged areas include Company, Martech, Mobile Analytics, Push Notifications, and Customer Engagement.
+overview: 'Localytics publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Push Campaigns API, and 1 more. Tagged areas include Company, Martech, Mobile Analytics, Push Notifications, and Customer Engagement.
 
 
-  Localytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 119
+  Localytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 32 more developer resources.'
+plans:
+- name: Localytics Plans Pricing
+  plan_count: 0
+  slug: localytics-plans-pricing
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Localytics Rate Limits
   slug: localytics-rate-limits
 score:
-  band: thin
-  composite: 40.1
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: 10.8
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 55.2
-    developer_ergonomics: 62.5
+    commercial_clarity: 34.2
+    contract_quality: 58.1
+    developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 0.0
+    operational_transparency: 47.4
   previous_composite: 40.1
   provenance:
     agentic_access: derived
@@ -197,8 +292,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/screenshots/localytics-2026-07-25T225426.png
 security:
 - kind: authentication
@@ -209,6 +304,10 @@ security:
   name: Localytics Domain Security
   slug: localytics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Localytics Vulnerability Disclosure
+  slug: localytics-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 slug: localytics
 tags:
 - Company
@@ -218,5 +317,10 @@ tags:
 - Customer Engagement
 - Marketing Automation
 - APIs
+- Mobile
+- Segmentation
+- Audiences
+- Event Ingestion
+- gRPC
 website: https://www.localytics.com/
 ---

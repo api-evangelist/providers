@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ apis:
 - description: Operations for creating, updating, deleting, and listing Azure Virtual Networks within subscriptions and resource groups.
   name: Azure Networking Virtual Networks API
   slug: microsoft-azure-networking-virtual-networks-api
-artifact_total: 69
+artifact_total: 78
 collections:
 - collection_type: postman
   name: Azure Networking Azure Load Balancer Backend Address Pools API
@@ -141,11 +141,38 @@ collections:
   name: Azure Networking Azure Load Balancer Backend Address Pools Virtual Networks API
   slug: postman-microsoft-azure-networking-virtual-networks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Networking Azure Load Balancer API
   slug: open-azure-networking-load-balancer
 - collection_type: open
   name: Azure Networking Azure Virtual Networks API
   slug: open-azure-networking-virtual-networks
+- collection_type: open
+  name: Azure Networking Azure Load Balancer Backend Address Pools API
+  slug: open-microsoft-azure-networking-backend-address-pools-api
+- collection_type: open
+  name: Azure Networking Azure Load Balancer Backend Address Pools Load Balancer Probes API
+  slug: open-microsoft-azure-networking-load-balancer-probes-api
+- collection_type: open
+  name: Azure Networking Azure Load Balancer Backend Address Pools Load Balancers API
+  slug: open-microsoft-azure-networking-load-balancers-api
+- collection_type: open
+  name: Azure Networking Azure Load Balancer Backend Address Pools Load Balancing Rules API
+  slug: open-microsoft-azure-networking-load-balancing-rules-api
+- collection_type: open
+  name: Azure Networking Azure Load Balancer Backend Address Pools Operations API
+  slug: open-microsoft-azure-networking-operations-api
+- collection_type: open
+  name: Azure Networking Azure Load Balancer Backend Address Pools Subnets API
+  slug: open-microsoft-azure-networking-subnets-api
+- collection_type: open
+  name: Azure Networking Azure Load Balancer Backend Address Pools Virtual Network Peerings API
+  slug: open-microsoft-azure-networking-virtual-network-peerings-api
+- collection_type: open
+  name: Azure Networking Azure Load Balancer Backend Address Pools Virtual Networks API
+  slug: open-microsoft-azure-networking-virtual-networks-api
 - collection_type: open
   name: Azure Virtual Network REST API
   slug: open-microsoft-azure-networking
@@ -366,7 +393,7 @@ plans:
 - name: Microsoft Azure Networking Plans Pricing
   plan_count: 11
   slug: microsoft-azure-networking-plans-pricing
-random_paper: 79
+random_paper: 37
 rate_limits:
 - limit_count: 7
   name: Microsoft Azure Networking Rate Limits
@@ -405,7 +432,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/screenshots/microsoft-azure-networking-2026-06-20T185429.png
 security:

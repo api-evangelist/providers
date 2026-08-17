@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: MetLife Study Finds AI Acceleration Is Creating New ...
   url: https://www.metlife.com/about-us/newsroom/2026/march/metlife-study-finds-ai-acceleration-is-creating-new-concerns-in-todays-workplace/
-random_paper: 22
+random_paper: 146
 score:
   band: minimal
   composite: 6.0
@@ -96,7 +96,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metlife/refs/heads/main/screenshots/metlife-2026-06-20T185258.png
 security:

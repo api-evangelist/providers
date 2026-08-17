@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: Look up free-text breed information where available.
   name: Dog API Info API
   slug: dog-api-info-api
-artifact_total: 40
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dog Breeds API
+  slug: open-dog-api-breeds-api
+- collection_type: open
+  name: Dog Breeds Images API
+  slug: open-dog-api-images-api
+- collection_type: open
+  name: Dog Breeds Info API
+  slug: open-dog-api-info-api
 - collection_type: open
   name: Dog API
   slug: open-dog-api
@@ -217,7 +229,7 @@ plans:
 - name: Dog Api Plans Pricing
   plan_count: 3
   slug: dog-api-plans-pricing
-random_paper: 73
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Dog Api Rate Limits
@@ -265,7 +277,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/screenshots/dog-api-2026-06-20T180122.png
 security:

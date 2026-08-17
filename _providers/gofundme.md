@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 72
 apis:
 - description: GoFundMe Pro's single sign-on service, implemented against OpenID Connect, letting third-party apps register and log people in with their Classy/GoFundMe Pro account. Authorization endpoint at login.c
@@ -237,11 +237,225 @@ apis:
 - description: 'A record indicating one of the possible currencies that an organization is allowing for fundraising and transactions. If no such records exist for an organization, it is assumed that the organization '
   name: GoFundMe Whitelisted Currency API
   slug: gofundme-whitelisted-currency-api
-artifact_total: 80
+artifact_total: 151
 asyncapis:
 - description: ''
   name: Gofundme Webhooks
   slug: gofundme-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GoFundMe Pro Acknowledgement API
+  slug: open-gofundme-acknowledgement-api
+- collection_type: open
+  name: GoFundMe Pro Activity API
+  slug: open-gofundme-activity-api
+- collection_type: open
+  name: GoFundMe Pro Annual Summary API
+  slug: open-gofundme-annual-summary-api
+- collection_type: open
+  name: GoFundMe Pro Answer API
+  slug: open-gofundme-answer-api
+- collection_type: open
+  name: GoFundMe Pro API App API
+  slug: open-gofundme-api-app-api
+- collection_type: open
+  name: GoFundMe Pro Appeal Set API
+  slug: open-gofundme-appeal-set-api
+- collection_type: open
+  name: GoFundMe Pro Branding API
+  slug: open-gofundme-branding-api
+- collection_type: open
+  name: GoFundMe Pro Brandkit API
+  slug: open-gofundme-brandkit-api
+- collection_type: open
+  name: GoFundMe Pro Campaign API
+  slug: open-gofundme-campaign-api
+- collection_type: open
+  name: GoFundMe Pro Campaign Channel API
+  slug: open-gofundme-campaign-channel-api
+- collection_type: open
+  name: GoFundMe Pro Campaign Credential Set API
+  slug: open-gofundme-campaign-credential-set-api
+- collection_type: open
+  name: GoFundMe Pro Campaign Series API
+  slug: open-gofundme-campaign-series-api
+- collection_type: open
+  name: GoFundMe Pro Campaign Series Iteration API
+  slug: open-gofundme-campaign-series-iteration-api
+- collection_type: open
+  name: GoFundMe Pro Campaign Studio API
+  slug: open-gofundme-campaign-studio-api
+- collection_type: open
+  name: GoFundMe Pro Channel Fundraising Entity API
+  slug: open-gofundme-channel-fundraising-entity-api
+- collection_type: open
+  name: GoFundMe Pro Chariot API
+  slug: open-gofundme-chariot-api
+- collection_type: open
+  name: GoFundMe Pro Classy Subscription Plan API
+  slug: open-gofundme-classy-subscription-plan-api
+- collection_type: open
+  name: GoFundMe Pro Comment API
+  slug: open-gofundme-comment-api
+- collection_type: open
+  name: GoFundMe Pro Credit Adjustment API
+  slug: open-gofundme-credit-adjustment-api
+- collection_type: open
+  name: GoFundMe Pro Dedication API
+  slug: open-gofundme-dedication-api
+- collection_type: open
+  name: GoFundMe Pro Designation API
+  slug: open-gofundme-designation-api
+- collection_type: open
+  name: GoFundMe Pro Domain Slug API
+  slug: open-gofundme-domain-slug-api
+- collection_type: open
+  name: GoFundMe Pro Donation Matching Plan API
+  slug: open-gofundme-donation-matching-plan-api
+- collection_type: open
+  name: GoFundMe Pro Double the Donation API
+  slug: open-gofundme-double-the-donation-api
+- collection_type: open
+  name: GoFundMe Pro E Card API
+  slug: open-gofundme-ecard-api
+- collection_type: open
+  name: GoFundMe Pro Engagement Settings API
+  slug: open-gofundme-engagement-settings-api
+- collection_type: open
+  name: GoFundMe Pro FAQ API
+  slug: open-gofundme-faq-api
+- collection_type: open
+  name: GoFundMe Pro Feed Item API
+  slug: open-gofundme-feed-item-api
+- collection_type: open
+  name: GoFundMe Pro Fundraising Page API
+  slug: open-gofundme-fundraising-page-api
+- collection_type: open
+  name: GoFundMe Pro Fundraising Page Transfer API
+  slug: open-gofundme-fundraising-page-transfer-api
+- collection_type: open
+  name: GoFundMe Pro Fundraising Team API
+  slug: open-gofundme-fundraising-team-api
+- collection_type: open
+  name: GoFundMe Pro Fundraising Team Policy API
+  slug: open-gofundme-fundraising-team-policy-api
+- collection_type: open
+  name: GoFundMe Pro Fundraising Team Transfer API
+  slug: open-gofundme-fundraising-team-transfer-api
+- collection_type: open
+  name: GoFundMe Pro GFM NPO Page API
+  slug: open-gofundme-gfm-npo-page-api
+- collection_type: open
+  name: GoFundMe Pro Hard Credit Transfer API
+  slug: open-gofundme-hard-credit-transfer-api
+- collection_type: open
+  name: GoFundMe Pro Like API
+  slug: open-gofundme-like-api
+- collection_type: open
+  name: GoFundMe Pro Magic Link API
+  slug: open-gofundme-magiclink-api
+- collection_type: open
+  name: GoFundMe Pro Matched Transaction API
+  slug: open-gofundme-matched-transaction-api
+- collection_type: open
+  name: GoFundMe Pro Member API
+  slug: open-gofundme-member-api
+- collection_type: open
+  name: GoFundMe Pro Organization API
+  slug: open-gofundme-organization-api
+- collection_type: open
+  name: GoFundMe Pro Organization Channel API
+  slug: open-gofundme-organization-channel-api
+- collection_type: open
+  name: GoFundMe Pro Organization Consumer Mappings API
+  slug: open-gofundme-organization-consumer-mappings-api
+- collection_type: open
+  name: GoFundMe Pro Organization Credential Set API
+  slug: open-gofundme-organization-credential-set-api
+- collection_type: open
+  name: GoFundMe Pro Organization Notification API
+  slug: open-gofundme-organization-notification-api
+- collection_type: open
+  name: GoFundMe Pro Organizations API
+  slug: open-gofundme-organizations-api
+- collection_type: open
+  name: GoFundMe Pro Payouts API
+  slug: open-gofundme-payouts-api
+- collection_type: open
+  name: GoFundMe Pro Promo Code API
+  slug: open-gofundme-promo-code-api
+- collection_type: open
+  name: GoFundMe Pro Promo Code Configuration API
+  slug: open-gofundme-promo-code-configuration-api
+- collection_type: open
+  name: GoFundMe Pro Question API
+  slug: open-gofundme-question-api
+- collection_type: open
+  name: GoFundMe Pro Recurring Donation Plan API
+  slug: open-gofundme-recurring-donation-plan-api
+- collection_type: open
+  name: GoFundMe Pro Recurring Donation Plan History API
+  slug: open-gofundme-recurring-donation-plan-history-api
+- collection_type: open
+  name: GoFundMe Pro Registration API
+  slug: open-gofundme-registration-api
+- collection_type: open
+  name: GoFundMe Pro Reports API
+  slug: open-gofundme-reports-api
+- collection_type: open
+  name: GoFundMe Pro Restricted Country API
+  slug: open-gofundme-restricted-country-api
+- collection_type: open
+  name: GoFundMe Pro Role API
+  slug: open-gofundme-role-api
+- collection_type: open
+  name: GoFundMe Pro Social Video API
+  slug: open-gofundme-social-video-api
+- collection_type: open
+  name: GoFundMe Pro Soft Credit API
+  slug: open-gofundme-softcredit-api
+- collection_type: open
+  name: GoFundMe Pro Source Tracking Codes API
+  slug: open-gofundme-source-tracking-codes-api
+- collection_type: open
+  name: GoFundMe Pro Staff Notification Setting API
+  slug: open-gofundme-staff-notification-setting-api
+- collection_type: open
+  name: GoFundMe Pro Story API
+  slug: open-gofundme-story-api
+- collection_type: open
+  name: GoFundMe Pro Studio Campaign API
+  slug: open-gofundme-studio-campaign-api
+- collection_type: open
+  name: GoFundMe Pro Supporter API
+  slug: open-gofundme-supporter-api
+- collection_type: open
+  name: GoFundMe Pro Supporters API
+  slug: open-gofundme-supporters-api
+- collection_type: open
+  name: GoFundMe Pro Theme API
+  slug: open-gofundme-theme-api
+- collection_type: open
+  name: GoFundMe Pro Ticket Type API
+  slug: open-gofundme-ticket-type-api
+- collection_type: open
+  name: GoFundMe Pro Transaction API
+  slug: open-gofundme-transaction-api
+- collection_type: open
+  name: GoFundMe Pro Transaction Item API
+  slug: open-gofundme-transaction-item-api
+- collection_type: open
+  name: GoFundMe Pro Transaction Receipt API
+  slug: open-gofundme-transaction-receipt-api
+- collection_type: open
+  name: GoFundMe Pro Update API
+  slug: open-gofundme-update-api
+- collection_type: open
+  name: GoFundMe Pro Whitelisted Currency API
+  slug: open-gofundme-whitelisted-currency-api
 common:
 - group: other
   title: ''
@@ -402,7 +616,7 @@ overview: 'GoFundMe publishes 70 APIs on the [APIs.io](https://apis.io/) network
 
 
   GoFundMe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 13
+random_paper: 108
 rate_limits:
 - limit_count: 1
   name: Gofundme Rate Limits
@@ -440,7 +654,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/screenshots/gofundme-2026-08-07T165756.png
 security:

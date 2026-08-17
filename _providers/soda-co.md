@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -78,7 +78,50 @@ apis:
 - description: API connectivity and authentication testing
   name: Soda Utility API
   slug: soda-co-utility-api
-artifact_total: 29
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Soda Cloud REST Attributes API
+  slug: open-soda-co-attributes-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Checks API
+  slug: open-soda-co-checks-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Contracts API
+  slug: open-soda-co-contracts-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Datasets API
+  slug: open-soda-co-datasets-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Datasources API
+  slug: open-soda-co-datasources-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Discovered Datasets API
+  slug: open-soda-co-discovered-datasets-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Incidents API
+  slug: open-soda-co-incidents-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Notification Rules API
+  slug: open-soda-co-notification-rules-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Runners API
+  slug: open-soda-co-runners-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Scans API
+  slug: open-soda-co-scans-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Secrets API
+  slug: open-soda-co-secrets-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Users API
+  slug: open-soda-co-users-api
+- collection_type: open
+  name: Soda Cloud REST Attributes Utility API
+  slug: open-soda-co-utility-api
 common:
 - group: agent
   title: ''
@@ -191,7 +234,7 @@ plans:
 - name: Soda Co Plans Pricing
   plan_count: 3
   slug: soda-co-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Soda Co Rate Limits
@@ -225,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soda-co/refs/heads/main/screenshots/soda-co-2026-06-20T194129.png
 security:

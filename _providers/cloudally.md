@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: User and account management.
   name: CloudAlly Users API
   slug: cloudally-users-api
-artifact_total: 19
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CloudAlly Authentication API
+  slug: open-cloudally-authentication-api
+- collection_type: open
+  name: CloudAlly Authentication Backups API
+  slug: open-cloudally-backups-api
+- collection_type: open
+  name: CloudAlly Authentication Billing API
+  slug: open-cloudally-billing-api
+- collection_type: open
+  name: CloudAlly Authentication Partners API
+  slug: open-cloudally-partners-api
+- collection_type: open
+  name: CloudAlly Authentication Restore API
+  slug: open-cloudally-restore-api
+- collection_type: open
+  name: CloudAlly Authentication Tasks API
+  slug: open-cloudally-tasks-api
+- collection_type: open
+  name: CloudAlly Authentication Users API
+  slug: open-cloudally-users-api
 - collection_type: open
   name: CloudAlly API
   slug: open-cloudally
@@ -158,7 +182,7 @@ plans:
 - name: Cloudally Plans Pricing
   plan_count: 3
   slug: cloudally-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Cloudally Rate Limits
@@ -200,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/screenshots/cloudally-2026-06-20T174540.png
 security:

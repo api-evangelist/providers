@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Endpoint for retrieving claims about the authenticated end-user.
   name: OIDC UserInfo API
   slug: oidc-userinfo-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenID Connect Authentication API
+  slug: open-oidc-authentication-api
+- collection_type: open
+  name: OpenID Connect Authentication Discovery API
+  slug: open-oidc-discovery-api
+- collection_type: open
+  name: OpenID Connect Authentication JWKS API
+  slug: open-oidc-jwks-api
+- collection_type: open
+  name: OpenID Connect Authentication Session API
+  slug: open-oidc-session-api
+- collection_type: open
+  name: OpenID Connect Authentication Token API
+  slug: open-oidc-token-api
+- collection_type: open
+  name: OpenID Connect Authentication UserInfo API
+  slug: open-oidc-userinfo-api
 - collection_type: open
   name: OpenID Connect API
   slug: open-oidc
@@ -124,7 +145,7 @@ plans:
 - name: Oidc Plans Pricing
   plan_count: 3
   slug: oidc-plans-pricing
-random_paper: 55
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Oidc Rate Limits
@@ -158,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/screenshots/oidc-2026-06-20T190645.png
 security:

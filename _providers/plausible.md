@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 49.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -63,18 +64,173 @@ apis:
 - description: The Teams API from Plausible — 1 operation(s) for teams.
   name: Plausible Teams API
   slug: plausible-teams-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Plausible Events CustomProps API
+  slug: open-plausible-customprops-api
+- collection_type: open
+  name: Plausible CustomProps Events API
+  slug: open-plausible-events-api
 - collection_type: open
   name: Plausible Events API
   slug: open-plausible-events
+- collection_type: open
+  name: Plausible Events CustomProps Goals API
+  slug: open-plausible-goals-api
+- collection_type: open
+  name: Plausible Events CustomProps Guests API
+  slug: open-plausible-guests-api
+- collection_type: open
+  name: Plausible Events CustomProps Query API
+  slug: open-plausible-query-api
+- collection_type: open
+  name: Plausible Events CustomProps SharedLinks API
+  slug: open-plausible-sharedlinks-api
+- collection_type: open
+  name: Plausible Events CustomProps Sites API
+  slug: open-plausible-sites-api
 - collection_type: open
   name: Plausible Sites API
   slug: open-plausible-sites
 - collection_type: open
   name: Plausible Stats API
   slug: open-plausible-stats
+- collection_type: open
+  name: Plausible Events CustomProps Teams API
+  slug: open-plausible-teams-api
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/plausible-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/plausible-packages.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/plausible-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/plausible-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/plausible-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://plausible.io/compliance
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/plausible-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/plausible-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://plausible.io/status
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/plausible-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/plausible-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/plausible-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/plausible-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/plausible-sandbox.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/plausible-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://plausible.io/vulnerability-disclosure-program
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/plausible-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/plausible-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/plausible-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/plausible-mcp.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://plausible.io/roadmap
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/plausible
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/plausible/analytics
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://plausible.io/docs/stats-api
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://plausible.io/docs/data-access
+- group: other
+  title: ''
+  type: Playground
+  url: https://plausible.io/docs/stats-api-playground
+- group: start
+  title: ''
+  type: Demo
+  url: https://plausible.io/plausible.io
+- group: commercial
+  title: ''
+  type: DataProcessingAgreement
+  url: https://plausible.io/dpa
+- group: other
+  title: ''
+  type: Imprint
+  url: https://plausible.io/imprint
+- group: company
+  title: ''
+  type: Bluesky
+  url: https://bsky.app/profile/plausible.io
+- group: company
+  title: ''
+  type: Mastodon
+  url: https://fosstodon.org/@plausible
 - group: agent
   title: ''
   type: AgenticAccess
@@ -159,34 +315,38 @@ finops:
   slug: plausible-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plausible.png
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: plausible-mcp.yml
+  slug: plausible-mcpyml
+modified: '2026-08-13'
 name: Plausible
 nav: Providers
 network: true
-overview: 'Plausible publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CustomProps API, Events API, Goals API, and 5 more. Tagged areas include Analytics, Cookie-Free, GDPR, Open Source, and Privacy.
+overview: 'Plausible publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CustomProps API, Events API, Goals API, and 5 more. Tagged areas include Analytics, Cookie-Free, Event Tracking, GDPR, and Goal Conversions.
 
 
-  Plausible''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, signup flow, and 12 more developer resources.'
+  Plausible''s developer surface includes changelog, sandbox, API reference, authentication, documentation, getting-started guide, engineering blog, and 44 more developer resources.'
 plans:
 - name: Plausible Plans Pricing
   plan_count: 4
   slug: plausible-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Plausible Rate Limits
   slug: plausible-rate-limits
 score:
-  band: developing
-  composite: 44.6
-  delta: 0.0
+  band: strong
+  composite: 60.9
+  delta: 16.3
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 68.4
     contract_quality: 50.4
-    developer_ergonomics: 43.5
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 28.9
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 60.5
   previous_composite: 44.6
   provenance:
     agentic_access: derived
@@ -196,8 +356,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/screenshots/plausible-2026-06-20T191759.png
 security:
 - kind: authentication
@@ -208,13 +368,21 @@ security:
   name: Plausible Domain Security
   slug: plausible-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Plausible Vulnerability Disclosure
+  slug: plausible-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: plausible
 tags:
 - Analytics
 - Cookie-Free
+- Event Tracking
 - GDPR
+- Goal Conversions
 - Open Source
 - Privacy
+- Self-Hosted
+- Site Management
 - Web Analytics
 website: https://plausible.io
 ---

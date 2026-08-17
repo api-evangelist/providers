@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 2
@@ -123,7 +123,95 @@ apis:
 - description: The webhooks API from Vijil — 1 operation(s) for webhooks.
   name: Vijil webhooks API
   slug: vijil-webhooks-api
-artifact_total: 33
+artifact_total: 62
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations API
+  slug: open-vijil-agent-configurations-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations Agent Environment API
+  slug: open-vijil-agent-environment-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations agent-import API
+  slug: open-vijil-agent-import-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations auth API
+  slug: open-vijil-auth-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations custom-harnesses API
+  slug: open-vijil-custom-harnesses-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations dashboard API
+  slug: open-vijil-dashboard-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations demographics API
+  slug: open-vijil-demographics-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations detections API
+  slug: open-vijil-detections-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations Diamond API
+  slug: open-vijil-diamond-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations Dome API
+  slug: open-vijil-dome-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations dome-configs API
+  slug: open-vijil-dome-configs-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations evaluation-results API
+  slug: open-vijil-evaluation-results-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations evaluation-summaries API
+  slug: open-vijil-evaluation-summaries-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations evaluations API
+  slug: open-vijil-evaluations-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations evolution API
+  slug: open-vijil-evolution-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations genomes API
+  slug: open-vijil-genomes-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations harnesses API
+  slug: open-vijil-harnesses-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations personas API
+  slug: open-vijil-personas-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations policies API
+  slug: open-vijil-policies-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations policy-rules API
+  slug: open-vijil-policy-rules-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations proposals API
+  slug: open-vijil-proposals-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations Red Team API
+  slug: open-vijil-red-team-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations redteam API
+  slug: open-vijil-redteam-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations Teams API
+  slug: open-vijil-teams-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations Telemetry API
+  slug: open-vijil-telemetry-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations Trust Runtime API
+  slug: open-vijil-trust-runtime-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations users API
+  slug: open-vijil-users-api
+- collection_type: open
+  name: Vijil Console API (Combined) agent-configurations webhooks API
+  slug: open-vijil-webhooks-api
 common:
 - group: start
   title: ''
@@ -269,7 +357,7 @@ overview: 'Vijil publishes 28 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Vijil''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, support, and 25 more developer resources.'
-random_paper: 62
+random_paper: 95
 score:
   band: developing
   composite: 47.7
@@ -293,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

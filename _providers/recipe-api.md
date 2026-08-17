@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Requires API key. No credit cost. Browse categories, cuisines, and dietary options.
@@ -37,7 +37,26 @@ apis:
 - description: Browse recipes free. Full recipe detail costs 1 credit. Sample data shown inline.
   name: Recipe API Recipes API
   slug: recipe-api-recipes-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Recipe Discovery API
+  slug: open-recipe-api-discovery-api
+- collection_type: open
+  name: Recipe Image Generation API
+  slug: open-recipe-api-image-generation-api
+- collection_type: open
+  name: Recipe Ingredients API
+  slug: open-recipe-api-ingredients-api
+- collection_type: open
+  name: Recipe Public API
+  slug: open-recipe-api-public-api
+- collection_type: open
+  name: Recipe Recipes API
+  slug: open-recipe-api-recipes-api
 common:
 - group: company
   title: ''
@@ -107,7 +126,7 @@ plans:
 - name: Recipe Api Plans
   plan_count: 4
   slug: recipe-api-plans
-random_paper: 31
+random_paper: 97
 rate_limits:
 - limit_count: 4
   name: Recipe Api Rate Limits
@@ -132,7 +151,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

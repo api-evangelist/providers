@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The Customer Links API from Imprint — 1 operation(s) for customer links.
@@ -74,11 +74,57 @@ apis:
 - description: The Transactions API from Imprint — 1 operation(s) for transactions.
   name: Imprint Transactions API
   slug: imprint-transactions-api
-artifact_total: 19
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Imprint Webhooks
   slug: imprint-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Imprint Customer Links API
+  slug: open-imprint-customer-links-api
+- collection_type: open
+  name: Public Imprint Customer Links Customer Sessions API
+  slug: open-imprint-customer-sessions-api
+- collection_type: open
+  name: Public Imprint Customer Links Customers API
+  slug: open-imprint-customers-api
+- collection_type: open
+  name: Public Imprint Customer Links Keys API
+  slug: open-imprint-keys-api
+- collection_type: open
+  name: Public Imprint Customer Links Offers API
+  slug: open-imprint-offers-api
+- collection_type: open
+  name: Public Imprint Customer Links Order Events API
+  slug: open-imprint-order-events-api
+- collection_type: open
+  name: Public Imprint Customer Links Orders API
+  slug: open-imprint-orders-api
+- collection_type: open
+  name: Public Imprint Customer Links Payment Methods API
+  slug: open-imprint-payment-methods-api
+- collection_type: open
+  name: Public Imprint Customer Links Rewards API
+  slug: open-imprint-rewards-api
+- collection_type: open
+  name: Public Imprint Customer Links Simulate Reward API
+  slug: open-imprint-simulate-reward-api
+- collection_type: open
+  name: Public Imprint Customer Links Simulate Statement Reward API
+  slug: open-imprint-simulate-statement-reward-api
+- collection_type: open
+  name: Public Imprint Customer Links Simulate Transaction Event API
+  slug: open-imprint-simulate-transaction-event-api
+- collection_type: open
+  name: Public Imprint Customer Links Transaction Intents API
+  slug: open-imprint-transaction-intents-api
+- collection_type: open
+  name: Public Imprint Customer Links Transactions API
+  slug: open-imprint-transactions-api
 common:
 - group: company
   title: ''
@@ -219,7 +265,7 @@ overview: 'Imprint publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Imprint''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 51
+random_paper: 26
 score:
   band: developing
   composite: 50.8
@@ -248,7 +294,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/screenshots/imprint-2026-07-25T222200.png
 security:

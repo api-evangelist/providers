@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -113,7 +113,92 @@ apis:
 - description: The WeightUnits API from Canix — 1 operation(s) for weightunits.
   name: Canix Weight Units API
   slug: canix-weightunits-api
-artifact_total: 33
+artifact_total: 61
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canix Audited Actions API
+  slug: open-canix-audited-actions-api
+- collection_type: open
+  name: Canix Bill of Materials API
+  slug: open-canix-bill-of-materials-api
+- collection_type: open
+  name: Canix Brands API
+  slug: open-canix-brands-api
+- collection_type: open
+  name: Canix Company API
+  slug: open-canix-company-api
+- collection_type: open
+  name: Canix Customers API
+  slug: open-canix-customers-api
+- collection_type: open
+  name: Canix Facilities API
+  slug: open-canix-facilities-api
+- collection_type: open
+  name: Canix Harvests API
+  slug: open-canix-harvests-api
+- collection_type: open
+  name: Canix Item Sub-Types API
+  slug: open-canix-item-sub-types-api
+- collection_type: open
+  name: Canix Item Types API
+  slug: open-canix-item-types-api
+- collection_type: open
+  name: Canix Items API
+  slug: open-canix-items-api
+- collection_type: open
+  name: Canix Locations API
+  slug: open-canix-locations-api
+- collection_type: open
+  name: Canix Manufacturing Batch API
+  slug: open-canix-manufacturing-batch-api
+- collection_type: open
+  name: Canix Manufacturing Run API
+  slug: open-canix-manufacturing-run-api
+- collection_type: open
+  name: Canix Non-Cannabis Products API
+  slug: open-canix-non-cannabis-products-api
+- collection_type: open
+  name: Canix Packages API
+  slug: open-canix-packages-api
+- collection_type: open
+  name: Canix Plant Batches API
+  slug: open-canix-plant-batches-api
+- collection_type: open
+  name: Canix Plants API
+  slug: open-canix-plants-api
+- collection_type: open
+  name: Canix Products API
+  slug: open-canix-products-api
+- collection_type: open
+  name: Canix Purchase Orders API
+  slug: open-canix-purchase-orders-api
+- collection_type: open
+  name: Canix Sales Orders API
+  slug: open-canix-sales-orders-api
+- collection_type: open
+  name: Canix Standard Costs API
+  slug: open-canix-standard-costs-api
+- collection_type: open
+  name: Canix Strains API
+  slug: open-canix-strains-api
+- collection_type: open
+  name: Canix Submissions API
+  slug: open-canix-submissions-api
+- collection_type: open
+  name: Canix Transfer Destinations API
+  slug: open-canix-transfer-destinations-api
+- collection_type: open
+  name: Canix Transfers API
+  slug: open-canix-transfers-api
+- collection_type: open
+  name: Canix Vendors API
+  slug: open-canix-vendors-api
+- collection_type: open
+  name: Canix Weight Units API
+  slug: open-canix-weightunits-api
 common:
 - group: agent
   title: ''
@@ -247,7 +332,7 @@ overview: 'Canix publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Canix''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 51
+random_paper: 84
 scopes:
 - name: Canix Scopes
   scope_count: 1
@@ -276,7 +361,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

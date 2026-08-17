@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,8 +58,32 @@ apis:
 - description: Per-disaster financial summary totals from NEMIS.
   name: OpenFEMA Web Disaster Summaries API
   slug: fema-web-disaster-summaries-api
-artifact_total: 11
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenFEMA Catalog API
+  slug: open-fema-catalog-api
+- collection_type: open
+  name: OpenFEMA Catalog Disaster Declarations API
+  slug: open-fema-disaster-declarations-api
+- collection_type: open
+  name: OpenFEMA Catalog Hazard Mitigation API
+  slug: open-fema-hazard-mitigation-api
+- collection_type: open
+  name: OpenFEMA Catalog IPAWS API
+  slug: open-fema-ipaws-api
+- collection_type: open
+  name: OpenFEMA Catalog NFIP API
+  slug: open-fema-nfip-api
+- collection_type: open
+  name: OpenFEMA Catalog Public Assistance API
+  slug: open-fema-public-assistance-api
+- collection_type: open
+  name: OpenFEMA Catalog Web Disaster Summaries API
+  slug: open-fema-web-disaster-summaries-api
 - collection_type: open
   name: OpenFEMA API
   slug: open-fema
@@ -96,7 +120,7 @@ overview: 'OpenFEMA publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   OpenFEMA''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 49
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Fema Rate Limits
@@ -127,7 +151,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

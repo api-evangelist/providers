@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,12 +66,15 @@ apis:
 - description: Endpoints for querying detailed version information for specific gem versions, including metadata, dependencies, checksums, and platform-specific builds.
   name: RubyGems Versions API
   slug: rubygems-versions-api
-artifact_total: 30
+artifact_total: 35
 asyncapis:
 - description: The RubyGems webhook event system delivers HTTP POST notifications when gems are pushed to RubyGems.org. Webhook subscribers receive a JSON payload containing the full gem metadata whenever a new vers
   name: RubyGems Webhook Events
   slug: rubygems-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: RubyGems Activity API
   slug: open-rubygems-activity-api
@@ -79,16 +82,28 @@ collections:
   name: RubyGems API V2
   slug: open-rubygems-api-v2
 - collection_type: open
-  name: RubyGems Downloads API
+  name: RubyGems Activity Dependencies API
+  slug: open-rubygems-dependencies-api
+- collection_type: open
+  name: RubyGems Activity Downloads API
   slug: open-rubygems-downloads-api
 - collection_type: open
-  name: RubyGems Gems API
+  name: RubyGems Activity Gems API
   slug: open-rubygems-gems-api
 - collection_type: open
-  name: RubyGems Search API
+  name: RubyGems Activity Owners API
+  slug: open-rubygems-owners-api
+- collection_type: open
+  name: RubyGems Activity Profiles API
+  slug: open-rubygems-profiles-api
+- collection_type: open
+  name: RubyGems Activity Search API
   slug: open-rubygems-search-api
 - collection_type: open
-  name: RubyGems Webhooks API
+  name: RubyGems Activity Versions API
+  slug: open-rubygems-versions-api
+- collection_type: open
+  name: RubyGems Activity Webhooks API
   slug: open-rubygems-webhooks-api
 common:
 - group: agent
@@ -174,7 +189,7 @@ plans:
 - name: Rubygems Plans Pricing
   plan_count: 1
   slug: rubygems-plans-pricing
-random_paper: 38
+random_paper: 133
 rate_limits:
 - limit_count: 6
   name: Rubygems Rate Limits
@@ -224,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/screenshots/rubygems-2026-06-20T193246.png
 security:

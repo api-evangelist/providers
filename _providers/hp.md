@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: Incident management operations
   name: HP Incidents API
   slug: hp-incidents-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HP PrintOS Device Analytics API
+  slug: open-hp-analytics-api
+- collection_type: open
+  name: HP PrintOS Device Analytics Devices API
+  slug: open-hp-devices-api
+- collection_type: open
+  name: HP PrintOS Device Analytics Incidents API
+  slug: open-hp-incidents-api
 - collection_type: open
   name: HP PrintOS Device API
   slug: open-hp-printos-device-api
@@ -117,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: HP acquires Humane Platform and team for $116M
   url: https://www.facebook.com/groups/AIUGM/posts/4020109041603394/
-random_paper: 96
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Hp Rate Limits
@@ -142,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hp/refs/heads/main/screenshots/hp-2026-06-20T182854.png
 security:

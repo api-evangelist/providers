@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Center for Parent Information and Resources is profiled on the [APIs.
 
 
   Center for Parent Information and Resources'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 7
+random_paper: 6
 score:
   band: minimal
   composite: 9.2
@@ -91,7 +91,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/screenshots/center-for-parent-information-and-resources-2026-06-20T174123.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 5
@@ -198,7 +198,131 @@ apis:
 - description: Get view events for a Video Cloud account
   name: Brightcove View Events API
   slug: brightcove-view-events-api
-artifact_total: 62
+artifact_total: 103
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens API
+  slug: open-brightcove-access-tokens-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Account Configuration API
+  slug: open-brightcove-account-configuration-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Ad Call Tracking API
+  slug: open-brightcove-ad-call-tracking-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Ad Configurations API
+  slug: open-brightcove-ad-configurations-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Analytics Report API
+  slug: open-brightcove-analytics-report-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Clear-Sources API
+  slug: open-brightcove-clear-sources-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Client Credentials API
+  slug: open-brightcove-client-credentials-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Credentials API
+  slug: open-brightcove-credentials-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Custom Fields API
+  slug: open-brightcove-custom-fields-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Delivery Rule Actions API
+  slug: open-brightcove-delivery-rule-actions-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Delivery Rule Conditions API
+  slug: open-brightcove-delivery-rule-conditions-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Delivery Rules API
+  slug: open-brightcove-delivery-rules-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Embed Configurations API
+  slug: open-brightcove-embed-configurations-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Engagement Report API
+  slug: open-brightcove-engagement-report-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Folders API
+  slug: open-brightcove-folders-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens History API
+  slug: open-brightcove-history-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Ingest API
+  slug: open-brightcove-ingest-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Labels API
+  slug: open-brightcove-labels-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Leads API
+  slug: open-brightcove-leads-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Live Analytics API
+  slug: open-brightcove-live-analytics-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Live Job Clip API
+  slug: open-brightcove-live-job-clip-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Live Jobs API
+  slug: open-brightcove-live-jobs-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Media Assets API
+  slug: open-brightcove-media-assets-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Media Sharing API
+  slug: open-brightcove-media-sharing-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Notifications API
+  slug: open-brightcove-notifications-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Player Configurations API
+  slug: open-brightcove-player-configurations-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Player Embeds API
+  slug: open-brightcove-player-embeds-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Players API
+  slug: open-brightcove-players-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Playlists API
+  slug: open-brightcove-playlists-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Plugin Registry API
+  slug: open-brightcove-plugin-registry-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Profiles API
+  slug: open-brightcove-profiles-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Redundant Groups API
+  slug: open-brightcove-redundant-groups-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens RTMP Outputs API
+  slug: open-brightcove-rtmp-outputs-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Schedule Clip API
+  slug: open-brightcove-schedule-clip-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Schedule SEP Job Start Stop API
+  slug: open-brightcove-schedule-sep-job-start-stop-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens SSAI API
+  slug: open-brightcove-ssai-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Status API
+  slug: open-brightcove-status-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Video Data API
+  slug: open-brightcove-video-data-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens Videos API
+  slug: open-brightcove-videos-api
+- collection_type: open
+  name: Brightcove Analytics API Reference Access Tokens View Events API
+  slug: open-brightcove-view-events-api
 common:
 - group: agent
   title: ''
@@ -288,7 +412,7 @@ plans:
 - name: Brightcove Plans Pricing
   plan_count: 2
   slug: brightcove-plans-pricing
-random_paper: 109
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Brightcove Rate Limits
@@ -318,7 +442,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/screenshots/brightcove-2026-06-20T173711.png
 security:

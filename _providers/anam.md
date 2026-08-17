@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: The Voices API from Anam — 2 operation(s) for voices.
   name: Anam Voices API
   slug: anam-voices-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anam AI Auth API
+  slug: open-anam-auth-api
+- collection_type: open
+  name: Anam AI Auth Avatars API
+  slug: open-anam-avatars-api
+- collection_type: open
+  name: Anam AI Auth Knowledge API
+  slug: open-anam-knowledge-api
+- collection_type: open
+  name: Anam AI Auth Llms API
+  slug: open-anam-llms-api
+- collection_type: open
+  name: Anam AI Auth Personas API
+  slug: open-anam-personas-api
+- collection_type: open
+  name: Anam AI Auth Sessions API
+  slug: open-anam-sessions-api
+- collection_type: open
+  name: Anam AI Auth Share Links API
+  slug: open-anam-share-links-api
+- collection_type: open
+  name: Anam AI Auth Tools API
+  slug: open-anam-tools-api
+- collection_type: open
+  name: Anam AI Auth Voices API
+  slug: open-anam-voices-api
 common:
 - group: company
   title: ''
@@ -223,7 +254,7 @@ overview: 'Anam publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Anam''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 28 more developer resources.'
-random_paper: 53
+random_paper: 115
 score:
   band: strong
   composite: 57.5
@@ -247,7 +278,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/screenshots/anam-2026-07-25T200152.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Create a location, tag it into a cohort, confirm the tag, and read its current conditions.
   name: Tomorrow.io Tag and Monitor a Location Cohort
   slug: tomorrow-io-tag-location-cohort-workflow
-artifact_total: 95
+artifact_total: 100
 collections:
 - collection_type: postman
   name: Tomorrow.io Alerts API
@@ -133,26 +133,41 @@ collections:
   name: Tomorrow.io Weather API
   slug: postman-tomorrow-io-weather-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Tomorrow.io Alerts API
   slug: open-tomorrow-io-alerts-api
 - collection_type: open
-  name: Tomorrow.io Events API
+  name: Tomorrow.io Alerts Events API
   slug: open-tomorrow-io-events-api
 - collection_type: open
-  name: Tomorrow.io Historical Weather API
+  name: Tomorrow.io Alerts Forecast API
+  slug: open-tomorrow-io-forecast-api
+- collection_type: open
+  name: Tomorrow.io Alerts Historical API
   slug: open-tomorrow-io-historical-api
 - collection_type: open
-  name: Tomorrow.io Insights API
+  name: Tomorrow.io Alerts Insights API
   slug: open-tomorrow-io-insights-api
 - collection_type: open
-  name: Tomorrow.io Locations API
+  name: Tomorrow.io Alerts Locations API
   slug: open-tomorrow-io-locations-api
 - collection_type: open
   name: Tomorrow.io Weather Maps API
   slug: open-tomorrow-io-map-tiles-api
 - collection_type: open
-  name: Tomorrow.io Weather on Routes API
+  name: Tomorrow.io Alerts Maps API
+  slug: open-tomorrow-io-maps-api
+- collection_type: open
+  name: Tomorrow.io Alerts Realtime API
+  slug: open-tomorrow-io-realtime-api
+- collection_type: open
+  name: Tomorrow.io Alerts Route API
   slug: open-tomorrow-io-route-api
+- collection_type: open
+  name: Tomorrow.io Alerts Timelines API
+  slug: open-tomorrow-io-timelines-api
 - collection_type: open
   name: Tomorrow.io Weather API
   slug: open-tomorrow-io-weather-api
@@ -477,7 +492,7 @@ plans:
 - name: Tomorrow Io Plans Pricing
   plan_count: 4
   slug: tomorrow-io-plans-pricing
-random_paper: 86
+random_paper: 123
 rate_limits:
 - limit_count: 4
   name: Tomorrow Io Rate Limits
@@ -519,7 +534,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/screenshots/tomorrow-io-2026-06-20T195444.png
 security:

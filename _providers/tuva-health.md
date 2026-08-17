@@ -1,11 +1,11 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -13,13 +13,13 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 32.9
+  scored_at: '2026-08-17'
+api_count: 4
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
   name: The Tuva Project (dbt package)
@@ -30,7 +30,10 @@ apis:
 - description: 'A family of open-source dbt connector projects (Medicare CCLF, BCDA, CMS synthetic, Aetna, BCBS, and a connector template, plus a FHIR preprocessing connector) that map raw claims, EHR, ADT, and FHIR '
   name: Tuva Connectors
   slug: tuva-connectors
-artifact_total: 4
+- description: The HTTP API of Tuva EMPI, Tuva Health's open-source (Apache-2.0) enterprise master patient index. A containerized Django backend that ingests person records, runs Splink-based probabilistic matching,
+  name: Tuva EMPI API
+  slug: tuva-empi
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -92,39 +95,95 @@ common:
   title: ''
   type: Blog
   url: https://thetuvaproject.substack.com
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.tuvahealth.com/pricing
 - group: operate
   title: ''
   type: Support
   url: https://www.tuvahealth.com/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.tuvahealth.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.tuvahealth.com/privacy
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://tuva-health.github.io/tuva_empi/api-docs/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/tuva-health-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/tuva-health-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/tuva-health-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://tuva-health.github.io/tuva_empi/docs/releases
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/tuva-health-sandbox.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/tuva-health-cli.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/tuva-health-plans-pricing.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tuva-health-empi-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Community
+  url: https://thetuvaproject.com/community/community-overview
 created: '2026-07-24'
-description: 'Tuva Health, Inc. is a United States healthcare data company behind The Tuva Project, an open-source, warehouse-native data-transformation platform that harmonizes, validates, normalizes, and enriches raw healthcare data - medical and pharmacy claims, EHR clinical data, ADT feeds, and HL7 FHIR sources - into an analytics-ready Core Data Model and a library of Data Marts (AHRQ measures, readmissions, quality measures, chronic conditions, CCSR, pharmacy). It is delivered primarily as a dbt package plus Python utilities (FHIR Inferno) and a family of source connectors that run inside the customer''s own cloud data warehouse - Snowflake, Databricks, Google BigQuery, Amazon Redshift, or Microsoft Fabric - rather than as a hosted service. Tuva is not an HTTP or FHIR API vendor: FHIR R4 is a supported input format that Tuva flattens and maps into its Input Layer, not a live FHIR server it operates. The company pairs the open-source project with a commercial Core Platform. Home market
-  is the United States.'
+description: 'Tuva Health, Inc. is a United States healthcare data company behind The Tuva Project, an open-source, warehouse-native data-transformation platform that harmonizes, validates, normalizes, and enriches raw healthcare data - medical and pharmacy claims, EHR clinical data, ADT feeds, and HL7 FHIR sources - into an analytics-ready Core Data Model and a library of Data Marts (AHRQ measures, readmissions, quality measures, chronic conditions, CCSR, pharmacy). It is delivered primarily as a dbt package plus Python utilities (FHIR Inferno) and a family of source connectors that run inside the customer''s own cloud data warehouse - Snowflake, Databricks, Google BigQuery, Amazon Redshift, or Microsoft Fabric - rather than as a hosted service. Tuva is not a FHIR API vendor: FHIR R4 is a supported input format that Tuva flattens and maps into its Input Layer, not a live FHIR server it operates. It does ship one HTTP API - Tuva EMPI, an Apache-2.0 enterprise master patient index with a
+  documented OpenAPI 3.0.3 contract - but that too is customer-deployed from OCI images, so there is no Tuva-operated API host. The company pairs the open-source project with a commercial Core Platform and named services. Home market is the United States.'
 image: https://www.tuvahealth.com/img/TuvaHealthLogo-White@4x.png
 layout: provider
-modified: '2026-07-24'
+modified: '2026-08-15'
 name: Tuva Health
 nav: Providers
 network: true
-overview: 'Tuva Health publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
+overview: 'Tuva Health publishes 1 API on the [APIs.io](https://apis.io/) network: Tuva EMPI API. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
 
 
-  Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, pricing, support, and 11 more developer resources.'
-random_paper: 43
+  Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, support, API reference, authentication, and 22 more developer resources.'
+plans:
+- name: Tuva Health Plans Pricing
+  plan_count: 0
+  slug: tuva-health-plans-pricing
+random_paper: 80
+rate_limits:
+- limit_count: 0
+  name: Tuva Health Rate Limits
+  slug: tuva-health-rate-limits
 score:
-  band: emerging
-  composite: 20.6
-  delta: 0.0
+  band: developing
+  composite: 42.4
+  delta: 21.8
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 0.0
-    developer_ergonomics: 41.3
+    commercial_clarity: 21.1
+    contract_quality: 44.0
+    developer_ergonomics: 78.3
     discoverability: 72.2
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 20.8
+    operational_transparency: 28.9
   previous_composite: 20.6
   provenance:
     conformance: first-party
@@ -133,11 +192,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
+    score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Tuva Health Authentication
+  slug: tuva-health-authentication
+  summary_line: openIdConnect · 1 scheme
 - kind: domain-security
   name: Tuva Health Domain Security
   slug: tuva-health-domain-security
@@ -154,5 +217,7 @@ tags:
 - Claims
 - Open Source
 - dbt
+- EMPI
+- Patient Matching
 website: https://www.tuvahealth.com
 ---

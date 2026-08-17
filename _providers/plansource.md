@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 10
@@ -68,7 +68,50 @@ apis:
 - description: Security Functions
   name: PlanSource Security API
   slug: plansource-security-api
-artifact_total: 19
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Plansource Admin ACA API
+  slug: open-plansource-aca-api
+- collection_type: open
+  name: Plansource Admin Administrators API
+  slug: open-plansource-administrators-api
+- collection_type: open
+  name: Plansource Admin All API
+  slug: open-plansource-all-api
+- collection_type: open
+  name: Plansource Admin Collections API
+  slug: open-plansource-collections-api
+- collection_type: open
+  name: Plansource Admin Composites API
+  slug: open-plansource-composites-api
+- collection_type: open
+  name: Plansource Admin Coverage API
+  slug: open-plansource-coverage-api
+- collection_type: open
+  name: Plansource Admin Demographic API
+  slug: open-plansource-demographic-api
+- collection_type: open
+  name: Plansource Admin EOI API
+  slug: open-plansource-eoi-api
+- collection_type: open
+  name: Plansource Admin Page Content API
+  slug: open-plansource-page-content-api
+- collection_type: open
+  name: Plansource Admin Payroll API
+  slug: open-plansource-payroll-api
+- collection_type: open
+  name: Plansource Admin Processing API
+  slug: open-plansource-processing-api
+- collection_type: open
+  name: Plansource Admin Resources API
+  slug: open-plansource-resources-api
+- collection_type: open
+  name: Plansource Admin Security API
+  slug: open-plansource-security-api
 common:
 - group: other
   title: ''
@@ -203,7 +246,7 @@ overview: 'PlanSource publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   PlanSource''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 4
+random_paper: 41
 scopes:
 - name: Plansource Scopes
   scope_count: 8
@@ -238,7 +281,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

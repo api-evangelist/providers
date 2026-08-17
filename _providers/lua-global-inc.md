@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Consume a deployed Lua agent directly over HTTP — single-shot generation or real-time SSE streaming — with bearer API-key auth.
@@ -172,7 +172,7 @@ overview: 'Lua Global Inc publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Lua Global Inc''s developer surface includes documentation, API reference, getting-started guide, support, changelog, CLI, authentication, and 21 more developer resources.'
-random_paper: 31
+random_paper: 10
 score:
   band: developing
   composite: 42.7
@@ -190,7 +190,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lua-global-inc/refs/heads/main/screenshots/lua-global-inc-2026-07-25T225637.png
 security:

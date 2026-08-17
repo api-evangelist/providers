@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: All token endpoints
   name: SushiSwap token API
   slug: sushiswap-token-api
-artifact_total: 31
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blade Deposit API
+  slug: open-sushiswap-deposit-api
+- collection_type: open
+  name: Blade Deposit liquidity-providers API
+  slug: open-sushiswap-liquidity-providers-api
+- collection_type: open
+  name: Blade Deposit Pool API
+  slug: open-sushiswap-pool-api
+- collection_type: open
+  name: Blade Deposit price API
+  slug: open-sushiswap-price-api
+- collection_type: open
+  name: Blade Deposit Quote API
+  slug: open-sushiswap-quote-api
+- collection_type: open
+  name: Blade Deposit swap API
+  slug: open-sushiswap-swap-api
+- collection_type: open
+  name: Blade Deposit token API
+  slug: open-sushiswap-token-api
 common:
 - group: agent
   title: ''
@@ -205,7 +230,7 @@ overview: 'SushiSwap publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   SushiSwap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 12 more developer resources.'
-random_paper: 39
+random_paper: 105
 rules:
 - name: SushiSwap API Rules
   rule_count: 5
@@ -241,7 +266,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/screenshots/sushiswap-2026-06-20T194745.png
 security:

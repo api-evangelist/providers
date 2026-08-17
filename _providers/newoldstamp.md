@@ -1,18 +1,19 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Self-service
   onboarding: unknown
-  pricing: unknown
+  pricing: freemium
   public: false
-  source: []
-  trial: false
-  try_now: false
+  source:
+  - https://newoldstamp.com/pricing/
+  trial: true
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -22,23 +23,47 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 23.9
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The undocumented application GraphQL API that powers the Newoldstamp dashboard — signatures, departments, campaigns, segments, Google Workspace and Microsoft 365 deployment, and billing. Introspection
+  name: Newoldstamp GraphQL API
+  slug: newoldstamp-graphql-api
+artifact_total: 5
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/newoldstamp-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/newoldstamp-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/newoldstamp-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/newoldstamp-rate-limits.yml
 - group: company
   title: ''
   type: Website
   url: https://newoldstamp.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://support.newoldstamp.com/en/
 - group: commercial
   title: ''
   type: Pricing
@@ -68,35 +93,47 @@ common:
   type: PrivacyPolicy
   url: https://newoldstamp.com/privacy/
 created: '2026-07-17'
-description: Newoldstamp is an email signature management platform that lets companies create, brand, and centrally manage professional email signatures across their teams. It provides a signature generator with customizable templates, department- and role-based signature deployment, email signature marketing banners and campaigns, click analytics, and integrations with Google Workspace, Microsoft 365, and popular email clients. Newoldstamp also operates Pearl Diver, a website-visitor identification product. Founded in 2016 and backed by 500 Global, it serves marketing, sales, and IT teams that want consistent branded email signatures at scale. The company exposes no public developer API surface at this time.
+description: Newoldstamp is an email signature management platform that lets companies create, brand, and centrally manage professional email signatures across their teams. It provides a signature generator with customizable templates, department- and role-based signature deployment, email signature marketing banners and campaigns, click analytics, and integrations with Google Workspace, Microsoft 365, and popular email clients. Newoldstamp also operates Pearl Diver, a website-visitor identification product. Founded in 2016 and a wholly-owned subsidiary of Blackpearl Group since 2025 (previously backed by 500 Global), it serves marketing, sales, and IT teams that want consistent branded email signatures at scale. Newoldstamp publishes no documented public developer program, but its dashboard is powered by a GraphQL API at newoldstamp.com/api/graphql (41 queries, 71 mutations, 4 subscriptions) whose introspection is anonymously open.
 image: https://newoldstamp.com/images/logo-v4.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Newoldstamp
 nav: Providers
 network: true
-overview: 'Newoldstamp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email Signatures, Email Signature Management, Email Marketing, and Branding.
+overview: 'Newoldstamp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email Signatures, Email Signature Management, Email Marketing, and Branding.
 
 
-  Newoldstamp''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 118
+  Newoldstamp''s developer surface includes documentation, pricing, engineering blog, support, signup flow, and 9 more developer resources.'
+plans:
+- name: Newoldstamp Plans Pricing
+  plan_count: 2
+  slug: newoldstamp-plans-pricing
+random_paper: 6
+rate_limits:
+- limit_count: 0
+  name: Newoldstamp Rate Limits
+  slug: newoldstamp-rate-limits
 score:
-  band: emerging
-  composite: 15.2
-  delta: 0.0
+  band: thin
+  composite: 37.0
+  delta: 21.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
+    commercial_clarity: 65.8
+    contract_quality: 43.2
+    developer_ergonomics: 21.7
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/newoldstamp/refs/heads/main/screenshots/newoldstamp-2026-08-07T185122.png
 security:
+- kind: authentication
+  name: Newoldstamp Authentication
+  slug: newoldstamp-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Newoldstamp Domain Security
   slug: newoldstamp-domain-security
@@ -111,5 +148,6 @@ tags:
 - SaaS
 - Productivity
 - Website Visitor Identification
+- GraphQL
 website: https://newoldstamp.com
 ---

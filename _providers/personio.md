@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: Manage event webhook subscriptions.
   name: Personio Webhooks API
   slug: personio-webhooks-api
-artifact_total: 11
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Personio Public API v2 Absence Periods API
+  slug: open-personio-absence-periods-api
+- collection_type: open
+  name: Personio Public API v2 Absence Periods Auth API
+  slug: open-personio-auth-api
+- collection_type: open
+  name: Personio Public API v2 Absence Periods Persons API
+  slug: open-personio-persons-api
+- collection_type: open
+  name: Personio Public API v2 Absence Periods Projects API
+  slug: open-personio-projects-api
+- collection_type: open
+  name: Personio Public API v2 Absence Periods Webhooks API
+  slug: open-personio-webhooks-api
 - collection_type: open
   name: Personio Public API v2
   slug: open-personio
@@ -118,7 +136,7 @@ overview: 'Personio publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Personio''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 39
+random_paper: 134
 score:
   band: thin
   composite: 34.0
@@ -139,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/screenshots/personio-2026-06-20T191622.png
 security:

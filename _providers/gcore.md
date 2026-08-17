@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Web Application and API Protection domains.
   name: Gcore WAAP API
   slug: gcore-waap-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gcore CDN API
+  slug: open-gcore-cdn-api
+- collection_type: open
+  name: Gcore CDN Cloud API
+  slug: open-gcore-cloud-api
+- collection_type: open
+  name: Gcore CDN DNS API
+  slug: open-gcore-dns-api
+- collection_type: open
+  name: Gcore CDN FastEdge API
+  slug: open-gcore-fastedge-api
+- collection_type: open
+  name: Gcore CDN Inference API
+  slug: open-gcore-inference-api
+- collection_type: open
+  name: Gcore CDN Storage API
+  slug: open-gcore-storage-api
+- collection_type: open
+  name: Gcore CDN Streaming API
+  slug: open-gcore-streaming-api
+- collection_type: open
+  name: Gcore CDN WAAP API
+  slug: open-gcore-waap-api
 - collection_type: open
   name: Gcore API
   slug: open-gcore
@@ -129,7 +156,7 @@ plans:
 - name: Gcore Plans Pricing
   plan_count: 8
   slug: gcore-plans-pricing
-random_paper: 48
+random_paper: 81
 rate_limits:
 - limit_count: 6
   name: Gcore Rate Limits
@@ -154,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/screenshots/gcore-2026-06-20T181710.png
 security:

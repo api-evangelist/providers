@@ -9,31 +9,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 19.4
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
-- description: REST API for accessing iSpot.tv TV and video ad measurement data — sync API activity with your database, retrieve ad occurrence and performance stats, and test API calls and endpoints. Reference docum
+- description: REST API for accessing iSpot.tv TV and video ad measurement data — airing occurrence, estimated spend, household and person-level impressions, attention metrics, OTT/streaming impressions, TV conversi
   name: iSpot REST API v4
   slug: ispot-rest-api-v4
-artifact_total: 3
+- description: Server-side and client-side measurement ingest endpoints. A 1x1 GIF pixel accepts OTT/CTV/digital impression events (pi.ispot.tv) and TV conversion events (pt.ispot.tv) keyed by a client-specific trac
+  name: iSpot Impression & TV Conversion Pixel API v2
+  slug: ispot-impression-tv-conversion-pixel-api-v2
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -46,15 +49,27 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://developer.ispot.tv/
+  url: https://developer.ispot.tv/documentation/api
 - group: docs
   title: ''
   type: APIReference
   url: https://developer.ispot.tv/api/v4
 - group: start
   title: ''
+  type: GettingStarted
+  url: https://developer.ispot.tv/quickstarts/api
+- group: start
+  title: ''
   type: Login
   url: https://login.ispot.tv/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ispot.tv/contact-us
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ispot-tv
 - group: commercial
   title: ''
   type: Pricing
@@ -83,40 +98,108 @@ common:
   title: ''
   type: DomainSecurity
   url: security/ispottv-domain-security.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.ispot.tv
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.ispot.tv/releases/api/v4/notes
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ispottv-changelog.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ispottv-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ispottv-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ispottv-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ispottv-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ispottv-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ispottv-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ispottv-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ispottv-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ispottv-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/ispottv-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ispottv-sandbox.yml
 created: '2026-07-17'
 description: iSpot.tv is a TV and video advertising measurement company that provides end-to-end measurement unifying creative assessment, audience measurement, and outcome attribution across linear TV and streaming. Its platform draws on data from tens of millions of smart TVs and set-top boxes to track ad occurrences, impressions, share of voice, creative effectiveness, and return on ad spend for advertisers, agencies, and networks. iSpot exposes its data programmatically through the iSpot REST API (v4), documented at a dedicated developer portal with quickstarts, an API reference, a Python sample, an interactive API demo tool, and release notes. iSpot.tv is backed by Insight Partners and was added to the API Evangelist network from that portfolio.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ispottv.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: iSpot.tv
 nav: Providers
 network: true
-overview: 'iSpot.tv publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, TV Advertising, Advertising Measurement, Analytics, and Attribution.
+overview: 'iSpot.tv publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, TV Advertising, Advertising Measurement, Analytics, and Attribution.
 
 
-  iSpot.tv''s developer surface includes documentation, API reference, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 73
+  iSpot.tv''s developer surface includes documentation, API reference, getting-started guide, support, pricing, engineering blog, changelog, and 22 more developer resources.'
+plans:
+- name: Ispottv Plans Pricing
+  plan_count: 0
+  slug: ispottv-plans-pricing
+random_paper: 48
+rate_limits:
+- limit_count: 21
+  name: Ispottv Rate Limits
+  slug: ispottv-rate-limits
 score:
-  band: emerging
-  composite: 23.3
-  delta: 0.0
+  band: thin
+  composite: 41.4
+  delta: 18.1
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
-    developer_ergonomics: 26.1
-    discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 58.7
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 68.4
   previous_composite: 23.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/screenshots/ispottv-2026-07-25T222949.png
 security:
+- kind: authentication
+  name: Ispottv Authentication
+  slug: ispottv-authentication
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Ispottv Domain Security
   slug: ispottv-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: trust-center
   name: Ispottv Trust Center
   slug: ispottv-trust-center

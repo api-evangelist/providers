@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Workspaces API from Cisco Control Hub — 1 operation(s) for workspaces.
   name: Cisco Control Hub Workspaces API
   slug: cisco-control-hub-workspaces-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cisco Webex Control Hub Admin AdminAuditEvents API
+  slug: open-cisco-control-hub-adminauditevents-api
+- collection_type: open
+  name: Cisco Webex Control Hub Admin AdminAuditEvents Devices API
+  slug: open-cisco-control-hub-devices-api
+- collection_type: open
+  name: Cisco Webex Control Hub Admin AdminAuditEvents Licenses API
+  slug: open-cisco-control-hub-licenses-api
+- collection_type: open
+  name: Cisco Webex Control Hub Admin AdminAuditEvents Locations API
+  slug: open-cisco-control-hub-locations-api
+- collection_type: open
+  name: Cisco Webex Control Hub Admin AdminAuditEvents Organizations API
+  slug: open-cisco-control-hub-organizations-api
+- collection_type: open
+  name: Cisco Webex Control Hub Admin AdminAuditEvents People API
+  slug: open-cisco-control-hub-people-api
+- collection_type: open
+  name: Cisco Webex Control Hub Admin AdminAuditEvents Workspaces API
+  slug: open-cisco-control-hub-workspaces-api
 - collection_type: open
   name: Cisco Webex Control Hub Admin API
   slug: open-cisco-control-hub
@@ -110,7 +134,7 @@ plans:
 - name: Cisco Control Hub Plans Pricing
   plan_count: 3
   slug: cisco-control-hub-plans-pricing
-random_paper: 27
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Cisco Control Hub Rate Limits
@@ -144,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/screenshots/cisco-control-hub-2026-06-20T174357.png
 security:

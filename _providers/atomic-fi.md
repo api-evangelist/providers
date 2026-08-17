@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -66,8 +66,38 @@ apis:
 - description: The Webhooks API from Atomic — 2 operation(s) for webhooks.
   name: Atomic Webhooks API
   slug: atomic-fi-webhooks-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Atomic Access Tokens API
+  slug: open-atomic-fi-access-tokens-api
+- collection_type: open
+  name: Atomic Access Tokens Company API
+  slug: open-atomic-fi-company-api
+- collection_type: open
+  name: Atomic Access Tokens Data API
+  slug: open-atomic-fi-data-api
+- collection_type: open
+  name: Atomic Access Tokens Linked Accounts API
+  slug: open-atomic-fi-linked-accounts-api
+- collection_type: open
+  name: Atomic Access Tokens PayLink API
+  slug: open-atomic-fi-paylink-api
+- collection_type: open
+  name: Atomic Access Tokens Secrets API
+  slug: open-atomic-fi-secrets-api
+- collection_type: open
+  name: Atomic Access Tokens Tasks API
+  slug: open-atomic-fi-tasks-api
+- collection_type: open
+  name: Atomic Access Tokens Users API
+  slug: open-atomic-fi-users-api
+- collection_type: open
+  name: Atomic Access Tokens Webhooks API
+  slug: open-atomic-fi-webhooks-api
 - collection_type: open
   name: Atomic API
   slug: open-atomic-fi
@@ -132,7 +162,7 @@ plans:
 - name: Atomic Fi Plans Pricing
   plan_count: 2
   slug: atomic-fi-plans-pricing
-random_paper: 49
+random_paper: 144
 rate_limits:
 - limit_count: 3
   name: Atomic Fi Rate Limits
@@ -157,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/screenshots/atomic-fi-2026-07-25T201606.png
 security:

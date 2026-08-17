@@ -28,8 +28,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
-api_count: 18
+  scored_at: '2026-08-17'
+api_count: 19
 apis:
 - description: Public applications must authenticate using the OAuth 2.0 specification to use Attentive’s API resources. Attentive uses OAuth 2.0’s authorization code grant flow to issue access tokens on behalf of u
   name: Attentive Access Token API
@@ -85,7 +85,10 @@ apis:
 - description: Create and manage webhooks
   name: Attentive Webhooks API
   slug: attentive-webhooks-api
-artifact_total: 44
+- description: 'Attentive''s GraphQL API (beta) at POST https://api.attentivemobile.com/v1/graphql, authenticated with the same application token as the REST API and gated by the same app scopes. The graph covers the '
+  name: Attentive GraphQL API
+  slug: attentive-graphql-api
+artifact_total: 65
 asyncapis:
 - description: ''
   name: Attentive Webhooks
@@ -145,6 +148,63 @@ collections:
 - collection_type: postman
   name: Attentive Access Token Webhooks API
   slug: postman-attentive-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Attentive Access Token API
+  slug: open-attentive-access-token-api
+- collection_type: open
+  name: Attentive Access Token Bulk Segment Operations API
+  slug: open-attentive-bulk-segment-operations-api
+- collection_type: open
+  name: Attentive Access Token Bulk Status API
+  slug: open-attentive-bulk-status-api
+- collection_type: open
+  name: Attentive Access Token Bulk User Operations API
+  slug: open-attentive-bulk-user-operations-api
+- collection_type: open
+  name: Attentive Access Token Custom Attributes API
+  slug: open-attentive-custom-attributes-api
+- collection_type: open
+  name: Attentive Access Token Custom Events API
+  slug: open-attentive-custom-events-api
+- collection_type: open
+  name: Attentive Access Token eCommerce API
+  slug: open-attentive-ecommerce-api
+- collection_type: open
+  name: Attentive Access Token Identity API
+  slug: open-attentive-identity-api
+- collection_type: open
+  name: Attentive Access Token Offers API
+  slug: open-attentive-offers-api
+- collection_type: open
+  name: Attentive Access Token Privacy Request API
+  slug: open-attentive-privacy-request-api
+- collection_type: open
+  name: Attentive Access Token Product Catalog API
+  slug: open-attentive-product-catalog-api
+- collection_type: open
+  name: Attentive Access Token Segments API
+  slug: open-attentive-segments-api
+- collection_type: open
+  name: Attentive Access Token Subscribers API
+  slug: open-attentive-subscribers-api
+- collection_type: open
+  name: Attentive Access Token Test Authentication API
+  slug: open-attentive-test-authentication-api
+- collection_type: open
+  name: Attentive Access Token Test Authentication V2 API
+  slug: open-attentive-test-authentication-v2-api
+- collection_type: open
+  name: Attentive Access Token User Attributes API
+  slug: open-attentive-user-attributes-api
+- collection_type: open
+  name: Attentive Access Token User Properties API
+  slug: open-attentive-user-properties-api
+- collection_type: open
+  name: Attentive Access Token Webhooks API
+  slug: open-attentive-webhooks-api
 common:
 - group: other
   title: ''
@@ -298,6 +358,18 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.attentive.com/legal/privacy
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/attentive.graphql
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/attentive-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/attentive-plans-pricing.yml
 created: '2026-07-17'
 description: Attentive is a martech SMS and email marketing platform for e-commerce and retail brands. Its developer platform exposes REST APIs (v1 and v2) plus a GraphQL API for managing subscribers and subscriptions, sending SMS/email and ecommerce events (product view, add-to-cart, purchase), setting custom attributes and custom events, uploading product catalogs, distributing offers/coupon codes, resolving identity across phone/email/Shopify/Klaviyo/custom identifiers, handling CCPA privacy deletion requests, and subscribing to webhooks. It also ships iOS, Android, and React Native SDKs and an on-site JavaScript Tag for creative rendering and event collection. Authentication is OAuth 2.0 (authorization code grant) or a bearer API token.
 image: https://cdn.prod.website-files.com/684306b795a2c402456e92ba/6a037c0d3dadcc6de287311a_Rebrand-OpenGraphImage_5005x2622.png
@@ -306,7 +378,7 @@ mcp_servers:
 - description: ''
   name: attentive-mcp.yml
   slug: attentive-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Attentive
 nav: Providers
 network: true
@@ -316,8 +388,12 @@ overview: 'Attentive publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   The Attentive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Attentive''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 31 more developer resources.'
-random_paper: 20
+  Attentive''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 34 more developer resources.'
+plans:
+- name: Attentive Plans Pricing
+  plan_count: 3
+  slug: attentive-plans-pricing
+random_paper: 86
 rate_limits:
 - limit_count: 7
   name: Attentive Rate Limits
@@ -328,12 +404,12 @@ scopes:
   slug: attentive-scopes
   summary_line: 14 scopes · authorizationCode
 score:
-  band: strong
-  composite: 63.7
-  delta: 0.0
+  band: exemplar
+  composite: 69.4
+  delta: 5.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 66.9
+    commercial_clarity: 92.1
+    contract_quality: 68.4
     developer_ergonomics: 73.4
     discoverability: 57.4
     governance: 11.5
@@ -355,8 +431,8 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -82,11 +82,35 @@ arazzos:
 - description: Discover behavior graphs, apply tag values to one, and read the tags back.
   name: Amazon Detective Tag a Behavior Graph
   slug: amazon-detective-tag-behavior-graph-workflow
-artifact_total: 202
+artifact_total: 210
 collections:
 - collection_type: postman
   name: Amazon Detective
   slug: postman-amazon-detective
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Detective Datasources API
+  slug: open-amazon-detective-datasources-api
+- collection_type: open
+  name: Amazon Detective Datasources Graph API
+  slug: open-amazon-detective-graph-api
+- collection_type: open
+  name: Amazon Detective Datasources Investigations API
+  slug: open-amazon-detective-investigations-api
+- collection_type: open
+  name: Amazon Detective Datasources Invitations API
+  slug: open-amazon-detective-invitations-api
+- collection_type: open
+  name: Amazon Detective Datasources Members API
+  slug: open-amazon-detective-members-api
+- collection_type: open
+  name: Amazon Detective Datasources Organizations API
+  slug: open-amazon-detective-organizations-api
+- collection_type: open
+  name: Amazon Detective Datasources Tags API
+  slug: open-amazon-detective-tags-api
 - collection_type: open
   name: Amazon Detective
   slug: open-amazon-detective
@@ -741,7 +765,7 @@ plans:
 - name: Amazon Detective Plans Pricing
   plan_count: 3
   slug: amazon-detective-plans-pricing
-random_paper: 88
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Detective Rate Limits
@@ -783,7 +807,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/screenshots/amazon-detective-2026-06-20T171627.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -111,7 +111,74 @@ apis:
 - description: Canonical vault resources, vault history, holders, borrowers, and open-interest views. In v3, vault detail is decomposed into focused endpoints instead of one large legacy response.
   name: Euler Finance Vaults API
   slug: euler-vaults-api
-artifact_total: 233
+artifact_total: 255
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Euler Data API (V3) Accounts API
+  slug: open-euler-accounts-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts APYs API
+  slug: open-euler-apys-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Auth API
+  slug: open-euler-auth-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Chains API
+  slug: open-euler-chains-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Curator API
+  slug: open-euler-curator-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Earn API
+  slug: open-euler-earn-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Entities API
+  slug: open-euler-entities-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts EVC API
+  slug: open-euler-evc-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts FeeFlow API
+  slug: open-euler-feeflow-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts GraphQL API
+  slug: open-euler-graphql-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Health API
+  slug: open-euler-health-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Liquidations API
+  slug: open-euler-liquidations-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Oracles API
+  slug: open-euler-oracles-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Prices API
+  slug: open-euler-prices-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Protocol API
+  slug: open-euler-protocol-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts PublicAllocator API
+  slug: open-euler-publicallocator-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Rewards API
+  slug: open-euler-rewards-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts TermsOfUse API
+  slug: open-euler-termsofuse-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Tokens API
+  slug: open-euler-tokens-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Usage API
+  slug: open-euler-usage-api
+- collection_type: open
+  name: Euler Data API (V3) Accounts Vaults API
+  slug: open-euler-vaults-api
 common:
 - group: operate
   title: ''
@@ -812,7 +879,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 61
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Euler V3 Api
@@ -846,7 +913,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/screenshots/euler-2026-06-20T180844.png
 security:

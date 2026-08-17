@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ apis:
 - description: The Users API from Facebook — 4 operation(s) for users.
   name: Facebook Users API
   slug: facebook-users-api
-artifact_total: 157
+artifact_total: 179
 collections:
 - collection_type: postman
   name: Facebook Graph Ad Accounts API
@@ -167,6 +167,72 @@ collections:
 - collection_type: postman
   name: Facebook Graph Ad Accounts Users API
   slug: postman-facebook-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Facebook Graph Ad Accounts API
+  slug: open-facebook-ad-accounts-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Ad Sets API
+  slug: open-facebook-ad-sets-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Ads API
+  slug: open-facebook-ads-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Audiences API
+  slug: open-facebook-audiences-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Authentication API
+  slug: open-facebook-authentication-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Campaigns API
+  slug: open-facebook-campaigns-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Comments API
+  slug: open-facebook-comments-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Conversations API
+  slug: open-facebook-conversations-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Insights API
+  slug: open-facebook-insights-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Media API
+  slug: open-facebook-media-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Messages API
+  slug: open-facebook-messages-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Pages API
+  slug: open-facebook-pages-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Phone Numbers API
+  slug: open-facebook-phone-numbers-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Photos API
+  slug: open-facebook-photos-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Posts API
+  slug: open-facebook-posts-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Profile API
+  slug: open-facebook-profile-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Publishing API
+  slug: open-facebook-publishing-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Replies API
+  slug: open-facebook-replies-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Tags API
+  slug: open-facebook-tags-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Templates API
+  slug: open-facebook-templates-api
+- collection_type: open
+  name: Facebook Graph Ad Accounts Users API
+  slug: open-facebook-users-api
 common:
 - group: build
   title: ''
@@ -588,7 +654,7 @@ press:
 - date: '2026-05-25'
   title: 'Introducing the Meta AI App: A New Way to Access Your AI ...'
   url: https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/
-random_paper: 106
+random_paper: 81
 rate_limits:
 - limit_count: 12
   name: Facebook Rate Limits
@@ -630,7 +696,7 @@ score:
       marker_coverage: 100.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/screenshots/facebook-2026-07-25T214133.png
 security:

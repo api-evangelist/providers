@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -84,8 +84,53 @@ apis:
 - description: Operations about workflows
   name: N8n Workflow API
   slug: n8n-workflow-api
-artifact_total: 43
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: n8n Public Audit API
+  slug: open-n8n-audit-api
+- collection_type: open
+  name: n8n Public Audit CommunityPackage API
+  slug: open-n8n-communitypackage-api
+- collection_type: open
+  name: n8n Public Audit Credential API
+  slug: open-n8n-credential-api
+- collection_type: open
+  name: n8n Public Audit DataTable API
+  slug: open-n8n-datatable-api
+- collection_type: open
+  name: n8n Public Audit Discover API
+  slug: open-n8n-discover-api
+- collection_type: open
+  name: n8n Public Audit Execution API
+  slug: open-n8n-execution-api
+- collection_type: open
+  name: n8n Public Audit Folders API
+  slug: open-n8n-folders-api
+- collection_type: open
+  name: n8n Public Audit Insights API
+  slug: open-n8n-insights-api
+- collection_type: open
+  name: n8n Public Audit Projects API
+  slug: open-n8n-projects-api
+- collection_type: open
+  name: n8n Public Audit SourceControl API
+  slug: open-n8n-sourcecontrol-api
+- collection_type: open
+  name: n8n Public Audit Tags API
+  slug: open-n8n-tags-api
+- collection_type: open
+  name: n8n Public Audit User API
+  slug: open-n8n-user-api
+- collection_type: open
+  name: n8n Public Audit Variables API
+  slug: open-n8n-variables-api
+- collection_type: open
+  name: n8n Public Audit Workflow API
+  slug: open-n8n-workflow-api
 - collection_type: open
   name: n8n Public API
   slug: open-n8n
@@ -219,7 +264,7 @@ plans:
 - name: N8N Plans Pricing
   plan_count: 4
   slug: n8n-plans-pricing
-random_paper: 36
+random_paper: 127
 rate_limits:
 - limit_count: 3
   name: N8N Rate Limits
@@ -244,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/screenshots/n8n-2026-06-20T185922.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: User account administration
   name: Site24x7 Users API
   slug: site24x7-users-api
-artifact_total: 27
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Site24x7 REST Alarms API
+  slug: open-site24x7-alarms-api
+- collection_type: open
+  name: Site24x7 REST Alarms Current Status API
+  slug: open-site24x7-current-status-api
+- collection_type: open
+  name: Site24x7 REST Alarms Maintenance Windows API
+  slug: open-site24x7-maintenance-windows-api
+- collection_type: open
+  name: Site24x7 REST Alarms Monitor Groups API
+  slug: open-site24x7-monitor-groups-api
+- collection_type: open
+  name: Site24x7 REST Alarms Monitors API
+  slug: open-site24x7-monitors-api
+- collection_type: open
+  name: Site24x7 REST Alarms Notification Profiles API
+  slug: open-site24x7-notification-profiles-api
+- collection_type: open
+  name: Site24x7 REST Alarms Outages API
+  slug: open-site24x7-outages-api
+- collection_type: open
+  name: Site24x7 REST Alarms Reports API
+  slug: open-site24x7-reports-api
+- collection_type: open
+  name: Site24x7 REST Alarms Tags API
+  slug: open-site24x7-tags-api
+- collection_type: open
+  name: Site24x7 REST Alarms Threshold Profiles API
+  slug: open-site24x7-threshold-profiles-api
+- collection_type: open
+  name: Site24x7 REST Alarms Users API
+  slug: open-site24x7-users-api
 common:
 - group: agent
   title: ''
@@ -186,7 +223,7 @@ plans:
 - name: Site24X7 Plans Pricing
   plan_count: 8
   slug: site24x7-plans-pricing
-random_paper: 114
+random_paper: 118
 rate_limits:
 - limit_count: 3
   name: Site24X7 Rate Limits
@@ -220,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/screenshots/site24x7-2026-06-20T193955.png
 security:

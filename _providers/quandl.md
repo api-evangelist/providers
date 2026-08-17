@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +54,23 @@ apis:
 - description: Tabular dataset retrieval
   name: Quandl (Nasdaq Data Link) Tables API
   slug: quandl-tables-api
-artifact_total: 15
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Nasdaq Data Link Time-Series REST API
   slug: open-nasdaq-data-link-timeseries
+- collection_type: open
+  name: Nasdaq Data Link Time-Series REST Databases API
+  slug: open-quandl-databases-api
+- collection_type: open
+  name: Nasdaq Data Link Time-Series REST Databases Datasets API
+  slug: open-quandl-datasets-api
+- collection_type: open
+  name: Nasdaq Data Link Time-Series REST Databases Tables API
+  slug: open-quandl-tables-api
 common:
 - group: agent
   title: ''
@@ -164,7 +176,7 @@ plans:
 - name: Quandl Plans Pricing
   plan_count: 1
   slug: quandl-plans-pricing
-random_paper: 45
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Quandl Rate Limits
@@ -204,7 +216,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/screenshots/quandl-2026-06-20T192403.png
 security:

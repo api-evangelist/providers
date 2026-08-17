@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -108,7 +108,7 @@ plans:
 - name: Elpha Secure Plans Pricing
   plan_count: 0
   slug: elpha-secure-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Elpha Secure Rate Limits
@@ -116,6 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -123,6 +124,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 21.4
   regulatory:
     applies: true
     matched_via: tags
@@ -130,7 +132,8 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Elpha Secure Domain Security

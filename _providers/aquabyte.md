@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,7 +49,32 @@ apis:
 - description: Welfare APIs
   name: Aquabyte Welfare API
   slug: aquabyte-welfare-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aquabyte API Documentation Behaviour API
+  slug: open-aquabyte-behaviour-api
+- collection_type: open
+  name: Aquabyte API Documentation Biomass API
+  slug: open-aquabyte-biomass-api
+- collection_type: open
+  name: Aquabyte API Documentation Environmental API
+  slug: open-aquabyte-environmental-api
+- collection_type: open
+  name: Aquabyte API Documentation Lice API
+  slug: open-aquabyte-lice-api
+- collection_type: open
+  name: Aquabyte API Documentation Sites API
+  slug: open-aquabyte-sites-api
+- collection_type: open
+  name: Aquabyte API Documentation V3.0 API
+  slug: open-aquabyte-v3-0-api
+- collection_type: open
+  name: Aquabyte API Documentation Welfare API
+  slug: open-aquabyte-welfare-api
 common:
 - group: agent
   title: ''
@@ -123,7 +148,7 @@ overview: 'Aquabyte publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Aquabyte''s developer surface includes documentation, API reference, support, authentication, and 11 more developer resources.'
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 1
   name: Aquabyte Rate Limits
@@ -150,7 +175,7 @@ score:
       total: 7
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png
 security:

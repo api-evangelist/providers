@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -610,7 +610,7 @@ arazzos:
 - description: Create and finalize an invoice, then mark it uncollectible.
   name: Stripe Write Off Invoice
   slug: stripe-write-off-invoice-workflow
-artifact_total: 350
+artifact_total: 459
 asyncapis:
 - description: Stripe uses webhooks to notify your application when an event happens in your account. Webhooks are particularly useful for asynchronous events like when a customer's bank confirms a payment, a custom
   name: Stripe Webhooks
@@ -779,11 +779,20 @@ collections:
   name: Stripe Webhook API
   slug: postman-stripe-webhook-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Stripe Payment Intents API
   slug: open-openapi:stripe-payment-intents-api
 - collection_type: open
-  name: Stripe Accounts API
+  name: Stripe Accounts Account API
+  slug: open-stripe-account-api
+- collection_type: open
+  name: Stripe Account Accounts API
   slug: open-stripe-accounts-api
+- collection_type: open
+  name: Stripe Accounts Account Apple API
+  slug: open-stripe-apple-api
 - collection_type: open
   name: Stripe Apple Pay API
   slug: open-stripe-apple-pay-api
@@ -794,161 +803,479 @@ collections:
   name: Stripe Application Secrets API
   slug: open-stripe-application-secrets-api
 - collection_type: open
-  name: Stripe Balance API
+  name: Stripe Accounts Account Applications API
+  slug: open-stripe-applications-api
+- collection_type: open
+  name: Stripe Accounts Account Apply API
+  slug: open-stripe-apply-api
+- collection_type: open
+  name: Stripe Accounts Account Approve API
+  slug: open-stripe-approve-api
+- collection_type: open
+  name: Stripe Accounts Account Attach API
+  slug: open-stripe-attach-api
+- collection_type: open
+  name: Stripe Accounts Account Authorization API
+  slug: open-stripe-authorization-api
+- collection_type: open
+  name: Stripe Accounts Account Balance API
   slug: open-stripe-balance-api
 - collection_type: open
-  name: Stripe Billing API
+  name: Stripe Accounts Account Balance Transactions API
+  slug: open-stripe-balance-transactions-api
+- collection_type: open
+  name: Stripe Accounts Account Bank API
+  slug: open-stripe-bank-api
+- collection_type: open
+  name: Stripe Accounts Account Billing API
   slug: open-stripe-billing-api
 - collection_type: open
-  name: Stripe Billing Meters API
+  name: Stripe Accounts Account Billing Meters API
   slug: open-stripe-billing-meters-api
 - collection_type: open
-  name: Stripe Charges API
+  name: Stripe Accounts Account Billing Portal API
+  slug: open-stripe-billing-portal-api
+- collection_type: open
+  name: Stripe Accounts Account Cancel API
+  slug: open-stripe-cancel-api
+- collection_type: open
+  name: Stripe Accounts Account Capabilities API
+  slug: open-stripe-capabilities-api
+- collection_type: open
+  name: Stripe Accounts Account Capability API
+  slug: open-stripe-capability-api
+- collection_type: open
+  name: Stripe Accounts Account Capture API
+  slug: open-stripe-capture-api
+- collection_type: open
+  name: Stripe Accounts Account Card API
+  slug: open-stripe-card-api
+- collection_type: open
+  name: Stripe Accounts Account Cards API
+  slug: open-stripe-cards-api
+- collection_type: open
+  name: Stripe Accounts Account Cash API
+  slug: open-stripe-cash-api
+- collection_type: open
+  name: Stripe Accounts Account Charges API
   slug: open-stripe-charges-api
 - collection_type: open
-  name: Stripe Checkout API
+  name: Stripe Accounts Account Checkout API
   slug: open-stripe-checkout-api
 - collection_type: open
-  name: Stripe Climate API
+  name: Stripe Accounts Account Climate API
   slug: open-stripe-climate-api
 - collection_type: open
-  name: Stripe Connect API
+  name: Stripe Accounts Account Close API
+  slug: open-stripe-close-api
+- collection_type: open
+  name: Stripe Accounts Account Configuration API
+  slug: open-stripe-configuration-api
+- collection_type: open
+  name: Stripe Accounts Account Configurations API
+  slug: open-stripe-configurations-api
+- collection_type: open
+  name: Stripe Accounts Account Confirm API
+  slug: open-stripe-confirm-api
+- collection_type: open
+  name: Stripe Accounts Account Connect API
   slug: open-stripe-connect-api
 - collection_type: open
-  name: Stripe Country API
+  name: Stripe Accounts Account Connections API
+  slug: open-stripe-connections-api
+- collection_type: open
+  name: Stripe Accounts Account Country API
   slug: open-stripe-country-api
 - collection_type: open
-  name: Stripe Coupons API
+  name: Stripe Accounts Account Country Specs API
+  slug: open-stripe-country-specs-api
+- collection_type: open
+  name: Stripe Accounts Account Coupon API
+  slug: open-stripe-coupon-api
+- collection_type: open
+  name: Stripe Accounts Account Coupons API
   slug: open-stripe-coupons-api
 - collection_type: open
-  name: Stripe Credit Notes API
+  name: Stripe Accounts Account Create API
+  slug: open-stripe-create-api
+- collection_type: open
+  name: Stripe Accounts Account Credit API
+  slug: open-stripe-credit-api
+- collection_type: open
+  name: Stripe Accounts Account Credit Notes API
   slug: open-stripe-credit-notes-api
 - collection_type: open
-  name: Stripe Crypto Onramp API
+  name: Stripe Accounts Account Crypto Onramp API
   slug: open-stripe-crypto-onramp-api
 - collection_type: open
-  name: Stripe Customer Portal API
+  name: Stripe Accounts Account Customer API
+  slug: open-stripe-customer-api
+- collection_type: open
+  name: Stripe Accounts Account Customer Portal API
   slug: open-stripe-customer-portal-api
 - collection_type: open
-  name: Stripe Customers API
+  name: Stripe Accounts Account Customers API
   slug: open-stripe-customers-api
 - collection_type: open
-  name: Stripe Disputes API
+  name: Stripe Accounts Account Decline API
+  slug: open-stripe-decline-api
+- collection_type: open
+  name: Stripe Accounts Account Delete API
+  slug: open-stripe-delete-api
+- collection_type: open
+  name: Stripe Accounts Account Detach API
+  slug: open-stripe-detach-api
+- collection_type: open
+  name: Stripe Accounts Account Disconnect API
+  slug: open-stripe-disconnect-api
+- collection_type: open
+  name: Stripe Accounts Account Discount API
+  slug: open-stripe-discount-api
+- collection_type: open
+  name: Stripe Accounts Account Dispute API
+  slug: open-stripe-dispute-api
+- collection_type: open
+  name: Stripe Accounts Account Disputes API
   slug: open-stripe-disputes-api
 - collection_type: open
-  name: Stripe Entitlements API
+  name: Stripe Accounts Account Domain API
+  slug: open-stripe-domain-api
+- collection_type: open
+  name: Stripe Accounts Account Domains API
+  slug: open-stripe-domains-api
+- collection_type: open
+  name: Stripe Accounts Account Entitlements API
   slug: open-stripe-entitlements-api
 - collection_type: open
-  name: Stripe Ephemeral Keys API
+  name: Stripe Accounts Account Ephemeral Keys API
   slug: open-stripe-ephemeral-keys-api
 - collection_type: open
-  name: Stripe Events API
+  name: Stripe Accounts Account Events API
   slug: open-stripe-events-api
 - collection_type: open
-  name: Stripe Exchange Rates API
+  name: Stripe Accounts Account Exchange API
+  slug: open-stripe-exchange-api
+- collection_type: open
+  name: Stripe Accounts Account Exchange Rates API
   slug: open-stripe-exchange-rates-api
 - collection_type: open
-  name: Stripe Files API
+  name: Stripe Accounts Account Expire API
+  slug: open-stripe-expire-api
+- collection_type: open
+  name: Stripe Accounts Account External API
+  slug: open-stripe-external-api
+- collection_type: open
+  name: Stripe Accounts Account Fee API
+  slug: open-stripe-fee-api
+- collection_type: open
+  name: Stripe Accounts Account Files API
   slug: open-stripe-files-api
 - collection_type: open
-  name: Stripe Financial Connections API
+  name: Stripe Accounts Account Finalize API
+  slug: open-stripe-finalize-api
+- collection_type: open
+  name: Stripe Accounts Account Financial API
+  slug: open-stripe-financial-api
+- collection_type: open
+  name: Stripe Accounts Account Financial Connections API
   slug: open-stripe-financial-connections-api
 - collection_type: open
-  name: Stripe Forwarding API
+  name: Stripe Accounts Account Find API
+  slug: open-stripe-find-api
+- collection_type: open
+  name: Stripe Accounts Account Forwarding API
   slug: open-stripe-forwarding-api
 - collection_type: open
-  name: Stripe Identity API
+  name: Stripe Accounts Account Funding API
+  slug: open-stripe-funding-api
+- collection_type: open
+  name: Stripe Accounts Account Get API
+  slug: open-stripe-get-api
+- collection_type: open
+  name: Stripe Accounts Account History API
+  slug: open-stripe-history-api
+- collection_type: open
+  name: Stripe Accounts Account Identifiers API
+  slug: open-stripe-identifiers-api
+- collection_type: open
+  name: Stripe Accounts Account Identity API
   slug: open-stripe-identity-api
 - collection_type: open
-  name: Stripe Invoice API
+  name: Stripe Accounts Account Increment API
+  slug: open-stripe-increment-api
+- collection_type: open
+  name: Stripe Accounts Account Intents API
+  slug: open-stripe-intents-api
+- collection_type: open
+  name: Stripe Accounts Account Invoice API
   slug: open-stripe-invoice-api
 - collection_type: open
-  name: Stripe Issuing API
+  name: Stripe Accounts Account Invoiceitems API
+  slug: open-stripe-invoiceitems-api
+- collection_type: open
+  name: Stripe Accounts Account Invoices API
+  slug: open-stripe-invoices-api
+- collection_type: open
+  name: Stripe Accounts Account Issuing API
   slug: open-stripe-issuing-api
 - collection_type: open
-  name: Stripe Link API
+  name: Stripe Accounts Account Item API
+  slug: open-stripe-item-api
+- collection_type: open
+  name: Stripe Accounts Account Items API
+  slug: open-stripe-items-api
+- collection_type: open
+  name: Stripe Accounts Account Keys API
+  slug: open-stripe-keys-api
+- collection_type: open
+  name: Stripe Accounts Account Line API
+  slug: open-stripe-line-api
+- collection_type: open
+  name: Stripe Accounts Account Lines API
+  slug: open-stripe-lines-api
+- collection_type: open
+  name: Stripe Accounts Account Link Account Sessions API
+  slug: open-stripe-link-account-sessions-api
+- collection_type: open
+  name: Stripe Accounts Account Link API
   slug: open-stripe-link-api
 - collection_type: open
-  name: Stripe Payment Intents API
+  name: Stripe Accounts Account Linked Accounts API
+  slug: open-stripe-linked-accounts-api
+- collection_type: open
+  name: Stripe Accounts Account Linked API
+  slug: open-stripe-linked-api
+- collection_type: open
+  name: Stripe Accounts Account Links API
+  slug: open-stripe-links-api
+- collection_type: open
+  name: Stripe Accounts Account Lists API
+  slug: open-stripe-lists-api
+- collection_type: open
+  name: Stripe Accounts Account Login API
+  slug: open-stripe-login-api
+- collection_type: open
+  name: Stripe Accounts Account Mark API
+  slug: open-stripe-mark-api
+- collection_type: open
+  name: Stripe Accounts Account Method API
+  slug: open-stripe-method-api
+- collection_type: open
+  name: Stripe Accounts Account Methods API
+  slug: open-stripe-methods-api
+- collection_type: open
+  name: Stripe Accounts Account Microdeposits API
+  slug: open-stripe-microdeposits-api
+- collection_type: open
+  name: Stripe Accounts Account Note API
+  slug: open-stripe-note-api
+- collection_type: open
+  name: Stripe Accounts Account Notes API
+  slug: open-stripe-notes-api
+- collection_type: open
+  name: Stripe Accounts Account Owners API
+  slug: open-stripe-owners-api
+- collection_type: open
+  name: Stripe Accounts Account Pay API
+  slug: open-stripe-pay-api
+- collection_type: open
+  name: Stripe Accounts Account Payment Intents API
   slug: open-stripe-payment-intents-api
 - collection_type: open
-  name: Stripe Payment Links API
+  name: Stripe Accounts Account Payment Links API
   slug: open-stripe-payment-links-api
 - collection_type: open
   name: Stripe Payment Method API
   slug: open-stripe-payment-method-api
 - collection_type: open
-  name: Stripe Payment Method Configurations API
+  name: Stripe Accounts Account Payment Method Configurations API
   slug: open-stripe-payment-method-configurations-api
 - collection_type: open
-  name: Stripe Payouts API
+  name: Stripe Accounts Account Payment Method Domains API
+  slug: open-stripe-payment-method-domains-api
+- collection_type: open
+  name: Stripe Accounts Account Payment Methods API
+  slug: open-stripe-payment-methods-api
+- collection_type: open
+  name: Stripe Accounts Account Payments API
+  slug: open-stripe-payments-api
+- collection_type: open
+  name: Stripe Accounts Account Payouts API
   slug: open-stripe-payouts-api
 - collection_type: open
-  name: Stripe Plans API
+  name: Stripe Accounts Account Person API
+  slug: open-stripe-person-api
+- collection_type: open
+  name: Stripe Accounts Account Persons API
+  slug: open-stripe-persons-api
+- collection_type: open
+  name: Stripe Accounts Account Plans API
   slug: open-stripe-plans-api
 - collection_type: open
-  name: Stripe Prices API
+  name: Stripe Accounts Account Post API
+  slug: open-stripe-post-api
+- collection_type: open
+  name: Stripe Accounts Account Prices API
   slug: open-stripe-prices-api
 - collection_type: open
-  name: Stripe Products API
+  name: Stripe Accounts Account Products API
   slug: open-stripe-products-api
 - collection_type: open
-  name: Stripe Promotion Codes API
+  name: Stripe Accounts Account Promotion Codes API
   slug: open-stripe-promotion-codes-api
 - collection_type: open
-  name: Stripe Quotes API
+  name: Stripe Accounts Account Quotes API
   slug: open-stripe-quotes-api
 - collection_type: open
-  name: Stripe Radar API
+  name: Stripe Accounts Account Radar API
   slug: open-stripe-radar-api
 - collection_type: open
-  name: Stripe Refunds API
+  name: Stripe Accounts Account Rate API
+  slug: open-stripe-rate-api
+- collection_type: open
+  name: Stripe Accounts Account Rates API
+  slug: open-stripe-rates-api
+- collection_type: open
+  name: Stripe Accounts Account Redact API
+  slug: open-stripe-redact-api
+- collection_type: open
+  name: Stripe Accounts Account Refresh API
+  slug: open-stripe-refresh-api
+- collection_type: open
+  name: Stripe Accounts Account Refund API
+  slug: open-stripe-refund-api
+- collection_type: open
+  name: Stripe Accounts Account Refunds API
   slug: open-stripe-refunds-api
 - collection_type: open
-  name: Stripe Reporting API
+  name: Stripe Accounts Account Reject API
+  slug: open-stripe-reject-api
+- collection_type: open
+  name: Stripe Accounts Account Reporting API
   slug: open-stripe-reporting-api
 - collection_type: open
-  name: Stripe Revenue Recognition API
+  name: Stripe Accounts Account Reports API
+  slug: open-stripe-reports-api
+- collection_type: open
+  name: Stripe Accounts Account Retrieve API
+  slug: open-stripe-retrieve-api
+- collection_type: open
+  name: Stripe Accounts Account Revenue Recognition API
   slug: open-stripe-revenue-recognition-api
+- collection_type: open
+  name: Stripe Accounts Account Reverse API
+  slug: open-stripe-reverse-api
+- collection_type: open
+  name: Stripe Accounts Account Search API
+  slug: open-stripe-search-api
+- collection_type: open
+  name: Stripe Accounts Account Secrets API
+  slug: open-stripe-secrets-api
+- collection_type: open
+  name: Stripe Accounts Account Send API
+  slug: open-stripe-send-api
+- collection_type: open
+  name: Stripe Accounts Account Sessions API
+  slug: open-stripe-sessions-api
+- collection_type: open
+  name: Stripe Accounts Account Settlement API
+  slug: open-stripe-settlement-api
+- collection_type: open
+  name: Stripe Accounts Account Settlements API
+  slug: open-stripe-settlements-api
 - collection_type: open
   name: Stripe Setup API
   slug: open-stripe-setup-api
 - collection_type: open
-  name: Stripe Shipping Rates API
+  name: Stripe Accounts Account Setup Attempts API
+  slug: open-stripe-setup-attempts-api
+- collection_type: open
+  name: Stripe Accounts Account Setup Intents API
+  slug: open-stripe-setup-intents-api
+- collection_type: open
+  name: Stripe Accounts Account Shipping Rates API
   slug: open-stripe-shipping-rates-api
 - collection_type: open
-  name: Stripe Sources API
+  name: Stripe Accounts Account Sigma API
   slug: open-stripe-sigma-api
 - collection_type: open
-  name: Stripe Sources API
+  name: Stripe Accounts Account Sources API
   slug: open-stripe-sources-api
+- collection_type: open
+  name: Stripe Accounts Account Subscribe API
+  slug: open-stripe-subscribe-api
 - collection_type: open
   name: Stripe Subscription API
   slug: open-stripe-subscription-api
 - collection_type: open
-  name: Stripe Tax API
+  name: Stripe Accounts Account Subscription Items API
+  slug: open-stripe-subscription-items-api
+- collection_type: open
+  name: Stripe Accounts Account Subscription Schedules API
+  slug: open-stripe-subscription-schedules-api
+- collection_type: open
+  name: Stripe Accounts Account Subscriptions API
+  slug: open-stripe-subscriptions-api
+- collection_type: open
+  name: Stripe Accounts Account Tax API
   slug: open-stripe-tax-api
 - collection_type: open
-  name: Stripe Terminal API
+  name: Stripe Accounts Account Tax Codes API
+  slug: open-stripe-tax-codes-api
+- collection_type: open
+  name: Stripe Accounts Account Tax Rates API
+  slug: open-stripe-tax-rates-api
+- collection_type: open
+  name: Stripe Accounts Account Terminal API
   slug: open-stripe-terminal-api
 - collection_type: open
-  name: Stripe Test Helpers API
+  name: Stripe Accounts Account Test Helpers API
   slug: open-stripe-test-helpers-api
 - collection_type: open
-  name: Stripe Tokens API
+  name: Stripe Accounts Account Tokens API
   slug: open-stripe-tokens-api
 - collection_type: open
-  name: Stripe Transfers API
+  name: Stripe Accounts Account Topups API
   slug: open-stripe-topups-api
 - collection_type: open
-  name: Stripe Transfers API
+  name: Stripe Accounts Account Transaction API
+  slug: open-stripe-transaction-api
+- collection_type: open
+  name: Stripe Accounts Account Transactions API
+  slug: open-stripe-transactions-api
+- collection_type: open
+  name: Stripe Accounts Account Transfers API
   slug: open-stripe-transfers-api
 - collection_type: open
-  name: Stripe Treasury API
+  name: Stripe Accounts Account Treasury API
   slug: open-stripe-treasury-api
+- collection_type: open
+  name: Stripe Accounts Account Unsubscribe API
+  slug: open-stripe-unsubscribe-api
+- collection_type: open
+  name: Stripe Accounts Account Upcoming API
+  slug: open-stripe-upcoming-api
+- collection_type: open
+  name: Stripe Accounts Account Update API
+  slug: open-stripe-update-api
+- collection_type: open
+  name: Stripe Accounts Account Validate API
+  slug: open-stripe-validate-api
+- collection_type: open
+  name: Stripe Accounts Account Verification API
+  slug: open-stripe-verification-api
+- collection_type: open
+  name: Stripe Accounts Account Verify API
+  slug: open-stripe-verify-api
+- collection_type: open
+  name: Stripe Accounts Account Void API
+  slug: open-stripe-void-api
 - collection_type: open
   name: Stripe Webhook API
   slug: open-stripe-webhook-api
+- collection_type: open
+  name: Stripe Accounts Account Webhook Endpoints API
+  slug: open-stripe-webhook-endpoints-api
 common:
 - group: agent
   title: ''
@@ -1565,7 +1892,7 @@ plans:
 - name: Stripe Plans Pricing
   plan_count: 9
   slug: stripe-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 6
   name: Stripe Rate Limits
@@ -1629,7 +1956,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png
 security:

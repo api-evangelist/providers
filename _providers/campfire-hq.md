@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: The Settings API from Campfire — 2 operation(s) for settings.
   name: Campfire Settings API
   slug: campfire-hq-settings-api
-artifact_total: 19
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable API
+  slug: open-campfire-hq-accounts-payable-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Accounts Receivable API
+  slug: open-campfire-hq-accounts-receivable-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Bank Reconciliation API
+  slug: open-campfire-hq-bank-reconciliation-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Cash Management API
+  slug: open-campfire-hq-cash-management-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable coa API
+  slug: open-campfire-hq-coa-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Company Objects API
+  slug: open-campfire-hq-company-objects-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Core Accounting API
+  slug: open-campfire-hq-core-accounting-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Custom Fields API
+  slug: open-campfire-hq-custom-fields-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Financial Statements API
+  slug: open-campfire-hq-financial-statements-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Integrations API
+  slug: open-campfire-hq-integrations-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Revenue Recognition API
+  slug: open-campfire-hq-revenue-recognition-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Settings API
+  slug: open-campfire-hq-settings-api
 - collection_type: open
   name: Campfire Developer APIs
   slug: open-campfire-hq
@@ -141,7 +180,7 @@ plans:
 - name: Campfire Hq Plans Pricing
   plan_count: 2
   slug: campfire-hq-plans-pricing
-random_paper: 21
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Campfire Hq Rate Limits
@@ -166,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campfire-hq/refs/heads/main/screenshots/campfire-hq-2026-07-25T204316.png
 security:

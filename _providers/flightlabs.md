@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Airline route data endpoints
   name: FlightLabs Routes API
   slug: flightlabs-routes-api
-artifact_total: 22
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FlightLabs Aircraft API
+  slug: open-flightlabs-aircraft-api
+- collection_type: open
+  name: FlightLabs Aircraft Airlines API
+  slug: open-flightlabs-airlines-api
+- collection_type: open
+  name: FlightLabs Aircraft Airports API
+  slug: open-flightlabs-airports-api
+- collection_type: open
+  name: FlightLabs Aircraft Flights API
+  slug: open-flightlabs-flights-api
+- collection_type: open
+  name: FlightLabs Aircraft Geography API
+  slug: open-flightlabs-geography-api
+- collection_type: open
+  name: FlightLabs Aircraft Pricing API
+  slug: open-flightlabs-pricing-api
+- collection_type: open
+  name: FlightLabs Aircraft Routes API
+  slug: open-flightlabs-routes-api
 common:
 - group: agent
   title: ''
@@ -125,7 +150,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 96
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -159,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/screenshots/flightlabs-2026-06-20T181312.png
 security:

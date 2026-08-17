@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,11 +59,36 @@ apis:
 - description: The users API from HumanAPI — 4 operation(s) for users.
   name: HumanAPI users API
   slug: humanapi-users-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Humanapi Notifications Webhooks
   slug: humanapi-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: admin API
+  slug: open-humanapi-admin-api
+- collection_type: open
+  name: admin connect API
+  slug: open-humanapi-connect-api
+- collection_type: open
+  name: admin orders API
+  slug: open-humanapi-orders-api
+- collection_type: open
+  name: admin reports API
+  slug: open-humanapi-reports-api
+- collection_type: open
+  name: admin resources API
+  slug: open-humanapi-resources-api
+- collection_type: open
+  name: admin subscriptions API
+  slug: open-humanapi-subscriptions-api
+- collection_type: open
+  name: admin users API
+  slug: open-humanapi-users-api
 common:
 - group: other
   title: ''
@@ -184,7 +209,7 @@ overview: 'HumanAPI publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   HumanAPI''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 20 more developer resources.'
-random_paper: 11
+random_paper: 106
 score:
   band: developing
   composite: 43.3
@@ -214,7 +239,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/screenshots/humanapi-2026-07-25T221702.png
 security:

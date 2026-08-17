@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-12'
+  score: 50.9
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: The core REST service behind the AdRoll and AdRoll ABM dashboards. Create and manage organizations, advertisables, campaigns, ad groups, ads, pixels, rules, segments, product feeds, marketplace deals,
@@ -54,6 +55,10 @@ asyncapis:
   name: Nextroll S2S Events
   slug: nextroll-s2s-events
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/nextroll-trust-center.yml
 - group: company
   title: ''
   type: Website
@@ -206,6 +211,22 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/nextroll-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/nextroll-tool-crosswalk.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/nextroll-graphql-reporting-schema.md
+- group: build
+  title: ''
+  type: Examples
+  url: https://apidocs.nextroll.com/crud-api/examples.html
 created: '2026-08-01'
 description: 'NextRoll, Inc. is a San Francisco-based marketing technology company that operates two brands on a shared machine-learning and identity platform: AdRoll, a cross-channel digital advertising and retargeting platform for ecommerce and D2C marketers, and AdRoll ABM (formerly RollWorks), an account-based marketing platform for B2B demand generation and sales teams. The NextRoll API is the single developer surface behind both brands, served from https://services.adroll.com and split into focused services: a REST CRUD API for organizations, advertisables, campaigns, ad groups, ads, pixels, segments and product feeds; a GraphQL Reporting API that replaces the legacy per-object report endpoints; an Audience API for CRM, custom, composite, lookalike and target-account segments; Prospecting, Geotargeting and User Lists APIs; an ABM Activate/Playbooks API; and a Server-to-Server event API for conversion and engagement events. Developers register applications at developers.nextroll.com
   and authenticate with OAuth 2.0 or a Personal Access Token plus an application API key. In May 2026 NextRoll launched the AdRoll MCP Server, an OAuth 2.1 protected Model Context Protocol endpoint that exposes AdRoll reporting, draft-first campaign creation and ABM account intelligence to AI assistants and agents.'
@@ -219,7 +240,7 @@ mcp_servers:
 - description: ''
   name: nextroll-mcp.yml
   slug: nextroll-mcpyml
-modified: '2026-08-01'
+modified: '2026-08-14'
 name: NextRoll
 nav: Providers
 network: true
@@ -229,12 +250,12 @@ overview: 'NextRoll publishes 9 APIs on the [APIs.io](https://apis.io/) network.
   The NextRoll catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  NextRoll''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  NextRoll''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
 plans:
 - name: Nextroll Plans
   plan_count: 2
   slug: nextroll-plans
-random_paper: 48
+random_paper: 143
 rate_limits:
 - limit_count: 2
   name: Nextroll Rate Limits
@@ -246,12 +267,12 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit/password
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 61.6
+  delta: 1.7
   facets:
     commercial_clarity: 81.6
     contract_quality: 51.6
-    developer_ergonomics: 60.3
+    developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 60.5
@@ -261,7 +282,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/screenshots/nextroll-2026-08-07T185216.png
 security:

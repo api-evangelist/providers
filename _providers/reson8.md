@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Exchange an API key for a short-lived access token.
@@ -40,7 +40,20 @@ apis:
 - description: Realtime, turn-level, and prerecorded transcription.
   name: Reson8 Speech to Text API
   slug: reson8-speech-to-text-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reson8 Speech-to-Text Auth API
+  slug: open-reson8-auth-api
+- collection_type: open
+  name: Reson8 Speech-to-Text Auth Custom Models API
+  slug: open-reson8-custom-models-api
+- collection_type: open
+  name: Reson8 Speech-to-Text Auth Speech to Text API
+  slug: open-reson8-speech-to-text-api
 common:
 - group: auth
   title: ''
@@ -170,7 +183,7 @@ overview: 'Reson8 publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Reson8''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, authentication, and 21 more developer resources.'
-random_paper: 7
+random_paper: 11
 score:
   band: developing
   composite: 50.3
@@ -193,7 +206,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

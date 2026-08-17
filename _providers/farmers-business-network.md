@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: FBN Direct is the member-facing ecommerce marketplace offering 7,200+ crop protection, seed, fertilizer, livestock, and farm supply products at transparent pricing with direct-to-farm delivery. Delive
@@ -46,8 +46,11 @@ apis:
 - description: 'Norm is FBN''s LLM-based AI agronomy advisor, answering members'' questions on seed selection, crop protection, pest and disease management, irrigation, fertilization, and rotation. Free for registered '
   name: Norm AI Advisor
   slug: norm-ai-advisor
-artifact_total: 10
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Farmers Business Network API
   slug: open-farmers-business-network
@@ -100,7 +103,7 @@ plans:
 - name: Farmers Business Network Plans Pricing
   plan_count: 3
   slug: farmers-business-network-plans-pricing
-random_paper: 96
+random_paper: 112
 rate_limits:
 - limit_count: 0
   name: Farmers Business Network Rate Limits
@@ -118,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

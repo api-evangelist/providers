@@ -11,26 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-12'
+  score: 75.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -109,7 +108,81 @@ apis:
 - description: Operations related to website visit tracking
   name: Common Room Website Visits API
   slug: common-room-website-visits-api
-artifact_total: 111
+artifact_total: 138
+asyncapis:
+- description: ''
+  name: Common Room Webhooks
+  slug: common-room-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Common Room Core Activities API
+  slug: open-common-room-activities-api
+- collection_type: open
+  name: Common Room Core Activities Contacts API
+  slug: open-common-room-contacts-api
+- collection_type: open
+  name: Common Room Core Activities Custom Fields API
+  slug: open-common-room-custom-fields-api
+- collection_type: open
+  name: Common Room Core Activities Data Available API
+  slug: open-common-room-data-available-api
+- collection_type: open
+  name: Common Room Core Activities Industries API
+  slug: open-common-room-industries-api
+- collection_type: open
+  name: Common Room Core Activities Lead Scores API
+  slug: open-common-room-lead-scores-api
+- collection_type: open
+  name: Common Room Core Activities Locations API
+  slug: open-common-room-locations-api
+- collection_type: open
+  name: Common Room Core Activities Me API
+  slug: open-common-room-me-api
+- collection_type: open
+  name: Common Room Core Activities Object Types API
+  slug: open-common-room-object-types-api
+- collection_type: open
+  name: Common Room Core Activities Objects API
+  slug: open-common-room-objects-api
+- collection_type: open
+  name: Common Room Core Activities Organizations API
+  slug: open-common-room-organizations-api
+- collection_type: open
+  name: Common Room Core Activities Prospector Companies API
+  slug: open-common-room-prospector-companies-api
+- collection_type: open
+  name: Common Room Core Activities Prospector Contacts API
+  slug: open-common-room-prospector-contacts-api
+- collection_type: open
+  name: Common Room Core Activities Providers API
+  slug: open-common-room-providers-api
+- collection_type: open
+  name: Common Room Core Activities Right to be Forgotten API
+  slug: open-common-room-right-to-be-forgotten-api
+- collection_type: open
+  name: Common Room Core Activities SCIM API
+  slug: open-common-room-scim-api
+- collection_type: open
+  name: Common Room Core Activities Segments API
+  slug: open-common-room-segments-api
+- collection_type: open
+  name: Common Room Core Activities Tags API
+  slug: open-common-room-tags-api
+- collection_type: open
+  name: Common Room Core Activities Tech Stack Products API
+  slug: open-common-room-tech-stack-products-api
+- collection_type: open
+  name: Common Room Core Activities Token Status API
+  slug: open-common-room-token-status-api
+- collection_type: open
+  name: Common Room Core Activities Topics API
+  slug: open-common-room-topics-api
+- collection_type: open
+  name: Common Room Core Activities Website Visits API
+  slug: open-common-room-website-visits-api
 common:
 - group: agent
   title: ''
@@ -175,8 +248,116 @@ common:
   title: ''
   type: FinOps
   url: finops/common-room-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/common-room-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/common-room-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/common-room-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/common-room-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/common-room-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/common-room-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/common-room-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/common-room-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.commonroom.io/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/common-room-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.commonroom.io/security/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/common-room-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/common-room-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/common-room-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/common-room-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/common-room-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/common-room-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/common-room-components.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/common-room-webhooks.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.commonroom.io/developers/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.commonroom.io/docs/api-v2.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.commonroom.io/docs/get-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.commonroom.io/docs/get-started/contacting-common-room-support/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.commonroom.io
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.commonroom.io/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.commonroom.io/privacy-policy/
 created: '2026-06-13'
-description: Common Room is a community intelligence platform with a REST API for tracking member signals across GitHub, Slack, Discord, LinkedIn, and social platforms, managing segments, and automating outreach for go-to-market teams.
+description: Common Room is an AI-native go-to-market and buyer-intelligence platform that unifies first-party product, community, social, web and CRM signals into a single identity-resolved view of contacts and organizations. It exposes a v1 Core REST API for ingesting contacts and activity from your own sources, a v2 REST API for reading contacts, organizations, activities, segments, lead scores, custom objects, website visits and Prospector data, a SCIM 2.0 API for provisioning, a webhook surface driven by workflow rules, a hosted OAuth 2.1 MCP server at mcp.commonroom.io for AI clients, and a first-party `cr` CLI for scripted and agent-driven access.
 examples:
 - key_count: 6
   name: Common Room Examples
@@ -428,22 +609,26 @@ jsonld:
   property_count: 32
   slug: common-room-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: common-room-mcp.yml
+  slug: common-room-mcpyml
+modified: '2026-08-13'
 name: Common Room
 nav: Providers
 network: true
 overview: 'Common Room publishes 23 APIs on the [APIs.io](https://apis.io/) network, including SCIM API, Activities API, Contacts API, and 20 more. Tagged areas include Community Intelligence, Go-to-Market, Member Signals, GitHub, and Slack.
 
 
-  The Common Room catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Common Room catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Common Room''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Common Room''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, API reference, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Common Room Plans Pricing
   plan_count: 3
   slug: common-room-plans-pricing
-random_paper: 59
+random_paper: 96
 rate_limits:
 - limit_count: 0
   name: Common Room Rate Limits
@@ -457,17 +642,22 @@ rules:
     info: 2
     warn: 3
   slug: common-room-jsonschema-spectral-rules
+scopes:
+- name: Common Room Scopes
+  scope_count: 4
+  slug: common-room-scopes
+  summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
-  band: developing
-  composite: 47.1
-  delta: 0.0
+  band: exemplar
+  composite: 75.2
+  delta: 28.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.4
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 13.2
+    commercial_clarity: 100.0
+    contract_quality: 74.2
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 79.2
+    operational_transparency: 23.7
   previous_composite: 47.1
   provenance:
     agentic_access: derived
@@ -477,14 +667,14 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/screenshots/common-room-2026-06-20T174819.png
 security:
 - kind: authentication
   name: Common Room Authentication
   slug: common-room-authentication
-  summary_line: http · 1 scheme
+  summary_line: 0 schemes
 - kind: domain-security
   name: Common Room Domain Security
   slug: common-room-domain-security
@@ -493,6 +683,10 @@ security:
   name: Common Room Vulnerability Disclosure
   slug: common-room-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Common Room Trust Center
+  slug: common-room-trust-center
+  summary_line: SOC 2 Type 2
 slug: common-room
 tags:
 - Community Intelligence
@@ -505,5 +699,11 @@ tags:
 - Sales Intelligence
 - Contact Management
 - Webhooks
+- Buyer Intelligence
+- MCP
+- Agent Tooling
+- CLI
+- SCIM
+- Signal Intelligence
 website: https://www.commonroom.io/
 ---

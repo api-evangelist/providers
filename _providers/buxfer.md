@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: List accounts and balances.
@@ -46,7 +46,26 @@ apis:
 - description: Create, edit, delete, list and import transactions.
   name: Buxfer Transactions API
   slug: buxfer-transactions-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Buxfer Accounts API
+  slug: open-buxfer-accounts-api
+- collection_type: open
+  name: Buxfer Accounts Authentication API
+  slug: open-buxfer-authentication-api
+- collection_type: open
+  name: Buxfer Accounts Organization API
+  slug: open-buxfer-organization-api
+- collection_type: open
+  name: Buxfer Accounts Social API
+  slug: open-buxfer-social-api
+- collection_type: open
+  name: Buxfer Accounts Transactions API
+  slug: open-buxfer-transactions-api
 common:
 - group: other
   title: ''
@@ -160,7 +179,7 @@ overview: 'Buxfer publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Buxfer''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 52
+random_paper: 56
 score:
   band: developing
   composite: 44.2
@@ -189,7 +208,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/screenshots/buxfer-2026-07-25T204124.png
 security:

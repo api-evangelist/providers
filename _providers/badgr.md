@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -60,8 +60,32 @@ apis:
 - description: The Users API from Badgr — 3 operation(s) for users.
   name: Badgr Users API
   slug: badgr-users-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Badgr Assertions API
+  slug: open-badgr-assertions-api
+- collection_type: open
+  name: Badgr Assertions Authentication API
+  slug: open-badgr-authentication-api
+- collection_type: open
+  name: Badgr Assertions Backpack API
+  slug: open-badgr-backpack-api
+- collection_type: open
+  name: Badgr Assertions BadgeClasses API
+  slug: open-badgr-badgeclasses-api
+- collection_type: open
+  name: Badgr Assertions Collections API
+  slug: open-badgr-collections-api
+- collection_type: open
+  name: Badgr Assertions Issuers API
+  slug: open-badgr-issuers-api
+- collection_type: open
+  name: Badgr Assertions Users API
+  slug: open-badgr-users-api
 - collection_type: open
   name: Badgr API
   slug: open-badgr
@@ -130,7 +154,7 @@ plans:
 - name: Badgr Plans Pricing
   plan_count: 4
   slug: badgr-plans-pricing
-random_paper: 32
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Badgr Rate Limits
@@ -160,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/screenshots/badgr-2026-07-25T202239.png
 security:

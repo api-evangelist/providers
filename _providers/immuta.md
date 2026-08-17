@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -35,11 +35,15 @@ apis:
 - description: The Immuta Govern app API — the tenant-hosted REST surface for registering data sources and connections, authoring data, subscription and write policies, managing domains, projects, purposes, tags, fr
   name: Immuta Govern API
   slug: govern-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Immuta Webhooks
   slug: immuta-webhooks
+collections:
+- collection_type: open
+  name: Immuta Data Marketplace
+  slug: open-immuta-marketplace-api
 common:
 - group: agent
   title: ''
@@ -213,7 +217,7 @@ overview: 'Immuta publishes 1 API on the [APIs.io](https://apis.io/) network: Da
 
 
   Immuta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 31 more developer resources.'
-random_paper: 53
+random_paper: 57
 score:
   band: strong
   composite: 58.4
@@ -243,7 +247,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/screenshots/immuta-2026-08-07T170630.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,7 +63,20 @@ apis:
 - description: The root API from Biconomy — 2 operation(s) for root.
   name: Biconomy root API
   slug: biconomy-root-api
-artifact_total: 22
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Supertransaction instructions API
+  slug: open-biconomy-instructions-api
+- collection_type: open
+  name: Supertransaction instructions mee API
+  slug: open-biconomy-mee-api
+- collection_type: open
+  name: Supertransaction instructions root API
+  slug: open-biconomy-root-api
 common:
 - group: agent
   title: ''
@@ -324,7 +337,7 @@ plans:
 - name: Biconomy Plans Pricing
   plan_count: 2
   slug: biconomy-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 3
   name: Biconomy Rate Limits
@@ -372,7 +385,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/screenshots/biconomy-2026-06-20T173223.png
 security:

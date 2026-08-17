@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,8 +59,11 @@ apis:
 - description: The Trends API from Consumer Financial Protection Bureau — 1 operation(s) for trends.
   name: Consumer Financial Protection Bureau Trends API
   slug: consumer-financial-protection-bureau-trends-api
-artifact_total: 20
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: CFPB Consumer Complaint Database API
   slug: open-cfpb-ccdb
@@ -70,6 +73,27 @@ collections:
 - collection_type: open
   name: CFPB HMDA Institutions API
   slug: open-cfpb-hmda-institutions
+- collection_type: open
+  name: CFPB Consumer Complaint Database Aggregations API
+  slug: open-consumer-financial-protection-bureau-aggregations-api
+- collection_type: open
+  name: CFPB Consumer Complaint Database Aggregations CSV API
+  slug: open-consumer-financial-protection-bureau-csv-api
+- collection_type: open
+  name: CFPB Consumer Complaint Database Aggregations Filers API
+  slug: open-consumer-financial-protection-bureau-filers-api
+- collection_type: open
+  name: CFPB Consumer Complaint Database Aggregations Geo API
+  slug: open-consumer-financial-protection-bureau-geo-api
+- collection_type: open
+  name: CFPB Consumer Complaint Database Aggregations Institutions API
+  slug: open-consumer-financial-protection-bureau-institutions-api
+- collection_type: open
+  name: CFPB Consumer Complaint Database Aggregations Search API
+  slug: open-consumer-financial-protection-bureau-search-api
+- collection_type: open
+  name: CFPB Consumer Complaint Database Aggregations Trends API
+  slug: open-consumer-financial-protection-bureau-trends-api
 common:
 - group: operate
   title: ''
@@ -186,7 +210,7 @@ plans:
 - name: Consumer Financial Protection Bureau Plans Pricing
   plan_count: 3
   slug: consumer-financial-protection-bureau-plans-pricing
-random_paper: 83
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Consumer Financial Protection Bureau Rate Limits
@@ -234,7 +258,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/screenshots/consumer-financial-protection-bureau-2026-06-20T174916.png
 security:

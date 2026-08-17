@@ -10,36 +10,99 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: partial
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 59.5
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
 - description: The Conga Advantage Platform REST API exposes Conga's Revenue Lifecycle Management services - Contract Lifecycle Management (CLM), cart/CPQ, catalog, user management, X-Author authoring, document- and
   name: Conga Advantage Platform REST API
   slug: conga-advantage-platform-rest-api
-artifact_total: 7
+- description: A hosted, remote Model Context Protocol server on every regional Conga Advantage Platform gateway. It answers MCP JSON-RPC over Streamable HTTP, rejects anonymous calls with an RFC 6750 bearer challen
+  name: Conga Advantage Platform MCP Server
+  slug: conga-advantage-platform-mcp-server
+- description: A multi-tenant GraphQL API over the Conga Advantage Platform data core, with Relay-style connections, cursor pagination, SOQL-like where predicates and Server-Sent-Event subscriptions. Each tenant get
+  name: Conga GraphQL API
+  slug: conga-graphql-api
+artifact_total: 13
+asyncapis:
+- description: ''
+  name: Conga Webhooks
+  slug: conga-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-conga-openapi-index
 common:
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
   url: security/conga-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/conga-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/conga-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/conga-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/conga-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/conga-tool-crosswalk.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/conga-graphql.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/conga-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/conga-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/conga-platform-overlay.yaml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/conga-plans-pricing.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://login.conga.com/
 - group: auth
   title: ''
   type: Security
@@ -145,44 +208,56 @@ common:
   type: PrivacyPolicy
   url: https://conga.com/privacy
 created: '2026-07-17'
-description: Conga (formerly Apttus + Conga) is an enterprise Revenue Lifecycle Management vendor whose Conga Advantage Platform unifies Configure-Price-Quote (CPQ), Contract Lifecycle Management (CLM), document generation and e-signature, X-Author authoring, and AI-assisted contract intelligence. The platform exposes a broad RESTful API surface (CLM, cart/CPQ, catalog, user-management, document- and conversion-management, e-sign, search, scheduler, and extensibility services) documented on a public ReadMe-hosted developer portal at developer.conga.com. APIs use OAuth 2.0 bearer tokens minted through region-specific Conga login services, JSON request/response bodies, cursor-free page/limit pagination with Content-Range headers, URI filtering, and a JSON:API error envelope. Conga is backed by ICONIQ Capital and Insight Partners.
+description: 'Conga (formerly Apttus + Conga) is an enterprise Revenue Lifecycle Management vendor whose Conga Advantage Platform unifies Configure-Price-Quote (CPQ), Contract Lifecycle Management (CLM), document generation and e-signature, X-Author authoring, approvals, billing and incentives, and AI-assisted contract intelligence. It is one of the largest documented API surfaces in the catalog: Conga publishes a complete OpenAPI 3.0.1 definition for every operation on its ReadMe-hosted developer portal at developer.conga.com - 2,136 operations across 31 services, captured here in openapi/. The platform is regionally partitioned (NA/EU/AU), secured with OAuth 2.0 bearer tokens minted from region-specific Conga login services that publish OIDC discovery and a real per-service scope set (api.cart, api.catalog, api.quote, api.order, api.user-management, api.revenue-admin, sign, doc-gen.composer and more), and uses JSON bodies, page/limit pagination with Content-Range headers, URI filter functions
+  and a JSON:API-style error envelope. Conga also runs two machine surfaces it documents nowhere: a hosted, OAuth-gated MCP server at /mcp on every regional gateway, and a multi-tenant GraphQL API evidenced only by its own first-party npm client @conga-cloud/graphql. Conga is backed by ICONIQ Capital and Insight Partners.'
 image: https://conga.com/sites/default/files/styles/large/public/image/2026-03/Social%20Share%20%281%29%20%281%29.png?itok=uH7gF5iu
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: conga-mcp.yml
+  slug: conga-mcpyml
+modified: '2026-08-13'
 name: Conga
 nav: Providers
 network: true
-overview: 'Conga publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Contract Lifecycle Management, CPQ, and Revenue Lifecycle Management.
+overview: 'Conga publishes 1 API on the [APIs.io](https://apis.io/) network: Advantage Platform REST API. Tagged areas include Company, Enterprise Software, Contract Lifecycle Management, CPQ, and Revenue Lifecycle Management.
 
 
-  Conga''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 20 more developer resources.'
-random_paper: 40
+  The Conga catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Conga''s developer surface includes CLI, documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 32 more developer resources.'
+plans:
+- name: Conga Plans Pricing
+  plan_count: 0
+  slug: conga-plans-pricing
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Conga Rate Limits
   slug: conga-rate-limits
 scopes:
 - name: Conga Scopes
-  scope_count: 11
+  scope_count: 28
   slug: conga-scopes
-  summary_line: 11 scopes · authorizationCode/clientCredentials
+  summary_line: 28 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 39.6
-  delta: 0.0
+  band: strong
+  composite: 65.1
+  delta: 25.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 0.0
-    developer_ergonomics: 58.7
-    discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 63.2
+    commercial_clarity: 60.5
+    contract_quality: 58.5
+    developer_ergonomics: 87.0
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 71.1
   previous_composite: 39.6
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/screenshots/conga-2026-07-25T210254.png
 security:
 - kind: authentication
@@ -212,5 +287,10 @@ tags:
 - E-Signature
 - Contract Intelligence
 - CRM
+- OpenAPI
+- MCP
+- GraphQL
+- Billing
+- Approvals
 website: https://www.conga.com/
 ---

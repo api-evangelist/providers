@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -84,15 +84,60 @@ apis:
 - description: Endpoints for creating, listing, retrieving, and deleting webhook subscriptions for real-time event notifications.
   name: dev-to Webhooks API
   slug: dev-to-webhooks-api
-artifact_total: 27
+artifact_total: 42
 asyncapis:
 - description: The Dev.to Webhooks event-driven interface allows applications to receive real-time HTTP POST callbacks when specific events occur on the Dev.to platform. Webhook subscriptions are managed via the For
   name: Dev.to Webhooks Events
   slug: dev-to-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dev.to Forem Articles API
+  slug: open-dev-to-articles-api
+- collection_type: open
+  name: Dev.to Forem Articles Comments API
+  slug: open-dev-to-comments-api
+- collection_type: open
+  name: Dev.to Forem Articles DisplayAds API
+  slug: open-dev-to-displayads-api
+- collection_type: open
+  name: Dev.to Forem Articles FollowedTags API
+  slug: open-dev-to-followedtags-api
+- collection_type: open
+  name: Dev.to Forem Articles Followers API
+  slug: open-dev-to-followers-api
+- collection_type: open
   name: Dev.to Forem API
   slug: open-dev-to-forem-api
+- collection_type: open
+  name: Dev.to Forem Articles Organizations API
+  slug: open-dev-to-organizations-api
+- collection_type: open
+  name: Dev.to Forem Articles Pages API
+  slug: open-dev-to-pages-api
+- collection_type: open
+  name: Dev.to Forem Articles PodcastEpisodes API
+  slug: open-dev-to-podcastepisodes-api
+- collection_type: open
+  name: Dev.to Forem Articles ProfileImages API
+  slug: open-dev-to-profileimages-api
+- collection_type: open
+  name: Dev.to Forem Articles Reactions API
+  slug: open-dev-to-reactions-api
+- collection_type: open
+  name: Dev.to Forem Articles ReadingList API
+  slug: open-dev-to-readinglist-api
+- collection_type: open
+  name: Dev.to Forem Articles Tags API
+  slug: open-dev-to-tags-api
+- collection_type: open
+  name: Dev.to Forem Articles Users API
+  slug: open-dev-to-users-api
+- collection_type: open
+  name: Dev.to Forem Articles Webhooks API
+  slug: open-dev-to-webhooks-api
 common:
 - group: agent
   title: ''
@@ -157,7 +202,7 @@ plans:
 - name: Dev To Plans Pricing
   plan_count: 3
   slug: dev-to-plans-pricing
-random_paper: 111
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Dev To Rate Limits
@@ -199,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/screenshots/dev-to-2026-06-20T175954.png
 security:

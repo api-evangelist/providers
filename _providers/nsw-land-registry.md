@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: A live Cantaloupe Image Server exposing the International Image Interoperability Framework (IIIF) Image API 2.x over the scanned NSW land record images behind the Historical Land Records Viewer. Verif
@@ -41,11 +41,15 @@ apis:
 - description: 'The one documented, publicly callable API NSW Land Registry Services operates. The NSW LRS status page at status.nswlrs.com.au is an Atlassian Statuspage (page id jcfp2nmyt2j4) with the public v2 API '
   name: NSW LRS Status API
   slug: nsw-lrs-status-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Nsw Land Registry Status Webhooks
   slug: nsw-land-registry-status-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-nsw-land-registry-hlrv-iiif-image-information
 common:
 - group: auth
   title: ''
@@ -225,7 +229,7 @@ overview: 'NSW Land Registry Services publishes 3 APIs on the [APIs.io](https://
 
 
   NSW Land Registry Services'' developer surface includes authentication, changelog, code examples, engineering blog, documentation, developer portal, pricing, and 29 more developer resources.'
-random_paper: 58
+random_paper: 99
 score:
   band: developing
   composite: 45.1
@@ -247,7 +251,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nsw-land-registry/refs/heads/main/screenshots/nsw-land-registry-2026-07-27T125345.png
 security:

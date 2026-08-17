@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,7 +57,26 @@ apis:
 - description: Watchlist CRUD operations
   name: Firstrade Watchlist API
   slug: firstrade-watchlist-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Firstrade Unofficial Account API
+  slug: open-firstrade-account-api
+- collection_type: open
+  name: Firstrade Unofficial Account Authentication API
+  slug: open-firstrade-authentication-api
+- collection_type: open
+  name: Firstrade Unofficial Account Market Data API
+  slug: open-firstrade-market-data-api
+- collection_type: open
+  name: Firstrade Unofficial Account Orders API
+  slug: open-firstrade-orders-api
+- collection_type: open
+  name: Firstrade Unofficial Account Watchlist API
+  slug: open-firstrade-watchlist-api
 common:
 - group: agent
   title: ''
@@ -131,7 +150,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -162,7 +181,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/screenshots/firstrade-2026-06-20T181243.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Messages-shaped route advertised by the service. The route reaches authentication without a key; authenticated native compatibility has not been verified in the latest evidence set.
@@ -36,7 +36,26 @@ apis:
 - description: Unauthenticated service status and live pricing metadata.
   name: LinkAGI Model API Public metadata API
   slug: linkagi-model-api-public-metadata-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LinkAGI Anthropic-style route API
+  slug: open-linkagi-model-api-anthropic-style-route-api
+- collection_type: open
+  name: LinkAGI Discovery API
+  slug: open-linkagi-model-api-discovery-api
+- collection_type: open
+  name: LinkAGI Gemini-style route API
+  slug: open-linkagi-model-api-gemini-style-route-api
+- collection_type: open
+  name: LinkAGI OpenAI compatible API
+  slug: open-linkagi-model-api-openai-compatible-api
+- collection_type: open
+  name: LinkAGI Public metadata API
+  slug: open-linkagi-model-api-public-metadata-api
 common:
 - group: agent
   title: ''
@@ -158,7 +177,7 @@ overview: 'LinkAGI Model API publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   LinkAGI Model API''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, GitHub presence, pricing, and 19 more developer resources.'
-random_paper: 108
+random_paper: 29
 score:
   band: developing
   composite: 51.1
@@ -181,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

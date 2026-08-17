@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Scores API from WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) — 2 operation(s) for scores.
@@ -30,7 +30,20 @@ apis:
 - description: The Track Record API from WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) — 1 operation(s) for track record.
   name: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) Track Record API
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api
-artifact_total: 11
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wealthville Public Data Scores API
+  slug: open-wealthville-defi-liquidity-pool-scores-api-solana-evm-scores-api
+- collection_type: open
+  name: Wealthville Public Data Signals API
+  slug: open-wealthville-defi-liquidity-pool-scores-api-solana-evm-signals-api
+- collection_type: open
+  name: Wealthville Public Data Track Record API
+  slug: open-wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api
 common:
 - group: other
   title: ''
@@ -166,7 +179,7 @@ overview: 'WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) publish
 
 
   WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)''s developer surface includes authentication, API reference, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 115
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Wealthville Defi Liquidity Pool Scores Api Solana Evm Rate Limits
@@ -193,7 +206,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

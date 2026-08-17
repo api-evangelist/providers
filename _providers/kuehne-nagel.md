@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: Find and show details of the customer's shipments, with contents reflecting the visibility configured in myKN. Search shipments, load a single shipment by unique reference, and read history records. R
@@ -72,7 +72,59 @@ apis:
 - description: Published in the developer portal as B2B-OldKAIExtractAPI — extract structured information from documents, with workspace management, synchronous and asynchronous file and zip processing, prompt-drive
   name: Kuehne+Nagel KAI Document Extract API
   slug: kai-document-extract
-artifact_total: 17
+artifact_total: 34
+collections:
+- collection_type: open
+  name: B2B-CustomsEDI
+  slug: open-kuehne-nagel-b2b-customs-edi-v1
+- collection_type: open
+  name: BookingAir
+  slug: open-kuehne-nagel-booking-air-v2
+- collection_type: open
+  name: BookingRoad
+  slug: open-kuehne-nagel-booking-road-v1
+- collection_type: open
+  name: ContainerTracking
+  slug: open-kuehne-nagel-container-tracking-v2
+- collection_type: open
+  name: eSOPPurchaseOrderConfiguration
+  slug: open-kuehne-nagel-esop-purchase-order-configuration-v1
+- collection_type: open
+  name: ExternalShipmentIntegration
+  slug: open-kuehne-nagel-external-shipment-integration-v1
+- collection_type: open
+  name: IntermodalTransportExecution
+  slug: open-kuehne-nagel-intermodal-transport-execution-v1
+- collection_type: open
+  name: B2B-OldKAIExtractAPI
+  slug: open-kuehne-nagel-kai-document-extract-v0-1-0
+- collection_type: open
+  name: OceanEventInbox
+  slug: open-kuehne-nagel-ocean-event-inbox-v1
+- collection_type: open
+  name: OrderBooking
+  slug: open-kuehne-nagel-order-booking-v1
+- collection_type: open
+  name: OrderTracking
+  slug: open-kuehne-nagel-order-tracking-v2
+- collection_type: open
+  name: PurchaseOrderManagement
+  slug: open-kuehne-nagel-purchase-order-management-v3
+- collection_type: open
+  name: RealTimeVisibility-Tracking
+  slug: open-kuehne-nagel-real-time-visibility-tracking-v1
+- collection_type: open
+  name: ShipmentDocumentManagement
+  slug: open-kuehne-nagel-shipment-document-management-v2
+- collection_type: open
+  name: ShipmentDocumentManagement
+  slug: open-kuehne-nagel-shipment-document-management-v3
+- collection_type: open
+  name: ShipmentEventIntegration
+  slug: open-kuehne-nagel-shipment-event-integration-v1
+- collection_type: open
+  name: ShipmentTracking
+  slug: open-kuehne-nagel-shipment-tracking-v2
 common:
 - group: company
   title: ''
@@ -119,7 +171,7 @@ overview: 'Kuehne+Nagel publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kuehne+Nagel''s developer surface includes documentation, developer portal, signup flow, and 5 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
   band: emerging
   composite: 26.3
@@ -139,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png
 slug: kuehne-nagel

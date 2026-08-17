@@ -11,10 +11,11 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -27,9 +28,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-12'
-api_count: 21
+  score: 48.0
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Devoted Health Agentic Access
+  operation_count: 6
+  slug: devoted-health-agentic-access
+  summary_line: 6 operations
+api_count: 23
 apis:
 - description: The CodeSystem FHIR resource type
   name: Devoted Health CodeSystem API
@@ -94,7 +102,80 @@ apis:
 - description: The ValueSet FHIR resource type
   name: Devoted Health ValueSet API
   slug: devoted-health-valueset-api
-artifact_total: 25
+- description: Public FHIR R4 API for in-network providers, facilities, and pharmacies, based on the Da Vinci PDEX Plan-Net reference implementation.
+  name: Provider & Pharmacy Directory API
+  slug: provider-pharmacy-directory-api
+- description: Public FHIR R4 API for drug formulary information, based on the Da Vinci PDEX US Drug Formulary implementation guide.
+  name: Plan Coverage & Formularies API
+  slug: plan-coverage-formularies-api
+artifact_total: 50
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Untitled CodeSystem API
+  slug: open-devoted-health-codesystem-api
+- collection_type: open
+  name: Untitled Condition API
+  slug: open-devoted-health-condition-api
+- collection_type: open
+  name: Untitled Condition Encounter API
+  slug: open-devoted-health-encounter-api
+- collection_type: open
+  name: Untitled Condition ExplanationOfBenefit API
+  slug: open-devoted-health-explanationofbenefit-api
+- collection_type: open
+  name: Untitled CodeSystem HealthcareService API
+  slug: open-devoted-health-healthcareservice-api
+- collection_type: open
+  name: Untitled CodeSystem InsurancePlan API
+  slug: open-devoted-health-insuranceplan-api
+- collection_type: open
+  name: Untitled CodeSystem List API
+  slug: open-devoted-health-list-api
+- collection_type: open
+  name: Untitled CodeSystem Location API
+  slug: open-devoted-health-location-api
+- collection_type: open
+  name: Untitled Condition Medication API
+  slug: open-devoted-health-medication-api
+- collection_type: open
+  name: Untitled CodeSystem MedicationKnowledge API
+  slug: open-devoted-health-medicationknowledge-api
+- collection_type: open
+  name: Untitled CodeSystem OperationDefinition API
+  slug: open-devoted-health-operationdefinition-api
+- collection_type: open
+  name: Untitled CodeSystem Organization API
+  slug: open-devoted-health-organization-api
+- collection_type: open
+  name: Untitled CodeSystem OrganizationAffiliation API
+  slug: open-devoted-health-organizationaffiliation-api
+- collection_type: open
+  name: Untitled Condition Patient API
+  slug: open-devoted-health-patient-api
+- collection_type: open
+  name: Untitled CodeSystem Practitioner API
+  slug: open-devoted-health-practitioner-api
+- collection_type: open
+  name: Untitled CodeSystem PractitionerRole API
+  slug: open-devoted-health-practitionerrole-api
+- collection_type: open
+  name: Untitled CodeSystem SearchParameter API
+  slug: open-devoted-health-searchparameter-api
+- collection_type: open
+  name: Untitled CodeSystem StructureDefinition API
+  slug: open-devoted-health-structuredefinition-api
+- collection_type: open
+  name: Untitled CodeSystem Subscription API
+  slug: open-devoted-health-subscription-api
+- collection_type: open
+  name: Untitled CodeSystem System Level Operations API
+  slug: open-devoted-health-system-level-operations-api
+- collection_type: open
+  name: Untitled CodeSystem ValueSet API
+  slug: open-devoted-health-valueset-api
 common:
 - group: company
   title: ''
@@ -192,6 +273,118 @@ common:
   title: ''
   type: DomainSecurity
   url: security/devoted-health-domain-security.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.devoted.com/developers/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/DevotedHealth
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/devoted-health-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/devoted-health-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/devoted-health-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/devoted-health-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/devoted-health-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/devoted-health-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/devoted-health-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/devoted-health-lifecycle.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/devoted-health-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/devoted-health-patient-access-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/devoted-health-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/devoted-health-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/devoted-health-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/devoted-health-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/devoted-health-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/devoted-health-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/devoted-health-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/devoted-health-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/devoted-health-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/devoted-health-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/devoted-health-lifecycle.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/devoted-health-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/devoted-health-patient-access-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/devoted-health-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/devoted-health-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/devoted-health-agentic-access.yml
 created: '2026-07-17'
 description: 'Devoted Health is a Medicare Advantage health insurance company that operates its own health plans, clinical care, and pharmacy for older Americans. For developers, Devoted publishes CMS Interoperability (21st Century Cures Act) FHIR R4 (4.0.1) APIs: a member-authorized Patient Access API exposing claims, clinical, and coverage data (Patient, Condition, Encounter, Medication, ExplanationOfBenefit), and public Provider Directory, Pharmacy Directory, and Drug Formulary APIs (Practitioner, Organization, Location, HealthcareService, InsurancePlan, MedicationKnowledge, List). Access uses OAuth 2.0 / OpenID Connect with SMART-on-FHIR authorization; third-party member-facing apps register for a Client ID and Secret through Devoted''s interoperability team.'
 image: https://www.devoted.com/wp-content/uploads/2021/03/devoted-health-logo.png
@@ -207,8 +400,8 @@ network: true
 overview: 'Devoted Health publishes 21 APIs on the [APIs.io](https://apis.io/) network, including CodeSystem API, Condition API, Encounter API, and 18 more. Tagged areas include Company, Healthcare, Health Insurance, Medicare Advantage, and FHIR.
 
 
-  Devoted Health''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 102
+  Devoted Health''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, getting-started guide, and 45 more developer resources.'
+random_paper: 81
 scopes:
 - name: Devoted Health Scopes
   scope_count: 14
@@ -216,15 +409,15 @@ scopes:
   summary_line: 14 scopes
 score:
   band: developing
-  composite: 42.5
-  delta: 0.0
+  composite: 45.0
+  delta: 2.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 47.4
-    developer_ergonomics: 45.1
+    developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 42.5
   provenance:
     conformance: first-party
@@ -242,7 +435,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/screenshots/devoted-health-2026-07-25T211822.png
 security:

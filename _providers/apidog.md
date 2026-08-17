@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -71,14 +71,20 @@ arazzos:
 - description: Export a specific module from one project and import it into a module of another project.
   name: Apidog Sync Module Across Projects
   slug: apidog-sync-module-across-projects-workflow
-artifact_total: 57
+artifact_total: 59
 collections:
 - collection_type: postman
   name: Apidog API
   slug: postman-apidog-apidog
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Apidog API
   slug: open-apidog-apidog
+- collection_type: open
+  name: Apidog Import And Export API
+  slug: open-apidog-import-and-export-api
 common:
 - group: agent
   title: ''
@@ -322,7 +328,7 @@ plans:
 - name: Apidog Plans Pricing
   plan_count: 4
   slug: apidog-plans-pricing
-random_paper: 28
+random_paper: 32
 rate_limits:
 - limit_count: 7
   name: Apidog Rate Limits
@@ -364,7 +370,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/screenshots/apidog-2026-06-20T172233.png
 security:

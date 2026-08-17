@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -75,7 +75,7 @@ overview: 'Robby is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Robby''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 62
+random_paper: 95
 score:
   band: minimal
   composite: 12.6
@@ -89,7 +89,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

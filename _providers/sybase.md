@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Operations for managing server logins and database users including role assignments and permission management.
   name: Sybase Users API
   slug: sybase-users-api
-artifact_total: 50
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Sybase ASE REST Backups API
@@ -99,8 +99,32 @@ collections:
   name: Sybase ASE REST Backups Users API
   slug: postman-sybase-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Sybase ASE REST API
   slug: open-sybase-ase-rest-api
+- collection_type: open
+  name: Sybase ASE REST Backups API
+  slug: open-sybase-backups-api
+- collection_type: open
+  name: Sybase ASE REST Backups Configuration API
+  slug: open-sybase-configuration-api
+- collection_type: open
+  name: Sybase ASE REST Backups Databases API
+  slug: open-sybase-databases-api
+- collection_type: open
+  name: Sybase ASE REST Backups Devices API
+  slug: open-sybase-devices-api
+- collection_type: open
+  name: Sybase ASE REST Backups Performance API
+  slug: open-sybase-performance-api
+- collection_type: open
+  name: Sybase ASE REST Backups Servers API
+  slug: open-sybase-servers-api
+- collection_type: open
+  name: Sybase ASE REST Backups Users API
+  slug: open-sybase-users-api
 common:
 - group: build
   title: ''
@@ -289,7 +313,7 @@ plans:
 - name: Sybase Plans Pricing
   plan_count: 1
   slug: sybase-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Sybase Rate Limits
@@ -331,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/screenshots/sybase-2026-06-20T194816.png
 security:

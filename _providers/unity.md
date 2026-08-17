@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -196,7 +196,7 @@ arazzos:
 - description: Add a config setting, create a targeted override rule for it, then confirm the rule is listed.
   name: Unity Remote Config Feature Rollout
   slug: unity-remote-config-rollout-workflow
-artifact_total: 220
+artifact_total: 252
 collections:
 - collection_type: postman
   name: Unity Analytics Allocations API
@@ -292,11 +292,29 @@ collections:
   name: Unity Analytics Allocations Tickets API
   slug: postman-unity-tickets-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unity Analytics Allocations API
+  slug: open-unity-allocations-api
+- collection_type: open
   name: Unity Analytics API
   slug: open-unity-analytics
 - collection_type: open
+  name: Unity Analytics Allocations Authentication API
+  slug: open-unity-authentication-api
+- collection_type: open
+  name: Unity Analytics Allocations Blocks API
+  slug: open-unity-blocks-api
+- collection_type: open
   name: Unity Build Automation API
   slug: open-unity-build-automation
+- collection_type: open
+  name: Unity Analytics Allocations Build Targets API
+  slug: open-unity-build-targets-api
+- collection_type: open
+  name: Unity Analytics Allocations Builds API
+  slug: open-unity-builds-api
 - collection_type: open
   name: Unity Cloud Code API
   slug: open-unity-cloud-code
@@ -304,14 +322,53 @@ collections:
   name: Unity Cloud Save API
   slug: open-unity-cloud-save
 - collection_type: open
+  name: Unity Analytics Allocations Config API
+  slug: open-unity-config-api
+- collection_type: open
+  name: Unity Analytics Allocations Configuration API
+  slug: open-unity-configuration-api
+- collection_type: open
+  name: Unity Analytics Allocations Currencies API
+  slug: open-unity-currencies-api
+- collection_type: open
+  name: Unity Analytics Allocations Custom Data API
+  slug: open-unity-custom-data-api
+- collection_type: open
   name: Unity Economy API
   slug: open-unity-economy
+- collection_type: open
+  name: Unity Analytics Allocations Events API
+  slug: open-unity-events-api
+- collection_type: open
+  name: Unity Analytics Allocations Executions API
+  slug: open-unity-executions-api
+- collection_type: open
+  name: Unity Analytics Allocations Fleets API
+  slug: open-unity-fleets-api
+- collection_type: open
+  name: Unity Analytics Allocations Friend Requests API
+  slug: open-unity-friend-requests-api
+- collection_type: open
+  name: Unity Analytics Allocations Friends API
+  slug: open-unity-friends-api
 - collection_type: open
   name: Unity Friends API
   slug: open-unity-friends
 - collection_type: open
+  name: Unity Analytics Allocations Identity Providers API
+  slug: open-unity-identity-providers-api
+- collection_type: open
+  name: Unity Analytics Allocations Inventory API
+  slug: open-unity-inventory-api
+- collection_type: open
+  name: Unity Analytics Allocations Leaderboards API
+  slug: open-unity-leaderboards-api
+- collection_type: open
   name: Unity Leaderboards API
   slug: open-unity-leaderboards
+- collection_type: open
+  name: Unity Analytics Allocations Lobbies API
+  slug: open-unity-lobbies-api
 - collection_type: open
   name: Unity Lobby API
   slug: open-unity-lobby
@@ -319,14 +376,53 @@ collections:
   name: Unity Matchmaker API
   slug: open-unity-matchmaker
 - collection_type: open
+  name: Unity Analytics Allocations Modules API
+  slug: open-unity-modules-api
+- collection_type: open
   name: Unity Multiplay Game Server Hosting API
   slug: open-unity-multiplay
+- collection_type: open
+  name: Unity Analytics Allocations Override Rules API
+  slug: open-unity-override-rules-api
 - collection_type: open
   name: Unity Player Authentication API
   slug: open-unity-player-authentication
 - collection_type: open
+  name: Unity Analytics Allocations Player Data API
+  slug: open-unity-player-data-api
+- collection_type: open
+  name: Unity Analytics Allocations Players API
+  slug: open-unity-players-api
+- collection_type: open
+  name: Unity Analytics Allocations Purchases API
+  slug: open-unity-purchases-api
+- collection_type: open
+  name: Unity Analytics Allocations Queries API
+  slug: open-unity-queries-api
+- collection_type: open
+  name: Unity Analytics Allocations Queues API
+  slug: open-unity-queues-api
+- collection_type: open
   name: Unity Remote Config API
   slug: open-unity-remote-config
+- collection_type: open
+  name: Unity Analytics Allocations Scores API
+  slug: open-unity-scores-api
+- collection_type: open
+  name: Unity Analytics Allocations Scripts API
+  slug: open-unity-scripts-api
+- collection_type: open
+  name: Unity Analytics Allocations Search API
+  slug: open-unity-search-api
+- collection_type: open
+  name: Unity Analytics Allocations Servers API
+  slug: open-unity-servers-api
+- collection_type: open
+  name: Unity Analytics Allocations Settings API
+  slug: open-unity-settings-api
+- collection_type: open
+  name: Unity Analytics Allocations Tickets API
+  slug: open-unity-tickets-api
 common:
 - group: build
   title: ''
@@ -917,7 +1013,7 @@ plans:
 - name: Unity Plans Pricing
   plan_count: 1
   slug: unity-plans-pricing
-random_paper: 89
+random_paper: 122
 rate_limits:
 - limit_count: 2
   name: Unity Rate Limits
@@ -959,7 +1055,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-06-20T200106.png
 security:

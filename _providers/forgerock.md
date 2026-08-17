@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ apis:
 - description: Manage BPMN workflow processes and tasks
   name: ForgeRock Workflow API
   slug: forgerock-workflow-api
-artifact_total: 175
+artifact_total: 213
 collections:
 - collection_type: postman
   name: ForgeRock Access Management Access Requests API
@@ -270,11 +270,50 @@ collections:
   name: ForgeRock Access Management Access Requests Workflow API
   slug: postman-forgerock-workflow-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: ForgeRock Access Management API
   slug: open-forgerock-access-management
 - collection_type: open
+  name: ForgeRock Access Management Access Requests API
+  slug: open-forgerock-access-requests-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Analytics API
+  slug: open-forgerock-analytics-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Applications API
+  slug: open-forgerock-applications-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Audit API
+  slug: open-forgerock-audit-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Authentication API
+  slug: open-forgerock-authentication-api
+- collection_type: open
   name: ForgeRock Autonomous Identity API
   slug: open-forgerock-autonomous-identity
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Certifications API
+  slug: open-forgerock-certifications-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Company View API
+  slug: open-forgerock-company-view-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Configuration API
+  slug: open-forgerock-configuration-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Entitlements API
+  slug: open-forgerock-entitlements-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Entries API
+  slug: open-forgerock-entries-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Groups API
+  slug: open-forgerock-groups-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Health API
+  slug: open-forgerock-health-api
 - collection_type: open
   name: ForgeRock Identity Cloud REST API
   slug: open-forgerock-identity-cloud
@@ -287,6 +326,81 @@ collections:
 - collection_type: open
   name: ForgeRock Identity Management API
   slug: open-forgerock-identity-management
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Managed Objects API
+  slug: open-forgerock-managed-objects-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Managed Roles API
+  slug: open-forgerock-managed-roles-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Managed Users API
+  slug: open-forgerock-managed-users-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Monitoring API
+  slug: open-forgerock-monitoring-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests OAuth2 API
+  slug: open-forgerock-oauth2-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests OAuth2 Clients API
+  slug: open-forgerock-oauth2-clients-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Objects API
+  slug: open-forgerock-objects-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests OpenID Connect API
+  slug: open-forgerock-openid-connect-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Policies API
+  slug: open-forgerock-policies-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Realms API
+  slug: open-forgerock-realms-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Reconciliation API
+  slug: open-forgerock-reconciliation-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Resource Types API
+  slug: open-forgerock-resource-types-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Roles API
+  slug: open-forgerock-roles-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Routes API
+  slug: open-forgerock-routes-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Rules API
+  slug: open-forgerock-rules-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Scheduler API
+  slug: open-forgerock-scheduler-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Scripts API
+  slug: open-forgerock-scripts-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Server Info API
+  slug: open-forgerock-server-info-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Sessions API
+  slug: open-forgerock-sessions-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Studio API
+  slug: open-forgerock-studio-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Synchronization API
+  slug: open-forgerock-synchronization-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests System Objects API
+  slug: open-forgerock-system-objects-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Users API
+  slug: open-forgerock-users-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Violations API
+  slug: open-forgerock-violations-api
+- collection_type: open
+  name: ForgeRock Access Management Access Requests Workflow API
+  slug: open-forgerock-workflow-api
 common:
 - group: build
   title: ''
@@ -686,7 +800,7 @@ plans:
 - name: Forgerock Plans Pricing
   plan_count: 6
   slug: forgerock-plans-pricing
-random_paper: 2
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Forgerock Rate Limits
@@ -720,7 +834,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/screenshots/forgerock-2026-06-20T181426.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ arazzos:
 - description: Read an open futures position and the mark price, then place a reduce-only take-profit order.
   name: Backpack Add a Take-Profit to a Position
   slug: backpack-position-take-profit-workflow
-artifact_total: 81
+artifact_total: 96
 asyncapis:
 - description: Real-time market data and account event streams for Backpack Exchange. Clients connect to a single WebSocket endpoint and manage many streams over that connection by sending `SUBSCRIBE` / `UNSUBSCRIBE
   name: Backpack Exchange WebSocket Streams API
@@ -118,8 +118,53 @@ collections:
   name: Backpack Exchange API
   slug: postman-backpack-exchange
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Backpack Exchange Account API
+  slug: open-backpack-account-api
+- collection_type: open
+  name: Backpack Exchange Account Assets API
+  slug: open-backpack-assets-api
+- collection_type: open
+  name: Backpack Exchange Account Borrow Lend API
+  slug: open-backpack-borrow-lend-api
+- collection_type: open
+  name: Backpack Exchange Account Borrow Lend Markets API
+  slug: open-backpack-borrow-lend-markets-api
+- collection_type: open
+  name: Backpack Exchange Account Capital API
+  slug: open-backpack-capital-api
+- collection_type: open
   name: Backpack Exchange API
   slug: open-backpack-exchange
+- collection_type: open
+  name: Backpack Exchange Account Markets API
+  slug: open-backpack-markets-api
+- collection_type: open
+  name: Backpack Exchange Account Order API
+  slug: open-backpack-order-api
+- collection_type: open
+  name: Backpack Exchange Account Position API
+  slug: open-backpack-position-api
+- collection_type: open
+  name: Backpack Exchange Account RFQ API
+  slug: open-backpack-rfq-api
+- collection_type: open
+  name: Backpack Exchange Account Strategy API
+  slug: open-backpack-strategy-api
+- collection_type: open
+  name: Backpack Exchange Account System API
+  slug: open-backpack-system-api
+- collection_type: open
+  name: Backpack Exchange Account Trades API
+  slug: open-backpack-trades-api
+- collection_type: open
+  name: Backpack Exchange Account Vaults API
+  slug: open-backpack-vaults-api
+- collection_type: open
+  name: Backpack Exchange Account Withdrawal Delays API
+  slug: open-backpack-withdrawal-delays-api
 common:
 - group: operate
   title: ''
@@ -386,7 +431,7 @@ plans:
 - name: Backpack Plans Pricing
   plan_count: 5
   slug: backpack-plans-pricing
-random_paper: 96
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Backpack Rate Limits
@@ -442,7 +487,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/screenshots/backpack-2026-06-20T172915.png
 security:

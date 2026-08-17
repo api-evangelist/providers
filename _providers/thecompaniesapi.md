@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 44.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -75,12 +75,59 @@ apis:
 - description: The utilities API from The Companies API — 2 operation(s) for utilities.
   name: The Companies API utilities API
   slug: thecompaniesapi-utilities-api
-artifact_total: 18
+artifact_total: 33
+asyncapis:
+- description: ''
+  name: Thecompaniesapi Webhooks
+  slug: thecompaniesapi-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Companies actions API
+  slug: open-thecompaniesapi-actions-api
+- collection_type: open
+  name: The Companies actions analytics API
+  slug: open-thecompaniesapi-analytics-api
+- collection_type: open
+  name: The actions companies API
+  slug: open-thecompaniesapi-companies-api
+- collection_type: open
+  name: The Companies actions industries API
+  slug: open-thecompaniesapi-industries-api
+- collection_type: open
+  name: The Companies actions job-titles API
+  slug: open-thecompaniesapi-job-titles-api
+- collection_type: open
+  name: The Companies actions lists API
+  slug: open-thecompaniesapi-lists-api
+- collection_type: open
+  name: The Companies actions locations API
+  slug: open-thecompaniesapi-locations-api
+- collection_type: open
+  name: The Companies actions prompts API
+  slug: open-thecompaniesapi-prompts-api
+- collection_type: open
+  name: The Companies actions teams API
+  slug: open-thecompaniesapi-teams-api
+- collection_type: open
+  name: The Companies actions technologies API
+  slug: open-thecompaniesapi-technologies-api
+- collection_type: open
+  name: The Companies actions users API
+  slug: open-thecompaniesapi-users-api
+- collection_type: open
+  name: The Companies actions utilities API
+  slug: open-thecompaniesapi-utilities-api
 - collection_type: open
   name: The Companies API
   slug: open-thecompaniesapi
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/thecompaniesapi-domain-security.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -117,6 +164,98 @@ common:
   title: ''
   type: FinOps
   url: finops/thecompaniesapi-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/thecompaniesapi-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/thecompaniesapi-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/thecompaniesapi-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/thecompaniesapi-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/thecompaniesapi-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/thecompaniesapi-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.thecompaniesapi.com/en/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/thecompaniesapi-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/thecompaniesapi-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/thecompaniesapi-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/thecompaniesapi-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://updates.thecompaniesapi.com/roadmap
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.thecompaniesapi.com/api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.thecompaniesapi.com/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.thecompaniesapi.com/api
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@thecompaniesapi.com
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.thecompaniesapi.com/product/faq
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.thecompaniesapi.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://www.thecompaniesapi.com/auth/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.thecompaniesapi.com/product/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.thecompaniesapi.com/product/privacy
+- group: build
+  title: ''
+  type: Collection
+  url: collections/thecompaniesapi.opencollection.json
 created: '2026-07-11'
 description: The Companies API is a company data and enrichment platform offering programmatic access to firmographic, technographic, and web-intelligence data on 50M+ companies. Its REST API (base https://api.thecompaniesapi.com, all resources under /v2) covers company search and segmentation, company enrichment by domain, email, or social profile, similar-company lookup, industry and technology reference data, location reference data, saved lists, and asynchronous bulk actions. Requests are authenticated with an API token passed in the Authorization header, billing is credit-based, and the full OpenAPI 3.1 description is published at /v2/openapi.
 finops:
@@ -125,34 +264,37 @@ finops:
   slug: thecompaniesapi-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thecompaniesapi.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-08-14'
 name: The Companies API
 nav: Providers
 network: true
 overview: 'The Companies API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including actions API, analytics API, companies API, and 9 more. Tagged areas include Company Data, Data Enrichment, Firmographics, Web Intelligence, and B2B Data.
 
 
-  The Companies API''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  The The Companies API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  The Companies API''s developer surface includes authentication, documentation, changelog, API reference, getting-started guide, support, pricing, and 26 more developer resources.'
 plans:
 - name: Thecompaniesapi Plans Pricing
   plan_count: 4
   slug: thecompaniesapi-plans-pricing
-random_paper: 34
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Thecompaniesapi Rate Limits
   slug: thecompaniesapi-rate-limits
 score:
-  band: thin
-  composite: 38.5
-  delta: 0.0
+  band: exemplar
+  composite: 67.4
+  delta: 28.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 57.8
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 84.2
+    contract_quality: 66.7
+    developer_ergonomics: 63.0
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 81.6
   previous_composite: 38.5
   provenance:
     agentic_access: derived
@@ -162,13 +304,17 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Thecompaniesapi Authentication
   slug: thecompaniesapi-authentication
-  summary_line: http · 1 scheme
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Thecompaniesapi Domain Security
+  slug: thecompaniesapi-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: thecompaniesapi
 tags:
 - Company Data

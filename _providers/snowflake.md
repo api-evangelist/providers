@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 14
@@ -239,7 +239,7 @@ arazzos:
 - description: Create a warehouse, describe it to confirm, then suspend it to stop billing.
   name: Snowflake Warehouse Create, Verify, and Suspend Lifecycle
   slug: snowflake-warehouse-lifecycle-workflow
-artifact_total: 1305
+artifact_total: 1342
 collections:
 - collection_type: postman
   name: Snowflake Account API
@@ -352,6 +352,117 @@ collections:
 - collection_type: postman
   name: Snowflake Warehouse API
   slug: postman-warehouse
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Snowflake account API
+  slug: open-snowflake-account-api
+- collection_type: open
+  name: Snowflake account alert API
+  slug: open-snowflake-alert-api
+- collection_type: open
+  name: Snowflake account api-integration API
+  slug: open-snowflake-api-integration-api
+- collection_type: open
+  name: Snowflake account catalog-integration API
+  slug: open-snowflake-catalog-integration-api
+- collection_type: open
+  name: Snowflake account compute-pool API
+  slug: open-snowflake-compute-pool-api
+- collection_type: open
+  name: Snowflake account cortex-analyst API
+  slug: open-snowflake-cortex-analyst-api
+- collection_type: open
+  name: Snowflake account cortex-inference API
+  slug: open-snowflake-cortex-inference-api
+- collection_type: open
+  name: Snowflake account cortex search service API
+  slug: open-snowflake-cortex-search-service-api
+- collection_type: open
+  name: Snowflake account database API
+  slug: open-snowflake-database-api
+- collection_type: open
+  name: Snowflake account database-role API
+  slug: open-snowflake-database-role-api
+- collection_type: open
+  name: Snowflake account dynamic-table API
+  slug: open-snowflake-dynamic-table-api
+- collection_type: open
+  name: Snowflake account event-table API
+  slug: open-snowflake-event-table-api
+- collection_type: open
+  name: Snowflake account external-volume API
+  slug: open-snowflake-external-volume-api
+- collection_type: open
+  name: Snowflake account function API
+  slug: open-snowflake-function-api
+- collection_type: open
+  name: Snowflake account grant API
+  slug: open-snowflake-grant-api
+- collection_type: open
+  name: Snowflake account iceberg-table API
+  slug: open-snowflake-iceberg-table-api
+- collection_type: open
+  name: Snowflake account image-repository API
+  slug: open-snowflake-image-repository-api
+- collection_type: open
+  name: Snowflake account managed-account API
+  slug: open-snowflake-managed-account-api
+- collection_type: open
+  name: Snowflake account network-policy API
+  slug: open-snowflake-network-policy-api
+- collection_type: open
+  name: Snowflake account notebook API
+  slug: open-snowflake-notebook-api
+- collection_type: open
+  name: Snowflake account notification-integration API
+  slug: open-snowflake-notification-integration-api
+- collection_type: open
+  name: Snowflake account pipe API
+  slug: open-snowflake-pipe-api
+- collection_type: open
+  name: Snowflake account procedure API
+  slug: open-snowflake-procedure-api
+- collection_type: open
+  name: Snowflake account result API
+  slug: open-snowflake-result-api
+- collection_type: open
+  name: Snowflake account role API
+  slug: open-snowflake-role-api
+- collection_type: open
+  name: Snowflake account schema API
+  slug: open-snowflake-schema-api
+- collection_type: open
+  name: Snowflake account service API
+  slug: open-snowflake-service-api
+- collection_type: open
+  name: Snowflake account stage API
+  slug: open-snowflake-stage-api
+- collection_type: open
+  name: Snowflake account statements API
+  slug: open-snowflake-statements-api
+- collection_type: open
+  name: Snowflake account stream API
+  slug: open-snowflake-stream-api
+- collection_type: open
+  name: Snowflake account table API
+  slug: open-snowflake-table-api
+- collection_type: open
+  name: Snowflake account task API
+  slug: open-snowflake-task-api
+- collection_type: open
+  name: Snowflake account user API
+  slug: open-snowflake-user-api
+- collection_type: open
+  name: Snowflake account user-defined-function API
+  slug: open-snowflake-user-defined-function-api
+- collection_type: open
+  name: Snowflake account view API
+  slug: open-snowflake-view-api
+- collection_type: open
+  name: Snowflake account warehouse API
+  slug: open-snowflake-warehouse-api
 common:
 - group: agent
   title: ''
@@ -4155,7 +4266,7 @@ plans:
 - name: Snowflake Plans Pricing
   plan_count: 4
   slug: snowflake-plans-pricing
-random_paper: 10
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Snowflake Rate Limits
@@ -4202,7 +4313,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png
 security:

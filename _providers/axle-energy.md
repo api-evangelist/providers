@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -62,11 +62,39 @@ apis:
 - description: Get example data for testing
   name: Axle Energy 8. Examples API
   slug: axle-energy-8-examples-api
-artifact_total: 13
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Axle Energy Dispatch Webhooks
   slug: axle-energy-dispatch-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Axle 1. Authentication API
+  slug: open-axle-energy-1-authentication-api
+- collection_type: open
+  name: Axle 1. Authentication 2. Meters API
+  slug: open-axle-energy-2-meters-api
+- collection_type: open
+  name: Axle 1. Authentication 3. Sites API
+  slug: open-axle-energy-3-sites-api
+- collection_type: open
+  name: Axle 1. Authentication 4. Assets API
+  slug: open-axle-energy-4-assets-api
+- collection_type: open
+  name: Axle 1. Authentication 5. Data API
+  slug: open-axle-energy-5-data-api
+- collection_type: open
+  name: Axle 1. Authentication 6. Rewards API
+  slug: open-axle-energy-6-rewards-api
+- collection_type: open
+  name: Axle 1. Authentication 7. Validation API
+  slug: open-axle-energy-7-validation-api
+- collection_type: open
+  name: Axle 1. Authentication 8. Examples API
+  slug: open-axle-energy-8-examples-api
 common:
 - group: other
   title: ''
@@ -175,7 +203,7 @@ overview: 'Axle Energy publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Axle Energy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 41
+random_paper: 78
 score:
   band: thin
   composite: 35.9
@@ -205,7 +233,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/screenshots/axle-energy-2026-07-25T202055.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: Endpoints for retrieving newspaper title bibliographic metadata.
   name: Chronicling America Titles API
   slug: chroniclingamerica-titles-api
-artifact_total: 13
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chronicling America Batches API
+  slug: open-chroniclingamerica-batches-api
+- collection_type: open
+  name: Chronicling America Batches Issues API
+  slug: open-chroniclingamerica-issues-api
+- collection_type: open
+  name: Chronicling America Batches OCR API
+  slug: open-chroniclingamerica-ocr-api
+- collection_type: open
+  name: Chronicling America Batches Pages API
+  slug: open-chroniclingamerica-pages-api
+- collection_type: open
+  name: Chronicling America Batches Search API
+  slug: open-chroniclingamerica-search-api
+- collection_type: open
+  name: Chronicling America Batches Titles API
+  slug: open-chroniclingamerica-titles-api
 common:
 - group: agent
   title: ''
@@ -146,7 +168,7 @@ plans:
 - name: Chroniclingamerica Plans Pricing
   plan_count: 1
   slug: chroniclingamerica-plans-pricing
-random_paper: 90
+random_paper: 102
 rate_limits:
 - limit_count: 3
   name: Chroniclingamerica Rate Limits
@@ -177,7 +199,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/screenshots/chroniclingamerica-2026-07-25T205316.png
 security:

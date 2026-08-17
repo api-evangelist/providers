@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Surveys API from Culture Amp — 10 operation(s) for surveys.
   name: Culture Amp Surveys API
   slug: culture-amp-surveys-api
-artifact_total: 24
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Culture Amp Public Employees API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Culture Amp Public Employees Surveys API
   slug: postman-culture-amp-surveys-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Culture Amp Public Employees API
+  slug: open-culture-amp-employees-api
+- collection_type: open
+  name: Culture Amp Public Employees Performance API
+  slug: open-culture-amp-performance-api
+- collection_type: open
+  name: Culture Amp Public Employees Surveys API
+  slug: open-culture-amp-surveys-api
 common:
 - group: build
   title: ''
@@ -191,7 +203,7 @@ plans:
 - name: Culture Amp Plans Pricing
   plan_count: 4
   slug: culture-amp-plans-pricing
-random_paper: 55
+random_paper: 92
 rate_limits:
 - limit_count: 3
   name: Culture Amp Rate Limits
@@ -230,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/screenshots/culture-amp-2026-06-20T175332.png
 security:

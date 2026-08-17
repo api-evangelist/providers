@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,20 @@ apis:
 - description: The Violent Crime API from Bureau of Justice Statistics — 2 operation(s) for violent crime.
   name: Bureau of Justice Statistics Violent Crime API
   slug: bureau-of-justice-statistics-violent-crime-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BJS NIBRS National Estimates Property Crime API
+  slug: open-bureau-of-justice-statistics-property-crime-api
+- collection_type: open
+  name: BJS NIBRS National Estimates Property Crime Victimization API
+  slug: open-bureau-of-justice-statistics-victimization-api
+- collection_type: open
+  name: BJS NIBRS National Estimates Property Crime Violent Crime API
+  slug: open-bureau-of-justice-statistics-violent-crime-api
 - collection_type: open
   name: BJS NIBRS National Estimates API
   slug: open-bureau-of-justice-statistics
@@ -111,7 +123,7 @@ plans:
 - name: Bureau Of Justice Statistics Plans Pricing
   plan_count: 3
   slug: bureau-of-justice-statistics-plans-pricing
-random_paper: 90
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Bureau Of Justice Statistics Rate Limits
@@ -142,7 +154,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/screenshots/bureau-of-justice-statistics-2026-06-20T173810.png
 security:

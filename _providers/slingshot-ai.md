@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -51,6 +51,38 @@ common:
   title: ''
   type: TermsOfService
   url: https://talktoash.com/terms
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/slingshot-ai-domain-security.yml
+- group: company
+  title: ''
+  type: Careers
+  url: https://slingshotai.com/careers
+- group: company
+  title: ''
+  type: Press
+  url: https://slingshotai.com/press
+- group: other
+  title: ''
+  type: X-Product
+  url: https://www.talktoash.com
+- group: other
+  title: ''
+  type: AppStore
+  url: https://apps.apple.com/us/app/ash-ai-for-mental-health/id6474862947
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/slingshotai
+- group: company
+  title: ''
+  type: Crunchbase
+  url: https://www.crunchbase.com/organization/slingshot-ai
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/slingshot-ai-domain-security.yml
 created: '2026-07-17'
 description: Slingshot AI is a mental-health AI research lab building a foundation model for psychology. Its consumer product, Ash, is a voice- and text-based AI companion for mental health support, trained on behavioral-health approaches including CBT, DBT, ACT, psychodynamic therapy, and motivational interviewing, and shipped as a free iOS and Android app. Founded by Neil Parikh (co-founder of Casper) and Daniel Reid Cahn, the company has raised roughly $93M from investors including Andreessen Horowitz (a16z), Forerunner Ventures, Menlo Ventures, and Radical Ventures. As of this pass Slingshot AI publishes no public developer API, SDK, or developer portal; Ash is a consumer-facing application at talktoash.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slingshot-ai.png
@@ -60,7 +92,7 @@ name: Slingshot AI
 nav: Providers
 network: true
 overview: Slingshot AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mental Health, Artificial Intelligence, Healthcare, and Digital Therapeutics.
-random_paper: 34
+random_paper: 42
 score:
   band: minimal
   composite: 11.0
@@ -80,7 +112,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

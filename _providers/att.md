@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ apis:
 - description: The Threat Subscriptions API from AT&T — 1 operation(s) for threat subscriptions.
   name: AT&T Threat Subscriptions API
   slug: att-threat-subscriptions-api
-artifact_total: 318
+artifact_total: 341
 collections:
 - collection_type: postman
   name: AT&T Authentication API
@@ -194,6 +194,75 @@ collections:
 - collection_type: postman
   name: AT&T Threat Subscriptions API
   slug: postman-att-threat-subscriptions-api
+- collection_type: open
+  name: AT&T Authentication API
+  slug: open-att-authentication-api
+- collection_type: open
+  name: AT&T Balance Management API
+  slug: open-att-balance-management-api
+- collection_type: open
+  name: AT&T Device Connectivity API
+  slug: open-att-device-connectivity-api
+- collection_type: open
+  name: AT&T Device Management API
+  slug: open-att-device-management-api
+- collection_type: open
+  name: AT&T Device Roaming API
+  slug: open-att-device-roaming-api
+- collection_type: open
+  name: AT&T Geographic Sites API
+  slug: open-att-geographic-sites-api
+- collection_type: open
+  name: AT&T Inbox Management API
+  slug: open-att-inbox-management-api
+- collection_type: open
+  name: AT&T Messages API
+  slug: open-att-messages-api
+- collection_type: open
+  name: AT&T Network Metrics API
+  slug: open-att-network-metrics-api
+- collection_type: open
+  name: AT&T Number Management API
+  slug: open-att-number-management-api
+- collection_type: open
+  name: AT&T Number Verification API
+  slug: open-att-number-verification-api
+- collection_type: open
+  name: AT&T Order Management API
+  slug: open-att-order-management-api
+- collection_type: open
+  name: AT&T Porting API
+  slug: open-att-porting-api
+- collection_type: open
+  name: AT&T Product Ordering API
+  slug: open-att-product-ordering-api
+- collection_type: open
+  name: AT&T Product Orders API
+  slug: open-att-product-orders-api
+- collection_type: open
+  name: AT&T Quality on Demand API
+  slug: open-att-qod-sessions-api
+- collection_type: open
+  name: AT&T Service Management API
+  slug: open-att-service-management-api
+- collection_type: open
+  name: AT&T Service Qualification API
+  slug: open-att-service-qualification-api
+- collection_type: open
+  name: AT&T SIM Swap API
+  slug: open-att-sim-swap-api
+- collection_type: open
+  name: AT&T SMS Messaging API
+  slug: open-att-sms-messaging-api
+- collection_type: open
+  name: AT&T Subscriber Management API
+  slug: open-att-subscriber-management-api
+- collection_type: open
+  name: AT&T Threat Detection API
+  slug: open-att-threat-detection-api
+- collection_type: open
+  name: AT&T Threat Subscriptions API
+  slug: open-att-threat-subscriptions-api
 common:
 - group: build
   title: ''
@@ -1076,7 +1145,7 @@ press:
 - date: '2026-05-25'
   title: AT&T Tests New AI Digital Receptionist
   url: https://about.att.com/blogs/2025/ai-digital-receptionist.html
-random_paper: 89
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Att Rate Limits
@@ -1129,7 +1198,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

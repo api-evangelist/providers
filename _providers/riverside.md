@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Webinar registration management
   name: Riverside Webinars API
   slug: riverside-webinars-api
-artifact_total: 21
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Riverside Business Exports API
@@ -66,8 +66,23 @@ collections:
   name: Riverside Business Exports Webinars API
   slug: postman-riverside-webinars-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Riverside Business API
   slug: open-riverside-business
+- collection_type: open
+  name: Riverside Business Exports API
+  slug: open-riverside-exports-api
+- collection_type: open
+  name: Riverside Business Exports Productions API
+  slug: open-riverside-productions-api
+- collection_type: open
+  name: Riverside Business Exports Recordings API
+  slug: open-riverside-recordings-api
+- collection_type: open
+  name: Riverside Business Exports Webinars API
+  slug: open-riverside-webinars-api
 common:
 - group: build
   title: ''
@@ -181,7 +196,7 @@ plans:
 - name: Riverside Plans Pricing
   plan_count: 3
   slug: riverside-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Riverside Rate Limits
@@ -223,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/screenshots/riverside-2026-06-20T193133.png
 security:

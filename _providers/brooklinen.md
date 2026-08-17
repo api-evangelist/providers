@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
@@ -39,7 +39,26 @@ apis:
 - description: Predictive storefront search.
   name: Brooklinen Search API
   slug: brooklinen-search-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brooklinen Shopify Storefront JSON Cart API
+  slug: open-brooklinen-cart-api
+- collection_type: open
+  name: Brooklinen Shopify Storefront JSON Collections API
+  slug: open-brooklinen-collections-api
+- collection_type: open
+  name: Brooklinen Shopify Storefront JSON Discovery API
+  slug: open-brooklinen-discovery-api
+- collection_type: open
+  name: Brooklinen Shopify Storefront JSON Products API
+  slug: open-brooklinen-products-api
+- collection_type: open
+  name: Brooklinen Shopify Storefront JSON Search API
+  slug: open-brooklinen-search-api
 common:
 - group: auth
   title: ''
@@ -173,7 +192,7 @@ overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brooklinen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 115
+random_paper: 32
 scopes:
 - name: Brooklinen Scopes
   scope_count: 4
@@ -207,7 +226,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:

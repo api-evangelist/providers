@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: Manage GraphQL type definitions
   name: Amazon AppSync Types API
   slug: amazon-appsync-types-api
-artifact_total: 265
+artifact_total: 275
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon AppSync Api Keys API
+  slug: open-amazon-appsync-api-keys-api
+- collection_type: open
+  name: Amazon AppSync Api Keys Data Sources API
+  slug: open-amazon-appsync-data-sources-api
+- collection_type: open
+  name: Amazon AppSync Api Keys Domain Names API
+  slug: open-amazon-appsync-domain-names-api
+- collection_type: open
+  name: Amazon AppSync Api Keys Functions API
+  slug: open-amazon-appsync-functions-api
+- collection_type: open
+  name: Amazon AppSync Api Keys GraphQL APIs API
+  slug: open-amazon-appsync-graphql-apis-api
+- collection_type: open
+  name: Amazon AppSync Api Keys Resolvers API
+  slug: open-amazon-appsync-resolvers-api
+- collection_type: open
+  name: Amazon AppSync Api Keys Schema API
+  slug: open-amazon-appsync-schema-api
+- collection_type: open
+  name: Amazon AppSync Api Keys Tags API
+  slug: open-amazon-appsync-tags-api
+- collection_type: open
+  name: Amazon AppSync Api Keys Types API
+  slug: open-amazon-appsync-types-api
 common:
 - group: other
   title: ''
@@ -823,7 +854,7 @@ overview: 'Amazon AppSync publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon AppSync''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 17
+random_paper: 116
 rules:
 - name: Amazon AppSync API Rules
   rule_count: 6
@@ -863,7 +894,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/screenshots/amazon-appsync-2026-07-25T195928.png
 security:

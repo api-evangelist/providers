@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
 - description: OAuth 2.0 client credentials token service issuing time-limited access tokens for OS Data Hub APIs, so project API keys need not be embedded in browser code. The token URL is https://api.os.uk/oauth2/
   name: OS OAuth 2 API
   slug: os-oauth2-api
-artifact_total: 30
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Ordnance Survey Download API
@@ -97,6 +97,30 @@ collections:
 - collection_type: postman
   name: OS Vector Tiles API
   slug: postman-ordnance-survey-vector-tile-openapi
+- collection_type: open
+  name: OS Features API
+  slug: open-ordnance-survey-features-wfs
+- collection_type: open
+  name: OS Linked Identifiers API
+  slug: open-ordnance-survey-linked-identifiers
+- collection_type: open
+  name: OS Maps API
+  slug: open-ordnance-survey-maps
+- collection_type: open
+  name: OS Names API
+  slug: open-ordnance-survey-names
+- collection_type: open
+  name: OS NGD API – Features
+  slug: open-ordnance-survey-ngd-features
+- collection_type: open
+  name: OS NGD API - Tiles
+  slug: open-ordnance-survey-ngd-tiles
+- collection_type: open
+  name: OS Places API
+  slug: open-ordnance-survey-places
+- collection_type: open
+  name: OS Vector Tiles API
+  slug: open-ordnance-survey-vector-tile
 common:
 - group: build
   title: ''
@@ -343,7 +367,7 @@ plans:
 - name: Ordnance Survey Plans
   plan_count: 3
   slug: ordnance-survey-plans
-random_paper: 13
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Ordnance Survey Rate Limits
@@ -382,7 +406,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png
 security:

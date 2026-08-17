@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Collect payments from customers in Africa via card, bank transfer, USSD, M-Pesa, mobile money and the Klasha wallet, including charge validation, refunds and exchange rates.
@@ -203,7 +203,7 @@ overview: 'Klasha publishes 5 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Klasha''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 28
+random_paper: 32
 score:
   band: developing
   composite: 52.5
@@ -227,7 +227,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/screenshots/klasha-2026-07-25T223937.png
 security:

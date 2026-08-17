@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -55,11 +55,42 @@ apis:
 - description: Servi-specific operations
   name: Bear Robotics Servi API
   slug: bear-robotics-servi-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Bear Robotics Webhooks
   slug: bear-robotics-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bear Cloud Carti API
+  slug: open-bear-robotics-carti-api
+- collection_type: open
+  name: API Collection
+  slug: open-bear-robotics-cloud-v1-3-postman-collection
+- collection_type: open
+  name: Bear Cloud Fleet Management API
+  slug: open-bear-robotics-fleet-management-api
+- collection_type: open
+  name: Bear Cloud Localization & Navigation API
+  slug: open-bear-robotics-localization-navigation-api
+- collection_type: open
+  name: Bear Cloud Locations & Maps API
+  slug: open-bear-robotics-locations-maps-api
+- collection_type: open
+  name: Bear Cloud Mission API
+  slug: open-bear-robotics-mission-api
+- collection_type: open
+  name: Bear Cloud Robot Status API
+  slug: open-bear-robotics-robot-status-api
+- collection_type: open
+  name: Bear Cloud Robot System API
+  slug: open-bear-robotics-robot-system-api
+- collection_type: open
+  name: Bear Cloud Servi API
+  slug: open-bear-robotics-servi-api
 common:
 - group: agent
   title: ''
@@ -197,7 +228,7 @@ overview: 'Bear Robotics publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Bear Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, and 23 more developer resources.'
-random_paper: 4
+random_paper: 132
 score:
   band: developing
   composite: 49.3
@@ -221,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/screenshots/bear-robotics-2026-08-07T162236.png
 security:

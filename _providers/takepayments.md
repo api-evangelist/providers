@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'A REST/JSON API hosted on Azure API Management for pairing and driving takepayments card machines (Move5000, PAX A920 Pro) from an integrated app or POS. Documented operations include Authentication, '
@@ -151,7 +151,7 @@ overview: 'takepayments publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   takepayments'' developer surface includes documentation, API reference, SDKs, engineering blog, support, pricing, authentication, and 20 more developer resources.'
-random_paper: 102
+random_paper: 110
 score:
   band: thin
   composite: 32.6
@@ -174,7 +174,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

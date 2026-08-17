@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'RESTful API providing access to all Rentvine property management data including properties, units, leases, tenants, maintenance requests, work orders, financials, owner accounts, and portals. Enables '
@@ -108,7 +108,7 @@ plans:
 - name: Rentvine Plans Pricing
   plan_count: 1
   slug: rentvine-plans-pricing
-random_paper: 35
+random_paper: 130
 rate_limits:
 - limit_count: 1
   name: Rentvine Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 28.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentvine/refs/heads/main/screenshots/rentvine-2026-06-20T192858.png
 security:

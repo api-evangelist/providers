@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Create donation transactions.
   name: Tithe.ly Transactions API
   slug: tithely-transactions-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tithe.ly Accounts API
+  slug: open-tithely-accounts-api
+- collection_type: open
+  name: Tithe.ly Accounts Mail API
+  slug: open-tithely-mail-api
+- collection_type: open
+  name: Tithe.ly Accounts Organizations API
+  slug: open-tithely-organizations-api
+- collection_type: open
+  name: Tithe.ly Accounts Payment Categories API
+  slug: open-tithely-payment-categories-api
+- collection_type: open
+  name: Tithe.ly Accounts Payments API
+  slug: open-tithely-payments-api
+- collection_type: open
+  name: Tithe.ly Accounts Transactions API
+  slug: open-tithely-transactions-api
 - collection_type: open
   name: Tithe.ly API
   slug: open-tithely
@@ -127,7 +148,7 @@ plans:
 - name: Tithely Plans Pricing
   plan_count: 4
   slug: tithely-plans-pricing
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Tithely Rate Limits
@@ -158,7 +179,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

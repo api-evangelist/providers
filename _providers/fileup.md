@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Temporary file hosting with upload API, expiration times, and view limits
@@ -52,7 +52,7 @@ name: FileUp
 nav: Providers
 network: true
 overview: FileUp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage And File Sharing and Public APIs.
-random_paper: 45
+random_paper: 49
 score:
   band: minimal
   composite: 5.0
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fileup/refs/heads/main/screenshots/fileup-2026-06-20T181209.png
 slug: fileup

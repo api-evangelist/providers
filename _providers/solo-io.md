@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: API key management endpoints
@@ -67,11 +67,60 @@ apis:
 - description: The Webhooks API from Solo.io — 2 operation(s) for webhooks.
   name: Solo.io Webhooks API
   slug: solo-io-webhooks-api
-artifact_total: 58
+artifact_total: 74
 asyncapis:
 - description: ''
   name: Solo Io Webhooks
   slug: solo-io-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Portal Backend API Keys API
+  slug: open-solo-io-api-keys-api
+- collection_type: open
+  name: Solo Io API Products API
+  slug: open-solo-io-api-products-api
+- collection_type: open
+  name: Gloo Platform Portal AP Is API
+  slug: open-solo-io-apis-api
+- collection_type: open
+  name: Solo Io Applications API
+  slug: open-solo-io-applications-api
+- collection_type: open
+  name: Portal Backend Apps API
+  slug: open-solo-io-apps-api
+- collection_type: open
+  name: Portal Backend Auth API
+  slug: open-solo-io-auth-api
+- collection_type: open
+  name: Portal Backend Health API
+  slug: open-solo-io-health-api
+- collection_type: open
+  name: Gloo Portal Server Me API
+  slug: open-solo-io-me-api
+- collection_type: open
+  name: Portal Backend Metadata API
+  slug: open-solo-io-metadata-api
+- collection_type: open
+  name: Portal Backend OAUTH Credentials API
+  slug: open-solo-io-oauth-credentials-api
+- collection_type: open
+  name: Solo Io Subscriptions API
+  slug: open-solo-io-subscriptions-api
+- collection_type: open
+  name: Solo Io Teams API
+  slug: open-solo-io-teams-api
+- collection_type: open
+  name: Gloo Platform Portal User API
+  slug: open-solo-io-user-api
+- collection_type: open
+  name: Portal Backend Users API
+  slug: open-solo-io-users-api
+- collection_type: open
+  name: GuardRail Webhook Webhooks API
+  slug: open-solo-io-webhooks-api
 common:
 - group: other
   title: ''
@@ -430,7 +479,7 @@ plans:
 - name: Solo Io Plans Pricing
   plan_count: 3
   slug: solo-io-plans-pricing
-random_paper: 106
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Solo Io Rate Limits
@@ -466,7 +515,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:

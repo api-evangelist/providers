@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Event stream management for real-time data
   name: Rithum Streams API
   slug: rithum-streams-api
-artifact_total: 31
+artifact_total: 40
 collections:
 - collection_type: postman
   name: Dsco Platform Authentication API
@@ -90,8 +90,35 @@ collections:
   name: Dsco Platform Authentication Streams API
   slug: postman-rithum-streams-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Dsco Platform API
   slug: open-dsco-platform
+- collection_type: open
+  name: Dsco Platform Authentication API
+  slug: open-rithum-authentication-api
+- collection_type: open
+  name: Dsco Platform Authentication Catalog API
+  slug: open-rithum-catalog-api
+- collection_type: open
+  name: Dsco Platform Authentication Inventory API
+  slug: open-rithum-inventory-api
+- collection_type: open
+  name: Dsco Platform Authentication Invoices API
+  slug: open-rithum-invoices-api
+- collection_type: open
+  name: Dsco Platform Authentication Orders API
+  slug: open-rithum-orders-api
+- collection_type: open
+  name: Dsco Platform Authentication Returns API
+  slug: open-rithum-returns-api
+- collection_type: open
+  name: Dsco Platform Authentication Shipments API
+  slug: open-rithum-shipments-api
+- collection_type: open
+  name: Dsco Platform Authentication Streams API
+  slug: open-rithum-streams-api
 common:
 - group: build
   title: ''
@@ -199,7 +226,7 @@ plans:
 - name: Rithum Plans Pricing
   plan_count: 3
   slug: rithum-plans-pricing
-random_paper: 65
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Rithum Rate Limits
@@ -241,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/screenshots/rithum-2026-06-20T193131.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Query API from Veeva Systems — 1 operation(s) for query.
   name: Veeva Systems Query API
   slug: veeva-systems-query-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veeva Vault Authentication API
+  slug: open-veeva-systems-authentication-api
+- collection_type: open
+  name: Veeva Vault Authentication DirectData API
+  slug: open-veeva-systems-directdata-api
+- collection_type: open
+  name: Veeva Vault Authentication MDL API
+  slug: open-veeva-systems-mdl-api
+- collection_type: open
+  name: Veeva Vault Authentication Metadata API
+  slug: open-veeva-systems-metadata-api
+- collection_type: open
+  name: Veeva Vault Authentication Query API
+  slug: open-veeva-systems-query-api
 - collection_type: open
   name: Veeva Vault API
   slug: open-veeva-systems
@@ -104,7 +122,7 @@ plans:
 - name: Veeva Systems Plans Pricing
   plan_count: 1
   slug: veeva-systems-plans-pricing
-random_paper: 52
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Veeva Systems Rate Limits
@@ -135,7 +153,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/screenshots/veeva-systems-2026-06-20T200853.png
 security:

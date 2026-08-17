@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,8 +69,32 @@ apis:
 - description: The Profile API from Calico — 2 operation(s) for profile.
   name: Calico Profile API
   slug: calico-profile-api
-artifact_total: 18
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Project Calico API (projectcalico.org/v3) BGPConfiguration API
+  slug: open-calico-bgpconfiguration-api
+- collection_type: open
+  name: Project Calico API (projectcalico.org/v3) BGPConfiguration BGPPeer API
+  slug: open-calico-bgppeer-api
+- collection_type: open
+  name: Project Calico API (projectcalico.org/v3) BGPConfiguration GlobalNetworkPolicy API
+  slug: open-calico-globalnetworkpolicy-api
+- collection_type: open
+  name: Project Calico API (projectcalico.org/v3) BGPConfiguration HostEndpoint API
+  slug: open-calico-hostendpoint-api
+- collection_type: open
+  name: Project Calico API (projectcalico.org/v3) BGPConfiguration IPPool API
+  slug: open-calico-ippool-api
+- collection_type: open
+  name: Project Calico API (projectcalico.org/v3) BGPConfiguration NetworkPolicy API
+  slug: open-calico-networkpolicy-api
+- collection_type: open
+  name: Project Calico API (projectcalico.org/v3) BGPConfiguration Profile API
+  slug: open-calico-profile-api
 - collection_type: open
   name: Project Calico API (projectcalico.org/v3)
   slug: open-calico
@@ -175,7 +199,7 @@ plans:
 - name: Calico Plans Pricing
   plan_count: 3
   slug: calico-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Calico Rate Limits
@@ -206,7 +230,7 @@ score:
     regime_id: insurance
     score: 27.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/screenshots/calico-2026-06-20T173846.png
 security:

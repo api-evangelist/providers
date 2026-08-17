@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -70,11 +70,20 @@ arazzos:
 - description: Sign a message with an asymmetric KMS key, then verify the signature.
   name: Amazon KMS Sign and Verify
   slug: amazon-kms-sign-and-verify-workflow
-artifact_total: 36
+artifact_total: 39
 collections:
 - collection_type: postman
   name: Amazon KMS API
   slug: postman-amazon-kms
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon KMS Cryptographic Operations API
+  slug: open-amazon-kms-cryptographic-operations-api
+- collection_type: open
+  name: Amazon KMS Cryptographic Operations Keys API
+  slug: open-amazon-kms-keys-api
 - collection_type: open
   name: Amazon KMS API
   slug: open-amazon-kms
@@ -260,7 +269,7 @@ plans:
 - name: Amazon Kms Plans Pricing
   plan_count: 3
   slug: amazon-kms-plans-pricing
-random_paper: 62
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Amazon Kms Rate Limits
@@ -302,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/screenshots/amazon-kms-2026-06-20T171719.png
 security:

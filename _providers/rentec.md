@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Rentec Direct Open API v3 provides RESTful access to property management data including properties, tenants, leases, payments, maintenance requests, contacts, and messaging. Available to Pro and P
@@ -112,7 +112,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -136,7 +136,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/screenshots/rentec-2026-06-20T192855.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +63,32 @@ arazzos:
 - description: List MOVE Bank's public CDR banking products then fetch full detail for the first one — an unauthenticated, forkable Product Reference Data walkthrough.
   name: Discover MOVE Bank banking products
   slug: move-bank-discover-products
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-move-bank-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-move-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-move-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-move-bank-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-move-bank-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-move-bank-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-move-bank-banking-products-api
 common:
 - group: agent
   title: ''
@@ -181,7 +206,7 @@ overview: 'MOVE Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   MOVE Bank''s developer surface includes authentication, getting-started guide, API reference, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 56
+random_paper: 2
 scopes:
 - name: Move Bank Scopes
   scope_count: 9
@@ -216,7 +241,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png
 security:

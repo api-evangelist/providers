@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -35,11 +35,18 @@ apis:
 - description: The Versapay Ecommerce server-side API (v2.0.0, OpenAPI 3.0.0, 11 documented paths) that configures payment sessions, manages customer wallets (credit cards and bank accounts), creates and captures or
   name: Versapay Ecommerce API
   slug: versapay-ecommerce-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Versapay Webhooks
   slug: versapay-webhooks
+collections:
+- collection_type: open
+  name: Versapay API Reference
+  slug: open-versapay-api-reference
+- collection_type: open
+  name: Versapay Ecommerce API
+  slug: open-versapay-ecommerce-api
 common:
 - group: agent
   title: ''
@@ -181,7 +188,7 @@ overview: 'Versapay publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Versapay''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, signup flow, and 24 more developer resources.'
-random_paper: 35
+random_paper: 130
 scopes:
 - name: Versapay Scopes
   scope_count: 5
@@ -211,7 +218,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

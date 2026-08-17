@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -90,7 +90,7 @@ apis:
 - description: User account management within tenants
   name: Acronis Users API
   slug: acronis-users-api
-artifact_total: 141
+artifact_total: 153
 collections:
 - collection_type: postman
   name: Acronis Account Management Activities API
@@ -125,6 +125,42 @@ collections:
 - collection_type: postman
   name: Acronis Account Management Activities Users API
   slug: postman-acronis-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Acronis Account Management Activities API
+  slug: open-acronis-activities-api
+- collection_type: open
+  name: Acronis Account Management Activities Agent Updates API
+  slug: open-acronis-agent-updates-api
+- collection_type: open
+  name: Acronis Account Management Activities Agents API
+  slug: open-acronis-agents-api
+- collection_type: open
+  name: Acronis Account Management Activities Authentication API
+  slug: open-acronis-authentication-api
+- collection_type: open
+  name: Acronis Account Management Activities Clients API
+  slug: open-acronis-clients-api
+- collection_type: open
+  name: Acronis Account Management Activities Hardware Nodes API
+  slug: open-acronis-hardware-nodes-api
+- collection_type: open
+  name: Acronis Account Management Activities Licensing API
+  slug: open-acronis-licensing-api
+- collection_type: open
+  name: Acronis Account Management Activities Tasks API
+  slug: open-acronis-tasks-api
+- collection_type: open
+  name: Acronis Account Management Activities Tenants API
+  slug: open-acronis-tenants-api
+- collection_type: open
+  name: Acronis Account Management Activities Usage API
+  slug: open-acronis-usage-api
+- collection_type: open
+  name: Acronis Account Management Activities Users API
+  slug: open-acronis-users-api
 common:
 - group: build
   title: ''
@@ -518,7 +554,7 @@ plans:
 - name: Acronis Plans Pricing
   plan_count: 4
   slug: acronis-plans-pricing
-random_paper: 31
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Acronis Rate Limits
@@ -560,7 +596,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/screenshots/acronis-2026-06-20T164007.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: 1upHealth's managed HL7 FHIR R4 (4.0.1) REST API cloud server, exposing 144 FHIR resource types with SMART-on-FHIR OAuth 2.0 security. Publishes a live CapabilityStatement at /fhir/r4/metadata.
@@ -232,6 +232,22 @@ common:
   title: ''
   type: FinOps
   url: finops/1uphealth-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/1uphealth-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/1uphealth-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/1uphealth-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/1uphealth-data-model.yml
 created: '2026-07-24'
 description: 1upHealth is a US healthcare data interoperability company, founded in 2017 and headquartered in Boston, Massachusetts, that operates an HL7 FHIR-first health data platform for claims and clinical data acquisition, exchange, and compute. Built on a lakehouse architecture, the platform lets health plans, providers, and digital health developers ingest, normalize, store, and query patient and member data as FHIR, and ships modular solutions aligned to US federal interoperability mandates - Patient Access, Provider Access, Payer-to-Payer Data Exchange, Provider Directory, Formulary, and Electronic Prior Authorization (CMS Interoperability & Prior Authorization, CMS-0057-F). 1upHealth runs a managed, HIPAA-compliant FHIR REST API cloud server exposing FHIR R4 (4.0.1), STU3 (3.0.2), and DSTU2 (1.0.2) endpoints, each publishing a live CapabilityStatement, secured with SMART-on-FHIR OAuth 2.0. The company is HITRUST, SOC 2, and HIPAA aligned. Home market is the United States. Developer
   documentation is public at docs.1up.health, while provisioning API credentials and the developer console require an account (gated self-serve / partner onboarding).
@@ -254,7 +270,7 @@ mcp_servers:
 - description: ''
   name: 1uphealth-mcp.yml
   slug: 1uphealth-mcpyml
-modified: '2026-08-08'
+modified: '2026-08-14'
 name: 1upHealth
 nav: Providers
 network: true
@@ -264,12 +280,12 @@ overview: '1upHealth publishes 10 APIs on the [APIs.io](https://apis.io/) networ
   The 1upHealth catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  1upHealth''s developer surface includes documentation, engineering blog, support, signup flow, API reference, getting-started guide, authentication, and 34 more developer resources.'
+  1upHealth''s developer surface includes documentation, engineering blog, support, signup flow, API reference, getting-started guide, authentication, and 38 more developer resources.'
 plans:
 - name: 1Uphealth Plans Pricing
   plan_count: 6
   slug: 1uphealth-plans-pricing
-random_paper: 68
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: 1Uphealth Rate Limits
@@ -281,12 +297,12 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 67.6
-  delta: 0.0
+  composite: 68.7
+  delta: 1.1
   facets:
     commercial_clarity: 89.5
     contract_quality: 67.7
-    developer_ergonomics: 66.8
+    developer_ergonomics: 73.4
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 86.8
@@ -302,7 +318,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/screenshots/1uphealth-2026-07-25T181115.png
 security:

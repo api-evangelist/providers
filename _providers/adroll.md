@@ -9,31 +9,41 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 50.9
+  scored_at: '2026-08-17'
+api_count: 4
 apis:
 - description: REST API for managing AdRoll advertisers, campaigns, ads, audience segments, and reporting on the NextRoll platform. Supports OAuth 2.0 flows and Personal Access Tokens with the client API key sent as
   name: NextRoll API for AdRoll
   slug: nextroll-api
-artifact_total: 3
+- description: GraphQL API for retrieving all AdRoll and AdRoll ABM reporting data in a single request — organization, advertisable, campaign, adgroup, ad, audience, email and automation metrics, plus conversions, r
+  name: NextRoll GraphQL Reporting API
+  slug: nextroll-graphql-reporting
+- description: Remote Model Context Protocol server that exposes AdRoll and AdRoll ABM data and supported workflows to MCP-compatible AI clients including Claude, ChatGPT, Cursor, n8n and Microsoft Copilot Studio. L
+  name: AdRoll MCP Server
+  slug: nextroll-mcp
+- description: Server-side event ingestion API for sending user events and conversions to AdRoll directly from your own servers, complementing the AdRoll pixel and mobile measurement partner integrations. Accepts ba
+  name: NextRoll Server-to-Server (S2S) Event API
+  slug: nextroll-s2s
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -65,46 +75,207 @@ common:
   url: https://www.adroll.com/pricing
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://app.adroll.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.adroll.com/login
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.nextroll.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.nextroll.com/crud-api/reference.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://apidocs.nextroll.com/guides/get-started.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://apidocs.nextroll.com/support.html
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.adroll.com/hc/en-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.nextroll.com/terms
+- group: commercial
+  title: ''
+  type: TermsOfUse
+  url: https://www.nextroll.com/terms/api
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.nextroll.com/privacy
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/adroll-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/adroll-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/adroll-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/adroll-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/adroll-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adroll-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.nextroll.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/adroll-lifecycle.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/adroll-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/adroll-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adroll-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://security.nextroll.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/adroll-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/adroll-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://security.nextroll.com/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/adroll-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/adroll-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/adroll-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adroll-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/adroll-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/adroll-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adroll-packages.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/adroll-reporting.graphql
 created: '2026-05-11'
 description: AdRoll is a display advertising and retargeting platform from NextRoll that helps direct-to-consumer brands run cross-channel display, social, and email campaigns from a single dashboard powered by the BidIQ machine learning bidder. The platform manages audience segmentation, creative serving, and attribution across the open web and major social networks. The NextRoll API for AdRoll exposes campaign, ad, audience, and reporting endpoints using OAuth 2.0 or Personal Access Token authentication.
 graphqls:
-- description: AdRoll is a performance advertising platform for retargeting and prospecting. Their API covers campaign management, audience segments, ad creative management, attribution, and cross-channel reporting.
-  name: AdRoll GraphQL API
+- description: 'generated: ''2026-08-13'''
+  name: NextRoll GraphQL Reporting API (AdRoll)
   slug: adroll-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adroll.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: adroll-mcp.yml
+  slug: adroll-mcpyml
+modified: '2026-08-13'
 name: AdRoll
 nav: Providers
 network: true
-overview: 'AdRoll publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Display Advertising, Retargeting, Marketing, and AdTech.
+overview: 'AdRoll publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Display Advertising, Retargeting, Marketing, and AdTech.
 
 
-  AdRoll''s developer surface includes engineering blog, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 38
+  AdRoll''s developer surface includes engineering blog, documentation, pricing, signup flow, API reference, getting-started guide, support, and 34 more developer resources.'
+plans:
+- name: Adroll Plans Pricing
+  plan_count: 4
+  slug: adroll-plans-pricing
+random_paper: 42
+rate_limits:
+- limit_count: 3
+  name: Adroll Rate Limits
+  slug: adroll-rate-limits
+scopes:
+- name: Adroll Scopes
+  scope_count: 2
+  slug: adroll-scopes
+  summary_line: 2 scopes · authorizationCode/implicit/password
 score:
-  band: emerging
-  composite: 25.3
-  delta: 0.0
+  band: strong
+  composite: 65.2
+  delta: 39.9
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 43.2
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 92.1
+    contract_quality: 48.1
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 71.1
   previous_composite: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/screenshots/adroll-2026-06-20T165128.png
 security:
+- kind: authentication
+  name: Adroll Authentication
+  slug: adroll-authentication
+  summary_line: oauth2/apiKey/http · 5 schemes
 - kind: domain-security
   name: Adroll Domain Security
   slug: adroll-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Adroll Vulnerability Disclosure
+  slug: adroll-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Adroll Trust Center
+  slug: adroll-trust-center
+  summary_line: SOC 2, SOC 3, ISO 27001, PCI DSS, GDPR, CCPA
 slug: adroll
 tags:
 - Advertising

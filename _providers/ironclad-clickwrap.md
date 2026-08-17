@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Manage sites that host clickwrap groups.
   name: Ironclad Clickwrap Sites API
   slug: ironclad-clickwrap-sites-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ironclad Clickwrap Activity API
+  slug: open-ironclad-clickwrap-activity-api
+- collection_type: open
+  name: Ironclad Clickwrap Activity Contracts API
+  slug: open-ironclad-clickwrap-contracts-api
+- collection_type: open
+  name: Ironclad Clickwrap Activity Groups API
+  slug: open-ironclad-clickwrap-groups-api
+- collection_type: open
+  name: Ironclad Clickwrap Activity Signers API
+  slug: open-ironclad-clickwrap-signers-api
+- collection_type: open
+  name: Ironclad Clickwrap Activity Sites API
+  slug: open-ironclad-clickwrap-sites-api
 - collection_type: open
   name: Ironclad Clickwrap API
   slug: open-ironclad-clickwrap
@@ -123,7 +141,7 @@ plans:
 - name: Ironclad Clickwrap Plans Pricing
   plan_count: 3
   slug: ironclad-clickwrap-plans-pricing
-random_paper: 49
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Ironclad Clickwrap Rate Limits
@@ -157,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/screenshots/ironclad-clickwrap-2026-06-20T183613.png
 security:

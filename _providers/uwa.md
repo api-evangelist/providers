@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -126,7 +126,95 @@ apis:
 - description: The thesauri API from University of Western Australia — 4 operation(s) for thesauri.
   name: University of Western Australia thesauri API
   slug: uwa-thesauri-api
-artifact_total: 53
+artifact_total: 82
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure Web Service 524 activities API
+  slug: open-uwa-activities-api
+- collection_type: open
+  name: Pure Web Service 524 activities applications API
+  slug: open-uwa-applications-api
+- collection_type: open
+  name: Pure Web Service 524 activities author-collaborations API
+  slug: open-uwa-author-collaborations-api
+- collection_type: open
+  name: Pure Web Service 524 activities awards API
+  slug: open-uwa-awards-api
+- collection_type: open
+  name: Pure Web Service 524 activities changes API
+  slug: open-uwa-changes-api
+- collection_type: open
+  name: Pure Web Service 524 activities classification-schemes API
+  slug: open-uwa-classification-schemes-api
+- collection_type: open
+  name: Pure Web Service 524 activities concepts API
+  slug: open-uwa-concepts-api
+- collection_type: open
+  name: Pure Web Service 524 activities courses API
+  slug: open-uwa-courses-api
+- collection_type: open
+  name: Pure Web Service 524 activities curricula-vitae API
+  slug: open-uwa-curricula-vitae-api
+- collection_type: open
+  name: Pure Web Service 524 activities datasets API
+  slug: open-uwa-datasets-api
+- collection_type: open
+  name: Pure Web Service 524 activities downloads API
+  slug: open-uwa-downloads-api
+- collection_type: open
+  name: Pure Web Service 524 activities equipments API
+  slug: open-uwa-equipments-api
+- collection_type: open
+  name: Pure Web Service 524 activities events API
+  slug: open-uwa-events-api
+- collection_type: open
+  name: Pure Web Service 524 activities external-organisations API
+  slug: open-uwa-external-organisations-api
+- collection_type: open
+  name: Pure Web Service 524 activities external-persons API
+  slug: open-uwa-external-persons-api
+- collection_type: open
+  name: Pure Web Service 524 activities fingerprints API
+  slug: open-uwa-fingerprints-api
+- collection_type: open
+  name: Pure Web Service 524 activities impacts API
+  slug: open-uwa-impacts-api
+- collection_type: open
+  name: Pure Web Service 524 activities journals API
+  slug: open-uwa-journals-api
+- collection_type: open
+  name: Pure Web Service 524 activities keyword-group-configuration API
+  slug: open-uwa-keyword-group-configuration-api
+- collection_type: open
+  name: Pure Web Service 524 activities organisational-units API
+  slug: open-uwa-organisational-units-api
+- collection_type: open
+  name: Pure Web Service 524 activities persons API
+  slug: open-uwa-persons-api
+- collection_type: open
+  name: Pure Web Service 524 activities press-media API
+  slug: open-uwa-press-media-api
+- collection_type: open
+  name: Pure Web Service 524 activities prizes API
+  slug: open-uwa-prizes-api
+- collection_type: open
+  name: Pure Web Service 524 activities projects API
+  slug: open-uwa-projects-api
+- collection_type: open
+  name: Pure Web Service 524 activities publishers API
+  slug: open-uwa-publishers-api
+- collection_type: open
+  name: Pure Web Service 524 activities research-outputs API
+  slug: open-uwa-research-outputs-api
+- collection_type: open
+  name: Pure Web Service 524 activities semantic-groups API
+  slug: open-uwa-semantic-groups-api
+- collection_type: open
+  name: Pure Web Service 524 activities thesauri API
+  slug: open-uwa-thesauri-api
 common:
 - group: agent
   title: ''
@@ -252,7 +340,7 @@ plans:
 - name: Uwa Plans Pricing
   plan_count: 2
   slug: uwa-plans-pricing
-random_paper: 93
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Uwa Rate Limits
@@ -294,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/screenshots/uwa-2026-06-20T200736.png
 security:

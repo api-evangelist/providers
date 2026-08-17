@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -90,8 +90,26 @@ apis:
 - description: The Workflows API from Checkout.com — 2 operation(s) for workflows.
   name: Checkout.com Workflows API
   slug: checkout-com-workflows-api
-artifact_total: 28
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Checkout.com Customers API
+  slug: open-checkout-com-customers-api
+- collection_type: open
+  name: Checkout.com Customers Instruments API
+  slug: open-checkout-com-instruments-api
+- collection_type: open
+  name: Checkout.com Customers Payments API
+  slug: open-checkout-com-payments-api
+- collection_type: open
+  name: Checkout.com Customers Tokens API
+  slug: open-checkout-com-tokens-api
+- collection_type: open
+  name: Checkout.com Customers Workflows API
+  slug: open-checkout-com-workflows-api
 - collection_type: open
   name: Checkout.com API
   slug: open-checkout-com
@@ -192,7 +210,7 @@ plans:
 - name: Checkout Com Plans Pricing
   plan_count: 1
   slug: checkout-com-plans-pricing
-random_paper: 18
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Checkout Com Rate Limits
@@ -228,7 +246,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/screenshots/checkout-com-2026-06-20T174248.png
 security:

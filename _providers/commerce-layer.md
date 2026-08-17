@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 371
   human_in_the_loop: 3
@@ -536,7 +536,7 @@ arazzos:
 - description: Place an order, read its status, then capture payment only once it is placed.
   name: Commerce Layer Place and Capture an Order
   slug: commerce-layer-place-and-capture-order-workflow
-artifact_total: 209
+artifact_total: 358
 collections:
 - collection_type: postman
   name: Commerce Layer API
@@ -548,14 +548,461 @@ collections:
   name: Commerce Layer Provisioning API
   slug: postman-commerce-layer-provisioning-api-openapi
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Commerce Layer addresses API
+  slug: open-commerce-layer-addresses-api
+- collection_type: open
+  name: Commerce Layer addresses adjustments API
+  slug: open-commerce-layer-adjustments-api
+- collection_type: open
+  name: Commerce Layer addresses adyen_gateways API
+  slug: open-commerce-layer-adyen-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses adyen_payments API
+  slug: open-commerce-layer-adyen-payments-api
+- collection_type: open
+  name: Commerce Layer addresses analysis API
+  slug: open-commerce-layer-analysis-api
+- collection_type: open
+  name: Commerce Layer addresses api_credentials API
+  slug: open-commerce-layer-api-credentials-api
+- collection_type: open
+  name: Commerce Layer addresses application API
+  slug: open-commerce-layer-application-api
+- collection_type: open
+  name: Commerce Layer addresses application_memberships API
+  slug: open-commerce-layer-application-memberships-api
+- collection_type: open
+  name: Commerce Layer addresses attachments API
+  slug: open-commerce-layer-attachments-api
+- collection_type: open
+  name: Commerce Layer addresses authorizations API
+  slug: open-commerce-layer-authorizations-api
+- collection_type: open
+  name: Commerce Layer addresses avalara_accounts API
+  slug: open-commerce-layer-avalara-accounts-api
+- collection_type: open
+  name: Commerce Layer addresses axerve_gateways API
+  slug: open-commerce-layer-axerve-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses axerve_payments API
+  slug: open-commerce-layer-axerve-payments-api
+- collection_type: open
+  name: Commerce Layer addresses bing_geocoders API
+  slug: open-commerce-layer-bing-geocoders-api
+- collection_type: open
+  name: Commerce Layer addresses braintree_gateways API
+  slug: open-commerce-layer-braintree-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses braintree_payments API
+  slug: open-commerce-layer-braintree-payments-api
+- collection_type: open
+  name: Commerce Layer addresses bundles API
+  slug: open-commerce-layer-bundles-api
+- collection_type: open
+  name: Commerce Layer addresses buy_x_pay_y_promotions API
+  slug: open-commerce-layer-buy-x-pay-y-promotions-api
+- collection_type: open
+  name: Commerce Layer addresses captures API
+  slug: open-commerce-layer-captures-api
+- collection_type: open
+  name: Commerce Layer addresses carrier_accounts API
+  slug: open-commerce-layer-carrier-accounts-api
+- collection_type: open
+  name: Commerce Layer addresses carts API
+  slug: open-commerce-layer-carts-api
+- collection_type: open
+  name: Commerce Layer addresses checkout_com_gateways API
+  slug: open-commerce-layer-checkout-com-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses checkout_com_payments API
+  slug: open-commerce-layer-checkout-com-payments-api
+- collection_type: open
+  name: Commerce Layer addresses cleanups API
+  slug: open-commerce-layer-cleanups-api
+- collection_type: open
   name: Commerce Layer API
   slug: open-commerce-layer-core-api
+- collection_type: open
+  name: Commerce Layer addresses coupon_codes_promotion_rules API
+  slug: open-commerce-layer-coupon-codes-promotion-rules-api
+- collection_type: open
+  name: Commerce Layer addresses coupon_recipients API
+  slug: open-commerce-layer-coupon-recipients-api
+- collection_type: open
+  name: Commerce Layer addresses coupons API
+  slug: open-commerce-layer-coupons-api
+- collection_type: open
+  name: Commerce Layer addresses custom_promotion_rules API
+  slug: open-commerce-layer-custom-promotion-rules-api
+- collection_type: open
+  name: Commerce Layer addresses customer_addresses API
+  slug: open-commerce-layer-customer-addresses-api
+- collection_type: open
+  name: Commerce Layer addresses customer_groups API
+  slug: open-commerce-layer-customer-groups-api
+- collection_type: open
+  name: Commerce Layer addresses customer_password_resets API
+  slug: open-commerce-layer-customer-password-resets-api
+- collection_type: open
+  name: Commerce Layer addresses customer_payment_sources API
+  slug: open-commerce-layer-customer-payment-sources-api
+- collection_type: open
+  name: Commerce Layer addresses customer_subscriptions API
+  slug: open-commerce-layer-customer-subscriptions-api
+- collection_type: open
+  name: Commerce Layer addresses customers API
+  slug: open-commerce-layer-customers-api
+- collection_type: open
+  name: Commerce Layer addresses delivery_lead_times API
+  slug: open-commerce-layer-delivery-lead-times-api
+- collection_type: open
+  name: Commerce Layer addresses discount_engine_items API
+  slug: open-commerce-layer-discount-engine-items-api
+- collection_type: open
+  name: Commerce Layer addresses discount_engines API
+  slug: open-commerce-layer-discount-engines-api
+- collection_type: open
+  name: Commerce Layer addresses easypost_pickups API
+  slug: open-commerce-layer-easypost-pickups-api
+- collection_type: open
+  name: Commerce Layer addresses event_callbacks API
+  slug: open-commerce-layer-event-callbacks-api
+- collection_type: open
+  name: Commerce Layer addresses event_stores API
+  slug: open-commerce-layer-event-stores-api
+- collection_type: open
+  name: Commerce Layer addresses events API
+  slug: open-commerce-layer-events-api
+- collection_type: open
+  name: Commerce Layer addresses exports API
+  slug: open-commerce-layer-exports-api
+- collection_type: open
+  name: Commerce Layer addresses external_gateways API
+  slug: open-commerce-layer-external-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses external_payments API
+  slug: open-commerce-layer-external-payments-api
+- collection_type: open
+  name: Commerce Layer addresses external_promotions API
+  slug: open-commerce-layer-external-promotions-api
+- collection_type: open
+  name: Commerce Layer addresses external_tax_calculators API
+  slug: open-commerce-layer-external-tax-calculators-api
+- collection_type: open
+  name: Commerce Layer addresses fixed_amount_promotions API
+  slug: open-commerce-layer-fixed-amount-promotions-api
+- collection_type: open
+  name: Commerce Layer addresses fixed_price_promotions API
+  slug: open-commerce-layer-fixed-price-promotions-api
+- collection_type: open
+  name: Commerce Layer addresses flex_promotions API
+  slug: open-commerce-layer-flex-promotions-api
+- collection_type: open
+  name: Commerce Layer addresses free_gift_promotions API
+  slug: open-commerce-layer-free-gift-promotions-api
+- collection_type: open
+  name: Commerce Layer addresses free_shipping_promotions API
+  slug: open-commerce-layer-free-shipping-promotions-api
+- collection_type: open
+  name: Commerce Layer addresses geocoders API
+  slug: open-commerce-layer-geocoders-api
+- collection_type: open
+  name: Commerce Layer addresses gift_card_recipients API
+  slug: open-commerce-layer-gift-card-recipients-api
+- collection_type: open
+  name: Commerce Layer addresses gift_cards API
+  slug: open-commerce-layer-gift-cards-api
+- collection_type: open
+  name: Commerce Layer addresses google_geocoders API
+  slug: open-commerce-layer-google-geocoders-api
+- collection_type: open
+  name: Commerce Layer addresses has_many API
+  slug: open-commerce-layer-has-many-api
+- collection_type: open
+  name: Commerce Layer addresses has_one API
+  slug: open-commerce-layer-has-one-api
+- collection_type: open
+  name: Commerce Layer addresses identity_providers API
+  slug: open-commerce-layer-identity-providers-api
+- collection_type: open
+  name: Commerce Layer addresses imports API
+  slug: open-commerce-layer-imports-api
+- collection_type: open
+  name: Commerce Layer addresses in_stock_subscriptions API
+  slug: open-commerce-layer-in-stock-subscriptions-api
+- collection_type: open
+  name: Commerce Layer addresses inventory_models API
+  slug: open-commerce-layer-inventory-models-api
+- collection_type: open
+  name: Commerce Layer addresses inventory_return_locations API
+  slug: open-commerce-layer-inventory-return-locations-api
+- collection_type: open
+  name: Commerce Layer addresses inventory_stock_locations API
+  slug: open-commerce-layer-inventory-stock-locations-api
+- collection_type: open
+  name: Commerce Layer addresses klarna_gateways API
+  slug: open-commerce-layer-klarna-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses klarna_payments API
+  slug: open-commerce-layer-klarna-payments-api
+- collection_type: open
+  name: Commerce Layer addresses line_item_options API
+  slug: open-commerce-layer-line-item-options-api
+- collection_type: open
+  name: Commerce Layer addresses line_items API
+  slug: open-commerce-layer-line-items-api
+- collection_type: open
+  name: Commerce Layer addresses links API
+  slug: open-commerce-layer-links-api
+- collection_type: open
+  name: Commerce Layer addresses manual_gateways API
+  slug: open-commerce-layer-manual-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses manual_tax_calculators API
+  slug: open-commerce-layer-manual-tax-calculators-api
+- collection_type: open
+  name: Commerce Layer addresses markets API
+  slug: open-commerce-layer-markets-api
+- collection_type: open
+  name: Commerce Layer addresses membership_profiles API
+  slug: open-commerce-layer-membership-profiles-api
+- collection_type: open
+  name: Commerce Layer addresses memberships API
+  slug: open-commerce-layer-memberships-api
+- collection_type: open
+  name: Commerce Layer addresses merchants API
+  slug: open-commerce-layer-merchants-api
 - collection_type: open
   name: Commerce Layer Metrics API
   slug: open-commerce-layer-metrics-api
 - collection_type: open
+  name: Commerce Layer addresses notifications API
+  slug: open-commerce-layer-notifications-api
+- collection_type: open
+  name: Commerce Layer addresses order_amount_promotion_rules API
+  slug: open-commerce-layer-order-amount-promotion-rules-api
+- collection_type: open
+  name: Commerce Layer addresses order_copies API
+  slug: open-commerce-layer-order-copies-api
+- collection_type: open
+  name: Commerce Layer addresses order_factories API
+  slug: open-commerce-layer-order-factories-api
+- collection_type: open
+  name: Commerce Layer addresses order_subscription_items API
+  slug: open-commerce-layer-order-subscription-items-api
+- collection_type: open
+  name: Commerce Layer addresses order_subscriptions API
+  slug: open-commerce-layer-order-subscriptions-api
+- collection_type: open
+  name: Commerce Layer addresses orders API
+  slug: open-commerce-layer-orders-api
+- collection_type: open
+  name: Commerce Layer addresses organization API
+  slug: open-commerce-layer-organization-api
+- collection_type: open
+  name: Commerce Layer addresses organizations API
+  slug: open-commerce-layer-organizations-api
+- collection_type: open
+  name: Commerce Layer addresses packages API
+  slug: open-commerce-layer-packages-api
+- collection_type: open
+  name: Commerce Layer addresses parcel_line_items API
+  slug: open-commerce-layer-parcel-line-items-api
+- collection_type: open
+  name: Commerce Layer addresses parcels API
+  slug: open-commerce-layer-parcels-api
+- collection_type: open
+  name: Commerce Layer addresses payment_gateways API
+  slug: open-commerce-layer-payment-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses payment_methods API
+  slug: open-commerce-layer-payment-methods-api
+- collection_type: open
+  name: Commerce Layer addresses payment_options API
+  slug: open-commerce-layer-payment-options-api
+- collection_type: open
+  name: Commerce Layer addresses paypal_gateways API
+  slug: open-commerce-layer-paypal-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses paypal_payments API
+  slug: open-commerce-layer-paypal-payments-api
+- collection_type: open
+  name: Commerce Layer addresses percentage_discount_promotions API
+  slug: open-commerce-layer-percentage-discount-promotions-api
+- collection_type: open
+  name: Commerce Layer addresses permissions API
+  slug: open-commerce-layer-permissions-api
+- collection_type: open
+  name: Commerce Layer addresses pickups API
+  slug: open-commerce-layer-pickups-api
+- collection_type: open
+  name: Commerce Layer addresses price_frequency_tiers API
+  slug: open-commerce-layer-price-frequency-tiers-api
+- collection_type: open
+  name: Commerce Layer addresses price_list_schedulers API
+  slug: open-commerce-layer-price-list-schedulers-api
+- collection_type: open
+  name: Commerce Layer addresses price_lists API
+  slug: open-commerce-layer-price-lists-api
+- collection_type: open
+  name: Commerce Layer addresses price_tiers API
+  slug: open-commerce-layer-price-tiers-api
+- collection_type: open
+  name: Commerce Layer addresses price_volume_tiers API
+  slug: open-commerce-layer-price-volume-tiers-api
+- collection_type: open
+  name: Commerce Layer addresses prices API
+  slug: open-commerce-layer-prices-api
+- collection_type: open
+  name: Commerce Layer addresses promotion_rules API
+  slug: open-commerce-layer-promotion-rules-api
+- collection_type: open
+  name: Commerce Layer addresses promotions API
+  slug: open-commerce-layer-promotions-api
+- collection_type: open
   name: Commerce Layer Provisioning API
   slug: open-commerce-layer-provisioning-api
+- collection_type: open
+  name: Commerce Layer addresses recurring_order_copies API
+  slug: open-commerce-layer-recurring-order-copies-api
+- collection_type: open
+  name: Commerce Layer addresses refunds API
+  slug: open-commerce-layer-refunds-api
+- collection_type: open
+  name: Commerce Layer addresses reserved_stocks API
+  slug: open-commerce-layer-reserved-stocks-api
+- collection_type: open
+  name: Commerce Layer addresses resource_errors API
+  slug: open-commerce-layer-resource-errors-api
+- collection_type: open
+  name: Commerce Layer addresses return_line_items API
+  slug: open-commerce-layer-return-line-items-api
+- collection_type: open
+  name: Commerce Layer addresses returns API
+  slug: open-commerce-layer-returns-api
+- collection_type: open
+  name: Commerce Layer addresses roles API
+  slug: open-commerce-layer-roles-api
+- collection_type: open
+  name: Commerce Layer addresses satispay_gateways API
+  slug: open-commerce-layer-satispay-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses satispay_payments API
+  slug: open-commerce-layer-satispay-payments-api
+- collection_type: open
+  name: Commerce Layer addresses shipments API
+  slug: open-commerce-layer-shipments-api
+- collection_type: open
+  name: Commerce Layer addresses shipping_categories API
+  slug: open-commerce-layer-shipping-categories-api
+- collection_type: open
+  name: Commerce Layer addresses shipping_method_tiers API
+  slug: open-commerce-layer-shipping-method-tiers-api
+- collection_type: open
+  name: Commerce Layer addresses shipping_methods API
+  slug: open-commerce-layer-shipping-methods-api
+- collection_type: open
+  name: Commerce Layer addresses shipping_weight_tiers API
+  slug: open-commerce-layer-shipping-weight-tiers-api
+- collection_type: open
+  name: Commerce Layer addresses shipping_zones API
+  slug: open-commerce-layer-shipping-zones-api
+- collection_type: open
+  name: Commerce Layer addresses singleton API
+  slug: open-commerce-layer-singleton-api
+- collection_type: open
+  name: Commerce Layer addresses sku_list_items API
+  slug: open-commerce-layer-sku-list-items-api
+- collection_type: open
+  name: Commerce Layer addresses sku_list_promotion_rules API
+  slug: open-commerce-layer-sku-list-promotion-rules-api
+- collection_type: open
+  name: Commerce Layer addresses sku_lists API
+  slug: open-commerce-layer-sku-lists-api
+- collection_type: open
+  name: Commerce Layer addresses sku_options API
+  slug: open-commerce-layer-sku-options-api
+- collection_type: open
+  name: Commerce Layer addresses skus API
+  slug: open-commerce-layer-skus-api
+- collection_type: open
+  name: Commerce Layer addresses stock_items API
+  slug: open-commerce-layer-stock-items-api
+- collection_type: open
+  name: Commerce Layer addresses stock_line_items API
+  slug: open-commerce-layer-stock-line-items-api
+- collection_type: open
+  name: Commerce Layer addresses stock_locations API
+  slug: open-commerce-layer-stock-locations-api
+- collection_type: open
+  name: Commerce Layer addresses stock_reservations API
+  slug: open-commerce-layer-stock-reservations-api
+- collection_type: open
+  name: Commerce Layer addresses stock_transfers API
+  slug: open-commerce-layer-stock-transfers-api
+- collection_type: open
+  name: Commerce Layer addresses stores API
+  slug: open-commerce-layer-stores-api
+- collection_type: open
+  name: Commerce Layer addresses stripe_gateways API
+  slug: open-commerce-layer-stripe-gateways-api
+- collection_type: open
+  name: Commerce Layer addresses stripe_payments API
+  slug: open-commerce-layer-stripe-payments-api
+- collection_type: open
+  name: Commerce Layer addresses stripe_tax_accounts API
+  slug: open-commerce-layer-stripe-tax-accounts-api
+- collection_type: open
+  name: Commerce Layer addresses subscription_models API
+  slug: open-commerce-layer-subscription-models-api
+- collection_type: open
+  name: Commerce Layer addresses tags API
+  slug: open-commerce-layer-tags-api
+- collection_type: open
+  name: Commerce Layer addresses talon_one_accounts API
+  slug: open-commerce-layer-talon-one-accounts-api
+- collection_type: open
+  name: Commerce Layer addresses tax_calculators API
+  slug: open-commerce-layer-tax-calculators-api
+- collection_type: open
+  name: Commerce Layer addresses tax_categories API
+  slug: open-commerce-layer-tax-categories-api
+- collection_type: open
+  name: Commerce Layer addresses tax_rules API
+  slug: open-commerce-layer-tax-rules-api
+- collection_type: open
+  name: Commerce Layer addresses taxjar_accounts API
+  slug: open-commerce-layer-taxjar-accounts-api
+- collection_type: open
+  name: Commerce Layer addresses transactions API
+  slug: open-commerce-layer-transactions-api
+- collection_type: open
+  name: Commerce Layer addresses usage API
+  slug: open-commerce-layer-usage-api
+- collection_type: open
+  name: Commerce Layer addresses user API
+  slug: open-commerce-layer-user-api
+- collection_type: open
+  name: Commerce Layer addresses users API
+  slug: open-commerce-layer-users-api
+- collection_type: open
+  name: Commerce Layer addresses versions API
+  slug: open-commerce-layer-versions-api
+- collection_type: open
+  name: Commerce Layer addresses vertex_accounts API
+  slug: open-commerce-layer-vertex-accounts-api
+- collection_type: open
+  name: Commerce Layer addresses voids API
+  slug: open-commerce-layer-voids-api
+- collection_type: open
+  name: Commerce Layer addresses webhooks API
+  slug: open-commerce-layer-webhooks-api
+- collection_type: open
+  name: Commerce Layer addresses wire_transfers API
+  slug: open-commerce-layer-wire-transfers-api
 common:
 - group: agent
   title: ''
@@ -1002,7 +1449,7 @@ plans:
 - name: Commerce Layer Plans Pricing
   plan_count: 3
   slug: commerce-layer-plans-pricing
-random_paper: 109
+random_paper: 88
 rate_limits:
 - limit_count: 13
   name: Commerce Layer Rate Limits
@@ -1042,7 +1489,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png
 security:

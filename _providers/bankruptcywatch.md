@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Monitoring API from BankruptcyWatch — 2 operation(s) for monitoring.
   name: BankruptcyWatch Monitoring API
   slug: bankruptcywatch-monitoring-api
-artifact_total: 68
+artifact_total: 73
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BankruptcyWatch PACER Cases API
+  slug: open-bankruptcywatch-cases-api
+- collection_type: open
+  name: BankruptcyWatch PACER Cases Claims API
+  slug: open-bankruptcywatch-claims-api
+- collection_type: open
+  name: BankruptcyWatch PACER Cases Docket API
+  slug: open-bankruptcywatch-docket-api
+- collection_type: open
+  name: BankruptcyWatch PACER Cases Monitoring API
+  slug: open-bankruptcywatch-monitoring-api
 - collection_type: open
   name: BankruptcyWatch PACER API
   slug: open-bankruptcywatch-pacer-api
@@ -266,7 +281,7 @@ plans:
 - name: Bankruptcywatch Plans Pricing
   plan_count: 3
   slug: bankruptcywatch-plans-pricing
-random_paper: 66
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Bankruptcywatch Rate Limits
@@ -308,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/screenshots/bankruptcywatch-2026-06-20T172956.png
 security:

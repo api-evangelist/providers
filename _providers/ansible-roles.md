@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,8 +69,32 @@ apis:
 - description: Legacy v1 users API.
   name: Ansible Roles Users API
   slug: ansible-roles-users-api
-artifact_total: 37
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ansible Galaxy Roles & Collections Ansible Galaxy Roles & Collections API API
+  slug: open-ansible-roles-ansible-galaxy-roles-collections-api-api
+- collection_type: open
+  name: Ansible Galaxy Roles & Ansible Galaxy Roles & API Collections API
+  slug: open-ansible-roles-collections-api
+- collection_type: open
+  name: Ansible Galaxy Roles & Collections Ansible Galaxy Roles & Collections API Imports API
+  slug: open-ansible-roles-imports-api
+- collection_type: open
+  name: Ansible Galaxy Roles & Collections Ansible Galaxy Roles & Collections API Namespaces API
+  slug: open-ansible-roles-namespaces-api
+- collection_type: open
+  name: Ansible Galaxy & Collections Ansible Galaxy & Collections API Roles API
+  slug: open-ansible-roles-roles-api
+- collection_type: open
+  name: Ansible Galaxy Roles & Collections Ansible Galaxy Roles & Collections API Sync API
+  slug: open-ansible-roles-sync-api
+- collection_type: open
+  name: Ansible Galaxy Roles & Collections Ansible Galaxy Roles & Collections API Users API
+  slug: open-ansible-roles-users-api
 - collection_type: open
   name: Ansible Galaxy Roles & Collections API
   slug: open-ansible-roles
@@ -206,7 +230,7 @@ plans:
 - name: Ansible Roles Plans Pricing
   plan_count: 3
   slug: ansible-roles-plans-pricing
-random_paper: 8
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Ansible Roles Rate Limits
@@ -240,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/screenshots/ansible-roles-2026-06-20T172023.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 6
@@ -180,7 +180,152 @@ apis:
 - description: The workflows API from CoreStory — 7 operation(s) for workflows.
   name: CoreStory workflows API
   slug: corestory-workflows-api
-artifact_total: 53
+artifact_total: 101
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crowdbotics API Documentation admin API
+  slug: open-corestory-admin-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin api_debugging API
+  slug: open-corestory-api-debugging-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin api_key_management API
+  slug: open-corestory-api-key-management-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin artifacts API
+  slug: open-corestory-artifacts-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin billing API
+  slug: open-corestory-billing-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin cache API
+  slug: open-corestory-cache-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin ciu API
+  slug: open-corestory-ciu-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin clerk_authentication API
+  slug: open-corestory-clerk-authentication-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin context API
+  slug: open-corestory-context-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin conversations API
+  slug: open-corestory-conversations-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin discovery API
+  slug: open-corestory-discovery-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin document_formatters API
+  slug: open-corestory-document-formatters-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin document_generation API
+  slug: open-corestory-document-generation-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin documents API
+  slug: open-corestory-documents-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin events API
+  slug: open-corestory-events-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin files API
+  slug: open-corestory-files-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin github_integration API
+  slug: open-corestory-github-integration-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin github_webhooks API
+  slug: open-corestory-github-webhooks-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin languages API
+  slug: open-corestory-languages-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin marketplace API
+  slug: open-corestory-marketplace-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin mcp_protocol API
+  slug: open-corestory-mcp-protocol-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin mcp_token_management API
+  slug: open-corestory-mcp-token-management-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin mermaid API
+  slug: open-corestory-mermaid-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin oauth_discovery API
+  slug: open-corestory-oauth-discovery-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin OLD_conversations API
+  slug: open-corestory-old-conversations-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin organizations API
+  slug: open-corestory-organizations-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin pinned-workspaces API
+  slug: open-corestory-pinned-workspaces-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin prd API
+  slug: open-corestory-prd-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin prd_version API
+  slug: open-corestory-prd-version-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin pre_ingestion API
+  slug: open-corestory-pre-ingestion-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin projects API
+  slug: open-corestory-projects-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin prompts API
+  slug: open-corestory-prompts-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin quality_metrics API
+  slug: open-corestory-quality-metrics-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin realtime API
+  slug: open-corestory-realtime-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin reingestion API
+  slug: open-corestory-reingestion-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin sample_projects API
+  slug: open-corestory-sample-projects-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin sections API
+  slug: open-corestory-sections-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin subscriptions API
+  slug: open-corestory-subscriptions-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin sync-status API
+  slug: open-corestory-sync-status-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin system_overview API
+  slug: open-corestory-system-overview-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin tech_spec API
+  slug: open-corestory-tech-spec-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin update-schedule API
+  slug: open-corestory-update-schedule-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin user API
+  slug: open-corestory-user-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin vector_store API
+  slug: open-corestory-vector-store-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin version API
+  slug: open-corestory-version-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin webhooks API
+  slug: open-corestory-webhooks-api
+- collection_type: open
+  name: Crowdbotics API Documentation admin workflows API
+  slug: open-corestory-workflows-api
 common:
 - group: start
   title: ''
@@ -302,7 +447,7 @@ overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CoreStory''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 42
+random_paper: 108
 scopes:
 - name: Corestory Scopes
   scope_count: 7
@@ -330,7 +475,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/screenshots/corestory-2026-07-25T210432.png
 security:

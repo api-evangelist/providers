@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,12 +51,24 @@ apis:
 - description: Retrieve relevant code locations without a synthesized answer.
   name: Greptile Search API
   slug: greptile-search-api
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: AsyncAPI 2.6 description of Greptile's **query streaming** surface. Greptile does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://docs.greptile.com/qui
   name: Greptile Query Streaming (HTTP + SSE)
   slug: greptile-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Greptile Query API
+  slug: open-greptile-query-api
+- collection_type: open
+  name: Greptile Query Repositories API
+  slug: open-greptile-repositories-api
+- collection_type: open
+  name: Greptile Query Search API
+  slug: open-greptile-search-api
 - collection_type: open
   name: Greptile API
   slug: open-greptile
@@ -136,7 +148,7 @@ plans:
 - name: Greptile Plans Pricing
   plan_count: 4
   slug: greptile-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 4
   name: Greptile Rate Limits
@@ -170,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/screenshots/greptile-2026-06-20T182408.png
 security:

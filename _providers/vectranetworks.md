@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: Dedicated endpoint to Accounts.
@@ -82,7 +82,62 @@ apis:
 - description: Dedicated endpoint to Users.
   name: Vectra AI Users API
   slug: vectranetworks-users-api
-artifact_total: 22
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vectra Detect Accounts API
+  slug: open-vectranetworks-accounts-api
+- collection_type: open
+  name: Vectra Detect Accounts Assignment Outcomes API
+  slug: open-vectranetworks-assignment-outcomes-api
+- collection_type: open
+  name: Vectra Detect Accounts Assignments API
+  slug: open-vectranetworks-assignments-api
+- collection_type: open
+  name: Vectra Detect Accounts Detections API
+  slug: open-vectranetworks-detections-api
+- collection_type: open
+  name: Vectra Detect Accounts Entities API
+  slug: open-vectranetworks-entities-api
+- collection_type: open
+  name: Vectra Detect Accounts Events API
+  slug: open-vectranetworks-events-api
+- collection_type: open
+  name: Vectra Detect Accounts Groups API
+  slug: open-vectranetworks-groups-api
+- collection_type: open
+  name: Vectra Detect Accounts Health API
+  slug: open-vectranetworks-health-api
+- collection_type: open
+  name: Vectra Detect Accounts Hosts API
+  slug: open-vectranetworks-hosts-api
+- collection_type: open
+  name: Vectra Detect Accounts Lockdown API
+  slug: open-vectranetworks-lockdown-api
+- collection_type: open
+  name: Vectra Detect Accounts Match API
+  slug: open-vectranetworks-match-api
+- collection_type: open
+  name: Vectra Detect Accounts Notes API
+  slug: open-vectranetworks-notes-api
+- collection_type: open
+  name: Vectra Detect Accounts Proxies API
+  slug: open-vectranetworks-proxies-api
+- collection_type: open
+  name: Vectra Detect Accounts Search API
+  slug: open-vectranetworks-search-api
+- collection_type: open
+  name: Vectra Detect Accounts Tagging API
+  slug: open-vectranetworks-tagging-api
+- collection_type: open
+  name: Vectra Detect Accounts Threat Feeds API
+  slug: open-vectranetworks-threat-feeds-api
+- collection_type: open
+  name: Vectra Detect Accounts Users API
+  slug: open-vectranetworks-users-api
 common:
 - group: other
   title: ''
@@ -204,7 +259,7 @@ overview: 'Vectra AI publishes 17 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Vectra AI''s developer surface includes authentication, engineering blog, support, pricing, documentation, changelog, and 20 more developer resources.'
-random_paper: 98
+random_paper: 48
 scopes:
 - name: Vectranetworks Scopes
   scope_count: 0
@@ -232,7 +287,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

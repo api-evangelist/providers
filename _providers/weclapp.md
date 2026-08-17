@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Outbound shipments / deliveries.
   name: weclapp Shipment API
   slug: weclapp-shipment-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: weclapp REST Article API
+  slug: open-weclapp-article-api
+- collection_type: open
+  name: weclapp REST Article Customer API
+  slug: open-weclapp-customer-api
+- collection_type: open
+  name: weclapp REST Article Purchase Order API
+  slug: open-weclapp-purchase-order-api
+- collection_type: open
+  name: weclapp REST Article Quotation API
+  slug: open-weclapp-quotation-api
+- collection_type: open
+  name: weclapp REST Article Sales Invoice API
+  slug: open-weclapp-sales-invoice-api
+- collection_type: open
+  name: weclapp REST Article Sales Order API
+  slug: open-weclapp-sales-order-api
+- collection_type: open
+  name: weclapp REST Article Shipment API
+  slug: open-weclapp-shipment-api
 - collection_type: open
   name: weclapp REST API
   slug: open-weclapp
@@ -122,7 +146,7 @@ plans:
 - name: Weclapp Plans Pricing
   plan_count: 5
   slug: weclapp-plans-pricing
-random_paper: 28
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Weclapp Rate Limits
@@ -147,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

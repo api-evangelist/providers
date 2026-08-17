@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: LLM request/response event ingestion.
   name: Oximy Telemetry API
   slug: oximy-telemetry-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oximy Public Init API
+  slug: open-oximy-init-api
+- collection_type: open
+  name: Oximy Public Init Policy API
+  slug: open-oximy-policy-api
+- collection_type: open
+  name: Oximy Public Init Telemetry API
+  slug: open-oximy-telemetry-api
 common:
 - group: other
   title: ''
@@ -165,7 +178,7 @@ overview: 'Oximy publishes 3 APIs on the [APIs.io](https://apis.io/) network: In
 
 
   Oximy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 86
+random_paper: 119
 score:
   band: developing
   composite: 43.1
@@ -195,7 +208,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/screenshots/oximy-2026-08-07T191209.png
 security:

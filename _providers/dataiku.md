@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -196,7 +196,7 @@ arazzos:
 - description: Verify a project, delete a dataset within it, then delete the project itself.
   name: Dataiku Teardown Project
   slug: dataiku-teardown-project-workflow
-artifact_total: 141
+artifact_total: 170
 collections:
 - collection_type: postman
   name: Dataiku API Node Administration API
@@ -208,14 +208,101 @@ collections:
   name: Dataiku DSS Public API
   slug: postman-dataiku-public-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Dataiku API Node Administration API
   slug: open-dataiku-api-node-admin
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs API
+  slug: open-dataiku-artifact-sign-offs-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Artifacts API
+  slug: open-dataiku-artifacts-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Authentication API
+  slug: open-dataiku-authentication-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Blueprint Versions API
+  slug: open-dataiku-blueprint-versions-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Blueprints API
+  slug: open-dataiku-blueprints-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Bundles API
+  slug: open-dataiku-bundles-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Code Envs API
+  slug: open-dataiku-code-envs-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Connections API
+  slug: open-dataiku-connections-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Custom Fields API
+  slug: open-dataiku-custom-fields-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Datasets API
+  slug: open-dataiku-datasets-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs General Settings API
+  slug: open-dataiku-general-settings-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Generations API
+  slug: open-dataiku-generations-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Global API Keys API
+  slug: open-dataiku-global-api-keys-api
 - collection_type: open
   name: Dataiku Govern API
   slug: open-dataiku-govern-api
 - collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Groups API
+  slug: open-dataiku-groups-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Jobs API
+  slug: open-dataiku-jobs-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Managed Folders API
+  slug: open-dataiku-managed-folders-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Meanings API
+  slug: open-dataiku-meanings-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Metrics API
+  slug: open-dataiku-metrics-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Model Evaluation Stores API
+  slug: open-dataiku-model-evaluation-stores-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Plugins API
+  slug: open-dataiku-plugins-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Projects API
+  slug: open-dataiku-projects-api
+- collection_type: open
   name: Dataiku DSS Public API
   slug: open-dataiku-public-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Recipes API
+  slug: open-dataiku-recipes-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Roles API
+  slug: open-dataiku-roles-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Saved Models API
+  slug: open-dataiku-saved-models-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Scenarios API
+  slug: open-dataiku-scenarios-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Services API
+  slug: open-dataiku-services-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs SQL Queries API
+  slug: open-dataiku-sql-queries-api
+- collection_type: open
+  name: Dataiku API Node Administration Artifact Sign-Offs Users API
+  slug: open-dataiku-users-api
 common:
 - group: agent
   title: ''
@@ -658,7 +745,7 @@ plans:
 - name: Dataiku Plans Pricing
   plan_count: 3
   slug: dataiku-plans-pricing
-random_paper: 19
+random_paper: 143
 rate_limits:
 - limit_count: 3
   name: Dataiku Rate Limits
@@ -700,7 +787,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/screenshots/dataiku-2026-06-20T175643.png
 security:

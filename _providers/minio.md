@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: S3-compatible object storage REST API implementing Amazon S3 bucket and object operations (put/get/list/delete objects, multipart uploads, versioning, object locking, lifecycle, replication), authenti
@@ -186,7 +186,7 @@ overview: 'MinIO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   MinIO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 24 more developer resources.'
-random_paper: 60
+random_paper: 93
 score:
   band: developing
   composite: 55.3
@@ -203,7 +203,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/screenshots/minio-2026-08-07T172955.png
 security:

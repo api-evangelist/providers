@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -112,7 +112,7 @@ overview: 'Duckbill is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Duckbill''s developer surface includes documentation, authentication, engineering blog, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 2
+random_paper: 97
 scopes:
 - name: Duckbill Scopes
   scope_count: 6
@@ -133,7 +133,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duckbill/refs/heads/main/screenshots/duckbill-2026-07-25T212450.png
 security:

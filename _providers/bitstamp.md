@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +45,14 @@ apis:
 - description: Public market data endpoints (no authentication required)
   name: Bitstamp Market Data API
   slug: bitstamp-market-data-api
-artifact_total: 24
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bitstamp Market Data API
+  slug: open-bitstamp-market-data-api
 common:
 - group: agent
   title: ''
@@ -178,7 +185,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -218,7 +225,7 @@ score:
     regime_id: securities_market_data
     score: 53.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/screenshots/bitstamp-2026-06-20T173325.png
 security:

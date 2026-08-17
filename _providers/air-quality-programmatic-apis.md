@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Stations API from Air Quality Programmatic APIs — 5 operation(s) for stations.
   name: Air Quality Programmatic APIs Stations API
   slug: air-quality-programmatic-apis-stations-api
-artifact_total: 57
+artifact_total: 64
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Air Quality Programmatic APIs Real-time Air Quality Tile Air Quality Programmatic APIs Real Time Air Quality Tile API API
+  slug: open-air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api
+- collection_type: open
+  name: Air Quality Programmatic APIs Real-time Air Quality Tile Air Quality Programmatic APIs Real Time Air Quality Tile API Cities API
+  slug: open-air-quality-programmatic-apis-cities-api
+- collection_type: open
+  name: Air Quality Programmatic APIs Real-time Air Quality Tile Air Quality Programmatic APIs Real Time Air Quality Tile API Geolocation API
+  slug: open-air-quality-programmatic-apis-geolocation-api
+- collection_type: open
+  name: Air Quality Programmatic APIs Real-time Air Quality Tile Air Quality Programmatic APIs Real Time Air Quality Tile API Map API
+  slug: open-air-quality-programmatic-apis-map-api
+- collection_type: open
+  name: Air Quality Programmatic APIs Real-time Air Quality Tile Air Quality Programmatic APIs Real Time Air Quality Tile API Search API
+  slug: open-air-quality-programmatic-apis-search-api
+- collection_type: open
+  name: Air Quality Programmatic APIs Real-time Air Quality Tile Air Quality Programmatic APIs Real Time Air Quality Tile API Stations API
+  slug: open-air-quality-programmatic-apis-stations-api
 - collection_type: open
   name: Air Quality Programmatic APIs Real-time Air Quality Tile API
   slug: open-air-quality-programmatic-apis
@@ -236,7 +257,7 @@ plans:
 - name: Air Quality Programmatic Apis Plans Pricing
   plan_count: 3
   slug: air-quality-programmatic-apis-plans-pricing
-random_paper: 63
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Air Quality Programmatic Apis Rate Limits
@@ -292,7 +313,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/screenshots/air-quality-programmatic-apis-2026-06-20T171420.png
 security:

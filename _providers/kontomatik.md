@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -87,20 +87,71 @@ apis:
 - description: Vendor / counterparty recognition (beta)
   name: Kontomatik Vendors API
   slug: kontomatik-vendors-api
-artifact_total: 53
+artifact_total: 70
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation API
+  slug: open-kontomatik-aggregation-api
 - collection_type: open
   name: Kontomatik Account Information Service API
   slug: open-kontomatik-ais-api
 - collection_type: open
+  name: Kontomatik Account Information Service Aggregation Catalog API
+  slug: open-kontomatik-catalog-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Command API
+  slug: open-kontomatik-command-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Confirmations API
+  slug: open-kontomatik-confirmations-api
+- collection_type: open
   name: Kontomatik Data Analysis API
   slug: open-kontomatik-data-analysis-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Features API
+  slug: open-kontomatik-features-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Income API
+  slug: open-kontomatik-income-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Labeling API
+  slug: open-kontomatik-labeling-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Mock API
+  slug: open-kontomatik-mock-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Owner API
+  slug: open-kontomatik-owner-api
 - collection_type: open
   name: Kontomatik PDF Parsing API
   slug: open-kontomatik-pdf-parsing-api
 - collection_type: open
+  name: Kontomatik Account Information Service Aggregation Profile API
+  slug: open-kontomatik-profile-api
+- collection_type: open
   name: Kontomatik Report API
   slug: open-kontomatik-report-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Reports API
+  slug: open-kontomatik-reports-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Score API
+  slug: open-kontomatik-score-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation SignIn API
+  slug: open-kontomatik-signin-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Statements API
+  slug: open-kontomatik-statements-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Summary API
+  slug: open-kontomatik-summary-api
+- collection_type: open
+  name: Kontomatik Account Information Service Aggregation Vendors API
+  slug: open-kontomatik-vendors-api
 common:
 - group: agent
   title: ''
@@ -283,7 +334,7 @@ plans:
 - name: Kontomatik Plans Pricing
   plan_count: 2
   slug: kontomatik-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Kontomatik Rate Limits
@@ -331,7 +382,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kontomatik/refs/heads/main/screenshots/kontomatik-2026-06-20T184134.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,12 +46,24 @@ apis:
 - description: The Refunds API from Razorpay — 2 operation(s) for refunds.
   name: Razorpay Refunds API
   slug: razorpay-refunds-api
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: AsyncAPI description of Razorpay's webhook surface. Razorpay POSTs JSON event payloads to a merchant-configured webhook URL whenever a subscribed event occurs (payments, orders, refunds, subscriptions
   name: Razorpay Webhooks
   slug: razorpay-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Razorpay Core REST Orders API
+  slug: open-razorpay-orders-api
+- collection_type: open
+  name: Razorpay Core REST Orders Payments API
+  slug: open-razorpay-payments-api
+- collection_type: open
+  name: Razorpay Core REST Orders Refunds API
+  slug: open-razorpay-refunds-api
 - collection_type: open
   name: Razorpay Core REST API
   slug: open-razorpay
@@ -167,7 +179,7 @@ overview: 'Razorpay publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Razorpay''s developer surface includes sandbox, changelog, authentication, documentation, API reference, pricing, signup flow, and 17 more developer resources.'
-random_paper: 48
+random_paper: 143
 rules:
 - name: Razorpay API Rules
   rule_count: 7
@@ -208,7 +220,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/screenshots/razorpay-2026-06-20T192629.png
 security:

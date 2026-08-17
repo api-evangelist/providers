@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 13
@@ -204,7 +204,152 @@ apis:
 - description: The Workers API from Veeam — 3 operation(s) for workers.
   name: Veeam Workers API
   slug: veeam-workers-api
-artifact_total: 73
+artifact_total: 121
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents API
+  slug: open-veeam-agents-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents AmazonConnections API
+  slug: open-veeam-amazonconnections-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Automation API
+  slug: open-veeam-automation-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Backup Objects API
+  slug: open-veeam-backup-objects-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Backups API
+  slug: open-veeam-backups-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Buckets API
+  slug: open-veeam-buckets-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Certificates API
+  slug: open-veeam-certificates-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Cloud Browser API
+  slug: open-veeam-cloud-browser-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Configuration Backup API
+  slug: open-veeam-configuration-backup-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Connection API
+  slug: open-veeam-connection-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents CostEstimation API
+  slug: open-veeam-costestimation-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Credentials API
+  slug: open-veeam-credentials-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents EmailNotifications API
+  slug: open-veeam-emailnotifications-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Encryption API
+  slug: open-veeam-encryption-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents General Options API
+  slug: open-veeam-general-options-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents IAMRoles API
+  slug: open-veeam-iamroles-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Instances API
+  slug: open-veeam-instances-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Inventory Browser API
+  slug: open-veeam-inventory-browser-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Jobs API
+  slug: open-veeam-jobs-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents LicenseAgreement API
+  slug: open-veeam-licenseagreement-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Licensing API
+  slug: open-veeam-licensing-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Login API
+  slug: open-veeam-login-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Managed Servers API
+  slug: open-veeam-managed-servers-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Object Restore Points API
+  slug: open-veeam-object-restore-points-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Overview API
+  slug: open-veeam-overview-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Policies API
+  slug: open-veeam-policies-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Problems API
+  slug: open-veeam-problems-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Proxies API
+  slug: open-veeam-proxies-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Regions API
+  slug: open-veeam-regions-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Repositories API
+  slug: open-veeam-repositories-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Restore API
+  slug: open-veeam-restore-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents RetentionSettings API
+  slug: open-veeam-retentionsettings-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Service API
+  slug: open-veeam-service-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Services API
+  slug: open-veeam-services-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Sessions API
+  slug: open-veeam-sessions-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents SMTPServerCredentialsRecords API
+  slug: open-veeam-smtpservercredentialsrecords-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Statistics API
+  slug: open-veeam-statistics-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents System API
+  slug: open-veeam-system-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Tags API
+  slug: open-veeam-tags-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Test API
+  slug: open-veeam-test-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Timezone API
+  slug: open-veeam-timezone-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Token API
+  slug: open-veeam-token-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Traffic Rules API
+  slug: open-veeam-traffic-rules-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Users API
+  slug: open-veeam-users-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Version API
+  slug: open-veeam-version-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents VmRestorePoints API
+  slug: open-veeam-vmrestorepoints-api
+- collection_type: open
+  name: Veeam Backup for AWS public API 1.0 Agents Workers API
+  slug: open-veeam-workers-api
 common:
 - group: agent
   title: ''
@@ -323,7 +468,7 @@ plans:
 - name: Veeam Plans Pricing
   plan_count: 5
   slug: veeam-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Veeam Rate Limits
@@ -357,7 +502,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/screenshots/veeam-2026-06-20T200904.png
 security:

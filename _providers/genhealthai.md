@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -144,7 +144,7 @@ overview: 'GenHealth.ai is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   GenHealth.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 66
+random_paper: 103
 score:
   band: thin
   composite: 36.9
@@ -168,7 +168,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/screenshots/genhealthai-2026-07-25T215613.png
 security:

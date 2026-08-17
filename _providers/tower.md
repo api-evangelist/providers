@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 27
 apis:
 - description: The Accounts API from Tower — 2 operation(s) for accounts.
@@ -112,11 +112,96 @@ apis:
 - description: The Whoami API from Tower — 1 operation(s) for whoami.
   name: Tower Whoami API
   slug: tower-whoami-api
-artifact_total: 32
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Tower Webhooks
   slug: tower-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tower Accounts API
+  slug: open-tower-accounts-api
+- collection_type: open
+  name: Tower Accounts Alerts API
+  slug: open-tower-alerts-api
+- collection_type: open
+  name: Tower Accounts Api Keys API
+  slug: open-tower-api-keys-api
+- collection_type: open
+  name: Tower Accounts Apps API
+  slug: open-tower-apps-api
+- collection_type: open
+  name: Tower Accounts Catalogs API
+  slug: open-tower-catalogs-api
+- collection_type: open
+  name: Tower Accounts Environments API
+  slug: open-tower-environments-api
+- collection_type: open
+  name: Tower Accounts Feature Flags API
+  slug: open-tower-feature-flags-api
+- collection_type: open
+  name: Tower Accounts Guests API
+  slug: open-tower-guests-api
+- collection_type: open
+  name: Tower Accounts Login API
+  slug: open-tower-login-api
+- collection_type: open
+  name: Tower Accounts Organizations API
+  slug: open-tower-organizations-api
+- collection_type: open
+  name: Tower Accounts Plan API
+  slug: open-tower-plan-api
+- collection_type: open
+  name: Tower Accounts Runners API
+  slug: open-tower-runners-api
+- collection_type: open
+  name: Tower Accounts Runs API
+  slug: open-tower-runs-api
+- collection_type: open
+  name: Tower Accounts Sandbox API
+  slug: open-tower-sandbox-api
+- collection_type: open
+  name: Tower Accounts Schedules API
+  slug: open-tower-schedules-api
+- collection_type: open
+  name: Tower Accounts Secrets API
+  slug: open-tower-secrets-api
+- collection_type: open
+  name: Tower Accounts Service Accounts API
+  slug: open-tower-service-accounts-api
+- collection_type: open
+  name: Tower Accounts Session API
+  slug: open-tower-session-api
+- collection_type: open
+  name: Tower Accounts Shouldertaps API
+  slug: open-tower-shouldertaps-api
+- collection_type: open
+  name: Tower Accounts Stats API
+  slug: open-tower-stats-api
+- collection_type: open
+  name: Tower Accounts Storage API
+  slug: open-tower-storage-api
+- collection_type: open
+  name: Tower Accounts Team Invites API
+  slug: open-tower-team-invites-api
+- collection_type: open
+  name: Tower Accounts Teams API
+  slug: open-tower-teams-api
+- collection_type: open
+  name: Tower Accounts Usage API
+  slug: open-tower-usage-api
+- collection_type: open
+  name: Tower Accounts User API
+  slug: open-tower-user-api
+- collection_type: open
+  name: Tower Accounts Webhooks API
+  slug: open-tower-webhooks-api
+- collection_type: open
+  name: Tower Accounts Whoami API
+  slug: open-tower-whoami-api
 common:
 - group: other
   title: ''
@@ -261,7 +346,7 @@ overview: 'Tower publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 24 more developer resources.'
-random_paper: 81
+random_paper: 114
 scopes:
 - name: Tower Scopes
   scope_count: 53
@@ -289,7 +374,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

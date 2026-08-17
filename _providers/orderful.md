@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -70,11 +70,42 @@ arazzos:
 - description: Receive a Purchase Order from an inbox, approve delivery, acknowledge it, and send back the acknowledgment.
   name: Orderful Order-to-Cash
   slug: orderful-order-to-cash
-artifact_total: 17
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Orderful Webhooks
   slug: orderful-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orderful Conversion API
+  slug: open-orderful-conversion-api
+- collection_type: open
+  name: Orderful Conversion Delivery API
+  slug: open-orderful-delivery-api
+- collection_type: open
+  name: Orderful Conversion Inbox API
+  slug: open-orderful-inbox-api
+- collection_type: open
+  name: Orderful Conversion Label API
+  slug: open-orderful-label-api
+- collection_type: open
+  name: Orderful Conversion Organization API
+  slug: open-orderful-organization-api
+- collection_type: open
+  name: Orderful Conversion Poller API
+  slug: open-orderful-poller-api
+- collection_type: open
+  name: Orderful Conversion Relationship API
+  slug: open-orderful-relationship-api
+- collection_type: open
+  name: Orderful Conversion Transaction API
+  slug: open-orderful-transaction-api
+- collection_type: open
+  name: Orderful Conversion Transaction (v3) API
+  slug: open-orderful-transaction-v3-api
 common:
 - group: other
   title: ''
@@ -235,7 +266,7 @@ overview: 'Orderful publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Orderful''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 27
+random_paper: 122
 score:
   band: strong
   composite: 57.8
@@ -259,7 +290,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/screenshots/orderful-2026-08-07T190910.png
 security:

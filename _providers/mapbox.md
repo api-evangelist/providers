@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -74,8 +74,20 @@ apis:
 - description: The Tilesets API from Mapbox — 13 operation(s) for tilesets.
   name: Mapbox Tilesets API
   slug: mapbox-tilesets-api
-artifact_total: 34
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mapbox Tiling Service Activity API
+  slug: open-mapbox-activity-api
+- collection_type: open
+  name: Mapbox Tiling Service Activity Mapbox Tiling Service API API
+  slug: open-mapbox-mapbox-tiling-service-api-api
+- collection_type: open
+  name: Mapbox Tiling Service Activity Tilesets API
+  slug: open-mapbox-tilesets-api
 - collection_type: open
   name: Mapbox Tiling Service API
   slug: open-mapbox
@@ -220,7 +232,7 @@ plans:
 - name: Mapbox Plans Pricing
   plan_count: 8
   slug: mapbox-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 6
   name: Mapbox Rate Limits
@@ -245,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/screenshots/mapbox-2026-06-20T184931.png
 security:

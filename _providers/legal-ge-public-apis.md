@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -35,7 +35,17 @@ apis:
 - description: Map a free-text legal question to practice areas, and optionally to ranked verified specialists.
   name: legal.ge Public APIs Matching API
   slug: legal-ge-public-apis-matching-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: legal.ge Public Directory API
+  slug: open-legal-ge-public-apis-directory-api
+- collection_type: open
+  name: legal.ge Public Matching API
+  slug: open-legal-ge-public-apis-matching-api
 common:
 - group: auth
   title: ''
@@ -169,7 +179,7 @@ overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   legal.ge Public APIs'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 4
+random_paper: 136
 rate_limits:
 - limit_count: 4
   name: Legal Ge Public Apis Rate Limits
@@ -197,7 +207,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

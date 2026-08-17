@@ -21,7 +21,7 @@ modified: '2026-04-23'
 name: Cloud
 nav: Providers
 network: true
-random_paper: 55
+random_paper: 88
 slug: cloud
 tags:
 - Cloud

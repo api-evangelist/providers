@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -43,6 +43,20 @@ common:
   title: ''
   type: Blog
   url: https://amilabs.xyz/updates
+coverage:
+  checked: '2026-08-17'
+  detail: AMI Labs is a pre-product research lab whose entire web presence is two pages — its own sitemap.xml declares exactly https://amilabs.xyz and https://amilabs.xyz/updates — with no docs, no developer host in DNS, and a single March 2026 launch post that names no API, model release, or open-source repository.
+  evidence:
+  - status: 200
+    url: https://amilabs.xyz/sitemap.xml
+  - status: 404
+    url: https://amilabs.xyz/openapi.json
+  - status: 404
+    url: https://amilabs.xyz/.well-known/agent-card.json
+  - status: 404
+    url: https://amilabs.xyz/docs
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: AMI Labs is a frontier AI research lab building intelligent systems that understand the real world. The lab develops world models trained with self-supervised learning on continuous, high-dimensional sensor data (cameras and other sensors), aiming for AI with persistent memory, reasoning and planning, and controllable, safety-oriented behavior. Targeted applications span industrial process control, automation, wearable devices, robotics, and healthcare. AMI Labs launched officially in March 2026 with a $1.03B funding round and operates from Paris, New York, Montreal, and Singapore. It is backed by HV Capital, Obvious Ventures, and Wing Venture Capital. The lab operates as a research organization and does not currently publish a public developer platform, API, SDKs, or documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ami-labs.png
@@ -55,7 +69,7 @@ overview: 'AMI Labs is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AMI Labs'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 54
+random_paper: 29
 score:
   band: minimal
   composite: 5.4
@@ -69,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ami-labs/refs/heads/main/screenshots/ami-labs-2026-07-25T200053.png
 security:

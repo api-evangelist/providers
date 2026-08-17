@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Authentication API from TruVideo — 2 operation(s) for authentication.
@@ -64,7 +64,44 @@ apis:
 - description: The Videos API from TruVideo — 3 operation(s) for videos.
   name: TruVideo Videos API
   slug: truvideo-videos-api
-artifact_total: 14
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TruVideo Platform Authentication API
+  slug: open-truvideo-authentication-api
+- collection_type: open
+  name: TruVideo Platform Authentication Chat API
+  slug: open-truvideo-chat-api
+- collection_type: open
+  name: TruVideo Platform Authentication Customers API
+  slug: open-truvideo-customers-api
+- collection_type: open
+  name: TruVideo Platform Authentication Dealers API
+  slug: open-truvideo-dealers-api
+- collection_type: open
+  name: TruVideo Platform Authentication Files API
+  slug: open-truvideo-files-api
+- collection_type: open
+  name: TruVideo Platform Authentication Messages API
+  slug: open-truvideo-messages-api
+- collection_type: open
+  name: TruVideo Platform Authentication Repair Orders API
+  slug: open-truvideo-repair-orders-api
+- collection_type: open
+  name: TruVideo Platform Authentication Reports API
+  slug: open-truvideo-reports-api
+- collection_type: open
+  name: TruVideo Platform Authentication Support API
+  slug: open-truvideo-support-api
+- collection_type: open
+  name: TruVideo Platform Authentication Users API
+  slug: open-truvideo-users-api
+- collection_type: open
+  name: TruVideo Platform Authentication Videos API
+  slug: open-truvideo-videos-api
 common:
 - group: company
   title: ''
@@ -174,7 +211,7 @@ overview: 'TruVideo publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   TruVideo''s developer surface includes authentication, sandbox, documentation, pricing, support, and 18 more developer resources.'
-random_paper: 42
+random_paper: 137
 score:
   band: thin
   composite: 41.8
@@ -197,7 +234,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

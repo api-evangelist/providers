@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -112,7 +112,95 @@ apis:
 - description: The Users API from 1KOMMA5° — 4 operation(s) for users.
   name: 1KOMMA5° Users API
   slug: 1komma5-users-api
-artifact_total: 34
+artifact_total: 63
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Offer Tool Admin - Audit Logs API
+  slug: open-1komma5-admin-audit-logs-api
+- collection_type: open
+  name: Offer Tool Admin - Branches API
+  slug: open-1komma5-admin-branches-api
+- collection_type: open
+  name: Offer Tool Admin - Concepts API
+  slug: open-1komma5-admin-concepts-api
+- collection_type: open
+  name: Offer Tool Admin - Countries API
+  slug: open-1komma5-admin-countries-api
+- collection_type: open
+  name: Offer Tool Admin - Maintenance API
+  slug: open-1komma5-admin-maintenance-api
+- collection_type: open
+  name: Offer Tool Admin - Megasearch API
+  slug: open-1komma5-admin-megasearch-api
+- collection_type: open
+  name: Offer Tool Admin - Products API
+  slug: open-1komma5-admin-products-api
+- collection_type: open
+  name: Offer Tool Admin - Roles API
+  slug: open-1komma5-admin-roles-api
+- collection_type: open
+  name: Offer Tool Admin - Users API
+  slug: open-1komma5-admin-users-api
+- collection_type: open
+  name: Offer Tool Concepts API
+  slug: open-1komma5-concepts-api
+- collection_type: open
+  name: Offer Tool Configs API
+  slug: open-1komma5-configs-api
+- collection_type: open
+  name: Offer Tool CRM API
+  slug: open-1komma5-crm-api
+- collection_type: open
+  name: Offer Tool Customers API
+  slug: open-1komma5-customers-api
+- collection_type: open
+  name: Offer Tool Effective Price API
+  slug: open-1komma5-effectiveprice-api
+- collection_type: open
+  name: Offer Tool Health API
+  slug: open-1komma5-health-api
+- collection_type: open
+  name: Offer Tool Index API
+  slug: open-1komma5-index-api
+- collection_type: open
+  name: Offer Tool Migration Frozen State API
+  slug: open-1komma5-migration-frozen-state-api
+- collection_type: open
+  name: Offer Tool Migrations API
+  slug: open-1komma5-migrations-api
+- collection_type: open
+  name: Offer Tool API
+  slug: open-1komma5-offer-tool-openapi-original
+- collection_type: open
+  name: Offer Tool Payment Options API
+  slug: open-1komma5-payment-options-api
+- collection_type: open
+  name: Offer Tool PDF API
+  slug: open-1komma5-pdf-api
+- collection_type: open
+  name: Offer Tool Products API
+  slug: open-1komma5-products-api
+- collection_type: open
+  name: Offer Tool Sales Users API
+  slug: open-1komma5-sales-users-api
+- collection_type: open
+  name: Offer Tool Site API
+  slug: open-1komma5-site-api
+- collection_type: open
+  name: Offer Tool Sites API
+  slug: open-1komma5-sites-api
+- collection_type: open
+  name: Offer Tool Tenants API
+  slug: open-1komma5-tenants-api
+- collection_type: open
+  name: Offer Tool Test API
+  slug: open-1komma5-test-api
+- collection_type: open
+  name: Offer Tool Users API
+  slug: open-1komma5-users-api
 common:
 - group: agent
   title: ''
@@ -242,7 +330,7 @@ overview: '1KOMMA5° publishes 27 APIs on the [APIs.io](https://apis.io/) networ
 
 
   1KOMMA5°''s developer surface includes support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 35
+random_paper: 39
 scopes:
 - name: 1Komma5 Scopes
   scope_count: 14
@@ -277,7 +365,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/screenshots/1komma5-2026-08-07T160650.png
 security:

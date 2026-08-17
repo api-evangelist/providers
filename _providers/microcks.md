@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -57,8 +57,29 @@ apis:
 - description: Operations related to API and Services tests
   name: Microcks test API
   slug: microcks-test-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microcks API v1.14 config API
+  slug: open-microcks-config-api
+- collection_type: open
+  name: Microcks API v1.14 config job API
+  slug: open-microcks-job-api
+- collection_type: open
+  name: Microcks API v1.14 config metrics API
+  slug: open-microcks-metrics-api
+- collection_type: open
+  name: Microcks API v1.14 config mock API
+  slug: open-microcks-mock-api
+- collection_type: open
+  name: Microcks API v1.14 config Resources API
+  slug: open-microcks-resources-api
+- collection_type: open
+  name: Microcks API v1.14 config test API
+  slug: open-microcks-test-api
 - collection_type: open
   name: Microcks API v1.14
   slug: open-microcks
@@ -131,7 +152,7 @@ plans:
 - name: Microcks Plans Pricing
   plan_count: 3
   slug: microcks-plans-pricing
-random_paper: 19
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Microcks Rate Limits
@@ -161,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/screenshots/microcks-2026-06-20T185332.png
 security:

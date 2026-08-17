@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
 - description: The SQL DB API from Soveren — 5 operation(s) for sql db.
   name: Soveren SQL DB API
   slug: soveren-sql-db-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: Soveren delivers data-security events to a subscriber endpoint via outbound webhooks. Soveren POSTs an event object to a URL configured in the app under Integrations - Webhook. When a signing token is
   name: Soveren Events (Webhooks)
@@ -64,6 +64,28 @@ asyncapis:
 - description: ''
   name: Soveren Webhooks
   slug: soveren-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Soveren Object Assets API
+  slug: open-soveren-assets-api
+- collection_type: open
+  name: Soveren Object Assets Data Types API
+  slug: open-soveren-data-types-api
+- collection_type: open
+  name: Soveren Object Assets Endpoints API
+  slug: open-soveren-endpoints-api
+- collection_type: open
+  name: Soveren Object Assets Kafka API
+  slug: open-soveren-kafka-api
+- collection_type: open
+  name: Soveren Object Assets S3 API
+  slug: open-soveren-s3-api
+- collection_type: open
+  name: Soveren Object Assets SQL DB API
+  slug: open-soveren-sql-db-api
 common:
 - group: company
   title: ''
@@ -184,7 +206,7 @@ overview: 'Soveren publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Soveren''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 50
+random_paper: 25
 score:
   band: developing
   composite: 44.8
@@ -208,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

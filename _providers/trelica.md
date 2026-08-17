@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,11 +63,38 @@ apis:
 - description: Manage automation workflows
   name: Trelica Workflows API
   slug: trelica-workflows-api
-artifact_total: 25
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trelica REST Application Users API
+  slug: open-trelica-application-users-api
+- collection_type: open
+  name: Trelica REST Application Users Applications API
+  slug: open-trelica-applications-api
+- collection_type: open
+  name: Trelica REST Application Users Assets API
+  slug: open-trelica-assets-api
+- collection_type: open
+  name: Trelica REST Application Users Audit Log API
+  slug: open-trelica-audit-log-api
+- collection_type: open
+  name: Trelica REST Application Users Contracts API
+  slug: open-trelica-contracts-api
+- collection_type: open
+  name: Trelica REST Application Users People API
+  slug: open-trelica-people-api
 - collection_type: open
   name: Trelica REST API
   slug: open-trelica-rest-api
+- collection_type: open
+  name: Trelica REST Application Users Users (SCIM) API
+  slug: open-trelica-users-scim-api
+- collection_type: open
+  name: Trelica REST Application Users Workflows API
+  slug: open-trelica-workflows-api
 common:
 - group: commercial
   title: ''
@@ -202,7 +229,7 @@ plans:
 - name: Trelica Plans Pricing
   plan_count: 3
   slug: trelica-plans-pricing
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Trelica Rate Limits
@@ -249,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/screenshots/trelica-2026-06-20T195649.png
 security:

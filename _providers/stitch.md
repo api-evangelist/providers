@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,8 +69,23 @@ apis:
 - description: Payment initiation and management.
   name: Stitch Payments API
   slug: stitch-payments-api
-artifact_total: 44
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stitch Authentication API
+  slug: open-stitch-authentication-api
+- collection_type: open
+  name: Stitch Authentication Disbursements API
+  slug: open-stitch-disbursements-api
+- collection_type: open
+  name: Stitch Authentication Financial Data API
+  slug: open-stitch-financial-data-api
+- collection_type: open
+  name: Stitch Authentication Payments API
+  slug: open-stitch-payments-api
 - collection_type: open
   name: Stitch API
   slug: open-stitch
@@ -205,7 +220,7 @@ plans:
 - name: Stitch Plans Pricing
   plan_count: 3
   slug: stitch-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Stitch Rate Limits
@@ -253,7 +268,7 @@ score:
     regime_id: banking_open_finance
     score: 34.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/screenshots/stitch-2026-06-20T194553.png
 security:

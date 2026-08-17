@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -75,8 +75,47 @@ apis:
 - description: Subscribe to platform events delivered to your endpoint.
   name: Toloka Webhook Subscriptions API
   slug: toloka-webhook-subscriptions-api
-artifact_total: 20
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toloka Assignments API
+  slug: open-toloka-assignments-api
+- collection_type: open
+  name: Toloka Assignments Attachments API
+  slug: open-toloka-attachments-api
+- collection_type: open
+  name: Toloka Assignments Operations API
+  slug: open-toloka-operations-api
+- collection_type: open
+  name: Toloka Assignments Pools API
+  slug: open-toloka-pools-api
+- collection_type: open
+  name: Toloka Assignments Projects API
+  slug: open-toloka-projects-api
+- collection_type: open
+  name: Toloka Assignments Skills API
+  slug: open-toloka-skills-api
+- collection_type: open
+  name: Toloka Assignments Task Suites API
+  slug: open-toloka-task-suites-api
+- collection_type: open
+  name: Toloka Assignments Tasks API
+  slug: open-toloka-tasks-api
+- collection_type: open
+  name: Toloka Assignments Training API
+  slug: open-toloka-training-api
+- collection_type: open
+  name: Toloka Assignments User Bonuses API
+  slug: open-toloka-user-bonuses-api
+- collection_type: open
+  name: Toloka Assignments User Restrictions API
+  slug: open-toloka-user-restrictions-api
+- collection_type: open
+  name: Toloka Assignments Webhook Subscriptions API
+  slug: open-toloka-webhook-subscriptions-api
 - collection_type: open
   name: Toloka API
   slug: open-toloka
@@ -149,7 +188,7 @@ plans:
 - name: Toloka Plans Pricing
   plan_count: 2
   slug: toloka-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Toloka Rate Limits
@@ -174,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

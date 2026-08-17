@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,12 +63,39 @@ apis:
 - description: Access time-series data streams for activities and segments, including GPS coordinates, heart rate, power, cadence, speed, and altitude.
   name: Strava Streams API
   slug: strava-streams-api
-artifact_total: 28
+artifact_total: 37
 asyncapis:
 - description: 'AsyncAPI definition for Strava''s Webhook Events API. Strava uses a push subscription model: an application creates a single push subscription with a callback URL and an application-defined verify_toke'
   name: Strava Webhooks API
   slug: strava-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Strava Activities API
+  slug: open-strava-activities-api
+- collection_type: open
+  name: Strava Activities Athletes API
+  slug: open-strava-athletes-api
+- collection_type: open
+  name: Strava Activities Clubs API
+  slug: open-strava-clubs-api
+- collection_type: open
+  name: Strava Activities Gear API
+  slug: open-strava-gear-api
+- collection_type: open
+  name: Strava Activities Routes API
+  slug: open-strava-routes-api
+- collection_type: open
+  name: Strava Activities Segment Efforts API
+  slug: open-strava-segment-efforts-api
+- collection_type: open
+  name: Strava Activities Segments API
+  slug: open-strava-segments-api
+- collection_type: open
+  name: Strava Activities Streams API
+  slug: open-strava-streams-api
 - collection_type: open
   name: Strava API
   slug: open-strava
@@ -211,7 +238,7 @@ plans:
 - name: Strava Plans Pricing
   plan_count: 3
   slug: strava-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Strava Rate Limits
@@ -266,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/screenshots/strava-2026-06-20T194613.png
 security:

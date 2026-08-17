@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -73,11 +73,42 @@ arazzos:
 - description: Mint an OAuth client-credentials token, verify it, then send an event-triggered message to employees.
   name: Moveworks — authenticate and notify employees for an event
   slug: moveworks-notify-employees
-artifact_total: 18
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Moveworks Webhooks
   slug: moveworks-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: (Beta) Conversations authentication API
+  slug: open-moveworks-authentication-api
+- collection_type: open
+  name: (Beta) authentication conversations API
+  slug: open-moveworks-conversations-api
+- collection_type: open
+  name: (Beta) Conversations authentication  API
+  slug: open-moveworks-default-api
+- collection_type: open
+  name: (Beta) Conversations authentication deprecated API
+  slug: open-moveworks-deprecated-api
+- collection_type: open
+  name: (Beta) Conversations authentication events API
+  slug: open-moveworks-events-api
+- collection_type: open
+  name: (Beta) Conversations authentication messages API
+  slug: open-moveworks-messages-api
+- collection_type: open
+  name: (Beta) Conversations authentication responses API
+  slug: open-moveworks-responses-api
+- collection_type: open
+  name: (Beta) Conversations authentication smartForms API
+  slug: open-moveworks-smartforms-api
+- collection_type: open
+  name: (Beta) Conversations authentication webhooks API
+  slug: open-moveworks-webhooks-api
 common:
 - group: company
   title: ''
@@ -282,7 +313,7 @@ overview: 'Moveworks publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Moveworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 39 more developer resources.'
-random_paper: 45
+random_paper: 111
 score:
   band: strong
   composite: 59.1
@@ -306,7 +337,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/screenshots/moveworks-2026-08-07T184356.png
 security:

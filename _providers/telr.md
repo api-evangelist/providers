@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 3
@@ -61,7 +61,7 @@ apis:
 - description: Direct server-to-server card and wallet transactions (remote.json).
   name: Telr Remote API
   slug: telr-remote-api
-artifact_total: 21
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Telr Webhooks
@@ -79,6 +79,21 @@ collections:
 - collection_type: postman
   name: Telr Payment Gateway Agreements Remote API
   slug: postman-telr-remote-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telr Payment Gateway Agreements API
+  slug: open-telr-agreements-api
+- collection_type: open
+  name: Telr Payment Gateway Agreements Hosted Payment Page API
+  slug: open-telr-hosted-payment-page-api
+- collection_type: open
+  name: Telr Payment Gateway Agreements Payments API API
+  slug: open-telr-payments-api-api
+- collection_type: open
+  name: Telr Payment Gateway Agreements Remote API
+  slug: open-telr-remote-api
 common:
 - group: build
   title: ''
@@ -255,7 +270,7 @@ plans:
 - name: Telr Plans Pricing
   plan_count: 7
   slug: telr-plans-pricing
-random_paper: 79
+random_paper: 141
 rate_limits:
 - limit_count: 4
   name: Telr Rate Limits
@@ -289,7 +304,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

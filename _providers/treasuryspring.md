@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -77,11 +77,54 @@ apis:
 - description: Integrate with webhooks to receive notifications
   name: TreasurySpring Webhooks API
   slug: treasuryspring-webhooks-api
-artifact_total: 18
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Treasuryspring Events Webhooks
   slug: treasuryspring-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TreasurySpring Public Calendar API
+  slug: open-treasuryspring-calendar-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Cells API
+  slug: open-treasuryspring-cells-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Entities API
+  slug: open-treasuryspring-entities-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Event Checkpoints API
+  slug: open-treasuryspring-event-checkpoints-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Events API
+  slug: open-treasuryspring-events-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Healthcheck API
+  slug: open-treasuryspring-healthcheck-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Holdings API
+  slug: open-treasuryspring-holdings-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Indications API
+  slug: open-treasuryspring-indications-api
+- collection_type: open
+  name: TreasurySpring Public Calendar OAuth API
+  slug: open-treasuryspring-oauth-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Obligor Exposure API
+  slug: open-treasuryspring-obligor-exposure-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Subscriptions API
+  slug: open-treasuryspring-subscriptions-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Tasks API
+  slug: open-treasuryspring-tasks-api
+- collection_type: open
+  name: TreasurySpring Public Calendar Webhooks API
+  slug: open-treasuryspring-webhooks-api
 common:
 - group: docs
   title: ''
@@ -210,7 +253,7 @@ overview: 'TreasurySpring publishes 13 APIs on the [APIs.io](https://apis.io/) n
 
 
   TreasurySpring''s developer surface includes authentication, sandbox, getting-started guide, engineering blog, signup flow, support, and 21 more developer resources.'
-random_paper: 114
+random_paper: 64
 score:
   band: developing
   composite: 46.8
@@ -240,7 +283,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

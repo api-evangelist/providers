@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,8 +60,26 @@ apis:
 - description: The Users.get API from Whimsical — 1 operation(s) for users.get.
   name: Whimsical Users.get API
   slug: whimsical-users-get-api
-artifact_total: 16
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Whimsical API (Beta) Comments.list API
+  slug: open-whimsical-comments-list-api
+- collection_type: open
+  name: Whimsical API (Beta) Comments.list Files.get API
+  slug: open-whimsical-files-get-api
+- collection_type: open
+  name: Whimsical API (Beta) Comments.list Files.list API
+  slug: open-whimsical-files-list-api
+- collection_type: open
+  name: Whimsical API (Beta) Comments.list Teams.list API
+  slug: open-whimsical-teams-list-api
+- collection_type: open
+  name: Whimsical API (Beta) Comments.list Users.get API
+  slug: open-whimsical-users-get-api
 - collection_type: open
   name: Whimsical API (Beta)
   slug: open-whimsical
@@ -138,7 +156,7 @@ plans:
 - name: Whimsical Plans Pricing
   plan_count: 1
   slug: whimsical-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Whimsical Rate Limits
@@ -168,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/screenshots/whimsical-2026-06-20T201434.png
 security:

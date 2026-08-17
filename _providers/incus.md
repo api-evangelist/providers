@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -104,8 +104,77 @@ apis:
 - description: The warnings API from Incus — 3 operation(s) for warnings.
   name: Incus warnings API
   slug: incus-warnings-api
-artifact_total: 29
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Incus external REST certificates API
+  slug: open-incus-certificates-api
+- collection_type: open
+  name: Incus external REST certificates cluster API
+  slug: open-incus-cluster-api
+- collection_type: open
+  name: Incus external REST certificates cluster-groups API
+  slug: open-incus-cluster-groups-api
+- collection_type: open
+  name: Incus external REST certificates images API
+  slug: open-incus-images-api
+- collection_type: open
+  name: Incus external REST certificates instances API
+  slug: open-incus-instances-api
+- collection_type: open
+  name: Incus external REST certificates Metadata API
+  slug: open-incus-metadata-api
+- collection_type: open
+  name: Incus external REST certificates metrics API
+  slug: open-incus-metrics-api
+- collection_type: open
+  name: Incus external REST certificates network-acls API
+  slug: open-incus-network-acls-api
+- collection_type: open
+  name: Incus external REST certificates network-address-sets API
+  slug: open-incus-network-address-sets-api
+- collection_type: open
+  name: Incus external REST certificates network-allocations API
+  slug: open-incus-network-allocations-api
+- collection_type: open
+  name: Incus external REST certificates network-forwards API
+  slug: open-incus-network-forwards-api
+- collection_type: open
+  name: Incus external REST certificates network-integrations API
+  slug: open-incus-network-integrations-api
+- collection_type: open
+  name: Incus external REST certificates network-load-balancers API
+  slug: open-incus-network-load-balancers-api
+- collection_type: open
+  name: Incus external REST certificates network-peers API
+  slug: open-incus-network-peers-api
+- collection_type: open
+  name: Incus external REST certificates network-zones API
+  slug: open-incus-network-zones-api
+- collection_type: open
+  name: Incus external REST certificates networks API
+  slug: open-incus-networks-api
+- collection_type: open
+  name: Incus external REST certificates operations API
+  slug: open-incus-operations-api
+- collection_type: open
+  name: Incus external REST certificates profiles API
+  slug: open-incus-profiles-api
+- collection_type: open
+  name: Incus external REST certificates projects API
+  slug: open-incus-projects-api
+- collection_type: open
+  name: Incus external REST certificates server API
+  slug: open-incus-server-api
+- collection_type: open
+  name: Incus external REST certificates storage API
+  slug: open-incus-storage-api
+- collection_type: open
+  name: Incus external REST certificates warnings API
+  slug: open-incus-warnings-api
 - collection_type: open
   name: Incus external REST API
   slug: open-incus
@@ -189,7 +258,7 @@ plans:
 - name: Incus Plans Pricing
   plan_count: 3
   slug: incus-plans-pricing
-random_paper: 66
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Incus Rate Limits
@@ -223,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incus/refs/heads/main/screenshots/incus-2026-06-20T183310.png
 security:

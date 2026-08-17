@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: Banking Product endpoints
   name: Gateway Bank Banking Products API
   slug: gateway-bank-banking-products-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-gateway-bank-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-gateway-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-gateway-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-gateway-bank-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-gateway-bank-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-gateway-bank-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-gateway-bank-banking-products-api
 common:
 - group: agent
   title: ''
@@ -158,7 +183,7 @@ overview: 'Gateway Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Gateway Bank''s developer surface includes authentication, documentation, and 18 more developer resources.'
-random_paper: 11
+random_paper: 19
 scopes:
 - name: Gateway Bank Scopes
   scope_count: 5
@@ -193,7 +218,7 @@ score:
     regime_id: banking_open_finance
     score: 54.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/screenshots/gateway-bank-2026-07-21T114722.png
 security:

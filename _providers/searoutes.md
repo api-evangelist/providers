@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Historical, real-time, and forecasted weather.
   name: Searoutes Weather API
   slug: searoutes-weather-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Searoutes CO2 Emissions API
+  slug: open-searoutes-co2-emissions-api
+- collection_type: open
+  name: Searoutes CO2 Emissions Geocoding API
+  slug: open-searoutes-geocoding-api
+- collection_type: open
+  name: Searoutes CO2 Emissions Ocean Routing API
+  slug: open-searoutes-ocean-routing-api
+- collection_type: open
+  name: Searoutes CO2 Emissions Search API
+  slug: open-searoutes-search-api
+- collection_type: open
+  name: Searoutes CO2 Emissions Vessel API
+  slug: open-searoutes-vessel-api
+- collection_type: open
+  name: Searoutes CO2 Emissions Weather API
+  slug: open-searoutes-weather-api
 - collection_type: open
   name: Searoutes API
   slug: open-searoutes
@@ -127,7 +148,7 @@ plans:
 - name: Searoutes Plans Pricing
   plan_count: 5
   slug: searoutes-plans-pricing
-random_paper: 27
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Searoutes Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

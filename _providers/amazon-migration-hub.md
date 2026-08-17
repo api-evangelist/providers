@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
 - description: 'The #X Amz Target=AWSMigrationHub.PutResourceAttributes API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.putresourceattributes.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.PutResourceAttributes API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-putresourceattributes-api
-artifact_total: 288
+artifact_total: 306
 collections:
 - collection_type: postman
   name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact API'
@@ -143,6 +143,60 @@ collections:
 - collection_type: postman
   name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.PutResourceAttributes API'
   slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-putresourceattributes-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-associatecreatedartifact-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateDiscoveredResource API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-associatediscoveredresource-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.CreateProgressUpdateStream API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-createprogressupdatestream-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DeleteProgressUpdateStream API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-deleteprogressupdatestream-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DescribeApplicationState API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-describeapplicationstate-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DescribeMigrationTask API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-describemigrationtask-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DisassociateCreatedArtifact API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-disassociatecreatedartifact-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DisassociateDiscoveredResource API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-disassociatediscoveredresource-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ImportMigrationTask API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-importmigrationtask-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListApplicationStates API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-listapplicationstates-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListCreatedArtifacts API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-listcreatedartifacts-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListDiscoveredResources API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-listdiscoveredresources-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListMigrationTasks API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-listmigrationtasks-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListProgressUpdateStreams API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-listprogressupdatestreams-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.NotifyApplicationState API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-notifyapplicationstate-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.NotifyMigrationTaskState API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-notifymigrationtaskstate-api
+- collection_type: open
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.PutResourceAttributes API'
+  slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-putresourceattributes-api
 common:
 - group: build
   title: ''
@@ -964,7 +1018,7 @@ plans:
 - name: Amazon Migration Hub Plans Pricing
   plan_count: 3
   slug: amazon-migration-hub-plans-pricing
-random_paper: 105
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Amazon Migration Hub Rate Limits
@@ -1006,7 +1060,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/screenshots/amazon-migration-hub-2026-06-20T171744.png
 security:

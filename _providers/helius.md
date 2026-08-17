@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -89,12 +89,54 @@ apis:
 - description: Configure real-time blockchain notifications for any Solana address, transaction type, or on-chain event with customizable delivery options.
   name: Helius Webhooks API
   slug: helius-webhooks-api
-artifact_total: 30
+artifact_total: 44
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Helius''s real-time WebSocket interfaces for Solana. Coverage: * Standard Solana JSON-RPC PubSub subscriptions exposed by Helius RPC. * Helius enhanced subscriptions (transa'
   name: Helius WebSocket APIs
   slug: helius-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Helius API Catalog Addresses API
+  slug: open-helius-addresses-api
+- collection_type: open
+  name: Helius API Catalog Addresses Admin API
+  slug: open-helius-admin-api
+- collection_type: open
+  name: Helius API Catalog Addresses Balances API
+  slug: open-helius-balances-api
+- collection_type: open
+  name: Helius API Catalog Addresses Funding API
+  slug: open-helius-funding-api
+- collection_type: open
+  name: Addresses Helius API Catalog API
+  slug: open-helius-helius-api-catalog-api
+- collection_type: open
+  name: Helius API Catalog Addresses History API
+  slug: open-helius-history-api
+- collection_type: open
+  name: Helius API Catalog Addresses Identity API
+  slug: open-helius-identity-api
+- collection_type: open
+  name: Helius API Catalog Addresses NFTs API
+  slug: open-helius-nfts-api
+- collection_type: open
+  name: Helius API Catalog Addresses Sender API
+  slug: open-helius-sender-api
+- collection_type: open
+  name: Helius API Catalog Addresses Tokens API
+  slug: open-helius-tokens-api
+- collection_type: open
+  name: Helius API Catalog Addresses Transactions API
+  slug: open-helius-transactions-api
+- collection_type: open
+  name: Helius API Catalog Addresses Transfers API
+  slug: open-helius-transfers-api
+- collection_type: open
+  name: Helius API Catalog Addresses Webhooks API
+  slug: open-helius-webhooks-api
 - collection_type: open
   name: Helius API Catalog
   slug: open-helius
@@ -166,7 +208,7 @@ plans:
 - name: Helius Plans Pricing
   plan_count: 5
   slug: helius-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Helius Rate Limits
@@ -200,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/screenshots/helius-2026-06-20T182630.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: List supported languages and their ISO codes.
   name: Calendarific Languages API
   slug: calendarific-languages-api
-artifact_total: 44
+artifact_total: 48
 collections:
 - collection_type: postman
   name: Calendarific Holiday Countries API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Calendarific Holiday Countries Languages API
   slug: postman-calendarific-languages-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Calendarific Holiday Countries API
+  slug: open-calendarific-countries-api
+- collection_type: open
+  name: Calendarific Holiday Countries Holidays API
+  slug: open-calendarific-holidays-api
+- collection_type: open
+  name: Calendarific Holiday Countries Languages API
+  slug: open-calendarific-languages-api
 - collection_type: open
   name: Calendarific Holiday API
   slug: open-calendarific
@@ -253,7 +265,7 @@ plans:
 - name: Calendarific Plans Pricing
   plan_count: 4
   slug: calendarific-plans-pricing
-random_paper: 37
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Calendarific Rate Limits
@@ -295,7 +307,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/screenshots/calendarific-2026-06-20T173842.png
 security:

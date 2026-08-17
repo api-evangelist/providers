@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: RESTful API (v2.0.0) for Arctic Wolf partner applications managing multiple customer tenants — create a partner application, generate an OAuth client-credentials bearer token, run health checks, and i
@@ -147,7 +147,7 @@ overview: 'Arctic Wolf Networks publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   Arctic Wolf Networks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 13
+random_paper: 116
 scopes:
 - name: Arctic Wolf Networks Scopes
   scope_count: 1
@@ -168,7 +168,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/screenshots/arctic-wolf-networks-2026-07-25T201104.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -80,11 +80,57 @@ apis:
 - description: All endpoint related to the Watchlist model
   name: Sign In Enterprise Watchlists API
   slug: sign-in-enterprise-watchlists-api
-artifact_total: 21
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Sign In Enterprise Webhooks
   slug: sign-in-enterprise-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs API
+  slug: open-sign-in-enterprise-auditlogs-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Batches API
+  slug: open-sign-in-enterprise-batches-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Capacities API
+  slug: open-sign-in-enterprise-capacities-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs EmailTemplates API
+  slug: open-sign-in-enterprise-emailtemplates-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs GroupVisits API
+  slug: open-sign-in-enterprise-groupvisits-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Hosts API
+  slug: open-sign-in-enterprise-hosts-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Invites API
+  slug: open-sign-in-enterprise-invites-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Locations API
+  slug: open-sign-in-enterprise-locations-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Packages API
+  slug: open-sign-in-enterprise-packages-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Parking API
+  slug: open-sign-in-enterprise-parking-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Registrations API
+  slug: open-sign-in-enterprise-registrations-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Signins API
+  slug: open-sign-in-enterprise-signins-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Users API
+  slug: open-sign-in-enterprise-users-api
+- collection_type: open
+  name: Sign In Solutions VMS AuditLogs Watchlists API
+  slug: open-sign-in-enterprise-watchlists-api
 common:
 - group: other
   title: ''
@@ -229,7 +275,7 @@ overview: 'Sign In Enterprise publishes 14 APIs on the [APIs.io](https://apis.io
 
 
   Sign In Enterprise''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 25 more developer resources.'
-random_paper: 27
+random_paper: 39
 scopes:
 - name: Sign In Enterprise Scopes
   scope_count: 48
@@ -258,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

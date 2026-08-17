@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -56,7 +56,29 @@ apis:
 - description: Operations for configuring Audit Manager settings
   name: Amazon Audit Manager Settings API
   slug: amazon-audit-manager-settings-api
-artifact_total: 226
+artifact_total: 233
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Audit Manager Assessments API
+  slug: open-amazon-audit-manager-assessments-api
+- collection_type: open
+  name: Amazon Audit Manager Assessments Controls API
+  slug: open-amazon-audit-manager-controls-api
+- collection_type: open
+  name: Amazon Audit Manager Assessments Evidence API
+  slug: open-amazon-audit-manager-evidence-api
+- collection_type: open
+  name: Amazon Audit Manager Assessments Frameworks API
+  slug: open-amazon-audit-manager-frameworks-api
+- collection_type: open
+  name: Amazon Audit Manager Assessments Reports API
+  slug: open-amazon-audit-manager-reports-api
+- collection_type: open
+  name: Amazon Audit Manager Assessments Settings API
+  slug: open-amazon-audit-manager-settings-api
 common:
 - group: agent
   title: ''
@@ -697,7 +719,7 @@ overview: 'Amazon Audit Manager publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Amazon Audit Manager''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 82
+random_paper: 65
 rules:
 - name: Amazon Audit Manager API Rules
   rule_count: 4
@@ -737,7 +759,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/screenshots/amazon-audit-manager-2026-07-25T195931.png
 security:

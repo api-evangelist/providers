@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Ticket holders and ticket types.
   name: Accelevents Tickets API
   slug: accelevents-tickets-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accelevents Open Attendees API
+  slug: open-accelevents-attendees-api
+- collection_type: open
+  name: Accelevents Open Attendees Events API
+  slug: open-accelevents-events-api
+- collection_type: open
+  name: Accelevents Open Attendees Orders API
+  slug: open-accelevents-orders-api
+- collection_type: open
+  name: Accelevents Open Attendees Sessions API
+  slug: open-accelevents-sessions-api
+- collection_type: open
+  name: Accelevents Open Attendees Tickets API
+  slug: open-accelevents-tickets-api
 - collection_type: open
   name: Accelevents Open API
   slug: open-accelevents
@@ -124,7 +142,7 @@ plans:
 - name: Accelevents Plans Pricing
   plan_count: 4
   slug: accelevents-plans-pricing
-random_paper: 85
+random_paper: 122
 rate_limits:
 - limit_count: 4
   name: Accelevents Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/screenshots/accelevents-2026-07-25T181429.png
 security:

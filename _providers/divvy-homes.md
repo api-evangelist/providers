@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Divvy Homes
 nav: Providers
 network: true
 overview: Divvy Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Proptech, Rent-to-Own, and Home Ownership.
-random_paper: 67
+random_paper: 104
 score:
   band: minimal
   composite: 10.1
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/divvy-homes/refs/heads/main/screenshots/divvy-homes-2026-07-25T212132.png
 security:

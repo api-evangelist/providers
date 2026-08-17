@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Holdings and positions.
   name: Groww Portfolio API
   slug: groww-portfolio-api
-artifact_total: 19
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Groww Trading Authentication API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Groww Trading Authentication Portfolio API
   slug: postman-groww-portfolio-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Groww Trading Authentication API
+  slug: open-groww-authentication-api
+- collection_type: open
+  name: Groww Trading Authentication Historical Data API
+  slug: open-groww-historical-data-api
+- collection_type: open
+  name: Groww Trading Authentication Live Data API
+  slug: open-groww-live-data-api
+- collection_type: open
+  name: Groww Trading Authentication Margin API
+  slug: open-groww-margin-api
+- collection_type: open
+  name: Groww Trading Authentication Orders API
+  slug: open-groww-orders-api
+- collection_type: open
+  name: Groww Trading Authentication Portfolio API
+  slug: open-groww-portfolio-api
 common:
 - group: build
   title: ''
@@ -226,7 +247,7 @@ plans:
 - name: Groww Plans
   plan_count: 1
   slug: groww-plans
-random_paper: 86
+random_paper: 119
 rate_limits:
 - limit_count: 7
   name: Groww Rate Limits
@@ -265,7 +286,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png
 security:

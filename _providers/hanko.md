@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -105,7 +105,77 @@ apis:
 - description: The .well-known API from Hanko — 2 operation(s) for .well-known.
   name: Hanko .well-known API
   slug: hanko-well-known-api
-artifact_total: 36
+artifact_total: 59
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hanko Admin Audit Logs API
+  slug: open-hanko-audit-logs-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Credentials API
+  slug: open-hanko-credentials-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Email Management API
+  slug: open-hanko-email-management-api
+- collection_type: open
+  name: Hanko Admin Audit Logs flow API
+  slug: open-hanko-flow-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Login API
+  slug: open-hanko-login-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Metrics API
+  slug: open-hanko-metrics-api
+- collection_type: open
+  name: Hanko Admin Audit Logs mfa API
+  slug: open-hanko-mfa-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Passcode API
+  slug: open-hanko-passcode-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Password API
+  slug: open-hanko-password-api
+- collection_type: open
+  name: Hanko Admin Audit Logs SAML API
+  slug: open-hanko-saml-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Session Management API
+  slug: open-hanko-session-management-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Sessions API
+  slug: open-hanko-sessions-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Status API
+  slug: open-hanko-status-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Third Party API
+  slug: open-hanko-third-party-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Token API
+  slug: open-hanko-token-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Transaction API
+  slug: open-hanko-transaction-api
+- collection_type: open
+  name: Hanko Admin Audit Logs User Management API
+  slug: open-hanko-user-management-api
+- collection_type: open
+  name: Hanko Admin Audit Logs User Metadata Management API
+  slug: open-hanko-user-metadata-management-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Users API
+  slug: open-hanko-users-api
+- collection_type: open
+  name: Hanko Admin Audit Logs webauthn API
+  slug: open-hanko-webauthn-api
+- collection_type: open
+  name: Hanko Admin Audit Logs Webhooks API
+  slug: open-hanko-webhooks-api
+- collection_type: open
+  name: Hanko Admin Audit Logs .well-known API
+  slug: open-hanko-well-known-api
 common:
 - group: agent
   title: ''
@@ -219,7 +289,7 @@ plans:
 - name: Hanko Plans Pricing
   plan_count: 4
   slug: hanko-plans-pricing
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Hanko Rate Limits
@@ -253,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/screenshots/hanko-2026-06-20T182504.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -156,7 +156,7 @@ apis:
 - description: The Users API from Cumulocity — 2 operation(s) for users.
   name: Cumulocity Users API
   slug: cumulocity-users-api
-artifact_total: 148
+artifact_total: 186
 asyncapis:
 - description: Constrained-device MQTT broker fronting the Cumulocity REST API with a CSV-based SmartREST 2.0 payload format that saves up to 80% of mobile traffic versus JSON. Supports static templates for common o
   name: Cumulocity MQTT and SmartREST API
@@ -280,14 +280,56 @@ collections:
   name: Cumulocity Alarm Alarms Users API
   slug: postman-cumulocity-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Cumulocity Alarm API
   slug: open-cumulocity-alarm-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms API
+  slug: open-cumulocity-alarms-api
 - collection_type: open
   name: Cumulocity Application API
   slug: open-cumulocity-application-api
 - collection_type: open
+  name: Cumulocity Alarm Alarms Application Binaries API
+  slug: open-cumulocity-application-binaries-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Applications API
+  slug: open-cumulocity-applications-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Asset Instances API
+  slug: open-cumulocity-asset-instances-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Asset Models API
+  slug: open-cumulocity-asset-models-api
+- collection_type: open
   name: Cumulocity Audit API
   slug: open-cumulocity-audit-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Audit Records API
+  slug: open-cumulocity-audit-records-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Bayeux Handshake API
+  slug: open-cumulocity-bayeux-handshake-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Binaries API
+  slug: open-cumulocity-binaries-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Bootstrap Users API
+  slug: open-cumulocity-bootstrap-users-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Bulk Operations API
+  slug: open-cumulocity-bulk-operations-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Child References API
+  slug: open-cumulocity-child-references-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Cloud Sync API
+  slug: open-cumulocity-cloud-sync-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Current User API
+  slug: open-cumulocity-current-user-api
 - collection_type: open
   name: Cumulocity DataHub API
   slug: open-cumulocity-datahub-api
@@ -298,6 +340,9 @@ collections:
   name: Cumulocity Device Control API
   slug: open-cumulocity-device-control-api
 - collection_type: open
+  name: Cumulocity Alarm Alarms Device Credentials API
+  slug: open-cumulocity-device-credentials-api
+- collection_type: open
   name: Cumulocity Digital Twin Manager API
   slug: open-cumulocity-dtm-api
 - collection_type: open
@@ -307,17 +352,50 @@ collections:
   name: Cumulocity Event API
   slug: open-cumulocity-event-api
 - collection_type: open
+  name: Cumulocity Alarm Alarms Event Binaries API
+  slug: open-cumulocity-event-binaries-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Events API
+  slug: open-cumulocity-events-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms External IDs API
+  slug: open-cumulocity-external-ids-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Groups API
+  slug: open-cumulocity-groups-api
+- collection_type: open
   name: Cumulocity Identity API
   slug: open-cumulocity-identity-api
 - collection_type: open
   name: Cumulocity Inventory API
   slug: open-cumulocity-inventory-api
 - collection_type: open
+  name: Cumulocity Alarm Alarms Managed Objects API
+  slug: open-cumulocity-managed-objects-api
+- collection_type: open
   name: Cumulocity Measurement API
   slug: open-cumulocity-measurement-api
 - collection_type: open
+  name: Cumulocity Alarm Alarms Measurements API
+  slug: open-cumulocity-measurements-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms New Device Requests API
+  slug: open-cumulocity-new-device-requests-api
+- collection_type: open
   name: Cumulocity Notification 2.0 API
   slug: open-cumulocity-notification2-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Offload Configurations API
+  slug: open-cumulocity-offload-configurations-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Offload Jobs API
+  slug: open-cumulocity-offload-jobs-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Operations API
+  slug: open-cumulocity-operations-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Queries API
+  slug: open-cumulocity-queries-api
 - collection_type: open
   name: Cumulocity Real-Time Notifications API
   slug: open-cumulocity-real-time-api
@@ -325,11 +403,47 @@ collections:
   name: Cumulocity Retention Rules API
   slug: open-cumulocity-retention-api
 - collection_type: open
+  name: Cumulocity Alarm Alarms Retention Rules API
+  slug: open-cumulocity-retention-rules-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Roles API
+  slug: open-cumulocity-roles-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Series API
+  slug: open-cumulocity-series-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Software Updates API
+  slug: open-cumulocity-software-updates-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Subscriptions API
+  slug: open-cumulocity-subscriptions-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Supported Measurements API
+  slug: open-cumulocity-supported-measurements-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms System API
+  slug: open-cumulocity-system-api
+- collection_type: open
   name: Cumulocity Tenant API
   slug: open-cumulocity-tenant-api
 - collection_type: open
+  name: Cumulocity Alarm Alarms Tenant Options API
+  slug: open-cumulocity-tenant-options-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Tenant Statistics API
+  slug: open-cumulocity-tenant-statistics-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Tenants API
+  slug: open-cumulocity-tenants-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Tokens API
+  slug: open-cumulocity-tokens-api
+- collection_type: open
   name: Cumulocity User API
   slug: open-cumulocity-user-api
+- collection_type: open
+  name: Cumulocity Alarm Alarms Users API
+  slug: open-cumulocity-users-api
 common:
 - group: build
   title: ''
@@ -705,7 +819,7 @@ plans:
 - name: Cumulocity Plans Pricing
   plan_count: 6
   slug: cumulocity-plans-pricing
-random_paper: 22
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Cumulocity Rate Limits
@@ -755,7 +869,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulocity/refs/heads/main/screenshots/cumulocity-2026-06-20T175331.png
 security:

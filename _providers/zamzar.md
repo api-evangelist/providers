@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,7 +58,29 @@ apis:
 - description: Get started with the Zamzar API
   name: Zamzar Welcome API
   slug: zamzar-welcome-api
-artifact_total: 25
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zamzar Account API
+  slug: open-zamzar-account-api
+- collection_type: open
+  name: Zamzar Account Files API
+  slug: open-zamzar-files-api
+- collection_type: open
+  name: Zamzar Account Formats API
+  slug: open-zamzar-formats-api
+- collection_type: open
+  name: Zamzar Account Imports API
+  slug: open-zamzar-imports-api
+- collection_type: open
+  name: Zamzar Account Jobs API
+  slug: open-zamzar-jobs-api
+- collection_type: open
+  name: Zamzar Account Welcome API
+  slug: open-zamzar-welcome-api
 common:
 - group: agent
   title: ''
@@ -179,7 +201,7 @@ plans:
 - name: Zamzar Plans Pricing
   plan_count: 5
   slug: zamzar-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Zamzar Rate Limits
@@ -213,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/screenshots/zamzar-2026-06-20T201800.png
 security:

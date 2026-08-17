@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ arazzos:
 - description: Trigger a dbt Cloud job run, poll the run until it succeeds, then list its artifacts.
   name: dbt Cloud Trigger Run and Poll to Completion
   slug: dbt-trigger-run-and-poll-workflow
-artifact_total: 39
+artifact_total: 47
 collections:
 - collection_type: postman
   name: dbt Cloud Administrative API
@@ -112,6 +112,12 @@ collections:
   name: dbt Cloud Semantic Layer API
   slug: postman-dbt-cloud-semantic-layer-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dbt Cloud Administrative Accounts API
+  slug: open-dbt-accounts-api
+- collection_type: open
   name: dbt Cloud Administrative API
   slug: open-dbt-cloud-administrative-api
 - collection_type: open
@@ -120,6 +126,24 @@ collections:
 - collection_type: open
   name: dbt Cloud Semantic Layer API
   slug: open-dbt-cloud-semantic-layer-api
+- collection_type: open
+  name: dbt Cloud Administrative Accounts Environments API
+  slug: open-dbt-environments-api
+- collection_type: open
+  name: dbt Cloud Administrative Accounts Jobs API
+  slug: open-dbt-jobs-api
+- collection_type: open
+  name: dbt Cloud Administrative Accounts Metadata API
+  slug: open-dbt-metadata-api
+- collection_type: open
+  name: dbt Cloud Administrative Accounts Metrics API
+  slug: open-dbt-metrics-api
+- collection_type: open
+  name: dbt Cloud Administrative Accounts Projects API
+  slug: open-dbt-projects-api
+- collection_type: open
+  name: dbt Cloud Administrative Accounts Runs API
+  slug: open-dbt-runs-api
 common:
 - group: agent
   title: ''
@@ -280,7 +304,7 @@ plans:
 - name: Dbt Plans Pricing
   plan_count: 3
   slug: dbt-plans-pricing
-random_paper: 74
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Dbt Rate Limits
@@ -322,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/screenshots/dbt-2026-06-20T175739.png
 security:

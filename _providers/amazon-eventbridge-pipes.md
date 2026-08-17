@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -64,7 +64,7 @@ arazzos:
 - description: Resolve a pipe's ARN by name, apply tags to it, then list the resource tags to verify they were stored.
   name: EventBridge Pipes Tag Pipe and Verify
   slug: amazon-eventbridge-pipes-tag-pipe-and-verify-workflow
-artifact_total: 510
+artifact_total: 513
 collections:
 - collection_type: postman
   name: Amazon EventBridge Pipes API
@@ -75,6 +75,15 @@ collections:
 - collection_type: postman
   name: Amazon EventBridge Pipes
   slug: postman-amazon-eventbridge-pipes
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EventBridge Pipes API
+  slug: open-amazon-eventbridge-pipes-pipes-api
+- collection_type: open
+  name: Amazon EventBridge Pipes Tags API
+  slug: open-amazon-eventbridge-pipes-tags-api
 - collection_type: open
   name: Amazon EventBridge Pipes
   slug: open-amazon-eventbridge-pipes
@@ -1687,7 +1696,7 @@ plans:
 - name: Amazon Eventbridge Pipes Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-pipes-plans-pricing
-random_paper: 48
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Pipes Rate Limits
@@ -1729,7 +1738,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/screenshots/amazon-eventbridge-pipes-2026-06-20T171645.png
 security:

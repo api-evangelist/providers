@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,14 @@ apis:
 - description: The extract API from Runautomat — 1 operation(s) for extract.
   name: Runautomat extract API
   slug: runautomat-extract-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: extract API
+  slug: open-runautomat-extract-api
 common:
 - group: other
   title: ''
@@ -160,7 +167,7 @@ overview: 'Runautomat publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Runautomat''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 24
+random_paper: 61
 score:
   band: developing
   composite: 49.5
@@ -184,7 +191,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

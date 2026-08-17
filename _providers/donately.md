@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Recurring donation schedules.
   name: Donately Subscriptions API
   slug: donately-subscriptions-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Donately Accounts API
+  slug: open-donately-accounts-api
+- collection_type: open
+  name: Donately Accounts Campaigns API
+  slug: open-donately-campaigns-api
+- collection_type: open
+  name: Donately Accounts Donations API
+  slug: open-donately-donations-api
+- collection_type: open
+  name: Donately Accounts Fundraisers API
+  slug: open-donately-fundraisers-api
+- collection_type: open
+  name: Donately Accounts People API
+  slug: open-donately-people-api
+- collection_type: open
+  name: Donately Accounts Subscriptions API
+  slug: open-donately-subscriptions-api
 - collection_type: open
   name: Donately API
   slug: open-donately
@@ -123,7 +144,7 @@ plans:
 - name: Donately Plans Pricing
   plan_count: 3
   slug: donately-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 2
   name: Donately Rate Limits
@@ -154,7 +175,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/screenshots/donately-2026-07-25T212248.png
 security:

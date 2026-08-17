@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 27
 apis:
 - description: The Company API from QGenda — 1 operation(s) for company.
@@ -112,7 +112,92 @@ apis:
 - description: The Workflows API from QGenda — 5 operation(s) for workflows.
   name: QGenda Workflows API
   slug: qgenda-workflows-api
-artifact_total: 31
+artifact_total: 59
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QGenda REST Company API
+  slug: open-qgenda-company-api
+- collection_type: open
+  name: QGenda REST Company Contacts API
+  slug: open-qgenda-contacts-api
+- collection_type: open
+  name: QGenda REST Company Corporate Entities API
+  slug: open-qgenda-corporate-entities-api
+- collection_type: open
+  name: QGenda REST Company Credit Allocation API
+  slug: open-qgenda-credit-allocation-api
+- collection_type: open
+  name: QGenda REST Company Daily API
+  slug: open-qgenda-daily-api
+- collection_type: open
+  name: QGenda REST Company Daily Case API
+  slug: open-qgenda-daily-case-api
+- collection_type: open
+  name: QGenda REST Company Integration API
+  slug: open-qgenda-integration-api
+- collection_type: open
+  name: QGenda REST Company Location API
+  slug: open-qgenda-location-api
+- collection_type: open
+  name: QGenda REST Company Locations API
+  slug: open-qgenda-locations-api
+- collection_type: open
+  name: QGenda REST Company Login API
+  slug: open-qgenda-login-api
+- collection_type: open
+  name: QGenda REST Company Notification List API
+  slug: open-qgenda-notification-list-api
+- collection_type: open
+  name: QGenda REST Company Organization API
+  slug: open-qgenda-organization-api
+- collection_type: open
+  name: QGenda REST Company Pay Code API
+  slug: open-qgenda-pay-code-api
+- collection_type: open
+  name: QGenda REST Company Pay Pool Template API
+  slug: open-qgenda-pay-pool-template-api
+- collection_type: open
+  name: QGenda REST Company Pay Rate API
+  slug: open-qgenda-pay-rate-api
+- collection_type: open
+  name: QGenda REST Company Profile API
+  slug: open-qgenda-profile-api
+- collection_type: open
+  name: QGenda REST Company Request API
+  slug: open-qgenda-request-api
+- collection_type: open
+  name: QGenda REST Company Request Limit API
+  slug: open-qgenda-request-limit-api
+- collection_type: open
+  name: QGenda REST Company Schedule API
+  slug: open-qgenda-schedule-api
+- collection_type: open
+  name: QGenda REST Company Staff Member API
+  slug: open-qgenda-staff-member-api
+- collection_type: open
+  name: QGenda REST Company Staff Target API
+  slug: open-qgenda-staff-target-api
+- collection_type: open
+  name: QGenda REST Company Support API
+  slug: open-qgenda-support-api
+- collection_type: open
+  name: QGenda REST Company Tags API
+  slug: open-qgenda-tags-api
+- collection_type: open
+  name: QGenda REST Company Task API
+  slug: open-qgenda-task-api
+- collection_type: open
+  name: QGenda REST Company Time Event API
+  slug: open-qgenda-time-event-api
+- collection_type: open
+  name: QGenda REST Company User API
+  slug: open-qgenda-user-api
+- collection_type: open
+  name: QGenda REST Company Workflows API
+  slug: open-qgenda-workflows-api
 common:
 - group: other
   title: ''
@@ -242,7 +327,7 @@ overview: 'QGenda publishes 27 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   QGenda''s developer surface includes documentation, API reference, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 24
+random_paper: 28
 score:
   band: developing
   composite: 48.1
@@ -271,7 +356,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

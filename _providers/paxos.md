@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -167,11 +167,144 @@ apis:
 - description: The TravelRulePublic API from Paxos — 2 operation(s) for travelrulepublic.
   name: Paxos TravelRulePublic API
   slug: paxos-travelrulepublic-api
-artifact_total: 49
+artifact_total: 93
 asyncapis:
 - description: ''
   name: Paxos Webhooks
   slug: paxos-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paxos Account Members API
+  slug: open-paxos-account-members-api
+- collection_type: open
+  name: Paxos Account Members Accounts API
+  slug: open-paxos-accounts-api
+- collection_type: open
+  name: Paxos Account Members Address Verification API
+  slug: open-paxos-address-verification-api
+- collection_type: open
+  name: Paxos Account Members API Credentials API
+  slug: open-paxos-api-credentials-api
+- collection_type: open
+  name: Paxos Account Members Claims API
+  slug: open-paxos-claims-api
+- collection_type: open
+  name: Paxos Account Members Crypto Deposits API
+  slug: open-paxos-crypto-deposits-api
+- collection_type: open
+  name: Paxos Account Members Crypto Withdrawals API
+  slug: open-paxos-crypto-withdrawals-api
+- collection_type: open
+  name: Paxos Account Members Deposit Addresses API
+  slug: open-paxos-deposit-addresses-api
+- collection_type: open
+  name: Paxos Account Members Events API
+  slug: open-paxos-events-api
+- collection_type: open
+  name: Paxos Account Members ExchangePublic API
+  slug: open-paxos-exchangepublic-api
+- collection_type: open
+  name: Paxos Account Members Fees API
+  slug: open-paxos-fees-api
+- collection_type: open
+  name: Paxos Account Members Fiat Transfers API
+  slug: open-paxos-fiat-transfers-api
+- collection_type: open
+  name: Paxos Account Members Identity API
+  slug: open-paxos-identity-api
+- collection_type: open
+  name: Paxos Account Members Identity Controls API
+  slug: open-paxos-identity-controls-api
+- collection_type: open
+  name: Paxos Account Members Identity Documents API
+  slug: open-paxos-identity-documents-api
+- collection_type: open
+  name: Paxos Account Members Institution Members API
+  slug: open-paxos-institution-members-api
+- collection_type: open
+  name: Paxos Account Members Internal Transfers API
+  slug: open-paxos-internal-transfers-api
+- collection_type: open
+  name: Paxos Account Members Issuer Quotes API
+  slug: open-paxos-issuer-quotes-api
+- collection_type: open
+  name: Paxos Account Members Limits API
+  slug: open-paxos-limits-api
+- collection_type: open
+  name: Paxos Account Members Market Data API
+  slug: open-paxos-market-data-api
+- collection_type: open
+  name: Paxos Account Members Monitoring Addresses API
+  slug: open-paxos-monitoring-addresses-api
+- collection_type: open
+  name: Paxos Account Members Orchestration Rules API
+  slug: open-paxos-orchestration-rules-api
+- collection_type: open
+  name: Paxos Account Members Orchestrations API
+  slug: open-paxos-orchestrations-api
+- collection_type: open
+  name: Paxos Account Members Orders API
+  slug: open-paxos-orders-api
+- collection_type: open
+  name: Paxos Account Members Paxos Transfers API
+  slug: open-paxos-paxos-transfers-api
+- collection_type: open
+  name: Paxos Account Members Payments API
+  slug: open-paxos-payments-api
+- collection_type: open
+  name: Paxos Account Members Payout Groups API
+  slug: open-paxos-payout-groups-api
+- collection_type: open
+  name: Paxos Account Members Pricing API
+  slug: open-paxos-pricing-api
+- collection_type: open
+  name: Paxos Account Members Profiles API
+  slug: open-paxos-profiles-api
+- collection_type: open
+  name: Paxos Account Members Quote Executions API
+  slug: open-paxos-quote-executions-api
+- collection_type: open
+  name: Paxos Account Members Quotes API
+  slug: open-paxos-quotes-api
+- collection_type: open
+  name: Paxos Account Members Reward Addresses API
+  slug: open-paxos-reward-addresses-api
+- collection_type: open
+  name: Paxos Account Members Rewards API
+  slug: open-paxos-rewards-api
+- collection_type: open
+  name: Paxos Account Members Rewards Statements API
+  slug: open-paxos-rewards-statements-api
+- collection_type: open
+  name: Paxos Account Members Sandbox Deposits API
+  slug: open-paxos-sandbox-deposits-api
+- collection_type: open
+  name: Paxos Account Members Sandbox Fiat Transfers API
+  slug: open-paxos-sandbox-fiat-transfers-api
+- collection_type: open
+  name: Paxos Account Members Sandbox Identity API
+  slug: open-paxos-sandbox-identity-api
+- collection_type: open
+  name: Paxos Account Members Settlement API
+  slug: open-paxos-settlement-api
+- collection_type: open
+  name: Paxos Account Members Stablecoin Conversion API
+  slug: open-paxos-stablecoin-conversion-api
+- collection_type: open
+  name: Paxos Account Members Statements API
+  slug: open-paxos-statements-api
+- collection_type: open
+  name: Paxos Account Members Tax Forms API
+  slug: open-paxos-tax-forms-api
+- collection_type: open
+  name: Paxos Account Members Transfers API
+  slug: open-paxos-transfers-api
+- collection_type: open
+  name: Paxos Account Members TravelRulePublic API
+  slug: open-paxos-travelrulepublic-api
 common:
 - group: start
   title: ''
@@ -320,7 +453,7 @@ overview: 'Paxos publishes 43 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Paxos'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
-random_paper: 75
+random_paper: 108
 scopes:
 - name: Paxos Scopes
   scope_count: 66
@@ -355,7 +488,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/screenshots/paxos-2026-08-07T191628.png
 security:

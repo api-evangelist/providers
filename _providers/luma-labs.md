@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: The Video API from Luma AI — 3 operation(s) for video.
   name: Luma AI Video API
   slug: luma-labs-video-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Luma Dream Machine Concepts API
+  slug: open-luma-labs-concepts-api
+- collection_type: open
+  name: Luma Dream Machine Concepts Credits API
+  slug: open-luma-labs-credits-api
+- collection_type: open
+  name: Luma Dream Machine Concepts Generations API
+  slug: open-luma-labs-generations-api
+- collection_type: open
+  name: Luma Dream Machine Concepts Image API
+  slug: open-luma-labs-image-api
+- collection_type: open
+  name: Luma Dream Machine Concepts System API
+  slug: open-luma-labs-system-api
+- collection_type: open
+  name: Luma Dream Machine Concepts Video API
+  slug: open-luma-labs-video-api
 - collection_type: open
   name: Luma Dream Machine API
   slug: open-luma-labs
@@ -142,7 +163,7 @@ plans:
 - name: Luma Labs Plans Pricing
   plan_count: 1
   slug: luma-labs-plans-pricing
-random_paper: 54
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Luma Labs Rate Limits
@@ -167,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/screenshots/luma-labs-2026-06-20T184752.png
 security:

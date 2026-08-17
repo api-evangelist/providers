@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Auth0-backed OAuth 2.0 / OpenID Connect authorization server that issues the bearer tokens the Buoy Symptom Checker API requires. Publishes anonymous RFC 8414 authorization-server metadata and OIDC di
@@ -42,7 +42,29 @@ apis:
 - description: The Results API from Buoy Health — 1 operation(s) for results.
   name: Buoy Health Results API
   slug: buoy-health-results-api
-artifact_total: 12
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Buoy Symptom Checker Complaints API
+  slug: open-buoy-health-complaints-api
+- collection_type: open
+  name: Buoy Symptom Checker Intents API
+  slug: open-buoy-health-intents-api
+- collection_type: open
+  name: Buoy Symptom Checker Interviews API
+  slug: open-buoy-health-interviews-api
+- collection_type: open
+  name: Buoy Symptom Checker Queries API
+  slug: open-buoy-health-queries-api
+- collection_type: open
+  name: Buoy Symptom Checker Questions API
+  slug: open-buoy-health-questions-api
+- collection_type: open
+  name: Buoy Symptom Checker Results API
+  slug: open-buoy-health-results-api
 common:
 - group: company
   title: ''
@@ -172,7 +194,7 @@ overview: 'Buoy Health publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Buoy Health''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 42
+random_paper: 79
 scopes:
 - name: Buoy Health Scopes
   scope_count: 14
@@ -206,7 +228,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

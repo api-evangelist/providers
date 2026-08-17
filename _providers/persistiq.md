@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,8 +19,8 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-12'
+  score: 53.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -36,7 +37,7 @@ agentic_access:
   operation_count: 13
   slug: persistiq-agentic-access
   summary_line: 13 operations · 5 acting
-api_count: 7
+api_count: 10
 apis:
 - description: Outreach campaigns
   name: PersistIQ Campaigns API
@@ -59,20 +60,74 @@ apis:
 - description: Company users
   name: PersistIQ Users API
   slug: persistiq-users-api
-artifact_total: 12
+- description: Tags used to organize prospects. Exposed only by PersistIQ's own OpenAPI document; absent from the published API reference.
+  name: PersistIQ Tags API
+  slug: persistiq-tags-api
+- description: Campaign inbox replies — list prospect replies with their sentiment, and send a reply back through the connected mailbox. Exposed only by PersistIQ's own OpenAPI document.
+  name: PersistIQ Replies API
+  slug: persistiq-replies-api
+- description: Per-company webhook configuration — five events (new prospect, updated prospect, raw activity events, email reply, email opened), each with its own enable flag and destination URL.
+  name: PersistIQ Webhook Plugin API
+  slug: persistiq-webhook-plugin-api
+artifact_total: 25
+asyncapis:
+- description: ''
+  name: Persistiq Webhooks
+  slug: persistiq-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PersistIQ Campaigns API
+  slug: open-persistiq-campaigns-api
+- collection_type: open
+  name: PersistIQ Campaigns Do Not Contact Domains API
+  slug: open-persistiq-do-not-contact-domains-api
+- collection_type: open
+  name: PersistIQ Campaigns Events API
+  slug: open-persistiq-events-api
+- collection_type: open
+  name: PersistIQ Campaigns Lead Fields API
+  slug: open-persistiq-lead-fields-api
+- collection_type: open
+  name: PersistIQ Campaigns Lead Statuses API
+  slug: open-persistiq-lead-statuses-api
+- collection_type: open
+  name: PersistIQ Campaigns Leads API
+  slug: open-persistiq-leads-api
+- collection_type: open
+  name: PersistIQ Campaigns Users API
+  slug: open-persistiq-users-api
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/persistiq-api-v1-openapi.json
 - group: other
   title: ''
   type: Overlay
   url: overlays/persistiq-openapi-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/persistiq-api-v1-overlay.yaml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/persistiq-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/persistiq-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/persistiq-changelog.yml
 - group: agent
   title: ''
   type: AgenticAccess
   url: agentic-access/persistiq-agentic-access.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/persistiq-well-known.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -137,6 +192,14 @@ common:
   title: ''
   type: APIReference
   url: https://apidocs.persistiq.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: http://help.persistiq.com/en/articles/466972-getting-started-guide
+- group: operate
+  title: ''
+  type: Support
+  url: http://help.persistiq.com/en/
 - group: company
   title: ''
   type: Blog
@@ -166,37 +229,44 @@ common:
   type: Website
   url: https://persistiq.com
 created: '2026-07-17'
-description: PersistIQ is a sales engagement platform for small teams to find new customers, start conversations, and personalize sales outreach at scale from one place. It combines prospect research (Chrome extension), multi-channel outreach (email, calls, tasks), campaign management with A/B testing, performance analytics, and CRM integrations. PersistIQ exposes a REST API (v1) for users, leads (prospects), lead statuses and fields, campaigns, activity events, and Do Not Contact domains, authenticated with a company-wide API key sent in the x-api-key header, with cursor pagination and a 100 request/minute per-key rate limit.
+description: PersistIQ is a sales engagement platform for small teams to find new customers, start conversations, and personalize sales outreach at scale from one place. It combines prospect research (Chrome extension), multi-channel outreach (email, calls, tasks), campaign management with A/B testing, performance analytics, and CRM integrations. PersistIQ exposes a REST API (v1) for users, leads (prospects), lead statuses and fields, tags, campaigns (including duplication and inbox replies), activity events, Do Not Contact domains, and a webhook plugin carrying five events. It is specified by PersistIQ's own OpenAPI 3.0.1 document, served from the API host at /api-docs/v1/swagger.json. Authentication is a single company-wide API key sent in the x-api-key header, with page-number pagination and a documented 100 request/minute per-key rate limit.
 image: https://persistiq.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
   name: persistiq-mcp.yml
   slug: persistiq-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: PersistIQ
 nav: Providers
 network: true
-overview: 'PersistIQ publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Do Not Contact Domains API, Events API, and 4 more. Tagged areas include Company, Sales Engagement, Sales, Outbound, and Email Outreach.
+overview: 'PersistIQ publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Do Not Contact Domains API, Events API, and 7 more. Tagged areas include Company, Sales Engagement, Sales, Outbound, and Email Outreach.
 
 
-  PersistIQ''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 36
+  The PersistIQ catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  PersistIQ''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
+plans:
+- name: Persistiq Plans Pricing
+  plan_count: 0
+  slug: persistiq-plans-pricing
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Persistiq Rate Limits
   slug: persistiq-rate-limits
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 52.7
+  delta: 7.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.7
-    developer_ergonomics: 40.8
+    contract_quality: 66.3
+    developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 26.3
+    operational_transparency: 50.0
   previous_composite: 45.2
   provenance:
     agentic_access: derived
@@ -209,8 +279,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Persistiq Authentication
@@ -230,5 +300,7 @@ tags:
 - CRM
 - Lead Management
 - Marketing
+- Webhooks
+- Sales Engagement Platform
 website: https://persistiq.com
 ---

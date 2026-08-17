@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +60,29 @@ apis:
 - description: Track metadata, related tracks, and listening counters
   name: Shazam Tracks API
   slug: shazam-tracks-api
-artifact_total: 19
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shazam REST Albums API
+  slug: open-shazam-albums-api
+- collection_type: open
+  name: Shazam REST Albums Artists API
+  slug: open-shazam-artists-api
+- collection_type: open
+  name: Shazam REST Albums Charts API
+  slug: open-shazam-charts-api
+- collection_type: open
+  name: Shazam REST Albums Recognition API
+  slug: open-shazam-recognition-api
+- collection_type: open
+  name: Shazam REST Albums Search API
+  slug: open-shazam-search-api
+- collection_type: open
+  name: Shazam REST Albums Tracks API
+  slug: open-shazam-tracks-api
 common:
 - group: agent
   title: ''
@@ -152,7 +174,7 @@ plans:
 - name: Shazam Plans Pricing
   plan_count: 7
   slug: shazam-plans-pricing
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 11
   name: Shazam Rate Limits
@@ -186,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/screenshots/shazam-2026-06-20T193748.png
 security:

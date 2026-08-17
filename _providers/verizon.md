@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -94,11 +94,30 @@ apis:
 - description: SMS messaging to devices
   name: Verizon SMS API
   slug: verizon-sms-api
-artifact_total: 92
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Verizon Thingspace Callbacks Webhooks
   slug: verizon-thingspace-callbacks-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Verizon ThingSpace Connectivity Management Accounts API
+  slug: open-verizon-accounts-api
+- collection_type: open
+  name: Verizon ThingSpace Connectivity Management Accounts Callbacks API
+  slug: open-verizon-callbacks-api
+- collection_type: open
+  name: Verizon ThingSpace Connectivity Management Accounts Devices API
+  slug: open-verizon-devices-api
+- collection_type: open
+  name: Verizon ThingSpace Connectivity Management Accounts Session API
+  slug: open-verizon-session-api
+- collection_type: open
+  name: Verizon ThingSpace Connectivity Management Accounts SMS API
+  slug: open-verizon-sms-api
 common:
 - group: agent
   title: ''
@@ -484,7 +503,7 @@ press:
 - date: '2026-05-25'
   title: Verizon unveils AI strategy to power next-gen AI demands
   url: https://www.verizon.com/about/news/verizon-unveils-ai-strategy-power-next-gen-ai-demands
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Verizon Rate Limits
@@ -540,7 +559,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png
 security:

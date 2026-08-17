@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 2
@@ -123,18 +123,105 @@ apis:
 - description: The Volumes API from Together AI — 1 operation(s) for volumes.
   name: Together AI Volumes API
   slug: together-ai-volumes-api
-artifact_total: 41
+artifact_total: 70
 asyncapis:
 - description: AsyncAPI 2.6 description of Together AI's streaming (Server-Sent Events) inference surface. Together AI exposes OpenAI-compatible HTTP endpoints that upgrade to a `text/event-stream` response when the
   name: Together AI Streaming Inference API
   slug: together-ai-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: remediation.proto Audio API
+  slug: open-together-ai-audio-api
+- collection_type: open
+  name: remediation.proto Audio Batches API
+  slug: open-together-ai-batches-api
+- collection_type: open
+  name: remediation.proto Audio Chat API
+  slug: open-together-ai-chat-api
+- collection_type: open
   name: remediation.proto
   slug: open-together-ai-clusters-remediation
 - collection_type: open
+  name: remediation.proto Audio Code Interpreter API
+  slug: open-together-ai-code-interpreter-api
+- collection_type: open
+  name: remediation.proto Audio Completion API
+  slug: open-together-ai-completion-api
+- collection_type: open
+  name: remediation.proto Audio Compute API
+  slug: open-together-ai-compute-api
+- collection_type: open
+  name: remediation.proto Audio Deployments API
+  slug: open-together-ai-deployments-api
+- collection_type: open
+  name: remediation.proto Audio DeploymentsStorage API
+  slug: open-together-ai-deploymentsstorage-api
+- collection_type: open
+  name: remediation.proto Audio DeploymentsVolumes API
+  slug: open-together-ai-deploymentsvolumes-api
+- collection_type: open
+  name: remediation.proto Audio Embeddings API
+  slug: open-together-ai-embeddings-api
+- collection_type: open
+  name: remediation.proto Audio Endpoints API
+  slug: open-together-ai-endpoints-api
+- collection_type: open
+  name: remediation.proto Audio evaluation API
+  slug: open-together-ai-evaluation-api
+- collection_type: open
+  name: remediation.proto Audio Files API
+  slug: open-together-ai-files-api
+- collection_type: open
+  name: remediation.proto Audio Fine-tuning API
+  slug: open-together-ai-fine-tuning-api
+- collection_type: open
+  name: remediation.proto Audio GPUClusterService API
+  slug: open-together-ai-gpuclusterservice-api
+- collection_type: open
+  name: remediation.proto Audio Hardware API
+  slug: open-together-ai-hardware-api
+- collection_type: open
+  name: remediation.proto Audio Images API
+  slug: open-together-ai-images-api
+- collection_type: open
+  name: remediation.proto Audio Jobs API
+  slug: open-together-ai-jobs-api
+- collection_type: open
+  name: remediation.proto Audio Models API
+  slug: open-together-ai-models-api
+- collection_type: open
+  name: remediation.proto Audio Queue API
+  slug: open-together-ai-queue-api
+- collection_type: open
+  name: remediation.proto Audio RegionService API
+  slug: open-together-ai-regionservice-api
+- collection_type: open
+  name: remediation.proto Audio Rerank API
+  slug: open-together-ai-rerank-api
+- collection_type: open
+  name: remediation.proto Audio RL API
+  slug: open-together-ai-rl-api
+- collection_type: open
+  name: remediation.proto Audio Secrets API
+  slug: open-together-ai-secrets-api
+- collection_type: open
+  name: remediation.proto Audio SharedVolumeService API
+  slug: open-together-ai-sharedvolumeservice-api
+- collection_type: open
   name: API Collection
   slug: open-together-ai-tcloud
+- collection_type: open
+  name: remediation.proto Audio Video API
+  slug: open-together-ai-video-api
+- collection_type: open
+  name: remediation.proto Audio Voices API
+  slug: open-together-ai-voices-api
+- collection_type: open
+  name: remediation.proto Audio Volumes API
+  slug: open-together-ai-volumes-api
 - collection_type: open
   name: Together APIs
   slug: open-together-ai
@@ -218,7 +305,7 @@ plans:
 - name: Together Ai Plans Pricing
   plan_count: 6
   slug: together-ai-plans-pricing
-random_paper: 33
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Together Ai Rate Limits
@@ -252,7 +339,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/screenshots/together-ai-2026-06-20T195434.png
 security:

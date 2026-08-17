@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: APIs for processing, cleaning and validating data
@@ -43,7 +43,32 @@ apis:
 - description: APIs for website and HTML processing
   name: Neutrino API WWW API
   slug: neutrino-api-www-api
-artifact_total: 16
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Neutrino Data Tools API
+  slug: open-neutrino-api-data-tools-api
+- collection_type: open
+  name: Neutrino E Commerce API
+  slug: open-neutrino-api-e-commerce-api
+- collection_type: open
+  name: Neutrino Geolocation API
+  slug: open-neutrino-api-geolocation-api
+- collection_type: open
+  name: Neutrino Imaging API
+  slug: open-neutrino-api-imaging-api
+- collection_type: open
+  name: Neutrino Security and Networking API
+  slug: open-neutrino-api-security-and-networking-api
+- collection_type: open
+  name: Neutrino Telephony API
+  slug: open-neutrino-api-telephony-api
+- collection_type: open
+  name: Neutrino WWW API
+  slug: open-neutrino-api-www-api
 common:
 - group: other
   title: ''
@@ -245,7 +270,7 @@ overview: 'Neutrino API publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Neutrino API''s developer surface includes authentication, changelog, getting-started guide, pricing, signup flow, support, and 35 more developer resources.'
-random_paper: 43
+random_paper: 51
 score:
   band: developing
   composite: 52.1
@@ -274,7 +299,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

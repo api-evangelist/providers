@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Real-time location updates and status milestones on a shipment.
   name: Turvo Tracking API
   slug: turvo-tracking-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Turvo Public Accounts API
+  slug: open-turvo-accounts-api
+- collection_type: open
+  name: Turvo Public Accounts Authentication API
+  slug: open-turvo-authentication-api
+- collection_type: open
+  name: Turvo Public Accounts Carriers API
+  slug: open-turvo-carriers-api
+- collection_type: open
+  name: Turvo Public Accounts Locations API
+  slug: open-turvo-locations-api
+- collection_type: open
+  name: Turvo Public Accounts Orders API
+  slug: open-turvo-orders-api
+- collection_type: open
+  name: Turvo Public Accounts Shipments API
+  slug: open-turvo-shipments-api
+- collection_type: open
+  name: Turvo Public Accounts Tracking API
+  slug: open-turvo-tracking-api
 - collection_type: open
   name: Turvo Public API
   slug: open-turvo
@@ -122,7 +146,7 @@ plans:
 - name: Turvo Plans Pricing
   plan_count: 1
   slug: turvo-plans-pricing
-random_paper: 96
+random_paper: 129
 rate_limits:
 - limit_count: 3
   name: Turvo Rate Limits
@@ -153,7 +177,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

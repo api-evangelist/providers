@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The App API from Quikr — 1 operation(s) for app.
@@ -40,7 +40,20 @@ apis:
 - description: The Public API from Quikr — 7 operation(s) for public.
   name: Quikr Public API
   slug: quikr-public-api
-artifact_total: 5
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quikr Developer Platform (QDP) App API
+  slug: open-quikr-app-api
+- collection_type: open
+  name: Quikr Developer (QDP) App Platform API
+  slug: open-quikr-platform-api
+- collection_type: open
+  name: Quikr Developer Platform (QDP) App Public API
+  slug: open-quikr-public-api
 common:
 - group: company
   title: ''
@@ -86,7 +99,7 @@ overview: 'Quikr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ap
 
 
   Quikr''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 76
+random_paper: 109
 score:
   band: emerging
   composite: 27.2
@@ -106,7 +119,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

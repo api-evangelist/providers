@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: The Webhooks API from Fourthwall — 3 operation(s) for webhooks.
   name: Fourthwall Webhooks API
   slug: fourthwall-webhooks-api
-artifact_total: 21
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fourthwall Collections API
+  slug: open-fourthwall-collections-api
+- collection_type: open
+  name: Fourthwall Collections Gifting API
+  slug: open-fourthwall-gifting-api
+- collection_type: open
+  name: Fourthwall Collections Giveaways API
+  slug: open-fourthwall-giveaways-api
+- collection_type: open
+  name: Fourthwall Collections Memberships API
+  slug: open-fourthwall-memberships-api
+- collection_type: open
+  name: Fourthwall Collections Orders API
+  slug: open-fourthwall-orders-api
+- collection_type: open
+  name: Fourthwall Collections Products API
+  slug: open-fourthwall-products-api
+- collection_type: open
+  name: Fourthwall Collections Promotions API
+  slug: open-fourthwall-promotions-api
+- collection_type: open
+  name: Fourthwall Collections Storefront Carts API
+  slug: open-fourthwall-storefront-carts-api
+- collection_type: open
+  name: Fourthwall Collections Storefront Collections API
+  slug: open-fourthwall-storefront-collections-api
+- collection_type: open
+  name: Fourthwall Collections Storefront Products API
+  slug: open-fourthwall-storefront-products-api
+- collection_type: open
+  name: Fourthwall Collections Storefront Shop API
+  slug: open-fourthwall-storefront-shop-api
+- collection_type: open
+  name: Fourthwall Collections Webhooks API
+  slug: open-fourthwall-webhooks-api
 - collection_type: open
   name: Fourthwall API
   slug: open-fourthwall
@@ -149,7 +188,7 @@ plans:
 - name: Fourthwall Plans Pricing
   plan_count: 2
   slug: fourthwall-plans-pricing
-random_paper: 16
+random_paper: 53
 rate_limits:
 - limit_count: 4
   name: Fourthwall Rate Limits
@@ -179,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/screenshots/fourthwall-2026-07-25T215052.png
 security:

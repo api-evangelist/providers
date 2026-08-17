@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Manage public status pages for communicating service health
   name: Better Uptime Status Pages API
   slug: betteruptime-status-pages-api
-artifact_total: 22
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Better Stack Uptime Heartbeats API
+  slug: open-betteruptime-heartbeats-api
+- collection_type: open
+  name: Better Stack Uptime Heartbeats Incidents API
+  slug: open-betteruptime-incidents-api
+- collection_type: open
+  name: Better Stack Uptime Heartbeats Monitors API
+  slug: open-betteruptime-monitors-api
+- collection_type: open
+  name: Better Stack Uptime Heartbeats Status Pages API
+  slug: open-betteruptime-status-pages-api
 common:
 - group: agent
   title: ''
@@ -183,7 +199,7 @@ plans:
 - name: Betteruptime Plans Pricing
   plan_count: 3
   slug: betteruptime-plans-pricing
-random_paper: 106
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Betteruptime Rate Limits
@@ -217,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/screenshots/betteruptime-2026-06-20T173208.png
 security:

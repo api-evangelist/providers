@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: The Search API from Nanyang Technological University — 1 operation(s) for search.
   name: Nanyang Technological University Search API
   slug: ntu-search-api
-artifact_total: 20
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DR-NTU (Data) Dataverse Discover API
+  slug: open-ntu-discover-api
+- collection_type: open
+  name: DR-NTU (Data) Dataverse Discover Info API
+  slug: open-ntu-info-api
+- collection_type: open
+  name: DR-NTU (Data) Dataverse Discover Items API
+  slug: open-ntu-items-api
+- collection_type: open
+  name: DR-NTU (Data) Dataverse Discover OAI-PMH API
+  slug: open-ntu-oai-pmh-api
+- collection_type: open
+  name: DR-NTU (Data) Dataverse Discover Root API
+  slug: open-ntu-root-api
+- collection_type: open
+  name: DR-NTU (Data) Dataverse Discover Search API
+  slug: open-ntu-search-api
 common:
 - group: agent
   title: ''
@@ -155,7 +177,7 @@ plans:
 - name: Ntu Plans Pricing
   plan_count: 2
   slug: ntu-plans-pricing
-random_paper: 103
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Ntu Rate Limits
@@ -203,7 +225,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/screenshots/ntu-2026-06-20T190501.png
 security:

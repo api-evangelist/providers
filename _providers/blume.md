@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ overview: 'Blume is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Blume''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 9 more developer resources.'
-random_paper: 53
+random_paper: 86
 score:
   band: emerging
   composite: 21.6
@@ -122,7 +122,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blume/refs/heads/main/screenshots/blume-2026-08-07T162657.png
 security:

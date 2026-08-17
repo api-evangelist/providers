@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -88,11 +88,81 @@ apis:
 - description: The Users API from BioFlyte — 3 operation(s) for users.
   name: BioFlyte Users API
   slug: bioflyte-users-api
-artifact_total: 25
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Bioflyte Event Surface
   slug: bioflyte-event-surface
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AdminWeb Alert API
+  slug: open-bioflyte-alert-api
+- collection_type: open
+  name: AdminWeb Client API
+  slug: open-bioflyte-client-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Comments API
+  slug: open-bioflyte-comments-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2)
+  slug: open-bioflyte-content
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Discovery API
+  slug: open-bioflyte-discovery-api
+- collection_type: open
+  name: AdminWeb Files API
+  slug: open-bioflyte-files-api
+- collection_type: open
+  name: AdminWeb Filters API
+  slug: open-bioflyte-filters-api
+- collection_type: open
+  name: AdminWeb Locations API
+  slug: open-bioflyte-locations-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Media API
+  slug: open-bioflyte-media-api
+- collection_type: open
+  name: AdminWeb Organization API
+  slug: open-bioflyte-organization-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Pages API
+  slug: open-bioflyte-pages-api
+- collection_type: open
+  name: AdminWeb Permissions API
+  slug: open-bioflyte-permissions-api
+- collection_type: open
+  name: AdminWeb
+  slug: open-bioflyte-portal-openapi-original
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Press Releases API
+  slug: open-bioflyte-press-releases-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Projects API
+  slug: open-bioflyte-projects-api
+- collection_type: open
+  name: AdminWeb Request Help API
+  slug: open-bioflyte-requesthelp-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Resources API
+  slug: open-bioflyte-resources-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Search API
+  slug: open-bioflyte-search-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Settings API
+  slug: open-bioflyte-settings-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Taxonomy API
+  slug: open-bioflyte-taxonomy-api
+- collection_type: open
+  name: AdminWeb Test API
+  slug: open-bioflyte-test-api
+- collection_type: open
+  name: BioFlyte Content API (WordPress REST wp/v2) Users API
+  slug: open-bioflyte-users-api
 common:
 - group: other
   title: ''
@@ -226,7 +296,7 @@ overview: 'BioFlyte publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   BioFlyte''s developer surface includes authentication, engineering blog, product news, YouTube channel, and 24 more developer resources.'
-random_paper: 22
+random_paper: 117
 score:
   band: emerging
   composite: 26.6
@@ -250,7 +320,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/screenshots/bioflyte-2026-08-07T162453.png
 security:

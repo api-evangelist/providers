@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -452,7 +452,7 @@ arazzos:
 - description: Fetch a user's profile, open a DM, and post a personalized greeting.
   name: Slack Look Up a User and Send a Personalized Greeting
   slug: slack-user-info-dm-greeting-workflow
-artifact_total: 268
+artifact_total: 377
 asyncapis:
 - description: The Slack Events API enables apps to respond to activities in Slack by subscribing to specific event types. Rather than polling for changes, apps receive HTTP POST payloads when subscribed events occu
   name: Slack Events API
@@ -555,98 +555,425 @@ collections:
   name: Slack Workflows
   slug: postman-slack-workflows
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Slack Admin Access API
+  slug: open-slack-access-api
+- collection_type: open
+  name: Slack Admin Access Add API
+  slug: open-slack-add-api
+- collection_type: open
   name: Slack Admin API
   slug: open-slack-admin
+- collection_type: open
+  name: Slack Admin Access Administrative API
+  slug: open-slack-administrative-api
+- collection_type: open
+  name: Slack Admin Access AI API
+  slug: open-slack-ai-api
+- collection_type: open
+  name: Slack Admin Access Applications API
+  slug: open-slack-applications-api
+- collection_type: open
+  name: Slack Admin Access Approve API
+  slug: open-slack-approve-api
+- collection_type: open
+  name: Slack Admin Access Approved API
+  slug: open-slack-approved-api
 - collection_type: open
   name: Slack Apps API
   slug: open-slack-apps
 - collection_type: open
+  name: Slack Admin Access Archive API
+  slug: open-slack-archive-api
+- collection_type: open
+  name: Slack Admin Access Assign API
+  slug: open-slack-assign-api
+- collection_type: open
   name: Slack Assistant API
   slug: open-slack-assistant
+- collection_type: open
+  name: Slack Admin Access Assistants API
+  slug: open-slack-assistants-api
+- collection_type: open
+  name: Slack Admin Access Auth API
+  slug: open-slack-auth-api
 - collection_type: open
   name: Slack Auth API
   slug: open-slack-auth
 - collection_type: open
+  name: Slack Admin Access Authentication API
+  slug: open-slack-authentication-api
+- collection_type: open
+  name: Slack Admin Access Authorization API
+  slug: open-slack-authorization-api
+- collection_type: open
+  name: Slack Admin Access Automation API
+  slug: open-slack-automation-api
+- collection_type: open
+  name: Slack Admin Access Bookmarks API
+  slug: open-slack-bookmarks-api
+- collection_type: open
   name: Slack Bookmarks API
   slug: open-slack-bookmarks
+- collection_type: open
+  name: Slack Admin Access Bots API
+  slug: open-slack-bots-api
 - collection_type: open
   name: Slack Bots API
   slug: open-slack-bots
 - collection_type: open
+  name: Slack Admin Access Calls API
+  slug: open-slack-calls-api
+- collection_type: open
   name: Slack Calls API
   slug: open-slack-calls
+- collection_type: open
+  name: Slack Admin Access Canvases API
+  slug: open-slack-canvases-api
 - collection_type: open
   name: Slack Canvases API
   slug: open-slack-canvases
 - collection_type: open
+  name: Slack Admin Access Chat API
+  slug: open-slack-chat-api
+- collection_type: open
   name: Slack Chat API
   slug: open-slack-chat
+- collection_type: open
+  name: Slack Admin Access Close API
+  slug: open-slack-close-api
+- collection_type: open
+  name: Slack Admin Access Comments API
+  slug: open-slack-comments-api
+- collection_type: open
+  name: Slack Admin Access Complete API
+  slug: open-slack-complete-api
+- collection_type: open
+  name: Slack Admin Access Connect API
+  slug: open-slack-connect-api
+- collection_type: open
+  name: Slack Admin Access Conversations API
+  slug: open-slack-conversations-api
 - collection_type: open
   name: Slack Conversations API
   slug: open-slack-conversations
 - collection_type: open
+  name: Slack Admin Access Create API
+  slug: open-slack-create-api
+- collection_type: open
+  name: Slack Admin Access Delete API
+  slug: open-slack-delete-api
+- collection_type: open
+  name: Slack Admin Access Deletes API
+  slug: open-slack-deletes-api
+- collection_type: open
+  name: Slack Admin Access Deny API
+  slug: open-slack-deny-api
+- collection_type: open
   name: Slack Dialog API
   slug: open-slack-dialog
+- collection_type: open
+  name: Slack Admin Access Disables API
+  slug: open-slack-disables-api
+- collection_type: open
+  name: Slack Admin Access Disturb API
+  slug: open-slack-disturb-api
+- collection_type: open
+  name: Slack Admin Access Dnd API
+  slug: open-slack-dnd-api
 - collection_type: open
   name: Slack DND API
   slug: open-slack-dnd
 - collection_type: open
+  name: Slack Admin Access Do API
+  slug: open-slack-do-api
+- collection_type: open
+  name: Slack Admin Access Documents API
+  slug: open-slack-documents-api
+- collection_type: open
+  name: Slack Admin Access Edit API
+  slug: open-slack-edit-api
+- collection_type: open
+  name: Slack Admin Access Emoji API
+  slug: open-slack-emoji-api
+- collection_type: open
   name: Slack Emoji API
   slug: open-slack-emoji
+- collection_type: open
+  name: Slack Admin Access Enables API
+  slug: open-slack-enables-api
+- collection_type: open
+  name: Slack Admin Access End API
+  slug: open-slack-end-api
+- collection_type: open
+  name: Slack Admin Access Events API
+  slug: open-slack-events-api
+- collection_type: open
+  name: Slack Admin Access Exchange API
+  slug: open-slack-exchange-api
+- collection_type: open
+  name: Slack Admin Access Files API
+  slug: open-slack-files-api
 - collection_type: open
   name: Slack Files API
   slug: open-slack-files
 - collection_type: open
+  name: Slack Admin Access Functions API
+  slug: open-slack-functions-api
+- collection_type: open
   name: Slack Functions API
   slug: open-slack-functions
+- collection_type: open
+  name: Slack Admin Access Get API
+  slug: open-slack-get-api
+- collection_type: open
+  name: Slack Admin Access Groups API
+  slug: open-slack-groups-api
+- collection_type: open
+  name: Slack Admin Access History API
+  slug: open-slack-history-api
+- collection_type: open
+  name: Slack Admin Access Identity API
+  slug: open-slack-identity-api
+- collection_type: open
+  name: Slack Admin Access Info API
+  slug: open-slack-info-api
+- collection_type: open
+  name: Slack Admin Access Information API
+  slug: open-slack-information-api
+- collection_type: open
+  name: Slack Admin Access Invalidate API
+  slug: open-slack-invalidate-api
+- collection_type: open
+  name: Slack Admin Access Invites API
+  slug: open-slack-invites-api
+- collection_type: open
+  name: Slack Admin Access Items API
+  slug: open-slack-items-api
+- collection_type: open
+  name: Slack Admin Access Join API
+  slug: open-slack-join-api
+- collection_type: open
+  name: Slack Admin Access Kick API
+  slug: open-slack-kick-api
+- collection_type: open
+  name: Slack Admin Access Leave API
+  slug: open-slack-leave-api
+- collection_type: open
+  name: Slack Admin Access Lists API
+  slug: open-slack-lists-api
 - collection_type: open
   name: Slack Lists API
   slug: open-slack-lists
 - collection_type: open
+  name: Slack Admin Access Lookup API
+  slug: open-slack-lookup-api
+- collection_type: open
+  name: Slack Admin Access Mark API
+  slug: open-slack-mark-api
+- collection_type: open
+  name: Slack Admin Access Members API
+  slug: open-slack-members-api
+- collection_type: open
+  name: Slack Admin Access Messages API
+  slug: open-slack-messages-api
+- collection_type: open
   name: Slack Migration API
   slug: open-slack-migration
+- collection_type: open
+  name: Slack Admin Access Migrations API
+  slug: open-slack-migrations-api
+- collection_type: open
+  name: Slack Admin Access Oauth API
+  slug: open-slack-oauth-api
 - collection_type: open
   name: Slack OAuth API
   slug: open-slack-oauth
 - collection_type: open
+  name: Slack Admin Access Open API
+  slug: open-slack-open-api
+- collection_type: open
+  name: Slack Admin Access OpenID Connect API
+  slug: open-slack-openid-connect-api
+- collection_type: open
   name: Slack OpenID Connect API
   slug: open-slack-openid-connect
+- collection_type: open
+  name: Slack Admin Access Owners API
+  slug: open-slack-owners-api
+- collection_type: open
+  name: Slack Admin Access Participants API
+  slug: open-slack-participants-api
+- collection_type: open
+  name: Slack Admin Access Permissions API
+  slug: open-slack-permissions-api
+- collection_type: open
+  name: Slack Admin Access Pins API
+  slug: open-slack-pins-api
 - collection_type: open
   name: Slack Pins API
   slug: open-slack-pins
 - collection_type: open
+  name: Slack Admin Access Post API
+  slug: open-slack-post-api
+- collection_type: open
+  name: Slack Admin Access Profile API
+  slug: open-slack-profile-api
+- collection_type: open
+  name: Slack Admin Access Project Management API
+  slug: open-slack-project-management-api
+- collection_type: open
+  name: Slack Admin Access Prompts API
+  slug: open-slack-prompts-api
+- collection_type: open
+  name: Slack Admin Access Publish API
+  slug: open-slack-publish-api
+- collection_type: open
+  name: Slack Admin Access Push API
+  slug: open-slack-push-api
+- collection_type: open
+  name: Slack Admin Access Reactions API
+  slug: open-slack-reactions-api
+- collection_type: open
   name: Slack Reactions API
   slug: open-slack-reactions
+- collection_type: open
+  name: Slack Admin Access Reminders API
+  slug: open-slack-reminders-api
 - collection_type: open
   name: Slack Reminders API
   slug: open-slack-reminders
 - collection_type: open
+  name: Slack Admin Access Remote API
+  slug: open-slack-remote-api
+- collection_type: open
+  name: Slack Admin Access Remove API
+  slug: open-slack-remove-api
+- collection_type: open
+  name: Slack Admin Access Rename API
+  slug: open-slack-rename-api
+- collection_type: open
+  name: Slack Admin Access Replies API
+  slug: open-slack-replies-api
+- collection_type: open
+  name: Slack Admin Access Requests API
+  slug: open-slack-requests-api
+- collection_type: open
+  name: Slack Admin Access Reset API
+  slug: open-slack-reset-api
+- collection_type: open
+  name: Slack Admin Access Resources API
+  slug: open-slack-resources-api
+- collection_type: open
+  name: Slack Admin Access Restrict API
+  slug: open-slack-restrict-api
+- collection_type: open
+  name: Slack Admin Access Restricted API
+  slug: open-slack-restricted-api
+- collection_type: open
+  name: Slack Admin Access Revoke API
+  slug: open-slack-revoke-api
+- collection_type: open
   name: Slack RTM API
   slug: open-slack-rtm
+- collection_type: open
+  name: Slack Admin Access Scopes API
+  slug: open-slack-scopes-api
+- collection_type: open
+  name: Slack Admin Access Search API
+  slug: open-slack-search-api
 - collection_type: open
   name: Slack Search API
   slug: open-slack-search
 - collection_type: open
+  name: Slack Admin Access Sections API
+  slug: open-slack-sections-api
+- collection_type: open
+  name: Slack Admin Access Sessions API
+  slug: open-slack-sessions-api
+- collection_type: open
+  name: Slack Admin Access Set API
+  slug: open-slack-set-api
+- collection_type: open
+  name: Slack Admin Access Sets API
+  slug: open-slack-sets-api
+- collection_type: open
+  name: Slack Admin Access Settings API
+  slug: open-slack-settings-api
+- collection_type: open
+  name: Slack Admin Access Share API
+  slug: open-slack-share-api
+- collection_type: open
+  name: Slack Admin Access Snooze API
+  slug: open-slack-snooze-api
+- collection_type: open
   name: Slack Stars API
   slug: open-slack-stars
+- collection_type: open
+  name: Slack Admin Access Status API
+  slug: open-slack-status-api
+- collection_type: open
+  name: Slack Admin Access Team API
+  slug: open-slack-team-api
 - collection_type: open
   name: Slack Team API
   slug: open-slack-team
 - collection_type: open
+  name: Slack Admin Access Teams API
+  slug: open-slack-teams-api
+- collection_type: open
   name: Slack Tests API
   slug: open-slack-test-api
+- collection_type: open
+  name: Slack Admin Access Tests API
+  slug: open-slack-tests-api
+- collection_type: open
+  name: Slack Admin Access Titles API
+  slug: open-slack-titles-api
+- collection_type: open
+  name: Slack Admin Access Tokens API
+  slug: open-slack-tokens-api
+- collection_type: open
+  name: Slack Admin Access Unarchive API
+  slug: open-slack-unarchive-api
+- collection_type: open
+  name: Slack Admin Access Unfurl API
+  slug: open-slack-unfurl-api
+- collection_type: open
+  name: Slack Admin Access Uninstall API
+  slug: open-slack-uninstall-api
+- collection_type: open
+  name: Slack Admin Access Update API
+  slug: open-slack-update-api
+- collection_type: open
+  name: Slack Admin Access Upload API
+  slug: open-slack-upload-api
+- collection_type: open
+  name: Slack Admin Access Usergroups API
+  slug: open-slack-usergroups-api
 - collection_type: open
   name: Slack User Groups API
   slug: open-slack-usergroups
 - collection_type: open
+  name: Slack Admin Access Users API
+  slug: open-slack-users-api
+- collection_type: open
   name: Slack Users API
   slug: open-slack-users
+- collection_type: open
+  name: Slack Admin Access Views API
+  slug: open-slack-views-api
 - collection_type: open
   name: Slack Views API
   slug: open-slack-views
 - collection_type: open
   name: Slack Web API
   slug: open-slack-web-api
+- collection_type: open
+  name: Slack Admin Access Workflows API
+  slug: open-slack-workflows-api
 - collection_type: open
   name: Slack Workflows
   slug: open-slack-workflows
@@ -1147,7 +1474,7 @@ plans:
 - name: Slack Plans Pricing
   plan_count: 4
   slug: slack-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 6
   name: Slack Rate Limits
@@ -1202,7 +1529,7 @@ score:
       marker_coverage: 0.0
       total: 108
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:

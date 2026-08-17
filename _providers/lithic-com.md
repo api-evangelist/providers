@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 1
@@ -132,8 +132,104 @@ apis:
 - description: The Transfer Limits API from Lithic — 1 operation(s) for transfer limits.
   name: Lithic Transfer Limits API
   slug: lithic-com-transfer-limits-api
-artifact_total: 490
+artifact_total: 522
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lithic 3DS API
+  slug: open-lithic-com-3ds-api
+- collection_type: open
+  name: Lithic 3DS Account API
+  slug: open-lithic-com-account-api
+- collection_type: open
+  name: Lithic 3DS Account Holder API
+  slug: open-lithic-com-account-holder-api
+- collection_type: open
+  name: Lithic 3DS Auth Rules API
+  slug: open-lithic-com-auth-rules-api
+- collection_type: open
+  name: Lithic 3DS Auth Stream Access (ASA) API
+  slug: open-lithic-com-auth-stream-access-asa-api
+- collection_type: open
+  name: Lithic 3DS Balance API
+  slug: open-lithic-com-balance-api
+- collection_type: open
+  name: Lithic 3DS Book Transfer API
+  slug: open-lithic-com-book-transfer-api
+- collection_type: open
+  name: Lithic 3DS Card API
+  slug: open-lithic-com-card-api
+- collection_type: open
+  name: Lithic 3DS Card Authorizations API
+  slug: open-lithic-com-card-authorizations-api
+- collection_type: open
+  name: Lithic 3DS Card Bulk Orders API
+  slug: open-lithic-com-card-bulk-orders-api
+- collection_type: open
+  name: Lithic 3DS Chargeback API
+  slug: open-lithic-com-chargeback-api
+- collection_type: open
+  name: Lithic 3DS Credit Product API
+  slug: open-lithic-com-credit-product-api
+- collection_type: open
+  name: Lithic 3DS Event API
+  slug: open-lithic-com-event-api
+- collection_type: open
+  name: Lithic 3DS External Bank Account API
+  slug: open-lithic-com-external-bank-account-api
+- collection_type: open
+  name: Lithic 3DS External Payments API
+  slug: open-lithic-com-external-payments-api
+- collection_type: open
+  name: Lithic 3DS Financial Account API
+  slug: open-lithic-com-financial-account-api
+- collection_type: open
+  name: Lithic 3DS Fraud Report API
+  slug: open-lithic-com-fraud-report-api
+- collection_type: open
+  name: Lithic 3DS Funding Events API
+  slug: open-lithic-com-funding-events-api
+- collection_type: open
+  name: Lithic 3DS Hold API
+  slug: open-lithic-com-hold-api
+- collection_type: open
+  name: Lithic 3DS Managed Disputes API
+  slug: open-lithic-com-managed-disputes-api
+- collection_type: open
+  name: Lithic 3DS Management Operations API
+  slug: open-lithic-com-management-operations-api
+- collection_type: open
+  name: Lithic 3DS Network Program API
+  slug: open-lithic-com-network-program-api
+- collection_type: open
+  name: Lithic 3DS Payment API
+  slug: open-lithic-com-payment-api
+- collection_type: open
+  name: Lithic 3DS Responder Endpoints API
+  slug: open-lithic-com-responder-endpoints-api
+- collection_type: open
+  name: Lithic 3DS Settlement Report API
+  slug: open-lithic-com-settlement-report-api
+- collection_type: open
+  name: Lithic 3DS Statements API
+  slug: open-lithic-com-statements-api
+- collection_type: open
+  name: Lithic 3DS Status API
+  slug: open-lithic-com-status-api
+- collection_type: open
+  name: Lithic 3DS Tokenization API
+  slug: open-lithic-com-tokenization-api
+- collection_type: open
+  name: Lithic 3DS Transaction API
+  slug: open-lithic-com-transaction-api
+- collection_type: open
+  name: Lithic 3DS Transaction Monitoring API
+  slug: open-lithic-com-transaction-monitoring-api
+- collection_type: open
+  name: Lithic 3DS Transfer Limits API
+  slug: open-lithic-com-transfer-limits-api
 - collection_type: open
   name: Lithic API
   slug: open-lithic-com
@@ -1593,7 +1689,7 @@ plans:
 - name: Lithic Com Plans Pricing
   plan_count: 4
   slug: lithic-com-plans-pricing
-random_paper: 41
+random_paper: 107
 rate_limits:
 - limit_count: 13
   name: Lithic Com Rate Limits
@@ -1633,7 +1729,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/screenshots/lithic-com-2026-07-25T225335.png
 security:

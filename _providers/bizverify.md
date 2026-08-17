@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
@@ -51,7 +51,41 @@ apis:
 - description: The Verification API from BizVerify — 2 operation(s) for verification.
   name: BizVerify Verification API
   slug: bizverify-verification-api
-artifact_total: 11
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BizVerify Account API
+  slug: open-bizverify-account-api
+- collection_type: open
+  name: BizVerify Auth API
+  slug: open-bizverify-auth-api
+- collection_type: open
+  name: BizVerify Billing API
+  slug: open-bizverify-billing-api
+- collection_type: open
+  name: BizVerify Entities API
+  slug: open-bizverify-entities-api
+- collection_type: open
+  name: BizVerify Meta API
+  slug: open-bizverify-meta-api
+- collection_type: open
+  name: BizVerify Public API
+  slug: open-bizverify-public-api
+- collection_type: open
+  name: BizVerify Search API
+  slug: open-bizverify-search-api
+- collection_type: open
+  name: BizVerify Tools API
+  slug: open-bizverify-tools-api
+- collection_type: open
+  name: BizVerify Verification API
+  slug: open-bizverify-verification-api
+- collection_type: open
+  name: BizVerify API
+  slug: open-bizverify
 common:
 - group: operate
   title: ''
@@ -116,7 +150,7 @@ overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   BizVerify''s developer surface includes documentation and 11 more developer resources.'
-random_paper: 26
+random_paper: 92
 score:
   band: emerging
   composite: 26.1
@@ -136,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify

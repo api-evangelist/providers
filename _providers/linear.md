@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,12 +49,21 @@ apis:
 - description: Core GraphQL query and mutation endpoint
   name: linear GraphQL API
   slug: linear-graphql-api
-artifact_total: 26
+artifact_total: 29
 asyncapis:
 - description: Linear webhooks deliver HTTP push notifications whenever data is created, updated, or removed. Webhooks are organization-scoped and can be configured for all public teams or a single team, enabling in
   name: Linear Webhooks API
   slug: linear-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Linear GraphQL Attachments API
+  slug: open-linear-attachments-api
+- collection_type: open
+  name: Linear Attachments GraphQL API
+  slug: open-linear-graphql-api
 - collection_type: open
   name: Linear GraphQL API
   slug: open-linear-graphql
@@ -145,7 +154,7 @@ plans:
 - name: Linear Plans Pricing
   plan_count: 4
   slug: linear-plans-pricing
-random_paper: 35
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Linear Rate Limits
@@ -192,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/screenshots/linear-2026-06-20T184541.png
 security:

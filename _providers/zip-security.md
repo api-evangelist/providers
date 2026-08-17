@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Zip Security is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Zip Security''s developer surface includes documentation, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 72
+random_paper: 80
 score:
   band: emerging
   composite: 16.8
@@ -93,7 +93,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 16.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

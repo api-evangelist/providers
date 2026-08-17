@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -72,11 +72,48 @@ apis:
 - description: The Web API from Sentio — 8 operation(s) for web.
   name: Sentio Web API
   slug: sentio-web-api
-artifact_total: 16
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Sentio Webhooks
   slug: sentio-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sentio AI API
+  slug: open-sentio-ai-api
+- collection_type: open
+  name: Sentio AI Alerts API
+  slug: open-sentio-alerts-api
+- collection_type: open
+  name: Sentio AI Data API
+  slug: open-sentio-data-api
+- collection_type: open
+  name: Sentio AI Debug and Simulation API
+  slug: open-sentio-debug-and-simulation-api
+- collection_type: open
+  name: Sentio AI Forks API
+  slug: open-sentio-forks-api
+- collection_type: open
+  name: Sentio AI Move API
+  slug: open-sentio-move-api
+- collection_type: open
+  name: Sentio AI Price API
+  slug: open-sentio-price-api
+- collection_type: open
+  name: Sentio AI Prices API
+  slug: open-sentio-prices-api
+- collection_type: open
+  name: Sentio AI Processor API
+  slug: open-sentio-processor-api
+- collection_type: open
+  name: Sentio AI ProcessorExt API
+  slug: open-sentio-processorext-api
+- collection_type: open
+  name: Sentio AI Web API
+  slug: open-sentio-web-api
 common:
 - group: other
   title: ''
@@ -229,7 +266,7 @@ overview: 'Sentio publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sentio''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 26 more developer resources.'
-random_paper: 58
+random_paper: 62
 score:
   band: developing
   composite: 54.0
@@ -253,7 +290,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

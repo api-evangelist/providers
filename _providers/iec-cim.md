@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +60,29 @@ apis:
 - description: Maintenance and construction work orders
   name: iec-cim Work Orders API
   slug: iec-cim-work-orders-api
-artifact_total: 18
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: IEC CIM 61968 Distribution Management API
   slug: open-iec-cim-61968-distribution
+- collection_type: open
+  name: IEC CIM 61968 Distribution Management Customers API
+  slug: open-iec-cim-customers-api
+- collection_type: open
+  name: IEC CIM 61968 Distribution Management Customers Metering API
+  slug: open-iec-cim-metering-api
+- collection_type: open
+  name: IEC CIM 61968 Distribution Management Customers Network Assets API
+  slug: open-iec-cim-network-assets-api
+- collection_type: open
+  name: IEC CIM 61968 Distribution Management Customers Outages API
+  slug: open-iec-cim-outages-api
+- collection_type: open
+  name: IEC CIM 61968 Distribution Management Customers Work Orders API
+  slug: open-iec-cim-work-orders-api
 common:
 - group: agent
   title: ''
@@ -113,7 +131,7 @@ plans:
 - name: Iec Cim Plans Pricing
   plan_count: 3
   slug: iec-cim-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Iec Cim Rate Limits
@@ -152,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

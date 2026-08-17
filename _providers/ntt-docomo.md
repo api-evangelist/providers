@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: d ACCOUNT Connect (dアカウント・コネクト) is DOCOMO's carrier identity service for businesses, offering OpenID Connect based social login backed by network line authentication and device biometrics against roug
@@ -134,7 +134,7 @@ overview: 'NTT Docomo publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   NTT Docomo''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, and 17 more developer resources.'
-random_paper: 68
+random_paper: 134
 score:
   band: thin
   composite: 28.2
@@ -156,7 +156,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntt-docomo/refs/heads/main/screenshots/ntt-docomo-2026-08-07T185711.png
 security:

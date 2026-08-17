@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Inspect current API key usage against documented quotas.
   name: Noun Project Usage API
   slug: noun-project-usage-api
-artifact_total: 63
+artifact_total: 69
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Noun Project API V2 Autocomplete API
+  slug: open-noun-project-autocomplete-api
+- collection_type: open
+  name: Noun Project API V2 Autocomplete Blocklist API
+  slug: open-noun-project-blocklist-api
+- collection_type: open
+  name: Noun Project API V2 Autocomplete Collection API
+  slug: open-noun-project-collection-api
+- collection_type: open
+  name: Noun Project API V2 Autocomplete Icon API
+  slug: open-noun-project-icon-api
+- collection_type: open
+  name: Noun Project API V2 Autocomplete Usage API
+  slug: open-noun-project-usage-api
 - collection_type: open
   name: Noun Project API V2
   slug: open-noun-project
@@ -303,7 +321,7 @@ plans:
 - name: Noun Project Plans Pricing
   plan_count: 3
   slug: noun-project-plans-pricing
-random_paper: 52
+random_paper: 60
 rate_limits:
 - limit_count: 12
   name: Noun Project Rate Limits
@@ -345,7 +363,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/screenshots/noun-project-2026-06-20T190429.png
 security:

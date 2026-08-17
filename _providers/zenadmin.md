@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Catalog API from ZenAdmin — 3 operation(s) for catalog.
@@ -49,11 +49,33 @@ apis:
 - description: The Webhooks API from ZenAdmin — 4 operation(s) for webhooks.
   name: ZenAdmin Webhooks API
   slug: zenadmin-webhooks-api
-artifact_total: 10
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Zenadmin Webhooks
   slug: zenadmin-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZenAdmin External Catalog API
+  slug: open-zenadmin-catalog-api
+- collection_type: open
+  name: ZenAdmin External Catalog Context API
+  slug: open-zenadmin-context-api
+- collection_type: open
+  name: ZenAdmin External Catalog Devices API
+  slug: open-zenadmin-devices-api
+- collection_type: open
+  name: ZenAdmin External Catalog Employees API
+  slug: open-zenadmin-employees-api
+- collection_type: open
+  name: ZenAdmin External Catalog Orders API
+  slug: open-zenadmin-orders-api
+- collection_type: open
+  name: ZenAdmin External Catalog Webhooks API
+  slug: open-zenadmin-webhooks-api
 common:
 - group: agent
   title: ''
@@ -130,7 +152,7 @@ overview: 'ZenAdmin publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZenAdmin''s developer surface includes documentation, API reference, engineering blog, and 11 more developer resources.'
-random_paper: 14
+random_paper: 109
 score:
   band: thin
   composite: 28.3
@@ -153,7 +175,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

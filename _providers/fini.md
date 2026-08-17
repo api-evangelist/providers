@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: The Tags API from Fini — 5 operation(s) for tags.
   name: Fini Tags API
   slug: fini-tags-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fini AI Agents API
+  slug: open-fini-agents-api
+- collection_type: open
+  name: Fini AI Agents Articles API
+  slug: open-fini-articles-api
+- collection_type: open
+  name: Fini AI Agents Conversations API
+  slug: open-fini-conversations-api
+- collection_type: open
+  name: Fini AI Agents Knowledge API
+  slug: open-fini-knowledge-api
+- collection_type: open
+  name: Fini AI Agents Knowledge Folders API
+  slug: open-fini-knowledge-folders-api
+- collection_type: open
+  name: Fini AI Agents Prompts API
+  slug: open-fini-prompts-api
+- collection_type: open
+  name: Fini AI Agents Rules API
+  slug: open-fini-rules-api
+- collection_type: open
+  name: Fini AI Agents Sources API
+  slug: open-fini-sources-api
+- collection_type: open
+  name: Fini AI Agents Tags API
+  slug: open-fini-tags-api
 common:
 - group: company
   title: ''
@@ -187,7 +218,7 @@ overview: 'Fini publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Fini''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 62
+random_paper: 124
 score:
   band: developing
   composite: 47.9
@@ -211,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/screenshots/fini-2026-07-25T214529.png
 security:

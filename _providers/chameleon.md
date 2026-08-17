@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,8 +93,62 @@ apis:
 - description: The Webhooks API from Chameleon — 2 operation(s) for webhooks.
   name: Chameleon Webhooks API
   slug: chameleon-webhooks-api
-artifact_total: 27
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chameleon REST Alert Groups API
+  slug: open-chameleon-alert-groups-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Companies API
+  slug: open-chameleon-companies-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Deliveries API
+  slug: open-chameleon-deliveries-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Domains API
+  slug: open-chameleon-domains-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Imports API
+  slug: open-chameleon-imports-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Interactions API
+  slug: open-chameleon-interactions-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Launchers API
+  slug: open-chameleon-launchers-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Limit Groups API
+  slug: open-chameleon-limit-groups-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Microsurveys API
+  slug: open-chameleon-microsurveys-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Profiles API
+  slug: open-chameleon-profiles-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Properties API
+  slug: open-chameleon-properties-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Responses API
+  slug: open-chameleon-responses-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Segments API
+  slug: open-chameleon-segments-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Tags API
+  slug: open-chameleon-tags-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Tooltips API
+  slug: open-chameleon-tooltips-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Tours API
+  slug: open-chameleon-tours-api
+- collection_type: open
+  name: Chameleon REST Alert Groups Webhooks API
+  slug: open-chameleon-webhooks-api
 - collection_type: open
   name: Chameleon REST API
   slug: open-chameleon
@@ -191,7 +245,7 @@ plans:
 - name: Chameleon Plans Pricing
   plan_count: 1
   slug: chameleon-plans-pricing
-random_paper: 100
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Chameleon Rate Limits
@@ -216,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/screenshots/chameleon-2026-06-20T174211.png
 security:

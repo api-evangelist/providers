@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The addresses API from Oumla Ltd — 5 operation(s) for addresses.
@@ -67,7 +67,47 @@ apis:
 - description: The workflows API from Oumla Ltd — 1 operation(s) for workflows.
   name: Oumla Ltd workflows API
   slug: oumla-ltd-workflows-api
-artifact_total: 15
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oumla Core Server addresses API
+  slug: open-oumla-ltd-addresses-api
+- collection_type: open
+  name: Oumla Core Server addresses assets API
+  slug: open-oumla-ltd-assets-api
+- collection_type: open
+  name: Oumla Core Server addresses contract-interactions API
+  slug: open-oumla-ltd-contract-interactions-api
+- collection_type: open
+  name: Oumla Core Server addresses contract-templates API
+  slug: open-oumla-ltd-contract-templates-api
+- collection_type: open
+  name: Oumla Core Server addresses deployed-contracts API
+  slug: open-oumla-ltd-deployed-contracts-api
+- collection_type: open
+  name: Oumla Core Server addresses networks API
+  slug: open-oumla-ltd-networks-api
+- collection_type: open
+  name: Oumla Core Server addresses profiles API
+  slug: open-oumla-ltd-profiles-api
+- collection_type: open
+  name: Oumla Core Server addresses tokenization API
+  slug: open-oumla-ltd-tokenization-api
+- collection_type: open
+  name: Oumla Core Server addresses transactions API
+  slug: open-oumla-ltd-transactions-api
+- collection_type: open
+  name: Oumla Core Server addresses wallets API
+  slug: open-oumla-ltd-wallets-api
+- collection_type: open
+  name: Oumla Core Server addresses withdraw API
+  slug: open-oumla-ltd-withdraw-api
+- collection_type: open
+  name: Oumla Core Server addresses workflows API
+  slug: open-oumla-ltd-workflows-api
 common:
 - group: other
   title: ''
@@ -189,7 +229,7 @@ overview: 'Oumla Ltd publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Oumla Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 19 more developer resources.'
-random_paper: 71
+random_paper: 17
 score:
   band: developing
   composite: 47.5
@@ -218,7 +258,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/screenshots/oumla-ltd-2026-08-07T191043.png
 security:

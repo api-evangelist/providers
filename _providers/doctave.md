@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Manage documentation sites and their configurations.
   name: Doctave Sites API
   slug: doctave-sites-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Doctave Deployments API
+  slug: open-doctave-deployments-api
 - collection_type: open
   name: Doctave API
   slug: open-doctave-doctave
+- collection_type: open
+  name: Doctave Deployments Pages API
+  slug: open-doctave-pages-api
+- collection_type: open
+  name: Doctave Deployments Search API
+  slug: open-doctave-search-api
+- collection_type: open
+  name: Doctave Deployments Sites API
+  slug: open-doctave-sites-api
 common:
 - group: agent
   title: ''
@@ -128,7 +143,7 @@ plans:
 - name: Doctave Plans Pricing
   plan_count: 3
   slug: doctave-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Doctave Rate Limits
@@ -162,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/screenshots/doctave-2026-06-20T180112.png
 security:

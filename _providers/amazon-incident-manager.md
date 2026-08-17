@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ apis:
 - description: The UpdateTimelineEvent API from Amazon Incident Manager — 1 operation(s) for updatetimelineevent.
   name: Amazon Incident Manager UpdateTimelineEvent API
   slug: amazon-incident-manager-updatetimelineevent-api
-artifact_total: 442
+artifact_total: 470
 collections:
 - collection_type: postman
   name: AWS Systems Manager Incident Manager CreateReplicationSet API
@@ -203,6 +203,90 @@ collections:
 - collection_type: postman
   name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateTimelineEvent API
   slug: postman-amazon-incident-manager-updatetimelineevent-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet API
+  slug: open-amazon-incident-manager-createreplicationset-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet CreateResponsePlan API
+  slug: open-amazon-incident-manager-createresponseplan-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet CreateTimelineEvent API
+  slug: open-amazon-incident-manager-createtimelineevent-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteIncidentRecord API
+  slug: open-amazon-incident-manager-deleteincidentrecord-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteReplicationSet#arn API
+  slug: open-amazon-incident-manager-deletereplicationset-arn-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteResourcePolicy API
+  slug: open-amazon-incident-manager-deleteresourcepolicy-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteResponsePlan API
+  slug: open-amazon-incident-manager-deleteresponseplan-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteTimelineEvent API
+  slug: open-amazon-incident-manager-deletetimelineevent-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetIncidentRecord#arn API
+  slug: open-amazon-incident-manager-getincidentrecord-arn-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetReplicationSet#arn API
+  slug: open-amazon-incident-manager-getreplicationset-arn-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetResourcePolicies#resourceArn API
+  slug: open-amazon-incident-manager-getresourcepolicies-resourcearn-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetResponsePlan#arn API
+  slug: open-amazon-incident-manager-getresponseplan-arn-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetTimelineEvent#eventId&incidentRecordArn API
+  slug: open-amazon-incident-manager-gettimelineevent-eventid-incidentrecordarn-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListIncidentRecords API
+  slug: open-amazon-incident-manager-listincidentrecords-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListRelatedItems API
+  slug: open-amazon-incident-manager-listrelateditems-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListReplicationSets API
+  slug: open-amazon-incident-manager-listreplicationsets-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListResponsePlans API
+  slug: open-amazon-incident-manager-listresponseplans-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListTimelineEvents API
+  slug: open-amazon-incident-manager-listtimelineevents-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet PutResourcePolicy API
+  slug: open-amazon-incident-manager-putresourcepolicy-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet StartIncident API
+  slug: open-amazon-incident-manager-startincident-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet Tags API
+  slug: open-amazon-incident-manager-tags-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateDeletionProtection API
+  slug: open-amazon-incident-manager-updatedeletionprotection-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateIncidentRecord API
+  slug: open-amazon-incident-manager-updateincidentrecord-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateRelatedItems API
+  slug: open-amazon-incident-manager-updaterelateditems-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateReplicationSet API
+  slug: open-amazon-incident-manager-updatereplicationset-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateResponsePlan API
+  slug: open-amazon-incident-manager-updateresponseplan-api
+- collection_type: open
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateTimelineEvent API
+  slug: open-amazon-incident-manager-updatetimelineevent-api
 common:
 - group: build
   title: ''
@@ -1437,7 +1521,7 @@ plans:
 - name: Amazon Incident Manager Plans Pricing
   plan_count: 3
   slug: amazon-incident-manager-plans-pricing
-random_paper: 33
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Amazon Incident Manager Rate Limits
@@ -1479,7 +1563,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/screenshots/amazon-incident-manager-2026-06-20T171704.png
 security:

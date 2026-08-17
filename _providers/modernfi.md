@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Transactions API from ModernFi — 2 operation(s) for transactions.
   name: ModernFi Transactions API
   slug: modernfi-transactions-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference Accounts API
+  slug: open-modernfi-accounts-api
+- collection_type: open
+  name: API Reference Accounts auth API
+  slug: open-modernfi-auth-api
+- collection_type: open
+  name: API Reference Accounts customBenchmarks API
+  slug: open-modernfi-custombenchmarks-api
+- collection_type: open
+  name: API Reference Accounts Depositors API
+  slug: open-modernfi-depositors-api
+- collection_type: open
+  name: API Reference Accounts files API
+  slug: open-modernfi-files-api
+- collection_type: open
+  name: API Reference Accounts pricingGroups API
+  slug: open-modernfi-pricinggroups-api
+- collection_type: open
+  name: API Reference Accounts Transactions API
+  slug: open-modernfi-transactions-api
 common:
 - group: start
   title: ''
@@ -177,7 +202,7 @@ overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ModernFi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 12
+random_paper: 107
 score:
   band: developing
   composite: 42.2
@@ -207,7 +232,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/screenshots/modernfi-2026-08-07T184015.png
 security:

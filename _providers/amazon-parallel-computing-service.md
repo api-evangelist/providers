@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -95,8 +95,68 @@ apis:
 - description: The UpdateQueue API from Amazon Parallel Computing Service — 1 operation(s) for updatequeue.
   name: Amazon Parallel Computing Service UpdateQueue API
   slug: amazon-parallel-computing-service-updatequeue-api
-artifact_total: 28
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster API
+  slug: open-amazon-parallel-computing-service-createcluster-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster CreateComputeNodeGroup API
+  slug: open-amazon-parallel-computing-service-createcomputenodegroup-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster CreateQueue API
+  slug: open-amazon-parallel-computing-service-createqueue-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster DeleteCluster API
+  slug: open-amazon-parallel-computing-service-deletecluster-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster DeleteComputeNodeGroup API
+  slug: open-amazon-parallel-computing-service-deletecomputenodegroup-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster DeleteQueue API
+  slug: open-amazon-parallel-computing-service-deletequeue-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster GetCluster API
+  slug: open-amazon-parallel-computing-service-getcluster-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster GetComputeNodeGroup API
+  slug: open-amazon-parallel-computing-service-getcomputenodegroup-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster GetQueue API
+  slug: open-amazon-parallel-computing-service-getqueue-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster ListClusters API
+  slug: open-amazon-parallel-computing-service-listclusters-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster ListComputeNodeGroups API
+  slug: open-amazon-parallel-computing-service-listcomputenodegroups-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster ListQueues API
+  slug: open-amazon-parallel-computing-service-listqueues-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster ListTagsForResource API
+  slug: open-amazon-parallel-computing-service-listtagsforresource-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster RegisterComputeNodeGroupInstance API
+  slug: open-amazon-parallel-computing-service-registercomputenodegroupinstance-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster TagResource API
+  slug: open-amazon-parallel-computing-service-tagresource-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster UntagResource API
+  slug: open-amazon-parallel-computing-service-untagresource-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster UpdateCluster API
+  slug: open-amazon-parallel-computing-service-updatecluster-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster UpdateComputeNodeGroup API
+  slug: open-amazon-parallel-computing-service-updatecomputenodegroup-api
+- collection_type: open
+  name: Amazon Parallel Computing Service CreateCluster UpdateQueue API
+  slug: open-amazon-parallel-computing-service-updatequeue-api
 - collection_type: open
   name: Amazon Parallel Computing Service
   slug: open-amazon-parallel-computing-service
@@ -200,7 +260,7 @@ plans:
 - name: Amazon Parallel Computing Service Plans Pricing
   plan_count: 3
   slug: amazon-parallel-computing-service-plans-pricing
-random_paper: 1
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Amazon Parallel Computing Service Rate Limits
@@ -234,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/screenshots/amazon-parallel-computing-service-2026-06-20T171755.png
 security:

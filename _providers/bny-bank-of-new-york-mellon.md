@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +54,26 @@ apis:
 - description: Payments, liquidity, cash management, trade finance, and FX.
   name: BNY (Bank of New York Mellon) Treasury Services API
   slug: bny-bank-of-new-york-mellon-treasury-services-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: BNY Asset Servicing API
   slug: open-bny-asset-servicing-api
+- collection_type: open
+  name: BNY Asset Servicing API
+  slug: open-bny-bank-of-new-york-mellon-asset-servicing-api
+- collection_type: open
+  name: BNY Asset Servicing Markets API
+  slug: open-bny-bank-of-new-york-mellon-markets-api
+- collection_type: open
+  name: BNY Asset Servicing Pershing API
+  slug: open-bny-bank-of-new-york-mellon-pershing-api
+- collection_type: open
+  name: BNY Asset Servicing Treasury Services API
+  slug: open-bny-bank-of-new-york-mellon-treasury-services-api
 - collection_type: open
   name: BNY Markets API
   slug: open-bny-markets-api
@@ -157,7 +172,7 @@ plans:
 - name: Bny Bank Of New York Mellon Plans Pricing
   plan_count: 1
   slug: bny-bank-of-new-york-mellon-plans-pricing
-random_paper: 89
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Bny Bank Of New York Mellon Rate Limits
@@ -188,7 +203,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/screenshots/bny-bank-of-new-york-mellon-2026-06-20T173546.png
 security:

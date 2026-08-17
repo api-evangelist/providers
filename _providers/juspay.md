@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Server-to-server transaction processing against an order.
   name: Juspay Transactions API
   slug: juspay-transactions-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Juspay Express Checkout Customers API
+  slug: open-juspay-customers-api
+- collection_type: open
+  name: Juspay Express Checkout Customers Orders API
+  slug: open-juspay-orders-api
+- collection_type: open
+  name: Juspay Express Checkout Customers Refunds API
+  slug: open-juspay-refunds-api
+- collection_type: open
+  name: Juspay Express Checkout Customers Session API
+  slug: open-juspay-session-api
+- collection_type: open
+  name: Juspay Express Checkout Customers Transactions API
+  slug: open-juspay-transactions-api
 - collection_type: open
   name: Juspay Express Checkout API
   slug: open-juspay
@@ -124,7 +142,7 @@ plans:
 - name: Juspay Plans Pricing
   plan_count: 3
   slug: juspay-plans-pricing
-random_paper: 68
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Juspay Rate Limits
@@ -155,7 +173,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/screenshots/juspay-2026-07-25T223337.png
 security:

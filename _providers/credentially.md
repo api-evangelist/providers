@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -102,11 +102,78 @@ apis:
 - description: API for managing webhook callback subscriptions
   name: Credentially Subscriptions API
   slug: credentially-subscriptions-api
-artifact_total: 27
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Credentially Webhooks
   slug: credentially-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Credentially Public Compliance-packages API
+  slug: open-credentially-compliance-packages-api
+- collection_type: open
+  name: Credentially Public Compliance-packages DBS API
+  slug: open-credentially-dbs-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Dictionary API
+  slug: open-credentially-dictionary-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Document Auto-fill API
+  slug: open-credentially-document-auto-fill-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Documents API
+  slug: open-credentially-documents-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Employee Placements API
+  slug: open-credentially-employee-placements-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Jurisdictions API
+  slug: open-credentially-jurisdictions-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Location Types API
+  slug: open-credentially-location-types-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Locations API
+  slug: open-credentially-locations-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Meta API
+  slug: open-credentially-meta-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Organisation Groups API
+  slug: open-credentially-organisation-groups-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Placement Notes API
+  slug: open-credentially-placement-notes-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Placement Roles API
+  slug: open-credentially-placement-roles-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Placements API
+  slug: open-credentially-placements-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Profile Groups API
+  slug: open-credentially-profile-groups-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Profiles API
+  slug: open-credentially-profiles-api
+- collection_type: open
+  name: Credentially Public Compliance-packages References API
+  slug: open-credentially-references-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Right to Work API
+  slug: open-credentially-right-to-work-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Stage Placements API
+  slug: open-credentially-stage-placements-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Stages API
+  slug: open-credentially-stages-api
+- collection_type: open
+  name: Credentially Public Compliance-packages Subscriptions API
+  slug: open-credentially-subscriptions-api
 common:
 - group: other
   title: ''
@@ -247,7 +314,7 @@ overview: 'Credentially publishes 21 APIs on the [APIs.io](https://apis.io/) net
 
 
   Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 80
+random_paper: 88
 score:
   band: developing
   composite: 54.8
@@ -277,7 +344,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/screenshots/credentially-2026-07-25T210710.png
 security:

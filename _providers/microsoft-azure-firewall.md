@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Operations operations
   name: Azure Firewall Operations API
   slug: microsoft-azure-firewall-operations-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Firewall REST Firewalls API
+  slug: open-microsoft-azure-firewall-firewalls-api
+- collection_type: open
+  name: Azure Firewall REST Firewalls Operations API
+  slug: open-microsoft-azure-firewall-operations-api
 - collection_type: open
   name: Azure Firewall REST API
   slug: open-microsoft-azure-firewall
@@ -115,7 +124,7 @@ plans:
 - name: Microsoft Azure Firewall Plans Pricing
   plan_count: 3
   slug: microsoft-azure-firewall-plans-pricing
-random_paper: 77
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Firewall Rate Limits
@@ -145,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/screenshots/microsoft-azure-firewall-2026-06-20T185416.png
 security:

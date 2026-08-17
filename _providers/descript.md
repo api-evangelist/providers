@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Users of Descript currently have three options to export their edited content. They can export files in various formats, share a Descript link, or use our [one-click cloud export](https://help.descrip
   name: Descript Export from Descript API
   slug: descript-export-from-descript-api
-artifact_total: 28
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Descript API Endpoints API
+  slug: open-descript-api-endpoints-api
+- collection_type: open
+  name: Descript API Endpoints Edit in Descript API
+  slug: open-descript-edit-in-descript-api
+- collection_type: open
+  name: Descript API Endpoints Export from Descript API
+  slug: open-descript-export-from-descript-api
 - collection_type: open
   name: Descript API
   slug: open-descript
@@ -195,7 +207,7 @@ plans:
 - name: Descript Plans Pricing
   plan_count: 5
   slug: descript-plans-pricing
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Descript Rate Limits
@@ -220,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/screenshots/descript-2026-06-20T175933.png
 security:

@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 62.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,7 +58,7 @@ apis:
 - description: Inspect individual URLs to retrieve detailed indexing, crawling, and serving information. Check whether a URL is indexed, view crawl details, mobile usability status, and rich results eligibility.
   name: Google Search Console URL Inspection API
   slug: google-search-console-url-inspection-api
-artifact_total: 103
+artifact_total: 111
 collections:
 - collection_type: postman
   name: Google Search Console Search Analytics API
@@ -72,9 +73,130 @@ collections:
   name: Google Search Console Search Analytics URL Inspection API
   slug: postman-google-search-console-url-inspection-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Search Console API
   slug: open-google-search-console-api
+- collection_type: open
+  name: Google Web Search Indexing API
+  slug: open-google-search-console-indexing-api
+- collection_type: open
+  name: Google Search Console Search Analytics API
+  slug: open-google-search-console-search-analytics-api
+- collection_type: open
+  name: Google Search Console Search Analytics Sitemaps API
+  slug: open-google-search-console-sitemaps-api
+- collection_type: open
+  name: Google Search Console Search Analytics Sites API
+  slug: open-google-search-console-sites-api
+- collection_type: open
+  name: Google Search Console Search Analytics URL Inspection API
+  slug: open-google-search-console-url-inspection-api
+- collection_type: open
+  name: Google Search Console URL Testing Tools API
+  slug: open-google-search-console-url-testing-tools-api
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-search-console-packages.yml
+- group: build
+  title: First-party client libraries with published versions and release dates
+  type: SDKs
+  url: packages/google-search-console-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-search-console-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-search-console-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/google-search-console-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/google-search-console-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-search-console-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-search-console-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-search-console-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-search-console-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-search-console-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-search-console-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-search-console-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-search-console-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-search-console-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/google-search-console-finops.yml
+- group: design
+  title: JSON Schema Spectral Rules
+  type: SpectralRules
+  url: rules/google-search-console-jsonschema-spectral-rules.yml
+- group: operate
+  title: Google Search Status Dashboard
+  type: StatusPage
+  url: https://status.search.google.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/webmaster-tools
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/webmaster-tools/v1/api_reference_index
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.google.com/webmaster-tools/v1/quickstart/quickstart-python
+- group: commercial
+  title: Usage limits (the API is free; quotas are the constraint)
+  type: Pricing
+  url: https://developers.google.com/webmaster-tools/limits
+- group: start
+  title: ''
+  type: SignUp
+  url: https://search.google.com/search-console/welcome
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/googleapis
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -148,7 +270,7 @@ common:
   type: SpectralRules
   url: rules/google-search-console-spectral-rules.yml
 created: '2024-01-01'
-description: The Google Search Console API provides programmatic access to Search Console data, allowing you to monitor and maintain your site's presence in Google Search results.
+description: 'Google Search Console gives site owners programmatic access to how their site appears in Google Search. Three separately versioned Google APIs make up the surface: the Search Console API for search analytics, sitemaps, site management and URL inspection; the URL Testing Tools API for the mobile-friendly test; and the Web Search Indexing API for telling Google that a page was published, updated or removed. All three are free of charge, authenticate with Google OAuth 2.0 against accounts.google.com, are authorized per verified property rather than per Cloud project, and are described by Google Discovery documents rather than a published OpenAPI.'
 examples:
 - key_count: 2
   name: Google Search Console Detected Items Example
@@ -381,22 +503,26 @@ jsonld:
   property_count: 0
   slug: google-search-console-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: google-search-console-mcp.yml
+  slug: google-search-console-mcpyml
+modified: '2026-08-13'
 name: Google Search Console
 nav: Providers
 network: true
-overview: 'Google Search Console publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Search Analytics API, Sitemaps API, Sites API, and 1 more. Tagged areas include Analytics, Google, Search, SEO, and Webmaster Tools.
+overview: 'Google Search Console publishes 6 APIs on the [APIs.io](https://apis.io/) network, including URL Testing Tools API, Google Indexing API, Search Analytics API, and 3 more. Tagged areas include Analytics, Google, Indexing, Search, and Search Analytics.
 
 
   The Google Search Console catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Search Console''s developer surface includes authentication, engineering blog, support, developer console, and 14 more developer resources.'
+  Google Search Console''s developer surface includes changelog, documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 36 more developer resources.'
 plans:
 - name: Google Search Console Plans Pricing
   plan_count: 1
   slug: google-search-console-plans-pricing
-random_paper: 72
+random_paper: 26
 rate_limits:
 - limit_count: 11
   name: Google Search Console Rate Limits
@@ -420,20 +546,20 @@ rules:
   slug: google-search-console-spectral-rules
 scopes:
 - name: Google Search Console Scopes
-  scope_count: 2
+  scope_count: 3
   slug: google-search-console-scopes
-  summary_line: 2 scopes · authorizationCode
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.1
-  delta: 0.0
+  band: exemplar
+  composite: 72.2
+  delta: 21.1
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 73.1
-    developer_ergonomics: 43.5
-    discoverability: 72.2
-    governance: 58.3
-    operational_transparency: 23.7
+    commercial_clarity: 57.9
+    contract_quality: 72.4
+    developer_ergonomics: 84.8
+    discoverability: 88.9
+    governance: 79.2
+    operational_transparency: 55.3
   previous_composite: 51.1
   provenance:
     agentic_access: derived
@@ -443,8 +569,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/screenshots/google-search-console-2026-06-20T182231.png
 security:
 - kind: authentication
@@ -463,8 +589,12 @@ slug: google-search-console
 tags:
 - Analytics
 - Google
+- Indexing
 - Search
+- Search Analytics
 - SEO
+- Sitemaps
+- URL Inspection
 - Webmaster Tools
 use_cases:
 - description: Track organic search performance metrics to identify trends, measure optimization impact, and report on search visibility.

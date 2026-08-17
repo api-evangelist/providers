@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -39,30 +39,74 @@ common:
   title: ''
   type: Website
   url: http://www.digitalroominc.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/digital-room-llms.txt
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.digitalroominc.com/privacy-policy.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.digitalroominc.com/contact-us.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Packlane
+coverage:
+  checked: '2026-08-13'
+  detail: Digital Room manufactures and sells physical print, signage, packaging and apparel through ten consumer storefronts — its software is the checkout, not the product — so there is no /api, /developer or /developers path anywhere on the corporate site, and the one partner channel, the eSigns broker/reseller program, is a checkout discount code that names no API, feed or EDI path.
+  evidence:
+  - status: 404
+    url: https://www.digitalroominc.com/api
+  - status: 404
+    url: https://www.digitalroominc.com/developers
+  - status: 404
+    url: https://www.uprinting.com/openapi.json
+  - status: 404
+    url: https://www.digitalroominc.com/.well-known/agent-card.json
+  - status: 200
+    url: https://www.uprinting.com/llms.txt
+  reason: not-a-software-company
+  state: none
 created: '2026-07-17'
-description: Digital Room is a marketing and printing services company that for nearly three decades has helped small and medium-sized businesses reach customers, promote products, and build their brands. It operates a family of online printing and marketing brands serving SMBs with print, signage, and promotional products. Backed by Insight Partners, it was added to the API Evangelist network as a portfolio company. As of this enrichment pass the company publishes no public developer API, developer portal, or API documentation; this profile captures its identity and domain-security posture.
+description: Digital Room is an e-commerce and manufacturing company that for nearly three decades has helped small and medium-sized businesses reach customers, promote products, and build their brands. It sells customized marketing products through ten uniquely branded storefronts — UPrinting, Signs.com, NextDayFlyers, PrintPlace, PrintRunner, eSigns, 48HourPrint, LogoSportswear, Packlane and Packola — backed by purpose-built ordering and design software and a coast-to-coast production network of nine U.S. facilities plus two in the Philippines, covering print, signage, packaging, apparel and promotional products. Sycamore Partners acquired the company from H.I.G. Capital in December 2021; Insight Partners is also an investor, which is how it entered the API Evangelist network. Digital Room publishes no public API, developer portal, OpenAPI definition, MCP server or agent card. Its one machine-readable agent surface is llms.txt — all ten brand storefronts serve a substantive, hand-authored
+  file, several with explicit "For AI Agents" routing instructions, while the corporate host serves none.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digital-room.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Digital Room
 nav: Providers
 network: true
-overview: Digital Room is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Printing, Print, and Ecommerce.
-random_paper: 24
+overview: 'Digital Room is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Printing, Print, and Ecommerce.
+
+
+  Digital Room''s developer surface includes support and 5 more developer resources.'
+plans:
+- name: Digital Room Plans Pricing
+  plan_count: 0
+  slug: digital-room-plans-pricing
+random_paper: 32
+rate_limits:
+- limit_count: 0
+  name: Digital Room Rate Limits
+  slug: digital-room-rate-limits
 score:
   band: minimal
-  composite: 5.0
-  delta: 0.0
+  composite: 9.4
+  delta: 4.4
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 4.3
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-room/refs/heads/main/screenshots/digital-room-2026-07-25T212021.png
 security:
@@ -79,5 +123,9 @@ tags:
 - Ecommerce
 - Small Business
 - Promotional Products
+- Packaging
+- Signage
+- Apparel
+- Manufacturing
 website: http://www.digitalroominc.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -87,7 +87,53 @@ apis:
 - description: The status API from DataCite — 1 operation(s) for status.
   name: DataCite status API
   slug: datacite-status-api
-artifact_total: 24
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: REST activities API
+  slug: open-datacite-activities-api
+- collection_type: open
+  name: REST activities client-prefixes API
+  slug: open-datacite-client-prefixes-api
+- collection_type: open
+  name: REST activities clients API
+  slug: open-datacite-clients-api
+- collection_type: open
+  name: REST activities dois API
+  slug: open-datacite-dois-api
+- collection_type: open
+  name: REST activities events API
+  slug: open-datacite-events-api
+- collection_type: open
+  name: REST activities heartbeat API
+  slug: open-datacite-heartbeat-api
+- collection_type: open
+  name: REST activities prefixes API
+  slug: open-datacite-prefixes-api
+- collection_type: open
+  name: REST activities provider-prefixes API
+  slug: open-datacite-provider-prefixes-api
+- collection_type: open
+  name: REST activities providers API
+  slug: open-datacite-providers-api
+- collection_type: open
+  name: REST activities publishers API
+  slug: open-datacite-publishers-api
+- collection_type: open
+  name: REST activities report_types API
+  slug: open-datacite-report-types-api
+- collection_type: open
+  name: REST activities reports API
+  slug: open-datacite-reports-api
+- collection_type: open
+  name: REST activities repositories API
+  slug: open-datacite-repositories-api
+- collection_type: open
+  name: REST activities status API
+  slug: open-datacite-status-api
 common:
 - group: agent
   title: ''
@@ -189,7 +235,7 @@ plans:
 - name: Datacite Plans Pricing
   plan_count: 6
   slug: datacite-plans-pricing
-random_paper: 111
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Datacite Rate Limits
@@ -214,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/screenshots/datacite-2026-06-20T175634.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 6
@@ -134,7 +134,107 @@ apis:
 - description: Workbook management
   name: Ask Sage Workbooks API
   slug: ask-sage-workbooks-api
-artifact_total: 37
+artifact_total: 70
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ask Sage Server Admin API
+  slug: open-ask-sage-admin-api
+- collection_type: open
+  name: Ask Sage Server Admin Agent Builder API
+  slug: open-ask-sage-agent-builder-api
+- collection_type: open
+  name: Ask Sage Server Admin Allocation API
+  slug: open-ask-sage-allocation-api
+- collection_type: open
+  name: Ask Sage Server Admin API Key Management API
+  slug: open-ask-sage-api-key-management-api
+- collection_type: open
+  name: Ask Sage Server Admin Audio API
+  slug: open-ask-sage-audio-api
+- collection_type: open
+  name: Ask Sage Server Admin Authentication API
+  slug: open-ask-sage-authentication-api
+- collection_type: open
+  name: Ask Sage Server Admin Chat Management API
+  slug: open-ask-sage-chat-management-api
+- collection_type: open
+  name: Ask Sage Server Admin Completions API
+  slug: open-ask-sage-completions-api
+- collection_type: open
+  name: Ask Sage Server Admin Configuration API
+  slug: open-ask-sage-configuration-api
+- collection_type: open
+  name: Ask Sage Server Admin Dataset Management API
+  slug: open-ask-sage-dataset-management-api
+- collection_type: open
+  name: Ask Sage Server Admin Datasets API
+  slug: open-ask-sage-datasets-api
+- collection_type: open
+  name: Ask Sage Server Admin Deep Agent API
+  slug: open-ask-sage-deep-agent-api
+- collection_type: open
+  name: Ask Sage Server Admin Execute Agent API
+  slug: open-ask-sage-execute-agent-api
+- collection_type: open
+  name: Ask Sage Server Admin Feedback API
+  slug: open-ask-sage-feedback-api
+- collection_type: open
+  name: Ask Sage Server Admin Files API
+  slug: open-ask-sage-files-api
+- collection_type: open
+  name: Ask Sage Server Admin List Agents API
+  slug: open-ask-sage-list-agents-api
+- collection_type: open
+  name: Ask Sage Server Admin MCP Servers API
+  slug: open-ask-sage-mcp-servers-api
+- collection_type: open
+  name: Ask Sage Server Admin Memos API
+  slug: open-ask-sage-memos-api
+- collection_type: open
+  name: Ask Sage Server Admin Models API
+  slug: open-ask-sage-models-api
+- collection_type: open
+  name: Ask Sage Server Admin Plugins API
+  slug: open-ask-sage-plugins-api
+- collection_type: open
+  name: Ask Sage Server Admin Sources API
+  slug: open-ask-sage-sources-api
+- collection_type: open
+  name: Ask Sage Server Admin Superadmin API
+  slug: open-ask-sage-superadmin-api
+- collection_type: open
+  name: Ask Sage Server Admin System API
+  slug: open-ask-sage-system-api
+- collection_type: open
+  name: Ask Sage Server Admin Tabular Data API
+  slug: open-ask-sage-tabular-data-api
+- collection_type: open
+  name: Ask Sage Server Admin Token Requests API
+  slug: open-ask-sage-token-requests-api
+- collection_type: open
+  name: Ask Sage Server Admin Training API
+  slug: open-ask-sage-training-api
+- collection_type: open
+  name: Ask Sage Server Admin Usage API
+  slug: open-ask-sage-usage-api
+- collection_type: open
+  name: Ask Sage Server Admin User Information API
+  slug: open-ask-sage-user-information-api
+- collection_type: open
+  name: Ask Sage Server Admin User Management API
+  slug: open-ask-sage-user-management-api
+- collection_type: open
+  name: Ask Sage Server Admin Utilities API
+  slug: open-ask-sage-utilities-api
+- collection_type: open
+  name: Ask Sage Server Admin Widgets API
+  slug: open-ask-sage-widgets-api
+- collection_type: open
+  name: Ask Sage Server Admin Workbooks API
+  slug: open-ask-sage-workbooks-api
 common:
 - group: other
   title: ''
@@ -272,7 +372,7 @@ overview: 'Ask Sage publishes 32 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ask Sage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 60
+random_paper: 35
 score:
   band: developing
   composite: 49.6
@@ -302,7 +402,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/screenshots/ask-sage-2026-07-25T201421.png
 security:

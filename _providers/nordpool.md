@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,12 +69,39 @@ apis:
 - description: The System API from Nord Pool — 4 operation(s) for system.
   name: Nord Pool System API
   slug: nordpool-system-api
-artifact_total: 21
+artifact_total: 30
 asyncapis:
 - description: Nord Pool's Intraday Trading API is a genuine WebSocket API. Clients open secure WebSocket connections (port 443) and speak STOMP over them to two web services - a Market Data service (public market d
   name: Nord Pool Intraday Trading API (WebSocket/STOMP)
   slug: nordpool-intraday-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nord Pool Data Portal API (Public) Auction API
+  slug: open-nordpool-auction-api
+- collection_type: open
+  name: Nord Pool Data Portal API (Public) Auction BalanceMarket API
+  slug: open-nordpool-balancemarket-api
+- collection_type: open
+  name: Nord Pool Data Portal API (Public) Auction Day-Ahead Prices API
+  slug: open-nordpool-day-ahead-prices-api
+- collection_type: open
+  name: Nord Pool Data Portal API (Public) Auction ExchangeRate API
+  slug: open-nordpool-exchangerate-api
+- collection_type: open
+  name: Nord Pool Data Portal API (Public) Auction Intraday API
+  slug: open-nordpool-intraday-api
+- collection_type: open
+  name: Nord Pool Data Portal API (Public) Auction PowerSystem API
+  slug: open-nordpool-powersystem-api
+- collection_type: open
+  name: Nord Pool Data Portal API (Public) Auction PriceCurves API
+  slug: open-nordpool-pricecurves-api
+- collection_type: open
+  name: Nord Pool Data Portal API (Public) Auction System API
+  slug: open-nordpool-system-api
 - collection_type: open
   name: Nord Pool Market Data API
   slug: open-nordpool
@@ -154,7 +181,7 @@ plans:
 - name: Nordpool Plans Pricing
   plan_count: 5
   slug: nordpool-plans-pricing
-random_paper: 37
+random_paper: 132
 rate_limits:
 - limit_count: 5
   name: Nordpool Rate Limits
@@ -199,7 +226,7 @@ score:
     regime_id: energy_utilities
     score: 47.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/screenshots/nordpool-2026-08-07T185517.png
 security:

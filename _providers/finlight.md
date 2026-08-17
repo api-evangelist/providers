@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: Available news sources and their configuration
   name: Finlight Sources API
   slug: finlight-sources-api
-artifact_total: 19
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Finlight Financial News Articles API
+  slug: open-finlight-articles-api
+- collection_type: open
+  name: Finlight Financial News Articles Sources API
+  slug: open-finlight-sources-api
 common:
 - group: agent
   title: ''
@@ -154,7 +164,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 13
+random_paper: 108
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -194,7 +204,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/screenshots/finlight-2026-06-20T181218.png
 security:

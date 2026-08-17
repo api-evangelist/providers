@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Discover mock SaaS providers granted to your organization
@@ -37,7 +37,17 @@ apis:
 - description: Provision short-lived hosted mock SaaS APIs
   name: Ressl Snapshots API
   slug: ressl-ai-snapshots-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ressl Platform Providers API
+  slug: open-ressl-ai-providers-api
+- collection_type: open
+  name: Ressl Platform Providers Snapshots API
+  slug: open-ressl-ai-snapshots-api
 common:
 - group: auth
   title: ''
@@ -139,7 +149,7 @@ overview: 'Ressl publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pr
 
 
   Ressl''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, and 15 more developer resources.'
-random_paper: 80
+random_paper: 55
 score:
   band: thin
   composite: 40.5
@@ -162,7 +172,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ arazzos:
 - description: Discover the viewer's home over GraphQL, then submit a manual meter reading for that home with the sendMeterReading mutation.
   name: Tibber Submit Meter Reading
   slug: tibber-submit-meter-reading-workflow
-artifact_total: 71
+artifact_total: 75
 collections:
 - collection_type: postman
   name: Tibber Data API
@@ -85,11 +85,23 @@ collections:
   name: Tibber GraphQL API
   slug: postman-tibber-graphql-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Tibber Data API
   slug: open-tibber-data-api
 - collection_type: open
-  name: Tibber GraphQL API
+  name: Tibber Data Devices API
+  slug: open-tibber-devices-api
+- collection_type: open
+  name: Tibber Data Devices GraphQL API
   slug: open-tibber-graphql-api
+- collection_type: open
+  name: Tibber Data Devices History API
+  slug: open-tibber-history-api
+- collection_type: open
+  name: Tibber Data Devices Homes API
+  slug: open-tibber-homes-api
 common:
 - group: commercial
   title: ''
@@ -397,7 +409,7 @@ plans:
 - name: Tibber Plans Pricing
   plan_count: 4
   slug: tibber-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Tibber Rate Limits
@@ -450,7 +462,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:

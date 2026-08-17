@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -66,7 +66,32 @@ apis:
 - description: Signers are responsible for signing the transactions related to the relayers.
   name: OpenZeppelin Signers API
   slug: openzeppelin-signers-api
-artifact_total: 24
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenZeppelin Relayer Health API
+  slug: open-openzeppelin-health-api
+- collection_type: open
+  name: OpenZeppelin Relayer Health Metrics API
+  slug: open-openzeppelin-metrics-api
+- collection_type: open
+  name: OpenZeppelin Relayer Health Networks API
+  slug: open-openzeppelin-networks-api
+- collection_type: open
+  name: OpenZeppelin Relayer Health Notifications API
+  slug: open-openzeppelin-notifications-api
+- collection_type: open
+  name: OpenZeppelin Relayer Health Plugins API
+  slug: open-openzeppelin-plugins-api
+- collection_type: open
+  name: OpenZeppelin Relayer Health Relayers API
+  slug: open-openzeppelin-relayers-api
+- collection_type: open
+  name: OpenZeppelin Relayer Health Signers API
+  slug: open-openzeppelin-signers-api
 common:
 - group: commercial
   title: ''
@@ -196,7 +221,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 105
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Rate Limits
@@ -230,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/screenshots/openzeppelin-2026-06-20T191058.png
 security:

@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-12'
+  score: 45.7
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The Compliance API from Zaius — 7 operation(s) for compliance.
@@ -82,7 +82,62 @@ apis:
 - description: The Relationships schema API from Zaius — 2 operation(s) for relationships schema.
   name: Zaius Relationships schema API
   slug: zaius-relationships-schema-api
-artifact_total: 22
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Advanced Compliance API
+  slug: open-zaius-compliance-api
+- collection_type: open
+  name: Advanced Compliance Consent API
+  slug: open-zaius-consent-api
+- collection_type: open
+  name: Advanced Compliance Consent (Legacy) API
+  slug: open-zaius-consent-legacy-api
+- collection_type: open
+  name: Advanced Compliance Customers API
+  slug: open-zaius-customers-api
+- collection_type: open
+  name: Advanced Compliance Events API
+  slug: open-zaius-events-api
+- collection_type: open
+  name: Advanced Compliance Exports API
+  slug: open-zaius-exports-api
+- collection_type: open
+  name: Advanced Compliance Fields schema API
+  slug: open-zaius-fields-schema-api
+- collection_type: open
+  name: Advanced Compliance Identifiers API
+  slug: open-zaius-identifiers-api
+- collection_type: open
+  name: Advanced Compliance Lists API
+  slug: open-zaius-lists-api
+- collection_type: open
+  name: Advanced Compliance Object schema API
+  slug: open-zaius-object-schema-api
+- collection_type: open
+  name: Advanced Compliance Objects API
+  slug: open-zaius-objects-api
+- collection_type: open
+  name: Advanced Compliance Orders API
+  slug: open-zaius-orders-api
+- collection_type: open
+  name: Advanced Compliance Products API
+  slug: open-zaius-products-api
+- collection_type: open
+  name: Advanced Compliance Reachability API
+  slug: open-zaius-reachability-api
+- collection_type: open
+  name: Advanced Compliance RealtimeSegments API
+  slug: open-zaius-realtimesegments-api
+- collection_type: open
+  name: Advanced Compliance Recommendations API
+  slug: open-zaius-recommendations-api
+- collection_type: open
+  name: Advanced Compliance Relationships schema API
+  slug: open-zaius-relationships-schema-api
 common:
 - group: company
   title: ''
@@ -212,34 +267,66 @@ common:
   title: ''
   type: Overlay
   url: overlays/zaius-events-overlay.yaml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/zaius-changelog.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/zaius-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/zaius-plans-pricing.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/zaius-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/zaius-sandbox.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/zaius-tool-crosswalk.yml
 created: '2026-07-17'
 description: Zaius is the B2C marketing customer data platform (CDP) that Optimizely acquired in 2021 and now operates as the Optimizely Data Platform (ODP). It unifies customer, event, order, product, and custom data into a single behavioral profile, powers real-time audience segmentation, and drives personalization and orchestrated cross-channel campaigns. ODP exposes a versioned (v3) REST API surface across regional hosts (US/EU/AU) for events, customers, orders, products, objects, lists, consent, exports, schema management, recommendations, and real-time segments, plus a GraphQL query API and Web / React Native / Node SDKs. Authentication is via public (Tracker ID) and private x-api-key keys. Originally a portfolio company of Insight Partners.
-image: https://www.optimizely.com/products/data-platform
+image: https://images3.cmp.optimizely.com/Zz1hOTU5MjFjNDY5MWYxMWYxOTU5NmZlODFjZDBjMWExMg==?width=1200
 layout: provider
 mcp_servers:
 - description: ''
   name: zaius-mcp.yml
   slug: zaius-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Zaius
 nav: Providers
 network: true
 overview: 'Zaius publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Compliance API, Consent API, Consent (Legacy) API, and 14 more. Tagged areas include Company, Customer Data Platform, CDP, Marketing, and Personalization.
 
 
-  Zaius'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 76
+  Zaius'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Zaius Plans Pricing
+  plan_count: 0
+  slug: zaius-plans-pricing
+random_paper: 109
+rate_limits:
+- limit_count: 6
+  name: Zaius Rate Limits
+  slug: zaius-rate-limits
 score:
   band: strong
-  composite: 57.7
-  delta: 0.0
+  composite: 65.5
+  delta: 7.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.0
-    developer_ergonomics: 62.5
-    discoverability: 81.5
+    developer_ergonomics: 75.5
+    discoverability: 92.6
     governance: 20.8
-    operational_transparency: 55.3
+    operational_transparency: 86.8
   previous_composite: 57.7
   provenance:
     conformance: first-party
@@ -251,8 +338,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Zaius Authentication

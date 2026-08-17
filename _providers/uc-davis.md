@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -75,7 +75,38 @@ apis:
 - description: The Workstations API from University of California, Davis — 13 operation(s) for workstations.
   name: University of California, Davis Workstations API
   slug: uc-davis-workstations-api
-artifact_total: 29
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PEAKS API v1 Access API
+  slug: open-uc-davis-access-api
+- collection_type: open
+  name: PEAKS API v1 Access Documents API
+  slug: open-uc-davis-documents-api
+- collection_type: open
+  name: PEAKS API v1 Access Equipment API
+  slug: open-uc-davis-equipment-api
+- collection_type: open
+  name: PEAKS API v1 Access Keys API
+  slug: open-uc-davis-keys-api
+- collection_type: open
+  name: PEAKS API v1 Access KeySerials API
+  slug: open-uc-davis-keyserials-api
+- collection_type: open
+  name: PEAKS API v1 Access People API
+  slug: open-uc-davis-people-api
+- collection_type: open
+  name: PEAKS API v1 Access PeopleAdmin API
+  slug: open-uc-davis-peopleadmin-api
+- collection_type: open
+  name: PEAKS API v1 Access Spaces API
+  slug: open-uc-davis-spaces-api
+- collection_type: open
+  name: PEAKS API v1 Access Workstations API
+  slug: open-uc-davis-workstations-api
 common:
 - group: agent
   title: ''
@@ -180,7 +211,7 @@ plans:
 - name: Uc Davis Plans Pricing
   plan_count: 2
   slug: uc-davis-plans-pricing
-random_paper: 76
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Uc Davis Rate Limits
@@ -228,7 +259,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/screenshots/uc-davis-2026-06-20T195938.png
 security:

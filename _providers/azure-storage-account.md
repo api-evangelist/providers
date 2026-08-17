@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -66,7 +66,7 @@ apis:
 - description: The StorageAccounts API from Azure Storage Account — 11 operation(s) for storageaccounts.
   name: Azure Storage Account StorageAccounts API
   slug: azure-storage-account-storageaccounts-api
-artifact_total: 166
+artifact_total: 176
 collections:
 - collection_type: postman
   name: StorageManagementClient BlobContainers API
@@ -95,6 +95,36 @@ collections:
 - collection_type: postman
   name: StorageManagementClient BlobContainers StorageAccounts API
   slug: postman-azure-storage-account-storageaccounts-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: StorageManagementClient BlobContainers API
+  slug: open-azure-storage-account-blobcontainers-api
+- collection_type: open
+  name: StorageManagementClient BlobContainers BlobService API
+  slug: open-azure-storage-account-blobservice-api
+- collection_type: open
+  name: StorageManagementClient BlobContainers LocationUsage API
+  slug: open-azure-storage-account-locationusage-api
+- collection_type: open
+  name: StorageManagementClient BlobContainers ManagementPolicies API
+  slug: open-azure-storage-account-managementpolicies-api
+- collection_type: open
+  name: StorageManagementClient BlobContainers Operations API
+  slug: open-azure-storage-account-operations-api
+- collection_type: open
+  name: StorageManagementClient BlobContainers PrivateEndpointConnections API
+  slug: open-azure-storage-account-privateendpointconnections-api
+- collection_type: open
+  name: StorageManagementClient BlobContainers PrivateLinkResources API
+  slug: open-azure-storage-account-privatelinkresources-api
+- collection_type: open
+  name: StorageManagementClient BlobContainers Skus API
+  slug: open-azure-storage-account-skus-api
+- collection_type: open
+  name: StorageManagementClient BlobContainers StorageAccounts API
+  slug: open-azure-storage-account-storageaccounts-api
 common:
 - group: build
   title: ''
@@ -601,7 +631,7 @@ plans:
 - name: Azure Storage Account Plans Pricing
   plan_count: 5
   slug: azure-storage-account-plans-pricing
-random_paper: 107
+random_paper: 61
 rate_limits:
 - limit_count: 13
   name: Azure Storage Account Rate Limits
@@ -648,7 +678,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-storage-account/refs/heads/main/screenshots/azure-storage-account-2026-06-20T172908.png
 security:

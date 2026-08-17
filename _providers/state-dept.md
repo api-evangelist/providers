@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Current US Department of State travel advisories for countries worldwide, with alert levels ranging from 1 (Exercise Normal Precautions) to 4 (Do Not Travel)
   name: State Department Travel Advisories API
   slug: state-dept-travel-advisories-api
-artifact_total: 15
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: State Department Consular Affairs Data Country Information API
+  slug: open-state-dept-country-information-api
+- collection_type: open
+  name: State Department Consular Affairs Data Country Information Passport Locations API
+  slug: open-state-dept-passport-locations-api
+- collection_type: open
+  name: State Department Consular Affairs Data Country Information Travel Advisories API
+  slug: open-state-dept-travel-advisories-api
 common:
 - group: agent
   title: ''
@@ -138,7 +151,7 @@ plans:
 - name: State Dept Plans Pricing
   plan_count: 1
   slug: state-dept-plans-pricing
-random_paper: 59
+random_paper: 125
 rate_limits:
 - limit_count: 1
   name: State Dept Rate Limits
@@ -178,7 +191,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-dept/refs/heads/main/screenshots/state-dept-2026-06-20T194519.png
 security:

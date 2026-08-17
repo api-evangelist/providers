@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: 'The Lumen Developer Center publishes Lumen''s enterprise API catalog, including Location, Quote, Order (PX CreateOrder), Service Inventory, Billing, Outbound Notification, and Trouble Ticket APIs. All '
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Finance Press
   url: https://centurylink.net/finance/category/press
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Centurylink Rate Limits
@@ -148,7 +148,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/screenshots/centurylink-2026-06-20T174132.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,12 +60,33 @@ apis:
 - description: Authentication and session management
   name: Interactive Brokers Sessions API
   slug: interactive-brokers-sessions-api
-artifact_total: 17
+artifact_total: 24
 asyncapis:
 - description: 'AsyncAPI definition for the Interactive Brokers (IBKR) Client Portal Web API streaming WebSocket endpoint. The Client Portal API exposes a single WebSocket endpoint at `/v1/api/ws` over which clients '
   name: Interactive Brokers Client Portal API WebSocket
   slug: interactive-brokers-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Interactive Brokers Web Accounts API
+  slug: open-interactive-brokers-accounts-api
+- collection_type: open
+  name: Interactive Brokers Web Accounts Contracts API
+  slug: open-interactive-brokers-contracts-api
+- collection_type: open
+  name: Interactive Brokers Web Accounts Market Data API
+  slug: open-interactive-brokers-market-data-api
+- collection_type: open
+  name: Interactive Brokers Web Accounts Orders API
+  slug: open-interactive-brokers-orders-api
+- collection_type: open
+  name: Interactive Brokers Web Accounts Portfolio API
+  slug: open-interactive-brokers-portfolio-api
+- collection_type: open
+  name: Interactive Brokers Web Accounts Sessions API
+  slug: open-interactive-brokers-sessions-api
 - collection_type: open
   name: Interactive Brokers Web API
   slug: open-interactive-brokers-web-api
@@ -133,7 +154,7 @@ plans:
 - name: Interactive Brokers Plans Pricing
   plan_count: 3
   slug: interactive-brokers-plans-pricing
-random_paper: 67
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Interactive Brokers Rate Limits
@@ -178,7 +199,7 @@ score:
     regime_id: securities_market_data
     score: 46.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The Visits Reports API from Placer — 7 operation(s) for visits reports.
   name: Placer Visits Reports API
   slug: placer-visits-reports-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: papi Account Info API
+  slug: open-placer-account-info-api
+- collection_type: open
+  name: papi Account Info Loyalty Reports API
+  slug: open-placer-loyalty-reports-api
+- collection_type: open
+  name: papi Account Info Manage POIs API
+  slug: open-placer-manage-pois-api
+- collection_type: open
+  name: papi Account Info Ranking Reports API
+  slug: open-placer-ranking-reports-api
+- collection_type: open
+  name: papi Account Info Retail Sales Reports API
+  slug: open-placer-retail-sales-reports-api
+- collection_type: open
+  name: papi Account Info Trade Area Reports API
+  slug: open-placer-trade-area-reports-api
+- collection_type: open
+  name: papi Account Info Visitor Journey Reports API
+  slug: open-placer-visitor-journey-reports-api
+- collection_type: open
+  name: papi Account Info Visits Reports API
+  slug: open-placer-visits-reports-api
 common:
 - group: company
   title: ''
@@ -188,7 +216,7 @@ overview: 'Placer publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Placer''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 20 more developer resources.'
-random_paper: 31
+random_paper: 35
 rate_limits:
 - limit_count: 7
   name: Placer Rate Limits
@@ -216,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

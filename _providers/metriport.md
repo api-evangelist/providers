@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -73,8 +74,36 @@ arazzos:
 - description: Create a devices user, mint a Connect Widget session token, then pull the user's activity and biometrics data from connected wearables.
   name: Metriport Wearables Connect
   slug: metriport-wearables-connect-workflow
-artifact_total: 18
+artifact_total: 30
+asyncapis:
+- description: ''
+  name: Metriport Webhooks
+  slug: metriport-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Metriport Consolidated API
+  slug: open-metriport-consolidated-api
+- collection_type: open
+  name: Metriport Consolidated Devices Data API
+  slug: open-metriport-devices-data-api
+- collection_type: open
+  name: Metriport Consolidated Document API
+  slug: open-metriport-document-api
+- collection_type: open
+  name: Metriport Consolidated Facility API
+  slug: open-metriport-facility-api
+- collection_type: open
+  name: Metriport Consolidated Patient API
+  slug: open-metriport-patient-api
+- collection_type: open
+  name: Metriport Consolidated Settings API
+  slug: open-metriport-settings-api
+- collection_type: open
+  name: Metriport Consolidated User API
+  slug: open-metriport-user-api
 - collection_type: open
   name: Metriport API
   slug: open-metriport
@@ -127,6 +156,130 @@ common:
   title: ''
   type: Blog
   url: https://www.metriport.com/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/metriport-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/metriport-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/metriport-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/metriport-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/metriport-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/metriport-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/metriport-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/metriport-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/metriport-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/metriport-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/metriport-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/metriport-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/metriport-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/metriport-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/metriport-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/metriport-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/metriport-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/metriport-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/metriport-webhooks.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.metriport.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://dash.metriport.com/developers
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.metriport.com/medical-api/getting-started/quickstart
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.metriport.com/medical-api/api-reference/patient/create-patient
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.metriport.com/contact-us
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.metriport.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dash.metriport.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.metriport.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.metriport.com/privacy-policy
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/metriport/metriport-api/folder/7zl228v/medical
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/metriport/metriport
 created: '2026-06-21'
 description: Metriport is an open-source, universal API for healthcare data. The Medical API exchanges patient medical records across the CommonWell and Carequality networks and returns consolidated FHIR R4 data, while the Devices API hydrates activity, biometrics, nutrition, and sleep data from consumer wearables and mHealth apps. Companies can use the hosted Metriport cloud or self-host the open-source code to avoid vendor lock-in.
 finops:
@@ -135,34 +288,41 @@ finops:
   slug: metriport-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metriport.png
 layout: provider
-modified: '2026-06-21'
+mcp_servers:
+- description: ''
+  name: metriport-mcp.yml
+  slug: metriport-mcpyml
+modified: '2026-08-14'
 name: Metriport
 nav: Providers
 network: true
 overview: 'Metriport publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Consolidated API, Devices Data API, Document API, and 4 more. Tagged areas include Healthcare, Medical Records, FHIR, Health Data, and Wearables.
 
 
-  Metriport''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  The Metriport catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Metriport''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, API reference, support, and 35 more developer resources.'
 plans:
 - name: Metriport Plans Pricing
   plan_count: 4
   slug: metriport-plans-pricing
-random_paper: 38
+random_paper: 104
 rate_limits:
-- limit_count: 5
+- limit_count: 10
   name: Metriport Rate Limits
   slug: metriport-rate-limits
 score:
-  band: thin
-  composite: 35.0
-  delta: 0.0
+  band: exemplar
+  composite: 68.9
+  delta: 33.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 56.3
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 100.0
+    contract_quality: 65.2
+    developer_ergonomics: 84.8
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 71.1
   previous_composite: 35.0
   provenance:
     agentic_access: derived
@@ -176,10 +336,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 15.0
+    score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/screenshots/metriport-2026-08-07T172739.png
 security:
 - kind: authentication
@@ -190,6 +350,14 @@ security:
   name: Metriport Domain Security
   slug: metriport-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Metriport Vulnerability Disclosure
+  slug: metriport-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Metriport Trust Center
+  slug: metriport-trust-center
+  summary_line: SOC 2 Type II, HIPAA
 slug: metriport
 tags:
 - Healthcare

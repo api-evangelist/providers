@@ -13,28 +13,28 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-12'
+  score: 31.1
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Laurence MCP is a hosted, remote Model Context Protocol server that exposes a read-only set of nine tools over a customer''s Amazon Advertising and Amazon Marketing Stream data — allowed ads profiles, '
   name: Laurence MCP
   slug: mcp
-artifact_total: 5
+artifact_total: 7
 common:
 - group: agent
   title: ''
@@ -68,6 +68,30 @@ common:
   title: ''
   type: DomainSecurity
   url: security/laurence-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/laurence-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/laurence-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/laurence-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/laurence-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/laurence-lifecycle.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -100,6 +124,14 @@ common:
   title: ''
   type: Support
   url: https://www.laurence.com/demo
+- group: start
+  title: ''
+  type: Login
+  url: https://www.laurence.com/auth/signin
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Laurence-AI
 - group: other
   title: ''
   type: Sitemap
@@ -120,15 +152,23 @@ mcp_servers:
 - description: ''
   name: laurence-mcp.yml
   slug: laurence-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Laurence
 nav: Providers
 network: true
 overview: 'Laurence publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Amazon, E-Commerce, and Marketing.
 
 
-  Laurence''s developer surface includes authentication, documentation, engineering blog, signup flow, support, and 14 more developer resources.'
-random_paper: 7
+  Laurence''s developer surface includes authentication, documentation, engineering blog, signup flow, support, and 22 more developer resources.'
+plans:
+- name: Laurence Plans Pricing
+  plan_count: 0
+  slug: laurence-plans-pricing
+random_paper: 102
+rate_limits:
+- limit_count: 0
+  name: Laurence Rate Limits
+  slug: laurence-rate-limits
 scopes:
 - name: Laurence Scopes
   scope_count: 0
@@ -136,21 +176,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 26.0
+  delta: 2.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 41.3
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 24.0
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/screenshots/laurence-2026-07-25T224624.png
 security:

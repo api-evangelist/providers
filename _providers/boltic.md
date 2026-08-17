@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -90,23 +90,71 @@ apis:
 - description: Create and manage automation workflows
   name: Boltic Workflows API
   slug: boltic-workflows-api
-artifact_total: 75
+artifact_total: 91
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Boltic Gateway Certificates API
+  slug: open-boltic-certificates-api
+- collection_type: open
+  name: Boltic Gateway Certificates Consumers API
+  slug: open-boltic-consumers-api
+- collection_type: open
+  name: Boltic Gateway Certificates Destinations API
+  slug: open-boltic-destinations-api
+- collection_type: open
+  name: Boltic Gateway Certificates Events API
+  slug: open-boltic-events-api
+- collection_type: open
+  name: Boltic Gateway Certificates Executions API
+  slug: open-boltic-executions-api
 - collection_type: open
   name: Boltic Gateway API
   slug: open-boltic-gateway-api
 - collection_type: open
-  name: Boltic Pipes API
+  name: Boltic Gateway Certificates Pipes API
   slug: open-boltic-pipes-api
+- collection_type: open
+  name: Boltic Gateway Certificates Plugins API
+  slug: open-boltic-plugins-api
+- collection_type: open
+  name: Boltic Gateway Certificates Queries API
+  slug: open-boltic-queries-api
+- collection_type: open
+  name: Boltic Gateway Certificates Routes API
+  slug: open-boltic-routes-api
+- collection_type: open
+  name: Boltic Gateway Certificates Rows API
+  slug: open-boltic-rows-api
+- collection_type: open
+  name: Boltic Gateway Certificates Services API
+  slug: open-boltic-services-api
+- collection_type: open
+  name: Boltic Gateway Certificates Sources API
+  slug: open-boltic-sources-api
+- collection_type: open
+  name: Boltic Gateway Certificates Stream Sources API
+  slug: open-boltic-stream-sources-api
 - collection_type: open
   name: Boltic Streams API
   slug: open-boltic-streams-api
 - collection_type: open
-  name: Boltic Tables API
+  name: Boltic Gateway Certificates Sync Runs API
+  slug: open-boltic-sync-runs-api
+- collection_type: open
+  name: Boltic Gateway Certificates Tables API
   slug: open-boltic-tables-api
+- collection_type: open
+  name: Boltic Gateway Certificates Triggers API
+  slug: open-boltic-triggers-api
 - collection_type: open
   name: Boltic Workflow API
   slug: open-boltic-workflow-api
+- collection_type: open
+  name: Boltic Gateway Certificates Workflows API
+  slug: open-boltic-workflows-api
 common:
 - group: agent
   title: ''
@@ -329,7 +377,7 @@ plans:
 - name: Boltic Plans Pricing
   plan_count: 5
   slug: boltic-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Boltic Rate Limits
@@ -363,7 +411,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/screenshots/boltic-2026-06-20T173556.png
 security:

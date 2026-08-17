@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -135,8 +135,107 @@ apis:
 - description: Allows customers to search & ask questions about their financial transactions.
   name: Bud Financial Transaction Search API
   slug: bud-co-transaction-search-api
-artifact_total: 47
+artifact_total: 80
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets API'
+  slug: open-bud-co-aggregation-buckets-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Correct Financial Data API'
+  slug: open-bud-co-correct-financial-data-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Create a Connection API'
+  slug: open-bud-co-create-a-connection-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Custom Insights API'
+  slug: open-bud-co-custom-insights-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Customer Application Links API'
+  slug: open-bud-co-customer-application-links-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Customer Applications API'
+  slug: open-bud-co-customer-applications-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Debt Collection Finder API'
+  slug: open-bud-co-debt-collection-finder-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Enrichment Resources API'
+  slug: open-bud-co-enrichment-resources-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Enrichment Totals API'
+  slug: open-bud-co-enrichment-totals-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Frontend Widgets API'
+  slug: open-bud-co-frontend-widgets-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Income Finder API'
+  slug: open-bud-co-income-finder-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Ingest First Party Data API'
+  slug: open-bud-co-ingest-first-party-data-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Initiate Payment - Bud license API'
+  slug: open-bud-co-initiate-payment-bud-license-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Initiate Payment - Client license API'
+  slug: open-bud-co-initiate-payment-client-license-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Loan Finder API'
+  slug: open-bud-co-loan-finder-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Manage a Connection API'
+  slug: open-bud-co-manage-a-connection-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Manage Customers API'
+  slug: open-bud-co-manage-customers-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Manage Financial Data API'
+  slug: open-bud-co-manage-financial-data-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Manage Payments API'
+  slug: open-bud-co-manage-payments-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets OAuth2 API'
+  slug: open-bud-co-oauth2-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Product Finder API'
+  slug: open-bud-co-product-finder-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Regular Payments Finder API'
+  slug: open-bud-co-regular-payments-finder-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Retrieve Actionable Insights API'
+  slug: open-bud-co-retrieve-actionable-insights-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Retrieve Affordability Report API'
+  slug: open-bud-co-retrieve-affordability-report-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Retrieve Affordability Report V2 API'
+  slug: open-bud-co-retrieve-affordability-report-v2-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Retrieve Affordability Risk Insights API'
+  slug: open-bud-co-retrieve-affordability-risk-insights-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Retrieve Customer Characteristics API'
+  slug: open-bud-co-retrieve-customer-characteristics-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Retrieve Financial Data API'
+  slug: open-bud-co-retrieve-financial-data-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Savings Goals V2 API'
+  slug: open-bud-co-savings-goals-v2-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Spending Budgets API'
+  slug: open-bud-co-spending-budgets-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Subscription Finder API'
+  slug: open-bud-co-subscription-finder-api
+- collection_type: open
+  name: 'Bud API Services: Documentation Aggregation Buckets Transaction Search API'
+  slug: open-bud-co-transaction-search-api
 - collection_type: open
   name: 'Bud API Services: Documentation'
   slug: open-bud-platform
@@ -227,7 +326,7 @@ plans:
 - name: Bud Co Plans Pricing
   plan_count: 5
   slug: bud-co-plans-pricing
-random_paper: 90
+random_paper: 123
 rate_limits:
 - limit_count: 0
   name: Bud Co Rate Limits
@@ -280,7 +379,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/screenshots/bud-co-2026-06-20T173739.png
 security:

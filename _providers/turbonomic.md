@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Explore infrastructure topology and supply chains
   name: IBM Turbonomic Topology API
   slug: turbonomic-topology-api
-artifact_total: 40
+artifact_total: 51
 collections:
 - collection_type: postman
   name: Turbonomic REST Actions API
@@ -102,8 +102,41 @@ collections:
   name: Turbonomic REST Actions Topology API
   slug: postman-turbonomic-topology-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Turbonomic REST Actions API
+  slug: open-turbonomic-actions-api
+- collection_type: open
+  name: Turbonomic REST Actions Authentication API
+  slug: open-turbonomic-authentication-api
+- collection_type: open
+  name: Turbonomic REST Actions Entities API
+  slug: open-turbonomic-entities-api
+- collection_type: open
+  name: Turbonomic REST Actions Groups API
+  slug: open-turbonomic-groups-api
+- collection_type: open
+  name: Turbonomic REST Actions Markets API
+  slug: open-turbonomic-markets-api
+- collection_type: open
+  name: Turbonomic REST Actions Policies API
+  slug: open-turbonomic-policies-api
+- collection_type: open
   name: Turbonomic REST API
   slug: open-turbonomic-rest-api
+- collection_type: open
+  name: Turbonomic REST Actions Statistics API
+  slug: open-turbonomic-statistics-api
+- collection_type: open
+  name: Turbonomic REST Actions Targets API
+  slug: open-turbonomic-targets-api
+- collection_type: open
+  name: Turbonomic REST Actions Templates API
+  slug: open-turbonomic-templates-api
+- collection_type: open
+  name: Turbonomic REST Actions Topology API
+  slug: open-turbonomic-topology-api
 common:
 - group: build
   title: ''
@@ -262,7 +295,7 @@ plans:
 - name: Turbonomic Plans Pricing
   plan_count: 3
   slug: turbonomic-plans-pricing
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Turbonomic Rate Limits
@@ -304,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/screenshots/turbonomic-2026-06-20T195852.png
 security:

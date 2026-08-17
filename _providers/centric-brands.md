@@ -9,32 +9,88 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 38
+  score: 23.0
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The agent-facing commerce surface Centric Brands operates across eight of its owned-brand direct-to-consumer storefronts (Hudson Jeans, Joe's Jeans, Favorite Daughter, Buffalo David Bitton, Avirex, He
+  name: Centric Brands Owned-Brand Storefront Commerce (UCP / MCP)
+  slug: centric-brands-owned-brand-storefront-commerce-ucp-mcp
+artifact_total: 44
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/centric-brands-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/centric-brands-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/centric-brands-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/centric-brands-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/centric-brands-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/centric-brands-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/centric-brands-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/centric-brands-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/centric-brands-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/centric-brands-packages.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/centric-brands-domain-security.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.centricbrands.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.centricbrands.com/privacy-policy
+- group: other
+  title: ''
+  type: OwnedBrands
+  url: https://www.centricbrands.com/owned-brands
 - group: start
   title: ''
   type: Portal
@@ -109,8 +165,8 @@ common:
   url: ''
 created: '2026-05-23'
 description: 'Centric Brands LLC is a New York-headquartered global lifestyle brand management and product-development platform formed in October 2018 when Differential Brands Group (NASDAQ: DFBG) acquired Global Brands Group''s $1.2B North American licensing business. The company designs, sources, markets, and distributes apparel, accessories, footwear, beauty, and entertainment-licensed products across men''s, women''s, kids'', accessories, and entertainment segments. Its mission is "to be a leading global apparel & accessories company with a portfolio of iconic licensed and owned brands that delight retailers and consumers of all ages." Centric filed for Chapter 11 bankruptcy on May 18, 2020 and emerged in October 2020 under control of secured creditors led by Blackstone''s GSO Capital Partners, Ares Management, and HPS Investment Partners. The company is led by CEO Jason Rabin (since 2018) and operates ~20 global offices across New York (HQ), Los Angeles, Greensboro, Montreal, London,
-  Amsterdam, Hong Kong, and multiple cities in China, Bangladesh, Cambodia, India, and Vietnam. Owned brands include Hudson Jeans, Buffalo Jeans, Robert Graham, Joe''s Jeans, Hervé Léger, Favorite Daughter, and AllSaints; licensed apparel brands include Calvin Klein, Tommy Hilfiger, Nautica, Spyder, IZOD, Van Heusen, Kate Spade New York, Coach, Michael Kors, Frye, Timberland, Lucky Brand, Juicy Couture, Under Armour, and Off-White; the entertainment licensing portfolio spans 70+ properties including Disney, Marvel, Warner Bros., DC, Nintendo, Hasbro, Mattel, Nickelodeon, Netflix, Pokémon, Sanrio, Paw Patrol, and the NFL/MLB/NBA/NHL via Sports & Entertainment Licensing. Centric Brands operates "11 end-to-end Ecommerce sites," a 3D design and art studio in Greensboro, and a New York City photo/video studio. The company has no public developer program, no documented public APIs, and no public source code repositories; its two namesake GitHub organizations (centric-brands, Centricbrands) are
-  private placeholders with zero public repos.'
+  Amsterdam, Hong Kong, and multiple cities in China, Bangladesh, Cambodia, India, and Vietnam. Owned brands include Hudson Jeans, Buffalo Jeans, Robert Graham, Joe''s Jeans, Hervé Léger, Favorite Daughter, and AllSaints; licensed apparel brands include Calvin Klein, Tommy Hilfiger, Nautica, Spyder, IZOD, Van Heusen, Kate Spade New York, Coach, Michael Kors, Frye, Timberland, Lucky Brand, Juicy Couture, Under Armour, and Off-White; the entertainment licensing portfolio spans 70+ properties including Disney, Marvel, Warner Bros., DC, Nintendo, Hasbro, Mattel, Nickelodeon, Netflix, Pokémon, Sanrio, Paw Patrol, and the NFL/MLB/NBA/NHL via Sports & Entertainment Licensing. Centric Brands operates "11 end-to-end Ecommerce sites," a 3D design and art studio in Greensboro, and a New York City photo/video studio. Centric Brands runs no corporate developer program - no portal, no API reference, no OpenAPI/AsyncAPI, no SDKs, and no first-party public source (github.com/centric-brands has zero public
+  repos; github.com/Centricbrands has one, a third-party fork). Its callable surface is retail, not corporate: as of August 2026 eight Centric-operated owned-brand storefronts serve a live Universal Commerce Protocol (UCP) MCP server at /api/ucp/mcp with 13 anonymous agent tools, advertised via /.well-known/ucp and /llms.txt on every brand host.'
 features:
 - description: Creative, multi-faceted brand stewardship committed to "protecting our brands' DNA by generating long-term value" for partners and licensors. First of the company's "4 Cs."
   name: Brand Centric
@@ -163,32 +219,53 @@ integrations:
 - description: International Labor Organization and Better Work program partnerships for factory monitoring and worker welfare across Asia sourcing base.
   name: Compliance Partnerships
 layout: provider
-modified: '2026-05-23'
+mcp_servers:
+- description: ''
+  name: centric-brands-mcp.yml
+  slug: centric-brands-mcpyml
+modified: '2026-08-13'
 name: Centric Brands
 nav: Providers
 network: true
-overview: 'Centric Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Accessories, Footwear, Beauty, and Kids.
+overview: 'Centric Brands publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Accessories, Footwear, Beauty, and Kids.
 
 
-  Centric Brands'' developer surface includes developer portal, engineering blog, and 12 more developer resources.'
-random_paper: 103
+  Centric Brands'' developer surface includes authentication, developer portal, engineering blog, and 24 more developer resources.'
+plans:
+- name: Centric Brands Plans Pricing
+  plan_count: 0
+  slug: centric-brands-plans-pricing
+random_paper: 82
+rate_limits:
+- limit_count: 0
+  name: Centric Brands Rate Limits
+  slug: centric-brands-rate-limits
+scopes:
+- name: Centric Brands Scopes
+  scope_count: 4
+  slug: centric-brands-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: minimal
-  composite: 8.6
-  delta: 0.0
+  band: emerging
+  composite: 21.9
+  delta: 13.3
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 57.4
-    governance: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 94.4
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 8.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/screenshots/centric-brands-2026-06-20T174129.png
 security:
+- kind: authentication
+  name: Centric Brands Authentication
+  slug: centric-brands-authentication
+  summary_line: openIdConnect/oauth2 · 2 schemes
 - kind: domain-security
   name: Centric Brands Domain Security
   slug: centric-brands-domain-security

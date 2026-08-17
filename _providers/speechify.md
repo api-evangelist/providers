@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Voices API from Speechify — 2 operation(s) for voices.
   name: Speechify Voices API
   slug: speechify-voices-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Speechify Voice Audio API
+  slug: open-speechify-audio-api
+- collection_type: open
+  name: Speechify Voice Audio Voices API
+  slug: open-speechify-voices-api
 - collection_type: open
   name: Speechify Voice API
   slug: open-speechify
@@ -115,7 +124,7 @@ plans:
 - name: Speechify Plans Pricing
   plan_count: 3
   slug: speechify-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Speechify Rate Limits
@@ -140,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: Users on your ComplyAdvantage account.
   name: ComplyAdvantage Users API
   slug: complyadvantage-users-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ComplyAdvantage Case Management API
+  slug: open-complyadvantage-case-management-api
+- collection_type: open
+  name: ComplyAdvantage Case Management Monitored Searches API
+  slug: open-complyadvantage-monitored-searches-api
+- collection_type: open
+  name: ComplyAdvantage Case Management Searches API
+  slug: open-complyadvantage-searches-api
+- collection_type: open
+  name: ComplyAdvantage Case Management Users API
+  slug: open-complyadvantage-users-api
 - collection_type: open
   name: ComplyAdvantage API
   slug: open-complyadvantage
@@ -128,7 +143,7 @@ plans:
 - name: Complyadvantage Plans Pricing
   plan_count: 3
   slug: complyadvantage-plans-pricing
-random_paper: 39
+random_paper: 109
 rate_limits:
 - limit_count: 4
   name: Complyadvantage Rate Limits
@@ -153,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/screenshots/complyadvantage-2026-07-25T210154.png
 security:

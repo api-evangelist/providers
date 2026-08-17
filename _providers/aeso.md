@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,7 +83,50 @@ arazzos:
 - description: Reconstruct why Alberta's price cleared where it did — the offer stack, the units directed online, the outages that removed supply, and the resulting system marginal and pool prices.
   name: AESO price formation trace
   slug: aeso-price-formation
-artifact_total: 23
+artifact_total: 37
+collections:
+- collection_type: open
+  name: Actual Forecast Report
+  slug: open-aeso-actualforecast-api-v1
+- collection_type: open
+  name: AIES Gen Capacity API
+  slug: open-aeso-aiesgencapacity-api-v1
+- collection_type: open
+  name: Asset List API
+  slug: open-aeso-assetlist-api-v1
+- collection_type: open
+  name: Current Supply Demand
+  slug: open-aeso-currentsupplydemand-api-v1
+- collection_type: open
+  name: Current Supply Demand
+  slug: open-aeso-currentsupplydemand-api-v2
+- collection_type: open
+  name: Energy Merit Order Report
+  slug: open-aeso-energymeritorder-api-v1
+- collection_type: open
+  name: Intertie Public Reports
+  slug: open-aeso-itc-api-v1
+- collection_type: open
+  name: Load Outage Forecast API
+  slug: open-aeso-loadoutageforecast-api-v1
+- collection_type: open
+  name: Metered Volume Report
+  slug: open-aeso-meteredvolume-api-v1
+- collection_type: open
+  name: Operating Reserve Offer Control Report
+  slug: open-aeso-operatingreserveoffercontrol-api-v1
+- collection_type: open
+  name: Pool Participant API
+  slug: open-aeso-poolparticipant-api-v1
+- collection_type: open
+  name: Pool Price Report
+  slug: open-aeso-poolprice-api-v1-1
+- collection_type: open
+  name: System Marginal Price Report
+  slug: open-aeso-systemmarginalprice-api-v1-1
+- collection_type: open
+  name: Unit Commitment Data API
+  slug: open-aeso-unitcommitmentdata-api-v2
 common:
 - group: agent
   title: ''
@@ -247,7 +290,7 @@ plans:
 - name: Aeso Plans
   plan_count: 1
   slug: aeso-plans
-random_paper: 64
+random_paper: 126
 score:
   band: thin
   composite: 37.9
@@ -277,7 +320,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/screenshots/aeso-2026-08-07T161010.png
 security:

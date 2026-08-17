@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Branchline sync and merge of approved snapshots across branch lines.
   name: Percy Visual Git API
   slug: percy-visual-git-api
-artifact_total: 10
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Percy REST Builds API
+  slug: open-percy-builds-api
+- collection_type: open
+  name: Percy REST Builds Projects API
+  slug: open-percy-projects-api
+- collection_type: open
+  name: Percy REST Builds Snapshots API
+  slug: open-percy-snapshots-api
+- collection_type: open
+  name: Percy REST Builds Visual Git API
+  slug: open-percy-visual-git-api
 - collection_type: open
   name: Percy REST API
   slug: open-percy
@@ -117,7 +132,7 @@ plans:
 - name: Percy Plans Pricing
   plan_count: 3
   slug: percy-plans-pricing
-random_paper: 67
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Percy Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

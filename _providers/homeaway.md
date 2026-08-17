@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -88,7 +88,7 @@ overview: 'HomeAway * is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   HomeAway *''s developer surface includes authentication, CLI, and 9 more developer resources.'
-random_paper: 19
+random_paper: 114
 score:
   band: minimal
   composite: 11.8
@@ -102,7 +102,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 11.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

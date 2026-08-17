@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The auth API from Platzi — 3 operation(s) for auth.
@@ -49,7 +49,29 @@ apis:
 - description: The users API from Platzi — 3 operation(s) for users.
   name: Platzi users API
   slug: platzi-users-api
-artifact_total: 9
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Platzi Fake Store auth API
+  slug: open-platzi-auth-api
+- collection_type: open
+  name: Platzi Fake Store auth categories API
+  slug: open-platzi-categories-api
+- collection_type: open
+  name: Platzi Fake Store auth files API
+  slug: open-platzi-files-api
+- collection_type: open
+  name: Platzi Fake Store auth Locations API
+  slug: open-platzi-locations-api
+- collection_type: open
+  name: Platzi Fake Store auth products API
+  slug: open-platzi-products-api
+- collection_type: open
+  name: Platzi Fake Store auth users API
+  slug: open-platzi-users-api
 common:
 - group: start
   title: ''
@@ -159,7 +181,7 @@ overview: 'Platzi publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Platzi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, sandbox, and 16 more developer resources.'
-random_paper: 60
+random_paper: 64
 score:
   band: thin
   composite: 39.0
@@ -182,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

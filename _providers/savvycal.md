@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: Manage automation workflows.
   name: SavvyCal Workflows API
   slug: savvycal-workflows-api
-artifact_total: 23
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SavvyCal Meetings Current User API
+  slug: open-savvycal-current-user-api
+- collection_type: open
+  name: SavvyCal Meetings Current User Events API
+  slug: open-savvycal-events-api
+- collection_type: open
+  name: SavvyCal Meetings Current User Scheduling Links API
+  slug: open-savvycal-scheduling-links-api
+- collection_type: open
+  name: SavvyCal Meetings Current User Time Zones API
+  slug: open-savvycal-time-zones-api
+- collection_type: open
+  name: SavvyCal Meetings Current User Webhooks API
+  slug: open-savvycal-webhooks-api
+- collection_type: open
+  name: SavvyCal Meetings Current User Workflows API
+  slug: open-savvycal-workflows-api
 common:
 - group: agent
   title: ''
@@ -202,7 +224,7 @@ plans:
 - name: Savvycal Plans Pricing
   plan_count: 3
   slug: savvycal-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 2
   name: Savvycal Rate Limits
@@ -236,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/screenshots/savvycal-2026-06-20T193443.png
 security:

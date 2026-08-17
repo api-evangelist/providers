@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -65,11 +65,42 @@ arazzos:
 - description: The three stateless trust services in sequence - validate a container, add qualified timestamps to untimestamped XAdES, upgrade PAdES B-T to B-LT, then download the output.
   name: Validate, timestamp and archive an existing signed document
   slug: tvarka-atk-api-timestamp-and-archive
-artifact_total: 20
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Tvarka Atk Api Webhooks
   slug: tvarka-atk-api-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tvarka Atk Auth API
+  slug: open-tvarka-atk-api-auth-api
+- collection_type: open
+  name: Tvarka Atk Erasure API
+  slug: open-tvarka-atk-api-erasure-api
+- collection_type: open
+  name: Tvarka Atk LTV API
+  slug: open-tvarka-atk-api-ltv-api
+- collection_type: open
+  name: Tvarka Atk Pairing API
+  slug: open-tvarka-atk-api-pairing-api
+- collection_type: open
+  name: Tvarka Atk Sign API
+  slug: open-tvarka-atk-api-sign-api
+- collection_type: open
+  name: Tvarka ATK Tvarka ATK API API
+  slug: open-tvarka-atk-api-tvarka-atk-api-api
+- collection_type: open
+  name: Tvarka ATK - QES Signing API (paid-tier addendum) Tvarka ATK QES Signing API (paid Tier Addendum) Tvarka ATK QES Signing API (paid Tier Addendum) API
+  slug: open-tvarka-atk-api-tvarka-atk-qes-signing-api-paid-tier-addendum-api
+- collection_type: open
+  name: Tvarka Atk Validation API
+  slug: open-tvarka-atk-api-validation-api
+- collection_type: open
+  name: Tvarka Atk Well Known API
+  slug: open-tvarka-atk-api-well-known-api
 common:
 - group: agent
   title: ''
@@ -258,7 +289,7 @@ plans:
 - name: Tvarka Atk Api Plans
   plan_count: 5
   slug: tvarka-atk-api-plans
-random_paper: 53
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Tvarka Atk Api Rate Limits
@@ -286,7 +317,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

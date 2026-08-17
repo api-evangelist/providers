@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -135,7 +135,7 @@ overview: '100 Thieves publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   100 Thieves'' developer surface includes documentation, authentication, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 110
+random_paper: 56
 scopes:
 - name: 100 Thieves Scopes
   scope_count: 4
@@ -159,7 +159,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/screenshots/100-thieves-2026-08-07T160646.png
 security:

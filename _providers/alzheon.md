@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Read-only, anonymously accessible WordPress REST API served by the Alzheon corporate site at https://alzheon.com/wp-json. It exposes the company's press releases and in-the-news items (224 posts), sta
   name: Alzheon Content API (WordPress REST)
   slug: alzheon-content-api-wordpress-rest
-artifact_total: 3
+artifact_total: 4
+collections:
+- collection_type: open
+  name: Alzheon Content API (WordPress REST)
+  slug: open-alzheon-content
 common:
 - group: company
   title: ''
@@ -106,7 +110,7 @@ overview: 'Alzheon publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   Alzheon''s developer surface includes engineering blog, product news, and 15 more developer resources.'
-random_paper: 33
+random_paper: 8
 score:
   band: emerging
   composite: 24.8
@@ -134,7 +138,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/screenshots/alzheon-2026-08-07T161303.png
 security:

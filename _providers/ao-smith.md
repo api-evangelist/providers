@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: AO Smith's iCOMM connected technology platform enables remote monitoring and control of compatible AO Smith water heaters through the A. O. Smith mobile app. Provides connectivity for tracking water u
@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: The Water Council and A. O. Smith Kick Off 2018 Competition ...
   url: https://investor.aosmith.com/news-releases/news-release-details/water-council-and-o-smith-kick-2018-competition-supporting
-random_paper: 82
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Ao Smith Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 16.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/screenshots/ao-smith-2026-06-20T172035.png
 security:

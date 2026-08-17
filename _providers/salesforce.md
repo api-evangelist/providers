@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -29,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-12'
+  score: 60.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -992,7 +992,7 @@ arazzos:
 - description: Create or update an SObject record keyed on an external id field value.
   name: Salesforce Upsert by External Id
   slug: salesforce-upsert-by-external-id-workflow
-artifact_total: 5594
+artifact_total: 5850
 asyncapis:
 - description: Salesforce Change Data Capture (CDC) delivers change events that represent changes to Salesforce records including creates, updates, deletes, and undeletes. Subscribers receive rich change events with
   name: Salesforce Change Data Capture API
@@ -1020,21 +1020,821 @@ collections:
   name: Salesforce
   slug: postman-salesforce
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort API
+  slug: open-salesforce-abort-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Access API
+  slug: open-salesforce-access-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Accounts API
+  slug: open-salesforce-accounts-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Actions API
+  slug: open-salesforce-actions-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Active API
+  slug: open-salesforce-active-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Add API
+  slug: open-salesforce-add-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Agent API
+  slug: open-salesforce-agent-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort All API
+  slug: open-salesforce-all-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Amend API
+  slug: open-salesforce-amend-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Applications API
+  slug: open-salesforce-applications-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort AppMenu API
+  slug: open-salesforce-appmenu-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Appointment API
+  slug: open-salesforce-appointment-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Approvals API
+  slug: open-salesforce-approvals-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Assets API
+  slug: open-salesforce-assets-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Async API
+  slug: open-salesforce-async-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Authentication API
+  slug: open-salesforce-authentication-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Authorize API
+  slug: open-salesforce-authorize-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Based API
+  slug: open-salesforce-based-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Basic API
+  slug: open-salesforce-basic-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Batch API
+  slug: open-salesforce-batch-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Benefits API
+  slug: open-salesforce-benefits-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Blobs API
+  slug: open-salesforce-blobs-api
+- collection_type: open
   name: Salesforce Bulk API 2.0
   slug: open-salesforce-bulk-api-2
+- collection_type: open
+  name: Salesforce API 2.0 Abort Bulk API
+  slug: open-salesforce-bulk-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Bundles API
+  slug: open-salesforce-bundles-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Calculate API
+  slug: open-salesforce-calculate-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Call API
+  slug: open-salesforce-call-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Cancel API
+  slug: open-salesforce-cancel-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Candidates API
+  slug: open-salesforce-candidates-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Capability API
+  slug: open-salesforce-capability-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Cart API
+  slug: open-salesforce-cart-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Change API
+  slug: open-salesforce-change-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Channel API
+  slug: open-salesforce-channel-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Chart API
+  slug: open-salesforce-chart-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Checks API
+  slug: open-salesforce-checks-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Child API
+  slug: open-salesforce-child-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Client API
+  slug: open-salesforce-client-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Clone API
+  slug: open-salesforce-clone-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Close API
+  slug: open-salesforce-close-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Collections API
+  slug: open-salesforce-collections-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Comments API
+  slug: open-salesforce-comments-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Commitment API
+  slug: open-salesforce-commitment-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Compact API
+  slug: open-salesforce-compact-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Completion API
+  slug: open-salesforce-completion-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Composite API
+  slug: open-salesforce-composite-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Configuration API
+  slug: open-salesforce-configuration-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Connect API
+  slug: open-salesforce-connect-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Consent API
+  slug: open-salesforce-consent-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Contacts API
+  slug: open-salesforce-contacts-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Content API
+  slug: open-salesforce-content-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Conversation API
+  slug: open-salesforce-conversation-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Corporate API
+  slug: open-salesforce-corporate-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Count API
+  slug: open-salesforce-count-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Create API
+  slug: open-salesforce-create-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Creation API
+  slug: open-salesforce-creation-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Credential API
+  slug: open-salesforce-credential-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Credentials API
+  slug: open-salesforce-credentials-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Custom API
+  slug: open-salesforce-custom-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Data API
+  slug: open-salesforce-data-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Data Extensions API
+  slug: open-salesforce-data-extensions-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Decision API
+  slug: open-salesforce-decision-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Definition API
+  slug: open-salesforce-definition-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Definitions API
+  slug: open-salesforce-definitions-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Deletes API
+  slug: open-salesforce-deletes-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Dependencies API
+  slug: open-salesforce-dependencies-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Describe API
+  slug: open-salesforce-describe-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Detail API
+  slug: open-salesforce-detail-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Developer API
+  slug: open-salesforce-developer-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Directories API
+  slug: open-salesforce-directories-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Discovery API
+  slug: open-salesforce-discovery-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Download API
+  slug: open-salesforce-download-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Dynamic API
+  slug: open-salesforce-dynamic-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Edit API
+  slug: open-salesforce-edit-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Element API
+  slug: open-salesforce-element-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Elements API
+  slug: open-salesforce-elements-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Eligible API
+  slug: open-salesforce-eligible-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Endpoint API
+  slug: open-salesforce-endpoint-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Entries API
+  slug: open-salesforce-entries-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Events API
+  slug: open-salesforce-events-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Exchange API
+  slug: open-salesforce-exchange-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Execution API
+  slug: open-salesforce-execution-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Exit API
+  slug: open-salesforce-exit-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Exports API
+  slug: open-salesforce-exports-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Expression API
+  slug: open-salesforce-expression-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort External API
+  slug: open-salesforce-external-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Failed API
+  slug: open-salesforce-failed-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Favorite API
+  slug: open-salesforce-favorite-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Feed API
+  slug: open-salesforce-feed-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Feedback API
+  slug: open-salesforce-feedback-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Field API
+  slug: open-salesforce-field-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Files API
+  slug: open-salesforce-files-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Flow API
+  slug: open-salesforce-flow-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Following API
+  slug: open-salesforce-following-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Game API
+  slug: open-salesforce-game-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Games API
+  slug: open-salesforce-games-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort General API
+  slug: open-salesforce-general-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Generate API
+  slug: open-salesforce-generate-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Get API
+  slug: open-salesforce-get-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Gift API
+  slug: open-salesforce-gift-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Gifts API
+  slug: open-salesforce-gifts-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Global API
+  slug: open-salesforce-global-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Graph API
+  slug: open-salesforce-graph-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Groups API
+  slug: open-salesforce-groups-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort History API
+  slug: open-salesforce-history-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Identifiers API
+  slug: open-salesforce-identifiers-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Image API
+  slug: open-salesforce-image-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Individual API
+  slug: open-salesforce-individual-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Info API
+  slug: open-salesforce-info-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Information API
+  slug: open-salesforce-information-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Ingest Job Data API
+  slug: open-salesforce-ingest-job-data-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Ingest Jobs API
+  slug: open-salesforce-ingest-jobs-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Initialize API
+  slug: open-salesforce-initialize-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Initiate API
+  slug: open-salesforce-initiate-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Instant API
+  slug: open-salesforce-instant-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Integration API
+  slug: open-salesforce-integration-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Invites API
+  slug: open-salesforce-invites-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Invoke API
+  slug: open-salesforce-invoke-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Item API
+  slug: open-salesforce-item-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Items API
+  slug: open-salesforce-items-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Jobs API
+  slug: open-salesforce-jobs-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Journals API
+  slug: open-salesforce-journals-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Journeys API
+  slug: open-salesforce-journeys-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Keys API
+  slug: open-salesforce-keys-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Knowledge API
+  slug: open-salesforce-knowledge-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Language API
+  slug: open-salesforce-language-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Last API
+  slug: open-salesforce-last-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Launch API
+  slug: open-salesforce-launch-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Layout API
+  slug: open-salesforce-layout-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Layouts API
+  slug: open-salesforce-layouts-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Lightning API
+  slug: open-salesforce-lightning-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Limits API
+  slug: open-salesforce-limits-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Link API
+  slug: open-salesforce-link-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort List Views API
+  slug: open-salesforce-list-views-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Lists API
+  slug: open-salesforce-lists-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Loader API
+  slug: open-salesforce-loader-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Login API
+  slug: open-salesforce-login-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Logs API
+  slug: open-salesforce-logs-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Lookups API
+  slug: open-salesforce-lookups-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Managed API
+  slug: open-salesforce-managed-api
 - collection_type: open
   name: Salesforce Marketing Cloud REST API
   slug: open-salesforce-marketing-cloud-rest
 - collection_type: open
-  name: Salesforce REST API
+  name: Salesforce Bulk API 2.0 Abort Member API
+  slug: open-salesforce-member-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Members API
+  slug: open-salesforce-members-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Memberships API
+  slug: open-salesforce-memberships-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Messages API
+  slug: open-salesforce-messages-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Messaging API
+  slug: open-salesforce-messaging-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Method API
+  slug: open-salesforce-method-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Metrics API
+  slug: open-salesforce-metrics-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Models API
+  slug: open-salesforce-models-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Multiple API
+  slug: open-salesforce-multiple-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Named API
+  slug: open-salesforce-named-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Names API
+  slug: open-salesforce-names-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Navigation API
+  slug: open-salesforce-navigation-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort News API
+  slug: open-salesforce-news-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Notation API
+  slug: open-salesforce-notation-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Oauth API
+  slug: open-salesforce-oauth-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Object Info API
+  slug: open-salesforce-object-info-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Objects API
+  slug: open-salesforce-objects-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Order API
+  slug: open-salesforce-order-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Pages API
+  slug: open-salesforce-pages-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Parallel API
+  slug: open-salesforce-parallel-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Password API
+  slug: open-salesforce-password-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Payments API
+  slug: open-salesforce-payments-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Personalized API
+  slug: open-salesforce-personalized-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Photo API
+  slug: open-salesforce-photo-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Picklists API
+  slug: open-salesforce-picklists-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Platform API
+  slug: open-salesforce-platform-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Post API
+  slug: open-salesforce-post-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Predict API
+  slug: open-salesforce-predict-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Prices API
+  slug: open-salesforce-prices-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Procedure API
+  slug: open-salesforce-procedure-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Process API
+  slug: open-salesforce-process-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Product API
+  slug: open-salesforce-product-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Profile API
+  slug: open-salesforce-profile-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Promotion API
+  slug: open-salesforce-promotion-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Promotions API
+  slug: open-salesforce-promotions-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Prompts API
+  slug: open-salesforce-prompts-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Publish API
+  slug: open-salesforce-publish-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Quantity API
+  slug: open-salesforce-quantity-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Queries API
+  slug: open-salesforce-queries-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Query API
+  slug: open-salesforce-query-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Query Job Results API
+  slug: open-salesforce-query-job-results-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Query Jobs API
+  slug: open-salesforce-query-jobs-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort QueryAll API
+  slug: open-salesforce-queryall-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Quote API
+  slug: open-salesforce-quote-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Read API
+  slug: open-salesforce-read-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Recent API
+  slug: open-salesforce-recent-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Recently API
+  slug: open-salesforce-recently-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Record API
+  slug: open-salesforce-record-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Records API
+  slug: open-salesforce-records-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Redeem API
+  slug: open-salesforce-redeem-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Refresh API
+  slug: open-salesforce-refresh-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Registration API
+  slug: open-salesforce-registration-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Related API
+  slug: open-salesforce-related-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Relationships API
+  slug: open-salesforce-relationships-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Relay API
+  slug: open-salesforce-relay-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Relevant API
+  slug: open-salesforce-relevant-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Requests API
+  slug: open-salesforce-requests-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Resources API
+  slug: open-salesforce-resources-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Response API
+  slug: open-salesforce-response-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Rest API
   slug: open-salesforce-rest-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Result API
+  slug: open-salesforce-result-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Results API
+  slug: open-salesforce-results-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Retrieves API
+  slug: open-salesforce-retrieves-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Revoke API
+  slug: open-salesforce-revoke-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Reward API
+  slug: open-salesforce-reward-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Rows API
+  slug: open-salesforce-rows-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Rules API
+  slug: open-salesforce-rules-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Runs API
+  slug: open-salesforce-runs-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Sale API
+  slug: open-salesforce-sale-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Sandbox API
+  slug: open-salesforce-sandbox-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Save API
+  slug: open-salesforce-save-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Schedules API
+  slug: open-salesforce-schedules-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Scheduling API
+  slug: open-salesforce-scheduling-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Schema API
+  slug: open-salesforce-schema-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Scope API
+  slug: open-salesforce-scope-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Search API
+  slug: open-salesforce-search-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Selected API
+  slug: open-salesforce-selected-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Self API
+  slug: open-salesforce-self-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Sets API
+  slug: open-salesforce-sets-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Settings API
+  slug: open-salesforce-settings-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Shares API
+  slug: open-salesforce-shares-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Single API
+  slug: open-salesforce-single-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Slots API
+  slug: open-salesforce-slots-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Soap API
+  slug: open-salesforce-soap-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort SObjects API
+  slug: open-salesforce-sobjects-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Spec API
+  slug: open-salesforce-spec-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Standard API
+  slug: open-salesforce-standard-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort State API
+  slug: open-salesforce-state-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Status API
+  slug: open-salesforce-status-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Submit API
+  slug: open-salesforce-submit-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Subscriptions API
+  slug: open-salesforce-subscriptions-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Suggested API
+  slug: open-salesforce-suggested-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Suggestions API
+  slug: open-salesforce-suggestions-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Summaries API
+  slug: open-salesforce-summaries-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Supported API
+  slug: open-salesforce-supported-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Sync API
+  slug: open-salesforce-sync-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Table API
+  slug: open-salesforce-table-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Tables API
+  slug: open-salesforce-tables-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Tabs API
+  slug: open-salesforce-tabs-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Templates API
+  slug: open-salesforce-templates-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Tests API
+  slug: open-salesforce-tests-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Text API
+  slug: open-salesforce-text-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Theme API
+  slug: open-salesforce-theme-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Themes API
+  slug: open-salesforce-themes-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Toggle API
+  slug: open-salesforce-toggle-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Tokens API
+  slug: open-salesforce-tokens-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Transaction API
+  slug: open-salesforce-transaction-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Trees API
+  slug: open-salesforce-trees-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Type API
+  slug: open-salesforce-type-api
 - collection_type: open
   name: Salesforce UI API
   slug: open-salesforce-ui-api
 - collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Undelete API
+  slug: open-salesforce-undelete-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Update API
+  slug: open-salesforce-update-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Upload API
+  slug: open-salesforce-upload-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Usage API
+  slug: open-salesforce-usage-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Users API
+  slug: open-salesforce-users-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Values API
+  slug: open-salesforce-values-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Versions API
+  slug: open-salesforce-versions-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort View API
+  slug: open-salesforce-view-api
+- collection_type: open
+  name: Salesforce Bulk API 2.0 Abort Views API
+  slug: open-salesforce-views-api
+- collection_type: open
   name: Salesforce
   slug: open-salesforce
 common:
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/salesforce-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/salesforce-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/salesforce-rate-limits.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/salesforce-lifecycle.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/salesforce-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/salesforce-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/salesforce-tool-crosswalk.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1412,7 +2212,7 @@ common:
   type: Vocabulary
   url: vocabulary/salesforce-vocabulary.yaml
 created: '2025-06-05'
-description: Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, and more.
+description: Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics and AI. Its Lightning Platform exposes REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and subscribe to org data programmatically.
 examples:
 - key_count: 3
   name: Salesforce 0 F94 H000000 Uf2X Sag Example
@@ -17123,7 +17923,7 @@ mcp_servers:
 - description: ''
   name: salesforce-mcp.yml
   slug: salesforce-mcpyml
-modified: '2026-06-20'
+modified: '2026-08-13'
 name: Salesforce
 nav: Providers
 network: true
@@ -17133,11 +17933,11 @@ overview: 'Salesforce publishes 265 APIs on the [APIs.io](https://apis.io/) netw
   The Salesforce catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 87 more developer resources.'
+  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 95 more developer resources.'
 paper_is_own: true
 plans:
 - name: Salesforce Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: salesforce-plans-pricing
 press:
 - date: '2026-05-25'
@@ -17166,7 +17966,7 @@ press:
   url: https://www.salesforce.com/news/stories/lessons-from-one-year-of-manager-agent/
 random_paper: 32
 rate_limits:
-- limit_count: 6
+- limit_count: 9
   name: Salesforce Rate Limits
   slug: salesforce-rate-limits
 rules:
@@ -17201,15 +18001,15 @@ scopes:
   summary_line: 36 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.3
-  delta: 0.0
+  composite: 80.8
+  delta: 6.5
   facets:
-    commercial_clarity: 68.4
+    commercial_clarity: 76.3
     contract_quality: 81.3
-    developer_ergonomics: 78.3
-    discoverability: 77.8
+    developer_ergonomics: 93.5
+    discoverability: 87.0
     governance: 80.2
-    operational_transparency: 55.3
+    operational_transparency: 63.2
   previous_composite: 74.3
   provenance:
     agentic_access: derived
@@ -17221,8 +18021,8 @@ score:
       total: 256
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:
 - kind: authentication

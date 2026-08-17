@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Deppon Open Platform (德邦开放平台) is Deppon''s enterprise integration hub, exposing logistics system-integration APIs to contracted partners: order service (下单/订单) interfaces, standard track/tracking ('
@@ -67,7 +67,7 @@ overview: 'Deppon Express publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Deppon Express'' developer surface includes documentation and 4 more developer resources.'
-random_paper: 29
+random_paper: 128
 score:
   band: minimal
   composite: 11.1
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deppon-express/refs/heads/main/screenshots/deppon-express-2026-07-25T211747.png
 security:

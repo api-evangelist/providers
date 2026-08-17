@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -83,11 +83,60 @@ apis:
 - description: The Webhooks API from StubHub — 3 operation(s) for webhooks.
   name: StubHub Webhooks API
   slug: stubhub-webhooks-api
-artifact_total: 21
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Stubhub Webhooks
   slug: stubhub-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: StubHub Account Addressess API
+  slug: open-stubhub-addressess-api
+- collection_type: open
+  name: StubHub Account Addressess Categories API
+  slug: open-stubhub-categories-api
+- collection_type: open
+  name: StubHub Account Addressess E-Tickets API
+  slug: open-stubhub-e-tickets-api
+- collection_type: open
+  name: StubHub Account Addressess Events API
+  slug: open-stubhub-events-api
+- collection_type: open
+  name: StubHub Account Addressess ListingConstraints API
+  slug: open-stubhub-listingconstraints-api
+- collection_type: open
+  name: StubHub Account Addressess PaymentMethods API
+  slug: open-stubhub-paymentmethods-api
+- collection_type: open
+  name: StubHub Account Addressess Payments API
+  slug: open-stubhub-payments-api
+- collection_type: open
+  name: StubHub Account Addressess Sales API
+  slug: open-stubhub-sales-api
+- collection_type: open
+  name: StubHub Account Addressess SellerEvents API
+  slug: open-stubhub-sellerevents-api
+- collection_type: open
+  name: StubHub Account Addressess SellerListings API
+  slug: open-stubhub-sellerlistings-api
+- collection_type: open
+  name: StubHub Account Addressess Shipments API
+  slug: open-stubhub-shipments-api
+- collection_type: open
+  name: StubHub Account Addressess TicketHolders API
+  slug: open-stubhub-ticketholders-api
+- collection_type: open
+  name: StubHub Account Addressess User API
+  slug: open-stubhub-user-api
+- collection_type: open
+  name: StubHub Account Addressess Venues API
+  slug: open-stubhub-venues-api
+- collection_type: open
+  name: StubHub Account Addressess Webhooks API
+  slug: open-stubhub-webhooks-api
 common:
 - group: other
   title: ''
@@ -224,7 +273,7 @@ overview: 'StubHub publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   StubHub''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 22 more developer resources.'
-random_paper: 45
+random_paper: 20
 scopes:
 - name: Stubhub Scopes
   scope_count: 9
@@ -253,7 +302,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

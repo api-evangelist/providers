@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -117,7 +117,89 @@ apis:
 - description: The Webhooks API from Argyle — 1 operation(s) for webhooks.
   name: Argyle Webhooks API
   slug: argyle-webhooks-api
-artifact_total: 225
+artifact_total: 252
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Argyle Accounts API
+  slug: open-argyle-accounts-api
+- collection_type: open
+  name: Argyle Accounts Deposit Destinations API
+  slug: open-argyle-deposit-destinations-api
+- collection_type: open
+  name: Argyle Accounts Employer Search API
+  slug: open-argyle-employer-search-api
+- collection_type: open
+  name: Argyle Accounts Employments API
+  slug: open-argyle-employments-api
+- collection_type: open
+  name: Argyle Accounts Gigs API
+  slug: open-argyle-gigs-api
+- collection_type: open
+  name: Argyle Accounts Identities API
+  slug: open-argyle-identities-api
+- collection_type: open
+  name: Argyle Accounts Invites API
+  slug: open-argyle-invites-api
+- collection_type: open
+  name: Argyle Accounts Item Filters API
+  slug: open-argyle-item-filters-api
+- collection_type: open
+  name: Argyle Accounts Item Migrations API
+  slug: open-argyle-item-migrations-api
+- collection_type: open
+  name: Argyle Accounts Items API
+  slug: open-argyle-items-api
+- collection_type: open
+  name: Argyle Accounts Open Banking API
+  slug: open-argyle-open-banking-api
+- collection_type: open
+  name: Argyle Accounts Partners API
+  slug: open-argyle-partners-api
+- collection_type: open
+  name: Argyle Accounts Payroll Documents API
+  slug: open-argyle-payroll-documents-api
+- collection_type: open
+  name: Argyle Accounts Paystubs API
+  slug: open-argyle-paystubs-api
+- collection_type: open
+  name: Argyle Accounts Ratings API
+  slug: open-argyle-ratings-api
+- collection_type: open
+  name: Argyle Accounts Receipts API
+  slug: open-argyle-receipts-api
+- collection_type: open
+  name: Argyle Accounts Reports API
+  slug: open-argyle-reports-api
+- collection_type: open
+  name: Argyle Accounts Sessions API
+  slug: open-argyle-sessions-api
+- collection_type: open
+  name: Argyle Accounts Shifts API
+  slug: open-argyle-shifts-api
+- collection_type: open
+  name: Argyle Accounts User Forms API
+  slug: open-argyle-user-forms-api
+- collection_type: open
+  name: Argyle Accounts User Tokens API
+  slug: open-argyle-user-tokens-api
+- collection_type: open
+  name: Argyle Accounts User Uploads API
+  slug: open-argyle-user-uploads-api
+- collection_type: open
+  name: Argyle Accounts Users API
+  slug: open-argyle-users-api
+- collection_type: open
+  name: Argyle Accounts Vehicles API
+  slug: open-argyle-vehicles-api
+- collection_type: open
+  name: Argyle Accounts Verifications API
+  slug: open-argyle-verifications-api
+- collection_type: open
+  name: Argyle Accounts Webhooks API
+  slug: open-argyle-webhooks-api
 common:
 - group: agent
   title: ''
@@ -784,7 +866,7 @@ plans:
 - name: Argyle Plans Pricing
   plan_count: 2
   slug: argyle-plans-pricing
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Argyle Rate Limits
@@ -818,7 +900,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argyle/refs/heads/main/screenshots/argyle-2026-06-20T172423.png
 security:

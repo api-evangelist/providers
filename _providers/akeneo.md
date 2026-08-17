@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -83,8 +83,56 @@ apis:
 - description: The Workflows API from Akeneo — 2 operation(s) for workflows.
   name: Akeneo Workflows API
   slug: akeneo-workflows-api
-artifact_total: 23
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager API
+  slug: open-akeneo-asset-manager-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Attributes API
+  slug: open-akeneo-attributes-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Authentication API
+  slug: open-akeneo-authentication-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Catalogs API
+  slug: open-akeneo-catalogs-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Categories API
+  slug: open-akeneo-categories-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Channels API
+  slug: open-akeneo-channels-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Currencies API
+  slug: open-akeneo-currencies-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Families API
+  slug: open-akeneo-families-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Locales API
+  slug: open-akeneo-locales-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Media Files API
+  slug: open-akeneo-media-files-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Product Models API
+  slug: open-akeneo-product-models-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Products API
+  slug: open-akeneo-products-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Reference Entities API
+  slug: open-akeneo-reference-entities-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager System API
+  slug: open-akeneo-system-api
+- collection_type: open
+  name: Akeneo PIM REST Asset Manager Workflows API
+  slug: open-akeneo-workflows-api
 - collection_type: open
   name: Akeneo PIM REST API
   slug: open-akeneo
@@ -161,7 +209,7 @@ overview: 'Akeneo publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Akeneo''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 27
+random_paper: 31
 scopes:
 - name: Akeneo Scopes
   scope_count: 36
@@ -187,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akeneo/refs/heads/main/screenshots/akeneo-2026-06-20T171448.png
 security:

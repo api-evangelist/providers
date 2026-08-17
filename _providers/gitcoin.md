@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: The Stamp API API from Gitcoin — 4 operation(s) for stamp api.
   name: Gitcoin Stamp API API
   slug: gitcoin-stamp-api-api
-artifact_total: 27
+artifact_total: 34
 collections:
 - collection_type: postman
   name: Gitcoin Core Bounties API
@@ -80,6 +80,27 @@ collections:
 - collection_type: postman
   name: Gitcoin Core Bounties Stamp API API
   slug: postman-gitcoin-stamp-api-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gitcoin Core Bounties API
+  slug: open-gitcoin-bounties-api
+- collection_type: open
+  name: Gitcoin Core Bounties Contributors API
+  slug: open-gitcoin-contributors-api
+- collection_type: open
+  name: Gitcoin Core Bounties Grants API
+  slug: open-gitcoin-grants-api
+- collection_type: open
+  name: Gitcoin Core Bounties Model Analysis API
+  slug: open-gitcoin-model-analysis-api
+- collection_type: open
+  name: Gitcoin Core Bounties Rounds API
+  slug: open-gitcoin-rounds-api
+- collection_type: open
+  name: Gitcoin Core Bounties Stamp API API
+  slug: open-gitcoin-stamp-api-api
 common:
 - group: operate
   title: ''
@@ -202,7 +223,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -236,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

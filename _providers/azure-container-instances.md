@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -45,7 +45,17 @@ apis:
 - description: The Subscriptions API from Azure Container Instances — 12 operation(s) for subscriptions.
   name: Azure Container Instances Subscriptions API
   slug: azure-container-instances-subscriptions-api
-artifact_total: 97
+artifact_total: 100
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ContainerInstanceManagementClient Operations API
+  slug: open-azure-container-instances-operations-api
+- collection_type: open
+  name: ContainerInstanceManagementClient Operations Subscriptions API
+  slug: open-azure-container-instances-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -394,7 +404,7 @@ plans:
 - name: Azure Container Instances Plans Pricing
   plan_count: 3
   slug: azure-container-instances-plans-pricing
-random_paper: 52
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Azure Container Instances Rate Limits
@@ -441,7 +451,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/screenshots/azure-container-instances-2026-06-20T172844.png
 security:

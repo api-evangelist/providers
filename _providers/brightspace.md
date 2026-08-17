@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -78,8 +78,50 @@ apis:
 - description: Product component version discovery.
   name: D2L Brightspace Versions API
   slug: brightspace-versions-api
-artifact_total: 21
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments API
+  slug: open-brightspace-assignments-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Calendar API
+  slug: open-brightspace-calendar-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Content API
+  slug: open-brightspace-content-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Data Hub API
+  slug: open-brightspace-data-hub-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Discussions API
+  slug: open-brightspace-discussions-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Enrollments API
+  slug: open-brightspace-enrollments-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Grades API
+  slug: open-brightspace-grades-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Learning Outcomes API
+  slug: open-brightspace-learning-outcomes-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments News API
+  slug: open-brightspace-news-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Org Units API
+  slug: open-brightspace-org-units-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Quizzes API
+  slug: open-brightspace-quizzes-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Users API
+  slug: open-brightspace-users-api
+- collection_type: open
+  name: D2L Brightspace Valence Learning Framework Assignments Versions API
+  slug: open-brightspace-versions-api
 - collection_type: open
   name: D2L Brightspace Valence API
   slug: open-brightspace
@@ -152,7 +194,7 @@ plans:
 - name: Brightspace Plans Pricing
   plan_count: 3
   slug: brightspace-plans-pricing
-random_paper: 84
+random_paper: 121
 rate_limits:
 - limit_count: 4
   name: Brightspace Rate Limits
@@ -182,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/screenshots/brightspace-2026-07-25T203856.png
 security:

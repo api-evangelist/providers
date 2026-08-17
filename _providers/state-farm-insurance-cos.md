@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,8 +54,20 @@ apis:
 - description: Renters insurance quote operations
   name: State Farm Insurance Companies Quotes API
   slug: state-farm-insurance-cos-quotes-api
-artifact_total: 20
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: State Farm Insurance Companies Renters Coverage API
+  slug: open-state-farm-insurance-cos-coverage-api
+- collection_type: open
+  name: State Farm Insurance Companies Renters Coverage Policies API
+  slug: open-state-farm-insurance-cos-policies-api
+- collection_type: open
+  name: State Farm Insurance Companies Renters Coverage Quotes API
+  slug: open-state-farm-insurance-cos-quotes-api
 - collection_type: open
   name: State Farm Insurance Companies Renters API
   slug: open-state-farm-insurance-cos-renters
@@ -195,7 +207,7 @@ press:
 - date: '2026-05-25'
   title: 147 State Farm Insurance Company Stock Photos, High- ...
   url: https://www.gettyimages.in/photos/state-farm-insurance-company
-random_paper: 115
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: State Farm Insurance Cos Rate Limits
@@ -242,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/screenshots/state-farm-insurance-cos-2026-06-20T194526.png
 security:

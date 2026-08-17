@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Worksheet management within a workbook
   name: Advanced Excel Worksheets API
   slug: advanced-excel-worksheets-api
-artifact_total: 75
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Microsoft Graph Excel Charts API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Microsoft Graph Excel Charts Worksheets API
   slug: postman-advanced-excel-worksheets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Excel Charts API
+  slug: open-advanced-excel-charts-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Ranges API
+  slug: open-advanced-excel-ranges-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Tables API
+  slug: open-advanced-excel-tables-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Workbooks API
+  slug: open-advanced-excel-workbooks-api
+- collection_type: open
+  name: Microsoft Graph Excel Charts Worksheets API
+  slug: open-advanced-excel-worksheets-api
 - collection_type: open
   name: Microsoft Graph Excel API
   slug: open-microsoft-graph-excel-api
@@ -292,7 +310,7 @@ plans:
 - name: Advanced Excel Plans Pricing
   plan_count: 3
   slug: advanced-excel-plans-pricing
-random_paper: 76
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Advanced Excel Rate Limits
@@ -331,7 +349,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-excel/refs/heads/main/screenshots/advanced-excel-2026-06-20T165321.png
 security:

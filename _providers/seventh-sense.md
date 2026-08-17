@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Collections are groups of registered `Persons`. You can use collections to organize your registered persons and to search for persons within a specific collection. You can also use collections to mana
@@ -46,7 +46,26 @@ apis:
 - description: The endpoints below allow you to search for previously registered persons using a face image obtained at a later time. The search is performed using a deep learning model trained on millions of face i
   name: Seventh Sense Search API
   slug: seventh-sense-search-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenCV Face Recognition Collections API
+  slug: open-seventh-sense-collections-api
+- collection_type: open
+  name: OpenCV Face Recognition Collections Face Anti-Spoofing / Liveness API
+  slug: open-seventh-sense-face-anti-spoofing-liveness-api
+- collection_type: open
+  name: OpenCV Face Recognition Collections Face Verification API
+  slug: open-seventh-sense-face-verification-api
+- collection_type: open
+  name: OpenCV Face Recognition Collections Persons API
+  slug: open-seventh-sense-persons-api
+- collection_type: open
+  name: OpenCV Face Recognition Collections Search API
+  slug: open-seventh-sense-search-api
 common:
 - group: other
   title: ''
@@ -136,7 +155,7 @@ overview: 'Seventh Sense publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Seventh Sense''s developer surface includes authentication, documentation, signup flow, and 15 more developer resources.'
-random_paper: 32
+random_paper: 11
 score:
   band: thin
   composite: 34.9
@@ -159,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

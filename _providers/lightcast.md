@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Career Coach Careers API is a RESTful API service that contains economic data for all careers in the Career Coach app stored in JSON format.
@@ -76,7 +76,7 @@ plans:
 - name: Lightcast Plans Pricing
   plan_count: 3
   slug: lightcast-plans-pricing
-random_paper: 3
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Lightcast Rate Limits
@@ -94,7 +94,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightcast/refs/heads/main/screenshots/lightcast-2026-06-20T184514.png
 security:

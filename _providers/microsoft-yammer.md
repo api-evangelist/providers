@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: The Users API from Microsoft Yammer — 5 operation(s) for users.
   name: Microsoft Yammer Users API
   slug: microsoft-yammer-users-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Viva Engage (Yammer) Legacy REST Files API
+  slug: open-microsoft-yammer-files-api
+- collection_type: open
+  name: Viva Engage (Yammer) Legacy REST Files Groups API
+  slug: open-microsoft-yammer-groups-api
+- collection_type: open
+  name: Viva Engage (Yammer) Legacy REST Files Messages API
+  slug: open-microsoft-yammer-messages-api
+- collection_type: open
+  name: Viva Engage (Yammer) Legacy REST Files Networks API
+  slug: open-microsoft-yammer-networks-api
+- collection_type: open
+  name: Viva Engage (Yammer) Legacy REST Files Search API
+  slug: open-microsoft-yammer-search-api
+- collection_type: open
+  name: Viva Engage (Yammer) Legacy REST Files Subscriptions API
+  slug: open-microsoft-yammer-subscriptions-api
+- collection_type: open
+  name: Viva Engage (Yammer) Legacy REST Files Threads API
+  slug: open-microsoft-yammer-threads-api
+- collection_type: open
+  name: Viva Engage (Yammer) Legacy REST Files Topics API
+  slug: open-microsoft-yammer-topics-api
+- collection_type: open
+  name: Viva Engage (Yammer) Legacy REST Files Users API
+  slug: open-microsoft-yammer-users-api
 - collection_type: open
   name: Viva Engage (Yammer) Legacy REST API
   slug: open-microsoft-yammer
@@ -139,7 +169,7 @@ plans:
 - name: Microsoft Yammer Plans Pricing
   plan_count: 3
   slug: microsoft-yammer-plans-pricing
-random_paper: 118
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Microsoft Yammer Rate Limits
@@ -169,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/screenshots/microsoft-yammer-2026-06-20T185547.png
 security:

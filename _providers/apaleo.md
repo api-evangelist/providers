@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Account- and property-level configuration.
   name: apaleo Settings API
   slug: apaleo-settings-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: apaleo Platform Availability API
+  slug: open-apaleo-availability-api
+- collection_type: open
+  name: apaleo Platform Availability Booking API
+  slug: open-apaleo-booking-api
+- collection_type: open
+  name: apaleo Platform Availability Finance API
+  slug: open-apaleo-finance-api
+- collection_type: open
+  name: apaleo Platform Availability Inventory API
+  slug: open-apaleo-inventory-api
+- collection_type: open
+  name: apaleo Platform Availability Rate Plan API
+  slug: open-apaleo-rate-plan-api
+- collection_type: open
+  name: apaleo Platform Availability Settings API
+  slug: open-apaleo-settings-api
 - collection_type: open
   name: apaleo Platform API
   slug: open-apaleo
@@ -131,7 +152,7 @@ plans:
 - name: Apaleo Plans Pricing
   plan_count: 3
   slug: apaleo-plans-pricing
-random_paper: 26
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Apaleo Rate Limits
@@ -161,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/screenshots/apaleo-2026-07-25T200530.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: REST API for managing features, components, products, notes (customer feedback), users, companies, objectives, releases, and webhooks within Productboard. Supports both v1 and v2 endpoints. Authentica
@@ -63,7 +63,41 @@ apis:
 - description: The Webhooks API from Productboard — 2 operation(s) for webhooks.
   name: Productboard Webhooks API
   slug: productboard-webhooks-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Productboard Public Entities API
+  slug: open-productboard-entities-api
+- collection_type: open
+  name: Productboard Public Entity Field Values API
+  slug: open-productboard-entity-field-values-api
+- collection_type: open
+  name: Productboard Public Entity Relationships API
+  slug: open-productboard-entity-relationships-api
+- collection_type: open
+  name: Productboard Public Jira Integrations API
+  slug: open-productboard-jira-integrations-api
+- collection_type: open
+  name: Productboard Public Members API
+  slug: open-productboard-members-api
+- collection_type: open
+  name: Productboard Public Note Relationships API
+  slug: open-productboard-note-relationships-api
+- collection_type: open
+  name: Productboard Public Notes API
+  slug: open-productboard-notes-api
+- collection_type: open
+  name: Productboard Public Plugin Integrations API
+  slug: open-productboard-plugin-integrations-api
+- collection_type: open
+  name: Productboard Public Teams API
+  slug: open-productboard-teams-api
+- collection_type: open
+  name: Productboard Public Webhooks API
+  slug: open-productboard-webhooks-api
 common:
 - group: auth
   title: ''
@@ -133,7 +167,7 @@ overview: 'Productboard publishes 11 APIs on the [APIs.io](https://apis.io/) net
 
 
   Productboard''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 89
+random_paper: 97
 score:
   band: thin
   composite: 34.2
@@ -153,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productboard/refs/heads/main/screenshots/productboard-2026-06-20T192139.png
 security:

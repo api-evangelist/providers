@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ apis:
 - description: OpenAPI 3.0.0 contract for activating Zoopla Weekly Featured Property placements against a listing, exposed at /products/weekly-featured-properties and /products/weekly-featured-properties/{uuid}. OAu
   name: Zoopla Weekly Featured Property (WFP) Activations API
   slug: zoopla-weekly-featured-property-api
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: 'Event notifications Alto delivers to a partner-hosted HTTPS endpoint when data changes in an Alto agency tenancy. Faithfully transcribed by API Evangelist from the webhook catalogue Alto publishes at '
   name: Alto Webhooks
@@ -48,6 +48,19 @@ asyncapis:
 - description: Real-time delivery of Zoopla portal leads to a partner-hosted endpoint. Faithfully transcribed by API Evangelist from the push-service documentation Zoopla publishes at https://developers.zoopla.co.uk
   name: Zoopla Lead Push Service
   slug: alto-vebra-zoopla-leads-push-asyncapi
+collections:
+- collection_type: open
+  name: Alto API
+  slug: open-alto-api
+- collection_type: open
+  name: Leads API
+  slug: open-zoopla-leads-api
+- collection_type: open
+  name: Premium Listing activations
+  slug: open-zoopla-premium-listing-activations
+- collection_type: open
+  name: Weekly Featured Property (WFP) Activations
+  slug: open-zoopla-weekly-featured-property
 common:
 - group: agent
   title: ''
@@ -241,7 +254,7 @@ overview: 'Alto (Vebra / Zoopla) publishes 4 APIs on the [APIs.io](https://apis.
 
 
   Alto (Vebra / Zoopla)''s developer surface includes authentication, documentation, developer portal, engineering blog, support, changelog, sandbox, and 36 more developer resources.'
-random_paper: 45
+random_paper: 111
 scopes:
 - name: Alto Vebra Scopes
   scope_count: 104
@@ -270,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/screenshots/alto-vebra-2026-08-07T161256.png
 security:

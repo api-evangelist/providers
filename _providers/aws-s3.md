@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -45,7 +45,7 @@ apis:
 - description: The WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API from Amazon S3 API — 1 operation(s) for writegetobjectresponse#x amz request route&x amz request token.
   name: Amazon S3 API WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
   slug: aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
-artifact_total: 1752
+artifact_total: 1755
 collections:
 - collection_type: postman
   name: Amazon Simple Storage Service API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Amazon Simple Storage Service WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
   slug: postman-aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Simple Storage Service API
+  slug: open-aws-s3-amazon-simple-storage-service-api
+- collection_type: open
+  name: Amazon Simple Storage Service WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
+  slug: open-aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
 common:
 - group: build
   title: ''
@@ -5344,7 +5353,7 @@ plans:
 - name: Aws S3 Plans Pricing
   plan_count: 3
   slug: aws-s3-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Aws S3 Rate Limits
@@ -5386,7 +5395,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/screenshots/aws-s3-2026-06-20T172817.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'HistoSonics is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   HistoSonics'' developer surface includes product news and 16 more developer resources.'
-random_paper: 6
+random_paper: 14
 score:
   band: minimal
   composite: 11.1
@@ -123,7 +123,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/histosonics/refs/heads/main/screenshots/histosonics-2026-08-07T170230.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -131,7 +131,7 @@ arazzos:
 - description: Build a Webset, list its items, and deep-fetch the top item's contents.
   name: Exa Webset Item Deep Contents
   slug: exa-ai-webset-item-deep-contents-workflow
-artifact_total: 76
+artifact_total: 95
 collections:
 - collection_type: postman
   name: Exa Agent API
@@ -155,8 +155,65 @@ collections:
   name: Exa Websets API
   slug: postman-exa-websets-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Exa Agent API
   slug: open-exa-agent-api
+- collection_type: open
+  name: Exa Agent API
+  slug: open-exa-ai-agent-api
+- collection_type: open
+  name: Exa Agent Answer API
+  slug: open-exa-ai-answer-api
+- collection_type: open
+  name: Exa Agent Contents API
+  slug: open-exa-ai-contents-api
+- collection_type: open
+  name: Exa Agent Enrichments API
+  slug: open-exa-ai-enrichments-api
+- collection_type: open
+  name: Exa Agent Events API
+  slug: open-exa-ai-events-api
+- collection_type: open
+  name: Exa Agent Imports API
+  slug: open-exa-ai-imports-api
+- collection_type: open
+  name: Exa Agent Items API
+  slug: open-exa-ai-items-api
+- collection_type: open
+  name: Exa Agent Monitors API
+  slug: open-exa-ai-monitors-api
+- collection_type: open
+  name: Exa Agent Monitors Runs API
+  slug: open-exa-ai-monitors-runs-api
+- collection_type: open
+  name: Exa Agent Research API
+  slug: open-exa-ai-research-api
+- collection_type: open
+  name: Exa Agent Runs API
+  slug: open-exa-ai-runs-api
+- collection_type: open
+  name: Exa Agent Search API
+  slug: open-exa-ai-search-api
+- collection_type: open
+  name: Exa Agent Searches API
+  slug: open-exa-ai-searches-api
+- collection_type: open
+  name: Exa Agent Team Management API
+  slug: open-exa-ai-team-management-api
+- collection_type: open
+  name: Exa Agent Teams API
+  slug: open-exa-ai-teams-api
+- collection_type: open
+  name: Exa Agent Webhooks API
+  slug: open-exa-ai-webhooks-api
+- collection_type: open
+  name: Exa Agent Webhooks Attempts API
+  slug: open-exa-ai-webhooks-attempts-api
+- collection_type: open
+  name: Exa Agent Websets API
+  slug: open-exa-ai-websets-api
 - collection_type: open
   name: Exa Monitors API
   slug: open-exa-monitors-api
@@ -515,7 +572,7 @@ plans:
 - name: Exa Ai Plans Pricing
   plan_count: 8
   slug: exa-ai-plans-pricing
-random_paper: 85
+random_paper: 118
 rate_limits:
 - limit_count: 6
   name: Exa Ai Rate Limits
@@ -551,7 +608,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/screenshots/exa-ai-2026-06-20T180928.png
 security:

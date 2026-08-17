@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Field boundary mapping and per-field record-keeping, the original core of FarmLogs. This capability now lives inside Bushel Farm (formerly Bushel Farm/FarmLogs); no self-serve public REST reference, b
@@ -46,8 +46,11 @@ apis:
 - description: Field activity logging and in-field scouting notes, plus machine/equipment activity ingested from John Deere Operations Center and Climate FieldView integrations. These are inbound partner integration
   name: FarmLogs Activities & Scouting
   slug: activities-and-scouting
-artifact_total: 10
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: FarmLogs API
   slug: open-farmlogs
@@ -105,7 +108,7 @@ plans:
 - name: Farmlogs Plans Pricing
   plan_count: 1
   slug: farmlogs-plans-pricing
-random_paper: 19
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Farmlogs Rate Limits
@@ -123,7 +126,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/screenshots/farmlogs-2026-07-25T214231.png
 security:

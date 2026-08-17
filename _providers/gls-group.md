@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: RESTful shipping API for printing labels and manifesting shipping data for GLS Netherlands. Covers login validation, label creation (parcel ShipType "P" and freight ShipType "F"), label deletion, sing
@@ -30,7 +30,20 @@ apis:
 - description: Group-wide shipping integration web service (version 3.4.19) exposed by the GLS ShipIT backend, documented publicly as Doxygen reference pages. Resource groups cover shipment processing (POST /backend
   name: GLS ShipIT REST API
   slug: gls-shipit-rest-api
-artifact_total: 3
+artifact_total: 7
+collections:
+- collection_type: open
+  name: GLS.API (Version 1.0)
+  slug: open-gls-netherlands-label-api-test
+- collection_type: open
+  name: GLS Netherlands LabelApi - Production
+  slug: open-gls-netherlands-label-api
+- collection_type: open
+  name: GLS T&T Api - Test
+  slug: open-gls-track-and-trace-api-test
+- collection_type: open
+  name: GLS T&T Api - Production
+  slug: open-gls-track-and-trace-api
 common:
 - group: company
   title: ''
@@ -85,7 +98,7 @@ overview: 'GLS Group publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   GLS Group''s developer surface includes getting-started guide, FAQ, signup flow, API reference, and 6 more developer resources.'
-random_paper: 88
+random_paper: 34
 score:
   band: thin
   composite: 29.6
@@ -105,7 +118,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gls-group/refs/heads/main/screenshots/gls-group-2026-08-07T165749.png
 slug: gls-group

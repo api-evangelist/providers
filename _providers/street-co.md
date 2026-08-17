@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -38,11 +38,21 @@ apis:
 - description: The public API for the Spectre products, documented on the Street.co.uk developer portal and integrated into the Street CRM. Covers Spectre Property Reports (create and retrieve property reports, retr
   name: Spectre API
   slug: spectre-api
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Street Co Webhooks
   slug: street-co-webhooks
+collections:
+- collection_type: open
+  name: Street Open API
+  slug: open-street-co-open-api
+- collection_type: open
+  name: Property Feed
+  slug: open-street-co-property-feed-api
+- collection_type: open
+  name: Spectre API
+  slug: open-street-co-spectre-api
 common:
 - group: auth
   title: ''
@@ -232,7 +242,7 @@ overview: 'Street.co.uk publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Street.co.uk''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, engineering blog, pricing, and 35 more developer resources.'
-random_paper: 78
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Street Co Rate Limits
@@ -260,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

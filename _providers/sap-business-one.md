@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -71,8 +71,38 @@ apis:
 - description: The Orders({DocEntry}) API from SAP Business One — 1 operation(s) for orders({docentry}).
   name: SAP Business One Orders({DocEntry}) API
   slug: sap-business-one-orders-docentry-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP Business One Service Layer BusinessPartners API
+  slug: open-sap-business-one-businesspartners-api
+- collection_type: open
+  name: SAP Business One Service Layer BusinessPartners BusinessPartners('{CardCode}') API
+  slug: open-sap-business-one-businesspartners-cardcode-api
+- collection_type: open
+  name: SAP Business One Service Layer BusinessPartners CompanyService GetCompanyInfo API
+  slug: open-sap-business-one-companyservice-getcompanyinfo-api
+- collection_type: open
+  name: SAP Business One Service Layer BusinessPartners Invoices API
+  slug: open-sap-business-one-invoices-api
+- collection_type: open
+  name: SAP Business One Service Layer BusinessPartners Items API
+  slug: open-sap-business-one-items-api
+- collection_type: open
+  name: SAP Business One Service Layer BusinessPartners Login API
+  slug: open-sap-business-one-login-api
+- collection_type: open
+  name: SAP Business One Service Layer BusinessPartners Logout API
+  slug: open-sap-business-one-logout-api
+- collection_type: open
+  name: SAP Business One Service Layer BusinessPartners Orders API
+  slug: open-sap-business-one-orders-api
+- collection_type: open
+  name: SAP Business One Service Layer BusinessPartners Orders({DocEntry}) API
+  slug: open-sap-business-one-orders-docentry-api
 - collection_type: open
   name: SAP Business One Service Layer API
   slug: open-sap-business-one
@@ -141,7 +171,7 @@ overview: 'SAP Business One publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   SAP Business One''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 52
+random_paper: 122
 score:
   band: thin
   composite: 30.6
@@ -162,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/screenshots/sap-business-one-2026-06-20T193419.png
 security:

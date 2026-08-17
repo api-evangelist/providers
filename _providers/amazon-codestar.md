@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -92,7 +92,65 @@ apis:
 - description: 'The #X Amz Target=CodeStar 20170419.UpdateUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.updateuserprofile.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.UpdateUserProfile API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-updateuserprofile-api
-artifact_total: 278
+artifact_total: 297
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-associateteammember-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.CreateProject API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-createproject-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.CreateUserProfile API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-createuserprofile-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.DeleteProject API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-deleteproject-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.DeleteUserProfile API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-deleteuserprofile-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.DescribeProject API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-describeproject-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.DescribeUserProfile API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-describeuserprofile-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.DisassociateTeamMember API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-disassociateteammember-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.ListProjects API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-listprojects-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.ListResources API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-listresources-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.ListTagsForProject API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-listtagsforproject-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.ListTeamMembers API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-listteammembers-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.ListUserProfiles API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-listuserprofiles-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.TagProject API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-tagproject-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.UntagProject API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-untagproject-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.UpdateProject API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-updateproject-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.UpdateTeamMember API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-updateteammember-api
+- collection_type: open
+  name: 'AWS CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.AssociateTeamMember #X Amz Target=CodeStar 20170419.UpdateUserProfile API'
+  slug: open-amazon-codestar-x-amz-target-codestar-20170419-updateuserprofile-api
 common:
 - group: agent
   title: ''
@@ -944,7 +1002,7 @@ overview: 'Amazon CodeStar publishes 18 APIs on the [APIs.io](https://apis.io/) 
 
 
   Amazon CodeStar''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 17 more developer resources.'
-random_paper: 104
+random_paper: 54
 rules:
 - name: Amazon CodeStar API Rules
   rule_count: 5
@@ -984,7 +1042,7 @@ score:
       total: 18
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/screenshots/amazon-codestar-2026-07-25T200001.png
 security:

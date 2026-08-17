@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,14 @@ apis:
 - description: Send data to Evermuse
   name: Evermuse ingestion API
   slug: evermuse-ingestion-api
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Evermuse ingestion API
+  slug: open-evermuse-ingestion-api
 common:
 - group: other
   title: ''
@@ -176,7 +183,7 @@ overview: 'Evermuse publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Evermuse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 36
+random_paper: 131
 scopes:
 - name: Evermuse Scopes
   scope_count: 3
@@ -205,7 +212,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/screenshots/evermuse-2026-07-25T213734.png
 security:

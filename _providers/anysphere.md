@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - description: The Sub Tokens API from Anysphere — 1 operation(s) for sub tokens.
   name: Anysphere Sub Tokens API
   slug: anysphere-sub-tokens-api
-artifact_total: 17
+artifact_total: 23
 collections:
 - collection_type: postman
   name: Cursor Cloud Agents API
@@ -70,6 +70,24 @@ collections:
 - collection_type: postman
   name: Cursor Cloud Agents Sub Tokens API
   slug: postman-anysphere-sub-tokens-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cursor Cloud Agents API
+  slug: open-anysphere-agents-api
+- collection_type: open
+  name: Cursor Cloud Agents Me API
+  slug: open-anysphere-me-api
+- collection_type: open
+  name: Cursor Cloud Agents Models API
+  slug: open-anysphere-models-api
+- collection_type: open
+  name: Cursor Cloud Agents Repositories API
+  slug: open-anysphere-repositories-api
+- collection_type: open
+  name: Cursor Cloud Agents Sub Tokens API
+  slug: open-anysphere-sub-tokens-api
 common:
 - group: build
   title: ''
@@ -231,7 +249,7 @@ overview: 'Anysphere publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anysphere''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 7
   name: Anysphere Rate Limits
@@ -259,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/screenshots/anysphere-2026-07-25T200524.png
 security:

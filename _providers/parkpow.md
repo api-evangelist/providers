@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: ParkPow API for managing parking lots, tracking vehicles, alerts, and enforcement of parking rules.
@@ -80,7 +80,7 @@ plans:
 - name: Parkpow Plans Pricing
   plan_count: 3
   slug: parkpow-plans-pricing
-random_paper: 52
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Parkpow Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parkpow/refs/heads/main/screenshots/parkpow-2026-06-20T191414.png
 security:

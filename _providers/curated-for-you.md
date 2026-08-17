@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Chronicle API from Curated for You — 1 operation(s) for chronicle.
@@ -49,7 +49,29 @@ apis:
 - description: The Users API from Curated for You — 1 operation(s) for users.
   name: Curated for You Users API
   slug: curated-for-you-users-api
-artifact_total: 9
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Curated for You Chronicle API
+  slug: open-curated-for-you-chronicle-api
+- collection_type: open
+  name: Curated for You Chronicle Companies API
+  slug: open-curated-for-you-companies-api
+- collection_type: open
+  name: Curated for You Chronicle Curations API
+  slug: open-curated-for-you-curations-api
+- collection_type: open
+  name: Curated for You Chronicle Feedback API
+  slug: open-curated-for-you-feedback-api
+- collection_type: open
+  name: Curated for You Chronicle shopify API
+  slug: open-curated-for-you-shopify-api
+- collection_type: open
+  name: Curated for You Chronicle Users API
+  slug: open-curated-for-you-users-api
 common:
 - group: other
   title: ''
@@ -147,7 +169,7 @@ overview: 'Curated for You publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Curated for You''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 70
+random_paper: 20
 score:
   band: thin
   composite: 36.6
@@ -170,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/screenshots/curated-for-you-2026-07-25T210930.png
 security:

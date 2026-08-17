@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Subscribe to document lifecycle events.
   name: Signaturely Webhooks API
   slug: signaturely-webhooks-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Signaturely Documents API
+  slug: open-signaturely-documents-api
+- collection_type: open
+  name: Signaturely Documents Folders API
+  slug: open-signaturely-folders-api
+- collection_type: open
+  name: Signaturely Documents Signature Requests API
+  slug: open-signaturely-signature-requests-api
+- collection_type: open
+  name: Signaturely Documents Team API
+  slug: open-signaturely-team-api
+- collection_type: open
+  name: Signaturely Documents Templates API
+  slug: open-signaturely-templates-api
+- collection_type: open
+  name: Signaturely Documents User API
+  slug: open-signaturely-user-api
+- collection_type: open
+  name: Signaturely Documents Webhooks API
+  slug: open-signaturely-webhooks-api
 common:
 - group: agent
   title: ''
@@ -130,7 +155,7 @@ plans:
 - name: Signaturely Plans Pricing
   plan_count: 4
   slug: signaturely-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Signaturely Rate Limits
@@ -155,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

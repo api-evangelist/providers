@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -63,7 +63,7 @@ apis:
 - description: Tenant management endpoints for creating and retrieving tenants.
   name: Chroma Tenants API
   slug: chroma-tenants-api
-artifact_total: 47
+artifact_total: 54
 collections:
 - collection_type: postman
   name: Chroma Cloud Collections API
@@ -84,11 +84,32 @@ collections:
   name: Chroma Cloud Collections Tenants API
   slug: postman-chroma-tenants-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Chroma Cloud API
   slug: open-chroma-cloud-api
 - collection_type: open
+  name: Chroma Cloud Collections API
+  slug: open-chroma-collections-api
+- collection_type: open
+  name: Chroma Cloud Collections Databases API
+  slug: open-chroma-databases-api
+- collection_type: open
+  name: Chroma Cloud Collections Records API
+  slug: open-chroma-records-api
+- collection_type: open
+  name: Chroma Cloud Collections Search API
+  slug: open-chroma-search-api
+- collection_type: open
   name: Chroma Server API
   slug: open-chroma-server-api
+- collection_type: open
+  name: Chroma Cloud Collections System API
+  slug: open-chroma-system-api
+- collection_type: open
+  name: Chroma Cloud Collections Tenants API
+  slug: open-chroma-tenants-api
 common:
 - group: operate
   title: ''
@@ -256,7 +277,7 @@ plans:
 - name: Chroma Plans Pricing
   plan_count: 3
   slug: chroma-plans-pricing
-random_paper: 34
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Chroma Rate Limits
@@ -290,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/screenshots/chroma-2026-06-20T174327.png
 security:

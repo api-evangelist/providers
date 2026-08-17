@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: API information and health
@@ -43,7 +43,23 @@ apis:
 - description: Aggregate trading volume
   name: MetaDAO Volume API
   slug: metadao-volume-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MetaDAO Futarchy DEX Meta API
+  slug: open-metadao-meta-api
+- collection_type: open
+  name: MetaDAO Futarchy DEX Meta Supply API
+  slug: open-metadao-supply-api
+- collection_type: open
+  name: MetaDAO Futarchy DEX Meta Tickers API
+  slug: open-metadao-tickers-api
+- collection_type: open
+  name: MetaDAO Futarchy DEX Meta Volume API
+  slug: open-metadao-volume-api
 common:
 - group: company
   title: ''
@@ -133,7 +149,7 @@ overview: 'MetaDAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   MetaDAO''s developer surface includes documentation, API reference, getting-started guide, authentication, and 14 more developer resources.'
-random_paper: 11
+random_paper: 135
 rate_limits:
 - limit_count: 1
   name: Metadao Rate Limits
@@ -166,7 +182,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/screenshots/metadao-2026-08-07T172641.png
 security:

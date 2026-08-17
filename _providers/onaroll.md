@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Onaroll
 nav: Providers
 network: true
 overview: Onaroll is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Vertical Software.
-random_paper: 39
+random_paper: 14
 score:
   band: minimal
   composite: 4.1
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onaroll/refs/heads/main/screenshots/onaroll-2026-08-07T190216.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -72,8 +72,11 @@ apis:
 - description: Verified Gross Mass declarations.
   name: Maersk VGM API
   slug: maersk-line-vgm-api
-artifact_total: 70
+artifact_total: 81
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Maersk Air Booking API
   slug: open-maersk-air-booking-api
@@ -83,6 +86,36 @@ collections:
 - collection_type: open
   name: Maersk Import Demurrage and Detention API
   slug: open-maersk-demurrage-detention-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings API
+  slug: open-maersk-line-airbookings-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings BillOfLading API
+  slug: open-maersk-line-billoflading-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings Bookings API
+  slug: open-maersk-line-bookings-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings Containers API
+  slug: open-maersk-line-containers-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings DemurrageDetention API
+  slug: open-maersk-line-demurragedetention-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings Locations API
+  slug: open-maersk-line-locations-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings Offers API
+  slug: open-maersk-line-offers-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings Schedules API
+  slug: open-maersk-line-schedules-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings Tracking API
+  slug: open-maersk-line-tracking-api
+- collection_type: open
+  name: Maersk Air Booking AirBookings VGM API
+  slug: open-maersk-line-vgm-api
 - collection_type: open
   name: Maersk Ocean Booking API
   slug: open-maersk-ocean-booking-api
@@ -334,7 +367,7 @@ plans:
 - name: Maersk Line Plans Pricing
   plan_count: 5
   slug: maersk-line-plans-pricing
-random_paper: 32
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Maersk Line Rate Limits
@@ -381,7 +414,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/screenshots/maersk-line-2026-06-20T184832.png
 security:

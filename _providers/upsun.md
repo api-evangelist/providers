@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 50
 apis:
 - description: The Add-ons API from Upsun — 1 operation(s) for add-ons.
@@ -182,7 +182,7 @@ apis:
 - description: These endpoints can be used to retrieve vouchers associated with a particular user as well as apply a voucher to a particular user.
   name: Upsun Vouchers API
   slug: upsun-vouchers-api
-artifact_total: 107
+artifact_total: 158
 asyncapis:
 - description: ''
   name: Upsun Activity Webhooks
@@ -338,6 +338,159 @@ collections:
 - collection_type: postman
   name: Upsun.com Rest Add-ons Vouchers API
   slug: postman-upsun-vouchers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Upsun.com Rest Add-ons API
+  slug: open-upsun-add-ons-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Alerts API
+  slug: open-upsun-alerts-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons API Tokens API
+  slug: open-upsun-api-tokens-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Autoscaling API
+  slug: open-upsun-autoscaling-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Cert Management API
+  slug: open-upsun-cert-management-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Connections API
+  slug: open-upsun-connections-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Deployment API
+  slug: open-upsun-deployment-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Deployment Target API
+  slug: open-upsun-deployment-target-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Discounts API
+  slug: open-upsun-discounts-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Domain Management API
+  slug: open-upsun-domain-management-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Environment Activity API
+  slug: open-upsun-environment-activity-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Environment API
+  slug: open-upsun-environment-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Environment Backups API
+  slug: open-upsun-environment-backups-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Environment Type API
+  slug: open-upsun-environment-type-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Environment Variables API
+  slug: open-upsun-environment-variables-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Grants API
+  slug: open-upsun-grants-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Invoices API
+  slug: open-upsun-invoices-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons MFA API
+  slug: open-upsun-mfa-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Orders API
+  slug: open-upsun-orders-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Organization Invitations API
+  slug: open-upsun-organization-invitations-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Organization Management API
+  slug: open-upsun-organization-management-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Organization Members API
+  slug: open-upsun-organization-members-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Organization Projects API
+  slug: open-upsun-organization-projects-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Organizations API
+  slug: open-upsun-organizations-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons PhoneNumber API
+  slug: open-upsun-phonenumber-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Profiles API
+  slug: open-upsun-profiles-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Project Activity API
+  slug: open-upsun-project-activity-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Project API
+  slug: open-upsun-project-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Project Invitations API
+  slug: open-upsun-project-invitations-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Project Settings API
+  slug: open-upsun-project-settings-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Project Variables API
+  slug: open-upsun-project-variables-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Records API
+  slug: open-upsun-records-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons References API
+  slug: open-upsun-references-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Regions API
+  slug: open-upsun-regions-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Repository API
+  slug: open-upsun-repository-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Routing API
+  slug: open-upsun-routing-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Runtime Operations API
+  slug: open-upsun-runtime-operations-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Source Operations API
+  slug: open-upsun-source-operations-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons SSH Keys API
+  slug: open-upsun-ssh-keys-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Subscriptions API
+  slug: open-upsun-subscriptions-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Support API
+  slug: open-upsun-support-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons System Information API
+  slug: open-upsun-system-information-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Team Access API
+  slug: open-upsun-team-access-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Teams API
+  slug: open-upsun-teams-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Third-Party Integrations API
+  slug: open-upsun-third-party-integrations-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Tickets API
+  slug: open-upsun-tickets-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons User Access API
+  slug: open-upsun-user-access-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons User Profiles API
+  slug: open-upsun-user-profiles-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Users API
+  slug: open-upsun-users-api
+- collection_type: open
+  name: Upsun.com Rest Add-ons Vouchers API
+  slug: open-upsun-vouchers-api
 common:
 - group: build
   title: ''
@@ -510,7 +663,7 @@ overview: 'Upsun publishes 50 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Upsun''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, developer console, and 31 more developer resources.'
-random_paper: 91
+random_paper: 124
 scopes:
 - name: Upsun Scopes
   scope_count: 1
@@ -538,7 +691,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

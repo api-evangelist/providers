@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -548,7 +548,7 @@ arazzos:
 - description: Find a user by email and update them if found, otherwise create a new user.
   name: Zendesk Upsert User by Email
   slug: zendesk-upsert-user-by-email-workflow
-artifact_total: 324
+artifact_total: 405
 asyncapis:
 - description: Zendesk Webhooks allow you to receive real-time HTTP notifications when events occur in your Zendesk account. Webhooks are the modern replacement for legacy targets and support event types for tickets
   name: Zendesk Webhooks
@@ -780,8 +780,251 @@ collections:
   name: Zendesk Support API
   slug: postman-zendesk-support
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zendesk Account Account Settings API
+  slug: open-zendesk-account-settings-api
+- collection_type: open
+  name: Zendesk Account Account Settings Activity Stream API
+  slug: open-zendesk-activity-stream-api
+- collection_type: open
+  name: Zendesk Account Account Settings Approval Requests API
+  slug: open-zendesk-approval-requests-api
+- collection_type: open
+  name: Zendesk Account Account Settings AssigneeFieldAssignableAgents API
+  slug: open-zendesk-assigneefieldassignableagents-api
+- collection_type: open
+  name: Zendesk Account Account Settings AssigneeFieldAssignableGroups API
+  slug: open-zendesk-assigneefieldassignablegroups-api
+- collection_type: open
+  name: Zendesk Account Account Settings Attachments API
+  slug: open-zendesk-attachments-api
+- collection_type: open
+  name: Zendesk Account Account Settings Audit Logs API
+  slug: open-zendesk-audit-logs-api
+- collection_type: open
+  name: Zendesk Account Account Settings Autocomplete API
+  slug: open-zendesk-autocomplete-api
+- collection_type: open
+  name: Zendesk Account Account Settings Automations API
+  slug: open-zendesk-automations-api
+- collection_type: open
+  name: Zendesk Account Account Settings Basics API
+  slug: open-zendesk-basics-api
+- collection_type: open
+  name: Zendesk Account Account Settings Bookmarks API
+  slug: open-zendesk-bookmarks-api
+- collection_type: open
+  name: Zendesk Account Account Settings Brand Agents API
+  slug: open-zendesk-brand-agents-api
+- collection_type: open
+  name: Zendesk Account Account Settings Brands API
+  slug: open-zendesk-brands-api
+- collection_type: open
+  name: Zendesk Account Account Settings Channel Framework API
+  slug: open-zendesk-channel-framework-api
+- collection_type: open
+  name: Zendesk Account Account Settings Conversation Log API
+  slug: open-zendesk-conversation-log-api
+- collection_type: open
+  name: Zendesk Account Account Settings Custom Object Fields API
+  slug: open-zendesk-custom-object-fields-api
+- collection_type: open
+  name: Zendesk Account Account Settings Custom Object Records API
+  slug: open-zendesk-custom-object-records-api
+- collection_type: open
+  name: Zendesk Account Account Settings Custom Objects API
+  slug: open-zendesk-custom-objects-api
+- collection_type: open
+  name: Zendesk Account Account Settings Custom Roles API
+  slug: open-zendesk-custom-roles-api
+- collection_type: open
+  name: Zendesk Account Account Settings Custom Ticket Statuses API
+  slug: open-zendesk-custom-ticket-statuses-api
+- collection_type: open
+  name: Zendesk Account Account Settings Deletion Schedules API
+  slug: open-zendesk-deletion-schedules-api
+- collection_type: open
+  name: Zendesk Account Account Settings Dynamic Content API
+  slug: open-zendesk-dynamic-content-api
+- collection_type: open
+  name: Zendesk Account Account Settings Dynamic Content Item Variants API
+  slug: open-zendesk-dynamic-content-item-variants-api
+- collection_type: open
+  name: Zendesk Account Account Settings Email Notifications API
+  slug: open-zendesk-email-notifications-api
+- collection_type: open
+  name: Zendesk Account Account Settings Essentials Card API
+  slug: open-zendesk-essentials-card-api
+- collection_type: open
+  name: Zendesk Account Account Settings Global Clients API
+  slug: open-zendesk-global-clients-api
+- collection_type: open
+  name: Zendesk Account Account Settings Grant Type Tokens API
+  slug: open-zendesk-grant-type-tokens-api
+- collection_type: open
+  name: Zendesk Account Account Settings Group Memberships API
+  slug: open-zendesk-group-memberships-api
+- collection_type: open
+  name: Zendesk Account Account Settings Group SLA Policies API
+  slug: open-zendesk-group-sla-policies-api
+- collection_type: open
+  name: Zendesk Account Account Settings Groups API
+  slug: open-zendesk-groups-api
+- collection_type: open
+  name: Zendesk Account Account Settings Incremental Export API
+  slug: open-zendesk-incremental-export-api
+- collection_type: open
+  name: Zendesk Account Account Settings Incremental Skill Based Routing API
+  slug: open-zendesk-incremental-skill-based-routing-api
+- collection_type: open
+  name: Zendesk Account Account Settings Job Statuses API
+  slug: open-zendesk-job-statuses-api
+- collection_type: open
+  name: Zendesk Account Account Settings Locales API
+  slug: open-zendesk-locales-api
+- collection_type: open
+  name: Zendesk Account Account Settings Lookup Relationships API
+  slug: open-zendesk-lookup-relationships-api
+- collection_type: open
+  name: Zendesk Account Account Settings Macros API
+  slug: open-zendesk-macros-api
+- collection_type: open
+  name: Zendesk Account Account Settings OAuth Clients API
+  slug: open-zendesk-oauth-clients-api
+- collection_type: open
+  name: Zendesk Account Account Settings OAuth Tokens API
+  slug: open-zendesk-oauth-tokens-api
+- collection_type: open
+  name: Zendesk Account Account Settings Object Triggers API
+  slug: open-zendesk-object-triggers-api
+- collection_type: open
+  name: Zendesk Account Account Settings Omnichannel Routing Queues API
+  slug: open-zendesk-omnichannel-routing-queues-api
+- collection_type: open
+  name: Zendesk Account Account Settings Organization Fields API
+  slug: open-zendesk-organization-fields-api
+- collection_type: open
+  name: Zendesk Account Account Settings Organization Memberships API
+  slug: open-zendesk-organization-memberships-api
+- collection_type: open
+  name: Zendesk Account Account Settings Organization Subscriptions API
+  slug: open-zendesk-organization-subscriptions-api
+- collection_type: open
+  name: Zendesk Account Account Settings Organizations API
+  slug: open-zendesk-organizations-api
+- collection_type: open
+  name: Zendesk Account Account Settings Push Notification Devices API
+  slug: open-zendesk-push-notification-devices-api
+- collection_type: open
+  name: Zendesk Account Account Settings Requests API
+  slug: open-zendesk-requests-api
+- collection_type: open
+  name: Zendesk Account Account Settings Reseller API
+  slug: open-zendesk-reseller-api
+- collection_type: open
+  name: Zendesk Account Account Settings Resource Collections API
+  slug: open-zendesk-resource-collections-api
+- collection_type: open
+  name: Zendesk Account Account Settings Satisfaction Ratings API
+  slug: open-zendesk-satisfaction-ratings-api
+- collection_type: open
+  name: Zendesk Account Account Settings Satisfaction Reasons API
+  slug: open-zendesk-satisfaction-reasons-api
+- collection_type: open
+  name: Zendesk Account Account Settings Search API
+  slug: open-zendesk-search-api
+- collection_type: open
+  name: Zendesk Account Account Settings Sessions API
+  slug: open-zendesk-sessions-api
+- collection_type: open
+  name: Zendesk Account Account Settings Sharing Agreements API
+  slug: open-zendesk-sharing-agreements-api
+- collection_type: open
+  name: Zendesk Account Account Settings Skill Based Routing API
+  slug: open-zendesk-skill-based-routing-api
+- collection_type: open
+  name: Zendesk Account Account Settings SLA Policies API
+  slug: open-zendesk-sla-policies-api
+- collection_type: open
+  name: Zendesk Account Account Settings Support Addresses API
+  slug: open-zendesk-support-addresses-api
+- collection_type: open
   name: Zendesk Support API
   slug: open-zendesk-support
+- collection_type: open
+  name: Zendesk Account Account Settings Suspended Tickets API
+  slug: open-zendesk-suspended-tickets-api
+- collection_type: open
+  name: Zendesk Account Account Settings Tags API
+  slug: open-zendesk-tags-api
+- collection_type: open
+  name: Zendesk Account Account Settings Target Failures API
+  slug: open-zendesk-target-failures-api
+- collection_type: open
+  name: Zendesk Account Account Settings Targets API
+  slug: open-zendesk-targets-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Audits API
+  slug: open-zendesk-ticket-audits-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Comments API
+  slug: open-zendesk-ticket-comments-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Content Pins API
+  slug: open-zendesk-ticket-content-pins-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Fields API
+  slug: open-zendesk-ticket-fields-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Form Statuses API
+  slug: open-zendesk-ticket-form-statuses-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Forms API
+  slug: open-zendesk-ticket-forms-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Import API
+  slug: open-zendesk-ticket-import-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Metric Events API
+  slug: open-zendesk-ticket-metric-events-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Metrics API
+  slug: open-zendesk-ticket-metrics-api
+- collection_type: open
+  name: Zendesk Account Account Settings Ticket Skips API
+  slug: open-zendesk-ticket-skips-api
+- collection_type: open
+  name: Zendesk Account Account Settings Tickets API
+  slug: open-zendesk-tickets-api
+- collection_type: open
+  name: Zendesk Account Account Settings Trigger Categories API
+  slug: open-zendesk-trigger-categories-api
+- collection_type: open
+  name: Zendesk Account Account Settings Triggers API
+  slug: open-zendesk-triggers-api
+- collection_type: open
+  name: Zendesk Account Account Settings User Fields API
+  slug: open-zendesk-user-fields-api
+- collection_type: open
+  name: Zendesk Account Account Settings User Identities API
+  slug: open-zendesk-user-identities-api
+- collection_type: open
+  name: Zendesk Account Account Settings User Passwords API
+  slug: open-zendesk-user-passwords-api
+- collection_type: open
+  name: Zendesk Account Account Settings Users API
+  slug: open-zendesk-users-api
+- collection_type: open
+  name: Zendesk Account Account Settings Views API
+  slug: open-zendesk-views-api
+- collection_type: open
+  name: Zendesk Account Account Settings Workspaces API
+  slug: open-zendesk-workspaces-api
+- collection_type: open
+  name: Zendesk Account Account Settings X Channel API
+  slug: open-zendesk-x-channel-api
 common:
 - group: agent
   title: ''
@@ -1250,7 +1493,7 @@ plans:
 - name: Zendesk Plans Pricing
   plan_count: 7
   slug: zendesk-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 17
   name: Zendesk Rate Limits
@@ -1307,7 +1550,7 @@ score:
       total: 80
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:

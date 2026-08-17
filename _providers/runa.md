@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Utility endpoints for connectivity testing.
   name: Runa Utilities API
   slug: runa-utilities-api
-artifact_total: 23
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Runa Payouts Balance API
@@ -66,8 +66,23 @@ collections:
   name: Runa Payouts Balance Utilities API
   slug: postman-runa-utilities-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Runa Payouts Balance API
+  slug: open-runa-balance-api
+- collection_type: open
+  name: Runa Payouts Balance Orders API
+  slug: open-runa-orders-api
+- collection_type: open
   name: Runa Payouts API
   slug: open-runa-payouts-api
+- collection_type: open
+  name: Runa Payouts Balance Products API
+  slug: open-runa-products-api
+- collection_type: open
+  name: Runa Payouts Balance Utilities API
+  slug: open-runa-utilities-api
 common:
 - group: build
   title: ''
@@ -168,7 +183,7 @@ plans:
 - name: Runa Plans Pricing
   plan_count: 3
   slug: runa-plans-pricing
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Runa Rate Limits
@@ -216,7 +231,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/screenshots/runa-2026-06-20T193249.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -85,7 +85,59 @@ apis:
 - description: The P2P communication between chainweb-nodes is sharded into several independent P2P network. The `cut` network is exchanging consensus state. There is also one mempool P2P network for each chain.
   name: Kadena peer API
   slug: kadena-peer-api
-artifact_total: 19
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kadena Chainweb Node block API
+  slug: open-kadena-block-api
+- collection_type: open
+  name: Kadena Chainweb Node block blockhash API
+  slug: open-kadena-blockhash-api
+- collection_type: open
+  name: Kadena Chainweb Node block config API
+  slug: open-kadena-config-api
+- collection_type: open
+  name: Kadena Chainweb Node block cut API
+  slug: open-kadena-cut-api
+- collection_type: open
+  name: Kadena Chainweb Node block endpoint-listen API
+  slug: open-kadena-endpoint-listen-api
+- collection_type: open
+  name: Kadena Chainweb Node block endpoint-local API
+  slug: open-kadena-endpoint-local-api
+- collection_type: open
+  name: Kadena Chainweb Node block endpoint-poll API
+  slug: open-kadena-endpoint-poll-api
+- collection_type: open
+  name: Kadena Chainweb Node block endpoint-private API
+  slug: open-kadena-endpoint-private-api
+- collection_type: open
+  name: Kadena Chainweb Node block endpoint-send API
+  slug: open-kadena-endpoint-send-api
+- collection_type: open
+  name: Kadena Chainweb Node block endpoint-spv API
+  slug: open-kadena-endpoint-spv-api
+- collection_type: open
+  name: Kadena Chainweb Node block header API
+  slug: open-kadena-header-api
+- collection_type: open
+  name: Kadena Chainweb Node block mempool API
+  slug: open-kadena-mempool-api
+- collection_type: open
+  name: Kadena Chainweb Node block mining API
+  slug: open-kadena-mining-api
+- collection_type: open
+  name: Kadena Chainweb Node block misc API
+  slug: open-kadena-misc-api
+- collection_type: open
+  name: Kadena Chainweb Node block payload API
+  slug: open-kadena-payload-api
+- collection_type: open
+  name: Kadena Chainweb Node block peer API
+  slug: open-kadena-peer-api
 common:
 - group: agent
   title: ''
@@ -200,7 +252,7 @@ overview: 'Kadena publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kadena''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, sandbox, and 17 more developer resources.'
-random_paper: 12
+random_paper: 16
 score:
   band: thin
   composite: 36.4
@@ -223,7 +275,7 @@ score:
       total: 16
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/screenshots/kadena-2026-07-25T223401.png
 security:

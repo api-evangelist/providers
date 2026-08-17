@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Screaming Frog SEO Spider is a desktop website crawler for Windows, macOS, and Ubuntu that performs comprehensive technical SEO audits. It crawls websites to find broken links, analyze page titles
@@ -37,7 +37,7 @@ apis:
 - description: The Screaming Frog Log File Analyser is a free desktop tool that allows SEO professionals to upload and analyze server log files to understand how search bots are crawling a website. It identifies whi
   name: Screaming Frog Log File Analyser
   slug: log-file-analyser
-artifact_total: 11
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -67,8 +67,57 @@ common:
   title: ''
   type: Support
   url: https://www.screamingfrog.co.uk/seo-spider/faq/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.screamingfrog.co.uk/seo-spider/support/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/screamingfrog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.screamingfrog.co.uk/seo-spider/terms-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.screamingfrog.co.uk/privacy/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.screamingfrog.co.uk/login/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/screaming-frog-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/screaming-frog-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/screaming-frog-conventions.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/screaming-frog-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/screaming-frog-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/screaming-frog-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/screaming-frog-llms.txt
 created: '2026-05-02'
-description: Screaming Frog is a UK-based SEO software company and search marketing agency, best known for the SEO Spider website crawler tool used by SEO professionals worldwide to perform technical SEO audits, crawl analysis, and integrations with third-party APIs. The SEO Spider integrates with Google Analytics (GA4), Google Search Console, PageSpeed Insights, Ahrefs, Majestic, Moz, OpenAI, Gemini, Ollama, and Anthropic. Screaming Frog also offers a free Log File Analyser for analyzing server log files to understand search bot behavior.
+description: Screaming Frog is a UK-based SEO software company and search marketing agency, best known for the SEO Spider website crawler tool used by SEO professionals worldwide to perform technical SEO audits, crawl analysis, and integrations with third-party APIs. The SEO Spider integrates with Google Analytics (GA4), Google Search Console, PageSpeed Insights, Ahrefs, Majestic, Moz, OpenAI, Gemini, Ollama, and Anthropic. Screaming Frog also offers a free Log File Analyser for analyzing server log files to understand search bot behavior. Screaming Frog operates no public web API. Its machine-callable surfaces are the SEO Spider command line interface, which runs the product fully headless, and — since version 24.0, released 19 May 2026 — a first-party Model Context Protocol server built into the desktop application, exposing 29 tools for crawl control, reports, bulk exports, URL inspection, screenshots, embeddings, Node scripting and sandboxed file access. The MCP server is a paid licence
+  feature and runs inside the user's own installation over stdio or a loopback HTTP transport; there is no hosted endpoint.
 examples:
 - key_count: 20
   name: Screaming Frog Crawl Result Example
@@ -92,7 +141,11 @@ jsonld:
   property_count: 0
   slug: screaming-frog-context
 layout: provider
-modified: '2026-05-02'
+mcp_servers:
+- description: ''
+  name: screaming-frog-mcp.yml
+  slug: screaming-frog-mcpyml
+modified: '2026-08-13'
 name: Screaming Frog
 nav: Providers
 network: true
@@ -102,14 +155,14 @@ overview: 'Screaming Frog publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   The Screaming Frog catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Screaming Frog''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
+  Screaming Frog''s developer surface includes engineering blog, pricing, support, changelog, and 15 more developer resources.'
 plans:
 - name: Screaming Frog Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: screaming-frog-plans-pricing
-random_paper: 108
+random_paper: 87
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Screaming Frog Rate Limits
   slug: screaming-frog-rate-limits
 rules:
@@ -122,20 +175,20 @@ rules:
     warn: 4
   slug: screaming-frog-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 26.2
-  delta: 0.0
+  band: thin
+  composite: 35.5
+  delta: 9.3
   facets:
-    commercial_clarity: 26.3
+    commercial_clarity: 60.5
     contract_quality: 22.6
     developer_ergonomics: 6.5
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 58.3
-    operational_transparency: 7.9
+    operational_transparency: 21.1
   previous_composite: 26.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png
 security:
 - kind: domain-security
@@ -150,5 +203,9 @@ tags:
 - Technical Audit
 - Marketing
 - Analytics
+- MCP
+- Agents
+- Desktop Software
+- Command Line
 website: https://www.screamingfrog.co.uk/
 ---

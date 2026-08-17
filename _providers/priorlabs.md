@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: The Training API from Prior Labs — 4 operation(s) for training.
   name: Prior Labs Training API
   slug: priorlabs-training-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TabPFN Prediction API
+  slug: open-priorlabs-prediction-api
+- collection_type: open
+  name: TabPFN Prediction Training API
+  slug: open-priorlabs-training-api
 common:
 - group: docs
   title: ''
@@ -175,7 +185,7 @@ overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prior Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 14
+random_paper: 80
 score:
   band: developing
   composite: 49.8
@@ -199,7 +209,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

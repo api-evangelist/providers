@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Address document verifications (Coming soon) API from Ubble — 8 operation(s) for address document verifications (coming soon).
@@ -64,11 +64,48 @@ apis:
 - description: The Website verifications (Coming soon) API from Ubble — 4 operation(s) for website verifications (coming soon).
   name: Ubble Website verifications (Coming soon) API
   slug: ubble-website-verifications-coming-soon-api
-artifact_total: 16
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Ubble Webhooks
   slug: ubble-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Address document verifications (Coming soon) API
+  slug: open-ubble-address-document-verifications-coming-soon-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) AML verifications API
+  slug: open-ubble-aml-verifications-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Applicants API
+  slug: open-ubble-applicants-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Bank document verifications (Coming soon) API
+  slug: open-ubble-bank-document-verifications-coming-soon-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Business applicants API
+  slug: open-ubble-business-applicants-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Company document verifications (Coming soon) API
+  slug: open-ubble-company-document-verifications-coming-soon-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Face authentications API
+  slug: open-ubble-face-authentications-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) ID document verifications API
+  slug: open-ubble-id-document-verifications-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Identity verifications API
+  slug: open-ubble-identity-verifications-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Service status API
+  slug: open-ubble-service-status-api
+- collection_type: open
+  name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Website verifications (Coming soon) API
+  slug: open-ubble-website-verifications-coming-soon-api
 common:
 - group: company
   title: ''
@@ -209,7 +246,7 @@ overview: 'Ubble publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ubble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 23 more developer resources.'
-random_paper: 42
+random_paper: 75
 score:
   band: developing
   composite: 53.8
@@ -232,7 +269,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

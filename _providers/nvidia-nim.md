@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ arazzos:
 - description: Transcribe an audio clip with Riva ASR, answer the transcript with an LLM, then synthesize the reply with Riva TTS.
   name: NVIDIA NIM Voice Assistant Loop
   slug: nvidia-nim-voice-assistant-loop-workflow
-artifact_total: 93
+artifact_total: 98
 collections:
 - collection_type: postman
   name: NVIDIA NIM Biology (BioNeMo) API
@@ -127,34 +127,49 @@ collections:
   name: NVIDIA NIM Vision Language Models API
   slug: postman-nvidia-nim-vision-api
 - collection_type: open
-  name: NVIDIA NIM Biology (BioNeMo) API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NVIDIA NIM Biology (BioNeMo) ASR API
+  slug: open-nvidia-nim-asr-api
+- collection_type: open
+  name: NVIDIA NIM (BioNeMo) ASR Biology API
   slug: open-nvidia-nim-biology-api
+- collection_type: open
+  name: NVIDIA NIM Biology (BioNeMo) ASR Chat API
+  slug: open-nvidia-nim-chat-api
 - collection_type: open
   name: NVIDIA NIM Chat Completions API
   slug: open-nvidia-nim-chat-completions-api
 - collection_type: open
-  name: NVIDIA NIM Completions API
+  name: NVIDIA NIM Biology (BioNeMo) ASR Completions API
   slug: open-nvidia-nim-completions-api
 - collection_type: open
-  name: NVIDIA NIM Embeddings API
+  name: NVIDIA NIM Biology (BioNeMo) ASR Embeddings API
   slug: open-nvidia-nim-embeddings-api
 - collection_type: open
-  name: NVIDIA NIM Health API
+  name: NVIDIA NIM Biology (BioNeMo) ASR Health API
   slug: open-nvidia-nim-health-api
 - collection_type: open
   name: NVIDIA NIM Image Generation API
   slug: open-nvidia-nim-image-generation-api
 - collection_type: open
-  name: NVIDIA NIM Models API
+  name: NVIDIA NIM Biology (BioNeMo) ASR Images API
+  slug: open-nvidia-nim-images-api
+- collection_type: open
+  name: NVIDIA NIM Biology (BioNeMo) ASR Models API
   slug: open-nvidia-nim-models-api
 - collection_type: open
-  name: NVIDIA NIM Reranking API
+  name: NVIDIA NIM Biology (BioNeMo) ASR Reranking API
   slug: open-nvidia-nim-reranking-api
 - collection_type: open
   name: NVIDIA NIM Speech API
   slug: open-nvidia-nim-speech-api
 - collection_type: open
-  name: NVIDIA NIM Vision Language Models API
+  name: NVIDIA NIM Biology (BioNeMo) ASR TTS API
+  slug: open-nvidia-nim-tts-api
+- collection_type: open
+  name: NVIDIA NIM Biology (BioNeMo) ASR Vision API
   slug: open-nvidia-nim-vision-api
 common:
 - group: agent
@@ -516,7 +531,7 @@ plans:
 - name: Nvidia Nim Plans Pricing
   plan_count: 3
   slug: nvidia-nim-plans-pricing
-random_paper: 44
+random_paper: 110
 rate_limits:
 - limit_count: 6
   name: Nvidia Nim Rate Limits
@@ -552,7 +567,7 @@ score:
       total: 11
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:

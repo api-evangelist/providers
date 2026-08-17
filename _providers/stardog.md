@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 7
@@ -112,8 +112,83 @@ apis:
 - description: Operations for virtualizing structured data on external compute engines
   name: Stardog Virtual Graphs External Compute API
   slug: stardog-virtual-graphs-external-compute-api
-artifact_total: 30
+artifact_total: 55
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stardog HTTP Checkpoints API
+  slug: open-stardog-checkpoints-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Cluster Admin API
+  slug: open-stardog-cluster-admin-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Data Caching API
+  slug: open-stardog-data-caching-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Data Sources API
+  slug: open-stardog-data-sources-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints DB Admin API
+  slug: open-stardog-db-admin-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints EntityResolution API
+  slug: open-stardog-entityresolution-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Graph Store Protocol API
+  slug: open-stardog-graph-store-protocol-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints GraphQL API
+  slug: open-stardog-graphql-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Integrity Constraints / SHACL API
+  slug: open-stardog-integrity-constraints-shacl-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Knowledge Catalog API
+  slug: open-stardog-knowledge-catalog-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Matcher, aligning schemas from various data sources API
+  slug: open-stardog-matcher-aligning-schemas-from-various-data-sources-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Monitoring API
+  slug: open-stardog-monitoring-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Permissions API
+  slug: open-stardog-permissions-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Queries API
+  slug: open-stardog-queries-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Reasoning API
+  slug: open-stardog-reasoning-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Roles API
+  slug: open-stardog-roles-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Server Admin API
+  slug: open-stardog-server-admin-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Server Status/Metrics API
+  slug: open-stardog-server-status-metrics-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints SPARQL API
+  slug: open-stardog-sparql-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Stored Functions API
+  slug: open-stardog-stored-functions-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Transactions API
+  slug: open-stardog-transactions-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Users API
+  slug: open-stardog-users-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Virtual Graphs API
+  slug: open-stardog-virtual-graphs-api
+- collection_type: open
+  name: Stardog HTTP Checkpoints Virtual Graphs External Compute API
+  slug: open-stardog-virtual-graphs-external-compute-api
 - collection_type: open
   name: Stardog HTTP API
   slug: open-stardog
@@ -174,7 +249,7 @@ overview: 'Stardog publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Stardog''s developer surface includes documentation, pricing, signup flow, GitHub presence, engineering blog, and 5 more developer resources.'
-random_paper: 36
+random_paper: 11
 score:
   band: thin
   composite: 28.4
@@ -195,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/screenshots/stardog-2026-06-20T194510.png
 security:

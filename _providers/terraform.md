@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -106,14 +106,44 @@ arazzos:
 - description: Set a workspace variable to a value whether or not it already exists.
   name: Terraform Upsert a Workspace Variable
   slug: terraform-upsert-workspace-variable-workflow
-artifact_total: 41
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: HCP Terraform API
   slug: open-hcp-terraform
 - collection_type: open
+  name: HCP Terraform Modules API
+  slug: open-terraform-modules-api
+- collection_type: open
+  name: HCP Terraform Modules Organizations API
+  slug: open-terraform-organizations-api
+- collection_type: open
+  name: HCP Terraform Modules Policies API
+  slug: open-terraform-policies-api
+- collection_type: open
+  name: HCP Terraform Modules Projects API
+  slug: open-terraform-projects-api
+- collection_type: open
   name: Terraform Registry API
   slug: open-terraform-registry
+- collection_type: open
+  name: HCP Terraform Modules Runs API
+  slug: open-terraform-runs-api
+- collection_type: open
+  name: HCP Terraform Modules State Versions API
+  slug: open-terraform-state-versions-api
+- collection_type: open
+  name: HCP Terraform Modules Teams API
+  slug: open-terraform-teams-api
+- collection_type: open
+  name: HCP Terraform Modules Variables API
+  slug: open-terraform-variables-api
+- collection_type: open
+  name: HCP Terraform Modules Workspaces API
+  slug: open-terraform-workspaces-api
 common:
 - group: agent
   title: ''
@@ -329,7 +359,7 @@ plans:
 - name: Terraform Plans Pricing
   plan_count: 3
   slug: terraform-plans-pricing
-random_paper: 18
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Terraform Rate Limits
@@ -373,7 +403,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:

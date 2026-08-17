@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -40,28 +40,28 @@ agentic_access:
   summary_line: 137 operations · 57 acting
 api_count: 7
 apis:
-- description: The Companies API from Xiaoman (OKKI) — 4 operation(s) for companies.
-  name: Xiaoman (OKKI) Companies API
+- description: The Companies API from OKKI Go (go.okki.ai) — 4 operations for B2B company search, unlock, profile and decision-maker email retrieval.
+  name: OKKI Go Companies API
   slug: xiaoman-companies-api
-- description: The Contacts API from Xiaoman (OKKI) — 1 operation(s) for contacts.
-  name: Xiaoman (OKKI) Contacts API
+- description: The Contacts API from OKKI Go (go.okki.ai) — 1 retired operation (POST /api/v1/contacts/search returns 410 Gone; use company unlock + profileEmails).
+  name: OKKI Go Contacts API
   slug: xiaoman-contacts-api
-- description: The Credits API from Xiaoman (OKKI) — 1 operation(s) for credits.
-  name: Xiaoman (OKKI) Credits API
+- description: The Credits API from OKKI Go (go.okki.ai) — 1 operation returning remaining company-search points and EDM email quota.
+  name: OKKI Go Credits API
   slug: xiaoman-credits-api
-- description: The 产品 API from Xiaoman (OKKI) — 113 operation(s) for 产品.
-  name: Xiaoman (OKKI) 产品 API
+- description: The 产品 (products and general CRM) module of the Xiaoman OKKI CRM Open API — 113 operations across products, customers, leads, opportunities, orders, quotations, payments, suppliers, inventory, users a
+  name: Xiaoman (OKKI CRM) 产品 API
   slug: xiaoman-default-api
-- description: The devops相关 API from Xiaoman (OKKI) — 6 operation(s) for devops相关.
-  name: Xiaoman (OKKI) devops相关 API
+- description: The devops相关 module of the Xiaoman OKKI CRM Open API — 6 internal integration operations (DingTalk and TAPD webhooks, Sobot token, app version release).
+  name: Xiaoman (OKKI CRM) devops相关 API
   slug: xiaoman-devops-api
-- description: The Emails API from Xiaoman (OKKI) — 6 operation(s) for emails.
-  name: Xiaoman (OKKI) Emails API
+- description: The Emails API from OKKI Go (go.okki.ai) — 6 operations for batch and personalized cold-outreach email sending and per-mail delivery tracking.
+  name: OKKI Go Emails API
   slug: xiaoman-emails-api
-- description: The s7.1 API from Xiaoman (OKKI) — 35 operation(s) for s7.1.
-  name: Xiaoman (OKKI) s7.1 API
+- description: The s7.1 release group of the Xiaoman OKKI CRM Open API — 35 operations covering customer detail/field dictionaries, follow-up trails, inventory, capital accounts and reporting.
+  name: Xiaoman (OKKI CRM) s7.1 API
   slug: xiaoman-s7-1-api
-artifact_total: 23
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Xiaoman Crm Webhooks
@@ -88,6 +88,30 @@ collections:
 - collection_type: postman
   name: OKKI Go Companies s7.1 API
   slug: postman-xiaoman-s7-1-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OKKI Go Companies API
+  slug: open-xiaoman-companies-api
+- collection_type: open
+  name: OKKI Go Contacts API
+  slug: open-xiaoman-contacts-api
+- collection_type: open
+  name: OKKI Go Credits API
+  slug: open-xiaoman-credits-api
+- collection_type: open
+  name: Xiaoman (OKKI CRM) 产品 API
+  slug: open-xiaoman-default-api
+- collection_type: open
+  name: Xiaoman (OKKI CRM) devops相关 API
+  slug: open-xiaoman-devops-api
+- collection_type: open
+  name: OKKI Go Emails API
+  slug: open-xiaoman-emails-api
+- collection_type: open
+  name: Xiaoman (OKKI CRM) s7.1 API
+  slug: open-xiaoman-s7-1-api
 common:
 - group: build
   title: ''
@@ -217,30 +241,46 @@ common:
   title: ''
   type: Overlay
   url: overlays/xiaoman-openapi-overlay.yaml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/xiaoman-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/xiaoman-data-model.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/okki-op
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/okki-op/okki-go
 created: '2026-07-17'
-description: Xiaoman Technology (小满科技, OKKI) is an AI-powered foreign-trade sales platform under Alibaba International Station, serving Chinese B2B exporters with the OKKI CRM, OKKI AiReach multi-channel customer acquisition, OKKI Shops site building, and OKKI Go, a B2B prospecting engine built for AI agents. The OKKI CRM Open API (open.xiaoman.cn) exposes 125 OAuth2 module-scoped operations across customers, leads, opportunities, products, sales and purchase orders, quotations, payments, suppliers, inventory, users, and Pro-plan webhook message-push subscriptions. The OKKI Go API (go.okki.ai) provides company search, contact unlock, and cold-email outreach, shipped with a provider-published Agent Skill on npm (@okki-global/okki-go) that installs into Claude Code, Cursor, and other agent runtimes. Originally surfaced as a Qiming portfolio company.
+description: Xiaoman Technology (小满科技, OKKI) is an AI-powered foreign-trade sales platform under Alibaba International Station, serving Chinese B2B exporters with the OKKI CRM, OKKI AiReach multi-channel customer acquisition, OKKI Shops site building, and OKKI Go, a B2B prospecting engine built for AI agents. The OKKI CRM Open API (open.xiaoman.cn) exposes 119 OAuth2 module-scoped operations across customers, leads, opportunities, products, sales and purchase orders, quotations, payments, suppliers, inventory, users, and Pro-plan webhook message-push subscriptions. The OKKI Go API (go.okki.ai) provides company search, contact unlock, and cold-email outreach, shipped with a provider-published Agent Skill on npm (@okki-global/okki-go) that installs into Claude Code, Cursor, and other agent runtimes. Originally surfaced as a Qiming portfolio company.
 image: https://www.xiaoman.cn/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
   name: xiaoman-mcp.yml
   slug: xiaoman-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Xiaoman (OKKI)
 nav: Providers
 network: true
-overview: 'Xiaoman (OKKI) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Contacts API, Credits API, and 4 more. Tagged areas include Company, CRM, Foreign Trade, B2B, and Sales.
+overview: 'Xiaoman (OKKI) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including OKKI Go Companies API, OKKI Go Contacts API, OKKI Go Credits API, and 4 more. Tagged areas include Company, CRM, Foreign Trade, B2B, and Sales.
 
 
   The Xiaoman (OKKI) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Xiaoman (OKKI)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 25 more developer resources.'
+  Xiaoman (OKKI)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 29 more developer resources.'
 plans:
 - name: Xiaoman Plans
   plan_count: 4
   slug: xiaoman-plans
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Xiaoman Rate Limits
@@ -252,15 +292,15 @@ scopes:
   summary_line: 12 scopes · password/clientCredentials
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 61.9
+  delta: 0.7
   facets:
     commercial_clarity: 76.3
     contract_quality: 62.5
     developer_ergonomics: 78.3
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 39.5
+    operational_transparency: 44.7
   previous_composite: 61.2
   provenance:
     agentic_access: derived
@@ -273,7 +313,7 @@ score:
     mcp: derived
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

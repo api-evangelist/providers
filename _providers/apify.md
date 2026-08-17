@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - description: User and account management.
   name: Apify Users API
   slug: apify-users-api
-artifact_total: 53
+artifact_total: 60
 collections:
 - collection_type: postman
   name: Apify Actor Runs API
@@ -78,6 +78,27 @@ collections:
 - collection_type: postman
   name: Apify Actor Runs Users API
   slug: postman-apify-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apify Actor Runs API
+  slug: open-apify-actor-runs-api
+- collection_type: open
+  name: Apify Actor Runs Actors API
+  slug: open-apify-actors-api
+- collection_type: open
+  name: Apify Actor Runs Datasets API
+  slug: open-apify-datasets-api
+- collection_type: open
+  name: Apify Actor Runs Key-Value Stores API
+  slug: open-apify-key-value-stores-api
+- collection_type: open
+  name: Apify Actor Runs Request Queues API
+  slug: open-apify-request-queues-api
+- collection_type: open
+  name: Apify Actor Runs Users API
+  slug: open-apify-users-api
 common:
 - group: build
   title: ''
@@ -247,7 +268,7 @@ plans:
 - name: Apify Plans Pricing
   plan_count: 3
   slug: apify-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Apify Rate Limits
@@ -289,7 +310,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/screenshots/apify-2026-06-20T172249.png
 security:

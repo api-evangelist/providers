@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 8
@@ -201,7 +201,173 @@ apis:
 - description: Manage list of watched words to detect patterns on objects (like comments of videos)
   name: PeerTube Watched Words API
   slug: peertube-watched-words-api
-artifact_total: 524
+artifact_total: 579
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PeerTube Abuses API
+  slug: open-peertube-abuses-api
+- collection_type: open
+  name: PeerTube Abuses Account Blocklist API
+  slug: open-peertube-account-blocklist-api
+- collection_type: open
+  name: PeerTube Abuses Accounts API
+  slug: open-peertube-accounts-api
+- collection_type: open
+  name: PeerTube Abuses Automatic Tags API
+  slug: open-peertube-automatic-tags-api
+- collection_type: open
+  name: PeerTube Abuses Channels Sync API
+  slug: open-peertube-channels-sync-api
+- collection_type: open
+  name: PeerTube Abuses Client Config API
+  slug: open-peertube-client-config-api
+- collection_type: open
+  name: PeerTube Abuses Config API
+  slug: open-peertube-config-api
+- collection_type: open
+  name: PeerTube Abuses Contact API
+  slug: open-peertube-contact-api
+- collection_type: open
+  name: PeerTube Abuses Debug API
+  slug: open-peertube-debug-api
+- collection_type: open
+  name: PeerTube Abuses Homepage API
+  slug: open-peertube-homepage-api
+- collection_type: open
+  name: PeerTube Abuses Instance Follows API
+  slug: open-peertube-instance-follows-api
+- collection_type: open
+  name: PeerTube Abuses Instance Redundancy API
+  slug: open-peertube-instance-redundancy-api
+- collection_type: open
+  name: PeerTube Abuses Job API
+  slug: open-peertube-job-api
+- collection_type: open
+  name: PeerTube Abuses Live Videos API
+  slug: open-peertube-live-videos-api
+- collection_type: open
+  name: PeerTube Abuses Logs API
+  slug: open-peertube-logs-api
+- collection_type: open
+  name: PeerTube Abuses My History API
+  slug: open-peertube-my-history-api
+- collection_type: open
+  name: PeerTube Abuses My Notifications API
+  slug: open-peertube-my-notifications-api
+- collection_type: open
+  name: PeerTube Abuses My Subscriptions API
+  slug: open-peertube-my-subscriptions-api
+- collection_type: open
+  name: PeerTube Abuses My User API
+  slug: open-peertube-my-user-api
+- collection_type: open
+  name: PeerTube Abuses Ownership Change API
+  slug: open-peertube-ownership-change-api
+- collection_type: open
+  name: PeerTube Abuses Player Settings API
+  slug: open-peertube-player-settings-api
+- collection_type: open
+  name: PeerTube Abuses Plugins API
+  slug: open-peertube-plugins-api
+- collection_type: open
+  name: PeerTube Abuses Register API
+  slug: open-peertube-register-api
+- collection_type: open
+  name: PeerTube Abuses Runner Jobs API
+  slug: open-peertube-runner-jobs-api
+- collection_type: open
+  name: PeerTube Abuses Runner Registration Token API
+  slug: open-peertube-runner-registration-token-api
+- collection_type: open
+  name: PeerTube Abuses Runners API
+  slug: open-peertube-runners-api
+- collection_type: open
+  name: PeerTube Abuses Search API
+  slug: open-peertube-search-api
+- collection_type: open
+  name: PeerTube Abuses Server Blocklist API
+  slug: open-peertube-server-blocklist-api
+- collection_type: open
+  name: PeerTube Abuses Session API
+  slug: open-peertube-session-api
+- collection_type: open
+  name: PeerTube Abuses Static Video Files API
+  slug: open-peertube-static-video-files-api
+- collection_type: open
+  name: PeerTube Abuses Stats API
+  slug: open-peertube-stats-api
+- collection_type: open
+  name: PeerTube Abuses User Exports API
+  slug: open-peertube-user-exports-api
+- collection_type: open
+  name: PeerTube Abuses User Imports API
+  slug: open-peertube-user-imports-api
+- collection_type: open
+  name: PeerTube Abuses Users API
+  slug: open-peertube-users-api
+- collection_type: open
+  name: PeerTube Abuses Video API
+  slug: open-peertube-video-api
+- collection_type: open
+  name: PeerTube Abuses Video Blocks API
+  slug: open-peertube-video-blocks-api
+- collection_type: open
+  name: PeerTube Abuses Video Captions API
+  slug: open-peertube-video-captions-api
+- collection_type: open
+  name: PeerTube Abuses Video Channels API
+  slug: open-peertube-video-channels-api
+- collection_type: open
+  name: PeerTube Abuses Video Chapters API
+  slug: open-peertube-video-chapters-api
+- collection_type: open
+  name: PeerTube Abuses Video Comments API
+  slug: open-peertube-video-comments-api
+- collection_type: open
+  name: PeerTube Abuses Video Download API
+  slug: open-peertube-video-download-api
+- collection_type: open
+  name: PeerTube Abuses Video Embed Privacy API
+  slug: open-peertube-video-embed-privacy-api
+- collection_type: open
+  name: PeerTube Abuses Video Feeds API
+  slug: open-peertube-video-feeds-api
+- collection_type: open
+  name: PeerTube Abuses Video Files API
+  slug: open-peertube-video-files-api
+- collection_type: open
+  name: PeerTube Abuses Video Imports API
+  slug: open-peertube-video-imports-api
+- collection_type: open
+  name: PeerTube Abuses Video Mirroring API
+  slug: open-peertube-video-mirroring-api
+- collection_type: open
+  name: PeerTube Abuses Video Passwords API
+  slug: open-peertube-video-passwords-api
+- collection_type: open
+  name: PeerTube Abuses Video Playlists API
+  slug: open-peertube-video-playlists-api
+- collection_type: open
+  name: PeerTube Abuses Video Rates API
+  slug: open-peertube-video-rates-api
+- collection_type: open
+  name: PeerTube Abuses Video Stats API
+  slug: open-peertube-video-stats-api
+- collection_type: open
+  name: PeerTube Abuses Video Transcoding API
+  slug: open-peertube-video-transcoding-api
+- collection_type: open
+  name: PeerTube Abuses Video Upload API
+  slug: open-peertube-video-upload-api
+- collection_type: open
+  name: PeerTube Abuses Videos API
+  slug: open-peertube-videos-api
+- collection_type: open
+  name: PeerTube Abuses Watched Words API
+  slug: open-peertube-watched-words-api
 common:
 - group: agent
   title: ''
@@ -1671,7 +1837,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1710,7 +1876,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/screenshots/peertube-2026-06-20T191525.png
 security:

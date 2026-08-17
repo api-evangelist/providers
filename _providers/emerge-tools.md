@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: The Analysis API from Emerge Tools — 1 operation(s) for analysis.
@@ -61,7 +61,41 @@ apis:
 - description: The UploadFromLink API from Emerge Tools — 1 operation(s) for uploadfromlink.
   name: Emerge Tools UploadFromLink API
   slug: emerge-tools-uploadfromlink-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Emerge Analysis API
+  slug: open-emerge-tools-analysis-api
+- collection_type: open
+  name: Emerge Analysis AppHistory API
+  slug: open-emerge-tools-apphistory-api
+- collection_type: open
+  name: Emerge Analysis BuildDetails API
+  slug: open-emerge-tools-builddetails-api
+- collection_type: open
+  name: Emerge Analysis Comment API
+  slug: open-emerge-tools-comment-api
+- collection_type: open
+  name: Emerge Analysis DeadCode API
+  slug: open-emerge-tools-deadcode-api
+- collection_type: open
+  name: Emerge Analysis GetPerfTest API
+  slug: open-emerge-tools-getperftest-api
+- collection_type: open
+  name: Emerge Analysis Snapshots API
+  slug: open-emerge-tools-snapshots-api
+- collection_type: open
+  name: Emerge Analysis Trace API
+  slug: open-emerge-tools-trace-api
+- collection_type: open
+  name: Emerge Analysis Upload API
+  slug: open-emerge-tools-upload-api
+- collection_type: open
+  name: Emerge Analysis UploadFromLink API
+  slug: open-emerge-tools-uploadfromlink-api
 common:
 - group: other
   title: ''
@@ -195,7 +229,7 @@ overview: 'Emerge Tools publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Emerge Tools'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 35
+random_paper: 43
 score:
   band: developing
   composite: 52.1
@@ -218,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/screenshots/emerge-tools-2026-07-25T213232.png
 security:

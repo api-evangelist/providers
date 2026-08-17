@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Donnelley Financial Solutions API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Donnelley Financial Solutions Plans Pricing
   plan_count: 1
   slug: donnelley-financial-solutions-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Donnelley Financial Solutions Rate Limits
@@ -83,7 +83,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donnelley-financial-solutions/refs/heads/main/screenshots/donnelley-financial-solutions-2026-06-20T180152.png
 security:

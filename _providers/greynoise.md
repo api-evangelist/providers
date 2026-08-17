@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -100,11 +100,44 @@ arazzos:
 - description: Resolve an activity tag, hunt IPs carrying it, then context the top hit.
   name: GreyNoise Tag Hunt To Context
   slug: greynoise-tag-hunt-to-context-workflow
-artifact_total: 272
+artifact_total: 283
 collections:
 - collection_type: postman
   name: GreyNoise API
   slug: postman-greynoise
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GreyNoise Callback API
+  slug: open-greynoise-callback-api
+- collection_type: open
+  name: GreyNoise Callback Community API
+  slug: open-greynoise-community-api
+- collection_type: open
+  name: GreyNoise Callback CVE API
+  slug: open-greynoise-cve-api
+- collection_type: open
+  name: GreyNoise Callback GNQL API
+  slug: open-greynoise-gnql-api
+- collection_type: open
+  name: GreyNoise Callback IP Lookup API
+  slug: open-greynoise-ip-lookup-api
+- collection_type: open
+  name: GreyNoise Callback IP Timeline API
+  slug: open-greynoise-ip-timeline-api
+- collection_type: open
+  name: GreyNoise Callback Recall API
+  slug: open-greynoise-recall-api
+- collection_type: open
+  name: GreyNoise Callback Sessions API
+  slug: open-greynoise-sessions-api
+- collection_type: open
+  name: GreyNoise Callback Tags API
+  slug: open-greynoise-tags-api
+- collection_type: open
+  name: GreyNoise Callback Utility API
+  slug: open-greynoise-utility-api
 - collection_type: open
   name: GreyNoise API
   slug: open-greynoise
@@ -1004,7 +1037,7 @@ plans:
 - name: Greynoise Plans Pricing
   plan_count: 4
   slug: greynoise-plans-pricing
-random_paper: 21
+random_paper: 87
 rate_limits:
 - limit_count: 0
   name: Greynoise Rate Limits
@@ -1046,7 +1079,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/screenshots/greynoise-2026-06-20T182405.png
 security:

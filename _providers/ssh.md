@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,11 +57,29 @@ apis:
 - description: Known hosts verification and management
   name: SSH Known Hosts API
   slug: ssh-known-hosts-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SSH Key Management Authorized Keys API
+  slug: open-ssh-authorized-keys-api
+- collection_type: open
+  name: SSH Key Management Authorized Keys Certificates API
+  slug: open-ssh-certificates-api
+- collection_type: open
+  name: SSH Key Management Authorized Keys Host Keys API
+  slug: open-ssh-host-keys-api
 - collection_type: open
   name: SSH Key Management API
   slug: open-ssh-key-management
+- collection_type: open
+  name: SSH Key Management Authorized Keys API
+  slug: open-ssh-keys-api
+- collection_type: open
+  name: SSH Key Management Authorized Keys Known Hosts API
+  slug: open-ssh-known-hosts-api
 common:
 - group: agent
   title: ''
@@ -158,7 +176,7 @@ plans:
 - name: Ssh Plans Pricing
   plan_count: 3
   slug: ssh-plans-pricing
-random_paper: 94
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Ssh Rate Limits
@@ -200,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/screenshots/ssh-2026-06-20T194434.png
 security:

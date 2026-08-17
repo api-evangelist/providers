@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: The v2 alerts API from Quadrant API — 1 operation(s) for v2 alerts.
   name: Quadrant API v2 alerts API
   slug: quadrant-api-v2-alerts-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quadrant v2 alerts API
+  slug: open-quadrant-api-v2-alerts-api
 - collection_type: open
   name: Quadrant API
   slug: open-quadrant-api
@@ -84,7 +90,7 @@ plans:
 - name: Quadrant Api Plans Pricing
   plan_count: 3
   slug: quadrant-api-plans-pricing
-random_paper: 23
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Quadrant Api Rate Limits
@@ -109,7 +115,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadrant-api/refs/heads/main/screenshots/quadrant-api-2026-06-20T192357.png
 security:

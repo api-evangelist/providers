@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -66,7 +66,50 @@ arazzos:
 - description: End-to-end flight retailing against the Trip Ninja surface published in Trip Ninja's own GitHub documentation repository (https://github.com/trip-ninja-inc/trip_ninja_api_docs, last updated 2023-12-14
   name: Trip Ninja — search, confirm price, book and ticket
   slug: webjet-tripninja-search-price-book-ticket
-artifact_total: 17
+artifact_total: 31
+collections:
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-adminpanel-refresh-token
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-farestructure-generate-solutions
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-farestructure-get-searches
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-farestructure-report-book
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-farestructure-report-cancel
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-hotels
+- collection_type: open
+  name: Trip Ninja Endpoint Documentation
+  slug: open-webjet-tripninja-pricing-booking
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-smartflights-generate-solutions
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-smartflights-get-searches
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-smartflights-report-book
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-smartflights-report-cancel
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-v2-booking
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-virtual-interlining-generate-solutions
+- collection_type: open
+  name: Trip Ninja API Documentation
+  slug: open-webjet-tripninja-virtual-interlining-get-searches
 common:
 - group: agent
   title: ''
@@ -241,7 +284,7 @@ overview: 'Webjet publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Webjet''s developer surface includes authentication, sandbox, API reference, getting-started guide, pricing, engineering blog, documentation, and 32 more developer resources.'
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Webjet Rate Limits
@@ -269,7 +312,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

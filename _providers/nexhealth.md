@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ apis:
 - description: Configure working hours for providers
   name: NexHealth Working Hours API
   slug: nexhealth-working-hours-api
-artifact_total: 72
+artifact_total: 106
 asyncapis:
 - description: ''
   name: Nexhealth Webhooks
@@ -243,6 +243,108 @@ collections:
 - collection_type: postman
   name: NexHealth Adjustment Types Working Hours API
   slug: postman-nexhealth-working-hours-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NexHealth Adjustment Types API
+  slug: open-nexhealth-adjustment-types-api
+- collection_type: open
+  name: NexHealth Adjustment Types Adjustments API
+  slug: open-nexhealth-adjustments-api
+- collection_type: open
+  name: NexHealth Adjustment Types Appointment Types API
+  slug: open-nexhealth-appointment-types-api
+- collection_type: open
+  name: NexHealth Adjustment Types Appointments API
+  slug: open-nexhealth-appointments-api
+- collection_type: open
+  name: NexHealth Adjustment Types Authenticates API
+  slug: open-nexhealth-authenticates-api
+- collection_type: open
+  name: NexHealth Adjustment Types Available Slots API
+  slug: open-nexhealth-available-slots-api
+- collection_type: open
+  name: NexHealth Adjustment Types Balances API
+  slug: open-nexhealth-balances-api
+- collection_type: open
+  name: NexHealth Adjustment Types Charges API
+  slug: open-nexhealth-charges-api
+- collection_type: open
+  name: NexHealth Adjustment Types Claims API
+  slug: open-nexhealth-claims-api
+- collection_type: open
+  name: NexHealth Adjustment Types Clinical Notes API
+  slug: open-nexhealth-clinical-notes-api
+- collection_type: open
+  name: NexHealth Adjustment Types Document Types API
+  slug: open-nexhealth-document-types-api
+- collection_type: open
+  name: NexHealth Adjustment Types Fee Schedules API
+  slug: open-nexhealth-fee-schedules-api
+- collection_type: open
+  name: NexHealth Adjustment Types Institutions API
+  slug: open-nexhealth-institutions-api
+- collection_type: open
+  name: NexHealth Adjustment Types Insurance API
+  slug: open-nexhealth-insurance-api
+- collection_type: open
+  name: NexHealth Adjustment Types Locations API
+  slug: open-nexhealth-locations-api
+- collection_type: open
+  name: NexHealth Adjustment Types Nex Staff API
+  slug: open-nexhealth-nex-staff-api
+- collection_type: open
+  name: NexHealth Adjustment Types Onboardings API
+  slug: open-nexhealth-onboardings-api
+- collection_type: open
+  name: NexHealth Adjustment Types Operatories API
+  slug: open-nexhealth-operatories-api
+- collection_type: open
+  name: NexHealth Adjustment Types Patient Alerts API
+  slug: open-nexhealth-patient-alerts-api
+- collection_type: open
+  name: NexHealth Adjustment Types Patient Documents API
+  slug: open-nexhealth-patient-documents-api
+- collection_type: open
+  name: NexHealth Adjustment Types Patient Recalls API
+  slug: open-nexhealth-patient-recalls-api
+- collection_type: open
+  name: NexHealth Adjustment Types Patients API
+  slug: open-nexhealth-patients-api
+- collection_type: open
+  name: NexHealth Adjustment Types Payment Plans API
+  slug: open-nexhealth-payment-plans-api
+- collection_type: open
+  name: NexHealth Adjustment Types Payment Types API
+  slug: open-nexhealth-payment-types-api
+- collection_type: open
+  name: NexHealth Adjustment Types Payments API
+  slug: open-nexhealth-payments-api
+- collection_type: open
+  name: NexHealth Adjustment Types Procedures API
+  slug: open-nexhealth-procedures-api
+- collection_type: open
+  name: NexHealth Adjustment Types Providers API
+  slug: open-nexhealth-providers-api
+- collection_type: open
+  name: NexHealth Adjustment Types Recall Types API
+  slug: open-nexhealth-recall-types-api
+- collection_type: open
+  name: NexHealth Adjustment Types Sync Status API
+  slug: open-nexhealth-sync-status-api
+- collection_type: open
+  name: NexHealth Adjustment Types Treatment Plans API
+  slug: open-nexhealth-treatment-plans-api
+- collection_type: open
+  name: NexHealth Adjustment Types Webhook Endpoints API
+  slug: open-nexhealth-webhook-endpoints-api
+- collection_type: open
+  name: NexHealth Adjustment Types Webhook Subscriptions API
+  slug: open-nexhealth-webhook-subscriptions-api
+- collection_type: open
+  name: NexHealth Adjustment Types Working Hours API
+  slug: open-nexhealth-working-hours-api
 common:
 - group: build
   title: ''
@@ -403,7 +505,7 @@ overview: 'NexHealth publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   NexHealth''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 1
+random_paper: 67
 score:
   band: developing
   composite: 55.9
@@ -433,7 +535,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/screenshots/nexhealth-2026-08-07T185152.png
 security:

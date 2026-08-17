@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,11 +60,35 @@ apis:
 - description: Financial and engagement reports for teams and organizations.
   name: Upwork Reports API
   slug: upwork-reports-api
-artifact_total: 102
+artifact_total: 110
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Upwork GraphQL Authentication API
+  slug: open-upwork-authentication-api
+- collection_type: open
+  name: Upwork GraphQL Authentication Contracts API
+  slug: open-upwork-contracts-api
 - collection_type: open
   name: Upwork GraphQL API
   slug: open-upwork-graphql-api
+- collection_type: open
+  name: Upwork GraphQL Authentication Jobs API
+  slug: open-upwork-jobs-api
+- collection_type: open
+  name: Upwork GraphQL Authentication Messages API
+  slug: open-upwork-messages-api
+- collection_type: open
+  name: Upwork GraphQL Authentication Organizations API
+  slug: open-upwork-organizations-api
+- collection_type: open
+  name: Upwork GraphQL Authentication Profiles API
+  slug: open-upwork-profiles-api
+- collection_type: open
+  name: Upwork GraphQL Authentication Reports API
+  slug: open-upwork-reports-api
 - collection_type: open
   name: Upwork REST API
   slug: open-upwork-rest-api
@@ -414,7 +438,7 @@ plans:
 - name: Upwork Plans Pricing
   plan_count: 3
   slug: upwork-plans-pricing
-random_paper: 80
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Upwork Rate Limits
@@ -461,7 +485,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/screenshots/upwork-2026-06-20T200510.png
 security:

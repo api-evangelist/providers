@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Registered types, taxonomies and statuses.
@@ -51,7 +51,41 @@ apis:
 - description: Published testimonials.
   name: Strata Oncology Testimonials API
   slug: strata-oncology-testimonials-api
-artifact_total: 13
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Strata Oncology Website Content Discovery API
+  slug: open-strata-oncology-discovery-api
+- collection_type: open
+  name: Strata Oncology Website Content Media API
+  slug: open-strata-oncology-media-api
+- collection_type: open
+  name: Strata Oncology Website Content Pages API
+  slug: open-strata-oncology-pages-api
+- collection_type: open
+  name: Strata Oncology Website Content Posts API
+  slug: open-strata-oncology-posts-api
+- collection_type: open
+  name: Strata Oncology Website Content Publications API
+  slug: open-strata-oncology-publications-api
+- collection_type: open
+  name: Strata Oncology Website Content Resources API
+  slug: open-strata-oncology-resources-api
+- collection_type: open
+  name: Strata Oncology Website Content Search API
+  slug: open-strata-oncology-search-api
+- collection_type: open
+  name: Strata Oncology Website Content Taxonomy API
+  slug: open-strata-oncology-taxonomy-api
+- collection_type: open
+  name: Strata Oncology Website Content Team API
+  slug: open-strata-oncology-team-api
+- collection_type: open
+  name: Strata Oncology Website Content Testimonials API
+  slug: open-strata-oncology-testimonials-api
 common:
 - group: agent
   title: ''
@@ -169,7 +203,7 @@ overview: 'Strata Oncology publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Strata Oncology''s developer surface includes engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 14
+random_paper: 84
 score:
   band: emerging
   composite: 24.4
@@ -198,7 +232,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

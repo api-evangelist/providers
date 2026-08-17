@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Operations for managing the Binary Authorization policy
   name: Google Cloud Binary Authorization Policy API
   slug: google-cloud-binary-authorization-policy-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud Binary Authorization Attestations API
@@ -60,8 +60,20 @@ collections:
   name: Google Cloud Binary Authorization Attestations Policy API
   slug: postman-google-cloud-binary-authorization-policy-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Binary Authorization API
   slug: open-binary-authorization-api
+- collection_type: open
+  name: Google Cloud Binary Authorization Attestations API
+  slug: open-google-cloud-binary-authorization-attestations-api
+- collection_type: open
+  name: Google Cloud Binary Authorization Attestations Attestors API
+  slug: open-google-cloud-binary-authorization-attestors-api
+- collection_type: open
+  name: Google Cloud Binary Authorization Attestations Policy API
+  slug: open-google-cloud-binary-authorization-policy-api
 common:
 - group: build
   title: ''
@@ -167,7 +179,7 @@ plans:
 - name: Google Cloud Binary Authorization Plans Pricing
   plan_count: 3
   slug: google-cloud-binary-authorization-plans-pricing
-random_paper: 17
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Google Cloud Binary Authorization Rate Limits
@@ -212,7 +224,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/screenshots/google-cloud-binary-authorization-2026-06-20T182045.png
 security:

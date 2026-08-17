@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Edge risk assessment
@@ -40,7 +40,20 @@ apis:
 - description: Session verification
   name: Arkose Labs Verify API
   slug: arkose-labs-verify-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arkose Labs Edge API
+  slug: open-arkose-labs-edge-api
+- collection_type: open
+  name: Arkose Labs Edge Schema API
+  slug: open-arkose-labs-schema-api
+- collection_type: open
+  name: Arkose Labs Edge Verify API
+  slug: open-arkose-labs-verify-api
 common:
 - group: auth
   title: ''
@@ -161,7 +174,7 @@ overview: 'Arkose Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Arkose Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 28
+random_paper: 65
 score:
   band: developing
   composite: 42.4
@@ -183,7 +196,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/screenshots/arkose-labs-2026-07-25T201203.png
 security:

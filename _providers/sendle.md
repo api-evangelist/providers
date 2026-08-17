@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Connectivity and credential testing
   name: Sendle Utility API
   slug: sendle-utility-api
-artifact_total: 30
+artifact_total: 32
 asyncapis:
 - description: Sendle pushes parcel tracking events to a callback URL configured in the account Settings -> API page. Subscriptions are created per parcel via the Tracking API. Sendle expects 2xx responses; failed d
   name: Sendle Tracking Webhooks
@@ -76,20 +76,26 @@ collections:
   name: Sendle Shipping Manifests Utility API
   slug: postman-sendle-utility-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Sendle Shipping Manifests API
   slug: open-sendle-manifests-api
 - collection_type: open
-  name: Sendle Orders API
+  name: Sendle Shipping Manifests Orders API
   slug: open-sendle-orders-api
 - collection_type: open
   name: Sendle Ping API
   slug: open-sendle-ping-api
 - collection_type: open
-  name: Sendle Products & Quoting API
+  name: Sendle Shipping Manifests Products API
   slug: open-sendle-products-api
 - collection_type: open
-  name: Sendle Tracking API
+  name: Sendle Shipping Manifests Tracking API
   slug: open-sendle-tracking-api
+- collection_type: open
+  name: Sendle Shipping Manifests Utility API
+  slug: open-sendle-utility-api
 common:
 - group: build
   title: ''
@@ -226,7 +232,7 @@ plans:
 - name: Sendle Plans Pricing
   plan_count: 3
   slug: sendle-plans-pricing
-random_paper: 35
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Sendle Rate Limits
@@ -268,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: Applicants represent people who have applied for positions within your company.
@@ -67,7 +67,47 @@ apis:
 - description: Team Members represent team members that are managed within your company.
   name: Workstream Team Members API
   slug: workstream-team-members-api
-artifact_total: 15
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workstream Public Applicants API
+  slug: open-workstream-applicants-api
+- collection_type: open
+  name: Workstream Public Applicants Authorization API
+  slug: open-workstream-authorization-api
+- collection_type: open
+  name: Workstream Public Applicants Company Roles API
+  slug: open-workstream-company-roles-api
+- collection_type: open
+  name: Workstream Public Applicants Company Users API
+  slug: open-workstream-company-users-api
+- collection_type: open
+  name: Workstream Public Applicants Custom Field API
+  slug: open-workstream-custom-field-api
+- collection_type: open
+  name: Workstream Public Applicants Departments API
+  slug: open-workstream-departments-api
+- collection_type: open
+  name: Workstream Public Applicants Employee Documents API
+  slug: open-workstream-employee-documents-api
+- collection_type: open
+  name: Workstream Public Applicants Employees API
+  slug: open-workstream-employees-api
+- collection_type: open
+  name: Workstream Public Applicants Imported Employee Infos API
+  slug: open-workstream-imported-employee-infos-api
+- collection_type: open
+  name: Workstream Public Applicants Locations API
+  slug: open-workstream-locations-api
+- collection_type: open
+  name: Workstream Public Applicants Positions API
+  slug: open-workstream-positions-api
+- collection_type: open
+  name: Workstream Public Applicants Team Members API
+  slug: open-workstream-team-members-api
 common:
 - group: auth
   title: ''
@@ -145,7 +185,7 @@ overview: 'Workstream publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Workstream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 23
+random_paper: 60
 scopes:
 - name: Workstream Scopes
   scope_count: 10
@@ -170,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

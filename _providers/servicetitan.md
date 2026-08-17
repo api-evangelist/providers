@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ apis:
 - description: The Zones API from ServiceTitan — 1 operation(s) for zones.
   name: ServiceTitan Zones API
   slug: servicetitan-zones-api
-artifact_total: 135
+artifact_total: 176
 collections:
 - collection_type: postman
   name: ServiceTitan Accounting Adjustments API
@@ -327,29 +327,152 @@ collections:
   name: ServiceTitan Accounting Adjustments Zones API
   slug: postman-servicetitan-zones-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: ServiceTitan Accounting API
   slug: open-servicetitan-accounting-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments API
+  slug: open-servicetitan-adjustments-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Appointment Assignments API
+  slug: open-servicetitan-appointment-assignments-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Appointments API
+  slug: open-servicetitan-appointments-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Attachments API
+  slug: open-servicetitan-attachments-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Bookings API
+  slug: open-servicetitan-bookings-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Business Hours API
+  slug: open-servicetitan-business-hours-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Business Units API
+  slug: open-servicetitan-business-units-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Capacity API
+  slug: open-servicetitan-capacity-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Categories API
+  slug: open-servicetitan-categories-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Contacts API
+  slug: open-servicetitan-contacts-api
 - collection_type: open
   name: ServiceTitan CRM API
   slug: open-servicetitan-crm-api
 - collection_type: open
+  name: ServiceTitan Accounting Adjustments Customers API
+  slug: open-servicetitan-customers-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Discounts And Fees API
+  slug: open-servicetitan-discounts-and-fees-api
+- collection_type: open
   name: ServiceTitan Dispatch API
   slug: open-servicetitan-dispatch-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Employees API
+  slug: open-servicetitan-employees-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Equipment API
+  slug: open-servicetitan-equipment-api
 - collection_type: open
   name: ServiceTitan Equipment Systems API
   slug: open-servicetitan-equipment-systems-api
 - collection_type: open
+  name: ServiceTitan Accounting Adjustments GL Accounts API
+  slug: open-servicetitan-gl-accounts-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments GPS API
+  slug: open-servicetitan-gps-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Installed Equipment API
+  slug: open-servicetitan-installed-equipment-api
+- collection_type: open
   name: ServiceTitan Inventory API
   slug: open-servicetitan-inventory-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Invoices API
+  slug: open-servicetitan-invoices-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Job Types API
+  slug: open-servicetitan-job-types-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Jobs API
+  slug: open-servicetitan-jobs-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Journal Entries API
+  slug: open-servicetitan-journal-entries-api
 - collection_type: open
   name: ServiceTitan Job Planning & Management API
   slug: open-servicetitan-jpm-api
 - collection_type: open
+  name: ServiceTitan Accounting Adjustments Leads API
+  slug: open-servicetitan-leads-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Locations API
+  slug: open-servicetitan-locations-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Materials API
+  slug: open-servicetitan-materials-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Payments API
+  slug: open-servicetitan-payments-api
+- collection_type: open
   name: ServiceTitan Pricebook API
   slug: open-servicetitan-pricebook-api
 - collection_type: open
+  name: ServiceTitan Accounting Adjustments Projects API
+  slug: open-servicetitan-projects-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Purchase Orders API
+  slug: open-servicetitan-purchase-orders-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Receipts API
+  slug: open-servicetitan-receipts-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Services API
+  slug: open-servicetitan-services-api
+- collection_type: open
   name: ServiceTitan Settings API
   slug: open-servicetitan-settings-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Tag Types API
+  slug: open-servicetitan-tag-types-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Tags API
+  slug: open-servicetitan-tags-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Tax Zones API
+  slug: open-servicetitan-tax-zones-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Technician Shifts API
+  slug: open-servicetitan-technician-shifts-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Technicians API
+  slug: open-servicetitan-technicians-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Transfers API
+  slug: open-servicetitan-transfers-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Trucks API
+  slug: open-servicetitan-trucks-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments User Roles API
+  slug: open-servicetitan-user-roles-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Vendors API
+  slug: open-servicetitan-vendors-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Warehouses API
+  slug: open-servicetitan-warehouses-api
+- collection_type: open
+  name: ServiceTitan Accounting Adjustments Zones API
+  slug: open-servicetitan-zones-api
 common:
 - group: build
   title: ''
@@ -618,7 +741,7 @@ overview: 'ServiceTitan publishes 40 APIs on the [APIs.io](https://apis.io/) net
 
 
   ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 39 more developer resources.'
-random_paper: 97
+random_paper: 105
 rate_limits:
 - limit_count: 2
   name: Servicetitan Rate Limits
@@ -657,7 +780,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/screenshots/servicetitan-2026-06-20T193732.png
 security:

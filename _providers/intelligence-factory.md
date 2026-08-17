@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ name: Intelligence Factory
 nav: Providers
 network: true
 overview: Intelligence Factory is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Embodied AI, Foundation Models, and Robotic Manipulation.
-random_paper: 32
+random_paper: 135
 score:
   band: minimal
   composite: 5.0
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelligence-factory/refs/heads/main/screenshots/intelligence-factory-2026-07-25T222646.png
 slug: intelligence-factory

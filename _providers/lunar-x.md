@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Lunar-X
 nav: Providers
 network: true
 overview: Lunar-X is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Content, and Digital Media.
-random_paper: 111
+random_paper: 115
 score:
   band: minimal
   composite: 7.1
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar-x/refs/heads/main/screenshots/lunar-x-2026-07-25T225723.png
 security:

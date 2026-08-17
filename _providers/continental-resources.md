@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Continental Resources Acquires Vaca Muerta Interests ...
   url: https://www.linkedin.com/posts/continental-resources-2_continental-resources-expands-vaca-muerta-activity-7414019500192268288-3o30
-random_paper: 55
+random_paper: 129
 score:
   band: minimal
   composite: 6.1
@@ -112,7 +112,7 @@ score:
     regime_id: energy_utilities
     score: 5.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: continental-resources
 tags:

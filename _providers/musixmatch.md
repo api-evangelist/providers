@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: The Track API from Musixmatch — 5 operation(s) for track.
   name: Musixmatch Track API
   slug: musixmatch-track-api
-artifact_total: 13
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Musixmatch Album API
+  slug: open-musixmatch-album-api
+- collection_type: open
+  name: Musixmatch Album Artist API
+  slug: open-musixmatch-artist-api
+- collection_type: open
+  name: Musixmatch Album Lyrics API
+  slug: open-musixmatch-lyrics-api
+- collection_type: open
+  name: Musixmatch Album Snippets API
+  slug: open-musixmatch-snippets-api
+- collection_type: open
+  name: Musixmatch Album Subtitle API
+  slug: open-musixmatch-subtitle-api
+- collection_type: open
+  name: Musixmatch Album Track API
+  slug: open-musixmatch-track-api
 common:
 - group: agent
   title: ''
@@ -119,7 +141,7 @@ plans:
 - name: Musixmatch Plans Pricing
   plan_count: 3
   slug: musixmatch-plans-pricing
-random_paper: 11
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Musixmatch Rate Limits
@@ -144,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/screenshots/musixmatch-2026-06-20T185906.png
 security:

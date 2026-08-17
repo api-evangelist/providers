@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The private backend API behind the Elephas Portal, the secure cloud-based web application through which clinicians, laboratories and research partners receive elive test reports and manage specimen re
@@ -151,7 +151,7 @@ plans:
 - name: Elephas Biosciences Plans Pricing
   plan_count: 0
   slug: elephas-biosciences-plans-pricing
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Elephas Biosciences Rate Limits
@@ -164,6 +164,7 @@ scopes:
 score:
   band: emerging
   composite: 25.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -171,6 +172,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 25.3
   regulatory:
     applies: true
     matched_via: tags
@@ -178,7 +180,8 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Elephas Biosciences Authentication

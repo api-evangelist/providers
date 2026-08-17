@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The Projects API from Indiegogo — 2 operation(s) for projects.
   name: Indiegogo Projects API
   slug: indiegogo-projects-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Indiegogo Public Creators API
+  slug: open-indiegogo-creators-api
+- collection_type: open
+  name: Indiegogo Public Creators Projects API
+  slug: open-indiegogo-projects-api
 common:
 - group: other
   title: ''
@@ -162,7 +172,7 @@ overview: 'Indiegogo publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Indiegogo''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 109
+random_paper: 55
 score:
   band: thin
   composite: 41.9
@@ -192,7 +202,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indiegogo/refs/heads/main/screenshots/indiegogo-2026-07-25T222320.png
 security:

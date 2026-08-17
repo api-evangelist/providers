@@ -11,15 +11,15 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 41.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: The V1alpha API from Google Marketing Platform Admin — 4 operation(s) for v1alpha.
   name: Google Marketing Platform Admin V1alpha API
   slug: google-marketing-platform-v1alpha-api
-artifact_total: 44
+artifact_total: 46
 collections:
 - collection_type: postman
   name: Google Marketing Platform Admin V1alpha API
   slug: postman-google-marketing-platform-v1alpha-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Marketing Platform Admin V1alpha API
+  slug: open-google-marketing-platform-v1alpha-api
 - collection_type: open
   name: Google Marketing Platform Admin API
   slug: open-openapi
@@ -127,6 +133,102 @@ common:
   title: ''
   type: Blog
   url: https://blog.google/products/marketingplatform/rss/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-marketing-platform-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/google-marketing-platform-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-marketing-platform-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-marketing-platform-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://g.co/vrp
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-marketing-platform-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-marketing-platform-v1alpha-api-overlay.yaml
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-marketing-platform-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-marketing-platform-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-marketing-platform-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-marketing-platform-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-marketing-platform-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-marketing-platform-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/changelog
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-marketing-platform-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-marketing-platform-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/google-marketing-platform-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/rest
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/quickstart
+- group: build
+  title: ''
+  type: SDKs
+  url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/client-libraries
+- group: start
+  title: ''
+  type: Login
+  url: https://console.cloud.google.com/apis/library/marketingplatformadmin.googleapis.com
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://issuetracker.google.com/issues/new?component=1603054
 created: '2026-03-13'
 description: The Google Marketing Platform Admin API provides programmatic access to manage links between Google Marketing Platform organizations and Google Analytics accounts. It enables creating, updating, deleting, and listing organization links and managing service levels for integrated marketing analytics.
 examples:
@@ -219,7 +321,7 @@ jsonld:
   property_count: 0
   slug: openapi-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Google Marketing Platform Admin
 nav: Providers
 network: true
@@ -229,14 +331,14 @@ overview: 'Google Marketing Platform Admin publishes 1 API on the [APIs.io](http
   The Google Marketing Platform Admin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Marketing Platform Admin''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 12 more developer resources.'
+  Google Marketing Platform Admin''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Google Marketing Platform Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: google-marketing-platform-plans-pricing
-random_paper: 38
+random_paper: 25
 rate_limits:
-- limit_count: 5
+- limit_count: 4
   name: Google Marketing Platform Rate Limits
   slug: google-marketing-platform-rate-limits
 rules:
@@ -262,16 +364,16 @@ scopes:
   slug: google-marketing-platform-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 55.1
-  delta: 0.0
+  band: exemplar
+  composite: 67.8
+  delta: 12.7
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 52.6
     contract_quality: 71.9
-    developer_ergonomics: 50.0
-    discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 28.9
+    developer_ergonomics: 69.6
+    discoverability: 87.0
+    governance: 79.2
+    operational_transparency: 55.3
   previous_composite: 55.1
   provenance:
     agentic_access: derived
@@ -281,8 +383,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/screenshots/google-marketing-platform-2026-06-20T182213.png
 security:
 - kind: authentication

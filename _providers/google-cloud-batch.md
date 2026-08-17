@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: View tasks within a job
   name: Google Cloud Batch Tasks API
   slug: google-cloud-batch-tasks-api
-artifact_total: 16
+artifact_total: 19
 collections:
 - collection_type: postman
   name: Google Cloud Batch Jobs API
@@ -54,8 +54,17 @@ collections:
   name: Google Cloud Batch Jobs Tasks API
   slug: postman-google-cloud-batch-tasks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Batch API
   slug: open-batch
+- collection_type: open
+  name: Google Cloud Batch Jobs API
+  slug: open-google-cloud-batch-jobs-api
+- collection_type: open
+  name: Google Cloud Batch Jobs Tasks API
+  slug: open-google-cloud-batch-tasks-api
 common:
 - group: build
   title: ''
@@ -161,7 +170,7 @@ plans:
 - name: Google Cloud Batch Plans Pricing
   plan_count: 3
   slug: google-cloud-batch-plans-pricing
-random_paper: 96
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: Google Cloud Batch Rate Limits
@@ -200,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/screenshots/google-cloud-batch-2026-06-20T182044.png
 security:

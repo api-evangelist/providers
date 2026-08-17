@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,14 @@ apis:
 - description: The Parea API from Parea AI — 19 operation(s) for parea.
   name: Parea AI Parea API
   slug: parea-parea-api
-artifact_total: 20
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AI REST Parea API
+  slug: open-parea-parea-api
 common:
 - group: agent
   title: ''
@@ -167,7 +174,7 @@ plans:
 - name: Parea Plans Pricing
   plan_count: 4
   slug: parea-plans-pricing
-random_paper: 41
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Parea Rate Limits
@@ -206,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/screenshots/parea-2026-06-20T191406.png
 security:

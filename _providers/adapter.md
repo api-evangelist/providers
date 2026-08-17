@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -117,7 +117,89 @@ apis:
 - description: The Whatsapp API from Adapter — 2 operation(s) for whatsapp.
   name: Adapter Whatsapp API
   slug: adapter-whatsapp-api
-artifact_total: 31
+artifact_total: 58
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adapter Adapter API API
+  slug: open-adapter-adapter-api-api
+- collection_type: open
+  name: Adapter Adapter API assets API
+  slug: open-adapter-assets-api
+- collection_type: open
+  name: Adapter Adapter API auth API
+  slug: open-adapter-auth-api
+- collection_type: open
+  name: Adapter Adapter API conversations API
+  slug: open-adapter-conversations-api
+- collection_type: open
+  name: Adapter Adapter API Docs API
+  slug: open-adapter-docs-api
+- collection_type: open
+  name: Adapter Adapter API Imessage API
+  slug: open-adapter-imessage-api
+- collection_type: open
+  name: Adapter Adapter API knowledge API
+  slug: open-adapter-knowledge-api
+- collection_type: open
+  name: Adapter Adapter API life API
+  slug: open-adapter-life-api
+- collection_type: open
+  name: Adapter Adapter API Line API
+  slug: open-adapter-line-api
+- collection_type: open
+  name: Adapter Adapter API location API
+  slug: open-adapter-location-api
+- collection_type: open
+  name: Adapter Adapter API management API
+  slug: open-adapter-management-api
+- collection_type: open
+  name: Adapter Adapter API Oauth API
+  slug: open-adapter-oauth-api
+- collection_type: open
+  name: Adapter Adapter API oauth-connect API
+  slug: open-adapter-oauth-connect-api
+- collection_type: open
+  name: Adapter Adapter API oauth2 API
+  slug: open-adapter-oauth2-api
+- collection_type: open
+  name: Adapter Adapter API Openapi.json API
+  slug: open-adapter-openapi-json-api
+- collection_type: open
+  name: Adapter Adapter API proxy API
+  slug: open-adapter-proxy-api
+- collection_type: open
+  name: Adapter Adapter API radar API
+  slug: open-adapter-radar-api
+- collection_type: open
+  name: Adapter Adapter API Redoc API
+  slug: open-adapter-redoc-api
+- collection_type: open
+  name: Adapter Adapter API reminders API
+  slug: open-adapter-reminders-api
+- collection_type: open
+  name: Adapter Adapter API reranking API
+  slug: open-adapter-reranking-api
+- collection_type: open
+  name: Adapter Adapter API Sendblue API
+  slug: open-adapter-sendblue-api
+- collection_type: open
+  name: Adapter Adapter API Sms API
+  slug: open-adapter-sms-api
+- collection_type: open
+  name: Adapter Adapter API support API
+  slug: open-adapter-support-api
+- collection_type: open
+  name: Adapter Adapter API Users API
+  slug: open-adapter-users-api
+- collection_type: open
+  name: Adapter Adapter API Webhook API
+  slug: open-adapter-webhook-api
+- collection_type: open
+  name: Adapter Adapter API Whatsapp API
+  slug: open-adapter-whatsapp-api
 common:
 - group: docs
   title: ''
@@ -219,7 +301,7 @@ overview: 'Adapter publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Adapter''s developer surface includes authentication, engineering blog, signup flow, support, and 17 more developer resources.'
-random_paper: 17
+random_paper: 141
 scopes:
 - name: Adapter Scopes
   scope_count: 2
@@ -248,7 +330,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/screenshots/adapter-2026-08-07T161042.png
 security:

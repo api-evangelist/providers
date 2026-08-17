@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: The ccip API from Enso — 2 operation(s) for ccip.
@@ -58,7 +58,38 @@ apis:
 - description: The wallet API from Enso — 2 operation(s) for wallet.
   name: Enso wallet API
   slug: enso-wallet-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Enso ccip API
+  slug: open-enso-ccip-api
+- collection_type: open
+  name: Enso ccip cctp API
+  slug: open-enso-cctp-api
+- collection_type: open
+  name: Enso ccip layerzero API
+  slug: open-enso-layerzero-api
+- collection_type: open
+  name: Enso ccip metadata API
+  slug: open-enso-metadata-api
+- collection_type: open
+  name: Enso ccip projects API
+  slug: open-enso-projects-api
+- collection_type: open
+  name: Enso ccip relay API
+  slug: open-enso-relay-api
+- collection_type: open
+  name: Enso ccip shortcuts API
+  slug: open-enso-shortcuts-api
+- collection_type: open
+  name: Enso ccip standards API
+  slug: open-enso-standards-api
+- collection_type: open
+  name: Enso ccip wallet API
+  slug: open-enso-wallet-api
 common:
 - group: other
   title: ''
@@ -180,7 +211,7 @@ overview: 'Enso publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Enso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
-random_paper: 77
+random_paper: 139
 rate_limits:
 - limit_count: 0
   name: Enso Rate Limits
@@ -207,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/screenshots/enso-2026-07-25T213420.png
 security:

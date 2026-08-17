@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -234,7 +234,7 @@ apis:
 - description: 'The #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateworkspaceimagepermission.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
-artifact_total: 971
+artifact_total: 1037
 collections:
 - collection_type: postman
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias API'
@@ -431,6 +431,204 @@ collections:
 - collection_type: postman
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API'
   slug: postman-amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-associateconnectionalias-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateIpGroups API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-associateipgroups-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AuthorizeIpRules API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-authorizeiprules-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CopyWorkspaceImage API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-copyworkspaceimage-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateConnectClientAddIn API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-createconnectclientaddin-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateConnectionAlias API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-createconnectionalias-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateIpGroup API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-createipgroup-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateStandbyWorkspaces API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-createstandbyworkspaces-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateTags API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-createtags-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateUpdatedWorkspaceImage API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-createupdatedworkspaceimage-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateWorkspaceBundle API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-createworkspacebundle-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateWorkspaceImage API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-createworkspaceimage-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateWorkspaces API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-createworkspaces-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteClientBranding API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-deleteclientbranding-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteConnectClientAddIn API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-deleteconnectclientaddin-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteConnectionAlias API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-deleteconnectionalias-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteIpGroup API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-deleteipgroup-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteTags API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-deletetags-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteWorkspaceBundle API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-deleteworkspacebundle-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteWorkspaceImage API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-deleteworkspaceimage-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeregisterWorkspaceDirectory API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-deregisterworkspacedirectory-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeAccount API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeaccount-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeAccountModifications API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeaccountmodifications-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeClientBranding API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeclientbranding-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeClientProperties API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeclientproperties-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeConnectClientAddIns API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeconnectclientaddins-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeConnectionAliases API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliases-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeConnectionAliasPermissions API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliaspermissions-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeIpGroups API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeipgroups-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeTags API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describetags-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceBundles API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeworkspacebundles-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceDirectories API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeworkspacedirectories-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceImagePermissions API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimagepermissions-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceImages API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimages-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaces API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeworkspaces-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspacesConnectionStatus API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesconnectionstatus-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceSnapshots API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesnapshots-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DisassociateConnectionAlias API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-disassociateconnectionalias-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DisassociateIpGroups API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-disassociateipgroups-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ImportClientBranding API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-importclientbranding-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ImportWorkspaceImage API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-importworkspaceimage-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ListAvailableManagementCidrRanges API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-listavailablemanagementcidrranges-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.MigrateWorkspace API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-migrateworkspace-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyAccount API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-modifyaccount-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyCertificateBasedAuthProperties API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-modifycertificatebasedauthproperties-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyClientProperties API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-modifyclientproperties-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifySamlProperties API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-modifysamlproperties-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifySelfservicePermissions API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-modifyselfservicepermissions-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyWorkspaceAccessProperties API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceaccessproperties-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyWorkspaceCreationProperties API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacecreationproperties-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyWorkspaceProperties API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceproperties-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyWorkspaceState API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacestate-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RebootWorkspaces API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-rebootworkspaces-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RebuildWorkspaces API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-rebuildworkspaces-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RegisterWorkspaceDirectory API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-registerworkspacedirectory-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RestoreWorkspace API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-restoreworkspace-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RevokeIpRules API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-revokeiprules-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.StartWorkspaces API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-startworkspaces-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.StopWorkspaces API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-stopworkspaces-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.TerminateWorkspaces API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-terminateworkspaces-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateConnectClientAddIn API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-updateconnectclientaddin-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateConnectionAliasPermission API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-updateconnectionaliaspermission-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateRulesOfIpGroup API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-updaterulesofipgroup-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateWorkspaceBundle API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-updateworkspacebundle-api
+- collection_type: open
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API'
+  slug: open-amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
 common:
 - group: build
   title: ''
@@ -3015,7 +3213,7 @@ plans:
 - name: Amazon Workspaces Plans Pricing
   plan_count: 3
   slug: amazon-workspaces-plans-pricing
-random_paper: 101
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: Amazon Workspaces Rate Limits
@@ -3057,7 +3255,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/screenshots/amazon-workspaces-2026-06-20T171849.png
 security:

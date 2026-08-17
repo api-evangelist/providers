@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Branch Management APIs
@@ -52,11 +52,36 @@ apis:
 - description: User Management APIs
   name: EdfaPay, Inc. User Management API
   slug: edfapay-inc-user-management-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Edfapay Inc Webhooks
   slug: edfapay-inc-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Edfapay Payment Gateway Branch Management API
+  slug: open-edfapay-inc-branch-management-api
+- collection_type: open
+  name: Edfapay Payment Gateway Branch Management Merchant Management API
+  slug: open-edfapay-inc-merchant-management-api
+- collection_type: open
+  name: Edfapay Payment Gateway Branch Management Partner Management API
+  slug: open-edfapay-inc-partner-management-api
+- collection_type: open
+  name: Edfapay Gateway Branch Management Payment API
+  slug: open-edfapay-inc-payment-api
+- collection_type: open
+  name: Edfapay Payment Gateway Branch Management Role Management API
+  slug: open-edfapay-inc-role-management-api
+- collection_type: open
+  name: Edfapay Payment Gateway Branch Management Transaction Management API
+  slug: open-edfapay-inc-transaction-management-api
+- collection_type: open
+  name: Edfapay Payment Gateway Branch Management User Management API
+  slug: open-edfapay-inc-user-management-api
 common:
 - group: other
   title: ''
@@ -205,7 +230,7 @@ overview: 'EdfaPay, Inc. publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   EdfaPay, Inc.''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 9
+random_paper: 46
 score:
   band: developing
   composite: 51.8
@@ -234,7 +259,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/screenshots/edfapay-inc-2026-07-25T212824.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Create, read, update, and delete employee time-off periods.
   name: Swarmia Time off API
   slug: swarmia-time-off-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Swarmia Additional AI integrations API
+  slug: open-swarmia-additional-ai-integrations-api
+- collection_type: open
+  name: Swarmia Additional AI integrations Built-in reports API
+  slug: open-swarmia-built-in-reports-api
+- collection_type: open
+  name: Swarmia Additional AI integrations Custom reports API
+  slug: open-swarmia-custom-reports-api
+- collection_type: open
+  name: Swarmia Additional AI integrations Deployments API
+  slug: open-swarmia-deployments-api
+- collection_type: open
+  name: Swarmia Additional AI integrations Team management API
+  slug: open-swarmia-team-management-api
+- collection_type: open
+  name: Swarmia Additional AI integrations Time off API
+  slug: open-swarmia-time-off-api
 - collection_type: open
   name: Swarmia API
   slug: open-swarmia
@@ -131,7 +152,7 @@ plans:
 - name: Swarmia Plans Pricing
   plan_count: 4
   slug: swarmia-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Swarmia Rate Limits
@@ -156,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

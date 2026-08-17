@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Daily and monthly Treasury financial statements.
   name: U.S. Treasury Fiscal Data Treasury Statements API
   slug: u-s-treasury-fiscal-data-treasury-statements-api
-artifact_total: 69
+artifact_total: 74
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Treasury Fiscal Data Exchange Rates API
+  slug: open-u-s-treasury-fiscal-data-exchange-rates-api
+- collection_type: open
+  name: Treasury Fiscal Data Exchange Rates National Debt API
+  slug: open-u-s-treasury-fiscal-data-national-debt-api
+- collection_type: open
+  name: Treasury Fiscal Data Exchange Rates Securities API
+  slug: open-u-s-treasury-fiscal-data-securities-api
+- collection_type: open
+  name: Treasury Fiscal Data Exchange Rates Treasury Statements API
+  slug: open-u-s-treasury-fiscal-data-treasury-statements-api
 common:
 - group: agent
   title: ''
@@ -263,7 +279,7 @@ plans:
 - name: U S Treasury Fiscal Data Plans Pricing
   plan_count: 3
   slug: u-s-treasury-fiscal-data-plans-pricing
-random_paper: 63
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: U S Treasury Fiscal Data Rate Limits
@@ -311,7 +327,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/screenshots/u-s-treasury-fiscal-data-2026-06-20T195919.png
 security:

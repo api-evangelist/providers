@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -60,11 +60,35 @@ apis:
 - description: Site (location) provisioning, lookup, and geospatial search.
   name: NCR Site API
   slug: ncr-site-api
-artifact_total: 108
+artifact_total: 116
 collections:
 - collection_type: postman
   name: BSP HMAC Examples
   slug: postman-ncr-bsp-hmac-examples
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NCR Voyix Commerce Platform APIs Catalog API
+  slug: open-ncr-catalog-api
+- collection_type: open
+  name: NCR Voyix Commerce Platform APIs Catalog Category API
+  slug: open-ncr-category-api
+- collection_type: open
+  name: NCR Voyix Commerce Platform APIs Catalog Order API
+  slug: open-ncr-order-api
+- collection_type: open
+  name: NCR Voyix Commerce Platform APIs Catalog Provisioning API
+  slug: open-ncr-provisioning-api
+- collection_type: open
+  name: NCR Voyix Commerce Platform APIs Catalog Security API
+  slug: open-ncr-security-api
+- collection_type: open
+  name: NCR Voyix Commerce Platform APIs Catalog Selling API
+  slug: open-ncr-selling-api
+- collection_type: open
+  name: NCR Voyix Commerce Platform APIs Catalog Site API
+  slug: open-ncr-site-api
 - collection_type: open
   name: NCR Voyix Commerce Platform APIs
   slug: open-ncr-voyix-commerce-platform
@@ -468,7 +492,7 @@ press:
 - date: '2026-05-04'
   title: Stater Bros. Markets Signs New Agreement with NCR Voyix to Modernize POS and Payments on the Voyix Commerce Platform | NCR Voyix
   url: https://collections.ncrvoyix.com/newsroom/stater-bros-markets-signs-new-agreement-with-ncr-voyix-to-modernize-pos-and-payments-on-the-voyix-commerce-platform
-random_paper: 83
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Ncr Rate Limits
@@ -524,7 +548,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png
 security:

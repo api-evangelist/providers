@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,8 +61,17 @@ apis:
 - description: Search the buildpack registry by keyword
   name: buildpacks-io Search API
   slug: buildpacks-io-search-api
-artifact_total: 41
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloud Native Registry Buildpacks API
+  slug: open-buildpacks-io-buildpacks-api
+- collection_type: open
+  name: Cloud Native Registry Buildpacks Search API
+  slug: open-buildpacks-io-search-api
 - collection_type: open
   name: Cloud Native Buildpacks Registry API
   slug: open-buildpacks-registry-api
@@ -328,7 +337,7 @@ overview: 'buildpacks-io publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   buildpacks-io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 42 more developer resources.'
-random_paper: 119
+random_paper: 127
 rules:
 - name: buildpacks-io API Rules
   rule_count: 5
@@ -366,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/screenshots/buildpacks-io-2026-06-20T173753.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 553
   human_in_the_loop: 61
@@ -544,8 +544,515 @@ apis:
 - description: Operations for x402 cryptocurrency payment transactions. Fund your Telnyx account using USDC stablecoin payments via the x402 protocol.
   name: Telnyx x402 Payment Transactions API
   slug: telnyx-x402-payment-transactions-api
-artifact_total: 178
+artifact_total: 347
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telnyx Access Tokens API
+  slug: open-telnyx-access-tokens-api
+- collection_type: open
+  name: Telnyx Access Tokens Addresses API
+  slug: open-telnyx-addresses-api
+- collection_type: open
+  name: Telnyx Access Tokens Advanced Number Orders API
+  slug: open-telnyx-advanced-number-orders-api
+- collection_type: open
+  name: Telnyx Access Tokens Assistants API
+  slug: open-telnyx-assistants-api
+- collection_type: open
+  name: Telnyx Access Tokens Audio API
+  slug: open-telnyx-audio-api
+- collection_type: open
+  name: Telnyx Access Tokens Audit Logs API
+  slug: open-telnyx-audit-logs-api
+- collection_type: open
+  name: Telnyx Access Tokens Authentication Providers API
+  slug: open-telnyx-authentication-providers-api
+- collection_type: open
+  name: Telnyx Access Tokens AutoRechargePreferences API
+  slug: open-telnyx-autorechargepreferences-api
+- collection_type: open
+  name: Telnyx Access Tokens Billing API
+  slug: open-telnyx-billing-api
+- collection_type: open
+  name: Telnyx Access Tokens Billing Groups API
+  slug: open-telnyx-billing-groups-api
+- collection_type: open
+  name: Telnyx Access Tokens Brands API
+  slug: open-telnyx-brands-api
+- collection_type: open
+  name: Telnyx Access Tokens Bucket SSL Certificate API
+  slug: open-telnyx-bucket-ssl-certificate-api
+- collection_type: open
+  name: Telnyx Access Tokens Bucket Usage API
+  slug: open-telnyx-bucket-usage-api
+- collection_type: open
+  name: Telnyx Access Tokens Bulk Phone Number Campaigns API
+  slug: open-telnyx-bulk-phone-number-campaigns-api
+- collection_type: open
+  name: Telnyx Access Tokens Bulk Phone Number Operations API
+  slug: open-telnyx-bulk-phone-number-operations-api
+- collection_type: open
+  name: Telnyx Access Tokens Bundles API
+  slug: open-telnyx-bundles-api
+- collection_type: open
+  name: Telnyx Access Tokens Call Commands API
+  slug: open-telnyx-call-commands-api
+- collection_type: open
+  name: Telnyx Access Tokens Call Control Applications API
+  slug: open-telnyx-call-control-applications-api
+- collection_type: open
+  name: Telnyx Access Tokens Call Information API
+  slug: open-telnyx-call-information-api
+- collection_type: open
+  name: Telnyx Access Tokens Call Recordings API
+  slug: open-telnyx-call-recordings-api
+- collection_type: open
+  name: Telnyx Access Tokens Campaign API
+  slug: open-telnyx-campaign-api
+- collection_type: open
+  name: Telnyx Access Tokens CDR Reports API
+  slug: open-telnyx-cdr-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens CDR Usage Reports API
+  slug: open-telnyx-cdr-usage-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens Charges Breakdown API
+  slug: open-telnyx-charges-breakdown-api
+- collection_type: open
+  name: Telnyx Access Tokens Charges Summary API
+  slug: open-telnyx-charges-summary-api
+- collection_type: open
+  name: Telnyx Access Tokens Chat API
+  slug: open-telnyx-chat-api
+- collection_type: open
+  name: Telnyx Access Tokens Clusters API
+  slug: open-telnyx-clusters-api
+- collection_type: open
+  name: Telnyx Access Tokens Conference Commands API
+  slug: open-telnyx-conference-commands-api
+- collection_type: open
+  name: Telnyx Access Tokens Connections API
+  slug: open-telnyx-connections-api
+- collection_type: open
+  name: Telnyx Access Tokens Conversations API
+  slug: open-telnyx-conversations-api
+- collection_type: open
+  name: Telnyx Access Tokens Country Coverage API
+  slug: open-telnyx-country-coverage-api
+- collection_type: open
+  name: Telnyx Access Tokens Coverage API
+  slug: open-telnyx-coverage-api
+- collection_type: open
+  name: Telnyx Access Tokens Credential Connections API
+  slug: open-telnyx-credential-connections-api
+- collection_type: open
+  name: Telnyx Access Tokens Credentials API
+  slug: open-telnyx-credentials-api
+- collection_type: open
+  name: Telnyx Access Tokens CSV Downloads API
+  slug: open-telnyx-csv-downloads-api
+- collection_type: open
+  name: Telnyx Access Tokens Customer Service Record API
+  slug: open-telnyx-customer-service-record-api
+- collection_type: open
+  name: Telnyx Access Tokens Data Migration API
+  slug: open-telnyx-data-migration-api
+- collection_type: open
+  name: Telnyx Access Tokens Debugging API
+  slug: open-telnyx-debugging-api
+- collection_type: open
+  name: Telnyx Access Tokens Detail Records API
+  slug: open-telnyx-detail-records-api
+- collection_type: open
+  name: Telnyx Access Tokens Dialogflow Integration API
+  slug: open-telnyx-dialogflow-integration-api
+- collection_type: open
+  name: Telnyx Access Tokens Documents API
+  slug: open-telnyx-documents-api
+- collection_type: open
+  name: Telnyx Access Tokens Dynamic Emergency Addresses API
+  slug: open-telnyx-dynamic-emergency-addresses-api
+- collection_type: open
+  name: Telnyx Access Tokens Dynamic Emergency Endpoints API
+  slug: open-telnyx-dynamic-emergency-endpoints-api
+- collection_type: open
+  name: Telnyx Access Tokens Embeddings API
+  slug: open-telnyx-embeddings-api
+- collection_type: open
+  name: Telnyx Access Tokens Enterprises API
+  slug: open-telnyx-enterprises-api
+- collection_type: open
+  name: Telnyx Access Tokens Enum API
+  slug: open-telnyx-enum-api
+- collection_type: open
+  name: Telnyx Access Tokens External Connections API
+  slug: open-telnyx-external-connections-api
+- collection_type: open
+  name: Telnyx Access Tokens Fine Tuning API
+  slug: open-telnyx-fine-tuning-api
+- collection_type: open
+  name: Telnyx Access Tokens FQDN Connections API
+  slug: open-telnyx-fqdn-connections-api
+- collection_type: open
+  name: Telnyx Access Tokens FQDNs API
+  slug: open-telnyx-fqdns-api
+- collection_type: open
+  name: Telnyx Access Tokens Global IPs API
+  slug: open-telnyx-global-ips-api
+- collection_type: open
+  name: Telnyx Access Tokens Hosted Numbers API
+  slug: open-telnyx-hosted-numbers-api
+- collection_type: open
+  name: Telnyx Access Tokens Inexplicit Number Orders API
+  slug: open-telnyx-inexplicit-number-orders-api
+- collection_type: open
+  name: Telnyx Access Tokens Integration Secrets API
+  slug: open-telnyx-integration-secrets-api
+- collection_type: open
+  name: Telnyx Access Tokens Integrations API
+  slug: open-telnyx-integrations-api
+- collection_type: open
+  name: Telnyx Access Tokens Inventory Level API
+  slug: open-telnyx-inventory-level-api
+- collection_type: open
+  name: Telnyx Access Tokens Invoices API
+  slug: open-telnyx-invoices-api
+- collection_type: open
+  name: Telnyx Access Tokens IP Addresses API
+  slug: open-telnyx-ip-addresses-api
+- collection_type: open
+  name: Telnyx Access Tokens IP Connections API
+  slug: open-telnyx-ip-connections-api
+- collection_type: open
+  name: Telnyx Access Tokens IP Ranges API
+  slug: open-telnyx-ip-ranges-api
+- collection_type: open
+  name: Telnyx Access Tokens IPs API
+  slug: open-telnyx-ips-api
+- collection_type: open
+  name: Telnyx Access Tokens Managed Accounts API
+  slug: open-telnyx-managed-accounts-api
+- collection_type: open
+  name: Telnyx Access Tokens MCP Servers API
+  slug: open-telnyx-mcp-servers-api
+- collection_type: open
+  name: Telnyx Access Tokens MDR Detail Reports API
+  slug: open-telnyx-mdr-detail-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens MDR Detailed Reports API
+  slug: open-telnyx-mdr-detailed-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens MDR Usage Reports API
+  slug: open-telnyx-mdr-usage-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens Media Storage API API
+  slug: open-telnyx-media-storage-api-api
+- collection_type: open
+  name: Telnyx Access Tokens Messages API
+  slug: open-telnyx-messages-api
+- collection_type: open
+  name: Telnyx Access Tokens Messaging API
+  slug: open-telnyx-messaging-api
+- collection_type: open
+  name: Telnyx Access Tokens Messaging URL Domains API
+  slug: open-telnyx-messaging-url-domains-api
+- collection_type: open
+  name: Telnyx Access Tokens Missions API
+  slug: open-telnyx-missions-api
+- collection_type: open
+  name: Telnyx Access Tokens Mobile Network Operators API
+  slug: open-telnyx-mobile-network-operators-api
+- collection_type: open
+  name: Telnyx Access Tokens Mobile Number Settings API
+  slug: open-telnyx-mobile-number-settings-api
+- collection_type: open
+  name: Telnyx Access Tokens Mobile Phone Numbers API
+  slug: open-telnyx-mobile-phone-numbers-api
+- collection_type: open
+  name: Telnyx Access Tokens Mobile Voice Connections API
+  slug: open-telnyx-mobile-voice-connections-api
+- collection_type: open
+  name: Telnyx Access Tokens Networks API
+  slug: open-telnyx-networks-api
+- collection_type: open
+  name: Telnyx Access Tokens Notifications API
+  slug: open-telnyx-notifications-api
+- collection_type: open
+  name: Telnyx Access Tokens Number Lookup API
+  slug: open-telnyx-number-lookup-api
+- collection_type: open
+  name: Telnyx Access Tokens Number Portout API
+  slug: open-telnyx-number-portout-api
+- collection_type: open
+  name: Telnyx Access Tokens Number Reputation Settings API
+  slug: open-telnyx-number-reputation-settings-api
+- collection_type: open
+  name: Telnyx Access Tokens Number Settings API
+  slug: open-telnyx-number-settings-api
+- collection_type: open
+  name: Telnyx Access Tokens numbers features API
+  slug: open-telnyx-numbers-features-api
+- collection_type: open
+  name: Telnyx Access Tokens OAuth Clients API
+  slug: open-telnyx-oauth-clients-api
+- collection_type: open
+  name: Telnyx Access Tokens OAuth Discovery API
+  slug: open-telnyx-oauth-discovery-api
+- collection_type: open
+  name: Telnyx Access Tokens OAuth Grants API
+  slug: open-telnyx-oauth-grants-api
+- collection_type: open
+  name: Telnyx Access Tokens OAuth Protocol API
+  slug: open-telnyx-oauth-protocol-api
+- collection_type: open
+  name: Telnyx Access Tokens OpenAI Chat API
+  slug: open-telnyx-openai-chat-api
+- collection_type: open
+  name: Telnyx Access Tokens OpenAI Embeddings API
+  slug: open-telnyx-openai-embeddings-api
+- collection_type: open
+  name: Telnyx Access Tokens Opt-Out Management API
+  slug: open-telnyx-opt-out-management-api
+- collection_type: open
+  name: Telnyx Access Tokens Organization Users API
+  slug: open-telnyx-organization-users-api
+- collection_type: open
+  name: Telnyx Access Tokens OTA updates API
+  slug: open-telnyx-ota-updates-api
+- collection_type: open
+  name: Telnyx Access Tokens Outbound Voice Profiles API
+  slug: open-telnyx-outbound-voice-profiles-api
+- collection_type: open
+  name: Telnyx Access Tokens Phone Number Block Orders API
+  slug: open-telnyx-phone-number-block-orders-api
+- collection_type: open
+  name: Telnyx Access Tokens Phone Number Blocks Background Jobs API
+  slug: open-telnyx-phone-number-blocks-background-jobs-api
+- collection_type: open
+  name: Telnyx Access Tokens Phone Number Campaigns API
+  slug: open-telnyx-phone-number-campaigns-api
+- collection_type: open
+  name: Telnyx Access Tokens Phone Number Configurations API
+  slug: open-telnyx-phone-number-configurations-api
+- collection_type: open
+  name: Telnyx Access Tokens Phone Number Orders API
+  slug: open-telnyx-phone-number-orders-api
+- collection_type: open
+  name: Telnyx Access Tokens Phone Number Porting API
+  slug: open-telnyx-phone-number-porting-api
+- collection_type: open
+  name: Telnyx Access Tokens Phone Number Reservations API
+  slug: open-telnyx-phone-number-reservations-api
+- collection_type: open
+  name: Telnyx Access Tokens Phone Number Search API
+  slug: open-telnyx-phone-number-search-api
+- collection_type: open
+  name: Telnyx Access Tokens Porting Orders API
+  slug: open-telnyx-porting-orders-api
+- collection_type: open
+  name: Telnyx Access Tokens Presigned Object URLs API
+  slug: open-telnyx-presigned-object-urls-api
+- collection_type: open
+  name: Telnyx Access Tokens Private Wireless Gateways API
+  slug: open-telnyx-private-wireless-gateways-api
+- collection_type: open
+  name: Telnyx Access Tokens Profiles API
+  slug: open-telnyx-profiles-api
+- collection_type: open
+  name: Telnyx Access Tokens Programmable Fax Applications API
+  slug: open-telnyx-programmable-fax-applications-api
+- collection_type: open
+  name: Telnyx Access Tokens Programmable Fax Commands API
+  slug: open-telnyx-programmable-fax-commands-api
+- collection_type: open
+  name: Telnyx Access Tokens Pronunciation Dictionaries API
+  slug: open-telnyx-pronunciation-dictionaries-api
+- collection_type: open
+  name: Telnyx Access Tokens Public Internet Gateways API
+  slug: open-telnyx-public-internet-gateways-api
+- collection_type: open
+  name: Telnyx Access Tokens Push Credentials API
+  slug: open-telnyx-push-credentials-api
+- collection_type: open
+  name: Telnyx Access Tokens Queue Commands API
+  slug: open-telnyx-queue-commands-api
+- collection_type: open
+  name: Telnyx Access Tokens RCS API
+  slug: open-telnyx-rcs-api
+- collection_type: open
+  name: Telnyx Access Tokens Regions API
+  slug: open-telnyx-regions-api
+- collection_type: open
+  name: Telnyx Access Tokens Regulatory Requirements API
+  slug: open-telnyx-regulatory-requirements-api
+- collection_type: open
+  name: Telnyx Access Tokens Reporting API
+  slug: open-telnyx-reporting-api
+- collection_type: open
+  name: Telnyx Access Tokens Reports API
+  slug: open-telnyx-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens Reputation Phone Numbers API
+  slug: open-telnyx-reputation-phone-numbers-api
+- collection_type: open
+  name: Telnyx Access Tokens Requirement Groups API
+  slug: open-telnyx-requirement-groups-api
+- collection_type: open
+  name: Telnyx Access Tokens Requirement Types API
+  slug: open-telnyx-requirement-types-api
+- collection_type: open
+  name: Telnyx Access Tokens Requirements API
+  slug: open-telnyx-requirements-api
+- collection_type: open
+  name: Telnyx Access Tokens Room Compositions API
+  slug: open-telnyx-room-compositions-api
+- collection_type: open
+  name: Telnyx Access Tokens Room Participants API
+  slug: open-telnyx-room-participants-api
+- collection_type: open
+  name: Telnyx Access Tokens Room Recordings API
+  slug: open-telnyx-room-recordings-api
+- collection_type: open
+  name: Telnyx Access Tokens Room Sessions API
+  slug: open-telnyx-room-sessions-api
+- collection_type: open
+  name: Telnyx Access Tokens Rooms API
+  slug: open-telnyx-rooms-api
+- collection_type: open
+  name: Telnyx Access Tokens Rooms Client Tokens API
+  slug: open-telnyx-rooms-client-tokens-api
+- collection_type: open
+  name: Telnyx Access Tokens Session Analysis API
+  slug: open-telnyx-session-analysis-api
+- collection_type: open
+  name: Telnyx Access Tokens SETI Observability API
+  slug: open-telnyx-seti-observability-api
+- collection_type: open
+  name: Telnyx Access Tokens Shared Campaigns API
+  slug: open-telnyx-shared-campaigns-api
+- collection_type: open
+  name: Telnyx Access Tokens Short Codes API
+  slug: open-telnyx-short-codes-api
+- collection_type: open
+  name: Telnyx Access Tokens SIM Card Actions API
+  slug: open-telnyx-sim-card-actions-api
+- collection_type: open
+  name: Telnyx Access Tokens SIM Card Group Actions API
+  slug: open-telnyx-sim-card-group-actions-api
+- collection_type: open
+  name: Telnyx Access Tokens SIM Card Groups API
+  slug: open-telnyx-sim-card-groups-api
+- collection_type: open
+  name: Telnyx Access Tokens SIM Card Orders API
+  slug: open-telnyx-sim-card-orders-api
+- collection_type: open
+  name: Telnyx Access Tokens SIM Cards API
+  slug: open-telnyx-sim-cards-api
+- collection_type: open
+  name: Telnyx Access Tokens SIPREC Connectors API
+  slug: open-telnyx-siprec-connectors-api
+- collection_type: open
+  name: Telnyx Access Tokens Speech to Text Batch Reports API
+  slug: open-telnyx-speech-to-text-batch-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens Speech To Text over WebSockets API
+  slug: open-telnyx-speech-to-text-over-websockets-api
+- collection_type: open
+  name: Telnyx Access Tokens Speech to text Usage Reports API
+  slug: open-telnyx-speech-to-text-usage-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens Stored Payment Transactions API
+  slug: open-telnyx-stored-payment-transactions-api
+- collection_type: open
+  name: Telnyx Access Tokens Telco Data Usage Reports API
+  slug: open-telnyx-telco-data-usage-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens Terms of Service API
+  slug: open-telnyx-terms-of-service-api
+- collection_type: open
+  name: Telnyx Access Tokens TeXML Applications API
+  slug: open-telnyx-texml-applications-api
+- collection_type: open
+  name: Telnyx Access Tokens TeXML REST Commands API
+  slug: open-telnyx-texml-rest-commands-api
+- collection_type: open
+  name: Telnyx Access Tokens Text To Speech Commands API
+  slug: open-telnyx-text-to-speech-commands-api
+- collection_type: open
+  name: Telnyx Access Tokens Traffic Policy Profiles API
+  slug: open-telnyx-traffic-policy-profiles-api
+- collection_type: open
+  name: Telnyx Access Tokens UAC Connections API
+  slug: open-telnyx-uac-connections-api
+- collection_type: open
+  name: Telnyx Access Tokens Usage Reports (BETA) API
+  slug: open-telnyx-usage-reports-beta-api
+- collection_type: open
+  name: Telnyx Access Tokens User Bundles API
+  slug: open-telnyx-user-bundles-api
+- collection_type: open
+  name: Telnyx Access Tokens User Tags API
+  slug: open-telnyx-user-tags-api
+- collection_type: open
+  name: Telnyx Access Tokens UserAddresses API
+  slug: open-telnyx-useraddresses-api
+- collection_type: open
+  name: Telnyx Access Tokens Verification Requests API
+  slug: open-telnyx-verification-requests-api
+- collection_type: open
+  name: Telnyx Access Tokens Verified Numbers API
+  slug: open-telnyx-verified-numbers-api
+- collection_type: open
+  name: Telnyx Access Tokens Verify API
+  slug: open-telnyx-verify-api
+- collection_type: open
+  name: Telnyx Access Tokens Virtual Cross Connects API
+  slug: open-telnyx-virtual-cross-connects-api
+- collection_type: open
+  name: Telnyx Access Tokens Voice Channels API
+  slug: open-telnyx-voice-channels-api
+- collection_type: open
+  name: Telnyx Access Tokens Voice Clones API
+  slug: open-telnyx-voice-clones-api
+- collection_type: open
+  name: Telnyx Access Tokens Voice Designs API
+  slug: open-telnyx-voice-designs-api
+- collection_type: open
+  name: Telnyx Access Tokens Voicemail API
+  slug: open-telnyx-voicemail-api
+- collection_type: open
+  name: Telnyx Access Tokens WDR Detail Reports API
+  slug: open-telnyx-wdr-detail-reports-api
+- collection_type: open
+  name: Telnyx Access Tokens Webhooks API
+  slug: open-telnyx-webhooks-api
+- collection_type: open
+  name: Telnyx Access Tokens Whatsapp Business Accounts API
+  slug: open-telnyx-whatsapp-business-accounts-api
+- collection_type: open
+  name: Telnyx Access Tokens Whatsapp Message Templates API
+  slug: open-telnyx-whatsapp-message-templates-api
+- collection_type: open
+  name: Telnyx Access Tokens Whatsapp messaging API
+  slug: open-telnyx-whatsapp-messaging-api
+- collection_type: open
+  name: Telnyx Access Tokens Whatsapp Phone Numbers API
+  slug: open-telnyx-whatsapp-phone-numbers-api
+- collection_type: open
+  name: Telnyx Access Tokens WireGuard Interfaces API
+  slug: open-telnyx-wireguard-interfaces-api
+- collection_type: open
+  name: Telnyx Access Tokens Wireless Blocklists API
+  slug: open-telnyx-wireless-blocklists-api
+- collection_type: open
+  name: Telnyx Access Tokens Wireless Regions API
+  slug: open-telnyx-wireless-regions-api
+- collection_type: open
+  name: Telnyx Access Tokens x402 Payment Transactions API
+  slug: open-telnyx-x402-payment-transactions-api
 - collection_type: open
   name: Telnyx API
   slug: open-telnyx
@@ -626,7 +1133,7 @@ plans:
 - name: Telnyx Plans Pricing
   plan_count: 1
   slug: telnyx-plans-pricing
-random_paper: 76
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Telnyx Rate Limits
@@ -662,7 +1169,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/screenshots/telnyx-2026-06-20T195051.png
 security:

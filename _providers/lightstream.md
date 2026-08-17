@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -68,11 +68,45 @@ apis:
 - description: The Source Service operates on Collection Live Sources and Project Sources.
   name: Lightstream SourceService API
   slug: lightstream-sourceservice-api
-artifact_total: 15
+artifact_total: 26
 asyncapis:
 - description: Event-driven view of the API.stream Event API. The Event API provides a bidirectional publish/subscribe channel between a partner's backend services, the compositor and connected clients, and also car
   name: API.stream Event API
   slug: lightstream-event-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Event AuthenticationService API
+  slug: open-lightstream-authenticationservice-api
+- collection_type: open
+  name: Event AuthenticationService BackendAuthenticationService API
+  slug: open-lightstream-backendauthenticationservice-api
+- collection_type: open
+  name: Event AuthenticationService CollectionService API
+  slug: open-lightstream-collectionservice-api
+- collection_type: open
+  name: Event AuthenticationService DestinationService API
+  slug: open-lightstream-destinationservice-api
+- collection_type: open
+  name: Event AuthenticationService EventService API
+  slug: open-lightstream-eventservice-api
+- collection_type: open
+  name: Event AuthenticationService LayerService API
+  slug: open-lightstream-layerservice-api
+- collection_type: open
+  name: Event AuthenticationService LayoutService API
+  slug: open-lightstream-layoutservice-api
+- collection_type: open
+  name: Event AuthenticationService ProjectService API
+  slug: open-lightstream-projectservice-api
+- collection_type: open
+  name: Event AuthenticationService PublicAuthenticationService API
+  slug: open-lightstream-publicauthenticationservice-api
+- collection_type: open
+  name: Event AuthenticationService SourceService API
+  slug: open-lightstream-sourceservice-api
 common:
 - group: other
   title: ''
@@ -225,7 +259,7 @@ overview: 'Lightstream publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lightstream''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 108
+random_paper: 145
 score:
   band: developing
   composite: 51.7
@@ -249,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/screenshots/lightstream-2026-07-25T225138.png
 security:

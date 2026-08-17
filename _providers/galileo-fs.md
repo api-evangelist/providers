@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -90,8 +90,35 @@ apis:
 - description: The Risk API from Galileo Financial Technologies — 1 operation(s) for risk.
   name: Galileo Financial Technologies Risk API
   slug: galileo-fs-risk-api
-artifact_total: 24
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Galileo Financial Technologies Pro Config API
+  slug: open-galileo-fs-config-api
+- collection_type: open
+  name: Galileo Financial Technologies Pro Config Dispute API
+  slug: open-galileo-fs-dispute-api
+- collection_type: open
+  name: Galileo Financial Technologies Pro Config Events API
+  slug: open-galileo-fs-events-api
+- collection_type: open
+  name: Galileo Financial Technologies Pro Config ExternalTransactions API
+  slug: open-galileo-fs-externaltransactions-api
+- collection_type: open
+  name: Galileo Financial Technologies Pro Config Loan API
+  slug: open-galileo-fs-loan-api
+- collection_type: open
+  name: Galileo Financial Technologies Pro Config PaymentHub API
+  slug: open-galileo-fs-paymenthub-api
+- collection_type: open
+  name: Galileo Financial Technologies Pro Config Program API
+  slug: open-galileo-fs-program-api
+- collection_type: open
+  name: Galileo Financial Technologies Pro Config Risk API
+  slug: open-galileo-fs-risk-api
 - collection_type: open
   name: Galileo Financial Technologies Pro API
   slug: open-galileo-fs
@@ -152,7 +179,7 @@ plans:
 - name: Galileo Fs Plans Pricing
   plan_count: 1
   slug: galileo-fs-plans-pricing
-random_paper: 35
+random_paper: 101
 rate_limits:
 - limit_count: 2
   name: Galileo Fs Rate Limits
@@ -183,7 +210,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/screenshots/galileo-fs-2026-06-20T181643.png
 security:

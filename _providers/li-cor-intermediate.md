@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The Newa API from LI-COR Intermediate — 1 operation(s) for newa.
   name: LI-COR Intermediate Newa API
   slug: li-cor-intermediate-newa-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HOBOLINK External Data API
+  slug: open-li-cor-intermediate-data-api
+- collection_type: open
+  name: HOBOLINK External Data Newa API
+  slug: open-li-cor-intermediate-newa-api
 common:
 - group: other
   title: ''
@@ -150,7 +160,7 @@ overview: 'LI-COR Intermediate publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   LI-COR Intermediate''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 102
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Li Cor Intermediate Rate Limits
@@ -184,7 +194,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png
 security:

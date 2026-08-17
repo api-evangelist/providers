@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 2
@@ -74,11 +74,51 @@ apis:
 - description: Operations related to system and accounting settings configuration.
   name: Campfire Settings API
   slug: campfire-settings-api
-artifact_total: 18
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Campfire Webhooks
   slug: campfire-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable API
+  slug: open-campfire-accounts-payable-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Accounts Receivable API
+  slug: open-campfire-accounts-receivable-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Bank Reconciliation API
+  slug: open-campfire-bank-reconciliation-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Cash Management API
+  slug: open-campfire-cash-management-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable coa API
+  slug: open-campfire-coa-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Company Objects API
+  slug: open-campfire-company-objects-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Core Accounting API
+  slug: open-campfire-core-accounting-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Custom Fields API
+  slug: open-campfire-custom-fields-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Financial Statements API
+  slug: open-campfire-financial-statements-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Integrations API
+  slug: open-campfire-integrations-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Revenue Recognition API
+  slug: open-campfire-revenue-recognition-api
+- collection_type: open
+  name: Campfire Developer APIs Accounts Payable Settings API
+  slug: open-campfire-settings-api
 common:
 - group: other
   title: ''
@@ -215,7 +255,7 @@ overview: 'Campfire publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Campfire''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
-random_paper: 119
+random_paper: 94
 scopes:
 - name: Campfire Scopes
   scope_count: 3
@@ -244,7 +284,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/screenshots/campfire-2026-07-25T204311.png
 security:

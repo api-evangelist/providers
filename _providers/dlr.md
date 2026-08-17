@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,7 +68,20 @@ apis:
 - description: The STAC API from DLR — 1 operation(s) for stac.
   name: DLR STAC API
   slug: dlr-stac-api
-artifact_total: 21
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EOC EO Products Service Capabilities API
+  slug: open-dlr-capabilities-api
+- collection_type: open
+  name: EOC EO Products Service Capabilities Data API
+  slug: open-dlr-data-api
+- collection_type: open
+  name: EOC EO Products Service Capabilities STAC API
+  slug: open-dlr-stac-api
 common:
 - group: agent
   title: ''
@@ -161,7 +174,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 82
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -201,7 +214,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/screenshots/dlr-2026-06-20T180058.png
 security:

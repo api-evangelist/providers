@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -78,20 +78,62 @@ apis:
 - description: List and deploy pre-configured AI and ML environment templates including PyTorch, TensorFlow, ComfyUI, n8n, and Langflow, all optimized to run on Qubrid GPU instances.
   name: Qubrid AI Templates API
   slug: qubrid-ai-templates-api
-artifact_total: 29
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions API
+  slug: open-qubrid-ai-chat-completions-api
 - collection_type: open
   name: Qubrid AI Compute API
   slug: open-qubrid-ai-compute
 - collection_type: open
+  name: Qubrid AI Compute Chat Completions Datasets API
+  slug: open-qubrid-ai-datasets-api
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions Documents API
+  slug: open-qubrid-ai-documents-api
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions Embeddings API
+  slug: open-qubrid-ai-embeddings-api
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions Fine-Tuned Models API
+  slug: open-qubrid-ai-fine-tuned-models-api
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions Fine-Tuning Jobs API
+  slug: open-qubrid-ai-fine-tuning-jobs-api
+- collection_type: open
   name: Qubrid AI Fine-Tuning API
   slug: open-qubrid-ai-fine-tuning
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions GPU Catalog API
+  slug: open-qubrid-ai-gpu-catalog-api
 - collection_type: open
   name: Qubrid AI Inference API
   slug: open-qubrid-ai-inference
 - collection_type: open
+  name: Qubrid AI Compute Chat Completions Instances API
+  slug: open-qubrid-ai-instances-api
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions Knowledge Bases API
+  slug: open-qubrid-ai-knowledge-bases-api
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions Models API
+  slug: open-qubrid-ai-models-api
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions RAG Queries API
+  slug: open-qubrid-ai-rag-queries-api
+- collection_type: open
   name: Qubrid AI RAG API
   slug: open-qubrid-ai-rag
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions SSH Keys API
+  slug: open-qubrid-ai-ssh-keys-api
+- collection_type: open
+  name: Qubrid AI Compute Chat Completions Templates API
+  slug: open-qubrid-ai-templates-api
 common:
 - group: agent
   title: ''
@@ -178,7 +220,7 @@ plans:
 - name: Qubrid Ai Plans Pricing
   plan_count: 4
   slug: qubrid-ai-plans-pricing
-random_paper: 54
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Qubrid Ai Rate Limits
@@ -212,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/screenshots/qubrid-ai-2026-06-20T192419.png
 security:

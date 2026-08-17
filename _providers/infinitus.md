@@ -9,27 +9,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 23.0
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The customer-gated Infinitus backend API. Infinitus' own AI Agent Security Guide instructs customers to allowlist https://api.infinitusai.com on TCP 443 for "portal and backend API access". Probing co
+  name: Infinitus Platform API
+  slug: platform-api
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -79,42 +83,116 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/infinitus-llms.txt
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://support.infinitus.ai/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/infinitusai
+- group: start
+  title: ''
+  type: Login
+  url: https://customer.infinitusai.com
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/infinitus-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/infinitus-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/infinitus-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/infinitus-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/infinitus-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/infinitus-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/infinitus-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/infinitus-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/infinitus-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/infinitus-rate-limits.yml
 created: '2026-07-17'
-description: Infinitus Systems is a safety-first healthcare voice AI platform that automates outbound and inbound phone calls to patients, payors, and providers for clinical and administrative tasks including benefit verification, prior authorization, prescription follow-up, and patient engagement. Its products include AI Agents (autonomous call handling), AI Copilots (human-assisted tools), Studio (a no-code agent builder), and Lens (conversation analysis and real-time clinical risk detection), backed by a healthcare knowledge graph. Benefit verification can be invoked as individual or bulk requests through an API, and the platform offers a Salesforce integration, though Infinitus does not publish a public developer portal or OpenAPI. The company is backed by GV and Kleiner Perkins.
+description: 'Infinitus Systems is a safety-first healthcare voice AI platform that automates outbound and inbound phone calls to patients, payors, and providers for clinical and administrative tasks including benefit verification, prior authorization, prescription follow-up, and patient engagement. Its products include AI Agents (autonomous call handling), AI Copilots (human-assisted tools), Studio (a no-code agent builder), and Lens (conversation analysis and real-time clinical risk detection), backed by a healthcare knowledge graph. Benefit verifications are submitted individually or in bulk through the customer portal, CSV upload, or a customer-gated REST and GraphQL API at api.infinitusai.com, with a packaged Salesforce Life Sciences Cloud, Health Cloud, and Agentforce integration. Infinitus operates no public developer portal and publishes no OpenAPI: every API endpoint requires an authenticated customer account. It is SOC 2 Type II certified and signs HIPAA Business Associate Agreements.
+  The company is backed by GV and Kleiner Perkins.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infinitus.png
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: infinitus-mcp.yml
+  slug: infinitus-mcpyml
+modified: '2026-08-15'
 name: Infinitus
 nav: Providers
 network: true
-overview: 'Infinitus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Healthcare, Voice AI, and Benefit Verification.
+overview: 'Infinitus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Healthcare, Voice AI, and Benefit Verification.
 
 
-  Infinitus'' developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 25
+  Infinitus'' developer surface includes pricing, engineering blog, support, documentation, authentication, and 20 more developer resources.'
+plans:
+- name: Infinitus Plans Pricing
+  plan_count: 0
+  slug: infinitus-plans-pricing
+random_paper: 91
+rate_limits:
+- limit_count: 0
+  name: Infinitus Rate Limits
+  slug: infinitus-rate-limits
+scopes:
+- name: Infinitus Scopes
+  scope_count: 1
+  slug: infinitus-scopes
+  summary_line: 1 scope · authorizationCode
 score:
-  band: emerging
-  composite: 19.9
-  delta: 0.0
+  band: thin
+  composite: 36.6
+  delta: 16.7
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 10.5
+    developer_ergonomics: 34.8
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 15.8
   previous_composite: 19.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinitus/refs/heads/main/screenshots/infinitus-2026-07-25T222407.png
 security:
+- kind: authentication
+  name: Infinitus Authentication
+  slug: infinitus-authentication
+  summary_line: oauth2/openIdConnect/saml2/http · 0 schemes
 - kind: domain-security
   name: Infinitus Domain Security
   slug: infinitus-domain-security

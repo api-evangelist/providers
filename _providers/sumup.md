@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -70,7 +70,41 @@ apis:
 - description: Transactions represent completed or attempted payment operations processed for a merchant account. A transaction contains the core payment result, such as the amount, currency, payment method, creatio
   name: SumUp Transactions API
   slug: sumup-transactions-api
-artifact_total: 131
+artifact_total: 142
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SumUp REST Checkouts API
+  slug: open-sumup-checkouts-api
+- collection_type: open
+  name: SumUp REST Checkouts Customers API
+  slug: open-sumup-customers-api
+- collection_type: open
+  name: SumUp REST Checkouts Members API
+  slug: open-sumup-members-api
+- collection_type: open
+  name: SumUp REST Checkouts Memberships API
+  slug: open-sumup-memberships-api
+- collection_type: open
+  name: SumUp REST Checkouts Merchants API
+  slug: open-sumup-merchants-api
+- collection_type: open
+  name: SumUp REST Checkouts Payouts API
+  slug: open-sumup-payouts-api
+- collection_type: open
+  name: SumUp REST Checkouts Readers API
+  slug: open-sumup-readers-api
+- collection_type: open
+  name: SumUp REST Checkouts Receipts API
+  slug: open-sumup-receipts-api
+- collection_type: open
+  name: SumUp REST Checkouts Roles API
+  slug: open-sumup-roles-api
+- collection_type: open
+  name: SumUp REST Checkouts Transactions API
+  slug: open-sumup-transactions-api
 common:
 - group: commercial
   title: ''
@@ -509,7 +543,7 @@ plans:
 - name: Sumup Plans Pricing
   plan_count: 5
   slug: sumup-plans-pricing
-random_paper: 90
+random_paper: 123
 rate_limits:
 - limit_count: 1
   name: Sumup Rate Limits
@@ -554,7 +588,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png
 security:

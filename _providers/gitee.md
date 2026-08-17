@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Repository WebHooks (outbound HTTP event callbacks).
   name: Gitee Webhooks API
   slug: gitee-webhooks-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gitee Open API v5 (core subset) Enterprises API
+  slug: open-gitee-enterprises-api
+- collection_type: open
+  name: Gitee Open API v5 (core subset) Enterprises Gists API
+  slug: open-gitee-gists-api
+- collection_type: open
+  name: Gitee Open API v5 (core subset) Enterprises Issues API
+  slug: open-gitee-issues-api
+- collection_type: open
+  name: Gitee Open API v5 (core subset) Enterprises Organizations API
+  slug: open-gitee-organizations-api
+- collection_type: open
+  name: Gitee Open API v5 (core subset) Enterprises Pull Requests API
+  slug: open-gitee-pull-requests-api
+- collection_type: open
+  name: Gitee Open API v5 (core subset) Enterprises Repositories API
+  slug: open-gitee-repositories-api
+- collection_type: open
+  name: Gitee Open API v5 (core subset) Enterprises Search API
+  slug: open-gitee-search-api
+- collection_type: open
+  name: Gitee Open API v5 (core subset) Enterprises Users API
+  slug: open-gitee-users-api
+- collection_type: open
+  name: Gitee Open API v5 (core subset) Enterprises Webhooks API
+  slug: open-gitee-webhooks-api
 - collection_type: open
   name: Gitee Open API v5 (core subset)
   slug: open-gitee
@@ -136,7 +166,7 @@ plans:
 - name: Gitee Plans Pricing
   plan_count: 4
   slug: gitee-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Gitee Rate Limits
@@ -161,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/screenshots/gitee-2026-07-25T215849.png
 security:

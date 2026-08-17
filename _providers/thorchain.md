@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,7 +234,206 @@ apis:
 - description: The .well Known API from THORChain — 3 operation(s) for .well known.
   name: THORChain .well Known API
   slug: thorchain-well-known-api
-artifact_total: 70
+artifact_total: 136
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thornode Auth Actions API
+  slug: open-thorchain-actions-api
+- collection_type: open
+  name: Thornode Auth AGENTS.md API
+  slug: open-thorchain-agents-md-api
+- collection_type: open
+  name: Thornode Auth API
+  slug: open-thorchain-auth-api
+- collection_type: open
+  name: Thornode Auth Balance API
+  slug: open-thorchain-balance-api
+- collection_type: open
+  name: Thornode Auth Bank API
+  slug: open-thorchain-bank-api
+- collection_type: open
+  name: Thornode Auth Block API
+  slug: open-thorchain-block-api
+- collection_type: open
+  name: Thornode Auth Bonds API
+  slug: open-thorchain-bonds-api
+- collection_type: open
+  name: Thornode Auth Borrower API
+  slug: open-thorchain-borrower-api
+- collection_type: open
+  name: Thornode Auth Borrowers API
+  slug: open-thorchain-borrowers-api
+- collection_type: open
+  name: Thornode Auth Churns API
+  slug: open-thorchain-churns-api
+- collection_type: open
+  name: Thornode Auth Clout API
+  slug: open-thorchain-clout-api
+- collection_type: open
+  name: Thornode Auth Codes API
+  slug: open-thorchain-codes-api
+- collection_type: open
+  name: Thornode Auth Dynamic L1 Fees API
+  slug: open-thorchain-dynamic-l1-fees-api
+- collection_type: open
+  name: Thornode Auth Export API
+  slug: open-thorchain-export-api
+- collection_type: open
+  name: Thornode Auth Health API
+  slug: open-thorchain-health-api
+- collection_type: open
+  name: Thornode Auth History API
+  slug: open-thorchain-history-api
+- collection_type: open
+  name: Thornode Auth Holders API
+  slug: open-thorchain-holders-api
+- collection_type: open
+  name: Thornode Auth Invariants API
+  slug: open-thorchain-invariants-api
+- collection_type: open
+  name: Thornode Auth Knownpools API
+  slug: open-thorchain-knownpools-api
+- collection_type: open
+  name: Thornode Auth Limit Order API
+  slug: open-thorchain-limit-order-api
+- collection_type: open
+  name: Thornode Auth Liquidity Providers API
+  slug: open-thorchain-liquidity-providers-api
+- collection_type: open
+  name: Thornode Auth Llms Full.txt API
+  slug: open-thorchain-llms-full-txt-api
+- collection_type: open
+  name: Thornode Auth Llms.txt API
+  slug: open-thorchain-llms-txt-api
+- collection_type: open
+  name: Thornode Auth Mcp API
+  slug: open-thorchain-mcp-api
+- collection_type: open
+  name: Thornode Auth Member API
+  slug: open-thorchain-member-api
+- collection_type: open
+  name: Thornode Auth Members API
+  slug: open-thorchain-members-api
+- collection_type: open
+  name: Thornode Auth Mimir API
+  slug: open-thorchain-mimir-api
+- collection_type: open
+  name: Thornode Auth Network API
+  slug: open-thorchain-network-api
+- collection_type: open
+  name: Thornode Auth Nodes API
+  slug: open-thorchain-nodes-api
+- collection_type: open
+  name: Thornode Auth Oracle API
+  slug: open-thorchain-oracle-api
+- collection_type: open
+  name: Thornode Auth Pool API
+  slug: open-thorchain-pool-api
+- collection_type: open
+  name: Thornode Auth Pools API
+  slug: open-thorchain-pools-api
+- collection_type: open
+  name: Thornode Auth PoolSlip API
+  slug: open-thorchain-poolslip-api
+- collection_type: open
+  name: Thornode Auth Queue API
+  slug: open-thorchain-queue-api
+- collection_type: open
+  name: Thornode Auth Quote API
+  slug: open-thorchain-quote-api
+- collection_type: open
+  name: Thornode Auth Reference Memos API
+  slug: open-thorchain-reference-memos-api
+- collection_type: open
+  name: Thornode Auth Robots.txt API
+  slug: open-thorchain-robots-txt-api
+- collection_type: open
+  name: Thornode Auth RUNE Pool API
+  slug: open-thorchain-rune-pool-api
+- collection_type: open
+  name: Thornode Auth Runepool API
+  slug: open-thorchain-runepool-api
+- collection_type: open
+  name: Thornode Auth Saver API
+  slug: open-thorchain-saver-api
+- collection_type: open
+  name: Thornode Auth Savers API
+  slug: open-thorchain-savers-api
+- collection_type: open
+  name: Thornode Auth SecuredAsset API
+  slug: open-thorchain-securedasset-api
+- collection_type: open
+  name: Thornode Auth SecuredAssets API
+  slug: open-thorchain-securedassets-api
+- collection_type: open
+  name: Thornode Auth Sitemap.xml API
+  slug: open-thorchain-sitemap-xml-api
+- collection_type: open
+  name: Thornode Auth Smart Contracts API
+  slug: open-thorchain-smart-contracts-api
+- collection_type: open
+  name: Thornode Auth Specification API
+  slug: open-thorchain-specification-api
+- collection_type: open
+  name: Thornode Auth Stats API
+  slug: open-thorchain-stats-api
+- collection_type: open
+  name: Thornode Auth StreamingSwap API
+  slug: open-thorchain-streamingswap-api
+- collection_type: open
+  name: Thornode Auth Supply API
+  slug: open-thorchain-supply-api
+- collection_type: open
+  name: Thornode Auth Swap API
+  slug: open-thorchain-swap-api
+- collection_type: open
+  name: Thornode Auth Tcy API
+  slug: open-thorchain-tcy-api
+- collection_type: open
+  name: Thornode Auth TCY Claimers API
+  slug: open-thorchain-tcy-claimers-api
+- collection_type: open
+  name: Thornode Auth TCY Stakers API
+  slug: open-thorchain-tcy-stakers-api
+- collection_type: open
+  name: Thornode Auth THORChain Website Discovery API
+  slug: open-thorchain-thorchain-website-discovery-api
+- collection_type: open
+  name: Thornode Auth Thorname API
+  slug: open-thorchain-thorname-api
+- collection_type: open
+  name: Thornode Auth Thornames API
+  slug: open-thorchain-thornames-api
+- collection_type: open
+  name: Thornode Auth TradeAccount API
+  slug: open-thorchain-tradeaccount-api
+- collection_type: open
+  name: Thornode Auth TradeAccounts API
+  slug: open-thorchain-tradeaccounts-api
+- collection_type: open
+  name: Thornode Auth TradeUnit API
+  slug: open-thorchain-tradeunit-api
+- collection_type: open
+  name: Thornode Auth TradeUnits API
+  slug: open-thorchain-tradeunits-api
+- collection_type: open
+  name: Thornode Auth Transactions API
+  slug: open-thorchain-transactions-api
+- collection_type: open
+  name: Thornode Auth TSS API
+  slug: open-thorchain-tss-api
+- collection_type: open
+  name: Thornode Auth Vaults API
+  slug: open-thorchain-vaults-api
+- collection_type: open
+  name: Thornode Auth Votes API
+  slug: open-thorchain-votes-api
+- collection_type: open
+  name: Thornode Auth .well Known API
+  slug: open-thorchain-well-known-api
 common:
 - group: other
   title: ''
@@ -356,7 +555,7 @@ overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) networ
 
 
   THORChain''s developer surface includes documentation, API reference, support, authentication, and 22 more developer resources.'
-random_paper: 0
+random_paper: 66
 score:
   band: thin
   composite: 40.2
@@ -386,7 +585,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

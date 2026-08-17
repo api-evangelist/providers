@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Julep's agent-commerce surface. The storefront advertises a Universal Commerce Protocol merchant profile and a live JSON-RPC Model Context Protocol endpoint covering catalog search and lookup, cart, d
@@ -47,7 +47,23 @@ apis:
 - description: Storefront product search.
   name: Julep Beauty Search API
   slug: julep-beauty-search-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Julep Storefront Read-Only JSON Cart API
+  slug: open-julep-beauty-cart-api
+- collection_type: open
+  name: Julep Storefront Read-Only JSON Cart Catalog API
+  slug: open-julep-beauty-catalog-api
+- collection_type: open
+  name: Julep Storefront Read-Only JSON Cart Discovery API
+  slug: open-julep-beauty-discovery-api
+- collection_type: open
+  name: Julep Storefront Read-Only JSON Cart Search API
+  slug: open-julep-beauty-search-api
 common:
 - group: other
   title: ''
@@ -165,7 +181,7 @@ overview: 'Julep Beauty publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Julep Beauty''s developer surface includes authentication, documentation, support, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 39
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Julep Beauty Rate Limits
@@ -197,7 +213,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/screenshots/julep-beauty-2026-08-07T171031.png
 security:

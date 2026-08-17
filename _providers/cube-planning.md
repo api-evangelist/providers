@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -164,7 +164,137 @@ apis:
 - description: The Workflow API from Cube Planning — 5 operation(s) for workflow.
   name: Cube Planning Workflow API
   slug: cube-planning-workflow-api
-artifact_total: 48
+artifact_total: 91
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cube Agents API
+  slug: open-cube-planning-agents-api
+- collection_type: open
+  name: Cube Agents Attributes API
+  slug: open-cube-planning-attributes-api
+- collection_type: open
+  name: Cube Agents Audit Trail API
+  slug: open-cube-planning-audit-trail-api
+- collection_type: open
+  name: Cube Agents Auth API
+  slug: open-cube-planning-auth-api
+- collection_type: open
+  name: Cube Agents Authentication API
+  slug: open-cube-planning-authentication-api
+- collection_type: open
+  name: Cube Agents Canvases API
+  slug: open-cube-planning-canvases-api
+- collection_type: open
+  name: Cube Agents ChatMessages API
+  slug: open-cube-planning-chatmessages-api
+- collection_type: open
+  name: Cube Agents ChatSessions API
+  slug: open-cube-planning-chatsessions-api
+- collection_type: open
+  name: Cube Agents ChatSettings API
+  slug: open-cube-planning-chatsettings-api
+- collection_type: open
+  name: Cube Agents Comments API
+  slug: open-cube-planning-comments-api
+- collection_type: open
+  name: Cube Agents Companies API
+  slug: open-cube-planning-companies-api
+- collection_type: open
+  name: Cube Agents Company Groups API
+  slug: open-cube-planning-company-groups-api
+- collection_type: open
+  name: Cube Agents compliance API
+  slug: open-cube-planning-compliance-api
+- collection_type: open
+  name: Cube Agents Connections API
+  slug: open-cube-planning-connections-api
+- collection_type: open
+  name: Cube Agents ContentType API
+  slug: open-cube-planning-contenttype-api
+- collection_type: open
+  name: Agents cube API
+  slug: open-cube-planning-cube-api
+- collection_type: open
+  name: Cube Agents Cube Data API
+  slug: open-cube-planning-cube-data-api
+- collection_type: open
+  name: Cube Agents Cube Value Range API
+  slug: open-cube-planning-cube-value-range-api
+- collection_type: open
+  name: Cube Agents Currencies API
+  slug: open-cube-planning-currencies-api
+- collection_type: open
+  name: Cube Agents Dashboard API
+  slug: open-cube-planning-dashboard-api
+- collection_type: open
+  name: Cube Agents Data Table Uploads API
+  slug: open-cube-planning-data-table-uploads-api
+- collection_type: open
+  name: Cube Agents Data Tables API
+  slug: open-cube-planning-data-tables-api
+- collection_type: open
+  name: Cube Agents Dimensions API
+  slug: open-cube-planning-dimensions-api
+- collection_type: open
+  name: Cube Agents Drilldown API
+  slug: open-cube-planning-drilldown-api
+- collection_type: open
+  name: Cube Agents ERP API
+  slug: open-cube-planning-erp-api
+- collection_type: open
+  name: Cube Agents Events API
+  slug: open-cube-planning-events-api
+- collection_type: open
+  name: Cube Agents Formulas API
+  slug: open-cube-planning-formulas-api
+- collection_type: open
+  name: Cube Agents Integrations API
+  slug: open-cube-planning-integrations-api
+- collection_type: open
+  name: Cube Agents Invitations API
+  slug: open-cube-planning-invitations-api
+- collection_type: open
+  name: Cube Agents Library API
+  slug: open-cube-planning-library-api
+- collection_type: open
+  name: Cube Agents Notifications API
+  slug: open-cube-planning-notifications-api
+- collection_type: open
+  name: Cube Agents Permissions API
+  slug: open-cube-planning-permissions-api
+- collection_type: open
+  name: Cube Agents permissionsets API
+  slug: open-cube-planning-permissionsets-api
+- collection_type: open
+  name: Cube Agents PlanModeSessions API
+  slug: open-cube-planning-planmodesessions-api
+- collection_type: open
+  name: Cube Agents Planning Table API
+  slug: open-cube-planning-planning-table-api
+- collection_type: open
+  name: Cube Agents Scenarios API
+  slug: open-cube-planning-scenarios-api
+- collection_type: open
+  name: Cube Agents Tags API
+  slug: open-cube-planning-tags-api
+- collection_type: open
+  name: Cube Agents Taskflow API
+  slug: open-cube-planning-taskflow-api
+- collection_type: open
+  name: Cube Agents Team API
+  slug: open-cube-planning-team-api
+- collection_type: open
+  name: Cube Agents User API
+  slug: open-cube-planning-user-api
+- collection_type: open
+  name: Cube Agents UserCompanies API
+  slug: open-cube-planning-usercompanies-api
+- collection_type: open
+  name: Cube Agents Workflow API
+  slug: open-cube-planning-workflow-api
 common:
 - group: other
   title: ''
@@ -282,7 +412,7 @@ overview: 'Cube Planning publishes 42 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Cube Planning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 115
+random_paper: 123
 scopes:
 - name: Cube Planning Scopes
   scope_count: 3
@@ -311,7 +441,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/screenshots/cube-planning-2026-07-25T210914.png
 security:

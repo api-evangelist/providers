@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -195,7 +195,7 @@ apis:
 - description: Manage worker (employee and contingent worker) records
   name: Oracle Fusion Cloud Applications Workers API
   slug: oracle-fusion-workers-api
-artifact_total: 230
+artifact_total: 283
 collections:
 - collection_type: postman
   name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences API
@@ -354,26 +354,185 @@ collections:
   name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Workers API
   slug: postman-oracle-fusion-workers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences API
+  slug: open-oracle-fusion-absences-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Access Groups API
+  slug: open-oracle-fusion-access-groups-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Accounts API
+  slug: open-oracle-fusion-accounts-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Accounts Receivable API
+  slug: open-oracle-fusion-accounts-receivable-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Activities API
+  slug: open-oracle-fusion-activities-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Announcements API
+  slug: open-oracle-fusion-announcements-api
+- collection_type: open
+  name: Oracle Fusion Cloud Oracle Fusion Common Features REST Absences Applications API
+  slug: open-oracle-fusion-applications-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Assignments API
+  slug: open-oracle-fusion-assignments-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Audit API
+  slug: open-oracle-fusion-audit-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Award Budgets API
+  slug: open-oracle-fusion-award-budgets-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Awards API
+  slug: open-oracle-fusion-awards-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Budgetary Control API
+  slug: open-oracle-fusion-budgetary-control-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Cash Management API
+  slug: open-oracle-fusion-cash-management-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Change Orders API
+  slug: open-oracle-fusion-change-orders-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Common Lookups API
+  slug: open-oracle-fusion-common-lookups-api
+- collection_type: open
   name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST API
   slug: open-oracle-fusion-common
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Compensation API
+  slug: open-oracle-fusion-compensation-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Contacts API
+  slug: open-oracle-fusion-contacts-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Currency Rates API
+  slug: open-oracle-fusion-currency-rates-api
 - collection_type: open
   name: Oracle Fusion Cloud Applications Oracle Fusion CX Sales and Fusion Service REST API
   slug: open-oracle-fusion-cx-sales
 - collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Data Management API
+  slug: open-oracle-fusion-data-management-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Deliverables API
+  slug: open-oracle-fusion-deliverables-api
+- collection_type: open
   name: Oracle Fusion Cloud Applications Oracle Fusion EPM REST API
   slug: open-oracle-fusion-epm
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences ERP Integrations API
+  slug: open-oracle-fusion-erp-integrations-api
 - collection_type: open
   name: Oracle Fusion Cloud Applications Oracle Fusion Cloud ERP REST API
   slug: open-oracle-fusion-erp
 - collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Expenditure Types API
+  slug: open-oracle-fusion-expenditure-types-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Expense Reports API
+  slug: open-oracle-fusion-expense-reports-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common REST Absences Features API
+  slug: open-oracle-fusion-features-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Financial Project Plans API
+  slug: open-oracle-fusion-financial-project-plans-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences General Ledger API
+  slug: open-oracle-fusion-general-ledger-api
+- collection_type: open
   name: Oracle Fusion Cloud Applications Oracle Fusion Cloud HCM REST API
   slug: open-oracle-fusion-hcm
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Inventory API
+  slug: open-oracle-fusion-inventory-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Invoices API
+  slug: open-oracle-fusion-invoices-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Items API
+  slug: open-oracle-fusion-items-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Jobs API
+  slug: open-oracle-fusion-jobs-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Leads API
+  slug: open-oracle-fusion-leads-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Learning API
+  slug: open-oracle-fusion-learning-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Manage Tasks API
+  slug: open-oracle-fusion-manage-tasks-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Migration API
+  slug: open-oracle-fusion-migration-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Opportunities API
+  slug: open-oracle-fusion-opportunities-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Payments API
+  slug: open-oracle-fusion-payments-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Payroll API
+  slug: open-oracle-fusion-payroll-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Persons API
+  slug: open-oracle-fusion-persons-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Planning API
+  slug: open-oracle-fusion-planning-api
 - collection_type: open
   name: Oracle Fusion Cloud Applications Oracle Fusion Project Management REST API
   slug: open-oracle-fusion-project-management
 - collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Project Tasks API
+  slug: open-oracle-fusion-project-tasks-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Projects API
+  slug: open-oracle-fusion-projects-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Purchase Orders API
+  slug: open-oracle-fusion-purchase-orders-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Recruiting API
+  slug: open-oracle-fusion-recruiting-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Roles API
+  slug: open-oracle-fusion-roles-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Sales Orders API
+  slug: open-oracle-fusion-sales-orders-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Scheduled Processes API
+  slug: open-oracle-fusion-scheduled-processes-api
+- collection_type: open
   name: Oracle Fusion Cloud Applications Oracle Fusion Cloud SCM REST API
   slug: open-oracle-fusion-scm
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Service Requests API
+  slug: open-oracle-fusion-service-requests-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Shipments API
+  slug: open-oracle-fusion-shipments-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Suppliers API
+  slug: open-oracle-fusion-suppliers-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Talent Profiles API
+  slug: open-oracle-fusion-talent-profiles-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Work Orders API
+  slug: open-oracle-fusion-work-orders-api
+- collection_type: open
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Workers API
+  slug: open-oracle-fusion-workers-api
 common:
 - group: build
   title: ''
@@ -822,7 +981,7 @@ plans:
 - name: Oracle Fusion Plans Pricing
   plan_count: 2
   slug: oracle-fusion-plans-pricing
-random_paper: 15
+random_paper: 143
 rate_limits:
 - limit_count: 3
   name: Oracle Fusion Rate Limits
@@ -856,7 +1015,7 @@ score:
       marker_coverage: 0.0
       total: 52
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/screenshots/oracle-fusion-2026-06-20T191134.png
 security:

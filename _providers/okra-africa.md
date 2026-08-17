@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: Billing wallet used to fund API usage.
   name: Okra Wallet API
   slug: okra-africa-wallet-api
-artifact_total: 19
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Okra API (Historical) Accounts API
+  slug: open-okra-africa-accounts-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Auth API
+  slug: open-okra-africa-auth-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Balance API
+  slug: open-okra-africa-balance-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Banks API
+  slug: open-okra-africa-banks-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Customers API
+  slug: open-okra-africa-customers-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Identity API
+  slug: open-okra-africa-identity-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Income API
+  slug: open-okra-africa-income-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Payments API
+  slug: open-okra-africa-payments-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Reports API
+  slug: open-okra-africa-reports-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Transactions API
+  slug: open-okra-africa-transactions-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Verification API
+  slug: open-okra-africa-verification-api
+- collection_type: open
+  name: Okra API (Historical) Accounts Wallet API
+  slug: open-okra-africa-wallet-api
 - collection_type: open
   name: Okra API (Historical)
   slug: open-okra-africa
@@ -141,7 +180,7 @@ plans:
 - name: Okra Africa Plans Pricing
   plan_count: 4
   slug: okra-africa-plans-pricing
-random_paper: 8
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Okra Africa Rate Limits
@@ -172,7 +211,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/screenshots/okra-africa-2026-08-07T190057.png
 security:

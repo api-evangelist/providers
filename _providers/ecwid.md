@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: The Profile API from Ecwid by Lightspeed — 1 operation(s) for profile.
   name: Ecwid by Lightspeed Profile API
   slug: ecwid-profile-api
-artifact_total: 11
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ecwid REST Categories API
+  slug: open-ecwid-categories-api
+- collection_type: open
+  name: Ecwid REST Categories Customers API
+  slug: open-ecwid-customers-api
+- collection_type: open
+  name: Ecwid REST Categories Discount Coupons API
+  slug: open-ecwid-discount-coupons-api
+- collection_type: open
+  name: Ecwid REST Categories Orders API
+  slug: open-ecwid-orders-api
+- collection_type: open
+  name: Ecwid REST Categories Products API
+  slug: open-ecwid-products-api
+- collection_type: open
+  name: Ecwid REST Categories Profile API
+  slug: open-ecwid-profile-api
 - collection_type: open
   name: Ecwid REST API
   slug: open-ecwid
@@ -129,7 +150,7 @@ overview: 'Ecwid by Lightspeed publishes 6 APIs on the [APIs.io](https://apis.io
 
 
   Ecwid by Lightspeed''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 44
+random_paper: 77
 score:
   band: thin
   composite: 35.1
@@ -150,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/screenshots/ecwid-2026-06-20T180440.png
 security:

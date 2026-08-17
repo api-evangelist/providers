@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 69
 apis:
 - description: An action is a specific follow-up measure that is associated with an identified issue. You can add actions and assign action owners. You can also set up reminders for yourself to retest issues or trac
@@ -238,7 +238,218 @@ apis:
 - description: Workflows contain a set of statuses that a certain item belonging to that workflow can be in. Any items in this workflow can move between certain statuses and the transition can trigger certain events
   name: Wegalvanize Workflows in Asset Inventory/Asset Manager API
   slug: wegalvanize-workflows-in-asset-inventory-asset-manager-api
-artifact_total: 74
+artifact_total: 144
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HighBond API Reference Actions API
+  slug: open-wegalvanize-actions-api
+- collection_type: open
+  name: HighBond API Reference Actions Activities API
+  slug: open-wegalvanize-activities-api
+- collection_type: open
+  name: HighBond API Reference Actions Analyses API
+  slug: open-wegalvanize-analyses-api
+- collection_type: open
+  name: HighBond API Reference Actions Attachments API
+  slug: open-wegalvanize-attachments-api
+- collection_type: open
+  name: HighBond API Reference Actions Collaborators API
+  slug: open-wegalvanize-collaborators-api
+- collection_type: open
+  name: HighBond API Reference Actions Collections API
+  slug: open-wegalvanize-collections-api
+- collection_type: open
+  name: HighBond API Reference Actions Compliance Maps API
+  slug: open-wegalvanize-compliance-maps-api
+- collection_type: open
+  name: HighBond API Reference Actions Control performance schedules API
+  slug: open-wegalvanize-control-performance-schedules-api
+- collection_type: open
+  name: HighBond API Reference Actions Control test plans API
+  slug: open-wegalvanize-control-test-plans-api
+- collection_type: open
+  name: HighBond API Reference Actions Control tests API
+  slug: open-wegalvanize-control-tests-api
+- collection_type: open
+  name: HighBond API Reference Actions Controls API
+  slug: open-wegalvanize-controls-api
+- collection_type: open
+  name: HighBond API Reference Actions Custom attributes API
+  slug: open-wegalvanize-custom-attributes-api
+- collection_type: open
+  name: HighBond API Reference Actions Entities API
+  slug: open-wegalvanize-entities-api
+- collection_type: open
+  name: HighBond API Reference Actions Event Reports API
+  slug: open-wegalvanize-event-reports-api
+- collection_type: open
+  name: HighBond API Reference Actions Events API
+  slug: open-wegalvanize-events-api
+- collection_type: open
+  name: HighBond API Reference Actions Extract API
+  slug: open-wegalvanize-extract-api
+- collection_type: open
+  name: HighBond API Reference Actions Flow Key API
+  slug: open-wegalvanize-flow-key-api
+- collection_type: open
+  name: HighBond API Reference Actions Frameworks API
+  slug: open-wegalvanize-frameworks-api
+- collection_type: open
+  name: HighBond API Reference Actions Groups API
+  slug: open-wegalvanize-groups-api
+- collection_type: open
+  name: HighBond API Reference Actions Handlers API
+  slug: open-wegalvanize-handlers-api
+- collection_type: open
+  name: HighBond API Reference Actions Importer API
+  slug: open-wegalvanize-importer-api
+- collection_type: open
+  name: HighBond API Reference Actions Interpretations API
+  slug: open-wegalvanize-interpretations-api
+- collection_type: open
+  name: HighBond API Reference Actions Issues API
+  slug: open-wegalvanize-issues-api
+- collection_type: open
+  name: HighBond API Reference Actions Metrics API
+  slug: open-wegalvanize-metrics-api
+- collection_type: open
+  name: HighBond API Reference Actions Mitigations API
+  slug: open-wegalvanize-mitigations-api
+- collection_type: open
+  name: HighBond API Reference Actions Narratives API
+  slug: open-wegalvanize-narratives-api
+- collection_type: open
+  name: HighBond API Reference Actions Non-project time categories API
+  slug: open-wegalvanize-non-project-time-categories-api
+- collection_type: open
+  name: HighBond API Reference Actions Objectives API
+  slug: open-wegalvanize-objectives-api
+- collection_type: open
+  name: HighBond API Reference Actions Planning files API
+  slug: open-wegalvanize-planning-files-api
+- collection_type: open
+  name: HighBond API Reference Actions Project types API
+  slug: open-wegalvanize-project-types-api
+- collection_type: open
+  name: HighBond API Reference Actions Projects API
+  slug: open-wegalvanize-projects-api
+- collection_type: open
+  name: HighBond API Reference Actions Questionnaires API
+  slug: open-wegalvanize-questionnaires-api
+- collection_type: open
+  name: HighBond API Reference Actions Record columns API
+  slug: open-wegalvanize-record-columns-api
+- collection_type: open
+  name: HighBond API Reference Actions Record statuses API
+  slug: open-wegalvanize-record-statuses-api
+- collection_type: open
+  name: HighBond API Reference Actions Records API
+  slug: open-wegalvanize-records-api
+- collection_type: open
+  name: HighBond API Reference Actions Request item statuses API
+  slug: open-wegalvanize-request-item-statuses-api
+- collection_type: open
+  name: HighBond API Reference Actions Request Items API
+  slug: open-wegalvanize-request-items-api
+- collection_type: open
+  name: HighBond API Reference Actions Results files API
+  slug: open-wegalvanize-results-files-api
+- collection_type: open
+  name: HighBond API Reference Actions Results Triggers API
+  slug: open-wegalvanize-results-triggers-api
+- collection_type: open
+  name: HighBond API Reference Actions Results Users API
+  slug: open-wegalvanize-results-users-api
+- collection_type: open
+  name: HighBond API Reference Actions Risks API
+  slug: open-wegalvanize-risks-api
+- collection_type: open
+  name: HighBond API Reference Actions Robot Activations API
+  slug: open-wegalvanize-robot-activations-api
+- collection_type: open
+  name: HighBond API Reference Actions Robot Apps API
+  slug: open-wegalvanize-robot-apps-api
+- collection_type: open
+  name: HighBond API Reference Actions Robot Collaborators API
+  slug: open-wegalvanize-robot-collaborators-api
+- collection_type: open
+  name: HighBond API Reference Actions Robot Files API
+  slug: open-wegalvanize-robot-files-api
+- collection_type: open
+  name: HighBond API Reference Actions Robot Jobs API
+  slug: open-wegalvanize-robot-jobs-api
+- collection_type: open
+  name: HighBond API Reference Actions Robot Script Versions API
+  slug: open-wegalvanize-robot-script-versions-api
+- collection_type: open
+  name: HighBond API Reference Actions Robot Tasks API
+  slug: open-wegalvanize-robot-tasks-api
+- collection_type: open
+  name: HighBond API Reference Actions Robot Users API
+  slug: open-wegalvanize-robot-users-api
+- collection_type: open
+  name: HighBond API Reference Actions Robot Working Files API
+  slug: open-wegalvanize-robot-working-files-api
+- collection_type: open
+  name: HighBond API Reference Actions Robots Agents API
+  slug: open-wegalvanize-robots-agents-api
+- collection_type: open
+  name: HighBond API Reference Actions Robots API
+  slug: open-wegalvanize-robots-api
+- collection_type: open
+  name: HighBond API Reference Actions Robots Folders API
+  slug: open-wegalvanize-robots-folders-api
+- collection_type: open
+  name: HighBond API Reference Actions Robots Folders Collaborators API
+  slug: open-wegalvanize-robots-folders-collaborators-api
+- collection_type: open
+  name: HighBond API Reference Actions Scheduled Hours API
+  slug: open-wegalvanize-scheduled-hours-api
+- collection_type: open
+  name: HighBond API Reference Actions Scheduled Projects API
+  slug: open-wegalvanize-scheduled-projects-api
+- collection_type: open
+  name: HighBond API Reference Actions Scheduled Users API
+  slug: open-wegalvanize-scheduled-users-api
+- collection_type: open
+  name: HighBond API Reference Actions Sign-offs API
+  slug: open-wegalvanize-sign-offs-api
+- collection_type: open
+  name: HighBond API Reference Actions Storyboards API
+  slug: open-wegalvanize-storyboards-api
+- collection_type: open
+  name: HighBond API Reference Actions Strategy API
+  slug: open-wegalvanize-strategy-api
+- collection_type: open
+  name: HighBond API Reference Actions Surveys API
+  slug: open-wegalvanize-surveys-api
+- collection_type: open
+  name: HighBond API Reference Actions Table columns API
+  slug: open-wegalvanize-table-columns-api
+- collection_type: open
+  name: HighBond API Reference Actions Tables API
+  slug: open-wegalvanize-tables-api
+- collection_type: open
+  name: HighBond API Reference Actions Time entries API
+  slug: open-wegalvanize-time-entries-api
+- collection_type: open
+  name: HighBond API Reference Actions To-dos API
+  slug: open-wegalvanize-to-dos-api
+- collection_type: open
+  name: HighBond API Reference Actions Users API
+  slug: open-wegalvanize-users-api
+- collection_type: open
+  name: HighBond API Reference Actions Walkthroughs API
+  slug: open-wegalvanize-walkthroughs-api
+- collection_type: open
+  name: HighBond API Reference Actions Workflow Groups API
+  slug: open-wegalvanize-workflow-groups-api
+- collection_type: open
+  name: HighBond API Reference Actions Workflows in Asset Inventory/Asset Manager API
+  slug: open-wegalvanize-workflows-in-asset-inventory-asset-manager-api
 common:
 - group: other
   title: ''
@@ -356,7 +567,7 @@ overview: 'Wegalvanize publishes 69 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Wegalvanize''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 20 more developer resources.'
-random_paper: 101
+random_paper: 138
 scopes:
 - name: Wegalvanize Scopes
   scope_count: 7
@@ -384,7 +595,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

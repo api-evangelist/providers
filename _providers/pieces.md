@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -62,12 +62,39 @@ apis:
 - description: Health and version of the local Pieces OS instance.
   name: Pieces Well Known API
   slug: pieces-well-known-api
-artifact_total: 16
+artifact_total: 25
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Pieces Copilot **QGPT streaming** surface. Pieces runs **on-device**. Pieces OS is a local process that serves its API over the loopback interface at `http://localhost:'
   name: Pieces Copilot (QGPT) Streaming (On-Device WebSocket)
   slug: pieces-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pieces OS Local Applications API
+  slug: open-pieces-applications-api
+- collection_type: open
+  name: Pieces OS Local Applications Assets API
+  slug: open-pieces-assets-api
+- collection_type: open
+  name: Pieces OS Local Applications Conversations API
+  slug: open-pieces-conversations-api
+- collection_type: open
+  name: Pieces OS Local Applications Formats API
+  slug: open-pieces-formats-api
+- collection_type: open
+  name: Pieces OS Local Applications Models API
+  slug: open-pieces-models-api
+- collection_type: open
+  name: Pieces OS Local Applications QGPT API
+  slug: open-pieces-qgpt-api
+- collection_type: open
+  name: Pieces OS Local Applications User API
+  slug: open-pieces-user-api
+- collection_type: open
+  name: Pieces OS Local Applications Well Known API
+  slug: open-pieces-well-known-api
 - collection_type: open
   name: Pieces OS Local API
   slug: open-pieces
@@ -135,7 +162,7 @@ plans:
 - name: Pieces Plans Pricing
   plan_count: 3
   slug: pieces-plans-pricing
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Pieces Rate Limits
@@ -169,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/screenshots/pieces-2026-06-20T191813.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: 'The CIP Kernel is a Super Long-Term Support (SLTS) Linux kernel branch maintained for ten or more years, providing a stable base for industrial systems that must remain in service across multi-decade '
@@ -120,7 +120,7 @@ plans:
 - name: Civil Infrastructure Platform Plans Pricing
   plan_count: 3
   slug: civil-infrastructure-platform-plans-pricing
-random_paper: 31
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Civil Infrastructure Platform Rate Limits
@@ -147,7 +147,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/screenshots/civil-infrastructure-platform-2026-06-20T174430.png
 security:

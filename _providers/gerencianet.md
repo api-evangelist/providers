@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -184,7 +184,7 @@ arazzos:
 - description: Schedule a recurring CNAB statement job and confirm it is registered.
   name: Efí CNAB Statement Schedule
   slug: gerencianet-statement-schedule-workflow
-artifact_total: 109
+artifact_total: 146
 collections:
 - collection_type: postman
   name: Efí Pay Cobranças API
@@ -205,6 +205,9 @@ collections:
   name: Efí Pay Pix API
   slug: postman-efi-pix
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Efí Pay Cobranças API
   slug: open-efi-cobrancas
 - collection_type: open
@@ -222,6 +225,114 @@ collections:
 - collection_type: open
   name: Efí Pay Pix API
   slug: open-efi-pix
+- collection_type: open
+  name: Efí Pay Cobranças Account API
+  slug: open-gerencianet-account-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Accounts API
+  slug: open-gerencianet-accounts-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Authorization API
+  slug: open-gerencianet-authorization-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Automatic Charges API
+  slug: open-gerencianet-automatic-charges-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Automatic Pix API
+  slug: open-gerencianet-automatic-pix-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Bill Payments API
+  slug: open-gerencianet-bill-payments-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Biometric Pix API
+  slug: open-gerencianet-biometric-pix-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Card Payments API
+  slug: open-gerencianet-card-payments-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Carnets API
+  slug: open-gerencianet-carnets-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Charges API
+  slug: open-gerencianet-charges-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Configuration API
+  slug: open-gerencianet-configuration-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Devolutions API
+  slug: open-gerencianet-devolutions-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Due Charge Batches API
+  slug: open-gerencianet-due-charge-batches-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Due Charges API
+  slug: open-gerencianet-due-charges-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Immediate Charges API
+  slug: open-gerencianet-immediate-charges-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Immediate Pix API
+  slug: open-gerencianet-immediate-pix-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Locations API
+  slug: open-gerencianet-locations-api
+- collection_type: open
+  name: Efí Pay Cobranças Account MED Infractions API
+  slug: open-gerencianet-med-infractions-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Notifications API
+  slug: open-gerencianet-notifications-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Participants API
+  slug: open-gerencianet-participants-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Payment Links API
+  slug: open-gerencianet-payment-links-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Pix Keys API
+  slug: open-gerencianet-pix-keys-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Pix Send API
+  slug: open-gerencianet-pix-send-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Plans API
+  slug: open-gerencianet-plans-api
+- collection_type: open
+  name: Efí Pay Cobranças Account QR Codes API
+  slug: open-gerencianet-qr-codes-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Receipts API
+  slug: open-gerencianet-receipts-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Received Pix API
+  slug: open-gerencianet-received-pix-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Recurring Pix API
+  slug: open-gerencianet-recurring-pix-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Reports API
+  slug: open-gerencianet-reports-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Scheduled Pix API
+  slug: open-gerencianet-scheduled-pix-api
+- collection_type: open
+  name: Efí Pay Cobranças Account SFTP API
+  slug: open-gerencianet-sftp-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Splits API
+  slug: open-gerencianet-splits-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Statement Files API
+  slug: open-gerencianet-statement-files-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Statement Schedules API
+  slug: open-gerencianet-statement-schedules-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Subscriptions API
+  slug: open-gerencianet-subscriptions-api
+- collection_type: open
+  name: Efí Pay Cobranças Account Webhooks API
+  slug: open-gerencianet-webhooks-api
 common:
 - group: agent
   title: ''
@@ -546,7 +657,7 @@ plans:
 - name: Gerencianet Plans Pricing
   plan_count: 5
   slug: gerencianet-plans-pricing
-random_paper: 77
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Gerencianet Rate Limits
@@ -599,7 +710,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png
 security:

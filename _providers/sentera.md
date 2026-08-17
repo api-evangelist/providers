@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: The GraphQL API from Sentera — 1 operation(s) for graphql.
   name: Sentera GraphQL API
   slug: sentera-graphql-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sentera FieldAgent GraphQL API
+  slug: open-sentera-graphql-api
 - collection_type: open
   name: Sentera FieldAgent API
   slug: open-sentera
@@ -112,7 +118,7 @@ plans:
 - name: Sentera Plans Pricing
   plan_count: 3
   slug: sentera-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Sentera Rate Limits
@@ -137,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/screenshots/sentera-2026-06-20T193707.png
 security:

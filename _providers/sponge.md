@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -75,7 +75,41 @@ arazzos:
 - description: Read wallet balances, send an EVM transfer, then poll transaction status.
   name: Sponge — check balance, transfer, and confirm
   slug: sponge-transfer-and-confirm
-artifact_total: 17
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sponge public Agents API
+  slug: open-sponge-agents-api
+- collection_type: open
+  name: Sponge public Agents Cards API
+  slug: open-sponge-cards-api
+- collection_type: open
+  name: Sponge public Agents Fiat API
+  slug: open-sponge-fiat-api
+- collection_type: open
+  name: Sponge public Agents MPP API
+  slug: open-sponge-mpp-api
+- collection_type: open
+  name: Sponge public Agents Payments API
+  slug: open-sponge-payments-api
+- collection_type: open
+  name: Sponge public Agents Secrets API
+  slug: open-sponge-secrets-api
+- collection_type: open
+  name: Sponge public Agents Sponge Card API
+  slug: open-sponge-sponge-card-api
+- collection_type: open
+  name: Sponge public Agents Trading API
+  slug: open-sponge-trading-api
+- collection_type: open
+  name: Sponge public Agents Transfers API
+  slug: open-sponge-transfers-api
+- collection_type: open
+  name: Sponge public Agents Wallet API
+  slug: open-sponge-wallet-api
 common:
 - group: other
   title: ''
@@ -205,7 +239,7 @@ overview: 'Sponge publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sponge''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, CLI, sandbox, and 21 more developer resources.'
-random_paper: 52
+random_paper: 56
 scopes:
 - name: Sponge Scopes
   scope_count: 5
@@ -240,7 +274,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

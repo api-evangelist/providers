@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Integration with P&G supply chain operations.
   name: Procter & Gamble Supply Chain API
   slug: procter-and-gamble-supply-chain-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Procter & Gamble API Marketplace
   slug: open-procter-and-gamble-api-marketplace
+- collection_type: open
+  name: Procter & Gamble API Marketplace Orders API
+  slug: open-procter-and-gamble-orders-api
+- collection_type: open
+  name: Procter & Gamble API Marketplace Orders Products API
+  slug: open-procter-and-gamble-products-api
+- collection_type: open
+  name: Procter & Gamble API Marketplace Orders Supply Chain API
+  slug: open-procter-and-gamble-supply-chain-api
 common:
 - group: agent
   title: ''
@@ -110,7 +122,7 @@ press:
 - date: '2026-05-25'
   title: How Procter & Gamble is Leveraging AI to Democratize ...
   url: https://www.youtube.com/watch?v=DjxguIe1tqc
-random_paper: 100
+random_paper: 141
 rate_limits:
 - limit_count: 1
   name: Procter And Gamble Rate Limits
@@ -135,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/screenshots/procter-and-gamble-2026-06-20T192133.png
 security:

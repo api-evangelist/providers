@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Organizational containers that scope templates and contracts.
   name: Oneflow Workspaces API
   slug: oneflow-workspaces-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oneflow Public Comments API
+  slug: open-oneflow-comments-api
+- collection_type: open
+  name: Oneflow Public Comments Contract Files API
+  slug: open-oneflow-contract-files-api
+- collection_type: open
+  name: Oneflow Public Comments Contracts API
+  slug: open-oneflow-contracts-api
+- collection_type: open
+  name: Oneflow Public Comments Data Fields API
+  slug: open-oneflow-data-fields-api
+- collection_type: open
+  name: Oneflow Public Comments Participants API
+  slug: open-oneflow-participants-api
+- collection_type: open
+  name: Oneflow Public Comments Parties API
+  slug: open-oneflow-parties-api
+- collection_type: open
+  name: Oneflow Public Comments Ping API
+  slug: open-oneflow-ping-api
+- collection_type: open
+  name: Oneflow Public Comments Templates API
+  slug: open-oneflow-templates-api
+- collection_type: open
+  name: Oneflow Public Comments Users API
+  slug: open-oneflow-users-api
+- collection_type: open
+  name: Oneflow Public Comments Webhooks API
+  slug: open-oneflow-webhooks-api
+- collection_type: open
+  name: Oneflow Public Comments Workspaces API
+  slug: open-oneflow-workspaces-api
 - collection_type: open
   name: Oneflow Public API
   slug: open-oneflow
@@ -138,7 +174,7 @@ plans:
 - name: Oneflow Plans Pricing
   plan_count: 4
   slug: oneflow-plans-pricing
-random_paper: 42
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Oneflow Rate Limits
@@ -163,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/screenshots/oneflow-2026-08-07T190311.png
 security:

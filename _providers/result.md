@@ -1,83 +1,217 @@
 ---
 access_model:
-  confidence: medium
-  label: Requires approval
-  onboarding: approval
-  pricing: unknown
-  public: false
-  source: []
+  confidence: high
+  label: Paid subscription, self-service sign-up
+  onboarding: unknown
+  pricing: paid
+  public: true
+  source:
+  - https://result.dev/pricing
+  - https://docs.result.dev/
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 3
+apis:
+- description: Remote Model Context Protocol server exposing 74 tools across six categories (plan and operate, build and ship, Company Brain, audience growth, sell and support, run the company) — the same tools Resu
+  name: Result MCP Server
+  slug: result-mcp-server
+- description: 'Hosted application backend consumed through the first-party @resultdev/sdk client and administered with @resultdev/cli: PostgREST-style queries against Postgres with row-level security, Google/GitHub '
+  name: Result Backend
+  slug: result-backend
+- description: Embeddable customer-support launcher, loaded either as a plain script tag from https://result.dev/widget.js with a data-support handle or via @resultdev/sdk support.mount(). It opens the business's ow
+  name: Result Support Widget
+  slug: result-support-widget
+artifact_total: 9
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/result-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://result.dev/
 - group: start
   title: ''
+  type: DeveloperPortal
+  url: https://docs.result.dev/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.result.dev/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.result.dev/cli/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.result.dev/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://result.dev/pricing
+- group: start
+  title: ''
   type: SignUp
-  url: https://result.dev/
+  url: https://result.dev/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://result.dev/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://result.dev/privacy
+- group: other
+  title: ''
+  type: RefundPolicy
+  url: https://result.dev/refund
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/result-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/result-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/result-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/result-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/result-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/result-components.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/result-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/result-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/result-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/result-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/result-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/result-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/result-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/result-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/result-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/result-conformance.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/result-well-known.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/result-domain-security.yml
 created: '2026-07-17'
-description: Result is a Y Combinator (Spring 2026) all-in-one business operating system that lets internet entrepreneurs start and run companies end-to-end. The platform unifies app development with built-in payments, AI-powered marketing and content creation, automated customer support, financial analytics, branding and design tools, market research, SEO optimization, legal incorporation, and investor fundraising into a single surface, tied together by a "Company Brain" that retains business context from day one. Founded by Aaryan Kushwah (CEO) and Savio Martin (CTO), the product is in private beta with a public waitlist and does not yet publish a developer/API surface.
+description: 'Result is a Y Combinator (Spring 2026) all-in-one business operating system, operated by Foundative Inc. (a Delaware corporation), that lets internet entrepreneurs start and run companies end-to-end. The platform unifies app development with built-in payments, AI-powered marketing and content creation, automated customer support, financial analytics, branding and design tools, market research, SEO optimization, legal incorporation, and investor fundraising into a single surface, tied together by a "Company Brain" that retains business context from day one. Result ships a real developer surface on top of that product: Result Backend is a hosted app backend (Postgres with row-level security, Google/GitHub and email-password auth, file storage, WebSocket realtime channels with presence, serverless Deno functions, hosted AI chat/embeddings/ image models, transactional email, cookieless web analytics, embedded customer support and Paddle-backed payments) consumed through the first-party
+  @resultdev/sdk client and the @resultdev/cli admin CLI. Result also operates a remote, OAuth-protected Model Context Protocol server at https://api.result.dev/mcp exposing 74 tools across six categories, so coding agents and MCP clients can plan, build, publish, sell and support a business through the same validated tool surface the product uses internally. Founded by Aaryan Kushwah (CEO) and Savio Martin (CTO).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/result.png
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: result-mcp.yml
+  slug: result-mcpyml
+modified: '2026-08-13'
 name: Result
 nav: Providers
 network: true
-overview: 'Result is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Operations, SaaS, Entrepreneurship, and Payments.
+overview: 'Result publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Operations, SaaS, Entrepreneurship, and Payments.
 
 
-  Result''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 71
+  Result''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 21 more developer resources.'
+plans:
+- name: Result Plans Pricing
+  plan_count: 3
+  slug: result-plans-pricing
+random_paper: 75
+rate_limits:
+- limit_count: 2
+  name: Result Rate Limits
+  slug: result-rate-limits
+scopes:
+- name: Result Scopes
+  scope_count: 1
+  slug: result-scopes
+  summary_line: 1 scope · authorizationCode
 score:
-  band: minimal
-  composite: 7.9
-  delta: 0.0
+  band: developing
+  composite: 45.2
+  delta: 37.3
   facets:
-    commercial_clarity: 13.2
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 21.1
   previous_composite: 7.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 9.4
+    score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Result Authentication
+  slug: result-authentication
+  summary_line: apiKey/http/oauth2 · 4 schemes
 - kind: domain-security
   name: Result Domain Security
   slug: result-domain-security
@@ -93,5 +227,13 @@ tags:
 - No-Code
 - Startups
 - Artificial Intelligence
+- Backend as a Service
+- Model Context Protocol
+- Agents
+- Database
+- Authentication
+- Storage
+- Serverless
+- Realtime
 website: https://result.dev/
 ---

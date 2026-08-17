@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'SPP''s officially documented programmatic interface to its public data. The SPP Public Data Access guide (v3.0, July 2023) names FTP as the programmatic access path for Integrated Marketplace, Western '
@@ -51,7 +51,11 @@ apis:
 - description: The SOAP web and notification services market participants use to submit offers and bids and retrieve results from the SPP Integrated Marketplace, with WEIS Markets Web Service as the western equivale
   name: SPP Integrated Marketplace Markets Web Service
   slug: spp-integrated-marketplace-web-services
-artifact_total: 13
+artifact_total: 14
+collections:
+- collection_type: open
+  name: Transmission Ratings and Operating Limits Information Exchange (TROLIE)
+  slug: open-trolie-standard
 common:
 - group: auth
   title: ''
@@ -188,7 +192,7 @@ overview: 'Southwest Power Pool publishes 1 API on the [APIs.io](https://apis.io
 
 
   Southwest Power Pool''s developer surface includes authentication, sandbox, code examples, developer portal, documentation, getting-started guide, signup flow, and 21 more developer resources.'
-random_paper: 99
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Spp Rate Limits
@@ -225,7 +229,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

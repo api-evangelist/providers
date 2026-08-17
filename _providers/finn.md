@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Finn is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Finn''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 67
+random_paper: 129
 score:
   band: minimal
   composite: 11.9
@@ -105,7 +105,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finn/refs/heads/main/screenshots/finn-2026-07-25T214536.png
 security:

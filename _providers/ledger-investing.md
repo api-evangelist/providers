@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -56,7 +56,29 @@ apis:
 - description: Upload, list, retrieve and delete insurance loss triangles.
   name: Ledger Investing Triangles API
   slug: ledger-investing-triangles-api
-artifact_total: 12
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ledger Analytics Cashflow Models API
+  slug: open-ledger-investing-cashflow-models-api
+- collection_type: open
+  name: Ledger Analytics Cashflow Models Development Models API
+  slug: open-ledger-investing-development-models-api
+- collection_type: open
+  name: Ledger Analytics Cashflow Models Forecast Models API
+  slug: open-ledger-investing-forecast-models-api
+- collection_type: open
+  name: Ledger Analytics Cashflow Models Tail Models API
+  slug: open-ledger-investing-tail-models-api
+- collection_type: open
+  name: Ledger Analytics Cashflow Models Tasks API
+  slug: open-ledger-investing-tasks-api
+- collection_type: open
+  name: Ledger Analytics Cashflow Models Triangles API
+  slug: open-ledger-investing-triangles-api
 common:
 - group: other
   title: ''
@@ -223,7 +245,7 @@ overview: 'Ledger Investing publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Ledger Investing''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 30 more developer resources.'
-random_paper: 95
+random_paper: 16
 score:
   band: developing
   composite: 54.0
@@ -253,7 +275,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/screenshots/ledger-investing-2026-07-25T224810.png
 security:

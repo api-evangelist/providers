@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -65,11 +65,42 @@ apis:
 - description: The Workspace Fields API API from Spektr — 2 operation(s) for workspace fields api.
   name: Spektr Workspace Fields API API
   slug: spektr-workspace-fields-api-api
-artifact_total: 15
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Spektr Webhooks
   slug: spektr-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spektr Action API API
+  slug: open-spektr-action-api-api
+- collection_type: open
+  name: Spektr Action API Events API API
+  slug: open-spektr-events-api-api
+- collection_type: open
+  name: Spektr Action API Execution API API
+  slug: open-spektr-execution-api-api
+- collection_type: open
+  name: Spektr Action API Import API API
+  slug: open-spektr-import-api-api
+- collection_type: open
+  name: Spektr Action API Orchestration API API
+  slug: open-spektr-orchestration-api-api
+- collection_type: open
+  name: Spektr Action API Records API API
+  slug: open-spektr-records-api-api
+- collection_type: open
+  name: Spektr Action API Transaction Definitions API
+  slug: open-spektr-transaction-definitions-api
+- collection_type: open
+  name: Spektr Action API Transactions API
+  slug: open-spektr-transactions-api
+- collection_type: open
+  name: Spektr Action API Workspace Fields API API
+  slug: open-spektr-workspace-fields-api-api
 common:
 - group: start
   title: ''
@@ -214,7 +245,7 @@ overview: 'Spektr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spektr''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 24 more developer resources.'
-random_paper: 65
+random_paper: 69
 score:
   band: developing
   composite: 55.2
@@ -238,7 +269,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

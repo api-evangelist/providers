@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ name: Commission of Fine Arts
 nav: Providers
 network: true
 overview: Commission of Fine Arts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Arts, Design Review, Federal Government, and Washington DC.
-random_paper: 17
+random_paper: 62
 score:
   band: minimal
   composite: 8.8
@@ -100,7 +100,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commission-of-fine-arts/refs/heads/main/screenshots/commission-of-fine-arts-2026-06-20T174817.png
 security:

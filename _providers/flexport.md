@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: The Webhooks API from Flexport — 1 operation(s) for webhooks.
   name: Flexport Webhooks API
   slug: flexport-webhooks-api
-artifact_total: 19
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flexport REST Bookings API
+  slug: open-flexport-bookings-api
+- collection_type: open
+  name: Flexport REST Bookings Customs API
+  slug: open-flexport-customs-api
+- collection_type: open
+  name: Flexport REST Bookings Documents API
+  slug: open-flexport-documents-api
+- collection_type: open
+  name: Flexport REST Bookings Invoices API
+  slug: open-flexport-invoices-api
+- collection_type: open
+  name: Flexport REST Bookings Network API
+  slug: open-flexport-network-api
+- collection_type: open
+  name: Flexport REST Bookings Products API
+  slug: open-flexport-products-api
+- collection_type: open
+  name: Flexport REST Bookings PurchaseOrders API
+  slug: open-flexport-purchaseorders-api
+- collection_type: open
+  name: Flexport REST Bookings Shipments API
+  slug: open-flexport-shipments-api
+- collection_type: open
+  name: Flexport REST Bookings Webhooks API
+  slug: open-flexport-webhooks-api
 - collection_type: open
   name: Flexport REST API
   slug: open-flexport
@@ -147,7 +177,7 @@ plans:
 - name: Flexport Plans Pricing
   plan_count: 1
   slug: flexport-plans-pricing
-random_paper: 44
+random_paper: 139
 rate_limits:
 - limit_count: 1
   name: Flexport Rate Limits
@@ -177,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/screenshots/flexport-2026-06-20T181310.png
 security:

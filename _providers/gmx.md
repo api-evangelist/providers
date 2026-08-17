@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -104,7 +104,65 @@ apis:
 - description: The Trades API from GMX — 2 operation(s) for trades.
   name: GMX Trades API
   slug: gmx-trades-api
-artifact_total: 140
+artifact_total: 159
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances API'
+  slug: open-gmx-allowances-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances APY API'
+  slug: open-gmx-apy-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Balances API'
+  slug: open-gmx-balances-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Buyback API'
+  slug: open-gmx-buyback-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances GMX Account API'
+  slug: open-gmx-gmx-account-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances JIT API'
+  slug: open-gmx-jit-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Markets API'
+  slug: open-gmx-markets-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Order Transactions API'
+  slug: open-gmx-order-transactions-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Orders API'
+  slug: open-gmx-orders-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Pairs API'
+  slug: open-gmx-pairs-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Performance API'
+  slug: open-gmx-performance-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Positions API'
+  slug: open-gmx-positions-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Prices API'
+  slug: open-gmx-prices-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Rates API'
+  slug: open-gmx-rates-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Staking API'
+  slug: open-gmx-staking-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Subaccounts API'
+  slug: open-gmx-subaccounts-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Tokens API'
+  slug: open-gmx-tokens-api
+- collection_type: open
+  name: '@gmx-io/gmx-public-api Allowances Trades API'
+  slug: open-gmx-trades-api
 common:
 - group: agent
   title: ''
@@ -507,7 +565,7 @@ plans:
 - name: Gmx Plans Pricing
   plan_count: 1
   slug: gmx-plans-pricing
-random_paper: 92
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Gmx Rate Limits
@@ -547,7 +605,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/screenshots/gmx-2026-06-20T181934.png
 security:

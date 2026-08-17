@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -66,7 +66,7 @@ apis:
 - description: Deploy, list, start, stop, modify, and delete virtual machines
   name: TensorDock Virtual Machines API
   slug: tensordock-virtual-machines-api
-artifact_total: 48
+artifact_total: 56
 collections:
 - collection_type: postman
   name: TensorDock Instances API
@@ -75,11 +75,35 @@ collections:
   name: TensorDock Instances Secrets API
   slug: postman-tensordock-secrets-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TensorDock Marketplace Authorization API
+  slug: open-tensordock-authorization-api
+- collection_type: open
+  name: TensorDock Marketplace Billing API
+  slug: open-tensordock-billing-api
+- collection_type: open
+  name: TensorDock Marketplace Containers API
+  slug: open-tensordock-containers-api
+- collection_type: open
+  name: TensorDock Marketplace Hostnodes API
+  slug: open-tensordock-hostnodes-api
+- collection_type: open
   name: TensorDock Instances API
   slug: open-tensordock-instances-api
 - collection_type: open
-  name: TensorDock Secrets API
+  name: TensorDock Marketplace Instant VMs API
+  slug: open-tensordock-instant-vms-api
+- collection_type: open
+  name: TensorDock Instances Secrets API
   slug: open-tensordock-secrets-api
+- collection_type: open
+  name: TensorDock Marketplace Spot API
+  slug: open-tensordock-spot-api
+- collection_type: open
+  name: TensorDock Marketplace Virtual Machines API
+  slug: open-tensordock-virtual-machines-api
 common:
 - group: build
   title: ''
@@ -344,7 +368,7 @@ plans:
 - name: Tensordock Plans Pricing
   plan_count: 6
   slug: tensordock-plans-pricing
-random_paper: 4
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Tensordock Rate Limits
@@ -386,7 +410,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/screenshots/tensordock-2026-06-20T195118.png
 security:

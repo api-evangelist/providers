@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,10 +57,16 @@ apis:
 - description: Retrieve digital attestations and provenance information for Python package distribution files hosted on PyPI.
   name: PyPI Provenance API
   slug: pypi-provenance-api
-artifact_total: 22
+artifact_total: 26
 collections:
 - collection_type: open
-  name: PyPI Index API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PyPI Index Downloads API
+  slug: open-pypi-downloads-api
+- collection_type: open
+  name: PyPI Downloads Index API
   slug: open-pypi-index-api
 - collection_type: open
   name: PyPI Integrity API
@@ -69,10 +75,16 @@ collections:
   name: PyPI JSON API
   slug: open-pypi-json-api
 - collection_type: open
+  name: PyPI Index Downloads Projects API
+  slug: open-pypi-projects-api
+- collection_type: open
+  name: PyPI Index Downloads Provenance API
+  slug: open-pypi-provenance-api
+- collection_type: open
   name: PyPI Stats API
   slug: open-pypi-stats-api
 - collection_type: open
-  name: PyPI Upload API
+  name: PyPI Index Downloads Upload API
   slug: open-pypi-upload-api
 common:
 - group: agent
@@ -162,7 +174,7 @@ plans:
 - name: Pypi Plans Pricing
   plan_count: 1
   slug: pypi-plans-pricing
-random_paper: 90
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Pypi Rate Limits
@@ -196,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/screenshots/pypi-2026-06-20T192329.png
 security:

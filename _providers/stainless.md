@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -69,8 +69,26 @@ apis:
 - description: The User API from Stainless — 1 operation(s) for user.
   name: Stainless User API
   slug: stainless-user-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stainless Platform Build Target Outputs API
+  slug: open-stainless-build-target-outputs-api
+- collection_type: open
+  name: Stainless Platform Build Target Outputs Builds API
+  slug: open-stainless-builds-api
+- collection_type: open
+  name: Stainless Platform Build Target Outputs Orgs API
+  slug: open-stainless-orgs-api
+- collection_type: open
+  name: Stainless Platform Build Target Outputs Projects API
+  slug: open-stainless-projects-api
+- collection_type: open
+  name: Stainless Platform Build Target Outputs User API
+  slug: open-stainless-user-api
 - collection_type: open
   name: Stainless Platform API
   slug: open-stainless
@@ -167,7 +185,7 @@ plans:
 - name: Stainless Plans Pricing
   plan_count: 3
   slug: stainless-plans-pricing
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Stainless Rate Limits
@@ -192,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/screenshots/stainless-2026-06-20T194453.png
 security:

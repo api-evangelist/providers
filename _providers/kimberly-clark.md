@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: FourKites Recognizes Ardent Mills, Kimberly-Clark, The ...
   url: https://www.businesswire.com/news/home/20250828027223/en/FourKites-Recognizes-Ardent-Mills-Kimberly-Clark-The-Coca-Cola-Company-and-Others-for-Outstanding-Achievements-in-Supply-Chain-Transformation
-random_paper: 113
+random_paper: 92
 score:
   band: minimal
   composite: 9.9
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimberly-clark/refs/heads/main/screenshots/kimberly-clark-2026-07-25T223748.png
 security:

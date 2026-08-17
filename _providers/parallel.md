@@ -1,14 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup, pay-as-you-go, free tier
   onboarding: self-serve
   pricing: unknown
-  public: false
+  public: true
   source:
-  - authentication
-  trial: false
-  try_now: false
+  - https://docs.parallel.ai/getting-started/pricing
+  - https://parallel.ai/pricing
+  - https://docs.parallel.ai/integrations/mcp/search-mcp
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -29,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -37,7 +39,7 @@ agentic_access:
   operation_count: 32
   slug: parallel-agentic-access
   summary_line: 32 operations · 16 acting
-api_count: 6
+api_count: 8
 apis:
 - description: The Chat API provides a programmatic chat-style text generation interface. It accepts a sequence of messages and returns model responses. Intended for assistant-like interactions and evaluation. Strea
   name: Parallel Chat API (Beta) API
@@ -57,7 +59,13 @@ apis:
 - description: The Task API executes web research and extraction tasks. Clients submit a natural-language objective with an optional input schema; the service plans retrieval, fetches relevant URLs, and returns outp
   name: Parallel Tasks API
   slug: parallel-tasks-api
-artifact_total: 19
+- description: The Responses API returns grounded, cited answers from the live web in a single synchronous call, and is OpenAI Responses-compatible so it can be dropped into existing clients. Pricing and latency are
+  name: Parallel Responses API
+  slug: parallel-responses-api
+- description: The Memory API lets agents search and reuse the results of past Task, Monitor and FindAll runs so new research builds on work already done. It exposes retrieve, evict and clear operations over the sto
+  name: Parallel Memory API
+  slug: parallel-memory-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Parallel Webhooks
@@ -81,6 +89,27 @@ collections:
 - collection_type: postman
   name: Parallel Chat API (Beta) Chat API (Beta) Tasks API
   slug: postman-parallel-tasks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Parallel Chat API (Beta) Chat API (Beta) Chat API (Beta) API
+  slug: open-parallel-chat-api-beta-api
+- collection_type: open
+  name: Parallel Chat API (Beta) Chat API (Beta) Extract API
+  slug: open-parallel-extract-api
+- collection_type: open
+  name: Parallel Chat API (Beta) Chat API (Beta) FindAll API
+  slug: open-parallel-findall-api
+- collection_type: open
+  name: Parallel Chat API (Beta) Chat API (Beta) Monitor API
+  slug: open-parallel-monitor-api
+- collection_type: open
+  name: Parallel Chat API (Beta) Chat API (Beta) Search API
+  slug: open-parallel-search-api
+- collection_type: open
+  name: Parallel Chat API (Beta) Chat API (Beta) Tasks API
+  slug: open-parallel-tasks-api
 common:
 - group: build
   title: ''
@@ -226,39 +255,73 @@ common:
   title: ''
   type: AgenticAccess
   url: agentic-access/parallel-agentic-access.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/parallel-a2a.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/parallel-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/parallel-plans-pricing.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/parallel-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/parallel-sandbox.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/parallel/overview
 created: '2026-07-17'
-description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor API for scheduled web-change tracking, and an OpenAI-compatible Chat Completions endpoint. The platform is API-key authenticated over https://api.parallel.ai, ships official Python and TypeScript SDKs and a CLI, exposes free and authenticated MCP servers, emits Standard Webhooks and SSE event streams, and is SOC 2 Type I/II certified. Originally surfaced as a Kleiner Perkins portfolio company and enriched from Parallel''s public developer surface.'
+description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor API for scheduled web-change tracking, an OpenAI-compatible Responses and Chat Completions pair, and a Memory API that lets agents reuse past research. The platform is API-key authenticated over https://api.parallel.ai, ships official Python and TypeScript SDKs and a CLI, emits Standard Webhooks and SSE event streams, and is SOC 2 Type I/II certified. Its agent surface is unusually complete: an anonymous hosted MCP server whose tools are publicly introspectable, an OAuth-gated Task MCP server, a conformant A2A agent card backed by a live /a2a endpoint, provider-published Agent Skills with a discovery document, an llms.txt, and markdown twins of every documentation page. Pricing is
+  pay-as-you-go per request per product. Originally surfaced as a Kleiner Perkins portfolio company and enriched from Parallel''s public developer surface.'
 image: https://cdn.sanity.io/images/5hzduz3y/production/3e8afb3fd62096a800a8135910fdc375971e17ba-3600x1890.jpg?w=1200&h=630&fit=crop
 layout: provider
 mcp_servers:
 - description: ''
   name: parallel-mcp.yml
   slug: parallel-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Parallel
 nav: Providers
 network: true
-overview: 'Parallel publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API (Beta) API, Extract API, FindAll API, and 3 more. Tagged areas include Company, Ai, Web Search, Agents, and Deep Research.
+overview: 'Parallel publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat API (Beta) API, Extract API, FindAll API, and 5 more. Tagged areas include Company, Ai, Web Search, Agents, and Deep Research.
 
 
   The Parallel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Parallel''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 29 more developer resources.'
-random_paper: 5
+  Parallel''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 35 more developer resources.'
+plans:
+- name: Parallel Plans Pricing
+  plan_count: 1
+  slug: parallel-plans-pricing
+random_paper: 100
 rate_limits:
 - limit_count: 7
   name: Parallel Rate Limits
   slug: parallel-rate-limits
+scopes:
+- name: Parallel Scopes
+  scope_count: 0
+  slug: parallel-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 67.4
-  delta: 0.0
+  composite: 73.9
+  delta: 6.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 70.9
-    developer_ergonomics: 79.9
-    discoverability: 81.5
+    commercial_clarity: 81.6
+    contract_quality: 70.4
+    developer_ergonomics: 86.4
+    discoverability: 92.6
     governance: 20.8
     operational_transparency: 84.2
   previous_composite: 67.4
@@ -273,14 +336,14 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/screenshots/parallel-2026-08-07T191420.png
 security:
 - kind: authentication
   name: Parallel Authentication
   slug: parallel-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Parallel Domain Security
   slug: parallel-domain-security
@@ -288,7 +351,7 @@ security:
 - kind: trust-center
   name: Parallel Trust Center
   slug: parallel-trust-center
-  summary_line: SOC 2 Type I (as of April 2025), SOC 2 Type II (as of April 2025)
+  summary_line: SOC 2 Type I, SOC 2 Type II
 slug: parallel
 tags:
 - Company

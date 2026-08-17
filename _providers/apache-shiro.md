@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Users API from Apache Shiro — 1 operation(s) for users.
   name: Apache Shiro Users API
   slug: apache-shiro-users-api
-artifact_total: 66
+artifact_total: 72
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Shiro REST Authentication API
+  slug: open-apache-shiro-authentication-api
+- collection_type: open
+  name: Apache Shiro REST Authentication Authorization API
+  slug: open-apache-shiro-authorization-api
+- collection_type: open
+  name: Apache Shiro REST Authentication Cryptography API
+  slug: open-apache-shiro-cryptography-api
+- collection_type: open
+  name: Apache Shiro REST Authentication Sessions API
+  slug: open-apache-shiro-sessions-api
+- collection_type: open
+  name: Apache Shiro REST Authentication Users API
+  slug: open-apache-shiro-users-api
 common:
 - group: agent
   title: ''
@@ -256,7 +275,7 @@ plans:
 - name: Apache Shiro Plans Pricing
   plan_count: 3
   slug: apache-shiro-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Apache Shiro Rate Limits
@@ -298,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/screenshots/apache-shiro-2026-06-20T172141.png
 security:

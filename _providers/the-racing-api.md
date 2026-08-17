@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,8 +90,62 @@ apis:
 - description: The Trainers API from The Racing API — 7 operation(s) for trainers.
   name: The Racing API Trainers API
   slug: the-racing-api-trainers-api
-artifact_total: 404
+artifact_total: 422
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Racing Australia API
+  slug: open-the-racing-api-australia-api
+- collection_type: open
+  name: The Racing Australia Basic Plan API
+  slug: open-the-racing-api-basic-plan-api
+- collection_type: open
+  name: The Racing Australia Courses API
+  slug: open-the-racing-api-courses-api
+- collection_type: open
+  name: The Racing Australia Dams API
+  slug: open-the-racing-api-dams-api
+- collection_type: open
+  name: The Racing Australia Damsires API
+  slug: open-the-racing-api-damsires-api
+- collection_type: open
+  name: The Racing Australia Free Plan API
+  slug: open-the-racing-api-free-plan-api
+- collection_type: open
+  name: The Racing Australia Horses API
+  slug: open-the-racing-api-horses-api
+- collection_type: open
+  name: The Racing Australia Jockeys API
+  slug: open-the-racing-api-jockeys-api
+- collection_type: open
+  name: The Racing Australia North America API
+  slug: open-the-racing-api-north-america-api
+- collection_type: open
+  name: The Racing Australia Odds API
+  slug: open-the-racing-api-odds-api
+- collection_type: open
+  name: The Racing Australia Owners API
+  slug: open-the-racing-api-owners-api
+- collection_type: open
+  name: The Racing Australia Pro Plan API
+  slug: open-the-racing-api-pro-plan-api
+- collection_type: open
+  name: The Racing Australia Racecards API
+  slug: open-the-racing-api-racecards-api
+- collection_type: open
+  name: The Racing Australia Results API
+  slug: open-the-racing-api-results-api
+- collection_type: open
+  name: The Racing Australia Sires API
+  slug: open-the-racing-api-sires-api
+- collection_type: open
+  name: The Racing Australia Standard Plan API
+  slug: open-the-racing-api-standard-plan-api
+- collection_type: open
+  name: The Racing Australia Trainers API
+  slug: open-the-racing-api-trainers-api
 - collection_type: open
   name: The Racing API
   slug: open-the-racing-api
@@ -1298,7 +1352,7 @@ plans:
 - name: The Racing Api Plans Pricing
   plan_count: 1
   slug: the-racing-api-plans-pricing
-random_paper: 33
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: The Racing Api Rate Limits
@@ -1340,7 +1394,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/screenshots/the-racing-api-2026-06-20T195235.png
 security:

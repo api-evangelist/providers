@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Availability API from Klook — 2 operation(s) for availability.
@@ -43,11 +43,27 @@ apis:
 - description: The Supplier API from Klook — 1 operation(s) for supplier.
   name: Klook Supplier API
   slug: klook-supplier-api
-artifact_total: 8
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Klook Notifications Webhooks
   slug: klook-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OCTO API Specification Availability API
+  slug: open-klook-availability-api
+- collection_type: open
+  name: OCTO API Specification Availability Bookings API
+  slug: open-klook-bookings-api
+- collection_type: open
+  name: OCTO API Specification Availability Products API
+  slug: open-klook-products-api
+- collection_type: open
+  name: OCTO API Specification Availability Supplier API
+  slug: open-klook-supplier-api
 common:
 - group: company
   title: ''
@@ -180,7 +196,7 @@ overview: 'Klook publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Klook''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 64
+random_paper: 97
 score:
   band: developing
   composite: 47.7
@@ -203,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

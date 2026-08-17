@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Translate content at runtime and queue files for translation.
   name: General Translation Translation API
   slug: general-translation-translation-api
-artifact_total: 20
+artifact_total: 28
 asyncapis:
 - description: ''
   name: General Translation Webhooks
@@ -87,6 +87,30 @@ collections:
 - collection_type: postman
   name: General Branches Translation API
   slug: postman-general-translation-translation-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: General Translation Branches API
+  slug: open-general-translation-branches-api
+- collection_type: open
+  name: General Translation Branches Context API
+  slug: open-general-translation-context-api
+- collection_type: open
+  name: General Translation Branches Files API
+  slug: open-general-translation-files-api
+- collection_type: open
+  name: General Translation Branches Jobs API
+  slug: open-general-translation-jobs-api
+- collection_type: open
+  name: General Translation Branches Project API
+  slug: open-general-translation-project-api
+- collection_type: open
+  name: General Translation Branches Tags API
+  slug: open-general-translation-tags-api
+- collection_type: open
+  name: General Branches Translation API
+  slug: open-general-translation-translation-api
 common:
 - group: other
   title: ''
@@ -255,7 +279,7 @@ overview: 'General Translation publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   General Translation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
-random_paper: 58
+random_paper: 41
 rate_limits:
 - limit_count: 4
   name: General Translation Rate Limits
@@ -283,7 +307,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/screenshots/general-translation-2026-07-25T215549.png
 security:

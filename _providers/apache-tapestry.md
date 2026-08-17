@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Tapestry Component API provides Java annotations and interfaces for building reusable web components. Components are defined by a Java class and an HTML template file. The API includes @Component,
@@ -124,7 +124,7 @@ plans:
 - name: Apache Tapestry Plans Pricing
   plan_count: 3
   slug: apache-tapestry-plans-pricing
-random_paper: 107
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Apache Tapestry Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tapestry/refs/heads/main/screenshots/apache-tapestry-2026-06-20T172151.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 1
@@ -263,7 +263,230 @@ apis:
 - description: The Vouchers API from Mews — 4 operation(s) for vouchers.
   name: Mews Vouchers API
   slug: mews-vouchers-api
-artifact_total: 1139
+artifact_total: 1213
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Connector Account notes API
+  slug: open-mews-account-notes-api
+- collection_type: open
+  name: Connector Account notes Accounting categories API
+  slug: open-mews-accounting-categories-api
+- collection_type: open
+  name: Connector Account notes Accounting items API
+  slug: open-mews-accounting-items-api
+- collection_type: open
+  name: Connector Account notes Accounts API
+  slug: open-mews-accounts-api
+- collection_type: open
+  name: Connector Account notes Addresses API
+  slug: open-mews-addresses-api
+- collection_type: open
+  name: Connector Account notes Age categories API
+  slug: open-mews-age-categories-api
+- collection_type: open
+  name: Connector Account notes Availability adjustments API
+  slug: open-mews-availability-adjustments-api
+- collection_type: open
+  name: Connector Account notes Availability blocks API
+  slug: open-mews-availability-blocks-api
+- collection_type: open
+  name: Connector Account notes Billing automations API
+  slug: open-mews-billing-automations-api
+- collection_type: open
+  name: Connector Account notes Bills API
+  slug: open-mews-bills-api
+- collection_type: open
+  name: Connector Account notes Business segments API
+  slug: open-mews-business-segments-api
+- collection_type: open
+  name: Connector Account notes Cancellation policies API
+  slug: open-mews-cancellation-policies-api
+- collection_type: open
+  name: Connector Account notes Cashier transactions API
+  slug: open-mews-cashier-transactions-api
+- collection_type: open
+  name: Connector Account notes Cashiers API
+  slug: open-mews-cashiers-api
+- collection_type: open
+  name: Connector Account notes Commands API
+  slug: open-mews-commands-api
+- collection_type: open
+  name: Connector Account notes Companies API
+  slug: open-mews-companies-api
+- collection_type: open
+  name: Connector Account notes Companionships API
+  slug: open-mews-companionships-api
+- collection_type: open
+  name: Connector Account notes Company contracts API
+  slug: open-mews-company-contracts-api
+- collection_type: open
+  name: Connector Account notes Configuration API
+  slug: open-mews-configuration-api
+- collection_type: open
+  name: Connector Account notes Counters API
+  slug: open-mews-counters-api
+- collection_type: open
+  name: Connector Account notes Countries API
+  slug: open-mews-countries-api
+- collection_type: open
+  name: Connector Account notes Credit cards API
+  slug: open-mews-credit-cards-api
+- collection_type: open
+  name: Connector Account notes Currencies API
+  slug: open-mews-currencies-api
+- collection_type: open
+  name: Connector Account notes Customers API
+  slug: open-mews-customers-api
+- collection_type: open
+  name: Connector Account notes Departments API
+  slug: open-mews-departments-api
+- collection_type: open
+  name: Connector Account notes Devices API
+  slug: open-mews-devices-api
+- collection_type: open
+  name: Connector Account notes Enterprises API
+  slug: open-mews-enterprises-api
+- collection_type: open
+  name: Connector Account notes Exchange rates API
+  slug: open-mews-exchange-rates-api
+- collection_type: open
+  name: Connector Account notes Exports API
+  slug: open-mews-exports-api
+- collection_type: open
+  name: Connector Account notes Identity documents API
+  slug: open-mews-identity-documents-api
+- collection_type: open
+  name: Connector Account notes Images API
+  slug: open-mews-images-api
+- collection_type: open
+  name: Connector Account notes Languages API
+  slug: open-mews-languages-api
+- collection_type: open
+  name: Connector Account notes Ledger balances API
+  slug: open-mews-ledger-balances-api
+- collection_type: open
+  name: Connector Account notes Loyalty memberships API
+  slug: open-mews-loyalty-memberships-api
+- collection_type: open
+  name: Connector Account notes Loyalty programs API
+  slug: open-mews-loyalty-programs-api
+- collection_type: open
+  name: Connector Account notes Loyalty tiers API
+  slug: open-mews-loyalty-tiers-api
+- collection_type: open
+  name: Connector Account notes Message threads API
+  slug: open-mews-message-threads-api
+- collection_type: open
+  name: Connector Account notes Messages API
+  slug: open-mews-messages-api
+- collection_type: open
+  name: Connector Account notes Order items API
+  slug: open-mews-order-items-api
+- collection_type: open
+  name: Connector Account notes Orders API
+  slug: open-mews-orders-api
+- collection_type: open
+  name: Connector Account notes Outlet bills API
+  slug: open-mews-outlet-bills-api
+- collection_type: open
+  name: Connector Account notes Outlet items API
+  slug: open-mews-outlet-items-api
+- collection_type: open
+  name: Connector Account notes Outlets API
+  slug: open-mews-outlets-api
+- collection_type: open
+  name: Connector Account notes Payment method requests API
+  slug: open-mews-payment-method-requests-api
+- collection_type: open
+  name: Connector Account notes Payment plans API
+  slug: open-mews-payment-plans-api
+- collection_type: open
+  name: Connector Account notes Payment requests API
+  slug: open-mews-payment-requests-api
+- collection_type: open
+  name: Connector Account notes Payments API
+  slug: open-mews-payments-api
+- collection_type: open
+  name: Connector Account notes Preauthorizations API
+  slug: open-mews-preauthorizations-api
+- collection_type: open
+  name: Connector Account notes Product categories API
+  slug: open-mews-product-categories-api
+- collection_type: open
+  name: Connector Account notes Product service orders API
+  slug: open-mews-product-service-orders-api
+- collection_type: open
+  name: Connector Account notes Products API
+  slug: open-mews-products-api
+- collection_type: open
+  name: Connector Account notes Rate groups API
+  slug: open-mews-rate-groups-api
+- collection_type: open
+  name: Connector Account notes Rates API
+  slug: open-mews-rates-api
+- collection_type: open
+  name: Connector Account notes Reservation groups API
+  slug: open-mews-reservation-groups-api
+- collection_type: open
+  name: Connector Account notes Reservations API
+  slug: open-mews-reservations-api
+- collection_type: open
+  name: Connector Account notes Resource access tokens API
+  slug: open-mews-resource-access-tokens-api
+- collection_type: open
+  name: Connector Account notes Resource blocks API
+  slug: open-mews-resource-blocks-api
+- collection_type: open
+  name: Connector Account notes Resource categories API
+  slug: open-mews-resource-categories-api
+- collection_type: open
+  name: Connector Account notes Resource features API
+  slug: open-mews-resource-features-api
+- collection_type: open
+  name: Connector Account notes Resources API
+  slug: open-mews-resources-api
+- collection_type: open
+  name: Connector Account notes Restrictions API
+  slug: open-mews-restrictions-api
+- collection_type: open
+  name: Connector Account notes Routing rules API
+  slug: open-mews-routing-rules-api
+- collection_type: open
+  name: Connector Account notes Rules API
+  slug: open-mews-rules-api
+- collection_type: open
+  name: Connector Account notes Service order notes API
+  slug: open-mews-service-order-notes-api
+- collection_type: open
+  name: Connector Account notes Service overbooking limits API
+  slug: open-mews-service-overbooking-limits-api
+- collection_type: open
+  name: Connector Account notes Services API
+  slug: open-mews-services-api
+- collection_type: open
+  name: Connector Account notes Source assignments API
+  slug: open-mews-source-assignments-api
+- collection_type: open
+  name: Connector Account notes Sources API
+  slug: open-mews-sources-api
+- collection_type: open
+  name: Connector Account notes Tasks API
+  slug: open-mews-tasks-api
+- collection_type: open
+  name: Connector Account notes Tax environments API
+  slug: open-mews-tax-environments-api
+- collection_type: open
+  name: Connector Account notes Taxations API
+  slug: open-mews-taxations-api
+- collection_type: open
+  name: Connector Account notes Voucher codes API
+  slug: open-mews-voucher-codes-api
+- collection_type: open
+  name: Connector Account notes Vouchers API
+  slug: open-mews-vouchers-api
 common:
 - group: agent
   title: ''
@@ -3510,7 +3733,7 @@ plans:
 - name: Mews Plans Pricing
   plan_count: 1
   slug: mews-plans-pricing
-random_paper: 84
+random_paper: 146
 rate_limits:
 - limit_count: 1
   name: Mews Rate Limits
@@ -3544,7 +3767,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews/refs/heads/main/screenshots/mews-2026-06-20T185313.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -37,7 +37,17 @@ apis:
 - description: 'REST API covering the Armor and Key Insight components of the Fortanix Data & AI Security Platform: cloud and on-premises cryptographic discovery connections, scans, scan inventory, discovery policies'
   name: Fortanix Armor and Key Insight API
   slug: armor-key-insight
-artifact_total: 10
+artifact_total: 13
+collections:
+- collection_type: open
+  name: Armor API
+  slug: open-fortanix-armor-key-insight-openapi-original
+- collection_type: open
+  name: Confidential Computing Manager
+  slug: open-fortanix-ccm-openapi-original
+- collection_type: open
+  name: Fortanix DSM REST API
+  slug: open-fortanix-dsm-openapi-original
 common:
 - group: agent
   title: ''
@@ -199,7 +209,7 @@ overview: 'Fortanix publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Fortanix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 29 more developer resources.'
-random_paper: 35
+random_paper: 130
 scopes:
 - name: Fortanix Scopes
   scope_count: 0
@@ -228,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/screenshots/fortanix-2026-08-07T165417.png
 security:

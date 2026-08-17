@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 4
@@ -54,11 +54,27 @@ apis:
 - description: Alerting and messaging for Glow-based applications. Defines alert types, manages per-channel and per-culture message templates, sends alerts to users, and reports notification delivery and logs. Serve
   name: Glowmarkt Notification System API
   slug: glowmarkt-notification-system-api
-artifact_total: 11
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Hildebrand Event Surface
   slug: hildebrand-event-surface
+collections:
+- collection_type: open
+  name: Device Management System
+  slug: open-hildebrand-glowmarkt-device-management-system-swagger
+- collection_type: open
+  name: Notification System
+  slug: open-hildebrand-glowmarkt-notification-system-swagger
+- collection_type: open
+  name: Resource System
+  slug: open-hildebrand-glowmarkt-resource-system-swagger
+- collection_type: open
+  name: Glowmarkt User System
+  slug: open-hildebrand-glowmarkt-user-system-swagger
+- collection_type: open
+  name: Virtual Entity System
+  slug: open-hildebrand-glowmarkt-virtual-entity-system-swagger
 common:
 - group: start
   title: ''
@@ -196,7 +212,7 @@ plans:
 - name: Hildebrand Plans
   plan_count: 3
   slug: hildebrand-plans
-random_paper: 77
+random_paper: 143
 score:
   band: developing
   composite: 50.2
@@ -226,7 +242,7 @@ score:
     regime_id: energy_utilities
     score: 35.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/screenshots/hildebrand-2026-08-07T170207.png
 security:

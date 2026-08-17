@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: The Webhook API from Fillout — 2 operation(s) for webhook.
   name: Fillout Webhook API
   slug: fillout-webhook-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fillout REST Forms API
+  slug: open-fillout-forms-api
+- collection_type: open
+  name: Fillout REST Forms Webhook API
+  slug: open-fillout-webhook-api
 - collection_type: open
   name: Fillout REST API
   slug: open-fillout
@@ -126,7 +135,7 @@ plans:
 - name: Fillout Plans Pricing
   plan_count: 5
   slug: fillout-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Fillout Rate Limits
@@ -151,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/screenshots/fillout-2026-06-20T181207.png
 security:

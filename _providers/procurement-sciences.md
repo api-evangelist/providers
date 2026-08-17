@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Procurement Sciences is profiled on the [APIs.io](https://apis.io/) n
 
 
   Procurement Sciences'' developer surface includes documentation, pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 54
+random_paper: 8
 score:
   band: emerging
   composite: 22.0
@@ -111,7 +111,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

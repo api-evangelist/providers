@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Connect API from Loot Rush Games — 1 operation(s) for connect.
@@ -44,7 +44,23 @@ apis:
 - description: The Withdrawals API from Loot Rush Games — 2 operation(s) for withdrawals.
   name: Loot Rush Games Withdrawals API
   slug: loot-rush-games-withdrawals-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LootRush Partner Connect API
+  slug: open-loot-rush-games-connect-api
+- collection_type: open
+  name: LootRush Partner Connect History API
+  slug: open-loot-rush-games-history-api
+- collection_type: open
+  name: LootRush Partner Connect MCP API
+  slug: open-loot-rush-games-mcp-api
+- collection_type: open
+  name: LootRush Partner Connect Withdrawals API
+  slug: open-loot-rush-games-withdrawals-api
 common:
 - group: other
   title: ''
@@ -138,7 +154,7 @@ overview: 'Loot Rush Games publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Loot Rush Games'' developer surface includes documentation, API reference, getting-started guide, authentication, support, and 14 more developer resources.'
-random_paper: 71
+random_paper: 21
 score:
   band: thin
   composite: 37.8
@@ -167,7 +183,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/screenshots/loot-rush-games-2026-07-25T225531.png
 security:

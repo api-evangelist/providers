@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RESTful API for the Litmos learning management system enabling management of users, teams, courses, learning paths, enrollments, assessments, and completion records. Supports JSON and XML data formats
@@ -112,7 +112,7 @@ plans:
 - name: Litmos Plans Pricing
   plan_count: 3
   slug: litmos-plans-pricing
-random_paper: 64
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Litmos Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 39.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmos/refs/heads/main/screenshots/litmos-2026-06-20T184608.png
 security:

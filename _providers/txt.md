@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: 'Create model responses with enhanced capabilities. Open Responses compatible endpoint providing advanced features: - **Reasoning models** - Control computational effort with `reasoning` parameter - **'
   name: .txt responses-api API
   slug: txt-responses-api-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dottxt batches API
+  slug: open-txt-batches-api
+- collection_type: open
+  name: dottxt batches chat API
+  slug: open-txt-chat-api
+- collection_type: open
+  name: dottxt batches embeddings API
+  slug: open-txt-embeddings-api
+- collection_type: open
+  name: dottxt batches files API
+  slug: open-txt-files-api
+- collection_type: open
+  name: dottxt batches models API
+  slug: open-txt-models-api
+- collection_type: open
+  name: dottxt batches responses-api API
+  slug: open-txt-responses-api-api
 common:
 - group: other
   title: ''
@@ -179,7 +201,7 @@ overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   .txt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, CLI, and 19 more developer resources.'
-random_paper: 112
+random_paper: 54
 score:
   band: developing
   composite: 46.2
@@ -203,7 +225,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

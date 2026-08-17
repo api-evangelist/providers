@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The product Model Context Protocol server. Lets an external agent runtime (Claude and similar MCP clients) drive Superscale's creative engine — generating statics, UGC video and scripts from context t
@@ -192,7 +192,7 @@ plans:
 - name: Superscale Plans Pricing
   plan_count: 6
   slug: superscale-plans-pricing
-random_paper: 119
+random_paper: 36
 rate_limits:
 - limit_count: 8
   name: Superscale Rate Limits
@@ -205,7 +205,7 @@ scopes:
 score:
   band: developing
   composite: 46.8
-  delta: 27.4
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -213,10 +213,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 78.9
-  previous_composite: 19.4
+  previous_composite: 46.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Superscale Authentication

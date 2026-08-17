@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Product and price data API marketed by Pricerunner for retailers and businesses: product search, competitor analysis, market trend identification, price history and automatic price matching across rou'
@@ -75,7 +75,7 @@ overview: 'Pricerunner publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Pricerunner''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 117
+random_paper: 5
 score:
   band: emerging
   composite: 15.4
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

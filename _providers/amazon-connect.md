@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -142,11 +142,50 @@ arazzos:
 - description: Read a user, update their identity information, then re-read to confirm the change.
   name: Amazon Connect Update User Identity Info
   slug: amazon-connect-update-user-identity-workflow
-artifact_total: 328
+artifact_total: 341
 collections:
 - collection_type: postman
   name: Amazon Connect Service API
   slug: postman-amazon-connect
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses API
+  slug: open-amazon-connect-agent-statuses-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Authentication API
+  slug: open-amazon-connect-authentication-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Contact Flows API
+  slug: open-amazon-connect-contact-flows-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Contacts API
+  slug: open-amazon-connect-contacts-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Hours of Operations API
+  slug: open-amazon-connect-hours-of-operations-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Instances API
+  slug: open-amazon-connect-instances-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Metrics API
+  slug: open-amazon-connect-metrics-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Queues API
+  slug: open-amazon-connect-queues-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Routing Profiles API
+  slug: open-amazon-connect-routing-profiles-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Security Profiles API
+  slug: open-amazon-connect-security-profiles-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Tags API
+  slug: open-amazon-connect-tags-api
+- collection_type: open
+  name: Amazon Connect Service Agent Statuses Users API
+  slug: open-amazon-connect-users-api
 - collection_type: open
   name: Amazon Connect Service API
   slug: open-amazon-connect
@@ -1159,7 +1198,7 @@ plans:
 - name: Amazon Connect Plans Pricing
   plan_count: 1
   slug: amazon-connect-plans-pricing
-random_paper: 117
+random_paper: 96
 rate_limits:
 - limit_count: 22
   name: Amazon Connect Rate Limits
@@ -1201,7 +1240,7 @@ score:
       marker_coverage: 100.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:

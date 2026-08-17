@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 8
@@ -92,8 +92,65 @@ apis:
 - description: Actions related to volumes for the compatibility endpoints
   name: Podman volumes (compat) API
   slug: podman-volumes-compat-api
-artifact_total: 24
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts API
+  slug: open-podman-artifacts-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts containers API
+  slug: open-podman-containers-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts containers (compat) API
+  slug: open-podman-containers-compat-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts exec API
+  slug: open-podman-exec-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts exec (compat) API
+  slug: open-podman-exec-compat-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts images API
+  slug: open-podman-images-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts images (compat) API
+  slug: open-podman-images-compat-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts manifests API
+  slug: open-podman-manifests-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts networks API
+  slug: open-podman-networks-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts networks (compat) API
+  slug: open-podman-networks-compat-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts pods API
+  slug: open-podman-pods-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts quadlets API
+  slug: open-podman-quadlets-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts secrets API
+  slug: open-podman-secrets-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts secrets (compat) API
+  slug: open-podman-secrets-compat-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts system API
+  slug: open-podman-system-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts system (compat) API
+  slug: open-podman-system-compat-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts volumes API
+  slug: open-podman-volumes-api
+- collection_type: open
+  name: supports a RESTful API for the Libpod library artifacts volumes (compat) API
+  slug: open-podman-volumes-compat-api
 - collection_type: open
   name: supports a RESTful API for the Libpod library
   slug: open-podman
@@ -158,7 +215,7 @@ plans:
 - name: Podman Plans Pricing
   plan_count: 3
   slug: podman-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Podman Rate Limits
@@ -183,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/screenshots/podman-2026-06-20T191837.png
 security:

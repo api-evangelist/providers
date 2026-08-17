@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,6 +70,38 @@ common:
   title: ''
   type: DomainSecurity
   url: security/alamar-biosciences-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://alamarbio.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://alamarbio.com/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://alamarbio.com/contact-us/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://alamarbio.com/privacy-policy/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alamar-biosciences-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alamar-biosciences-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alamar-biosciences-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alamar-biosciences-domain-security.yml
 created: '2026-08-06'
 description: 'Alamar Biosciences is a privately held life sciences company headquartered in Fremont, California, building precision proteomics tools aimed at the earliest detection of disease. Its NULISA (NUcleic acid Linked Immuno-Sandwich Assay) chemistry and Attobody reagents, run on the ARGO and ARGO HT automated immunoassay systems, deliver attomolar-sensitivity, high-multiplex protein measurement for biomarker discovery, translational research, neurodegeneration and immuno-oncology panels. Alamar publishes no public web API. Its developer-facing surface is open source rather than service based: the first-party NULISAseqR R package (GPL-3) for importing, normalizing, quality-controlling and analyzing NULISAseq XML output, documented at nulisaseqr.alamarbio.com, alongside the NULISA Analysis Software (NAS) that ships with the instruments.'
 image: https://avatars.githubusercontent.com/u/72825231?v=4
@@ -81,16 +113,16 @@ network: true
 overview: 'Alamar Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proteomics, Life Sciences, Biotechnology, and Biomarkers.
 
 
-  Alamar Biosciences'' developer surface includes documentation, changelog, and 10 more developer resources.'
-random_paper: 26
+  Alamar Biosciences'' developer surface includes documentation, changelog, engineering blog, support, and 16 more developer resources.'
+random_paper: 38
 score:
-  band: minimal
-  composite: 10.8
-  delta: 0.0
+  band: emerging
+  composite: 14.4
+  delta: 3.6
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 15.2
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
@@ -100,9 +132,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
+    score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alamar-biosciences/refs/heads/main/screenshots/alamar-biosciences-2026-08-07T161140.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -72,8 +72,23 @@ apis:
 - description: OAuth 2.0 token issuance for browser-suitable, short-lived bearer tokens.
   name: Itron Tokens API
   slug: itron-tokens-api
-artifact_total: 30
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Itron Starfish Data Platform Device Templates API
+  slug: open-itron-device-templates-api
+- collection_type: open
+  name: Itron Starfish Data Platform Device Templates Devices API
+  slug: open-itron-devices-api
+- collection_type: open
+  name: Itron Starfish Data Platform Device Templates Observations API
+  slug: open-itron-observations-api
+- collection_type: open
+  name: Itron Starfish Data Platform Device Templates Tokens API
+  slug: open-itron-tokens-api
 - collection_type: open
   name: Itron Starfish Data Platform API
   slug: open-starfish-data-platform
@@ -249,7 +264,7 @@ plans:
 - name: Itron Plans Pricing
   plan_count: 4
   slug: itron-plans-pricing
-random_paper: 76
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Itron Rate Limits
@@ -297,7 +312,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/screenshots/itron-2026-06-20T183633.png
 security:

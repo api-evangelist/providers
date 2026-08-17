@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -34,11 +34,18 @@ apis:
 - description: The Apex27 Portal API is the per-tenant, website-facing API that drives search and enquiry on Apex27-built agency websites. Its documented operations are get-listings, get-listing, get-search-options,
   name: Apex27 Portal API
   slug: apex27-portal-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Apex27 Webhooks
   slug: apex27-webhooks
+collections:
+- collection_type: open
+  name: Apex27 CRM API
+  slug: open-apex27-crm-api
+- collection_type: open
+  name: Apex27 Portal API
+  slug: open-apex27-portal-api
 common:
 - group: agent
   title: ''
@@ -160,7 +167,7 @@ overview: 'Apex27 publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Apex27''s developer surface includes authentication, signup flow, pricing, changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 55
+random_paper: 88
 score:
   band: developing
   composite: 43.2
@@ -184,7 +191,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/screenshots/apex27-2026-08-07T161440.png
 security:

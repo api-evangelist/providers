@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -81,8 +81,53 @@ apis:
 - description: The webhooks API from GoHarbor — 1 operation(s) for webhooks.
   name: GoHarbor webhooks API
   slug: goharbor-webhooks-api
-artifact_total: 21
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harbor artifacts API
+  slug: open-goharbor-artifacts-api
+- collection_type: open
+  name: Harbor artifacts audit API
+  slug: open-goharbor-audit-api
+- collection_type: open
+  name: Harbor artifacts health API
+  slug: open-goharbor-health-api
+- collection_type: open
+  name: Harbor artifacts projects API
+  slug: open-goharbor-projects-api
+- collection_type: open
+  name: Harbor artifacts quotas API
+  slug: open-goharbor-quotas-api
+- collection_type: open
+  name: Harbor artifacts registries API
+  slug: open-goharbor-registries-api
+- collection_type: open
+  name: Harbor artifacts replication API
+  slug: open-goharbor-replication-api
+- collection_type: open
+  name: Harbor artifacts repositories API
+  slug: open-goharbor-repositories-api
+- collection_type: open
+  name: Harbor artifacts robots API
+  slug: open-goharbor-robots-api
+- collection_type: open
+  name: Harbor artifacts scan API
+  slug: open-goharbor-scan-api
+- collection_type: open
+  name: Harbor artifacts search API
+  slug: open-goharbor-search-api
+- collection_type: open
+  name: Harbor artifacts tags API
+  slug: open-goharbor-tags-api
+- collection_type: open
+  name: Harbor artifacts usergroups API
+  slug: open-goharbor-usergroups-api
+- collection_type: open
+  name: Harbor artifacts webhooks API
+  slug: open-goharbor-webhooks-api
 - collection_type: open
   name: Harbor API
   slug: open-goharbor
@@ -155,7 +200,7 @@ plans:
 - name: Goharbor Plans Pricing
   plan_count: 3
   slug: goharbor-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Goharbor Rate Limits
@@ -180,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/screenshots/goharbor-2026-06-20T181946.png
 security:

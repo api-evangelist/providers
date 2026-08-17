@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -72,8 +72,29 @@ apis:
 - description: The NetworkObjects API from Cisco Secure Client — 1 operation(s) for networkobjects.
   name: Cisco Secure Client NetworkObjects API
   slug: cisco-secure-client-networkobjects-api
-artifact_total: 21
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cisco Secure Firewall Management Center API (Secure Client management plane) AccessPolicies API
+  slug: open-cisco-secure-client-accesspolicies-api
+- collection_type: open
+  name: Cisco Secure Firewall Management Center API (Secure Client management plane) AccessPolicies AccessRules API
+  slug: open-cisco-secure-client-accessrules-api
+- collection_type: open
+  name: Cisco Secure Firewall Management Center API (Secure Client management plane) AccessPolicies Authentication API
+  slug: open-cisco-secure-client-authentication-api
+- collection_type: open
+  name: Cisco Secure Firewall Management Center API (Secure Client management plane) AccessPolicies Devices API
+  slug: open-cisco-secure-client-devices-api
+- collection_type: open
+  name: Cisco Secure Firewall Management Center API (Secure Client management plane) AccessPolicies Hosts API
+  slug: open-cisco-secure-client-hosts-api
+- collection_type: open
+  name: Cisco Secure Firewall Management Center API (Secure Client management plane) AccessPolicies NetworkObjects API
+  slug: open-cisco-secure-client-networkobjects-api
 - collection_type: open
   name: Cisco Secure Firewall Management Center API (Secure Client management plane)
   slug: open-cisco-secure-client
@@ -170,7 +191,7 @@ plans:
 - name: Cisco Secure Client Plans Pricing
   plan_count: 3
   slug: cisco-secure-client-plans-pricing
-random_paper: 105
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Cisco Secure Client Rate Limits
@@ -204,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/screenshots/cisco-secure-client-2026-06-20T174400.png
 security:

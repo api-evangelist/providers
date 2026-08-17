@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 364
   human_in_the_loop: 21
@@ -194,8 +194,146 @@ apis:
 - description: Local and external user management in ExtremeCloud IQ account
   name: Extreme Networks User API
   slug: extreme-networks-user-api
-artifact_total: 56
+artifact_total: 102
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ExtremeCloud IQ Account API
+  slug: open-extreme-networks-account-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Administration API
+  slug: open-extreme-networks-administration-api
+- collection_type: open
+  name: ExtremeCloud IQ Account AFC API
+  slug: open-extreme-networks-afc-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Alert API
+  slug: open-extreme-networks-alert-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Application API
+  slug: open-extreme-networks-application-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Authentication API
+  slug: open-extreme-networks-authentication-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Authorization API
+  slug: open-extreme-networks-authorization-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Client API
+  slug: open-extreme-networks-client-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Client - Details API
+  slug: open-extreme-networks-client-details-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Configuration - Authentication API
+  slug: open-extreme-networks-configuration-authentication-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Configuration - Basic API
+  slug: open-extreme-networks-configuration-basic-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Configuration - Certificate API
+  slug: open-extreme-networks-configuration-certificate-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Configuration - Deployment API
+  slug: open-extreme-networks-configuration-deployment-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Configuration - Network API
+  slug: open-extreme-networks-configuration-network-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Configuration - Policy API
+  slug: open-extreme-networks-configuration-policy-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Configuration - User Management API
+  slug: open-extreme-networks-configuration-user-management-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Copilot - Anomalies API
+  slug: open-extreme-networks-copilot-anomalies-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Copilot - Connectivity Experience API
+  slug: open-extreme-networks-copilot-connectivity-experience-api
+- collection_type: open
+  name: ExtremeCloud IQ Account D360 API
+  slug: open-extreme-networks-d360-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Dashboard API
+  slug: open-extreme-networks-dashboard-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Dashboard - Wired Client Health API
+  slug: open-extreme-networks-dashboard-wired-client-health-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Dashboard - Wired Device Health API
+  slug: open-extreme-networks-dashboard-wired-device-health-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Dashboard - Wired Usage and Capacity API
+  slug: open-extreme-networks-dashboard-wired-usage-and-capacity-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Dashboard - Wireless Client Health API
+  slug: open-extreme-networks-dashboard-wireless-client-health-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Dashboard - Wireless Device Health API
+  slug: open-extreme-networks-dashboard-wireless-device-health-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Dashboard - Wireless Usage and Capacity API
+  slug: open-extreme-networks-dashboard-wireless-usage-and-capacity-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Device API
+  slug: open-extreme-networks-device-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Essentials - ExtremeLocation API
+  slug: open-extreme-networks-essentials-extremelocation-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Geo-View API
+  slug: open-extreme-networks-geo-view-api
+- collection_type: open
+  name: ExtremeCloud IQ Account HIQ API
+  slug: open-extreme-networks-hiq-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Location API
+  slug: open-extreme-networks-location-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Log API
+  slug: open-extreme-networks-log-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Misc API
+  slug: open-extreme-networks-misc-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Network Policy API
+  slug: open-extreme-networks-network-policy-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Network Scorecard API
+  slug: open-extreme-networks-network-scorecard-api
+- collection_type: open
+  name: ExtremeCloud IQ Account NG Reports API
+  slug: open-extreme-networks-ng-reports-api
+- collection_type: open
+  name: ExtremeCloud IQ Account NG Scheduled Reports API
+  slug: open-extreme-networks-ng-scheduled-reports-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Notification API
+  slug: open-extreme-networks-notification-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Operation API
+  slug: open-extreme-networks-operation-api
+- collection_type: open
+  name: ExtremeCloud IQ Account PacketCaptures API
+  slug: open-extreme-networks-packetcaptures-api
+- collection_type: open
+  name: ExtremeCloud IQ Account RTTS API
+  slug: open-extreme-networks-rtts-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Switch Inspector Panel API
+  slug: open-extreme-networks-switch-inspector-panel-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Thread API
+  slug: open-extreme-networks-thread-api
+- collection_type: open
+  name: ExtremeCloud IQ Account Universal Compute Platform API
+  slug: open-extreme-networks-universal-compute-platform-api
+- collection_type: open
+  name: ExtremeCloud IQ Account User API
+  slug: open-extreme-networks-user-api
 - collection_type: open
   name: ExtremeCloud IQ API
   slug: open-extremecloud-iq
@@ -317,7 +455,7 @@ overview: 'Extreme Networks publishes 45 APIs on the [APIs.io](https://apis.io/)
 
 
   Extreme Networks'' developer surface includes authentication, API reference, GitHub presence, documentation, support, engineering blog, status page, and 19 more developer resources.'
-random_paper: 20
+random_paper: 61
 score:
   band: thin
   composite: 34.3
@@ -338,7 +476,7 @@ score:
       marker_coverage: 0.0
       total: 45
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/screenshots/extreme-networks-2026-06-20T180950.png
 security:

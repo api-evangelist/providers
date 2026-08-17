@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Create storage uploads and register jobs for later use.
   name: Lingopal Upload API
   slug: lingopal-upload-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lingopal API v2 Jobs API
+  slug: open-lingopal-jobs-api
+- collection_type: open
+  name: Lingopal API v2 Jobs Languages API
+  slug: open-lingopal-languages-api
+- collection_type: open
+  name: Lingopal API v2 Jobs Translate API
+  slug: open-lingopal-translate-api
+- collection_type: open
+  name: Lingopal API v2 Jobs Upload API
+  slug: open-lingopal-upload-api
 common:
 - group: company
   title: ''
@@ -169,7 +185,7 @@ overview: 'Lingopal publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lingopal''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 18 more developer resources.'
-random_paper: 14
+random_paper: 109
 score:
   band: developing
   composite: 46.9
@@ -193,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/screenshots/lingopal-2026-07-25T225250.png
 security:

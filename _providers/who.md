@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: The Linearization (classification endpoints) API from World Health Organization (WHO) — 13 operation(s) for linearization (classification endpoints).
   name: World Health Organization (WHO) Linearization (classification endpoints) API
   slug: who-linearization-classification-endpoints-api
-artifact_total: 37
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ICD Foundation API
+  slug: open-who-foundation-api
+- collection_type: open
+  name: ICD Foundation ICD10 API
+  slug: open-who-icd10-api
+- collection_type: open
+  name: ICD Foundation Linearization (classification endpoints) API
+  slug: open-who-linearization-classification-endpoints-api
 common:
 - group: agent
   title: ''
@@ -210,7 +223,7 @@ plans:
 - name: Who Plans Pricing
   plan_count: 2
   slug: who-plans-pricing
-random_paper: 94
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Who Rate Limits
@@ -255,7 +268,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/screenshots/who-2026-06-20T201446.png
 security:

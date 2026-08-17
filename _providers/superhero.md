@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: Search for characters by name.
   name: Superhero API Search API
   slug: superhero-search-api
-artifact_total: 13
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Superhero Characters API
+  slug: open-superhero-characters-api
+- collection_type: open
+  name: Superhero Characters Search API
+  slug: open-superhero-search-api
 common:
 - group: agent
   title: ''
@@ -140,7 +150,7 @@ plans:
 - name: Superhero Plans Pricing
   plan_count: 1
   slug: superhero-plans-pricing
-random_paper: 29
+random_paper: 95
 rate_limits:
 - limit_count: 2
   name: Superhero Rate Limits
@@ -180,7 +190,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/screenshots/superhero-2026-06-20T194712.png
 security:

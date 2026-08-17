@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ apis:
 - description: Look up Flickr URLs by user, group, gallery
   name: Flickr URLs API
   slug: flickr-urls-api
-artifact_total: 275
+artifact_total: 308
 collections:
 - collection_type: postman
   name: Flickr Activity API
@@ -233,6 +233,105 @@ collections:
 - collection_type: postman
   name: Flickr Activity URLs API
   slug: postman-flickr-urls-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flickr Activity API
+  slug: open-flickr-activity-api
+- collection_type: open
+  name: Flickr Activity Auth API
+  slug: open-flickr-auth-api
+- collection_type: open
+  name: Flickr Activity Blogs API
+  slug: open-flickr-blogs-api
+- collection_type: open
+  name: Flickr Activity Cameras API
+  slug: open-flickr-cameras-api
+- collection_type: open
+  name: Flickr Activity Collections API
+  slug: open-flickr-collections-api
+- collection_type: open
+  name: Flickr Activity Commons API
+  slug: open-flickr-commons-api
+- collection_type: open
+  name: Flickr Activity Contacts API
+  slug: open-flickr-contacts-api
+- collection_type: open
+  name: Flickr Activity Favorites API
+  slug: open-flickr-favorites-api
+- collection_type: open
+  name: Flickr Activity Galleries API
+  slug: open-flickr-galleries-api
+- collection_type: open
+  name: Flickr Activity Groups API
+  slug: open-flickr-groups-api
+- collection_type: open
+  name: Flickr Activity Groups Discuss API
+  slug: open-flickr-groups-discuss-api
+- collection_type: open
+  name: Flickr Activity Interestingness API
+  slug: open-flickr-interestingness-api
+- collection_type: open
+  name: Flickr Activity Machine Tags API
+  slug: open-flickr-machine-tags-api
+- collection_type: open
+  name: Flickr Activity Panda API
+  slug: open-flickr-panda-api
+- collection_type: open
+  name: Flickr Activity People API
+  slug: open-flickr-people-api
+- collection_type: open
+  name: Flickr Activity Photos API
+  slug: open-flickr-photos-api
+- collection_type: open
+  name: Flickr Activity Photos Geo API
+  slug: open-flickr-photos-geo-api
+- collection_type: open
+  name: Flickr Activity Photos Licenses API
+  slug: open-flickr-photos-licenses-api
+- collection_type: open
+  name: Flickr Activity Photos Notes API
+  slug: open-flickr-photos-notes-api
+- collection_type: open
+  name: Flickr Activity Photos Transform API
+  slug: open-flickr-photos-transform-api
+- collection_type: open
+  name: Flickr Activity Photos Upload API
+  slug: open-flickr-photos-upload-api
+- collection_type: open
+  name: Flickr Activity Photosets API
+  slug: open-flickr-photosets-api
+- collection_type: open
+  name: Flickr Activity Places API
+  slug: open-flickr-places-api
+- collection_type: open
+  name: Flickr Activity Prefs API
+  slug: open-flickr-prefs-api
+- collection_type: open
+  name: Flickr Activity Profile API
+  slug: open-flickr-profile-api
+- collection_type: open
+  name: Flickr Activity Public API
+  slug: open-flickr-public-api
+- collection_type: open
+  name: Flickr Activity Push API
+  slug: open-flickr-push-api
+- collection_type: open
+  name: Flickr Activity Reflection API
+  slug: open-flickr-reflection-api
+- collection_type: open
+  name: Flickr Activity Stats API
+  slug: open-flickr-stats-api
+- collection_type: open
+  name: Flickr Activity Tags API
+  slug: open-flickr-tags-api
+- collection_type: open
+  name: Flickr Activity Test API
+  slug: open-flickr-test-api
+- collection_type: open
+  name: Flickr Activity URLs API
+  slug: open-flickr-urls-api
 - collection_type: open
   name: Flickr API
   slug: open-flickr
@@ -938,7 +1037,7 @@ plans:
 - name: Flickr Plans Pricing
   plan_count: 2
   slug: flickr-plans-pricing
-random_paper: 35
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Flickr Rate Limits
@@ -985,7 +1084,7 @@ score:
       marker_coverage: 100.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flickr/refs/heads/main/screenshots/flickr-2026-06-20T181308.png
 security:

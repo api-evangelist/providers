@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -81,8 +81,53 @@ apis:
 - description: Subscriptions that deliver real-time event notifications to your app.
   name: Quaderno Webhooks API
   slug: quaderno-webhooks-api
-artifact_total: 21
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quaderno Authentication API
+  slug: open-quaderno-authentication-api
+- collection_type: open
+  name: Quaderno Authentication Checkout API
+  slug: open-quaderno-checkout-api
+- collection_type: open
+  name: Quaderno Authentication Contacts API
+  slug: open-quaderno-contacts-api
+- collection_type: open
+  name: Quaderno Authentication Credits API
+  slug: open-quaderno-credits-api
+- collection_type: open
+  name: Quaderno Authentication Estimates API
+  slug: open-quaderno-estimates-api
+- collection_type: open
+  name: Quaderno Authentication Evidences API
+  slug: open-quaderno-evidences-api
+- collection_type: open
+  name: Quaderno Authentication Expenses API
+  slug: open-quaderno-expenses-api
+- collection_type: open
+  name: Quaderno Authentication Invoices API
+  slug: open-quaderno-invoices-api
+- collection_type: open
+  name: Quaderno Authentication Items API
+  slug: open-quaderno-items-api
+- collection_type: open
+  name: Quaderno Authentication Payments API
+  slug: open-quaderno-payments-api
+- collection_type: open
+  name: Quaderno Authentication Recurring API
+  slug: open-quaderno-recurring-api
+- collection_type: open
+  name: Quaderno Authentication Taxes API
+  slug: open-quaderno-taxes-api
+- collection_type: open
+  name: Quaderno Authentication Transactions API
+  slug: open-quaderno-transactions-api
+- collection_type: open
+  name: Quaderno Authentication Webhooks API
+  slug: open-quaderno-webhooks-api
 - collection_type: open
   name: Quaderno API
   slug: open-quaderno
@@ -147,7 +192,7 @@ plans:
 - name: Quaderno Plans Pricing
   plan_count: 5
   slug: quaderno-plans-pricing
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 3
   name: Quaderno Rate Limits
@@ -172,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

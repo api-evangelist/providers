@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 5
@@ -63,8 +63,35 @@ apis:
 - description: The Templates API from Scrive — 2 operation(s) for templates.
   name: Scrive Templates API
   slug: scrive-templates-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scrive Document Access Control API
+  slug: open-scrive-access-control-api
+- collection_type: open
+  name: Scrive Document Access Control Attachments API
+  slug: open-scrive-attachments-api
+- collection_type: open
+  name: Scrive Document Access Control Callbacks API
+  slug: open-scrive-callbacks-api
+- collection_type: open
+  name: Scrive Document Access Control Documents API
+  slug: open-scrive-documents-api
+- collection_type: open
+  name: Scrive Document Access Control e-ID Authentication API
+  slug: open-scrive-e-id-authentication-api
+- collection_type: open
+  name: Scrive Document Access Control Monitor API
+  slug: open-scrive-monitor-api
+- collection_type: open
+  name: Scrive Document Access Control Signing API
+  slug: open-scrive-signing-api
+- collection_type: open
+  name: Scrive Document Access Control Templates API
+  slug: open-scrive-templates-api
 - collection_type: open
   name: Scrive Document API
   slug: open-scrive
@@ -137,7 +164,7 @@ plans:
 - name: Scrive Plans Pricing
   plan_count: 4
   slug: scrive-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Scrive Rate Limits
@@ -167,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

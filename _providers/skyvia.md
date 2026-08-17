@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: REST management API for the Skyvia platform. Programmatically read and control account users and invitations, workspaces and workspace membership, on-premise agents, data-source connections, data inte
@@ -34,11 +34,36 @@ apis:
 - description: Inbound webhook surface for Skyvia Automation. Each automation with a Webhook trigger is assigned a Skyvia-issued base URL plus a user-defined event name; an external application POSTs its event paylo
   name: Skyvia Automation Webhook Triggers
   slug: skyvia-automation-webhook-triggers
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Skyvia Automation Webhooks
   slug: skyvia-automation-webhooks
+collections:
+- collection_type: open
+  name: Skyvia Public API — Account
+  slug: open-skyvia-account-api
+- collection_type: open
+  name: Skyvia Public API — Agents
+  slug: open-skyvia-agents-api
+- collection_type: open
+  name: Skyvia Public API — Automations
+  slug: open-skyvia-automations-api
+- collection_type: open
+  name: Skyvia Public API — Backups
+  slug: open-skyvia-backups-api
+- collection_type: open
+  name: Skyvia Public API — Connections
+  slug: open-skyvia-connections-api
+- collection_type: open
+  name: Skyvia Public API — Endpoints
+  slug: open-skyvia-endpoints-api
+- collection_type: open
+  name: Skyvia Public API — Integrations
+  slug: open-skyvia-integrations-api
+- collection_type: open
+  name: Skyvia Public API — Workspaces
+  slug: open-skyvia-workspaces-api
 common:
 - group: company
   title: ''
@@ -198,7 +223,7 @@ plans:
 - name: Skyvia Plans Pricing
   plan_count: 0
   slug: skyvia-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Skyvia Rate Limits
@@ -211,6 +236,7 @@ scopes:
 score:
   band: developing
   composite: 55.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -218,8 +244,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
+  previous_composite: 55.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Skyvia Authentication

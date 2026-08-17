@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,16 +20,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 39.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 3
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 296
   slug: benchmark-email-agentic-access
   summary_line: 296 operations · 130 acting · 3 human-in-the-loop
-api_count: 29
+api_count: 30
 apis:
 - description: Create and manage A/B split tests
   name: Benchmark Email ABTest Creation API
@@ -126,7 +126,108 @@ apis:
 - description: Manage webhooks for event notifications
   name: Benchmark Email Webhooks API
   slug: benchmark-email-webhooks-api
-artifact_total: 47
+- description: The current Benchmark Email REST API on the benchmarkemail.io platform. Manages contacts, contact structures and custom fields, lists, email campaigns, email templates, sending domains and performance
+  name: Benchmark Email API
+  slug: benchmark-email-api
+artifact_total: 82
+asyncapis:
+- description: ''
+  name: Benchmark Email Events
+  slug: benchmark-email-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation API
+  slug: open-benchmark-email-abtest-creation-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Account Settings API
+  slug: open-benchmark-email-account-settings-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Add Contacts API
+  slug: open-benchmark-email-add-contacts-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Agency Account API
+  slug: open-benchmark-email-agency-account-api
+- collection_type: open
+  name: Benchmark Email API
+  slug: open-benchmark-email-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Archive API
+  slug: open-benchmark-email-archive-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Automation Creation API
+  slug: open-benchmark-email-automation-creation-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Contact Configurations & Searches API
+  slug: open-benchmark-email-contact-configurations-searches-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Contact Reports & Metrics API
+  slug: open-benchmark-email-contact-reports-metrics-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Email Editor API
+  slug: open-benchmark-email-email-editor-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Email  Email Rss Creation API
+  slug: open-benchmark-email-email-email-rss-creation-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Engagement API
+  slug: open-benchmark-email-engagement-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation General API
+  slug: open-benchmark-email-general-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Help API
+  slug: open-benchmark-email-help-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Image Gallery API
+  slug: open-benchmark-email-image-gallery-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Inbox Checker API
+  slug: open-benchmark-email-inbox-checker-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation List Configurations & Searches API
+  slug: open-benchmark-email-list-configurations-searches-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation List Reporting or  Metrics API
+  slug: open-benchmark-email-list-reporting-or-metrics-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Partner API
+  slug: open-benchmark-email-partner-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Poll Creation API
+  slug: open-benchmark-email-poll-creation-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Reports API
+  slug: open-benchmark-email-reports-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Security API
+  slug: open-benchmark-email-security-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Segments API
+  slug: open-benchmark-email-segments-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Signup Form API
+  slug: open-benchmark-email-signup-form-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Sub-Account API
+  slug: open-benchmark-email-sub-account-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Survey API
+  slug: open-benchmark-email-survey-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Survey Creation API
+  slug: open-benchmark-email-survey-creation-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Third Party Signup Forms API
+  slug: open-benchmark-email-third-party-signup-forms-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Video Gallery API
+  slug: open-benchmark-email-video-gallery-api
+- collection_type: open
+  name: Benchmark Email RESTful API v3.0 ABTest Creation Webhooks API
+  slug: open-benchmark-email-webhooks-api
 common:
 - group: operate
   title: ''
@@ -188,8 +289,72 @@ common:
   title: ''
   type: FinOps
   url: finops/benchmark-email-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/benchmark-email-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/benchmark-email-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/benchmark-email-well-known.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/benchmark-email-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/benchmark-email-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/benchmark-email-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/benchmark-email-events.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.benchmarkemail.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.benchmarkemail.io/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.benchmarkemail.io/introduction
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://benchmarkemail.helpscoutdocs.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.benchmarkemail.io/register
+- group: start
+  title: ''
+  type: Login
+  url: https://ui.benchmarkemail.com/Integrate
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.benchmarkemail.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.benchmarkemail.com/privacy-policy/
+- group: build
+  title: ''
+  type: Postman
+  url: https://developer.benchmarkemail.com/
 created: '2026-06-13'
-description: Benchmark Email is an email marketing platform with a REST API for managing contacts, lists, email campaigns, automations, reports, and transactional email delivery. The API supports contact synchronization, campaign management, reporting analytics, domain verification, and webhook notifications for real-time event handling.
+description: Benchmark Email is an email marketing platform for small businesses, run by Benchmark Internet Group, with two live REST API generations. The current Benchmark Email API on the benchmarkemail.io platform covers contacts, contact structures and custom fields, lists, campaigns, templates, sending domains and reports across 40 operations, authenticated with a scoped X-API-Key against a per-account regional base URL. The classic RESTful API v3.0 on clientapi.benchmarkemail.com remains live and documented with 296 operations covering automations, surveys, polls, sub-accounts, galleries and push webhooks. Benchmark publishes an OpenAPI, two llms.txt files, an A2A Agent Card, an Agent Skill and a live documentation MCP endpoint, but ships no maintained SDK, no sandbox, no changelog and no deprecation policy.
 examples:
 - key_count: 4
   name: Add Contact
@@ -233,24 +398,28 @@ jsonld:
   property_count: 35
   slug: benchmark-email-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: benchmark-email-mcp.yml
+  slug: benchmark-email-mcpyml
+modified: '2026-08-13'
 name: Benchmark Email
 nav: Providers
 network: true
-overview: 'Benchmark Email publishes 29 APIs on the [APIs.io](https://apis.io/) network, including ABTest Creation API, Account Settings API, Add Contacts API, and 26 more. Tagged areas include Email Marketing, Campaigns, Contacts, Automation, and Transactional Email.
+overview: 'Benchmark Email publishes 30 APIs on the [APIs.io](https://apis.io/) network, including ABTest Creation API, Account Settings API, Add Contacts API, and 27 more. Tagged areas include Email Marketing, Campaigns, Contacts, Automation, and Transactional Email.
 
 
-  The Benchmark Email catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Benchmark Email catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Benchmark Email''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Benchmark Email''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, signup flow, and 24 more developer resources.'
 plans:
 - name: Benchmark Email Plans Pricing
   plan_count: 3
   slug: benchmark-email-plans-pricing
-random_paper: 64
+random_paper: 14
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Benchmark Email Rate Limits
   slug: benchmark-email-rate-limits
 rules:
@@ -262,17 +431,22 @@ rules:
     info: 1
     warn: 4
   slug: benchmark-email-jsonschema-spectral-rules
+scopes:
+- name: Benchmark Email Scopes
+  scope_count: 0
+  slug: benchmark-email-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 51.6
-  delta: 0.0
+  band: exemplar
+  composite: 72.0
+  delta: 20.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 69.4
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    commercial_clarity: 92.1
+    contract_quality: 78.1
+    developer_ergonomics: 63.0
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 28.9
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -282,14 +456,14 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png
 security:
 - kind: authentication
   name: Benchmark Email Authentication
   slug: benchmark-email-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Benchmark Email Domain Security
   slug: benchmark-email-domain-security
@@ -302,5 +476,13 @@ tags:
 - Automation
 - Transactional Email
 - Marketing
+- Lists
+- Segmentation
+- Reporting
+- Deliverability
+- Sending Domains
+- Email Templates
+- Webhooks
+- Agent Ready
 website: https://www.benchmarkemail.com/
 ---

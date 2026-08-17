@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Publish identity, resource and authorization metadata from custom or unsupported applications into the Veza Entity Catalog, and run authorization assessment queries and reports.
@@ -155,7 +155,7 @@ overview: 'Veza publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Veza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 78
+random_paper: 140
 score:
   band: developing
   composite: 42.3
@@ -173,7 +173,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Manage webhook subscriptions
   name: ShipStation Webhooks API
   slug: shipstation-webhooks-api
-artifact_total: 82
+artifact_total: 93
 asyncapis:
 - description: AsyncAPI description of the ShipStation V1 outbound webhook surface. ShipStation delivers event notifications by issuing HTTP POST requests with a JSON body to a `target_url` that the customer registe
   name: ShipStation Webhooks
@@ -109,8 +109,41 @@ collections:
   name: ShipStation V1 Accounts Webhooks API
   slug: postman-shipstation-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ShipStation V1 Accounts API
+  slug: open-shipstation-accounts-api
+- collection_type: open
+  name: ShipStation V1 Accounts Carriers API
+  slug: open-shipstation-carriers-api
+- collection_type: open
+  name: ShipStation V1 Accounts Customers API
+  slug: open-shipstation-customers-api
+- collection_type: open
+  name: ShipStation V1 Accounts Fulfillments API
+  slug: open-shipstation-fulfillments-api
+- collection_type: open
+  name: ShipStation V1 Accounts Orders API
+  slug: open-shipstation-orders-api
+- collection_type: open
+  name: ShipStation V1 Accounts Products API
+  slug: open-shipstation-products-api
+- collection_type: open
+  name: ShipStation V1 Accounts Shipments API
+  slug: open-shipstation-shipments-api
+- collection_type: open
+  name: ShipStation V1 Accounts Stores API
+  slug: open-shipstation-stores-api
+- collection_type: open
   name: ShipStation V1 API
   slug: open-shipstation-v1
+- collection_type: open
+  name: ShipStation V1 Accounts Warehouses API
+  slug: open-shipstation-warehouses-api
+- collection_type: open
+  name: ShipStation V1 Accounts Webhooks API
+  slug: open-shipstation-webhooks-api
 common:
 - group: build
   title: ''
@@ -328,7 +361,7 @@ plans:
 - name: Shipstation Plans Pricing
   plan_count: 3
   slug: shipstation-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Shipstation Rate Limits
@@ -378,7 +411,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/screenshots/shipstation-2026-06-20T193826.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: OAuth 2.0 and OpenID Connect single sign-on.
   name: Edlink SSO API
   slug: edlink-sso-api
-artifact_total: 19
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Edlink Agents API
+  slug: open-edlink-agents-api
+- collection_type: open
+  name: Edlink Agents Classes API
+  slug: open-edlink-classes-api
+- collection_type: open
+  name: Edlink Agents Courses API
+  slug: open-edlink-courses-api
+- collection_type: open
+  name: Edlink Agents Districts API
+  slug: open-edlink-districts-api
+- collection_type: open
+  name: Edlink Agents Enrollments API
+  slug: open-edlink-enrollments-api
+- collection_type: open
+  name: Edlink Agents Events API
+  slug: open-edlink-events-api
+- collection_type: open
+  name: Edlink Agents Graph API
+  slug: open-edlink-graph-api
+- collection_type: open
+  name: Edlink Agents Integrations API
+  slug: open-edlink-integrations-api
+- collection_type: open
+  name: Edlink Agents People API
+  slug: open-edlink-people-api
+- collection_type: open
+  name: Edlink Agents Schools API
+  slug: open-edlink-schools-api
+- collection_type: open
+  name: Edlink Agents Sections API
+  slug: open-edlink-sections-api
+- collection_type: open
+  name: Edlink Agents SSO API
+  slug: open-edlink-sso-api
 - collection_type: open
   name: Edlink API
   slug: open-edlink
@@ -145,7 +184,7 @@ plans:
 - name: Edlink Plans Pricing
   plan_count: 3
   slug: edlink-plans-pricing
-random_paper: 31
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Edlink Rate Limits
@@ -170,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/screenshots/edlink-2026-07-25T212853.png
 security:

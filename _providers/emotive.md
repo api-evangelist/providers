@@ -1,35 +1,66 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Contact Sales
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
-  trial: false
+  source:
+  - https://www.emotive.io/pricing/sms
+  - https://help.emotive.io/docs/integrations/open-api-integration-orders
+  trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 39.6
+  scored_at: '2026-08-17'
+api_count: 8
+apis:
+- description: The public Emotive Open API for eCommerce integrations — track orders for attribution, opt a phone number out of SMS, and push custom events that can trigger an Emotive Flow. Authenticated with an Emo
+  name: Emotive Open API
+  slug: emotive-open-api
+- description: List Growth API for opting customers in to SMS and email from an external system. Returns the active signup flows (subscriber lists) a subscriber can be added to.
+  name: Emotive Lists API (Subscriber Engine)
+  slug: emotive-lists-api-subscriber-engine
+- description: Inbound webhook receiver on the Emotive API gateway — create subscribers singly and in bulk, set profile properties, and receive Shopify, Twilio and Alloy callbacks. This is the API behind the documen
+  name: Emotive Sensus Webhooks API
+  slug: emotive-sensus-webhooks-api
+- description: Connect a custom helpdesk to Emotive — register a ticket-system connection, mint a brand token, configure webhooks for ticket creation and updates, and post ticket events back to Emotive. Emotive's kn
+  name: Emotive Helpdesk API
+  slug: emotive-helpdesk-api
+- description: Emotive's authentication and tenancy service — OAuth token issuance, Auth0, Google and Shopify login legs, JWT claims, brand and user management, roles, invitations, products and the Zapier app key ch
+  name: Emotive Auth Server API
+  slug: emotive-auth-server-api
+- description: Create, retrieve, update and archive audience segments used to target SMS broadcasts and flows.
+  name: Emotive Segments API
+  slug: emotive-segments-api
+- description: Read campaign and campaign-step analytics for an Emotive Experience (Flow).
+  name: Emotive Experiences API
+  slug: emotive-experiences-api
+- description: 'Anonymous remote MCP server published by Emotive''s Mintlify knowledge base. Three tools — documentation search, a read-only virtual filesystem over the docs, and documentation feedback. Verified live '
+  name: Emotive Knowledge Base MCP Server
+  slug: emotive-knowledge-base-mcp-server
+artifact_total: 14
+asyncapis:
+- description: ''
+  name: Emotive Webhooks
+  slug: emotive-webhooks
 common:
 - group: company
   title: ''
@@ -61,6 +92,26 @@ common:
   url: https://www.emotive.io/customer-success
 - group: operate
   title: ''
+  type: HelpCenter
+  url: https://help.emotive.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.emotive.io/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://emotive.gitbook.io/emotive-lists
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://emotive.gitbook.io/emotive-lists/reference/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://emotive.gitbook.io/emotive-lists/integration-setup-instructions
+- group: operate
+  title: ''
   type: StatusPage
   url: https://status.emotive.io/
 - group: design
@@ -71,29 +122,81 @@ common:
   title: ''
   type: DomainSecurity
   url: security/emotive-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/emotive-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/emotive-well-known.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/emotive-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/emotive-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/emotive-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/emotive-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/emotive-rate-limits.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/emotive-components.yml
 created: '2026-07-17'
-description: Emotive is an SMS marketing platform for eCommerce brands, combining two-way conversational text messaging, behavioral triggers, and automation with a dedicated managed service (TextPros) of ex-agency SMS strategists and copywriters. Its products include SMS Marketing campaigns and flows, CartAI cart-recovery pixel technology, multi-touch Attribution analytics, and integrations with eCommerce platforms, email service providers, and business tools. Emotive markets a "5X ROI guarantee" to Shopify and other direct-to-consumer merchants. The company was surfaced as a portfolio company of CRV and later acquired by Privy. Emotive operates a public marketing site and app but publishes no public developer/API program or specification.
+description: 'Emotive is an SMS marketing platform for eCommerce brands, combining two-way conversational text messaging, behavioral triggers, and automation with a dedicated managed service (TextPros) of ex-agency SMS strategists and copywriters. Its products include SMS Marketing campaigns and flows, CartAI cart-recovery pixel technology, multi-touch Attribution analytics, RealLink branded short links, and integrations with eCommerce platforms, email service providers, and business tools. Emotive markets a "5X ROI guarantee" to Shopify and other direct-to-consumer merchants. The company was surfaced as a portfolio company of CRV and was acquired by Privy. Emotive runs a real, publicly documented developer surface: an Open API for order tracking, manual opt-outs and custom events on api.emotiveapp.co; a Lists / Subscriber API documented in GitBook; and an API gateway at api-gw.emotiveapp.co that serves five OpenAPI 3.0.2 documents (Helpdesk, Sensus Webhooks, Auth Server, Segments, Experiences).
+  Its Mintlify knowledge base publishes an llms.txt, an A2A agent card, a packaged Agent Skill and an anonymous remote MCP server.'
 image: https://www.emotive.io/assets/brand/emotive-symbol-blue-on-transparent.png
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: emotive-mcp.yml
+  slug: emotive-mcpyml
+modified: '2026-08-13'
 name: Emotive
 nav: Providers
 network: true
-overview: 'Emotive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, SMS, Messaging, and eCommerce.
+overview: 'Emotive publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Open API, Lists API (Subscriber Engine), Sensus Webhooks API, and 4 more. Tagged areas include Company, Marketing, SMS, Messaging, and eCommerce.
 
 
-  Emotive''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 41
+  The Emotive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Emotive''s developer surface includes pricing, engineering blog, support, documentation, API reference, getting-started guide, and 18 more developer resources.'
+plans:
+- name: Emotive Plans Pricing
+  plan_count: 0
+  slug: emotive-plans-pricing
+random_paper: 16
+rate_limits:
+- limit_count: 0
+  name: Emotive Rate Limits
+  slug: emotive-rate-limits
 score:
-  band: emerging
-  composite: 17.6
-  delta: 0.0
+  band: developing
+  composite: 44.9
+  delta: 27.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
+    commercial_clarity: 52.6
+    contract_quality: 56.5
+    developer_ergonomics: 47.8
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 15.8
   previous_composite: 17.6
   regulatory:
@@ -101,12 +204,16 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 19.4
+    score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/screenshots/emotive-2026-07-25T213253.png
 security:
+- kind: authentication
+  name: Emotive Authentication
+  slug: emotive-authentication
+  summary_line: apiKey/http · 6 schemes
 - kind: domain-security
   name: Emotive Domain Security
   slug: emotive-domain-security
@@ -121,5 +228,9 @@ tags:
 - Marketing Automation
 - Text Message Marketing
 - Conversational Commerce
+- Webhooks
+- Customer Data
+- Segmentation
+- Attribution
 website: https://www.emotive.io/
 ---

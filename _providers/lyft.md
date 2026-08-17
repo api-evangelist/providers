@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,14 +60,38 @@ apis:
 - description: Endpoints for requesting, tracking, canceling, and managing Lyft rides on behalf of an authenticated user.
   name: lyft Rides API
   slug: lyft-rides-api
-artifact_total: 21
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lyft Concierge Concierge Rides API
+  slug: open-lyft-concierge-rides-api
 - collection_type: open
   name: Lyft Concierge API
   slug: open-lyft-concierge
 - collection_type: open
+  name: Lyft Concierge Concierge Rides Cost Estimates API
+  slug: open-lyft-cost-estimates-api
+- collection_type: open
+  name: Lyft Concierge Concierge Rides Drivers API
+  slug: open-lyft-drivers-api
+- collection_type: open
+  name: Lyft Concierge Concierge Rides ETA API
+  slug: open-lyft-eta-api
+- collection_type: open
+  name: Lyft Concierge Concierge Rides Profile API
+  slug: open-lyft-profile-api
+- collection_type: open
   name: Lyft Ride-Sharing API
   slug: open-lyft-ride-sharing
+- collection_type: open
+  name: Lyft Concierge Concierge Rides Ride Types API
+  slug: open-lyft-ride-types-api
+- collection_type: open
+  name: Lyft Concierge Concierge Rides API
+  slug: open-lyft-rides-api
 common:
 - group: agent
   title: ''
@@ -150,7 +174,7 @@ plans:
 - name: Lyft Plans Pricing
   plan_count: 3
   slug: lyft-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Lyft Rate Limits
@@ -184,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/screenshots/lyft-2026-06-20T184816.png
 security:

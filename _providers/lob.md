@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 46
 apis:
 - description: The Accounts API from Lob — 1 operation(s) for accounts.
@@ -170,7 +170,149 @@ apis:
 - description: The Zip Lookups API from Lob — 1 operation(s) for zip lookups.
   name: Lob Zip  Lookups API
   slug: lob-zip-lookups-api
-artifact_total: 51
+artifact_total: 98
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lob Accounts API
+  slug: open-lob-accounts-api
+- collection_type: open
+  name: Lob Addresses API
+  slug: open-lob-addresses-api
+- collection_type: open
+  name: Lob Bank  Accounts API
+  slug: open-lob-bank-accounts-api
+- collection_type: open
+  name: Lob Bank_id API
+  slug: open-lob-bank-id-api
+- collection_type: open
+  name: Lob Bg_id API
+  slug: open-lob-bg-id-api
+- collection_type: open
+  name: Lob Billing  Groups API
+  slug: open-lob-billing-groups-api
+- collection_type: open
+  name: Lob Booklet_id API
+  slug: open-lob-booklet-id-api
+- collection_type: open
+  name: Lob Booklets API
+  slug: open-lob-booklets-api
+- collection_type: open
+  name: Lob Buckslip_id API
+  slug: open-lob-buckslip-id-api
+- collection_type: open
+  name: Lob Buckslips API
+  slug: open-lob-buckslips-api
+- collection_type: open
+  name: Lob Bulk API
+  slug: open-lob-bulk-api
+- collection_type: open
+  name: Lob Campaigns API
+  slug: open-lob-campaigns-api
+- collection_type: open
+  name: Lob Cards API
+  slug: open-lob-cards-api
+- collection_type: open
+  name: Lob Checks API
+  slug: open-lob-checks-api
+- collection_type: open
+  name: Lob Creatives API
+  slug: open-lob-creatives-api
+- collection_type: open
+  name: Lob Crv_id API
+  slug: open-lob-crv-id-api
+- collection_type: open
+  name: Lob Domains API
+  slug: open-lob-domains-api
+- collection_type: open
+  name: Lob Exports API
+  slug: open-lob-exports-api
+- collection_type: open
+  name: Lob Files API
+  slug: open-lob-files-api
+- collection_type: open
+  name: Lob Identity  Validation API
+  slug: open-lob-identity-validation-api
+- collection_type: open
+  name: Lob Informed  Delivery  Campaign API
+  slug: open-lob-informed-delivery-campaign-api
+- collection_type: open
+  name: Lob Intl  Verifications API
+  slug: open-lob-intl-verifications-api
+- collection_type: open
+  name: Lob Letters API
+  slug: open-lob-letters-api
+- collection_type: open
+  name: Lob Links API
+  slug: open-lob-links-api
+- collection_type: open
+  name: Lob Ltr_id API
+  slug: open-lob-ltr-id-api
+- collection_type: open
+  name: Lob Orders API
+  slug: open-lob-orders-api
+- collection_type: open
+  name: Lob Postcards API
+  slug: open-lob-postcards-api
+- collection_type: open
+  name: Lob Psc_id API
+  slug: open-lob-psc-id-api
+- collection_type: open
+  name: Lob Q R  Codes API
+  slug: open-lob-q-r-codes-api
+- collection_type: open
+  name: Lob Reports API
+  slug: open-lob-reports-api
+- collection_type: open
+  name: Lob Reverse  Geocode  Lookups API
+  slug: open-lob-reverse-geocode-lookups-api
+- collection_type: open
+  name: Lob Self  Mailers API
+  slug: open-lob-self-mailers-api
+- collection_type: open
+  name: Lob Send API
+  slug: open-lob-send-api
+- collection_type: open
+  name: Lob Sfm_id API
+  slug: open-lob-sfm-id-api
+- collection_type: open
+  name: Lob Snap_pack_id API
+  slug: open-lob-snap-pack-id-api
+- collection_type: open
+  name: Lob Snap  Packs API
+  slug: open-lob-snap-packs-api
+- collection_type: open
+  name: Lob Template  Versions API
+  slug: open-lob-template-versions-api
+- collection_type: open
+  name: Lob Templates API
+  slug: open-lob-templates-api
+- collection_type: open
+  name: Lob U R L  Shortener API
+  slug: open-lob-u-r-l-shortener-api
+- collection_type: open
+  name: Lob U S  Autocompletions API
+  slug: open-lob-u-s-autocompletions-api
+- collection_type: open
+  name: Lob U S  Verifications API
+  slug: open-lob-u-s-verifications-api
+- collection_type: open
+  name: Lob Uploads API
+  slug: open-lob-uploads-api
+- collection_type: open
+  name: Lob Usps_campaign_id API
+  slug: open-lob-usps-campaign-id-api
+- collection_type: open
+  name: Lob Verify API
+  slug: open-lob-verify-api
+- collection_type: open
+  name: Lob Versions API
+  slug: open-lob-versions-api
+- collection_type: open
+  name: Lob Zip  Lookups API
+  slug: open-lob-zip-lookups-api
 common:
 - group: auth
   title: ''
@@ -272,7 +414,7 @@ plans:
 - name: Lob Plans Pricing
   plan_count: 3
   slug: lob-plans-pricing
-random_paper: 77
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Lob Rate Limits
@@ -296,7 +438,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/screenshots/lob-2026-06-20T184627.png
 security:

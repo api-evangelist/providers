@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 42
 apis:
 - description: The OldV1PriorAuthorizationResource API from Silna — 1 operation(s) for oldv1priorauthorizationresource.
@@ -157,7 +157,137 @@ apis:
 - description: The V2BenefitsCheckResource API from Silna — 1 operation(s) for v2benefitscheckresource.
   name: Silna V2BenefitsCheckResource API
   slug: silna-v2benefitscheckresource-api
-artifact_total: 47
+artifact_total: 90
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource API
+  slug: open-silna-oldv1priorauthorizationresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1BenefitsCheckReportResource API
+  slug: open-silna-v1benefitscheckreportresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1BenefitsCheckResource API
+  slug: open-silna-v1benefitscheckresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1BenefitsCheckTemplatesResource API
+  slug: open-silna-v1benefitschecktemplatesresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1BulkExportResource API
+  slug: open-silna-v1bulkexportresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1CliniciansResource API
+  slug: open-silna-v1cliniciansresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ContractResource API
+  slug: open-silna-v1contractresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ContractsResource API
+  slug: open-silna-v1contractsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1DocumentValidationBatchDocumentValidationsResource API
+  slug: open-silna-v1documentvalidationbatchdocumentvalidationsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1DocumentValidationBatchResource API
+  slug: open-silna-v1documentvalidationbatchresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1DocumentValidationResource API
+  slug: open-silna-v1documentvalidationresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1EscalationsResource API
+  slug: open-silna-v1escalationsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1FileResource API
+  slug: open-silna-v1fileresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1GetPayorResource API
+  slug: open-silna-v1getpayorresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PatientDiagnosisResource API
+  slug: open-silna-v1patientdiagnosisresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PatientNotesResource API
+  slug: open-silna-v1patientnotesresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PatientPlaceOfServicesResource API
+  slug: open-silna-v1patientplaceofservicesresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PatientPlanBenefitsChecksResource API
+  slug: open-silna-v1patientplanbenefitschecksresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PatientPlanPriorAuthorizationsResource API
+  slug: open-silna-v1patientplanpriorauthorizationsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PatientPlanResource API
+  slug: open-silna-v1patientplanresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PatientPlansResource API
+  slug: open-silna-v1patientplansresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PatientResource API
+  slug: open-silna-v1patientresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PatientsResource API
+  slug: open-silna-v1patientsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PayorDetectionRunResource API
+  slug: open-silna-v1payordetectionrunresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PayorInferenceResource API
+  slug: open-silna-v1payorinferenceresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PayorPlansResource API
+  slug: open-silna-v1payorplansresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PayorsResource API
+  slug: open-silna-v1payorsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PriorAuthorizationCompletedResource API
+  slug: open-silna-v1priorauthorizationcompletedresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PriorAuthorizationCompleteRequestResource API
+  slug: open-silna-v1priorauthorizationcompleterequestresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PriorAuthorizationRecordApprovalResource API
+  slug: open-silna-v1priorauthorizationrecordapprovalresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1PriorAuthorizationResource API
+  slug: open-silna-v1priorauthorizationresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ProviderGroupResource API
+  slug: open-silna-v1providergroupresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ProviderGroupsResource API
+  slug: open-silna-v1providergroupsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ProviderPayorsResource API
+  slug: open-silna-v1providerpayorsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ProviderPlaceOfServicesResource API
+  slug: open-silna-v1providerplaceofservicesresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ProviderResource API
+  slug: open-silna-v1providerresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ProviderServiceLocationsResource API
+  slug: open-silna-v1providerservicelocationsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ProvidersResource API
+  slug: open-silna-v1providersresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ServiceLocationByIdResource API
+  slug: open-silna-v1servicelocationbyidresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ServiceLocationProviderPlaceOfServicesResource API
+  slug: open-silna-v1servicelocationproviderplaceofservicesresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V1ServiceLocationsResource API
+  slug: open-silna-v1servicelocationsresource-api
+- collection_type: open
+  name: Silna Public OldV1PriorAuthorizationResource V2BenefitsCheckResource API
+  slug: open-silna-v2benefitscheckresource-api
 common:
 - group: auth
   title: ''
@@ -299,7 +429,7 @@ overview: 'Silna publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Silna''s developer surface includes authentication, sandbox, developer portal, documentation, API reference, getting-started guide, signup flow, and 24 more developer resources.'
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Silna Rate Limits
@@ -332,7 +462,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

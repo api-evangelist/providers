@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -68,11 +68,18 @@ apis:
 - description: Legacy Voice API for listing and retrieving recent voicemail messages for a Swisscom MSISDN, secured by OAuth 2.0 client-credentials or authorization-code grants. Documented as RAML-rendered HTML in t
   name: Swisscom Voice Mail API
   slug: swisscom-voice-mail-api
-artifact_total: 21
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Swisscom Messaging Webhooks
   slug: swisscom-messaging-webhooks
+collections:
+- collection_type: open
+  name: All-in Signing Service REST Application
+  slug: open-swisscom-all-in-signing-service
+- collection_type: open
+  name: Swisscom Sign Integration API
+  slug: open-swisscom-sign-integration-api
 common:
 - group: build
   title: ''
@@ -270,7 +277,7 @@ overview: 'Swisscom publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Swisscom''s developer surface includes CLI, changelog, sandbox, API reference, getting-started guide, support, engineering blog, and 37 more developer resources.'
-random_paper: 48
+random_paper: 143
 scopes:
 - name: Swisscom Scopes
   scope_count: 3
@@ -305,7 +312,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

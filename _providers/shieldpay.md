@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API to manage payment workflows end to end — create projects, manage payers and payees, run KYC verification, and authorise payments to disburse funds securely. Secured with mTLS + API key + RSA-
@@ -168,7 +168,7 @@ overview: 'Shieldpay publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Shieldpay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 3
+random_paper: 69
 score:
   band: developing
   composite: 48.4
@@ -190,7 +190,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Renewable shares
   name: Energy Charts API ren_share API
   slug: energy-charts-api-ren-share-api
-artifact_total: 10
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Energy-Charts import_export API
+  slug: open-energy-charts-api-import-export-api
+- collection_type: open
+  name: Energy-Charts import_export power API
+  slug: open-energy-charts-api-power-api
+- collection_type: open
+  name: Energy-Charts import_export prices API
+  slug: open-energy-charts-api-prices-api
+- collection_type: open
+  name: Energy-Charts import_export ren_share API
+  slug: open-energy-charts-api-ren-share-api
 - collection_type: open
   name: Energy-Charts API
   slug: open-energy-charts-api
@@ -89,7 +104,7 @@ plans:
 - name: Energy Charts Api Plans Pricing
   plan_count: 3
   slug: energy-charts-api-plans-pricing
-random_paper: 19
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Energy Charts Api Rate Limits
@@ -120,7 +135,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/screenshots/energy-charts-api-2026-06-20T180710.png
 security:

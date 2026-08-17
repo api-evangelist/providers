@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -72,14 +72,29 @@ apis:
 - description: The Transactions API from Chase — 1 operation(s) for transactions.
   name: Chase Transactions API
   slug: chase-transactions-api
-artifact_total: 29
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Chase Account Aggregation User Consent API
   slug: open-chase-account-aggregation-user-consent-api
 - collection_type: open
   name: Chase Account and Customer Information API
   slug: open-chase-account-and-customer-information-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts API
+  slug: open-chase-accounts-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts Consents API
+  slug: open-chase-consents-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts Customers API
+  slug: open-chase-customers-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts Enrollments API
+  slug: open-chase-enrollments-api
 - collection_type: open
   name: Chase Loyalty Pay with Points Enrollment Service API
   slug: open-chase-loyalty-pay-with-points-enrollment-service-api
@@ -90,8 +105,26 @@ collections:
   name: Chase Loyalty PCI Merchant Relationship Manager API
   slug: open-chase-loyalty-pci-merchant-relationship-manager-api
 - collection_type: open
-  name: Chase Rewards Balance API
+  name: Chase Account Aggregation User Consent Accounts Merchants API
+  slug: open-chase-merchants-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts Orders API
+  slug: open-chase-orders-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts Refunds API
+  slug: open-chase-refunds-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts Rewards Balance API
   slug: open-chase-rewards-balance-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts Statements API
+  slug: open-chase-statements-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts Tax Forms API
+  slug: open-chase-tax-forms-api
+- collection_type: open
+  name: Chase Account Aggregation User Consent Accounts Transactions API
+  slug: open-chase-transactions-api
 common:
 - group: agent
   title: ''
@@ -208,7 +241,7 @@ plans:
 - name: Chase Plans Pricing
   plan_count: 2
   slug: chase-plans-pricing
-random_paper: 36
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Chase Rate Limits
@@ -253,7 +286,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/screenshots/chase-2026-06-20T174235.png
 security:

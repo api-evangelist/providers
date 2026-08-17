@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -101,7 +101,74 @@ apis:
 - description: API endpoints for implementing and running a Verifiable Credential Issuer (VCI).
   name: Authlete Verifiable Credential Issuer API
   slug: authlete-verifiable-credential-issuer-api
-artifact_total: 26
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authlete Authorization Endpoint API
+  slug: open-authlete-authorization-endpoint-api
+- collection_type: open
+  name: Authlete Authorization Endpoint CIBA API
+  slug: open-authlete-ciba-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Client Management API
+  slug: open-authlete-client-management-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Device Flow API
+  slug: open-authlete-device-flow-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Dynamic Client Registration API
+  slug: open-authlete-dynamic-client-registration-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Federation Endpoint API
+  slug: open-authlete-federation-endpoint-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Grant Management Endpoint API
+  slug: open-authlete-grant-management-endpoint-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Hardware Security Key API
+  slug: open-authlete-hardware-security-key-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Introspection Endpoint API
+  slug: open-authlete-introspection-endpoint-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Jose Object API
+  slug: open-authlete-jose-object-api
+- collection_type: open
+  name: Authlete Authorization Endpoint JWK Set Endpoint API
+  slug: open-authlete-jwk-set-endpoint-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Lifecycle API
+  slug: open-authlete-lifecycle-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Native SSO API
+  slug: open-authlete-native-sso-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Pushed Authorization Endpoint API
+  slug: open-authlete-pushed-authorization-endpoint-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Revocation Endpoint API
+  slug: open-authlete-revocation-endpoint-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Service Management API
+  slug: open-authlete-service-management-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Token Endpoint API
+  slug: open-authlete-token-endpoint-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Token Operations API
+  slug: open-authlete-token-operations-api
+- collection_type: open
+  name: Authlete Authorization Endpoint UserInfo Endpoint API
+  slug: open-authlete-userinfo-endpoint-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Utility Endpoints API
+  slug: open-authlete-utility-endpoints-api
+- collection_type: open
+  name: Authlete Authorization Endpoint Verifiable Credential Issuer API
+  slug: open-authlete-verifiable-credential-issuer-api
 common:
 - group: start
   title: ''
@@ -259,7 +326,7 @@ overview: 'Authlete publishes 21 APIs on the [APIs.io](https://apis.io/) network
 
 
   Authlete''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 20
+random_paper: 115
 score:
   band: developing
   composite: 54.4
@@ -283,7 +350,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/screenshots/authlete-2026-07-25T201804.png
 security:

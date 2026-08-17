@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,14 @@ apis:
 - description: The Publication API from Lund University — 2 operation(s) for publication.
   name: Lund University Publication API
   slug: lund-publication-api
-artifact_total: 18
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lund University Publications (LUP) Search Publication API
+  slug: open-lund-publication-api
 common:
 - group: agent
   title: ''
@@ -142,7 +149,7 @@ plans:
 - name: Lund Plans Pricing
   plan_count: 2
   slug: lund-plans-pricing
-random_paper: 75
+random_paper: 137
 rate_limits:
 - limit_count: 1
   name: Lund Rate Limits
@@ -190,7 +197,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/screenshots/lund-2026-06-20T184805.png
 security:

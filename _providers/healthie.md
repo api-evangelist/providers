@@ -1,48 +1,171 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid (free trial) · Sales-gated API access
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
-  trial: false
-  try_now: false
+  source:
+  - https://www.gethealthie.com/pricing
+  - https://www.gethealthie.com/plus/api-for-digital-health-startups
+  - https://docs.gethealthie.com/guides/api-concepts/environments
+  trial: true
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-12'
+  score: 50.2
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Healthie GraphQL API is the single contract behind the entire Healthie platform — the same API that powers the Healthie web, iOS, and Android applications is available to partners building branded
   name: Healthie GraphQL API
   slug: healthie-graphql-api
-artifact_total: 21
+artifact_total: 27
 asyncapis:
+- description: Best-effort AsyncAPI 2.6 description of the Healthie **GraphQL subscription** surface — the real-time push channel, distinct from the outbound HTTP webhook surface described in `healthie-webhooks-asyn
+  name: Healthie GraphQL Subscriptions (WebSocket)
+  slug: healthie-subscriptions-asyncapi
 - description: Best-effort AsyncAPI 2.6 description of the Healthie webhook surface. Healthie delivers webhook notifications as HTTP POST requests with an `application/json` body whenever a subscribed event occurs o
   name: Healthie Webhooks
   slug: healthie-webhooks-asyncapi
 common:
 - group: auth
   title: ''
+  type: TrustCenter
+  url: security/healthie-trust-center.yml
+- group: auth
+  title: ''
   type: DomainSecurity
   url: security/healthie-domain-security.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.gethealthie.com/security
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/healthie-conformance.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.gethealthie.com/reference
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/healthie-schema.graphql
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/healthie-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/healthie-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/healthie-error-codes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/healthie-rate-limits.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/healthie-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/healthie-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.gethealthie.com/guides/api-concepts/deprecations
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/healthie-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/healthie-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/healthie-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/healthie-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/healthie-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/healthie-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/healthie-llms.txt
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/healthie-subscriptions-asyncapi.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/healthie-plans-pricing.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.gethealthie.com/api
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.gethealthie.com/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://portal.productboard.com/gethealthie/1-healthie-product-portal/tabs/4-in-development
+- group: start
+  title: ''
+  type: SignUp
+  url: https://secure.gethealthie.com/users/sign_up/provider
+- group: start
+  title: ''
+  type: Login
+  url: https://secure.gethealthie.com/users/sign_in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.gethealthie.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.gethealthie.com/privacy
 - group: company
   title: ''
   type: Website
@@ -152,18 +275,30 @@ graphqls:
   slug: healthie-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/healthie.png
 layout: provider
-modified: '2026-05-30'
+mcp_servers:
+- description: ''
+  name: Healthie Dev Assist (local stdio)
+  slug: healthie-dev-assist-local-stdio
+modified: '2026-08-14'
 name: Healthie
 nav: Providers
 network: true
 overview: 'Healthie publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include API-First, Appointments, Billing, Care Plans, and Charting.
 
 
-  The Healthie catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+  The Healthie catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
-  Healthie''s developer surface includes developer portal, documentation, getting-started guide, authentication, tooling, code examples, engineering blog, and 15 more developer resources.'
-random_paper: 116
+  Healthie''s developer surface includes API reference, authentication, changelog, sandbox, support, signup flow, developer portal, and 44 more developer resources.'
+plans:
+- name: Healthie Plans Pricing
+  plan_count: 5
+  slug: healthie-plans-pricing
+random_paper: 91
+rate_limits:
+- limit_count: 3
+  name: Healthie Rate Limits
+  slug: healthie-rate-limits
 rules:
 - name: Healthie API Rules
   rule_count: 5
@@ -174,32 +309,40 @@ rules:
     warn: 4
   slug: healthie-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 37.9
-  delta: 0.0
+  band: exemplar
+  composite: 68.7
+  delta: 30.8
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 50.6
-    developer_ergonomics: 47.8
-    discoverability: 68.5
-    governance: 41.7
-    operational_transparency: 44.7
+    commercial_clarity: 92.1
+    contract_quality: 56.0
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    governance: 54.2
+    operational_transparency: 89.5
   previous_composite: 37.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 15.0
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/screenshots/healthie-2026-06-20T182600.png
 security:
+- kind: authentication
+  name: Healthie Authentication
+  slug: healthie-authentication
+  summary_line: apiKey · 4 schemes
 - kind: domain-security
   name: Healthie Domain Security
   slug: healthie-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Healthie Trust Center
+  slug: healthie-trust-center
+  summary_line: HIPAA, SOC 2 Type 2, HITRUST CSF r2, ONC Health IT Certification, PCI DSS Service Provider Level 1 (held by Healthie's payment processor, not by Healthie), GDPR, PIPEDA
 slug: healthie
 tags:
 - API-First

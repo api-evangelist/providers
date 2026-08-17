@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Addresses API from Havenly — 1 operation(s) for addresses.
@@ -64,11 +64,47 @@ apis:
 - description: The Vendor Variants API from Havenly — 1 operation(s) for vendor variants.
   name: Havenly Vendor Variants API
   slug: havenly-vendor-variants-api
-artifact_total: 16
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Havenly API
   slug: postman-havenly-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Havenly Addresses API
+  slug: open-havenly-addresses-api
+- collection_type: open
+  name: Havenly Addresses Attribute Types API
+  slug: open-havenly-attribute-types-api
+- collection_type: open
+  name: Havenly Addresses Authentication API
+  slug: open-havenly-authentication-api
+- collection_type: open
+  name: Havenly Addresses Board Feedback API
+  slug: open-havenly-board-feedback-api
+- collection_type: open
+  name: Havenly Addresses Board Feedback Questions API
+  slug: open-havenly-board-feedback-questions-api
+- collection_type: open
+  name: Havenly Addresses Board Products API
+  slug: open-havenly-board-products-api
+- collection_type: open
+  name: Havenly Addresses Searched Vendor Variants API
+  slug: open-havenly-searched-vendor-variants-api
+- collection_type: open
+  name: Havenly Addresses User Opinions API
+  slug: open-havenly-user-opinions-api
+- collection_type: open
+  name: Havenly Addresses User Profile API
+  slug: open-havenly-user-profile-api
+- collection_type: open
+  name: Havenly Addresses Users API
+  slug: open-havenly-users-api
+- collection_type: open
+  name: Havenly Addresses Vendor Variants API
+  slug: open-havenly-vendor-variants-api
 common:
 - group: agent
   title: ''
@@ -154,7 +190,7 @@ overview: 'Havenly publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Havenly''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, and 11 more developer resources.'
-random_paper: 39
+random_paper: 14
 scopes:
 - name: Havenly Scopes
   scope_count: 0
@@ -181,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/screenshots/havenly-2026-07-25T220807.png
 security:

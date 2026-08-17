@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -83,12 +83,42 @@ apis:
 - description: User accounts that may belong to multiple organizations and flows.
   name: Flowdock (Discontinued) Users API
   slug: flowdock-users-api
-artifact_total: 45
+artifact_total: 59
 asyncapis:
 - description: 'Historical streaming surface for CA Flowdock. Long-lived HTTP connection that emitted real-time message events from one or more flows. Two content types were supported: a newline-delimited JSON stream'
   name: Flowdock Streaming API
   slug: flowdock-streaming-api-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flowdock Push Authentication API
+  slug: open-flowdock-authentication-api
+- collection_type: open
+  name: Flowdock Push Authentication Chat API
+  slug: open-flowdock-chat-api
+- collection_type: open
+  name: Flowdock Push Authentication Files API
+  slug: open-flowdock-files-api
+- collection_type: open
+  name: Flowdock Push Authentication Flows API
+  slug: open-flowdock-flows-api
+- collection_type: open
+  name: Flowdock Push Authentication Invitations API
+  slug: open-flowdock-invitations-api
+- collection_type: open
+  name: Flowdock Push Authentication Messages API
+  slug: open-flowdock-messages-api
+- collection_type: open
+  name: Flowdock Push Authentication Organizations API
+  slug: open-flowdock-organizations-api
+- collection_type: open
+  name: Flowdock Push Authentication Private Conversations API
+  slug: open-flowdock-private-conversations-api
+- collection_type: open
+  name: Flowdock Push Authentication Private Messages API
+  slug: open-flowdock-private-messages-api
 - collection_type: open
   name: Flowdock Push API
   slug: open-flowdock-push-api
@@ -96,8 +126,20 @@ collections:
   name: Flowdock REST API
   slug: open-flowdock-rest-api
 - collection_type: open
-  name: Flowdock SCIM Provisioning API
+  name: Flowdock Push Authentication SCIM API
   slug: open-flowdock-scim-api
+- collection_type: open
+  name: Flowdock Push Authentication Sources API
+  slug: open-flowdock-sources-api
+- collection_type: open
+  name: Flowdock Push Authentication Team Inbox API
+  slug: open-flowdock-team-inbox-api
+- collection_type: open
+  name: Flowdock Push Authentication Threads API
+  slug: open-flowdock-threads-api
+- collection_type: open
+  name: Flowdock Push Authentication Users API
+  slug: open-flowdock-users-api
 common:
 - group: agent
   title: ''
@@ -313,7 +355,7 @@ overview: 'Flowdock (Discontinued) publishes 15 APIs on the [APIs.io](https://ap
 
 
   Flowdock (Discontinued)''s developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 30 more developer resources.'
-random_paper: 17
+random_paper: 112
 rules:
 - name: Flowdock (Discontinued) API Rules
   rule_count: 5
@@ -364,7 +406,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/screenshots/flowdock-2026-06-20T181333.png
 security:

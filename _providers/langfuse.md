@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -123,8 +123,95 @@ apis:
 - description: The UnstableEvaluators API from Langfuse — 2 operation(s) for unstableevaluators.
   name: Langfuse UnstableEvaluators API
   slug: langfuse-unstableevaluators-api
-artifact_total: 37
+artifact_total: 66
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: langfuse AnnotationQueues API
+  slug: open-langfuse-annotationqueues-api
+- collection_type: open
+  name: langfuse AnnotationQueues BlobStorageIntegrations API
+  slug: open-langfuse-blobstorageintegrations-api
+- collection_type: open
+  name: langfuse AnnotationQueues Comments API
+  slug: open-langfuse-comments-api
+- collection_type: open
+  name: langfuse AnnotationQueues DatasetItems API
+  slug: open-langfuse-datasetitems-api
+- collection_type: open
+  name: langfuse AnnotationQueues DatasetRunItems API
+  slug: open-langfuse-datasetrunitems-api
+- collection_type: open
+  name: langfuse AnnotationQueues Datasets API
+  slug: open-langfuse-datasets-api
+- collection_type: open
+  name: langfuse AnnotationQueues Health API
+  slug: open-langfuse-health-api
+- collection_type: open
+  name: langfuse AnnotationQueues Ingestion API
+  slug: open-langfuse-ingestion-api
+- collection_type: open
+  name: langfuse AnnotationQueues LegacyMetricsV1 API
+  slug: open-langfuse-legacymetricsv1-api
+- collection_type: open
+  name: langfuse AnnotationQueues LegacyObservationsV1 API
+  slug: open-langfuse-legacyobservationsv1-api
+- collection_type: open
+  name: langfuse AnnotationQueues LegacyScoreV1 API
+  slug: open-langfuse-legacyscorev1-api
+- collection_type: open
+  name: langfuse AnnotationQueues LlmConnections API
+  slug: open-langfuse-llmconnections-api
+- collection_type: open
+  name: langfuse AnnotationQueues Media API
+  slug: open-langfuse-media-api
+- collection_type: open
+  name: langfuse AnnotationQueues Metrics API
+  slug: open-langfuse-metrics-api
+- collection_type: open
+  name: langfuse AnnotationQueues Models API
+  slug: open-langfuse-models-api
+- collection_type: open
+  name: langfuse AnnotationQueues Observations API
+  slug: open-langfuse-observations-api
+- collection_type: open
+  name: langfuse AnnotationQueues Opentelemetry API
+  slug: open-langfuse-opentelemetry-api
+- collection_type: open
+  name: langfuse AnnotationQueues Organizations API
+  slug: open-langfuse-organizations-api
+- collection_type: open
+  name: langfuse AnnotationQueues Projects API
+  slug: open-langfuse-projects-api
+- collection_type: open
+  name: langfuse AnnotationQueues Prompts API
+  slug: open-langfuse-prompts-api
+- collection_type: open
+  name: langfuse AnnotationQueues PromptVersion API
+  slug: open-langfuse-promptversion-api
+- collection_type: open
+  name: langfuse AnnotationQueues Scim API
+  slug: open-langfuse-scim-api
+- collection_type: open
+  name: langfuse AnnotationQueues ScoreConfigs API
+  slug: open-langfuse-scoreconfigs-api
+- collection_type: open
+  name: langfuse AnnotationQueues Scores API
+  slug: open-langfuse-scores-api
+- collection_type: open
+  name: langfuse AnnotationQueues Sessions API
+  slug: open-langfuse-sessions-api
+- collection_type: open
+  name: langfuse AnnotationQueues Trace API
+  slug: open-langfuse-trace-api
+- collection_type: open
+  name: langfuse AnnotationQueues UnstableEvaluationRules API
+  slug: open-langfuse-unstableevaluationrules-api
+- collection_type: open
+  name: langfuse AnnotationQueues UnstableEvaluators API
+  slug: open-langfuse-unstableevaluators-api
 - collection_type: open
   name: langfuse
   slug: open-langfuse
@@ -209,7 +296,7 @@ plans:
 - name: Langfuse Plans Pricing
   plan_count: 5
   slug: langfuse-plans-pricing
-random_paper: 13
+random_paper: 108
 rate_limits:
 - limit_count: 4
   name: Langfuse Rate Limits
@@ -234,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/screenshots/langfuse-2026-06-20T184307.png
 security:

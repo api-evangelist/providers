@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Recurring membership billing runs by membership type.
   name: GrowthZone Scheduled Billing API
   slug: growthzone-scheduled-billing-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GrowthZone REST Certifications API
+  slug: open-growthzone-certifications-api
+- collection_type: open
+  name: GrowthZone REST Certifications Contacts API
+  slug: open-growthzone-contacts-api
+- collection_type: open
+  name: GrowthZone REST Certifications Events API
+  slug: open-growthzone-events-api
+- collection_type: open
+  name: GrowthZone REST Certifications Groups & Directory API
+  slug: open-growthzone-groups-directory-api
+- collection_type: open
+  name: GrowthZone REST Certifications Memberships API
+  slug: open-growthzone-memberships-api
+- collection_type: open
+  name: GrowthZone REST Certifications Scheduled Billing API
+  slug: open-growthzone-scheduled-billing-api
 - collection_type: open
   name: GrowthZone REST API
   slug: open-growthzone
@@ -119,7 +140,7 @@ plans:
 - name: Growthzone Plans Pricing
   plan_count: 3
   slug: growthzone-plans-pricing
-random_paper: 31
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Growthzone Rate Limits
@@ -144,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/screenshots/growthzone-2026-07-25T220401.png
 security:

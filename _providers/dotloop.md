@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -78,8 +78,50 @@ apis:
 - description: Webhook subscriptions and delivered events.
   name: dotloop Webhooks API
   slug: dotloop-webhooks-api
-artifact_total: 21
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dotloop Public API v2 Account API
+  slug: open-dotloop-account-api
+- collection_type: open
+  name: dotloop Public API v2 Account Activities API
+  slug: open-dotloop-activities-api
+- collection_type: open
+  name: dotloop Public API v2 Account Contacts API
+  slug: open-dotloop-contacts-api
+- collection_type: open
+  name: dotloop Public API v2 Account Documents API
+  slug: open-dotloop-documents-api
+- collection_type: open
+  name: dotloop Public API v2 Account Folders API
+  slug: open-dotloop-folders-api
+- collection_type: open
+  name: dotloop Public API v2 Account Loop Details API
+  slug: open-dotloop-loop-details-api
+- collection_type: open
+  name: dotloop Public API v2 Account Loop It API
+  slug: open-dotloop-loop-it-api
+- collection_type: open
+  name: dotloop Public API v2 Account Loop Templates API
+  slug: open-dotloop-loop-templates-api
+- collection_type: open
+  name: dotloop Public API v2 Account Loops API
+  slug: open-dotloop-loops-api
+- collection_type: open
+  name: dotloop Public API v2 Account Participants API
+  slug: open-dotloop-participants-api
+- collection_type: open
+  name: dotloop Public API v2 Account Profiles API
+  slug: open-dotloop-profiles-api
+- collection_type: open
+  name: dotloop Public API v2 Account Tasks API
+  slug: open-dotloop-tasks-api
+- collection_type: open
+  name: dotloop Public API v2 Account Webhooks API
+  slug: open-dotloop-webhooks-api
 - collection_type: open
   name: dotloop Public API v2
   slug: open-dotloop
@@ -148,7 +190,7 @@ plans:
 - name: Dotloop Plans Pricing
   plan_count: 4
   slug: dotloop-plans-pricing
-random_paper: 49
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Dotloop Rate Limits
@@ -178,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/screenshots/dotloop-2026-07-25T212314.png
 security:

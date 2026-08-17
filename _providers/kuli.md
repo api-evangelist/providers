@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-12'
+  score: 6.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -77,13 +77,29 @@ common:
   url: https://kuli.one/tools
 - group: agent
   title: ''
-  type: LlmsText
+  type: LLMsTxt
   url: llms/kuli-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Kuli ships only an end-user application — its sitemap's 66 URLs are marketing, blog, glossary and calculator pages with no developer, API or documentation entry, and the api/developer/developers/docs/mcp subdomains of kuli.one do not resolve at all; the one real HTTP API found, the Kuli Discovery app's own FastAPI backend, has its automatic /openapi.json and /docs deliberately disabled in production and answers 401 to anyone without an app session.
+  evidence:
+  - status: 200
+    url: https://kuli.one/openapi.json
+  - status: 200
+    url: https://kuli.one/sitemap.xml
+  - status: 404
+    url: https://kuli-discovery-backend-prod.livelyocean-00d2887a.westeurope.azurecontainerapps.io/openapi.json
+  - status: 401
+    url: https://kuli-discovery-backend-prod.livelyocean-00d2887a.westeurope.azurecontainerapps.io/api/settings/profile
+  - status: 200
+    url: https://kuli.one/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Kuli is an AI agent for influencer marketing, built for consumer brands. It runs the full creator marketing lifecycle end to end — discovery, vetting, outreach, and reporting — so a small marketing team ships like a much larger one. Unlike platforms that filter creators on metadata such as follower counts and engagement rates, Kuli's agent watches actual creator videos frame by frame across TikTok and Instagram, assessing brand safety, content style, audience signals, and brand fit, then drafts personalized outreach in the brand's own voice and reports campaign ROI on a schedule. Founded in 2025 and headquartered in Levallois-Perret, Paris, Kuli is a Y Combinator company. As of this profile Kuli publishes no public API, developer portal, or SDKs — its only machine-readable surface is an llms.txt.
 image: https://framerusercontent.com/assets/aUo3Rkr9XBqPsT5tjDnjU2NPzI.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Kuli
 nav: Providers
 network: true
@@ -91,7 +107,15 @@ overview: 'Kuli is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kuli''s developer surface includes engineering blog, support, tooling, and 9 more developer resources.'
-random_paper: 77
+plans:
+- name: Kuli Plans Pricing
+  plan_count: 0
+  slug: kuli-plans-pricing
+random_paper: 139
+rate_limits:
+- limit_count: 0
+  name: Kuli Rate Limits
+  slug: kuli-rate-limits
 score:
   band: minimal
   composite: 12.4
@@ -105,14 +129,14 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuli/refs/heads/main/screenshots/kuli-2026-07-25T224328.png
 security:
 - kind: domain-security
   name: Kuli Domain Security
   slug: kuli-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: kuli
 tags:
 - Company

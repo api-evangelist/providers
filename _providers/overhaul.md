@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Create and manage shipments and receive status-based data updates, including risk summaries, driver details and next-delivery insights. Marketed as part of Overhaul's tiered API subscription. No publi
@@ -115,7 +115,7 @@ overview: 'Overhaul publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Overhaul''s developer surface includes engineering blog, support, changelog, and 13 more developer resources.'
-random_paper: 30
+random_paper: 125
 score:
   band: emerging
   composite: 22.6
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overhaul/refs/heads/main/screenshots/overhaul-2026-08-07T191132.png
 security:

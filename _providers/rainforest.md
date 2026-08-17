@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -114,7 +114,7 @@ arazzos:
 - description: Create a merchant, submit its application, and confirm it reaches ACTIVE.
   name: Rainforest — onboard a merchant
   slug: rainforest-onboard-merchant
-artifact_total: 54
+artifact_total: 78
 asyncapis:
 - description: ''
   name: Rainforest Webhooks
@@ -189,6 +189,78 @@ collections:
 - collection_type: postman
   name: Authentication ACH Returns Sessions API
   slug: postman-rainforest-sessions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authentication ACH Returns API
+  slug: open-rainforest-ach-returns-api
+- collection_type: open
+  name: Authentication ACH Returns API Keys API
+  slug: open-rainforest-api-keys-api
+- collection_type: open
+  name: Authentication ACH Returns Billing Profiles API
+  slug: open-rainforest-billing-profiles-api
+- collection_type: open
+  name: Authentication ACH Returns BIN Lookups API
+  slug: open-rainforest-bin-lookups-api
+- collection_type: open
+  name: Authentication ACH Returns Chargebacks API
+  slug: open-rainforest-chargebacks-api
+- collection_type: open
+  name: Authentication ACH Returns Deposit Method Configs API
+  slug: open-rainforest-deposit-method-configs-api
+- collection_type: open
+  name: Authentication ACH Returns Deposit Methods API
+  slug: open-rainforest-deposit-methods-api
+- collection_type: open
+  name: Authentication ACH Returns Deposits API
+  slug: open-rainforest-deposits-api
+- collection_type: open
+  name: Authentication ACH Returns Devices API
+  slug: open-rainforest-devices-api
+- collection_type: open
+  name: Authentication ACH Returns File Upload Configs API
+  slug: open-rainforest-file-upload-configs-api
+- collection_type: open
+  name: Authentication ACH Returns File Uploads API
+  slug: open-rainforest-file-uploads-api
+- collection_type: open
+  name: Authentication ACH Returns Forward Requests API
+  slug: open-rainforest-forward-requests-api
+- collection_type: open
+  name: Authentication ACH Returns Health API
+  slug: open-rainforest-health-api
+- collection_type: open
+  name: Authentication ACH Returns Merchant Applications API
+  slug: open-rainforest-merchant-applications-api
+- collection_type: open
+  name: Authentication ACH Returns Merchants API
+  slug: open-rainforest-merchants-api
+- collection_type: open
+  name: Authentication ACH Returns Payin Configs API
+  slug: open-rainforest-payin-configs-api
+- collection_type: open
+  name: Authentication ACH Returns Payins API
+  slug: open-rainforest-payins-api
+- collection_type: open
+  name: Authentication ACH Returns Payment Method Configs API
+  slug: open-rainforest-payment-method-configs-api
+- collection_type: open
+  name: Authentication ACH Returns Payment Method Domains API
+  slug: open-rainforest-payment-method-domains-api
+- collection_type: open
+  name: Authentication ACH Returns Payment Methods API
+  slug: open-rainforest-payment-methods-api
+- collection_type: open
+  name: Authentication ACH Returns Payments API
+  slug: open-rainforest-payments-api
+- collection_type: open
+  name: Authentication ACH Returns Refunds API
+  slug: open-rainforest-refunds-api
+- collection_type: open
+  name: Authentication ACH Returns Sessions API
+  slug: open-rainforest-sessions-api
 common:
 - group: build
   title: ''
@@ -365,7 +437,7 @@ overview: 'Rainforest publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 32 more developer resources.'
-random_paper: 5
+random_paper: 42
 score:
   band: strong
   composite: 59.0
@@ -395,7 +467,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -37,7 +37,14 @@ apis:
 - description: The mandated Consumer Data Right consumer data sharing surface, covering energy accounts, balances, billing, invoices, concessions, payment schedules, electricity service points, usage and distributed
   name: Simply Energy (ENGIE) CDR Energy Consumer Data API
   slug: simply-energy-cdr-energy-consumer-data-api
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: CDR Common API
+  slug: open-simply-energy-cds-common
+- collection_type: open
+  name: CDR Energy API
+  slug: open-simply-energy-cds-energy
 common:
 - group: agent
   title: ''
@@ -180,7 +187,7 @@ overview: 'Simply Energy publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 26 more developer resources.'
-random_paper: 45
+random_paper: 24
 rate_limits:
 - limit_count: 14
   name: Simply Energy Rate Limits
@@ -219,7 +226,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

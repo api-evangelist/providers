@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ apis:
 - description: Endpoints for managing voices including listing, creating, editing, and deleting voices in the library.
   name: elevenlabs Voices API
   slug: elevenlabs-voices-api
-artifact_total: 129
+artifact_total: 152
 asyncapis:
 - description: The ElevenLabs Conversational AI WebSocket API enables real-time, interactive voice conversations with AI agents. It supports bidirectional audio streaming, text events, and conversation lifecycle man
   name: ElevenLabs Conversational AI Events
@@ -118,20 +118,71 @@ asyncapis:
   slug: elevenlabs-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents API
+  slug: open-elevenlabs-agents-api
+- collection_type: open
+  name: ElevenLabs Agents Audio Isolation API
+  slug: open-elevenlabs-audio-isolation-api
+- collection_type: open
   name: ElevenLabs Audio Isolation API
   slug: open-elevenlabs-audio-isolation
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Audio Native API
+  slug: open-elevenlabs-audio-native-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Chapters API
+  slug: open-elevenlabs-chapters-api
 - collection_type: open
   name: ElevenLabs Conversational AI API
   slug: open-elevenlabs-conversational-ai
 - collection_type: open
+  name: ElevenLabs Audio Isolation Agents Conversations API
+  slug: open-elevenlabs-conversations-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Dubbing API
+  slug: open-elevenlabs-dubbing-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Dubbing Resources API
+  slug: open-elevenlabs-dubbing-resources-api
+- collection_type: open
   name: ElevenLabs Dubbing API
   slug: open-elevenlabs-dubbing
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Instant Voice Cloning API
+  slug: open-elevenlabs-instant-voice-cloning-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Knowledge Base API
+  slug: open-elevenlabs-knowledge-base-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Music Generation API
+  slug: open-elevenlabs-music-generation-api
 - collection_type: open
   name: ElevenLabs Music Generation API
   slug: open-elevenlabs-music
 - collection_type: open
+  name: ElevenLabs Audio Isolation Agents Professional Voice Cloning API
+  slug: open-elevenlabs-professional-voice-cloning-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Projects API
+  slug: open-elevenlabs-projects-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Pronunciation Dictionaries API
+  slug: open-elevenlabs-pronunciation-dictionaries-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Sound Effects API
+  slug: open-elevenlabs-sound-effects-api
+- collection_type: open
   name: ElevenLabs Sound Effects API
   slug: open-elevenlabs-sound-effects
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Speech to Speech API
+  slug: open-elevenlabs-speech-to-speech-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Speech to Text API
+  slug: open-elevenlabs-speech-to-text-api
 - collection_type: open
   name: ElevenLabs Speech to Text API
   slug: open-elevenlabs-speech-to-text
@@ -139,14 +190,32 @@ collections:
   name: ElevenLabs Studio API
   slug: open-elevenlabs-studio
 - collection_type: open
+  name: ElevenLabs Audio Isolation Agents Text to Dialogue API
+  slug: open-elevenlabs-text-to-dialogue-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Text to Speech API
+  slug: open-elevenlabs-text-to-speech-api
+- collection_type: open
   name: ElevenLabs Text to Speech API
   slug: open-elevenlabs-text-to-speech
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Tools API
+  slug: open-elevenlabs-tools-api
 - collection_type: open
   name: ElevenLabs Voice Changer API
   slug: open-elevenlabs-voice-changer
 - collection_type: open
   name: ElevenLabs Voice Cloning API
   slug: open-elevenlabs-voice-cloning
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Voice Library API
+  slug: open-elevenlabs-voice-library-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Voice Settings API
+  slug: open-elevenlabs-voice-settings-api
+- collection_type: open
+  name: ElevenLabs Audio Isolation Agents Voices API
+  slug: open-elevenlabs-voices-api
 - collection_type: open
   name: ElevenLabs Voices API
   slug: open-elevenlabs-voices
@@ -447,7 +516,7 @@ plans:
 - name: Elevenlabs Plans Pricing
   plan_count: 7
   slug: elevenlabs-plans-pricing
-random_paper: 97
+random_paper: 14
 rate_limits:
 - limit_count: 7
   name: Elevenlabs Rate Limits
@@ -489,7 +558,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

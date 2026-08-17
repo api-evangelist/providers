@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -32,11 +32,15 @@ apis:
 - description: REST API for integrating a facility's scheduling, EHR or workforce system with the IntelyCare Staffing platform. Clients create, update and delete shift requests, submit and update timecards for billi
   name: IntelyCare External Scheduling API
   slug: intelycare-external-scheduling-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: Real-time updates on the status of submitted shifts. IntelyCare POSTs a signed JSON payload to a client-configured HTTPS endpoint when a shift is accepted by a healthcare professional (an "IntelyPro")
   name: IntelyCare Shift Events
   slug: intelycare-shift-events-asyncapi
+collections:
+- collection_type: open
+  name: IntelyCare API Documentation
+  slug: open-intelycare-external-scheduling
 common:
 - group: agent
   title: ''
@@ -153,7 +157,7 @@ overview: 'IntelyCare publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   IntelyCare''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 112
+random_paper: 29
 score:
   band: developing
   composite: 44.6
@@ -183,7 +187,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/screenshots/intelycare-2026-08-07T170739.png
 security:

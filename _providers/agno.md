@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 1
@@ -102,7 +102,74 @@ apis:
 - description: The Workflows API from Agno — 5 operation(s) for workflows.
   name: Agno Workflows API
   slug: agno-workflows-api
-artifact_total: 42
+artifact_total: 64
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agno API Reference A2A API
+  slug: open-agno-a2a-api
+- collection_type: open
+  name: Agno API Reference A2A Agents API
+  slug: open-agno-agents-api
+- collection_type: open
+  name: Agno API Reference A2A AGUI API
+  slug: open-agno-agui-api
+- collection_type: open
+  name: Agno API Reference A2A Approvals API
+  slug: open-agno-approvals-api
+- collection_type: open
+  name: Agno API Reference A2A Components API
+  slug: open-agno-components-api
+- collection_type: open
+  name: Agno API Reference A2A Core API
+  slug: open-agno-core-api
+- collection_type: open
+  name: Agno API Reference A2A Database API
+  slug: open-agno-database-api
+- collection_type: open
+  name: Agno API Reference A2A Evals API
+  slug: open-agno-evals-api
+- collection_type: open
+  name: Agno API Reference A2A Health API
+  slug: open-agno-health-api
+- collection_type: open
+  name: Agno API Reference A2A Home API
+  slug: open-agno-home-api
+- collection_type: open
+  name: Agno API Reference A2A Knowledge API
+  slug: open-agno-knowledge-api
+- collection_type: open
+  name: Agno API Reference A2A Memory API
+  slug: open-agno-memory-api
+- collection_type: open
+  name: Agno API Reference A2A Metrics API
+  slug: open-agno-metrics-api
+- collection_type: open
+  name: Agno API Reference A2A Registry API
+  slug: open-agno-registry-api
+- collection_type: open
+  name: Agno API Reference A2A Schedules API
+  slug: open-agno-schedules-api
+- collection_type: open
+  name: Agno API Reference A2A Sessions API
+  slug: open-agno-sessions-api
+- collection_type: open
+  name: Agno API Reference A2A Slack API
+  slug: open-agno-slack-api
+- collection_type: open
+  name: Agno API Reference A2A Teams API
+  slug: open-agno-teams-api
+- collection_type: open
+  name: Agno API Reference A2A Traces API
+  slug: open-agno-traces-api
+- collection_type: open
+  name: Agno API Reference A2A Whatsapp API
+  slug: open-agno-whatsapp-api
+- collection_type: open
+  name: Agno API Reference A2A Workflows API
+  slug: open-agno-workflows-api
 common:
 - group: agent
   title: ''
@@ -241,7 +308,7 @@ plans:
 - name: Agno Plans Pricing
   plan_count: 3
   slug: agno-plans-pricing
-random_paper: 61
+random_paper: 123
 rate_limits:
 - limit_count: 3
   name: Agno Rate Limits
@@ -275,7 +342,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/screenshots/agno-2026-06-20T170338.png
 security:

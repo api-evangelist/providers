@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: King Abdulaziz University operates an institutional single sign-on portal (sso.kau.edu.sa) and an Oracle Access Manager federation login endpoint (iam.kau.edu.sa/oamsso-bin/login-fed.pl). These provid
@@ -104,7 +104,7 @@ plans:
 - name: Kau Plans Pricing
   plan_count: 2
   slug: kau-plans-pricing
-random_paper: 81
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Kau Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/screenshots/kau-2026-06-20T183925.png
 security:

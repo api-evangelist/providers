@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ arazzos:
 - description: Upload an image to WhatsApp servers and send it to a recipient by media ID.
   name: WhatsApp Upload Media and Send Image Message
   slug: whatsapp-upload-media-send-image-workflow
-artifact_total: 178
+artifact_total: 194
 asyncapis:
 - description: 'WhatsApp Business Platform webhooks deliver real-time notifications for incoming messages, message status updates, template status changes, account updates, phone number quality changes, and security '
   name: WhatsApp Webhooks
@@ -149,14 +149,62 @@ collections:
   name: WhatsApp Flows API
   slug: postman-whatsapp-flows-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WhatsApp Business Management Analytics API
+  slug: open-whatsapp-analytics-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Assets API
+  slug: open-whatsapp-assets-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Assigned Users API
+  slug: open-whatsapp-assigned-users-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Business Accounts API
+  slug: open-whatsapp-business-accounts-api
+- collection_type: open
   name: WhatsApp Business Management API
   slug: open-whatsapp-business-management-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Business Profile API
+  slug: open-whatsapp-business-profile-api
 - collection_type: open
   name: WhatsApp Cloud API
   slug: open-whatsapp-cloud-api
 - collection_type: open
-  name: WhatsApp Flows API
+  name: WhatsApp Business Management Analytics Flows API
   slug: open-whatsapp-flows-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Lifecycle API
+  slug: open-whatsapp-lifecycle-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Media API
+  slug: open-whatsapp-media-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Message Templates API
+  slug: open-whatsapp-message-templates-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Messages API
+  slug: open-whatsapp-messages-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Phone Numbers API
+  slug: open-whatsapp-phone-numbers-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Product Catalogs API
+  slug: open-whatsapp-product-catalogs-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics QR Codes API
+  slug: open-whatsapp-qr-codes-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Registration API
+  slug: open-whatsapp-registration-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Subscribed Apps API
+  slug: open-whatsapp-subscribed-apps-api
+- collection_type: open
+  name: WhatsApp Business Management Analytics Two-Step Verification API
+  slug: open-whatsapp-two-step-verification-api
 common:
 - group: commercial
   title: ''
@@ -728,7 +776,7 @@ plans:
 - name: Whatsapp Plans Pricing
   plan_count: 2
   slug: whatsapp-plans-pricing
-random_paper: 32
+random_paper: 127
 rate_limits:
 - limit_count: 6
   name: Whatsapp Rate Limits
@@ -778,7 +826,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/screenshots/whatsapp-2026-06-20T201434.png
 security:

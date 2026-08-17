@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -34,11 +34,21 @@ apis:
 - description: Policy API documentation consist of create policy, get policy detail or status, policy cancellation and policy activation.
   name: Qoala API Specification API
   slug: qoala-api-specification-api
-artifact_total: 8
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Qoala Webhooks
   slug: qoala-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qoala API Specification API
+  slug: open-qoala-api-specification-api
+- collection_type: open
+  name: Authentication API
+  slug: open-qoala-authentication-api
 common:
 - group: agent
   title: ''
@@ -194,7 +204,7 @@ overview: 'Qoala publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Qoala''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 26 more developer resources.'
-random_paper: 46
+random_paper: 79
 score:
   band: developing
   composite: 43.3
@@ -224,7 +234,7 @@ score:
     regime_id: insurance
     score: 31.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

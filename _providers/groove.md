@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -74,12 +74,42 @@ apis:
 - description: The Webhooks API from Groove — 2 operation(s) for webhooks.
   name: Groove Webhooks API
   slug: groove-webhooks-api
-artifact_total: 19
+artifact_total: 29
 asyncapis:
 - description: AsyncAPI 2.6 description of Groove's webhook surface as documented for the legacy Groove REST API v1. Groove enables customers to register webhook subscriptions through `POST https://api.groovehq.com/
   name: Groove Webhooks
   slug: groove-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Groove REST API v1 Agents API
+  slug: open-groove-agents-api
+- collection_type: open
+  name: Groove REST API v1 Agents Attachments API
+  slug: open-groove-attachments-api
+- collection_type: open
+  name: Groove REST API v1 Agents Customers API
+  slug: open-groove-customers-api
+- collection_type: open
+  name: Groove REST API v1 Agents Folders API
+  slug: open-groove-folders-api
+- collection_type: open
+  name: Groove REST API v1 Agents Groups API
+  slug: open-groove-groups-api
+- collection_type: open
+  name: Groove REST API v1 Agents Mailboxes API
+  slug: open-groove-mailboxes-api
+- collection_type: open
+  name: Groove REST API v1 Agents Messages API
+  slug: open-groove-messages-api
+- collection_type: open
+  name: Groove REST API v1 Agents Tickets API
+  slug: open-groove-tickets-api
+- collection_type: open
+  name: Groove REST API v1 Agents Webhooks API
+  slug: open-groove-webhooks-api
 - collection_type: open
   name: Groove REST API v1
   slug: open-groove
@@ -147,7 +177,7 @@ overview: 'Groove publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Groove''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, and 5 more developer resources.'
-random_paper: 58
+random_paper: 62
 rules:
 - name: Groove API Rules
   rule_count: 8
@@ -177,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/screenshots/groove-2026-06-20T182412.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -203,7 +203,7 @@ arazzos:
 - description: Create a workspace, read it back, create an organizing tag inside it, and confirm the workspace starts empty of connections.
   name: Airbyte Bootstrap a Workspace
   slug: airbyte-workspace-bootstrap-workflow
-artifact_total: 783
+artifact_total: 828
 collections:
 - collection_type: postman
   name: airbyte-api Applications API
@@ -334,6 +334,141 @@ collections:
 - collection_type: postman
   name: airbyte-api Applications Workspaces API
   slug: postman-airbyte-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: airbyte-api Applications API
+  slug: open-airbyte-applications-api
+- collection_type: open
+  name: airbyte-api Applications Connections API
+  slug: open-airbyte-connections-api
+- collection_type: open
+  name: airbyte-api Applications ConnectorDefinitions API
+  slug: open-airbyte-connectordefinitions-api
+- collection_type: open
+  name: airbyte-api Applications Dataplanes API
+  slug: open-airbyte-dataplanes-api
+- collection_type: open
+  name: airbyte-api Applications DeclarativeSourceDefinitions API
+  slug: open-airbyte-declarativesourcedefinitions-api
+- collection_type: open
+  name: airbyte-api Applications DestinationDefinitions API
+  slug: open-airbyte-destinationdefinitions-api
+- collection_type: open
+  name: airbyte-api Applications Destinations API
+  slug: open-airbyte-destinations-api
+- collection_type: open
+  name: airbyte-api Applications embedded_widget API
+  slug: open-airbyte-embedded-widget-api
+- collection_type: open
+  name: airbyte-api Applications Groups API
+  slug: open-airbyte-groups-api
+- collection_type: open
+  name: airbyte-api Applications Jobs API
+  slug: open-airbyte-jobs-api
+- collection_type: open
+  name: airbyte-api Applications OAuth API
+  slug: open-airbyte-oauth-api
+- collection_type: open
+  name: airbyte-api Applications Organizations API
+  slug: open-airbyte-organizations-api
+- collection_type: open
+  name: airbyte-api Applications Permissions API
+  slug: open-airbyte-permissions-api
+- collection_type: open
+  name: airbyte-api Applications public API
+  slug: open-airbyte-public-api
+- collection_type: open
+  name: airbyte-api Applications public_applications API
+  slug: open-airbyte-public-applications-api
+- collection_type: open
+  name: airbyte-api Applications public_connections API
+  slug: open-airbyte-public-connections-api
+- collection_type: open
+  name: airbyte-api Applications public_connector_definitions API
+  slug: open-airbyte-public-connector-definitions-api
+- collection_type: open
+  name: airbyte-api Applications public_dataplanes API
+  slug: open-airbyte-public-dataplanes-api
+- collection_type: open
+  name: airbyte-api Applications public_declarative_source_definitions API
+  slug: open-airbyte-public-declarative-source-definitions-api
+- collection_type: open
+  name: airbyte-api Applications public_destination_definitions API
+  slug: open-airbyte-public-destination-definitions-api
+- collection_type: open
+  name: airbyte-api Applications public_destinations API
+  slug: open-airbyte-public-destinations-api
+- collection_type: open
+  name: airbyte-api Applications public_group_members API
+  slug: open-airbyte-public-group-members-api
+- collection_type: open
+  name: airbyte-api Applications public_group_permissions API
+  slug: open-airbyte-public-group-permissions-api
+- collection_type: open
+  name: airbyte-api Applications public_groups API
+  slug: open-airbyte-public-groups-api
+- collection_type: open
+  name: airbyte-api Applications public_health API
+  slug: open-airbyte-public-health-api
+- collection_type: open
+  name: airbyte-api Applications public_jobs API
+  slug: open-airbyte-public-jobs-api
+- collection_type: open
+  name: airbyte-api Applications public_oauth API
+  slug: open-airbyte-public-oauth-api
+- collection_type: open
+  name: airbyte-api Applications public_organizations API
+  slug: open-airbyte-public-organizations-api
+- collection_type: open
+  name: airbyte-api Applications public_permissions API
+  slug: open-airbyte-public-permissions-api
+- collection_type: open
+  name: airbyte-api Applications public_regions API
+  slug: open-airbyte-public-regions-api
+- collection_type: open
+  name: airbyte-api Applications public_root API
+  slug: open-airbyte-public-root-api
+- collection_type: open
+  name: airbyte-api Applications public_source_definitions API
+  slug: open-airbyte-public-source-definitions-api
+- collection_type: open
+  name: airbyte-api Applications public_sources API
+  slug: open-airbyte-public-sources-api
+- collection_type: open
+  name: airbyte-api Applications public_streams API
+  slug: open-airbyte-public-streams-api
+- collection_type: open
+  name: airbyte-api Applications public_tags API
+  slug: open-airbyte-public-tags-api
+- collection_type: open
+  name: airbyte-api Applications public_users API
+  slug: open-airbyte-public-users-api
+- collection_type: open
+  name: airbyte-api Applications public_workspaces API
+  slug: open-airbyte-public-workspaces-api
+- collection_type: open
+  name: airbyte-api Applications Regions API
+  slug: open-airbyte-regions-api
+- collection_type: open
+  name: airbyte-api Applications SourceDefinitions API
+  slug: open-airbyte-sourcedefinitions-api
+- collection_type: open
+  name: airbyte-api Applications Sources API
+  slug: open-airbyte-sources-api
+- collection_type: open
+  name: airbyte-api Applications Streams API
+  slug: open-airbyte-streams-api
+- collection_type: open
+  name: airbyte-api Applications Tags API
+  slug: open-airbyte-tags-api
+- collection_type: open
+  name: airbyte-api Applications Users API
+  slug: open-airbyte-users-api
+- collection_type: open
+  name: airbyte-api Applications Workspaces API
+  slug: open-airbyte-workspaces-api
 - collection_type: open
   name: airbyte-api
   slug: open-airbyte
@@ -2555,7 +2690,7 @@ plans:
 - name: Airbyte Plans Pricing
   plan_count: 5
   slug: airbyte-plans-pricing
-random_paper: 32
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Airbyte Rate Limits
@@ -2604,7 +2739,7 @@ score:
       total: 44
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png
 security:

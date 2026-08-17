@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -69,7 +69,41 @@ apis:
 - description: Webhook management for async notifications
   name: Wove Webhooks API
   slug: wove-webhooks-api
-artifact_total: 17
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wove External Authentication API
+  slug: open-wove-authentication-api
+- collection_type: open
+  name: Wove External Authentication Documents API
+  slug: open-wove-documents-api
+- collection_type: open
+  name: Wove External Authentication Query Bank API
+  slug: open-wove-query-bank-api
+- collection_type: open
+  name: Wove External Authentication Rates API
+  slug: open-wove-rates-api
+- collection_type: open
+  name: Wove External Authentication Shipments API
+  slug: open-wove-shipments-api
+- collection_type: open
+  name: Wove External Authentication Sources API
+  slug: open-wove-sources-api
+- collection_type: open
+  name: Wove External Authentication Tariffs API
+  slug: open-wove-tariffs-api
+- collection_type: open
+  name: Wove External Authentication Testing API
+  slug: open-wove-testing-api
+- collection_type: open
+  name: Wove External Authentication TMS Organizations API
+  slug: open-wove-tms-organizations-api
+- collection_type: open
+  name: Wove External Authentication Webhooks API
+  slug: open-wove-webhooks-api
 common:
 - group: agent
   title: ''
@@ -107,7 +141,7 @@ overview: 'Wove publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wove''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 89
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Wove Rate Limits
@@ -137,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -77,8 +77,14 @@ apis:
 - description: The Monad JSON RPC API API from Monad — 1 operation(s) for monad json rpc api.
   name: Monad Monad JSON RPC API API
   slug: monad-monad-json-rpc-api-api
-artifact_total: 20
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Monad JSON-RPC Monad JSON RPC API API
+  slug: open-monad-monad-json-rpc-api-api
 - collection_type: open
   name: Monad JSON-RPC API
   slug: open-monad
@@ -179,7 +185,7 @@ plans:
 - name: Monad Plans Pricing
   plan_count: 1
   slug: monad-plans-pricing
-random_paper: 47
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Monad Rate Limits
@@ -204,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/screenshots/monad-2026-06-20T185714.png
 security:

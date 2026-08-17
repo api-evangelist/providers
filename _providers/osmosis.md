@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,11 +48,24 @@ apis:
 - description: The Osmosis Agent Improvement API API from Osmosis — 1 operation(s) for osmosis agent improvement api.
   name: Osmosis Osmosis Agent Improvement API API
   slug: osmosis-osmosis-agent-improvement-api-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Osmosis Webhooks
   slug: osmosis-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Osmosis Improvement agent API
+  slug: open-osmosis-agent-api
+- collection_type: open
+  name: Osmosis Improvement agent knowledge API
+  slug: open-osmosis-knowledge-api
+- collection_type: open
+  name: Osmosis Improvement agent Osmosis Agent Improvement API API
+  slug: open-osmosis-osmosis-agent-improvement-api-api
 common:
 - group: other
   title: ''
@@ -193,7 +206,7 @@ overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Osmosis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 23 more developer resources.'
-random_paper: 61
+random_paper: 36
 score:
   band: developing
   composite: 52.6
@@ -217,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/screenshots/osmosis-2026-08-07T191013.png
 security:

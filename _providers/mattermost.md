@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -56,12 +56,27 @@ apis:
 - description: The Users API from Mattermost — 8 operation(s) for users.
   name: Mattermost Users API
   slug: mattermost-users-api
-artifact_total: 16
+artifact_total: 21
 asyncapis:
 - description: Mattermost's WebSocket API delivers real-time events from a Mattermost server to authenticated clients and accepts a small set of WebSocket actions for client-to-server interaction. A client opens a s
   name: Mattermost WebSocket API
   slug: mattermost-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mattermost REST Channels API
+  slug: open-mattermost-channels-api
+- collection_type: open
+  name: Mattermost REST Channels Posts API
+  slug: open-mattermost-posts-api
+- collection_type: open
+  name: Mattermost REST Channels Teams API
+  slug: open-mattermost-teams-api
+- collection_type: open
+  name: Mattermost REST Channels Users API
+  slug: open-mattermost-users-api
 - collection_type: open
   name: Mattermost REST API
   slug: open-mattermost
@@ -145,7 +160,7 @@ overview: 'Mattermost publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Mattermost''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 24
+random_paper: 61
 rules:
 - name: Mattermost API Rules
   rule_count: 8
@@ -175,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/screenshots/mattermost-2026-06-20T185042.png
 security:

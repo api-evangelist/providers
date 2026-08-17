@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -84,14 +84,53 @@ apis:
 - description: Legacy text completions endpoints compatible with the OpenAI completions API.
   name: Envoy Text Completions API
   slug: envoy-text-completions-api
-artifact_total: 29
+artifact_total: 42
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Envoy Admin API
   slug: open-envoy-admin-api
 - collection_type: open
   name: Envoy AI Gateway API
   slug: open-envoy-ai-gateway
+- collection_type: open
+  name: Envoy Admin Certificates API
+  slug: open-envoy-certificates-api
+- collection_type: open
+  name: Envoy Admin Certificates Chat API
+  slug: open-envoy-chat-api
+- collection_type: open
+  name: Envoy Admin Certificates Clusters API
+  slug: open-envoy-clusters-api
+- collection_type: open
+  name: Envoy Admin Certificates Configuration API
+  slug: open-envoy-configuration-api
+- collection_type: open
+  name: Envoy Admin Certificates Health API
+  slug: open-envoy-health-api
+- collection_type: open
+  name: Envoy Admin Certificates Listeners API
+  slug: open-envoy-listeners-api
+- collection_type: open
+  name: Envoy Admin Certificates Logging API
+  slug: open-envoy-logging-api
+- collection_type: open
+  name: Envoy Admin Certificates Models API
+  slug: open-envoy-models-api
+- collection_type: open
+  name: Envoy Admin Certificates Runtime API
+  slug: open-envoy-runtime-api
+- collection_type: open
+  name: Envoy Admin Certificates Server API
+  slug: open-envoy-server-api
+- collection_type: open
+  name: Envoy Admin Certificates Statistics API
+  slug: open-envoy-statistics-api
+- collection_type: open
+  name: Envoy Admin Certificates Text Completions API
+  slug: open-envoy-text-completions-api
 common:
 - group: operate
   title: ''
@@ -222,7 +261,7 @@ plans:
 - name: Envoy Plans Pricing
   plan_count: 2
   slug: envoy-plans-pricing
-random_paper: 81
+random_paper: 114
 rate_limits:
 - limit_count: 3
   name: Envoy Rate Limits
@@ -256,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/screenshots/envoy-2026-06-20T180740.png
 security:

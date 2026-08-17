@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: List and retrieve project templates.
   name: Creatomate Templates API
   slug: creatomate-templates-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Creatomate Renders API
+  slug: open-creatomate-renders-api
+- collection_type: open
+  name: Creatomate Renders Templates API
+  slug: open-creatomate-templates-api
 - collection_type: open
   name: Creatomate API
   slug: open-creatomate
@@ -111,7 +120,7 @@ plans:
 - name: Creatomate Plans Pricing
   plan_count: 5
   slug: creatomate-plans-pricing
-random_paper: 101
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Creatomate Rate Limits
@@ -136,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/screenshots/creatomate-2026-06-20T175219.png
 security:

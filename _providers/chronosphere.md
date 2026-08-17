@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -137,8 +137,107 @@ apis:
 - description: The TraceTailSamplingRules API from Chronosphere — 1 operation(s) for tracetailsamplingrules.
   name: Chronosphere TraceTailSamplingRules API
   slug: chronosphere-tracetailsamplingrules-api
-artifact_total: 40
+artifact_total: 73
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Config V1 Bucket API
+  slug: open-chronosphere-bucket-api
+- collection_type: open
+  name: Config V1 Bucket ClassicDashboard API
+  slug: open-chronosphere-classicdashboard-api
+- collection_type: open
+  name: Config V1 Bucket Collection API
+  slug: open-chronosphere-collection-api
+- collection_type: open
+  name: Config V1 Bucket Dashboard API
+  slug: open-chronosphere-dashboard-api
+- collection_type: open
+  name: Config V1 Bucket Dataset API
+  slug: open-chronosphere-dataset-api
+- collection_type: open
+  name: Config V1 Bucket DerivedLabel API
+  slug: open-chronosphere-derivedlabel-api
+- collection_type: open
+  name: Config V1 Bucket DerivedMetric API
+  slug: open-chronosphere-derivedmetric-api
+- collection_type: open
+  name: Config V1 Bucket DropRule API
+  slug: open-chronosphere-droprule-api
+- collection_type: open
+  name: Config V1 Bucket GcpMetricsIntegration API
+  slug: open-chronosphere-gcpmetricsintegration-api
+- collection_type: open
+  name: Config V1 Bucket GrafanaDashboard API
+  slug: open-chronosphere-grafanadashboard-api
+- collection_type: open
+  name: Config V1 Bucket LogAllocationConfig API
+  slug: open-chronosphere-logallocationconfig-api
+- collection_type: open
+  name: Config V1 Bucket LogIngestConfig API
+  slug: open-chronosphere-logingestconfig-api
+- collection_type: open
+  name: Config V1 Bucket LogScaleAction API
+  slug: open-chronosphere-logscaleaction-api
+- collection_type: open
+  name: Config V1 Bucket LogScaleAlert API
+  slug: open-chronosphere-logscalealert-api
+- collection_type: open
+  name: Config V1 Bucket MappingRule API
+  slug: open-chronosphere-mappingrule-api
+- collection_type: open
+  name: Config V1 Bucket Monitor API
+  slug: open-chronosphere-monitor-api
+- collection_type: open
+  name: Config V1 Bucket MutingRule API
+  slug: open-chronosphere-mutingrule-api
+- collection_type: open
+  name: Config V1 Bucket NotificationPolicy API
+  slug: open-chronosphere-notificationpolicy-api
+- collection_type: open
+  name: Config V1 Bucket Notifier API
+  slug: open-chronosphere-notifier-api
+- collection_type: open
+  name: Config V1 Bucket OtelMetricsIngestion API
+  slug: open-chronosphere-otelmetricsingestion-api
+- collection_type: open
+  name: Config V1 Bucket RecordingRule API
+  slug: open-chronosphere-recordingrule-api
+- collection_type: open
+  name: Config V1 Bucket ResourcePools API
+  slug: open-chronosphere-resourcepools-api
+- collection_type: open
+  name: Config V1 Bucket RollupRule API
+  slug: open-chronosphere-rolluprule-api
+- collection_type: open
+  name: Config V1 Bucket Service API
+  slug: open-chronosphere-service-api
+- collection_type: open
+  name: Config V1 Bucket ServiceAccount API
+  slug: open-chronosphere-serviceaccount-api
+- collection_type: open
+  name: Config V1 Bucket SLO API
+  slug: open-chronosphere-slo-api
+- collection_type: open
+  name: Config V1 Bucket Team API
+  slug: open-chronosphere-team-api
+- collection_type: open
+  name: Config V1 Bucket TraceBehavior API
+  slug: open-chronosphere-tracebehavior-api
+- collection_type: open
+  name: Config V1 Bucket TraceBehaviorConfig API
+  slug: open-chronosphere-tracebehaviorconfig-api
+- collection_type: open
+  name: Config V1 Bucket TraceJaegerRemoteSamplingStrategy API
+  slug: open-chronosphere-tracejaegerremotesamplingstrategy-api
+- collection_type: open
+  name: Config V1 Bucket TraceMetricsRule API
+  slug: open-chronosphere-tracemetricsrule-api
+- collection_type: open
+  name: Config V1 Bucket TraceTailSamplingRules API
+  slug: open-chronosphere-tracetailsamplingrules-api
 - collection_type: open
   name: Config V1 API
   slug: open-chronosphere
@@ -199,7 +298,7 @@ plans:
 - name: Chronosphere Plans Pricing
   plan_count: 3
   slug: chronosphere-plans-pricing
-random_paper: 96
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Chronosphere Rate Limits
@@ -224,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/screenshots/chronosphere-2026-06-20T174330.png
 security:

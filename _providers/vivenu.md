@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 6
@@ -257,11 +257,234 @@ apis:
 - description: The webhooks API from vivenu — 2 operation(s) for webhooks.
   name: vivenu webhooks API
   slug: vivenu-webhooks-api
-artifact_total: 79
+artifact_total: 153
 asyncapis:
 - description: ''
   name: Vivenu Webhooks
   slug: vivenu-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: vivenu access-lists API
+  slug: open-vivenu-access-lists-api
+- collection_type: open
+  name: vivenu access-lists accessusers API
+  slug: open-vivenu-accessusers-api
+- collection_type: open
+  name: vivenu access-lists api API
+  slug: open-vivenu-api-api
+- collection_type: open
+  name: vivenu access-lists api_keys API
+  slug: open-vivenu-api-keys-api
+- collection_type: open
+  name: vivenu access-lists attributes API
+  slug: open-vivenu-attributes-api
+- collection_type: open
+  name: vivenu access-lists auth API
+  slug: open-vivenu-auth-api
+- collection_type: open
+  name: vivenu access-lists billing API
+  slug: open-vivenu-billing-api
+- collection_type: open
+  name: vivenu access-lists bundles API
+  slug: open-vivenu-bundles-api
+- collection_type: open
+  name: vivenu access-lists cancellations API
+  slug: open-vivenu-cancellations-api
+- collection_type: open
+  name: vivenu access-lists channels API
+  slug: open-vivenu-channels-api
+- collection_type: open
+  name: vivenu access-lists chargebacks API
+  slug: open-vivenu-chargebacks-api
+- collection_type: open
+  name: vivenu access-lists checkout API
+  slug: open-vivenu-checkout-api
+- collection_type: open
+  name: vivenu access-lists checkouts API
+  slug: open-vivenu-checkouts-api
+- collection_type: open
+  name: vivenu access-lists coupons API
+  slug: open-vivenu-coupons-api
+- collection_type: open
+  name: vivenu access-lists credit-notes API
+  slug: open-vivenu-credit-notes-api
+- collection_type: open
+  name: vivenu access-lists customer-payment-methods API
+  slug: open-vivenu-customer-payment-methods-api
+- collection_type: open
+  name: vivenu access-lists customers API
+  slug: open-vivenu-customers-api
+- collection_type: open
+  name: vivenu access-lists data-fields API
+  slug: open-vivenu-data-fields-api
+- collection_type: open
+  name: vivenu access-lists disputes API
+  slug: open-vivenu-disputes-api
+- collection_type: open
+  name: vivenu access-lists distribution-api API
+  slug: open-vivenu-distribution-api-api
+- collection_type: open
+  name: vivenu access-lists distributor API
+  slug: open-vivenu-distributor-api
+- collection_type: open
+  name: vivenu access-lists document-templates API
+  slug: open-vivenu-document-templates-api
+- collection_type: open
+  name: vivenu access-lists entitlements API
+  slug: open-vivenu-entitlements-api
+- collection_type: open
+  name: vivenu access-lists event-series API
+  slug: open-vivenu-event-series-api
+- collection_type: open
+  name: vivenu access-lists events API
+  slug: open-vivenu-events-api
+- collection_type: open
+  name: vivenu access-lists fee-schemes API
+  slug: open-vivenu-fee-schemes-api
+- collection_type: open
+  name: vivenu access-lists fundraise API
+  slug: open-vivenu-fundraise-api
+- collection_type: open
+  name: vivenu access-lists images API
+  slug: open-vivenu-images-api
+- collection_type: open
+  name: vivenu access-lists insurance API
+  slug: open-vivenu-insurance-api
+- collection_type: open
+  name: vivenu access-lists invoices API
+  slug: open-vivenu-invoices-api
+- collection_type: open
+  name: vivenu access-lists jobs API
+  slug: open-vivenu-jobs-api
+- collection_type: open
+  name: vivenu access-lists marketing API
+  slug: open-vivenu-marketing-api
+- collection_type: open
+  name: vivenu access-lists methods API
+  slug: open-vivenu-methods-api
+- collection_type: open
+  name: vivenu access-lists notifications API
+  slug: open-vivenu-notifications-api
+- collection_type: open
+  name: vivenu access-lists organizations API
+  slug: open-vivenu-organizations-api
+- collection_type: open
+  name: vivenu access-lists payment-gateways API
+  slug: open-vivenu-payment-gateways-api
+- collection_type: open
+  name: vivenu access-lists payment-plans API
+  slug: open-vivenu-payment-plans-api
+- collection_type: open
+  name: vivenu access-lists payment-requests API
+  slug: open-vivenu-payment-requests-api
+- collection_type: open
+  name: vivenu access-lists payment-strategies API
+  slug: open-vivenu-payment-strategies-api
+- collection_type: open
+  name: vivenu access-lists Payments API
+  slug: open-vivenu-payments-api
+- collection_type: open
+  name: vivenu access-lists perks API
+  slug: open-vivenu-perks-api
+- collection_type: open
+  name: vivenu access-lists pos API
+  slug: open-vivenu-pos-api
+- collection_type: open
+  name: vivenu access-lists price-tables API
+  slug: open-vivenu-price-tables-api
+- collection_type: open
+  name: vivenu access-lists printjob API
+  slug: open-vivenu-printjob-api
+- collection_type: open
+  name: vivenu access-lists private API
+  slug: open-vivenu-private-api
+- collection_type: open
+  name: vivenu access-lists product-categories API
+  slug: open-vivenu-product-categories-api
+- collection_type: open
+  name: vivenu access-lists products API
+  slug: open-vivenu-products-api
+- collection_type: open
+  name: vivenu access-lists purchaseintents API
+  slug: open-vivenu-purchaseintents-api
+- collection_type: open
+  name: vivenu access-lists queue-slips API
+  slug: open-vivenu-queue-slips-api
+- collection_type: open
+  name: vivenu access-lists rebooking API
+  slug: open-vivenu-rebooking-api
+- collection_type: open
+  name: vivenu access-lists refunds API
+  slug: open-vivenu-refunds-api
+- collection_type: open
+  name: vivenu access-lists reports API
+  slug: open-vivenu-reports-api
+- collection_type: open
+  name: vivenu access-lists resell-offers API
+  slug: open-vivenu-resell-offers-api
+- collection_type: open
+  name: vivenu access-lists sales-channels API
+  slug: open-vivenu-sales-channels-api
+- collection_type: open
+  name: vivenu access-lists scan-groups API
+  slug: open-vivenu-scan-groups-api
+- collection_type: open
+  name: vivenu access-lists scan-zones API
+  slug: open-vivenu-scan-zones-api
+- collection_type: open
+  name: vivenu access-lists sellers API
+  slug: open-vivenu-sellers-api
+- collection_type: open
+  name: vivenu access-lists short-links API
+  slug: open-vivenu-short-links-api
+- collection_type: open
+  name: vivenu access-lists stats API
+  slug: open-vivenu-stats-api
+- collection_type: open
+  name: vivenu access-lists subscription-cycles API
+  slug: open-vivenu-subscription-cycles-api
+- collection_type: open
+  name: vivenu access-lists subscription-plans API
+  slug: open-vivenu-subscription-plans-api
+- collection_type: open
+  name: vivenu access-lists subscriptions API
+  slug: open-vivenu-subscriptions-api
+- collection_type: open
+  name: vivenu access-lists supports API
+  slug: open-vivenu-supports-api
+- collection_type: open
+  name: vivenu access-lists third API
+  slug: open-vivenu-third-api
+- collection_type: open
+  name: vivenu access-lists ticket API
+  slug: open-vivenu-ticket-api
+- collection_type: open
+  name: vivenu access-lists ticket-transfers API
+  slug: open-vivenu-ticket-transfers-api
+- collection_type: open
+  name: vivenu access-lists tickets API
+  slug: open-vivenu-tickets-api
+- collection_type: open
+  name: vivenu access-lists transaction API
+  slug: open-vivenu-transaction-api
+- collection_type: open
+  name: vivenu access-lists transactions API
+  slug: open-vivenu-transactions-api
+- collection_type: open
+  name: vivenu access-lists transfers API
+  slug: open-vivenu-transfers-api
+- collection_type: open
+  name: vivenu access-lists users API
+  slug: open-vivenu-users-api
+- collection_type: open
+  name: vivenu access-lists vouchers API
+  slug: open-vivenu-vouchers-api
+- collection_type: open
+  name: vivenu access-lists webhooks API
+  slug: open-vivenu-webhooks-api
 common:
 - group: other
   title: ''
@@ -382,7 +605,7 @@ overview: 'vivenu publishes 73 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   vivenu''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 69
+random_paper: 73
 score:
   band: developing
   composite: 42.6
@@ -412,7 +635,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

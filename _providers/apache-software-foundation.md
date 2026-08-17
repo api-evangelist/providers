@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +65,38 @@ apis:
 - description: The Releases API from Apache Software Foundation — 1 operation(s) for releases.
   name: Apache Software Foundation Releases API
   slug: apache-software-foundation-releases-api
-artifact_total: 41
+artifact_total: 50
 collections:
 - collection_type: open
-  name: Apache Software Foundation Projects API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Software Foundation Projects Committees API
+  slug: open-apache-software-foundation-committees-api
+- collection_type: open
+  name: Apache Software Projects Committees Foundation API
+  slug: open-apache-software-foundation-foundation-api
+- collection_type: open
+  name: Apache Software Foundation Projects Committees Groups API
+  slug: open-apache-software-foundation-groups-api
+- collection_type: open
+  name: Apache Software Foundation Projects Committees ICLA API
+  slug: open-apache-software-foundation-icla-api
+- collection_type: open
+  name: Apache Software Foundation Projects Committees Members API
+  slug: open-apache-software-foundation-members-api
+- collection_type: open
+  name: Apache Software Foundation Projects Committees People API
+  slug: open-apache-software-foundation-people-api
+- collection_type: open
+  name: Apache Software Foundation Projects Committees Podlings API
+  slug: open-apache-software-foundation-podlings-api
+- collection_type: open
+  name: Apache Software Foundation Committees Projects API
   slug: open-apache-software-foundation-projects-api
+- collection_type: open
+  name: Apache Software Foundation Projects Committees Releases API
+  slug: open-apache-software-foundation-releases-api
 - collection_type: open
   name: Apache Software Foundation Whimsy Public Data API
   slug: open-apache-software-foundation-whimsy-api
@@ -194,7 +221,7 @@ plans:
 - name: Apache Software Foundation Plans Pricing
   plan_count: 3
   slug: apache-software-foundation-plans-pricing
-random_paper: 14
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Apache Software Foundation Rate Limits
@@ -236,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/screenshots/apache-software-foundation-2026-06-20T172144.png
 security:

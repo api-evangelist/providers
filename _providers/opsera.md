@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RESTful JSON API for triggering and monitoring pipelines and tasks, managing users/groups, parameters, audit logs, SCM migration, and GitCustodian, authenticated with scoped JWT Personal Access Tokens
@@ -144,7 +144,7 @@ overview: 'Opsera publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Opsera''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 50
+random_paper: 54
 scopes:
 - name: Opsera Scopes
   scope_count: 2
@@ -166,7 +166,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/screenshots/opsera-2026-08-07T190746.png
 security:

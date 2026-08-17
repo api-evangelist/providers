@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ apis:
 - description: The Videos:annotate API from Google Cloud Video Intelligence — 1 operation(s) for videos:annotate.
   name: Google Cloud Video Intelligence Videos:annotate API
   slug: google-cloud-video-intelligence-videos-annotate-api
-artifact_total: 14
+artifact_total: 17
 collections:
 - collection_type: postman
   name: Google Cloud Video Intelligence Operations API
@@ -52,6 +52,15 @@ collections:
 - collection_type: postman
   name: Google Cloud Video Intelligence Operations Videos:annotate API
   slug: postman-google-cloud-video-intelligence-videos-annotate-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Video Intelligence Operations API
+  slug: open-google-cloud-video-intelligence-operations-api
+- collection_type: open
+  name: Google Cloud Video Intelligence Operations Videos:annotate API
+  slug: open-google-cloud-video-intelligence-videos-annotate-api
 - collection_type: open
   name: Google Cloud Video Intelligence API
   slug: open-openapi
@@ -152,7 +161,7 @@ plans:
 - name: Google Cloud Video Intelligence Plans Pricing
   plan_count: 3
   slug: google-cloud-video-intelligence-plans-pricing
-random_paper: 109
+random_paper: 129
 rate_limits:
 - limit_count: 5
   name: Google Cloud Video Intelligence Rate Limits
@@ -186,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-video-intelligence/refs/heads/main/screenshots/google-cloud-video-intelligence-2026-06-20T182146.png
 security:

@@ -14,7 +14,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
@@ -27,8 +27,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.2
-  scored_at: '2026-08-12'
+  score: 32.2
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 29
+  human_in_the_loop: 0
+  name: Socialbakers Agentic Access
+  operation_count: 41
+  slug: socialbakers-agentic-access
+  summary_line: 41 operations · 29 acting
 api_count: 8
 apis:
 - description: Facebook Ads content and metrics
@@ -55,12 +62,72 @@ apis:
 - description: Managed profiles, labels, label groups, listening queries, ad accounts
   name: Socialbakers Reference API
   slug: socialbakers-reference-api
-artifact_total: 13
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads API
+  slug: open-socialbakers-ads-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Assets API
+  slug: open-socialbakers-assets-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Care API
+  slug: open-socialbakers-care-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Community API
+  slug: open-socialbakers-community-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Listening API
+  slug: open-socialbakers-listening-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Posts API
+  slug: open-socialbakers-posts-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Profile Metrics API
+  slug: open-socialbakers-profile-metrics-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Reference API
+  slug: open-socialbakers-reference-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/socialbakers-agentic-access.yml
 - group: agent
   title: ''
   type: MCPServer
   url: mcp/socialbakers-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/socialbakers-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/socialbakers-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/socialbakers-plans-pricing.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/socialbakers-changelog.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://docs.emplifi.io/platform/latest/home/release-notes.md
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/socialbakers-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://emplifi.io/legal/trust-center/
 - group: other
   title: ''
   type: Overlay
@@ -95,12 +162,20 @@ common:
   url: llms/socialbakers-llms.txt
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/socialbakers-well-known.yml
-- group: agent
-  title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.emplifi.io/platform/latest/home/emplifi-public-api-integration.md
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.emplifi.io/hc/en-us
+- group: start
+  title: ''
+  type: Login
+  url: https://emplifi.io/login/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -129,15 +204,19 @@ mcp_servers:
 - description: ''
   name: socialbakers-mcp.yml
   slug: socialbakers-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Socialbakers
 nav: Providers
 network: true
 overview: 'Socialbakers publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Assets API, Care API, and 5 more. Tagged areas include Company, Marketing, Social Media, Analytics, and Social Media Analytics.
 
 
-  Socialbakers'' developer surface includes documentation, API reference, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 67
+  Socialbakers'' developer surface includes changelog, release notes, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
+plans:
+- name: Socialbakers Plans Pricing
+  plan_count: 9
+  slug: socialbakers-plans-pricing
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Socialbakers Rate Limits
@@ -148,16 +227,16 @@ scopes:
   slug: socialbakers-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 41.1
-  delta: 0.0
+  band: strong
+  composite: 58.3
+  delta: 17.2
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 92.1
     contract_quality: 55.2
-    developer_ergonomics: 29.9
+    developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 42.1
+    operational_transparency: 57.9
   previous_composite: 41.1
   provenance:
     conformance: derived
@@ -169,8 +248,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Socialbakers Authentication
@@ -180,6 +259,10 @@ security:
   name: Socialbakers Domain Security
   slug: socialbakers-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Socialbakers Trust Center
+  slug: socialbakers-trust-center
+  summary_line: SOC 2 Type II, SOC 1 Type II, ISO 27001, PCI, GDPR, CCPA, EU-US Data Privacy Framework, UK extension to the EU-US Data Privacy Framework, Swiss-US Data Privacy Framework, EcoVadis Bronze Sustainability Rating
 slug: socialbakers
 tags:
 - Company

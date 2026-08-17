@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -279,7 +279,248 @@ apis:
 - description: Provides services for resetting user passwords.
   name: Saxo Bank Users API
   slug: saxo-users-api
-artifact_total: 88
+artifact_total: 168
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Services.AutoTrading Account Values API
+  slug: open-saxo-account-values-api
+- collection_type: open
+  name: Services.AutoTrading Account Values AccountGroups API
+  slug: open-saxo-accountgroups-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Accounts API
+  slug: open-saxo-accounts-api
+- collection_type: open
+  name: Services.AutoTrading Account Values AlgoStrategies API
+  slug: open-saxo-algostrategies-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Allocation Keys API
+  slug: open-saxo-allocation-keys-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Apps API
+  slug: open-saxo-apps-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Audit - OrderActivities API
+  slug: open-saxo-audit-orderactivities-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Balances API
+  slug: open-saxo-balances-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Cash Management - Beneficiary Instructions API
+  slug: open-saxo-cash-management-beneficiary-instructions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values CashManagement - Cash Withdrawal API
+  slug: open-saxo-cashmanagement-cash-withdrawal-api
+- collection_type: open
+  name: Services.AutoTrading Account Values CashManagement - Cash Withdrawal Limits API
+  slug: open-saxo-cashmanagement-cash-withdrawal-limits-api
+- collection_type: open
+  name: Services.AutoTrading Account Values CashManagement - Inter Account Transfer API
+  slug: open-saxo-cashmanagement-inter-account-transfer-api
+- collection_type: open
+  name: Services.AutoTrading Account Values CashManagement - WireTransfers API
+  slug: open-saxo-cashmanagement-wiretransfers-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Charts API
+  slug: open-saxo-charts-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Client Activities API
+  slug: open-saxo-client-activities-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Client Renewals API
+  slug: open-saxo-client-renewals-api
+- collection_type: open
+  name: Services.AutoTrading Account Values ClientInfo API
+  slug: open-saxo-clientinfo-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Clients API
+  slug: open-saxo-clients-api
+- collection_type: open
+  name: Services.AutoTrading Account Values ClosedPositions API
+  slug: open-saxo-closedpositions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Cm API
+  slug: open-saxo-cm-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Countries API
+  slug: open-saxo-countries-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Cultures API
+  slug: open-saxo-cultures-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Currencies API
+  slug: open-saxo-currencies-api
+- collection_type: open
+  name: Services.AutoTrading Account Values CurrencyPairs API
+  slug: open-saxo-currencypairs-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Diagnostics API
+  slug: open-saxo-diagnostics-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Documents API
+  slug: open-saxo-documents-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Elections API
+  slug: open-saxo-elections-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Events API
+  slug: open-saxo-events-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Exchanges API
+  slug: open-saxo-exchanges-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Exposure API
+  slug: open-saxo-exposure-api
+- collection_type: open
+  name: Services.AutoTrading Account Values ExtendedAccounts API
+  slug: open-saxo-extendedaccounts-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Feature Flags API
+  slug: open-saxo-feature-flags-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Features API
+  slug: open-saxo-features-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Historical Report Data - Account Statement API
+  slug: open-saxo-historical-report-data-account-statement-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Historical Report Data - Aggregated amounts API
+  slug: open-saxo-historical-report-data-aggregated-amounts-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Historical Report Data - Bookings API
+  slug: open-saxo-historical-report-data-bookings-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Historical Report Data - Closed positions API
+  slug: open-saxo-historical-report-data-closed-positions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Historical Report Data - Portfolio Management API
+  slug: open-saxo-historical-report-data-portfolio-management-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Historical Report Data - Trade Details API
+  slug: open-saxo-historical-report-data-trade-details-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Historical Report Data - Trades API
+  slug: open-saxo-historical-report-data-trades-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Historical Report Data - Trades Executed API
+  slug: open-saxo-historical-report-data-trades-executed-api
+- collection_type: open
+  name: Services.AutoTrading Account Values HistoricalPositions API
+  slug: open-saxo-historicalpositions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Holdings API
+  slug: open-saxo-holdings-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Info Prices API
+  slug: open-saxo-info-prices-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Instrument Document API
+  slug: open-saxo-instrument-document-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Instruments API
+  slug: open-saxo-instruments-api
+- collection_type: open
+  name: Services.AutoTrading Account Values InteractiveIdVerification API
+  slug: open-saxo-interactiveidverification-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Investments API
+  slug: open-saxo-investments-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Languages API
+  slug: open-saxo-languages-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Messages API
+  slug: open-saxo-messages-api
+- collection_type: open
+  name: Services.AutoTrading Account Values NetPositions API
+  slug: open-saxo-netpositions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Options Chain API
+  slug: open-saxo-options-chain-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Orders API
+  slug: open-saxo-orders-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Partner Bulk Bookings API
+  slug: open-saxo-partner-bulk-bookings-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Partner - Cash Transfer API
+  slug: open-saxo-partner-cash-transfer-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Partner - Cash Transfer Limits API
+  slug: open-saxo-partner-cash-transfer-limits-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Partner - Prefunding API
+  slug: open-saxo-partner-prefunding-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Performance API
+  slug: open-saxo-performance-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Positions API
+  slug: open-saxo-positions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Price Alerts API
+  slug: open-saxo-price-alerts-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Prices API
+  slug: open-saxo-prices-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Proxy Voting API
+  slug: open-saxo-proxy-voting-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Securities Transfers API
+  slug: open-saxo-securities-transfers-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Sessions API
+  slug: open-saxo-sessions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Signups API
+  slug: open-saxo-signups-api
+- collection_type: open
+  name: Services.AutoTrading Account Values StandardDates API
+  slug: open-saxo-standarddates-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Standing Instructions API
+  slug: open-saxo-standing-instructions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Subscriptions API
+  slug: open-saxo-subscriptions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Support - Cases API
+  slug: open-saxo-support-cases-api
+- collection_type: open
+  name: Services.AutoTrading Account Values TimeZones API
+  slug: open-saxo-timezones-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Trade Followers API
+  slug: open-saxo-trade-followers-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Trade Leaders API
+  slug: open-saxo-trade-leaders-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Trading Conditions API
+  slug: open-saxo-trading-conditions-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Trading Conditions - Contract Option API
+  slug: open-saxo-trading-conditions-contract-option-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Trading Conditions - Cost API
+  slug: open-saxo-trading-conditions-cost-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Unsettled Amounts API
+  slug: open-saxo-unsettled-amounts-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Update pricing API
+  slug: open-saxo-update-pricing-api
+- collection_type: open
+  name: Services.AutoTrading Account Values User API
+  slug: open-saxo-user-api
+- collection_type: open
+  name: Services.AutoTrading Account Values Users API
+  slug: open-saxo-users-api
 common:
 - group: agent
   title: ''
@@ -325,7 +566,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 83
+random_paper: 145
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -361,7 +602,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/screenshots/saxo-2026-06-20T193446.png
 security:

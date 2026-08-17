@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,11 +57,26 @@ apis:
 - description: Network topology resources including nodes and links
   name: Ciena Topology API
   slug: ciena-topology-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ciena Blue Planet Open Alarms API
+  slug: open-ciena-alarms-api
 - collection_type: open
   name: Ciena Blue Planet Open API
   slug: open-ciena-blue-planet
+- collection_type: open
+  name: Ciena Blue Planet Open Alarms Performance API
+  slug: open-ciena-performance-api
+- collection_type: open
+  name: Ciena Blue Planet Open Alarms Services API
+  slug: open-ciena-services-api
+- collection_type: open
+  name: Ciena Blue Planet Open Alarms Topology API
+  slug: open-ciena-topology-api
 common:
 - group: agent
   title: ''
@@ -199,7 +214,7 @@ press:
 - date: '2026-05-25'
   title: Ciena Solidifies AI Networking Leadership, Unveils New ...
   url: https://www.ciena.com/about/newsroom/press-releases/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-for-high-speed-connectivity
-random_paper: 32
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Ciena Rate Limits
@@ -244,7 +259,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-06-20T174339.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: DAL-powered search with filter, sort, and aggregation
   name: Shopware Search API
   slug: shopware-search-api
-artifact_total: 26
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shopware Admin Account API
+  slug: open-shopware-account-api
+- collection_type: open
+  name: Shopware Admin Account Bulk API
+  slug: open-shopware-bulk-api
+- collection_type: open
+  name: Shopware Admin Account Cart API
+  slug: open-shopware-cart-api
+- collection_type: open
+  name: Shopware Admin Account Category API
+  slug: open-shopware-category-api
+- collection_type: open
+  name: Shopware Admin Account Checkout API
+  slug: open-shopware-checkout-api
+- collection_type: open
+  name: Shopware Admin Account Customer API
+  slug: open-shopware-customer-api
+- collection_type: open
+  name: Shopware Admin Account Navigation API
+  slug: open-shopware-navigation-api
+- collection_type: open
+  name: Shopware Admin Account Order API
+  slug: open-shopware-order-api
+- collection_type: open
+  name: Shopware Admin Account Product API
+  slug: open-shopware-product-api
+- collection_type: open
+  name: Shopware Admin Account Search API
+  slug: open-shopware-search-api
 common:
 - group: agent
   title: ''
@@ -207,7 +241,7 @@ plans:
 - name: Shopware Plans Pricing
   plan_count: 5
   slug: shopware-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Shopware Rate Limits
@@ -246,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopware/refs/heads/main/screenshots/shopware-2026-06-20T193839.png
 security:

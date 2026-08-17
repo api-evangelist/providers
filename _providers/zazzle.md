@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,7 +37,20 @@ apis:
 - description: Maker order retrieval, acknowledgement, packing sheets and shipping labels.
   name: Zazzle Vendor API
   slug: zazzle-vendor-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zazzle Create-a-Product Create a Product API
+  slug: open-zazzle-create-a-product-api
+- collection_type: open
+  name: Zazzle Product Image Real View API
+  slug: open-zazzle-realview-api
+- collection_type: open
+  name: Zazzle (Maker) API v100 Vendor API
+  slug: open-zazzle-vendor-api
 common:
 - group: agent
   title: ''
@@ -180,7 +193,7 @@ overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 24 more developer resources.'
-random_paper: 72
+random_paper: 76
 score:
   band: thin
   composite: 40.1
@@ -204,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

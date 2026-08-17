@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -87,7 +87,59 @@ apis:
 - description: Operations to create and manage reusable webhook endpoints. A webhook is a named HTTP endpoint that receives a POST notification when a job or monitor completes. Create webhooks once at the organizati
   name: Newscatcher Webhooks API
   slug: newscatcher-webhooks-api
-artifact_total: 29
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Local News AggregationCount API
+  slug: open-newscatcher-aggregationcount-api
+- collection_type: open
+  name: Local News AggregationCount Authors API
+  slug: open-newscatcher-authors-api
+- collection_type: open
+  name: Local News AggregationCount BreakingNews API
+  slug: open-newscatcher-breakingnews-api
+- collection_type: open
+  name: Local News AggregationCount Datasets API
+  slug: open-newscatcher-datasets-api
+- collection_type: open
+  name: Local News AggregationCount Entities API
+  slug: open-newscatcher-entities-api
+- collection_type: open
+  name: Local News AggregationCount Jobs API
+  slug: open-newscatcher-jobs-api
+- collection_type: open
+  name: Local News AggregationCount LatestHeadlines API
+  slug: open-newscatcher-latestheadlines-api
+- collection_type: open
+  name: Local News AggregationCount Meta API
+  slug: open-newscatcher-meta-api
+- collection_type: open
+  name: Local News AggregationCount Monitors API
+  slug: open-newscatcher-monitors-api
+- collection_type: open
+  name: Local News AggregationCount Projects API
+  slug: open-newscatcher-projects-api
+- collection_type: open
+  name: Local News AggregationCount Search API
+  slug: open-newscatcher-search-api
+- collection_type: open
+  name: Local News AggregationCount SearchBy API
+  slug: open-newscatcher-searchby-api
+- collection_type: open
+  name: Local News AggregationCount SearchByLink API
+  slug: open-newscatcher-searchbylink-api
+- collection_type: open
+  name: Local News AggregationCount Sources API
+  slug: open-newscatcher-sources-api
+- collection_type: open
+  name: Local News AggregationCount Subscription API
+  slug: open-newscatcher-subscription-api
+- collection_type: open
+  name: Local News AggregationCount Webhooks API
+  slug: open-newscatcher-webhooks-api
 common:
 - group: agent
   title: ''
@@ -206,7 +258,7 @@ plans:
 - name: Newscatcher Plans Pricing
   plan_count: 7
   slug: newscatcher-plans-pricing
-random_paper: 95
+random_paper: 132
 rate_limits:
 - limit_count: 11
   name: Newscatcher Rate Limits
@@ -240,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/screenshots/newscatcher-2026-06-20T190251.png
 security:

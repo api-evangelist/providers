@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -257,8 +257,230 @@ apis:
 - description: The UpdateTargetGroup API from Amazon VPC Lattice — 1 operation(s) for updatetargetgroup.
   name: Amazon VPC Lattice UpdateTargetGroup API
   slug: amazon-vpc-lattice-updatetargetgroup-api
-artifact_total: 87
+artifact_total: 161
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule API
+  slug: open-amazon-vpc-lattice-batchupdaterule-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateAccessLogSubscription API
+  slug: open-amazon-vpc-lattice-createaccesslogsubscription-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateListener API
+  slug: open-amazon-vpc-lattice-createlistener-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateResourceConfiguration API
+  slug: open-amazon-vpc-lattice-createresourceconfiguration-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateResourceGateway API
+  slug: open-amazon-vpc-lattice-createresourcegateway-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateRule API
+  slug: open-amazon-vpc-lattice-createrule-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateService API
+  slug: open-amazon-vpc-lattice-createservice-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateServiceNetwork API
+  slug: open-amazon-vpc-lattice-createservicenetwork-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateServiceNetworkResourceAssociation API
+  slug: open-amazon-vpc-lattice-createservicenetworkresourceassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateServiceNetworkServiceAssociation API
+  slug: open-amazon-vpc-lattice-createservicenetworkserviceassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateServiceNetworkVpcAssociation API
+  slug: open-amazon-vpc-lattice-createservicenetworkvpcassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule CreateTargetGroup API
+  slug: open-amazon-vpc-lattice-createtargetgroup-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteAccessLogSubscription API
+  slug: open-amazon-vpc-lattice-deleteaccesslogsubscription-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteAuthPolicy API
+  slug: open-amazon-vpc-lattice-deleteauthpolicy-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteDomainVerification API
+  slug: open-amazon-vpc-lattice-deletedomainverification-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteListener API
+  slug: open-amazon-vpc-lattice-deletelistener-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteResourceConfiguration API
+  slug: open-amazon-vpc-lattice-deleteresourceconfiguration-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteResourceEndpointAssociation API
+  slug: open-amazon-vpc-lattice-deleteresourceendpointassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteResourceGateway API
+  slug: open-amazon-vpc-lattice-deleteresourcegateway-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteResourcePolicy API
+  slug: open-amazon-vpc-lattice-deleteresourcepolicy-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteRule API
+  slug: open-amazon-vpc-lattice-deleterule-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteService API
+  slug: open-amazon-vpc-lattice-deleteservice-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteServiceNetwork API
+  slug: open-amazon-vpc-lattice-deleteservicenetwork-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteServiceNetworkResourceAssociation API
+  slug: open-amazon-vpc-lattice-deleteservicenetworkresourceassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteServiceNetworkServiceAssociation API
+  slug: open-amazon-vpc-lattice-deleteservicenetworkserviceassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteServiceNetworkVpcAssociation API
+  slug: open-amazon-vpc-lattice-deleteservicenetworkvpcassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeleteTargetGroup API
+  slug: open-amazon-vpc-lattice-deletetargetgroup-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule DeregisterTargets API
+  slug: open-amazon-vpc-lattice-deregistertargets-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetAccessLogSubscription API
+  slug: open-amazon-vpc-lattice-getaccesslogsubscription-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetAuthPolicy API
+  slug: open-amazon-vpc-lattice-getauthpolicy-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetDomainVerification API
+  slug: open-amazon-vpc-lattice-getdomainverification-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetListener API
+  slug: open-amazon-vpc-lattice-getlistener-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetResourceConfiguration API
+  slug: open-amazon-vpc-lattice-getresourceconfiguration-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetResourceGateway API
+  slug: open-amazon-vpc-lattice-getresourcegateway-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetResourcePolicy API
+  slug: open-amazon-vpc-lattice-getresourcepolicy-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetRule API
+  slug: open-amazon-vpc-lattice-getrule-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetService API
+  slug: open-amazon-vpc-lattice-getservice-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetServiceNetwork API
+  slug: open-amazon-vpc-lattice-getservicenetwork-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetServiceNetworkResourceAssociation API
+  slug: open-amazon-vpc-lattice-getservicenetworkresourceassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetServiceNetworkServiceAssociation API
+  slug: open-amazon-vpc-lattice-getservicenetworkserviceassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetServiceNetworkVpcAssociation API
+  slug: open-amazon-vpc-lattice-getservicenetworkvpcassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule GetTargetGroup API
+  slug: open-amazon-vpc-lattice-gettargetgroup-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListAccessLogSubscriptions API
+  slug: open-amazon-vpc-lattice-listaccesslogsubscriptions-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListDomainVerifications API
+  slug: open-amazon-vpc-lattice-listdomainverifications-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListListeners API
+  slug: open-amazon-vpc-lattice-listlisteners-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListResourceConfigurations API
+  slug: open-amazon-vpc-lattice-listresourceconfigurations-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListResourceEndpointAssociations API
+  slug: open-amazon-vpc-lattice-listresourceendpointassociations-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListResourceGateways API
+  slug: open-amazon-vpc-lattice-listresourcegateways-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListRules API
+  slug: open-amazon-vpc-lattice-listrules-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListServiceNetworkResourceAssociations API
+  slug: open-amazon-vpc-lattice-listservicenetworkresourceassociations-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListServiceNetworks API
+  slug: open-amazon-vpc-lattice-listservicenetworks-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListServiceNetworkServiceAssociations API
+  slug: open-amazon-vpc-lattice-listservicenetworkserviceassociations-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListServiceNetworkVpcAssociations API
+  slug: open-amazon-vpc-lattice-listservicenetworkvpcassociations-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListServiceNetworkVpcEndpointAssociations API
+  slug: open-amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListServices API
+  slug: open-amazon-vpc-lattice-listservices-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListTagsForResource API
+  slug: open-amazon-vpc-lattice-listtagsforresource-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListTargetGroups API
+  slug: open-amazon-vpc-lattice-listtargetgroups-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule ListTargets API
+  slug: open-amazon-vpc-lattice-listtargets-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule PutAuthPolicy API
+  slug: open-amazon-vpc-lattice-putauthpolicy-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule PutResourcePolicy API
+  slug: open-amazon-vpc-lattice-putresourcepolicy-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule RegisterTargets API
+  slug: open-amazon-vpc-lattice-registertargets-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule StartDomainVerification API
+  slug: open-amazon-vpc-lattice-startdomainverification-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule TagResource API
+  slug: open-amazon-vpc-lattice-tagresource-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UntagResource API
+  slug: open-amazon-vpc-lattice-untagresource-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UpdateAccessLogSubscription API
+  slug: open-amazon-vpc-lattice-updateaccesslogsubscription-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UpdateListener API
+  slug: open-amazon-vpc-lattice-updatelistener-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UpdateResourceConfiguration API
+  slug: open-amazon-vpc-lattice-updateresourceconfiguration-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UpdateResourceGateway API
+  slug: open-amazon-vpc-lattice-updateresourcegateway-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UpdateRule API
+  slug: open-amazon-vpc-lattice-updaterule-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UpdateService API
+  slug: open-amazon-vpc-lattice-updateservice-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UpdateServiceNetwork API
+  slug: open-amazon-vpc-lattice-updateservicenetwork-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UpdateServiceNetworkVpcAssociation API
+  slug: open-amazon-vpc-lattice-updateservicenetworkvpcassociation-api
+- collection_type: open
+  name: Amazon VPC Lattice BatchUpdateRule UpdateTargetGroup API
+  slug: open-amazon-vpc-lattice-updatetargetgroup-api
 - collection_type: open
   name: Amazon VPC Lattice
   slug: open-amazon-vpc-lattice
@@ -368,7 +590,7 @@ plans:
 - name: Amazon Vpc Lattice Plans Pricing
   plan_count: 3
   slug: amazon-vpc-lattice-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Vpc Lattice Rate Limits
@@ -402,7 +624,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/screenshots/amazon-vpc-lattice-2026-06-20T171847.png
 security:

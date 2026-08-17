@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Web ACLs API from Amazon WAF — 3 operation(s) for web acls.
   name: Amazon WAF Web ACLs API
   slug: amazon-waf-web-acls-api
-artifact_total: 32
+artifact_total: 36
 collections:
 - collection_type: postman
   name: Amazon WAF IP Sets API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Amazon WAF IP Sets Web ACLs API
   slug: postman-amazon-waf-web-acls-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon WAF IP Sets API
+  slug: open-amazon-waf-ip-sets-api
+- collection_type: open
+  name: Amazon WAF IP Sets Rule Groups API
+  slug: open-amazon-waf-rule-groups-api
+- collection_type: open
+  name: Amazon WAF IP Sets Web ACLs API
+  slug: open-amazon-waf-web-acls-api
 - collection_type: open
   name: Amazon WAF API
   slug: open-amazon-waf
@@ -228,7 +240,7 @@ plans:
 - name: Amazon Waf Plans Pricing
   plan_count: 3
   slug: amazon-waf-plans-pricing
-random_paper: 49
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Amazon Waf Rate Limits
@@ -270,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/screenshots/amazon-waf-2026-06-20T171845.png
 security:

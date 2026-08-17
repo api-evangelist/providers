@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: Retrieving segments
   name: Peakon Segments API
   slug: peakon-segments-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Peakon Actions API
+  slug: open-peakon-actions-api
+- collection_type: open
+  name: Peakon Actions Answers API
+  slug: open-peakon-answers-api
+- collection_type: open
+  name: Peakon Actions Audits API
+  slug: open-peakon-audits-api
+- collection_type: open
+  name: Peakon Actions Authentication API
+  slug: open-peakon-authentication-api
+- collection_type: open
+  name: Peakon Actions Employees API
+  slug: open-peakon-employees-api
+- collection_type: open
+  name: Peakon Actions Engagement API
+  slug: open-peakon-engagement-api
+- collection_type: open
+  name: Peakon Actions Scores API
+  slug: open-peakon-scores-api
+- collection_type: open
+  name: Peakon Actions Segments API
+  slug: open-peakon-segments-api
 common:
 - group: agent
   title: ''
@@ -160,7 +188,7 @@ overview: 'Peakon publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Peakon''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 15 more developer resources.'
-random_paper: 38
+random_paper: 42
 score:
   band: thin
   composite: 35.8
@@ -184,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/screenshots/peakon-2026-08-07T191724.png
 security:

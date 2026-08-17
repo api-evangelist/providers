@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -43,7 +43,14 @@ apis:
 - description: TSB's OpenID Connect / OAuth2 authorization server (Curity OAuth Toolkit, OTK Server APIs v4.3.1), backing the FAPI-secured OBIE Read/Write services. Exposes the authorize, token, token-revocation, us
   name: TSB OAuth Toolkit (OTK) Server
   slug: tsb-oauth-toolkit-server
-artifact_total: 11
+artifact_total: 13
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-open-data
+- collection_type: open
+  name: OTK Server APIs
+  slug: open-tsb-bank-oauth-server
 common:
 - group: other
   title: ''
@@ -166,7 +173,7 @@ overview: 'TSB Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TSB Bank''s developer surface includes authentication, documentation, support, and 23 more developer resources.'
-random_paper: 66
+random_paper: 41
 scopes:
 - name: Tsb Bank Scopes
   scope_count: 9
@@ -201,7 +208,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

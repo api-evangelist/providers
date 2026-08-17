@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -75,14 +75,50 @@ apis:
 - description: Irrigation zone management
   name: Toro Zones API
   slug: toro-zones-api
-artifact_total: 28
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toro Horizon360 Crews API
+  slug: open-toro-crews-api
+- collection_type: open
+  name: Toro Horizon360 Crews Customers API
+  slug: open-toro-customers-api
+- collection_type: open
+  name: Toro Horizon360 Crews Equipment API
+  slug: open-toro-equipment-api
 - collection_type: open
   name: Toro Horizon360
   slug: open-toro-horizon360
 - collection_type: open
   name: Toro IntelliDash
   slug: open-toro-intellidash
+- collection_type: open
+  name: Toro Horizon360 Crews Invoices API
+  slug: open-toro-invoices-api
+- collection_type: open
+  name: Toro Horizon360 Crews Irrigation API
+  slug: open-toro-irrigation-api
+- collection_type: open
+  name: Toro Horizon360 Crews Jobs API
+  slug: open-toro-jobs-api
+- collection_type: open
+  name: Toro Horizon360 Crews Payments API
+  slug: open-toro-payments-api
+- collection_type: open
+  name: Toro Horizon360 Crews Reports API
+  slug: open-toro-reports-api
+- collection_type: open
+  name: Toro Horizon360 Crews Schedules API
+  slug: open-toro-schedules-api
+- collection_type: open
+  name: Toro Horizon360 Crews Sensors API
+  slug: open-toro-sensors-api
+- collection_type: open
+  name: Toro Horizon360 Crews Zones API
+  slug: open-toro-zones-api
 common:
 - group: agent
   title: ''
@@ -186,7 +222,7 @@ press:
 - date: '2026-05-25'
   title: tbh me anytime del Toro speaks, but the anti-ai stance is * ...
   url: https://www.facebook.com/groups/1404116417142065/posts/1817161845837518/
-random_paper: 92
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Toro Rate Limits
@@ -228,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

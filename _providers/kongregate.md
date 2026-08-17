@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -81,11 +81,54 @@ apis:
 - description: The User Items.json API from Kongregate — 1 operation(s) for user items.json.
   name: Kongregate User Items.json API
   slug: kongregate-user-items-json-api
-artifact_total: 19
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Kongregate Callbacks Webhooks
   slug: kongregate-callbacks-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: api Authenticate.json API
+  slug: open-kongregate-authenticate-json-api
+- collection_type: open
+  name: api Authenticate.json Characters.json API
+  slug: open-kongregate-characters-json-api
+- collection_type: open
+  name: api Authenticate.json Guilds API
+  slug: open-kongregate-guilds-api
+- collection_type: open
+  name: api Authenticate.json Guilds.json API
+  slug: open-kongregate-guilds-json-api
+- collection_type: open
+  name: api Authenticate.json High Scores API
+  slug: open-kongregate-high-scores-api
+- collection_type: open
+  name: api Authenticate.json Items.json API
+  slug: open-kongregate-items-json-api
+- collection_type: open
+  name: api Authenticate.json Kongpanions API
+  slug: open-kongregate-kongpanions-api
+- collection_type: open
+  name: api Authenticate.json Kongpanions.json API
+  slug: open-kongregate-kongpanions-json-api
+- collection_type: open
+  name: api Authenticate.json Shared Links API
+  slug: open-kongregate-shared-links-api
+- collection_type: open
+  name: api Authenticate.json Submit Statistics.json API
+  slug: open-kongregate-submit-statistics-json-api
+- collection_type: open
+  name: api Authenticate.json Use Item.json API
+  slug: open-kongregate-use-item-json-api
+- collection_type: open
+  name: api Authenticate.json User Info.json API
+  slug: open-kongregate-user-info-json-api
+- collection_type: open
+  name: api Authenticate.json User Items.json API
+  slug: open-kongregate-user-items-json-api
 common:
 - group: company
   title: ''
@@ -222,7 +265,7 @@ overview: 'Kongregate publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Kongregate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 103
+random_paper: 20
 score:
   band: developing
   composite: 50.1
@@ -246,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/screenshots/kongregate-2026-07-25T224157.png
 security:

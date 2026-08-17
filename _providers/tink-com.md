@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -145,7 +145,7 @@ arazzos:
 - description: Register a webhook endpoint for selected event types, read it back to capture its signing secret, then confirm it is enabled in the endpoint list.
   name: Tink Register And Verify A Webhook Endpoint
   slug: tink-com-webhook-endpoint-setup-workflow
-artifact_total: 99
+artifact_total: 125
 collections:
 - collection_type: postman
   name: Tink Account Check API
@@ -175,8 +175,86 @@ collections:
   name: Tink Webhooks API
   slug: postman-tink-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Tink Account Check API
   slug: open-tink-account-check-api
+- collection_type: open
+  name: Tink Account Check Accounts API
+  slug: open-tink-com-accounts-api
+- collection_type: open
+  name: Tink Account Check Accounts AccountVerificationReports API
+  slug: open-tink-com-accountverificationreports-api
+- collection_type: open
+  name: Tink Account Check Accounts BalanceRefresh API
+  slug: open-tink-com-balancerefresh-api
+- collection_type: open
+  name: Tink Account Check Accounts Budgets API
+  slug: open-tink-com-budgets-api
+- collection_type: open
+  name: Tink Account Check Accounts BusinessAccountVerificationReports API
+  slug: open-tink-com-businessaccountverificationreports-api
+- collection_type: open
+  name: Tink Account Check Accounts CashFlow API
+  slug: open-tink-com-cashflow-api
+- collection_type: open
+  name: Tink Account Check Accounts Categories API
+  slug: open-tink-com-categories-api
+- collection_type: open
+  name: Tink Account Check Accounts ConnectorAccounts API
+  slug: open-tink-com-connectoraccounts-api
+- collection_type: open
+  name: Tink Account Check Accounts ConnectorTransactions API
+  slug: open-tink-com-connectortransactions-api
+- collection_type: open
+  name: Tink Account Check Accounts EnrichedTransactions API
+  slug: open-tink-com-enrichedtransactions-api
+- collection_type: open
+  name: Tink Account Check Accounts ExpenseChecks API
+  slug: open-tink-com-expensechecks-api
+- collection_type: open
+  name: Tink Account Check Accounts FinancialCalendar API
+  slug: open-tink-com-financialcalendar-api
+- collection_type: open
+  name: Tink Account Check Accounts Identities API
+  slug: open-tink-com-identities-api
+- collection_type: open
+  name: Tink Account Check Accounts IncomeChecks API
+  slug: open-tink-com-incomechecks-api
+- collection_type: open
+  name: Tink Account Check Accounts Investments API
+  slug: open-tink-com-investments-api
+- collection_type: open
+  name: Tink Account Check Accounts Loans API
+  slug: open-tink-com-loans-api
+- collection_type: open
+  name: Tink Account Check Accounts Mandates API
+  slug: open-tink-com-mandates-api
+- collection_type: open
+  name: Tink Account Check Accounts OAuth API
+  slug: open-tink-com-oauth-api
+- collection_type: open
+  name: Tink Account Check Accounts Payments API
+  slug: open-tink-com-payments-api
+- collection_type: open
+  name: Tink Account Check Accounts RecurringTransactions API
+  slug: open-tink-com-recurringtransactions-api
+- collection_type: open
+  name: Tink Account Check Accounts RiskCategorisation API
+  slug: open-tink-com-riskcategorisation-api
+- collection_type: open
+  name: Tink Account Check Accounts RiskInsights API
+  slug: open-tink-com-riskinsights-api
+- collection_type: open
+  name: Tink Account Check Accounts Transactions API
+  slug: open-tink-com-transactions-api
+- collection_type: open
+  name: Tink Account Check Accounts User API
+  slug: open-tink-com-user-api
+- collection_type: open
+  name: Tink Account Check Accounts WebhookEndpoints API
+  slug: open-tink-com-webhookendpoints-api
 - collection_type: open
   name: Tink Connector API
   slug: open-tink-connector-api
@@ -450,7 +528,7 @@ plans:
 - name: Tink Com Plans Pricing
   plan_count: 2
   slug: tink-com-plans-pricing
-random_paper: 82
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Tink Com Rate Limits
@@ -498,7 +576,7 @@ score:
     regime_id: banking_open_finance
     score: 44.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/screenshots/tink-com-2026-06-20T195409.png
 security:

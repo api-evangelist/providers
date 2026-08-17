@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Fern transforms a single API source of truth (OpenAPI, AsyncAPI, Protobuf, OpenRPC, or the Fern Definition Language) into type-safe SDKs in nine languages, branded interactive documentation with API e
@@ -311,7 +311,7 @@ plans:
 - name: Fern Plans Pricing
   plan_count: 3
   slug: fern-plans-pricing
-random_paper: 67
+random_paper: 129
 rate_limits:
 - limit_count: 5
   name: Fern Rate Limits
@@ -338,7 +338,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 46.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fern/refs/heads/main/screenshots/fern-2026-06-20T181141.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,11 +44,21 @@ apis:
 - description: Mint, redeem, and bridge IDRX, and query rates/fees/history.
   name: IDRX Transaction API
   slug: idrx-transaction-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Idrx Callback Webhooks
   slug: idrx-callback-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IDRX Onboarding API
+  slug: open-idrx-onboarding-api
+- collection_type: open
+  name: IDRX Onboarding Transaction API
+  slug: open-idrx-transaction-api
 common:
 - group: other
   title: ''
@@ -157,7 +167,7 @@ overview: 'IDRX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Onb
 
 
   IDRX''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 15 more developer resources.'
-random_paper: 79
+random_paper: 141
 score:
   band: thin
   composite: 41.6
@@ -187,7 +197,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/screenshots/idrx-2026-07-25T222044.png
 security:

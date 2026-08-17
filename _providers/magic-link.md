@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,8 +51,17 @@ apis:
 - description: Magic user metadata and session management
   name: Magic Users API
   slug: magic-link-users-api
-artifact_total: 11
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Magic Admin Client API
+  slug: open-magic-link-client-api
+- collection_type: open
+  name: Magic Admin Client Users API
+  slug: open-magic-link-users-api
 - collection_type: open
   name: Magic Admin API
   slug: open-magic-link
@@ -113,7 +122,7 @@ plans:
 - name: Magic Link Plans Pricing
   plan_count: 4
   slug: magic-link-plans-pricing
-random_paper: 28
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Magic Link Rate Limits
@@ -144,7 +153,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

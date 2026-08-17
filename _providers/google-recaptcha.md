@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Manage reCAPTCHA site keys
   name: Google reCAPTCHA Keys API
   slug: google-recaptcha-keys-api
-artifact_total: 17
+artifact_total: 20
 collections:
 - collection_type: postman
   name: Google reCAPTCHA reCAPTCHA Enterprise Assessments API
@@ -56,6 +56,15 @@ collections:
 - collection_type: postman
   name: Google reCAPTCHA reCAPTCHA Enterprise Assessments Keys API
   slug: postman-google-recaptcha-keys-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google reCAPTCHA reCAPTCHA Enterprise Assessments API
+  slug: open-google-recaptcha-assessments-api
+- collection_type: open
+  name: Google reCAPTCHA reCAPTCHA Enterprise Assessments Keys API
+  slug: open-google-recaptcha-keys-api
 - collection_type: open
   name: Google reCAPTCHA reCAPTCHA Enterprise API
   slug: open-recaptcha-enterprise
@@ -152,7 +161,7 @@ plans:
 - name: Google Recaptcha Plans Pricing
   plan_count: 3
   slug: google-recaptcha-plans-pricing
-random_paper: 61
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Google Recaptcha Rate Limits
@@ -191,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-recaptcha/refs/heads/main/screenshots/google-recaptcha-2026-06-20T182229.png
 security:

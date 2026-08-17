@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -77,7 +77,47 @@ apis:
 - description: REST API endpoints for users.
   name: Nevercode Users API
   slug: nevercode-users-api
-artifact_total: 17
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Codemagic App Previews Applications API
+  slug: open-nevercode-applications-api
+- collection_type: open
+  name: Codemagic App Previews Billing API
+  slug: open-nevercode-billing-api
+- collection_type: open
+  name: Codemagic App Previews Build Dashboards API
+  slug: open-nevercode-build-dashboards-api
+- collection_type: open
+  name: Codemagic App Previews Builds API
+  slug: open-nevercode-builds-api
+- collection_type: open
+  name: Codemagic App Previews Meta API
+  slug: open-nevercode-meta-api
+- collection_type: open
+  name: Codemagic App Previews Over-the-air Updates API
+  slug: open-nevercode-over-the-air-updates-api
+- collection_type: open
+  name: Codemagic App Previews Secrets and Environment Vars API
+  slug: open-nevercode-secrets-and-environment-vars-api
+- collection_type: open
+  name: Codemagic App Previews Team Invitations API
+  slug: open-nevercode-team-invitations-api
+- collection_type: open
+  name: Codemagic App Previews Team Members API
+  slug: open-nevercode-team-members-api
+- collection_type: open
+  name: Codemagic App Previews Teams API
+  slug: open-nevercode-teams-api
+- collection_type: open
+  name: Codemagic App Previews Tester Groups API
+  slug: open-nevercode-tester-groups-api
+- collection_type: open
+  name: Codemagic App Previews Users API
+  slug: open-nevercode-users-api
 common:
 - group: other
   title: ''
@@ -215,7 +255,7 @@ overview: 'Nevercode publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nevercode''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 23 more developer resources.'
-random_paper: 115
+random_paper: 61
 score:
   band: developing
   composite: 52.1
@@ -239,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/screenshots/nevercode-2026-08-07T185044.png
 security:

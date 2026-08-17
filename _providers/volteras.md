@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -96,11 +96,72 @@ apis:
 - description: The Vehicles API from Volteras — 5 operation(s) for vehicles.
   name: Volteras Vehicles API
   slug: volteras-vehicles-api
-artifact_total: 26
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Volteras Webhooks
   slug: volteras-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts API
+  slug: open-volteras-accounts-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Authentication API
+  slug: open-volteras-authentication-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Rate Limit API
+  slug: open-volteras-rate-limit-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Tags API
+  slug: open-volteras-tags-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Alerts API
+  slug: open-volteras-vehicle-alerts-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Charging History API
+  slug: open-volteras-vehicle-charging-history-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Charging Schedule API
+  slug: open-volteras-vehicle-charging-schedule-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Command Executions API
+  slug: open-volteras-vehicle-command-executions-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Connection API
+  slug: open-volteras-vehicle-connection-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Eligibility API
+  slug: open-volteras-vehicle-eligibility-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Journeys API
+  slug: open-volteras-vehicle-journeys-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Listening API
+  slug: open-volteras-vehicle-listening-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Manufacturer Alerts API
+  slug: open-volteras-vehicle-manufacturer-alerts-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Range API
+  slug: open-volteras-vehicle-range-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Services API
+  slug: open-volteras-vehicle-services-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle State of Health API
+  slug: open-volteras-vehicle-state-of-health-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Telemetry API
+  slug: open-volteras-vehicle-telemetry-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicle Tires API
+  slug: open-volteras-vehicle-tires-api
+- collection_type: open
+  name: VOLTERAS CONNECT Accounts Vehicles API
+  slug: open-volteras-vehicles-api
 common:
 - group: company
   title: ''
@@ -237,7 +298,7 @@ overview: 'Volteras publishes 19 APIs on the [APIs.io](https://apis.io/) network
 
 
   Volteras'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 40
+random_paper: 135
 rate_limits:
 - limit_count: 0
   name: Volteras Rate Limits
@@ -276,7 +337,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

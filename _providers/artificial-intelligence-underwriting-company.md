@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Artificial Intelligence Underwriting Company is profiled on the [APIs
 
 
   Artificial Intelligence Underwriting Company''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 83
+random_paper: 53
 score:
   band: emerging
   composite: 13.6
@@ -87,7 +87,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artificial-intelligence-underwriting-company/refs/heads/main/screenshots/artificial-intelligence-underwriting-company-2026-07-25T201341.png
 security:

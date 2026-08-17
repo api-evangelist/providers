@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 11
@@ -144,26 +144,128 @@ apis:
 - description: YARA Hunting - Rules
   name: VirusTotal YARA Hunting - Rules API
   slug: virustotal-yara-hunting-rules-api
-artifact_total: 108
+artifact_total: 142
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management API
+  slug: open-virustotal-access-control-group-management-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Access Control - Quota Management API
+  slug: open-virustotal-access-control-quota-management-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Access Control - Service Account Management API
+  slug: open-virustotal-access-control-service-account-management-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Access Control - User Management API
+  slug: open-virustotal-access-control-user-management-api
 - collection_type: open
   name: VirusTotal API v3 - Access Control
   slug: open-virustotal-access-control
 - collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Feeds - Domain intelligence feed API
+  slug: open-virustotal-ioc-feeds-domain-intelligence-feed-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Feeds - File intelligence feed API
+  slug: open-virustotal-ioc-feeds-file-intelligence-feed-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Feeds - IP intelligence feed API
+  slug: open-virustotal-ioc-feeds-ip-intelligence-feed-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Feeds - Sandbox analyses feed API
+  slug: open-virustotal-ioc-feeds-sandbox-analyses-feed-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Feeds - URL intelligence feed API
+  slug: open-virustotal-ioc-feeds-url-intelligence-feed-api
+- collection_type: open
   name: VirusTotal API v3 - IoC Feeds
   slug: open-virustotal-ioc-feeds
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Analyses, Submissions & Operations API
+  slug: open-virustotal-ioc-investigation-analyses-submissions-operations-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Attack Tactics API
+  slug: open-virustotal-ioc-investigation-attack-tactics-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Attack Techniques API
+  slug: open-virustotal-ioc-investigation-attack-techniques-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Comments API
+  slug: open-virustotal-ioc-investigation-comments-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Domains & Resolutions API
+  slug: open-virustotal-ioc-investigation-domains-resolutions-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Files API
+  slug: open-virustotal-ioc-investigation-files-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Files Behaviours API
+  slug: open-virustotal-ioc-investigation-files-behaviours-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - IP addresses API
+  slug: open-virustotal-ioc-investigation-ip-addresses-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Popular Threat Categories API
+  slug: open-virustotal-ioc-investigation-popular-threat-categories-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Search & Metadata API
+  slug: open-virustotal-ioc-investigation-search-metadata-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - URLs API
+  slug: open-virustotal-ioc-investigation-urls-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management IoC Investigation - Zipping files API
+  slug: open-virustotal-ioc-investigation-zipping-files-api
 - collection_type: open
   name: VirusTotal API v3 - IoC Investigation
   slug: open-virustotal-ioc-investigation
 - collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Private Scanning - Analyses API
+  slug: open-virustotal-private-scanning-analyses-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Private Scanning - Files API
+  slug: open-virustotal-private-scanning-files-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Private Scanning - Files Behaviours API
+  slug: open-virustotal-private-scanning-files-behaviours-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Private Scanning - URLs API
+  slug: open-virustotal-private-scanning-urls-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Private Scanning - Zipping files API
+  slug: open-virustotal-private-scanning-zipping-files-api
+- collection_type: open
   name: VirusTotal API v3 - Private Scanning
   slug: open-virustotal-private-scanning
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Threat Graphs API
+  slug: open-virustotal-threat-graphs-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Threat Graphs Permissions & ACL API
+  slug: open-virustotal-threat-graphs-permissions-acl-api
 - collection_type: open
   name: VirusTotal API v3 - Threat Graphs
   slug: open-virustotal-threat-graphs
 - collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management Threat Landscape & Vulnerability Intelligence & Reports & Analysis API
+  slug: open-virustotal-threat-landscape-vulnerability-intelligence-reports-analysis-api
+- collection_type: open
   name: VirusTotal API v3 - Threat Landscape and Vulnerability Intelligence
   slug: open-virustotal-threat-landscape
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management YARA Hunting - IoC Stream API
+  slug: open-virustotal-yara-hunting-ioc-stream-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management YARA Hunting - Livehunt API
+  slug: open-virustotal-yara-hunting-livehunt-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management YARA Hunting - Retrohunt API
+  slug: open-virustotal-yara-hunting-retrohunt-api
+- collection_type: open
+  name: VirusTotal API v3 - Access Control Access Control - Group Management YARA Hunting - Rules API
+  slug: open-virustotal-yara-hunting-rules-api
 - collection_type: open
   name: VirusTotal API v3 - YARA Hunting (Livehunt, Retrohunt, IoC Stream)
   slug: open-virustotal-yara-hunting
@@ -514,7 +616,7 @@ plans:
 - name: Virustotal Plans Pricing
   plan_count: 3
   slug: virustotal-plans-pricing
-random_paper: 37
+random_paper: 74
 rate_limits:
 - limit_count: 10
   name: Virustotal Rate Limits
@@ -556,7 +658,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virustotal/refs/heads/main/screenshots/virustotal-2026-06-20T201042.png
 security:

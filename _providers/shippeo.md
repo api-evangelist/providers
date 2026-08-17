@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Submit and manage transport orders (tours) for real-time tracking.
   name: Shippeo Transport Orders API
   slug: shippeo-transport-orders-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shippeo Real-Time Transportation Visibility ETA and Status API
+  slug: open-shippeo-eta-and-status-api
+- collection_type: open
+  name: Shippeo Real-Time Transportation Visibility ETA and Status Event Subscriptions API
+  slug: open-shippeo-event-subscriptions-api
+- collection_type: open
+  name: Shippeo Real-Time Transportation Visibility ETA and Status Positions API
+  slug: open-shippeo-positions-api
+- collection_type: open
+  name: Shippeo Real-Time Transportation Visibility ETA and Status Transport Orders API
+  slug: open-shippeo-transport-orders-api
 - collection_type: open
   name: Shippeo Real-Time Transportation Visibility API
   slug: open-shippeo
@@ -121,7 +136,7 @@ plans:
 - name: Shippeo Plans Pricing
   plan_count: 1
   slug: shippeo-plans-pricing
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Shippeo Rate Limits
@@ -146,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

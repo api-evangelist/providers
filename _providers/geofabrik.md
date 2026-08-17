@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,17 @@ apis:
 - description: Machine-readable index of all available extracts
   name: Geofabrik Index API
   slug: geofabrik-index-api
-artifact_total: 14
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Geofabrik Download Downloads API
+  slug: open-geofabrik-downloads-api
+- collection_type: open
+  name: Geofabrik Download Downloads Index API
+  slug: open-geofabrik-index-api
 common:
 - group: agent
   title: ''
@@ -139,7 +149,7 @@ plans:
 - name: Geofabrik Plans Pricing
   plan_count: 5
   slug: geofabrik-plans-pricing
-random_paper: 98
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Geofabrik Rate Limits
@@ -173,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/screenshots/geofabrik-2026-06-20T181750.png
 security:

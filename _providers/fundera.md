@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Fundera by NerdWallet marketplace platform for comparing and applying for small business loan products, credit cards, and checking accounts. Provides a single application to prequalify across mult
@@ -104,7 +104,7 @@ plans:
 - name: Fundera Plans Pricing
   plan_count: 1
   slug: fundera-plans-pricing
-random_paper: 21
+random_paper: 145
 rate_limits:
 - limit_count: 0
   name: Fundera Rate Limits
@@ -128,7 +128,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

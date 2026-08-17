@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: The Webhooks API from Azure Container Registry — 5 operation(s) for webhooks.
   name: Azure Container Registry Webhooks API
   slug: azure-container-registry-webhooks-api
-artifact_total: 102
+artifact_total: 107
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ContainerRegistryManagementClient Operation API
+  slug: open-azure-container-registry-operation-api
+- collection_type: open
+  name: ContainerRegistryManagementClient Operation Registries API
+  slug: open-azure-container-registry-registries-api
+- collection_type: open
+  name: ContainerRegistryManagementClient Operation Replications API
+  slug: open-azure-container-registry-replications-api
+- collection_type: open
+  name: ContainerRegistryManagementClient Operation Webhooks API
+  slug: open-azure-container-registry-webhooks-api
 common:
 - group: agent
   title: ''
@@ -409,7 +425,7 @@ plans:
 - name: Azure Container Registry Plans Pricing
   plan_count: 3
   slug: azure-container-registry-plans-pricing
-random_paper: 93
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Azure Container Registry Rate Limits
@@ -456,7 +472,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/screenshots/azure-container-registry-2026-06-20T172845.png
 security:

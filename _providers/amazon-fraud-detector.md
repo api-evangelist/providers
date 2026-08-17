@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -85,11 +85,35 @@ arazzos:
 - description: Assign tags to a Fraud Detector resource and read its tags back to confirm they were applied.
   name: Amazon Fraud Detector Tag and Audit Resource
   slug: amazon-fraud-detector-tag-and-audit-resource-workflow
-artifact_total: 56
+artifact_total: 64
 collections:
 - collection_type: postman
   name: Amazon Fraud Detector API
   slug: postman-amazon-fraud-detector
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Fraud Detector Detectors API
+  slug: open-amazon-fraud-detector-detectors-api
+- collection_type: open
+  name: Amazon Fraud Detector Detectors Event Types API
+  slug: open-amazon-fraud-detector-event-types-api
+- collection_type: open
+  name: Amazon Fraud Detector Detectors Labels API
+  slug: open-amazon-fraud-detector-labels-api
+- collection_type: open
+  name: Amazon Fraud Detector Detectors Models API
+  slug: open-amazon-fraud-detector-models-api
+- collection_type: open
+  name: Amazon Fraud Detector Detectors Predictions API
+  slug: open-amazon-fraud-detector-predictions-api
+- collection_type: open
+  name: Amazon Fraud Detector Detectors Rules API
+  slug: open-amazon-fraud-detector-rules-api
+- collection_type: open
+  name: Amazon Fraud Detector Detectors Tags API
+  slug: open-amazon-fraud-detector-tags-api
 - collection_type: open
   name: Amazon Fraud Detector API
   slug: open-amazon-fraud-detector
@@ -305,7 +329,7 @@ plans:
 - name: Amazon Fraud Detector Plans Pricing
   plan_count: 3
   slug: amazon-fraud-detector-plans-pricing
-random_paper: 84
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Amazon Fraud Detector Rate Limits
@@ -347,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/screenshots/amazon-fraud-detector-2026-06-20T171653.png
 security:

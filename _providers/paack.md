@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'REST API for creating and managing parcel delivery orders, generating shipping labels, checking delivery coverage, retrieving proof of delivery, and consuming real-time tracking events. Authenticated '
@@ -163,7 +163,7 @@ overview: 'Paack publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Paack''s developer surface includes authentication, changelog, sandbox, developer portal, documentation, API reference, getting-started guide, and 19 more developer resources.'
-random_paper: 32
+random_paper: 65
 score:
   band: developing
   composite: 43.6
@@ -180,7 +180,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/screenshots/paack-2026-08-07T191232.png
 security:

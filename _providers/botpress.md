@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: REST API for managing bots, integrations, conversations, users, and analytics on Botpress Cloud. Authentication via personal access tokens or workspace API keys.
   name: Botpress Cloud Management API
   slug: cloud-management
-artifact_total: 16
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Botpress Cloud Admin API
+  slug: open-botpress-admin-api
+- collection_type: open
+  name: Botpress Cloud Admin Conversations API
+  slug: open-botpress-conversations-api
+- collection_type: open
+  name: Botpress Cloud Admin Files API
+  slug: open-botpress-files-api
+- collection_type: open
+  name: Botpress Cloud Admin Messages API
+  slug: open-botpress-messages-api
+- collection_type: open
+  name: Botpress Cloud Admin Tables API
+  slug: open-botpress-tables-api
+- collection_type: open
+  name: Botpress Cloud Admin Users API
+  slug: open-botpress-users-api
 - collection_type: open
   name: Botpress Cloud API
   slug: open-botpress
@@ -137,7 +158,7 @@ plans:
 - name: Botpress Plans Pricing
   plan_count: 6
   slug: botpress-plans-pricing
-random_paper: 42
+random_paper: 137
 rate_limits:
 - limit_count: 7
   name: Botpress Rate Limits
@@ -162,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/screenshots/botpress-2026-06-20T173622.png
 security:

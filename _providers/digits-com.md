@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,12 +69,48 @@ apis:
 - description: Event delivery to partner-configured endpoints.
   name: Digits Webhooks API
   slug: digits-com-webhooks-api
-artifact_total: 22
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Digits Com Webhooks
   slug: digits-com-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Digits Connect Chart of Accounts API
+  slug: open-digits-com-chart-of-accounts-api
+- collection_type: open
+  name: Digits Connect Chart of Accounts Connections API
+  slug: open-digits-com-connections-api
+- collection_type: open
+  name: Digits Connect Chart of Accounts Financial Statements API
+  slug: open-digits-com-financial-statements-api
+- collection_type: open
+  name: Digits Llms.txt API
+  slug: open-digits-com-llms-txt-api
+- collection_type: open
+  name: Digits Connect Chart of Accounts Organizations API
+  slug: open-digits-com-organizations-api
+- collection_type: open
+  name: Digits Connect Chart of Accounts Parties API
+  slug: open-digits-com-parties-api
+- collection_type: open
+  name: Digits Llms.txt Sitemap.xml API
+  slug: open-digits-com-sitemap-xml-api
+- collection_type: open
+  name: Digits Connect Chart of Accounts Sources API
+  slug: open-digits-com-sources-api
+- collection_type: open
+  name: Digits Connect Chart of Accounts Transactions API
+  slug: open-digits-com-transactions-api
+- collection_type: open
+  name: Digits Connect Chart of Accounts Webhooks API
+  slug: open-digits-com-webhooks-api
+- collection_type: open
+  name: Digits Llms.txt .well Known API
+  slug: open-digits-com-well-known-api
 - collection_type: open
   name: Digits Connect API
   slug: open-digits-com
@@ -266,7 +302,7 @@ plans:
 - name: Digits Com Plans Pricing
   plan_count: 2
   slug: digits-com-plans-pricing
-random_paper: 48
+random_paper: 114
 rate_limits:
 - limit_count: 2
   name: Digits Com Rate Limits
@@ -299,7 +335,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/screenshots/digits-com-2026-07-25T212036.png
 security:

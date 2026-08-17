@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,20 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds API (CBPII). FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 SCA) — requires OBIE/eIDAS certificates and dynamic client registration. Represented as the documented OB
   name: Weatherbys Bank Confirmation of Funds API (CBPII)
   slug: weatherbys-confirmation-of-funds-api
-artifact_total: 12
+artifact_total: 16
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-atm-locator-standard
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-branch-locator-standard
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-business-current-accounts-standard
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-personal-current-accounts-standard
 common:
 - group: agent
   title: ''
@@ -178,7 +191,7 @@ overview: 'Weatherbys Bank publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Weatherbys Bank''s developer surface includes authentication, documentation, engineering blog, support, and 21 more developer resources.'
-random_paper: 103
+random_paper: 53
 scopes:
 - name: Weatherbys Bank Scopes
   scope_count: 4
@@ -212,7 +225,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

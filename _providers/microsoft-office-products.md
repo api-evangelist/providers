@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -66,8 +66,20 @@ apis:
 - description: The Teams API from Microsoft Office Products — 4 operation(s) for teams.
   name: Microsoft Office Products Teams API
   slug: microsoft-office-products-teams-api
-artifact_total: 18
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph API - Office Products Drive API
+  slug: open-microsoft-office-products-drive-api
+- collection_type: open
+  name: Microsoft Graph API - Office Products Drive Mail API
+  slug: open-microsoft-office-products-mail-api
+- collection_type: open
+  name: Microsoft Graph API - Office Products Drive Teams API
+  slug: open-microsoft-office-products-teams-api
 - collection_type: open
   name: Microsoft Graph API - Office Products
   slug: open-microsoft-office-products
@@ -136,7 +148,7 @@ plans:
 - name: Microsoft Office Products Plans Pricing
   plan_count: 3
   slug: microsoft-office-products-plans-pricing
-random_paper: 56
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Products Rate Limits
@@ -166,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-products/refs/heads/main/screenshots/microsoft-office-products-2026-06-20T185514.png
 security:

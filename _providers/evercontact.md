@@ -1,13 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup with 14-day free trial; API access is sales-gated
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - https://www.evercontact.com/pricing.html
+  - https://www.evercontact.com/api.html
   - authentication
-  trial: false
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -23,18 +25,18 @@ agent_readiness:
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-12'
+  score: 40.5
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API that extracts structured contact data from email signature text (parse), completes a known contact with verified details (enrich), retrieves canonical deduplicated person records, registers w
   name: Evercontact API
   slug: evercontact-api
-artifact_total: 5
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Evercontact Webhooks
@@ -136,6 +138,22 @@ common:
   title: ''
   type: Sandbox
   url: sandbox/evercontact-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/evercontact-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/evercontact-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/evercontact-packages.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/evercontact-data-model.yml
 created: '2026-07-17'
 description: Evercontact is an AI-powered contact intelligence platform that automatically extracts, enriches, and syncs contact data from email signatures across Google Workspace and Microsoft 365. A multilingual model parses names, titles, phone numbers, and postal addresses from the signature block of every email in 30+ languages, deduplicates and enriches the resulting person records, and continuously syndicates clean contacts to CRMs (Salesforce, HubSpot, Pipedrive, Zoho, Microsoft Dynamics, Attio) and address books. Evercontact also exposes a REST API (parse, enrich, contacts, webhooks, events) and a webhook event stream for custom integrations, with SOC 2 Type II, Google CASA Tier 2, and GDPR compliance.
 image: https://www.evercontact.com/assets/favicon-32x32.png
@@ -144,7 +162,7 @@ mcp_servers:
 - description: ''
   name: evercontact-mcp.yml
   slug: evercontact-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Evercontact
 nav: Providers
 network: true
@@ -154,26 +172,34 @@ overview: 'Evercontact publishes 1 API on the [APIs.io](https://apis.io/) networ
   The Evercontact catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Evercontact''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 102
+  Evercontact''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 21 more developer resources.'
+plans:
+- name: Evercontact Plans Pricing
+  plan_count: 5
+  slug: evercontact-plans-pricing
+random_paper: 139
+rate_limits:
+- limit_count: 3
+  name: Evercontact Rate Limits
+  slug: evercontact-rate-limits
 score:
-  band: developing
-  composite: 47.0
-  delta: 0.0
+  band: strong
+  composite: 57.4
+  delta: 10.4
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 84.2
     contract_quality: 51.6
     developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 12.5
-    operational_transparency: 34.2
+    operational_transparency: 65.8
   previous_composite: 47.0
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/screenshots/evercontact-2026-07-25T213720.png
 security:
 - kind: authentication

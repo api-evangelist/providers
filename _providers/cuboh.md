@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Order creation, retrieval, and lifecycle actions.
   name: Cuboh Orders API
   slug: cuboh-orders-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cuboh Integration Locations API
+  slug: open-cuboh-locations-api
+- collection_type: open
+  name: Cuboh Integration Locations Menu API
+  slug: open-cuboh-menu-api
+- collection_type: open
+  name: Cuboh Integration Locations Orders API
+  slug: open-cuboh-orders-api
 - collection_type: open
   name: Cuboh Integration API
   slug: open-cuboh
@@ -110,7 +122,7 @@ plans:
 - name: Cuboh Plans Pricing
   plan_count: 5
   slug: cuboh-plans-pricing
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Cuboh Rate Limits
@@ -135,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/screenshots/cuboh-2026-07-25T210903.png
 security:

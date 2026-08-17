@@ -31,13 +31,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'REST API behind the Covatic client platform (platform.covatic.io) for building and operating privacy-preserving audiences and campaigns: audience profiles, traits (behavioural, event and retargeting),'
   name: Covatic Audience Builder API
   slug: covatic-audience-builder-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Audience builder
+  slug: open-covatic-audience-builder
 common:
 - group: auth
   title: ''
@@ -167,7 +171,7 @@ plans:
 - name: Covatic Plans Pricing
   plan_count: 0
   slug: covatic-plans-pricing
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Covatic Rate Limits
@@ -180,7 +184,7 @@ scopes:
 score:
   band: thin
   composite: 40.4
-  delta: 24.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 53.7
@@ -188,10 +192,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 15.6
+  previous_composite: 40.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/screenshots/covatic-2026-07-25T210538.png
 security:
 - kind: authentication

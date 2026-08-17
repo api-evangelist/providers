@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -118,15 +118,54 @@ arazzos:
 - description: Find a guide by slug and update it if it exists, otherwise create it.
   name: ReadMe Upsert A Guide Page
   slug: readme-upsert-guide-workflow
-artifact_total: 51
+artifact_total: 64
 asyncapis:
 - description: AsyncAPI 2.6 description of ReadMe's Personalized Docs Webhook surface. The Personalized Docs Webhook is the integration that lets ReadMe inject a logged-in end user's account data into a project's ho
   name: ReadMe Personalized Docs Webhook
   slug: readme-personalized-docs-webhook-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics API
+  slug: open-readme-analytics-api
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics API Keys API
+  slug: open-readme-api-keys-api
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics APIs API
+  slug: open-readme-apis-api
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics Branches API
+  slug: open-readme-branches-api
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics Categories API
+  slug: open-readme-categories-api
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics Changelog API
+  slug: open-readme-changelog-api
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics Custom Pages API
+  slug: open-readme-custom-pages-api
+- collection_type: open
   name: ReadMe Developer Metrics API
   slug: open-readme-developer-metrics
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics Guides API
+  slug: open-readme-guides-api
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics Images API
+  slug: open-readme-images-api
+- collection_type: open
+  name: ReadMe Developer Analytics Metrics API
+  slug: open-readme-metrics-api
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics Recipes API
+  slug: open-readme-recipes-api
+- collection_type: open
+  name: ReadMe Developer Metrics Analytics Search API
+  slug: open-readme-search-api
 - collection_type: open
   name: ReadMe API
   slug: open-readme
@@ -379,7 +418,7 @@ plans:
 - name: Readme Plans Pricing
   plan_count: 3
   slug: readme-plans-pricing
-random_paper: 22
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Readme Rate Limits
@@ -429,7 +468,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/screenshots/readme-2026-06-20T192737.png
 security:

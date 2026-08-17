@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The Messages API from Azure Service Bus — 3 operation(s) for messages.
   name: Azure Service Bus Messages API
   slug: microsoft-azure-service-bus-messages-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Service Bus REST Messages API
+  slug: open-microsoft-azure-service-bus-messages-api
 - collection_type: open
   name: Azure Service Bus REST API
   slug: open-microsoft-azure-service-bus
@@ -131,7 +137,7 @@ plans:
 - name: Microsoft Azure Service Bus Plans Pricing
   plan_count: 3
   slug: microsoft-azure-service-bus-plans-pricing
-random_paper: 111
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Service Bus Rate Limits
@@ -156,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-bus/refs/heads/main/screenshots/microsoft-azure-service-bus-2026-06-20T185434.png
 security:

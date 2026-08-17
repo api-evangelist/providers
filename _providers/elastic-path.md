@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 3
@@ -338,7 +338,308 @@ apis:
 - description: '```mdx-code-block import VariationsOverview from ''/docs/partials/pxm/variations/variationsoverview.mdx''; import VariationsReusability from ''/docs/partials/pxm/variations/variationsreusability.mdx''; im'
   name: Elastic Path Variations API
   slug: elastic-path-variations-api
-artifact_total: 122
+artifact_total: 222
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Addresses Introduction Account Addresses API
+  slug: open-elastic-path-account-addresses-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Account Authentication Settings API
+  slug: open-elastic-path-account-authentication-settings-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Account Cart Associations API
+  slug: open-elastic-path-account-cart-associations-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Account Management Authentication API
+  slug: open-elastic-path-account-management-authentication-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Account Members API
+  slug: open-elastic-path-account-members-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Account Membership API
+  slug: open-elastic-path-account-membership-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Account Membership Settings API
+  slug: open-elastic-path-account-membership-settings-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Account Tags API
+  slug: open-elastic-path-account-tags-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Accounts API
+  slug: open-elastic-path-accounts-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Administrator Latest Releases Catalog API API
+  slug: open-elastic-path-administrator-latest-releases-catalog-api-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Application Keys API
+  slug: open-elastic-path-application-keys-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Authentication Realms API
+  slug: open-elastic-path-authentication-realms-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Bundle Component Products Relationships API
+  slug: open-elastic-path-bundle-component-products-relationships-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Cart Items API
+  slug: open-elastic-path-cart-items-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Cart Management API
+  slug: open-elastic-path-cart-management-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Cart Payments API
+  slug: open-elastic-path-cart-payments-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Cart Settings API
+  slug: open-elastic-path-cart-settings-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Cart Shipping Groups API
+  slug: open-elastic-path-cart-shipping-groups-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Catalogs API
+  slug: open-elastic-path-catalogs-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Checkout API
+  slug: open-elastic-path-checkout-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Currencies API
+  slug: open-elastic-path-currencies-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Custom API Entries API
+  slug: open-elastic-path-custom-api-entries-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Custom API Role Policies API
+  slug: open-elastic-path-custom-api-role-policies-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Custom APIs API
+  slug: open-elastic-path-custom-apis-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Custom Discounts API
+  slug: open-elastic-path-custom-discounts-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Custom Fields API
+  slug: open-elastic-path-custom-fields-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Custom Relationships API
+  slug: open-elastic-path-custom-relationships-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Customer Addresses API
+  slug: open-elastic-path-customer-addresses-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Customer Cart Associations API
+  slug: open-elastic-path-customer-cart-associations-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Dunning Rules API
+  slug: open-elastic-path-dunning-rules-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Entries API
+  slug: open-elastic-path-entries-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Entry Relationships API
+  slug: open-elastic-path-entry-relationships-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Extending Products with Templates API
+  slug: open-elastic-path-extending-products-with-templates-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Features API
+  slug: open-elastic-path-features-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Fields API
+  slug: open-elastic-path-fields-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Files API
+  slug: open-elastic-path-files-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Flows API
+  slug: open-elastic-path-flows-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Gateways API
+  slug: open-elastic-path-gateways-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Generate an Access Token API
+  slug: open-elastic-path-generate-an-access-token-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Hierarchies API
+  slug: open-elastic-path-hierarchies-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Import a Price Book and Prices API
+  slug: open-elastic-path-import-a-price-book-and-prices-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Imports API
+  slug: open-elastic-path-imports-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Indexable Fields API
+  slug: open-elastic-path-indexable-fields-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Integrations API
+  slug: open-elastic-path-integrations-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Inventory API
+  slug: open-elastic-path-inventory-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Invoices API
+  slug: open-elastic-path-invoices-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Jobs API
+  slug: open-elastic-path-jobs-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Locations API
+  slug: open-elastic-path-locations-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Logs Time to Live Settings API
+  slug: open-elastic-path-logs-time-to-live-settings-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Merchant Realm Mappings API
+  slug: open-elastic-path-merchant-realm-mappings-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Offerings API
+  slug: open-elastic-path-offerings-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses OIDC Authentication API
+  slug: open-elastic-path-oidc-authentication-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses OIDC Profiles API
+  slug: open-elastic-path-oidc-profiles-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Order Shipping Groups API
+  slug: open-elastic-path-order-shipping-groups-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Orders API
+  slug: open-elastic-path-orders-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Password Profiles API
+  slug: open-elastic-path-password-profiles-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Payments API
+  slug: open-elastic-path-payments-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Personal Data Erasure Requests API
+  slug: open-elastic-path-personal-data-erasure-requests-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Personal Data Logs API
+  slug: open-elastic-path-personal-data-logs-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Personal Data Related Data Entries API
+  slug: open-elastic-path-personal-data-related-data-entries-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Price Book Modifiers API
+  slug: open-elastic-path-price-book-modifiers-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Price Books API
+  slug: open-elastic-path-price-books-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Prices API
+  slug: open-elastic-path-prices-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Product Export API
+  slug: open-elastic-path-product-export-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Product File Relationships API
+  slug: open-elastic-path-product-file-relationships-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Product Image Relationships API
+  slug: open-elastic-path-product-image-relationships-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Product Import/Bulk Update API
+  slug: open-elastic-path-product-import-bulk-update-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Product Relationships API
+  slug: open-elastic-path-product-relationships-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Product Tags API
+  slug: open-elastic-path-product-tags-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Products API
+  slug: open-elastic-path-products-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Promotion Codes API
+  slug: open-elastic-path-promotion-codes-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Promotion Jobs API
+  slug: open-elastic-path-promotion-jobs-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Promotions Standard API
+  slug: open-elastic-path-promotions-standard-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Proration Policies API
+  slug: open-elastic-path-proration-policies-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Releases API
+  slug: open-elastic-path-releases-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Rule Promotion Codes API
+  slug: open-elastic-path-rule-promotion-codes-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Rule Promotion Jobs API
+  slug: open-elastic-path-rule-promotion-jobs-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Rule Promotion Usages API
+  slug: open-elastic-path-rule-promotion-usages-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Rule Promotions API
+  slug: open-elastic-path-rule-promotions-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Rules API
+  slug: open-elastic-path-rules-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Schedules API
+  slug: open-elastic-path-schedules-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Search API
+  slug: open-elastic-path-search-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Search Indexes API
+  slug: open-elastic-path-search-indexes-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Search Profiles API
+  slug: open-elastic-path-search-profiles-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Searchable Fields API
+  slug: open-elastic-path-searchable-fields-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Settings API
+  slug: open-elastic-path-settings-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Shopper Catalog API API
+  slug: open-elastic-path-shopper-catalog-api-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Standard Shopper Roles API
+  slug: open-elastic-path-standard-shopper-roles-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Standard User Roles API
+  slug: open-elastic-path-standard-user-roles-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Stopword Sets API
+  slug: open-elastic-path-stopword-sets-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Subscribers API
+  slug: open-elastic-path-subscribers-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Subscriptions API
+  slug: open-elastic-path-subscriptions-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Synonym Sets API
+  slug: open-elastic-path-synonym-sets-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Tax Items API
+  slug: open-elastic-path-tax-items-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Transactions API
+  slug: open-elastic-path-transactions-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses User Authentication Infos API
+  slug: open-elastic-path-user-authentication-infos-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses User Authentication OIDC Profile Infos API
+  slug: open-elastic-path-user-authentication-oidc-profile-infos-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses User Authentication Password Profile Infos API
+  slug: open-elastic-path-user-authentication-password-profile-infos-api
+- collection_type: open
+  name: Addresses Introduction Account Addresses Variations API
+  slug: open-elastic-path-variations-api
 common:
 - group: operate
   title: ''
@@ -484,7 +785,7 @@ plans:
 - name: Elastic Path Plans Pricing
   plan_count: 0
   slug: elastic-path-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Elastic Path Rate Limits
@@ -524,7 +825,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/screenshots/elastic-path-2026-06-20T180529.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Xcode Instances API from Limrun — 4 operation(s) for xcode instances.
   name: Limrun Xcode Instances API
   slug: limrun-xcode-instances-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Limrun Analytics API
+  slug: open-limrun-analytics-api
+- collection_type: open
+  name: Limrun Analytics Android Instances API
+  slug: open-limrun-android-instances-api
+- collection_type: open
+  name: Limrun Analytics Assets API
+  slug: open-limrun-assets-api
+- collection_type: open
+  name: Limrun Analytics Downloads API
+  slug: open-limrun-downloads-api
+- collection_type: open
+  name: Limrun Analytics Gradle Instances API
+  slug: open-limrun-gradle-instances-api
+- collection_type: open
+  name: Limrun Analytics Ios Instances API
+  slug: open-limrun-ios-instances-api
+- collection_type: open
+  name: Limrun Analytics Xcode Instances API
+  slug: open-limrun-xcode-instances-api
 common:
 - group: other
   title: ''
@@ -210,7 +235,7 @@ overview: 'Limrun publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Limrun''s developer surface includes documentation, API reference, getting-started guide, signup flow, developer console, support, CLI, and 26 more developer resources.'
-random_paper: 63
+random_paper: 67
 scopes:
 - name: Limrun Scopes
   scope_count: 1
@@ -239,7 +264,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/screenshots/limrun-2026-07-25T225212.png
 security:

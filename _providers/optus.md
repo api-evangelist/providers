@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -58,11 +58,24 @@ apis:
 - description: Direct SMSC connectivity over SMPP 3.3 and 3.4 with mandatory TLS, offering high-throughput binary messaging, custom character encoding, and detailed delivery reporting. A wire protocol rather than an
   name: Optus SMS Suite SMPP API
   slug: optus-sms-suite-smpp-api
-artifact_total: 17
+artifact_total: 21
 asyncapis:
 - description: Derived event description for the callbacks The Optus SMS Suite POSTs to subscriber-hosted URLs. Optus publishes NO AsyncAPI document; this file was derived by API Evangelist from two sources that are
   name: The Optus SMS Suite Callback Surface
   slug: optus-sms-suite-asyncapi
+collections:
+- collection_type: open
+  name: Campaign Manager
+  slug: open-optus-sms-suite-campaign-manager
+- collection_type: open
+  name: The Optus SMS Suite REST API
+  slug: open-optus-sms-suite-rest-v1
+- collection_type: open
+  name: SMS Gateway REST APIv2
+  slug: open-optus-sms-suite-rest-v2
+- collection_type: open
+  name: Omni Status API
+  slug: open-optus-sms-suite-status
 common:
 - group: company
   title: ''
@@ -224,7 +237,7 @@ overview: 'Optus publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Optus'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 28 more developer resources.'
-random_paper: 91
+random_paper: 124
 score:
   band: developing
   composite: 50.9
@@ -254,7 +267,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
 security:

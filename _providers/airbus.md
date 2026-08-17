@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,8 +60,17 @@ apis:
 - description: The Catalog API from Airbus — 1 operation(s) for catalog.
   name: Airbus Catalog API
   slug: airbus-catalog-api
-artifact_total: 30
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airbus OneAtlas API () Authentication API
+  slug: open-airbus-authentication-api
+- collection_type: open
+  name: Airbus OneAtlas API () Authentication Catalog API
+  slug: open-airbus-catalog-api
 - collection_type: open
   name: Airbus OneAtlas API (Authentication)
   slug: open-airbus
@@ -156,7 +165,7 @@ plans:
 - name: Airbus Plans Pricing
   plan_count: 4
   slug: airbus-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Airbus Rate Limits
@@ -181,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/screenshots/airbus-2026-06-20T171419.png
 security:

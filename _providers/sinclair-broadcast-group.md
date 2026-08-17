@@ -29,13 +29,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The public, unauthenticated read surface of Sinclair's corporate site at sbgi.net. Sinclair runs no developer program and publishes no API reference, but the site is WordPress and serves a live REST A
   name: Sinclair Corporate Content API
   slug: sinclair-corporate-content-api
-artifact_total: 32
+artifact_total: 33
+collections:
+- collection_type: open
+  name: Sinclair Corporate Content API
+  slug: open-sinclair-broadcast-group-content
 common:
 - group: auth
   title: ''
@@ -152,7 +156,7 @@ plans:
 - name: Sinclair Broadcast Group Plans Pricing
   plan_count: 0
   slug: sinclair-broadcast-group-plans-pricing
-random_paper: 47
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Sinclair Broadcast Group Rate Limits
@@ -160,7 +164,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.1
-  delta: 26.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.7
@@ -168,10 +172,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 7.9
+  previous_composite: 34.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -80,23 +80,65 @@ apis:
 - description: The Voyage Information API from MarineTraffic — 5 operation(s) for voyage information.
   name: MarineTraffic Voyage Information API
   slug: marine-traffic-voyage-information-api
-artifact_total: 75
+artifact_total: 90
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MarineTraffic Events AIS API API
+  slug: open-marine-traffic-ais-api-api
+- collection_type: open
+  name: MarineTraffic Events AIS API Balances API
+  slug: open-marine-traffic-balances-api
 - collection_type: open
   name: MarineTraffic Events API
   slug: open-marine-traffic-events
 - collection_type: open
+  name: MarineTraffic Events AIS API Fleets API
+  slug: open-marine-traffic-fleets-api
+- collection_type: open
+  name: MarineTraffic Events AIS API Passage Plans API
+  slug: open-marine-traffic-passage-plans-api
+- collection_type: open
+  name: MarineTraffic Events AIS API Port Events API
+  slug: open-marine-traffic-port-events-api
+- collection_type: open
   name: MarineTraffic Ports Information API
   slug: open-marine-traffic-ports-info
+- collection_type: open
+  name: MarineTraffic Events AIS API Ports Information API
+  slug: open-marine-traffic-ports-information-api
 - collection_type: open
   name: MarineTraffic Power User API
   slug: open-marine-traffic-power-user
 - collection_type: open
+  name: MarineTraffic Events AIS API Reverse Geocoding API
+  slug: open-marine-traffic-reverse-geocoding-api
+- collection_type: open
   name: MarineTraffic Reverse Geocoding API
   slug: open-marine-traffic-reverse-geocoding
 - collection_type: open
+  name: MarineTraffic Events AIS API Routing Information API
+  slug: open-marine-traffic-routing-information-api
+- collection_type: open
   name: MarineTraffic Routing Information API
   slug: open-marine-traffic-routing
+- collection_type: open
+  name: MarineTraffic Events AIS API Search Vessel API
+  slug: open-marine-traffic-search-vessel-api
+- collection_type: open
+  name: MarineTraffic Events AIS API Single Vessel Events API
+  slug: open-marine-traffic-single-vessel-events-api
+- collection_type: open
+  name: MarineTraffic Events AIS API Vessel Historical Track API
+  slug: open-marine-traffic-vessel-historical-track-api
+- collection_type: open
+  name: MarineTraffic Events AIS API Vessel Information API
+  slug: open-marine-traffic-vessel-information-api
+- collection_type: open
+  name: MarineTraffic Events AIS API Vessel Positions (Legacy API) API
+  slug: open-marine-traffic-vessel-positions-legacy-api-api
 - collection_type: open
   name: MarineTraffic Vessel Positions API
   slug: open-marine-traffic-vessel-positions
@@ -106,6 +148,9 @@ collections:
 - collection_type: open
   name: MarineTraffic Voyage Information API
   slug: open-marine-traffic-voyage-info
+- collection_type: open
+  name: MarineTraffic Events AIS API Voyage Information API
+  slug: open-marine-traffic-voyage-information-api
 - collection_type: open
   name: MarineTraffic AIS Data API
   slug: open-marine-traffic
@@ -304,7 +349,7 @@ plans:
 - name: Marine Traffic Plans Pricing
   plan_count: 2
   slug: marine-traffic-plans-pricing
-random_paper: 96
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Marine Traffic Rate Limits
@@ -346,7 +391,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png
 security:

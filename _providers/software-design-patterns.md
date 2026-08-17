@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Software Design Patterns
 nav: Providers
 network: true
-random_paper: 80
+random_paper: 96
 slug: software-design-patterns
 tags:
 - Architecture

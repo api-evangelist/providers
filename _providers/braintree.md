@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -81,18 +81,48 @@ apis:
 - description: Operations for creating, capturing, voiding, refunding, and retrieving payment transactions.
   name: braintree Transactions API
   slug: braintree-transactions-api
-artifact_total: 54
+artifact_total: 64
 asyncapis:
 - description: Braintree Webhooks deliver automated HTTP POST notifications to a merchant-configured destination URL when specific events occur within the payment gateway. Webhook notifications are triggered by tran
   name: Braintree Webhooks
   slug: braintree-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Braintree Payments Add-Ons API
+  slug: open-braintree-add-ons-api
+- collection_type: open
+  name: Braintree Payments Add-Ons Client Tokens API
+  slug: open-braintree-client-tokens-api
+- collection_type: open
+  name: Braintree Payments Add-Ons Customers API
+  slug: open-braintree-customers-api
+- collection_type: open
+  name: Braintree Payments Add-Ons Discounts API
+  slug: open-braintree-discounts-api
+- collection_type: open
+  name: Braintree Payments Add-Ons Disputes API
+  slug: open-braintree-disputes-api
+- collection_type: open
+  name: Braintree Payments Add-Ons Payment Methods API
+  slug: open-braintree-payment-methods-api
+- collection_type: open
   name: Braintree Payments API
   slug: open-braintree-payments
 - collection_type: open
+  name: Braintree Payments Add-Ons Plans API
+  slug: open-braintree-plans-api
+- collection_type: open
+  name: Braintree Payments Add-Ons Subscriptions API
+  slug: open-braintree-subscriptions-api
+- collection_type: open
   name: Braintree Subscriptions API
   slug: open-braintree-subscriptions
+- collection_type: open
+  name: Braintree Payments Add-Ons Transactions API
+  slug: open-braintree-transactions-api
 common:
 - group: agent
   title: ''
@@ -271,7 +301,7 @@ plans:
 - name: Braintree Plans Pricing
   plan_count: 6
   slug: braintree-plans-pricing
-random_paper: 116
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Braintree Rate Limits
@@ -318,7 +348,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png
 security:

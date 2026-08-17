@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 560
   human_in_the_loop: 21
@@ -259,11 +259,240 @@ apis:
 - description: AEMO WEMDE TradingDayReport from AEMO — 1 path(s) described in OpenAPI.
   name: AEMO WEMDE TradingDayReport
   slug: aemo-wemde-tradingdayreport-external-v1-openapi
-artifact_total: 84
+artifact_total: 160
 asyncapis:
 - description: ''
   name: Aemo Ehub Events
   slug: aemo-ehub-events
+collections:
+- collection_type: open
+  name: WEM Attributes Report
+  slug: open-aemo-attributes-report-external-v1
+- collection_type: open
+  name: B2BMessagingAsync
+  slug: open-aemo-b2bmessaging-async-v1
+- collection_type: open
+  name: B2BMessagingPull
+  slug: open-aemo-b2bmessaging-pull-v1
+- collection_type: open
+  name: B2BMessagingSync
+  slug: open-aemo-b2bmessaging-sync-v1
+- collection_type: open
+  name: B2MMessagingAsync
+  slug: open-aemo-b2mmessaging-async-v1
+- collection_type: open
+  name: B2MMessagingPull
+  slug: open-aemo-b2mmessaging-pull-v1
+- collection_type: open
+  name: B2MMessagingSync
+  slug: open-aemo-b2mmessaging-sync-v1
+- collection_type: open
+  name: Balancing Reports v2.1
+  slug: open-aemo-balancing-reports-v2-1
+- collection_type: open
+  name: Balancing Reports v2.2
+  slug: open-aemo-balancing-reports-v2-2
+- collection_type: open
+  name: Balancing Reports v2.3
+  slug: open-aemo-balancing-reports-v2-3
+- collection_type: open
+  name: Balancing Reports v2.4
+  slug: open-aemo-balancing-reports-v2-4
+- collection_type: open
+  name: Balancing Reports v2.5
+  slug: open-aemo-balancing-reports-v2-5
+- collection_type: open
+  name: Balancing Reports v2
+  slug: open-aemo-balancing-reports-v2
+- collection_type: open
+  name: Balancing Submission v2
+  slug: open-aemo-balancing-submission-v2
+- collection_type: open
+  name: NEMDispatchBidding
+  slug: open-aemo-bidding-v1
+- collection_type: open
+  name: Bilateral/Stem Submission v1
+  slug: open-aemo-bilateral-stem-submission-v1
+- collection_type: open
+  name: BlindUpdate
+  slug: open-aemo-blindupdate-v1
+- collection_type: open
+  name: Capacity
+  slug: open-aemo-capacity-v1
+- collection_type: open
+  name: CapacityAuction
+  slug: open-aemo-capacityAuction-v1
+- collection_type: open
+  name: CDR Common
+  slug: open-aemo-cdr-common
+- collection_type: open
+  name: CDR
+  slug: open-aemo-cdr
+- collection_type: open
+  name: CDR Common API
+  slug: open-aemo-cds-common-api
+- collection_type: open
+  name: CDR Energy API
+  slug: open-aemo-cds-energy-api
+- collection_type: open
+  name: DER Registration for NSPs
+  slug: open-aemo-der-business-registration-v1
+- collection_type: open
+  name: DER Registration For Account Holders
+  slug: open-aemo-der-consumer-registration-v1
+- collection_type: open
+  name: WEM DER Installation V2
+  slug: open-aemo-der-register-installation-v2
+- collection_type: open
+  name: WEM DER NMI
+  slug: open-aemo-der-register-nmi-v1
+- collection_type: open
+  name: EE Simulation Status Update
+  slug: open-aemo-ee-simulation-status-update-v1
+- collection_type: open
+  name: EnablementInstruction
+  slug: open-aemo-enablementinstruction-v1
+- collection_type: open
+  name: GasBB Reporting Public Data
+  slug: open-aemo-gasbb-reporting-public-data
+- collection_type: open
+  name: GeneratorRecall
+  slug: open-aemo-generatorRecall-v1
+- collection_type: open
+  name: HubMessageManagement
+  slug: open-aemo-hubmsgmgt-v1
+- collection_type: open
+  name: HubMessageManagementV2
+  slug: open-aemo-hubmsgmgt-v2
+- collection_type: open
+  name: IdentityService(v2)
+  slug: open-aemo-identityService-v2
+- collection_type: open
+  name: LFAS Reports v2
+  slug: open-aemo-lfas-reports-v2
+- collection_type: open
+  name: LFAS Submission v2
+  slug: open-aemo-lfas-submission-v2
+- collection_type: open
+  name: Market Reports v2
+  slug: open-aemo-market-reports-v2
+- collection_type: open
+  name: MeterExemption
+  slug: open-aemo-meterexemption-external-v1
+- collection_type: open
+  name: MT PASA Offers
+  slug: open-aemo-mtpasaoffers-v1
+- collection_type: open
+  name: oauth-v1
+  slug: open-aemo-oauth-v1
+- collection_type: open
+  name: OIP
+  slug: open-aemo-oip-external-v1
+- collection_type: open
+  name: Intermittent Generation Availability Submissions
+  slug: open-aemo-opsforecasting-intermittentgen-v1
+- collection_type: open
+  name: Outage Management
+  slug: open-aemo-outage-management-external-v1
+- collection_type: open
+  name: P2PMessagingSync
+  slug: open-aemo-p2pmessaging-sync-v1
+- collection_type: open
+  name: Pre-Balancing Reports v6
+  slug: open-aemo-pre-balancing-reports-v6
+- collection_type: open
+  name: Pre-Balancing Reports v7.1
+  slug: open-aemo-pre-balancing-reports-v7-1
+- collection_type: open
+  name: Pre-Balancing Reports v7
+  slug: open-aemo-pre-balancing-reports-v7
+- collection_type: open
+  name: Pre-Balancing Reports v8
+  slug: open-aemo-pre-balancing-reports-v8
+- collection_type: open
+  name: Prudentials
+  slug: open-aemo-prudentials-v1
+- collection_type: open
+  name: RCM Operations
+  slug: open-aemo-rcm-ops-external-v1
+- collection_type: open
+  name: Reallocations
+  slug: open-aemo-reallocations-v1
+- collection_type: open
+  name: Report
+  slug: open-aemo-report-v1
+- collection_type: open
+  name: RTMS
+  slug: open-aemo-rtms-external-v1
+- collection_type: open
+  name: SelfForecast
+  slug: open-aemo-selfForecast-v1
+- collection_type: open
+  name: Settlement Direct
+  slug: open-aemo-settlementDirect-v1
+- collection_type: open
+  name: Submission
+  slug: open-aemo-submission-v1
+- collection_type: open
+  name: System Management Reports v2.1
+  slug: open-aemo-system-management-reports-v2-1
+- collection_type: open
+  name: System Management Reports v2.2
+  slug: open-aemo-system-management-reports-v2-2
+- collection_type: open
+  name: System Management Reports v2.3
+  slug: open-aemo-system-management-reports-v2-3
+- collection_type: open
+  name: System Management Reports v2.4
+  slug: open-aemo-system-management-reports-v2-4
+- collection_type: open
+  name: System Management Reports v2.5
+  slug: open-aemo-system-management-reports-v2-5
+- collection_type: open
+  name: System Management Reports v2.6
+  slug: open-aemo-system-management-reports-v2-6
+- collection_type: open
+  name: System Management Reports v2
+  slug: open-aemo-system-management-reports-v2
+- collection_type: open
+  name: TLS Certificate Mgmt v1
+  slug: open-aemo-tls-certificate-mgmt-v1
+- collection_type: open
+  name: VariableParameter
+  slug: open-aemo-variableparameter-v1
+- collection_type: open
+  name: WEMDE DispatchCase
+  slug: open-aemo-wemde-dispatchcase-external-v1
+- collection_type: open
+  name: WEMDE DispatchCase V2
+  slug: open-aemo-wemde-dispatchcase-external-v2
+- collection_type: open
+  name: WEMDE DispatchInstruction
+  slug: open-aemo-wemde-dispatchinstruction-external-v1
+- collection_type: open
+  name: WEMDE DispatchSolution
+  slug: open-aemo-wemde-dispatchsolution-external-v1
+- collection_type: open
+  name: WEMDE DispatchSolution V2
+  slug: open-aemo-wemde-dispatchsolution-external-v2
+- collection_type: open
+  name: WEMDE DispatchSummary
+  slug: open-aemo-wemde-dispatchsummary-external-v1
+- collection_type: open
+  name: WEMDE DSPDispatchInstruction
+  slug: open-aemo-wemde-dspdispatchinstruction-external-v1
+- collection_type: open
+  name: WEMDE NCESS
+  slug: open-aemo-wemde-ncess-external-v1
+- collection_type: open
+  name: WEMDE NotInServiceCapacity
+  slug: open-aemo-wemde-notinservicecapacity-external-v1
+- collection_type: open
+  name: WEMDE ReferenceTradingPrice
+  slug: open-aemo-wemde-referencetradingprice-external-v1
+- collection_type: open
+  name: WEMDE TradingDayReport
+  slug: open-aemo-wemde-tradingdayreport-external-v1
 common:
 - group: agent
   title: ''
@@ -489,7 +718,7 @@ overview: 'AEMO publishes 74 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   AEMO''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 45 more developer resources.'
-random_paper: 58
+random_paper: 120
 rate_limits:
 - limit_count: 0
   name: Aemo Rate Limits
@@ -528,7 +757,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/screenshots/aemo-2026-08-07T160947.png
 security:

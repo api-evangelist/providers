@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -40,7 +40,23 @@ apis:
 - description: The utils API from Autoderm – AI Dermatology API — 1 operation(s) for utils.
   name: Autoderm – AI Dermatology API Utils API
   slug: autoderm-ai-dermatology-api-utils-api
-artifact_total: 32
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Autoderm Device API
+  slug: open-autoderm-ai-dermatology-api-device-api
+- collection_type: open
+  name: Autoderm Inference API
+  slug: open-autoderm-ai-dermatology-api-inference-api
+- collection_type: open
+  name: Autoderm System API
+  slug: open-autoderm-ai-dermatology-api-system-api
+- collection_type: open
+  name: Autoderm Utils API
+  slug: open-autoderm-ai-dermatology-api-utils-api
 common:
 - group: agent
   title: ''
@@ -267,7 +283,7 @@ plans:
 - name: Autoderm Ai Dermatology Api Plans
   plan_count: 3
   slug: autoderm-ai-dermatology-api-plans
-random_paper: 67
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Autoderm Ai Dermatology Api Rate Limits
@@ -301,7 +317,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

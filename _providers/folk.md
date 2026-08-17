@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -66,11 +66,41 @@ apis:
 - description: Operations related to webhooks.
   name: Folk Webhooks API
   slug: folk-webhooks-api
-artifact_total: 20
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Folk External API
   slug: open-folk-app
+- collection_type: open
+  name: Folk External Companies API
+  slug: open-folk-companies-api
+- collection_type: open
+  name: Folk External Companies Deals API
+  slug: open-folk-deals-api
+- collection_type: open
+  name: Folk External Companies Groups API
+  slug: open-folk-groups-api
+- collection_type: open
+  name: Folk External Companies Interactions API
+  slug: open-folk-interactions-api
+- collection_type: open
+  name: Folk External Companies Notes API
+  slug: open-folk-notes-api
+- collection_type: open
+  name: Folk External Companies People API
+  slug: open-folk-people-api
+- collection_type: open
+  name: Folk External Companies Reminders API
+  slug: open-folk-reminders-api
+- collection_type: open
+  name: Folk External Companies Users API
+  slug: open-folk-users-api
+- collection_type: open
+  name: Folk External Companies Webhooks API
+  slug: open-folk-webhooks-api
 common:
 - group: agent
   title: ''
@@ -172,7 +202,7 @@ plans:
 - name: Folk Plans Pricing
   plan_count: 3
   slug: folk-plans-pricing
-random_paper: 68
+random_paper: 130
 rate_limits:
 - limit_count: 1
   name: Folk Rate Limits
@@ -206,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/screenshots/folk-2026-07-25T214908.png
 security:

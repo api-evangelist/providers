@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Webhooks API from Notch — 1 operation(s) for webhooks.
   name: Notch Webhooks API
   slug: notch-financial-webhooks-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Notch API (unreconciled capability model) Bank Accounts API
+  slug: open-notch-financial-bank-accounts-api
+- collection_type: open
+  name: Notch API (unreconciled capability model) Bank Accounts Customers API
+  slug: open-notch-financial-customers-api
+- collection_type: open
+  name: Notch API (unreconciled capability model) Bank Accounts Invoices API
+  slug: open-notch-financial-invoices-api
+- collection_type: open
+  name: Notch API (unreconciled capability model) Bank Accounts Payment Methods API
+  slug: open-notch-financial-payment-methods-api
+- collection_type: open
+  name: Notch API (unreconciled capability model) Bank Accounts Payments API
+  slug: open-notch-financial-payments-api
+- collection_type: open
+  name: Notch API (unreconciled capability model) Bank Accounts Webhooks API
+  slug: open-notch-financial-webhooks-api
 - collection_type: open
   name: Notch API (unreconciled capability model)
   slug: open-notch-financial
@@ -123,7 +144,7 @@ plans:
 - name: Notch Financial Plans Pricing
   plan_count: 1
   slug: notch-financial-plans-pricing
-random_paper: 78
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Notch Financial Rate Limits
@@ -154,7 +175,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/screenshots/notch-financial-2026-08-07T185542.png
 security:

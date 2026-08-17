@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -108,8 +108,11 @@ apis:
 - description: Manage analytical and relational views
   name: SAP Business Intelligence Views API
   slug: sap-bi-views-api
-artifact_total: 117
+artifact_total: 139
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: SAP Business Intelligence SAP Analytics Cloud API
   slug: open-sap-bi-analytics-cloud
@@ -120,8 +123,71 @@ collections:
   name: SAP Business Intelligence SAP BW/4HANA OData API
   slug: open-sap-bi-bw4hana-odata
 - collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog API
+  slug: open-sap-bi-catalog-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Connections API
+  slug: open-sap-bi-connections-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Data Flows API
+  slug: open-sap-bi-data-flows-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Data Import API
+  slug: open-sap-bi-data-import-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Data Store Objects API
+  slug: open-sap-bi-data-store-objects-api
+- collection_type: open
   name: SAP Business Intelligence SAP Datasphere API
   slug: open-sap-bi-datasphere
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Folders API
+  slug: open-sap-bi-folders-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog InfoObjects API
+  slug: open-sap-bi-infoobjects-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog InfoProviders API
+  slug: open-sap-bi-infoproviders-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Instances API
+  slug: open-sap-bi-instances-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Logon API
+  slug: open-sap-bi-logon-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Metadata API
+  slug: open-sap-bi-metadata-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Models API
+  slug: open-sap-bi-models-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Process Chains API
+  slug: open-sap-bi-process-chains-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Queries API
+  slug: open-sap-bi-queries-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Reports API
+  slug: open-sap-bi-reports-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Servers API
+  slug: open-sap-bi-servers-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Spaces API
+  slug: open-sap-bi-spaces-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Stories API
+  slug: open-sap-bi-stories-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Tasks API
+  slug: open-sap-bi-tasks-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Users API
+  slug: open-sap-bi-users-api
+- collection_type: open
+  name: SAP Business Intelligence SAP Analytics Cloud Catalog Views API
+  slug: open-sap-bi-views-api
 common:
 - group: agent
   title: ''
@@ -491,7 +557,7 @@ plans:
 - name: Sap Bi Plans Pricing
   plan_count: 1
   slug: sap-bi-plans-pricing
-random_paper: 92
+random_paper: 125
 rate_limits:
 - limit_count: 1
   name: Sap Bi Rate Limits
@@ -538,7 +604,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/screenshots/sap-bi-2026-06-20T193416.png
 security:

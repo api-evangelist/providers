@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Create, update, retrieve, and list users; manage presence.
   name: TalkJS Users API
   slug: talkjs-users-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TalkJS REST Conversations API
+  slug: open-talkjs-conversations-api
+- collection_type: open
+  name: TalkJS REST Conversations Import API
+  slug: open-talkjs-import-api
+- collection_type: open
+  name: TalkJS REST Conversations Messages API
+  slug: open-talkjs-messages-api
+- collection_type: open
+  name: TalkJS REST Conversations Participants API
+  slug: open-talkjs-participants-api
+- collection_type: open
+  name: TalkJS REST Conversations Users API
+  slug: open-talkjs-users-api
 - collection_type: open
   name: TalkJS REST API
   slug: open-talkjs
@@ -135,7 +153,7 @@ plans:
 - name: Talkjs Plans Pricing
   plan_count: 3
   slug: talkjs-plans-pricing
-random_paper: 49
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Talkjs Rate Limits
@@ -160,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/screenshots/talkjs-2026-06-20T194905.png
 security:

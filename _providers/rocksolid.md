@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Strategy allocation snapshots and periods
@@ -40,7 +40,20 @@ apis:
 - description: Vault catalogue, metadata and performance
   name: RockSolid Vaults API
   slug: rocksolid-vaults-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RockSolid Vaults Allocations API
+  slug: open-rocksolid-allocations-api
+- collection_type: open
+  name: RockSolid Vaults Allocations Performance API
+  slug: open-rocksolid-performance-api
+- collection_type: open
+  name: RockSolid Allocations Vaults API
+  slug: open-rocksolid-vaults-api
 common:
 - group: company
   title: ''
@@ -142,7 +155,7 @@ overview: 'RockSolid publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   RockSolid''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 10
+random_paper: 76
 score:
   band: thin
   composite: 40.5
@@ -165,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

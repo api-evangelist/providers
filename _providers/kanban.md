@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -74,8 +74,41 @@ apis:
 - description: The Users API from Kanban Tool — 2 operation(s) for users.
   name: Kanban Tool Users API
   slug: kanban-users-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kanban Tool API v3 Attachments API
+  slug: open-kanban-attachments-api
+- collection_type: open
+  name: Kanban Tool API v3 Attachments Attachments.json API
+  slug: open-kanban-attachments-json-api
+- collection_type: open
+  name: Kanban Tool API v3 Attachments Boards API
+  slug: open-kanban-boards-api
+- collection_type: open
+  name: Kanban Tool API v3 Attachments Subtasks API
+  slug: open-kanban-subtasks-api
+- collection_type: open
+  name: Kanban Tool API v3 Attachments Subtasks.json API
+  slug: open-kanban-subtasks-json-api
+- collection_type: open
+  name: Kanban Tool API v3 Attachments Tasks API
+  slug: open-kanban-tasks-api
+- collection_type: open
+  name: Kanban Tool API v3 Attachments Tasks.json API
+  slug: open-kanban-tasks-json-api
+- collection_type: open
+  name: Kanban Tool API v3 Attachments Time Trackers API
+  slug: open-kanban-time-trackers-api
+- collection_type: open
+  name: Kanban Tool API v3 Attachments Time Trackers.json API
+  slug: open-kanban-time-trackers-json-api
+- collection_type: open
+  name: Kanban Tool API v3 Attachments Users API
+  slug: open-kanban-users-api
 - collection_type: open
   name: Kanban Tool API v3
   slug: open-kanban
@@ -136,7 +169,7 @@ plans:
 - name: Kanban Plans Pricing
   plan_count: 3
   slug: kanban-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Kanban Rate Limits
@@ -161,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/screenshots/kanban-2026-06-20T183911.png
 security:

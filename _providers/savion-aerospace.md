@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Savion Aerospace is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Savion Aerospace''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 88
+random_paper: 9
 score:
   band: minimal
   composite: 9.2
@@ -91,7 +91,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

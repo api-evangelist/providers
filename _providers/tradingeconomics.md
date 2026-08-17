@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,12 +60,33 @@ apis:
 - description: The Markets API from Trading Economics — 9 operation(s) for markets.
   name: Trading Economics Markets API
   slug: tradingeconomics-markets-api
-artifact_total: 17
+artifact_total: 24
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Trading Economics **WebSocket streaming surface** at `wss://stream.tradingeconomics.com/`. Unlike many data providers whose "streaming" is HTTP polling or SSE, Trading '
   name: Trading Economics Streaming API (WebSocket)
   slug: tradingeconomics-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trading Economics Economic Calendar API
+  slug: open-tradingeconomics-economic-calendar-api
+- collection_type: open
+  name: Trading Economics Economic Calendar Financials API
+  slug: open-tradingeconomics-financials-api
+- collection_type: open
+  name: Trading Economics Economic Calendar Forecasts API
+  slug: open-tradingeconomics-forecasts-api
+- collection_type: open
+  name: Trading Economics Economic Calendar Historical API
+  slug: open-tradingeconomics-historical-api
+- collection_type: open
+  name: Trading Economics Economic Calendar Indicators API
+  slug: open-tradingeconomics-indicators-api
+- collection_type: open
+  name: Trading Economics Economic Calendar Markets API
+  slug: open-tradingeconomics-markets-api
 - collection_type: open
   name: Trading Economics API
   slug: open-tradingeconomics
@@ -141,7 +162,7 @@ plans:
 - name: Tradingeconomics Plans Pricing
   plan_count: 4
   slug: tradingeconomics-plans-pricing
-random_paper: 25
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Tradingeconomics Rate Limits
@@ -175,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

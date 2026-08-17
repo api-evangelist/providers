@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Event subscriptions, resources, events, and custom auth functions.
   name: Encompass Webhooks API
   slug: encompass-webhooks-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Encompass Developer Connect Authentication API
+  slug: open-encompass-authentication-api
+- collection_type: open
+  name: Encompass Developer Connect Authentication Borrower Pairs API
+  slug: open-encompass-borrower-pairs-api
+- collection_type: open
+  name: Encompass Developer Connect Authentication Conditions API
+  slug: open-encompass-conditions-api
+- collection_type: open
+  name: Encompass Developer Connect Authentication Contacts API
+  slug: open-encompass-contacts-api
+- collection_type: open
+  name: Encompass Developer Connect Authentication eFolder API
+  slug: open-encompass-efolder-api
+- collection_type: open
+  name: Encompass Developer Connect Authentication Loan Management API
+  slug: open-encompass-loan-management-api
+- collection_type: open
+  name: Encompass Developer Connect Authentication Loan Pipeline API
+  slug: open-encompass-loan-pipeline-api
+- collection_type: open
+  name: Encompass Developer Connect Authentication Milestones API
+  slug: open-encompass-milestones-api
+- collection_type: open
+  name: Encompass Developer Connect Authentication Users API
+  slug: open-encompass-users-api
+- collection_type: open
+  name: Encompass Developer Connect Authentication Webhooks API
+  slug: open-encompass-webhooks-api
 - collection_type: open
   name: Encompass Developer Connect API
   slug: open-encompass
@@ -139,7 +172,7 @@ plans:
 - name: Encompass Plans Pricing
   plan_count: 2
   slug: encompass-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Encompass Rate Limits
@@ -169,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/screenshots/encompass-2026-07-25T213304.png
 security:

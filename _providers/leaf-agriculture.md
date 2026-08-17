@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 107
   human_in_the_loop: 1
@@ -215,8 +215,188 @@ apis:
 - description: The API Reference > Weather API from Leaf Agriculture — 8 operation(s) for api reference > weather.
   name: Leaf Agriculture API Reference > Weather API
   slug: leaf-agriculture-api-reference-weather-api
-artifact_total: 65
+artifact_total: 125
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API
+  slug: open-leaf-agriculture-api-reference-alerts-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Implements API
+  slug: open-leaf-agriculture-api-reference-beta-implements-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Input Database > Products API
+  slug: open-leaf-agriculture-api-reference-beta-input-database-products-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Input Database > Tank Mixes API
+  slug: open-leaf-agriculture-api-reference-beta-input-database-tank-mixes-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Input Database > Varieties API
+  slug: open-leaf-agriculture-api-reference-beta-input-database-varieties-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Layers API
+  slug: open-leaf-agriculture-api-reference-beta-layers-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Machines API
+  slug: open-leaf-agriculture-api-reference-beta-machines-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Operators API
+  slug: open-leaf-agriculture-api-reference-beta-operators-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Prescription > AgLeader API
+  slug: open-leaf-agriculture-api-reference-beta-prescription-agleader-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Prescription > ClimateFieldView API
+  slug: open-leaf-agriculture-api-reference-beta-prescription-climatefieldview-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Prescription > CNHi API
+  slug: open-leaf-agriculture-api-reference-beta-prescription-cnhi-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Prescription > John Deere API
+  slug: open-leaf-agriculture-api-reference-beta-prescription-john-deere-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Prescription > RavenSlingshot API
+  slug: open-leaf-agriculture-api-reference-beta-prescription-ravenslingshot-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Beta > Prescription > Trimble API
+  slug: open-leaf-agriculture-api-reference-beta-prescription-trimble-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Configurations > Api Owner API
+  slug: open-leaf-agriculture-api-reference-configurations-api-owner-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Configurations > Leaf User API
+  slug: open-leaf-agriculture-api-reference-configurations-leaf-user-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Crop Monitoring API
+  slug: open-leaf-agriculture-api-reference-crop-monitoring-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Field Boundary Management > Boundaries API
+  slug: open-leaf-agriculture-api-reference-field-boundary-management-boundaries-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Field Boundary Management > Farms API
+  slug: open-leaf-agriculture-api-reference-field-boundary-management-farms-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Field Boundary Management > Fields API
+  slug: open-leaf-agriculture-api-reference-field-boundary-management-fields-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Field Boundary Management > Fields > Upload Field File API
+  slug: open-leaf-agriculture-api-reference-field-boundary-management-fields-upload-field-file-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Field Boundary Management > Files API
+  slug: open-leaf-agriculture-api-reference-field-boundary-management-files-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Field Boundary Management > Growers API
+  slug: open-leaf-agriculture-api-reference-field-boundary-management-growers-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Field Operations API
+  slug: open-leaf-agriculture-api-reference-field-operations-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Integrations API
+  slug: open-leaf-agriculture-api-reference-integrations-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Irrigation API
+  slug: open-leaf-agriculture-api-reference-irrigation-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf Auth API
+  slug: open-leaf-agriculture-api-reference-leaf-auth-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf Connect API
+  slug: open-leaf-agriculture-api-reference-leaf-connect-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf Link > API Key API
+  slug: open-leaf-agriculture-api-reference-leaf-link-api-key-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf Link > Provider Applications Info > AgLeader API
+  slug: open-leaf-agriculture-api-reference-leaf-link-provider-applications-info-agleader-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf Link > Provider Applications Info > Climate FieldView API
+  slug: open-leaf-agriculture-api-reference-leaf-link-provider-applications-info-climate-fieldview-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf Link > Provider Applications Info > CNHi API
+  slug: open-leaf-agriculture-api-reference-leaf-link-provider-applications-info-cnhi-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf Link > Provider Applications Info > John Deere API
+  slug: open-leaf-agriculture-api-reference-leaf-link-provider-applications-info-john-deere-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf Link > Provider Applications Info > Raven Slingshot API
+  slug: open-leaf-agriculture-api-reference-leaf-link-provider-applications-info-raven-slingshot-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf Link > Provider Applications Info > Trimble API
+  slug: open-leaf-agriculture-api-reference-leaf-link-provider-applications-info-trimble-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User API
+  slug: open-leaf-agriculture-api-reference-leaf-user-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > AgLeader API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-agleader-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > Agvance API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-agvance-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > ClimateFieldView API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-climatefieldview-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > CNHi API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-cnhi-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > JohnDeere API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-johndeere-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > Lindsay API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-lindsay-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > Provider Organizations List API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-provider-organizations-list-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > Raven API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-raven-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > RavenSlingshot API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-ravenslingshot-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > Sentera API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-sentera-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > Stara API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-stara-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > Trimble API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-trimble-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Leaf User > Provider Credentials > Valley API
+  slug: open-leaf-agriculture-api-reference-leaf-user-provider-credentials-valley-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Machine File Conversion API
+  slug: open-leaf-agriculture-api-reference-machine-file-conversion-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Magic Link > Authentication API
+  slug: open-leaf-agriculture-api-reference-magic-link-authentication-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Magic Link > File Upload API
+  slug: open-leaf-agriculture-api-reference-magic-link-file-upload-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Magic Link > Magic Link with Leaf User Creation API
+  slug: open-leaf-agriculture-api-reference-magic-link-magic-link-with-leaf-user-creation-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Magic Link > Provider API
+  slug: open-leaf-agriculture-api-reference-magic-link-provider-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Providers Auth > ClimateFieldView Auth API
+  slug: open-leaf-agriculture-api-reference-providers-auth-climatefieldview-auth-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Providers Auth > Lindsay Auth API
+  slug: open-leaf-agriculture-api-reference-providers-auth-lindsay-auth-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Providers Auth > Stara Auth API
+  slug: open-leaf-agriculture-api-reference-providers-auth-stara-auth-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Providers Auth > Trimble Auth API
+  slug: open-leaf-agriculture-api-reference-providers-auth-trimble-auth-api
+- collection_type: open
+  name: Leaf Agriculture Leaf API Reference > Alerts API Reference > Weather API
+  slug: open-leaf-agriculture-api-reference-weather-api
 - collection_type: open
   name: Leaf Agriculture Leaf API
   slug: open-leaf-agriculture
@@ -269,7 +449,7 @@ plans:
 - name: Leaf Agriculture Plans Pricing
   plan_count: 3
   slug: leaf-agriculture-plans-pricing
-random_paper: 84
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Leaf Agriculture Rate Limits
@@ -294,7 +474,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaf-agriculture/refs/heads/main/screenshots/leaf-agriculture-2026-06-20T184352.png
 security:

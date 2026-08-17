@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The STOP-HAE trial-site (clinic) registry.
@@ -45,7 +45,35 @@ apis:
 - description: Categories, tags, taxonomies and post statuses.
   name: ADARx Pharmaceuticals Taxonomy API
   slug: adarx-pharmaceuticals-taxonomy-api
-artifact_total: 11
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ADARx STOP-HAE Trial Site Clinics API
+  slug: open-adarx-pharmaceuticals-clinics-api
+- collection_type: open
+  name: Adarx Pharmaceuticals Content API
+  slug: open-adarx-pharmaceuticals-content-api
+- collection_type: open
+  name: Adarx Pharmaceuticals Embed API
+  slug: open-adarx-pharmaceuticals-embed-api
+- collection_type: open
+  name: Adarx Pharmaceuticals Index API
+  slug: open-adarx-pharmaceuticals-index-api
+- collection_type: open
+  name: Adarx Pharmaceuticals Media API
+  slug: open-adarx-pharmaceuticals-media-api
+- collection_type: open
+  name: ADARx Pharmaceuticals Content People API
+  slug: open-adarx-pharmaceuticals-people-api
+- collection_type: open
+  name: Adarx Pharmaceuticals Search API
+  slug: open-adarx-pharmaceuticals-search-api
+- collection_type: open
+  name: Adarx Pharmaceuticals Taxonomy API
+  slug: open-adarx-pharmaceuticals-taxonomy-api
 common:
 - group: other
   title: ''
@@ -200,7 +228,7 @@ overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.
 
 
   ADARx Pharmaceuticals'' developer surface includes product news, support, authentication, and 30 more developer resources.'
-random_paper: 3
+random_paper: 77
 score:
   band: thin
   composite: 32.1
@@ -228,7 +256,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/screenshots/adarx-pharmaceuticals-2026-08-07T160902.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Click-to-call and outbound voice.
   name: Kaleyra Voice API
   slug: kaleyra-voice-api
-artifact_total: 20
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Kaleyra Webhooks
@@ -75,6 +75,21 @@ collections:
 - collection_type: postman
   name: Kaleyra CPaaS Messages Voice API
   slug: postman-kaleyra-voice-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kaleyra CPaaS Messages API
+  slug: open-kaleyra-messages-api
+- collection_type: open
+  name: Kaleyra CPaaS Messages Verify API
+  slug: open-kaleyra-verify-api
+- collection_type: open
+  name: Kaleyra CPaaS Messages Video API
+  slug: open-kaleyra-video-api
+- collection_type: open
+  name: Kaleyra CPaaS Messages Voice API
+  slug: open-kaleyra-voice-api
 common:
 - group: build
   title: ''
@@ -259,7 +274,7 @@ plans:
 - name: Kaleyra Plans Pricing
   plan_count: 2
   slug: kaleyra-plans-pricing
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Kaleyra Rate Limits
@@ -293,7 +308,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png
 security:

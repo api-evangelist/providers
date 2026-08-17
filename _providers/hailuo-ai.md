@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,12 +54,30 @@ apis:
 - description: Asynchronous AI video generation with the Hailuo models.
   name: Hailuo AI / MiniMax Video Generation API
   slug: hailuo-ai-video-generation-api
-artifact_total: 13
+artifact_total: 19
 asyncapis:
 - description: 'MiniMax publishes a documented real-time text-to-speech WebSocket API. A client opens a WebSocket connection to wss://api.minimax.io/ws/v1/t2a_v2 (US West: wss://api-uw.minimax.io/ws/v1/t2a_v2), authe'
   name: MiniMax Text-to-Speech (T2A) WebSocket API
   slug: hailuo-ai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hailuo AI / MiniMax Chat Completions API
+  slug: open-hailuo-ai-chat-completions-api
+- collection_type: open
+  name: Hailuo AI / MiniMax Chat Completions Files API
+  slug: open-hailuo-ai-files-api
+- collection_type: open
+  name: Hailuo AI / MiniMax Chat Completions Music Generation API
+  slug: open-hailuo-ai-music-generation-api
+- collection_type: open
+  name: Hailuo AI / MiniMax Chat Completions Text to Speech API
+  slug: open-hailuo-ai-text-to-speech-api
+- collection_type: open
+  name: Hailuo AI / MiniMax Chat Completions Video Generation API
+  slug: open-hailuo-ai-video-generation-api
 - collection_type: open
   name: Hailuo AI / MiniMax API
   slug: open-hailuo-ai
@@ -127,7 +145,7 @@ plans:
 - name: Hailuo Ai Plans Pricing
   plan_count: 4
   slug: hailuo-ai-plans-pricing
-random_paper: 49
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Hailuo Ai Rate Limits
@@ -161,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/screenshots/hailuo-ai-2026-07-25T220530.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ arazzos:
 - description: Create, read, and update a record through the User Interface API.
   name: Salesforce Experience Cloud UI API Record Lifecycle
   slug: salesforce-experience-cloud-ui-record-lifecycle-workflow
-artifact_total: 192
+artifact_total: 228
 collections:
 - collection_type: postman
   name: Salesforce Experience Cloud Salesforce CMS Connect API
@@ -244,6 +244,18 @@ collections:
   name: Salesforce Experience Cloud Salesforce User Interface API
   slug: postman-salesforce-experience-cloud-user-interface
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions API
+  slug: open-salesforce-experience-cloud-actions-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Branding Sets API
+  slug: open-salesforce-experience-cloud-branding-sets-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Channels API
+  slug: open-salesforce-experience-cloud-channels-api
+- collection_type: open
   name: Salesforce Experience Cloud Salesforce CMS Connect API
   slug: open-salesforce-experience-cloud-cms-connect
 - collection_type: open
@@ -253,23 +265,119 @@ collections:
   name: Salesforce Experience Cloud Salesforce CMS Managed Content API
   slug: open-salesforce-experience-cloud-cms-managed-content
 - collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Collections API
+  slug: open-salesforce-experience-cloud-collections-api
+- collection_type: open
   name: Salesforce Experience Cloud Salesforce Connect REST API (Communities)
   slug: open-salesforce-experience-cloud-connect-communities
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Content API
+  slug: open-salesforce-experience-cloud-content-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Content Delivery API
+  slug: open-salesforce-experience-cloud-content-delivery-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Content Types API
+  slug: open-salesforce-experience-cloud-content-types-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Delivery Channels API
+  slug: open-salesforce-experience-cloud-delivery-channels-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Describe API
+  slug: open-salesforce-experience-cloud-describe-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Favorites API
+  slug: open-salesforce-experience-cloud-favorites-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Feeds API
+  slug: open-salesforce-experience-cloud-feeds-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Folders API
+  slug: open-salesforce-experience-cloud-folders-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions GraphQL API
+  slug: open-salesforce-experience-cloud-graphql-api
 - collection_type: open
   name: Salesforce Experience Cloud Salesforce GraphQL API
   slug: open-salesforce-experience-cloud-graphql
 - collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Knowledge API
+  slug: open-salesforce-experience-cloud-knowledge-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Layouts API
+  slug: open-salesforce-experience-cloud-layouts-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Limits API
+  slug: open-salesforce-experience-cloud-limits-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions List Views API
+  slug: open-salesforce-experience-cloud-list-views-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Managed Content API
+  slug: open-salesforce-experience-cloud-managed-content-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Media API
+  slug: open-salesforce-experience-cloud-media-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Media Delivery API
+  slug: open-salesforce-experience-cloud-media-delivery-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Members API
+  slug: open-salesforce-experience-cloud-members-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Moderation API
+  slug: open-salesforce-experience-cloud-moderation-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Navigation API
+  slug: open-salesforce-experience-cloud-navigation-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Object Info API
+  slug: open-salesforce-experience-cloud-object-info-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Publish API
+  slug: open-salesforce-experience-cloud-publish-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Query API
+  slug: open-salesforce-experience-cloud-query-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Records API
+  slug: open-salesforce-experience-cloud-records-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Resources API
+  slug: open-salesforce-experience-cloud-resources-api
+- collection_type: open
   name: Salesforce Experience Cloud Salesforce REST API
   slug: open-salesforce-experience-cloud-rest-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Search API
+  slug: open-salesforce-experience-cloud-search-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Sites API
+  slug: open-salesforce-experience-cloud-sites-api
 - collection_type: open
   name: Salesforce Experience Cloud Sites API
   slug: open-salesforce-experience-cloud-sites
 - collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions sObjects API
+  slug: open-salesforce-experience-cloud-sobjects-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Templates API
+  slug: open-salesforce-experience-cloud-templates-api
+- collection_type: open
   name: Salesforce Experience Cloud Templates API
   slug: open-salesforce-experience-cloud-templates
 - collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Themes API
+  slug: open-salesforce-experience-cloud-themes-api
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Topics API
+  slug: open-salesforce-experience-cloud-topics-api
+- collection_type: open
   name: Salesforce Experience Cloud Salesforce User Interface API
   slug: open-salesforce-experience-cloud-user-interface
+- collection_type: open
+  name: Salesforce Experience Cloud Salesforce CMS Connect Actions Versions API
+  slug: open-salesforce-experience-cloud-versions-api
 common:
 - group: agent
   title: ''
@@ -853,7 +961,7 @@ plans:
 - name: Salesforce Experience Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-experience-cloud-plans-pricing
-random_paper: 112
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Salesforce Experience Cloud Rate Limits
@@ -900,7 +1008,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/screenshots/salesforce-experience-cloud-2026-06-20T193345.png
 security:

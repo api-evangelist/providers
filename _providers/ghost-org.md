@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-12'
+  score: 50.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -96,18 +97,120 @@ apis:
 - description: Read-only public subscription tiers.
   name: Ghost Content - Tiers API
   slug: ghost-org-content-tiers-api
-artifact_total: 59
+artifact_total: 95
 asyncapis:
 - description: 'Ghost Webhooks allow developers to receive real-time HTTP notifications when specific events occur within a Ghost publication, such as publishing a new post, updating a page, or gaining a new member. '
   name: Ghost Webhooks
   slug: ghost-org-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Ghost Admin API
   slug: open-ghost-org-admin-api
 - collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images API
+  slug: open-ghost-org-admin-images-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Labels API
+  slug: open-ghost-org-admin-labels-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Members API
+  slug: open-ghost-org-admin-members-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Newsletters API
+  slug: open-ghost-org-admin-newsletters-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Offers API
+  slug: open-ghost-org-admin-offers-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Pages API
+  slug: open-ghost-org-admin-pages-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Posts API
+  slug: open-ghost-org-admin-posts-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Site API
+  slug: open-ghost-org-admin-site-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Tags API
+  slug: open-ghost-org-admin-tags-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Themes API
+  slug: open-ghost-org-admin-themes-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Tiers API
+  slug: open-ghost-org-admin-tiers-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Users API
+  slug: open-ghost-org-admin-users-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Admin - Webhooks API
+  slug: open-ghost-org-admin-webhooks-api
+- collection_type: open
+  name: Ghost Admin Authors API
+  slug: open-ghost-org-authors-api
+- collection_type: open
   name: Ghost Content API
   slug: open-ghost-org-content-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Content - Authors API
+  slug: open-ghost-org-content-authors-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Content - Pages API
+  slug: open-ghost-org-content-pages-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Content - Posts API
+  slug: open-ghost-org-content-posts-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Content - Settings API
+  slug: open-ghost-org-content-settings-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Content - Tags API
+  slug: open-ghost-org-content-tags-api
+- collection_type: open
+  name: Ghost Content and Admin APIs Admin - Images Content - Tiers API
+  slug: open-ghost-org-content-tiers-api
+- collection_type: open
+  name: Ghost Admin Authors Images API
+  slug: open-ghost-org-images-api
+- collection_type: open
+  name: Ghost Admin Authors Members API
+  slug: open-ghost-org-members-api
+- collection_type: open
+  name: Ghost Admin Authors Newsletters API
+  slug: open-ghost-org-newsletters-api
+- collection_type: open
+  name: Ghost Admin Authors Offers API
+  slug: open-ghost-org-offers-api
+- collection_type: open
+  name: Ghost Admin Authors Pages API
+  slug: open-ghost-org-pages-api
+- collection_type: open
+  name: Ghost Admin Authors Posts API
+  slug: open-ghost-org-posts-api
+- collection_type: open
+  name: Ghost Admin Authors Settings API
+  slug: open-ghost-org-settings-api
+- collection_type: open
+  name: Ghost Admin Authors Site API
+  slug: open-ghost-org-site-api
+- collection_type: open
+  name: Ghost Admin Authors Tags API
+  slug: open-ghost-org-tags-api
+- collection_type: open
+  name: Ghost Admin Authors Themes API
+  slug: open-ghost-org-themes-api
+- collection_type: open
+  name: Ghost Admin Authors Tiers API
+  slug: open-ghost-org-tiers-api
+- collection_type: open
+  name: Ghost Admin Authors Users API
+  slug: open-ghost-org-users-api
+- collection_type: open
+  name: Ghost Admin Authors Webhooks API
+  slug: open-ghost-org-webhooks-api
 - collection_type: open
   name: Ghost Content and Admin APIs
   slug: open-ghost-org
@@ -204,6 +307,134 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.ghost.org/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ghost-org-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ghost-org-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ghost-org-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/ghost-org-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/ghost-org-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ghost-org-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/ghost-org-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/ghost-org-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/ghost-org-components.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ghost-org-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ghost-org-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ghost-org-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ghost-org-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/ghost-org-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.ghost.org
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ghost-org-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ghost-org-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ghost-org-sandbox.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/ghost-org-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/ghost-org-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/ghost-org-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/ghost-org-webhooks-asyncapi.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.ghost.org/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.ghost.org/content-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.ghost.org/install
+- group: operate
+  title: ''
+  type: Support
+  url: https://ghost.org/help/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://docs.ghost.org/product
+- group: start
+  title: ''
+  type: SignUp
+  url: https://ghost.org/signup/
+- group: start
+  title: ''
+  type: Login
+  url: https://account.ghost.org/signin
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://ghost.org/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://ghost.org/privacy/
 created: '2026-07-05'
 description: Ghost is an open-source (MIT) publishing platform for professional publications, newsletters, memberships, and paid subscriptions. It can be self-hosted for free or run as the managed Ghost(Pro) service, with all Ghost(Pro) revenue funding the non-profit Ghost Foundation. Every Ghost site exposes two documented public REST APIs under https://{site}/ghost/api/. The Content API is a read-only, key-authenticated interface for delivering published posts, pages, tags, authors, tiers, and settings to front-ends and static sites. The Admin API is a read-write, token-authenticated (JWT) interface for managing posts, pages, members, tags, tiers, offers, newsletters, users, media, themes, and webhooks.
 finops:
@@ -301,7 +532,11 @@ jsonld:
   property_count: 9
   slug: ghost-org-context
 layout: provider
-modified: '2026-08-08'
+mcp_servers:
+- description: ''
+  name: ghost-org-mcp.yml
+  slug: ghost-org-mcpyml
+modified: '2026-08-13'
 name: Ghost
 nav: Providers
 network: true
@@ -311,12 +546,12 @@ overview: 'Ghost publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
   The Ghost catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Ghost''s developer surface includes authentication, documentation, engineering blog, changelog, developer portal, pricing, and 17 more developer resources.'
+  Ghost''s developer surface includes authentication, documentation, engineering blog, changelog, developer portal, pricing, CLI, and 48 more developer resources.'
 plans:
 - name: Ghost Org Plans Pricing
   plan_count: 5
   slug: ghost-org-plans-pricing
-random_paper: 82
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Ghost Org Rate Limits
@@ -339,16 +574,16 @@ rules:
     warn: 5
   slug: ghost-org-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 55.3
-  delta: 0.0
+  band: exemplar
+  composite: 79.9
+  delta: 24.6
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 84.2
     contract_quality: 67.9
-    developer_ergonomics: 34.8
+    developer_ergonomics: 87.0
     discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 63.2
+    governance: 62.5
+    operational_transparency: 100.0
   previous_composite: 55.3
   provenance:
     agentic_access: derived
@@ -358,8 +593,8 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png
 security:
 - kind: authentication
@@ -370,6 +605,10 @@ security:
   name: Ghost Org Domain Security
   slug: ghost-org-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Ghost Org Vulnerability Disclosure
+  slug: ghost-org-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: ghost-org
 tags:
 - Publishing

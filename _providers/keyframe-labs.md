@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -50,7 +50,23 @@ apis:
 - description: The Voices API from Keyframe Labs — 2 operation(s) for voices.
   name: Keyframe Labs Voices API
   slug: keyframe-labs-voices-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sessions LLM models API
+  slug: open-keyframe-labs-llm-models-api
+- collection_type: open
+  name: Sessions LLM models Meet bots API
+  slug: open-keyframe-labs-meet-bots-api
+- collection_type: open
+  name: LLM models Sessions API
+  slug: open-keyframe-labs-sessions-api
+- collection_type: open
+  name: Sessions LLM models Voices API
+  slug: open-keyframe-labs-voices-api
 common:
 - group: agent
   title: ''
@@ -180,7 +196,7 @@ overview: 'Keyframe Labs publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Keyframe Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 21 more developer resources.'
-random_paper: 115
+random_paper: 123
 score:
   band: thin
   composite: 41.6
@@ -204,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/screenshots/keyframe-labs-2026-07-25T223654.png
 security:

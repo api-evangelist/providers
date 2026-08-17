@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: REST API for creating and managing payment jobs and payments — create, retrieve, and cancel payment jobs; capture, refund, and cancel individual payments; card tokenisation; and recurring payments. Pa
@@ -175,7 +175,7 @@ overview: 'Cashflows publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cashflows'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 10
+random_paper: 76
 score:
   band: developing
   composite: 46.5
@@ -198,7 +198,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/screenshots/cashflows-2026-07-25T204721.png
 security:

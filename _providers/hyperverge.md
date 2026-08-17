@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Fuzzy and direct field matching.
   name: HyperVerge Matching API
   slug: hyperverge-matching-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HyperVerge Identity Verification Database Verification API
+  slug: open-hyperverge-database-verification-api
+- collection_type: open
+  name: HyperVerge Identity Verification Database Verification Face Match API
+  slug: open-hyperverge-face-match-api
+- collection_type: open
+  name: HyperVerge Identity Verification Database Verification Input Validation API
+  slug: open-hyperverge-input-validation-api
+- collection_type: open
+  name: HyperVerge Identity Verification Database Verification KYC OCR API
+  slug: open-hyperverge-kyc-ocr-api
+- collection_type: open
+  name: HyperVerge Identity Verification Database Verification Matching API
+  slug: open-hyperverge-matching-api
 - collection_type: open
   name: HyperVerge Identity Verification API
   slug: open-hyperverge
@@ -127,7 +145,7 @@ plans:
 - name: Hyperverge Plans Pricing
   plan_count: 3
   slug: hyperverge-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Hyperverge Rate Limits
@@ -152,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/screenshots/hyperverge-2026-07-25T221937.png
 security:

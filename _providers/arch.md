@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -83,7 +83,56 @@ apis:
 - description: The Users API from Arch — 2 operation(s) for users.
   name: Arch Users API
   slug: arch-users-api
-artifact_total: 21
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arch Client Accounts API
+  slug: open-arch-accounts-api
+- collection_type: open
+  name: Arch Client Accounts Activities API
+  slug: open-arch-activities-api
+- collection_type: open
+  name: Arch Client Accounts Addepar API
+  slug: open-arch-addepar-api
+- collection_type: open
+  name: Arch Client Accounts Authentication API
+  slug: open-arch-authentication-api
+- collection_type: open
+  name: Arch Client Accounts Cash Flows API
+  slug: open-arch-cash-flows-api
+- collection_type: open
+  name: Arch Client Accounts Firms API
+  slug: open-arch-firms-api
+- collection_type: open
+  name: Arch Client Accounts Holdings API
+  slug: open-arch-holdings-api
+- collection_type: open
+  name: Arch Client Accounts Investing Entities API
+  slug: open-arch-investing-entities-api
+- collection_type: open
+  name: Arch Client Accounts Issuing Entities API
+  slug: open-arch-issuing-entities-api
+- collection_type: open
+  name: Arch Client Accounts Lookthroughs API
+  slug: open-arch-lookthroughs-api
+- collection_type: open
+  name: Arch Client Accounts Offerings API
+  slug: open-arch-offerings-api
+- collection_type: open
+  name: Arch Client Accounts Tasks API
+  slug: open-arch-tasks-api
+- collection_type: open
+  name: Arch Client Accounts Tax Documents API
+  slug: open-arch-tax-documents-api
+- collection_type: open
+  name: Arch Client Accounts User Roles API
+  slug: open-arch-user-roles-api
+- collection_type: open
+  name: Arch Client Accounts Users API
+  slug: open-arch-users-api
 common:
 - group: auth
   title: ''
@@ -189,7 +238,7 @@ overview: 'Arch publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Arch''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, and 16 more developer resources.'
-random_paper: 54
+random_paper: 116
 rate_limits:
 - limit_count: 0
   name: Arch Rate Limits
@@ -217,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/screenshots/arch-2026-07-25T201014.png
 security:

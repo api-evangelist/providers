@@ -12,15 +12,16 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 53.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -115,7 +116,11 @@ arazzos:
 - description: Register or update an endpoint, then send a direct message to it.
   name: Amazon Pinpoint Update Endpoint and Send Message
   slug: amazon-pinpoint-update-endpoint-send-message-workflow
-artifact_total: 1066
+artifact_total: 1075
+asyncapis:
+- description: ''
+  name: Amazon Pinpoint Events
+  slug: amazon-pinpoint-events
 collections:
 - collection_type: postman
   name: Amazon Pinpoint Applications API
@@ -142,9 +147,146 @@ collections:
   name: Amazon Pinpoint API
   slug: postman-amazon-pinpoint
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Pinpoint Applications API
+  slug: open-amazon-pinpoint-applications-api
+- collection_type: open
+  name: Amazon Pinpoint Applications Apps API
+  slug: open-amazon-pinpoint-apps-api
+- collection_type: open
+  name: Amazon Pinpoint Applications Phone API
+  slug: open-amazon-pinpoint-phone-api
+- collection_type: open
+  name: Amazon Pinpoint Applications Recommenders API
+  slug: open-amazon-pinpoint-recommenders-api
+- collection_type: open
+  name: Amazon Pinpoint Applications Tags API
+  slug: open-amazon-pinpoint-tags-api
+- collection_type: open
+  name: Amazon Pinpoint Applications Templates API
+  slug: open-amazon-pinpoint-templates-api
+- collection_type: open
   name: Amazon Pinpoint API
   slug: open-amazon-pinpoint
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/amazon-pinpoint-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/amazon-pinpoint-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/amazon-pinpoint-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/amazon-pinpoint-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/amazon-pinpoint-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/amazon-pinpoint-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/amazon-pinpoint-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/amazon-pinpoint-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.aws.amazon.com/pinpoint/latest/userguide/migrate.html
+- group: auth
+  title: ''
+  type: Security
+  url: https://vdp.aws.security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/amazon-pinpoint-trust-center.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/amazon-pinpoint-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/amazon-pinpoint-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/amazon-pinpoint-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/amazon-pinpoint-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/amazon-pinpoint-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/amazon-pinpoint-events.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/amazon-pinpoint-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-pinpoint-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/amazon-pinpoint-finops.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://portal.aws.amazon.com/billing/signup
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aws.amazon.com/pinpoint/latest/apireference/welcome.html
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-pinpoint-applications-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-pinpoint-apps-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-pinpoint-phone-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-pinpoint-recommenders-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-pinpoint-tags-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-pinpoint-templates-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -7390,24 +7532,24 @@ jsonld:
   property_count: 37
   slug: amazon-pinpoint-templates-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Amazon Pinpoint
 nav: Providers
 network: true
 overview: 'Amazon Pinpoint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Apps API, Phone API, and 3 more. Tagged areas include Campaigns, Communications, Email, Marketing, and Messaging.
 
 
-  The Amazon Pinpoint catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Amazon Pinpoint catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Amazon Pinpoint''s developer surface includes authentication, developer portal, engineering blog, support, CLI, documentation, pricing, and 1039 more developer resources.'
+  Amazon Pinpoint''s developer surface includes sandbox, changelog, CLI, signup flow, API reference, authentication, developer portal, and 1068 more developer resources.'
 plans:
 - name: Amazon Pinpoint Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: amazon-pinpoint-plans-pricing
-random_paper: 12
+random_paper: 82
 rate_limits:
-- limit_count: 5
+- limit_count: 26
   name: Amazon Pinpoint Rate Limits
   slug: amazon-pinpoint-rate-limits
 rules:
@@ -7428,16 +7570,16 @@ rules:
     warn: 19
   slug: amazon-pinpoint-spectral-rules
 score:
-  band: strong
-  composite: 60.6
-  delta: 0.0
+  band: exemplar
+  composite: 74.1
+  delta: 13.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 69.2
-    developer_ergonomics: 63.0
-    discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 28.9
+    commercial_clarity: 73.7
+    contract_quality: 78.1
+    developer_ergonomics: 82.6
+    discoverability: 75.9
+    governance: 89.6
+    operational_transparency: 71.1
   previous_composite: 60.6
   provenance:
     agentic_access: derived
@@ -7453,8 +7595,8 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/screenshots/amazon-pinpoint-2026-06-20T171757.png
 security:
 - kind: authentication
@@ -7469,6 +7611,10 @@ security:
   name: Amazon Pinpoint Vulnerability Disclosure
   slug: amazon-pinpoint-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Amazon Pinpoint Trust Center
+  slug: amazon-pinpoint-trust-center
+  summary_line: SOC 1, SOC 2, SOC 3, FedRAMP, HIPAA, ISO/IEC 27001:2013, ISO/IEC 27017:2015, ISO/IEC 27018:2014, ISO/IEC 9001:2015
 slug: amazon-pinpoint
 tags:
 - Campaigns

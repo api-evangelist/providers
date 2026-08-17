@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Tracker API from Rasa — 7 operation(s) for tracker.
   name: Rasa Tracker API
   slug: rasa-tracker-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rasa SDK - Action Server Endpoint Domain API
+  slug: open-rasa-domain-api
+- collection_type: open
+  name: Rasa SDK - Action Server Endpoint Domain Model API
+  slug: open-rasa-model-api
+- collection_type: open
+  name: Rasa SDK - Action Server Endpoint Domain Rasa SDK Action Server Endpoint API
+  slug: open-rasa-rasa-sdk-action-server-endpoint-api
+- collection_type: open
+  name: Rasa SDK - Action Server Endpoint Domain Server Information API
+  slug: open-rasa-server-information-api
+- collection_type: open
+  name: Rasa SDK - Action Server Endpoint Domain Tracker API
+  slug: open-rasa-tracker-api
 common:
 - group: other
   title: ''
@@ -179,7 +198,7 @@ overview: 'Rasa publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rasa''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, quickstart, and 20 more developer resources.'
-random_paper: 63
+random_paper: 125
 score:
   band: developing
   composite: 45.5
@@ -203,7 +222,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

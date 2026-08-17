@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Run voice agents against datasets and retrieve experiment calls.
   name: Hamming AI Voice Testing API
   slug: hamming-ai-voice-testing-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hamming AI REST Datasets API
+  slug: open-hamming-ai-datasets-api
+- collection_type: open
+  name: Hamming AI REST Datasets Experiments API
+  slug: open-hamming-ai-experiments-api
+- collection_type: open
+  name: Hamming AI REST Datasets Monitoring API
+  slug: open-hamming-ai-monitoring-api
+- collection_type: open
+  name: Hamming AI REST Datasets Prompts API
+  slug: open-hamming-ai-prompts-api
+- collection_type: open
+  name: Hamming AI REST Datasets Scoring API
+  slug: open-hamming-ai-scoring-api
+- collection_type: open
+  name: Hamming AI REST Datasets Voice Testing API
+  slug: open-hamming-ai-voice-testing-api
 - collection_type: open
   name: Hamming AI REST API
   slug: open-hamming-ai
@@ -123,7 +144,7 @@ plans:
 - name: Hamming Ai Plans Pricing
   plan_count: 2
   slug: hamming-ai-plans-pricing
-random_paper: 24
+random_paper: 90
 rate_limits:
 - limit_count: 3
   name: Hamming Ai Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/screenshots/hamming-ai-2026-07-25T220600.png
 security:

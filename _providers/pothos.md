@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Plugin-based GraphQL schema builder for TypeScript that enables type-safe, code-first schema construction with zero runtime overhead and no code generation required. Supports plugins for Prisma, Relay
@@ -87,7 +87,7 @@ overview: 'Pothos publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Pothos'' developer surface includes documentation and 8 more developer resources.'
-random_paper: 69
+random_paper: 73
 score:
   band: emerging
   composite: 22.0
@@ -101,7 +101,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pothos/refs/heads/main/screenshots/pothos-2026-06-20T192022.png
 security:

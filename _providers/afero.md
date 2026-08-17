@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -40,7 +40,23 @@ apis:
 - description: 'The Afero Over-the-Air (OTA) Update API lets a partner drive firmware releases from their own CI/CD pipeline instead of the OTA Manager web application. It creates and updates partner firmware types, '
   name: Afero Cloud OTA Firmware API
   slug: ota-api
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Afero Cloud Authentication API
+  slug: open-afero-authentication-api
+- collection_type: open
+  name: Afero Cloud Devices API
+  slug: open-afero-devices-api
+- collection_type: open
+  name: Afero Cloud Firmware OTA API
+  slug: open-afero-ota-api
+- collection_type: open
+  name: Afero Cloud Users API
+  slug: open-afero-users-api
 common:
 - group: agent
   title: ''
@@ -194,7 +210,7 @@ overview: 'Afero publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Afero''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, engineering blog, and 27 more developer resources.'
-random_paper: 45
+random_paper: 78
 score:
   band: developing
   composite: 49.0
@@ -224,7 +240,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/screenshots/afero-2026-08-07T161019.png
 security:

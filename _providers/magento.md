@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
 - description: Tax configuration management including tax rates, tax rules, and tax classes used for order tax calculation.
   name: magento Tax API
   slug: magento-tax-api
-artifact_total: 82
+artifact_total: 94
 asyncapis:
 - description: Adobe Commerce Eventing provides an asynchronous event-driven integration framework that publishes Commerce business events to Adobe I/O Events, enabling App Builder applications and other Adobe Exper
   name: Adobe Commerce Eventing
@@ -97,8 +97,44 @@ asyncapis:
   slug: magento-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Magento REST Authentication API
+  slug: open-magento-authentication-api
+- collection_type: open
+  name: Magento REST Authentication Carts API
+  slug: open-magento-carts-api
+- collection_type: open
+  name: Magento REST Authentication Categories API
+  slug: open-magento-categories-api
+- collection_type: open
+  name: Magento REST Authentication Customers API
+  slug: open-magento-customers-api
+- collection_type: open
+  name: Magento REST Authentication Inventory API
+  slug: open-magento-inventory-api
+- collection_type: open
+  name: Magento REST Authentication Invoices API
+  slug: open-magento-invoices-api
+- collection_type: open
+  name: Magento REST Authentication Orders API
+  slug: open-magento-orders-api
+- collection_type: open
+  name: Magento REST Authentication Products API
+  slug: open-magento-products-api
+- collection_type: open
   name: Magento REST API
   slug: open-magento-rest-api
+- collection_type: open
+  name: Magento REST Authentication Shipments API
+  slug: open-magento-shipments-api
+- collection_type: open
+  name: Magento REST Authentication Stores API
+  slug: open-magento-stores-api
+- collection_type: open
+  name: Magento REST Authentication Tax API
+  slug: open-magento-tax-api
 common:
 - group: agent
   title: ''
@@ -294,7 +330,7 @@ plans:
 - name: Magento Plans Pricing
   plan_count: 3
   slug: magento-plans-pricing
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Magento Rate Limits
@@ -336,7 +372,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/screenshots/magento-2026-06-20T184844.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ arazzos:
 - description: Inspect a PSD's text layers, rewrite their content and styling, then render the result.
   name: Adobe Photoshop Text Layer Personalization
   slug: adobe-photoshop-text-layer-personalization-workflow
-artifact_total: 127
+artifact_total: 138
 asyncapis:
 - description: Event-driven notifications for Adobe Photoshop API asynchronous job processing. When registered through Adobe I/O Events, webhooks deliver real-time notifications when Photoshop API jobs complete or f
   name: Adobe Photoshop API Webhook Events
@@ -161,6 +161,39 @@ collections:
 - collection_type: postman
   name: Adobe Photoshop Actions Text API
   slug: postman-adobe-photoshop-text-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Photoshop Actions API
+  slug: open-adobe-photoshop-actions-api
+- collection_type: open
+  name: Adobe Photoshop Actions Background Removal API
+  slug: open-adobe-photoshop-background-removal-api
+- collection_type: open
+  name: Adobe Photoshop Actions Crop and Effects API
+  slug: open-adobe-photoshop-crop-and-effects-api
+- collection_type: open
+  name: Adobe Photoshop Actions Document Operations API
+  slug: open-adobe-photoshop-document-operations-api
+- collection_type: open
+  name: Adobe Photoshop Actions Generative API
+  slug: open-adobe-photoshop-generative-api
+- collection_type: open
+  name: Adobe Photoshop Actions Health API
+  slug: open-adobe-photoshop-health-api
+- collection_type: open
+  name: Adobe Photoshop Actions Renditions API
+  slug: open-adobe-photoshop-renditions-api
+- collection_type: open
+  name: Adobe Photoshop Actions Smart Objects API
+  slug: open-adobe-photoshop-smart-objects-api
+- collection_type: open
+  name: Adobe Photoshop Actions Status API
+  slug: open-adobe-photoshop-status-api
+- collection_type: open
+  name: Adobe Photoshop Actions Text API
+  slug: open-adobe-photoshop-text-api
 common:
 - group: build
   title: ''
@@ -571,7 +604,7 @@ plans:
 - name: Adobe Photoshop Plans Pricing
   plan_count: 4
   slug: adobe-photoshop-plans-pricing
-random_paper: 108
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Adobe Photoshop Rate Limits
@@ -623,7 +656,7 @@ score:
       total: 10
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:

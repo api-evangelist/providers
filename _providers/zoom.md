@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 2
@@ -248,7 +248,7 @@ arazzos:
 - description: Create a webinar, register an attendee, and list the registrants.
   name: Zoom Webinar Registration
   slug: zoom-webinar-registration-workflow
-artifact_total: 198
+artifact_total: 215
 asyncapis:
 - description: Zoom delivers webhook event notifications to your application when meeting-related events occur on the Zoom platform. These webhooks enable real-time integration with meeting lifecycle events includin
   name: Zoom Meeting Webhooks
@@ -291,8 +291,59 @@ collections:
   name: Zoom webinar/
   slug: postman-zoom-webinar--openapi-original
 - collection_type: open
-  name: Zoom Meeting API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zoom / Account API
+  slug: open-zoom-account-api
+- collection_type: open
+  name: Zoom / Account Chat API
+  slug: open-zoom-chat-api
+- collection_type: open
+  name: Zoom / Account Cloud Recording API
+  slug: open-zoom-cloud-recording-api
+- collection_type: open
+  name: Zoom / Account Dashboard API
+  slug: open-zoom-dashboard-api
+- collection_type: open
+  name: Zoom / Account Device API
+  slug: open-zoom-device-api
+- collection_type: open
+  name: Zoom / Account Group API
+  slug: open-zoom-group-api
+- collection_type: open
+  name: Zoom / Account IM Group API
+  slug: open-zoom-im-group-api
+- collection_type: open
+  name: Zoom / Account Meeting API
   slug: open-zoom-meeting-api
+- collection_type: open
+  name: Zoom / Account Meeting Live Stream API
+  slug: open-zoom-meeting-live-stream-api
+- collection_type: open
+  name: Zoom / Account Meeting Participants API
+  slug: open-zoom-meeting-participants-api
+- collection_type: open
+  name: Zoom / Account Meeting Polls API
+  slug: open-zoom-meeting-polls-api
+- collection_type: open
+  name: Zoom / Account Meeting Recordings API
+  slug: open-zoom-meeting-recordings-api
+- collection_type: open
+  name: Zoom / Account Meeting Registrants API
+  slug: open-zoom-meeting-registrants-api
+- collection_type: open
+  name: Zoom / Account Meetings API
+  slug: open-zoom-meetings-api
+- collection_type: open
+  name: Zoom / Account Report API
+  slug: open-zoom-report-api
+- collection_type: open
+  name: Zoom / Account User API
+  slug: open-zoom-user-api
+- collection_type: open
+  name: Zoom / Account Webinar API
+  slug: open-zoom-webinar-api
 common:
 - group: agent
   title: ''
@@ -778,7 +829,7 @@ plans:
 - name: Zoom Plans Pricing
   plan_count: 4
   slug: zoom-plans-pricing
-random_paper: 93
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Zoom Rate Limits
@@ -833,7 +884,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png
 security:

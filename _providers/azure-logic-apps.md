@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -108,7 +108,80 @@ apis:
 - description: The WorkflowVersions API from Azure Logic Apps — 2 operation(s) for workflowversions.
   name: Azure Logic Apps WorkflowVersions API
   slug: azure-logic-apps-workflowversions-api
-artifact_total: 120
+artifact_total: 144
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements API
+  slug: open-azure-logic-apps-integrationaccountagreements-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements IntegrationAccountAssemblies API
+  slug: open-azure-logic-apps-integrationaccountassemblies-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements IntegrationAccountBatchConfigurations API
+  slug: open-azure-logic-apps-integrationaccountbatchconfigurations-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements IntegrationAccountCertificates API
+  slug: open-azure-logic-apps-integrationaccountcertificates-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements IntegrationAccountMaps API
+  slug: open-azure-logic-apps-integrationaccountmaps-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements IntegrationAccountPartners API
+  slug: open-azure-logic-apps-integrationaccountpartners-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements IntegrationAccounts API
+  slug: open-azure-logic-apps-integrationaccounts-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements IntegrationAccountSchemas API
+  slug: open-azure-logic-apps-integrationaccountschemas-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements IntegrationAccountSessions API
+  slug: open-azure-logic-apps-integrationaccountsessions-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements integrationServiceEnvironmentManagedApi API
+  slug: open-azure-logic-apps-integrationserviceenvironmentmanagedapi-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements integrationServiceEnvironmentManagedApis API
+  slug: open-azure-logic-apps-integrationserviceenvironmentmanagedapis-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements integrationServiceEnvironmentNetworkHealth API
+  slug: open-azure-logic-apps-integrationserviceenvironmentnetworkhealth-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements integrationServiceEnvironmentRestart API
+  slug: open-azure-logic-apps-integrationserviceenvironmentrestart-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements IntegrationServiceEnvironments API
+  slug: open-azure-logic-apps-integrationserviceenvironments-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements integrationServiceEnvironmentSkus API
+  slug: open-azure-logic-apps-integrationserviceenvironmentskus-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements Operations API
+  slug: open-azure-logic-apps-operations-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements WorkflowRunActions API
+  slug: open-azure-logic-apps-workflowrunactions-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements WorkflowRunOperations API
+  slug: open-azure-logic-apps-workflowrunoperations-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements WorkflowRuns API
+  slug: open-azure-logic-apps-workflowruns-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements Workflows API
+  slug: open-azure-logic-apps-workflows-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements WorkflowTriggerHistories API
+  slug: open-azure-logic-apps-workflowtriggerhistories-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements WorkflowTriggers API
+  slug: open-azure-logic-apps-workflowtriggers-api
+- collection_type: open
+  name: LogicManagementClient IntegrationAccountAgreements WorkflowVersions API
+  slug: open-azure-logic-apps-workflowversions-api
 common:
 - group: agent
   title: ''
@@ -443,7 +516,7 @@ plans:
 - name: Azure Logic Apps Plans Pricing
   plan_count: 3
   slug: azure-logic-apps-plans-pricing
-random_paper: 43
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Azure Logic Apps Rate Limits
@@ -490,7 +563,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/screenshots/azure-logic-apps-2026-06-20T172902.png
 security:

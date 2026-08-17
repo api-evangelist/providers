@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,20 +23,24 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-12'
+  score: 51.6
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The HL7 FHIR REST API of the Commure Developer Platform, together with its OpenID Connect / SMART App Launch authentication surface. Covers the FHIR RESTful interactions (read, vread, update, delete, '
   name: Commure FHIR API
   slug: commure-fhir-api
-artifact_total: 5
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Commure FHIR API
+  slug: open-commure-fhir
 common:
 - group: company
   title: ''
@@ -126,6 +130,50 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/commure-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/commure-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/commure-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/commure-mcp.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/commure-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/commure-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/commure-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.commure.com/pricing
+- group: other
+  title: ''
+  type: Resources
+  url: https://www.commure.com/resources
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.commure.com/careers
+- group: other
+  title: ''
+  type: Events
+  url: https://www.commure.com/events
+- group: design
+  title: ''
+  type: RealWorldTesting
+  url: https://www.commure.com/real-world-testing
 - group: start
   title: ''
   type: SignUp
@@ -187,15 +235,27 @@ description: Commure is a San Francisco-based AI-native healthcare technology co
   contract is Commure's public Postman workspace, which publishes a 59-request "Commure FHIR API" collection covering the HL7 FHIR RESTful, terminology and Bulk Data operations plus the OpenID Connect / SMART App Launch authentication endpoints, alongside five clinical-scenario collections. Home market is the United States.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-31'
+mcp_servers:
+- description: ''
+  name: commure-mcp.yml
+  slug: commure-mcpyml
+modified: '2026-08-15'
 name: Commure
 nav: Providers
 network: true
 overview: 'Commure publishes 1 API on the [APIs.io](https://apis.io/) network: FHIR API. Tagged areas include Healthcare, United States, Clinical AI, Ambient AI, and Revenue Cycle Management.
 
 
-  Commure''s developer surface includes API reference, authentication, signup flow, engineering blog, product news, support, and 30 more developer resources.'
-random_paper: 40
+  Commure''s developer surface includes API reference, authentication, sandbox, pricing, signup flow, engineering blog, product news, and 40 more developer resources.'
+plans:
+- name: Commure Plans Pricing
+  plan_count: 0
+  slug: commure-plans-pricing
+random_paper: 15
+rate_limits:
+- limit_count: 0
+  name: Commure Rate Limits
+  slug: commure-rate-limits
 scopes:
 - name: Commure Scopes
   scope_count: 5
@@ -203,13 +263,13 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 49.5
+  delta: 5.3
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 60.5
     contract_quality: 51.5
-    developer_ergonomics: 29.9
-    discoverability: 75.9
+    developer_ergonomics: 45.1
+    discoverability: 87.0
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 44.2
@@ -228,8 +288,8 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -49,11 +49,36 @@ apis:
 - description: The Webhooks API from Snappt — 3 operation(s) for webhooks.
   name: Snappt Webhooks API
   slug: snappt-webhooks-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Snappt Enterprise Api Webhooks
   slug: snappt-enterprise-api-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Snappt Account API
+  slug: open-snappt-account-api
+- collection_type: open
+  name: Snappt Applicant Sessions API
+  slug: open-snappt-applicant-sessions-api
+- collection_type: open
+  name: Snappt Applicants API
+  slug: open-snappt-applicants-api
+- collection_type: open
+  name: Snappt ID Verification API
+  slug: open-snappt-id-verification-api
+- collection_type: open
+  name: Snappt Internal IDV API
+  slug: open-snappt-internal-idv-api
+- collection_type: open
+  name: Snappt Properties API
+  slug: open-snappt-properties-api
+- collection_type: open
+  name: Snappt Webhooks API
+  slug: open-snappt-webhooks-api
 common:
 - group: agent
   title: ''
@@ -210,7 +235,7 @@ overview: 'Snappt publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 62
+random_paper: 66
 score:
   band: strong
   composite: 59.7
@@ -234,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

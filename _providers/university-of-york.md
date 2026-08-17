@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,14 @@ apis:
 - description: The Oai2 API from University of York — 1 operation(s) for oai2.
   name: University of York Oai2 API
   slug: university-of-york-oai2-api
-artifact_total: 14
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: White Rose eTheses Online (OAI-PMH 2.0) Oai2 API
+  slug: open-university-of-york-oai2-api
 common:
 - group: agent
   title: ''
@@ -141,7 +148,7 @@ plans:
 - name: University Of York Plans Pricing
   plan_count: 2
   slug: university-of-york-plans-pricing
-random_paper: 78
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: University Of York Rate Limits
@@ -183,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/screenshots/university-of-york-2026-06-20T200333.png
 security:

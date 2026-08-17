@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -82,14 +82,59 @@ apis:
 - description: The Wallet API from Rocket Pool — 4 operation(s) for wallet.
   name: Rocket Pool Wallet API
   slug: rocket-pool-wallet-api
-artifact_total: 29
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction API
+  slug: open-rocket-pool-auction-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Deposit API
+  slug: open-rocket-pool-deposit-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Megapool API
+  slug: open-rocket-pool-megapool-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Minipool API
+  slug: open-rocket-pool-minipool-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Network API
+  slug: open-rocket-pool-network-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Node API
+  slug: open-rocket-pool-node-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction OracleDAO API
+  slug: open-rocket-pool-oracledao-api
 - collection_type: open
   name: Rocket Pool Protocol API (rocketpool-go)
   slug: open-rocket-pool-protocol
 - collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction ProtocolDAO API
+  slug: open-rocket-pool-protocoldao-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Queue API
+  slug: open-rocket-pool-queue-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Rewards API
+  slug: open-rocket-pool-rewards-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Service API
+  slug: open-rocket-pool-service-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Settings API
+  slug: open-rocket-pool-settings-api
+- collection_type: open
   name: Rocket Pool Smart Node Daemon API
   slug: open-rocket-pool-smart-node
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Tokens API
+  slug: open-rocket-pool-tokens-api
+- collection_type: open
+  name: Rocket Pool Protocol API (rocketpool-go) Auction Wallet API
+  slug: open-rocket-pool-wallet-api
 common:
 - group: agent
   title: ''
@@ -264,7 +309,7 @@ overview: 'Rocket Pool publishes 14 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rocket Pool''s developer surface includes documentation, getting-started guide, and 30 more developer resources.'
-random_paper: 55
+random_paper: 92
 rules:
 - name: Rocket Pool API Rules
   rule_count: 5
@@ -302,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/screenshots/rocket-pool-2026-06-20T193154.png
 security:

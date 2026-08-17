@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ apis:
 - description: Manage widgets (Profile Token).
   name: TagoIO Widgets API
   slug: tago-io-widgets-api
-artifact_total: 57
+artifact_total: 80
 collections:
 - collection_type: postman
   name: TagoIO Access Management API
@@ -173,6 +173,75 @@ collections:
 - collection_type: postman
   name: TagoIO Access Management Widgets API
   slug: postman-tago-io-widgets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TagoIO Access Management API
+  slug: open-tago-io-access-management-api
+- collection_type: open
+  name: TagoIO Access Management Account API
+  slug: open-tago-io-account-api
+- collection_type: open
+  name: TagoIO Access Management Backup API
+  slug: open-tago-io-backup-api
+- collection_type: open
+  name: TagoIO Access Management Configuration Param API
+  slug: open-tago-io-configuration-param-api
+- collection_type: open
+  name: TagoIO Access Management Dashboards API
+  slug: open-tago-io-dashboards-api
+- collection_type: open
+  name: TagoIO Access Management Device Data API
+  slug: open-tago-io-device-data-api
+- collection_type: open
+  name: TagoIO Access Management Device Tokens API
+  slug: open-tago-io-device-tokens-api
+- collection_type: open
+  name: TagoIO Access Management Devices API
+  slug: open-tago-io-devices-api
+- collection_type: open
+  name: TagoIO Access Management Dictionary API
+  slug: open-tago-io-dictionary-api
+- collection_type: open
+  name: TagoIO Access Management Entity API
+  slug: open-tago-io-entity-api
+- collection_type: open
+  name: TagoIO Access Management Entity Data API
+  slug: open-tago-io-entity-data-api
+- collection_type: open
+  name: TagoIO Access Management Files API
+  slug: open-tago-io-files-api
+- collection_type: open
+  name: TagoIO Access Management Immutable Device API
+  slug: open-tago-io-immutable-device-api
+- collection_type: open
+  name: TagoIO Access Management Import/Export API
+  slug: open-tago-io-import-export-api
+- collection_type: open
+  name: TagoIO Access Management Network Ingest API
+  slug: open-tago-io-network-ingest-api
+- collection_type: open
+  name: TagoIO Access Management Notifications API
+  slug: open-tago-io-notifications-api
+- collection_type: open
+  name: TagoIO Access Management Profile API
+  slug: open-tago-io-profile-api
+- collection_type: open
+  name: TagoIO Access Management Statistics / Billing API
+  slug: open-tago-io-statistics-billing-api
+- collection_type: open
+  name: TagoIO Access Management Tago RUN API
+  slug: open-tago-io-tago-run-api
+- collection_type: open
+  name: TagoIO Access Management Upload API
+  slug: open-tago-io-upload-api
+- collection_type: open
+  name: TagoIO Access Management Users API
+  slug: open-tago-io-users-api
+- collection_type: open
+  name: TagoIO Access Management Widgets API
+  slug: open-tago-io-widgets-api
 common:
 - group: build
   title: ''
@@ -308,7 +377,7 @@ plans:
 - name: Tago Io Plans Pricing
   plan_count: 4
   slug: tago-io-plans-pricing
-random_paper: 88
+random_paper: 92
 rate_limits:
 - limit_count: 7
   name: Tago Io Rate Limits
@@ -342,7 +411,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/screenshots/tago-io-2026-06-20T194853.png
 security:

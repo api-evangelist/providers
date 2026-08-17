@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -69,7 +69,38 @@ apis:
 - description: OAuth 2.0 discovery endpoints (JWKS and Authorization Server Metadata)
   name: Archera Well-Known API
   slug: archera-well-known-api
-artifact_total: 16
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Archera.ai Commitment Plans API
+  slug: open-archera-commitment-plans-api
+- collection_type: open
+  name: Archera.ai Commitment Plans Commitments API
+  slug: open-archera-commitments-api
+- collection_type: open
+  name: Archera.ai Commitment Plans Exchanges API
+  slug: open-archera-exchanges-api
+- collection_type: open
+  name: Archera.ai Commitment Plans Metrics API
+  slug: open-archera-metrics-api
+- collection_type: open
+  name: Archera.ai Commitment Plans OAuth API
+  slug: open-archera-oauth-api
+- collection_type: open
+  name: Archera.ai Commitment Plans Orgs API
+  slug: open-archera-orgs-api
+- collection_type: open
+  name: Archera.ai Commitment Plans Resources API
+  slug: open-archera-resources-api
+- collection_type: open
+  name: Archera.ai Commitment Plans Uploads API
+  slug: open-archera-uploads-api
+- collection_type: open
+  name: Archera.ai Commitment Plans Well-Known API
+  slug: open-archera-well-known-api
 common:
 - group: other
   title: ''
@@ -199,7 +230,7 @@ overview: 'Archera publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 6
+random_paper: 130
 scopes:
 - name: Archera Scopes
   scope_count: 4
@@ -228,7 +259,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/screenshots/archera-2026-07-25T201044.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Advertiser-side campaign management and reporting for the Jeeng / OpenWeb Email Monetization platform. Update campaign lines (daily spend goal and CPC/CPM/CPA pricing), transition campaign line and cr
@@ -42,7 +42,17 @@ apis:
 - description: OAuth 2.0 client-credentials token endpoint for the Jeeng / OpenWeb Email Monetization partner APIs, published by Jeeng as its own OpenAPI definition. Tokens are issued by the Microsoft Entra ID (Azur
   name: Jeeng Email Monetization — Authentication
   slug: jeeng-email-monetization-authentication
-artifact_total: 9
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Jeeng Email Monetization — Advertisers API
+  slug: open-jeeng-advertisers
+- collection_type: open
+  name: Jeeng Email Monetization — Authentication (OAuth 2.0 token)
+  slug: open-jeeng-authentication
+- collection_type: open
+  name: Jeeng Email Monetization — Publishers API
+  slug: open-jeeng-publishers
 common:
 - group: company
   title: ''
@@ -165,7 +175,7 @@ plans:
 - name: Jeeng Plans Pricing
   plan_count: 0
   slug: jeeng-plans-pricing
-random_paper: 41
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Jeeng Rate Limits
@@ -178,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: 30.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 54.5
@@ -186,10 +196,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 13.9
+  previous_composite: 44.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/screenshots/jeeng-2026-07-25T223120.png
 security:
 - kind: authentication

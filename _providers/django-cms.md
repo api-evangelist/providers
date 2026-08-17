@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: Plugin type definitions and schema
   name: Django CMS Plugins API
   slug: django-cms-plugins-api
-artifact_total: 15
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: djangocms-rest Breadcrumbs API
+  slug: open-django-cms-breadcrumbs-api
+- collection_type: open
+  name: djangocms-rest Breadcrumbs Health API
+  slug: open-django-cms-health-api
+- collection_type: open
+  name: djangocms-rest Breadcrumbs Languages API
+  slug: open-django-cms-languages-api
+- collection_type: open
+  name: djangocms-rest Breadcrumbs Menus API
+  slug: open-django-cms-menus-api
+- collection_type: open
+  name: djangocms-rest Breadcrumbs Pages API
+  slug: open-django-cms-pages-api
+- collection_type: open
+  name: djangocms-rest Breadcrumbs Placeholders API
+  slug: open-django-cms-placeholders-api
+- collection_type: open
+  name: djangocms-rest Breadcrumbs Plugins API
+  slug: open-django-cms-plugins-api
 common:
 - group: operate
   title: ''
@@ -157,7 +182,7 @@ plans:
 - name: Django Cms Plans Pricing
   plan_count: 3
   slug: django-cms-plans-pricing
-random_paper: 35
+random_paper: 101
 rate_limits:
 - limit_count: 1
   name: Django Cms Rate Limits
@@ -191,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/screenshots/django-cms-2026-06-20T180058.png
 security:

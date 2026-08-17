@@ -15,7 +15,7 @@
      "name": "Bloomreach",
      "slug": "bloomreach",
      "description": "Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-06-20T173521.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png",
      "score": 87.4,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -27,7 +27,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 65.3,
      "agent_band": "agent-ready",
@@ -66,7 +66,7 @@
       "developer_ergonomics": 91.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 70.7,
      "agent_band": "agent-ready",
@@ -104,7 +104,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 58.1,
      "agent_band": "agent-ready",
@@ -143,7 +143,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 50.9,
      "agent_band": "agent-ready",
@@ -182,7 +182,7 @@
       "developer_ergonomics": 100.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 63.5,
      "agent_band": "agent-ready",
@@ -221,7 +221,7 @@
       "developer_ergonomics": 91.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -259,7 +259,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 55.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 67.6,
      "agent_band": "agent-ready",
@@ -285,6 +285,7 @@
      "name": "Postiz",
      "slug": "postiz",
      "description": "Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to list connected channels, upload media, and create, schedule, list, and delete posts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png",
      "score": 74.2,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -296,7 +297,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 65.3,
      "agent_band": "agent-ready",
@@ -334,7 +335,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 58.1,
      "agent_band": "agent-ready",
@@ -373,7 +374,7 @@
       "developer_ergonomics": 82.6,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -411,7 +412,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 67.1,
      "agent_band": "agent-native",
@@ -450,7 +451,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 54.5,
      "agent_band": "agent-ready",
@@ -489,7 +490,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 82.0,
      "agent_band": "agent-native",
@@ -527,7 +528,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 61.3,
      "agent_band": "agent-ready",
@@ -576,7 +577,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 47.3,
      "agent_band": "agent-ready",
@@ -615,7 +616,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -661,7 +662,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -707,7 +708,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 67.6,
      "agent_band": "agent-ready",
@@ -746,7 +747,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -772,6 +773,7 @@
      "name": "Sprout Social",
      "slug": "sprout-social",
      "description": "Sprout Social is a social media management platform with a REST API for publishing posts, monitoring mentions, managing messages, accessing analytics, and reporting across social networks including Instagram, Facebook, LinkedIn, TikTok, YouTube, and X.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/screenshots/sprout-social-2026-08-17T082048.png",
      "score": 63.1,
      "band": "strong",
      "band_label": "Strong",
@@ -783,7 +785,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -822,7 +824,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -861,7 +863,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 56.8,
      "agent_band": "agent-ready",
@@ -899,7 +901,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
@@ -937,7 +939,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 63.3,
      "agent_band": "agent-ready",
@@ -963,6 +965,7 @@
      "name": "Publer",
      "slug": "publer",
      "description": "Publer is a social-media scheduling and management platform for planning, creating, publishing and analyzing content across Facebook, Instagram, X/Twitter, LinkedIn, TikTok, YouTube, Pinterest, Threads, Bluesky, Mastodon, Google Business Profiles, WordPress and Telegram. The Publer API (v1) is a RESTful JSON interface at https://app.publer.com/api/v1 covering 21 operations: schedule and publish posts, update and delete them, manage connected social accounts and workspaces, upload and list media, resolve asynchronous jobs, and read analytics including post insights, hashtag performance, best times to post and competitor comparison. Authentication is an API key sent as Authorization: Bearer-API with a Publer-Workspace-Id header, scoped per key. Publer also ships a first-party hosted MCP server in beta. API access is limited to Enterprise plan users, Business plan users in good standing, and Top Ambassadors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/screenshots/publer-2026-08-17T081403.png",
      "score": 61.5,
      "band": "strong",
      "band_label": "Strong",
@@ -974,7 +977,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 53.2,
      "agent_band": "agent-ready",
@@ -1001,6 +1004,7 @@
      "name": "TheBrief",
      "slug": "thebrief",
      "description": "The Brief (formerly Creatopy) is an AI-powered advertising creation platform that helps brands and agencies discover, create, launch, and optimize ads at scale. Its Ad Studio, AI agents (Discover, Create, Optimize), and native ad server generate on-brand creatives, resize a single design into 50+ ad formats, publish directly to networks like Meta, Google Ads, CM360, DV360 and Veeva, and optimize campaign performance with data-backed recommendations. Founded in 2021 and based in Romania, The Brief is a portfolio company of Point Nine. It ships a documented Public API on two co-equal surfaces — a REST API at https://api.thebrief.ai/v1 and a single GraphQL endpoint at https://graphql.thebrief.ai/public whose 186-type schema is readable by anonymous introspection — covering designs and templates, brand kits, projects and folders, exports and creatives, ad serving and ad-tag reporting, team users and roles, credits, and team webhooks. Authentication is a JWT bearer token minted from a clientId/clientSecret pair; the same signed token powers the App Integration flow that embeds the Ad Studio editor inside a customer's own product. No OpenAPI is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/screenshots/thebrief-2026-08-17T082340.png",
      "score": 61.3,
      "band": "strong",
      "band_label": "Strong",
@@ -1012,7 +1016,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -1050,7 +1054,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1095,7 +1099,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 52.3,
      "agent_band": "agent-ready",
@@ -1134,7 +1138,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
@@ -1161,6 +1165,7 @@
      "name": "Typeface",
      "slug": "typeface",
      "description": "Typeface is an enterprise marketing AI platform that orchestrates AI agents, brand intelligence, and workflows to create personalized, on-brand campaigns at scale. Its developer platform exposes REST APIs (bearer JWT via application credentials) for identity discovery, teams, projects, brand kits, audiences, layouts, assets, tags, content workflows, document search, and asynchronous batch content generation, plus outbound/inbound webhooks, a hosted MCP server with OAuth 2.1, an A2A agent surface, SCIM 2.0 provisioning, and 30+ marketing-stack connectors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/screenshots/typeface-2026-08-17T082511.png",
      "score": 60.1,
      "band": "strong",
      "band_label": "Strong",
@@ -1172,7 +1177,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 54.7,
      "agent_band": "agent-ready",
@@ -1210,7 +1215,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 49.5,
      "agent_band": "agent-ready",
@@ -1249,7 +1254,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 59.2,
      "agent_band": "agent-ready",
@@ -1276,6 +1281,7 @@
      "name": "Permutive",
      "slug": "permutive",
      "description": "Permutive is a predictive data collaboration and activation platform for premium publishers, advertisers and agencies. Its platform spans a Data Management Platform, a Data Clean Room for privacy-safe collaboration with 150+ premium publishers, AI-curated audiences, and the Halo agentic suite that scales direct buying. The developer platform exposes six REST APIs — Events, Identity, Contextual, Custom Cohort Segmentation, Cohorts and Taxonomy — plus web, mobile and CTV SDKs, an anonymous documentation Model Context Protocol server, and an invitation-only audience-intelligence MCP server that makes cohort discovery, reach measurement and audience comparison available to AI agents. Authentication is a workspace-scoped API key; every call is bounded by the workspace that owns the key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/screenshots/permutive-2026-08-17T081200.png",
      "score": 59.3,
      "band": "strong",
      "band_label": "Strong",
@@ -1287,7 +1293,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 66.9,
      "agent_band": "agent-ready",
@@ -1314,6 +1320,7 @@
      "name": "Socialbakers",
      "slug": "socialbakers",
      "description": "Socialbakers was a pioneering social media analytics and marketing platform (founded 2008 in Prague) that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat. In 2021 Socialbakers was acquired by Astute and rebranded to Emplifi, a unified social customer experience platform combining social marketing, commerce and care. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png",
      "score": 58.3,
      "band": "strong",
      "band_label": "Strong",
@@ -1325,7 +1332,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 32.2,
      "agent_band": "agent-aware",
@@ -1351,6 +1358,7 @@
      "name": "Sitefire",
      "slug": "sitefire",
      "description": "Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked topics, diagnoses why content is or isn't cited using its 4C content classification, and generates actionable briefings plus AI-optimized articles that publish directly to CMS platforms such as Webflow and Framer. Sitefire connects to analytics (GA4, Cloudflare, AWS CloudFront) to measure AI referral and crawler traffic, and exposes its data and content workflows to AI agents through an official hosted MCP server (Spark) and a published Agent Skills bundle. A small public, unauthenticated REST API books product demos. Sitefire is a Y Combinator (W2026) company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/screenshots/sitefire-2026-08-17T081906.png",
      "score": 58.2,
      "band": "strong",
      "band_label": "Strong",
@@ -1362,7 +1370,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 65.3,
      "agent_band": "agent-ready",
@@ -1401,7 +1409,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 57.2,
      "agent_band": "agent-ready",
@@ -1427,6 +1435,7 @@
      "name": "Wideo",
      "slug": "wideo",
      "description": "Wideo is an online video creation and automation platform that lets teams produce animated videos, presentations, and marketing content from drag-and-drop templates and AI tools. For developers, Wideo publishes a Video Automation API that renders finished MP4 videos at scale: a rendering batch is created from a reusable template plus a list of per-video variable objects, rendering runs asynchronously, and completion is delivered via a webhook callback and pollable batch status returning signed video and preview URLs. A legacy replace/encode flow supports single-video generation. Wideo also offers a white-label video API for embedding video creation into other products. Wideo was surfaced as a portfolio company of 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/screenshots/wideo-2026-08-17T082920.png",
      "score": 57.9,
      "band": "strong",
      "band_label": "Strong",
@@ -1438,7 +1447,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 45.7,
      "agent_band": "agent-ready",
@@ -1465,7 +1474,7 @@
      "name": "Hashnode",
      "slug": "hashnode",
      "description": "Hashnode is a blogging platform for developers and engineering teams, offering publications on a custom domain, a headless CMS mode, and a public GraphQL API covering posts, drafts, publications, users, tags, series, comments and documentation projects. The API is a single GraphQL endpoint with anonymous introspection; authentication is a Personal Access Token in the Authorization header, with no OAuth and no scopes. Since 13 May 2026 the API has been a paid feature - anonymous public reads still work, but every publication-scoped read and every write mutation requires the target publication to hold an active Hashnode Pro plan. Hashnode publishes no OpenAPI and no MCP server, shipping an official Agent Skill instead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/screenshots/hashnode-2026-06-20T182534.png",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/screenshots/hashnode-2026-08-17T083521.png",
      "score": 57.6,
      "band": "strong",
      "band_label": "Strong",
@@ -1477,7 +1486,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -1503,6 +1512,7 @@
      "name": "CI HUB",
      "slug": "ci-hub",
      "description": "CI HUB (CI HUB GmbH, Berlin) builds the connector layer between digital asset repositories and the applications creative and marketing teams actually work in. Its Connector plugs Adobe Creative Cloud, Microsoft 365, Google Workspace, Figma, Sketch, Canva, WordPress, SharePoint, Salesforce and Asana into more than 60 DAM, MAM, PIM, CMS, stock and cloud-storage systems through one uniform panel, so an asset is placed, relinked and version-checked without leaving the design or document. For developers CI HUB publishes two SDKs at developer.ci-hub.com. The Access SDK is an HTTP API under /api/v1 that lets a partner platform embed that same connectivity: a partner backend signs an RS256 JWT, exchanges it for a CI HUB session, connects an end user to a DAM provider, then browses, searches and reads assets over one contract regardless of which DAM is behind it. The Integration SDK runs the other direction, letting a DAM, PIM or storage vendor translate its own API into CI HUB's handler format and appear in every CI HUB connector. CI HUB also operates a hosted MCP server (mcp.ci-hub.com, marketed as the Bright AI Connector) that exposes governed, permission-mapped DAM search and asset operations to ChatGPT, Claude, Gemini, Microsoft Copilot and any other MCP-compatible client.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/screenshots/ci-hub-2026-08-17T080817.png",
      "score": 56.9,
      "band": "strong",
      "band_label": "Strong",
@@ -1514,7 +1524,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 34.2,
      "agent_band": "agent-ready",
@@ -1540,6 +1550,7 @@
      "name": "Bloom",
      "slug": "trybloom",
      "description": "Bloom (trybloom.ai) is the brand layer for agents — a Y Combinator (Spring 2026) company founded by Ray Fitzgerald that turns a brand into infrastructure any agent, app, or platform can call. Point Bloom at a website or Instagram profile and it ingests the brand — logo, palette, type, tone, visual DNA — then generates on-brand images (edit, resize, background removal, vectorize to SVG, 2K/4K, variants) through a web app, a credit-priced REST API with a live OpenAPI 3.1 contract, and an official hosted MCP server with OAuth sign-in for Claude, ChatGPT, Cursor, and other agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/screenshots/trybloom-2026-08-17T082456.png",
      "score": 56.6,
      "band": "strong",
      "band_label": "Strong",
@@ -1551,7 +1562,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 46.2,
      "agent_band": "agent-ready",
@@ -1577,6 +1588,7 @@
      "name": "Leadpages",
      "slug": "leadpages",
      "description": "Leadpages is an AI web platform with built-in conversion optimization, part of the Redbrick family of brands. It builds and hosts landing pages, multi-page sites and blogs that improve themselves through A/B testing, Smart Traffic variant routing, click and scroll heatmaps, dynamic text replacement and auto-personalization, with no traffic caps on any plan. For developers and agents it publishes a REST API covering pages, sites, assets, blogs, analytics, forms, custom domains and brand kits; a hosted Model Context Protocol server exposing 47 tools over OAuth 2.0 with PKCE; webhooks for page-publish, lead-capture and form-submission events; and an A2A agent card describing a nine-agent campaign team. Founded 2012 and rebuilt from scratch in 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/screenshots/leadpages-2026-08-17T081052.png",
      "score": 56.2,
      "band": "strong",
      "band_label": "Strong",
@@ -1588,7 +1600,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 48.9,
      "agent_band": "agent-ready",
@@ -1637,7 +1649,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 60.8,
      "agent_band": "agent-ready",
@@ -1664,6 +1676,7 @@
      "name": "Ceros",
      "slug": "ceros",
      "description": "Ceros is an experiential content platform used by marketing, design and agency teams to build interactive, no-code web content — microsites, landing pages, interactive reports, infographics, pitch decks and embeddable experiences — in a browser design studio and publish them to a CDN. Its developer surface is three separate things. A small read-only REST Public API at rest.ceros.com walks accounts, folders, experiences and embed codes behind a bearer API key, versioned by dated snapshots selected with the x-ceros-api-version header. A browser-side Flex Experience SDK, delivered as an ES module from the Ceros CDN, scripts a published experience at runtime — setting text, controlling media and states, toggling visibility and navigating pages. And a public oEmbed 1.0 endpoint on view.ceros.com, together with first-party connectors for Adobe Experience Manager, Contentful, Optimizely and WordPress, places an experience inside another platform. Ceros also operates MarkUp, its visual commenting and collaboration product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/screenshots/ceros-2026-08-17T080810.png",
      "score": 52.7,
      "band": "developing",
      "band_label": "Developing",
@@ -1675,7 +1688,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -1701,6 +1714,7 @@
      "name": "Voyant.io",
      "slug": "voyant",
      "description": "Voyant.io is a brand-context platform that turns a company's positioning, messaging, personas, products, pricing, and competitive intelligence into structured \"context streams\" that any AI tool or agent can read at generation time, so AI-produced copy stays on-message instead of drifting or hallucinating claims. The product is delivered as a large FastAPI-based REST API (783 operations across 79 tags covering context streams, RAG search, messaging frameworks, target graph, telemetry, social signal harvesting, competitive intelligence, and content generation), a hosted MCP server exposing 15 tools to agent clients, and a set of published agent-governance files (`/.well-known/llms.txt`, `/.well-known/context.txt`) that declare training permissions and inference-control rules for the domain itself. Marketed to B2B GTM teams scaling from $5M to $100M ARR. Pre-seed, founded by Andrew M. Brown; the API runs under the internal name \"VoiceForge\".",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/screenshots/voyant-2026-08-17T082904.png",
      "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
@@ -1712,7 +1726,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 55.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 72.1,
      "agent_band": "agent-ready",
@@ -1751,7 +1765,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 40.8,
      "agent_band": "agent-ready",
@@ -1790,7 +1804,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
@@ -1828,7 +1842,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 56.8,
      "agent_band": "agent-ready",
@@ -1867,7 +1881,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
@@ -1894,6 +1908,7 @@
      "name": "Spredfast",
      "slug": "spredfast",
      "description": "Spredfast was an Austin-based social media marketing and management platform providing social publishing, engagement, listening, and analytics for enterprise brands and agencies. Backed by Battery Ventures, it acquired Mass Relevance in 2013, merged with Lithium Technologies in 2018, and the combined company rebranded as Khoros in 2019; the Spredfast product line is delivered today as Khoros Marketing and documented at developer.khoros.com. The API surface still carries the Spredfast name in production — the host is api.spredfast.com, OAuth 2.0 runs on login.spredfast.com, request headers use the x-sf- vendor prefix, and the Conversations v1 contract is still licensed as \"Spredfast API Terms of Use\". Nine OpenAPI documents covering 149 operations are published through the Khoros developer center: Conversations v2 and v1, an asynchronous Analytics Reporting API, a Notifications (Events) API with eleven documented event types, CRM registration, Label Sets, token introspection, the Experiences Stream API inherited from Mass Relevance, and an inverted Custom CRM contract the customer implements. The original devcenter.spredfast.com developer portal is dead and spredfast.com returns 503.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png",
      "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
@@ -1905,7 +1920,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 51.8,
      "agent_band": "agent-ready",
@@ -1944,7 +1959,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 55.4,
      "agent_band": "agent-ready",
@@ -1981,7 +1996,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2015,6 +2030,7 @@
      "name": "Ciloo",
      "slug": "ciloo",
      "description": "Ciloo is a Rotterdam-headquartered global platform for branded products and promotional merchandise. Enterprises run a branded Ciloo store — business cards, apparel, stationery, signage, corporate gifts and sales collateral — and every order placed in it is produced on demand by a vetted production partner near the recipient, which Ciloo positions as cutting cost, waste and shipping distance while keeping brand control central. The platform is used by manufacturing, medical-device, professional- services and franchise organisations, and integrates with digital asset management (Frontify, Bynder, Canto, Aprimo, Papirfly, Brandfolder, Marvia), procurement and ERP (SAP Ariba, S/4HANA, Proactis, Proqura, Exact), SSO, and WooCommerce. Ciloo documents two APIs on its own knowledge centre at api.cilooprint.com: a per-brand-store Cart API secured with OAuth 1.0a, and a bidirectional Printer API integration that pushes orders to production partners and receives production and shipping status callbacks in return.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/screenshots/ciloo-2026-08-17T080820.png",
      "score": 47.1,
      "band": "developing",
      "band_label": "Developing",
@@ -2026,7 +2042,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 59.0,
      "agent_band": "agent-ready",
@@ -2052,6 +2068,7 @@
      "name": "Superscale",
      "slug": "superscale",
      "description": "Superscale is an autonomous AI marketing agent for performance advertising. A user gives it a product URL (App Store, Shopify, website, or Lovable project) and a brief; the agent then researches competitor ads in the niche, writes copy and scripts, produces AI UGC videos and static image ads, adds captions and finishing touches, resizes every asset to the required aspect ratios, and — where ad accounts are connected — builds and publishes campaigns on Meta, Google and TikTok behind a blocking human approval step. It serves mobile-app marketers, e-commerce brands, SaaS companies, agencies and growth teams. Superscale is Europe-based and backed by Interface Capital, S16VC, Creandum, Lovable and ElevenLabs. Its machine-readable surface is agent-native rather than REST: an OAuth-gated Model Context Protocol server at mcp.superscale.ai (included from the Pro plan upward), an anonymous documentation MCP server, a conformant A2A agent card, and a published Agent Skill — with no OpenAPI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/screenshots/superscale-2026-08-17T082204.png",
      "score": 46.8,
      "band": "developing",
      "band_label": "Developing",
@@ -2063,7 +2080,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
@@ -2101,7 +2118,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 44.8,
      "agent_band": "agent-ready",
@@ -2140,7 +2157,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
@@ -2178,7 +2195,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -2217,7 +2234,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -2256,7 +2273,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -2283,6 +2300,7 @@
      "name": "Trend",
      "slug": "trend",
      "description": "Trend (branded \"Trend by soona\") is a user-generated content (UGC) platform that connects brands with a network of vetted independent creators to produce custom photo and video content — product and lifestyle photography, testimonial, unboxing, and product-in-action videos — optimized for TikTok, Instagram, Facebook, YouTube, and Amazon. Brands post a creative brief, hire creators from a network of 3,700+, and receive full licensing and distribution rights to the delivered content. Pricing is credit-based with no subscriptions or contracts. Trend is part of soona.co. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network. Trend publishes no developer program or developer portal, but the platform's own NestJS backend at api.trend.io serves a public, machine-readable OpenAPI 3.0 document at /docs-json covering 124 operations across brands, campaigns, creators, partnerships, content submission, messaging, shipments, AI image generation, and Stripe credit purchases. The Swagger UI at /docs is password-protected; the specification behind it is not.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trend/refs/heads/main/screenshots/trend-2026-08-17T082448.png",
      "score": 43.7,
      "band": "developing",
      "band_label": "Developing",
@@ -2294,7 +2312,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2339,7 +2357,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -2387,7 +2405,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -2426,7 +2444,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 47.7,
      "agent_band": "agent-native",
@@ -2465,7 +2483,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
@@ -2504,7 +2522,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -2542,7 +2560,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -2581,7 +2599,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -2619,7 +2637,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 31.1,
      "agent_band": "agent-aware",
@@ -2657,7 +2675,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -2695,7 +2713,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -2732,7 +2750,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -2770,7 +2788,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -2809,7 +2827,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 43.2,
      "agent_band": "agent-ready",
@@ -2858,7 +2876,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -2896,7 +2914,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -2933,7 +2951,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -2970,7 +2988,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -3007,7 +3025,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3046,7 +3064,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3083,7 +3101,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3121,7 +3139,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -3158,7 +3176,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3196,7 +3214,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3234,7 +3252,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3272,7 +3290,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -3310,7 +3328,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3349,7 +3367,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -3387,7 +3405,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3425,7 +3443,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3463,7 +3481,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3502,7 +3520,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 5.9,
      "agent_band": "human-only",
@@ -3540,7 +3558,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3578,7 +3596,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3615,7 +3633,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3653,7 +3671,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -3691,7 +3709,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 5.9,
      "agent_band": "human-only",
@@ -3729,7 +3747,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -3767,7 +3785,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3811,7 +3829,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -3850,7 +3868,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3888,7 +3906,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -3926,7 +3944,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 15.8,
      "agent_band": "agent-aware",
@@ -3964,7 +3982,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4002,7 +4020,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4049,7 +4067,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4087,7 +4105,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4126,7 +4144,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -4171,7 +4189,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4209,7 +4227,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -4248,7 +4266,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 2.7,
      "agent_band": "human-only",
@@ -4286,7 +4304,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4325,7 +4343,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4364,7 +4382,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4402,7 +4420,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-14",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4439,7 +4457,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4478,7 +4496,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-13",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",

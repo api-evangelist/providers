@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,11 +69,44 @@ apis:
 - description: User weight history
   name: fatsecret Weight Tracking API
   slug: fatsecret-weight-tracking-api
-artifact_total: 22
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: fatsecret Exercise Diary API
+  slug: open-fatsecret-exercise-diary-api
+- collection_type: open
+  name: fatsecret Food Diary API
+  slug: open-fatsecret-food-diary-api
+- collection_type: open
+  name: fatsecret Foods API
+  slug: open-fatsecret-foods-api
+- collection_type: open
+  name: fatsecret Image Recognition API
+  slug: open-fatsecret-image-recognition-api
+- collection_type: open
+  name: fatsecret Natural Language Processing API
+  slug: open-fatsecret-natural-language-processing-api
 - collection_type: open
   name: fatsecret Platform API
   slug: open-fatsecret-platform
+- collection_type: open
+  name: fatsecret Profile Foods API
+  slug: open-fatsecret-profile-foods-api
+- collection_type: open
+  name: fatsecret Profile Meals API
+  slug: open-fatsecret-profile-meals-api
+- collection_type: open
+  name: fatsecret Recipes API
+  slug: open-fatsecret-recipes-api
+- collection_type: open
+  name: fatsecret Reference API
+  slug: open-fatsecret-reference-api
+- collection_type: open
+  name: fatsecret Weight Tracking API
+  slug: open-fatsecret-weight-tracking-api
 common:
 - group: agent
   title: ''
@@ -248,7 +281,7 @@ plans:
 - name: Fatsecret Plans Pricing
   plan_count: 3
   slug: fatsecret-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Fatsecret Rate Limits
@@ -270,7 +303,7 @@ scopes:
 score:
   band: strong
   composite: 58.9
-  delta: 18.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.7
@@ -278,7 +311,7 @@ score:
     discoverability: 92.6
     governance: 79.2
     operational_transparency: 13.2
-  previous_composite: 40.8
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -293,8 +326,8 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/screenshots/fatsecret-2026-06-20T181056.png
 security:
 - kind: authentication

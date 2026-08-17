@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Shelby.tv
 nav: Providers
 network: true
 overview: Shelby.tv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social, Video Discovery, and Media.
-random_paper: 41
+random_paper: 136
 score:
   band: minimal
   composite: 5.0
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

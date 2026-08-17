@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -102,7 +102,7 @@ apis:
 - description: 'The #X Amz Target=MediaStore 20170901.UntagResource API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.untagresource.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.UntagResource API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-untagresource-api
-artifact_total: 308
+artifact_total: 330
 collections:
 - collection_type: postman
   name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer API'
@@ -167,6 +167,72 @@ collections:
 - collection_type: postman
   name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.UntagResource API'
   slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-untagresource-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-createcontainer-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteContainer API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-deletecontainer-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteContainerPolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-deletecontainerpolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteCorsPolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-deletecorspolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteLifecyclePolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-deletelifecyclepolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteMetricPolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-deletemetricpolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DescribeContainer API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-describecontainer-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.GetContainerPolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-getcontainerpolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.GetCorsPolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-getcorspolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.GetLifecyclePolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-getlifecyclepolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.GetMetricPolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-getmetricpolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.ListContainers API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-listcontainers-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.ListTagsForResource API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-listtagsforresource-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.PutContainerPolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-putcontainerpolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.PutCorsPolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-putcorspolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.PutLifecyclePolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-putlifecyclepolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.PutMetricPolicy API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-putmetricpolicy-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.StartAccessLogging API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-startaccesslogging-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.StopAccessLogging API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-stopaccesslogging-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.TagResource API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-tagresource-api
+- collection_type: open
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.UntagResource API'
+  slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-untagresource-api
 common:
 - group: build
   title: ''
@@ -1024,7 +1090,7 @@ plans:
 - name: Amazon Mediastore Plans Pricing
   plan_count: 3
   slug: amazon-mediastore-plans-pricing
-random_paper: 80
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Amazon Mediastore Rate Limits
@@ -1066,7 +1132,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/screenshots/amazon-mediastore-2026-06-20T171740.png
 security:

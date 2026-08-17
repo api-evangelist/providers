@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,8 +69,29 @@ apis:
 - description: The Write API from QuestDB — 1 operation(s) for write.
   name: QuestDB Write API
   slug: questdb-write-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QuestDB HTTP REST Chk API
+  slug: open-questdb-chk-api
+- collection_type: open
+  name: QuestDB HTTP REST Chk Exec API
+  slug: open-questdb-exec-api
+- collection_type: open
+  name: QuestDB HTTP REST Chk Exp API
+  slug: open-questdb-exp-api
+- collection_type: open
+  name: QuestDB HTTP REST Chk Imp API
+  slug: open-questdb-imp-api
+- collection_type: open
+  name: QuestDB HTTP REST Chk Settings API
+  slug: open-questdb-settings-api
+- collection_type: open
+  name: QuestDB HTTP REST Chk Write API
+  slug: open-questdb-write-api
 - collection_type: open
   name: QuestDB HTTP REST API
   slug: open-questdb
@@ -151,7 +172,7 @@ plans:
 - name: Questdb Plans Pricing
   plan_count: 4
   slug: questdb-plans-pricing
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Questdb Rate Limits
@@ -176,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/screenshots/questdb-2026-06-20T192429.png
 security:

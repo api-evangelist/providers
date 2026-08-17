@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -84,7 +84,56 @@ apis:
 - description: The symplectic API from University of the Witwatersrand — 5 operation(s) for symplectic.
   name: University of the Witwatersrand symplectic API
   slug: university-of-the-witwatersrand-symplectic-api
-artifact_total: 32
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figshare altmetric API
+  slug: open-university-of-the-witwatersrand-altmetric-api
+- collection_type: open
+  name: Figshare altmetric articles API
+  slug: open-university-of-the-witwatersrand-articles-api
+- collection_type: open
+  name: Figshare altmetric authors API
+  slug: open-university-of-the-witwatersrand-authors-api
+- collection_type: open
+  name: Figshare altmetric collections API
+  slug: open-university-of-the-witwatersrand-collections-api
+- collection_type: open
+  name: Figshare altmetric Communities API
+  slug: open-university-of-the-witwatersrand-communities-api
+- collection_type: open
+  name: Figshare altmetric Discovery API
+  slug: open-university-of-the-witwatersrand-discovery-api
+- collection_type: open
+  name: Figshare altmetric institutions API
+  slug: open-university-of-the-witwatersrand-institutions-api
+- collection_type: open
+  name: Figshare altmetric Items API
+  slug: open-university-of-the-witwatersrand-items-api
+- collection_type: open
+  name: Figshare altmetric oauth API
+  slug: open-university-of-the-witwatersrand-oauth-api
+- collection_type: open
+  name: Figshare altmetric other API
+  slug: open-university-of-the-witwatersrand-other-api
+- collection_type: open
+  name: Figshare altmetric profiles API
+  slug: open-university-of-the-witwatersrand-profiles-api
+- collection_type: open
+  name: Figshare altmetric projects API
+  slug: open-university-of-the-witwatersrand-projects-api
+- collection_type: open
+  name: Figshare altmetric Request API
+  slug: open-university-of-the-witwatersrand-request-api
+- collection_type: open
+  name: Figshare altmetric Root API
+  slug: open-university-of-the-witwatersrand-root-api
+- collection_type: open
+  name: Figshare altmetric symplectic API
+  slug: open-university-of-the-witwatersrand-symplectic-api
 common:
 - group: agent
   title: ''
@@ -198,7 +247,7 @@ plans:
 - name: University Of The Witwatersrand Plans Pricing
   plan_count: 2
   slug: university-of-the-witwatersrand-plans-pricing
-random_paper: 94
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: University Of The Witwatersrand Rate Limits
@@ -251,7 +300,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

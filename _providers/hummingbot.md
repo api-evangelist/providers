@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: 'The Hummingbot API is a FastAPI backend service (default port 8000) that orchestrates multiple trading bots and exposes REST routers for accounts and exchange credentials, trading (orders, positions, '
@@ -83,7 +83,59 @@ apis:
 - description: Wallet management endpoints
   name: Hummingbot /wallet API
   slug: hummingbot-wallet-api
-artifact_total: 21
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /chain/ethereum API
+  slug: open-hummingbot-chain-ethereum-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /chain/solana API
+  slug: open-hummingbot-chain-solana-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /config API
+  slug: open-hummingbot-config-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /connector/0x API
+  slug: open-hummingbot-connector-0x-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /connector/jupiter API
+  slug: open-hummingbot-connector-jupiter-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /connector/meteora API
+  slug: open-hummingbot-connector-meteora-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /connector/orca API
+  slug: open-hummingbot-connector-orca-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /connector/pancakeswap API
+  slug: open-hummingbot-connector-pancakeswap-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /connector/pancakeswap-sol API
+  slug: open-hummingbot-connector-pancakeswap-sol-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /connector/raydium API
+  slug: open-hummingbot-connector-raydium-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /connector/uniswap API
+  slug: open-hummingbot-connector-uniswap-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /pools API
+  slug: open-hummingbot-pools-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /tokens API
+  slug: open-hummingbot-tokens-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /trading/clmm API
+  slug: open-hummingbot-trading-clmm-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /trading/swap API
+  slug: open-hummingbot-trading-swap-api
+- collection_type: open
+  name: Hummingbot Gateway /chain/ethereum /chain/ethereum /wallet API
+  slug: open-hummingbot-wallet-api
 common:
 - group: other
   title: ''
@@ -201,7 +253,7 @@ overview: 'Hummingbot publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Hummingbot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 2
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Hummingbot Rate Limits
@@ -234,7 +286,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/screenshots/hummingbot-2026-07-25T221727.png
 security:

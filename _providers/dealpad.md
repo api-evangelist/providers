@@ -1,15 +1,17 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Requires approval
   onboarding: approval
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
-  trial: false
+  source:
+  - https://www.dealpad.io/pricing
+  - https://www.dealpad.io/request-demo
+  trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +24,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 6.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -55,34 +57,76 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/dealpad-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dealpad-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dealpad-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dealpad-lifecycle.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/dealpad-io/
+coverage:
+  checked: '2026-08-13'
+  detail: Dealpad sells "API integrations" as a line item on its $2,999/month Large tier behind a "Talk to our Enterprise Team" button, and publishes no reference, spec, or developer page anywhere — its only API is a session-authenticated /apiv1/ application backend that answers anonymous callers with HTTP 403.
+  evidence:
+  - status: 200
+    url: https://www.dealpad.io/pricing
+  - status: 403
+    url: https://api.dealpad.io/apiv1/c/userLoad
+  - status: 404
+    url: https://www.dealpad.io/openapi.json
+  - status: 404
+    url: https://api.dealpad.io/openapi.json
+  - status: 404
+    url: https://www.dealpad.io/llms.txt
+  - status: 526
+    url: https://app.dealpad.io/
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
-description: Dealpad is an AI-powered buyer-enablement and digital-sales-room platform for B2B sales teams. It centralizes the buyer and seller relationship into shared digital sales rooms, mutual action plans, and curated content, then layers "Sales Mind AI" predictive insight over each opportunity to help sellers progress complex, multi-stakeholder deals faster. Dealpad integrates with major CRMs including Salesforce, HubSpot, and Zoho, and targets sales leaders, account executives, and enterprise revenue teams. Added to the API Evangelist network as a portfolio company of 500 Global. Dealpad does not currently publish a public developer API, OpenAPI definition, or developer portal.
+description: 'Dealpad is an AI-powered buyer-enablement and digital-sales-room platform for B2B sales teams. It centralizes the buyer and seller relationship into shared digital sales rooms, mutual action plans, and curated content, then layers "Sales Mind AI" predictive insight over each opportunity to help sellers progress complex, multi-stakeholder deals faster. Dealpad integrates with major CRMs including Salesforce, HubSpot, and Zoho, and targets sales leaders, account executives, and enterprise revenue teams. Added to the API Evangelist network as a portfolio company of 500 Global. Dealpad publishes no public developer API, OpenAPI definition, developer portal, SDK, or webhook catalog: "API integrations" is sold as a feature of the Large enterprise tier (from $2,999/month) behind a talk-to-sales gate, so the contract is not readable without a commercial conversation.'
 image: https://www.dealpad.io/e45464bfae270d5d26cf.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Dealpad
 nav: Providers
 network: true
 overview: 'Dealpad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Enablement, Buyer Enablement, Digital Sales Room, and Sales.
 
 
-  Dealpad''s developer surface includes pricing, signup flow, and 4 more developer resources.'
-random_paper: 115
+  Dealpad''s developer surface includes pricing, signup flow, and 8 more developer resources.'
+plans:
+- name: Dealpad Plans Pricing
+  plan_count: 3
+  slug: dealpad-plans-pricing
+random_paper: 119
+rate_limits:
+- limit_count: 0
+  name: Dealpad Rate Limits
+  slug: dealpad-rate-limits
 score:
-  band: minimal
-  composite: 12.6
-  delta: 0.0
+  band: emerging
+  composite: 20.0
+  delta: 7.4
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 65.8
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealpad/refs/heads/main/screenshots/dealpad-2026-07-25T211512.png
 security:
 - kind: domain-security

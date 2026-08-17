@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,8 +57,14 @@ apis:
 - description: The Subgraphs API from The Graph — 2 operation(s) for subgraphs.
   name: The Graph Subgraphs API
   slug: the-graph-subgraphs-api
-artifact_total: 15
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Graph Gateway ( GraphQL) Subgraphs API
+  slug: open-the-graph-subgraphs-api
 - collection_type: open
   name: The Graph Gateway (Subgraphs GraphQL)
   slug: open-the-graph
@@ -131,7 +137,7 @@ plans:
 - name: The Graph Plans Pricing
   plan_count: 3
   slug: the-graph-plans-pricing
-random_paper: 56
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: The Graph Rate Limits
@@ -156,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-graph/refs/heads/main/screenshots/the-graph-2026-06-20T195224.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Runs API from ParseHub — 3 operation(s) for runs.
   name: ParseHub Runs API
   slug: parsehub-runs-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ParseHub Projects API
+  slug: open-parsehub-projects-api
+- collection_type: open
+  name: ParseHub Projects Runs API
+  slug: open-parsehub-runs-api
 - collection_type: open
   name: ParseHub API
   slug: open-parsehub
@@ -103,7 +112,7 @@ plans:
 - name: Parsehub Plans Pricing
   plan_count: 3
   slug: parsehub-plans-pricing
-random_paper: 18
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Parsehub Rate Limits
@@ -128,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/screenshots/parsehub-2026-06-20T191423.png
 security:

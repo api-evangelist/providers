@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,11 +60,32 @@ apis:
 - description: Value mapping table management.
   name: Sandbox Banking Value Mappings API
   slug: sandbox-banking-value-mappings-api
-artifact_total: 21
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sandbox Banking Glyue Integration Gateway Adapters API
+  slug: open-sandbox-banking-adapters-api
+- collection_type: open
+  name: Sandbox Banking Glyue Integration Gateway Adapters Field Mappings API
+  slug: open-sandbox-banking-field-mappings-api
 - collection_type: open
   name: Sandbox Banking Glyue Integration Gateway API
   slug: open-sandbox-banking-glyue
+- collection_type: open
+  name: Sandbox Banking Glyue Integration Gateway Adapters Integrations API
+  slug: open-sandbox-banking-integrations-api
+- collection_type: open
+  name: Sandbox Banking Glyue Integration Gateway Adapters Run History API
+  slug: open-sandbox-banking-run-history-api
+- collection_type: open
+  name: Sandbox Banking Glyue Integration Gateway Adapters Service Requests API
+  slug: open-sandbox-banking-service-requests-api
+- collection_type: open
+  name: Sandbox Banking Glyue Integration Gateway Adapters Value Mappings API
+  slug: open-sandbox-banking-value-mappings-api
 common:
 - group: agent
   title: ''
@@ -173,7 +194,7 @@ plans:
 - name: Sandbox Banking Plans Pricing
   plan_count: 3
   slug: sandbox-banking-plans-pricing
-random_paper: 86
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Sandbox Banking Rate Limits
@@ -221,7 +242,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/screenshots/sandbox-banking-2026-06-20T193408.png
 security:

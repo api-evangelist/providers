@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Endpoints to operate on [Depots](/docs/models/depot) resources. This resource is currently read-only on the API.
@@ -64,11 +64,48 @@ apis:
 - description: Endpoints to operate on [Unassigned Stop](/docs/models/unassignedStop) resources.
   name: Circuit Unassigned Stops API
   slug: circuit-unassigned-stops-api
-artifact_total: 16
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Circuit Webhooks
   slug: circuit-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spoke Depots API
+  slug: open-circuit-depots-api
+- collection_type: open
+  name: Spoke Depots Drivers API
+  slug: open-circuit-drivers-api
+- collection_type: open
+  name: Spoke Depots Live Plans API
+  slug: open-circuit-live-plans-api
+- collection_type: open
+  name: Spoke Depots Live Stops API
+  slug: open-circuit-live-stops-api
+- collection_type: open
+  name: Spoke Depots Members API
+  slug: open-circuit-members-api
+- collection_type: open
+  name: Spoke Depots Operations API
+  slug: open-circuit-operations-api
+- collection_type: open
+  name: Spoke Depots Plans API
+  slug: open-circuit-plans-api
+- collection_type: open
+  name: Spoke Depots Routes API
+  slug: open-circuit-routes-api
+- collection_type: open
+  name: Spoke Depots Stops API
+  slug: open-circuit-stops-api
+- collection_type: open
+  name: Spoke Depots Team API
+  slug: open-circuit-team-api
+- collection_type: open
+  name: Spoke Depots Unassigned Stops API
+  slug: open-circuit-unassigned-stops-api
 common:
 - group: auth
   title: ''
@@ -209,7 +246,7 @@ overview: 'Circuit publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Circuit''s developer surface includes authentication, documentation, API reference, getting-started guide, code examples, support, pricing, and 23 more developer resources.'
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Circuit Rate Limits
@@ -236,7 +273,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/screenshots/circuit-2026-07-25T205411.png
 security:

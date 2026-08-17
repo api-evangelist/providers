@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -60,11 +60,35 @@ apis:
 - description: WebAuthn credential management
   name: Duo Security WebAuthn API
   slug: duo-security-webauthn-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Duo Admin API
   slug: open-duo-admin-api
+- collection_type: open
+  name: Duo Admin Bulk API
+  slug: open-duo-security-bulk-api
+- collection_type: open
+  name: Duo Admin Bulk Bypass Codes API
+  slug: open-duo-security-bypass-codes-api
+- collection_type: open
+  name: Duo Admin Bulk Groups API
+  slug: open-duo-security-groups-api
+- collection_type: open
+  name: Duo Admin Bulk Phones API
+  slug: open-duo-security-phones-api
+- collection_type: open
+  name: Duo Admin Bulk Tokens API
+  slug: open-duo-security-tokens-api
+- collection_type: open
+  name: Duo Admin Bulk Users API
+  slug: open-duo-security-users-api
+- collection_type: open
+  name: Duo Admin Bulk WebAuthn API
+  slug: open-duo-security-webauthn-api
 common:
 - group: agent
   title: ''
@@ -126,7 +150,7 @@ plans:
 - name: Duo Security Plans Pricing
   plan_count: 3
   slug: duo-security-plans-pricing
-random_paper: 61
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Duo Security Rate Limits
@@ -151,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/screenshots/duo-security-2026-06-20T180323.png
 security:

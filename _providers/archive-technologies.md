@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,19 +22,19 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: documented
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.7
-  scored_at: '2026-08-12'
+  score: 45.5
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
   name: Archive API
   slug: archive-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -132,25 +132,58 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://api-docs.archive.com/getting-started
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://api-docs.archive.com/roadmap
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://archive.com/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/archive-technologies-plans-pricing.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/archive-technologies-graphql-examples.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/archive-technologies-tool-crosswalk.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/archive-technologies.graphql
 created: '2026-07-17'
-description: Archive (Archive Technologies, Inc.) is an AI-powered creator and community marketing platform for e-commerce brands, founded in 2021 and headquartered in Miami, FL. Archive automates social listening across TikTok, Instagram, and YouTube, creator discovery, UGC rights and repurposing, campaign tracking, and reporting. Its public developer surface is the Archive API — a GraphQL API at POST https://app.archive.com/api/v2 that gives teams programmatic access to workspace data (creators, social profiles, UGC items, engagement history, content views, collections, campaigns, and competitor brands) authenticated with a workspace-scoped bearer token plus a WORKSPACE-ID header. Archive also operates an OAuth-protected remote MCP server at https://app.archive.com/api/v2/mcp for AI agents. Archive is backed by Battery Ventures among others.
+description: Archive (Archive Technologies, Inc.) is an AI-powered creator and community marketing platform for e-commerce brands, founded in 2021 and headquartered in Miami, FL. Archive automates social listening across TikTok, Instagram, and YouTube, creator discovery, UGC rights and repurposing, campaign tracking, and reporting. Its public developer surface is the Archive API — a GraphQL API at POST https://app.archive.com/api/v2 that gives teams programmatic access to workspace data (creators, social profiles, UGC items, engagement history, content views, collections, campaigns, and competitor brands) authenticated with a workspace-scoped bearer token plus a WORKSPACE-ID header. The schema is published as a full reference (53 operations — 29 queries and 24 mutations — over 135 types) even though runtime introspection is disabled. Archive also operates an OAuth-protected remote MCP server at https://app.archive.com/api/v2/mcp whose 53 tools map 1:1 to those GraphQL operations, and both
+  surfaces draw on the same per-workspace credit budget alongside a flat 5 requests/second ceiling, signalled at runtime with IETF ratelimit headers. Archive is backed by Battery Ventures among others.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/archive-technologies.png
 layout: provider
 mcp_servers:
 - description: ''
   name: archive-technologies-mcp.yml
   slug: archive-technologies-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Archive Technologies
 nav: Providers
 network: true
 overview: 'Archive Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Marketing, Influencer Marketing, Social Listening, and User Generated Content.
 
 
-  Archive Technologies'' developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 27
+  Archive Technologies'' developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, getting-started guide, and 24 more developer resources.'
+plans:
+- name: Archive Technologies Plans Pricing
+  plan_count: 5
+  slug: archive-technologies-plans-pricing
+random_paper: 130
 rate_limits:
-- limit_count: 1
+- limit_count: 2
   name: Archive Technologies Rate Limits
   slug: archive-technologies-rate-limits
 scopes:
@@ -159,24 +192,24 @@ scopes:
   slug: archive-technologies-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 33.1
-  delta: 0.0
+  band: strong
+  composite: 56.4
+  delta: 23.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 51.6
+    commercial_clarity: 76.3
+    contract_quality: 48.1
+    developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 3.1
-    operational_transparency: 52.6
+    operational_transparency: 57.9
   previous_composite: 33.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/screenshots/archive-technologies-2026-07-25T201038.png
 security:
 - kind: authentication

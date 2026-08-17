@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 3
@@ -100,7 +100,71 @@ apis:
 - description: The webhook API from iSpring Learn — 11 operation(s) for webhook.
   name: iSpring Learn webhook API
   slug: ispring-webhook-api
-artifact_total: 221
+artifact_total: 242
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Learn Rest Api assignments API
+  slug: open-ispring-assignments-api
+- collection_type: open
+  name: Learn Rest Api assignments certificate API
+  slug: open-ispring-certificate-api
+- collection_type: open
+  name: Learn Rest Api assignments content API
+  slug: open-ispring-content-api
+- collection_type: open
+  name: Learn Rest Api assignments department API
+  slug: open-ispring-department-api
+- collection_type: open
+  name: Learn Rest Api assignments departments API
+  slug: open-ispring-departments-api
+- collection_type: open
+  name: Learn Rest Api assignments enrollment API
+  slug: open-ispring-enrollment-api
+- collection_type: open
+  name: Learn Rest Api assignments gamification API
+  slug: open-ispring-gamification-api
+- collection_type: open
+  name: Learn Rest Api assignments group API
+  slug: open-ispring-group-api
+- collection_type: open
+  name: Learn Rest Api assignments jobtraining API
+  slug: open-ispring-jobtraining-api
+- collection_type: open
+  name: Learn Rest Api assignments learning_track API
+  slug: open-ispring-learning-track-api
+- collection_type: open
+  name: Learn Rest Api assignments performance-management API
+  slug: open-ispring-performance-management-api
+- collection_type: open
+  name: Learn Rest Api assignments quizzes API
+  slug: open-ispring-quizzes-api
+- collection_type: open
+  name: Learn Rest Api assignments report API
+  slug: open-ispring-report-api
+- collection_type: open
+  name: Learn Rest Api assignments results API
+  slug: open-ispring-results-api
+- collection_type: open
+  name: Learn Rest Api assignments statistics API
+  slug: open-ispring-statistics-api
+- collection_type: open
+  name: Learn Rest Api assignments task API
+  slug: open-ispring-task-api
+- collection_type: open
+  name: Learn Rest Api assignments token API
+  slug: open-ispring-token-api
+- collection_type: open
+  name: Learn Rest Api assignments training API
+  slug: open-ispring-training-api
+- collection_type: open
+  name: Learn Rest Api assignments user API
+  slug: open-ispring-user-api
+- collection_type: open
+  name: Learn Rest Api assignments webhook API
+  slug: open-ispring-webhook-api
 common:
 - group: agent
   title: ''
@@ -776,7 +840,7 @@ plans:
 - name: Ispring Plans Pricing
   plan_count: 3
   slug: ispring-plans-pricing
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Ispring Rate Limits
@@ -810,7 +874,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/screenshots/ispring-2026-06-20T183622.png
 security:

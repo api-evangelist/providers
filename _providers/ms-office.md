@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Users API from Microsoft Office APIs — 1 operation(s) for users.
   name: Microsoft Office APIs Users API
   slug: ms-office-users-api
-artifact_total: 13
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph API (Office) Groups API
+  slug: open-ms-office-groups-api
+- collection_type: open
+  name: Microsoft Graph API (Office) Groups Me API
+  slug: open-ms-office-me-api
+- collection_type: open
+  name: Microsoft Graph API (Office) Groups Users API
+  slug: open-ms-office-users-api
 - collection_type: open
   name: Microsoft Graph API (Office)
   slug: open-ms-office
@@ -125,7 +137,7 @@ plans:
 - name: Ms Office Plans Pricing
   plan_count: 3
   slug: ms-office-plans-pricing
-random_paper: 49
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Ms Office Rate Limits
@@ -155,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-office/refs/heads/main/screenshots/ms-office-2026-06-20T185846.png
 security:

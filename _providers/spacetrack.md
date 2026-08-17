@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Reentry tracking and impact prediction messages (TIP)
   name: Space-Track Tracking and Impact Prediction API
   slug: spacetrack-tracking-and-impact-prediction-api
-artifact_total: 21
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Space-Track Ancillary API
+  slug: open-spacetrack-ancillary-api
+- collection_type: open
+  name: Space-Track Ancillary Authentication API
+  slug: open-spacetrack-authentication-api
+- collection_type: open
+  name: Space-Track Ancillary Conjunction Data API
+  slug: open-spacetrack-conjunction-data-api
+- collection_type: open
+  name: Space-Track Ancillary Decay Predictions API
+  slug: open-spacetrack-decay-predictions-api
+- collection_type: open
+  name: Space-Track Ancillary General Perturbations API
+  slug: open-spacetrack-general-perturbations-api
+- collection_type: open
+  name: Space-Track Ancillary Satellite Catalog API
+  slug: open-spacetrack-satellite-catalog-api
+- collection_type: open
+  name: Space-Track Ancillary Tracking and Impact Prediction API
+  slug: open-spacetrack-tracking-and-impact-prediction-api
 common:
 - group: agent
   title: ''
@@ -166,7 +191,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 97
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -200,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/screenshots/spacetrack-2026-06-20T194237.png
 security:

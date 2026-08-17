@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 229
   human_in_the_loop: 4
@@ -105,8 +105,77 @@ apis:
 - description: The webhooks API from Cloudsmith — 2 operation(s) for webhooks.
   name: Cloudsmith webhooks API
   slug: cloudsmith-webhooks-api
-artifact_total: 31
+artifact_total: 54
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log API
+  slug: open-cloudsmith-audit-log-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log badges API
+  slug: open-cloudsmith-badges-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log broadcasts API
+  slug: open-cloudsmith-broadcasts-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log bulk-action API
+  slug: open-cloudsmith-bulk-action-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log distros API
+  slug: open-cloudsmith-distros-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log entitlements API
+  slug: open-cloudsmith-entitlements-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log files API
+  slug: open-cloudsmith-files-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log formats API
+  slug: open-cloudsmith-formats-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log metrics API
+  slug: open-cloudsmith-metrics-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log namespaces API
+  slug: open-cloudsmith-namespaces-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log orgs API
+  slug: open-cloudsmith-orgs-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log packages API
+  slug: open-cloudsmith-packages-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log quota API
+  slug: open-cloudsmith-quota-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log rates API
+  slug: open-cloudsmith-rates-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log recycle-bin API
+  slug: open-cloudsmith-recycle-bin-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log repos API
+  slug: open-cloudsmith-repos-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log status API
+  slug: open-cloudsmith-status-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log storage-regions API
+  slug: open-cloudsmith-storage-regions-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log user API
+  slug: open-cloudsmith-user-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log users API
+  slug: open-cloudsmith-users-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log vulnerabilities API
+  slug: open-cloudsmith-vulnerabilities-api
+- collection_type: open
+  name: Cloudsmith API (v1) audit-log webhooks API
+  slug: open-cloudsmith-webhooks-api
 - collection_type: open
   name: Cloudsmith API (v1)
   slug: open-cloudsmith
@@ -195,7 +264,7 @@ plans:
 - name: Cloudsmith Plans Pricing
   plan_count: 1
   slug: cloudsmith-plans-pricing
-random_paper: 4
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Cloudsmith Rate Limits
@@ -229,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/screenshots/cloudsmith-2026-06-20T174624.png
 security:

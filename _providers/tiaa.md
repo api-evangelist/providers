@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,14 +72,44 @@ apis:
 - description: Account transaction history
   name: TIAA Transactions API
   slug: tiaa-transactions-api
-artifact_total: 30
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TIAA Financial Data Exchange Accounts API
+  slug: open-tiaa-accounts-api
+- collection_type: open
+  name: TIAA Financial Data Exchange Accounts Contributions API
+  slug: open-tiaa-contributions-api
+- collection_type: open
+  name: TIAA Financial Data Exchange Accounts Customer API
+  slug: open-tiaa-customer-api
 - collection_type: open
   name: TIAA Financial Data Exchange API
   slug: open-tiaa-fdx
 - collection_type: open
+  name: TIAA Financial Data Exchange Accounts Investments API
+  slug: open-tiaa-investments-api
+- collection_type: open
+  name: TIAA Financial Data Exchange Accounts Participants API
+  slug: open-tiaa-participants-api
+- collection_type: open
+  name: TIAA Financial Data Exchange Accounts Plans API
+  slug: open-tiaa-plans-api
+- collection_type: open
+  name: TIAA Financial Data Exchange Accounts Projections API
+  slug: open-tiaa-projections-api
+- collection_type: open
   name: TIAA Secure Income Account API
   slug: open-tiaa-sia
+- collection_type: open
+  name: TIAA Financial Data Exchange Accounts Tax API
+  slug: open-tiaa-tax-api
+- collection_type: open
+  name: TIAA Financial Data Exchange Accounts Transactions API
+  slug: open-tiaa-transactions-api
 common:
 - group: agent
   title: ''
@@ -193,7 +223,7 @@ plans:
 - name: Tiaa Plans Pricing
   plan_count: 1
   slug: tiaa-plans-pricing
-random_paper: 55
+random_paper: 117
 rate_limits:
 - limit_count: 1
   name: Tiaa Rate Limits
@@ -246,7 +276,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/screenshots/tiaa-2026-06-20T195329.png
 security:

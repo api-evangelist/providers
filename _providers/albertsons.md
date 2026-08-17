@@ -1,17 +1,17 @@
 ---
 access_model:
   confidence: high
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Request access
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - plans
-  - authentication
+  - probe
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-12'
+  score: 47.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Generate and retrieve performance reports.
   name: albertsons Reporting API
   slug: albertsons-reporting-api
-artifact_total: 58
+artifact_total: 63
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Albertsons Media Collective Audiences API
+  slug: open-albertsons-audiences-api
+- collection_type: open
+  name: Albertsons Media Collective Audiences Campaigns API
+  slug: open-albertsons-campaigns-api
+- collection_type: open
+  name: Albertsons Media Collective Audiences Performance API
+  slug: open-albertsons-performance-api
+- collection_type: open
+  name: Albertsons Media Collective Audiences Reporting API
+  slug: open-albertsons-reporting-api
 - collection_type: open
   name: Albertsons Media Collective API
   slug: open-albertsons-retail-media-api
@@ -88,11 +103,23 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.albertsons.com/terms-and-conditions/
+  url: https://www.albertsons.com/terms-of-use.html
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.albertsons.com/privacy-policy/
+  url: https://www.albertsonscompanies.com/about-us/our-policies/privacy-policy.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.albertsons.com/contact-us.html
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/albertsons-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/albertsons-llms.txt
 - group: design
   title: ''
   type: SpectralRules
@@ -105,6 +132,22 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/albertsons-retail-media-api-context.jsonld
+coverage:
+  checked: '2026-08-13'
+  detail: The Albertsons Media Collective API announced 2025-01-07 is issued only inside an advertising agreement, and the Azure API Management developer portal that fronted it is gone — the entire stratus.albertsons.com DNS zone now returns SERVFAIL from every public resolver, and the recorded base host api.albertsons.com is a stale record pointing at a decommissioned MyWebGrocer address with TCP 80 and 443 filtered, so there is no public reference or spec left to read.
+  evidence:
+  - status: 0
+    url: https://portal-prod.apim.azwestus.stratus.albertsons.com/
+  - status: 0
+    url: https://api.albertsons.com/openapi.json
+  - status: 404
+    url: https://www.albertsons.com/llms.txt
+  - status: 404
+    url: https://www.albertsonsmediacollective.com/openapi.json
+  - status: 200
+    url: https://www.albertsonsmediacollective.com/.well-known/agent-card.json
+  reason: sales-gate
+  state: gated
 created: '2026-03-23'
 description: Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.
 examples:
@@ -231,7 +274,7 @@ jsonld:
   property_count: 30
   slug: albertsons-retail-media-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: albertsons
 nav: Providers
 network: true
@@ -241,14 +284,14 @@ overview: 'albertsons publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The albertsons catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  albertsons'' developer surface includes authentication, developer portal, and 10 more developer resources.'
+  albertsons'' developer surface includes authentication, developer portal, support, and 12 more developer resources.'
 plans:
 - name: Albertsons Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: albertsons-plans-pricing
-random_paper: 5
+random_paper: 42
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Albertsons Rate Limits
   slug: albertsons-rate-limits
 rules:
@@ -270,15 +313,15 @@ rules:
   slug: albertsons-spectral-rules
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 36.1
+  delta: 1.0
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 28.9
     contract_quality: 32.1
-    developer_ergonomics: 19.6
-    discoverability: 74.1
+    developer_ergonomics: 23.9
+    discoverability: 92.6
     governance: 68.8
-    operational_transparency: 5.3
+    operational_transparency: 0.0
   previous_composite: 35.1
   provenance:
     agentic_access: derived
@@ -288,7 +331,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication
@@ -298,7 +341,7 @@ security:
 - kind: domain-security
   name: Albertsons Domain Security
   slug: albertsons-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 slug: albertsons
 tags:
 - Grocery

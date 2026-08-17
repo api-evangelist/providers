@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The commit_tags API from Vers — 2 operation(s) for commit_tags.
@@ -67,7 +67,47 @@ apis:
 - description: The vms API from Vers — 2 operation(s) for vms.
   name: Vers vms API
   slug: vers-vms-api
-artifact_total: 15
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags API
+  slug: open-vers-commit-tags-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags commits API
+  slug: open-vers-commits-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags deploy API
+  slug: open-vers-deploy-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags domains API
+  slug: open-vers-domains-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags env_vars API
+  slug: open-vers-env-vars-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags images API
+  slug: open-vers-images-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags keys API
+  slug: open-vers-keys-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags public_repositories API
+  slug: open-vers-public-repositories-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags repositories API
+  slug: open-vers-repositories-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags System API
+  slug: open-vers-system-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags vm API
+  slug: open-vers-vm-api
+- collection_type: open
+  name: Orchestrator Control Plane commit_tags vms API
+  slug: open-vers-vms-api
 common:
 - group: other
   title: ''
@@ -189,7 +229,7 @@ overview: 'Vers publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 88
+random_paper: 1
 score:
   band: developing
   composite: 43.2
@@ -212,7 +252,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

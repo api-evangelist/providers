@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -57,7 +57,20 @@ arazzos:
 - description: Register a SKU, book it inbound to a Kurly fulfillment centre with an idempotency key, pull the inbound label and transaction specification, then poll request-level status, item-level status and excep
   name: Kurly fulfillment inbound receiving flow
   slug: kurly-inbound-receiving-flow
-artifact_total: 11
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kurly Logistics Services (KLS) Open API Authentication API
+  slug: open-kurly-authentication-api
+- collection_type: open
+  name: Kurly Logistics Services (KLS) Open API Authentication 배송운영 정책 API
+  slug: open-kurly-default-api
+- collection_type: open
+  name: Kurly Logistics Services (KLS) Open API Authentication Delivery Tracking (배송추적) API
+  slug: open-kurly-delivery-tracking-api
 common:
 - group: other
   title: ''
@@ -203,7 +216,7 @@ overview: 'Kurly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 25 more developer resources.'
-random_paper: 87
+random_paper: 120
 rate_limits:
 - limit_count: 0
   name: Kurly Rate Limits
@@ -231,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
 security:

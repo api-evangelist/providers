@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The Oauth API from Cobee by Pluxee — 1 operation(s) for oauth.
   name: Cobee by Pluxee Oauth API
   slug: cobee-oauth-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Companies API
+  slug: open-cobee-companies-api
+- collection_type: open
+  name: Public Companies Oauth API
+  slug: open-cobee-oauth-api
 common:
 - group: other
   title: ''
@@ -162,7 +172,7 @@ overview: 'Cobee by Pluxee publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Cobee by Pluxee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 18 more developer resources.'
-random_paper: 30
+random_paper: 63
 score:
   band: developing
   composite: 46.0
@@ -186,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png
 security:

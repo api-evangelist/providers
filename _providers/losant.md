@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 1
@@ -66,7 +66,7 @@ apis:
 - description: Workflow Engine resources on the Losant Platform.
   name: Losant Workflow Engine API
   slug: losant-workflow-engine-api
-artifact_total: 60
+artifact_total: 67
 collections:
 - collection_type: postman
   name: Losant Application API
@@ -96,22 +96,37 @@ collections:
   name: Losant Application Workflow Engine API
   slug: postman-losant-workflow-engine-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Losant Application API
   slug: open-losant-application-api
 - collection_type: open
   name: Losant Authentication and Account API
   slug: open-losant-auth-api
 - collection_type: open
+  name: Losant Application Authentication and Account API
+  slug: open-losant-authentication-and-account-api
+- collection_type: open
+  name: Losant Application Data and Data Tables API
+  slug: open-losant-data-and-data-tables-api
+- collection_type: open
   name: Losant Data and Data Tables API
   slug: open-losant-data-api
 - collection_type: open
-  name: Losant Device API
+  name: Losant Application Device API
   slug: open-losant-device-api
+- collection_type: open
+  name: Losant Application Edge and Embedded Compute API
+  slug: open-losant-edge-and-embedded-compute-api
 - collection_type: open
   name: Losant Edge and Embedded Compute API
   slug: open-losant-edge-api
 - collection_type: open
-  name: Losant Experience API
+  name: Losant Application Enterprise Instance API
+  slug: open-losant-enterprise-instance-api
+- collection_type: open
+  name: Losant Application Experience API
   slug: open-losant-experience-api
 - collection_type: open
   name: Losant Enterprise Instance API
@@ -120,8 +135,14 @@ collections:
   name: Losant Notebooks API
   slug: open-losant-notebook-api
 - collection_type: open
+  name: Losant Application Notebooks API
+  slug: open-losant-notebooks-api
+- collection_type: open
   name: Losant Workflow Engine API
   slug: open-losant-workflow-api
+- collection_type: open
+  name: Losant Application Workflow Engine API
+  slug: open-losant-workflow-engine-api
 common:
 - group: build
   title: ''
@@ -384,7 +405,7 @@ plans:
 - name: Losant Plans Pricing
   plan_count: 4
   slug: losant-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Losant Rate Limits
@@ -426,7 +447,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/screenshots/losant-2026-06-20T184729.png
 security:

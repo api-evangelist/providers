@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 2
@@ -155,7 +155,128 @@ apis:
 - description: The WorkflowRole API from Enviance — 3 operation(s) for workflowrole.
   name: Enviance WorkflowRole API
   slug: enviance-workflowrole-api
-artifact_total: 43
+artifact_total: 83
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rest Activity API
+  slug: open-enviance-activity-api
+- collection_type: open
+  name: Rest Activity Authentication API
+  slug: open-enviance-authentication-api
+- collection_type: open
+  name: Rest Activity BatchRequest API
+  slug: open-enviance-batchrequest-api
+- collection_type: open
+  name: Rest Activity Bulk API
+  slug: open-enviance-bulk-api
+- collection_type: open
+  name: Rest Activity Chemical API
+  slug: open-enviance-chemical-api
+- collection_type: open
+  name: Rest Activity ChemicalGroup API
+  slug: open-enviance-chemicalgroup-api
+- collection_type: open
+  name: Rest Activity ChemicalList API
+  slug: open-enviance-chemicallist-api
+- collection_type: open
+  name: Rest Activity Command API
+  slug: open-enviance-command-api
+- collection_type: open
+  name: Rest Activity Compliance API
+  slug: open-enviance-compliance-api
+- collection_type: open
+  name: Rest Activity CompliancePermissions API
+  slug: open-enviance-compliancepermissions-api
+- collection_type: open
+  name: Rest Activity CustomField API
+  slug: open-enviance-customfield-api
+- collection_type: open
+  name: Rest Activity Data API
+  slug: open-enviance-data-api
+- collection_type: open
+  name: Rest Activity Document API
+  slug: open-enviance-document-api
+- collection_type: open
+  name: Rest Activity DomainWhitelistService API
+  slug: open-enviance-domainwhitelistservice-api
+- collection_type: open
+  name: Rest Activity Eql API
+  slug: open-enviance-eql-api
+- collection_type: open
+  name: Rest Activity Event API
+  slug: open-enviance-event-api
+- collection_type: open
+  name: Rest Activity FormTemplate API
+  slug: open-enviance-formtemplate-api
+- collection_type: open
+  name: Rest Activity MainMenuService API
+  slug: open-enviance-mainmenuservice-api
+- collection_type: open
+  name: Rest Activity Material API
+  slug: open-enviance-material-api
+- collection_type: open
+  name: Rest Activity MaterialData API
+  slug: open-enviance-materialdata-api
+- collection_type: open
+  name: Rest Activity MaterialGroup API
+  slug: open-enviance-materialgroup-api
+- collection_type: open
+  name: Rest Activity MaterialProperty API
+  slug: open-enviance-materialproperty-api
+- collection_type: open
+  name: Rest Activity MaterialTemplate API
+  slug: open-enviance-materialtemplate-api
+- collection_type: open
+  name: Rest Activity Message API
+  slug: open-enviance-message-api
+- collection_type: open
+  name: Rest Activity Package API
+  slug: open-enviance-package-api
+- collection_type: open
+  name: Rest Activity Portal API
+  slug: open-enviance-portal-api
+- collection_type: open
+  name: Rest Activity Report API
+  slug: open-enviance-report-api
+- collection_type: open
+  name: Rest Activity Requirement API
+  slug: open-enviance-requirement-api
+- collection_type: open
+  name: Rest Activity ScimIdentity API
+  slug: open-enviance-scimidentity-api
+- collection_type: open
+  name: Rest Activity Security API
+  slug: open-enviance-security-api
+- collection_type: open
+  name: Rest Activity Sync API
+  slug: open-enviance-sync-api
+- collection_type: open
+  name: Rest Activity Tag API
+  slug: open-enviance-tag-api
+- collection_type: open
+  name: Rest Activity TagScheme API
+  slug: open-enviance-tagscheme-api
+- collection_type: open
+  name: Rest Activity Task API
+  slug: open-enviance-task-api
+- collection_type: open
+  name: Rest Activity UOMService API
+  slug: open-enviance-uomservice-api
+- collection_type: open
+  name: Rest Activity UUID API
+  slug: open-enviance-uuid-api
+- collection_type: open
+  name: Rest Activity Wab API
+  slug: open-enviance-wab-api
+- collection_type: open
+  name: Rest Activity Workflow API
+  slug: open-enviance-workflow-api
+- collection_type: open
+  name: Rest Activity WorkflowRole API
+  slug: open-enviance-workflowrole-api
 common:
 - group: auth
   title: ''
@@ -233,7 +354,7 @@ overview: 'Enviance publishes 39 APIs on the [APIs.io](https://apis.io/) network
 
 
   Enviance''s developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 1
+random_paper: 96
 score:
   band: emerging
   composite: 26.2
@@ -257,7 +378,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enviance/refs/heads/main/screenshots/enviance-2026-07-25T213455.png
 security:

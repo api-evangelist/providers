@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Mobile number verification operations.
   name: Telstra Verification API
   slug: telstra-verification-api
-artifact_total: 44
+artifact_total: 51
 collections:
 - collection_type: postman
   name: Telstra Messaging Authentication API
@@ -78,11 +78,32 @@ collections:
   name: Telstra Messaging Authentication Verification API
   slug: postman-telstra-verification-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telstra Messaging Authentication API
+  slug: open-telstra-authentication-api
+- collection_type: open
+  name: Telstra Messaging Authentication HealthCheck API
+  slug: open-telstra-healthcheck-api
+- collection_type: open
   name: Telstra Messaging API
   slug: open-telstra-messaging-api
 - collection_type: open
+  name: Telstra Messaging Authentication MMS API
+  slug: open-telstra-mms-api
+- collection_type: open
   name: Telstra Mobile Number Verification API
   slug: open-telstra-mobile-number-verification-api
+- collection_type: open
+  name: Telstra Messaging Authentication Provisioning API
+  slug: open-telstra-provisioning-api
+- collection_type: open
+  name: Telstra Messaging Authentication SMS API
+  slug: open-telstra-sms-api
+- collection_type: open
+  name: Telstra Messaging Authentication Verification API
+  slug: open-telstra-verification-api
 common:
 - group: build
   title: ''
@@ -272,7 +293,7 @@ plans:
 - name: Telstra Plans Pricing
   plan_count: 2
   slug: telstra-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Telstra Rate Limits
@@ -325,7 +346,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png
 security:

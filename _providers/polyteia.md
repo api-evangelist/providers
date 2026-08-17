@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Workspace API from Polyteia — 1 operation(s) for workspace.
   name: Polyteia Workspace API
   slug: polyteia-workspace-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Polyteia Platform Dataset API
+  slug: open-polyteia-dataset-api
+- collection_type: open
+  name: Polyteia Platform Dataset Organization API
+  slug: open-polyteia-organization-api
+- collection_type: open
+  name: Polyteia Platform Dataset Solution API
+  slug: open-polyteia-solution-api
+- collection_type: open
+  name: Polyteia Platform Dataset Workspace API
+  slug: open-polyteia-workspace-api
 common:
 - group: start
   title: ''
@@ -176,7 +192,7 @@ overview: 'Polyteia publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Polyteia''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 20 more developer resources.'
-random_paper: 31
+random_paper: 126
 score:
   band: developing
   composite: 55.7
@@ -206,7 +222,7 @@ score:
     regime_id: government
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

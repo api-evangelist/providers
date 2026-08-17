@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,7 +44,14 @@ apis:
 - description: Operations for managing Cloud WAN core networks
   name: Amazon Cloud WAN Core Networks API
   slug: amazon-cloud-wan-core-networks-api
-artifact_total: 41
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Cloud WAN Core Networks API
+  slug: open-amazon-cloud-wan-core-networks-api
 common:
 - group: agent
   title: ''
@@ -251,7 +258,7 @@ overview: 'Amazon Cloud WAN publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Amazon Cloud WAN''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
-random_paper: 37
+random_paper: 107
 rules:
 - name: Amazon Cloud WAN API Rules
   rule_count: 5
@@ -291,7 +298,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/screenshots/amazon-cloud-wan-2026-07-25T195941.png
 security:

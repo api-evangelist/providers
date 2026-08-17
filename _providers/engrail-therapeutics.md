@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The public, anonymously-readable content API exposed by engrail.com at /wp-json/wp/v2. Sixteen read operations over posts, pages, media, categories, tags, comments, and the site's own type/taxonomy/st
@@ -27,7 +27,11 @@ apis:
 - description: Two live Model Context Protocol servers registered under the `mcp` REST namespace on engrail.com, fronted by RFC 8414 and RFC 9728 OAuth discovery documents at the apex. Both are OAuth-protected — ano
   name: Engrail Therapeutics MCP Servers
   slug: mcp
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Engrail Therapeutics Site Content API (WordPress REST)
+  slug: open-engrail-therapeutics-content
 common:
 - group: company
   title: ''
@@ -134,7 +138,7 @@ overview: 'Engrail Therapeutics publishes 1 API on the [APIs.io](https://apis.io
 
 
   Engrail Therapeutics'' developer surface includes engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 40
+random_paper: 143
 scopes:
 - name: Engrail Therapeutics Scopes
   scope_count: 1
@@ -168,7 +172,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/screenshots/engrail-therapeutics-2026-08-07T164922.png
 security:

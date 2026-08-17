@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Token-issuing API on the Centrica FieldOps API Management platform, published on Centrica's Azure API Management developer portal. A single POST /oauth2/token operation exchanges an OAuth2 client_cred
   name: Centrica FieldOps Identity API
   slug: centrica-fieldops-identity-api
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Identity API
+  slug: open-centrica-fieldops-identity-api
 common:
 - group: agent
   title: ''
@@ -163,7 +167,7 @@ plans:
 - name: Centrica Plans
   plan_count: 2
   slug: centrica-plans
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 3
   name: Centrica Rate Limits
@@ -196,7 +200,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png
 security:

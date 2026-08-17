@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Generate a Sensible-signed upload URL for a document type, then poll the extraction id until results are ready.
   name: Sensible Upload URL Extract And Poll
   slug: sensible-so-upload-url-extract-and-poll-workflow
-artifact_total: 71
+artifact_total: 79
 collections:
 - collection_type: postman
   name: Sensible Classification API
@@ -121,6 +121,9 @@ collections:
   name: Sensible Reference Documents API
   slug: postman-sensible-reference-documents-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Sensible Classification API
   slug: open-sensible-classification-api
 - collection_type: open
@@ -132,6 +135,27 @@ collections:
 - collection_type: open
   name: Sensible Reference Documents API
   slug: open-sensible-reference-documents-api
+- collection_type: open
+  name: Sensible Classification Configuration API
+  slug: open-sensible-so-configuration-api
+- collection_type: open
+  name: Sensible Classification Configuration Document API
+  slug: open-sensible-so-document-api
+- collection_type: open
+  name: Sensible Classification Configuration Document type API
+  slug: open-sensible-so-document-type-api
+- collection_type: open
+  name: Sensible Classification Configuration Get Excel from documents API
+  slug: open-sensible-so-get-excel-from-documents-api
+- collection_type: open
+  name: Sensible Classification Configuration Portfolio API
+  slug: open-sensible-so-portfolio-api
+- collection_type: open
+  name: Sensible Classification Configuration Reference document API
+  slug: open-sensible-so-reference-document-api
+- collection_type: open
+  name: Sensible Classification Configuration Retrieve extractions API
+  slug: open-sensible-so-retrieve-extractions-api
 common:
 - group: agent
   title: ''
@@ -403,7 +427,7 @@ plans:
 - name: Sensible So Plans Pricing
   plan_count: 4
   slug: sensible-so-plans-pricing
-random_paper: 44
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Sensible So Rate Limits
@@ -445,7 +469,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/screenshots/sensible-so-2026-06-20T193703.png
 security:

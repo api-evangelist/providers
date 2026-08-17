@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - description: Operations for detecting text in documents.
   name: Amazon Textract Text Detection API
   slug: amazon-textract-text-detection-api
-artifact_total: 29
+artifact_total: 35
 collections:
 - collection_type: postman
   name: Amazon Textract Async Operations API
@@ -70,6 +70,24 @@ collections:
 - collection_type: postman
   name: Amazon Textract Async Operations Text Detection API
   slug: postman-amazon-textract-text-detection-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Textract Async Operations API
+  slug: open-amazon-textract-async-operations-api
+- collection_type: open
+  name: Amazon Textract Async Operations Document Analysis API
+  slug: open-amazon-textract-document-analysis-api
+- collection_type: open
+  name: Amazon Textract Async Operations Expense Analysis API
+  slug: open-amazon-textract-expense-analysis-api
+- collection_type: open
+  name: Amazon Textract Async Operations ID Analysis API
+  slug: open-amazon-textract-id-analysis-api
+- collection_type: open
+  name: Amazon Textract Async Operations Text Detection API
+  slug: open-amazon-textract-text-detection-api
 - collection_type: open
   name: Amazon Textract
   slug: open-amazon-textract
@@ -201,7 +219,7 @@ plans:
 - name: Amazon Textract Plans Pricing
   plan_count: 3
   slug: amazon-textract-plans-pricing
-random_paper: 10
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Amazon Textract Rate Limits
@@ -243,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/screenshots/amazon-textract-2026-06-20T171833.png
 security:

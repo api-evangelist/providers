@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ apis:
 - description: Discover trending liquidity pools across networks based on web visits and onchain activity.
   name: CoinGecko Trending Pools API
   slug: coingecko-trending-pools-api
-artifact_total: 60
+artifact_total: 83
 asyncapis:
 - description: 'Real-time cryptocurrency price streaming via WebSocket. ## Authentication Required To use this WebSocket, you need a CoinGecko Pro API key.'
   name: CoinGecko WebSocket API
@@ -178,14 +178,83 @@ collections:
   name: CoinGecko Crypto Market Data Asset Platforms Trending Pools API
   slug: postman-coingecko-trending-pools-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms API
+  slug: open-coingecko-asset-platforms-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Categories API
+  slug: open-coingecko-categories-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Coins API
+  slug: open-coingecko-coins-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Companies API
+  slug: open-coingecko-companies-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Contract API
+  slug: open-coingecko-contract-api
+- collection_type: open
   name: CoinGecko Crypto Market Data API
   slug: open-coingecko-crypto-market-data-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Derivatives API
+  slug: open-coingecko-derivatives-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms DEXes API
+  slug: open-coingecko-dexes-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Exchange Rates API
+  slug: open-coingecko-exchange-rates-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Exchanges API
+  slug: open-coingecko-exchanges-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Global API
+  slug: open-coingecko-global-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Networks API
+  slug: open-coingecko-networks-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms NFTs API
+  slug: open-coingecko-nfts-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms OHLCV API
+  slug: open-coingecko-ohlcv-api
 - collection_type: open
   name: CoinGecko Onchain DEX API
   slug: open-coingecko-onchain-dex-api
 - collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Ping API
+  slug: open-coingecko-ping-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Pools API
+  slug: open-coingecko-pools-api
+- collection_type: open
   name: CoinGecko Pro API
   slug: open-coingecko-pro-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Search API
+  slug: open-coingecko-search-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Simple API
+  slug: open-coingecko-simple-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Token Lists API
+  slug: open-coingecko-token-lists-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Tokens API
+  slug: open-coingecko-tokens-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Trades API
+  slug: open-coingecko-trades-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Trending API
+  slug: open-coingecko-trending-api
+- collection_type: open
+  name: CoinGecko Crypto Market Data Asset Platforms Trending Pools API
+  slug: open-coingecko-trending-pools-api
 common:
 - group: build
   title: ''
@@ -306,7 +375,7 @@ plans:
 - name: Coingecko Plans Pricing
   plan_count: 5
   slug: coingecko-plans-pricing
-random_paper: 106
+random_paper: 52
 rate_limits:
 - limit_count: 9
   name: Coingecko Rate Limits
@@ -362,7 +431,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/screenshots/coingecko-2026-06-20T174737.png
 security:

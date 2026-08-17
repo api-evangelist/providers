@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Post categories
@@ -42,7 +42,32 @@ apis:
 - description: Cross-content search
   name: DalCor Pharmaceuticals Search API
   slug: dalcor-pharmaceuticals-search-api
-artifact_total: 9
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DalCor Pharmaceuticals Content API (WordPress REST API) Categories API
+  slug: open-dalcor-pharmaceuticals-categories-api
+- collection_type: open
+  name: DalCor Pharmaceuticals Content API (WordPress REST API) Comments API
+  slug: open-dalcor-pharmaceuticals-comments-api
+- collection_type: open
+  name: DalCor Pharmaceuticals Content API (WordPress REST API) Discovery API
+  slug: open-dalcor-pharmaceuticals-discovery-api
+- collection_type: open
+  name: DalCor Pharmaceuticals Content API (WordPress REST API) Media API
+  slug: open-dalcor-pharmaceuticals-media-api
+- collection_type: open
+  name: DalCor Pharmaceuticals Content API (WordPress REST API) Pages API
+  slug: open-dalcor-pharmaceuticals-pages-api
+- collection_type: open
+  name: DalCor Pharmaceuticals Content API (WordPress REST API) Posts API
+  slug: open-dalcor-pharmaceuticals-posts-api
+- collection_type: open
+  name: DalCor Pharmaceuticals Content API (WordPress REST API) Search API
+  slug: open-dalcor-pharmaceuticals-search-api
 common:
 - group: other
   title: ''
@@ -157,7 +182,7 @@ overview: 'DalCor Pharmaceuticals publishes 7 APIs on the [APIs.io](https://apis
 
 
   DalCor Pharmaceuticals'' developer surface includes support, authentication, and 23 more developer resources.'
-random_paper: 104
+random_paper: 29
 score:
   band: thin
   composite: 29.2
@@ -185,7 +210,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/screenshots/dalcor-pharmaceuticals-2026-08-07T164031.png
 security:

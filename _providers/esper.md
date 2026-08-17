@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: APIs for application management
@@ -70,11 +70,54 @@ apis:
 - description: Fetch API token information
   name: Esper Token API
   slug: esper-token-api
-artifact_total: 18
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Esper Events Webhooks
   slug: esper-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ESPER API REFERENCE Application API
+  slug: open-esper-application-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Application V1 API
+  slug: open-esper-application-v1-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Commands API
+  slug: open-esper-commands-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Commands V2 API
+  slug: open-esper-commands-v2-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Content API
+  slug: open-esper-content-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Device API
+  slug: open-esper-device-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Device Group API
+  slug: open-esper-device-group-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Enterprise API
+  slug: open-esper-enterprise-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Enterprise Policy API
+  slug: open-esper-enterprise-policy-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Geofence API
+  slug: open-esper-geofence-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Group Commands API
+  slug: open-esper-group-commands-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Subscription API
+  slug: open-esper-subscription-api
+- collection_type: open
+  name: ESPER API REFERENCE Application Token API
+  slug: open-esper-token-api
 common:
 - group: agent
   title: ''
@@ -183,7 +226,7 @@ overview: 'Esper publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Esper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 63
+random_paper: 96
 score:
   band: developing
   composite: 50.4
@@ -206,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esper/refs/heads/main/screenshots/esper-2026-07-25T213623.png
 security:

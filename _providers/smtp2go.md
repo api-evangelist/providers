@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 61.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -72,7 +73,48 @@ apis:
 - description: Webhook configuration
   name: SMTP2GO Webhooks API
   slug: smtp2go-webhooks-api
-artifact_total: 24
+artifact_total: 38
+asyncapis:
+- description: ''
+  name: Smtp2Go Webhooks
+  slug: smtp2go-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SMTP2GO Email Activity API
+  slug: open-smtp2go-activity-api
+- collection_type: open
+  name: SMTP2GO Email Activity API Keys API
+  slug: open-smtp2go-api-keys-api
+- collection_type: open
+  name: SMTP2GO Email Activity Domains API
+  slug: open-smtp2go-domains-api
+- collection_type: open
+  name: SMTP2GO Activity Email API
+  slug: open-smtp2go-email-api
+- collection_type: open
+  name: SMTP2GO Email Activity SMS API
+  slug: open-smtp2go-sms-api
+- collection_type: open
+  name: SMTP2GO Email Activity SMTP Users API
+  slug: open-smtp2go-smtp-users-api
+- collection_type: open
+  name: SMTP2GO Email Activity Stats API
+  slug: open-smtp2go-stats-api
+- collection_type: open
+  name: SMTP2GO Email Activity Subaccounts API
+  slug: open-smtp2go-subaccounts-api
+- collection_type: open
+  name: SMTP2GO Email Activity Suppressions API
+  slug: open-smtp2go-suppressions-api
+- collection_type: open
+  name: SMTP2GO Email Activity Templates API
+  slug: open-smtp2go-templates-api
+- collection_type: open
+  name: SMTP2GO Email Activity Webhooks API
+  slug: open-smtp2go-webhooks-api
 common:
 - group: agent
   title: ''
@@ -138,8 +180,100 @@ common:
   title: ''
   type: FinOps
   url: finops/smtp2go-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/smtp2go-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/smtp2go-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/smtp2go-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/smtp2go-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/smtp2go-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/smtp2go-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/smtp2go-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/smtp2go-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/smtp2go-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/smtp2go-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developers.smtp2go.com/reference/changelog
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/smtp2go-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.smtp2go.com/blog/security-and-privacy-at-smtp2go/
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/smtp2go-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/smtp2go-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/smtp2go-data-model.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.smtp2go.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.smtp2go.com/docs/getting-started
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.smtp2go.com/pricing/signup/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.smtp2go.com/login/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.smtp2go.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.smtp2go.com/privacy/
 created: '2026-06-13'
-description: Email delivery platform with a REST API for sending transactional emails, managing SMTP accounts, tracking delivery, viewing email statistics, and suppressing addresses.
+description: SMTP2GO is a New Zealand-founded email and SMS delivery platform, running since 2006, that sends and tracks transactional and marketing messages over SMTP relay or a JSON REST API from data centres in the United States, the European Union and Australia. The v3 API covers sending standard, MIME, batch and scheduled email, sending and receiving SMS, verifying sender domains and single sender addresses, managing SMTP users, API keys, IP allow lists and IP authentication, templates, webhooks, suppressions, subaccounts, dedicated IPs and the email archive, plus activity search and delivery statistics. It also ships a remote MCP server and a published Agent Skill for AI agents.
 examples:
 - key_count: 4
   name: Add Suppression Example
@@ -168,24 +302,28 @@ jsonld:
   property_count: 66
   slug: smtp2go-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: SMTP2GO remote MCP server
+  slug: smtp2go-remote-mcp-server
+modified: '2026-08-13'
 name: SMTP2GO
 nav: Providers
 network: true
 overview: 'SMTP2GO publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Email API, Activity API, API Keys API, and 8 more. Tagged areas include Email, Email Delivery, Transactional Email, SMTP, and SMS.
 
 
-  The SMTP2GO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The SMTP2GO catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  SMTP2GO''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, support, and 10 more developer resources.'
+  SMTP2GO''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, support, changelog, and 32 more developer resources.'
 plans:
 - name: Smtp2Go Plans Pricing
   plan_count: 4
   slug: smtp2go-plans-pricing
-random_paper: 116
+random_paper: 120
 rate_limits:
-- limit_count: 8
+- limit_count: 9
   name: Smtp2Go Rate Limits
   slug: smtp2go-rate-limits
 rules:
@@ -198,16 +336,16 @@ rules:
     warn: 4
   slug: smtp2go-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.2
-  delta: 0.0
+  band: exemplar
+  composite: 75.6
+  delta: 26.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 67.5
-    developer_ergonomics: 32.6
-    discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 52.6
+    commercial_clarity: 92.1
+    contract_quality: 78.0
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 76.3
   previous_composite: 49.2
   provenance:
     agentic_access: derived
@@ -221,10 +359,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 23.6
+    score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/screenshots/smtp2go-2026-06-20T194102.png
 security:
 - kind: authentication
@@ -244,5 +382,10 @@ tags:
 - SMS
 - Email API
 - Deliverability
+- Webhooks
+- Messaging
+- Communications
+- MCP
+- Agent Skills
 website: https://www.smtp2go.com/
 ---

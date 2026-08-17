@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ overview: 'Eventual is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Eventual''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, changelog, and 11 more developer resources.'
-random_paper: 28
+random_paper: 123
 score:
   band: emerging
   composite: 23.6
@@ -131,7 +131,7 @@ score:
   provenance:
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventual/refs/heads/main/screenshots/eventual-2026-07-25T213718.png
 security:

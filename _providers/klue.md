@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-08-12'
+  score: 30.2
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Klue Content API returns an organization's published Klue cards and battlecards to external tools and agents, filterable by competitor, battlecard, tag and date range. Access is authenticated with
@@ -37,7 +37,7 @@ apis:
 - description: 'Klue''s Model Context Protocol server lets internal AI agents and enterprise copilots retrieve permissioned competitive intelligence from Klue. It ships two distinct connector surfaces: v1 exposes card'
   name: Klue MCP Server
   slug: mcp
-artifact_total: 7
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -123,6 +123,10 @@ common:
   title: ''
   type: Authentication
   url: authentication/klue-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/klue-scopes.yml
 - group: design
   title: ''
   type: Conventions
@@ -131,6 +135,18 @@ common:
   title: ''
   type: Conformance
   url: conformance/klue-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/klue-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/klue-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/klue-rate-limits.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -151,24 +167,37 @@ mcp_servers:
 - description: ''
   name: klue-mcp.yml
   slug: klue-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Klue
 nav: Providers
 network: true
 overview: 'Klue publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Competitive Intelligence, Competitive Enablement, and Sales Enablement.
 
 
-  Klue''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 73
+  Klue''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
+plans:
+- name: Klue Plans Pricing
+  plan_count: 0
+  slug: klue-plans-pricing
+random_paper: 135
+rate_limits:
+- limit_count: 0
+  name: Klue Rate Limits
+  slug: klue-rate-limits
+scopes:
+- name: Klue Scopes
+  scope_count: 23
+  slug: klue-scopes
+  summary_line: 23 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 36.5
+  delta: 1.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 12.5
     operational_transparency: 31.6
   previous_composite: 35.4
@@ -177,14 +206,14 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klue/refs/heads/main/screenshots/klue-2026-07-25T223952.png
 security:
 - kind: authentication
   name: Klue Authentication
   slug: klue-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 - kind: domain-security
   name: Klue Domain Security
   slug: klue-domain-security

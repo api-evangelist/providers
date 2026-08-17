@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The VPC Attachments API from Amazon Transit Gateway — 1 operation(s) for vpc attachments.
   name: Amazon Transit Gateway VPC Attachments API
   slug: amazon-transit-gateway-vpc-attachments-api
-artifact_total: 28
+artifact_total: 32
 collections:
 - collection_type: postman
   name: Amazon Transit Gateway Route Tables API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Amazon Transit Gateway Route Tables VPC Attachments API
   slug: postman-amazon-transit-gateway-vpc-attachments-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Transit Gateway Route Tables API
+  slug: open-amazon-transit-gateway-route-tables-api
+- collection_type: open
+  name: Amazon Transit Gateway Route Tables Transit Gateways API
+  slug: open-amazon-transit-gateway-transit-gateways-api
+- collection_type: open
+  name: Amazon Transit Gateway Route Tables VPC Attachments API
+  slug: open-amazon-transit-gateway-vpc-attachments-api
 - collection_type: open
   name: Amazon Transit Gateway API
   slug: open-amazon-transit-gateway
@@ -216,7 +228,7 @@ plans:
 - name: Amazon Transit Gateway Plans Pricing
   plan_count: 3
   slug: amazon-transit-gateway-plans-pricing
-random_paper: 103
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Amazon Transit Gateway Rate Limits
@@ -258,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/screenshots/amazon-transit-gateway-2026-06-20T171838.png
 security:

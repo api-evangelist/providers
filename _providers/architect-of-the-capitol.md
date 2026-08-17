@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Visitor Information API from Architect of the Capitol — 1 operation(s) for visitor information.
   name: Architect of the Capitol Visitor Information API
   slug: architect-of-the-capitol-visitor-information-api
-artifact_total: 50
+artifact_total: 56
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Architect of the Capitol Data Accessibility API
+  slug: open-architect-of-the-capitol-accessibility-api
+- collection_type: open
+  name: Architect of the Capitol Data Accessibility Art Collection API
+  slug: open-architect-of-the-capitol-art-collection-api
+- collection_type: open
+  name: Architect of the Capitol Data Accessibility Buildings API
+  slug: open-architect-of-the-capitol-buildings-api
+- collection_type: open
+  name: Architect of the Capitol Data Accessibility Preservation API
+  slug: open-architect-of-the-capitol-preservation-api
+- collection_type: open
+  name: Architect of the Capitol Data Accessibility Visitor Information API
+  slug: open-architect-of-the-capitol-visitor-information-api
 common:
 - group: agent
   title: ''
@@ -214,7 +233,7 @@ plans:
 - name: Architect Of The Capitol Plans Pricing
   plan_count: 3
   slug: architect-of-the-capitol-plans-pricing
-random_paper: 88
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Architect Of The Capitol Rate Limits
@@ -270,7 +289,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/screenshots/architect-of-the-capitol-2026-06-20T172408.png
 security:

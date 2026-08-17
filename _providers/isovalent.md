@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -68,7 +68,38 @@ apis:
 - description: The service API from Isovalent — 2 operation(s) for service.
   name: Isovalent service API
   slug: isovalent-service-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cilium bgp API
+  slug: open-isovalent-bgp-api
+- collection_type: open
+  name: Cilium bgp connectivity API
+  slug: open-isovalent-connectivity-api
+- collection_type: open
+  name: Cilium bgp daemon API
+  slug: open-isovalent-daemon-api
+- collection_type: open
+  name: Cilium bgp endpoint API
+  slug: open-isovalent-endpoint-api
+- collection_type: open
+  name: Cilium bgp Healthz API
+  slug: open-isovalent-healthz-api
+- collection_type: open
+  name: Cilium bgp ipam API
+  slug: open-isovalent-ipam-api
+- collection_type: open
+  name: Cilium bgp policy API
+  slug: open-isovalent-policy-api
+- collection_type: open
+  name: Cilium bgp prefilter API
+  slug: open-isovalent-prefilter-api
+- collection_type: open
+  name: Cilium bgp service API
+  slug: open-isovalent-service-api
 common:
 - group: auth
   title: ''
@@ -231,7 +262,7 @@ overview: 'Isovalent publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Isovalent''s developer surface includes CLI, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 29 more developer resources.'
-random_paper: 21
+random_paper: 87
 score:
   band: developing
   composite: 46.1
@@ -255,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/screenshots/isovalent-2026-07-25T222948.png
 security:

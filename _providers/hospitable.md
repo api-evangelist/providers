@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: The authenticated Hospitable user.
   name: Hospitable User API
   slug: hospitable-user-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hospitable Public Calendar API
+  slug: open-hospitable-calendar-api
+- collection_type: open
+  name: Hospitable Public Calendar Listings API
+  slug: open-hospitable-listings-api
+- collection_type: open
+  name: Hospitable Public Calendar Messages API
+  slug: open-hospitable-messages-api
+- collection_type: open
+  name: Hospitable Public Calendar Properties API
+  slug: open-hospitable-properties-api
+- collection_type: open
+  name: Hospitable Public Calendar Reservations API
+  slug: open-hospitable-reservations-api
+- collection_type: open
+  name: Hospitable Public Calendar User API
+  slug: open-hospitable-user-api
 - collection_type: open
   name: Hospitable Public API v2
   slug: open-hospitable
@@ -125,7 +146,7 @@ plans:
 - name: Hospitable Plans Pricing
   plan_count: 5
   slug: hospitable-plans-pricing
-random_paper: 107
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Hospitable Rate Limits
@@ -150,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/screenshots/hospitable-2026-07-25T221454.png
 security:

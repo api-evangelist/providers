@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ arazzos:
 - description: Find the latest block, then look up a supplied transaction hash on Shannon.
   name: Pocket Network Shannon Transaction Lookup
   slug: pocket-network-shannon-transaction-lookup-workflow
-artifact_total: 63
+artifact_total: 80
 collections:
 - collection_type: postman
   name: Pocket Network CometBFT RPC API
@@ -124,14 +124,65 @@ collections:
   name: Pocket Network Shannon RPC API
   slug: postman-pocket-network-shannon-rpc-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application API
+  slug: open-pocket-network-application-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Bank API
+  slug: open-pocket-network-bank-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Blocks API
+  slug: open-pocket-network-blocks-api
+- collection_type: open
   name: Pocket Network CometBFT RPC API
   slug: open-pocket-network-cometbft-rpc-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Consensus API
+  slug: open-pocket-network-consensus-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Gateway API
+  slug: open-pocket-network-gateway-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Health API
+  slug: open-pocket-network-health-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Mempool API
+  slug: open-pocket-network-mempool-api
 - collection_type: open
   name: Pocket Network PATH Gateway API
   slug: open-pocket-network-path-gateway-api
 - collection_type: open
+  name: Pocket Network CometBFT RPC Application Proof API
+  slug: open-pocket-network-proof-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Relays API
+  slug: open-pocket-network-relays-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Service API
+  slug: open-pocket-network-service-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Session API
+  slug: open-pocket-network-session-api
+- collection_type: open
   name: Pocket Network Shannon RPC API
   slug: open-pocket-network-shannon-rpc-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Status API
+  slug: open-pocket-network-status-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Supplier API
+  slug: open-pocket-network-supplier-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Tokenomics API
+  slug: open-pocket-network-tokenomics-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Transactions API
+  slug: open-pocket-network-transactions-api
+- collection_type: open
+  name: Pocket Network CometBFT RPC Application Validators API
+  slug: open-pocket-network-validators-api
 common:
 - group: commercial
   title: ''
@@ -410,7 +461,7 @@ plans:
 - name: Pocket Network Plans Pricing
   plan_count: 4
   slug: pocket-network-plans-pricing
-random_paper: 29
+random_paper: 128
 rate_limits:
 - limit_count: 3
   name: Pocket Network Rate Limits
@@ -452,7 +503,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/screenshots/pocket-network-2026-06-20T191825.png
 security:

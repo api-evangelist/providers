@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 5
@@ -60,7 +60,32 @@ apis:
 - description: Manage URL groups for fan-out delivery
   name: QStash URL Groups API
   slug: qstash-url-groups-api
-artifact_total: 20
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QStash Dead Letter Queue API
+  slug: open-qstash-dead-letter-queue-api
+- collection_type: open
+  name: QStash Dead Letter Queue Flow Control API
+  slug: open-qstash-flow-control-api
+- collection_type: open
+  name: QStash Dead Letter Queue Logs API
+  slug: open-qstash-logs-api
+- collection_type: open
+  name: QStash Dead Letter Queue Messages API
+  slug: open-qstash-messages-api
+- collection_type: open
+  name: QStash Dead Letter Queue Queues API
+  slug: open-qstash-queues-api
+- collection_type: open
+  name: QStash Dead Letter Queue Schedules API
+  slug: open-qstash-schedules-api
+- collection_type: open
+  name: QStash Dead Letter Queue URL Groups API
+  slug: open-qstash-url-groups-api
 common:
 - group: agent
   title: ''
@@ -171,7 +196,7 @@ plans:
 - name: Qstash Plans Pricing
   plan_count: 5
   slug: qstash-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 10
   name: Qstash Rate Limits
@@ -205,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/screenshots/qstash-2026-06-20T192402.png
 security:

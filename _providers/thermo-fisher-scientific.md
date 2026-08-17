@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,14 +69,44 @@ apis:
 - description: Trigger and manage laboratory workflows.
   name: Thermo Fisher Scientific Workflows API
   slug: thermo-fisher-scientific-workflows-api
-artifact_total: 26
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Thermo Fisher NanoDrop Ultra Web API
   slug: open-thermo-fisher-nanodrop
 - collection_type: open
   name: Thermo Fisher SampleManager LIMS REST API
   slug: open-thermo-fisher-samplemanager
+- collection_type: open
+  name: Thermo Fisher NanoDrop Ultra Web Authentication API
+  slug: open-thermo-fisher-scientific-authentication-api
+- collection_type: open
+  name: Thermo Fisher NanoDrop Ultra Web Authentication Entities API
+  slug: open-thermo-fisher-scientific-entities-api
+- collection_type: open
+  name: Thermo Fisher NanoDrop Ultra Web Authentication Export API
+  slug: open-thermo-fisher-scientific-export-api
+- collection_type: open
+  name: Thermo Fisher NanoDrop Ultra Web Authentication Instrument API
+  slug: open-thermo-fisher-scientific-instrument-api
+- collection_type: open
+  name: Thermo Fisher NanoDrop Ultra Web Authentication Measurements API
+  slug: open-thermo-fisher-scientific-measurements-api
+- collection_type: open
+  name: Thermo Fisher NanoDrop Ultra Web Authentication Methods API
+  slug: open-thermo-fisher-scientific-methods-api
+- collection_type: open
+  name: Thermo Fisher NanoDrop Ultra Web Authentication Results API
+  slug: open-thermo-fisher-scientific-results-api
+- collection_type: open
+  name: Thermo Fisher NanoDrop Ultra Web Authentication Samples API
+  slug: open-thermo-fisher-scientific-samples-api
+- collection_type: open
+  name: Thermo Fisher NanoDrop Ultra Web Authentication Workflows API
+  slug: open-thermo-fisher-scientific-workflows-api
 common:
 - group: agent
   title: ''
@@ -180,7 +210,7 @@ press:
 - date: '2026-05-25'
   title: Thermo Fisher and NVIDIA Partner to Expand AI Driven ...
   url: https://www.chromatographyonline.com/view/thermo-fisher-and-nvidia-partner-to-expand-ai-driven-laboratory-automation
-random_paper: 43
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Thermo Fisher Scientific Rate Limits
@@ -228,7 +258,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/screenshots/thermo-fisher-scientific-2026-06-20T195253.png
 security:

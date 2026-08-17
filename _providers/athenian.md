@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -86,7 +86,59 @@ apis:
 - description: The version API from Athenian — 1 operation(s) for version.
   name: Athenian version API
   slug: athenian-version-api
-artifact_total: 20
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: '{{ title }} align API'
+  slug: open-athenian-align-api
+- collection_type: open
+  name: '{{ title }} align default API'
+  slug: open-athenian-default-api
+- collection_type: open
+  name: '{{ title }} align events API'
+  slug: open-athenian-events-api
+- collection_type: open
+  name: '{{ title }} align filter API'
+  slug: open-athenian-filter-api
+- collection_type: open
+  name: '{{ title }} align get API'
+  slug: open-athenian-get-api
+- collection_type: open
+  name: '{{ title }} align histograms API'
+  slug: open-athenian-histograms-api
+- collection_type: open
+  name: '{{ title }} align integrations API'
+  slug: open-athenian-integrations-api
+- collection_type: open
+  name: '{{ title }} align metrics API'
+  slug: open-athenian-metrics-api
+- collection_type: open
+  name: '{{ title }} align pagination API'
+  slug: open-athenian-pagination-api
+- collection_type: open
+  name: '{{ title }} align registration API'
+  slug: open-athenian-registration-api
+- collection_type: open
+  name: '{{ title }} align reposet API'
+  slug: open-athenian-reposet-api
+- collection_type: open
+  name: '{{ title }} align security API'
+  slug: open-athenian-security-api
+- collection_type: open
+  name: '{{ title }} align settings API'
+  slug: open-athenian-settings-api
+- collection_type: open
+  name: '{{ title }} align team API'
+  slug: open-athenian-team-api
+- collection_type: open
+  name: '{{ title }} align user API'
+  slug: open-athenian-user-api
+- collection_type: open
+  name: '{{ title }} align version API'
+  slug: open-athenian-version-api
 common:
 - group: other
   title: ''
@@ -156,7 +208,7 @@ overview: 'Athenian publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Athenian''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 0
+random_paper: 95
 score:
   band: emerging
   composite: 26.3
@@ -180,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/screenshots/athenian-2026-07-25T201535.png
 security:

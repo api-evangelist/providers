@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Access patient profile and health information.
   name: Johnson & Johnson Patients API
   slug: johnson-and-johnson-patients-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Johnson & Johnson LifeScan Devices API
+  slug: open-johnson-and-johnson-devices-api
+- collection_type: open
+  name: Johnson & Johnson LifeScan Devices Glucose Readings API
+  slug: open-johnson-and-johnson-glucose-readings-api
 - collection_type: open
   name: Johnson & Johnson LifeScan API
   slug: open-johnson-and-johnson-lifescan-api
+- collection_type: open
+  name: Johnson & Johnson LifeScan Devices Patients API
+  slug: open-johnson-and-johnson-patients-api
 common:
 - group: agent
   title: ''
@@ -110,7 +122,7 @@ press:
 - date: '2026-05-25'
   title: JNJ Innovation - News & Events
   url: https://jnjinnovation.com/news
-random_paper: 11
+random_paper: 143
 rate_limits:
 - limit_count: 1
   name: Johnson And Johnson Rate Limits
@@ -141,7 +153,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -81,7 +81,53 @@ apis:
 - description: Wallet information endpoints
   name: Octav Wallet API
   slug: octav-wallet-api
-artifact_total: 18
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Octav Airdrops API
+  slug: open-octav-airdrops-api
+- collection_type: open
+  name: Octav Airdrops Approvals API
+  slug: open-octav-approvals-api
+- collection_type: open
+  name: Octav Airdrops Beacon Validators API
+  slug: open-octav-beacon-validators-api
+- collection_type: open
+  name: Octav Airdrops Chains API
+  slug: open-octav-chains-api
+- collection_type: open
+  name: Octav Airdrops Contract Protocol API
+  slug: open-octav-contract-protocol-api
+- collection_type: open
+  name: Octav Airdrops Credits API
+  slug: open-octav-credits-api
+- collection_type: open
+  name: Octav Airdrops Nav API
+  slug: open-octav-nav-api
+- collection_type: open
+  name: Octav Airdrops Portfolio API
+  slug: open-octav-portfolio-api
+- collection_type: open
+  name: Octav Airdrops Status API
+  slug: open-octav-status-api
+- collection_type: open
+  name: Octav Airdrops Sync API
+  slug: open-octav-sync-api
+- collection_type: open
+  name: Octav Airdrops Tokens API
+  slug: open-octav-tokens-api
+- collection_type: open
+  name: Octav Airdrops Transactions API
+  slug: open-octav-transactions-api
+- collection_type: open
+  name: Octav Airdrops Virtual Users API
+  slug: open-octav-virtual-users-api
+- collection_type: open
+  name: Octav Airdrops Wallet API
+  slug: open-octav-wallet-api
 common:
 - group: auth
   title: ''
@@ -219,7 +265,7 @@ overview: 'Octav publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Octav''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
-random_paper: 61
+random_paper: 94
 score:
   band: developing
   composite: 52.7
@@ -249,7 +295,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/screenshots/octav-2026-08-07T185936.png
 security:

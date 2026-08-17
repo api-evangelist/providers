@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: The Tags API from Metaplane — 7 operation(s) for tags.
   name: Metaplane Tags API
   slug: metaplane-tags-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Metaplane Connections API
+  slug: open-metaplane-connections-api
+- collection_type: open
+  name: Metaplane Connections Datapoints API
+  slug: open-metaplane-datapoints-api
+- collection_type: open
+  name: Metaplane Connections Monitors API
+  slug: open-metaplane-monitors-api
+- collection_type: open
+  name: Metaplane Connections Tags API
+  slug: open-metaplane-tags-api
 - collection_type: open
   name: Metaplane API
   slug: open-metaplane
@@ -120,7 +135,7 @@ plans:
 - name: Metaplane Plans Pricing
   plan_count: 3
   slug: metaplane-plans-pricing
-random_paper: 111
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Metaplane Rate Limits
@@ -145,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/screenshots/metaplane-2026-06-20T185251.png
 security:

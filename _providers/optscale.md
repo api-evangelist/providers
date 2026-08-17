@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Cloud resources and assignment rules
   name: OptScale Resources API
   slug: optscale-resources-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OptScale REST Authentication API
+  slug: open-optscale-authentication-api
+- collection_type: open
+  name: OptScale REST Authentication Cloud Accounts API
+  slug: open-optscale-cloud-accounts-api
+- collection_type: open
+  name: OptScale REST Authentication Employees API
+  slug: open-optscale-employees-api
+- collection_type: open
+  name: OptScale REST Authentication Expenses API
+  slug: open-optscale-expenses-api
+- collection_type: open
+  name: OptScale REST Authentication Optimizations API
+  slug: open-optscale-optimizations-api
+- collection_type: open
+  name: OptScale REST Authentication Organizations API
+  slug: open-optscale-organizations-api
+- collection_type: open
+  name: OptScale REST Authentication Pools API
+  slug: open-optscale-pools-api
+- collection_type: open
+  name: OptScale REST Authentication Recommendations API
+  slug: open-optscale-recommendations-api
+- collection_type: open
+  name: OptScale REST Authentication Resources API
+  slug: open-optscale-resources-api
 - collection_type: open
   name: OptScale REST API
   slug: open-optscale
@@ -132,7 +162,7 @@ plans:
 - name: Optscale Plans Pricing
   plan_count: 3
   slug: optscale-plans-pricing
-random_paper: 19
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Optscale Rate Limits
@@ -157,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/screenshots/optscale-2026-06-20T191116.png
 security:

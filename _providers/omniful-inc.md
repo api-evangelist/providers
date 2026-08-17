@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 34
 apis:
 - description: The Background Jobs API from Omniful, Inc. — 1 operation(s) for background jobs.
@@ -133,11 +133,117 @@ apis:
 - description: The Webhooks API from Omniful, Inc. — 1 operation(s) for webhooks.
   name: Omniful, Inc. Webhooks API
   slug: omniful-inc-webhooks-api
-artifact_total: 38
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Omniful Inc Webhooks
   slug: omniful-inc-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs API
+  slug: open-omniful-inc-background-jobs-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Billing API
+  slug: open-omniful-inc-billing-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Courier Partners API
+  slug: open-omniful-inc-courier-partners-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Customers API
+  slug: open-omniful-inc-customers-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Cycle Count API
+  slug: open-omniful-inc-cycle-count-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Hubs API
+  slug: open-omniful-inc-hubs-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Inventory API
+  slug: open-omniful-inc-inventory-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Orders API
+  slug: open-omniful-inc-orders-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Orders (V2) API
+  slug: open-omniful-inc-orders-v2-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Packaging Material API
+  slug: open-omniful-inc-packaging-material-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Packaging Materials API
+  slug: open-omniful-inc-packaging-materials-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Pickup Locations API
+  slug: open-omniful-inc-pickup-locations-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs POS API
+  slug: open-omniful-inc-pos-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Purchase Order API
+  slug: open-omniful-inc-purchase-order-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Report API
+  slug: open-omniful-inc-report-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Return Orders API
+  slug: open-omniful-inc-return-orders-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Return Orders (V2) API
+  slug: open-omniful-inc-return-orders-v2-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Return Requests API
+  slug: open-omniful-inc-return-requests-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Return To Sender API
+  slug: open-omniful-inc-return-to-sender-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Returns API
+  slug: open-omniful-inc-returns-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Seller and Sales Channel APIs API
+  slug: open-omniful-inc-seller-and-sales-channel-apis-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Seller API
+  slug: open-omniful-inc-seller-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Seller Integrations API
+  slug: open-omniful-inc-seller-integrations-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Shipment API
+  slug: open-omniful-inc-shipment-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Shipment Orders API
+  slug: open-omniful-inc-shipment-orders-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Shipments API
+  slug: open-omniful-inc-shipments-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Shipping Accounts API
+  slug: open-omniful-inc-shipping-accounts-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs SKUs API
+  slug: open-omniful-inc-skus-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs SKUs (V2) API
+  slug: open-omniful-inc-skus-v2-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Stock Transfer Order API
+  slug: open-omniful-inc-stock-transfer-order-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Stock Transfer Request API
+  slug: open-omniful-inc-stock-transfer-request-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Tenant APIs API
+  slug: open-omniful-inc-tenant-apis-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Webhook API
+  slug: open-omniful-inc-webhook-api
+- collection_type: open
+  name: Omniful Integration APIs Background Jobs Webhooks API
+  slug: open-omniful-inc-webhooks-api
 common:
 - group: agent
   title: ''
@@ -242,7 +348,7 @@ overview: 'Omniful, Inc. publishes 34 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Omniful, Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 15 more developer resources.'
-random_paper: 41
+random_paper: 78
 score:
   band: developing
   composite: 46.2
@@ -263,7 +369,7 @@ score:
       total: 34
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png
 security:

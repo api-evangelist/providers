@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,14 +54,32 @@ apis:
 - description: Manage vehicle information for quoting.
   name: Progressive Vehicles API
   slug: progressive-vehicles-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Progressive Auto Quote API
   slug: open-progressive-auto-quote-api
 - collection_type: open
   name: Progressive Certificate of Insurance API
   slug: open-progressive-certificate-of-insurance-api
+- collection_type: open
+  name: Progressive Auto Quote Certificates API
+  slug: open-progressive-certificates-api
+- collection_type: open
+  name: Progressive Auto Quote Certificates Drivers API
+  slug: open-progressive-drivers-api
+- collection_type: open
+  name: Progressive Auto Quote Certificates Policies API
+  slug: open-progressive-policies-api
+- collection_type: open
+  name: Progressive Auto Quote Certificates Quotes API
+  slug: open-progressive-quotes-api
+- collection_type: open
+  name: Progressive Auto Quote Certificates Vehicles API
+  slug: open-progressive-vehicles-api
 common:
 - group: agent
   title: ''
@@ -127,7 +145,7 @@ press:
 - date: '2026-05-25'
   title: Progressive Insurance tests limits of AI-generated ads
   url: https://www.thedrum.com/news/progressive-insurance-tests-limits-ai-generated-ads-and-learns-when-pull-back
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Progressive Rate Limits
@@ -158,7 +176,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png
 security:

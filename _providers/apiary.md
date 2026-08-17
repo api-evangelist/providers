@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Apiary API provides programmatic access to manage API projects, documentation, and team collaboration. It allows creating and updating API Blueprint and Swagger/OpenAPI documents, managing team me
@@ -136,7 +136,7 @@ plans:
 - name: Apiary Plans Pricing
   plan_count: 3
   slug: apiary-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Apiary Rate Limits
@@ -154,7 +154,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 24.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/screenshots/apiary-2026-06-20T172227.png
 security:

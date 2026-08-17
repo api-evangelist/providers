@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: How ad slots are interleaved into the feed.
@@ -46,11 +46,30 @@ apis:
 - description: Short polls injected between content items in the feed.
   name: ShortKit Surveys API
   slug: shortkit-surveys-api
-artifact_total: 9
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Shortkit Webhooks
   slug: shortkit-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ShortKit Ad Configuration API
+  slug: open-shortkit-ad-configuration-api
+- collection_type: open
+  name: ShortKit Ad Configuration Analytics API
+  slug: open-shortkit-analytics-api
+- collection_type: open
+  name: ShortKit Ad Configuration Content API
+  slug: open-shortkit-content-api
+- collection_type: open
+  name: ShortKit Ad Configuration Live Streams API
+  slug: open-shortkit-live-streams-api
+- collection_type: open
+  name: ShortKit Ad Configuration Surveys API
+  slug: open-shortkit-surveys-api
 common:
 - group: other
   title: ''
@@ -175,7 +194,7 @@ overview: 'ShortKit publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShortKit''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, sandbox, and 19 more developer resources.'
-random_paper: 48
+random_paper: 143
 score:
   band: developing
   composite: 47.1
@@ -198,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

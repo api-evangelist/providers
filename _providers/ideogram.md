@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The subpackage_vision API from Ideogram — 1 operation(s) for subpackage_vision.
   name: Ideogram subpackage_vision API
   slug: ideogram-subpackage-vision-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference subpackage_datasets API
+  slug: open-ideogram-subpackage-datasets-api
+- collection_type: open
+  name: API Reference subpackage_datasets subpackage_generate API
+  slug: open-ideogram-subpackage-generate-api
+- collection_type: open
+  name: API Reference subpackage_datasets subpackage_models API
+  slug: open-ideogram-subpackage-models-api
+- collection_type: open
+  name: API Reference subpackage_datasets subpackage_vision API
+  slug: open-ideogram-subpackage-vision-api
 - collection_type: open
   name: API Reference
   slug: open-ideogram
@@ -125,7 +140,7 @@ plans:
 - name: Ideogram Plans Pricing
   plan_count: 2
   slug: ideogram-plans-pricing
-random_paper: 0
+random_paper: 95
 rate_limits:
 - limit_count: 2
   name: Ideogram Rate Limits
@@ -150,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/screenshots/ideogram-2026-06-20T183206.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: User profile and balance.
@@ -49,7 +49,29 @@ apis:
 - description: History of your completed sales.
   name: DMarket Sold user items API
   slug: dmarket-sold-user-items-api
-artifact_total: 9
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DMarket trading Account API
+  slug: open-dmarket-account-api
+- collection_type: open
+  name: DMarket trading Account Aggregator API
+  slug: open-dmarket-aggregator-api
+- collection_type: open
+  name: DMarket trading Account Buy items API
+  slug: open-dmarket-buy-items-api
+- collection_type: open
+  name: DMarket trading Account Inventory/items API
+  slug: open-dmarket-inventory-items-api
+- collection_type: open
+  name: DMarket trading Account Sell Items API
+  slug: open-dmarket-sell-items-api
+- collection_type: open
+  name: DMarket trading Account Sold user items API
+  slug: open-dmarket-sold-user-items-api
 common:
 - group: other
   title: ''
@@ -147,7 +169,7 @@ overview: 'DMarket publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   DMarket''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 13 more developer resources.'
-random_paper: 24
+random_paper: 148
 score:
   band: developing
   composite: 43.8
@@ -176,7 +198,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/screenshots/dmarket-2026-07-25T212204.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Spaces and space settings
   name: Atlassian Confluence Spaces (v2) API
   slug: atlassian-confluence-spaces-v2-api
-artifact_total: 36
+artifact_total: 42
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Atlassian Confluence Cloud REST API (v1 and v2) Content (v1) Content (v1) Content (v1) API
+  slug: open-atlassian-confluence-content-v1-api
+- collection_type: open
+  name: Atlassian Confluence Cloud REST API (v1 and v2) Content (v1) Content (v1) Labels (v2) API
+  slug: open-atlassian-confluence-labels-v2-api
+- collection_type: open
+  name: Atlassian Confluence Cloud REST API (v1 and v2) Content (v1) Content (v1) Pages (v2) API
+  slug: open-atlassian-confluence-pages-v2-api
+- collection_type: open
+  name: Atlassian Confluence Cloud REST API (v1 and v2) Content (v1) Content (v1) Search (v1) API
+  slug: open-atlassian-confluence-search-v1-api
+- collection_type: open
+  name: Atlassian Confluence Cloud REST API (v1 and v2) Content (v1) Content (v1) Spaces (v2) API
+  slug: open-atlassian-confluence-spaces-v2-api
 - collection_type: open
   name: Atlassian Confluence Cloud REST API (v1 and v2)
   slug: open-atlassian-confluence
@@ -203,7 +221,7 @@ plans:
 - name: Atlassian Confluence Plans Pricing
   plan_count: 3
   slug: atlassian-confluence-plans-pricing
-random_paper: 23
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Atlassian Confluence Rate Limits
@@ -233,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/screenshots/atlassian-confluence-2026-06-20T172532.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Brands, brand themes, homepage settings, watermarks, and summary reports.
   name: ShootProof Studios API
   slug: shootproof-studios-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ShootProof Studio API (Curated Subset) Clients API
+  slug: open-shootproof-clients-api
+- collection_type: open
+  name: ShootProof Studio API (Curated Subset) Clients Contracts API
+  slug: open-shootproof-contracts-api
+- collection_type: open
+  name: ShootProof Studio API (Curated Subset) Clients Events & Galleries API
+  slug: open-shootproof-events-galleries-api
+- collection_type: open
+  name: ShootProof Studio API (Curated Subset) Clients Orders API
+  slug: open-shootproof-orders-api
+- collection_type: open
+  name: ShootProof Studio API (Curated Subset) Clients Photos API
+  slug: open-shootproof-photos-api
+- collection_type: open
+  name: ShootProof Studio API (Curated Subset) Clients Service Description API
+  slug: open-shootproof-service-description-api
+- collection_type: open
+  name: ShootProof Studio API (Curated Subset) Clients Studios API
+  slug: open-shootproof-studios-api
 - collection_type: open
   name: ShootProof Studio API
   slug: open-shootproof
@@ -134,7 +158,7 @@ plans:
 - name: Shootproof Plans Pricing
   plan_count: 5
   slug: shootproof-plans-pricing
-random_paper: 27
+random_paper: 64
 rate_limits:
 - limit_count: 4
   name: Shootproof Rate Limits
@@ -164,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

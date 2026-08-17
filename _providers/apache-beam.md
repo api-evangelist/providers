@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Apache Beam SDK provides the programming model for constructing data processing pipelines. Available in Java, Python, and Go, it provides PCollections, PTransforms, and Runners for batch and strea
@@ -175,7 +175,7 @@ plans:
 - name: Apache Beam Plans Pricing
   plan_count: 3
   slug: apache-beam-plans-pricing
-random_paper: 100
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Apache Beam Rate Limits
@@ -193,7 +193,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 23.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-beam/refs/heads/main/screenshots/apache-beam-2026-06-20T172044.png
 security:

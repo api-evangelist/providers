@@ -9,12 +9,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +22,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 12.2
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: Data-as-a-Service access to Onclusive's media intelligence corpus — 28M+ daily media content items across print, online, broadcast and social media, 300K+ verified journalist contacts, and 250K+ globa
+  name: Onclusive Media API
+  slug: onclusive-media-api
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -63,36 +67,105 @@ common:
   title: ''
   type: DomainSecurity
   url: security/airpr-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.onclusive.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/AirPR
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/airpr-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/airpr-scopes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/airpr-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/airpr-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/airpr-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/airpr-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/airpr-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Onclusive markets a Media API but publishes no reference for it — the product page's only calls to action are "Arrange a Demo" and a contact form — and the AWS API Gateway Developer Portal at developer.onclusive.com that would carry the catalog renders an empty React shell to anonymous visitors, with its content bundle returning 403 AccessDenied from S3 and its backing REST API returning 403 "Missing Authentication Token" behind an Amazon Cognito login.
+  evidence:
+  - status: 200
+    url: https://onclusive.com/what-we-do/monitoring/media-api/
+  - status: 403
+    url: https://rcbv8po81k.execute-api.us-east-1.amazonaws.com/prod/catalog
+  - status: 403
+    url: https://developer.onclusive.com/custom-content/content-fragments/home/index.md
+  - status: 404
+    url: https://onclusive.com/openapi.json
+  - status: 404
+    url: https://airpr.com/.well-known/agent-card.json
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
 description: AirPR is a public relations analytics and media measurement company whose software helped communications teams quantify the business impact of earned media, tie coverage to web traffic and conversions, and benchmark share of voice against competitors. AirPR is now part of Onclusive, the media intelligence platform that monitors and enriches conversations across 3M+ online sources, 70K+ print outlets, 6K+ broadcast channels, and 25+ social platforms for PR, communications, and marketing professionals. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airpr.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-13'
 name: AirPR
 nav: Providers
 network: true
-overview: 'AirPR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Relations, Media Intelligence, Media Monitoring, and Analytics.
+overview: 'AirPR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Relations, Media Intelligence, Media Monitoring, and Analytics.
 
 
-  AirPR''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 62
+  AirPR''s developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
+plans:
+- name: Airpr Plans Pricing
+  plan_count: 0
+  slug: airpr-plans-pricing
+random_paper: 95
+rate_limits:
+- limit_count: 0
+  name: Airpr Rate Limits
+  slug: airpr-rate-limits
+scopes:
+- name: Airpr Scopes
+  scope_count: 4
+  slug: airpr-scopes
+  summary_line: 4 scopes · authorizationCode/implicit
 score:
   band: emerging
-  composite: 13.7
-  delta: 0.0
+  composite: 21.4
+  delta: 7.7
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 66.7
+    governance: 12.5
+    operational_transparency: 5.3
   previous_composite: 13.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/airpr/refs/heads/main/screenshots/airpr-2026-07-25T195431.png
 security:
+- kind: authentication
+  name: Airpr Authentication
+  slug: airpr-authentication
+  summary_line: openIdConnect/oauth2 · 2 schemes
 - kind: domain-security
   name: Airpr Domain Security
   slug: airpr-domain-security

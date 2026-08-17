@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: The Amortization API from LendAPI — 1 operation(s) for amortization.
@@ -71,11 +71,54 @@ apis:
 - description: The Variable API from LendAPI — 1 operation(s) for variable.
   name: LendAPI Variable API
   slug: lendapi-variable-api
-artifact_total: 17
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Lendapi Webhooks
   slug: lendapi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: lendapi Amortization API
+  slug: open-lendapi-amortization-api
+- collection_type: open
+  name: lendapi Amortization Application API
+  slug: open-lendapi-application-api
+- collection_type: open
+  name: lendapi Amortization Credit Risk API
+  slug: open-lendapi-credit-risk-api
+- collection_type: open
+  name: lendapi Amortization Decision API
+  slug: open-lendapi-decision-api
+- collection_type: open
+  name: lendapi Amortization Decisions API
+  slug: open-lendapi-decisions-api
+- collection_type: open
+  name: lendapi Amortization Get App Credit Report API
+  slug: open-lendapi-get-app-credit-report-api
+- collection_type: open
+  name: lendapi Amortization Outcomes API
+  slug: open-lendapi-outcomes-api
+- collection_type: open
+  name: lendapi Amortization Page Submit API
+  slug: open-lendapi-page-submit-api
+- collection_type: open
+  name: lendapi Amortization Pricing Engine API
+  slug: open-lendapi-pricing-engine-api
+- collection_type: open
+  name: lendapi Amortization Pricing Engines API
+  slug: open-lendapi-pricing-engines-api
+- collection_type: open
+  name: lendapi Amortization Sub Tenant API
+  slug: open-lendapi-sub-tenant-api
+- collection_type: open
+  name: lendapi Amortization Sub Tenants API
+  slug: open-lendapi-sub-tenants-api
+- collection_type: open
+  name: lendapi Amortization Variable API
+  slug: open-lendapi-variable-api
 common:
 - group: company
   title: ''
@@ -241,7 +284,7 @@ overview: 'LendAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LendAPI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 13
+random_paper: 137
 score:
   band: developing
   composite: 52.7
@@ -270,7 +313,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/screenshots/lendapi-2026-07-25T224857.png
 security:

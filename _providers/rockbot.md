@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid product; API access on request
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - authentication
-  trial: false
+  - plans
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -23,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-12'
+  score: 41.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -56,7 +57,29 @@ apis:
 - description: Digital-signage campaigns and assets by group or zone.
   name: Rockbot Signage API
   slug: rockbot-signage-api
-artifact_total: 11
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rockbot Audio Messaging API
+  slug: open-rockbot-audio-messaging-api
+- collection_type: open
+  name: Rockbot Audio Messaging Auth API
+  slug: open-rockbot-auth-api
+- collection_type: open
+  name: Rockbot Audio Messaging Data API
+  slug: open-rockbot-data-api
+- collection_type: open
+  name: Rockbot Audio Messaging Devices API
+  slug: open-rockbot-devices-api
+- collection_type: open
+  name: Rockbot Audio Messaging Music API
+  slug: open-rockbot-music-api
+- collection_type: open
+  name: Rockbot Audio Messaging Signage API
+  slug: open-rockbot-signage-api
 common:
 - group: agent
   title: ''
@@ -154,6 +177,10 @@ common:
   title: ''
   type: MCPServer
   url: mcp/rockbot-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/rockbot-tool-crosswalk.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -162,6 +189,34 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/rockbot-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/rockbot-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/rockbot-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/rockbot-rate-limits.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/rockbot-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.rockbot.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/rockbot-inc
 created: '2026-07-17'
 description: 'Rockbot is a unified in-location media platform for businesses, giving multi-location operators one system to control background music, audio messaging, digital signage, Rockbot TV, music videos, and retail-media advertising across their venues. Its v5 REST API lets customers programmatically manage that estate: control music playback and playlist overrides per zone, run audio-messaging and signage campaigns by group or zone, upload and attach assets, check device status / screenshots and reboot players remotely, and pull or export music, messaging, and signage playback history. Authentication is OAuth 2.0 client-credentials issuing 24-hour bearer tokens, with a documented default rate limit of one request per second. Rockbot is a GV (Google Ventures) portfolio company in the consumer sector.'
 image: https://cdn.sanity.io/images/6h2uzio7/production/f258140dd891894dc1e27722af21f29a7c8c33e5-1581x1581.png
@@ -170,31 +225,39 @@ mcp_servers:
 - description: ''
   name: rockbot-mcp.yml
   slug: rockbot-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Rockbot
 nav: Providers
 network: true
 overview: 'Rockbot publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio Messaging API, Auth API, Data API, and 3 more. Tagged areas include Company, Consumer, Music, Digital Signage, and Audio Messaging.
 
 
-  Rockbot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 36
+  Rockbot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+plans:
+- name: Rockbot Plans Pricing
+  plan_count: 4
+  slug: rockbot-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 2
+  name: Rockbot Rate Limits
+  slug: rockbot-rate-limits
 scopes:
 - name: Rockbot Scopes
   scope_count: 0
   slug: rockbot-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: strong
+  composite: 59.5
+  delta: 14.0
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 92.1
     contract_quality: 55.0
     developer_ergonomics: 56.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
-    operational_transparency: 15.8
+    operational_transparency: 42.1
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -207,17 +270,25 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Rockbot Authentication
   slug: rockbot-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2/openIdConnect · 2 schemes
 - kind: domain-security
   name: Rockbot Domain Security
   slug: rockbot-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Rockbot Vulnerability Disclosure
+  slug: rockbot-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Rockbot Trust Center
+  slug: rockbot-trust-center
+  summary_line: SOC 2
 slug: rockbot
 tags:
 - Company

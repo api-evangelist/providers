@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: User accounts in the directory
   name: Azure Active Directory Users API
   slug: azure-ad-users-api
-artifact_total: 33
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph API (Azure AD) Applications API
+  slug: open-azure-ad-applications-api
+- collection_type: open
+  name: Microsoft Graph API (Azure AD) Applications Directory API
+  slug: open-azure-ad-directory-api
+- collection_type: open
+  name: Microsoft Graph API (Azure AD) Applications Groups API
+  slug: open-azure-ad-groups-api
+- collection_type: open
+  name: Microsoft Graph API (Azure AD) Applications Me API
+  slug: open-azure-ad-me-api
+- collection_type: open
+  name: Microsoft Graph API (Azure AD) Applications Users API
+  slug: open-azure-ad-users-api
 - collection_type: open
   name: Microsoft Graph API (Azure AD)
   slug: open-azure-ad
@@ -165,7 +183,7 @@ plans:
 - name: Azure Ad Plans Pricing
   plan_count: 3
   slug: azure-ad-plans-pricing
-random_paper: 73
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Azure Ad Rate Limits
@@ -195,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/screenshots/azure-ad-2026-06-20T172836.png
 security:

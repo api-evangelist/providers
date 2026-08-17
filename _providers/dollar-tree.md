@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Dollar General eyes AI optimization with new role
   url: https://www.grocerydive.com/news/dollar-general-ai-optimization-executive-role/804881/
-random_paper: 35
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Dollar Tree Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dollar-tree/refs/heads/main/screenshots/dollar-tree-2026-06-20T180143.png
 security:

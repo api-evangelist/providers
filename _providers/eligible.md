@@ -1,34 +1,35 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
+  - https://eligible.com/pricing
+  - https://eligible.com/signup
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
+  score: 37.4
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Coverage API performs real-time insurance eligibility and benefits verification for a patient against a payer. Clients submit provider NPI, payer ID, and member identity information and receive st
@@ -46,12 +47,12 @@ apis:
 - description: The Payers API exposes the directory of insurance payers supported by Eligible, including payer identifiers, names, supported transaction types, enrollment requirements, and webhook capabilities. Clie
   name: Eligible Payers API
   slug: payers
-artifact_total: 9
+artifact_total: 12
+asyncapis:
+- description: ''
+  name: Eligible Webhooks
+  slug: eligible-webhooks
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/eligible-domain-security.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -63,11 +64,119 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://eligible.com/
+  url: https://eligible.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://eligible.com/reference
 - group: company
   title: ''
   type: Blog
   url: https://eligible.com/blog/feed/
+- group: operate
+  title: ''
+  type: Support
+  url: https://eligible.com/support
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/eligible
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://eligible.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://eligible.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://eligible.com/users/sign_in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://eligible.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://eligible.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.eligible.com
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://eligible.com/compliance
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/eligible-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/eligible-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/eligible-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/eligible-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/eligible-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/eligible-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/eligible-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/eligible-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/eligible-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/eligible-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/eligible-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/eligible-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/eligible-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/eligible-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/eligible-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/eligible-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/eligible-llms.txt
 created: '2024-07-02'
 description: Eligible provides insurance billing APIs for healthcare businesses, enabling the integration of insurance billing experiences into healthcare applications. The platform supports eligibility verification, coverage discovery, claims submission and tracking, payment estimation, enrollment, and remittance processing across a large network of US payers.
 finops:
@@ -76,49 +185,60 @@ finops:
   slug: eligible-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eligible.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-15'
 name: Eligible
 nav: Providers
 network: true
 overview: 'Eligible publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Billing, Eligibility, Healthcare, Insurance, and Claims.
 
 
-  Eligible''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
+  The Eligible catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Eligible''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 24 more developer resources.'
 plans:
 - name: Eligible Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: eligible-plans-pricing
-random_paper: 109
+random_paper: 84
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Eligible Rate Limits
   slug: eligible-rate-limits
 score:
-  band: minimal
-  composite: 12.3
-  delta: 0.0
+  band: developing
+  composite: 50.4
+  delta: 38.1
   facets:
-    commercial_clarity: 15.8
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 7.9
+    commercial_clarity: 73.7
+    contract_quality: 51.6
+    developer_ergonomics: 45.7
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 28.9
   previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 9.1
+    score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Eligible Authentication
+  slug: eligible-authentication
+  summary_line: apiKey · 5 schemes
 - kind: domain-security
   name: Eligible Domain Security
   slug: eligible-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Eligible Trust Center
+  slug: eligible-trust-center
+  summary_line: HITRUST r2, HITRUST CSF, NIST Cybersecurity Framework v1.1, SOC 2, CAQH CORE Phase I, CAQH CORE Phase II, CAQH CORE Phase III, CAQH CORE Phase IV, EHNAC HNAP, EHNAC CEAP, HIPAA
 slug: eligible
 tags:
 - Billing

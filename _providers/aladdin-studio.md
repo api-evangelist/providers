@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: Security reference data and classification
   name: Aladdin Studio Securities API
   slug: aladdin-studio-securities-api
-artifact_total: 97
+artifact_total: 108
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aladdin Data Cloud Analytics API
+  slug: open-aladdin-studio-analytics-api
+- collection_type: open
+  name: Aladdin Data Cloud Analytics Connections API
+  slug: open-aladdin-studio-connections-api
+- collection_type: open
+  name: Aladdin Data Cloud Analytics Datasets API
+  slug: open-aladdin-studio-datasets-api
+- collection_type: open
+  name: Aladdin Data Cloud Analytics Orders API
+  slug: open-aladdin-studio-orders-api
+- collection_type: open
+  name: Aladdin Data Cloud Analytics Portfolios API
+  slug: open-aladdin-studio-portfolios-api
+- collection_type: open
+  name: Aladdin Data Cloud Analytics Positions API
+  slug: open-aladdin-studio-positions-api
+- collection_type: open
+  name: Aladdin Data Cloud Analytics Queries API
+  slug: open-aladdin-studio-queries-api
+- collection_type: open
+  name: Aladdin Data Cloud Analytics Research API
+  slug: open-aladdin-studio-research-api
+- collection_type: open
+  name: Aladdin Data Cloud Analytics Risk API
+  slug: open-aladdin-studio-risk-api
+- collection_type: open
+  name: Aladdin Data Cloud Analytics Securities API
+  slug: open-aladdin-studio-securities-api
 common:
 - group: agent
   title: ''
@@ -354,7 +388,7 @@ plans:
 - name: Aladdin Studio Plans Pricing
   plan_count: 1
   slug: aladdin-studio-plans-pricing
-random_paper: 106
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: Aladdin Studio Rate Limits
@@ -401,7 +435,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

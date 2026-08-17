@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,11 +63,23 @@ apis:
 - description: Vessel static data and characteristics
   name: MarineTraffic Vessels API
   slug: marinetraffic-vessels-api
-artifact_total: 28
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: MarineTraffic AIS Vessel Tracking API
   slug: open-marinetraffic-ais
+- collection_type: open
+  name: MarineTraffic AIS Vessel Tracking Port Operations API
+  slug: open-marinetraffic-port-operations-api
+- collection_type: open
+  name: MarineTraffic AIS Port Operations Vessel Tracking API
+  slug: open-marinetraffic-vessel-tracking-api
+- collection_type: open
+  name: MarineTraffic AIS Vessel Tracking Port Operations Vessels API
+  slug: open-marinetraffic-vessels-api
 common:
 - group: agent
   title: ''
@@ -176,7 +188,7 @@ plans:
 - name: Marinetraffic Plans Pricing
   plan_count: 1
   slug: marinetraffic-plans-pricing
-random_paper: 51
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Marinetraffic Rate Limits
@@ -210,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/screenshots/marinetraffic-2026-06-20T184951.png
 security:

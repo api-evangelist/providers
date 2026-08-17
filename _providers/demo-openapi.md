@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Index of HTTP application programming interfaces.
@@ -37,7 +37,17 @@ apis:
 - description: Search using a cloud search engine.
   name: Manage OpenAPI via GitHub Demo Search API
   slug: demo-openapi-search-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Technical Contract for the .io Search APIs API
+  slug: open-demo-openapi-apis-api
+- collection_type: open
+  name: Technical Contract for the APIs.io Search API
+  slug: open-demo-openapi-search-api
 common:
 - group: auth
   title: ''
@@ -96,7 +106,7 @@ plans:
 - name: Demo Openapi Plans Pricing
   plan_count: 3
   slug: demo-openapi-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Demo Openapi Rate Limits
@@ -129,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demo-openapi/refs/heads/main/screenshots/demo-openapi-2026-06-20T175908.png
 security:

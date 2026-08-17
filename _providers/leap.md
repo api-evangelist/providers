@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: The create meters API from Leap — 4 operation(s) for create meters.
@@ -61,11 +61,45 @@ apis:
 - description: The webhooks API from Leap — 3 operation(s) for webhooks.
   name: Leap webhooks API
   slug: leap-webhooks-api
-artifact_total: 14
+artifact_total: 25
 asyncapis:
 - description: Leap delivers two independent webhook surfaces to partner-hosted HTTPS receivers. 1. The general webhook platform — connect-session and meter/enrollment lifecycle events, with subscriptions managed th
   name: Leap Webhook Events
   slug: leap-events-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: create meters API
+  slug: open-leap-create-meters-api
+- collection_type: open
+  name: create meters group-dispatches API
+  slug: open-leap-group-dispatches-api
+- collection_type: open
+  name: create meters Meter Details API
+  slug: open-leap-meter-details-api
+- collection_type: open
+  name: create meters meter-dispatches API
+  slug: open-leap-meter-dispatches-api
+- collection_type: open
+  name: create meters meter enrollment API
+  slug: open-leap-meter-enrollment-api
+- collection_type: open
+  name: create meters nominations API
+  slug: open-leap-nominations-api
+- collection_type: open
+  name: create meters performance API
+  slug: open-leap-performance-api
+- collection_type: open
+  name: create meters provisional assets API
+  slug: open-leap-provisional-assets-api
+- collection_type: open
+  name: create meters revenue API
+  slug: open-leap-revenue-api
+- collection_type: open
+  name: create meters webhooks API
+  slug: open-leap-webhooks-api
 common:
 - group: other
   title: ''
@@ -230,7 +264,7 @@ overview: 'Leap publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Leap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 29 more developer resources.'
-random_paper: 58
+random_paper: 120
 score:
   band: developing
   composite: 50.3
@@ -259,7 +293,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/screenshots/leap-2026-07-25T224743.png
 security:

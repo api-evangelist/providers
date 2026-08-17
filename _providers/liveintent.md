@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -50,11 +50,18 @@ apis:
 - description: LiveIntent's exchange-side real-time bidding integration for demand-side platforms. It implements a subset of the IAB OpenRTB API Specification 2.5 together with OpenRTB Native Ads 1.1 and 1.2, passin
   name: LiveIntent Programmatic Bidding API
   slug: programmatic-bidding
-artifact_total: 10
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Liveintent Events
   slug: liveintent-events
+collections:
+- collection_type: open
+  name: Audiences API
+  slug: open-liveintent-audiences
+- collection_type: open
+  name: LiveIntent Privacy Management API
+  slug: open-liveintent-privacy
 common:
 - group: agent
   title: ''
@@ -192,7 +199,7 @@ plans:
 - name: Liveintent Plans Pricing
   plan_count: 0
   slug: liveintent-plans-pricing
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Liveintent Rate Limits
@@ -200,7 +207,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.1
-  delta: 26.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 52.6
@@ -208,10 +215,10 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 15.5
+  previous_composite: 42.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/screenshots/liveintent-2026-07-25T225352.png
 security:
 - kind: authentication

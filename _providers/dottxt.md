@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: Models available to your API key.
   name: dottxt Models API
   slug: dottxt-models-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dottxt Platform Chat API
+  slug: open-dottxt-chat-api
+- collection_type: open
+  name: dottxt Platform Chat Models API
+  slug: open-dottxt-models-api
 common:
 - group: other
   title: ''
@@ -154,7 +164,7 @@ overview: 'dottxt publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   dottxt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 79
+random_paper: 83
 score:
   band: thin
   composite: 32.1
@@ -178,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dottxt/refs/heads/main/screenshots/dottxt-2026-07-25T212322.png
 security:

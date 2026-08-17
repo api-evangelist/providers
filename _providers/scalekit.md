@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Organization user membership lifecycle and invitations.
   name: Scalekit Users & Memberships API
   slug: scalekit-users-memberships-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scalekit Admin Portal API
+  slug: open-scalekit-admin-portal-api
+- collection_type: open
+  name: Scalekit Admin Portal Authentication API
+  slug: open-scalekit-authentication-api
+- collection_type: open
+  name: Scalekit Admin Portal Connected Accounts API
+  slug: open-scalekit-connected-accounts-api
+- collection_type: open
+  name: Scalekit Admin Portal Connections API
+  slug: open-scalekit-connections-api
+- collection_type: open
+  name: Scalekit Admin Portal Directories API
+  slug: open-scalekit-directories-api
+- collection_type: open
+  name: Scalekit Admin Portal Organization Settings API
+  slug: open-scalekit-organization-settings-api
+- collection_type: open
+  name: Scalekit Admin Portal Organizations API
+  slug: open-scalekit-organizations-api
+- collection_type: open
+  name: Scalekit Admin Portal Roles API
+  slug: open-scalekit-roles-api
+- collection_type: open
+  name: Scalekit Admin Portal Users & Memberships API
+  slug: open-scalekit-users-memberships-api
 - collection_type: open
   name: Scalekit API
   slug: open-scalekit
@@ -140,7 +170,7 @@ plans:
 - name: Scalekit Plans Pricing
   plan_count: 5
   slug: scalekit-plans-pricing
-random_paper: 8
+random_paper: 103
 rate_limits:
 - limit_count: 6
   name: Scalekit Rate Limits
@@ -170,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/screenshots/scalekit-2026-06-20T193503.png
 security:

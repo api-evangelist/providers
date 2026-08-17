@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: The GraphQL API from Ledgy — 1 operation(s) for graphql.
   name: Ledgy GraphQL API
   slug: ledgy-graphql-api
-artifact_total: 10
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ledgy GraphQL API
+  slug: open-ledgy-graphql-api
 - collection_type: open
   name: Ledgy GraphQL API
   slug: open-ledgy
@@ -120,7 +126,7 @@ plans:
 - name: Ledgy Plans Pricing
   plan_count: 3
   slug: ledgy-plans-pricing
-random_paper: 53
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Ledgy Rate Limits
@@ -145,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/screenshots/ledgy-2026-07-25T224817.png
 security:

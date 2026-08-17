@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Dabee
 nav: Providers
 network: true
 overview: Dabee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reviews, Consumer Electronics, Comparison Shopping, and Affiliate.
-random_paper: 17
+random_paper: 50
 score:
   band: minimal
   composite: 7.1
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dabee/refs/heads/main/screenshots/dabee-2026-07-25T211122.png
 slug: dabee

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,38 +66,41 @@ apis:
 - description: The Cohere Detokenize API converts a sequence of token IDs back into their corresponding text string using the tokenizer for a specified model. It is the inverse operation of the Tokenize API and is u
   name: Cohere Detokenize API
   slug: detokenize-api
-artifact_total: 80
+artifact_total: 81
 asyncapis:
 - description: 'AsyncAPI definition for Cohere''s HTTP+SSE streaming endpoints. Cohere''s streaming responses are NOT delivered via WebSockets. They are delivered as Server-Sent Events (SSE) over plain HTTPS, returned '
   name: Cohere Streaming API
   slug: cohere-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Cohere Chat API
   slug: open-cohere-chat-api
 - collection_type: open
-  name: Cohere Classify API
+  name: Cohere Chat Classify API
   slug: open-cohere-classify-api
 - collection_type: open
-  name: Cohere Datasets API
+  name: Cohere Chat Datasets API
   slug: open-cohere-datasets-api
 - collection_type: open
-  name: Cohere Detokenize API
+  name: Cohere Chat Detokenize API
   slug: open-cohere-detokenize-api
 - collection_type: open
-  name: Cohere Embed API
+  name: Cohere Chat Embed API
   slug: open-cohere-embed-api
 - collection_type: open
-  name: Cohere Embed Jobs API
+  name: Cohere Chat Embed Jobs API
   slug: open-cohere-embed-jobs-api
 - collection_type: open
-  name: Cohere Models API
+  name: Cohere Chat Models API
   slug: open-cohere-models-api
 - collection_type: open
-  name: Cohere Rerank API
+  name: Cohere Chat Rerank API
   slug: open-cohere-rerank-api
 - collection_type: open
-  name: Cohere Tokenize API
+  name: Cohere Chat Tokenize API
   slug: open-cohere-tokenize-api
 common:
 - group: agent
@@ -303,7 +306,7 @@ plans:
 - name: Cohere Plans Pricing
   plan_count: 6
   slug: cohere-plans-pricing
-random_paper: 30
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Cohere Rate Limits
@@ -345,7 +348,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/screenshots/cohere-2026-06-20T174719.png
 security:

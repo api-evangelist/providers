@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,8 +63,17 @@ apis:
 - description: The Transactions API from GoTo Group (Gojek + Tokopedia) — 10 operation(s) for transactions.
   name: GoTo Group (Gojek + Tokopedia) Transactions API
   slug: goto-gojek-transactions-api
-artifact_total: 15
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Midtrans Core API (GoTo Financial) Tokenization API
+  slug: open-goto-gojek-tokenization-api
+- collection_type: open
+  name: Midtrans Core API (GoTo Financial) Tokenization Transactions API
+  slug: open-goto-gojek-transactions-api
 - collection_type: open
   name: Midtrans Core API (GoTo Financial)
   slug: open-goto-gojek
@@ -174,7 +183,7 @@ plans:
 - name: Goto Gojek Plans Pricing
   plan_count: 1
   slug: goto-gojek-plans-pricing
-random_paper: 54
+random_paper: 120
 rate_limits:
 - limit_count: 2
   name: Goto Gojek Rate Limits
@@ -205,7 +214,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/screenshots/goto-gojek-2026-06-20T182257.png
 security:

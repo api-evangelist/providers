@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Fetch applicant data, hiring status and leads for a job.
@@ -58,7 +58,38 @@ apis:
 - description: SCIM 2.0 user and group management.
   name: Phenom User Management API
   slug: phenom-user-management-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Phenom Talent Experience Platform Applicants API
+  slug: open-phenom-applicants-api
+- collection_type: open
+  name: Phenom Talent Experience Platform Applicants Applications API
+  slug: open-phenom-applications-api
+- collection_type: open
+  name: Phenom Talent Experience Platform Applicants Candidates API
+  slug: open-phenom-candidates-api
+- collection_type: open
+  name: Phenom Talent Experience Platform Applicants Jobs API
+  slug: open-phenom-jobs-api
+- collection_type: open
+  name: Phenom Talent Experience Platform Applicants Onboarding API
+  slug: open-phenom-onboarding-api
+- collection_type: open
+  name: Phenom Talent Experience Platform Applicants Parsers API
+  slug: open-phenom-parsers-api
+- collection_type: open
+  name: Phenom Talent Experience Platform Applicants Prediction API
+  slug: open-phenom-prediction-api
+- collection_type: open
+  name: Phenom Talent Experience Platform Applicants Tags API
+  slug: open-phenom-tags-api
+- collection_type: open
+  name: Phenom Talent Experience Platform Applicants User Management API
+  slug: open-phenom-user-management-api
 common:
 - group: other
   title: ''
@@ -188,7 +219,7 @@ overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Phenom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 21 more developer resources.'
-random_paper: 47
+random_paper: 51
 score:
   band: developing
   composite: 48.2
@@ -211,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

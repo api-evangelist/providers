@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for creating and managing notarization, eSign, Identify, and real-estate transactions, documents, signers, notaries, templates, and Webhooks V2 subscriptions.
@@ -171,7 +171,7 @@ overview: 'Notarize publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Notarize''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 36
+random_paper: 131
 scopes:
 - name: Notarize Scopes
   scope_count: 2
@@ -194,7 +194,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/screenshots/notarize-2026-08-07T185539.png
 security:

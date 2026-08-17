@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Login, logout and signup.
@@ -52,7 +52,32 @@ apis:
 - description: Reading, marking and starring stories.
   name: NewsBlur stories API
   slug: newsblur-stories-api
-artifact_total: 10
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NewsBlur authentication API
+  slug: open-newsblur-authentication-api
+- collection_type: open
+  name: NewsBlur authentication classifiers API
+  slug: open-newsblur-classifiers-api
+- collection_type: open
+  name: NewsBlur authentication feed-management API
+  slug: open-newsblur-feed-management-api
+- collection_type: open
+  name: NewsBlur authentication feeds API
+  slug: open-newsblur-feeds-api
+- collection_type: open
+  name: NewsBlur authentication import-export API
+  slug: open-newsblur-import-export-api
+- collection_type: open
+  name: NewsBlur authentication social API
+  slug: open-newsblur-social-api
+- collection_type: open
+  name: NewsBlur authentication stories API
+  slug: open-newsblur-stories-api
 common:
 - group: start
   title: ''
@@ -158,7 +183,7 @@ overview: 'NewsBlur publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   NewsBlur''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 42
+random_paper: 137
 score:
   band: thin
   composite: 41.3
@@ -181,7 +206,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/screenshots/newsblur-2026-08-07T185129.png
 security:

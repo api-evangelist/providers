@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 10
 common:
@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: Big Lots Says Previously Announced Sale Has Fallen ...
   url: https://www.pymnts.com/news/retail/2024/big-lots-says-previously-announced-sale-has-fallen-through/
-random_paper: 81
+random_paper: 56
 score:
   band: minimal
   composite: 5.7
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/big-lots/refs/heads/main/screenshots/big-lots-2026-06-20T173227.png
 security:

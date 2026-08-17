@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: List, search, and retrieve holidays, observances, and events.
   name: Checkiday - National Holiday and Event API Events API
   slug: checkiday-national-holiday-api-events-api
-artifact_total: 22
+artifact_total: 24
 collections:
 - collection_type: postman
   name: Checkiday - National Holiday and Event Events API
   slug: postman-checkiday-national-holiday-api-events-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Checkiday - National Holiday and Event Events API
+  slug: open-checkiday-national-holiday-api-events-api
 - collection_type: open
   name: Checkiday - National Holiday and Event API
   slug: open-checkiday
@@ -216,7 +222,7 @@ plans:
 - name: Checkiday Plans Pricing
   plan_count: 5
   slug: checkiday-plans-pricing
-random_paper: 102
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Checkiday Rate Limits
@@ -258,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/screenshots/checkiday-national-holiday-api-2026-06-20T174241.png
 security:

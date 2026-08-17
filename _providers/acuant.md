@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,7 +78,35 @@ apis:
 - description: Supported document types, subscriptions, logs
   name: Acuant Metadata API
   slug: acuant-metadata-api
-artifact_total: 27
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Acuant ACAS (Cloud Service) Authentication API
+  slug: open-acuant-authentication-api
+- collection_type: open
+  name: Acuant ACAS (Cloud Service) Authentication Chip Data API
+  slug: open-acuant-chip-data-api
+- collection_type: open
+  name: Acuant ACAS (Cloud Service) Authentication Document Data API
+  slug: open-acuant-document-data-api
+- collection_type: open
+  name: Acuant ACAS (Cloud Service) Authentication Document Instances API
+  slug: open-acuant-document-instances-api
+- collection_type: open
+  name: Acuant ACAS (Cloud Service) Authentication Face Match API
+  slug: open-acuant-face-match-api
+- collection_type: open
+  name: Acuant ACAS (Cloud Service) Authentication Images API
+  slug: open-acuant-images-api
+- collection_type: open
+  name: Acuant ACAS (Cloud Service) Authentication Liveness API
+  slug: open-acuant-liveness-api
+- collection_type: open
+  name: Acuant ACAS (Cloud Service) Authentication Metadata API
+  slug: open-acuant-metadata-api
 common:
 - group: agent
   title: ''
@@ -188,7 +216,7 @@ plans:
 - name: Acuant Plans Pricing
   plan_count: 5
   slug: acuant-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Acuant Rate Limits
@@ -222,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/screenshots/acuant-2026-06-20T164341.png
 security:

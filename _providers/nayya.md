@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -71,7 +71,44 @@ apis:
 - description: The Token API from Nayya — 1 operation(s) for token.
   name: Nayya Token API
   slug: nayya-token-api
-artifact_total: 17
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accounts Benefits API
+  slug: open-nayya-benefits-api
+- collection_type: open
+  name: Accounts Benefits Carriers API
+  slug: open-nayya-carriers-api
+- collection_type: open
+  name: Accounts Benefits Connections API
+  slug: open-nayya-connections-api
+- collection_type: open
+  name: Accounts Benefits Dependents API
+  slug: open-nayya-dependents-api
+- collection_type: open
+  name: Accounts Benefits Employees API
+  slug: open-nayya-employees-api
+- collection_type: open
+  name: Accounts Benefits Employers API
+  slug: open-nayya-employers-api
+- collection_type: open
+  name: Accounts Benefits Enrollments API
+  slug: open-nayya-enrollments-api
+- collection_type: open
+  name: Accounts Benefits Recommendations API
+  slug: open-nayya-recommendations-api
+- collection_type: open
+  name: Accounts Benefits Rule Templates API
+  slug: open-nayya-rule-templates-api
+- collection_type: open
+  name: Accounts Benefits Snapshots API
+  slug: open-nayya-snapshots-api
+- collection_type: open
+  name: Accounts Benefits Token API
+  slug: open-nayya-token-api
 common:
 - group: other
   title: ''
@@ -197,7 +234,7 @@ overview: 'Nayya publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nayya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 66
+random_paper: 99
 score:
   band: developing
   composite: 47.4
@@ -227,7 +264,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/screenshots/nayya-2026-08-07T184744.png
 security:

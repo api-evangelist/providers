@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -168,8 +168,140 @@ apis:
 - description: The Users Elements Data API from Permit.io — 6 operation(s) for users elements data.
   name: Permit.io Users Elements Data API
   slug: permit-io-users-elements-data-api
-artifact_total: 52
+artifact_total: 96
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Access Requests (EAP) API
+  slug: open-permit-io-access-requests-eap-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Activity Log API
+  slug: open-permit-io-activity-log-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) API History API
+  slug: open-permit-io-api-history-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) API Keys API
+  slug: open-permit-io-api-keys-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Audit Elements Data API
+  slug: open-permit-io-audit-elements-data-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Audit Log Replay API
+  slug: open-permit-io-audit-log-replay-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Audit Logs API
+  slug: open-permit-io-audit-logs-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Bulk Operations API
+  slug: open-permit-io-bulk-operations-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Condition Set Rules API
+  slug: open-permit-io-condition-set-rules-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Condition Sets API
+  slug: open-permit-io-condition-sets-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Deprecated API
+  slug: open-permit-io-deprecated-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Elements Configs (EAP) API
+  slug: open-permit-io-elements-configs-eap-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Email Configurations API
+  slug: open-permit-io-email-configurations-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Email Templates API
+  slug: open-permit-io-email-templates-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Environments API
+  slug: open-permit-io-environments-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Groups API
+  slug: open-permit-io-groups-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Implicit Grants API
+  slug: open-permit-io-implicit-grants-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Invites API
+  slug: open-permit-io-invites-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Members API
+  slug: open-permit-io-members-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) OPAL Data ( EAP ) API
+  slug: open-permit-io-opal-data-eap-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Operation Approval (EAP) API
+  slug: open-permit-io-operation-approval-eap-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Organizations API
+  slug: open-permit-io-organizations-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Policy Decision Points API
+  slug: open-permit-io-policy-decision-points-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Policy Git Repositories API
+  slug: open-permit-io-policy-git-repositories-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Policy Guards (EAP) API
+  slug: open-permit-io-policy-guards-eap-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Projects API
+  slug: open-permit-io-projects-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Proxy Config API
+  slug: open-permit-io-proxy-config-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Relationship tuples API
+  slug: open-permit-io-relationship-tuples-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Resource Action Groups API
+  slug: open-permit-io-resource-action-groups-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Resource Actions API
+  slug: open-permit-io-resource-actions-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Resource Attributes API
+  slug: open-permit-io-resource-attributes-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Resource Instances API
+  slug: open-permit-io-resource-instances-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Resource Relations API
+  slug: open-permit-io-resource-relations-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Resource Roles API
+  slug: open-permit-io-resource-roles-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Resources API
+  slug: open-permit-io-resources-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Role Assignments API
+  slug: open-permit-io-role-assignments-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Roles API
+  slug: open-permit-io-roles-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Scope Configurations API
+  slug: open-permit-io-scope-configurations-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Tenants API
+  slug: open-permit-io-tenants-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) User Attributes API
+  slug: open-permit-io-user-attributes-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) User Invites API
+  slug: open-permit-io-user-invites-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Users API
+  slug: open-permit-io-users-api
+- collection_type: open
+  name: Permit.io Access Requests (EAP) Access Requests (EAP) Users Elements Data API
+  slug: open-permit-io-users-elements-data-api
 - collection_type: open
   name: Permit.io API
   slug: open-permit-io
@@ -250,7 +382,7 @@ plans:
 - name: Permit Io Plans Pricing
   plan_count: 3
   slug: permit-io-plans-pricing
-random_paper: 78
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Permit Io Rate Limits
@@ -281,7 +413,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/permit-io/refs/heads/main/screenshots/permit-io-2026-06-20T191609.png
 security:

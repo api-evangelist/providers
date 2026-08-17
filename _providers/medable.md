@@ -23,18 +23,18 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-12'
+  score: 18.5
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Schema-driven object API for building clinical applications on Medable: custom objects and typed properties, querying and aggregation, server-side scripting, accounts, connections, notifications, and '
   name: Medable Cortex API
   slug: medable-cortex-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -134,16 +134,36 @@ common:
   url: sandbox/medable-sandbox.yml
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/medable-well-known.yml
-- group: agent
-  title: ''
   type: LLMsTxt
   url: llms/medable-llms.txt
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/medable-domain-security.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.medable.com/platform/overview
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://info.medable.com/Pricing.html
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/medable-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/medable-rate-limits.yml
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.medable.com/company/support
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://www.medable.com/resources/faq
 created: '2026-07-17'
 description: Medable operates a clinical trial technology platform for decentralized and hybrid trials, combining eCOA/ePRO data capture, electronic consent, televisit, and a suite of agentic-AI products (Agent Studio, CRA Agent, PI Summary Review, Digital Data Flow agent) for life-sciences sponsors and CROs. Its developer surface is the Cortex API — a schema-driven object platform (custom objects and properties, querying, aggregation, and server-side scripting) addressed over REST at api.<env>.medable.com/<org_code>/v2/, with session-based and request-signature authentication, an mdctl developer CLI, and an iOS/Swift SDK. Backed by Obvious Ventures and Sapphire Ventures.
 image: https://cdn.prod.website-files.com/63da4ae4359b4b2bffd2a3b6/64677a1c8fad4c624f57af3c_medable-open-graph-image.png
@@ -152,26 +172,34 @@ mcp_servers:
 - description: ''
   name: medable-mcp.yml
   slug: medable-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-15'
 name: Medable
 nav: Providers
 network: true
 overview: 'Medable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Health, Clinical Trials, Life Sciences, and eCOA.
 
 
-  Medable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 114
+  Medable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+plans:
+- name: Medable Plans Pricing
+  plan_count: 0
+  slug: medable-plans-pricing
+random_paper: 118
+rate_limits:
+- limit_count: 12
+  name: Medable Rate Limits
+  slug: medable-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 41.5
+  delta: 7.6
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 73.9
     discoverability: 75.9
     governance: 3.1
-    operational_transparency: 36.8
+    operational_transparency: 68.4
   previous_composite: 33.9
   provenance:
     conformance: derived
@@ -181,10 +209,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/screenshots/medable-2026-08-07T172312.png
 security:
 - kind: authentication

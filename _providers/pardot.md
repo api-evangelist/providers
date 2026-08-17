@@ -1,34 +1,36 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Sales-assisted, with published list pricing
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
-  - authentication
-  trial: false
+  - plans/pardot-plans-pricing.yml
+  - https://www.salesforce.com/marketing/b2b-automation/pricing/
+  trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-12'
+  score: 49.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,8 +49,14 @@ apis:
 - description: The Objects API from Salesforce Marketing Cloud Account Engagement (Pardot) — 24 operation(s) for objects.
   name: Salesforce Marketing Cloud Account Engagement (Pardot) Objects API
   slug: pardot-objects-api
-artifact_total: 9
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesforce Account Engagement (Pardot) API v5 Objects API
+  slug: open-pardot-objects-api
 - collection_type: open
   name: Salesforce Account Engagement (Pardot) API v5
   slug: open-pardot
@@ -91,37 +99,169 @@ common:
   url: https://www.salesforce.com/marketing/b2b-automation/pricing/
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://www.salesforce.com/form/signup/freetrial-b2bma/
+- group: auth
+  title: ''
+  type: Security
+  url: security/pardot-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/pardot-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/pardot-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pardot-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pardot-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pardot-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pardot-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.salesforce.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.salesforce.com/docs/marketing/pardot/guide/transitioning-v5.html
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pardot-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pardot-plans-pricing.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/pardot-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pardot-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/pardot-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/pardot-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/pardot-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/pardot-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pardot-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/pardot-well-known.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: XMLSchema
+  url: schemas/pardot-schemas.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://github.com/pardot/postman-pardot-apis
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.salesforce.com/docs/marketing/pardot/guide/overview.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.salesforce.com/docs/marketing/pardot/guide/version5overview.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.salesforce.com/docs/marketing/pardot/guide/getting-started.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.salesforce.com/s/articleView?id=sf.bundle_pardot_parent.htm&type=5
+- group: company
+  title: ''
+  type: Blog
+  url: https://developer.salesforce.com/blogs/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.salesforce.com/company/privacy/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/pardot/api-schemas
 created: '2026-05-11'
 description: Salesforce Marketing Cloud Account Engagement, formerly known as Pardot, is a B2B marketing automation platform tightly integrated with Salesforce CRM for lead generation, lead nurturing, email marketing, and marketing ROI reporting. The platform provides campaigns, forms, landing pages, dynamic content, lead scoring/grading, and Engagement Studio for multi-step nurture programs. Version 5 of the Account Engagement REST API uses Salesforce OAuth 2.0 authentication and requires a Business Unit ID header, with hosts at pi.pardot.com (production) and pi.demo.pardot.com (sandbox).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pardot.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: pardot-mcp.yml
+  slug: pardot-mcpyml
+modified: '2026-08-13'
 name: Salesforce Marketing Cloud Account Engagement (Pardot)
 nav: Providers
 network: true
 overview: 'Salesforce Marketing Cloud Account Engagement (Pardot) publishes 1 API on the [APIs.io](https://apis.io/) network: Objects API. Tagged areas include Marketing Automation, B2B Marketing, Lead Generation, Email Marketing, and Salesforce.
 
 
-  Salesforce Marketing Cloud Account Engagement (Pardot)''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 50
+  Salesforce Marketing Cloud Account Engagement (Pardot)''s developer surface includes authentication, documentation, pricing, signup flow, sandbox, API reference, getting-started guide, and 33 more developer resources.'
+plans:
+- name: Pardot Plans Pricing
+  plan_count: 4
+  slug: pardot-plans-pricing
+random_paper: 54
+rate_limits:
+- limit_count: 5
+  name: Pardot Rate Limits
+  slug: pardot-rate-limits
 scopes:
 - name: Pardot Scopes
   scope_count: 1
   slug: pardot-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 29.8
-  delta: 0.0
+  band: exemplar
+  composite: 68.3
+  delta: 38.5
   facets:
-    commercial_clarity: 23.7
+    commercial_clarity: 92.1
     contract_quality: 52.2
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 5.3
+    developer_ergonomics: 84.8
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 71.1
   previous_composite: 29.8
   provenance:
     agentic_access: derived
@@ -131,8 +271,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/screenshots/pardot-2026-06-20T191406.png
 security:
 - kind: authentication
@@ -146,7 +286,11 @@ security:
 - kind: vulnerability-disclosure
   name: Pardot Vulnerability Disclosure
   slug: pardot-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Pardot Trust Center
+  slug: pardot-trust-center
+  summary_line: C5 (ISAE 3000), CCCS Assessment - Protected B, CJIS, CSA STAR, DoD IL2, DoD IL4, DoD IL5, EU Cloud Code of Conduct, FedRAMP High, FedRAMP Moderate, GDPR, HIPAA, HITRUST, IRAP, ISMAP, ISO 22301, ISO 27001, ISO 27017, ISO 27018, ISO 42001, ISO 9001, NEN 7510, NIST SP 800-171, PCI DSS, PrivacyMark, SOC 1, SOC 2, SOC 3, Salesforce BCRs, TISAX, TX-RAMP, U.S. Data Privacy Framework (DPF), WCAG 2.2 AA
 slug: pardot
 tags:
 - Marketing Automation

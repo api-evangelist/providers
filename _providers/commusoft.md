@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -66,7 +66,35 @@ apis:
 - description: Retrieve user records
   name: Commusoft Users API
   slug: commusoft-users-api
-artifact_total: 26
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Commusoft Authentication API
+  slug: open-commusoft-authentication-api
+- collection_type: open
+  name: Commusoft Authentication Contacts API
+  slug: open-commusoft-contacts-api
+- collection_type: open
+  name: Commusoft Authentication Customers API
+  slug: open-commusoft-customers-api
+- collection_type: open
+  name: Commusoft Authentication Diary Events API
+  slug: open-commusoft-diary-events-api
+- collection_type: open
+  name: Commusoft Authentication Locations API
+  slug: open-commusoft-locations-api
+- collection_type: open
+  name: Commusoft Authentication Suppliers API
+  slug: open-commusoft-suppliers-api
+- collection_type: open
+  name: Commusoft Authentication Titles API
+  slug: open-commusoft-titles-api
+- collection_type: open
+  name: Commusoft Authentication Users API
+  slug: open-commusoft-users-api
 common:
 - group: agent
   title: ''
@@ -177,7 +205,7 @@ plans:
 - name: Commusoft Plans Pricing
   plan_count: 5
   slug: commusoft-plans-pricing
-random_paper: 29
+random_paper: 95
 rate_limits:
 - limit_count: 0
   name: Commusoft Rate Limits
@@ -211,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/screenshots/commusoft-2026-06-20T174826.png
 security:

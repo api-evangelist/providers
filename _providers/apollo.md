@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -83,8 +83,53 @@ apis:
 - description: The Users API from Apollo — 1 operation(s) for users.
   name: Apollo Users API
   slug: apollo-users-api
-artifact_total: 45
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apollo.io Accounts API
+  slug: open-apollo-accounts-api
+- collection_type: open
+  name: Apollo.io Accounts Contacts API
+  slug: open-apollo-contacts-api
+- collection_type: open
+  name: Apollo.io Accounts Email Accounts API
+  slug: open-apollo-email-accounts-api
+- collection_type: open
+  name: Apollo.io Accounts Emailer Campaigns API
+  slug: open-apollo-emailer-campaigns-api
+- collection_type: open
+  name: Apollo.io Accounts Mixed Companies API
+  slug: open-apollo-mixed-companies-api
+- collection_type: open
+  name: Apollo.io Accounts Mixed People API
+  slug: open-apollo-mixed-people-api
+- collection_type: open
+  name: Apollo.io Accounts Opportunities API
+  slug: open-apollo-opportunities-api
+- collection_type: open
+  name: Apollo.io Accounts Organizations API
+  slug: open-apollo-organizations-api
+- collection_type: open
+  name: Apollo.io Accounts People API
+  slug: open-apollo-people-api
+- collection_type: open
+  name: Apollo.io Accounts Phone Calls API
+  slug: open-apollo-phone-calls-api
+- collection_type: open
+  name: Apollo.io Accounts Sync Report API
+  slug: open-apollo-sync-report-api
+- collection_type: open
+  name: Apollo.io Accounts Tasks API
+  slug: open-apollo-tasks-api
+- collection_type: open
+  name: Apollo.io Accounts Usage Stats API
+  slug: open-apollo-usage-stats-api
+- collection_type: open
+  name: Apollo.io Accounts Users API
+  slug: open-apollo-users-api
 - collection_type: open
   name: Apollo.io API
   slug: open-apollo
@@ -205,7 +250,7 @@ plans:
 - name: Apollo Plans Pricing
   plan_count: 3
   slug: apollo-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Apollo Rate Limits
@@ -230,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo/refs/heads/main/screenshots/apollo-2026-06-20T172305.png
 security:

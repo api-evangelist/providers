@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The core Epsilon Retail Media (CitrusAd) REST API. Retailers use it to sync product catalogs, catalog products, customers and order data into the platform, and to request product ads, static banner ad
@@ -33,7 +33,17 @@ apis:
 - description: Manages cross-sell category definitions used by the category cross-sell ad placement, where ads for one category are shown against products in a different, related category. Four operations — list, cr
   name: Epsilon Retail Media Cross-Sell Category API
   slug: epsilon-retail-media-cross-sell-category-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: CrossSellCategory API
+  slug: open-epsilon-retail-media-cross-sell-category
+- collection_type: open
+  name: Citrus filter-mapping API
+  slug: open-epsilon-retail-media-filter-mapping
+- collection_type: open
+  name: Epsilon Retail Media Integration API
+  slug: open-epsilon-retail-media-integration
 common:
 - group: auth
   title: ''
@@ -147,7 +157,7 @@ plans:
 - name: Epsilon Plans Pricing
   plan_count: 0
   slug: epsilon-plans-pricing
-random_paper: 42
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Epsilon Rate Limits
@@ -155,6 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 50.5
@@ -162,8 +173,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Epsilon Authentication

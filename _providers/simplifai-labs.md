@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -75,7 +75,7 @@ name: Simplifai Labs
 nav: Providers
 network: true
 overview: Simplifai Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Marketing Technology, and Advertising.
-random_paper: 101
+random_paper: 80
 score:
   band: minimal
   composite: 5.7
@@ -89,7 +89,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: simplifai-labs
 tags:

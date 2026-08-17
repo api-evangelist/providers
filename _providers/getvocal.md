@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,20 @@ apis:
 - description: The .well Known API from GetVocal — 1 operation(s) for .well known.
   name: GetVocal .well Known API
   slug: getvocal-well-known-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GetVocal Agent Contact API
+  slug: open-getvocal-contact-api
+- collection_type: open
+  name: GetVocal Agent Contact Llms.txt API
+  slug: open-getvocal-llms-txt-api
+- collection_type: open
+  name: GetVocal Agent Contact .well Known API
+  slug: open-getvocal-well-known-api
 common:
 - group: other
   title: ''
@@ -136,7 +149,7 @@ overview: 'GetVocal publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   GetVocal''s developer surface includes documentation, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 13
+random_paper: 108
 score:
   band: thin
   composite: 39.2
@@ -160,7 +173,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/screenshots/getvocal-2026-07-25T215750.png
 security:

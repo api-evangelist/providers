@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,14 @@ apis:
 - description: The Projects API from Scalability Testing — 4 operation(s) for projects.
   name: Scalability Testing Projects API
   slug: scalability-testing-projects-api
-artifact_total: 18
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Grafana Cloud k6 REST Projects API
+  slug: open-scalability-testing-projects-api
 - collection_type: open
   name: Grafana Cloud k6 REST API
   slug: open-scalability-testing
@@ -147,7 +153,7 @@ plans:
 - name: Scalability Testing Plans Pricing
   plan_count: 3
   slug: scalability-testing-plans-pricing
-random_paper: 60
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Scalability Testing Rate Limits
@@ -181,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalability-testing/refs/heads/main/screenshots/scalability-testing-2026-06-20T193451.png
 security:

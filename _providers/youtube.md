@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ arazzos:
 - description: Pull a video's statistics, its top comment thread, and the replies under that thread's top comment.
   name: YouTube Video Engagement Report
   slug: youtube-video-engagement-report-workflow
-artifact_total: 416
+artifact_total: 441
 collections:
 - collection_type: postman
   name: YouTube Analytics API
@@ -221,17 +221,92 @@ collections:
   name: YouTube Reporting API
   slug: postman-youtube-reporting
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: YouTube Analytics Analytics Groups API
+  slug: open-youtube-analytics-groups-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Analytics Reports API
+  slug: open-youtube-analytics-reports-api
+- collection_type: open
   name: YouTube Analytics API
   slug: open-youtube-analytics
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Captions API
+  slug: open-youtube-captions-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Channels API
+  slug: open-youtube-channels-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Comments API
+  slug: open-youtube-comments-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups CommentThreads API
+  slug: open-youtube-commentthreads-api
 - collection_type: open
   name: YouTube Data API v3
   slug: open-youtube-data-api
 - collection_type: open
+  name: YouTube Analytics Analytics Groups Group Items API
+  slug: open-youtube-group-items-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups GroupItems API
+  slug: open-youtube-groupitems-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups API
+  slug: open-youtube-groups-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups I18n API
+  slug: open-youtube-i18n-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Jobs API
+  slug: open-youtube-jobs-api
+- collection_type: open
   name: YouTube Live Streaming API
   slug: open-youtube-live-streaming
 - collection_type: open
+  name: YouTube Analytics Analytics Groups LiveBroadcasts API
+  slug: open-youtube-livebroadcasts-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups LiveChatMessages API
+  slug: open-youtube-livechatmessages-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups LiveChatModerators API
+  slug: open-youtube-livechatmoderators-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups LiveStreams API
+  slug: open-youtube-livestreams-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Playlist Items API
+  slug: open-youtube-playlist-items-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups PlaylistItems API
+  slug: open-youtube-playlistitems-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Playlists API
+  slug: open-youtube-playlists-api
+- collection_type: open
   name: YouTube Reporting API
   slug: open-youtube-reporting
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Reports API
+  slug: open-youtube-reports-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups ReportTypes API
+  slug: open-youtube-reporttypes-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Search API
+  slug: open-youtube-search-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Subscriptions API
+  slug: open-youtube-subscriptions-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups VideoCategories API
+  slug: open-youtube-videocategories-api
+- collection_type: open
+  name: YouTube Analytics Analytics Groups Videos API
+  slug: open-youtube-videos-api
 common:
 - group: agent
   title: ''
@@ -1577,7 +1652,7 @@ plans:
 - name: Youtube Plans Pricing
   plan_count: 3
   slug: youtube-plans-pricing
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Youtube Rate Limits
@@ -1626,7 +1701,7 @@ score:
       total: 24
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png
 security:

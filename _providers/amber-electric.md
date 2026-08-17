@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,11 @@ apis:
 - description: Amber's Consumer Data Right energy data-holder surface, mandated by the Australian CDR regime extended from banking into energy and administered by the ACCC with standards set by the Data Standards Bo
   name: Amber Electric Consumer Data Right Energy API
   slug: amber-electric-cdr-energy-api
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Amber Electric Public API
+  slug: open-amber-electric-public-api
 common:
 - group: operate
   title: ''
@@ -193,7 +197,7 @@ overview: 'Amber Electric publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Amber Electric''s developer surface includes authentication, code examples, documentation, API reference, engineering blog, support, pricing, and 28 more developer resources.'
-random_paper: 87
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Amber Electric Rate Limits
@@ -232,7 +236,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/screenshots/amber-electric-2026-08-07T161314.png
 security:

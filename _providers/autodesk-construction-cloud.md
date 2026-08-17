@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Project and account user management
   name: Autodesk Construction Cloud Users API
   slug: autodesk-construction-cloud-users-api
-artifact_total: 69
+artifact_total: 75
 asyncapis:
 - description: Autodesk Construction Cloud (ACC) and APS Webhooks deliver event notifications for project activities including issue creation, document updates, RFI changes, submittal status changes, and model coord
   name: Autodesk Construction Cloud Webhooks
@@ -91,11 +91,29 @@ collections:
   name: Autodesk Construction Cloud Admin Companies Users API
   slug: postman-autodesk-construction-cloud-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Autodesk Construction Cloud Admin API
   slug: open-acc-admin
 - collection_type: open
   name: Autodesk Construction Cloud Issues API
   slug: open-acc-issues
+- collection_type: open
+  name: Autodesk Construction Cloud Admin Companies API
+  slug: open-autodesk-construction-cloud-companies-api
+- collection_type: open
+  name: Autodesk Construction Cloud Admin Companies Issues API
+  slug: open-autodesk-construction-cloud-issues-api
+- collection_type: open
+  name: Autodesk Construction Cloud Admin Companies IssueTypes API
+  slug: open-autodesk-construction-cloud-issuetypes-api
+- collection_type: open
+  name: Autodesk Construction Cloud Admin Companies Projects API
+  slug: open-autodesk-construction-cloud-projects-api
+- collection_type: open
+  name: Autodesk Construction Cloud Admin Companies Users API
+  slug: open-autodesk-construction-cloud-users-api
 common:
 - group: build
   title: ''
@@ -308,7 +326,7 @@ plans:
 - name: Autodesk Construction Cloud Plans Pricing
   plan_count: 3
   slug: autodesk-construction-cloud-plans-pricing
-random_paper: 52
+random_paper: 130
 rate_limits:
 - limit_count: 3
   name: Autodesk Construction Cloud Rate Limits
@@ -355,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/screenshots/autodesk-construction-cloud-2026-06-20T172629.png
 security:

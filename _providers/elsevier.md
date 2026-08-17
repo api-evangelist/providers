@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,17 @@ apis:
 - description: The Search API from Elsevier — 3 operation(s) for search.
   name: Elsevier Search API
   slug: elsevier-search-api
-artifact_total: 14
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Elsevier Scopus APIs Abstract API
+  slug: open-elsevier-abstract-api
+- collection_type: open
+  name: Elsevier Scopus APIs Abstract Search API
+  slug: open-elsevier-search-api
 - collection_type: open
   name: Elsevier Scopus APIs
   slug: open-elsevier
@@ -142,7 +151,7 @@ plans:
 - name: Elsevier Plans Pricing
   plan_count: 3
   slug: elsevier-plans-pricing
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 5
   name: Elsevier Rate Limits
@@ -173,7 +182,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png
 security:

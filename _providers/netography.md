@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 14
@@ -123,11 +123,99 @@ apis:
 - description: The Users API from Netography — 3 operation(s) for users.
   name: Netography Users API
   slug: netography-users-api
-artifact_total: 34
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Netography Webhooks
   slug: netography-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics API
+  slug: open-netography-analytics-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics API Keys API
+  slug: open-netography-api-keys-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Authentication API
+  slug: open-netography-authentication-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Auto Thresholds API
+  slug: open-netography-auto-thresholds-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Block List API
+  slug: open-netography-block-list-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Configuration API
+  slug: open-netography-configuration-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Detect and Respond - Context Creation Models API
+  slug: open-netography-detect-and-respond-context-creation-models-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Detect and Respond - Detection Categories API
+  slug: open-netography-detect-and-respond-detection-categories-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Detect and Respond - Response Policies API
+  slug: open-netography-detect-and-respond-response-policies-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Detect and Respond - Threshold Overrides API
+  slug: open-netography-detect-and-respond-threshold-overrides-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Detect and Respond - Traffic Detection Models API
+  slug: open-netography-detect-and-respond-traffic-detection-models-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Integrations - Context API
+  slug: open-netography-integrations-context-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Integrations - Response API
+  slug: open-netography-integrations-response-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Intelligence API
+  slug: open-netography-intelligence-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Labels - IPs API
+  slug: open-netography-labels-ips-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Labels - Ports API
+  slug: open-netography-labels-ports-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics MITRE ATT&CK API
+  slug: open-netography-mitre-att-ck-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Raw Records - Fetch API
+  slug: open-netography-raw-records-fetch-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Raw Records - Search API
+  slug: open-netography-raw-records-search-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Resellers API
+  slug: open-netography-resellers-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Roles API
+  slug: open-netography-roles-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Settings - Security API
+  slug: open-netography-settings-security-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Settings - Traffic Classification API
+  slug: open-netography-settings-traffic-classification-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Tags API
+  slug: open-netography-tags-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Traffic Sources - Devices API
+  slug: open-netography-traffic-sources-devices-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Traffic Sources - DNS Devices API
+  slug: open-netography-traffic-sources-dns-devices-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Traffic Sources - VPCs API
+  slug: open-netography-traffic-sources-vpcs-api
+- collection_type: open
+  name: Netography (Vectra Fusion) Analytics Users API
+  slug: open-netography-users-api
 common:
 - group: agent
   title: ''
@@ -236,7 +324,7 @@ overview: 'Netography publishes 28 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Netography''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 17 more developer resources.'
-random_paper: 9
+random_paper: 46
 score:
   band: thin
   composite: 39.2
@@ -260,7 +348,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/screenshots/netography-2026-08-07T184939.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Send approved WhatsApp Business templates.
   name: Trengo WhatsApp API
   slug: trengo-whatsapp-api
-artifact_total: 17
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trengo Channels API
+  slug: open-trengo-channels-api
+- collection_type: open
+  name: Trengo Channels Contacts API
+  slug: open-trengo-contacts-api
+- collection_type: open
+  name: Trengo Channels Labels and Custom Fields API
+  slug: open-trengo-labels-and-custom-fields-api
+- collection_type: open
+  name: Trengo Channels Messages API
+  slug: open-trengo-messages-api
+- collection_type: open
+  name: Trengo Channels Teams and Users API
+  slug: open-trengo-teams-and-users-api
+- collection_type: open
+  name: Trengo Channels Tickets API
+  slug: open-trengo-tickets-api
+- collection_type: open
+  name: Trengo Channels Webhooks API
+  slug: open-trengo-webhooks-api
+- collection_type: open
+  name: Trengo Channels WhatsApp API
+  slug: open-trengo-whatsapp-api
 - collection_type: open
   name: Trengo API
   slug: open-trengo
@@ -137,7 +164,7 @@ plans:
 - name: Trengo Plans Pricing
   plan_count: 4
   slug: trengo-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Trengo Rate Limits
@@ -162,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/screenshots/trengo-2026-06-20T195707.png
 security:

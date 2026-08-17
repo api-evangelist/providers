@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: '98point6 Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   98point6 Technologies'' developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 1
+random_paper: 125
 score:
   band: emerging
   composite: 17.3
@@ -126,7 +126,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/98point6/refs/heads/main/screenshots/98point6-2026-08-07T160721.png
 security:

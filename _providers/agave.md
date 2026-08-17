@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,11 +72,41 @@ apis:
 - description: Vendor and subcontractor management.
   name: Agave Vendors API
   slug: agave-vendors-api
-artifact_total: 104
+artifact_total: 114
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agave Unified Construction Budgets API
+  slug: open-agave-budgets-api
+- collection_type: open
+  name: Agave Unified Construction Budgets Contracts API
+  slug: open-agave-contracts-api
+- collection_type: open
+  name: Agave Unified Construction Budgets Cost Codes API
+  slug: open-agave-cost-codes-api
+- collection_type: open
+  name: Agave Unified Construction Budgets Employees API
+  slug: open-agave-employees-api
+- collection_type: open
+  name: Agave Unified Construction Budgets Invoices API
+  slug: open-agave-invoices-api
+- collection_type: open
+  name: Agave Unified Construction Budgets Link Sessions API
+  slug: open-agave-link-sessions-api
+- collection_type: open
+  name: Agave Unified Construction Budgets Projects API
+  slug: open-agave-projects-api
+- collection_type: open
+  name: Agave Unified Construction Budgets Timesheets API
+  slug: open-agave-timesheets-api
 - collection_type: open
   name: Agave Unified Construction API
   slug: open-agave-unified-api
+- collection_type: open
+  name: Agave Unified Construction Budgets Vendors API
+  slug: open-agave-vendors-api
 common:
 - group: agent
   title: ''
@@ -622,7 +652,7 @@ plans:
 - name: Agave Plans Pricing
   plan_count: 1
   slug: agave-plans-pricing
-random_paper: 36
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Agave Rate Limits
@@ -664,7 +694,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,11 +48,20 @@ apis:
 - description: Manage internet connections
   name: Lumen Technologies Connections API
   slug: lumen-technologies-connections-api
-artifact_total: 11
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Lumen Internet On-Demand API
   slug: open-lumen-internet-on-demand-api
+- collection_type: open
+  name: Lumen Internet On-Demand Bandwidth API
+  slug: open-lumen-technologies-bandwidth-api
+- collection_type: open
+  name: Lumen Internet On-Demand Bandwidth Connections API
+  slug: open-lumen-technologies-connections-api
 common:
 - group: agent
   title: ''
@@ -126,7 +135,7 @@ plans:
 - name: Lumen Technologies Plans Pricing
   plan_count: 2
   slug: lumen-technologies-plans-pricing
-random_paper: 74
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Lumen Technologies Rate Limits
@@ -162,7 +171,7 @@ score:
     regime_id: telecommunications
     score: 45.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/screenshots/lumen-technologies-2026-06-20T184754.png
 security:

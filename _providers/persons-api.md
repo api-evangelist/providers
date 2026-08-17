@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Placing and managing of persons placed for persons.
   name: Persons Persons API
   slug: persons-api-persons-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Persons API
+  slug: open-persons-api-persons-api
 - collection_type: open
   name: Persons API
   slug: open-persons-api
@@ -80,7 +86,7 @@ plans:
 - name: Persons Api Plans Pricing
   plan_count: 3
   slug: persons-api-plans-pricing
-random_paper: 57
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Persons Api Rate Limits
@@ -105,7 +111,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persons-api/refs/heads/main/screenshots/persons-api-2026-06-20T191617.png
 security:

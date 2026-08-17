@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -83,7 +83,53 @@ apis:
 - description: The Webhooks API from SkySlope — 1 operation(s) for webhooks.
   name: SkySlope Webhooks API
   slug: skyslope-webhooks-api
-artifact_total: 20
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings API
+  slug: open-skyslope-agents-listings-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Auth API
+  slug: open-skyslope-auth-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Buyer Agreements API
+  slug: open-skyslope-buyer-agreements-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Contacts API
+  slug: open-skyslope-contacts-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Documents API
+  slug: open-skyslope-documents-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Envelopes API
+  slug: open-skyslope-envelopes-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Files API
+  slug: open-skyslope-files-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Forms API
+  slug: open-skyslope-forms-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Libraries API
+  slug: open-skyslope-libraries-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Offers API
+  slug: open-skyslope-offers-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Report API
+  slug: open-skyslope-report-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Templates API
+  slug: open-skyslope-templates-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Users API
+  slug: open-skyslope-users-api
+- collection_type: open
+  name: SkySlope Partnership API Reference Agents, Listings Webhooks API
+  slug: open-skyslope-webhooks-api
 common:
 - group: agent
   title: ''
@@ -141,7 +187,7 @@ plans:
 - name: Skyslope Plans Pricing
   plan_count: 3
   slug: skyslope-plans-pricing
-random_paper: 50
+random_paper: 145
 rate_limits:
 - limit_count: 4
   name: Skyslope Rate Limits
@@ -166,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

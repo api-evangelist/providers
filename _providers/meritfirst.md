@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Hosted, authenticated Model Context Protocol server for managing assessments, reviewing candidates, and analyzing hiring data. Streamable-HTTP transport; Bearer MeritFirst API key (mf_) required.
@@ -96,7 +96,7 @@ overview: 'Meritfirst publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Meritfirst''s developer surface includes signup flow, authentication, and 9 more developer resources.'
-random_paper: 17
+random_paper: 54
 score:
   band: emerging
   composite: 15.5
@@ -112,7 +112,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/screenshots/meritfirst-2026-08-07T172605.png
 security:

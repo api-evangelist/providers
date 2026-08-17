@@ -23,18 +23,18 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-12'
+  score: 22.1
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RESTful JSON API to build and manage backstitch topics — content feeds assembled from social, RSS, video, deals, subreddit, and custom sources with include/exclude/NSFW filters — and to retrieve norma
   name: backstitch Content Curation API
   slug: backstitch-content-curation-api
-artifact_total: 4
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -104,6 +104,34 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/backstitch-llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.backstit.ch/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.backstitch.com/support-topic/getting-started/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.backstitch.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.backstitch.io/terms-of-service
+- group: start
+  title: ''
+  type: Login
+  url: https://studio.backstit.ch/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/backstitch-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/backstitch-trust-center.yml
 created: '2026-07-17'
 description: backstitch is a Techstars-backed Kansas City company that operates an employee and total-rewards communications platform (drag-and-drop newsletters, a branded mobile employee app, and personalized total-compensation statements) alongside a developer-facing content-curation API. The backstitch API lets applications build and manage "topics" that aggregate and filter content from social, RSS, video, deals, and custom sources, then retrieve normalized result objects (articles, statuses, photos, videos, products, services, hotels) or embed them with a drop-in JavaScript widget. The API is offered in a legacy v1 and a recommended v2 over REST/JSON, authenticated with an Organization Key plus per-topic tokens.
 image: https://www.backstitch.io/hs-fs/hubfs/backstitch_logo_purple_2020.png?width=170&height=36&name=backstitch_logo_purple_2020.png
@@ -112,32 +140,40 @@ mcp_servers:
 - description: ''
   name: backstitch-mcp.yml
   slug: backstitch-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: backstitch
 nav: Providers
 network: true
 overview: 'backstitch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Content Curation, Employee Communications, Internal Communications, and Total Rewards.
 
 
-  backstitch''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 96
+  backstitch''s developer surface includes documentation, API reference, support, engineering blog, authentication, getting-started guide, and 18 more developer resources.'
+plans:
+- name: Backstitch Plans Pricing
+  plan_count: 0
+  slug: backstitch-plans-pricing
+random_paper: 13
+rate_limits:
+- limit_count: 0
+  name: Backstitch Rate Limits
+  slug: backstitch-rate-limits
 score:
-  band: emerging
-  composite: 18.9
-  delta: 0.0
+  band: thin
+  composite: 31.7
+  delta: 12.8
   facets:
-    commercial_clarity: 18.4
+    commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 34.8
-    discoverability: 75.9
-    governance: 0.0
+    developer_ergonomics: 54.3
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 18.9
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/screenshots/backstitch-2026-07-25T202231.png
 security:
 - kind: authentication
@@ -148,6 +184,14 @@ security:
   name: Backstitch Domain Security
   slug: backstitch-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Backstitch Vulnerability Disclosure
+  slug: backstitch-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Backstitch Trust Center
+  slug: backstitch-trust-center
+  summary_line: SOC for Service Organizations (AICPA)
 slug: backstitch
 tags:
 - Company

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: Hudi timeline and commit operations
   name: Apache Hudi Timeline API
   slug: apache-hudi-timeline-api
-artifact_total: 44
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Hudi Timeline Server Tables API
+  slug: open-apache-hudi-tables-api
+- collection_type: open
+  name: Apache Hudi Server Tables Timeline API
+  slug: open-apache-hudi-timeline-api
 - collection_type: open
   name: Apache Hudi Timeline Server API
   slug: open-apache-hudi-timeline
@@ -215,7 +224,7 @@ plans:
 - name: Apache Hudi Plans Pricing
   plan_count: 3
   slug: apache-hudi-plans-pricing
-random_paper: 1
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Apache Hudi Rate Limits
@@ -257,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/screenshots/apache-hudi-2026-06-20T172109.png
 security:

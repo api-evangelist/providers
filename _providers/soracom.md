@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 616
   human_in_the_loop: 72
@@ -208,7 +208,7 @@ arazzos:
 - description: Look up a SIM, branch on whether it is active, and send a downlink SMS only when it can receive one.
   name: Soracom Send SMS to Active IoT SIM
   slug: soracom-send-sms-to-active-sim-workflow
-artifact_total: 144
+artifact_total: 182
 collections:
 - collection_type: postman
   name: Soracom Analysis and Query API
@@ -265,22 +265,79 @@ collections:
   name: Soracom Virtual Private Gateway API
   slug: postman-soracom-vpg-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Soracom and Query Analysis API
+  slug: open-soracom-analysis-api
+- collection_type: open
   name: Soracom Analysis and Query API
   slug: open-soracom-analysis-query-api
 - collection_type: open
-  name: Soracom Auth and Access Management API
+  name: 'Soracom and Query Analysis API Sandbox: Coupon API'
+  slug: open-soracom-api-sandbox-coupon-api
+- collection_type: open
+  name: 'Soracom and Query Analysis API Sandbox: Operator API'
+  slug: open-soracom-api-sandbox-operator-api
+- collection_type: open
+  name: 'Soracom and Query Analysis API Sandbox: Order API'
+  slug: open-soracom-api-sandbox-order-api
+- collection_type: open
+  name: 'Soracom and Query Analysis API Sandbox: Stats API'
+  slug: open-soracom-api-sandbox-stats-api
+- collection_type: open
+  name: 'Soracom and Query Analysis API Sandbox: Subscriber API'
+  slug: open-soracom-api-sandbox-subscriber-api
+- collection_type: open
+  name: Soracom and Query Analysis AuditLog API
+  slug: open-soracom-auditlog-api
+- collection_type: open
+  name: Soracom and Query Analysis Auth API
   slug: open-soracom-auth-api
 - collection_type: open
-  name: Soracom Batch API
+  name: Soracom and Query Analysis Batch API
   slug: open-soracom-batch-api
 - collection_type: open
-  name: Soracom Billing API
+  name: Soracom and Query Analysis Billing API
   slug: open-soracom-billing-api
+- collection_type: open
+  name: Soracom and Query Analysis CellLocation API
+  slug: open-soracom-celllocation-api
+- collection_type: open
+  name: Soracom and Query Analysis Credential API
+  slug: open-soracom-credential-api
+- collection_type: open
+  name: Soracom and Query Analysis DataEntry API
+  slug: open-soracom-dataentry-api
+- collection_type: open
+  name: Soracom and Query Analysis Device API
+  slug: open-soracom-device-api
+- collection_type: open
+  name: Soracom and Query Analysis DeviceObjectModel API
+  slug: open-soracom-deviceobjectmodel-api
+- collection_type: open
+  name: Soracom and Query Analysis Diagnostic API
+  slug: open-soracom-diagnostic-api
+- collection_type: open
+  name: Soracom and Query Analysis Email API
+  slug: open-soracom-email-api
 - collection_type: open
   name: Soracom Event Handler API
   slug: open-soracom-event-handler-api
 - collection_type: open
-  name: Soracom Group Configuration API
+  name: Soracom and Query Analysis EventHandler API
+  slug: open-soracom-eventhandler-api
+- collection_type: open
+  name: Soracom and Query Analysis FileEntry API
+  slug: open-soracom-fileentry-api
+- collection_type: open
+  name: Soracom and Query Analysis Files API
+  slug: open-soracom-files-api
+- collection_type: open
+  name: Soracom and Query Analysis Gadget API
+  slug: open-soracom-gadget-api
+- collection_type: open
+  name: Soracom and Query Analysis Group API
   slug: open-soracom-group-api
 - collection_type: open
   name: Soracom Harvest API
@@ -289,8 +346,20 @@ collections:
   name: Soracom Inventory API
   slug: open-soracom-inventory-api
 - collection_type: open
-  name: Soracom Lagoon API
+  name: Soracom and Query Analysis Lagoon API
   slug: open-soracom-lagoon-api
+- collection_type: open
+  name: Soracom and Query Analysis Log API
+  slug: open-soracom-log-api
+- collection_type: open
+  name: Soracom and Query Analysis LoraDevice API
+  slug: open-soracom-loradevice-api
+- collection_type: open
+  name: Soracom and Query Analysis LoraGateway API
+  slug: open-soracom-loragateway-api
+- collection_type: open
+  name: Soracom and Query Analysis LoraNetworkSet API
+  slug: open-soracom-loranetworkset-api
 - collection_type: open
   name: Soracom Air for LoRaWAN API
   slug: open-soracom-lorawan-api
@@ -298,23 +367,68 @@ collections:
   name: Soracom Napter API
   slug: open-soracom-napter-api
 - collection_type: open
+  name: Soracom and Query Analysis Operator API
+  slug: open-soracom-operator-api
+- collection_type: open
+  name: Soracom and Query Analysis Order API
+  slug: open-soracom-order-api
+- collection_type: open
+  name: Soracom and Query Analysis Payment API
+  slug: open-soracom-payment-api
+- collection_type: open
   name: Soracom API
   slug: open-soracom-platform-api
+- collection_type: open
+  name: Soracom and Query Analysis PortMapping API
+  slug: open-soracom-portmapping-api
+- collection_type: open
+  name: Soracom and Analysis Query API
+  slug: open-soracom-query-api
+- collection_type: open
+  name: Soracom and Query Analysis ResourceSummary API
+  slug: open-soracom-resourcesummary-api
+- collection_type: open
+  name: Soracom and Query Analysis Role API
+  slug: open-soracom-role-api
 - collection_type: open
   name: SORACOM SANDBOX API
   slug: open-soracom-sandbox-api
 - collection_type: open
+  name: Soracom and Query Analysis ShippingAddress API
+  slug: open-soracom-shippingaddress-api
+- collection_type: open
   name: Soracom Air for Sigfox API
   slug: open-soracom-sigfox-api
 - collection_type: open
-  name: Soracom SIM Management API
+  name: Soracom and Query Analysis SigfoxDevice API
+  slug: open-soracom-sigfoxdevice-api
+- collection_type: open
+  name: Soracom and Query Analysis Sim API
   slug: open-soracom-sim-api
 - collection_type: open
-  name: Soracom Cloud Camera Services API
+  name: Soracom and Query Analysis SimProfileOrder API
+  slug: open-soracom-simprofileorder-api
+- collection_type: open
+  name: Soracom and Query Analysis SoraCam API
   slug: open-soracom-soracam-api
 - collection_type: open
-  name: Soracom Stats and Diagnostics API
+  name: Soracom and Query Analysis Soralet API
+  slug: open-soracom-soralet-api
+- collection_type: open
+  name: Soracom and Query Analysis Stats API
   slug: open-soracom-stats-api
+- collection_type: open
+  name: Soracom and Query Analysis Subscriber API
+  slug: open-soracom-subscriber-api
+- collection_type: open
+  name: Soracom and Query Analysis SystemNotification API
+  slug: open-soracom-systemnotification-api
+- collection_type: open
+  name: Soracom and Query Analysis User API
+  slug: open-soracom-user-api
+- collection_type: open
+  name: Soracom and Query Analysis VirtualPrivateGateway API
+  slug: open-soracom-virtualprivategateway-api
 - collection_type: open
   name: Soracom Virtual Private Gateway API
   slug: open-soracom-vpg-api
@@ -734,7 +848,7 @@ plans:
 - name: Soracom Plans Pricing
   plan_count: 17
   slug: soracom-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Soracom Rate Limits
@@ -782,7 +896,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png
 security:

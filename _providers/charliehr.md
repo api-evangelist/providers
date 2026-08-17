@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Company team members and their notes.
   name: CharlieHR Team Members API
   slug: charliehr-team-members-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CharlieHR Company API
+  slug: open-charliehr-company-api
+- collection_type: open
+  name: CharlieHR Company Leave / Absences API
+  slug: open-charliehr-leave-absences-api
+- collection_type: open
+  name: CharlieHR Company Leave Allowances API
+  slug: open-charliehr-leave-allowances-api
+- collection_type: open
+  name: CharlieHR Company Team Members API
+  slug: open-charliehr-team-members-api
 - collection_type: open
   name: CharlieHR API
   slug: open-charliehr
@@ -129,7 +144,7 @@ plans:
 - name: Charliehr Plans Pricing
   plan_count: 4
   slug: charliehr-plans-pricing
-random_paper: 106
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Charliehr Rate Limits
@@ -159,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/screenshots/charliehr-2026-07-25T205104.png
 security:

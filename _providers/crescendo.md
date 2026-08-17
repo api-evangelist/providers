@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Upload recordings for VOC processing.
   name: Crescendo VOC API
   slug: crescendo-voc-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crescendo Platform MCP API
+  slug: open-crescendo-mcp-api
+- collection_type: open
+  name: Crescendo Platform MCP Provisioning API
+  slug: open-crescendo-provisioning-api
+- collection_type: open
+  name: Crescendo Platform MCP Reporting API
+  slug: open-crescendo-reporting-api
+- collection_type: open
+  name: Crescendo Platform MCP Service API
+  slug: open-crescendo-service-api
+- collection_type: open
+  name: Crescendo Platform MCP VOC API
+  slug: open-crescendo-voc-api
 common:
 - group: other
   title: ''
@@ -160,7 +179,7 @@ overview: 'Crescendo publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Crescendo''s developer surface includes documentation, API reference, quickstart, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 110
+random_paper: 56
 score:
   band: thin
   composite: 40.8
@@ -184,7 +203,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/screenshots/crescendo-2026-07-25T210727.png
 security:

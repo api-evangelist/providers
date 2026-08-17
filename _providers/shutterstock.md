@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: The videos API from Shutterstock — 12 operation(s) for videos.
   name: Shutterstock videos API
   slug: shutterstock-videos-api
-artifact_total: 27
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shutterstock API Reference audio API
+  slug: open-shutterstock-audio-api
+- collection_type: open
+  name: Shutterstock API Reference audio computer_vision API
+  slug: open-shutterstock-computer-vision-api
+- collection_type: open
+  name: Shutterstock API Reference audio contributors API
+  slug: open-shutterstock-contributors-api
+- collection_type: open
+  name: Shutterstock API Reference audio editorial_images API
+  slug: open-shutterstock-editorial-images-api
+- collection_type: open
+  name: Shutterstock API Reference audio editorial_video API
+  slug: open-shutterstock-editorial-video-api
+- collection_type: open
+  name: Shutterstock API Reference audio images API
+  slug: open-shutterstock-images-api
+- collection_type: open
+  name: Shutterstock API Reference audio oauth API
+  slug: open-shutterstock-oauth-api
+- collection_type: open
+  name: Shutterstock API Reference audio test API
+  slug: open-shutterstock-test-api
+- collection_type: open
+  name: Shutterstock API Reference audio users API
+  slug: open-shutterstock-users-api
+- collection_type: open
+  name: Shutterstock API Reference audio videos API
+  slug: open-shutterstock-videos-api
 - collection_type: open
   name: Shutterstock API Reference
   slug: open-shutterstock
@@ -145,7 +178,7 @@ plans:
 - name: Shutterstock Plans Pricing
   plan_count: 3
   slug: shutterstock-plans-pricing
-random_paper: 11
+random_paper: 139
 rate_limits:
 - limit_count: 5
   name: Shutterstock Rate Limits
@@ -192,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/screenshots/shutterstock-2026-06-20T193851.png
 security:

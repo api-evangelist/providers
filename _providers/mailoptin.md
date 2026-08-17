@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The WordPress REST API served by mailoptin.io, plus the Model Context Protocol server exposed through the WordPress MCP Adapter at the mcp namespace. The REST root is a public, self-describing route i
@@ -158,7 +158,7 @@ plans:
 - name: Mailoptin Plans Pricing
   plan_count: 5
   slug: mailoptin-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Mailoptin Rate Limits
@@ -171,6 +171,7 @@ scopes:
 score:
   band: developing
   composite: 50.1
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 51.6
@@ -178,8 +179,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
+  previous_composite: 50.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Mailoptin Authentication

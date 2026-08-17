@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -71,8 +71,41 @@ apis:
 - description: The Workflows API from Wealthbox — 2 operation(s) for workflows.
   name: Wealthbox Workflows API
   slug: wealthbox-workflows-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wealthbox CRM Activity API
+  slug: open-wealthbox-activity-api
+- collection_type: open
+  name: Wealthbox CRM Activity Contacts API
+  slug: open-wealthbox-contacts-api
+- collection_type: open
+  name: Wealthbox CRM Activity Events API
+  slug: open-wealthbox-events-api
+- collection_type: open
+  name: Wealthbox CRM Activity Notes API
+  slug: open-wealthbox-notes-api
+- collection_type: open
+  name: Wealthbox CRM Activity Opportunities API
+  slug: open-wealthbox-opportunities-api
+- collection_type: open
+  name: Wealthbox CRM Activity Profile API
+  slug: open-wealthbox-profile-api
+- collection_type: open
+  name: Wealthbox CRM Activity Tasks API
+  slug: open-wealthbox-tasks-api
+- collection_type: open
+  name: Wealthbox CRM Activity Teams API
+  slug: open-wealthbox-teams-api
+- collection_type: open
+  name: Wealthbox CRM Activity Users API
+  slug: open-wealthbox-users-api
+- collection_type: open
+  name: Wealthbox CRM Activity Workflows API
+  slug: open-wealthbox-workflows-api
 - collection_type: open
   name: Wealthbox CRM API
   slug: open-wealthbox
@@ -141,7 +174,7 @@ overview: 'Wealthbox publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wealthbox''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 14
+random_paper: 80
 scopes:
 - name: Wealthbox Scopes
   scope_count: 2
@@ -167,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/screenshots/wealthbox-2026-06-20T201306.png
 security:

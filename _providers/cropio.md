@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Create, list, get, update, and delete fields, field groups, field shapes (boundaries in multiple geo formats), and land parcels. Fields carry calculated/legal/tillable area, administrative location, a
@@ -107,7 +107,7 @@ plans:
 - name: Cropio Plans Pricing
   plan_count: 3
   slug: cropio-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Cropio Rate Limits
@@ -125,7 +125,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cropio/refs/heads/main/screenshots/cropio-2026-07-25T210746.png
 security:

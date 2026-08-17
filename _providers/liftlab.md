@@ -9,27 +9,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 23.0
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: An OAuth-protected Model Context Protocol endpoint served from LiftLab's own hostname connect.liftlab.com, discovered by certificate-transparency enumeration rather than from documentation. An anonymo
+  name: LiftLab Connect MCP Server
+  slug: liftlab-connect-mcp
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -83,43 +87,88 @@ common:
   title: ''
   type: TrustCenter
   url: security/liftlab-trust-center.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/liftlab-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/liftlab-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/liftlab-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/liftlab-well-known.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/liftlab-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/liftlab-plans-pricing.yml
 created: '2026-07-17'
-description: LiftLab (LiftLab Analytics, Inc.) is a marketing measurement and capital allocation platform for enterprise marketing, analytics, and finance leaders. Its Two-Stage Agile Marketing Mix Model (AMM) separates ad marketplace auction dynamics — CPM/CPC volatility and competitive pressure — from true consumer demand response, producing channel response curves and marginal ROI (mROAS) that are not contaminated by marketplace noise. A geo-based Incrementality Testing Suite feeds causal results back into the model through the Trust Engine as permanent calibration inputs, PlatformSense applies live ad platform data to those stable curves for daily channel intelligence, the Scenario Planner turns model output into constraint-aware, finance-ready budget plans, and Miles AI answers natural-language questions grounded in the model. LiftLab serves D2C/ecommerce, CPG, and omnichannel retail brands including Pandora, Cinemark, Quicken, SKIMS, and Thrive Market. Headquartered in Oakland, CA;
-  SOC 2 Type II and ISO 27001:2013 certified, GDPR and CCPA compliant. LiftLab publishes no public developer API or API documentation as of this profile.
+description: 'LiftLab (LiftLab Analytics, Inc.) is a marketing measurement and capital allocation platform for enterprise marketing, analytics, and finance leaders. Its Two-Stage Agile Marketing Mix Model (AMM) separates ad marketplace auction dynamics — CPM/CPC volatility and competitive pressure — from true consumer demand response, producing channel response curves and marginal ROI (mROAS) that are not contaminated by marketplace noise. A geo-based Incrementality Testing Suite feeds causal results back into the model through the Trust Engine as permanent calibration inputs, PlatformSense applies live ad platform data to those stable curves for daily channel intelligence, the Scenario Planner turns model output into constraint-aware, finance-ready budget plans, and Miles AI answers natural-language questions grounded in the model. LiftLab serves D2C/ecommerce, CPG, and omnichannel retail brands including Pandora, Cinemark, Quicken, SKIMS, and Thrive Market. Headquartered in Oakland, CA;
+  SOC 2 Type II and ISO 27001:2013 certified, GDPR and CCPA compliant. LiftLab publishes no developer portal, no API documentation and no OpenAPI, but it does operate one undocumented machine surface: an OAuth-protected Model Context Protocol endpoint at https://connect.liftlab.com/server/api/mcp, advertised through RFC 8414 and RFC 9728 discovery documents on its own hostname and scoped for a Claude connector. That host is a white-labeled TapClicks deployment, so the agent surface is served by LiftLab but supplied by a vendor.'
 image: https://liftlab.com/assets/logo.svg
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: liftlab-mcp.yml
+  slug: liftlab-mcpyml
+modified: '2026-08-13'
 name: LiftLab
 nav: Providers
 network: true
-overview: 'LiftLab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Marketing, Marketing Measurement, and Marketing Mix Modeling.
+overview: 'LiftLab publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Marketing, Marketing Measurement, and Marketing Mix Modeling.
 
 
-  LiftLab''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 14
+  LiftLab''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
+plans:
+- name: Liftlab Plans Pricing
+  plan_count: 0
+  slug: liftlab-plans-pricing
+random_paper: 138
+rate_limits:
+- limit_count: 0
+  name: Liftlab Rate Limits
+  slug: liftlab-rate-limits
+scopes:
+- name: Liftlab Scopes
+  scope_count: 1
+  slug: liftlab-scopes
+  summary_line: 1 scope
 score:
-  band: emerging
-  composite: 22.5
-  delta: 0.0
+  band: thin
+  composite: 29.3
+  delta: 6.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 26.1
-    discoverability: 57.4
+    developer_ergonomics: 45.7
+    discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 22.5
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/screenshots/liftlab-2026-07-25T225100.png
 security:
+- kind: authentication
+  name: Liftlab Authentication
+  slug: liftlab-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Liftlab Domain Security
   slug: liftlab-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: trust-center
   name: Liftlab Trust Center
   slug: liftlab-trust-center

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,8 +62,35 @@ apis:
 - description: Endpoints that expose works related data
   name: Crossref Works API
   slug: crossref-works-api
-artifact_total: 19
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crossref Agency API
+  slug: open-crossref-agency-api
+- collection_type: open
+  name: Crossref Agency Funders API
+  slug: open-crossref-funders-api
+- collection_type: open
+  name: Crossref Agency Journals API
+  slug: open-crossref-journals-api
+- collection_type: open
+  name: Crossref Agency Licenses API
+  slug: open-crossref-licenses-api
+- collection_type: open
+  name: Crossref Agency Members API
+  slug: open-crossref-members-api
+- collection_type: open
+  name: Crossref Agency Prefixes API
+  slug: open-crossref-prefixes-api
+- collection_type: open
+  name: Crossref Agency Types API
+  slug: open-crossref-types-api
+- collection_type: open
+  name: Crossref Agency Works API
+  slug: open-crossref-works-api
 - collection_type: open
   name: Crossref
   slug: open-crossref
@@ -160,7 +187,7 @@ plans:
 - name: Crossref Plans Pricing
   plan_count: 3
   slug: crossref-plans-pricing
-random_paper: 31
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Crossref Rate Limits
@@ -202,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/screenshots/crossref-2026-06-20T175248.png
 security:

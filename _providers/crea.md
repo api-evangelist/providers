@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -37,7 +37,20 @@ apis:
 - description: 'The REALTOR.ca Board API is a separate, smaller roster-distribution API for CREA''s member boards and associations rather than for listing consumers. CREA describes it as "a data distribution API that '
   name: REALTOR.ca Board API
   slug: realtor-ca-board-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-crea-identity-openid-configuration
+- collection_type: open
+  name: REALTOR.ca Board API Documentation
+  slug: open-crea-realtor-ca-board-api
+- collection_type: open
+  name: REALTOR.ca DDF® Web API Documentation
+  slug: open-crea-realtor-ca-ddf-web-api-swagger-endpoint
+- collection_type: open
+  name: REALTOR.ca DDF® Web API Documentation
+  slug: open-crea-realtor-ca-ddf-web-api
 common:
 - group: agent
   title: ''
@@ -229,7 +242,7 @@ overview: 'CREA (REALTOR.ca) publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   CREA (REALTOR.ca)''s developer surface includes authentication, changelog, getting-started guide, documentation, support, engineering blog, and 37 more developer resources.'
-random_paper: 51
+random_paper: 113
 scopes:
 - name: Crea Scopes
   scope_count: 5
@@ -258,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/screenshots/crea-2026-08-07T163831.png
 security:

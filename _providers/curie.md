@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Catalog API from Curie — 1 operation(s) for catalog.
@@ -38,7 +38,17 @@ apis:
 - description: The Products API from Curie — 6 operation(s) for products.
   name: Curie Products API
   slug: curie-products-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Curie 3D Product Commerce Catalog API
+  slug: open-curie-catalog-api
+- collection_type: open
+  name: Curie 3D Product Commerce Catalog Products API
+  slug: open-curie-products-api
 common:
 - group: company
   title: ''
@@ -136,7 +146,7 @@ overview: 'Curie publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ca
 
 
   Curie''s developer surface includes documentation, pricing, authentication, and 17 more developer resources.'
-random_paper: 56
+random_paper: 89
 scopes:
 - name: Curie Scopes
   scope_count: 1
@@ -164,7 +174,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/screenshots/curie-2026-07-25T210955.png
 security:

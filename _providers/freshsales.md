@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -77,8 +77,47 @@ apis:
 - description: The Tasks API from Freshsales — 2 operation(s) for tasks.
   name: Freshsales Tasks API
   slug: freshsales-tasks-api
-artifact_total: 20
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freshsales CRM Appointments API
+  slug: open-freshsales-appointments-api
+- collection_type: open
+  name: Freshsales CRM Appointments Calls API
+  slug: open-freshsales-calls-api
+- collection_type: open
+  name: Freshsales CRM Appointments Contacts API
+  slug: open-freshsales-contacts-api
+- collection_type: open
+  name: Freshsales CRM Appointments Deals API
+  slug: open-freshsales-deals-api
+- collection_type: open
+  name: Freshsales CRM Appointments Jobs API
+  slug: open-freshsales-jobs-api
+- collection_type: open
+  name: Freshsales CRM Appointments Lists API
+  slug: open-freshsales-lists-api
+- collection_type: open
+  name: Freshsales CRM Appointments Notes API
+  slug: open-freshsales-notes-api
+- collection_type: open
+  name: Freshsales CRM Appointments Products API
+  slug: open-freshsales-products-api
+- collection_type: open
+  name: Freshsales CRM Appointments SalesAccounts API
+  slug: open-freshsales-salesaccounts-api
+- collection_type: open
+  name: Freshsales CRM Appointments SalesActivities API
+  slug: open-freshsales-salesactivities-api
+- collection_type: open
+  name: Freshsales CRM Appointments Search API
+  slug: open-freshsales-search-api
+- collection_type: open
+  name: Freshsales CRM Appointments Tasks API
+  slug: open-freshsales-tasks-api
 - collection_type: open
   name: Freshsales CRM API
   slug: open-freshsales
@@ -151,7 +190,7 @@ overview: 'Freshsales publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Freshsales'' developer surface includes authentication, documentation, signup flow, pricing, support, and 8 more developer resources.'
-random_paper: 112
+random_paper: 29
 score:
   band: thin
   composite: 34.5
@@ -172,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/screenshots/freshsales-2026-06-20T181548.png
 security:

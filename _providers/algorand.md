@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -96,7 +96,7 @@ apis:
 - description: The Wallets API from Algorand — 1 operation(s) for wallets.
   name: Algorand Wallets API
   slug: algorand-wallets-api
-artifact_total: 71
+artifact_total: 90
 collections:
 - collection_type: postman
   name: Algod REST API. common API
@@ -152,6 +152,63 @@ collections:
 - collection_type: postman
   name: Algod REST API. common Wallets API
   slug: postman-algorand-wallets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Algod REST API. common API
+  slug: open-algorand-common-api
+- collection_type: open
+  name: Algod REST API. common data API
+  slug: open-algorand-data-api
+- collection_type: open
+  name: Algod REST API. common experimental API
+  slug: open-algorand-experimental-api
+- collection_type: open
+  name: Algod REST API. common Key API
+  slug: open-algorand-key-api
+- collection_type: open
+  name: Algod REST API. common lookup API
+  slug: open-algorand-lookup-api
+- collection_type: open
+  name: Algod REST API. common Master Key API
+  slug: open-algorand-master-key-api
+- collection_type: open
+  name: Algod REST API. common Multisig API
+  slug: open-algorand-multisig-api
+- collection_type: open
+  name: Algod REST API. common nonparticipating API
+  slug: open-algorand-nonparticipating-api
+- collection_type: open
+  name: Algod REST API. common participating API
+  slug: open-algorand-participating-api
+- collection_type: open
+  name: Algod REST API. common private API
+  slug: open-algorand-private-api
+- collection_type: open
+  name: Algod REST API. common Program API
+  slug: open-algorand-program-api
+- collection_type: open
+  name: Algod REST API. common public API
+  slug: open-algorand-public-api
+- collection_type: open
+  name: Algod REST API. common search API
+  slug: open-algorand-search-api
+- collection_type: open
+  name: Algod REST API. common Swagger.json API
+  slug: open-algorand-swagger-json-api
+- collection_type: open
+  name: Algod REST API. common Transaction API
+  slug: open-algorand-transaction-api
+- collection_type: open
+  name: Algod REST API. common Versions API
+  slug: open-algorand-versions-api
+- collection_type: open
+  name: Algod REST API. common Wallet API
+  slug: open-algorand-wallet-api
+- collection_type: open
+  name: Algod REST API. common Wallets API
+  slug: open-algorand-wallets-api
 common:
 - group: build
   title: ''
@@ -326,7 +383,7 @@ plans:
 - name: Algorand Plans
   plan_count: 4
   slug: algorand-plans
-random_paper: 0
+random_paper: 95
 rate_limits:
 - limit_count: 7
   name: Algorand Rate Limits
@@ -360,7 +417,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/screenshots/algorand-2026-06-20T171519.png
 security:

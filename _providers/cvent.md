@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -87,8 +87,32 @@ apis:
 - description: Webhook subscriptions
   name: Cvent Webhooks API
   slug: cvent-webhooks-api
-artifact_total: 25
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cvent REST Attendees API
+  slug: open-cvent-attendees-api
+- collection_type: open
+  name: Cvent REST Attendees Contacts API
+  slug: open-cvent-contacts-api
+- collection_type: open
+  name: Cvent REST Attendees Events API
+  slug: open-cvent-events-api
+- collection_type: open
+  name: Cvent REST Attendees Exhibitors API
+  slug: open-cvent-exhibitors-api
+- collection_type: open
+  name: Cvent REST Attendees OAuth API
+  slug: open-cvent-oauth-api
+- collection_type: open
+  name: Cvent REST Attendees Sessions API
+  slug: open-cvent-sessions-api
+- collection_type: open
+  name: Cvent REST Attendees Webhooks API
+  slug: open-cvent-webhooks-api
 - collection_type: open
   name: Cvent REST API
   slug: open-cvent
@@ -217,7 +241,7 @@ plans:
 - name: Cvent Plans Pricing
   plan_count: 3
   slug: cvent-plans-pricing
-random_paper: 64
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Cvent Rate Limits
@@ -247,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/screenshots/cvent-2026-06-20T175359.png
 security:

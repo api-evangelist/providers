@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The Relay API from Parsec — 2 operation(s) for relay.
   name: Parsec Relay API
   slug: parsec-relay-api
-artifact_total: 15
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Parsec Teams App Rule API
+  slug: open-parsec-app-rule-api
+- collection_type: open
+  name: Parsec Teams App Rule Audit Log API
+  slug: open-parsec-audit-log-api
+- collection_type: open
+  name: Parsec Teams App Rule Group API
+  slug: open-parsec-group-api
+- collection_type: open
+  name: Parsec Teams App Rule Guest Access Invite API
+  slug: open-parsec-guest-access-invite-api
+- collection_type: open
+  name: Parsec Teams App Rule Machine API
+  slug: open-parsec-machine-api
+- collection_type: open
+  name: Parsec Teams App Rule Member API
+  slug: open-parsec-member-api
+- collection_type: open
+  name: Parsec Teams App Rule Member Invite API
+  slug: open-parsec-member-invite-api
+- collection_type: open
+  name: Parsec Teams App Rule Relay API
+  slug: open-parsec-relay-api
 common:
 - group: start
   title: ''
@@ -212,7 +240,7 @@ overview: 'Parsec publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parsec''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Parsec Rate Limits
@@ -240,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/screenshots/parsec-2026-08-07T191456.png
 security:

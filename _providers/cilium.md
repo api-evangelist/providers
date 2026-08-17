@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -71,15 +71,42 @@ apis:
 - description: The Service API from Cilium — 2 operation(s) for service.
   name: Cilium Service API
   slug: cilium-service-api
-artifact_total: 22
+artifact_total: 31
 asyncapis:
 - description: The Hubble event streaming API provides real-time observability into network flows, DNS queries, HTTP requests, and service-to-service communication within Kubernetes clusters. Hubble exposes gRPC-bas
   name: Cilium Hubble Events
   slug: cilium-hubble-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Cilium API
   slug: open-cilium-api
+- collection_type: open
+  name: Cilium BGP API
+  slug: open-cilium-bgp-api
+- collection_type: open
+  name: Cilium BGP Daemon API
+  slug: open-cilium-daemon-api
+- collection_type: open
+  name: Cilium BGP Endpoint API
+  slug: open-cilium-endpoint-api
+- collection_type: open
+  name: Cilium BGP IPAM API
+  slug: open-cilium-ipam-api
+- collection_type: open
+  name: Cilium BGP Lrp API
+  slug: open-cilium-lrp-api
+- collection_type: open
+  name: Cilium BGP Policy API
+  slug: open-cilium-policy-api
+- collection_type: open
+  name: Cilium BGP Prefilter API
+  slug: open-cilium-prefilter-api
+- collection_type: open
+  name: Cilium BGP Service API
+  slug: open-cilium-service-api
 common:
 - group: operate
   title: ''
@@ -221,7 +248,7 @@ plans:
 - name: Cilium Plans Pricing
   plan_count: 2
   slug: cilium-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Cilium Rate Limits
@@ -263,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/screenshots/cilium-2026-06-20T174342.png
 security:

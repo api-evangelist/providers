@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Operations for managing migration preference configurations
   name: Google Cloud Migration Center PreferenceSets API
   slug: google-cloud-migration-center-preferencesets-api
-artifact_total: 20
+artifact_total: 25
 collections:
 - collection_type: postman
   name: Google Cloud Migration Center Google Migration Center Assets API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Google Cloud Migration Center Google Migration Center Assets PreferenceSets API
   slug: postman-google-cloud-migration-center-preferencesets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Migration Center Google Migration Center Assets API
+  slug: open-google-cloud-migration-center-assets-api
+- collection_type: open
+  name: Google Cloud Migration Center Google Migration Center Assets Groups API
+  slug: open-google-cloud-migration-center-groups-api
+- collection_type: open
+  name: Google Cloud Migration Center Google Migration Center Assets ImportJobs API
+  slug: open-google-cloud-migration-center-importjobs-api
+- collection_type: open
+  name: Google Cloud Migration Center Google Migration Center Assets PreferenceSets API
+  slug: open-google-cloud-migration-center-preferencesets-api
 - collection_type: open
   name: Google Cloud Migration Center Google Migration Center API
   slug: open-migration-center-api
@@ -169,7 +184,7 @@ plans:
 - name: Google Cloud Migration Center Plans Pricing
   plan_count: 3
   slug: google-cloud-migration-center-plans-pricing
-random_paper: 38
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Google Cloud Migration Center Rate Limits
@@ -208,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/screenshots/google-cloud-migration-center-2026-06-20T182120.png
 security:

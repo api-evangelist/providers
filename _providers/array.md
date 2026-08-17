@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Array's REST API for embedded consumer-credit, identity and background-data products. Confirmed live at https://array.io/api — the /api/user/v2 and /api/report/v2 routes answer with structured JSON va
@@ -144,7 +144,7 @@ plans:
 - name: Array Plans Pricing
   plan_count: 0
   slug: array-plans-pricing
-random_paper: 63
+random_paper: 96
 rate_limits:
 - limit_count: 0
   name: Array Rate Limits
@@ -162,7 +162,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 25.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/screenshots/array-2026-07-25T201251.png
 security:

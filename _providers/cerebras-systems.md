@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: The Tcp Warming API from Cerebras Systems — 1 operation(s) for tcp warming.
   name: Cerebras Systems Tcp Warming API
   slug: cerebras-systems-tcp-warming-api
-artifact_total: 17
+artifact_total: 23
 collections:
 - collection_type: postman
   name: Cerebras Inference Chat API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Cerebras Inference Chat Tcp Warming API
   slug: postman-cerebras-systems-tcp-warming-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cerebras Inference Chat API
+  slug: open-cerebras-systems-chat-api
+- collection_type: open
+  name: Cerebras Inference Chat Completions API
+  slug: open-cerebras-systems-completions-api
+- collection_type: open
+  name: Cerebras Inference Chat Models API
+  slug: open-cerebras-systems-models-api
+- collection_type: open
+  name: Cerebras Inference Chat Public Models API
+  slug: open-cerebras-systems-public-models-api
+- collection_type: open
+  name: Cerebras Inference Chat Tcp Warming API
+  slug: open-cerebras-systems-tcp-warming-api
 common:
 - group: build
   title: ''
@@ -252,7 +270,7 @@ plans:
 - name: Cerebras Systems Plans
   plan_count: 3
   slug: cerebras-systems-plans
-random_paper: 116
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Cerebras Systems Rate Limits
@@ -280,7 +298,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:

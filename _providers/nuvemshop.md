@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Event notification subscriptions.
   name: Nuvemshop / Tiendanube Webhooks API
   slug: nuvemshop-webhooks-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories API
+  slug: open-nuvemshop-categories-api
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories Coupons API
+  slug: open-nuvemshop-coupons-api
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories Customers API
+  slug: open-nuvemshop-customers-api
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories Orders API
+  slug: open-nuvemshop-orders-api
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories Product Images API
+  slug: open-nuvemshop-product-images-api
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories Product Variants API
+  slug: open-nuvemshop-product-variants-api
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories Products API
+  slug: open-nuvemshop-products-api
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories Scripts API
+  slug: open-nuvemshop-scripts-api
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories Store API
+  slug: open-nuvemshop-store-api
+- collection_type: open
+  name: Nuvemshop / Tiendanube Admin Categories Webhooks API
+  slug: open-nuvemshop-webhooks-api
 - collection_type: open
   name: Nuvemshop / Tiendanube Admin API
   slug: open-nuvemshop
@@ -135,7 +168,7 @@ plans:
 - name: Nuvemshop Plans Pricing
   plan_count: 6
   slug: nuvemshop-plans-pricing
-random_paper: 37
+random_paper: 103
 rate_limits:
 - limit_count: 4
   name: Nuvemshop Rate Limits
@@ -166,7 +199,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/screenshots/nuvemshop-2026-08-07T185802.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -108,7 +108,53 @@ apis:
 - description: The Time entries API from Toast — 2 operation(s) for time entries.
   name: Toast Time entries API
   slug: toast-time-entries-api
-artifact_total: 373
+artifact_total: 388
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toast Authentication API
+  slug: open-toast-authentication-api
+- collection_type: open
+  name: Toast Authentication ConnectedRestaurants API
+  slug: open-toast-connectedrestaurants-api
+- collection_type: open
+  name: Toast Authentication Discounts API
+  slug: open-toast-discounts-api
+- collection_type: open
+  name: Toast Authentication Employees API
+  slug: open-toast-employees-api
+- collection_type: open
+  name: Toast Authentication Groups API
+  slug: open-toast-groups-api
+- collection_type: open
+  name: Toast Authentication Jobs API
+  slug: open-toast-jobs-api
+- collection_type: open
+  name: Toast Authentication Menus API
+  slug: open-toast-menus-api
+- collection_type: open
+  name: Toast Authentication Metadata API
+  slug: open-toast-metadata-api
+- collection_type: open
+  name: Toast Authentication Orders API
+  slug: open-toast-orders-api
+- collection_type: open
+  name: Toast Authentication Payments API
+  slug: open-toast-payments-api
+- collection_type: open
+  name: Toast Authentication Restaurants API
+  slug: open-toast-restaurants-api
+- collection_type: open
+  name: Toast Authentication Shifts API
+  slug: open-toast-shifts-api
+- collection_type: open
+  name: Toast Authentication Stock API
+  slug: open-toast-stock-api
+- collection_type: open
+  name: Toast Authentication Time entries API
+  slug: open-toast-time-entries-api
 common:
 - group: agent
   title: ''
@@ -1188,7 +1234,7 @@ plans:
 - name: Toast Plans Pricing
   plan_count: 1
   slug: toast-plans-pricing
-random_paper: 75
+random_paper: 108
 rate_limits:
 - limit_count: 1
   name: Toast Rate Limits
@@ -1235,7 +1281,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,11 +45,20 @@ apis:
 - description: Manage scheduled email deliveries
   name: Maileroo Scheduled API
   slug: maileroo-scheduled-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Maileroo Email API
   slug: open-maileroo-email-api
+- collection_type: open
+  name: Maileroo Email Emails API
+  slug: open-maileroo-emails-api
+- collection_type: open
+  name: Maileroo Email Emails Scheduled API
+  slug: open-maileroo-scheduled-api
 common:
 - group: agent
   title: ''
@@ -119,7 +128,7 @@ plans:
 - name: Maileroo Plans Pricing
   plan_count: 3
   slug: maileroo-plans-pricing
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Maileroo Rate Limits
@@ -144,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/screenshots/maileroo-2026-06-20T184856.png
 security:

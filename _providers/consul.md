@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -81,11 +81,56 @@ apis:
 - description: Atomic key/value transactions
   name: HashiCorp Consul Transaction API
   slug: consul-transaction-api
-artifact_total: 26
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL API
+  slug: open-consul-acl-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Agent API
+  slug: open-consul-agent-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Catalog API
+  slug: open-consul-catalog-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Config Entries API
+  slug: open-consul-config-entries-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Connect API
+  slug: open-consul-connect-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Coordinates API
+  slug: open-consul-coordinates-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Events API
+  slug: open-consul-events-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Health API
+  slug: open-consul-health-api
 - collection_type: open
   name: HashiCorp Consul HTTP API
   slug: open-consul-http-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL KV Store API
+  slug: open-consul-kv-store-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Operator API
+  slug: open-consul-operator-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Sessions API
+  slug: open-consul-sessions-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Snapshot API
+  slug: open-consul-snapshot-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Status API
+  slug: open-consul-status-api
+- collection_type: open
+  name: HashiCorp Consul HTTP ACL Transaction API
+  slug: open-consul-transaction-api
 common:
 - group: operate
   title: ''
@@ -210,7 +255,7 @@ plans:
 - name: Consul Plans Pricing
   plan_count: 3
   slug: consul-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Consul Rate Limits
@@ -258,7 +303,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/screenshots/consul-2026-06-20T174916.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Corva Data API is a RESTful interface providing flexibility and extensibility into the Corva drilling and completions data platform. Use cases include UI visualizations, data entry, replication an
@@ -131,7 +131,7 @@ plans:
 - name: Corva Ai Plans Pricing
   plan_count: 3
   slug: corva-ai-plans-pricing
-random_paper: 66
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Corva Ai Rate Limits
@@ -155,7 +155,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/screenshots/corva-ai-2026-06-20T175049.png
 security:

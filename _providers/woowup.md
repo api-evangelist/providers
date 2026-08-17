@@ -10,7 +10,8 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,22 +20,29 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
-    well_known_catalog: false
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 51.8
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
+- description: Hosted, remote Model Context Protocol server operated by WoowUp at mcp.woowup.com. Streamable-HTTP transport, OAuth 2.1 bearer authentication with RFC 8414 authorization-server and RFC 9728 protected-
+  name: WoowUp MCP Server
+  slug: woowup-mcp-server
 - description: REST API for syncing customers (multi-ID), purchases, products, categories, branches, coupons, benefits, points, user events, custom attributes, abandoned carts, blacklists, segment exports, and integ
   name: WoowUp API v3
   slug: woowup-api-v3
-artifact_total: 4
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Woowup Webhooks
+  slug: woowup-webhooks
 common:
 - group: auth
   title: ''
@@ -128,45 +136,77 @@ common:
   title: ''
   type: DataModel
   url: data-model/woowup-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/woowup-mcp.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/woowup-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/woowup-plans-pricing.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://woowup-docs.gitbook.io/woowup-developer-docs/api/users
 created: '2026-07-17'
 description: WoowUp is a customer marketing and loyalty CRM platform built for retail and ecommerce brands across Latin America. Founded in Buenos Aires and backed by 500 Global, WoowUp centralizes customer, purchase, and product data from POS and ecommerce platforms (VTEX, Magento, Shopify, WooCommerce, PrestaShop, Tienda Nube) and activates it through segmentation, campaigns, loyalty programs, web push notifications, and abandoned-cart recovery. Its REST API v3 lets developers sync users (multi-ID), purchases, products, coupons, benefits, points, and custom events, with client libraries published in PHP.
 image: https://www.woowup.com/hubfs/Logo/favicon_.png
 layout: provider
-modified: '2026-07-21'
+mcp_servers:
+- description: ''
+  name: woowup-mcp.yml
+  slug: woowup-mcpyml
+modified: '2026-08-13'
 name: WoowUp
 nav: Providers
 network: true
-overview: 'WoowUp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Loyalty, Customer Data, and Marketing Automation.
+overview: 'WoowUp publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Loyalty, Customer Data, and Marketing Automation.
 
 
-  WoowUp''s developer surface includes engineering blog, pricing, support, documentation, getting-started guide, authentication, and 17 more developer resources.'
-random_paper: 89
+  The WoowUp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  WoowUp''s developer surface includes engineering blog, pricing, support, documentation, getting-started guide, authentication, API reference, and 20 more developer resources.'
+plans:
+- name: Woowup Plans Pricing
+  plan_count: 4
+  slug: woowup-plans-pricing
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: Woowup Rate Limits
   slug: woowup-rate-limits
+scopes:
+- name: Woowup Scopes
+  scope_count: 4
+  slug: woowup-scopes
+  summary_line: 4 scopes · authorizationCode/clientCredentials/deviceCode/implicit
 score:
-  band: thin
-  composite: 30.1
-  delta: 0.0
+  band: developing
+  composite: 53.5
+  delta: 23.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 43.5
-    discoverability: 75.9
+    commercial_clarity: 76.3
+    contract_quality: 51.6
+    developer_ergonomics: 58.7
+    discoverability: 87.0
     governance: 12.5
     operational_transparency: 26.3
   previous_composite: 30.1
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Woowup Authentication
   slug: woowup-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Woowup Domain Security
   slug: woowup-domain-security

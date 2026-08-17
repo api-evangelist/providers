@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,11 +60,26 @@ apis:
 - description: Payment transaction processing (credit card, echeck, scheduled)
   name: CSG Systems Transactions API
   slug: csg-transactions-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CSG Forte REST Customers API
+  slug: open-csg-customers-api
 - collection_type: open
   name: CSG Forte REST API
   slug: open-csg-forte-rest
+- collection_type: open
+  name: CSG Forte REST Customers Payment Methods API
+  slug: open-csg-payment-methods-api
+- collection_type: open
+  name: CSG Forte REST Customers Settlements API
+  slug: open-csg-settlements-api
+- collection_type: open
+  name: CSG Forte REST Customers Transactions API
+  slug: open-csg-transactions-api
 common:
 - group: agent
   title: ''
@@ -178,7 +193,7 @@ plans:
 - name: Csg Plans Pricing
   plan_count: 1
   slug: csg-plans-pricing
-random_paper: 77
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Csg Rate Limits
@@ -226,7 +241,7 @@ score:
     regime_id: telecommunications
     score: 31.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/screenshots/csg-2026-06-20T175316.png
 security:

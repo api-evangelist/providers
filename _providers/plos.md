@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'These examples use the search API to search the PLOS corpus of scientific articles. These examples are not intended to be a full explanation on the use of Solr. A full Solr query language explanation '
@@ -80,7 +80,7 @@ plans:
 - name: Plos Plans Pricing
   plan_count: 3
   slug: plos-plans-pricing
-random_paper: 86
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Plos Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plos/refs/heads/main/screenshots/plos-2026-06-20T191812.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Manage Red Hat subscriptions and entitlements for organizations and hosts.
   name: Red Hat Satellite Subscriptions API
   slug: red-hat-satellite-subscriptions-api
-artifact_total: 113
+artifact_total: 119
 collections:
 - collection_type: postman
   name: Red Hat Satellite REST Content Views API
@@ -84,8 +84,26 @@ collections:
   name: Red Hat Satellite REST Content Views Subscriptions API
   slug: postman-red-hat-satellite-subscriptions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Red Hat Satellite REST API
   slug: open-red-hat-satellite-api
+- collection_type: open
+  name: Red Hat Satellite REST Content Views API
+  slug: open-red-hat-satellite-content-views-api
+- collection_type: open
+  name: Red Hat Satellite REST Content Views Hosts API
+  slug: open-red-hat-satellite-hosts-api
+- collection_type: open
+  name: Red Hat Satellite REST Content Views Lifecycle Environments API
+  slug: open-red-hat-satellite-lifecycle-environments-api
+- collection_type: open
+  name: Red Hat Satellite REST Content Views Organizations API
+  slug: open-red-hat-satellite-organizations-api
+- collection_type: open
+  name: Red Hat Satellite REST Content Views Subscriptions API
+  slug: open-red-hat-satellite-subscriptions-api
 common:
 - group: commercial
   title: ''
@@ -456,7 +474,7 @@ plans:
 - name: Red Hat Satellite Plans Pricing
   plan_count: 1
   slug: red-hat-satellite-plans-pricing
-random_paper: 9
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Red Hat Satellite Rate Limits
@@ -503,7 +521,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/screenshots/red-hat-satellite-2026-06-20T192721.png
 security:

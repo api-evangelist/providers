@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 34
 apis:
 - description: The Admin API from Edge Impulse — 49 operation(s) for admin.
@@ -133,7 +133,113 @@ apis:
 - description: The Whitelabels API from Edge Impulse — 5 operation(s) for whitelabels.
   name: Edge Impulse Whitelabels API
   slug: edge-impulse-whitelabels-api
-artifact_total: 39
+artifact_total: 74
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Edge Impulse Admin API
+  slug: open-edge-impulse-admin-api
+- collection_type: open
+  name: Edge Impulse Auth API
+  slug: open-edge-impulse-auth-api
+- collection_type: open
+  name: Edge Impulse Canary API
+  slug: open-edge-impulse-canary-api
+- collection_type: open
+  name: Edge Impulse CDN API
+  slug: open-edge-impulse-cdn-api
+- collection_type: open
+  name: Edge Impulse Classify API
+  slug: open-edge-impulse-classify-api
+- collection_type: open
+  name: Edge Impulse Deployment API
+  slug: open-edge-impulse-deployment-api
+- collection_type: open
+  name: Edge Impulse Devices API
+  slug: open-edge-impulse-devices-api
+- collection_type: open
+  name: Edge Impulse DSP API
+  slug: open-edge-impulse-dsp-api
+- collection_type: open
+  name: Edge Impulse EmailVerification API
+  slug: open-edge-impulse-emailverification-api
+- collection_type: open
+  name: Edge Impulse Export API
+  slug: open-edge-impulse-export-api
+- collection_type: open
+  name: Edge Impulse FeatureFlags API
+  slug: open-edge-impulse-featureflags-api
+- collection_type: open
+  name: Edge Impulse Health API
+  slug: open-edge-impulse-health-api
+- collection_type: open
+  name: Edge Impulse API
+  slug: open-edge-impulse-impulse-api
+- collection_type: open
+  name: Edge Impulse Jobs API
+  slug: open-edge-impulse-jobs-api
+- collection_type: open
+  name: Edge Impulse Learn API
+  slug: open-edge-impulse-learn-api
+- collection_type: open
+  name: Edge Impulse Login API
+  slug: open-edge-impulse-login-api
+- collection_type: open
+  name: Edge Impulse Metrics API
+  slug: open-edge-impulse-metrics-api
+- collection_type: open
+  name: Edge Impulse Optimization API
+  slug: open-edge-impulse-optimization-api
+- collection_type: open
+  name: Edge Impulse OrganizationBlocks API
+  slug: open-edge-impulse-organizationblocks-api
+- collection_type: open
+  name: Edge Impulse OrganizationCreateProject API
+  slug: open-edge-impulse-organizationcreateproject-api
+- collection_type: open
+  name: Edge Impulse OrganizationData API
+  slug: open-edge-impulse-organizationdata-api
+- collection_type: open
+  name: Edge Impulse OrganizationDataCampaigns API
+  slug: open-edge-impulse-organizationdatacampaigns-api
+- collection_type: open
+  name: Edge Impulse OrganizationJobs API
+  slug: open-edge-impulse-organizationjobs-api
+- collection_type: open
+  name: Edge Impulse OrganizationPipelines API
+  slug: open-edge-impulse-organizationpipelines-api
+- collection_type: open
+  name: Edge Impulse OrganizationPortals API
+  slug: open-edge-impulse-organizationportals-api
+- collection_type: open
+  name: Edge Impulse Organizations API
+  slug: open-edge-impulse-organizations-api
+- collection_type: open
+  name: Edge Impulse PerformanceCalibration API
+  slug: open-edge-impulse-performancecalibration-api
+- collection_type: open
+  name: Edge Impulse Projects API
+  slug: open-edge-impulse-projects-api
+- collection_type: open
+  name: Edge Impulse Raw data API
+  slug: open-edge-impulse-raw-data-api
+- collection_type: open
+  name: Edge Impulse Themes API
+  slug: open-edge-impulse-themes-api
+- collection_type: open
+  name: Edge Impulse ThirdPartyAuth API
+  slug: open-edge-impulse-thirdpartyauth-api
+- collection_type: open
+  name: Edge Impulse UploadPortal API
+  slug: open-edge-impulse-uploadportal-api
+- collection_type: open
+  name: Edge Impulse User API
+  slug: open-edge-impulse-user-api
+- collection_type: open
+  name: Edge Impulse Whitelabels API
+  slug: open-edge-impulse-whitelabels-api
 common:
 - group: auth
   title: ''
@@ -227,7 +333,7 @@ plans:
 - name: Edge Impulse Plans Pricing
   plan_count: 3
   slug: edge-impulse-plans-pricing
-random_paper: 17
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Edge Impulse Rate Limits
@@ -251,7 +357,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/screenshots/edge-impulse-2026-06-20T180450.png
 security:

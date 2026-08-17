@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-12'
+  score: 41.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: APIs for retrieving customer-support interaction insights
   name: Cuein conversations API
   slug: cuein-conversations-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cuein answers API
+  slug: open-cuein-answers-api
+- collection_type: open
+  name: Cuein answers conversations API
+  slug: open-cuein-conversations-api
 common:
 - group: other
   title: ''
@@ -98,6 +108,30 @@ common:
   title: ''
   type: TrustCenter
   url: security/cuein-trust-center.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cuein-insights-overlay.yaml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/cuein-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://developer.cuein.ai/.well-known/api-catalog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cuein-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cuein-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cuein-rate-limits.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -105,27 +139,27 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://cuein-api.readme.io/docs/getting-started
+  url: https://cuein-api.readme.io/reference
 - group: docs
   title: ''
   type: APIReference
   url: https://cuein-api.readme.io/reference
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://cuein-api.readme.io/docs/getting-started
 - group: company
   title: ''
   type: Blog
   url: https://cuein.ai/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cuein.ai/blog/rss.xml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Cuein
 - group: operate
   title: ''
   type: Support
   url: mailto:support@cuein.ai
-- group: start
-  title: ''
-  type: SignUp
-  url: https://app.cuein.ai
 - group: commercial
   title: ''
   type: TermsOfService
@@ -142,26 +176,34 @@ mcp_servers:
 - description: ''
   name: cuein-mcp.yml
   slug: cuein-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Cuein
 nav: Providers
 network: true
 overview: 'Cuein publishes 2 APIs on the [APIs.io](https://apis.io/) network: answers API and conversations API. Tagged areas include Company, Customer Experience, Customer Support, Conversation Intelligence, and Generative AI.
 
 
-  Cuein''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 52
+  Cuein''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 23 more developer resources.'
+plans:
+- name: Cuein Plans Pricing
+  plan_count: 0
+  slug: cuein-plans-pricing
+random_paper: 85
+rate_limits:
+- limit_count: 0
+  name: Cuein Rate Limits
+  slug: cuein-rate-limits
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  delta: -3.0
   facets:
-    commercial_clarity: 42.1
+    commercial_clarity: 28.9
     contract_quality: 53.7
-    developer_ergonomics: 56.0
-    discoverability: 75.9
+    developer_ergonomics: 45.1
+    discoverability: 87.0
     governance: 11.5
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 42.0
   provenance:
     agentic_access: derived
@@ -174,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/screenshots/cuein-2026-07-25T210908.png
 security:

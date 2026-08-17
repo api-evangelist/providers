@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Manage multi-stage annotation workflows and stages.
   name: V7 Workflows API
   slug: v7-labs-workflows-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: V7 Darwin Annotations API
+  slug: open-v7-labs-annotations-api
+- collection_type: open
+  name: V7 Darwin Annotations Classes API
+  slug: open-v7-labs-classes-api
+- collection_type: open
+  name: V7 Darwin Annotations Datasets API
+  slug: open-v7-labs-datasets-api
+- collection_type: open
+  name: V7 Darwin Annotations Exports API
+  slug: open-v7-labs-exports-api
+- collection_type: open
+  name: V7 Darwin Annotations Items API
+  slug: open-v7-labs-items-api
+- collection_type: open
+  name: V7 Darwin Annotations Workflows API
+  slug: open-v7-labs-workflows-api
 - collection_type: open
   name: V7 Darwin API
   slug: open-v7-labs
@@ -135,7 +156,7 @@ plans:
 - name: V7 Labs Plans Pricing
   plan_count: 3
   slug: v7-labs-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: V7 Labs Rate Limits
@@ -160,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -37,7 +37,14 @@ apis:
 - description: The mandated consumer data-sharing surface. As a designated CDR energy data holder (register brand ID 8bd0fd93-9d26-ee11-a83d-000d3a8830d6, ABN 22149658300), Alinta must serve the Consumer Data Standa
   name: Alinta Energy CDR Energy API
   slug: alinta-energy-cdr-energy-api
-artifact_total: 9
+artifact_total: 11
+collections:
+- collection_type: open
+  name: CDR Common API
+  slug: open-alinta-energy-cds-common-api
+- collection_type: open
+  name: CDR Energy API
+  slug: open-alinta-energy-cds-energy-api
 common:
 - group: auth
   title: ''
@@ -196,7 +203,7 @@ overview: 'Alinta Energy publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Alinta Energy''s developer surface includes authentication, changelog, documentation, API reference, support, status page, and 29 more developer resources.'
-random_paper: 8
+random_paper: 136
 rate_limits:
 - limit_count: 7
   name: Alinta Energy Rate Limits
@@ -235,7 +242,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

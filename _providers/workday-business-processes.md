@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Manage running business process instances
   name: Workday Business Processes Process Instances API
   slug: workday-business-processes-process-instances-api
-artifact_total: 41
+artifact_total: 46
 collections:
 - collection_type: postman
   name: Workday Business Process Approvals API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Workday Business Process Approvals Process Instances API
   slug: postman-workday-business-processes-process-instances-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Business Process Approvals API
+  slug: open-workday-business-processes-approvals-api
+- collection_type: open
+  name: Workday Business Process Approvals Business Process Definitions API
+  slug: open-workday-business-processes-business-process-definitions-api
+- collection_type: open
+  name: Workday Business Process Approvals Inbox Items API
+  slug: open-workday-business-processes-inbox-items-api
+- collection_type: open
+  name: Workday Business Process Approvals Process Instances API
+  slug: open-workday-business-processes-process-instances-api
 - collection_type: open
   name: Workday Business Process API
   slug: open-workday-business-processes
@@ -223,7 +238,7 @@ plans:
 - name: Workday Business Processes Plans Pricing
   plan_count: 3
   slug: workday-business-processes-plans-pricing
-random_paper: 78
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Workday Business Processes Rate Limits
@@ -270,7 +285,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/screenshots/workday-business-processes-2026-06-20T201558.png
 security:

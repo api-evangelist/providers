@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Lala is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lala''s developer surface includes pricing, signup flow, support, FAQ, and 8 more developer resources.'
-random_paper: 50
+random_paper: 112
 score:
   band: minimal
   composite: 12.0
@@ -105,7 +105,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lala/refs/heads/main/screenshots/lala-2026-07-25T224437.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: vLLM-specific tokenize/detokenize utilities
   name: vLLM Tokenize API
   slug: vllm-tokenize-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: vLLM OpenAI-Compatible Server Audio API
+  slug: open-vllm-audio-api
+- collection_type: open
+  name: vLLM OpenAI-Compatible Server Audio Chat API
+  slug: open-vllm-chat-api
+- collection_type: open
+  name: vLLM OpenAI-Compatible Server Audio Completions API
+  slug: open-vllm-completions-api
+- collection_type: open
+  name: vLLM OpenAI-Compatible Server Audio Embeddings API
+  slug: open-vllm-embeddings-api
+- collection_type: open
+  name: vLLM OpenAI-Compatible Server Audio Scoring API
+  slug: open-vllm-scoring-api
+- collection_type: open
+  name: vLLM OpenAI-Compatible Server Audio Tokenize API
+  slug: open-vllm-tokenize-api
 - collection_type: open
   name: vLLM OpenAI-Compatible Server
   slug: open-vllm
@@ -134,7 +155,7 @@ plans:
 - name: Vllm Plans Pricing
   plan_count: 1
   slug: vllm-plans-pricing
-random_paper: 83
+random_paper: 145
 rate_limits:
 - limit_count: 2
   name: Vllm Rate Limits
@@ -159,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/screenshots/vllm-2026-06-20T201117.png
 security:

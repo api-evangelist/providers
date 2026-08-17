@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Segments API from Whatfix — 1 operation(s) for segments.
   name: Whatfix Segments API
   slug: whatfix-segments-api
-artifact_total: 24
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Whatfix Analytics API
+  slug: open-whatfix-analytics-api
+- collection_type: open
+  name: Whatfix Analytics Content API
+  slug: open-whatfix-content-api
+- collection_type: open
+  name: Whatfix Analytics End Users API
+  slug: open-whatfix-end-users-api
+- collection_type: open
+  name: Whatfix Analytics Reports API
+  slug: open-whatfix-reports-api
+- collection_type: open
+  name: Whatfix Analytics Segments API
+  slug: open-whatfix-segments-api
 - collection_type: open
   name: Whatfix API
   slug: open-whatfix
@@ -167,7 +185,7 @@ plans:
 - name: Whatfix Plans Pricing
   plan_count: 1
   slug: whatfix-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Whatfix Rate Limits
@@ -209,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/screenshots/whatfix-2026-06-20T201422.png
 security:

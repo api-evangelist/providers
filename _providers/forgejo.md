@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 245
   human_in_the_loop: 5
@@ -69,7 +69,41 @@ apis:
 - description: The user API from Forgejo — 54 operation(s) for user.
   name: Forgejo user API
   slug: forgejo-user-api
-artifact_total: 279
+artifact_total: 290
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Forgejo activitypub API
+  slug: open-forgejo-activitypub-api
+- collection_type: open
+  name: Forgejo activitypub admin API
+  slug: open-forgejo-admin-api
+- collection_type: open
+  name: Forgejo activitypub issue API
+  slug: open-forgejo-issue-api
+- collection_type: open
+  name: Forgejo activitypub miscellaneous API
+  slug: open-forgejo-miscellaneous-api
+- collection_type: open
+  name: Forgejo activitypub notification API
+  slug: open-forgejo-notification-api
+- collection_type: open
+  name: Forgejo activitypub organization API
+  slug: open-forgejo-organization-api
+- collection_type: open
+  name: Forgejo activitypub package API
+  slug: open-forgejo-package-api
+- collection_type: open
+  name: Forgejo activitypub repository API
+  slug: open-forgejo-repository-api
+- collection_type: open
+  name: Forgejo activitypub settings API
+  slug: open-forgejo-settings-api
+- collection_type: open
+  name: Forgejo activitypub user API
+  slug: open-forgejo-user-api
 common:
 - group: agent
   title: ''
@@ -947,7 +981,7 @@ plans:
 - name: Forgejo Plans Pricing
   plan_count: 2
   slug: forgejo-plans-pricing
-random_paper: 28
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Forgejo Rate Limits
@@ -981,7 +1015,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/screenshots/forgejo-2026-06-20T181426.png
 security:

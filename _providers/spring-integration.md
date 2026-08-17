@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -68,11 +68,38 @@ apis:
 - description: The Inbound Adapter API from Spring Integration — 1 operation(s) for inbound adapter.
   name: Spring Integration Inbound Adapter API
   slug: spring-integration-inbound-adapter-api
-artifact_total: 24
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spring Integration HTTP Inbound Gateway Adapters API
+  slug: open-spring-integration-adapters-api
+- collection_type: open
+  name: Spring Integration HTTP Inbound Gateway Adapters Channels API
+  slug: open-spring-integration-channels-api
+- collection_type: open
+  name: Spring Integration HTTP Inbound Gateway Adapters Control API
+  slug: open-spring-integration-control-api
+- collection_type: open
+  name: Spring Integration HTTP Inbound Adapters Gateway API
+  slug: open-spring-integration-gateway-api
+- collection_type: open
+  name: Spring Integration HTTP Inbound Gateway Adapters Graph API
+  slug: open-spring-integration-graph-api
+- collection_type: open
+  name: Spring Integration HTTP Inbound Gateway Adapters Handlers API
+  slug: open-spring-integration-handlers-api
+- collection_type: open
+  name: Spring Integration HTTP Inbound Gateway Adapters History API
+  slug: open-spring-integration-history-api
 - collection_type: open
   name: Spring Integration HTTP Inbound Gateway API
   slug: open-spring-integration-http
+- collection_type: open
+  name: Spring Integration HTTP Inbound Gateway Adapters Inbound Adapter API
+  slug: open-spring-integration-inbound-adapter-api
 - collection_type: open
   name: Spring Integration Management API
   slug: open-spring-integration-management
@@ -169,7 +196,7 @@ plans:
 - name: Spring Integration Plans Pricing
   plan_count: 3
   slug: spring-integration-plans-pricing
-random_paper: 92
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Spring Integration Rate Limits
@@ -211,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/screenshots/spring-integration-2026-06-20T194414.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,11 +50,20 @@ apis:
 - description: Access vehicle data and information
   name: BMW ConnectedDrive Vehicles API
   slug: bmw-connecteddrive-vehicles-api
-artifact_total: 18
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: CARDATA API
   slug: open-bmw-cardata-customer-api
+- collection_type: open
+  name: CARDATA Containers API
+  slug: open-bmw-connecteddrive-containers-api
+- collection_type: open
+  name: CARDATA Containers Vehicles API
+  slug: open-bmw-connecteddrive-vehicles-api
 common:
 - group: agent
   title: ''
@@ -188,7 +197,7 @@ overview: 'BMW ConnectedDrive publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   BMW ConnectedDrive''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 56
+random_paper: 68
 score:
   band: thin
   composite: 33.9
@@ -209,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/screenshots/bmw-connecteddrive-2026-06-20T173542.png
 security:

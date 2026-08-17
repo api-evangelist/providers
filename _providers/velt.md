@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -60,8 +60,32 @@ apis:
 - description: Advanced webhook endpoints and event subscriptions.
   name: Velt Webhooks API
   slug: velt-webhooks-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Velt Data (REST) Auth API
+  slug: open-velt-auth-api
+- collection_type: open
+  name: Velt Data (REST) Auth Comments API
+  slug: open-velt-comments-api
+- collection_type: open
+  name: Velt Data (REST) Auth Documents API
+  slug: open-velt-documents-api
+- collection_type: open
+  name: Velt Data (REST) Auth Notifications API
+  slug: open-velt-notifications-api
+- collection_type: open
+  name: Velt Data (REST) Auth Organizations API
+  slug: open-velt-organizations-api
+- collection_type: open
+  name: Velt Data (REST) Auth Users API
+  slug: open-velt-users-api
+- collection_type: open
+  name: Velt Data (REST) Auth Webhooks API
+  slug: open-velt-webhooks-api
 - collection_type: open
   name: Velt Data (REST) API
   slug: open-velt
@@ -134,7 +158,7 @@ plans:
 - name: Velt Plans Pricing
   plan_count: 3
   slug: velt-plans-pricing
-random_paper: 83
+random_paper: 145
 rate_limits:
 - limit_count: 4
   name: Velt Rate Limits
@@ -159,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

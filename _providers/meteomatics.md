@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Query weather parameters for point, grid, multi-location, and route requests
   name: Meteomatics Weather Data API
   slug: meteomatics-weather-data-api
-artifact_total: 13
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meteomatics Weather Authentication API
+  slug: open-meteomatics-authentication-api
+- collection_type: open
+  name: Meteomatics Weather Authentication User API
+  slug: open-meteomatics-user-api
+- collection_type: open
+  name: Meteomatics Weather Authentication Weather Data API
+  slug: open-meteomatics-weather-data-api
 common:
 - group: agent
   title: ''
@@ -158,7 +171,7 @@ plans:
 - name: Meteomatics Plans Pricing
   plan_count: 4
   slug: meteomatics-plans-pricing
-random_paper: 99
+random_paper: 136
 rate_limits:
 - limit_count: 0
   name: Meteomatics Rate Limits
@@ -192,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/screenshots/meteomatics-2026-06-20T185254.png
 security:

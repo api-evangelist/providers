@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Locate a project member, read their current scopes, update them, and confirm the new scopes took effect.
   name: Deepgram Update a Member's Scopes
   slug: deepgram-update-member-scopes-workflow
-artifact_total: 108
+artifact_total: 120
 asyncapis:
 - description: The Deepgram Speech-to-Text streaming API provides real-time transcription of audio using a WebSocket connection. Audio data is sent as binary WebSocket messages and transcription results are returned
   name: Deepgram Speech-to-Text Streaming Events
@@ -128,14 +128,50 @@ collections:
   name: Deepgram Text-to-Speech API
   slug: postman-deepgram-text-to-speech
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deepgram Management Balances API
+  slug: open-deepgram-balances-api
+- collection_type: open
+  name: Deepgram Management Balances Invitations API
+  slug: open-deepgram-invitations-api
+- collection_type: open
+  name: Deepgram Management Balances Keys API
+  slug: open-deepgram-keys-api
+- collection_type: open
   name: Deepgram Management API
   slug: open-deepgram-management
+- collection_type: open
+  name: Deepgram Management Balances Members API
+  slug: open-deepgram-members-api
+- collection_type: open
+  name: Deepgram Management Balances Models API
+  slug: open-deepgram-models-api
+- collection_type: open
+  name: Deepgram Management Balances Pre-Recorded API
+  slug: open-deepgram-pre-recorded-api
+- collection_type: open
+  name: Deepgram Management Balances Projects API
+  slug: open-deepgram-projects-api
+- collection_type: open
+  name: Deepgram Management Balances Scopes API
+  slug: open-deepgram-scopes-api
 - collection_type: open
   name: Deepgram Speech-to-Text API
   slug: open-deepgram-speech-to-text
 - collection_type: open
+  name: Deepgram Management Balances Text Intelligence API
+  slug: open-deepgram-text-intelligence-api
+- collection_type: open
+  name: Deepgram Management Balances Text-To-Speech API
+  slug: open-deepgram-text-to-speech-api
+- collection_type: open
   name: Deepgram Text-to-Speech API
   slug: open-deepgram-text-to-speech
+- collection_type: open
+  name: Deepgram Management Balances Usage API
+  slug: open-deepgram-usage-api
 common:
 - group: agent
   title: ''
@@ -448,7 +484,7 @@ plans:
 - name: Deepgram Plans Pricing
   plan_count: 6
   slug: deepgram-plans-pricing
-random_paper: 117
+random_paper: 92
 rate_limits:
 - limit_count: 4
   name: Deepgram Rate Limits
@@ -514,7 +550,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/screenshots/deepgram-2026-06-20T175821.png
 security:

@@ -28,10 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 5
+artifact_total: 6
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Seaboard Corporation API
   slug: open-seaboard
@@ -89,7 +92,7 @@ press:
 - date: '2023-08-01'
   title: 'By: EARNINGS REPORT 2ND QUARTER 2023 | Seaboard'
   url: https://www.seaboardcorp.com/investors/#comment-104
-random_paper: 113
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Seaboard Rate Limits
@@ -107,7 +110,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 12.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

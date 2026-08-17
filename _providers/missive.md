@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Create messages in custom channels
   name: Missive Messages API
   slug: missive-messages-api
-artifact_total: 16
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Missive REST Analytics API
+  slug: open-missive-analytics-api
+- collection_type: open
+  name: Missive REST Analytics Contact Books API
+  slug: open-missive-contact-books-api
+- collection_type: open
+  name: Missive REST Analytics Contact Groups API
+  slug: open-missive-contact-groups-api
+- collection_type: open
+  name: Missive REST Analytics Contacts API
+  slug: open-missive-contacts-api
+- collection_type: open
+  name: Missive REST Analytics Conversations API
+  slug: open-missive-conversations-api
+- collection_type: open
+  name: Missive REST Analytics Drafts API
+  slug: open-missive-drafts-api
+- collection_type: open
+  name: Missive REST Analytics Messages API
+  slug: open-missive-messages-api
 common:
 - group: agent
   title: ''
@@ -154,7 +179,7 @@ plans:
 - name: Missive Plans Pricing
   plan_count: 3
   slug: missive-plans-pricing
-random_paper: 48
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Missive Rate Limits
@@ -179,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/screenshots/missive-2026-06-20T185610.png
 security:

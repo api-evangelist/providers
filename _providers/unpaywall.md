@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: Search articles by title
   name: Unpaywall Search API
   slug: unpaywall-search-api
-artifact_total: 15
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unpaywall DOI Lookup API
+  slug: open-unpaywall-doi-lookup-api
+- collection_type: open
+  name: Unpaywall DOI Lookup Search API
+  slug: open-unpaywall-search-api
 - collection_type: open
   name: Unpaywall API
   slug: open-unpaywall
@@ -137,7 +146,7 @@ plans:
 - name: Unpaywall Plans Pricing
   plan_count: 3
   slug: unpaywall-plans-pricing
-random_paper: 29
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Unpaywall Rate Limits
@@ -179,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/screenshots/unpaywall-2026-06-20T200345.png
 security:

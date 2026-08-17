@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Defense Counterintelligence and Security Agency is profiled on the [A
 
 
   Defense Counterintelligence and Security Agency''s developer surface includes product news and 6 more developer resources.'
-random_paper: 91
+random_paper: 3
 score:
   band: minimal
   composite: 5.9
@@ -91,7 +91,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-counterintelligence-and-security-agency/refs/heads/main/screenshots/defense-counterintelligence-and-security-agency-2026-06-20T175832.png
 security:

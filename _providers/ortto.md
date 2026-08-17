@@ -11,25 +11,26 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 57.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,8 +58,33 @@ apis:
 - description: Send transactional email and SMS.
   name: Ortto Transactional API
   slug: ortto-transactional-api
-artifact_total: 14
+artifact_total: 24
+asyncapis:
+- description: ''
+  name: Ortto Webhooks
+  slug: ortto-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ortto Accounts API
+  slug: open-ortto-accounts-api
+- collection_type: open
+  name: Ortto Accounts Activities API
+  slug: open-ortto-activities-api
+- collection_type: open
+  name: Ortto Accounts Campaigns API
+  slug: open-ortto-campaigns-api
+- collection_type: open
+  name: Ortto Accounts People API
+  slug: open-ortto-people-api
+- collection_type: open
+  name: Ortto Accounts Tags API
+  slug: open-ortto-tags-api
+- collection_type: open
+  name: Ortto Accounts Transactional API
+  slug: open-ortto-transactional-api
 - collection_type: open
   name: Ortto API
   slug: open-ortto
@@ -111,42 +137,173 @@ common:
   title: ''
   type: Blog
   url: https://ortto.com/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ortto-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/ortto-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ortto-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/ortto-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/ortto-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/ortto-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/ortto-trust-center.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ortto-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/ortto-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ortto-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ortto-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ortto-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ortto-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ortto-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ortto-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/ortto-components.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/ortto-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ortto-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://roadmap.ortto.com/changelog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.orttostatus.com/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://roadmap.ortto.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://ortto.com/developers/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.ortto.com/a-222-ortto-developer-documentation
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.ortto.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://ortto.com/trial/
+- group: start
+  title: ''
+  type: Login
+  url: https://ortto.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://ortto.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://ortto.com/privacy/
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/ortto.postman_collection.json
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/ortto.opencollection.json
 created: '2026-06-25'
-description: Ortto (formerly Autopilot) is a marketing automation, customer data platform (CDP), and analytics product. Its REST API at https://api.ap3api.com/v1 lets applications create and update people/contacts and accounts, send custom activity events, manage tags, retrieve campaign reports, and send transactional email and SMS, all authenticated with a custom API key via the X-Api-Key header.
+description: Ortto (formerly Autopilot) is a marketing automation, customer data platform (CDP), and analytics product. Its REST API at https://api.ap3api.com/v1 lets applications create and update people/contacts and accounts, send custom activity events, manage tags, retrieve campaign reports, and send transactional email and SMS, all authenticated with a custom API key via the X-Api-Key header, with EU and AU service endpoints for accounts in those data-residency regions. Ortto also runs a first-party hosted MCP server, released in version 1.27 (December 2025), giving agents a read-heavy surface over campaigns, contacts, audiences, reports, schema and knowledge-base content. Ortto publishes no machine-readable OpenAPI; the specifications here are scaffolded from its help-center API reference. Ortto announced in April 2026 that it is joining Canva.
 finops:
 - name: Ortto Finops
   service_category: Marketing and Customer Engagement
   slug: ortto-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ortto.png
 layout: provider
-modified: '2026-06-25'
+mcp_servers:
+- description: ''
+  name: ortto-mcp.yml
+  slug: ortto-mcpyml
+modified: '2026-08-13'
 name: Ortto
 nav: Providers
 network: true
 overview: 'Ortto publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Campaigns API, and 3 more. Tagged areas include Marketing Automation, CDP, Customer Data Platform, Analytics, and Email.
 
 
-  Ortto''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  The Ortto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Ortto''s developer surface includes authentication, documentation, engineering blog, changelog, getting-started guide, support, signup flow, and 36 more developer resources.'
 plans:
 - name: Ortto Plans Pricing
   plan_count: 5
   slug: ortto-plans-pricing
-random_paper: 88
+random_paper: 121
 rate_limits:
-- limit_count: 7
+- limit_count: 14
   name: Ortto Rate Limits
   slug: ortto-rate-limits
 score:
-  band: thin
-  composite: 39.2
-  delta: 0.0
+  band: exemplar
+  composite: 68.6
+  delta: 29.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 59.0
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 89.5
+    contract_quality: 67.9
+    developer_ergonomics: 71.7
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 92.1
   previous_composite: 39.2
   provenance:
     agentic_access: derived
@@ -155,15 +312,21 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/screenshots/ortto-2026-08-07T190955.png
 security:
 - kind: authentication
   name: Ortto Authentication
   slug: ortto-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Ortto Domain Security
   slug: ortto-domain-security
@@ -172,6 +335,10 @@ security:
   name: Ortto Vulnerability Disclosure
   slug: ortto-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Ortto Trust Center
+  slug: ortto-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR, CCPA, EU-US Data Privacy Framework
 slug: ortto
 tags:
 - Marketing Automation
@@ -179,5 +346,10 @@ tags:
 - Customer Data Platform
 - Analytics
 - Email
+- SMS
+- Transactional Email
+- Webhooks
+- MCP
+- Push Notifications
 website: https://ortto.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Search and resolve commercial real-estate properties.
   name: Reonomy Search API
   slug: reonomy-search-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reonomy Property API
+  slug: open-reonomy-property-api
+- collection_type: open
+  name: Reonomy Property Search API
+  slug: open-reonomy-search-api
 - collection_type: open
   name: Reonomy Property API
   slug: open-reonomy
@@ -111,7 +120,7 @@ plans:
 - name: Reonomy Plans Pricing
   plan_count: 2
   slug: reonomy-plans-pricing
-random_paper: 57
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Reonomy Rate Limits
@@ -136,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

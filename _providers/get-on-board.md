@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 22
 apis:
 - description: Job applications management
@@ -98,11 +98,81 @@ apis:
 - description: Webhook endpoints and events
   name: Get On Board Webhooks API
   slug: get-on-board-webhooks-api
-artifact_total: 27
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Get On Board Webhooks
   slug: get-on-board-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Get on Board Applications API
+  slug: open-get-on-board-applications-api
+- collection_type: open
+  name: Get on Board Applications Authentication API
+  slug: open-get-on-board-authentication-api
+- collection_type: open
+  name: Get on Board Applications Board+ API
+  slug: open-get-on-board-board-api
+- collection_type: open
+  name: Get on Board Applications Categories API
+  slug: open-get-on-board-categories-api
+- collection_type: open
+  name: Get on Board Applications Companies API
+  slug: open-get-on-board-companies-api
+- collection_type: open
+  name: Get on Board Applications Company shells API
+  slug: open-get-on-board-company-shells-api
+- collection_type: open
+  name: Get on Board Applications Countries API
+  slug: open-get-on-board-countries-api
+- collection_type: open
+  name: Get on Board Applications Headcounts API
+  slug: open-get-on-board-headcounts-api
+- collection_type: open
+  name: Get on Board Applications Industries API
+  slug: open-get-on-board-industries-api
+- collection_type: open
+  name: Get on Board Applications Insights API
+  slug: open-get-on-board-insights-api
+- collection_type: open
+  name: Get on Board Applications Jobs API
+  slug: open-get-on-board-jobs-api
+- collection_type: open
+  name: Get on Board Applications Matching API
+  slug: open-get-on-board-matching-api
+- collection_type: open
+  name: Get on Board Applications Modalities API
+  slug: open-get-on-board-modalities-api
+- collection_type: open
+  name: Get on Board Applications Perks API
+  slug: open-get-on-board-perks-api
+- collection_type: open
+  name: Get on Board Applications Processes API
+  slug: open-get-on-board-processes-api
+- collection_type: open
+  name: Get on Board Applications Professionals API
+  slug: open-get-on-board-professionals-api
+- collection_type: open
+  name: Get on Board Applications Regions API
+  slug: open-get-on-board-regions-api
+- collection_type: open
+  name: Get on Board Applications Search API
+  slug: open-get-on-board-search-api
+- collection_type: open
+  name: Get on Board Applications Seniorities API
+  slug: open-get-on-board-seniorities-api
+- collection_type: open
+  name: Get on Board Applications Tags API
+  slug: open-get-on-board-tags-api
+- collection_type: open
+  name: Get on Board Applications Tenant Cities API
+  slug: open-get-on-board-tenant-cities-api
+- collection_type: open
+  name: Get on Board Applications Webhooks API
+  slug: open-get-on-board-webhooks-api
 common:
 - group: other
   title: ''
@@ -239,7 +309,7 @@ overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) net
 
 
   Get On Board''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, sandbox, and 22 more developer resources.'
-random_paper: 71
+random_paper: 108
 score:
   band: developing
   composite: 47.3
@@ -262,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/get-on-board/refs/heads/main/screenshots/get-on-board-2026-07-25T215711.png
 security:

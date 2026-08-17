@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Public, unauthenticated OBIE Open Data API listing the location, accessibility, supported currencies, and services of Nationwide ATMs across the UK. Confirmed live (HTTP 200, application/json) at v2.2
@@ -52,7 +52,17 @@ apis:
 - description: OBIE Read/Write Variable Recurring Payments (VRP) API enabling consented sweeping and recurring payment mandates from Nationwide accounts. FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 SCA); endpoints u
   name: Nationwide Variable Recurring Payments API (VRP)
   slug: nationwide-variable-recurring-payments-api
-artifact_total: 12
+artifact_total: 15
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-open-data-atm-locator
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-open-data-branch-locator
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-open-data-personal-current-accounts
 common:
 - group: auth
   title: ''
@@ -195,7 +205,7 @@ overview: 'Nationwide Building Society publishes 3 APIs on the [APIs.io](https:/
 
 
   Nationwide Building Society''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, and 26 more developer resources.'
-random_paper: 18
+random_paper: 96
 scopes:
 - name: Nationwide Building Society Scopes
   scope_count: 4
@@ -229,7 +239,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/screenshots/nationwide-building-society-2026-08-07T184659.png
 security:

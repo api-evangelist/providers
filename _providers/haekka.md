@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,7 +54,20 @@ arazzos:
 - description: Read an employee-training record and update its completion state, then confirm.
   name: Sync a Haekka employee-training completion
   slug: haekka-sync-completion
-artifact_total: 11
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Haekka Public Employee Trainings API
+  slug: open-haekka-employee-trainings-api
+- collection_type: open
+  name: Haekka Public Employee Trainings Employees API
+  slug: open-haekka-employees-api
+- collection_type: open
+  name: Haekka Public Employee Trainings API
+  slug: open-haekka-trainings-api
 common:
 - group: agent
   title: ''
@@ -196,7 +209,7 @@ overview: 'Haekka publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Haekka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: thin
   composite: 41.3
@@ -220,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haekka/refs/heads/main/screenshots/haekka-2026-07-25T220528.png
 security:

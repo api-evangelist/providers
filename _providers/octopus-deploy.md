@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: The Root API from Octopus Deploy — 1 operation(s) for root.
   name: Octopus Deploy Root API
   slug: octopus-deploy-root-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Octopus Deploy REST Accounts API
+  slug: open-octopus-deploy-accounts-api
+- collection_type: open
+  name: Octopus Deploy REST Accounts Environments API
+  slug: open-octopus-deploy-environments-api
+- collection_type: open
+  name: Octopus Deploy REST Accounts Feeds API
+  slug: open-octopus-deploy-feeds-api
+- collection_type: open
+  name: Octopus Deploy REST Accounts Machines API
+  slug: open-octopus-deploy-machines-api
+- collection_type: open
+  name: Octopus Deploy REST Accounts Projects API
+  slug: open-octopus-deploy-projects-api
+- collection_type: open
+  name: Octopus Deploy REST Accounts Root API
+  slug: open-octopus-deploy-root-api
 - collection_type: open
   name: Octopus Deploy REST API
   slug: open-octopus-deploy
@@ -161,7 +182,7 @@ overview: 'Octopus Deploy publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Octopus Deploy''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, CLI, and 13 more developer resources.'
-random_paper: 39
+random_paper: 138
 scopes:
 - name: Octopus Deploy Scopes
   scope_count: 0
@@ -187,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/screenshots/octopus-deploy-2026-06-20T190613.png
 security:

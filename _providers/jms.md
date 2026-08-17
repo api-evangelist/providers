@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Jakarta Messaging (formerly Java Message Service) specification for enterprise messaging and asynchronous communication between distributed components. Defines point-to-point queues and publish/su
@@ -84,7 +84,7 @@ plans:
 - name: Jms Plans Pricing
   plan_count: 3
   slug: jms-plans-pricing
-random_paper: 90
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Jms Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jms/refs/heads/main/screenshots/jms-2026-06-20T183740.png
 security:

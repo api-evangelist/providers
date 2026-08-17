@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: The Verification API from Transmit Security — 6 operation(s) for verification.
   name: Transmit Security Verification API
   slug: transmit-security-verification-api
-artifact_total: 38
+artifact_total: 47
 collections:
 - collection_type: postman
   name: One-Time Login Applications API
@@ -92,6 +92,33 @@ collections:
 - collection_type: postman
   name: One-Time Login Applications Verification API
   slug: postman-transmit-security-verification-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: One-Time Login Applications API
+  slug: open-transmit-security-applications-api
+- collection_type: open
+  name: One-Time Login Applications Auth API
+  slug: open-transmit-security-auth-api
+- collection_type: open
+  name: One-Time Login Applications Manage API
+  slug: open-transmit-security-manage-api
+- collection_type: open
+  name: One-Time Login Applications Organizations API
+  slug: open-transmit-security-organizations-api
+- collection_type: open
+  name: One-Time Login Applications Recommendation API
+  slug: open-transmit-security-recommendation-api
+- collection_type: open
+  name: One-Time Login Applications Token API
+  slug: open-transmit-security-token-api
+- collection_type: open
+  name: One-Time Login Applications Users API
+  slug: open-transmit-security-users-api
+- collection_type: open
+  name: One-Time Login Applications Verification API
+  slug: open-transmit-security-verification-api
 common:
 - group: build
   title: ''
@@ -239,7 +266,7 @@ plans:
 - name: Transmit Security Plans Pricing
   plan_count: 4
   slug: transmit-security-plans-pricing
-random_paper: 15
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Transmit Security Rate Limits
@@ -278,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/screenshots/transmit-security-2026-06-20T195547.png
 security:

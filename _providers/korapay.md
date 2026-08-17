@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Dedicated NGN and USD virtual bank accounts.
   name: Kora Virtual Bank Accounts API
   slug: korapay-virtual-bank-accounts-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kora (Korapay) Merchant Balances API
+  slug: open-korapay-balances-api
+- collection_type: open
+  name: Kora (Korapay) Merchant Balances Charges API
+  slug: open-korapay-charges-api
+- collection_type: open
+  name: Kora (Korapay) Merchant Balances Currency Conversion API
+  slug: open-korapay-currency-conversion-api
+- collection_type: open
+  name: Kora (Korapay) Merchant Balances Misc API
+  slug: open-korapay-misc-api
+- collection_type: open
+  name: Kora (Korapay) Merchant Balances Payouts API
+  slug: open-korapay-payouts-api
+- collection_type: open
+  name: Kora (Korapay) Merchant Balances Refunds API
+  slug: open-korapay-refunds-api
+- collection_type: open
+  name: Kora (Korapay) Merchant Balances Virtual Bank Accounts API
+  slug: open-korapay-virtual-bank-accounts-api
 - collection_type: open
   name: Kora (Korapay) Merchant API
   slug: open-korapay
@@ -126,7 +150,7 @@ plans:
 - name: Korapay Plans Pricing
   plan_count: 3
   slug: korapay-plans-pricing
-random_paper: 39
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Korapay Rate Limits
@@ -157,7 +181,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/screenshots/korapay-2026-07-25T224217.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Virtual Accounts API from Fincra — 4 operation(s) for virtual accounts.
   name: Fincra Virtual Accounts API
   slug: fincra-virtual-accounts-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fincra Account Resolution API
+  slug: open-fincra-account-resolution-api
+- collection_type: open
+  name: Fincra Account Resolution Banks API
+  slug: open-fincra-banks-api
+- collection_type: open
+  name: Fincra Account Resolution Beneficiaries API
+  slug: open-fincra-beneficiaries-api
+- collection_type: open
+  name: Fincra Account Resolution Collections API
+  slug: open-fincra-collections-api
+- collection_type: open
+  name: Fincra Account Resolution Conversions API
+  slug: open-fincra-conversions-api
+- collection_type: open
+  name: Fincra Account Resolution Payouts API
+  slug: open-fincra-payouts-api
+- collection_type: open
+  name: Fincra Account Resolution Quotes API
+  slug: open-fincra-quotes-api
+- collection_type: open
+  name: Fincra Account Resolution Virtual Accounts API
+  slug: open-fincra-virtual-accounts-api
 - collection_type: open
   name: Fincra API
   slug: open-fincra
@@ -129,7 +156,7 @@ plans:
 - name: Fincra Plans Pricing
   plan_count: 2
   slug: fincra-plans-pricing
-random_paper: 27
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Fincra Rate Limits
@@ -160,7 +187,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/screenshots/fincra-2026-07-25T214519.png
 security:

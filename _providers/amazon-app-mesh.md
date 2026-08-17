@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Untag#resourceArn API from Amazon App Mesh — 1 operation(s) for untag#resourcearn.
   name: Amazon App Mesh Untag#resourceArn API
   slug: amazon-app-mesh-untag-resourcearn-api
-artifact_total: 994
+artifact_total: 999
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS App Mesh Meshes API
+  slug: open-amazon-app-mesh-meshes-api
+- collection_type: open
+  name: AWS App Mesh Meshes Tag#resourceArn API
+  slug: open-amazon-app-mesh-tag-resourcearn-api
+- collection_type: open
+  name: AWS App Mesh Meshes Tags#resourceArn API
+  slug: open-amazon-app-mesh-tags-resourcearn-api
+- collection_type: open
+  name: AWS App Mesh Meshes Untag#resourceArn API
+  slug: open-amazon-app-mesh-untag-resourcearn-api
 common:
 - group: agent
   title: ''
@@ -3106,7 +3122,7 @@ overview: 'Amazon App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 18 more developer resources.'
-random_paper: 46
+random_paper: 145
 rules:
 - name: Amazon App Mesh API Rules
   rule_count: 5
@@ -3146,7 +3162,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:

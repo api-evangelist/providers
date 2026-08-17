@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,32 @@ apis:
 - description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its JSON-LD schema graph for any gothamgreens.com URL.
   name: Gotham Greens SEO Metadata API
   slug: gotham-greens-seo-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: Gotham Greens Discovery API
+  slug: open-gotham-greens-discovery-api
+- collection_type: open
+  name: Gotham Greens Media API
+  slug: open-gotham-greens-media-api
+- collection_type: open
+  name: Gotham Greens oEmbed API
+  slug: open-gotham-greens-oembed-api
+- collection_type: open
+  name: Gotham Greens Pages API
+  slug: open-gotham-greens-pages-api
+- collection_type: open
+  name: Gotham Greens Journal Posts API
+  slug: open-gotham-greens-posts-api
+- collection_type: open
+  name: Gotham Greens Search API
+  slug: open-gotham-greens-search-api
+- collection_type: open
+  name: Gotham Greens SEO Metadata API
+  slug: open-gotham-greens-seo-api
+- collection_type: open
+  name: Gotham Greens Taxonomy API
+  slug: open-gotham-greens-taxonomy-api
 common:
 - group: agent
   title: ''
@@ -193,7 +218,7 @@ overview: 'Gotham Greens publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Gotham Greens'' developer surface includes engineering blog, support, authentication, code examples, and 24 more developer resources.'
-random_paper: 9
+random_paper: 137
 score:
   band: thin
   composite: 32.3
@@ -217,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png
 security:

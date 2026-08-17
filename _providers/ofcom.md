@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -38,7 +38,14 @@ arazzos:
 - description: Build a complete connectivity picture for one UK postcode by calling both Ofcom Connected Nations APIs — fixed broadband availability and mobile coverage across all four UK operators — and joining the
   name: Ofcom postcode connectivity profile
   slug: ofcom-postcode-connectivity-profile
-artifact_total: 9
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Ofcom Connected Nations Broadband API
+  slug: open-ofcom-connected-nations-broadband-api
+- collection_type: open
+  name: Ofcom Connected Nations Mobile API
+  slug: open-ofcom-connected-nations-mobile-api
 common:
 - group: agent
   title: ''
@@ -177,7 +184,7 @@ plans:
 - name: Ofcom Plans
   plan_count: 4
   slug: ofcom-plans
-random_paper: 52
+random_paper: 85
 rate_limits:
 - limit_count: 8
   name: Ofcom Rate Limits
@@ -211,7 +218,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/screenshots/ofcom-2026-08-07T190010.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Agency annual FOIA reports as XML.
   name: Freedom of Information Act Annual Reports API
   slug: freedom-of-information-act-annual-reports-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freedom of Information Act (FOIA) Agency Components API
+  slug: open-freedom-of-information-act-agency-components-api
+- collection_type: open
+  name: Freedom of Information Act (FOIA) Agency Components Agency Submission API
+  slug: open-freedom-of-information-act-agency-submission-api
+- collection_type: open
+  name: Freedom of Information Act (FOIA) Agency Components Annual Reports API
+  slug: open-freedom-of-information-act-annual-reports-api
 - collection_type: open
   name: Freedom of Information Act (FOIA) API
   slug: open-freedom-of-information-act
@@ -94,7 +106,7 @@ plans:
 - name: Freedom Of Information Act Plans Pricing
   plan_count: 3
   slug: freedom-of-information-act-plans-pricing
-random_paper: 68
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Freedom Of Information Act Rate Limits
@@ -125,7 +137,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/screenshots/freedom-of-information-act-2026-06-20T181524.png
 security:

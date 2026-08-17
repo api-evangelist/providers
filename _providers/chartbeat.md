@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Live audience and traffic data updated every three seconds — top pages, referrers, geographies, engaged time, loyalty, and live concurrent visitors — the data behind the Real-Time Dashboard. HTTP GET,
@@ -46,7 +46,7 @@ apis:
 - description: Programmatic access to Chartbeat Data Lab datasets for deeper custom analysis of audience and content performance.
   name: Chartbeat Data Lab API
   slug: chartbeat-data-lab-api
-artifact_total: 8
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -136,42 +136,66 @@ common:
   title: ''
   type: DomainSecurity
   url: security/chartbeat-domain-security.yml
-- group: agent
+- group: auth
   title: ''
-  type: WellKnown
-  url: well-known/chartbeat-well-known.yml
+  type: TrustCenter
+  url: https://trust.chartbeat.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chartbeat-plans-pricing.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/chartbeat-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/chartbeat-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/chartbeat-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/chartbeat-components.yml
 created: '2026-07-17'
 description: 'Chartbeat is a real-time content analytics and audience-engagement platform built for digital publishers, media brands, and editorial teams. It measures how audiences read, watch, and engage with content the moment it is published, reporting live traffic, engaged time, loyalty, video engagement, and headline performance. Beyond its dashboards, Chartbeat exposes public HTTP APIs: a Real-Time API for live traffic and video data updated every three seconds, a Historical (Advanced Queries) API for summary traffic reporting, and Headline Testing, Conversion, and Data Lab APIs, plus JavaScript, iOS, Android, and React Native tracking SDKs for data collection. Authentication is via an account API key sent in the X-CB-AK header.'
 image: https://chartbeat.com/wp-content/uploads/2024/04/Chartbeat-logo-Navy-300ppi@2x.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Chartbeat
 nav: Providers
 network: true
 overview: 'Chartbeat publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Analytics, Content Analytics, and Real-Time Analytics.
 
 
-  Chartbeat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 102
+  Chartbeat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+plans:
+- name: Chartbeat Plans Pricing
+  plan_count: 4
+  slug: chartbeat-plans-pricing
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Chartbeat Rate Limits
   slug: chartbeat-rate-limits
 score:
-  band: thin
-  composite: 34.3
-  delta: 0.0
+  band: developing
+  composite: 45.0
+  delta: 10.7
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 65.2
     discoverability: 81.5
-    governance: 0.0
+    governance: 12.5
     operational_transparency: 42.1
   previous_composite: 34.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chartbeat/refs/heads/main/screenshots/chartbeat-2026-07-25T205108.png
 security:
 - kind: authentication
@@ -182,6 +206,10 @@ security:
   name: Chartbeat Domain Security
   slug: chartbeat-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Chartbeat Trust Center
+  slug: chartbeat-trust-center
+  summary_line: trust center published
 slug: chartbeat
 tags:
 - Company

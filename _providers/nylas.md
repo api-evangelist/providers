@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -72,8 +72,41 @@ apis:
 - description: The Threads API from Nylas — 1 operation(s) for threads.
   name: Nylas Threads API
   slug: nylas-threads-api
-artifact_total: 20
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nylas API (v3) Admin API
+  slug: open-nylas-admin-api
+- collection_type: open
+  name: Nylas API (v3) Admin Auth API
+  slug: open-nylas-auth-api
+- collection_type: open
+  name: Nylas API (v3) Admin Calendars API
+  slug: open-nylas-calendars-api
+- collection_type: open
+  name: Nylas API (v3) Admin Contacts API
+  slug: open-nylas-contacts-api
+- collection_type: open
+  name: Nylas API (v3) Admin Drafts API
+  slug: open-nylas-drafts-api
+- collection_type: open
+  name: Nylas API (v3) Admin Events API
+  slug: open-nylas-events-api
+- collection_type: open
+  name: Nylas API (v3) Admin Grants API
+  slug: open-nylas-grants-api
+- collection_type: open
+  name: Nylas API (v3) Admin Messages API
+  slug: open-nylas-messages-api
+- collection_type: open
+  name: Nylas API (v3) Admin Scheduling API
+  slug: open-nylas-scheduling-api
+- collection_type: open
+  name: Nylas API (v3) Admin Threads API
+  slug: open-nylas-threads-api
 - collection_type: open
   name: Nylas API (v3)
   slug: open-nylas
@@ -154,7 +187,7 @@ plans:
 - name: Nylas Plans Pricing
   plan_count: 3
   slug: nylas-plans-pricing
-random_paper: 71
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Nylas Rate Limits
@@ -179,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/screenshots/nylas-2026-06-20T190645.png
 security:

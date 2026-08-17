@@ -15,6 +15,7 @@
      "name": "Semble",
      "slug": "semble",
      "description": "Semble is a London-headquartered (7 Bell Yard, London, WC2A 2JR) cloud clinical and practice-management platform for United Kingdom private and independent healthcare providers, from solo clinicians to corporate and enterprise clinics. Its modular EHR unifies patient records, appointment scheduling and online booking, video consultations, e-prescribing, pathology/lab ordering, clinical documentation, invoicing and payments (Semble Pay) and patient communications. Semble exposes a single open, secure public GraphQL API at https://open.semble.io/graphql, available to Semble clinics at no extra cost, letting developers read and write patients, bookings, availability, consultations, clinical pathways, prescriptions, labs, invoices, tasks, forms, questionnaires and webhooks. Authentication is API-key / token based (an x-token header carrying a role-scoped token that expires after 12 hours) rather than SMART-on-FHIR; the API is GraphQL-native and does not publish an HL7 FHIR CapabilityStatement or a downloadable OpenAPI. Semble emphasises GDPR compliance and UK healthcare security standards, with data encrypted in transit and at rest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/screenshots/semble-2026-08-17T081757.png",
      "score": 51.2,
      "band": "developing",
      "band_label": "Developing",
@@ -26,7 +27,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -72,7 +73,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -118,7 +119,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -175,7 +176,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -221,7 +222,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -267,7 +268,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -313,7 +314,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -369,7 +370,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -415,7 +416,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -461,7 +462,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -517,7 +518,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -562,7 +563,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -608,7 +609,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,

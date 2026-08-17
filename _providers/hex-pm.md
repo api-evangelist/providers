@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -75,7 +75,47 @@ apis:
 - description: Utility endpoints.
   name: Hex.pm Utilities API
   slug: hex-pm-utilities-api
-artifact_total: 25
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hex.pm API Keys API
+  slug: open-hex-pm-api-keys-api
+- collection_type: open
+  name: Hex.pm API Keys Authentication API
+  slug: open-hex-pm-authentication-api
+- collection_type: open
+  name: Hex.pm API Keys Documentation API
+  slug: open-hex-pm-documentation-api
+- collection_type: open
+  name: Hex.pm API Keys Index API
+  slug: open-hex-pm-index-api
+- collection_type: open
+  name: Hex.pm API Keys OAuth API
+  slug: open-hex-pm-oauth-api
+- collection_type: open
+  name: Hex.pm API Keys Organizations API
+  slug: open-hex-pm-organizations-api
+- collection_type: open
+  name: Hex.pm API Keys Package Owners API
+  slug: open-hex-pm-package-owners-api
+- collection_type: open
+  name: Hex.pm API Keys Packages API
+  slug: open-hex-pm-packages-api
+- collection_type: open
+  name: Hex.pm API Keys Releases API
+  slug: open-hex-pm-releases-api
+- collection_type: open
+  name: Hex.pm API Keys Repositories API
+  slug: open-hex-pm-repositories-api
+- collection_type: open
+  name: Hex.pm API Keys Users API
+  slug: open-hex-pm-users-api
+- collection_type: open
+  name: Hex.pm API Keys Utilities API
+  slug: open-hex-pm-utilities-api
 common:
 - group: operate
   title: ''
@@ -192,7 +232,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 111
+random_paper: 144
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -226,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hex-pm/refs/heads/main/screenshots/hex-pm-2026-06-20T182659.png
 security:

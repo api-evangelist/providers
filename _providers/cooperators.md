@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -38,7 +38,11 @@ arazzos:
 - description: 'The full Duuo tenant (renters) insurance partner flow in Duuo''s mandatory order: check eligibility with consent, add the risk detail and price it into four options, record the selection and any additi'
   name: Duuo tenant insurance — quote and bind
   slug: cooperators-tenant-insurance-quote-and-bind
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Duuo Platform API
+  slug: open-cooperators-duuo-platform
 common:
 - group: agent
   title: ''
@@ -161,7 +165,7 @@ overview: 'The Co-operators publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   The Co-operators'' developer surface includes authentication, support, product news, engineering blog, sandbox, and 21 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: emerging
   composite: 23.6
@@ -191,7 +195,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/screenshots/cooperators-2026-07-25T210405.png
 security:

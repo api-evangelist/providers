@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,7 +57,23 @@ arazzos:
 - description: Confirm a FIM model then generate an inline code completion with Mercury Edit 2.
   name: Inception — fill-in-the-middle code autocomplete
   slug: inception-labs-code-autocomplete.arazzo
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inception Chat API
+  slug: open-inception-labs-chat-api
+- collection_type: open
+  name: Inception Chat Edit API
+  slug: open-inception-labs-edit-api
+- collection_type: open
+  name: Inception Chat FIM API
+  slug: open-inception-labs-fim-api
+- collection_type: open
+  name: Inception Chat Models API
+  slug: open-inception-labs-models-api
 common:
 - group: other
   title: ''
@@ -187,7 +203,7 @@ overview: 'Inception Labs publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Inception Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 112
+random_paper: 91
 score:
   band: developing
   composite: 48.1
@@ -211,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception-labs/refs/heads/main/screenshots/inception-labs-2026-07-25T222329.png
 security:

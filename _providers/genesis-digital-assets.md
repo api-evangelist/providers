@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Genesis Digital Assets
 nav: Providers
 network: true
 overview: Genesis Digital Assets is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Bitcoin, Cryptocurrency, and Data Centers.
-random_paper: 73
+random_paper: 147
 score:
   band: minimal
   composite: 7.1
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genesis-digital-assets/refs/heads/main/screenshots/genesis-digital-assets-2026-07-25T215604.png
 security:

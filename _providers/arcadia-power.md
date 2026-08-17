@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: Asynchronous events for statement, meter, and credential lifecycle.
   name: Arcadia Webhooks API
   slug: arcadia-power-webhooks-api
-artifact_total: 57
+artifact_total: 69
 collections:
 - collection_type: postman
   name: Arcadia Plug Accounts API
@@ -120,8 +120,44 @@ collections:
   name: Arcadia Plug Accounts Webhooks API
   slug: postman-arcadia-power-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Arcadia Plug API
   slug: open-arcadia-plug-api
+- collection_type: open
+  name: Arcadia Plug Accounts API
+  slug: open-arcadia-power-accounts-api
+- collection_type: open
+  name: Arcadia Plug Accounts Credentials API
+  slug: open-arcadia-power-credentials-api
+- collection_type: open
+  name: Arcadia Plug Accounts Files API
+  slug: open-arcadia-power-files-api
+- collection_type: open
+  name: Arcadia Plug Accounts Intervals API
+  slug: open-arcadia-power-intervals-api
+- collection_type: open
+  name: Arcadia Plug Accounts Meters API
+  slug: open-arcadia-power-meters-api
+- collection_type: open
+  name: Arcadia Plug Accounts OAuth API
+  slug: open-arcadia-power-oauth-api
+- collection_type: open
+  name: Arcadia Plug Accounts Organizations API
+  slug: open-arcadia-power-organizations-api
+- collection_type: open
+  name: Arcadia Plug Accounts Providers API
+  slug: open-arcadia-power-providers-api
+- collection_type: open
+  name: Arcadia Plug Accounts Sites API
+  slug: open-arcadia-power-sites-api
+- collection_type: open
+  name: Arcadia Plug Accounts Statements API
+  slug: open-arcadia-power-statements-api
+- collection_type: open
+  name: Arcadia Plug Accounts Webhooks API
+  slug: open-arcadia-power-webhooks-api
 common:
 - group: build
   title: ''
@@ -287,7 +323,7 @@ plans:
 - name: Arcadia Power Plans Pricing
   plan_count: 4
   slug: arcadia-power-plans-pricing
-random_paper: 111
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Arcadia Power Rate Limits
@@ -327,7 +363,7 @@ score:
     regime_id: energy_utilities
     score: 48.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/screenshots/arcadia-power-2026-06-20T172402.png
 security:

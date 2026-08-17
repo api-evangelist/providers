@@ -9,12 +9,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,12 +22,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-12'
+  score: 38.5
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Play API from TPS Engage — 1 operation(s) for play.
@@ -36,7 +36,17 @@ apis:
 - description: The Prefetch API from TPS Engage — 1 operation(s) for prefetch.
   name: TPS Engage Prefetch API
   slug: tps-engage-prefetch-api
-artifact_total: 4
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blindspot Pull Play API
+  slug: open-tps-engage-play-api
+- collection_type: open
+  name: Blindspot Pull Play Prefetch API
+  slug: open-tps-engage-prefetch-api
 common:
 - group: agent
   title: ''
@@ -90,6 +100,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://seeblindspot.com/privacy-policy/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://seeblindspot.com/create-your-first-campaign-in-less-than-5-minutes-step-by-step/
 - group: agent
   title: ''
   type: LLMsTxt
@@ -102,6 +116,46 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/tps-engage-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/tps-engage-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/tps-engage-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/tps-engage-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/tps-engage-rate-limits.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/tps-engage-examples.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/tps-engage-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/tps-engage-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/tps-engage-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/tps-engage-trust-center.yml
 created: '2026-07-17'
 description: 'TPS Engage, LLC operates Blindspot (seeblindspot.com), a self-serve programmatic digital out-of-home (DOOH) advertising platform: 3,000,000+ digital billboards and screens in 50+ countries bookable by the exact hour, with pay-per-play pricing, no minimums, and an agentic AI media planner (Blinky). The company publishes one public API — the Blindspot Pull API, the device-facing surface screen owners use to pull the creative to play, prefetch media, and log verified proof-of-play — documented with an OpenAPI 3.0 spec on the TPSEngage GitHub org. Originally added to the API Evangelist network as a Techstars portfolio lead, this profile has been enriched from Blindspot''s public surface.'
 image: https://seeblindspot.com/wp-content/uploads/APU.COM-_The-One-Times-Square-NYC-Blindspot-1-1.jpg
@@ -110,26 +164,34 @@ mcp_servers:
 - description: ''
   name: tps-engage-mcp.yml
   slug: tps-engage-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: TPS Engage
 nav: Providers
 network: true
 overview: 'TPS Engage publishes 2 APIs on the [APIs.io](https://apis.io/) network: Play API and Prefetch API. Tagged areas include Company, Advertising, DOOH, Digital Billboards, and Programmatic Advertising.
 
 
-  TPS Engage''s developer surface includes documentation, API reference, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 43
+  TPS Engage''s developer surface includes documentation, API reference, support, pricing, signup flow, getting-started guide, authentication, and 20 more developer resources.'
+plans:
+- name: Tps Engage Plans Pricing
+  plan_count: 0
+  slug: tps-engage-plans-pricing
+random_paper: 109
+rate_limits:
+- limit_count: 0
+  name: Tps Engage Rate Limits
+  slug: tps-engage-rate-limits
 score:
-  band: thin
-  composite: 35.8
-  delta: 0.0
+  band: developing
+  composite: 45.0
+  delta: 9.2
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 60.5
     contract_quality: 51.5
-    developer_ergonomics: 23.4
+    developer_ergonomics: 45.1
     discoverability: 75.9
-    governance: 8.3
-    operational_transparency: 5.3
+    governance: 11.5
+    operational_transparency: 15.8
   previous_composite: 35.8
   provenance:
     conformance: derived
@@ -141,13 +203,25 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Tps Engage Authentication
+  slug: tps-engage-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Tps Engage Domain Security
   slug: tps-engage-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Tps Engage Vulnerability Disclosure
+  slug: tps-engage-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Tps Engage Trust Center
+  slug: tps-engage-trust-center
+  summary_line: trust center published
 slug: tps-engage
 tags:
 - Company

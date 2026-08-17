@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: Retrieve user account information.
   name: Sketchfab Users API
   slug: sketchfab-users-api
-artifact_total: 44
+artifact_total: 55
 collections:
 - collection_type: postman
   name: Sketchfab Download API
@@ -93,14 +93,47 @@ collections:
   name: Sketchfab Download oEmbed API
   slug: postman-sketchfab-oembed-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sketchfab Data Bookmarks API
+  slug: open-sketchfab-bookmarks-api
+- collection_type: open
+  name: Sketchfab Data Categories API
+  slug: open-sketchfab-categories-api
+- collection_type: open
+  name: Sketchfab Data Collections API
+  slug: open-sketchfab-collections-api
+- collection_type: open
+  name: Sketchfab Data Comments API
+  slug: open-sketchfab-comments-api
+- collection_type: open
   name: Sketchfab Download API
   slug: open-sketchfab-download-api
 - collection_type: open
-  name: Sketchfab OAuth 2.0 API
+  name: Sketchfab Data Likes API
+  slug: open-sketchfab-likes-api
+- collection_type: open
+  name: Sketchfab Data Models API
+  slug: open-sketchfab-models-api
+- collection_type: open
+  name: Sketchfab Download O Auth API
   slug: open-sketchfab-oauth-api
 - collection_type: open
-  name: Sketchfab oEmbed API
+  name: Sketchfab Download O Embed API
   slug: open-sketchfab-oembed-api
+- collection_type: open
+  name: Sketchfab Data Orgs API
+  slug: open-sketchfab-orgs-api
+- collection_type: open
+  name: Sketchfab Data Search API
+  slug: open-sketchfab-search-api
+- collection_type: open
+  name: Sketchfab Data Tags API
+  slug: open-sketchfab-tags-api
+- collection_type: open
+  name: Sketchfab Data Users API
+  slug: open-sketchfab-users-api
 common:
 - group: build
   title: ''
@@ -369,7 +402,7 @@ plans:
 - name: Sketchfab Plans Pricing
   plan_count: 5
   slug: sketchfab-plans-pricing
-random_paper: 99
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Sketchfab Rate Limits
@@ -408,7 +441,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/screenshots/sketchfab-2026-06-20T194108.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,8 +71,41 @@ apis:
 - description: The Thread Backtraces API from Puma — 1 operation(s) for thread backtraces.
   name: Puma Thread Backtraces API
   slug: puma-thread-backtraces-api
-artifact_total: 15
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Puma Control/Status Application Gc API
+  slug: open-puma-gc-api
+- collection_type: open
+  name: Puma Control/Status Application Gc Gc Stats API
+  slug: open-puma-gc-stats-api
+- collection_type: open
+  name: Puma Control/Status Application Gc Halt API
+  slug: open-puma-halt-api
+- collection_type: open
+  name: Puma Control/Status Application Gc Phased Restart API
+  slug: open-puma-phased-restart-api
+- collection_type: open
+  name: Puma Control/Status Application Gc Refork API
+  slug: open-puma-refork-api
+- collection_type: open
+  name: Puma Control/Status Application Gc Reload Worker Directory API
+  slug: open-puma-reload-worker-directory-api
+- collection_type: open
+  name: Puma Control/Status Application Gc Restart API
+  slug: open-puma-restart-api
+- collection_type: open
+  name: Puma Control/Status Application Gc Stats API
+  slug: open-puma-stats-api
+- collection_type: open
+  name: Puma Control/Status Application Gc Stop API
+  slug: open-puma-stop-api
+- collection_type: open
+  name: Puma Control/Status Application Gc Thread Backtraces API
+  slug: open-puma-thread-backtraces-api
 - collection_type: open
   name: Puma Control/Status Application API
   slug: open-puma
@@ -137,7 +170,7 @@ overview: 'Puma publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Puma''s developer surface includes authentication, documentation, and 10 more developer resources.'
-random_paper: 75
+random_paper: 137
 score:
   band: emerging
   composite: 27.1
@@ -158,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/screenshots/puma-2026-06-20T192302.png
 security:

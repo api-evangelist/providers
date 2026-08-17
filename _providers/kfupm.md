@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -153,7 +153,119 @@ apis:
 - description: The user API from King Fahd University of Petroleum & Minerals — 7 operation(s) for user.
   name: King Fahd University of Petroleum & Minerals user API
   slug: kfupm-user-api
-artifact_total: 53
+artifact_total: 90
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-kfupm-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-kfupm-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-kfupm-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-kfupm-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-kfupm-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-kfupm-concept-api
+- collection_type: open
+  name: Pure activity conferenceSeries API
+  slug: open-kfupm-conferenceseries-api
+- collection_type: open
+  name: Pure activity contract API
+  slug: open-kfupm-contract-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-kfupm-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-kfupm-dataset-api
+- collection_type: open
+  name: Pure activity education API
+  slug: open-kfupm-education-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-kfupm-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-kfupm-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-kfupm-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-kfupm-externalperson-api
+- collection_type: open
+  name: Pure activity fingerprint API
+  slug: open-kfupm-fingerprint-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-kfupm-fundingopportunity-api
+- collection_type: open
+  name: Pure activity impact API
+  slug: open-kfupm-impact-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-kfupm-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-kfupm-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity milestone API
+  slug: open-kfupm-milestone-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-kfupm-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-kfupm-person-api
+- collection_type: open
+  name: Pure activity personExpertise API
+  slug: open-kfupm-personexpertise-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-kfupm-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-kfupm-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-kfupm-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-kfupm-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-kfupm-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-kfupm-role-api
+- collection_type: open
+  name: Pure activity semester API
+  slug: open-kfupm-semester-api
+- collection_type: open
+  name: Pure activity specialization API
+  slug: open-kfupm-specialization-api
+- collection_type: open
+  name: Pure activity studentProject API
+  slug: open-kfupm-studentproject-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-kfupm-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-kfupm-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-kfupm-user-api
 common:
 - group: agent
   title: ''
@@ -260,7 +372,7 @@ plans:
 - name: Kfupm Plans Pricing
   plan_count: 2
   slug: kfupm-plans-pricing
-random_paper: 67
+random_paper: 100
 rate_limits:
 - limit_count: 1
   name: Kfupm Rate Limits
@@ -302,7 +414,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/screenshots/kfupm-2026-06-20T184024.png
 security:

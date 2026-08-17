@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -34,7 +34,11 @@ apis:
 - description: OAuth 2.0 authorization-code sign-in for dApps. After a user authorizes, the dApp exchanges the code at api.connect.debank.com/oauth/token using HTTP Basic client credentials and reads the user's base
   name: DeBank Connect
   slug: debank-connect
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: DeBank OpenAPI
+  slug: open-debank-pro
 common:
 - group: agent
   title: ''
@@ -148,7 +152,7 @@ plans:
 - name: Debank Plans Pricing
   plan_count: 0
   slug: debank-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Debank Rate Limits
@@ -161,6 +165,7 @@ scopes:
 score:
   band: developing
   composite: 42.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 38.1
@@ -168,6 +173,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 42.1
+  previous_composite: 42.2
   regulatory:
     applies: true
     matched_via: tags
@@ -175,7 +181,8 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Debank Authentication

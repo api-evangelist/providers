@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: Look up waybill details for shipments
   name: Union Pacific Waybill API
   slug: union-pacific-waybill-api
-artifact_total: 38
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Union Pacific Account API
+  slug: open-union-pacific-account-api
+- collection_type: open
+  name: Union Pacific Account Cases API
+  slug: open-union-pacific-cases-api
+- collection_type: open
+  name: Union Pacific Account Equipment API
+  slug: open-union-pacific-equipment-api
+- collection_type: open
+  name: Union Pacific Account Intermodal API
+  slug: open-union-pacific-intermodal-api
+- collection_type: open
+  name: Union Pacific Account Location API
+  slug: open-union-pacific-location-api
+- collection_type: open
+  name: Union Pacific Account Shipment Actions API
+  slug: open-union-pacific-shipment-actions-api
+- collection_type: open
+  name: Union Pacific Account Shipment API
+  slug: open-union-pacific-shipment-api
+- collection_type: open
+  name: Union Pacific Account Waybill API
+  slug: open-union-pacific-waybill-api
 common:
 - group: agent
   title: ''
@@ -189,7 +217,7 @@ press:
 - date: '2026-05-22'
   title: AI is Enhancing How Union Pacific Inspects Track
   url: https://www.up.com/news/safety/ai-powered-vision-inspects-track-260522
-random_paper: 117
+random_paper: 125
 rate_limits:
 - limit_count: 1
   name: Union Pacific Rate Limits
@@ -231,7 +259,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

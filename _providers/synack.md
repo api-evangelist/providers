@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 1
@@ -122,7 +122,95 @@ apis:
 - description: Web application assets.
   name: Synack webapps API
   slug: synack-webapps-api
-artifact_total: 35
+artifact_total: 64
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Assessment Service Assessment Groups API
+  slug: open-synack-assessment-groups-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Assessment Lifecycle API
+  slug: open-synack-assessment-lifecycle-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Assessments API
+  slug: open-synack-assessments-api
+- collection_type: open
+  name: Assessment Service Assessment Groups asset-relationships API
+  slug: open-synack-asset-relationships-api
+- collection_type: open
+  name: Assessment Service Assessment Groups assetproviders API
+  slug: open-synack-assetproviders-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Assets API
+  slug: open-synack-assets-api
+- collection_type: open
+  name: Assessment Service Assessment Groups cloudaccounts API
+  slug: open-synack-cloudaccounts-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Comments API
+  slug: open-synack-comments-api
+- collection_type: open
+  name: Assessment Service Assessment Groups credentials API
+  slug: open-synack-credentials-api
+- collection_type: open
+  name: Assessment Service Assessment Groups external-relationships API
+  slug: open-synack-external-relationships-api
+- collection_type: open
+  name: Assessment Service Assessment Groups health API
+  slug: open-synack-health-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Hosts API
+  slug: open-synack-hosts-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Missions API
+  slug: open-synack-missions-api
+- collection_type: open
+  name: Assessment Service Assessment Groups mobileapps API
+  slug: open-synack-mobileapps-api
+- collection_type: open
+  name: Assessment Service Assessment Groups networks API
+  slug: open-synack-networks-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Patch Verifications API
+  slug: open-synack-patch-verifications-api
+- collection_type: open
+  name: Assessment Service Assessment Groups ports API
+  slug: open-synack-ports-api
+- collection_type: open
+  name: Assessment Service Assessment Groups scoperules API
+  slug: open-synack-scoperules-api
+- collection_type: open
+  name: Assessment Service Assessment Groups scripts API
+  slug: open-synack-scripts-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Seeds API
+  slug: open-synack-seeds-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Suspected Vulnerabilities API
+  slug: open-synack-suspected-vulnerabilities-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Tags API
+  slug: open-synack-tags-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Tests API
+  slug: open-synack-tests-api
+- collection_type: open
+  name: Assessment Service Assessment Groups userroles API
+  slug: open-synack-userroles-api
+- collection_type: open
+  name: Assessment Service Assessment Groups users API
+  slug: open-synack-users-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Vulnerabilities API
+  slug: open-synack-vulnerabilities-api
+- collection_type: open
+  name: Assessment Service Assessment Groups Vulnerability Statuses API
+  slug: open-synack-vulnerability-statuses-api
+- collection_type: open
+  name: Assessment Service Assessment Groups webapps API
+  slug: open-synack-webapps-api
 common:
 - group: other
   title: ''
@@ -264,7 +352,7 @@ overview: 'Synack publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Synack''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 49
+random_paper: 53
 scopes:
 - name: Synack Scopes
   scope_count: 21
@@ -293,7 +381,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

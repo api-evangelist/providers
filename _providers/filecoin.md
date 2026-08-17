@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Public, load-balanced Lotus node endpoint hosted by Glif providing read-only access to the Filecoin mainnet JSON-RPC API, including all Filecoin and Ethereum-compatible RPC methods. Supports MPoolPush
@@ -50,7 +50,26 @@ apis:
 - description: RESTful JSON API for discovering and evaluating Filecoin storage providers (miners). Returns reputation scores, geographic distribution, pricing, verified deal history, and uptime metrics to help clie
   name: Filrep.io Storage Provider API
   slug: filrepio-storage-provider-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Collection
+  slug: open-actors
+- collection_type: open
+  name: API Collection
+  slug: open-chain
+- collection_type: open
+  name: API Collection
+  slug: open-control
+- collection_type: open
+  name: API Collection
+  slug: open-market
+- collection_type: open
+  name: API Collection
+  slug: open-payment_channels
 common:
 - group: auth
   title: ''
@@ -131,7 +150,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -149,7 +168,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 34.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filecoin/refs/heads/main/screenshots/filecoin-2026-06-20T181204.png
 security:

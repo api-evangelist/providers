@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Xiaomishu (订餐小秘书)
 nav: Providers
 network: true
 overview: Xiaomishu (订餐小秘书) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Reservations, Dining, and Food.
-random_paper: 23
+random_paper: 89
 score:
   band: minimal
   composite: 5.7
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

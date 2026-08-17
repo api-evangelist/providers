@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -104,11 +104,44 @@ arazzos:
 - description: Start an asynchronous video label detection job, poll until it succeeds, then read the results.
   name: Amazon Rekognition Video Label Detection Job
   slug: amazon-rekognition-video-label-detection-job-workflow
-artifact_total: 167
+artifact_total: 178
 collections:
 - collection_type: postman
   name: Amazon Rekognition
   slug: postman-amazon-rekognition
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition API
+  slug: open-amazon-rekognition-celebrity-recognition-api
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition Content Moderation API
+  slug: open-amazon-rekognition-content-moderation-api
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition Custom Labels API
+  slug: open-amazon-rekognition-custom-labels-api
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition Face Collections API
+  slug: open-amazon-rekognition-face-collections-api
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition Face Liveness API
+  slug: open-amazon-rekognition-face-liveness-api
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition Face Search API
+  slug: open-amazon-rekognition-face-search-api
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition Facial Analysis API
+  slug: open-amazon-rekognition-facial-analysis-api
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition Image Analysis API
+  slug: open-amazon-rekognition-image-analysis-api
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition Stored Video Analysis API
+  slug: open-amazon-rekognition-stored-video-analysis-api
+- collection_type: open
+  name: Amazon Rekognition Celebrity Recognition Text Detection API
+  slug: open-amazon-rekognition-text-detection-api
 - collection_type: open
   name: Amazon Rekognition
   slug: open-amazon-rekognition
@@ -1149,7 +1182,7 @@ plans:
 - name: Amazon Rekognition Plans Pricing
   plan_count: 3
   slug: amazon-rekognition-plans-pricing
-random_paper: 84
+random_paper: 96
 rate_limits:
 - limit_count: 5
   name: Amazon Rekognition Rate Limits
@@ -1193,7 +1226,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -81,7 +81,7 @@ apis:
 - description: Flow user management operations
   name: Pluralsight Users API
   slug: pluralsight-users-api
-artifact_total: 249
+artifact_total: 264
 collections:
 - collection_type: postman
   name: Pluralsight Channels Catalog API
@@ -125,6 +125,9 @@ collections:
 - collection_type: postman
   name: Pluralsight Channels Catalog Users API
   slug: postman-pluralsight-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Pluralsight Channels API
   slug: open-channels
@@ -188,6 +191,48 @@ collections:
 - collection_type: open
   name: Pluralsight Plan Info API
   slug: open-plan-info
+- collection_type: open
+  name: Pluralsight Channels Catalog API
+  slug: open-pluralsight-catalog-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Coding Metrics API
+  slug: open-pluralsight-coding-metrics-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Collaboration Metrics API
+  slug: open-pluralsight-collaboration-metrics-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Commits API
+  slug: open-pluralsight-commits-api
+- collection_type: open
+  name: Pluralsight Channels Catalog DORA Metrics API
+  slug: open-pluralsight-dora-metrics-api
+- collection_type: open
+  name: Pluralsight Channels Catalog GraphQL API
+  slug: open-pluralsight-graphql-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Integrations API
+  slug: open-pluralsight-integrations-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Licensing API
+  slug: open-pluralsight-licensing-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Pull Requests API
+  slug: open-pluralsight-pull-requests-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Reports API
+  slug: open-pluralsight-reports-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Repos API
+  slug: open-pluralsight-repos-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Teams API
+  slug: open-pluralsight-teams-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Tickets API
+  slug: open-pluralsight-tickets-api
+- collection_type: open
+  name: Pluralsight Channels Catalog Users API
+  slug: open-pluralsight-users-api
 - collection_type: open
   name: Pluralsight Practice Exams API
   slug: open-practice-exams
@@ -835,7 +880,7 @@ plans:
 - name: Pluralsight Plans Pricing
   plan_count: 8
   slug: pluralsight-plans-pricing
-random_paper: 119
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Pluralsight Rate Limits
@@ -877,7 +922,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The Validations API from Quandoo — 1 operation(s) for validations.
   name: Quandoo Validations API
   slug: quandoo-validations-api
-artifact_total: 224
+artifact_total: 234
 collections:
 - collection_type: postman
   name: Quandoo Public Partner Availabilities API
@@ -102,8 +102,38 @@ collections:
   name: Quandoo Public Partner Availabilities Validations API
   slug: postman-quandoo-validations-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quandoo Public Partner Availabilities API
+  slug: open-quandoo-availabilities-api
+- collection_type: open
+  name: Quandoo Public Partner Availabilities Customers API
+  slug: open-quandoo-customers-api
+- collection_type: open
+  name: Quandoo Public Partner Availabilities Merchants API
+  slug: open-quandoo-merchants-api
+- collection_type: open
   name: Quandoo Public Partner API
   slug: open-quandoo-public-partner-api
+- collection_type: open
+  name: Quandoo Public Partner Availabilities Reservation Enquiries API
+  slug: open-quandoo-reservation-enquiries-api
+- collection_type: open
+  name: Quandoo Public Partner Availabilities Reservation Settings API
+  slug: open-quandoo-reservation-settings-api
+- collection_type: open
+  name: Quandoo Public Partner Availabilities Reservations API
+  slug: open-quandoo-reservations-api
+- collection_type: open
+  name: Quandoo Public Partner Availabilities Reservations Tags API
+  slug: open-quandoo-reservations-tags-api
+- collection_type: open
+  name: Quandoo Public Partner Availabilities Status API
+  slug: open-quandoo-status-api
+- collection_type: open
+  name: Quandoo Public Partner Availabilities Validations API
+  slug: open-quandoo-validations-api
 common:
 - group: build
   title: ''
@@ -764,7 +794,7 @@ plans:
 - name: Quandoo Plans Pricing
   plan_count: 3
   slug: quandoo-plans-pricing
-random_paper: 39
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Quandoo Rate Limits
@@ -820,7 +850,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/screenshots/quandoo-2026-06-20T192405.png
 security:

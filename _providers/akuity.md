@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
@@ -45,11 +45,39 @@ apis:
 - description: The SystemService API from Akuity — 14 operation(s) for systemservice.
   name: Akuity System Service API
   slug: akuity-systemservice-api
-artifact_total: 15
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Akuity Notifications Webhooks
   slug: akuity-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Akuity Platform API — API Keys API Key Service API
+  slug: open-akuity-apikeyservice-api
+- collection_type: open
+  name: Akuity Platform API — Argo CD Argo CD Service API
+  slug: open-akuity-argocdservice-api
+- collection_type: open
+  name: Akuity Platform API — Auth Auth Service API
+  slug: open-akuity-authservice-api
+- collection_type: open
+  name: Akuity Platform API — Custom Roles Custom Role Service API
+  slug: open-akuity-customroleservice-api
+- collection_type: open
+  name: Akuity Platform API — Extension Extension Service API
+  slug: open-akuity-extensionservice-api
+- collection_type: open
+  name: Akuity Platform API — Kargo Kargo Service API
+  slug: open-akuity-kargoservice-api
+- collection_type: open
+  name: Akuity Platform API — Organization Organization Service API
+  slug: open-akuity-organizationservice-api
+- collection_type: open
+  name: Akuity Platform API — System System Service API
+  slug: open-akuity-systemservice-api
 common:
 - group: agent
   title: ''
@@ -226,7 +254,7 @@ plans:
 - name: Akuity Plans
   plan_count: 3
   slug: akuity-plans
-random_paper: 63
+random_paper: 67
 score:
   band: exemplar
   composite: 66.5
@@ -249,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: The Conversations API from Google Business Messages — 4 operation(s) for conversations.
   name: Google Business Messages Conversations API
   slug: google-business-messages-conversations-api
-artifact_total: 13
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Business Messages Conversations API
+  slug: open-google-business-messages-conversations-api
 - collection_type: open
   name: Google Business Messages API
   slug: open-openapi
@@ -116,7 +122,7 @@ plans:
 - name: Google Business Messages Plans Pricing
   plan_count: 3
   slug: google-business-messages-plans-pricing
-random_paper: 59
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Google Business Messages Rate Limits
@@ -155,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-business-messages/refs/heads/main/screenshots/google-business-messages-2026-06-20T182030.png
 security:

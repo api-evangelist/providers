@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ apis:
 - description: DTN Weather Conditions API from DTN — 6 path(s) described in OpenAPI.
   name: DTN Weather Conditions API
   slug: dtn-weather-conditions-openapi
-artifact_total: 51
+artifact_total: 88
 asyncapis:
 - description: Faithful AsyncAPI rendering of DTN's Agency Bulletin WebSocket API, which streams global weather agency bulletins in real time over a WebSocket upgrade (HTTP 101). Derived from the provider's publishe
   name: DTN Agency Bulletin WebSocket API (event surface)
@@ -161,6 +161,118 @@ asyncapis:
 - description: Faithful AsyncAPI rendering of DTN's Lightning Stream API, which delivers lightning strikes as a continuous HTTP stream (chunked delivery). Derived from the provider's published OpenAPI (openapi/dtn-l
   name: DTN Lightning Stream API (event surface)
   slug: dtn-lightning-stream-asyncapi
+collections:
+- collection_type: open
+  name: Agency Bulletin API
+  slug: open-dtn-agency-bulletin-api
+- collection_type: open
+  name: Agency Bulletin WebSocket API
+  slug: open-dtn-agency-bulletin-websocket-api
+- collection_type: open
+  name: Agency Bulletin API
+  slug: open-dtn-alerting-api
+- collection_type: open
+  name: DTN Astronomical API
+  slug: open-dtn-astronomical-api
+- collection_type: open
+  name: DTN Climatology API
+  slug: open-dtn-climatology-api
+- collection_type: open
+  name: Developer Portal Backend APIs
+  slug: open-dtn-developer-portal-api
+- collection_type: open
+  name: External Orders Microservice
+  slug: open-dtn-digital-commerce-orders
+- collection_type: open
+  name: Energy Sales & Marketing - Integrations Service
+  slug: open-dtn-energy-digital-commerce-integrations-api
+- collection_type: open
+  name: Energy Event Index Customer API
+  slug: open-dtn-energy-event-index-api
+- collection_type: open
+  name: DTN Aviation Enhanced Flight Hazards (EFH) API
+  slug: open-dtn-enhanced-flight-hazards-api
+- collection_type: open
+  name: DTN Farm Intelligence API
+  slug: open-dtn-farm-intel-api
+- collection_type: open
+  name: PXWeb Market Data API
+  slug: open-dtn-financial-market-data
+- collection_type: open
+  name: DTN Lightning API
+  slug: open-dtn-lightning-api
+- collection_type: open
+  name: DTN Lightning Stream API
+  slug: open-dtn-lightning-websocket
+- collection_type: open
+  name: DTN Map Tile API
+  slug: open-dtn-map-tile-api
+- collection_type: open
+  name: DTN Marine Weather API
+  slug: open-dtn-marine-weather-api
+- collection_type: open
+  name: DTN METAR API
+  slug: open-dtn-metars-api
+- collection_type: open
+  name: Aviation NOTAM API
+  slug: open-dtn-notams-api
+- collection_type: open
+  name: DTN Observation API
+  slug: open-dtn-observation-api
+- collection_type: open
+  name: Pavement Conditions API
+  slug: open-dtn-pavement-conditions-api
+- collection_type: open
+  name: DTN PIREP API
+  slug: open-dtn-pireps-api
+- collection_type: open
+  name: DTN Precipitation API
+  slug: open-dtn-precipitation-api
+- collection_type: open
+  name: DTN Probabilistic Weather API
+  slug: open-dtn-probabilistic-api
+- collection_type: open
+  name: RadarScope Radar Data
+  slug: open-dtn-radarscope-radar-products
+- collection_type: open
+  name: Refined Fuels USMD API
+  slug: open-dtn-refined-fuels-demand
+- collection_type: open
+  name: DTN Renewables API
+  slug: open-dtn-renewables-api
+- collection_type: open
+  name: Vessel Insight Subscription API
+  slug: open-dtn-shipping-api
+- collection_type: open
+  name: DTN Aviation SIGMET/AIRMET API
+  slug: open-dtn-sigmets-airmets
+- collection_type: open
+  name: DTN Soil Conditions API V1
+  slug: open-dtn-soil-api
+- collection_type: open
+  name: Storm Impact Analytics API
+  slug: open-dtn-storm-impact-analytics
+- collection_type: open
+  name: Storm Risk Analytics API
+  slug: open-dtn-storm-risk-analytics-api
+- collection_type: open
+  name: DTN TAF API
+  slug: open-dtn-tafs-api
+- collection_type: open
+  name: DTN Tropical Cyclone API
+  slug: open-dtn-tropical-api
+- collection_type: open
+  name: DTN Weather Conditions API
+  slug: open-dtn-weather-conditions-api
+- collection_type: open
+  name: DTN Weather Conditions API
+  slug: open-dtn-weather-conditions
+- collection_type: open
+  name: DTN Aviation Full API
+  slug: open-dtn-websocket-api
+- collection_type: open
+  name: DTN Winds Aloft API
+  slug: open-dtn-windsaloft-api
 common:
 - group: build
   title: ''
@@ -338,7 +450,7 @@ plans:
 - name: Dtn Plans Pricing
   plan_count: 2
   slug: dtn-plans-pricing
-random_paper: 86
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Dtn Rate Limits
@@ -386,7 +498,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
 security:

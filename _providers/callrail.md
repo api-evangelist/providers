@@ -1,34 +1,37 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Paid plans with a 14-day free trial
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - https://www.callrail.com/pricing
+  - plans/callrail-plans-pricing.yml
   - authentication
-  trial: false
+  trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-12'
+  score: 58.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -36,23 +39,59 @@ agentic_access:
   operation_count: 8
   slug: callrail-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 3
+api_count: 4
 apis:
 - description: REST API providing programmatic access to CallRail accounts, companies, tracking numbers, calls, text messages, form submissions, users, tags, and integrations. Requests authenticate via the HTTP head
   name: CallRail v3 API
   slug: v3-api
+- description: CallRail's hosted Model Context Protocol server. Connects a CallRail account directly to AI assistants (Claude.ai, Claude Desktop, ChatGPT) over OAuth 2.0, exposing 36 tools — 22 read tools across acc
+  name: CallRail MCP Server
+  slug: mcp
 - description: The Accounts API from CallRail — 2 operation(s) for accounts.
   name: CallRail Accounts API
   slug: callrail-accounts-api
-- description: The Calls API from CallRail — 4 operation(s) for calls.
+- description: The Calls API from CallRail — 6 operation(s) for calls, including summary and time series reporting.
   name: CallRail Calls API
   slug: callrail-calls-api
-artifact_total: 7
+artifact_total: 17
+asyncapis:
+- description: ''
+  name: Callrail Webhooks
+  slug: callrail-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CallRail v3 Accounts API
+  slug: open-callrail-accounts-api
+- collection_type: open
+  name: CallRail v3 Accounts Calls API
+  slug: open-callrail-calls-api
 - collection_type: open
   name: CallRail v3 API
   slug: open-callrail
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/callrail-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.callrail.com/security
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/callrail-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/callrail-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.callrail.com/security/disclosure
 - group: agent
   title: ''
   type: AgenticAccess
@@ -65,6 +104,66 @@ common:
   title: ''
   type: Authentication
   url: authentication/callrail-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/callrail-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/callrail-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/callrail-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/callrail-plans-pricing.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/callrail-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/callrail-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.callrail.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/callrail-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/callrail-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/callrail-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/callrail-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/callrail-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/callrail-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/callrail-components.yml
 - group: company
   title: ''
   type: Website
@@ -77,18 +176,46 @@ common:
   title: ''
   type: Documentation
   url: https://apidocs.callrail.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.callrail.com/#api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://apidocs.callrail.com/#getting-started
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.callrail.com/pricing/
+  url: https://www.callrail.com/pricing
 - group: start
   title: ''
-  type: Signup
-  url: https://app.callrail.com/signup
+  type: SignUp
+  url: https://www.callrail.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.callrail.com/authenticate
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.callrail.com/legal
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.callrail.com/privacy
 - group: operate
   title: ''
   type: Support
-  url: https://support.callrail.com
+  url: https://support.callrail.com/hc/en-us
+- group: operate
+  title: ''
+  type: Community
+  url: https://support.callrail.com/hc/en-us/community/topics
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.callrail.com/learn
 - group: build
   title: ''
   type: GitHubOrganization
@@ -101,26 +228,41 @@ created: '2026-05-11'
 description: CallRail is a call tracking and conversation intelligence platform that attributes phone calls, texts, and form fills to marketing campaigns and applies AI-powered transcription, sentiment, and lead scoring to inbound conversations. The CallRail v3 API is a REST/JSON interface exposing accounts, companies, trackers, calls, texts, form submissions, and integrations. Authentication uses an account API key passed in the HTTP Authorization header against a base URL of https://api.callrail.com/v3/.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/callrail.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: callrail-mcp.yml
+  slug: callrail-mcpyml
+modified: '2026-08-14'
 name: CallRail
 nav: Providers
 network: true
 overview: 'CallRail publishes 2 APIs on the [APIs.io](https://apis.io/) network: Accounts API and Calls API. Tagged areas include Call Tracking, Conversation Intelligence, Marketing Attribution, Lead Tracking, and Telephony.
 
 
-  CallRail''s developer surface includes authentication, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 116
+  The CallRail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  CallRail''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Callrail Plans Pricing
+  plan_count: 4
+  slug: callrail-plans-pricing
+random_paper: 91
+rate_limits:
+- limit_count: 6
+  name: Callrail Rate Limits
+  slug: callrail-rate-limits
 score:
-  band: thin
-  composite: 33.9
-  delta: 0.0
+  band: exemplar
+  composite: 71.7
+  delta: 37.8
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 58.2
-    developer_ergonomics: 32.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 92.1
+    contract_quality: 67.2
+    developer_ergonomics: 67.4
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 86.8
   previous_composite: 33.9
   provenance:
     agentic_access: derived
@@ -130,18 +272,26 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/screenshots/callrail-2026-06-20T173850.png
 security:
 - kind: authentication
   name: Callrail Authentication
   slug: callrail-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Callrail Domain Security
   slug: callrail-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Callrail Vulnerability Disclosure
+  slug: callrail-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Callrail Trust Center
+  slug: callrail-trust-center
+  summary_line: ISO 42001, SOC 2 Type II, HIPAA/HITECH, PCI, GDPR, CCPA
 slug: callrail
 tags:
 - Call Tracking

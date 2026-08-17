@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -37,7 +37,11 @@ apis:
 - description: EMIS-X Analytics provides partner access to an EMIS-X data warehouse with modelled datasets across domains including Community Pharmacy, Incremental Primary Care Views (iPCVs), OpenSAFELY, Recruit, an
   name: EMIS-X Analytics
   slug: emis-x-analytics
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Partner API
+  slug: open-emis-health-partner-api
 common:
 - group: agent
   title: ''
@@ -139,7 +143,7 @@ overview: 'EMIS Health publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   EMIS Health''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, and 16 more developer resources.'
-random_paper: 25
+random_paper: 62
 scopes:
 - name: Emis Health Scopes
   scope_count: 7
@@ -174,7 +178,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/screenshots/emis-health-2026-07-25T213240.png
 security:

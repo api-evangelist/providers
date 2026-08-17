@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Outbound calls, transfers, queue status, and media upload.
   name: Africa's Talking Voice API
   slug: africastalking-voice-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Africa's Talking Airtime API
+  slug: open-africastalking-airtime-api
+- collection_type: open
+  name: Africa's Talking Airtime Mobile Data API
+  slug: open-africastalking-mobile-data-api
+- collection_type: open
+  name: Africa's Talking Airtime Payments API
+  slug: open-africastalking-payments-api
+- collection_type: open
+  name: Africa's Talking Airtime Premium SMS API
+  slug: open-africastalking-premium-sms-api
+- collection_type: open
+  name: Africa's Talking Airtime SMS API
+  slug: open-africastalking-sms-api
+- collection_type: open
+  name: Africa's Talking Airtime Voice API
+  slug: open-africastalking-voice-api
 - collection_type: open
   name: Africa's Talking API
   slug: open-africastalking
@@ -123,7 +144,7 @@ plans:
 - name: Africastalking Plans Pricing
   plan_count: 2
   slug: africastalking-plans-pricing
-random_paper: 35
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Africastalking Rate Limits
@@ -154,7 +175,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/screenshots/africastalking-2026-06-20T165713.png
 security:

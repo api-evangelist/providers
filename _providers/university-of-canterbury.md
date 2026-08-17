@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -78,7 +78,41 @@ apis:
 - description: The symplectic API from University of Canterbury — 5 operation(s) for symplectic.
   name: University of Canterbury symplectic API
   slug: university-of-canterbury-symplectic-api
-artifact_total: 29
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figshare altmetric API
+  slug: open-university-of-canterbury-altmetric-api
+- collection_type: open
+  name: Figshare altmetric articles API
+  slug: open-university-of-canterbury-articles-api
+- collection_type: open
+  name: Figshare altmetric authors API
+  slug: open-university-of-canterbury-authors-api
+- collection_type: open
+  name: Figshare altmetric collections API
+  slug: open-university-of-canterbury-collections-api
+- collection_type: open
+  name: Figshare altmetric institutions API
+  slug: open-university-of-canterbury-institutions-api
+- collection_type: open
+  name: Figshare altmetric oauth API
+  slug: open-university-of-canterbury-oauth-api
+- collection_type: open
+  name: Figshare altmetric other API
+  slug: open-university-of-canterbury-other-api
+- collection_type: open
+  name: Figshare altmetric profiles API
+  slug: open-university-of-canterbury-profiles-api
+- collection_type: open
+  name: Figshare altmetric projects API
+  slug: open-university-of-canterbury-projects-api
+- collection_type: open
+  name: Figshare altmetric symplectic API
+  slug: open-university-of-canterbury-symplectic-api
 common:
 - group: agent
   title: ''
@@ -177,7 +211,7 @@ plans:
 - name: University Of Canterbury Plans Pricing
   plan_count: 2
   slug: university-of-canterbury-plans-pricing
-random_paper: 112
+random_paper: 128
 rate_limits:
 - limit_count: 1
   name: University Of Canterbury Rate Limits
@@ -230,7 +264,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/screenshots/university-of-canterbury-2026-06-20T200141.png
 security:

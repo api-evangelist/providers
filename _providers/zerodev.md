@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: The JSON-RPC API from ZeroDev — 1 operation(s) for json-rpc.
   name: ZeroDev JSON-RPC API
   slug: zerodev-json-rpc-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZeroDev Bundler & Paymaster RPC JSON-RPC API
+  slug: open-zerodev-json-rpc-api
 - collection_type: open
   name: ZeroDev Bundler & Paymaster RPC
   slug: open-zerodev
@@ -107,7 +113,7 @@ plans:
 - name: Zerodev Plans Pricing
   plan_count: 4
   slug: zerodev-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Zerodev Rate Limits
@@ -138,7 +144,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/screenshots/zerodev-2026-06-20T201834.png
 security:

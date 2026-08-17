@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Programmatic access to Improvado's data extraction, transformation, and loading capabilities — data sources, connections, accounts, extraction templates, extracts, destinations, loads, data tables, re
@@ -171,7 +171,7 @@ overview: 'Improvado.io publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Improvado.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 113
+random_paper: 1
 score:
   band: developing
   composite: 53.9
@@ -188,7 +188,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/screenshots/improvadoio-2026-07-25T222205.png
 security:

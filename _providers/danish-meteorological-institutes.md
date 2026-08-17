@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Sea-level and water-temperature observations.
   name: Danish Meteorological Institutes oceanObs API
   slug: danish-meteorological-institutes-oceanobs-api
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DMI Open Data climateData API
+  slug: open-danish-meteorological-institutes-climatedata-api
+- collection_type: open
+  name: DMI Open Data climateData lightningData API
+  slug: open-danish-meteorological-institutes-lightningdata-api
+- collection_type: open
+  name: DMI Open Data climateData metObs API
+  slug: open-danish-meteorological-institutes-metobs-api
+- collection_type: open
+  name: DMI Open Data climateData oceanObs API
+  slug: open-danish-meteorological-institutes-oceanobs-api
 - collection_type: open
   name: DMI Open Data API
   slug: open-dmi-open-data-api
@@ -140,7 +155,7 @@ plans:
 - name: Danish Meteorological Institutes Plans Pricing
   plan_count: 3
   slug: danish-meteorological-institutes-plans-pricing
-random_paper: 91
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Danish Meteorological Institutes Rate Limits
@@ -188,7 +203,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/screenshots/danish-meteorological-institutes-2026-06-20T175450.png
 security:

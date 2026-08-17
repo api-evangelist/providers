@@ -21,25 +21,21 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-12'
+  score: 27.0
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Beta REST API for Koah publisher team accounts. Resource-oriented URLs, JSON responses, standard HTTP verbs and status codes, Bearer token authentication. Covers publisher CRUD and daily reporting for
   name: Koah API
   slug: koah-api
-artifact_total: 4
+artifact_total: 5
 common:
-- group: agent
-  title: ''
-  type: MCPServer
-  url: mcp/koah-labs-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -136,6 +132,14 @@ common:
   title: ''
   type: Sandbox
   url: sandbox/koah-labs-sandbox.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/koah-labs-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/koah-labs-plans-pricing.yml
 - group: design
   title: ''
   type: Components
@@ -160,27 +164,31 @@ created: '2026-07-17'
 description: 'Koah Labs operates Koah, an advertising network purpose-built for AI applications. It ships two products: an Ad SDK that lets publishers monetize chat and agent experiences with native, intent-matched ad formats (action card, image card, poll, expandable, catalog, side rail) across JavaScript, React, React Native, Flutter, iOS and Android; and Conversion Tracking, a pixel that lets advertisers measure ROI across nine standard event types. A beta REST API at app.koah.ai/api lets publisher teams create and manage publishers programmatically and pull daily performance reports (queries, fill rate, impressions, clicks, CTR, eCPC, eCPM, revenue). Koah publishes agent-native developer surfaces including llms.txt on both its marketing and docs hosts and a first-party Claude Agent Skill for integration.'
 image: https://www.koahlabs.com/opengraph-image
 layout: provider
-mcp_servers:
-- description: ''
-  name: koah-labs-mcp.yml
-  slug: koah-labs-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Koah Labs
 nav: Providers
 network: true
 overview: 'Koah Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Advertising, Ad Network, and Monetization.
 
 
-  Koah Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 23 more developer resources.'
-random_paper: 42
+  Koah Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
+plans:
+- name: Koah Labs Plans Pricing
+  plan_count: 0
+  slug: koah-labs-plans-pricing
+random_paper: 137
+rate_limits:
+- limit_count: 0
+  name: Koah Labs Rate Limits
+  slug: koah-labs-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 34.0
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 73.9
+    developer_ergonomics: 71.7
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
@@ -190,7 +198,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/screenshots/koah-labs-2026-07-25T224018.png
 security:

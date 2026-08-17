@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: The Webhooks API from Bytebase — 1 operation(s) for webhooks.
   name: Bytebase Webhooks API
   slug: bytebase-webhooks-api
-artifact_total: 20
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bytebase Auth API
+  slug: open-bytebase-auth-api
+- collection_type: open
+  name: Bytebase Auth Databases API
+  slug: open-bytebase-databases-api
+- collection_type: open
+  name: Bytebase Auth Groups API
+  slug: open-bytebase-groups-api
+- collection_type: open
+  name: Bytebase Auth Instances API
+  slug: open-bytebase-instances-api
+- collection_type: open
+  name: Bytebase Auth Issues API
+  slug: open-bytebase-issues-api
+- collection_type: open
+  name: Bytebase Auth Plans API
+  slug: open-bytebase-plans-api
+- collection_type: open
+  name: Bytebase Auth Projects API
+  slug: open-bytebase-projects-api
+- collection_type: open
+  name: Bytebase Auth Roles API
+  slug: open-bytebase-roles-api
+- collection_type: open
+  name: Bytebase Auth Rollouts API
+  slug: open-bytebase-rollouts-api
+- collection_type: open
+  name: Bytebase Auth Sheets API
+  slug: open-bytebase-sheets-api
+- collection_type: open
+  name: Bytebase Auth Users API
+  slug: open-bytebase-users-api
+- collection_type: open
+  name: Bytebase Auth Webhooks API
+  slug: open-bytebase-webhooks-api
 - collection_type: open
   name: Bytebase API
   slug: open-bytebase
@@ -145,7 +184,7 @@ plans:
 - name: Bytebase Plans Pricing
   plan_count: 3
   slug: bytebase-plans-pricing
-random_paper: 7
+random_paper: 102
 rate_limits:
 - limit_count: 4
   name: Bytebase Rate Limits
@@ -170,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/screenshots/bytebase-2026-07-25T204142.png
 security:

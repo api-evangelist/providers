@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Public GraphQL subgraph indexing the Perpetual Protocol Curie (v2) perpetual futures protocol on Optimism (positions, markets, trades, liquidations, funding). Served via The Graph hosted service and S
@@ -143,7 +143,7 @@ overview: 'Perp publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Perp''s developer surface includes documentation, API reference, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 79
+random_paper: 141
 rate_limits:
 - limit_count: 4
   name: Perp Rate Limits
@@ -167,7 +167,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

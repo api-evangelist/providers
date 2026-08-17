@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -90,8 +90,17 @@ apis:
 - description: The Refunds API from Paytm — 1 operation(s) for refunds.
   name: Paytm Refunds API
   slug: paytm-refunds-api
-artifact_total: 24
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paytm Payment Gateway Payments API
+  slug: open-paytm-payments-api
+- collection_type: open
+  name: Paytm Payment Gateway Payments Refunds API
+  slug: open-paytm-refunds-api
 - collection_type: open
   name: Paytm Payment Gateway API
   slug: open-paytm
@@ -152,7 +161,7 @@ plans:
 - name: Paytm Plans Pricing
   plan_count: 1
   slug: paytm-plans-pricing
-random_paper: 75
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Paytm Rate Limits
@@ -183,7 +192,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/screenshots/paytm-2026-06-20T191508.png
 security:

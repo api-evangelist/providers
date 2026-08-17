@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 404
   human_in_the_loop: 8
@@ -83,7 +83,56 @@ apis:
 - description: '(Alpha) Vortex API. Base URL: https://api.alphaus.cloud/m/blue/vortex'
   name: Alphaus Vortex API
   slug: alphaus-vortex-api
-artifact_total: 20
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blue API reference Admin API
+  slug: open-alphaus-admin-api
+- collection_type: open
+  name: Blue API reference Admin Billing API
+  slug: open-alphaus-billing-api
+- collection_type: open
+  name: Blue API reference Admin Cost API
+  slug: open-alphaus-cost-api
+- collection_type: open
+  name: Blue API reference Admin Cover API
+  slug: open-alphaus-cover-api
+- collection_type: open
+  name: Blue API reference Admin Flags API
+  slug: open-alphaus-flags-api
+- collection_type: open
+  name: Blue API reference Admin Flow API
+  slug: open-alphaus-flow-api
+- collection_type: open
+  name: Blue API reference Admin GuaranteedCommitments API
+  slug: open-alphaus-guaranteedcommitments-api
+- collection_type: open
+  name: Blue API reference Admin Iam API
+  slug: open-alphaus-iam-api
+- collection_type: open
+  name: Blue API reference Admin Luster API
+  slug: open-alphaus-luster-api
+- collection_type: open
+  name: Blue API reference Admin Operations API
+  slug: open-alphaus-operations-api
+- collection_type: open
+  name: Blue API reference Admin Organization API
+  slug: open-alphaus-organization-api
+- collection_type: open
+  name: Blue API reference Admin Preferences API
+  slug: open-alphaus-preferences-api
+- collection_type: open
+  name: Blue API reference Admin Pricing API
+  slug: open-alphaus-pricing-api
+- collection_type: open
+  name: Blue API reference Admin Prism API
+  slug: open-alphaus-prism-api
+- collection_type: open
+  name: Blue API reference Admin Vortex API
+  slug: open-alphaus-vortex-api
 common:
 - group: other
   title: ''
@@ -213,7 +262,7 @@ overview: 'Alphaus publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Alphaus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, CLI, and 21 more developer resources.'
-random_paper: 30
+random_paper: 5
 scopes:
 - name: Alphaus Scopes
   scope_count: 1
@@ -242,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/screenshots/alphaus-2026-07-25T195758.png
 security:

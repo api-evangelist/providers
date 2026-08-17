@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Authenticated customer profile and registration.
@@ -46,7 +46,26 @@ apis:
 - description: Lead-capture endpoints for date and private-event requests.
   name: konfetti requests API
   slug: konfetti-requests-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: konfetti Store account API
+  slug: open-konfetti-account-api
+- collection_type: open
+  name: konfetti Store account auth API
+  slug: open-konfetti-auth-api
+- collection_type: open
+  name: konfetti Store account catalog API
+  slug: open-konfetti-catalog-api
+- collection_type: open
+  name: konfetti Store account checkout API
+  slug: open-konfetti-checkout-api
+- collection_type: open
+  name: konfetti Store account requests API
+  slug: open-konfetti-requests-api
 common:
 - group: agent
   title: ''
@@ -193,7 +212,7 @@ overview: 'konfetti publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   konfetti''s developer surface includes support, FAQ, engineering blog, signup flow, developer portal, pricing, and 26 more developer resources.'
-random_paper: 28
+random_paper: 123
 score:
   band: thin
   composite: 35.3
@@ -222,7 +241,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png
 security:

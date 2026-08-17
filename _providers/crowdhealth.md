@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -124,7 +124,7 @@ plans:
 - name: Crowdhealth Plans Pricing
   plan_count: 1
   slug: crowdhealth-plans-pricing
-random_paper: 93
+random_paper: 130
 rate_limits:
 - limit_count: 0
   name: Crowdhealth Rate Limits
@@ -132,6 +132,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 0.0
@@ -139,6 +140,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 15.8
+  previous_composite: 28.4
   regulatory:
     applies: true
     matched_via: tags
@@ -146,7 +148,8 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Crowdhealth Domain Security

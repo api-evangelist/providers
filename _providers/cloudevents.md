@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -74,12 +74,18 @@ apis:
 - description: Operations for creating and managing event delivery subscriptions. Each subscription specifies a source of events, optional filter criteria, and a sink where matched events are delivered.
   name: CloudEvents Subscriptions API
   slug: cloudevents-subscriptions-api
-artifact_total: 30
+artifact_total: 32
 asyncapis:
 - description: 'AsyncAPI definition for CloudEvents delivery over HTTP. This document describes the event-driven interface by which a CloudEvents-compatible broker pushes events to a subscriber''s HTTP sink endpoint. '
   name: CloudEvents HTTP Delivery
   slug: cloudevents-http-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CloudEvents Subscriptions API
+  slug: open-cloudevents-subscriptions-api
 - collection_type: open
   name: CloudEvents Subscriptions API
   slug: open-cloudevents-subscriptions
@@ -203,7 +209,7 @@ plans:
 - name: Cloudevents Plans Pricing
   plan_count: 1
   slug: cloudevents-plans-pricing
-random_paper: 116
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Cloudevents Rate Limits
@@ -253,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/screenshots/cloudevents-2026-06-20T174548.png
 security:

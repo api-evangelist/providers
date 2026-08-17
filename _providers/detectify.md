@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'RESTful API (v3) for managing assets and retrieving attack-surface and scan data — surface-monitoring domains and IPs, IP addresses, technologies, ports, breaches, and cloud connectors. Authenticates '
@@ -171,7 +171,7 @@ overview: 'detectify publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   detectify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 1
+random_paper: 67
 score:
   band: developing
   composite: 52.5
@@ -188,7 +188,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/screenshots/detectify-2026-07-25T211804.png
 security:

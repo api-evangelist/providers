@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Sharing API from Microsoft OneDrive — 4 operation(s) for sharing.
   name: Microsoft OneDrive Sharing API
   slug: microsoft-onedrive-sharing-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft OneDrive API (Microsoft Graph) DriveItems API
+  slug: open-microsoft-onedrive-driveitems-api
+- collection_type: open
+  name: Microsoft OneDrive API (Microsoft Graph) DriveItems Drives API
+  slug: open-microsoft-onedrive-drives-api
+- collection_type: open
+  name: Microsoft OneDrive API (Microsoft Graph) DriveItems Sharing API
+  slug: open-microsoft-onedrive-sharing-api
 - collection_type: open
   name: Microsoft OneDrive API (Microsoft Graph)
   slug: open-microsoft-onedrive
@@ -125,7 +137,7 @@ plans:
 - name: Microsoft Onedrive Plans Pricing
   plan_count: 3
   slug: microsoft-onedrive-plans-pricing
-random_paper: 87
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Microsoft Onedrive Rate Limits
@@ -150,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/screenshots/microsoft-onedrive-2026-06-20T185515.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -116,7 +116,7 @@ plans:
 - name: Mightyhive Plans Pricing
   plan_count: 0
   slug: mightyhive-plans-pricing
-random_paper: 6
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Mightyhive Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.4
-  delta: 6.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -132,10 +132,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 5.0
+  previous_composite: 11.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/screenshots/mightyhive-2026-08-07T172904.png
 security:
 - kind: domain-security

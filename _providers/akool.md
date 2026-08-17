@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Translate a video into other languages with optional lip-sync.
   name: Akool Video Translation API
   slug: akool-video-translation-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Akool Open Authentication API
+  slug: open-akool-authentication-api
+- collection_type: open
+  name: Akool Open Authentication Face Swap API
+  slug: open-akool-face-swap-api
+- collection_type: open
+  name: Akool Open Authentication Image Generation API
+  slug: open-akool-image-generation-api
+- collection_type: open
+  name: Akool Open Authentication Live Avatar API
+  slug: open-akool-live-avatar-api
+- collection_type: open
+  name: Akool Open Authentication Talking Avatar API
+  slug: open-akool-talking-avatar-api
+- collection_type: open
+  name: Akool Open Authentication Talking Photo API
+  slug: open-akool-talking-photo-api
+- collection_type: open
+  name: Akool Open Authentication Video Translation API
+  slug: open-akool-video-translation-api
 - collection_type: open
   name: Akool OpenAPI
   slug: open-akool
@@ -126,7 +150,7 @@ plans:
 - name: Akool Plans Pricing
   plan_count: 5
   slug: akool-plans-pricing
-random_paper: 54
+random_paper: 87
 rate_limits:
 - limit_count: 4
   name: Akool Rate Limits
@@ -151,7 +175,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/screenshots/akool-2026-07-25T195517.png
 security:

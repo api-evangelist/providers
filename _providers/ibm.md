@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -245,7 +245,7 @@ arazzos:
 - description: Create a trusted profile, attach a SAML claim rule, and verify the trust took effect.
   name: IBM Cloud IAM Set Up a Trusted Profile for Federated Access
   slug: ibm-trusted-profile-federation-workflow
-artifact_total: 106
+artifact_total: 114
 collections:
 - collection_type: postman
   name: IBM Cloud IAM API Keys API
@@ -269,8 +269,32 @@ collections:
   name: IBM Cloud IAM API Keys Trusted Profiles API
   slug: postman-ibm-trusted-profiles-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IBM Cloud IAM API Keys API
+  slug: open-ibm-api-keys-api
+- collection_type: open
+  name: IBM Cloud IAM API Keys Claim Rules API
+  slug: open-ibm-claim-rules-api
+- collection_type: open
   name: IBM Cloud IAM API
   slug: open-ibm-cloud-iam
+- collection_type: open
+  name: IBM Cloud IAM API Keys Policies API
+  slug: open-ibm-policies-api
+- collection_type: open
+  name: IBM Cloud IAM API Keys Roles API
+  slug: open-ibm-roles-api
+- collection_type: open
+  name: IBM Cloud IAM API Keys Service IDs API
+  slug: open-ibm-service-ids-api
+- collection_type: open
+  name: IBM Cloud IAM API Keys Tokens API
+  slug: open-ibm-tokens-api
+- collection_type: open
+  name: IBM Cloud IAM API Keys Trusted Profiles API
+  slug: open-ibm-trusted-profiles-api
 common:
 - group: build
   title: ''
@@ -573,7 +597,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence press releases
   url: https://newsroom.ibm.com/press-releases-artificial-intelligence
-random_paper: 72
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Ibm Rate Limits
@@ -614,7 +638,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:

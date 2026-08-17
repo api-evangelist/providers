@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Retrieve observations and predictions from CO-OPS stations.
   name: National Oceanic and Atmospheric Administration Observations API
   slug: national-oceanic-and-atmospheric-administration-observations-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NOAA CO-OPS Data Observations API
+  slug: open-national-oceanic-and-atmospheric-administration-observations-api
 - collection_type: open
   name: NOAA CO-OPS Data API
   slug: open-national-oceanic-and-atmospheric-administration
@@ -95,7 +101,7 @@ plans:
 - name: National Oceanic And Atmospheric Administration Plans Pricing
   plan_count: 3
   slug: national-oceanic-and-atmospheric-administration-plans-pricing
-random_paper: 76
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: National Oceanic And Atmospheric Administration Rate Limits
@@ -126,7 +132,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-oceanic-and-atmospheric-administration/refs/heads/main/screenshots/national-oceanic-and-atmospheric-administration-2026-06-20T190034.png
 security:

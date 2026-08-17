@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 9
@@ -227,7 +227,200 @@ apis:
 - description: The Waiting rooms API from Macrometa — 2 operation(s) for waiting rooms.
   name: Macrometa Waiting rooms API
   slug: macrometa-waiting-rooms-api
-artifact_total: 67
+artifact_total: 131
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics API
+  slug: open-macrometa-activity-metrics-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Administration API
+  slug: open-macrometa-administration-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics API key API
+  slug: open-macrometa-api-key-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics API Keys API
+  slug: open-macrometa-api-keys-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Authentication API
+  slug: open-macrometa-authentication-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Billing API
+  slug: open-macrometa-billing-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Cache API
+  slug: open-macrometa-cache-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Change History API
+  slug: open-macrometa-change-history-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Collections API
+  slug: open-macrometa-collections-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Components API
+  slug: open-macrometa-components-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Connections API
+  slug: open-macrometa-connections-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Connectors API
+  slug: open-macrometa-connectors-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Data Centers API
+  slug: open-macrometa-data-centers-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Documents API
+  slug: open-macrometa-documents-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Dynamo API
+  slug: open-macrometa-dynamo-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Embeddings API
+  slug: open-macrometa-embeddings-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Environments API
+  slug: open-macrometa-environments-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Error Metrics API
+  slug: open-macrometa-error-metrics-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics EST Settings API
+  slug: open-macrometa-est-settings-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Function API
+  slug: open-macrometa-function-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics GeoFabrics API
+  slug: open-macrometa-geofabrics-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Graphs API
+  slug: open-macrometa-graphs-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Health API
+  slug: open-macrometa-health-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Health Check API
+  slug: open-macrometa-health-check-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Import Export API
+  slug: open-macrometa-import-export-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Index API
+  slug: open-macrometa-index-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Indexes API
+  slug: open-macrometa-indexes-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Key Value API
+  slug: open-macrometa-key-value-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Logs API
+  slug: open-macrometa-logs-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Manage Subscriptions API
+  slug: open-macrometa-manage-subscriptions-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Managed Keys API
+  slug: open-macrometa-managed-keys-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics API
+  slug: open-macrometa-metrics-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Models API
+  slug: open-macrometa-models-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Origins API
+  slug: open-macrometa-origins-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Position API
+  slug: open-macrometa-position-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Prefetch API
+  slug: open-macrometa-prefetch-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Prerender API
+  slug: open-macrometa-prerender-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Prerender History API
+  slug: open-macrometa-prerender-history-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Prerender Settings API
+  slug: open-macrometa-prerender-settings-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Query API
+  slug: open-macrometa-query-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Query Workers API
+  slug: open-macrometa-query-workers-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Redis API
+  slug: open-macrometa-redis-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Search API
+  slug: open-macrometa-search-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Secrets API
+  slug: open-macrometa-secrets-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Service information API
+  slug: open-macrometa-service-information-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Settings API
+  slug: open-macrometa-settings-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Stream Workers API
+  slug: open-macrometa-stream-workers-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Streams API
+  slug: open-macrometa-streams-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Support API
+  slug: open-macrometa-support-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Synthetic Interactions API
+  slug: open-macrometa-synthetic-interactions-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics System API
+  slug: open-macrometa-system-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Telemetry API
+  slug: open-macrometa-telemetry-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Track API
+  slug: open-macrometa-track-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Triggers API
+  slug: open-macrometa-triggers-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Usage API
+  slug: open-macrometa-usage-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Usage Metrics API
+  slug: open-macrometa-usage-metrics-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Users API
+  slug: open-macrometa-users-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Variables API
+  slug: open-macrometa-variables-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Version API
+  slug: open-macrometa-version-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Visitors API
+  slug: open-macrometa-visitors-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Visits API
+  slug: open-macrometa-visits-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Waiting room status API
+  slug: open-macrometa-waiting-room-status-api
+- collection_type: open
+  name: Macrometa API Reference Activity Metrics Waiting rooms API
+  slug: open-macrometa-waiting-rooms-api
 common:
 - group: auth
   title: ''
@@ -349,7 +542,7 @@ overview: 'Macrometa publishes 63 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Macrometa''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 19 more developer resources.'
-random_paper: 113
+random_paper: 59
 score:
   band: developing
   composite: 45.5
@@ -373,7 +566,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/screenshots/macrometa-2026-07-25T225823.png
 security:

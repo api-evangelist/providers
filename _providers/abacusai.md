@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Abacus.AI REST API and first-party Python client library for building generative AI, agent, and structured ML applications on the Abacus.AI platform. Authentication is via an API key generated fro
@@ -140,7 +140,7 @@ overview: 'Abacus.ai publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Abacus.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 105
+random_paper: 80
 score:
   band: thin
   composite: 35.0
@@ -156,7 +156,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abacusai/refs/heads/main/screenshots/abacusai-2026-07-25T181328.png
 security:

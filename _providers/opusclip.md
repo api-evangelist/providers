@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -72,11 +72,48 @@ apis:
 - description: The transcripts API from OpusClip — 1 operation(s) for transcripts.
   name: OpusClip transcripts API
   slug: opusclip-transcripts-api
-artifact_total: 18
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Opusclip Webhooks
   slug: opusclip-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clip brand-templates API
+  slug: open-opusclip-brand-templates-api
+- collection_type: open
+  name: Clip brand-templates censor-jobs API
+  slug: open-opusclip-censor-jobs-api
+- collection_type: open
+  name: Clip brand-templates clip-project API
+  slug: open-opusclip-clip-project-api
+- collection_type: open
+  name: Clip brand-templates collection API
+  slug: open-opusclip-collection-api
+- collection_type: open
+  name: Clip brand-templates collection-content API
+  slug: open-opusclip-collection-content-api
+- collection_type: open
+  name: Clip brand-templates enterprise API
+  slug: open-opusclip-enterprise-api
+- collection_type: open
+  name: Clip brand-templates exportable-clips API
+  slug: open-opusclip-exportable-clips-api
+- collection_type: open
+  name: Clip brand-templates ExportableClip API
+  slug: open-opusclip-exportableclip-api
+- collection_type: open
+  name: Clip brand-templates generative-jobs API
+  slug: open-opusclip-generative-jobs-api
+- collection_type: open
+  name: Clip brand-templates social-posting API
+  slug: open-opusclip-social-posting-api
+- collection_type: open
+  name: Clip brand-templates transcripts API
+  slug: open-opusclip-transcripts-api
 common:
 - group: other
   title: ''
@@ -237,7 +274,7 @@ overview: 'OpusClip publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   OpusClip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 28 more developer resources.'
-random_paper: 39
+random_paper: 134
 rate_limits:
 - limit_count: 1
   name: Opusclip Rate Limits
@@ -265,7 +302,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/screenshots/opusclip-2026-08-07T190820.png
 security:

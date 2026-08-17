@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: Send funds to cardholders
   name: Genome Payouts API
   slug: genome-payouts-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Genome Payments Host-to-Host API
+  slug: open-genome-host-to-host-api
+- collection_type: open
+  name: Genome Payments Host-to-Host Payouts API
+  slug: open-genome-payouts-api
 - collection_type: open
   name: Genome Payments API
   slug: open-genome
@@ -93,7 +102,7 @@ plans:
 - name: Genome Plans Pricing
   plan_count: 3
   slug: genome-plans-pricing
-random_paper: 35
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Genome Rate Limits
@@ -124,7 +133,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/screenshots/genome-2026-06-20T181737.png
 security:

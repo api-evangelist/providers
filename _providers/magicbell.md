@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -122,7 +122,92 @@ apis:
 - description: The web_push API from MagicBell — 8 operation(s) for web_push.
   name: MagicBell web_push API
   slug: magicbell-web-push-api
-artifact_total: 51
+artifact_total: 79
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MagicBell apns API
+  slug: open-magicbell-apns-api
+- collection_type: open
+  name: MagicBell apns awssns API
+  slug: open-magicbell-awssns-api
+- collection_type: open
+  name: MagicBell apns broadcasts API
+  slug: open-magicbell-broadcasts-api
+- collection_type: open
+  name: MagicBell apns channel/email API
+  slug: open-magicbell-channel-email-api
+- collection_type: open
+  name: MagicBell apns channel/mobile_push API
+  slug: open-magicbell-channel-mobile-push-api
+- collection_type: open
+  name: MagicBell apns channel/slack API
+  slug: open-magicbell-channel-slack-api
+- collection_type: open
+  name: MagicBell apns channel/sms API
+  slug: open-magicbell-channel-sms-api
+- collection_type: open
+  name: MagicBell apns channel/web_push API
+  slug: open-magicbell-channel-web-push-api
+- collection_type: open
+  name: MagicBell apns channels API
+  slug: open-magicbell-channels-api
+- collection_type: open
+  name: MagicBell apns expo API
+  slug: open-magicbell-expo-api
+- collection_type: open
+  name: MagicBell apns fcm API
+  slug: open-magicbell-fcm-api
+- collection_type: open
+  name: MagicBell apns github API
+  slug: open-magicbell-github-api
+- collection_type: open
+  name: MagicBell apns inbox API
+  slug: open-magicbell-inbox-api
+- collection_type: open
+  name: MagicBell apns integrations API
+  slug: open-magicbell-integrations-api
+- collection_type: open
+  name: MagicBell apns mailgun API
+  slug: open-magicbell-mailgun-api
+- collection_type: open
+  name: MagicBell apns mobile_push API
+  slug: open-magicbell-mobile-push-api
+- collection_type: open
+  name: MagicBell apns ping_email API
+  slug: open-magicbell-ping-email-api
+- collection_type: open
+  name: MagicBell apns project API
+  slug: open-magicbell-project-api
+- collection_type: open
+  name: MagicBell apns sendgrid API
+  slug: open-magicbell-sendgrid-api
+- collection_type: open
+  name: MagicBell apns ses API
+  slug: open-magicbell-ses-api
+- collection_type: open
+  name: MagicBell apns slack API
+  slug: open-magicbell-slack-api
+- collection_type: open
+  name: MagicBell apns stripe API
+  slug: open-magicbell-stripe-api
+- collection_type: open
+  name: MagicBell apns teams API
+  slug: open-magicbell-teams-api
+- collection_type: open
+  name: MagicBell apns templates API
+  slug: open-magicbell-templates-api
+- collection_type: open
+  name: MagicBell apns twilio API
+  slug: open-magicbell-twilio-api
+- collection_type: open
+  name: MagicBell apns user API
+  slug: open-magicbell-user-api
+- collection_type: open
+  name: MagicBell apns web_push API
+  slug: open-magicbell-web-push-api
 common:
 - group: agent
   title: ''
@@ -279,7 +364,7 @@ plans:
 - name: Magicbell Plans Pricing
   plan_count: 3
   slug: magicbell-plans-pricing
-random_paper: 88
+random_paper: 34
 rate_limits:
 - limit_count: 4
   name: Magicbell Rate Limits
@@ -319,7 +404,7 @@ score:
     regime_id: telecommunications
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/screenshots/magicbell-2026-06-20T184842.png
 security:

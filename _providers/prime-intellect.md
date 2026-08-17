@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
 - description: The user API from Prime Intellect — 3 operation(s) for user.
   name: Prime Intellect user API
   slug: prime-intellect-user-api
-artifact_total: 59
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Prime Intellect Compute admin-clusters API
@@ -162,23 +162,77 @@ collections:
   name: Prime Intellect Compute admin-clusters user API
   slug: postman-prime-intellect-user-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters API
+  slug: open-prime-intellect-admin-clusters-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters admin-users API
+  slug: open-prime-intellect-admin-users-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters Availability API
+  slug: open-prime-intellect-availability-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters Billing API
+  slug: open-prime-intellect-billing-api
+- collection_type: open
   name: Prime Intellect Compute API
   slug: open-prime-intellect-compute-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters Disks API
+  slug: open-prime-intellect-disks-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters evals API
+  slug: open-prime-intellect-evals-api
 - collection_type: open
   name: Prime Intellect Evaluations API
   slug: open-prime-intellect-evaluations-api
 - collection_type: open
-  name: Prime Intellect Inference API
+  name: Prime Intellect Compute admin-clusters Feedback API
+  slug: open-prime-intellect-feedback-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters FRP Plugin API
+  slug: open-prime-intellect-frp-plugin-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters hosted-evaluations API
+  slug: open-prime-intellect-hosted-evaluations-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters Images API
+  slug: open-prime-intellect-images-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters Inference API
   slug: open-prime-intellect-inference-api
 - collection_type: open
   name: Prime Intellect Platform API
   slug: open-prime-intellect-platform-api
 - collection_type: open
-  name: Prime Intellect Sandbox API
+  name: Prime Intellect Compute admin-clusters Pods API
+  slug: open-prime-intellect-pods-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters Sandbox API
   slug: open-prime-intellect-sandbox-api
 - collection_type: open
-  name: Prime Intellect Training API
+  name: Prime Intellect Compute admin-clusters Secrets API
+  slug: open-prime-intellect-secrets-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters SSH Keys API
+  slug: open-prime-intellect-ssh-keys-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters teams API
+  slug: open-prime-intellect-teams-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters Template API
+  slug: open-prime-intellect-template-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters training API
   slug: open-prime-intellect-training-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters Tunnel API
+  slug: open-prime-intellect-tunnel-api
+- collection_type: open
+  name: Prime Intellect Compute admin-clusters user API
+  slug: open-prime-intellect-user-api
 common:
 - group: build
   title: ''
@@ -354,7 +408,7 @@ plans:
 - name: Prime Intellect Plans Pricing
   plan_count: 6
   slug: prime-intellect-plans-pricing
-random_paper: 110
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Prime Intellect Rate Limits
@@ -388,7 +442,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/screenshots/prime-intellect-2026-06-20T192203.png
 security:

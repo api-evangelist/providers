@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,8 +81,26 @@ apis:
 - description: User accounts and profiles in Microsoft Entra ID.
   name: Microsoft Products APIs Users API
   slug: ms-products-users-api
-artifact_total: 23
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph API (v1.0) Calendar API
+  slug: open-ms-products-calendar-api
+- collection_type: open
+  name: Microsoft Graph API (v1.0) Calendar Groups API
+  slug: open-ms-products-groups-api
+- collection_type: open
+  name: Microsoft Graph API (v1.0) Calendar Mail API
+  slug: open-ms-products-mail-api
+- collection_type: open
+  name: Microsoft Graph API (v1.0) Calendar Me API
+  slug: open-ms-products-me-api
+- collection_type: open
+  name: Microsoft Graph API (v1.0) Calendar Users API
+  slug: open-ms-products-users-api
 - collection_type: open
   name: Microsoft Graph API (v1.0)
   slug: open-ms-products
@@ -147,7 +165,7 @@ plans:
 - name: Ms Products Plans Pricing
   plan_count: 3
   slug: ms-products-plans-pricing
-random_paper: 73
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Ms Products Rate Limits
@@ -177,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/screenshots/ms-products-2026-06-20T185847.png
 security:

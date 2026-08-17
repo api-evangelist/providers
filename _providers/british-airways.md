@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: British Airways' IATA New Distribution Capability API - a direct link into BA's host reservation system for flight shopping, ordering, ticketing and post-booking servicing, operated jointly across IAG
@@ -134,7 +134,7 @@ overview: 'British Airways publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   British Airways'' developer surface includes authentication, sandbox, developer portal, documentation, and 18 more developer resources.'
-random_paper: 10
+random_paper: 80
 scopes:
 - name: British Airways Scopes
   scope_count: 4
@@ -155,7 +155,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/british-airways/refs/heads/main/screenshots/british-airways-2026-08-07T162825.png
 security:

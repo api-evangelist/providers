@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Retrieve vehicle information — WLTP emissions, images, and order data.
   name: Volkswagen Information API
   slug: volkswagen-information-api
-artifact_total: 21
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Volkswagen OKAPI - Open Konfigurator Catalog API
+  slug: open-volkswagen-catalog-api
+- collection_type: open
+  name: Volkswagen OKAPI - Open Konfigurator Catalog Configuration API
+  slug: open-volkswagen-configuration-api
+- collection_type: open
+  name: Volkswagen OKAPI - Open Konfigurator Catalog Information API
+  slug: open-volkswagen-information-api
 - collection_type: open
   name: Volkswagen OKAPI - Open Konfigurator API
   slug: open-volkswagen-okapi
@@ -179,7 +191,7 @@ plans:
 - name: Volkswagen Plans Pricing
   plan_count: 3
   slug: volkswagen-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Volkswagen Rate Limits
@@ -221,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/screenshots/volkswagen-2026-06-20T201131.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -57,8 +57,26 @@ apis:
 - description: The Meters API from CMS Energy — 2 operation(s) for meters.
   name: CMS Energy Meters API
   slug: cms-energy-meters-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Consumers Energy Green Button Connect My Data API (UtilityAPI) Authorizations API
+  slug: open-cms-energy-authorizations-api
+- collection_type: open
+  name: Consumers Energy Green Button Connect My Data API (UtilityAPI) Authorizations Bills API
+  slug: open-cms-energy-bills-api
+- collection_type: open
+  name: Consumers Energy Green Button Connect My Data API (UtilityAPI) Authorizations GreenButton API
+  slug: open-cms-energy-greenbutton-api
+- collection_type: open
+  name: Consumers Energy Green Button Connect My Data API (UtilityAPI) Authorizations Intervals API
+  slug: open-cms-energy-intervals-api
+- collection_type: open
+  name: Consumers Energy Green Button Connect My Data API (UtilityAPI) Authorizations Meters API
+  slug: open-cms-energy-meters-api
 - collection_type: open
   name: Consumers Energy Green Button Connect My Data API (UtilityAPI)
   slug: open-cms-energy
@@ -147,7 +165,7 @@ press:
 - date: '2026-05-25'
   title: CMS Energy Exceeds Earnings Guidance in 2025, Raises ...
   url: https://www.prnewswire.com/news-releases/cms-energy-exceeds-earnings-guidance-in-2025-raises-2026-adjusted-eps-guidance-302679615.html
-random_paper: 58
+random_paper: 124
 rate_limits:
 - limit_count: 2
   name: Cms Energy Rate Limits
@@ -183,7 +201,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/screenshots/cms-energy-2026-06-20T174637.png
 security:

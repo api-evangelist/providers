@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: 'The #Action=Select API from Amazon SimpleDB — 1 operation(s) for #action=select.'
   name: 'Amazon SimpleDB #Action=Select API'
   slug: amazon-simpledb-action-select-api
-artifact_total: 152
+artifact_total: 163
 collections:
 - collection_type: postman
   name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes API'
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=Select API'
   slug: postman-amazon-simpledb-action-select-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes API'
+  slug: open-amazon-simpledb-action-batchdeleteattributes-api
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=BatchPutAttributes API'
+  slug: open-amazon-simpledb-action-batchputattributes-api
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=CreateDomain API'
+  slug: open-amazon-simpledb-action-createdomain-api
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=DeleteAttributes API'
+  slug: open-amazon-simpledb-action-deleteattributes-api
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=DeleteDomain API'
+  slug: open-amazon-simpledb-action-deletedomain-api
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=DomainMetadata API'
+  slug: open-amazon-simpledb-action-domainmetadata-api
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=GetAttributes API'
+  slug: open-amazon-simpledb-action-getattributes-api
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=ListDomains API'
+  slug: open-amazon-simpledb-action-listdomains-api
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=PutAttributes API'
+  slug: open-amazon-simpledb-action-putattributes-api
+- collection_type: open
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=Select API'
+  slug: open-amazon-simpledb-action-select-api
 common:
 - group: build
   title: ''
@@ -564,7 +597,7 @@ plans:
 - name: Amazon Simpledb Plans Pricing
   plan_count: 3
   slug: amazon-simpledb-plans-pricing
-random_paper: 99
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Amazon Simpledb Rate Limits
@@ -606,7 +639,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/screenshots/amazon-simpledb-2026-06-20T171823.png
 security:

@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 51.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,8 +70,38 @@ apis:
 - description: Demographics and other administrative information about an individual receiving care.
   name: Temple Health Patient API
   slug: temple-health-patient-api
-artifact_total: 28
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Temple Health FHIR R4 Allergy Intolerance API
+  slug: open-temple-health-allergy-intolerance-api
+- collection_type: open
+  name: Temple Health FHIR R4 Allergy Intolerance Bulk Data API
+  slug: open-temple-health-bulk-data-api
+- collection_type: open
+  name: Temple Health FHIR R4 Allergy Intolerance Condition API
+  slug: open-temple-health-condition-api
+- collection_type: open
+  name: Temple Health FHIR R4 Allergy Intolerance Document Reference API
+  slug: open-temple-health-document-reference-api
+- collection_type: open
+  name: Temple Health FHIR R4 Allergy Intolerance Encounter API
+  slug: open-temple-health-encounter-api
+- collection_type: open
+  name: Temple Health FHIR R4 Allergy Intolerance Medication Request API
+  slug: open-temple-health-medication-request-api
+- collection_type: open
+  name: Temple Health FHIR R4 Allergy Intolerance Metadata API
+  slug: open-temple-health-metadata-api
+- collection_type: open
+  name: Temple Health FHIR R4 Allergy Intolerance Observation API
+  slug: open-temple-health-observation-api
+- collection_type: open
+  name: Temple Health FHIR R4 Allergy Intolerance Patient API
+  slug: open-temple-health-patient-api
 - collection_type: open
   name: Temple Health FHIR R4 API
   slug: open-temple-health-temple-health-fhir-r4-api
@@ -183,6 +214,90 @@ common:
   title: ''
   type: Blog
   url: https://www.templehealth.org/about/news
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/temple-health-well-known.yml
+- group: other
+  title: ''
+  type: SMARTConfiguration
+  url: well-known/temple-health-smart-configuration.json
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: well-known/temple-health-openid-configuration.json
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/temple-health-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/temple-health-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/temple-health-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/temple-health-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/temple-health-data-model.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/temple-health-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/temple-health-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/temple-health-fhir-r4-capability-statement-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/temple-health-fhir-r4-smart-configuration-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/temple-health-fhir-r4-patient-search-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/temple-health-fhir-r4-observation-search-example.json
+- group: commercial
+  title: ''
+  type: PriceTransparency
+  url: well-known/temple-health-cms-hpt.txt
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://hub.templehealth.org/web/guest/disclaimer_termsofuse.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.templehealth.org/contact-us
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.templehealth.org/patients-visitors/billing-financial/hospital-pricing-information
+- group: other
+  title: ''
+  type: PatientRights
+  url: https://hub.templehealth.org/web/guest/patientrights.html
+- group: auth
+  title: ''
+  type: HIPAANotice
+  url: https://hub.templehealth.org/web/guest/privacy-hipaa.html
 created: '2026-05-23'
 description: Temple University Health System (Temple Health) is the Philadelphia-based academic health system affiliated with the Lewis Katz School of Medicine at Temple University. It operates Temple University Hospital (Main Campus, Jeanes, Episcopal, Northeastern, Women & Families), Temple Health Chestnut Hill Hospital, Fox Chase Cancer Center, and outpatient sites across the Philadelphia region. Its patient-facing electronic health record runs on Epic, branded myTempleHealth (MyChart), with CMS-mandated HL7 FHIR APIs published at epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4 (and a legacy DSTU2 endpoint at the same host) that expose USCDI-aligned clinical resources to third-party patient-access applications via SMART on FHIR and OAuth 2.0. Temple Health does not publish a separate commercial developer program; its API surface is regulatory-mandated and free at point of use.
 examples:
@@ -220,7 +335,11 @@ jsonld:
   property_count: 0
   slug: temple-health-context
 layout: provider
-modified: '2026-07-25'
+mcp_servers:
+- description: ''
+  name: 'Candidate tool surface only — Temple Health hosts no MCP server (deployment mode: none)'
+  slug: candidate-tool-surface-only-temple-health-hosts-no-mcp-server-deployment-mode-none
+modified: '2026-08-15'
 name: Temple Health
 nav: Providers
 network: true
@@ -230,12 +349,12 @@ overview: 'Temple Health publishes 9 APIs on the [APIs.io](https://apis.io/) net
   The Temple Health catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Temple Health''s developer surface includes authentication, GitHub presence, engineering blog, and 24 more developer resources.'
+  Temple Health''s developer surface includes authentication, GitHub presence, engineering blog, code examples, support, pricing, and 42 more developer resources.'
 plans:
 - name: Temple Health Plans Pricing
   plan_count: 4
   slug: temple-health-plans-pricing
-random_paper: 2
+random_paper: 130
 rate_limits:
 - limit_count: 0
   name: Temple Health Rate Limits
@@ -259,19 +378,19 @@ rules:
   slug: temple-health-temple-health-fhir-r4-rules
 scopes:
 - name: Temple Health Scopes
-  scope_count: 13
+  scope_count: 15
   slug: temple-health-scopes
-  summary_line: 13 scopes · authorizationCode
+  summary_line: 15 scopes · authorizationCode
 score:
-  band: developing
-  composite: 47.3
-  delta: 0.0
+  band: strong
+  composite: 59.3
+  delta: 12.0
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 78.9
     contract_quality: 64.5
-    developer_ergonomics: 13.0
-    discoverability: 68.5
-    governance: 68.8
+    developer_ergonomics: 32.6
+    discoverability: 81.5
+    governance: 89.6
     operational_transparency: 5.3
   previous_composite: 47.3
   provenance:
@@ -286,20 +405,20 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 53.8
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/screenshots/temple-health-2026-06-20T195058.png
 security:
 - kind: authentication
   name: Temple Health Authentication
   slug: temple-health-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2/openIdConnect · 1 scheme
 - kind: domain-security
   name: Temple Health Domain Security
   slug: temple-health-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 slug: temple-health
 tags:
 - Academic Medical Center

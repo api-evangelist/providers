@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Workspace tags and contact tag assignment.
   name: Respond.io Tags API
   slug: respond-tags-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Respond.io Developer Comments API
+  slug: open-respond-comments-api
+- collection_type: open
+  name: Respond.io Developer Comments Contacts API
+  slug: open-respond-contacts-api
+- collection_type: open
+  name: Respond.io Developer Comments Conversations API
+  slug: open-respond-conversations-api
+- collection_type: open
+  name: Respond.io Developer Comments Custom Fields API
+  slug: open-respond-custom-fields-api
+- collection_type: open
+  name: Respond.io Developer Comments Messages API
+  slug: open-respond-messages-api
+- collection_type: open
+  name: Respond.io Developer Comments Tags API
+  slug: open-respond-tags-api
 - collection_type: open
   name: Respond.io Developer API
   slug: open-respond
@@ -127,7 +148,7 @@ plans:
 - name: Respond Plans Pricing
   plan_count: 4
   slug: respond-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Respond Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/screenshots/respond-2026-06-20T192954.png
 security:

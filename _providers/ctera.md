@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RESTful management API for the CTERA Portal. Exposes a uniform object namespace (users, devices, folders, and more) where each object is addressed by a unique URI, using GET/PUT/POST/DELETE verbs. Aut
@@ -148,7 +148,7 @@ overview: 'CTERA publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   CTERA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, training material, CLI, and 17 more developer resources.'
-random_paper: 47
+random_paper: 80
 score:
   band: thin
   composite: 28.3
@@ -166,7 +166,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/screenshots/ctera-2026-07-25T210844.png
 security:

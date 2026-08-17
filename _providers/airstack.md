@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -80,7 +80,50 @@ apis:
 - description: The Webhooks API from Airstack — 3 operation(s) for webhooks.
   name: Airstack Webhooks API
   slug: airstack-webhooks-api
-artifact_total: 20
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Farcaster Hub REST Casts API
+  slug: open-airstack-casts-api
+- collection_type: open
+  name: Farcaster Hub REST Casts FIDs API
+  slug: open-airstack-fids-api
+- collection_type: open
+  name: Farcaster Hub REST Casts HubEvents API
+  slug: open-airstack-hubevents-api
+- collection_type: open
+  name: Farcaster Hub REST Casts Links API
+  slug: open-airstack-links-api
+- collection_type: open
+  name: Farcaster Hub REST Casts OnChainEvents API
+  slug: open-airstack-onchainevents-api
+- collection_type: open
+  name: Farcaster Hub REST Casts Reactions API
+  slug: open-airstack-reactions-api
+- collection_type: open
+  name: Farcaster Hub REST Casts Storage API
+  slug: open-airstack-storage-api
+- collection_type: open
+  name: Farcaster Hub REST Casts SubmitMessage API
+  slug: open-airstack-submitmessage-api
+- collection_type: open
+  name: Farcaster Hub REST Casts UserData API
+  slug: open-airstack-userdata-api
+- collection_type: open
+  name: Farcaster Hub REST Casts Usernames API
+  slug: open-airstack-usernames-api
+- collection_type: open
+  name: Farcaster Hub REST Casts ValidateMessage API
+  slug: open-airstack-validatemessage-api
+- collection_type: open
+  name: Farcaster Hub REST Casts Verifications API
+  slug: open-airstack-verifications-api
+- collection_type: open
+  name: Farcaster Hub REST Casts Webhooks API
+  slug: open-airstack-webhooks-api
 common:
 - group: agent
   title: ''
@@ -169,7 +212,7 @@ overview: 'Airstack publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Airstack''s developer surface includes authentication, GitHub presence, engineering blog, and 13 more developer resources.'
-random_paper: 10
+random_paper: 105
 rules:
 - name: Airstack API Rules
   rule_count: 6
@@ -205,7 +248,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/screenshots/airstack-2026-06-20T171431.png
 security:

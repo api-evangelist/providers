@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ apis:
 - description: Webhook subscriptions
   name: MethodFi Webhooks API
   slug: methodfi-webhooks-api
-artifact_total: 94
+artifact_total: 139
 asyncapis:
 - description: ''
   name: Methodfi Webhooks
@@ -297,8 +297,143 @@ collections:
   name: Method Account Attributes Webhooks API
   slug: postman-methodfi-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Method Financial API
   slug: open-method-fi
+- collection_type: open
+  name: Method Account Attributes API
+  slug: open-methodfi-account-attributes-api
+- collection_type: open
+  name: Method Account Attributes Account Balances API
+  slug: open-methodfi-account-balances-api
+- collection_type: open
+  name: Method Account Attributes Account Card Brands API
+  slug: open-methodfi-account-card-brands-api
+- collection_type: open
+  name: Method Account Attributes Account Consent API
+  slug: open-methodfi-account-consent-api
+- collection_type: open
+  name: Method Account Attributes Account Payment Instruments API
+  slug: open-methodfi-account-payment-instruments-api
+- collection_type: open
+  name: Method Account Attributes Account Payoffs API
+  slug: open-methodfi-account-payoffs-api
+- collection_type: open
+  name: Method Account Attributes Account Products API
+  slug: open-methodfi-account-products-api
+- collection_type: open
+  name: Method Account Attributes Account Sensitive API
+  slug: open-methodfi-account-sensitive-api
+- collection_type: open
+  name: Method Account Attributes Account Subscriptions API
+  slug: open-methodfi-account-subscriptions-api
+- collection_type: open
+  name: Method Account Attributes Account Transactions API
+  slug: open-methodfi-account-transactions-api
+- collection_type: open
+  name: Method Account Attributes Account Updates API
+  slug: open-methodfi-account-updates-api
+- collection_type: open
+  name: Method Account Attributes Account Verification Sessions API
+  slug: open-methodfi-account-verification-sessions-api
+- collection_type: open
+  name: Method Account Attributes Accounts API
+  slug: open-methodfi-accounts-api
+- collection_type: open
+  name: Method Account Attributes Card Products API
+  slug: open-methodfi-card-products-api
+- collection_type: open
+  name: Method Financial Accounts Connect API
+  slug: open-methodfi-connect-api
+- collection_type: open
+  name: Method Account Attributes Elements API
+  slug: open-methodfi-elements-api
+- collection_type: open
+  name: Method Account Attributes Entities API
+  slug: open-methodfi-entities-api
+- collection_type: open
+  name: Method Account Attributes Entity Attributes API
+  slug: open-methodfi-entity-attributes-api
+- collection_type: open
+  name: Method Account Attributes Entity Connects API
+  slug: open-methodfi-entity-connects-api
+- collection_type: open
+  name: Method Account Attributes Entity Consent API
+  slug: open-methodfi-entity-consent-api
+- collection_type: open
+  name: Method Account Attributes Entity Credit Scores API
+  slug: open-methodfi-entity-credit-scores-api
+- collection_type: open
+  name: Method Account Attributes Entity Identities API
+  slug: open-methodfi-entity-identities-api
+- collection_type: open
+  name: Method Account Attributes Entity Products API
+  slug: open-methodfi-entity-products-api
+- collection_type: open
+  name: Method Account Attributes Entity Subscriptions API
+  slug: open-methodfi-entity-subscriptions-api
+- collection_type: open
+  name: Method Account Attributes Entity Vehicles API
+  slug: open-methodfi-entity-vehicles-api
+- collection_type: open
+  name: Method Account Attributes Entity Verification Sessions API
+  slug: open-methodfi-entity-verification-sessions-api
+- collection_type: open
+  name: Method Account Attributes Events API
+  slug: open-methodfi-events-api
+- collection_type: open
+  name: Method Account Attributes Forwarding Requests API
+  slug: open-methodfi-forwarding-requests-api
+- collection_type: open
+  name: Method Account Attributes Managed Accounts API
+  slug: open-methodfi-managed-accounts-api
+- collection_type: open
+  name: Method Account Attributes Merchants API
+  slug: open-methodfi-merchants-api
+- collection_type: open
+  name: Method Account Attributes Opal API
+  slug: open-methodfi-opal-api
+- collection_type: open
+  name: Method Account Attributes Payment Reversals API
+  slug: open-methodfi-payment-reversals-api
+- collection_type: open
+  name: Method Account Attributes Payments API
+  slug: open-methodfi-payments-api
+- collection_type: open
+  name: Method Account Attributes Ping API
+  slug: open-methodfi-ping-api
+- collection_type: open
+  name: Method Account Attributes Public Keys API
+  slug: open-methodfi-public-keys-api
+- collection_type: open
+  name: Method Account Attributes Reports API
+  slug: open-methodfi-reports-api
+- collection_type: open
+  name: Method Account Attributes Secrets API
+  slug: open-methodfi-secrets-api
+- collection_type: open
+  name: Method Account Attributes Simulate Accounts API
+  slug: open-methodfi-simulate-accounts-api
+- collection_type: open
+  name: Method Account Attributes Simulate Entities API
+  slug: open-methodfi-simulate-entities-api
+- collection_type: open
+  name: Method Account Attributes Simulate Events API
+  slug: open-methodfi-simulate-events-api
+- collection_type: open
+  name: Method Account Attributes Simulate Payments API
+  slug: open-methodfi-simulate-payments-api
+- collection_type: open
+  name: Method Account Attributes Teams API
+  slug: open-methodfi-teams-api
+- collection_type: open
+  name: Method Financial Accounts Transactions API
+  slug: open-methodfi-transactions-api
+- collection_type: open
+  name: Method Account Attributes Webhooks API
+  slug: open-methodfi-webhooks-api
 common:
 - group: other
   title: ''
@@ -487,7 +622,7 @@ plans:
 - name: Methodfi Plans Pricing
   plan_count: 2
   slug: methodfi-plans-pricing
-random_paper: 8
+random_paper: 103
 rate_limits:
 - limit_count: 6
   name: Methodfi Rate Limits
@@ -521,7 +656,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/screenshots/methodfi-2026-08-07T172708.png
 security:

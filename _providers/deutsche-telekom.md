@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 6
@@ -188,8 +188,11 @@ apis:
 - description: The Users API from Deutsche Telekom — 24 operation(s) for users.
   name: Deutsche Telekom Users API
   slug: deutsche-telekom-users-api
-artifact_total: 76
+artifact_total: 115
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Controlplane Api
   slug: open-controlplane-cpapi
@@ -214,6 +217,120 @@ collections:
 - collection_type: open
   name: Secret Manager API
   slug: open-controlplane-secret-manager
+- collection_type: open
+  name: Controlplane Api ApiChangelog API
+  slug: open-deutsche-telekom-apichangelog-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog ApiExposure API
+  slug: open-deutsche-telekom-apiexposure-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog ApiRoadmap API
+  slug: open-deutsche-telekom-apiroadmap-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog ApiSpecification API
+  slug: open-deutsche-telekom-apispecification-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog ApiSubscription API
+  slug: open-deutsche-telekom-apisubscription-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Application API
+  slug: open-deutsche-telekom-application-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Attack Detection API
+  slug: open-deutsche-telekom-attack-detection-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Authentication Management API
+  slug: open-deutsche-telekom-authentication-management-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Client Attribute Certificate API
+  slug: open-deutsche-telekom-client-attribute-certificate-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Client Initial Access API
+  slug: open-deutsche-telekom-client-initial-access-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Client Registration Policy API
+  slug: open-deutsche-telekom-client-registration-policy-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Client Role Mappings API
+  slug: open-deutsche-telekom-client-role-mappings-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Client Scopes API
+  slug: open-deutsche-telekom-client-scopes-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Clients API
+  slug: open-deutsche-telekom-clients-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Component API
+  slug: open-deutsche-telekom-component-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog deleting API
+  slug: open-deutsche-telekom-deleting-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog downloading API
+  slug: open-deutsche-telekom-downloading-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog EventExposure API
+  slug: open-deutsche-telekom-eventexposure-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog EventSpecification API
+  slug: open-deutsche-telekom-eventspecification-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog EventSubscription API
+  slug: open-deutsche-telekom-eventsubscription-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog EventType API
+  slug: open-deutsche-telekom-eventtype-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Groups API
+  slug: open-deutsche-telekom-groups-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Identity Providers API
+  slug: open-deutsche-telekom-identity-providers-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Key API
+  slug: open-deutsche-telekom-key-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog onboarding API
+  slug: open-deutsche-telekom-onboarding-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Protocol Mappers API
+  slug: open-deutsche-telekom-protocol-mappers-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Realms Admin API
+  slug: open-deutsche-telekom-realms-admin-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog RemoteSubscription API
+  slug: open-deutsche-telekom-remotesubscription-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Role Mapper API
+  slug: open-deutsche-telekom-role-mapper-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Roles API
+  slug: open-deutsche-telekom-roles-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Roles (by ID) API
+  slug: open-deutsche-telekom-roles-by-id-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Root API
+  slug: open-deutsche-telekom-root-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Rover API
+  slug: open-deutsche-telekom-rover-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Scope Mappings API
+  slug: open-deutsche-telekom-scope-mappings-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog secrets API
+  slug: open-deutsche-telekom-secrets-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog uploading API
+  slug: open-deutsche-telekom-uploading-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog User Storage Provider API
+  slug: open-deutsche-telekom-user-storage-provider-api
+- collection_type: open
+  name: Controlplane Api ApiChangelog Users API
+  slug: open-deutsche-telekom-users-api
 common:
 - group: operate
   title: ''
@@ -382,7 +499,7 @@ overview: 'Deutsche Telekom publishes 38 APIs on the [APIs.io](https://apis.io/)
 
 
   Deutsche Telekom''s developer surface includes authentication, YouTube channel, documentation, getting-started guide, engineering blog, and 30 more developer resources.'
-random_paper: 91
+random_paper: 12
 scopes:
 - name: Deutsche Telekom Scopes
   scope_count: 13
@@ -414,7 +531,7 @@ score:
     regime_id: telecommunications
     score: 48.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'An anonymous, read-oriented Model Context Protocol endpoint served from Field Medical''s own corporate domain. It is provided by the Wix website platform (Wix Site MCP), not authored by Field Medical, '
@@ -98,7 +98,7 @@ plans:
 - name: Field Medical Plans Pricing
   plan_count: 0
   slug: field-medical-plans-pricing
-random_paper: 80
+random_paper: 88
 rate_limits:
 - limit_count: 0
   name: Field Medical Rate Limits
@@ -106,6 +106,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -113,6 +114,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 14.6
   regulatory:
     applies: true
     matched_via: tags
@@ -120,7 +122,8 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Field Medical Authentication

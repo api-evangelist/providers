@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Integration API from Flash App — 1 operation(s) for integration.
@@ -37,7 +37,17 @@ apis:
 - description: The Login API from Flash App — 1 operation(s) for login.
   name: Flash App Login API
   slug: flash-app-login-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flash Expense Integration API
+  slug: open-flash-app-integration-api
+- collection_type: open
+  name: Flash Expense Integration Login API
+  slug: open-flash-app-login-api
 common:
 - group: other
   title: ''
@@ -171,7 +181,7 @@ overview: 'Flash App publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Flash App''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 52
+random_paper: 147
 score:
   band: developing
   composite: 46.7
@@ -200,7 +210,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flash-app/refs/heads/main/screenshots/flash-app-2026-07-25T214715.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Trip lists, trip detail, paths, and driving events.
   name: LEEO Insurance Services Trips API
   slug: leeo-insurance-services-trips-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LEEO Fleet Telematics Aggregates API
+  slug: open-leeo-insurance-services-aggregates-api
+- collection_type: open
+  name: LEEO Fleet Telematics Aggregates Drivers API
+  slug: open-leeo-insurance-services-drivers-api
+- collection_type: open
+  name: LEEO Fleet Telematics Aggregates Reports API
+  slug: open-leeo-insurance-services-reports-api
+- collection_type: open
+  name: LEEO Fleet Telematics Aggregates Trips API
+  slug: open-leeo-insurance-services-trips-api
 common:
 - group: other
   title: ''
@@ -172,7 +188,7 @@ overview: 'LEEO Insurance Services publishes 4 APIs on the [APIs.io](https://api
 
 
   LEEO Insurance Services'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 19 more developer resources.'
-random_paper: 67
+random_paper: 112
 score:
   band: developing
   composite: 46.5
@@ -202,7 +218,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/screenshots/leeo-insurance-services-2026-07-25T224822.png
 security:

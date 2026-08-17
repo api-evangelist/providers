@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Purchase transactions and points accrual.
   name: Open Loyalty Transactions API
   slug: open-loyalty-transactions-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Loyalty REST Authorization API
+  slug: open-open-loyalty-authorization-api
+- collection_type: open
+  name: Open Loyalty REST Authorization Earning Rules API
+  slug: open-open-loyalty-earning-rules-api
+- collection_type: open
+  name: Open Loyalty REST Authorization Members API
+  slug: open-open-loyalty-members-api
+- collection_type: open
+  name: Open Loyalty REST Authorization Points API
+  slug: open-open-loyalty-points-api
+- collection_type: open
+  name: Open Loyalty REST Authorization Rewards API
+  slug: open-open-loyalty-rewards-api
+- collection_type: open
+  name: Open Loyalty REST Authorization Tiers API
+  slug: open-open-loyalty-tiers-api
+- collection_type: open
+  name: Open Loyalty REST Authorization Transactions API
+  slug: open-open-loyalty-transactions-api
 - collection_type: open
   name: Open Loyalty REST API
   slug: open-open-loyalty
@@ -126,7 +150,7 @@ plans:
 - name: Open Loyalty Plans Pricing
   plan_count: 3
   slug: open-loyalty-plans-pricing
-random_paper: 61
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Open Loyalty Rate Limits
@@ -151,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/screenshots/open-loyalty-2026-08-07T190513.png
 security:

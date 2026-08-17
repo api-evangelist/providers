@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: CDN media-delivery site objects
   name: Qwilt Sites API
   slug: qwilt-sites-api
-artifact_total: 11
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qwilt CDN Certificate Manager Certificate Templates API
+  slug: open-qwilt-certificate-templates-api
+- collection_type: open
+  name: Qwilt CDN Certificate Manager Certificate Templates Certificates API
+  slug: open-qwilt-certificates-api
+- collection_type: open
+  name: Qwilt CDN Certificate Manager Certificate Templates Origin Allow List API
+  slug: open-qwilt-origin-allow-list-api
+- collection_type: open
+  name: Qwilt CDN Certificate Manager Certificate Templates Publishing Operations API
+  slug: open-qwilt-publishing-operations-api
+- collection_type: open
+  name: Qwilt CDN Certificate Manager Certificate Templates Site Configurations API
+  slug: open-qwilt-site-configurations-api
+- collection_type: open
+  name: Qwilt CDN Certificate Manager Certificate Templates Sites API
+  slug: open-qwilt-sites-api
 common:
 - group: other
   title: ''
@@ -194,7 +216,7 @@ overview: 'Qwilt publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Qwilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 23 more developer resources.'
-random_paper: 81
+random_paper: 114
 score:
   band: thin
   composite: 39.7
@@ -218,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

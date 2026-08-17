@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 339
   human_in_the_loop: 15
@@ -184,8 +184,152 @@ apis:
 - description: The whitelabeling API from Dokploy — 4 operation(s) for whitelabeling.
   name: Dokploy whitelabeling API
   slug: dokploy-whitelabeling-api
-artifact_total: 56
+artifact_total: 104
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dokploy admin API
+  slug: open-dokploy-admin-api
+- collection_type: open
+  name: Dokploy admin ai API
+  slug: open-dokploy-ai-api
+- collection_type: open
+  name: Dokploy admin application API
+  slug: open-dokploy-application-api
+- collection_type: open
+  name: Dokploy admin auditLog API
+  slug: open-dokploy-auditlog-api
+- collection_type: open
+  name: Dokploy admin backup API
+  slug: open-dokploy-backup-api
+- collection_type: open
+  name: Dokploy admin bitbucket API
+  slug: open-dokploy-bitbucket-api
+- collection_type: open
+  name: Dokploy admin certificates API
+  slug: open-dokploy-certificates-api
+- collection_type: open
+  name: Dokploy admin cluster API
+  slug: open-dokploy-cluster-api
+- collection_type: open
+  name: Dokploy admin compose API
+  slug: open-dokploy-compose-api
+- collection_type: open
+  name: Dokploy admin customRole API
+  slug: open-dokploy-customrole-api
+- collection_type: open
+  name: Dokploy admin deployment API
+  slug: open-dokploy-deployment-api
+- collection_type: open
+  name: Dokploy admin destination API
+  slug: open-dokploy-destination-api
+- collection_type: open
+  name: Dokploy admin docker API
+  slug: open-dokploy-docker-api
+- collection_type: open
+  name: Dokploy admin domain API
+  slug: open-dokploy-domain-api
+- collection_type: open
+  name: Dokploy admin environment API
+  slug: open-dokploy-environment-api
+- collection_type: open
+  name: Dokploy admin gitea API
+  slug: open-dokploy-gitea-api
+- collection_type: open
+  name: Dokploy admin github API
+  slug: open-dokploy-github-api
+- collection_type: open
+  name: Dokploy admin gitlab API
+  slug: open-dokploy-gitlab-api
+- collection_type: open
+  name: Dokploy admin gitProvider API
+  slug: open-dokploy-gitprovider-api
+- collection_type: open
+  name: Dokploy admin libsql API
+  slug: open-dokploy-libsql-api
+- collection_type: open
+  name: Dokploy admin licenseKey API
+  slug: open-dokploy-licensekey-api
+- collection_type: open
+  name: Dokploy admin mariadb API
+  slug: open-dokploy-mariadb-api
+- collection_type: open
+  name: Dokploy admin mongo API
+  slug: open-dokploy-mongo-api
+- collection_type: open
+  name: Dokploy admin mounts API
+  slug: open-dokploy-mounts-api
+- collection_type: open
+  name: Dokploy admin mysql API
+  slug: open-dokploy-mysql-api
+- collection_type: open
+  name: Dokploy admin notification API
+  slug: open-dokploy-notification-api
+- collection_type: open
+  name: Dokploy admin organization API
+  slug: open-dokploy-organization-api
+- collection_type: open
+  name: Dokploy admin patch API
+  slug: open-dokploy-patch-api
+- collection_type: open
+  name: Dokploy admin port API
+  slug: open-dokploy-port-api
+- collection_type: open
+  name: Dokploy admin postgres API
+  slug: open-dokploy-postgres-api
+- collection_type: open
+  name: Dokploy admin project API
+  slug: open-dokploy-project-api
+- collection_type: open
+  name: Dokploy admin redirects API
+  slug: open-dokploy-redirects-api
+- collection_type: open
+  name: Dokploy admin redis API
+  slug: open-dokploy-redis-api
+- collection_type: open
+  name: Dokploy admin registry API
+  slug: open-dokploy-registry-api
+- collection_type: open
+  name: Dokploy admin rollback API
+  slug: open-dokploy-rollback-api
+- collection_type: open
+  name: Dokploy admin schedule API
+  slug: open-dokploy-schedule-api
+- collection_type: open
+  name: Dokploy admin security API
+  slug: open-dokploy-security-api
+- collection_type: open
+  name: Dokploy admin server API
+  slug: open-dokploy-server-api
+- collection_type: open
+  name: Dokploy admin settings API
+  slug: open-dokploy-settings-api
+- collection_type: open
+  name: Dokploy admin sshKey API
+  slug: open-dokploy-sshkey-api
+- collection_type: open
+  name: Dokploy admin sso API
+  slug: open-dokploy-sso-api
+- collection_type: open
+  name: Dokploy admin stripe API
+  slug: open-dokploy-stripe-api
+- collection_type: open
+  name: Dokploy admin swarm API
+  slug: open-dokploy-swarm-api
+- collection_type: open
+  name: Dokploy admin tag API
+  slug: open-dokploy-tag-api
+- collection_type: open
+  name: Dokploy admin user API
+  slug: open-dokploy-user-api
+- collection_type: open
+  name: Dokploy admin volumeBackups API
+  slug: open-dokploy-volumebackups-api
+- collection_type: open
+  name: Dokploy admin whitelabeling API
+  slug: open-dokploy-whitelabeling-api
 - collection_type: open
   name: Dokploy API
   slug: open-dokploy
@@ -298,7 +442,7 @@ plans:
 - name: Dokploy Plans Pricing
   plan_count: 4
   slug: dokploy-plans-pricing
-random_paper: 50
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Dokploy Rate Limits
@@ -323,7 +467,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/screenshots/dokploy-2026-06-20T180131.png
 security:

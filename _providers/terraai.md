@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ name: Terra AI
 nav: Providers
 network: true
 overview: Terra AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Geoscience, Mining, and Energy.
-random_paper: 24
+random_paper: 148
 score:
   band: minimal
   composite: 4.3
@@ -80,7 +80,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: terraai
 tags:

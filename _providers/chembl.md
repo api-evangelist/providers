@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,7 +86,59 @@ apis:
 - description: Protein and non-protein targets defined in assays.
   name: ChEMBL Target API
   slug: chembl-target-api
-artifact_total: 28
+artifact_total: 45
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ChEMBL Data REST Activity API
+  slug: open-chembl-activity-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Assay API
+  slug: open-chembl-assay-api
+- collection_type: open
+  name: ChEMBL Data REST Activity ATC Classification API
+  slug: open-chembl-atc-classification-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Binding Site API
+  slug: open-chembl-binding-site-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Cell Line API
+  slug: open-chembl-cell-line-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Compound Record API
+  slug: open-chembl-compound-record-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Document API
+  slug: open-chembl-document-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Drug API
+  slug: open-chembl-drug-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Drug Indication API
+  slug: open-chembl-drug-indication-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Drug Warning API
+  slug: open-chembl-drug-warning-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Mechanism API
+  slug: open-chembl-mechanism-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Molecule API
+  slug: open-chembl-molecule-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Similarity API
+  slug: open-chembl-similarity-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Status API
+  slug: open-chembl-status-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Substructure API
+  slug: open-chembl-substructure-api
+- collection_type: open
+  name: ChEMBL Data REST Activity Target API
+  slug: open-chembl-target-api
 common:
 - group: agent
   title: ''
@@ -171,7 +223,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -211,7 +263,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/screenshots/chembl-2026-06-20T174255.png
 security:

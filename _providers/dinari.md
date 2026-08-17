@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ arazzos:
 - description: Create an entity, run KYC, open an account, find a stock, and place a managed market buy.
   name: Onboard a customer and place a dShare order
   slug: dinari-onboard-and-trade
-artifact_total: 28
+artifact_total: 39
 asyncapis:
 - description: Real-time market data and order updates over WebSocket. Clients authenticate with their API key + secret, then subscribe to market data (Level 2 order book, DFN quotes) and/or order data for their cus
   name: Dinari Streaming (WebSocket) API
@@ -111,6 +111,39 @@ collections:
 - collection_type: postman
   name: Dinari Enterprise Accounts Withdrawals API
   slug: postman-dinari-withdrawals-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dinari Enterprise Accounts API
+  slug: open-dinari-accounts-api
+- collection_type: open
+  name: Dinari Enterprise Accounts Corporate Actions API
+  slug: open-dinari-corporate-actions-api
+- collection_type: open
+  name: Dinari Enterprise Accounts Entities API
+  slug: open-dinari-entities-api
+- collection_type: open
+  name: Dinari Enterprise Accounts KYC API
+  slug: open-dinari-kyc-api
+- collection_type: open
+  name: Dinari Enterprise Accounts Managed Orders API
+  slug: open-dinari-managed-orders-api
+- collection_type: open
+  name: Dinari Enterprise Accounts Market Data API
+  slug: open-dinari-market-data-api
+- collection_type: open
+  name: Dinari Enterprise Accounts Order Requests API
+  slug: open-dinari-order-requests-api
+- collection_type: open
+  name: Dinari Enterprise Accounts Orders API
+  slug: open-dinari-orders-api
+- collection_type: open
+  name: Dinari Enterprise Accounts Wallets API
+  slug: open-dinari-wallets-api
+- collection_type: open
+  name: Dinari Enterprise Accounts Withdrawals API
+  slug: open-dinari-withdrawals-api
 common:
 - group: build
   title: ''
@@ -279,7 +312,7 @@ overview: 'Dinari publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
-random_paper: 31
+random_paper: 35
 score:
   band: strong
   composite: 57.3
@@ -309,7 +342,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/screenshots/dinari-2026-07-25T212044.png
 security:

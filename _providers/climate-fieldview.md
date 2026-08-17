@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Soil sample results and layers
   name: Climate FieldView Soil Sampling API
   slug: climate-fieldview-soil-sampling-api
-artifact_total: 22
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Climate FieldView Platform Application API
@@ -72,8 +72,26 @@ collections:
   name: Climate FieldView Platform Application Soil Sampling API
   slug: postman-climate-fieldview-soil-sampling-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Climate FieldView Platform Application API
+  slug: open-climate-fieldview-application-api
+- collection_type: open
+  name: Climate FieldView Platform Application Fields API
+  slug: open-climate-fieldview-fields-api
+- collection_type: open
+  name: Climate FieldView Platform Application Harvest API
+  slug: open-climate-fieldview-harvest-api
+- collection_type: open
+  name: Climate FieldView Platform Application Planting API
+  slug: open-climate-fieldview-planting-api
+- collection_type: open
   name: Climate FieldView Platform API
   slug: open-climate-fieldview-platform
+- collection_type: open
+  name: Climate FieldView Platform Application Soil Sampling API
+  slug: open-climate-fieldview-soil-sampling-api
 common:
 - group: build
   title: ''
@@ -187,7 +205,7 @@ plans:
 - name: Climate Fieldview Plans Pricing
   plan_count: 3
   slug: climate-fieldview-plans-pricing
-random_paper: 59
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Climate Fieldview Rate Limits
@@ -234,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/screenshots/climate-fieldview-2026-06-20T174520.png
 security:

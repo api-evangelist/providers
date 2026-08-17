@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -102,8 +102,23 @@ apis:
 - description: Logged-in user information, scopes, and account linking.
   name: Kakao User API
   slug: kakao-user-api
-artifact_total: 28
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kakao Login REST OAuth API
+  slug: open-kakao-oauth-api
+- collection_type: open
+  name: Kakao Login REST OAuth OIDC API
+  slug: open-kakao-oidc-api
+- collection_type: open
+  name: Kakao Login REST OAuth Service Terms API
+  slug: open-kakao-service-terms-api
+- collection_type: open
+  name: Kakao Login REST OAuth User API
+  slug: open-kakao-user-api
 - collection_type: open
   name: Kakao Login REST API
   slug: open-kakao
@@ -204,7 +219,7 @@ plans:
 - name: Kakao Plans Pricing
   plan_count: 1
   slug: kakao-plans-pricing
-random_paper: 39
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Kakao Rate Limits
@@ -235,7 +250,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/screenshots/kakao-2026-06-20T183903.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: PUBLIC, unauthenticated OBIE Open Data reference API for Bank of Scotland, exposing ATM locations, branch details, personal and business current account products, unsecured SME loans, and commercial c
@@ -33,7 +33,11 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII) API - card-based payment instrument issuers confirm whether funds are available on an account. FAPI-secured (OAuth2/OIDC, mTLS, PSD2 SCA); requires develo
   name: Bank of Scotland Confirmation of Funds API (CBPII)
   slug: bank-of-scotland-confirmation-of-funds-api
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-swagger
 common:
 - group: auth
   title: ''
@@ -124,7 +128,7 @@ overview: 'Bank of Scotland publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Bank of Scotland''s developer surface includes authentication, sandbox, documentation, and 15 more developer resources.'
-random_paper: 11
+random_paper: 81
 scopes:
 - name: Bank Of Scotland Scopes
   scope_count: 3
@@ -158,7 +162,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/screenshots/bank-of-scotland-2026-07-25T202339.png
 security:

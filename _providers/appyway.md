@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -129,20 +129,113 @@ apis:
 - description: The ZoneTypes API from AppyWay — 1 operation(s) for zonetypes.
   name: AppyWay ZoneTypes API
   slug: appyway-zonetypes-api
-artifact_total: 50
+artifact_total: 81
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes API
+  slug: open-appyway-activitytypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes Authorities API
+  slug: open-appyway-authorities-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes AuthorityTypes API
+  slug: open-appyway-authoritytypes-api
+- collection_type: open
+  name: AppyWay RealTime ActivityTypes Availability API
+  slug: open-appyway-availability-api
 - collection_type: open
   name: AppyWay Availability RealTime API
   slug: open-appyway-availability-realtime-api
 - collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes BaseMaps API
+  slug: open-appyway-basemaps-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes Bulk API
+  slug: open-appyway-bulk-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes Countries API
+  slug: open-appyway-countries-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes EntitlementTypes API
+  slug: open-appyway-entitlementtypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes ExceptionTypes API
+  slug: open-appyway-exceptiontypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes ExemptionTimeTypes API
+  slug: open-appyway-exemptiontimetypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes ExemptionTypes API
+  slug: open-appyway-exemptiontypes-api
+- collection_type: open
   name: AppyWay Explorer API
   slug: open-appyway-explorer-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes FacilityTypes API
+  slug: open-appyway-facilitytypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes FuelTypes API
+  slug: open-appyway-fueltypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes GIS API
+  slug: open-appyway-gis-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes MovingExceptionTypes API
+  slug: open-appyway-movingexceptiontypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes MovingRestrictionTypes API
+  slug: open-appyway-movingrestrictiontypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes NoteVisibilityTypes API
+  slug: open-appyway-notevisibilitytypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes OffStreetRestrictionTypes API
+  slug: open-appyway-offstreetrestrictiontypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes OnStreetParkingTypes API
+  slug: open-appyway-onstreetparkingtypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes Parking API
+  slug: open-appyway-parking-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes PaymentMethods API
+  slug: open-appyway-paymentmethods-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes PaymentProviders API
+  slug: open-appyway-paymentproviders-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes PermittedVehicles API
+  slug: open-appyway-permittedvehicles-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes PermitTypes API
+  slug: open-appyway-permittypes-api
 - collection_type: open
   name: AppyWay Platform API
   slug: open-appyway-platform-api
 - collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes Regions API
+  slug: open-appyway-regions-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes RestrictionTypes API
+  slug: open-appyway-restrictiontypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes Status API
+  slug: open-appyway-status-api
+- collection_type: open
   name: AppyWay Traffic Data API
   slug: open-appyway-traffic-data-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes VehicleTypes API
+  slug: open-appyway-vehicletypes-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes Zones API
+  slug: open-appyway-zones-api
+- collection_type: open
+  name: AppyWay Availability RealTime ActivityTypes ZoneTypes API
+  slug: open-appyway-zonetypes-api
 - collection_type: open
   name: AppyWay Availability RealTime API
   slug: open-availability-realtime-api
@@ -253,7 +346,7 @@ plans:
 - name: Appyway Plans Pricing
   plan_count: 1
   slug: appyway-plans-pricing
-random_paper: 59
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Appyway Rate Limits
@@ -306,7 +399,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/screenshots/appyway-2026-06-20T172339.png
 security:

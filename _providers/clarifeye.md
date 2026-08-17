@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -78,7 +78,50 @@ apis:
 - description: Manage users within a project
   name: Clarifeye Users API
   slug: clarifeye-users-api
-artifact_total: 18
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clarifeye Platform Agent Settings API
+  slug: open-clarifeye-agent-settings-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Conversations API
+  slug: open-clarifeye-conversations-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Documents API
+  slug: open-clarifeye-documents-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Extraction Flows API
+  slug: open-clarifeye-extraction-flows-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Feedback API
+  slug: open-clarifeye-feedback-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Interviews API
+  slug: open-clarifeye-interviews-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Invitations API
+  slug: open-clarifeye-invitations-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Notifications API
+  slug: open-clarifeye-notifications-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Pipeline Runs API
+  slug: open-clarifeye-pipeline-runs-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Signals API
+  slug: open-clarifeye-signals-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Tables API
+  slug: open-clarifeye-tables-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Tools API
+  slug: open-clarifeye-tools-api
+- collection_type: open
+  name: Clarifeye Platform Agent Settings Users API
+  slug: open-clarifeye-users-api
 common:
 - group: other
   title: ''
@@ -212,7 +255,7 @@ overview: 'Clarifeye publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Clarifeye''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 22 more developer resources.'
-random_paper: 108
+random_paper: 54
 scopes:
 - name: Clarifeye Scopes
   scope_count: 3
@@ -241,7 +284,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/screenshots/clarifeye-2026-07-25T205502.png
 security:

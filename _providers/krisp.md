@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,21 @@ apis:
 - description: Session minting and language discovery for the real-time voice translation service.
   name: Krisp Voice Translation API
   slug: krisp-voice-translation-api
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: NOT PUBLISHED BY KRISP. Krisp publishes no AsyncAPI document. This is a faithful transcription by the API Evangelist enrichment pipeline of the WebSocket protocol Krisp documents in prose at https://s
   name: Krisp Voice Translation WebSocket API
   slug: krisp-voice-translation-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Krisp Developers SDK Distribution API
+  slug: open-krisp-sdk-distribution-api
+- collection_type: open
+  name: Krisp Developers SDK Distribution Voice Translation API
+  slug: open-krisp-voice-translation-api
 common:
 - group: agent
   title: ''
@@ -213,7 +223,7 @@ overview: 'Krisp publishes 2 APIs on the [APIs.io](https://apis.io/) network: SD
 
 
   Krisp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 73
+random_paper: 106
 score:
   band: strong
   composite: 58.7
@@ -237,7 +247,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/screenshots/krisp-2026-07-25T224259.png
 security:

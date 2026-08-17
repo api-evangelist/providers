@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Publicly accessible OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) interface for Repository@Nottingham, the university's institutional research repository powered by Worktribe. Su
@@ -111,7 +111,7 @@ plans:
 - name: University Of Nottingham Plans Pricing
   plan_count: 2
   slug: university-of-nottingham-plans-pricing
-random_paper: 106
+random_paper: 122
 rate_limits:
 - limit_count: 1
   name: University Of Nottingham Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-nottingham/refs/heads/main/screenshots/university-of-nottingham-2026-06-20T200211.png
 security:

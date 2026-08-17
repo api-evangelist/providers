@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: ProtectBuy is Discover Global Network's EMV 3-D Secure (3DS) cardholder authentication service. Built on the EMVCo 3-D Secure protocol, it lets merchants, acquirers, and 3DS servers authenticate Disco
@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: Discover Financial Services Builds a Generative AI ...
   url: https://aws.amazon.com/solutions/case-studies/discover-financial-services-generative-ai/
-random_paper: 41
+random_paper: 53
 score:
   band: emerging
   composite: 21.6
@@ -168,7 +168,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discover-financial/refs/heads/main/screenshots/discover-financial-2026-06-20T180040.png
 security:

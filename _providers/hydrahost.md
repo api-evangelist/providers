@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Brokkr REST API provisions, terminates, and manages Hydra Host GPU fleets programmatically across every data center and OEM hardware stack, and exposes real-time GPU inventory. Observed live: uri-'
@@ -123,7 +123,7 @@ overview: 'Hydrahost publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Hydrahost''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, and 13 more developer resources.'
-random_paper: 22
+random_paper: 88
 score:
   band: emerging
   composite: 26.9
@@ -137,7 +137,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrahost/refs/heads/main/screenshots/hydrahost-2026-07-25T221820.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 309
   human_in_the_loop: 8
@@ -237,8 +237,209 @@ apis:
 - description: The workspaces API from LangChain — 25 operation(s) for workspaces.
   name: LangChain workspaces API
   slug: langchain-workspaces-api
-artifact_total: 74
+artifact_total: 141
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LangSmith access_policies API
+  slug: open-langchain-access-policies-api
+- collection_type: open
+  name: LangSmith access_policies ace API
+  slug: open-langchain-ace-api
+- collection_type: open
+  name: LangSmith access_policies alert_rules API
+  slug: open-langchain-alert-rules-api
+- collection_type: open
+  name: LangSmith access_policies annotation-queues API
+  slug: open-langchain-annotation-queues-api
+- collection_type: open
+  name: LangSmith access_policies api-key API
+  slug: open-langchain-api-key-api
+- collection_type: open
+  name: LangSmith access_policies audit-logs API
+  slug: open-langchain-audit-logs-api
+- collection_type: open
+  name: LangSmith access_policies auth API
+  slug: open-langchain-auth-api
+- collection_type: open
+  name: LangSmith access_policies aws_marketplace API
+  slug: open-langchain-aws-marketplace-api
+- collection_type: open
+  name: LangSmith access_policies backfills API
+  slug: open-langchain-backfills-api
+- collection_type: open
+  name: LangSmith access_policies beacon API
+  slug: open-langchain-beacon-api
+- collection_type: open
+  name: LangSmith access_policies bulk-exports API
+  slug: open-langchain-bulk-exports-api
+- collection_type: open
+  name: LangSmith access_policies charts API
+  slug: open-langchain-charts-api
+- collection_type: open
+  name: LangSmith access_policies comments API
+  slug: open-langchain-comments-api
+- collection_type: open
+  name: LangSmith access_policies commits API
+  slug: open-langchain-commits-api
+- collection_type: open
+  name: LangSmith access_policies data_planes API
+  slug: open-langchain-data-planes-api
+- collection_type: open
+  name: LangSmith access_policies datasets API
+  slug: open-langchain-datasets-api
+- collection_type: open
+  name: LangSmith access_policies evaluators API
+  slug: open-langchain-evaluators-api
+- collection_type: open
+  name: LangSmith access_policies examples API
+  slug: open-langchain-examples-api
+- collection_type: open
+  name: LangSmith access_policies experiment-view-overrides API
+  slug: open-langchain-experiment-view-overrides-api
+- collection_type: open
+  name: LangSmith access_policies experiments API
+  slug: open-langchain-experiments-api
+- collection_type: open
+  name: LangSmith access_policies features API
+  slug: open-langchain-features-api
+- collection_type: open
+  name: LangSmith access_policies feedback API
+  slug: open-langchain-feedback-api
+- collection_type: open
+  name: LangSmith access_policies feedback-configs API
+  slug: open-langchain-feedback-configs-api
+- collection_type: open
+  name: LangSmith access_policies fleet github-app API
+  slug: open-langchain-fleet-github-app-api
+- collection_type: open
+  name: LangSmith access_policies fleet integrations API
+  slug: open-langchain-fleet-integrations-api
+- collection_type: open
+  name: LangSmith access_policies fleet mcp API
+  slug: open-langchain-fleet-mcp-api
+- collection_type: open
+  name: LangSmith access_policies fleet usage API
+  slug: open-langchain-fleet-usage-api
+- collection_type: open
+  name: LangSmith access_policies fleet_webhooks API
+  slug: open-langchain-fleet-webhooks-api
+- collection_type: open
+  name: LangSmith access_policies hub_environments API
+  slug: open-langchain-hub-environments-api
+- collection_type: open
+  name: LangSmith access_policies info API
+  slug: open-langchain-info-api
+- collection_type: open
+  name: LangSmith access_policies integrations API
+  slug: open-langchain-integrations-api
+- collection_type: open
+  name: LangSmith access_policies likes API
+  slug: open-langchain-likes-api
+- collection_type: open
+  name: LangSmith access_policies mcp API
+  slug: open-langchain-mcp-api
+- collection_type: open
+  name: LangSmith access_policies mcp_vendors API
+  slug: open-langchain-mcp-vendors-api
+- collection_type: open
+  name: LangSmith access_policies me API
+  slug: open-langchain-me-api
+- collection_type: open
+  name: LangSmith access_policies metrics API
+  slug: open-langchain-metrics-api
+- collection_type: open
+  name: LangSmith access_policies model-price-map API
+  slug: open-langchain-model-price-map-api
+- collection_type: open
+  name: LangSmith access_policies nps API
+  slug: open-langchain-nps-api
+- collection_type: open
+  name: LangSmith access_policies oauth API
+  slug: open-langchain-oauth-api
+- collection_type: open
+  name: LangSmith access_policies Ok API
+  slug: open-langchain-ok-api
+- collection_type: open
+  name: LangSmith access_policies optimization-jobs API
+  slug: open-langchain-optimization-jobs-api
+- collection_type: open
+  name: LangSmith access_policies Organizations API
+  slug: open-langchain-organizations-api
+- collection_type: open
+  name: LangSmith access_policies orgs API
+  slug: open-langchain-orgs-api
+- collection_type: open
+  name: LangSmith access_policies ownerships API
+  slug: open-langchain-ownerships-api
+- collection_type: open
+  name: LangSmith access_policies playground-settings API
+  slug: open-langchain-playground-settings-api
+- collection_type: open
+  name: LangSmith access_policies prompt-webhooks API
+  slug: open-langchain-prompt-webhooks-api
+- collection_type: open
+  name: LangSmith access_policies prompts API
+  slug: open-langchain-prompts-api
+- collection_type: open
+  name: LangSmith access_policies public API
+  slug: open-langchain-public-api
+- collection_type: open
+  name: LangSmith access_policies repos API
+  slug: open-langchain-repos-api
+- collection_type: open
+  name: LangSmith access_policies run API
+  slug: open-langchain-run-api
+- collection_type: open
+  name: LangSmith access_policies runs API
+  slug: open-langchain-runs-api
+- collection_type: open
+  name: LangSmith access_policies sandboxes API
+  slug: open-langchain-sandboxes-api
+- collection_type: open
+  name: LangSmith access_policies sandboxes-internal API
+  slug: open-langchain-sandboxes-internal-api
+- collection_type: open
+  name: LangSmith access_policies SCIM Tokens API
+  slug: open-langchain-scim-tokens-api
+- collection_type: open
+  name: LangSmith access_policies service-accounts API
+  slug: open-langchain-service-accounts-api
+- collection_type: open
+  name: LangSmith access_policies sessions API
+  slug: open-langchain-sessions-api
+- collection_type: open
+  name: LangSmith access_policies settings API
+  slug: open-langchain-settings-api
+- collection_type: open
+  name: LangSmith access_policies tag-transitions API
+  slug: open-langchain-tag-transitions-api
+- collection_type: open
+  name: LangSmith access_policies tags API
+  slug: open-langchain-tags-api
+- collection_type: open
+  name: LangSmith access_policies tenant API
+  slug: open-langchain-tenant-api
+- collection_type: open
+  name: LangSmith access_policies threads API
+  slug: open-langchain-threads-api
+- collection_type: open
+  name: LangSmith access_policies tools API
+  slug: open-langchain-tools-api
+- collection_type: open
+  name: LangSmith access_policies tracer-sessions API
+  slug: open-langchain-tracer-sessions-api
+- collection_type: open
+  name: LangSmith access_policies TTL Settings API
+  slug: open-langchain-ttl-settings-api
+- collection_type: open
+  name: LangSmith access_policies usage-limits API
+  slug: open-langchain-usage-limits-api
+- collection_type: open
+  name: LangSmith access_policies workspaces API
+  slug: open-langchain-workspaces-api
 - collection_type: open
   name: LangSmith
   slug: open-langchain
@@ -327,7 +528,7 @@ plans:
 - name: Langchain Plans Pricing
   plan_count: 3
   slug: langchain-plans-pricing
-random_paper: 93
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Langchain Rate Limits
@@ -352,7 +553,7 @@ score:
       marker_coverage: 0.0
       total: 66
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langchain/refs/heads/main/screenshots/langchain-2026-06-20T184304.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 19
 apis:
 - description: The Chart of Accounts API from AppZen — 3 operation(s) for chart of accounts.
@@ -88,7 +88,68 @@ apis:
 - description: The Vat API from AppZen — 4 operation(s) for vat.
   name: AppZen Vat API
   slug: appzen-vat-api
-artifact_total: 22
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts API
+  slug: open-appzen-chart-of-accounts-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Custom Data Sets API
+  slug: open-appzen-custom-data-sets-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Documents API
+  slug: open-appzen-documents-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Entities API
+  slug: open-appzen-entities-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Externally Processed Invoices API
+  slug: open-appzen-externally-processed-invoices-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Goods Receipt API
+  slug: open-appzen-goods-receipt-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Invoice Audit Results API
+  slug: open-appzen-invoice-audit-results-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Invoice Status Sync API
+  slug: open-appzen-invoice-status-sync-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Invoices API
+  slug: open-appzen-invoices-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Lookup Item API
+  slug: open-appzen-lookup-item-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Lookup Table API
+  slug: open-appzen-lookup-table-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Payment Terms API
+  slug: open-appzen-payment-terms-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Processed Invoices API
+  slug: open-appzen-processed-invoices-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Purchase Orders API
+  slug: open-appzen-purchase-orders-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Suppliers API
+  slug: open-appzen-suppliers-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Tax Master API
+  slug: open-appzen-tax-master-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Unit of Measures API
+  slug: open-appzen-unit-of-measures-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts User Groups API
+  slug: open-appzen-user-groups-api
+- collection_type: open
+  name: Autonomous AP APIs Chart of Accounts Vat API
+  slug: open-appzen-vat-api
 common:
 - group: other
   title: ''
@@ -190,7 +251,7 @@ overview: 'AppZen publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   AppZen''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 14 more developer resources.'
-random_paper: 54
+random_paper: 58
 score:
   band: thin
   composite: 38.6
@@ -213,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/screenshots/appzen-2026-07-25T200859.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Session API from Zamna — 9 operation(s) for session.
@@ -43,7 +43,23 @@ apis:
 - description: The Start2 API from Zamna — 1 operation(s) for start2.
   name: Zamna Start2 API
   slug: zamna-start2-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zamna Ready To Fly Session API
+  slug: open-zamna-session-api
+- collection_type: open
+  name: Zamna Ready To Fly Session Start API
+  slug: open-zamna-start-api
+- collection_type: open
+  name: Zamna Ready To Fly Session Start With Booking Id And Surname API
+  slug: open-zamna-start-with-booking-id-and-surname-api
+- collection_type: open
+  name: Zamna Ready To Fly Session Start2 API
+  slug: open-zamna-start2-api
 common:
 - group: auth
   title: ''
@@ -133,7 +149,7 @@ overview: 'Zamna publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zamna''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, and 13 more developer resources.'
-random_paper: 55
+random_paper: 88
 score:
   band: thin
   composite: 32.0
@@ -156,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

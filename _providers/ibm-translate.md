@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Operations for translating text
   name: IBM Language Translator Translation API
   slug: ibm-translate-translation-api
-artifact_total: 20
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IBM Watson Language Translator V3 Documents API
+  slug: open-ibm-translate-documents-api
+- collection_type: open
+  name: IBM Watson Language Translator V3 Documents Languages API
+  slug: open-ibm-translate-languages-api
+- collection_type: open
+  name: IBM Watson Language Translator V3 Documents Models API
+  slug: open-ibm-translate-models-api
+- collection_type: open
+  name: IBM Watson Language Translator V3 Documents Translation API
+  slug: open-ibm-translate-translation-api
 common:
 - group: operate
   title: ''
@@ -184,7 +200,7 @@ plans:
 - name: Ibm Translate Plans Pricing
   plan_count: 2
   slug: ibm-translate-plans-pricing
-random_paper: 11
+random_paper: 139
 rate_limits:
 - limit_count: 3
   name: Ibm Translate Rate Limits
@@ -218,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/screenshots/ibm-translate-2026-06-20T183233.png
 security:

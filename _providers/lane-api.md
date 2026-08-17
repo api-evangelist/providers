@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 177
 apis:
 - description: The Accord API from Lane API — 1 operation(s) for accord.
@@ -562,7 +562,539 @@ apis:
 - description: The Year API from Lane API — 1 operation(s) for year.
   name: Lane API Year API
   slug: lane-api-year-api
-artifact_total: 181
+artifact_total: 358
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lane Accord API
+  slug: open-lane-api-accord-api
+- collection_type: open
+  name: Lane Add API
+  slug: open-lane-api-add-api
+- collection_type: open
+  name: Lane Additional API
+  slug: open-lane-api-additional-api
+- collection_type: open
+  name: Lane Address API
+  slug: open-lane-api-address-api
+- collection_type: open
+  name: Lane Affordability API
+  slug: open-lane-api-affordability-api
+- collection_type: open
+  name: Lane Agreement API
+  slug: open-lane-api-agreement-api
+- collection_type: open
+  name: Lane Allowed API
+  slug: open-lane-api-allowed-api
+- collection_type: open
+  name: Lane An API
+  slug: open-lane-api-an-api
+- collection_type: open
+  name: Lane Analytics API
+  slug: open-lane-api-analytics-api
+- collection_type: open
+  name: Lane Appointment API
+  slug: open-lane-api-appointment-api
+- collection_type: open
+  name: Lane Appointment  Management API
+  slug: open-lane-api-appointment-management-api
+- collection_type: open
+  name: Lane Approve API
+  slug: open-lane-api-approve-api
+- collection_type: open
+  name: Lane Assets API
+  slug: open-lane-api-assets-api
+- collection_type: open
+  name: Lane Associated API
+  slug: open-lane-api-associated-api
+- collection_type: open
+  name: Lane Bookmarks API
+  slug: open-lane-api-bookmarks-api
+- collection_type: open
+  name: Lane Builder API
+  slug: open-lane-api-builder-api
+- collection_type: open
+  name: Lane Calculate API
+  slug: open-lane-api-calculate-api
+- collection_type: open
+  name: Lane Calculations API
+  slug: open-lane-api-calculations-api
+- collection_type: open
+  name: Lane Changes API
+  slug: open-lane-api-changes-api
+- collection_type: open
+  name: Lane Checks API
+  slug: open-lane-api-checks-api
+- collection_type: open
+  name: Lane Code API
+  slug: open-lane-api-code-api
+- collection_type: open
+  name: Lane Comments API
+  slug: open-lane-api-comments-api
+- collection_type: open
+  name: Lane Company API
+  slug: open-lane-api-company-api
+- collection_type: open
+  name: Lane Configuration API
+  slug: open-lane-api-configuration-api
+- collection_type: open
+  name: Lane Configure API
+  slug: open-lane-api-configure-api
+- collection_type: open
+  name: Lane Consents API
+  slug: open-lane-api-consents-api
+- collection_type: open
+  name: Lane Contract API
+  slug: open-lane-api-contract-api
+- collection_type: open
+  name: Lane Contracts API
+  slug: open-lane-api-contracts-api
+- collection_type: open
+  name: Lane Countries API
+  slug: open-lane-api-countries-api
+- collection_type: open
+  name: Lane Create_application API
+  slug: open-lane-api-create-application-api
+- collection_type: open
+  name: Lane Credit API
+  slug: open-lane-api-credit-api
+- collection_type: open
+  name: Lane Currencies API
+  slug: open-lane-api-currencies-api
+- collection_type: open
+  name: Lane Customer API
+  slug: open-lane-api-customer-api
+- collection_type: open
+  name: Lane Customer  Consent API
+  slug: open-lane-api-customer-consent-api
+- collection_type: open
+  name: Lane Customer  Document API
+  slug: open-lane-api-customer-document-api
+- collection_type: open
+  name: Lane Customer_reference_id API
+  slug: open-lane-api-customer-reference-id-api
+- collection_type: open
+  name: Lane Customers API
+  slug: open-lane-api-customers-api
+- collection_type: open
+  name: Lane Dashboard API
+  slug: open-lane-api-dashboard-api
+- collection_type: open
+  name: Lane Data API
+  slug: open-lane-api-data-api
+- collection_type: open
+  name: Lane Deal API
+  slug: open-lane-api-deal-api
+- collection_type: open
+  name: Lane Dealer API
+  slug: open-lane-api-dealer-api
+- collection_type: open
+  name: Lane Dealer_code API
+  slug: open-lane-api-dealer-code-api
+- collection_type: open
+  name: Lane Dealer_id API
+  slug: open-lane-api-dealer-id-api
+- collection_type: open
+  name: Lane Dealer  Management API
+  slug: open-lane-api-dealer-management-api
+- collection_type: open
+  name: Lane Dealers API
+  slug: open-lane-api-dealers-api
+- collection_type: open
+  name: Lane Decisions API
+  slug: open-lane-api-decisions-api
+- collection_type: open
+  name: Lane Disclaimer API
+  slug: open-lane-api-disclaimer-api
+- collection_type: open
+  name: Lane Disclaimer  Management API
+  slug: open-lane-api-disclaimer-management-api
+- collection_type: open
+  name: Lane Disclaimers API
+  slug: open-lane-api-disclaimers-api
+- collection_type: open
+  name: Lane Distance API
+  slug: open-lane-api-distance-api
+- collection_type: open
+  name: Lane Dms API
+  slug: open-lane-api-dms-api
+- collection_type: open
+  name: Lane Document API
+  slug: open-lane-api-document-api
+- collection_type: open
+  name: Lane Document  Generation API
+  slug: open-lane-api-document-generation-api
+- collection_type: open
+  name: Lane Document_id API
+  slug: open-lane-api-document-id-api
+- collection_type: open
+  name: Lane Document_identifier API
+  slug: open-lane-api-document-identifier-api
+- collection_type: open
+  name: Lane Document  Package  Management API
+  slug: open-lane-api-document-package-management-api
+- collection_type: open
+  name: Lane Documents API
+  slug: open-lane-api-documents-api
+- collection_type: open
+  name: Lane Downloads API
+  slug: open-lane-api-downloads-api
+- collection_type: open
+  name: Lane Due API
+  slug: open-lane-api-due-api
+- collection_type: open
+  name: Lane Dynamic API
+  slug: open-lane-api-dynamic-api
+- collection_type: open
+  name: Lane Email API
+  slug: open-lane-api-email-api
+- collection_type: open
+  name: Lane Employment API
+  slug: open-lane-api-employment-api
+- collection_type: open
+  name: Lane Event_analytic API
+  slug: open-lane-api-event-analytic-api
+- collection_type: open
+  name: Lane Event_name API
+  slug: open-lane-api-event-name-api
+- collection_type: open
+  name: Lane Expiry API
+  slug: open-lane-api-expiry-api
+- collection_type: open
+  name: Lane External API
+  slug: open-lane-api-external-api
+- collection_type: open
+  name: Lane Fee API
+  slug: open-lane-api-fee-api
+- collection_type: open
+  name: Lane Fees API
+  slug: open-lane-api-fees-api
+- collection_type: open
+  name: Lane Filter API
+  slug: open-lane-api-filter-api
+- collection_type: open
+  name: Lane Finance API
+  slug: open-lane-api-finance-api
+- collection_type: open
+  name: Lane Financial API
+  slug: open-lane-api-financial-api
+- collection_type: open
+  name: Lane Find API
+  slug: open-lane-api-find-api
+- collection_type: open
+  name: Lane Flags API
+  slug: open-lane-api-flags-api
+- collection_type: open
+  name: Lane Fraud API
+  slug: open-lane-api-fraud-api
+- collection_type: open
+  name: Lane Fulfillment API
+  slug: open-lane-api-fulfillment-api
+- collection_type: open
+  name: Lane Generate API
+  slug: open-lane-api-generate-api
+- collection_type: open
+  name: Lane Get  A N  Signed  U R L API
+  slug: open-lane-api-get-a-n-signed-u-r-l-api
+- collection_type: open
+  name: Lane Get_event_associated_checklist API
+  slug: open-lane-api-get-event-associated-checklist-api
+- collection_type: open
+  name: Lane Health API
+  slug: open-lane-api-health-api
+- collection_type: open
+  name: Lane History API
+  slug: open-lane-api-history-api
+- collection_type: open
+  name: Lane Identifiers API
+  slug: open-lane-api-identifiers-api
+- collection_type: open
+  name: Lane Impact API
+  slug: open-lane-api-impact-api
+- collection_type: open
+  name: Lane Index  Wrapper API
+  slug: open-lane-api-index-wrapper-api
+- collection_type: open
+  name: Lane Indicators API
+  slug: open-lane-api-indicators-api
+- collection_type: open
+  name: Lane Information API
+  slug: open-lane-api-information-api
+- collection_type: open
+  name: Lane Inspection API
+  slug: open-lane-api-inspection-api
+- collection_type: open
+  name: Lane Insurance API
+  slug: open-lane-api-insurance-api
+- collection_type: open
+  name: Lane Integration_type API
+  slug: open-lane-api-integration-type-api
+- collection_type: open
+  name: Lane Integrations API
+  slug: open-lane-api-integrations-api
+- collection_type: open
+  name: Lane Inventory API
+  slug: open-lane-api-inventory-api
+- collection_type: open
+  name: Lane Is_payment_updated API
+  slug: open-lane-api-is-payment-updated-api
+- collection_type: open
+  name: Lane Keys API
+  slug: open-lane-api-keys-api
+- collection_type: open
+  name: Lane Lead API
+  slug: open-lane-api-lead-api
+- collection_type: open
+  name: Lane Lead- Management API
+  slug: open-lane-api-lead-management-api
+- collection_type: open
+  name: Lane Lender API
+  slug: open-lane-api-lender-api
+- collection_type: open
+  name: Lane Lender_id API
+  slug: open-lane-api-lender-id-api
+- collection_type: open
+  name: Lane Licenses API
+  slug: open-lane-api-licenses-api
+- collection_type: open
+  name: Lane Links API
+  slug: open-lane-api-links-api
+- collection_type: open
+  name: Lane Make API
+  slug: open-lane-api-make-api
+- collection_type: open
+  name: Lane Metadata API
+  slug: open-lane-api-metadata-api
+- collection_type: open
+  name: Lane Methods API
+  slug: open-lane-api-methods-api
+- collection_type: open
+  name: Lane Mileage API
+  slug: open-lane-api-mileage-api
+- collection_type: open
+  name: Lane Model API
+  slug: open-lane-api-model-api
+- collection_type: open
+  name: Lane Multi API
+  slug: open-lane-api-multi-api
+- collection_type: open
+  name: Lane Name API
+  slug: open-lane-api-name-api
+- collection_type: open
+  name: Lane Notifications API
+  slug: open-lane-api-notifications-api
+- collection_type: open
+  name: Lane Numbers API
+  slug: open-lane-api-numbers-api
+- collection_type: open
+  name: Lane Options API
+  slug: open-lane-api-options-api
+- collection_type: open
+  name: Lane Order API
+  slug: open-lane-api-order-api
+- collection_type: open
+  name: Lane Order  Calculations API
+  slug: open-lane-api-order-calculations-api
+- collection_type: open
+  name: Lane Order  Management API
+  slug: open-lane-api-order-management-api
+- collection_type: open
+  name: Lane Order  Stakeholder  Management API
+  slug: open-lane-api-order-stakeholder-management-api
+- collection_type: open
+  name: Lane Orders API
+  slug: open-lane-api-orders-api
+- collection_type: open
+  name: Lane Packages API
+  slug: open-lane-api-packages-api
+- collection_type: open
+  name: Lane Party API
+  slug: open-lane-api-party-api
+- collection_type: open
+  name: Lane Past API
+  slug: open-lane-api-past-api
+- collection_type: open
+  name: Lane Payment API
+  slug: open-lane-api-payment-api
+- collection_type: open
+  name: Lane Payments API
+  slug: open-lane-api-payments-api
+- collection_type: open
+  name: Lane Personal API
+  slug: open-lane-api-personal-api
+- collection_type: open
+  name: Lane Plaid API
+  slug: open-lane-api-plaid-api
+- collection_type: open
+  name: Lane Pre API
+  slug: open-lane-api-pre-api
+- collection_type: open
+  name: Lane Preferences API
+  slug: open-lane-api-preferences-api
+- collection_type: open
+  name: Lane Profiles API
+  slug: open-lane-api-profiles-api
+- collection_type: open
+  name: Lane Programs API
+  slug: open-lane-api-programs-api
+- collection_type: open
+  name: Lane Proposals API
+  slug: open-lane-api-proposals-api
+- collection_type: open
+  name: Lane Provider_name API
+  slug: open-lane-api-provider-name-api
+- collection_type: open
+  name: Lane Quantity API
+  slug: open-lane-api-quantity-api
+- collection_type: open
+  name: Lane Quotation API
+  slug: open-lane-api-quotation-api
+- collection_type: open
+  name: Lane Quote API
+  slug: open-lane-api-quote-api
+- collection_type: open
+  name: Lane Ratings API
+  slug: open-lane-api-ratings-api
+- collection_type: open
+  name: Lane Reference API
+  slug: open-lane-api-reference-api
+- collection_type: open
+  name: Lane Reference_number API
+  slug: open-lane-api-reference-number-api
+- collection_type: open
+  name: Lane References API
+  slug: open-lane-api-references-api
+- collection_type: open
+  name: Lane Removes API
+  slug: open-lane-api-removes-api
+- collection_type: open
+  name: Lane Request API
+  slug: open-lane-api-request-api
+- collection_type: open
+  name: Lane Response API
+  slug: open-lane-api-response-api
+- collection_type: open
+  name: Lane Role API
+  slug: open-lane-api-role-api
+- collection_type: open
+  name: Lane Root API
+  slug: open-lane-api-root-api
+- collection_type: open
+  name: Lane Save API
+  slug: open-lane-api-save-api
+- collection_type: open
+  name: Lane Search API
+  slug: open-lane-api-search-api
+- collection_type: open
+  name: Lane Send API
+  slug: open-lane-api-send-api
+- collection_type: open
+  name: Lane Send  Email  Notification API
+  slug: open-lane-api-send-email-notification-api
+- collection_type: open
+  name: Lane Set API
+  slug: open-lane-api-set-api
+- collection_type: open
+  name: Lane Setup API
+  slug: open-lane-api-setup-api
+- collection_type: open
+  name: Lane Signature API
+  slug: open-lane-api-signature-api
+- collection_type: open
+  name: Lane Signatures API
+  slug: open-lane-api-signatures-api
+- collection_type: open
+  name: Lane Signed API
+  slug: open-lane-api-signed-api
+- collection_type: open
+  name: Lane Signer_role API
+  slug: open-lane-api-signer-role-api
+- collection_type: open
+  name: Lane State API
+  slug: open-lane-api-state-api
+- collection_type: open
+  name: Lane Status API
+  slug: open-lane-api-status-api
+- collection_type: open
+  name: Lane Statuses API
+  slug: open-lane-api-statuses-api
+- collection_type: open
+  name: Lane Stipulation API
+  slug: open-lane-api-stipulation-api
+- collection_type: open
+  name: Lane Stream API
+  slug: open-lane-api-stream-api
+- collection_type: open
+  name: Lane Submission_id API
+  slug: open-lane-api-submission-id-api
+- collection_type: open
+  name: Lane Submit API
+  slug: open-lane-api-submit-api
+- collection_type: open
+  name: Lane Tenant API
+  slug: open-lane-api-tenant-api
+- collection_type: open
+  name: Lane Term API
+  slug: open-lane-api-term-api
+- collection_type: open
+  name: Lane Theme API
+  slug: open-lane-api-theme-api
+- collection_type: open
+  name: Lane Theme  Builder API
+  slug: open-lane-api-theme-builder-api
+- collection_type: open
+  name: Lane Trade API
+  slug: open-lane-api-trade-api
+- collection_type: open
+  name: Lane Trade- In API
+  slug: open-lane-api-trade-in-api
+- collection_type: open
+  name: Lane Trade_in_history API
+  slug: open-lane-api-trade-in-history-api
+- collection_type: open
+  name: Lane Tradein API
+  slug: open-lane-api-tradein-api
+- collection_type: open
+  name: Lane Trim API
+  slug: open-lane-api-trim-api
+- collection_type: open
+  name: Lane Uploading API
+  slug: open-lane-api-uploading-api
+- collection_type: open
+  name: Lane Uploads API
+  slug: open-lane-api-uploads-api
+- collection_type: open
+  name: Lane Usage API
+  slug: open-lane-api-usage-api
+- collection_type: open
+  name: Lane Vehicle API
+  slug: open-lane-api-vehicle-api
+- collection_type: open
+  name: Lane Vendor API
+  slug: open-lane-api-vendor-api
+- collection_type: open
+  name: Lane Verifications API
+  slug: open-lane-api-verifications-api
+- collection_type: open
+  name: Lane Verify API
+  slug: open-lane-api-verify-api
+- collection_type: open
+  name: Lane Version API
+  slug: open-lane-api-version-api
+- collection_type: open
+  name: Lane Vin API
+  slug: open-lane-api-vin-api
+- collection_type: open
+  name: Lane Webhooks API
+  slug: open-lane-api-webhooks-api
+- collection_type: open
+  name: Lane Workqueue  Management API
+  slug: open-lane-api-workqueue-management-api
+- collection_type: open
+  name: Lane Year API
+  slug: open-lane-api-year-api
 common:
 - group: auth
   title: ''
@@ -585,7 +1117,7 @@ plans:
 - name: Lane Api Plans Pricing
   plan_count: 3
   slug: lane-api-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Lane Api Rate Limits
@@ -609,7 +1141,7 @@ score:
       marker_coverage: 0.0
       total: 177
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lane-api/refs/heads/main/screenshots/lane-api-2026-06-20T184300.png
 security:

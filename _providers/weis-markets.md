@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Weis Markets Vendor Integration API enables supplier and vendor partners to exchange purchase orders, invoices, item management data, and vendor contact information electronically. The platform us
@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Weis Markets Partners With Cognira to Enhance Promotion ...
   url: https://www.businesswire.com/news/home/20251001115503/en/Weis-Markets-Partners-With-Cognira-to-Enhance-Promotion-Efficiency-and-Results
-random_paper: 44
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Weis Markets Rate Limits
@@ -133,7 +133,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

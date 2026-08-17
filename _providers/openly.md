@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API enabling independent insurance agencies to generate homeowners insurance quotes, bind policies, manage endorsements, and process renewals programmatically. Agencies can build custom interface
@@ -104,7 +104,7 @@ plans:
 - name: Openly Plans Pricing
   plan_count: 2
   slug: openly-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Openly Rate Limits
@@ -128,7 +128,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openly/refs/heads/main/screenshots/openly-2026-06-20T191015.png
 security:

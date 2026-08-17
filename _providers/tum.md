@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,7 +65,35 @@ apis:
 - description: The Status API from Technical University of Munich — 1 operation(s) for status.
   name: Technical University of Munich Status API
   slug: tum-status-api
-artifact_total: 25
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: eat-api calendar API
+  slug: open-tum-calendar-api
+- collection_type: open
+  name: eat-api calendar feedback API
+  slug: open-tum-feedback-api
+- collection_type: open
+  name: eat-api calendar locations API
+  slug: open-tum-locations-api
+- collection_type: open
+  name: eat-api calendar maps API
+  slug: open-tum-maps-api
+- collection_type: open
+  name: eat-api calendar menu API
+  slug: open-tum-menu-api
+- collection_type: open
+  name: eat-api calendar Openapi.json API
+  slug: open-tum-openapi-json-api
+- collection_type: open
+  name: eat-api calendar static API
+  slug: open-tum-static-api
+- collection_type: open
+  name: eat-api calendar Status API
+  slug: open-tum-status-api
 common:
 - group: agent
   title: ''
@@ -179,7 +207,7 @@ plans:
 - name: Tum Plans Pricing
   plan_count: 2
   slug: tum-plans-pricing
-random_paper: 102
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Tum Rate Limits
@@ -227,7 +255,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/screenshots/tum-2026-06-20T195827.png
 security:

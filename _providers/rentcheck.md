@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 31
 apis:
 - description: The Account Settings API from RentCheck — 9 operation(s) for account settings.
@@ -124,7 +124,104 @@ apis:
 - description: The Work Orders V2 API from RentCheck — 1 operation(s) for work orders v2.
   name: RentCheck Work Orders V2 API
   slug: rentcheck-work-orders-v2-api
-artifact_total: 34
+artifact_total: 66
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RentCheck REST Account Settings API
+  slug: open-rentcheck-account-settings-api
+- collection_type: open
+  name: RentCheck REST Account Settings Automations API
+  slug: open-rentcheck-automations-api
+- collection_type: open
+  name: RentCheck REST Account Settings Buildings API
+  slug: open-rentcheck-buildings-api
+- collection_type: open
+  name: RentCheck REST Account Settings Chargebee API
+  slug: open-rentcheck-chargebee-api
+- collection_type: open
+  name: RentCheck REST Account Settings Communities API
+  slug: open-rentcheck-communities-api
+- collection_type: open
+  name: RentCheck REST Account Settings Dashboard API
+  slug: open-rentcheck-dashboard-api
+- collection_type: open
+  name: RentCheck REST Account Settings File Requests API
+  slug: open-rentcheck-file-requests-api
+- collection_type: open
+  name: RentCheck REST Account Settings Filter Segments API
+  slug: open-rentcheck-filter-segments-api
+- collection_type: open
+  name: RentCheck REST Account Settings Inspection Features API
+  slug: open-rentcheck-inspection-features-api
+- collection_type: open
+  name: RentCheck REST Account Settings Inspections API
+  slug: open-rentcheck-inspections-api
+- collection_type: open
+  name: RentCheck REST Account Settings Inspections Templates API
+  slug: open-rentcheck-inspections-templates-api
+- collection_type: open
+  name: RentCheck REST Account Settings Inspections V2 API
+  slug: open-rentcheck-inspections-v2-api
+- collection_type: open
+  name: RentCheck REST Account Settings Integrations API
+  slug: open-rentcheck-integrations-api
+- collection_type: open
+  name: RentCheck REST Account Settings LatchelProxy API
+  slug: open-rentcheck-latchelproxy-api
+- collection_type: open
+  name: RentCheck REST Account Settings Leases API
+  slug: open-rentcheck-leases-api
+- collection_type: open
+  name: RentCheck REST Account Settings Maintenance Flags API
+  slug: open-rentcheck-maintenance-flags-api
+- collection_type: open
+  name: RentCheck REST Account Settings Maintenance Reports API
+  slug: open-rentcheck-maintenance-reports-api
+- collection_type: open
+  name: RentCheck REST Account Settings Maintenance Reports V2 API
+  slug: open-rentcheck-maintenance-reports-v2-api
+- collection_type: open
+  name: RentCheck REST Account Settings oAuth2 API
+  slug: open-rentcheck-oauth2-api
+- collection_type: open
+  name: RentCheck REST Account Settings Permission Groups API
+  slug: open-rentcheck-permission-groups-api
+- collection_type: open
+  name: RentCheck REST Account Settings Properties V2 API
+  slug: open-rentcheck-properties-v2-api
+- collection_type: open
+  name: RentCheck REST Account Settings Properties V3 API
+  slug: open-rentcheck-properties-v3-api
+- collection_type: open
+  name: RentCheck REST Account Settings Residents (deprecated) API
+  slug: open-rentcheck-residents-deprecated-api
+- collection_type: open
+  name: RentCheck REST Account Settings Residents V2 API
+  slug: open-rentcheck-residents-v2-api
+- collection_type: open
+  name: RentCheck REST Account Settings Residents V3 API
+  slug: open-rentcheck-residents-v3-api
+- collection_type: open
+  name: RentCheck REST Account Settings Subscriptions API
+  slug: open-rentcheck-subscriptions-api
+- collection_type: open
+  name: RentCheck REST Account Settings Teams API
+  slug: open-rentcheck-teams-api
+- collection_type: open
+  name: RentCheck REST Account Settings Units API
+  slug: open-rentcheck-units-api
+- collection_type: open
+  name: RentCheck REST Account Settings Users API
+  slug: open-rentcheck-users-api
+- collection_type: open
+  name: RentCheck REST Account Settings Work Orders API
+  slug: open-rentcheck-work-orders-api
+- collection_type: open
+  name: RentCheck REST Account Settings Work Orders V2 API
+  slug: open-rentcheck-work-orders-v2-api
 common:
 - group: other
   title: ''
@@ -250,7 +347,7 @@ overview: 'RentCheck publishes 31 APIs on the [APIs.io](https://apis.io/) networ
 
 
   RentCheck''s developer surface includes authentication, changelog, documentation, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 111
+random_paper: 57
 score:
   band: developing
   composite: 47.7
@@ -273,7 +370,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

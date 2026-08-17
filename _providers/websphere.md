@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 8
@@ -172,7 +172,7 @@ arazzos:
 - description: Find an open critical vulnerability, inspect it, and apply a fix.
   name: WebSphere Automation Vulnerability Remediation
   slug: websphere-vulnerability-remediation-workflow
-artifact_total: 480
+artifact_total: 515
 collections:
 - collection_type: postman
   name: Open Liberty APIs
@@ -196,14 +196,59 @@ collections:
   name: IBM MQ REST API
   slug: postman-websphere-mq-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Open Liberty APIs
   slug: open-open-liberty-apis
 - collection_type: open
   name: WebSphere Application Server Admin REST API
   slug: open-websphere-admin-rest-api
 - collection_type: open
+  name: Open Liberty APIs Applications API
+  slug: open-websphere-applications-api
+- collection_type: open
+  name: Open Liberty APIs Applications Authentication API
+  slug: open-websphere-authentication-api
+- collection_type: open
   name: WebSphere Automation REST API
   slug: open-websphere-automation-rest-api
+- collection_type: open
+  name: Open Liberty APIs Applications Batch API
+  slug: open-websphere-batch-api
+- collection_type: open
+  name: Open Liberty APIs Applications Channels API
+  slug: open-websphere-channels-api
+- collection_type: open
+  name: Open Liberty APIs Applications Clusters API
+  slug: open-websphere-clusters-api
+- collection_type: open
+  name: Open Liberty APIs Applications Compliance API
+  slug: open-websphere-compliance-api
+- collection_type: open
+  name: Open Liberty APIs Applications Config API
+  slug: open-websphere-config-api
+- collection_type: open
+  name: Open Liberty APIs Applications Configuration API
+  slug: open-websphere-configuration-api
+- collection_type: open
+  name: Open Liberty APIs Applications Controller API
+  slug: open-websphere-controller-api
+- collection_type: open
+  name: Open Liberty APIs Applications Features API
+  slug: open-websphere-features-api
+- collection_type: open
+  name: Open Liberty APIs Applications File Transfer API
+  slug: open-websphere-file-transfer-api
+- collection_type: open
+  name: Open Liberty APIs Applications Fixes API
+  slug: open-websphere-fixes-api
+- collection_type: open
+  name: Open Liberty APIs Applications Health API
+  slug: open-websphere-health-api
+- collection_type: open
+  name: Open Liberty APIs Applications Hosts API
+  slug: open-websphere-hosts-api
 - collection_type: open
   name: WebSphere Liberty Admin REST API
   slug: open-websphere-liberty-admin-rest-api
@@ -214,8 +259,68 @@ collections:
   name: WebSphere Liberty REST Connector API
   slug: open-websphere-liberty-rest-connector-api
 - collection_type: open
+  name: Open Liberty APIs Applications Logging API
+  slug: open-websphere-logging-api
+- collection_type: open
+  name: Open Liberty APIs Applications MBeans API
+  slug: open-websphere-mbeans-api
+- collection_type: open
+  name: Open Liberty APIs Applications Members API
+  slug: open-websphere-members-api
+- collection_type: open
+  name: Open Liberty APIs Applications Messages API
+  slug: open-websphere-messages-api
+- collection_type: open
+  name: Open Liberty APIs Applications Metrics API
+  slug: open-websphere-metrics-api
+- collection_type: open
+  name: Open Liberty APIs Applications Monitoring API
+  slug: open-websphere-monitoring-api
+- collection_type: open
   name: IBM MQ REST API
   slug: open-websphere-mq-rest-api
+- collection_type: open
+  name: Open Liberty APIs Applications Nodes API
+  slug: open-websphere-nodes-api
+- collection_type: open
+  name: Open Liberty APIs Applications Notifications API
+  slug: open-websphere-notifications-api
+- collection_type: open
+  name: Open Liberty APIs Applications OpenAPI API
+  slug: open-websphere-openapi-api
+- collection_type: open
+  name: Open Liberty APIs Applications Queue Manager API
+  slug: open-websphere-queue-manager-api
+- collection_type: open
+  name: Open Liberty APIs Applications Queues API
+  slug: open-websphere-queues-api
+- collection_type: open
+  name: Open Liberty APIs Applications Repositories API
+  slug: open-websphere-repositories-api
+- collection_type: open
+  name: Open Liberty APIs Applications Resources API
+  slug: open-websphere-resources-api
+- collection_type: open
+  name: Open Liberty APIs Applications Scaling API
+  slug: open-websphere-scaling-api
+- collection_type: open
+  name: Open Liberty APIs Applications Security API
+  slug: open-websphere-security-api
+- collection_type: open
+  name: Open Liberty APIs Applications Server API
+  slug: open-websphere-server-api
+- collection_type: open
+  name: Open Liberty APIs Applications Servers API
+  slug: open-websphere-servers-api
+- collection_type: open
+  name: Open Liberty APIs Applications Subscriptions API
+  slug: open-websphere-subscriptions-api
+- collection_type: open
+  name: Open Liberty APIs Applications Topics API
+  slug: open-websphere-topics-api
+- collection_type: open
+  name: Open Liberty APIs Applications Vulnerabilities API
+  slug: open-websphere-vulnerabilities-api
 common:
 - group: agent
   title: ''
@@ -1559,7 +1664,7 @@ plans:
 - name: Websphere Plans Pricing
   plan_count: 1
   slug: websphere-plans-pricing
-random_paper: 5
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Websphere Rate Limits
@@ -1601,7 +1706,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/screenshots/websphere-2026-06-20T201348.png
 security:

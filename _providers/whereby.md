@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -63,12 +63,33 @@ apis:
 - description: The Transcriptions API from Whereby — 4 operation(s) for transcriptions.
   name: Whereby Transcriptions API
   slug: whereby-transcriptions-api
-artifact_total: 30
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Review
   slug: review
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Whereby REST Insights API
+  slug: open-whereby-insights-api
+- collection_type: open
+  name: Whereby REST Insights Meetings API
+  slug: open-whereby-meetings-api
+- collection_type: open
+  name: Whereby REST Insights Recordings API
+  slug: open-whereby-recordings-api
+- collection_type: open
+  name: Whereby REST Insights Rooms API
+  slug: open-whereby-rooms-api
+- collection_type: open
+  name: Whereby REST Insights Summaries API
+  slug: open-whereby-summaries-api
+- collection_type: open
+  name: Whereby REST Insights Transcriptions API
+  slug: open-whereby-transcriptions-api
 - collection_type: open
   name: Whereby REST API
   slug: open-whereby
@@ -221,7 +242,7 @@ plans:
 - name: Whereby Plans Pricing
   plan_count: 1
   slug: whereby-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Whereby Rate Limits
@@ -246,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/screenshots/whereby-2026-06-20T201431.png
 security:

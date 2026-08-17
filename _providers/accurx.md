@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Accurx is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Accurx''s developer surface includes support, engineering blog, and 12 more developer resources.'
-random_paper: 46
+random_paper: 50
 score:
   band: emerging
   composite: 16.8
@@ -111,7 +111,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accurx/refs/heads/main/screenshots/accurx-2026-07-25T181445.png
 security:

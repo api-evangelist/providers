@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,11 +60,35 @@ apis:
 - description: Retrieve disposal tickets and summaries.
   name: Waste Management Tickets API
   slug: waste-management-tickets-api
-artifact_total: 24
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Waste Management Customer Cases API
+  slug: open-waste-management-cases-api
+- collection_type: open
+  name: Waste Management Customer Cases Contacts API
+  slug: open-waste-management-contacts-api
 - collection_type: open
   name: Waste Management Customer API
   slug: open-waste-management-customer-api
+- collection_type: open
+  name: Waste Management Customer Cases Customers API
+  slug: open-waste-management-customers-api
+- collection_type: open
+  name: Waste Management Customer Cases Invoices API
+  slug: open-waste-management-invoices-api
+- collection_type: open
+  name: Waste Management Customer Cases Preferences API
+  slug: open-waste-management-preferences-api
+- collection_type: open
+  name: Waste Management Customer Cases Services API
+  slug: open-waste-management-services-api
+- collection_type: open
+  name: Waste Management Customer Cases Tickets API
+  slug: open-waste-management-tickets-api
 common:
 - group: agent
   title: ''
@@ -186,7 +210,7 @@ press:
 - date: '2026-05-25'
   title: WM Announces New, Modernized High-Tech Recycling and ...
   url: https://investors.wm.com/news-releases/news-release-details/wm-announces-new-modernized-high-tech-recycling-and-renewable
-random_paper: 86
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Waste Management Rate Limits
@@ -229,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/screenshots/waste-management-2026-06-20T201242.png
 security:

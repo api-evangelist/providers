@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Data-centric GRC REST API for IBM OpenPages, specified in terms of resources, their URIs, and the actions that can be performed on those URIs. Available as v1 and v2. The API is hosted per service ins
@@ -143,7 +143,7 @@ overview: 'OpenPages publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   OpenPages'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 15 more developer resources.'
-random_paper: 2
+random_paper: 68
 score:
   band: developing
   composite: 47.1
@@ -159,7 +159,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/screenshots/openpages-2026-08-07T190623.png
 security:

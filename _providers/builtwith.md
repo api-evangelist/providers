@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: verified
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: true
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 76.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 20
   slug: builtwith-agentic-access
   summary_line: 20 operations · 1 acting
-api_count: 29
+api_count: 31
 apis:
 - description: Current and historical website technology information for single or multiple domains with support for JSON, XML, and CSV formats.
   name: BuiltWith Domain API
@@ -99,9 +99,15 @@ apis:
 - description: Model Context Protocol server integration enabling AI assistants to query BuiltWith technology detection data natively.
   name: BuiltWith MCP API
   slug: builtwith-mcp-api
-- description: Autonomous credit management API enabling AI agents to manage and replenish API credits programmatically.
+- description: Autonomous credit management API enabling AI agents to manage and replenish API credits programmatically. Charges an existing account's saved Stripe payment method against a separately scoped Agent Bi
   name: BuiltWith Agent Payment API
   slug: builtwith-agent-payment-api
+- description: The provider-published OpenAPI 3.0.3 document covering the whole BuiltWith REST surface - WhoAmI, Usage, Domain, Change, Lists, Relationships, Free, Company to URL, Tags, Recommendations, Redirects, K
+  name: BuiltWith REST API
+  slug: builtwith-rest-api
+- description: 'Accountless pay-per-call access to BuiltWith intelligence over the x402 v2 payment protocol on Base mainnet. Twelve fixed-price /agent/* routes answer 402 with a PAYMENT-REQUIRED challenge, settle in '
+  name: BuiltWith x402 Pay-per-Call API
+  slug: builtwith-x402-pay-per-call-api
 - description: Asynchronous batch domain processing
   name: BuiltWith Bulk Processing API
   slug: builtwith-bulk-processing-api
@@ -126,20 +132,52 @@ apis:
 - description: Technology adoption trends and market share data
   name: BuiltWith Technology Trends API
   slug: builtwith-technology-trends-api
-artifact_total: 45
+artifact_total: 59
+asyncapis:
+- description: Real-time technology detection notifications over WebSocket. Subscribe to technology channels or rule channels and receive an event each time BuiltWith detects a technology on a website. Requires an a
+  name: BuiltWith Live Feed API
+  slug: builtwith-live-feed-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BuiltWith Change Bulk Processing API
+  slug: open-builtwith-bulk-processing-api
+- collection_type: open
+  name: BuiltWith Change Bulk Processing Domain Lookup API
+  slug: open-builtwith-domain-lookup-api
+- collection_type: open
+  name: BuiltWith Change Bulk Processing Domain Relationships API
+  slug: open-builtwith-domain-relationships-api
+- collection_type: open
+  name: BuiltWith Change Bulk Processing Free Lookup API
+  slug: open-builtwith-free-lookup-api
+- collection_type: open
+  name: BuiltWith Change Bulk Processing Tag Lookup API
+  slug: open-builtwith-tag-lookup-api
+- collection_type: open
+  name: BuiltWith Change Bulk Processing Technology Changes API
+  slug: open-builtwith-technology-changes-api
+- collection_type: open
+  name: BuiltWith Change Bulk Processing Technology Lists API
+  slug: open-builtwith-technology-lists-api
+- collection_type: open
+  name: BuiltWith Change Bulk Processing Technology Trends API
+  slug: open-builtwith-technology-trends-api
 common:
 - group: operate
   title: ''
   type: IssueTracker
-  url: https://github.com/builtwith/mcp/issues
+  url: https://github.com/builtwith/builtwith-mcp/issues
 - group: operate
   title: ''
   type: Releases
-  url: https://github.com/builtwith/mcp/releases
+  url: https://github.com/builtwith/builtwith-mcp/releases
 - group: commercial
   title: ''
   type: License
-  url: https://github.com/builtwith/mcp/blob/main/LICENSE
+  url: https://github.com/builtwith/builtwith-mcp/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,10 +202,6 @@ common:
   title: ''
   type: Documentation
   url: https://api.builtwith.com/
-- group: build
-  title: ''
-  type: GitHubOrg
-  url: https://github.com/builtwith
 - group: company
   title: ''
   type: LinkedIn
@@ -204,6 +238,178 @@ common:
   title: ''
   type: FinOps
   url: finops/builtwith-finops.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/builtwith-a2a.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/builtwith-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/builtwith-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/builtwith-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/builtwith-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/builtwith-api-catalog.json
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/builtwith-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://builtwith.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/builtwith-scopes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/builtwith-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/builtwith-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/builtwith-cli.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/builtwith-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/builtwith-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/builtwith-error-codes.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/builtwith-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/builtwith-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/builtwith-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/builtwith-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/builtwith-components.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/builtwith-live-feed-asyncapi.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/builtwith-vocabulary.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/builtwith-domain-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/builtwith-change-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/builtwith-lists-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/builtwith-context.jsonld
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/builtwith-jsonschema-spectral-rules.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/builtwith-domain-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/builtwith-lists-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/builtwith-trends-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/builtwith-change-example.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/builtwith-rest-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/builtwith-x402-pay-per-call-overlay.yaml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api.builtwith.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.builtwith.com/domain-api
+- group: operate
+  title: ''
+  type: Support
+  url: https://builtwith.com/contact
+- group: operate
+  title: ''
+  type: SupportFAQs
+  url: https://builtwith.com/faq
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://builtwith.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://builtwith.com/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://builtwith.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://builtwith.com/login
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/builtwith
 created: 2026-06-13
 description: Technology profiling and lead generation platform with a REST API for detecting technologies used by websites, tracking technology trends, and identifying technology adoption across 491.9 million domains and 115,907 tracked web technologies.
 examples:
@@ -240,22 +446,26 @@ jsonld:
   property_count: 52
   slug: builtwith-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: builtwith-mcp.yml
+  slug: builtwith-mcpyml
+modified: 2026-08-14
 name: BuiltWith
 nav: Providers
 network: true
-overview: 'BuiltWith publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bulk Processing API, Domain Lookup API, Domain Relationships API, and 5 more. Tagged areas include Technology Profiling, Lead Generation, Web Intelligence, Technology Detection, and Website Analysis.
+overview: 'BuiltWith publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Live Feed API, Agent Payment API, REST API, and 9 more. Tagged areas include Technology Profiling, Lead Generation, Web Intelligence, Technology Detection, and Website Analysis.
 
 
-  The BuiltWith catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The BuiltWith catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  BuiltWith''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
+  BuiltWith''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, code examples, API reference, and 54 more developer resources.'
 plans:
 - name: Builtwith Plans Pricing
   plan_count: 6
   slug: builtwith-plans-pricing
-random_paper: 28
+random_paper: 94
 rate_limits:
 - limit_count: 0
   name: Builtwith Rate Limits
@@ -269,17 +479,22 @@ rules:
     info: 2
     warn: 4
   slug: builtwith-jsonschema-spectral-rules
+scopes:
+- name: Builtwith Scopes
+  scope_count: 2
+  slug: builtwith-scopes
+  summary_line: 2 scopes
 score:
-  band: developing
-  composite: 48.9
-  delta: 0.0
+  band: exemplar
+  composite: 72.6
+  delta: 23.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.0
-    developer_ergonomics: 26.1
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
+    commercial_clarity: 84.2
+    contract_quality: 72.0
+    developer_ergonomics: 73.9
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 31.6
   previous_composite: 48.9
   provenance:
     agentic_access: derived
@@ -289,14 +504,14 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/screenshots/builtwith-2026-06-20T173756.png
 security:
 - kind: authentication
   name: Builtwith Authentication
   slug: builtwith-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey/http/oauth2 · 5 schemes
 - kind: domain-security
   name: Builtwith Domain Security
   slug: builtwith-domain-security
@@ -304,7 +519,7 @@ security:
 - kind: vulnerability-disclosure
   name: Builtwith Vulnerability Disclosure
   slug: builtwith-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone · security.txt · contact published
 slug: builtwith
 tags:
 - Technology Profiling
@@ -313,5 +528,11 @@ tags:
 - Technology Detection
 - Website Analysis
 - Market Research
+- Technographics
+- Sales Intelligence
+- AI Agents
+- Model Context Protocol
+- Agentic Commerce
+- Real-time Data
 website: https://builtwith.com/
 ---

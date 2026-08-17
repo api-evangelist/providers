@@ -15,13 +15,13 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-12'
+  score: 64.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -124,7 +124,99 @@ apis:
 - description: Users are the people who have access to the BlueConic environment. [Read more](https://support.blueconic.com/hc/en-us/articles/360000013785-Users)
   name: BlueConic Users API
   slug: blueconic-users-api
-artifact_total: 130
+artifact_total: 163
+asyncapis:
+- description: ''
+  name: Blueconic Webhooks
+  slug: blueconic-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events API
+  slug: open-blueconic-audit-events-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Channels API
+  slug: open-blueconic-channels-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Connections API
+  slug: open-blueconic-connections-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Dialogues API
+  slug: open-blueconic-dialogues-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Group Types API
+  slug: open-blueconic-group-types-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Groups API
+  slug: open-blueconic-groups-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Interaction events API
+  slug: open-blueconic-interaction-events-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Interactions API
+  slug: open-blueconic-interactions-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Lifecycles API
+  slug: open-blueconic-lifecycles-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Listeners API
+  slug: open-blueconic-listeners-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Models API
+  slug: open-blueconic-models-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Notebooks API
+  slug: open-blueconic-notebooks-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events OAuth 2.0 API
+  slug: open-blueconic-oauth-2-0-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Objectives API
+  slug: open-blueconic-objectives-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Pageview events API
+  slug: open-blueconic-pageview-events-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Plugins API
+  slug: open-blueconic-plugins-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Profile events API
+  slug: open-blueconic-profile-events-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Profiles API
+  slug: open-blueconic-profiles-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Properties API
+  slug: open-blueconic-properties-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Recommendations API
+  slug: open-blueconic-recommendations-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Reporting API
+  slug: open-blueconic-reporting-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Roles API
+  slug: open-blueconic-roles-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Segments API
+  slug: open-blueconic-segments-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Stores API
+  slug: open-blueconic-stores-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Timeline event rollups API
+  slug: open-blueconic-timeline-event-rollups-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Timeline Event Types API
+  slug: open-blueconic-timeline-event-types-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events URL mappings API
+  slug: open-blueconic-url-mappings-api
+- collection_type: open
+  name: BlueConic REST API v2 Audit Events Users API
+  slug: open-blueconic-users-api
 common:
 - group: agent
   title: ''
@@ -149,7 +241,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://support.blueconic.com/hc/en-us/categories/200458421-Developers
+  url: https://support.blueconic.com/en/collections/609503-developer-tools
 - group: build
   title: ''
   type: GitHubOrg
@@ -206,6 +298,142 @@ common:
   title: ''
   type: FinOps
   url: finops/blueconic-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/blueconic-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/blueconic-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/blueconic-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/blueconic-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/blueconic-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/blueconic-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.blueconic.com/trust-center
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/blueconic-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/blueconic-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://support.blueconic.com/en/articles/266965-guidelines-for-penetration-tests
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/blueconic-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/blueconic-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://support.blueconic.com/en/articles/248010-blueconic-rest-api-migration
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/blueconic-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://announcekit.co/blueconic-changelog/blueconic-product-updates
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/blueconic-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/blueconic-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/blueconic-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/blueconic-webhooks.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/blueconic-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/blueconic-jsonschema-spectral-rules.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/getOneProfile-response-200.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/createUpdateDeleteProfiles-request.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/getProfilesInSegment-response-200.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/getAuditEvents-response-200.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/profile.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/segment.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/blueconic-context.jsonld
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://support.blueconic.com/en/collections/609503-developer-tools
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://rest.apidoc.blueconic.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.blueconic.com/en/articles/248009-using-the-blueconic-rest-api-v2
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.blueconic.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.blueconic.com/legal/privacy-policy
 created: '2026-06-13'
 description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-compliant interface.
 examples:
@@ -501,24 +729,27 @@ mcp_servers:
 - description: ''
   name: blueconic-mcp
   slug: blueconic-mcp
-modified: '2026-06-13'
+- description: ''
+  name: BlueConic MCP server manifest
+  slug: blueconic-mcp-server-manifest
+modified: '2026-08-13'
 name: BlueConic
 nav: Providers
 network: true
 overview: 'BlueConic publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Audit Events API, Channels API, Connections API, and 25 more. Tagged areas include Customer Data Platform, CDP, Customer Profiles, Segments, and Data Activation.
 
 
-  The BlueConic catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The BlueConic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  BlueConic''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 15 more developer resources.'
+  BlueConic''s developer surface includes authentication, documentation, engineering blog, pricing, support, changelog, sandbox, and 47 more developer resources.'
 plans:
 - name: Blueconic Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: blueconic-plans-pricing
-random_paper: 108
+random_paper: 54
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Blueconic Rate Limits
   slug: blueconic-rate-limits
 rules:
@@ -536,16 +767,16 @@ scopes:
   slug: blueconic-scopes
   summary_line: 27 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 45.1
-  delta: 0.0
+  band: exemplar
+  composite: 76.7
+  delta: 31.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 62.2
-    developer_ergonomics: 34.8
-    discoverability: 50.0
-    governance: 58.3
-    operational_transparency: 21.1
+    commercial_clarity: 55.3
+    contract_quality: 71.2
+    developer_ergonomics: 80.4
+    discoverability: 87.0
+    governance: 89.6
+    operational_transparency: 94.7
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -555,8 +786,8 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/screenshots/blueconic-2026-06-20T173532.png
 security:
 - kind: authentication
@@ -567,6 +798,14 @@ security:
   name: Blueconic Domain Security
   slug: blueconic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Blueconic Vulnerability Disclosure
+  slug: blueconic-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Blueconic Trust Center
+  slug: blueconic-trust-center
+  summary_line: SOC 2 Type 2, TRUSTe Verified Privacy Seal, TRUSTe Verified International Privacy Seal, EU-U.S. Data Privacy Framework (incl. UK Extension and Swiss-U.S. DPF)
 slug: blueconic
 tags:
 - Customer Data Platform

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,11 +69,42 @@ arazzos:
 - description: 'Check exchange status, list available attention-index markets, inspect one market, place a limit order (idempotent via clientOrderId), confirm the order, then read the resulting account and position. '
   name: Forum — discover a market and place an order
   slug: forum-place-order
-artifact_total: 16
+artifact_total: 26
 asyncapis:
 - description: 'Real-time market data and private account updates via WebSocket. ## Connection Connect to `wss://api.forum.market/ws/v1` to establish a WebSocket connection. You must send a `subscribe` command within'
   name: Forum WebSocket Feed
   slug: forum-websocket-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Forum Account API
+  slug: open-forum-account-api
+- collection_type: open
+  name: Forum Account Exchange API
+  slug: open-forum-exchange-api
+- collection_type: open
+  name: Forum Account Fills API
+  slug: open-forum-fills-api
+- collection_type: open
+  name: Forum Account Funding API
+  slug: open-forum-funding-api
+- collection_type: open
+  name: Forum Account Indices API
+  slug: open-forum-indices-api
+- collection_type: open
+  name: Forum Account Market Data API
+  slug: open-forum-market-data-api
+- collection_type: open
+  name: Forum Account Markets API
+  slug: open-forum-markets-api
+- collection_type: open
+  name: Forum Account Orders API
+  slug: open-forum-orders-api
+- collection_type: open
+  name: Forum Account Positions API
+  slug: open-forum-positions-api
 common:
 - group: start
   title: ''
@@ -206,7 +237,7 @@ overview: 'Forum publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Forum''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 73
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Forum Rate Limits
@@ -240,7 +271,7 @@ score:
     regime_id: securities_market_data
     score: 35.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/screenshots/forum-2026-07-25T215019.png
 security:

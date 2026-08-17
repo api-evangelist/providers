@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Webhooks API from Hologram — 1 operation(s) for webhooks.
   name: Hologram Webhooks API
   slug: hologram-webhooks-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hologram REST Cellular Links API
+  slug: open-hologram-cellular-links-api
+- collection_type: open
+  name: Hologram REST Cellular Links Devices API
+  slug: open-hologram-devices-api
+- collection_type: open
+  name: Hologram REST Cellular Links Messaging API
+  slug: open-hologram-messaging-api
+- collection_type: open
+  name: Hologram REST Cellular Links Plans API
+  slug: open-hologram-plans-api
+- collection_type: open
+  name: Hologram REST Cellular Links SMS API
+  slug: open-hologram-sms-api
+- collection_type: open
+  name: Hologram REST Cellular Links Tags API
+  slug: open-hologram-tags-api
+- collection_type: open
+  name: Hologram REST Cellular Links Usage API
+  slug: open-hologram-usage-api
+- collection_type: open
+  name: Hologram REST Cellular Links Webhooks API
+  slug: open-hologram-webhooks-api
 - collection_type: open
   name: Hologram REST API
   slug: open-hologram
@@ -129,7 +156,7 @@ plans:
 - name: Hologram Plans Pricing
   plan_count: 2
   slug: hologram-plans-pricing
-random_paper: 17
+random_paper: 112
 rate_limits:
 - limit_count: 2
   name: Hologram Rate Limits
@@ -160,7 +187,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/screenshots/hologram-2026-07-25T221329.png
 security:

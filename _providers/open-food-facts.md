@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: The Taxonomy Suggestions API from Open Food Facts — 1 operation(s) for taxonomy suggestions.
   name: Open Food Facts Taxonomy Suggestions API
   slug: open-food-facts-taxonomy-suggestions-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Food Facts Cgi API
+  slug: open-open-food-facts-cgi-api
+- collection_type: open
+  name: Open Food Facts Cgi Product API
+  slug: open-open-food-facts-product-api
+- collection_type: open
+  name: Open Food Facts Cgi Search API
+  slug: open-open-food-facts-search-api
+- collection_type: open
+  name: Open Food Facts Cgi Taxonomy API
+  slug: open-open-food-facts-taxonomy-api
+- collection_type: open
+  name: Open Food Facts Cgi Taxonomy Suggestions API
+  slug: open-open-food-facts-taxonomy-suggestions-api
 - collection_type: open
   name: Open Food Facts API
   slug: open-open-food-facts
@@ -103,7 +121,7 @@ plans:
 - name: Open Food Facts Plans Pricing
   plan_count: 3
   slug: open-food-facts-plans-pricing
-random_paper: 37
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Open Food Facts Rate Limits
@@ -128,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/screenshots/open-food-facts-2026-06-20T190753.png
 security:

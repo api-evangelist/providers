@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Operations about posts
   name: supernormal Posts API
   slug: supernormal-posts-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Supernormal Agent Sessions API
+  slug: open-supernormal-agent-sessions-api
+- collection_type: open
+  name: Supernormal Agent Sessions Agents API
+  slug: open-supernormal-agents-api
+- collection_type: open
+  name: Supernormal Agent Sessions Calendar Events API
+  slug: open-supernormal-calendar-events-api
+- collection_type: open
+  name: Supernormal Agent Sessions Current User API
+  slug: open-supernormal-current-user-api
+- collection_type: open
+  name: Supernormal Agent Sessions Posts API
+  slug: open-supernormal-posts-api
 common:
 - group: agent
   title: ''
@@ -167,7 +186,7 @@ overview: 'supernormal publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   supernormal''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 8
+random_paper: 16
 scopes:
 - name: Supernormal Scopes
   scope_count: 11
@@ -196,7 +215,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

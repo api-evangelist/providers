@@ -28,14 +28,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for retrieving public company org charts, prospecting positions/people, and monitoring credit usage. Metered in credits; authenticated with an X-Api-Key header.
   name: The Org API
   slug: the-org-api
-artifact_total: 5
+artifact_total: 8
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/theorg-trust-center.yml
 - group: company
   title: ''
   type: Website
@@ -68,10 +72,18 @@ common:
   title: ''
   type: MCPServer
   url: mcp/theorg-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/theorg-tool-crosswalk.yml
 - group: auth
   title: ''
   type: Authentication
   url: authentication/theorg-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/theorg-scopes.yml
 - group: design
   title: ''
   type: Conventions
@@ -112,6 +124,30 @@ common:
   title: ''
   type: DomainSecurity
   url: security/theorg-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/theorg-well-known.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/theorg-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://theorg.com/pricing
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.theorg.com/en/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.theorg.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://theorg.com/signup
 - group: start
   title: ''
   type: Login
@@ -125,34 +161,44 @@ common:
   type: PrivacyPolicy
   url: https://theorg.com/privacy
 created: '2026-07-17'
-description: The Org operates the world's largest network of public organizational charts, mapping companies, their teams, and reporting hierarchies. Its developer platform exposes a metered REST API and an official MCP server for retrieving a company's public org chart by domain or LinkedIn URL, prospecting positions and people with rich filters, resolving a person's manager, and monitoring credit usage. Authentication is via an account-scoped X-Api-Key header over HTTPS, usage is metered in monthly credits, and the same key powers a Model Context Protocol endpoint exposing get_org_chart, get_manager, get_usage, and find_positions tools for agent-native access. Originally added to the API Evangelist network as a portfolio company of Balderton Capital.
+description: 'The Org operates the world''s largest network of public organizational charts, mapping companies, their teams, and reporting hierarchies. Its developer platform exposes a metered REST API and an official MCP server for retrieving a company''s public org chart by domain or LinkedIn URL, prospecting positions and people with rich filters, resolving a person''s manager, and monitoring credit usage. Authentication is via an account-scoped X-Api-Key header over HTTPS, usage is metered in monthly credits, and the same key powers a remote Model Context Protocol endpoint exposing thirteen tools for agent-native access — company and person lookup, job search, reporting-line traversal, work-email resolution, and lead-list management. The MCP surface is materially wider than the REST API: eight of the thirteen tools have no REST equivalent, and list creation is the only write operation The Org exposes anywhere. Originally added to the API Evangelist network as a portfolio company of Balderton
+  Capital.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theorg.png
 layout: provider
 mcp_servers:
 - description: ''
   name: theorg-mcp.yml
   slug: theorg-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: The Org
 nav: Providers
 network: true
 overview: 'The Org publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Organizational Charts, People Data, Sales Intelligence, and Prospecting.
 
 
-  The Org''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 17 more developer resources.'
-random_paper: 49
+  The Org''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, pricing, support, and 24 more developer resources.'
+plans:
+- name: Theorg Plans Pricing
+  plan_count: 4
+  slug: theorg-plans-pricing
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Theorg Rate Limits
   slug: theorg-rate-limits
+scopes:
+- name: Theorg Scopes
+  scope_count: 1
+  slug: theorg-scopes
+  summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 30.8
-  delta: 0.0
+  band: developing
+  composite: 42.1
+  delta: 11.3
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 56.0
+    developer_ergonomics: 62.5
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 36.8
@@ -162,17 +208,21 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Theorg Authentication
   slug: theorg-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Theorg Domain Security
   slug: theorg-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Theorg Trust Center
+  slug: theorg-trust-center
+  summary_line: trust center published
 slug: theorg
 tags:
 - Company
@@ -183,5 +233,9 @@ tags:
 - Org Chart
 - B2B Data
 - MCP
+- Contact Data
+- Lead Generation
+- Jobs
+- Agents
 website: https://theorg.com/
 ---

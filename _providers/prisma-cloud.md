@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: Login and JWT token lifecycle for Prisma Cloud CSPM.
   name: Prisma Cloud Authentication API
   slug: prisma-cloud-authentication-api
-artifact_total: 10
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prisma Cloud CSPM API () Authentication API
+  slug: open-prisma-cloud-authentication-api
 - collection_type: open
   name: Prisma Cloud CSPM API (Authentication)
   slug: open-prisma-cloud
@@ -123,7 +129,7 @@ plans:
 - name: Prisma Cloud Plans Pricing
   plan_count: 3
   slug: prisma-cloud-plans-pricing
-random_paper: 32
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Prisma Cloud Rate Limits
@@ -148,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prisma-cloud/refs/heads/main/screenshots/prisma-cloud-2026-06-20T192110.png
 security:

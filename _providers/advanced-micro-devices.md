@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -63,7 +63,7 @@ apis:
 - description: Performance counters and profiling data
   name: Advanced Micro Devices Performance API
   slug: advanced-micro-devices-performance-api
-artifact_total: 92
+artifact_total: 101
 collections:
 - collection_type: postman
   name: AMD Developer Cloud Configuration API
@@ -89,6 +89,33 @@ collections:
 - collection_type: postman
   name: AMD Developer Cloud Configuration Performance API
   slug: postman-advanced-micro-devices-performance-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AMD Developer Cloud Configuration API
+  slug: open-advanced-micro-devices-configuration-api
+- collection_type: open
+  name: AMD Developer Cloud Configuration Credits API
+  slug: open-advanced-micro-devices-credits-api
+- collection_type: open
+  name: AMD Developer Cloud Configuration Devices API
+  slug: open-advanced-micro-devices-devices-api
+- collection_type: open
+  name: AMD Developer Cloud Configuration Health API
+  slug: open-advanced-micro-devices-health-api
+- collection_type: open
+  name: AMD Developer Cloud Configuration Instances API
+  slug: open-advanced-micro-devices-instances-api
+- collection_type: open
+  name: AMD Developer Cloud Configuration Models API
+  slug: open-advanced-micro-devices-models-api
+- collection_type: open
+  name: AMD Developer Cloud Configuration Monitoring API
+  slug: open-advanced-micro-devices-monitoring-api
+- collection_type: open
+  name: AMD Developer Cloud Configuration Performance API
+  slug: open-advanced-micro-devices-performance-api
 - collection_type: open
   name: AMD Developer Cloud API
   slug: open-amd-developer-cloud-api
@@ -369,7 +396,7 @@ press:
 - date: '2026-05-25'
   title: Advanced Micro Devices, Inc. (AMD) Stock Price, News ...
   url: https://finance.yahoo.com/quote/AMD/
-random_paper: 29
+random_paper: 103
 rate_limits:
 - limit_count: 1
   name: Advanced Micro Devices Rate Limits
@@ -419,7 +446,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/screenshots/advanced-micro-devices-2026-06-20T165331.png
 security:

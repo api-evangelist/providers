@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Authorities API from Democracy Works — 3 operation(s) for authorities.
@@ -40,7 +40,20 @@ apis:
 - description: The Exports API from Democracy Works — 1 operation(s) for exports.
   name: Democracy Works Exports API
   slug: democracy-works-exports-api
-artifact_total: 12
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Democracy Works Authorities API
+  slug: open-democracy-works-authorities-api
+- collection_type: open
+  name: Democracy Works Elections API
+  slug: open-democracy-works-elections-api
+- collection_type: open
+  name: Democracy Works Exports API
+  slug: open-democracy-works-exports-api
 common:
 - group: auth
   title: ''
@@ -117,7 +130,7 @@ plans:
 - name: Democracy Works Plans Pricing
   plan_count: 3
   slug: democracy-works-plans-pricing
-random_paper: 2
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Democracy Works Rate Limits
@@ -164,7 +177,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/screenshots/democracy-works-2026-06-20T175910.png
 security:

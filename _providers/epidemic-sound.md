@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,11 +66,41 @@ apis:
 - description: These endpoints allows your application to get user specific information such as liked sounds.
   name: Epidemic Sound Users API
   slug: epidemic-sound-users-api
-artifact_total: 38
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Partner Content Assets API
+  slug: open-epidemic-sound-assets-api
+- collection_type: open
+  name: Partner Content Assets Authentication API
+  slug: open-epidemic-sound-authentication-api
+- collection_type: open
+  name: Partner Content Assets Beta API
+  slug: open-epidemic-sound-beta-api
+- collection_type: open
+  name: Partner Content Assets Browse & search API
+  slug: open-epidemic-sound-browse-search-api
 - collection_type: open
   name: Partner Content API
   slug: open-epidemic-sound-partner-content-api
+- collection_type: open
+  name: Partner Content Assets Reporting API
+  slug: open-epidemic-sound-reporting-api
+- collection_type: open
+  name: Partner Content Assets Safelisting API
+  slug: open-epidemic-sound-safelisting-api
+- collection_type: open
+  name: Partner Content Assets Sound effects API
+  slug: open-epidemic-sound-sound-effects-api
+- collection_type: open
+  name: Partner Content Assets Tracks API
+  slug: open-epidemic-sound-tracks-api
+- collection_type: open
+  name: Partner Content Assets Users API
+  slug: open-epidemic-sound-users-api
 common:
 - group: agent
   title: ''
@@ -263,7 +293,7 @@ plans:
 - name: Epidemic Sound Plans Pricing
   plan_count: 5
   slug: epidemic-sound-plans-pricing
-random_paper: 110
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Epidemic Sound Rate Limits
@@ -293,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/screenshots/epidemic-sound-2026-06-20T180755.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -93,7 +93,56 @@ apis:
 - description: With tokenization, we are confident that your customers' card data is protected from third parties.
   name: PayU Token API
   slug: payu-token-api
-artifact_total: 29
+artifact_total: 45
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PayU GPO Europe REST Authorize API
+  slug: open-payu-authorize-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Card Installments API
+  slug: open-payu-card-installments-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize FX-Reference API
+  slug: open-payu-fx-reference-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Marketplace-Seller API
+  slug: open-payu-marketplace-seller-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Marketplace-Verification API
+  slug: open-payu-marketplace-verification-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize MCP API
+  slug: open-payu-mcp-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Order API
+  slug: open-payu-order-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Partner-Merchant-Registration API
+  slug: open-payu-partner-merchant-registration-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Payment-Methods API
+  slug: open-payu-payment-methods-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Payout API
+  slug: open-payu-payout-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize PF-Submerchant-Registration API
+  slug: open-payu-pf-submerchant-registration-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Refund API
+  slug: open-payu-refund-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Shop API
+  slug: open-payu-shop-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Statements API
+  slug: open-payu-statements-api
+- collection_type: open
+  name: PayU GPO Europe REST Authorize Token API
+  slug: open-payu-token-api
 common:
 - group: agent
   title: ''
@@ -191,7 +240,7 @@ plans:
 - name: Payu Plans Pricing
   plan_count: 3
   slug: payu-plans-pricing
-random_paper: 87
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Payu Rate Limits
@@ -231,7 +280,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

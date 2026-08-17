@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 217
   human_in_the_loop: 1
@@ -276,7 +276,7 @@ apis:
 - description: The Vouchers API from Mews — 5 operation(s) for vouchers.
   name: Mews Vouchers API
   slug: mews-systems-vouchers-api
-artifact_total: 395
+artifact_total: 472
 collections:
 - collection_type: postman
   name: Mews Booking Engine API (Distributor) Account notes API
@@ -507,6 +507,9 @@ collections:
   name: Mews Booking Engine API (Distributor) Account notes Vouchers API
   slug: postman-mews-systems-vouchers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Mews Booking Engine API (Distributor)
   slug: open-mews-booking-engine-api
 - collection_type: open
@@ -536,6 +539,234 @@ collections:
 - collection_type: open
   name: Mews Connector API — Services and Products
   slug: open-mews-connector-api-services
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes API
+  slug: open-mews-systems-account-notes-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Accounting categories API
+  slug: open-mews-systems-accounting-categories-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Accounting items API
+  slug: open-mews-systems-accounting-items-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Accounts API
+  slug: open-mews-systems-accounts-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Addresses API
+  slug: open-mews-systems-addresses-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Age categories API
+  slug: open-mews-systems-age-categories-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Availability adjustments API
+  slug: open-mews-systems-availability-adjustments-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Availability Blocks API
+  slug: open-mews-systems-availability-blocks-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Billing automations API
+  slug: open-mews-systems-billing-automations-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Bills API
+  slug: open-mews-systems-bills-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Business segments API
+  slug: open-mews-systems-business-segments-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Cancellation policies API
+  slug: open-mews-systems-cancellation-policies-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Cashier transactions API
+  slug: open-mews-systems-cashier-transactions-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Cashiers API
+  slug: open-mews-systems-cashiers-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Commands API
+  slug: open-mews-systems-commands-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Companies API
+  slug: open-mews-systems-companies-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Companionships API
+  slug: open-mews-systems-companionships-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Company contracts API
+  slug: open-mews-systems-company-contracts-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Configuration API
+  slug: open-mews-systems-configuration-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Counters API
+  slug: open-mews-systems-counters-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Countries API
+  slug: open-mews-systems-countries-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Credit cards API
+  slug: open-mews-systems-credit-cards-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Currencies API
+  slug: open-mews-systems-currencies-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Customers API
+  slug: open-mews-systems-customers-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Departments API
+  slug: open-mews-systems-departments-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Devices API
+  slug: open-mews-systems-devices-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes DistributorApi API
+  slug: open-mews-systems-distributorapi-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Enterprises API
+  slug: open-mews-systems-enterprises-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Exchange Rates API
+  slug: open-mews-systems-exchange-rates-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Exports API
+  slug: open-mews-systems-exports-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Hotels API
+  slug: open-mews-systems-hotels-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Identity documents API
+  slug: open-mews-systems-identity-documents-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Images API
+  slug: open-mews-systems-images-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Languages API
+  slug: open-mews-systems-languages-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Ledger balances API
+  slug: open-mews-systems-ledger-balances-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Loyalty memberships API
+  slug: open-mews-systems-loyalty-memberships-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Loyalty programs API
+  slug: open-mews-systems-loyalty-programs-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Loyalty tiers API
+  slug: open-mews-systems-loyalty-tiers-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Message threads API
+  slug: open-mews-systems-message-threads-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Messages API
+  slug: open-mews-systems-messages-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Order items API
+  slug: open-mews-systems-order-items-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Orders API
+  slug: open-mews-systems-orders-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Outlet bills API
+  slug: open-mews-systems-outlet-bills-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Outlet items API
+  slug: open-mews-systems-outlet-items-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Outlets API
+  slug: open-mews-systems-outlets-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Payment Cards API
+  slug: open-mews-systems-payment-cards-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Payment method requests API
+  slug: open-mews-systems-payment-method-requests-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Payment plans API
+  slug: open-mews-systems-payment-plans-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Payment requests API
+  slug: open-mews-systems-payment-requests-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Payments API
+  slug: open-mews-systems-payments-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Preauthorizations API
+  slug: open-mews-systems-preauthorizations-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Product categories API
+  slug: open-mews-systems-product-categories-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Product service orders API
+  slug: open-mews-systems-product-service-orders-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Products API
+  slug: open-mews-systems-products-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Rate groups API
+  slug: open-mews-systems-rate-groups-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Rates API
+  slug: open-mews-systems-rates-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Reservation Groups API
+  slug: open-mews-systems-reservation-groups-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Reservations API
+  slug: open-mews-systems-reservations-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Resource access tokens API
+  slug: open-mews-systems-resource-access-tokens-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Resource blocks API
+  slug: open-mews-systems-resource-blocks-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Resource categories API
+  slug: open-mews-systems-resource-categories-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Resource features API
+  slug: open-mews-systems-resource-features-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Resources API
+  slug: open-mews-systems-resources-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Restrictions API
+  slug: open-mews-systems-restrictions-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Routing rules API
+  slug: open-mews-systems-routing-rules-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Rules API
+  slug: open-mews-systems-rules-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Service order notes API
+  slug: open-mews-systems-service-order-notes-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Service overbooking limits API
+  slug: open-mews-systems-service-overbooking-limits-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Services API
+  slug: open-mews-systems-services-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Source assignments API
+  slug: open-mews-systems-source-assignments-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Sources API
+  slug: open-mews-systems-sources-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Tasks API
+  slug: open-mews-systems-tasks-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Tax environments API
+  slug: open-mews-systems-tax-environments-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Taxations API
+  slug: open-mews-systems-taxations-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Voucher codes API
+  slug: open-mews-systems-voucher-codes-api
+- collection_type: open
+  name: Mews Booking Engine API (Distributor) Account notes Vouchers API
+  slug: open-mews-systems-vouchers-api
 common:
 - group: operate
   title: ''
@@ -1336,7 +1567,7 @@ plans:
 - name: Mews Systems Plans Pricing
   plan_count: 5
   slug: mews-systems-plans-pricing
-random_paper: 81
+random_paper: 89
 rate_limits:
 - limit_count: 3
   name: Mews Systems Rate Limits
@@ -1384,7 +1615,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/screenshots/mews-systems-2026-06-20T185318.png
 security:

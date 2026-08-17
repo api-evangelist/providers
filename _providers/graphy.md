@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Agents API from Graphy — 7 operation(s) for agents.
   name: Graphy Agents API
   slug: graphy-agents-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Graphy AI Agents API
+  slug: open-graphy-agents-api
 common:
 - group: other
   title: ''
@@ -175,7 +182,7 @@ overview: 'Graphy publishes 1 API on the [APIs.io](https://apis.io/) network: Ag
 
 
   Graphy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, sandbox, and 22 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: developing
   composite: 51.7
@@ -199,7 +206,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/screenshots/graphy-2026-07-25T220250.png
 security:

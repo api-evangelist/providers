@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Executions of test cases with recorded results.
   name: Testiny Test Runs API
   slug: testiny-test-runs-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Testiny Automation API
+  slug: open-testiny-automation-api
+- collection_type: open
+  name: Testiny Automation Projects API
+  slug: open-testiny-projects-api
+- collection_type: open
+  name: Testiny Automation Test Cases API
+  slug: open-testiny-test-cases-api
+- collection_type: open
+  name: Testiny Automation Test Plans API
+  slug: open-testiny-test-plans-api
+- collection_type: open
+  name: Testiny Automation Test Runs API
+  slug: open-testiny-test-runs-api
 - collection_type: open
   name: Testiny API
   slug: open-testiny
@@ -124,7 +142,7 @@ plans:
 - name: Testiny Plans Pricing
   plan_count: 5
   slug: testiny-plans-pricing
-random_paper: 64
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Testiny Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

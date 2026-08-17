@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The client-api-assessment-rest-resource API from VISO Trust (Protecht) — 7 operation(s) for client-api-assessment-rest-resource.
@@ -67,11 +67,51 @@ apis:
 - description: The client-api-webhook-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-webhook-rest-resource.
   name: VISO Trust (Protecht) client-api-webhook-rest-resource API
   slug: viso-trust-protecht-client-api-webhook-rest-resource-api
-artifact_total: 17
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Viso Trust Protecht Webhooks
   slug: viso-trust-protecht-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource API
+  slug: open-viso-trust-protecht-client-api-assessment-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-audit-log-rest-resource API
+  slug: open-viso-trust-protecht-client-api-audit-log-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-chat-rest-resource API
+  slug: open-viso-trust-protecht-client-api-chat-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-context-type-rest-resource API
+  slug: open-viso-trust-protecht-client-api-context-type-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-data-type-rest-resource API
+  slug: open-viso-trust-protecht-client-api-data-type-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-external-intelligence-report-rest-resource API
+  slug: open-viso-trust-protecht-client-api-external-intelligence-report-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-questionnaire-rest-resource API
+  slug: open-viso-trust-protecht-client-api-questionnaire-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-relationship-rest-resource API
+  slug: open-viso-trust-protecht-client-api-relationship-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-user-rest-resource API
+  slug: open-viso-trust-protecht-client-api-user-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-vendor-directory-rest-resource API
+  slug: open-viso-trust-protecht-client-api-vendor-directory-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-vendor-risk-summary-rest-resource API
+  slug: open-viso-trust-protecht-client-api-vendor-risk-summary-rest-resource-api
+- collection_type: open
+  name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-webhook-rest-resource API
+  slug: open-viso-trust-protecht-client-api-webhook-rest-resource-api
 common:
 - group: docs
   title: ''
@@ -180,7 +220,7 @@ overview: 'VISO Trust (Protecht) publishes 12 APIs on the [APIs.io](https://apis
 
 
   VISO Trust (Protecht)''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, and 16 more developer resources.'
-random_paper: 70
+random_paper: 53
 score:
   band: developing
   composite: 44.2
@@ -203,7 +243,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

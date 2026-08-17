@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Motion's official hosted remote MCP server. Read-only, OAuth 2.0 gated, and documented with 13 tools across six categories — auth context, creative performance (ranked creatives, AI creative summaries
@@ -170,7 +170,7 @@ plans:
 - name: Motion Plans Pricing
   plan_count: 4
   slug: motion-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Motion Rate Limits
@@ -183,7 +183,7 @@ scopes:
 score:
   band: thin
   composite: 38.0
-  delta: 20.0
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -191,10 +191,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 18.0
+  previous_composite: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/screenshots/motion-2026-08-07T184326.png
 security:
 - kind: authentication

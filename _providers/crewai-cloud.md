@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ arazzos:
 - description: Inspect an existing execution, deliver human feedback, then poll until it settles.
   name: CrewAI AMP Resume a Paused Execution
   slug: crewai-cloud-resume-paused-execution-workflow
-artifact_total: 57
+artifact_total: 62
 asyncapis:
 - description: 'Outbound webhook events published by CrewAI AMP during crew execution. Three callback URLs can be supplied per kickoff — `taskWebhookUrl`, `stepWebhookUrl`, and `crewWebhookUrl`. AMP POSTs JSON event '
   name: CrewAI AMP Webhook Streaming
@@ -83,8 +83,23 @@ collections:
   name: CrewAI AMP REST API
   slug: postman-crewai-amp-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: CrewAI AMP REST API
   slug: open-crewai-amp-rest-api
+- collection_type: open
+  name: CrewAI AMP REST Inputs API
+  slug: open-crewai-cloud-inputs-api
+- collection_type: open
+  name: CrewAI AMP REST Inputs Kickoff API
+  slug: open-crewai-cloud-kickoff-api
+- collection_type: open
+  name: CrewAI AMP REST Inputs Resume API
+  slug: open-crewai-cloud-resume-api
+- collection_type: open
+  name: CrewAI AMP REST Inputs Status API
+  slug: open-crewai-cloud-status-api
 common:
 - group: agent
   title: ''
@@ -420,7 +435,7 @@ plans:
 - name: Crewai Cloud Plans Pricing
   plan_count: 2
   slug: crewai-cloud-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Crewai Cloud Rate Limits
@@ -470,7 +485,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/screenshots/crewai-cloud-2026-06-20T175231.png
 security:

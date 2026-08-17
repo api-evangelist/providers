@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -155,7 +155,7 @@ overview: 'Olipop publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Olipop''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 59
+random_paper: 63
 scopes:
 - name: Olipop Scopes
   scope_count: 4
@@ -179,7 +179,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/screenshots/olipop-2026-08-07T190120.png
 security:

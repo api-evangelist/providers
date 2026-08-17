@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: Manage API services and their settings
   name: Red Hat 3scale Services API
   slug: red-hat-3scale-services-api
-artifact_total: 80
+artifact_total: 94
 collections:
 - collection_type: postman
   name: Red Hat 3scale Account Management Accounts API
@@ -126,8 +126,14 @@ collections:
   name: Red Hat 3scale Account Management Accounts Services API
   slug: postman-red-hat-3scale-services-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Red Hat 3scale Account Management API
   slug: open-red-hat-3scale-account-management
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts API
+  slug: open-red-hat-3scale-accounts-api
 - collection_type: open
   name: Red Hat 3scale Analytics API
   slug: open-red-hat-3scale-analytics
@@ -135,11 +141,47 @@ collections:
   name: Red Hat 3scale APIcast Management API
   slug: open-red-hat-3scale-apicast-management
 - collection_type: open
+  name: Red Hat 3scale Account Management Accounts Applications API
+  slug: open-red-hat-3scale-applications-api
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts Authorization API
+  slug: open-red-hat-3scale-authorization-api
+- collection_type: open
   name: Red Hat 3scale Billing API
   slug: open-red-hat-3scale-billing
 - collection_type: open
+  name: Red Hat 3scale Account Management Accounts Configuration API
+  slug: open-red-hat-3scale-configuration-api
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts DNS API
+  slug: open-red-hat-3scale-dns-api
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts Health API
+  slug: open-red-hat-3scale-health-api
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts Initialization API
+  slug: open-red-hat-3scale-initialization-api
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts Invoices API
+  slug: open-red-hat-3scale-invoices-api
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts OAuth API
+  slug: open-red-hat-3scale-oauth-api
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts Payment Transactions API
+  slug: open-red-hat-3scale-payment-transactions-api
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts Plans API
+  slug: open-red-hat-3scale-plans-api
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts Reporting API
+  slug: open-red-hat-3scale-reporting-api
+- collection_type: open
   name: Red Hat 3scale Service Management API
   slug: open-red-hat-3scale-service-management
+- collection_type: open
+  name: Red Hat 3scale Account Management Accounts Services API
+  slug: open-red-hat-3scale-services-api
 common:
 - group: commercial
   title: ''
@@ -420,7 +462,7 @@ plans:
 - name: Red Hat 3Scale Plans Pricing
   plan_count: 2
   slug: red-hat-3scale-plans-pricing
-random_paper: 93
+random_paper: 101
 rate_limits:
 - limit_count: 2
   name: Red Hat 3Scale Rate Limits
@@ -462,7 +504,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/screenshots/red-hat-3scale-2026-06-20T192716.png
 security:

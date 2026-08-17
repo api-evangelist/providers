@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,11 @@ arazzos:
 - description: Search the Knight Frank office directory, then fetch the full record for the best-matching office.
   name: Knight Frank office lookup
   slug: knight-frank-office-lookup
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: KnightFrank Api v3
+  slug: open-knight-frank-api-v3
 common:
 - group: agent
   title: ''
@@ -191,7 +195,7 @@ overview: 'Knight Frank publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Knight Frank''s developer surface includes authentication, support, engineering blog, and 28 more developer resources.'
-random_paper: 20
+random_paper: 28
 scopes:
 - name: Knight Frank Scopes
   scope_count: 2
@@ -226,7 +230,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png
 security:

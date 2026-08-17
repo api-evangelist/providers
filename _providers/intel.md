@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,11 +50,26 @@ apis:
 - description: Developer tools and toolkit operations
   name: intel Tools API
   slug: intel-tools-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Intel one Attestation API
+  slug: open-intel-attestation-api
 - collection_type: open
   name: Intel oneAPI
   slug: open-intel-oneapi
+- collection_type: open
+  name: Intel one Attestation Policies API
+  slug: open-intel-policies-api
+- collection_type: open
+  name: Intel one Attestation Tokens API
+  slug: open-intel-tokens-api
+- collection_type: open
+  name: Intel one Attestation Tools API
+  slug: open-intel-tools-api
 - collection_type: open
   name: Intel Trust Authority API
   slug: open-intel-trust-authority-api
@@ -118,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: NVIDIA and Intel to Develop AI Infrastructure and Personal ...
   url: http://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products
-random_paper: 60
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Intel Rate Limits
@@ -143,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/screenshots/intel-2026-06-20T183445.png
 security:

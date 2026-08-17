@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,7 +54,23 @@ arazzos:
 - description: Register a gig-worker on the Cachet Platform (Verify) API, then report a completed task event for that worker. Requires x-api-key and x-api-username headers issued by the Cachet IT team.
   name: Cachet gig-worker onboarding and task reporting
   slug: cachet-gig-onboarding
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cachet Parking Connect API
+  slug: open-cachet-connect-api
+- collection_type: open
+  name: Cachet Parking Connect Gig-Events API
+  slug: open-cachet-gig-events-api
+- collection_type: open
+  name: Cachet Parking Connect User API
+  slug: open-cachet-user-api
+- collection_type: open
+  name: Cachet Parking Connect Vehicle events API
+  slug: open-cachet-vehicle-events-api
 common:
 - group: other
   title: ''
@@ -168,7 +184,7 @@ overview: 'Cachet publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cachet''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 16
+random_paper: 20
 score:
   band: developing
   composite: 43.5
@@ -198,7 +214,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/screenshots/cachet-2026-07-25T204205.png
 security:

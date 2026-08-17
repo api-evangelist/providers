@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: The List API from Federal Bureau of Investigation — 1 operation(s) for list.
   name: Federal Bureau of Investigation List API
   slug: federal-bureau-of-investigation-list-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FBI Most Wanted List API
+  slug: open-federal-bureau-of-investigation-list-api
 - collection_type: open
   name: FBI Most Wanted
   slug: open-most-wanted-api
@@ -94,7 +100,7 @@ plans:
 - name: Federal Bureau Of Investigation Plans Pricing
   plan_count: 3
   slug: federal-bureau-of-investigation-plans-pricing
-random_paper: 7
+random_paper: 147
 rate_limits:
 - limit_count: 5
   name: Federal Bureau Of Investigation Rate Limits
@@ -125,7 +131,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/screenshots/federal-bureau-of-investigation-2026-06-20T181110.png
 security:

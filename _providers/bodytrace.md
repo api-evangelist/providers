@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Modeled device enrollment and delivery configuration.
   name: BodyTrace Provisioning API
   slug: bodytrace-provisioning-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BodyTrace RPM Data Alerts API
+  slug: open-bodytrace-alerts-api
+- collection_type: open
+  name: BodyTrace RPM Data Alerts Data Messages API
+  slug: open-bodytrace-data-messages-api
+- collection_type: open
+  name: BodyTrace RPM Data Alerts Devices API
+  slug: open-bodytrace-devices-api
+- collection_type: open
+  name: BodyTrace RPM Data Alerts Observations API
+  slug: open-bodytrace-observations-api
+- collection_type: open
+  name: BodyTrace RPM Data Alerts Provisioning API
+  slug: open-bodytrace-provisioning-api
 - collection_type: open
   name: BodyTrace RPM Data API
   slug: open-bodytrace
@@ -116,7 +134,7 @@ plans:
 - name: Bodytrace Plans Pricing
   plan_count: 2
   slug: bodytrace-plans-pricing
-random_paper: 117
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Bodytrace Rate Limits
@@ -147,7 +165,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/screenshots/bodytrace-2026-07-25T203525.png
 security:

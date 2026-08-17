@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Text summarization and keyword extraction
   name: TextGears Summarization API
   slug: textgears-summarization-api
-artifact_total: 23
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TextGears Account API
+  slug: open-textgears-account-api
+- collection_type: open
+  name: TextGears Account Dictionaries API
+  slug: open-textgears-dictionaries-api
+- collection_type: open
+  name: TextGears Account Exceptions API
+  slug: open-textgears-exceptions-api
+- collection_type: open
+  name: TextGears Account Grammar API
+  slug: open-textgears-grammar-api
+- collection_type: open
+  name: TextGears Account Language API
+  slug: open-textgears-language-api
+- collection_type: open
+  name: TextGears Account Readability API
+  slug: open-textgears-readability-api
+- collection_type: open
+  name: TextGears Account Summarization API
+  slug: open-textgears-summarization-api
 common:
 - group: agent
   title: ''
@@ -164,7 +189,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 23
+random_paper: 89
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -198,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/screenshots/textgears-2026-06-20T195206.png
 security:

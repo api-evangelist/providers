@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,8 +75,35 @@ apis:
 - description: Metadata about time series observations
   name: US Geological Survey Time Series Metadata API
   slug: us-geological-survey-time-series-metadata-api
-artifact_total: 26
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USGS Earthquake Catalog Collections API
+  slug: open-us-geological-survey-collections-api
+- collection_type: open
+  name: USGS Earthquake Catalog Collections Continuous Values API
+  slug: open-us-geological-survey-continuous-values-api
+- collection_type: open
+  name: USGS Earthquake Catalog Collections Daily Values API
+  slug: open-us-geological-survey-daily-values-api
+- collection_type: open
+  name: USGS Earthquake Catalog Collections Earthquakes API
+  slug: open-us-geological-survey-earthquakes-api
+- collection_type: open
+  name: USGS Earthquake Catalog Collections Field Measurements API
+  slug: open-us-geological-survey-field-measurements-api
+- collection_type: open
+  name: USGS Earthquake Catalog Collections Metadata API
+  slug: open-us-geological-survey-metadata-api
+- collection_type: open
+  name: USGS Earthquake Catalog Collections Monitoring Locations API
+  slug: open-us-geological-survey-monitoring-locations-api
+- collection_type: open
+  name: USGS Earthquake Catalog Collections Time Series Metadata API
+  slug: open-us-geological-survey-time-series-metadata-api
 - collection_type: open
   name: USGS Earthquake Catalog API
   slug: open-usgs-earthquake-catalog
@@ -144,7 +171,7 @@ plans:
 - name: Us Geological Survey Plans Pricing
   plan_count: 1
   slug: us-geological-survey-plans-pricing
-random_paper: 14
+random_paper: 117
 rate_limits:
 - limit_count: 2
   name: Us Geological Survey Rate Limits
@@ -192,7 +219,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/screenshots/us-geological-survey-2026-06-20T200630.png
 security:

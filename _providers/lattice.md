@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -72,7 +72,35 @@ apis:
 - description: Manage and retrieve user records
   name: Lattice Users API
   slug: lattice-users-api
-artifact_total: 27
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lattice HRIS Competencies API
+  slug: open-lattice-competencies-api
+- collection_type: open
+  name: Lattice HRIS Competencies Departments API
+  slug: open-lattice-departments-api
+- collection_type: open
+  name: Lattice HRIS Competencies Feedbacks API
+  slug: open-lattice-feedbacks-api
+- collection_type: open
+  name: Lattice HRIS Competencies Goal Updates API
+  slug: open-lattice-goal-updates-api
+- collection_type: open
+  name: Lattice HRIS Competencies Goals API
+  slug: open-lattice-goals-api
+- collection_type: open
+  name: Lattice HRIS Competencies Me API
+  slug: open-lattice-me-api
+- collection_type: open
+  name: Lattice HRIS Competencies Tags API
+  slug: open-lattice-tags-api
+- collection_type: open
+  name: Lattice HRIS Competencies Users API
+  slug: open-lattice-users-api
 common:
 - group: agent
   title: ''
@@ -214,7 +242,7 @@ plans:
 - name: Lattice Plans Pricing
   plan_count: 6
   slug: lattice-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 3
   name: Lattice Rate Limits
@@ -248,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/screenshots/lattice-2026-06-20T184350.png
 security:

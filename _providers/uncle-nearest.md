@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -55,7 +55,35 @@ apis:
 - description: The Venues API from Uncle Nearest — 3 operation(s) for venues.
   name: Uncle Nearest Venues API
   slug: uncle-nearest-venues-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Events Calendar REST Categories API
+  slug: open-uncle-nearest-categories-api
+- collection_type: open
+  name: Events Calendar REST Common API
+  slug: open-uncle-nearest-common-api
+- collection_type: open
+  name: Events Calendar REST Doc API
+  slug: open-uncle-nearest-doc-api
+- collection_type: open
+  name: Uncle Nearest Events API
+  slug: open-uncle-nearest-events-api
+- collection_type: open
+  name: Events Calendar REST Events Pro API
+  slug: open-uncle-nearest-events-pro-api
+- collection_type: open
+  name: Events Calendar REST Organizers API
+  slug: open-uncle-nearest-organizers-api
+- collection_type: open
+  name: Events Calendar REST Tags API
+  slug: open-uncle-nearest-tags-api
+- collection_type: open
+  name: Events Calendar REST Venues API
+  slug: open-uncle-nearest-venues-api
 common:
 - group: agent
   title: ''
@@ -181,7 +209,7 @@ overview: 'Uncle Nearest publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Uncle Nearest''s developer surface includes support, FAQ, YouTube channel, authentication, and 23 more developer resources.'
-random_paper: 14
+random_paper: 142
 score:
   band: thin
   composite: 29.1
@@ -205,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

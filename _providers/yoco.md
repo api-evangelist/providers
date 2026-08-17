@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Register and manage webhook endpoints for event notifications.
   name: Yoco Webhooks API
   slug: yoco-webhooks-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yoco Online Payments Checkout API
+  slug: open-yoco-checkout-api
+- collection_type: open
+  name: Yoco Online Payments Checkout Payment Links API
+  slug: open-yoco-payment-links-api
+- collection_type: open
+  name: Yoco Online Checkout Payments API
+  slug: open-yoco-payments-api
+- collection_type: open
+  name: Yoco Online Payments Checkout Refunds API
+  slug: open-yoco-refunds-api
+- collection_type: open
+  name: Yoco Online Payments Checkout Webhooks API
+  slug: open-yoco-webhooks-api
 - collection_type: open
   name: Yoco Online Payments API
   slug: open-yoco
@@ -116,7 +134,7 @@ plans:
 - name: Yoco Plans Pricing
   plan_count: 3
   slug: yoco-plans-pricing
-random_paper: 82
+random_paper: 144
 rate_limits:
 - limit_count: 3
   name: Yoco Rate Limits
@@ -147,7 +165,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

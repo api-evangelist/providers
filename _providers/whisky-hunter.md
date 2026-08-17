@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: The Distilleries API from Whisky Hunter — 2 operation(s) for distilleries.
   name: Whisky Hunter Distilleries API
   slug: whisky-hunter-distilleries-api
-artifact_total: 18
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Whisky Hunter Auctions API
+  slug: open-whisky-hunter-auctions-api
+- collection_type: open
+  name: Whisky Hunter Auctions Distilleries API
+  slug: open-whisky-hunter-distilleries-api
 - collection_type: open
   name: Whisky Hunter API
   slug: open-whisky-hunter
@@ -138,7 +147,7 @@ plans:
 - name: Whisky Hunter Plans Pricing
   plan_count: 3
   slug: whisky-hunter-plans-pricing
-random_paper: 58
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Whisky Hunter Rate Limits
@@ -186,7 +195,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/screenshots/whisky-hunter-2026-06-20T201439.png
 security:

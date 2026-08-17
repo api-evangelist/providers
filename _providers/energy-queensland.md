@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,7 +37,14 @@ apis:
 - description: The consumer-authorised half of the Consumer Data Right energy obligation that Ergon Energy Queensland Pty Ltd is designated to meet as a data holder - electricity service points, usage, distributed e
   name: Ergon Energy Retail CDR Energy Consumer Data API
   slug: ergon-energy-retail-cdr-energy-consumer-data-api
-artifact_total: 9
+artifact_total: 11
+collections:
+- collection_type: open
+  name: CDR Common API
+  slug: open-energy-queensland-cds-common
+- collection_type: open
+  name: CDR Energy API
+  slug: open-energy-queensland-cds-energy
 common:
 - group: agent
   title: ''
@@ -172,7 +179,7 @@ overview: 'Energy Queensland publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Energy Queensland''s developer surface includes authentication, changelog, API reference, status page, documentation, and 24 more developer resources.'
-random_paper: 87
+random_paper: 128
 rate_limits:
 - limit_count: 15
   name: Energy Queensland Rate Limits
@@ -211,7 +218,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/screenshots/energy-queensland-2026-08-07T164903.png
 security:

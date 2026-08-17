@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -102,7 +102,74 @@ apis:
 - description: Tax Codes API
   name: Pleo tax-codes API
   slug: pleo-tax-codes-api
-artifact_total: 55
+artifact_total: 77
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: App Marketplace accounting-entries API
+  slug: open-pleo-accounting-entries-api
+- collection_type: open
+  name: App Marketplace accounting-entries accounting-entries-external API
+  slug: open-pleo-accounting-entries-external-api
+- collection_type: open
+  name: App Marketplace accounting-entries AccountingEntryEnrichmentV2 API
+  slug: open-pleo-accountingentryenrichmentv2-api
+- collection_type: open
+  name: App Marketplace accounting-entries Accounts API
+  slug: open-pleo-accounts-api
+- collection_type: open
+  name: App Marketplace accounting-entries Companies API
+  slug: open-pleo-companies-api
+- collection_type: open
+  name: App Marketplace accounting-entries Employees API
+  slug: open-pleo-employees-api
+- collection_type: open
+  name: App Marketplace accounting-entries Export API (v0) API
+  slug: open-pleo-export-api-v0-api
+- collection_type: open
+  name: App Marketplace accounting-entries Export API (v1) API
+  slug: open-pleo-export-api-v1-api
+- collection_type: open
+  name: App Marketplace accounting-entries Export API (v2) API
+  slug: open-pleo-export-api-v2-api
+- collection_type: open
+  name: App Marketplace accounting-entries Export API (v3) API
+  slug: open-pleo-export-api-v3-api
+- collection_type: open
+  name: App Marketplace accounting-entries Export Items (v0) API
+  slug: open-pleo-export-items-v0-api
+- collection_type: open
+  name: App Marketplace accounting-entries Export Items (v1) API
+  slug: open-pleo-export-items-v1-api
+- collection_type: open
+  name: App Marketplace accounting-entries Export Items (v2) API
+  slug: open-pleo-export-items-v2-api
+- collection_type: open
+  name: App Marketplace accounting-entries Export Items (v3) API
+  slug: open-pleo-export-items-v3-api
+- collection_type: open
+  name: App Marketplace accounting-entries External Clients API
+  slug: open-pleo-external-clients-api
+- collection_type: open
+  name: App Marketplace accounting-entries external-vendors API
+  slug: open-pleo-external-vendors-api
+- collection_type: open
+  name: App Marketplace accounting-entries Installations API
+  slug: open-pleo-installations-api
+- collection_type: open
+  name: App Marketplace accounting-entries Subscriptions API
+  slug: open-pleo-subscriptions-api
+- collection_type: open
+  name: App Marketplace accounting-entries tag-groups API
+  slug: open-pleo-tag-groups-api
+- collection_type: open
+  name: App Marketplace accounting-entries tags API
+  slug: open-pleo-tags-api
+- collection_type: open
+  name: App Marketplace accounting-entries tax-codes API
+  slug: open-pleo-tax-codes-api
 common:
 - group: agent
   title: ''
@@ -276,7 +343,7 @@ plans:
 - name: Pleo Plans Pricing
   plan_count: 4
   slug: pleo-plans-pricing
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 3
   name: Pleo Rate Limits
@@ -316,7 +383,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/screenshots/pleo-2026-06-20T191811.png
 security:

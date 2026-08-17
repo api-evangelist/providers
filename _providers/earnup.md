@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,7 +83,7 @@ overview: 'EarnUp is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   EarnUp''s developer surface includes signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: emerging
   composite: 20.1
@@ -103,7 +103,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earnup/refs/heads/main/screenshots/earnup-2026-07-25T212702.png
 security:

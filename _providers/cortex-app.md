@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,8 +66,20 @@ apis:
 - description: Scorecard operations
   name: Cortex Scorecards API
   slug: cortex-app-scorecards-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cortex Catalog API
+  slug: open-cortex-app-catalog-api
+- collection_type: open
+  name: Cortex Catalog Initiatives API
+  slug: open-cortex-app-initiatives-api
+- collection_type: open
+  name: Cortex Catalog Scorecards API
+  slug: open-cortex-app-scorecards-api
 - collection_type: open
   name: Cortex API
   slug: open-cortex-app
@@ -140,7 +152,7 @@ plans:
 - name: Cortex App Plans Pricing
   plan_count: 1
   slug: cortex-app-plans-pricing
-random_paper: 67
+random_paper: 133
 rate_limits:
 - limit_count: 2
   name: Cortex App Rate Limits
@@ -165,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cortex-app/refs/heads/main/screenshots/cortex-app-2026-06-20T175111.png
 security:

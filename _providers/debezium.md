@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -53,11 +53,29 @@ apis:
 - description: The Tasks API from Debezium — 3 operation(s) for tasks.
   name: Debezium Tasks API
   slug: debezium-tasks-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Debezium Kafka Connect REST Cluster API
+  slug: open-debezium-cluster-api
 - collection_type: open
   name: Debezium Kafka Connect REST API
   slug: open-debezium-connect
+- collection_type: open
+  name: Debezium Kafka Connect REST Cluster Connectors API
+  slug: open-debezium-connectors-api
+- collection_type: open
+  name: Debezium Kafka Connect REST Cluster Offsets API
+  slug: open-debezium-offsets-api
+- collection_type: open
+  name: Debezium Kafka Connect REST Cluster Plugins API
+  slug: open-debezium-plugins-api
+- collection_type: open
+  name: Debezium Kafka Connect REST Cluster Tasks API
+  slug: open-debezium-tasks-api
 common:
 - group: agent
   title: ''
@@ -139,7 +157,7 @@ plans:
 - name: Debezium Plans Pricing
   plan_count: 3
   slug: debezium-plans-pricing
-random_paper: 13
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Debezium Rate Limits
@@ -181,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/screenshots/debezium-2026-06-20T175745.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Fetch resource files from the config repository
   name: Spring Cloud Config Resources API
   slug: spring-cloud-config-resources-api
-artifact_total: 20
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spring Cloud Config Server Configuration API
+  slug: open-spring-cloud-config-configuration-api
+- collection_type: open
+  name: Spring Cloud Config Server Configuration Encryption API
+  slug: open-spring-cloud-config-encryption-api
+- collection_type: open
+  name: Spring Cloud Config Server Configuration Monitoring API
+  slug: open-spring-cloud-config-monitoring-api
+- collection_type: open
+  name: Spring Cloud Config Server Configuration Resources API
+  slug: open-spring-cloud-config-resources-api
 - collection_type: open
   name: Spring Cloud Config Server API
   slug: open-spring-cloud-config-server-api
@@ -163,7 +178,7 @@ plans:
 - name: Spring Cloud Config Plans Pricing
   plan_count: 3
   slug: spring-cloud-config-plans-pricing
-random_paper: 114
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Spring Cloud Config Rate Limits
@@ -205,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/screenshots/spring-cloud-config-2026-06-20T194410.png
 security:

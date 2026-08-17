@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 3
@@ -265,7 +265,7 @@ arazzos:
 - description: Open a managed portfolio for a client and place and track a security order.
   name: Temenos Wealth Open Portfolio And Place Order
   slug: temenos-wealth-open-portfolio-place-order-workflow
-artifact_total: 123
+artifact_total: 182
 asyncapis:
 - description: Event-driven architecture for Temenos banking platform providing asynchronous integration through business and system events published to Apache Kafka topics. Enables loose coupling of Packaged Busine
   name: Temenos Banking Events
@@ -308,41 +308,218 @@ collections:
   name: Temenos Wealth API
   slug: postman-temenos-wealth
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts API
+  slug: open-temenos-accounts-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Accounts Arrangement Details API
+  slug: open-temenos-accounts-arrangement-details-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Alert Management API
+  slug: open-temenos-alert-management-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Analytics Data Store API
+  slug: open-temenos-analytics-data-store-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Application Metering API
+  slug: open-temenos-application-metering-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Application Packages API
+  slug: open-temenos-application-packages-api
+- collection_type: open
   name: Temenos Buy Now Pay Later API
   slug: open-temenos-bnpl
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Bulk Payments API
+  slug: open-temenos-bulk-payments-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Callback Registry API
+  slug: open-temenos-callback-registry-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Cards API
+  slug: open-temenos-cards-api
 - collection_type: open
   name: Temenos Cloud Banking (CMB) API
   slug: open-temenos-cloud-banking
 - collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Configuration Management API
+  slug: open-temenos-configuration-management-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Consent API
+  slug: open-temenos-consent-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Credit Offers API
+  slug: open-temenos-credit-offers-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Customer Risk Assessment API
+  slug: open-temenos-customer-risk-assessment-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Customers API
+  slug: open-temenos-customers-api
+- collection_type: open
   name: Temenos Transact Data Hub API
   slug: open-temenos-data-hub
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Data Streaming API
+  slug: open-temenos-data-streaming-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Delivery API
+  slug: open-temenos-delivery-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Deposits API
+  slug: open-temenos-deposits-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Direct Debits API
+  slug: open-temenos-direct-debits-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Enterprise API
+  slug: open-temenos-enterprise-api
 - collection_type: open
   name: Temenos Enterprise Product and Pricing API
   slug: open-temenos-enterprise-product-pricing
 - collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Entitlements API
+  slug: open-temenos-entitlements-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Event Store API
+  slug: open-temenos-event-store-api
+- collection_type: open
   name: Temenos Financial Crime Mitigation API
   slug: open-temenos-financial-crime-mitigation
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Form Groups API
+  slug: open-temenos-form-groups-api
 - collection_type: open
   name: Temenos Fund Administration API
   slug: open-temenos-fund-administration
 - collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Holdings API
+  slug: open-temenos-holdings-api
+- collection_type: open
   name: Temenos Infinity Digital Banking API
   slug: open-temenos-infinity
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Inventory API
+  slug: open-temenos-inventory-api
 - collection_type: open
   name: Temenos Journey Manager API
   slug: open-temenos-journey-manager
 - collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Lending API
+  slug: open-temenos-lending-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Loans API
+  slug: open-temenos-loans-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Merchants API
+  slug: open-temenos-merchants-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Meta API
+  slug: open-temenos-meta-api
+- collection_type: open
   name: Temenos Transact Microservices API
   slug: open-temenos-microservices
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Notifications API
+  slug: open-temenos-notifications-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Operational Data Store API
+  slug: open-temenos-operational-data-store-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Order API
+  slug: open-temenos-order-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Package Details API
+  slug: open-temenos-package-details-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Party API
+  slug: open-temenos-party-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Party Details API
+  slug: open-temenos-party-details-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Payment Configuration API
+  slug: open-temenos-payment-configuration-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Payment Orders API
+  slug: open-temenos-payment-orders-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Payment Stops API
+  slug: open-temenos-payment-stops-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Payments API
+  slug: open-temenos-payments-api
 - collection_type: open
   name: Temenos Payments API
   slug: open-temenos-payments
 - collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Pricing Adjustment API
+  slug: open-temenos-pricing-adjustment-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Pricing Arrangement Details API
+  slug: open-temenos-pricing-arrangement-details-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Pricing Quotation API
+  slug: open-temenos-pricing-quotation-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Product API
+  slug: open-temenos-product-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Promotions API
+  slug: open-temenos-promotions-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts PSD2 Accounts API
+  slug: open-temenos-psd2-accounts-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Reference API
+  slug: open-temenos-reference-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Request to Pay API
+  slug: open-temenos-request-to-pay-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Sanction Screening API
+  slug: open-temenos-sanction-screening-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Service Definitions API
+  slug: open-temenos-service-definitions-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Service Orchestrator API
+  slug: open-temenos-service-orchestrator-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Settings API
+  slug: open-temenos-settings-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Standing Orders API
+  slug: open-temenos-standing-orders-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts System API
+  slug: open-temenos-system-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Tasks API
+  slug: open-temenos-tasks-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Traceability API
+  slug: open-temenos-traceability-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Trade Finance API
+  slug: open-temenos-trade-finance-api
+- collection_type: open
   name: Temenos Transact API
   slug: open-temenos-transact
 - collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Transaction Monitoring API
+  slug: open-temenos-transaction-monitoring-api
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Transactions API
+  slug: open-temenos-transactions-api
+- collection_type: open
   name: Temenos Wealth API
   slug: open-temenos-wealth
+- collection_type: open
+  name: Temenos Buy Now Pay Later Accounts Workspaces API
+  slug: open-temenos-workspaces-api
 common:
 - group: agent
   title: ''
@@ -643,7 +820,7 @@ plans:
 - name: Temenos Plans Pricing
   plan_count: 1
   slug: temenos-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Temenos Rate Limits
@@ -704,7 +881,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/screenshots/temenos-2026-06-20T195053.png
 security:

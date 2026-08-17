@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: The VehicleCheck API from Track-POD — 3 operation(s) for vehiclecheck.
   name: Track-POD VehicleCheck API
   slug: track-pod-vehiclecheck-api
-artifact_total: 51
+artifact_total: 60
 collections:
 - collection_type: postman
   name: Track-POD Address API
@@ -90,6 +90,33 @@ collections:
 - collection_type: postman
   name: Track-POD Address VehicleCheck API
   slug: postman-track-pod-vehiclecheck-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Track-POD Address API
+  slug: open-track-pod-address-api
+- collection_type: open
+  name: Track-POD Address Driver API
+  slug: open-track-pod-driver-api
+- collection_type: open
+  name: Track-POD Address Order API
+  slug: open-track-pod-order-api
+- collection_type: open
+  name: Track-POD Address RejectReason API
+  slug: open-track-pod-rejectreason-api
+- collection_type: open
+  name: Track-POD Address Route API
+  slug: open-track-pod-route-api
+- collection_type: open
+  name: Track-POD Address Test API
+  slug: open-track-pod-test-api
+- collection_type: open
+  name: Track-POD Address Vehicle API
+  slug: open-track-pod-vehicle-api
+- collection_type: open
+  name: Track-POD Address VehicleCheck API
+  slug: open-track-pod-vehiclecheck-api
 - collection_type: open
   name: Track-POD API
   slug: open-track-pod
@@ -272,7 +299,7 @@ plans:
 - name: Track Pod Plans Pricing
   plan_count: 8
   slug: track-pod-plans-pricing
-random_paper: 61
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Track Pod Rate Limits
@@ -314,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/screenshots/track-pod-2026-06-20T195516.png
 security:

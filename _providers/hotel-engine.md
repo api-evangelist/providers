@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -40,7 +40,23 @@ apis:
 - description: The LodgingShoppingService API from Engine — 2 operation(s) for lodgingshoppingservice.
   name: Engine Lodging Shopping Service API
   slug: hotel-engine-lodgingshoppingservice-api
-artifact_total: 11
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Omni, Powered by Engine Catalog Service API
+  slug: open-hotel-engine-catalogservice-api
+- collection_type: open
+  name: Omni, Powered by Engine Content Service API
+  slug: open-hotel-engine-contentservice-api
+- collection_type: open
+  name: Omni, Powered by Engine Lodging Booking Service API
+  slug: open-hotel-engine-lodgingbookingservice-api
+- collection_type: open
+  name: Omni, Powered by Engine Lodging Shopping Service API
+  slug: open-hotel-engine-lodgingshoppingservice-api
 common:
 - group: other
   title: ''
@@ -190,7 +206,7 @@ overview: 'Engine publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Engine''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 16
   name: Hotel Engine Rate Limits
@@ -224,7 +240,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/screenshots/hotel-engine-2026-08-07T170318.png
 security:

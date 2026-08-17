@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -69,8 +69,26 @@ apis:
 - description: Index, update, and delete documents
   name: Apache Solr Update API
   slug: apache-solr-update-api
-artifact_total: 39
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Solr HTTP Cluster API
+  slug: open-apache-solr-cluster-api
+- collection_type: open
+  name: Apache Solr HTTP Cluster Collections API
+  slug: open-apache-solr-collections-api
+- collection_type: open
+  name: Apache Solr HTTP Cluster Query API
+  slug: open-apache-solr-query-api
+- collection_type: open
+  name: Apache Solr HTTP Cluster Schema API
+  slug: open-apache-solr-schema-api
+- collection_type: open
+  name: Apache Solr HTTP Cluster Update API
+  slug: open-apache-solr-update-api
 - collection_type: open
   name: Apache Solr HTTP API
   slug: open-apache-solr
@@ -201,7 +219,7 @@ plans:
 - name: Apache Solr Plans Pricing
   plan_count: 3
   slug: apache-solr-plans-pricing
-random_paper: 23
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Apache Solr Rate Limits
@@ -226,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/screenshots/apache-solr-2026-06-20T172145.png
 security:

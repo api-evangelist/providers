@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'REST API over Daloopa''s fundamental dataset — company discovery, fundamental series and values, calendar/fiscal period handling, taxonomy metrics and industry templates, SEC document lookup, document '
@@ -27,11 +27,18 @@ apis:
 - description: Hosted remote MCP server (Streamable HTTP) exposing nine tools over the same fundamental dataset — discover_companies, discover_company_series, discover_company_documents, get_company_fundamentals, ge
   name: Daloopa MCP Server
   slug: daloopa-mcp-server
-artifact_total: 10
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Daloopa Webhooks
   slug: daloopa-webhooks
+collections:
+- collection_type: open
+  name: Daloopa API
+  slug: open-daloopa-api
+- collection_type: open
+  name: Daloopa MCP Service
+  slug: open-daloopa-mcp-service
 common:
 - group: company
   title: ''
@@ -163,7 +170,7 @@ plans:
 - name: Daloopa Plans Pricing
   plan_count: 0
   slug: daloopa-plans-pricing
-random_paper: 16
+random_paper: 140
 rate_limits:
 - limit_count: 1
   name: Daloopa Rate Limits
@@ -171,6 +178,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 63.8
@@ -178,6 +186,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 50.0
+  previous_composite: 50.4
   regulatory:
     applies: true
     matched_via: tags
@@ -185,7 +194,8 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Daloopa Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Storefronts API from Apple Music — 3 operation(s) for storefronts.
   name: Apple Music Storefronts API
   slug: apple-music-storefronts-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apple Music Catalog API
+  slug: open-apple-music-catalog-api
+- collection_type: open
+  name: Apple Music Catalog Charts API
+  slug: open-apple-music-charts-api
+- collection_type: open
+  name: Apple Music Catalog Library API
+  slug: open-apple-music-library-api
+- collection_type: open
+  name: Apple Music Catalog Search API
+  slug: open-apple-music-search-api
+- collection_type: open
+  name: Apple Music Catalog Storefronts API
+  slug: open-apple-music-storefronts-api
 - collection_type: open
   name: Apple Music API
   slug: open-apple-music
@@ -127,7 +145,7 @@ plans:
 - name: Apple Music Plans Pricing
   plan_count: 2
   slug: apple-music-plans-pricing
-random_paper: 40
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Apple Music Rate Limits
@@ -152,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/screenshots/apple-music-2026-06-20T172322.png
 security:

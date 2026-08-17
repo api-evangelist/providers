@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -141,7 +141,7 @@ overview: 'BEKHealth is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BEKHealth''s developer surface includes engineering blog, support, pricing, FAQ, authentication, and 17 more developer resources.'
-random_paper: 96
+random_paper: 42
 scopes:
 - name: Bekhealth Scopes
   scope_count: 0
@@ -168,7 +168,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bekhealth/refs/heads/main/screenshots/bekhealth-2026-08-07T162257.png
 security:

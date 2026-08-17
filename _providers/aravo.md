@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -111,7 +111,7 @@ overview: 'Aravo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aravo''s developer surface includes support, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: minimal
   composite: 10.6
@@ -127,7 +127,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aravo/refs/heads/main/screenshots/aravo-2026-08-07T161612.png
 security:

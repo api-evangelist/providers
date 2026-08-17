@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Homebase REST API provides programmatic access to employee scheduling, time tracking, payroll synchronization, and team management features. Authenticated via API key, it enables third-party devel
@@ -128,7 +128,7 @@ plans:
 - name: Homebase Plans Pricing
   plan_count: 4
   slug: homebase-plans-pricing
-random_paper: 116
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Homebase Rate Limits
@@ -146,7 +146,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/screenshots/homebase-2026-06-20T182820.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -50,8 +50,20 @@ apis:
 - description: Incident creation request status
   name: Squadcast Requests API
   slug: squadcast-requests-api
-artifact_total: 8
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Squadcast Public Authentication API
+  slug: open-squadcast-authentication-api
+- collection_type: open
+  name: Squadcast Public Authentication Incidents API
+  slug: open-squadcast-incidents-api
+- collection_type: open
+  name: Squadcast Public Authentication Requests API
+  slug: open-squadcast-requests-api
 - collection_type: open
   name: Squadcast Public API
   slug: open-squadcast
@@ -108,7 +120,7 @@ overview: 'Squadcast publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Squadcast''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 9
+random_paper: 75
 score:
   band: thin
   composite: 32.4
@@ -129,7 +141,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/screenshots/squadcast-2026-06-20T194432.png
 security:

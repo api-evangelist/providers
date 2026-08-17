@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ arazzos:
 - description: Resolve a user by client_user_id, list their devices, and fetch the first device in detail.
   name: Vital Inventory a User's Connected Devices
   slug: vital-io-user-device-inventory-workflow
-artifact_total: 104
+artifact_total: 123
 collections:
 - collection_type: postman
   name: Vital Lab Report Parser API
@@ -147,6 +147,60 @@ collections:
 - collection_type: postman
   name: Vital Wearables Data API
   slug: postman-vital-wearables-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate API
+  slug: open-vital-io-aggregate-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate compendium API
+  slug: open-vital-io-compendium-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate insurance API
+  slug: open-vital-io-insurance-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate introspect API
+  slug: open-vital-io-introspect-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate lab_account API
+  slug: open-vital-io-lab-account-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate lab_report API
+  slug: open-vital-io-lab-report-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate lab_tests API
+  slug: open-vital-io-lab-tests-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate link API
+  slug: open-vital-io-link-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate order API
+  slug: open-vital-io-order-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate order_transaction API
+  slug: open-vital-io-order-transaction-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate orders API
+  slug: open-vital-io-orders-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate payor API
+  slug: open-vital-io-payor-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate providers API
+  slug: open-vital-io-providers-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate summary API
+  slug: open-vital-io-summary-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate team API
+  slug: open-vital-io-team-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate timeseries API
+  slug: open-vital-io-timeseries-api
+- collection_type: open
+  name: Vital Lab Report Parser Aggregate user API
+  slug: open-vital-io-user-api
 - collection_type: open
   name: Vital Lab Report Parser API
   slug: open-vital-lab-report-parser-api
@@ -408,6 +462,74 @@ common:
   title: ''
   type: FinOps
   url: finops/vital-io-finops.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://vital.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://vital.io/help/en/collections/19470958-integration-guide
+- group: operate
+  title: ''
+  type: Support
+  url: https://vital.io/help
+- group: company
+  title: ''
+  type: Blog
+  url: https://vital.io/newsroom
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://vital.io/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://vital.io/terms
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.vital.io/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/vital-io-lifecycle.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/vital-io-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/vital-io-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/vital-io-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vital-io-domain-security.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/vital-io-lifecycle.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/vital-io-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/vital-io-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/vital-io-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vital-io-domain-security.yml
 created: '2026-05-25'
 description: Vital (now operating as Junction, formerly tryVital) is a health-data API platform that gives digital-health, virtual-care, diagnostics, wellness, and EHR/EMR builders a single integration to wearable-device data and nationwide lab testing. Connect 300+ wearables and health devices — Apple HealthKit, Android Health Connect, Oura, Whoop, Garmin, Fitbit, Withings, Dexcom, Freestyle Libre, Withings, Polar, and the rest — through the Vital Link Widget; ingest normalized daily summaries and per-sample timeseries for sleep, activity, body, workouts, heart rate, HRV, glucose, blood pressure, SpO2, ECG, and menstrual cycle; order at-home testkits, at-home phlebotomy, walk-in / Patient Service Center lab collection, and on-site collection across all 50 U.S. states; retrieve structured biomarker results; and run Junction Sense continuous queries to turn raw data into clinically actionable insights. Backed by SOC 2 Type 2, ISO 27001, GDPR-ready, and HIPAA-compliant infrastructure with
   both US and EU regional deployments.
@@ -532,12 +654,12 @@ overview: 'Vital publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
   The Vital catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vital''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, developer console, signup flow, and 52 more developer resources.'
+  Vital''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, developer console, signup flow, and 69 more developer resources.'
 plans:
 - name: Vital Io Plans Pricing
   plan_count: 4
   slug: vital-io-plans-pricing
-random_paper: 85
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Vital Io Rate Limits
@@ -560,15 +682,15 @@ rules:
     warn: 5
   slug: vital-rules
 score:
-  band: strong
-  composite: 60.5
-  delta: 0.0
+  band: exemplar
+  composite: 71.6
+  delta: 11.1
   facets:
-    commercial_clarity: 63.2
+    commercial_clarity: 100.0
     contract_quality: 72.7
-    developer_ergonomics: 71.7
+    developer_ergonomics: 78.3
     discoverability: 68.5
-    governance: 68.8
+    governance: 81.3
     operational_transparency: 55.3
   previous_composite: 60.5
   provenance:
@@ -583,10 +705,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.3
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/screenshots/vital-io-2026-06-20T201103.png
 security:
 - kind: authentication
@@ -597,6 +719,10 @@ security:
   name: Vital Io Domain Security
   slug: vital-io-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Vital Io Trust Center
+  slug: vital-io-trust-center
+  summary_line: SOC 2, HITRUST CSF, HIPAA, NIST CSF
 slug: vital-io
 solutions:
 - description: One API for the two hardest health-data integrations — wearables and labs — so a small team can ship a clinical-grade product without negotiating individual vendor contracts.
@@ -645,5 +771,5 @@ use_cases:
   name: Population-health and research cohorts
 - description: Expose normalized wearable + lab data to AI agents (via Naftiko capabilities or MCP) so agents can reason over a patient's biomarkers, sleep, and activity without bespoke per-source adapters.
   name: AI agents over patient health data
-website: https://www.junction.com
+website: https://vital.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Real-time and scheduled rail departure and arrival data
   name: TransportAPI Rail Information API
   slug: transportapi-rail-information-api
-artifact_total: 16
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Transport Bus Information API
+  slug: open-transportapi-bus-information-api
+- collection_type: open
+  name: Transport Bus Information Journey Planner API
+  slug: open-transportapi-journey-planner-api
+- collection_type: open
+  name: Transport Bus Information Places API
+  slug: open-transportapi-places-api
+- collection_type: open
+  name: Transport Bus Information Rail Information API
+  slug: open-transportapi-rail-information-api
 - collection_type: open
   name: TransportAPI
   slug: open-transportapi
@@ -132,7 +147,7 @@ plans:
 - name: Transportapi Plans Pricing
   plan_count: 3
   slug: transportapi-plans-pricing
-random_paper: 119
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Transportapi Rate Limits
@@ -166,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/screenshots/transportapi-2026-06-20T195629.png
 security:

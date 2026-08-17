@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 3
@@ -63,8 +63,35 @@ apis:
 - description: Image and workload vulnerability scanning and results.
   name: ARMO Vulnerabilities API
   slug: armosec-vulnerabilities-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ARMO Platform Access Keys API
+  slug: open-armosec-access-keys-api
+- collection_type: open
+  name: ARMO Platform Access Keys Clusters API
+  slug: open-armosec-clusters-api
+- collection_type: open
+  name: ARMO Platform Access Keys Integrations API
+  slug: open-armosec-integrations-api
+- collection_type: open
+  name: ARMO Platform Access Keys Posture API
+  slug: open-armosec-posture-api
+- collection_type: open
+  name: ARMO Platform Access Keys Registry API
+  slug: open-armosec-registry-api
+- collection_type: open
+  name: ARMO Platform Access Keys Runtime API
+  slug: open-armosec-runtime-api
+- collection_type: open
+  name: ARMO Platform Access Keys Security Risks API
+  slug: open-armosec-security-risks-api
+- collection_type: open
+  name: ARMO Platform Access Keys Vulnerabilities API
+  slug: open-armosec-vulnerabilities-api
 - collection_type: open
   name: ARMO Platform API
   slug: open-armosec
@@ -134,7 +161,7 @@ plans:
 - name: Armosec Plans Pricing
   plan_count: 4
   slug: armosec-plans-pricing
-random_paper: 26
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Armosec Rate Limits
@@ -159,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/screenshots/armosec-2026-07-25T201225.png
 security:

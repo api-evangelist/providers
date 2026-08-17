@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -83,12 +83,60 @@ apis:
 - description: The Virtualfields API from Axiom — 2 operation(s) for virtualfields.
   name: Axiom Virtualfields API
   slug: axiom-virtualfields-api
-artifact_total: 49
+artifact_total: 65
 asyncapis:
 - description: 'Axiom delivers monitor-triggered alerts to user-configured HTTP endpoints via the Custom Webhook Notifier. A monitor (match, threshold, or anomaly) runs a periodic query over event data, and when its '
   name: Axiom Custom Webhook Notifier
   slug: axiom-custom-webhook-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Axiom REST Annotations API
+  slug: open-axiom-annotations-api
+- collection_type: open
+  name: Axiom REST Annotations Dashboards API
+  slug: open-axiom-dashboards-api
+- collection_type: open
+  name: Axiom REST Annotations Datasets API
+  slug: open-axiom-datasets-api
+- collection_type: open
+  name: Axiom REST Annotations Edge API
+  slug: open-axiom-edge-api
+- collection_type: open
+  name: Axiom REST Annotations Groups API
+  slug: open-axiom-groups-api
+- collection_type: open
+  name: Axiom REST Annotations Mapfields API
+  slug: open-axiom-mapfields-api
+- collection_type: open
+  name: Axiom REST Annotations Monitors API
+  slug: open-axiom-monitors-api
+- collection_type: open
+  name: Axiom REST Annotations Notifiers API
+  slug: open-axiom-notifiers-api
+- collection_type: open
+  name: Axiom REST Annotations Orgs API
+  slug: open-axiom-orgs-api
+- collection_type: open
+  name: Axiom REST Annotations Roles API
+  slug: open-axiom-roles-api
+- collection_type: open
+  name: Axiom REST Annotations Starred API
+  slug: open-axiom-starred-api
+- collection_type: open
+  name: Axiom REST Annotations Tokens API
+  slug: open-axiom-tokens-api
+- collection_type: open
+  name: Axiom REST Annotations Users API
+  slug: open-axiom-users-api
+- collection_type: open
+  name: Axiom REST Annotations Views API
+  slug: open-axiom-views-api
+- collection_type: open
+  name: Axiom REST Annotations Virtualfields API
+  slug: open-axiom-virtualfields-api
 - collection_type: open
   name: Axiom REST API
   slug: open-axiom
@@ -208,7 +256,7 @@ plans:
 - name: Axiom Plans Pricing
   plan_count: 3
   slug: axiom-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Axiom Rate Limits
@@ -242,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom/refs/heads/main/screenshots/axiom-2026-06-20T172818.png
 security:

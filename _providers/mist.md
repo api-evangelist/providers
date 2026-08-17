@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -671,11 +671,648 @@ apis:
 - description: API Calls to use Devices Troubleshooting tools specific to Wireless Assurance
   name: Mist Utilities Wi-Fi API
   slug: mist-utilities-wi-fi-api
-artifact_total: 217
+artifact_total: 429
 asyncapis:
 - description: ''
   name: Mist Webhooks
   slug: mist-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mist Admins API
+  slug: open-mist-admins-api
+- collection_type: open
+  name: Mist Admins Admins Login API
+  slug: open-mist-admins-login-api
+- collection_type: open
+  name: Mist Admins Admins Login - OAuth2 API
+  slug: open-mist-admins-login-oauth2-api
+- collection_type: open
+  name: Mist Admins Admins Logout API
+  slug: open-mist-admins-logout-api
+- collection_type: open
+  name: Mist Admins Admins Lookup API
+  slug: open-mist-admins-lookup-api
+- collection_type: open
+  name: Mist Admins Admins Recover Password API
+  slug: open-mist-admins-recover-password-api
+- collection_type: open
+  name: Mist Admins Constants Definitions API
+  slug: open-mist-constants-definitions-api
+- collection_type: open
+  name: Mist Admins Constants Events API
+  slug: open-mist-constants-events-api
+- collection_type: open
+  name: Mist Admins Constants Models API
+  slug: open-mist-constants-models-api
+- collection_type: open
+  name: Mist Admins Installer API
+  slug: open-mist-installer-api
+- collection_type: open
+  name: Mist Admins MSPs Admins API
+  slug: open-mist-msps-admins-api
+- collection_type: open
+  name: Mist Admins MSPs API
+  slug: open-mist-msps-api
+- collection_type: open
+  name: Mist Admins MSPs Inventory API
+  slug: open-mist-msps-inventory-api
+- collection_type: open
+  name: Mist Admins MSPs Licenses API
+  slug: open-mist-msps-licenses-api
+- collection_type: open
+  name: Mist Admins MSPs Logo API
+  slug: open-mist-msps-logo-api
+- collection_type: open
+  name: Mist Admins MSPs Logs API
+  slug: open-mist-msps-logs-api
+- collection_type: open
+  name: Mist Admins MSPs Marvis API
+  slug: open-mist-msps-marvis-api
+- collection_type: open
+  name: Mist Admins MSPs Org Groups API
+  slug: open-mist-msps-org-groups-api
+- collection_type: open
+  name: Mist Admins MSPs Orgs API
+  slug: open-mist-msps-orgs-api
+- collection_type: open
+  name: Mist Admins MSPs SLEs API
+  slug: open-mist-msps-sles-api
+- collection_type: open
+  name: Mist Admins MSPs SSO API
+  slug: open-mist-msps-sso-api
+- collection_type: open
+  name: Mist Admins MSPs SSO Roles API
+  slug: open-mist-msps-sso-roles-api
+- collection_type: open
+  name: Mist Admins MSPs Tickets API
+  slug: open-mist-msps-tickets-api
+- collection_type: open
+  name: Mist Admins Orgs Admins API
+  slug: open-mist-orgs-admins-api
+- collection_type: open
+  name: Mist Admins Orgs Advanced Anti Malware Profiles API
+  slug: open-mist-orgs-advanced-anti-malware-profiles-api
+- collection_type: open
+  name: Mist Admins Orgs Alarm Templates API
+  slug: open-mist-orgs-alarm-templates-api
+- collection_type: open
+  name: Mist Admins Orgs Alarms API
+  slug: open-mist-orgs-alarms-api
+- collection_type: open
+  name: Mist Admins Orgs Antivirus Profiles API
+  slug: open-mist-orgs-antivirus-profiles-api
+- collection_type: open
+  name: Mist Admins Orgs AP Templates API
+  slug: open-mist-orgs-ap-templates-api
+- collection_type: open
+  name: Mist Admins Orgs API Tokens API
+  slug: open-mist-orgs-api-tokens-api
+- collection_type: open
+  name: Mist Admins Orgs API
+  slug: open-mist-orgs-api
+- collection_type: open
+  name: Mist Admins Orgs Asset Filters API
+  slug: open-mist-orgs-asset-filters-api
+- collection_type: open
+  name: Mist Admins Orgs Assets API
+  slug: open-mist-orgs-assets-api
+- collection_type: open
+  name: Mist Admins Orgs Cert API
+  slug: open-mist-orgs-cert-api
+- collection_type: open
+  name: Mist Admins Orgs Clients - Marvis API
+  slug: open-mist-orgs-clients-marvis-api
+- collection_type: open
+  name: Mist Admins Orgs Clients - NAC API
+  slug: open-mist-orgs-clients-nac-api
+- collection_type: open
+  name: Mist Admins Orgs Clients - SDK API
+  slug: open-mist-orgs-clients-sdk-api
+- collection_type: open
+  name: Mist Admins Orgs Clients - Wan API
+  slug: open-mist-orgs-clients-wan-api
+- collection_type: open
+  name: Mist Admins Orgs Clients - Wired API
+  slug: open-mist-orgs-clients-wired-api
+- collection_type: open
+  name: Mist Admins Orgs Clients - Wireless API
+  slug: open-mist-orgs-clients-wireless-api
+- collection_type: open
+  name: Mist Admins Orgs CRL API
+  slug: open-mist-orgs-crl-api
+- collection_type: open
+  name: Mist Admins Orgs Device Profiles API
+  slug: open-mist-orgs-device-profiles-api
+- collection_type: open
+  name: Mist Admins Orgs Devices - AOS API
+  slug: open-mist-orgs-devices-aos-api
+- collection_type: open
+  name: Mist Admins Orgs Devices API
+  slug: open-mist-orgs-devices-api
+- collection_type: open
+  name: Mist Admins Orgs Devices - Others API
+  slug: open-mist-orgs-devices-others-api
+- collection_type: open
+  name: Mist Admins Orgs Devices - SSR API
+  slug: open-mist-orgs-devices-ssr-api
+- collection_type: open
+  name: Mist Admins Orgs Events API
+  slug: open-mist-orgs-events-api
+- collection_type: open
+  name: Mist Admins Orgs EVPN Topologies API
+  slug: open-mist-orgs-evpn-topologies-api
+- collection_type: open
+  name: Mist Admins Orgs Gateway Templates API
+  slug: open-mist-orgs-gateway-templates-api
+- collection_type: open
+  name: Mist Admins Orgs Guests API
+  slug: open-mist-orgs-guests-api
+- collection_type: open
+  name: Mist Admins Orgs IDP Profiles API
+  slug: open-mist-orgs-idp-profiles-api
+- collection_type: open
+  name: Mist Admins Orgs Integration Cradlepoint API
+  slug: open-mist-orgs-integration-cradlepoint-api
+- collection_type: open
+  name: Mist Admins Orgs Integration JSE API
+  slug: open-mist-orgs-integration-jse-api
+- collection_type: open
+  name: Mist Admins Orgs Integration Juniper API
+  slug: open-mist-orgs-integration-juniper-api
+- collection_type: open
+  name: Mist Admins Orgs Integration SkyATP API
+  slug: open-mist-orgs-integration-skyatp-api
+- collection_type: open
+  name: Mist Admins Orgs Integration Zscaler API
+  slug: open-mist-orgs-integration-zscaler-api
+- collection_type: open
+  name: Mist Admins Orgs Inventory API
+  slug: open-mist-orgs-inventory-api
+- collection_type: open
+  name: Mist Admins Orgs JSI API
+  slug: open-mist-orgs-jsi-api
+- collection_type: open
+  name: Mist Admins Orgs Licenses API
+  slug: open-mist-orgs-licenses-api
+- collection_type: open
+  name: Mist Admins Orgs Linked Applications API
+  slug: open-mist-orgs-linked-applications-api
+- collection_type: open
+  name: Mist Admins Orgs Logs API
+  slug: open-mist-orgs-logs-api
+- collection_type: open
+  name: Mist Admins Orgs Maps API
+  slug: open-mist-orgs-maps-api
+- collection_type: open
+  name: Mist Admins Orgs Marvis API
+  slug: open-mist-orgs-marvis-api
+- collection_type: open
+  name: Mist Admins Orgs Marvis Invites API
+  slug: open-mist-orgs-marvis-invites-api
+- collection_type: open
+  name: Mist Admins Orgs MxClusters API
+  slug: open-mist-orgs-mxclusters-api
+- collection_type: open
+  name: Mist Admins Orgs MxEdges API
+  slug: open-mist-orgs-mxedges-api
+- collection_type: open
+  name: Mist Admins Orgs MxTunnels API
+  slug: open-mist-orgs-mxtunnels-api
+- collection_type: open
+  name: Mist Admins Orgs NAC CRL API
+  slug: open-mist-orgs-nac-crl-api
+- collection_type: open
+  name: Mist Admins Orgs NAC IDP API
+  slug: open-mist-orgs-nac-idp-api
+- collection_type: open
+  name: Mist Admins Orgs NAC Portals API
+  slug: open-mist-orgs-nac-portals-api
+- collection_type: open
+  name: Mist Admins Orgs NAC Rules API
+  slug: open-mist-orgs-nac-rules-api
+- collection_type: open
+  name: Mist Admins Orgs NAC Tags API
+  slug: open-mist-orgs-nac-tags-api
+- collection_type: open
+  name: Mist Admins Orgs Network Templates API
+  slug: open-mist-orgs-network-templates-api
+- collection_type: open
+  name: Mist Admins Orgs Networks API
+  slug: open-mist-orgs-networks-api
+- collection_type: open
+  name: Mist Admins Orgs Premium Analytics API
+  slug: open-mist-orgs-premium-analytics-api
+- collection_type: open
+  name: Mist Admins Orgs Psk Portals API
+  slug: open-mist-orgs-psk-portals-api
+- collection_type: open
+  name: Mist Admins Orgs Psks API
+  slug: open-mist-orgs-psks-api
+- collection_type: open
+  name: Mist Admins Orgs Reports API
+  slug: open-mist-orgs-reports-api
+- collection_type: open
+  name: Mist Admins Orgs RF Templates API
+  slug: open-mist-orgs-rf-templates-api
+- collection_type: open
+  name: Mist Admins Orgs SCEP API
+  slug: open-mist-orgs-scep-api
+- collection_type: open
+  name: Mist Admins Orgs SDK Invites API
+  slug: open-mist-orgs-sdk-invites-api
+- collection_type: open
+  name: Mist Admins Orgs SDK Templates API
+  slug: open-mist-orgs-sdk-templates-api
+- collection_type: open
+  name: Mist Admins Orgs SecIntel Profiles API
+  slug: open-mist-orgs-secintel-profiles-api
+- collection_type: open
+  name: Mist Admins Orgs Security Policies API
+  slug: open-mist-orgs-security-policies-api
+- collection_type: open
+  name: Mist Admins Orgs Service Policies API
+  slug: open-mist-orgs-service-policies-api
+- collection_type: open
+  name: Mist Admins Orgs Services API
+  slug: open-mist-orgs-services-api
+- collection_type: open
+  name: Mist Admins Orgs Setting API
+  slug: open-mist-orgs-setting-api
+- collection_type: open
+  name: Mist Admins Orgs Site Templates API
+  slug: open-mist-orgs-site-templates-api
+- collection_type: open
+  name: Mist Admins Orgs Sitegroups API
+  slug: open-mist-orgs-sitegroups-api
+- collection_type: open
+  name: Mist Admins Orgs Sites API
+  slug: open-mist-orgs-sites-api
+- collection_type: open
+  name: Mist Admins Orgs SLEs API
+  slug: open-mist-orgs-sles-api
+- collection_type: open
+  name: Mist Admins Orgs SSO API
+  slug: open-mist-orgs-sso-api
+- collection_type: open
+  name: Mist Admins Orgs SSO Roles API
+  slug: open-mist-orgs-sso-roles-api
+- collection_type: open
+  name: Mist Admins Orgs Stats API
+  slug: open-mist-orgs-stats-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - Assets API
+  slug: open-mist-orgs-stats-assets-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - BGP Peers API
+  slug: open-mist-orgs-stats-bgp-peers-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - Devices API
+  slug: open-mist-orgs-stats-devices-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - Marvis Clients API
+  slug: open-mist-orgs-stats-marvis-clients-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - MxEdges API
+  slug: open-mist-orgs-stats-mxedges-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - Ospf API
+  slug: open-mist-orgs-stats-ospf-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - Other Devices API
+  slug: open-mist-orgs-stats-other-devices-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - Ports API
+  slug: open-mist-orgs-stats-ports-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - Sites API
+  slug: open-mist-orgs-stats-sites-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - Tunnels API
+  slug: open-mist-orgs-stats-tunnels-api
+- collection_type: open
+  name: Mist Admins Orgs Stats - VPN Peers API
+  slug: open-mist-orgs-stats-vpn-peers-api
+- collection_type: open
+  name: Mist Admins Orgs Tickets API
+  slug: open-mist-orgs-tickets-api
+- collection_type: open
+  name: Mist Admins Orgs UI Settings API
+  slug: open-mist-orgs-ui-settings-api
+- collection_type: open
+  name: Mist Admins Orgs User MACs API
+  slug: open-mist-orgs-user-macs-api
+- collection_type: open
+  name: Mist Admins Orgs Vars API
+  slug: open-mist-orgs-vars-api
+- collection_type: open
+  name: Mist Admins Orgs VPNs API
+  slug: open-mist-orgs-vpns-api
+- collection_type: open
+  name: Mist Admins Orgs Webhooks API
+  slug: open-mist-orgs-webhooks-api
+- collection_type: open
+  name: Mist Admins Orgs WLAN Templates API
+  slug: open-mist-orgs-wlan-templates-api
+- collection_type: open
+  name: Mist Admins Orgs Wlans API
+  slug: open-mist-orgs-wlans-api
+- collection_type: open
+  name: Mist Admins Orgs WxRules API
+  slug: open-mist-orgs-wxrules-api
+- collection_type: open
+  name: Mist Admins Orgs WxTags API
+  slug: open-mist-orgs-wxtags-api
+- collection_type: open
+  name: Mist Admins Orgs WxTunnels API
+  slug: open-mist-orgs-wxtunnels-api
+- collection_type: open
+  name: Mist Admins Self Account API
+  slug: open-mist-self-account-api
+- collection_type: open
+  name: Mist Admins Self Alarms API
+  slug: open-mist-self-alarms-api
+- collection_type: open
+  name: Mist Admins Self API Token API
+  slug: open-mist-self-api-token-api
+- collection_type: open
+  name: Mist Admins Self Audit Logs API
+  slug: open-mist-self-audit-logs-api
+- collection_type: open
+  name: Mist Admins Self MFA API
+  slug: open-mist-self-mfa-api
+- collection_type: open
+  name: Mist Admins Self OAuth2 API
+  slug: open-mist-self-oauth2-api
+- collection_type: open
+  name: Mist Admins Sites Advanced Anti Malware Profiles API
+  slug: open-mist-sites-advanced-anti-malware-profiles-api
+- collection_type: open
+  name: Mist Admins Sites Alarms API
+  slug: open-mist-sites-alarms-api
+- collection_type: open
+  name: Mist Admins Sites Anomaly API
+  slug: open-mist-sites-anomaly-api
+- collection_type: open
+  name: Mist Admins Sites Antivirus Profiles API
+  slug: open-mist-sites-antivirus-profiles-api
+- collection_type: open
+  name: Mist Admins Sites AP Templates API
+  slug: open-mist-sites-ap-templates-api
+- collection_type: open
+  name: Mist Admins Sites API
+  slug: open-mist-sites-api
+- collection_type: open
+  name: Mist Admins Sites Applications API
+  slug: open-mist-sites-applications-api
+- collection_type: open
+  name: Mist Admins Sites Asset Filters API
+  slug: open-mist-sites-asset-filters-api
+- collection_type: open
+  name: Mist Admins Sites Assets API
+  slug: open-mist-sites-assets-api
+- collection_type: open
+  name: Mist Admins Sites Auto Map Assignment API
+  slug: open-mist-sites-auto-map-assignment-api
+- collection_type: open
+  name: Mist Admins Sites Beacons API
+  slug: open-mist-sites-beacons-api
+- collection_type: open
+  name: Mist Admins Sites Clients - NAC API
+  slug: open-mist-sites-clients-nac-api
+- collection_type: open
+  name: Mist Admins Sites Clients - Wan API
+  slug: open-mist-sites-clients-wan-api
+- collection_type: open
+  name: Mist Admins Sites Clients - Wired API
+  slug: open-mist-sites-clients-wired-api
+- collection_type: open
+  name: Mist Admins Sites Clients - Wireless API
+  slug: open-mist-sites-clients-wireless-api
+- collection_type: open
+  name: Mist Admins Sites Device Profiles API
+  slug: open-mist-sites-device-profiles-api
+- collection_type: open
+  name: Mist Admins Sites Devices API
+  slug: open-mist-sites-devices-api
+- collection_type: open
+  name: Mist Admins Sites Devices - Others API
+  slug: open-mist-sites-devices-others-api
+- collection_type: open
+  name: Mist Admins Sites Devices - WAN Cluster API
+  slug: open-mist-sites-devices-wan-cluster-api
+- collection_type: open
+  name: Mist Admins Sites Devices - Wired API
+  slug: open-mist-sites-devices-wired-api
+- collection_type: open
+  name: Mist Admins Sites Devices - Wired - Virtual Chassis API
+  slug: open-mist-sites-devices-wired-virtual-chassis-api
+- collection_type: open
+  name: Mist Admins Sites Devices - Wireless API
+  slug: open-mist-sites-devices-wireless-api
+- collection_type: open
+  name: Mist Admins Sites Events API
+  slug: open-mist-sites-events-api
+- collection_type: open
+  name: Mist Admins Sites EVPN Topologies API
+  slug: open-mist-sites-evpn-topologies-api
+- collection_type: open
+  name: Mist Admins Sites Gateway Templates API
+  slug: open-mist-sites-gateway-templates-api
+- collection_type: open
+  name: Mist Admins Sites Guests API
+  slug: open-mist-sites-guests-api
+- collection_type: open
+  name: Mist Admins Sites IDP Profiles API
+  slug: open-mist-sites-idp-profiles-api
+- collection_type: open
+  name: Mist Admins Sites Insights API
+  slug: open-mist-sites-insights-api
+- collection_type: open
+  name: Mist Admins Sites JSE API
+  slug: open-mist-sites-jse-api
+- collection_type: open
+  name: Mist Admins Sites Licenses API
+  slug: open-mist-sites-licenses-api
+- collection_type: open
+  name: Mist Admins Sites Location API
+  slug: open-mist-sites-location-api
+- collection_type: open
+  name: Mist Admins Sites Map Stacks API
+  slug: open-mist-sites-map-stacks-api
+- collection_type: open
+  name: Mist Admins Sites Maps API
+  slug: open-mist-sites-maps-api
+- collection_type: open
+  name: Mist Admins Sites Maps - Auto-placement API
+  slug: open-mist-sites-maps-auto-placement-api
+- collection_type: open
+  name: Mist Admins Sites Maps - Auto-Zone API
+  slug: open-mist-sites-maps-auto-zone-api
+- collection_type: open
+  name: Mist Admins Sites Marvis Configs API
+  slug: open-mist-sites-marvis-configs-api
+- collection_type: open
+  name: Mist Admins Sites MxEdges API
+  slug: open-mist-sites-mxedges-api
+- collection_type: open
+  name: Mist Admins Sites NAC Fingerprints API
+  slug: open-mist-sites-nac-fingerprints-api
+- collection_type: open
+  name: Mist Admins Sites Network Templates API
+  slug: open-mist-sites-network-templates-api
+- collection_type: open
+  name: Mist Admins Sites Networks API
+  slug: open-mist-sites-networks-api
+- collection_type: open
+  name: Mist Admins Sites Psks API
+  slug: open-mist-sites-psks-api
+- collection_type: open
+  name: Mist Admins Sites RF Templates API
+  slug: open-mist-sites-rf-templates-api
+- collection_type: open
+  name: Mist Admins Sites Rfdiags API
+  slug: open-mist-sites-rfdiags-api
+- collection_type: open
+  name: Mist Admins Sites Rogues API
+  slug: open-mist-sites-rogues-api
+- collection_type: open
+  name: Mist Admins Sites RRM API
+  slug: open-mist-sites-rrm-api
+- collection_type: open
+  name: Mist Admins Sites RSSI Zones API
+  slug: open-mist-sites-rssi-zones-api
+- collection_type: open
+  name: Mist Admins Sites SecIntel Profiles API
+  slug: open-mist-sites-secintel-profiles-api
+- collection_type: open
+  name: Mist Admins Sites Service Policies API
+  slug: open-mist-sites-service-policies-api
+- collection_type: open
+  name: Mist Admins Sites Services API
+  slug: open-mist-sites-services-api
+- collection_type: open
+  name: Mist Admins Sites Setting API
+  slug: open-mist-sites-setting-api
+- collection_type: open
+  name: Mist Admins Sites Site Templates API
+  slug: open-mist-sites-site-templates-api
+- collection_type: open
+  name: Mist Admins Sites Skyatp API
+  slug: open-mist-sites-skyatp-api
+- collection_type: open
+  name: Mist Admins Sites SLEs API
+  slug: open-mist-sites-sles-api
+- collection_type: open
+  name: Mist Admins Sites Spectrum Analysis API
+  slug: open-mist-sites-spectrum-analysis-api
+- collection_type: open
+  name: Mist Admins Sites Stats API
+  slug: open-mist-sites-stats-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Apps API
+  slug: open-mist-sites-stats-apps-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Assets API
+  slug: open-mist-sites-stats-assets-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Beacons API
+  slug: open-mist-sites-stats-beacons-api
+- collection_type: open
+  name: Mist Admins Sites Stats - BGP Peers API
+  slug: open-mist-sites-stats-bgp-peers-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Calls API
+  slug: open-mist-sites-stats-calls-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Clients SDK API
+  slug: open-mist-sites-stats-clients-sdk-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Clients Wireless API
+  slug: open-mist-sites-stats-clients-wireless-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Devices API
+  slug: open-mist-sites-stats-devices-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Discovered Switches API
+  slug: open-mist-sites-stats-discovered-switches-api
+- collection_type: open
+  name: Mist Admins Sites Stats - IoT Endpoints API
+  slug: open-mist-sites-stats-iot-endpoints-api
+- collection_type: open
+  name: Mist Admins Sites Stats - MxEdges API
+  slug: open-mist-sites-stats-mxedges-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Ospf API
+  slug: open-mist-sites-stats-ospf-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Ports API
+  slug: open-mist-sites-stats-ports-api
+- collection_type: open
+  name: Mist Admins Sites Stats - WxRules API
+  slug: open-mist-sites-stats-wxrules-api
+- collection_type: open
+  name: Mist Admins Sites Stats - Zones API
+  slug: open-mist-sites-stats-zones-api
+- collection_type: open
+  name: Mist Admins Sites Synthetic Tests API
+  slug: open-mist-sites-synthetic-tests-api
+- collection_type: open
+  name: Mist Admins Sites UI Settings API
+  slug: open-mist-sites-ui-settings-api
+- collection_type: open
+  name: Mist Admins Sites vBeacons API
+  slug: open-mist-sites-vbeacons-api
+- collection_type: open
+  name: Mist Admins Sites VPNs API
+  slug: open-mist-sites-vpns-api
+- collection_type: open
+  name: Mist Admins Sites WAN Usages API
+  slug: open-mist-sites-wan-usages-api
+- collection_type: open
+  name: Mist Admins Sites Webhooks API
+  slug: open-mist-sites-webhooks-api
+- collection_type: open
+  name: Mist Admins Sites Wlans API
+  slug: open-mist-sites-wlans-api
+- collection_type: open
+  name: Mist Admins Sites WxRules API
+  slug: open-mist-sites-wxrules-api
+- collection_type: open
+  name: Mist Admins Sites WxTags API
+  slug: open-mist-sites-wxtags-api
+- collection_type: open
+  name: Mist Admins Sites WxTunnels API
+  slug: open-mist-sites-wxtunnels-api
+- collection_type: open
+  name: Mist Admins Sites Zones API
+  slug: open-mist-sites-zones-api
+- collection_type: open
+  name: Mist Admins Utilities Common API
+  slug: open-mist-utilities-common-api
+- collection_type: open
+  name: Mist Admins Utilities LAN API
+  slug: open-mist-utilities-lan-api
+- collection_type: open
+  name: Mist Admins Utilities Location API
+  slug: open-mist-utilities-location-api
+- collection_type: open
+  name: Mist Admins Utilities MxEdge API
+  slug: open-mist-utilities-mxedge-api
+- collection_type: open
+  name: Mist Admins Utilities PCAPs API
+  slug: open-mist-utilities-pcaps-api
+- collection_type: open
+  name: Mist Admins Utilities Upgrade API
+  slug: open-mist-utilities-upgrade-api
+- collection_type: open
+  name: Mist Admins Utilities WAN API
+  slug: open-mist-utilities-wan-api
+- collection_type: open
+  name: Mist Admins Utilities Wi-Fi API
+  slug: open-mist-utilities-wi-fi-api
 common:
 - group: start
   title: ''
@@ -812,7 +1449,7 @@ overview: 'Mist publishes 211 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mist''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 85
+random_paper: 147
 rate_limits:
 - limit_count: 2
   name: Mist Rate Limits
@@ -840,7 +1477,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/screenshots/mist-2026-08-07T183800.png
 security:

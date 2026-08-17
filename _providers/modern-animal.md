@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Modern Animal is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Modern Animal''s developer surface includes engineering blog, pricing, and 4 more developer resources.'
-random_paper: 116
+random_paper: 124
 score:
   band: minimal
   composite: 12.6
@@ -87,7 +87,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern-animal/refs/heads/main/screenshots/modern-animal-2026-08-07T184016.png
 security:

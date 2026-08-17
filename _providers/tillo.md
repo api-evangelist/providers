@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Order management and status
   name: Tillo Orders API
   slug: tillo-orders-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tillo Gift Card Balance API
+  slug: open-tillo-balance-api
+- collection_type: open
+  name: Tillo Gift Card Balance Brands API
+  slug: open-tillo-brands-api
+- collection_type: open
+  name: Tillo Gift Card Balance Digital Cards API
+  slug: open-tillo-digital-cards-api
+- collection_type: open
+  name: Tillo Gift Card Balance Float API
+  slug: open-tillo-float-api
 - collection_type: open
   name: Tillo Gift Card API
   slug: open-tillo-gift-card
+- collection_type: open
+  name: Tillo Gift Card Balance Orders API
+  slug: open-tillo-orders-api
 common:
 - group: agent
   title: ''
@@ -174,7 +192,7 @@ plans:
 - name: Tillo Plans Pricing
   plan_count: 3
   slug: tillo-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Tillo Rate Limits
@@ -222,7 +240,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/screenshots/tillo-2026-06-20T195353.png
 security:

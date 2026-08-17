@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Manage workspaces and workspace users. Workspaces divide your organization into sub-categories such as departments or dev/prod environments.
   name: Tray.ai Workspaces API
   slug: tray-ai-workspaces-api
-artifact_total: 89
+artifact_total: 102
 collections:
 - collection_type: postman
   name: Tray.ai Embedded Authentication API
@@ -114,11 +114,50 @@ collections:
   name: Tray.ai Embedded Authentication Workspaces API
   slug: postman-tray-ai-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tray.ai Embedded Authentication API
+  slug: open-tray-ai-authentication-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Authentications API
+  slug: open-tray-ai-authentications-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Call Connector API
+  slug: open-tray-ai-call-connector-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Connectors API
+  slug: open-tray-ai-connectors-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Deployments API
+  slug: open-tray-ai-deployments-api
+- collection_type: open
   name: Tray.ai Embedded API
   slug: open-tray-ai-embedded-api
 - collection_type: open
   name: Tray.ai Platform API
   slug: open-tray-ai-platform-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Projects API
+  slug: open-tray-ai-projects-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Solution Instances API
+  slug: open-tray-ai-solution-instances-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Solutions API
+  slug: open-tray-ai-solutions-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Triggers API
+  slug: open-tray-ai-triggers-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Users API
+  slug: open-tray-ai-users-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Workflows API
+  slug: open-tray-ai-workflows-api
+- collection_type: open
+  name: Tray.ai Embedded Authentication Workspaces API
+  slug: open-tray-ai-workspaces-api
 common:
 - group: build
   title: ''
@@ -375,7 +414,7 @@ plans:
 - name: Tray Ai Plans Pricing
   plan_count: 3
   slug: tray-ai-plans-pricing
-random_paper: 95
+random_paper: 99
 rate_limits:
 - limit_count: 7
   name: Tray Ai Rate Limits
@@ -417,7 +456,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/screenshots/tray-ai-2026-06-20T195639.png
 security:

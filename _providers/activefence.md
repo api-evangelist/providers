@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -50,11 +50,36 @@ apis:
 - description: 'WonderFence provides real-time guardrails for AI-generated content. APIs for evaluating and moderating AI-generated content and interactions to protect against harmful outputs and prompt attacks. ## A'
   name: ActiveFence Wonder Fence API
   slug: activefence-wonderfence-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Activefence Webhooks
   slug: activefence-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alice API Documentation api keys API
+  slug: open-activefence-api-keys-api
+- collection_type: open
+  name: Alice API Documentation Collection API
+  slug: open-activefence-collection-api
+- collection_type: open
+  name: Alice API Documentation Content API
+  slug: open-activefence-content-api
+- collection_type: open
+  name: Alice API Documentation Flags API
+  slug: open-activefence-flags-api
+- collection_type: open
+  name: Alice API Documentation Users API
+  slug: open-activefence-users-api
+- collection_type: open
+  name: Alice API Documentation Wonder Build API
+  slug: open-activefence-wonderbuild-api
+- collection_type: open
+  name: Alice API Documentation Wonder Fence API
+  slug: open-activefence-wonderfence-api
 common:
 - group: agent
   title: ''
@@ -196,7 +221,7 @@ overview: 'ActiveFence publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ActiveFence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 23 more developer resources.'
-random_paper: 69
+random_paper: 106
 score:
   band: developing
   composite: 54.7
@@ -220,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/screenshots/activefence-2026-08-07T160856.png
 security:

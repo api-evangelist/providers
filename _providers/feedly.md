@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API over api.feedly.com/v3 for the Feedly Threat Intelligence platform. Collect articles from AI Feeds, Folders and Boards by streamId; search and query the corpus with the Ask AI (RAG) endpoints
@@ -28,11 +28,66 @@ apis:
 - description: Hosted, remote Model Context Protocol server exposing the Feedly Real-Time Threat Graph to AI agents. Feedly documents 16 tools covering threat actors, malware, vulnerabilities, TTPs, IoCs and cyberat
   name: Feedly Threat Graph MCP Server
   slug: feedly-threat-graph-mcp-server
-artifact_total: 9
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Feedly Webhooks
   slug: feedly-webhooks
+collections:
+- collection_type: open
+  name: Feedly API
+  slug: open-feedly-agents
+- collection_type: open
+  name: Alerts API
+  slug: open-feedly-alerts
+- collection_type: open
+  name: Annotations API
+  slug: open-feedly-annotations
+- collection_type: open
+  name: Enterprise Collections
+  slug: open-feedly-enterprise-collections
+- collection_type: open
+  name: Enterprise Users API
+  slug: open-feedly-enterprise-users
+- collection_type: open
+  name: Enterprise API
+  slug: open-feedly-enterprise
+- collection_type: open
+  name: Entities API
+  slug: open-feedly-entities
+- collection_type: open
+  name: Entries
+  slug: open-feedly-entries
+- collection_type: open
+  name: Get Intel Profiles
+  slug: open-feedly-intel-profiles
+- collection_type: open
+  name: IoCs
+  slug: open-feedly-iocs
+- collection_type: open
+  name: Memes API
+  slug: open-feedly-memes
+- collection_type: open
+  name: ML Endpoint
+  slug: open-feedly-ml
+- collection_type: open
+  name: Search API
+  slug: open-feedly-search
+- collection_type: open
+  name: Streams API
+  slug: open-feedly-streams
+- collection_type: open
+  name: Tags API
+  slug: open-feedly-tags
+- collection_type: open
+  name: TI Endpoints
+  slug: open-feedly-ti-endpoints
+- collection_type: open
+  name: Trends API
+  slug: open-feedly-trends
+- collection_type: open
+  name: Feedly Vulnerability Agent API
+  slug: open-feedly-vulnerability-agent
 common:
 - group: auth
   title: ''
@@ -274,7 +329,7 @@ plans:
 - name: Feedly Plans Pricing
   plan_count: 2
   slug: feedly-plans-pricing
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Feedly Rate Limits
@@ -282,6 +337,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 67.2
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 62.7
@@ -289,8 +345,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 84.2
+  previous_composite: 67.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Feedly Authentication

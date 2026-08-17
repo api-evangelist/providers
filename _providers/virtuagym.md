@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Club visits - member check-in / attendance records.
   name: Virtuagym Visits API
   slug: virtuagym-visits-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Virtuagym Public API (v1) Billing API
+  slug: open-virtuagym-billing-api
+- collection_type: open
+  name: Virtuagym Public API (v1) Billing Club Employees API
+  slug: open-virtuagym-club-employees-api
+- collection_type: open
+  name: Virtuagym Public API (v1) Billing Club Members API
+  slug: open-virtuagym-club-members-api
+- collection_type: open
+  name: Virtuagym Public API (v1) Billing Coaching API
+  slug: open-virtuagym-coaching-api
+- collection_type: open
+  name: Virtuagym Public API (v1) Billing Events API
+  slug: open-virtuagym-events-api
+- collection_type: open
+  name: Virtuagym Public API (v1) Billing Memberships API
+  slug: open-virtuagym-memberships-api
+- collection_type: open
+  name: Virtuagym Public API (v1) Billing Visits API
+  slug: open-virtuagym-visits-api
 - collection_type: open
   name: Virtuagym Public API (v1)
   slug: open-virtuagym
@@ -130,7 +154,7 @@ plans:
 - name: Virtuagym Plans Pricing
   plan_count: 3
   slug: virtuagym-plans-pricing
-random_paper: 40
+random_paper: 106
 rate_limits:
 - limit_count: 2
   name: Virtuagym Rate Limits
@@ -161,7 +185,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

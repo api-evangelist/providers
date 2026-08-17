@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -150,7 +150,101 @@ apis:
 - description: The webhooks API from data.world — 4 operation(s) for webhooks.
   name: data.world webhooks API
   slug: data-world-webhooks-api
-artifact_total: 49
+artifact_total: 80
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: data.world Public catalog relationships API
+  slug: open-data-world-catalog-relationships-api
+- collection_type: open
+  name: data.world Public catalog relationships catalog resources API
+  slug: open-data-world-catalog-resources-api
+- collection_type: open
+  name: data.world Public catalog relationships connections API
+  slug: open-data-world-connections-api
+- collection_type: open
+  name: data.world Public catalog relationships data quality API
+  slug: open-data-world-data-quality-api
+- collection_type: open
+  name: data.world Public catalog relationships datasets API
+  slug: open-data-world-datasets-api
+- collection_type: open
+  name: data.world Public catalog relationships DOIs API
+  slug: open-data-world-dois-api
+- collection_type: open
+  name: data.world Public catalog relationships experimental API
+  slug: open-data-world-experimental-api
+- collection_type: open
+  name: data.world Public catalog relationships files API
+  slug: open-data-world-files-api
+- collection_type: open
+  name: data.world Public catalog relationships insights API
+  slug: open-data-world-insights-api
+- collection_type: open
+  name: data.world Public catalog relationships instance admin API
+  slug: open-data-world-instance-admin-api
+- collection_type: open
+  name: data.world Public catalog relationships legacy catalog - analysis API
+  slug: open-data-world-legacy-catalog-analysis-api
+- collection_type: open
+  name: data.world Public catalog relationships legacy catalog - collections API
+  slug: open-data-world-legacy-catalog-collections-api
+- collection_type: open
+  name: data.world Public catalog relationships legacy catalog - data API
+  slug: open-data-world-legacy-catalog-data-api
+- collection_type: open
+  name: data.world Public catalog relationships legacy catalog - glossary API
+  slug: open-data-world-legacy-catalog-glossary-api
+- collection_type: open
+  name: data.world Public catalog relationships legacy catalog - properties API
+  slug: open-data-world-legacy-catalog-properties-api
+- collection_type: open
+  name: data.world Public catalog relationships legacy catalog - relationships API
+  slug: open-data-world-legacy-catalog-relationships-api
+- collection_type: open
+  name: data.world Public catalog relationships organizations API
+  slug: open-data-world-organizations-api
+- collection_type: open
+  name: data.world Public catalog relationships projects API
+  slug: open-data-world-projects-api
+- collection_type: open
+  name: data.world Public catalog relationships queries API
+  slug: open-data-world-queries-api
+- collection_type: open
+  name: data.world Public catalog relationships requests - authorization API
+  slug: open-data-world-requests-authorization-api
+- collection_type: open
+  name: data.world Public catalog relationships requests - resource API
+  slug: open-data-world-requests-resource-api
+- collection_type: open
+  name: data.world Public catalog relationships search API
+  slug: open-data-world-search-api
+- collection_type: open
+  name: data.world Public catalog relationships serviceaccount API
+  slug: open-data-world-serviceaccount-api
+- collection_type: open
+  name: data.world Public catalog relationships streams API
+  slug: open-data-world-streams-api
+- collection_type: open
+  name: data.world Public catalog relationships tables API
+  slug: open-data-world-tables-api
+- collection_type: open
+  name: data.world Public catalog relationships telemetry API
+  slug: open-data-world-telemetry-api
+- collection_type: open
+  name: data.world Public catalog relationships topics and comments - resource API
+  slug: open-data-world-topics-and-comments-resource-api
+- collection_type: open
+  name: data.world Public catalog relationships user API
+  slug: open-data-world-user-api
+- collection_type: open
+  name: data.world Public catalog relationships users API
+  slug: open-data-world-users-api
+- collection_type: open
+  name: data.world Public catalog relationships webhooks API
+  slug: open-data-world-webhooks-api
 common:
 - group: agent
   title: ''
@@ -272,7 +366,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 47
+random_paper: 113
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -312,7 +406,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/screenshots/data-world-2026-06-20T175628.png
 security:

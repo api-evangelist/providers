@@ -8,17 +8,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-12'
+  score: 32.0
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The Audit API from Gleeful AI — 3 operation(s) for audit.
@@ -72,8 +72,64 @@ apis:
 - description: The Status API from Gleeful AI — 1 operation(s) for status.
   name: Gleeful AI Status API
   slug: gleefulai-status-api
-artifact_total: 19
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Visibility AI Audit API
+  slug: open-gleefulai-audit-api
+- collection_type: open
+  name: Visibility AI Audit Bots API
+  slug: open-gleefulai-bots-api
+- collection_type: open
+  name: Visibility AI Audit Capabilities API
+  slug: open-gleefulai-capabilities-api
+- collection_type: open
+  name: Visibility AI Audit Catalog API
+  slug: open-gleefulai-catalog-api
+- collection_type: open
+  name: Visibility AI Audit Cite API
+  slug: open-gleefulai-cite-api
+- collection_type: open
+  name: Visibility AI Audit Compare API
+  slug: open-gleefulai-compare-api
+- collection_type: open
+  name: Visibility AI Audit Content API
+  slug: open-gleefulai-content-api
+- collection_type: open
+  name: Visibility AI Audit Examples API
+  slug: open-gleefulai-examples-api
+- collection_type: open
+  name: Visibility AI Audit Fixes API
+  slug: open-gleefulai-fixes-api
+- collection_type: open
+  name: Visibility AI Audit Health API
+  slug: open-gleefulai-health-api
+- collection_type: open
+  name: Visibility AI Audit Llms API
+  slug: open-gleefulai-llms-api
+- collection_type: open
+  name: Visibility AI Audit Meta API
+  slug: open-gleefulai-meta-api
+- collection_type: open
+  name: Visibility AI Audit Pricing API
+  slug: open-gleefulai-pricing-api
+- collection_type: open
+  name: Visibility AI Audit Probe API
+  slug: open-gleefulai-probe-api
+- collection_type: open
+  name: Visibility AI Audit Schema API
+  slug: open-gleefulai-schema-api
+- collection_type: open
+  name: Visibility AI Audit Status API
+  slug: open-gleefulai-status-api
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gleefulai-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -89,7 +145,7 @@ common:
 - group: agent
   title: ''
   type: LlmsText
-  url: https://visibility.gleefulai.com/llms.txt
+  url: llms/gleefulai-llms.txt
 - group: auth
   title: ''
   type: Authentication
@@ -98,33 +154,77 @@ common:
   title: ''
   type: Plans
   url: plans/gleefulai-plans.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/gleefulai-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/gleefulai-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/gleefulai-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/gleefulai-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gleefulai-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/gleefulai-rate-limits.yml
+coverage:
+  checked: '2026-08-13'
+  detail: gleefulai.com was moved to the GoDaddy/Afternic aftermarket on 2026-08-07 and is now a domain listed for sale — the API host visibility.gleefulai.com fails the TLS handshake for its own hostname, every /api/* path 404s from the parking origin, and the wildcard even serves a generated /llms.txt whose text advertises the domain for sale, so the entire surface captured live on 2026-08-03 is gone.
+  evidence:
+  - status: 0
+    url: https://visibility.gleefulai.com/api/pricing
+  - status: 404
+    url: http://visibility.gleefulai.com/api/pricing
+  - status: 404
+    url: http://visibility.gleefulai.com/api/health
+  - status: 403
+    url: https://gleefulai.com/lander
+  - status: 200
+    url: http://visibility.gleefulai.com/llms.txt
+  reason: defunct
+  state: none
 created: '2026-08-03'
 description: 'Gleeful AI publishes Visibility, an AI-visibility and answer-engine-optimization audit API: it scores how visible and understandable a website is to AI assistants and agents, audits AI crawler access (GPTBot, ClaudeBot and others), generates a production-ready llms.txt and schema.org markup, checks brand citation across assistants, and runs competitor gap analysis. The access model is the notable part — there are no API keys. Every priced endpoint answers an unauthenticated request with HTTP 402 and an x402 v2 challenge in a Payment-Required header, settled in USDC on Base at prices from $0.06 to $0.55 a call, published machine-readably at /api/pricing alongside /api/capabilities and /api/catalog. Discovery, pricing and two preview endpoints are free. It is an agent-native API in both directions: built to be paid for and called by an agent, and built to measure whether agents can read you.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gleefulai.png
 layout: provider
-modified: '2026-08-03'
+modified: '2026-08-13'
 name: Gleeful AI
 nav: Providers
 network: true
 overview: 'Gleeful AI publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Bots API, Capabilities API, and 14 more. Tagged areas include Artificial Intelligence, Agents, x402, Micropayments, and SEO.
 
 
-  Gleeful AI''s developer surface includes documentation, pricing, authentication, and 3 more developer resources.'
+  Gleeful AI''s developer surface includes documentation, pricing, authentication, and 10 more developer resources.'
 plans:
 - name: Gleefulai Plans
   plan_count: 0
   slug: gleefulai-plans
-random_paper: 102
+random_paper: 48
+rate_limits:
+- limit_count: 0
+  name: Gleefulai Rate Limits
+  slug: gleefulai-rate-limits
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 27.5
+  delta: 1.5
   facets:
     commercial_clarity: 10.5
     contract_quality: 47.5
     developer_ergonomics: 19.6
     discoverability: 81.5
-    governance: 0.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 26.0
   provenance:
@@ -134,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/screenshots/gleefulai-2026-08-07T165729.png
 security:
@@ -142,6 +242,10 @@ security:
   name: Gleefulai Authentication
   slug: gleefulai-authentication
   summary_line: 1 scheme
+- kind: domain-security
+  name: Gleefulai Domain Security
+  slug: gleefulai-domain-security
+  summary_line: no transport/DNS hardening detected
 slug: gleefulai
 tags:
 - Artificial Intelligence

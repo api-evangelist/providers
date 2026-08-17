@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Discovery of the correct regional api_access_point
   name: Adobe Acrobat Sign Base URIs API
   slug: adobe-sign-base-uris-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Acrobat Sign REST Base URIs API
+  slug: open-adobe-sign-base-uris-api
 - collection_type: open
   name: Adobe Acrobat Sign REST API
   slug: open-adobe-sign
@@ -119,7 +125,7 @@ overview: 'Adobe Acrobat Sign publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Adobe Acrobat Sign''s developer surface includes authentication, documentation, signup flow, pricing, support, FAQ, and 8 more developer resources.'
-random_paper: 25
+random_paper: 91
 scopes:
 - name: Adobe Sign Scopes
   scope_count: 12
@@ -145,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/screenshots/adobe-sign-2026-06-20T165020.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Endpoints provide access to historical trace files for an aircraft.
   name: ADS-B Exchange Traces API
   slug: adsbexchange-traces-api
-artifact_total: 73
+artifact_total: 79
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ADSB Exchange Geopolitical Filtering API
+  slug: open-adsbexchange-geopolitical-filtering-api
+- collection_type: open
+  name: ADSB Exchange Geopolitical Filtering Geospatial Filtering API
+  slug: open-adsbexchange-geospatial-filtering-api
+- collection_type: open
+  name: ADSB Exchange Geopolitical Filtering Live Positional Data API
+  slug: open-adsbexchange-live-positional-data-api
+- collection_type: open
+  name: ADSB Exchange Geopolitical Filtering Operations API
+  slug: open-adsbexchange-operations-api
+- collection_type: open
+  name: ADSB Exchange Geopolitical Filtering Traces API
+  slug: open-adsbexchange-traces-api
 common:
 - group: agent
   title: ''
@@ -314,7 +333,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 45
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -348,7 +367,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/screenshots/adsbexchange-2026-06-20T165151.png
 security:

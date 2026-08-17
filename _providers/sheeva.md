@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -84,11 +84,63 @@ apis:
 - description: The Webhooks API from Sheeva — 3 operation(s) for webhooks.
   name: Sheeva Webhooks API
   slug: sheeva-webhooks-api
-artifact_total: 20
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Sheeva Webhooks
   slug: sheeva-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SheevaConnect Authentication API
+  slug: open-sheeva-authentication-api
+- collection_type: open
+  name: SheevaConnect Authentication Credit Cards API
+  slug: open-sheeva-credit-cards-api
+- collection_type: open
+  name: SheevaConnect Authentication Driver Alerts API
+  slug: open-sheeva-driver-alerts-api
+- collection_type: open
+  name: SheevaConnect Authentication Driver API
+  slug: open-sheeva-driver-api
+- collection_type: open
+  name: SheevaConnect Authentication Feedback API
+  slug: open-sheeva-feedback-api
+- collection_type: open
+  name: SheevaConnect Authentication Loyalty API
+  slug: open-sheeva-loyalty-api
+- collection_type: open
+  name: SheevaConnect Authentication Parking API
+  slug: open-sheeva-parking-api
+- collection_type: open
+  name: SheevaConnect Authentication Payments API
+  slug: open-sheeva-payments-api
+- collection_type: open
+  name: API Collection
+  slug: open-sheeva-postman-collection
+- collection_type: open
+  name: SheevaConnect Authentication Service Hubs (Points Of Interest) API
+  slug: open-sheeva-service-hubs-points-of-interest-api
+- collection_type: open
+  name: SheevaConnect Authentication Session API
+  slug: open-sheeva-session-api
+- collection_type: open
+  name: SheevaConnect Authentication Transactions API
+  slug: open-sheeva-transactions-api
+- collection_type: open
+  name: SheevaConnect Authentication UPI API
+  slug: open-sheeva-upi-api
+- collection_type: open
+  name: SheevaConnect Authentication Vehicle API
+  slug: open-sheeva-vehicle-api
+- collection_type: open
+  name: SheevaConnect Authentication Vehicle Events API
+  slug: open-sheeva-vehicle-events-api
+- collection_type: open
+  name: SheevaConnect Authentication Webhooks API
+  slug: open-sheeva-webhooks-api
 common:
 - group: company
   title: ''
@@ -221,7 +273,7 @@ overview: 'Sheeva publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sheeva''s developer surface includes documentation, API reference, engineering blog, support, signup flow, YouTube channel, authentication, and 21 more developer resources.'
-random_paper: 36
+random_paper: 40
 score:
   band: developing
   composite: 43.7
@@ -251,7 +303,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

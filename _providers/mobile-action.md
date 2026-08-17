@@ -1,40 +1,45 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Enterprise API access arranged through sales
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
-  - authentication
+  - https://docs.mobileaction.co/guide/introduction
+  - https://docs.mobileaction.co/mcp/server-setup
+  - https://www.mobileaction.co/pricing/
   trial: false
   try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 31.1
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
 - description: Credit-metered REST intelligence API exposing App Store and Google Play keyword rankings, app metadata, ad creatives, Apple Search Ads / CPP data, and dashboard resources. Authenticated with an accoun
   name: MobileAction API
   slug: mobileaction-api
-artifact_total: 4
+- description: Remote Model Context Protocol server exposing 88 MobileAction tools (App Store and Google Play keyword/category/app intelligence, Ad Intelligence, CPP Intelligence, Dashboard, Search Ads and utility s
+  name: MobileAction MCP Server
+  slug: mobileaction-mcp-server
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -124,42 +129,108 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/mobileaction
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mobile-action-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/mobile-action-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mobile-action-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/mobile-action-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/mobile-action-scopes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/mobile-action-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/mobile-action-plans-pricing.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mobile-action-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mobile-action-problem-types.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mobile-action-llms-published.txt
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://helpcenter.mobileaction.co/en
 created: '2026-07-17'
-description: MobileAction is an app-store marketing intelligence platform used by 5,000+ mobile app and game companies for App Store Optimization (ASO), Apple Search Ads campaign management (CMP), ad-creative intelligence across 100M+ creatives, and market benchmarking. Its products include MobileAction AI, ASO Intelligence, Ad Intelligence, Market Intelligence, CPP Intelligence, and managed ASO/Apple Ads services. The MobileAction API exposes this intelligence programmatically over a credit-metered REST interface at https://api.mobileaction.co, authenticated with a per-account API key passed as the `token` query parameter, spanning App Store and Google Play keyword rankings, app metadata, ad creatives, Search Ads, and dashboard data. Backed by 500 Global.
+description: 'MobileAction is an app-store marketing intelligence platform used by 5,000+ mobile app and game companies for App Store Optimization (ASO), Apple Ads campaign management (CMP), ad-creative intelligence across 90M+ creatives, CPP (Custom Product Page) intelligence and market benchmarking. It is an InMobi Advertising company. MobileAction publishes two machine surfaces over the same intelligence core and the same credit allowance: a credit-metered REST API at https://api.mobileaction.co, authenticated with a per-account API key passed as the `token` query parameter, covering App Store and Google Play keyword and category rankings, app metadata and version timelines, reviews and review word analysis, download/revenue estimations, ad creatives, Apple Ads reporting and dashboard data; and a remote MCP server at https://mcp.mobileaction.co/mcp exposing 88 tools whose catalogue is readable anonymously. No OpenAPI document is published. API access is enterprise-only, arranged through
+  sales, with keys issued by a Customer Success Manager. Backed by 500 Global.'
 image: https://www.mobileaction.co/wp-content/uploads/ma-featured-image-1.png
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: mobile-action-mcp.yml
+  slug: mobile-action-mcpyml
+modified: '2026-08-13'
 name: Mobile Action
 nav: Providers
 network: true
-overview: 'Mobile Action publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, App Store Optimization, ASO, Mobile Marketing, and Apple Search Ads.
+overview: 'Mobile Action publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, App Store Optimization, ASO, Mobile Marketing, and Apple Search Ads.
 
 
-  Mobile Action''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 15 more developer resources.'
-random_paper: 115
+  Mobile Action''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 27 more developer resources.'
+plans:
+- name: Mobile Action Plans Pricing
+  plan_count: 0
+  slug: mobile-action-plans-pricing
+random_paper: 123
+rate_limits:
+- limit_count: 48
+  name: Mobile Action Rate Limits
+  slug: mobile-action-rate-limits
+scopes:
+- name: Mobile Action Scopes
+  scope_count: 3
+  slug: mobile-action-scopes
+  summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 41.5
+  delta: 7.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 67.4
     discoverability: 75.9
     governance: 12.5
-    operational_transparency: 21.1
+    operational_transparency: 52.6
   previous_composite: 34.4
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobile-action/refs/heads/main/screenshots/mobile-action-2026-08-07T183845.png
 security:
 - kind: authentication
   name: Mobile Action Authentication
   slug: mobile-action-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Mobile Action Domain Security
   slug: mobile-action-domain-security
@@ -179,5 +250,9 @@ tags:
 - Ad Intelligence
 - Market Intelligence
 - Analytics
+- MCP
+- Agent Tools
+- App Store Intelligence
+- Mobile Measurement
 website: https://mobileaction.co
 ---

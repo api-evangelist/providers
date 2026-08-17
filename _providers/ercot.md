@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: RESTful access to ERCOT Market Information List (EMIL) public data products — 106 documented endpoints spanning real-time and day-ahead locational marginal prices, settlement point prices, SCED system
@@ -48,11 +48,15 @@ apis:
 - description: 'SOAP web service supporting Texas Standard Electronic Transactions (TX SET) between ERCOT, Transmission and Distribution Service Providers, and Retail Electric Providers — the machinery behind retail '
   name: ERCOT Retail API
   slug: ercot-retail-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Ercot Ews Notifications
   slug: ercot-ews-notifications
+collections:
+- collection_type: open
+  name: ERCOT Public API Client/Developer Documentation
+  slug: open-ercot-public-data-api
 common:
 - group: operate
   title: ''
@@ -222,7 +226,7 @@ overview: 'ERCOT publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   ERCOT''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, signup flow, support, and 30 more developer resources.'
-random_paper: 61
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Ercot Rate Limits
@@ -260,7 +264,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/screenshots/ercot-2026-08-07T164957.png
 security:

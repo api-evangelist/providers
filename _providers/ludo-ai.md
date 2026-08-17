@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -64,11 +64,32 @@ apis:
 - description: Generate short videos from images with motion prompts, suitable for cinematics, trailers, and dynamic backgrounds.
   name: Ludo.ai Video API
   slug: ludo-ai-video-api
-artifact_total: 19
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ludo.ai REST 3D Models API
+  slug: open-ludo-ai-3d-models-api
+- collection_type: open
+  name: Ludo.ai REST 3D Models Animation API
+  slug: open-ludo-ai-animation-api
+- collection_type: open
+  name: Ludo.ai REST 3D Models Audio API
+  slug: open-ludo-ai-audio-api
+- collection_type: open
+  name: Ludo.ai REST 3D Models Images API
+  slug: open-ludo-ai-images-api
 - collection_type: open
   name: Ludo.ai REST API
   slug: open-ludo-ai-rest-api
+- collection_type: open
+  name: Ludo.ai REST 3D Models Results API
+  slug: open-ludo-ai-results-api
+- collection_type: open
+  name: Ludo.ai REST 3D Models Video API
+  slug: open-ludo-ai-video-api
 common:
 - group: agent
   title: ''
@@ -158,7 +179,7 @@ plans:
 - name: Ludo Ai Plans Pricing
   plan_count: 4
   slug: ludo-ai-plans-pricing
-random_paper: 83
+random_paper: 87
 rate_limits:
 - limit_count: 7
   name: Ludo Ai Rate Limits
@@ -192,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/screenshots/ludo-ai-2026-06-20T184746.png
 security:

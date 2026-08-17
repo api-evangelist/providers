@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -69,11 +69,44 @@ apis:
 - description: The Webhooks API from Debbie Collect — 2 operation(s) for webhooks.
   name: Debbie Collect Webhooks API
   slug: debbie-collect-webhooks-api
-artifact_total: 23
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Debbie Client API
   slug: open-debbie-client-api
+- collection_type: open
+  name: Debbie Client Billing API
+  slug: open-debbie-collect-billing-api
+- collection_type: open
+  name: Debbie Client Billing Case Vouchers API
+  slug: open-debbie-collect-case-vouchers-api
+- collection_type: open
+  name: Debbie Client Billing Cases API
+  slug: open-debbie-collect-cases-api
+- collection_type: open
+  name: Debbie Client Billing Creditors API
+  slug: open-debbie-collect-creditors-api
+- collection_type: open
+  name: Debbie Client Billing Customers API
+  slug: open-debbie-collect-customers-api
+- collection_type: open
+  name: Debbie Client Billing Files API
+  slug: open-debbie-collect-files-api
+- collection_type: open
+  name: Debbie Client Billing Payments API
+  slug: open-debbie-collect-payments-api
+- collection_type: open
+  name: Debbie Client Billing Properties API
+  slug: open-debbie-collect-properties-api
+- collection_type: open
+  name: Debbie Client Billing Updates API
+  slug: open-debbie-collect-updates-api
+- collection_type: open
+  name: Debbie Client Billing Webhooks API
+  slug: open-debbie-collect-webhooks-api
 - collection_type: open
   name: Debbie Platform API
   slug: open-debbie-platform-api
@@ -161,7 +194,7 @@ plans:
 - name: Debbie Collect Plans Pricing
   plan_count: 3
   slug: debbie-collect-plans-pricing
-random_paper: 70
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Debbie Collect Rate Limits
@@ -209,7 +242,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/screenshots/debbie-collect-2026-06-20T175744.png
 security:

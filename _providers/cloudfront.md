@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -59,8 +59,29 @@ apis:
 - description: The PublicKeys API from CloudFront — 1 operation(s) for publickeys.
   name: CloudFront PublicKeys API
   slug: cloudfront-publickeys-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CloudFront CachePolicies API
+  slug: open-cloudfront-cachepolicies-api
+- collection_type: open
+  name: Amazon CloudFront CachePolicies Distributions API
+  slug: open-cloudfront-distributions-api
+- collection_type: open
+  name: Amazon CloudFront CachePolicies Functions API
+  slug: open-cloudfront-functions-api
+- collection_type: open
+  name: Amazon CloudFront CachePolicies Invalidations API
+  slug: open-cloudfront-invalidations-api
+- collection_type: open
+  name: Amazon CloudFront CachePolicies OriginAccessControl API
+  slug: open-cloudfront-originaccesscontrol-api
+- collection_type: open
+  name: Amazon CloudFront CachePolicies PublicKeys API
+  slug: open-cloudfront-publickeys-api
 - collection_type: open
   name: Amazon CloudFront API
   slug: open-cloudfront
@@ -117,7 +138,7 @@ overview: 'CloudFront publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CloudFront''s developer surface includes authentication, documentation, pricing, and 7 more developer resources.'
-random_paper: 8
+random_paper: 45
 score:
   band: thin
   composite: 30.9
@@ -138,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/screenshots/cloudfront-2026-06-20T174603.png
 security:

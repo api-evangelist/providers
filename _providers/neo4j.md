@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Manage explicit transactions with full control over the transaction lifecycle including open, run, commit, and rollback operations.
   name: Neo4j Transactions API
   slug: neo4j-transactions-api
-artifact_total: 35
+artifact_total: 43
 collections:
 - collection_type: postman
   name: Neo4j Aura Authentication API
@@ -99,11 +99,35 @@ collections:
   name: Neo4j Aura Authentication Transactions API
   slug: postman-neo4j-transactions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Neo4j Aura API
   slug: open-neo4j-aura-api
 - collection_type: open
+  name: Neo4j Aura Authentication API
+  slug: open-neo4j-authentication-api
+- collection_type: open
+  name: Neo4j Aura Authentication Discovery API
+  slug: open-neo4j-discovery-api
+- collection_type: open
   name: Neo4j HTTP API
   slug: open-neo4j-http-api
+- collection_type: open
+  name: Neo4j Aura Authentication Instances API
+  slug: open-neo4j-instances-api
+- collection_type: open
+  name: Neo4j Aura Authentication Query API
+  slug: open-neo4j-query-api
+- collection_type: open
+  name: Neo4j Aura Authentication Snapshots API
+  slug: open-neo4j-snapshots-api
+- collection_type: open
+  name: Neo4j Aura Authentication Tenants API
+  slug: open-neo4j-tenants-api
+- collection_type: open
+  name: Neo4j Aura Authentication Transactions API
+  slug: open-neo4j-transactions-api
 common:
 - group: build
   title: ''
@@ -219,7 +243,7 @@ plans:
 - name: Neo4J Plans Pricing
   plan_count: 8
   slug: neo4j-plans-pricing
-random_paper: 0
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Neo4J Rate Limits
@@ -253,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

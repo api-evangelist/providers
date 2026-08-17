@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: The Transactions API from Agora — 2 operation(s) for transactions.
   name: Agora Transactions API
   slug: agora-transactions-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Endpoints Accounts API
+  slug: open-agora-accounts-api
+- collection_type: open
+  name: Endpoints Accounts Auth API
+  slug: open-agora-auth-api
+- collection_type: open
+  name: Endpoints Accounts Metrics API
+  slug: open-agora-metrics-api
+- collection_type: open
+  name: Endpoints Accounts Routes API
+  slug: open-agora-routes-api
+- collection_type: open
+  name: Endpoints Accounts Transactions API
+  slug: open-agora-transactions-api
 common:
 - group: agent
   title: ''
@@ -168,7 +187,7 @@ overview: 'Agora publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Agora''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 42
+random_paper: 75
 score:
   band: developing
   composite: 45.9
@@ -198,7 +217,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/screenshots/agora-2026-07-25T195314.png
 security:

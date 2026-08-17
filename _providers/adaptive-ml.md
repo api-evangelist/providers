@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,11 +65,42 @@ apis:
 - description: Recipe operations
   name: Adaptive ML Recipes API
   slug: adaptive-ml-recipes-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Adaptive Ml Webhooks
   slug: adaptive-ml-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: concorde artifacts::rest API
+  slug: open-adaptive-ml-artifacts-rest-api
+- collection_type: open
+  name: concorde artifacts::rest Chunked Upload API
+  slug: open-adaptive-ml-chunked-upload-api
+- collection_type: open
+  name: concorde artifacts::rest Completions API
+  slug: open-adaptive-ml-completions-api
+- collection_type: open
+  name: concorde artifacts::rest Datasets API
+  slug: open-adaptive-ml-datasets-api
+- collection_type: open
+  name: concorde artifacts::rest Embeddings API
+  slug: open-adaptive-ml-embeddings-api
+- collection_type: open
+  name: concorde artifacts::rest Feedback API
+  slug: open-adaptive-ml-feedback-api
+- collection_type: open
+  name: concorde artifacts::rest image::rest API
+  slug: open-adaptive-ml-image-rest-api
+- collection_type: open
+  name: concorde artifacts::rest Interactions API
+  slug: open-adaptive-ml-interactions-api
+- collection_type: open
+  name: concorde artifacts::rest Recipes API
+  slug: open-adaptive-ml-recipes-api
 common:
 - group: company
   title: ''
@@ -202,7 +233,7 @@ overview: 'Adaptive ML publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Adaptive ML''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 21 more developer resources.'
-random_paper: 28
+random_paper: 65
 score:
   band: developing
   composite: 45.7
@@ -226,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/screenshots/adaptive-ml-2026-07-25T181557.png
 security:

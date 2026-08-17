@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -72,8 +72,35 @@ apis:
 - description: The Users API from DagsHub — 2 operation(s) for users.
   name: DagsHub Users API
   slug: dagshub-users-api
-artifact_total: 18
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DagsHub REST Branches API
+  slug: open-dagshub-branches-api
+- collection_type: open
+  name: DagsHub REST Branches Issues API
+  slug: open-dagshub-issues-api
+- collection_type: open
+  name: DagsHub REST Branches Orgs API
+  slug: open-dagshub-orgs-api
+- collection_type: open
+  name: DagsHub REST Branches PullRequests API
+  slug: open-dagshub-pullrequests-api
+- collection_type: open
+  name: DagsHub REST Branches Repos API
+  slug: open-dagshub-repos-api
+- collection_type: open
+  name: DagsHub REST Branches Storage API
+  slug: open-dagshub-storage-api
+- collection_type: open
+  name: DagsHub REST Branches User API
+  slug: open-dagshub-user-api
+- collection_type: open
+  name: DagsHub REST Branches Users API
+  slug: open-dagshub-users-api
 - collection_type: open
   name: DagsHub REST API
   slug: open-dagshub
@@ -146,7 +173,7 @@ plans:
 - name: Dagshub Plans Pricing
   plan_count: 1
   slug: dagshub-plans-pricing
-random_paper: 14
+random_paper: 138
 rate_limits:
 - limit_count: 1
   name: Dagshub Rate Limits
@@ -171,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/screenshots/dagshub-2026-06-20T175441.png
 security:

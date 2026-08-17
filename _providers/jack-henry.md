@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -165,12 +165,15 @@ apis:
 - description: Zelle peer-to-peer payments.
   name: Jack Henry & Associates Zelle API
   slug: jack-henry-zelle-api
-artifact_total: 82
+artifact_total: 120
 asyncapis:
 - description: Real-time, pub/sub-based event system for Jack Henry platform events. Lets partners and institutions subscribe to account events, transaction events, alert events, and user-lifecycle events without po
   name: Jack Henry Enterprise Event System
   slug: enterprise-event-system-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Banno Admin API
   slug: open-banno-admin-api
@@ -184,8 +187,119 @@ collections:
   name: Banno Plugin Framework
   slug: open-banno-plugin-framework
 - collection_type: open
+  name: Banno Admin Abilities API
+  slug: open-jack-henry-abilities-api
+- collection_type: open
+  name: Banno Admin Abilities Accounts API
+  slug: open-jack-henry-accounts-api
+- collection_type: open
+  name: Banno Admin Abilities ACH Origination API
+  slug: open-jack-henry-ach-origination-api
+- collection_type: open
+  name: Banno Admin Abilities Alerts API
+  slug: open-jack-henry-alerts-api
+- collection_type: open
+  name: Banno Admin Abilities Authorization API
+  slug: open-jack-henry-authorization-api
+- collection_type: open
+  name: Banno Admin Abilities Bill Pay API
+  slug: open-jack-henry-bill-pay-api
+- collection_type: open
+  name: Banno Admin Abilities Bill Payments API
+  slug: open-jack-henry-bill-payments-api
+- collection_type: open
+  name: Banno Admin Abilities Cards API
+  slug: open-jack-henry-cards-api
+- collection_type: open
+  name: Banno Admin Abilities Consumers API
+  slug: open-jack-henry-consumers-api
+- collection_type: open
+  name: Banno Admin Abilities Customers API
+  slug: open-jack-henry-customers-api
+- collection_type: open
+  name: Banno Admin Abilities Deposit Accounts API
+  slug: open-jack-henry-deposit-accounts-api
+- collection_type: open
+  name: Banno Admin Abilities Discovery API
+  slug: open-jack-henry-discovery-api
+- collection_type: open
+  name: Banno Admin Abilities General Ledger API
+  slug: open-jack-henry-general-ledger-api
+- collection_type: open
+  name: Banno Admin Abilities High Risk Actions API
+  slug: open-jack-henry-high-risk-actions-api
+- collection_type: open
+  name: Banno Admin Abilities History API
+  slug: open-jack-henry-history-api
+- collection_type: open
+  name: Banno Admin Abilities Institution Offline Status API
+  slug: open-jack-henry-institution-offline-status-api
+- collection_type: open
+  name: Banno Admin Abilities Institutions API
+  slug: open-jack-henry-institutions-api
+- collection_type: open
+  name: Banno Admin Abilities Loan Accounts API
+  slug: open-jack-henry-loan-accounts-api
+- collection_type: open
+  name: Banno Admin Abilities Marketing Ads API
+  slug: open-jack-henry-marketing-ads-api
+- collection_type: open
+  name: Banno Admin Abilities Messages API
+  slug: open-jack-henry-messages-api
+- collection_type: open
+  name: Banno Admin Abilities Payments Orchestrator API
+  slug: open-jack-henry-payments-orchestrator-api
+- collection_type: open
   name: Jack Henry Payments
   slug: open-jack-henry-payments
+- collection_type: open
+  name: Banno Admin Abilities Peer To Peer API
+  slug: open-jack-henry-peer-to-peer-api
+- collection_type: open
+  name: Banno Admin Abilities Plugin Bridge API
+  slug: open-jack-henry-plugin-bridge-api
+- collection_type: open
+  name: Banno Admin Abilities Plugin Configuration API
+  slug: open-jack-henry-plugin-configuration-api
+- collection_type: open
+  name: Banno Admin Abilities Plugin Management API
+  slug: open-jack-henry-plugin-management-api
+- collection_type: open
+  name: Banno Admin Abilities Remote Deposit Capture API
+  slug: open-jack-henry-remote-deposit-capture-api
+- collection_type: open
+  name: Banno Admin Abilities Reports API
+  slug: open-jack-henry-reports-api
+- collection_type: open
+  name: Banno Admin Abilities Routing Numbers API
+  slug: open-jack-henry-routing-numbers-api
+- collection_type: open
+  name: Banno Admin Abilities Segments API
+  slug: open-jack-henry-segments-api
+- collection_type: open
+  name: Banno Admin Abilities Token API
+  slug: open-jack-henry-token-api
+- collection_type: open
+  name: Banno Admin Abilities Transactions API
+  slug: open-jack-henry-transactions-api
+- collection_type: open
+  name: Banno Admin Abilities Transfers API
+  slug: open-jack-henry-transfers-api
+- collection_type: open
+  name: Banno Admin Abilities User API
+  slug: open-jack-henry-user-api
+- collection_type: open
+  name: Banno Admin Abilities User Context API
+  slug: open-jack-henry-user-context-api
+- collection_type: open
+  name: Banno Admin Abilities UserInfo API
+  slug: open-jack-henry-userinfo-api
+- collection_type: open
+  name: Banno Admin Abilities Wire Transfers API
+  slug: open-jack-henry-wire-transfers-api
+- collection_type: open
+  name: Banno Admin Abilities Zelle API
+  slug: open-jack-henry-zelle-api
 - collection_type: open
   name: jXchange REST
   slug: open-jxchange-rest
@@ -361,7 +475,7 @@ plans:
 - name: Jack Henry Plans Pricing
   plan_count: 2
   slug: jack-henry-plans-pricing
-random_paper: 44
+random_paper: 110
 rate_limits:
 - limit_count: 0
   name: Jack Henry Rate Limits
@@ -441,7 +555,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/screenshots/jack-henry-2026-06-20T183648.png
 security:

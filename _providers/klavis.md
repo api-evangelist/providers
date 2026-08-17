@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: End-user metadata for agent integrations
   name: Klavis AI Users API
   slug: klavis-users-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Klavis AI MCP Platform MCP Servers API
+  slug: open-klavis-mcp-servers-api
+- collection_type: open
+  name: Klavis AI MCP Platform MCP Servers Sandbox API
+  slug: open-klavis-sandbox-api
+- collection_type: open
+  name: Klavis AI MCP Platform MCP Servers Tools API
+  slug: open-klavis-tools-api
+- collection_type: open
+  name: Klavis AI MCP Platform MCP Servers Users API
+  slug: open-klavis-users-api
 - collection_type: open
   name: Klavis AI MCP Platform API
   slug: open-klavis
@@ -144,7 +159,7 @@ plans:
 - name: Klavis Plans Pricing
   plan_count: 1
   slug: klavis-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Klavis Rate Limits
@@ -169,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/screenshots/klavis-2026-06-20T184058.png
 security:

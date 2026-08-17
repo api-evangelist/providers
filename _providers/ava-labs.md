@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -123,11 +123,99 @@ apis:
 - description: Manage webhooks and get notified for various onchain activities.
   name: Ava Labs Webhooks API
   slug: ava-labs-webhooks-api
-artifact_total: 33
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Ava Labs Webhooks
   slug: ava-labs-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Data AVAX Supply API
+  slug: open-ava-labs-avax-supply-api
+- collection_type: open
+  name: Data AVAX Supply Chain Metrics API
+  slug: open-ava-labs-chain-metrics-api
+- collection_type: open
+  name: Data AVAX Supply Chain Throughput API
+  slug: open-ava-labs-chain-throughput-api
+- collection_type: open
+  name: Data AVAX Supply Cumulative API
+  slug: open-ava-labs-cumulative-api
+- collection_type: open
+  name: Data AVAX Supply Data API Usage Metrics API
+  slug: open-ava-labs-data-api-usage-metrics-api
+- collection_type: open
+  name: Data AVAX Supply EVM Balances API
+  slug: open-ava-labs-evm-balances-api
+- collection_type: open
+  name: Data AVAX Supply EVM Blocks API
+  slug: open-ava-labs-evm-blocks-api
+- collection_type: open
+  name: Data AVAX Supply EVM Chains API
+  slug: open-ava-labs-evm-chains-api
+- collection_type: open
+  name: Data AVAX Supply EVM Contracts API
+  slug: open-ava-labs-evm-contracts-api
+- collection_type: open
+  name: Data AVAX Supply EVM Transactions API
+  slug: open-ava-labs-evm-transactions-api
+- collection_type: open
+  name: Data AVAX Supply Health Check API
+  slug: open-ava-labs-health-check-api
+- collection_type: open
+  name: Data AVAX Supply Interchain Messaging API
+  slug: open-ava-labs-interchain-messaging-api
+- collection_type: open
+  name: Data AVAX Supply L1 Validator Metrics API
+  slug: open-ava-labs-l1-validator-metrics-api
+- collection_type: open
+  name: Data AVAX Supply Looking Glass API
+  slug: open-ava-labs-looking-glass-api
+- collection_type: open
+  name: Data AVAX Supply NFTs API
+  slug: open-ava-labs-nfts-api
+- collection_type: open
+  name: Data AVAX Supply Operations API
+  slug: open-ava-labs-operations-api
+- collection_type: open
+  name: Data AVAX Supply platform API
+  slug: open-ava-labs-platform-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network API
+  slug: open-ava-labs-primary-network-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Balances API
+  slug: open-ava-labs-primary-network-balances-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Blocks API
+  slug: open-ava-labs-primary-network-blocks-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Rewards API
+  slug: open-ava-labs-primary-network-rewards-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Transactions API
+  slug: open-ava-labs-primary-network-transactions-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network UTXOs API
+  slug: open-ava-labs-primary-network-utxos-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Vertices API
+  slug: open-ava-labs-primary-network-vertices-api
+- collection_type: open
+  name: Data AVAX Supply Signature Aggregator API
+  slug: open-ava-labs-signature-aggregator-api
+- collection_type: open
+  name: Data AVAX Supply Staking Information API
+  slug: open-ava-labs-staking-information-api
+- collection_type: open
+  name: Data AVAX Supply Teleporter API
+  slug: open-ava-labs-teleporter-api
+- collection_type: open
+  name: Data AVAX Supply Webhooks API
+  slug: open-ava-labs-webhooks-api
 common:
 - group: company
   title: ''
@@ -264,7 +352,7 @@ overview: 'Ava Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ava Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 22 more developer resources.'
-random_paper: 55
+random_paper: 30
 score:
   band: developing
   composite: 54.0
@@ -288,7 +376,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/screenshots/ava-labs-2026-07-25T201903.png
 security:

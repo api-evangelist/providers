@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The @yarnpkg/core programmatic JavaScript/TypeScript API that allows applications to interact with Yarn projects, workspaces, and dependency resolution. Used for building Yarn plugins and tooling inte
@@ -158,7 +158,7 @@ plans:
 - name: Yarn Plans Pricing
   plan_count: 3
   slug: yarn-plans-pricing
-random_paper: 82
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Yarn Rate Limits
@@ -185,7 +185,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yarn/refs/heads/main/screenshots/yarn-2026-06-20T201731.png
 security:

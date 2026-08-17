@@ -10,26 +10,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: true
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-12'
-api_count: 8
+  score: 54.5
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Factiva Agentic Access
+  operation_count: 22
+  slug: factiva-agentic-access
+  summary_line: 22 operations · 4 acting
+api_count: 11
 apis:
 - description: Provides programmatic access to create, retrieve, and manage news snapshots based on search queries and filters. Supports analytics explain jobs and time series operations for volume estimation and tr
   name: Factiva Snapshots API
@@ -55,32 +63,41 @@ apis:
 - description: Retrieves real-time quotes, delayed quotes, and time series market data for US, Canadian, and global companies. Supports lookups by Dow Jones Ticker, Factiva Code, CUSIP, DUNS, or ISIN to retrieve mar
   name: Factiva Market Data API
   slug: factiva-market-data-api
-artifact_total: 12
+- description: Search the Factiva archive and retrieve licensed articles by accession number, including binary renditions (PDF, image) and publisher redirects. Also covers alert result retrieval, NewsPlus collection
+  name: Factiva Content API
+  slug: factiva-content-api
+- description: Retrieve the Factiva newsletters available to an account, walk each newsletter's editions and deliveries, and read the content items inside an edition. Responses are JSON:API documents served as appli
+  name: DJ Factiva Newsletters API
+  slug: dj-factiva-newsletters-api
+- description: Perform a full search of the Factiva realtime search system and return the company screening list and company news radar for an entitled user. This is the REST replacement for the PerformContentSearch
+  name: Factiva Company News Radar API
+  slug: factiva-company-news-radar-api
+artifact_total: 21
+asyncapis:
+- description: ''
+  name: Factiva Streams Events
+  slug: factiva-streams-events
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/factiva-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://developer.dowjones.com/documents/factiva_integration-essentials-authentication
 - group: operate
   title: ''
   type: IssueTracker
-  url: https://github.com/dowjones/developer-platform/issues
+  url: https://github.com/dowjones/developer-platform-archived/issues
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/factiva-domain-security.yml
 - group: start
   title: ''
-  type: Portal
-  url: https://developer.dowjones.com
-- group: start
-  title: ''
-  type: Signup
-  url: https://developer.dowjones.com/site/global/register/index.gsp
-- group: start
-  title: ''
   type: GettingStarted
   url: https://www.postman.com/dj-cse/dow-jones-apis/collection/l9tpql6/factiva-apis
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://developer.dowjones.com/site/global/apis/authentication/index.gsp
 - group: docs
   title: ''
   type: Documentation
@@ -96,11 +113,7 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.dowjones.com/privacy-policy/
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.dowjones.com
+  url: https://www.dowjones.com/privacy-notice/
 - group: operate
   title: ''
   type: Support
@@ -108,7 +121,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.dowjones.com/professional/factiva/
+  url: https://www.dowjones.com/business-intelligence/factiva/
 - group: company
   title: ''
   type: Blog
@@ -124,11 +137,11 @@ common:
 - group: build
   title: ''
   type: GitHubRepository
-  url: https://github.com/dowjones/developer-platform
+  url: https://github.com/dowjones/developer-platform-archived
 - group: build
   title: ''
   type: SDKs
-  url: https://github.com/dowjones/factiva-news-python
+  url: packages/factiva-packages.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -137,65 +150,198 @@ common:
   title: ''
   type: X
   url: https://twitter.com/DowJones
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.dowjones.com/request-trial
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.dowjones.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://developer.dowjones.com/documents/site-docs-getting_started-quick_start-getting_credentials
+- group: build
+  title: ''
+  type: Packages
+  url: packages/factiva-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/factiva-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/factiva-scopes.yml
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: https://accounts.dowjones.com/.well-known/openid-configuration
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/factiva-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/factiva-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.dowjones.com/documents/factiva_integration-essentials-deprecation_and_sunset-policy
+- group: design
+  title: ''
+  type: Versioning
+  url: https://developer.dowjones.com/documents/factiva_integration-essentials-versioning
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/factiva-changelog.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/factiva-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/factiva-error-codes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/factiva-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.dowjones.com/iso-certification/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/factiva-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.dowjones.com/security/
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/factiva-data-model.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/factiva-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/factiva-streams-events.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/factiva-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/factiva-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/factiva-finops.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
 created: '2024'
-description: Factiva is a business information and research tool from Dow Jones that provides access to global news, company information, and market data from thousands of sources.
+description: 'Factiva is Dow Jones'' business information and research service, providing licensed access to a global news and data archive drawn from more than 33,000 sources across 200 countries and 28 languages. Its API suite lets organizations search and retrieve licensed articles, run one-time historical extractions (Snapshots), subscribe to real-time filtered news streams over Google Cloud Pub/Sub, resolve the ~350,000-code Dow Jones Intelligent Identifiers taxonomy of companies, industries, regions and news subjects, and feed copyright-compliant content into retrieval-augmented generation stacks. Access is contract-based: there is no self-service signup and no published pricing, and credentials are issued by Dow Jones after a trial request.'
 finops:
 - name: Factiva Finops
   service_category: API
   slug: factiva-finops
 image: https://www.dowjones.com/wp-content/uploads/sites/9/2021/03/factiva-logo.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-13'
 name: Factiva
 nav: Providers
 network: true
-overview: 'Factiva publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Snapshots API, Streams API, Extractions API, and 3 more. Tagged areas include Business Intelligence, Content Aggregation, Market Data, Media Monitoring, and News.
+overview: 'Factiva publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Snapshots API, Streams API, Extractions API, and 6 more. Tagged areas include AI, Business Intelligence, Content Aggregation, Enterprise Data, and GenAI.
 
 
-  Factiva''s developer surface includes developer portal, signup flow, getting-started guide, authentication, documentation, support, engineering blog, and 13 more developer resources.'
+  The Factiva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Factiva''s developer surface includes authentication, getting-started guide, documentation, support, engineering blog, signup flow, API reference, and 38 more developer resources.'
 plans:
 - name: Factiva Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: factiva-plans-pricing
-random_paper: 14
+random_paper: 138
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Factiva Rate Limits
   slug: factiva-rate-limits
+scopes:
+- name: Factiva Scopes
+  scope_count: 8
+  slug: factiva-scopes
+  summary_line: 8 scopes · password/authorizationCode/implicit
 score:
-  band: thin
-  composite: 33.9
-  delta: 0.0
+  band: strong
+  composite: 61.6
+  delta: 27.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 56.5
-    discoverability: 72.2
-    governance: 0.0
-    operational_transparency: 28.9
+    contract_quality: 58.6
+    developer_ergonomics: 69.6
+    discoverability: 100.0
+    governance: 20.8
+    operational_transparency: 47.4
   previous_composite: 33.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 43.3
+    score: 86.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/screenshots/factiva-2026-06-20T181007.png
 security:
+- kind: authentication
+  name: Factiva Authentication
+  slug: factiva-authentication
+  summary_line: apiKey/http/oauth2 · 2 schemes
 - kind: domain-security
   name: Factiva Domain Security
   slug: factiva-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Factiva Vulnerability Disclosure
+  slug: factiva-vulnerability-disclosure
+  summary_line: Bugcrowd · security.txt · contact published
+- kind: trust-center
+  name: Factiva Trust Center
+  slug: factiva-trust-center
+  summary_line: ISO/IEC 27001, ISAE 3000
 slug: factiva
 tags:
+- AI
 - Business Intelligence
 - Content Aggregation
+- Enterprise Data
+- GenAI
 - Market Data
 - Media Monitoring
 - News
+- News API
 - Research
-website: https://www.dowjones.com/professional/factiva/
+- Taxonomy
+website: https://www.dowjones.com/business-intelligence/factiva/
 ---

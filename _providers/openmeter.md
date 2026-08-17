@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Subjects that usage is metered against.
   name: OpenMeter Subjects API
   slug: openmeter-subjects-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenMeter Billing API
+  slug: open-openmeter-billing-api
+- collection_type: open
+  name: OpenMeter Billing Customers API
+  slug: open-openmeter-customers-api
+- collection_type: open
+  name: OpenMeter Billing Entitlements API
+  slug: open-openmeter-entitlements-api
+- collection_type: open
+  name: OpenMeter Billing Events API
+  slug: open-openmeter-events-api
+- collection_type: open
+  name: OpenMeter Billing Features API
+  slug: open-openmeter-features-api
+- collection_type: open
+  name: OpenMeter Billing Grants API
+  slug: open-openmeter-grants-api
+- collection_type: open
+  name: OpenMeter Billing Meters API
+  slug: open-openmeter-meters-api
+- collection_type: open
+  name: OpenMeter Billing Notifications API
+  slug: open-openmeter-notifications-api
+- collection_type: open
+  name: OpenMeter Billing Plans API
+  slug: open-openmeter-plans-api
+- collection_type: open
+  name: OpenMeter Billing Subjects API
+  slug: open-openmeter-subjects-api
 - collection_type: open
   name: OpenMeter API
   slug: open-openmeter
@@ -139,7 +172,7 @@ plans:
 - name: Openmeter Plans Pricing
   plan_count: 4
   slug: openmeter-plans-pricing
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Openmeter Rate Limits
@@ -164,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/screenshots/openmeter-2026-08-07T190632.png
 security:

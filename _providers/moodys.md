@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
 - description: Moody's Scenario Studio Api from Moody's — 57 path(s) described in OpenAPI.
   name: Moody's Scenario Studio Api
   slug: moodys-scenario-studio-api-swagger
-artifact_total: 92
+artifact_total: 102
 collections:
 - collection_type: postman
   name: Moody's Data Buffet Baskets API
@@ -103,8 +103,38 @@ collections:
   name: Moody's Data Buffet Baskets Series API
   slug: postman-moodys-series-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Moody's Analytics AutoCycle API
+  slug: open-moodys-autocycle-api-swagger
+- collection_type: open
+  name: Moody's Data Buffet Baskets API
+  slug: open-moodys-baskets-api
+- collection_type: open
   name: Moody's Data Buffet API
   slug: open-moodys-data-buffet-api
+- collection_type: open
+  name: Moody's Data Buffet Baskets Health API
+  slug: open-moodys-health-api
+- collection_type: open
+  name: Moody's Analytics Muni Loss Forecast API
+  slug: open-moodys-municipal-api-swagger
+- collection_type: open
+  name: Moody's Data Buffet Baskets Orders API
+  slug: open-moodys-orders-api
+- collection_type: open
+  name: Moody's Data Buffet Baskets Reference API
+  slug: open-moodys-reference-api
+- collection_type: open
+  name: Scenario Studio Api
+  slug: open-moodys-scenario-studio-api-swagger
+- collection_type: open
+  name: Moody's Data Buffet Baskets Search API
+  slug: open-moodys-search-api
+- collection_type: open
+  name: Moody's Data Buffet Baskets Series API
+  slug: open-moodys-series-api
 common:
 - group: build
   title: ''
@@ -473,7 +503,7 @@ press:
 - date: '2026-05-25'
   title: Moody's Advances Decision-Grade Credit Intelligence ...
   url: https://www.businesswire.com/news/home/20260421137955/en/Moodys-Advances-Decision-Grade-Credit-Intelligence-Across-Enterprise-AI-Workflows-Powered-by-Microsoft-365-Copilot
-random_paper: 67
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Moodys Rate Limits
@@ -529,7 +559,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:

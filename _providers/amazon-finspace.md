@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Tag FinSpace resources
   name: Amazon FinSpace Tagging API
   slug: amazon-finspace-tagging-api
-artifact_total: 51
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Amazon FinSpace Environments API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Amazon FinSpace Environments Tagging API
   slug: postman-amazon-finspace-tagging-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon FinSpace Environments API
+  slug: open-amazon-finspace-environments-api
+- collection_type: open
+  name: Amazon FinSpace Environments Kdb Clusters API
+  slug: open-amazon-finspace-kdb-clusters-api
+- collection_type: open
+  name: Amazon FinSpace Environments Kdb Databases API
+  slug: open-amazon-finspace-kdb-databases-api
+- collection_type: open
+  name: Amazon FinSpace Environments Kdb Environments API
+  slug: open-amazon-finspace-kdb-environments-api
+- collection_type: open
+  name: Amazon FinSpace Environments Kdb Users API
+  slug: open-amazon-finspace-kdb-users-api
+- collection_type: open
+  name: Amazon FinSpace Environments Tagging API
+  slug: open-amazon-finspace-tagging-api
 - collection_type: open
   name: Amazon FinSpace API
   slug: open-amazon-finspace
@@ -260,7 +281,7 @@ plans:
 - name: Amazon Finspace Plans Pricing
   plan_count: 3
   slug: amazon-finspace-plans-pricing
-random_paper: 92
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Amazon Finspace Rate Limits
@@ -302,7 +323,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/screenshots/amazon-finspace-2026-06-20T171652.png
 security:

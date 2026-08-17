@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: Cognizant Named Aston Martin Aramco Formula One™ ...
   url: https://www.prnewswire.com/news-releases/cognizant-named-aston-martin-aramco-formula-one-team-global-ai-services-partner-302755751.html
-random_paper: 62
+random_paper: 16
 score:
   band: minimal
   composite: 10.3
@@ -133,7 +133,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/screenshots/cognizant-technology-2026-06-20T174719.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -57,7 +57,29 @@ apis:
 - description: Get a real-time overview of all your open positions, including quantity, average price, and current profit or loss.
   name: Trading 212 Positions API
   slug: trading212-positions-api
-artifact_total: 76
+artifact_total: 83
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trading 212 Public Accounts API
+  slug: open-trading212-accounts-api
+- collection_type: open
+  name: Trading 212 Public Accounts Historical events API
+  slug: open-trading212-historical-events-api
+- collection_type: open
+  name: Trading 212 Public Accounts Instruments API
+  slug: open-trading212-instruments-api
+- collection_type: open
+  name: Trading 212 Public Accounts Orders API
+  slug: open-trading212-orders-api
+- collection_type: open
+  name: Trading 212 Public Accounts Pies (Deprecated) API
+  slug: open-trading212-pies-deprecated-api
+- collection_type: open
+  name: Trading 212 Public Accounts Positions API
+  slug: open-trading212-positions-api
 common:
 - group: agent
   title: ''
@@ -321,7 +343,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 54
+random_paper: 0
 rate_limits:
 - limit_count: 18
   name: Rate Limits
@@ -361,7 +383,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/screenshots/trading212-2026-06-20T195528.png
 security:

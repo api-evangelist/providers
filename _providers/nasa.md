@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,26 +88,56 @@ arazzos:
 - description: Page the asteroid catalog, look up a specific near-Earth object, and pull every other object approaching on the same date.
   name: NASA Near Earth Object Close Approach Analysis
   slug: nasa-neo-close-approach-analysis-workflow
-artifact_total: 42
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: NASA Astronomy Picture of the Day (APOD) API
   slug: open-nasa-apod
 - collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Asset API
+  slug: open-nasa-asset-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Asset Captions API
+  slug: open-nasa-captions-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Asset DONKI API
+  slug: open-nasa-donki-api
+- collection_type: open
   name: NASA DONKI (Space Weather Database Of Notifications, Knowledge, Information) API
   slug: open-nasa-donki
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Asset EPIC API
+  slug: open-nasa-epic-api
 - collection_type: open
   name: NASA EPIC (Earth Polychromatic Imaging Camera) API
   slug: open-nasa-epic
 - collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Asset Mars Photos API
+  slug: open-nasa-mars-photos-api
+- collection_type: open
   name: NASA Mars Rover Photos API
   slug: open-nasa-mars-rover-photos
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Asset Metadata API
+  slug: open-nasa-metadata-api
 - collection_type: open
   name: NASA Image and Video Library API
   slug: open-nasa-nasa-image-and-video-library
 - collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Asset Neo API
+  slug: open-nasa-neo-api
+- collection_type: open
   name: NASA NeoWs (Near Earth Object Web Service) API
   slug: open-nasa-neo
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Asset Planetary API
+  slug: open-nasa-planetary-api
+- collection_type: open
+  name: NASA Astronomy Picture of the Day (APOD) Asset Search API
+  slug: open-nasa-search-api
 common:
 - group: agent
   title: ''
@@ -304,7 +334,7 @@ plans:
 - name: Nasa Plans Pricing
   plan_count: 3
   slug: nasa-plans-pricing
-random_paper: 59
+random_paper: 121
 rate_limits:
 - limit_count: 3
   name: Nasa Rate Limits
@@ -346,7 +376,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png
 security:

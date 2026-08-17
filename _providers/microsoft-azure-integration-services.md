@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,8 +57,17 @@ apis:
 - description: Services operations
   name: Microsoft Azure Integration Services Services API
   slug: microsoft-azure-integration-services-services-api
-artifact_total: 14
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure API Management REST Operations API
+  slug: open-microsoft-azure-integration-services-operations-api
+- collection_type: open
+  name: Azure API Management REST Operations Services API
+  slug: open-microsoft-azure-integration-services-services-api
 - collection_type: open
   name: Azure API Management REST API
   slug: open-microsoft-azure-integration-services
@@ -163,7 +172,7 @@ plans:
 - name: Microsoft Azure Integration Services Plans Pricing
   plan_count: 3
   slug: microsoft-azure-integration-services-plans-pricing
-random_paper: 4
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Integration Services Rate Limits
@@ -193,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/screenshots/microsoft-azure-integration-services-2026-06-20T185419.png
 security:

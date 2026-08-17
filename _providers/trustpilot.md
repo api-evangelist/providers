@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Business unit review retrieval
   name: Trustpilot Reviews API
   slug: trustpilot-reviews-api
-artifact_total: 47
+artifact_total: 52
 collections:
 - collection_type: postman
   name: Trustpilot Business Units API
@@ -93,11 +93,26 @@ collections:
   name: Trustpilot Business Units Reviews API
   slug: postman-trustpilot-reviews-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trustpilot Business Units API
+  slug: open-trustpilot-business-units-api
+- collection_type: open
   name: Trustpilot Business Units API
   slug: open-trustpilot-business-units
 - collection_type: open
+  name: Trustpilot Business Units Conversations API
+  slug: open-trustpilot-conversations-api
+- collection_type: open
+  name: Trustpilot Business Units Images API
+  slug: open-trustpilot-images-api
+- collection_type: open
   name: Trustpilot Invitation API
   slug: open-trustpilot-invitation
+- collection_type: open
+  name: Trustpilot Business Units Invitations API
+  slug: open-trustpilot-invitations-api
 common:
 - group: build
   title: ''
@@ -281,7 +296,7 @@ plans:
 - name: Trustpilot Plans Pricing
   plan_count: 5
   slug: trustpilot-plans-pricing
-random_paper: 50
+random_paper: 87
 rate_limits:
 - limit_count: 2
   name: Trustpilot Rate Limits
@@ -328,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/screenshots/trustpilot-2026-06-20T195803.png
 security:

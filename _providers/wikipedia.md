@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -139,7 +139,110 @@ apis:
 - description: The wikidata API from Wikipedia / MediaWiki — 3 operation(s) for wikidata.
   name: Wikipedia / MediaWiki wikidata API
   slug: wikipedia-wikidata-api
-artifact_total: 289
+artifact_total: 323
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MediaWiki Action articles API
+  slug: open-wikipedia-articles-api
+- collection_type: open
+  name: MediaWiki Action articles Authentication API
+  slug: open-wikipedia-authentication-api
+- collection_type: open
+  name: MediaWiki Action articles batches API
+  slug: open-wikipedia-batches-api
+- collection_type: open
+  name: MediaWiki Action articles Citation API
+  slug: open-wikipedia-citation-api
+- collection_type: open
+  name: MediaWiki Action articles codes API
+  slug: open-wikipedia-codes-api
+- collection_type: open
+  name: MediaWiki Action articles Edit API
+  slug: open-wikipedia-edit-api
+- collection_type: open
+  name: MediaWiki Action articles Files API
+  slug: open-wikipedia-files-api
+- collection_type: open
+  name: MediaWiki Action articles History API
+  slug: open-wikipedia-history-api
+- collection_type: open
+  name: MediaWiki Action articles languages API
+  slug: open-wikipedia-languages-api
+- collection_type: open
+  name: MediaWiki Action articles Links API
+  slug: open-wikipedia-links-api
+- collection_type: open
+  name: MediaWiki Action articles Math API
+  slug: open-wikipedia-math-api
+- collection_type: open
+  name: MediaWiki Action articles Meta API
+  slug: open-wikipedia-meta-api
+- collection_type: open
+  name: MediaWiki Action articles Mobile API
+  slug: open-wikipedia-mobile-api
+- collection_type: open
+  name: MediaWiki Action articles namespaces API
+  slug: open-wikipedia-namespaces-api
+- collection_type: open
+  name: MediaWiki Action articles offline API
+  slug: open-wikipedia-offline-api
+- collection_type: open
+  name: MediaWiki Action articles Page content API
+  slug: open-wikipedia-page-content-api
+- collection_type: open
+  name: MediaWiki Action articles Pages API
+  slug: open-wikipedia-pages-api
+- collection_type: open
+  name: MediaWiki Action articles Parse API
+  slug: open-wikipedia-parse-api
+- collection_type: open
+  name: MediaWiki Action articles Patrol API
+  slug: open-wikipedia-patrol-api
+- collection_type: open
+  name: MediaWiki Action articles projects API
+  slug: open-wikipedia-projects-api
+- collection_type: open
+  name: MediaWiki Action articles Query API
+  slug: open-wikipedia-query-api
+- collection_type: open
+  name: MediaWiki Action articles Reading lists API
+  slug: open-wikipedia-reading-lists-api
+- collection_type: open
+  name: MediaWiki Action articles Recommendation API
+  slug: open-wikipedia-recommendation-api
+- collection_type: open
+  name: MediaWiki Action articles Revisions API
+  slug: open-wikipedia-revisions-api
+- collection_type: open
+  name: MediaWiki Action articles Search API
+  slug: open-wikipedia-search-api
+- collection_type: open
+  name: MediaWiki Action articles snapshots API
+  slug: open-wikipedia-snapshots-api
+- collection_type: open
+  name: MediaWiki Action articles SPARQL API
+  slug: open-wikipedia-sparql-api
+- collection_type: open
+  name: MediaWiki Action articles structured-contents API
+  slug: open-wikipedia-structured-contents-api
+- collection_type: open
+  name: MediaWiki Action articles structured-snapshots API
+  slug: open-wikipedia-structured-snapshots-api
+- collection_type: open
+  name: MediaWiki Action articles Talk pages API
+  slug: open-wikipedia-talk-pages-api
+- collection_type: open
+  name: MediaWiki Action articles Transforms API
+  slug: open-wikipedia-transforms-api
+- collection_type: open
+  name: MediaWiki Action articles Upload API
+  slug: open-wikipedia-upload-api
+- collection_type: open
+  name: MediaWiki Action articles wikidata API
+  slug: open-wikipedia-wikidata-api
 common:
 - group: agent
   title: ''
@@ -1067,7 +1170,7 @@ plans:
 - name: Wikipedia Plans Pricing
   plan_count: 3
   slug: wikipedia-plans-pricing
-random_paper: 111
+random_paper: 57
 rate_limits:
 - limit_count: 9
   name: Wikipedia Rate Limits
@@ -1115,7 +1218,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/screenshots/wikipedia-2026-06-20T201453.png
 security:

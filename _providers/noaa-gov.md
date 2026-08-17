@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,8 +110,50 @@ apis:
 - description: The Zones API from NOAA — National Oceanic and Atmospheric Administration — 6 operation(s) for zones.
   name: NOAA — National Oceanic and Atmospheric Administration Zones API
   slug: noaa-gov-zones-api
-artifact_total: 46
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: weather.gov Alerts API
+  slug: open-noaa-gov-alerts-api
+- collection_type: open
+  name: weather.gov Alerts Aviation API
+  slug: open-noaa-gov-aviation-api
+- collection_type: open
+  name: weather.gov Alerts Glossary API
+  slug: open-noaa-gov-glossary-api
+- collection_type: open
+  name: weather.gov Alerts Gridpoints API
+  slug: open-noaa-gov-gridpoints-api
+- collection_type: open
+  name: weather.gov Alerts Icons API
+  slug: open-noaa-gov-icons-api
+- collection_type: open
+  name: weather.gov Alerts Offices API
+  slug: open-noaa-gov-offices-api
+- collection_type: open
+  name: weather.gov Alerts Points API
+  slug: open-noaa-gov-points-api
+- collection_type: open
+  name: weather.gov Alerts Products API
+  slug: open-noaa-gov-products-api
+- collection_type: open
+  name: weather.gov Alerts Radar API
+  slug: open-noaa-gov-radar-api
+- collection_type: open
+  name: weather.gov Alerts Radio API
+  slug: open-noaa-gov-radio-api
+- collection_type: open
+  name: weather.gov Alerts Stations API
+  slug: open-noaa-gov-stations-api
+- collection_type: open
+  name: weather.gov Alerts Thumbnails API
+  slug: open-noaa-gov-thumbnails-api
+- collection_type: open
+  name: weather.gov Alerts Zones API
+  slug: open-noaa-gov-zones-api
 - collection_type: open
   name: weather.gov API
   slug: open-weather-gov-api
@@ -320,7 +362,7 @@ overview: 'NOAA — National Oceanic and Atmospheric Administration publishes 13
 
 
   NOAA — National Oceanic and Atmospheric Administration''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 36 more developer resources.'
-random_paper: 72
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Noaa Gov Rate Limits
@@ -360,7 +402,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

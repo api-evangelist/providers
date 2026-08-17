@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: WebSocket API for building and running programmable bots inside Highrise rooms. Bots receive a stream of room events (chat, emotes, reactions, joins/leaves, movement, tips, voice, DMs, moderation) and
@@ -52,11 +52,30 @@ apis:
 - description: The users API from Highrise — 2 operation(s) for users.
   name: Highrise users API
   slug: highrise-users-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: Event surface of the Highrise Bot API, generated faithfully from the official highrise-bot-sdk event model (github.com/pocketzworld/python-bot-sdk, src/highrise/models.py). Bots open a single WebSocke
   name: Highrise Bot API — Event Surface
   slug: highrise-bot-api-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Highrise Web grabs API
+  slug: open-highrise-grabs-api
+- collection_type: open
+  name: Highrise Web grabs items API
+  slug: open-highrise-items-api
+- collection_type: open
+  name: Highrise Web grabs posts API
+  slug: open-highrise-posts-api
+- collection_type: open
+  name: Highrise Web grabs rooms API
+  slug: open-highrise-rooms-api
+- collection_type: open
+  name: Highrise Web grabs users API
+  slug: open-highrise-users-api
 common:
 - group: company
   title: ''
@@ -189,7 +208,7 @@ overview: 'Highrise publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Highrise''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 21 more developer resources.'
-random_paper: 11
+random_paper: 106
 score:
   band: thin
   composite: 39.5
@@ -212,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/screenshots/highrise-2026-07-25T221206.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Documents operations
   name: microsoft-azure-cosmos-db Documents API
   slug: microsoft-azure-cosmos-db-documents-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Cosmos DB REST Collections API
+  slug: open-microsoft-azure-cosmos-db-collections-api
+- collection_type: open
+  name: Azure Cosmos DB REST Collections Databases API
+  slug: open-microsoft-azure-cosmos-db-databases-api
+- collection_type: open
+  name: Azure Cosmos DB REST Collections Documents API
+  slug: open-microsoft-azure-cosmos-db-documents-api
 - collection_type: open
   name: Azure Cosmos DB REST API
   slug: open-microsoft-azure-cosmos-db
@@ -117,7 +129,7 @@ plans:
 - name: Microsoft Azure Cosmos Db Plans Pricing
   plan_count: 3
   slug: microsoft-azure-cosmos-db-plans-pricing
-random_paper: 6
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Cosmos Db Rate Limits
@@ -142,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cosmos-db/refs/heads/main/screenshots/microsoft-azure-cosmos-db-2026-06-20T185408.png
 security:

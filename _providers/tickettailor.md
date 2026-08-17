@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Vouchers and their redeemable codes.
   name: Ticket Tailor Vouchers API
   slug: tickettailor-vouchers-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ticket Tailor Check-ins API
+  slug: open-tickettailor-check-ins-api
+- collection_type: open
+  name: Ticket Tailor Check-ins Event Series API
+  slug: open-tickettailor-event-series-api
+- collection_type: open
+  name: Ticket Tailor Check-ins Events API
+  slug: open-tickettailor-events-api
+- collection_type: open
+  name: Ticket Tailor Check-ins Issued Tickets API
+  slug: open-tickettailor-issued-tickets-api
+- collection_type: open
+  name: Ticket Tailor Check-ins Orders API
+  slug: open-tickettailor-orders-api
+- collection_type: open
+  name: Ticket Tailor Check-ins Ticket Types API
+  slug: open-tickettailor-ticket-types-api
+- collection_type: open
+  name: Ticket Tailor Check-ins Utility API
+  slug: open-tickettailor-utility-api
+- collection_type: open
+  name: Ticket Tailor Check-ins Vouchers API
+  slug: open-tickettailor-vouchers-api
 - collection_type: open
   name: Ticket Tailor API
   slug: open-tickettailor
@@ -129,7 +156,7 @@ plans:
 - name: Tickettailor Plans Pricing
   plan_count: 3
   slug: tickettailor-plans-pricing
-random_paper: 95
+random_paper: 103
 rate_limits:
 - limit_count: 3
   name: Tickettailor Rate Limits
@@ -160,7 +187,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

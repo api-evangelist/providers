@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Vehicle Routing Problem — assign and order visits across a fleet.
   name: Routific VRP API
   slug: routific-vrp-api
-artifact_total: 26
+artifact_total: 31
 collections:
 - collection_type: postman
   name: Routific Route Optimization Fix API
@@ -66,8 +66,23 @@ collections:
   name: Routific Route Optimization Fix VRP API
   slug: postman-routific-vrp-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Routific Route Optimization Fix API
+  slug: open-routific-fix-api
+- collection_type: open
+  name: Routific Route Optimization Fix Jobs API
+  slug: open-routific-jobs-api
+- collection_type: open
+  name: Routific Route Optimization Fix PDP API
+  slug: open-routific-pdp-api
+- collection_type: open
   name: Routific Route Optimization API
   slug: open-routific-route-optimization-api
+- collection_type: open
+  name: Routific Route Optimization Fix VRP API
+  slug: open-routific-vrp-api
 common:
 - group: build
   title: ''
@@ -216,7 +231,7 @@ plans:
 - name: Routific Plans Pricing
   plan_count: 4
   slug: routific-plans-pricing
-random_paper: 29
+random_paper: 124
 rate_limits:
 - limit_count: 1
   name: Routific Rate Limits
@@ -258,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/screenshots/routific-2026-06-20T193228.png
 security:

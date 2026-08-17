@@ -15,7 +15,7 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.0
-  scored_at: '2026-08-12'
+  score: 23.0
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'The Highspot REST API provides programmatic access to the Highspot sales enablement platform, enabling management of content (spots and items), users, groups, pitches, domain settings, and analytics. '
@@ -37,7 +37,7 @@ apis:
 - description: The Highspot MCP Server leverages the Model Context Protocol to provide LLMs with access to sales content, knowledge, insights, and actions within Highspot. Enables searching content, accessing deal-s
   name: Highspot MCP Server
   slug: highspot-mcp-server
-artifact_total: 9
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -55,14 +55,6 @@ common:
   title: ''
   type: Website
   url: https://www.highspot.com/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://highspot.readthedocs.io/en/latest/primary-modules.html
-- group: build
-  title: ''
-  type: PythonSDK
-  url: https://highspot.readthedocs.io/
 - group: build
   title: ''
   type: IntegrationDirectory
@@ -119,8 +111,76 @@ common:
   title: ''
   type: FinOps
   url: finops/highspot-finops.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/highspot-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/highspot-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/highspot-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/highspot-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/highspot-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/highspot-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/highspot-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/highspot-trust-center.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/highspot-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.highspot.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.highspot.com/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.highspot.com/
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.highspot.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.highspot.com/contact/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.highspot.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.highspot.com/privacy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/highspot
 created: '2026-06-13'
-description: Highspot is a sales enablement platform offering a REST API for managing content, training programs, pitch analytics, CRM integrations, and buyer engagement tracking. The API provides access to spots, items, users, groups, pitches, and analytics, with OAuth 2.0 authentication and API key credentials. Highspot also offers an MCP Server enabling LLMs to search content, manage pitches, generate Digital Rooms, and access the Insights Layer APIs for search and instant answers in AI workflows.
+description: Highspot is a sales enablement and go-to-market platform whose API surface splits in two. A per-tenant REST API at https://api-{instance}.highspot.com/v1.0 covers spots, items, item content, users, groups, pitches and analytics, authenticated with an API client key and secret issued from account settings; it has no public reference and no published OpenAPI. Alongside it Highspot runs a first-party remote MCP server at https://mcp.highspot.com/mcp, verified live, secured with OAuth 2.1 (dynamic client registration, PKCE, scopes mcp:read / mcp:write / offline_access) and discoverable through RFC 8414 and RFC 9728 metadata documents. The MCP server exposes content search, instant answers, deal context, content recommendations, linked pitches, Digital Room generation and Highspot Agents to OpenAI, Anthropic and Microsoft Copilot clients. Both the MCP server and the Insights Layer APIs are gated to the top "Best" subscription tier.
 finops:
 - name: Highspot Finops
   service_category: ''
@@ -129,42 +189,54 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/highspot.p
 layout: provider
 mcp_servers:
 - description: ''
+  name: highspot-mcp.yml
+  slug: highspot-mcpyml
+- description: ''
   name: mcp-server
   slug: mcp-server
-modified: '2026-06-13'
+modified: '2026-08-14'
 name: Highspot
 nav: Providers
 network: true
 overview: 'Highspot publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Enablement, Content Management, Pitch Analytics, CRM Integration, and Buyer Engagement.
 
 
-  Highspot''s developer surface includes documentation, pricing, status page, privacy policy, engineering blog, GitHub presence, and 14 more developer resources.'
+  Highspot''s developer surface includes pricing, status page, privacy policy, engineering blog, GitHub presence, authentication, support, and 28 more developer resources.'
 plans:
 - name: Highspot Plans Pricing
   plan_count: 3
   slug: highspot-plans-pricing
-random_paper: 30
+random_paper: 125
 rate_limits:
 - limit_count: 2
   name: Highspot Rate Limits
   slug: highspot-rate-limits
+scopes:
+- name: Highspot Scopes
+  scope_count: 3
+  slug: highspot-scopes
+  summary_line: 3 scopes
 score:
-  band: thin
-  composite: 31.3
-  delta: 0.0
+  band: developing
+  composite: 42.9
+  delta: 11.6
   facets:
-    commercial_clarity: 78.9
+    commercial_clarity: 100.0
     contract_quality: 0.0
-    developer_ergonomics: 19.6
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 36.8
+    developer_ergonomics: 34.8
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 52.6
   previous_composite: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/screenshots/highspot-2026-06-20T182731.png
 security:
+- kind: authentication
+  name: Highspot Authentication
+  slug: highspot-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Highspot Domain Security
   slug: highspot-domain-security

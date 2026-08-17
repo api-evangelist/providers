@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: The Tools API from arcade-dev — 9 operation(s) for tools.
   name: arcade-dev Tools API
   slug: arcade-dev-tools-api
-artifact_total: 71
+artifact_total: 80
 collections:
 - collection_type: postman
   name: Arcade Admin API
@@ -90,11 +90,38 @@ collections:
   name: Arcade Admin Tools API
   slug: postman-arcade-dev-tools-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Arcade Admin API
   slug: open-arcade-admin-api
 - collection_type: open
   name: Arcade Authorization API
   slug: open-arcade-auth-api
+- collection_type: open
+  name: Arcade Admin API
+  slug: open-arcade-dev-admin-api
+- collection_type: open
+  name: Arcade Admin Authorization API
+  slug: open-arcade-dev-authorization-api
+- collection_type: open
+  name: Arcade Admin Gateways API
+  slug: open-arcade-dev-gateways-api
+- collection_type: open
+  name: Arcade Admin Hooks API
+  slug: open-arcade-dev-hooks-api
+- collection_type: open
+  name: Arcade Admin LLM API
+  slug: open-arcade-dev-llm-api
+- collection_type: open
+  name: Arcade Admin Operations API
+  slug: open-arcade-dev-operations-api
+- collection_type: open
+  name: Arcade Admin Plugins API
+  slug: open-arcade-dev-plugins-api
+- collection_type: open
+  name: Arcade Admin Tools API
+  slug: open-arcade-dev-tools-api
 - collection_type: open
   name: Arcade Gateways API
   slug: open-arcade-gateways-api
@@ -396,7 +423,7 @@ plans:
 - name: Arcade Dev Plans Pricing
   plan_count: 3
   slug: arcade-dev-plans-pricing
-random_paper: 12
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Arcade Dev Rate Limits
@@ -438,7 +465,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/screenshots/arcade-dev-2026-06-20T172356.png
 security:

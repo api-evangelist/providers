@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -698,7 +698,7 @@ arazzos:
 - description: List a shopper's stored payment tokens then disable one of them.
   name: Adyen List Recurring Details and Disable a Token
   slug: adyen-recurring-list-and-disable-workflow
-artifact_total: 6870
+artifact_total: 7070
 asyncapis:
 - description: 'AsyncAPI description of Adyen''s webhook surface. Adyen pushes event-driven messages to a customer-defined HTTPS endpoint using HTTP POST. This document models two webhook surfaces: * Standard Notifica'
   name: Adyen Webhooks (Standard Notifications and Platforms)
@@ -765,20 +765,161 @@ collections:
   name: Adyen Transfers API
   slug: postman-transfers-openapi-original
 - collection_type: open
-  name: Adyen Account API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adyen Account acceptDispute API
+  slug: open-adyen-acceptdispute-api
+- collection_type: open
+  name: Adyen acceptDispute Account API
   slug: open-adyen-account-api
+- collection_type: open
+  name: Adyen Account acceptDispute accountHolderBalance API
+  slug: open-adyen-accountholderbalance-api
+- collection_type: open
+  name: Adyen Account acceptDispute accountHolders API
+  slug: open-adyen-accountholders-api
+- collection_type: open
+  name: Adyen Account acceptDispute accountHolderTransactionList API
+  slug: open-adyen-accountholdertransactionlist-api
+- collection_type: open
+  name: Adyen Accounting Notifications API
+  slug: open-adyen-accounting-notifications-api
+- collection_type: open
+  name: Adyen Account acceptDispute Accounts API
+  slug: open-adyen-accounts-api
+- collection_type: open
+  name: Adyen Account acceptDispute adjustAuthorisation API
+  slug: open-adyen-adjustauthorisation-api
+- collection_type: open
+  name: Adyen Account acceptDispute Admin API
+  slug: open-adyen-admin-api
+- collection_type: open
+  name: Adyen Account acceptDispute Amount API
+  slug: open-adyen-amount-api
+- collection_type: open
+  name: Adyen Account acceptDispute Apple API
+  slug: open-adyen-apple-api
+- collection_type: open
+  name: Adyen Account acceptDispute applePay API
+  slug: open-adyen-applepay-api
+- collection_type: open
+  name: Adyen Account acceptDispute Arrangements API
+  slug: open-adyen-arrangements-api
+- collection_type: open
+  name: Adyen Account acceptDispute assignTerminals API
+  slug: open-adyen-assignterminals-api
 - collection_type: open
   name: Adyen Authentication Webhooks API
   slug: open-adyen-authentication-webhooks-api
 - collection_type: open
+  name: Adyen Account acceptDispute Authorise API
+  slug: open-adyen-authorise-api
+- collection_type: open
+  name: Adyen Account acceptDispute Authorise3d API
+  slug: open-adyen-authorise3d-api
+- collection_type: open
+  name: Adyen Account acceptDispute Authorise3ds2 API
+  slug: open-adyen-authorise3ds2-api
+- collection_type: open
+  name: Adyen Account acceptDispute Availability API
+  slug: open-adyen-availability-api
+- collection_type: open
+  name: Adyen Account acceptDispute Balance API
+  slug: open-adyen-balance-api
+- collection_type: open
   name: Adyen Balance Control API
   slug: open-adyen-balance-control-api
+- collection_type: open
+  name: Adyen Account acceptDispute balanceAccounts API
+  slug: open-adyen-balanceaccounts-api
+- collection_type: open
+  name: Adyen Account acceptDispute Balanceinquiry API
+  slug: open-adyen-balanceinquiry-api
+- collection_type: open
+  name: Adyen Account acceptDispute balancePlatforms API
+  slug: open-adyen-balanceplatforms-api
+- collection_type: open
+  name: Adyen Account acceptDispute balanceTransfer API
+  slug: open-adyen-balancetransfer-api
+- collection_type: open
+  name: Adyen Account acceptDispute Bank API
+  slug: open-adyen-bank-api
 - collection_type: open
   name: Adyen BinLookup API
   slug: open-adyen-binlookup-api
 - collection_type: open
-  name: Adyen Checkout API
+  name: Adyen Account acceptDispute businessLines API
+  slug: open-adyen-businesslines-api
+- collection_type: open
+  name: Adyen Account acceptDispute Calculate API
+  slug: open-adyen-calculate-api
+- collection_type: open
+  name: Adyen Account acceptDispute Cancel API
+  slug: open-adyen-cancel-api
+- collection_type: open
+  name: Adyen Account acceptDispute cancelOrRefund API
+  slug: open-adyen-cancelorrefund-api
+- collection_type: open
+  name: Adyen Account acceptDispute Cancels API
+  slug: open-adyen-cancels-api
+- collection_type: open
+  name: Adyen Account acceptDispute Capture API
+  slug: open-adyen-capture-api
+- collection_type: open
+  name: Adyen Account acceptDispute Captures API
+  slug: open-adyen-captures-api
+- collection_type: open
+  name: Adyen Account acceptDispute Card API
+  slug: open-adyen-card-api
+- collection_type: open
+  name: Adyen Account acceptDispute Card Orders API
+  slug: open-adyen-card-orders-api
+- collection_type: open
+  name: Adyen Account acceptDispute Cardacquisition API
+  slug: open-adyen-cardacquisition-api
+- collection_type: open
+  name: Adyen Account acceptDispute cardDetails API
+  slug: open-adyen-carddetails-api
+- collection_type: open
+  name: Adyen Account acceptDispute Cardorders API
+  slug: open-adyen-cardorders-api
+- collection_type: open
+  name: Adyen Account acceptDispute Cardreaderapdu API
+  slug: open-adyen-cardreaderapdu-api
+- collection_type: open
+  name: Adyen Account acceptDispute Changes API
+  slug: open-adyen-changes-api
+- collection_type: open
+  name: Adyen Account acceptDispute changeStatus API
+  slug: open-adyen-changestatus-api
+- collection_type: open
+  name: Adyen Account acceptDispute checkAccountHolder API
+  slug: open-adyen-checkaccountholder-api
+- collection_type: open
+  name: Adyen Account acceptDispute checkBalance API
+  slug: open-adyen-checkbalance-api
+- collection_type: open
+  name: API Collection
   slug: open-adyen-checkout-api
+- collection_type: open
+  name: Adyen Account acceptDispute Checks API
+  slug: open-adyen-checks-api
+- collection_type: open
+  name: Adyen Account acceptDispute Close API
+  slug: open-adyen-close-api
+- collection_type: open
+  name: Adyen Account acceptDispute closeAccount API
+  slug: open-adyen-closeaccount-api
+- collection_type: open
+  name: Adyen Account acceptDispute closeAccountHolder API
+  slug: open-adyen-closeaccountholder-api
+- collection_type: open
+  name: Adyen Account acceptDispute closeStores API
+  slug: open-adyen-closestores-api
+- collection_type: open
+  name: Adyen Account acceptDispute Companies API
+  slug: open-adyen-companies-api
 - collection_type: open
   name: API Collection
   slug: open-adyen-configuration-api
@@ -786,8 +927,467 @@ collections:
   name: Adyen Configuration Webhooks API
   slug: open-adyen-configuration-webhooks-api
 - collection_type: open
+  name: Adyen Account acceptDispute confirmThirdParty API
+  slug: open-adyen-confirmthirdparty-api
+- collection_type: open
+  name: Adyen Account acceptDispute Cost API
+  slug: open-adyen-cost-api
+- collection_type: open
+  name: Adyen Account acceptDispute createAccount API
+  slug: open-adyen-createaccount-api
+- collection_type: open
+  name: Adyen Account acceptDispute createAccountHolder API
+  slug: open-adyen-createaccountholder-api
+- collection_type: open
+  name: Adyen Account acceptDispute createNotificationConfiguration API
+  slug: open-adyen-createnotificationconfiguration-api
+- collection_type: open
+  name: Adyen Account acceptDispute createPermit API
+  slug: open-adyen-createpermit-api
+- collection_type: open
+  name: Adyen Account acceptDispute createTestCardRanges API
+  slug: open-adyen-createtestcardranges-api
+- collection_type: open
   name: Adyen Data Protection API
   slug: open-adyen-data-protection-api
+- collection_type: open
+  name: Adyen Account acceptDispute debitAccountHolder API
+  slug: open-adyen-debitaccountholder-api
+- collection_type: open
+  name: Adyen Account acceptDispute declineThirdParty API
+  slug: open-adyen-declinethirdparty-api
+- collection_type: open
+  name: Adyen Account acceptDispute defendDispute API
+  slug: open-adyen-defenddispute-api
+- collection_type: open
+  name: Adyen Account acceptDispute deleteBankAccounts API
+  slug: open-adyen-deletebankaccounts-api
+- collection_type: open
+  name: Adyen Account acceptDispute deleteDisputeDefenseDocument API
+  slug: open-adyen-deletedisputedefensedocument-api
+- collection_type: open
+  name: Adyen Account acceptDispute deleteLegalArrangements API
+  slug: open-adyen-deletelegalarrangements-api
+- collection_type: open
+  name: Adyen Account acceptDispute deleteNotificationConfigurations API
+  slug: open-adyen-deletenotificationconfigurations-api
+- collection_type: open
+  name: Adyen Account acceptDispute deletePayoutMethods API
+  slug: open-adyen-deletepayoutmethods-api
+- collection_type: open
+  name: Adyen Account acceptDispute deleteShareholders API
+  slug: open-adyen-deleteshareholders-api
+- collection_type: open
+  name: Adyen Account acceptDispute deleteSignatories API
+  slug: open-adyen-deletesignatories-api
+- collection_type: open
+  name: Adyen Account acceptDispute Diagnosis API
+  slug: open-adyen-diagnosis-api
+- collection_type: open
+  name: Adyen Account acceptDispute Disable API
+  slug: open-adyen-disable-api
+- collection_type: open
+  name: Adyen Account acceptDispute disablePermit API
+  slug: open-adyen-disablepermit-api
+- collection_type: open
+  name: Adyen Account acceptDispute Display API
+  slug: open-adyen-display-api
+- collection_type: open
+  name: Adyen Account acceptDispute Documents API
+  slug: open-adyen-documents-api
+- collection_type: open
+  name: Adyen Account acceptDispute Donate API
+  slug: open-adyen-donate-api
+- collection_type: open
+  name: Adyen Account acceptDispute Donations API
+  slug: open-adyen-donations-api
+- collection_type: open
+  name: Adyen Account acceptDispute Enableservice API
+  slug: open-adyen-enableservice-api
+- collection_type: open
+  name: Adyen Account acceptDispute Erasure API
+  slug: open-adyen-erasure-api
+- collection_type: open
+  name: Adyen Account acceptDispute Estimates API
+  slug: open-adyen-estimates-api
+- collection_type: open
+  name: Adyen Account acceptDispute findTerminal API
+  slug: open-adyen-findterminal-api
+- collection_type: open
+  name: Adyen Account acceptDispute Forms API
+  slug: open-adyen-forms-api
+- collection_type: open
+  name: Adyen Account acceptDispute get3dsAvailability API
+  slug: open-adyen-get3dsavailability-api
+- collection_type: open
+  name: Adyen Account acceptDispute getAccountHolder API
+  slug: open-adyen-getaccountholder-api
+- collection_type: open
+  name: Adyen Account acceptDispute getAuthenticationResult API
+  slug: open-adyen-getauthenticationresult-api
+- collection_type: open
+  name: Adyen Account acceptDispute getCostEstimate API
+  slug: open-adyen-getcostestimate-api
+- collection_type: open
+  name: Adyen Account acceptDispute getNotificationConfiguration API
+  slug: open-adyen-getnotificationconfiguration-api
+- collection_type: open
+  name: Adyen Account acceptDispute getNotificationConfigurationList API
+  slug: open-adyen-getnotificationconfigurationlist-api
+- collection_type: open
+  name: Adyen Account acceptDispute getOnboardingUrl API
+  slug: open-adyen-getonboardingurl-api
+- collection_type: open
+  name: Adyen Account acceptDispute getPciQuestionnaireUrl API
+  slug: open-adyen-getpciquestionnaireurl-api
+- collection_type: open
+  name: Adyen Account acceptDispute getStoresUnderAccount API
+  slug: open-adyen-getstoresunderaccount-api
+- collection_type: open
+  name: Adyen Account acceptDispute getTaxForm API
+  slug: open-adyen-gettaxform-api
+- collection_type: open
+  name: Adyen Account acceptDispute getTerminalDetails API
+  slug: open-adyen-getterminaldetails-api
+- collection_type: open
+  name: Adyen Account acceptDispute getTerminalsUnderAccount API
+  slug: open-adyen-getterminalsunderaccount-api
+- collection_type: open
+  name: Adyen Account acceptDispute Gettotals API
+  slug: open-adyen-gettotals-api
+- collection_type: open
+  name: Adyen Account acceptDispute getUploadedDocuments API
+  slug: open-adyen-getuploadeddocuments-api
+- collection_type: open
+  name: Adyen Account acceptDispute grantAccounts API
+  slug: open-adyen-grantaccounts-api
+- collection_type: open
+  name: Adyen Account acceptDispute grantOffers API
+  slug: open-adyen-grantoffers-api
+- collection_type: open
+  name: Adyen Account acceptDispute Grants API
+  slug: open-adyen-grants-api
+- collection_type: open
+  name: Adyen Account acceptDispute Holders API
+  slug: open-adyen-holders-api
+- collection_type: open
+  name: Adyen Account acceptDispute Identification API
+  slug: open-adyen-identification-api
+- collection_type: open
+  name: Adyen Account acceptDispute Input API
+  slug: open-adyen-input-api
+- collection_type: open
+  name: Adyen Account acceptDispute Instruments API
+  slug: open-adyen-instruments-api
+- collection_type: open
+  name: Adyen Account acceptDispute Issue API
+  slug: open-adyen-issue-api
+- collection_type: open
+  name: Adyen Account acceptDispute Items API
+  slug: open-adyen-items-api
+- collection_type: open
+  name: Adyen Account acceptDispute Keys API
+  slug: open-adyen-keys-api
+- collection_type: open
+  name: Adyen Account acceptDispute Legal API
+  slug: open-adyen-legal-api
+- collection_type: open
+  name: Adyen Account acceptDispute legalEntities API
+  slug: open-adyen-legalentities-api
+- collection_type: open
+  name: Adyen Account acceptDispute Links API
+  slug: open-adyen-links-api
+- collection_type: open
+  name: Adyen Account acceptDispute listRecurringDetails API
+  slug: open-adyen-listrecurringdetails-api
+- collection_type: open
+  name: Adyen Account acceptDispute Load API
+  slug: open-adyen-load-api
+- collection_type: open
+  name: Adyen Account acceptDispute Login API
+  slug: open-adyen-login-api
+- collection_type: open
+  name: Adyen Account acceptDispute Logout API
+  slug: open-adyen-logout-api
+- collection_type: open
+  name: Adyen Account acceptDispute Loyalty API
+  slug: open-adyen-loyalty-api
+- collection_type: open
+  name: Adyen Account acceptDispute Me API
+  slug: open-adyen-me-api
+- collection_type: open
+  name: Adyen Account acceptDispute Merchants API
+  slug: open-adyen-merchants-api
+- collection_type: open
+  name: Adyen Account acceptDispute mergeBalance API
+  slug: open-adyen-mergebalance-api
+- collection_type: open
+  name: Adyen Account acceptDispute Method API
+  slug: open-adyen-method-api
+- collection_type: open
+  name: Adyen Account acceptDispute Methods API
+  slug: open-adyen-methods-api
+- collection_type: open
+  name: Adyen Account acceptDispute Network API
+  slug: open-adyen-network-api
+- collection_type: open
+  name: Adyen Account acceptDispute Networks API
+  slug: open-adyen-networks-api
+- collection_type: open
+  name: Adyen Account acceptDispute networkTokens API
+  slug: open-adyen-networktokens-api
+- collection_type: open
+  name: Adyen Account acceptDispute notifyShopper API
+  slug: open-adyen-notifyshopper-api
+- collection_type: open
+  name: Adyen Account acceptDispute Offer API
+  slug: open-adyen-offer-api
+- collection_type: open
+  name: Adyen Account acceptDispute Offers API
+  slug: open-adyen-offers-api
+- collection_type: open
+  name: Adyen Account acceptDispute Orders API
+  slug: open-adyen-orders-api
+- collection_type: open
+  name: Adyen Account acceptDispute Origin API
+  slug: open-adyen-origin-api
+- collection_type: open
+  name: Adyen Account acceptDispute originKeys API
+  slug: open-adyen-originkeys-api
+- collection_type: open
+  name: Adyen Account acceptDispute Pay API
+  slug: open-adyen-pay-api
+- collection_type: open
+  name: Adyen Account acceptDispute Payment API
+  slug: open-adyen-payment-api
+- collection_type: open
+  name: Adyen Account acceptDispute paymentInstrumentGroups API
+  slug: open-adyen-paymentinstrumentgroups-api
+- collection_type: open
+  name: Adyen Account acceptDispute paymentInstruments API
+  slug: open-adyen-paymentinstruments-api
+- collection_type: open
+  name: Adyen Account acceptDispute paymentLinks API
+  slug: open-adyen-paymentlinks-api
+- collection_type: open
+  name: Adyen Account acceptDispute paymentMethods API
+  slug: open-adyen-paymentmethods-api
+- collection_type: open
+  name: Adyen Account acceptDispute Payments API
+  slug: open-adyen-payments-api
+- collection_type: open
+  name: Adyen Account acceptDispute paymentSession API
+  slug: open-adyen-paymentsession-api
+- collection_type: open
+  name: Adyen Account acceptDispute Payout API
+  slug: open-adyen-payout-api
+- collection_type: open
+  name: Adyen Account acceptDispute payoutAccountHolder API
+  slug: open-adyen-payoutaccountholder-api
+- collection_type: open
+  name: Adyen Account acceptDispute Pins API
+  slug: open-adyen-pins-api
+- collection_type: open
+  name: Adyen Account acceptDispute Platforms API
+  slug: open-adyen-platforms-api
+- collection_type: open
+  name: Adyen Account acceptDispute Print API
+  slug: open-adyen-print-api
+- collection_type: open
+  name: Adyen Account acceptDispute Psp API
+  slug: open-adyen-psp-api
+- collection_type: open
+  name: Adyen Account acceptDispute Public API
+  slug: open-adyen-public-api
+- collection_type: open
+  name: Adyen Account acceptDispute Reconciliation API
+  slug: open-adyen-reconciliation-api
+- collection_type: open
+  name: Adyen Account acceptDispute References API
+  slug: open-adyen-references-api
+- collection_type: open
+  name: Adyen Account acceptDispute Refund API
+  slug: open-adyen-refund-api
+- collection_type: open
+  name: Adyen Account acceptDispute refundFundsTransfer API
+  slug: open-adyen-refundfundstransfer-api
+- collection_type: open
+  name: Adyen Account acceptDispute refundNotPaidOutTransfers API
+  slug: open-adyen-refundnotpaidouttransfers-api
+- collection_type: open
+  name: Adyen Account acceptDispute Refunds API
+  slug: open-adyen-refunds-api
+- collection_type: open
+  name: Adyen Account acceptDispute Request API
+  slug: open-adyen-request-api
+- collection_type: open
+  name: Adyen Account acceptDispute requestSubjectErasure API
+  slug: open-adyen-requestsubjecterasure-api
+- collection_type: open
+  name: Adyen Account acceptDispute Results API
+  slug: open-adyen-results-api
+- collection_type: open
+  name: Adyen Account acceptDispute retrieve3ds2Result API
+  slug: open-adyen-retrieve3ds2result-api
+- collection_type: open
+  name: Adyen Account acceptDispute retrieveApplicableDefenseReasons API
+  slug: open-adyen-retrieveapplicabledefensereasons-api
+- collection_type: open
+  name: Adyen Account acceptDispute Reveal API
+  slug: open-adyen-reveal-api
+- collection_type: open
+  name: Adyen Account acceptDispute Reversal API
+  slug: open-adyen-reversal-api
+- collection_type: open
+  name: Adyen Account acceptDispute Reversals API
+  slug: open-adyen-reversals-api
+- collection_type: open
+  name: Adyen Account acceptDispute Routes API
+  slug: open-adyen-routes-api
+- collection_type: open
+  name: Adyen Account acceptDispute Rules API
+  slug: open-adyen-rules-api
+- collection_type: open
+  name: Adyen Account acceptDispute scheduleAccountUpdater API
+  slug: open-adyen-scheduleaccountupdater-api
+- collection_type: open
+  name: Adyen Account acceptDispute Session API
+  slug: open-adyen-session-api
+- collection_type: open
+  name: Adyen Account acceptDispute Sessions API
+  slug: open-adyen-sessions-api
+- collection_type: open
+  name: Adyen Account acceptDispute setupBeneficiary API
+  slug: open-adyen-setupbeneficiary-api
+- collection_type: open
+  name: Adyen Account acceptDispute Shareholders API
+  slug: open-adyen-shareholders-api
+- collection_type: open
+  name: Adyen Account acceptDispute Signatories API
+  slug: open-adyen-signatories-api
+- collection_type: open
+  name: Adyen Account acceptDispute State API
+  slug: open-adyen-state-api
+- collection_type: open
+  name: Adyen Account acceptDispute Stored API
+  slug: open-adyen-stored-api
+- collection_type: open
+  name: Adyen Account acceptDispute storeDetail API
+  slug: open-adyen-storedetail-api
+- collection_type: open
+  name: Adyen Account acceptDispute storeDetailAndSubmitThirdParty API
+  slug: open-adyen-storedetailandsubmitthirdparty-api
+- collection_type: open
+  name: Adyen Account acceptDispute storedPaymentMethods API
+  slug: open-adyen-storedpaymentmethods-api
+- collection_type: open
+  name: Adyen Account acceptDispute Storedvalue API
+  slug: open-adyen-storedvalue-api
+- collection_type: open
+  name: Adyen Account acceptDispute Stores API
+  slug: open-adyen-stores-api
+- collection_type: open
+  name: Adyen Account acceptDispute Subjects API
+  slug: open-adyen-subjects-api
+- collection_type: open
+  name: Adyen Account acceptDispute submitThirdParty API
+  slug: open-adyen-submitthirdparty-api
+- collection_type: open
+  name: Adyen Account acceptDispute supplyDefenseDocument API
+  slug: open-adyen-supplydefensedocument-api
+- collection_type: open
+  name: Adyen Account acceptDispute Suspend API
+  slug: open-adyen-suspend-api
+- collection_type: open
+  name: Adyen Account acceptDispute suspendAccountHolder API
+  slug: open-adyen-suspendaccountholder-api
+- collection_type: open
+  name: Adyen Account acceptDispute Sweep API
+  slug: open-adyen-sweep-api
+- collection_type: open
+  name: Adyen Account acceptDispute Sweeps API
+  slug: open-adyen-sweeps-api
+- collection_type: open
+  name: Adyen Account acceptDispute Tax API
+  slug: open-adyen-tax-api
+- collection_type: open
+  name: Adyen Account acceptDispute technicalCancel API
+  slug: open-adyen-technicalcancel-api
+- collection_type: open
+  name: Adyen Account acceptDispute Terminals API
+  slug: open-adyen-terminals-api
+- collection_type: open
+  name: Adyen Account acceptDispute testNotificationConfiguration API
+  slug: open-adyen-testnotificationconfiguration-api
+- collection_type: open
+  name: Adyen Account acceptDispute Themes API
+  slug: open-adyen-themes-api
+- collection_type: open
+  name: Adyen Account acceptDispute Token API
+  slug: open-adyen-token-api
+- collection_type: open
+  name: Adyen Account acceptDispute Tokens API
+  slug: open-adyen-tokens-api
+- collection_type: open
+  name: Adyen Account acceptDispute Transaction API
+  slug: open-adyen-transaction-api
+- collection_type: open
+  name: Adyen Account acceptDispute transactionRules API
+  slug: open-adyen-transactionrules-api
+- collection_type: open
+  name: Adyen Account acceptDispute Transactions API
+  slug: open-adyen-transactions-api
+- collection_type: open
+  name: Adyen Account acceptDispute Transactionstatus API
+  slug: open-adyen-transactionstatus-api
+- collection_type: open
+  name: Adyen Account acceptDispute transferFunds API
+  slug: open-adyen-transferfunds-api
+- collection_type: open
+  name: Adyen Account acceptDispute transferInstruments API
+  slug: open-adyen-transferinstruments-api
+- collection_type: open
+  name: Adyen Account acceptDispute transferRoutes API
+  slug: open-adyen-transferroutes-api
+- collection_type: open
+  name: Adyen Account acceptDispute Transfers API
+  slug: open-adyen-transfers-api
+- collection_type: open
+  name: Adyen Account acceptDispute unSuspendAccountHolder API
+  slug: open-adyen-unsuspendaccountholder-api
+- collection_type: open
+  name: Adyen Account acceptDispute updateAccount API
+  slug: open-adyen-updateaccount-api
+- collection_type: open
+  name: Adyen Account acceptDispute updateAccountHolder API
+  slug: open-adyen-updateaccountholder-api
+- collection_type: open
+  name: Adyen Account acceptDispute updateAccountHolderState API
+  slug: open-adyen-updateaccountholderstate-api
+- collection_type: open
+  name: Adyen Account acceptDispute updateNotificationConfiguration API
+  slug: open-adyen-updatenotificationconfiguration-api
+- collection_type: open
+  name: Adyen Account acceptDispute uploadDocument API
+  slug: open-adyen-uploaddocument-api
+- collection_type: open
+  name: Adyen Account acceptDispute Uploaded API
+  slug: open-adyen-uploaded-api
+- collection_type: open
+  name: Adyen Account acceptDispute Uploads API
+  slug: open-adyen-uploads-api
+- collection_type: open
+  name: Adyen Account acceptDispute Validate API
+  slug: open-adyen-validate-api
+- collection_type: open
+  name: Adyen Account acceptDispute validateBankAccountIdentification API
+  slug: open-adyen-validatebankaccountidentification-api
+- collection_type: open
+  name: Adyen Account acceptDispute voidPendingRefund API
+  slug: open-adyen-voidpendingrefund-api
+- collection_type: open
+  name: Adyen Account acceptDispute voidTransaction API
+  slug: open-adyen-voidtransaction-api
 common:
 - group: agent
   title: ''
@@ -21711,7 +22311,7 @@ plans:
 - name: Adyen Plans Pricing
   plan_count: 2
   slug: adyen-plans-pricing
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Adyen Rate Limits
@@ -21767,7 +22367,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png
 security:

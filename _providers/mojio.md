@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Moj.io is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Moj.io''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 62
+random_paper: 95
 score:
   band: minimal
   composite: 10.5
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mojio/refs/heads/main/screenshots/mojio-2026-08-07T184049.png
 security:

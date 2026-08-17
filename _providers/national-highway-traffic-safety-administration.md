@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,8 +56,29 @@ apis:
 - description: Endpoints for decoding Vehicle Identification Numbers
   name: National Highway Traffic Safety Administration VIN Decoding API
   slug: national-highway-traffic-safety-administration-vin-decoding-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NHTSA vPIC Vehicle Equipment API
+  slug: open-national-highway-traffic-safety-administration-equipment-api
+- collection_type: open
+  name: NHTSA vPIC Vehicle Equipment Makes and Models API
+  slug: open-national-highway-traffic-safety-administration-makes-and-models-api
+- collection_type: open
+  name: NHTSA vPIC Vehicle Equipment Manufacturers API
+  slug: open-national-highway-traffic-safety-administration-manufacturers-api
+- collection_type: open
+  name: NHTSA vPIC Vehicle Equipment Reference API
+  slug: open-national-highway-traffic-safety-administration-reference-api
+- collection_type: open
+  name: NHTSA vPIC Vehicle Equipment Vehicle Types API
+  slug: open-national-highway-traffic-safety-administration-vehicle-types-api
+- collection_type: open
+  name: NHTSA vPIC Vehicle Equipment VIN Decoding API
+  slug: open-national-highway-traffic-safety-administration-vin-decoding-api
 - collection_type: open
   name: NHTSA vPIC Vehicle API
   slug: open-national-highway-traffic-safety-administration
@@ -102,7 +123,7 @@ plans:
 - name: National Highway Traffic Safety Administration Plans Pricing
   plan_count: 3
   slug: national-highway-traffic-safety-administration-plans-pricing
-random_paper: 4
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: National Highway Traffic Safety Administration Rate Limits
@@ -133,7 +154,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/screenshots/national-highway-traffic-safety-administration-2026-06-20T190021.png
 security:

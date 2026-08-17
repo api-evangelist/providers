@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Appdome Build2Secure (DEV-API) REST API automates Appdome's no-code mobile app defense pipeline — upload, build/fuse, add context, sign (standard, private, and Auto-DEV signing), download, publish
@@ -160,7 +160,7 @@ overview: 'Appdome publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Appdome''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 20 more developer resources.'
-random_paper: 22
+random_paper: 146
 score:
   band: thin
   composite: 31.4
@@ -178,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/screenshots/appdome-2026-07-25T200727.png
 security:

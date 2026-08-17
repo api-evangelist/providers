@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,8 +78,26 @@ apis:
 - description: VM lifecycle operations
   name: Microsoft Azure Cloud Virtual Machines API
   slug: azure-cloud-virtual-machines-api
-artifact_total: 43
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Compute REST Availability Sets API
+  slug: open-azure-cloud-availability-sets-api
+- collection_type: open
+  name: Azure Compute REST Availability Sets Disks API
+  slug: open-azure-cloud-disks-api
+- collection_type: open
+  name: Azure Compute REST Availability Sets Snapshots API
+  slug: open-azure-cloud-snapshots-api
+- collection_type: open
+  name: Azure Compute REST Availability Sets Virtual Machine Scale Sets API
+  slug: open-azure-cloud-virtual-machine-scale-sets-api
+- collection_type: open
+  name: Azure Compute REST Availability Sets Virtual Machines API
+  slug: open-azure-cloud-virtual-machines-api
 - collection_type: open
   name: Azure Compute REST API
   slug: open-azure-cloud
@@ -216,7 +234,7 @@ plans:
 - name: Azure Cloud Plans Pricing
   plan_count: 3
   slug: azure-cloud-plans-pricing
-random_paper: 51
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Azure Cloud Rate Limits
@@ -246,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/screenshots/azure-cloud-2026-06-20T172840.png
 security:

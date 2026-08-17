@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: ZooKeeper watch information
   name: Apache ZooKeeper Watches API
   slug: apache-zookeeper-watches-api
-artifact_total: 32
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache ZooKeeper Admin Server Cluster API
+  slug: open-apache-zookeeper-cluster-api
+- collection_type: open
+  name: Apache ZooKeeper Admin Server Cluster Configuration API
+  slug: open-apache-zookeeper-configuration-api
+- collection_type: open
+  name: Apache ZooKeeper Admin Server Cluster Health API
+  slug: open-apache-zookeeper-health-api
+- collection_type: open
+  name: Apache ZooKeeper Admin Server Cluster Monitoring API
+  slug: open-apache-zookeeper-monitoring-api
+- collection_type: open
+  name: Apache ZooKeeper Admin Server Cluster Watches API
+  slug: open-apache-zookeeper-watches-api
 - collection_type: open
   name: Apache ZooKeeper Admin Server API
   slug: open-zookeeper-admin-api
@@ -173,7 +191,7 @@ plans:
 - name: Apache Zookeeper Plans Pricing
   plan_count: 3
   slug: apache-zookeeper-plans-pricing
-random_paper: 75
+random_paper: 145
 rate_limits:
 - limit_count: 5
   name: Apache Zookeeper Rate Limits
@@ -207,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/screenshots/apache-zookeeper-2026-06-20T172200.png
 security:

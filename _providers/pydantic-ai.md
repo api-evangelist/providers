@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -80,7 +80,7 @@ apis:
 - description: The Variables API from PydanticAI — 2 operation(s) for variables.
   name: PydanticAI Variables API
   slug: pydantic-ai-variables-api
-artifact_total: 52
+artifact_total: 70
 collections:
 - collection_type: postman
   name: Pydantic API Discovery Alerts API
@@ -133,6 +133,60 @@ collections:
 - collection_type: postman
   name: Pydantic API Discovery Alerts Variables API
   slug: postman-pydantic-ai-variables-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pydantic API Discovery Alerts API
+  slug: open-pydantic-ai-alerts-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts API Keys API
+  slug: open-pydantic-ai-api-keys-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Audit Logs API
+  slug: open-pydantic-ai-audit-logs-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Billing API
+  slug: open-pydantic-ai-billing-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Channels API
+  slug: open-pydantic-ai-channels-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Dashboards API
+  slug: open-pydantic-ai-dashboards-api
+- collection_type: open
+  name: Pydantic API Alerts discovery API
+  slug: open-pydantic-ai-discovery-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Group Mappings API
+  slug: open-pydantic-ai-group-mappings-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Instance API
+  slug: open-pydantic-ai-instance-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Invitations API
+  slug: open-pydantic-ai-invitations-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Members API
+  slug: open-pydantic-ai-members-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts OAuth API
+  slug: open-pydantic-ai-oauth-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Organizations API
+  slug: open-pydantic-ai-organizations-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Projects API
+  slug: open-pydantic-ai-projects-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts SCIM API
+  slug: open-pydantic-ai-scim-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Usage API
+  slug: open-pydantic-ai-usage-api
+- collection_type: open
+  name: Pydantic API Discovery Alerts Variables API
+  slug: open-pydantic-ai-variables-api
 common:
 - group: commercial
   title: ''
@@ -280,7 +334,7 @@ plans:
 - name: Pydantic Ai Plans Pricing
   plan_count: 4
   slug: pydantic-ai-plans-pricing
-random_paper: 27
+random_paper: 64
 rate_limits:
 - limit_count: 6
   name: Pydantic Ai Rate Limits
@@ -319,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/screenshots/pydantic-ai-2026-06-20T192356.png
 security:

@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Creandum
 nav: Providers
 network: true
-random_paper: 7
+random_paper: 102
 slug: creandum
 tags:
 - Venture Capital

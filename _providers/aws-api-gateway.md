@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ arazzos:
 - description: Create an HTTP API, attach an authorizer, and add a route that uses it.
   name: AWS API Gateway Secure an HTTP API with an Authorizer
   slug: aws-api-gateway-secure-http-api-authorizer-workflow
-artifact_total: 224
+artifact_total: 237
 asyncapis:
 - description: AsyncAPI description of the *platform protocol* exposed by Amazon API Gateway WebSocket APIs. Customer-deployed WebSocket APIs are message-routed based on a route selection expression evaluated agains
   name: Amazon API Gateway WebSocket API Protocol
@@ -131,8 +131,47 @@ collections:
   name: Amazon API Gateway V2 (HTTP and WebSocket)
   slug: postman-aws-api-gateway-v2
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys API
+  slug: open-aws-api-gateway-apikeys-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys Apis API
+  slug: open-aws-api-gateway-apis-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys Authorizers API
+  slug: open-aws-api-gateway-authorizers-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys Connections API
+  slug: open-aws-api-gateway-connections-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys Deployments API
+  slug: open-aws-api-gateway-deployments-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys Integrations API
+  slug: open-aws-api-gateway-integrations-api
+- collection_type: open
   name: Amazon API Gateway Management API
   slug: open-aws-api-gateway-management
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys Methods API
+  slug: open-aws-api-gateway-methods-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys Resources API
+  slug: open-aws-api-gateway-resources-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys RestApis API
+  slug: open-aws-api-gateway-restapis-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys Routes API
+  slug: open-aws-api-gateway-routes-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys Stages API
+  slug: open-aws-api-gateway-stages-api
+- collection_type: open
+  name: Amazon API Gateway Management ApiKeys UsagePlans API
+  slug: open-aws-api-gateway-usageplans-api
 - collection_type: open
   name: Amazon API Gateway V1 (REST)
   slug: open-aws-api-gateway-v1
@@ -875,7 +914,7 @@ plans:
 - name: Aws Api Gateway Plans Pricing
   plan_count: 6
   slug: aws-api-gateway-plans-pricing
-random_paper: 49
+random_paper: 148
 rate_limits:
 - limit_count: 12
   name: Aws Api Gateway Rate Limits
@@ -925,7 +964,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png
 security:

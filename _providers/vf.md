@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ press:
 - date: '2026-03-03'
   title: VF Corporation Announces Participation at Citi’s 2026 Global Consumer & Retail Conference
   url: https://www.vfc.com/investors/news-events-presentations/press-releases/detail/1864/vf-corporation-announces-participation-at-citis-2026
-random_paper: 100
+random_paper: 71
 score:
   band: minimal
   composite: 7.2
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vf/refs/heads/main/screenshots/vf-2026-06-20T201005.png
 security:

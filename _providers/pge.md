@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,11 +34,15 @@ apis:
 - description: 'The OAuth 2.0 authorization server behind Share My Data, implemented to meet the NAESB ESPI authorization profile. Two token classes are issued separately: a client access token via the client_credent'
   name: PG&E Share My Data OAuth 2.0 Authorization API
   slug: pge-share-my-data-oauth-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Pge Share My Data Notifications
   slug: pge-share-my-data-notifications
+collections:
+- collection_type: open
+  name: Green Button API Documentation
+  slug: open-green-button-alliance-espi
 common:
 - group: agent
   title: ''
@@ -206,7 +210,7 @@ overview: 'Pacific Gas and Electric publishes 1 API on the [APIs.io](https://api
 
 
   Pacific Gas and Electric''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, signup flow, and 30 more developer resources.'
-random_paper: 76
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Pge Rate Limits
@@ -244,7 +248,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

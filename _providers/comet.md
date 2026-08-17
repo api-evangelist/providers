@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 42
 apis:
 - description: Agent configuration management
@@ -157,7 +157,137 @@ apis:
 - description: Workspace related resources
   name: Comet Workspaces API
   slug: comet-workspaces-api
-artifact_total: 46
+artifact_total: 89
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Opik REST Agent Configs API
+  slug: open-comet-agent-configs-api
+- collection_type: open
+  name: Opik REST Agent Insights API
+  slug: open-comet-agent-insights-api
+- collection_type: open
+  name: Opik REST Agent Insights Jobs API
+  slug: open-comet-agent-insights-jobs-api
+- collection_type: open
+  name: Opik REST Alerts API
+  slug: open-comet-alerts-api
+- collection_type: open
+  name: Opik REST Annotation Queues API
+  slug: open-comet-annotation-queues-api
+- collection_type: open
+  name: Opik REST Assertion Results API
+  slug: open-comet-assertion-results-api
+- collection_type: open
+  name: Opik REST Attachments API
+  slug: open-comet-attachments-api
+- collection_type: open
+  name: Opik REST Automation rule evaluators API
+  slug: open-comet-automation-rule-evaluators-api
+- collection_type: open
+  name: Opik REST Chat Completions API
+  slug: open-comet-chat-completions-api
+- collection_type: open
+  name: Opik REST Check API
+  slug: open-comet-check-api
+- collection_type: open
+  name: Opik REST Dashboards API
+  slug: open-comet-dashboards-api
+- collection_type: open
+  name: Opik REST Datasets API
+  slug: open-comet-datasets-api
+- collection_type: open
+  name: Opik REST Environments API
+  slug: open-comet-environments-api
+- collection_type: open
+  name: Opik REST Experiments API
+  slug: open-comet-experiments-api
+- collection_type: open
+  name: Opik REST Feedback-definitions API
+  slug: open-comet-feedback-definitions-api
+- collection_type: open
+  name: Opik REST Guardrails API
+  slug: open-comet-guardrails-api
+- collection_type: open
+  name: Opik REST Insights Views API
+  slug: open-comet-insights-views-api
+- collection_type: open
+  name: Opik REST Is Alive API
+  slug: open-comet-is-alive-api
+- collection_type: open
+  name: Opik REST LLM Models API
+  slug: open-comet-llm-models-api
+- collection_type: open
+  name: Opik REST LlmProviderKey API
+  slug: open-comet-llmproviderkey-api
+- collection_type: open
+  name: Opik REST Manual Evaluation API
+  slug: open-comet-manual-evaluation-api
+- collection_type: open
+  name: Opik REST MCP OAuth API
+  slug: open-comet-mcp-oauth-api
+- collection_type: open
+  name: Opik REST Ollama API
+  slug: open-comet-ollama-api
+- collection_type: open
+  name: Opik REST Ollie State API
+  slug: open-comet-ollie-state-api
+- collection_type: open
+  name: Opik REST OpenTelemetry Ingestion API
+  slug: open-comet-opentelemetry-ingestion-api
+- collection_type: open
+  name: Opik REST Optimizations API
+  slug: open-comet-optimizations-api
+- collection_type: open
+  name: Opik REST Pairing API
+  slug: open-comet-pairing-api
+- collection_type: open
+  name: Opik REST Projects API
+  slug: open-comet-projects-api
+- collection_type: open
+  name: Opik REST Prompts API
+  slug: open-comet-prompts-api
+- collection_type: open
+  name: Opik REST Redirect API
+  slug: open-comet-redirect-api
+- collection_type: open
+  name: Opik REST Report Failures API
+  slug: open-comet-report-failures-api
+- collection_type: open
+  name: Opik REST Reports API
+  slug: open-comet-reports-api
+- collection_type: open
+  name: Opik REST Retention Rules API
+  slug: open-comet-retention-rules-api
+- collection_type: open
+  name: Opik REST Runners API
+  slug: open-comet-runners-api
+- collection_type: open
+  name: Opik REST Service Toggles API
+  slug: open-comet-service-toggles-api
+- collection_type: open
+  name: Opik REST Spans API
+  slug: open-comet-spans-api
+- collection_type: open
+  name: Opik REST System analytics queries API
+  slug: open-comet-system-analytics-queries-api
+- collection_type: open
+  name: Opik REST System usage API
+  slug: open-comet-system-usage-api
+- collection_type: open
+  name: Opik REST Traces API
+  slug: open-comet-traces-api
+- collection_type: open
+  name: Opik REST Welcome Wizard API
+  slug: open-comet-welcome-wizard-api
+- collection_type: open
+  name: Opik REST Workspace permissions API
+  slug: open-comet-workspace-permissions-api
+- collection_type: open
+  name: Opik REST Workspaces API
+  slug: open-comet-workspaces-api
 common:
 - group: other
   title: ''
@@ -267,7 +397,7 @@ overview: 'Comet publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Comet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 56
+random_paper: 89
 score:
   band: developing
   composite: 52.7
@@ -290,7 +420,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comet/refs/heads/main/screenshots/comet-2026-07-25T210115.png
 security:

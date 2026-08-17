@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Candidate invitations
@@ -40,7 +40,20 @@ apis:
 - description: Candidate assessment submissions
   name: Litmus Hiring Submissions API
   slug: litmus-hiring-submissions-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Litmus Hiring REST Invites API
+  slug: open-litmus-hiring-invites-api
+- collection_type: open
+  name: Litmus Hiring REST Invites Roles API
+  slug: open-litmus-hiring-roles-api
+- collection_type: open
+  name: Litmus Hiring REST Invites Submissions API
+  slug: open-litmus-hiring-submissions-api
 common:
 - group: other
   title: ''
@@ -142,7 +155,7 @@ overview: 'Litmus Hiring publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Litmus Hiring''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
-random_paper: 36
+random_paper: 15
 scopes:
 - name: Litmus Hiring Scopes
   scope_count: 7
@@ -170,7 +183,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/screenshots/litmus-hiring-2026-07-25T225341.png
 security:

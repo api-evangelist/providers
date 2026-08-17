@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -101,7 +101,74 @@ apis:
 - description: The Wintercast API from AccuWeather — 1 operation(s) for wintercast.
   name: AccuWeather Wintercast API
   slug: accuweather-wintercast-api
-artifact_total: 216
+artifact_total: 238
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AccuWeather One Active Storms API
+  slug: open-accuweather-active-storms-api
+- collection_type: open
+  name: AccuWeather One Active Storms Ads API
+  slug: open-accuweather-ads-api
+- collection_type: open
+  name: AccuWeather One Active Storms AirQuality API
+  slug: open-accuweather-airquality-api
+- collection_type: open
+  name: AccuWeather One Active Storms Autocomplete API
+  slug: open-accuweather-autocomplete-api
+- collection_type: open
+  name: AccuWeather One Active Storms Current API
+  slug: open-accuweather-current-api
+- collection_type: open
+  name: AccuWeather One Active Storms Current Conditions API
+  slug: open-accuweather-current-conditions-api
+- collection_type: open
+  name: AccuWeather One Active Storms Daily API
+  slug: open-accuweather-daily-api
+- collection_type: open
+  name: AccuWeather One Active Storms Daily Indices API
+  slug: open-accuweather-daily-indices-api
+- collection_type: open
+  name: AccuWeather One Active Storms Favorite API
+  slug: open-accuweather-favorite-api
+- collection_type: open
+  name: AccuWeather One Active Storms Hourly API
+  slug: open-accuweather-hourly-api
+- collection_type: open
+  name: AccuWeather One Active Storms Hourlyaq API
+  slug: open-accuweather-hourlyaq-api
+- collection_type: open
+  name: AccuWeather One Active Storms Minutecast API
+  slug: open-accuweather-minutecast-api
+- collection_type: open
+  name: AccuWeather One Active Storms Partner API
+  slug: open-accuweather-partner-api
+- collection_type: open
+  name: AccuWeather One Active Storms Raine API
+  slug: open-accuweather-raine-api
+- collection_type: open
+  name: AccuWeather One Active Storms Resolve Location API
+  slug: open-accuweather-resolve-location-api
+- collection_type: open
+  name: AccuWeather One Active Storms Resolve Location Redirect API
+  slug: open-accuweather-resolve-location-redirect-api
+- collection_type: open
+  name: AccuWeather One Active Storms StaticMap API
+  slug: open-accuweather-staticmap-api
+- collection_type: open
+  name: AccuWeather One Active Storms Storm API
+  slug: open-accuweather-storm-api
+- collection_type: open
+  name: AccuWeather One Active Storms Test API
+  slug: open-accuweather-test-api
+- collection_type: open
+  name: AccuWeather One Active Storms Tropical API
+  slug: open-accuweather-tropical-api
+- collection_type: open
+  name: AccuWeather One Active Storms Wintercast API
+  slug: open-accuweather-wintercast-api
 common:
 - group: agent
   title: ''
@@ -729,7 +796,7 @@ plans:
 - name: Accuweather Plans Pricing
   plan_count: 3
   slug: accuweather-plans-pricing
-random_paper: 84
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Accuweather Rate Limits
@@ -771,7 +838,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/screenshots/accuweather-2026-06-20T163703.png
 security:

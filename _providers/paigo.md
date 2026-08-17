@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: The Webhooks API from Paigo — 7 operation(s) for webhooks.
   name: Paigo Webhooks API
   slug: paigo-webhooks-api
-artifact_total: 32
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paigo Customers API
+  slug: open-paigo-customers-api
+- collection_type: open
+  name: Paigo Customers Dimensions API
+  slug: open-paigo-dimensions-api
+- collection_type: open
+  name: Paigo Customers Invoices API
+  slug: open-paigo-invoices-api
+- collection_type: open
+  name: Paigo Customers Measurements API
+  slug: open-paigo-measurements-api
+- collection_type: open
+  name: Paigo Customers Offerings API
+  slug: open-paigo-offerings-api
+- collection_type: open
+  name: Paigo Customers Settings API
+  slug: open-paigo-settings-api
+- collection_type: open
+  name: Paigo Customers Usage API
+  slug: open-paigo-usage-api
+- collection_type: open
+  name: Paigo Customers Webhooks API
+  slug: open-paigo-webhooks-api
 common:
 - group: agent
   title: ''
@@ -196,7 +224,7 @@ plans:
 - name: Paigo Plans Pricing
   plan_count: 1
   slug: paigo-plans-pricing
-random_paper: 48
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Paigo Rate Limits
@@ -235,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/screenshots/paigo-2026-06-20T191330.png
 security:

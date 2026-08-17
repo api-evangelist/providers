@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -143,7 +143,116 @@ apis:
 - description: The Vitals API from Depict.AI — 1 operation(s) for vitals.
   name: Depict.AI Vitals API
   slug: depictai-vitals-api
-artifact_total: 41
+artifact_total: 77
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Depict Lite Ab Test API
+  slug: open-depictai-ab-test-api
+- collection_type: open
+  name: Depict Lite Ab Test Analytics API
+  slug: open-depictai-analytics-api
+- collection_type: open
+  name: Depict Lite Ab Test Boost Bury API
+  slug: open-depictai-boost-bury-api
+- collection_type: open
+  name: Depict Lite Ab Test Brand Features API
+  slug: open-depictai-brand-features-api
+- collection_type: open
+  name: Depict Lite Ab Test Catalog Push API (v0) API
+  slug: open-depictai-catalog-push-api-v0-api
+- collection_type: open
+  name: Depict Lite Ab Test Collections API
+  slug: open-depictai-collections-api
+- collection_type: open
+  name: Depict Lite Ab Test Dashboard API
+  slug: open-depictai-dashboard-api
+- collection_type: open
+  name: Depict Lite Ab Test Events (v2) API
+  slug: open-depictai-events-v2-api
+- collection_type: open
+  name: Depict Lite Ab Test Instagram API
+  slug: open-depictai-instagram-api
+- collection_type: open
+  name: Depict Lite Ab Test Listing (v2) API
+  slug: open-depictai-listing-v2-api
+- collection_type: open
+  name: Depict Lite Ab Test Listing (v3) API
+  slug: open-depictai-listing-v3-api
+- collection_type: open
+  name: Depict Lite Ab Test Media API
+  slug: open-depictai-media-api
+- collection_type: open
+  name: Depict Lite Ab Test merchant API
+  slug: open-depictai-merchant-api
+- collection_type: open
+  name: Depict Lite Ab Test merchant-create API
+  slug: open-depictai-merchant-create-api
+- collection_type: open
+  name: Depict Lite Ab Test Merchants API
+  slug: open-depictai-merchants-api
+- collection_type: open
+  name: Depict Lite Ab Test multi-store API
+  slug: open-depictai-multi-store-api
+- collection_type: open
+  name: Depict Lite Ab Test Onboarding API
+  slug: open-depictai-onboarding-api
+- collection_type: open
+  name: Depict Lite Ab Test Other (v3) API
+  slug: open-depictai-other-v3-api
+- collection_type: open
+  name: Depict Lite Ab Test Product Funnel Metrics API
+  slug: open-depictai-product-funnel-metrics-api
+- collection_type: open
+  name: Depict Lite Ab Test Product Images API
+  slug: open-depictai-product-images-api
+- collection_type: open
+  name: Depict Lite Ab Test Product Metrics API
+  slug: open-depictai-product-metrics-api
+- collection_type: open
+  name: Depict Lite Ab Test Products API
+  slug: open-depictai-products-api
+- collection_type: open
+  name: Depict Lite Ab Test Published Collections API
+  slug: open-depictai-published-collections-api
+- collection_type: open
+  name: Depict Lite Ab Test Recommendations (v2) API
+  slug: open-depictai-recommendations-v2-api
+- collection_type: open
+  name: Depict Lite Ab Test Recommendations (v3) API
+  slug: open-depictai-recommendations-v3-api
+- collection_type: open
+  name: Depict Lite Ab Test Search Metrics API
+  slug: open-depictai-search-metrics-api
+- collection_type: open
+  name: Depict Lite Ab Test Search (v2) API
+  slug: open-depictai-search-v2-api
+- collection_type: open
+  name: Depict Lite Ab Test Search (v3) API
+  slug: open-depictai-search-v3-api
+- collection_type: open
+  name: Depict Lite Ab Test Settings API
+  slug: open-depictai-settings-api
+- collection_type: open
+  name: Depict Lite Ab Test Shopify API
+  slug: open-depictai-shopify-api
+- collection_type: open
+  name: Depict Lite Ab Test Shopify Collection Template API
+  slug: open-depictai-shopify-collection-template-api
+- collection_type: open
+  name: Depict Lite Ab Test tracking API
+  slug: open-depictai-tracking-api
+- collection_type: open
+  name: Depict Lite Ab Test translations API
+  slug: open-depictai-translations-api
+- collection_type: open
+  name: Depict Lite Ab Test Users API
+  slug: open-depictai-users-api
+- collection_type: open
+  name: Depict Lite Ab Test Vitals API
+  slug: open-depictai-vitals-api
 common:
 - group: other
   title: ''
@@ -297,7 +406,7 @@ overview: 'Depict.AI publishes 35 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Depict.AI''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 27 more developer resources.'
-random_paper: 115
+random_paper: 90
 scopes:
 - name: Depictai Scopes
   scope_count: 3
@@ -326,7 +435,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depictai/refs/heads/main/screenshots/depictai-2026-07-25T211734.png
 security:

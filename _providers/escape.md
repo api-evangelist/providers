@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -99,8 +99,71 @@ apis:
 - description: Workflows Management The public API provides CRUDs operations to manage workflows.
   name: Escape Workflows API
   slug: escape-workflows-api
-artifact_total: 27
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Escape Public Asm API
+  slug: open-escape-asm-api
+- collection_type: open
+  name: Escape Public Asm Assets API
+  slug: open-escape-assets-api
+- collection_type: open
+  name: Escape Public Asm Audit API
+  slug: open-escape-audit-api
+- collection_type: open
+  name: Escape Public Asm Beta API
+  slug: open-escape-beta-api
+- collection_type: open
+  name: Escape Public Asm CustomRules API
+  slug: open-escape-customrules-api
+- collection_type: open
+  name: Escape Public Asm Emails API
+  slug: open-escape-emails-api
+- collection_type: open
+  name: Escape Public Asm Events API
+  slug: open-escape-events-api
+- collection_type: open
+  name: Escape Public Asm Integrations API
+  slug: open-escape-integrations-api
+- collection_type: open
+  name: Escape Public Asm Issues API
+  slug: open-escape-issues-api
+- collection_type: open
+  name: Escape Public Asm Jobs API
+  slug: open-escape-jobs-api
+- collection_type: open
+  name: Escape Public Asm Locations API
+  slug: open-escape-locations-api
+- collection_type: open
+  name: Escape Public Asm Profiles API
+  slug: open-escape-profiles-api
+- collection_type: open
+  name: Escape Public Asm Projects API
+  slug: open-escape-projects-api
+- collection_type: open
+  name: Escape Public Asm Roles API
+  slug: open-escape-roles-api
+- collection_type: open
+  name: Escape Public Asm Scans API
+  slug: open-escape-scans-api
+- collection_type: open
+  name: Escape Public Asm Statistics API
+  slug: open-escape-statistics-api
+- collection_type: open
+  name: Escape Public Asm Tags API
+  slug: open-escape-tags-api
+- collection_type: open
+  name: Escape Public Asm Upload API
+  slug: open-escape-upload-api
+- collection_type: open
+  name: Escape Public Asm Users API
+  slug: open-escape-users-api
+- collection_type: open
+  name: Escape Public Asm Workflows API
+  slug: open-escape-workflows-api
 - collection_type: open
   name: Escape Public API
   slug: open-escape
@@ -169,7 +232,7 @@ plans:
 - name: Escape Plans Pricing
   plan_count: 3
   slug: escape-plans-pricing
-random_paper: 25
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Escape Rate Limits
@@ -194,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/screenshots/escape-2026-06-20T180822.png
 security:

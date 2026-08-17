@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -121,7 +121,95 @@ apis:
 - description: The Verify Frames API from Instance — 1 operation(s) for verify frames.
   name: Instance Verify Frames API
   slug: instance-verify-frames-api
-artifact_total: 31
+artifact_total: 60
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Robot rollout verifier Archive API
+  slug: open-instance-archive-api
+- collection_type: open
+  name: Robot rollout verifier Archive Audit API
+  slug: open-instance-audit-api
+- collection_type: open
+  name: Robot rollout verifier Archive Batch API
+  slug: open-instance-batch-api
+- collection_type: open
+  name: Robot rollout verifier Archive Captions API
+  slug: open-instance-captions-api
+- collection_type: open
+  name: Robot rollout verifier Archive Clip API
+  slug: open-instance-clip-api
+- collection_type: open
+  name: Robot rollout verifier Archive Download API
+  slug: open-instance-download-api
+- collection_type: open
+  name: Robot rollout verifier Archive Example API
+  slug: open-instance-example-api
+- collection_type: open
+  name: Robot rollout verifier Archive Examples API
+  slug: open-instance-examples-api
+- collection_type: open
+  name: Robot rollout verifier Archive Fast API
+  slug: open-instance-fast-api
+- collection_type: open
+  name: Robot rollout verifier Archive Feed API
+  slug: open-instance-feed-api
+- collection_type: open
+  name: Robot rollout verifier Archive H1 API
+  slug: open-instance-h1-api
+- collection_type: open
+  name: Robot rollout verifier Archive Health API
+  slug: open-instance-health-api
+- collection_type: open
+  name: Robot rollout verifier Archive Ingest API
+  slug: open-instance-ingest-api
+- collection_type: open
+  name: Robot rollout verifier Archive Job API
+  slug: open-instance-job-api
+- collection_type: open
+  name: Robot rollout verifier Archive Live Example API
+  slug: open-instance-live-example-api
+- collection_type: open
+  name: Robot rollout verifier Archive Live Example Video API
+  slug: open-instance-live-example-video-api
+- collection_type: open
+  name: Robot rollout verifier Archive Live State API
+  slug: open-instance-live-state-api
+- collection_type: open
+  name: Robot rollout verifier Archive Opus API
+  slug: open-instance-opus-api
+- collection_type: open
+  name: Robot rollout verifier Archive Qr API
+  slug: open-instance-qr-api
+- collection_type: open
+  name: Robot rollout verifier Archive Record API
+  slug: open-instance-record-api
+- collection_type: open
+  name: Archive Robot Rollout Verifier API
+  slug: open-instance-robot-rollout-verifier-api
+- collection_type: open
+  name: Robot rollout verifier Archive Segment API
+  slug: open-instance-segment-api
+- collection_type: open
+  name: Robot rollout verifier Archive Subtasks API
+  slug: open-instance-subtasks-api
+- collection_type: open
+  name: Robot rollout verifier Archive Subtasks Trace API
+  slug: open-instance-subtasks-trace-api
+- collection_type: open
+  name: Robot rollout verifier Archive Upload API
+  slug: open-instance-upload-api
+- collection_type: open
+  name: Robot rollout verifier Archive Usage API
+  slug: open-instance-usage-api
+- collection_type: open
+  name: Robot rollout verifier Archive Verify API
+  slug: open-instance-verify-api
+- collection_type: open
+  name: Robot rollout verifier Archive Verify Frames API
+  slug: open-instance-verify-frames-api
 common:
 - group: auth
   title: ''
@@ -207,7 +295,7 @@ overview: 'Instance publishes 28 APIs on the [APIs.io](https://apis.io/) network
 
 
   Instance''s developer surface includes support and 16 more developer resources.'
-random_paper: 13
+random_paper: 108
 score:
   band: emerging
   composite: 22.8
@@ -231,7 +319,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/screenshots/instance-2026-07-25T222605.png
 security:

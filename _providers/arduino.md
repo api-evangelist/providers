@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -179,7 +179,152 @@ apis:
 - description: The users_v1 API from Arduino — 3 operation(s) for users_v1.
   name: Arduino users_v1 API
   slug: arduino-users-v1-api
-artifact_total: 56
+artifact_total: 104
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 API
+  slug: open-arduino-binaries-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 cleanup API
+  slug: open-arduino-cleanup-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 clients_v1 API
+  slug: open-arduino-clients-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 compact_dashboards_v2 API
+  slug: open-arduino-compact-dashboards-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 compact_devices_v2 API
+  slug: open-arduino-compact-devices-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 compact_things_v2 API
+  slug: open-arduino-compact-things-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 compact_triggers_v1 API
+  slug: open-arduino-compact-triggers-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 dashboard_shares_v1 API
+  slug: open-arduino-dashboard-shares-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 dashboards_v2 API
+  slug: open-arduino-dashboards-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 dashboards_v3 API
+  slug: open-arduino-dashboards-v3-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 devices_tags_v2 API
+  slug: open-arduino-devices-tags-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 devices_v2 API
+  slug: open-arduino-devices-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 devices_v2_certs API
+  slug: open-arduino-devices-v2-certs-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 devices_v2_metadata API
+  slug: open-arduino-devices-v2-metadata-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 devices_v2_ota API
+  slug: open-arduino-devices-v2-ota-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 devices_v2_pass API
+  slug: open-arduino-devices-v2-pass-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 devices_v2_pubkeys API
+  slug: open-arduino-devices-v2-pubkeys-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 devices_v2_tags API
+  slug: open-arduino-devices-v2-tags-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 devices_v2_webhooks API
+  slug: open-arduino-devices-v2-webhooks-api
+- collection_type: open
+  name: Arduino Cloud binaries_v2 Iot API
+  slug: open-arduino-iot-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 lora_app_v1 API
+  slug: open-arduino-lora-app-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 lora_apps_v1 API
+  slug: open-arduino-lora-apps-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 lora_devices_v1 API
+  slug: open-arduino-lora-devices-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 lora_freq_plan_v1 API
+  slug: open-arduino-lora-freq-plan-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 lora_gw_v1 API
+  slug: open-arduino-lora-gw-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 manage API
+  slug: open-arduino-manage-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 network_credentials_v1 API
+  slug: open-arduino-network-credentials-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 ota API
+  slug: open-arduino-ota-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 properties API
+  slug: open-arduino-properties-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 properties_v2 API
+  slug: open-arduino-properties-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 property_types_v1 API
+  slug: open-arduino-property-types-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 series_v1 API
+  slug: open-arduino-series-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 series_v2 API
+  slug: open-arduino-series-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 supported_v1 API
+  slug: open-arduino-supported-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 sync_v1 API
+  slug: open-arduino-sync-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 templates API
+  slug: open-arduino-templates-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 thing_properties_v1 API
+  slug: open-arduino-thing-properties-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 things_tags_v2 API
+  slug: open-arduino-things-tags-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 things_v1 API
+  slug: open-arduino-things-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 things_v1_tags API
+  slug: open-arduino-things-v1-tags-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 things_v2 API
+  slug: open-arduino-things-v2-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 things_v2_tags API
+  slug: open-arduino-things-v2-tags-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 timezones API
+  slug: open-arduino-timezones-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 triggers_v1 API
+  slug: open-arduino-triggers-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 usage_internal API
+  slug: open-arduino-usage-internal-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 usage_v1 API
+  slug: open-arduino-usage-v1-api
+- collection_type: open
+  name: Arduino IoT Cloud binaries_v2 users_v1 API
+  slug: open-arduino-users-v1-api
 common:
 - group: agent
   title: ''
@@ -281,7 +426,7 @@ plans:
 - name: Arduino Plans Pricing
   plan_count: 4
   slug: arduino-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Arduino Rate Limits
@@ -315,7 +460,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/screenshots/arduino-2026-06-20T172415.png
 security:

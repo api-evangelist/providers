@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Pkg API from Jetify — 1 operation(s) for pkg.
@@ -40,7 +40,20 @@ apis:
 - description: The Search API from Jetify — 1 operation(s) for search.
   name: Jetify Search API
   slug: jetify-search-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nixhub Pkg API
+  slug: open-jetify-pkg-api
+- collection_type: open
+  name: Nixhub Pkg Resolve API
+  slug: open-jetify-resolve-api
+- collection_type: open
+  name: Nixhub Pkg Search API
+  slug: open-jetify-search-api
 common:
 - group: other
   title: ''
@@ -166,7 +179,7 @@ overview: 'Jetify publishes 3 APIs on the [APIs.io](https://apis.io/) network: P
 
 
   Jetify''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, CLI, authentication, and 20 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: developing
   composite: 44.9
@@ -189,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetify/refs/heads/main/screenshots/jetify-2026-07-25T223137.png
 security:

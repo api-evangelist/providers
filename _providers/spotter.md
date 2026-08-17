@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 6.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -39,6 +39,10 @@ common:
   title: ''
   type: Website
   url: https://www.spotter.com/
+- group: other
+  title: ''
+  type: Product
+  url: https://www.spotterstudio.com/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -47,31 +51,92 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.spotter.com/privacy-policy
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.spotterstudio.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.spotterstudio.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.spotterstudio.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.spotterstudio.com/login
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/spotter-dev
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/spotter-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/spotter-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/spotter-rate-limits.yml
+coverage:
+  checked: '2026-08-13'
+  detail: Spotter ships Spotter Studio only as an end-user web app — the app's own backends (bowser/birdo/kirby.api.spotterstudio.com, read out of the SPA bundle) answer HTTP 503 to every anonymous request and publish no contract, and there is no developer portal, API reference, SDK, webhook surface or /llms.txt on any Spotter host.
+  evidence:
+  - status: 503
+    url: https://bowser.api.spotterstudio.com/openapi.json
+  - status: 404
+    url: https://data-api.api.spotterstudio.com/openapi.json
+  - status: 404
+    url: https://www.spotter.com/developers
+  - status: 404
+    url: https://www.spotterstudio.com/llms.txt
+  - status: 404
+    url: https://www.spotterstudio.com/.well-known/agent-card.json
+  - status: 401
+    url: https://www.spotterstudio.com/pricing
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Spotter is a creator-economy platform that invests in YouTube creators through capital, catalog licensing, and brand partnerships, and connects brands with top long-form YouTube creators for marketing and content opportunities. Its Spotter Studio product provides AI-assisted tooling that helps creators plan, ideate, and optimize their content and titles. The company reports more than $1 billion invested in creators and over 43 billion monthly views across a network that includes creators such as MrBeast, Critical Role, and Sam and Colby. Spotter is backed by SoftBank Vision Fund. No public developer API surface has been found at this time.
+description: 'Spotter is a creator-economy platform that invests in YouTube creators through capital, catalog licensing, and brand partnerships, and connects brands with top long-form YouTube creators for marketing and content opportunities. Its Spotter Studio product provides AI-assisted tooling that helps creators plan, ideate, and optimize their content and titles. The company reports more than $1 billion invested in creators and over 43 billion monthly views across a network that includes creators such as MrBeast, Critical Role, and Sam and Colby. Spotter is backed by SoftBank Vision Fund. Spotter publishes no public developer API: contract discovery on 2026-08-13 found no OpenAPI, GraphQL SDL, AsyncAPI, MCP server or A2A agent card on any Spotter host, and the Spotter Studio application backends return 503 to anonymous callers. Spotter Studio is a consumer of the YouTube Data and Analytics APIs via Google OAuth, not a provider of one.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spotter.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Spotter
 nav: Providers
 network: true
-overview: Spotter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Creator Economy, Media, and YouTube.
-random_paper: 65
+overview: 'Spotter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Creator Economy, Media, and YouTube.
+
+
+  Spotter''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
+plans:
+- name: Spotter Plans Pricing
+  plan_count: 0
+  slug: spotter-plans-pricing
+random_paper: 40
+rate_limits:
+- limit_count: 0
+  name: Spotter Rate Limits
+  slug: spotter-rate-limits
 score:
-  band: minimal
-  composite: 9.2
-  delta: 0.0
+  band: emerging
+  composite: 15.7
+  delta: 6.5
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 6.5
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 9.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Spotter Domain Security
@@ -87,5 +152,7 @@ tags:
 - Video
 - Marketing
 - Content
+- Creators
+- AI
 website: https://www.spotter.com/
 ---

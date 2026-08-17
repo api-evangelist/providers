@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -60,8 +60,32 @@ apis:
 - description: Recurring / subscription billing.
   name: Midtrans Subscription API
   slug: midtrans-subscription-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Midtrans Payment Card Tokenization API
+  slug: open-midtrans-card-tokenization-api
+- collection_type: open
+  name: Midtrans Payment Card Tokenization Core API API
+  slug: open-midtrans-core-api-api
+- collection_type: open
+  name: Midtrans Payment Card Tokenization GoPay Tokenization API
+  slug: open-midtrans-gopay-tokenization-api
+- collection_type: open
+  name: Midtrans Payment Card Tokenization Iris Disbursement API
+  slug: open-midtrans-iris-disbursement-api
+- collection_type: open
+  name: Midtrans Payment Card Tokenization Payment Link API
+  slug: open-midtrans-payment-link-api
+- collection_type: open
+  name: Midtrans Payment Card Tokenization Snap API
+  slug: open-midtrans-snap-api
+- collection_type: open
+  name: Midtrans Payment Card Tokenization Subscription API
+  slug: open-midtrans-subscription-api
 - collection_type: open
   name: Midtrans Payment API
   slug: open-midtrans
@@ -130,7 +154,7 @@ plans:
 - name: Midtrans Plans Pricing
   plan_count: 5
   slug: midtrans-plans-pricing
-random_paper: 26
+random_paper: 121
 rate_limits:
 - limit_count: 4
   name: Midtrans Rate Limits
@@ -161,7 +185,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/screenshots/midtrans-2026-08-07T172858.png
 security:

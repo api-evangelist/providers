@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -47,7 +47,20 @@ apis:
 - description: The Reports API from Cloud Academy — 32 operation(s) for reports.
   name: Cloud Academy Reports API
   slug: cloud-academy-reports-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QA Learning Management System API
+  slug: open-cloud-academy-learning-management-system-api
+- collection_type: open
+  name: QA Learning Management System Organizations API
+  slug: open-cloud-academy-organizations-api
+- collection_type: open
+  name: QA Learning Management System Reports API
+  slug: open-cloud-academy-reports-api
 common:
 - group: other
   title: ''
@@ -177,7 +190,7 @@ overview: 'Cloud Academy publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cloud Academy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 104
+random_paper: 112
 rate_limits:
 - limit_count: 3
   name: Cloud Academy Rate Limits
@@ -210,7 +223,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png
 security:

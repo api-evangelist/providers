@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: User account management
   name: Zabbix Users API
   slug: zabbix-users-api
-artifact_total: 33
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zabbix Actions API
+  slug: open-zabbix-actions-api
+- collection_type: open
+  name: Zabbix Actions Authentication API
+  slug: open-zabbix-authentication-api
+- collection_type: open
+  name: Zabbix Actions Events API
+  slug: open-zabbix-events-api
+- collection_type: open
+  name: Zabbix Actions History API
+  slug: open-zabbix-history-api
+- collection_type: open
+  name: Zabbix Actions Host Groups API
+  slug: open-zabbix-host-groups-api
+- collection_type: open
+  name: Zabbix Actions Hosts API
+  slug: open-zabbix-hosts-api
+- collection_type: open
+  name: Zabbix Actions Items API
+  slug: open-zabbix-items-api
+- collection_type: open
+  name: Zabbix Actions Problems API
+  slug: open-zabbix-problems-api
+- collection_type: open
+  name: Zabbix Actions Triggers API
+  slug: open-zabbix-triggers-api
+- collection_type: open
+  name: Zabbix Actions Users API
+  slug: open-zabbix-users-api
 - collection_type: open
   name: Zabbix API
   slug: open-zabbix
@@ -177,7 +210,7 @@ plans:
 - name: Zabbix Plans Pricing
   plan_count: 3
   slug: zabbix-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Zabbix Rate Limits
@@ -211,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/screenshots/zabbix-2026-06-20T201756.png
 security:

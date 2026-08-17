@@ -28,13 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
-- description: REST API for managing social media clients, scheduling posts, monitoring mentions, and accessing analytics and reports across multiple social networks.
+- description: REST API for managing social media clients, scheduling posts, monitoring mentions, and accessing analytics and reports across multiple social networks. The API is live at https://api.sendible.com/api/
   name: Sendible API
   slug: sendible-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -44,10 +44,6 @@ common:
   title: ''
   type: Website
   url: https://www.sendible.com/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://developers.sendible.com/
 - group: build
   title: ''
   type: GitHubOrg
@@ -80,52 +76,100 @@ common:
   title: ''
   type: FinOps
   url: https://raw.githubusercontent.com/api-evangelist/sendible/refs/heads/main/finops/sendible-finops.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.sendible.com/hc/en-us
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.sendible.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sendible.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.sendible.com/privacy
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.sendible.com/changelog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/sendible-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sendible-lifecycle.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.sendible.com/vulnerability-reporting
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/sendible-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sendible-llms.txt
 created: '2026-06-13'
-description: Sendible is a social media management platform designed for agencies, marketers, and brand managers. It provides a REST API for managing clients, scheduling posts across multiple networks, monitoring mentions, and accessing social media analytics and reports at scale.
+description: Sendible is a social media management platform for agencies, franchises, multi-location brands and marketing teams, headquartered in London. It schedules and publishes content across Instagram, Facebook, LinkedIn, X, TikTok, Threads, Bluesky, YouTube, Google Business Profile and WordPress, centralises replies in a Priority Inbox, and produces client-facing analytics reports. Sendible operates a live REST API at api.sendible.com/api/v1 and markets an API-led path for software integrators, but the public developer portal has been retired and no machine-readable contract is published.
 finops:
 - name: Sendible Finops
   service_category: ''
   slug: sendible-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sendible.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: Sendible
 nav: Providers
 network: true
 overview: 'Sendible publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Social Media Management, Agencies, Scheduling, and Analytics.
 
 
-  Sendible''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
+  Sendible''s developer surface includes engineering blog, pricing, support, signup flow, changelog, and 15 more developer resources.'
 plans:
 - name: Sendible Plans Pricing
-  plan_count: 10
+  plan_count: 5
   slug: sendible-plans-pricing
-random_paper: 118
+random_paper: 93
 rate_limits:
-- limit_count: 5
+- limit_count: 6
   name: Sendible Rate Limits
   slug: sendible-rate-limits
 score:
-  band: emerging
-  composite: 23.8
-  delta: 0.0
+  band: thin
+  composite: 33.9
+  delta: 10.1
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 68.5
+    developer_ergonomics: 6.5
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 63.2
   previous_composite: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendible/refs/heads/main/screenshots/sendible-2026-06-20T193657.png
 security:
+- kind: authentication
+  name: Sendible Authentication
+  slug: sendible-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Sendible Domain Security
   slug: sendible-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Sendible Vulnerability Disclosure
+  slug: sendible-vulnerability-disclosure
+  summary_line: contact published
 slug: sendible
 tags:
 - Social Media

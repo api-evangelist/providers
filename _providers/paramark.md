@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Paramark's production API, offered as a feature of the Advanced and Enterprise tiers. The service is live and answers anonymously at GET /healthz (HTTP 200 {"status":"ok"}) and is a FastAPI applicatio
@@ -122,7 +122,7 @@ plans:
 - name: Paramark Plans Pricing
   plan_count: 3
   slug: paramark-plans-pricing
-random_paper: 7
+random_paper: 102
 rate_limits:
 - limit_count: 0
   name: Paramark Rate Limits
@@ -135,7 +135,7 @@ scopes:
 score:
   band: emerging
   composite: 27.1
-  delta: 14.1
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 0.0
@@ -143,10 +143,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 13.0
+  previous_composite: 27.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/screenshots/paramark-2026-08-07T191427.png
 security:
 - kind: authentication

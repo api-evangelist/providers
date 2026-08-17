@@ -9,28 +9,52 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    openapi_examples: verified
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 57.2
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Replicant Agentic Access
+  operation_count: 2
+  slug: replicant-agentic-access
+  summary_line: 2 operations · 2 acting
+api_count: 1
+apis:
+- description: Places outbound AI voice calls and SMS messages through Replicant against a pre-configured campaign, and notifies the caller of call status. Two POST operations — placeCall and sendSMS — each taking a
+  name: Replicant Outbound API
+  slug: replicant-outbound-api
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Replicant Outbound Call Status Webhooks
+  slug: replicant-outbound-call-status-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/replicant-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/replicant-authentication.yml
 - group: company
   title: ''
   type: Website
@@ -87,37 +111,96 @@ common:
   title: ''
   type: DomainSecurity
   url: security/replicant-domain-security.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/replicant-outbound-api-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/replicant-outbound-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/replicant-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/replicant-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/replicant-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/replicant-outbound-call-status-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/replicant-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/replicant-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.replicant.com/contact-center-automation/pricing
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.replicant.com/contact
 created: '2026-07-17'
-description: Replicant is an enterprise agentic customer service platform that automates high-volume contact center conversations across voice, chat, and messaging, and analyzes 100% of interactions for QA, compliance, and automation insights. Its two products — Conversation Automation and Conversation Intelligence — replicate top-performing human agents using a hybrid agentic-plus-deterministic architecture with human-in-the-loop escalation, and integrate with existing CCaaS, CRM, telephony, and ticketing stacks. Replicant is telephony-native, runs multi-region on Google Cloud, and is built for SOC 2, HIPAA, PCI, and GDPR requirements. It is sales-led with a private, partner-facing API rather than a public developer portal.
+description: Replicant is an enterprise agentic customer service platform that automates high-volume contact center conversations across voice, chat, and messaging, and analyzes 100% of interactions for QA, compliance, and automation insights. Its two products — Conversation Automation and Conversation Intelligence — replicate top-performing human agents using a hybrid agentic-plus-deterministic architecture with human-in-the-loop escalation, and integrate with existing CCaaS, CRM, telephony, and ticketing stacks. Replicant is telephony-native, runs multi-region on Google Cloud, and is built for SOC 2, HIPAA, PCI, and GDPR requirements. It is sales-led with no public developer portal, but it does publish one machine-readable contract — the Replicant Outbound API (OpenAPI 3.0.0, v2.0.1), served from the provider's own Swagger UI at docs.replicant.ai and live on api.replicant.ai — which places outbound AI voice calls and SMS against a configured campaign and notifies the caller of call status.
 image: https://cdn.prod.website-files.com/67977c1e48dbb17d41f9520b/67a0beb2e1e43c91319354bb_Featured-Image.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Replicant
 nav: Providers
 network: true
-overview: 'Replicant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contact Center, Conversational AI, Customer Service, and Voice AI.
+overview: 'Replicant publishes 1 API on the [APIs.io](https://apis.io/) network: Outbound API. Tagged areas include Company, Contact Center, Conversational AI, Customer Service, and Voice AI.
 
 
-  Replicant''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 2
+  The Replicant catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Replicant''s developer surface includes authentication, engineering blog, pricing, support, and 23 more developer resources.'
+plans:
+- name: Replicant Plans Pricing
+  plan_count: 3
+  slug: replicant-plans-pricing
+random_paper: 68
+rate_limits:
+- limit_count: 0
+  name: Replicant Rate Limits
+  slug: replicant-rate-limits
 score:
-  band: emerging
-  composite: 19.1
-  delta: 0.0
+  band: developing
+  composite: 53.1
+  delta: 34.0
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 31.6
+    commercial_clarity: 78.9
+    contract_quality: 69.4
+    developer_ergonomics: 23.9
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 39.5
   previous_composite: 19.1
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Replicant Authentication
+  slug: replicant-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Replicant Domain Security
   slug: replicant-domain-security

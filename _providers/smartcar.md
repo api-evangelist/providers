@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -54,8 +54,26 @@ apis:
 - description: Read vehicle signals and status data
   name: Smartcar Vehicle Data API
   slug: smartcar-vehicle-data-api
-artifact_total: 22
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smartcar Vehicles Charging API
+  slug: open-smartcar-charging-api
+- collection_type: open
+  name: Smartcar Vehicles Charging Connections API
+  slug: open-smartcar-connections-api
+- collection_type: open
+  name: Smartcar Vehicles Charging Navigation API
+  slug: open-smartcar-navigation-api
+- collection_type: open
+  name: Smartcar Vehicles Charging Security API
+  slug: open-smartcar-security-api
+- collection_type: open
+  name: Smartcar Vehicles Charging Vehicle Data API
+  slug: open-smartcar-vehicle-data-api
 - collection_type: open
   name: Smartcar Vehicles API
   slug: open-smartcar-vehicles
@@ -177,7 +195,7 @@ plans:
 - name: Smartcar Plans Pricing
   plan_count: 3
   slug: smartcar-plans-pricing
-random_paper: 21
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Smartcar Rate Limits
@@ -219,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/screenshots/smartcar-2026-06-20T194039.png
 security:

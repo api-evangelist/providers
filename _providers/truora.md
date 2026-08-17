@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -54,7 +54,7 @@ apis:
 - description: Document, facial, email, and phone validation (KYC).
   name: Truora Validators API
   slug: truora-validators-api
-artifact_total: 21
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Truora Webhooks
@@ -75,6 +75,24 @@ collections:
 - collection_type: postman
   name: Truora Account Validators API
   slug: postman-truora-validators-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Truora Account API
+  slug: open-truora-account-api
+- collection_type: open
+  name: Truora Account Checks API
+  slug: open-truora-checks-api
+- collection_type: open
+  name: Truora Account Continuous Monitoring API
+  slug: open-truora-continuous-monitoring-api
+- collection_type: open
+  name: Truora Account Digital Identity API
+  slug: open-truora-digital-identity-api
+- collection_type: open
+  name: Truora Account Validators API
+  slug: open-truora-validators-api
 common:
 - group: build
   title: ''
@@ -259,7 +277,7 @@ plans:
 - name: Truora Plans Pricing
   plan_count: 3
   slug: truora-plans-pricing
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Truora Rate Limits
@@ -292,7 +310,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: System health and version endpoints.
   name: Sourcebot System API
   slug: sourcebot-system-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sourcebot Public Enterprise (EE) Enterprise (EE) Enterprise (EE) API
+  slug: open-sourcebot-enterprise-ee-api
+- collection_type: open
+  name: Sourcebot Public Enterprise (EE) Enterprise (EE) Git API
+  slug: open-sourcebot-git-api
+- collection_type: open
+  name: Sourcebot Public Enterprise (EE) Enterprise (EE) Repositories API
+  slug: open-sourcebot-repositories-api
+- collection_type: open
+  name: Sourcebot Public Enterprise (EE) Enterprise (EE) Search & Navigation API
+  slug: open-sourcebot-search-navigation-api
+- collection_type: open
+  name: Sourcebot Public Enterprise (EE) Enterprise (EE) System API
+  slug: open-sourcebot-system-api
 common:
 - group: other
   title: ''
@@ -187,7 +206,7 @@ overview: 'Sourcebot publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sourcebot''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 22
+random_paper: 88
 score:
   band: developing
   composite: 51.2
@@ -211,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 3
@@ -166,11 +166,77 @@ arazzos:
 - description: Look up a user by username, then pull their most recent posts.
   name: X Resolve User and List Their Recent Posts
   slug: twitter-user-lookup-recent-posts-workflow
-artifact_total: 153
+artifact_total: 175
 collections:
 - collection_type: postman
   name: X API v2
   slug: postman-x-api-openapi
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: X API v2 Account Activity API
+  slug: open-twitter-account-activity-api
+- collection_type: open
+  name: X API v2 Account Activity API
+  slug: open-twitter-activity-api
+- collection_type: open
+  name: X API v2 Account Activity Bookmarks API
+  slug: open-twitter-bookmarks-api
+- collection_type: open
+  name: X API v2 Account Activity Chat API
+  slug: open-twitter-chat-api
+- collection_type: open
+  name: X API v2 Account Activity Communities API
+  slug: open-twitter-communities-api
+- collection_type: open
+  name: X API v2 Account Activity Community Notes API
+  slug: open-twitter-community-notes-api
+- collection_type: open
+  name: X API v2 Account Activity Compliance API
+  slug: open-twitter-compliance-api
+- collection_type: open
+  name: X API v2 Account Activity Connections API
+  slug: open-twitter-connections-api
+- collection_type: open
+  name: X API v2 Account Activity Direct Messages API
+  slug: open-twitter-direct-messages-api
+- collection_type: open
+  name: X API v2 Account Activity General API
+  slug: open-twitter-general-api
+- collection_type: open
+  name: X API v2 Account Activity Likes API
+  slug: open-twitter-likes-api
+- collection_type: open
+  name: X API v2 Account Activity Lists API
+  slug: open-twitter-lists-api
+- collection_type: open
+  name: X API v2 Account Activity Media API
+  slug: open-twitter-media-api
+- collection_type: open
+  name: X API v2 Account Activity News API
+  slug: open-twitter-news-api
+- collection_type: open
+  name: X API v2 Account Activity Spaces API
+  slug: open-twitter-spaces-api
+- collection_type: open
+  name: X API v2 Account Activity Stream API
+  slug: open-twitter-stream-api
+- collection_type: open
+  name: X API v2 Account Activity Trends API
+  slug: open-twitter-trends-api
+- collection_type: open
+  name: X API v2 Account Activity Tweets API
+  slug: open-twitter-tweets-api
+- collection_type: open
+  name: X API v2 Account Activity Usage API
+  slug: open-twitter-usage-api
+- collection_type: open
+  name: X API v2 Account Activity Users API
+  slug: open-twitter-users-api
+- collection_type: open
+  name: X API v2 Account Activity Webhooks API
+  slug: open-twitter-webhooks-api
 - collection_type: open
   name: X API v2
   slug: open-x-api
@@ -665,7 +731,7 @@ plans:
 - name: Twitter Plans Pricing
   plan_count: 1
   slug: twitter-plans-pricing
-random_paper: 67
+random_paper: 42
 rate_limits:
 - limit_count: 13
   name: Twitter Rate Limits
@@ -712,7 +778,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/screenshots/twitter-2026-06-20T195857.png
 security:

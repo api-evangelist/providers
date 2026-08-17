@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,7 +51,14 @@ apis:
 - description: The Endpoints API from Australia Post — 9 operation(s) for endpoints.
   name: Australia Post Endpoints API
   slug: australia-post-endpoints-api
-artifact_total: 47
+artifact_total: 49
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Delivery Partner Endpoints API
+  slug: open-australia-post-endpoints-api
 common:
 - group: agent
   title: ''
@@ -230,7 +237,7 @@ plans:
 - name: Australia Post Plans Pricing
   plan_count: 4
   slug: australia-post-plans-pricing
-random_paper: 25
+random_paper: 124
 rate_limits:
 - limit_count: 4
   name: Australia Post Rate Limits
@@ -264,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/screenshots/australia-post-2026-06-20T172603.png
 security:

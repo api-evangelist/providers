@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -157,7 +157,7 @@ apis:
 - description: Webhooks are a great way to let external applications know about the status of a user, an API or an event that has occurred in the Tyk gateway <br/> You can create webhooks that you can then re-use in
   name: Tyk Webhooks API
   slug: tyk-webhooks-api
-artifact_total: 761
+artifact_total: 801
 collections:
 - collection_type: postman
   name: Tyk Dashboard Admin Additional Permissions API
@@ -277,17 +277,137 @@ collections:
   name: Tyk Dashboard Admin Additional Permissions Webhooks API
   slug: postman-tyk-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions API
+  slug: open-tyk-additional-permissions-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Analytics API
+  slug: open-tyk-analytics-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions APIs API
+  slug: open-tyk-apis-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Assets API
+  slug: open-tyk-assets-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions AuditLogs API
+  slug: open-tyk-auditlogs-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Basic Authentication API
+  slug: open-tyk-basic-authentication-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Batch Requests API
+  slug: open-tyk-batch-requests-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Cache Invalidation API
+  slug: open-tyk-cache-invalidation-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Certificates API
+  slug: open-tyk-certificates-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Certs API
+  slug: open-tyk-certs-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions CertsTag API
+  slug: open-tyk-certstag-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Config API
+  slug: open-tyk-config-api
+- collection_type: open
   name: Tyk Dashboard Admin API
   slug: open-tyk-dashboard-admin-api
 - collection_type: open
   name: Tyk Dashboard API
   slug: open-tyk-dashboard-api
 - collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Dashboard URL Reload API
+  slug: open-tyk-dashboard-url-reload-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Dataplanes API
+  slug: open-tyk-dataplanes-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Debug API
+  slug: open-tyk-debug-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Env API
+  slug: open-tyk-env-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Export API
+  slug: open-tyk-export-api
+- collection_type: open
   name: Tyk Gateway API
   slug: open-tyk-gateway-api
 - collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Health API
+  slug: open-tyk-health-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Health Checking API
+  slug: open-tyk-health-checking-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Hot Reload API
+  slug: open-tyk-hot-reload-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Import API
+  slug: open-tyk-import-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Keys API
+  slug: open-tyk-keys-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Liveness API
+  slug: open-tyk-liveness-api
+- collection_type: open
   name: Tyk MDCB Data Planes and Diagnostics API
   slug: open-tyk-mdcb-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions OAS APIs API
+  slug: open-tyk-oas-apis-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Oauth API
+  slug: open-tyk-oauth-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Open Policy Agent API
+  slug: open-tyk-open-policy-agent-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Organisation Quotas API
+  slug: open-tyk-organisation-quotas-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Organisations API
+  slug: open-tyk-organisations-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Policies API
+  slug: open-tyk-policies-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Readiness API
+  slug: open-tyk-readiness-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Schema API
+  slug: open-tyk-schema-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Single Sign On API
+  slug: open-tyk-single-sign-on-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Streams APIs API
+  slug: open-tyk-streams-apis-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions System API
+  slug: open-tyk-system-api
+- collection_type: open
+  name: Dashboard Admin Additional Permissions Tyk API
+  slug: open-tyk-tyk-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Tyk OAS APIs API
+  slug: open-tyk-tyk-oas-apis-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions UserGroup API
+  slug: open-tyk-usergroup-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Users API
+  slug: open-tyk-users-api
+- collection_type: open
+  name: Tyk Dashboard Admin Additional Permissions Webhooks API
+  slug: open-tyk-webhooks-api
 common:
 - group: auth
   title: ''
@@ -2409,7 +2529,7 @@ plans:
 - name: Tyk Plans Pricing
   plan_count: 5
   slug: tyk-plans-pricing
-random_paper: 104
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Tyk Rate Limits
@@ -2451,7 +2571,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png
 security:

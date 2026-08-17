@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,7 +59,23 @@ apis:
 - description: Public projects
   name: University of Cape Town projects API
   slug: university-of-cape-town-projects-api
-artifact_total: 22
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DataFirst Microdata Catalog API (NADA) articles API
+  slug: open-university-of-cape-town-articles-api
+- collection_type: open
+  name: DataFirst Microdata API (NADA) articles catalog API
+  slug: open-university-of-cape-town-catalog-api
+- collection_type: open
+  name: DataFirst Microdata Catalog API (NADA) articles collections API
+  slug: open-university-of-cape-town-collections-api
+- collection_type: open
+  name: DataFirst Microdata Catalog API (NADA) articles projects API
+  slug: open-university-of-cape-town-projects-api
 common:
 - group: agent
   title: ''
@@ -185,7 +201,7 @@ plans:
 - name: University Of Cape Town Plans Pricing
   plan_count: 2
   slug: university-of-cape-town-plans-pricing
-random_paper: 55
+random_paper: 100
 rate_limits:
 - limit_count: 1
   name: University Of Cape Town Rate Limits
@@ -233,7 +249,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/screenshots/university-of-cape-town-2026-06-20T200148.png
 security:

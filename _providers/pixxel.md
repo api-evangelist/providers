@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 19
 apis:
 - description: The AOI API from Pixxel — 3 operation(s) for aoi.
@@ -88,7 +88,68 @@ apis:
 - description: The Workflows API from Pixxel — 3 operation(s) for workflows.
   name: Pixxel Workflows API
   slug: pixxel-workflows-api
-artifact_total: 22
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: stargate AOI API
+  slug: open-pixxel-aoi-api
+- collection_type: open
+  name: stargate AOI Archives API
+  slug: open-pixxel-archives-api
+- collection_type: open
+  name: stargate AOI Assets API
+  slug: open-pixxel-assets-api
+- collection_type: open
+  name: stargate AOI Bandset API
+  slug: open-pixxel-bandset-api
+- collection_type: open
+  name: stargate AOI Blocks API
+  slug: open-pixxel-blocks-api
+- collection_type: open
+  name: stargate AOI Catalog API
+  slug: open-pixxel-catalog-api
+- collection_type: open
+  name: stargate AOI Downloads API
+  slug: open-pixxel-downloads-api
+- collection_type: open
+  name: stargate AOI external API
+  slug: open-pixxel-external-api
+- collection_type: open
+  name: stargate AOI Indices API
+  slug: open-pixxel-indices-api
+- collection_type: open
+  name: stargate AOI Insights API
+  slug: open-pixxel-insights-api
+- collection_type: open
+  name: stargate AOI Jobs API
+  slug: open-pixxel-jobs-api
+- collection_type: open
+  name: stargate AOI Order API
+  slug: open-pixxel-order-api
+- collection_type: open
+  name: stargate AOI Project API
+  slug: open-pixxel-project-api
+- collection_type: open
+  name: stargate AOI Report API
+  slug: open-pixxel-report-api
+- collection_type: open
+  name: stargate AOI Search API
+  slug: open-pixxel-search-api
+- collection_type: open
+  name: stargate AOI Stores API
+  slug: open-pixxel-stores-api
+- collection_type: open
+  name: stargate AOI Tasks API
+  slug: open-pixxel-tasks-api
+- collection_type: open
+  name: stargate AOI Visualizations API
+  slug: open-pixxel-visualizations-api
+- collection_type: open
+  name: stargate AOI Workflows API
+  slug: open-pixxel-workflows-api
 common:
 - group: company
   title: ''
@@ -198,7 +259,7 @@ overview: 'Pixxel publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Pixxel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 66
+random_paper: 70
 score:
   band: developing
   composite: 42.0
@@ -221,7 +282,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

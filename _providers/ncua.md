@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +56,17 @@ apis:
 - description: The SingleResult.aspx API from National Credit Union Administration (NCUA) — 1 operation(s) for singleresult.aspx.
   name: National Credit Union Administration (NCUA) SingleResult.aspx API
   slug: ncua-singleresult-aspx-api
-artifact_total: 15
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NCUA Credit Union Locator FindCUByRadius.aspx API
+  slug: open-ncua-findcubyradius-aspx-api
+- collection_type: open
+  name: NCUA Credit Union Locator FindCUByRadius.aspx SingleResult.aspx API
+  slug: open-ncua-singleresult-aspx-api
 common:
 - group: agent
   title: ''
@@ -142,7 +152,7 @@ plans:
 - name: Ncua Plans Pricing
   plan_count: 2
   slug: ncua-plans-pricing
-random_paper: 63
+random_paper: 125
 rate_limits:
 - limit_count: 0
   name: Ncua Rate Limits
@@ -182,7 +192,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/screenshots/ncua-2026-06-20T190114.png
 security:

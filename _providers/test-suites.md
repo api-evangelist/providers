@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,8 +69,17 @@ apis:
 - description: The Workspaces API from Test Suites — 2 operation(s) for workspaces.
   name: Test Suites Workspaces API
   slug: test-suites-workspaces-api
-artifact_total: 24
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Postman API (Test Suites) Collections API
+  slug: open-test-suites-collections-api
+- collection_type: open
+  name: Postman API (Test Suites) Collections Workspaces API
+  slug: open-test-suites-workspaces-api
 - collection_type: open
   name: Postman Collections API (Test Suites)
   slug: open-test-suites
@@ -155,7 +164,7 @@ plans:
 - name: Test Suites Plans Pricing
   plan_count: 3
   slug: test-suites-plans-pricing
-random_paper: 82
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Test Suites Rate Limits
@@ -189,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-suites/refs/heads/main/screenshots/test-suites-2026-06-20T195156.png
 security:

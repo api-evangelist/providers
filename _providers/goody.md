@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
 - description: The Workspaces API from Goody — 1 operation(s) for workspaces.
   name: Goody Workspaces API
   slug: goody-workspaces-api
-artifact_total: 31
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Goody Webhooks
@@ -116,6 +116,45 @@ collections:
 - collection_type: postman
   name: Goody Brands Workspaces API
   slug: postman-goody-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Goody Brands API
+  slug: open-goody-brands-api
+- collection_type: open
+  name: Goody Brands Cards API
+  slug: open-goody-cards-api
+- collection_type: open
+  name: Goody Brands Collections API
+  slug: open-goody-collections-api
+- collection_type: open
+  name: Goody Brands Commerce User Payment Methods API
+  slug: open-goody-commerce-user-payment-methods-api
+- collection_type: open
+  name: Goody Brands Me API
+  slug: open-goody-me-api
+- collection_type: open
+  name: Goody Brands Order Activities API
+  slug: open-goody-order-activities-api
+- collection_type: open
+  name: Goody Brands Order Batches API
+  slug: open-goody-order-batches-api
+- collection_type: open
+  name: Goody Brands Orders API
+  slug: open-goody-orders-api
+- collection_type: open
+  name: Goody Brands Payment Methods API
+  slug: open-goody-payment-methods-api
+- collection_type: open
+  name: Goody Brands Products API
+  slug: open-goody-products-api
+- collection_type: open
+  name: Goody Brands Webhooks API
+  slug: open-goody-webhooks-api
+- collection_type: open
+  name: Goody Brands Workspaces API
+  slug: open-goody-workspaces-api
 common:
 - group: other
   title: ''
@@ -272,7 +311,7 @@ overview: 'Goody publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 66
+random_paper: 99
 scopes:
 - name: Goody Scopes
   scope_count: 4
@@ -307,7 +346,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/screenshots/goody-2026-07-25T220106.png
 security:

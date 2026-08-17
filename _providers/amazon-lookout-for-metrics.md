@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ apis:
 - description: The UpdateMetricSet API from Amazon Lookout for Metrics — 1 operation(s) for updatemetricset.
   name: Amazon Lookout for Metrics UpdateMetricSet API
   slug: amazon-lookout-for-metrics-updatemetricset-api
-artifact_total: 766
+artifact_total: 795
 collections:
 - collection_type: postman
   name: Amazon Lookout for Metrics ActivateAnomalyDetector API
@@ -209,6 +209,93 @@ collections:
 - collection_type: postman
   name: Amazon Lookout for Metrics ActivateAnomalyDetector UpdateMetricSet API
   slug: postman-amazon-lookout-for-metrics-updatemetricset-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector API
+  slug: open-amazon-lookout-for-metrics-activateanomalydetector-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector BackTestAnomalyDetector API
+  slug: open-amazon-lookout-for-metrics-backtestanomalydetector-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector CreateAlert API
+  slug: open-amazon-lookout-for-metrics-createalert-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector CreateAnomalyDetector API
+  slug: open-amazon-lookout-for-metrics-createanomalydetector-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector CreateMetricSet API
+  slug: open-amazon-lookout-for-metrics-createmetricset-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DeactivateAnomalyDetector API
+  slug: open-amazon-lookout-for-metrics-deactivateanomalydetector-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DeleteAlert API
+  slug: open-amazon-lookout-for-metrics-deletealert-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DeleteAnomalyDetector API
+  slug: open-amazon-lookout-for-metrics-deleteanomalydetector-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DescribeAlert API
+  slug: open-amazon-lookout-for-metrics-describealert-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DescribeAnomalyDetectionExecutions API
+  slug: open-amazon-lookout-for-metrics-describeanomalydetectionexecutions-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DescribeAnomalyDetector API
+  slug: open-amazon-lookout-for-metrics-describeanomalydetector-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DescribeMetricSet API
+  slug: open-amazon-lookout-for-metrics-describemetricset-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DetectMetricSetConfig API
+  slug: open-amazon-lookout-for-metrics-detectmetricsetconfig-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector GetAnomalyGroup API
+  slug: open-amazon-lookout-for-metrics-getanomalygroup-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector GetDataQualityMetrics API
+  slug: open-amazon-lookout-for-metrics-getdataqualitymetrics-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector GetFeedback API
+  slug: open-amazon-lookout-for-metrics-getfeedback-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector GetSampleData API
+  slug: open-amazon-lookout-for-metrics-getsampledata-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAlerts API
+  slug: open-amazon-lookout-for-metrics-listalerts-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAnomalyDetectors API
+  slug: open-amazon-lookout-for-metrics-listanomalydetectors-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAnomalyGroupRelatedMetrics API
+  slug: open-amazon-lookout-for-metrics-listanomalygrouprelatedmetrics-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAnomalyGroupSummaries API
+  slug: open-amazon-lookout-for-metrics-listanomalygroupsummaries-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAnomalyGroupTimeSeries API
+  slug: open-amazon-lookout-for-metrics-listanomalygrouptimeseries-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListMetricSets API
+  slug: open-amazon-lookout-for-metrics-listmetricsets-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector PutFeedback API
+  slug: open-amazon-lookout-for-metrics-putfeedback-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector Tags API
+  slug: open-amazon-lookout-for-metrics-tags-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector UpdateAlert API
+  slug: open-amazon-lookout-for-metrics-updatealert-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector UpdateAnomalyDetector API
+  slug: open-amazon-lookout-for-metrics-updateanomalydetector-api
+- collection_type: open
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector UpdateMetricSet API
+  slug: open-amazon-lookout-for-metrics-updatemetricset-api
 common:
 - group: build
   title: ''
@@ -2397,7 +2484,7 @@ plans:
 - name: Amazon Lookout For Metrics Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-metrics-plans-pricing
-random_paper: 8
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Metrics Rate Limits
@@ -2439,7 +2526,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/screenshots/amazon-lookout-for-metrics-2026-06-20T171728.png
 security:

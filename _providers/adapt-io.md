@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 52.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,7 +52,7 @@ apis:
 - description: Search the contact database using contact and company filters.
   name: Adapt Contact Search API
   slug: adapt-io-contact-search-api
-artifact_total: 35
+artifact_total: 41
 collections:
 - collection_type: postman
   name: Adapt Prospect Company Search API
@@ -65,6 +66,21 @@ collections:
 - collection_type: postman
   name: Adapt Prospect Company Search Contact Search API
   slug: postman-adapt-io-contact-search-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adapt Prospect Company Search API
+  slug: open-adapt-io-company-search-api
+- collection_type: open
+  name: Adapt Prospect Company Search Contact Enrichment API
+  slug: open-adapt-io-contact-enrichment-api
+- collection_type: open
+  name: Adapt Prospect Company Search Contact Purchase API
+  slug: open-adapt-io-contact-purchase-api
+- collection_type: open
+  name: Adapt Prospect Company Search Contact Search API
+  slug: open-adapt-io-contact-search-api
 - collection_type: open
   name: Adapt Prospect API
   slug: open-adapt-prospect-api
@@ -103,12 +119,12 @@ common:
   url: https://www.adapt.io/api-docs/v3/
 - group: start
   title: ''
-  type: Signup
-  url: https://app.adapt.io/users/sign_up
+  type: SignUp
+  url: https://www.adapt.io/free-trial
 - group: start
   title: ''
   type: Login
-  url: https://app.adapt.io/users/sign_in
+  url: https://www.adapt.io/login.htm
 - group: commercial
   title: ''
   type: Pricing
@@ -152,27 +168,27 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://blog.adapt.io
+  url: https://www.adapt.io/blog/
 - group: other
   title: ''
   type: Company
-  url: https://www.adapt.io/about-us
+  url: https://www.adapt.io/about
 - group: other
   title: ''
   type: Customers
-  url: https://www.adapt.io/customers
+  url: https://www.adapt.io/customer-stories
 - group: operate
   title: ''
   type: ContactUs
-  url: https://www.adapt.io/contact-us
+  url: https://www.adapt.io/contact-us/
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.adapt.io/privacy-policy
+  url: https://www.adapt.io/privacy.htm
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.adapt.io/terms-of-service
+  url: https://www.adapt.io/termsAndConditions.htm
 - group: company
   title: ''
   type: LinkedIn
@@ -181,6 +197,54 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/adapt_io
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adapt-io-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/adapt-io-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adapt-io-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/adapt-io-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/adapt-io-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adapt-io-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adapt-io-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/adapt-io-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.adapt.io/api-docs/v3/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.adapt.io/contact-us/
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.adapt.io/adapt-partnership
 created: '2026-05-25'
 description: Adapt (adapt.io) is a B2B lead intelligence and sales acceleration platform that provides a database of 250M+ verified business contacts, 16M+ decision makers, and 12M+ company profiles, refreshed at roughly 5M records per day. Adapt sells the data three ways — through a web Prospector for list building and ABM, a LinkedIn/website Chrome extension for in-context contact discovery, and a public REST API for programmatic search, enrichment, and contact purchase. The Prospect API exposes four operations (contact search, company search, contact enrichment, and contact purchase / fetch) with 50+ firmographic, technographic, and demographic attributes per record, header- based authentication via account email + API key, and a 250 requests-per- minute rate limit. Pricing is published for self-serve Free, Starter ($49/mo) and Basic ($99/mo) tiers; API access is gated to the custom enterprise plan with negotiated email, phone, and enrichment credit allotments. Adapt is primarily used
   by sales, marketing, and RevOps teams for outbound campaigns, CRM enrichment, lead scoring, ICP list building, and data hygiene, with CRM exports to Salesforce, HubSpot, Pipedrive, Zoho, Outreach, and Salesgear.
@@ -224,7 +288,11 @@ jsonld:
   property_count: 3
   slug: adapt-io-context
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: adapt-io-mcp.yml
+  slug: adapt-io-mcpyml
+modified: '2026-08-13'
 name: Adapt
 nav: Providers
 network: true
@@ -234,12 +302,12 @@ overview: 'Adapt publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Adapt catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Adapt''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 21 more developer resources.'
+  Adapt''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 33 more developer resources.'
 plans:
 - name: Adapt Io Plans Pricing
   plan_count: 4
   slug: adapt-io-plans-pricing
-random_paper: 63
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Adapt Io Rate Limits
@@ -254,15 +322,15 @@ rules:
     warn: 3
   slug: adapt-io-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 61.2
-  delta: 0.0
+  band: exemplar
+  composite: 69.7
+  delta: 8.5
   facets:
     commercial_clarity: 84.2
     contract_quality: 72.4
-    developer_ergonomics: 45.7
-    discoverability: 74.1
-    governance: 58.3
+    developer_ergonomics: 71.7
+    discoverability: 81.5
+    governance: 79.2
     operational_transparency: 21.1
   previous_composite: 61.2
   provenance:
@@ -273,8 +341,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/screenshots/adapt-io-2026-06-20T164545.png
 security:
 - kind: authentication

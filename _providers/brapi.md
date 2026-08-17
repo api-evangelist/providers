@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,8 +74,32 @@ apis:
 - description: The Taxa Basica De Juros API from brapi — 2 operation(s) for taxa basica de juros.
   name: brapi Taxa Basica De Juros API
   slug: brapi-taxa-basica-de-juros-api
-artifact_total: 19
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: brapi Criptomoedas API
+  slug: open-brapi-criptomoedas-api
+- collection_type: open
+  name: brapi Criptomoedas Fiis API
+  slug: open-brapi-fiis-api
+- collection_type: open
+  name: brapi Criptomoedas Inflacao API
+  slug: open-brapi-inflacao-api
+- collection_type: open
+  name: brapi Criptomoedas Moedas API
+  slug: open-brapi-moedas-api
+- collection_type: open
+  name: brapi Criptomoedas Opcoes API
+  slug: open-brapi-opcoes-api
+- collection_type: open
+  name: brapi Criptomoedas Quote API
+  slug: open-brapi-quote-api
+- collection_type: open
+  name: brapi Criptomoedas Taxa Basica De Juros API
+  slug: open-brapi-taxa-basica-de-juros-api
 - collection_type: open
   name: brapi API
   slug: open-brapi
@@ -144,7 +168,7 @@ plans:
 - name: Brapi Plans Pricing
   plan_count: 3
   slug: brapi-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Brapi Rate Limits
@@ -169,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/screenshots/brapi-2026-06-20T173642.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: The System API from Exact Online — 3 operation(s) for system.
   name: Exact Online System API
   slug: exact-online-system-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Exact Online REST / OData CRM API
+  slug: open-exact-online-crm-api
+- collection_type: open
+  name: Exact Online REST / OData CRM Financial API
+  slug: open-exact-online-financial-api
+- collection_type: open
+  name: Exact Online REST / OData CRM Logistics API
+  slug: open-exact-online-logistics-api
+- collection_type: open
+  name: Exact Online REST / OData CRM Purchase API
+  slug: open-exact-online-purchase-api
+- collection_type: open
+  name: Exact Online REST / OData CRM Sales API
+  slug: open-exact-online-sales-api
+- collection_type: open
+  name: Exact Online REST / OData CRM System API
+  slug: open-exact-online-system-api
 - collection_type: open
   name: Exact Online REST / OData API
   slug: open-exact-online
@@ -133,7 +154,7 @@ overview: 'Exact Online publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Exact Online''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 23
+random_paper: 31
 scopes:
 - name: Exact Online Scopes
   scope_count: 0
@@ -159,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/screenshots/exact-online-2026-06-20T180917.png
 security:

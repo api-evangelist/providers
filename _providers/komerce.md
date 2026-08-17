@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - description: Airway bill tracking
   name: Komerce Tracking API
   slug: komerce-tracking-api
-artifact_total: 21
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Komerce Webhooks
@@ -88,6 +88,30 @@ collections:
 - collection_type: postman
   name: Komerce Payment Service Cost Tracking API
   slug: postman-komerce-tracking-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Komerce Payment Service Cost API
+  slug: open-komerce-cost-api
+- collection_type: open
+  name: Komerce Payment Service Cost Destinations API
+  slug: open-komerce-destinations-api
+- collection_type: open
+  name: Komerce Payment Service Cost Orders API
+  slug: open-komerce-orders-api
+- collection_type: open
+  name: Komerce Payment Service Cost Payments API
+  slug: open-komerce-payments-api
+- collection_type: open
+  name: Komerce Payment Service Cost Pickup API
+  slug: open-komerce-pickup-api
+- collection_type: open
+  name: Komerce Payment Service Cost QRIS API
+  slug: open-komerce-qris-api
+- collection_type: open
+  name: Komerce Payment Service Cost Tracking API
+  slug: open-komerce-tracking-api
 common:
 - group: other
   title: ''
@@ -256,7 +280,7 @@ plans:
 - name: Komerce Plans
   plan_count: 3
   slug: komerce-plans
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 3
   name: Komerce Rate Limits
@@ -290,7 +314,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png
 security:

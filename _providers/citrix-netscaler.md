@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: System-level resources for managing the NetScaler appliance including system information, files, users, groups, and global settings.
   name: Citrix NetScaler System API
   slug: citrix-netscaler-system-api
-artifact_total: 70
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Citrix NetScaler NITRO REST Authentication API
@@ -87,8 +87,29 @@ collections:
   name: Citrix NetScaler NITRO REST Authentication System API
   slug: postman-citrix-netscaler-system-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Citrix NetScaler NITRO REST Authentication API
+  slug: open-citrix-netscaler-authentication-api
+- collection_type: open
+  name: Citrix NetScaler NITRO REST Authentication CS Virtual Server API
+  slug: open-citrix-netscaler-cs-virtual-server-api
+- collection_type: open
+  name: Citrix NetScaler NITRO REST Authentication LB Virtual Server API
+  slug: open-citrix-netscaler-lb-virtual-server-api
+- collection_type: open
   name: Citrix NetScaler NITRO REST API
   slug: open-citrix-netscaler-nitro
+- collection_type: open
+  name: Citrix NetScaler NITRO REST Authentication NS Config API
+  slug: open-citrix-netscaler-ns-config-api
+- collection_type: open
+  name: Citrix NetScaler NITRO REST Authentication Statistics API
+  slug: open-citrix-netscaler-statistics-api
+- collection_type: open
+  name: Citrix NetScaler NITRO REST Authentication System API
+  slug: open-citrix-netscaler-system-api
 common:
 - group: build
   title: ''
@@ -307,7 +328,7 @@ plans:
 - name: Citrix Netscaler Plans Pricing
   plan_count: 4
   slug: citrix-netscaler-plans-pricing
-random_paper: 105
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Citrix Netscaler Rate Limits
@@ -349,7 +370,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/screenshots/citrix-netscaler-2026-06-20T174413.png
 security:

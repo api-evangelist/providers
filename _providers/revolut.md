@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 70.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -176,11 +176,153 @@ apis:
 - description: :::note This is the latest version of the Webhooks API, v2. For the previous version of the API, see [Webhooks (v1) (deprecated)](https://developer.revolut.com/docs/api/business#tag-webhooks-v1-deprec
   name: Revolut Webhooks (v2) API
   slug: revolut-webhooks-v2-api
-artifact_total: 52
+artifact_total: 99
 asyncapis:
 - description: ''
   name: Revolut Webhooks
   slug: revolut-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Business Accounting API
+  slug: open-revolut-accounting-api
+- collection_type: open
+  name: Business Accounting Accounting categories API
+  slug: open-revolut-accounting-categories-api
+- collection_type: open
+  name: Business Accounting Accounts API
+  slug: open-revolut-accounts-api
+- collection_type: open
+  name: Business Accounting Apple Pay merchant registration API
+  slug: open-revolut-apple-pay-merchant-registration-api
+- collection_type: open
+  name: Business Accounting Applications API
+  slug: open-revolut-applications-api
+- collection_type: open
+  name: Business Accounting Balance API
+  slug: open-revolut-balance-api
+- collection_type: open
+  name: Business Accounting Card invitations API
+  slug: open-revolut-card-invitations-api
+- collection_type: open
+  name: Business Accounting Cards API
+  slug: open-revolut-cards-api
+- collection_type: open
+  name: Business Accounting Configuration API
+  slug: open-revolut-configuration-api
+- collection_type: open
+  name: Business Accounting Counterparties API
+  slug: open-revolut-counterparties-api
+- collection_type: open
+  name: Business Accounting Customers API
+  slug: open-revolut-customers-api
+- collection_type: open
+  name: Business Accounting Disputes API
+  slug: open-revolut-disputes-api
+- collection_type: open
+  name: Business Accounting Domestic payment API
+  slug: open-revolut-domestic-payment-api
+- collection_type: open
+  name: Business Accounting Domestic scheduled payment API
+  slug: open-revolut-domestic-scheduled-payment-api
+- collection_type: open
+  name: Business Accounting Domestic standing order API
+  slug: open-revolut-domestic-standing-order-api
+- collection_type: open
+  name: Business Accounting Draft payment API
+  slug: open-revolut-draft-payment-api
+- collection_type: open
+  name: Business Accounting Expenses API
+  slug: open-revolut-expenses-api
+- collection_type: open
+  name: Business Accounting File Payment API
+  slug: open-revolut-file-payment-api
+- collection_type: open
+  name: Business Accounting Foreign exchange API
+  slug: open-revolut-foreign-exchange-api
+- collection_type: open
+  name: Business Accounting International payment API
+  slug: open-revolut-international-payment-api
+- collection_type: open
+  name: Business Accounting International scheduled payment API
+  slug: open-revolut-international-scheduled-payment-api
+- collection_type: open
+  name: Business Accounting International standing order API
+  slug: open-revolut-international-standing-order-api
+- collection_type: open
+  name: Business Accounting Labels API
+  slug: open-revolut-labels-api
+- collection_type: open
+  name: Business Accounting Locations API
+  slug: open-revolut-locations-api
+- collection_type: open
+  name: Business Accounting Market Data API
+  slug: open-revolut-market-data-api
+- collection_type: open
+  name: Business Accounting Orders API
+  slug: open-revolut-orders-api
+- collection_type: open
+  name: Business Accounting Other API
+  slug: open-revolut-other-api
+- collection_type: open
+  name: Business Accounting Partners API
+  slug: open-revolut-partners-api
+- collection_type: open
+  name: Business Accounting Payment drafts API
+  slug: open-revolut-payment-drafts-api
+- collection_type: open
+  name: Business Accounting Payment intents API
+  slug: open-revolut-payment-intents-api
+- collection_type: open
+  name: Business Accounting Payments API
+  slug: open-revolut-payments-api
+- collection_type: open
+  name: Business Accounting Payout links API
+  slug: open-revolut-payout-links-api
+- collection_type: open
+  name: Business Accounting Payouts API
+  slug: open-revolut-payouts-api
+- collection_type: open
+  name: Business Accounting Public Market Data API
+  slug: open-revolut-public-market-data-api
+- collection_type: open
+  name: Business Accounting Report runs API
+  slug: open-revolut-report-runs-api
+- collection_type: open
+  name: Business Accounting Simulations API
+  slug: open-revolut-simulations-api
+- collection_type: open
+  name: Business Accounting Subscriptions API
+  slug: open-revolut-subscriptions-api
+- collection_type: open
+  name: Business Accounting Tax rates API
+  slug: open-revolut-tax-rates-api
+- collection_type: open
+  name: Business Accounting Team members API
+  slug: open-revolut-team-members-api
+- collection_type: open
+  name: Business Accounting Terminals API
+  slug: open-revolut-terminals-api
+- collection_type: open
+  name: Business Accounting Trades API
+  slug: open-revolut-trades-api
+- collection_type: open
+  name: Business Accounting Transactions API
+  slug: open-revolut-transactions-api
+- collection_type: open
+  name: Business Accounting Transfers API
+  slug: open-revolut-transfers-api
+- collection_type: open
+  name: Business Accounting Webhooks API
+  slug: open-revolut-webhooks-api
+- collection_type: open
+  name: Business Accounting Webhooks (v1) (deprecated) API
+  slug: open-revolut-webhooks-v1-deprecated-api
+- collection_type: open
+  name: Business Accounting Webhooks (v2) API
+  slug: open-revolut-webhooks-v2-api
 common:
 - group: other
   title: ''
@@ -325,7 +467,7 @@ overview: 'Revolut publishes 46 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Revolut''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 25 more developer resources.'
-random_paper: 65
+random_paper: 40
 score:
   band: developing
   composite: 48.6
@@ -355,7 +497,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -110,7 +110,86 @@ apis:
 - description: Checks whether a website or web address is currently reachable and reports how fast it responded. Pay-per-call at $0.01 USDC over x402 on Base or Solana — no account, no API key. OpenAPI 3.1.0; 1 oper
   name: URL Uptime Checker
   slug: url-uptime-checker
-artifact_total: 33
+artifact_total: 59
+collections:
+- collection_type: open
+  name: ASN Lookup
+  slug: open-done-asn-lookup
+- collection_type: open
+  name: BIMI Checker
+  slug: open-done-bimi-checker
+- collection_type: open
+  name: CORS Header Checker
+  slug: open-done-cors-header-checker
+- collection_type: open
+  name: US CPI Data & Inflation Report
+  slug: open-done-cpi-report-us
+- collection_type: open
+  name: Curl HTTP Request
+  slug: open-done-curl-http-request
+- collection_type: open
+  name: Directory Submission Lite
+  slug: open-done-directory-submission-lite
+- collection_type: open
+  name: Bulk DMARC Record Lookup
+  slug: open-done-dmarc-lookup
+- collection_type: open
+  name: DNS & WHOIS Lookup
+  slug: open-done-dns-whois-lookup
+- collection_type: open
+  name: Domain Age Checker
+  slug: open-done-domain-age-checker
+- collection_type: open
+  name: Domain Availability Checker
+  slug: open-done-domain-availability-checker
+- collection_type: open
+  name: ENS Resolver
+  slug: open-done-ens-resolver
+- collection_type: open
+  name: Hacker News Data
+  slug: open-done-hackernews-data
+- collection_type: open
+  name: Hashing, HMAC & Checksum Suite
+  slug: open-done-hash-hmac
+- collection_type: open
+  name: HTTP Header Checker
+  slug: open-done-http-header-checker
+- collection_type: open
+  name: HTTP Status Code Checker
+  slug: open-done-http-status-checker
+- collection_type: open
+  name: JSON Validate, Repair, Convert, Query & Diff
+  slug: open-done-json-suite
+- collection_type: open
+  name: Leetspeak Translator
+  slug: open-done-leetspeak-translator
+- collection_type: open
+  name: Mortgage & Loan Amortization Calculator
+  slug: open-done-mortgage-amortization
+- collection_type: open
+  name: OCR Text Extractor
+  slug: open-done-ocr
+- collection_type: open
+  name: TCP Port Scanner
+  slug: open-done-port-scanner
+- collection_type: open
+  name: Bulk QR Code Generator
+  slug: open-done-qr-code-generator
+- collection_type: open
+  name: Screenshots
+  slug: open-done-screenshots
+- collection_type: open
+  name: SEO Data Extractor
+  slug: open-done-seo-data-extractor
+- collection_type: open
+  name: Shopify AI Rank Checker
+  slug: open-done-shopify-ai-rank-checker
+- collection_type: open
+  name: Sitemap URL Extractor
+  slug: open-done-sitemap-url-extractor
+- collection_type: open
+  name: URL Uptime Checker
+  slug: open-done-url-uptime-checker
 common:
 - group: agent
   title: ''
@@ -220,7 +299,7 @@ plans:
 - name: Done Plans Pricing
   plan_count: 1
   slug: done-plans-pricing
-random_paper: 62
+random_paper: 124
 rate_limits:
 - limit_count: 0
   name: Done Rate Limits
@@ -244,7 +323,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -71,7 +71,44 @@ apis:
 - description: The Transactions API from Flow — 4 operation(s) for transactions.
   name: Flow Transactions API
   slug: flow-blockchain-transactions-api
-artifact_total: 27
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Access Accounts API
+  slug: open-flow-blockchain-accounts-api
+- collection_type: open
+  name: Access Accounts Blocks API
+  slug: open-flow-blockchain-blocks-api
+- collection_type: open
+  name: Access Accounts Collections API
+  slug: open-flow-blockchain-collections-api
+- collection_type: open
+  name: Access Accounts Events API
+  slug: open-flow-blockchain-events-api
+- collection_type: open
+  name: Access Accounts Execution Receipts API
+  slug: open-flow-blockchain-execution-receipts-api
+- collection_type: open
+  name: Access Accounts Execution Results API
+  slug: open-flow-blockchain-execution-results-api
+- collection_type: open
+  name: Access Accounts Network API
+  slug: open-flow-blockchain-network-api
+- collection_type: open
+  name: Access Accounts NodeVersionInfo API
+  slug: open-flow-blockchain-nodeversioninfo-api
+- collection_type: open
+  name: Access Accounts Scripts API
+  slug: open-flow-blockchain-scripts-api
+- collection_type: open
+  name: Access Accounts Subscribe events API
+  slug: open-flow-blockchain-subscribe-events-api
+- collection_type: open
+  name: Access Accounts Transactions API
+  slug: open-flow-blockchain-transactions-api
 common:
 - group: agent
   title: ''
@@ -142,7 +179,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 83
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -176,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/screenshots/flow-blockchain-2026-06-20T181322.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for text-to-3D, image-to-3D, multi-image-to-3D, mesh refinement, retexturing, animation, and rigging. Async task-based pattern (POST /v2/openapi/task to submit, GET to poll) at https://api.tr
@@ -88,7 +88,7 @@ plans:
 - name: Tripo3D Plans Pricing
   plan_count: 3
   slug: tripo3d-plans-pricing
-random_paper: 109
+random_paper: 113
 rate_limits:
 - limit_count: 3
   name: Tripo3D Rate Limits
@@ -106,7 +106,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripo3d/refs/heads/main/screenshots/tripo3d-2026-06-20T195747.png
 security:

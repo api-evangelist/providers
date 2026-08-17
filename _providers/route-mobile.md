@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 3
@@ -47,11 +47,27 @@ apis:
 - description: 'Route Mobile''s enterprise voice and cloud telephony surface, documented as narrative guides on the developer portal (send message and template management calls) and published as a first-party Postman '
   name: Route Mobile Enterprise Voice 2.0 API
   slug: route-mobile-enterprise-voice-api
-artifact_total: 12
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Route Mobile Webhooks
   slug: route-mobile-webhooks
+collections:
+- collection_type: open
+  name: Route Mobile Rich Communication Services (RCS) API Documentation
+  slug: open-route-mobile-rcs
+- collection_type: open
+  name: SendClean Email API
+  slug: open-route-mobile-sendclean-email
+- collection_type: open
+  name: Route Mobile SMS APIs
+  slug: open-route-mobile-sms
+- collection_type: open
+  name: Route Mobile Viber OpenAPI Specification
+  slug: open-route-mobile-viber
+- collection_type: open
+  name: Route Mobile WhatsApp Business API
+  slug: open-route-mobile-whatsapp-business
 common:
 - group: agent
   title: ''
@@ -218,7 +234,7 @@ overview: 'Route Mobile publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Route Mobile''s developer surface includes authentication, sandbox, getting-started guide, support, documentation, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 36
+random_paper: 44
 rate_limits:
 - limit_count: 6
   name: Route Mobile Rate Limits
@@ -252,7 +268,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

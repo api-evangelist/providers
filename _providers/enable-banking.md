@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: The User sessions API from Enable Banking — 3 operation(s) for user sessions.
   name: Enable Banking User sessions API
   slug: enable-banking-user-sessions-api
-artifact_total: 25
+artifact_total: 30
 collections:
 - collection_type: postman
   name: API reference Accounts data API
@@ -66,8 +66,23 @@ collections:
   name: API reference Accounts data User sessions API
   slug: postman-enable-banking-user-sessions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API reference Accounts data API
+  slug: open-enable-banking-accounts-data-api
+- collection_type: open
   name: API reference
   slug: open-enable-banking-api
+- collection_type: open
+  name: API reference Accounts data Misc API
+  slug: open-enable-banking-misc-api
+- collection_type: open
+  name: API reference Accounts data Payments API
+  slug: open-enable-banking-payments-api
+- collection_type: open
+  name: API reference Accounts data User sessions API
+  slug: open-enable-banking-user-sessions-api
 common:
 - group: build
   title: ''
@@ -217,7 +232,7 @@ plans:
 - name: Enable Banking Plans Pricing
   plan_count: 3
   slug: enable-banking-plans-pricing
-random_paper: 70
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Enable Banking Rate Limits
@@ -265,7 +280,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/screenshots/enable-banking-2026-06-20T180647.png
 security:

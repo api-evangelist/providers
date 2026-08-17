@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -80,7 +80,41 @@ apis:
 - description: The user API from CDC — 1 operation(s) for user.
   name: CDC user API
   slug: cdc-user-api
-artifact_total: 19
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications API
+  slug: open-cdc-app-notifications-api
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications code-systems API
+  slug: open-cdc-code-systems-api
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications conditions API
+  slug: open-cdc-conditions-api
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications configurations API
+  slug: open-cdc-configurations-api
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications events API
+  slug: open-cdc-events-api
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications Query API
+  slug: open-cdc-query-api
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications Query Connector API OpenAPI 3.0 API
+  slug: open-cdc-query-connector-api-openapi-3-0-api
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications releases API
+  slug: open-cdc-releases-api
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications simulator API
+  slug: open-cdc-simulator-api
+- collection_type: open
+  name: DIBBs eCR Refiner app-notifications user API
+  slug: open-cdc-user-api
 common:
 - group: agent
   title: ''
@@ -138,7 +172,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 58
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -169,7 +203,7 @@ score:
     regime_id: government
     score: 37.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/screenshots/cdc-2026-06-20T174105.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,8 +59,26 @@ apis:
 - description: The Transmission API from Bonneville Power Administration — 2 operation(s) for transmission.
   name: Bonneville Power Administration Transmission API
   slug: bonneville-power-administration-transmission-api
-artifact_total: 18
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bonneville Power Administration GIS Hub Customers API
+  slug: open-bonneville-power-administration-customers-api
+- collection_type: open
+  name: Bonneville Power Administration GIS Hub Customers Hydrology API
+  slug: open-bonneville-power-administration-hydrology-api
+- collection_type: open
+  name: Bonneville Power Administration GIS Hub Customers Right of Way API
+  slug: open-bonneville-power-administration-right-of-way-api
+- collection_type: open
+  name: Bonneville Power Administration GIS Hub Customers Service Area API
+  slug: open-bonneville-power-administration-service-area-api
+- collection_type: open
+  name: Bonneville Power Administration GIS Hub Customers Transmission API
+  slug: open-bonneville-power-administration-transmission-api
 - collection_type: open
   name: Bonneville Power Administration GIS Hub API
   slug: open-bonneville-power-administration
@@ -144,7 +162,7 @@ plans:
 - name: Bonneville Power Administration Plans Pricing
   plan_count: 3
   slug: bonneville-power-administration-plans-pricing
-random_paper: 107
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Bonneville Power Administration Rate Limits
@@ -175,7 +193,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/screenshots/bonneville-power-administration-2026-06-20T173608.png
 security:

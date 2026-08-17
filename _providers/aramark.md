@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Service management and tracking
   name: Aramark Service API
   slug: aramark-service-api
-artifact_total: 70
+artifact_total: 77
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aramark Marko Organization API
+  slug: open-aramark-organization-api
+- collection_type: open
+  name: Aramark Marko Organization Point of Sale API
+  slug: open-aramark-point-of-sale-api
+- collection_type: open
+  name: Aramark Marko Organization Product API
+  slug: open-aramark-product-api
+- collection_type: open
+  name: Aramark Marko Organization Profit Centers API
+  slug: open-aramark-profit-centers-api
+- collection_type: open
+  name: Aramark Marko Organization Revenue API
+  slug: open-aramark-revenue-api
+- collection_type: open
+  name: Aramark Marko Organization Service API
+  slug: open-aramark-service-api
 - collection_type: open
   name: Aramark Marko API
   slug: open-marko-api
@@ -297,7 +318,7 @@ press:
 - date: '2026-05-25'
   title: From Dining to Facilities, Aramark Celebrates Innovation ...
   url: https://www.aramark.com/newsroom/news/2026/february/aramark-celebrates-national-innovation-day
-random_paper: 15
+random_paper: 139
 rate_limits:
 - limit_count: 1
   name: Aramark Rate Limits
@@ -339,7 +360,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png
 security:

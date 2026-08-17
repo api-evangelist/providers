@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The Operations API from Apache ORC — 1 operation(s) for operations.
   name: Apache ORC Operations API
   slug: apache-orc-operations-api
-artifact_total: 63
+artifact_total: 67
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache ORC Tools Conversion API
+  slug: open-apache-orc-conversion-api
+- collection_type: open
+  name: Apache ORC Tools Conversion Files API
+  slug: open-apache-orc-files-api
+- collection_type: open
+  name: Apache ORC Tools Conversion Operations API
+  slug: open-apache-orc-operations-api
 common:
 - group: agent
   title: ''
@@ -248,7 +261,7 @@ plans:
 - name: Apache Orc Plans Pricing
   plan_count: 3
   slug: apache-orc-plans-pricing
-random_paper: 19
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Apache Orc Rate Limits
@@ -290,7 +303,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/screenshots/apache-orc-2026-06-20T172130.png
 security:

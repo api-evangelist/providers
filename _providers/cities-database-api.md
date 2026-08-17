@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: The Cities API from Cities Database API — 1 operation(s) for cities.
   name: Cities Database API Cities API
   slug: cities-database-api-cities-api
-artifact_total: 13
+artifact_total: 15
 collections:
 - collection_type: postman
   name: AirLabs Database Cities API
   slug: postman-cities-database-api-cities-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AirLabs Database Cities API
+  slug: open-cities-database-api-cities-api
 - collection_type: open
   name: AirLabs Cities Database API
   slug: open-cities-database-api
@@ -155,7 +161,7 @@ plans:
 - name: Cities Database Api Plans Pricing
   plan_count: 3
   slug: cities-database-api-plans-pricing
-random_paper: 66
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Cities Database Api Rate Limits
@@ -197,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/screenshots/cities-database-api-2026-06-20T174409.png
 security:

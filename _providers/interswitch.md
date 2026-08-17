@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -178,7 +178,7 @@ arazzos:
 - description: Initiate a hosted Web Redirect payment, then server-side requery to confirm before delivering value.
   name: Interswitch Web Checkout And Confirm
   slug: interswitch-web-checkout-confirm-workflow
-artifact_total: 101
+artifact_total: 132
 collections:
 - collection_type: postman
   name: Interswitch Airtime Recharge API
@@ -217,20 +217,80 @@ collections:
   name: Interswitch Web Checkout API
   slug: postman-interswitch-web-checkout-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Interswitch Recharge Airtime API
+  slug: open-interswitch-airtime-api
+- collection_type: open
   name: Interswitch Airtime Recharge API
   slug: open-interswitch-airtime-recharge-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Balance API
+  slug: open-interswitch-balance-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Bank Codes API
+  slug: open-interswitch-bank-codes-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Billers API
+  slug: open-interswitch-billers-api
 - collection_type: open
   name: Interswitch Bills Payment API
   slug: open-interswitch-bills-payment-api
 - collection_type: open
+  name: Interswitch Recharge Airtime Bulk Transfers API
+  slug: open-interswitch-bulk-transfers-api
+- collection_type: open
   name: Interswitch Card 360 API
   slug: open-interswitch-card-360-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Cards API
+  slug: open-interswitch-cards-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Checkout API
+  slug: open-interswitch-checkout-api
 - collection_type: open
   name: Interswitch Customer Insights API
   slug: open-interswitch-customer-insights-api
 - collection_type: open
+  name: Interswitch Recharge Airtime Customer Validation API
+  slug: open-interswitch-customer-validation-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Customers API
+  slug: open-interswitch-customers-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Demography API
+  slug: open-interswitch-demography-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Detail API
+  slug: open-interswitch-detail-api
+- collection_type: open
+  name: Interswitch Recharge Airtime E-Pins API
+  slug: open-interswitch-e-pins-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Financial Habits API
+  slug: open-interswitch-financial-habits-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Financial History API
+  slug: open-interswitch-financial-history-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Hosted Fields API
+  slug: open-interswitch-hosted-fields-api
+- collection_type: open
   name: Interswitch Lending API
   slug: open-interswitch-lending-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Linking API
+  slug: open-interswitch-linking-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Loans API
+  slug: open-interswitch-loans-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Name Inquiry API
+  slug: open-interswitch-name-inquiry-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Offers API
+  slug: open-interswitch-offers-api
 - collection_type: open
   name: Interswitch Paycode API
   slug: open-interswitch-paycode-api
@@ -238,16 +298,49 @@ collections:
   name: Interswitch Payment Gateway API
   slug: open-interswitch-payment-gateway-api
 - collection_type: open
+  name: Interswitch Recharge Airtime Payment Items API
+  slug: open-interswitch-payment-items-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Payment Links API
+  slug: open-interswitch-payment-links-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Payments API
+  slug: open-interswitch-payments-api
+- collection_type: open
+  name: Interswitch Recharge Airtime PIN API
+  slug: open-interswitch-pin-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Providers API
+  slug: open-interswitch-providers-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Recurring Charges API
+  slug: open-interswitch-recurring-charges-api
+- collection_type: open
   name: Interswitch Recurring Payments API
   slug: open-interswitch-recurring-payments-api
 - collection_type: open
-  name: Interswitch Refunds API
+  name: Interswitch Recharge Airtime Refunds API
   slug: open-interswitch-refunds-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Search API
+  slug: open-interswitch-search-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Three-D Secure API
+  slug: open-interswitch-three-d-secure-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Tokenization API
+  slug: open-interswitch-tokenization-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Tokens API
+  slug: open-interswitch-tokens-api
 - collection_type: open
   name: Interswitch Transaction Search API
   slug: open-interswitch-transaction-search-api
 - collection_type: open
-  name: Interswitch Transfers API
+  name: Interswitch Recharge Airtime Transactions API
+  slug: open-interswitch-transactions-api
+- collection_type: open
+  name: Interswitch Recharge Airtime Transfers API
   slug: open-interswitch-transfers-api
 - collection_type: open
   name: Interswitch Web Checkout API
@@ -510,7 +603,7 @@ plans:
 - name: Interswitch Plans Pricing
   plan_count: 5
   slug: interswitch-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Interswitch Rate Limits
@@ -558,7 +651,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/screenshots/interswitch-2026-06-20T183513.png
 security:

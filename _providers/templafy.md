@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The DataSourceFields API from Templafy — 2 operation(s) for datasourcefields.
@@ -82,7 +82,62 @@ apis:
 - description: The TextElements API from Templafy — 3 operation(s) for textelements.
   name: Templafy TextElements API
   slug: templafy-textelements-api
-artifact_total: 21
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Templafy Public DataSourceFields API
+  slug: open-templafy-datasourcefields-api
+- collection_type: open
+  name: Templafy Public DataSourceFields DataSourceItemFields API
+  slug: open-templafy-datasourceitemfields-api
+- collection_type: open
+  name: Templafy Public DataSourceFields DataSourceItems API
+  slug: open-templafy-datasourceitems-api
+- collection_type: open
+  name: Templafy Public DataSourceFields DataSources API
+  slug: open-templafy-datasources-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Documents API
+  slug: open-templafy-documents-api
+- collection_type: open
+  name: Templafy Public DataSourceFields EmailElements API
+  slug: open-templafy-emailelements-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Folders API
+  slug: open-templafy-folders-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Images API
+  slug: open-templafy-images-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Libraries API
+  slug: open-templafy-libraries-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Links API
+  slug: open-templafy-links-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Pdfs API
+  slug: open-templafy-pdfs-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Presentations API
+  slug: open-templafy-presentations-api
+- collection_type: open
+  name: Templafy Public DataSourceFields SlideElements API
+  slug: open-templafy-slideelements-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Slides API
+  slug: open-templafy-slides-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Spaces API
+  slug: open-templafy-spaces-api
+- collection_type: open
+  name: Templafy Public DataSourceFields Spreadsheets API
+  slug: open-templafy-spreadsheets-api
+- collection_type: open
+  name: Templafy Public DataSourceFields TextElements API
+  slug: open-templafy-textelements-api
 common:
 - group: other
   title: ''
@@ -208,7 +263,7 @@ overview: 'Templafy publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Templafy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 26
+random_paper: 121
 score:
   band: developing
   composite: 48.8
@@ -230,7 +285,7 @@ score:
       total: 17
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

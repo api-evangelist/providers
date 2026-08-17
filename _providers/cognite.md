@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 708
   human_in_the_loop: 4
@@ -308,7 +308,272 @@ apis:
 - description: A writeback **request** to the SAP S/4HANA destination. The request body contains the target SAP endpoint destination, and the payload to send.
   name: Cognite Writeback Requests API
   slug: cognite-writeback-requests-api
-artifact_total: 107
+artifact_total: 195
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cognite 3D Asset Mapping API
+  slug: open-cognite-3d-asset-mapping-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping 3D Files API
+  slug: open-cognite-3d-files-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping 3D Jobs API
+  slug: open-cognite-3d-jobs-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping 3D Model Revisions API
+  slug: open-cognite-3d-model-revisions-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping 3D Models API
+  slug: open-cognite-3d-models-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Annotations API
+  slug: open-cognite-annotations-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Assets API
+  slug: open-cognite-assets-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Connections API
+  slug: open-cognite-connections-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Containers API
+  slug: open-cognite-containers-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Data models API
+  slug: open-cognite-data-models-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Data point subscriptions API
+  slug: open-cognite-data-point-subscriptions-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Data products API
+  slug: open-cognite-data-products-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Data sets API
+  slug: open-cognite-data-sets-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Destinations API
+  slug: open-cognite-destinations-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Diagrams API
+  slug: open-cognite-diagrams-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Document AI API
+  slug: open-cognite-document-ai-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Document parsing API
+  slug: open-cognite-document-parsing-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Documents API
+  slug: open-cognite-documents-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Engineering diagrams API
+  slug: open-cognite-engineering-diagrams-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Entities API
+  slug: open-cognite-entities-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Entity matching API
+  slug: open-cognite-entity-matching-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Events API
+  slug: open-cognite-events-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Extraction Pipelines API
+  slug: open-cognite-extraction-pipelines-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Extraction Pipelines Config API
+  slug: open-cognite-extraction-pipelines-config-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Extraction Pipelines Runs API
+  slug: open-cognite-extraction-pipelines-runs-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Extractors API
+  slug: open-cognite-extractors-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Files API
+  slug: open-cognite-files-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Function calls API
+  slug: open-cognite-function-calls-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Function schedules API
+  slug: open-cognite-function-schedules-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Functions API
+  slug: open-cognite-functions-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Geometries API
+  slug: open-cognite-geometries-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Geospatial API
+  slug: open-cognite-geospatial-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Groups API
+  slug: open-cognite-groups-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Instances API
+  slug: open-cognite-instances-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Integrations API
+  slug: open-cognite-integrations-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Jobs API
+  slug: open-cognite-jobs-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Labels API
+  slug: open-cognite-labels-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Libraries API
+  slug: open-cognite-libraries-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Mappings API
+  slug: open-cognite-mappings-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Organizations API
+  slug: open-cognite-organizations-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Parsing API
+  slug: open-cognite-parsing-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Postgres Gateway Tables API
+  slug: open-cognite-postgres-gateway-tables-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Postgres Gateway Users API
+  slug: open-cognite-postgres-gateway-users-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Principals API
+  slug: open-cognite-principals-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Projects API
+  slug: open-cognite-projects-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Query API
+  slug: open-cognite-query-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Raw API
+  slug: open-cognite-raw-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Records API
+  slug: open-cognite-records-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Relationships API
+  slug: open-cognite-relationships-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping SAP Endpoints API
+  slug: open-cognite-sap-endpoints-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping SAP Instances API
+  slug: open-cognite-sap-instances-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Schema API
+  slug: open-cognite-schema-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Schema Mappings API
+  slug: open-cognite-schema-mappings-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Security categories API
+  slug: open-cognite-security-categories-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Sequences API
+  slug: open-cognite-sequences-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Sessions API
+  slug: open-cognite-sessions-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Signals API
+  slug: open-cognite-signals-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Simulation Runs API
+  slug: open-cognite-simulation-runs-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Simulator Integrations API
+  slug: open-cognite-simulator-integrations-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Simulator Logs API
+  slug: open-cognite-simulator-logs-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Simulator Models API
+  slug: open-cognite-simulator-models-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Simulator Routines API
+  slug: open-cognite-simulator-routines-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Simulators API
+  slug: open-cognite-simulators-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Sources API
+  slug: open-cognite-sources-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Spaces API
+  slug: open-cognite-spaces-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Statistics API
+  slug: open-cognite-statistics-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Streams API
+  slug: open-cognite-streams-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping SVG Data API
+  slug: open-cognite-svg-data-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Symbols API
+  slug: open-cognite-symbols-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Synthetic Time Series API
+  slug: open-cognite-synthetic-time-series-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Tasks API
+  slug: open-cognite-tasks-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Time series API
+  slug: open-cognite-time-series-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Token API
+  slug: open-cognite-token-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Transformation Jobs API
+  slug: open-cognite-transformation-jobs-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Transformation Notifications API
+  slug: open-cognite-transformation-notifications-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Transformation Schedules API
+  slug: open-cognite-transformation-schedules-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Transformations API
+  slug: open-cognite-transformations-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Unit Systems API
+  slug: open-cognite-unit-systems-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Units API
+  slug: open-cognite-units-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping User profiles API
+  slug: open-cognite-user-profiles-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Views API
+  slug: open-cognite-views-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Vision API
+  slug: open-cognite-vision-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Workflow executions API
+  slug: open-cognite-workflow-executions-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Workflow triggers API
+  slug: open-cognite-workflow-triggers-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Workflow versions API
+  slug: open-cognite-workflow-versions-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Workflows API
+  slug: open-cognite-workflows-api
+- collection_type: open
+  name: Cognite 3D Asset Mapping Writeback Requests API
+  slug: open-cognite-writeback-requests-api
 common:
 - group: agent
   title: ''
@@ -421,7 +686,7 @@ overview: 'Cognite publishes 89 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Cognite''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, and 10 more developer resources.'
-random_paper: 25
+random_paper: 0
 rules:
 - name: Cognite API Rules
   rule_count: 5
@@ -464,7 +729,7 @@ score:
       marker_coverage: 0.0
       total: 89
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/screenshots/cognite-2026-06-20T174714.png
 security:

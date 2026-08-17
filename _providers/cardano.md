@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -102,7 +102,71 @@ apis:
 - description: The Nut.link API from Cardano — 4 operation(s) for nut.link.
   name: Cardano Nut.link API
   slug: cardano-nut-link-api
-artifact_total: 240
+artifact_total: 261
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts API
+  slug: open-cardano-cardano-accounts-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Addresses API
+  slug: open-cardano-cardano-addresses-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Assets API
+  slug: open-cardano-cardano-assets-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Blocks API
+  slug: open-cardano-cardano-blocks-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Epochs API
+  slug: open-cardano-cardano-epochs-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Governance API
+  slug: open-cardano-cardano-governance-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Ledger API
+  slug: open-cardano-cardano-ledger-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Mempool API
+  slug: open-cardano-cardano-mempool-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Metadata API
+  slug: open-cardano-cardano-metadata-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Network API
+  slug: open-cardano-cardano-network-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Pools API
+  slug: open-cardano-cardano-pools-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Scripts API
+  slug: open-cardano-cardano-scripts-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Transactions API
+  slug: open-cardano-cardano-transactions-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Utilities API
+  slug: open-cardano-cardano-utilities-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Health API
+  slug: open-cardano-health-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts IPFS » Add API
+  slug: open-cardano-ipfs-add-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts IPFS » Gateway API
+  slug: open-cardano-ipfs-gateway-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts IPFS » Pins API
+  slug: open-cardano-ipfs-pins-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Metrics API
+  slug: open-cardano-metrics-api
+- collection_type: open
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Nut.link API
+  slug: open-cardano-nut-link-api
 common:
 - group: agent
   title: ''
@@ -784,7 +848,7 @@ plans:
 - name: Cardano Plans Pricing
   plan_count: 4
   slug: cardano-plans-pricing
-random_paper: 8
+random_paper: 132
 rate_limits:
 - limit_count: 6
   name: Cardano Rate Limits
@@ -818,7 +882,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/screenshots/cardano-2026-06-20T173952.png
 security:

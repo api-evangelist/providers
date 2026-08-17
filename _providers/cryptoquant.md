@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Stablecoin supply ratio and exchange metrics.
   name: CryptoQuant Stablecoins API
   slug: cryptoquant-stablecoins-api
-artifact_total: 16
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CryptoQuant Exchange Flows API
+  slug: open-cryptoquant-exchange-flows-api
+- collection_type: open
+  name: CryptoQuant Exchange Flows Market Data API
+  slug: open-cryptoquant-market-data-api
+- collection_type: open
+  name: CryptoQuant Exchange Flows Miner API
+  slug: open-cryptoquant-miner-api
+- collection_type: open
+  name: CryptoQuant Exchange Flows On-Chain API
+  slug: open-cryptoquant-on-chain-api
+- collection_type: open
+  name: CryptoQuant Exchange Flows Stablecoins API
+  slug: open-cryptoquant-stablecoins-api
 - collection_type: open
   name: CryptoQuant API
   slug: open-cryptoquant
@@ -140,7 +158,7 @@ plans:
 - name: Cryptoquant Plans Pricing
   plan_count: 3
   slug: cryptoquant-plans-pricing
-random_paper: 26
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Cryptoquant Rate Limits
@@ -188,7 +206,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/screenshots/cryptoquant-2026-06-20T175316.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: Endpoint to get details of sites from Homes England Land Hub
@@ -68,7 +68,47 @@ apis:
 - description: Endpoint for details on strategic industrial location
   name: Land Insight Strategic Industrial Location API
   slug: land-insight-strategic-industrial-location-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LandTech Additional Opportunities API
+  slug: open-land-insight-additional-opportunities-api
+- collection_type: open
+  name: LandTech Additional Opportunities Development Constraints API
+  slug: open-land-insight-development-constraints-api
+- collection_type: open
+  name: LandTech Additional Opportunities Development Opportunities API
+  slug: open-land-insight-development-opportunities-api
+- collection_type: open
+  name: LandTech Additional Opportunities Getting Started API
+  slug: open-land-insight-getting-started-api
+- collection_type: open
+  name: LandTech Additional Opportunities Land Availability Assessment API
+  slug: open-land-insight-land-availability-assessment-api
+- collection_type: open
+  name: LandTech Additional Opportunities Local Policy API
+  slug: open-land-insight-local-policy-api
+- collection_type: open
+  name: LandTech Additional Opportunities Ownership API
+  slug: open-land-insight-ownership-api
+- collection_type: open
+  name: LandTech Additional Opportunities Parcels API
+  slug: open-land-insight-parcels-api
+- collection_type: open
+  name: LandTech Additional Opportunities Planning Applications API
+  slug: open-land-insight-planning-applications-api
+- collection_type: open
+  name: LandTech Additional Opportunities Power API
+  slug: open-land-insight-power-api
+- collection_type: open
+  name: LandTech Additional Opportunities Renewable Energy Planning DB API
+  slug: open-land-insight-renewable-energy-planning-db-api
+- collection_type: open
+  name: LandTech Additional Opportunities Strategic Industrial Location API
+  slug: open-land-insight-strategic-industrial-location-api
 common:
 - group: other
   title: ''
@@ -194,7 +234,7 @@ overview: 'Land Insight publishes 12 APIs on the [APIs.io](https://apis.io/) net
 
 
   Land Insight''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 18
+random_paper: 26
 score:
   band: developing
   composite: 49.7
@@ -217,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/screenshots/land-insight-2026-07-25T224458.png
 security:

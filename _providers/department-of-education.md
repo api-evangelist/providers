@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,14 @@ apis:
 - description: The Schools API from Department of Education — 1 operation(s) for schools.
   name: Department of Education Schools API
   slug: department-of-education-schools-api
-artifact_total: 12
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: U.S. Department of Education — College Scorecard Schools API
+  slug: open-department-of-education-schools-api
 - collection_type: open
   name: U.S. Department of Education — College Scorecard API
   slug: open-department-of-education
@@ -161,7 +167,7 @@ plans:
 - name: Department Of Education Plans Pricing
   plan_count: 3
   slug: department-of-education-plans-pricing
-random_paper: 55
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Department Of Education Rate Limits
@@ -192,7 +198,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/screenshots/department-of-education-2026-06-20T175915.png
 security:

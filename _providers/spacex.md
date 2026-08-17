@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -84,11 +84,56 @@ apis:
 - description: Detailed info about Starlink satellites and orbits.
   name: SpaceX (Community API) Starlink API
   slug: spacex-starlink-api
-artifact_total: 68
+artifact_total: 83
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SpaceX REST Capsules API
+  slug: open-spacex-capsules-api
+- collection_type: open
+  name: SpaceX REST Capsules Company API
+  slug: open-spacex-company-api
+- collection_type: open
+  name: SpaceX REST Capsules Cores API
+  slug: open-spacex-cores-api
+- collection_type: open
+  name: SpaceX REST Capsules Crew API
+  slug: open-spacex-crew-api
+- collection_type: open
+  name: SpaceX REST Capsules Dragons API
+  slug: open-spacex-dragons-api
+- collection_type: open
+  name: SpaceX REST Capsules History API
+  slug: open-spacex-history-api
+- collection_type: open
+  name: SpaceX REST Capsules Landpads API
+  slug: open-spacex-landpads-api
+- collection_type: open
+  name: SpaceX REST Capsules Launches API
+  slug: open-spacex-launches-api
+- collection_type: open
+  name: SpaceX REST Capsules Launchpads API
+  slug: open-spacex-launchpads-api
+- collection_type: open
+  name: SpaceX REST Capsules Payloads API
+  slug: open-spacex-payloads-api
 - collection_type: open
   name: SpaceX REST API
   slug: open-spacex-rest-api
+- collection_type: open
+  name: SpaceX REST Capsules Roadster API
+  slug: open-spacex-roadster-api
+- collection_type: open
+  name: SpaceX REST Capsules Rockets API
+  slug: open-spacex-rockets-api
+- collection_type: open
+  name: SpaceX REST Capsules Ships API
+  slug: open-spacex-ships-api
+- collection_type: open
+  name: SpaceX REST Capsules Starlink API
+  slug: open-spacex-starlink-api
 common:
 - group: agent
   title: ''
@@ -351,7 +396,7 @@ plans:
 - name: Spacex Plans Pricing
   plan_count: 2
   slug: spacex-plans-pricing
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: Spacex Rate Limits
@@ -399,7 +444,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 7
@@ -193,7 +193,7 @@ arazzos:
 - description: Stop an Extract, wait until it is stopped, then delete it.
   name: Oracle GoldenGate Tear Down Extract
   slug: oracle-goldengate-teardown-extract-workflow
-artifact_total: 1290
+artifact_total: 1328
 collections:
 - collection_type: postman
   name: Oracle GoldenGate for Big Data REST API
@@ -214,23 +214,137 @@ collections:
   name: Oracle GoldenGate Veridata REST API
   slug: postman-oracle-goldengate-veridata-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts API
+  slug: open-oracle-goldengate-artifacts-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts AsyncAPI API
+  slug: open-oracle-goldengate-asyncapi-api
+- collection_type: open
   name: Oracle GoldenGate for Big Data REST API
   slug: open-oracle-goldengate-big-data-rest-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Certificates API
+  slug: open-oracle-goldengate-certificates-api
 - collection_type: open
   name: Oracle GoldenGate Cloud Service API
   slug: open-oracle-goldengate-cloud-service-api
 - collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Commands API
+  slug: open-oracle-goldengate-commands-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Compare Pairs API
+  slug: open-oracle-goldengate-compare-pairs-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Configuration API
+  slug: open-oracle-goldengate-configuration-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Connection Assignments API
+  slug: open-oracle-goldengate-connection-assignments-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Connections API
+  slug: open-oracle-goldengate-connections-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Credentials API
+  slug: open-oracle-goldengate-credentials-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Data Streams API
+  slug: open-oracle-goldengate-data-streams-api
+- collection_type: open
   name: Oracle GoldenGate Data Streams REST API
   slug: open-oracle-goldengate-data-streams-rest-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Data Targets API
+  slug: open-oracle-goldengate-data-targets-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Database Registrations API
+  slug: open-oracle-goldengate-database-registrations-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Deployment Backups API
+  slug: open-oracle-goldengate-deployment-backups-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Deployment Versions API
+  slug: open-oracle-goldengate-deployment-versions-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Deployments API
+  slug: open-oracle-goldengate-deployments-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Distribution API
+  slug: open-oracle-goldengate-distribution-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Encryption API
+  slug: open-oracle-goldengate-encryption-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Execution API
+  slug: open-oracle-goldengate-execution-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Extracts API
+  slug: open-oracle-goldengate-extracts-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Groups API
+  slug: open-oracle-goldengate-groups-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Heartbeat API
+  slug: open-oracle-goldengate-heartbeat-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Import/Export API
+  slug: open-oracle-goldengate-import-export-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Jobs API
+  slug: open-oracle-goldengate-jobs-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Logs API
+  slug: open-oracle-goldengate-logs-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Monitoring API
+  slug: open-oracle-goldengate-monitoring-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Pipelines API
+  slug: open-oracle-goldengate-pipelines-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Profiles API
+  slug: open-oracle-goldengate-profiles-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Receiver API
+  slug: open-oracle-goldengate-receiver-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Repair API
+  slug: open-oracle-goldengate-repair-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Replicats API
+  slug: open-oracle-goldengate-replicats-api
 - collection_type: open
   name: Oracle GoldenGate REST API
   slug: open-oracle-goldengate-rest-api
 - collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Server API
+  slug: open-oracle-goldengate-server-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Services API
+  slug: open-oracle-goldengate-services-api
+- collection_type: open
   name: Oracle GoldenGate Stream Analytics REST API
   slug: open-oracle-goldengate-stream-analytics-rest-api
 - collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Tasks API
+  slug: open-oracle-goldengate-tasks-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Trails API
+  slug: open-oracle-goldengate-trails-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Users API
+  slug: open-oracle-goldengate-users-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Validation API
+  slug: open-oracle-goldengate-validation-api
+- collection_type: open
   name: Oracle GoldenGate Veridata REST API
   slug: open-oracle-goldengate-veridata-rest-api
+- collection_type: open
+  name: Oracle GoldenGate for Big Data REST Artifacts Work Requests API
+  slug: open-oracle-goldengate-work-requests-api
 common:
 - group: commercial
   title: ''
@@ -4016,7 +4130,7 @@ plans:
 - name: Oracle Goldengate Plans Pricing
   plan_count: 3
   slug: oracle-goldengate-plans-pricing
-random_paper: 45
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Oracle Goldengate Rate Limits
@@ -4058,7 +4172,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/screenshots/oracle-goldengate-2026-06-20T191134.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: Webhook configuration and event endpoints
   name: Teachable Webhooks API
   slug: teachable-webhooks-api
-artifact_total: 31
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Teachable Admin Courses API
+  slug: open-teachable-courses-api
+- collection_type: open
+  name: Teachable Admin Courses CurrentUser API
+  slug: open-teachable-currentuser-api
+- collection_type: open
+  name: Teachable Admin Courses Enrollments API
+  slug: open-teachable-enrollments-api
+- collection_type: open
+  name: Teachable Admin Courses Lectures API
+  slug: open-teachable-lectures-api
+- collection_type: open
+  name: Teachable Admin Courses PricingPlans API
+  slug: open-teachable-pricingplans-api
+- collection_type: open
+  name: Teachable Admin Courses Quizzes API
+  slug: open-teachable-quizzes-api
+- collection_type: open
+  name: Teachable Admin Courses Transactions API
+  slug: open-teachable-transactions-api
+- collection_type: open
+  name: Teachable Admin Courses Users API
+  slug: open-teachable-users-api
+- collection_type: open
+  name: Teachable Admin Courses Videos API
+  slug: open-teachable-videos-api
+- collection_type: open
+  name: Teachable Admin Courses Webhooks API
+  slug: open-teachable-webhooks-api
 common:
 - group: agent
   title: ''
@@ -207,7 +241,7 @@ plans:
 - name: Teachable Plans Pricing
   plan_count: 5
   slug: teachable-plans-pricing
-random_paper: 81
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Teachable Rate Limits
@@ -246,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/screenshots/teachable-2026-06-20T194953.png
 security:

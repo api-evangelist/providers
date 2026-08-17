@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,7 +43,11 @@ apis:
 - description: OBIE Dynamic Client Registration (DCR) API documented on the Bank of Ireland Developer Hub for onboarding third-party provider applications using OBIE/eIDAS certificates, ahead of consuming the Read/W
   name: Bank of Ireland (UK) Dynamic Client Registration API
   slug: bank-of-ireland-uk-dynamic-client-registration-api
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-bank-of-ireland-uk-open-data
 common:
 - group: agent
   title: ''
@@ -182,7 +186,7 @@ overview: 'Bank of Ireland (UK) publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Bank of Ireland (UK)''s developer surface includes authentication, getting-started guide, developer portal, documentation, support, and 25 more developer resources.'
-random_paper: 39
+random_paper: 80
 scopes:
 - name: Bank Of Ireland Uk Scopes
   scope_count: 4
@@ -217,7 +221,7 @@ score:
     regime_id: banking_open_finance
     score: 54.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/screenshots/bank-of-ireland-uk-2026-07-25T202335.png
 security:

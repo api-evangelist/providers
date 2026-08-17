@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Send and view voice (text-to-speech) messages.
   name: ClickSend Voice API
   slug: clicksend-voice-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClickSend v3 Account API
+  slug: open-clicksend-account-api
+- collection_type: open
+  name: ClickSend v3 Account Contact API
+  slug: open-clicksend-contact-api
+- collection_type: open
+  name: ClickSend v3 Account ContactList API
+  slug: open-clicksend-contactlist-api
+- collection_type: open
+  name: ClickSend v3 Account Email API
+  slug: open-clicksend-email-api
+- collection_type: open
+  name: ClickSend v3 Account MMS API
+  slug: open-clicksend-mms-api
+- collection_type: open
+  name: ClickSend v3 Account Post Letter API
+  slug: open-clicksend-post-letter-api
+- collection_type: open
+  name: ClickSend v3 Account Post Postcard API
+  slug: open-clicksend-post-postcard-api
+- collection_type: open
+  name: ClickSend v3 Account Receipts API
+  slug: open-clicksend-receipts-api
+- collection_type: open
+  name: ClickSend v3 Account SMS API
+  slug: open-clicksend-sms-api
+- collection_type: open
+  name: ClickSend v3 Account Voice API
+  slug: open-clicksend-voice-api
 - collection_type: open
   name: ClickSend v3 API
   slug: open-clicksend
@@ -143,7 +176,7 @@ plans:
 - name: Clicksend Plans Pricing
   plan_count: 3
   slug: clicksend-plans-pricing
-random_paper: 104
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Clicksend Rate Limits
@@ -174,7 +207,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/screenshots/clicksend-2026-07-25T205619.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -74,14 +74,50 @@ apis:
 - description: Request tracing configuration
   name: Triton Inference Server Trace API
   slug: triton-trace-api
-artifact_total: 27
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory API
+  slug: open-triton-cuda-shared-memory-api
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory Health API
+  slug: open-triton-health-api
 - collection_type: open
   name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST API
   slug: open-triton-http-rest
 - collection_type: open
+  name: Triton Server NVIDIA Triton Server HTTP/REST CUDA Shared Memory Inference API
+  slug: open-triton-inference-api
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory Logging API
+  slug: open-triton-logging-api
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory Metrics API
+  slug: open-triton-metrics-api
+- collection_type: open
   name: Triton Inference Server NVIDIA Triton Inference Server Metrics API
   slug: open-triton-metrics
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory Model Metadata API
+  slug: open-triton-model-metadata-api
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory Model Repository API
+  slug: open-triton-model-repository-api
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory Server Metadata API
+  slug: open-triton-server-metadata-api
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory Statistics API
+  slug: open-triton-statistics-api
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory System Shared Memory API
+  slug: open-triton-system-shared-memory-api
+- collection_type: open
+  name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory Trace API
+  slug: open-triton-trace-api
 common:
 - group: commercial
   title: ''
@@ -224,7 +260,7 @@ plans:
 - name: Triton Plans Pricing
   plan_count: 2
   slug: triton-plans-pricing
-random_paper: 72
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Triton Rate Limits
@@ -266,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/screenshots/triton-2026-06-20T195735.png
 slug: triton

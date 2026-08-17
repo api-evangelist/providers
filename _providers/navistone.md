@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-12'
+  score: 41.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -66,7 +66,35 @@ arazzos:
 - description: Onboard a client, create a direct-mail campaign, add ZIP geo-targeting, and read output.
   name: NaviStone campaign launch
   slug: navistone-campaign-launch
-artifact_total: 13
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zazmic Platform API Info API
+  slug: open-navistone-api-info-api
+- collection_type: open
+  name: Zazmic Platform API Info Campaigns API
+  slug: open-navistone-campaigns-api
+- collection_type: open
+  name: Zazmic Platform API Info Clients API
+  slug: open-navistone-clients-api
+- collection_type: open
+  name: Zazmic Platform API Info Domains API
+  slug: open-navistone-domains-api
+- collection_type: open
+  name: Zazmic Platform API Info Geo Targeting API
+  slug: open-navistone-geo-targeting-api
+- collection_type: open
+  name: Zazmic Platform API Info Health API
+  slug: open-navistone-health-api
+- collection_type: open
+  name: Zazmic Platform API Info Output API
+  slug: open-navistone-output-api
+- collection_type: open
+  name: Zazmic Platform API Info Segments API
+  slug: open-navistone-segments-api
 common:
 - group: agent
   title: ''
@@ -148,6 +176,30 @@ common:
   title: ''
   type: Arazzo
   url: arazzo/navistone-campaign-launch.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/navistone-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/navistone-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/navistone-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/navistone-rate-limits.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.navistone.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/navistone
 created: '2026-07-17'
 description: NaviStone is a direct-mail marketing technology company that turns first-party and "unknown" website audiences into addressable postcard campaigns for consumer brands. Its platform helps businesses prospect (lookalike audiences), retain (mailing customers who opt out of digital channels), and retarget (postcards that amplify campaign performance), claiming up to a 70% increase in return on marketing spend. NaviStone's platform API (implemented on the Zazmic platform and published at docs.navistone.com) manages clients, website domains, audience segments, campaigns tied to Modern Postcard creative IDs, ZIP-code and state geo-targeting, and output tracking, all secured with an X-API-Key header. NaviStone is backed by Bullpen Capital and works with brands including Sleep Number, Vitamix, and Hey Dude across retail, travel, beauty, apparel, and home services.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/navistone.png
@@ -156,26 +208,34 @@ mcp_servers:
 - description: ''
   name: navistone-mcp.yml
   slug: navistone-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: NaviStone
 nav: Providers
 network: true
 overview: 'NaviStone publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Info API, Campaigns API, Clients API, and 5 more. Tagged areas include Company, Marketing, Direct Mail, Advertising, and Customer Acquisition.
 
 
-  NaviStone''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 23
+  NaviStone''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 21 more developer resources.'
+plans:
+- name: Navistone Plans Pricing
+  plan_count: 0
+  slug: navistone-plans-pricing
+random_paper: 89
+rate_limits:
+- limit_count: 0
+  name: Navistone Rate Limits
+  slug: navistone-rate-limits
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 36.9
+  delta: 2.7
   facets:
     commercial_clarity: 23.7
     contract_quality: 46.9
     developer_ergonomics: 40.8
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 0.0
+    operational_transparency: 21.1
   previous_composite: 34.2
   provenance:
     agentic_access: derived
@@ -188,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/screenshots/navistone-2026-08-07T184732.png
 security:

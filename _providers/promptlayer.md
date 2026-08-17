@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Ingest spans and manage traces for LLM observability.
   name: PromptLayer Spans & Traces API
   slug: promptlayer-spans-traces-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PromptLayer Evaluations & Datasets API
+  slug: open-promptlayer-evaluations-datasets-api
+- collection_type: open
+  name: PromptLayer Evaluations & Datasets Logging & Tracking API
+  slug: open-promptlayer-logging-tracking-api
+- collection_type: open
+  name: PromptLayer Evaluations & Datasets Prompt Registry API
+  slug: open-promptlayer-prompt-registry-api
+- collection_type: open
+  name: PromptLayer Evaluations & Datasets Spans & Traces API
+  slug: open-promptlayer-spans-traces-api
 - collection_type: open
   name: PromptLayer API
   slug: open-promptlayer
@@ -117,7 +132,7 @@ plans:
 - name: Promptlayer Plans Pricing
   plan_count: 4
   slug: promptlayer-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 6
   name: Promptlayer Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/screenshots/promptlayer-2026-06-20T192157.png
 security:

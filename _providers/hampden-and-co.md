@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -51,7 +51,17 @@ apis:
 - description: 'OBIE Read/Write Confirmation of Funds Service (CBPII) allowing an authorised card-based payment instrument issuer to confirm the availability of funds, as a FAPI-secured PSD2 dedicated interface. The '
   name: Hampden & Co Confirmation of Funds API
   slug: hampden-and-co-confirmation-of-funds-api
-artifact_total: 9
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Account and Transaction API Specification
+  slug: open-hampden-and-co-account-information-api
+- collection_type: open
+  name: Confirmation of Funds API Specification
+  slug: open-hampden-and-co-confirmation-of-funds-api
+- collection_type: open
+  name: Payment Initiation API
+  slug: open-hampden-and-co-payment-initiation-api
 common:
 - group: auth
   title: ''
@@ -170,7 +180,7 @@ overview: 'Hampden & Co publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Hampden & Co''s developer surface includes authentication, documentation, signup flow, engineering blog, support, API reference, and 19 more developer resources.'
-random_paper: 20
+random_paper: 148
 scopes:
 - name: Hampden And Co Scopes
   scope_count: 3
@@ -205,7 +215,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/screenshots/hampden-and-co-2026-07-25T220602.png
 security:

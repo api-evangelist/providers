@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -72,12 +72,42 @@ apis:
 - description: List, join, and submit to tournaments.
   name: Nakama Tournaments API
   slug: nakama-tournaments-api
-artifact_total: 20
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI 2.6 description of Nakama's **realtime socket API**. Unlike the request/response REST surface (modeled in `openapi/nakama-openapi.yml`), Nakama exposes a genuine bidirectional **WebSocket** t
   name: Nakama Realtime Socket API (WebSocket)
   slug: nakama-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nakama Account API
+  slug: open-nakama-account-api
+- collection_type: open
+  name: Nakama Account Authentication API
+  slug: open-nakama-authentication-api
+- collection_type: open
+  name: Nakama Account Friends API
+  slug: open-nakama-friends-api
+- collection_type: open
+  name: Nakama Account Groups API
+  slug: open-nakama-groups-api
+- collection_type: open
+  name: Nakama Account Leaderboards API
+  slug: open-nakama-leaderboards-api
+- collection_type: open
+  name: Nakama Account Notifications API
+  slug: open-nakama-notifications-api
+- collection_type: open
+  name: Nakama Account RPC API
+  slug: open-nakama-rpc-api
+- collection_type: open
+  name: Nakama Account Storage API
+  slug: open-nakama-storage-api
+- collection_type: open
+  name: Nakama Account Tournaments API
+  slug: open-nakama-tournaments-api
 - collection_type: open
   name: Nakama API
   slug: open-nakama
@@ -149,7 +179,7 @@ plans:
 - name: Nakama Plans Pricing
   plan_count: 3
   slug: nakama-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Nakama Rate Limits
@@ -183,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/screenshots/nakama-2026-08-07T184611.png
 security:

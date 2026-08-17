@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'JSON:API compliant REST API for managing candidates, jobs, applications, users, departments, and recruitment workflows in Teamtailor. Available in EU (api.teamtailor.com), NA (api.na.teamtailor.com), '
@@ -79,7 +79,7 @@ overview: 'Teamtailor publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Teamtailor''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 114
+random_paper: 31
 score:
   band: emerging
   composite: 15.6
@@ -93,7 +93,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamtailor/refs/heads/main/screenshots/teamtailor-2026-06-20T194958.png
 security:

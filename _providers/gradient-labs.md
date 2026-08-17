@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Add inbound messages to a conversation.
   name: Gradient Labs Messages API
   slug: gradient-labs-messages-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gradient Labs Actions & Tools API
+  slug: open-gradient-labs-actions-tools-api
+- collection_type: open
+  name: Gradient Labs Actions & Tools Conversations API
+  slug: open-gradient-labs-conversations-api
+- collection_type: open
+  name: Gradient Labs Actions & Tools Hand-off API
+  slug: open-gradient-labs-hand-off-api
+- collection_type: open
+  name: Gradient Labs Actions & Tools Knowledge API
+  slug: open-gradient-labs-knowledge-api
+- collection_type: open
+  name: Gradient Labs Actions & Tools Messages API
+  slug: open-gradient-labs-messages-api
 - collection_type: open
   name: Gradient Labs API
   slug: open-gradient-labs
@@ -124,7 +142,7 @@ plans:
 - name: Gradient Labs Plans Pricing
   plan_count: 1
   slug: gradient-labs-plans-pricing
-random_paper: 109
+random_paper: 117
 rate_limits:
 - limit_count: 2
   name: Gradient Labs Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/screenshots/gradient-labs-2026-07-25T220209.png
 security:

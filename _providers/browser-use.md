@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -57,8 +57,26 @@ apis:
 - description: The Workspaces API from Browser Use — 5 operation(s) for workspaces.
   name: Browser Use Workspaces API
   slug: browser-use-workspaces-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Browser Use Cloud Billing API
+  slug: open-browser-use-billing-api
+- collection_type: open
+  name: Browser Use Cloud Billing Browsers API
+  slug: open-browser-use-browsers-api
+- collection_type: open
+  name: Browser Use Cloud Billing Profiles API
+  slug: open-browser-use-profiles-api
+- collection_type: open
+  name: Browser Use Cloud Billing Sessions API
+  slug: open-browser-use-sessions-api
+- collection_type: open
+  name: Browser Use Cloud Billing Workspaces API
+  slug: open-browser-use-workspaces-api
 - collection_type: open
   name: Browser Use Cloud API
   slug: open-browser-use
@@ -119,7 +137,7 @@ plans:
 - name: Browser Use Plans Pricing
   plan_count: 3
   slug: browser-use-plans-pricing
-random_paper: 70
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Browser Use Rate Limits
@@ -144,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/screenshots/browser-use-2026-06-20T173722.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: The Equipment API from CAT — 5 operation(s) for equipment.
   name: CAT Equipment API
   slug: cat-equipment-api
-artifact_total: 26
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CAT Caterpillar Telematics CAT Caterpillar Telematics API API
+  slug: open-cat-cat-caterpillar-telematics-api-api
+- collection_type: open
+  name: CAT Caterpillar Telematics CAT Caterpillar Telematics API Equipment API
+  slug: open-cat-equipment-api
 - collection_type: open
   name: CAT Caterpillar Telematics API
   slug: open-cat
@@ -143,7 +152,7 @@ plans:
 - name: Cat Plans Pricing
   plan_count: 3
   slug: cat-plans-pricing
-random_paper: 72
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Cat Rate Limits
@@ -168,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cat/refs/heads/main/screenshots/cat-2026-06-20T174039.png
 security:

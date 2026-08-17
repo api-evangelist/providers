@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: Proof-of-work generation, validation, and caching
   name: Nano Work API
   slug: nano-work-api
-artifact_total: 21
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nano RPC Accounts API
+  slug: open-nano-accounts-api
+- collection_type: open
+  name: Nano RPC Accounts Blocks API
+  slug: open-nano-blocks-api
+- collection_type: open
+  name: Nano RPC Accounts Keys API
+  slug: open-nano-keys-api
+- collection_type: open
+  name: Nano RPC Accounts Ledger API
+  slug: open-nano-ledger-api
+- collection_type: open
+  name: Nano RPC Accounts Node API
+  slug: open-nano-node-api
+- collection_type: open
+  name: Nano RPC Accounts Unit Conversion API
+  slug: open-nano-unit-conversion-api
+- collection_type: open
+  name: Nano RPC Accounts Wallets API
+  slug: open-nano-wallets-api
+- collection_type: open
+  name: Nano RPC Accounts Work API
+  slug: open-nano-work-api
 common:
 - group: agent
   title: ''
@@ -156,7 +184,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 68
+random_paper: 130
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -196,7 +224,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/screenshots/nano-2026-06-20T185939.png
 security:

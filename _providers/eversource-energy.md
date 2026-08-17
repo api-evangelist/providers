@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: How an agile SAP approach gave Eversource a power surge
   url: https://www.ey.com/en_us/insights/consulting/how-an-agile-sap-approach-gave-eversource-a-power-surge
-random_paper: 106
+random_paper: 147
 score:
   band: minimal
   composite: 8.0
@@ -103,7 +103,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversource-energy/refs/heads/main/screenshots/eversource-energy-2026-06-20T180911.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'WordPress core content API (posts, pages, media, taxonomies, users, settings) plus the site''s custom post types — products, careers, events, partners, team members and FAQs — and the optical hardware '
@@ -40,7 +40,29 @@ apis:
 - description: REST API index / namespace discovery, plus the WordPress batch/v1 request batching endpoint.
   name: EFFECT Photonics Root API
   slug: effect-photonics-root-api
-artifact_total: 12
+artifact_total: 19
+collections:
+- collection_type: open
+  name: EFFECT Photonics WordPress REST Effect/v1 API
+  slug: open-effect-photonics-effect-v1-api
+- collection_type: open
+  name: EFFECT Photonics WordPress REST MCP API
+  slug: open-effect-photonics-mcp-api
+- collection_type: open
+  name: EFFECT Photonics WordPress REST Oembed/1.0 API
+  slug: open-effect-photonics-oembed-1-0-api
+- collection_type: open
+  name: EFFECT Photonics WordPress REST Root API
+  slug: open-effect-photonics-root-api
+- collection_type: open
+  name: EFFECT Photonics WordPress REST Wp Abilities/v1 API
+  slug: open-effect-photonics-wp-abilities-v1-api
+- collection_type: open
+  name: API Collection
+  slug: open-effect-photonics-wp-rest-discovery-original
+- collection_type: open
+  name: EFFECT Photonics WordPress REST Wp/v2 API
+  slug: open-effect-photonics-wp-v2-api
 common:
 - group: company
   title: ''
@@ -195,7 +217,7 @@ plans:
 - name: Effect Photonics Plans Pricing
   plan_count: 0
   slug: effect-photonics-plans-pricing
-random_paper: 89
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Effect Photonics Rate Limits
@@ -208,6 +230,7 @@ scopes:
 score:
   band: thin
   composite: 40.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.1
@@ -215,6 +238,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 40.8
   regulatory:
     applies: true
     matched_via: tags
@@ -222,7 +246,8 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Effect Photonics Authentication

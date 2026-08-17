@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 210
   human_in_the_loop: 15
@@ -187,7 +187,7 @@ arazzos:
 - description: Deactivate a group rule, update its expression, then reactivate it.
   name: Okta Update Group Rule Expression
   slug: okta-update-group-rule-expression-workflow
-artifact_total: 552
+artifact_total: 579
 asyncapis:
 - description: 'AsyncAPI description of Okta''s two outbound event delivery surfaces: 1. **Event Hooks** — Okta POSTs a CloudEvents-style envelope to a customer-owned HTTPS endpoint whenever a subscribed System Log ev'
   name: Okta Event Hooks and Log Streams
@@ -196,6 +196,87 @@ collections:
 - collection_type: postman
   name: Okta API
   slug: postman-okta-openapi-original
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Okta Application API
+  slug: open-okta-application-api
+- collection_type: open
+  name: Okta Application Authenticator API
+  slug: open-okta-authenticator-api
+- collection_type: open
+  name: Okta Application AuthorizationServer API
+  slug: open-okta-authorizationserver-api
+- collection_type: open
+  name: Okta Application Brand API
+  slug: open-okta-brand-api
+- collection_type: open
+  name: Okta Application Domain API
+  slug: open-okta-domain-api
+- collection_type: open
+  name: Okta Application EventHook API
+  slug: open-okta-eventhook-api
+- collection_type: open
+  name: Okta Application Feature API
+  slug: open-okta-feature-api
+- collection_type: open
+  name: Okta Application Group API
+  slug: open-okta-group-api
+- collection_type: open
+  name: Okta Application GroupSchema API
+  slug: open-okta-groupschema-api
+- collection_type: open
+  name: Okta Application IdentityProvider API
+  slug: open-okta-identityprovider-api
+- collection_type: open
+  name: Okta Application InlineHook API
+  slug: open-okta-inlinehook-api
+- collection_type: open
+  name: Okta Application LinkedObject API
+  slug: open-okta-linkedobject-api
+- collection_type: open
+  name: Okta Application Log API
+  slug: open-okta-log-api
+- collection_type: open
+  name: Okta Application NetworkZone API
+  slug: open-okta-networkzone-api
+- collection_type: open
+  name: Okta Application Org API
+  slug: open-okta-org-api
+- collection_type: open
+  name: Okta Application Policy API
+  slug: open-okta-policy-api
+- collection_type: open
+  name: Okta Application ProfileMapping API
+  slug: open-okta-profilemapping-api
+- collection_type: open
+  name: Okta Application Session API
+  slug: open-okta-session-api
+- collection_type: open
+  name: Okta Application Subscription API
+  slug: open-okta-subscription-api
+- collection_type: open
+  name: Okta Application Template API
+  slug: open-okta-template-api
+- collection_type: open
+  name: Okta Application ThreatInsight API
+  slug: open-okta-threatinsight-api
+- collection_type: open
+  name: Okta Application TrustedOrigin API
+  slug: open-okta-trustedorigin-api
+- collection_type: open
+  name: Okta Application User API
+  slug: open-okta-user-api
+- collection_type: open
+  name: Okta Application UserFactor API
+  slug: open-okta-userfactor-api
+- collection_type: open
+  name: Okta Application UserSchema API
+  slug: open-okta-userschema-api
+- collection_type: open
+  name: Okta Application UserType API
+  slug: open-okta-usertype-api
 common:
 - group: agent
   title: ''
@@ -1956,7 +2037,7 @@ plans:
 - name: Okta Plans Pricing
   plan_count: 6
   slug: okta-plans-pricing
-random_paper: 71
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Okta Rate Limits
@@ -2006,7 +2087,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png
 security:

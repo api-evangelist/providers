@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.4
-  scored_at: '2026-08-12'
+  score: 19.6
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Organization-level REST API (v2) spanning business units, events, members, attendees, session attendance, check-ins, partners, and contact lists. Authenticated with HMAC-SHA1 request signing (APIAuth)
@@ -37,7 +37,7 @@ apis:
 - description: Event-scoped REST API bound to a single event subdomain covering event properties, sessions and session instances, presenters, surveys, sponsors, rooms, venues, filters, and content. Authenticated wit
   name: Attendease Event API
   slug: attendease-event-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -135,6 +135,38 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/attendease-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/attendease-rate-limits.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/attendease-conformance.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://eventupplanner.com/plans-and-pricing/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.attendease.com/
+- group: other
+  title: ''
+  type: Accessibility
+  url: https://eventupplanner.com/accessibility/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://eventupplanner.zendesk.com/hc/en-us
+- group: commercial
+  title: ''
+  type: ServicesAgreement
+  url: https://eventupplanner.com/services-agreement/
 created: '2026-07-17'
 description: 'Attendease (now EventUp Planner, following its acquisition by Tripleseat) is an event and meeting management platform for planning, promoting, and running virtual, in-person, and hybrid events such as conferences, webinars, roadshows, and product launches. Attendease exposes a public developer API in two tiers: an Event API scoped to a single event subdomain (attendee tokens, sessions, presenters, surveys, sponsors, rooms, venues, and content) and an Organization API (`/api/v2/`) that spans business units, events, members, attendees, session attendance, check-ins, partners, and contact lists. The Organization API is authenticated with HMAC-SHA1 request signing (`Authorization: APIAuth access_key:signature`) while the Event API uses attendee/event tokens and HTTP Basic auth. First-party JavaScript and Ruby SDKs plus a Jekyll plugin are published to npm and RubyGems.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/attendease.png
@@ -143,34 +175,42 @@ mcp_servers:
 - description: ''
   name: attendease-mcp.yml
   slug: attendease-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Attendease
 nav: Providers
 network: true
 overview: 'Attendease publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Events, Event Management, Event Marketing, and Conferences.
 
 
-  Attendease''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 94
+  Attendease''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, pricing, and 25 more developer resources.'
+plans:
+- name: Attendease Plans Pricing
+  plan_count: 3
+  slug: attendease-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 1
+  name: Attendease Rate Limits
+  slug: attendease-rate-limits
 score:
-  band: emerging
-  composite: 25.8
-  delta: 0.0
+  band: thin
+  composite: 40.6
+  delta: 14.8
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 84.2
     contract_quality: 0.0
     developer_ergonomics: 51.6
     discoverability: 75.9
     governance: 3.1
-    operational_transparency: 5.3
+    operational_transparency: 42.1
   previous_composite: 25.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/screenshots/attendease-2026-07-25T201628.png
 security:
 - kind: authentication

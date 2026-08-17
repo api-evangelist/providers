@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,11 +54,30 @@ apis:
 - description: Subscription usage and enrichment request statistics.
   name: LeadGenius Usage API
   slug: leadgenius-usage-api
-artifact_total: 11
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Leadgenius Enrichment Webhooks
   slug: leadgenius-enrichment-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LeadGenius Enrichment Campaigns API
+  slug: open-leadgenius-campaigns-api
+- collection_type: open
+  name: LeadGenius Enrichment Campaigns Exclusion API
+  slug: open-leadgenius-exclusion-api
+- collection_type: open
+  name: LeadGenius Enrichment Campaigns Rapid Enrichment API
+  slug: open-leadgenius-rapid-enrichment-api
+- collection_type: open
+  name: LeadGenius Enrichment Campaigns Records API
+  slug: open-leadgenius-records-api
+- collection_type: open
+  name: LeadGenius Enrichment Campaigns Usage API
+  slug: open-leadgenius-usage-api
 common:
 - group: auth
   title: ''
@@ -184,10 +203,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/leadgenius-llms.txt
-- group: agent
+- group: build
   title: ''
-  type: WellKnown
-  url: well-known/leadgenius-well-known.yml
+  type: Packages
+  url: packages/leadgenius-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/leadgenius-plans-pricing.yml
 created: '2026-07-17'
 description: LeadGenius provides precision B2B contact and account intelligence for go-to-market teams, combining machine learning with a global team of human researchers so every contact and account is human-verified before delivery. The company reports 400+ customers, coverage across 42 countries and 3 billion+ data records served, with products spanning contact behavioral intelligence, advanced contact tags, contact monitoring, social tracking, buying-committee coverage and privacy compliance. Its developer surface is the LeadGenius Enrichment API — a RESTful, API-key authenticated service documented at docs.leadgenius.com that supports company enrichment, contact enrichment and contact append, offered both as asynchronous Campaigns (create a campaign, upload up to 200 records per request, receive a record-finalized webhook, retrieve the enriched results) and as real-time "rapid enrichment" requests submitted and collected by id.
 image: https://cdn.prod.website-files.com/688ff1b200d9d4cf5019d518/68906378722ec3a7e64df624_logo.svg
@@ -196,7 +219,7 @@ mcp_servers:
 - description: ''
   name: leadgenius-mcp.yml
   slug: leadgenius-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: LeadGenius
 nav: Providers
 network: true
@@ -206,8 +229,12 @@ overview: 'LeadGenius publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The LeadGenius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LeadGenius'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 97
+  LeadGenius'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 26 more developer resources.'
+plans:
+- name: Leadgenius Plans Pricing
+  plan_count: 0
+  slug: leadgenius-plans-pricing
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Leadgenius Rate Limits
@@ -235,7 +262,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/screenshots/leadgenius-2026-07-25T224714.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ name: Kilsar
 nav: Providers
 network: true
 overview: Kilsar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Maintenance, Aviation, and Defense.
-random_paper: 46
+random_paper: 50
 score:
   band: minimal
   composite: 12.4
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kilsar/refs/heads/main/screenshots/kilsar-2026-07-25T223743.png
 security:

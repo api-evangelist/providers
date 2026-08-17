@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The Uploads API from Strand AI — 2 operation(s) for uploads.
   name: Strand AI Uploads API
   slug: strand-ai-uploads-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Strand AI Platform Jobs API
+  slug: open-strand-ai-jobs-api
+- collection_type: open
+  name: Strand AI Platform Jobs Predict API
+  slug: open-strand-ai-predict-api
+- collection_type: open
+  name: Strand AI Platform Jobs Samples API
+  slug: open-strand-ai-samples-api
+- collection_type: open
+  name: Strand AI Platform Jobs Uploads API
+  slug: open-strand-ai-uploads-api
 common:
 - group: start
   title: ''
@@ -164,7 +180,7 @@ overview: 'Strand AI publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Strand AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, changelog, and 17 more developer resources.'
-random_paper: 59
+random_paper: 5
 score:
   band: thin
   composite: 40.0
@@ -194,7 +210,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

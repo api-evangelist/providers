@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The Drafts API from Sleeper — 6 operation(s) for drafts.
@@ -55,7 +55,35 @@ apis:
 - description: The Users API from Sleeper — 1 operation(s) for users.
   name: Sleeper Users API
   slug: sleeper-users-api
-artifact_total: 11
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sleeper Drafts API
+  slug: open-sleeper-drafts-api
+- collection_type: open
+  name: Sleeper Drafts Leagues API
+  slug: open-sleeper-leagues-api
+- collection_type: open
+  name: Sleeper Drafts Matchups API
+  slug: open-sleeper-matchups-api
+- collection_type: open
+  name: Sleeper Drafts Players API
+  slug: open-sleeper-players-api
+- collection_type: open
+  name: Sleeper Drafts Playoffs API
+  slug: open-sleeper-playoffs-api
+- collection_type: open
+  name: Sleeper Drafts State API
+  slug: open-sleeper-state-api
+- collection_type: open
+  name: Sleeper Drafts Transactions API
+  slug: open-sleeper-transactions-api
+- collection_type: open
+  name: Sleeper Drafts Users API
+  slug: open-sleeper-users-api
 common:
 - group: auth
   title: ''
@@ -157,7 +185,7 @@ overview: 'Sleeper publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sleeper''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 32
+random_paper: 7
 score:
   band: thin
   composite: 28.8
@@ -180,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -107,11 +107,90 @@ apis:
 - description: The Version API from FieldPulse — 1 operation(s) for version.
   name: FieldPulse Version API
   slug: fieldpulse-version-api
-artifact_total: 33
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Fieldpulse Events Webhooks
   slug: fieldpulse-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FieldPulse Assets API
+  slug: open-fieldpulse-assets-api
+- collection_type: open
+  name: FieldPulse Assets Category API
+  slug: open-fieldpulse-assets-category-api
+- collection_type: open
+  name: FieldPulse Comments API
+  slug: open-fieldpulse-comments-api
+- collection_type: open
+  name: FieldPulse Company Profile API
+  slug: open-fieldpulse-company-profile-api
+- collection_type: open
+  name: FieldPulse Contracts API
+  slug: open-fieldpulse-contracts-api
+- collection_type: open
+  name: FieldPulse Custom Fields API
+  slug: open-fieldpulse-custom-fields-api
+- collection_type: open
+  name: FieldPulse Customers API
+  slug: open-fieldpulse-customers-api
+- collection_type: open
+  name: FieldPulse Estimates API
+  slug: open-fieldpulse-estimates-api
+- collection_type: open
+  name: FieldPulse Invoices API
+  slug: open-fieldpulse-invoices-api
+- collection_type: open
+  name: FieldPulse Items API
+  slug: open-fieldpulse-items-api
+- collection_type: open
+  name: FieldPulse Jobs API
+  slug: open-fieldpulse-jobs-api
+- collection_type: open
+  name: FieldPulse Lead Source API
+  slug: open-fieldpulse-lead-source-api
+- collection_type: open
+  name: FieldPulse Locations API
+  slug: open-fieldpulse-locations-api
+- collection_type: open
+  name: FieldPulse Material Lists API
+  slug: open-fieldpulse-material-lists-api
+- collection_type: open
+  name: FieldPulse Payments API
+  slug: open-fieldpulse-payments-api
+- collection_type: open
+  name: FieldPulse Pipeline Status API
+  slug: open-fieldpulse-pipeline-status-api
+- collection_type: open
+  name: FieldPulse Projects API
+  slug: open-fieldpulse-projects-api
+- collection_type: open
+  name: FieldPulse Purchase Orders API
+  slug: open-fieldpulse-purchase-orders-api
+- collection_type: open
+  name: FieldPulse Subtasks API
+  slug: open-fieldpulse-subtasks-api
+- collection_type: open
+  name: FieldPulse Tags API
+  slug: open-fieldpulse-tags-api
+- collection_type: open
+  name: FieldPulse Teams API
+  slug: open-fieldpulse-teams-api
+- collection_type: open
+  name: FieldPulse Timesheets API
+  slug: open-fieldpulse-timesheets-api
+- collection_type: open
+  name: FieldPulse Users API
+  slug: open-fieldpulse-users-api
+- collection_type: open
+  name: FieldPulse Vendors API
+  slug: open-fieldpulse-vendors-api
+- collection_type: open
+  name: FieldPulse Version API
+  slug: open-fieldpulse-version-api
 common:
 - group: other
   title: ''
@@ -273,7 +352,7 @@ plans:
 - name: Fieldpulse Plans
   plan_count: 3
   slug: fieldpulse-plans
-random_paper: 109
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Fieldpulse Rate Limits
@@ -307,7 +386,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Invesdor is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Invesdor''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 34
+random_paper: 129
 score:
   band: emerging
   composite: 14.0
@@ -95,7 +95,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invesdor/refs/heads/main/screenshots/invesdor-2026-07-25T222741.png
 security:

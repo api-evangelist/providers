@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -87,11 +87,54 @@ arazzos:
 - description: Run the full 1099-NEC lifecycle - create the document, file it with federal and state authorities, then mail the payee copy.
   name: Create, file and mail a Form 1099-NEC
   slug: abound-file-1099-nec.arazzo
-artifact_total: 21
+artifact_total: 35
 asyncapis:
 - description: 'The Abound webhook event surface: 44 HMAC-signed events covering Users, TIN Verifications, Mailings, Form 1099-INT/K/MISC/NEC and Forms W-9, W-8BEN and W-8BEN-E. Derived from the first-party Fern API '
   name: Abound API v4 - Webhooks
   slug: abound-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Abound API - v4 1099-INT API
+  slug: open-abound-1099-int-api
+- collection_type: open
+  name: Abound API - v4 1099-INT 1099-K API
+  slug: open-abound-1099-k-api
+- collection_type: open
+  name: Abound API - v4 1099-INT 1099-MISC API
+  slug: open-abound-1099-misc-api
+- collection_type: open
+  name: Abound API - v4 1099-INT 1099-NEC API
+  slug: open-abound-1099-nec-api
+- collection_type: open
+  name: Abound API - v4 1099-INT Access Tokens API
+  slug: open-abound-access-tokens-api
+- collection_type: open
+  name: Abound API - v4 1099-INT Electronic Delivery Consents API
+  slug: open-abound-electronic-delivery-consents-api
+- collection_type: open
+  name: Abound API - v4 1099-INT Mailings API
+  slug: open-abound-mailings-api
+- collection_type: open
+  name: Abound API - v4 1099-INT Tax Treaties API
+  slug: open-abound-tax-treaties-api
+- collection_type: open
+  name: Abound API - v4 1099-INT TIN Verifications API
+  slug: open-abound-tin-verifications-api
+- collection_type: open
+  name: Abound API - v4 1099-INT Users API
+  slug: open-abound-users-api
+- collection_type: open
+  name: Abound API - v4 1099-INT W-8BEN API
+  slug: open-abound-w-8ben-api
+- collection_type: open
+  name: Abound API - v4 1099-INT W-8BEN-E API
+  slug: open-abound-w-8ben-e-api
+- collection_type: open
+  name: Abound API - v4 1099-INT W-9 API
+  slug: open-abound-w-9-api
 common:
 - group: other
   title: ''
@@ -200,7 +243,7 @@ overview: 'Abound publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Abound''s developer surface includes authentication, sandbox, and 20 more developer resources.'
-random_paper: 33
+random_paper: 37
 score:
   band: thin
   composite: 33.6
@@ -230,7 +273,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

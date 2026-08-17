@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Operations for retrieving cost data and filters from saved charts in the Cost Analyzer.
   name: Amnic Cost Analyzer API
   slug: amnic-cost-analyzer-api
-artifact_total: 42
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amnic Cloud Cost Observability Cost Analyzer API
+  slug: open-amnic-cost-analyzer-api
 - collection_type: open
   name: Amnic Cloud Cost Observability API
   slug: open-amnic
@@ -194,7 +200,7 @@ plans:
 - name: Amnic Plans Pricing
   plan_count: 3
   slug: amnic-plans-pricing
-random_paper: 40
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Amnic Rate Limits
@@ -236,7 +242,7 @@ score:
       marker_coverage: 100.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/screenshots/amnic-2026-06-20T171936.png
 security:

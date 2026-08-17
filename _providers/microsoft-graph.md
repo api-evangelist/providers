@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17655
   human_in_the_loop: 93
@@ -1730,7 +1730,7 @@ apis:
 - description: The users.userTeamwork API from Microsoft Graph — 12 operation(s) for users.userteamwork.
   name: Microsoft Graph users.userTeamwork API
   slug: microsoft-graph-users-userteamwork-api
-artifact_total: 5100
+artifact_total: 5664
 asyncapis:
 - description: Microsoft Graph change notifications enable applications to receive real-time notifications when data changes occur in Microsoft Graph resources. Applications create subscriptions specifying which res
   name: Microsoft Graph Change Notifications
@@ -2553,8 +2553,1700 @@ collections:
   name: Microsoft Graph Admin Admin.admin identity.authenticationEventListener API
   slug: postman-microsoft-graph-identity-authenticationeventlistener-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin API
+  slug: open-microsoft-graph-admin-admin-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin admin.adminMicrosoft365Apps API
+  slug: open-microsoft-graph-admin-adminmicrosoft365apps-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin admin.adminReportSettings API
+  slug: open-microsoft-graph-admin-adminreportsettings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Admin Consent Policy API
+  slug: open-microsoft-graph-admin-consent-policy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Admin.edge API
+  slug: open-microsoft-graph-admin-edge-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin admin.peopleAdminSettings API
+  slug: open-microsoft-graph-admin-peopleadminsettings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin admin.serviceAnnouncement API
+  slug: open-microsoft-graph-admin-serviceannouncement-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Admin.sharepoint API
+  slug: open-microsoft-graph-admin-sharepoint-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Administration API
+  slug: open-microsoft-graph-administration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Administrative Units API
+  slug: open-microsoft-graph-administrative-units-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Agreement Acceptances API
+  slug: open-microsoft-graph-agreement-acceptances-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Agreement File Localizations API
+  slug: open-microsoft-graph-agreement-file-localizations-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Agreement File Versions API
+  slug: open-microsoft-graph-agreement-file-versions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Agreement Files API
+  slug: open-microsoft-graph-agreement-files-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin agreementAcceptances.agreementAcceptance API
+  slug: open-microsoft-graph-agreementacceptances-agreementacceptance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Agreements.agreement API
+  slug: open-microsoft-graph-agreements-agreement-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin agreements.agreementAcceptance API
+  slug: open-microsoft-graph-agreements-agreementacceptance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin agreements.agreementFile API
+  slug: open-microsoft-graph-agreements-agreementfile-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin agreements.agreementFileLocalization API
+  slug: open-microsoft-graph-agreements-agreementfilelocalization-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Agreements API
+  slug: open-microsoft-graph-agreements-api
+- collection_type: open
   name: Microsoft Graph OData Service for namespace microsoft.graph
   slug: open-microsoft-graph-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin App Catalogs API
+  slug: open-microsoft-graph-app-catalogs-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin App Catalogs Teams Apps API
+  slug: open-microsoft-graph-app-catalogs-teams-apps-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin appCatalogs.appCatalogs API
+  slug: open-microsoft-graph-appcatalogs-appcatalogs-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin appCatalogs.teamsApp API
+  slug: open-microsoft-graph-appcatalogs-teamsapp-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Application Templates API
+  slug: open-microsoft-graph-application-templates-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Application Templates Instantiate API
+  slug: open-microsoft-graph-application-templates-instantiate-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Add Key API
+  slug: open-microsoft-graph-applications-add-key-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Add Password API
+  slug: open-microsoft-graph-applications-add-password-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications API
+  slug: open-microsoft-graph-applications-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications(app Id='{app Id}') API
+  slug: open-microsoft-graph-applications-app-id-app-id-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications App Management Policies API
+  slug: open-microsoft-graph-applications-app-management-policies-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applications.application.Actions API
+  slug: open-microsoft-graph-applications-application-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications.application API
+  slug: open-microsoft-graph-applications-application-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applications.application.Functions API
+  slug: open-microsoft-graph-applications-application-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applications.appManagementPolicy API
+  slug: open-microsoft-graph-applications-appmanagementpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Check Member Groups API
+  slug: open-microsoft-graph-applications-check-member-groups-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Check Member Objects API
+  slug: open-microsoft-graph-applications-check-member-objects-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Created on Behalf Of API
+  slug: open-microsoft-graph-applications-created-on-behalf-of-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Delta() API
+  slug: open-microsoft-graph-applications-delta-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applications.directoryObject API
+  slug: open-microsoft-graph-applications-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Extension Properties API
+  slug: open-microsoft-graph-applications-extension-properties-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applications.extensionProperty API
+  slug: open-microsoft-graph-applications-extensionproperty-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Federated Identity Credentials API
+  slug: open-microsoft-graph-applications-federated-identity-credentials-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Federated Identity Credentials(name='{name}') API
+  slug: open-microsoft-graph-applications-federated-identity-credentials-name-name-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applications.federatedIdentityCredential API
+  slug: open-microsoft-graph-applications-federatedidentitycredential-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Get Available Extension Properties API
+  slug: open-microsoft-graph-applications-get-available-extension-properties-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Get by Ids API
+  slug: open-microsoft-graph-applications-get-by-ids-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Get Member Groups API
+  slug: open-microsoft-graph-applications-get-member-groups-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Get Member Objects API
+  slug: open-microsoft-graph-applications-get-member-objects-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Home Realm Discovery Policies API
+  slug: open-microsoft-graph-applications-home-realm-discovery-policies-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applications.homeRealmDiscoveryPolicy API
+  slug: open-microsoft-graph-applications-homerealmdiscoverypolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Logo API
+  slug: open-microsoft-graph-applications-logo-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Owners API
+  slug: open-microsoft-graph-applications-owners-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Remove Key API
+  slug: open-microsoft-graph-applications-remove-key-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Remove Password API
+  slug: open-microsoft-graph-applications-remove-password-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Restore API
+  slug: open-microsoft-graph-applications-restore-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Set Verified Publisher API
+  slug: open-microsoft-graph-applications-set-verified-publisher-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Synchronization API
+  slug: open-microsoft-graph-applications-synchronization-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Token Issuance Policies API
+  slug: open-microsoft-graph-applications-token-issuance-policies-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Token Lifetime Policies API
+  slug: open-microsoft-graph-applications-token-lifetime-policies-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applications.tokenIssuancePolicy API
+  slug: open-microsoft-graph-applications-tokenissuancepolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applications.tokenLifetimePolicy API
+  slug: open-microsoft-graph-applications-tokenlifetimepolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications(unique Name='{unique Name}') API
+  slug: open-microsoft-graph-applications-unique-name-unique-name-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Unset Verified Publisher API
+  slug: open-microsoft-graph-applications-unset-verified-publisher-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Applications Validate Properties API
+  slug: open-microsoft-graph-applications-validate-properties-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applicationTemplates.applicationTemplate.Actions API
+  slug: open-microsoft-graph-applicationtemplates-applicationtemplate-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin applicationTemplates.applicationTemplate API
+  slug: open-microsoft-graph-applicationtemplates-applicationtemplate-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Audit Logs API
+  slug: open-microsoft-graph-audit-logs-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Audit Logs Directory Audits API
+  slug: open-microsoft-graph-audit-logs-directory-audits-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Audit Logs Provisioning API
+  slug: open-microsoft-graph-audit-logs-provisioning-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Audit Logs Sign Ins API
+  slug: open-microsoft-graph-audit-logs-sign-ins-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin auditLogs.auditLogRoot API
+  slug: open-microsoft-graph-auditlogs-auditlogroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin auditLogs.directoryAudit API
+  slug: open-microsoft-graph-auditlogs-directoryaudit-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin auditLogs.provisioningObjectSummary API
+  slug: open-microsoft-graph-auditlogs-provisioningobjectsummary-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin auditLogs.signIn API
+  slug: open-microsoft-graph-auditlogs-signin-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin authenticationMethodConfigurations.authenticationMethodConfiguration API
+  slug: open-microsoft-graph-authenticationmethodconfigurations-authenticationmethodconfiguration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin authenticationMethodsPolicy.authenticationMethodConfiguration API
+  slug: open-microsoft-graph-authenticationmethodspolicy-authenticationmethodconfiguration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin authenticationMethodsPolicy.authenticationMethodsPolicy API
+  slug: open-microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Browser Site Lists API
+  slug: open-microsoft-graph-browser-site-lists-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin certificateBasedAuthConfiguration.certificateBasedAuthConfiguration API
+  slug: open-microsoft-graph-certificatebasedauthconfiguration-certificatebasedauthconfiguration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin chats.chat.Actions API
+  slug: open-microsoft-graph-chats-chat-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Chats.chat API
+  slug: open-microsoft-graph-chats-chat-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin chats.chat.Functions API
+  slug: open-microsoft-graph-chats-chat-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin chats.chatMessage API
+  slug: open-microsoft-graph-chats-chatmessage-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin chats.chatMessageInfo API
+  slug: open-microsoft-graph-chats-chatmessageinfo-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin chats.conversationMember API
+  slug: open-microsoft-graph-chats-conversationmember-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin chats.pinnedChatMessageInfo API
+  slug: open-microsoft-graph-chats-pinnedchatmessageinfo-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin chats.resourceSpecificPermissionGrant API
+  slug: open-microsoft-graph-chats-resourcespecificpermissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin chats.teamsAppInstallation API
+  slug: open-microsoft-graph-chats-teamsappinstallation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin chats.teamsTab API
+  slug: open-microsoft-graph-chats-teamstab-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Communications.call API
+  slug: open-microsoft-graph-communications-call-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin communications.callRecord API
+  slug: open-microsoft-graph-communications-callrecord-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin communications.cloudCommunications.Actions API
+  slug: open-microsoft-graph-communications-cloudcommunications-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin communications.cloudCommunications API
+  slug: open-microsoft-graph-communications-cloudcommunications-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin communications.cloudCommunications.Functions API
+  slug: open-microsoft-graph-communications-cloudcommunications-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin communications.onlineMeeting API
+  slug: open-microsoft-graph-communications-onlinemeeting-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin communications.onlineMeetingEngagementConversation API
+  slug: open-microsoft-graph-communications-onlinemeetingengagementconversation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Communications.presence API
+  slug: open-microsoft-graph-communications-presence-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Compliance.compliance API
+  slug: open-microsoft-graph-compliance-compliance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin connections.connectionOperation API
+  slug: open-microsoft-graph-connections-connectionoperation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin connections.externalConnection API
+  slug: open-microsoft-graph-connections-externalconnection-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin connections.externalGroup API
+  slug: open-microsoft-graph-connections-externalgroup-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin connections.externalItem API
+  slug: open-microsoft-graph-connections-externalitem-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Connections.schema API
+  slug: open-microsoft-graph-connections-schema-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin contacts.directoryObject API
+  slug: open-microsoft-graph-contacts-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin contacts.onPremisesSyncBehavior API
+  slug: open-microsoft-graph-contacts-onpremisessyncbehavior-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin contacts.orgContact.Actions API
+  slug: open-microsoft-graph-contacts-orgcontact-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin contacts.orgContact API
+  slug: open-microsoft-graph-contacts-orgcontact-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin contacts.orgContact.Functions API
+  slug: open-microsoft-graph-contacts-orgcontact-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin contacts.serviceProvisioningError API
+  slug: open-microsoft-graph-contacts-serviceprovisioningerror-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin contracts.contract.Actions API
+  slug: open-microsoft-graph-contracts-contract-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Contracts.contract API
+  slug: open-microsoft-graph-contracts-contract-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin contracts.contract.Functions API
+  slug: open-microsoft-graph-contracts-contract-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Copilot Administration API
+  slug: open-microsoft-graph-copilot-administration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin copilot.aiInteractionHistory API
+  slug: open-microsoft-graph-copilot-aiinteractionhistory-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin copilot.aiUser API
+  slug: open-microsoft-graph-copilot-aiuser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin copilot.copilotAdmin API
+  slug: open-microsoft-graph-copilot-copilotadmin-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin copilot.copilotReportRoot API
+  slug: open-microsoft-graph-copilot-copilotreportroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin copilot.copilotRoot.Actions API
+  slug: open-microsoft-graph-copilot-copilotroot-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin copilot.copilotRoot API
+  slug: open-microsoft-graph-copilot-copilotroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Current User Acceptances API
+  slug: open-microsoft-graph-current-user-acceptances-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin dataPolicyOperations.dataPolicyOperation API
+  slug: open-microsoft-graph-datapolicyoperations-datapolicyoperation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.androidManagedAppProtection API
+  slug: open-microsoft-graph-deviceappmanagement-androidmanagedappprotection-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.defaultManagedAppProtection API
+  slug: open-microsoft-graph-deviceappmanagement-defaultmanagedappprotection-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.deviceAppManagement.Actions API
+  slug: open-microsoft-graph-deviceappmanagement-deviceappmanagement-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.deviceAppManagement API
+  slug: open-microsoft-graph-deviceappmanagement-deviceappmanagement-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.iosManagedAppProtection API
+  slug: open-microsoft-graph-deviceappmanagement-iosmanagedappprotection-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedAppPolicy API
+  slug: open-microsoft-graph-deviceappmanagement-managedapppolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedAppRegistration API
+  slug: open-microsoft-graph-deviceappmanagement-managedappregistration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedAppStatus API
+  slug: open-microsoft-graph-deviceappmanagement-managedappstatus-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedDeviceMobileAppConfiguration API
+  slug: open-microsoft-graph-deviceappmanagement-manageddevicemobileappconfiguration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedEBook API
+  slug: open-microsoft-graph-deviceappmanagement-managedebook-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.mdmWindowsInformationProtectionPolicy API
+  slug: open-microsoft-graph-deviceappmanagement-mdmwindowsinformationprotectionpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.mobileApp API
+  slug: open-microsoft-graph-deviceappmanagement-mobileapp-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.mobileAppCategory API
+  slug: open-microsoft-graph-deviceappmanagement-mobileappcategory-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.mobileAppRelationship API
+  slug: open-microsoft-graph-deviceappmanagement-mobileapprelationship-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.targetedManagedAppConfiguration API
+  slug: open-microsoft-graph-deviceappmanagement-targetedmanagedappconfiguration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.vppToken API
+  slug: open-microsoft-graph-deviceappmanagement-vpptoken-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.windowsInformationProtectionPolicy API
+  slug: open-microsoft-graph-deviceappmanagement-windowsinformationprotectionpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.applePushNotificationCertificate API
+  slug: open-microsoft-graph-devicemanagement-applepushnotificationcertificate-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.auditEvent API
+  slug: open-microsoft-graph-devicemanagement-auditevent-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.complianceManagementPartner API
+  slug: open-microsoft-graph-devicemanagement-compliancemanagementpartner-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.detectedApp API
+  slug: open-microsoft-graph-devicemanagement-detectedapp-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceAndAppManagementRoleAssignment API
+  slug: open-microsoft-graph-devicemanagement-deviceandappmanagementroleassignment-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceCategory API
+  slug: open-microsoft-graph-devicemanagement-devicecategory-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceCompliancePolicy API
+  slug: open-microsoft-graph-devicemanagement-devicecompliancepolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceCompliancePolicyDeviceStateSummary API
+  slug: open-microsoft-graph-devicemanagement-devicecompliancepolicydevicestatesummary-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceCompliancePolicySettingStateSummary API
+  slug: open-microsoft-graph-devicemanagement-devicecompliancepolicysettingstatesummary-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceConfiguration API
+  slug: open-microsoft-graph-devicemanagement-deviceconfiguration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceConfigurationDeviceStateSummary API
+  slug: open-microsoft-graph-devicemanagement-deviceconfigurationdevicestatesummary-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceEnrollmentConfiguration API
+  slug: open-microsoft-graph-devicemanagement-deviceenrollmentconfiguration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagement API
+  slug: open-microsoft-graph-devicemanagement-devicemanagement-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagement.Functions API
+  slug: open-microsoft-graph-devicemanagement-devicemanagement-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagementExchangeConnector API
+  slug: open-microsoft-graph-devicemanagement-devicemanagementexchangeconnector-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagementPartner API
+  slug: open-microsoft-graph-devicemanagement-devicemanagementpartner-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagementReports API
+  slug: open-microsoft-graph-devicemanagement-devicemanagementreports-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagementTroubleshootingEvent API
+  slug: open-microsoft-graph-devicemanagement-devicemanagementtroubleshootingevent-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.importedWindowsAutopilotDeviceIdentity API
+  slug: open-microsoft-graph-devicemanagement-importedwindowsautopilotdeviceidentity-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.iosUpdateDeviceStatus API
+  slug: open-microsoft-graph-devicemanagement-iosupdatedevicestatus-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.managedDevice API
+  slug: open-microsoft-graph-devicemanagement-manageddevice-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.managedDeviceOverview API
+  slug: open-microsoft-graph-devicemanagement-manageddeviceoverview-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.mobileAppTroubleshootingEvent API
+  slug: open-microsoft-graph-devicemanagement-mobileapptroubleshootingevent-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.mobileThreatDefenseConnector API
+  slug: open-microsoft-graph-devicemanagement-mobilethreatdefenseconnector-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.notificationMessageTemplate API
+  slug: open-microsoft-graph-devicemanagement-notificationmessagetemplate-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.onPremisesConditionalAccessSettings API
+  slug: open-microsoft-graph-devicemanagement-onpremisesconditionalaccesssettings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.remoteAssistancePartner API
+  slug: open-microsoft-graph-devicemanagement-remoteassistancepartner-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.resourceOperation API
+  slug: open-microsoft-graph-devicemanagement-resourceoperation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.roleDefinition API
+  slug: open-microsoft-graph-devicemanagement-roledefinition-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.softwareUpdateStatusSummary API
+  slug: open-microsoft-graph-devicemanagement-softwareupdatestatussummary-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.termsAndConditions API
+  slug: open-microsoft-graph-devicemanagement-termsandconditions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthApplicationPerformance API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthapplicationperformance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDetails API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondetails-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDeviceId API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondeviceid-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByOSVersion API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyosversion-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthDeviceModelPerformance API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdevicemodelperformance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthDevicePerformance API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthDevicePerformanceDetails API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformancedetails-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthOSVersionPerformance API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthosversionperformance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsBaseline API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsbaseline-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsCategory API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticscategory-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDevicePerformance API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsdeviceperformance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDeviceScores API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsdevicescores-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDeviceStartupHistory API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartuphistory-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDeviceStartupProcess API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocess-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDeviceStartupProcessPerformance API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocessperformance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsMetricHistory API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsmetrichistory-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsModelScores API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsmodelscores-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsOverview API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsoverview-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsScoreHistory API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsscorehistory-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsWorkFromAnywhereHardwareReadinessMetric API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywherehardwarereadinessmetric-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsWorkFromAnywhereMetric API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremetric-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsWorkFromAnywhereModelPerformance API
+  slug: open-microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremodelperformance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.virtualEndpoint API
+  slug: open-microsoft-graph-devicemanagement-virtualendpoint-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.windowsAutopilotDeviceIdentity API
+  slug: open-microsoft-graph-devicemanagement-windowsautopilotdeviceidentity-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.windowsInformationProtectionAppLearningSummary API
+  slug: open-microsoft-graph-devicemanagement-windowsinformationprotectionapplearningsummary-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.windowsInformationProtectionNetworkLearningSummary API
+  slug: open-microsoft-graph-devicemanagement-windowsinformationprotectionnetworklearningsummary-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin deviceManagement.windowsMalwareInformation API
+  slug: open-microsoft-graph-devicemanagement-windowsmalwareinformation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin devices.device.Actions API
+  slug: open-microsoft-graph-devices-device-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Devices.device API
+  slug: open-microsoft-graph-devices-device-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin devices.device.Functions API
+  slug: open-microsoft-graph-devices-device-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin devices.directoryObject API
+  slug: open-microsoft-graph-devices-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Devices.extension API
+  slug: open-microsoft-graph-devices-extension-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directory.administrativeUnit API
+  slug: open-microsoft-graph-directory-administrativeunit-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directory.attributeSet API
+  slug: open-microsoft-graph-directory-attributeset-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directory.companySubscription API
+  slug: open-microsoft-graph-directory-companysubscription-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directory.customSecurityAttributeDefinition API
+  slug: open-microsoft-graph-directory-customsecurityattributedefinition-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directory.deviceLocalCredentialInfo API
+  slug: open-microsoft-graph-directory-devicelocalcredentialinfo-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Directory.directory API
+  slug: open-microsoft-graph-directory-directory-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directory.directoryObject API
+  slug: open-microsoft-graph-directory-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directory.identityProviderBase API
+  slug: open-microsoft-graph-directory-identityproviderbase-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directory.onPremisesDirectorySynchronization API
+  slug: open-microsoft-graph-directory-onpremisesdirectorysynchronization-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directory.publicKeyInfrastructureRoot API
+  slug: open-microsoft-graph-directory-publickeyinfrastructureroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryObjects.directoryObject.Actions API
+  slug: open-microsoft-graph-directoryobjects-directoryobject-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryObjects.directoryObject API
+  slug: open-microsoft-graph-directoryobjects-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryObjects.directoryObject.Functions API
+  slug: open-microsoft-graph-directoryobjects-directoryobject-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryRoles.directoryObject API
+  slug: open-microsoft-graph-directoryroles-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryRoles.directoryRole.Actions API
+  slug: open-microsoft-graph-directoryroles-directoryrole-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryRoles.directoryRole API
+  slug: open-microsoft-graph-directoryroles-directoryrole-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryRoles.directoryRole.Functions API
+  slug: open-microsoft-graph-directoryroles-directoryrole-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryRoles.scopedRoleMembership API
+  slug: open-microsoft-graph-directoryroles-scopedrolemembership-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryRoleTemplates.directoryRoleTemplate.Actions API
+  slug: open-microsoft-graph-directoryroletemplates-directoryroletemplate-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryRoleTemplates.directoryRoleTemplate API
+  slug: open-microsoft-graph-directoryroletemplates-directoryroletemplate-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin directoryRoleTemplates.directoryRoleTemplate.Functions API
+  slug: open-microsoft-graph-directoryroletemplates-directoryroletemplate-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin domainDnsRecords.domainDnsRecord API
+  slug: open-microsoft-graph-domaindnsrecords-domaindnsrecord-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin domains.directoryObject API
+  slug: open-microsoft-graph-domains-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin domains.domain.Actions API
+  slug: open-microsoft-graph-domains-domain-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Domains.domain API
+  slug: open-microsoft-graph-domains-domain-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin domains.domainDnsRecord API
+  slug: open-microsoft-graph-domains-domaindnsrecord-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin domains.internalDomainFederation API
+  slug: open-microsoft-graph-domains-internaldomainfederation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin drives.drive.Actions API
+  slug: open-microsoft-graph-drives-drive-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Drives.drive API
+  slug: open-microsoft-graph-drives-drive-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin drives.drive.Functions API
+  slug: open-microsoft-graph-drives-drive-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin drives.driveItem API
+  slug: open-microsoft-graph-drives-driveitem-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Drives.list API
+  slug: open-microsoft-graph-drives-list-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Drives.user API
+  slug: open-microsoft-graph-drives-user-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Edge Browser API
+  slug: open-microsoft-graph-edge-browser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin education.educationClass API
+  slug: open-microsoft-graph-education-educationclass-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin education.educationRoot API
+  slug: open-microsoft-graph-education-educationroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin education.educationSchool API
+  slug: open-microsoft-graph-education-educationschool-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin education.educationUser API
+  slug: open-microsoft-graph-education-educationuser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin education.reportsRoot API
+  slug: open-microsoft-graph-education-reportsroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin employeeExperience.community API
+  slug: open-microsoft-graph-employeeexperience-community-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin employeeExperience.employeeExperience API
+  slug: open-microsoft-graph-employeeexperience-employeeexperience-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin employeeExperience.engagementAsyncOperation API
+  slug: open-microsoft-graph-employeeexperience-engagementasyncoperation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin employeeExperience.engagementRole API
+  slug: open-microsoft-graph-employeeexperience-engagementrole-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin employeeExperience.learningCourseActivity API
+  slug: open-microsoft-graph-employeeexperience-learningcourseactivity-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin employeeExperience.learningProvider API
+  slug: open-microsoft-graph-employeeexperience-learningprovider-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin External.external API
+  slug: open-microsoft-graph-external-external-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin external.externalConnection API
+  slug: open-microsoft-graph-external-externalconnection-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin filterOperators.filterOperatorSchema API
+  slug: open-microsoft-graph-filteroperators-filteroperatorschema-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin functions.attributeMappingFunctionSchema API
+  slug: open-microsoft-graph-functions-attributemappingfunctionschema-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groupLifecyclePolicies.groupLifecyclePolicy.Actions API
+  slug: open-microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groupLifecyclePolicies.groupLifecyclePolicy API
+  slug: open-microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.appRoleAssignment API
+  slug: open-microsoft-graph-groups-approleassignment-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Groups.calendar API
+  slug: open-microsoft-graph-groups-calendar-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Groups.conversation API
+  slug: open-microsoft-graph-groups-conversation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.conversationThread API
+  slug: open-microsoft-graph-groups-conversationthread-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.directoryObject API
+  slug: open-microsoft-graph-groups-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Groups.drive API
+  slug: open-microsoft-graph-groups-drive-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Groups.event API
+  slug: open-microsoft-graph-groups-event-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Groups.extension API
+  slug: open-microsoft-graph-groups-extension-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.group.Actions API
+  slug: open-microsoft-graph-groups-group-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Groups.group API
+  slug: open-microsoft-graph-groups-group-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.group.Functions API
+  slug: open-microsoft-graph-groups-group-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.groupLifecyclePolicy API
+  slug: open-microsoft-graph-groups-grouplifecyclepolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.groupSetting API
+  slug: open-microsoft-graph-groups-groupsetting-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Groups.onenote API
+  slug: open-microsoft-graph-groups-onenote-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.onPremisesSyncBehavior API
+  slug: open-microsoft-graph-groups-onpremisessyncbehavior-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.plannerGroup API
+  slug: open-microsoft-graph-groups-plannergroup-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.profilePhoto API
+  slug: open-microsoft-graph-groups-profilephoto-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.resourceSpecificPermissionGrant API
+  slug: open-microsoft-graph-groups-resourcespecificpermissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groups.serviceProvisioningError API
+  slug: open-microsoft-graph-groups-serviceprovisioningerror-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Groups.site API
+  slug: open-microsoft-graph-groups-site-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Groups.team API
+  slug: open-microsoft-graph-groups-team-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groupSettings.groupSetting API
+  slug: open-microsoft-graph-groupsettings-groupsetting-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groupSettingTemplates.groupSettingTemplate.Actions API
+  slug: open-microsoft-graph-groupsettingtemplates-groupsettingtemplate-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groupSettingTemplates.groupSettingTemplate API
+  slug: open-microsoft-graph-groupsettingtemplates-groupsettingtemplate-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin groupSettingTemplates.groupSettingTemplate.Functions API
+  slug: open-microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Identity Authentication Events Flows API
+  slug: open-microsoft-graph-identity-authentication-events-flows-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.authenticationEventListener API
+  slug: open-microsoft-graph-identity-authenticationeventlistener-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.authenticationEventsFlow API
+  slug: open-microsoft-graph-identity-authenticationeventsflow-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.b2xIdentityUserFlow API
+  slug: open-microsoft-graph-identity-b2xidentityuserflow-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.conditionalAccessRoot API
+  slug: open-microsoft-graph-identity-conditionalaccessroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.customAuthenticationExtension API
+  slug: open-microsoft-graph-identity-customauthenticationextension-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Identity Governance Acceptances API
+  slug: open-microsoft-graph-identity-governance-acceptances-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.identityApiConnector API
+  slug: open-microsoft-graph-identity-identityapiconnector-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.identityContainer API
+  slug: open-microsoft-graph-identity-identitycontainer-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.identityProviderBase API
+  slug: open-microsoft-graph-identity-identityproviderbase-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.identityUserFlowAttribute API
+  slug: open-microsoft-graph-identity-identityuserflowattribute-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identity.riskPreventionContainer API
+  slug: open-microsoft-graph-identity-riskpreventioncontainer-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityGovernance.appConsentApprovalRoute API
+  slug: open-microsoft-graph-identitygovernance-appconsentapprovalroute-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityGovernance.entitlementManagement API
+  slug: open-microsoft-graph-identitygovernance-entitlementmanagement-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityGovernance.identityGovernance API
+  slug: open-microsoft-graph-identitygovernance-identitygovernance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityGovernance.lifecycleWorkflowsContainer API
+  slug: open-microsoft-graph-identitygovernance-lifecycleworkflowscontainer-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityGovernance.privilegedAccessRoot API
+  slug: open-microsoft-graph-identitygovernance-privilegedaccessroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityGovernance.termsOfUseContainer API
+  slug: open-microsoft-graph-identitygovernance-termsofusecontainer-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityProtection.identityProtectionRoot API
+  slug: open-microsoft-graph-identityprotection-identityprotectionroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityProtection.riskDetection API
+  slug: open-microsoft-graph-identityprotection-riskdetection-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityProtection.riskyServicePrincipal API
+  slug: open-microsoft-graph-identityprotection-riskyserviceprincipal-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityProtection.riskyUser API
+  slug: open-microsoft-graph-identityprotection-riskyuser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityProtection.servicePrincipalRiskDetection API
+  slug: open-microsoft-graph-identityprotection-serviceprincipalriskdetection-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityProviders.identityProvider API
+  slug: open-microsoft-graph-identityproviders-identityprovider-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin identityProviders.identityProvider.Functions API
+  slug: open-microsoft-graph-identityproviders-identityprovider-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin informationProtection.bitlocker API
+  slug: open-microsoft-graph-informationprotection-bitlocker-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin informationProtection.informationProtection API
+  slug: open-microsoft-graph-informationprotection-informationprotection-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin informationProtection.threatAssessmentRequest API
+  slug: open-microsoft-graph-informationprotection-threatassessmentrequest-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Internet Explorer Mode API
+  slug: open-microsoft-graph-internet-explorer-mode-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin invitations.directoryObject API
+  slug: open-microsoft-graph-invitations-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Invitations.invitation API
+  slug: open-microsoft-graph-invitations-invitation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Invitations.user API
+  slug: open-microsoft-graph-invitations-user-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.agreementAcceptance API
+  slug: open-microsoft-graph-me-agreementacceptance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.appRoleAssignment API
+  slug: open-microsoft-graph-me-approleassignment-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.authentication API
+  slug: open-microsoft-graph-me-authentication-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.calendar API
+  slug: open-microsoft-graph-me-calendar-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.calendarGroup API
+  slug: open-microsoft-graph-me-calendargroup-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.chat API
+  slug: open-microsoft-graph-me-chat-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.cloudClipboardRoot API
+  slug: open-microsoft-graph-me-cloudclipboardroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.cloudPC API
+  slug: open-microsoft-graph-me-cloudpc-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.contact API
+  slug: open-microsoft-graph-me-contact-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.contactFolder API
+  slug: open-microsoft-graph-me-contactfolder-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.deviceManagementTroubleshootingEvent API
+  slug: open-microsoft-graph-me-devicemanagementtroubleshootingevent-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.directoryObject API
+  slug: open-microsoft-graph-me-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.drive API
+  slug: open-microsoft-graph-me-drive-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.employeeExperienceUser API
+  slug: open-microsoft-graph-me-employeeexperienceuser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.event API
+  slug: open-microsoft-graph-me-event-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.extension API
+  slug: open-microsoft-graph-me-extension-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.inferenceClassification API
+  slug: open-microsoft-graph-me-inferenceclassification-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.itemInsights API
+  slug: open-microsoft-graph-me-iteminsights-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.licenseDetails API
+  slug: open-microsoft-graph-me-licensedetails-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.mailboxSettings API
+  slug: open-microsoft-graph-me-mailboxsettings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.mailFolder API
+  slug: open-microsoft-graph-me-mailfolder-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.managedAppRegistration API
+  slug: open-microsoft-graph-me-managedappregistration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.managedDevice API
+  slug: open-microsoft-graph-me-manageddevice-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.message API
+  slug: open-microsoft-graph-me-message-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.oAuth2PermissionGrant API
+  slug: open-microsoft-graph-me-oauth2permissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.onenote API
+  slug: open-microsoft-graph-me-onenote-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.onlineMeeting API
+  slug: open-microsoft-graph-me-onlinemeeting-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.outlookUser API
+  slug: open-microsoft-graph-me-outlookuser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.person API
+  slug: open-microsoft-graph-me-person-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.plannerUser API
+  slug: open-microsoft-graph-me-planneruser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.presence API
+  slug: open-microsoft-graph-me-presence-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.profilePhoto API
+  slug: open-microsoft-graph-me-profilephoto-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.resourceSpecificPermissionGrant API
+  slug: open-microsoft-graph-me-resourcespecificpermissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.scopedRoleMembership API
+  slug: open-microsoft-graph-me-scopedrolemembership-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.serviceProvisioningError API
+  slug: open-microsoft-graph-me-serviceprovisioningerror-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.site API
+  slug: open-microsoft-graph-me-site-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.team API
+  slug: open-microsoft-graph-me-team-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.todo API
+  slug: open-microsoft-graph-me-todo-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.user.Actions API
+  slug: open-microsoft-graph-me-user-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Me.user API
+  slug: open-microsoft-graph-me-user-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.user.Functions API
+  slug: open-microsoft-graph-me-user-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.userActivity API
+  slug: open-microsoft-graph-me-useractivity-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.userDataSecurityAndGovernance API
+  slug: open-microsoft-graph-me-userdatasecurityandgovernance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.userSettings API
+  slug: open-microsoft-graph-me-usersettings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.userSolutionRoot API
+  slug: open-microsoft-graph-me-usersolutionroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin me.userTeamwork API
+  slug: open-microsoft-graph-me-userteamwork-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Microsoft 365 Apps API
+  slug: open-microsoft-graph-microsoft-365-apps-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin oauth2PermissionGrants.oAuth2PermissionGrant API
+  slug: open-microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin oauth2PermissionGrants.oAuth2PermissionGrant.Functions API
+  slug: open-microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin organization.certificateBasedAuthConfiguration API
+  slug: open-microsoft-graph-organization-certificatebasedauthconfiguration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Organization.extension API
+  slug: open-microsoft-graph-organization-extension-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin organization.organization.Actions API
+  slug: open-microsoft-graph-organization-organization-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Organization.organization API
+  slug: open-microsoft-graph-organization-organization-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin organization.organization.Functions API
+  slug: open-microsoft-graph-organization-organization-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin organization.organizationalBranding API
+  slug: open-microsoft-graph-organization-organizationalbranding-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin permissionGrants.resourceSpecificPermissionGrant.Actions API
+  slug: open-microsoft-graph-permissiongrants-resourcespecificpermissiongrant-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin permissionGrants.resourceSpecificPermissionGrant API
+  slug: open-microsoft-graph-permissiongrants-resourcespecificpermissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin permissionGrants.resourceSpecificPermissionGrant.Functions API
+  slug: open-microsoft-graph-permissiongrants-resourcespecificpermissiongrant-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin places.buildingMap API
+  slug: open-microsoft-graph-places-buildingmap-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin places.checkInClaim API
+  slug: open-microsoft-graph-places-checkinclaim-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Places.place API
+  slug: open-microsoft-graph-places-place-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin places.place.Functions API
+  slug: open-microsoft-graph-places-place-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Places.room API
+  slug: open-microsoft-graph-places-room-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Places.workspace API
+  slug: open-microsoft-graph-places-workspace-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Planner.planner API
+  slug: open-microsoft-graph-planner-planner-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin planner.plannerBucket API
+  slug: open-microsoft-graph-planner-plannerbucket-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin planner.plannerPlan API
+  slug: open-microsoft-graph-planner-plannerplan-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin planner.plannerTask API
+  slug: open-microsoft-graph-planner-plannertask-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.activityBasedTimeoutPolicy API
+  slug: open-microsoft-graph-policies-activitybasedtimeoutpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.adminConsentRequestPolicy API
+  slug: open-microsoft-graph-policies-adminconsentrequestpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.appManagementPolicy API
+  slug: open-microsoft-graph-policies-appmanagementpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.authenticationFlowsPolicy API
+  slug: open-microsoft-graph-policies-authenticationflowspolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.authenticationMethodsPolicy API
+  slug: open-microsoft-graph-policies-authenticationmethodspolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.authenticationStrengthPolicy API
+  slug: open-microsoft-graph-policies-authenticationstrengthpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.authorizationPolicy API
+  slug: open-microsoft-graph-policies-authorizationpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.claimsMappingPolicy API
+  slug: open-microsoft-graph-policies-claimsmappingpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.conditionalAccessPolicy API
+  slug: open-microsoft-graph-policies-conditionalaccesspolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.crossTenantAccessPolicy API
+  slug: open-microsoft-graph-policies-crosstenantaccesspolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.deviceRegistrationPolicy API
+  slug: open-microsoft-graph-policies-deviceregistrationpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.featureRolloutPolicy API
+  slug: open-microsoft-graph-policies-featurerolloutpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.homeRealmDiscoveryPolicy API
+  slug: open-microsoft-graph-policies-homerealmdiscoverypolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.identitySecurityDefaultsEnforcementPolicy API
+  slug: open-microsoft-graph-policies-identitysecuritydefaultsenforcementpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.permissionGrantPolicy API
+  slug: open-microsoft-graph-policies-permissiongrantpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.policyRoot API
+  slug: open-microsoft-graph-policies-policyroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.tenantAppManagementPolicy API
+  slug: open-microsoft-graph-policies-tenantappmanagementpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.tokenIssuancePolicy API
+  slug: open-microsoft-graph-policies-tokenissuancepolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.tokenLifetimePolicy API
+  slug: open-microsoft-graph-policies-tokenlifetimepolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.unifiedRoleManagementPolicy API
+  slug: open-microsoft-graph-policies-unifiedrolemanagementpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin policies.unifiedRoleManagementPolicyAssignment API
+  slug: open-microsoft-graph-policies-unifiedrolemanagementpolicyassignment-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Print.print API
+  slug: open-microsoft-graph-print-print-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin print.printConnector API
+  slug: open-microsoft-graph-print-printconnector-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Print.printer API
+  slug: open-microsoft-graph-print-printer-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin print.printerShare API
+  slug: open-microsoft-graph-print-printershare-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin print.printOperation API
+  slug: open-microsoft-graph-print-printoperation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin print.printService API
+  slug: open-microsoft-graph-print-printservice-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin print.printTaskDefinition API
+  slug: open-microsoft-graph-print-printtaskdefinition-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Privacy.privacy API
+  slug: open-microsoft-graph-privacy-privacy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin privacy.subjectRightsRequest API
+  slug: open-microsoft-graph-privacy-subjectrightsrequest-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Report Settings API
+  slug: open-microsoft-graph-report-settings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin reports.authenticationMethodsRoot API
+  slug: open-microsoft-graph-reports-authenticationmethodsroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Reports.partners API
+  slug: open-microsoft-graph-reports-partners-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin reports.printUsageByPrinter API
+  slug: open-microsoft-graph-reports-printusagebyprinter-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin reports.printUsageByUser API
+  slug: open-microsoft-graph-reports-printusagebyuser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin reports.reportRoot API
+  slug: open-microsoft-graph-reports-reportroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin reports.reportRoot.Functions API
+  slug: open-microsoft-graph-reports-reportroot-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin reports.securityReportsRoot API
+  slug: open-microsoft-graph-reports-securityreportsroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin roleManagement.rbacApplication API
+  slug: open-microsoft-graph-rolemanagement-rbacapplication-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin roleManagement.roleManagement API
+  slug: open-microsoft-graph-rolemanagement-rolemanagement-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin schemaExtensions.schemaExtension API
+  slug: open-microsoft-graph-schemaextensions-schemaextension-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin scopedRoleMemberships.scopedRoleMembership API
+  slug: open-microsoft-graph-scopedrolememberships-scopedrolemembership-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Search.acronym API
+  slug: open-microsoft-graph-search-acronym-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Search.bookmark API
+  slug: open-microsoft-graph-search-bookmark-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Search.qna API
+  slug: open-microsoft-graph-search-qna-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin search.searchEntity.Actions API
+  slug: open-microsoft-graph-search-searchentity-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin search.searchEntity API
+  slug: open-microsoft-graph-search-searchentity-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Security.alert API
+  slug: open-microsoft-graph-security-alert-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.attackSimulationRoot API
+  slug: open-microsoft-graph-security-attacksimulationroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.casesRoot API
+  slug: open-microsoft-graph-security-casesroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.identityContainer API
+  slug: open-microsoft-graph-security-identitycontainer-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Security.incident API
+  slug: open-microsoft-graph-security-incident-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.labelsRoot API
+  slug: open-microsoft-graph-security-labelsroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.secureScore API
+  slug: open-microsoft-graph-security-securescore-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.secureScoreControlProfile API
+  slug: open-microsoft-graph-security-securescorecontrolprofile-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.security.Actions API
+  slug: open-microsoft-graph-security-security-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Security.security API
+  slug: open-microsoft-graph-security-security-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.subjectRightsRequest API
+  slug: open-microsoft-graph-security-subjectrightsrequest-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.tenantDataSecurityAndGovernance API
+  slug: open-microsoft-graph-security-tenantdatasecurityandgovernance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.threatIntelligence API
+  slug: open-microsoft-graph-security-threatintelligence-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.triggersRoot API
+  slug: open-microsoft-graph-security-triggersroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin security.triggerTypesRoot API
+  slug: open-microsoft-graph-security-triggertypesroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Service Announcements API
+  slug: open-microsoft-graph-service-announcements-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.appManagementPolicy API
+  slug: open-microsoft-graph-serviceprincipals-appmanagementpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.appRoleAssignment API
+  slug: open-microsoft-graph-serviceprincipals-approleassignment-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.claimsMappingPolicy API
+  slug: open-microsoft-graph-serviceprincipals-claimsmappingpolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.delegatedPermissionClassification API
+  slug: open-microsoft-graph-serviceprincipals-delegatedpermissionclassification-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.directoryObject API
+  slug: open-microsoft-graph-serviceprincipals-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.endpoint API
+  slug: open-microsoft-graph-serviceprincipals-endpoint-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.federatedIdentityCredential API
+  slug: open-microsoft-graph-serviceprincipals-federatedidentitycredential-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.homeRealmDiscoveryPolicy API
+  slug: open-microsoft-graph-serviceprincipals-homerealmdiscoverypolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.oAuth2PermissionGrant API
+  slug: open-microsoft-graph-serviceprincipals-oauth2permissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.remoteDesktopSecurityConfiguration API
+  slug: open-microsoft-graph-serviceprincipals-remotedesktopsecurityconfiguration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.servicePrincipal.Actions API
+  slug: open-microsoft-graph-serviceprincipals-serviceprincipal-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.servicePrincipal API
+  slug: open-microsoft-graph-serviceprincipals-serviceprincipal-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.servicePrincipal.Functions API
+  slug: open-microsoft-graph-serviceprincipals-serviceprincipal-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.synchronization API
+  slug: open-microsoft-graph-serviceprincipals-synchronization-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.tokenIssuancePolicy API
+  slug: open-microsoft-graph-serviceprincipals-tokenissuancepolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin servicePrincipals.tokenLifetimePolicy API
+  slug: open-microsoft-graph-serviceprincipals-tokenlifetimepolicy-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin SharePoint API
+  slug: open-microsoft-graph-sharepoint-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin shares.driveItem API
+  slug: open-microsoft-graph-shares-driveitem-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Shares.list API
+  slug: open-microsoft-graph-shares-list-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin shares.listItem API
+  slug: open-microsoft-graph-shares-listitem-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Shares.permission API
+  slug: open-microsoft-graph-shares-permission-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin shares.sharedDriveItem API
+  slug: open-microsoft-graph-shares-shareddriveitem-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Shares.site API
+  slug: open-microsoft-graph-shares-site-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Shares.user API
+  slug: open-microsoft-graph-shares-user-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin sites.baseItem API
+  slug: open-microsoft-graph-sites-baseitem-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin sites.baseSitePage API
+  slug: open-microsoft-graph-sites-basesitepage-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin sites.columnDefinition API
+  slug: open-microsoft-graph-sites-columndefinition-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin sites.contentType API
+  slug: open-microsoft-graph-sites-contenttype-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Sites.drive API
+  slug: open-microsoft-graph-sites-drive-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin sites.itemAnalytics API
+  slug: open-microsoft-graph-sites-itemanalytics-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Sites.list API
+  slug: open-microsoft-graph-sites-list-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Sites.onenote API
+  slug: open-microsoft-graph-sites-onenote-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Sites.permission API
+  slug: open-microsoft-graph-sites-permission-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin sites.richLongRunningOperation API
+  slug: open-microsoft-graph-sites-richlongrunningoperation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin sites.site.Actions API
+  slug: open-microsoft-graph-sites-site-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Sites.site API
+  slug: open-microsoft-graph-sites-site-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin sites.site.Functions API
+  slug: open-microsoft-graph-sites-site-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Sites.store API
+  slug: open-microsoft-graph-sites-store-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Sites.user API
+  slug: open-microsoft-graph-sites-user-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin solutions.backupRestoreRoot API
+  slug: open-microsoft-graph-solutions-backuprestoreroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin solutions.bookingBusiness API
+  slug: open-microsoft-graph-solutions-bookingbusiness-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin solutions.bookingCurrency API
+  slug: open-microsoft-graph-solutions-bookingcurrency-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin solutions.solutionsRoot API
+  slug: open-microsoft-graph-solutions-solutionsroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin solutions.virtualEventsRoot API
+  slug: open-microsoft-graph-solutions-virtualeventsroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin storage.fileStorage API
+  slug: open-microsoft-graph-storage-filestorage-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Storage.storage API
+  slug: open-microsoft-graph-storage-storage-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin storage.storageSettings API
+  slug: open-microsoft-graph-storage-storagesettings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin subscribedSkus.subscribedSku API
+  slug: open-microsoft-graph-subscribedskus-subscribedsku-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin subscriptions.subscription.Actions API
+  slug: open-microsoft-graph-subscriptions-subscription-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Subscriptions.subscription API
+  slug: open-microsoft-graph-subscriptions-subscription-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Teams.channel API
+  slug: open-microsoft-graph-teams-channel-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teams.conversationMember API
+  slug: open-microsoft-graph-teams-conversationmember-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Teams.group API
+  slug: open-microsoft-graph-teams-group-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teams.profilePhoto API
+  slug: open-microsoft-graph-teams-profilephoto-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teams.resourceSpecificPermissionGrant API
+  slug: open-microsoft-graph-teams-resourcespecificpermissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Teams.schedule API
+  slug: open-microsoft-graph-teams-schedule-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teams.team.Actions API
+  slug: open-microsoft-graph-teams-team-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Teams.team API
+  slug: open-microsoft-graph-teams-team-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teams.team.Functions API
+  slug: open-microsoft-graph-teams-team-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teams.teamsAppInstallation API
+  slug: open-microsoft-graph-teams-teamsappinstallation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teams.teamsAsyncOperation API
+  slug: open-microsoft-graph-teams-teamsasyncoperation-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teams.teamsTemplate API
+  slug: open-microsoft-graph-teams-teamstemplate-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teams.teamworkTag API
+  slug: open-microsoft-graph-teams-teamworktag-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teamsTemplates.teamsTemplate API
+  slug: open-microsoft-graph-teamstemplates-teamstemplate-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teamwork.deletedChat API
+  slug: open-microsoft-graph-teamwork-deletedchat-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teamwork.deletedTeam API
+  slug: open-microsoft-graph-teamwork-deletedteam-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teamwork.teamsAppSettings API
+  slug: open-microsoft-graph-teamwork-teamsappsettings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teamwork.teamwork.Actions API
+  slug: open-microsoft-graph-teamwork-teamwork-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Teamwork.teamwork API
+  slug: open-microsoft-graph-teamwork-teamwork-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin teamwork.workforceIntegration API
+  slug: open-microsoft-graph-teamwork-workforceintegration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin tenantRelationships.delegatedAdminCustomer API
+  slug: open-microsoft-graph-tenantrelationships-delegatedadmincustomer-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin tenantRelationships.delegatedAdminRelationship API
+  slug: open-microsoft-graph-tenantrelationships-delegatedadminrelationship-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin tenantRelationships.multiTenantOrganization API
+  slug: open-microsoft-graph-tenantrelationships-multitenantorganization-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin tenantRelationships.tenantRelationship API
+  slug: open-microsoft-graph-tenantrelationships-tenantrelationship-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin tenantRelationships.tenantRelationship.Functions API
+  slug: open-microsoft-graph-tenantrelationships-tenantrelationship-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin User Acceptances API
+  slug: open-microsoft-graph-user-acceptances-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.agreementAcceptance API
+  slug: open-microsoft-graph-users-agreementacceptance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.appRoleAssignment API
+  slug: open-microsoft-graph-users-approleassignment-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.authentication API
+  slug: open-microsoft-graph-users-authentication-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.calendar API
+  slug: open-microsoft-graph-users-calendar-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.calendarGroup API
+  slug: open-microsoft-graph-users-calendargroup-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.chat API
+  slug: open-microsoft-graph-users-chat-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.cloudClipboardRoot API
+  slug: open-microsoft-graph-users-cloudclipboardroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.cloudPC API
+  slug: open-microsoft-graph-users-cloudpc-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.contact API
+  slug: open-microsoft-graph-users-contact-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.contactFolder API
+  slug: open-microsoft-graph-users-contactfolder-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.deviceManagementTroubleshootingEvent API
+  slug: open-microsoft-graph-users-devicemanagementtroubleshootingevent-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.directoryObject API
+  slug: open-microsoft-graph-users-directoryobject-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.drive API
+  slug: open-microsoft-graph-users-drive-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.employeeExperienceUser API
+  slug: open-microsoft-graph-users-employeeexperienceuser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.event API
+  slug: open-microsoft-graph-users-event-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.extension API
+  slug: open-microsoft-graph-users-extension-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.inferenceClassification API
+  slug: open-microsoft-graph-users-inferenceclassification-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.itemInsights API
+  slug: open-microsoft-graph-users-iteminsights-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.licenseDetails API
+  slug: open-microsoft-graph-users-licensedetails-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.mailboxSettings API
+  slug: open-microsoft-graph-users-mailboxsettings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.mailFolder API
+  slug: open-microsoft-graph-users-mailfolder-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.managedAppRegistration API
+  slug: open-microsoft-graph-users-managedappregistration-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.managedDevice API
+  slug: open-microsoft-graph-users-manageddevice-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.message API
+  slug: open-microsoft-graph-users-message-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.oAuth2PermissionGrant API
+  slug: open-microsoft-graph-users-oauth2permissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.onenote API
+  slug: open-microsoft-graph-users-onenote-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.onlineMeeting API
+  slug: open-microsoft-graph-users-onlinemeeting-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.outlookUser API
+  slug: open-microsoft-graph-users-outlookuser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.person API
+  slug: open-microsoft-graph-users-person-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.plannerUser API
+  slug: open-microsoft-graph-users-planneruser-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.presence API
+  slug: open-microsoft-graph-users-presence-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.profilePhoto API
+  slug: open-microsoft-graph-users-profilephoto-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.resourceSpecificPermissionGrant API
+  slug: open-microsoft-graph-users-resourcespecificpermissiongrant-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.scopedRoleMembership API
+  slug: open-microsoft-graph-users-scopedrolemembership-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.serviceProvisioningError API
+  slug: open-microsoft-graph-users-serviceprovisioningerror-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.site API
+  slug: open-microsoft-graph-users-site-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.team API
+  slug: open-microsoft-graph-users-team-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.todo API
+  slug: open-microsoft-graph-users-todo-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.user.Actions API
+  slug: open-microsoft-graph-users-user-actions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin Users.user API
+  slug: open-microsoft-graph-users-user-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.user.Functions API
+  slug: open-microsoft-graph-users-user-functions-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.userActivity API
+  slug: open-microsoft-graph-users-useractivity-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.userDataSecurityAndGovernance API
+  slug: open-microsoft-graph-users-userdatasecurityandgovernance-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.userSettings API
+  slug: open-microsoft-graph-users-usersettings-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.userSolutionRoot API
+  slug: open-microsoft-graph-users-usersolutionroot-api
+- collection_type: open
+  name: Microsoft Graph Admin Admin.admin users.userTeamwork API
+  slug: open-microsoft-graph-users-userteamwork-api
 common:
 - group: build
   title: ''
@@ -15504,7 +17196,7 @@ plans:
 - name: Microsoft Graph Plans Pricing
   plan_count: 3
   slug: microsoft-graph-plans-pricing
-random_paper: 117
+random_paper: 67
 rate_limits:
 - limit_count: 18
   name: Microsoft Graph Rate Limits
@@ -15546,7 +17238,7 @@ score:
       marker_coverage: 0.0
       total: 564
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/screenshots/microsoft-graph-2026-06-20T185504.png
 security:

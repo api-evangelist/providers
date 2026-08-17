@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 343
   human_in_the_loop: 14
@@ -258,8 +258,230 @@ apis:
 - description: The workspaces API from LangSmith — 25 operation(s) for workspaces.
   name: LangSmith workspaces API
   slug: langsmith-workspaces-api
-artifact_total: 80
+artifact_total: 154
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LangSmith access_policies API
+  slug: open-langsmith-access-policies-api
+- collection_type: open
+  name: LangSmith access_policies ace API
+  slug: open-langsmith-ace-api
+- collection_type: open
+  name: LangSmith access_policies agents API
+  slug: open-langsmith-agents-api
+- collection_type: open
+  name: LangSmith access_policies alert_rules API
+  slug: open-langsmith-alert-rules-api
+- collection_type: open
+  name: LangSmith access_policies annotation-queues API
+  slug: open-langsmith-annotation-queues-api
+- collection_type: open
+  name: LangSmith access_policies api-key API
+  slug: open-langsmith-api-key-api
+- collection_type: open
+  name: LangSmith access_policies audit-logs API
+  slug: open-langsmith-audit-logs-api
+- collection_type: open
+  name: LangSmith access_policies auth API
+  slug: open-langsmith-auth-api
+- collection_type: open
+  name: LangSmith access_policies aws_marketplace API
+  slug: open-langsmith-aws-marketplace-api
+- collection_type: open
+  name: LangSmith access_policies backfills API
+  slug: open-langsmith-backfills-api
+- collection_type: open
+  name: LangSmith access_policies beacon API
+  slug: open-langsmith-beacon-api
+- collection_type: open
+  name: LangSmith access_policies bulk-exports API
+  slug: open-langsmith-bulk-exports-api
+- collection_type: open
+  name: LangSmith access_policies charts API
+  slug: open-langsmith-charts-api
+- collection_type: open
+  name: LangSmith access_policies comments API
+  slug: open-langsmith-comments-api
+- collection_type: open
+  name: LangSmith access_policies commits API
+  slug: open-langsmith-commits-api
+- collection_type: open
+  name: LangSmith access_policies data_planes API
+  slug: open-langsmith-data-planes-api
+- collection_type: open
+  name: LangSmith access_policies datasets API
+  slug: open-langsmith-datasets-api
+- collection_type: open
+  name: LangSmith access_policies directories API
+  slug: open-langsmith-directories-api
+- collection_type: open
+  name: LangSmith access_policies evaluators API
+  slug: open-langsmith-evaluators-api
+- collection_type: open
+  name: LangSmith access_policies examples API
+  slug: open-langsmith-examples-api
+- collection_type: open
+  name: LangSmith access_policies experiment-view-overrides API
+  slug: open-langsmith-experiment-view-overrides-api
+- collection_type: open
+  name: LangSmith access_policies experiments API
+  slug: open-langsmith-experiments-api
+- collection_type: open
+  name: LangSmith access_policies features API
+  slug: open-langsmith-features-api
+- collection_type: open
+  name: LangSmith access_policies feedback API
+  slug: open-langsmith-feedback-api
+- collection_type: open
+  name: LangSmith access_policies feedback-configs API
+  slug: open-langsmith-feedback-configs-api
+- collection_type: open
+  name: LangSmith access_policies fleet auth API
+  slug: open-langsmith-fleet-auth-api
+- collection_type: open
+  name: LangSmith access_policies fleet github-app API
+  slug: open-langsmith-fleet-github-app-api
+- collection_type: open
+  name: LangSmith access_policies fleet integrations API
+  slug: open-langsmith-fleet-integrations-api
+- collection_type: open
+  name: LangSmith access_policies fleet mcp API
+  slug: open-langsmith-fleet-mcp-api
+- collection_type: open
+  name: LangSmith access_policies fleet threads API
+  slug: open-langsmith-fleet-threads-api
+- collection_type: open
+  name: LangSmith access_policies fleet usage API
+  slug: open-langsmith-fleet-usage-api
+- collection_type: open
+  name: LangSmith access_policies fleet_webhooks API
+  slug: open-langsmith-fleet-webhooks-api
+- collection_type: open
+  name: LangSmith access_policies gateway API
+  slug: open-langsmith-gateway-api
+- collection_type: open
+  name: LangSmith access_policies gateway-policies API
+  slug: open-langsmith-gateway-policies-api
+- collection_type: open
+  name: LangSmith access_policies hub_environments API
+  slug: open-langsmith-hub-environments-api
+- collection_type: open
+  name: LangSmith access_policies info API
+  slug: open-langsmith-info-api
+- collection_type: open
+  name: LangSmith access_policies integrations API
+  slug: open-langsmith-integrations-api
+- collection_type: open
+  name: LangSmith access_policies likes API
+  slug: open-langsmith-likes-api
+- collection_type: open
+  name: LangSmith access_policies mcp API
+  slug: open-langsmith-mcp-api
+- collection_type: open
+  name: LangSmith access_policies mcp_vendors API
+  slug: open-langsmith-mcp-vendors-api
+- collection_type: open
+  name: LangSmith access_policies me API
+  slug: open-langsmith-me-api
+- collection_type: open
+  name: LangSmith access_policies metrics API
+  slug: open-langsmith-metrics-api
+- collection_type: open
+  name: LangSmith access_policies model-price-map API
+  slug: open-langsmith-model-price-map-api
+- collection_type: open
+  name: LangSmith access_policies nps API
+  slug: open-langsmith-nps-api
+- collection_type: open
+  name: LangSmith access_policies oauth API
+  slug: open-langsmith-oauth-api
+- collection_type: open
+  name: LangSmith access_policies Ok API
+  slug: open-langsmith-ok-api
+- collection_type: open
+  name: LangSmith access_policies optimization-jobs API
+  slug: open-langsmith-optimization-jobs-api
+- collection_type: open
+  name: LangSmith access_policies Organizations API
+  slug: open-langsmith-organizations-api
+- collection_type: open
+  name: LangSmith access_policies orgs API
+  slug: open-langsmith-orgs-api
+- collection_type: open
+  name: LangSmith access_policies ownerships API
+  slug: open-langsmith-ownerships-api
+- collection_type: open
+  name: LangSmith access_policies playground-settings API
+  slug: open-langsmith-playground-settings-api
+- collection_type: open
+  name: LangSmith access_policies prompt-webhooks API
+  slug: open-langsmith-prompt-webhooks-api
+- collection_type: open
+  name: LangSmith access_policies prompts API
+  slug: open-langsmith-prompts-api
+- collection_type: open
+  name: LangSmith access_policies public API
+  slug: open-langsmith-public-api
+- collection_type: open
+  name: LangSmith access_policies repos API
+  slug: open-langsmith-repos-api
+- collection_type: open
+  name: LangSmith access_policies run API
+  slug: open-langsmith-run-api
+- collection_type: open
+  name: LangSmith access_policies runs API
+  slug: open-langsmith-runs-api
+- collection_type: open
+  name: LangSmith access_policies sandboxes API
+  slug: open-langsmith-sandboxes-api
+- collection_type: open
+  name: LangSmith access_policies sandboxes-internal API
+  slug: open-langsmith-sandboxes-internal-api
+- collection_type: open
+  name: LangSmith access_policies SCIM Tokens API
+  slug: open-langsmith-scim-tokens-api
+- collection_type: open
+  name: LangSmith access_policies service-accounts API
+  slug: open-langsmith-service-accounts-api
+- collection_type: open
+  name: LangSmith access_policies sessions API
+  slug: open-langsmith-sessions-api
+- collection_type: open
+  name: LangSmith access_policies settings API
+  slug: open-langsmith-settings-api
+- collection_type: open
+  name: LangSmith access_policies skills API
+  slug: open-langsmith-skills-api
+- collection_type: open
+  name: LangSmith access_policies tag-transitions API
+  slug: open-langsmith-tag-transitions-api
+- collection_type: open
+  name: LangSmith access_policies tags API
+  slug: open-langsmith-tags-api
+- collection_type: open
+  name: LangSmith access_policies tenant API
+  slug: open-langsmith-tenant-api
+- collection_type: open
+  name: LangSmith access_policies threads API
+  slug: open-langsmith-threads-api
+- collection_type: open
+  name: LangSmith access_policies tools API
+  slug: open-langsmith-tools-api
+- collection_type: open
+  name: LangSmith access_policies tracer-sessions API
+  slug: open-langsmith-tracer-sessions-api
+- collection_type: open
+  name: LangSmith access_policies TTL Settings API
+  slug: open-langsmith-ttl-settings-api
+- collection_type: open
+  name: LangSmith access_policies usage-limits API
+  slug: open-langsmith-usage-limits-api
+- collection_type: open
+  name: LangSmith access_policies workspaces API
+  slug: open-langsmith-workspaces-api
 - collection_type: open
   name: LangSmith
   slug: open-langsmith
@@ -324,7 +546,7 @@ plans:
 - name: Langsmith Plans Pricing
   plan_count: 3
   slug: langsmith-plans-pricing
-random_paper: 7
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Langsmith Rate Limits
@@ -349,7 +571,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/screenshots/langsmith-2026-06-20T184315.png
 security:

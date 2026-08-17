@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: The Webhooks API from Tiendanube — 2 operation(s) for webhooks.
   name: Tiendanube Webhooks API
   slug: tiendanube-webhooks-api
-artifact_total: 20
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories API
+  slug: open-tiendanube-categories-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Coupons API
+  slug: open-tiendanube-coupons-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Customers API
+  slug: open-tiendanube-customers-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Fulfillment Orders API
+  slug: open-tiendanube-fulfillment-orders-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Orders API
+  slug: open-tiendanube-orders-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Payment Providers API
+  slug: open-tiendanube-payment-providers-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Product Images API
+  slug: open-tiendanube-product-images-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Product Variants API
+  slug: open-tiendanube-product-variants-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Products API
+  slug: open-tiendanube-products-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Scripts API
+  slug: open-tiendanube-scripts-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Shipping Carriers API
+  slug: open-tiendanube-shipping-carriers-api
+- collection_type: open
+  name: Tiendanube / Nuvemshop Categories Webhooks API
+  slug: open-tiendanube-webhooks-api
 - collection_type: open
   name: Tiendanube / Nuvemshop API
   slug: open-tiendanube
@@ -149,7 +188,7 @@ plans:
 - name: Tiendanube Plans Pricing
   plan_count: 5
   slug: tiendanube-plans-pricing
-random_paper: 95
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Tiendanube Rate Limits
@@ -174,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 16
 common:
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Williams-Sonoma's AI-powered customer service boosts ...
   url: https://www.linkedin.com/posts/marcbenioff_how-williams-sonoma-went-from-ai-concept-activity-7389392655702552577-8Nsj
-random_paper: 4
+random_paper: 74
 score:
   band: minimal
   composite: 5.7
@@ -110,7 +110,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/williams-sonoma/refs/heads/main/screenshots/williams-sonoma-2026-06-20T201516.png
 security:

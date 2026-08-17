@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -91,7 +91,7 @@ overview: 'Collective Health is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Collective Health''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 61
+random_paper: 102
 score:
   band: emerging
   composite: 21.9
@@ -113,7 +113,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collective-health/refs/heads/main/screenshots/collective-health-2026-07-25T210047.png
 security:

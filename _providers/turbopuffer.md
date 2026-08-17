@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -72,8 +72,14 @@ apis:
 - description: The Namespaces API from turbopuffer — 12 operation(s) for namespaces.
   name: turbopuffer Namespaces API
   slug: turbopuffer-namespaces-api
-artifact_total: 18
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: turbopuffer Namespaces API
+  slug: open-turbopuffer-namespaces-api
 - collection_type: open
   name: turbopuffer API
   slug: open-turbopuffer
@@ -162,7 +168,7 @@ plans:
 - name: Turbopuffer Plans Pricing
   plan_count: 3
   slug: turbopuffer-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Turbopuffer Rate Limits
@@ -187,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/screenshots/turbopuffer-2026-06-20T195831.png
 security:

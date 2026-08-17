@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -164,11 +164,147 @@ apis:
 - description: The WorkspaceService API from Bigeye — 4 operation(s) for workspaceservice.
   name: Bigeye Workspace Service API
   slug: bigeye-workspaceservice-api
-artifact_total: 52
+artifact_total: 97
 asyncapis:
 - description: ''
   name: Bigeye Webhooks
   slug: bigeye-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Metadata Agent Service API
+  slug: open-bigeye-agentservice-api
+- collection_type: open
+  name: Metadata API Key Service API
+  slug: open-bigeye-apikeyservice-api
+- collection_type: open
+  name: Metadata Catalog Rebuilds Service API
+  slug: open-bigeye-catalogrebuildsservice-api
+- collection_type: open
+  name: Sensitivity Classifier Service API
+  slug: open-bigeye-classifierservice-api
+- collection_type: open
+  name: Observability Collection Service API
+  slug: open-bigeye-collectionservice-api
+- collection_type: open
+  name: Observability Collection V2 Service API
+  slug: open-bigeye-collectionv2service-api
+- collection_type: open
+  name: Metadata Column Service API
+  slug: open-bigeye-columnservice-api
+- collection_type: open
+  name: Metadata Company Service API
+  slug: open-bigeye-companyservice-api
+- collection_type: open
+  name: Observability Comparison Table Service API
+  slug: open-bigeye-comparisontableservice-api
+- collection_type: open
+  name: Metadata Config Service API
+  slug: open-bigeye-configservice-api
+- collection_type: open
+  name: Observability Custom Rule Service API
+  slug: open-bigeye-customruleservice-api
+- collection_type: open
+  name: Metadata Dashboard Service API
+  slug: open-bigeye-dashboardservice-api
+- collection_type: open
+  name: Sensitivity Data Class Category Service API
+  slug: open-bigeye-dataclasscategoryservice-api
+- collection_type: open
+  name: Sensitivity Data Class Service API
+  slug: open-bigeye-dataclassservice-api
+- collection_type: open
+  name: Observability Delta Service API
+  slug: open-bigeye-deltaservice-api
+- collection_type: open
+  name: Observability Dimension Service API
+  slug: open-bigeye-dimensionservice-api
+- collection_type: open
+  name: Metadata Favorite Service API
+  slug: open-bigeye-favoriteservice-api
+- collection_type: open
+  name: Metadata Group Service API
+  slug: open-bigeye-groupservice-api
+- collection_type: open
+  name: Metadata Integration Service API
+  slug: open-bigeye-integrationservice-api
+- collection_type: open
+  name: Observability Issue Service API
+  slug: open-bigeye-issueservice-api
+- collection_type: open
+  name: Observability Join Service API
+  slug: open-bigeye-joinservice-api
+- collection_type: open
+  name: Metadata Lineage Service API
+  slug: open-bigeye-lineageservice-api
+- collection_type: open
+  name: Metadata Lineage V2 Service API
+  slug: open-bigeye-lineagev2service-api
+- collection_type: open
+  name: Observability Metric Observed Column Service API
+  slug: open-bigeye-metricobservedcolumnservice-api
+- collection_type: open
+  name: Observability Metric Service API
+  slug: open-bigeye-metricservice-api
+- collection_type: open
+  name: Observability Metric Template Service API
+  slug: open-bigeye-metrictemplateservice-api
+- collection_type: open
+  name: Metadata Named Schedule Service API
+  slug: open-bigeye-namedscheduleservice-api
+- collection_type: open
+  name: Metadata Object Owner Service API
+  slug: open-bigeye-objectownerservice-api
+- collection_type: open
+  name: Metadata Query Service API
+  slug: open-bigeye-queryservice-api
+- collection_type: open
+  name: Metadata Role Service API
+  slug: open-bigeye-roleservice-api
+- collection_type: open
+  name: Sensitivity Scan Job Service API
+  slug: open-bigeye-scanjobservice-api
+- collection_type: open
+  name: Sensitivity Scan Run Service API
+  slug: open-bigeye-scanrunservice-api
+- collection_type: open
+  name: Metadata Schema Change Service API
+  slug: open-bigeye-schemachangeservice-api
+- collection_type: open
+  name: Metadata Schema Service API
+  slug: open-bigeye-schemaservice-api
+- collection_type: open
+  name: Metadata Search Service API
+  slug: open-bigeye-searchservice-api
+- collection_type: open
+  name: Metadata Service Account API Key Service API
+  slug: open-bigeye-serviceaccountapikeyservice-api
+- collection_type: open
+  name: Metadata Source Service API
+  slug: open-bigeye-sourceservice-api
+- collection_type: open
+  name: Metadata Table Service API
+  slug: open-bigeye-tableservice-api
+- collection_type: open
+  name: Metadata Tag Service API
+  slug: open-bigeye-tagservice-api
+- collection_type: open
+  name: Metadata User Service API
+  slug: open-bigeye-userservice-api
+- collection_type: open
+  name: Metadata Virtual Table Service API
+  slug: open-bigeye-virtualtableservice-api
+- collection_type: open
+  name: Metadata Workflow Service API
+  slug: open-bigeye-workflowservice-api
+- collection_type: open
+  name: Metadata Workflow V2 Service API
+  slug: open-bigeye-workflowv2service-api
+- collection_type: open
+  name: Metadata Workspace Service API
+  slug: open-bigeye-workspaceservice-api
 common:
 - group: operate
   title: ''
@@ -341,7 +477,7 @@ overview: 'Bigeye publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
-random_paper: 29
+random_paper: 33
 score:
   band: strong
   composite: 56.7
@@ -365,7 +501,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/screenshots/bigeye-2026-08-07T162422.png
 security:

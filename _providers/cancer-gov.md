@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,8 +69,23 @@ apis:
 - description: The Trials API from Cancer.gov — 2 operation(s) for trials.
   name: Cancer.gov Trials API
   slug: cancer-gov-trials-api
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NCI Clinical Trials Search Diseases API
+  slug: open-cancer-gov-diseases-api
+- collection_type: open
+  name: NCI Clinical Trials Search Diseases Interventions API
+  slug: open-cancer-gov-interventions-api
+- collection_type: open
+  name: NCI Clinical Trials Search Diseases Terms API
+  slug: open-cancer-gov-terms-api
+- collection_type: open
+  name: NCI Clinical Search Diseases Trials API
+  slug: open-cancer-gov-trials-api
 - collection_type: open
   name: NCI Clinical Trials Search API
   slug: open-cancer-gov
@@ -143,7 +158,7 @@ plans:
 - name: Cancer Gov Plans Pricing
   plan_count: 3
   slug: cancer-gov-plans-pricing
-random_paper: 37
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Cancer Gov Rate Limits
@@ -174,7 +189,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/screenshots/cancer-gov-2026-06-20T173920.png
 security:

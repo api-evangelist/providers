@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,29 @@ apis:
 - description: Operations for retrieving dataset and indicator metadata
   name: FAO FAOSTAT Metadata API
   slug: unfao-metadata-api
-artifact_total: 19
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FAOSTAT Bulk Download Catalog API
+  slug: open-unfao-catalog-api
+- collection_type: open
+  name: FAOSTAT Bulk Download Catalog Data API
+  slug: open-unfao-data-api
+- collection_type: open
+  name: FAOSTAT Bulk Download Catalog Dimensions API
+  slug: open-unfao-dimensions-api
+- collection_type: open
+  name: FAOSTAT Bulk Download Catalog Domains API
+  slug: open-unfao-domains-api
+- collection_type: open
+  name: FAOSTAT Bulk Download Catalog Downloads API
+  slug: open-unfao-downloads-api
+- collection_type: open
+  name: FAOSTAT Bulk Download Catalog Metadata API
+  slug: open-unfao-metadata-api
 common:
 - group: agent
   title: ''
@@ -112,7 +134,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 57
+random_paper: 90
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -152,7 +174,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/screenshots/unfao-2026-06-20T200026.png
 security:

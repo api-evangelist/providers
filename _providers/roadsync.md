@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -92,7 +92,65 @@ apis:
 - description: The Workorders API
   name: Roadsync workorders API
   slug: roadsync-workorders-api
-artifact_total: 22
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Client API v1.8 authenticated API
+  slug: open-roadsync-authenticated-api
+- collection_type: open
+  name: Client API v1.8 authenticated brokers API
+  slug: open-roadsync-brokers-api
+- collection_type: open
+  name: Client API v1.8 authenticated department API
+  slug: open-roadsync-department-api
+- collection_type: open
+  name: Client API v1.8 authenticated directory API
+  slug: open-roadsync-directory-api
+- collection_type: open
+  name: Client API v1.8 authenticated eta API
+  slug: open-roadsync-eta-api
+- collection_type: open
+  name: Client API v1.8 authenticated funding sources API
+  slug: open-roadsync-funding-sources-api
+- collection_type: open
+  name: Client API v1.8 authenticated invoice API
+  slug: open-roadsync-invoice-api
+- collection_type: open
+  name: Client API v1.8 authenticated loads API
+  slug: open-roadsync-loads-api
+- collection_type: open
+  name: Client API v1.8 authenticated location API
+  slug: open-roadsync-location-api
+- collection_type: open
+  name: Client API v1.8 authenticated payables API
+  slug: open-roadsync-payables-api
+- collection_type: open
+  name: Client API v1.8 authenticated payees API
+  slug: open-roadsync-payees-api
+- collection_type: open
+  name: Client API v1.8 authenticated payment API
+  slug: open-roadsync-payment-api
+- collection_type: open
+  name: Client API v1.8 authenticated ping API
+  slug: open-roadsync-ping-api
+- collection_type: open
+  name: Client API v1.8 authenticated product API
+  slug: open-roadsync-product-api
+- collection_type: open
+  name: Client API v1.8 authenticated shift API
+  slug: open-roadsync-shift-api
+- collection_type: open
+  name: Client API v1.8 authenticated transactions API
+  slug: open-roadsync-transactions-api
+- collection_type: open
+  name: Client API v1.8 authenticated unauthenticated API
+  slug: open-roadsync-unauthenticated-api
+- collection_type: open
+  name: Client API v1.8 authenticated workorders API
+  slug: open-roadsync-workorders-api
 common:
 - group: other
   title: ''
@@ -218,7 +276,7 @@ overview: 'Roadsync publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Roadsync''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, and 21 more developer resources.'
-random_paper: 27
+random_paper: 122
 score:
   band: thin
   composite: 41.3
@@ -248,7 +306,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

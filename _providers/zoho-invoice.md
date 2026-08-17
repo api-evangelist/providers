@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: REST API for managing organizations, contacts, items, invoices, estimates, credit notes, recurring invoices, expenses, projects, time entries, and customer payments. Authentication is OAuth 2.0 with O
@@ -48,7 +48,26 @@ apis:
 - description: The Organizations API from Zoho Invoice — 1 operation(s) for organizations.
   name: Zoho Invoice Organizations API
   slug: zoho-invoice-organizations-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zoho Invoice Contacts API
+  slug: open-zoho-invoice-contacts-api
+- collection_type: open
+  name: Zoho Invoice Credit Notes API
+  slug: open-zoho-invoice-credit-notes-api
+- collection_type: open
+  name: Zoho Invoice Estimates API
+  slug: open-zoho-invoice-estimates-api
+- collection_type: open
+  name: Zoho Invoice Invoices API
+  slug: open-zoho-invoice-invoices-api
+- collection_type: open
+  name: Zoho Invoice Organizations API
+  slug: open-zoho-invoice-organizations-api
 common:
 - group: auth
   title: ''
@@ -98,7 +117,7 @@ overview: 'Zoho Invoice publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Zoho Invoice''s developer surface includes documentation, pricing, signup flow, developer console, engineering blog, and 4 more developer resources.'
-random_paper: 42
+random_paper: 50
 score:
   band: thin
   composite: 29.4
@@ -118,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-invoice/refs/heads/main/screenshots/zoho-invoice-2026-06-20T201940.png
 security:

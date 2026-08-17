@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The TestCases API from Gentrace — 2 operation(s) for testcases.
   name: Gentrace TestCases API
   slug: gentrace-testcases-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gentrace Datasets API
+  slug: open-gentrace-datasets-api
+- collection_type: open
+  name: Gentrace Datasets Experiments API
+  slug: open-gentrace-experiments-api
+- collection_type: open
+  name: Gentrace Datasets Pipelines API
+  slug: open-gentrace-pipelines-api
+- collection_type: open
+  name: Gentrace Datasets TestCases API
+  slug: open-gentrace-testcases-api
 common:
 - group: auth
   title: ''
@@ -140,7 +156,7 @@ overview: 'Gentrace publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gentrace''s developer surface includes authentication, documentation, API reference, and 15 more developer resources.'
-random_paper: 1
+random_paper: 96
 score:
   band: thin
   composite: 32.4
@@ -164,7 +180,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/screenshots/gentrace-2026-07-25T215644.png
 security:

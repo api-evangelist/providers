@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Quotes API from Boost Insurance — 1 operation(s) for quotes.
   name: Boost Insurance Quotes API
   slug: boost-insurance-quotes-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Boost Insurance Authentication API
+  slug: open-boost-insurance-authentication-api
+- collection_type: open
+  name: Boost Insurance Authentication Claims API
+  slug: open-boost-insurance-claims-api
+- collection_type: open
+  name: Boost Insurance Authentication Policies API
+  slug: open-boost-insurance-policies-api
+- collection_type: open
+  name: Boost Insurance Authentication Quotes API
+  slug: open-boost-insurance-quotes-api
 - collection_type: open
   name: Boost Insurance API
   slug: open-boost-insurance
@@ -117,7 +132,7 @@ plans:
 - name: Boost Insurance Plans Pricing
   plan_count: 1
   slug: boost-insurance-plans-pricing
-random_paper: 4
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Boost Insurance Rate Limits
@@ -153,7 +168,7 @@ score:
     regime_id: insurance
     score: 43.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/screenshots/boost-insurance-2026-07-25T203625.png
 security:

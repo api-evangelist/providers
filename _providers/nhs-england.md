@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ overview: 'NHS England publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   NHS England''s developer surface includes authentication, API reference, support, sandbox, documentation, getting-started guide, engineering blog, and 26 more developer resources.'
-random_paper: 23
+random_paper: 60
 score:
   band: developing
   composite: 44.6
@@ -247,7 +247,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: The Classes API from Landing.ai — 1 operation(s) for classes.
@@ -72,7 +72,7 @@ apis:
 - description: The Training API from Landing.ai — 6 operation(s) for training.
   name: Landing.ai Training API
   slug: landingai-training-api
-artifact_total: 33
+artifact_total: 47
 collections:
 - collection_type: postman
   name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes API'
@@ -113,6 +113,48 @@ collections:
 - collection_type: postman
   name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Training API'
   slug: postman-landingai-training-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes API'
+  slug: open-landingai-classes-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Deployment API'
+  slug: open-landingai-deployment-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, , Classify, Split, Section Classes Extract API'
+  slug: open-landingai-extract-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Image API'
+  slug: open-landingai-image-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Metadata API'
+  slug: open-landingai-metadata-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Metrics API'
+  slug: open-landingai-metrics-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Model API'
+  slug: open-landingai-model-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: , Extract, Classify, Split, Section Classes Parse API'
+  slug: open-landingai-parse-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Project API'
+  slug: open-landingai-project-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Snapshot API'
+  slug: open-landingai-snapshot-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Tags API'
+  slug: open-landingai-tags-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Tools API'
+  slug: open-landingai-tools-api
+- collection_type: open
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Training API'
+  slug: open-landingai-training-api
 common:
 - group: other
   title: ''
@@ -279,7 +321,7 @@ plans:
 - name: Landingai Plans
   plan_count: 3
   slug: landingai-plans
-random_paper: 95
+random_paper: 41
 rate_limits:
 - limit_count: 4
   name: Landingai Rate Limits
@@ -306,7 +348,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/screenshots/landingai-2026-07-25T224504.png
 security:

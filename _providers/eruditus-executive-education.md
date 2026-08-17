@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -34,7 +34,17 @@ apis:
 - description: Emeritus program catalog resources.
   name: Eruditus Programs API
   slug: eruditus-executive-education-programs-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Emeritus Leads API
+  slug: open-eruditus-executive-education-leads-api
+- collection_type: open
+  name: Emeritus Programs API
+  slug: open-eruditus-executive-education-programs-api
 common:
 - group: other
   title: ''
@@ -164,7 +174,7 @@ overview: 'Eruditus publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Eruditus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 29
+random_paper: 78
 score:
   band: developing
   composite: 44.9
@@ -188,7 +198,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/screenshots/eruditus-executive-education-2026-08-07T165004.png
 security:

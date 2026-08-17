@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -54,11 +54,30 @@ apis:
 - description: The Scouting API from Yutori — 16 operation(s) for scouting.
   name: Yutori Scouting API
   slug: yutori-scouting-api
-artifact_total: 10
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Yutori Webhooks
   slug: yutori-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast Browsing API
+  slug: open-yutori-browsing-api
+- collection_type: open
+  name: Fast Browsing Chat Completions API
+  slug: open-yutori-chat-completions-api
+- collection_type: open
+  name: Fast Browsing Health API
+  slug: open-yutori-health-api
+- collection_type: open
+  name: Fast Browsing Research API
+  slug: open-yutori-research-api
+- collection_type: open
+  name: Fast Browsing Scouting API
+  slug: open-yutori-scouting-api
 common:
 - group: other
   title: ''
@@ -195,7 +214,7 @@ overview: 'Yutori publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Yutori''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 22 more developer resources.'
-random_paper: 84
+random_paper: 88
 score:
   band: developing
   composite: 53.5
@@ -219,7 +238,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

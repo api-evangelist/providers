@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Trade credit insurance policy management operations
   name: Allianz Trade Policy API
   slug: allianz-trade-online-policy-api
-artifact_total: 97
+artifact_total: 102
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Allianz Trade Claims API
+  slug: open-allianz-trade-online-claims-api
+- collection_type: open
+  name: Allianz Trade Claims Company Grade API
+  slug: open-allianz-trade-online-company-grade-api
+- collection_type: open
+  name: Allianz Trade Claims Payment Overdues API
+  slug: open-allianz-trade-online-payment-overdues-api
+- collection_type: open
+  name: Allianz Trade Claims Policy API
+  slug: open-allianz-trade-online-policy-api
 common:
 - group: other
   title: ''
@@ -395,7 +411,7 @@ overview: 'Allianz Trade publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Allianz Trade''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, and 14 more developer resources.'
-random_paper: 90
+random_paper: 73
 rules:
 - name: Allianz Trade API Rules
   rule_count: 5
@@ -446,7 +462,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/screenshots/allianz-trade-online-2026-07-25T195702.png
 security:

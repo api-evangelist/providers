@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Workspaces API from Amazon Managed Grafana — 8 operation(s) for workspaces.
   name: Amazon Managed Grafana Workspaces API
   slug: amazon-managed-grafana-workspaces-api
-artifact_total: 410
+artifact_total: 414
 collections:
 - collection_type: postman
   name: Amazon Managed Grafana Tags API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Amazon Managed Grafana Tags Workspaces API
   slug: postman-amazon-managed-grafana-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Managed Grafana Tags API
+  slug: open-amazon-managed-grafana-tags-api
+- collection_type: open
+  name: Amazon Managed Grafana Tags Versions API
+  slug: open-amazon-managed-grafana-versions-api
+- collection_type: open
+  name: Amazon Managed Grafana Tags Workspaces API
+  slug: open-amazon-managed-grafana-workspaces-api
 common:
 - group: build
   title: ''
@@ -1324,7 +1336,7 @@ plans:
 - name: Amazon Managed Grafana Plans Pricing
   plan_count: 3
   slug: amazon-managed-grafana-plans-pricing
-random_paper: 13
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Grafana Rate Limits
@@ -1366,7 +1378,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/screenshots/amazon-managed-grafana-2026-06-20T171733.png
 security:

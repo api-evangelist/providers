@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: Subscription order management
   name: OpenCart Subscriptions API
   slug: opencart-subscriptions-api
-artifact_total: 27
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenCart REST Affiliates API
+  slug: open-opencart-affiliates-api
+- collection_type: open
+  name: OpenCart REST Affiliates Authentication API
+  slug: open-opencart-authentication-api
+- collection_type: open
+  name: OpenCart REST Affiliates Cart API
+  slug: open-opencart-cart-api
+- collection_type: open
+  name: OpenCart REST Affiliates Customer API
+  slug: open-opencart-customer-api
+- collection_type: open
+  name: OpenCart REST Affiliates Orders API
+  slug: open-opencart-orders-api
+- collection_type: open
+  name: OpenCart REST Affiliates Payment Address API
+  slug: open-opencart-payment-address-api
+- collection_type: open
+  name: OpenCart REST Affiliates Payment Methods API
+  slug: open-opencart-payment-methods-api
+- collection_type: open
+  name: OpenCart REST Affiliates Shipping Address API
+  slug: open-opencart-shipping-address-api
+- collection_type: open
+  name: OpenCart REST Affiliates Shipping Methods API
+  slug: open-opencart-shipping-methods-api
+- collection_type: open
+  name: OpenCart REST Affiliates Subscriptions API
+  slug: open-opencart-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -188,7 +222,7 @@ plans:
 - name: Opencart Plans Pricing
   plan_count: 2
   slug: opencart-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Opencart Rate Limits
@@ -222,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/screenshots/opencart-2026-06-20T190918.png
 security:

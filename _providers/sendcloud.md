@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ arazzos:
 - description: Validate a return payload, create the return, then retrieve its full detail.
   name: Sendcloud Validate and Create a Return
   slug: sendcloud-validate-create-return-workflow
-artifact_total: 127
+artifact_total: 152
 collections:
 - collection_type: postman
   name: Shipments
@@ -201,8 +201,83 @@ collections:
   name: Webhooks
   slug: postman-sendcloud-v3-webhooks
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shipments Address API
+  slug: open-sendcloud-address-api
+- collection_type: open
+  name: Shipments Address Analytics API
+  slug: open-sendcloud-analytics-api
+- collection_type: open
+  name: Shipments Address Broadcast API
+  slug: open-sendcloud-broadcast-api
+- collection_type: open
+  name: Shipments Address Connections API
+  slug: open-sendcloud-connections-api
+- collection_type: open
+  name: Shipments Address Customs Documents Download API
+  slug: open-sendcloud-customs-documents-download-api
+- collection_type: open
+  name: Shipments Address Exception logs API
+  slug: open-sendcloud-exception-logs-api
+- collection_type: open
+  name: Shipments Address Integrations API
+  slug: open-sendcloud-integrations-api
+- collection_type: open
+  name: Shipments Address Label Download API
+  slug: open-sendcloud-label-download-api
+- collection_type: open
+  name: Shipments Address Labels API
+  slug: open-sendcloud-labels-api
+- collection_type: open
+  name: Shipments Address OAuth2 API
+  slug: open-sendcloud-oauth2-api
+- collection_type: open
+  name: Shipments Address Orders API
+  slug: open-sendcloud-orders-api
+- collection_type: open
+  name: Shipments Address Parcel Documents API
+  slug: open-sendcloud-parcel-documents-api
+- collection_type: open
+  name: Shipments Address Parcel Tracking API
+  slug: open-sendcloud-parcel-tracking-api
+- collection_type: open
+  name: Shipments Address Parcels API
+  slug: open-sendcloud-parcels-api
+- collection_type: open
+  name: Shipments Address Products API
+  slug: open-sendcloud-products-api
+- collection_type: open
+  name: Shipments Address Reporting API
+  slug: open-sendcloud-reporting-api
+- collection_type: open
+  name: Shipments Address Returns API
+  slug: open-sendcloud-returns-api
+- collection_type: open
+  name: Shipments Address Service Points API
+  slug: open-sendcloud-service-points-api
+- collection_type: open
+  name: Shipments Address Ship an Order API
+  slug: open-sendcloud-ship-an-order-api
+- collection_type: open
+  name: Address Shipments API
+  slug: open-sendcloud-shipments-api
+- collection_type: open
   name: Shipments
   slug: open-sendcloud-shipments
+- collection_type: open
+  name: Shipments Address Subscriptions API
+  slug: open-sendcloud-subscriptions-api
+- collection_type: open
+  name: Shipments Address Tracking API
+  slug: open-sendcloud-tracking-api
+- collection_type: open
+  name: Shipments Address Transit times API
+  slug: open-sendcloud-transit-times-api
+- collection_type: open
+  name: Shipments Address User Carriers and Shipping Methods API
+  slug: open-sendcloud-user-carriers-and-shipping-methods-api
 - collection_type: open
   name: Analytics
   slug: open-sendcloud-v2-analytics
@@ -561,7 +636,7 @@ plans:
 - name: Sendcloud Plans Pricing
   plan_count: 6
   slug: sendcloud-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Sendcloud Rate Limits
@@ -614,7 +689,7 @@ score:
     regime_id: telecommunications
     score: 54.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png
 security:

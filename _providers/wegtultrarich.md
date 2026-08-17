@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 72.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,20 @@ arazzos:
 - description: Discover the available wealth expressions, run a direction-aware them-vs-you comparison, then add a purchasing-power lens on the ultrarich side — the three calls behind a quotable inequality briefing.
   name: We > Ultrarich — wealth inequality briefing
   slug: wegtultrarich-wealth-inequality-briefing
-artifact_total: 20
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: We > Ultrarich Comparison API
+  slug: open-wegtultrarich-comparison-api
+- collection_type: open
+  name: We > Ultrarich Discovery API
+  slug: open-wegtultrarich-discovery-api
+- collection_type: open
+  name: We > Ultrarich Wealth Expression API
+  slug: open-wegtultrarich-wealth-expression-api
 common:
 - group: agent
   title: ''
@@ -101,7 +114,7 @@ common:
 - group: build
   title: ''
   type: Postman
-  url: https://www.postman.com/wegtultrarich/wegtultrarich-extreme-wealth-api-mcp-server/collection/kcacxo9/start-here-four-ways-to-understand-extreme-wealth
+  url: https://www.postman.com/wegtultrarich/we-ultrarich-extreme-wealth-api-mcp-server/collection/kcacxo9/start-here-four-ways-to-understand-extreme-wealth
 - group: commercial
   title: ''
   type: TermsOfService
@@ -258,7 +271,7 @@ overview: 'We > Ultrarich publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   We > Ultrarich''s developer surface includes pricing, documentation, API reference, getting-started guide, support, FAQ, changelog, and 35 more developer resources.'
-random_paper: 93
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Wegtultrarich Rate Limits
@@ -291,7 +304,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

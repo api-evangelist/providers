@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -240,11 +240,216 @@ apis:
 - description: The Whoami API from Skedulo — 1 operation(s) for whoami.
   name: Skedulo Whoami API
   slug: skedulo-whoami-api
-artifact_total: 72
+artifact_total: 140
 asyncapis:
 - description: ''
   name: Skedulo Webhooks
   slug: skedulo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authentication Admin API
+  slug: open-skedulo-admin-api
+- collection_type: open
+  name: Authentication Admin api-controller API
+  slug: open-skedulo-api-controller-api
+- collection_type: open
+  name: Authentication Admin Api User API
+  slug: open-skedulo-api-user-api
+- collection_type: open
+  name: Authentication Admin Async Job Management API
+  slug: open-skedulo-async-job-management-api
+- collection_type: open
+  name: Authentication Admin Attachment API
+  slug: open-skedulo-attachment-api
+- collection_type: open
+  name: Authentication Admin Attachments API
+  slug: open-skedulo-attachments-api
+- collection_type: open
+  name: Authentication Admin Autocomplete API
+  slug: open-skedulo-autocomplete-api
+- collection_type: open
+  name: Authentication Admin Availability API
+  slug: open-skedulo-availability-api
+- collection_type: open
+  name: Authentication Admin Avatar API
+  slug: open-skedulo-avatar-api
+- collection_type: open
+  name: Authentication Admin Batch API
+  slug: open-skedulo-batch-api
+- collection_type: open
+  name: Authentication Admin Config API
+  slug: open-skedulo-config-api
+- collection_type: open
+  name: Authentication Admin Device Notification Information and Registration API
+  slug: open-skedulo-device-notification-information-and-registration-api
+- collection_type: open
+  name: Authentication Admin Directions API
+  slug: open-skedulo-directions-api
+- collection_type: open
+  name: Authentication Admin DistanceMatrix API
+  slug: open-skedulo-distancematrix-api
+- collection_type: open
+  name: Authentication Admin Features API
+  slug: open-skedulo-features-api
+- collection_type: open
+  name: Authentication Admin Geocode API
+  slug: open-skedulo-geocode-api
+- collection_type: open
+  name: Authentication Admin Geoservices API
+  slug: open-skedulo-geoservices-api
+- collection_type: open
+  name: Authentication Admin Graphql API
+  slug: open-skedulo-graphql-api
+- collection_type: open
+  name: Authentication Admin Grid API
+  slug: open-skedulo-grid-api
+- collection_type: open
+  name: Authentication Admin ICal API
+  slug: open-skedulo-ical-api
+- collection_type: open
+  name: Authentication Admin Internal API
+  slug: open-skedulo-internal-api
+- collection_type: open
+  name: Authentication Admin Job Notifications and Responses API
+  slug: open-skedulo-job-notifications-and-responses-api
+- collection_type: open
+  name: Authentication Admin Job scheduling API
+  slug: open-skedulo-job-scheduling-api
+- collection_type: open
+  name: Authentication Admin Limits API
+  slug: open-skedulo-limits-api
+- collection_type: open
+  name: Authentication Admin Link Resource API
+  slug: open-skedulo-link-resource-api
+- collection_type: open
+  name: Authentication Admin Link Temp Id API
+  slug: open-skedulo-link-temp-id-api
+- collection_type: open
+  name: Authentication Admin Location API
+  slug: open-skedulo-location-api
+- collection_type: open
+  name: Authentication Admin Meetings API
+  slug: open-skedulo-meetings-api
+- collection_type: open
+  name: Authentication Admin Metadata API
+  slug: open-skedulo-metadata-api
+- collection_type: open
+  name: Authentication Admin Notification Templates API
+  slug: open-skedulo-notification-templates-api
+- collection_type: open
+  name: Authentication Admin Offers API
+  slug: open-skedulo-offers-api
+- collection_type: open
+  name: Authentication Admin Optimize API
+  slug: open-skedulo-optimize-api
+- collection_type: open
+  name: Authentication Admin Org Preference API
+  slug: open-skedulo-org-preference-api
+- collection_type: open
+  name: Authentication Admin Place API
+  slug: open-skedulo-place-api
+- collection_type: open
+  name: Authentication Admin Policy Management API
+  slug: open-skedulo-policy-management-api
+- collection_type: open
+  name: Authentication Admin Policy Template Management API
+  slug: open-skedulo-policy-template-management-api
+- collection_type: open
+  name: Authentication Admin Provision API
+  slug: open-skedulo-provision-api
+- collection_type: open
+  name: Authentication Admin Recipe API
+  slug: open-skedulo-recipe-api
+- collection_type: open
+  name: Authentication Admin Resource allocations API
+  slug: open-skedulo-resource-allocations-api
+- collection_type: open
+  name: Authentication Admin Rule Management API
+  slug: open-skedulo-rule-management-api
+- collection_type: open
+  name: Authentication Admin Rule Violation Management API
+  slug: open-skedulo-rule-violation-management-api
+- collection_type: open
+  name: Authentication Admin Rules API
+  slug: open-skedulo-rules-api
+- collection_type: open
+  name: Authentication Admin Run API
+  slug: open-skedulo-run-api
+- collection_type: open
+  name: Authentication Admin Salesforce API
+  slug: open-skedulo-salesforce-api
+- collection_type: open
+  name: Authentication Admin Schedule API
+  slug: open-skedulo-schedule-api
+- collection_type: open
+  name: Authentication Admin Schedule summaries API
+  slug: open-skedulo-schedule-summaries-api
+- collection_type: open
+  name: Authentication Admin scheduling API
+  slug: open-skedulo-scheduling-api
+- collection_type: open
+  name: Authentication Admin Schema API
+  slug: open-skedulo-schema-api
+- collection_type: open
+  name: Authentication Admin SMS Messaging API
+  slug: open-skedulo-sms-messaging-api
+- collection_type: open
+  name: Authentication Admin Solve API
+  slug: open-skedulo-solve-api
+- collection_type: open
+  name: Authentication Admin Standalone API
+  slug: open-skedulo-standalone-api
+- collection_type: open
+  name: Authentication Admin Standard Fields API
+  slug: open-skedulo-standard-fields-api
+- collection_type: open
+  name: Authentication Admin Static API
+  slug: open-skedulo-static-api
+- collection_type: open
+  name: Authentication Admin Subscriptions API
+  slug: open-skedulo-subscriptions-api
+- collection_type: open
+  name: Authentication Admin Suggest API
+  slug: open-skedulo-suggest-api
+- collection_type: open
+  name: Authentication Admin Template API
+  slug: open-skedulo-template-api
+- collection_type: open
+  name: Authentication Admin Templates API
+  slug: open-skedulo-templates-api
+- collection_type: open
+  name: Authentication Admin tenant-controller API
+  slug: open-skedulo-tenant-controller-api
+- collection_type: open
+  name: Authentication Admin Timezone API
+  slug: open-skedulo-timezone-api
+- collection_type: open
+  name: Authentication Admin Token API
+  slug: open-skedulo-token-api
+- collection_type: open
+  name: Authentication Admin Tokens API
+  slug: open-skedulo-tokens-api
+- collection_type: open
+  name: Authentication Admin Travel API
+  slug: open-skedulo-travel-api
+- collection_type: open
+  name: Authentication Admin Triggered Actions API
+  slug: open-skedulo-triggered-actions-api
+- collection_type: open
+  name: Authentication Admin Vocabularies API
+  slug: open-skedulo-vocabularies-api
+- collection_type: open
+  name: Authentication Admin Vocabulary API
+  slug: open-skedulo-vocabulary-api
+- collection_type: open
+  name: Authentication Admin Webhooks API
+  slug: open-skedulo-webhooks-api
+- collection_type: open
+  name: Authentication Admin Whoami API
+  slug: open-skedulo-whoami-api
 common:
 - group: other
   title: ''
@@ -389,7 +594,7 @@ overview: 'Skedulo publishes 67 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Skedulo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 39
+random_paper: 14
 score:
   band: developing
   composite: 53.3
@@ -413,7 +618,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

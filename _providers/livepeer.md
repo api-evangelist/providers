@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -157,7 +157,7 @@ arazzos:
 - description: Request a direct upload URL, then poll the asset and task until ready.
   name: Livepeer Upload and Process an Asset
   slug: livepeer-upload-and-process-asset-workflow
-artifact_total: 106
+artifact_total: 126
 collections:
 - collection_type: postman
   name: Livepeer AI Runner
@@ -172,17 +172,77 @@ collections:
   name: Livepeer API Reference
   slug: postman-livepeer-studio
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Livepeer API Reference accessControl API
+  slug: open-livepeer-accesscontrol-api
+- collection_type: open
   name: Livepeer AI Runner
   slug: open-livepeer-ai-worker
+- collection_type: open
+  name: Livepeer API Reference accessControl asset API
+  slug: open-livepeer-asset-api
 - collection_type: open
   name: Livepeer CLI Local HTTP API
   slug: open-livepeer-cli-http
 - collection_type: open
+  name: Livepeer AI Runner accessControl Ethereum API
+  slug: open-livepeer-ethereum-api
+- collection_type: open
+  name: Livepeer AI Runner accessControl Gateway API
+  slug: open-livepeer-gateway-api
+- collection_type: open
   name: Livepeer AI Runner
   slug: open-livepeer-gateway
 - collection_type: open
+  name: Livepeer API Reference accessControl generate API
+  slug: open-livepeer-generate-api
+- collection_type: open
+  name: Livepeer AI Runner accessControl Hardware API
+  slug: open-livepeer-hardware-api
+- collection_type: open
+  name: Livepeer AI Runner accessControl Health API
+  slug: open-livepeer-health-api
+- collection_type: open
+  name: Livepeer API Reference accessControl metrics API
+  slug: open-livepeer-metrics-api
+- collection_type: open
+  name: Livepeer API Reference accessControl multistream API
+  slug: open-livepeer-multistream-api
+- collection_type: open
+  name: Livepeer AI Runner accessControl Orchestrator API
+  slug: open-livepeer-orchestrator-api
+- collection_type: open
+  name: Livepeer API Reference accessControl playback API
+  slug: open-livepeer-playback-api
+- collection_type: open
+  name: Livepeer API Reference accessControl room API
+  slug: open-livepeer-room-api
+- collection_type: open
+  name: Livepeer API Reference accessControl session API
+  slug: open-livepeer-session-api
+- collection_type: open
+  name: Livepeer AI Runner accessControl Staking API
+  slug: open-livepeer-staking-api
+- collection_type: open
+  name: Livepeer AI Runner accessControl Status API
+  slug: open-livepeer-status-api
+- collection_type: open
+  name: Livepeer API Reference accessControl stream API
+  slug: open-livepeer-stream-api
+- collection_type: open
   name: Livepeer API Reference
   slug: open-livepeer-studio
+- collection_type: open
+  name: Livepeer API Reference accessControl task API
+  slug: open-livepeer-task-api
+- collection_type: open
+  name: Livepeer API Reference accessControl transcode API
+  slug: open-livepeer-transcode-api
+- collection_type: open
+  name: Livepeer API Reference accessControl webhook API
+  slug: open-livepeer-webhook-api
 - collection_type: open
   name: Livepeer API Reference
   slug: open-livepeer
@@ -490,7 +550,7 @@ plans:
 - name: Livepeer Plans Pricing
   plan_count: 1
   slug: livepeer-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 2
   name: Livepeer Rate Limits
@@ -540,7 +600,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/screenshots/livepeer-2026-06-20T184614.png
 security:

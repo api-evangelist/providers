@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Platform-agnostic REST API for bi-directional task synchronization between Cynomi and any PSA or ticketing system — push remediation tasks from Cynomi and pull status updates back to keep both systems
@@ -120,7 +120,7 @@ overview: 'Cynomi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cynomi''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 13 more developer resources.'
-random_paper: 55
+random_paper: 59
 scopes:
 - name: Cynomi Scopes
   scope_count: 11
@@ -139,7 +139,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/screenshots/cynomi-2026-07-25T211052.png
 security:

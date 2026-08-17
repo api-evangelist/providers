@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,14 +61,26 @@ arazzos:
 - description: Report an observation for an external asset, then report its materialization.
   name: Dagster Observe and Materialize External Asset
   slug: dagster-observe-then-materialize-asset-workflow
-artifact_total: 22
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Dagster External Assets REST API
   slug: postman-dagster-external-assets-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dagster External Assets REST Checks API
+  slug: open-dagster-checks-api
+- collection_type: open
   name: Dagster External Assets REST API
   slug: open-dagster-external-assets-rest-api
+- collection_type: open
+  name: Dagster External Assets REST Checks Materializations API
+  slug: open-dagster-materializations-api
+- collection_type: open
+  name: Dagster External Assets REST Checks Observations API
+  slug: open-dagster-observations-api
 common:
 - group: operate
   title: ''
@@ -252,7 +264,7 @@ plans:
 - name: Dagster Plans Pricing
   plan_count: 3
   slug: dagster-plans-pricing
-random_paper: 26
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Dagster Rate Limits
@@ -294,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/screenshots/dagster-2026-06-20T175440.png
 security:

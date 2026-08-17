@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Odeko is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Odeko''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 50
+random_paper: 83
 score:
   band: emerging
   composite: 15.6
@@ -107,7 +107,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odeko/refs/heads/main/screenshots/odeko-2026-08-07T185957.png
 security:

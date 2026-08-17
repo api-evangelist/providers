@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The news-articles API from Prometheus Fuels — 10 operation(s) over the site's `news-articles` custom post type, the company's published press and news coverage. Read operations respond anonymously; wr
@@ -57,7 +57,47 @@ apis:
 - description: The statuses API from Prometheus Fuels — 2 operation(s) describing publication statuses.
   name: Prometheus Fuels statuses API
   slug: prometheus-fuels-statuses-api
-artifact_total: 15
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Categories API
+  slug: open-prometheus-fuels-categories-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Comments API
+  slug: open-prometheus-fuels-comments-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Media API
+  slug: open-prometheus-fuels-media-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) News Articles API
+  slug: open-prometheus-fuels-news-articles-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Pages API
+  slug: open-prometheus-fuels-pages-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Posts API
+  slug: open-prometheus-fuels-posts-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Search API
+  slug: open-prometheus-fuels-search-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Statuses API
+  slug: open-prometheus-fuels-statuses-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Tags API
+  slug: open-prometheus-fuels-tags-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Taxonomies API
+  slug: open-prometheus-fuels-taxonomies-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Types API
+  slug: open-prometheus-fuels-types-api
+- collection_type: open
+  name: Prometheus Fuels Website Content API (WordPress REST API) Users API
+  slug: open-prometheus-fuels-users-api
 common:
 - group: auth
   title: ''
@@ -152,7 +192,7 @@ overview: 'Prometheus Fuels publishes 12 APIs on the [APIs.io](https://apis.io/)
 
 
   Prometheus Fuels'' developer surface includes authentication, YouTube channel, and 17 more developer resources.'
-random_paper: 8
+random_paper: 49
 score:
   band: emerging
   composite: 26.9
@@ -181,7 +221,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

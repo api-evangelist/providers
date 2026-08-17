@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Developer SDK for high-fidelity 3D avatar generation from a single photo, delivered as Unreal and Unity engine plugins backed by a deployable avatar-generation API. No public machine-readable API desc
@@ -95,7 +95,7 @@ overview: 'Pinscreen publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Pinscreen''s developer surface includes support, YouTube channel, and 10 more developer resources.'
-random_paper: 7
+random_paper: 73
 score:
   band: emerging
   composite: 14.8
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

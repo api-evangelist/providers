@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: Create, retrieve, and manage customers (consumers) and their debts.
   name: TrueAccord Customers API
   slug: trueaccord-customers-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TrueAccord Recover Customers API
+  slug: open-trueaccord-customers-api
 common:
 - group: company
   title: ''
@@ -139,7 +146,7 @@ overview: 'TrueAccord publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   TrueAccord''s developer surface includes documentation, API reference, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 108
+random_paper: 25
 score:
   band: thin
   composite: 38.2
@@ -163,7 +170,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

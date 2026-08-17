@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API over the Red Canary portal. Documented resources include detections, threats, events, endpoints, endpoint_users, identities, investigations and audit_logs. Requests carry a per-
@@ -166,7 +166,7 @@ overview: 'Red Canary publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Red Canary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 25 more developer resources.'
-random_paper: 38
+random_paper: 104
 score:
   band: thin
   composite: 40.4
@@ -182,7 +182,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

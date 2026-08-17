@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: The Verify API from Smarty — 1 operation(s) for verify.
   name: Smarty Verify API
   slug: smarty-verify-api
-artifact_total: 24
+artifact_total: 31
 collections:
 - collection_type: postman
   name: International Address Autocomplete Lookup API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: International Address Autocomplete Lookup Verify API
   slug: postman-smarty-verify-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: International Address Autocomplete Lookup API
+  slug: open-smarty-lookup-api
+- collection_type: open
+  name: International Address Autocomplete Lookup reverse-geo API
+  slug: open-smarty-reverse-geo-api
+- collection_type: open
+  name: International Address Autocomplete Lookup street-address API
+  slug: open-smarty-street-address-api
+- collection_type: open
+  name: International Address Autocomplete Lookup us-enrichment API
+  slug: open-smarty-us-enrichment-api
+- collection_type: open
+  name: International Address Autocomplete Lookup US Extract API API
+  slug: open-smarty-us-extract-api-api
+- collection_type: open
+  name: International Address Autocomplete Lookup Verify API
+  slug: open-smarty-verify-api
 common:
 - group: build
   title: ''
@@ -204,7 +225,7 @@ plans:
 - name: Smarty Plans Pricing
   plan_count: 5
   slug: smarty-plans-pricing
-random_paper: 72
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Smarty Rate Limits
@@ -238,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/screenshots/smarty-2026-06-20T194052.png
 security:

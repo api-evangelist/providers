@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: Test-run sessions and their captured commands.
   name: Kobiton Sessions API
   slug: kobiton-sessions-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kobiton REST Apps API
+  slug: open-kobiton-apps-api
+- collection_type: open
+  name: Kobiton REST Apps Data Sets API
+  slug: open-kobiton-data-sets-api
+- collection_type: open
+  name: Kobiton REST Apps Devices API
+  slug: open-kobiton-devices-api
+- collection_type: open
+  name: Kobiton REST Apps Organization API
+  slug: open-kobiton-organization-api
+- collection_type: open
+  name: Kobiton REST Apps Scriptless Automation API
+  slug: open-kobiton-scriptless-automation-api
+- collection_type: open
+  name: Kobiton REST Apps Sessions API
+  slug: open-kobiton-sessions-api
 - collection_type: open
   name: Kobiton REST API
   slug: open-kobiton
@@ -126,7 +147,7 @@ plans:
 - name: Kobiton Plans Pricing
   plan_count: 4
   slug: kobiton-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Kobiton Rate Limits
@@ -151,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/screenshots/kobiton-2026-07-25T224033.png
 security:

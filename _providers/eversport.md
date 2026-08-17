@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Read-only GraphQL API exposing activity schedules (classes, courses, workshops, trainings, events, camps, retreats, educations), activity groups, venues, companies, teachers, and per-activity checkout
@@ -131,7 +131,7 @@ overview: 'Eversports publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Eversports'' developer surface includes documentation, API reference, support, pricing, authentication, and 14 more developer resources.'
-random_paper: 42
+random_paper: 108
 score:
   band: thin
   composite: 31.4
@@ -149,7 +149,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversport/refs/heads/main/screenshots/eversport-2026-07-25T213737.png
 security:

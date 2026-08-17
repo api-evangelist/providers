@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Instagram Business and Creator account profiles
   name: Instagram Users API
   slug: instagram-users-api
-artifact_total: 87
+artifact_total: 95
 collections:
 - collection_type: postman
   name: Instagram Graph Comments API
@@ -89,6 +89,30 @@ collections:
 - collection_type: postman
   name: Instagram Graph Comments Users API
   slug: postman-instagram-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Instagram Graph Comments API
+  slug: open-instagram-comments-api
+- collection_type: open
+  name: Instagram Graph Comments Hashtags API
+  slug: open-instagram-hashtags-api
+- collection_type: open
+  name: Instagram Graph Comments Insights API
+  slug: open-instagram-insights-api
+- collection_type: open
+  name: Instagram Graph Comments Media API
+  slug: open-instagram-media-api
+- collection_type: open
+  name: Instagram Graph Comments Mentions API
+  slug: open-instagram-mentions-api
+- collection_type: open
+  name: Instagram Graph Comments Publishing API
+  slug: open-instagram-publishing-api
+- collection_type: open
+  name: Instagram Graph Comments Users API
+  slug: open-instagram-users-api
 common:
 - group: build
   title: ''
@@ -318,7 +342,7 @@ plans:
 - name: Instagram Plans Pricing
   plan_count: 2
   slug: instagram-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 6
   name: Instagram Rate Limits
@@ -365,7 +389,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/screenshots/instagram-2026-06-20T183411.png
 security:

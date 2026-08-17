@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ arazzos:
 - description: Read a wallet's token balances and then its recent ERC-20 transfer history.
   name: Ankr Wallet Portfolio Snapshot
   slug: ankr-wallet-portfolio-workflow
-artifact_total: 68
+artifact_total: 77
 asyncapis:
 - description: 'AsyncAPI description of Ankr''s WebSocket JSON-RPC surface for blockchain subscriptions. Ankr exposes a single multichain WSS endpoint at `wss://rpc.ankr.com/{chain_slug}/{apiKey}` for every chain its '
   name: Ankr RPC Service — WebSocket Subscriptions
@@ -116,17 +116,44 @@ collections:
   name: Ankr Liquid Staking API
   slug: postman-ankr-staking-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Ankr Advanced API
   slug: open-ankr-advanced-api
 - collection_type: open
   name: Ankr Contract Automation API
   slug: open-ankr-automation-api
 - collection_type: open
+  name: Ankr Advanced EVM API
+  slug: open-ankr-evm-api
+- collection_type: open
+  name: Ankr Advanced EVM Metrics API
+  slug: open-ankr-metrics-api
+- collection_type: open
+  name: Ankr Advanced EVM NFT API
+  slug: open-ankr-nft-api
+- collection_type: open
+  name: Ankr Advanced EVM Query API
+  slug: open-ankr-query-api
+- collection_type: open
+  name: Ankr Advanced EVM Ratio API
+  slug: open-ankr-ratio-api
+- collection_type: open
   name: Ankr RPC Service (Node API)
   slug: open-ankr-rpc-service
 - collection_type: open
   name: Ankr Liquid Staking API
   slug: open-ankr-staking-api
+- collection_type: open
+  name: Ankr Advanced EVM Tasks API
+  slug: open-ankr-tasks-api
+- collection_type: open
+  name: Ankr Advanced EVM Token API
+  slug: open-ankr-token-api
+- collection_type: open
+  name: Ankr Advanced EVM Validators API
+  slug: open-ankr-validators-api
 common:
 - group: agent
   title: ''
@@ -388,7 +415,7 @@ plans:
 - name: Ankr Plans Pricing
   plan_count: 4
   slug: ankr-plans-pricing
-random_paper: 68
+random_paper: 130
 rate_limits:
 - limit_count: 5
   name: Ankr Rate Limits
@@ -438,7 +465,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/screenshots/ankr-2026-06-20T172009.png
 security:

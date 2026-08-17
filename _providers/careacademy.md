@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Compliance Report API from CareAcademy — 1 operation(s) for compliance report.
@@ -46,7 +46,26 @@ apis:
 - description: The Sign In Url API from CareAcademy — 1 operation(s) for sign in url.
   name: CareAcademy Sign In Url API
   slug: careacademy-sign-in-url-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CareAcademy Compliance Report API
+  slug: open-careacademy-compliance-report-api
+- collection_type: open
+  name: CareAcademy Compliance Report Locations API
+  slug: open-careacademy-locations-api
+- collection_type: open
+  name: CareAcademy Compliance Report Organizations API
+  slug: open-careacademy-organizations-api
+- collection_type: open
+  name: CareAcademy Compliance Report Practitioners API
+  slug: open-careacademy-practitioners-api
+- collection_type: open
+  name: CareAcademy Compliance Report Sign In Url API
+  slug: open-careacademy-sign-in-url-api
 common:
 - group: other
   title: ''
@@ -164,7 +183,7 @@ overview: 'CareAcademy publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CareAcademy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 55
+random_paper: 92
 score:
   band: developing
   composite: 43.8
@@ -193,7 +212,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/screenshots/careacademy-2026-08-07T175428.png
 security:

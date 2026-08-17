@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Asset metadata lookup
@@ -43,7 +43,23 @@ apis:
 - description: Wallet balances across all asset types
   name: Bitpanda wallets API
   slug: bitpanda-wallets-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bitpanda Platform assets API
+  slug: open-bitpanda-assets-api
+- collection_type: open
+  name: Bitpanda Platform assets market-data API
+  slug: open-bitpanda-market-data-api
+- collection_type: open
+  name: Bitpanda Platform assets transactions API
+  slug: open-bitpanda-transactions-api
+- collection_type: open
+  name: Bitpanda Platform assets wallets API
+  slug: open-bitpanda-wallets-api
 common:
 - group: other
   title: ''
@@ -185,7 +201,7 @@ overview: 'Bitpanda publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bitpanda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 115
+random_paper: 90
 score:
   band: developing
   composite: 55.9
@@ -214,7 +230,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/screenshots/bitpanda-2026-07-25T203204.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Manage color-coded check tags.
   name: Uptime.com Tags API
   slug: uptime-com-tags-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Uptime.com REST Checks API
+  slug: open-uptime-com-checks-api
+- collection_type: open
+  name: Uptime.com REST Checks Contacts API
+  slug: open-uptime-com-contacts-api
+- collection_type: open
+  name: Uptime.com REST Checks Integrations API
+  slug: open-uptime-com-integrations-api
+- collection_type: open
+  name: Uptime.com REST Checks Outages API
+  slug: open-uptime-com-outages-api
+- collection_type: open
+  name: Uptime.com REST Checks SLA Reports API
+  slug: open-uptime-com-sla-reports-api
+- collection_type: open
+  name: Uptime.com REST Checks Status Pages API
+  slug: open-uptime-com-status-pages-api
+- collection_type: open
+  name: Uptime.com REST Checks Tags API
+  slug: open-uptime-com-tags-api
 - collection_type: open
   name: Uptime.com REST API
   slug: open-uptime-com
@@ -130,7 +154,7 @@ plans:
 - name: Uptime Com Plans Pricing
   plan_count: 4
   slug: uptime-com-plans-pricing
-random_paper: 64
+random_paper: 130
 rate_limits:
 - limit_count: 4
   name: Uptime Com Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

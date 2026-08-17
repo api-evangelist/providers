@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Text and vision-language chat completions
@@ -43,7 +43,23 @@ apis:
 - description: Object detection and segmentation
   name: Wombo Predictions API
   slug: wombo-predictions-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: w.ai Inference Chat API
+  slug: open-wombo-chat-api
+- collection_type: open
+  name: w.ai Inference Chat Images API
+  slug: open-wombo-images-api
+- collection_type: open
+  name: w.ai Inference Chat Models API
+  slug: open-wombo-models-api
+- collection_type: open
+  name: w.ai Inference Chat Predictions API
+  slug: open-wombo-predictions-api
 common:
 - group: company
   title: ''
@@ -157,7 +173,7 @@ overview: 'Wombo publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wombo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 68
+random_paper: 101
 score:
   band: thin
   composite: 30.9
@@ -180,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

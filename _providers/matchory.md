@@ -11,30 +11,31 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-12'
+  score: 47.3
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Matchory Discovery API exposes the resolved-and-enriched supplier data layer — verified supplier profiles, MatchoryID identity resolution, portfolio consolidation, risk signals, and market intelli
   name: Matchory Discovery API
   slug: matchory-discovery-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Matchory Webhooks
@@ -116,6 +117,52 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/matchory-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/matchory-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/matchory-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/matchory-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/matchory-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/matchory-conventions.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/matchory-robots.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://matchory.com/en/newsroom
+- group: operate
+  title: ''
+  type: Support
+  url: https://matchory.com/en/contact-us
+coverage:
+  checked: '2026-08-14'
+  detail: Matchory markets a REST API, a GraphQL endpoint, webhooks and a first-party MCP server on matchory.com/en/technology, but the developer reference and every machine-readable contract live inside the authenticated discovery.matchory.com tenant — MCP tools/list returns HTTP 401 invalid_token, no OpenAPI exists on any host, and the advertised GraphQL endpoint has no publicly reachable location (POST /graphql answers 405 from the SPA catch-all).
+  evidence:
+  - status: 401
+    url: https://discovery.matchory.com/mcp
+  - status: 404
+    url: https://api.matchory.com/openapi.json
+  - status: 404
+    url: https://matchory.com/openapi.json
+  - status: 405
+    url: https://discovery.matchory.com/graphql
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
 description: Matchory (Matchory GmbH) is a Munich-based supplier data platform for enterprise procurement. It resolves fragmented, duplicated supplier records from spreadsheets and ERP systems into a single stable identity — the MatchoryID — with 90%+ accuracy, then continuously enriches each supplier with verified profiles, market intelligence, and five-dimension risk signals (financial, country, supply-chain, compliance, ESG) drawn from a database of 15M+ verified global suppliers. Procurement teams and AI agents reach the data through a web UI, a REST/GraphQL API, webhooks, and a first-party OAuth-protected Model Context Protocol (MCP) server, letting assistants such as Claude and Microsoft Copilot ground answers in source-traceable, confidence-scored supplier data. The platform is EU-sovereign — hosted in Germany, GDPR-compliant, and ISO 27001 certified — and is used by enterprise procurement organizations including Bosch, Kärcher, Deutsche Bahn, E.ON, DMG Mori, and Trumpf.
 image: https://cdn.prod.website-files.com/6784f7971856e0304b40e3de/679028bece9dccdfc4e67c4e_favicon.svg
@@ -127,7 +174,7 @@ mcp_servers:
 - description: ''
   name: matchory-mcp.yml
   slug: matchory-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Matchory
 nav: Providers
 network: true
@@ -137,21 +184,29 @@ overview: 'Matchory publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Matchory catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Matchory''s developer surface includes documentation, signup flow, pricing, authentication, and 15 more developer resources.'
-random_paper: 31
+  Matchory''s developer surface includes documentation, signup flow, pricing, authentication, engineering blog, support, and 21 more developer resources.'
+plans:
+- name: Matchory Plans Pricing
+  plan_count: 3
+  slug: matchory-plans-pricing
+random_paper: 126
+rate_limits:
+- limit_count: 0
+  name: Matchory Rate Limits
+  slug: matchory-rate-limits
 scopes:
 - name: Matchory Scopes
   scope_count: 4
   slug: matchory-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 41.6
-  delta: 0.0
+  band: developing
+  composite: 49.2
+  delta: 7.6
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 84.2
     contract_quality: 51.6
-    developer_ergonomics: 37.0
+    developer_ergonomics: 43.5
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 13.2
@@ -160,8 +215,8 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/screenshots/matchory-2026-07-25T230348.png
 security:
 - kind: authentication

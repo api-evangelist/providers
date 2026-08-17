@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Address Book API from Utila — 5 operation(s) for address book.
@@ -52,7 +52,7 @@ apis:
 - description: The Wallets API from Utila — 10 operation(s) for wallets.
   name: Utila Wallets API
   slug: utila-wallets-api
-artifact_total: 19
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Utila Webhooks
@@ -79,6 +79,30 @@ collections:
 - collection_type: postman
   name: Utila Address Book Wallets API
   slug: postman-utila-wallets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Utila Address Book API
+  slug: open-utila-address-book-api
+- collection_type: open
+  name: Utila Address Book Assets API
+  slug: open-utila-assets-api
+- collection_type: open
+  name: Utila Address Book Balances API
+  slug: open-utila-balances-api
+- collection_type: open
+  name: Utila Address Book Blockchains API
+  slug: open-utila-blockchains-api
+- collection_type: open
+  name: Utila Address Book Transactions API
+  slug: open-utila-transactions-api
+- collection_type: open
+  name: Utila Address Book Vaults API
+  slug: open-utila-vaults-api
+- collection_type: open
+  name: Utila Address Book Wallets API
+  slug: open-utila-wallets-api
 common:
 - group: other
   title: ''
@@ -239,7 +263,7 @@ overview: 'Utila publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Utila''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
-random_paper: 63
+random_paper: 96
 score:
   band: strong
   composite: 57.4
@@ -268,7 +292,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

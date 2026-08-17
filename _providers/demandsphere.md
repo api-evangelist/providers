@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid plans from $79/mo, demo-led signup
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - https://www.demandsphere.com/pricing/
   - authentication
   trial: false
   try_now: false
@@ -23,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-12'
+  score: 42.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -50,7 +51,23 @@ apis:
 - description: The Sites API from DemandSphere — 2 operation(s) for sites.
   name: DemandSphere Sites API
   slug: demandsphere-sites-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DemandSphere API v5.0 Documentation Keywords API
+  slug: open-demandsphere-keywords-api
+- collection_type: open
+  name: DemandSphere API v5.0 Documentation Keywords Pages API
+  slug: open-demandsphere-pages-api
+- collection_type: open
+  name: DemandSphere API v5.0 Documentation Keywords SearchEngines API
+  slug: open-demandsphere-searchengines-api
+- collection_type: open
+  name: DemandSphere API v5.0 Documentation Keywords Sites API
+  slug: open-demandsphere-sites-api
 common:
 - group: other
   title: ''
@@ -168,6 +185,26 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/demandsphere-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/demandsphere-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/demandsphere-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/demandsphere-changelog.yml
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.demandsphere.com/resources/help-center/
 created: '2026-07-17'
 description: DemandSphere is a unified AI search visibility platform (founded 2010, Y Combinator S10) that tracks brand presence across traditional search engine results pages, AI search engines (ChatGPT, Gemini, Perplexity, AI Overviews, AI Mode), and agentic surfaces. Its modular products cover DemandMetrics SERP analytics, DemandMetrics for Gen AI (LLM visibility and citation tracking), DemandSphere Agents workflow automation, Analytics AX log-file analytics, and Search Intelligence, a BigQuery data warehouse. The DemandSphere REST API (v5.0) exposes rank tracking, ranking trends, keyword groups, local rankings, landing matches, search-engine summaries, and site hierarchy data as JSON over api-key authentication, across 200+ markets and 10+ search engines, and is complemented by a first-party Model Context Protocol (MCP) server for agent access.
 image: https://www.demandsphere.com/favicon.ico
@@ -176,21 +213,29 @@ mcp_servers:
 - description: ''
   name: demandsphere-mcp.yml
   slug: demandsphere-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: DemandSphere
 nav: Providers
 network: true
 overview: 'DemandSphere publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Keywords API, Pages API, SearchEngines API, and 1 more. Tagged areas include Company, SEO, Search Intelligence, SERP Analytics, and AI Search.
 
 
-  DemandSphere''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 22 more developer resources.'
-random_paper: 64
+  DemandSphere''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 27 more developer resources.'
+plans:
+- name: Demandsphere Plans Pricing
+  plan_count: 3
+  slug: demandsphere-plans-pricing
+random_paper: 72
+rate_limits:
+- limit_count: 0
+  name: Demandsphere Rate Limits
+  slug: demandsphere-rate-limits
 score:
-  band: developing
-  composite: 54.3
-  delta: 0.0
+  band: strong
+  composite: 60.6
+  delta: 6.3
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 51.5
     developer_ergonomics: 62.5
     discoverability: 92.6
@@ -208,8 +253,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/screenshots/demandsphere-2026-07-25T211708.png
 security:
 - kind: authentication
@@ -227,7 +272,7 @@ security:
 - kind: trust-center
   name: Demandsphere Trust Center
   slug: demandsphere-trust-center
-  summary_line: GDPR
+  summary_line: SOC 2, GDPR
 slug: demandsphere
 tags:
 - Company

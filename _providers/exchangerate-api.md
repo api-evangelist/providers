@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,11 +80,35 @@ arazzos:
 - description: Check remaining quota, then use the keyed endpoint or fall back to open access.
   name: ExchangeRate-API Quota Guarded Rates
   slug: exchangerate-api-quota-guarded-rates-workflow
-artifact_total: 75
+artifact_total: 83
 collections:
 - collection_type: postman
   name: ExchangeRate-API
   slug: postman-exchangerate-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ExchangeRate Enriched Data API
+  slug: open-exchangerate-api-enriched-data-api
+- collection_type: open
+  name: ExchangeRate Enriched Data Historical Rates API
+  slug: open-exchangerate-api-historical-rates-api
+- collection_type: open
+  name: ExchangeRate Enriched Data Latest Rates API
+  slug: open-exchangerate-api-latest-rates-api
+- collection_type: open
+  name: ExchangeRate Enriched Data Open Access API
+  slug: open-exchangerate-api-open-access-api
+- collection_type: open
+  name: ExchangeRate Enriched Data Pair Conversion API
+  slug: open-exchangerate-api-pair-conversion-api
+- collection_type: open
+  name: ExchangeRate Enriched Data Quota API
+  slug: open-exchangerate-api-quota-api
+- collection_type: open
+  name: ExchangeRate Enriched Data Supported Codes API
+  slug: open-exchangerate-api-supported-codes-api
 - collection_type: open
   name: ExchangeRate-API
   slug: open-exchangerate-api
@@ -366,7 +390,7 @@ plans:
 - name: Exchangerate Api Plans Pricing
   plan_count: 5
   slug: exchangerate-api-plans-pricing
-random_paper: 62
+random_paper: 132
 rate_limits:
 - limit_count: 5
   name: Exchangerate Api Rate Limits
@@ -408,7 +432,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/screenshots/exchangerate-api-2026-06-20T180923.png
 security:

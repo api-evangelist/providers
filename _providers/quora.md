@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,11 +54,26 @@ apis:
 - description: Track point balance and usage history.
   name: Quora Usage API
   slug: quora-usage-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Poe Chat API
+  slug: open-quora-chat-api
+- collection_type: open
+  name: Poe Chat Models API
+  slug: open-quora-models-api
 - collection_type: open
   name: Poe API
   slug: open-quora-poe-api
+- collection_type: open
+  name: Poe Chat Responses API
+  slug: open-quora-responses-api
+- collection_type: open
+  name: Poe Chat Usage API
+  slug: open-quora-usage-api
 common:
 - group: agent
   title: ''
@@ -156,7 +171,7 @@ plans:
 - name: Quora Plans Pricing
   plan_count: 3
   slug: quora-plans-pricing
-random_paper: 72
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Quora Rate Limits
@@ -181,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/screenshots/quora-2026-06-20T192444.png
 security:

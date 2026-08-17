@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -40,7 +40,23 @@ apis:
 - description: The Health API from Automation Preflight API — 1 operation(s) for health.
   name: Automation Preflight API Health API
   slug: automation-preflight-api-health-api
-artifact_total: 12
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TinyOps Automation Integration Preflight Acceptance Pack API
+  slug: open-automation-preflight-api-acceptance-pack-api
+- collection_type: open
+  name: TinyOps Automation Integration Preflight Analyze API
+  slug: open-automation-preflight-api-analyze-api
+- collection_type: open
+  name: TinyOps Automation Integration Preflight - Access Direct API
+  slug: open-automation-preflight-api-direct-api
+- collection_type: open
+  name: Automation Preflight Health API
+  slug: open-automation-preflight-api-health-api
 common:
 - group: agent
   title: ''
@@ -177,7 +193,7 @@ plans:
 - name: Automation Preflight Api Plans
   plan_count: 4
   slug: automation-preflight-api-plans
-random_paper: 58
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Automation Preflight Api Rate Limits
@@ -205,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

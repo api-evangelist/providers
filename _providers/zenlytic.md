@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Generate signed URLs for embedding Zenlytic content in host apps.
   name: Zenlytic Embedding API
   slug: zenlytic-embedding-api
-artifact_total: 3
+artifact_total: 5
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zenlytic Signed Embedding API
+  slug: open-zenlytic-embedding-api
 common:
 - group: company
   title: ''
@@ -132,7 +139,7 @@ overview: 'Zenlytic publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Zenlytic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 14 more developer resources.'
-random_paper: 42
+random_paper: 137
 score:
   band: developing
   composite: 45.7
@@ -153,7 +160,7 @@ score:
       total: 1
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

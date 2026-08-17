@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -100,11 +100,153 @@ apis:
 - description: The UserDefinedMetadata API from Pryon — 9 operation(s) for userdefinedmetadata.
   name: Pryon User Defined Metadata API
   slug: pryon-userdefinedmetadata-api
-artifact_total: 30
+artifact_total: 77
 asyncapis:
 - description: ''
   name: Pryon Events
   slug: pryon-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: pryon/api/ext/analytics/v1/analytics.proto
+  slug: open-pryon-admin
+- collection_type: open
+  name: pryon/api/ext//v1/.proto Analytics API
+  slug: open-pryon-analytics-api
+- collection_type: open
+  name: Generative API Chat Only
+  slug: open-pryon-chat-completion-only-generative
+- collection_type: open
+  name: Chat Completion
+  slug: open-pryon-chat-completion
+- collection_type: open
+  name: Pryon Connector Service External API
+  slug: open-pryon-connectorserviceexternal-api
+- collection_type: open
+  name: Retrieval Content Service API
+  slug: open-pryon-content-service-api
+- collection_type: open
+  name: Pryon Content Service API
+  slug: open-pryon-contentservice-api
+- collection_type: open
+  name: Decommission Knowledge Domain
+  slug: open-pryon-domains-swagger-may2025
+- collection_type: open
+  name: Pryon Exchange API
+  slug: open-pryon-exchange-api
+- collection_type: open
+  name: Exchange Event
+  slug: open-pryon-exchange-event-may2025
+- collection_type: open
+  name: Exchange
+  slug: open-pryon-exchange-may2025
+- collection_type: open
+  name: Pryon Exchange Event API
+  slug: open-pryon-exchangeevent-api
+- collection_type: open
+  name: EXTRA Chat Completion
+  slug: open-pryon-extra-chat-completion
+- collection_type: open
+  name: Pryon Feedback API
+  slug: open-pryon-feedback-api
+- collection_type: open
+  name: Feedback
+  slug: open-pryon-feedback-august2025
+- collection_type: open
+  name: pryon/api/ext/generative/v1alpha1/generative.proto
+  slug: open-pryon-feedback-may2025
+- collection_type: open
+  name: Generative API
+  slug: open-pryon-gen-answer-summary
+- collection_type: open
+  name: Pryon Generative API
+  slug: open-pryon-generative-api
+- collection_type: open
+  name: Generative Feedback Second
+  slug: open-pryon-generative-feedback-may2025
+- collection_type: open
+  name: Generative API
+  slug: open-pryon-generative-listmodels
+- collection_type: open
+  name: Generative API Query Guardrails
+  slug: open-pryon-generative-query-guardrails
+- collection_type: open
+  name: Generative API
+  slug: open-pryon-generative-query-rewrite
+- collection_type: open
+  name: pryon/api/ext/generative/v1alpha1/generative.proto
+  slug: open-pryon-generative-services-may2025
+- collection_type: open
+  name: pryon/api/ext/generative/v1alpha1/generative.proto
+  slug: open-pryon-generative-swagger
+- collection_type: open
+  name: Generative API
+  slug: open-pryon-generative
+- collection_type: open
+  name: pryon/api/ext/analytics/v1/analytics.proto Generative Exchange API
+  slug: open-pryon-generativeexchange-api
+- collection_type: open
+  name: Pryon Generative Feedback API
+  slug: open-pryon-generativefeedback-api
+- collection_type: open
+  name: Retrieval Generative Retrieval API
+  slug: open-pryon-generativeretrieval-api
+- collection_type: open
+  name: Retrieval Generative Retrieval Feedback API
+  slug: open-pryon-generativeretrievalfeedback-api
+- collection_type: open
+  name: pryon/api/ext/knowledge/v1/content/content.proto
+  slug: open-pryon-getcontentimage-swagger
+- collection_type: open
+  name: Knowledge Collection Service API
+  slug: open-pryon-knowledge-collection-service-api
+- collection_type: open
+  name: Knowledge Collection Service
+  slug: open-pryon-knowledge-collections-may2025
+- collection_type: open
+  name: Pryon Knowledge Collection Service API
+  slug: open-pryon-knowledgecollectionservice-api
+- collection_type: open
+  name: Pryon Knowledge Domain API
+  slug: open-pryon-knowledgedomain-api
+- collection_type: open
+  name: Knowledge Collection Service List Knowledge Collections API
+  slug: open-pryon-list-knowledge-collections-api
+- collection_type: open
+  name: pryon/api/ext/analytics/v1/analytics.proto Messages API
+  slug: open-pryon-messages-api
+- collection_type: open
+  name: pryon/api/ext/analytics/v1/analytics.proto Organization Service API
+  slug: open-pryon-organizationservice-api
+- collection_type: open
+  name: pryon/api/ext/analytics/v1/analytics.proto Regression Test API
+  slug: open-pryon-regressiontest-api
+- collection_type: open
+  name: Retrieval API
+  slug: open-pryon-retrieval-api
+- collection_type: open
+  name: Retrieval
+  slug: open-pryon-retrieval-may2025
+- collection_type: open
+  name: Retrieval Retrieval Feedback API
+  slug: open-pryon-retrievalfeedback-api
+- collection_type: open
+  name: pryon/api/ext/analytics/v1/analytics.proto Subjects API
+  slug: open-pryon-subjects-api
+- collection_type: open
+  name: pryon/api/ext/analytics/v1/analytics.proto Text To Speech API
+  slug: open-pryon-texttospeech-api
+- collection_type: open
+  name: pryon/api/ext/connector/v1alpha1/connector.proto
+  slug: open-pryon-universal-connector-may2025
+- collection_type: open
+  name: UserDefinedMetadata API
+  slug: open-pryon-user-defined-metadata-may2025
+- collection_type: open
+  name: User Defined Metadata API
+  slug: open-pryon-userdefinedmetadata-api
 common:
 - group: other
   title: ''
@@ -250,7 +392,7 @@ overview: 'Pryon publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Pryon''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 24 more developer resources.'
-random_paper: 88
+random_paper: 121
 score:
   band: developing
   composite: 47.1
@@ -274,7 +416,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

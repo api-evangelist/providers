@@ -1,59 +1,82 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    idempotency: documented
+    mcp_server: true
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 58.1
+  scored_at: '2026-08-17'
+api_count: 4
 apis:
-- description: REST API for submitting order and purchase data to Northbeam for attribution processing. Accepts batches of up to 1,000 orders per request via POST with JSON payload.
+- description: REST API for submitting order and purchase data to Northbeam as the revenue ground truth for multi-touch attribution and media mix modeling. Writes are natural-key upserts on a caller-supplied order_i
   name: Northbeam Orders API
   slug: orders-api
-- description: REST API for uploading hourly spend records from non-integrated ad platforms so Northbeam can attribute revenue to channel-level spend accurately.
+- description: REST API for uploading daily and hourly spend records from ad platforms Northbeam does not integrate with natively, so those channels can be attributed. Rows are upserted on the platform/campaign/adse
   name: Northbeam Spend API
   slug: spend-api
-- description: REST API for exporting attribution performance metrics including revenue, transactions, CAC, AOV, and creative analytics across multiple attribution windows and models.
+- description: Asynchronous REST API for exporting attribution performance metrics including revenue, transactions, CAC, AOV and creative analytics across attribution windows and models. Submit an export config, pol
   name: Northbeam Data Export API
   slug: data-export-api
-artifact_total: 8
+- description: First-party remote Model Context Protocol server giving an agent read-only access to the caller's Northbeam dashboards — performance, attribution, spend and orders. Documented as a custom connector fo
+  name: Northbeam MCP Server
+  slug: mcp
+artifact_total: 12
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/northbeam-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.northbeam.io
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.northbeam.io
 - group: docs
   title: ''
   type: Documentation
   url: https://docs.northbeam.io
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.northbeam.io/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.northbeam.io/docs/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.northbeam.io/submit-a-support-ticket
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://docs.northbeam.io/docs/frequently-asked-questions
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.northbeam.io/blog
 - group: build
   title: ''
   type: GitHubOrg
@@ -62,18 +85,98 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/northbeam
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.northbeam.io/blog
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.northbeam.io/pricing
 - group: other
   title: ''
   type: X
   url: https://x.com/northbeam
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.northbeam.io/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.northbeam.io/demo
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.northbeam.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.northbeam.io/terms-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.northbeam.io/privacy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.northbeam.io/data-security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/northbeam-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/northbeam-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/northbeam-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/northbeam-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/northbeam-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/northbeam-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/northbeam-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/northbeam-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/northbeam-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/northbeam-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/northbeam-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/northbeam-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/northbeam-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/northbeam-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/northbeam-mcp.yml
 - group: commercial
   title: ''
   type: Plans
@@ -99,7 +202,7 @@ common:
   type: BlogPosts
   url: blogs/blogs.json
 created: '2026-06-13'
-description: Multi-touch marketing attribution platform for e-commerce with a REST API for accessing channel-level ROAS, media mix modeling data, and creative performance metrics.
+description: 'Northbeam is a multi-touch marketing attribution platform for e-commerce brands. It joins first-party click and view data collected by its own browser pixel to order-level revenue and to ad spend across every channel, then reports channel, campaign, adset and ad level ROAS, CAC, AOV and creative performance under a choice of attribution models and windows. The developer surface is three REST APIs published as OpenAPI: an Orders API for pushing purchase data in as the revenue ground truth, a Spend API for uploading cost from channels Northbeam does not integrate with natively, and an asynchronous Data Export API for pulling attribution metrics back out to Northbeam documents, GCS or S3. Northbeam also runs a first-party remote MCP server at mcp.northbeam.io, OAuth-secured and read-only, which it documents as a custom connector for Claude and ChatGPT.'
 finops:
 - name: Northbeam Finops
   service_category: ''
@@ -111,47 +214,59 @@ jsonld:
   property_count: 38
   slug: northbeam-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: northbeam-mcp.yml
+  slug: northbeam-mcpyml
+modified: '2026-08-13'
 name: Northbeam
 nav: Providers
 network: true
-overview: 'Northbeam publishes 1 API on the [APIs.io](https://apis.io/) network: Orders API. Tagged areas include Marketing Attribution, Multi-Touch Attribution, E-Commerce, ROAS, and Media Mix Modeling.
+overview: 'Northbeam publishes 3 APIs on the [APIs.io](https://apis.io/) network: Orders API, Spend API, and Data Export API. Tagged areas include Marketing Attribution, Multi-Touch Attribution, E-Commerce, ROAS, and Media Mix Modeling.
 
 
   The Northbeam catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Northbeam''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Northbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Northbeam Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: northbeam-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
-- limit_count: 7
+- limit_count: 8
   name: Northbeam Rate Limits
   slug: northbeam-rate-limits
 score:
-  band: thin
-  composite: 37.2
-  delta: 0.0
+  band: exemplar
+  composite: 67.0
+  delta: 29.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 50.0
-    developer_ergonomics: 10.9
-    discoverability: 64.8
-    governance: 10.4
+    commercial_clarity: 100.0
+    contract_quality: 57.5
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 31.3
     operational_transparency: 36.8
   previous_composite: 37.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/screenshots/northbeam-2026-06-20T190413.png
 security:
+- kind: authentication
+  name: Northbeam Authentication
+  slug: northbeam-authentication
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Northbeam Domain Security
   slug: northbeam-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Northbeam Trust Center
+  slug: northbeam-trust-center
+  summary_line: SOC 2 Type 2
 slug: northbeam
 tags:
 - Marketing Attribution
@@ -161,5 +276,8 @@ tags:
 - Media Mix Modeling
 - Creative Analytics
 - Performance Marketing
+- Advertising
+- Marketing Analytics
+- Agents
 website: https://www.northbeam.io
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -92,11 +92,60 @@ apis:
 - description: Operations for managing VPC links
   name: Amazon API Gateway VPC Links API
   slug: amazon-api-gateway-vpc-links-api
-artifact_total: 232
+artifact_total: 248
 asyncapis:
 - description: Amazon API Gateway WebSocket APIs enable real-time two-way communication between clients and backend services. Clients connect via WebSocket protocol and exchange messages through routes that map to L
   name: Amazon API Gateway WebSocket API
   slug: amazon-api-gateway-websocket-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon API Gateway REST API Keys API
+  slug: open-amazon-api-gateway-api-keys-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Authorizers API
+  slug: open-amazon-api-gateway-authorizers-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Base Path Mappings API
+  slug: open-amazon-api-gateway-base-path-mappings-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Deployments API
+  slug: open-amazon-api-gateway-deployments-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Documentation API
+  slug: open-amazon-api-gateway-documentation-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Domain Names API
+  slug: open-amazon-api-gateway-domain-names-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Gateway Responses API
+  slug: open-amazon-api-gateway-gateway-responses-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Methods API
+  slug: open-amazon-api-gateway-methods-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Models API
+  slug: open-amazon-api-gateway-models-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Request Validators API
+  slug: open-amazon-api-gateway-request-validators-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Resources API
+  slug: open-amazon-api-gateway-resources-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys REST APIs API
+  slug: open-amazon-api-gateway-rest-apis-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Stages API
+  slug: open-amazon-api-gateway-stages-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys Usage Plans API
+  slug: open-amazon-api-gateway-usage-plans-api
+- collection_type: open
+  name: Amazon API Gateway REST API Keys VPC Links API
+  slug: open-amazon-api-gateway-vpc-links-api
 common:
 - group: other
   title: ''
@@ -855,7 +904,7 @@ overview: 'Amazon API Gateway publishes 16 APIs on the [APIs.io](https://apis.io
 
 
   Amazon API Gateway''s developer surface includes authentication, engineering blog, support, developer console, SDKs, status page, documentation, and 28 more developer resources.'
-random_paper: 4
+random_paper: 16
 rules:
 - name: Amazon API Gateway API Rules
   rule_count: 9
@@ -903,7 +952,7 @@ score:
       total: 15
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png
 security:

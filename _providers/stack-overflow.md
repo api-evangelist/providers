@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,11 +69,44 @@ apis:
 - description: Operations for managing users in a Teams workspace.
   name: Stack Overflow Users API
   slug: stack-overflow-users-api
-artifact_total: 25
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stack Overflow for Teams Answers API
+  slug: open-stack-overflow-answers-api
+- collection_type: open
+  name: Stack Overflow for Teams Answers Articles API
+  slug: open-stack-overflow-articles-api
+- collection_type: open
+  name: Stack Overflow for Teams Answers Badges API
+  slug: open-stack-overflow-badges-api
+- collection_type: open
+  name: Stack Overflow for Teams Answers Comments API
+  slug: open-stack-overflow-comments-api
 - collection_type: open
   name: Stack Overflow for Teams API
   slug: open-stack-overflow-for-teams
+- collection_type: open
+  name: Stack Overflow for Teams Answers Questions API
+  slug: open-stack-overflow-questions-api
+- collection_type: open
+  name: Stack Overflow for Teams Answers Search API
+  slug: open-stack-overflow-search-api
+- collection_type: open
+  name: Stack Overflow for Teams Answers SMEs API
+  slug: open-stack-overflow-smes-api
+- collection_type: open
+  name: Stack Overflow for Teams Answers Tags API
+  slug: open-stack-overflow-tags-api
+- collection_type: open
+  name: Stack Overflow for Teams Answers User Groups API
+  slug: open-stack-overflow-user-groups-api
+- collection_type: open
+  name: Stack Overflow for Teams Answers Users API
+  slug: open-stack-overflow-users-api
 - collection_type: open
   name: Stack Overflow API
   slug: open-stack-overflow
@@ -178,7 +211,7 @@ plans:
 - name: Stack Overflow Plans Pricing
   plan_count: 3
   slug: stack-overflow-plans-pricing
-random_paper: 23
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Stack Overflow Rate Limits
@@ -225,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/screenshots/stack-overflow-2026-06-20T194441.png
 security:

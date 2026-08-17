@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The 📦 Trackers API from Ship24 — 7 operation(s) for 📦 trackers.
   name: Ship24 📦 Trackers API
   slug: ship24-trackers-api
-artifact_total: 31
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ship24 Tracking ➕ API for per-call plans ➕ API for per-call plans ➕ API for per-call plans API
+  slug: open-ship24-api-for-per-call-plans-api
+- collection_type: open
+  name: Ship24 Tracking ➕ API for per-call plans ➕ API for per-call plans 🚚 Couriers API
+  slug: open-ship24-couriers-api
+- collection_type: open
+  name: Ship24 Tracking ➕ API for per-call plans ➕ API for per-call plans 📦 Trackers API
+  slug: open-ship24-trackers-api
 - collection_type: open
   name: Ship24 Tracking API
   slug: open-ship24-tracking-api
@@ -197,7 +209,7 @@ overview: 'Ship24 publishes 3 APIs on the [APIs.io](https://apis.io/) network: �
 
 
   Ship24''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, status page, and 15 more developer resources.'
-random_paper: 58
+random_paper: 91
 rules:
 - name: Ship24 API Rules
   rule_count: 5
@@ -235,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/screenshots/ship24-2026-06-20T193813.png
 security:

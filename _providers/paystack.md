@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 6
@@ -178,7 +178,7 @@ arazzos:
 - description: Create a customer, resolve their BVN, then submit a bank-account identification to validate the customer.
   name: Paystack Create and Validate Customer (KYC)
   slug: paystack-validate-customer-kyc-workflow
-artifact_total: 148
+artifact_total: 169
 asyncapis:
 - description: AsyncAPI 2.6 description of Paystack's outbound webhook surface. Paystack notifies a single merchant-configured POST endpoint (the "webhook URL") whenever an event occurs against your integration. Eve
   name: Paystack Webhooks
@@ -224,41 +224,104 @@ collections:
   name: Paystack Verification API
   slug: postman-paystack-verification
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Paystack Accept Payments API
   slug: open-paystack-accept-payments
+- collection_type: open
+  name: Paystack Accept Payments Balance API
+  slug: open-paystack-balance-api
 - collection_type: open
   name: Paystack Balance API
   slug: open-paystack-balance
 - collection_type: open
+  name: Paystack Accept Payments Balance Bulk Charge API
+  slug: open-paystack-bulk-charge-api
+- collection_type: open
+  name: Paystack Accept Payments Balance Charge API
+  slug: open-paystack-charge-api
+- collection_type: open
+  name: Paystack Accept Payments Balance Customer API
+  slug: open-paystack-customer-api
+- collection_type: open
   name: Paystack Customers API
   slug: open-paystack-customers
+- collection_type: open
+  name: Paystack Accept Payments Balance Dedicated Virtual Account API
+  slug: open-paystack-dedicated-virtual-account-api
 - collection_type: open
   name: Paystack Dedicated Virtual Accounts API
   slug: open-paystack-dedicated-virtual-accounts
 - collection_type: open
+  name: Paystack Accept Payments Balance Dispute API
+  slug: open-paystack-dispute-api
+- collection_type: open
+  name: Paystack Accept Payments Balance Integration API
+  slug: open-paystack-integration-api
+- collection_type: open
   name: Paystack Integration Settings API
   slug: open-paystack-integration
+- collection_type: open
+  name: Paystack Accept Payments Balance Page API
+  slug: open-paystack-page-api
+- collection_type: open
+  name: Paystack Accept Payments Balance Payment Request API
+  slug: open-paystack-payment-request-api
 - collection_type: open
   name: Paystack Payment Requests API
   slug: open-paystack-payment-requests
 - collection_type: open
+  name: Paystack Accept Payments Balance Plan API
+  slug: open-paystack-plan-api
+- collection_type: open
+  name: Paystack Accept Payments Balance Product API
+  slug: open-paystack-product-api
+- collection_type: open
   name: Paystack Products and Payment Pages API
   slug: open-paystack-products-pages
+- collection_type: open
+  name: Paystack Accept Payments Balance Refund API
+  slug: open-paystack-refund-api
 - collection_type: open
   name: Paystack Refunds and Disputes API
   slug: open-paystack-refunds-disputes
 - collection_type: open
+  name: Paystack Accept Payments Balance Settlement API
+  slug: open-paystack-settlement-api
+- collection_type: open
   name: Paystack Settlements API
   slug: open-paystack-settlements
+- collection_type: open
+  name: Paystack Accept Payments Balance Split API
+  slug: open-paystack-split-api
 - collection_type: open
   name: Paystack Splits and Subaccounts API
   slug: open-paystack-splits-subaccounts
 - collection_type: open
+  name: Paystack Accept Payments Balance Subaccount API
+  slug: open-paystack-subaccount-api
+- collection_type: open
+  name: Paystack Accept Payments Balance Subscription API
+  slug: open-paystack-subscription-api
+- collection_type: open
   name: Paystack Subscriptions API
   slug: open-paystack-subscriptions
 - collection_type: open
+  name: Paystack Accept Payments Balance Transaction API
+  slug: open-paystack-transaction-api
+- collection_type: open
+  name: Paystack Accept Payments Balance Transfer API
+  slug: open-paystack-transfer-api
+- collection_type: open
+  name: Paystack Accept Payments Balance Transfer Recipient API
+  slug: open-paystack-transfer-recipient-api
+- collection_type: open
   name: Paystack Transfers API
   slug: open-paystack-transfers
+- collection_type: open
+  name: Paystack Accept Payments Balance Verification API
+  slug: open-paystack-verification-api
 - collection_type: open
   name: Paystack Verification API
   slug: open-paystack-verification
@@ -726,7 +789,7 @@ plans:
 - name: Paystack Plans Pricing
   plan_count: 8
   slug: paystack-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 6
   name: Paystack Rate Limits
@@ -782,7 +845,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/screenshots/paystack-2026-06-20T191508.png
 security:

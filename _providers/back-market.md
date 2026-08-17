@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -56,7 +56,38 @@ apis:
 - description: The TaskManager API from Back Market — 1 operation(s) for taskmanager.
   name: Back Market Task Manager API
   slug: back-market-taskmanager-api
-artifact_total: 16
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Back Market - API Guidelines Backbox API
+  slug: open-back-market-backbox-api
+- collection_type: open
+  name: Back Market - API Guidelines Backship API
+  slug: open-back-market-backship-api
+- collection_type: open
+  name: Back Market - API Guidelines Buy Back API
+  slug: open-back-market-buyback-api
+- collection_type: open
+  name: Back Market - API Guidelines Care API
+  slug: open-back-market-care-api
+- collection_type: open
+  name: Back Market - API Guidelines Categories API
+  slug: open-back-market-categories-api
+- collection_type: open
+  name: Back Market - API Guidelines Listings API
+  slug: open-back-market-listings-api
+- collection_type: open
+  name: Back Market - API Guidelines Orderline API
+  slug: open-back-market-orderline-api
+- collection_type: open
+  name: Back Market - API Guidelines Orders API
+  slug: open-back-market-orders-api
+- collection_type: open
+  name: Back Market - API Guidelines Task Manager API
+  slug: open-back-market-taskmanager-api
 common:
 - group: company
   title: ''
@@ -214,7 +245,7 @@ overview: 'Back Market publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Back Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 13
   name: Back Market Rate Limits
@@ -251,7 +282,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/screenshots/back-market-2026-08-07T162100.png
 security:

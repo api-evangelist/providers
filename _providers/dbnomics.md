@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Economic time series and their observations.
   name: DBnomics Series API
   slug: dbnomics-series-api
-artifact_total: 10
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DBnomics Datasets API
+  slug: open-dbnomics-datasets-api
+- collection_type: open
+  name: DBnomics Datasets Providers API
+  slug: open-dbnomics-providers-api
+- collection_type: open
+  name: DBnomics Datasets Search API
+  slug: open-dbnomics-search-api
+- collection_type: open
+  name: DBnomics Datasets Series API
+  slug: open-dbnomics-series-api
 - collection_type: open
   name: DBnomics API
   slug: open-dbnomics
@@ -108,7 +123,7 @@ plans:
 - name: Dbnomics Plans Pricing
   plan_count: 2
   slug: dbnomics-plans-pricing
-random_paper: 7
+random_paper: 102
 rate_limits:
 - limit_count: 3
   name: Dbnomics Rate Limits
@@ -139,7 +154,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/screenshots/dbnomics-2026-07-25T211453.png
 security:

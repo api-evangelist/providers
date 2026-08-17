@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -68,7 +68,32 @@ apis:
 - description: convert content between HTML and Wikitext
   name: Wikisource Transforms API
   slug: wikisource-transforms-api
-artifact_total: 38
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wikimedia REST Citation API
+  slug: open-wikisource-citation-api
+- collection_type: open
+  name: Wikimedia REST Citation Math API
+  slug: open-wikisource-math-api
+- collection_type: open
+  name: Wikimedia REST Citation Mobile API
+  slug: open-wikisource-mobile-api
+- collection_type: open
+  name: Wikimedia REST Citation Page content API
+  slug: open-wikisource-page-content-api
+- collection_type: open
+  name: Wikimedia REST Citation Reading lists API
+  slug: open-wikisource-reading-lists-api
+- collection_type: open
+  name: Wikimedia REST Citation Recommendation API
+  slug: open-wikisource-recommendation-api
+- collection_type: open
+  name: Wikimedia REST Citation Transforms API
+  slug: open-wikisource-transforms-api
 common:
 - group: agent
   title: ''
@@ -244,7 +269,7 @@ plans:
 - name: Wikisource Plans Pricing
   plan_count: 1
   slug: wikisource-plans-pricing
-random_paper: 13
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Wikisource Rate Limits
@@ -284,7 +309,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/screenshots/wikisource-2026-06-20T201455.png
 security:

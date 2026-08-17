@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,20 @@ apis:
 - description: Circulating and total CADC supply, overall and per chain.
   name: Loon Finance Supply API
   slug: loon-finance-supply-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Loon CADC Transparency Attestations API
+  slug: open-loon-finance-attestations-api
+- collection_type: open
+  name: Loon CADC Transparency Attestations Issuances API
+  slug: open-loon-finance-issuances-api
+- collection_type: open
+  name: Loon CADC Transparency Attestations Supply API
+  slug: open-loon-finance-supply-api
 common:
 - group: other
   title: ''
@@ -152,7 +165,7 @@ overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Loon Finance''s developer surface includes documentation, engineering blog, support, and 19 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: thin
   composite: 37.2
@@ -182,7 +195,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png
 security:

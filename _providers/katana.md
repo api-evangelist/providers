@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 139
@@ -230,11 +230,207 @@ apis:
 - description: The WebhookLogsController API from Katana — 1 operation(s) for webhooklogscontroller.
   name: Katana WebhookLogsController API
   slug: katana-webhooklogscontroller-api
-artifact_total: 71
+artifact_total: 136
 asyncapis:
 - description: ''
   name: Katana Webhooks
   slug: katana-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController API
+  slug: open-katana-additionalcostcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController BatchController API
+  slug: open-katana-batchcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController BatchStockController API
+  slug: open-katana-batchstockcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController BinInventoryController API
+  slug: open-katana-bininventorycontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController BinLocationController API
+  slug: open-katana-binlocationcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController BinTransferController API
+  slug: open-katana-bintransfercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController BinTransferRowController API
+  slug: open-katana-bintransferrowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController BomRowController API
+  slug: open-katana-bomrowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController CustomerAddressController API
+  slug: open-katana-customeraddresscontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController CustomerController API
+  slug: open-katana-customercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController CustomFieldDefinitionController API
+  slug: open-katana-customfielddefinitioncontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController CustomSalesOrderController API
+  slug: open-katana-customsalesordercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController DemandForecastController API
+  slug: open-katana-demandforecastcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController FactoryController API
+  slug: open-katana-factorycontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController InventoryController API
+  slug: open-katana-inventorycontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController InventorySafetyStockLevelController API
+  slug: open-katana-inventorysafetystocklevelcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController ItemsCustomFieldsCollectionController API
+  slug: open-katana-itemscustomfieldscollectioncontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController LocationController API
+  slug: open-katana-locationcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController MakeToOrderMOController API
+  slug: open-katana-maketoordermocontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController ManufacturingOrderController API
+  slug: open-katana-manufacturingordercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController ManufacturingOrderOperationRowController API
+  slug: open-katana-manufacturingorderoperationrowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController ManufacturingOrderProductionController API
+  slug: open-katana-manufacturingorderproductioncontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController ManufacturingOrderProductionIngredientController API
+  slug: open-katana-manufacturingorderproductioningredientcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController ManufacturingOrderRecipeRowController API
+  slug: open-katana-manufacturingorderreciperowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController MaterialController API
+  slug: open-katana-materialcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController NegativeStockLatestMovementController API
+  slug: open-katana-negativestocklatestmovementcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController OperatorsController API
+  slug: open-katana-operatorscontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController PoAdditionalCostRowController API
+  slug: open-katana-poadditionalcostrowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController PriceListController API
+  slug: open-katana-pricelistcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController PriceListCustomerController API
+  slug: open-katana-pricelistcustomercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController PriceListRowController API
+  slug: open-katana-pricelistrowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController ProductController API
+  slug: open-katana-productcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController ProductOperationsController API
+  slug: open-katana-productoperationscontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController PurchaseOrderAccountingMetadataController API
+  slug: open-katana-purchaseorderaccountingmetadatacontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController PurchaseOrderController API
+  slug: open-katana-purchaseordercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController PurchaseOrderReceiveController API
+  slug: open-katana-purchaseorderreceivecontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController PurchaseOrderRecipeRowController API
+  slug: open-katana-purchaseorderreciperowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController PurchaseOrderRowController API
+  slug: open-katana-purchaseorderrowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController RecipeController API
+  slug: open-katana-recipecontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController RecipeRowController API
+  slug: open-katana-reciperowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SalesOrderAccountingMetadataController API
+  slug: open-katana-salesorderaccountingmetadatacontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SalesOrderAddressController API
+  slug: open-katana-salesorderaddresscontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SalesOrderController API
+  slug: open-katana-salesordercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SalesOrderFulfillmentController API
+  slug: open-katana-salesorderfulfillmentcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SalesOrderRowController API
+  slug: open-katana-salesorderrowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SalesOrderShippingFeeController API
+  slug: open-katana-salesordershippingfeecontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SalesReturnRowController API
+  slug: open-katana-salesreturnrowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SalesReturnsController API
+  slug: open-katana-salesreturnscontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SerialNumberController API
+  slug: open-katana-serialnumbercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SerialNumberStockController API
+  slug: open-katana-serialnumberstockcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController ServiceController API
+  slug: open-katana-servicecontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController StockAdjustmentController API
+  slug: open-katana-stockadjustmentcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController StocktakeController API
+  slug: open-katana-stocktakecontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController StocktakeRowController API
+  slug: open-katana-stocktakerowcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController StockTransferController API
+  slug: open-katana-stocktransfercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SupplierAddressController API
+  slug: open-katana-supplieraddresscontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController SupplierController API
+  slug: open-katana-suppliercontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController TaxRateController API
+  slug: open-katana-taxratecontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController UnlinkVariantBinLocationController API
+  slug: open-katana-unlinkvariantbinlocationcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController UsersController API
+  slug: open-katana-userscontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController VariantBinLocationController API
+  slug: open-katana-variantbinlocationcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController VariantController API
+  slug: open-katana-variantcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController WebhookController API
+  slug: open-katana-webhookcontroller-api
+- collection_type: open
+  name: katana-api-gateway AdditionalCostController WebhookLogsController API
+  slug: open-katana-webhooklogscontroller-api
 common:
 - group: start
   title: ''
@@ -375,7 +571,7 @@ overview: 'Katana publishes 64 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Katana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 24
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Katana Rate Limits
@@ -403,7 +599,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/screenshots/katana-2026-07-25T223530.png
 security:

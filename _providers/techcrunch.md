@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,8 +65,35 @@ apis:
 - description: Post tag taxonomy
   name: TechCrunch Tags API
   slug: techcrunch-tags-api
-artifact_total: 23
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TechCrunch WordPress REST Authors API
+  slug: open-techcrunch-authors-api
+- collection_type: open
+  name: TechCrunch WordPress REST Authors Categories API
+  slug: open-techcrunch-categories-api
+- collection_type: open
+  name: TechCrunch WordPress REST Authors Comments API
+  slug: open-techcrunch-comments-api
+- collection_type: open
+  name: TechCrunch WordPress REST Authors Media API
+  slug: open-techcrunch-media-api
+- collection_type: open
+  name: TechCrunch WordPress REST Authors Pages API
+  slug: open-techcrunch-pages-api
+- collection_type: open
+  name: TechCrunch WordPress REST Authors Posts API
+  slug: open-techcrunch-posts-api
+- collection_type: open
+  name: TechCrunch WordPress REST Authors Search API
+  slug: open-techcrunch-search-api
+- collection_type: open
+  name: TechCrunch WordPress REST Authors Tags API
+  slug: open-techcrunch-tags-api
 - collection_type: open
   name: TechCrunch WordPress REST API
   slug: open-techcrunch-wordpress-rest-api
@@ -182,7 +209,7 @@ plans:
 - name: Techcrunch Plans Pricing
   plan_count: 3
   slug: techcrunch-plans-pricing
-random_paper: 103
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Techcrunch Rate Limits
@@ -224,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/screenshots/techcrunch-2026-06-20T195006.png
 security:

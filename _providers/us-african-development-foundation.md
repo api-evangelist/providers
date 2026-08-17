@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: USADF spending breakdowns and analytics
   name: US African Development Foundation Spending API
   slug: us-african-development-foundation-spending-api
-artifact_total: 70
+artifact_total: 76
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USADF Grant Opportunities Agency API
+  slug: open-us-african-development-foundation-agency-api
+- collection_type: open
+  name: USADF Grant Opportunities Agency Awards API
+  slug: open-us-african-development-foundation-awards-api
+- collection_type: open
+  name: USADF Grant Agency Opportunities API
+  slug: open-us-african-development-foundation-opportunities-api
+- collection_type: open
+  name: USADF Grant Opportunities Agency Recipients API
+  slug: open-us-african-development-foundation-recipients-api
+- collection_type: open
+  name: USADF Grant Opportunities Agency Spending API
+  slug: open-us-african-development-foundation-spending-api
 - collection_type: open
   name: USADF Grant Opportunities API
   slug: open-usadf-grant-opportunities-api
@@ -283,7 +301,7 @@ plans:
 - name: Us African Development Foundation Plans Pricing
   plan_count: 3
   slug: us-african-development-foundation-plans-pricing
-random_paper: 117
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Us African Development Foundation Rate Limits
@@ -331,7 +349,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/screenshots/us-african-development-foundation-2026-06-20T200541.png
 security:

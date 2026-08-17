@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 1
@@ -52,7 +52,14 @@ apis:
 - description: 'Magnite''s Exchange API (xAPI) protobuf extensions to the IAB OpenRTB 2.x protobuf definitions, published in the open on GitHub. Defines Magnite-specific OpenRTB extension fields (extension IDs in the '
   name: Magnite Exchange API (xAPI) OpenRTB Extensions
   slug: rubicon-project-openrtb-xapi
-artifact_total: 11
+artifact_total: 13
+collections:
+- collection_type: open
+  name: SpringServe UI API (V0)
+  slug: open-rubicon-project-springserve-v0
+- collection_type: open
+  name: SpringServe UI API
+  slug: open-rubicon-project-springserve-v1
 common:
 - group: agent
   title: ''
@@ -195,7 +202,7 @@ plans:
 - name: Rubicon Project Plans Pricing
   plan_count: 0
   slug: rubicon-project-plans-pricing
-random_paper: 118
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Rubicon Project Rate Limits
@@ -203,7 +210,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.5
-  delta: 38.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 49.7
@@ -211,10 +218,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 11.6
+  previous_composite: 50.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Rubicon Project Authentication

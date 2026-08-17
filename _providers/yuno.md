@@ -28,17 +28,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Core Yuno Payments API — customers, checkout sessions, payments, refunds, captures, subscriptions, payouts, disputes, reports, banking connectivity and PCI Proxy. Header API-key auth with X-Idempotenc
   name: Yuno Payments API
   slug: yuno-payments-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Yuno Webhooks
   slug: yuno-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 common:
 - group: auth
   title: ''
@@ -203,7 +207,7 @@ overview: 'Yuno publishes 1 API on the [APIs.io](https://apis.io/) network: Paym
 
 
   Yuno''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 29 more developer resources.'
-random_paper: 99
+random_paper: 12
 score:
   band: developing
   composite: 54.7
@@ -227,7 +231,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

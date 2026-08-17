@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -87,11 +87,32 @@ apis:
 - description: The Worksheets API from Scout RFP — 2 operation(s) for worksheets.
   name: Scout RFP Worksheets API
   slug: scout-rfp-worksheets-api
-artifact_total: 46
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Strategic Sourcing Events Bids API
+  slug: open-scout-rfp-bids-api
+- collection_type: open
+  name: Workday Strategic Sourcing Events Bids Event Suppliers API
+  slug: open-scout-rfp-event-suppliers-api
+- collection_type: open
+  name: Workday Strategic Sourcing Events Bids Event Templates API
+  slug: open-scout-rfp-event-templates-api
+- collection_type: open
+  name: Workday Strategic Sourcing Bids Events API
+  slug: open-scout-rfp-events-api
 - collection_type: open
   name: Workday Strategic Sourcing Events API
   slug: open-scout-rfp-events
+- collection_type: open
+  name: Workday Strategic Sourcing Events Bids Line Items API
+  slug: open-scout-rfp-line-items-api
+- collection_type: open
+  name: Workday Strategic Sourcing Events Bids Worksheets API
+  slug: open-scout-rfp-worksheets-api
 common:
 - group: agent
   title: ''
@@ -204,7 +225,7 @@ plans:
 - name: Scout Rfp Plans Pricing
   plan_count: 1
   slug: scout-rfp-plans-pricing
-random_paper: 91
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Scout Rfp Rate Limits
@@ -246,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/screenshots/scout-rfp-2026-06-20T193553.png
 security:

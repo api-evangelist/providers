@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,8 +84,11 @@ apis:
 - description: The User Content API from The New York Times Company — 4 operation(s) for user content.
   name: The New York Times Company User Content API
   slug: new-york-times-company-user-content-api
-artifact_total: 54
+artifact_total: 69
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Archive
   slug: open-archive-api
@@ -104,6 +107,48 @@ collections:
 - collection_type: open
   name: Most Popular
   slug: open-most-popular-api-v2
+- collection_type: open
+  name: Archive API
+  slug: open-new-york-times-company-archive-api
+- collection_type: open
+  name: Archive Content API
+  slug: open-new-york-times-company-content-api
+- collection_type: open
+  name: Archive Content.json API
+  slug: open-new-york-times-company-content-json-api
+- collection_type: open
+  name: Archive Events API
+  slug: open-new-york-times-company-events-api
+- collection_type: open
+  name: Archive Lists API
+  slug: open-new-york-times-company-lists-api
+- collection_type: open
+  name: Archive Lists.json API
+  slug: open-new-york-times-company-lists-json-api
+- collection_type: open
+  name: Archive Most Popular API
+  slug: open-new-york-times-company-most-popular-api
+- collection_type: open
+  name: Archive Movies API
+  slug: open-new-york-times-company-movies-api
+- collection_type: open
+  name: Archive Name API
+  slug: open-new-york-times-company-name-api
+- collection_type: open
+  name: Archive Search API
+  slug: open-new-york-times-company-search-api
+- collection_type: open
+  name: Archive Search.json API
+  slug: open-new-york-times-company-search-json-api
+- collection_type: open
+  name: Archive Stories API
+  slug: open-new-york-times-company-stories-api
+- collection_type: open
+  name: Archive Timestags API
+  slug: open-new-york-times-company-timestags-api
+- collection_type: open
+  name: Archive User Content API
+  slug: open-new-york-times-company-user-content-api
 - collection_type: open
   name: Semantic API
   slug: open-semantic-api
@@ -313,7 +358,7 @@ plans:
 - name: New York Times Company Plans Pricing
   plan_count: 1
   slug: new-york-times-company-plans-pricing
-random_paper: 63
+random_paper: 137
 rate_limits:
 - limit_count: 4
   name: New York Times Company Rate Limits
@@ -355,7 +400,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/screenshots/new-york-times-company-2026-06-20T190234.png
 security:

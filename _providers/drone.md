@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -69,7 +69,41 @@ apis:
 - description: User account management (admin).
   name: Drone Users API
   slug: drone-users-api
-artifact_total: 24
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Drone REST Builds API
+  slug: open-drone-builds-api
+- collection_type: open
+  name: Drone REST Builds Cron API
+  slug: open-drone-cron-api
+- collection_type: open
+  name: Drone REST Builds Nodes API
+  slug: open-drone-nodes-api
+- collection_type: open
+  name: Drone REST Builds Queue API
+  slug: open-drone-queue-api
+- collection_type: open
+  name: Drone REST Builds Repos API
+  slug: open-drone-repos-api
+- collection_type: open
+  name: Drone REST Builds Secrets API
+  slug: open-drone-secrets-api
+- collection_type: open
+  name: Drone REST Builds System API
+  slug: open-drone-system-api
+- collection_type: open
+  name: Drone REST Builds Templates API
+  slug: open-drone-templates-api
+- collection_type: open
+  name: Drone REST Builds User API
+  slug: open-drone-user-api
+- collection_type: open
+  name: Drone REST Builds Users API
+  slug: open-drone-users-api
 common:
 - group: agent
   title: ''
@@ -183,7 +217,7 @@ plans:
 - name: Drone Plans Pricing
   plan_count: 3
   slug: drone-plans-pricing
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 0
   name: Drone Rate Limits
@@ -217,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/screenshots/drone-2026-06-20T180238.png
 security:

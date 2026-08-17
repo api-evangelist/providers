@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 417
   human_in_the_loop: 14
@@ -208,7 +208,194 @@ apis:
 - description: The Voicemail Message API from Alianza — 4 operation(s) for voicemail message.
   name: Alianza Voicemail Message API
   slug: alianza-voicemail-message-api
-artifact_total: 64
+artifact_total: 126
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alianza Account API
+  slug: open-alianza-account-api
+- collection_type: open
+  name: Alianza Account Device API
+  slug: open-alianza-account-device-api
+- collection_type: open
+  name: Alianza Account Device Line API
+  slug: open-alianza-account-device-line-api
+- collection_type: open
+  name: Alianza Account Prevalidate API
+  slug: open-alianza-account-prevalidate-api
+- collection_type: open
+  name: Alianza Account User API
+  slug: open-alianza-account-user-api
+- collection_type: open
+  name: Alianza Address API
+  slug: open-alianza-address-api
+- collection_type: open
+  name: Alianza Public API
+  slug: open-alianza-apidocs-swagger2-original
+- collection_type: open
+  name: Alianza Asynchronous JOB Tracker API
+  slug: open-alianza-asynchronous-job-tracker-api
+- collection_type: open
+  name: Alianza Authorize API
+  slug: open-alianza-authorize-api
+- collection_type: open
+  name: Alianza Public Brand Settings API
+  slug: open-alianza-brand-settings-api
+- collection_type: open
+  name: Alianza Public Bulk Operation Collection API
+  slug: open-alianza-bulk-operation-collection-api
+- collection_type: open
+  name: Alianza Public Bulk Operation Job API
+  slug: open-alianza-bulk-operation-job-api
+- collection_type: open
+  name: Alianza Business Line API
+  slug: open-alianza-business-line-api
+- collection_type: open
+  name: Alianza Business Line Hunt Group API
+  slug: open-alianza-business-line-hunt-group-api
+- collection_type: open
+  name: Alianza Call Group API
+  slug: open-alianza-call-group-api
+- collection_type: open
+  name: Alianza Call Parking Spot API
+  slug: open-alianza-call-parking-spot-api
+- collection_type: open
+  name: Alianza Calling Plan API
+  slug: open-alianza-calling-plan-api
+- collection_type: open
+  name: Alianza Calling Plan Product API
+  slug: open-alianza-calling-plan-product-api
+- collection_type: open
+  name: Alianza CD Rs API
+  slug: open-alianza-cdrs-api
+- collection_type: open
+  name: Alianza Cymbus User Product API
+  slug: open-alianza-cymbus-user-product-api
+- collection_type: open
+  name: Alianza Public Device API
+  slug: open-alianza-device-api
+- collection_type: open
+  name: Alianza Device (Deprecated) Device (Deprecated) API
+  slug: open-alianza-device-deprecated-api
+- collection_type: open
+  name: Alianza Device Inventory Management API
+  slug: open-alianza-device-inventory-management-api
+- collection_type: open
+  name: Alianza Public Device Provisioning API
+  slug: open-alianza-device-provisioning-api
+- collection_type: open
+  name: Alianza Public Document Repository API
+  slug: open-alianza-document-repository-api
+- collection_type: open
+  name: Alianza Dynamic Inventory API
+  slug: open-alianza-dynamic-inventory-api
+- collection_type: open
+  name: Alianza Public Edge Node API
+  slug: open-alianza-edge-node-api
+- collection_type: open
+  name: Alianza Emergency Notification API
+  slug: open-alianza-emergency-notification-api
+- collection_type: open
+  name: Alianza End User API
+  slug: open-alianza-end-user-api
+- collection_type: open
+  name: Alianza Inbound Rate Plan Product API
+  slug: open-alianza-inbound-rate-plan-product-api
+- collection_type: open
+  name: Alianza IVR API
+  slug: open-alianza-ivr-api
+- collection_type: open
+  name: Alianza Language Reference API
+  slug: open-alianza-language-reference-api
+- collection_type: open
+  name: Alianza Local Calling Areas API
+  slug: open-alianza-local-calling-areas-api
+- collection_type: open
+  name: Alianza Management User API
+  slug: open-alianza-management-user-api
+- collection_type: open
+  name: Alianza Media API
+  slug: open-alianza-media-api
+- collection_type: open
+  name: Alianza Paging Group API
+  slug: open-alianza-paging-group-api
+- collection_type: open
+  name: Alianza Partition API
+  slug: open-alianza-partition-api
+- collection_type: open
+  name: Alianza Pickup Group API
+  slug: open-alianza-pickup-group-api
+- collection_type: open
+  name: Alianza Port API
+  slug: open-alianza-port-api
+- collection_type: open
+  name: Alianza Public Rate Center Inventory API
+  slug: open-alianza-rate-center-inventory-api
+- collection_type: open
+  name: Alianza Reference Resources API
+  slug: open-alianza-reference-resources-api
+- collection_type: open
+  name: Alianza Report API
+  slug: open-alianza-report-api
+- collection_type: open
+  name: Alianza Security Groups API
+  slug: open-alianza-security-groups-api
+- collection_type: open
+  name: Alianza Service Activation API
+  slug: open-alianza-service-activation-api
+- collection_type: open
+  name: Alianza Public Single Sign On - SSO API
+  slug: open-alianza-single-sign-on-sso-api
+- collection_type: open
+  name: Alianza SIP Trunk API
+  slug: open-alianza-sip-trunk-api
+- collection_type: open
+  name: Alianza Public Sip Trunk Caller ID Mapping API
+  slug: open-alianza-sip-trunk-caller-id-mapping-api
+- collection_type: open
+  name: Alianza Public SIP Trunk Group API
+  slug: open-alianza-sip-trunk-group-api
+- collection_type: open
+  name: Alianza Public Specialty Line API
+  slug: open-alianza-specialty-line-api
+- collection_type: open
+  name: Alianza Public SSO API
+  slug: open-alianza-sso-api
+- collection_type: open
+  name: Alianza Public SSO Authentication API
+  slug: open-alianza-sso-authentication-api
+- collection_type: open
+  name: Alianza Public SSO Configuration API
+  slug: open-alianza-sso-configuration-api
+- collection_type: open
+  name: Alianza Public SSO Exemptions API
+  slug: open-alianza-sso-exemptions-api
+- collection_type: open
+  name: Alianza Public Supported Rate Centers API
+  slug: open-alianza-supported-rate-centers-api
+- collection_type: open
+  name: Alianza Public Supported Rate Centers by Alianza and specified carrier API
+  slug: open-alianza-supported-rate-centers-by-alianza-and-specified-carrier-api
+- collection_type: open
+  name: Alianza Telephone Number API
+  slug: open-alianza-telephone-number-api
+- collection_type: open
+  name: Alianza Public User Groups API
+  slug: open-alianza-user-groups-api
+- collection_type: open
+  name: Alianza Virtual Fax API
+  slug: open-alianza-virtual-fax-api
+- collection_type: open
+  name: Alianza Virtual Fax Line API
+  slug: open-alianza-virtual-fax-line-api
+- collection_type: open
+  name: Alianza Voicemail Box API
+  slug: open-alianza-voicemail-box-api
+- collection_type: open
+  name: Alianza Voicemail Message API
+  slug: open-alianza-voicemail-message-api
 common:
 - group: agent
   title: ''
@@ -347,7 +534,7 @@ overview: 'Alianza publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Alianza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, legal docs, authentication, and 23 more developer resources.'
-random_paper: 16
+random_paper: 140
 score:
   band: developing
   composite: 43.0
@@ -377,7 +564,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png
 security:

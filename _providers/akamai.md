@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 243
   human_in_the_loop: 1
@@ -651,14 +651,125 @@ apis:
 - description: The Watermark limits API from Akamai — 2 operation(s) for watermark limits.
   name: Akamai Watermark limits API
   slug: akamai-watermark-limits-api
-artifact_total: 858
+artifact_total: 998
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens API'
+  slug: open-akamai-access-tokens-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Activation history API'
+  slug: open-akamai-activation-history-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Activation status API'
+  slug: open-akamai-activation-status-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Activations API'
+  slug: open-akamai-activations-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Active property hostnames API'
+  slug: open-akamai-active-property-hostnames-api
 - collection_type: open
   name: 'Akamai: API Endpoint Definition API'
   slug: open-akamai-api-definitions
 - collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens API endpoints API'
+  slug: open-akamai-api-endpoints-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens API privacy API'
+  slug: open-akamai-api-privacy-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens API request constraints API'
+  slug: open-akamai-api-request-constraints-api
+- collection_type: open
   name: 'Akamai: Application Security API'
   slug: open-akamai-application-security
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Attack payload logs API'
+  slug: open-akamai-attack-payload-logs-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Available hostnames API'
+  slug: open-akamai-available-hostnames-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Behavioral DDoS profile actions API'
+  slug: open-akamai-behavioral-ddos-profile-actions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Behavioral DDoS profiles API'
+  slug: open-akamai-behavioral-ddos-profiles-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Behavioral DDoS protection profiles API'
+  slug: open-akamai-behavioral-ddos-protection-profiles-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Build API'
+  slug: open-akamai-build-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Bulk activations API'
+  slug: open-akamai-bulk-activations-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Bulk patch API'
+  slug: open-akamai-bulk-patch-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Bulk search API'
+  slug: open-akamai-bulk-search-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Bulk versioning API'
+  slug: open-akamai-bulk-versioning-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Bypass network lists API'
+  slug: open-akamai-bypass-network-lists-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Cache API'
+  slug: open-akamai-cache-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Cache tag API'
+  slug: open-akamai-cache-tag-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Categories API'
+  slug: open-akamai-categories-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Challenge actions API'
+  slug: open-akamai-challenge-actions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Changes API'
+  slug: open-akamai-changes-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Client reputation API'
+  slug: open-akamai-client-reputation-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Client settings API'
+  slug: open-akamai-client-settings-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Client-Side Protections & Compliance API'
+  slug: open-akamai-client-side-protections-compliance-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Configuration: Evaluation hostnames API'
+  slug: open-akamai-configuration-evaluation-hostnames-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Configuration version diff API'
+  slug: open-akamai-configuration-version-diff-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Configuration version export API'
+  slug: open-akamai-configuration-version-export-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Contracts and groups API'
+  slug: open-akamai-contracts-and-groups-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Contracts API'
+  slug: open-akamai-contracts-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Cookie Settings API'
+  slug: open-akamai-cookie-settings-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens CORS API'
+  slug: open-akamai-cors-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens CP code API'
+  slug: open-akamai-cp-code-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens CP codes API'
+  slug: open-akamai-cp-codes-api
 - collection_type: open
   name: 'Akamai: CP Codes and Reporting Groups API'
   slug: open-akamai-cp-codes
@@ -666,29 +777,338 @@ collections:
   name: 'Akamai: Certificate Provisioning System API'
   slug: open-akamai-cps
 - collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Custom behaviors API'
+  slug: open-akamai-custom-behaviors-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Custom overrides API'
+  slug: open-akamai-custom-overrides-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Custom rule actions API'
+  slug: open-akamai-custom-rule-actions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens CVE Protections lookup API'
+  slug: open-akamai-cve-protections-lookup-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Deactivations API'
+  slug: open-akamai-deactivations-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Deployments API'
+  slug: open-akamai-deployments-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Discovered APIs API'
+  slug: open-akamai-discovered-apis-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Edge hostnames API'
+  slug: open-akamai-edge-hostnames-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens EdgeKV status API'
+  slug: open-akamai-edgekv-status-api
+- collection_type: open
   name: 'Akamai: EdgeKV API'
   slug: open-akamai-edgekv
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens EdgeWorker IDs API'
+  slug: open-akamai-edgeworker-ids-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens EdgeWorkers API'
+  slug: open-akamai-edgeworkers-api
 - collection_type: open
   name: 'Akamai: EdgeWorkers API'
   slug: open-akamai-edgeworkers
 - collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Elements API'
+  slug: open-akamai-elements-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Endpoints API'
+  slug: open-akamai-endpoints-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Enrollments API'
+  slug: open-akamai-enrollments-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Error responses API'
+  slug: open-akamai-error-responses-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Evasive path match API'
+  slug: open-akamai-evasive-path-match-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Events API'
+  slug: open-akamai-events-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Failover hostnames API'
+  slug: open-akamai-failover-hostnames-api
+- collection_type: open
   name: 'Akamai: Fast Purge API'
   slug: open-akamai-fast-purge
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens General configuration settings API'
+  slug: open-akamai-general-configuration-settings-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens General policy settings API'
+  slug: open-akamai-general-policy-settings-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens GraphQL API'
+  slug: open-akamai-graphql-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Groups API'
+  slug: open-akamai-groups-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens GZIP API'
+  slug: open-akamai-gzip-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Hostname buckets API'
+  slug: open-akamai-hostname-buckets-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Hostname coverage API'
+  slug: open-akamai-hostname-coverage-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Hostnames API'
+  slug: open-akamai-hostnames-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens HTTP header logs API'
+  slug: open-akamai-http-header-logs-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Include activations API'
+  slug: open-akamai-include-activations-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Include version rules API'
+  slug: open-akamai-include-version-rules-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Include versions API'
+  slug: open-akamai-include-versions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Includes API'
+  slug: open-akamai-includes-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens IP/Geo Firewall settings API'
+  slug: open-akamai-ip-geo-firewall-settings-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Items API'
+  slug: open-akamai-items-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens JA4 Client TLS Fingerprint API'
+  slug: open-akamai-ja4-client-tls-fingerprint-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens JWT API'
+  slug: open-akamai-jwt-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Limits API'
+  slug: open-akamai-limits-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Malware policy actions API'
+  slug: open-akamai-malware-policy-actions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Maps API'
+  slug: open-akamai-maps-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Match targets API'
+  slug: open-akamai-match-targets-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Namespaces API'
+  slug: open-akamai-namespaces-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Network lists API'
+  slug: open-akamai-network-lists-api
 - collection_type: open
   name: 'Akamai: Network Lists API'
   slug: open-akamai-network-lists
 - collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Onboarding: Activations and status API'
+  slug: open-akamai-onboarding-activations-and-status-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Onboarding: Creation and settings API'
+  slug: open-akamai-onboarding-creation-and-settings-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Onboarding: Post-activation validation API'
+  slug: open-akamai-onboarding-post-activation-validation-api
+- collection_type: open
   name: 'Akamai: Property Manager API'
   slug: open-akamai-papi
 - collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Permission groups API'
+  slug: open-akamai-permission-groups-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Personally identifiable information API'
+  slug: open-akamai-personally-identifiable-information-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens PII learning API'
+  slug: open-akamai-pii-learning-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Pragma settings API'
+  slug: open-akamai-pragma-settings-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Prefetch requests API'
+  slug: open-akamai-prefetch-requests-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Products API'
+  slug: open-akamai-products-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Properties API'
+  slug: open-akamai-properties-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Property activations API'
+  slug: open-akamai-property-activations-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Property hostnames API'
+  slug: open-akamai-property-hostnames-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Property version hostnames API'
+  slug: open-akamai-property-version-hostnames-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Property version includes API'
+  slug: open-akamai-property-version-includes-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Property version rules API'
+  slug: open-akamai-property-version-rules-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Property versions API'
+  slug: open-akamai-property-versions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Protections API'
+  slug: open-akamai-protections-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Rate limits API'
+  slug: open-akamai-rate-limits-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Rate policy actions API'
+  slug: open-akamai-rate-policy-actions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Reporting groups API'
+  slug: open-akamai-reporting-groups-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Reports API'
+  slug: open-akamai-reports-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Reputation analysis API'
+  slug: open-akamai-reputation-analysis-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Request body inspection limits API'
+  slug: open-akamai-request-body-inspection-limits-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Request body size API'
+  slug: open-akamai-request-body-size-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Resource tiers API'
+  slug: open-akamai-resource-tiers-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Resources API'
+  slug: open-akamai-resources-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Revisions API'
+  slug: open-akamai-revisions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Rotate JWT API'
+  slug: open-akamai-rotate-jwt-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Routing API'
+  slug: open-akamai-routing-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Rule formats API'
+  slug: open-akamai-rule-formats-api
+- collection_type: open
   name: 'Akamai: Sandbox API'
   slug: open-akamai-sandbox
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Sandboxes API'
+  slug: open-akamai-sandboxes-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Schemas API'
+  slug: open-akamai-schemas-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Search API'
+  slug: open-akamai-search-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Secure tokens API'
+  slug: open-akamai-secure-tokens-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Security policy: Conditions and exceptions API'
+  slug: open-akamai-security-policy-conditions-and-exceptions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Security policy: Evaluation attack groups API'
+  slug: open-akamai-security-policy-evaluation-attack-groups-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Security policy: Evaluation hostnames API'
+  slug: open-akamai-security-policy-evaluation-hostnames-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Security policy: Evaluation mode API'
+  slug: open-akamai-security-policy-evaluation-mode-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Security policy: Evaluation penalty box API'
+  slug: open-akamai-security-policy-evaluation-penalty-box-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Security policy: Evaluation rules API'
+  slug: open-akamai-security-policy-evaluation-rules-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Shared resources: Custom deny actions API'
+  slug: open-akamai-shared-resources-custom-deny-actions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Shared resources: Custom rules API'
+  slug: open-akamai-shared-resources-custom-rules-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Shared resources: Malware policies API'
+  slug: open-akamai-shared-resources-malware-policies-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Shared resources: Rate policies API'
+  slug: open-akamai-shared-resources-rate-policies-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Shared resources: Reputation profiles API'
+  slug: open-akamai-shared-resources-reputation-profiles-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens SIEM settings API'
+  slug: open-akamai-siem-settings-api
 - collection_type: open
   name: 'Akamai: SIEM Integration API'
   slug: open-akamai-siem
 - collection_type: open
   name: 'Akamai: Site Shield API'
   slug: open-akamai-site-shield
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Slow POST protections API'
+  slug: open-akamai-slow-post-protections-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Subscriptions API'
+  slug: open-akamai-subscriptions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens URL/ARL API'
+  slug: open-akamai-url-arl-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens URL protection policies API'
+  slug: open-akamai-url-protection-policies-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens URL protection policy actions API'
+  slug: open-akamai-url-protection-policy-actions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Validations API'
+  slug: open-akamai-validations-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Versions API'
+  slug: open-akamai-versions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens WAF rules: Attack groups API'
+  slug: open-akamai-waf-rules-attack-groups-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens WAF rules: Evaluation Penalty box conditions API'
+  slug: open-akamai-waf-rules-evaluation-penalty-box-conditions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens WAF rules: General settings API'
+  slug: open-akamai-waf-rules-general-settings-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens WAF rules: Penalty box API'
+  slug: open-akamai-waf-rules-penalty-box-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens WAF rules: Penalty box conditions API'
+  slug: open-akamai-waf-rules-penalty-box-conditions-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens WAF rules: Rapid rules API'
+  slug: open-akamai-waf-rules-rapid-rules-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens WAF rules: Tuning recommendations API'
+  slug: open-akamai-waf-rules-tuning-recommendations-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens WAF rules: Update mode API'
+  slug: open-akamai-waf-rules-update-mode-api
+- collection_type: open
+  name: 'Akamai: API Endpoint Definition Access tokens Watermark limits API'
+  slug: open-akamai-watermark-limits-api
 common:
 - group: operate
   title: ''
@@ -2635,7 +3055,7 @@ plans:
 - name: Akamai Plans Pricing
   plan_count: 3
   slug: akamai-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Akamai Rate Limits
@@ -2677,7 +3097,7 @@ score:
       marker_coverage: 0.0
       total: 139
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/screenshots/akamai-2026-06-20T171446.png
 security:

@@ -21,7 +21,7 @@ modified: '2026-04-23'
 name: C#
 nav: Providers
 network: true
-random_paper: 86
+random_paper: 90
 slug: c-sharp
 tags:
 - .NET

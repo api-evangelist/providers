@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Client-side JavaScript/TypeScript SDK (@series-inc/rundot-game-sdk) that gives an HTML5 game access to RUN.world platform services through a single RundotGameAPI import: storage scopes, profiles, lead'
@@ -136,7 +136,7 @@ overview: 'Series AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Series AI''s developer surface includes documentation, API reference, getting-started guide, CLI, sandbox, changelog, authentication, and 15 more developer resources.'
-random_paper: 58
+random_paper: 4
 score:
   band: emerging
   composite: 27.2
@@ -152,7 +152,7 @@ score:
   provenance:
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

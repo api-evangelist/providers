@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'The primary Kixie automation surface. A single POST endpoint on the apig.kixie.com gateway that dispatches on an `eventname` discriminator in the JSON body — `call` (place an outbound call through an '
@@ -184,7 +184,7 @@ plans:
 - name: Kixie Plans Pricing
   plan_count: 3
   slug: kixie-plans-pricing
-random_paper: 58
+random_paper: 91
 rate_limits:
 - limit_count: 1
   name: Kixie Rate Limits
@@ -192,6 +192,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 51.6
@@ -199,6 +200,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 76.3
+  previous_composite: 59.0
   regulatory:
     applies: true
     matched_via: tags
@@ -206,7 +208,8 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Kixie Authentication

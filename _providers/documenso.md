@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: Manage reusable templates and generate documents from them.
   name: Documenso Templates API
   slug: documenso-templates-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Documenso Public Documents API
+  slug: open-documenso-documents-api
+- collection_type: open
+  name: Documenso Public Documents Fields API
+  slug: open-documenso-fields-api
+- collection_type: open
+  name: Documenso Public Documents Recipients API
+  slug: open-documenso-recipients-api
+- collection_type: open
+  name: Documenso Public Documents Templates API
+  slug: open-documenso-templates-api
 - collection_type: open
   name: Documenso Public API
   slug: open-documenso
@@ -128,7 +143,7 @@ plans:
 - name: Documenso Plans Pricing
   plan_count: 6
   slug: documenso-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Documenso Rate Limits
@@ -153,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/screenshots/documenso-2026-06-20T180120.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -96,11 +96,72 @@ apis:
 - description: The humanApiProfile API from Band AI — 1 operation(s) for humanapiprofile.
   name: Band AI humanApiProfile API
   slug: band-ai-humanapiprofile-api
-artifact_total: 24
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Band Ai Websocket Events
   slug: band-ai-websocket-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Request agentApiActivity API
+  slug: open-band-ai-agentapiactivity-api
+- collection_type: open
+  name: Request agentApiActivity agentApiChats API
+  slug: open-band-ai-agentapichats-api
+- collection_type: open
+  name: Request agentApiActivity agentApiChatTasks API
+  slug: open-band-ai-agentapichattasks-api
+- collection_type: open
+  name: Request agentApiActivity agentApiContacts API
+  slug: open-band-ai-agentapicontacts-api
+- collection_type: open
+  name: Request agentApiActivity agentApiContext API
+  slug: open-band-ai-agentapicontext-api
+- collection_type: open
+  name: Request agentApiActivity agentApiEvents API
+  slug: open-band-ai-agentapievents-api
+- collection_type: open
+  name: Request agentApiActivity agentApiIdentity API
+  slug: open-band-ai-agentapiidentity-api
+- collection_type: open
+  name: Request agentApiActivity agentApiMemories API
+  slug: open-band-ai-agentapimemories-api
+- collection_type: open
+  name: Request agentApiActivity agentApiMessages API
+  slug: open-band-ai-agentapimessages-api
+- collection_type: open
+  name: Request agentApiActivity agentApiParticipants API
+  slug: open-band-ai-agentapiparticipants-api
+- collection_type: open
+  name: Request agentApiActivity agentApiPeers API
+  slug: open-band-ai-agentapipeers-api
+- collection_type: open
+  name: Request agentApiActivity humanApiAgents API
+  slug: open-band-ai-humanapiagents-api
+- collection_type: open
+  name: Request agentApiActivity humanApiChats API
+  slug: open-band-ai-humanapichats-api
+- collection_type: open
+  name: Request agentApiActivity humanApiContacts API
+  slug: open-band-ai-humanapicontacts-api
+- collection_type: open
+  name: Request agentApiActivity humanApiMemories API
+  slug: open-band-ai-humanapimemories-api
+- collection_type: open
+  name: Request agentApiActivity humanApiMessages API
+  slug: open-band-ai-humanapimessages-api
+- collection_type: open
+  name: Request agentApiActivity humanApiParticipants API
+  slug: open-band-ai-humanapiparticipants-api
+- collection_type: open
+  name: Request agentApiActivity humanApiPeers API
+  slug: open-band-ai-humanapipeers-api
+- collection_type: open
+  name: Request agentApiActivity humanApiProfile API
+  slug: open-band-ai-humanapiprofile-api
 common:
 - group: company
   title: ''
@@ -241,7 +302,7 @@ overview: 'Band AI publishes 19 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Band AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 52
+random_paper: 56
 score:
   band: strong
   composite: 56.0
@@ -265,7 +326,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/screenshots/band-ai-2026-07-25T202331.png
 security:

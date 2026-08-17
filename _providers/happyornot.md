@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 21
 apis:
 - description: Endpoints and data definitions related to alert comments which have been written for alerts
@@ -101,7 +101,74 @@ arazzos:
 - description: Read alert specifications, poll triggered alerts, then read their comments.
   name: Monitor HappyOrNot alerts
   slug: happyornot-monitor-alerts
-artifact_total: 26
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments API
+  slug: open-happyornot-alert-comments-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments alert-specifications API
+  slug: open-happyornot-alert-specifications-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments alerts API
+  slug: open-happyornot-alerts-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments button-feedbacks API
+  slug: open-happyornot-button-feedbacks-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments contact-details API
+  slug: open-happyornot-contact-details-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments custom-data-fields API
+  slug: open-happyornot-custom-data-fields-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments demographics API
+  slug: open-happyornot-demographics-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments experience-points API
+  slug: open-happyornot-experience-points-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments follow-up-feedbacks API
+  slug: open-happyornot-follow-up-feedbacks-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments follow-up-option-localizations API
+  slug: open-happyornot-follow-up-option-localizations-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments follow-up-options API
+  slug: open-happyornot-follow-up-options-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments follow-up-question-localizations API
+  slug: open-happyornot-follow-up-question-localizations-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments follow-up-questions API
+  slug: open-happyornot-follow-up-questions-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments metadata API
+  slug: open-happyornot-metadata-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments question-localizations API
+  slug: open-happyornot-question-localizations-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments questions API
+  slug: open-happyornot-questions-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments smileys API
+  slug: open-happyornot-smileys-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments surveys API
+  slug: open-happyornot-surveys-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments text-feedbacks API
+  slug: open-happyornot-text-feedbacks-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments token-introspection API
+  slug: open-happyornot-token-introspection-api
+- collection_type: open
+  name: HappyOrNot Customer API v2 alert-comments users API
+  slug: open-happyornot-users-api
 common:
 - group: docs
   title: ''
@@ -239,7 +306,7 @@ overview: 'HappyOrNot publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   HappyOrNot''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 28
+random_paper: 65
 score:
   band: developing
   composite: 48.5
@@ -262,7 +329,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/screenshots/happyornot-2026-07-25T220655.png
 security:

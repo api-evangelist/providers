@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,11 +78,18 @@ arazzos:
 - description: 'Before trusting a phone number as an authentication factor, ask Claro Brasil two questions: has the SIM pairing changed recently, and where is the device on the network? Step one is the decision gate '
   name: Account-takeover check for a Brazilian mobile line
   slug: america-movil-account-takeover-check
-artifact_total: 24
+artifact_total: 26
 asyncapis:
 - description: ''
   name: America Movil Webhooks
   slug: america-movil-webhooks
+collections:
+- collection_type: open
+  name: "Mobile - LBS Devices Locations\n (Proxy Apigee: mobile-lbsdeviceslocations-v1)"
+  slug: open-america-movil-claro-device-location
+- collection_type: open
+  name: SIM Swap
+  slug: open-america-movil-claro-sim-swap
 common:
 - group: agent
   title: ''
@@ -269,7 +276,7 @@ plans:
 - name: America Movil Plans
   plan_count: 2
   slug: america-movil-plans
-random_paper: 118
+random_paper: 126
 rate_limits:
 - limit_count: 4
   name: America Movil Rate Limits
@@ -308,7 +315,7 @@ score:
     regime_id: telecommunications
     score: 52.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png
 security:

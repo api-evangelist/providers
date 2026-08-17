@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -56,7 +56,50 @@ apis:
 - description: A set of simple rating endpoints published for testing, exposing a single cyber rating operation. The only rating surface in Beazley's public catalog, and explicitly described as being for testing rat
   name: Beazley Simple Raters
   slug: beazley-simple-raters
-artifact_total: 16
+artifact_total: 30
+collections:
+- collection_type: open
+  name: About Beazley (Sandbox)
+  slug: open-beazley-about-beazley-sandbox
+- collection_type: open
+  name: About Beazley
+  slug: open-beazley-about-beazley
+- collection_type: open
+  name: Broker and Insured Marketing Data v2 (Sandbox)
+  slug: open-beazley-broker-and-insured-marketing-data-v2-sandbox
+- collection_type: open
+  name: Broker and Insured Marketing Data v2
+  slug: open-beazley-broker-and-insured-marketing-data-v2
+- collection_type: open
+  name: Compliance Web API
+  slug: open-beazley-compliance-web-api
+- collection_type: open
+  name: Currency Exchange (Sandbox)
+  slug: open-beazley-currency-exchange-sandbox
+- collection_type: open
+  name: Currency Exchange
+  slug: open-beazley-currency-exchange
+- collection_type: open
+  name: 'Data Capture: Quote and Risk Data (Sandbox)'
+  slug: open-beazley-data-capture-quote-and-risk-data-sandbox
+- collection_type: open
+  name: 'Data Capture: Quote and Risk Data v2 (Sandbox)'
+  slug: open-beazley-data-capture-quote-and-risk-data-v2-sandbox
+- collection_type: open
+  name: 'Data Capture: Quote and Risk Data v2'
+  slug: open-beazley-data-capture-quote-and-risk-data-v2
+- collection_type: open
+  name: 'Data Capture: Quote and Risk Data v3 (pre-release)'
+  slug: open-beazley-data-capture-quote-and-risk-data-v3-pre-release
+- collection_type: open
+  name: 'Data Capture: Quote and Risk Data'
+  slug: open-beazley-data-capture-quote-and-risk-data
+- collection_type: open
+  name: Fast Reader
+  slug: open-beazley-fast-reader
+- collection_type: open
+  name: Simple Raters
+  slug: open-beazley-simple-raters
 common:
 - group: agent
   title: ''
@@ -215,7 +258,7 @@ plans:
 - name: Beazley Plans
   plan_count: 9
   slug: beazley-plans
-random_paper: 28
+random_paper: 3
 rate_limits:
 - limit_count: 8
   name: Beazley Rate Limits
@@ -249,7 +292,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png
 security:

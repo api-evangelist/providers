@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Escale is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Escale''s developer surface includes support and 8 more developer resources.'
-random_paper: 21
+random_paper: 25
 score:
   band: emerging
   composite: 15.9
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/escale/refs/heads/main/screenshots/escale-2026-07-25T213615.png
 security:

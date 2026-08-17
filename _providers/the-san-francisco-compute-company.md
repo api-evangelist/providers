@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -80,7 +80,53 @@ apis:
 - description: Resource containers scoped to an account.
   name: The San Francisco Compute Company Workspaces API
   slug: the-san-francisco-compute-company-workspaces-api
-artifact_total: 18
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: sfc-api Account API
+  slug: open-the-san-francisco-compute-company-account-api
+- collection_type: open
+  name: sfc-api Account Deployments API
+  slug: open-the-san-francisco-compute-company-deployments-api
+- collection_type: open
+  name: sfc-api Account Feature Flags API
+  slug: open-the-san-francisco-compute-company-feature-flags-api
+- collection_type: open
+  name: sfc-api Account Images API
+  slug: open-the-san-francisco-compute-company-images-api
+- collection_type: open
+  name: sfc-api Account Instance SKU Catalog API
+  slug: open-the-san-francisco-compute-company-instance-sku-catalog-api
+- collection_type: open
+  name: sfc-api Account Instance SKUs API
+  slug: open-the-san-francisco-compute-company-instance-skus-api
+- collection_type: open
+  name: sfc-api Account Instance Templates API
+  slug: open-the-san-francisco-compute-company-instance-templates-api
+- collection_type: open
+  name: sfc-api Account Instances API
+  slug: open-the-san-francisco-compute-company-instances-api
+- collection_type: open
+  name: sfc-api Account Orderbook API
+  slug: open-the-san-francisco-compute-company-orderbook-api
+- collection_type: open
+  name: sfc-api Account Orders API
+  slug: open-the-san-francisco-compute-company-orders-api
+- collection_type: open
+  name: sfc-api Account Pools API
+  slug: open-the-san-francisco-compute-company-pools-api
+- collection_type: open
+  name: sfc-api Account Procurements API
+  slug: open-the-san-francisco-compute-company-procurements-api
+- collection_type: open
+  name: sfc-api Account Users API
+  slug: open-the-san-francisco-compute-company-users-api
+- collection_type: open
+  name: sfc-api Account Workspaces API
+  slug: open-the-san-francisco-compute-company-workspaces-api
 common:
 - group: start
   title: ''
@@ -238,7 +284,7 @@ overview: 'The San Francisco Compute Company publishes 14 APIs on the [APIs.io](
 
 
   The San Francisco Compute Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 28 more developer resources.'
-random_paper: 59
+random_paper: 21
 score:
   band: strong
   composite: 56.6
@@ -262,7 +308,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

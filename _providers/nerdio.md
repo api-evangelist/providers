@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -37,11 +37,15 @@ apis:
 - description: REST API for Nerdio Manager for MSP, used by MSPs to automate at the partner and account level what they would otherwise do in the NMM console — creating and managing host pools, session hosts and des
   name: Nerdio Manager for MSP Partner API
   slug: nerdio-manager-for-msp-partner-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Nerdio Notifications Webhooks
   slug: nerdio-notifications-webhooks
+collections:
+- collection_type: open
+  name: NMM Distributor API
+  slug: open-nerdio-distributor-api
 common:
 - group: agent
   title: ''
@@ -187,7 +191,7 @@ overview: 'Nerdio publishes 1 API on the [APIs.io](https://apis.io/) network: Ma
 
 
   Nerdio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 41
+random_paper: 45
 score:
   band: developing
   composite: 51.3
@@ -211,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/screenshots/nerdio-2026-08-07T184907.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: Inspect rate-limit and object-limit status.
   name: Akamai Technologies Status API
   slug: akamai-technologies-status-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Akamai Fast Purge (CCU v3) Deletions API
+  slug: open-akamai-technologies-deletions-api
+- collection_type: open
+  name: Akamai Fast Purge (CCU v3) Deletions Invalidations API
+  slug: open-akamai-technologies-invalidations-api
+- collection_type: open
+  name: Akamai Fast Purge (CCU v3) Deletions Status API
+  slug: open-akamai-technologies-status-api
 - collection_type: open
   name: Akamai Fast Purge (CCU v3) API
   slug: open-akamai-technologies
@@ -101,7 +113,7 @@ plans:
 - name: Akamai Technologies Plans Pricing
   plan_count: 4
   slug: akamai-technologies-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Akamai Technologies Rate Limits
@@ -126,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/screenshots/akamai-technologies-2026-06-20T171446.png
 security:

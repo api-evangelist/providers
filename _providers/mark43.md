@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: The Associated Records API from Mark43 — 2 operation(s) for associated records.
@@ -76,7 +76,56 @@ apis:
 - description: The Warrants API from Mark43 — 5 operation(s) for warrants.
   name: Mark43 Warrants API
   slug: mark43-warrants-api
-artifact_total: 19
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mark43 Partnerships Associated Records API
+  slug: open-mark43-associated-records-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records Attachments API
+  slug: open-mark43-attachments-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records CAD Configuration API
+  slug: open-mark43-cad-configuration-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records CAD Events API
+  slug: open-mark43-cad-events-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records CAD Tickets API
+  slug: open-mark43-cad-tickets-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records Cases API
+  slug: open-mark43-cases-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records E911 API
+  slug: open-mark43-e911-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records Evidence API
+  slug: open-mark43-evidence-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records GPS API
+  slug: open-mark43-gps-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records Persons API
+  slug: open-mark43-persons-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records Reports API
+  slug: open-mark43-reports-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records Tasks API
+  slug: open-mark43-tasks-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records Users API
+  slug: open-mark43-users-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records Vehicles API
+  slug: open-mark43-vehicles-api
+- collection_type: open
+  name: Mark43 Partnerships Associated Records Warrants API
+  slug: open-mark43-warrants-api
 common:
 - group: auth
   title: ''
@@ -162,7 +211,7 @@ overview: 'Mark43 publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mark43''s developer surface includes documentation, API reference, authentication, and 14 more developer resources.'
-random_paper: 50
+random_paper: 83
 score:
   band: thin
   composite: 29.9
@@ -191,7 +240,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mark43/refs/heads/main/screenshots/mark43-2026-07-25T230313.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Operations for retrieving user/employee information.
   name: Absence.io Users API
   slug: absence-io-users-api
-artifact_total: 63
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Absence.io Absences API
@@ -83,6 +83,30 @@ collections:
 - collection_type: postman
   name: Absence.io Absences Users API
   slug: postman-absence-io-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Absence.io Absences API
+  slug: open-absence-io-absences-api
+- collection_type: open
+  name: Absence.io Absences Allowances API
+  slug: open-absence-io-allowances-api
+- collection_type: open
+  name: Absence.io Absences Departments API
+  slug: open-absence-io-departments-api
+- collection_type: open
+  name: Absence.io Absences Locations API
+  slug: open-absence-io-locations-api
+- collection_type: open
+  name: Absence.io Absences Reason Types API
+  slug: open-absence-io-reason-types-api
+- collection_type: open
+  name: Absence.io Absences Timespans API
+  slug: open-absence-io-timespans-api
+- collection_type: open
+  name: Absence.io Absences Users API
+  slug: open-absence-io-users-api
 - collection_type: open
   name: Absence.io API
   slug: open-absence-io
@@ -267,7 +291,7 @@ plans:
 - name: Absence Io Plans Pricing
   plan_count: 3
   slug: absence-io-plans-pricing
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Absence Io Rate Limits
@@ -309,7 +333,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/screenshots/absence-io-2026-06-20T163343.png
 security:

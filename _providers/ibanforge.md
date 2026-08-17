@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: API key management — generate free keys and check usage
@@ -58,7 +58,35 @@ apis:
 - description: Swiss BC-Nummer / IID clearing lookup (paid via x402)
   name: IBANforge Swiss Clearing API
   slug: ibanforge-swiss-clearing-api
-artifact_total: 11
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ibanforge API Keys API
+  slug: open-ibanforge-api-keys-api
+- collection_type: open
+  name: Ibanforge BIC API
+  slug: open-ibanforge-bic-api
+- collection_type: open
+  name: Ibanforge Compliance API
+  slug: open-ibanforge-compliance-api
+- collection_type: open
+  name: Ibanforge Credits API
+  slug: open-ibanforge-credits-api
+- collection_type: open
+  name: Ibanforge Free API
+  slug: open-ibanforge-free-api
+- collection_type: open
+  name: Ibanforge IBAN API
+  slug: open-ibanforge-iban-api
+- collection_type: open
+  name: Ibanforge MCP API
+  slug: open-ibanforge-mcp-api
+- collection_type: open
+  name: Ibanforge Swiss Clearing API
+  slug: open-ibanforge-swiss-clearing-api
 common:
 - group: auth
   title: ''
@@ -140,7 +168,7 @@ overview: 'IBANforge publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   IBANforge''s developer surface includes documentation, pricing, engineering blog, and 13 more developer resources.'
-random_paper: 101
+random_paper: 47
 score:
   band: thin
   composite: 35.0
@@ -167,7 +195,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/screenshots/ibanforge-2026-06-20T183111.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ overview: 'Bespoke Post publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Bespoke Post''s developer surface includes support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 44
+random_paper: 52
 score:
   band: emerging
   composite: 18.5
@@ -130,7 +130,7 @@ score:
   provenance:
     agentic_access: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bespoke-post/refs/heads/main/screenshots/bespoke-post-2026-08-07T162338.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -61,11 +61,27 @@ apis:
 - description: The OpenID Connect authorisation server issuing the bearer tokens used by both the Kraken REST and GraphQL APIs. Its discovery document at https://auth.origin-kraken.energy/.well-known/openid-configur
   name: Origin Energy Kraken Authorization Server
   slug: origin-energy-kraken-auth-api
-artifact_total: 27
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Origin Energy Kraken External Events
   slug: origin-energy-kraken-external-events
+collections:
+- collection_type: open
+  name: CDR Common API
+  slug: open-consumer-data-standards-common-api
+- collection_type: open
+  name: CDR Energy API
+  slug: open-consumer-data-standards-energy-api
+- collection_type: open
+  name: Kraken
+  slug: open-origin-energy-kraken-data-import
+- collection_type: open
+  name: Kraken
+  slug: open-origin-energy-kraken-default
+- collection_type: open
+  name: Kraken
+  slug: open-origin-energy-kraken-orders
 common:
 - group: agent
   title: ''
@@ -273,7 +289,7 @@ overview: 'Origin Energy publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Origin Energy''s developer surface includes authentication, documentation, changelog, engineering blog, support, pricing, signup flow, and 35 more developer resources.'
-random_paper: 23
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Origin Energy Rate Limits
@@ -312,7 +328,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/screenshots/origin-energy-2026-08-07T190934.png
 security:

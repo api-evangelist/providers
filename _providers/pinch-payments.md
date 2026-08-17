@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - description: OAuth2 client-credentials token endpoint — POST /connect/token with HTTP Basic (merchant ID + secret key) and scope api1 to obtain a short-lived Bearer JWT used against the Pinch API; served from auth
   name: Pinch Authentication API
   slug: pinch-payments-authentication
-artifact_total: 26
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Pinch Payments Webhooks
@@ -94,6 +94,36 @@ collections:
 - collection_type: postman
   name: pinch-api-webhooks
   slug: postman-pinch-payments-webhooks
+- collection_type: open
+  name: authentication-api
+  slug: open-pinch-payments-authentication
+- collection_type: open
+  name: pinch-api-contacts
+  slug: open-pinch-payments-contacts
+- collection_type: open
+  name: pinch-api
+  slug: open-pinch-payments-core
+- collection_type: open
+  name: pinch-api-merchant-financial-data
+  slug: open-pinch-payments-merchant-financial-data
+- collection_type: open
+  name: pinch-api-merchants
+  slug: open-pinch-payments-merchants
+- collection_type: open
+  name: pinch-api-payers
+  slug: open-pinch-payments-payers
+- collection_type: open
+  name: pinch-api-payment-links
+  slug: open-pinch-payments-payment-links
+- collection_type: open
+  name: pinch-api-payments
+  slug: open-pinch-payments-payments
+- collection_type: open
+  name: pinch-api-transfers
+  slug: open-pinch-payments-transfers
+- collection_type: open
+  name: pinch-api-webhooks
+  slug: open-pinch-payments-webhooks
 common:
 - group: build
   title: ''
@@ -267,7 +297,7 @@ overview: 'Pinch Payments publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Pinch Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 31 more developer resources.'
-random_paper: 16
+random_paper: 115
 scopes:
 - name: Pinch Payments Scopes
   scope_count: 1
@@ -302,7 +332,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

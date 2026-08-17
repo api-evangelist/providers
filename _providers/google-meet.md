@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: The Spaces API from Google Meet — 1 operation(s) for spaces.
   name: Google Meet Spaces API
   slug: google-meet-spaces-api
-artifact_total: 14
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Meet conferenceRecords API
+  slug: open-google-meet-conferencerecords-api
+- collection_type: open
+  name: Google Meet conferenceRecords Google Meet API API
+  slug: open-google-meet-google-meet-api-api
+- collection_type: open
+  name: Google Meet conferenceRecords Spaces API
+  slug: open-google-meet-spaces-api
 - collection_type: open
   name: Google Meet API
   slug: open-openapi
@@ -113,7 +125,7 @@ plans:
 - name: Google Meet Plans Pricing
   plan_count: 3
   slug: google-meet-plans-pricing
-random_paper: 29
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Google Meet Rate Limits
@@ -155,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/screenshots/google-meet-2026-06-20T182215.png
 security:

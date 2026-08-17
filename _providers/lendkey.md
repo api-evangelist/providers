@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: Endpoints for creating and managing loan application contracts
@@ -77,11 +77,60 @@ apis:
 - description: Endpoints for receiving DocuSign webhook notifications
   name: LendKey Webhooks API
   slug: lendkey-webhooks-api
-artifact_total: 20
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Lendkey Webhooks
   slug: lendkey-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts API
+  slug: open-lendkey-application-contracts-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts applications API
+  slug: open-lendkey-applications-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts auth API
+  slug: open-lendkey-auth-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts Authentication API
+  slug: open-lendkey-authentication-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts Credit Risk API
+  slug: open-lendkey-credit-risk-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts Disbursements API
+  slug: open-lendkey-disbursements-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts email API
+  slug: open-lendkey-email-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts internal API
+  slug: open-lendkey-internal-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts leads API
+  slug: open-lendkey-leads-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts Ledger Management API
+  slug: open-lendkey-ledger-management-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts Lender Templates API
+  slug: open-lendkey-lender-templates-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts Loans API
+  slug: open-lendkey-loans-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts onboarding API
+  slug: open-lendkey-onboarding-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts Payments API
+  slug: open-lendkey-payments-api
+- collection_type: open
+  name: LendKey E-Sign API (via Kong Gateway) Application Contracts Webhooks API
+  slug: open-lendkey-webhooks-api
 common:
 - group: other
   title: ''
@@ -198,7 +247,7 @@ overview: 'LendKey publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 17 more developer resources.'
-random_paper: 28
+random_paper: 3
 scopes:
 - name: Lendkey Scopes
   scope_count: 0
@@ -232,7 +281,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
 security:

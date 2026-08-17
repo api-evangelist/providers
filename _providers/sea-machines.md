@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Partner-gated interface announced September 2025 that delivers real-time SM300 vessel telemetry and data feeds (position, heading, mechanical and navigational state) to external command-and-control an
@@ -46,8 +46,11 @@ apis:
 - description: 'Browser-based fleet monitoring and analysis platform for SM300-equipped vessels, offering real-time and historical telemetry at 5-second intervals, mechanical and navigational data (radar, ARPA, AIS, '
   name: FleetViewer
   slug: fleetviewer
-artifact_total: 10
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Sea Machines SMLink API
   slug: open-sea-machines
@@ -104,7 +107,7 @@ plans:
 - name: Sea Machines Plans Pricing
   plan_count: 1
   slug: sea-machines-plans-pricing
-random_paper: 118
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Sea Machines Rate Limits
@@ -122,7 +125,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/screenshots/sea-machines-2026-06-20T193612.png
 security:

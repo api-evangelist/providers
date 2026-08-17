@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -102,11 +102,78 @@ apis:
 - description: The wiki API from Inthegame — 5 operation(s) for wiki.
   name: Inthegame wiki API
   slug: inthegame-wiki-api
-artifact_total: 27
+artifact_total: 49
 asyncapis:
 - description: Real-time viewer-engagement events pushed over Socket.IO. The socket traces server messages to the app, keeping viewer state in sync when admins inject polls, ratings, trivia, offers and wikis, and st
   name: Inthegame Realtime (Socket.IO)
   slug: inthegame-socket-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inthegame admin API
+  slug: open-inthegame-admin-api
+- collection_type: open
+  name: Inthegame admin analytics API
+  slug: open-inthegame-analytics-api
+- collection_type: open
+  name: Inthegame admin category API
+  slug: open-inthegame-category-api
+- collection_type: open
+  name: Inthegame admin chat API
+  slug: open-inthegame-chat-api
+- collection_type: open
+  name: Inthegame admin entity API
+  slug: open-inthegame-entity-api
+- collection_type: open
+  name: Inthegame admin general API
+  slug: open-inthegame-general-api
+- collection_type: open
+  name: Inthegame admin item API
+  slug: open-inthegame-item-api
+- collection_type: open
+  name: Inthegame admin leaderboard API
+  slug: open-inthegame-leaderboard-api
+- collection_type: open
+  name: Inthegame admin moderationData API
+  slug: open-inthegame-moderationdata-api
+- collection_type: open
+  name: Inthegame admin poll API
+  slug: open-inthegame-poll-api
+- collection_type: open
+  name: Inthegame admin promotion API
+  slug: open-inthegame-promotion-api
+- collection_type: open
+  name: Inthegame admin rating API
+  slug: open-inthegame-rating-api
+- collection_type: open
+  name: Inthegame admin shop API
+  slug: open-inthegame-shop-api
+- collection_type: open
+  name: Inthegame admin socket API
+  slug: open-inthegame-socket-api
+- collection_type: open
+  name: Inthegame admin sponsor API
+  slug: open-inthegame-sponsor-api
+- collection_type: open
+  name: Inthegame admin streamer API
+  slug: open-inthegame-streamer-api
+- collection_type: open
+  name: Inthegame admin translations API
+  slug: open-inthegame-translations-api
+- collection_type: open
+  name: Inthegame admin trivia API
+  slug: open-inthegame-trivia-api
+- collection_type: open
+  name: Inthegame admin uploads API
+  slug: open-inthegame-uploads-api
+- collection_type: open
+  name: Inthegame admin user API
+  slug: open-inthegame-user-api
+- collection_type: open
+  name: Inthegame admin wiki API
+  slug: open-inthegame-wiki-api
 common:
 - group: docs
   title: ''
@@ -227,7 +294,7 @@ overview: 'Inthegame publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Inthegame''s developer surface includes documentation, API reference, authentication, code examples, sandbox, engineering blog, support, and 17 more developer resources.'
-random_paper: 106
+random_paper: 52
 score:
   band: developing
   composite: 42.3
@@ -251,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inthegame/refs/heads/main/screenshots/inthegame-2026-07-25T222719.png
 security:

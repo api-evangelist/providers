@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-12'
+  score: 57.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -57,19 +57,53 @@ apis:
 - description: The Ucrm API from Wunderkind — 2 operation(s) for ucrm.
   name: Wunderkind Ucrm API
   slug: wunderkind-ucrm-api
-- description: The Wunderhook API from Wunderkind — 1 operation(s) for wunderhook.
+- description: The Signals Wunderhook consumer contract — the single POST endpoint a client stands up to RECEIVE Wunderkind Signals webhook deliveries. The base URL is therefore templated and client-owned (https://{
   name: Wunderkind Wunderhook API
   slug: wunderkind-wunderhook-api
-artifact_total: 14
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Wunderkind Signals Webhooks
   slug: wunderkind-signals-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wunderkind Email API
+  slug: open-wunderkind-email-api
+- collection_type: open
+  name: Wunderkind Email Id Resolution API
+  slug: open-wunderkind-id-resolution-api
+- collection_type: open
+  name: Wunderkind Email Identity API
+  slug: open-wunderkind-identity-api
+- collection_type: open
+  name: Wunderkind Email Send Event API
+  slug: open-wunderkind-send-event-api
+- collection_type: open
+  name: Wunderkind Email Ucrm API
+  slug: open-wunderkind-ucrm-api
+- collection_type: open
+  name: Wunderkind Email Wunderhook API
+  slug: open-wunderkind-wunderhook-api
 common:
 - group: other
   title: ''
   type: Overlay
   url: overlays/wunderkind-email-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wunderkind-identity-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wunderkind-ucrm-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wunderkind-event-ingestion-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,10 +190,6 @@ common:
   url: packages/wunderkind-packages.yml
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/wunderkind-well-known.yml
-- group: agent
-  title: ''
   type: LLMsTxt
   url: llms/wunderkind-llms.txt
 - group: agent
@@ -194,15 +224,59 @@ common:
   title: ''
   type: TrustCenter
   url: security/wunderkind-trust-center.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/wunderkind-plans-pricing.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.wunderkind.co/blog/article/wunderkinds-commitment-to-privacy-compliance/
+- group: build
+  title: ''
+  type: Examples
+  url: examples/wunderkind-send-email-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/wunderkind-subscribe-users-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/wunderkind-unsubscribe-users-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/wunderkind-identity-lookup-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/wunderkind-signals-webhook-delivery-example.json
 created: '2026-07-17'
 description: 'Wunderkind (formerly BounceX) is a performance marketing and identity resolution platform that turns anonymous website and mobile-app traffic into triggered, one-to-one email and text messages. Its Autonomous Marketing Platform pairs an identity graph with AI decisioning, and its Build with Wunderkind developer surface exposes that machinery as APIs: an Identity API for device-ID-to-email resolution, an Event Ingestion API for server-side behavioral events, Email and Text Message send APIs, a UCRM subscribe and unsubscribe API, Signals webhooks that deliver behavioral triggers into ESPs like Klaviyo, Salesforce Marketing Cloud, Braze, and Bloomreach, plus Web and Mobile SDKs for Android, iOS, Flutter, and React Native.'
+examples:
+- key_count: 4
+  name: Wunderkind Identity Lookup Example
+  slug: wunderkind-identity-lookup-example
+- key_count: 4
+  name: Wunderkind Send Email Example
+  slug: wunderkind-send-email-example
+- key_count: 5
+  name: Wunderkind Signals Webhook Delivery Example
+  slug: wunderkind-signals-webhook-delivery-example
+- key_count: 4
+  name: Wunderkind Subscribe Users Example
+  slug: wunderkind-subscribe-users-example
+- key_count: 4
+  name: Wunderkind Unsubscribe Users Example
+  slug: wunderkind-unsubscribe-users-example
 image: https://avatars.githubusercontent.com/u/197307309?v=4
 layout: provider
 mcp_servers:
 - description: ''
   name: wunderkind-mcp.yml
   slug: wunderkind-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Wunderkind
 nav: Providers
 network: true
@@ -212,21 +286,25 @@ overview: 'Wunderkind publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Wunderkind catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wunderkind''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 3
+  Wunderkind''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 34 more developer resources.'
+plans:
+- name: Wunderkind Plans Pricing
+  plan_count: 0
+  slug: wunderkind-plans-pricing
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Wunderkind Rate Limits
   slug: wunderkind-rate-limits
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 54.8
+  delta: 2.3
   facets:
-    commercial_clarity: 42.1
+    commercial_clarity: 50.0
     contract_quality: 61.7
     developer_ergonomics: 62.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 65.8
   previous_composite: 52.5
@@ -247,7 +325,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication
@@ -261,7 +339,7 @@ security:
 - kind: trust-center
   name: Wunderkind Trust Center
   slug: wunderkind-trust-center
-  summary_line: trust center published
+  summary_line: SOC 2 Type 2, ISO 27001
 slug: wunderkind
 tags:
 - Company

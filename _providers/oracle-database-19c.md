@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,11 +66,26 @@ apis:
 - description: Ad-hoc SQL execution
   name: Oracle Database 19c SQL API
   slug: oracle-database-19c-sql-api
-artifact_total: 26
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Database 19c - Oracle REST Data Services (ORDS) AutoREST API
+  slug: open-oracle-database-19c-autorest-api
+- collection_type: open
+  name: Oracle Database 19c - Oracle REST Data Services (ORDS) AutoREST Metadata API
+  slug: open-oracle-database-19c-metadata-api
 - collection_type: open
   name: Oracle Database 19c - Oracle REST Data Services (ORDS) API
   slug: open-oracle-database-19c-ords
+- collection_type: open
+  name: Oracle Database 19c - Oracle REST Data Services (ORDS) AutoREST SODA API
+  slug: open-oracle-database-19c-soda-api
+- collection_type: open
+  name: Oracle Database 19c - Oracle REST Data Services (ORDS) AutoREST SQL API
+  slug: open-oracle-database-19c-sql-api
 common:
 - group: agent
   title: ''
@@ -167,7 +182,7 @@ plans:
 - name: Oracle Database 19C Plans Pricing
   plan_count: 5
   slug: oracle-database-19c-plans-pricing
-random_paper: 66
+random_paper: 107
 rate_limits:
 - limit_count: 4
   name: Oracle Database 19C Rate Limits
@@ -206,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/screenshots/oracle-database-19c-2026-08-07T190822.png
 security:

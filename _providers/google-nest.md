@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - description: Manage structures (homes)
   name: Google Nest Smart Device Management Structures API
   slug: google-nest-structures-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Nest Smart Device Management Devices API
@@ -58,6 +58,18 @@ collections:
 - collection_type: postman
   name: Google Nest Smart Device Management Devices Structures API
   slug: postman-google-nest-structures-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Nest Smart Device Management Devices API
+  slug: open-google-nest-devices-api
+- collection_type: open
+  name: Google Nest Smart Device Management Devices Rooms API
+  slug: open-google-nest-rooms-api
+- collection_type: open
+  name: Google Nest Smart Device Management Devices Structures API
+  slug: open-google-nest-structures-api
 - collection_type: open
   name: Google Nest Smart Device Management API
   slug: open-openapi
@@ -162,7 +174,7 @@ plans:
 - name: Google Nest Plans Pricing
   plan_count: 3
   slug: google-nest-plans-pricing
-random_paper: 44
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Google Nest Rate Limits
@@ -204,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/screenshots/google-nest-2026-06-20T182217.png
 security:

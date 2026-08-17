@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Primary GraphQL API for companies, tests, test sessions, live interviews, and interview templates. Authenticated with an API key.
@@ -41,11 +41,18 @@ apis:
 - description: The Organization API from Codesignal — 5 operation(s) for organization.
   name: Codesignal Organization API
   slug: codesignal-organization-api
-artifact_total: 10
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Codesignal Webhooks
   slug: codesignal-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Codesignal Learn Public Organization API
+  slug: open-codesignal-organization-api
 common:
 - group: agent
   title: ''
@@ -186,7 +193,7 @@ overview: 'Codesignal publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Codesignal''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 89
+random_paper: 6
 scopes:
 - name: Codesignal Scopes
   scope_count: 1
@@ -214,7 +221,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/screenshots/codesignal-2026-07-25T205933.png
 security:

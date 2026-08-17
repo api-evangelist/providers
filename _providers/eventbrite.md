@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -71,8 +71,35 @@ apis:
 - description: The Venues API from Eventbrite — 2 operation(s) for venues.
   name: Eventbrite Venues API
   slug: eventbrite-venues-api
-artifact_total: 17
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eventbrite Platform Attendees API
+  slug: open-eventbrite-attendees-api
+- collection_type: open
+  name: Eventbrite Platform Attendees Categories API
+  slug: open-eventbrite-categories-api
+- collection_type: open
+  name: Eventbrite Platform Attendees Events API
+  slug: open-eventbrite-events-api
+- collection_type: open
+  name: Eventbrite Platform Attendees Orders API
+  slug: open-eventbrite-orders-api
+- collection_type: open
+  name: Eventbrite Platform Attendees Organizations API
+  slug: open-eventbrite-organizations-api
+- collection_type: open
+  name: Eventbrite Platform Attendees Ticket Classes API
+  slug: open-eventbrite-ticket-classes-api
+- collection_type: open
+  name: Eventbrite Platform Attendees Users API
+  slug: open-eventbrite-users-api
+- collection_type: open
+  name: Eventbrite Platform Attendees Venues API
+  slug: open-eventbrite-venues-api
 - collection_type: open
   name: Eventbrite Platform API
   slug: open-eventbrite
@@ -169,7 +196,7 @@ overview: 'Eventbrite publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Eventbrite''s developer surface includes authentication, documentation, support, engineering blog, and 16 more developer resources.'
-random_paper: 0
+random_paper: 37
 score:
   band: thin
   composite: 37.3
@@ -190,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/screenshots/eventbrite-2026-06-20T180900.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -78,8 +78,38 @@ apis:
 - description: The Transactions API from Salt Edge — 1 operation(s) for transactions.
   name: Salt Edge Transactions API
   slug: salt-edge-transactions-api
-artifact_total: 20
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salt Edge Account Information Accounts API
+  slug: open-salt-edge-accounts-api
+- collection_type: open
+  name: Salt Edge Account Information Accounts Connect Sessions API
+  slug: open-salt-edge-connect-sessions-api
+- collection_type: open
+  name: Salt Edge Account Information Accounts Connections API
+  slug: open-salt-edge-connections-api
+- collection_type: open
+  name: Salt Edge Account Information Accounts Consents API
+  slug: open-salt-edge-consents-api
+- collection_type: open
+  name: Salt Edge Account Information Accounts Countries API
+  slug: open-salt-edge-countries-api
+- collection_type: open
+  name: Salt Edge Account Information Accounts Customers API
+  slug: open-salt-edge-customers-api
+- collection_type: open
+  name: Salt Edge Account Information Accounts Holder Info API
+  slug: open-salt-edge-holder-info-api
+- collection_type: open
+  name: Salt Edge Account Information Accounts Providers API
+  slug: open-salt-edge-providers-api
+- collection_type: open
+  name: Salt Edge Account Information Accounts Transactions API
+  slug: open-salt-edge-transactions-api
 - collection_type: open
   name: Salt Edge Account Information API
   slug: open-salt-edge
@@ -152,7 +182,7 @@ plans:
 - name: Salt Edge Plans Pricing
   plan_count: 4
   slug: salt-edge-plans-pricing
-random_paper: 46
+random_paper: 141
 rate_limits:
 - limit_count: 3
   name: Salt Edge Rate Limits
@@ -183,7 +213,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/screenshots/salt-edge-2026-06-20T193356.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Externally recorded demos API from Demodesk — 3 operation(s) for externally recorded demos.
@@ -41,16 +41,33 @@ apis:
 - description: Endpoints regarding user management.
   name: Demodesk Users API
   slug: demodesk-users-api
-artifact_total: 9
+artifact_total: 15
 asyncapis:
 - description: Event notifications Demodesk POSTs to a subscriber endpoint.
   name: Demodesk Webhooks
   slug: demodesk-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API V1 Externally recorded demos API
+  slug: open-demodesk-externally-recorded-demos-api
+- collection_type: open
+  name: API V1 Externally recorded demos Recordings API
+  slug: open-demodesk-recordings-api
+- collection_type: open
+  name: API V1 Externally recorded demos Users API
+  slug: open-demodesk-users-api
 common:
 - group: other
   title: ''
   type: Overlay
   url: overlays/demodesk-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demodesk-v2-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -82,11 +99,19 @@ common:
 - group: start
   title: ''
   type: SignUp
-  url: https://demodesk.com/select/demodesk-gmbh/inbound-website-booking
+  url: https://demodesk.com/manage/auth/register?seatType=ci
 - group: commercial
   title: ''
   type: PrivacyPolicy
   url: https://demodesk.com/legal/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://demodesk.com/legal/terms-of-use
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/demodesk
 - group: operate
   title: ''
   type: StatusPage
@@ -107,10 +132,34 @@ common:
   title: ''
   type: MCPServer
   url: mcp/demodesk-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/demodesk-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/demodesk-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/demodesk-rate-limits.yml
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/demodesk-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/demodesk-mcp-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/demodesk-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/demodesk-components.yml
 - group: agent
   title: ''
   type: WellKnown
@@ -155,7 +204,7 @@ mcp_servers:
 - description: ''
   name: demodesk-mcp.yml
   slug: demodesk-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Demodesk
 nav: Providers
 network: true
@@ -165,24 +214,32 @@ overview: 'Demodesk publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Demodesk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Demodesk''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 4
+  Demodesk''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
+plans:
+- name: Demodesk Plans Pricing
+  plan_count: 3
+  slug: demodesk-plans-pricing
+random_paper: 99
+rate_limits:
+- limit_count: 2
+  name: Demodesk Rate Limits
+  slug: demodesk-rate-limits
 scopes:
 - name: Demodesk Scopes
   scope_count: 1
   slug: demodesk-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 49.6
-  delta: 0.0
+  band: strong
+  composite: 61.5
+  delta: 11.9
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 92.1
     contract_quality: 64.0
     developer_ergonomics: 51.6
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 28.9
+    operational_transparency: 55.3
   previous_composite: 49.6
   provenance:
     conformance: derived
@@ -194,8 +251,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/screenshots/demodesk-2026-07-25T211714.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Core Spark functionality including RDDs, SparkContext, and basic operations.
@@ -116,7 +116,7 @@ plans:
 - name: Pyspark Plans Pricing
   plan_count: 3
   slug: pyspark-plans-pricing
-random_paper: 58
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Pyspark Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 16.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pyspark/refs/heads/main/screenshots/pyspark-2026-06-20T192331.png
 security:

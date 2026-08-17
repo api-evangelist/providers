@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -66,11 +66,41 @@ apis:
 - description: User account management
   name: Windstream Holdings users API
   slug: windstream-holdings-users-api
-artifact_total: 24
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Windstream Enterprise Contact Center Services API
   slug: open-windstream-contact-center
+- collection_type: open
+  name: Windstream Enterprise Contact Center Services agents API
+  slug: open-windstream-holdings-agents-api
+- collection_type: open
+  name: Windstream Enterprise Contact Center Services agents auto-attendants API
+  slug: open-windstream-holdings-auto-attendants-api
+- collection_type: open
+  name: Windstream Enterprise Contact Center Services agents calls API
+  slug: open-windstream-holdings-calls-api
+- collection_type: open
+  name: Windstream Enterprise Contact Center Services agents extensions API
+  slug: open-windstream-holdings-extensions-api
+- collection_type: open
+  name: Windstream Enterprise Contact Center Services agents products API
+  slug: open-windstream-holdings-products-api
+- collection_type: open
+  name: Windstream Enterprise Contact Center Services agents roles API
+  slug: open-windstream-holdings-roles-api
+- collection_type: open
+  name: Windstream Enterprise Contact Center Services agents system API
+  slug: open-windstream-holdings-system-api
+- collection_type: open
+  name: Windstream Enterprise Contact Center Services agents tenants API
+  slug: open-windstream-holdings-tenants-api
+- collection_type: open
+  name: Windstream Enterprise Contact Center Services agents users API
+  slug: open-windstream-holdings-users-api
 - collection_type: open
   name: Windstream Enterprise Voice API
   slug: open-windstream-voice
@@ -181,7 +211,7 @@ press:
 - date: '2026-05-25'
   title: Windstream Enterprise and Amazon Web Services ...
   url: https://news.windstream.com/news/news-details/2023/Windstream-Enterprise-and-Amazon-Web-Services-Advance-the-Virtual-Meeting-Experience-for-Businesses/default.aspx
-random_paper: 67
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Windstream Holdings Rate Limits
@@ -229,7 +259,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/screenshots/windstream-holdings-2026-06-20T201507.png
 security:

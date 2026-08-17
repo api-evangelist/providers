@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -62,8 +62,29 @@ apis:
 - description: Remote end readiness
   name: Selenium Status API
   slug: selenium-status-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Selenium WebDriver (W3C Wire Protocol) Cookies API
+  slug: open-selenium-cookies-api
+- collection_type: open
+  name: Selenium WebDriver (W3C Wire Protocol) Cookies Elements API
+  slug: open-selenium-elements-api
+- collection_type: open
+  name: Selenium WebDriver (W3C Wire Protocol) Cookies Navigation API
+  slug: open-selenium-navigation-api
+- collection_type: open
+  name: Selenium WebDriver (W3C Wire Protocol) Cookies Script API
+  slug: open-selenium-script-api
+- collection_type: open
+  name: Selenium WebDriver (W3C Wire Protocol) Cookies Session API
+  slug: open-selenium-session-api
+- collection_type: open
+  name: Selenium WebDriver (W3C Wire Protocol) Cookies Status API
+  slug: open-selenium-status-api
 - collection_type: open
   name: Selenium WebDriver (W3C Wire Protocol)
   slug: open-selenium
@@ -124,7 +145,7 @@ plans:
 - name: Selenium Plans Pricing
   plan_count: 3
   slug: selenium-plans-pricing
-random_paper: 26
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Selenium Rate Limits
@@ -149,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/screenshots/selenium-2026-06-20T193639.png
 security:

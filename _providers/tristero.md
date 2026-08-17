@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Assets API from Tristero — 1 operation(s) for assets.
@@ -52,7 +52,32 @@ apis:
 - description: Wallet and position queries
   name: Tristero Wallets API
   slug: tristero-wallets-api
-artifact_total: 10
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tristero Assets API
+  slug: open-tristero-assets-api
+- collection_type: open
+  name: Tristero Assets Margin API
+  slug: open-tristero-margin-api
+- collection_type: open
+  name: Tristero Assets Orders API
+  slug: open-tristero-orders-api
+- collection_type: open
+  name: Tristero Assets Pricing API
+  slug: open-tristero-pricing-api
+- collection_type: open
+  name: Tristero Assets Quotes API
+  slug: open-tristero-quotes-api
+- collection_type: open
+  name: Tristero Assets Trading API
+  slug: open-tristero-trading-api
+- collection_type: open
+  name: Tristero Assets Wallets API
+  slug: open-tristero-wallets-api
 common:
 - group: other
   title: ''
@@ -170,7 +195,7 @@ overview: 'Tristero publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tristero''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 18 more developer resources.'
-random_paper: 52
+random_paper: 147
 score:
   band: thin
   composite: 40.3
@@ -199,7 +224,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

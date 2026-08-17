@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -66,7 +66,7 @@ apis:
 - description: Manage tools and tool servers used by agents.
   name: Vectara Tools API
   slug: vectara-tools-api
-artifact_total: 37
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Vectara REST Agents API
@@ -89,6 +89,30 @@ collections:
 - collection_type: postman
   name: Vectara REST Agents Tools API
   slug: postman-vectara-tools-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vectara REST Agents API
+  slug: open-vectara-agents-api
+- collection_type: open
+  name: Vectara REST Agents Authentication API
+  slug: open-vectara-authentication-api
+- collection_type: open
+  name: Vectara REST Agents Corpora API
+  slug: open-vectara-corpora-api
+- collection_type: open
+  name: Vectara REST Agents Documents API
+  slug: open-vectara-documents-api
+- collection_type: open
+  name: Vectara REST Agents Pipelines API
+  slug: open-vectara-pipelines-api
+- collection_type: open
+  name: Vectara REST Agents Query API
+  slug: open-vectara-query-api
+- collection_type: open
+  name: Vectara REST Agents Tools API
+  slug: open-vectara-tools-api
 - collection_type: open
   name: Vectara REST API
   slug: open-vectara
@@ -323,7 +347,7 @@ plans:
 - name: Vectara Plans Pricing
   plan_count: 1
   slug: vectara-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 2
   name: Vectara Rate Limits
@@ -370,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/screenshots/vectara-2026-06-20T200838.png
 security:

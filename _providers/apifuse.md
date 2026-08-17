@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Create and manage integration workflows.
   name: Apifuse Workflows API
   slug: apifuse-workflows-api
-artifact_total: 45
+artifact_total: 51
 collections:
 - collection_type: postman
   name: Apifuse Analytics API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Apifuse Analytics Workflows API
   slug: postman-apifuse-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apifuse Analytics API
+  slug: open-apifuse-analytics-api
+- collection_type: open
+  name: Apifuse Analytics Connectors API
+  slug: open-apifuse-connectors-api
+- collection_type: open
+  name: Apifuse Analytics Integrations API
+  slug: open-apifuse-integrations-api
+- collection_type: open
+  name: Apifuse Analytics Users API
+  slug: open-apifuse-users-api
+- collection_type: open
+  name: Apifuse Analytics Workflows API
+  slug: open-apifuse-workflows-api
 common:
 - group: build
   title: ''
@@ -206,7 +224,7 @@ plans:
 - name: Apifuse Plans Pricing
   plan_count: 3
   slug: apifuse-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Apifuse Rate Limits
@@ -248,7 +266,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/screenshots/apifuse-2026-06-20T172232.png
 security:

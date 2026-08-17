@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -98,7 +98,71 @@ apis:
 - description: Operations about vat_rates
   name: Payt vat_rates API
   slug: payt-vat-rates-api
-artifact_total: 25
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Endpoints administrations API
+  slug: open-payt-administrations-api
+- collection_type: open
+  name: API Endpoints administrations companies API
+  slug: open-payt-companies-api
+- collection_type: open
+  name: API Endpoints administrations contacts API
+  slug: open-payt-contacts-api
+- collection_type: open
+  name: API Endpoints administrations credit_cases API
+  slug: open-payt-credit-cases-api
+- collection_type: open
+  name: API Endpoints administrations debtors API
+  slug: open-payt-debtors-api
+- collection_type: open
+  name: API Endpoints administrations files API
+  slug: open-payt-files-api
+- collection_type: open
+  name: API Endpoints administrations invoices API
+  slug: open-payt-invoices-api
+- collection_type: open
+  name: API Endpoints administrations messages API
+  slug: open-payt-messages-api
+- collection_type: open
+  name: API Endpoints administrations notes API
+  slug: open-payt-notes-api
+- collection_type: open
+  name: API Endpoints administrations notifications API
+  slug: open-payt-notifications-api
+- collection_type: open
+  name: API Endpoints administrations order_lines API
+  slug: open-payt-order-lines-api
+- collection_type: open
+  name: API Endpoints administrations orders API
+  slug: open-payt-orders-api
+- collection_type: open
+  name: API Endpoints administrations payment_conditions API
+  slug: open-payt-payment-conditions-api
+- collection_type: open
+  name: API Endpoints administrations payment_plans API
+  slug: open-payt-payment-plans-api
+- collection_type: open
+  name: API Endpoints administrations payments API
+  slug: open-payt-payments-api
+- collection_type: open
+  name: API Endpoints administrations psp_mandates API
+  slug: open-payt-psp-mandates-api
+- collection_type: open
+  name: API Endpoints administrations psp_transactions API
+  slug: open-payt-psp-transactions-api
+- collection_type: open
+  name: API Endpoints administrations sign_up API
+  slug: open-payt-sign-up-api
+- collection_type: open
+  name: API Endpoints administrations tasks API
+  slug: open-payt-tasks-api
+- collection_type: open
+  name: API Endpoints administrations vat_rates API
+  slug: open-payt-vat-rates-api
 common:
 - group: other
   title: ''
@@ -236,7 +300,7 @@ overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Payt''s developer surface includes authentication, changelog, sandbox, documentation, API reference, support, engineering blog, and 23 more developer resources.'
-random_paper: 86
+random_paper: 148
 scopes:
 - name: Payt Scopes
   scope_count: 0
@@ -271,7 +335,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png
 security:

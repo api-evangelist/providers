@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: The Workflows API from Shortcut — 1 operation(s) for workflows.
   name: Shortcut Workflows API
   slug: shortcut-workflows-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shortcut REST API v3 Categories API
+  slug: open-shortcut-categories-api
+- collection_type: open
+  name: Shortcut REST API v3 Categories Custom Fields API
+  slug: open-shortcut-custom-fields-api
+- collection_type: open
+  name: Shortcut REST API v3 Categories Documents API
+  slug: open-shortcut-documents-api
+- collection_type: open
+  name: Shortcut REST API v3 Categories Entity Templates API
+  slug: open-shortcut-entity-templates-api
+- collection_type: open
+  name: Shortcut REST API v3 Categories Epics API
+  slug: open-shortcut-epics-api
+- collection_type: open
+  name: Shortcut REST API v3 Categories Workflows API
+  slug: open-shortcut-workflows-api
 - collection_type: open
   name: Shortcut REST API v3
   slug: open-shortcut
@@ -133,7 +154,7 @@ overview: 'Shortcut publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Shortcut''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, GitHub presence, and 7 more developer resources.'
-random_paper: 52
+random_paper: 147
 score:
   band: thin
   composite: 35.5
@@ -154,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shortcut/refs/heads/main/screenshots/shortcut-2026-06-20T193838.png
 security:

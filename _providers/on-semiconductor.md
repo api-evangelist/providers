@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: ON Semiconductor Narrows First-Quarter Loss on AI Data- ...
   url: https://www.wsj.com/business/earnings/on-semiconductor-narrows-first-quarter-loss-on-ai-data-center-demand-008e28d3
-random_paper: 113
+random_paper: 34
 score:
   band: minimal
   composite: 6.1
@@ -100,7 +100,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/on-semiconductor/refs/heads/main/screenshots/on-semiconductor-2026-06-20T190706.png
 security:

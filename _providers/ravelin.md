@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -77,17 +77,53 @@ apis:
 - description: Voucher, promo, and payment-method voucher events.
   name: Ravelin Vouchers API
   slug: ravelin-vouchers-api
-artifact_total: 44
+artifact_total: 56
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ravelin Server 3D Secure API
+  slug: open-ravelin-3d-secure-api
 - collection_type: open
   name: Ravelin 3D Secure Server API
   slug: open-ravelin-3ds-server-api
 - collection_type: open
-  name: Ravelin Callbacks API
+  name: Ravelin Server 3D Secure Authentication API
+  slug: open-ravelin-authentication-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Callbacks API
   slug: open-ravelin-callbacks-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Checkout API
+  slug: open-ravelin-checkout-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Connect API
+  slug: open-ravelin-connect-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Customer API
+  slug: open-ravelin-customer-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Disputes API
+  slug: open-ravelin-disputes-api
 - collection_type: open
   name: Ravelin Merchant API
   slug: open-ravelin-merchant-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Payouts API
+  slug: open-ravelin-payouts-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Refunds API
+  slug: open-ravelin-refunds-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Supplier API
+  slug: open-ravelin-supplier-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Transactions API
+  slug: open-ravelin-transactions-api
+- collection_type: open
+  name: Ravelin Server 3D Secure Vouchers API
+  slug: open-ravelin-vouchers-api
 common:
 - group: agent
   title: ''
@@ -257,7 +293,7 @@ overview: 'Ravelin publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ravelin''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 25 more developer resources.'
-random_paper: 33
+random_paper: 8
 score:
   band: developing
   composite: 45.4
@@ -284,7 +320,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/screenshots/ravelin-2026-06-20T192610.png
 security:

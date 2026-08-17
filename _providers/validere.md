@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 55
 apis:
 - description: Activity Log
@@ -196,7 +196,176 @@ apis:
 - description: Workflow
   name: Validere workflows API
   slug: validere-workflows-api
-artifact_total: 59
+artifact_total: 115
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CarbonHub activities API
+  slug: open-validere-activities-api
+- collection_type: open
+  name: CarbonHub activities asset_groups API
+  slug: open-validere-asset-groups-api
+- collection_type: open
+  name: CarbonHub activities assets API
+  slug: open-validere-assets-api
+- collection_type: open
+  name: CarbonHub activities calculator_results API
+  slug: open-validere-calculator-results-api
+- collection_type: open
+  name: CarbonHub activities charts API
+  slug: open-validere-charts-api
+- collection_type: open
+  name: CarbonHub activities comments API
+  slug: open-validere-comments-api
+- collection_type: open
+  name: CarbonHub activities company API
+  slug: open-validere-company-api
+- collection_type: open
+  name: CarbonHub activities company_equipment_type_groups API
+  slug: open-validere-company-equipment-type-groups-api
+- collection_type: open
+  name: CarbonHub activities company_feature_flags API
+  slug: open-validere-company-feature-flags-api
+- collection_type: open
+  name: CarbonHub activities company_unit_config API
+  slug: open-validere-company-unit-config-api
+- collection_type: open
+  name: CarbonHub activities credit_owner API
+  slug: open-validere-credit-owner-api
+- collection_type: open
+  name: CarbonHub activities custom_attribute_definition API
+  slug: open-validere-custom-attribute-definition-api
+- collection_type: open
+  name: CarbonHub activities dashboards API
+  slug: open-validere-dashboards-api
+- collection_type: open
+  name: CarbonHub activities data API
+  slug: open-validere-data-api
+- collection_type: open
+  name: CarbonHub activities default_record_value_configuration API
+  slug: open-validere-default-record-value-configuration-api
+- collection_type: open
+  name: CarbonHub activities device_types API
+  slug: open-validere-device-types-api
+- collection_type: open
+  name: CarbonHub activities devices API
+  slug: open-validere-devices-api
+- collection_type: open
+  name: CarbonHub activities emissions_calculator API
+  slug: open-validere-emissions-calculator-api
+- collection_type: open
+  name: CarbonHub activities equipment API
+  slug: open-validere-equipment-api
+- collection_type: open
+  name: CarbonHub activities equipment_types API
+  slug: open-validere-equipment-types-api
+- collection_type: open
+  name: CarbonHub activities estimation_methods API
+  slug: open-validere-estimation-methods-api
+- collection_type: open
+  name: CarbonHub activities estimation_methods_default_records API
+  slug: open-validere-estimation-methods-default-records-api
+- collection_type: open
+  name: CarbonHub activities event_categories API
+  slug: open-validere-event-categories-api
+- collection_type: open
+  name: CarbonHub activities event_schemas API
+  slug: open-validere-event-schemas-api
+- collection_type: open
+  name: CarbonHub activities events API
+  slug: open-validere-events-api
+- collection_type: open
+  name: CarbonHub activities facilities API
+  slug: open-validere-facilities-api
+- collection_type: open
+  name: CarbonHub activities feature_flags API
+  slug: open-validere-feature-flags-api
+- collection_type: open
+  name: CarbonHub activities flows API
+  slug: open-validere-flows-api
+- collection_type: open
+  name: CarbonHub activities form_categories API
+  slug: open-validere-form-categories-api
+- collection_type: open
+  name: CarbonHub activities form_schemas API
+  slug: open-validere-form-schemas-api
+- collection_type: open
+  name: CarbonHub activities form_submissions API
+  slug: open-validere-form-submissions-api
+- collection_type: open
+  name: CarbonHub activities group_categories API
+  slug: open-validere-group-categories-api
+- collection_type: open
+  name: CarbonHub activities job API
+  slug: open-validere-job-api
+- collection_type: open
+  name: CarbonHub activities ledger API
+  slug: open-validere-ledger-api
+- collection_type: open
+  name: CarbonHub activities measurement_series API
+  slug: open-validere-measurement-series-api
+- collection_type: open
+  name: CarbonHub activities measurement_types API
+  slug: open-validere-measurement-types-api
+- collection_type: open
+  name: CarbonHub activities measurements API
+  slug: open-validere-measurements-api
+- collection_type: open
+  name: CarbonHub activities networks API
+  slug: open-validere-networks-api
+- collection_type: open
+  name: CarbonHub activities permissions API
+  slug: open-validere-permissions-api
+- collection_type: open
+  name: CarbonHub activities project_group API
+  slug: open-validere-project-group-api
+- collection_type: open
+  name: CarbonHub activities records API
+  slug: open-validere-records-api
+- collection_type: open
+  name: CarbonHub activities reporting_groups API
+  slug: open-validere-reporting-groups-api
+- collection_type: open
+  name: CarbonHub activities reports API
+  slug: open-validere-reports-api
+- collection_type: open
+  name: CarbonHub activities roles API
+  slug: open-validere-roles-api
+- collection_type: open
+  name: CarbonHub activities templated_configurations API
+  slug: open-validere-templated-configurations-api
+- collection_type: open
+  name: CarbonHub activities transactions API
+  slug: open-validere-transactions-api
+- collection_type: open
+  name: CarbonHub activities type_metadata API
+  slug: open-validere-type-metadata-api
+- collection_type: open
+  name: CarbonHub activities TypeMetadata API
+  slug: open-validere-typemetadata-api
+- collection_type: open
+  name: CarbonHub activities user_groups API
+  slug: open-validere-user-groups-api
+- collection_type: open
+  name: CarbonHub activities user_unit_config API
+  slug: open-validere-user-unit-config-api
+- collection_type: open
+  name: CarbonHub activities users API
+  slug: open-validere-users-api
+- collection_type: open
+  name: CarbonHub activities workflow_categories API
+  slug: open-validere-workflow-categories-api
+- collection_type: open
+  name: CarbonHub activities workflow_tasks API
+  slug: open-validere-workflow-tasks-api
+- collection_type: open
+  name: CarbonHub activities workflow_templates API
+  slug: open-validere-workflow-templates-api
+- collection_type: open
+  name: CarbonHub activities workflows API
+  slug: open-validere-workflows-api
 common:
 - group: other
   title: ''
@@ -310,7 +479,7 @@ overview: 'Validere publishes 55 APIs on the [APIs.io](https://apis.io/) network
 
 
   Validere''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 18 more developer resources.'
-random_paper: 4
+random_paper: 99
 score:
   band: developing
   composite: 44.2
@@ -339,7 +508,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

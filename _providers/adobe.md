@@ -15,22 +15,22 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-12'
+  score: 70.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -38,7 +38,7 @@ agentic_access:
   operation_count: 22
   slug: adobe-agentic-access
   summary_line: 22 operations · 20 acting
-api_count: 32
+api_count: 34
 apis:
 - description: Extract text, images, tables, and more from native and scanned PDFs into structured JSON using AI technology.
   name: Adobe PDF Extract API
@@ -136,6 +136,12 @@ apis:
 - description: Split a PDF document into multiple smaller PDFs.
   name: Adobe PDF Services Split PDF API
   slug: adobe-split-pdf-api
+- description: Generate 3D object composites, render 3D scenes, and run Substance 3D material and model operations through the Firefly Services REST API.
+  name: Adobe Substance 3D API
+  slug: adobe-substance-3d-api
+- description: Read and manage Creative Cloud Libraries, their elements, representations, bookmarks, and public library shares on behalf of a Creative Cloud user.
+  name: Adobe Creative Cloud Libraries API
+  slug: adobe-cc-libraries-api
 arazzos:
 - description: Upload a PDF, auto-tag it for accessibility, poll the job, and fetch the tagged result.
   name: Adobe Auto-tag a PDF For Accessibility
@@ -182,15 +188,198 @@ arazzos:
 - description: Upload a PDF, split it by page count into multiple files, poll the job, and fetch the result.
   name: Adobe Split a PDF
   slug: adobe-split-pdf-workflow
-artifact_total: 213
+artifact_total: 239
+asyncapis:
+- description: ''
+  name: Adobe Pdf Services Webhooks
+  slug: adobe-pdf-services-webhooks
 collections:
 - collection_type: postman
   name: Adobe PDF Services API
   slug: postman-adobe-pdf-services-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe PDF Services Accessibility Auto-Tag API
+  slug: open-adobe-accessibility-auto-tag-api
+- collection_type: open
+  name: Adobe PDF Services Assets API
+  slug: open-adobe-assets-api
+- collection_type: open
+  name: Adobe PDF Services Combine PDF API
+  slug: open-adobe-combine-pdf-api
+- collection_type: open
+  name: Adobe PDF Services Compress PDF API
+  slug: open-adobe-compress-pdf-api
+- collection_type: open
+  name: Adobe PDF Services Create PDF API
+  slug: open-adobe-create-pdf-api
+- collection_type: open
+  name: Adobe PDF Services Delete Pages API
+  slug: open-adobe-delete-pages-api
+- collection_type: open
+  name: Adobe PDF Services Document Generation API
+  slug: open-adobe-document-generation-api
+- collection_type: open
+  name: Adobe PDF Services Export PDF API
+  slug: open-adobe-export-pdf-api
+- collection_type: open
+  name: Adobe PDF Services Extract PDF API
+  slug: open-adobe-extract-pdf-api
+- collection_type: open
+  name: Adobe PDF Services Insert Pages API
+  slug: open-adobe-insert-pages-api
+- collection_type: open
+  name: Adobe PDF Services Jobs API
+  slug: open-adobe-jobs-api
+- collection_type: open
+  name: Adobe PDF Services Linearize PDF API
+  slug: open-adobe-linearize-pdf-api
+- collection_type: open
+  name: Adobe PDF Services OCR API
+  slug: open-adobe-ocr-api
+- collection_type: open
+  name: Adobe PDF Services PDF Properties API
+  slug: open-adobe-pdf-properties-api
+- collection_type: open
   name: Adobe PDF Services API
   slug: open-adobe-pdf-services-api
+- collection_type: open
+  name: Adobe PDF Services Protect PDF API
+  slug: open-adobe-protect-pdf-api
+- collection_type: open
+  name: Adobe PDF Services Remove Protection API
+  slug: open-adobe-remove-protection-api
+- collection_type: open
+  name: Adobe PDF Services Reorder Pages API
+  slug: open-adobe-reorder-pages-api
+- collection_type: open
+  name: Adobe PDF Services Replace Pages API
+  slug: open-adobe-replace-pages-api
+- collection_type: open
+  name: Adobe PDF Services Rotate Pages API
+  slug: open-adobe-rotate-pages-api
+- collection_type: open
+  name: Adobe PDF Services Split PDF API
+  slug: open-adobe-split-pdf-api
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adobe-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/adobe-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/adobe-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/adobe-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adobe-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/adobe-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/adobe-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adobe-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.adobe.com/trust/compliance/compliance-list.html
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/adobe-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://helpx.adobe.com/security.html/security/policy.ug.html
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/adobe-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adobe-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.adobe.com/document-services/docs/overview/pdf-services-api/policies/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/adobe-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/adobe-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/adobe-pdf-services-overlay.yaml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/adobe-pdf-services-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/adobe-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/adobe-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/adobe-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/adobe-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/adobe-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/adobe-finops.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/adobe-pdf-services-api-openapi-official.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/adobe-substance-3d-api-openapi.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/adobe-cc-libraries-api-openapi.json
 - group: agent
   title: ''
   type: AgenticAccess
@@ -281,6 +470,26 @@ common:
   url: https://developer.adobe.com/
 - group: start
   title: ''
+  type: DeveloperPortal
+  url: https://developer.adobe.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.adobe.com/apis/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.adobe.com/document-services/docs/apis/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://developer.adobe.com/document-services/pricing/main/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/adobe/overview
+- group: start
+  title: ''
   type: Console
   url: https://developer.adobe.com/console/
 - group: auth
@@ -350,7 +559,7 @@ common:
 - group: agent
   title: ''
   type: MCPServer
-  url: https://blog.developer.adobe.com/en/publish/2025/09/introducing-the-adobe-express-add-on-dev-mcp-server-beta
+  url: https://developer.adobe.com/express/add-ons/docs/guides/getting-started/local-development/mcp-server
 - group: operate
   title: ''
   type: RateLimits
@@ -776,23 +985,26 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: MCP Server
-  slug: mcp-server
-modified: '2026-05-19'
+  name: Adobe MCP servers (AEM, Analytics, CJA, Creative Cloud, Express)
+  slug: adobe-mcp-servers-aem-analytics-cja-creative-cloud-express
+- description: ''
+  name: Adobe Express Developer MCP Server (local stdio)
+  slug: adobe-express-developer-mcp-server-local-stdio
+modified: '2026-08-13'
 name: Adobe
 nav: Providers
 network: true
-overview: 'Adobe publishes 20 APIs on the [APIs.io](https://apis.io/) network, including PDF Services Accessibility Auto-Tag API, PDF Services Assets API, PDF Services Combine PDF API, and 17 more. Tagged areas include Fortune 1000, Analytics, Creative Cloud, Digital Asset Management, and Document Services.
+overview: 'Adobe publishes 22 APIs on the [APIs.io](https://apis.io/) network, including PDF Services Accessibility Auto-Tag API, PDF Services Assets API, PDF Services Combine PDF API, and 19 more. Tagged areas include Fortune 1000, Analytics, Creative Cloud, Digital Asset Management, and Document Services.
 
 
-  The Adobe catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Adobe catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Adobe''s developer surface includes authentication, developer portal, developer console, support, engineering blog, getting-started guide, signup flow, and 35 more developer resources.'
+  Adobe''s developer surface includes sandbox, changelog, CLI, authentication, developer portal, documentation, API reference, and 69 more developer resources.'
 paper_is_own: true
 plans:
 - name: Adobe Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: adobe-plans-pricing
 press:
 - date: '2026-05-25'
@@ -812,7 +1024,7 @@ press:
   url: https://x.com/Adobe
 random_paper: 25
 rate_limits:
-- limit_count: 2
+- limit_count: 10
   name: Adobe Rate Limits
   slug: adobe-rate-limits
 rules:
@@ -833,16 +1045,16 @@ rules:
     warn: 9
   slug: adobe-spectral-rules
 score:
-  band: strong
-  composite: 61.8
-  delta: 0.0
+  band: exemplar
+  composite: 82.4
+  delta: 20.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 78.3
-    developer_ergonomics: 63.0
-    discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 42.1
+    commercial_clarity: 76.3
+    contract_quality: 89.0
+    developer_ergonomics: 91.3
+    discoverability: 66.7
+    governance: 89.6
+    operational_transparency: 71.1
   previous_composite: 61.8
   provenance:
     agentic_access: derived
@@ -852,14 +1064,14 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:
 - kind: authentication
   name: Adobe Authentication
   slug: adobe-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Adobe Domain Security
   slug: adobe-domain-security
@@ -868,6 +1080,10 @@ security:
   name: Adobe Vulnerability Disclosure
   slug: adobe-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Adobe Trust Center
+  slug: adobe-trust-center
+  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, CSA STAR, GDPR, C5 (Germany), IRAP (Australia), TISAX
 slug: adobe
 tags:
 - Fortune 1000

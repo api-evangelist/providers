@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -78,7 +78,44 @@ arazzos:
 - description: Start a Sumsub KYC session, read stored PII, and create a tax-document signing submission for a Passage user.
   name: CoinList Passage - KYC and document onboarding
   slug: coinlist-kyc-onboarding
-artifact_total: 18
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Frontline DocumentSubmissions API
+  slug: open-coinlist-documentsubmissions-api
+- collection_type: open
+  name: Frontline DocumentSubmissions KYC API
+  slug: open-coinlist-kyc-api
+- collection_type: open
+  name: Frontline DocumentSubmissions OAuth API
+  slug: open-coinlist-oauth-api
+- collection_type: open
+  name: Frontline DocumentSubmissions Offers API
+  slug: open-coinlist-offers-api
+- collection_type: open
+  name: Frontline DocumentSubmissions Participations API
+  slug: open-coinlist-participations-api
+- collection_type: open
+  name: Frontline DocumentSubmissions Pii API
+  slug: open-coinlist-pii-api
+- collection_type: open
+  name: Frontline DocumentSubmissions Requirements API
+  slug: open-coinlist-requirements-api
+- collection_type: open
+  name: Frontline DocumentSubmissions Swap API
+  slug: open-coinlist-swap-api
+- collection_type: open
+  name: Frontline DocumentSubmissions Token API
+  slug: open-coinlist-token-api
+- collection_type: open
+  name: Frontline DocumentSubmissions Wallet API
+  slug: open-coinlist-wallet-api
+- collection_type: open
+  name: Frontline DocumentSubmissions Wallet Ownership API
+  slug: open-coinlist-wallet-ownership-api
 common:
 - group: other
   title: ''
@@ -224,7 +261,7 @@ overview: 'CoinList publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   CoinList''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
-random_paper: 29
+random_paper: 124
 scopes:
 - name: Coinlist Scopes
   scope_count: 0
@@ -259,7 +296,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

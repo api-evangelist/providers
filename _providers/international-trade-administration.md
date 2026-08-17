@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Aggregated international trade events including trade missions, conferences, webinars, and trade shows from federal partners.
   name: International Trade Administration Trade Events API
   slug: international-trade-administration-trade-events-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: International Trade Administration Data Services Consolidated Screening List API
+  slug: open-international-trade-administration-consolidated-screening-list-api
+- collection_type: open
+  name: International Trade Administration Data Services Consolidated Screening List Country Commercial Guides API
+  slug: open-international-trade-administration-country-commercial-guides-api
+- collection_type: open
+  name: International Trade Administration Data Services Consolidated Screening List Customs Tariff API
+  slug: open-international-trade-administration-customs-tariff-api
+- collection_type: open
+  name: International Trade Administration Data Services Consolidated Screening List De Minimis API
+  slug: open-international-trade-administration-de-minimis-api
+- collection_type: open
+  name: International Trade Administration Data Services Consolidated Screening List Market Intelligence API
+  slug: open-international-trade-administration-market-intelligence-api
+- collection_type: open
+  name: International Trade Administration Data Services Consolidated Screening List Trade Events API
+  slug: open-international-trade-administration-trade-events-api
 - collection_type: open
   name: International Trade Administration Data Services API
   slug: open-international-trade-administration
@@ -134,7 +155,7 @@ plans:
 - name: International Trade Administration Plans Pricing
   plan_count: 3
   slug: international-trade-administration-plans-pricing
-random_paper: 48
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: International Trade Administration Rate Limits
@@ -174,7 +195,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/screenshots/international-trade-administration-2026-06-20T183459.png
 security:

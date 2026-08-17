@@ -10,25 +10,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.3
-  scored_at: '2026-08-12'
+  score: 40.1
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 132
+  human_in_the_loop: 124
+  name: Nexad Agentic Access
+  operation_count: 281
+  slug: nexad-agentic-access
+  summary_line: 281 operations · 132 acting · 124 human-in-the-loop
 api_count: 2
 apis:
 - description: Java/Kotlin Android SDK for monetizing apps with native, WebView, chat-message, and modal-overlay ad formats — including contextual ads for AI-chat interfaces. Installed via com.nexad:sdk and initiali
@@ -37,7 +44,7 @@ apis:
 - description: 'The Soku AI platform API (identifies as "NexStudio API"). Powers an autonomous marketing agent across ads, analytics (GA4, GSC, PostHog), SEO hosting, and review-gated writes. Authenticated via OAuth '
   name: Soku (NexStudio) API
   slug: soku-nexstudio-api
-artifact_total: 5
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -126,46 +133,107 @@ common:
 - group: agent
   title: ''
   type: LLMsTxt
+  url: llms/nexad-soku-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
   url: llms/nexad-llms.txt
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/nexad-domain-security.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://github.com/About-Intelligence/soku-cli/blob/main/SECURITY.md
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/nexad-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/About-Intelligence
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/About-Intelligence/soku-cli
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/nexad-agentic-access.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/nexad-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/nexad-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/nexad-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/nexad-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/nexad-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/nexad-rate-limits.yml
+- group: other
+  title: ''
+  type: Capabilities
+  url: cli/nexad-capabilities.json
 created: '2026-07-17'
-description: Nexad (About Intelligence, Inc.) is an AI-native advertising company backed by Prosus Ventures. It ships the Nexad Android Ads SDK — a Java/Kotlin library for embedding contextual, native, WebView, chat-message, and modal-overlay ads directly into mobile and AI-chat applications — and operates Soku AI, an autonomous marketing agent (the NexStudio API at api.soku.ai) that runs and optimizes ad campaigns across Google, Meta, TikTok, and ChatGPT Ads on a 24/7 perceive–decide–act loop with human-in-the-loop approvals. Developers integrate via the Android SDK, the Soku CLI (@soku-ai/cli) for shell-based AI agents such as Claude Code, Codex, and Cursor, an authenticated MCP endpoint, and a hub of 100+ open-source marketing skills.
+description: 'Nexad (About Intelligence, Inc.) is an AI-native advertising company backed by Andreessen Horowitz, Point72 and Prosus. It ships the Nexad Android Ads SDK — a Java/Kotlin library for embedding contextual, native, WebView, chat-message, and modal-overlay ads directly into mobile and AI-chat applications — and operates Soku AI, an autonomous marketing agent (the NexStudio API at api.soku.ai) that runs and optimizes ad campaigns across Google, Meta, TikTok, and ChatGPT Ads on a 24/7 perceive–decide–act loop with human-in-the-loop approvals. Developers integrate via the Android SDK, the Soku CLI (@soku-ai/cli) for shell-based AI agents such as Claude Code, Codex, and Cursor, an authenticated MCP endpoint at api.soku.ai/mcp, and an open-source marketing skills hub. Nexad publishes no OpenAPI, but it does ship an unusually complete machine-readable substitute: a 281-action capability registry (18 namespaces) in its public MIT-licensed soku-cli repository, where every action declares
+  typed inputs, an output shape, a read/write/risk mode and a requires_review flag — 124 of the 281 actions are human-approval-gated at runtime.'
 image: https://docs.nex.ad/img/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
   name: nexad-mcp.yml
   slug: nexad-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Nexad
 nav: Providers
 network: true
 overview: 'Nexad publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Advertising, Marketing, and Marketing Automation.
 
 
-  Nexad''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 48
+  Nexad''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Nexad Plans Pricing
+  plan_count: 4
+  slug: nexad-plans-pricing
+random_paper: 81
+rate_limits:
+- limit_count: 0
+  name: Nexad Rate Limits
+  slug: nexad-rate-limits
 score:
-  band: thin
-  composite: 33.7
-  delta: 0.0
+  band: developing
+  composite: 43.6
+  delta: 9.9
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 80.4
     discoverability: 66.7
-    governance: 0.0
-    operational_transparency: 15.8
+    governance: 12.5
+    operational_transparency: 31.6
   previous_composite: 33.7
   provenance:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/screenshots/nexad-2026-08-07T185142.png
 security:
 - kind: authentication
@@ -176,6 +244,10 @@ security:
   name: Nexad Domain Security
   slug: nexad-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Nexad Vulnerability Disclosure
+  slug: nexad-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 slug: nexad
 tags:
 - Company

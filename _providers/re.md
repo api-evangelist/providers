@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Health, APY, NAV, and price series
@@ -46,7 +46,26 @@ apis:
 - description: Per-wallet balances and points
   name: Re Wallet API
   slug: re-wallet-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Re Protocol General API
+  slug: open-re-general-api
+- collection_type: open
+  name: Re Protocol General Points API
+  slug: open-re-points-api
+- collection_type: open
+  name: Re Protocol General Supply API
+  slug: open-re-supply-api
+- collection_type: open
+  name: Re Protocol General TVL API
+  slug: open-re-tvl-api
+- collection_type: open
+  name: Re Protocol General Wallet API
+  slug: open-re-wallet-api
 common:
 - group: company
   title: ''
@@ -160,7 +179,7 @@ overview: 'Re publishes 5 APIs on the [APIs.io](https://apis.io/) network, inclu
 
 
   Re''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 18 more developer resources.'
-random_paper: 95
+random_paper: 66
 score:
   band: thin
   composite: 40.3
@@ -189,7 +208,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

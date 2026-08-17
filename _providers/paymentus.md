@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The XOTP (Paymentus payment) API exposes core Service Commerce operations — make payment (Sale), account inquiry, payment history, void/cancel payment, customer profile create/read/update/delete and l
@@ -142,7 +142,7 @@ overview: 'Paymentus publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Paymentus'' developer surface includes API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 38
+random_paper: 104
 scopes:
 - name: Paymentus Scopes
   scope_count: 16
@@ -170,7 +170,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

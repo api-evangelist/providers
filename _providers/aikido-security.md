@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: The Zen API from Aikido Security — 2 operation(s) for zen.
   name: Aikido Security Zen API
   slug: aikido-security-zen-api
-artifact_total: 21
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aikido Security Public REST Clouds API
+  slug: open-aikido-security-clouds-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Code Repositories API
+  slug: open-aikido-security-code-repositories-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Compliance API
+  slug: open-aikido-security-compliance-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Containers API
+  slug: open-aikido-security-containers-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Custom Rules API
+  slug: open-aikido-security-custom-rules-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Domains API
+  slug: open-aikido-security-domains-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Issues API
+  slug: open-aikido-security-issues-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Teams API
+  slug: open-aikido-security-teams-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Users API
+  slug: open-aikido-security-users-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Webhooks API
+  slug: open-aikido-security-webhooks-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Workspace API
+  slug: open-aikido-security-workspace-api
+- collection_type: open
+  name: Aikido Security Public REST Clouds Zen API
+  slug: open-aikido-security-zen-api
 - collection_type: open
   name: Aikido Security Public REST API
   slug: open-aikido-security
@@ -177,7 +216,7 @@ plans:
 - name: Aikido Security Plans Pricing
   plan_count: 1
   slug: aikido-security-plans-pricing
-random_paper: 118
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Aikido Security Rate Limits
@@ -202,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/screenshots/aikido-security-2026-06-20T170912.png
 security:

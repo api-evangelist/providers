@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Property listings (RESO Data Dictionary Property resource).
   name: mlsgrid Property API
   slug: mlsgrid-property-api
-artifact_total: 35
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MLS Grid RESO Web Lookup API
+  slug: open-mlsgrid-lookup-api
+- collection_type: open
+  name: MLS Grid RESO Web Lookup Media API
+  slug: open-mlsgrid-media-api
+- collection_type: open
+  name: MLS Grid RESO Web Lookup Member API
+  slug: open-mlsgrid-member-api
+- collection_type: open
+  name: MLS Grid RESO Web Lookup Metadata API
+  slug: open-mlsgrid-metadata-api
+- collection_type: open
+  name: MLS Grid RESO Web Lookup Office API
+  slug: open-mlsgrid-office-api
+- collection_type: open
+  name: MLS Grid RESO Web Lookup OpenHouse API
+  slug: open-mlsgrid-openhouse-api
+- collection_type: open
+  name: MLS Grid RESO Web Lookup Property API
+  slug: open-mlsgrid-property-api
 - collection_type: open
   name: MLS Grid RESO Web API
   slug: open-mlsgrid-reso-web-api
@@ -205,7 +229,7 @@ plans:
 - name: Mlsgrid Plans Pricing
   plan_count: 2
   slug: mlsgrid-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Mlsgrid Rate Limits
@@ -247,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/screenshots/mlsgrid-2026-06-20T185627.png
 security:

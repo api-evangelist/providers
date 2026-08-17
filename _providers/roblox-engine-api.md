@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Roblox user information
   name: Roblox Engine API Users API
   slug: roblox-engine-api-users-api
-artifact_total: 31
+artifact_total: 39
 collections:
 - collection_type: postman
   name: Roblox Open Cloud Assets API
@@ -86,6 +86,30 @@ collections:
 - collection_type: postman
   name: Roblox Open Cloud Assets Users API
   slug: postman-roblox-engine-api-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Roblox Open Cloud Assets API
+  slug: open-roblox-engine-api-assets-api
+- collection_type: open
+  name: Roblox Open Cloud Assets Data Stores API
+  slug: open-roblox-engine-api-data-stores-api
+- collection_type: open
+  name: Roblox Open Cloud Assets Groups API
+  slug: open-roblox-engine-api-groups-api
+- collection_type: open
+  name: Roblox Open Cloud Assets Messaging API
+  slug: open-roblox-engine-api-messaging-api
+- collection_type: open
+  name: Roblox Open Cloud Assets Places API
+  slug: open-roblox-engine-api-places-api
+- collection_type: open
+  name: Roblox Open Cloud Assets Universes API
+  slug: open-roblox-engine-api-universes-api
+- collection_type: open
+  name: Roblox Open Cloud Assets Users API
+  slug: open-roblox-engine-api-users-api
 - collection_type: open
   name: Roblox Open Cloud API
   slug: open-roblox-open-cloud
@@ -200,7 +224,7 @@ plans:
 - name: Roblox Engine Api Plans Pricing
   plan_count: 3
   slug: roblox-engine-api-plans-pricing
-random_paper: 16
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Roblox Engine Api Rate Limits
@@ -242,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/screenshots/roblox-engine-api-2026-06-20T193143.png
 security:

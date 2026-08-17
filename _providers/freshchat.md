@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -77,11 +77,53 @@ apis:
 - description: The Users API from Freshchat — 4 operation(s) for users.
   name: Freshchat Users API
   slug: freshchat-users-api
-artifact_total: 20
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freshchat REST Accounts API
+  slug: open-freshchat-accounts-api
+- collection_type: open
+  name: Freshchat REST Accounts Agents API
+  slug: open-freshchat-agents-api
 - collection_type: open
   name: Freshchat Webhooks
   slug: open-freshchat-asyncapi
+- collection_type: open
+  name: Freshchat REST Accounts BusinessHours API
+  slug: open-freshchat-businesshours-api
+- collection_type: open
+  name: Freshchat REST Accounts Channels API
+  slug: open-freshchat-channels-api
+- collection_type: open
+  name: Freshchat REST Accounts Conversations API
+  slug: open-freshchat-conversations-api
+- collection_type: open
+  name: Freshchat REST Accounts CSAT API
+  slug: open-freshchat-csat-api
+- collection_type: open
+  name: Freshchat REST Accounts Files API
+  slug: open-freshchat-files-api
+- collection_type: open
+  name: Freshchat REST Accounts Groups API
+  slug: open-freshchat-groups-api
+- collection_type: open
+  name: Freshchat REST Accounts Messages API
+  slug: open-freshchat-messages-api
+- collection_type: open
+  name: Freshchat REST Accounts Metrics API
+  slug: open-freshchat-metrics-api
+- collection_type: open
+  name: Freshchat REST Accounts OutboundMessages API
+  slug: open-freshchat-outboundmessages-api
+- collection_type: open
+  name: Freshchat REST Accounts Roles API
+  slug: open-freshchat-roles-api
+- collection_type: open
+  name: Freshchat REST Accounts Users API
+  slug: open-freshchat-users-api
 - collection_type: open
   name: Freshchat REST API
   slug: open-freshchat
@@ -154,7 +196,7 @@ overview: 'Freshchat publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Freshchat''s developer surface includes authentication, documentation, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 112
+random_paper: 58
 score:
   band: thin
   composite: 34.3
@@ -175,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/screenshots/freshchat-2026-06-20T181539.png
 security:

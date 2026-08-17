@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Pi-hole instance information.
   name: Pi-hole Info API
   slug: pi-hole-info-api
-artifact_total: 8
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pi-hole REST Auth API
+  slug: open-pi-hole-auth-api
+- collection_type: open
+  name: Pi-hole REST Auth DNS API
+  slug: open-pi-hole-dns-api
+- collection_type: open
+  name: Pi-hole REST Auth Groups API
+  slug: open-pi-hole-groups-api
+- collection_type: open
+  name: Pi-hole REST Auth Info API
+  slug: open-pi-hole-info-api
 - collection_type: open
   name: Pi-hole REST API
   slug: open-pi-hole
@@ -116,7 +131,7 @@ overview: 'Pi-hole publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Pi-hole''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
-random_paper: 86
+random_paper: 90
 score:
   band: emerging
   composite: 25.5
@@ -137,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/screenshots/pi-hole-2026-06-20T191657.png
 security:

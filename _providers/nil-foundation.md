@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Ethereum-style JSON-RPC 2.0 API exposing the =nil; cluster — blocks, transactions (messages), accounts, contract calls, gas pricing, shard enumeration, tokens, and event filters. Read methods require '
@@ -140,7 +140,7 @@ overview: '=nil; Foundation publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   =nil; Foundation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, changelog, and 15 more developer resources.'
-random_paper: 7
+random_paper: 106
 score:
   band: emerging
   composite: 26.4
@@ -157,7 +157,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nil-foundation/refs/heads/main/screenshots/nil-foundation-2026-08-07T185257.png
 security:

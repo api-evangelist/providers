@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,14 @@ apis:
 - description: The Monitoring API from Memgraph — 1 operation(s) for monitoring.
   name: Memgraph Monitoring API
   slug: memgraph-monitoring-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Memgraph HTTP Metrics Monitoring API
+  slug: open-memgraph-monitoring-api
 - collection_type: open
   name: Memgraph
   slug: open-memgraph
@@ -113,7 +119,7 @@ plans:
 - name: Memgraph Plans Pricing
   plan_count: 3
   slug: memgraph-plans-pricing
-random_paper: 9
+random_paper: 104
 rate_limits:
 - limit_count: 4
   name: Memgraph Rate Limits
@@ -138,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memgraph/refs/heads/main/screenshots/memgraph-2026-06-20T185201.png
 security:

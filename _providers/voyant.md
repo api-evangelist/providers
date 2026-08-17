@@ -20,16 +20,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-08-12'
+  score: 72.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 4
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 787
   slug: voyant-agentic-access
   summary_line: 787 operations · 350 acting · 4 human-in-the-loop
-api_count: 2
+api_count: 3
 apis:
 - description: REST API for the Voyant brand-context platform, published as OpenAPI 3.1.0 with 783 operations over 79 tags. Covers context streams and context modulation, RAG ingestion and semantic search, the messa
   name: VoyantIO API
@@ -45,7 +45,18 @@ apis:
 - description: Hosted Model Context Protocol server (`voyant-mcp` 1.1.0) exposing 15 tools that let an agent client pull the organization's brand context, persona/funnel-modulated context, positioning, messaging, pe
   name: Voyant MCP Server
   slug: voyant-mcp-server
-artifact_total: 6
+- description: Second OpenAPI published by Voyant.io, discovered 2026-08-13 at https://www.voyant.io/openapi-gypsum.json (HTTP 200, application/json, 36,964 bytes). A clean 26-operation, 7-tag cut of the brand-conte
+  name: Gypsum Context API
+  slug: gypsum-context-api
+artifact_total: 11
+asyncapis:
+- description: Event surface for the VoyantIO brand-context platform, derived from the provider's own published streaming architecture document at `GET /api/context-streams/streaming/architecture` (anonymous, HTTP 2
+  name: VoyantIO Streaming Knowledge Base
+  slug: voyant-streaming-asyncapi
+collections:
+- collection_type: open
+  name: VoyantIO API
+  slug: open-voyant-openapi-original
 common:
 - group: company
   title: ''
@@ -123,6 +134,34 @@ common:
   title: ''
   type: AgenticAccess
   url: agentic-access/voyant-agentic-access.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/voyant-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/voyant-rate-limits.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/voyant-streaming-asyncapi.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/voyant-packages.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/voyant-openapi-original-overlay.yaml
+- group: start
+  title: ''
+  type: Login
+  url: https://www.voyant.io/dashboard
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/andrew-brown-noosphere/agent-samples
 created: '2026-08-12'
 description: Voyant.io is a brand-context platform that turns a company's positioning, messaging, personas, products, pricing, and competitive intelligence into structured "context streams" that any AI tool or agent can read at generation time, so AI-produced copy stays on-message instead of drifting or hallucinating claims. The product is delivered as a large FastAPI-based REST API (783 operations across 79 tags covering context streams, RAG search, messaging frameworks, target graph, telemetry, social signal harvesting, competitive intelligence, and content generation), a hosted MCP server exposing 15 tools to agent clients, and a set of published agent-governance files (`/.well-known/llms.txt`, `/.well-known/context.txt`) that declare training permissions and inference-control rules for the domain itself. Marketed to B2B GTM teams scaling from $5M to $100M ARR. Pre-seed, founded by Andrew M. Brown; the API runs under the internal name "VoiceForge".
 image: https://www.voyant.io/img/logo/voyant-logo.png
@@ -131,32 +170,46 @@ mcp_servers:
 - description: ''
   name: voyant-mcp.yml
   slug: voyant-mcpyml
-modified: '2026-08-12'
+modified: '2026-08-13'
 name: Voyant.io
 nav: Providers
 network: true
-overview: 'Voyant.io publishes 1 API on the [APIs.io](https://apis.io/) network: VoyantIO API. Tagged areas include artificial-intelligence, context-management, brand-governance, product-marketing, and gtm-operations.
+overview: 'Voyant.io publishes 2 APIs on the [APIs.io](https://apis.io/) network: VoyantIO API and Gypsum Context API. Tagged areas include artificial-intelligence, context-management, brand-governance, product-marketing, and gtm-operations.
 
 
-  Voyant.io''s developer surface includes documentation, API reference, pricing, support, authentication, and 14 more developer resources.'
-random_paper: 73
+  The Voyant.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Voyant.io''s developer surface includes documentation, API reference, pricing, support, authentication, and 21 more developer resources.'
+plans:
+- name: Voyant Plans Pricing
+  plan_count: 4
+  slug: voyant-plans-pricing
+random_paper: 77
+rate_limits:
+- limit_count: 2
+  name: Voyant Rate Limits
+  slug: voyant-rate-limits
 score:
-  band: thin
-  composite: 37.2
+  band: developing
+  composite: 51.7
+  delta: 14.5
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 56.0
+    commercial_clarity: 55.3
+    contract_quality: 61.3
     developer_ergonomics: 54.3
-    discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 0.0
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 21.1
+  previous_composite: 37.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Voyant Authentication
   slug: voyant-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/apiKey · 2 schemes
 - kind: domain-security
   name: Voyant Domain Security
   slug: voyant-domain-security

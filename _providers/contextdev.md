@@ -10,8 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,15 +20,15 @@ agent_readiness:
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: false
+    idempotency: verified
     mcp_server: true
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.9
-  scored_at: '2026-08-12'
+  score: 73.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -37,7 +36,7 @@ agentic_access:
   operation_count: 84
   slug: contextdev-agentic-access
   summary_line: 84 operations · 32 acting
-api_count: 7
+api_count: 8
 apis:
 - description: The Brand Intelligence API from Context.dev — 7 operation(s) for brand intelligence.
   name: Context.dev Brand Intelligence API
@@ -60,11 +59,39 @@ apis:
 - description: The Web Scraping API from Context.dev — 7 operation(s) for web scraping.
   name: Context.dev Web Scraping API
   slug: contextdev-web-scraping-api
-artifact_total: 13
+- description: Submit up to 25,000 URLs or a whole-site crawl as a single asynchronous job and collect the results as paginated JSON or gzipped NDJSON. One batch submission counts as a single request against the per
+  name: Context.dev Batch API
+  slug: contextdev-batch-api
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Contextdev Webhooks
   slug: contextdev-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Context Brand Intelligence API
+  slug: open-contextdev-brand-intelligence-api
+- collection_type: open
+  name: Context Brand Intelligence Monitors API
+  slug: open-contextdev-monitors-api
+- collection_type: open
+  name: Context Brand Intelligence Parsing API
+  slug: open-contextdev-parsing-api
+- collection_type: open
+  name: Context Brand Intelligence People API
+  slug: open-contextdev-people-api
+- collection_type: open
+  name: Context Brand Intelligence Utility API
+  slug: open-contextdev-utility-api
+- collection_type: open
+  name: Context Brand Intelligence Web Extraction API
+  slug: open-contextdev-web-extraction-api
+- collection_type: open
+  name: Context Brand Intelligence Web Scraping API
+  slug: open-contextdev-web-scraping-api
 common:
 - group: other
   title: ''
@@ -198,6 +225,42 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/contextdev/
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/contextdev-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/contextdev-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/contextdev-plans-pricing.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/contextdev-a2a.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/contextdev-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/contextdev-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/contextdev-trust-center.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/contextdev-batch-api-overlay.yaml
+- group: start
+  title: ''
+  type: Login
+  url: https://www.context.dev/login
 created: '2026-07-17'
 description: Context.dev is the unified web-context API for software and AI agents — one API that turns any domain or URL into structured, typed JSON. It covers brand intelligence (logos, colors, fonts, socials, address, industry codes, stock ticker / ISIN and transaction-descriptor resolution), web scraping and crawling to clean Markdown or HTML, screenshots, sitemap discovery, web search, structured data extraction against a JSON Schema, product extraction, document parsing to Markdown, NAICS / SIC classification, and website change monitoring with signed webhooks. Typed first-party SDKs ship for TypeScript, Python, Ruby, Go, and PHP, alongside a CLI, a hosted MCP server, and a published Agent Skill. Founded in 2025 by Yahia Bakour and backed by Y Combinator (S26).
 image: https://www.context.dev/logo.png
@@ -206,34 +269,42 @@ mcp_servers:
 - description: ''
   name: contextdev-mcp.yml
   slug: contextdev-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Context.dev
 nav: Providers
 network: true
-overview: 'Context.dev publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Brand Intelligence API, Monitors API, Parsing API, and 4 more. Tagged areas include Web Scraping, Brand Intelligence, Data Enrichment, AI Agents, and Web Data.
+overview: 'Context.dev publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Brand Intelligence API, Monitors API, Parsing API, and 5 more. Tagged areas include Web Scraping, Brand Intelligence, Data Enrichment, AI Agents, and Web Data.
 
 
   The Context.dev catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Context.dev''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 26 more developer resources.'
-random_paper: 12
+  Context.dev''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 35 more developer resources.'
+plans:
+- name: Contextdev Plans Pricing
+  plan_count: 5
+  slug: contextdev-plans-pricing
+random_paper: 49
+rate_limits:
+- limit_count: 8
+  name: Contextdev Rate Limits
+  slug: contextdev-rate-limits
 scopes:
 - name: Contextdev Scopes
   scope_count: 2
   slug: contextdev-scopes
   summary_line: 2 scopes
 score:
-  band: developing
-  composite: 55.9
-  delta: 0.0
+  band: exemplar
+  composite: 69.5
+  delta: 13.6
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 81.6
     contract_quality: 66.2
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 44.7
+    operational_transparency: 76.3
   previous_composite: 55.9
   provenance:
     agentic_access: derived
@@ -246,8 +317,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/screenshots/contextdev-2026-07-25T210330.png
 security:
 - kind: authentication
@@ -257,7 +328,11 @@ security:
 - kind: domain-security
   name: Contextdev Domain Security
   slug: contextdev-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Contextdev Trust Center
+  slug: contextdev-trust-center
+  summary_line: SOC 2 Type 1, SOC 2 Type 2
 slug: contextdev
 tags:
 - Web Scraping

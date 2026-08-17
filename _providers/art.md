@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -117,7 +117,86 @@ arazzos:
 - description: Mint an XApp token, search for an artist, then list that artist's artworks.
   name: Find an artist and list their artworks
   slug: art-find-artist-artworks
-artifact_total: 31
+artifact_total: 57
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Artsy Public Applications API
+  slug: open-art-applications-api
+- collection_type: open
+  name: Artsy Public Applications Artists API
+  slug: open-art-artists-api
+- collection_type: open
+  name: Artsy Public Applications Artworks API
+  slug: open-art-artworks-api
+- collection_type: open
+  name: Artsy Public Applications Authentication API
+  slug: open-art-authentication-api
+- collection_type: open
+  name: Artsy Public Applications Bidder Positions API
+  slug: open-art-bidder-positions-api
+- collection_type: open
+  name: Artsy Public Applications Bidders API
+  slug: open-art-bidders-api
+- collection_type: open
+  name: Artsy Public Applications Collection Items API
+  slug: open-art-collection-items-api
+- collection_type: open
+  name: Artsy Public Applications Collections API
+  slug: open-art-collections-api
+- collection_type: open
+  name: Artsy Public Applications Collector Profiles API
+  slug: open-art-collector-profiles-api
+- collection_type: open
+  name: Artsy Public Applications Devices API
+  slug: open-art-devices-api
+- collection_type: open
+  name: Artsy Public Applications Editions API
+  slug: open-art-editions-api
+- collection_type: open
+  name: Artsy Public Applications Fairs API
+  slug: open-art-fairs-api
+- collection_type: open
+  name: Artsy Public Applications Genes API
+  slug: open-art-genes-api
+- collection_type: open
+  name: Artsy Public Applications Images API
+  slug: open-art-images-api
+- collection_type: open
+  name: Artsy Public Applications Partner Communications API
+  slug: open-art-partner-communications-api
+- collection_type: open
+  name: Artsy Public Applications Partner Contacts API
+  slug: open-art-partner-contacts-api
+- collection_type: open
+  name: Artsy Public Applications Partners API
+  slug: open-art-partners-api
+- collection_type: open
+  name: Artsy Public Applications Profiles API
+  slug: open-art-profiles-api
+- collection_type: open
+  name: Artsy Public Applications Sale Artworks API
+  slug: open-art-sale-artworks-api
+- collection_type: open
+  name: Artsy Public Applications Sales API
+  slug: open-art-sales-api
+- collection_type: open
+  name: Artsy Public Applications Search API
+  slug: open-art-search-api
+- collection_type: open
+  name: Artsy Public Applications Shows API
+  slug: open-art-shows-api
+- collection_type: open
+  name: Artsy Public Applications Status API
+  slug: open-art-status-api
+- collection_type: open
+  name: Artsy Public Applications User Fair Actions API
+  slug: open-art-user-fair-actions-api
+- collection_type: open
+  name: Artsy Public Applications Users API
+  slug: open-art-users-api
 common:
 - group: other
   title: ''
@@ -239,7 +318,7 @@ overview: 'Artsy publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Artsy''s developer surface includes documentation, API reference, authentication, engineering blog, and 22 more developer resources.'
-random_paper: 87
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Art Rate Limits
@@ -267,7 +346,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/screenshots/art-2026-07-25T201312.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 7
@@ -152,7 +152,119 @@ apis:
 - description: The Workflows API from Queen's University at Kingston — 1 operation(s) for workflows.
   name: Queen's University at Kingston Workflows API
   slug: queens-university-at-kingston-workflows-api
-artifact_total: 52
+artifact_total: 89
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dataverse Access API
+  slug: open-queens-university-at-kingston-access-api
+- collection_type: open
+  name: Dataverse Access addFilesToDataset API
+  slug: open-queens-university-at-kingston-addfilestodataset-api
+- collection_type: open
+  name: Dataverse Access addFileToDataset API
+  slug: open-queens-university-at-kingston-addfiletodataset-api
+- collection_type: open
+  name: Dataverse Access addGlobusFilesToDataset API
+  slug: open-queens-university-at-kingston-addglobusfilestodataset-api
+- collection_type: open
+  name: Dataverse Access Admin API
+  slug: open-queens-university-at-kingston-admin-api
+- collection_type: open
+  name: Dataverse Access Batch API
+  slug: open-queens-university-at-kingston-batch-api
+- collection_type: open
+  name: Dataverse Access Builtin Users API
+  slug: open-queens-university-at-kingston-builtin-users-api
+- collection_type: open
+  name: Dataverse Access Datasetfields API
+  slug: open-queens-university-at-kingston-datasetfields-api
+- collection_type: open
+  name: Dataverse Access Datasets API
+  slug: open-queens-university-at-kingston-datasets-api
+- collection_type: open
+  name: Dataverse Access Datatags API
+  slug: open-queens-university-at-kingston-datatags-api
+- collection_type: open
+  name: Dataverse Access DataverseFeaturedItems API
+  slug: open-queens-university-at-kingston-dataversefeatureditems-api
+- collection_type: open
+  name: Dataverse Access Dataverses API
+  slug: open-queens-university-at-kingston-dataverses-api
+- collection_type: open
+  name: Dataverse Access Edit API
+  slug: open-queens-university-at-kingston-edit-api
+- collection_type: open
+  name: Dataverse Access ExternalTools API
+  slug: open-queens-university-at-kingston-externaltools-api
+- collection_type: open
+  name: Dataverse Access Files API
+  slug: open-queens-university-at-kingston-files-api
+- collection_type: open
+  name: Dataverse Access Harvest API
+  slug: open-queens-university-at-kingston-harvest-api
+- collection_type: open
+  name: Dataverse Access Inbox API
+  slug: open-queens-university-at-kingston-inbox-api
+- collection_type: open
+  name: Dataverse Access Info API
+  slug: open-queens-university-at-kingston-info-api
+- collection_type: open
+  name: Dataverse Access Ingest API
+  slug: open-queens-university-at-kingston-ingest-api
+- collection_type: open
+  name: Dataverse Access Licenses API
+  slug: open-queens-university-at-kingston-licenses-api
+- collection_type: open
+  name: Dataverse Access Localcontexts API
+  slug: open-queens-university-at-kingston-localcontexts-api
+- collection_type: open
+  name: Dataverse Access Logout API
+  slug: open-queens-university-at-kingston-logout-api
+- collection_type: open
+  name: Dataverse Access Mail API
+  slug: open-queens-university-at-kingston-mail-api
+- collection_type: open
+  name: Dataverse Access Meta API
+  slug: open-queens-university-at-kingston-meta-api
+- collection_type: open
+  name: Dataverse Access Metadatablocks API
+  slug: open-queens-university-at-kingston-metadatablocks-api
+- collection_type: open
+  name: Dataverse Access Mydata API
+  slug: open-queens-university-at-kingston-mydata-api
+- collection_type: open
+  name: Dataverse Access Notifications API
+  slug: open-queens-university-at-kingston-notifications-api
+- collection_type: open
+  name: Dataverse Access Pids API
+  slug: open-queens-university-at-kingston-pids-api
+- collection_type: open
+  name: Dataverse Access replaceFilesInDataset API
+  slug: open-queens-university-at-kingston-replacefilesindataset-api
+- collection_type: open
+  name: Dataverse Access Roles API
+  slug: open-queens-university-at-kingston-roles-api
+- collection_type: open
+  name: Dataverse Access saveAuxiliaryFileWithVersion API
+  slug: open-queens-university-at-kingston-saveauxiliaryfilewithversion-api
+- collection_type: open
+  name: Dataverse Access Search API
+  slug: open-queens-university-at-kingston-search-api
+- collection_type: open
+  name: Dataverse Access Sendfeedback API
+  slug: open-queens-university-at-kingston-sendfeedback-api
+- collection_type: open
+  name: Dataverse Access uploadDatasetLogo API
+  slug: open-queens-university-at-kingston-uploaddatasetlogo-api
+- collection_type: open
+  name: Dataverse Access Users API
+  slug: open-queens-university-at-kingston-users-api
+- collection_type: open
+  name: Dataverse Access Workflows API
+  slug: open-queens-university-at-kingston-workflows-api
 common:
 - group: agent
   title: ''
@@ -247,7 +359,7 @@ plans:
 - name: Queens University At Kingston Plans Pricing
   plan_count: 2
   slug: queens-university-at-kingston-plans-pricing
-random_paper: 4
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Queens University At Kingston Rate Limits
@@ -295,7 +407,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/screenshots/queens-university-at-kingston-2026-06-20T192420.png
 security:

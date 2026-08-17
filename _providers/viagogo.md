@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 21
 apis:
 - description: The Addresses API from viagogo — 2 operation(s) for addresses.
@@ -84,11 +84,75 @@ apis:
 - description: When configuring a webhook, you can choose the topics you would like to receive payloads for. You should only subscribe to the specific topics that you plan on handling so that you can limit the numbe
   name: viagogo Topics API
   slug: viagogo-topics-api
-artifact_total: 26
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Viagogo Webhooks
   slug: viagogo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: viagogo Account Addresses API
+  slug: open-viagogo-addresses-api
+- collection_type: open
+  name: viagogo Catalog Categories API
+  slug: open-viagogo-categories-api
+- collection_type: open
+  name: Viagogo E Tickets API
+  slug: open-viagogo-e-tickets-api
+- collection_type: open
+  name: viagogo Catalog Events API
+  slug: open-viagogo-events-api
+- collection_type: open
+  name: viagogo Catalog Listing Offers API
+  slug: open-viagogo-listing-offers-api
+- collection_type: open
+  name: viagogo Inventory Listing Constraints API
+  slug: open-viagogo-listingconstraints-api
+- collection_type: open
+  name: viagogo Account Payment Methods API
+  slug: open-viagogo-paymentmethods-api
+- collection_type: open
+  name: viagogo Sales Payments API
+  slug: open-viagogo-payments-api
+- collection_type: open
+  name: viagogo Sales API
+  slug: open-viagogo-sales-api
+- collection_type: open
+  name: viagogo Inventory Seller Events API
+  slug: open-viagogo-sellerevents-api
+- collection_type: open
+  name: viagogo Inventory Seller Listings API
+  slug: open-viagogo-sellerlistings-api
+- collection_type: open
+  name: viagogo Inventory SellerListings (External Id) API
+  slug: open-viagogo-sellerlistings-external-id-api
+- collection_type: open
+  name: Viagogo Shipments API
+  slug: open-viagogo-shipments-api
+- collection_type: open
+  name: viagogo Sales Ticket Holders API
+  slug: open-viagogo-ticketholders-api
+- collection_type: open
+  name: viagogo Webhooks Topics API
+  slug: open-viagogo-topics-api
+- collection_type: open
+  name: viagogo Sales Transfer Status Proof API
+  slug: open-viagogo-transferstatusproof-api
+- collection_type: open
+  name: viagogo Account User API
+  slug: open-viagogo-user-api
+- collection_type: open
+  name: viagogo Catalog Venue Configurations API
+  slug: open-viagogo-venue-configurations-api
+- collection_type: open
+  name: viagogo Catalog Venues API
+  slug: open-viagogo-venues-api
+- collection_type: open
+  name: viagogo Webhooks API
+  slug: open-viagogo-webhooks-api
 common:
 - group: agent
   title: ''
@@ -229,7 +293,7 @@ overview: 'viagogo publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   viagogo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 28
+random_paper: 3
 scopes:
 - name: Viagogo Scopes
   scope_count: 17
@@ -257,7 +321,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

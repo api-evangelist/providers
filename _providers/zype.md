@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Zype products are built for developers by developers. By keeping the developer in focus with regular API-innovation and a robust library of reference documentation, Zype provides the tools and knowled
@@ -72,7 +72,7 @@ plans:
 - name: Zype Plans Pricing
   plan_count: 3
   slug: zype-plans-pricing
-random_paper: 96
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Zype Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 10.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/screenshots/zype-2026-06-20T202013.png
 security:

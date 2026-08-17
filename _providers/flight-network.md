@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network
 
 
   Flight Network''s developer surface includes FAQ, documentation, support, and 23 more developer resources.'
-random_paper: 21
+random_paper: 120
 score:
   band: emerging
   composite: 17.6
@@ -163,7 +163,7 @@ score:
     agentic_access: first-party
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flight-network/refs/heads/main/screenshots/flight-network-2026-08-07T165345.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The fetch API from Zipline Ai — 4 operation(s) for fetch.
@@ -43,7 +43,23 @@ apis:
 - description: The workflow API from Zipline Ai — 1 operation(s) for workflow.
   name: Zipline Ai workflow API
   slug: zipline-ai-workflow-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zipline AI Fetcher fetch API
+  slug: open-zipline-ai-fetch-api
+- collection_type: open
+  name: Zipline AI Fetcher fetch health API
+  slug: open-zipline-ai-health-api
+- collection_type: open
+  name: Zipline AI Fetcher fetch schema API
+  slug: open-zipline-ai-schema-api
+- collection_type: open
+  name: Zipline AI Fetcher fetch workflow API
+  slug: open-zipline-ai-workflow-api
 common:
 - group: agent
   title: ''
@@ -85,7 +101,7 @@ overview: 'Zipline Ai publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zipline Ai''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 50
+random_paper: 116
 score:
   band: emerging
   composite: 21.4
@@ -108,7 +124,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

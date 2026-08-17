@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -99,7 +99,71 @@ apis:
 - description: The Webhooks API from Dixa — 4 operation(s) for webhooks.
   name: Dixa Webhooks API
   slug: dixa-webhooks-api
-artifact_total: 43
+artifact_total: 64
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dixa Agents API
+  slug: open-dixa-agents-api
+- collection_type: open
+  name: Dixa Agents Analytics API
+  slug: open-dixa-analytics-api
+- collection_type: open
+  name: Dixa Agents Anonymization API
+  slug: open-dixa-anonymization-api
+- collection_type: open
+  name: Dixa Agents Business Hours API
+  slug: open-dixa-business-hours-api
+- collection_type: open
+  name: Dixa Agents Chatbots API
+  slug: open-dixa-chatbots-api
+- collection_type: open
+  name: Dixa Agents Contact Endpoints API
+  slug: open-dixa-contact-endpoints-api
+- collection_type: open
+  name: Dixa Agents Conversations API
+  slug: open-dixa-conversations-api
+- collection_type: open
+  name: Dixa Agents Custom Attributes API
+  slug: open-dixa-custom-attributes-api
+- collection_type: open
+  name: Dixa Agents End Users API
+  slug: open-dixa-end-users-api
+- collection_type: open
+  name: Dixa Agents Internal Notes API
+  slug: open-dixa-internal-notes-api
+- collection_type: open
+  name: Dixa Agents Knowledge API
+  slug: open-dixa-knowledge-api
+- collection_type: open
+  name: Dixa Agents Messages API
+  slug: open-dixa-messages-api
+- collection_type: open
+  name: Dixa Agents Organization API
+  slug: open-dixa-organization-api
+- collection_type: open
+  name: Dixa Agents Queues API
+  slug: open-dixa-queues-api
+- collection_type: open
+  name: Dixa Agents Ratings API
+  slug: open-dixa-ratings-api
+- collection_type: open
+  name: Dixa Agents Search API
+  slug: open-dixa-search-api
+- collection_type: open
+  name: Dixa Agents Tags API
+  slug: open-dixa-tags-api
+- collection_type: open
+  name: Dixa Agents Teams API
+  slug: open-dixa-teams-api
+- collection_type: open
+  name: Dixa Agents Templates API
+  slug: open-dixa-templates-api
+- collection_type: open
+  name: Dixa Agents Webhooks API
+  slug: open-dixa-webhooks-api
 common:
 - group: agent
   title: ''
@@ -236,7 +300,7 @@ plans:
 - name: Dixa Plans Pricing
   plan_count: 3
   slug: dixa-plans-pricing
-random_paper: 62
+random_paper: 124
 rate_limits:
 - limit_count: 3
   name: Dixa Rate Limits
@@ -270,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/screenshots/dixa-2026-06-20T180054.png
 security:

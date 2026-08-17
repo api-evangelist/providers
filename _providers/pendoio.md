@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 4
@@ -86,7 +86,59 @@ apis:
 - description: The Visitor API from Pendo.io — 3 operation(s) for visitor.
   name: Pendo.io Visitor API
   slug: pendoio-visitor-api
-artifact_total: 22
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pendo Engage Account API
+  slug: open-pendoio-account-api
+- collection_type: open
+  name: Pendo Engage Account Admin API
+  slug: open-pendoio-admin-api
+- collection_type: open
+  name: Pendo Engage Account Aggregation API
+  slug: open-pendoio-aggregation-api
+- collection_type: open
+  name: Pendo Engage Account Bulk Deletion (GDPR/CCPA) API
+  slug: open-pendoio-bulk-deletion-gdpr-ccpa-api
+- collection_type: open
+  name: Pendo Engage Account Conversations API
+  slug: open-pendoio-conversations-api
+- collection_type: open
+  name: Pendo Engage Account Data Sync API
+  slug: open-pendoio-data-sync-api
+- collection_type: open
+  name: Pendo Engage Account Exclude Lists & Servers API
+  slug: open-pendoio-exclude-lists-servers-api
+- collection_type: open
+  name: Pendo Engage Account Feature API
+  slug: open-pendoio-feature-api
+- collection_type: open
+  name: Pendo Engage Account Guide API
+  slug: open-pendoio-guide-api
+- collection_type: open
+  name: Pendo Engage Account Listen API
+  slug: open-pendoio-listen-api
+- collection_type: open
+  name: Pendo Engage Account Metadata API
+  slug: open-pendoio-metadata-api
+- collection_type: open
+  name: Pendo Engage Account Page API
+  slug: open-pendoio-page-api
+- collection_type: open
+  name: Pendo Engage Account Report API
+  slug: open-pendoio-report-api
+- collection_type: open
+  name: Pendo Engage Account Segment API
+  slug: open-pendoio-segment-api
+- collection_type: open
+  name: Pendo Engage Account Track API
+  slug: open-pendoio-track-api
+- collection_type: open
+  name: Pendo Engage Account Visitor API
+  slug: open-pendoio-visitor-api
 common:
 - group: other
   title: ''
@@ -236,7 +288,7 @@ overview: 'Pendo.io publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Pendo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 30
+random_paper: 5
 score:
   band: developing
   composite: 54.8
@@ -260,7 +312,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

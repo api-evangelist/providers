@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API covering the whole CoreStack governance surface — authorization, identity and RBAC, guardrail policies, account governance, operations and automation, security, cost and budgets, access, reso
@@ -28,11 +28,15 @@ apis:
 - description: Hosted, unified Model Context Protocol server exposing 100 documented tools across five domains — Common/Auth (10), FinOps (24), Graphion (45), Assessment (15) and Workload (6) — at a single /mcp endp
   name: CoreStack MCP Server
   slug: corestack-mcp-server
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Corestack Webhooks
   slug: corestack-webhooks
+collections:
+- collection_type: open
+  name: CoreStack External API
+  slug: open-corestack-external-api-openapi-original
 common:
 - group: auth
   title: ''
@@ -200,7 +204,7 @@ plans:
 - name: Corestack Plans Pricing
   plan_count: 6
   slug: corestack-plans-pricing
-random_paper: 119
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Corestack Rate Limits
@@ -213,7 +217,7 @@ scopes:
 score:
   band: strong
   composite: 61.9
-  delta: 10.1
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 51.6
@@ -221,7 +225,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 51.8
+  previous_composite: 61.9
   regulatory:
     applies: true
     matched_via: tags
@@ -229,8 +233,8 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Corestack Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Explore the APIs for our products, be creative, and invent your own ways of interacting with your data.
@@ -80,7 +80,7 @@ plans:
 - name: Forsta Plans Pricing
   plan_count: 3
   slug: forsta-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Forsta Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forsta/refs/heads/main/screenshots/forsta-2026-06-20T181437.png
 security:

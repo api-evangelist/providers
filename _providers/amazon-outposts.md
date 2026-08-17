@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: The Tags API from Amazon Outposts — 2 operation(s) for tags.
   name: Amazon Outposts Tags API
   slug: amazon-outposts-tags-api
-artifact_total: 547
+artifact_total: 555
 collections:
 - collection_type: postman
   name: AWS Outposts Catalog API
@@ -83,6 +83,30 @@ collections:
 - collection_type: postman
   name: AWS Outposts Catalog Tags API
   slug: postman-amazon-outposts-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Outposts Catalog API
+  slug: open-amazon-outposts-catalog-api
+- collection_type: open
+  name: AWS Outposts Catalog Connections API
+  slug: open-amazon-outposts-connections-api
+- collection_type: open
+  name: AWS Outposts Catalog List Orders API
+  slug: open-amazon-outposts-list-orders-api
+- collection_type: open
+  name: AWS Outposts Catalog Orders API
+  slug: open-amazon-outposts-orders-api
+- collection_type: open
+  name: AWS Catalog Outposts API
+  slug: open-amazon-outposts-outposts-api
+- collection_type: open
+  name: AWS Outposts Catalog Sites API
+  slug: open-amazon-outposts-sites-api
+- collection_type: open
+  name: AWS Outposts Catalog Tags API
+  slug: open-amazon-outposts-tags-api
 - collection_type: open
   name: AWS Outposts
   slug: open-amazon-outposts
@@ -1789,7 +1813,7 @@ plans:
 - name: Amazon Outposts Plans Pricing
   plan_count: 3
   slug: amazon-outposts-plans-pricing
-random_paper: 44
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Amazon Outposts Rate Limits
@@ -1831,7 +1855,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/screenshots/amazon-outposts-2026-06-20T171754.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API for launching basic and advanced Enboarder workflows, updating and cancelling running workflows, managing employee profiles and photos, and exporting workflow and form reporting data. Paths a
@@ -164,7 +164,7 @@ plans:
 - name: Enboarder Plans Pricing
   plan_count: 0
   slug: enboarder-plans-pricing
-random_paper: 106
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Enboarder Rate Limits
@@ -177,6 +177,7 @@ scopes:
 score:
   band: developing
   composite: 45.0
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.6
@@ -184,8 +185,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 23.7
+  previous_composite: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Enboarder Authentication

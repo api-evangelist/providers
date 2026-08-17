@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -89,7 +89,62 @@ apis:
 - description: The workflow-table API from Conxai — 3 operation(s) for workflow-table.
   name: Conxai workflow-table API
   slug: conxai-workflow-table-api
-artifact_total: 22
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Customer annotations API
+  slug: open-conxai-annotations-api
+- collection_type: open
+  name: Customer annotations camera API
+  slug: open-conxai-camera-api
+- collection_type: open
+  name: Customer annotations document-types API
+  slug: open-conxai-document-types-api
+- collection_type: open
+  name: Customer annotations documents API
+  slug: open-conxai-documents-api
+- collection_type: open
+  name: Customer annotations exports API
+  slug: open-conxai-exports-api
+- collection_type: open
+  name: Customer annotations Images API
+  slug: open-conxai-images-api
+- collection_type: open
+  name: Customer annotations integrations API
+  slug: open-conxai-integrations-api
+- collection_type: open
+  name: Customer annotations production_tracking API
+  slug: open-conxai-production-tracking-api
+- collection_type: open
+  name: Customer annotations project API
+  slug: open-conxai-project-api
+- collection_type: open
+  name: Customer annotations projects API
+  slug: open-conxai-projects-api
+- collection_type: open
+  name: Customer annotations samples API
+  slug: open-conxai-samples-api
+- collection_type: open
+  name: Customer annotations schema API
+  slug: open-conxai-schema-api
+- collection_type: open
+  name: Customer annotations summary-table API
+  slug: open-conxai-summary-table-api
+- collection_type: open
+  name: Customer annotations use-cases API
+  slug: open-conxai-use-cases-api
+- collection_type: open
+  name: Customer annotations users API
+  slug: open-conxai-users-api
+- collection_type: open
+  name: Customer annotations workflow API
+  slug: open-conxai-workflow-api
+- collection_type: open
+  name: Customer annotations workflow-table API
+  slug: open-conxai-workflow-table-api
 common:
 - group: other
   title: ''
@@ -212,7 +267,7 @@ overview: 'Conxai publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Conxai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 19 more developer resources.'
-random_paper: 42
+random_paper: 46
 score:
   band: developing
   composite: 45.2
@@ -236,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/screenshots/conxai-2026-07-25T210354.png
 security:

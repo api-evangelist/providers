@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Multi-tenant REST API for building client- and job-seeker-facing staffing interfaces on the Wolf platform: authentication, jobs/shifts, tenders, availability, timesheets, notifications, job-seeker and'
@@ -92,7 +92,7 @@ overview: 'Wolf publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Wolf''s developer surface includes documentation, API reference, getting-started guide, authentication, and 6 more developer resources.'
-random_paper: 80
+random_paper: 142
 score:
   band: emerging
   composite: 17.1
@@ -109,7 +109,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,11 +57,32 @@ apis:
 - description: Text-to-video, image-to-video, and video extension.
   name: CometAPI Video API
   slug: cometapi-video-api
-artifact_total: 18
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CometAPI Unified Audio API
+  slug: open-cometapi-audio-api
+- collection_type: open
+  name: CometAPI Unified Audio Chat API
+  slug: open-cometapi-chat-api
+- collection_type: open
+  name: CometAPI Unified Audio Embeddings API
+  slug: open-cometapi-embeddings-api
+- collection_type: open
+  name: CometAPI Unified Audio Images API
+  slug: open-cometapi-images-api
+- collection_type: open
+  name: CometAPI Unified Audio Models API
+  slug: open-cometapi-models-api
 - collection_type: open
   name: CometAPI Unified API
   slug: open-cometapi-unified-api
+- collection_type: open
+  name: CometAPI Unified Audio Video API
+  slug: open-cometapi-video-api
 common:
 - group: agent
   title: ''
@@ -155,7 +176,7 @@ plans:
 - name: Cometapi Plans Pricing
   plan_count: 3
   slug: cometapi-plans-pricing
-random_paper: 10
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Cometapi Rate Limits
@@ -197,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/screenshots/cometapi-2026-06-20T174808.png
 security:

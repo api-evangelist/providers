@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Servers API from Azure SQL Database — 3 operation(s) for servers.
   name: Azure SQL Database Servers API
   slug: microsoft-azure-sql-database-servers-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure SQL Database REST Databases API
+  slug: open-microsoft-azure-sql-database-databases-api
+- collection_type: open
+  name: Azure SQL Database REST Databases ElasticPools API
+  slug: open-microsoft-azure-sql-database-elasticpools-api
+- collection_type: open
+  name: Azure SQL Database REST Databases FailoverGroups API
+  slug: open-microsoft-azure-sql-database-failovergroups-api
+- collection_type: open
+  name: Azure SQL Database REST Databases FirewallRules API
+  slug: open-microsoft-azure-sql-database-firewallrules-api
+- collection_type: open
+  name: Azure SQL Database REST Databases Servers API
+  slug: open-microsoft-azure-sql-database-servers-api
 - collection_type: open
   name: Azure SQL Database REST API
   slug: open-microsoft-azure-sql-database
@@ -140,7 +158,7 @@ plans:
 - name: Microsoft Azure Sql Database Plans Pricing
   plan_count: 3
   slug: microsoft-azure-sql-database-plans-pricing
-random_paper: 65
+random_paper: 143
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Sql Database Rate Limits
@@ -165,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/screenshots/microsoft-azure-sql-database-2026-06-20T185438.png
 security:

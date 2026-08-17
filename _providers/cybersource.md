@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -290,7 +290,221 @@ apis:
 - description: A void cancels a payment or capture. A transaction can be voided only when CyberSource has not already submitted the capture to your processor. You cannot undo a void.
   name: CyberSource void API
   slug: cybersource-void-api
-artifact_total: 93
+artifact_total: 164
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation API
+  slug: open-cybersource-bankaccountvalidation-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Batches API
+  slug: open-cybersource-batches-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation billingAgreements API
+  slug: open-cybersource-billingagreements-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Bin Lookup API
+  slug: open-cybersource-bin-lookup-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation capture API
+  slug: open-cybersource-capture-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Chargeback Details API
+  slug: open-cybersource-chargeback-details-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Chargeback Summaries API
+  slug: open-cybersource-chargeback-summaries-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Conversion Details API
+  slug: open-cybersource-conversion-details-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Create New Webhooks API
+  slug: open-cybersource-create-new-webhooks-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Credentials API
+  slug: open-cybersource-credentials-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation credit API
+  slug: open-cybersource-credit-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Customer API
+  slug: open-cybersource-customer-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Customer Payment Instrument API
+  slug: open-cybersource-customer-payment-instrument-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Customer Shipping Address API
+  slug: open-cybersource-customer-shipping-address-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Decision Manager API
+  slug: open-cybersource-decision-manager-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Device De-Association API
+  slug: open-cybersource-device-de-association-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Device Search API
+  slug: open-cybersource-device-search-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Download DTD API
+  slug: open-cybersource-download-dtd-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Download XSD API
+  slug: open-cybersource-download-xsd-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation EMVTagDetails API
+  slug: open-cybersource-emvtagdetails-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Enrollment API
+  slug: open-cybersource-enrollment-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Flex API API
+  slug: open-cybersource-flex-api-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Instructions API
+  slug: open-cybersource-instructions-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Instrument Identifier API
+  slug: open-cybersource-instrument-identifier-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Interchange Clearing Level Details API
+  slug: open-cybersource-interchange-clearing-level-details-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Invoice Settings API
+  slug: open-cybersource-invoice-settings-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Invoices API
+  slug: open-cybersource-invoices-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Manage Webhooks API
+  slug: open-cybersource-manage-webhooks-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Merchant Boarding API
+  slug: open-cybersource-merchant-boarding-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Merchant Defined Fields API
+  slug: open-cybersource-merchant-defined-fields-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Microform Integration API
+  slug: open-cybersource-microform-integration-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Net Fundings API
+  slug: open-cybersource-net-fundings-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Network Tokens API
+  slug: open-cybersource-network-tokens-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Notification Of Changes API
+  slug: open-cybersource-notification-of-changes-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Offers API
+  slug: open-cybersource-offers-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation orders API
+  slug: open-cybersource-orders-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Payer Authentication API
+  slug: open-cybersource-payer-authentication-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Payment Batch Summaries API
+  slug: open-cybersource-payment-batch-summaries-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Payment Instrument API
+  slug: open-cybersource-payment-instrument-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Payment Links API
+  slug: open-cybersource-payment-links-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation payment-tokens API
+  slug: open-cybersource-payment-tokens-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation payments API
+  slug: open-cybersource-payments-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Payouts API
+  slug: open-cybersource-payouts-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Plans API
+  slug: open-cybersource-plans-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Pull Funds API
+  slug: open-cybersource-pull-funds-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Purchase And Refund Details API
+  slug: open-cybersource-purchase-and-refund-details-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Push Funds API
+  slug: open-cybersource-push-funds-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation refund API
+  slug: open-cybersource-refund-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Report Definitions API
+  slug: open-cybersource-report-definitions-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Report Downloads API
+  slug: open-cybersource-report-downloads-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Report Subscriptions API
+  slug: open-cybersource-report-subscriptions-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Reports API
+  slug: open-cybersource-reports-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Retrieval Details API
+  slug: open-cybersource-retrieval-details-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Retrieval Summaries API
+  slug: open-cybersource-retrieval-summaries-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation reversal API
+  slug: open-cybersource-reversal-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation SearchTransactions API
+  slug: open-cybersource-searchtransactions-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation SecureFileShare API
+  slug: open-cybersource-securefileshare-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Subscriptions API
+  slug: open-cybersource-subscriptions-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Subscriptions Follow-Ons API
+  slug: open-cybersource-subscriptions-follow-ons-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation taxes API
+  slug: open-cybersource-taxes-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Tokenize API
+  slug: open-cybersource-tokenize-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation TransactionBatches API
+  slug: open-cybersource-transactionbatches-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation TransactionDetails API
+  slug: open-cybersource-transactiondetails-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Transient Token Data v2 API
+  slug: open-cybersource-transient-token-data-v2-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Unified Checkout Capture Context API
+  slug: open-cybersource-unified-checkout-capture-context-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Unified Checkout V1 Capture Context API
+  slug: open-cybersource-unified-checkout-v1-capture-context-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation UserManagement API
+  slug: open-cybersource-usermanagement-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation UserManagementSearch API
+  slug: open-cybersource-usermanagementsearch-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation Verification API
+  slug: open-cybersource-verification-api
+- collection_type: open
+  name: CyberSource Merged Spec bankAccountValidation void API
+  slug: open-cybersource-void-api
 common:
 - group: agent
   title: ''
@@ -404,7 +618,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 110
+random_paper: 147
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -444,7 +658,7 @@ score:
     regime_id: payments
     score: 23.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/screenshots/cybersource-2026-06-20T175413.png
 security:

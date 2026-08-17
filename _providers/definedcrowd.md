@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: 'Several of the Workflow Templates offer the ability to set a language / country code. These configurations instruct Defined.ai to use our human intelligence Contributors that speak and / or reside in '
   name: Defined.ai (DefinedCrowd) Supported Languages API
   slug: definedcrowd-supported-languages-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Defined.ai Deliverables API
+  slug: open-definedcrowd-deliverables-api
+- collection_type: open
+  name: Defined.ai Deliverables Input Units API
+  slug: open-definedcrowd-input-units-api
+- collection_type: open
+  name: Defined.ai Deliverables Jobs API
+  slug: open-definedcrowd-jobs-api
+- collection_type: open
+  name: Defined.ai Deliverables Mean Opinion Score API
+  slug: open-definedcrowd-mean-opinion-score-api
+- collection_type: open
+  name: Defined.ai Deliverables Project Management API
+  slug: open-definedcrowd-project-management-api
+- collection_type: open
+  name: Defined.ai Deliverables Pronunciation Validation API
+  slug: open-definedcrowd-pronunciation-validation-api
+- collection_type: open
+  name: Defined.ai Deliverables Subscriptions API
+  slug: open-definedcrowd-subscriptions-api
+- collection_type: open
+  name: Defined.ai Deliverables Supported Languages API
+  slug: open-definedcrowd-supported-languages-api
 common:
 - group: auth
   title: ''
@@ -164,7 +192,7 @@ overview: 'Defined.ai (DefinedCrowd) publishes 8 APIs on the [APIs.io](https://a
 
 
   Defined.ai (DefinedCrowd)''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 62
+random_paper: 70
 score:
   band: thin
   composite: 39.9
@@ -188,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/screenshots/definedcrowd-2026-07-25T211622.png
 security:

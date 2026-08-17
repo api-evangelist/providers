@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: List available AI voices.
   name: Colossyan Voices API
   slug: colossyan-voices-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Colossyan Avatars API
+  slug: open-colossyan-avatars-api
+- collection_type: open
+  name: Colossyan Avatars Experimental API
+  slug: open-colossyan-experimental-api
+- collection_type: open
+  name: Colossyan Avatars Generated Videos API
+  slug: open-colossyan-generated-videos-api
+- collection_type: open
+  name: Colossyan Avatars Video Generation API
+  slug: open-colossyan-video-generation-api
+- collection_type: open
+  name: Colossyan Avatars Voices API
+  slug: open-colossyan-voices-api
 - collection_type: open
   name: Colossyan API
   slug: open-colossyan
@@ -128,7 +146,7 @@ plans:
 - name: Colossyan Plans Pricing
   plan_count: 5
   slug: colossyan-plans-pricing
-random_paper: 27
+random_paper: 93
 rate_limits:
 - limit_count: 4
   name: Colossyan Rate Limits
@@ -153,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/screenshots/colossyan-2026-07-25T210058.png
 security:

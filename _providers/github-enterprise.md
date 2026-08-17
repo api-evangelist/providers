@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,8 +65,38 @@ apis:
 - description: The Users API from GitHub Enterprise — 2 operation(s) for users.
   name: GitHub Enterprise Users API
   slug: github-enterprise-users-api
-artifact_total: 13
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitHub Enterprise Cloud REST Actions API
+  slug: open-github-enterprise-actions-api
+- collection_type: open
+  name: GitHub Enterprise Cloud REST Actions Code Scanning API
+  slug: open-github-enterprise-code-scanning-api
+- collection_type: open
+  name: GitHub Enterprise Cloud REST Actions Enterprise Admin API
+  slug: open-github-enterprise-enterprise-admin-api
+- collection_type: open
+  name: GitHub Enterprise Cloud REST Actions Issues API
+  slug: open-github-enterprise-issues-api
+- collection_type: open
+  name: GitHub Enterprise Cloud REST Actions Organizations API
+  slug: open-github-enterprise-organizations-api
+- collection_type: open
+  name: GitHub Enterprise Cloud REST Actions Pull Requests API
+  slug: open-github-enterprise-pull-requests-api
+- collection_type: open
+  name: GitHub Enterprise Cloud REST Actions Repositories API
+  slug: open-github-enterprise-repositories-api
+- collection_type: open
+  name: GitHub Enterprise Cloud REST Actions SCIM API
+  slug: open-github-enterprise-scim-api
+- collection_type: open
+  name: GitHub Enterprise Cloud REST Actions Users API
+  slug: open-github-enterprise-users-api
 - collection_type: open
   name: GitHub Enterprise Cloud REST API
   slug: open-github-enterprise
@@ -131,7 +161,7 @@ overview: 'GitHub Enterprise publishes 9 APIs on the [APIs.io](https://apis.io/)
 
 
   GitHub Enterprise''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 97
+random_paper: 138
 score:
   band: thin
   composite: 33.1
@@ -152,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/screenshots/github-enterprise-2026-06-20T181846.png
 security:

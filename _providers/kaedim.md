@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Fetch generated assets and projects
@@ -43,11 +43,27 @@ apis:
 - description: Register a webhook endpoint and obtain a JWT
   name: Kaedim Webhooks API
   slug: kaedim-webhooks-api
-artifact_total: 8
+artifact_total: 13
 asyncapis:
 - description: Event surface for Kaedim 3D asset generation. After registering an HTTPS endpoint via the Web API (/registerHook), Kaedim POSTs a signed webhook to that endpoint whenever a generation stage changes st
   name: Kaedim Webhooks
   slug: kaedim-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kaedim Web Assets API
+  slug: open-kaedim-assets-api
+- collection_type: open
+  name: Kaedim Web Assets Auth API
+  slug: open-kaedim-auth-api
+- collection_type: open
+  name: Kaedim Web Assets Generation API
+  slug: open-kaedim-generation-api
+- collection_type: open
+  name: Kaedim Web Assets Webhooks API
+  slug: open-kaedim-webhooks-api
 common:
 - group: auth
   title: ''
@@ -176,7 +192,7 @@ overview: 'Kaedim publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Kaedim''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 20 more developer resources.'
-random_paper: 19
+random_paper: 23
 score:
   band: developing
   composite: 53.0
@@ -199,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/screenshots/kaedim-2026-07-25T223407.png
 security:

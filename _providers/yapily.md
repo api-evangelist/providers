@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -87,35 +87,74 @@ apis:
 - description: Webhook endpoints
   name: Yapily Webhooks API
   slug: yapily-webhooks-api
-artifact_total: 45
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries API
+  slug: open-yapily-application-beneficiaries-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Application Management API
+  slug: open-yapily-application-management-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Authorisations API
+  slug: open-yapily-authorisations-api
 - collection_type: open
   name: Yapily Beneficiaries API
   slug: open-yapily-beneficiaries-api
 - collection_type: open
-  name: Yapily Consents and Authorisations API
+  name: Yapily Beneficiaries Application Beneficiaries Consents API
   slug: open-yapily-consents-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Constraints API
+  slug: open-yapily-constraints-api
 - collection_type: open
   name: Yapily Data Access API (AIS)
   slug: open-yapily-data-api
 - collection_type: open
-  name: Yapily Data Plus API
+  name: Yapily Beneficiaries Application Beneficiaries Data Plus API
   slug: open-yapily-data-plus-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Financial Data API
+  slug: open-yapily-financial-data-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Hosted Consent Pages API
+  slug: open-yapily-hosted-consent-pages-api
 - collection_type: open
   name: Yapily Hosted Pages API
   slug: open-yapily-hosted-pages-api
 - collection_type: open
-  name: Yapily Institutions API
+  name: Yapily Beneficiaries Application Beneficiaries Hosted Payment Pages API
+  slug: open-yapily-hosted-payment-pages-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Institutions API
   slug: open-yapily-institutions-api
 - collection_type: open
-  name: Yapily Payments API (PIS)
+  name: Yapily Beneficiaries Application Beneficiaries Notifications API
+  slug: open-yapily-notifications-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Payments API
   slug: open-yapily-payments-api
 - collection_type: open
   name: Yapily Platform API
   slug: open-yapily-platform-api
 - collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries User Beneficiaries API
+  slug: open-yapily-user-beneficiaries-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Users API
+  slug: open-yapily-users-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Variable Recurring Payments API
+  slug: open-yapily-variable-recurring-payments-api
+- collection_type: open
   name: Yapily Variable Recurring Payments API
   slug: open-yapily-vrp-api
+- collection_type: open
+  name: Yapily Beneficiaries Application Beneficiaries Webhooks API
+  slug: open-yapily-webhooks-api
 common:
 - group: agent
   title: ''
@@ -269,7 +308,7 @@ plans:
 - name: Yapily Plans Pricing
   plan_count: 6
   slug: yapily-plans-pricing
-random_paper: 64
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Yapily Rate Limits
@@ -317,7 +356,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png
 security:

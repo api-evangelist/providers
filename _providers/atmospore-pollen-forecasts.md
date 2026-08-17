@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ arazzos:
 - description: Resolve the species catalogue, then read tree/grass/weed aggregates across a radius for a regional dashboard or a smart-home ventilation rule. Every operationId exists verbatim in the referenced OpenA
   name: Build a regional pollen risk board
   slug: atmospore-pollen-forecasts-regional-risk-board
-artifact_total: 16
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Atmospore Forecast Pollen API
+  slug: open-atmospore-pollen-forecasts-pollen-api
+- collection_type: open
+  name: Atmospore Pollen Forecast Pollen Area API
+  slug: open-atmospore-pollen-forecasts-pollen-area-api
+- collection_type: open
+  name: Atmospore Pollen Forecast Pollen Top API
+  slug: open-atmospore-pollen-forecasts-pollen-top-api
+- collection_type: open
+  name: Atmospore Pollen Forecast Species API
+  slug: open-atmospore-pollen-forecasts-species-api
 common:
 - group: operate
   title: ''
@@ -219,7 +235,7 @@ plans:
 - name: Atmospore Pollen Forecasts Plans
   plan_count: 5
   slug: atmospore-pollen-forecasts-plans
-random_paper: 56
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Atmospore Pollen Forecasts Rate Limits
@@ -253,7 +269,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

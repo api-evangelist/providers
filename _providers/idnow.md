@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The VideoIdent API from IDnow — 1 operation(s) for videoident.
   name: IDnow VideoIdent API
   slug: idnow-videoident-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IDnow Gateway Authentication API
+  slug: open-idnow-authentication-api
+- collection_type: open
+  name: IDnow Gateway Authentication Identifications API
+  slug: open-idnow-identifications-api
+- collection_type: open
+  name: IDnow Gateway Authentication Results API
+  slug: open-idnow-results-api
+- collection_type: open
+  name: IDnow Gateway Authentication VideoIdent API
+  slug: open-idnow-videoident-api
 - collection_type: open
   name: IDnow Gateway API
   slug: open-idnow
@@ -121,7 +136,7 @@ plans:
 - name: Idnow Plans Pricing
   plan_count: 1
   slug: idnow-plans-pricing
-random_paper: 65
+random_paper: 98
 rate_limits:
 - limit_count: 2
   name: Idnow Rate Limits
@@ -146,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/screenshots/idnow-2026-07-25T222031.png
 security:

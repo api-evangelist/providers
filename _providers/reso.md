@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The RESO Web API is the ratified transport standard for real estate data, defined as a profile of OData 4.0/4.01 (Web API Core 2.0.0 and 2.1.0). Servers MUST expose an OData XML metadata document at /
@@ -27,11 +27,21 @@ apis:
 - description: The RESO Cloud MCP Server is the one production API endpoint RESO itself operates. It speaks the Model Context Protocol over Streamable HTTP at https://services.reso.org/mcp and exposes the RESO toolc
   name: RESO Cloud MCP Server
   slug: reso-cloud-mcp
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Reso Webhooks
   slug: reso-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-reso-dd-1
+- collection_type: open
+  name: API Collection
+  slug: open-reso-dd-2
+- collection_type: open
+  name: API Collection
+  slug: open-reso-dd-2
 common:
 - group: auth
   title: ''
@@ -253,7 +263,7 @@ overview: 'RESO (Real Estate Standards Organization) publishes 2 APIs on the [AP
 
 
   RESO (Real Estate Standards Organization)''s developer surface includes documentation, pricing, engineering blog, API reference, getting-started guide, support, signup flow, and 43 more developer resources.'
-random_paper: 81
+random_paper: 143
 score:
   band: developing
   composite: 48.1
@@ -271,7 +281,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

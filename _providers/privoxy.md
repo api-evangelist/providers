@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page content, and managing cookies.
@@ -88,7 +88,7 @@ plans:
 - name: Privoxy Plans Pricing
   plan_count: 3
   slug: privoxy-plans-pricing
-random_paper: 81
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Privoxy Rate Limits
@@ -106,7 +106,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/privoxy/refs/heads/main/screenshots/privoxy-2026-06-20T192117.png
 security:

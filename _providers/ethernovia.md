@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: The Audit-user-trail API from Ethernovia — 2 operation(s) for audit-user-trail.
@@ -66,7 +66,56 @@ apis:
 - description: Users, roles, and permissions endpoints
   name: Ethernovia Users-Permissions - Users & Roles API
   slug: ethernovia-users-permissions-users-roles-api
-artifact_total: 17
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DOCUMENTATION Audit User Trail API
+  slug: open-ethernovia-audit-user-trail-api
+- collection_type: open
+  name: DOCUMENTATION Ec Document API
+  slug: open-ethernovia-ec-document-api
+- collection_type: open
+  name: DOCUMENTATION Ec Document Type API
+  slug: open-ethernovia-ec-document-type-api
+- collection_type: open
+  name: DOCUMENTATION Ec Excluded Domain API
+  slug: open-ethernovia-ec-excluded-domain-api
+- collection_type: open
+  name: DOCUMENTATION Ec Group API
+  slug: open-ethernovia-ec-group-api
+- collection_type: open
+  name: DOCUMENTATION Ec Product API
+  slug: open-ethernovia-ec-product-api
+- collection_type: open
+  name: DOCUMENTATION Ec Product Category API
+  slug: open-ethernovia-ec-product-category-api
+- collection_type: open
+  name: DOCUMENTATION Ec Product Family API
+  slug: open-ethernovia-ec-product-family-api
+- collection_type: open
+  name: DOCUMENTATION Ec Send Alert Email API
+  slug: open-ethernovia-ec-send-alert-email-api
+- collection_type: open
+  name: DOCUMENTATION Ec Software Package API
+  slug: open-ethernovia-ec-software-package-api
+- collection_type: open
+  name: DOCUMENTATION Ec Status API
+  slug: open-ethernovia-ec-status-api
+- collection_type: open
+  name: DOCUMENTATION My Download API
+  slug: open-ethernovia-my-download-api
+- collection_type: open
+  name: DOCUMENTATION Upload - File API
+  slug: open-ethernovia-upload-file-api
+- collection_type: open
+  name: DOCUMENTATION Users-Permissions - Auth API
+  slug: open-ethernovia-users-permissions-auth-api
+- collection_type: open
+  name: DOCUMENTATION Users-Permissions - Users & Roles API
+  slug: open-ethernovia-users-permissions-users-roles-api
 common:
 - group: other
   title: ''
@@ -188,7 +237,7 @@ overview: 'Ethernovia publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Ethernovia''s developer surface includes developer portal, support, signup flow, engineering blog, product news, authentication, and 21 more developer resources.'
-random_paper: 117
+random_paper: 34
 score:
   band: thin
   composite: 36.4
@@ -210,7 +259,7 @@ score:
       total: 15
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/screenshots/ethernovia-2026-08-07T165022.png
 security:

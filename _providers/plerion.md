@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: The Plerion Risk Score (PRS) Engine has calculated Alerts that are the highest priority items based on the available information across Identity, Configuration, and Vulnerability Management. Alerts of
@@ -70,7 +70,50 @@ apis:
 - description: The AWS Well-Architected Framework helps customers design secure, high-performing, resilient, and efficient cloud infrastructure. Plerion continuously assesses your environment against the AWS Well-Ar
   name: Plerion Well-Architected frameworks API
   slug: plerion-well-architected-frameworks-api
-artifact_total: 18
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Plerion API Documentation Alerts API
+  slug: open-plerion-alerts-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Asset groups API
+  slug: open-plerion-asset-groups-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Assets API
+  slug: open-plerion-assets-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Audit logs API
+  slug: open-plerion-audit-logs-api
+- collection_type: open
+  name: Plerion API Documentation Alerts AWS integration API
+  slug: open-plerion-aws-integration-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Code security API
+  slug: open-plerion-code-security-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Compliance frameworks API
+  slug: open-plerion-compliance-frameworks-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Findings API
+  slug: open-plerion-findings-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Integrations API
+  slug: open-plerion-integrations-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Risks API
+  slug: open-plerion-risks-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Tenant API
+  slug: open-plerion-tenant-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Vulnerabilities API
+  slug: open-plerion-vulnerabilities-api
+- collection_type: open
+  name: Plerion API Documentation Alerts Well-Architected frameworks API
+  slug: open-plerion-well-architected-frameworks-api
 common:
 - group: other
   title: ''
@@ -208,7 +251,7 @@ overview: 'Plerion publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Plerion''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 23 more developer resources.'
-random_paper: 41
+random_paper: 16
 score:
   band: developing
   composite: 52.9
@@ -231,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

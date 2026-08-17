@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,8 +43,14 @@ apis:
 - description: The Integrations API from Expensify — 1 operation(s) for integrations.
   name: Expensify Integrations API
   slug: expensify-integrations-api
-artifact_total: 5
+artifact_total: 7
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Expensify Integration Server Integrations API
+  slug: open-expensify-integrations-api
 - collection_type: open
   name: Expensify Integration Server API
   slug: open-expensify
@@ -105,7 +111,7 @@ overview: 'Expensify publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Expensify''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 27
+random_paper: 93
 score:
   band: emerging
   composite: 26.6
@@ -132,7 +138,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expensify/refs/heads/main/screenshots/expensify-2026-06-20T180939.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Generate video from images or text.
   name: Freepik Video Generation API
   slug: freepik-video-generation-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freepik / Magnific Audio API
+  slug: open-freepik-audio-api
+- collection_type: open
+  name: Freepik / Magnific Audio Image Editing API
+  slug: open-freepik-image-editing-api
+- collection_type: open
+  name: Freepik / Magnific Audio Image Generation API
+  slug: open-freepik-image-generation-api
+- collection_type: open
+  name: Freepik / Magnific Audio Resources API
+  slug: open-freepik-resources-api
+- collection_type: open
+  name: Freepik / Magnific Audio Tasks API
+  slug: open-freepik-tasks-api
+- collection_type: open
+  name: Freepik / Magnific Audio Video Generation API
+  slug: open-freepik-video-generation-api
 - collection_type: open
   name: Freepik / Magnific API
   slug: open-freepik
@@ -115,7 +136,7 @@ plans:
 - name: Freepik Plans Pricing
   plan_count: 3
   slug: freepik-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Freepik Rate Limits
@@ -140,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/screenshots/freepik-2026-06-20T181529.png
 security:

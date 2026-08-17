@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -163,7 +163,7 @@ apis:
 - description: A unified interface that simplifies authentication and authorization across customers, partners, and external SaaS tools.
   name: WorkOS workos-connect API
   slug: workos-workos-connect-api
-artifact_total: 306
+artifact_total: 348
 collections:
 - collection_type: postman
   name: WorkOS admin-portal API
@@ -288,6 +288,132 @@ collections:
 - collection_type: postman
   name: WorkOS admin-portal workos-connect API
   slug: postman-workos-workos-connect-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WorkOS admin-portal API
+  slug: open-workos-admin-portal-api
+- collection_type: open
+  name: WorkOS admin-portal api_keys API
+  slug: open-workos-api-keys-api
+- collection_type: open
+  name: WorkOS admin-portal application.client-secrets API
+  slug: open-workos-application-client-secrets-api
+- collection_type: open
+  name: WorkOS admin-portal applications API
+  slug: open-workos-applications-api
+- collection_type: open
+  name: WorkOS admin-portal audit-logs API
+  slug: open-workos-audit-logs-api
+- collection_type: open
+  name: WorkOS admin-portal authorization API
+  slug: open-workos-authorization-api
+- collection_type: open
+  name: WorkOS admin-portal connections API
+  slug: open-workos-connections-api
+- collection_type: open
+  name: WorkOS admin-portal directories API
+  slug: open-workos-directories-api
+- collection_type: open
+  name: WorkOS admin-portal directory-groups API
+  slug: open-workos-directory-groups-api
+- collection_type: open
+  name: WorkOS admin-portal directory-users API
+  slug: open-workos-directory-users-api
+- collection_type: open
+  name: WorkOS admin-portal events API
+  slug: open-workos-events-api
+- collection_type: open
+  name: WorkOS admin-portal feature-flags API
+  slug: open-workos-feature-flags-api
+- collection_type: open
+  name: WorkOS admin-portal feature-flags.targets API
+  slug: open-workos-feature-flags-targets-api
+- collection_type: open
+  name: WorkOS admin-portal groups API
+  slug: open-workos-groups-api
+- collection_type: open
+  name: WorkOS admin-portal multi-factor-auth API
+  slug: open-workos-multi-factor-auth-api
+- collection_type: open
+  name: WorkOS admin-portal multi-factor-auth.challenges API
+  slug: open-workos-multi-factor-auth-challenges-api
+- collection_type: open
+  name: WorkOS admin-portal organization-domains API
+  slug: open-workos-organization-domains-api
+- collection_type: open
+  name: WorkOS admin-portal organizations.api_keys API
+  slug: open-workos-organizations-api-keys-api
+- collection_type: open
+  name: WorkOS admin-portal organizations API
+  slug: open-workos-organizations-api
+- collection_type: open
+  name: WorkOS admin-portal organizations.feature-flags API
+  slug: open-workos-organizations-feature-flags-api
+- collection_type: open
+  name: WorkOS admin-portal permissions API
+  slug: open-workos-permissions-api
+- collection_type: open
+  name: WorkOS admin-portal pipes API
+  slug: open-workos-pipes-api
+- collection_type: open
+  name: WorkOS admin-portal radar API
+  slug: open-workos-radar-api
+- collection_type: open
+  name: WorkOS admin-portal sso API
+  slug: open-workos-sso-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.authentication API
+  slug: open-workos-user-management-authentication-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.cors-origins API
+  slug: open-workos-user-management-cors-origins-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.data-providers API
+  slug: open-workos-user-management-data-providers-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.invitations API
+  slug: open-workos-user-management-invitations-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.jwt-template API
+  slug: open-workos-user-management-jwt-template-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.magic-auth API
+  slug: open-workos-user-management-magic-auth-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.multi-factor-authentication API
+  slug: open-workos-user-management-multi-factor-authentication-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.organization-membership API
+  slug: open-workos-user-management-organization-membership-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.organization-membership.groups API
+  slug: open-workos-user-management-organization-membership-groups-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.redirect-uris API
+  slug: open-workos-user-management-redirect-uris-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.session-tokens API
+  slug: open-workos-user-management-session-tokens-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.users API
+  slug: open-workos-user-management-users-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.users.authorized-applications API
+  slug: open-workos-user-management-users-authorized-applications-api
+- collection_type: open
+  name: WorkOS admin-portal user-management.users.feature-flags API
+  slug: open-workos-user-management-users-feature-flags-api
+- collection_type: open
+  name: WorkOS admin-portal webhooks API
+  slug: open-workos-webhooks-api
+- collection_type: open
+  name: WorkOS admin-portal widgets API
+  slug: open-workos-widgets-api
+- collection_type: open
+  name: WorkOS admin-portal workos-connect API
+  slug: open-workos-workos-connect-api
 - collection_type: open
   name: WorkOS
   slug: open-workos
@@ -1210,7 +1336,7 @@ plans:
 - name: Workos Plans Pricing
   plan_count: 7
   slug: workos-plans-pricing
-random_paper: 77
+random_paper: 81
 rate_limits:
 - limit_count: 4
   name: Workos Rate Limits
@@ -1252,7 +1378,7 @@ score:
       marker_coverage: 0.0
       total: 41
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/screenshots/workos-2026-06-20T201614.png
 security:

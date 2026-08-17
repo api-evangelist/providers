@@ -9,25 +9,25 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-12'
+  score: 72.3
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 162
-  human_in_the_loop: 2
+- acting_count: 201
+  human_in_the_loop: 3
   name: Activecampaign Agentic Access
-  operation_count: 299
+  operation_count: 384
   slug: activecampaign-agentic-access
-  summary_line: 299 operations · 162 acting · 2 human-in-the-loop
-api_count: 36
+  summary_line: 384 operations · 201 acting · 3 human-in-the-loop
+api_count: 43
 apis:
 - description: The Accounts API from ActiveCampaign — 13 operation(s) for accounts.
   name: ActiveCampaign Accounts API
@@ -137,6 +137,27 @@ apis:
 - description: The Webhooks API from ActiveCampaign — 3 operation(s) for webhooks.
   name: ActiveCampaign Webhooks API
   slug: activecampaign-webhooks-api
+- description: 'The Segments API from ActiveCampaign — 8 operation(s) for creating, retrieving, updating and deleting segments (segmentsV2), reading a segment as it existed at a point in time, reverting a segment to '
+  name: ActiveCampaign Segments API
+  slug: activecampaign-segments-api
+- description: The Segment Matching API from ActiveCampaign — 8 operation(s) for asynchronous match-all and match-some segment evaluation. A match request returns a runId; result sets are cached against that runId w
+  name: ActiveCampaign Segment Matching API
+  slug: activecampaign-segment-matching-api
+- description: The Segment Match One API from ActiveCampaign — 2 operation(s) that check whether a single contact matches a given segment, addressed either by ActiveCampaign contact id or by the integration-supplied
+  name: ActiveCampaign Segment Match One API
+  slug: activecampaign-segment-match-one-api
+- description: 'The Partners API from ActiveCampaign — 36 operation(s) for resellers and agency partners: child-account creation and listing, account cloning snapshots, AI customization profiles, documents and custom'
+  name: ActiveCampaign Partners API
+  slug: activecampaign-partners-api
+- description: The WhatsApp API from ActiveCampaign — 13 operation(s) for listing, retrieving, updating and deleting WhatsApp message templates, sending a template message to a recipient phone number with template v
+  name: ActiveCampaign WhatsApp API
+  slug: activecampaign-whatsapp-api
+- description: The trackcmp event API from ActiveCampaign — 1 operation that posts a tracked event. It is the only ActiveCampaign API served from trackcmp.net rather than from the per-account api-us1.com host, and i
+  name: ActiveCampaign trackcmp Event API
+  slug: activecampaign-trackcmp-api
+- description: The surviving v2 surface from ActiveCampaign — 1 operation, GET /api/2/template/share, which creates a shareable campaign template link. ActiveCampaign still advertises v2.json in its own /.well-known
+  name: ActiveCampaign v2 Legacy API
+  slug: activecampaign-v2-api
 arazzos:
 - description: Create an account record then associate an existing contact with it.
   name: ActiveCampaign Create Account and Associate a Contact
@@ -201,7 +222,7 @@ arazzos:
 - description: Apply a tag to an existing contact then enroll it in an automation.
   name: ActiveCampaign Tag a Contact and Enroll in Automation
   slug: activecampaign-tag-contact-and-enroll-automation-workflow
-artifact_total: 166
+artifact_total: 212
 asyncapis:
 - description: AsyncAPI description of ActiveCampaign's outbound webhook surface. When a webhook is configured (via the dashboard or the REST API at POST /api/3/webhooks), ActiveCampaign delivers events as HTTP POST
   name: ActiveCampaign Webhooks
@@ -214,11 +235,125 @@ collections:
   name: ActiveCampaign API v3
   slug: postman-activecampaign-v3
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts API
+  slug: open-activecampaign-accounts-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Addresses API
+  slug: open-activecampaign-addresses-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts AI API
+  slug: open-activecampaign-ai-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Automations API
+  slug: open-activecampaign-automations-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Branding API
+  slug: open-activecampaign-branding-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Broadcasts API
+  slug: open-activecampaign-broadcasts-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Bulk Import API
+  slug: open-activecampaign-bulk-import-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Calendars API
+  slug: open-activecampaign-calendars-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Campaigns API
+  slug: open-activecampaign-campaigns-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Contacts API
+  slug: open-activecampaign-contacts-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Credits API
+  slug: open-activecampaign-credits-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Custom Objects API
+  slug: open-activecampaign-custom-objects-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Deals API
+  slug: open-activecampaign-deals-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Ecommerce API
+  slug: open-activecampaign-ecommerce-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Event Tracking API
+  slug: open-activecampaign-event-tracking-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Exports API
+  slug: open-activecampaign-exports-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Failures API
+  slug: open-activecampaign-failures-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Fields API
+  slug: open-activecampaign-fields-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Forms API
+  slug: open-activecampaign-forms-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Groups API
+  slug: open-activecampaign-groups-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Lists API
+  slug: open-activecampaign-lists-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Messages API
+  slug: open-activecampaign-messages-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Metrics API
+  slug: open-activecampaign-metrics-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Notes API
+  slug: open-activecampaign-notes-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Other API
+  slug: open-activecampaign-other-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Personalizations API
+  slug: open-activecampaign-personalizations-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Recipients API
+  slug: open-activecampaign-recipients-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Saved Responses API
+  slug: open-activecampaign-saved-responses-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Scores API
+  slug: open-activecampaign-scores-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Site Tracking API
+  slug: open-activecampaign-site-tracking-api
+- collection_type: open
   name: ActiveCampaign SMS Broadcast API
   slug: open-activecampaign-sms
 - collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Snapshots API
+  slug: open-activecampaign-snapshots-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Tags API
+  slug: open-activecampaign-tags-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Tasks API
+  slug: open-activecampaign-tasks-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Templates API
+  slug: open-activecampaign-templates-api
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Users API
+  slug: open-activecampaign-users-api
+- collection_type: open
   name: ActiveCampaign API v3
   slug: open-activecampaign-v3
+- collection_type: open
+  name: ActiveCampaign SMS Broadcast Accounts Webhooks API
+  slug: open-activecampaign-webhooks-api
+- collection_type: open
+  name: WhatsApp API
+  slug: open-activecampaign-whatsapp-api
 common:
 - group: auth
   title: ''
@@ -407,21 +542,133 @@ common:
 - group: agent
   title: ''
   type: MCPServer
-  url: https://github.com/ActiveCampaign/postmark-mcp
+  url: mcp/activecampaign-mcp.yml
 - group: agent
   title: ''
   type: AgentSkills
-  url: https://github.com/ActiveCampaign/postmark-skills
+  url: https://github.com/ActiveCampaign/activecampaign-plugin
 - group: agent
   title: ''
   type: LlmsText
   url: https://developers.activecampaign.com/llms.txt
-- group: company
+- group: agent
   title: ''
-  type: Blog
-  url: https://www.activecampaign.com/blog
+  type: WellKnown
+  url: well-known/activecampaign-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://developers.activecampaign.com/.well-known/api-catalog
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/activecampaign-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/activecampaign-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/activecampaign-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/activecampaign-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/activecampaign-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.activecampaign.com/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://www.activecampaign.com/security
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/activecampaign-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/activecampaign-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/activecampaign-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/activecampaign-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/activecampaign-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/activecampaign-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/activecampaign-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/activecampaign-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/activecampaign-finops.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/activecampaign-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/activecampaign
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/activecampaign-webhooks-asyncapi.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/activecampaign-webhooks-asyncapi.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.activecampaign.com/legal/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.activecampaign.com/privacy-policy
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.activecampaign.com/reference/overview
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.activecampaign.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/acdevrel/activecampaign-developer-relations/overview
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.activecampaign.com/reference/overview
 created: '2025-02-17'
-description: ActiveCampaign is a leading marketing automation platform that helps businesses of all sizes seamlessly engage with their customers. With its user-friendly interface and powerful features, ActiveCampaign allows businesses to create personalized email campaigns, automate workflows, and track customer interactions in real-time. The platform offers a REST API (v3), SMS Broadcast API, webhooks, and custom object schemas for building deep integrations and automations.
+description: 'ActiveCampaign is a marketing automation and customer experience platform used by more than 180,000 businesses for email marketing, marketing automation, CRM and sales automation. Its developer surface is unusually broad: nine published OpenAPI documents discoverable through a real RFC 9727 /.well-known/api-catalog, covering the v3 REST API, SMS Broadcast, WhatsApp messaging, Segments V2 and asynchronous segment matching, a reseller Partners API, trackcmp event ingest and a surviving v2 operation. It also ships an Ecommerce GraphQL API, an outbound webhook surface, a first-party remote MCP server with a published tool index, an A2A agent card, and an MIT-licensed Claude plugin of first-party Agent Skills. Authentication is a single unscoped Api-Token header; the base URL is per account.'
 examples:
 - key_count: 3
   name: Activecampaign Sms Ai Broadcast Request Example
@@ -646,26 +893,26 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: MCP Server
-  slug: mcp-server
-modified: '2026-05-30'
+  name: ActiveCampaign Remote MCP Server
+  slug: activecampaign-remote-mcp-server
+modified: '2026-08-13'
 name: ActiveCampaign
 nav: Providers
 network: true
-overview: 'ActiveCampaign publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI API, and 33 more. Tagged areas include Marketing Automation, Email Marketing, CRM, Sales Automation, and Customer Experience.
+overview: 'ActiveCampaign publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI API, and 40 more. Tagged areas include Marketing Automation, Email Marketing, CRM, Sales Automation, and Customer Experience.
 
 
   The ActiveCampaign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  ActiveCampaign''s developer surface includes documentation, support, signup flow, authentication, developer portal, getting-started guide, pricing, and 43 more developer resources.'
+  ActiveCampaign''s developer surface includes documentation, support, signup flow, authentication, developer portal, getting-started guide, pricing, and 71 more developer resources.'
 plans:
 - name: Activecampaign Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: activecampaign-plans-pricing
-random_paper: 28
+random_paper: 127
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Activecampaign Rate Limits
   slug: activecampaign-rate-limits
 rules:
@@ -694,16 +941,16 @@ rules:
     warn: 12
   slug: activecampaign-spectral-rules
 score:
-  band: developing
-  composite: 52.7
-  delta: 0.0
+  band: exemplar
+  composite: 68.7
+  delta: 16.0
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 45.2
-    developer_ergonomics: 71.7
-    discoverability: 75.9
-    governance: 52.1
-    operational_transparency: 28.9
+    commercial_clarity: 76.3
+    contract_quality: 45.1
+    developer_ergonomics: 93.5
+    discoverability: 68.5
+    governance: 72.9
+    operational_transparency: 60.5
   previous_composite: 52.7
   provenance:
     agentic_access: derived
@@ -713,18 +960,22 @@ score:
       marker_coverage: 100.0
       total: 36
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/screenshots/activecampaign-2026-06-20T164212.png
 security:
 - kind: authentication
   name: Activecampaign Authentication
   slug: activecampaign-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/http · 4 schemes
 - kind: domain-security
   name: Activecampaign Domain Security
   slug: activecampaign-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Activecampaign Vulnerability Disclosure
+  slug: activecampaign-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Activecampaign Trust Center
   slug: activecampaign-trust-center
@@ -759,6 +1010,10 @@ tags:
 - CRM
 - Sales Automation
 - Customer Experience
+- SMS Marketing
+- Ecommerce
+- Segmentation
+- Webhooks
 use_cases:
 - description: Automate email sequences to nurture leads through the sales funnel based on behavior.
   name: Lead Nurturing

@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.4
-  scored_at: '2026-08-12'
+  score: 68.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 25
   slug: adobe-analytics-agentic-access
   summary_line: 25 operations · 11 acting
-api_count: 14
+api_count: 22
 apis:
 - description: The Livestream API is a reporting feature in Adobe Analytics that allows clients to receive traffic data processed by Adobe Analytics in real time. Hits are streamed to the client on a hit-by-hit basi
   name: Adobe Analytics Livestream API
@@ -81,6 +81,30 @@ apis:
 - description: Estimate the scope and cost of a repair job
   name: Adobe Analytics Server Call Estimate API
   slug: adobe-analytics-server-call-estimate-api
+- description: Import, update, and remove classification values that group and label dimension items (for example mapping campaign tracking codes to campaign names, owners, and channels) in an Adobe Analytics report
+  name: Adobe Analytics Classification API
+  slug: adobe-analytics-classification-api
+- description: Create, update, retrieve, and manage Adobe Analytics data feeds and column presets — the scheduled raw hit-level exports that deliver every column of collected data to customer-controlled storage (FTP
+  name: Adobe Analytics Data Feed API
+  slug: adobe-analytics-data-feeds-api
+- description: Schedule, manage, and retrieve Adobe Analytics Data Warehouse requests — non-sampled, long-running exports of granular report data delivered to email or cloud storage.
+  name: Adobe Analytics Data Warehouse API
+  slug: adobe-analytics-data-warehouse-api
+- description: Manage Data Sources uploads into an Adobe Analytics report suite — the batch channel for bringing offline, CRM, and third-party data into Analytics reporting.
+  name: Adobe Analytics Data Sources API
+  slug: adobe-analytics-data-sources-api
+- description: Retrieve the Marketing Channel processing rules configured for an Adobe Analytics report suite — the rules that classify inbound traffic into paid search, display, email, social, and other acquisition
+  name: Adobe Analytics Marketing Channels API
+  slug: adobe-analytics-marketing-channels-api
+- description: Manage the cloud export accounts and locations Adobe Analytics writes exported data to (Amazon S3, Azure Blob, Google Cloud Platform), including account properties and location definitions.
+  name: Adobe Analytics Cloud Locations API
+  slug: adobe-analytics-cloud-locations-api
+- description: 'Administer Adobe Analytics report suites — create suites, and read and update the settings that govern collection and reporting behavior. Distinct from the read-only report suite discovery operations '
+  name: Adobe Analytics Report Suites Admin API
+  slug: adobe-analytics-report-suites-admin-api
+- description: Map Adobe Analytics dimensions and metrics to their Customer Journey Analytics equivalents, supporting migration of segments and calculated metrics from Adobe Analytics report suites to CJA data views
+  name: Adobe Analytics Component Migration API
+  slug: adobe-analytics-component-migration-api
 arazzos:
 - description: Review saved date ranges, create an annotation for a period, then run a report over it.
   name: Adobe Analytics Annotate a Date Range and Run a Report
@@ -118,7 +142,7 @@ arazzos:
 - description: Validate a gzip-compressed events file and upload it only when validation passes.
   name: Adobe Analytics Validate then Upload a Batch Events File
   slug: adobe-analytics-validate-then-upload-events-workflow
-artifact_total: 170
+artifact_total: 192
 asyncapis:
 - description: The Adobe Analytics Livestream API delivers real-time analytics hit data to a connected client as each hit is processed by Adobe Analytics servers. Data is streamed in line-delimited JSON format compr
   name: Adobe Analytics Livestream API
@@ -134,14 +158,50 @@ collections:
   name: Adobe Analytics Data Repair API
   slug: postman-adobe-analytics-data-repair-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Analytics Annotations API
+  slug: open-adobe-analytics-annotations-api
+- collection_type: open
   name: Adobe Analytics API
   slug: open-adobe-analytics-api
 - collection_type: open
   name: Adobe Analytics Bulk Data Insertion API
   slug: open-adobe-analytics-bulk-data-insertion-api
 - collection_type: open
+  name: Adobe Analytics Annotations Calculated Metrics API
+  slug: open-adobe-analytics-calculated-metrics-api
+- collection_type: open
   name: Adobe Analytics Data Repair API
   slug: open-adobe-analytics-data-repair-api
+- collection_type: open
+  name: Adobe Analytics Annotations Date Ranges API
+  slug: open-adobe-analytics-date-ranges-api
+- collection_type: open
+  name: Adobe Analytics Annotations Dimensions API
+  slug: open-adobe-analytics-dimensions-api
+- collection_type: open
+  name: Adobe Analytics Annotations Events API
+  slug: open-adobe-analytics-events-api
+- collection_type: open
+  name: Adobe Analytics Annotations Jobs API
+  slug: open-adobe-analytics-jobs-api
+- collection_type: open
+  name: Adobe Analytics Annotations Metrics API
+  slug: open-adobe-analytics-metrics-api
+- collection_type: open
+  name: Adobe Analytics Annotations Report Suites API
+  slug: open-adobe-analytics-report-suites-api
+- collection_type: open
+  name: Adobe Analytics Annotations Reports API
+  slug: open-adobe-analytics-reports-api
+- collection_type: open
+  name: Adobe Analytics Annotations Segments API
+  slug: open-adobe-analytics-segments-api
+- collection_type: open
+  name: Adobe Analytics Annotations Server Call Estimate API
+  slug: open-adobe-analytics-server-call-estimate-api
 common:
 - group: operate
   title: ''
@@ -375,6 +435,86 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/adobe-analytics-vocabulary.yaml
+- group: build
+  title: Official and community client libraries (7 first-party packages)
+  type: SDKs
+  url: packages/adobe-analytics-packages.yml
+- group: operate
+  title: Published rate limits — 12 requests / 6 seconds per user
+  type: RateLimits
+  url: rate-limits/adobe-analytics-rate-limits.yml
+- group: commercial
+  title: Enterprise packages (contact sales; no list pricing published)
+  type: Plans
+  url: plans/adobe-analytics-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/adobe-analytics-finops.yml
+- group: operate
+  title: Adobe Analytics 1.4 API end-of-life policy (EOL 2026-08-12)
+  type: Deprecation
+  url: lifecycle/adobe-analytics-lifecycle.yml
+- group: auth
+  title: Adobe PSIRT vulnerability disclosure + HackerOne program
+  type: Security
+  url: security/adobe-analytics-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/adobe-analytics-trust-center.yml
+- group: auth
+  title: Adobe Experience Cloud certifications (FedRAMP Tailored, SOC 2 Type 2, ISO 27001:2022, CSA STAR L2)
+  type: Compliance
+  url: security/adobe-analytics-trust-center.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/adobe-analytics-scopes.yml
+- group: build
+  title: MCP tool to REST operation crosswalk
+  type: ToolCrosswalk
+  url: mcp/adobe-analytics-tool-crosswalk.yml
+- group: agent
+  title: Five Adobe-published Agent Skills for the Adobe Analytics MCP server
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: Adobe-published llms.txt for the Experience League documentation host (verbatim)
+  type: LLMsTxt
+  url: llms/adobe-analytics-experienceleague-llms.txt
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/adobe-analytics-api.opencollection.json
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: postman/adobe-analytics-api.postman_collection.json
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/adobe-analytics-asyncapi-spectral-rules.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/adobe-analytics-jsonschema-spectral-rules.yml
+- group: docs
+  title: Adobe Analytics MCP server documentation
+  type: Documentation
+  url: https://developer.adobe.com/analytics-mcp/docs/aa/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://business.adobe.com/products/analytics/pricing.html
+- group: docs
+  title: Adobe Analytics 2.0 API reference
+  type: APIReference
+  url: https://developer.adobe.com/analytics-apis/docs/2.0/apis/
+- group: start
+  title: Adobe Developer Console — create the project and OAuth credentials
+  type: SignUp
+  url: https://developer.adobe.com/console/
 created: 2024-01-01 00:00:00+00:00
 description: Adobe Analytics provides real-time analytics and detailed segmentation capabilities across all marketing channels, enabling organizations to discover high-value audiences and power customer intelligence.
 examples:
@@ -732,24 +872,24 @@ mcp_servers:
 - description: ''
   name: adobe-analytics-mcp.yml
   slug: adobe-analytics-mcpyml
-modified: '2026-06-20'
+modified: '2026-08-13'
 name: Adobe Analytics
 nav: Providers
 network: true
-overview: 'Adobe Analytics publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Livestream API, Annotations API, Calculated Metrics API, and 9 more. Tagged areas include Adobe, Analytics, Business Intelligence, Customer Intelligence, and Digital Marketing.
+overview: 'Adobe Analytics publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Livestream API, Annotations API, Calculated Metrics API, and 17 more. Tagged areas include Adobe, Analytics, Business Intelligence, Customer Intelligence, and Digital Marketing.
 
 
   The Adobe Analytics catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Adobe Analytics'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, developer console, support, and 51 more developer resources.'
+  Adobe Analytics'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, developer console, support, and 71 more developer resources.'
 plans:
 - name: Adobe Analytics Plans Pricing
   plan_count: 3
   slug: adobe-analytics-plans-pricing
-random_paper: 80
+random_paper: 30
 rate_limits:
-- limit_count: 3
+- limit_count: 1
   name: Adobe Analytics Rate Limits
   slug: adobe-analytics-rate-limits
 rules:
@@ -777,17 +917,22 @@ rules:
     info: 1
     warn: 1
   slug: adobe-analytics-spectral-rules
+scopes:
+- name: Adobe Analytics Scopes
+  scope_count: 0
+  slug: adobe-analytics-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.6
-  delta: 0.0
+  band: exemplar
+  composite: 75.1
+  delta: 13.5
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 74.6
-    developer_ergonomics: 65.2
+    commercial_clarity: 76.3
+    contract_quality: 73.4
+    developer_ergonomics: 84.8
     discoverability: 83.3
     governance: 69.8
-    operational_transparency: 44.7
+    operational_transparency: 60.5
   previous_composite: 61.6
   provenance:
     agentic_access: derived
@@ -799,8 +944,8 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:
 - kind: authentication
@@ -815,6 +960,10 @@ security:
   name: Adobe Analytics Vulnerability Disclosure
   slug: adobe-analytics-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Adobe Analytics Trust Center
+  slug: adobe-analytics-trust-center
+  summary_line: FedRAMP Tailored, SOC 2 Type 2, SOC 3, ISO 9001:2015, ISO 27001:2022, ISO 27017:2015, ISO 27018:2019, ISO 22301:2019, CSA STAR Level 2, IRAP Assessed, HIPAA ready, GLBA ready, FERPA ready, TrustArc GDPR Privacy Practices Management Compliance Validation, TrustArc APEC Privacy Recognition for Processors (PRP)
 slug: adobe-analytics
 tags:
 - Adobe

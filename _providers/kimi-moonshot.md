@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,12 +78,33 @@ apis:
 - description: The Utilities API from Kimi (Moonshot AI) — 1 operation(s) for utilities.
   name: Kimi (Moonshot AI) Utilities API
   slug: kimi-moonshot-utilities-api
-artifact_total: 22
+artifact_total: 29
 asyncapis:
 - description: 'AsyncAPI definition for Moonshot AI''s Kimi `POST /v1/chat/completions` streaming response channel. Moonshot''s chat completions surface is OpenAI-compatible. When the request body sets `"stream": true`'
   name: Kimi (Moonshot AI) Streaming Chat Completions API
   slug: kimi-moonshot-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Moonshot AI Batch API
+  slug: open-kimi-moonshot-batch-api
+- collection_type: open
+  name: Moonshot AI Billing API
+  slug: open-kimi-moonshot-billing-api
+- collection_type: open
+  name: Moonshot AI Chat API
+  slug: open-kimi-moonshot-chat-api
+- collection_type: open
+  name: Moonshot AI Files API
+  slug: open-kimi-moonshot-files-api
+- collection_type: open
+  name: Moonshot AI Models API
+  slug: open-kimi-moonshot-models-api
+- collection_type: open
+  name: Moonshot AI Utilities API
+  slug: open-kimi-moonshot-utilities-api
 - collection_type: open
   name: Moonshot AI API
   slug: open-kimi-moonshot
@@ -151,7 +172,7 @@ plans:
 - name: Kimi Moonshot Plans Pricing
   plan_count: 1
   slug: kimi-moonshot-plans-pricing
-random_paper: 38
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Kimi Moonshot Rate Limits
@@ -185,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/screenshots/kimi-moonshot-2026-06-20T184035.png
 security:

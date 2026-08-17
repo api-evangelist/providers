@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -72,11 +72,48 @@ apis:
 - description: Create, update, and inspect opportunity workspaces.
   name: Govly Workspaces API
   slug: govly-workspaces-api
-artifact_total: 17
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Govly Webhooks
   slug: govly-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards API
+  slug: open-govly-awards-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Documents API
+  slug: open-govly-documents-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Follows API
+  slug: open-govly-follows-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Inbox API
+  slug: open-govly-inbox-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Opportunities API
+  slug: open-govly-opportunities-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Quote Submissions API
+  slug: open-govly-quote-submissions-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Saved Searches API
+  slug: open-govly-saved-searches-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Workspace Attachments API
+  slug: open-govly-workspace-attachments-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Workspace Comments API
+  slug: open-govly-workspace-comments-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Workspace Members API
+  slug: open-govly-workspace-members-api
+- collection_type: open
+  name: Govly Tools API (Alpha) Awards Workspaces API
+  slug: open-govly-workspaces-api
 common:
 - group: agent
   title: ''
@@ -205,7 +242,7 @@ overview: 'Govly publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Govly''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 20 more developer resources.'
-random_paper: 81
+random_paper: 114
 score:
   band: developing
   composite: 52.6
@@ -235,7 +272,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/screenshots/govly-2026-07-25T220138.png
 security:

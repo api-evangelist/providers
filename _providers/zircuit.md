@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Zircuit L2 network (HTTP and WebSocket) for reading chain state and submitting transactions. Mainnet is chain ID 48900; the Garfield testnet is chain ID
@@ -37,7 +37,14 @@ apis:
 - description: Trade estimates and cross-chain order execution data.
   name: Zircuit Orders API
   slug: zircuit-orders-api
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zircuit GUD Trading Engine API (Beta) Orders API
+  slug: open-zircuit-orders-api
 common:
 - group: auth
   title: ''
@@ -151,7 +158,7 @@ overview: 'Zircuit publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
 
   Zircuit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 58
+random_paper: 33
 score:
   band: developing
   composite: 47.2
@@ -173,7 +180,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

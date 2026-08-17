@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -86,8 +86,59 @@ apis:
 - description: The Users API from Discourse — 23 operation(s) for users.
   name: Discourse Users API
   slug: discourse-users-api
-artifact_total: 24
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Discourse API Documentation Admin API
+  slug: open-discourse-admin-api
+- collection_type: open
+  name: Discourse API Documentation Admin Backups API
+  slug: open-discourse-backups-api
+- collection_type: open
+  name: Discourse API Documentation Admin Badges API
+  slug: open-discourse-badges-api
+- collection_type: open
+  name: Discourse API Documentation Admin Categories API
+  slug: open-discourse-categories-api
+- collection_type: open
+  name: Discourse API Documentation Admin Discourse Calendar - Events API
+  slug: open-discourse-discourse-calendar-events-api
+- collection_type: open
+  name: Discourse API Documentation Admin Groups API
+  slug: open-discourse-groups-api
+- collection_type: open
+  name: Discourse API Documentation Admin Invites API
+  slug: open-discourse-invites-api
+- collection_type: open
+  name: Discourse API Documentation Admin Notifications API
+  slug: open-discourse-notifications-api
+- collection_type: open
+  name: Discourse API Documentation Admin Posts API
+  slug: open-discourse-posts-api
+- collection_type: open
+  name: Discourse API Documentation Admin Private Messages API
+  slug: open-discourse-private-messages-api
+- collection_type: open
+  name: Discourse API Documentation Admin Search API
+  slug: open-discourse-search-api
+- collection_type: open
+  name: Discourse API Documentation Admin Site API
+  slug: open-discourse-site-api
+- collection_type: open
+  name: Discourse API Documentation Admin Tags API
+  slug: open-discourse-tags-api
+- collection_type: open
+  name: Discourse API Documentation Admin Topics API
+  slug: open-discourse-topics-api
+- collection_type: open
+  name: Discourse API Documentation Admin Uploads API
+  slug: open-discourse-uploads-api
+- collection_type: open
+  name: Discourse API Documentation Admin Users API
+  slug: open-discourse-users-api
 - collection_type: open
   name: Discourse API Documentation
   slug: open-discourse
@@ -184,7 +235,7 @@ plans:
 - name: Discourse Plans Pricing
   plan_count: 3
   slug: discourse-plans-pricing
-random_paper: 17
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Discourse Rate Limits
@@ -209,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/screenshots/discourse-2026-06-20T180038.png
 security:

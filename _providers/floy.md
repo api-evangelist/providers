@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Floy is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Floy''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 82
+random_paper: 144
 score:
   band: emerging
   composite: 16.4
@@ -113,7 +113,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/floy/refs/heads/main/screenshots/floy-2026-07-25T214842.png
 security:

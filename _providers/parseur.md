@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -56,8 +56,29 @@ apis:
 - description: The Webhook API from Parseur — 2 operation(s) for webhook.
   name: Parseur Webhook API
   slug: parseur-webhook-api
-artifact_total: 11
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Parseur async API
+  slug: open-parseur-async-api
+- collection_type: open
+  name: Parseur async Bootstrap API
+  slug: open-parseur-bootstrap-api
+- collection_type: open
+  name: Parseur async Document API
+  slug: open-parseur-document-api
+- collection_type: open
+  name: Parseur async Parser API
+  slug: open-parseur-parser-api
+- collection_type: open
+  name: Parseur async Template API
+  slug: open-parseur-template-api
+- collection_type: open
+  name: Parseur async Webhook API
+  slug: open-parseur-webhook-api
 - collection_type: open
   name: Parseur
   slug: open-parseur
@@ -187,7 +208,7 @@ overview: 'Parseur publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Parseur''s developer surface includes authentication, developer portal, signup flow, documentation, engineering blog, pricing, GitHub presence, and 21 more developer resources.'
-random_paper: 50
+random_paper: 25
 score:
   band: thin
   composite: 40.2
@@ -208,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/screenshots/parseur-2026-06-20T191421.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -57,7 +57,7 @@ apis:
 - description: Settlement and transaction reconciliation reporting.
   name: Peach Payments Reconciliation API
   slug: peachpayments-reconciliation-api
-artifact_total: 22
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Peachpayments Webhooks
@@ -81,6 +81,27 @@ collections:
 - collection_type: postman
   name: Peach Payments Authentication Reconciliation API
   slug: postman-peachpayments-reconciliation-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Peach Payments Authentication API
+  slug: open-peachpayments-authentication-api
+- collection_type: open
+  name: Peach Payments Authentication Checkout API
+  slug: open-peachpayments-checkout-api
+- collection_type: open
+  name: Peach Payments Authentication Payment Links API
+  slug: open-peachpayments-payment-links-api
+- collection_type: open
+  name: Peach Authentication Payments API
+  slug: open-peachpayments-payments-api
+- collection_type: open
+  name: Peach Payments Authentication Payouts API
+  slug: open-peachpayments-payouts-api
+- collection_type: open
+  name: Peach Payments Authentication Reconciliation API
+  slug: open-peachpayments-reconciliation-api
 common:
 - group: agent
   title: ''
@@ -277,7 +298,7 @@ plans:
 - name: Peachpayments Plans Pricing
   plan_count: 2
   slug: peachpayments-plans-pricing
-random_paper: 74
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Peachpayments Rate Limits
@@ -311,7 +332,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/screenshots/peachpayments-2026-08-07T191724.png
 security:

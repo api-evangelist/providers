@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Parallel Universe is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Parallel Universe''s developer surface includes documentation, engineering blog, support, signup flow, YouTube channel, and 8 more developer resources.'
-random_paper: 91
+random_paper: 132
 score:
   band: emerging
   composite: 15.9
@@ -115,7 +115,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-universe/refs/heads/main/screenshots/parallel-universe-2026-08-07T191423.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 16
@@ -270,7 +270,7 @@ apis:
 - description: Clerk Webhook Events from Clerk, described in OpenAPI.
   name: Clerk Webhook Events
   slug: clerk-webhooks-openapi
-artifact_total: 221
+artifact_total: 298
 collections:
 - collection_type: postman
   name: Clerk Backend Account Portal API
@@ -501,8 +501,239 @@ collections:
   name: Clerk Backend Account Portal Well Known API
   slug: postman-clerk-com-well-known-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Clerk Backend API
   slug: open-clerk-backend-api
+- collection_type: open
+  name: Clerk Backend Account Portal API
+  slug: open-clerk-com-account-portal-api
+- collection_type: open
+  name: Clerk Backend Account Portal Active Sessions API
+  slug: open-clerk-com-active-sessions-api
+- collection_type: open
+  name: Clerk Backend Account Portal Actor Tokens API
+  slug: open-clerk-com-actor-tokens-api
+- collection_type: open
+  name: Clerk Backend Account Portal Agent Tasks API
+  slug: open-clerk-com-agent-tasks-api
+- collection_type: open
+  name: Clerk Backend Account Portal Allow-list / Block-list API
+  slug: open-clerk-com-allow-list-block-list-api
+- collection_type: open
+  name: Clerk Backend Account Portal API Keys API
+  slug: open-clerk-com-api-keys-api
+- collection_type: open
+  name: Clerk Backend Account Portal Application Transfers API
+  slug: open-clerk-com-application-transfers-api
+- collection_type: open
+  name: Clerk Backend Account Portal Applications API
+  slug: open-clerk-com-applications-api
+- collection_type: open
+  name: Clerk Backend Account Portal Backup Codes API
+  slug: open-clerk-com-backup-codes-api
+- collection_type: open
+  name: Clerk Backend Account Portal Beta Features API
+  slug: open-clerk-com-beta-features-api
+- collection_type: open
+  name: Clerk Backend Account Portal Billing API
+  slug: open-clerk-com-billing-api
+- collection_type: open
+  name: Clerk Backend Account Portal Checkouts API
+  slug: open-clerk-com-checkouts-api
+- collection_type: open
+  name: Clerk Backend Account Portal Clear Site Data API
+  slug: open-clerk-com-clear-site-data-api
+- collection_type: open
+  name: Clerk Backend Account Portal Client API
+  slug: open-clerk-com-client-api
+- collection_type: open
+  name: Clerk Backend Account Portal Clients API
+  slug: open-clerk-com-clients-api
+- collection_type: open
+  name: Clerk Backend Account Portal Config API
+  slug: open-clerk-com-config-api
+- collection_type: open
+  name: Clerk Backend Account Portal Dev Browser API
+  slug: open-clerk-com-dev-browser-api
+- collection_type: open
+  name: Clerk Backend Account Portal DevBrowser API
+  slug: open-clerk-com-devbrowser-api
+- collection_type: open
+  name: Clerk Backend Account Portal Domains API
+  slug: open-clerk-com-domains-api
+- collection_type: open
+  name: Clerk Backend Account Portal Email Addresses API
+  slug: open-clerk-com-email-addresses-api
+- collection_type: open
+  name: Clerk Backend Account Portal Email & SMS Templates API
+  slug: open-clerk-com-email-sms-templates-api
+- collection_type: open
+  name: Clerk Backend Account Portal Enterprise Connections API
+  slug: open-clerk-com-enterprise-connections-api
+- collection_type: open
+  name: Clerk Backend Account Portal Environment API
+  slug: open-clerk-com-environment-api
+- collection_type: open
+  name: Clerk Backend Account Portal External Accounts API
+  slug: open-clerk-com-external-accounts-api
+- collection_type: open
+  name: Clerk Backend Account Portal Health API
+  slug: open-clerk-com-health-api
+- collection_type: open
+  name: Clerk Backend Account Portal Instance Settings API
+  slug: open-clerk-com-instance-settings-api
+- collection_type: open
+  name: Clerk Backend Account Portal Invitations API
+  slug: open-clerk-com-invitations-api
+- collection_type: open
+  name: Clerk Backend Account Portal JWKS API
+  slug: open-clerk-com-jwks-api
+- collection_type: open
+  name: Clerk Backend Account Portal JWT Templates API
+  slug: open-clerk-com-jwt-templates-api
+- collection_type: open
+  name: Clerk Backend Account Portal M2M Tokens API
+  slug: open-clerk-com-m2m-tokens-api
+- collection_type: open
+  name: Clerk Backend Account Portal Machines API
+  slug: open-clerk-com-machines-api
+- collection_type: open
+  name: Clerk Backend Account Portal Members API
+  slug: open-clerk-com-members-api
+- collection_type: open
+  name: Clerk Backend Account Portal Membership Requests API
+  slug: open-clerk-com-membership-requests-api
+- collection_type: open
+  name: Clerk Backend Account Portal Miscellaneous API
+  slug: open-clerk-com-miscellaneous-api
+- collection_type: open
+  name: Clerk Backend Account Portal OAuth Access Tokens API
+  slug: open-clerk-com-oauth-access-tokens-api
+- collection_type: open
+  name: Clerk Backend Account Portal OAuth Applications API
+  slug: open-clerk-com-oauth-applications-api
+- collection_type: open
+  name: Clerk Backend Account Portal OAuth2 Callbacks API
+  slug: open-clerk-com-oauth2-callbacks-api
+- collection_type: open
+  name: Clerk Backend Account Portal OAuth2 Identity Provider API
+  slug: open-clerk-com-oauth2-identity-provider-api
+- collection_type: open
+  name: Clerk Backend Account Portal Organization API
+  slug: open-clerk-com-organization-api
+- collection_type: open
+  name: Clerk Backend Account Portal Organization Creation Defaults API
+  slug: open-clerk-com-organization-creation-defaults-api
+- collection_type: open
+  name: Clerk Backend Account Portal Organization Domains API
+  slug: open-clerk-com-organization-domains-api
+- collection_type: open
+  name: Clerk Backend Account Portal Organization Invitations API
+  slug: open-clerk-com-organization-invitations-api
+- collection_type: open
+  name: Clerk Backend Account Portal Organization Memberships API
+  slug: open-clerk-com-organization-memberships-api
+- collection_type: open
+  name: Clerk Backend Account Portal Organization Permissions API
+  slug: open-clerk-com-organization-permissions-api
+- collection_type: open
+  name: Clerk Backend Account Portal Organization Roles API
+  slug: open-clerk-com-organization-roles-api
+- collection_type: open
+  name: Clerk Backend Account Portal Organizations API
+  slug: open-clerk-com-organizations-api
+- collection_type: open
+  name: Clerk Backend Account Portal Organizations Memberships API
+  slug: open-clerk-com-organizations-memberships-api
+- collection_type: open
+  name: Clerk Backend Account Portal Passkeys API
+  slug: open-clerk-com-passkeys-api
+- collection_type: open
+  name: Clerk Backend Account Portal Payment Attempts API
+  slug: open-clerk-com-payment-attempts-api
+- collection_type: open
+  name: Clerk Backend Account Portal Payment Methods API
+  slug: open-clerk-com-payment-methods-api
+- collection_type: open
+  name: Clerk Backend Account Portal Phone Numbers API
+  slug: open-clerk-com-phone-numbers-api
+- collection_type: open
+  name: Clerk Backend Account Portal Plans API
+  slug: open-clerk-com-plans-api
+- collection_type: open
+  name: Clerk Backend Account Portal Proxy Checks API
+  slug: open-clerk-com-proxy-checks-api
+- collection_type: open
+  name: Clerk Backend Account Portal Proxy Health API
+  slug: open-clerk-com-proxy-health-api
+- collection_type: open
+  name: Clerk Backend Account Portal Redirect API
+  slug: open-clerk-com-redirect-api
+- collection_type: open
+  name: Clerk Backend Account Portal Redirect URLs API
+  slug: open-clerk-com-redirect-urls-api
+- collection_type: open
+  name: Clerk Backend Account Portal Role Sets API
+  slug: open-clerk-com-role-sets-api
+- collection_type: open
+  name: Clerk Backend Account Portal Roles API
+  slug: open-clerk-com-roles-api
+- collection_type: open
+  name: Clerk Backend Account Portal SAML API
+  slug: open-clerk-com-saml-api
+- collection_type: open
+  name: Clerk Backend Account Portal SAML Connections API
+  slug: open-clerk-com-saml-connections-api
+- collection_type: open
+  name: Clerk Backend Account Portal Sessions API
+  slug: open-clerk-com-sessions-api
+- collection_type: open
+  name: Clerk Backend Account Portal Sign-in Tokens API
+  slug: open-clerk-com-sign-in-tokens-api
+- collection_type: open
+  name: Clerk Backend Account Portal Sign Ins API
+  slug: open-clerk-com-sign-ins-api
+- collection_type: open
+  name: Clerk Backend Account Portal Sign Ups API
+  slug: open-clerk-com-sign-ups-api
+- collection_type: open
+  name: Clerk Backend Account Portal Statements API
+  slug: open-clerk-com-statements-api
+- collection_type: open
+  name: Clerk Backend Account Portal Subscription Items API
+  slug: open-clerk-com-subscription-items-api
+- collection_type: open
+  name: Clerk Backend Account Portal Subscriptions API
+  slug: open-clerk-com-subscriptions-api
+- collection_type: open
+  name: Clerk Backend Account Portal Testing Tokens API
+  slug: open-clerk-com-testing-tokens-api
+- collection_type: open
+  name: Clerk Backend Account Portal TOTP API
+  slug: open-clerk-com-totp-api
+- collection_type: open
+  name: Clerk Backend Account Portal User API
+  slug: open-clerk-com-user-api
+- collection_type: open
+  name: Clerk Backend Account Portal Users API
+  slug: open-clerk-com-users-api
+- collection_type: open
+  name: Clerk Backend Account Portal Waitlist API
+  slug: open-clerk-com-waitlist-api
+- collection_type: open
+  name: Clerk Backend Account Portal Waitlist Entries API
+  slug: open-clerk-com-waitlist-entries-api
+- collection_type: open
+  name: Clerk Backend Account Portal Web3 Wallets API
+  slug: open-clerk-com-web3-wallets-api
+- collection_type: open
+  name: Clerk Backend Account Portal Webhooks API
+  slug: open-clerk-com-webhooks-api
+- collection_type: open
+  name: Clerk Backend Account Portal Well Known API
+  slug: open-clerk-com-well-known-api
 - collection_type: open
   name: Clerk Frontend API
   slug: open-clerk-frontend-api
@@ -990,7 +1221,7 @@ plans:
 - name: Clerk Com Plans Pricing
   plan_count: 4
   slug: clerk-com-plans-pricing
-random_paper: 53
+random_paper: 148
 rate_limits:
 - limit_count: 0
   name: Clerk Com Rate Limits
@@ -1032,7 +1263,7 @@ score:
       marker_coverage: 0.0
       total: 77
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/screenshots/clerk-com-2026-06-20T174512.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Firstbase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Firstbase''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 3
+random_paper: 69
 score:
   band: emerging
   composite: 20.2
@@ -113,7 +113,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 20.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstbase/refs/heads/main/screenshots/firstbase-2026-07-25T214613.png
 security:

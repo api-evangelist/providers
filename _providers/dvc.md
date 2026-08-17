@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: DVC ships as a CLI plus a Python API (`dvc.api`). It tracks data and model files via pointers stored in Git and pushes payloads to remote storage backends (S3, Azure, GCS, SSH, HDFS, HTTP, etc.). Ther
@@ -112,7 +112,7 @@ plans:
 - name: Dvc Plans Pricing
   plan_count: 1
   slug: dvc-plans-pricing
-random_paper: 77
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Dvc Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/screenshots/dvc-2026-06-20T180328.png
 security:

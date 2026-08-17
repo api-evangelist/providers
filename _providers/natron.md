@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ name: Natron Energy
 nav: Providers
 network: true
 overview: Natron Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Storage, Batteries, Sodium-Ion Batteries, Prussian Blue Analog, and PBA Chemistry.
-random_paper: 58
+random_paper: 62
 score:
   band: minimal
   composite: 5.5
@@ -113,7 +113,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

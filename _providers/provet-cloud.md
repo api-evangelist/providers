@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Event subscriptions.
   name: Provet Cloud Webhooks API
   slug: provet-cloud-webhooks-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Provet Cloud REST Appointments API
+  slug: open-provet-cloud-appointments-api
+- collection_type: open
+  name: Provet Cloud REST Appointments Billing API
+  slug: open-provet-cloud-billing-api
+- collection_type: open
+  name: Provet Cloud REST Appointments Clients API
+  slug: open-provet-cloud-clients-api
+- collection_type: open
+  name: Provet Cloud REST Appointments Consultations API
+  slug: open-provet-cloud-consultations-api
+- collection_type: open
+  name: Provet Cloud REST Appointments Patients API
+  slug: open-provet-cloud-patients-api
+- collection_type: open
+  name: Provet Cloud REST Appointments Reference Data API
+  slug: open-provet-cloud-reference-data-api
+- collection_type: open
+  name: Provet Cloud REST Appointments Webhooks API
+  slug: open-provet-cloud-webhooks-api
 - collection_type: open
   name: Provet Cloud REST API
   slug: open-provet-cloud
@@ -130,7 +154,7 @@ plans:
 - name: Provet Cloud Plans Pricing
   plan_count: 3
   slug: provet-cloud-plans-pricing
-random_paper: 52
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Provet Cloud Rate Limits
@@ -166,7 +190,7 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

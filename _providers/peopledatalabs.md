@@ -11,25 +11,26 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: flavored
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 59.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 21
   slug: peopledatalabs-agentic-access
   summary_line: 21 operations · 8 acting
-api_count: 7
+api_count: 10
 apis:
 - description: The Autocomplete API from People Data Labs — 1 operation(s) for autocomplete.
   name: People Data Labs Autocomplete API
@@ -60,11 +61,66 @@ apis:
 - description: The Skill Enrichment API from People Data Labs — 1 operation(s) for skill enrichment.
   name: People Data Labs Skill Enrichment API
   slug: peopledatalabs-skill-enrichment-api
-artifact_total: 16
+- description: 'The Subscription API from People Data Labs — 5 operations for managing webhook subscriptions: create, list, retrieve, update and delete the HTTPS target URL that People Data Labs pushes batched person'
+  name: People Data Labs Subscription API
+  slug: peopledatalabs-subscription-api
+- description: 'The Preview Enrichment API from People Data Labs — 1 operation returning a preview of a person match: a small set of identity fields plus booleans indicating which further fields exist on the record, '
+  name: People Data Labs Preview Enrichment API
+  slug: peopledatalabs-preview-enrichment-api
+- description: The Subject Request API from People Data Labs — 1 operation returning a CSV of PDL Person IDs belonging to data subjects who have opted out of People Data Labs data, so downstream systems can delete t
+  name: People Data Labs Subject Request API
+  slug: peopledatalabs-subject-request-api
+artifact_total: 35
+asyncapis:
+- description: ''
+  name: Peopledatalabs Webhooks
+  slug: peopledatalabs-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: People Data Labs API
   slug: open-people-data-labs
+- collection_type: open
+  name: api.peopledatalabs.com Autocomplete API
+  slug: open-peopledatalabs-autocomplete-api
+- collection_type: open
+  name: api.peopledatalabs.com Autocomplete Cleaner Endpoints API
+  slug: open-peopledatalabs-cleaner-endpoints-api
+- collection_type: open
+  name: People Data Labs Autocomplete Company API
+  slug: open-peopledatalabs-company-api
+- collection_type: open
+  name: api.peopledatalabs.com Autocomplete Company Endpoints API
+  slug: open-peopledatalabs-company-endpoints-api
+- collection_type: open
+  name: People Data Labs Autocomplete IP API
+  slug: open-peopledatalabs-ip-api
+- collection_type: open
+  name: api.peopledatalabs.com Autocomplete IP Enrichment API
+  slug: open-peopledatalabs-ip-enrichment-api
+- collection_type: open
+  name: api.peopledatalabs.com Autocomplete Job Title Enrichment API
+  slug: open-peopledatalabs-job-title-enrichment-api
+- collection_type: open
+  name: People Data Labs Autocomplete Jobs API
+  slug: open-peopledatalabs-jobs-api
+- collection_type: open
+  name: People Data Labs Autocomplete Person API
+  slug: open-peopledatalabs-person-api
+- collection_type: open
+  name: api.peopledatalabs.com Autocomplete Person Endpoints API
+  slug: open-peopledatalabs-person-endpoints-api
+- collection_type: open
+  name: api.peopledatalabs.com Autocomplete Skill Enrichment API
+  slug: open-peopledatalabs-skill-enrichment-api
+- collection_type: open
+  name: api.peopledatalabs.com Subject Request API
+  slug: open-peopledatalabs-subject-request-api
+- collection_type: open
+  name: api.peopledatalabs.com Subscription API
+  slug: open-peopledatalabs-subscription-api
 - collection_type: open
   name: People Data Labs API
   slug: open-peopledatalabs
@@ -120,10 +176,10 @@ common:
 - group: start
   title: ''
   type: Portal
-  url: https://www.peopledatalabs.com/
+  url: https://dashboard.peopledatalabs.com/
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://dashboard.peopledatalabs.com/signup
 - group: start
   title: ''
@@ -144,7 +200,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://docs.peopledatalabs.com/docs/support
+  url: https://support.peopledatalabs.com/hc/en-us
 - group: operate
   title: ''
   type: StatusPage
@@ -153,6 +209,98 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.peopledatalabs.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/peopledatalabs-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/peopledatalabs-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/peopledatalabs-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/peopledatalabs-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/peopledatalabs-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/peopledatalabs-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/peopledatalabs-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/peopledatalabs-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.peopledatalabs.com/security
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/peopledatalabs-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/peopledatalabs-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/peopledatalabs-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/peopledatalabs-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/peopledatalabs-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/peopledatalabs-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/peopledatalabs-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/peopledatalabs-webhooks.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/pdl-official/workspace/people-data-labs-workspace/collection/32867294-ef278c05-d32d-47a1-b147-b819bc96238a
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.peopledatalabs.com/docs/quickstart
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.peopledatalabs.com/docs/endpoints
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.peopledatalabs.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.peopledatalabs.com/links/release-notes
 created: '2026-07-11'
 description: People Data Labs (PDL) is a B2B data enrichment and web intelligence provider offering a REST API over a dataset of nearly three billion person profiles and tens of millions of company records. The api.peopledatalabs.com/v5 API lets developers enrich, identify, and search person and company data, resolve contacts and firmographics, look up companies from a domain or LinkedIn URL, and clean and standardize job titles, skills, schools, companies, and locations. Authentication is a single X-Api-Key header, all endpoints are HTTPS REST, and PDL publishes an official OpenAPI specification.
 finops:
@@ -161,34 +309,41 @@ finops:
   slug: peopledatalabs-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peopledatalabs.png
 layout: provider
-modified: '2026-08-08'
+mcp_servers:
+- description: ''
+  name: peopledatalabs-mcp.yml
+  slug: peopledatalabs-mcpyml
+modified: '2026-08-14'
 name: People Data Labs
 nav: Providers
 network: true
-overview: 'People Data Labs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Cleaner Endpoints API, Company Endpoints API, and 4 more. Tagged areas include Data Enrichment, Web Intelligence, Person Data, Company Data, and B2B Data.
+overview: 'People Data Labs publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Cleaner Endpoints API, Company Endpoints API, and 7 more. Tagged areas include Data Enrichment, Web Intelligence, Person Data, Company Data, and B2B Data.
 
 
-  People Data Labs'' developer surface includes authentication, documentation, engineering blog, developer portal, signup flow, pricing, support, and 14 more developer resources.'
+  The People Data Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  People Data Labs'' developer surface includes authentication, documentation, engineering blog, developer portal, signup flow, pricing, support, and 37 more developer resources.'
 plans:
 - name: Peopledatalabs Plans Pricing
   plan_count: 4
   slug: peopledatalabs-plans-pricing
-random_paper: 33
+random_paper: 132
 rate_limits:
 - limit_count: 7
   name: Peopledatalabs Rate Limits
   slug: peopledatalabs-rate-limits
 score:
-  band: developing
-  composite: 53.3
-  delta: 0.0
+  band: exemplar
+  composite: 72.8
+  delta: 19.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 51.6
-    developer_ergonomics: 34.8
+    commercial_clarity: 100.0
+    contract_quality: 61.0
+    developer_ergonomics: 84.8
     discoverability: 81.5
-    governance: 0.0
-    operational_transparency: 52.6
+    governance: 20.8
+    operational_transparency: 76.3
   previous_composite: 53.3
   provenance:
     agentic_access: derived
@@ -198,14 +353,14 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/screenshots/peopledatalabs-2026-06-20T191552.png
 security:
 - kind: authentication
   name: Peopledatalabs Authentication
   slug: peopledatalabs-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Peopledatalabs Domain Security
   slug: peopledatalabs-domain-security

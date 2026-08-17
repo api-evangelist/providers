@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: Survey metadata and catalog operations for discovering available BLS surveys and their series identifiers.
   name: U.S. Bureau of Labor Statistics Surveys API
   slug: u-s-bureau-of-labor-statistics-surveys-api
-artifact_total: 65
+artifact_total: 68
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BLS Public Data Series API
+  slug: open-u-s-bureau-of-labor-statistics-series-api
+- collection_type: open
+  name: BLS Public Data Series Surveys API
+  slug: open-u-s-bureau-of-labor-statistics-surveys-api
 common:
 - group: agent
   title: ''
@@ -261,7 +271,7 @@ plans:
 - name: U S Bureau Of Labor Statistics Plans Pricing
   plan_count: 3
   slug: u-s-bureau-of-labor-statistics-plans-pricing
-random_paper: 61
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: U S Bureau Of Labor Statistics Rate Limits
@@ -309,7 +319,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/screenshots/u-s-bureau-of-labor-statistics-2026-06-20T195913.png
 security:

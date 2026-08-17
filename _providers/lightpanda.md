@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Lightpanda's primary programmable interface. The browser runs as a CDP server (`lightpanda serve`) and exposes the Chrome DevTools Protocol over a WebSocket endpoint (default `ws://127.0.0.1:9222`). C
@@ -40,12 +40,15 @@ apis:
 - description: The open-source command-line binary (AGPL-3.0, written in Zig). `lightpanda serve` starts the CDP-over-WebSocket server; `lightpanda fetch` retrieves and dumps a URL as HTML or markdown; `lightpanda a
   name: Lightpanda CLI / Binary
   slug: lightpanda-cli-binary
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: AsyncAPI 2.6 description of Lightpanda's programmable interface. Lightpanda is a headless browser; it does **not** expose a REST API. Its interface is the **Chrome DevTools Protocol (CDP)**, a bidirec
   name: Lightpanda CDP over WebSocket
   slug: lightpanda-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Lightpanda
   slug: open-lightpanda
@@ -109,7 +112,7 @@ plans:
 - name: Lightpanda Plans Pricing
   plan_count: 2
   slug: lightpanda-plans-pricing
-random_paper: 92
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Lightpanda Rate Limits
@@ -136,7 +139,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 37.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/screenshots/lightpanda-2026-06-20T184520.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Operations on the entity definition entity set. Provides metadata about Dataverse tables (entities) including their logical names, collection names, and structural information. Read-only access via Re
   name: Microsoft Power Apps Entities API
   slug: microsoft-power-apps-entities-api
-artifact_total: 69
+artifact_total: 73
 collections:
 - collection_type: postman
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts API
@@ -87,8 +87,20 @@ collections:
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts Entities API
   slug: postman-microsoft-power-apps-entities-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Power Apps Microsoft Dataverse Web Accounts API
+  slug: open-microsoft-power-apps-accounts-api
+- collection_type: open
+  name: Microsoft Power Apps Microsoft Dataverse Web Accounts Contacts API
+  slug: open-microsoft-power-apps-contacts-api
+- collection_type: open
   name: Microsoft Power Apps Microsoft Dataverse Web API
   slug: open-microsoft-power-apps-dataverse-web-api
+- collection_type: open
+  name: Microsoft Power Apps Microsoft Dataverse Web Accounts Entities API
+  slug: open-microsoft-power-apps-entities-api
 common:
 - group: build
   title: ''
@@ -330,7 +342,7 @@ plans:
 - name: Microsoft Power Apps Plans Pricing
   plan_count: 6
   slug: microsoft-power-apps-plans-pricing
-random_paper: 25
+random_paper: 128
 rate_limits:
 - limit_count: 9
   name: Microsoft Power Apps Rate Limits
@@ -383,7 +395,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/screenshots/microsoft-power-apps-2026-06-20T185522.png
 security:

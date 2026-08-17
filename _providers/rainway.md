@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: Access active Rainway peers connected to the Rainway Network.
   name: Rainway Peers API
   slug: rainway-peers-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rainway Hub Peers API
+  slug: open-rainway-peers-api
 common:
 - group: company
   title: ''
@@ -147,7 +154,7 @@ overview: 'Rainway publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Rainway''s developer surface includes documentation, getting-started guide, API reference, signup flow, authentication, and 17 more developer resources.'
-random_paper: 43
+random_paper: 18
 score:
   band: thin
   composite: 29.4
@@ -171,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Configure recurring scan profiles.
   name: BigID Scan Profiles API
   slug: bigid-scan-profiles-api
-artifact_total: 80
+artifact_total: 87
 collections:
 - collection_type: postman
   name: BigID Authentication Actionable Insights API
@@ -102,11 +102,26 @@ collections:
   name: BigID Authentication Actionable Insights Scans API
   slug: postman-bigid-scans-api
 - collection_type: open
-  name: BigID Authentication API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BigID Authentication Actionable Insights API
+  slug: open-bigid-actionable-insights-api
+- collection_type: open
+  name: BigID Actionable Insights Authentication API
   slug: open-bigid-authentication-api
+- collection_type: open
+  name: BigID Authentication Actionable Insights Catalog API
+  slug: open-bigid-catalog-api
 - collection_type: open
   name: BigID Cluster Analysis API
   slug: open-bigid-cluster-analysis-api
+- collection_type: open
+  name: BigID Authentication Actionable Insights Clusters API
+  slug: open-bigid-clusters-api
+- collection_type: open
+  name: BigID Authentication Actionable Insights Connector Templates API
+  slug: open-bigid-connector-templates-api
 - collection_type: open
   name: BigID Data Catalog API
   slug: open-bigid-data-catalog-api
@@ -114,13 +129,19 @@ collections:
   name: BigID Data Posture API
   slug: open-bigid-data-posture-api
 - collection_type: open
-  name: BigID Data Sources API
+  name: BigID Authentication Actionable Insights Data Sources API
   slug: open-bigid-data-sources-api
 - collection_type: open
-  name: BigID DSAR API
+  name: BigID Authentication Actionable Insights DSAR API
   slug: open-bigid-dsar-api
 - collection_type: open
-  name: BigID Scans API
+  name: BigID Authentication Actionable Insights Metadata Export API
+  slug: open-bigid-metadata-export-api
+- collection_type: open
+  name: BigID Authentication Actionable Insights Scan Profiles API
+  slug: open-bigid-scan-profiles-api
+- collection_type: open
+  name: BigID Authentication Actionable Insights Scans API
   slug: open-bigid-scans-api
 common:
 - group: build
@@ -364,7 +385,7 @@ plans:
 - name: Bigid Plans Pricing
   plan_count: 4
   slug: bigid-plans-pricing
-random_paper: 31
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Bigid Rate Limits
@@ -406,7 +427,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/screenshots/bigid-2026-06-20T173239.png
 security:

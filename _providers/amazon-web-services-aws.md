@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,11 +63,17 @@ apis:
 - description: The Amazon EC2 API API from Amazon Web Services (AWS) — 1 operation(s) for amazon ec2 api.
   name: Amazon Web Services (AWS) Amazon EC2 API API
   slug: amazon-web-services-aws-amazon-ec2-api-api
-artifact_total: 25
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Amazon EC2 Amazon EC2 API API
   slug: postman-amazon-web-services-aws-amazon-ec2-api-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EC2 Amazon EC2 API API
+  slug: open-amazon-web-services-aws-amazon-ec2-api-api
 - collection_type: open
   name: Amazon EC2 API
   slug: open-amazon-web-services-aws
@@ -241,7 +247,7 @@ plans:
 - name: Amazon Web Services Aws Plans Pricing
   plan_count: 3
   slug: amazon-web-services-aws-plans-pricing
-random_paper: 18
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Amazon Web Services Aws Rate Limits
@@ -275,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/screenshots/amazon-web-services-aws-2026-06-20T171847.png
 security:

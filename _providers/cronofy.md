@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Calendar invites tracked without calendar authorization.
   name: Cronofy Smart Invites API
   slug: cronofy-smart-invites-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cronofy Availability API
+  slug: open-cronofy-availability-api
+- collection_type: open
+  name: Cronofy Availability Calendars API
+  slug: open-cronofy-calendars-api
+- collection_type: open
+  name: Cronofy Availability Events API
+  slug: open-cronofy-events-api
+- collection_type: open
+  name: Cronofy Availability Push Notifications API
+  slug: open-cronofy-push-notifications-api
+- collection_type: open
+  name: Cronofy Availability Smart Invites API
+  slug: open-cronofy-smart-invites-api
 - collection_type: open
   name: Cronofy API
   slug: open-cronofy
@@ -124,7 +142,7 @@ plans:
 - name: Cronofy Plans Pricing
   plan_count: 4
   slug: cronofy-plans-pricing
-random_paper: 48
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Cronofy Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/screenshots/cronofy-2026-07-25T210745.png
 security:

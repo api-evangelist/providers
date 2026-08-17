@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Create, retrieve, update, and delete shipment trackings
   name: TrackingMore Trackings API
   slug: trackingmore-trackings-api
-artifact_total: 38
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TrackingMore Air Waybills API
+  slug: open-trackingmore-air-waybills-api
+- collection_type: open
+  name: TrackingMore Air Waybills Couriers API
+  slug: open-trackingmore-couriers-api
+- collection_type: open
+  name: TrackingMore Air Waybills Trackings API
+  slug: open-trackingmore-trackings-api
 common:
 - group: agent
   title: ''
@@ -184,7 +197,7 @@ plans:
 - name: Trackingmore Plans
   plan_count: 4
   slug: trackingmore-plans
-random_paper: 86
+random_paper: 94
 rate_limits:
 - limit_count: 0
   name: Trackingmore Rate Limits
@@ -218,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/screenshots/trackingmore-2026-06-20T195521.png
 security:

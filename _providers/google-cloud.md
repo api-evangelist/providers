@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -42,8 +42,14 @@ apis:
 - description: The Projects API from Google Cloud Platform — 8 operation(s) for projects.
   name: Google Cloud Platform Projects API
   slug: google-cloud-projects-api
-artifact_total: 50
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Compute Engine Projects API
+  slug: open-google-cloud-projects-api
 - collection_type: open
   name: Google Compute Engine API
   slug: open-google-cloud
@@ -207,7 +213,7 @@ plans:
 - name: Google Cloud Plans Pricing
   plan_count: 3
   slug: google-cloud-plans-pricing
-random_paper: 17
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Google Cloud Rate Limits
@@ -237,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud/refs/heads/main/screenshots/google-cloud-2026-06-20T182037.png
 security:

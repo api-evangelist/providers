@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Server-to-server event notifications over HTTP POST.
   name: Moyasar Webhooks API
   slug: moyasar-webhooks-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Moyasar Invoices API
+  slug: open-moyasar-invoices-api
+- collection_type: open
+  name: Moyasar Invoices Payments API
+  slug: open-moyasar-payments-api
+- collection_type: open
+  name: Moyasar Invoices Payouts API
+  slug: open-moyasar-payouts-api
+- collection_type: open
+  name: Moyasar Invoices Tokens API
+  slug: open-moyasar-tokens-api
+- collection_type: open
+  name: Moyasar Invoices Webhooks API
+  slug: open-moyasar-webhooks-api
 - collection_type: open
   name: Moyasar API
   slug: open-moyasar
@@ -120,7 +138,7 @@ plans:
 - name: Moyasar Plans Pricing
   plan_count: 2
   slug: moyasar-plans-pricing
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Moyasar Rate Limits
@@ -151,7 +169,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/screenshots/moyasar-2026-08-07T184409.png
 security:

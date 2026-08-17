@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -74,7 +74,47 @@ apis:
 - description: The Workspaces API from Lightup — 2 operation(s) for workspaces.
   name: Lightup Workspaces API
   slug: lightup-workspaces-api
-artifact_total: 18
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lightup Dashboard API Credentials API
+  slug: open-lightup-api-credentials-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Catalogs API
+  slug: open-lightup-catalogs-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Dashboard chart API
+  slug: open-lightup-dashboard-chart-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Datapoints API
+  slug: open-lightup-datapoints-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Datasources API
+  slug: open-lightup-datasources-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Health check API
+  slug: open-lightup-health-check-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Incidents API
+  slug: open-lightup-incidents-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Integrations API
+  slug: open-lightup-integrations-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Metrics API
+  slug: open-lightup-metrics-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Monitors API
+  slug: open-lightup-monitors-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Users API
+  slug: open-lightup-users-api
+- collection_type: open
+  name: Lightup Dashboard API Credentials Workspaces API
+  slug: open-lightup-workspaces-api
 common:
 - group: other
   title: ''
@@ -221,7 +261,7 @@ overview: 'Lightup publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lightup''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 45
+random_paper: 20
 score:
   band: developing
   composite: 54.4
@@ -245,7 +285,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/screenshots/lightup-2026-07-25T225143.png
 security:

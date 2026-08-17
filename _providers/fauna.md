@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,18 +66,30 @@ apis:
 - description: Fetch, update, validate, and manage a database's schema as FSL files. Supports staged schema changes with status checking, committing, and abandoning.
   name: fauna Schema API
   slug: fauna-schema-api
-artifact_total: 44
+artifact_total: 48
 asyncapis:
 - description: The Fauna Event Streaming API enables real-time change data capture by maintaining an open connection to the Fauna database and pushing events to clients as they occur. Developers can subscribe to doc
   name: Fauna Event Streaming
   slug: fauna-event-streaming-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Fauna Core HTTP API
   slug: open-fauna-core-http-api
 - collection_type: open
-  name: Fauna GraphQL API
+  name: Fauna Core HTTP EventFeeds API
+  slug: open-fauna-eventfeeds-api
+- collection_type: open
+  name: Fauna Core HTTP EventFeeds GraphQL API
   slug: open-fauna-graphql-api
+- collection_type: open
+  name: Fauna Core HTTP EventFeeds Query API
+  slug: open-fauna-query-api
+- collection_type: open
+  name: Fauna Core HTTP EventFeeds Schema API
+  slug: open-fauna-schema-api
 common:
 - group: agent
   title: ''
@@ -210,7 +222,7 @@ plans:
 - name: Fauna Plans Pricing
   plan_count: 4
   slug: fauna-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Fauna Rate Limits
@@ -252,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/screenshots/fauna-2026-06-20T181057.png
 security:

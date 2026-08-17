@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -51,6 +51,22 @@ common:
   title: ''
   type: Company
   url: https://www.salsify.com/
+coverage:
+  checked: '2026-08-17'
+  detail: Alkemics was fully absorbed by Salsify in October 2020 — alkemics.com and docs.alkemics.com now answer only HTTP 301 to salsify.com and docs.supplierxm.salsify.com, and api.alkemics.com returns NXDOMAIN, so there is no Alkemics-owned host left to serve a contract.
+  evidence:
+  - status: 301
+    url: https://www.alkemics.com/
+  - status: 301
+    url: https://docs.alkemics.com/openapi.json
+  - status: 0
+    url: https://api.alkemics.com/
+  - status: 301
+    url: https://www.alkemics.com/.well-known/agent-card.json
+  - status: 200
+    url: https://github.com/alkemics
+  reason: defunct
+  state: none
 created: '2026-07-17'
 description: Alkemics was a French SaaS company founded in 2011 in Paris that operated a collaborative commerce platform connecting consumer packaged goods (CPG) brands and retailers to share, enrich, and distribute product content and data across the FMCG/grocery supply chain. Backed by investors including Partech, Cathay Innovation, and Serena, Alkemics was acquired by Salsify (a US product experience management company) in October 2020. The product now lives on as "SupplierXM by Salsify"; alkemics.com and docs.alkemics.com redirect to Salsify, and the successor developer documentation is hosted at docs.supplierxm.salsify.com. This company profile is preserved in the API Evangelist network with an honest acquisition/successor record. No independent Alkemics-owned API surface remains.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alkemics.png
@@ -63,7 +79,7 @@ overview: 'Alkemics is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Alkemics'' developer surface includes documentation and 4 more developer resources.'
-random_paper: 1
+random_paper: 96
 score:
   band: minimal
   composite: 6.7
@@ -77,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkemics/refs/heads/main/screenshots/alkemics-2026-07-25T195632.png
 security:

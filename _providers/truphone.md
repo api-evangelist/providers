@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: SIM / eSIM listing, retrieval, update, and lifecycle status changes.
   name: Truphone (1GLOBAL) SIMs API
   slug: truphone-sims-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Truphone (1GLOBAL) IoT Portal Connectivity API
+  slug: open-truphone-connectivity-api
+- collection_type: open
+  name: Truphone (1GLOBAL) IoT Portal Connectivity Devices API
+  slug: open-truphone-devices-api
+- collection_type: open
+  name: Truphone (1GLOBAL) IoT Portal Connectivity Organization API
+  slug: open-truphone-organization-api
+- collection_type: open
+  name: Truphone (1GLOBAL) IoT Portal Connectivity Plans API
+  slug: open-truphone-plans-api
+- collection_type: open
+  name: Truphone (1GLOBAL) IoT Portal Connectivity SIMs API
+  slug: open-truphone-sims-api
 - collection_type: open
   name: Truphone (1GLOBAL) IoT Portal API
   slug: open-truphone
@@ -120,7 +138,7 @@ plans:
 - name: Truphone Plans Pricing
   plan_count: 4
   slug: truphone-plans-pricing
-random_paper: 45
+random_paper: 140
 rate_limits:
 - limit_count: 2
   name: Truphone Rate Limits
@@ -151,7 +169,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

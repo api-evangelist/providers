@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The schema API from Aito Technologies — 5 operation(s) for schema.
   name: Aito Technologies schema API
   slug: aito-technologies-schema-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aito Technologies data API
+  slug: open-aito-technologies-data-api
+- collection_type: open
+  name: Aito Technologies data query API
+  slug: open-aito-technologies-query-api
+- collection_type: open
+  name: Aito Technologies data schema API
+  slug: open-aito-technologies-schema-api
 common:
 - group: auth
   title: ''
@@ -193,7 +206,7 @@ overview: 'Aito Technologies publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Aito Technologies'' developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 25 more developer resources.'
-random_paper: 78
+random_paper: 119
 score:
   band: developing
   composite: 53.7
@@ -217,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/screenshots/aito-technologies-2026-07-25T195452.png
 security:

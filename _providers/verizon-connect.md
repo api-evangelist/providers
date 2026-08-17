@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: Exchanges Base64-encoded Reveal REST credentials for a short-lived bearer authorization token (valid ~20 minutes) via GET /token. Subsequent API calls send an Atmosphere authorization header combining
@@ -135,7 +135,7 @@ plans:
 - name: Verizon Connect Plans Pricing
   plan_count: 3
   slug: verizon-connect-plans-pricing
-random_paper: 12
+random_paper: 82
 rate_limits:
 - limit_count: 0
   name: Verizon Connect Rate Limits
@@ -153,7 +153,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

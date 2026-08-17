@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -126,11 +126,89 @@ apis:
 - description: The Wallets API from Moralis — 13 operation(s) for wallets.
   name: Moralis Wallets API
   slug: moralis-wallets-api
-artifact_total: 37
+artifact_total: 63
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EVM Balance API
+  slug: open-moralis-balance-api
+- collection_type: open
+  name: EVM Balance Block API
+  slug: open-moralis-block-api
+- collection_type: open
+  name: EVM Balance Categories API
+  slug: open-moralis-categories-api
+- collection_type: open
+  name: EVM Balance DeFi API
+  slug: open-moralis-defi-api
+- collection_type: open
+  name: EVM Balance Discovery API
+  slug: open-moralis-discovery-api
+- collection_type: open
+  name: EVM Balance Entities API
+  slug: open-moralis-entities-api
 - collection_type: open
   name: EVM API
   slug: open-moralis-evm-api
+- collection_type: open
+  name: EVM Balance Get Balance API
+  slug: open-moralis-get-balance-api
+- collection_type: open
+  name: EVM Balance Get Collections API
+  slug: open-moralis-get-collections-api
+- collection_type: open
+  name: EVM Balance Get Floor Price API
+  slug: open-moralis-get-floor-price-api
+- collection_type: open
+  name: EVM Balance Get Market Data API
+  slug: open-moralis-get-market-data-api
+- collection_type: open
+  name: EVM Balance Get Metadata API
+  slug: open-moralis-get-metadata-api
+- collection_type: open
+  name: EVM Balance Get Mutiple NFTs API
+  slug: open-moralis-get-mutiple-nfts-api
+- collection_type: open
+  name: EVM Balance Get NFTs API
+  slug: open-moralis-get-nfts-api
+- collection_type: open
+  name: EVM Balance Get Owners API
+  slug: open-moralis-get-owners-api
+- collection_type: open
+  name: EVM Balance Get Ownership API
+  slug: open-moralis-get-ownership-api
+- collection_type: open
+  name: EVM Balance Get Transactions API
+  slug: open-moralis-get-transactions-api
+- collection_type: open
+  name: EVM Balance Get Transfers API
+  slug: open-moralis-get-transfers-api
+- collection_type: open
+  name: EVM Balance Get Unique Owners API
+  slug: open-moralis-get-unique-owners-api
+- collection_type: open
+  name: EVM Balance Market Data API
+  slug: open-moralis-market-data-api
+- collection_type: open
+  name: EVM Balance NFT API
+  slug: open-moralis-nft-api
+- collection_type: open
+  name: EVM Balance Resolve Web3 Domain API
+  slug: open-moralis-resolve-web3-domain-api
+- collection_type: open
+  name: EVM Balance Token API
+  slug: open-moralis-token-api
+- collection_type: open
+  name: EVM Balance Transaction API
+  slug: open-moralis-transaction-api
+- collection_type: open
+  name: EVM Balance Utils API
+  slug: open-moralis-utils-api
+- collection_type: open
+  name: EVM Balance Wallets API
+  slug: open-moralis-wallets-api
 common:
 - group: agent
   title: ''
@@ -200,7 +278,7 @@ plans:
 - name: Moralis Plans Pricing
   plan_count: 5
   slug: moralis-plans-pricing
-random_paper: 39
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Moralis Rate Limits
@@ -225,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/screenshots/moralis-2026-06-20T185806.png
 security:

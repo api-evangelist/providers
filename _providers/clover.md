@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -81,14 +81,44 @@ apis:
 - description: The TOKENS API from Clover — 1 operation(s) for tokens.
   name: Clover TOKENS API
   slug: clover-tokens-api
-artifact_total: 51
+artifact_total: 61
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clover Ecommerce CHARGES API
+  slug: open-clover-charges-api
+- collection_type: open
+  name: Clover Ecommerce CHARGES CHECKOUT API
+  slug: open-clover-checkout-api
+- collection_type: open
+  name: Clover Ecommerce CHARGES CUSTOMERS API
+  slug: open-clover-customers-api
 - collection_type: open
   name: Clover Ecommerce API
   slug: open-clover-ecommerce-api
 - collection_type: open
+  name: Clover Ecommerce CHARGES EMPLOYEES API
+  slug: open-clover-employees-api
+- collection_type: open
+  name: Clover Ecommerce CHARGES INVENTORY API
+  slug: open-clover-inventory-api
+- collection_type: open
+  name: Clover Ecommerce CHARGES ORDERS API
+  slug: open-clover-orders-api
+- collection_type: open
+  name: Clover Ecommerce CHARGES PAYMENTS API
+  slug: open-clover-payments-api
+- collection_type: open
   name: Clover Platform REST API
   slug: open-clover-platform-rest-api
+- collection_type: open
+  name: Clover Ecommerce CHARGES REFUNDS API
+  slug: open-clover-refunds-api
+- collection_type: open
+  name: Clover Ecommerce CHARGES TOKENS API
+  slug: open-clover-tokens-api
 common:
 - group: operate
   title: ''
@@ -309,7 +339,7 @@ plans:
 - name: Clover Plans Pricing
   plan_count: 2
   slug: clover-plans-pricing
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 4
   name: Clover Rate Limits
@@ -362,7 +392,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png
 security:

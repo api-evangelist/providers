@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Slate is an open-source static site generator for creating beautiful, three-panel API documentation from Markdown files. Originally created by Robert Lord in 2013 at TripIt and later maintained by the
@@ -152,7 +152,7 @@ plans:
 - name: Slate Plans Pricing
   plan_count: 3
   slug: slate-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Slate Rate Limits
@@ -179,7 +179,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slate/refs/heads/main/screenshots/slate-2026-06-20T194025.png
 slug: slate

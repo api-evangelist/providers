@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -72,8 +72,44 @@ apis:
 - description: Webhook endpoint management and deliveries.
   name: Polar webhooks API
   slug: polar-sh-webhooks-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Polar benefits API
+  slug: open-polar-sh-benefits-api
+- collection_type: open
+  name: Polar benefits checkouts API
+  slug: open-polar-sh-checkouts-api
+- collection_type: open
+  name: Polar benefits customer_portal API
+  slug: open-polar-sh-customer-portal-api
+- collection_type: open
+  name: Polar benefits customers API
+  slug: open-polar-sh-customers-api
+- collection_type: open
+  name: Polar benefits events API
+  slug: open-polar-sh-events-api
+- collection_type: open
+  name: Polar benefits license_keys API
+  slug: open-polar-sh-license-keys-api
+- collection_type: open
+  name: Polar benefits meters API
+  slug: open-polar-sh-meters-api
+- collection_type: open
+  name: Polar benefits orders API
+  slug: open-polar-sh-orders-api
+- collection_type: open
+  name: Polar benefits products API
+  slug: open-polar-sh-products-api
+- collection_type: open
+  name: Polar benefits subscriptions API
+  slug: open-polar-sh-subscriptions-api
+- collection_type: open
+  name: Polar benefits webhooks API
+  slug: open-polar-sh-webhooks-api
 - collection_type: open
   name: Polar API
   slug: open-polar-sh
@@ -142,7 +178,7 @@ plans:
 - name: Polar Sh Plans Pricing
   plan_count: 6
   slug: polar-sh-plans-pricing
-random_paper: 86
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Polar Sh Rate Limits
@@ -173,7 +209,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

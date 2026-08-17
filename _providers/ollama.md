@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -81,14 +81,50 @@ apis:
 - description: Retrieve the Ollama server version.
   name: Ollama Version API
   slug: ollama-version-api
-artifact_total: 22
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Ollama API
   slug: open-ollama-api
 - collection_type: open
+  name: Ollama Blobs API
+  slug: open-ollama-blobs-api
+- collection_type: open
+  name: Ollama Blobs Chat API
+  slug: open-ollama-chat-api
+- collection_type: open
+  name: Ollama Blobs Chat Completions API
+  slug: open-ollama-chat-completions-api
+- collection_type: open
+  name: Ollama Blobs Completions API
+  slug: open-ollama-completions-api
+- collection_type: open
+  name: Ollama Blobs Embeddings API
+  slug: open-ollama-embeddings-api
+- collection_type: open
+  name: Ollama Blobs Generate API
+  slug: open-ollama-generate-api
+- collection_type: open
+  name: Ollama Blobs Images API
+  slug: open-ollama-images-api
+- collection_type: open
+  name: Ollama Blobs Models API
+  slug: open-ollama-models-api
+- collection_type: open
   name: Ollama OpenAI Compatibility API
   slug: open-ollama-openai-compatibility-api
+- collection_type: open
+  name: Ollama Blobs Responses API
+  slug: open-ollama-responses-api
+- collection_type: open
+  name: Ollama Blobs Running Models API
+  slug: open-ollama-running-models-api
+- collection_type: open
+  name: Ollama Blobs Version API
+  slug: open-ollama-version-api
 common:
 - group: agent
   title: ''
@@ -322,7 +358,7 @@ plans:
 - name: Ollama Plans Pricing
   plan_count: 4
   slug: ollama-plans-pricing
-random_paper: 30
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Ollama Rate Limits
@@ -347,7 +383,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/screenshots/ollama-2026-06-20T190657.png
 security:

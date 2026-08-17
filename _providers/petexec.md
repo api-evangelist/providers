@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -81,8 +81,53 @@ apis:
 - description: Pet vaccination (shot) records.
   name: PetExec Vaccinations API
   slug: petexec-vaccinations-api
-artifact_total: 21
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PetExec Authentication API
+  slug: open-petexec-authentication-api
+- collection_type: open
+  name: PetExec Authentication Boarding API
+  slug: open-petexec-boarding-api
+- collection_type: open
+  name: PetExec Authentication Calendar API
+  slug: open-petexec-calendar-api
+- collection_type: open
+  name: PetExec Authentication Company API
+  slug: open-petexec-company-api
+- collection_type: open
+  name: PetExec Authentication Credit Cards API
+  slug: open-petexec-credit-cards-api
+- collection_type: open
+  name: PetExec Authentication Daycare API
+  slug: open-petexec-daycare-api
+- collection_type: open
+  name: PetExec Authentication Grooming API
+  slug: open-petexec-grooming-api
+- collection_type: open
+  name: PetExec Authentication Owners API
+  slug: open-petexec-owners-api
+- collection_type: open
+  name: PetExec Authentication Pets API
+  slug: open-petexec-pets-api
+- collection_type: open
+  name: PetExec Authentication Profile API
+  slug: open-petexec-profile-api
+- collection_type: open
+  name: PetExec Authentication Purchase History API
+  slug: open-petexec-purchase-history-api
+- collection_type: open
+  name: PetExec Authentication Reports API
+  slug: open-petexec-reports-api
+- collection_type: open
+  name: PetExec Authentication Scheduled Services API
+  slug: open-petexec-scheduled-services-api
+- collection_type: open
+  name: PetExec Authentication Vaccinations API
+  slug: open-petexec-vaccinations-api
 - collection_type: open
   name: PetExec API
   slug: open-petexec
@@ -143,7 +188,7 @@ plans:
 - name: Petexec Plans Pricing
   plan_count: 3
   slug: petexec-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Petexec Rate Limits
@@ -168,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

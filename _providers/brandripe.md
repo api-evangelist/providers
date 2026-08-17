@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -71,34 +71,60 @@ common:
   title: ''
   type: DomainSecurity
   url: security/brandripe-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/brandripe-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/brandripe-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Brandripe delivers flat-rate design subscriptions through its own customer web app at brandripe.com; its 18-URL sitemap contains no developer, docs or API page, the Crisp help center has no API or integration article, and every spec and /.well-known/ path probed on brandripe.com and help.brandripe.com returned 404.
+  evidence:
+  - status: 200
+    url: https://brandripe.com/sitemap.xml
+  - status: 404
+    url: https://brandripe.com/openapi.json
+  - status: 404
+    url: https://brandripe.com/.well-known/agent-card.json
+  - status: 404
+    url: https://help.brandripe.com/openapi.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Brandripe is a subscription-based, flat-rate creative services company providing on-demand unlimited graphic design and unlimited revisions for a fixed monthly fee, positioned as an extension of a customer's team as an alternative to hiring in-house designers or engaging traditional agencies. Its dedicated creative teams cover motion design, digital ads, social media graphics, illustrations, print design, packaging, branding, email design, web design, and presentations, with rapid (typically next business day) turnarounds. The service targets SMEs, start-ups, agencies, and larger enterprises, and is delivered entirely through its web platform rather than a public developer API. Brandripe was added to the API Evangelist network as a portfolio company of 500 Global.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brandripe.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Brandripe
 nav: Providers
 network: true
 overview: 'Brandripe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Graphic Design, Creative Services, Design Subscription, and Branding.
 
 
-  Brandripe''s developer surface includes getting-started guide, pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 111
+  Brandripe''s developer surface includes getting-started guide, pricing, engineering blog, support, signup flow, and 7 more developer resources.'
+plans:
+- name: Brandripe Plans Pricing
+  plan_count: 4
+  slug: brandripe-plans-pricing
+random_paper: 57
 score:
   band: emerging
-  composite: 17.4
-  delta: 0.0
+  composite: 24.5
+  delta: 7.1
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandripe/refs/heads/main/screenshots/brandripe-2026-07-25T203731.png
 security:
 - kind: domain-security

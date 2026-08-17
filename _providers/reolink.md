@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -72,11 +72,47 @@ apis:
 - description: Image quality, OSD, ISP settings, privacy masks, and snapshot capture
   name: Reolink Video API
   slug: reolink-video-api
-artifact_total: 32
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reolink Camera HTTP AI API
+  slug: open-reolink-ai-api
+- collection_type: open
+  name: Reolink Camera HTTP AI Alarm API
+  slug: open-reolink-alarm-api
+- collection_type: open
+  name: Reolink Camera HTTP AI Authentication API
+  slug: open-reolink-authentication-api
 - collection_type: open
   name: Reolink Camera HTTP API
   slug: open-reolink-camera-api
+- collection_type: open
+  name: Reolink Camera HTTP AI Encoding API
+  slug: open-reolink-encoding-api
+- collection_type: open
+  name: Reolink Camera HTTP AI LED API
+  slug: open-reolink-led-api
+- collection_type: open
+  name: Reolink Camera HTTP AI Network API
+  slug: open-reolink-network-api
+- collection_type: open
+  name: Reolink Camera HTTP AI PTZ API
+  slug: open-reolink-ptz-api
+- collection_type: open
+  name: Reolink Camera HTTP AI Recording API
+  slug: open-reolink-recording-api
+- collection_type: open
+  name: Reolink Camera HTTP AI Security API
+  slug: open-reolink-security-api
+- collection_type: open
+  name: Reolink Camera HTTP AI System API
+  slug: open-reolink-system-api
+- collection_type: open
+  name: Reolink Camera HTTP AI Video API
+  slug: open-reolink-video-api
 common:
 - group: agent
   title: ''
@@ -178,7 +214,7 @@ plans:
 - name: Reolink Plans Pricing
   plan_count: 3
   slug: reolink-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Reolink Rate Limits
@@ -220,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/screenshots/reolink-2026-06-20T192902.png
 security:

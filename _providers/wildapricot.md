@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ apis:
 - description: The Pictures API from WildApricot — 2 operation(s) for pictures.
   name: WildApricot Pictures API
   slug: wildapricot-pictures-api
-artifact_total: 122
+artifact_total: 152
 collections:
 - collection_type: postman
   name: WildApricot Admin Accounts API
@@ -216,8 +216,98 @@ collections:
   name: WildApricot Admin Accounts Pictures API
   slug: postman-wildapricot-pictures-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WildApricot Admin Accounts API
+  slug: open-wildapricot-accounts-api
+- collection_type: open
   name: WildApricot Admin API
   slug: open-wildapricot-admin-api
+- collection_type: open
+  name: WildApricot Admin Accounts Attachments API
+  slug: open-wildapricot-attachments-api
+- collection_type: open
+  name: WildApricot Admin Accounts Contacts API
+  slug: open-wildapricot-contacts-api
+- collection_type: open
+  name: WildApricot Admin Accounts Contacts.CustomFields API
+  slug: open-wildapricot-contacts-customfields-api
+- collection_type: open
+  name: WildApricot Admin Accounts Contacts.SavedSearch API
+  slug: open-wildapricot-contacts-savedsearch-api
+- collection_type: open
+  name: WildApricot Admin Accounts Donation.CustomFields API
+  slug: open-wildapricot-donation-customfields-api
+- collection_type: open
+  name: WildApricot Admin Accounts Emailing.Drafts API
+  slug: open-wildapricot-emailing-drafts-api
+- collection_type: open
+  name: WildApricot Admin Accounts Emailing.Operations API
+  slug: open-wildapricot-emailing-operations-api
+- collection_type: open
+  name: WildApricot Admin Accounts Emailing.SentEmailRecipients API
+  slug: open-wildapricot-emailing-sentemailrecipients-api
+- collection_type: open
+  name: WildApricot Admin Accounts Emailing.SentEmails API
+  slug: open-wildapricot-emailing-sentemails-api
+- collection_type: open
+  name: WildApricot Admin Accounts Events API
+  slug: open-wildapricot-events-api
+- collection_type: open
+  name: WildApricot Admin Accounts Events.EventRegistrations API
+  slug: open-wildapricot-events-eventregistrations-api
+- collection_type: open
+  name: WildApricot Admin Accounts Events.EventRegistrationTypes API
+  slug: open-wildapricot-events-eventregistrationtypes-api
+- collection_type: open
+  name: WildApricot Admin Accounts Finances.AuditLog API
+  slug: open-wildapricot-finances-auditlog-api
+- collection_type: open
+  name: WildApricot Admin Accounts Finances.Donations API
+  slug: open-wildapricot-finances-donations-api
+- collection_type: open
+  name: WildApricot Admin Accounts Finances.Invoices API
+  slug: open-wildapricot-finances-invoices-api
+- collection_type: open
+  name: WildApricot Admin Accounts Finances.PaymentAllocations API
+  slug: open-wildapricot-finances-paymentallocations-api
+- collection_type: open
+  name: WildApricot Admin Accounts Finances.Payments API
+  slug: open-wildapricot-finances-payments-api
+- collection_type: open
+  name: WildApricot Admin Accounts Finances.Refunds API
+  slug: open-wildapricot-finances-refunds-api
+- collection_type: open
+  name: WildApricot Admin Accounts Finances.Tenders API
+  slug: open-wildapricot-finances-tenders-api
+- collection_type: open
+  name: WildApricot Admin Accounts Internal.Features API
+  slug: open-wildapricot-internal-features-api
+- collection_type: open
+  name: WildApricot Admin Accounts Membership.Bundles API
+  slug: open-wildapricot-membership-bundles-api
+- collection_type: open
+  name: WildApricot Admin Accounts Membership.Groups API
+  slug: open-wildapricot-membership-groups-api
+- collection_type: open
+  name: WildApricot Admin Accounts Membership.Levels API
+  slug: open-wildapricot-membership-levels-api
+- collection_type: open
+  name: WildApricot Admin Accounts Membership.Operations API
+  slug: open-wildapricot-membership-operations-api
+- collection_type: open
+  name: WildApricot Admin Accounts OnlineStore.Orders API
+  slug: open-wildapricot-onlinestore-orders-api
+- collection_type: open
+  name: WildApricot Admin Accounts OnlineStore.Orders.Operations API
+  slug: open-wildapricot-onlinestore-orders-operations-api
+- collection_type: open
+  name: WildApricot Admin Accounts OnlineStore.Products API
+  slug: open-wildapricot-onlinestore-products-api
+- collection_type: open
+  name: WildApricot Admin Accounts Pictures API
+  slug: open-wildapricot-pictures-api
 common:
 - group: build
   title: ''
@@ -464,7 +554,7 @@ plans:
 - name: Wildapricot Plans Pricing
   plan_count: 3
   slug: wildapricot-plans-pricing
-random_paper: 106
+random_paper: 143
 rate_limits:
 - limit_count: 5
   name: Wildapricot Rate Limits
@@ -517,7 +607,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/screenshots/wildapricot-2026-06-20T201504.png
 security:

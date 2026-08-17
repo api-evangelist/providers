@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -90,15 +90,63 @@ apis:
 - description: Track time spent on tickets by agents.
   name: freshdesk Time Entries API
   slug: freshdesk-time-entries-api
-artifact_total: 30
+artifact_total: 46
 asyncapis:
 - description: The Freshdesk Webhook API enables real-time communication between Freshdesk and external systems by sending HTTP POST requests when specific events occur within the helpdesk. Webhooks can be triggered
   name: Freshdesk Webhook Events
   slug: freshdesk-webhook-api-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freshdesk REST Agents API
+  slug: open-freshdesk-agents-api
+- collection_type: open
+  name: Freshdesk REST Agents Business Hours API
+  slug: open-freshdesk-business-hours-api
+- collection_type: open
+  name: Freshdesk REST Agents Companies API
+  slug: open-freshdesk-companies-api
+- collection_type: open
+  name: Freshdesk REST Agents Contacts API
+  slug: open-freshdesk-contacts-api
+- collection_type: open
+  name: Freshdesk REST Agents Conversations API
+  slug: open-freshdesk-conversations-api
+- collection_type: open
+  name: Freshdesk REST Agents Email Configs API
+  slug: open-freshdesk-email-configs-api
+- collection_type: open
+  name: Freshdesk REST Agents Groups API
+  slug: open-freshdesk-groups-api
+- collection_type: open
+  name: Freshdesk REST Agents Products API
+  slug: open-freshdesk-products-api
+- collection_type: open
   name: Freshdesk REST API
   slug: open-freshdesk-rest-api
+- collection_type: open
+  name: Freshdesk REST Agents Roles API
+  slug: open-freshdesk-roles-api
+- collection_type: open
+  name: Freshdesk REST Agents Satisfaction Ratings API
+  slug: open-freshdesk-satisfaction-ratings-api
+- collection_type: open
+  name: Freshdesk REST Agents Search API
+  slug: open-freshdesk-search-api
+- collection_type: open
+  name: Freshdesk REST Agents SLA Policies API
+  slug: open-freshdesk-sla-policies-api
+- collection_type: open
+  name: Freshdesk REST Agents Solutions API
+  slug: open-freshdesk-solutions-api
+- collection_type: open
+  name: Freshdesk REST Agents Tickets API
+  slug: open-freshdesk-tickets-api
+- collection_type: open
+  name: Freshdesk REST Agents Time Entries API
+  slug: open-freshdesk-time-entries-api
 common:
 - group: agent
   title: ''
@@ -163,7 +211,7 @@ plans:
 - name: Freshdesk Plans Pricing
   plan_count: 5
   slug: freshdesk-plans-pricing
-random_paper: 119
+random_paper: 65
 rate_limits:
 - limit_count: 7
   name: Freshdesk Rate Limits
@@ -205,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/screenshots/freshdesk-2026-06-20T181554.png
 security:

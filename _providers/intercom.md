@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,12 +66,42 @@ apis:
 - description: Access user and company segments.
   name: Intercom Segments API
   slug: intercom-segments-api
-artifact_total: 47
+artifact_total: 57
 asyncapis:
 - description: AsyncAPI description of Intercom's outbound webhook surface. Intercom delivers workspace events to a single subscriber URL configured per app under the Developer Hub > Webhooks settings. Each delivery
   name: Intercom Webhooks
   slug: intercom-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Intercom Admins API
+  slug: open-intercom-admins-api
+- collection_type: open
+  name: Intercom Admins Articles API
+  slug: open-intercom-articles-api
+- collection_type: open
+  name: Intercom Admins Companies API
+  slug: open-intercom-companies-api
+- collection_type: open
+  name: Intercom Admins Contacts API
+  slug: open-intercom-contacts-api
+- collection_type: open
+  name: Intercom Admins Conversations API
+  slug: open-intercom-conversations-api
+- collection_type: open
+  name: Intercom Admins Data Events API
+  slug: open-intercom-data-events-api
+- collection_type: open
+  name: Intercom Admins Messages API
+  slug: open-intercom-messages-api
+- collection_type: open
+  name: Intercom Admins News API
+  slug: open-intercom-news-api
+- collection_type: open
+  name: Intercom Admins Segments API
+  slug: open-intercom-segments-api
 - collection_type: open
   name: Intercom API
   slug: open-intercom
@@ -204,7 +234,7 @@ plans:
 - name: Intercom Plans Pricing
   plan_count: 4
   slug: intercom-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 3
   name: Intercom Rate Limits
@@ -246,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/screenshots/intercom-2026-06-20T183440.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 4
@@ -144,7 +144,7 @@ apis:
 - description: Manage webhook endpoints for receiving callbacks on message delivery, inbound messages, and other events.
   name: Sinch Webhooks API
   slug: sinch-webhooks-api
-artifact_total: 140
+artifact_total: 176
 asyncapis:
 - description: 'Event-driven webhooks for the Sinch Conversation API. The Conversation API delivers contact messages, delivery receipts, and various notifications through HTTP POST callbacks. Up to 5 webhooks can be '
   name: Sinch Conversation API Webhooks
@@ -265,35 +265,143 @@ collections:
   name: Sinch Brands Access Control Lists Webhooks API
   slug: postman-sinch-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sinch Brands Access Control Lists API
+  slug: open-sinch-access-control-lists-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Active Numbers API
+  slug: open-sinch-active-numbers-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Applications API
+  slug: open-sinch-applications-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Apps API
+  slug: open-sinch-apps-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Available Numbers API
+  slug: open-sinch-available-numbers-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Available Regions API
+  slug: open-sinch-available-regions-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Batches API
+  slug: open-sinch-batches-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Brand Metadata API
+  slug: open-sinch-brand-metadata-api
+- collection_type: open
+  name: Sinch Access Control Lists Brands API
+  slug: open-sinch-brands-api
+- collection_type: open
   name: Sinch Brands API
   slug: open-sinch-brands
+- collection_type: open
+  name: Sinch Brands Access Control Lists Callouts API
+  slug: open-sinch-callouts-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Calls API
+  slug: open-sinch-calls-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Capability API
+  slug: open-sinch-capability-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Conferences API
+  slug: open-sinch-conferences-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Contacts API
+  slug: open-sinch-contacts-api
 - collection_type: open
   name: Sinch Conversation API
   slug: open-sinch-conversation
 - collection_type: open
+  name: Sinch Brands Access Control Lists Conversations API
+  slug: open-sinch-conversations-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Delivery Reports API
+  slug: open-sinch-delivery-reports-api
+- collection_type: open
   name: Sinch Elastic SIP Trunking API
   slug: open-sinch-elastic-sip-trunking
+- collection_type: open
+  name: Sinch Brands Access Control Lists Events API
+  slug: open-sinch-events-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Fax to Email API
+  slug: open-sinch-fax-to-email-api
 - collection_type: open
   name: Sinch Fax API
   slug: open-sinch-fax
 - collection_type: open
+  name: Sinch Brands Access Control Lists Faxes API
+  slug: open-sinch-faxes-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Groups API
+  slug: open-sinch-groups-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Inbounds API
+  slug: open-sinch-inbounds-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists KakaoTalk Senders API
+  slug: open-sinch-kakaotalk-senders-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists LINE Senders API
+  slug: open-sinch-line-senders-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Market Requirements API
+  slug: open-sinch-market-requirements-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Messages API
+  slug: open-sinch-messages-api
+- collection_type: open
   name: Sinch Numbers API
   slug: open-sinch-numbers
+- collection_type: open
+  name: Sinch Brands Access Control Lists Phone Numbers API
+  slug: open-sinch-phone-numbers-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Projects API
+  slug: open-sinch-projects-api
 - collection_type: open
   name: Sinch Provisioning API
   slug: open-sinch-provisioning
 - collection_type: open
+  name: Sinch Brands Access Control Lists RCS Senders API
+  slug: open-sinch-rcs-senders-api
+- collection_type: open
   name: Sinch Registration API
   slug: open-sinch-registration
+- collection_type: open
+  name: Sinch Brands Access Control Lists Registrations API
+  slug: open-sinch-registrations-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists SIP Endpoints API
+  slug: open-sinch-sip-endpoints-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists SIP Trunks API
+  slug: open-sinch-sip-trunks-api
 - collection_type: open
   name: Sinch SMS API
   slug: open-sinch-sms
 - collection_type: open
+  name: Sinch Brands Access Control Lists Telegram Senders API
+  slug: open-sinch-telegram-senders-api
+- collection_type: open
+  name: Sinch Brands Access Control Lists Transcoding API
+  slug: open-sinch-transcoding-api
+- collection_type: open
   name: Sinch Verification API
   slug: open-sinch-verification
 - collection_type: open
+  name: Sinch Brands Access Control Lists Verifications API
+  slug: open-sinch-verifications-api
+- collection_type: open
   name: Sinch Voice API
   slug: open-sinch-voice
+- collection_type: open
+  name: Sinch Brands Access Control Lists Webhooks API
+  slug: open-sinch-webhooks-api
 common:
 - group: build
   title: ''
@@ -447,7 +555,7 @@ plans:
 - name: Sinch Plans Pricing
   plan_count: 2
   slug: sinch-plans-pricing
-random_paper: 53
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Sinch Rate Limits
@@ -508,7 +616,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/screenshots/sinch-2026-06-20T193947.png
 security:

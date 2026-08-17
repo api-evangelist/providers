@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -81,8 +81,53 @@ apis:
 - description: The Webhooks API from Parseflow — 1 operation(s) for webhooks.
   name: Parseflow Webhooks API
   slug: parseflow-webhooks-api
-artifact_total: 35
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: parseflow Admin API
+  slug: open-parseflow-admin-api
+- collection_type: open
+  name: parseflow Admin Analyze API
+  slug: open-parseflow-analyze-api
+- collection_type: open
+  name: parseflow Admin Batch API
+  slug: open-parseflow-batch-api
+- collection_type: open
+  name: parseflow Admin Billing API
+  slug: open-parseflow-billing-api
+- collection_type: open
+  name: parseflow Admin Health API
+  slug: open-parseflow-health-api
+- collection_type: open
+  name: parseflow Admin Index API
+  slug: open-parseflow-index-api
+- collection_type: open
+  name: parseflow Admin Jobs API
+  slug: open-parseflow-jobs-api
+- collection_type: open
+  name: parseflow Admin Me API
+  slug: open-parseflow-me-api
+- collection_type: open
+  name: parseflow Admin Pack API
+  slug: open-parseflow-pack-api
+- collection_type: open
+  name: parseflow Admin Process API
+  slug: open-parseflow-process-api
+- collection_type: open
+  name: parseflow Admin Search API
+  slug: open-parseflow-search-api
+- collection_type: open
+  name: parseflow Admin Stats API
+  slug: open-parseflow-stats-api
+- collection_type: open
+  name: parseflow Admin Usage API
+  slug: open-parseflow-usage-api
+- collection_type: open
+  name: parseflow Admin Webhooks API
+  slug: open-parseflow-webhooks-api
 - collection_type: open
   name: parseflow
   slug: open-parseflow
@@ -202,7 +247,7 @@ plans:
 - name: Parseflow Plans Pricing
   plan_count: 3
   slug: parseflow-plans-pricing
-random_paper: 19
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Parseflow Rate Limits
@@ -244,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/screenshots/parseflow-2026-06-20T191419.png
 security:

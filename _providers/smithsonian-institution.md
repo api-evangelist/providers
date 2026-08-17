@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Search API from Smithsonian Institution — 3 operation(s) for search.
   name: Smithsonian Institution Search API
   slug: smithsonian-institution-search-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smithsonian Open Access Content API
+  slug: open-smithsonian-institution-content-api
+- collection_type: open
+  name: Smithsonian Open Access Content Metrics API
+  slug: open-smithsonian-institution-metrics-api
+- collection_type: open
+  name: Smithsonian Open Access Content Search API
+  slug: open-smithsonian-institution-search-api
 - collection_type: open
   name: Smithsonian Open Access API
   slug: open-smithsonian-open-access
@@ -146,7 +158,7 @@ plans:
 - name: Smithsonian Institution Plans Pricing
   plan_count: 3
   slug: smithsonian-institution-plans-pricing
-random_paper: 68
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Smithsonian Institution Rate Limits
@@ -194,7 +206,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/screenshots/smithsonian-institution-2026-06-20T194059.png
 security:

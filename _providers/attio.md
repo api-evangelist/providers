@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -76,11 +76,65 @@ apis:
 - description: The Workspace Members API from Attio — 2 operation(s) for workspace members.
   name: Attio Workspace Members API
   slug: attio-workspace-members-api
-artifact_total: 25
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Attio REST Attributes API
+  slug: open-attio-attributes-api
+- collection_type: open
+  name: Attio REST Attributes Call Recordings API
+  slug: open-attio-call-recordings-api
 - collection_type: open
   name: Attio REST API
   slug: open-attio-com
+- collection_type: open
+  name: Attio REST Attributes Comments API
+  slug: open-attio-comments-api
+- collection_type: open
+  name: Attio REST Attributes Entries API
+  slug: open-attio-entries-api
+- collection_type: open
+  name: Attio REST Attributes Files API
+  slug: open-attio-files-api
+- collection_type: open
+  name: Attio REST Attributes List Entries API
+  slug: open-attio-list-entries-api
+- collection_type: open
+  name: Attio REST Attributes Lists API
+  slug: open-attio-lists-api
+- collection_type: open
+  name: Attio REST Attributes Meetings API
+  slug: open-attio-meetings-api
+- collection_type: open
+  name: Attio REST Attributes Meta API
+  slug: open-attio-meta-api
+- collection_type: open
+  name: Attio REST Attributes Notes API
+  slug: open-attio-notes-api
+- collection_type: open
+  name: Attio REST Attributes OAuth API
+  slug: open-attio-oauth-api
+- collection_type: open
+  name: Attio REST Attributes Objects API
+  slug: open-attio-objects-api
+- collection_type: open
+  name: Attio REST Attributes Records API
+  slug: open-attio-records-api
+- collection_type: open
+  name: Attio REST Attributes Tasks API
+  slug: open-attio-tasks-api
+- collection_type: open
+  name: Attio REST Attributes Threads API
+  slug: open-attio-threads-api
+- collection_type: open
+  name: Attio REST Attributes Webhooks API
+  slug: open-attio-webhooks-api
+- collection_type: open
+  name: Attio REST Attributes Workspace Members API
+  slug: open-attio-workspace-members-api
 - collection_type: open
   name: Attio REST API
   slug: open-attio
@@ -165,7 +219,7 @@ plans:
 - name: Attio Plans Pricing
   plan_count: 4
   slug: attio-plans-pricing
-random_paper: 65
+random_paper: 98
 rate_limits:
 - limit_count: 3
   name: Attio Rate Limits
@@ -195,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/screenshots/attio-2026-07-25T201641.png
 security:

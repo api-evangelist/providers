@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -72,11 +72,23 @@ arazzos:
 - description: Bypass bot detection on a protected URL, then re-render its HTML content and a PDF using the unblocked content.
   name: Browserless Unblock Then Render
   slug: browserless-unblock-then-render-workflow
-artifact_total: 34
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Browserless
   slug: postman-browserless
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Browserless Browser REST APIs API
+  slug: open-browserless-browser-rest-apis-api
+- collection_type: open
+  name: Browserless Browser REST APIs Browser WebSocket APIs API
+  slug: open-browserless-browser-websocket-apis-api
+- collection_type: open
+  name: Browserless Browser REST APIs Management REST APIs API
+  slug: open-browserless-management-rest-apis-api
 - collection_type: open
   name: Browserless
   slug: open-browserless
@@ -262,7 +274,7 @@ plans:
 - name: Browserless Plans Pricing
   plan_count: 5
   slug: browserless-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 10
   name: Browserless Rate Limits
@@ -304,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/screenshots/browserless-2026-06-20T173726.png
 security:

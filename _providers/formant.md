@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -59,7 +59,20 @@ apis:
 - description: The Data Access API from Formant — 1 operation(s) for data access.
   name: Formant Data Access API
   slug: formant-data-access-api
-artifact_total: 92
+artifact_total: 96
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Formant Admin Authentication API
+  slug: open-formant-authentication-api
+- collection_type: open
+  name: Formant Admin Authentication Commands API
+  slug: open-formant-commands-api
+- collection_type: open
+  name: Formant Admin Authentication Data Access API
+  slug: open-formant-data-access-api
 common:
 - group: operate
   title: ''
@@ -480,7 +493,7 @@ overview: 'Formant publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Formant''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, signup flow, tooling, and 69 more developer resources.'
-random_paper: 39
+random_paper: 14
 rules:
 - name: Formant API Rules
   rule_count: 5
@@ -518,7 +531,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/screenshots/formant-2026-06-20T181431.png
 security:

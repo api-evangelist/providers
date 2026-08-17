@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Vulnerability detection and management
   name: Wallarm Vulnerabilities API
   slug: wallarm-vulnerabilities-api
-artifact_total: 25
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wallarm Applications API
+  slug: open-wallarm-applications-api
+- collection_type: open
+  name: Wallarm Applications Attacks API
+  slug: open-wallarm-attacks-api
+- collection_type: open
+  name: Wallarm Applications Integrations API
+  slug: open-wallarm-integrations-api
+- collection_type: open
+  name: Wallarm Applications IP Lists API
+  slug: open-wallarm-ip-lists-api
+- collection_type: open
+  name: Wallarm Applications Nodes API
+  slug: open-wallarm-nodes-api
+- collection_type: open
+  name: Wallarm Applications Rules API
+  slug: open-wallarm-rules-api
+- collection_type: open
+  name: Wallarm Applications Triggers API
+  slug: open-wallarm-triggers-api
+- collection_type: open
+  name: Wallarm Applications User API
+  slug: open-wallarm-user-api
+- collection_type: open
+  name: Wallarm Applications Vulnerabilities API
+  slug: open-wallarm-vulnerabilities-api
 - collection_type: open
   name: Wallarm API
   slug: open-wallarm
@@ -201,7 +231,7 @@ plans:
 - name: Wallarm Plans Pricing
   plan_count: 3
   slug: wallarm-plans-pricing
-random_paper: 32
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Wallarm Rate Limits
@@ -243,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/screenshots/wallarm-2026-06-20T201213.png
 security:

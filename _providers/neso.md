@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The public CKAN 2.8.7 API behind the NESO Data Portal, serving 128 open datasets covering GB electricity demand, generation, balancing, ancillary services, constraints, interconnectors, connection reg
@@ -172,7 +172,7 @@ overview: 'National Energy System Operator (NESO) publishes 2 APIs on the [APIs.
 
 
   National Energy System Operator (NESO)''s developer surface includes authentication, documentation, developer portal, API reference, support, product news, and 23 more developer resources.'
-random_paper: 77
+random_paper: 139
 rate_limits:
 - limit_count: 3
   name: Neso Rate Limits
@@ -200,7 +200,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/screenshots/neso-2026-08-07T184913.png
 security:

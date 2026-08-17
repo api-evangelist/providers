@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: CKAN Action API for Donnees Quebec, a consistent JSON-over-HTTP interface over a catalog of 1,608 datasets. Standard actions include package_search, package_show, package_list, organization_list, grou
@@ -88,7 +88,7 @@ plans:
 - name: Donneesquebec Ca Plans Pricing
   plan_count: 1
   slug: donneesquebec-ca-plans-pricing
-random_paper: 58
+random_paper: 128
 rate_limits:
 - limit_count: 1
   name: Donneesquebec Ca Rate Limits
@@ -112,7 +112,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donneesquebec-ca/refs/heads/main/screenshots/donneesquebec-ca-2026-06-20T180149.png
 security:

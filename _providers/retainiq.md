@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Freemium
   onboarding: unknown
-  pricing: unknown
+  pricing: freemium
   public: false
-  source: []
+  source:
+  - plans
   trial: false
   try_now: false
 agent_readiness:
@@ -27,9 +28,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -55,28 +56,79 @@ common:
   title: ''
   type: DomainSecurity
   url: security/retainiq-domain-security.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://retainiq.io/services
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/retainiq-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/retainiq-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/retainiq-llms.txt
+- group: other
+  title: ''
+  type: AppStore
+  url: https://apps.shopify.com/retainiq
+- group: company
+  title: ''
+  type: Newsletter
+  url: https://retainiq.io/resources
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/retainiq/
+coverage:
+  checked: '2026-08-13'
+  detail: RetainIQ sells a managed retention-marketing service, not software with an interface — every contract and /.well-known/ path on retainiq.io returns a real 404, its former self-serve Shopify app host app.retainiq.io returns Cloudflare 522, and the developer website that app listing names (wyde.ai) now redirects to a domain-for-sale page.
+  evidence:
+  - status: 404
+    url: https://retainiq.io/openapi.json
+  - status: 404
+    url: https://retainiq.io/.well-known/agent-card.json
+  - status: 404
+    url: https://retainiq.io/llms.txt
+  - status: 522
+    url: https://app.retainiq.io/
+  - status: 302
+    url: https://www.wyde.ai/
+  - status: 200
+    url: https://apps.shopify.com/retainiq
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: RetainIQ is a full-service retention-marketing agency for direct-to-consumer (D2C) brands, delivering lifecycle email and SMS programs. Its work spans automated flows (welcome, cart abandonment, post-purchase, win-back, replenishment), weekly strategic campaign sends with design and copywriting, and deliverability/segmentation/list-hygiene infrastructure. A proprietary 1:1 personalization engine generates variant product blocks at scale. A Klaviyo Gold Master Partner and Omnisend partner, RetainIQ integrates with Shopify, Klaviyo, and Omnisend; plans start at $990/mo on month-to-month terms. It operates as a marketing-services agency and does not publish a public developer API, SDK, or documentation surface.
+description: RetainIQ is a full-service retention-marketing agency for direct-to-consumer (D2C) brands, delivering lifecycle email and SMS programs. Its work spans automated flows (welcome, cart abandonment, post-purchase, win-back, replenishment), weekly strategic campaign sends with design and copywriting, and deliverability/segmentation/list-hygiene infrastructure. A proprietary 1:1 personalization engine generates variant product blocks at scale. A Klaviyo Gold Master Partner and Omnisend partner, RetainIQ integrates with Shopify, Klaviyo, and Omnisend; plans start at $990/mo on month-to-month terms. It operates as a marketing-services agency and does not publish a public developer API, SDK, or documentation surface. RetainIQ Global Inc. previously shipped a self-serve Shopify app (listed 2021, free to install, $999 per 100K personalization credits); that listing is still live but appears retired in place — its application host returns a Cloudflare 522 and the developer website named
+  on the listing now redirects to a domain-for-sale page.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/retainiq.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: RetainIQ
 nav: Providers
 network: true
 overview: 'RetainIQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Retention Marketing, Email Marketing, and SMS.
 
 
-  RetainIQ''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 21
+  RetainIQ''s developer surface includes engineering blog, support, pricing, and 10 more developer resources.'
+plans:
+- name: Retainiq Plans Pricing
+  plan_count: 2
+  slug: retainiq-plans-pricing
+random_paper: 116
 score:
-  band: minimal
-  composite: 11.9
-  delta: 0.0
+  band: emerging
+  composite: 17.8
+  delta: 5.9
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.9
@@ -87,8 +139,8 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Retainiq Domain Security

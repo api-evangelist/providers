@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The Care Plans API from Mon Ami — 4 operation(s) for care plans.
@@ -82,11 +82,66 @@ apis:
 - description: The Webhooks API from Mon Ami — 2 operation(s) for webhooks.
   name: Mon Ami Webhooks API
   slug: mon-ami-webhooks-api
-artifact_total: 22
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Mon Ami Webhooks
   slug: mon-ami-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mon Ami REST Care Plans API
+  slug: open-mon-ami-care-plans-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Client Calls API
+  slug: open-mon-ami-client-calls-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Clients API
+  slug: open-mon-ami-clients-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Copays API
+  slug: open-mon-ami-copays-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Documents API
+  slug: open-mon-ami-documents-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Funding Sources API
+  slug: open-mon-ami-funding-sources-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Languages API
+  slug: open-mon-ami-languages-api
+- collection_type: open
+  name: Mon Ami REST Care Plans People API
+  slug: open-mon-ami-people-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Programs API
+  slug: open-mon-ami-programs-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Provider Referrals API
+  slug: open-mon-ami-provider-referrals-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Providers API
+  slug: open-mon-ami-providers-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Services API
+  slug: open-mon-ami-services-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Sites API
+  slug: open-mon-ami-sites-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Tasks API
+  slug: open-mon-ami-tasks-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Visits API
+  slug: open-mon-ami-visits-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Volunteers API
+  slug: open-mon-ami-volunteers-api
+- collection_type: open
+  name: Mon Ami REST Care Plans Webhooks API
+  slug: open-mon-ami-webhooks-api
 common:
 - group: agent
   title: ''
@@ -171,7 +226,7 @@ overview: 'Mon Ami publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Mon Ami''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 12 more developer resources.'
-random_paper: 86
+random_paper: 90
 score:
   band: developing
   composite: 43.2
@@ -200,7 +255,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/screenshots/mon-ami-2026-08-07T184127.png
 security:

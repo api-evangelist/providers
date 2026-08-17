@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: The Recipes API from Jelly Belly — 2 operation(s) for recipes.
   name: Jelly Belly Recipes API
   slug: jelly-belly-recipes-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jelly Belly Wiki Beans API
+  slug: open-jelly-belly-beans-api
+- collection_type: open
+  name: Jelly Belly Wiki Beans Combinations API
+  slug: open-jelly-belly-combinations-api
+- collection_type: open
+  name: Jelly Belly Wiki Beans Facts API
+  slug: open-jelly-belly-facts-api
+- collection_type: open
+  name: Jelly Belly Wiki Beans MileStones API
+  slug: open-jelly-belly-milestones-api
+- collection_type: open
+  name: Jelly Belly Wiki Beans Recipes API
+  slug: open-jelly-belly-recipes-api
 - collection_type: open
   name: Jelly Belly Wiki API
   slug: open-jelly-belly
@@ -123,7 +141,7 @@ plans:
 - name: Jelly Belly Plans Pricing
   plan_count: 3
   slug: jelly-belly-plans-pricing
-random_paper: 45
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Jelly Belly Rate Limits
@@ -148,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/screenshots/jelly-belly-2026-06-20T183718.png
 security:

@@ -11,25 +11,26 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 51.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -60,7 +61,29 @@ apis:
 - description: Operations for inspecting your account's usage limits and recent transactional usage. These endpoints require authentication with an account-level API key.
   name: Mailosaur Usage API
   slug: mailosaur-usage-api
-artifact_total: 23
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mailosaur Analysis API
+  slug: open-mailosaur-analysis-api
+- collection_type: open
+  name: Mailosaur Analysis Devices API
+  slug: open-mailosaur-devices-api
+- collection_type: open
+  name: Mailosaur Analysis Files API
+  slug: open-mailosaur-files-api
+- collection_type: open
+  name: Mailosaur Analysis Messages API
+  slug: open-mailosaur-messages-api
+- collection_type: open
+  name: Mailosaur Analysis Servers API
+  slug: open-mailosaur-servers-api
+- collection_type: open
+  name: Mailosaur Analysis Usage API
+  slug: open-mailosaur-usage-api
 common:
 - group: agent
   title: ''
@@ -122,6 +145,134 @@ common:
   title: ''
   type: FinOps
   url: finops/mailosaur-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mailosaur-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/mailosaur-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/mailosaur-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mailosaur-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mailosaur-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mailosaur-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mailosaur-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mailosaur-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mailosaur-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mailosaur-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.mailosaur.com
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/mailosaur-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/mailosaur-jsonschema-spectral-rules.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/mailosaur-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/mailosaur-message.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/mailosaur-server.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/mailosaur-device.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/mailosaur-search-messages-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/mailosaur-create-server-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/mailosaur-get-otp-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/mailosaur-deliverability-report-example.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://mailosaur.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://mailosaur.com/docs/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://mailosaur.com/docs/email-testing/sending-to-mailosaur
+- group: operate
+  title: ''
+  type: Support
+  url: https://mailosaur.com/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://mailosaur.com/app/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://mailosaur.com/app/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://mailosaur.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://mailosaur.com/privacy
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/mailosaur/mailosaur/documentation/6961255-6cc72dff-f576-451a-9023-b82dec84f95d
+- group: commercial
+  title: ''
+  type: ServiceLevelAgreement
+  url: https://mailosaur.com/legal/enterprise-sla
 created: 2026-06-13
 description: Mailosaur is an email and SMS testing platform for developers and QA teams. It provides a REST API for creating test inboxes, capturing and retrieving messages, running assertions, performing deliverability analysis, and integrating email and SMS testing into CI/CD pipelines. The platform supports authentication testing (TOTP/2FA), spam analysis, SPF/DKIM/DMARC validation, and connects via SMTP, POP3, and IMAP protocols.
 examples:
@@ -158,7 +309,11 @@ jsonld:
   property_count: 7
   slug: mailosaur-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: mailosaur-mcp.yml
+  slug: mailosaur-mcpyml
+modified: 2026-08-14
 name: Mailosaur
 nav: Providers
 network: true
@@ -168,12 +323,12 @@ overview: 'Mailosaur publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The Mailosaur catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Mailosaur''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Mailosaur''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, code examples, API reference, and 40 more developer resources.'
 plans:
 - name: Mailosaur Plans Pricing
   plan_count: 3
   slug: mailosaur-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Mailosaur Rate Limits
@@ -188,15 +343,15 @@ rules:
     warn: 4
   slug: mailosaur-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 53.2
-  delta: 0.0
+  band: exemplar
+  composite: 78.8
+  delta: 25.6
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 100.0
     contract_quality: 64.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
+    developer_ergonomics: 84.8
+    discoverability: 81.5
+    governance: 89.6
     operational_transparency: 52.6
   previous_composite: 53.2
   provenance:
@@ -207,8 +362,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/screenshots/mailosaur-2026-06-20T184900.png
 security:
 - kind: authentication
@@ -222,7 +377,7 @@ security:
 - kind: trust-center
   name: Mailosaur Trust Center
   slug: mailosaur-trust-center
-  summary_line: ISO 27001, PCI DSS, GDPR
+  summary_line: ISO 27001:2022, PCI DSS, GDPR, UK Data Protection Act, CCPA
 slug: mailosaur
 tags:
 - Email Testing

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Ellis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ellis'' developer surface includes pricing, engineering blog, and 6 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: emerging
   composite: 15.5
@@ -95,7 +95,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellis/refs/heads/main/screenshots/ellis-2026-07-25T213156.png
 security:

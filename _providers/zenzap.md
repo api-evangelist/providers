@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: Operations for managing topics (group chats/channels/conversations)
   name: ZenZap Topics (group chats/channels/conversations) API
   slug: zenzap-topics-group-chats-channels-conversations-api
-artifact_total: 15
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Zenzap Webhooks
   slug: zenzap-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zenzap External Integration Agentic API
+  slug: open-zenzap-agentic-api
+- collection_type: open
+  name: Zenzap External Integration Agentic Long Polling API
+  slug: open-zenzap-long-polling-api
+- collection_type: open
+  name: Zenzap External Integration Agentic Members API
+  slug: open-zenzap-members-api
+- collection_type: open
+  name: Zenzap External Integration Agentic Messages API
+  slug: open-zenzap-messages-api
+- collection_type: open
+  name: Zenzap External Integration Agentic OAuth API
+  slug: open-zenzap-oauth-api
+- collection_type: open
+  name: Zenzap External Integration Agentic Polls API
+  slug: open-zenzap-polls-api
+- collection_type: open
+  name: Zenzap External Integration Agentic Tasks API
+  slug: open-zenzap-tasks-api
+- collection_type: open
+  name: Zenzap External Integration Agentic Topics (group chats/channels/conversations) API
+  slug: open-zenzap-topics-group-chats-channels-conversations-api
 common:
 - group: start
   title: ''
@@ -207,7 +235,7 @@ overview: 'ZenZap publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ZenZap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 64
+random_paper: 68
 scopes:
 - name: Zenzap Scopes
   scope_count: 12
@@ -236,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

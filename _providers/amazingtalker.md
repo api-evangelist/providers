@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Pages API from AmazingTalker — 1 operation(s) for pages.
   name: AmazingTalker Pages API
   slug: amazingtalker-pages-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Find tutors plugin Pages API
+  slug: open-amazingtalker-pages-api
 common:
 - group: other
   title: ''
@@ -104,7 +111,7 @@ overview: 'AmazingTalker publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   AmazingTalker''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
-random_paper: 66
+random_paper: 45
 score:
   band: thin
   composite: 28.6
@@ -127,7 +134,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/screenshots/amazingtalker-2026-07-25T195910.png
 security:

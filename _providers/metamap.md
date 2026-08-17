@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 6
@@ -69,7 +69,7 @@ apis:
 - description: The Webhooks API from MetaMap — 1 operation(s) for webhooks.
   name: MetaMap Webhooks API
   slug: metamap-webhooks-api
-artifact_total: 77
+artifact_total: 88
 collections:
 - collection_type: postman
   name: MetaMap Authentication API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: MetaMap Authentication Webhooks API
   slug: postman-metamap-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MetaMap Authentication API
+  slug: open-metamap-authentication-api
+- collection_type: open
+  name: MetaMap Authentication Background Checks API
+  slug: open-metamap-background-checks-api
+- collection_type: open
+  name: MetaMap Authentication Credit Checks API
+  slug: open-metamap-credit-checks-api
+- collection_type: open
+  name: MetaMap Authentication Custom Watchlists API
+  slug: open-metamap-custom-watchlists-api
+- collection_type: open
+  name: MetaMap Authentication Email Checks API
+  slug: open-metamap-email-checks-api
+- collection_type: open
+  name: MetaMap Authentication GovChecks API
+  slug: open-metamap-govchecks-api
+- collection_type: open
+  name: MetaMap Authentication Phone Checks API
+  slug: open-metamap-phone-checks-api
+- collection_type: open
+  name: MetaMap Authentication Verifications API
+  slug: open-metamap-verifications-api
+- collection_type: open
+  name: MetaMap Authentication Watchlist Checks API
+  slug: open-metamap-watchlist-checks-api
+- collection_type: open
+  name: MetaMap Authentication Webhooks API
+  slug: open-metamap-webhooks-api
 - collection_type: open
   name: MetaMap API
   slug: open-metamap
@@ -580,7 +613,7 @@ plans:
 - name: Metamap Plans Pricing
   plan_count: 2
   slug: metamap-plans-pricing
-random_paper: 21
+random_paper: 145
 rate_limits:
 - limit_count: 0
   name: Metamap Rate Limits
@@ -622,7 +655,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/screenshots/metamap-2026-06-20T185250.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ arazzos:
 - description: Read a workspace, branch on provisioning state, list its keys, and list provider offerings.
   name: Azure Quantum Workspace Bootstrap
   slug: microsoft-quantum-workspace-bootstrap-workflow
-artifact_total: 48
+artifact_total: 54
 collections:
 - collection_type: postman
   name: Azure Quantum Workspace Services
@@ -91,11 +91,29 @@ collections:
   name: Azure Quantum Management API
   slug: postman-azure-quantum-resource-manager-openapi
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Quantum Workspace Services
   slug: open-azure-quantum-data-plane
 - collection_type: open
   name: Azure Quantum Management API
   slug: open-azure-quantum-resource-manager
+- collection_type: open
+  name: Azure Quantum Workspace Services Offerings API
+  slug: open-microsoft-quantum-offerings-api
+- collection_type: open
+  name: Azure Quantum Workspace Services Offerings Operations API
+  slug: open-microsoft-quantum-operations-api
+- collection_type: open
+  name: Azure Quantum Workspace Services Offerings Subscriptions API
+  slug: open-microsoft-quantum-subscriptions-api
+- collection_type: open
+  name: Azure Quantum Workspace Services Offerings SuiteOffers API
+  slug: open-microsoft-quantum-suiteoffers-api
+- collection_type: open
+  name: Azure Quantum Workspace Services Offerings Workspaces API
+  slug: open-microsoft-quantum-workspaces-api
 common:
 - group: agent
   title: ''
@@ -446,7 +464,7 @@ plans:
 - name: Microsoft Quantum Plans Pricing
   plan_count: 9
   slug: microsoft-quantum-plans-pricing
-random_paper: 6
+random_paper: 18
 rate_limits:
 - limit_count: 8
   name: Microsoft Quantum Rate Limits
@@ -485,7 +503,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/screenshots/microsoft-quantum-2026-06-20T185529.png
 security:

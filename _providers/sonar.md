@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: API token generation and management
   name: Sonar User Tokens API
   slug: sonar-user-tokens-api
-artifact_total: 29
+artifact_total: 36
 collections:
 - collection_type: postman
   name: SonarCloud Issues API
@@ -81,8 +81,29 @@ collections:
   name: SonarCloud Issues User Tokens API
   slug: postman-sonar-user-tokens-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SonarCloud Issues API
+  slug: open-sonar-issues-api
+- collection_type: open
+  name: SonarCloud Issues Measures API
+  slug: open-sonar-measures-api
+- collection_type: open
+  name: SonarCloud Issues Organizations API
+  slug: open-sonar-organizations-api
+- collection_type: open
+  name: SonarCloud Issues Projects API
+  slug: open-sonar-projects-api
+- collection_type: open
+  name: SonarCloud Issues Quality Gates API
+  slug: open-sonar-quality-gates-api
+- collection_type: open
   name: SonarCloud API
   slug: open-sonar-sonarcloud-api
+- collection_type: open
+  name: SonarCloud Issues User Tokens API
+  slug: open-sonar-user-tokens-api
 common:
 - group: build
   title: ''
@@ -198,7 +219,7 @@ plans:
 - name: Sonar Plans Pricing
   plan_count: 3
   slug: sonar-plans-pricing
-random_paper: 67
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Sonar Rate Limits
@@ -240,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/screenshots/sonar-2026-06-20T194158.png
 security:

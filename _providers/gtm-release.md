@@ -27,36 +27,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
+common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/api-evangelist/gtm-release/issues
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gtm-release-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: GTM Release is an API Evangelist first-party network index of 55 go-to-market channels — it ships no product, has no website, developer portal, or base URL of its own, and the only surface it publishes is the apis.yml index in this repository; every API in it belongs to a separately profiled member provider.
+  evidence:
+  - status: 200
+    url: https://raw.githubusercontent.com/api-evangelist/gtm-release/refs/heads/main/apis.yml
+  - status: 200
+    url: https://apis.io/providers/gtm-release/
+  reason: not-a-software-company
+  state: none
 created: '2026-03-24'
-description: A network index of companies, organizations, and platforms relevant to the Naftiko Framework go-to-market release strategy, covering press, developer communities, directories, review platforms, podcasts, business directories, and events.
+description: An API Evangelist network index of the 55 companies, platforms, and events that make up a software go-to-market release surface — press and tech media, developer communities and content platforms, open-source and developer-tool directories, social media, podcasts, business and startup directories, product-launch and SaaS platforms, review platforms, and conferences. GTM Release is not a company and operates no API of its own; each member is a separately profiled provider in the api-evangelist network with its own apis.yml, artifacts, and Kin Score.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gtm-release.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-13'
 name: GTM Release
 nav: Providers
 network: true
-overview: GTM Release is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Communities, Directories, GTM, Marketing, and Press.
-random_paper: 30
+overview: GTM Release is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Conferences, Events, Developer Communities, Directories, and GTM.
+random_paper: 67
 score:
   band: minimal
-  composite: 4.4
-  delta: 0.0
+  composite: 6.4
+  delta: 2.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 4.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: gtm-release
 tags:
+- Conferences
+- Events
 - Developer Communities
 - Directories
 - GTM

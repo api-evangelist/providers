@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Users API from Maven AGI — 4 operation(s) for users.
   name: Maven AGI Users API
   slug: maven-agi-users-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Maven AGI Platform Actions API
+  slug: open-maven-agi-actions-api
+- collection_type: open
+  name: Maven AGI Platform Actions Agents API
+  slug: open-maven-agi-agents-api
+- collection_type: open
+  name: Maven AGI Platform Actions Analytics API
+  slug: open-maven-agi-analytics-api
+- collection_type: open
+  name: Maven AGI Platform Actions App Settings API
+  slug: open-maven-agi-app-settings-api
+- collection_type: open
+  name: Maven AGI Platform Actions Conversations API
+  slug: open-maven-agi-conversations-api
+- collection_type: open
+  name: Maven AGI Platform Actions Events API
+  slug: open-maven-agi-events-api
+- collection_type: open
+  name: Maven AGI Platform Actions Knowledge API
+  slug: open-maven-agi-knowledge-api
+- collection_type: open
+  name: Maven AGI Platform Actions Triggers API
+  slug: open-maven-agi-triggers-api
+- collection_type: open
+  name: Maven AGI Platform Actions Users API
+  slug: open-maven-agi-users-api
 - collection_type: open
   name: Maven AGI Platform API
   slug: open-maven-agi
@@ -140,7 +170,7 @@ plans:
 - name: Maven Agi Plans Pricing
   plan_count: 2
   slug: maven-agi-plans-pricing
-random_paper: 45
+random_paper: 140
 rate_limits:
 - limit_count: 3
   name: Maven Agi Rate Limits
@@ -165,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/screenshots/maven-agi-2026-07-25T230432.png
 security:

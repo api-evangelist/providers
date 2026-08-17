@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -75,14 +75,53 @@ apis:
 - description: Loyalty and stored-value transaction processing at the POS.
   name: Paytronix Transaction API
   slug: paytronix-transaction-api
-artifact_total: 174
+artifact_total: 187
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paytronix Online Ordering Check API
+  slug: open-paytronix-check-api
+- collection_type: open
+  name: Paytronix Online Ordering Check Enrollment API
+  slug: open-paytronix-enrollment-api
+- collection_type: open
+  name: Paytronix Online Ordering Check Gift API
+  slug: open-paytronix-gift-api
+- collection_type: open
+  name: Paytronix Online Ordering Check Guest API
+  slug: open-paytronix-guest-api
+- collection_type: open
+  name: Paytronix Online Ordering Check Menu Items API
+  slug: open-paytronix-menu-items-api
+- collection_type: open
+  name: Paytronix Online Ordering Check OAuth API
+  slug: open-paytronix-oauth-api
 - collection_type: open
   name: Paytronix Online Ordering API
   slug: open-paytronix-online-ordering-api
 - collection_type: open
+  name: Paytronix Online Ordering Check Orders API
+  slug: open-paytronix-orders-api
+- collection_type: open
+  name: Paytronix Online Ordering Check Payment API
+  slug: open-paytronix-payment-api
+- collection_type: open
+  name: Paytronix Online Ordering Check Restaurants API
+  slug: open-paytronix-restaurants-api
+- collection_type: open
+  name: Paytronix Online Ordering Check Search API
+  slug: open-paytronix-search-api
+- collection_type: open
   name: Paytronix Server API
   slug: open-paytronix-server-api
+- collection_type: open
+  name: Paytronix Online Ordering Check Store API
+  slug: open-paytronix-store-api
+- collection_type: open
+  name: Paytronix Online Ordering Check Transaction API
+  slug: open-paytronix-transaction-api
 common:
 - group: agent
   title: ''
@@ -612,7 +651,7 @@ plans:
 - name: Paytronix Plans Pricing
   plan_count: 2
   slug: paytronix-plans-pricing
-random_paper: 46
+random_paper: 112
 rate_limits:
 - limit_count: 2
   name: Paytronix Rate Limits
@@ -660,7 +699,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/screenshots/paytronix-2026-06-20T191510.png
 security:

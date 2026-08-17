@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Full-text and metadata search across the catalog.
   name: iconik Search API
   slug: iconik-search-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: iconik Assets API
+  slug: open-iconik-assets-api
+- collection_type: open
+  name: iconik Assets Collections API
+  slug: open-iconik-collections-api
+- collection_type: open
+  name: iconik Assets Files API
+  slug: open-iconik-files-api
+- collection_type: open
+  name: iconik Assets Jobs API
+  slug: open-iconik-jobs-api
+- collection_type: open
+  name: iconik Assets Metadata API
+  slug: open-iconik-metadata-api
+- collection_type: open
+  name: iconik Assets Search API
+  slug: open-iconik-search-api
 - collection_type: open
   name: iconik API
   slug: open-iconik
@@ -123,7 +144,7 @@ plans:
 - name: Iconik Plans Pricing
   plan_count: 3
   slug: iconik-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Iconik Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/screenshots/iconik-2026-07-25T222037.png
 security:

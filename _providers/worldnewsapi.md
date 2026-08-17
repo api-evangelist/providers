@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 53.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,12 +61,40 @@ apis:
 - description: Country-level top news clustered by coverage.
   name: World News API Top News API
   slug: worldnewsapi-top-news-api
-artifact_total: 14
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: World News Extract News API
+  slug: open-worldnewsapi-extract-news-api
+- collection_type: open
+  name: World News Extract News Front Pages API
+  slug: open-worldnewsapi-front-pages-api
+- collection_type: open
+  name: World News Extract News Geo Coordinates API
+  slug: open-worldnewsapi-geo-coordinates-api
+- collection_type: open
+  name: World News Extract News News Sources API
+  slug: open-worldnewsapi-news-sources-api
+- collection_type: open
+  name: World News Extract News Retrieve News API
+  slug: open-worldnewsapi-retrieve-news-api
+- collection_type: open
+  name: World News Extract News Search News API
+  slug: open-worldnewsapi-search-news-api
+- collection_type: open
+  name: World News Extract News Top News API
+  slug: open-worldnewsapi-top-news-api
 - collection_type: open
   name: World News API
   slug: open-worldnewsapi
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/worldnewsapi-openapi-original.json
 - group: agent
   title: ''
   type: AgenticAccess
@@ -80,6 +109,90 @@ common:
   url: security/worldnewsapi-domain-security.yml
 - group: build
   title: ''
+  type: Packages
+  url: packages/worldnewsapi-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/worldnewsapi-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/worldnewsapi-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/worldnewsapi-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/worldnewsapi-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/worldnewsapi-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/worldnewsapi-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/worldnewsapi-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.worldnewsapi.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://worldnewsapi.com/docs/api-changelog/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/worldnewsapi-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/worldnewsapi-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/worldnewsapi-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/worldnewsapi-search-news-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/worldnewsapi-top-news-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/worldnewsapi-extract-news-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/worldnewsapi-retrieve-news-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/worldnewsapi-front-pages-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/worldnewsapi-news-sources-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/worldnewsapi-geo-coordinates-api-overlay.yaml
+- group: build
+  title: ''
   type: GitHubOrganization
   url: https://github.com/ddsky
 - group: company
@@ -90,10 +203,58 @@ common:
   title: ''
   type: Website
   url: https://worldnewsapi.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://worldnewsapi.com/docs/
 - group: docs
   title: ''
   type: Documentation
   url: https://worldnewsapi.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://worldnewsapi.com/docs/search-news/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://worldnewsapi.com/docs/quick-start-tutorial/
+- group: start
+  title: ''
+  type: Console
+  url: https://worldnewsapi.com/newsroom/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/spoonacular-api/workspace/world-news-api/collection/7431899-9288f331-3732-4328-baad-1d1e53001875
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.gg/GrmNknKHYD
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://worldnewsapi.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://worldnewsapi.com/console/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://worldnewsapi.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://worldnewsapi.com/terms/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/ddsky/world-news-api-clients
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/ddsky/world-news-api-mcp
 - group: commercial
   title: ''
   type: Plans
@@ -107,41 +268,46 @@ common:
   type: FinOps
   url: finops/worldnewsapi-finops.yml
 created: '2026-07-11'
-description: World News API is a real-time and historical news data API covering thousands of sources across 210+ countries and 86+ languages. It provides full-text and semantic news search, geo-targeted local news search (a radius filter around a latitude/longitude point), article content and link extraction from arbitrary URLs, country-level top news clustering, newspaper front-page images, and news-source discovery. Local news search is a first-class feature - resolve a place name to coordinates with the Geo Coordinates endpoint, then pass those coordinates to Search News via the location-filter parameter to find news published or mentioned near that place. Requests are authenticated with an API key (api-key query parameter or x-api-key header) and metered in points against a daily plan allowance.
+description: World News API is a real-time and historical news data API covering thousands of sources across 210+ countries and 86+ languages. It provides full-text and semantic news search, geo-targeted local news search (a radius filter around a latitude/longitude point), article content and link extraction from arbitrary URLs, country-level top news clustering, newspaper front-page images, and news-source discovery. Local news search is a first-class feature - resolve a place name to coordinates with the Geo Coordinates endpoint, then pass those coordinates to Search News via the location-filter parameter to find news published or mentioned near that place. Requests are authenticated with an API key (api-key query parameter or x-api-key header) and metered in points against a daily plan allowance, with X-API-Quota-* headers returning cost and remaining budget on every response. The provider publishes its own OpenAPI 3 document, generated client libraries for two dozen languages, and a
+  first-party local-stdio MCP server exposing eight news tools to AI agents.
 finops:
 - name: Worldnewsapi Finops
   service_category: News and Media Data
   slug: worldnewsapi-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/worldnewsapi.png
 layout: provider
-modified: '2026-07-11'
+mcp_servers:
+- description: ''
+  name: worldnewsapi-mcp.yml
+  slug: worldnewsapi-mcpyml
+modified: '2026-08-13'
 name: World News API
 nav: Providers
 network: true
 overview: 'World News API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Extract News API, Front Pages API, Geo Coordinates API, and 4 more. Tagged areas include News, Local News, News Search, Media Monitoring, and Geo Search.
 
 
-  World News API''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  World News API''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, developer console, support, and 37 more developer resources.'
 plans:
 - name: Worldnewsapi Plans Pricing
   plan_count: 4
   slug: worldnewsapi-plans-pricing
-random_paper: 111
+random_paper: 119
 rate_limits:
 - limit_count: 6
   name: Worldnewsapi Rate Limits
   slug: worldnewsapi-rate-limits
 score:
-  band: thin
-  composite: 38.8
-  delta: 0.0
+  band: exemplar
+  composite: 69.8
+  delta: 31.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 84.2
     contract_quality: 59.0
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 36.8
+    developer_ergonomics: 82.6
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 76.3
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -151,8 +317,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Worldnewsapi Authentication
@@ -172,5 +338,9 @@ tags:
 - News Data
 - Sentiment Analysis
 - Content Extraction
+- Front Pages
+- MCP
+- RSS
+- Semantic Search
 website: https://worldnewsapi.com
 ---

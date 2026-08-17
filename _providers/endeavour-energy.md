@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,14 @@ apis:
 - description: Anonymous, key-free REST API over Endeavour Energy's public network open data catalogue, served on the Opendatasoft Explore API v2.1. Exposes eight datasets covering distribution network assets (440,7
   name: Endeavour Energy Open Data Explore API
   slug: endeavour-energy-open-data-explore-api
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Explore API
+  slug: open-endeavour-energy-open-data-explore-api-v2-0
+- collection_type: open
+  name: Explore API
+  slug: open-endeavour-energy-open-data-explore-api-v2-1
 common:
 - group: agent
   title: ''
@@ -206,7 +213,7 @@ overview: 'Endeavour Energy publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Endeavour Energy''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
-random_paper: 104
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Endeavour Energy Rate Limits
@@ -240,7 +247,7 @@ score:
     regime_id: energy_utilities
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/screenshots/endeavour-energy-2026-08-07T164855.png
 security:

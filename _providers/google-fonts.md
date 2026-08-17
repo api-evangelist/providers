@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,11 +41,17 @@ apis:
 - description: Retrieve font family metadata
   name: Google Fonts Developer Fonts API
   slug: google-fonts-fonts-api
-artifact_total: 12
+artifact_total: 14
 collections:
 - collection_type: postman
   name: Google Developer Fonts API
   slug: postman-google-fonts-fonts-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Developer Fonts API
+  slug: open-google-fonts-fonts-api
 - collection_type: open
   name: Google Fonts Developer API
   slug: open-openapi
@@ -142,7 +148,7 @@ plans:
 - name: Google Fonts Plans Pricing
   plan_count: 3
   slug: google-fonts-plans-pricing
-random_paper: 36
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Google Fonts Rate Limits
@@ -176,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-fonts/refs/heads/main/screenshots/google-fonts-2026-06-20T182204.png
 security:

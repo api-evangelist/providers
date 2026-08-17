@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -31,11 +31,15 @@ apis:
 - description: The CloudKitchens Public API is a resource-oriented REST API over JSON secured with OAuth 2.0, used by integration partners — ordering channels, POS and kitchen systems, delivery networks and reportin
   name: CloudKitchens Public API
   slug: cloudkitchens-public-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Cloudkitchens Webhooks
   slug: cloudkitchens-webhooks
+collections:
+- collection_type: open
+  name: Public API
+  slug: open-cloudkitchens-public-api
 common:
 - group: agent
   title: ''
@@ -177,7 +181,7 @@ overview: 'CloudKitchens publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   CloudKitchens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 72
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Cloudkitchens Rate Limits
@@ -210,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/screenshots/cloudkitchens-2026-08-07T163508.png
 security:

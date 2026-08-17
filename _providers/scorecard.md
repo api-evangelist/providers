@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Testsets API from Scorecard — 2 operation(s) for testsets.
   name: Scorecard Testsets API
   slug: scorecard-testsets-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scorecard Metrics API
+  slug: open-scorecard-metrics-api
+- collection_type: open
+  name: Scorecard Metrics Projects API
+  slug: open-scorecard-projects-api
+- collection_type: open
+  name: Scorecard Metrics Records API
+  slug: open-scorecard-records-api
+- collection_type: open
+  name: Scorecard Metrics Runs API
+  slug: open-scorecard-runs-api
+- collection_type: open
+  name: Scorecard Metrics Systems API
+  slug: open-scorecard-systems-api
+- collection_type: open
+  name: Scorecard Metrics Testcases API
+  slug: open-scorecard-testcases-api
+- collection_type: open
+  name: Scorecard Metrics Testsets API
+  slug: open-scorecard-testsets-api
 common:
 - group: other
   title: ''
@@ -193,7 +218,7 @@ overview: 'Scorecard publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Scorecard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
-random_paper: 110
+random_paper: 56
 score:
   band: developing
   composite: 54.9
@@ -217,7 +242,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

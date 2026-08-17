@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Assembly ("hive") membership for the authenticated member.
@@ -43,7 +43,23 @@ apis:
 - description: Products and offers on sale for a distribution.
   name: La Ruche qui dit Oui! Sale API
   slug: la-ruche-qui-dit-oui-sale-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Food Assembly Assemblies API
+  slug: open-la-ruche-qui-dit-oui-assemblies-api
+- collection_type: open
+  name: The Food Assembly Assemblies Authentication API
+  slug: open-la-ruche-qui-dit-oui-authentication-api
+- collection_type: open
+  name: The Food Assembly Assemblies Orders API
+  slug: open-la-ruche-qui-dit-oui-orders-api
+- collection_type: open
+  name: The Food Assembly Assemblies Sale API
+  slug: open-la-ruche-qui-dit-oui-sale-api
 common:
 - group: agent
   title: ''
@@ -133,7 +149,7 @@ overview: 'La Ruche qui dit Oui! publishes 4 APIs on the [APIs.io](https://apis.
 
 
   La Ruche qui dit Oui!''s developer surface includes authentication, support, signup flow, engineering blog, and 14 more developer resources.'
-random_paper: 109
+random_paper: 121
 score:
   band: thin
   composite: 33.9
@@ -156,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

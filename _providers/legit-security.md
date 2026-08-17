@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -139,7 +139,7 @@ overview: 'Legit Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Legit Security''s developer surface includes engineering blog, support, CLI, changelog, and 17 more developer resources.'
-random_paper: 26
+random_paper: 125
 score:
   band: thin
   composite: 37.6
@@ -156,7 +156,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/screenshots/legit-security-2026-07-25T224837.png
 security:

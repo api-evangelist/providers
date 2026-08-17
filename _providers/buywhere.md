@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -37,8 +37,20 @@ apis:
 - description: Product search, lookup, comparison, deals, and price history.
   name: BuyWhere Products API
   slug: buywhere-products-api
-artifact_total: 28
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BuyWhere Product Catalog Authentication API
+  slug: open-buywhere-authentication-api
+- collection_type: open
+  name: BuyWhere Product Catalog Authentication Categories API
+  slug: open-buywhere-categories-api
+- collection_type: open
+  name: BuyWhere Product Catalog Authentication Products API
+  slug: open-buywhere-products-api
 - collection_type: open
   name: BuyWhere Product Catalog API
   slug: open-buywhere
@@ -195,7 +207,7 @@ plans:
 - name: Buywhere Plans Pricing
   plan_count: 3
   slug: buywhere-plans-pricing
-random_paper: 35
+random_paper: 130
 rate_limits:
 - limit_count: 4
   name: Buywhere Rate Limits
@@ -237,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/screenshots/buywhere-2026-06-20T173822.png
 security:

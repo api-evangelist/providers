@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Apero's fully-featured REST API connecting healthcare and finance workflows for medical practices, with webhooks and CSV import. Developer documentation is gated behind an Apero account login.
@@ -95,7 +95,7 @@ overview: 'Apero publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Apero''s developer surface includes documentation, signup flow, support, and 9 more developer resources.'
-random_paper: 55
+random_paper: 88
 score:
   band: emerging
   composite: 20.6
@@ -115,7 +115,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apero/refs/heads/main/screenshots/apero-2026-07-25T200557.png
 security:

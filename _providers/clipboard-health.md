@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,6 +95,74 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/clipboard-health-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/clipboard-health-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clipboard-health-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.clipboardworks.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/clipboard-health-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/clipboard-health-well-known.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/clipboard-health-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/clipboard-health-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.clipboardworks.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.clipboardworks.com/about
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.clipboardworks.com/for-workers
+- group: start
+  title: ''
+  type: Login
+  url: https://clipboard.health/enter
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/clipboard-health-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clipboard-health-packages.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/clipboard-health-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/clipboard-health-well-known.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/clipboard-health-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/clipboard-health-domain-security.yml
 created: '2026-07-17'
 description: Clipboard Health (now branded simply "Clipboard", at clipboardworks.com) is a U.S. healthcare workforce marketplace that connects workplaces — long-term care facilities, home health and hospice agencies, hospitals, dental practices, and travel assignments — with vetted, independent professionals to fill open shifts. Workplaces post shifts and Clipboard matches, credentials, schedules, and pays qualified workers, with the platform handling documentation, compliance, and instant pay for pros. The company reports serving more than 6,500 workplaces and over a million workers nationwide. Backed by Initialized Capital and IVP, it was added to the API Evangelist network as a portfolio company. Clipboard Health publishes no public consumer API; its public developer surface is limited to open-source TypeScript utility libraries on npm (the @clipboard-health scope, from github.com/ClipboardHealth/core-utils) and a minimal RFC 9116 security.txt.
 image: https://www.clipboardworks.com/og-link-preview.webp
@@ -106,8 +174,8 @@ network: true
 overview: 'Clipboard Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Healthcare, Staffing, and Workforce.
 
 
-  Clipboard Health''s developer surface includes engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 59
+  Clipboard Health''s developer surface includes engineering blog, pricing, support, signup flow, and 29 more developer resources.'
+random_paper: 129
 score:
   band: emerging
   composite: 19.1
@@ -127,7 +195,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clipboard-health/refs/heads/main/screenshots/clipboard-health-2026-07-25T205638.png
 security:

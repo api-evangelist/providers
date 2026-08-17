@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: 'A hosted, unauthenticated Model Context Protocol server at docs.platform.decart.ai/mcp that exposes the Decart API Platform documentation to agents. Three tools: full-text search across the knowledge '
   name: Decart Documentation MCP Server
   slug: decart-docs-mcp
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Decart API
+  slug: open-decart-api-openapi-original
+- collection_type: open
+  name: Decart API
+  slug: open-decart-platform-openapi-original
 common:
 - group: agent
   title: ''
@@ -235,7 +242,7 @@ plans:
 - name: Decart Plans Pricing
   plan_count: 5
   slug: decart-plans-pricing
-random_paper: 27
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Decart Rate Limits
@@ -263,7 +270,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/screenshots/decart-2026-08-07T164225.png
 security:

@@ -12,15 +12,16 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 50.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 163
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 327
   slug: drchrono-agentic-access
   summary_line: 327 operations · 163 acting
-api_count: 6
+api_count: 7
 apis:
 - description: Create and manage administrative resources
   name: drchrono Administrative API
@@ -57,6 +58,9 @@ apis:
 - description: Create and manage practice management resources
   name: drchrono Practice Management API
   slug: drchrono-practice-management-api
+- description: The ONC-certified SMART on FHIR R4 interoperability API for the DrChrono EHR. Read-only, 27 US Core resource types, FHIR 4.0.1, with a live CapabilityStatement, SMART App Launch discovery, OpenID Conn
+  name: drchrono SMART on FHIR R4 API
+  slug: drchrono-fhir-r4-api
 arazzos:
 - description: Read a patient record, book an appointment, then read the appointment back to confirm it was created.
   name: drChrono Appointment Scheduling
@@ -73,8 +77,146 @@ arazzos:
 - description: Search for an existing patient by name and update it if found, otherwise create a new patient record.
   name: drChrono Patient Registration (Upsert)
   slug: drchrono-patient-registration-workflow
-artifact_total: 166
+artifact_total: 177
+asyncapis:
+- description: 'AsyncAPI description of the DrChrono EHR webhook surface, generated faithfully from the webhook reference DrChrono publishes at https://app.drchrono.com/api-docs/. Every event name, header, body key, '
+  name: DrChrono EHR Webhooks
+  slug: drchrono-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DrChrono EHR REST Administrative API
+  slug: open-drchrono-administrative-api
+- collection_type: open
+  name: DrChrono EHR REST Administrative Audit API
+  slug: open-drchrono-audit-api
+- collection_type: open
+  name: DrChrono EHR REST Administrative Availability API
+  slug: open-drchrono-availability-api
+- collection_type: open
+  name: DrChrono EHR REST Administrative Billing API
+  slug: open-drchrono-billing-api
+- collection_type: open
+  name: DrChrono EHR REST Administrative Clinical API
+  slug: open-drchrono-clinical-api
+- collection_type: open
+  name: DrChrono EHR REST Administrative Practice Management API
+  slug: open-drchrono-practice-management-api
 common:
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/drchrono-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/drchrono-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/drchrono-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/drchrono-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/drchrono-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/drchrono-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/drchrono-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/drchrono-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/drchrono-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/drchrono-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/drchrono-llms.txt
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/drchrono-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/drchrono-webhooks-asyncapi.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/drchrono-sandbox.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/drchrono-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/drchrono-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: MCPCandidate
+  url: mcp/drchrono-mcp.yml
+- group: other
+  title: ''
+  type: CapabilityStatement
+  url: fhir/drchrono-fhir-r4-capabilitystatement.json
+- group: other
+  title: ''
+  type: FHIR
+  url: fhir/drchrono-fhir.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://app.drchrono.com/api-docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://app.drchrono.com/api-docs/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://app.drchrono.com/api-docs/tutorial/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.drchrono.com/home/api
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.drchrono.com/sign-up/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.drchrono.com/privacy-policy/
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://www.drchrono.com/security-policy/
+- group: auth
+  title: ''
+  type: BugBounty
+  url: https://hackerone.com/drchrono
 - group: agent
   title: ''
   type: AgenticAccess
@@ -91,6 +233,10 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/drchrono-scopes.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/drchrono-fhir-smart-scopes.yml
 - group: company
   title: ''
   type: Website
@@ -142,6 +288,10 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
+  url: https://app.drchrono.com/api-terms/
+- group: commercial
+  title: ''
+  type: APITerms
   url: https://www.drchrono.com/api-development-terms-conditions/
 - group: start
   title: ''
@@ -152,7 +302,7 @@ common:
   type: ArazzoWorkflows
   url: ''
 created: '2026-06-13'
-description: drchrono is an EHR platform with a REST API for managing patient records, clinical encounters, appointments, prescriptions, billing, and HIPAA-compliant medical data exchange. It provides OAuth 2.0-secured endpoints covering patient management, clinical documentation, lab integration, scheduling, billing, and practice administration, enabling healthcare app developers to build integrations with the drchrono EHR ecosystem.
+description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary REST v4 API (codename Hunt Valley) is an OAuth 2.0-secured contract of 170 paths and 329 operations covering patients, scheduling, clinical documentation, e-prescribing, labs, tasks, messaging and the full revenue cycle, published as a live OpenAPI 3.0 at https://app.drchrono.com/openapi-schema and complemented by a 27-event webhook surface. Alongside it drchrono runs a read-only, ONC-certified SMART on FHIR R4 server exposing 27 US Core resource types for USCDI interoperability, with SMART App Launch and OpenID Connect discovery, FHIR Bulk Data Export, and a public service base directory covering 105 practices. The two estates share no tokens, no scopes and no identifier space.
 examples:
 - key_count: 5
   name: Appointment Example
@@ -604,22 +754,22 @@ jsonld:
   property_count: 4
   slug: drchrono-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-14'
 name: drchrono
 nav: Providers
 network: true
 overview: 'drchrono publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Administrative API, Audit API, Availability API, and 3 more. Tagged areas include EHR, Electronic Health Records, Healthcare, Medical Records, and Practice Management.
 
 
-  The drchrono catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The drchrono catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  drchrono''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  drchrono''s developer surface includes changelog, sandbox, API reference, getting-started guide, support, signup flow, authentication, and 41 more developer resources.'
 plans:
 - name: Drchrono Plans Pricing
   plan_count: 5
   slug: drchrono-plans-pricing
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 2
   name: Drchrono Rate Limits
@@ -634,21 +784,25 @@ rules:
     warn: 4
   slug: drchrono-jsonschema-spectral-rules
 scopes:
+- name: Drchrono Fhir Smart Scopes
+  scope_count: 233
+  slug: drchrono-fhir-smart-scopes
+  summary_line: 233 scopes
 - name: Drchrono Scopes
   scope_count: 23
   slug: drchrono-scopes
   summary_line: 23 scopes · authorizationCode
 score:
-  band: developing
-  composite: 49.9
-  delta: 0.0
+  band: exemplar
+  composite: 77.0
+  delta: 27.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 56.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    commercial_clarity: 92.1
+    contract_quality: 65.4
+    developer_ergonomics: 65.2
+    discoverability: 92.6
+    governance: 79.2
+    operational_transparency: 84.2
   previous_composite: 49.9
   provenance:
     agentic_access: derived
@@ -662,20 +816,24 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 47.5
+    score: 73.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/screenshots/drchrono-2026-06-20T180219.png
 security:
 - kind: authentication
   name: Drchrono Authentication
   slug: drchrono-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2 · 4 schemes
 - kind: domain-security
   name: Drchrono Domain Security
   slug: drchrono-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Drchrono Vulnerability Disclosure
+  slug: drchrono-vulnerability-disclosure
+  summary_line: Hackerone
 slug: drchrono
 tags:
 - EHR
@@ -689,5 +847,13 @@ tags:
 - Prescriptions
 - Lab Integration
 - FHIR
+- SMART on FHIR
+- USCDI
+- Interoperability
+- Webhooks
+- OAuth 2.0
+- ONC Certified
+- Telehealth
+- Revenue Cycle Management
 website: https://www.drchrono.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: The aiTaskBuilder API from Prolific — 24 operation(s) for aitaskbuilder.
@@ -85,11 +85,69 @@ apis:
 - description: The workspaces API from Prolific — 3 operation(s) for workspaces.
   name: Prolific workspaces API
   slug: prolific-workspaces-api
-artifact_total: 22
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Prolific Webhooks
   slug: prolific-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference aiTaskBuilder API
+  slug: open-prolific-aitaskbuilder-api
+- collection_type: open
+  name: API Reference aiTaskBuilder bonuses API
+  slug: open-prolific-bonuses-api
+- collection_type: open
+  name: API Reference aiTaskBuilder credentials API
+  slug: open-prolific-credentials-api
+- collection_type: open
+  name: API Reference aiTaskBuilder filters API
+  slug: open-prolific-filters-api
+- collection_type: open
+  name: API Reference aiTaskBuilder filterSets API
+  slug: open-prolific-filtersets-api
+- collection_type: open
+  name: API Reference aiTaskBuilder invitations API
+  slug: open-prolific-invitations-api
+- collection_type: open
+  name: API Reference aiTaskBuilder messages API
+  slug: open-prolific-messages-api
+- collection_type: open
+  name: API Reference aiTaskBuilder participantGroups API
+  slug: open-prolific-participantgroups-api
+- collection_type: open
+  name: API Reference aiTaskBuilder projects API
+  slug: open-prolific-projects-api
+- collection_type: open
+  name: API Reference aiTaskBuilder rewardRecommendations API
+  slug: open-prolific-rewardrecommendations-api
+- collection_type: open
+  name: API Reference aiTaskBuilder studies API
+  slug: open-prolific-studies-api
+- collection_type: open
+  name: API Reference aiTaskBuilder submissionFeedbackUpload API
+  slug: open-prolific-submissionfeedbackupload-api
+- collection_type: open
+  name: API Reference aiTaskBuilder submissions API
+  slug: open-prolific-submissions-api
+- collection_type: open
+  name: API Reference aiTaskBuilder surveys API
+  slug: open-prolific-surveys-api
+- collection_type: open
+  name: API Reference aiTaskBuilder users API
+  slug: open-prolific-users-api
+- collection_type: open
+  name: API Reference aiTaskBuilder webhooks API
+  slug: open-prolific-webhooks-api
+- collection_type: open
+  name: API Reference aiTaskBuilder wellKnownEndpoints API
+  slug: open-prolific-wellknownendpoints-api
+- collection_type: open
+  name: API Reference aiTaskBuilder workspaces API
+  slug: open-prolific-workspaces-api
 common:
 - group: company
   title: ''
@@ -238,7 +296,7 @@ overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Prolific''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 16
+random_paper: 111
 score:
   band: developing
   composite: 54.4
@@ -261,7 +319,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ arazzos:
 - description: Capture the current connection strings for an authorization rule, regenerate one of the keys, and read back the new credentials.
   name: Microsoft Azure Event Hubs Rotate Namespace Keys
   slug: microsoft-azure-event-hubs-rotate-namespace-keys-workflow
-artifact_total: 38
+artifact_total: 47
 asyncapis:
 - description: Azure Event Hubs is a big data streaming platform and event ingestion service that can receive and process millions of events per second. This AsyncAPI specification describes the event-driven messagi
   name: Azure Event Hubs Messaging API
@@ -107,11 +107,38 @@ collections:
   name: Azure Event Hubs Management REST API
   slug: postman-azure-event-hubs-management
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Event Hubs Data Plane REST API
   slug: open-azure-event-hubs-data-plane
 - collection_type: open
   name: Azure Event Hubs Management REST API
   slug: open-azure-event-hubs-management
+- collection_type: open
+  name: Azure Event Hubs Data Plane REST Authorization Rules API
+  slug: open-microsoft-azure-event-hubs-authorization-rules-api
+- collection_type: open
+  name: Azure Event Hubs Data Plane REST Authorization Rules Consumer Groups API
+  slug: open-microsoft-azure-event-hubs-consumer-groups-api
+- collection_type: open
+  name: Azure Event Hubs Data Plane REST Authorization Rules Disaster Recovery Configs API
+  slug: open-microsoft-azure-event-hubs-disaster-recovery-configs-api
+- collection_type: open
+  name: Azure Data Plane REST Authorization Rules Event Hubs API
+  slug: open-microsoft-azure-event-hubs-event-hubs-api
+- collection_type: open
+  name: Azure Event Hubs Data Plane REST Authorization Rules Events API
+  slug: open-microsoft-azure-event-hubs-events-api
+- collection_type: open
+  name: Azure Event Hubs Data Plane REST Authorization Rules Namespaces API
+  slug: open-microsoft-azure-event-hubs-namespaces-api
+- collection_type: open
+  name: Azure Event Hubs Data Plane REST Authorization Rules Operations API
+  slug: open-microsoft-azure-event-hubs-operations-api
+- collection_type: open
+  name: Azure Event Hubs Data Plane REST Authorization Rules Schema Registry API
+  slug: open-microsoft-azure-event-hubs-schema-registry-api
 common:
 - group: agent
   title: ''
@@ -317,7 +344,7 @@ plans:
 - name: Microsoft Azure Event Hubs Plans Pricing
   plan_count: 4
   slug: microsoft-azure-event-hubs-plans-pricing
-random_paper: 8
+random_paper: 115
 rate_limits:
 - limit_count: 7
   name: Microsoft Azure Event Hubs Rate Limits
@@ -364,7 +391,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/screenshots/microsoft-azure-event-hubs-2026-06-20T185412.png
 security:

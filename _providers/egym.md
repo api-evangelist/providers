@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 72.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - description: Official hosted Model Context Protocol server published by EGYM at developer.egym.com/mcp and documented on the portal with copy-paste Codex configuration. Exposes six tools over the API catalog and d
   name: EGYM Documentation MCP Server
   slug: mcp-docs
-artifact_total: 19
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Egym Events Webhooks
@@ -66,6 +66,31 @@ asyncapis:
 - description: DERIVED, NOT PUBLISHED BY EGYM. EGYM documents its webhook surface in prose at https://developer.egym.com/general/webhooks and manages subscriptions through the MMS API V2 OpenAPI document, but publis
   name: EGYM MMS Webhook Events
   slug: egym-mms-events-asyncapi
+collections:
+- collection_type: open
+  name: Canonical GroupX Classes API
+  slug: open-egym-canonical-groupx-classes
+- collection_type: open
+  name: DATA EXPORT API
+  slug: open-egym-data-export
+- collection_type: open
+  name: Data Hub API
+  slug: open-egym-data-hub
+- collection_type: open
+  name: Equipment Vendor API (for server-to-server cases)
+  slug: open-egym-equipment-vendor-server
+- collection_type: open
+  name: Equipment Vendor API (for standalone clients)
+  slug: open-egym-equipment-vendor-standalone
+- collection_type: open
+  name: MMS API v1
+  slug: open-egym-mms-api-v1
+- collection_type: open
+  name: MMS API V2
+  slug: open-egym-mms-api-v2
+- collection_type: open
+  name: OpenAPI definition
+  slug: open-egym-user-connect
 common:
 - group: agent
   title: ''
@@ -267,7 +292,7 @@ plans:
 - name: Egym Plans Pricing
   plan_count: 0
   slug: egym-plans-pricing
-random_paper: 74
+random_paper: 136
 rate_limits:
 - limit_count: 1
   name: Egym Rate Limits
@@ -280,6 +305,7 @@ scopes:
 score:
   band: strong
   composite: 59.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.3
@@ -287,6 +313,7 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 73.7
+  previous_composite: 59.8
   regulatory:
     applies: true
     matched_via: tags
@@ -294,7 +321,8 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Egym Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +60,35 @@ apis:
 - description: The Visa API from Basetrip — 1 operation(s) for visa.
   name: Basetrip Visa API
   slug: basetrip-visa-api
-artifact_total: 68
+artifact_total: 76
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Basetrip API
   slug: open-basetrip-api
+- collection_type: open
+  name: Basetrip Cities API
+  slug: open-basetrip-cities-api
+- collection_type: open
+  name: Basetrip Cities Cost API
+  slug: open-basetrip-cost-api
+- collection_type: open
+  name: Basetrip Cities Countries API
+  slug: open-basetrip-countries-api
+- collection_type: open
+  name: Basetrip Cities Health API
+  slug: open-basetrip-health-api
+- collection_type: open
+  name: Basetrip Cities Phrases API
+  slug: open-basetrip-phrases-api
+- collection_type: open
+  name: Basetrip Cities Safety API
+  slug: open-basetrip-safety-api
+- collection_type: open
+  name: Basetrip Cities Visa API
+  slug: open-basetrip-visa-api
 common:
 - group: agent
   title: ''
@@ -277,7 +301,7 @@ plans:
 - name: Basetrip Plans Pricing
   plan_count: 3
   slug: basetrip-plans-pricing
-random_paper: 18
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Basetrip Rate Limits
@@ -325,7 +349,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/screenshots/basetrip-2026-06-20T173027.png
 security:

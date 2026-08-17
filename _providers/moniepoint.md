@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ arazzos:
 - description: Create a customer wallet, read its available and ledger balance, then list its transactions.
   name: Moniepoint Create Wallet And Check Balance
   slug: moniepoint-wallet-balance-check-workflow
-artifact_total: 97
+artifact_total: 116
 collections:
 - collection_type: postman
   name: Moniepoint POS Push Payment API
@@ -178,8 +178,65 @@ collections:
   name: Monnify Wallets API
   slug: postman-monnify-wallets-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication API
+  slug: open-moniepoint-authentication-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Banks API
+  slug: open-moniepoint-banks-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Bills Payment API
+  slug: open-moniepoint-bills-payment-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Bulk Transfers API
+  slug: open-moniepoint-bulk-transfers-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Debits API
+  slug: open-moniepoint-debits-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Invoices API
+  slug: open-moniepoint-invoices-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Limit Profiles API
+  slug: open-moniepoint-limit-profiles-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Mandates API
+  slug: open-moniepoint-mandates-api
+- collection_type: open
   name: Moniepoint POS Push Payment API
   slug: open-moniepoint-pos-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Push Payments API
+  slug: open-moniepoint-push-payments-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Refunds API
+  slug: open-moniepoint-refunds-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Reserved Accounts API
+  slug: open-moniepoint-reserved-accounts-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Settlements API
+  slug: open-moniepoint-settlements-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Single Transfers API
+  slug: open-moniepoint-single-transfers-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Sub-Accounts API
+  slug: open-moniepoint-sub-accounts-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Transactions API
+  slug: open-moniepoint-transactions-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Verification API
+  slug: open-moniepoint-verification-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Wallet API
+  slug: open-moniepoint-wallet-api
+- collection_type: open
+  name: Moniepoint POS Push Payment Authentication Wallets API
+  slug: open-moniepoint-wallets-api
 - collection_type: open
   name: Monnify Authentication API
   slug: open-monnify-authentication-api
@@ -516,7 +573,7 @@ plans:
 - name: Moniepoint Plans Pricing
   plan_count: 3
   slug: moniepoint-plans-pricing
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 9
   name: Moniepoint Rate Limits
@@ -564,7 +621,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/screenshots/moniepoint-2026-06-20T185727.png
 security:

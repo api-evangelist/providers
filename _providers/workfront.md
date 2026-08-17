@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -44,11 +44,18 @@ apis:
 - description: Adobe's hosted Model Context Protocol server for Workfront, generally available since June 2026. It exposes 87 documented tools across three families — Approvals (documents, approval workflows, remind
   name: Adobe Workfront MCP Server
   slug: workfront-mcp-server
-artifact_total: 15
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Workfront Event Subscriptions Webhooks
   slug: workfront-event-subscriptions-webhooks
+collections:
+- collection_type: open
+  name: Workfront Planning API Version 1
+  slug: open-workfront-planning-v1
+- collection_type: open
+  name: Workfront Planning API Version 2
+  slug: open-workfront-planning-v2
 common:
 - group: agent
   title: ''
@@ -225,7 +232,7 @@ plans:
 - name: Workfront Plans Pricing
   plan_count: 3
   slug: workfront-plans-pricing
-random_paper: 44
+random_paper: 110
 rate_limits:
 - limit_count: 9
   name: Workfront Rate Limits
@@ -238,6 +245,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.7
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 58.6
@@ -245,8 +253,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 94.7
+  previous_composite: 69.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Workfront Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 7
@@ -84,7 +84,50 @@ apis:
 - description: The transactions API from Apache Ignite — 2 operation(s) for transactions.
   name: Apache Ignite transactions API
   slug: apache-ignite-transactions-api
-artifact_total: 160
+artifact_total: 174
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration API
+  slug: open-apache-ignite-clusterconfiguration-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration clusterManagement API
+  slug: open-apache-ignite-clustermanagement-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration clusterMetric API
+  slug: open-apache-ignite-clustermetric-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration compute API
+  slug: open-apache-ignite-compute-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration deployment API
+  slug: open-apache-ignite-deployment-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration nodeConfiguration API
+  slug: open-apache-ignite-nodeconfiguration-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration nodeManagement API
+  slug: open-apache-ignite-nodemanagement-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration nodeMetric API
+  slug: open-apache-ignite-nodemetric-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration recovery API
+  slug: open-apache-ignite-recovery-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration sql API
+  slug: open-apache-ignite-sql-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration system API
+  slug: open-apache-ignite-system-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration topology API
+  slug: open-apache-ignite-topology-api
+- collection_type: open
+  name: Apache Ignite REST module clusterConfiguration transactions API
+  slug: open-apache-ignite-transactions-api
 common:
 - group: build
   title: ''
@@ -560,7 +603,7 @@ plans:
 - name: Apache Ignite Plans Pricing
   plan_count: 3
   slug: apache-ignite-plans-pricing
-random_paper: 95
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Apache Ignite Rate Limits
@@ -608,7 +651,7 @@ score:
     regime_id: energy_utilities
     score: 36.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/screenshots/apache-ignite-2026-06-20T172109.png
 security:

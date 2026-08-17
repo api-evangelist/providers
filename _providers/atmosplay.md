@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,7 +121,7 @@ plans:
 - name: Atmosplay Plans Pricing
   plan_count: 0
   slug: atmosplay-plans-pricing
-random_paper: 26
+random_paper: 92
 rate_limits:
 - limit_count: 0
   name: Atmosplay Rate Limits
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.2
-  delta: 8.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -137,10 +137,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 8.7
+  previous_composite: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/screenshots/atmosplay-2026-07-25T201559.png
 security:
 - kind: authentication

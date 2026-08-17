@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -77,12 +77,48 @@ apis:
 - description: The TimeEntries API from FreshBooks — 1 operation(s) for timeentries.
   name: FreshBooks TimeEntries API
   slug: freshbooks-timeentries-api
-artifact_total: 19
+artifact_total: 31
 asyncapis:
 - description: Best-effort AsyncAPI 2.6 description of the FreshBooks Webhooks (Callbacks API) surface. FreshBooks delivers webhook notifications as HTTP POST requests with an `application/x-www-form-urlencoded` bod
   name: FreshBooks Webhooks (Callbacks API)
   slug: freshbooks-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FreshBooks REST Auth API
+  slug: open-freshbooks-auth-api
+- collection_type: open
+  name: FreshBooks REST Auth Clients API
+  slug: open-freshbooks-clients-api
+- collection_type: open
+  name: FreshBooks REST Auth Estimates API
+  slug: open-freshbooks-estimates-api
+- collection_type: open
+  name: FreshBooks REST Auth Expenses API
+  slug: open-freshbooks-expenses-api
+- collection_type: open
+  name: FreshBooks REST Auth Invoices API
+  slug: open-freshbooks-invoices-api
+- collection_type: open
+  name: FreshBooks REST Auth Items API
+  slug: open-freshbooks-items-api
+- collection_type: open
+  name: FreshBooks REST Auth Payments API
+  slug: open-freshbooks-payments-api
+- collection_type: open
+  name: FreshBooks REST Auth Projects API
+  slug: open-freshbooks-projects-api
+- collection_type: open
+  name: FreshBooks REST Auth Tasks API
+  slug: open-freshbooks-tasks-api
+- collection_type: open
+  name: FreshBooks REST Auth Taxes API
+  slug: open-freshbooks-taxes-api
+- collection_type: open
+  name: FreshBooks REST Auth TimeEntries API
+  slug: open-freshbooks-timeentries-api
 - collection_type: open
   name: FreshBooks REST API
   slug: open-freshbooks
@@ -154,7 +190,7 @@ overview: 'FreshBooks publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FreshBooks'' developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 118
+random_paper: 35
 rules:
 - name: FreshBooks API Rules
   rule_count: 6
@@ -184,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/screenshots/freshbooks-2026-06-20T181538.png
 security:

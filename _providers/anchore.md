@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -76,11 +76,32 @@ arazzos:
 - description: Evaluate an analyzed image against policy and, when it fails the gate, subscribe to ongoing policy-evaluation notifications for its tag.
   name: Anchore Subscribe on Policy Failure
   slug: anchore-subscribe-on-policy-fail-workflow
-artifact_total: 44
+artifact_total: 51
 collections:
 - collection_type: postman
   name: Anchore Enterprise API
   slug: postman-anchore-enterprise-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anchore Enterprise Images API
+  slug: open-anchore-images-api
+- collection_type: open
+  name: Anchore Enterprise Images Policies API
+  slug: open-anchore-policies-api
+- collection_type: open
+  name: Anchore Enterprise Images Registries API
+  slug: open-anchore-registries-api
+- collection_type: open
+  name: Anchore Enterprise Images SBOM API
+  slug: open-anchore-sbom-api
+- collection_type: open
+  name: Anchore Enterprise Images Subscriptions API
+  slug: open-anchore-subscriptions-api
+- collection_type: open
+  name: Anchore Enterprise Images Vulnerabilities API
+  slug: open-anchore-vulnerabilities-api
 common:
 - group: agent
   title: ''
@@ -259,7 +280,7 @@ plans:
 - name: Anchore Plans Pricing
   plan_count: 3
   slug: anchore-plans-pricing
-random_paper: 16
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Anchore Rate Limits
@@ -301,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/screenshots/anchore-2026-07-25T200203.png
 security:

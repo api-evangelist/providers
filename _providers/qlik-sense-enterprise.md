@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -136,17 +136,71 @@ apis:
 - description: Manage virtual proxy configurations
   name: Qlik Sense Enterprise Virtual Proxy API
   slug: qlik-sense-enterprise-virtual-proxy-api
-artifact_total: 115
+artifact_total: 146
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About API
+  slug: open-qlik-sense-enterprise-about-api
 - collection_type: open
   name: Qlik Sense Enterprise Qlik Sense About Service API
   slug: open-qlik-sense-enterprise-about-service
 - collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Access Type API
+  slug: open-qlik-sense-enterprise-access-type-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About App API
+  slug: open-qlik-sense-enterprise-app-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About App Object API
+  slug: open-qlik-sense-enterprise-app-object-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Components API
+  slug: open-qlik-sense-enterprise-components-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Content Library API
+  slug: open-qlik-sense-enterprise-content-library-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Custom Property API
+  slug: open-qlik-sense-enterprise-custom-property-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Data Connection API
+  slug: open-qlik-sense-enterprise-data-connection-api
+- collection_type: open
   name: Qlik Sense Enterprise Qlik Sense Data Connection API
   slug: open-qlik-sense-enterprise-data-connection
 - collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Extension API
+  slug: open-qlik-sense-enterprise-extension-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About External URLs API
+  slug: open-qlik-sense-enterprise-external-urls-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Health API
+  slug: open-qlik-sense-enterprise-health-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About License API
+  slug: open-qlik-sense-enterprise-license-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About License Audit API
+  slug: open-qlik-sense-enterprise-license-audit-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About License Rule API
+  slug: open-qlik-sense-enterprise-license-rule-api
+- collection_type: open
   name: Qlik Sense Enterprise Qlik Sense Licenses API
   slug: open-qlik-sense-enterprise-licenses
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Links API
+  slug: open-qlik-sense-enterprise-links-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Load Balancing API
+  slug: open-qlik-sense-enterprise-load-balancing-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Notification API
+  slug: open-qlik-sense-enterprise-notification-api
 - collection_type: open
   name: Qlik Sense Enterprise Qlik Sense ODAG Service API
   slug: open-qlik-sense-enterprise-odag-service
@@ -154,8 +208,47 @@ collections:
   name: Qlik Sense Enterprise Qlik Sense Proxy Service API
   slug: open-qlik-sense-enterprise-proxy-service
 - collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Reload Task API
+  slug: open-qlik-sense-enterprise-reload-task-api
+- collection_type: open
   name: Qlik Sense Enterprise Qlik Sense Repository Service API
   slug: open-qlik-sense-enterprise-repository-service
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Requests API
+  slug: open-qlik-sense-enterprise-requests-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Security Rule API
+  slug: open-qlik-sense-enterprise-security-rule-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Server Node API
+  slug: open-qlik-sense-enterprise-server-node-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Session API
+  slug: open-qlik-sense-enterprise-session-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Stream API
+  slug: open-qlik-sense-enterprise-stream-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About System Info API
+  slug: open-qlik-sense-enterprise-system-info-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Tag API
+  slug: open-qlik-sense-enterprise-tag-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Task API
+  slug: open-qlik-sense-enterprise-task-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Third Party API
+  slug: open-qlik-sense-enterprise-third-party-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About User API
+  slug: open-qlik-sense-enterprise-user-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About User Directory API
+  slug: open-qlik-sense-enterprise-user-directory-api
+- collection_type: open
+  name: Qlik Sense Enterprise Qlik Sense Service About Virtual Proxy API
+  slug: open-qlik-sense-enterprise-virtual-proxy-api
 common:
 - group: agent
   title: ''
@@ -467,7 +560,7 @@ plans:
 - name: Qlik Sense Enterprise Plans Pricing
   plan_count: 1
   slug: qlik-sense-enterprise-plans-pricing
-random_paper: 114
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Qlik Sense Enterprise Rate Limits
@@ -501,7 +594,7 @@ score:
       marker_coverage: 0.0
       total: 30
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/screenshots/qlik-sense-enterprise-2026-06-20T192341.png
 security:

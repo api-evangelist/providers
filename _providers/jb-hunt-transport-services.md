@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,11 +53,29 @@ apis:
 - description: Near real-time freight shipment tracking.
   name: J.B. Hunt Transport Services Tracking API
   slug: jb-hunt-transport-services-tracking-api
-artifact_total: 11
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: J.B. Hunt 360 Connect API
   slug: open-jb-hunt-360-connect-api
+- collection_type: open
+  name: J.B. Hunt 360 Connect Documents API
+  slug: open-jb-hunt-transport-services-documents-api
+- collection_type: open
+  name: J.B. Hunt 360 Connect Documents Orders API
+  slug: open-jb-hunt-transport-services-orders-api
+- collection_type: open
+  name: J.B. Hunt 360 Connect Documents Quotes API
+  slug: open-jb-hunt-transport-services-quotes-api
+- collection_type: open
+  name: J.B. Hunt 360 Connect Documents Scheduling API
+  slug: open-jb-hunt-transport-services-scheduling-api
+- collection_type: open
+  name: J.B. Hunt 360 Connect Documents Tracking API
+  slug: open-jb-hunt-transport-services-tracking-api
 common:
 - group: agent
   title: ''
@@ -131,7 +149,7 @@ press:
 - date: '2026-05-25'
   title: J.B. Hunt Teams up with Google for Next-Generation ...
   url: https://www.truckinginfo.com/news/j-b-hunt-teams-up-with-google-for-next-generation-supply-chain-technology
-random_paper: 19
+random_paper: 126
 rate_limits:
 - limit_count: 1
   name: Jb Hunt Transport Services Rate Limits
@@ -156,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/screenshots/jb-hunt-transport-services-2026-06-20T183810.png
 security:

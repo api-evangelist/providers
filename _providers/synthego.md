@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Order API from Synthego — 3 operation(s) for order.
   name: Synthego Order API
   slug: synthego-order-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Synthego Order API
+  slug: open-synthego-order-api
 common:
 - group: other
   title: ''
@@ -147,7 +154,7 @@ overview: 'Synthego publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Synthego''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 41
+random_paper: 136
 score:
   band: thin
   composite: 35.2
@@ -177,7 +184,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Subscribe to document lifecycle events via webhook callbacks.
   name: SignWell Webhooks API
   slug: signwell-webhooks-api
-artifact_total: 128
+artifact_total: 136
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SignWell Developer API Application API
+  slug: open-signwell-api-application-api
+- collection_type: open
+  name: SignWell Developer API Application Bulk Send API
+  slug: open-signwell-bulk-send-api
+- collection_type: open
+  name: SignWell Developer API Application Document API
+  slug: open-signwell-document-api
+- collection_type: open
+  name: SignWell Developer API Application Me API
+  slug: open-signwell-me-api
+- collection_type: open
+  name: SignWell Developer API Application Regional API
+  slug: open-signwell-regional-api
+- collection_type: open
+  name: SignWell Developer API Application Template API
+  slug: open-signwell-template-api
+- collection_type: open
+  name: SignWell Developer API Application Webhooks API
+  slug: open-signwell-webhooks-api
 common:
 - group: agent
   title: ''
@@ -497,7 +522,7 @@ plans:
 - name: Signwell Plans Pricing
   plan_count: 7
   slug: signwell-plans-pricing
-random_paper: 29
+random_paper: 124
 rate_limits:
 - limit_count: 3
   name: Signwell Rate Limits
@@ -531,7 +556,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/screenshots/signwell-2026-06-20T193916.png
 security:

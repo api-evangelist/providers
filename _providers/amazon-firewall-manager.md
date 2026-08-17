@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -79,11 +79,29 @@ arazzos:
 - description: Create a resource set and then create a policy scoped to the same resource type.
   name: Amazon Firewall Manager Resource Set Driven Policy
   slug: amazon-firewall-manager-resource-set-driven-policy-workflow
-artifact_total: 54
+artifact_total: 60
 collections:
 - collection_type: postman
   name: AWS Firewall Manager API
   slug: postman-amazon-firewall-manager
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Firewall Manager Admin Accounts API
+  slug: open-amazon-firewall-manager-admin-accounts-api
+- collection_type: open
+  name: AWS Firewall Manager Admin Accounts Compliance API
+  slug: open-amazon-firewall-manager-compliance-api
+- collection_type: open
+  name: AWS Firewall Manager Admin Accounts Member Accounts API
+  slug: open-amazon-firewall-manager-member-accounts-api
+- collection_type: open
+  name: AWS Firewall Manager Admin Accounts Policies API
+  slug: open-amazon-firewall-manager-policies-api
+- collection_type: open
+  name: AWS Firewall Manager Admin Accounts Resources API
+  slug: open-amazon-firewall-manager-resources-api
 - collection_type: open
   name: AWS Firewall Manager API
   slug: open-amazon-firewall-manager
@@ -299,7 +317,7 @@ plans:
 - name: Amazon Firewall Manager Plans Pricing
   plan_count: 3
   slug: amazon-firewall-manager-plans-pricing
-random_paper: 41
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Amazon Firewall Manager Rate Limits
@@ -341,7 +359,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/screenshots/amazon-firewall-manager-2026-06-20T171659.png
 security:

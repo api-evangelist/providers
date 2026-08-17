@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -46,7 +46,26 @@ apis:
 - description: Bank account configuration / registry management — create, read and manage the biller bank accounts into which collected payments settle. 3 documented operations.
   name: Ordo Registry Manager API
   slug: ordo-registry-manager-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: ACCOUNT DATA - Client Hosted
+  slug: open-ordo-account-data-client-hosted
+- collection_type: open
+  name: ACCOUNT DATA - Ordo Hosted
+  slug: open-ordo-account-data-ordo-hosted
+- collection_type: open
+  name: Recurring Payment Mandates
+  slug: open-ordo-recurring-payment-mandates
+- collection_type: open
+  name: Bank account configuration
+  slug: open-ordo-registry-manager
+- collection_type: open
+  name: Single Payments
+  slug: open-ordo-single-payments
+- collection_type: open
+  name: Single Payments
+  slug: open-ordo-smart-request-manager
 common:
 - group: auth
   title: ''
@@ -145,7 +164,7 @@ overview: 'Ordo publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ordo''s developer surface includes authentication, API reference, getting-started guide, support, and 16 more developer resources.'
-random_paper: 76
+random_paper: 138
 score:
   band: thin
   composite: 38.0
@@ -175,7 +194,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/screenshots/ordo-2026-08-07T190918.png
 security:

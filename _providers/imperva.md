@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 304
   human_in_the_loop: 8
@@ -84,7 +84,50 @@ apis:
 - description: Retrieve traffic statistics and logs for sites or accounts.
   name: Imperva Traffic Statistics and Logs API
   slug: imperva-traffic-statistics-and-logs-api
-artifact_total: 32
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloud Application Security Account Management API
+  slug: open-imperva-account-management-api
+- collection_type: open
+  name: Cloud Application Security Account Management Administration API
+  slug: open-imperva-administration-api
+- collection_type: open
+  name: Cloud Application Security Account Management Auth API
+  slug: open-imperva-auth-api
+- collection_type: open
+  name: Cloud Application Security Account Management Conf API
+  slug: open-imperva-conf-api
+- collection_type: open
+  name: Cloud Application Security Account Management DDoS for Networks Test Alerts API
+  slug: open-imperva-ddos-for-networks-test-alerts-api
+- collection_type: open
+  name: Cloud Application Security Account Management DDoS Protection for Individual IPs API
+  slug: open-imperva-ddos-protection-for-individual-ips-api
+- collection_type: open
+  name: Cloud Application Security Account Management Experimental API
+  slug: open-imperva-experimental-api
+- collection_type: open
+  name: Cloud Application Security Account Management Integrations API
+  slug: open-imperva-integrations-api
+- collection_type: open
+  name: Cloud Application Security Account Management Login Protect API
+  slug: open-imperva-login-protect-api
+- collection_type: open
+  name: Cloud Application Security Account Management API
+  slug: open-imperva-management-api
+- collection_type: open
+  name: Cloud Application Security Account Management Site Management API
+  slug: open-imperva-site-management-api
+- collection_type: open
+  name: Cloud Application Security Account Management Status API
+  slug: open-imperva-status-api
+- collection_type: open
+  name: Cloud Application Security Account Management Traffic Statistics and Logs API
+  slug: open-imperva-traffic-statistics-and-logs-api
 common:
 - group: agent
   title: ''
@@ -208,7 +251,7 @@ plans:
 - name: Imperva Plans Pricing
   plan_count: 7
   slug: imperva-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Imperva Rate Limits
@@ -242,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/screenshots/imperva-2026-06-20T183300.png
 security:

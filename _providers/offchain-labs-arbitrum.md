@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,7 +111,7 @@ overview: 'Offchain Labs (Arbitrum) is profiled on the [APIs.io](https://apis.io
 
 
   Offchain Labs (Arbitrum)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, changelog, and 11 more developer resources.'
-random_paper: 48
+random_paper: 122
 score:
   band: emerging
   composite: 21.9
@@ -125,7 +125,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offchain-labs-arbitrum/refs/heads/main/screenshots/offchain-labs-arbitrum-2026-08-07T190017.png
 security:

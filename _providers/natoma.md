@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -144,7 +144,7 @@ overview: 'Natoma is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Natoma''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 17 more developer resources.'
-random_paper: 40
+random_paper: 44
 score:
   band: thin
   composite: 34.3
@@ -161,7 +161,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/screenshots/natoma-2026-08-07T184657.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 1
@@ -123,7 +123,89 @@ apis:
 - description: The user API from Vrije Universiteit Amsterdam — 7 operation(s) for user.
   name: Vrije Universiteit Amsterdam user API
   slug: vrije-universiteit-amsterdam-user-api
-artifact_total: 45
+artifact_total: 72
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-vrije-universiteit-amsterdam-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-vrije-universiteit-amsterdam-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-vrije-universiteit-amsterdam-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-vrije-universiteit-amsterdam-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-vrije-universiteit-amsterdam-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-vrije-universiteit-amsterdam-concept-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-vrije-universiteit-amsterdam-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-vrije-universiteit-amsterdam-dataset-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-vrije-universiteit-amsterdam-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-vrije-universiteit-amsterdam-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-vrije-universiteit-amsterdam-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-vrije-universiteit-amsterdam-externalperson-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-vrije-universiteit-amsterdam-fundingopportunity-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-vrije-universiteit-amsterdam-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-vrije-universiteit-amsterdam-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-vrije-universiteit-amsterdam-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-vrije-universiteit-amsterdam-person-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-vrije-universiteit-amsterdam-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-vrije-universiteit-amsterdam-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-vrije-universiteit-amsterdam-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-vrije-universiteit-amsterdam-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-vrije-universiteit-amsterdam-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-vrije-universiteit-amsterdam-role-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-vrije-universiteit-amsterdam-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-vrije-universiteit-amsterdam-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-vrije-universiteit-amsterdam-user-api
 common:
 - group: agent
   title: ''
@@ -228,7 +310,7 @@ plans:
 - name: Vrije Universiteit Amsterdam Plans Pricing
   plan_count: 2
   slug: vrije-universiteit-amsterdam-plans-pricing
-random_paper: 35
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Vrije Universiteit Amsterdam Rate Limits
@@ -276,7 +358,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/screenshots/vrije-universiteit-amsterdam-2026-06-20T201145.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Interchange API from Singularity — 2 operation(s) for interchange.
   name: Singularity Interchange API
   slug: singularity-energy-interchange-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Singularity Grid Carbon Emissions API
+  slug: open-singularity-energy-emissions-api
+- collection_type: open
+  name: Singularity Grid Carbon Emissions Events API
+  slug: open-singularity-energy-events-api
+- collection_type: open
+  name: Singularity Grid Carbon Emissions Interchange API
+  slug: open-singularity-energy-interchange-api
 - collection_type: open
   name: Singularity Grid Carbon API
   slug: open-singularity-energy
@@ -118,7 +130,7 @@ plans:
 - name: Singularity Energy Plans Pricing
   plan_count: 3
   slug: singularity-energy-plans-pricing
-random_paper: 106
+random_paper: 118
 rate_limits:
 - limit_count: 3
   name: Singularity Energy Rate Limits
@@ -149,7 +161,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

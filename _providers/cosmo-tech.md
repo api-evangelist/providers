@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 16
@@ -59,7 +59,32 @@ apis:
 - description: Workspace Management
   name: Cosmo Tech workspace API
   slug: cosmo-tech-workspace-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cosmo Tech Manager dataset API
+  slug: open-cosmo-tech-dataset-api
+- collection_type: open
+  name: Cosmo Tech Manager dataset meta API
+  slug: open-cosmo-tech-meta-api
+- collection_type: open
+  name: Cosmo Tech Manager dataset organization API
+  slug: open-cosmo-tech-organization-api
+- collection_type: open
+  name: Cosmo Tech Manager dataset run API
+  slug: open-cosmo-tech-run-api
+- collection_type: open
+  name: Cosmo Tech Manager dataset runner API
+  slug: open-cosmo-tech-runner-api
+- collection_type: open
+  name: Cosmo Tech Manager dataset solution API
+  slug: open-cosmo-tech-solution-api
+- collection_type: open
+  name: Cosmo Tech Manager dataset workspace API
+  slug: open-cosmo-tech-workspace-api
 common:
 - group: other
   title: ''
@@ -185,7 +210,7 @@ overview: 'Cosmo Tech publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cosmo Tech''s developer surface includes documentation, API reference, support, CLI, authentication, changelog, and 21 more developer resources.'
-random_paper: 50
+random_paper: 116
 scopes:
 - name: Cosmo Tech Scopes
   scope_count: 0
@@ -214,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/screenshots/cosmo-tech-2026-07-25T210455.png
 security:

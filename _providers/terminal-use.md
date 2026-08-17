@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 2
@@ -122,11 +122,99 @@ apis:
 - description: The Versions API from Terminal Use — 6 operation(s) for versions.
   name: Terminal Use Versions API
   slug: terminal-use-versions-api
-artifact_total: 33
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Terminal Use Webhooks
   slug: terminal-use-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sb0 Agent APIKeys API
+  slug: open-terminal-use-agent-apikeys-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Agent Task Tracker API
+  slug: open-terminal-use-agent-task-tracker-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Agents API
+  slug: open-terminal-use-agents-api
+- collection_type: open
+  name: Sb0 Agent APIKeys API Keys API
+  slug: open-terminal-use-api-keys-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Authentication API
+  slug: open-terminal-use-authentication-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Branch Events API
+  slug: open-terminal-use-branch-events-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Branches API
+  slug: open-terminal-use-branches-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Builds API
+  slug: open-terminal-use-builds-api
+- collection_type: open
+  name: Sb0 Agent APIKeys CLI Authentication API
+  slug: open-terminal-use-cli-authentication-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Environments API
+  slug: open-terminal-use-environments-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Events API
+  slug: open-terminal-use-events-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Filesystems API
+  slug: open-terminal-use-filesystems-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Groups API
+  slug: open-terminal-use-groups-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Logs API
+  slug: open-terminal-use-logs-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Messages v2 API
+  slug: open-terminal-use-messages-v2-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Namespaces API
+  slug: open-terminal-use-namespaces-api
+- collection_type: open
+  name: Sb0 Agent APIKeys OAuth API
+  slug: open-terminal-use-oauth-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Organizations API
+  slug: open-terminal-use-organizations-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Projects API
+  slug: open-terminal-use-projects-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Raw Events API
+  slug: open-terminal-use-raw-events-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Registry API
+  slug: open-terminal-use-registry-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Schedules API
+  slug: open-terminal-use-schedules-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Search API
+  slug: open-terminal-use-search-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Secrets API
+  slug: open-terminal-use-secrets-api
+- collection_type: open
+  name: Sb0 Agent APIKeys States API
+  slug: open-terminal-use-states-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Tasks API
+  slug: open-terminal-use-tasks-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Version Events API
+  slug: open-terminal-use-version-events-api
+- collection_type: open
+  name: Sb0 Agent APIKeys Versions API
+  slug: open-terminal-use-versions-api
 common:
 - group: agent
   title: ''
@@ -243,7 +331,7 @@ overview: 'Terminal Use publishes 28 APIs on the [APIs.io](https://apis.io/) net
 
 
   Terminal Use''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 38
+random_paper: 46
 score:
   band: thin
   composite: 40.6
@@ -267,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

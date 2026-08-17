@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -72,7 +72,38 @@ arazzos:
 - description: Authenticate, then upsert accounting dimensions and vendors so invoices can be auto-coded and matched.
   name: Sync ERP master data into Ottimate
   slug: qubiqle-sync-erp-master-data
-artifact_total: 17
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference accounts API
+  slug: open-qubiqle-accounts-api
+- collection_type: open
+  name: API Reference accounts batch API
+  slug: open-qubiqle-batch-api
+- collection_type: open
+  name: API Reference accounts catalog API
+  slug: open-qubiqle-catalog-api
+- collection_type: open
+  name: API Reference accounts dimensions API
+  slug: open-qubiqle-dimensions-api
+- collection_type: open
+  name: API Reference accounts invoices API
+  slug: open-qubiqle-invoices-api
+- collection_type: open
+  name: API Reference accounts oauth API
+  slug: open-qubiqle-oauth-api
+- collection_type: open
+  name: API Reference accounts purchaseOrders API
+  slug: open-qubiqle-purchaseorders-api
+- collection_type: open
+  name: API Reference accounts receipts API
+  slug: open-qubiqle-receipts-api
+- collection_type: open
+  name: API Reference accounts vendors API
+  slug: open-qubiqle-vendors-api
 common:
 - group: other
   title: ''
@@ -218,7 +249,7 @@ overview: 'Qubiqle publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qubiqle''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 25 more developer resources.'
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Qubiqle Rate Limits
@@ -257,7 +288,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

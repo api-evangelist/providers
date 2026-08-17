@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: Taxonomy term resources (categories, types, units)
   name: farmOS Taxonomy API
   slug: farmos-taxonomy-api
-artifact_total: 21
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'farmOS JSON: Assets API'
+  slug: open-farmos-assets-api
+- collection_type: open
+  name: 'farmOS JSON: Assets Logs API'
+  slug: open-farmos-logs-api
+- collection_type: open
+  name: 'farmOS JSON: Assets Plans API'
+  slug: open-farmos-plans-api
+- collection_type: open
+  name: 'farmOS JSON: Assets Quantities API'
+  slug: open-farmos-quantities-api
+- collection_type: open
+  name: 'farmOS JSON: Assets Server Info API'
+  slug: open-farmos-server-info-api
+- collection_type: open
+  name: 'farmOS JSON: Assets Taxonomy API'
+  slug: open-farmos-taxonomy-api
 common:
 - group: operate
   title: ''
@@ -195,7 +217,7 @@ plans:
 - name: Farmos Plans Pricing
   plan_count: 4
   slug: farmos-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Farmos Rate Limits
@@ -234,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/screenshots/farmos-2026-06-20T181044.png
 security:

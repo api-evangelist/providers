@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -153,7 +153,119 @@ apis:
 - description: The user API from Queen's University Belfast — 7 operation(s) for user.
   name: Queen's University Belfast user API
   slug: queens-university-belfast-user-api
-artifact_total: 56
+artifact_total: 93
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-queens-university-belfast-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-queens-university-belfast-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-queens-university-belfast-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-queens-university-belfast-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-queens-university-belfast-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-queens-university-belfast-concept-api
+- collection_type: open
+  name: Pure activity conferenceSeries API
+  slug: open-queens-university-belfast-conferenceseries-api
+- collection_type: open
+  name: Pure activity contract API
+  slug: open-queens-university-belfast-contract-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-queens-university-belfast-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-queens-university-belfast-dataset-api
+- collection_type: open
+  name: Pure activity education API
+  slug: open-queens-university-belfast-education-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-queens-university-belfast-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-queens-university-belfast-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-queens-university-belfast-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-queens-university-belfast-externalperson-api
+- collection_type: open
+  name: Pure activity fingerprint API
+  slug: open-queens-university-belfast-fingerprint-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-queens-university-belfast-fundingopportunity-api
+- collection_type: open
+  name: Pure activity impact API
+  slug: open-queens-university-belfast-impact-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-queens-university-belfast-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-queens-university-belfast-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity milestone API
+  slug: open-queens-university-belfast-milestone-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-queens-university-belfast-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-queens-university-belfast-person-api
+- collection_type: open
+  name: Pure activity personExpertise API
+  slug: open-queens-university-belfast-personexpertise-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-queens-university-belfast-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-queens-university-belfast-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-queens-university-belfast-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-queens-university-belfast-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-queens-university-belfast-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-queens-university-belfast-role-api
+- collection_type: open
+  name: Pure activity semester API
+  slug: open-queens-university-belfast-semester-api
+- collection_type: open
+  name: Pure activity specialization API
+  slug: open-queens-university-belfast-specialization-api
+- collection_type: open
+  name: Pure activity studentProject API
+  slug: open-queens-university-belfast-studentproject-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-queens-university-belfast-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-queens-university-belfast-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-queens-university-belfast-user-api
 common:
 - group: agent
   title: ''
@@ -253,7 +365,7 @@ plans:
 - name: Queens University Belfast Plans Pricing
   plan_count: 2
   slug: queens-university-belfast-plans-pricing
-random_paper: 86
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Queens University Belfast Rate Limits
@@ -295,7 +407,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

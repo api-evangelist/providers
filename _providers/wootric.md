@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: Access survey template configurations
   name: Wootric Survey Templates API
   slug: wootric-survey-templates-api
-artifact_total: 23
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wootric Declines API
+  slug: open-wootric-declines-api
+- collection_type: open
+  name: Wootric Declines Email Surveys API
+  slug: open-wootric-email-surveys-api
+- collection_type: open
+  name: Wootric Declines End Users API
+  slug: open-wootric-end-users-api
+- collection_type: open
+  name: Wootric Declines Metrics API
+  slug: open-wootric-metrics-api
+- collection_type: open
+  name: Wootric Declines Responses API
+  slug: open-wootric-responses-api
+- collection_type: open
+  name: Wootric Declines Segments API
+  slug: open-wootric-segments-api
+- collection_type: open
+  name: Wootric Declines Settings API
+  slug: open-wootric-settings-api
+- collection_type: open
+  name: Wootric Declines Survey Templates API
+  slug: open-wootric-survey-templates-api
 common:
 - group: agent
   title: ''
@@ -172,7 +200,7 @@ plans:
 - name: Wootric Plans Pricing
   plan_count: 3
   slug: wootric-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Wootric Rate Limits
@@ -206,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/screenshots/wootric-2026-06-20T201542.png
 security:

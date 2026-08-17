@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'IMP Software is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   IMP Software''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 46
+random_paper: 54
 score:
   band: minimal
   composite: 11.3
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imp-software/refs/heads/main/screenshots/imp-software-2026-07-25T222138.png
 security:

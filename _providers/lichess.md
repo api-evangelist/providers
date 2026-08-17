@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -108,7 +108,7 @@ apis:
 - description: 'Access registered users on Lichess. <https://lichess.org/player> - Each user blog exposes an atom (RSS) feed, like <https://lichess.org/@/thibault/blog.atom> - User blogs mashup feed: https://lichess.'
   name: Lichess Users API
   slug: lichess-users-api
-artifact_total: 87
+artifact_total: 111
 asyncapis:
 - description: AsyncAPI description of Lichess's streaming surface. Lichess does NOT expose its public real-time API over WebSocket; instead, streams are delivered over plain HTTPS using chunked transfer encoding, w
   name: Lichess Streaming API
@@ -183,6 +183,78 @@ collections:
 - collection_type: postman
   name: Lichess.org API reference Account Users API
   slug: postman-lichess-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lichess.org API reference Account API
+  slug: open-lichess-account-api
+- collection_type: open
+  name: Lichess.org API reference Account Analysis API
+  slug: open-lichess-analysis-api
+- collection_type: open
+  name: Lichess.org API reference Account Board API
+  slug: open-lichess-board-api
+- collection_type: open
+  name: Lichess.org API reference Account Bot API
+  slug: open-lichess-bot-api
+- collection_type: open
+  name: Lichess.org API reference Account Broadcasts API
+  slug: open-lichess-broadcasts-api
+- collection_type: open
+  name: Lichess.org API reference Account Bulk pairings API
+  slug: open-lichess-bulk-pairings-api
+- collection_type: open
+  name: Lichess.org API reference Account Challenges API
+  slug: open-lichess-challenges-api
+- collection_type: open
+  name: Lichess.org API reference Account External engine API
+  slug: open-lichess-external-engine-api
+- collection_type: open
+  name: Lichess.org API reference Account FIDE API
+  slug: open-lichess-fide-api
+- collection_type: open
+  name: Lichess.org API reference Account Games API
+  slug: open-lichess-games-api
+- collection_type: open
+  name: Lichess.org API reference Account Messaging API
+  slug: open-lichess-messaging-api
+- collection_type: open
+  name: Lichess.org API reference Account OAuth API
+  slug: open-lichess-oauth-api
+- collection_type: open
+  name: Lichess.org API reference Account Opening Explorer API
+  slug: open-lichess-opening-explorer-api
+- collection_type: open
+  name: Lichess.org API reference Account Puzzles API
+  slug: open-lichess-puzzles-api
+- collection_type: open
+  name: Lichess.org API reference Account Relations API
+  slug: open-lichess-relations-api
+- collection_type: open
+  name: Lichess.org API reference Account Simuls API
+  slug: open-lichess-simuls-api
+- collection_type: open
+  name: Lichess.org API reference Account Studies API
+  slug: open-lichess-studies-api
+- collection_type: open
+  name: Lichess.org API reference Account Tablebase API
+  slug: open-lichess-tablebase-api
+- collection_type: open
+  name: Lichess.org API reference Account Teams API
+  slug: open-lichess-teams-api
+- collection_type: open
+  name: Lichess.org API reference Account Tournaments (Arena) API
+  slug: open-lichess-tournaments-arena-api
+- collection_type: open
+  name: Lichess.org API reference Account Tournaments (Swiss) API
+  slug: open-lichess-tournaments-swiss-api
+- collection_type: open
+  name: Lichess.org API reference Account TV API
+  slug: open-lichess-tv-api
+- collection_type: open
+  name: Lichess.org API reference Account Users API
+  slug: open-lichess-users-api
 - collection_type: open
   name: Lichess.org API reference
   slug: open-lichess
@@ -441,7 +513,7 @@ plans:
 - name: Lichess Plans Pricing
   plan_count: 2
   slug: lichess-plans-pricing
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 16
   name: Lichess Rate Limits
@@ -496,7 +568,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/screenshots/lichess-2026-06-20T184507.png
 security:

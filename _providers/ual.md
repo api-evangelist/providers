@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,11 +48,24 @@ apis:
 - description: Refunds of approved orders
   name: Ualá Refunds API
   slug: ual-refunds-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Ual Webhooks
   slug: ual-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ualá Bis API v2 Authentication API
+  slug: open-ual-authentication-api
+- collection_type: open
+  name: Ualá Bis API v2 Authentication Orders API
+  slug: open-ual-orders-api
+- collection_type: open
+  name: Ualá Bis API v2 Authentication Refunds API
+  slug: open-ual-refunds-api
 common:
 - group: other
   title: ''
@@ -193,7 +206,7 @@ overview: 'Ualá publishes 3 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Ualá''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 23 more developer resources.'
-random_paper: 82
+random_paper: 24
 score:
   band: developing
   composite: 49.7
@@ -223,7 +236,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

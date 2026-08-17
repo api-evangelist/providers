@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,11 +53,30 @@ apis:
 - description: Operations for getting reports.
   name: Zencoder Reports API
   slug: zencoder-reports-api
-artifact_total: 10
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Zencoder Notifications Webhooks
   slug: zencoder-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zencoder Accounts API
+  slug: open-zencoder-accounts-api
+- collection_type: open
+  name: Zencoder Accounts Inputs API
+  slug: open-zencoder-inputs-api
+- collection_type: open
+  name: Zencoder Accounts Jobs API
+  slug: open-zencoder-jobs-api
+- collection_type: open
+  name: Zencoder Accounts Outputs API
+  slug: open-zencoder-outputs-api
+- collection_type: open
+  name: Zencoder Accounts Reports API
+  slug: open-zencoder-reports-api
 common:
 - group: auth
   title: ''
@@ -194,7 +213,7 @@ overview: 'Zencoder publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zencoder''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 22 more developer resources.'
-random_paper: 18
+random_paper: 113
 score:
   band: developing
   composite: 51.0
@@ -218,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

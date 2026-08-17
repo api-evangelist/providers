@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: The Access codes API from Navigate — 1 operation(s) for access codes.
@@ -79,7 +79,59 @@ apis:
 - description: The Work orders API from Navigate — 9 operation(s) for work orders.
   name: Navigate Work orders API
   slug: navigate-work-orders-api
-artifact_total: 19
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NavigateAI Access codes API
+  slug: open-navigate-access-codes-api
+- collection_type: open
+  name: NavigateAI Access codes Assets API
+  slug: open-navigate-assets-api
+- collection_type: open
+  name: NavigateAI Access codes Lennar API
+  slug: open-navigate-lennar-api
+- collection_type: open
+  name: NavigateAI Access codes Line items API
+  slug: open-navigate-line-items-api
+- collection_type: open
+  name: NavigateAI Access codes Locations API
+  slug: open-navigate-locations-api
+- collection_type: open
+  name: NavigateAI Access codes Markets API
+  slug: open-navigate-markets-api
+- collection_type: open
+  name: NavigateAI Access codes Rejection reason options API
+  slug: open-navigate-rejection-reason-options-api
+- collection_type: open
+  name: NavigateAI Access codes Room types API
+  slug: open-navigate-room-types-api
+- collection_type: open
+  name: NavigateAI Access codes Rooms API
+  slug: open-navigate-rooms-api
+- collection_type: open
+  name: NavigateAI Access codes Scopes API
+  slug: open-navigate-scopes-api
+- collection_type: open
+  name: NavigateAI Access codes Scoping API
+  slug: open-navigate-scoping-api
+- collection_type: open
+  name: NavigateAI Access codes Vendors API
+  slug: open-navigate-vendors-api
+- collection_type: open
+  name: NavigateAI Access codes Video Upload Requests API
+  slug: open-navigate-video-upload-requests-api
+- collection_type: open
+  name: NavigateAI Access codes Visit types API
+  slug: open-navigate-visit-types-api
+- collection_type: open
+  name: NavigateAI Access codes Visits API
+  slug: open-navigate-visits-api
+- collection_type: open
+  name: NavigateAI Access codes Work orders API
+  slug: open-navigate-work-orders-api
 common:
 - group: agent
   title: ''
@@ -141,7 +193,7 @@ overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Navigate''s developer surface includes support and 10 more developer resources.'
-random_paper: 7
+random_paper: 102
 score:
   band: thin
   composite: 31.2
@@ -164,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/screenshots/navigate-2026-08-07T184730.png
 security:

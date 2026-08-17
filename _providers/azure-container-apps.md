@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ arazzos:
 - description: Roll out a new image to a container app, wait for provisioning, then list the resulting revisions.
   name: Azure Container Apps Update App and List Revisions
   slug: azure-container-apps-update-app-and-list-revisions-workflow
-artifact_total: 91
+artifact_total: 97
 collections:
 - collection_type: postman
   name: Azure Container Apps Authentication API
@@ -111,6 +111,24 @@ collections:
 - collection_type: postman
   name: Azure Container Apps Authentication Revisions API
   slug: postman-azure-container-apps-revisions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Container Apps Authentication API
+  slug: open-azure-container-apps-authentication-api
+- collection_type: open
+  name: Azure Authentication Container Apps API
+  slug: open-azure-container-apps-container-apps-api
+- collection_type: open
+  name: Azure Container Apps Authentication Jobs API
+  slug: open-azure-container-apps-jobs-api
+- collection_type: open
+  name: Azure Container Apps Authentication Managed Environments API
+  slug: open-azure-container-apps-managed-environments-api
+- collection_type: open
+  name: Azure Container Apps Authentication Revisions API
+  slug: open-azure-container-apps-revisions-api
 - collection_type: open
   name: Azure Container Apps API
   slug: open-azure-container-apps
@@ -446,7 +464,7 @@ plans:
 - name: Azure Container Apps Plans Pricing
   plan_count: 3
   slug: azure-container-apps-plans-pricing
-random_paper: 0
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Azure Container Apps Rate Limits
@@ -493,7 +511,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/screenshots/azure-container-apps-2026-06-20T172841.png
 security:

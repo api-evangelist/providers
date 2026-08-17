@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The common API from Digital Asset — 3 operation(s) for common.
@@ -34,7 +34,23 @@ apis:
 - description: The registry API from Digital Asset — 18 operation(s) for registry.
   name: Digital Asset Registry API
   slug: digital-asset-registry-api
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Utilities Common API
+  slug: open-digital-asset-common-api
+- collection_type: open
+  name: Digital Asset Operator API
+  slug: open-digital-asset-operator-api
+- collection_type: open
+  name: Digital Asset Public API
+  slug: open-digital-asset-public-api
+- collection_type: open
+  name: Digital Asset Registry API
+  slug: open-digital-asset-registry-api
 common:
 - group: agent
   title: ''
@@ -184,7 +200,7 @@ overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
-random_paper: 3
+random_paper: 131
 score:
   band: developing
   composite: 47.0
@@ -207,7 +223,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/screenshots/digital-asset-2026-08-07T164342.png
 security:

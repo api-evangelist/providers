@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -55,11 +55,24 @@ apis:
 - description: The legacy v1 affiliate-partner specification, a non-transactional subset covering utility services, destination and category taxonomy, product and attraction search, product detail, reviews and photo
   name: Viator Affiliate API v1
   slug: viator-affiliate-api-v1
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Viator Events
   slug: viator-events
+collections:
+- collection_type: open
+  name: Viator API Documentation & Specification - Affiliate Partners
+  slug: open-viator-affiliate-api-v1
+- collection_type: open
+  name: Viator API Documentation & Specification – Merchant Partners
+  slug: open-viator-merchant-api-v1
+- collection_type: open
+  name: Viator Partner API
+  slug: open-viator-partner-api-v2
+- collection_type: open
+  name: Viator Reservation System API
+  slug: open-viator-reservation-system-api
 common:
 - group: agent
   title: ''
@@ -249,7 +262,7 @@ overview: 'Viator publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Viator''s developer surface includes authentication, documentation, developer portal, support, engineering blog, API reference, getting-started guide, and 35 more developer resources.'
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Viator Rate Limits
@@ -277,7 +290,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

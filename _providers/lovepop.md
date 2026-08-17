@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Lovepop is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lovepop''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 53
+random_paper: 28
 score:
   band: emerging
   composite: 14.5
@@ -99,7 +99,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lovepop/refs/heads/main/screenshots/lovepop-2026-08-07T171815.png
 security:

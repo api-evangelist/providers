@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -63,7 +63,26 @@ arazzos:
 - description: Pull a session's logs, terminate it, then download a diagnostic artifact.
   name: Stream logs, stop a Gameye session, and download an artifact
   slug: gameye-session-teardown
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gameye Session Artifacts API
+  slug: open-gameye-artifacts-api
+- collection_type: open
+  name: Gameye Session Artifacts Available Location API
+  slug: open-gameye-available-location-api
+- collection_type: open
+  name: Gameye Session Artifacts Logs API
+  slug: open-gameye-logs-api
+- collection_type: open
+  name: Gameye Artifacts Session API
+  slug: open-gameye-session-api
+- collection_type: open
+  name: Gameye Session Artifacts Tag API
+  slug: open-gameye-tag-api
 common:
 - group: other
   title: ''
@@ -225,7 +244,7 @@ overview: 'Gameye publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Gameye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 32
+random_paper: 36
 score:
   band: developing
   composite: 51.6
@@ -249,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/screenshots/gameye-2026-07-25T215424.png
 security:

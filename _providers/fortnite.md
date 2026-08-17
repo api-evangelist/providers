@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Current Fortnite in-game store rotation.
   name: Fortnite Tracker Store API
   slug: fortnite-store-api
-artifact_total: 44
+artifact_total: 50
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fortnite Tracker Challenges API
+  slug: open-fortnite-challenges-api
+- collection_type: open
+  name: Fortnite Tracker Challenges Leaderboards API
+  slug: open-fortnite-leaderboards-api
+- collection_type: open
+  name: Fortnite Tracker Challenges Power Rankings API
+  slug: open-fortnite-power-rankings-api
+- collection_type: open
+  name: Fortnite Tracker Challenges Profile API
+  slug: open-fortnite-profile-api
+- collection_type: open
+  name: Fortnite Tracker Challenges Store API
+  slug: open-fortnite-store-api
 common:
 - group: agent
   title: ''
@@ -229,7 +248,7 @@ plans:
 - name: Fortnite Plans Pricing
   plan_count: 2
   slug: fortnite-plans-pricing
-random_paper: 35
+random_paper: 130
 rate_limits:
 - limit_count: 2
   name: Fortnite Rate Limits
@@ -271,7 +290,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

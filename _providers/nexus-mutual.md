@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The Quote API from Nexus Mutual — 1 operation(s) for quote.
   name: Nexus Mutual Quote API
   slug: nexus-mutual-quote-api
-artifact_total: 19
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cover Router Capacity API
+  slug: open-nexus-mutual-capacity-api
+- collection_type: open
+  name: Cover Router Capacity Pricing API
+  slug: open-nexus-mutual-pricing-api
+- collection_type: open
+  name: Cover Router Capacity Quote API
+  slug: open-nexus-mutual-quote-api
 common:
 - group: operate
   title: ''
@@ -187,7 +200,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 72
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -227,7 +240,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/screenshots/nexus-mutual-2026-06-20T190302.png
 security:

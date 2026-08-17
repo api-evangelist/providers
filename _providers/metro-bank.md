@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,11 @@ apis:
 - description: API publishing Metro Bank's FCA service-quality and account metrics data (management information required under UK regulatory reporting), documented in the Metro Bank developer portal as the FCA Accou
   name: Metro Bank FCA Account Metrics API
   slug: metro-bank-fca-account-metrics-api
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-open-data-api-standard-v1
 common:
 - group: agent
   title: ''
@@ -146,7 +150,7 @@ overview: 'Metro Bank publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Metro Bank''s developer surface includes authentication, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 48
+random_paper: 114
 scopes:
 - name: Metro Bank Scopes
   scope_count: 4
@@ -181,7 +185,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/screenshots/metro-bank-2026-08-07T172746.png
 security:

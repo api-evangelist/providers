@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Thunder Kubernetes Connector (TKC) runs inside Kubernetes and configures upstream Thunder ADC objects automatically as pods are created and scaled. It defines 24 CRDs covering VirtualServer, Virtu
@@ -49,7 +49,26 @@ apis:
 - description: Virtual servers (VIPs) that front pools of real servers
   name: A10 Networks SLB Virtual Server API
   slug: a10-networks-slb-virtual-server-api
-artifact_total: 19
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: A10 Networks ACOS aXAPI v3 Authentication API
+  slug: open-a10-networks-authentication-api
+- collection_type: open
+  name: A10 Networks ACOS aXAPI v3 SLB Health Monitor API
+  slug: open-a10-networks-slb-health-monitor-api
+- collection_type: open
+  name: A10 Networks ACOS aXAPI v3 SLB Server API
+  slug: open-a10-networks-slb-server-api
+- collection_type: open
+  name: A10 Networks ACOS aXAPI v3 SLB Service Group API
+  slug: open-a10-networks-slb-service-group-api
+- collection_type: open
+  name: A10 Networks ACOS aXAPI v3 SLB Virtual Server API
+  slug: open-a10-networks-slb-virtual-server-api
 common:
 - group: auth
   title: ''
@@ -264,7 +283,7 @@ plans:
 - name: A10 Networks Plans Pricing
   plan_count: 6
   slug: a10-networks-plans-pricing
-random_paper: 52
+random_paper: 89
 rate_limits:
 - limit_count: 0
   name: A10 Networks Rate Limits
@@ -305,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/screenshots/a10-networks-2026-06-20T162934.png
 security:

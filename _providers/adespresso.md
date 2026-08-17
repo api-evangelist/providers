@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -120,7 +120,7 @@ plans:
 - name: Adespresso Plans Pricing
   plan_count: 3
   slug: adespresso-plans-pricing
-random_paper: 1
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Adespresso Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.0
-  delta: 7.1
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -136,10 +136,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.9
+  previous_composite: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adespresso/refs/heads/main/screenshots/adespresso-2026-07-25T181626.png
 security:
 - kind: domain-security

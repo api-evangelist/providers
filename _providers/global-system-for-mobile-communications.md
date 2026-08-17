@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -127,8 +127,11 @@ apis:
 - description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: Global System for Mobile Communications Unconditional Call Forwarding Information Retrieval API
   slug: global-system-for-mobile-communications-unconditional-call-forwarding-information-retrieval-api
-artifact_total: 61
+artifact_total: 90
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Global System for Mobile Communications GSMA Camara Project Application Endpoint Discovery API
   slug: open-application-endpoint-discovery-api
@@ -162,6 +165,90 @@ collections:
 - collection_type: open
   name: Global System for Mobile Communications GSMA Camara Project Edge Application Management API
   slug: open-edge-application-management-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application API
+  slug: open-global-system-for-mobile-communications-application-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Application Profiles API
+  slug: open-global-system-for-mobile-communications-application-profiles-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Call Forwarding Information Retrieval API
+  slug: open-global-system-for-mobile-communications-call-forwarding-information-retrieval-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Check SIM Swap API
+  slug: open-global-system-for-mobile-communications-check-sim-swap-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Connectivity Insights Subscriptions API
+  slug: open-global-system-for-mobile-communications-connectivity-insights-subscriptions-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Application Discovery API
+  slug: open-global-system-for-mobile-communications-discovery-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Edge Cloud API
+  slug: open-global-system-for-mobile-communications-edge-cloud-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Geofencing Subscriptions API
+  slug: open-global-system-for-mobile-communications-geofencing-subscriptions-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Home Devices QoD API
+  slug: open-global-system-for-mobile-communications-home-devices-qod-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Location Retrieval API
+  slug: open-global-system-for-mobile-communications-location-retrieval-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Location Verification API
+  slug: open-global-system-for-mobile-communications-location-verification-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Match API
+  slug: open-global-system-for-mobile-communications-match-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Network Quality API
+  slug: open-global-system-for-mobile-communications-network-quality-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application One Step Payment API
+  slug: open-global-system-for-mobile-communications-one-step-payment-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application OTP Management API
+  slug: open-global-system-for-mobile-communications-otp-management-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Payment API
+  slug: open-global-system-for-mobile-communications-payment-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Phone Number Share API
+  slug: open-global-system-for-mobile-communications-phone-number-share-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Phone Number Verify API
+  slug: open-global-system-for-mobile-communications-phone-number-verify-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Population Density Data API
+  slug: open-global-system-for-mobile-communications-population-density-data-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application QoS Sessions API
+  slug: open-global-system-for-mobile-communications-qos-sessions-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Retrieve SIM Swap Date API
+  slug: open-global-system-for-mobile-communications-retrieve-sim-swap-date-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Roaming Status Retrieval API
+  slug: open-global-system-for-mobile-communications-roaming-status-retrieval-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Send SMS API
+  slug: open-global-system-for-mobile-communications-send-sms-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application SMS Delivery Notification Subscription API
+  slug: open-global-system-for-mobile-communications-sms-delivery-notification-subscription-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Traffic Influence API Read API
+  slug: open-global-system-for-mobile-communications-traffic-influence-api-read-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Traffic Influence API Write API
+  slug: open-global-system-for-mobile-communications-traffic-influence-api-write-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Two Step Payment API
+  slug: open-global-system-for-mobile-communications-two-step-payment-api
+- collection_type: open
+  name: Global System for Mobile Communications GSMA Camara Project Endpoint Discovery Application Unconditional Call Forwarding Information Retrieval API
+  slug: open-global-system-for-mobile-communications-unconditional-call-forwarding-information-retrieval-api
 - collection_type: open
   name: Global System for Mobile Communications GSMA Camara Project Home Devices QoD
   slug: open-home-devices-qod-api
@@ -273,7 +360,7 @@ plans:
 - name: Global System For Mobile Communications Plans Pricing
   plan_count: 3
   slug: global-system-for-mobile-communications-plans-pricing
-random_paper: 114
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Global System For Mobile Communications Rate Limits
@@ -304,7 +391,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/screenshots/global-system-for-mobile-communications-2026-06-20T181919.png
 security:

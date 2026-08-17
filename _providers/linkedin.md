@@ -15,13 +15,13 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-12'
+  score: 59.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -281,7 +281,11 @@ arazzos:
 - description: Register a video upload for an owner, then confirm the resulting video asset resolves.
   name: LinkedIn Upload a Video and Verify the Asset
   slug: linkedin-upload-video-and-verify-workflow
-artifact_total: 807
+artifact_total: 874
+asyncapis:
+- description: ''
+  name: Linkedin Webhooks
+  slug: linkedin-webhooks
 collections:
 - collection_type: postman
   name: LinkedIn Compliance Events API
@@ -335,11 +339,119 @@ collections:
   name: LinkedIn Recruiter System Connect API
   slug: postman-linkedin-talent-recruiter-system-connect
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control API
+  slug: open-linkedin-access-control-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Account Management API
+  slug: open-linkedin-account-management-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Ad Accounts API
+  slug: open-linkedin-ad-accounts-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Ad Targeting Entities API
+  slug: open-linkedin-ad-targeting-entities-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Advertiser Transparency API
+  slug: open-linkedin-advertiser-transparency-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Application Retrieval API
+  slug: open-linkedin-application-retrieval-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Application Synchronization API
+  slug: open-linkedin-application-synchronization-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Application Updates API
+  slug: open-linkedin-application-updates-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Apply Connect Jobs API
+  slug: open-linkedin-apply-connect-jobs-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Audience Counts API
+  slug: open-linkedin-audience-counts-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Audience Insights API
+  slug: open-linkedin-audience-insights-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Authentication API
+  slug: open-linkedin-authentication-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Business Manager API
+  slug: open-linkedin-business-manager-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Campaign Group Management API
+  slug: open-linkedin-campaign-group-management-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Campaign Management API
+  slug: open-linkedin-campaign-management-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Candidate Synchronization API
+  slug: open-linkedin-candidate-synchronization-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Child Application Provisioning API
+  slug: open-linkedin-child-application-provisioning-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Company Streaming API
+  slug: open-linkedin-company-streaming-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Compliance Authorization API
+  slug: open-linkedin-compliance-authorization-api
+- collection_type: open
+  name: LinkedIn Access Control Compliance Events API
+  slug: open-linkedin-compliance-events-api
+- collection_type: open
   name: LinkedIn Compliance Events API
   slug: open-linkedin-compliance-events
 - collection_type: open
+  name: LinkedIn Compliance Events Access Control Conversion Events Streaming Workflow API
+  slug: open-linkedin-conversion-events-streaming-workflow-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Creative Management API
+  slug: open-linkedin-creative-management-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control CRM Data Validation API
+  slug: open-linkedin-crm-data-validation-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Customer Integrations API
+  slug: open-linkedin-customer-integrations-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Data Deletion API
+  slug: open-linkedin-data-deletion-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Data Retrieval API
+  slug: open-linkedin-data-retrieval-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control DMP Segments API
+  slug: open-linkedin-dmp-segments-api
+- collection_type: open
+  name: LinkedIn Compliance Access Control Events API
+  slug: open-linkedin-events-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Feed Content API
+  slug: open-linkedin-feed-content-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Fetch Media Plan API
+  slug: open-linkedin-fetch-media-plan-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Integration Configuration API
+  slug: open-linkedin-integration-configuration-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Job Lifecycle Management API
+  slug: open-linkedin-job-lifecycle-management-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Lead Generation API
+  slug: open-linkedin-lead-generation-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Learning Activity Reports API
+  slug: open-linkedin-learning-activity-reports-api
+- collection_type: open
   name: LinkedIn Learning Activity Reports API
   slug: open-linkedin-learning-activity-reports
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control List Uploads API
+  slug: open-linkedin-list-uploads-api
 - collection_type: open
   name: LinkedIn Marketing Audience Insights API
   slug: open-linkedin-marketing-audience-insights
@@ -368,11 +480,32 @@ collections:
   name: Reporting & ROI
   slug: open-linkedin-marketing-reporting-roi
 - collection_type: open
+  name: LinkedIn Compliance Events Access Control Organization Access Control API
+  slug: open-linkedin-organization-access-control-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Organizations API
+  slug: open-linkedin-organizations-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Page Analytics API
+  slug: open-linkedin-page-analytics-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Profile Associations API
+  slug: open-linkedin-profile-associations-api
+- collection_type: open
   name: LinkedIn Pages Data Portability API
   slug: open-linkedin-regulations-data-portability
 - collection_type: open
   name: LinkedIn Ads Transparency API
   slug: open-linkedin-regulatory-ads-transparency
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Sales Access Tokens API
+  slug: open-linkedin-sales-access-tokens-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Sales Analytics Export API
+  slug: open-linkedin-sales-analytics-export-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Sales Contracts API
+  slug: open-linkedin-sales-contracts-api
 - collection_type: open
   name: LinkedIn Sales Navigator API
   slug: open-linkedin-sales-navigator
@@ -385,7 +518,169 @@ collections:
 - collection_type: open
   name: LinkedIn Recruiter System Connect API
   slug: open-linkedin-talent-recruiter-system-connect
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > B2B Templates > Conversions Deep Dive API
+  slug: open-linkedin-use-cases-b2b-templates-conversions-deep-dive-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Conversation Ad > Sponsored Conversations API
+  slug: open-linkedin-use-cases-conversation-ad-sponsored-conversations-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Conversation Ad > Sponsored Message Contents API
+  slug: open-linkedin-use-cases-conversation-ad-sponsored-message-contents-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Creatives API
+  slug: open-linkedin-use-cases-creatives-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Document Ad API
+  slug: open-linkedin-use-cases-document-ad-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Image Ad API
+  slug: open-linkedin-use-cases-image-ad-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > InMail Content API
+  slug: open-linkedin-use-cases-inmail-content-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Organization Access Controls API
+  slug: open-linkedin-use-cases-organization-access-controls-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Organization Followers API
+  slug: open-linkedin-use-cases-organization-followers-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Organization Lookup > Organization Brands API
+  slug: open-linkedin-use-cases-organization-lookup-organization-brands-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Organization Lookup > Organizations API
+  slug: open-linkedin-use-cases-organization-lookup-organizations-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Posts API
+  slug: open-linkedin-use-cases-posts-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Social Actions Notifications > Organization Social Actions Notifications - Pull Workflow API
+  slug: open-linkedin-use-cases-social-actions-notifications-organization-social-actions-notifications-pull-workflow-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Social Actions Notifications > Organization Social Actions Notifications - Push Workflow API
+  slug: open-linkedin-use-cases-social-actions-notifications-organization-social-actions-notifications-push-workflow-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Sponsored API
+  slug: open-linkedin-use-cases-sponsored-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Spotlight Ad API
+  slug: open-linkedin-use-cases-spotlight-ad-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Statistics APIs > Organization Follower Statistics API
+  slug: open-linkedin-use-cases-statistics-apis-organization-follower-statistics-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Statistics APIs > Organization Page Statistics API
+  slug: open-linkedin-use-cases-statistics-apis-organization-page-statistics-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Statistics APIs > Organization Share Statistics API
+  slug: open-linkedin-use-cases-statistics-apis-organization-share-statistics-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control Use Cases > Video Ad API
+  slug: open-linkedin-use-cases-video-ad-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control User Access API
+  slug: open-linkedin-user-access-api
+- collection_type: open
+  name: LinkedIn Compliance Events Access Control User Streaming API
+  slug: open-linkedin-user-streaming-api
 common:
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/linkedin/marketing/quick-start
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/linkedin/shared/breaking-change-policy
+- group: auth
+  title: ''
+  type: Security
+  url: https://security.linkedin.com/vulnerability-disclosure
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://security.linkedin.com/trust-and-compliance
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/linkedin-trust-center.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/linkedin-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/linkedin-sandbox.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/linkedin-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/linkedin-authenticate.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/linkedin-publish-organization-post.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/linkedin-upload-media-and-post.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/linkedin-organization-analytics.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/linkedin-subscribe-social-action-webhooks.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/linkedin-manage-ad-campaigns.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/linkedin-lead-sync.md
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/linkedin-plans-pricing.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/linkedin-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/linkedin-spectral-rules.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/linkedin-finops.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/linkedin-attachlisttosegment-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/linkedin-batchgetprofileassociations-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/linkedin-compliance-events-compliance-authorization-example.json
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/linkedin-developer-apis
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2730,17 +3025,17 @@ mcp_servers:
 - description: ''
   name: linkedin-mcp.yml
   slug: linkedin-mcpyml
-modified: '2026-06-20'
+modified: '2026-08-13'
 name: LinkedIn
 nav: Providers
 network: true
 overview: 'LinkedIn publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Consumer API, Access Control API, Account Management API, and 62 more. Tagged areas include Business, Careers, Marketing, Professional Networking, and Recruiting.
 
 
-  The LinkedIn catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The LinkedIn catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  LinkedIn''s developer surface includes changelog, authentication, documentation, code examples, developer portal, signup flow, tooling, and 78 more developer resources.'
+  LinkedIn''s developer surface includes getting-started guide, sandbox, code examples, changelog, authentication, documentation, developer portal, and 102 more developer resources.'
 plans:
 - name: Linkedin Plans Pricing
   plan_count: 8
@@ -2761,7 +3056,7 @@ press:
 - date: '2026-05-25'
   title: AI's Impact on Local News Production
   url: https://www.linkedin.com/top-content/artificial-intelligence/ai-in-journalism/ai-s-impact-on-local-news-production/
-random_paper: 6
+random_paper: 101
 rate_limits:
 - limit_count: 3
   name: Linkedin Rate Limits
@@ -2789,16 +3084,16 @@ scopes:
   slug: linkedin-scopes
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 64.3
-  delta: 0.0
+  band: exemplar
+  composite: 79.0
+  delta: 14.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 75.4
-    developer_ergonomics: 63.0
+    commercial_clarity: 65.8
+    contract_quality: 83.3
+    developer_ergonomics: 87.0
     discoverability: 87.0
-    governance: 69.8
-    operational_transparency: 44.7
+    governance: 80.2
+    operational_transparency: 71.1
   previous_composite: 64.3
   provenance:
     agentic_access: derived
@@ -2810,8 +3105,8 @@ score:
       total: 64
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:
 - kind: authentication
@@ -2826,6 +3121,10 @@ security:
   name: Linkedin Vulnerability Disclosure
   slug: linkedin-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Linkedin Trust Center
+  slug: linkedin-trust-center
+  summary_line: ISO 22301, ISO 27001, ISO 27018, SOC 2, PCI DSS
 slug: linkedin
 solutions:
 - description: Sign In with LinkedIn, Share on LinkedIn, and Verified on LinkedIn for consumer-facing integrations.

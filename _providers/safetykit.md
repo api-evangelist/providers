@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Ingest user actions and objects into per-workflow namespaces and asynchronously receive AI agent decisions (labels, risk scores, enforcement actions) via signed webhooks.
@@ -171,7 +171,7 @@ overview: 'SafetyKit publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   SafetyKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 20
+random_paper: 86
 score:
   band: developing
   composite: 48.2
@@ -189,7 +189,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

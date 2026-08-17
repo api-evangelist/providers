@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 1
@@ -165,7 +165,7 @@ apis:
 - description: Access and manage vulnerability findings
   name: Fortify Vulnerabilities API
   slug: fortify-vulnerabilities-api
-artifact_total: 107
+artifact_total: 150
 collections:
 - collection_type: postman
   name: Fortify on Demand Alert Definitions API
@@ -294,14 +294,143 @@ collections:
   name: Fortify on Demand Alert Definitions Vulnerabilities API
   slug: postman-fortify-vulnerabilities-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fortify on Demand Alert Definitions API
+  slug: open-fortify-alert-definitions-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions API Keys API
+  slug: open-fortify-api-keys-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Applications API
+  slug: open-fortify-applications-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Artifacts API
+  slug: open-fortify-artifacts-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Attributes API
+  slug: open-fortify-attributes-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Audit Templates API
+  slug: open-fortify-audit-templates-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Auth Entities API
+  slug: open-fortify-auth-entities-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Authentication API
+  slug: open-fortify-authentication-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions CI/CD API
+  slug: open-fortify-ci-cd-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Cloud Pools API
+  slug: open-fortify-cloud-pools-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Custom Tags API
+  slug: open-fortify-custom-tags-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions DAST Automated Scans API
+  slug: open-fortify-dast-automated-scans-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Dynamic Scans API
+  slug: open-fortify-dynamic-scans-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Event Logs API
+  slug: open-fortify-event-logs-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Features API
+  slug: open-fortify-features-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions File Tokens API
+  slug: open-fortify-file-tokens-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Issue Selectors API
+  slug: open-fortify-issue-selectors-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Issues API
+  slug: open-fortify-issues-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Jobs API
+  slug: open-fortify-jobs-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Lookup Items API
+  slug: open-fortify-lookup-items-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Microservices API
+  slug: open-fortify-microservices-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Mobile Scans API
+  slug: open-fortify-mobile-scans-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Notifications API
+  slug: open-fortify-notifications-api
+- collection_type: open
   name: Fortify on Demand API
   slug: open-fortify-on-demand
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Open Source Components API
+  slug: open-fortify-open-source-components-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Open Source Scans API
+  slug: open-fortify-open-source-scans-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Performance Indicators API
+  slug: open-fortify-performance-indicators-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Personal Access Tokens API
+  slug: open-fortify-personal-access-tokens-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Project Versions API
+  slug: open-fortify-project-versions-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Projects API
+  slug: open-fortify-projects-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Releases API
+  slug: open-fortify-releases-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Reports API
+  slug: open-fortify-reports-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Saved Reports API
+  slug: open-fortify-saved-reports-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Scan Policies API
+  slug: open-fortify-scan-policies-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Scan Schedules API
+  slug: open-fortify-scan-schedules-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Scan Settings API
+  slug: open-fortify-scan-settings-api
 - collection_type: open
   name: Fortify ScanCentral DAST API
   slug: open-fortify-scancentral-dast
 - collection_type: open
+  name: Fortify on Demand Alert Definitions Scans API
+  slug: open-fortify-scans-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Sensor Pools API
+  slug: open-fortify-sensor-pools-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Sensors API
+  slug: open-fortify-sensors-api
+- collection_type: open
   name: Fortify Software Security Center API
   slug: open-fortify-software-security-center
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Static Scans API
+  slug: open-fortify-static-scans-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions System API
+  slug: open-fortify-system-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Users API
+  slug: open-fortify-users-api
+- collection_type: open
+  name: Fortify on Demand Alert Definitions Vulnerabilities API
+  slug: open-fortify-vulnerabilities-api
 common:
 - group: build
   title: ''
@@ -455,7 +584,7 @@ plans:
 - name: Fortify Plans Pricing
   plan_count: 4
   slug: fortify-plans-pricing
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Fortify Rate Limits
@@ -489,7 +618,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/screenshots/fortify-2026-06-20T181440.png
 security:

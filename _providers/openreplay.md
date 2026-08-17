@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Search, retrieve, and delete users and their associated data.
   name: OpenReplay Users API
   slug: openreplay-users-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenReplay Assist API
+  slug: open-openreplay-assist-api
+- collection_type: open
+  name: OpenReplay Assist Events API
+  slug: open-openreplay-events-api
+- collection_type: open
+  name: OpenReplay Assist Jobs API
+  slug: open-openreplay-jobs-api
+- collection_type: open
+  name: OpenReplay Assist Projects API
+  slug: open-openreplay-projects-api
+- collection_type: open
+  name: OpenReplay Assist Sessions API
+  slug: open-openreplay-sessions-api
+- collection_type: open
+  name: OpenReplay Assist Users API
+  slug: open-openreplay-users-api
 - collection_type: open
   name: OpenReplay API
   slug: open-openreplay
@@ -139,7 +160,7 @@ plans:
 - name: Openreplay Plans Pricing
   plan_count: 3
   slug: openreplay-plans-pricing
-random_paper: 7
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Openreplay Rate Limits
@@ -164,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/screenshots/openreplay-2026-06-20T191026.png
 security:

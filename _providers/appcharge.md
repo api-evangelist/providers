@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
 - description: The Triggered Popups API from Appcharge — 2 operation(s) for triggered popups.
   name: Appcharge Triggered Popups API
   slug: appcharge-triggered-popups-api
-artifact_total: 43
+artifact_total: 61
 asyncapis:
 - description: Appcharge sends real-time, structured webhook events (Events V2) to a publisher-registered HTTPS endpoint for order lifecycle, web store and game portal interactions, logins, and disputes. Each reques
   name: Appcharge Events (V2) Webhooks
@@ -147,6 +147,60 @@ collections:
 - collection_type: postman
   name: Appcharge Assets Triggered Popups API
   slug: postman-appcharge-triggered-popups-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Appcharge Assets API
+  slug: open-appcharge-assets-api
+- collection_type: open
+  name: Appcharge Assets Authentication API
+  slug: open-appcharge-authentication-api
+- collection_type: open
+  name: Appcharge Assets Badges API
+  slug: open-appcharge-badges-api
+- collection_type: open
+  name: Appcharge Assets Coupons API
+  slug: open-appcharge-coupons-api
+- collection_type: open
+  name: Appcharge Assets General API
+  slug: open-appcharge-general-api
+- collection_type: open
+  name: Appcharge Assets Localization API
+  slug: open-appcharge-localization-api
+- collection_type: open
+  name: Appcharge Assets Offer Designs API
+  slug: open-appcharge-offer-designs-api
+- collection_type: open
+  name: Appcharge Assets Offers API
+  slug: open-appcharge-offers-api
+- collection_type: open
+  name: Appcharge Assets Orders API
+  slug: open-appcharge-orders-api
+- collection_type: open
+  name: Appcharge Assets Personalization API
+  slug: open-appcharge-personalization-api
+- collection_type: open
+  name: Appcharge Assets Popups API
+  slug: open-appcharge-popups-api
+- collection_type: open
+  name: Appcharge Assets Portal Content API
+  slug: open-appcharge-portal-content-api
+- collection_type: open
+  name: Appcharge Assets Products API
+  slug: open-appcharge-products-api
+- collection_type: open
+  name: Appcharge Assets Promo Codes API
+  slug: open-appcharge-promo-codes-api
+- collection_type: open
+  name: Appcharge Assets Rolling Offers API
+  slug: open-appcharge-rolling-offers-api
+- collection_type: open
+  name: Appcharge Assets Store Refresh Popups API
+  slug: open-appcharge-store-refresh-popups-api
+- collection_type: open
+  name: Appcharge Assets Triggered Popups API
+  slug: open-appcharge-triggered-popups-api
 common:
 - group: build
   title: ''
@@ -323,7 +377,7 @@ overview: 'Appcharge publishes 17 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Appcharge''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, changelog, and 32 more developer resources.'
-random_paper: 99
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Appcharge Rate Limits
@@ -362,7 +416,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/screenshots/appcharge-2026-07-25T200716.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: Non-hyperdrive vehicles (AT-ATs, snowspeeders, sand crawlers).
   name: SWAPI - Star Wars API Vehicles API
   slug: swapi-vehicles-api
-artifact_total: 36
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SWAPI - Star Wars Films API
+  slug: open-swapi-films-api
+- collection_type: open
+  name: SWAPI - Star Wars Films People API
+  slug: open-swapi-people-api
+- collection_type: open
+  name: SWAPI - Star Wars Films Planets API
+  slug: open-swapi-planets-api
+- collection_type: open
+  name: SWAPI - Star Wars Films Species API
+  slug: open-swapi-species-api
+- collection_type: open
+  name: SWAPI - Star Wars Films Starships API
+  slug: open-swapi-starships-api
+- collection_type: open
+  name: SWAPI - Star Wars Films Vehicles API
+  slug: open-swapi-vehicles-api
 - collection_type: open
   name: SWAPI - Star Wars API
   slug: open-swapi
@@ -236,7 +257,7 @@ plans:
 - name: Swapi Plans Pricing
   plan_count: 1
   slug: swapi-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 1
   name: Swapi Rate Limits
@@ -278,7 +299,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/screenshots/swapi-2026-06-20T194754.png
 security:

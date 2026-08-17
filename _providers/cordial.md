@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -15,10 +16,17 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-12'
+  score: 58.1
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 124
+  human_in_the_loop: 0
+  name: Cordial Agentic Access
+  operation_count: 189
+  slug: cordial-agentic-access
+  summary_line: 189 operations · 124 acting
 api_count: 25
 apis:
 - description: 'Cordial''s hosted Model Context Protocol server, which gives any MCP client secure read access to a Cordial account: audiences, messages, analytics, content, orchestrations, sculpt blocks and templates'
@@ -96,12 +104,92 @@ apis:
 - description: The supplements API from Cordial — 12 operation(s) for supplements.
   name: Cordial Supplements API
   slug: cordial-supplements-api
-artifact_total: 33
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Cordial Webhooks
   slug: cordial-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cordial account attributes API
+  slug: open-cordial-account-attributes-api
+- collection_type: open
+  name: Cordial account lists API
+  slug: open-cordial-account-lists-api
+- collection_type: open
+  name: Cordial account monitor export API
+  slug: open-cordial-account-monitor-export-api
+- collection_type: open
+  name: Cordial Alerts API
+  slug: open-cordial-alerts-api
+- collection_type: open
+  name: Cordial analytics audiences API
+  slug: open-cordial-analytics-audiences-api
+- collection_type: open
+  name: Cordial analytics messages API
+  slug: open-cordial-analytics-messages-api
+- collection_type: open
+  name: Cordial Audiencecount API
+  slug: open-cordial-audiencecount-api
+- collection_type: open
+  name: Cordial automation templates API
+  slug: open-cordial-automation-templates-api
+- collection_type: open
+  name: Cordial batch messages API
+  slug: open-cordial-batch-messages-api
+- collection_type: open
+  name: Cordial contact activities API
+  slug: open-cordial-contact-activities-api
+- collection_type: open
+  name: Cordial contact activity exports API
+  slug: open-cordial-contact-activity-exports-api
+- collection_type: open
+  name: Cordial contact exports API
+  slug: open-cordial-contact-exports-api
+- collection_type: open
+  name: Cordial contact imports API
+  slug: open-cordial-contact-imports-api
+- collection_type: open
+  name: Cordial Contacts API
+  slug: open-cordial-contacts-api
+- collection_type: open
+  name: Cordial data jobs API
+  slug: open-cordial-data-jobs-api
+- collection_type: open
+  name: Cordial Jobs API
+  slug: open-cordial-jobs-api
+- collection_type: open
+  name: Cordial message content includes API
+  slug: open-cordial-message-content-includes-api
+- collection_type: open
+  name: Cordial Orchestrations API
+  slug: open-cordial-orchestrations-api
+- collection_type: open
+  name: Cordial Orders API
+  slug: open-cordial-orders-api
+- collection_type: open
+  name: Cordial Ordersimport API
+  slug: open-cordial-ordersimport-api
+- collection_type: open
+  name: Cordial Productimports API
+  slug: open-cordial-productimports-api
+- collection_type: open
+  name: Cordial Products API
+  slug: open-cordial-products-api
+- collection_type: open
+  name: Cordial Programs API
+  slug: open-cordial-programs-api
+- collection_type: open
+  name: Cordial Supplements API
+  slug: open-cordial-supplements-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/cordial-agentic-access.yml
 - group: other
   title: ''
   type: Overlay
@@ -254,6 +342,10 @@ common:
   title: ''
   type: Sandbox
   url: sandbox/cordial-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cordial-plans-pricing.yml
 created: '2026-08-04'
 description: 'Cordial is a cross-channel marketing and customer data platform headquartered in San Diego, California, used by consumer brands to unify customer data and orchestrate personalized messaging across email, SMS/MMS, RCS, mobile app (push, in-app, mobile inbox), website, and any external channel reachable over REST. The platform combines a native customer data platform built on a document database, real-time journey orchestration, identity resolution, and the Cordial Edge AI suite of brand-specific predictive models. Cordial is API-first: a documented Swagger 2.0 REST API at api.cordial.io exposes 106 operations across 24 resource groups covering contacts, contact activities, orders, products, supplements, lists, attributes, batch messages, automation templates, orchestrations, data jobs, imports/exports, alerts, and analytics. Alongside REST it publishes a hosted Model Context Protocol server with 56 read tools over 17 domains, a first-party npm CLI, mobile SDKs for iOS, Android,
   React Native and Expo, an embedded JavaScript listener, configurable outbound webhooks, and an open-source cookbook of packaged Claude Agent Skills.'
@@ -263,7 +355,7 @@ mcp_servers:
 - description: ''
   name: cordial-mcp.yml
   slug: cordial-mcpyml
-modified: '2026-08-04'
+modified: '2026-08-14'
 name: Cordial
 nav: Providers
 network: true
@@ -273,8 +365,12 @@ overview: 'Cordial publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The Cordial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 31 more developer resources.'
-random_paper: 14
+  Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 33 more developer resources.'
+plans:
+- name: Cordial Plans Pricing
+  plan_count: 0
+  slug: cordial-plans-pricing
+random_paper: 138
 rate_limits:
 - limit_count: 1
   name: Cordial Rate Limits
@@ -312,7 +408,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/screenshots/cordial-2026-08-07T163810.png
 security:

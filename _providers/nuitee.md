@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Real-time room rates and availability search.
   name: Nuitée (LiteAPI) Rates API
   slug: nuitee-rates-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LiteAPI (Nuitée) Hotel Booking API
+  slug: open-nuitee-booking-api
+- collection_type: open
+  name: LiteAPI (Nuitée) Hotel Booking Hotel Data API
+  slug: open-nuitee-hotel-data-api
+- collection_type: open
+  name: LiteAPI (Nuitée) Hotel Booking Loyalty API
+  slug: open-nuitee-loyalty-api
+- collection_type: open
+  name: LiteAPI (Nuitée) Hotel Booking Rates API
+  slug: open-nuitee-rates-api
 - collection_type: open
   name: LiteAPI (Nuitée) Hotel Booking API
   slug: open-nuitee
@@ -117,7 +132,7 @@ plans:
 - name: Nuitee Plans Pricing
   plan_count: 3
   slug: nuitee-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Nuitee Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/screenshots/nuitee-2026-08-07T185721.png
 security:

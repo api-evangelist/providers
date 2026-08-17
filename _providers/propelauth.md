@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -133,7 +133,7 @@ arazzos:
 - description: Look a user up by email and update them if they exist, otherwise create them.
   name: PropelAuth Upsert User By Email
   slug: propelauth-upsert-user-by-email-workflow
-artifact_total: 79
+artifact_total: 96
 collections:
 - collection_type: postman
   name: PropelAuth End-User API Keys API
@@ -151,20 +151,71 @@ collections:
   name: PropelAuth User API
   slug: postman-propelauth-user-api
 - collection_type: open
-  name: PropelAuth End-User API Keys API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens API
+  slug: open-propelauth-access-tokens-api
+- collection_type: open
+  name: PropelAuth End-User Access Tokens API Keys API
   slug: open-propelauth-api-keys-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Discovery API
+  slug: open-propelauth-discovery-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Dynamic Client Registration API
+  slug: open-propelauth-dynamic-client-registration-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Employees API
+  slug: open-propelauth-employees-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Invites API
+  slug: open-propelauth-invites-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Magic Links API
+  slug: open-propelauth-magic-links-api
 - collection_type: open
   name: PropelAuth MCP Authentication API
   slug: open-propelauth-mcp-api
 - collection_type: open
-  name: PropelAuth OAuth2 API
+  name: PropelAuth End-User API Keys Access Tokens MCP OAuth 2.1 API
+  slug: open-propelauth-mcp-oauth-2-1-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Members API
+  slug: open-propelauth-members-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Metadata API
+  slug: open-propelauth-metadata-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Migration API
+  slug: open-propelauth-migration-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens OAuth2 API
   slug: open-propelauth-oauth2-api
 - collection_type: open
   name: PropelAuth Organization API
   slug: open-propelauth-org-api
 - collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Organizations API
+  slug: open-propelauth-organizations-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Role Mappings API
+  slug: open-propelauth-role-mappings-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Sessions API
+  slug: open-propelauth-sessions-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Usage API
+  slug: open-propelauth-usage-api
+- collection_type: open
   name: PropelAuth User API
   slug: open-propelauth-user-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Users API
+  slug: open-propelauth-users-api
+- collection_type: open
+  name: PropelAuth End-User API Keys Access Tokens Validation API
+  slug: open-propelauth-validation-api
 common:
 - group: agent
   title: ''
@@ -551,7 +602,7 @@ plans:
 - name: Propelauth Plans Pricing
   plan_count: 4
   slug: propelauth-plans-pricing
-random_paper: 12
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Propelauth Rate Limits
@@ -593,7 +644,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/screenshots/propelauth-2026-06-20T192214.png
 security:

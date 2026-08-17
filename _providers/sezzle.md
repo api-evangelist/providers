@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -63,7 +63,32 @@ apis:
 - description: The Webhooks API from Sezzle — 3 operation(s) for webhooks.
   name: Sezzle Webhooks API
   slug: sezzle-webhooks-api
-artifact_total: 32
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sezzle API v2 Bearer Authentication API
+  slug: open-sezzle-bearer-authentication-api
+- collection_type: open
+  name: Sezzle API v2 Bearer Authentication Customer API
+  slug: open-sezzle-customer-api
+- collection_type: open
+  name: Sezzle API v2 Bearer Authentication Order API
+  slug: open-sezzle-order-api
+- collection_type: open
+  name: Sezzle API v2 Bearer Authentication Reports API
+  slug: open-sezzle-reports-api
+- collection_type: open
+  name: Sezzle API v2 Bearer Authentication Session API
+  slug: open-sezzle-session-api
+- collection_type: open
+  name: Sezzle API v2 Bearer Authentication Token API
+  slug: open-sezzle-token-api
+- collection_type: open
+  name: Sezzle API v2 Bearer Authentication Webhooks API
+  slug: open-sezzle-webhooks-api
 common:
 - group: agent
   title: ''
@@ -208,7 +233,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -248,7 +273,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/screenshots/sezzle-2026-06-20T193742.png
 security:

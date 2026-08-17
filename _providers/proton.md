@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: AI REST API returning product recommendations and performing actions in the Proton.ai distributor platform. Authenticated with a static API key in the request header. Documented as a public Postman co
@@ -120,7 +120,7 @@ overview: 'Proton.ai publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Proton.ai''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 74
+random_paper: 78
 score:
   band: emerging
   composite: 26.1
@@ -134,7 +134,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 26.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

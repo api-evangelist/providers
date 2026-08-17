@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,11 +53,29 @@ apis:
 - description: Shipment tracking operations
   name: ingram-micro Shipments API
   slug: ingram-micro-shipments-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ingram Micro Reseller Catalog API
+  slug: open-ingram-micro-catalog-api
+- collection_type: open
+  name: Ingram Micro Reseller Catalog Inventory API
+  slug: open-ingram-micro-inventory-api
+- collection_type: open
+  name: Ingram Micro Reseller Catalog Orders API
+  slug: open-ingram-micro-orders-api
+- collection_type: open
+  name: Ingram Micro Reseller Catalog Pricing API
+  slug: open-ingram-micro-pricing-api
 - collection_type: open
   name: Ingram Micro Reseller API
   slug: open-ingram-micro-reseller-api
+- collection_type: open
+  name: Ingram Micro Reseller Catalog Shipments API
+  slug: open-ingram-micro-shipments-api
 - collection_type: open
   name: Ingram Micro Vendor API
   slug: open-ingram-micro-vendor-api
@@ -110,7 +128,7 @@ press:
 - date: '2026-05-25'
   title: Ingram Micro Announces Agentic AI Capabilities, Adds ...
   url: https://www.businesswire.com/news/home/20251028908276/en/Ingram-Micro-Announces-Agentic-AI-Capabilities-Adds-Googles-Gemini-Models-to-Xvantage-AI-Factory
-random_paper: 21
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Ingram Micro Rate Limits
@@ -135,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/screenshots/ingram-micro-2026-06-20T183355.png
 security:

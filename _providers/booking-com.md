@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -111,11 +111,23 @@ apis:
 - description: Endpoints for retrieving information about car rental suppliers and their offerings.
   name: booking-com Suppliers API
   slug: booking-com-suppliers-api
-artifact_total: 46
+artifact_total: 71
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations API
+  slug: open-booking-com-accommodations-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Availability API
+  slug: open-booking-com-availability-api
 - collection_type: open
   name: Booking.com Car Rentals API
   slug: open-booking-com-car-rentals-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Cars API
+  slug: open-booking-com-cars-api
 - collection_type: open
   name: Booking.com Connectivity Content API
   slug: open-booking-com-connectivity-content-api
@@ -129,8 +141,71 @@ collections:
   name: Booking.com Connectivity Reservations API
   slug: open-booking-com-connectivity-reservations-api
 - collection_type: open
+  name: Booking.com Car Rentals Accommodations Constants API
+  slug: open-booking-com-constants-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Conversations API
+  slug: open-booking-com-conversations-api
+- collection_type: open
   name: Booking.com Demand API
   slug: open-booking-com-demand-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Depots API
+  slug: open-booking-com-depots-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Derived Pricing API
+  slug: open-booking-com-derived-pricing-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Facilities API
+  slug: open-booking-com-facilities-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Inventory API
+  slug: open-booking-com-inventory-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Locations API
+  slug: open-booking-com-locations-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Messages API
+  slug: open-booking-com-messages-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Orders API
+  slug: open-booking-com-orders-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations OTA Availability API
+  slug: open-booking-com-ota-availability-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations OTA Legacy API
+  slug: open-booking-com-ota-legacy-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations OTA Reservations API
+  slug: open-booking-com-ota-reservations-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Payments API
+  slug: open-booking-com-payments-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Photos API
+  slug: open-booking-com-photos-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Promotions API
+  slug: open-booking-com-promotions-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Property Management API
+  slug: open-booking-com-property-management-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Rates API
+  slug: open-booking-com-rates-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Recovery API
+  slug: open-booking-com-recovery-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Reservations API
+  slug: open-booking-com-reservations-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Rooms API
+  slug: open-booking-com-rooms-api
+- collection_type: open
+  name: Booking.com Car Rentals Accommodations Suppliers API
+  slug: open-booking-com-suppliers-api
 common:
 - group: agent
   title: ''
@@ -221,7 +296,7 @@ plans:
 - name: Booking Com Plans Pricing
   plan_count: 1
   slug: booking-com-plans-pricing
-random_paper: 29
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Booking Com Rate Limits
@@ -255,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/screenshots/booking-com-2026-06-20T173602.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Operations related to calls
@@ -58,11 +58,42 @@ apis:
 - description: Operations related to webhooks
   name: OpenPhone Webhooks API
   slug: openphone-webhooks-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Openphone Webhooks
   slug: openphone-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quo Public Calls API
+  slug: open-openphone-calls-api
+- collection_type: open
+  name: Quo Public Calls Contact Custom Fields API
+  slug: open-openphone-contact-custom-fields-api
+- collection_type: open
+  name: Quo Public Calls Contacts API
+  slug: open-openphone-contacts-api
+- collection_type: open
+  name: Quo Public Calls Conversations API
+  slug: open-openphone-conversations-api
+- collection_type: open
+  name: Quo Public Calls Messages API
+  slug: open-openphone-messages-api
+- collection_type: open
+  name: Quo Public Calls Phone Numbers API
+  slug: open-openphone-phone-numbers-api
+- collection_type: open
+  name: Quo Public Calls Tasks API
+  slug: open-openphone-tasks-api
+- collection_type: open
+  name: Quo Public Calls Users API
+  slug: open-openphone-users-api
+- collection_type: open
+  name: Quo Public Calls Webhooks API
+  slug: open-openphone-webhooks-api
 common:
 - group: auth
   title: ''
@@ -199,7 +230,7 @@ overview: 'OpenPhone publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   OpenPhone''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, support, signup flow, and 22 more developer resources.'
-random_paper: 12
+random_paper: 78
 score:
   band: developing
   composite: 51.6
@@ -228,7 +259,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/screenshots/openphone-2026-08-07T190627.png
 security:

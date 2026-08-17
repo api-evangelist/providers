@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -93,7 +93,362 @@ apis:
 - description: Morningstar's AI integration surface - the Morningstar Agent API at agents.morningstar.com plus an MCP server exposing datapoint lookup and editorial research tools to AI agents, with a published agen
   name: Morningstar Agent API
   slug: morningstar-agent-api
-artifact_total: 24
+artifact_total: 142
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authorization Tokens Accounts API
+  slug: open-morningstar-accounts-api
+- collection_type: open
+  name: Authorization Tokens Accounts Activities API
+  slug: open-morningstar-activities-api
+- collection_type: open
+  name: Authorization Tokens Accounts Aggregates Financials API
+  slug: open-morningstar-aggregates-financials-api
+- collection_type: open
+  name: Authorization Tokens Accounts Aggregates Market Capitalization and Enterprise Value API
+  slug: open-morningstar-aggregates-market-capitalization-and-enterprise-value-api
+- collection_type: open
+  name: Authorization Tokens Accounts Aggregates Residual Risk and Return Sensitivity API
+  slug: open-morningstar-aggregates-residual-risk-and-return-sensitivity-api
+- collection_type: open
+  name: Authorization Tokens Accounts Aggregates Returns API
+  slug: open-morningstar-aggregates-returns-api
+- collection_type: open
+  name: Authorization Tokens Accounts Analyst Highlights API
+  slug: open-morningstar-analyst-highlights-api
+- collection_type: open
+  name: Authorization Tokens Accounts Analyst Normalized Financials API
+  slug: open-morningstar-analyst-normalized-financials-api
+- collection_type: open
+  name: Authorization Tokens Accounts attribution API
+  slug: open-morningstar-attribution-api
+- collection_type: open
+  name: Authorization Tokens Accounts autocomplete API
+  slug: open-morningstar-autocomplete-api
+- collection_type: open
+  name: Authorization Tokens Accounts Basic Details API
+  slug: open-morningstar-basic-details-api
+- collection_type: open
+  name: Authorization Tokens Accounts Basic Reference API
+  slug: open-morningstar-basic-reference-api
+- collection_type: open
+  name: Authorization Tokens Accounts BenchmarkFees API
+  slug: open-morningstar-benchmarkfees-api
+- collection_type: open
+  name: Authorization Tokens Accounts buckets API
+  slug: open-morningstar-buckets-api
+- collection_type: open
+  name: Authorization Tokens Accounts Clients API
+  slug: open-morningstar-clients-api
+- collection_type: open
+  name: Authorization Tokens Accounts company entitlements API
+  slug: open-morningstar-company-entitlements-api
+- collection_type: open
+  name: Authorization Tokens Accounts Compensation API
+  slug: open-morningstar-compensation-api
+- collection_type: open
+  name: Authorization Tokens Accounts Consensus Estimates API
+  slug: open-morningstar-consensus-estimates-api
+- collection_type: open
+  name: Authorization Tokens Accounts Consensus Recommendations API
+  slug: open-morningstar-consensus-recommendations-api
+- collection_type: open
+  name: Authorization Tokens Accounts Corporate Actions API
+  slug: open-morningstar-corporate-actions-api
+- collection_type: open
+  name: Authorization Tokens Accounts Corporate Actions Price Mergers and Acquisitions API
+  slug: open-morningstar-corporate-actions-price-mergers-and-acquisitions-api
+- collection_type: open
+  name: Authorization Tokens Accounts Credentials API
+  slug: open-morningstar-credentials-api
+- collection_type: open
+  name: Authorization Tokens Accounts CUSIP API
+  slug: open-morningstar-cusip-api
+- collection_type: open
+  name: Authorization Tokens Accounts CUSIP Change API
+  slug: open-morningstar-cusip-change-api
+- collection_type: open
+  name: Authorization Tokens Accounts custodians API
+  slug: open-morningstar-custodians-api
+- collection_type: open
+  name: Authorization Tokens Accounts Data Points API
+  slug: open-morningstar-data-points-api
+- collection_type: open
+  name: Authorization Tokens Accounts decomposition API
+  slug: open-morningstar-decomposition-api
+- collection_type: open
+  name: Authorization Tokens Accounts Earnings Summaries API
+  slug: open-morningstar-earnings-summaries-api
+- collection_type: open
+  name: Authorization Tokens Accounts equity - company research API
+  slug: open-morningstar-equity-company-research-api
+- collection_type: open
+  name: Authorization Tokens Accounts equity - moat framework API
+  slug: open-morningstar-equity-moat-framework-api
+- collection_type: open
+  name: Authorization Tokens Accounts equity reports - quant and enhanced quant API
+  slug: open-morningstar-equity-reports-quant-and-enhanced-quant-api
+- collection_type: open
+  name: Authorization Tokens Accounts equity - rps document API
+  slug: open-morningstar-equity-rps-document-api
+- collection_type: open
+  name: Authorization Tokens Accounts esg API
+  slug: open-morningstar-esg-api
+- collection_type: open
+  name: Authorization Tokens Accounts exposures API
+  slug: open-morningstar-exposures-api
+- collection_type: open
+  name: Authorization Tokens Accounts Fees & Expenses API
+  slug: open-morningstar-fees-expenses-api
+- collection_type: open
+  name: Authorization Tokens Accounts Financials API
+  slug: open-morningstar-financials-api
+- collection_type: open
+  name: Authorization Tokens Accounts flow attribution API
+  slug: open-morningstar-flow-attribution-api
+- collection_type: open
+  name: Authorization Tokens Accounts Fund-Level Sustainability Ratings, Research, and Analytics API
+  slug: open-morningstar-fund-level-sustainability-ratings-research-and-analytics-api
+- collection_type: open
+  name: Authorization Tokens Accounts fund reports - carbon report API
+  slug: open-morningstar-fund-reports-carbon-report-api
+- collection_type: open
+  name: Authorization Tokens Accounts fund reports - esg API
+  slug: open-morningstar-fund-reports-esg-api
+- collection_type: open
+  name: Authorization Tokens Accounts fund reports - managed investment report API
+  slug: open-morningstar-fund-reports-managed-investment-report-api
+- collection_type: open
+  name: Authorization Tokens Accounts fund reports - target date series API
+  slug: open-morningstar-fund-reports-target-date-series-api
+- collection_type: open
+  name: Authorization Tokens Accounts Fund Research, Ratings and Analytics API
+  slug: open-morningstar-fund-research-ratings-and-analytics-api
+- collection_type: open
+  name: Authorization Tokens Accounts Governance API
+  slug: open-morningstar-governance-api
+- collection_type: open
+  name: Authorization Tokens Accounts holdings API
+  slug: open-morningstar-holdings-api
+- collection_type: open
+  name: Authorization Tokens Accounts households API
+  slug: open-morningstar-households-api
+- collection_type: open
+  name: Authorization Tokens Accounts hypo API
+  slug: open-morningstar-hypo-api
+- collection_type: open
+  name: Authorization Tokens Accounts Hypothetical Performance API
+  slug: open-morningstar-hypothetical-performance-api
+- collection_type: open
+  name: Authorization Tokens Accounts IDR (Investment Details Report) API
+  slug: open-morningstar-idr-investment-details-report-api
+- collection_type: open
+  name: Authorization Tokens Accounts Industry Classification API
+  slug: open-morningstar-industry-classification-api
+- collection_type: open
+  name: Authorization Tokens Accounts Industry-Specific Metrics API
+  slug: open-morningstar-industry-specific-metrics-api
+- collection_type: open
+  name: Authorization Tokens Accounts Investment Details API
+  slug: open-morningstar-investment-details-api
+- collection_type: open
+  name: Authorization Tokens Accounts Investment List API
+  slug: open-morningstar-investment-list-api
+- collection_type: open
+  name: Authorization Tokens Accounts Investment Profiles API
+  slug: open-morningstar-investment-profiles-api
+- collection_type: open
+  name: Authorization Tokens Accounts Investments Universe API
+  slug: open-morningstar-investments-universe-api
+- collection_type: open
+  name: Authorization Tokens Accounts Key Events API
+  slug: open-morningstar-key-events-api
+- collection_type: open
+  name: Authorization Tokens Accounts macro shock scenarios API
+  slug: open-morningstar-macro-shock-scenarios-api
+- collection_type: open
+  name: Authorization Tokens Accounts Market Capitalization and Enterprise Value API
+  slug: open-morningstar-market-capitalization-and-enterprise-value-api
+- collection_type: open
+  name: Authorization Tokens Accounts market shock scenarios API
+  slug: open-morningstar-market-shock-scenarios-api
+- collection_type: open
+  name: Authorization Tokens Accounts models API
+  slug: open-morningstar-models-api
+- collection_type: open
+  name: Authorization Tokens Accounts Morningstar Agent API
+  slug: open-morningstar-morningstar-agent-api
+- collection_type: open
+  name: Authorization Tokens Accounts oauth API
+  slug: open-morningstar-oauth-api
+- collection_type: open
+  name: Authorization Tokens Accounts Office Client API
+  slug: open-morningstar-office-client-api
+- collection_type: open
+  name: Authorization Tokens Accounts Office Institution Client API
+  slug: open-morningstar-office-institution-client-api
+- collection_type: open
+  name: Authorization Tokens Accounts Office Members API
+  slug: open-morningstar-office-members-api
+- collection_type: open
+  name: Authorization Tokens Accounts Ownership - Asset Managers API
+  slug: open-morningstar-ownership-asset-managers-api
+- collection_type: open
+  name: Authorization Tokens Accounts Ownership - Insiders API
+  slug: open-morningstar-ownership-insiders-api
+- collection_type: open
+  name: Authorization Tokens Accounts Ownership - Managed Investments API
+  slug: open-morningstar-ownership-managed-investments-api
+- collection_type: open
+  name: Authorization Tokens Accounts Ownership - Regulatory Reporting API
+  slug: open-morningstar-ownership-regulatory-reporting-api
+- collection_type: open
+  name: Authorization Tokens Accounts Ownership - Summary API
+  slug: open-morningstar-ownership-summary-api
+- collection_type: open
+  name: Authorization Tokens Accounts Performance API
+  slug: open-morningstar-performance-api
+- collection_type: open
+  name: Authorization Tokens Accounts Persons API
+  slug: open-morningstar-persons-api
+- collection_type: open
+  name: Authorization Tokens Accounts PJM (Professional Judgement Matrix) API
+  slug: open-morningstar-pjm-professional-judgement-matrix-api
+- collection_type: open
+  name: Authorization Tokens Accounts Plan API
+  slug: open-morningstar-plan-api
+- collection_type: open
+  name: Authorization Tokens Accounts PlanNames API
+  slug: open-morningstar-plannames-api
+- collection_type: open
+  name: Authorization Tokens Accounts Portfolio Analytics API
+  slug: open-morningstar-portfolio-analytics-api
+- collection_type: open
+  name: Authorization Tokens Accounts Portfolio Holdings API
+  slug: open-morningstar-portfolio-holdings-api
+- collection_type: open
+  name: Authorization Tokens Accounts Portfolio Holdings Dates API
+  slug: open-morningstar-portfolio-holdings-dates-api
+- collection_type: open
+  name: Authorization Tokens Accounts Portfolio Risk Score API
+  slug: open-morningstar-portfolio-risk-score-api
+- collection_type: open
+  name: Authorization Tokens Accounts PortfolioOptimizer API
+  slug: open-morningstar-portfoliooptimizer-api
+- collection_type: open
+  name: Authorization Tokens Accounts Portfolios API
+  slug: open-morningstar-portfolios-api
+- collection_type: open
+  name: Authorization Tokens Accounts Positions API
+  slug: open-morningstar-positions-api
+- collection_type: open
+  name: Authorization Tokens Accounts professional judgement matrices API
+  slug: open-morningstar-professional-judgement-matrices-api
+- collection_type: open
+  name: Authorization Tokens Accounts profiles API
+  slug: open-morningstar-profiles-api
+- collection_type: open
+  name: Authorization Tokens Accounts Quantitative Comparables API
+  slug: open-morningstar-quantitative-comparables-api
+- collection_type: open
+  name: Authorization Tokens Accounts Quantitative Equity Rating Analysis API
+  slug: open-morningstar-quantitative-equity-rating-analysis-api
+- collection_type: open
+  name: Authorization Tokens Accounts Quantitative Equity Research Ratings API
+  slug: open-morningstar-quantitative-equity-research-ratings-api
+- collection_type: open
+  name: Authorization Tokens Accounts Questionnaires API
+  slug: open-morningstar-questionnaires-api
+- collection_type: open
+  name: Authorization Tokens Accounts Reference API
+  slug: open-morningstar-reference-api
+- collection_type: open
+  name: Authorization Tokens Accounts Reference Change API
+  slug: open-morningstar-reference-change-api
+- collection_type: open
+  name: Authorization Tokens Accounts report files API
+  slug: open-morningstar-report-files-api
+- collection_type: open
+  name: Authorization Tokens Accounts Reports API
+  slug: open-morningstar-reports-api
+- collection_type: open
+  name: Authorization Tokens Accounts Research Ratings Most Recent and Historical API
+  slug: open-morningstar-research-ratings-most-recent-and-historical-api
+- collection_type: open
+  name: Authorization Tokens Accounts Research Ratings Most Recent API
+  slug: open-morningstar-research-ratings-most-recent-api
+- collection_type: open
+  name: Authorization Tokens Accounts Residual Risk and Return Sensitivity API
+  slug: open-morningstar-residual-risk-and-return-sensitivity-api
+- collection_type: open
+  name: Authorization Tokens Accounts Returns API
+  slug: open-morningstar-returns-api
+- collection_type: open
+  name: Authorization Tokens Accounts risk scores API
+  slug: open-morningstar-risk-scores-api
+- collection_type: open
+  name: Authorization Tokens Accounts Scenario Analysis API
+  slug: open-morningstar-scenario-analysis-api
+- collection_type: open
+  name: Authorization Tokens Accounts Screener API
+  slug: open-morningstar-screener-api
+- collection_type: open
+  name: Authorization Tokens Accounts securities API
+  slug: open-morningstar-securities-api
+- collection_type: open
+  name: Authorization Tokens Accounts SEDOL API
+  slug: open-morningstar-sedol-api
+- collection_type: open
+  name: Authorization Tokens Accounts SEDOL Change API
+  slug: open-morningstar-sedol-change-api
+- collection_type: open
+  name: Authorization Tokens Accounts sensitivity analysis API
+  slug: open-morningstar-sensitivity-analysis-api
+- collection_type: open
+  name: Authorization Tokens Accounts Shareholder Stewardship API
+  slug: open-morningstar-shareholder-stewardship-api
+- collection_type: open
+  name: Authorization Tokens Accounts Short Interest API
+  slug: open-morningstar-short-interest-api
+- collection_type: open
+  name: Authorization Tokens Accounts Solutions API
+  slug: open-morningstar-solutions-api
+- collection_type: open
+  name: Authorization Tokens Accounts statement details API
+  slug: open-morningstar-statement-details-api
+- collection_type: open
+  name: Authorization Tokens Accounts statistics API
+  slug: open-morningstar-statistics-api
+- collection_type: open
+  name: Authorization Tokens Accounts Style Box API
+  slug: open-morningstar-style-box-api
+- collection_type: open
+  name: Authorization Tokens Accounts Time Series API
+  slug: open-morningstar-time-series-api
+- collection_type: open
+  name: Authorization Tokens Accounts timeseries API
+  slug: open-morningstar-timeseries-api
+- collection_type: open
+  name: Authorization Tokens Accounts Token API
+  slug: open-morningstar-token-api
+- collection_type: open
+  name: Authorization Tokens Accounts Total Shares Outstanding API
+  slug: open-morningstar-total-shares-outstanding-api
+- collection_type: open
+  name: Authorization Tokens Accounts Transcripts API
+  slug: open-morningstar-transcripts-api
+- collection_type: open
+  name: Authorization Tokens Accounts Views API
+  slug: open-morningstar-views-api
+- collection_type: open
+  name: Authorization Tokens Accounts X-Ray API
+  slug: open-morningstar-x-ray-api
+- collection_type: open
+  name: Authorization Tokens Accounts x-rays API
+  slug: open-morningstar-x-rays-api
 common:
 - group: agent
   title: ''
@@ -263,7 +618,7 @@ overview: 'Morningstar publishes 14 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Morningstar''s developer surface includes authentication, developer portal, documentation, support, sandbox, API reference, getting-started guide, and 31 more developer resources.'
-random_paper: 4
+random_paper: 12
 scopes:
 - name: Morningstar Scopes
   scope_count: 4
@@ -298,7 +653,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/screenshots/morningstar-2026-07-22T202515.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The open-source FiftyOne Python SDK is the primary interface for building and curating visual AI datasets - creating Datasets and Samples, slicing data with Views and aggregations, computing embedding
@@ -41,8 +41,11 @@ apis:
 - description: The plugin and operator framework extends FiftyOne with custom Python (and JavaScript/React) functionality - new App panels, operators, and integrations that run inside the FiftyOne App and SDK. Plugi
   name: FiftyOne Plugins & Operators
   slug: fiftyone-plugins-operators
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Voxel51 FiftyOne
   slug: open-voxel51
@@ -107,7 +110,7 @@ plans:
 - name: Voxel51 Plans Pricing
   plan_count: 4
   slug: voxel51-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 4
   name: Voxel51 Rate Limits
@@ -125,7 +128,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

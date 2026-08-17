@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -106,7 +106,7 @@ arazzos:
 - description: Look up a recipient by phone, create one if missing, then create a task for them.
   name: Onfleet Upsert Recipient and Create Task
   slug: onfleet-upsert-recipient-and-create-task-workflow
-artifact_total: 86
+artifact_total: 88
 asyncapis:
 - description: Real-time event stream delivered as HTTPS POST callbacks from Onfleet to a URL you register via the Webhooks API. Each webhook is bound to a single triggerId; payloads share a common envelope with `ti
   name: Onfleet Webhooks
@@ -137,28 +137,34 @@ collections:
   name: Onfleet Workers API
   slug: postman-onfleet-workers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Onfleet Destinations API
   slug: open-onfleet-destinations-api
 - collection_type: open
-  name: Onfleet Orders API
+  name: Onfleet Destinations Orders API
   slug: open-onfleet-orders-api
 - collection_type: open
-  name: Onfleet Organizations API
+  name: Onfleet Destinations Organizations API
   slug: open-onfleet-organizations-api
 - collection_type: open
-  name: Onfleet Recipients API
+  name: Onfleet Destinations Recipients API
   slug: open-onfleet-recipients-api
 - collection_type: open
-  name: Onfleet Route Plans API
+  name: Onfleet Destinations Route Optimization API
+  slug: open-onfleet-route-optimization-api
+- collection_type: open
+  name: Onfleet Destinations Route Plans API
   slug: open-onfleet-route-plans-api
 - collection_type: open
-  name: Onfleet Tasks API
+  name: Onfleet Destinations Tasks API
   slug: open-onfleet-tasks-api
 - collection_type: open
-  name: Onfleet Webhooks API
+  name: Onfleet Destinations Webhooks API
   slug: open-onfleet-webhooks-api
 - collection_type: open
-  name: Onfleet Workers API
+  name: Onfleet Destinations Workers API
   slug: open-onfleet-workers-api
 common:
 - group: agent
@@ -450,7 +456,7 @@ plans:
 - name: Onfleet Plans Pricing
   plan_count: 3
   slug: onfleet-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Onfleet Rate Limits
@@ -500,7 +506,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png
 security:

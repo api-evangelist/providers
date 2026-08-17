@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,7 +125,7 @@ overview: 'Better Life Partners is profiled on the [APIs.io](https://apis.io/) n
 
 
   Better Life Partners'' developer surface includes engineering blog, support, FAQ, pricing, signup flow, and 12 more developer resources.'
-random_paper: 111
+random_paper: 94
 score:
   band: emerging
   composite: 13.7
@@ -145,7 +145,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/better-life-partners/refs/heads/main/screenshots/better-life-partners-2026-08-07T162335.png
 security:

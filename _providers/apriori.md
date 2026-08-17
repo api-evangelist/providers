@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Agent Controller
@@ -27,7 +27,17 @@ apis:
 - description: Workflows Controller
   name: aPriori Workflow API
   slug: apriori-workflow-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: aP Connect REST Agent API
+  slug: open-apriori-agent-api
+- collection_type: open
+  name: aP Connect Agent REST Workflow API
+  slug: open-apriori-workflow-api
 common:
 - group: other
   title: ''
@@ -153,7 +163,7 @@ overview: 'aPriori publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   aPriori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 38
+random_paper: 13
 score:
   band: developing
   composite: 43.8
@@ -176,7 +186,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/screenshots/apriori-2026-08-07T161510.png
 security:

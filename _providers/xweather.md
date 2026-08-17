@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Tropical cyclone and hurricane data
   name: Xweather Tropical API
   slug: xweather-tropical-api
-artifact_total: 64
+artifact_total: 74
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xweather Weather Air Quality API
+  slug: open-xweather-air-quality-api
+- collection_type: open
+  name: Xweather Weather Air Quality Alerts API
+  slug: open-xweather-alerts-api
+- collection_type: open
+  name: Xweather Weather Air Quality Conditions API
+  slug: open-xweather-conditions-api
+- collection_type: open
+  name: Xweather Weather Air Quality Fires API
+  slug: open-xweather-fires-api
+- collection_type: open
+  name: Xweather Weather Air Quality Forecasts API
+  slug: open-xweather-forecasts-api
+- collection_type: open
+  name: Xweather Weather Air Quality Lightning API
+  slug: open-xweather-lightning-api
+- collection_type: open
+  name: Xweather Weather Air Quality Maritime API
+  slug: open-xweather-maritime-api
+- collection_type: open
+  name: Xweather Weather Air Quality Observations API
+  slug: open-xweather-observations-api
+- collection_type: open
+  name: Xweather Weather Air Quality Tropical API
+  slug: open-xweather-tropical-api
 - collection_type: open
   name: Xweather Weather API
   slug: open-xweather-weather-api
@@ -322,7 +352,7 @@ plans:
 - name: Xweather Plans Pricing
   plan_count: 3
   slug: xweather-plans-pricing
-random_paper: 32
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Xweather Rate Limits
@@ -364,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/screenshots/xweather-2026-06-20T201723.png
 security:

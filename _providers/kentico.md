@@ -10,26 +10,27 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 50.0
+  scored_at: '2026-08-17'
+api_count: 5
 apis:
 - description: Auto-generated GraphQL API endpoint for each headless channel in Xperience by Kentico. Supports querying content items with filtering, sorting, pagination, linked items, language variants, taxonomy ta
   name: Kentico Headless GraphQL API
@@ -40,7 +41,13 @@ apis:
 - description: Server-side .NET API for content item queries, object queries, file system operations, and database access within Xperience by Kentico applications. Includes ContentRetriever API, ObjectQuery API, Fil
   name: Kentico .NET Content API
   slug: kentico-dotnet-content-api
-artifact_total: 10
+- description: HTTP API for the Kentico SaaS control plane. Uploads a deployment ZIP package to an Xperience Portal project environment so CI/CD pipelines can deploy without using the Portal UI. Authenticated with a
+  name: Xperience Portal API
+  slug: kentico-xperience-portal-api
+- description: Preview REST management API exposed by an Xperience by Kentico application at the kentico-api/management path once the Kentico.Xperience.ManagementApi package is installed and AddKenticoManagementApi(
+  name: Xperience by Kentico Management API
+  slug: kentico-management-api
+artifact_total: 14
 common:
 - group: auth
   title: ''
@@ -98,6 +105,126 @@ common:
   title: ''
   type: FinOps
   url: finops/kentico-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kentico-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/kentico-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/kentico-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/kentico-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/kentico-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/kentico-components.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/kentico-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/kentico-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.kentico.com/vulnerability-disclosure-program
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/kentico-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/kentico-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/kentico-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/kentico-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.kentico.com/documentation/developers-and-admins/installation/support-policy
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/kentico-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/kentico-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.kentico.com/
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/kentico-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/kentico-sandbox.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.kentico.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-reference.kentico.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.kentico.com/get-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.kentico.com/customers/supportcenter
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.kentico.com
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://roadmap.kentico.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Kentico
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kentico.com/end-user-license-agreement
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kentico.com/privacy-policy
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/c/kentico
 created: '2026-06-13'
 description: Kentico is an enterprise .NET CMS and digital experience platform offering REST and GraphQL APIs for managing web content, e-commerce, digital marketing, and personalization. Xperience by Kentico provides headless channel GraphQL endpoints auto-generated per channel, a content item .NET API, file storage APIs supporting Azure Blob and Amazon S3, and a management REST service for CRUD operations on CMS objects. The platform supports ASP.NET Core with channel-based licensing covering website, email, and headless channels.
 finops:
@@ -110,40 +237,48 @@ graphqls:
   slug: kentico-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kentico.png
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: kentico-mcp.yml
+  slug: kentico-mcpyml
+modified: '2026-08-13'
 name: Kentico
 nav: Providers
 network: true
-overview: 'Kentico publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CMS, Content Management, Digital Experience Platform, GraphQL, and REST.
+overview: 'Kentico publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CMS, Content Management, Digital Experience Platform, GraphQL, and REST.
 
 
-  Kentico''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Kentico''s developer surface includes documentation, engineering blog, pricing, CLI, authentication, changelog, sandbox, and 37 more developer resources.'
 plans:
 - name: Kentico Plans Pricing
   plan_count: 5
   slug: kentico-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Kentico Rate Limits
   slug: kentico-rate-limits
 score:
-  band: thin
-  composite: 34.4
-  delta: 0.0
+  band: strong
+  composite: 63.9
+  delta: 29.5
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 86.8
     contract_quality: 42.0
-    developer_ergonomics: 10.9
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 21.1
+    developer_ergonomics: 87.0
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 60.5
   previous_composite: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png
 security:
+- kind: authentication
+  name: Kentico Authentication
+  slug: kentico-authentication
+  summary_line: apiKey/http · 4 schemes
 - kind: domain-security
   name: Kentico Domain Security
   slug: kentico-domain-security

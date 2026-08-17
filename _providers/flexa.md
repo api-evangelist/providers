@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,11 +51,27 @@ apis:
 - description: Refunds are the only way by which a Flexa payment can be reversed. Refunds are always initiated by the recipient, and can be made for either a partial amount or the full value of the original payment.
   name: Flexa Refunds API
   slug: flexa-refunds-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Flexa Events Webhooks
   slug: flexa-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flexa Assets API
+  slug: open-flexa-assets-api
+- collection_type: open
+  name: Flexa Assets Commerce Intents API
+  slug: open-flexa-commerce-intents-api
+- collection_type: open
+  name: Flexa Assets Events API
+  slug: open-flexa-events-api
+- collection_type: open
+  name: Flexa Assets Refunds API
+  slug: open-flexa-refunds-api
 common:
 - group: agent
   title: ''
@@ -192,7 +208,7 @@ overview: 'Flexa publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Flexa''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 48
+random_paper: 81
 score:
   band: developing
   composite: 47.7
@@ -222,7 +238,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/screenshots/flexa-2026-07-25T214746.png
 security:

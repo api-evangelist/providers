@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 50
@@ -77,7 +77,50 @@ apis:
 - description: User profile management
   name: Earnipay Users API
   slug: earnipay-users-api
-artifact_total: 17
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Earnipay Invoicing App API
+  slug: open-earnipay-app-api
+- collection_type: open
+  name: Earnipay Invoicing App APP Provider API
+  slug: open-earnipay-app-provider-api
+- collection_type: open
+  name: Earnipay Invoicing App Authentication API
+  slug: open-earnipay-authentication-api
+- collection_type: open
+  name: Earnipay Invoicing App Bank API
+  slug: open-earnipay-bank-api
+- collection_type: open
+  name: Earnipay Invoicing App Business API
+  slug: open-earnipay-business-api
+- collection_type: open
+  name: Earnipay Invoicing App Customers API
+  slug: open-earnipay-customers-api
+- collection_type: open
+  name: Earnipay Invoicing App Invoices API
+  slug: open-earnipay-invoices-api
+- collection_type: open
+  name: Earnipay Invoicing App IRN Generator API
+  slug: open-earnipay-irn-generator-api
+- collection_type: open
+  name: Earnipay Invoicing App Payment Details API
+  slug: open-earnipay-payment-details-api
+- collection_type: open
+  name: Earnipay Invoicing App Products API
+  slug: open-earnipay-products-api
+- collection_type: open
+  name: Earnipay Invoicing App QR Code Generator API
+  slug: open-earnipay-qr-code-generator-api
+- collection_type: open
+  name: Earnipay Invoicing App Team API
+  slug: open-earnipay-team-api
+- collection_type: open
+  name: Earnipay Invoicing App Users API
+  slug: open-earnipay-users-api
 common:
 - group: agent
   title: ''
@@ -167,7 +210,7 @@ overview: 'Earnipay publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Earnipay''s developer surface includes authentication, documentation, API reference, getting-started guide, and 14 more developer resources.'
-random_paper: 17
+random_paper: 112
 score:
   band: thin
   composite: 31.7
@@ -197,7 +240,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/screenshots/earnipay-2026-07-25T212700.png
 security:

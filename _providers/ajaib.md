@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -37,7 +37,20 @@ apis:
 - description: Check funds and assets held by the exchange client.
   name: Ajaib Wallet API
   slug: ajaib-wallet-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ajaib Coin Exchange Market Info API
+  slug: open-ajaib-market-info-api
+- collection_type: open
+  name: Ajaib Coin Exchange Spot Trading API
+  slug: open-ajaib-spot-trading-api
+- collection_type: open
+  name: Ajaib Coin Exchange Wallet API
+  slug: open-ajaib-wallet-api
 common:
 - group: company
   title: ''
@@ -167,7 +180,7 @@ overview: 'Ajaib publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ma
 
 
   Ajaib''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 23
+random_paper: 56
 score:
   band: thin
   composite: 35.3
@@ -197,7 +210,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/screenshots/ajaib-2026-08-07T161125.png
 security:

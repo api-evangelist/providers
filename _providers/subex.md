@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Revenue leakage detection and reconciliation
   name: Subex Revenue Assurance API
   slug: subex-revenue-assurance-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Subex Revenue Assurance & Fraud Management Analytics API
+  slug: open-subex-analytics-api
+- collection_type: open
+  name: Subex Revenue Assurance & Analytics Fraud Management API
+  slug: open-subex-fraud-management-api
+- collection_type: open
+  name: Subex Revenue Assurance & Fraud Management Analytics Reconciliation API
+  slug: open-subex-reconciliation-api
+- collection_type: open
+  name: Subex & Fraud Management Analytics Revenue Assurance API
+  slug: open-subex-revenue-assurance-api
 - collection_type: open
   name: Subex Revenue Assurance & Fraud Management API
   slug: open-subex-revenue-assurance
@@ -172,7 +187,7 @@ plans:
 - name: Subex Plans Pricing
   plan_count: 3
   slug: subex-plans-pricing
-random_paper: 71
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Subex Rate Limits
@@ -220,7 +235,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/screenshots/subex-2026-06-20T194634.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 1
@@ -101,8 +101,74 @@ apis:
 - description: The Theme API from Apache Superset — 2 operation(s) for theme.
   name: Apache Superset Theme API
   slug: apache-superset-theme-api
-artifact_total: 47
+artifact_total: 69
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Superset REST Annotation Layer API
+  slug: open-apache-superset-annotation-layer-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Assets API
+  slug: open-apache-superset-assets-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Async Event API
+  slug: open-apache-superset-async-event-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Available Domains API
+  slug: open-apache-superset-available-domains-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Cachekey API
+  slug: open-apache-superset-cachekey-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Chart API
+  slug: open-apache-superset-chart-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Css Template API
+  slug: open-apache-superset-css-template-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Dashboard API
+  slug: open-apache-superset-dashboard-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Database API
+  slug: open-apache-superset-database-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Dataset API
+  slug: open-apache-superset-dataset-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Embedded Dashboard API
+  slug: open-apache-superset-embedded-dashboard-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Log API
+  slug: open-apache-superset-log-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Me API
+  slug: open-apache-superset-me-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Menu API
+  slug: open-apache-superset-menu-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Query API
+  slug: open-apache-superset-query-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Report API
+  slug: open-apache-superset-report-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Saved Query API
+  slug: open-apache-superset-saved-query-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Security API
+  slug: open-apache-superset-security-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Sqllab API
+  slug: open-apache-superset-sqllab-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Tag API
+  slug: open-apache-superset-tag-api
+- collection_type: open
+  name: Apache Superset REST Annotation Layer Theme API
+  slug: open-apache-superset-theme-api
 - collection_type: open
   name: Apache Superset REST API
   slug: open-apache-superset
@@ -223,7 +289,7 @@ plans:
 - name: Apache Superset Plans Pricing
   plan_count: 3
   slug: apache-superset-plans-pricing
-random_paper: 106
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Apache Superset Rate Limits
@@ -248,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/screenshots/apache-superset-2026-06-20T172150.png
 security:

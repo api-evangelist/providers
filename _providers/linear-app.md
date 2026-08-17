@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: 'Single GraphQL endpoint exposing Linear''s full data model - issues, projects, initiatives, cycles, teams, users, comments, documents, customers, customer requests, and more. Auth via OAuth 2.0 Bearer '
@@ -211,7 +211,7 @@ plans:
 - name: Linear App Plans Pricing
   plan_count: 1
   slug: linear-app-plans-pricing
-random_paper: 41
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Linear App Rate Limits
@@ -229,7 +229,7 @@ score:
     operational_transparency: 76.3
   previous_composite: 40.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/screenshots/linear-app-2026-06-20T184548.png
 security:

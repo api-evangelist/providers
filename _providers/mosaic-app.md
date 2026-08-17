@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -57,8 +57,26 @@ apis:
 - description: The Work Plans API from Mosaic — 3 operation(s) for work plans.
   name: Mosaic Work Plans API
   slug: mosaic-app-work-plans-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mosaic Open Members API
+  slug: open-mosaic-app-members-api
+- collection_type: open
+  name: Mosaic Open Members Projects API
+  slug: open-mosaic-app-projects-api
+- collection_type: open
+  name: Mosaic Open Members Tasks API
+  slug: open-mosaic-app-tasks-api
+- collection_type: open
+  name: Mosaic Open Members Time Entries API
+  slug: open-mosaic-app-time-entries-api
+- collection_type: open
+  name: Mosaic Open Members Work Plans API
+  slug: open-mosaic-app-work-plans-api
 - collection_type: open
   name: Mosaic Open API
   slug: open-mosaic-app
@@ -143,7 +161,7 @@ plans:
 - name: Mosaic App Plans Pricing
   plan_count: 1
   slug: mosaic-app-plans-pricing
-random_paper: 42
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Mosaic App Rate Limits
@@ -168,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/screenshots/mosaic-app-2026-06-20T185820.png
 security:

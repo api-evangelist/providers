@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -80,7 +80,23 @@ apis:
 - description: Manage shows (productions) in OpenCue
   name: Academy Software Foundation Shows API
   slug: academy-software-foundation-shows-api
-artifact_total: 80
+artifact_total: 85
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Academy Software Foundation - OpenCue Hosts API
+  slug: open-academy-software-foundation-hosts-api
+- collection_type: open
+  name: Academy Software Foundation - OpenCue Hosts Jobs API
+  slug: open-academy-software-foundation-jobs-api
+- collection_type: open
+  name: Academy Software Foundation - OpenCue Hosts Layers API
+  slug: open-academy-software-foundation-layers-api
+- collection_type: open
+  name: Academy Software Foundation - OpenCue Hosts Shows API
+  slug: open-academy-software-foundation-shows-api
 common:
 - group: operate
   title: ''
@@ -331,7 +347,7 @@ plans:
 - name: Academy Software Foundation Plans Pricing
   plan_count: 0
   slug: academy-software-foundation-plans-pricing
-random_paper: 8
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Academy Software Foundation Rate Limits
@@ -373,7 +389,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/screenshots/academy-software-foundation-2026-06-20T163501.png
 security:

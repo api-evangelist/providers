@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -61,11 +61,17 @@ arazzos:
 - description: Revoke a principal's permissions on a resource and verify they were removed.
   name: Amazon Lake Formation Revoke Permissions and Verify
   slug: amazon-lake-formation-revoke-and-verify-workflow
-artifact_total: 34
+artifact_total: 36
 collections:
 - collection_type: postman
   name: Amazon Lake Formation API
   slug: postman-amazon-lake-formation
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Lake Formation Resources API
+  slug: open-amazon-lake-formation-resources-api
 - collection_type: open
   name: Amazon Lake Formation API
   slug: open-amazon-lake-formation
@@ -250,7 +256,7 @@ plans:
 - name: Amazon Lake Formation Plans Pricing
   plan_count: 3
   slug: amazon-lake-formation-plans-pricing
-random_paper: 84
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Amazon Lake Formation Rate Limits
@@ -292,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/screenshots/amazon-lake-formation-2026-06-20T171721.png
 security:

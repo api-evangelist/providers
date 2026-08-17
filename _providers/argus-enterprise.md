@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Property valuations and appraisal data
   name: ARGUS Enterprise Valuations API
   slug: argus-enterprise-valuations-api
-artifact_total: 165
+artifact_total: 178
 collections:
 - collection_type: postman
   name: Argus Enterprise Core Authentication API
@@ -114,8 +114,47 @@ collections:
   name: Argus Enterprise Core Authentication Valuations API
   slug: postman-argus-enterprise-valuations-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Argus Enterprise Core Authentication API
+  slug: open-argus-enterprise-authentication-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Cash Flows API
+  slug: open-argus-enterprise-cash-flows-api
+- collection_type: open
   name: Argus Enterprise Core API
   slug: open-argus-enterprise-core
+- collection_type: open
+  name: Argus Enterprise Core Authentication Events API
+  slug: open-argus-enterprise-events-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Health API
+  slug: open-argus-enterprise-health-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Leases API
+  slug: open-argus-enterprise-leases-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Portfolios API
+  slug: open-argus-enterprise-portfolios-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Properties API
+  slug: open-argus-enterprise-properties-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Reports API
+  slug: open-argus-enterprise-reports-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Subscriptions API
+  slug: open-argus-enterprise-subscriptions-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Tenants API
+  slug: open-argus-enterprise-tenants-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Users API
+  slug: open-argus-enterprise-users-api
+- collection_type: open
+  name: Argus Enterprise Core Authentication Valuations API
+  slug: open-argus-enterprise-valuations-api
 - collection_type: open
   name: Argus Enterprise Webhook API
   slug: open-argus-enterprise-webhooks
@@ -577,7 +616,7 @@ plans:
 - name: Argus Enterprise Plans Pricing
   plan_count: 3
   slug: argus-enterprise-plans-pricing
-random_paper: 0
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Argus Enterprise Rate Limits
@@ -619,7 +658,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/screenshots/argus-enterprise-2026-06-20T172428.png
 security:

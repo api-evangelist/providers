@@ -10,31 +10,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 29.3
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
 - description: SocialBee platform API for managing social media posts, content categories, scheduling, recycling evergreen content, and accessing analytics across major social networks. Currently accessible via Zapi
   name: SocialBee API
   slug: socialbee-api
-artifact_total: 6
+- description: Undocumented but live first-party Model Context Protocol server mounted in the WordPress REST namespace of socialbee.com. Discoverable entirely through standards — an RFC 9728 protected resource metad
+  name: SocialBee MCP Server
+  slug: socialbee-mcp
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -54,8 +57,8 @@ common:
   url: https://help.socialbee.com/
 - group: build
   title: ''
-  type: GitHubOrg
-  url: https://github.com/SocialBee
+  type: GitHubOrganization
+  url: https://github.com/SocialBee-Labs
 - group: company
   title: ''
   type: LinkedIn
@@ -88,48 +91,129 @@ common:
   title: ''
   type: FinOps
   url: finops/socialbee-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/socialbee-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/socialbee-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/socialbee-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/socialbee-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/socialbee-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/socialbee-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/socialbee-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/socialbee-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/socialbee-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/socialbee-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/socialbee-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/socialbee-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/socialbee-llms.txt
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.socialbee.com/hc/en-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://socialbee.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://socialbee.com/privacy-policy/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.socialbee.com/login
 created: '2026-06-13'
-description: SocialBee is an AI-powered social media management tool providing a REST-based platform API for managing content categories, scheduling and recycling evergreen posts, curating content from RSS sources, and accessing social media analytics across Facebook, Instagram, X (Twitter), LinkedIn, TikTok, Pinterest, YouTube, Threads, Bluesky, and Google Business Profiles. Third-party automation is available via Zapier, Make, and Pabbly connectors; a public REST API is on the long-term roadmap.
+description: SocialBee is an AI-powered social media management platform for creating, scheduling, recycling and analyzing content across Facebook, Instagram, X (Twitter), LinkedIn, TikTok, Pinterest, YouTube, Threads, Bluesky and Google Business Profiles, built around content categories and evergreen post recycling with AI caption generation. SocialBee publishes NO public REST API — its own help center states a public API is on the long-term roadmap with no committed timeline, and programmatic access is brokered through Zapier, Make and Pabbly connectors. It does, however, operate an undocumented but fully standards-discoverable Model Context Protocol server at socialbee.com/wp-json/mcp/mcp-oauth-server, guarded by OAuth 2.1 with PKCE and advertised via RFC 8414 and RFC 9728 metadata under /.well-known/. SocialBee was acquired by WebPros in August 2024.
 finops:
 - name: Socialbee Finops
   service_category: ''
   slug: socialbee-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/socialbee.png
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: socialbee-mcp.yml
+  slug: socialbee-mcpyml
+modified: '2026-08-13'
 name: SocialBee
 nav: Providers
 network: true
-overview: 'SocialBee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media Management, Content Scheduling, Content Recycling, Social Media Analytics, and AI Caption Generation.
+overview: 'SocialBee publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media Management, Content Scheduling, Content Recycling, Social Media Analytics, and AI Caption Generation.
 
 
-  SocialBee''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  SocialBee''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, and 25 more developer resources.'
 plans:
 - name: Socialbee Plans Pricing
   plan_count: 6
   slug: socialbee-plans-pricing
-random_paper: 95
+random_paper: 41
 rate_limits:
 - limit_count: 6
   name: Socialbee Rate Limits
   slug: socialbee-rate-limits
+scopes:
+- name: Socialbee Scopes
+  scope_count: 0
+  slug: socialbee-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 25.9
-  delta: 0.0
+  band: developing
+  composite: 43.1
+  delta: 17.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 52.6
+    developer_ergonomics: 34.8
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 78.9
   previous_composite: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/screenshots/socialbee-2026-06-20T194123.png
 security:
+- kind: authentication
+  name: Socialbee Authentication
+  slug: socialbee-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Socialbee Domain Security
   slug: socialbee-domain-security
@@ -145,5 +229,9 @@ tags:
 - Content Recycling
 - Social Media Analytics
 - AI Caption Generation
+- Social Media Publishing
+- Model Context Protocol
+- Marketing Automation
+- SaaS
 website: https://socialbee.com
 ---

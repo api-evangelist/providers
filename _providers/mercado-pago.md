@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -171,12 +171,63 @@ apis:
 - description: Recurring preapproval subscriptions
   name: Mercado Pago Subscriptions API
   slug: mercado-pago-subscriptions-api
-artifact_total: 68
+artifact_total: 85
 asyncapis:
 - description: Mercado Pago webhook notifications for payments, refunds, chargebacks, merchant orders, subscriptions, and POS events. Webhook payloads include `x-signature` and `x-request-id` headers — receivers MUS
   name: Mercado Pago Webhooks (IPN / Webhooks v2)
   slug: mercado-pago-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mercado Pago REST Authentication API
+  slug: open-mercado-pago-authentication-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Cards API
+  slug: open-mercado-pago-cards-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Chargebacks API
+  slug: open-mercado-pago-chargebacks-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Claims API
+  slug: open-mercado-pago-claims-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Customers API
+  slug: open-mercado-pago-customers-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Merchant Orders API
+  slug: open-mercado-pago-merchant-orders-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Orders API
+  slug: open-mercado-pago-orders-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Payment Methods API
+  slug: open-mercado-pago-payment-methods-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Payments API
+  slug: open-mercado-pago-payments-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Plans API
+  slug: open-mercado-pago-plans-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Point API
+  slug: open-mercado-pago-point-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Preferences API
+  slug: open-mercado-pago-preferences-api
+- collection_type: open
+  name: Mercado Pago REST Authentication QR API
+  slug: open-mercado-pago-qr-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Refunds API
+  slug: open-mercado-pago-refunds-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Reports API
+  slug: open-mercado-pago-reports-api
+- collection_type: open
+  name: Mercado Pago REST Authentication Subscriptions API
+  slug: open-mercado-pago-subscriptions-api
 - collection_type: open
   name: Mercado Pago REST API
   slug: open-mercado-pago
@@ -350,7 +401,7 @@ plans:
 - name: Mercado Pago Plans Pricing
   plan_count: 2
   slug: mercado-pago-plans-pricing
-random_paper: 119
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Mercado Pago Rate Limits
@@ -411,7 +462,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png
 security:

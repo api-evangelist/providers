@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Webhook endpoints for event delivery.
   name: Castr Webhooks API
   slug: castr-live-webhooks-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Castr Analytics API
+  slug: open-castr-live-analytics-api
+- collection_type: open
+  name: Castr Analytics Live Streams API
+  slug: open-castr-live-live-streams-api
+- collection_type: open
+  name: Castr Analytics Sub-Second Streams API
+  slug: open-castr-live-sub-second-streams-api
+- collection_type: open
+  name: Castr Analytics Video Hosting API
+  slug: open-castr-live-video-hosting-api
+- collection_type: open
+  name: Castr Analytics Webhooks API
+  slug: open-castr-live-webhooks-api
 - collection_type: open
   name: Castr API
   slug: open-castr-live
@@ -132,7 +150,7 @@ plans:
 - name: Castr Live Plans Pricing
   plan_count: 6
   slug: castr-live-plans-pricing
-random_paper: 58
+random_paper: 124
 rate_limits:
 - limit_count: 6
   name: Castr Live Rate Limits
@@ -157,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/screenshots/castr-live-2026-07-25T204743.png
 security:

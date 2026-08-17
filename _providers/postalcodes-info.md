@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: Interactive postal-code and locality lookup.
   name: PostalCodes.info Search API
   slug: postalcodes-info-search-api
-artifact_total: 23
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PostalCodes.info Postal Code Reference Downloads API
+  slug: open-postalcodes-info-downloads-api
+- collection_type: open
+  name: PostalCodes.info Postal Code Reference Downloads Lookup Pages API
+  slug: open-postalcodes-info-lookup-pages-api
+- collection_type: open
+  name: PostalCodes.info Postal Code Reference Downloads Search API
+  slug: open-postalcodes-info-search-api
 - collection_type: open
   name: PostalCodes.info Postal Code Reference API
   slug: open-postalcodes-info
@@ -189,7 +201,7 @@ plans:
 - name: Postalcodes Info Plans Pricing
   plan_count: 1
   slug: postalcodes-info-plans-pricing
-random_paper: 98
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Postalcodes Info Rate Limits
@@ -237,7 +249,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/screenshots/postalcodes-info-2026-06-20T191947.png
 security:

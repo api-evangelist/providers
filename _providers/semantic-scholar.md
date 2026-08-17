@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: The Snippet Text API from Semantic Scholar — 1 operation(s) for snippet text.
   name: Semantic Scholar Snippet Text API
   slug: semantic-scholar-snippet-text-api
-artifact_total: 21
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Academic Graph Author Data API
+  slug: open-semantic-scholar-author-data-api
+- collection_type: open
+  name: Academic Graph Author Data Incremental Updates API
+  slug: open-semantic-scholar-incremental-updates-api
+- collection_type: open
+  name: Academic Graph Author Data Paper Data API
+  slug: open-semantic-scholar-paper-data-api
+- collection_type: open
+  name: Academic Graph Author Data Paper Recommendations API
+  slug: open-semantic-scholar-paper-recommendations-api
+- collection_type: open
+  name: Academic Graph Author Data Release Data API
+  slug: open-semantic-scholar-release-data-api
+- collection_type: open
+  name: Academic Graph Author Data Snippet Text API
+  slug: open-semantic-scholar-snippet-text-api
 common:
 - group: agent
   title: ''
@@ -177,7 +199,7 @@ plans:
 - name: Semantic Scholar Plans Pricing
   plan_count: 3
   slug: semantic-scholar-plans-pricing
-random_paper: 85
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Semantic Scholar Rate Limits
@@ -211,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/screenshots/semantic-scholar-2026-06-20T193645.png
 security:

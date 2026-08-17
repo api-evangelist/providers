@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: In-person payments through Helcim Smart Terminal hardware — list card terminals and devices, ping a device, and start purchase or refund transactions on a device — under the Helcim API v2.
   name: Helcim Card Terminal & Device API
   slug: helcim-terminal-device-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Helcim Webhooks
@@ -55,6 +55,9 @@ collections:
 - collection_type: postman
   name: The Helcim API
   slug: postman-helcim-api
+- collection_type: open
+  name: The Helcim API
+  slug: open-helcim-api
 common:
 - group: build
   title: ''
@@ -235,7 +238,7 @@ overview: 'Helcim publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Helcim''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, pricing, and 33 more developer resources.'
-random_paper: 26
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Helcim Rate Limits
@@ -264,7 +267,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
 security:

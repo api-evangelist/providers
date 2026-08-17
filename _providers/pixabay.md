@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Search and retrieve royalty-free images, illustrations, and vectors. Filter by category, image type, orientation, color, and more. Returns image URLs at multiple resolutions.
@@ -92,7 +92,7 @@ plans:
 - name: Pixabay Plans Pricing
   plan_count: 1
   slug: pixabay-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Pixabay Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixabay/refs/heads/main/screenshots/pixabay-2026-06-20T191736.png
 security:

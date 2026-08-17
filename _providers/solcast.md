@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Typical Meteorological Year data computed from 2007 to 2023 satellite observations.
   name: Solcast TMY Data API
   slug: solcast-tmy-data-api
-artifact_total: 34
+artifact_total: 41
 collections:
 - collection_type: postman
   name: Solcast Aggregations API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Solcast Aggregations TMY Data API
   slug: postman-solcast-tmy-data-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Solcast Aggregations API
+  slug: open-solcast-aggregations-api
+- collection_type: open
+  name: Solcast Aggregations Forecast Data API
+  slug: open-solcast-forecast-data-api
+- collection_type: open
+  name: Solcast Aggregations Historic Data API
+  slug: open-solcast-historic-data-api
+- collection_type: open
+  name: Solcast Aggregations Live Data API
+  slug: open-solcast-live-data-api
+- collection_type: open
+  name: Solcast Aggregations PV Power Sites API
+  slug: open-solcast-pv-power-sites-api
+- collection_type: open
+  name: Solcast Aggregations TMY Data API
+  slug: open-solcast-tmy-data-api
 - collection_type: open
   name: Solcast API
   slug: open-solcast
@@ -240,7 +261,7 @@ plans:
 - name: Solcast Plans Pricing
   plan_count: 5
   slug: solcast-plans-pricing
-random_paper: 41
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Solcast Rate Limits
@@ -288,7 +309,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/screenshots/solcast-2026-06-20T194150.png
 security:

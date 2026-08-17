@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,11 +61,17 @@ arazzos:
 - description: Create an organization and assert that it came back with the requested feature set.
   name: Amazon Organizations Verify Organization Feature Set
   slug: amazon-organizations-verify-organization-feature-set-workflow
-artifact_total: 36
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Amazon Organizations AWS Organizations API
   slug: postman-amazon-organizations
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon AWS Organizations API
+  slug: open-amazon-organizations-organizations-api
 - collection_type: open
   name: Amazon Organizations AWS Organizations API
   slug: open-amazon-organizations
@@ -306,7 +312,7 @@ plans:
 - name: Amazon Organizations Plans Pricing
   plan_count: 3
   slug: amazon-organizations-plans-pricing
-random_paper: 67
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Amazon Organizations Rate Limits
@@ -348,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/screenshots/amazon-organizations-2026-06-20T171753.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,11 +45,21 @@ apis:
 - description: The V2 API from Sprig — 3 operation(s) for v2.
   name: Sprig V2 API
   slug: sprig-v2-api
-artifact_total: 8
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Sprig Webhooks
   slug: sprig-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sprig V1 API
+  slug: open-sprig-v1-api
+- collection_type: open
+  name: Sprig V1 V2 API
+  slug: open-sprig-v2-api
 common:
 - group: other
   title: ''
@@ -186,7 +196,7 @@ overview: 'Sprig publishes 2 APIs on the [APIs.io](https://apis.io/) network: V1
 
 
   Sprig''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 69
+random_paper: 102
 scopes:
 - name: Sprig Scopes
   scope_count: 5
@@ -215,7 +225,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

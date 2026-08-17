@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Next-generation Bread Pay REST API for managing buyers, merchant accounts, personalized payment options and pricing, and the merchant transaction lifecycle (authorize, capture, cancel, refund). Secure
@@ -144,7 +144,7 @@ overview: 'Bread Financial publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Bread Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 48
+random_paper: 147
 score:
   band: thin
   composite: 37.9
@@ -167,7 +167,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/screenshots/bread-financial-2026-07-25T203733.png
 security:

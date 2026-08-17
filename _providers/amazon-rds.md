@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,11 +100,26 @@ arazzos:
 - description: Validate the engine version is offered, then provision an instance and wait.
   name: Amazon RDS Verify Engine Support Then Provision
   slug: amazon-rds-verify-engine-then-provision-workflow
-artifact_total: 70
+artifact_total: 75
 collections:
 - collection_type: postman
   name: Amazon RDS API
   slug: postman-amazon-rds
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon RDS DB Clusters API
+  slug: open-amazon-rds-db-clusters-api
+- collection_type: open
+  name: Amazon RDS DB Clusters DB Engine Versions API
+  slug: open-amazon-rds-db-engine-versions-api
+- collection_type: open
+  name: Amazon RDS DB Clusters DB Instances API
+  slug: open-amazon-rds-db-instances-api
+- collection_type: open
+  name: Amazon RDS DB Clusters DB Snapshots API
+  slug: open-amazon-rds-db-snapshots-api
 - collection_type: open
   name: Amazon RDS API
   slug: open-amazon-rds
@@ -564,7 +579,7 @@ plans:
 - name: Amazon Rds Plans Pricing
   plan_count: 3
   slug: amazon-rds-plans-pricing
-random_paper: 60
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Amazon Rds Rate Limits
@@ -606,7 +621,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/screenshots/amazon-rds-2026-06-20T171805.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Order capture and management across Tabit's mobile POS (PAD), online ordering (Order), kiosk, and delivery (Wheels) products. Order data flows to third-party channels (e.g., DoorDash Marketplace) thro
@@ -46,8 +46,11 @@ apis:
 - description: Tabit's partner integration surface spanning Hotel PMS, white-label delivery (e.g., DoorDash Marketplace), analytics, reservation software, and front/back-of-house software. Onboarding is driven by an
   name: Tabit Integrations API
   slug: tabit-integrations-api
-artifact_total: 10
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Tabit API
   slug: open-tabit
@@ -108,7 +111,7 @@ plans:
 - name: Tabit Plans Pricing
   plan_count: 1
   slug: tabit-plans-pricing
-random_paper: 52
+random_paper: 85
 rate_limits:
 - limit_count: 2
   name: Tabit Rate Limits
@@ -132,7 +135,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

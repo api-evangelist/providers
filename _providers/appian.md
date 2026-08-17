@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ arazzos:
 - description: List an application's packages, branch on whether any packages exist, and export the most recently modified one.
   name: Appian Resolve a Named Package and Export It
   slug: appian-resolve-and-export-named-package-workflow
-artifact_total: 124
+artifact_total: 130
 collections:
 - collection_type: postman
   name: Appian Application Package Details Export API
@@ -115,11 +115,29 @@ collections:
   name: Appian Application Package Details Export Results API
   slug: postman-appian-results-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Appian Application Package Details API
   slug: open-appian-application-package-details
 - collection_type: open
   name: Appian Deployment REST API
   slug: open-appian-deployment-rest
+- collection_type: open
+  name: Appian Application Package Details Export API
+  slug: open-appian-export-api
+- collection_type: open
+  name: Appian Application Package Details Export Import API
+  slug: open-appian-import-api
+- collection_type: open
+  name: Appian Application Package Details Export Inspection API
+  slug: open-appian-inspection-api
+- collection_type: open
+  name: Appian Application Package Details Export Packages API
+  slug: open-appian-packages-api
+- collection_type: open
+  name: Appian Application Package Details Export Results API
+  slug: open-appian-results-api
 - collection_type: open
   name: API Collection
   slug: open-appian
@@ -776,7 +794,7 @@ plans:
 - name: Appian Plans Pricing
   plan_count: 4
   slug: appian-plans-pricing
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Appian Rate Limits
@@ -810,7 +828,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/screenshots/appian-2026-06-20T172316.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -78,8 +78,47 @@ apis:
 - description: The Voices API from Tavus — 1 operation(s) for voices.
   name: Tavus Voices API
   slug: tavus-voices-api
-artifact_total: 21
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tavus Developer API Collection Conversations API
+  slug: open-tavus-conversations-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Documents API
+  slug: open-tavus-documents-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Guardrails API
+  slug: open-tavus-guardrails-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Lipsync API
+  slug: open-tavus-lipsync-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Objectives API
+  slug: open-tavus-objectives-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Personas API
+  slug: open-tavus-personas-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Pronunciation Dictionaries API
+  slug: open-tavus-pronunciation-dictionaries-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Replacements API
+  slug: open-tavus-replacements-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Replicas API
+  slug: open-tavus-replicas-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Transcriptions API
+  slug: open-tavus-transcriptions-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Videos API
+  slug: open-tavus-videos-api
+- collection_type: open
+  name: Tavus Developer API Collection Conversations Voices API
+  slug: open-tavus-voices-api
 - collection_type: open
   name: Tavus Developer API Collection
   slug: open-tavus
@@ -164,7 +203,7 @@ plans:
 - name: Tavus Plans Pricing
   plan_count: 1
   slug: tavus-plans-pricing
-random_paper: 83
+random_paper: 116
 rate_limits:
 - limit_count: 2
   name: Tavus Rate Limits
@@ -189,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/screenshots/tavus-2026-06-20T194933.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -60,8 +60,17 @@ apis:
 - description: Predict protein backbone coordinates from sequence and back.
   name: EvolutionaryScale Structure API
   slug: evolutionaryscale-structure-api
-artifact_total: 25
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EvolutionaryScale Forge ESM3 Embeddings API
+  slug: open-evolutionaryscale-embeddings-api
+- collection_type: open
+  name: EvolutionaryScale Forge ESM3 Embeddings Encoding API
+  slug: open-evolutionaryscale-encoding-api
 - collection_type: open
   name: EvolutionaryScale Forge ESM3 API
   slug: open-evolutionaryscale-forge-esm3-api
@@ -71,6 +80,18 @@ collections:
 - collection_type: open
   name: EvolutionaryScale Forge Folding API
   slug: open-evolutionaryscale-forge-folding-api
+- collection_type: open
+  name: EvolutionaryScale Forge ESM3 Embeddings Generation API
+  slug: open-evolutionaryscale-generation-api
+- collection_type: open
+  name: EvolutionaryScale Forge ESM3 Embeddings MSA API
+  slug: open-evolutionaryscale-msa-api
+- collection_type: open
+  name: EvolutionaryScale Forge ESM3 Embeddings Sampling API
+  slug: open-evolutionaryscale-sampling-api
+- collection_type: open
+  name: EvolutionaryScale Forge ESM3 Embeddings Structure API
+  slug: open-evolutionaryscale-structure-api
 common:
 - group: operate
   title: ''
@@ -140,7 +161,7 @@ plans:
 - name: Evolutionaryscale Plans Pricing
   plan_count: 4
   slug: evolutionaryscale-plans-pricing
-random_paper: 49
+random_paper: 61
 rate_limits:
 - limit_count: 7
   name: Evolutionaryscale Rate Limits
@@ -188,7 +209,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/screenshots/evolutionaryscale-2026-06-20T180917.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Endpoints that receive booking change events.
   name: Uplisting Webhooks API
   slug: uplisting-webhooks-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Uplisting Public and Partner Account API
+  slug: open-uplisting-account-api
+- collection_type: open
+  name: Uplisting Public and Partner Account Availability API
+  slug: open-uplisting-availability-api
+- collection_type: open
+  name: Uplisting Public and Partner Account Bookings API
+  slug: open-uplisting-bookings-api
+- collection_type: open
+  name: Uplisting Public and Partner Account Calendar API
+  slug: open-uplisting-calendar-api
+- collection_type: open
+  name: Uplisting Public and Partner Account Guests API
+  slug: open-uplisting-guests-api
+- collection_type: open
+  name: Uplisting Public and Partner Account Messages API
+  slug: open-uplisting-messages-api
+- collection_type: open
+  name: Uplisting Public and Partner Account Properties API
+  slug: open-uplisting-properties-api
+- collection_type: open
+  name: Uplisting Public and Partner Account Rates API
+  slug: open-uplisting-rates-api
+- collection_type: open
+  name: Uplisting Public and Partner Account Webhooks API
+  slug: open-uplisting-webhooks-api
 - collection_type: open
   name: Uplisting Public and Partner API
   slug: open-uplisting
@@ -132,7 +162,7 @@ plans:
 - name: Uplisting Plans Pricing
   plan_count: 3
   slug: uplisting-plans-pricing
-random_paper: 31
+random_paper: 97
 rate_limits:
 - limit_count: 4
   name: Uplisting Rate Limits
@@ -157,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

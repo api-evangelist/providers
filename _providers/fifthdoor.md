@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -51,7 +51,7 @@ overview: 'Fifth Door is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Fifth Door''s developer surface includes signup flow and 1 more developer resources.'
-random_paper: 5
+random_paper: 71
 score:
   band: minimal
   composite: 7.6
@@ -65,7 +65,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifthdoor/refs/heads/main/screenshots/fifthdoor-2026-07-25T214436.png
 slug: fifthdoor

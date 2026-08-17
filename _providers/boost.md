@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: The RewardKitTrending API from Boost — 1 operation(s) for rewardkittrending.
   name: Boost RewardKitTrending API
   slug: boost-rewardkittrending-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Boost V2 Action API
+  slug: open-boost-action-api
+- collection_type: open
+  name: Boost V2 Action Action Template API
+  slug: open-boost-action-template-api
+- collection_type: open
+  name: Boost V2 Action Blocklist API
+  slug: open-boost-blocklist-api
+- collection_type: open
+  name: V2 Action Boost API
+  slug: open-boost-boost-api
+- collection_type: open
+  name: Boost V2 Action Budget API
+  slug: open-boost-budget-api
+- collection_type: open
+  name: Boost V2 Action Contract API
+  slug: open-boost-contract-api
+- collection_type: open
+  name: Boost V2 Action RewardKit API
+  slug: open-boost-rewardkit-api
+- collection_type: open
+  name: Boost V2 Action RewardKitTrending API
+  slug: open-boost-rewardkittrending-api
 common:
 - group: company
   title: ''
@@ -181,7 +209,7 @@ overview: 'Boost publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boost''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 18 more developer resources.'
-random_paper: 71
+random_paper: 104
 score:
   band: developing
   composite: 42.1
@@ -205,7 +233,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/screenshots/boost-2026-07-25T203625.png
 security:

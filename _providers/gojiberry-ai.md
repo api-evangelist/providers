@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup, paid from $99/month
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
   - authentication
-  trial: false
+  - plans
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -15,7 +16,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -28,8 +29,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-12'
+  score: 61.5
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 9
+  human_in_the_loop: 9
+  name: Gojiberry Ai Agentic Access
+  operation_count: 28
+  slug: gojiberry-ai-agentic-access
+  summary_line: 28 operations · 9 acting · 9 human-in-the-loop
 api_count: 8
 apis:
 - description: The AppExternal API from Gojiberry AI — 2 operation(s) for appexternal.
@@ -56,12 +64,44 @@ apis:
 - description: The User API from Gojiberry AI — 2 operation(s) for user.
   name: Gojiberry AI User API
   slug: gojiberry-ai-user-api
-artifact_total: 13
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Gojiberry Ai Webhooks
   slug: gojiberry-ai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gojiberry AI - External AppExternal API
+  slug: open-gojiberry-ai-appexternal-api
+- collection_type: open
+  name: Gojiberry AI - External AppExternal Campaigns API
+  slug: open-gojiberry-ai-campaigns-api
+- collection_type: open
+  name: Gojiberry AI - External AppExternal Contacts API
+  slug: open-gojiberry-ai-contacts-api
+- collection_type: open
+  name: Gojiberry AI - External AppExternal Lead source agents API
+  slug: open-gojiberry-ai-lead-source-agents-api
+- collection_type: open
+  name: Gojiberry AI - External AppExternal Lists API
+  slug: open-gojiberry-ai-lists-api
+- collection_type: open
+  name: Gojiberry AI - External AppExternal Organization API
+  slug: open-gojiberry-ai-organization-api
+- collection_type: open
+  name: Gojiberry AI - External AppExternal Unibox API
+  slug: open-gojiberry-ai-unibox-api
+- collection_type: open
+  name: Gojiberry AI - External AppExternal User API
+  slug: open-gojiberry-ai-user-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/gojiberry-ai-agentic-access.yml
 - group: company
   title: ''
   type: Website
@@ -90,6 +130,26 @@ common:
   title: ''
   type: MCPServer
   url: mcp/gojiberry-ai-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/gojiberry-ai-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/gojiberry-ai-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/gojiberry-ai-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gojiberry-ai-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/gojiberry-ai-plans-pricing.yml
 - group: design
   title: ''
   type: Conventions
@@ -182,7 +242,7 @@ mcp_servers:
 - description: ''
   name: gojiberry-ai-mcp.yml
   slug: gojiberry-ai-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Gojiberry AI
 nav: Providers
 network: true
@@ -192,21 +252,30 @@ overview: 'Gojiberry AI publishes 8 APIs on the [APIs.io](https://apis.io/) netw
   The Gojiberry AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gojiberry AI''s developer surface includes developer portal, documentation, API reference, authentication, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 20
+  Gojiberry AI''s developer surface includes developer portal, documentation, API reference, authentication, pricing, signup flow, support, and 27 more developer resources.'
+plans:
+- name: Gojiberry Ai Plans Pricing
+  plan_count: 2
+  slug: gojiberry-ai-plans-pricing
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Gojiberry Ai Rate Limits
   slug: gojiberry-ai-rate-limits
+scopes:
+- name: Gojiberry Ai Scopes
+  scope_count: 2
+  slug: gojiberry-ai-scopes
+  summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 54.8
+  delta: 5.3
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 65.8
     contract_quality: 56.8
     developer_ergonomics: 51.6
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
   previous_composite: 49.5
@@ -220,14 +289,14 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/screenshots/gojiberry-ai-2026-07-25T220016.png
 security:
 - kind: authentication
   name: Gojiberry Ai Authentication
   slug: gojiberry-ai-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Gojiberry Ai Domain Security
   slug: gojiberry-ai-domain-security

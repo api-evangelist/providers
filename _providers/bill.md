@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -71,12 +71,42 @@ apis:
 - description: The Webhooks API from BILL — 2 operation(s) for webhooks.
   name: BILL Webhooks API
   slug: bill-webhooks-api
-artifact_total: 17
+artifact_total: 27
 asyncapis:
 - description: Outbound webhook event notifications delivered by the BILL v3 API Platform to subscriber `notificationUrl` endpoints. Subscribers register through the BILL v3 webhook subscription endpoints; BILL POST
   name: BILL Webhooks
   slug: bill-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BILL v3 Authentication API
+  slug: open-bill-authentication-api
+- collection_type: open
+  name: BILL v3 Authentication Bills API
+  slug: open-bill-bills-api
+- collection_type: open
+  name: BILL v3 Authentication Customers API
+  slug: open-bill-customers-api
+- collection_type: open
+  name: BILL v3 Authentication Funding Accounts API
+  slug: open-bill-funding-accounts-api
+- collection_type: open
+  name: BILL v3 Authentication Invoices API
+  slug: open-bill-invoices-api
+- collection_type: open
+  name: BILL v3 Authentication Organizations API
+  slug: open-bill-organizations-api
+- collection_type: open
+  name: BILL v3 Authentication Payments API
+  slug: open-bill-payments-api
+- collection_type: open
+  name: BILL v3 Authentication Vendors API
+  slug: open-bill-vendors-api
+- collection_type: open
+  name: BILL v3 Authentication Webhooks API
+  slug: open-bill-webhooks-api
 - collection_type: open
   name: BILL v3 API
   slug: open-bill
@@ -172,7 +202,7 @@ overview: 'BILL publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   BILL''s developer surface includes engineering blog, sandbox, changelog, getting-started guide, authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 59
+random_paper: 121
 rules:
 - name: BILL API Rules
   rule_count: 8
@@ -208,7 +238,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/screenshots/bill-2026-06-20T173240.png
 security:

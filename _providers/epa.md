@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -449,7 +449,7 @@ apis:
 - description: UV index hourly and daily forecast endpoints.
   name: EPA — U.S. Environmental Protection Agency UV Index API
   slug: epa-uv-index-api
-artifact_total: 2160
+artifact_total: 2289
 collections:
 - collection_type: postman
   name: EPA Air Quality System (AQS) Account Type Codes API
@@ -836,6 +836,9 @@ collections:
   name: EPA Air Quality System (AQS) Account Type Codes UV Index API
   slug: postman-epa-uv-index-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: EPA Air Quality System (AQS) API
   slug: open-aqs
 - collection_type: open
@@ -898,6 +901,390 @@ collections:
 - collection_type: open
   name: EPA Envirofacts Data Service API
   slug: open-envirofacts
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes API
+  slug: open-epa-account-type-codes-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Accounts API
+  slug: open-epa-accounts-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Air Emission Testing API
+  slug: open-epa-air-emission-testing-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Allowance Compliance API
+  slug: open-epa-allowance-compliance-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Allowance Holdings API
+  slug: open-epa-allowance-holdings-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Allowance Transactions API
+  slug: open-epa-allowance-transactions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Analysis Services API
+  slug: open-epa-analysis-services-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Analyzer Ranges API
+  slug: open-epa-analyzer-ranges-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Annual Data API
+  slug: open-epa-annual-data-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Appendix E Correlation Test Run API
+  slug: open-epa-appendix-e-correlation-test-run-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Appendix E Correlation Test Summary API
+  slug: open-epa-appendix-e-correlation-test-summary-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Appendix E Heat Input From Gas API
+  slug: open-epa-appendix-e-heat-input-from-gas-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Appendix E Heat Input From Oil API
+  slug: open-epa-appendix-e-heat-input-from-oil-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Annual Emissions API
+  slug: open-epa-apportioned-annual-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Daily Emissions API
+  slug: open-epa-apportioned-daily-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Emissions API
+  slug: open-epa-apportioned-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Hourly Emissions API
+  slug: open-epa-apportioned-hourly-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Hourly MATS Emissions API
+  slug: open-epa-apportioned-hourly-mats-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned MATS Emissions API
+  slug: open-epa-apportioned-mats-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Monthly Emissions API
+  slug: open-epa-apportioned-monthly-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Ozone Emissions API
+  slug: open-epa-apportioned-ozone-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Quarterly Emissions API
+  slug: open-epa-apportioned-quarterly-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Attributes API
+  slug: open-epa-attributes-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Bap API
+  slug: open-epa-bap-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Bulk Files API
+  slug: open-epa-bulk-files-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Calibration Injection API
+  slug: open-epa-calibration-injection-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Case Enforcement API
+  slug: open-epa-case-enforcement-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes CIP Indexing Services API
+  slug: open-epa-cip-indexing-services-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Codes & Descriptions API
+  slug: open-epa-codes-descriptions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Comments API
+  slug: open-epa-comments-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Components API
+  slug: open-epa-components-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Config API
+  slug: open-epa-config-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Configurations API
+  slug: open-epa-configurations-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Contact API
+  slug: open-epa-contact-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Control Codes API
+  slug: open-epa-control-codes-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Custom Search API
+  slug: open-epa-custom-search-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Cycle Time Injection API
+  slug: open-epa-cycle-time-injection-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Cycle Time Summary API
+  slug: open-epa-cycle-time-summary-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Daily Data API
+  slug: open-epa-daily-data-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Data Service API
+  slug: open-epa-data-service-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Defaults API
+  slug: open-epa-defaults-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Detailed Facility Report API
+  slug: open-epa-detailed-facility-report-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Effluent Charts API
+  slug: open-epa-effluent-charts-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Emissions API
+  slug: open-epa-emissions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Emissions Compliance API
+  slug: open-epa-emissions-compliance-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Emissions Views API
+  slug: open-epa-emissions-views-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Facilities API
+  slug: open-epa-facilities-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Facility Info API
+  slug: open-epa-facility-info-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Facility Information API
+  slug: open-epa-facility-information-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Flow Rata Run API
+  slug: open-epa-flow-rata-run-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Flow To Load Check API
+  slug: open-epa-flow-to-load-check-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Flow To Load Reference API
+  slug: open-epa-flow-to-load-reference-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Formio API
+  slug: open-epa-formio-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Formulas API
+  slug: open-epa-formulas-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Fuel Flow To Load Baseline API
+  slug: open-epa-fuel-flow-to-load-baseline-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Fuel Flow To Load Test API
+  slug: open-epa-fuel-flow-to-load-test-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Fuel Flowmeter Accuracy API
+  slug: open-epa-fuel-flowmeter-accuracy-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Fuel Type Codes API
+  slug: open-epa-fuel-type-codes-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Glossary API
+  slug: open-epa-glossary-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes GraphQL API
+  slug: open-epa-graphql-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Health API
+  slug: open-epa-health-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Help API
+  slug: open-epa-help-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Hg Injection API
+  slug: open-epa-hg-injection-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Hg Summary API
+  slug: open-epa-hg-summary-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes How's My Waterway API
+  slug: open-epa-how-s-my-waterway-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes LEE Qualifications API
+  slug: open-epa-lee-qualifications-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Linearity Injection API
+  slug: open-epa-linearity-injection-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Linearity Summary API
+  slug: open-epa-linearity-summary-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Lists API
+  slug: open-epa-lists-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes LME Qualifications API
+  slug: open-epa-lme-qualifications-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Loads API
+  slug: open-epa-loads-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Locations API
+  slug: open-epa-locations-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Login API
+  slug: open-epa-login-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Logout API
+  slug: open-epa-logout-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Lookups API
+  slug: open-epa-lookups-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes MATS Methods API
+  slug: open-epa-mats-methods-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Meta Data API
+  slug: open-epa-meta-data-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Metadata API
+  slug: open-epa-metadata-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Methods API
+  slug: open-epa-methods-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Monitors API
+  slug: open-epa-monitors-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Online Offline Calibration API
+  slug: open-epa-online-offline-calibration-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes PCT Qualifications API
+  slug: open-epa-pct-qualifications-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Plans API
+  slug: open-epa-plans-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Point Source Categories API
+  slug: open-epa-point-source-categories-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Pollutants API
+  slug: open-epa-pollutants-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Program Codes API
+  slug: open-epa-program-codes-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Protocol Gas API
+  slug: open-epa-protocol-gas-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes QA Certification API
+  slug: open-epa-qa-certification-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes QA Certification Event API
+  slug: open-epa-qa-certification-event-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Qualifications API
+  slug: open-epa-qualifications-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Quality Assurance API
+  slug: open-epa-quality-assurance-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Quarterly Data API
+  slug: open-epa-quarterly-data-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Rata API
+  slug: open-epa-rata-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Rata Run API
+  slug: open-epa-rata-run-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Rata Summary API
+  slug: open-epa-rata-summary-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Rata Traverse API
+  slug: open-epa-rata-traverse-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Rectangular Duct WAF API
+  slug: open-epa-rectangular-duct-waf-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Relationships API
+  slug: open-epa-relationships-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Reporting Frequencies API
+  slug: open-epa-reporting-frequencies-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Reporting Periods API
+  slug: open-epa-reporting-periods-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Reports API
+  slug: open-epa-reports-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Resource Conservation and Recovery Act API
+  slug: open-epa-resource-conservation-and-recovery-act-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Safe Drinking Water API
+  slug: open-epa-safe-drinking-water-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Sample Data API
+  slug: open-epa-sample-data-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Sign Up API
+  slug: open-epa-sign-up-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Spans API
+  slug: open-epa-spans-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Status API
+  slug: open-epa-status-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Support API
+  slug: open-epa-support-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes System Components API
+  slug: open-epa-system-components-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes System Fuel Flows API
+  slug: open-epa-system-fuel-flows-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Systems API
+  slug: open-epa-systems-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Test Extension Exemption API
+  slug: open-epa-test-extension-exemption-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Test Qualification API
+  slug: open-epa-test-qualification-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Test Summary API
+  slug: open-epa-test-summary-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Transactions API
+  slug: open-epa-transactions-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Transmitter Transducer Accuracy API
+  slug: open-epa-transmitter-transducer-accuracy-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Treatment Technologies API
+  slug: open-epa-treatment-technologies-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Capacities API
+  slug: open-epa-unit-capacities-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Controls API
+  slug: open-epa-unit-controls-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Default Test API
+  slug: open-epa-unit-default-test-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Default Test Run API
+  slug: open-epa-unit-default-test-run-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Fuels API
+  slug: open-epa-unit-fuels-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Programs API
+  slug: open-epa-unit-programs-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Type Codes API
+  slug: open-epa-unit-type-codes-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Units API
+  slug: open-epa-units-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes User API
+  slug: open-epa-user-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes Utility Services API
+  slug: open-epa-utility-services-api
+- collection_type: open
+  name: EPA Air Quality System (AQS) Account Type Codes UV Index API
+  slug: open-epa-uv-index-api
 - collection_type: open
   name: US EPA How's My Waterway
   slug: open-mywaterway
@@ -6613,7 +7000,7 @@ overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on th
 
 
   EPA — U.S. Environmental Protection Agency''s developer surface includes authentication, API reference, getting-started guide, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
-random_paper: 70
+random_paper: 12
 rate_limits:
 - limit_count: 11
   name: Epa Rate Limits
@@ -6661,7 +7048,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:

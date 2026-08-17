@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: The Write API from DeepL — 1 operation(s) for write.
   name: DeepL Write API
   slug: deepl-write-api
-artifact_total: 31
+artifact_total: 38
 asyncapis:
 - description: WebSocket streaming API for real-time voice transcription and translation. After obtaining a streaming URL and token via the REST API (POST /v3/voice/realtime), establish a WebSocket connection to str
   name: DeepL Voice API - WebSocket Streaming
@@ -88,11 +88,32 @@ collections:
   name: DeepL Translation Documents Write API
   slug: postman-deepl-write-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DeepL Translation Documents API
+  slug: open-deepl-documents-api
+- collection_type: open
+  name: DeepL Translation Documents Glossaries API
+  slug: open-deepl-glossaries-api
+- collection_type: open
+  name: DeepL Translation Documents Languages API
+  slug: open-deepl-languages-api
+- collection_type: open
+  name: DeepL Translation Documents Translate API
+  slug: open-deepl-translate-api
+- collection_type: open
   name: DeepL Translation API
   slug: open-deepl-translation-api
 - collection_type: open
-  name: DeepL Voice API
+  name: DeepL Translation Documents Usage API
+  slug: open-deepl-usage-api
+- collection_type: open
+  name: DeepL Translation Documents Voice API
   slug: open-deepl-voice-api
+- collection_type: open
+  name: DeepL Translation Documents Write API
+  slug: open-deepl-write-api
 common:
 - group: build
   title: ''
@@ -209,7 +230,7 @@ plans:
 - name: Deepl Plans Pricing
   plan_count: 3
   slug: deepl-plans-pricing
-random_paper: 42
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Deepl Rate Limits
@@ -259,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/screenshots/deepl-2026-06-20T175808.png
 security:

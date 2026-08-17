@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,14 +51,26 @@ apis:
 - description: Retrieve transaction history
   name: Citizens Financial Transactions API
   slug: citizens-financial-transactions-api
-artifact_total: 15
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Citizens Bank Accounts API
   slug: open-citizens-bank-accounts-api
 - collection_type: open
   name: Citizens Bank ATM Locator API
   slug: open-citizens-bank-atm-locator-api
+- collection_type: open
+  name: Citizens Bank Accounts API
+  slug: open-citizens-financial-accounts-api
+- collection_type: open
+  name: Citizens Bank Accounts ATM Locations API
+  slug: open-citizens-financial-atm-locations-api
+- collection_type: open
+  name: Citizens Bank Accounts Transactions API
+  slug: open-citizens-financial-transactions-api
 common:
 - group: agent
   title: ''
@@ -136,7 +148,7 @@ plans:
 - name: Citizens Financial Plans Pricing
   plan_count: 2
   slug: citizens-financial-plans-pricing
-random_paper: 51
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Citizens Financial Rate Limits
@@ -181,7 +193,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/screenshots/citizens-financial-2026-06-20T174412.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ arazzos:
 - description: Find pods that are not Running, read the failing pod's detail, tail its logs, and pull namespace events.
   name: Kubernetes Troubleshoot a Failing Pod
   slug: kubernetes-troubleshoot-pod-workflow
-artifact_total: 44
+artifact_total: 52
 asyncapis:
 - description: The Kubernetes Watch API provides a streaming event interface for receiving real-time notifications about changes to cluster resources. Clients subscribe to resource types and receive a stream of ADDE
   name: Kubernetes Watch Events
@@ -137,8 +137,32 @@ collections:
   name: Kubernetes Autoscaling Workloads API
   slug: postman-kubernetes-workloads-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Kubernetes API
   slug: open-kubernetes-api
+- collection_type: open
+  name: Kubernetes Autoscaling API
+  slug: open-kubernetes-autoscaling-api
+- collection_type: open
+  name: Kubernetes Autoscaling Cluster API
+  slug: open-kubernetes-cluster-api
+- collection_type: open
+  name: Kubernetes Autoscaling Config API
+  slug: open-kubernetes-config-api
+- collection_type: open
+  name: Kubernetes Autoscaling Events API
+  slug: open-kubernetes-events-api
+- collection_type: open
+  name: Kubernetes Autoscaling Namespaces API
+  slug: open-kubernetes-namespaces-api
+- collection_type: open
+  name: Kubernetes Autoscaling RBAC API
+  slug: open-kubernetes-rbac-api
+- collection_type: open
+  name: Kubernetes Autoscaling Workloads API
+  slug: open-kubernetes-workloads-api
 common:
 - group: build
   title: ''
@@ -436,7 +460,7 @@ plans:
 - name: Kubernetes Plans Pricing
   plan_count: 3
   slug: kubernetes-plans-pricing
-random_paper: 0
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Kubernetes Rate Limits
@@ -480,7 +504,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:

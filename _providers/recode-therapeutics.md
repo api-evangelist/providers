@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Press releases, publications, corporate pages and site-specific custom post types.
@@ -42,7 +42,32 @@ apis:
 - description: Categories, tags, and the registered type/status/taxonomy descriptors.
   name: ReCode Therapeutics Taxonomy API
   slug: recode-therapeutics-taxonomy-api
-artifact_total: 10
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ReCode Therapeutics Content API
+  slug: open-recode-therapeutics-content-api
+- collection_type: open
+  name: ReCode Therapeutics Content Discovery API
+  slug: open-recode-therapeutics-discovery-api
+- collection_type: open
+  name: ReCode Therapeutics Content Embed API
+  slug: open-recode-therapeutics-embed-api
+- collection_type: open
+  name: ReCode Therapeutics Content Media API
+  slug: open-recode-therapeutics-media-api
+- collection_type: open
+  name: ReCode Therapeutics Content People API
+  slug: open-recode-therapeutics-people-api
+- collection_type: open
+  name: ReCode Therapeutics Content Search API
+  slug: open-recode-therapeutics-search-api
+- collection_type: open
+  name: ReCode Therapeutics Content Taxonomy API
+  slug: open-recode-therapeutics-taxonomy-api
 common:
 - group: other
   title: ''
@@ -197,7 +222,7 @@ overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   ReCode Therapeutics'' developer surface includes product news, authentication, and 31 more developer resources.'
-random_paper: 48
+random_paper: 31
 score:
   band: thin
   composite: 30.7
@@ -225,7 +250,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 34
 apis:
 - description: The Zoho Inventory API allows you to perform all the operations that you do with our web client. It is built using REST principles which ensures predictable URLs for accessing resources, and uses HTTP
@@ -123,7 +123,536 @@ apis:
 - description: The Zoho PDF Editor API provides REST endpoints for inserting images, splitting pages, extracting specific pages from PDF documents, and uploading PDF documents for online editing with OAuth 2.0 authe
   name: Zoho PDF Editor
   slug: zoho-pdf-editor
-artifact_total: 56
+artifact_total: 232
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Helpcenter Account API
+  slug: open-zoho-account-api
+- collection_type: open
+  name: Helpcenter AccountAttachment API
+  slug: open-zoho-accountattachment-api
+- collection_type: open
+  name: Helpcenter AccountComments API
+  slug: open-zoho-accountcomments-api
+- collection_type: open
+  name: Helpcenter AccountContactMappingInfo API
+  slug: open-zoho-accountcontactmappinginfo-api
+- collection_type: open
+  name: Helpcenter AccountDeduplication API
+  slug: open-zoho-accountdeduplication-api
+- collection_type: open
+  name: Helpcenter AccountFollowers API
+  slug: open-zoho-accountfollowers-api
+- collection_type: open
+  name: Helpcenter AccountSla API
+  slug: open-zoho-accountsla-api
+- collection_type: open
+  name: Helpcenter AccountTimeEntry API
+  slug: open-zoho-accounttimeentry-api
+- collection_type: open
+  name: Helpcenter Actions API
+  slug: open-zoho-actions-api
+- collection_type: open
+  name: Helpcenter Activity API
+  slug: open-zoho-activity-api
+- collection_type: open
+  name: Helpcenter Agent API
+  slug: open-zoho-agent-api
+- collection_type: open
+  name: Helpcenter AgentPresence API
+  slug: open-zoho-agentpresence-api
+- collection_type: open
+  name: Helpcenter AgentSignatures API
+  slug: open-zoho-agentsignatures-api
+- collection_type: open
+  name: Helpcenter AgentTimeEntry API
+  slug: open-zoho-agenttimeentry-api
+- collection_type: open
+  name: Helpcenter Apis API
+  slug: open-zoho-apis-api
+- collection_type: open
+  name: Helpcenter Appointments S API
+  slug: open-zoho-appointments-s-api
+- collection_type: open
+  name: Helpcenter Article API
+  slug: open-zoho-article-api
+- collection_type: open
+  name: Helpcenter ArticleAttachment API
+  slug: open-zoho-articleattachment-api
+- collection_type: open
+  name: Helpcenter ArticleComment API
+  slug: open-zoho-articlecomment-api
+- collection_type: open
+  name: Helpcenter ArticleFeedback API
+  slug: open-zoho-articlefeedback-api
+- collection_type: open
+  name: Helpcenter ArticleTranslation API
+  slug: open-zoho-articletranslation-api
+- collection_type: open
+  name: Helpcenter Attachments API
+  slug: open-zoho-attachments-api
+- collection_type: open
+  name: Helpcenter AutomationEngine API
+  slug: open-zoho-automationengine-api
+- collection_type: open
+  name: Helpcenter AutomationFeatureCount API
+  slug: open-zoho-automationfeaturecount-api
+- collection_type: open
+  name: Helpcenter Backup API
+  slug: open-zoho-backup-api
+- collection_type: open
+  name: Helpcenter Badge API
+  slug: open-zoho-badge-api
+- collection_type: open
+  name: Helpcenter blueprints API
+  slug: open-zoho-blueprints-api
+- collection_type: open
+  name: Helpcenter blueprintTransitions API
+  slug: open-zoho-blueprinttransitions-api
+- collection_type: open
+  name: Helpcenter BugInteg API
+  slug: open-zoho-buginteg-api
+- collection_type: open
+  name: Helpcenter Bulk Export - Asynchronous API
+  slug: open-zoho-bulk-export-asynchronous-api
+- collection_type: open
+  name: Helpcenter Bulk Export - Synchronous API
+  slug: open-zoho-bulk-export-synchronous-api
+- collection_type: open
+  name: Helpcenter Bulk Import - Asynchronous API
+  slug: open-zoho-bulk-import-asynchronous-api
+- collection_type: open
+  name: Helpcenter Bulk Import - Batch API
+  slug: open-zoho-bulk-import-batch-api
+- collection_type: open
+  name: Helpcenter Bulk Import - Synchronous API
+  slug: open-zoho-bulk-import-synchronous-api
+- collection_type: open
+  name: Helpcenter BulkImport API
+  slug: open-zoho-bulkimport-api
+- collection_type: open
+  name: Helpcenter BusinessHour API
+  slug: open-zoho-businesshour-api
+- collection_type: open
+  name: Helpcenter Call API
+  slug: open-zoho-call-api
+- collection_type: open
+  name: Helpcenter CallComments API
+  slug: open-zoho-callcomments-api
+- collection_type: open
+  name: Helpcenter Channel API
+  slug: open-zoho-channel-api
+- collection_type: open
+  name: Helpcenter Community API
+  slug: open-zoho-community-api
+- collection_type: open
+  name: Helpcenter CommunityAttachment API
+  slug: open-zoho-communityattachment-api
+- collection_type: open
+  name: Helpcenter CommunityCategory API
+  slug: open-zoho-communitycategory-api
+- collection_type: open
+  name: Helpcenter CommunityComment API
+  slug: open-zoho-communitycomment-api
+- collection_type: open
+  name: Helpcenter CommunityPreferences API
+  slug: open-zoho-communitypreferences-api
+- collection_type: open
+  name: Helpcenter CommunityTopic API
+  slug: open-zoho-communitytopic-api
+- collection_type: open
+  name: Helpcenter CommunityUser API
+  slug: open-zoho-communityuser-api
+- collection_type: open
+  name: Helpcenter Composite Requests API
+  slug: open-zoho-composite-requests-api
+- collection_type: open
+  name: Helpcenter Contact API
+  slug: open-zoho-contact-api
+- collection_type: open
+  name: Helpcenter Contact Roles API
+  slug: open-zoho-contact-roles-api
+- collection_type: open
+  name: Helpcenter ContactAttachment API
+  slug: open-zoho-contactattachment-api
+- collection_type: open
+  name: Helpcenter ContactComments API
+  slug: open-zoho-contactcomments-api
+- collection_type: open
+  name: Helpcenter ContactDeduplication API
+  slug: open-zoho-contactdeduplication-api
+- collection_type: open
+  name: Helpcenter ContactFollowers API
+  slug: open-zoho-contactfollowers-api
+- collection_type: open
+  name: Helpcenter ContactProfile API
+  slug: open-zoho-contactprofile-api
+- collection_type: open
+  name: Helpcenter Contacts API
+  slug: open-zoho-contacts-api
+- collection_type: open
+  name: Helpcenter ContactTimeEntry API
+  slug: open-zoho-contacttimeentry-api
+- collection_type: open
+  name: Helpcenter Contract API
+  slug: open-zoho-contract-api
+- collection_type: open
+  name: Helpcenter Coql API
+  slug: open-zoho-coql-api
+- collection_type: open
+  name: Helpcenter CountriesAndLanguages API
+  slug: open-zoho-countriesandlanguages-api
+- collection_type: open
+  name: Helpcenter CustomerHappiness API
+  slug: open-zoho-customerhappiness-api
+- collection_type: open
+  name: Helpcenter CustomView API
+  slug: open-zoho-customview-api
+- collection_type: open
+  name: Helpcenter DashboardMetrics API
+  slug: open-zoho-dashboardmetrics-api
+- collection_type: open
+  name: Helpcenter Dashboards API
+  slug: open-zoho-dashboards-api
+- collection_type: open
+  name: Helpcenter Data APIs API
+  slug: open-zoho-data-apis-api
+- collection_type: open
+  name: Helpcenter Deleted API
+  slug: open-zoho-deleted-api
+- collection_type: open
+  name: Helpcenter Department API
+  slug: open-zoho-department-api
+- collection_type: open
+  name: Helpcenter DependencyMappings API
+  slug: open-zoho-dependencymappings-api
+- collection_type: open
+  name: Helpcenter DisplayEntity API
+  slug: open-zoho-displayentity-api
+- collection_type: open
+  name: Helpcenter DomainMapping API
+  slug: open-zoho-domainmapping-api
+- collection_type: open
+  name: Helpcenter Email Drafts API
+  slug: open-zoho-email-drafts-api
+- collection_type: open
+  name: Helpcenter EmailFailureAlert API
+  slug: open-zoho-emailfailurealert-api
+- collection_type: open
+  name: Helpcenter Emails API
+  slug: open-zoho-emails-api
+- collection_type: open
+  name: Helpcenter Emails Sharing Details API
+  slug: open-zoho-emails-sharing-details-api
+- collection_type: open
+  name: Helpcenter EmailTemplates API
+  slug: open-zoho-emailtemplates-api
+- collection_type: open
+  name: Helpcenter Embed APIs API
+  slug: open-zoho-embed-apis-api
+- collection_type: open
+  name: Helpcenter EntityBlueprints API
+  slug: open-zoho-entityblueprints-api
+- collection_type: open
+  name: Helpcenter Event API
+  slug: open-zoho-event-api
+- collection_type: open
+  name: Helpcenter EventComments API
+  slug: open-zoho-eventcomments-api
+- collection_type: open
+  name: Helpcenter Events API
+  slug: open-zoho-events-api
+- collection_type: open
+  name: Helpcenter Features API
+  slug: open-zoho-features-api
+- collection_type: open
+  name: Helpcenter Field API
+  slug: open-zoho-field-api
+- collection_type: open
+  name: Helpcenter Files API
+  slug: open-zoho-files-api
+- collection_type: open
+  name: Helpcenter Finance API
+  slug: open-zoho-finance-api
+- collection_type: open
+  name: Helpcenter Followers API
+  slug: open-zoho-followers-api
+- collection_type: open
+  name: Helpcenter GenericAction API
+  slug: open-zoho-genericaction-api
+- collection_type: open
+  name: Helpcenter Global Picklists API
+  slug: open-zoho-global-picklists-api
+- collection_type: open
+  name: Helpcenter API
+  slug: open-zoho-helpcenter-api
+- collection_type: open
+  name: Helpcenter HelpcenterGroups API
+  slug: open-zoho-helpcentergroups-api
+- collection_type: open
+  name: Helpcenter HolidayList API
+  slug: open-zoho-holidaylist-api
+- collection_type: open
+  name: Helpcenter Holidays API
+  slug: open-zoho-holidays-api
+- collection_type: open
+  name: Helpcenter IM_Channel API
+  slug: open-zoho-im-channel-api
+- collection_type: open
+  name: Helpcenter IM_Message API
+  slug: open-zoho-im-message-api
+- collection_type: open
+  name: Helpcenter IM_Metrics API
+  slug: open-zoho-im-metrics-api
+- collection_type: open
+  name: Helpcenter IM_Session API
+  slug: open-zoho-im-session-api
+- collection_type: open
+  name: Helpcenter IMCannedMessage API
+  slug: open-zoho-imcannedmessage-api
+- collection_type: open
+  name: Helpcenter Import API
+  slug: open-zoho-import-api
+- collection_type: open
+  name: Helpcenter IMTemplateMessage API
+  slug: open-zoho-imtemplatemessage-api
+- collection_type: open
+  name: Helpcenter KbCategory API
+  slug: open-zoho-kbcategory-api
+- collection_type: open
+  name: Helpcenter KbCategoryLogo API
+  slug: open-zoho-kbcategorylogo-api
+- collection_type: open
+  name: Helpcenter KBRootCategory API
+  slug: open-zoho-kbrootcategory-api
+- collection_type: open
+  name: Helpcenter KBSection API
+  slug: open-zoho-kbsection-api
+- collection_type: open
+  name: Helpcenter Label API
+  slug: open-zoho-label-api
+- collection_type: open
+  name: Helpcenter Layout API
+  slug: open-zoho-layout-api
+- collection_type: open
+  name: Helpcenter LayoutRuleCriteria API
+  slug: open-zoho-layoutrulecriteria-api
+- collection_type: open
+  name: Helpcenter LayoutRules API
+  slug: open-zoho-layoutrules-api
+- collection_type: open
+  name: Helpcenter Layouts API
+  slug: open-zoho-layouts-api
+- collection_type: open
+  name: Helpcenter Leads API
+  slug: open-zoho-leads-api
+- collection_type: open
+  name: Helpcenter License API
+  slug: open-zoho-license-api
+- collection_type: open
+  name: Helpcenter Locking Information S API
+  slug: open-zoho-locking-information-s-api
+- collection_type: open
+  name: Helpcenter MailReplyAddress API
+  slug: open-zoho-mailreplyaddress-api
+- collection_type: open
+  name: Helpcenter Metadata APIs API
+  slug: open-zoho-metadata-apis-api
+- collection_type: open
+  name: Helpcenter Modeling APIs API
+  slug: open-zoho-modeling-apis-api
+- collection_type: open
+  name: Helpcenter Module API
+  slug: open-zoho-module-api
+- collection_type: open
+  name: Helpcenter NewTicketHistory API
+  slug: open-zoho-newtickethistory-api
+- collection_type: open
+  name: Helpcenter Notes API
+  slug: open-zoho-notes-api
+- collection_type: open
+  name: Helpcenter Org API
+  slug: open-zoho-org-api
+- collection_type: open
+  name: Helpcenter Organization API
+  slug: open-zoho-organization-api
+- collection_type: open
+  name: Helpcenter PendingApproval API
+  slug: open-zoho-pendingapproval-api
+- collection_type: open
+  name: Helpcenter Permalink API
+  slug: open-zoho-permalink-api
+- collection_type: open
+  name: Helpcenter Photo API
+  slug: open-zoho-photo-api
+- collection_type: open
+  name: Helpcenter PinnedConversation API
+  slug: open-zoho-pinnedconversation-api
+- collection_type: open
+  name: Helpcenter Product API
+  slug: open-zoho-product-api
+- collection_type: open
+  name: Helpcenter ProductAttachment API
+  slug: open-zoho-productattachment-api
+- collection_type: open
+  name: Helpcenter Profile API
+  slug: open-zoho-profile-api
+- collection_type: open
+  name: Helpcenter Read API
+  slug: open-zoho-read-api
+- collection_type: open
+  name: Helpcenter Records API
+  slug: open-zoho-records-api
+- collection_type: open
+  name: Helpcenter Recyclebin API
+  slug: open-zoho-recyclebin-api
+- collection_type: open
+  name: Helpcenter Reports API
+  slug: open-zoho-reports-api
+- collection_type: open
+  name: Helpcenter Role API
+  slug: open-zoho-role-api
+- collection_type: open
+  name: Helpcenter RoutingPreference API
+  slug: open-zoho-routingpreference-api
+- collection_type: open
+  name: Helpcenter RuleGroup API
+  slug: open-zoho-rulegroup-api
+- collection_type: open
+  name: Helpcenter Search API
+  slug: open-zoho-search-api
+- collection_type: open
+  name: Helpcenter Services S API
+  slug: open-zoho-services-s-api
+- collection_type: open
+  name: Helpcenter Settings API
+  slug: open-zoho-settings-api
+- collection_type: open
+  name: Helpcenter Sharing & Collaboration APIs API
+  slug: open-zoho-sharing-collaboration-apis-api
+- collection_type: open
+  name: Helpcenter SharingRule API
+  slug: open-zoho-sharingrule-api
+- collection_type: open
+  name: Helpcenter Skill API
+  slug: open-zoho-skill-api
+- collection_type: open
+  name: Helpcenter SkillConfiguration API
+  slug: open-zoho-skillconfiguration-api
+- collection_type: open
+  name: Helpcenter SkillType API
+  slug: open-zoho-skilltype-api
+- collection_type: open
+  name: Helpcenter SubjectAccessRequest API
+  slug: open-zoho-subjectaccessrequest-api
+- collection_type: open
+  name: Helpcenter SupportEmailDomain API
+  slug: open-zoho-supportemaildomain-api
+- collection_type: open
+  name: Helpcenter SupportPlan API
+  slug: open-zoho-supportplan-api
+- collection_type: open
+  name: Helpcenter Task API
+  slug: open-zoho-task-api
+- collection_type: open
+  name: Helpcenter TaskAttachment API
+  slug: open-zoho-taskattachment-api
+- collection_type: open
+  name: Helpcenter TaskComments API
+  slug: open-zoho-taskcomments-api
+- collection_type: open
+  name: Helpcenter TaskTimeEntry API
+  slug: open-zoho-tasktimeentry-api
+- collection_type: open
+  name: Helpcenter TaskTimer API
+  slug: open-zoho-tasktimer-api
+- collection_type: open
+  name: Helpcenter Team API
+  slug: open-zoho-team-api
+- collection_type: open
+  name: Helpcenter TemplateFolders API
+  slug: open-zoho-templatefolders-api
+- collection_type: open
+  name: Helpcenter Thread API
+  slug: open-zoho-thread-api
+- collection_type: open
+  name: Helpcenter Ticket API
+  slug: open-zoho-ticket-api
+- collection_type: open
+  name: Helpcenter TicketApprovals API
+  slug: open-zoho-ticketapprovals-api
+- collection_type: open
+  name: Helpcenter TicketAttachment API
+  slug: open-zoho-ticketattachment-api
+- collection_type: open
+  name: Helpcenter TicketComment API
+  slug: open-zoho-ticketcomment-api
+- collection_type: open
+  name: Helpcenter TicketCount API
+  slug: open-zoho-ticketcount-api
+- collection_type: open
+  name: Helpcenter TicketFollowers API
+  slug: open-zoho-ticketfollowers-api
+- collection_type: open
+  name: Helpcenter TicketTag API
+  slug: open-zoho-tickettag-api
+- collection_type: open
+  name: Helpcenter TicketTemplate API
+  slug: open-zoho-tickettemplate-api
+- collection_type: open
+  name: Helpcenter TicketTimeEntry API
+  slug: open-zoho-tickettimeentry-api
+- collection_type: open
+  name: Helpcenter TicketTimer API
+  slug: open-zoho-tickettimer-api
+- collection_type: open
+  name: Helpcenter Timeline API
+  slug: open-zoho-timeline-api
+- collection_type: open
+  name: Helpcenter TimeTracking API
+  slug: open-zoho-timetracking-api
+- collection_type: open
+  name: Helpcenter Upload API
+  slug: open-zoho-upload-api
+- collection_type: open
+  name: Helpcenter Upsert API
+  slug: open-zoho-upsert-api
+- collection_type: open
+  name: Helpcenter User API
+  slug: open-zoho-user-api
+- collection_type: open
+  name: Helpcenter User Management APIs API
+  slug: open-zoho-user-management-apis-api
+- collection_type: open
+  name: Helpcenter Users API
+  slug: open-zoho-users-api
+- collection_type: open
+  name: Helpcenter ValidationRuleCriteria API
+  slug: open-zoho-validationrulecriteria-api
+- collection_type: open
+  name: Helpcenter ValidationRules API
+  slug: open-zoho-validationrules-api
+- collection_type: open
+  name: Helpcenter Webhook API
+  slug: open-zoho-webhook-api
+- collection_type: open
+  name: Helpcenter Widget API
+  slug: open-zoho-widget-api
+- collection_type: open
+  name: Helpcenter Workflow Configurations API
+  slug: open-zoho-workflow-configurations-api
+- collection_type: open
+  name: Helpcenter Write API
+  slug: open-zoho-write-api
+- collection_type: open
+  name: Helpcenter Zia Org Enrichment API
+  slug: open-zoho-zia-org-enrichment-api
+- collection_type: open
+  name: Helpcenter Zoho CRM Related Records API API
+  slug: open-zoho-zoho-crm-related-records-api-api
 common:
 - group: auth
   title: ''
@@ -234,7 +763,7 @@ plans:
 - name: Zoho Plans Pricing
   plan_count: 5
   slug: zoho-plans-pricing
-random_paper: 88
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Zoho Rate Limits
@@ -258,7 +787,7 @@ score:
       marker_coverage: 0.0
       total: 442
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png
 security:

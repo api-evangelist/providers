@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 29
@@ -360,7 +360,332 @@ apis:
 - description: The Workbenches API from Tenable — 14 operation(s) for workbenches.
   name: Tenable Workbenches API
   slug: tenable-workbenches-api
-artifact_total: 113
+artifact_total: 221
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Downloads About API
+  slug: open-tenable-about-api
+- collection_type: open
+  name: Downloads About Access Control (API) API
+  slug: open-tenable-access-control-api-api
+- collection_type: open
+  name: Downloads About Access Control (Groups) API
+  slug: open-tenable-access-control-groups-api
+- collection_type: open
+  name: Downloads About Access Control (Permissions) API
+  slug: open-tenable-access-control-permissions-api
+- collection_type: open
+  name: Downloads About Access Control (Roles) API
+  slug: open-tenable-access-control-roles-api
+- collection_type: open
+  name: Downloads About Access Control (Users) API
+  slug: open-tenable-access-control-users-api
+- collection_type: open
+  name: Downloads About Access Groups v1 API
+  slug: open-tenable-access-groups-v1-api
+- collection_type: open
+  name: Downloads About Access Groups v2 API
+  slug: open-tenable-access-groups-v2-api
+- collection_type: open
+  name: Downloads About Account Groups API
+  slug: open-tenable-account-groups-api
+- collection_type: open
+  name: Downloads About Accounts API
+  slug: open-tenable-accounts-api
+- collection_type: open
+  name: Downloads About Activity Log API
+  slug: open-tenable-activity-log-api
+- collection_type: open
+  name: Downloads About AD object API
+  slug: open-tenable-ad-object-api
+- collection_type: open
+  name: Downloads About Agent Config API
+  slug: open-tenable-agent-config-api
+- collection_type: open
+  name: Downloads About Agent Exclusions API
+  slug: open-tenable-agent-exclusions-api
+- collection_type: open
+  name: Downloads About Agent Groups API
+  slug: open-tenable-agent-groups-api
+- collection_type: open
+  name: Downloads About Agent Tasks API
+  slug: open-tenable-agent-tasks-api
+- collection_type: open
+  name: Downloads About Agents API
+  slug: open-tenable-agents-api
+- collection_type: open
+  name: Downloads About Alert API
+  slug: open-tenable-alert-api
+- collection_type: open
+  name: Downloads About API key API
+  slug: open-tenable-api-key-api
+- collection_type: open
+  name: Downloads About Application setting API
+  slug: open-tenable-application-setting-api
+- collection_type: open
+  name: Downloads About Applications API
+  slug: open-tenable-applications-api
+- collection_type: open
+  name: Downloads About Asset Attributes API
+  slug: open-tenable-asset-attributes-api
+- collection_type: open
+  name: Downloads About Assets API
+  slug: open-tenable-assets-api
+- collection_type: open
+  name: Downloads About Attachments API
+  slug: open-tenable-attachments-api
+- collection_type: open
+  name: Downloads About Attack API
+  slug: open-tenable-attack-api
+- collection_type: open
+  name: Downloads About Attack Path API
+  slug: open-tenable-attack-path-api
+- collection_type: open
+  name: Downloads About Attack Path Exports API
+  slug: open-tenable-attack-path-exports-api
+- collection_type: open
+  name: Downloads About Attack type API
+  slug: open-tenable-attack-type-api
+- collection_type: open
+  name: Downloads About Attack type configuration API
+  slug: open-tenable-attack-type-configuration-api
+- collection_type: open
+  name: Downloads About Attack type option API
+  slug: open-tenable-attack-type-option-api
+- collection_type: open
+  name: Downloads About Attestations API
+  slug: open-tenable-attestations-api
+- collection_type: open
+  name: Downloads About Category API
+  slug: open-tenable-category-api
+- collection_type: open
+  name: Downloads About Checker API
+  slug: open-tenable-checker-api
+- collection_type: open
+  name: Downloads About Checker option API
+  slug: open-tenable-checker-option-api
+- collection_type: open
+  name: Downloads About Child Containers API
+  slug: open-tenable-child-containers-api
+- collection_type: open
+  name: Downloads About Cloud Connectors API
+  slug: open-tenable-cloud-connectors-api
+- collection_type: open
+  name: Downloads About Cloud statistics API
+  slug: open-tenable-cloud-statistics-api
+- collection_type: open
+  name: Downloads About Configurations API
+  slug: open-tenable-configurations-api
+- collection_type: open
+  name: Downloads About Credentials API
+  slug: open-tenable-credentials-api
+- collection_type: open
+  name: Downloads About Dashboard API
+  slug: open-tenable-dashboard-api
+- collection_type: open
+  name: Downloads About Dashboards API
+  slug: open-tenable-dashboards-api
+- collection_type: open
+  name: Downloads About Deviance API
+  slug: open-tenable-deviance-api
+- collection_type: open
+  name: Downloads About Directory API
+  slug: open-tenable-directory-api
+- collection_type: open
+  name: Downloads About Domains API
+  slug: open-tenable-domains-api
+- collection_type: open
+  name: About Downloads API
+  slug: open-tenable-downloads-api
+- collection_type: open
+  name: Downloads About Editor API
+  slug: open-tenable-editor-api
+- collection_type: open
+  name: Downloads About Email notifier API
+  slug: open-tenable-email-notifier-api
+- collection_type: open
+  name: Downloads About Event API
+  slug: open-tenable-event-api
+- collection_type: open
+  name: Downloads About Exclusions API
+  slug: open-tenable-exclusions-api
+- collection_type: open
+  name: Downloads About Exports API
+  slug: open-tenable-exports-api
+- collection_type: open
+  name: Downloads About Exports (Assets) API
+  slug: open-tenable-exports-assets-api
+- collection_type: open
+  name: Downloads About Exports (Compliance Data) API
+  slug: open-tenable-exports-compliance-data-api
+- collection_type: open
+  name: Downloads About Exports (Vulnerabilities) API
+  slug: open-tenable-exports-vulnerabilities-api
+- collection_type: open
+  name: Downloads About Exposure View API
+  slug: open-tenable-exposure-view-api
+- collection_type: open
+  name: Downloads About File API
+  slug: open-tenable-file-api
+- collection_type: open
+  name: Downloads About Filters API
+  slug: open-tenable-filters-api
+- collection_type: open
+  name: Downloads About Folders API
+  slug: open-tenable-folders-api
+- collection_type: open
+  name: Downloads About Infrastructure API
+  slug: open-tenable-infrastructure-api
+- collection_type: open
+  name: Downloads About Inventory API
+  slug: open-tenable-inventory-api
+- collection_type: open
+  name: Downloads About Inventory Exports API
+  slug: open-tenable-inventory-exports-api
+- collection_type: open
+  name: Downloads About LDAP configuration API
+  slug: open-tenable-ldap-configuration-api
+- collection_type: open
+  name: Downloads About License API
+  slug: open-tenable-license-api
+- collection_type: open
+  name: Downloads About Lockout policy API
+  slug: open-tenable-lockout-policy-api
+- collection_type: open
+  name: Downloads About Logos API
+  slug: open-tenable-logos-api
+- collection_type: open
+  name: Downloads About Metrics API
+  slug: open-tenable-metrics-api
+- collection_type: open
+  name: Downloads About Networks API
+  slug: open-tenable-networks-api
+- collection_type: open
+  name: Downloads About OT Connectors API
+  slug: open-tenable-ot-connectors-api
+- collection_type: open
+  name: Downloads About Partners API
+  slug: open-tenable-partners-api
+- collection_type: open
+  name: Downloads About Permissions API
+  slug: open-tenable-permissions-api
+- collection_type: open
+  name: Downloads About Plugins API
+  slug: open-tenable-plugins-api
+- collection_type: open
+  name: Downloads About Policies API
+  slug: open-tenable-policies-api
+- collection_type: open
+  name: Downloads About Preference API
+  slug: open-tenable-preference-api
+- collection_type: open
+  name: Downloads About Profile API
+  slug: open-tenable-profile-api
+- collection_type: open
+  name: Downloads About Profiles API
+  slug: open-tenable-profiles-api
+- collection_type: open
+  name: Downloads About Reason API
+  slug: open-tenable-reason-api
+- collection_type: open
+  name: Downloads About Recast Rules API
+  slug: open-tenable-recast-rules-api
+- collection_type: open
+  name: Downloads About Relay API
+  slug: open-tenable-relay-api
+- collection_type: open
+  name: Downloads About Remediation Scans API
+  slug: open-tenable-remediation-scans-api
+- collection_type: open
+  name: Downloads About Report access token API
+  slug: open-tenable-report-access-token-api
+- collection_type: open
+  name: Downloads About Reports API
+  slug: open-tenable-reports-api
+- collection_type: open
+  name: Downloads About Resource Links API
+  slug: open-tenable-resource-links-api
+- collection_type: open
+  name: Downloads About Role API
+  slug: open-tenable-role-api
+- collection_type: open
+  name: Downloads About SAML configuration API
+  slug: open-tenable-saml-configuration-api
+- collection_type: open
+  name: Downloads About Scan Control API
+  slug: open-tenable-scan-control-api
+- collection_type: open
+  name: Downloads About Scan Exports API
+  slug: open-tenable-scan-exports-api
+- collection_type: open
+  name: Downloads About Scan History API
+  slug: open-tenable-scan-history-api
+- collection_type: open
+  name: Downloads About Scan Results API
+  slug: open-tenable-scan-results-api
+- collection_type: open
+  name: Downloads About Scan Status API
+  slug: open-tenable-scan-status-api
+- collection_type: open
+  name: Downloads About Scan Tasks API
+  slug: open-tenable-scan-tasks-api
+- collection_type: open
+  name: Downloads About Scanner Config API
+  slug: open-tenable-scanner-config-api
+- collection_type: open
+  name: Downloads About Scanner Groups API
+  slug: open-tenable-scanner-groups-api
+- collection_type: open
+  name: Downloads About Scanner Profiles API
+  slug: open-tenable-scanner-profiles-api
+- collection_type: open
+  name: Downloads About Scanner Tasks API
+  slug: open-tenable-scanner-tasks-api
+- collection_type: open
+  name: Downloads About Scanners API
+  slug: open-tenable-scanners-api
+- collection_type: open
+  name: Downloads About Scans API
+  slug: open-tenable-scans-api
+- collection_type: open
+  name: Downloads About Score API
+  slug: open-tenable-score-api
+- collection_type: open
+  name: Downloads About Server API
+  slug: open-tenable-server-api
+- collection_type: open
+  name: Downloads About Shared Collections API
+  slug: open-tenable-shared-collections-api
+- collection_type: open
+  name: Downloads About Syslog API
+  slug: open-tenable-syslog-api
+- collection_type: open
+  name: Downloads About Tags API
+  slug: open-tenable-tags-api
+- collection_type: open
+  name: Downloads About Target Groups API
+  slug: open-tenable-target-groups-api
+- collection_type: open
+  name: Downloads About Templates API
+  slug: open-tenable-templates-api
+- collection_type: open
+  name: Downloads About Topology API
+  slug: open-tenable-topology-api
+- collection_type: open
+  name: Downloads About User API
+  slug: open-tenable-user-api
+- collection_type: open
+  name: Downloads About Vulnerabilities API
+  slug: open-tenable-vulnerabilities-api
+- collection_type: open
+  name: Downloads About Widget API
+  slug: open-tenable-widget-api
+- collection_type: open
+  name: Downloads About Workbenches API
+  slug: open-tenable-workbenches-api
 common:
 - group: other
   title: ''
@@ -518,7 +843,7 @@ overview: 'Tenable publishes 107 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tenable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 11
+random_paper: 135
 score:
   band: strong
   composite: 56.5
@@ -542,7 +867,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,7 +90,56 @@ apis:
 - description: The Zones API from NOAA — 6 operation(s) for zones.
   name: NOAA Zones API
   slug: noaa-zones-api
-artifact_total: 38
+artifact_total: 54
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AviationWeather.gov Alerts API
+  slug: open-noaa-alerts-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Aviation API
+  slug: open-noaa-aviation-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Glossary API
+  slug: open-noaa-glossary-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Gridpoints API
+  slug: open-noaa-gridpoints-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Icons API
+  slug: open-noaa-icons-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Navigational Data API
+  slug: open-noaa-navigational-data-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Offices API
+  slug: open-noaa-offices-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Points API
+  slug: open-noaa-points-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Products API
+  slug: open-noaa-products-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Radar API
+  slug: open-noaa-radar-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Radio API
+  slug: open-noaa-radio-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Stations API
+  slug: open-noaa-stations-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Thumbnails API
+  slug: open-noaa-thumbnails-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Weather Data API
+  slug: open-noaa-weather-data-api
+- collection_type: open
+  name: AviationWeather.gov Alerts Zones API
+  slug: open-noaa-zones-api
 common:
 - group: agent
   title: ''
@@ -233,7 +282,7 @@ plans:
 - name: Noaa Plans Pricing
   plan_count: 1
   slug: noaa-plans-pricing
-random_paper: 55
+random_paper: 117
 rate_limits:
 - limit_count: 0
   name: Noaa Rate Limits
@@ -273,7 +322,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa/refs/heads/main/screenshots/noaa-2026-06-20T190339.png
 security:

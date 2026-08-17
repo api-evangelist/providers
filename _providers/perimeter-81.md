@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -89,7 +89,62 @@ apis:
 - description: The Wireguard API from Perimeter 81 — 2 operation(s) for wireguard.
   name: Perimeter 81 Wireguard API
   slug: perimeter-81-wireguard-api
-artifact_total: 21
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harmony SASE Public Application API
+  slug: open-perimeter-81-application-api
+- collection_type: open
+  name: Harmony SASE Public Application Enhanced Networks API
+  slug: open-perimeter-81-enhanced-networks-api
+- collection_type: open
+  name: Harmony SASE Public Application Enhanced Regions API
+  slug: open-perimeter-81-enhanced-regions-api
+- collection_type: open
+  name: Harmony SASE Public Application Enhanced Route Tables API
+  slug: open-perimeter-81-enhanced-route-tables-api
+- collection_type: open
+  name: Harmony SASE Public Application Enhanced Tunnels API
+  slug: open-perimeter-81-enhanced-tunnels-api
+- collection_type: open
+  name: Harmony SASE Public Application Firewall Policy API
+  slug: open-perimeter-81-firewall-policy-api
+- collection_type: open
+  name: Harmony SASE Public Application Gateways API
+  slug: open-perimeter-81-gateways-api
+- collection_type: open
+  name: Harmony SASE Public Application IPSec-Redundant API
+  slug: open-perimeter-81-ipsec-redundant-api
+- collection_type: open
+  name: Harmony SASE Public Application IPSec-Single API
+  slug: open-perimeter-81-ipsec-single-api
+- collection_type: open
+  name: Harmony SASE Public Application Networks API
+  slug: open-perimeter-81-networks-api
+- collection_type: open
+  name: Harmony SASE Public Application Objects Addresses API
+  slug: open-perimeter-81-objects-addresses-api
+- collection_type: open
+  name: Harmony SASE Public Application Objects Services API
+  slug: open-perimeter-81-objects-services-api
+- collection_type: open
+  name: Harmony SASE Public Application OpenVPN API
+  slug: open-perimeter-81-openvpn-api
+- collection_type: open
+  name: Harmony SASE Public Application Regions API
+  slug: open-perimeter-81-regions-api
+- collection_type: open
+  name: Harmony SASE Public Application Route Table API
+  slug: open-perimeter-81-route-table-api
+- collection_type: open
+  name: Harmony SASE Public Application Standard Networks API
+  slug: open-perimeter-81-standard-networks-api
+- collection_type: open
+  name: Harmony SASE Public Application Wireguard API
+  slug: open-perimeter-81-wireguard-api
 common:
 - group: agent
   title: ''
@@ -175,7 +230,7 @@ overview: 'Perimeter 81 publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 43
+random_paper: 80
 score:
   band: thin
   composite: 40.5
@@ -199,7 +254,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

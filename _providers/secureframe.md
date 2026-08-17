@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API providing programmatic access to Secureframe controls, frameworks, tests, evidence, personnel, vendors, and audit data. Authenticated with API access tokens.
@@ -100,7 +100,7 @@ plans:
 - name: Secureframe Plans Pricing
   plan_count: 1
   slug: secureframe-plans-pricing
-random_paper: 90
+random_paper: 127
 rate_limits:
 - limit_count: 1
   name: Secureframe Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/screenshots/secureframe-2026-06-20T193625.png
 security:

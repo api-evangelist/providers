@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,7 +84,53 @@ apis:
 - description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any energyx.com URL — a structured-data view of every page without scraping the HTML.
   name: EnergyX SEO Metadata API
   slug: energyx-seo-api
-artifact_total: 20
+artifact_total: 35
+collections:
+- collection_type: open
+  name: EnergyX Careers API
+  slug: open-energyx-careers-api
+- collection_type: open
+  name: EnergyX Discovery API
+  slug: open-energyx-discovery-api
+- collection_type: open
+  name: EnergyX Leadership API
+  slug: open-energyx-leadership-api
+- collection_type: open
+  name: EnergyX Media API
+  slug: open-energyx-media-api
+- collection_type: open
+  name: EnergyX oEmbed API
+  slug: open-energyx-oembed-api
+- collection_type: open
+  name: EnergyX Pages API
+  slug: open-energyx-pages-api
+- collection_type: open
+  name: EnergyX Partners API
+  slug: open-energyx-partners-api
+- collection_type: open
+  name: EnergyX Posts API
+  slug: open-energyx-posts-api
+- collection_type: open
+  name: EnergyX Press and News API
+  slug: open-energyx-press-api
+- collection_type: open
+  name: EnergyX Resource Guides API
+  slug: open-energyx-resource-guides-api
+- collection_type: open
+  name: EnergyX Search API
+  slug: open-energyx-search-api
+- collection_type: open
+  name: EnergyX SEO Metadata API
+  slug: open-energyx-seo-api
+- collection_type: open
+  name: EnergyX Store API
+  slug: open-energyx-store-api
+- collection_type: open
+  name: EnergyX Taxonomy API
+  slug: open-energyx-taxonomy-api
+- collection_type: open
+  name: EnergyX Videos API
+  slug: open-energyx-videos-api
 common:
 - group: company
   title: ''
@@ -251,7 +297,7 @@ plans:
 - name: Energyx Plans Pricing
   plan_count: 0
   slug: energyx-plans-pricing
-random_paper: 50
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Energyx Rate Limits
@@ -259,6 +305,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 56.7
@@ -266,6 +313,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 30.5
   regulatory:
     applies: true
     matched_via: tags
@@ -273,7 +321,8 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Energyx Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 21
 apis:
 - description: 'tekton.dev/v1 kind=Task — defines a series of steps that launch specific build or delivery tools, ingest specific inputs (params, workspaces, resources), and produce specific outputs (results). Tasks '
@@ -94,8 +94,11 @@ apis:
 - description: The Tekton Catalog hosts community-curated, versioned Task and Pipeline definitions consumed via the Hub or directly by the Git resolver.
   name: Tekton Catalog
   slug: tekton-catalog-api
-artifact_total: 26
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Tekton
   slug: open-tekton-pipeline
@@ -220,7 +223,7 @@ plans:
 - name: Tekton Plans Pricing
   plan_count: 2
   slug: tekton-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Tekton Rate Limits
@@ -238,7 +241,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/screenshots/tekton-2026-06-20T195017.png
 security:

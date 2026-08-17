@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: Nameserver history (legacy) for a domain
   name: CompleteDNS NS History API
   slug: completedns-ns-history-api
-artifact_total: 16
+artifact_total: 19
 collections:
 - collection_type: postman
   name: CompleteDNS API v1 DNS History API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: CompleteDNS API v1 DNS History NS History API
   slug: postman-completedns-ns-history-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CompleteDNS API v1 DNS History API
+  slug: open-completedns-dns-history-api
+- collection_type: open
+  name: CompleteDNS API v1 DNS History NS History API
+  slug: open-completedns-ns-history-api
 - collection_type: open
   name: CompleteDNS API v1
   slug: open-completedns-v1
@@ -148,7 +157,7 @@ plans:
 - name: Completedns Plans Pricing
   plan_count: 3
   slug: completedns-plans-pricing
-random_paper: 102
+random_paper: 139
 rate_limits:
 - limit_count: 5
   name: Completedns Rate Limits
@@ -190,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/screenshots/completedns-2026-06-20T174832.png
 security:

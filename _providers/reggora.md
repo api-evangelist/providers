@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Create and manage the loan records that appraisal orders are placed against - sync loan data from the LOS, retrieve loan detail, update loan fields, and receive a webhook when a loan is deleted. Endpo
@@ -113,7 +113,7 @@ plans:
 - name: Reggora Plans Pricing
   plan_count: 2
   slug: reggora-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 3
   name: Reggora Rate Limits
@@ -131,7 +131,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

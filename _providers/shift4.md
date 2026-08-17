@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -61,11 +61,15 @@ apis:
 - description: Reporting and account endpoints for the Shift4 Payment API — transaction reports plus merchant and credentials lookups.
   name: Shift4 Reports & Merchants API
   slug: shift4-reports-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Shift4 Webhooks
   slug: shift4-webhooks
+collections:
+- collection_type: open
+  name: Shift4 Payment API
+  slug: open-shift4-payment-api
 common:
 - group: agent
   title: ''
@@ -231,7 +235,7 @@ overview: 'Shift4 publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Shift4''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, sandbox, and 29 more developer resources.'
-random_paper: 114
+random_paper: 147
 score:
   band: developing
   composite: 50.8
@@ -261,7 +265,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -80,11 +80,15 @@ apis:
 - description: Simulation endpoints for the Newline sandbox environment that let developers mock transactions and transfers, exercise error scenarios, and clear sandbox state while building against the platform. The
   name: Newline Sandbox API
   slug: newline-sandbox-api
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Fifth Third Bancorp Newline Webhooks
   slug: fifth-third-bancorp-newline-webhooks
+collections:
+- collection_type: open
+  name: Newline Platform API
+  slug: open-newline-platform-api
 common:
 - group: agent
   title: ''
@@ -257,7 +261,7 @@ press:
 - date: '2026-05-25'
   title: Fifth Third Bank Welcomes Back Art Weston
   url: https://ir.53.com/news/news-details/2022/Fifth-Third-Bank-Welcomes-Back-Art-Weston/default.aspx
-random_paper: 99
+random_paper: 111
 score:
   band: developing
   composite: 47.5
@@ -282,7 +286,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,11 +57,29 @@ apis:
 - description: Cache operational commands
   name: Squid Operations API
   slug: squid-operations-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Squid Cache Manager API
   slug: open-squid-cache-manager
+- collection_type: open
+  name: Squid Cache Manager Cache Statistics API
+  slug: open-squid-cache-statistics-api
+- collection_type: open
+  name: Squid Cache Manager Cache Statistics Configuration API
+  slug: open-squid-configuration-api
+- collection_type: open
+  name: Squid Cache Manager Cache Statistics Connections API
+  slug: open-squid-connections-api
+- collection_type: open
+  name: Squid Cache Manager Cache Statistics Memory API
+  slug: open-squid-memory-api
+- collection_type: open
+  name: Squid Cache Manager Cache Statistics Operations API
+  slug: open-squid-operations-api
 common:
 - group: agent
   title: ''
@@ -166,7 +184,7 @@ plans:
 - name: Squid Plans Pricing
   plan_count: 3
   slug: squid-plans-pricing
-random_paper: 70
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Squid Rate Limits
@@ -208,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/screenshots/squid-2026-06-20T194428.png
 security:

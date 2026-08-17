@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -74,12 +74,51 @@ apis:
 - description: The Webhooks API from FastSpring — 1 operation(s) for webhooks.
   name: FastSpring Webhooks API
   slug: fastspring-webhooks-api
-artifact_total: 19
+artifact_total: 32
 asyncapis:
 - description: AsyncAPI 2.6 description of FastSpring's outbound webhook surface. FastSpring delivers events to a seller-configured HTTPS endpoint as HTTP POSTs with a JSON envelope of one or more events. Each reque
   name: FastSpring Webhooks
   slug: fastspring-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FastSpring Accounts API
+  slug: open-fastspring-accounts-api
+- collection_type: open
+  name: FastSpring Accounts Coupons API
+  slug: open-fastspring-coupons-api
+- collection_type: open
+  name: FastSpring Accounts Data API
+  slug: open-fastspring-data-api
+- collection_type: open
+  name: FastSpring Accounts Events API
+  slug: open-fastspring-events-api
+- collection_type: open
+  name: FastSpring Accounts Invoices API
+  slug: open-fastspring-invoices-api
+- collection_type: open
+  name: FastSpring Accounts Orders API
+  slug: open-fastspring-orders-api
+- collection_type: open
+  name: FastSpring Accounts Products API
+  slug: open-fastspring-products-api
+- collection_type: open
+  name: FastSpring Accounts Quotes API
+  slug: open-fastspring-quotes-api
+- collection_type: open
+  name: FastSpring Accounts Returns API
+  slug: open-fastspring-returns-api
+- collection_type: open
+  name: FastSpring Accounts Sessions API
+  slug: open-fastspring-sessions-api
+- collection_type: open
+  name: FastSpring Accounts Subscriptions API
+  slug: open-fastspring-subscriptions-api
+- collection_type: open
+  name: FastSpring Accounts Webhooks API
+  slug: open-fastspring-webhooks-api
 - collection_type: open
   name: FastSpring API
   slug: open-fastspring
@@ -155,7 +194,7 @@ overview: 'FastSpring publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FastSpring''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 9
+random_paper: 46
 rules:
 - name: FastSpring API Rules
   rule_count: 7
@@ -191,7 +230,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/screenshots/fastspring-2026-06-20T181053.png
 security:

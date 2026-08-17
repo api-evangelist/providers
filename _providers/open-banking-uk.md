@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -165,7 +165,128 @@ apis:
 - description: The Transactions API from UK Open Banking — 2 operation(s) for transactions.
   name: UK Open Banking Transactions API
   slug: open-banking-uk-transactions-api
-artifact_total: 63
+artifact_total: 103
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents API
+  slug: open-open-banking-uk-account-access-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Accounts API
+  slug: open-open-banking-uk-accounts-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents ATM API
+  slug: open-open-banking-uk-atm-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Balances API
+  slug: open-open-banking-uk-balances-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents BCA API
+  slug: open-open-banking-uk-bca-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Beneficiaries API
+  slug: open-open-banking-uk-beneficiaries-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Branch API
+  slug: open-open-banking-uk-branch-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents CCC API
+  slug: open-open-banking-uk-ccc-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Direct Debits API
+  slug: open-open-banking-uk-direct-debits-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Domestic Payment Consents API
+  slug: open-open-banking-uk-domestic-payment-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Domestic Payments API
+  slug: open-open-banking-uk-domestic-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Domestic Scheduled Payment Consents API
+  slug: open-open-banking-uk-domestic-scheduled-payment-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Domestic Scheduled Payments API
+  slug: open-open-banking-uk-domestic-scheduled-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Domestic Standing Order Consents API
+  slug: open-open-banking-uk-domestic-standing-order-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Domestic Standing Orders API
+  slug: open-open-banking-uk-domestic-standing-orders-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Domestic VRP Consents API
+  slug: open-open-banking-uk-domestic-vrp-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Domestic VRPs API
+  slug: open-open-banking-uk-domestic-vrps-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Event Notification API
+  slug: open-open-banking-uk-event-notification-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Event Subscriptions API
+  slug: open-open-banking-uk-event-subscriptions-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Events API
+  slug: open-open-banking-uk-events-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents File Payment Consents API
+  slug: open-open-banking-uk-file-payment-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents File Payments API
+  slug: open-open-banking-uk-file-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Funds Confirmation Consents API
+  slug: open-open-banking-uk-funds-confirmation-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Funds Confirmations API
+  slug: open-open-banking-uk-funds-confirmations-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents International Payment Consents API
+  slug: open-open-banking-uk-international-payment-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents International Payments API
+  slug: open-open-banking-uk-international-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents International Scheduled Payments API
+  slug: open-open-banking-uk-international-scheduled-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents International Scheduled Payments Consents API
+  slug: open-open-banking-uk-international-scheduled-payments-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents International Standing Orders API
+  slug: open-open-banking-uk-international-standing-orders-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents International Standing Orders Consents API
+  slug: open-open-banking-uk-international-standing-orders-consents-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Offers API
+  slug: open-open-banking-uk-offers-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Parties API
+  slug: open-open-banking-uk-parties-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents PCA API
+  slug: open-open-banking-uk-pca-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Products API
+  slug: open-open-banking-uk-products-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Scheduled Payments API
+  slug: open-open-banking-uk-scheduled-payments-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents SME API
+  slug: open-open-banking-uk-sme-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Standing Orders API
+  slug: open-open-banking-uk-standing-orders-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Statements API
+  slug: open-open-banking-uk-statements-api
+- collection_type: open
+  name: Account and Transaction API Specification Account Access Consents Transactions API
+  slug: open-open-banking-uk-transactions-api
 common:
 - group: agent
   title: ''
@@ -297,7 +418,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 38
+random_paper: 137
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -342,7 +463,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/screenshots/open-banking-uk-2026-06-20T190729.png
 security:

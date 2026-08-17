@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: The view API from SmartMind — 2 operation(s) for view.
   name: SmartMind view API
   slug: smartmind-view-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: THANOSQL api file API
+  slug: open-smartmind-file-api
+- collection_type: open
+  name: THANOSQL api file health API
+  slug: open-smartmind-health-api
+- collection_type: open
+  name: THANOSQL api file metric API
+  slug: open-smartmind-metric-api
+- collection_type: open
+  name: THANOSQL api file query API
+  slug: open-smartmind-query-api
+- collection_type: open
+  name: THANOSQL api file schema API
+  slug: open-smartmind-schema-api
+- collection_type: open
+  name: THANOSQL api file table API
+  slug: open-smartmind-table-api
+- collection_type: open
+  name: THANOSQL api file table_template API
+  slug: open-smartmind-table-template-api
+- collection_type: open
+  name: THANOSQL api file view API
+  slug: open-smartmind-view-api
 common:
 - group: auth
   title: ''
@@ -168,7 +196,7 @@ overview: 'SmartMind publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   SmartMind''s developer surface includes authentication, documentation, API reference, support, and 18 more developer resources.'
-random_paper: 15
+random_paper: 81
 score:
   band: thin
   composite: 35.0
@@ -192,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

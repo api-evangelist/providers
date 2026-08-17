@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: AI-powered web analysis with your own LLM key (BYOK)
@@ -69,7 +69,50 @@ apis:
 - description: Paddle billing webhooks (server-to-server)
   name: SnapAPI Webhooks API
   slug: snapapi-pics-webhooks-api
-artifact_total: 13
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze API
+  slug: open-snapapi-pics-analyze-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Auth API
+  slug: open-snapapi-pics-auth-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Dashboard API
+  slug: open-snapapi-pics-dashboard-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Extract API
+  slug: open-snapapi-pics-extract-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Health API
+  slug: open-snapapi-pics-health-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze PDF API
+  slug: open-snapapi-pics-pdf-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Scrape API
+  slug: open-snapapi-pics-scrape-api
+- collection_type: open
+  name: SnapAPI - & Web Data Analyze Screenshot API
+  slug: open-snapapi-pics-screenshot-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Storage API
+  slug: open-snapapi-pics-storage-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Usage API
+  slug: open-snapapi-pics-usage-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Utilities API
+  slug: open-snapapi-pics-utilities-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Video API
+  slug: open-snapapi-pics-video-api
+- collection_type: open
+  name: SnapAPI - Screenshot & Web Data Analyze Webhooks API
+  slug: open-snapapi-pics-webhooks-api
 common:
 - group: company
   title: ''
@@ -119,7 +162,7 @@ overview: 'SnapAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SnapAPI''s developer surface includes documentation, API reference, signup flow, pricing, changelog, engineering blog, and 3 more developer resources.'
-random_paper: 24
+random_paper: 32
 score:
   band: thin
   composite: 35.3
@@ -139,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: snapapi-pics
 tags:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +56,23 @@ apis:
 - description: The Measurements API from Teledyne Technologies — 4 operation(s) for measurements.
   name: Teledyne Technologies Measurements API
   slug: teledyne-technologies-measurements-api
-artifact_total: 21
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Teledyne FLIR Camera REST API
   slug: open-teledyne-flir-camera-rest
+- collection_type: open
+  name: Teledyne FLIR Camera REST Alarms API
+  slug: open-teledyne-technologies-alarms-api
+- collection_type: open
+  name: Teledyne FLIR Camera REST Alarms Images API
+  slug: open-teledyne-technologies-images-api
+- collection_type: open
+  name: Teledyne FLIR Camera REST Alarms Measurements API
+  slug: open-teledyne-technologies-measurements-api
 common:
 - group: agent
   title: ''
@@ -167,7 +179,7 @@ press:
 - date: '2026-05-25'
   title: Teledyne to Hold Investor Meetings
   url: https://www.teledyne.com/en-us/news/Pages/teledyne-to-hold-investor-meetings-20250902.aspx
-random_paper: 27
+random_paper: 101
 rate_limits:
 - limit_count: 1
   name: Teledyne Technologies Rate Limits
@@ -209,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/screenshots/teledyne-technologies-2026-06-20T195024.png
 security:

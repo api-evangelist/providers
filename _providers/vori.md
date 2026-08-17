@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Store products API from Vori — 7 operation(s) for store products.
   name: Vori Store products API
   slug: vori-store-products-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vori Store products API
+  slug: open-vori-store-products-api
 common:
 - group: company
   title: ''
@@ -151,7 +158,7 @@ overview: 'Vori publishes 1 API on the [APIs.io](https://apis.io/) network: Stor
 
 
   Vori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 88
+random_paper: 1
 score:
   band: thin
   composite: 39.3
@@ -181,7 +188,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

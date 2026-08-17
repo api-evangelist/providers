@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The primary Trestle interface — a RESO Web API 2.0 / OData 4.0 endpoint that republishes MLS data mapped to the RESO Data Dictionary. The anonymously readable OData service document advertises 18 enti
@@ -33,11 +33,14 @@ apis:
 - description: Trestle's legacy Real Estate Transaction Standard interface, documented as compliant with RETS 1.8. RESO no longer updates the RETS specification, but Trestle continues to serve it for customers who c
   name: Trestle RETS
   slug: trestle-rets
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: postman
   name: Trestle WebAPI Demonstration
   slug: postman-trestle-webapi
+- collection_type: open
+  name: API Collection
+  slug: open-trestle-odata-service-document
 common:
 - group: agent
   title: ''
@@ -212,7 +215,7 @@ overview: 'Trestle publishes 4 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Trestle''s developer surface includes documentation, FAQ, signup flow, support, getting-started guide, API reference, engineering blog, and 32 more developer resources.'
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 4
   name: Trestle Rate Limits
@@ -239,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

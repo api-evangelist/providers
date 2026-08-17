@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -114,7 +114,7 @@ apis:
 - description: The VirtualNetworks API from Azure DevTest Labs — 2 operation(s) for virtualnetworks.
   name: Azure DevTest Labs VirtualNetworks API
   slug: azure-test-labs-virtualnetworks-api
-artifact_total: 150
+artifact_total: 176
 collections:
 - collection_type: postman
   name: DevTestLabsClient ArmTemplates API
@@ -191,6 +191,84 @@ collections:
 - collection_type: postman
   name: DevTestLabsClient ArmTemplates VirtualNetworks API
   slug: postman-azure-test-labs-virtualnetworks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates API
+  slug: open-azure-test-labs-armtemplates-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Artifacts API
+  slug: open-azure-test-labs-artifacts-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates ArtifactSources API
+  slug: open-azure-test-labs-artifactsources-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Costs API
+  slug: open-azure-test-labs-costs-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates CustomImages API
+  slug: open-azure-test-labs-customimages-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Disks API
+  slug: open-azure-test-labs-disks-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Environments API
+  slug: open-azure-test-labs-environments-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Formulas API
+  slug: open-azure-test-labs-formulas-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates GalleryImages API
+  slug: open-azure-test-labs-galleryimages-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates GlobalSchedules API
+  slug: open-azure-test-labs-globalschedules-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Labs API
+  slug: open-azure-test-labs-labs-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates NotificationChannels API
+  slug: open-azure-test-labs-notificationchannels-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Operations API
+  slug: open-azure-test-labs-operations-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Policies API
+  slug: open-azure-test-labs-policies-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates PolicySets API
+  slug: open-azure-test-labs-policysets-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates ProviderOperations API
+  slug: open-azure-test-labs-provideroperations-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Schedules API
+  slug: open-azure-test-labs-schedules-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Secrets API
+  slug: open-azure-test-labs-secrets-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates ServiceFabrics API
+  slug: open-azure-test-labs-servicefabrics-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates ServiceFabricSchedules API
+  slug: open-azure-test-labs-servicefabricschedules-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates ServiceRunners API
+  slug: open-azure-test-labs-servicerunners-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates Users API
+  slug: open-azure-test-labs-users-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates VirtualMachines API
+  slug: open-azure-test-labs-virtualmachines-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates VirtualMachineSchedules API
+  slug: open-azure-test-labs-virtualmachineschedules-api
+- collection_type: open
+  name: DevTestLabsClient ArmTemplates VirtualNetworks API
+  slug: open-azure-test-labs-virtualnetworks-api
 common:
 - group: build
   title: ''
@@ -557,7 +635,7 @@ plans:
 - name: Azure Test Labs Plans Pricing
   plan_count: 3
   slug: azure-test-labs-plans-pricing
-random_paper: 67
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Azure Test Labs Rate Limits
@@ -604,7 +682,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/screenshots/azure-test-labs-2026-06-20T172912.png
 security:

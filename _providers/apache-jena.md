@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,7 +53,23 @@ apis:
 - description: SPARQL 1.1 Update operations
   name: Apache Jena SPARQL Update API
   slug: apache-jena-sparql-update-api
-artifact_total: 46
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Jena Fuseki SPARQL Dataset Management API
+  slug: open-apache-jena-dataset-management-api
+- collection_type: open
+  name: Apache Jena Fuseki SPARQL Dataset Management Graph Store Protocol API
+  slug: open-apache-jena-graph-store-protocol-api
+- collection_type: open
+  name: Apache Jena Fuseki SPARQL Dataset Management SPARQL Query API
+  slug: open-apache-jena-sparql-query-api
+- collection_type: open
+  name: Apache Jena Fuseki SPARQL Dataset Management SPARQL Update API
+  slug: open-apache-jena-sparql-update-api
 common:
 - group: operate
   title: ''
@@ -226,7 +242,7 @@ plans:
 - name: Apache Jena Plans Pricing
   plan_count: 3
   slug: apache-jena-plans-pricing
-random_paper: 109
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Apache Jena Rate Limits
@@ -268,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/screenshots/apache-jena-2026-06-20T172111.png
 security:

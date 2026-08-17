@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 3
@@ -71,7 +71,44 @@ apis:
 - description: The User API from Hacware — 9 operation(s) for user.
   name: Hacware User API
   slug: hacware-user-api
-artifact_total: 15
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Security Awareness API Documentation Admin API
+  slug: open-hacware-admin-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin Compliance API
+  slug: open-hacware-compliance-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin Compliance-Tenant API
+  slug: open-hacware-compliance-tenant-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin Customer API
+  slug: open-hacware-customer-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin Email-Tenant API
+  slug: open-hacware-email-tenant-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin Group API
+  slug: open-hacware-group-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin Multi-Tenant API
+  slug: open-hacware-multi-tenant-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin Phishing API
+  slug: open-hacware-phishing-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin Report API
+  slug: open-hacware-report-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin Training API
+  slug: open-hacware-training-api
+- collection_type: open
+  name: Security Awareness API Documentation Admin User API
+  slug: open-hacware-user-api
 common:
 - group: agent
   title: ''
@@ -153,7 +190,7 @@ overview: 'Hacware publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Hacware''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 11
+random_paper: 135
 score:
   band: thin
   composite: 41.8
@@ -177,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/screenshots/hacware-2026-07-25T220524.png
 security:

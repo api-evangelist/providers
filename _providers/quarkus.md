@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +53,29 @@ apis:
 - description: The OpenAPI API from Quarkus — 2 operation(s) for openapi.
   name: Quarkus OpenAPI API
   slug: quarkus-openapi-api
-artifact_total: 18
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quarkus & Health/Metrics Dev UI API
+  slug: open-quarkus-dev-ui-api
 - collection_type: open
   name: Quarkus Dev UI & Health/Metrics API
   slug: open-quarkus-dev-ui
+- collection_type: open
+  name: Quarkus & /Metrics Dev UI Health API
+  slug: open-quarkus-health-api
+- collection_type: open
+  name: Quarkus & Health/Metrics Dev UI Info API
+  slug: open-quarkus-info-api
+- collection_type: open
+  name: Quarkus & Health/ Dev UI Metrics API
+  slug: open-quarkus-metrics-api
+- collection_type: open
+  name: Quarkus & Health/Metrics Dev UI OpenAPI API
+  slug: open-quarkus-openapi-api
 common:
 - group: agent
   title: ''
@@ -134,7 +152,7 @@ plans:
 - name: Quarkus Plans Pricing
   plan_count: 3
   slug: quarkus-plans-pricing
-random_paper: 60
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Quarkus Rate Limits
@@ -168,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/screenshots/quarkus-2026-06-20T192414.png
 security:

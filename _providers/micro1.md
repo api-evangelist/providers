@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -32,11 +32,15 @@ apis:
 - description: The micro1 AI Recruiter public REST API. Create conversational AI interviews from a skill list (or from your own custom questions), preview the questions the AI will ask, invite candidates by email, l
   name: micro1 Public API
   slug: micro1-public-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Micro1 Webhooks
   slug: micro1-webhooks
+collections:
+- collection_type: open
+  name: micro1 Public API
+  slug: open-micro1-ai-recruiter
 common:
 - group: company
   title: ''
@@ -165,7 +169,7 @@ overview: 'micro1 publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 
 
   micro1''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 107
+random_paper: 140
 score:
   band: developing
   composite: 47.3
@@ -189,7 +193,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/screenshots/micro1-2026-08-07T172821.png
 security:

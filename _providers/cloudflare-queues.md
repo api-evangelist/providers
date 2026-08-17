@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Operations for managing Cloudflare Queues and their configuration
   name: Cloudflare Queues Queue API
   slug: cloudflare-queues-queue-api
-artifact_total: 24
+artifact_total: 29
 collections:
 - collection_type: postman
   name: Cloudflare Queues Consumer API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Cloudflare Queues Consumer Queue API
   slug: postman-cloudflare-queues-queue-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudflare Queues Consumer API
+  slug: open-cloudflare-queues-consumer-api
+- collection_type: open
+  name: Cloudflare Queues Consumer Messages API
+  slug: open-cloudflare-queues-messages-api
+- collection_type: open
+  name: Cloudflare Queues Consumer Metrics API
+  slug: open-cloudflare-queues-metrics-api
+- collection_type: open
+  name: Cloudflare Queues Consumer Queue API
+  slug: open-cloudflare-queues-queue-api
 common:
 - group: operate
   title: ''
@@ -225,7 +240,7 @@ plans:
 - name: Cloudflare Queues Plans Pricing
   plan_count: 2
   slug: cloudflare-queues-plans-pricing
-random_paper: 86
+random_paper: 127
 rate_limits:
 - limit_count: 20
   name: Cloudflare Queues Rate Limits
@@ -259,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/screenshots/cloudflare-queues-2026-06-20T174559.png
 security:

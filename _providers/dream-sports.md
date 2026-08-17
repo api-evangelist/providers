@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 4
@@ -215,11 +215,192 @@ apis:
 - description: User management endpoints
   name: Dream Sports Users API
   slug: dream-sports-users-api
-artifact_total: 69
+artifact_total: 129
 asyncapis:
 - description: ''
   name: Dream Sports Webhooks
   slug: dream-sports-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Delivr OTA Server Access Keys API
+  slug: open-dream-sports-access-keys-api
+- collection_type: open
+  name: DOTA Access Keys API
+  slug: open-dream-sports-accesskeys-api
+- collection_type: open
+  name: Dream Sports Account API
+  slug: open-dream-sports-account-api
+- collection_type: open
+  name: Delivr OTA Server Acquisition API
+  slug: open-dream-sports-acquisition-api
+- collection_type: open
+  name: Guardian Admin API
+  slug: open-dream-sports-admin-api
+- collection_type: open
+  name: Raven Journey Admin - Console Users API
+  slug: open-dream-sports-admin-console-users-api
+- collection_type: open
+  name: Dream Sports Apps API
+  slug: open-dream-sports-apps-api
+- collection_type: open
+  name: Raven Journey Auth API
+  slug: open-dream-sports-auth-api
+- collection_type: open
+  name: Delivr OTA Server Authentication API
+  slug: open-dream-sports-authentication-api
+- collection_type: open
+  name: Thunder Admin Behaviour Tags API
+  slug: open-dream-sports-behaviour-tags-api
+- collection_type: open
+  name: Guardian Cache Management API
+  slug: open-dream-sports-cache-management-api
+- collection_type: open
+  name: Raven Journey Client SDK API
+  slug: open-dream-sports-client-sdk-api
+- collection_type: open
+  name: Delivr OTA Server Collaborators API
+  slug: open-dream-sports-collaborators-api
+- collection_type: open
+  name: Guardian integration endpoints Communication API
+  slug: open-dream-sports-communication-api
+- collection_type: open
+  name: Checkmate Test Management Configuration API
+  slug: open-dream-sports-configuration-api
+- collection_type: open
+  name: Raven Journey Console Users API
+  slug: open-dream-sports-console-users-api
+- collection_type: open
+  name: Thunder Admin CTA Status API
+  slug: open-dream-sports-cta-status-api
+- collection_type: open
+  name: Thunder Admin CT As API
+  slug: open-dream-sports-ctas-api
+- collection_type: open
+  name: Delivr OTA Server Deployments API
+  slug: open-dream-sports-deployments-api
+- collection_type: open
+  name: Guardian Device-Bound Authentication API
+  slug: open-dream-sports-device-bound-authentication-api
+- collection_type: open
+  name: Thunder Admin Events API
+  slug: open-dream-sports-events-api
+- collection_type: open
+  name: Raven Journey Events Catalog API
+  slug: open-dream-sports-events-catalog-api
+- collection_type: open
+  name: Thunder Admin Filters API
+  slug: open-dream-sports-filters-api
+- collection_type: open
+  name: Guardian Guest Authentication API
+  slug: open-dream-sports-guest-authentication-api
+- collection_type: open
+  name: Dream Sports Health API
+  slug: open-dream-sports-health-api
+- collection_type: open
+  name: Dream Sports Healthcheck API
+  slug: open-dream-sports-healthcheck-api
+- collection_type: open
+  name: Raven Journey Journey Behaviour API
+  slug: open-dream-sports-journey-behaviour-api
+- collection_type: open
+  name: Raven Journey Journey Lifecycle API
+  slug: open-dream-sports-journey-lifecycle-api
+- collection_type: open
+  name: Raven Journey Journey Test API
+  slug: open-dream-sports-journey-test-api
+- collection_type: open
+  name: Raven Journey Journeys API
+  slug: open-dream-sports-journeys-api
+- collection_type: open
+  name: Guardian Key Management API
+  slug: open-dream-sports-key-management-api
+- collection_type: open
+  name: Delivr OTA Server Metrics API
+  slug: open-dream-sports-metrics-api
+- collection_type: open
+  name: Guardian OIDC API
+  slug: open-dream-sports-oidc-api
+- collection_type: open
+  name: Guardian OIDC Client Management API
+  slug: open-dream-sports-oidc-client-management-api
+- collection_type: open
+  name: Guardian OIDC Client Scope Management API
+  slug: open-dream-sports-oidc-client-scope-management-api
+- collection_type: open
+  name: Guardian OIDC Discovery API
+  slug: open-dream-sports-oidc-discovery-api
+- collection_type: open
+  name: Guardian OIDC Scope Management API
+  slug: open-dream-sports-oidc-scope-management-api
+- collection_type: open
+  name: Dream Sports Openapi API
+  slug: open-dream-sports-openapi-api
+- collection_type: open
+  name: Dream Sports Openapi.{type} Openapi.{type} API
+  slug: open-dream-sports-openapi-type-api
+- collection_type: open
+  name: Checkmate Test Management Organizations API
+  slug: open-dream-sports-organizations-api
+- collection_type: open
+  name: Guardian Password API
+  slug: open-dream-sports-password-api
+- collection_type: open
+  name: Guardian Passwordless API
+  slug: open-dream-sports-passwordless-api
+- collection_type: open
+  name: Checkmate Test Management Projects API
+  slug: open-dream-sports-projects-api
+- collection_type: open
+  name: Guardian integration endpoints Provider API
+  slug: open-dream-sports-provider-api
+- collection_type: open
+  name: Guardian Public Keys API
+  slug: open-dream-sports-public-keys-api
+- collection_type: open
+  name: Delivr OTA Server Releases API
+  slug: open-dream-sports-releases-api
+- collection_type: open
+  name: Checkmate Test Management Reports API
+  slug: open-dream-sports-reports-api
+- collection_type: open
+  name: Checkmate Test Management Runs API
+  slug: open-dream-sports-runs-api
+- collection_type: open
+  name: Thunder SDK API
+  slug: open-dream-sports-sdk-api
+- collection_type: open
+  name: Guardian Session Management API
+  slug: open-dream-sports-session-management-api
+- collection_type: open
+  name: Delivr OTA Server Sessions API
+  slug: open-dream-sports-sessions-api
+- collection_type: open
+  name: Guardian Social API
+  slug: open-dream-sports-social-api
+- collection_type: open
+  name: Dream Sports Tenants API
+  slug: open-dream-sports-tenants-api
+- collection_type: open
+  name: Checkmate Test Management Tests API
+  slug: open-dream-sports-tests-api
+- collection_type: open
+  name: Guardian Token Exchange API
+  slug: open-dream-sports-token-exchange-api
+- collection_type: open
+  name: Guardian Token Management API
+  slug: open-dream-sports-token-management-api
+- collection_type: open
+  name: Guardian integration endpoints User API
+  slug: open-dream-sports-user-api
+- collection_type: open
+  name: Guardian User Flow Block API
+  slug: open-dream-sports-user-flow-block-api
+- collection_type: open
+  name: Checkmate Test Management Users API
+  slug: open-dream-sports-users-api
 common:
 - group: other
   title: ''
@@ -377,7 +558,7 @@ overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) net
 
 
   Dream Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 27 more developer resources.'
-random_paper: 49
+random_paper: 57
 scopes:
 - name: Dream Sports Scopes
   scope_count: 7
@@ -406,7 +587,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/screenshots/dream-sports-2026-08-07T164521.png
 security:

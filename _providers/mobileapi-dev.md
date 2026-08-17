@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -85,11 +85,41 @@ arazzos:
 - description: Search the catalog by device name, then load the full record and gallery images for the best match.
   name: MobileAPI Search Device and Load Full Detail
   slug: mobileapi-dev-search-device-detail-workflow
-artifact_total: 90
+artifact_total: 100
 collections:
 - collection_type: postman
   name: MobileAPI
   slug: postman-mobileapi
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mobile api API
+  slug: open-mobileapi-dev-api-api
+- collection_type: open
+  name: Mobile api api-token-auth API
+  slug: open-mobileapi-dev-api-token-auth-api
+- collection_type: open
+  name: Mobile api demo-x7k9m2p4 API
+  slug: open-mobileapi-dev-demo-x7k9m2p4-api
+- collection_type: open
+  name: Mobile api devices API
+  slug: open-mobileapi-dev-devices-api
+- collection_type: open
+  name: Mobile api images API
+  slug: open-mobileapi-dev-images-api
+- collection_type: open
+  name: Mobile api manufacturers API
+  slug: open-mobileapi-dev-manufacturers-api
+- collection_type: open
+  name: Mobile api me API
+  slug: open-mobileapi-dev-me-api
+- collection_type: open
+  name: Mobile api payment_successful API
+  slug: open-mobileapi-dev-payment-successful-api
+- collection_type: open
+  name: Mobile api status API
+  slug: open-mobileapi-dev-status-api
 - collection_type: open
   name: MobileAPI
   slug: open-mobileapi
@@ -409,7 +439,7 @@ plans:
 - name: Mobileapi Dev Plans Pricing
   plan_count: 3
   slug: mobileapi-dev-plans-pricing
-random_paper: 110
+random_paper: 118
 rate_limits:
 - limit_count: 6
   name: Mobileapi Dev Rate Limits
@@ -451,7 +481,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/screenshots/mobileapi-dev-2026-06-20T185631.png
 security:

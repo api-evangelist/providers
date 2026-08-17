@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -57,8 +57,29 @@ apis:
 - description: Create, navigate, and close browser windows inside a session.
   name: Airtop Windows API
   slug: airtop-windows-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airtop AI Query API
+  slug: open-airtop-ai-query-api
+- collection_type: open
+  name: Airtop AI Query Page Interaction API
+  slug: open-airtop-page-interaction-api
+- collection_type: open
+  name: Airtop AI Query Profiles API
+  slug: open-airtop-profiles-api
+- collection_type: open
+  name: Airtop AI Query Screenshots API
+  slug: open-airtop-screenshots-api
+- collection_type: open
+  name: Airtop AI Query Sessions API
+  slug: open-airtop-sessions-api
+- collection_type: open
+  name: Airtop AI Query Windows API
+  slug: open-airtop-windows-api
 - collection_type: open
   name: Airtop API
   slug: open-airtop
@@ -127,7 +148,7 @@ plans:
 - name: Airtop Plans Pricing
   plan_count: 5
   slug: airtop-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Airtop Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/screenshots/airtop-2026-06-20T171435.png
 security:

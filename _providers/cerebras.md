@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: Discover available models.
   name: Cerebras Models API
   slug: cerebras-models-api
-artifact_total: 12
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cerebras Inference Chat API
+  slug: open-cerebras-chat-api
+- collection_type: open
+  name: Cerebras Inference Chat Completions API
+  slug: open-cerebras-completions-api
+- collection_type: open
+  name: Cerebras Inference Chat Models API
+  slug: open-cerebras-models-api
 - collection_type: open
   name: Cerebras Inference API
   slug: open-cerebras
@@ -137,7 +149,7 @@ plans:
 - name: Cerebras Plans Pricing
   plan_count: 1
   slug: cerebras-plans-pricing
-random_paper: 119
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Cerebras Rate Limits
@@ -162,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras/refs/heads/main/screenshots/cerebras-2026-06-20T174140.png
 security:

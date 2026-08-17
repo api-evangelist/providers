@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -93,7 +93,53 @@ apis:
 - description: The Users API from VATSIM — 1 operation(s) for users.
   name: VATSIM Users API
   slug: vatsim-users-api
-artifact_total: 25
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VATSIM AIP Airport info API
+  slug: open-vatsim-airport-info-api
+- collection_type: open
+  name: VATSIM AIP Airport info atc API
+  slug: open-vatsim-atc-api
+- collection_type: open
+  name: VATSIM AIP Airport info Audio API
+  slug: open-vatsim-audio-api
+- collection_type: open
+  name: VATSIM AIP Airport info community API
+  slug: open-vatsim-community-api
+- collection_type: open
+  name: VATSIM AIP Airport info Data feed API
+  slug: open-vatsim-data-feed-api
+- collection_type: open
+  name: VATSIM AIP Airport info Event info API
+  slug: open-vatsim-event-info-api
+- collection_type: open
+  name: VATSIM AIP Airport info Events API
+  slug: open-vatsim-events-api
+- collection_type: open
+  name: VATSIM AIP Airport info members API
+  slug: open-vatsim-members-api
+- collection_type: open
+  name: VATSIM AIP Airport info METAR API
+  slug: open-vatsim-metar-api
+- collection_type: open
+  name: VATSIM AIP Airport info OAuth2 API
+  slug: open-vatsim-oauth2-api
+- collection_type: open
+  name: VATSIM AIP Airport info orgs API
+  slug: open-vatsim-orgs-api
+- collection_type: open
+  name: VATSIM AIP Airport info Servers API
+  slug: open-vatsim-servers-api
+- collection_type: open
+  name: VATSIM AIP Airport info User API
+  slug: open-vatsim-user-api
+- collection_type: open
+  name: VATSIM AIP Airport info Users API
+  slug: open-vatsim-users-api
 common:
 - group: agent
   title: ''
@@ -130,7 +176,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -160,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/screenshots/vatsim-2026-06-20T200846.png
 security:

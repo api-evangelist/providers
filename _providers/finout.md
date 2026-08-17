@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Create, retrieve, update, and delete Virtual Tag configurations
   name: Finout Virtual Tags API
   slug: finout-virtual-tags-api
-artifact_total: 28
+artifact_total: 35
 collections:
 - collection_type: postman
   name: Finout Cost API
@@ -78,8 +78,29 @@ collections:
   name: Finout Cost Virtual Tags API
   slug: postman-finout-virtual-tags-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Finout API
   slug: open-finout-api
+- collection_type: open
+  name: Finout Cost API
+  slug: open-finout-cost-api
+- collection_type: open
+  name: Finout Cost CostGuard API
+  slug: open-finout-costguard-api
+- collection_type: open
+  name: Finout Cost Endpoints API
+  slug: open-finout-endpoints-api
+- collection_type: open
+  name: Finout Cost Query Language API
+  slug: open-finout-query-language-api
+- collection_type: open
+  name: Finout Cost Virtual Tag Metadata API
+  slug: open-finout-virtual-tag-metadata-api
+- collection_type: open
+  name: Finout Cost Virtual Tags API
+  slug: open-finout-virtual-tags-api
 common:
 - group: build
   title: ''
@@ -205,7 +226,7 @@ plans:
 - name: Finout Plans Pricing
   plan_count: 3
   slug: finout-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Finout Rate Limits
@@ -239,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/screenshots/finout-2026-06-20T181223.png
 security:

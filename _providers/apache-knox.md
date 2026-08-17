@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,20 @@ apis:
 - description: Gateway topology management
   name: Apache Knox Topologies API
   slug: apache-knox-topologies-api
-artifact_total: 49
+artifact_total: 53
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Knox Admin REST Descriptors API
+  slug: open-apache-knox-descriptors-api
+- collection_type: open
+  name: Apache Knox Admin REST Descriptors Providers API
+  slug: open-apache-knox-providers-api
+- collection_type: open
+  name: Apache Knox Admin REST Descriptors Topologies API
+  slug: open-apache-knox-topologies-api
 common:
 - group: auth
   title: ''
@@ -227,7 +240,7 @@ plans:
 - name: Apache Knox Plans Pricing
   plan_count: 3
   slug: apache-knox-plans-pricing
-random_paper: 23
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Apache Knox Rate Limits
@@ -269,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/screenshots/apache-knox-2026-06-20T172116.png
 security:

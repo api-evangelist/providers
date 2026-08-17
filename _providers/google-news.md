@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: Retrieve news by topic
   name: Google News RSS Topics API
   slug: google-news-topics-api
-artifact_total: 14
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google News RSS Headlines API
+  slug: open-google-news-headlines-api
+- collection_type: open
+  name: Google News RSS Headlines Search API
+  slug: open-google-news-search-api
+- collection_type: open
+  name: Google News RSS Headlines Topics API
+  slug: open-google-news-topics-api
 - collection_type: open
   name: Google News RSS API
   slug: open-openapi
@@ -129,7 +141,7 @@ plans:
 - name: Google News Plans Pricing
   plan_count: 3
   slug: google-news-plans-pricing
-random_paper: 47
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Google News Rate Limits
@@ -171,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/screenshots/google-news-2026-06-20T182219.png
 security:

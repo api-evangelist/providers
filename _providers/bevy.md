@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,7 +107,7 @@ overview: 'Bevy is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bevy''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 78
+random_paper: 140
 score:
   band: emerging
   composite: 23.6
@@ -121,7 +121,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bevy/refs/heads/main/screenshots/bevy-2026-07-25T202830.png
 security:

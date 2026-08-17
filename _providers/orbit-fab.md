@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -38,7 +38,7 @@ name: Orbit Fab
 nav: Providers
 network: true
 overview: Orbit Fab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 46
+random_paper: 141
 score:
   band: minimal
   composite: 2.8
@@ -52,7 +52,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbit-fab/refs/heads/main/screenshots/orbit-fab-2026-08-07T190841.png
 security:

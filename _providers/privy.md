@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,8 +54,17 @@ apis:
 - description: Create and operate Privy-managed wallets.
   name: Privy Wallets API
   slug: privy-wallets-api
-artifact_total: 13
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Privy REST Users API
+  slug: open-privy-users-api
+- collection_type: open
+  name: Privy REST Users Wallets API
+  slug: open-privy-wallets-api
 - collection_type: open
   name: Privy REST API
   slug: open-privy
@@ -128,7 +137,7 @@ plans:
 - name: Privy Plans Pricing
   plan_count: 3
   slug: privy-plans-pricing
-random_paper: 90
+random_paper: 123
 rate_limits:
 - limit_count: 1
   name: Privy Rate Limits
@@ -159,7 +168,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/privy/refs/heads/main/screenshots/privy-2026-06-20T192122.png
 security:

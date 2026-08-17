@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ apis:
 - description: Query aggregated threat intelligence including threat names, severity rankings, SHA256 hashes, and MITRE ATT&CK mappings.
   name: Trellix Threats API
   slug: trellix-threats-api
-artifact_total: 72
+artifact_total: 86
 collections:
 - collection_type: postman
   name: Trellix EDR Action History API
@@ -162,11 +162,53 @@ collections:
   name: Trellix EDR Action History Threats API
   slug: postman-trellix-threats-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trellix EDR Action History API
+  slug: open-trellix-action-history-api
+- collection_type: open
+  name: Trellix EDR Action History Affected Hosts API
+  slug: open-trellix-affected-hosts-api
+- collection_type: open
+  name: Trellix EDR Action History Alerts API
+  slug: open-trellix-alerts-api
+- collection_type: open
+  name: Trellix EDR Action History Detections API
+  slug: open-trellix-detections-api
+- collection_type: open
+  name: Trellix EDR Action History Devices API
+  slug: open-trellix-devices-api
+- collection_type: open
   name: Trellix EDR API
   slug: open-trellix-edr
 - collection_type: open
+  name: Trellix EDR Action History Epo API
+  slug: open-trellix-epo-api
+- collection_type: open
   name: Trellix ePO SaaS API
   slug: open-trellix-epo-saas
+- collection_type: open
+  name: Trellix EDR Action History Events API
+  slug: open-trellix-events-api
+- collection_type: open
+  name: Trellix EDR Action History Groups API
+  slug: open-trellix-groups-api
+- collection_type: open
+  name: Trellix EDR Action History Queries API
+  slug: open-trellix-queries-api
+- collection_type: open
+  name: Trellix EDR Action History Reactions API
+  slug: open-trellix-reactions-api
+- collection_type: open
+  name: Trellix EDR Action History Response Actions API
+  slug: open-trellix-response-actions-api
+- collection_type: open
+  name: Trellix EDR Action History Searches API
+  slug: open-trellix-searches-api
+- collection_type: open
+  name: Trellix EDR Action History Threats API
+  slug: open-trellix-threats-api
 common:
 - group: build
   title: ''
@@ -398,7 +440,7 @@ plans:
 - name: Trellix Plans Pricing
   plan_count: 1
   slug: trellix-plans-pricing
-random_paper: 52
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Trellix Rate Limits
@@ -440,7 +482,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/screenshots/trellix-2026-06-20T195650.png
 security:

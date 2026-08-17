@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Customer-facing REST API for the Medigate (now Claroty xDome for Healthcare) device-security platform. Documents two versions — V1 (HTTP basic auth) and V2 (API token) — used to pull the Device List, '
@@ -88,7 +88,7 @@ overview: 'Medigate publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Medigate''s developer surface includes API reference, authentication, and 8 more developer resources.'
-random_paper: 112
+random_paper: 87
 score:
   band: emerging
   composite: 19.5
@@ -108,7 +108,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medigate/refs/heads/main/screenshots/medigate-2026-08-07T172351.png
 security:

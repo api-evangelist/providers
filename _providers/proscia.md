@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Concentriq REST API exposes whole-slide images, annotations, regions of interest, users, and clinical/case data on Proscia's open, API-first digital pathology platform. Authentication is via a Con
@@ -127,7 +127,7 @@ overview: 'Proscia publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Proscia''s developer surface includes documentation, engineering blog, signup flow, support, changelog, authentication, and 12 more developer resources.'
-random_paper: 33
+random_paper: 8
 score:
   band: emerging
   composite: 26.3
@@ -150,7 +150,7 @@ score:
     regime_id: health
     score: 27.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

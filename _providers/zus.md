@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 62.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 15
   slug: zus-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 5
+api_count: 7
 apis:
 - description: OAuth2 token issuance and exchange.
   name: Zus Health Auth API
@@ -54,8 +54,36 @@ apis:
 - description: Jobs that retrieve external data into the Zus Aggregated Profile.
   name: Zus Health Patient History API
   slug: zus-patient-history-api
-artifact_total: 12
+- description: Zus FHIR R4 REST API plus Auth Service and Patient History APIs. Implements FHIR R4 (v4.0.1) across 128 resource types with instance-level CRUD, transaction Bundles, conditional create/update/delete b
+  name: Zus FHIR & Platform API
+  slug: zus-fhir-platform-api
+- description: The Zus FHIR Query Service (FQS) is a read-only GraphQL API over the FHIR data model, exposed at a single endpoint. Supports UPID-scoped (one-human) and builder-scoped queries across resource types in
+  name: Zus FHIR GraphQL API (FQS)
+  slug: zus-fhir-graphql-api-fqs
+artifact_total: 22
+asyncapis:
+- description: ''
+  name: Zus Zushooks
+  slug: zus-zushooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zus Health Auth API
+  slug: open-zus-auth-api
+- collection_type: open
+  name: Zus Health Auth Documents API
+  slug: open-zus-documents-api
+- collection_type: open
+  name: Zus Health Auth FHIR API
+  slug: open-zus-fhir-api
+- collection_type: open
+  name: Zus Health Auth Patient API
+  slug: open-zus-patient-api
+- collection_type: open
+  name: Zus Health Auth Patient History API
+  slug: open-zus-patient-history-api
 - collection_type: open
   name: Zus Health API
   slug: open-zus
@@ -100,6 +128,186 @@ common:
   title: ''
   type: Blog
   url: https://zushealth.com/feed/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.zushealth.com/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.zushealth.com/docs/intro-to-zus
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.zushealth.com/reference/general
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.zushealth.com/docs/getting-started-with-the-zap
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.zushealth.com/contact-support
+- group: company
+  title: ''
+  type: Blog
+  url: https://zushealth.com/team/blog/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/zushealth
+- group: start
+  title: ''
+  type: SignUp
+  url: https://docs.zushealth.com/page/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://app.zushealth.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://zushealth.com/website-terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://zushealth.com/website-privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.zusapi.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/zus-health/workspace/zus-health-workspace
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://zushealth.com/platform/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/zus-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/zus-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/zus-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/zus-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/zus-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/zus-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/zus-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/zus-zushooks.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/zus-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/zus-problem-types.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/zus-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zus-mcp.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/zus-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/zus-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/zus-components.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/zus-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/zus-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/zus-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/zus-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/zus-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/zus-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/zus-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/zus-zushooks.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/zus-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/zus-problem-types.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/zus-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zus-mcp.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/zus-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/zus-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/zus-components.yml
 created: '2026-06-21'
 description: Zus Health is a shared health-data platform that aggregates a patient's clinical history from external networks into the Zus Aggregated Profile (ZAP). It exposes a FHIR R4 (v4.0.1) REST API secured with OAuth2 Bearer tokens, Patient History APIs, document ingestion and retrieval, Zushooks webhooks, a GraphQL FHIR Query Service, and embeddable open-source React components.
 finops:
@@ -108,6 +316,10 @@ finops:
   slug: zus-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zus.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: zus-mcp.yml
+  slug: zus-mcpyml
 modified: '2026-06-21'
 name: Zus Health
 nav: Providers
@@ -115,27 +327,30 @@ network: true
 overview: 'Zus Health publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Documents API, FHIR API, and 2 more. Tagged areas include Health, FHIR, Interoperability, Patient Data, and Healthcare.
 
 
-  Zus Health''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  The Zus Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Zus Health''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, signup flow, and 48 more developer resources.'
 plans:
 - name: Zus Plans Pricing
   plan_count: 2
   slug: zus-plans-pricing
-random_paper: 114
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Zus Rate Limits
   slug: zus-rate-limits
 score:
-  band: thin
-  composite: 32.6
-  delta: 0.0
+  band: strong
+  composite: 62.4
+  delta: 29.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 56.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 31.6
+    commercial_clarity: 71.1
+    contract_quality: 65.4
+    developer_ergonomics: 78.3
+    discoverability: 81.5
+    governance: 12.5
+    operational_transparency: 84.2
   previous_composite: 32.6
   provenance:
     agentic_access: derived
@@ -149,10 +364,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 15.0
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Zus Authentication

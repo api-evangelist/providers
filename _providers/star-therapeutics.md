@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
@@ -48,7 +48,38 @@ apis:
 - description: Categories and tags. Five categories are registered; the post_tag taxonomy is registered but empty.
   name: Star Therapeutics Taxonomy API
   slug: star-therapeutics-taxonomy-api
-artifact_total: 11
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Star Therapeutics Content Comments API
+  slug: open-star-therapeutics-comments-api
+- collection_type: open
+  name: Star Therapeutics Content Custom Types API
+  slug: open-star-therapeutics-custom-types-api
+- collection_type: open
+  name: Star Therapeutics Content Discovery API
+  slug: open-star-therapeutics-discovery-api
+- collection_type: open
+  name: Star Therapeutics Content Media API
+  slug: open-star-therapeutics-media-api
+- collection_type: open
+  name: Star Therapeutics Content Oembed API
+  slug: open-star-therapeutics-oembed-api
+- collection_type: open
+  name: Star Therapeutics Content Pages API
+  slug: open-star-therapeutics-pages-api
+- collection_type: open
+  name: Star Therapeutics Content Posts API
+  slug: open-star-therapeutics-posts-api
+- collection_type: open
+  name: Star Therapeutics Content Search API
+  slug: open-star-therapeutics-search-api
+- collection_type: open
+  name: Star Therapeutics Content Taxonomy API
+  slug: open-star-therapeutics-taxonomy-api
 common:
 - group: other
   title: ''
@@ -163,7 +194,7 @@ overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/)
 
 
   Star Therapeutics'' developer surface includes product news, authentication, and 23 more developer resources.'
-random_paper: 104
+random_paper: 145
 score:
   band: thin
   composite: 30.9
@@ -191,7 +222,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -79,7 +79,7 @@ overview: 'Frontier Medicines is profiled on the [APIs.io](https://apis.io/) net
 
 
   Frontier Medicines'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 63
+random_paper: 75
 score:
   band: minimal
   composite: 10.4
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontier-medicines/refs/heads/main/screenshots/frontier-medicines-2026-07-25T215229.png
 slug: frontier-medicines

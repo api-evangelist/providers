@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -95,8 +95,11 @@ apis:
 - description: The Timeseries API from US Census Bureau — 7 operation(s) for timeseries.
   name: US Census Bureau Timeseries API
   slug: us-census-bureau-timeseries-api
-artifact_total: 64
+artifact_total: 84
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Business Dynamics Statistics API
   slug: open-census-bds-api
@@ -118,6 +121,63 @@ collections:
 - collection_type: open
   name: TIGERweb REST Services
   slug: open-census-tigerweb-rest
+- collection_type: open
+  name: Business Dynamics Statistics 2010 API
+  slug: open-us-census-bureau-2010-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 2020 API
+  slug: open-us-census-bureau-2020-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 ACS API
+  slug: open-us-census-bureau-acs-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 ACS PUMS API
+  slug: open-us-census-bureau-acs-pums-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Batch API
+  slug: open-us-census-bureau-batch-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Catalog API
+  slug: open-us-census-bureau-catalog-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 CPS API
+  slug: open-us-census-bureau-cps-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Current API
+  slug: open-us-census-bureau-current-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Decennial API
+  slug: open-us-census-bureau-decennial-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Discovery API
+  slug: open-us-census-bureau-discovery-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Economic API
+  slug: open-us-census-bureau-economic-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Geographies API
+  slug: open-us-census-bureau-geographies-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Locations API
+  slug: open-us-census-bureau-locations-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Metadata API
+  slug: open-us-census-bureau-metadata-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 PEP API
+  slug: open-us-census-bureau-pep-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Popclock API
+  slug: open-us-census-bureau-popclock-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Pulse API
+  slug: open-us-census-bureau-pulse-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 SIPP API
+  slug: open-us-census-bureau-sipp-api
+- collection_type: open
+  name: Business Dynamics Statistics 2010 Timeseries API
+  slug: open-us-census-bureau-timeseries-api
 common:
 - group: agent
   title: ''
@@ -312,7 +372,7 @@ overview: 'US Census Bureau publishes 19 APIs on the [APIs.io](https://apis.io/)
 
 
   US Census Bureau''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, changelog, tooling, and 24 more developer resources.'
-random_paper: 63
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Us Census Bureau Rate Limits
@@ -360,7 +420,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/screenshots/us-census-bureau-2026-06-20T200557.png
 security:

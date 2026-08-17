@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Kittl SDK is the bridge between a sandboxed app and the Kittl editor host. It exposes async namespaces — kittl.design for design operations, kittl.state for editor and app state, kittl.upload for '
@@ -180,7 +180,7 @@ overview: 'Kittl publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kittl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 72
+random_paper: 105
 scopes:
 - name: Kittl Scopes
   scope_count: 12
@@ -202,7 +202,7 @@ score:
     conformance: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kittl/refs/heads/main/screenshots/kittl-2026-07-25T223913.png
 security:

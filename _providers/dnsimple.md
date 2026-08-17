@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Zones API from DNSimple — 4 operation(s) for zones.
   name: DNSimple Zones API
   slug: dnsimple-zones-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DNSimple Accounts API
+  slug: open-dnsimple-accounts-api
+- collection_type: open
+  name: DNSimple Accounts Certificates API
+  slug: open-dnsimple-certificates-api
+- collection_type: open
+  name: DNSimple Accounts Contacts API
+  slug: open-dnsimple-contacts-api
+- collection_type: open
+  name: DNSimple Accounts Domains API
+  slug: open-dnsimple-domains-api
+- collection_type: open
+  name: DNSimple Accounts Webhooks API
+  slug: open-dnsimple-webhooks-api
+- collection_type: open
+  name: DNSimple Accounts Whoami API
+  slug: open-dnsimple-whoami-api
+- collection_type: open
+  name: DNSimple Accounts Zones API
+  slug: open-dnsimple-zones-api
 - collection_type: open
   name: DNSimple API
   slug: open-dnsimple
@@ -114,7 +138,7 @@ plans:
 - name: Dnsimple Plans Pricing
   plan_count: 3
   slug: dnsimple-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Dnsimple Rate Limits
@@ -139,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/screenshots/dnsimple-2026-06-20T180100.png
 security:

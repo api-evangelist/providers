@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 242
   human_in_the_loop: 8
@@ -38,11 +38,21 @@ apis:
 - description: The Number Management API provisions and manages phone number inventory for Zoom Phone, Zoom Contact Center, and Zoom Meetings accounts. The harvested OpenAPI 3.0 document describes 17 paths and 28 op
   name: Zoom Phone Number Management API
   slug: zoom-phone-number-management-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Zoom Phone Webhooks
   slug: zoom-phone-webhooks
+collections:
+- collection_type: open
+  name: Phone
+  slug: open-zoom-phone-api
+- collection_type: open
+  name: Number Management
+  slug: open-zoom-phone-number-management
+- collection_type: open
+  name: Phone
+  slug: open-zoom-phone-webhooks
 common:
 - group: agent
   title: ''
@@ -280,7 +290,7 @@ overview: 'Zoom Phone publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zoom Phone''s developer surface includes authentication, documentation, pricing, SDKs, engineering blog, API reference, getting-started guide, and 47 more developer resources.'
-random_paper: 76
+random_paper: 142
 rate_limits:
 - limit_count: 8
   name: Zoom Phone Rate Limits
@@ -314,7 +324,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

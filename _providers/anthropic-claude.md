@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,12 +51,27 @@ apis:
 - description: Count tokens for a prospective Messages request.
   name: Anthropic Claude Token Counting API
   slug: anthropic-claude-token-counting-api
-artifact_total: 12
+artifact_total: 17
 asyncapis:
 - description: 'AsyncAPI specification modeling the Server-Sent Events (SSE) stream produced by Anthropic''s Claude Messages API when `"stream": true` is set on a POST to `/v1/messages`. Transport: HTTP/1.1 with `Cont'
   name: Anthropic Claude Messages Streaming API
   slug: anthropic-claude-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anthropic Claude Messages Message Batches API
+  slug: open-anthropic-claude-message-batches-api
+- collection_type: open
+  name: Anthropic Claude Message Batches Messages API
+  slug: open-anthropic-claude-messages-api
+- collection_type: open
+  name: Anthropic Claude Messages Message Batches Models API
+  slug: open-anthropic-claude-models-api
+- collection_type: open
+  name: Anthropic Claude Messages Message Batches Token Counting API
+  slug: open-anthropic-claude-token-counting-api
 - collection_type: open
   name: Anthropic Claude Messages API
   slug: open-anthropic-claude
@@ -200,7 +215,7 @@ overview: 'Anthropic Claude publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Anthropic Claude''s developer surface includes authentication, documentation, API reference, developer console, signup flow, pricing, support, and 23 more developer resources.'
-random_paper: 75
+random_paper: 145
 rules:
 - name: Anthropic Claude API Rules
   rule_count: 6
@@ -230,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/screenshots/anthropic-claude-2026-06-20T172031.png
 security:

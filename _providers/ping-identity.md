@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -87,7 +87,59 @@ apis:
 - description: Operations for retrieving PingOne directory total identity reports
   name: Ping Identity Total Identities API
   slug: ping-identity-total-identities-api
-artifact_total: 25
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PingOne Platform Configuration Management API
+  slug: open-ping-identity-configuration-management-api
+- collection_type: open
+  name: PingOne Platform Configuration Management DaVinci Admin APIs API
+  slug: open-ping-identity-davinci-admin-apis-api
+- collection_type: open
+  name: PingOne Platform Configuration Management DaVinci Admin Application Flow Policies API
+  slug: open-ping-identity-davinci-admin-application-flow-policies-api
+- collection_type: open
+  name: PingOne Platform Configuration Management DaVinci Admin Applications API
+  slug: open-ping-identity-davinci-admin-applications-api
+- collection_type: open
+  name: PingOne Platform Configuration Management DaVinci Admin Connector Instances API
+  slug: open-ping-identity-davinci-admin-connector-instances-api
+- collection_type: open
+  name: PingOne Platform Configuration Management DaVinci Admin Connectors API
+  slug: open-ping-identity-davinci-admin-connectors-api
+- collection_type: open
+  name: PingOne Platform Configuration Management DaVinci Admin Flow Versions API
+  slug: open-ping-identity-davinci-admin-flow-versions-api
+- collection_type: open
+  name: PingOne Platform Configuration Management DaVinci Admin Flows API
+  slug: open-ping-identity-davinci-admin-flows-api
+- collection_type: open
+  name: PingOne Platform Configuration Management DaVinci Admin Variables API
+  slug: open-ping-identity-davinci-admin-variables-api
+- collection_type: open
+  name: PingOne Platform Configuration Management Environment Management API
+  slug: open-ping-identity-environment-management-api
+- collection_type: open
+  name: PingOne Platform Configuration Management Environments API
+  slug: open-ping-identity-environments-api
+- collection_type: open
+  name: PingOne Platform Configuration Management Flow Policies API
+  slug: open-ping-identity-flow-policies-api
+- collection_type: open
+  name: PingOne Platform Configuration Management Metrics API
+  slug: open-ping-identity-metrics-api
+- collection_type: open
+  name: PingOne Platform Configuration Management PingOne DaVinci API
+  slug: open-ping-identity-pingone-davinci-api
+- collection_type: open
+  name: PingOne Platform Configuration Management Snapshots API
+  slug: open-ping-identity-snapshots-api
+- collection_type: open
+  name: PingOne Platform Configuration Management Total Identities API
+  slug: open-ping-identity-total-identities-api
 common:
 - group: commercial
   title: ''
@@ -177,7 +229,7 @@ plans:
 - name: Ping Identity Plans Pricing
   plan_count: 3
   slug: ping-identity-plans-pricing
-random_paper: 29
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Ping Identity Rate Limits
@@ -207,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/screenshots/ping-identity-2026-06-20T191712.png
 security:

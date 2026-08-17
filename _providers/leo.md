@@ -1,35 +1,48 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Customer-gated
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
-  trial: false
+  source:
+  - https://www.meetleo.com/pricing
+  - https://www.meetleo.com/mcp
+  - openapi/leo-account-api-openapi.yml
+  trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 36.5
+  scored_at: '2026-08-17'
+api_count: 3
+apis:
+- description: REST API for account entitlements, credit balance, commercial-insurance prospect search across 134 filter properties, single-prospect retrieval, and asynchronous decision-maker contact enrichment with
+  name: LeO Public API
+  slug: leo-public-api
+- description: First-party, hosted, remote MCP server exposing LeO's insurance intelligence -- 25M+ US businesses across 200+ filters, x-dates, Form 5500 financials, benefits red flags, DOT Intelligence, Trucking Tr
+  name: LeO MCP Connector
+  slug: leo-mcp-connector
+- description: Platform-provided Wix Site MCP server fronting LeO's marketing site, advertised in LeO's llms.txt. Nine tools covering business details, site search and generic Wix site tooling. Unauthenticated, publ
+  name: LeO Site MCP (Wix-provided)
+  slug: leo-site-mcp-wix-provided
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -39,6 +52,10 @@ common:
   title: ''
   type: Pricing
   url: https://www.meetleo.com/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/leo-plans-pricing.yml
 - group: start
   title: ''
   type: SignUp
@@ -83,46 +100,113 @@ common:
   title: ''
   type: Conformance
   url: conformance/leo-conformance.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.meetleo.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.meetleo.com/docs
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/leo-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/leo-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/leo-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/leo-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/leo-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/leo-data-model.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/leo-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/leo-lifecycle.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/leo-servers-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
-  url: mcp/leo-mcp.yml
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/leo-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/leo-well-known.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/leo-domain-security.yml
 created: '2026-07-17'
-description: LeO is an AI-powered sales and prospecting platform for commercial insurance professionals, serving property & casualty (P&C) brokers, employee benefits advisors, and nonprofit insurance specialists. The platform pairs a commercial-lines prospect database with more than 150 filters -- NAICS codes, revenue thresholds, workers' compensation, DOT, OSHA compliance history and IRS 990 nonprofit data -- with a renewal-date (X-date) database carrying key contacts and AI-predicted renewal months. LeO generates AI-personalized email outreach, produces pre-meeting intelligence on incumbent carriers, brokers, coverage and risk gaps, and pushes qualified prospects to CRM or CSV export. Founded by CEO Liri Halperin Segal, LeO is a Techstars portfolio company and has been certified HIPAA compliant by an external auditing firm. It is delivered as a subscription web application and publishes no public developer API, SDKs or documentation; its only machine-readable surfaces are an llms.txt and
-  a live Wix-provided site MCP endpoint covering public marketing content.
+description: 'LeO is an AI-powered sales and prospecting platform for commercial insurance professionals, serving property & casualty (P&C) brokers, employee benefits advisors, and nonprofit insurance specialists. The platform pairs a commercial-lines prospect database of 25M+ US businesses and 200+ filters -- NAICS codes, revenue thresholds, workers'' compensation, DOT/FMCSA records, OSHA compliance history, Form 5500 benefits and pension filings, and IRS 990 nonprofit data -- with a renewal-date (X-date) database carrying key contacts and AI-predicted renewal months. LeO generates AI-personalized email outreach, produces pre-meeting intelligence on incumbent carriers, brokers, coverage and risk gaps, and pushes qualified prospects to CRM or CSV export. Founded by CEO Liri Halperin Segal, LeO is a Techstars portfolio company and has been certified HIPAA compliant by an external auditing firm. Alongside the subscription web application it ships two programmatic surfaces: a REST "Leo Public
+  API" at api.meetleo.com with a published OpenAPI 3.0.0 definition covering account, credits, prospect search and asynchronous contact enrichment, and a first-party, OAuth-protected MCP Connector at mcp.meetleo.com marketed for Claude, ChatGPT, Gemini and Copilot. Both are entitlement-gated to existing customers and metered in credits.'
 image: https://static.wixstatic.com/media/38dea4_5b1d1b85783146d8b6cf1c6f354c9be8%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/38dea4_5b1d1b85783146d8b6cf1c6f354c9be8%7Emv2.jpg
 layout: provider
 mcp_servers:
 - description: ''
   name: leo-mcp.yml
   slug: leo-mcpyml
-modified: '2026-07-19'
+- description: ''
+  name: mcp
+  slug: mcp
+- description: ''
+  name: leo-site-mcp.yml
+  slug: leo-site-mcpyml
+modified: '2026-08-14'
 name: LeO
 nav: Providers
 network: true
-overview: 'LeO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Commercial Insurance, Property and Casualty, and Employee Benefits.
+overview: 'LeO publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Insurance, Commercial Insurance, Property and Casualty, and Employee Benefits.
 
 
-  LeO''s developer surface includes pricing, signup flow, support, FAQ, engineering blog, and 11 more developer resources.'
-random_paper: 80
+  LeO''s developer surface includes pricing, signup flow, support, FAQ, engineering blog, documentation, API reference, and 22 more developer resources.'
+plans:
+- name: Leo Plans Pricing
+  plan_count: 4
+  slug: leo-plans-pricing
+random_paper: 22
+rate_limits:
+- limit_count: 0
+  name: Leo Rate Limits
+  slug: leo-rate-limits
+scopes:
+- name: Leo Scopes
+  scope_count: 0
+  slug: leo-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 23.1
-  delta: 0.0
+  band: developing
+  composite: 52.3
+  delta: 29.2
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 57.4
-    governance: 12.5
+    commercial_clarity: 84.2
+    contract_quality: 54.5
+    developer_ergonomics: 39.1
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 23.1
   provenance:
@@ -133,12 +217,16 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 36.4
+    score: 71.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/screenshots/leo-2026-07-25T224918.png
 security:
+- kind: authentication
+  name: Leo Authentication
+  slug: leo-authentication
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Leo Domain Security
   slug: leo-domain-security
@@ -155,5 +243,11 @@ tags:
 - Sales
 - Lead Generation
 - Prospecting
+- Data Enrichment
+- Sales Intelligence
+- Nonprofits
+- Trucking
+- MCP
+- Agent Native
 website: https://www.meetleo.com/
 ---

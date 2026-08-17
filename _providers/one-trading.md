@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Real-time WebSocket API for market data (order book, price ticks, book ticker) and, after authenticating, private trading events (order lifecycle, trades, settlement, funding payments, balance adjustm
@@ -46,11 +46,27 @@ apis:
 - description: Account order and trade endpoints (Bearer token, TRADE/READ scope)
   name: One Trading Trading API
   slug: one-trading-trading-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: Real-time WebSocket (WSS) API for the One Trading exchange. Clients receive market data feeds (order book, price ticks, book ticker) and, after authenticating, private trading event streams (order lif
   name: One Trading WebSocket Streams API
   slug: one-trading-streams-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: One Trading Fast Funding API
+  slug: open-one-trading-funding-api
+- collection_type: open
+  name: One Trading Fast Funding Futures API
+  slug: open-one-trading-futures-api
+- collection_type: open
+  name: One Trading Fast Funding Public API
+  slug: open-one-trading-public-api
+- collection_type: open
+  name: One Fast Funding Trading API
+  slug: open-one-trading-trading-api
 common:
 - group: other
   title: ''
@@ -175,7 +191,7 @@ overview: 'One Trading publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   One Trading''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
-random_paper: 32
+random_paper: 69
 score:
   band: thin
   composite: 37.0
@@ -204,7 +220,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/screenshots/one-trading-2026-08-07T190256.png
 security:

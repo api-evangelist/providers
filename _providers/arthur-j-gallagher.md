@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: Retrieve security events and audit logs.
   name: Arthur J. Gallagher Events API
   slug: arthur-j-gallagher-events-api
-artifact_total: 21
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gallagher Command Centre REST Access Groups API
+  slug: open-arthur-j-gallagher-access-groups-api
+- collection_type: open
+  name: Gallagher Command Centre REST Access Groups Alarms API
+  slug: open-arthur-j-gallagher-alarms-api
+- collection_type: open
+  name: Gallagher Command Centre REST Access Groups Cardholders API
+  slug: open-arthur-j-gallagher-cardholders-api
+- collection_type: open
+  name: Gallagher Command Centre REST Access Groups Events API
+  slug: open-arthur-j-gallagher-events-api
 - collection_type: open
   name: Gallagher Command Centre REST API
   slug: open-gallagher-command-centre-api
@@ -133,7 +148,7 @@ press:
 - date: ''
   title: Two-thirds of organizations invest in AI training as adoption ...
   url: https://www.prnewswire.com/news-releases/two-thirds-of-organizations-invest-in-ai-training-as-adoption-accelerates
-random_paper: 113
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Arthur J Gallagher Rate Limits
@@ -164,7 +179,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/screenshots/arthur-j-gallagher-2026-06-20T172441.png
 security:

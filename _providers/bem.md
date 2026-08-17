@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -104,11 +104,75 @@ apis:
 - description: Workflows orchestrate one or more functions into a directed acyclic graph (DAG) for document processing. Use these endpoints to create, update, list, and manage workflows, and to invoke them with file
   name: Bem Workflows API
   slug: bem-workflows-api
-artifact_total: 28
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Bem Webhooks
   slug: bem-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bem Buckets API
+  slug: open-bem-buckets-api
+- collection_type: open
+  name: Bem Buckets Calls API
+  slug: open-bem-calls-api
+- collection_type: open
+  name: Bem Buckets Collections API
+  slug: open-bem-collections-api
+- collection_type: open
+  name: Bem Buckets Connectors API
+  slug: open-bem-connectors-api
+- collection_type: open
+  name: Bem Buckets Entity Bulk Seed API
+  slug: open-bem-entity-bulk-seed-api
+- collection_type: open
+  name: Bem Buckets Entity Curation API
+  slug: open-bem-entity-curation-api
+- collection_type: open
+  name: Bem Buckets Entity Synonyms API
+  slug: open-bem-entity-synonyms-api
+- collection_type: open
+  name: Bem Buckets Entity Types API
+  slug: open-bem-entity-types-api
+- collection_type: open
+  name: Bem Buckets Errors API
+  slug: open-bem-errors-api
+- collection_type: open
+  name: Bem Buckets Feedback API
+  slug: open-bem-feedback-api
+- collection_type: open
+  name: Bem Buckets File System API
+  slug: open-bem-file-system-api
+- collection_type: open
+  name: Bem Buckets Function Accuracy API
+  slug: open-bem-function-accuracy-api
+- collection_type: open
+  name: Bem Buckets Functions API
+  slug: open-bem-functions-api
+- collection_type: open
+  name: Bem Buckets Knowledge Graph API
+  slug: open-bem-knowledge-graph-api
+- collection_type: open
+  name: Bem Buckets Outputs API
+  slug: open-bem-outputs-api
+- collection_type: open
+  name: Bem Buckets Schema Inference API
+  slug: open-bem-schema-inference-api
+- collection_type: open
+  name: Bem Buckets Subscriptions API
+  slug: open-bem-subscriptions-api
+- collection_type: open
+  name: Bem Buckets Views API
+  slug: open-bem-views-api
+- collection_type: open
+  name: Bem Buckets Webhooks API
+  slug: open-bem-webhooks-api
+- collection_type: open
+  name: Bem Buckets Workflows API
+  slug: open-bem-workflows-api
 common:
 - group: other
   title: ''
@@ -257,7 +321,7 @@ overview: 'Bem publishes 22 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Bem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
-random_paper: 68
+random_paper: 10
 score:
   band: strong
   composite: 57.9
@@ -281,7 +345,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/screenshots/bem-2026-07-25T202722.png
 security:

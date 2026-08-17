@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Create, list, retrieve, and continue investigation sessions.
   name: Traversal Sessions API
   slug: traversal-sessions-api
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Traversal Sessions API
+  slug: open-traversal-sessions-api
 common:
 - group: company
   title: ''
@@ -156,7 +163,7 @@ overview: 'Traversal publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Traversal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
-random_paper: 20
+random_paper: 86
 score:
   band: developing
   composite: 46.3
@@ -179,7 +186,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -61,11 +61,45 @@ apis:
 - description: Delivers asynchronous payment-status push notifications back to a registered client endpoint, letting integrations react to live updates on submitted payments. Secured with a client API key.
   name: BMO Push Notification API
   slug: bmo-push-notification-api
-artifact_total: 16
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Bmo Push Notification Webhooks
   slug: bmo-push-notification-webhooks
+collections:
+- collection_type: open
+  name: Account Information
+  slug: open-bmo-account-information
+- collection_type: open
+  name: Account Validation (US Only)
+  slug: open-bmo-account-validation
+- collection_type: open
+  name: ACH Payments
+  slug: open-bmo-ach-payments
+- collection_type: open
+  name: Authorize & Token
+  slug: open-bmo-authorize-token-swagger
+- collection_type: open
+  name: Client Data Encryption Key Get Open Banking
+  slug: open-bmo-client-data-encryption-key-swagger
+- collection_type: open
+  name: Electronic Funds Transfer (EFT)
+  slug: open-bmo-eft-payments
+- collection_type: open
+  name: Image Retrieval
+  slug: open-bmo-image-retrieval-swagger
+- collection_type: open
+  name: Instant Payments
+  slug: open-bmo-interac-instant-payments
+- collection_type: open
+  name: Push Notifications
+  slug: open-bmo-push-notification
+- collection_type: open
+  name: Wire Payments (Canada)
+  slug: open-bmo-wire-payments-ca
+- collection_type: open
+  name: Wire Payments (U.S.)
+  slug: open-bmo-wire-payments-us
 common:
 - group: auth
   title: ''
@@ -174,7 +208,7 @@ overview: 'BMO publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   BMO''s developer surface includes authentication, sandbox, documentation, API reference, signup flow, support, engineering blog, and 16 more developer resources.'
-random_paper: 78
+random_paper: 20
 scopes:
 - name: Bmo Scopes
   scope_count: 15
@@ -208,7 +242,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png
 security:

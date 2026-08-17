@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -93,14 +93,59 @@ apis:
 - description: The Workspaces API from Talend — 2 operation(s) for workspaces.
   name: Talend Workspaces API
   slug: talend-workspaces-api
-artifact_total: 53
+artifact_total: 68
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts API
+  slug: open-talend-artifacts-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Connections API
+  slug: open-talend-connections-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Environments API
+  slug: open-talend-environments-api
 - collection_type: open
   name: Talend Cloud Orchestration API
   slug: open-talend-orchestration
 - collection_type: open
+  name: Talend Cloud Orchestration Artifacts Plan Executions API
+  slug: open-talend-plan-executions-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Plans API
+  slug: open-talend-plans-api
+- collection_type: open
   name: Talend Cloud Processing API
   slug: open-talend-processing
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Promotion Executions API
+  slug: open-talend-promotion-executions-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Promotions API
+  slug: open-talend-promotions-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Remote Engine Clusters API
+  slug: open-talend-remote-engine-clusters-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Remote Engines API
+  slug: open-talend-remote-engines-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Run Profiles API
+  slug: open-talend-run-profiles-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Schedules API
+  slug: open-talend-schedules-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Task Executions API
+  slug: open-talend-task-executions-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Tasks API
+  slug: open-talend-tasks-api
+- collection_type: open
+  name: Talend Cloud Orchestration Artifacts Workspaces API
+  slug: open-talend-workspaces-api
 common:
 - group: agent
   title: ''
@@ -261,7 +306,7 @@ plans:
 - name: Talend Plans Pricing
   plan_count: 1
   slug: talend-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Talend Rate Limits
@@ -303,7 +348,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/screenshots/talend-2026-06-20T194901.png
 security:

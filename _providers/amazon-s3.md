@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -152,7 +152,7 @@ arazzos:
 - description: Write a bucket tag set then read it back to confirm it was stored.
   name: Amazon S3 Set and Verify Bucket Tags
   slug: amazon-s3-set-bucket-tagging-workflow
-artifact_total: 238
+artifact_total: 255
 collections:
 - collection_type: postman
   name: Amazon S3 Control API
@@ -164,14 +164,65 @@ collections:
   name: Amazon S3 Tables API
   slug: postman-amazon-s3-tables-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon S3 Control Access Control API
+  slug: open-amazon-s3-access-control-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Access Grants API
+  slug: open-amazon-s3-access-grants-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Access Points API
+  slug: open-amazon-s3-access-points-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Batch Operations API
+  slug: open-amazon-s3-batch-operations-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Bucket Configuration API
+  slug: open-amazon-s3-bucket-configuration-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Buckets API
+  slug: open-amazon-s3-buckets-api
+- collection_type: open
   name: Amazon S3 Control API
   slug: open-amazon-s3-control-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Multi-Region Access Points API
+  slug: open-amazon-s3-multi-region-access-points-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Multipart Upload API
+  slug: open-amazon-s3-multipart-upload-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Namespaces API
+  slug: open-amazon-s3-namespaces-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Objects API
+  slug: open-amazon-s3-objects-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Public Access Block API
+  slug: open-amazon-s3-public-access-block-api
 - collection_type: open
   name: Amazon S3 REST API
   slug: open-amazon-s3-rest-api
 - collection_type: open
-  name: Amazon S3 Tables API
+  name: Amazon S3 Control Access Control Storage Lens API
+  slug: open-amazon-s3-storage-lens-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Table Buckets API
+  slug: open-amazon-s3-table-buckets-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Table Maintenance API
+  slug: open-amazon-s3-table-maintenance-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Table Policy API
+  slug: open-amazon-s3-table-policy-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Tables API
   slug: open-amazon-s3-tables-api
+- collection_type: open
+  name: Amazon S3 Control Access Control Tagging API
+  slug: open-amazon-s3-tagging-api
 common:
 - group: agent
   title: ''
@@ -947,7 +998,7 @@ plans:
 - name: Amazon S3 Plans Pricing
   plan_count: 4
   slug: amazon-s3-plans-pricing
-random_paper: 17
+random_paper: 112
 rate_limits:
 - limit_count: 4
   name: Amazon S3 Rate Limits
@@ -991,7 +1042,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:

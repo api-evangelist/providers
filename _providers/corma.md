@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Corma is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Corma''s developer surface includes documentation, pricing, engineering blog, signup flow, getting-started guide, support, changelog, and 7 more developer resources.'
-random_paper: 50
+random_paper: 83
 score:
   band: emerging
   composite: 21.2
@@ -113,7 +113,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corma/refs/heads/main/screenshots/corma-2026-06-20T175030.png
 security:

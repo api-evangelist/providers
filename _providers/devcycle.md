@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 60
@@ -121,7 +121,7 @@ arazzos:
 - description: Fetch all variables and features for a user context and report an event.
   name: DevCycle - evaluate feature flags for a user (Bucketing API)
   slug: devcycle-evaluate-flags
-artifact_total: 59
+artifact_total: 85
 asyncapis:
 - description: ''
   name: Devcycle Webhooks
@@ -202,6 +202,84 @@ collections:
 - collection_type: postman
   name: DevCycle Bucketing Audiences Webhooks API
   slug: postman-devcycle-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DevCycle Bucketing Audiences API
+  slug: open-devcycle-audiences-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Audit Log API
+  slug: open-devcycle-audit-log-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences [Beta] Semantic Patch API
+  slug: open-devcycle-beta-semantic-patch-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Bucketing API API
+  slug: open-devcycle-bucketing-api-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Custom Properties API
+  slug: open-devcycle-custom-properties-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences [Deprecated] Features v1 API
+  slug: open-devcycle-deprecated-features-v1-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences EdgeDB API
+  slug: open-devcycle-edgedb-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Environments API
+  slug: open-devcycle-environments-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Feature Change Requests API
+  slug: open-devcycle-feature-change-requests-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Feature Configurations API
+  slug: open-devcycle-feature-configurations-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Feature Opt-in API
+  slug: open-devcycle-feature-opt-in-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Features v2 API
+  slug: open-devcycle-features-v2-api
+- collection_type: open
+  name: 'DevCycle Bucketing Audiences Integrations: Dynatrace API'
+  slug: open-devcycle-integrations-dynatrace-api
+- collection_type: open
+  name: 'DevCycle Bucketing Audiences Integrations: Jira API'
+  slug: open-devcycle-integrations-jira-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Metric Associations API
+  slug: open-devcycle-metric-associations-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Metrics API
+  slug: open-devcycle-metrics-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences OpenFeature Remote Evaluation API (OFREP) API
+  slug: open-devcycle-openfeature-remote-evaluation-api-ofrep-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Overrides API
+  slug: open-devcycle-overrides-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Project Change Requests API
+  slug: open-devcycle-project-change-requests-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Projects API
+  slug: open-devcycle-projects-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Results API
+  slug: open-devcycle-results-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences User Profiles API
+  slug: open-devcycle-user-profiles-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Variables API
+  slug: open-devcycle-variables-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Variations API
+  slug: open-devcycle-variations-api
+- collection_type: open
+  name: DevCycle Bucketing Audiences Webhooks API
+  slug: open-devcycle-webhooks-api
 common:
 - group: other
   title: ''
@@ -382,7 +460,7 @@ overview: 'DevCycle publishes 25 APIs on the [APIs.io](https://apis.io/) network
 
 
   DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 7
+random_paper: 102
 score:
   band: strong
   composite: 64.7
@@ -406,7 +484,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/screenshots/devcycle-2026-07-25T211810.png
 security:

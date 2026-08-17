@@ -10,26 +10,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 61.7
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 9
+  human_in_the_loop: 0
+  name: Athenahealth Agentic Access
+  operation_count: 40
+  slug: athenahealth-agentic-access
+  summary_line: 40 operations · 9 acting
+api_count: 25
 apis:
 - description: The athenaOne proprietary REST API suite provides over 800 endpoints covering patient management, scheduling, clinical data, revenue cycle, and care coordination. Requires OAuth 2.0 authentication and
   name: athenaOne APIs
@@ -40,7 +48,156 @@ apis:
 - description: FHIR API Server for athenaPractice and athenaFlow products, enabling developers to build integrations with athenahealth's on-premise and hybrid deployment products using FHIR R4 standards.
   name: athenaFlex (athenaPractice/athenaFlow) API
   slug: athenaflex-api
-artifact_total: 9
+- description: The AllergyIntolerance API from athenahealth — 1 operation(s) for allergyintolerance.
+  name: athenahealth AllergyIntolerance API
+  slug: athena-health-allergyintolerance-api
+- description: The Appointment API from athenahealth — 1 operation(s) for appointment.
+  name: athenahealth Appointment API
+  slug: athena-health-appointment-api
+- description: The Appointments API from athenahealth — 6 operation(s) for appointments.
+  name: athenahealth Appointments API
+  slug: athena-health-appointments-api
+- description: The Bulk Data API from athenahealth — 2 operation(s) for bulk data.
+  name: athenahealth Bulk Data API
+  slug: athena-health-bulk-data-api
+- description: The CDS Hooks API from athenahealth — 2 operation(s) for cds hooks.
+  name: athenahealth CDS Hooks API
+  slug: athena-health-cds-hooks-api
+- description: The Claims API from athenahealth — 1 operation(s) for claims.
+  name: athenahealth Claims API
+  slug: athena-health-claims-api
+- description: The Condition API from athenahealth — 1 operation(s) for condition.
+  name: athenahealth Condition API
+  slug: athena-health-condition-api
+- description: The Conformance API from athenahealth — 1 operation(s) for conformance.
+  name: athenahealth Conformance API
+  slug: athena-health-conformance-api
+- description: The Departments API from athenahealth — 1 operation(s) for departments.
+  name: athenahealth Departments API
+  slug: athena-health-departments-api
+- description: The DiagnosticReport API from athenahealth — 1 operation(s) for diagnosticreport.
+  name: athenahealth DiagnosticReport API
+  slug: athena-health-diagnosticreport-api
+- description: The DocumentReference API from athenahealth — 1 operation(s) for documentreference.
+  name: athenahealth DocumentReference API
+  slug: athena-health-documentreference-api
+- description: The Documents API from athenahealth — 1 operation(s) for documents.
+  name: athenahealth Documents API
+  slug: athena-health-documents-api
+- description: The Encounter API from athenahealth — 2 operation(s) for encounter.
+  name: athenahealth Encounter API
+  slug: athena-health-encounter-api
+- description: The Encounters API from athenahealth — 2 operation(s) for encounters.
+  name: athenahealth Encounters API
+  slug: athena-health-encounters-api
+- description: The Immunization API from athenahealth — 1 operation(s) for immunization.
+  name: athenahealth Immunization API
+  slug: athena-health-immunization-api
+- description: The MedicationRequest API from athenahealth — 1 operation(s) for medicationrequest.
+  name: athenahealth MedicationRequest API
+  slug: athena-health-medicationrequest-api
+- description: The Observation API from athenahealth — 1 operation(s) for observation.
+  name: athenahealth Observation API
+  slug: athena-health-observation-api
+- description: The Patient API from athenahealth — 2 operation(s) for patient.
+  name: athenahealth Patient API
+  slug: athena-health-patient-api
+- description: The Patients API from athenahealth — 2 operation(s) for patients.
+  name: athenahealth Patients API
+  slug: athena-health-patients-api
+- description: The Practice API from athenahealth — 1 operation(s) for practice.
+  name: athenahealth Practice API
+  slug: athena-health-practice-api
+- description: The Providers API from athenahealth — 1 operation(s) for providers.
+  name: athenahealth Providers API
+  slug: athena-health-providers-api
+- description: The Subscription API from athenahealth — 3 operation(s) for subscription.
+  name: athenahealth Subscription API
+  slug: athena-health-subscription-api
+artifact_total: 72
+asyncapis:
+- description: Event-driven notifications from the athenahealth Event Subscription Platform. Delivered as FHIR Bundle notifications (R5 Backport) over rest-hook channel with id-only payloads. Subscriber webhooks mus
+  name: athenahealth FHIR Subscriptions Events
+  slug: athenahealth-fhir-subscriptions-asyncapi
+collections:
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance API
+  slug: open-athenahealth-allergyintolerance-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Appointment API
+  slug: open-athenahealth-appointment-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Appointments API
+  slug: open-athenahealth-appointments-api
+- collection_type: open
+  name: athenahealth athenaOne REST API
+  slug: open-athenahealth-athenaone-rest-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Bulk Data API
+  slug: open-athenahealth-bulk-data-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance CDS Hooks API
+  slug: open-athenahealth-cds-hooks-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Claims API
+  slug: open-athenahealth-claims-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Condition API
+  slug: open-athenahealth-condition-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Conformance API
+  slug: open-athenahealth-conformance-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Departments API
+  slug: open-athenahealth-departments-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance DiagnosticReport API
+  slug: open-athenahealth-diagnosticreport-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance DocumentReference API
+  slug: open-athenahealth-documentreference-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Documents API
+  slug: open-athenahealth-documents-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Encounter API
+  slug: open-athenahealth-encounter-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Encounters API
+  slug: open-athenahealth-encounters-api
+- collection_type: open
+  name: athenahealth FHIR Bulk Data Access API
+  slug: open-athenahealth-fhir-bulk-data-api
+- collection_type: open
+  name: athenahealth FHIR R4 API
+  slug: open-athenahealth-fhir-r4-api
+- collection_type: open
+  name: athenahealth FHIR Subscriptions API
+  slug: open-athenahealth-fhir-subscriptions-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Immunization API
+  slug: open-athenahealth-immunization-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance MedicationRequest API
+  slug: open-athenahealth-medicationrequest-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Observation API
+  slug: open-athenahealth-observation-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Patient API
+  slug: open-athenahealth-patient-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Patients API
+  slug: open-athenahealth-patients-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Practice API
+  slug: open-athenahealth-practice-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Providers API
+  slug: open-athenahealth-providers-api
+- collection_type: open
+  name: athenahealth athenaOne REST AllergyIntolerance Subscription API
+  slug: open-athenahealth-subscription-api
 common:
 - group: operate
   title: ''
@@ -106,8 +263,266 @@ common:
   title: ''
   type: FinOps
   url: finops/athenahealth-finops.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/athenahealth-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/athenahealth-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/athenahealth-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/athenahealth-scopes.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.athenahealth.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.athenahealth.com/api/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.athenahealth.com/api/guides/overview
+- group: start
+  title: ''
+  type: Portal
+  url: https://mydata.athenahealth.com/access-the-apis
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://docs.athenahealth.com/api/sandbox
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.athenahealth.com/api/guides/athenaone-environments
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.athenahealth.com/api/guides/base-fhir-urls
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.athenahealth.com/api/guides/onboarding-overview
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.athenahealth.com/api/support
+- group: other
+  title: ''
+  type: Marketplace
+  url: https://www.athenahealth.com/solutions/marketplace
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.athenahealth.com/knowledge-hub
+- group: other
+  title: ''
+  type: Source
+  url: https://github.com/athenahealth
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://fhir.athena.io/athenacoreext/index.html
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://mydata.athenahealth.com/fhirapidoc/r4
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/athenahealth-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/athenahealth-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/athenahealth-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/athenahealth-vocabulary.yml
+- group: design
+  title: ''
+  type: Spectral
+  url: rules/athenahealth-rules.yml
+- group: build
+  title: ''
+  type: Samples
+  url: https://github.com/athenahealth/mdp
+- group: build
+  title: ''
+  type: Samples
+  url: https://github.com/athenahealth/apiserver-athenaFlex
+- group: build
+  title: ''
+  type: Samples
+  url: https://github.com/athenahealth/aone-fhir-subscriptions
+- group: build
+  title: ''
+  type: Tools
+  url: https://github.com/athenahealth/vscode-cql-extension
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/eleanorhealth/go-athenahealth
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/athenahealth-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/athenahealth-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/athenahealth-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/athenahealth-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/athenahealth-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/athenahealth-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/athenahealth-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/athenahealth-vocabulary.yml
+- group: design
+  title: ''
+  type: Spectral
+  url: rules/athenahealth-rules.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/athenahealth-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/athenahealth-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/athenahealth-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/athenahealth-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/athenahealth-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/athenahealth-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/athenahealth-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/athenahealth-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/athenahealth-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/athenahealth-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/athenahealth-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/athenahealth-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/athenahealth-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/athenahealth-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/athenahealth-fhir-subscriptions-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/athenahealth-fhir-subscriptions-asyncapi.yml
+- group: other
+  title: ''
+  type: CapabilityStatement
+  url: conformance/athenahealth-fhir-capabilitystatement.json
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.athenahealth.com/api/api-ref
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.athenahealth.com/api/guides/overview
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/athenahealth
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.athenahealth.com/terms-and-conditions/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.athenahealth.com/privacy-rights
+- group: start
+  title: ''
+  type: SignUp
+  url: https://mydata.athenahealth.com/access-the-apis
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.athenahealth.com/api/resources/release-notes-and-change-logs
 created: '2026-06-13'
 description: athenahealth is a cloud-based healthcare network offering REST APIs for electronic health records (EHR), practice management, patient portal, revenue cycle management, and care coordination across ambulatory and acute care settings. The platform provides over 800 API endpoints enabling developers to extend athenaOne and integrate clinical, financial, and operational workflows across a national network of 84,000+ care sites.
+examples:
+- key_count: 2
+  name: Athenahealth Fhir Read Patient Example
+  slug: athenahealth-fhir-read-patient-example
+- key_count: 2
+  name: Athenahealth Search Patients Example
+  slug: athenahealth-search-patients-example
+- key_count: 2
+  name: Athenahealth Subscription Notification Example
+  slug: athenahealth-subscription-notification-example
 finops:
 - name: Athenahealth Finops
   service_category: ''
@@ -117,59 +532,111 @@ graphqls:
   name: athenahealth GraphQL Schema
   slug: athenahealth-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/athenahealth.png
+json_schemas:
+- name: athenahealth Appointment
+  property_count: 14
+  slug: athenahealth-appointment
+- name: athenahealth FHIR R4 Patient (US Core profile)
+  property_count: 11
+  slug: athenahealth-fhir-patient
+- name: athenahealth Patient
+  property_count: 20
+  slug: athenahealth-patient
 jsonld:
 - class_count: 27
   name: Athenahealth Context
   property_count: 0
   slug: athenahealth-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: athenahealth-mcp.yml
+  slug: athenahealth-mcpyml
+modified: '2026-08-14'
 name: athenahealth
 nav: Providers
 network: true
-overview: 'athenahealth publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, EHR, Electronic Health Records, Practice Management, and Revenue Cycle Management.
+overview: 'athenahealth publishes 22 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, Appointment API, Appointments API, and 19 more. Tagged areas include Healthcare, EHR, Electronic Health Records, Practice Management, and Revenue Cycle Management.
 
 
-  The athenahealth catalog on APIs.io includes 1 JSON-LD context.
+  The athenahealth catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  athenahealth''s developer surface includes documentation, engineering blog, pricing, and 13 more developer resources.'
+  athenahealth''s developer surface includes documentation, engineering blog, pricing, authentication, developer portal, sandbox, support, and 71 more developer resources.'
 plans:
 - name: Athenahealth Plans Pricing
   plan_count: 3
   slug: athenahealth-plans-pricing
-random_paper: 55
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Athenahealth Rate Limits
   slug: athenahealth-rate-limits
+rules:
+- name: athenahealth API Rules
+  rule_count: 6
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 1
+    warn: 4
+  slug: athenahealth-asyncapi-spectral-rules
+- name: athenahealth API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: athenahealth-jsonschema-spectral-rules
+- name: athenahealth API Rules
+  rule_count: 8
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 0
+    warn: 4
+  slug: athenahealth-rules
+scopes:
+- name: Athenahealth Scopes
+  scope_count: 1
+  slug: athenahealth-scopes
+  summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 34.9
-  delta: 0.0
+  band: exemplar
+  composite: 75.2
+  delta: 40.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 58.0
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 100.0
+    contract_quality: 78.4
+    developer_ergonomics: 80.4
+    discoverability: 57.4
+    governance: 79.2
+    operational_transparency: 44.7
   previous_composite: 34.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png
 security:
+- kind: authentication
+  name: Athenahealth Authentication
+  slug: athenahealth-authentication
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Athenahealth Domain Security
   slug: athenahealth-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Athenahealth Trust Center
+  slug: athenahealth-trust-center
+  summary_line: HITRUST CSF Certified, PCI DSS, SOC 1 (SSAE 18), EPCS (Electronic Prescriptions for Controlled Substances), DirectTrust HISP accreditation, DirectTrust CA/RA accreditation, Kantara full-service Credentialing Service Provider, EHNAC accreditation, ONC Certified Health IT, 2015 Edition
 slug: athenahealth
 tags:
 - Healthcare

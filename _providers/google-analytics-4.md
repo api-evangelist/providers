@@ -11,42 +11,68 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: partial
+    mcp_server: true
+    openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 57.7
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 6
+- acting_count: 149
   human_in_the_loop: 0
   name: Google Analytics 4 Agentic Access
-  operation_count: 8
+  operation_count: 247
   slug: google-analytics-4-agentic-access
-  summary_line: 8 operations · 6 acting
-api_count: 2
+  summary_line: 247 operations · 149 acting
+api_count: 3
 apis:
-- description: The Measurement Protocol for Google Analytics 4 allows developers to send events directly to Google Analytics servers for web and app streams.
+- description: 'The Measurement Protocol for Google Analytics 4 allows developers to send events directly to Google Analytics servers for web and app streams. Fire-and-forget: the production endpoint returns HTTP 204'
   name: Google Analytics Measurement Protocol
   slug: google-analytics-measurement-protocol
-- description: The V1beta API from Google Analytics 4 — 8 operation(s) for v1beta.
-  name: Google Analytics 4 V1beta API
-  slug: google-analytics-4-v1beta-api
-artifact_total: 11
+- description: Reporting API for GA4 properties — core reports, pivot reports, batched reports, realtime reports, funnel reports, dimension/metric metadata, compatibility checks, audience exports and asynchronous re
+  name: Google Analytics Data API
+  slug: google-analytics-data-api
+- description: Configuration API for GA4 — accounts, properties, data streams, Measurement Protocol secrets, custom dimensions and metrics, key events, data retention and redaction settings, audiences, access bindin
+  name: Google Analytics Admin API
+  slug: google-analytics-admin-api
+artifact_total: 21
+asyncapis:
+- description: ''
+  name: Google Analytics 4 Webhooks
+  slug: google-analytics-4-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Analytics Admin API
+  slug: open-google-analytics-4-admin-v1alpha
+- collection_type: open
+  name: Google Analytics Admin API
+  slug: open-google-analytics-4-admin-v1beta
+- collection_type: open
+  name: Google Analytics Data API
+  slug: open-google-analytics-4-data-v1alpha
+- collection_type: open
+  name: Google Analytics Data API
+  slug: open-google-analytics-4-data-v1beta
+- collection_type: open
+  name: Google Analytics Data V1beta API
+  slug: open-google-analytics-4-v1beta-api
 - collection_type: open
   name: Google Analytics Data API
   slug: open-google-analytics-4
@@ -61,8 +87,20 @@ common:
   url: security/google-analytics-4-vulnerability-disclosure.yml
 - group: auth
   title: ''
+  type: Security
+  url: https://g.co/vrp
+- group: auth
+  title: ''
   type: DomainSecurity
   url: security/google-analytics-4-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/google-analytics-4-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://support.google.com/analytics/answer/6004245
 - group: auth
   title: ''
   type: Authentication
@@ -71,26 +109,126 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/google-analytics-4-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-analytics-4-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-analytics-4-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-analytics-4-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-analytics-4-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-analytics-4-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.google.com/appsstatus/dashboard/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-analytics-4-changelog.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-analytics-4-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-analytics-4-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/google-analytics-4-finops.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/google-analytics-4-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/google-analytics-4-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-analytics-4-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/google-analytics-4-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/google-analytics-4-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/google-analytics-4-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/google-analytics-4-webhooks.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-analytics-4-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-analytics-4-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-analytics-4-llms.txt
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/_index.yml
 - group: build
   title: ''
   type: GitHubOrganization
-  url: https://github.com/googleapis
+  url: https://github.com/googleanalytics
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/googleanalytics4
 - group: start
   title: ''
-  type: Portal
+  type: DeveloperPortal
   url: https://developers.google.com/analytics
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/analytics/devguides
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/analytics/devguides/reporting/data/v1/rest
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries
 - group: start
   title: ''
   type: Console
   url: https://analytics.google.com/
-- group: auth
+- group: start
   title: ''
-  type: Authentication
-  url: https://developers.google.com/analytics/devguides/reporting/data/v1/basics#authentication
+  type: SignUp
+  url: https://analytics.google.com/analytics/web/provision/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -103,59 +241,66 @@ common:
   title: ''
   type: Support
   url: https://support.google.com/analytics
-- group: build
-  title: ''
-  type: SDKs
-  url: https://developers.google.com/analytics/devguides/reporting/data/v1/client-libraries
 - group: operate
   title: ''
-  type: StatusPage
-  url: https://status.cloud.google.com/
+  type: Community
+  url: https://developers.google.com/analytics/community
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.google/products/marketingplatform/analytics/
 - group: commercial
   title: ''
   type: Pricing
-  url: https://marketingplatform.google.com/about/analytics/compare/
+  url: https://marketingplatform.google.com/about/analytics/
 created: '2024-01-01'
-description: Google Analytics 4 (GA4) is the latest generation of Analytics that collects event-based data from websites and apps. It provides intelligent insights and predictive analytics powered by machine learning.
+description: 'Google Analytics 4 (GA4) is Google''s event-based web and app analytics platform and the successor to Universal Analytics. Its developer surface has three distinct parts: the Analytics Data API (analyticsdata.googleapis.com) for running core, pivot, funnel and realtime reports and for exporting audiences; the Analytics Admin API (analyticsadmin.googleapis.com) for managing accounts, properties, data streams, custom dimensions and metrics, key events, access bindings and product links; and the Measurement Protocol (www.google-analytics.com/mp/collect) for sending server-side events directly into a property. Google publishes no OpenAPI for GA4 — the machine-readable contract is served as Google API Discovery documents on the API hosts themselves, alongside canonical protobuf service definitions in the googleapis repository. Authentication is Google OAuth 2.0 only for the Data and Admin APIs; the Measurement Protocol uses a per-stream shared secret.'
 finops:
 - name: Google Analytics 4 Finops
   service_category: API
   slug: google-analytics-4-finops
 image: https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: google-analytics-4-mcp.yml
+  slug: google-analytics-4-mcpyml
+modified: '2026-08-13'
 name: Google Analytics 4
 nav: Providers
 network: true
-overview: 'Google Analytics 4 publishes 1 API on the [APIs.io](https://apis.io/) network: V1beta API. Tagged areas include Analytics, Data Collection, Marketing, Measurement, and Mobile Analytics.
+overview: 'Google Analytics 4 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Google Analytics Data API and Google Analytics Admin API. Tagged areas include Analytics, Data Collection, Marketing, Measurement, and Mobile Analytics.
 
 
-  Google Analytics 4''s developer surface includes authentication, developer portal, developer console, support, pricing, and 11 more developer resources.'
+  The Google Analytics 4 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Google Analytics 4''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, developer console, and 37 more developer resources.'
 plans:
 - name: Google Analytics 4 Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: google-analytics-4-plans-pricing
-random_paper: 67
+random_paper: 108
 rate_limits:
-- limit_count: 5
+- limit_count: 15
   name: Google Analytics 4 Rate Limits
   slug: google-analytics-4-rate-limits
 scopes:
 - name: Google Analytics 4 Scopes
-  scope_count: 2
+  scope_count: 5
   slug: google-analytics-4-scopes
-  summary_line: 2 scopes · authorizationCode
+  summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 40.8
-  delta: 0.0
+  band: exemplar
+  composite: 66.9
+  delta: 26.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 53.4
-    developer_ergonomics: 37.0
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 28.9
+    commercial_clarity: 73.7
+    contract_quality: 68.7
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 63.2
   previous_composite: 40.8
   provenance:
     agentic_access: derived
@@ -165,14 +310,14 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/screenshots/google-analytics-4-2026-06-20T182011.png
 security:
 - kind: authentication
   name: Google Analytics 4 Authentication
   slug: google-analytics-4-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Google Analytics 4 Domain Security
   slug: google-analytics-4-domain-security
@@ -181,6 +326,10 @@ security:
   name: Google Analytics 4 Vulnerability Disclosure
   slug: google-analytics-4-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Google Analytics 4 Trust Center
+  slug: google-analytics-4-trust-center
+  summary_line: ISO 27001
 slug: google-analytics-4
 tags:
 - Analytics
@@ -190,5 +339,8 @@ tags:
 - Mobile Analytics
 - Reporting
 - Web Analytics
+- Attribution
+- Audiences
+- Event Tracking
 website: https://developers.google.com/analytics
 ---

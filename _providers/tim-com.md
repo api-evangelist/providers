@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: CAMARA-aligned API that returns the timestamp of the last SIM swap (or whether a swap occurred within a caller-supplied window) for a given TIM mobile number. Used by banks and fintechs as a signal ag
@@ -143,7 +143,7 @@ overview: 'TIM publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TIM''s developer surface includes developer portal, documentation, YouTube channel, and 17 more developer resources.'
-random_paper: 94
+random_paper: 98
 score:
   band: minimal
   composite: 11.0
@@ -163,7 +163,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tim-com/refs/heads/main/screenshots/tim-com-2026-06-20T195400.png
 security:

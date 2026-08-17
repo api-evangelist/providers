@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,8 +49,23 @@ apis:
 - description: Operations for managing session tokens that prevent duplicate questions.
   name: Open Trivia Database Tokens API
   slug: open-trivia-tokens-api
-artifact_total: 38
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Trivia Database Categories API
+  slug: open-open-trivia-categories-api
+- collection_type: open
+  name: Open Trivia Database Categories Questions API
+  slug: open-open-trivia-questions-api
+- collection_type: open
+  name: Open Trivia Database Categories Statistics API
+  slug: open-open-trivia-statistics-api
+- collection_type: open
+  name: Open Trivia Database Categories Tokens API
+  slug: open-open-trivia-tokens-api
 - collection_type: open
   name: Open Trivia Database API
   slug: open-open-trivia
@@ -239,7 +254,7 @@ overview: 'Open Trivia Database publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Open Trivia Database''s developer surface includes documentation, support, tooling, code examples, and 16 more developer resources.'
-random_paper: 54
+random_paper: 91
 rate_limits:
 - limit_count: 1
   name: Open Trivia Rate Limits
@@ -287,7 +302,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/screenshots/open-trivia-2026-06-20T190855.png
 security:

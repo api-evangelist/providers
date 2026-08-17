@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -100,11 +100,68 @@ apis:
 - description: Retrieve target and scrape pool information.
   name: Prometheus targets API
   slug: prometheus-io-targets-api
-artifact_total: 34
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Alertmanager API
   slug: open-prometheus-alertmanager-api
+- collection_type: open
+  name: Alertmanager admin API
+  slug: open-prometheus-io-admin-api
+- collection_type: open
+  name: Alertmanager admin alert API
+  slug: open-prometheus-io-alert-api
+- collection_type: open
+  name: Alertmanager admin alertgroup API
+  slug: open-prometheus-io-alertgroup-api
+- collection_type: open
+  name: Alertmanager admin alerts API
+  slug: open-prometheus-io-alerts-api
+- collection_type: open
+  name: Alertmanager admin features API
+  slug: open-prometheus-io-features-api
+- collection_type: open
+  name: Alertmanager admin general API
+  slug: open-prometheus-io-general-api
+- collection_type: open
+  name: Alertmanager admin labels API
+  slug: open-prometheus-io-labels-api
+- collection_type: open
+  name: Alertmanager admin metadata API
+  slug: open-prometheus-io-metadata-api
+- collection_type: open
+  name: Alertmanager admin notifications API
+  slug: open-prometheus-io-notifications-api
+- collection_type: open
+  name: Alertmanager admin otlp API
+  slug: open-prometheus-io-otlp-api
+- collection_type: open
+  name: Alertmanager admin query API
+  slug: open-prometheus-io-query-api
+- collection_type: open
+  name: Alertmanager admin receiver API
+  slug: open-prometheus-io-receiver-api
+- collection_type: open
+  name: Alertmanager admin remote API
+  slug: open-prometheus-io-remote-api
+- collection_type: open
+  name: Alertmanager admin rules API
+  slug: open-prometheus-io-rules-api
+- collection_type: open
+  name: Alertmanager admin series API
+  slug: open-prometheus-io-series-api
+- collection_type: open
+  name: Alertmanager admin silence API
+  slug: open-prometheus-io-silence-api
+- collection_type: open
+  name: Alertmanager admin status API
+  slug: open-prometheus-io-status-api
+- collection_type: open
+  name: Alertmanager admin targets API
+  slug: open-prometheus-io-targets-api
 - collection_type: open
   name: Prometheus API
   slug: open-prometheus-server-api
@@ -318,7 +375,7 @@ overview: 'Prometheus publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Prometheus'' developer surface includes developer portal, documentation, changelog, engineering blog, tooling, and 37 more developer resources.'
-random_paper: 41
+random_paper: 20
 rules:
 - name: Prometheus API Rules
   rule_count: 6
@@ -356,7 +413,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/screenshots/prometheus-io-2026-06-20T192153.png
 security:

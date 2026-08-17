@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -47,7 +47,20 @@ apis:
 - description: The rendering API from HitchPin — 3 operation(s) for rendering.
   name: HitchPin rendering API
   slug: hitchpin-rendering-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Django instant-invoice-share API
+  slug: open-hitchpin-instant-invoice-share-api
+- collection_type: open
+  name: Django instant-invoice-share instant-invoices API
+  slug: open-hitchpin-instant-invoices-api
+- collection_type: open
+  name: Django instant-invoice-share rendering API
+  slug: open-hitchpin-rendering-api
 common:
 - group: other
   title: ''
@@ -168,7 +181,7 @@ overview: 'HitchPin publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   HitchPin''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 15
+random_paper: 110
 score:
   band: thin
   composite: 41.0
@@ -198,7 +211,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/screenshots/hitchpin-2026-07-25T221300.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -87,7 +87,59 @@ apis:
 - description: The Sessions API from Brushfire — 10 operation(s) for sessions.
   name: Brushfire Sessions API
   slug: brushfire-sessions-api
-artifact_total: 22
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes API'
+  slug: open-brushfire-accesscodes-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Accounts API'
+  slug: open-brushfire-accounts-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Attendees API'
+  slug: open-brushfire-attendees-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Cart API'
+  slug: open-brushfire-cart-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Clients API'
+  slug: open-brushfire-clients-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Data API'
+  slug: open-brushfire-data-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Events API'
+  slug: open-brushfire-events-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Exchanges API'
+  slug: open-brushfire-exchanges-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Groups API'
+  slug: open-brushfire-groups-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Hooks API'
+  slug: open-brushfire-hooks-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Lookups API'
+  slug: open-brushfire-lookups-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Orders API'
+  slug: open-brushfire-orders-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes PaymentProfiles API'
+  slug: open-brushfire-paymentprofiles-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Promotions API'
+  slug: open-brushfire-promotions-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Regions API'
+  slug: open-brushfire-regions-api
+- collection_type: open
+  name: 'Brushfire API: Version 2025-07-22 AccessCodes Sessions API'
+  slug: open-brushfire-sessions-api
 common:
 - group: agent
   title: ''
@@ -157,7 +209,7 @@ plans:
 - name: Brushfire Plans Pricing
   plan_count: 5
   slug: brushfire-plans-pricing
-random_paper: 10
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Brushfire Rate Limits
@@ -188,7 +240,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/screenshots/brushfire-2026-07-25T204003.png
 security:

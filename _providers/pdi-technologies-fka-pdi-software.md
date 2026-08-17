@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'PDI Technologies (fka PDI Software) is profiled on the [APIs.io](http
 
 
   PDI Technologies (fka PDI Software)''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 39
+random_paper: 1
 score:
   band: minimal
   composite: 12.9
@@ -91,7 +91,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdi-technologies-fka-pdi-software/refs/heads/main/screenshots/pdi-technologies-fka-pdi-software-2026-08-07T191720.png
 security:

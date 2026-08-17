@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Operations for managing workflows.
   name: Cflow Workflows API
   slug: cflow-workflows-api
-artifact_total: 52
+artifact_total: 56
 collections:
 - collection_type: postman
   name: Cflow Requests API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Cflow Requests Workflows API
   slug: postman-cflow-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cflow Requests API
+  slug: open-cflow-requests-api
+- collection_type: open
+  name: Cflow Requests Users API
+  slug: open-cflow-users-api
+- collection_type: open
+  name: Cflow Requests Workflows API
+  slug: open-cflow-workflows-api
 - collection_type: open
   name: Cflow API
   slug: open-cflow
@@ -184,7 +196,7 @@ plans:
 - name: Cflow Plans Pricing
   plan_count: 3
   slug: cflow-plans-pricing
-random_paper: 59
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Cflow Rate Limits
@@ -218,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/screenshots/cflow-2026-06-20T174158.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -58,8 +58,29 @@ apis:
 - description: Voice catalog and custom voice management
   name: Inworld AI Voices API
   slug: inworld-voices-api
-artifact_total: 18
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inworld AI Models API
+  slug: open-inworld-models-api
+- collection_type: open
+  name: Inworld AI Models Realtime API
+  slug: open-inworld-realtime-api
+- collection_type: open
+  name: Inworld AI Models Router API
+  slug: open-inworld-router-api
+- collection_type: open
+  name: Inworld AI Models STT API
+  slug: open-inworld-stt-api
+- collection_type: open
+  name: Inworld AI Models TTS API
+  slug: open-inworld-tts-api
+- collection_type: open
+  name: Inworld AI Models Voices API
+  slug: open-inworld-voices-api
 - collection_type: open
   name: Inworld AI API
   slug: open-inworld
@@ -136,7 +157,7 @@ plans:
 - name: Inworld Plans Pricing
   plan_count: 5
   slug: inworld-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Inworld Rate Limits
@@ -161,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/screenshots/inworld-2026-06-20T183534.png
 security:

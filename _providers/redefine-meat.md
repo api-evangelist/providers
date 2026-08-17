@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Two live Model Context Protocol endpoints served from the same WordPress installation and advertised through RFC 9728 OAuth 2.0 Protected Resource Metadata. Both are OAuth-gated - an anonymous tools/l
@@ -30,11 +30,24 @@ apis:
 - description: The wp/v2 API from Redefine Meat — 117 operation(s) for wp/v2.
   name: Redefine Meat Wp/v2 API
   slug: redefine-meat-wp-v2-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Redefine Meat Webhooks
   slug: redefine-meat-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Redefine Meat Store API (WooCommerce Store API) Wc/store/v1 API
+  slug: open-redefine-meat-wc-store-v1-api
+- collection_type: open
+  name: API Collection
+  slug: open-redefine-meat-wp-rest-index-original
+- collection_type: open
+  name: Redefine Meat Content API (WordPress REST API ) Wp/v2 API
+  slug: open-redefine-meat-wp-v2-api
 common:
 - group: other
   title: ''
@@ -160,7 +173,7 @@ overview: 'Redefine Meat publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Redefine Meat''s developer surface includes support, FAQ, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 102
+random_paper: 110
 scopes:
 - name: Redefine Meat Scopes
   scope_count: 1
@@ -188,7 +201,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

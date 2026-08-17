@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service Athletic Brewing's Shopify storefront serves at https://athleticbrewing.com/api/ucp/mcp. An anonymous MCP (JSON-RPC 2.0) endpoint exposing thirteen too
@@ -130,7 +130,7 @@ overview: 'Athletic Brewing publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Athletic Brewing''s developer surface includes documentation, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 81
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Athletic Brewing Rate Limits
@@ -157,7 +157,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athletic-brewing/refs/heads/main/screenshots/athletic-brewing-2026-08-07T161840.png
 security:

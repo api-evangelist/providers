@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -129,7 +129,7 @@ overview: 'Arundo Analytics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Arundo Analytics'' developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 102
+random_paper: 23
 scopes:
 - name: Arundo Analytics Scopes
   scope_count: 14
@@ -156,7 +156,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/screenshots/arundo-analytics-2026-08-07T161747.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: Resource 'WebResponse' operations.
   name: Orakl WebResponse API
   slug: orakl-webresponse-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orakl Oncology public website CommonContent API
+  slug: open-orakl-commoncontent-api
+- collection_type: open
+  name: Orakl Oncology public website CommonContent CustomForm API
+  slug: open-orakl-customform-api
+- collection_type: open
+  name: Orakl Oncology public website CommonContent Folder API
+  slug: open-orakl-folder-api
+- collection_type: open
+  name: Orakl Oncology public website CommonContent Login Check API
+  slug: open-orakl-login-check-api
+- collection_type: open
+  name: Orakl Oncology public website CommonContent NodesSources API
+  slug: open-orakl-nodessources-api
+- collection_type: open
+  name: Orakl Oncology public website CommonContent Page API
+  slug: open-orakl-page-api
+- collection_type: open
+  name: Orakl Oncology public website CommonContent Tag API
+  slug: open-orakl-tag-api
+- collection_type: open
+  name: Orakl Oncology public website CommonContent Translation API
+  slug: open-orakl-translation-api
+- collection_type: open
+  name: Orakl Oncology public website CommonContent WebResponse API
+  slug: open-orakl-webresponse-api
 common:
 - group: other
   title: ''
@@ -139,7 +170,7 @@ overview: 'Orakl publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Orakl''s developer surface includes documentation, API reference, authentication, and 11 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: thin
   composite: 32.8
@@ -169,7 +200,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/screenshots/orakl-2026-08-07T190829.png
 security:

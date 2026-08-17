@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -164,7 +164,7 @@ overview: 'Ebix is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ebix''s developer surface includes documentation, support, engineering blog, and 29 more developer resources.'
-random_paper: 64
+random_paper: 126
 score:
   band: emerging
   composite: 16.6
@@ -186,7 +186,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebix/refs/heads/main/screenshots/ebix-2026-07-25T212726.png
 security:

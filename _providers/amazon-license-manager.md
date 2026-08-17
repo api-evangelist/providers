@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: License configuration management
   name: Amazon License Manager License Configurations API
   slug: amazon-license-manager-license-configurations-api
-artifact_total: 25
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Amazon License Manager License Configurations API
   slug: postman-amazon-license-manager-license-configurations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon License Manager License Configurations API
+  slug: open-amazon-license-manager-license-configurations-api
 - collection_type: open
   name: Amazon License Manager API
   slug: open-amazon-license-manager
@@ -186,7 +192,7 @@ plans:
 - name: Amazon License Manager Plans Pricing
   plan_count: 3
   slug: amazon-license-manager-plans-pricing
-random_paper: 46
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: Amazon License Manager Rate Limits
@@ -228,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/screenshots/amazon-license-manager-2026-06-20T171724.png
 security:

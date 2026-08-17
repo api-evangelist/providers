@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,8 +56,23 @@ apis:
 - description: File share operations
   name: Azure Files Shares API
   slug: azure-file-storage-shares-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Files FileREST Account API
+  slug: open-azure-file-storage-account-api
+- collection_type: open
+  name: Azure Files FileREST Account Directories API
+  slug: open-azure-file-storage-directories-api
+- collection_type: open
+  name: Azure FileREST Account Files API
+  slug: open-azure-file-storage-files-api
+- collection_type: open
+  name: Azure Files FileREST Account Shares API
+  slug: open-azure-file-storage-shares-api
 - collection_type: open
   name: Azure Files FileREST API
   slug: open-azure-file-storage
@@ -114,7 +129,7 @@ overview: 'Azure Files publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Azure Files'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 14
+random_paper: 26
 scopes:
 - name: Azure File Storage Scopes
   scope_count: 1
@@ -140,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/screenshots/azure-file-storage-2026-06-20T172902.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ arazzos:
 - description: Pull a last-7-days performance report for an ad account, list its campaigns, and pause a chosen campaign by toggling its status to OFF. Read-only steps are safe to retry; the status toggle is not idem
   name: Report on a NewsBreak ad account and pause underperforming campaigns
   slug: news-break-pause-and-report
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: NewsBreak Advertising API
+  slug: open-news-break-advertising
+- collection_type: open
+  name: NewsBreak MSP Monetization Reporting API
+  slug: open-news-break-monetization-reporting
 common:
 - group: agent
   title: ''
@@ -168,7 +175,7 @@ overview: 'News Break publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   News Break''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 47
+random_paper: 113
 rate_limits:
 - limit_count: 9
   name: News Break Rate Limits
@@ -196,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/screenshots/news-break-2026-08-07T185122.png
 security:

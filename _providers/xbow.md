@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -66,11 +66,42 @@ apis:
 - description: Manage webhook subscriptions and receive event notifications. When creating an organization, you may provide an HTTPS webhook URL to receive events related to the organization's resources. We implemen
   name: Xbow Webhooks API
   slug: xbow-webhooks-api
-artifact_total: 16
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Xbow Webhooks
   slug: xbow-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: XBOW Assessments API
+  slug: open-xbow-assessments-api
+- collection_type: open
+  name: XBOW Assessments Assets API
+  slug: open-xbow-assets-api
+- collection_type: open
+  name: XBOW Assessments Findings API
+  slug: open-xbow-findings-api
+- collection_type: open
+  name: XBOW Assessments Lightspeed API
+  slug: open-xbow-lightspeed-api
+- collection_type: open
+  name: XBOW Assessments Meta API
+  slug: open-xbow-meta-api
+- collection_type: open
+  name: XBOW Assessments Organizations API
+  slug: open-xbow-organizations-api
+- collection_type: open
+  name: XBOW Assessments Reports API
+  slug: open-xbow-reports-api
+- collection_type: open
+  name: XBOW Assessments Resources API
+  slug: open-xbow-resources-api
+- collection_type: open
+  name: XBOW Assessments Webhooks API
+  slug: open-xbow-webhooks-api
 common:
 - group: other
   title: ''
@@ -219,7 +250,7 @@ overview: 'Xbow publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Xbow''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 88
+random_paper: 1
 score:
   band: strong
   composite: 58.0
@@ -243,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

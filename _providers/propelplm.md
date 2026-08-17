@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -84,11 +84,60 @@ apis:
 - description: The variants API from Propel Software (Propel PLM) — 4 operation(s) for variants.
   name: Propel Software (Propel PLM) variants API
   slug: propelplm-variants-api
-artifact_total: 22
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Propelplm Events
   slug: propelplm-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Get Bom Assembly API
+  slug: open-propelplm-assembly-api
+- collection_type: open
+  name: Get Bom Assembly assets API
+  slug: open-propelplm-assets-api
+- collection_type: open
+  name: Get Bom Assembly Attachment API
+  slug: open-propelplm-attachment-api
+- collection_type: open
+  name: Get Bom Assembly Bill of Material API
+  slug: open-propelplm-bill-of-material-api
+- collection_type: open
+  name: Get Assembly BOM API
+  slug: open-propelplm-bom-api
+- collection_type: open
+  name: Get Bom Assembly categories API
+  slug: open-propelplm-categories-api
+- collection_type: open
+  name: Get Bom Assembly change API
+  slug: open-propelplm-change-api
+- collection_type: open
+  name: Get Bom Assembly channels API
+  slug: open-propelplm-channels-api
+- collection_type: open
+  name: Get Bom Assembly Configuration API
+  slug: open-propelplm-configuration-api
+- collection_type: open
+  name: Get Bom Assembly Item API
+  slug: open-propelplm-item-api
+- collection_type: open
+  name: Get Bom Assembly ManufacturerItem API
+  slug: open-propelplm-manufactureritem-api
+- collection_type: open
+  name: Get Bom Assembly ManufacturerPart API
+  slug: open-propelplm-manufacturerpart-api
+- collection_type: open
+  name: Get Bom Assembly markup API
+  slug: open-propelplm-markup-api
+- collection_type: open
+  name: Get Bom Assembly products API
+  slug: open-propelplm-products-api
+- collection_type: open
+  name: Get Bom Assembly variants API
+  slug: open-propelplm-variants-api
 common:
 - group: agent
   title: ''
@@ -241,7 +290,7 @@ overview: 'Propel Software (Propel PLM) publishes 15 APIs on the [APIs.io](https
 
 
   Propel Software (Propel PLM)''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 26 more developer resources.'
-random_paper: 27
+random_paper: 93
 scopes:
 - name: Propelplm Scopes
   scope_count: 4
@@ -270,7 +319,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

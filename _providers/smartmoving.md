@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Account lookup data - branches, users, service types, referral sources.
   name: SmartMoving Reference Data API
   slug: smartmoving-reference-data-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SmartMoving Open Customers API
+  slug: open-smartmoving-customers-api
+- collection_type: open
+  name: SmartMoving Open Customers Jobs API
+  slug: open-smartmoving-jobs-api
+- collection_type: open
+  name: SmartMoving Open Customers Lead Provider API
+  slug: open-smartmoving-lead-provider-api
+- collection_type: open
+  name: SmartMoving Open Customers Leads API
+  slug: open-smartmoving-leads-api
+- collection_type: open
+  name: SmartMoving Open Customers Opportunities API
+  slug: open-smartmoving-opportunities-api
+- collection_type: open
+  name: SmartMoving Open Customers Reference Data API
+  slug: open-smartmoving-reference-data-api
 - collection_type: open
   name: SmartMoving Open API
   slug: open-smartmoving
@@ -127,7 +148,7 @@ plans:
 - name: Smartmoving Plans Pricing
   plan_count: 3
   slug: smartmoving-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Smartmoving Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

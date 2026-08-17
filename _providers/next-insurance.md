@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Conceptual GraphQL schema for the ERGO NEXT Insurance (formerly NEXT Insurance) NEXT Connect embedded insurance platform.
@@ -140,7 +140,7 @@ overview: 'ERGO NEXT Insurance publishes 1 API on the [APIs.io](https://apis.io/
 
 
   ERGO NEXT Insurance''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 19 more developer resources.'
-random_paper: 20
+random_paper: 119
 score:
   band: emerging
   composite: 16.5
@@ -160,7 +160,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/next-insurance/refs/heads/main/screenshots/next-insurance-2026-08-07T185159.png
 security:

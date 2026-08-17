@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The endpoints API from Cirrus Identity — 2 operation(s) for endpoints.
   name: Cirrus Identity endpoints API
   slug: cirrus-identity-endpoints-api
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cirrus Identity Log endpoints API
+  slug: open-cirrus-identity-endpoints-api
 common:
 - group: start
   title: ''
@@ -175,7 +182,7 @@ overview: 'Cirrus Identity publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Cirrus Identity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 23
+random_paper: 93
 score:
   band: developing
   composite: 45.1
@@ -199,7 +206,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/screenshots/cirrus-identity-2026-07-25T205419.png
 security:

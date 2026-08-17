@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -87,8 +87,56 @@ apis:
 - description: The subpackage_workspaceSecrets API from Vellum AI — 1 operation(s) for subpackage_workspacesecrets.
   name: Vellum AI subpackage_workspaceSecrets API
   slug: vellum-subpackage-workspacesecrets-api
-artifact_total: 23
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Client SDK  API
+  slug: open-vellum-default-api
+- collection_type: open
+  name: Client SDK subpackage_deployments API
+  slug: open-vellum-subpackage-deployments-api
+- collection_type: open
+  name: Client SDK subpackage_documentIndexes API
+  slug: open-vellum-subpackage-documentindexes-api
+- collection_type: open
+  name: Client SDK subpackage_documents API
+  slug: open-vellum-subpackage-documents-api
+- collection_type: open
+  name: Client SDK subpackage_events API
+  slug: open-vellum-subpackage-events-api
+- collection_type: open
+  name: Client SDK subpackage_folderEntities API
+  slug: open-vellum-subpackage-folderentities-api
+- collection_type: open
+  name: Client SDK subpackage_sandboxes API
+  slug: open-vellum-subpackage-sandboxes-api
+- collection_type: open
+  name: Client SDK subpackage_testSuiteRuns API
+  slug: open-vellum-subpackage-testsuiteruns-api
+- collection_type: open
+  name: Client SDK subpackage_testSuites API
+  slug: open-vellum-subpackage-testsuites-api
+- collection_type: open
+  name: Client SDK subpackage_uploadedFiles API
+  slug: open-vellum-subpackage-uploadedfiles-api
+- collection_type: open
+  name: Client SDK subpackage_workflowDeployments API
+  slug: open-vellum-subpackage-workflowdeployments-api
+- collection_type: open
+  name: Client SDK subpackage_workflowExecutions API
+  slug: open-vellum-subpackage-workflowexecutions-api
+- collection_type: open
+  name: Client SDK subpackage_workflows API
+  slug: open-vellum-subpackage-workflows-api
+- collection_type: open
+  name: Client SDK subpackage_workflowSandboxes API
+  slug: open-vellum-subpackage-workflowsandboxes-api
+- collection_type: open
+  name: Client SDK subpackage_workspaceSecrets API
+  slug: open-vellum-subpackage-workspacesecrets-api
 - collection_type: open
   name: Client SDK
   slug: open-vellum
@@ -173,7 +221,7 @@ plans:
 - name: Vellum Plans Pricing
   plan_count: 1
   slug: vellum-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Vellum Rate Limits
@@ -198,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/screenshots/vellum-2026-06-20T200908.png
 security:

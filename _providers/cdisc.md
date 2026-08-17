@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +60,32 @@ apis:
 - description: CDISC controlled terminology
   name: cdisc Terminology API
   slug: cdisc-terminology-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDISC Library ADaM API
+  slug: open-cdisc-adam-api
+- collection_type: open
+  name: CDISC Library ADaM Biomedical Concepts API
+  slug: open-cdisc-biomedical-concepts-api
+- collection_type: open
+  name: CDISC Library ADaM CDASH API
+  slug: open-cdisc-cdash-api
 - collection_type: open
   name: CDISC Library API
   slug: open-cdisc-library
+- collection_type: open
+  name: CDISC Library ADaM Products API
+  slug: open-cdisc-products-api
+- collection_type: open
+  name: CDISC Library ADaM SDTM API
+  slug: open-cdisc-sdtm-api
+- collection_type: open
+  name: CDISC Library ADaM Terminology API
+  slug: open-cdisc-terminology-api
 common:
 - group: agent
   title: ''
@@ -165,7 +186,7 @@ plans:
 - name: Cdisc Plans Pricing
   plan_count: 3
   slug: cdisc-plans-pricing
-random_paper: 38
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Cdisc Rate Limits
@@ -199,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/screenshots/cdisc-2026-06-20T174105.png
 security:

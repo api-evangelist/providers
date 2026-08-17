@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -61,7 +61,41 @@ apis:
 - description: The Users API from Colossal Biosciences — 3 operation(s) for users.
   name: Colossal Biosciences Users API
   slug: colossal-biosciences-users-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Categories API
+  slug: open-colossal-biosciences-categories-api
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Comments API
+  slug: open-colossal-biosciences-comments-api
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Discovery API
+  slug: open-colossal-biosciences-discovery-api
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Media API
+  slug: open-colossal-biosciences-media-api
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Pages API
+  slug: open-colossal-biosciences-pages-api
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Posts API
+  slug: open-colossal-biosciences-posts-api
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Search API
+  slug: open-colossal-biosciences-search-api
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Settings API
+  slug: open-colossal-biosciences-settings-api
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Tags API
+  slug: open-colossal-biosciences-tags-api
+- collection_type: open
+  name: Colossal Biosciences Content API (WordPress REST wp/v2) Users API
+  slug: open-colossal-biosciences-users-api
 common:
 - group: other
   title: ''
@@ -171,7 +205,7 @@ overview: 'Colossal Biosciences publishes 10 APIs on the [APIs.io](https://apis.
 
 
   Colossal Biosciences'' developer surface includes authentication, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 28
+random_paper: 131
 score:
   band: emerging
   composite: 24.8
@@ -201,7 +235,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colossal-biosciences/refs/heads/main/screenshots/colossal-biosciences-2026-08-07T163606.png
 security:

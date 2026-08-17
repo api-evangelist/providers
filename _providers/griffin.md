@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -123,11 +123,99 @@ apis:
 - description: A [workflow](/docs/terms/workflow) determines which checks will be run against a [legal person](#tag/Legal-persons) as part of a [verification](#tag/Verifications)
   name: Griffin Workflows API
   slug: griffin-workflows-api
-artifact_total: 33
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Griffin Webhooks
   slug: griffin-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Griffin API keys API
+  slug: open-griffin-api-keys-api
+- collection_type: open
+  name: The Griffin API keys Bank account holds API
+  slug: open-griffin-bank-account-holds-api
+- collection_type: open
+  name: The Griffin API keys Bank account restrictions API
+  slug: open-griffin-bank-account-restrictions-api
+- collection_type: open
+  name: The Griffin API keys Bank accounts API
+  slug: open-griffin-bank-accounts-api
+- collection_type: open
+  name: The Griffin API keys Claims API
+  slug: open-griffin-claims-api
+- collection_type: open
+  name: The Griffin API keys Companies House API
+  slug: open-griffin-companies-house-api
+- collection_type: open
+  name: The Griffin API keys Confirmation of payee API
+  slug: open-griffin-confirmation-of-payee-api
+- collection_type: open
+  name: The Griffin API keys Connectivity API
+  slug: open-griffin-connectivity-api
+- collection_type: open
+  name: The Griffin API keys Decisions API
+  slug: open-griffin-decisions-api
+- collection_type: open
+  name: The Griffin API keys Events API
+  slug: open-griffin-events-api
+- collection_type: open
+  name: The Griffin API keys Invitations API
+  slug: open-griffin-invitations-api
+- collection_type: open
+  name: The Griffin API keys Legal person history API
+  slug: open-griffin-legal-person-history-api
+- collection_type: open
+  name: The Griffin API keys Legal persons API
+  slug: open-griffin-legal-persons-api
+- collection_type: open
+  name: The Griffin API keys Memberships API
+  slug: open-griffin-memberships-api
+- collection_type: open
+  name: The Griffin API keys Message Signatures API
+  slug: open-griffin-message-signatures-api
+- collection_type: open
+  name: The Griffin API keys Navigation API
+  slug: open-griffin-navigation-api
+- collection_type: open
+  name: The Griffin API keys Open banking API
+  slug: open-griffin-open-banking-api
+- collection_type: open
+  name: The Griffin API keys Organizations API
+  slug: open-griffin-organizations-api
+- collection_type: open
+  name: The Griffin API keys Payees API
+  slug: open-griffin-payees-api
+- collection_type: open
+  name: The Griffin API keys Payments API
+  slug: open-griffin-payments-api
+- collection_type: open
+  name: The Griffin API keys Pooled account membership API
+  slug: open-griffin-pooled-account-membership-api
+- collection_type: open
+  name: The Griffin API keys Reliance onboarding API
+  slug: open-griffin-reliance-onboarding-api
+- collection_type: open
+  name: The Griffin API keys Roles API
+  slug: open-griffin-roles-api
+- collection_type: open
+  name: The Griffin API keys Transactions API
+  slug: open-griffin-transactions-api
+- collection_type: open
+  name: The Griffin API keys Users API
+  slug: open-griffin-users-api
+- collection_type: open
+  name: The Griffin API keys Verifications API
+  slug: open-griffin-verifications-api
+- collection_type: open
+  name: The Griffin API keys Webhooks API
+  slug: open-griffin-webhooks-api
+- collection_type: open
+  name: The Griffin API keys Workflows API
+  slug: open-griffin-workflows-api
 common:
 - group: company
   title: ''
@@ -284,7 +372,7 @@ overview: 'Griffin publishes 28 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Griffin''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 27 more developer resources.'
-random_paper: 21
+random_paper: 145
 score:
   band: developing
   composite: 53.1
@@ -314,7 +402,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/screenshots/griffin-2026-07-25T220332.png
 security:

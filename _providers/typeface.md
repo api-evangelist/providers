@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-12'
+  score: 54.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -84,11 +84,60 @@ apis:
 - description: The Tag Library API from Typeface — 3 operation(s) for tag library.
   name: Typeface Tag Library API
   slug: typeface-tag-library-api
-artifact_total: 23
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Typeface Webhooks
   slug: typeface-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Typeface Audiences API
+  slug: open-typeface-audiences-api
+- collection_type: open
+  name: Typeface Audiences Authentication API
+  slug: open-typeface-authentication-api
+- collection_type: open
+  name: Typeface Audiences Basic Services API
+  slug: open-typeface-basic-services-api
+- collection_type: open
+  name: Typeface Audiences Brand Kits API
+  slug: open-typeface-brand-kits-api
+- collection_type: open
+  name: Typeface Audiences Content Generation API
+  slug: open-typeface-content-generation-api
+- collection_type: open
+  name: Typeface Audiences Content Service API
+  slug: open-typeface-content-service-api
+- collection_type: open
+  name: Typeface Audiences Digital Assets API
+  slug: open-typeface-digital-assets-api
+- collection_type: open
+  name: Typeface Audiences Discovery API
+  slug: open-typeface-discovery-api
+- collection_type: open
+  name: Typeface Audiences Feeds API
+  slug: open-typeface-feeds-api
+- collection_type: open
+  name: Typeface Audiences Profile Service API
+  slug: open-typeface-profile-service-api
+- collection_type: open
+  name: Typeface Audiences Projects API
+  slug: open-typeface-projects-api
+- collection_type: open
+  name: Typeface Audiences Provisioning API
+  slug: open-typeface-provisioning-api
+- collection_type: open
+  name: Typeface Audiences Provisioning Service API
+  slug: open-typeface-provisioning-service-api
+- collection_type: open
+  name: Typeface Audiences Search Service API
+  slug: open-typeface-search-service-api
+- collection_type: open
+  name: Typeface Audiences Tag Library API
+  slug: open-typeface-tag-library-api
 common:
 - group: other
   title: ''
@@ -126,6 +175,18 @@ common:
   title: ''
   type: MCPServer
   url: mcp/typeface-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/typeface-tool-crosswalk.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/typeface-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/typeface-plans-pricing.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -230,7 +291,7 @@ mcp_servers:
 - description: ''
   name: typeface-mcp.yml
   slug: typeface-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Typeface
 nav: Providers
 network: true
@@ -240,8 +301,16 @@ overview: 'Typeface publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Typeface catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Typeface''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 27 more developer resources.'
-random_paper: 9
+  Typeface''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 30 more developer resources.'
+plans:
+- name: Typeface Plans Pricing
+  plan_count: 0
+  slug: typeface-plans-pricing
+random_paper: 104
+rate_limits:
+- limit_count: 4
+  name: Typeface Rate Limits
+  slug: typeface-rate-limits
 scopes:
 - name: Typeface Scopes
   scope_count: 4
@@ -249,15 +318,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.0
-  delta: 0.0
+  composite: 60.1
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.0
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 34.2
+    operational_transparency: 65.8
   previous_composite: 56.0
   provenance:
     agentic_access: derived
@@ -270,7 +339,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

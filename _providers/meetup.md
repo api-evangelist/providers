@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: A single-endpoint GraphQL API for accessing and managing Meetup community data including groups, events, members, tickets (RSVPs), venues, and photos. Supports querying, mutations for event creation a
@@ -92,7 +92,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 56
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meetup/refs/heads/main/screenshots/meetup-2026-06-20T185133.png
 security:

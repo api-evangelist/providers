@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -95,8 +95,11 @@ apis:
 - description: Webhook resources provides endpoints for creating, modifying and deleting webhooks.
   name: Polar Webhooks API
   slug: polar-webhooks-api
-artifact_total: 45
+artifact_total: 64
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Polar AccessLink API
   slug: open-polar-accesslink-api
@@ -104,8 +107,62 @@ collections:
   name: Polar AccessLink Webhooks
   slug: open-polar-accesslink-webhooks-asyncapi
 - collection_type: open
+  name: Polar AccessLink Cardio load API
+  slug: open-polar-cardio-load-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Continuous Heart Rate API
+  slug: open-polar-continuous-heart-rate-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Daily activity API
+  slug: open-polar-daily-activity-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Daily activity (deprecated) API
+  slug: open-polar-daily-activity-deprecated-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Elixir&trade; Biosensing API
+  slug: open-polar-elixir-trade-biosensing-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Exercises API
+  slug: open-polar-exercises-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Exercises (deprecated) API
+  slug: open-polar-exercises-deprecated-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Nightly Recharge API
+  slug: open-polar-nightly-recharge-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Physical info API
+  slug: open-polar-physical-info-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Physical info (deprecated) API
+  slug: open-polar-physical-info-deprecated-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Player training sessions API
+  slug: open-polar-player-training-sessions-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Pull notifications API
+  slug: open-polar-pull-notifications-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Sleep API
+  slug: open-polar-sleep-api
+- collection_type: open
+  name: Polar AccessLink Cardio load SleepWise&trade; API
+  slug: open-polar-sleepwise-trade-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Team API
+  slug: open-polar-team-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Team training sessions API
+  slug: open-polar-team-training-sessions-api
+- collection_type: open
   name: TeamPro API
   slug: open-polar-teampro-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Users API
+  slug: open-polar-users-api
+- collection_type: open
+  name: Polar AccessLink Cardio load Webhooks API
+  slug: open-polar-webhooks-api
 common:
 - group: agent
   title: ''
@@ -261,7 +318,7 @@ overview: 'Polar publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Polar''s developer surface includes authentication, developer portal, documentation, signup flow, code examples, support, YouTube channel, and 23 more developer resources.'
-random_paper: 62
+random_paper: 95
 scopes:
 - name: Polar Scopes
   scope_count: 2
@@ -293,7 +350,7 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polar/refs/heads/main/screenshots/polar-2026-06-20T191849.png
 security:

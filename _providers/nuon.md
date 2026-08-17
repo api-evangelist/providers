@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 16
@@ -92,11 +92,69 @@ apis:
 - description: vcs
   name: Nuon vcs API
   slug: nuon-vcs-api
-artifact_total: 24
+artifact_total: 43
 asyncapis:
 - description: 'Org-scoped webhooks deliver workflow and workflow-step lifecycle events for a Nuon Org as CloudEvents v1.0 JSON envelopes over HTTP POST. Best-effort delivery (no retries or replay); handlers must be '
   name: Nuon Org Webhooks
   slug: nuon-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nuon accounts API
+  slug: open-nuon-accounts-api
+- collection_type: open
+  name: Nuon accounts actions API
+  slug: open-nuon-actions-api
+- collection_type: open
+  name: Nuon accounts actions/runner API
+  slug: open-nuon-actions-runner-api
+- collection_type: open
+  name: Nuon accounts apps API
+  slug: open-nuon-apps-api
+- collection_type: open
+  name: Nuon accounts auth API
+  slug: open-nuon-auth-api
+- collection_type: open
+  name: Nuon accounts components API
+  slug: open-nuon-components-api
+- collection_type: open
+  name: Nuon accounts general API
+  slug: open-nuon-general-api
+- collection_type: open
+  name: Nuon accounts installs API
+  slug: open-nuon-installs-api
+- collection_type: open
+  name: Nuon accounts notebooks API
+  slug: open-nuon-notebooks-api
+- collection_type: open
+  name: Nuon accounts onboarding API
+  slug: open-nuon-onboarding-api
+- collection_type: open
+  name: Nuon accounts orgs API
+  slug: open-nuon-orgs-api
+- collection_type: open
+  name: Nuon accounts policy-reports API
+  slug: open-nuon-policy-reports-api
+- collection_type: open
+  name: Nuon accounts queues API
+  slug: open-nuon-queues-api
+- collection_type: open
+  name: Nuon accounts runbooks API
+  slug: open-nuon-runbooks-api
+- collection_type: open
+  name: Nuon accounts runners API
+  slug: open-nuon-runners-api
+- collection_type: open
+  name: Nuon accounts runners/runner API
+  slug: open-nuon-runners-runner-api
+- collection_type: open
+  name: Nuon accounts slack API
+  slug: open-nuon-slack-api
+- collection_type: open
+  name: Nuon accounts vcs API
+  slug: open-nuon-vcs-api
 common:
 - group: other
   title: ''
@@ -265,7 +323,7 @@ overview: 'Nuon publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nuon''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 30 more developer resources.'
-random_paper: 88
+random_paper: 1
 score:
   band: strong
   composite: 58.0
@@ -289,7 +347,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/screenshots/nuon-2026-08-07T185744.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -51,8 +51,20 @@ apis:
 - description: Send transactional email.
   name: MailPace Send API
   slug: mailpace-send-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MailPace API Tokens API
+  slug: open-mailpace-api-tokens-api
+- collection_type: open
+  name: MailPace API Tokens Domains API
+  slug: open-mailpace-domains-api
+- collection_type: open
+  name: MailPace API Tokens Send API
+  slug: open-mailpace-send-api
 - collection_type: open
   name: MailPace API
   slug: open-mailpace
@@ -117,7 +129,7 @@ plans:
 - name: Mailpace Plans Pricing
   plan_count: 2
   slug: mailpace-plans-pricing
-random_paper: 108
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Mailpace Rate Limits
@@ -142,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/screenshots/mailpace-2026-06-20T184903.png
 security:

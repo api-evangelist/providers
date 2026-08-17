@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The ABC Accounts API from PolySign — 3 operation(s) for abc accounts.
@@ -72,7 +72,62 @@ apis:
 - description: The utility API from PolySign — 5 operation(s) for utility.
   name: PolySign Utility API
   slug: polysign-utility-api
-artifact_total: 21
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AtomicNet ABC Proxy Service ABC Accounts API
+  slug: open-polysign-abc-accounts-api
+- collection_type: open
+  name: AtomicNet ABC Proxy Service ABC Memorials API
+  slug: open-polysign-abc-memorials-api
+- collection_type: open
+  name: AtomicNet ABC Proxy Service ABC Signing API
+  slug: open-polysign-abc-signing-api
+- collection_type: open
+  name: AtomicNet ABC Proxy Service ABC Testnet API
+  slug: open-polysign-abc-testnet-api
+- collection_type: open
+  name: Polysign Asset API
+  slug: open-polysign-asset-api
+- collection_type: open
+  name: Polysign Authentication API
+  slug: open-polysign-authentication-api
+- collection_type: open
+  name: AtomicNet API Server beneficiary authorization API
+  slug: open-polysign-beneficiary-authorization-api
+- collection_type: open
+  name: Polysign book transfer API
+  slug: open-polysign-book-transfer-api
+- collection_type: open
+  name: AtomicNet API Server book transfer confirmation API
+  slug: open-polysign-book-transfer-confirmation-api
+- collection_type: open
+  name: AtomicNet API Server escrow authorization API
+  slug: open-polysign-escrow-authorization-api
+- collection_type: open
+  name: AtomicNet API Server Investor API
+  slug: open-polysign-investor-api
+- collection_type: open
+  name: Polysign Order API
+  slug: open-polysign-order-api
+- collection_type: open
+  name: AtomicNet API Server Partner API
+  slug: open-polysign-partner-api
+- collection_type: open
+  name: AtomicNet API Server Settlement API
+  slug: open-polysign-settlement-api
+- collection_type: open
+  name: AtomicNet API Server settlement confirmation API
+  slug: open-polysign-settlement-confirmation-api
+- collection_type: open
+  name: Polysign System API
+  slug: open-polysign-system-api
+- collection_type: open
+  name: AtomicNet API Server Utility API
+  slug: open-polysign-utility-api
 common:
 - group: agent
   title: ''
@@ -182,7 +237,7 @@ overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 45
+random_paper: 140
 scopes:
 - name: Polysign Scopes
   scope_count: 1
@@ -216,7 +271,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

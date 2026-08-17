@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Store settings, folder structure, and connectivity test.
   name: Order Desk Store API
   slug: orderdesk-store-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Order Desk Inventory Items API
+  slug: open-orderdesk-inventory-items-api
+- collection_type: open
+  name: Order Desk Inventory Items Order Items API
+  slug: open-orderdesk-order-items-api
+- collection_type: open
+  name: Order Desk Inventory Items Orders API
+  slug: open-orderdesk-orders-api
+- collection_type: open
+  name: Order Desk Inventory Items Shipments API
+  slug: open-orderdesk-shipments-api
+- collection_type: open
+  name: Order Desk Inventory Items Store API
+  slug: open-orderdesk-store-api
 - collection_type: open
   name: Order Desk API
   slug: open-orderdesk
@@ -116,7 +134,7 @@ plans:
 - name: Orderdesk Plans Pricing
   plan_count: 4
   slug: orderdesk-plans-pricing
-random_paper: 3
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Orderdesk Rate Limits
@@ -141,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/screenshots/orderdesk-2026-08-07T190910.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: Care providers
   name: CharmHealth Practitioner API
   slug: charmhealth-practitioner-api
-artifact_total: 41
+artifact_total: 56
 collections:
 - collection_type: postman
   name: CharmHealth FHIR AllergyIntolerance API
@@ -126,8 +126,53 @@ collections:
   name: CharmHealth FHIR AllergyIntolerance Practitioner API
   slug: postman-charmhealth-practitioner-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance API
+  slug: open-charmhealth-allergyintolerance-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance Appointment API
+  slug: open-charmhealth-appointment-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance Capability API
+  slug: open-charmhealth-capability-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance CarePlan API
+  slug: open-charmhealth-careplan-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance CareTeam API
+  slug: open-charmhealth-careteam-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance Condition API
+  slug: open-charmhealth-condition-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance DocumentReference API
+  slug: open-charmhealth-documentreference-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance Encounter API
+  slug: open-charmhealth-encounter-api
+- collection_type: open
   name: CharmHealth FHIR API
   slug: open-charmhealth-fhir-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance Immunization API
+  slug: open-charmhealth-immunization-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance MedicationRequest API
+  slug: open-charmhealth-medicationrequest-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance Observation API
+  slug: open-charmhealth-observation-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance Organization API
+  slug: open-charmhealth-organization-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance Patient API
+  slug: open-charmhealth-patient-api
+- collection_type: open
+  name: CharmHealth FHIR AllergyIntolerance Practitioner API
+  slug: open-charmhealth-practitioner-api
 common:
 - group: build
   title: ''
@@ -260,7 +305,7 @@ plans:
 - name: Charmhealth Plans Pricing
   plan_count: 3
   slug: charmhealth-plans-pricing
-random_paper: 73
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Charmhealth Rate Limits
@@ -305,7 +350,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/screenshots/charmhealth-2026-06-20T174227.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -125,7 +125,77 @@ apis:
 - description: The Watchlists API from eToro — 12 operation(s) for watchlists.
   name: eToro Watchlists API
   slug: etoro-watchlists-api
-artifact_total: 364
+artifact_total: 387
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios API
+  slug: open-etoro-agent-portfolios-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Asset Explorer API
+  slug: open-etoro-asset-explorer-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Attachments API
+  slug: open-etoro-attachments-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Balances API
+  slug: open-etoro-balances-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Cash Accounts API
+  slug: open-etoro-cash-accounts-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Clubs API
+  slug: open-etoro-clubs-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Comments and Replies API
+  slug: open-etoro-comments-and-replies-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Comments API
+  slug: open-etoro-comments-api
+- collection_type: open
+  name: eToro Public API operations Agent Portfolios Deprecated API
+  slug: open-etoro-deprecated-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Feeds API
+  slug: open-etoro-feeds-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Identity API
+  slug: open-etoro-identity-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Likes API
+  slug: open-etoro-likes-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Market Data API
+  slug: open-etoro-market-data-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Notifications API
+  slug: open-etoro-notifications-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios PI Data API
+  slug: open-etoro-pi-data-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Posts API
+  slug: open-etoro-posts-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Price Alerts API
+  slug: open-etoro-price-alerts-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Trading - Demo API
+  slug: open-etoro-trading-demo-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Trading - Real API
+  slug: open-etoro-trading-real-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Users Info API
+  slug: open-etoro-users-info-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Users Stats API
+  slug: open-etoro-users-stats-api
+- collection_type: open
+  name: Deprecated eToro Public API operations Agent Portfolios Watchlists API
+  slug: open-etoro-watchlists-api
 common:
 - group: agent
   title: ''
@@ -1204,7 +1274,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 73
+random_paper: 106
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1244,7 +1314,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/screenshots/etoro-2026-06-20T180841.png
 security:

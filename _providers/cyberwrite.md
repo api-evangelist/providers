@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ overview: 'Cyberwrite is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cyberwrite''s developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 8
+random_paper: 45
 score:
   band: emerging
   composite: 19.0
@@ -112,7 +112,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberwrite/refs/heads/main/screenshots/cyberwrite-2026-07-25T211032.png
 security:

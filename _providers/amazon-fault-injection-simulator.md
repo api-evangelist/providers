@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -79,11 +79,32 @@ arazzos:
 - description: Fetch an existing experiment template, update its description, and start an experiment from the revised template.
   name: AWS FIS Update Template Then Run
   slug: amazon-fault-injection-simulator-update-template-then-run-workflow
-artifact_total: 71
+artifact_total: 78
 collections:
 - collection_type: postman
   name: AWS Fault Injection Simulator API
   slug: postman-amazon-fis
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Fault Injection Simulator Actions API
+  slug: open-amazon-fault-injection-simulator-actions-api
+- collection_type: open
+  name: AWS Fault Injection Simulator Actions Experiment Templates API
+  slug: open-amazon-fault-injection-simulator-experiment-templates-api
+- collection_type: open
+  name: AWS Fault Injection Simulator Actions Experiments API
+  slug: open-amazon-fault-injection-simulator-experiments-api
+- collection_type: open
+  name: AWS Fault Injection Simulator Actions Safety Levers API
+  slug: open-amazon-fault-injection-simulator-safety-levers-api
+- collection_type: open
+  name: AWS Fault Injection Simulator Actions Tagging API
+  slug: open-amazon-fault-injection-simulator-tagging-api
+- collection_type: open
+  name: AWS Fault Injection Simulator Actions Target Resource Types API
+  slug: open-amazon-fault-injection-simulator-target-resource-types-api
 - collection_type: open
   name: AWS Fault Injection Simulator API
   slug: open-amazon-fis
@@ -342,7 +363,7 @@ plans:
 - name: Amazon Fault Injection Simulator Plans Pricing
   plan_count: 3
   slug: amazon-fault-injection-simulator-plans-pricing
-random_paper: 36
+random_paper: 147
 rate_limits:
 - limit_count: 5
   name: Amazon Fault Injection Simulator Rate Limits
@@ -392,7 +413,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/screenshots/amazon-fault-injection-simulator-2026-06-20T171648.png
 security:

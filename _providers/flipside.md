@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: The JSON-RPC API from Flipside Crypto — 1 operation(s) for json-rpc.
   name: Flipside Crypto JSON-RPC API
   slug: flipside-json-rpc-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flipside Crypto Data JSON-RPC API
+  slug: open-flipside-json-rpc-api
 - collection_type: open
   name: Flipside Crypto Data API
   slug: open-flipside
@@ -108,7 +114,7 @@ plans:
 - name: Flipside Plans Pricing
   plan_count: 4
   slug: flipside-plans-pricing
-random_paper: 8
+random_paper: 103
 rate_limits:
 - limit_count: 4
   name: Flipside Rate Limits
@@ -133,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/screenshots/flipside-2026-07-25T214804.png
 security:

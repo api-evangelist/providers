@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,8 +65,32 @@ apis:
 - description: The Timeseries API from US Army Corps of Engineers — 2 operation(s) for timeseries.
   name: US Army Corps of Engineers Timeseries API
   slug: us-army-corps-of-engineers-timeseries-api
-artifact_total: 23
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USACE CWMS Data Catalog API
+  slug: open-us-army-corps-of-engineers-catalog-api
+- collection_type: open
+  name: USACE CWMS Data Catalog Levels API
+  slug: open-us-army-corps-of-engineers-levels-api
+- collection_type: open
+  name: USACE CWMS Data Catalog Locations API
+  slug: open-us-army-corps-of-engineers-locations-api
+- collection_type: open
+  name: USACE CWMS Data Catalog Offices API
+  slug: open-us-army-corps-of-engineers-offices-api
+- collection_type: open
+  name: USACE CWMS Data Catalog Ratings API
+  slug: open-us-army-corps-of-engineers-ratings-api
+- collection_type: open
+  name: USACE CWMS Data Catalog Reservoirs API
+  slug: open-us-army-corps-of-engineers-reservoirs-api
+- collection_type: open
+  name: USACE CWMS Data Catalog Timeseries API
+  slug: open-us-army-corps-of-engineers-timeseries-api
 - collection_type: open
   name: USACE CWMS Data API
   slug: open-usace-cwms-data
@@ -130,7 +154,7 @@ plans:
 - name: Us Army Corps Of Engineers Plans Pricing
   plan_count: 3
   slug: us-army-corps-of-engineers-plans-pricing
-random_paper: 57
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Us Army Corps Of Engineers Rate Limits
@@ -178,7 +202,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/screenshots/us-army-corps-of-engineers-2026-06-20T200546.png
 security:

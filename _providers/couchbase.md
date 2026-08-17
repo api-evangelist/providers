@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 9
@@ -201,14 +201,44 @@ apis:
 - description: Endpoints for managing users within a Capella organization.
   name: Couchbase Users API
   slug: couchbase-users-api
-artifact_total: 174
+artifact_total: 229
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs API
+  slug: open-couchbase-allowed-cidrs-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Analytics Admin API
+  slug: open-couchbase-analytics-admin-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Analytics Configuration API
+  slug: open-couchbase-analytics-configuration-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Analytics Library API
+  slug: open-couchbase-analytics-library-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Analytics Query API
+  slug: open-couchbase-analytics-query-api
 - collection_type: open
   name: Couchbase Analytics Service REST API
   slug: open-couchbase-analytics-service-rest-api
 - collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Analytics Settings API
+  slug: open-couchbase-analytics-settings-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs API Keys API
+  slug: open-couchbase-api-keys-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Authentication API
+  slug: open-couchbase-authentication-api
+- collection_type: open
   name: Couchbase Backup Service REST API
   slug: open-couchbase-backup-service-rest-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Buckets API
+  slug: open-couchbase-buckets-api
 - collection_type: open
   name: Couchbase Capella App Services Admin API
   slug: open-couchbase-capella-app-services-admin-api
@@ -219,23 +249,158 @@ collections:
   name: Couchbase Capella Management API
   slug: open-couchbase-capella-management-api
 - collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Changes API
+  slug: open-couchbase-changes-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Cluster API
+  slug: open-couchbase-cluster-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Cluster References API
+  slug: open-couchbase-cluster-references-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Clusters API
+  slug: open-couchbase-clusters-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Compaction API
+  slug: open-couchbase-compaction-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Configuration API
+  slug: open-couchbase-configuration-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Data API
+  slug: open-couchbase-data-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Database Administration API
+  slug: open-couchbase-database-administration-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Database API
+  slug: open-couchbase-database-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Database Credentials API
+  slug: open-couchbase-database-credentials-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Database Management API
+  slug: open-couchbase-database-management-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Documents API
+  slug: open-couchbase-documents-api
+- collection_type: open
   name: Couchbase Eventing Service REST API
   slug: open-couchbase-eventing-service-rest-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Functions API
+  slug: open-couchbase-functions-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Import Export API
+  slug: open-couchbase-import-export-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Index Service API
+  slug: open-couchbase-index-service-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Lifecycle API
+  slug: open-couchbase-lifecycle-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Local Documents API
+  slug: open-couchbase-local-documents-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Logging API
+  slug: open-couchbase-logging-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Logs API
+  slug: open-couchbase-logs-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Monitoring API
+  slug: open-couchbase-monitoring-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Nodes API
+  slug: open-couchbase-nodes-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Organizations API
+  slug: open-couchbase-organizations-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Plans API
+  slug: open-couchbase-plans-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Projects API
+  slug: open-couchbase-projects-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Query Admin API
+  slug: open-couchbase-query-admin-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Query Execution API
+  slug: open-couchbase-query-execution-api
 - collection_type: open
   name: Couchbase Query Service REST API
   slug: open-couchbase-query-service-rest-api
 - collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Query Settings API
+  slug: open-couchbase-query-settings-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Replication API
+  slug: open-couchbase-replication-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Replication Settings API
+  slug: open-couchbase-replication-settings-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Replication Statistics API
+  slug: open-couchbase-replication-statistics-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Replications API
+  slug: open-couchbase-replications-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Repositories API
+  slug: open-couchbase-repositories-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Role Management API
+  slug: open-couchbase-role-management-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Scopes and Collections API
+  slug: open-couchbase-scopes-and-collections-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Search Indexes API
+  slug: open-couchbase-search-indexes-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Search Monitoring API
+  slug: open-couchbase-search-monitoring-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Search Queries API
+  slug: open-couchbase-search-queries-api
+- collection_type: open
   name: Couchbase Search Service REST API
   slug: open-couchbase-search-service-rest-api
 - collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Security API
+  slug: open-couchbase-security-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Server API
+  slug: open-couchbase-server-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Server Groups API
+  slug: open-couchbase-server-groups-api
+- collection_type: open
   name: Couchbase Server REST API
   slug: open-couchbase-server-rest-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Settings API
+  slug: open-couchbase-settings-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Statistics API
+  slug: open-couchbase-statistics-api
 - collection_type: open
   name: Couchbase Sync Gateway Admin REST API
   slug: open-couchbase-sync-gateway-admin-rest-api
 - collection_type: open
   name: Couchbase Sync Gateway Public REST API
   slug: open-couchbase-sync-gateway-public-rest-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Tasks API
+  slug: open-couchbase-tasks-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs User Management API
+  slug: open-couchbase-user-management-api
+- collection_type: open
+  name: Couchbase Analytics Service REST Allowed CIDRs Users API
+  slug: open-couchbase-users-api
 - collection_type: open
   name: Couchbase XDCR REST API
   slug: open-couchbase-xdcr-rest-api
@@ -624,7 +789,7 @@ plans:
 - name: Couchbase Plans Pricing
   plan_count: 4
   slug: couchbase-plans-pricing
-random_paper: 101
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Couchbase Rate Limits
@@ -698,7 +863,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/screenshots/couchbase-2026-06-20T175100.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,11 +57,29 @@ apis:
 - description: International treaties
   name: US House of Representatives Treaties API
   slug: us-house-of-representatives-treaties-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Congress.gov API
   slug: open-congress-gov-api
+- collection_type: open
+  name: Congress.gov Bills API
+  slug: open-us-house-of-representatives-bills-api
+- collection_type: open
+  name: Congress.gov Bills Committees API
+  slug: open-us-house-of-representatives-committees-api
+- collection_type: open
+  name: Congress.gov Bills Members API
+  slug: open-us-house-of-representatives-members-api
+- collection_type: open
+  name: Congress.gov Bills Nominations API
+  slug: open-us-house-of-representatives-nominations-api
+- collection_type: open
+  name: Congress.gov Bills Treaties API
+  slug: open-us-house-of-representatives-treaties-api
 common:
 - group: agent
   title: ''
@@ -126,7 +144,7 @@ plans:
 - name: Us House Of Representatives Plans Pricing
   plan_count: 3
   slug: us-house-of-representatives-plans-pricing
-random_paper: 4
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Us House Of Representatives Rate Limits
@@ -174,7 +192,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/screenshots/us-house-of-representatives-2026-06-20T200622.png
 security:

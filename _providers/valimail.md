@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-12'
+  score: 49.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 57
   slug: valimail-agentic-access
   summary_line: 57 operations · 29 acting · 1 human-in-the-loop
-api_count: 16
+api_count: 17
 apis:
 - description: Retrieve email authentication metrics, sender reports, and unidentified sender reports for compliance dashboards and security insights. Documented for customers in the Valimail help center; credential
   name: Valimail Reporting Data API
@@ -87,16 +87,76 @@ apis:
 - description: The Webhooks API from Valimail — 1 operation(s) for webhooks.
   name: Valimail Webhooks API
   slug: valimail-webhooks-api
-artifact_total: 23
+- description: The Valimail Partner API is the reseller/MSP surface for managing customer accounts under a partner account — account lifecycle (create, read, update, delete, and hard-delete under /v2), user lifecycl
+  name: Valimail Partner API
+  slug: valimail-partner-api
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Valimail Webhooks
   slug: valimail-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Account Management Accounts API
+  slug: open-valimail-accounts-api
+- collection_type: open
+  name: Account Management Accounts Authentication API
+  slug: open-valimail-authentication-api
+- collection_type: open
+  name: Account Management Accounts DKIMs by Domain API
+  slug: open-valimail-dkims-by-domain-api
+- collection_type: open
+  name: Account Management Accounts DKIMs by Sender API
+  slug: open-valimail-dkims-by-sender-api
+- collection_type: open
+  name: Account Management Accounts Domains API
+  slug: open-valimail-domains-api
+- collection_type: open
+  name: Account Management Accounts MTA-STS Policy API
+  slug: open-valimail-mta-sts-policy-api
+- collection_type: open
+  name: Account Management Accounts MTA-STS Policy Reports API
+  slug: open-valimail-mta-sts-policy-reports-api
+- collection_type: open
+  name: Account Management Accounts Netblocks API
+  slug: open-valimail-netblocks-api
+- collection_type: open
+  name: Account Management Accounts Portfolios API
+  slug: open-valimail-portfolios-api
+- collection_type: open
+  name: Account Management Accounts SCIM API
+  slug: open-valimail-scim-api
+- collection_type: open
+  name: Account Management Accounts Senders API
+  slug: open-valimail-senders-api
+- collection_type: open
+  name: Account Management Accounts SSO API
+  slug: open-valimail-sso-api
+- collection_type: open
+  name: Account Management Accounts TLS Configuration API
+  slug: open-valimail-tls-configuration-api
+- collection_type: open
+  name: Account Management Accounts Users API
+  slug: open-valimail-users-api
+- collection_type: open
+  name: Account Management Accounts Webhooks API
+  slug: open-valimail-webhooks-api
 common:
 - group: other
   title: ''
   type: Overlay
   url: overlays/valimail-account-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/valimail-config-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/valimail-partner-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -137,6 +197,14 @@ common:
   title: ''
   type: Login
   url: https://app.valimail.com/auth/users/sign_in
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.valimail.com/try-monitor-free/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://support.valimail.com/en/collections/12071845-introduction-to-the-valimail-apis
 - group: commercial
   title: ''
   type: TermsOfService
@@ -209,10 +277,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/valimail-llms.txt
-- group: agent
+- group: commercial
   title: ''
-  type: WellKnown
-  url: well-known/valimail-well-known.yml
+  type: Plans
+  url: plans/valimail-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/valimail-rate-limits.yml
 - group: design
   title: ''
   type: Webhooks
@@ -241,27 +313,35 @@ mcp_servers:
 - description: ''
   name: valimail-mcp.yml
   slug: valimail-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: Valimail
 nav: Providers
 network: true
-overview: 'Valimail publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, DKIMs by Domain API, and 12 more. Tagged areas include Email Authentication, DMARC, Email Security, SPF, and DKIM.
+overview: 'Valimail publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, DKIMs by Domain API, and 13 more. Tagged areas include Email Authentication, DMARC, Email Security, SPF, and DKIM.
 
 
   The Valimail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Valimail''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 7
+  Valimail''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 33 more developer resources.'
+plans:
+- name: Valimail Plans Pricing
+  plan_count: 5
+  slug: valimail-plans-pricing
+random_paper: 102
+rate_limits:
+- limit_count: 0
+  name: Valimail Rate Limits
+  slug: valimail-rate-limits
 score:
   band: strong
-  composite: 56.6
-  delta: 0.0
+  composite: 63.9
+  delta: 7.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 61.1
+    commercial_clarity: 92.1
+    contract_quality: 60.8
     developer_ergonomics: 62.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
   previous_composite: 56.6
@@ -276,8 +356,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Valimail Authentication

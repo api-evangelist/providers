@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The clients API from OpenAPI Generator — 3 operation(s) for clients.
@@ -39,7 +39,17 @@ apis:
 - description: The servers API from OpenAPI Generator — 3 operation(s) for servers.
   name: OpenAPI Generator Servers API
   slug: openapi-generator-servers-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenAPI Generator Online Clients API
+  slug: open-openapi-generator-clients-api
+- collection_type: open
+  name: OpenAPI Generator Online Servers API
+  slug: open-openapi-generator-servers-api
 common:
 - group: other
   title: ''
@@ -177,7 +187,7 @@ plans:
 - name: Openapi Generator Plans Pricing
   plan_count: 2
   slug: openapi-generator-plans-pricing
-random_paper: 80
+random_paper: 121
 rate_limits:
 - limit_count: 0
   name: Openapi Generator Rate Limits
@@ -204,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-generator/refs/heads/main/screenshots/openapi-generator-2026-06-20T190908.png
 security:

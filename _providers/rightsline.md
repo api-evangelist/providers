@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Workflow automation and actions
   name: Rightsline Workflows API
   slug: rightsline-workflows-api
-artifact_total: 33
+artifact_total: 42
 collections:
 - collection_type: postman
   name: Rightsline Availability API
@@ -95,6 +95,33 @@ collections:
 - collection_type: postman
   name: Rightsline Availability Workflows API
   slug: postman-rightsline-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rightsline Availability API
+  slug: open-rightsline-availability-api
+- collection_type: open
+  name: Rightsline Availability Catalog API
+  slug: open-rightsline-catalog-api
+- collection_type: open
+  name: Rightsline Availability Contacts API
+  slug: open-rightsline-contacts-api
+- collection_type: open
+  name: Rightsline Availability Lists API
+  slug: open-rightsline-lists-api
+- collection_type: open
+  name: Rightsline Availability Rights API
+  slug: open-rightsline-rights-api
+- collection_type: open
+  name: Rightsline Availability Royalties API
+  slug: open-rightsline-royalties-api
+- collection_type: open
+  name: Rightsline Availability Templates API
+  slug: open-rightsline-templates-api
+- collection_type: open
+  name: Rightsline Availability Workflows API
+  slug: open-rightsline-workflows-api
 - collection_type: open
   name: Rightsline API
   slug: open-rightsline
@@ -229,7 +256,7 @@ plans:
 - name: Rightsline Plans Pricing
   plan_count: 3
   slug: rightsline-plans-pricing
-random_paper: 1
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Rightsline Rate Limits
@@ -271,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/screenshots/rightsline-2026-06-20T193119.png
 security:

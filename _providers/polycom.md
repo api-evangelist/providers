@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for the Polycom RealPresence Platform (RealPresence Resource Manager / Distributed Media Application, later Poly Clariti). Integrates the platform into business processes such as resource mon
@@ -67,7 +67,7 @@ overview: 'Polycom publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Polycom''s developer surface includes documentation, support, and 3 more developer resources.'
-random_paper: 51
+random_paper: 26
 score:
   band: minimal
   composite: 10.3
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

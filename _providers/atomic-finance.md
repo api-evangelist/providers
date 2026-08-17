@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ name: Atomic Finance
 nav: Providers
 network: true
 overview: Atomic Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Bitcoin, Discreet Log Contracts, and DLC.
-random_paper: 86
+random_paper: 65
 score:
   band: minimal
   composite: 9.6
@@ -102,7 +102,7 @@ score:
     regime_id: securities_market_data
     score: 18.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

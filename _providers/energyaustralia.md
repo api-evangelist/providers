@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,7 +47,14 @@ apis:
 - description: The mandated, authenticated Consumer Data Right consumer data-sharing surface — energy accounts, invoices, billing, balances, concessions, payment schedules, electricity service points, interval usage
   name: EnergyAustralia CDR Energy Consumer Data Sharing API
   slug: energyaustralia-cdr-energy-consumer-data-api
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: CDR Common API
+  slug: open-energyaustralia-cds-common-api
+- collection_type: open
+  name: CDR Energy API
+  slug: open-energyaustralia-cds-energy-api
 common:
 - group: agent
   title: ''
@@ -181,7 +188,7 @@ overview: 'EnergyAustralia publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   EnergyAustralia''s developer surface includes authentication, changelog, API reference, documentation, support, signup flow, pricing, and 23 more developer resources.'
-random_paper: 56
+random_paper: 126
 scopes:
 - name: Energyaustralia Scopes
   scope_count: 12
@@ -216,7 +223,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/screenshots/energyaustralia-2026-08-07T164911.png
 security:

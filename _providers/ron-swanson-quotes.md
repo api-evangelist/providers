@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Read-only operations that return one or more Ron Swanson quotes from the static quote corpus.
   name: Ron Swanson Quotes Quotes API
   slug: ron-swanson-quotes-quotes-api
-artifact_total: 31
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ron Swanson Quotes API
+  slug: open-ron-swanson-quotes-quotes-api
 - collection_type: open
   name: Ron Swanson Quotes API
   slug: open-ron-swanson-quotes
@@ -171,7 +177,7 @@ overview: 'Ron Swanson Quotes publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Ron Swanson Quotes'' developer surface includes documentation, changelog, authentication, code examples, and 10 more developer resources.'
-random_paper: 75
+random_paper: 87
 rules:
 - name: Ron Swanson Quotes API Rules
   rule_count: 4
@@ -209,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/screenshots/ron-swanson-quotes-2026-06-20T193218.png
 security:

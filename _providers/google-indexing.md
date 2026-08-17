@@ -1,9 +1,9 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  label: Free · Self-serve signup, eligibility-gated
   onboarding: self-serve
-  pricing: freemium
+  pricing: free
   public: false
   source:
   - plans
@@ -11,15 +11,15 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 41.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: The urlNotifications:publish API from Google Indexing — 1 operation(s) for urlnotifications:publish.
   name: Google Indexing urlNotifications:publish API
   slug: google-indexing-urlnotifications-publish-api
-artifact_total: 17
+artifact_total: 20
 collections:
 - collection_type: postman
   name: Google Indexing urlNotifications API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Google Indexing urlNotifications urlNotifications:publish API
   slug: postman-google-indexing-urlnotifications-publish-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Indexing urlNotifications API
+  slug: open-google-indexing-urlnotifications-api
+- collection_type: open
+  name: Google Indexing urlNotifications urlNotifications:publish API
+  slug: open-google-indexing-urlnotifications-publish-api
 - collection_type: open
   name: Google Indexing API
   slug: open-openapi
@@ -108,17 +117,109 @@ common:
 - group: operate
   title: ''
   type: StatusPage
-  url: https://status.cloud.google.com/
+  url: https://status.search.google.com/
 - group: operate
   title: ''
   type: Support
-  url: https://developers.google.com/search/apis/indexing-api/v3/support
+  url: https://support.google.com/webmasters/community
 - group: design
   title: ''
   type: JSONLD
   url: json-ld/context.jsonld
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/search/apis/indexing-api/v3/reference/indexing/rest/v3/urlNotifications
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://developers.google.com/search/apis/indexing-api/v3/quota-pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://console.cloud.google.com/apis/library/indexing.googleapis.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://developers.google.com/search/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/googleapis
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/google-indexing-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-indexing-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/google-indexing-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-indexing-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-indexing-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/google-indexing-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-indexing-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-indexing-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-indexing-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-indexing-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-indexing-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-indexing-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-indexing-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-indexing-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-indexing-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/google-indexing-finops.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/google-indexing-spectral-rules.yml
 created: '2026-03-13'
-description: The Google Indexing API allows site owners to directly notify Google when pages are added or removed. It enables requesting crawling for updated content and notifying of page removals, leading to fresher content in search results. Primarily intended for sites with job postings or livestream structured data.
+description: The Google Indexing API lets a site owner tell Google directly when a page has been added, updated, or removed, instead of waiting for a crawl. It is a two-operation API — publish a URL notification, and read back the latest notification metadata for a URL. Google restricts its use to pages carrying JobPosting structured data, or BroadcastEvent embedded in a VideoObject. It is free of charge, capped by default at 200 publish requests per day per Google Cloud project, and gated on Search Console ownership verification rather than on price.
 finops:
 - name: Google Indexing Finops
   service_category: API
@@ -134,7 +235,7 @@ jsonld:
   property_count: 0
   slug: context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Google Indexing
 nav: Providers
 network: true
@@ -144,14 +245,14 @@ overview: 'Google Indexing publishes 2 APIs on the [APIs.io](https://apis.io/) n
   The Google Indexing catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Indexing''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, and 10 more developer resources.'
+  Google Indexing''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, API reference, pricing, and 31 more developer resources.'
 plans:
 - name: Google Indexing Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: google-indexing-plans-pricing
-random_paper: 96
+random_paper: 46
 rate_limits:
-- limit_count: 5
+- limit_count: 3
   name: Google Indexing Rate Limits
   slug: google-indexing-rate-limits
 rules:
@@ -175,18 +276,18 @@ scopes:
 - name: Google Indexing Scopes
   scope_count: 1
   slug: google-indexing-scopes
-  summary_line: 1 scope · authorizationCode
+  summary_line: 1 scope · jwt-bearer/authorizationCode
 score:
-  band: developing
-  composite: 52.1
-  delta: 0.0
+  band: exemplar
+  composite: 69.4
+  delta: 17.3
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 57.9
     contract_quality: 73.1
-    developer_ergonomics: 47.8
-    discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 23.7
+    developer_ergonomics: 76.1
+    discoverability: 75.9
+    governance: 79.2
+    operational_transparency: 55.3
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -196,8 +297,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/screenshots/google-indexing-2026-06-20T182255.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,8 +60,23 @@ apis:
 - description: The User Content API from Microsoft 365 Copilot — 4 operation(s) for user content.
   name: Microsoft 365 Copilot User Content API
   slug: microsoft-365-copilot-user-content-api
-artifact_total: 39
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft 365 Copilot (Microsoft Graph) Connectors API
+  slug: open-microsoft-365-copilot-connectors-api
+- collection_type: open
+  name: Microsoft 365 Copilot (Microsoft Graph) Connectors External Items API
+  slug: open-microsoft-365-copilot-external-items-api
+- collection_type: open
+  name: Microsoft 365 Copilot (Microsoft Graph) Connectors Search API
+  slug: open-microsoft-365-copilot-search-api
+- collection_type: open
+  name: Microsoft 365 Copilot (Microsoft Graph) Connectors User Content API
+  slug: open-microsoft-365-copilot-user-content-api
 - collection_type: open
   name: Microsoft 365 Copilot (Microsoft Graph)
   slug: open-microsoft-365-copilot
@@ -142,7 +157,7 @@ plans:
 - name: Microsoft 365 Copilot Plans Pricing
   plan_count: 3
   slug: microsoft-365-copilot-plans-pricing
-random_paper: 72
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Microsoft 365 Copilot Rate Limits
@@ -172,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/screenshots/microsoft-365-copilot-2026-06-20T185342.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,12 +48,21 @@ apis:
 - description: OpenAI-compatible RAG chat completions over your content.
   name: Inkeep Chat API
   slug: inkeep-chat-api
-artifact_total: 13
+artifact_total: 16
 asyncapis:
 - description: AsyncAPI 2.6 description of Inkeep's **chat completion streaming** surface. Inkeep does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://docs.inkeep.com
   name: Inkeep Chat Completions Streaming (HTTP + SSE)
   slug: inkeep-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inkeep AI & Analytics API
+  slug: open-inkeep-analytics-api
+- collection_type: open
+  name: Inkeep AI & Analytics Chat API
+  slug: open-inkeep-chat-api
 - collection_type: open
   name: Inkeep AI & Analytics API
   slug: open-inkeep
@@ -129,7 +138,7 @@ plans:
 - name: Inkeep Plans Pricing
   plan_count: 4
   slug: inkeep-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Inkeep Rate Limits
@@ -163,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/screenshots/inkeep-2026-06-20T183352.png
 security:

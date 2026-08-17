@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -87,12 +87,39 @@ apis:
 - description: The Webhooks API from Aircall — 2 operation(s) for webhooks.
   name: Aircall Webhooks API
   slug: aircall-webhooks-api
-artifact_total: 27
+artifact_total: 36
 asyncapis:
 - description: AsyncAPI description of Aircall's outbound webhook surface. Aircall delivers event notifications by issuing HTTP POST requests with a JSON body to a subscriber `url` that is registered through the Web
   name: Aircall Webhooks
   slug: aircall-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aircall Public Calls API
+  slug: open-aircall-calls-api
+- collection_type: open
+  name: Aircall Public Calls Contacts API
+  slug: open-aircall-contacts-api
+- collection_type: open
+  name: Aircall Public Calls Conversation Intelligence API
+  slug: open-aircall-conversation-intelligence-api
+- collection_type: open
+  name: Aircall Public Calls Numbers API
+  slug: open-aircall-numbers-api
+- collection_type: open
+  name: Aircall Public Calls Tags API
+  slug: open-aircall-tags-api
+- collection_type: open
+  name: Aircall Public Calls Teams API
+  slug: open-aircall-teams-api
+- collection_type: open
+  name: Aircall Public Calls Users API
+  slug: open-aircall-users-api
+- collection_type: open
+  name: Aircall Public Calls Webhooks API
+  slug: open-aircall-webhooks-api
 - collection_type: open
   name: Aircall Public API
   slug: open-aircall
@@ -168,7 +195,7 @@ plans:
 - name: Aircall Plans Pricing
   plan_count: 1
   slug: aircall-plans-pricing
-random_paper: 8
+random_paper: 132
 rate_limits:
 - limit_count: 1
   name: Aircall Rate Limits
@@ -207,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/screenshots/aircall-2026-06-20T171433.png
 security:

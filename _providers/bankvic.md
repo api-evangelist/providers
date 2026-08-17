@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,7 +66,32 @@ arazzos:
 - description: Discover BankVic's public product catalogue then drill into one product's full terms via the unauthenticated CDR Product Reference Data (PRD) surface. Runnable as-is against the live endpoint (no cons
   name: BankVic product discovery
   slug: bankvic-product-discovery
-artifact_total: 14
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-bankvic-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-bankvic-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-bankvic-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-bankvic-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-bankvic-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-bankvic-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-bankvic-banking-products-api
 common:
 - group: agent
   title: ''
@@ -192,7 +217,7 @@ overview: 'BankVic publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   BankVic''s developer surface includes authentication, documentation, getting-started guide, API reference, support, signup flow, and 21 more developer resources.'
-random_paper: 14
+random_paper: 138
 scopes:
 - name: Bankvic Scopes
   scope_count: 9
@@ -227,7 +252,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/screenshots/bankvic-2026-07-21T114709.png
 security:

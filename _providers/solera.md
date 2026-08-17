@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: 'Enterprise API document and valuation retrieval, and the best-documented of the Solera retrieval surfaces: every operation carries a worked example in its summary, including a real assignment identifi'
   name: Solera EAPI Get Document API
   slug: solera-eapi-getdocument-api
-artifact_total: 13
+artifact_total: 23
 asyncapis:
 - description: 'Audatex Integrations (EAPI) pushes claim lifecycle events to a CLIENT-hosted HTTPS endpoint. The client registers its callback endpoints and the credentials Audatex should use, per assignment, in the '
   name: Solera / Audatex EAPI Event Callbacks
@@ -54,6 +54,37 @@ asyncapis:
 - description: ''
   name: Solera Webhooks
   slug: solera-webhooks
+collections:
+- collection_type: open
+  name: ClaimImages API
+  slug: open-solera-claim-images-prod-swagger
+- collection_type: open
+  name: ClaimImages API
+  slug: open-solera-claim-images
+- collection_type: open
+  name: Solera Dashboard Assignment API
+  slug: open-solera-dashboard-assignment
+- collection_type: open
+  name: EAPI Get Document API
+  slug: open-solera-eapi-getdocument
+- collection_type: open
+  name: Solera Enterprise API
+  slug: open-solera-enterprise-assignment-prod-swagger
+- collection_type: open
+  name: Audatex GetDocuments API
+  slug: open-solera-getdocuments-v1
+- collection_type: open
+  name: Audatex GetDocuments API
+  slug: open-solera-getdocuments-v2
+- collection_type: open
+  name: Audatex Assignment Get Document API
+  slug: open-solera-getimage-v1
+- collection_type: open
+  name: Audatex Assignment Get Document API
+  slug: open-solera-getimage-v2
+- collection_type: open
+  name: EAPI GIC Integration API
+  slug: open-solera-gic-integration
 common:
 - group: agent
   title: ''
@@ -232,7 +263,7 @@ overview: 'Solera publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Solera''s developer surface includes authentication, engineering blog, API reference, documentation, sandbox, changelog, support, and 32 more developer resources.'
-random_paper: 46
+random_paper: 50
 scopes:
 - name: Solera Scopes
   scope_count: 4
@@ -267,7 +298,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

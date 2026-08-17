@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -63,8 +63,35 @@ apis:
 - description: The Tenants API from Estuary — 3 operation(s) for tenants.
   name: Estuary Tenants API
   slug: estuary-tenants-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Estuary Flow Control Plane Auth API
+  slug: open-estuary-auth-api
+- collection_type: open
+  name: Estuary Flow Control Plane Auth Captures API
+  slug: open-estuary-captures-api
+- collection_type: open
+  name: Estuary Flow Control Plane Auth Collections API
+  slug: open-estuary-collections-api
+- collection_type: open
+  name: Estuary Flow Control Plane Auth Connectors API
+  slug: open-estuary-connectors-api
+- collection_type: open
+  name: Estuary Flow Control Plane Auth Drafts API
+  slug: open-estuary-drafts-api
+- collection_type: open
+  name: Estuary Flow Control Plane Auth Materializations API
+  slug: open-estuary-materializations-api
+- collection_type: open
+  name: Estuary Flow Control Plane Auth Publications API
+  slug: open-estuary-publications-api
+- collection_type: open
+  name: Estuary Flow Control Plane Auth Tenants API
+  slug: open-estuary-tenants-api
 - collection_type: open
   name: Estuary Flow Control Plane API
   slug: open-estuary
@@ -133,7 +160,7 @@ plans:
 - name: Estuary Plans Pricing
   plan_count: 3
   slug: estuary-plans-pricing
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Estuary Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/screenshots/estuary-2026-07-25T213644.png
 security:

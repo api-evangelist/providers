@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Analysis contexts within a site that hold shapes and widgets.
   name: Propeller Aero Workspaces API
   slug: propeller-aero-workspaces-api
-artifact_total: 14
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Propeller Public Organizations API
+  slug: open-propeller-aero-organizations-api
+- collection_type: open
+  name: Propeller Public Organizations Position Monitoring API
+  slug: open-propeller-aero-position-monitoring-api
+- collection_type: open
+  name: Propeller Public Organizations Shapes API
+  slug: open-propeller-aero-shapes-api
+- collection_type: open
+  name: Propeller Public Organizations Sites API
+  slug: open-propeller-aero-sites-api
+- collection_type: open
+  name: Propeller Public Organizations Surveys API
+  slug: open-propeller-aero-surveys-api
+- collection_type: open
+  name: Propeller Public Organizations Widgets API
+  slug: open-propeller-aero-widgets-api
+- collection_type: open
+  name: Propeller Public Organizations Workspaces API
+  slug: open-propeller-aero-workspaces-api
 common:
 - group: agent
   title: ''
@@ -138,7 +163,7 @@ plans:
 - name: Propeller Aero Plans Pricing
   plan_count: 3
   slug: propeller-aero-plans-pricing
-random_paper: 9
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Propeller Aero Rate Limits
@@ -163,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

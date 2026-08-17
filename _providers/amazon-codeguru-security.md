@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - description: The UploadUrl API from Amazon CodeGuru Security — 1 operation(s) for uploadurl.
   name: Amazon CodeGuru Security UploadUrl API
   slug: amazon-codeguru-security-uploadurl-api
-artifact_total: 253
+artifact_total: 262
 collections:
 - collection_type: postman
   name: Amazon CodeGuru Security AccountConfiguration API
@@ -88,6 +88,33 @@ collections:
 - collection_type: postman
   name: Amazon CodeGuru Security AccountConfiguration UploadUrl API
   slug: postman-amazon-codeguru-security-uploadurl-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CodeGuru Security AccountConfiguration API
+  slug: open-amazon-codeguru-security-accountconfiguration-api
+- collection_type: open
+  name: Amazon CodeGuru Security AccountConfiguration BatchGetFindings API
+  slug: open-amazon-codeguru-security-batchgetfindings-api
+- collection_type: open
+  name: Amazon CodeGuru Security AccountConfiguration Findings API
+  slug: open-amazon-codeguru-security-findings-api
+- collection_type: open
+  name: Amazon CodeGuru Security AccountConfiguration Metrics API
+  slug: open-amazon-codeguru-security-metrics-api
+- collection_type: open
+  name: Amazon CodeGuru Security AccountConfiguration Scans API
+  slug: open-amazon-codeguru-security-scans-api
+- collection_type: open
+  name: Amazon CodeGuru Security AccountConfiguration Tags API
+  slug: open-amazon-codeguru-security-tags-api
+- collection_type: open
+  name: Amazon CodeGuru Security AccountConfiguration UpdateAccountConfiguration API
+  slug: open-amazon-codeguru-security-updateaccountconfiguration-api
+- collection_type: open
+  name: Amazon CodeGuru Security AccountConfiguration UploadUrl API
+  slug: open-amazon-codeguru-security-uploadurl-api
 common:
 - group: other
   title: ''
@@ -892,7 +919,7 @@ overview: 'Amazon CodeGuru Security publishes 8 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Security''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 86
+random_paper: 102
 rules:
 - name: Amazon CodeGuru Security API Rules
   rule_count: 5
@@ -932,7 +959,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/screenshots/amazon-codeguru-security-2026-07-25T200005.png
 security:

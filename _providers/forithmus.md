@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -113,7 +113,86 @@ apis:
 - description: The users API from Forithmus — 8 operation(s) for users.
   name: Forithmus users API
   slug: forithmus-users-api
-artifact_total: 29
+artifact_total: 55
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa API
+  slug: open-forithmus-2fa-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa admin API
+  slug: open-forithmus-admin-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa auth API
+  slug: open-forithmus-auth-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa challenges API
+  slug: open-forithmus-challenges-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa collections API
+  slug: open-forithmus-collections-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa credits API
+  slug: open-forithmus-credits-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa data-upload API
+  slug: open-forithmus-data-upload-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa forum API
+  slug: open-forithmus-forum-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa groups API
+  slug: open-forithmus-groups-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa Health API
+  slug: open-forithmus-health-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa images API
+  slug: open-forithmus-images-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa leaderboard API
+  slug: open-forithmus-leaderboard-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa members API
+  slug: open-forithmus-members-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa messages API
+  slug: open-forithmus-messages-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa notifications API
+  slug: open-forithmus-notifications-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa pages API
+  slug: open-forithmus-pages-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa payments API
+  slug: open-forithmus-payments-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa phases API
+  slug: open-forithmus-phases-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa resources API
+  slug: open-forithmus-resources-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa roles API
+  slug: open-forithmus-roles-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa search API
+  slug: open-forithmus-search-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa submissions API
+  slug: open-forithmus-submissions-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa timeline API
+  slug: open-forithmus-timeline-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa uploads API
+  slug: open-forithmus-uploads-api
+- collection_type: open
+  name: Forithmus Challenge Platform 2fa users API
+  slug: open-forithmus-users-api
 common:
 - group: other
   title: ''
@@ -215,7 +294,7 @@ overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Forithmus'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, CLI, and 14 more developer resources.'
-random_paper: 33
+random_paper: 99
 score:
   band: thin
   composite: 33.7
@@ -245,7 +324,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/screenshots/forithmus-2026-07-25T214941.png
 security:

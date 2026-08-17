@@ -11,25 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 51.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -78,7 +78,11 @@ apis:
 - description: Manage saved dashboard views (segments)
   name: Swetrix Views API
   slug: swetrix-views-api
-artifact_total: 44
+artifact_total: 58
+asyncapis:
+- description: ''
+  name: Swetrix Alerts Webhooks
+  slug: swetrix-alerts-webhooks
 collections:
 - collection_type: postman
   name: Swetrix Admin Annotations API
@@ -117,14 +121,53 @@ collections:
   name: Swetrix Admin Annotations Views API
   slug: postman-swetrix-views-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Swetrix Admin API
   slug: open-swetrix-admin-api
 - collection_type: open
-  name: Swetrix Events API
+  name: Swetrix Admin Annotations API
+  slug: open-swetrix-annotations-api
+- collection_type: open
+  name: Swetrix Admin Annotations Custom Events API
+  slug: open-swetrix-custom-events-api
+- collection_type: open
+  name: Swetrix Admin Annotations Errors API
+  slug: open-swetrix-errors-api
+- collection_type: open
+  name: Swetrix Admin Annotations Events API
   slug: open-swetrix-events-api
+- collection_type: open
+  name: Swetrix Admin Annotations Feature Flags API
+  slug: open-swetrix-feature-flags-api
+- collection_type: open
+  name: Swetrix Admin Annotations Funnels API
+  slug: open-swetrix-funnels-api
+- collection_type: open
+  name: Swetrix Admin Annotations Organisations API
+  slug: open-swetrix-organisations-api
+- collection_type: open
+  name: Swetrix Admin Annotations Performance API
+  slug: open-swetrix-performance-api
+- collection_type: open
+  name: Swetrix Admin Annotations Projects API
+  slug: open-swetrix-projects-api
+- collection_type: open
+  name: Swetrix Admin Annotations Revenue API
+  slug: open-swetrix-revenue-api
+- collection_type: open
+  name: Swetrix Admin Annotations Sessions API
+  slug: open-swetrix-sessions-api
 - collection_type: open
   name: Swetrix Statistics API
   slug: open-swetrix-statistics-api
+- collection_type: open
+  name: Swetrix Admin Annotations Traffic API
+  slug: open-swetrix-traffic-api
+- collection_type: open
+  name: Swetrix Admin Annotations Views API
+  slug: open-swetrix-views-api
 common:
 - group: build
   title: ''
@@ -192,28 +235,20 @@ common:
   url: https://github.com/Swetrix/swetrix-api
 - group: build
   title: ''
-  type: SDKs
-  url: https://github.com/Swetrix/swetrix-js
+  type: JavaScript SDK
+  url: https://www.npmjs.com/package/swetrix
 - group: build
   title: ''
-  type: SDKs
-  url: https://github.com/Swetrix/swetrix-nextjs
-- group: build
-  title: ''
-  type: SDKs
-  url: https://github.com/Swetrix/swetrix-browser
-- group: build
-  title: ''
-  type: SDKs
-  url: https://github.com/Swetrix/django-plugin
+  type: Node.js SDK
+  url: https://www.npmjs.com/package/@swetrix/node
 - group: operate
   title: ''
   type: StatusPage
-  url: https://swetrix.com/status
+  url: https://status.swetrix.com/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://swetrix.com/privacy
+  url: https://swetrix.com/terms
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -222,6 +257,154 @@ common:
   title: ''
   type: LlmsText
   url: https://swetrix.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/swetrix-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/swetrix-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/swetrix-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/swetrix-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/swetrix-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/swetrix-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/swetrix-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/swetrix-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://github.com/Swetrix/swetrix/releases
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/swetrix-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://swetrix.com/dpa
+- group: auth
+  title: ''
+  type: Security
+  url: https://swetrix.com/security
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/swetrix-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/swetrix-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/swetrix-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/swetrix-alerts-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/swetrix-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/swetrix-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/swetrix-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/swetrix-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/swetrix-rules.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/swetrix-jsonschema-spectral-rules.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/swetrix-project-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/swetrix-session-schema.json
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/swetrix-project-structure.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/swetrix-context.jsonld
+- group: build
+  title: ''
+  type: Examples
+  url: examples/swetrix-create-project-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/swetrix-record-pageview-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/swetrix-get-traffic-log-example.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://swetrix.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://swetrix.com/docs/statistics-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://swetrix.com/docs/install-script
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://github.com/Swetrix/swetrix/issues
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.gg/ZVK8Tw2E8j
+- group: company
+  title: ''
+  type: X (Twitter)
+  url: https://x.com/swetrix
+- group: other
+  title: ''
+  type: DataPolicy
+  url: https://swetrix.com/data-policy
 created: '2026-03-26'
 description: Swetrix is an open source, privacy-focused web analytics platform that provides cookieless tracking, real-time dashboards, and GDPR-compliant analytics without collecting personal data. It offers a fully-featured REST API for tracking events, querying statistics, managing projects, and integrating analytics into custom applications.
 examples:
@@ -256,24 +439,24 @@ jsonld:
   property_count: 6
   slug: swetrix-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Swetrix
 nav: Providers
 network: true
 overview: 'Swetrix publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Events API, Annotations API, Custom Events API, and 10 more. Tagged areas include Analytics, Cookieless Tracking, GDPR Compliant, Open Source, and Privacy.
 
 
-  The Swetrix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Swetrix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Swetrix''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 17 more developer resources.'
+  Swetrix''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 52 more developer resources.'
 plans:
 - name: Swetrix Plans Pricing
-  plan_count: 10
+  plan_count: 3
   slug: swetrix-plans-pricing
-random_paper: 70
+random_paper: 45
 rate_limits:
-- limit_count: 1
+- limit_count: 3
   name: Swetrix Rate Limits
   slug: swetrix-rate-limits
 rules:
@@ -294,16 +477,16 @@ rules:
     warn: 6
   slug: swetrix-rules
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: exemplar
+  composite: 78.0
+  delta: 20.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.3
-    developer_ergonomics: 45.7
+    commercial_clarity: 68.4
+    contract_quality: 78.3
+    developer_ergonomics: 84.8
     discoverability: 81.5
-    governance: 58.3
-    operational_transparency: 26.3
+    governance: 89.6
+    operational_transparency: 68.4
   previous_composite: 57.1
   provenance:
     agentic_access: derived
@@ -313,8 +496,8 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/screenshots/swetrix-2026-06-20T194812.png
 security:
 - kind: authentication
@@ -328,7 +511,7 @@ security:
 - kind: vulnerability-disclosure
   name: Swetrix Vulnerability Disclosure
   slug: swetrix-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone · contact published
 slug: swetrix
 tags:
 - Analytics

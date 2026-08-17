@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,17 @@ apis:
 - description: API to work on records
   name: École Normale Supérieure de Paris Dataset API
   slug: ens-paris-dataset-api
-artifact_total: 19
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Explore Catalog API
+  slug: open-ens-paris-catalog-api
+- collection_type: open
+  name: Explore Catalog Dataset API
+  slug: open-ens-paris-dataset-api
 common:
 - group: agent
   title: ''
@@ -150,7 +160,7 @@ plans:
 - name: Ens Paris Plans Pricing
   plan_count: 2
   slug: ens-paris-plans-pricing
-random_paper: 74
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Ens Paris Rate Limits
@@ -198,7 +208,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/screenshots/ens-paris-2026-06-20T180723.png
 security:

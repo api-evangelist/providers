@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Full-text and faceted dataset discovery.
   name: CMS Open Payments Search API
   slug: open-payments-search-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CMS Open Payments Datastore Query API
+  slug: open-open-payments-datastore-query-api
+- collection_type: open
+  name: CMS Open Payments Datastore Query Datastore SQL API
+  slug: open-open-payments-datastore-sql-api
+- collection_type: open
+  name: CMS Open Payments Datastore Query Download API
+  slug: open-open-payments-download-api
+- collection_type: open
+  name: CMS Open Payments Datastore Query Metastore API
+  slug: open-open-payments-metastore-api
+- collection_type: open
+  name: CMS Open Payments Datastore Query Search API
+  slug: open-open-payments-search-api
 - collection_type: open
   name: CMS Open Payments API
   slug: open-open-payments
@@ -116,7 +134,7 @@ plans:
 - name: Open Payments Plans Pricing
   plan_count: 1
   slug: open-payments-plans-pricing
-random_paper: 40
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Open Payments Rate Limits
@@ -147,7 +165,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/screenshots/open-payments-2026-08-07T190513.png
 security:

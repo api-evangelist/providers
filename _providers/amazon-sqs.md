@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: The Tags API from Amazon SQS — 1 operation(s) for tags.
   name: Amazon SQS Tags API
   slug: amazon-sqs-tags-api
-artifact_total: 95
+artifact_total: 100
 asyncapis:
 - description: AsyncAPI specification for Amazon SQS event-driven messaging patterns. Amazon SQS provides reliable, highly-scalable hosted queues for storing messages as they travel between applications or microserv
   name: Amazon Simple Queue Service (SQS) Event Source Mapping
@@ -69,6 +69,21 @@ collections:
 - collection_type: postman
   name: Amazon SQS Amazon Simple Queue Service (SQS) Messages Tags API
   slug: postman-amazon-sqs-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon SQS Amazon Simple Queue Service (SQS) Messages API
+  slug: open-amazon-sqs-messages-api
+- collection_type: open
+  name: Amazon SQS Amazon Simple Queue Service (SQS) Messages Permissions API
+  slug: open-amazon-sqs-permissions-api
+- collection_type: open
+  name: Amazon SQS Amazon Simple Queue Service (SQS) Messages Queues API
+  slug: open-amazon-sqs-queues-api
+- collection_type: open
+  name: Amazon SQS Amazon Simple Queue Service (SQS) Messages Tags API
+  slug: open-amazon-sqs-tags-api
 - collection_type: open
   name: Amazon SQS Amazon Simple Queue Service (SQS) API
   slug: open-amazon-sqs
@@ -359,7 +374,7 @@ plans:
 - name: Amazon Sqs Plans Pricing
   plan_count: 3
   slug: amazon-sqs-plans-pricing
-random_paper: 74
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Amazon Sqs Rate Limits
@@ -409,7 +424,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/screenshots/amazon-sqs-2026-06-20T171828.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -66,11 +66,38 @@ apis:
 - description: User account management
   name: Synapse Users API
   slug: synapse-users-api
-artifact_total: 23
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Synapse Admin API
   slug: open-synapse-admin-api
+- collection_type: open
+  name: Synapse Admin Federation API
+  slug: open-synapse-federation-api
+- collection_type: open
+  name: Synapse Admin Federation Media API
+  slug: open-synapse-media-api
+- collection_type: open
+  name: Synapse Admin Federation Registration API
+  slug: open-synapse-registration-api
+- collection_type: open
+  name: Synapse Admin Federation Reports API
+  slug: open-synapse-reports-api
+- collection_type: open
+  name: Synapse Admin Federation Rooms API
+  slug: open-synapse-rooms-api
+- collection_type: open
+  name: Synapse Admin Federation Server API
+  slug: open-synapse-server-api
+- collection_type: open
+  name: Synapse Admin Federation Statistics API
+  slug: open-synapse-statistics-api
+- collection_type: open
+  name: Synapse Admin Federation Users API
+  slug: open-synapse-users-api
 common:
 - group: agent
   title: ''
@@ -180,7 +207,7 @@ plans:
 - name: Synapse Plans Pricing
   plan_count: 2
   slug: synapse-plans-pricing
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 11
   name: Synapse Rate Limits
@@ -222,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/screenshots/synapse-2026-06-20T194821.png
 security:

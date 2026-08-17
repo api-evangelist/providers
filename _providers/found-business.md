@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Free business checking with a Mastercard business debit card, team cards with spend controls, check and cash deposits, wires, check payments, contractor payments, and sub-accounts. App feature only; n
@@ -46,8 +46,11 @@ apis:
 - description: Unlimited contractor payments with no per-contractor fees, flexible payment methods, W-9 collection, and free 1099-NEC generation and filing. App feature only; no public API is documented.
   name: Found Contractor Management
   slug: found-contractors
-artifact_total: 12
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Found
   slug: open-found-business
@@ -108,7 +111,7 @@ plans:
 - name: Found Business Plans Pricing
   plan_count: 3
   slug: found-business-plans-pricing
-random_paper: 21
+random_paper: 120
 rate_limits:
 - limit_count: 0
   name: Found Business Rate Limits
@@ -132,7 +135,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/screenshots/found-business-2026-06-20T181457.png
 security:

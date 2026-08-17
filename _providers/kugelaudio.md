@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The 11labs API from KugelAudio — 6 operation(s) for 11labs.
@@ -73,11 +73,57 @@ apis:
 - description: The Voices API from KugelAudio — 6 operation(s) for voices.
   name: KugelAudio Voices API
   slug: kugelaudio-voices-api
-artifact_total: 18
+artifact_total: 33
 asyncapis:
 - description: API Evangelist description of KugelAudio's documented WebSocket streaming surface. KugelAudio publishes no AsyncAPI document of its own; this file is GENERATED from the provider's own published wire-f
   name: KugelAudio TTS Streaming API
   slug: kugelaudio-tts-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: KugelAudio TTS 11labs API
+  slug: open-kugelaudio-11labs-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Audio API
+  slug: open-kugelaudio-audio-api
+- collection_type: open
+  name: KugelAudio TTS 11labs billing API
+  slug: open-kugelaudio-billing-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Dictionaries API
+  slug: open-kugelaudio-dictionaries-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Health API
+  slug: open-kugelaudio-health-api
+- collection_type: open
+  name: KugelAudio TTS 11labs license API
+  slug: open-kugelaudio-license-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Models API
+  slug: open-kugelaudio-models-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Normalize API
+  slug: open-kugelaudio-normalize-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Post Overrides API
+  slug: open-kugelaudio-post-overrides-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Predict API
+  slug: open-kugelaudio-predict-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Ready API
+  slug: open-kugelaudio-ready-api
+- collection_type: open
+  name: KugelAudio 11labs Tts API
+  slug: open-kugelaudio-tts-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Vapi API
+  slug: open-kugelaudio-vapi-api
+- collection_type: open
+  name: KugelAudio TTS 11labs Voices API
+  slug: open-kugelaudio-voices-api
 common:
 - group: agent
   title: ''
@@ -211,7 +257,7 @@ overview: 'KugelAudio publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   KugelAudio''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 106
+random_paper: 23
 score:
   band: developing
   composite: 50.3
@@ -234,7 +280,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/screenshots/kugelaudio-2026-07-25T224326.png
 security:

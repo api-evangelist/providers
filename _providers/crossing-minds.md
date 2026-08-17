@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Universal B2B recommendation API — ingest users, items, ratings and interactions, then query profile-to-items, session-to-items and item-to-items recommendations. JWT authenticated, multi-database.
@@ -132,7 +132,7 @@ overview: 'Crossing Minds publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Crossing Minds'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 15 more developer resources.'
-random_paper: 16
+random_paper: 115
 score:
   band: emerging
   composite: 25.0
@@ -149,7 +149,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossing-minds/refs/heads/main/screenshots/crossing-minds-2026-07-25T210759.png
 security:

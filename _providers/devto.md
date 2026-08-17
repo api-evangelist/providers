@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -96,7 +96,68 @@ apis:
 - description: The videos API from DEV Community — 2 operation(s) for videos.
   name: DEV Community videos API
   slug: devto-videos-api
-artifact_total: 201
+artifact_total: 221
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Forem API V1 agent_sessions API
+  slug: open-devto-agent-sessions-api
+- collection_type: open
+  name: Forem API V1 agent_sessions articles API
+  slug: open-devto-articles-api
+- collection_type: open
+  name: Forem API V1 agent_sessions billboards API
+  slug: open-devto-billboards-api
+- collection_type: open
+  name: Forem API V1 agent_sessions comments API
+  slug: open-devto-comments-api
+- collection_type: open
+  name: Forem API V1 agent_sessions display ads API
+  slug: open-devto-display-ads-api
+- collection_type: open
+  name: Forem API V1 agent_sessions followed_tags API
+  slug: open-devto-followed-tags-api
+- collection_type: open
+  name: Forem API V1 agent_sessions followers API
+  slug: open-devto-followers-api
+- collection_type: open
+  name: Forem API V1 agent_sessions organizations API
+  slug: open-devto-organizations-api
+- collection_type: open
+  name: Forem API V1 agent_sessions pages API
+  slug: open-devto-pages-api
+- collection_type: open
+  name: Forem API V1 agent_sessions podcast_episodes API
+  slug: open-devto-podcast-episodes-api
+- collection_type: open
+  name: Forem API V1 agent_sessions profile images API
+  slug: open-devto-profile-images-api
+- collection_type: open
+  name: Forem API V1 agent_sessions reactions API
+  slug: open-devto-reactions-api
+- collection_type: open
+  name: Forem API V1 agent_sessions readinglist API
+  slug: open-devto-readinglist-api
+- collection_type: open
+  name: Forem API V1 agent_sessions segments API
+  slug: open-devto-segments-api
+- collection_type: open
+  name: Forem API V1 agent_sessions surveys API
+  slug: open-devto-surveys-api
+- collection_type: open
+  name: Forem API V1 agent_sessions tags API
+  slug: open-devto-tags-api
+- collection_type: open
+  name: Forem API V1 agent_sessions trends API
+  slug: open-devto-trends-api
+- collection_type: open
+  name: Forem API V1 agent_sessions users API
+  slug: open-devto-users-api
+- collection_type: open
+  name: Forem API V1 agent_sessions videos API
+  slug: open-devto-videos-api
 common:
 - group: agent
   title: ''
@@ -705,7 +766,7 @@ plans:
 - name: Devto Plans Pricing
   plan_count: 2
   slug: devto-plans-pricing
-random_paper: 66
+random_paper: 99
 rate_limits:
 - limit_count: 0
   name: Devto Rate Limits
@@ -739,7 +800,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devto/refs/heads/main/screenshots/devto-2026-06-20T175951.png
 security:

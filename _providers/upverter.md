@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Upverter
 nav: Providers
 network: true
 overview: Upverter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Electronics, PCB Design, and EDA.
-random_paper: 53
+random_paper: 148
 score:
   band: minimal
   composite: 6.4
@@ -70,7 +70,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

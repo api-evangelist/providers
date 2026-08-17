@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ apis:
 - description: Access and manage supplier profiles, onboarding, qualifications, performance, and risk assessments on the SAP Ariba Network.
   name: SAP Ariba Suppliers API
   slug: sap-ariba-suppliers-api
-artifact_total: 243
+artifact_total: 250
 collections:
 - collection_type: postman
   name: SAP Ariba Procurement Invoices API
@@ -294,8 +294,29 @@ collections:
   name: SAP Ariba Procurement Invoices Suppliers API
   slug: postman-sap-ariba-suppliers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP Ariba Procurement Invoices API
+  slug: open-sap-ariba-invoices-api
+- collection_type: open
   name: SAP Ariba Procurement API
   slug: open-sap-ariba-procurement-api
+- collection_type: open
+  name: SAP Ariba Procurement Invoices Purchase Order Line Items API
+  slug: open-sap-ariba-purchase-order-line-items-api
+- collection_type: open
+  name: SAP Ariba Procurement Invoices Purchase Orders API
+  slug: open-sap-ariba-purchase-orders-api
+- collection_type: open
+  name: SAP Ariba Procurement Invoices Receipts API
+  slug: open-sap-ariba-receipts-api
+- collection_type: open
+  name: SAP Ariba Procurement Invoices Requisitions API
+  slug: open-sap-ariba-requisitions-api
+- collection_type: open
+  name: SAP Ariba Procurement Invoices Suppliers API
+  slug: open-sap-ariba-suppliers-api
 common:
 - group: build
   title: ''
@@ -868,7 +889,7 @@ plans:
 - name: Sap Ariba Plans Pricing
   plan_count: 1
   slug: sap-ariba-plans-pricing
-random_paper: 40
+random_paper: 135
 rate_limits:
 - limit_count: 1
   name: Sap Ariba Rate Limits
@@ -915,7 +936,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/screenshots/sap-ariba-2026-06-20T193415.png
 security:

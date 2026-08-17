@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Usage API from SnapAPI — 1 operation(s) for usage.
   name: SnapAPI Usage API
   slug: snapapi-usage-api
-artifact_total: 27
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Snap Metadata API
+  slug: open-snapapi-metadata-api
+- collection_type: open
+  name: Snap Metadata Pdf API
+  slug: open-snapapi-pdf-api
+- collection_type: open
+  name: Snap Metadata Screenshot API
+  slug: open-snapapi-screenshot-api
+- collection_type: open
+  name: Snap Metadata Signup API
+  slug: open-snapapi-signup-api
+- collection_type: open
+  name: Snap Metadata Text API
+  slug: open-snapapi-text-api
+- collection_type: open
+  name: Snap Metadata Usage API
+  slug: open-snapapi-usage-api
 - collection_type: open
   name: SnapAPI
   slug: open-snapapi
@@ -158,7 +179,7 @@ plans:
 - name: Snapapi Plans Pricing
   plan_count: 5
   slug: snapapi-plans-pricing
-random_paper: 28
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Snapapi Rate Limits
@@ -200,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/screenshots/snapapi-2026-06-20T194100.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: The Products API from Shoppable — 1 operation(s) for products.
   name: Shoppable Products API
   slug: shoppable-products-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shoppable Commerce API Suite Catalog API
+  slug: open-shoppable-catalog-api
+- collection_type: open
+  name: Shoppable Commerce API Suite Catalog Checkout API
+  slug: open-shoppable-checkout-api
+- collection_type: open
+  name: Shoppable Commerce API Suite Catalog Merchants API
+  slug: open-shoppable-merchants-api
+- collection_type: open
+  name: Shoppable Commerce API Suite Catalog OrderData API
+  slug: open-shoppable-orderdata-api
+- collection_type: open
+  name: Shoppable Commerce API Suite Catalog Orders API
+  slug: open-shoppable-orders-api
+- collection_type: open
+  name: Shoppable Commerce API Suite Catalog Products API
+  slug: open-shoppable-products-api
 common:
 - group: other
   title: ''
@@ -166,7 +188,7 @@ overview: 'Shoppable publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Shoppable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 16 more developer resources.'
-random_paper: 118
+random_paper: 64
 score:
   band: developing
   composite: 48.3
@@ -196,7 +218,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

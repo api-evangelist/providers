@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,11 +57,32 @@ apis:
 - description: Operations on header and item text records
   name: SAP S/4HANA Text API
   slug: sap-s4hana-text-api
-artifact_total: 89
+artifact_total: 96
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP S/4HANA Sales Order Partners API
+  slug: open-sap-s4hana-partners-api
+- collection_type: open
+  name: SAP S/4HANA Sales Order Partners Pricing Elements API
+  slug: open-sap-s4hana-pricing-elements-api
+- collection_type: open
+  name: SAP S/4HANA Sales Order Partners Sales Order Items API
+  slug: open-sap-s4hana-sales-order-items-api
 - collection_type: open
   name: SAP S/4HANA Sales Order API
   slug: open-sap-s4hana-sales-order
+- collection_type: open
+  name: SAP S/4HANA Sales Order Partners Sales Orders API
+  slug: open-sap-s4hana-sales-orders-api
+- collection_type: open
+  name: SAP S/4HANA Sales Order Partners Schedule Lines API
+  slug: open-sap-s4hana-schedule-lines-api
+- collection_type: open
+  name: SAP S/4HANA Sales Order Partners Text API
+  slug: open-sap-s4hana-text-api
 common:
 - group: agent
   title: ''
@@ -382,7 +403,7 @@ plans:
 - name: Sap S4Hana Plans Pricing
   plan_count: 1
   slug: sap-s4hana-plans-pricing
-random_paper: 104
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Sap S4Hana Rate Limits
@@ -429,7 +450,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/screenshots/sap-s4hana-2026-06-20T193430.png
 security:

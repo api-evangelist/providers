@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,11 +56,32 @@ apis:
 - description: The Uptime API from Fluent Bit — 1 operation(s) for uptime.
   name: Fluent Bit Uptime API
   slug: fluent-bit-uptime-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fluent Bit Monitoring HTTP Build API
+  slug: open-fluent-bit-build-api
+- collection_type: open
+  name: Fluent Bit Monitoring HTTP Build Health API
+  slug: open-fluent-bit-health-api
+- collection_type: open
+  name: Fluent Bit Monitoring HTTP Build Metrics API
+  slug: open-fluent-bit-metrics-api
 - collection_type: open
   name: Fluent Bit Monitoring HTTP API
   slug: open-fluent-bit-monitoring
+- collection_type: open
+  name: Fluent Bit Monitoring HTTP Build Reload API
+  slug: open-fluent-bit-reload-api
+- collection_type: open
+  name: Fluent Bit Monitoring HTTP Build Storage API
+  slug: open-fluent-bit-storage-api
+- collection_type: open
+  name: Fluent Bit Monitoring HTTP Build Uptime API
+  slug: open-fluent-bit-uptime-api
 common:
 - group: operate
   title: ''
@@ -138,7 +159,7 @@ plans:
 - name: Fluent Bit Plans Pricing
   plan_count: 3
   slug: fluent-bit-plans-pricing
-random_paper: 58
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Fluent Bit Rate Limits
@@ -163,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/screenshots/fluent-bit-2026-06-20T181333.png
 security:

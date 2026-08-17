@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,11 +50,20 @@ apis:
 - description: JSON Schema for the KEV catalog
   name: Cybersecurity and Infrastructure Security Agency Schema API
   slug: cybersecurity-and-infrastructure-security-agency-schema-api
-artifact_total: 15
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: CISA Known Exploited Vulnerabilities (KEV) Catalog API
   slug: open-cisa-kev
+- collection_type: open
+  name: CISA Known Exploited Vulnerabilities () Catalog KEV API
+  slug: open-cybersecurity-and-infrastructure-security-agency-kev-api
+- collection_type: open
+  name: CISA Known Exploited Vulnerabilities () Catalog KEV Schema API
+  slug: open-cybersecurity-and-infrastructure-security-agency-schema-api
 common:
 - group: agent
   title: ''
@@ -164,7 +173,7 @@ plans:
 - name: Cybersecurity And Infrastructure Security Agency Plans Pricing
   plan_count: 3
   slug: cybersecurity-and-infrastructure-security-agency-plans-pricing
-random_paper: 44
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Cybersecurity And Infrastructure Security Agency Rate Limits
@@ -212,7 +221,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/screenshots/cybersecurity-and-infrastructure-security-agency-2026-06-20T175408.png
 security:

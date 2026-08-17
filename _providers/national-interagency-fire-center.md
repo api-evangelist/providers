@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: The Services API from National Interagency Fire Center — 1 operation(s) for services.
   name: National Interagency Fire Center Services API
   slug: national-interagency-fire-center-services-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NIFC ArcGIS REST Services FeatureServer API
+  slug: open-national-interagency-fire-center-featureserver-api
+- collection_type: open
+  name: NIFC ArcGIS REST Services FeatureServer Layer API
+  slug: open-national-interagency-fire-center-layer-api
+- collection_type: open
+  name: NIFC ArcGIS REST FeatureServer Services API
+  slug: open-national-interagency-fire-center-services-api
 - collection_type: open
   name: NIFC ArcGIS REST Services API
   slug: open-national-interagency-fire-center
@@ -97,7 +109,7 @@ plans:
 - name: National Interagency Fire Center Plans Pricing
   plan_count: 3
   slug: national-interagency-fire-center-plans-pricing
-random_paper: 109
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: National Interagency Fire Center Rate Limits
@@ -128,7 +140,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-interagency-fire-center/refs/heads/main/screenshots/national-interagency-fire-center-2026-06-20T190038.png
 security:

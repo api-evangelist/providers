@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ arazzos:
 - description: Fetch a user profile, then resolve the shop that user owns.
   name: Etsy User Shop Profile
   slug: etsy-user-shop-profile-workflow
-artifact_total: 319
+artifact_total: 346
 asyncapis:
 - description: AsyncAPI description of Etsy's outbound webhook surface for the Open API v3. Etsy delivers event notifications by issuing HTTP POST requests with a JSON body to a subscriber-configured callback URL. S
   name: Etsy Open API v3 Webhooks
@@ -187,6 +187,87 @@ collections:
 - collection_type: postman
   name: Etsy Open API v3
   slug: postman-etsy-openapi-original
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy API
+  slug: open-etsy-buyertaxonomy-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Ledger Entry API
+  slug: open-etsy-ledger-entry-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Other API
+  slug: open-etsy-other-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Payment API
+  slug: open-etsy-payment-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy SellerTaxonomy API
+  slug: open-etsy-sellertaxonomy-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Shop API
+  slug: open-etsy-shop-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Shop HolidayPreferences API
+  slug: open-etsy-shop-holidaypreferences-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Shop ProcessingProfiles API
+  slug: open-etsy-shop-processingprofiles-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Shop ProductionPartner API
+  slug: open-etsy-shop-productionpartner-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Shop Receipt API
+  slug: open-etsy-shop-receipt-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Shop Receipt Transactions API
+  slug: open-etsy-shop-receipt-transactions-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Shop Return Policy API
+  slug: open-etsy-shop-return-policy-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Shop Section API
+  slug: open-etsy-shop-section-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy Shop ShippingProfile API
+  slug: open-etsy-shop-shippingprofile-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing API
+  slug: open-etsy-shoplisting-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing File API
+  slug: open-etsy-shoplisting-file-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing Image API
+  slug: open-etsy-shoplisting-image-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing Inventory API
+  slug: open-etsy-shoplisting-inventory-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing Offering API
+  slug: open-etsy-shoplisting-offering-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing Personalization API
+  slug: open-etsy-shoplisting-personalization-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing Product API
+  slug: open-etsy-shoplisting-product-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing Translation API
+  slug: open-etsy-shoplisting-translation-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing VariationImage API
+  slug: open-etsy-shoplisting-variationimage-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy ShopListing Video API
+  slug: open-etsy-shoplisting-video-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy User API
+  slug: open-etsy-user-api
+- collection_type: open
+  name: Etsy Open API v3 BuyerTaxonomy UserAddress API
+  slug: open-etsy-useraddress-api
 common:
 - group: operate
   title: ''
@@ -1197,7 +1278,7 @@ plans:
 - name: Etsy Plans Pricing
   plan_count: 3
   slug: etsy-plans-pricing
-random_paper: 93
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Etsy Rate Limits
@@ -1258,7 +1339,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Operations for creating, listing, configuring, and deleting SNS topics. Topics are communication channels to which messages are published and from which notifications are delivered to subscribers.
   name: Amazon SNS Topics API
   slug: amazon-sns-topics-api
-artifact_total: 123
+artifact_total: 132
 asyncapis:
 - description: 'Amazon Simple Notification Service (SNS) delivers notifications to subscribed endpoints when messages are published to topics. This AsyncAPI specification describes the notification messages that SNS '
   name: Amazon SNS Notifications
@@ -94,8 +94,35 @@ collections:
   name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource Topics API
   slug: postman-amazon-sns-topics-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource ?Action=ListTagsForResource API
+  slug: open-amazon-sns-action-listtagsforresource-api
+- collection_type: open
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource ?Action=TagResource API
+  slug: open-amazon-sns-action-tagresource-api
+- collection_type: open
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource ?Action=UntagResource API
+  slug: open-amazon-sns-action-untagresource-api
+- collection_type: open
   name: Amazon SNS Amazon Simple Notification Service (SNS) API
   slug: open-amazon-sns-api
+- collection_type: open
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource Platform Applications API
+  slug: open-amazon-sns-platform-applications-api
+- collection_type: open
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource Publishing API
+  slug: open-amazon-sns-publishing-api
+- collection_type: open
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource SMS API
+  slug: open-amazon-sns-sms-api
+- collection_type: open
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource Subscriptions API
+  slug: open-amazon-sns-subscriptions-api
+- collection_type: open
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource Topics API
+  slug: open-amazon-sns-topics-api
 common:
 - group: operate
   title: ''
@@ -467,7 +494,7 @@ plans:
 - name: Amazon Sns Plans Pricing
   plan_count: 3
   slug: amazon-sns-plans-pricing
-random_paper: 71
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: Amazon Sns Rate Limits
@@ -523,7 +550,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png
 security:

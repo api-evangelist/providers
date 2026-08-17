@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Health, readiness, and engine-level metadata.
   name: Marqo Telemetry API
   slug: marqo-telemetry-api
-artifact_total: 41
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Marqo REST Documents API
+  slug: open-marqo-documents-api
+- collection_type: open
+  name: Marqo REST Documents Embeddings API
+  slug: open-marqo-embeddings-api
+- collection_type: open
+  name: Marqo REST Documents Indexes API
+  slug: open-marqo-indexes-api
+- collection_type: open
+  name: Marqo REST Documents Models API
+  slug: open-marqo-models-api
+- collection_type: open
+  name: Marqo REST Documents Recommendations API
+  slug: open-marqo-recommendations-api
+- collection_type: open
+  name: Marqo REST Documents Search API
+  slug: open-marqo-search-api
+- collection_type: open
+  name: Marqo REST Documents Telemetry API
+  slug: open-marqo-telemetry-api
 - collection_type: open
   name: Marqo REST API
   slug: open-marqo
@@ -240,7 +264,7 @@ plans:
 - name: Marqo Plans Pricing
   plan_count: 1
   slug: marqo-plans-pricing
-random_paper: 64
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: Marqo Rate Limits
@@ -265,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/screenshots/marqo-2026-06-20T185006.png
 security:

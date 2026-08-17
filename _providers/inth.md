@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Consent API from Inth — 1 operation(s) for consent.
@@ -46,7 +46,26 @@ apis:
 - description: The Subjects API from Inth — 2 operation(s) for subjects.
   name: Inth Subjects API
   slug: inth-subjects-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: c15t Backend Consent API
+  slug: open-inth-consent-api
+- collection_type: open
+  name: c15t Backend Consent Init API
+  slug: open-inth-init-api
+- collection_type: open
+  name: c15t Backend Consent Legal Documents API
+  slug: open-inth-legal-documents-api
+- collection_type: open
+  name: c15t Backend Consent Status API
+  slug: open-inth-status-api
+- collection_type: open
+  name: c15t Backend Consent Subjects API
+  slug: open-inth-subjects-api
 common:
 - group: other
   title: ''
@@ -192,7 +211,7 @@ overview: 'Inth publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Inth''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 25 more developer resources.'
-random_paper: 75
+random_paper: 137
 score:
   band: developing
   composite: 53.3
@@ -215,7 +234,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/screenshots/inth-2026-07-25T222721.png
 security:

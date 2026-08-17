@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Manage conversations (legacy apisociety 2.0 API)
@@ -43,7 +43,23 @@ apis:
 - description: Manage variables within a conversation (legacy apisociety 2.0 API)
   name: BotSociety Variables API
   slug: botsociety-variables-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Botsociety Conversations API
+  slug: open-botsociety-conversations-api
+- collection_type: open
+  name: Botsociety Conversations Designs API
+  slug: open-botsociety-designs-api
+- collection_type: open
+  name: Botsociety Conversations Messages API
+  slug: open-botsociety-messages-api
+- collection_type: open
+  name: Botsociety Conversations Variables API
+  slug: open-botsociety-variables-api
 common:
 - group: company
   title: ''
@@ -133,7 +149,7 @@ overview: 'BotSociety publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   BotSociety''s developer surface includes documentation, API reference, authentication, changelog, and 14 more developer resources.'
-random_paper: 13
+random_paper: 50
 score:
   band: thin
   composite: 33.6
@@ -156,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/screenshots/botsociety-2026-07-25T203642.png
 security:

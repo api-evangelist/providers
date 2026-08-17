@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Mondoo Platform API is a GraphQL API for programmatically querying assets, configuring integrations, and fetching vulnerability, policy, and compliance reports. Authentication is token-based via s
@@ -168,7 +168,7 @@ overview: 'Mondoo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mondoo''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, CLI, and 22 more developer resources.'
-random_paper: 52
+random_paper: 56
 score:
   band: thin
   composite: 41.1
@@ -192,7 +192,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/screenshots/mondoo-2026-08-07T184145.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,8 +66,32 @@ apis:
 - description: Octopus Energy product catalog and tariff lookups.
   name: Octopus Energy Products API
   slug: octopus-energy-products-api
-artifact_total: 44
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Octopus Energy Public Consumption API
+  slug: open-octopus-energy-consumption-api
+- collection_type: open
+  name: Octopus Energy Public Consumption ElectricityMeterPoints API
+  slug: open-octopus-energy-electricitymeterpoints-api
+- collection_type: open
+  name: Octopus Energy Public Consumption ElectricityTariffs API
+  slug: open-octopus-energy-electricitytariffs-api
+- collection_type: open
+  name: Octopus Energy Public Consumption GasMeterPoints API
+  slug: open-octopus-energy-gasmeterpoints-api
+- collection_type: open
+  name: Octopus Energy Public Consumption GasTariffs API
+  slug: open-octopus-energy-gastariffs-api
+- collection_type: open
+  name: Octopus Energy Public Consumption Industry API
+  slug: open-octopus-energy-industry-api
+- collection_type: open
+  name: Octopus Energy Public Consumption Products API
+  slug: open-octopus-energy-products-api
 - collection_type: open
   name: Octopus Energy Public API
   slug: open-octopus-energy-public-api
@@ -333,7 +357,7 @@ plans:
 - name: Octopus Energy Plans Pricing
   plan_count: 2
   slug: octopus-energy-plans-pricing
-random_paper: 36
+random_paper: 135
 rate_limits:
 - limit_count: 3
   name: Octopus Energy Rate Limits
@@ -381,7 +405,7 @@ score:
     regime_id: energy_utilities
     score: 36.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/screenshots/octopus-energy-2026-06-20T190615.png
 security:

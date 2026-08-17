@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH v2.0) endpoint for Oxford's institutional open-access repository (theses, datasets, and journal articles). Supports verbs such as Ide
@@ -112,7 +112,7 @@ plans:
 - name: University Of Oxford Plans Pricing
   plan_count: 2
   slug: university-of-oxford-plans-pricing
-random_paper: 43
+random_paper: 146
 rate_limits:
 - limit_count: 1
   name: University Of Oxford Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 19.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/screenshots/university-of-oxford-2026-06-20T200220.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Maven provides a Java API for programmatic build execution, a Plugin API (Mojo) for extending build capabilities, a Repository API for artifact management via Maven Artifact Resolver, and the Wagon tr
@@ -181,7 +181,7 @@ plans:
 - name: Apache Maven Plans Pricing
   plan_count: 3
   slug: apache-maven-plans-pricing
-random_paper: 110
+random_paper: 147
 rate_limits:
 - limit_count: 5
   name: Apache Maven Rate Limits
@@ -199,7 +199,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-maven/refs/heads/main/screenshots/apache-maven-2026-06-20T172120.png
 security:

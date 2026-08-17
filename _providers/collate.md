@@ -29,17 +29,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The OpenMetadata REST API — a JWT-authenticated (Bearer) CRUD API over every data asset and governance entity in OpenMetadata (databases, schemas, tables, dashboards, charts, pipelines, topics, contai
   name: OpenMetadata REST API
   slug: collate-openmetadata-rest-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Collate Webhooks
   slug: collate-webhooks
+collections:
+- collection_type: open
+  name: OpenMetadata APIs
+  slug: open-collate-openmetadata
 common:
 - group: company
   title: ''
@@ -180,7 +184,7 @@ overview: 'Collate publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
 
   Collate''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 23 more developer resources.'
-random_paper: 20
+random_paper: 144
 score:
   band: developing
   composite: 49.2
@@ -202,7 +206,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collate/refs/heads/main/screenshots/collate-2026-07-25T210043.png
 security:

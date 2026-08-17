@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -77,11 +77,54 @@ apis:
 - description: The watchlists API from River Markets — 4 operation(s) for watchlists.
   name: River Markets watchlists API
   slug: river-markets-watchlists-api
-artifact_total: 18
+artifact_total: 32
 asyncapis:
 - description: 'Real-time WebSocket streams over wss://api.rivermarkets.com. Client frames are JSON text; server frames are orjson-serialized UTF-8 bytes. Handshake auth uses the Ed25519 signed-request flow moved to '
   name: River Markets Streaming API
   slug: river-markets-streaming-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: River Markets balance API
+  slug: open-river-markets-balance-api
+- collection_type: open
+  name: River Markets balance complex-orders API
+  slug: open-river-markets-complex-orders-api
+- collection_type: open
+  name: River Markets balance fair-values API
+  slug: open-river-markets-fair-values-api
+- collection_type: open
+  name: River Markets balance fills API
+  slug: open-river-markets-fills-api
+- collection_type: open
+  name: River Markets balance generic-assets API
+  slug: open-river-markets-generic-assets-api
+- collection_type: open
+  name: River balance markets API
+  slug: open-river-markets-markets-api
+- collection_type: open
+  name: River Markets balance orderbooks API
+  slug: open-river-markets-orderbooks-api
+- collection_type: open
+  name: River Markets balance orders API
+  slug: open-river-markets-orders-api
+- collection_type: open
+  name: River Markets balance positions API
+  slug: open-river-markets-positions-api
+- collection_type: open
+  name: River Markets balance prices API
+  slug: open-river-markets-prices-api
+- collection_type: open
+  name: River Markets balance subaccounts API
+  slug: open-river-markets-subaccounts-api
+- collection_type: open
+  name: River Markets balance tradeprints API
+  slug: open-river-markets-tradeprints-api
+- collection_type: open
+  name: River Markets balance watchlists API
+  slug: open-river-markets-watchlists-api
 common:
 - group: start
   title: ''
@@ -190,7 +233,7 @@ overview: 'River Markets publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   River Markets'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 17 more developer resources.'
-random_paper: 36
+random_paper: 15
 score:
   band: thin
   composite: 39.9
@@ -220,7 +263,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

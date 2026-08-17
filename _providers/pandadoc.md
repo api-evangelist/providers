@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: Operations for managing organization workspaces, including listing, creating, and deactivating workspaces.
   name: PandaDoc Workspaces API
   slug: pandadoc-workspaces-api
-artifact_total: 112
+artifact_total: 128
 asyncapis:
 - description: The PandaDoc webhook system delivers real-time event notifications to registered subscriber endpoints when document lifecycle and platform events occur. PandaDoc sends HTTP POST requests containing JS
   name: PandaDoc Webhook Events
@@ -136,8 +136,56 @@ collections:
   name: PandaDoc REST API Logs Workspaces API
   slug: postman-pandadoc-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PandaDoc REST API Logs API
+  slug: open-pandadoc-api-logs-api
+- collection_type: open
+  name: PandaDoc REST API Logs Contacts API
+  slug: open-pandadoc-contacts-api
+- collection_type: open
+  name: PandaDoc REST API Logs Document Attachments API
+  slug: open-pandadoc-document-attachments-api
+- collection_type: open
+  name: PandaDoc REST API Logs Document Fields API
+  slug: open-pandadoc-document-fields-api
+- collection_type: open
+  name: PandaDoc REST API Logs Document Link to CRM API
+  slug: open-pandadoc-document-link-to-crm-api
+- collection_type: open
+  name: PandaDoc REST API Logs Document Recipients API
+  slug: open-pandadoc-document-recipients-api
+- collection_type: open
+  name: PandaDoc REST API Logs Document Reminders API
+  slug: open-pandadoc-document-reminders-api
+- collection_type: open
+  name: PandaDoc REST API Logs Documents API
+  slug: open-pandadoc-documents-api
+- collection_type: open
+  name: PandaDoc REST API Logs Folders API
+  slug: open-pandadoc-folders-api
+- collection_type: open
+  name: PandaDoc REST API Logs Forms API
+  slug: open-pandadoc-forms-api
+- collection_type: open
+  name: PandaDoc REST API Logs Members API
+  slug: open-pandadoc-members-api
+- collection_type: open
   name: PandaDoc REST API
   slug: open-pandadoc-rest-api
+- collection_type: open
+  name: PandaDoc REST API Logs Templates API
+  slug: open-pandadoc-templates-api
+- collection_type: open
+  name: PandaDoc REST API Logs Webhook Events API
+  slug: open-pandadoc-webhook-events-api
+- collection_type: open
+  name: PandaDoc REST API Logs Webhook Subscriptions API
+  slug: open-pandadoc-webhook-subscriptions-api
+- collection_type: open
+  name: PandaDoc REST API Logs Workspaces API
+  slug: open-pandadoc-workspaces-api
 common:
 - group: build
   title: ''
@@ -425,7 +473,7 @@ plans:
 - name: Pandadoc Plans Pricing
   plan_count: 4
   slug: pandadoc-plans-pricing
-random_paper: 106
+random_paper: 81
 rate_limits:
 - limit_count: 2
   name: Pandadoc Rate Limits
@@ -472,7 +520,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/screenshots/pandadoc-2026-06-20T191334.png
 security:

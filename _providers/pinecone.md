@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - description: The Vector Operations API from Pinecone — 10 operation(s) for vector operations.
   name: Pinecone Vector Operations API
   slug: pinecone-vector-operations-api
-artifact_total: 227
+artifact_total: 237
 collections:
 - collection_type: postman
   name: Pinecone Admin API Keys API
@@ -84,6 +84,36 @@ collections:
 - collection_type: postman
   name: Pinecone Admin API Keys Vector Operations API
   slug: postman-pinecone-vector-operations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pinecone Admin API Keys API
+  slug: open-pinecone-api-keys-api
+- collection_type: open
+  name: Pinecone Admin API Keys Bulk Operations API
+  slug: open-pinecone-bulk-operations-api
+- collection_type: open
+  name: Pinecone Admin API Keys Inference API
+  slug: open-pinecone-inference-api
+- collection_type: open
+  name: Pinecone Admin API Keys Manage Assistants API
+  slug: open-pinecone-manage-assistants-api
+- collection_type: open
+  name: Pinecone Admin API Keys Manage Indexes API
+  slug: open-pinecone-manage-indexes-api
+- collection_type: open
+  name: Pinecone Admin API Keys Namespace Operations API
+  slug: open-pinecone-namespace-operations-api
+- collection_type: open
+  name: Pinecone Admin API Keys Organizations API
+  slug: open-pinecone-organizations-api
+- collection_type: open
+  name: Pinecone Admin API Keys Projects API
+  slug: open-pinecone-projects-api
+- collection_type: open
+  name: Pinecone Admin API Keys Vector Operations API
+  slug: open-pinecone-vector-operations-api
 common:
 - group: build
   title: ''
@@ -780,7 +810,7 @@ plans:
 - name: Pinecone Plans Pricing
   plan_count: 4
   slug: pinecone-plans-pricing
-random_paper: 9
+random_paper: 104
 rate_limits:
 - limit_count: 4
   name: Pinecone Rate Limits
@@ -814,7 +844,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/screenshots/pinecone-2026-06-20T191712.png
 security:

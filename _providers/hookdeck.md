@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 7
@@ -133,7 +133,7 @@ arazzos:
 - description: Idempotently create or update a connection by name, then confirm the result.
   name: Hookdeck Upsert a Connection by Name
   slug: hookdeck-upsert-connection-workflow
-artifact_total: 95
+artifact_total: 102
 collections:
 - collection_type: postman
   name: Hookdeck Bookmarks API
@@ -172,40 +172,61 @@ collections:
   name: Hookdeck Transformations API
   slug: postman-hookdeck-transformations-api
 - collection_type: open
-  name: Hookdeck Bookmarks API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hookdeck Bookmarks Attempts API
+  slug: open-hookdeck-attempts-api
+- collection_type: open
+  name: Hookdeck Attempts Bookmarks API
   slug: open-hookdeck-bookmarks-api
+- collection_type: open
+  name: Hookdeck Bookmarks Attempts Bulk cancel events API
+  slug: open-hookdeck-bulk-cancel-events-api
 - collection_type: open
   name: Hookdeck Bulk Operations API
   slug: open-hookdeck-bulk-operations-api
 - collection_type: open
-  name: Hookdeck Connections API
+  name: Hookdeck Bookmarks Attempts Bulk retry events API
+  slug: open-hookdeck-bulk-retry-events-api
+- collection_type: open
+  name: Hookdeck Bookmarks Attempts Bulk retry ignored events API
+  slug: open-hookdeck-bulk-retry-ignored-events-api
+- collection_type: open
+  name: Hookdeck Bookmarks Attempts Bulk retry requests API
+  slug: open-hookdeck-bulk-retry-requests-api
+- collection_type: open
+  name: Hookdeck Bookmarks Attempts Connections API
   slug: open-hookdeck-connections-api
 - collection_type: open
-  name: Hookdeck Destinations API
+  name: Hookdeck Bookmarks Attempts Destinations API
   slug: open-hookdeck-destinations-api
 - collection_type: open
-  name: Hookdeck Events API
+  name: Hookdeck Bookmarks Attempts Events API
   slug: open-hookdeck-events-api
 - collection_type: open
-  name: Hookdeck Integrations API
+  name: Hookdeck Bookmarks Attempts Integrations API
   slug: open-hookdeck-integrations-api
 - collection_type: open
-  name: Hookdeck Issues API
+  name: Hookdeck Bookmarks Attempts Issue Triggers API
+  slug: open-hookdeck-issue-triggers-api
+- collection_type: open
+  name: Hookdeck Bookmarks Attempts Issues API
   slug: open-hookdeck-issues-api
 - collection_type: open
-  name: Hookdeck Metrics API
+  name: Hookdeck Bookmarks Attempts Metrics API
   slug: open-hookdeck-metrics-api
 - collection_type: open
-  name: Hookdeck Notifications API
+  name: Hookdeck Bookmarks Attempts Notifications API
   slug: open-hookdeck-notifications-api
 - collection_type: open
-  name: Hookdeck Requests API
+  name: Hookdeck Bookmarks Attempts Requests API
   slug: open-hookdeck-requests-api
 - collection_type: open
-  name: Hookdeck Sources API
+  name: Hookdeck Bookmarks Attempts Sources API
   slug: open-hookdeck-sources-api
 - collection_type: open
-  name: Hookdeck Transformations API
+  name: Hookdeck Bookmarks Attempts Transformations API
   slug: open-hookdeck-transformations-api
 common:
 - group: operate
@@ -517,7 +538,7 @@ plans:
 - name: Hookdeck Plans Pricing
   plan_count: 3
   slug: hookdeck-plans-pricing
-random_paper: 0
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Hookdeck Rate Limits
@@ -551,7 +572,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png
 security:

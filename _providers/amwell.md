@@ -13,24 +13,24 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-12'
+  score: 12.2
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
-- description: Amwell's Converge platform REST APIs, which leverage HL7 FHIR and single sign-on, let partners embed and orchestrate virtual care — urgent, scheduled, behavioral, and specialty visits — into their own
+- description: 'Amwell''s Converge platform REST APIs, which Amwell states leverage HL7 FHIR and single sign-on, let partners embed and orchestrate virtual care — urgent, scheduled, behavioral, and specialty visits — '
   name: Amwell Converge Platform API
   slug: amwell-converge-platform-api
-- description: Amwell's embedded telehealth software development kits for iOS, Android, and web, enabling organizations to plug live virtual visits directly into their own consumer and clinical applications. SDK doc
+- description: Amwell's embedded telehealth software development kits for iOS, Android, and web, enabling organizations to plug live virtual visits directly into their own consumer and clinical applications. The SDK
   name: Amwell Telehealth SDK
   slug: amwell-telehealth-sdk
-- description: Amwell's verified embedded-telehealth integrations for the Epic and Oracle Cerner electronic health records, using single sign-on and FHIR-based workflows to launch virtual visits from within existing
+- description: 'Amwell''s verified embedded-telehealth integration for Epic, delivered through the Epic App Orchard, and its embedded telehealth solution inside Oracle Cerner Millennium, both launching virtual visits '
   name: Amwell EHR Integration
   slug: amwell-ehr-integration
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -40,10 +40,6 @@ common:
   title: ''
   type: Website
   url: https://www.amwell.com
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://developers.amwell.com
 - group: docs
   title: ''
   type: Documentation
@@ -56,6 +52,10 @@ common:
   title: ''
   type: StatusPage
   url: https://status.amwell.com
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/amwell-lifecycle.yml
 - group: operate
   title: ''
   type: Support
@@ -83,32 +83,67 @@ common:
 - group: auth
   title: ''
   type: Compliance
-  url: https://business.amwell.com/government/
+  url: https://business.amwell.com/who-we-serve/government
+- group: build
+  title: ''
+  type: Packages
+  url: packages/amwell-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/amwell-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/amwell-rate-limits.yml
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/amwell-llms.txt
+coverage:
+  checked: '2026-08-15'
+  detail: Amwell publishes no developer surface at all — developers.amwell.com is a wildcard vhost that answers 200 with the consumer Amwell "Online Care" sign-up app for any subdomain, including ones that do not exist — and the only stated route to the Converge API and telehealth SDK is emailing SDK@americanwell.com or the partner contact form.
+  evidence:
+  - status: 200
+    url: https://developers.amwell.com/
+  - status: 200
+    url: https://zzz-not-a-real-host-9x.amwell.com/
+  - status: 404
+    url: https://developers.amwell.com/openapi.json
+  - status: 404
+    url: https://business.amwell.com/pricing/
+  reason: sales-gate
+  state: gated
 created: '2026-07-24'
-description: Amwell (American Well) is a United States telehealth and hybrid-care technology company headquartered in Boston, Massachusetts, whose Converge platform delivers virtual and in-person care at scale for health systems, health plans, and government programs. Converge is built on an open architecture whose APIs leverage HL7 FHIR, single sign-on, and embedded telehealth mobile and web SDKs (iOS, Android, web) so partners can plug urgent, scheduled, behavioral, and specialty virtual visits directly into their own consumer apps, patient portals, and clinical workflows. Amwell ships verified embedded-telehealth integrations with the Epic and Oracle Cerner EHRs and connects software-enabled Carepoint devices. The developer surface is a gated partner developer portal (developers.amwell.com) — the REST/FHIR API reference, SDKs, and sandbox sit behind a partner login rather than an anonymous public spec.
+description: Amwell (American Well) is a United States telehealth and hybrid-care technology company headquartered in Boston, Massachusetts, whose Converge platform delivers virtual and in-person care at scale for health systems, health plans, employers, and government programs. Amwell describes Converge as an open architecture whose APIs leverage HL7 FHIR and single sign-on, with embedded telehealth mobile and web SDKs (iOS, Android, web) so partners can plug urgent, scheduled, behavioral, and specialty virtual visits directly into their own consumer apps, patient portals, and clinical workflows. Amwell ships a verified embedded-telehealth integration with Epic through the Epic App Orchard and an embedded telehealth solution inside Oracle Cerner Millennium, and connects software-enabled Carepoint devices. Amwell publishes no public developer portal, API reference, or machine-readable specification of any kind — SDK and API access is arranged through a partner and sales conversation (SDK@americanwell.com),
+  so the integration contract is not readable before a deal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-08-15'
 name: Amwell
 nav: Providers
 network: true
 overview: 'Amwell publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Telehealth, Virtual Care, and FHIR.
 
 
-  Amwell''s developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 42
+  Amwell''s developer surface includes documentation, engineering blog, support, authentication, and 13 more developer resources.'
+plans:
+- name: Amwell Plans Pricing
+  plan_count: 0
+  slug: amwell-plans-pricing
+random_paper: 46
+rate_limits:
+- limit_count: 0
+  name: Amwell Rate Limits
+  slug: amwell-rate-limits
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 24.1
+  delta: -1.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 12.5
     operational_transparency: 15.8
@@ -122,7 +157,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amwell/refs/heads/main/screenshots/amwell-2026-07-25T200143.png
 security:

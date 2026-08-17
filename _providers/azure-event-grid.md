@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: Publish events to a topic
   name: Azure Event Grid Publish API
   slug: azure-event-grid-publish-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Event Grid Publisher Namespace Topics API
+  slug: open-azure-event-grid-namespace-topics-api
+- collection_type: open
+  name: Azure Event Grid Publisher Namespace Topics Publish API
+  slug: open-azure-event-grid-publish-api
 - collection_type: open
   name: Azure Event Grid Publisher API
   slug: open-azure-event-grid
@@ -105,7 +114,7 @@ overview: 'Azure Event Grid publishes 2 APIs on the [APIs.io](https://apis.io/) 
 
 
   Azure Event Grid''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 49
+random_paper: 119
 scopes:
 - name: Azure Event Grid Scopes
   scope_count: 1
@@ -131,7 +140,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/screenshots/azure-event-grid-2026-06-20T172903.png
 security:

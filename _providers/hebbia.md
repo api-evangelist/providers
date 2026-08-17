@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Matrix is Hebbia''s flagship AI workspace for reasoning across unstructured enterprise documents at scale. It runs spreadsheet-style queries (rows and columns) over very large document sets to extract '
@@ -99,7 +99,7 @@ plans:
 - name: Hebbia Plans Pricing
   plan_count: 1
   slug: hebbia-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Hebbia Rate Limits
@@ -117,7 +117,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hebbia/refs/heads/main/screenshots/hebbia-2026-06-20T182608.png
 security:

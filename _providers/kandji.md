@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -38,7 +38,14 @@ apis:
 - description: 'Hosted, tenant-scoped Model Context Protocol server that exposes the Iru Enterprise API surface as MCP tools for Claude Desktop, Cursor, OpenAI Codex and other MCP clients. Enabled per API token with '
   name: Iru MCP Server
   slug: iru-mcp-server
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Iru Endpoint Management API
+  slug: open-kandji-endpoint-management
+- collection_type: open
+  name: Upload to S3
+  slug: open-kandji-upload-to-s3
 common:
 - group: agent
   title: ''
@@ -224,7 +231,7 @@ overview: 'Iru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Endp
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
-random_paper: 25
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Kandji Rate Limits
@@ -252,7 +259,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/screenshots/kandji-2026-08-07T171059.png
 security:

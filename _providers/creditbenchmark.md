@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -56,7 +56,38 @@ apis:
 - description: Portfolio-level analytics and summaries
   name: Credit Benchmark Portfolio Analytics API
   slug: creditbenchmark-portfolio-analytics-api
-artifact_total: 12
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Credit Benchmark Analytics API
+  slug: open-creditbenchmark-analytics-api
+- collection_type: open
+  name: Credit Benchmark Analytics Authentication API
+  slug: open-creditbenchmark-authentication-api
+- collection_type: open
+  name: Credit Benchmark Analytics Contributor Data API
+  slug: open-creditbenchmark-contributor-data-api
+- collection_type: open
+  name: Credit Benchmark analytics data API
+  slug: open-creditbenchmark-data-api
+- collection_type: open
+  name: Credit Benchmark Analytics Entity Data API
+  slug: open-creditbenchmark-entity-data-api
+- collection_type: open
+  name: Credit Benchmark Analytics Entity Matching API
+  slug: open-creditbenchmark-entity-matching-api
+- collection_type: open
+  name: Credit Benchmark analytics entity-resolution API
+  slug: open-creditbenchmark-entity-resolution-api
+- collection_type: open
+  name: Credit Benchmark analytics metadata API
+  slug: open-creditbenchmark-metadata-api
+- collection_type: open
+  name: Credit Benchmark Analytics Portfolio Analytics API
+  slug: open-creditbenchmark-portfolio-analytics-api
 common:
 - group: start
   title: ''
@@ -178,7 +209,7 @@ overview: 'Credit Benchmark publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Credit Benchmark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 14
+random_paper: 84
 score:
   band: developing
   composite: 48.2
@@ -202,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/screenshots/creditbenchmark-2026-07-25T210720.png
 security:

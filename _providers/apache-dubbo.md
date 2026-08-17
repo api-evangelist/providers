@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 7
@@ -86,11 +86,56 @@ apis:
 - description: The TrafficWeight API from Apache Dubbo — 1 operation(s) for trafficweight.
   name: Apache Dubbo TrafficWeight API
   slug: apache-dubbo-trafficweight-api
-artifact_total: 148
+artifact_total: 163
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Dubbo-Admin API
   slug: open-apache-dubbo-admin-openapi-original
+- collection_type: open
+  name: Dubbo-Admin ConditionRule API
+  slug: open-apache-dubbo-conditionrule-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule metrics API
+  slug: open-apache-dubbo-metrics-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule MockRules API
+  slug: open-apache-dubbo-mockrules-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule OverrideRule API
+  slug: open-apache-dubbo-overriderule-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule Services API
+  slug: open-apache-dubbo-services-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule TagRule API
+  slug: open-apache-dubbo-tagrule-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule TrafficAccesslog API
+  slug: open-apache-dubbo-trafficaccesslog-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule TrafficArgument API
+  slug: open-apache-dubbo-trafficargument-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule TrafficGray API
+  slug: open-apache-dubbo-trafficgray-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule TrafficMock API
+  slug: open-apache-dubbo-trafficmock-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule TrafficRegion API
+  slug: open-apache-dubbo-trafficregion-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule TrafficRetry API
+  slug: open-apache-dubbo-trafficretry-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule TrafficTimeout API
+  slug: open-apache-dubbo-traffictimeout-api
+- collection_type: open
+  name: Dubbo-Admin ConditionRule TrafficWeight API
+  slug: open-apache-dubbo-trafficweight-api
 common:
 - group: operate
   title: ''
@@ -529,7 +574,7 @@ plans:
 - name: Apache Dubbo Plans Pricing
   plan_count: 3
   slug: apache-dubbo-plans-pricing
-random_paper: 99
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Apache Dubbo Rate Limits
@@ -571,7 +616,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/screenshots/apache-dubbo-2026-06-20T172058.png
 security:

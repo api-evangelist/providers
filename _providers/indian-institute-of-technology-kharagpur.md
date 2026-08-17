@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -108,7 +108,7 @@ plans:
 - name: Indian Institute Of Technology Kharagpur Plans Pricing
   plan_count: 2
   slug: indian-institute-of-technology-kharagpur-plans-pricing
-random_paper: 110
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Indian Institute Of Technology Kharagpur Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/screenshots/indian-institute-of-technology-kharagpur-2026-06-20T183332.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for dataset management, visual and semantic search, enrichment, export, saved views, snapshots, and task management. Cloud calls require a JWT bearer token; on-premises calls require no authe
@@ -156,7 +156,7 @@ overview: 'Visual Layer publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Visual Layer''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, signup flow, and 19 more developer resources.'
-random_paper: 46
+random_paper: 54
 score:
   band: emerging
   composite: 27.7
@@ -173,7 +173,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

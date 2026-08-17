@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Prompt and conversation compression
@@ -37,7 +37,17 @@ apis:
 - description: Compressed web search
   name: The Token Company Search API
   slug: the-token-company-search-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Token Company Compression API
+  slug: open-the-token-company-compression-api
+- collection_type: open
+  name: The Token Company Compression Search API
+  slug: open-the-token-company-search-api
 common:
 - group: other
   title: ''
@@ -167,7 +177,7 @@ overview: 'The Token Company publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   The Token Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 35
+random_paper: 76
 score:
   band: developing
   composite: 42.3
@@ -190,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

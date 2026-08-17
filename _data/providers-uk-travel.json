@@ -15,6 +15,7 @@
      "name": "TUI Group",
      "slug": "tui-group",
      "description": "TUI Group is the world's largest integrated leisure tourism business — a vertically integrated tour operator that owns the hotels, the cruise ships, the airlines and the retail brands it sells through, serving 34.7 million customers a year across tour operators in 18 countries. The United Kingdom is its largest single source market: TUI UK & Ireland and the UK-registered carrier TUI Airways sit at the centre of the group, alongside Marella Cruises, TUI Musement and the TUI Blue, Robinson and TUI Magic Life hotel brands. The group is domiciled in Hannover, Germany and listed on the Frankfurt MDAX, having ended its London primary listing in 2023. TUI sits at the supply end of the travel distribution chain rather than the intermediation end — it is the principal that creates package holidays, not a GDS or a channel manager — and it distributes chiefly through its own retail estate and websites, supplemented by B2B feeds to travel agents, OTAs and metasearch partners. On the API front TUI runs a real, publicly readable developer portal at developer.tui fronted by Apigee X, with 21 documented API products covering flight shopping and booking, departure control, packages, accommodation content, cruise and metasearch distribution. The documentation is genuinely open — base URLs, endpoints, auth flows, quota tiers, downloadable Postman collections and a public OpenAPI 3.0 document for every one of the 21 products (1,261 operations in total, served from the portal's Swagger UI) are all published without a login — but the runtime is not: every API product requires a partner-manager approval, most airline APIs additionally require a Navitaire New Skies agent profile and a production IP whitelist, and the TUI fly OTA API states plainly that step one is to conclude a contract. There is no self-serve key, no published developer terms of use (the portal's terms page is still unfilled lorem-ipsum placeholder text), no idempotency contract on any booking or payment operation, no status page, no event or webhook surface, and no documented bulk-export or data-portability operation for a departing partner.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tui-group/refs/heads/main/screenshots/tui-group-2026-08-17T082459.png",
      "score": 53.0,
      "band": "developing",
      "band_label": "Developing",
@@ -26,7 +27,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 51.1,
      "agent_band": "agent-ready",
@@ -53,6 +54,7 @@
      "name": "Virgin Atlantic",
      "slug": "virgin-atlantic",
      "description": "Virgin Atlantic Airways is a United Kingdom long-haul carrier (IATA code VS) based at London Heathrow and Manchester, operating a transatlantic joint venture with Delta Air Lines, Air France-KLM and SkyTeam, and a SkyTeam member since 2023. In the distribution chain it sits as an airline supplier that reaches travel sellers through three routes at once - the legacy GDSs (Amadeus, Sabre, Travelport, all under renewed multi-year content agreements), its own IATA NDC direct connect, and its own consumer channels. Its API posture is distribution-only and honestly gated. Virgin Atlantic publishes no consumer, flight-status or loyalty API, and no OpenAPI or machine-readable API description of any kind. What it does publish, openly and without a login, is the VS NDC Connect portal at ndc.virginatlantic.com - full request and response reference documentation for twelve IATA NDC 21.3 messages, XML samples, workflow diagrams, a certification programme, and downloadable IATA NDC 21.3.3 XSD schema assets. The contract itself is the IATA NDC standard rather than a Virgin-specific shape, but getting a key is not self-serve - production access requires valid IATA accreditation and Virgin Atlantic ticketing authority (or a service-provider connection), a signed Technical User Agreement, Data Processing Agreement and Agency Sales Agreement, and at minimum RED tier certification. There is no bulk export operation and no published base URL - public docs, accreditation required, no exit path.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/screenshots/virgin-atlantic-2026-08-17T082754.png",
      "score": 44.6,
      "band": "developing",
      "band_label": "Developing",
@@ -64,7 +66,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -113,7 +115,7 @@
       "developer_ergonomics": 29.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -158,7 +160,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -197,7 +199,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -243,7 +245,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -293,7 +295,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -339,7 +341,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 9.0,
      "agent_band": "agent-aware",
@@ -377,7 +379,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -415,7 +417,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -461,7 +463,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -500,7 +502,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -549,7 +551,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -595,7 +597,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-17",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

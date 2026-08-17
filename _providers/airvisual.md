@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: List monitoring stations and retrieve station data
   name: IQAir AirVisual Stations API
   slug: airvisual-stations-api
-artifact_total: 19
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IQAir AirVisual Cities API
+  slug: open-airvisual-cities-api
+- collection_type: open
+  name: IQAir AirVisual Cities Countries API
+  slug: open-airvisual-countries-api
+- collection_type: open
+  name: IQAir AirVisual Cities Rankings API
+  slug: open-airvisual-rankings-api
+- collection_type: open
+  name: IQAir AirVisual Cities States API
+  slug: open-airvisual-states-api
+- collection_type: open
+  name: IQAir AirVisual Cities Stations API
+  slug: open-airvisual-stations-api
 common:
 - group: agent
   title: ''
@@ -152,7 +171,7 @@ plans:
 - name: Airvisual Plans Pricing
   plan_count: 3
   slug: airvisual-plans-pricing
-random_paper: 16
+random_paper: 82
 rate_limits:
 - limit_count: 0
   name: Airvisual Rate Limits
@@ -186,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/screenshots/airvisual-2026-06-20T171441.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -108,7 +108,80 @@ apis:
 - description: The Watermark API from Picsart — 1 operation(s) for watermark.
   name: Picsart Watermark API
   slug: picsart-watermark-api
-artifact_total: 28
+artifact_total: 52
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Picsart GenAI Ads API
+  slug: open-picsart-ads-api
+- collection_type: open
+  name: Picsart GenAI Ads Audio API
+  slug: open-picsart-audio-api
+- collection_type: open
+  name: Picsart GenAI Ads Classification API
+  slug: open-picsart-classification-api
+- collection_type: open
+  name: Picsart GenAI Ads Content Generation API
+  slug: open-picsart-content-generation-api
+- collection_type: open
+  name: Picsart GenAI Ads Conversion API
+  slug: open-picsart-conversion-api
+- collection_type: open
+  name: Picsart GenAI Ads Edit API
+  slug: open-picsart-edit-api
+- collection_type: open
+  name: Picsart GenAI Ads Editing API
+  slug: open-picsart-editing-api
+- collection_type: open
+  name: Picsart GenAI Ads Effects API
+  slug: open-picsart-effects-api
+- collection_type: open
+  name: Picsart GenAI Ads Image2Image / Inpainting API
+  slug: open-picsart-image2image-inpainting-api
+- collection_type: open
+  name: Picsart GenAI Ads Metadata API
+  slug: open-picsart-metadata-api
+- collection_type: open
+  name: Picsart GenAI Ads Photo enhancement API
+  slug: open-picsart-photo-enhancement-api
+- collection_type: open
+  name: Picsart GenAI Ads Remove Background API
+  slug: open-picsart-remove-background-api
+- collection_type: open
+  name: Picsart GenAI Ads Replay API
+  slug: open-picsart-replay-api
+- collection_type: open
+  name: Picsart GenAI Ads Surfacemap API
+  slug: open-picsart-surfacemap-api
+- collection_type: open
+  name: Picsart GenAI Ads Text2Audio API
+  slug: open-picsart-text2audio-api
+- collection_type: open
+  name: Picsart GenAI Ads Text2Image API
+  slug: open-picsart-text2image-api
+- collection_type: open
+  name: Picsart GenAI Ads Text2Text API
+  slug: open-picsart-text2text-api
+- collection_type: open
+  name: Picsart GenAI Ads Text2Video & Image2Video API
+  slug: open-picsart-text2video-image2video-api
+- collection_type: open
+  name: Picsart GenAI Ads Transcriptions API
+  slug: open-picsart-transcriptions-api
+- collection_type: open
+  name: Picsart GenAI Ads Utilities API
+  slug: open-picsart-utilities-api
+- collection_type: open
+  name: Picsart GenAI Ads Variable Data Content API
+  slug: open-picsart-variable-data-content-api
+- collection_type: open
+  name: Picsart GenAI Ads Video enhancement API
+  slug: open-picsart-video-enhancement-api
+- collection_type: open
+  name: Picsart GenAI Ads Watermark API
+  slug: open-picsart-watermark-api
 common:
 - group: other
   title: ''
@@ -262,7 +335,7 @@ overview: 'Picsart publishes 23 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Picsart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Picsart Rate Limits
@@ -290,7 +363,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -69,8 +69,41 @@ apis:
 - description: The Transactions API from Searchcraft — 2 operation(s) for transactions.
   name: Searchcraft Transactions API
   slug: searchcraft-transactions-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Searchcraft Authentication API
+  slug: open-searchcraft-authentication-api
+- collection_type: open
+  name: Searchcraft Authentication Documents API
+  slug: open-searchcraft-documents-api
+- collection_type: open
+  name: Searchcraft Authentication Federation API
+  slug: open-searchcraft-federation-api
+- collection_type: open
+  name: Searchcraft Authentication Healthcheck API
+  slug: open-searchcraft-healthcheck-api
+- collection_type: open
+  name: Searchcraft Authentication Indexes API
+  slug: open-searchcraft-indexes-api
+- collection_type: open
+  name: Searchcraft Authentication Measure API
+  slug: open-searchcraft-measure-api
+- collection_type: open
+  name: Searchcraft Authentication Search API
+  slug: open-searchcraft-search-api
+- collection_type: open
+  name: Searchcraft Authentication Stopwords API
+  slug: open-searchcraft-stopwords-api
+- collection_type: open
+  name: Searchcraft Authentication Synonyms API
+  slug: open-searchcraft-synonyms-api
+- collection_type: open
+  name: Searchcraft Authentication Transactions API
+  slug: open-searchcraft-transactions-api
 - collection_type: open
   name: Searchcraft API
   slug: open-searchcraft
@@ -139,7 +172,7 @@ plans:
 - name: Searchcraft Plans Pricing
   plan_count: 3
   slug: searchcraft-plans-pricing
-random_paper: 78
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Searchcraft Rate Limits
@@ -164,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

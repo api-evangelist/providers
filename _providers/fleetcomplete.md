@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: List and filter vehicles (getVehicles with VehicleFilter), fetch a vehicle by ID or VIN (getVehicleById, getVehiclesByVin), list active vehicles, read vehicle types and custom fields, inspect mapped s
@@ -114,7 +114,7 @@ plans:
 - name: Fleetcomplete Plans Pricing
   plan_count: 3
   slug: fleetcomplete-plans-pricing
-random_paper: 65
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Fleetcomplete Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetcomplete/refs/heads/main/screenshots/fleetcomplete-2026-07-25T214736.png
 security:

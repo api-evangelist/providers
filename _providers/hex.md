@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: The Users API from Hex — 3 operation(s) for users.
   name: Hex Users API
   slug: hex-users-api
-artifact_total: 17
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hex Cells API
+  slug: open-hex-cells-api
+- collection_type: open
+  name: Hex Cells Collections API
+  slug: open-hex-collections-api
+- collection_type: open
+  name: Hex Cells Context API
+  slug: open-hex-context-api
+- collection_type: open
+  name: Hex Cells Data Connections API
+  slug: open-hex-data-connections-api
+- collection_type: open
+  name: Hex Cells Embedding API
+  slug: open-hex-embedding-api
+- collection_type: open
+  name: Hex Cells Groups API
+  slug: open-hex-groups-api
+- collection_type: open
+  name: Hex Cells Guides API
+  slug: open-hex-guides-api
+- collection_type: open
+  name: Hex Cells Projects API
+  slug: open-hex-projects-api
+- collection_type: open
+  name: Hex Cells Semantic (projects|models) API
+  slug: open-hex-semantic-projects-models-api
+- collection_type: open
+  name: Hex Cells Threads API
+  slug: open-hex-threads-api
+- collection_type: open
+  name: Hex Cells Users API
+  slug: open-hex-users-api
 common:
 - group: other
   title: ''
@@ -222,7 +259,7 @@ overview: 'Hex publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Hex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 85
+random_paper: 27
 score:
   band: developing
   composite: 55.5
@@ -246,7 +283,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/screenshots/hex-2026-07-25T221110.png
 security:

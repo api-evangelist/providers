@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: OpenID Connect userinfo for the authorizing beneficiary.
   name: CMS Blue Button 2.0 UserInfo API
   slug: cms-blue-button-userinfo-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CMS Blue Button 2.0 Coverage API
+  slug: open-cms-blue-button-coverage-api
+- collection_type: open
+  name: CMS Blue Button 2.0 Coverage ExplanationOfBenefit API
+  slug: open-cms-blue-button-explanationofbenefit-api
+- collection_type: open
+  name: CMS Blue Button 2.0 Coverage Metadata API
+  slug: open-cms-blue-button-metadata-api
+- collection_type: open
+  name: CMS Blue Button 2.0 Coverage Patient API
+  slug: open-cms-blue-button-patient-api
+- collection_type: open
+  name: CMS Blue Button 2.0 Coverage UserInfo API
+  slug: open-cms-blue-button-userinfo-api
 - collection_type: open
   name: CMS Blue Button 2.0 API
   slug: open-cms-blue-button
@@ -128,7 +146,7 @@ plans:
 - name: Cms Blue Button Plans Pricing
   plan_count: 2
   slug: cms-blue-button-plans-pricing
-random_paper: 65
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Cms Blue Button Rate Limits
@@ -159,7 +177,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/screenshots/cms-blue-button-2026-07-25T205758.png
 security:

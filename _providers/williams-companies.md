@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 14
 common:
@@ -79,7 +79,7 @@ overview: 'Williams Companies is profiled on the [APIs.io](https://apis.io/) net
 
 
   Williams Companies'' developer surface includes engineering blog, developer portal, and 2 more developer resources.'
-random_paper: 70
+random_paper: 82
 score:
   band: minimal
   composite: 7.3
@@ -99,7 +99,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/williams-companies/refs/heads/main/screenshots/williams-companies-2026-06-20T201507.png
 security:

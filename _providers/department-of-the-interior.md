@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,8 +81,41 @@ apis:
 - description: Visitor centers
   name: Department of the Interior VisitorCenters API
   slug: department-of-the-interior-visitorcenters-api
-artifact_total: 30
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts API
+  slug: open-department-of-the-interior-alerts-api
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts Articles API
+  slug: open-department-of-the-interior-articles-api
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts Campgrounds API
+  slug: open-department-of-the-interior-campgrounds-api
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts Counts API
+  slug: open-department-of-the-interior-counts-api
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts DailyValues API
+  slug: open-department-of-the-interior-dailyvalues-api
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts Events API
+  slug: open-department-of-the-interior-events-api
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts InstantaneousValues API
+  slug: open-department-of-the-interior-instantaneousvalues-api
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts Parks API
+  slug: open-department-of-the-interior-parks-api
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts Sites API
+  slug: open-department-of-the-interior-sites-api
+- collection_type: open
+  name: National Park Service (NPS) Data Alerts VisitorCenters API
+  slug: open-department-of-the-interior-visitorcenters-api
 - collection_type: open
   name: National Park Service (NPS) Data API
   slug: open-nps-data-api
@@ -167,7 +200,7 @@ plans:
 - name: Department Of The Interior Plans Pricing
   plan_count: 1
   slug: department-of-the-interior-plans-pricing
-random_paper: 101
+random_paper: 88
 rate_limits:
 - limit_count: 3
   name: Department Of The Interior Rate Limits
@@ -215,7 +248,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/screenshots/department-of-the-interior-2026-06-20T175924.png
 security:

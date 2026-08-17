@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Custom and automatic events logged during sessions
@@ -40,7 +40,20 @@ apis:
 - description: App users tracked by the UXCam SDK
   name: UXCam Users API
   slug: uxcam-users-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UXCam Data Access Events API
+  slug: open-uxcam-events-api
+- collection_type: open
+  name: UXCam Data Access Events Sessions API
+  slug: open-uxcam-sessions-api
+- collection_type: open
+  name: UXCam Data Access Events Users API
+  slug: open-uxcam-users-api
 common:
 - group: other
   title: ''
@@ -190,7 +203,7 @@ overview: 'UXCam publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ev
 
 
   UXCam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 62
+random_paper: 95
 score:
   band: strong
   composite: 56.1
@@ -213,7 +226,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

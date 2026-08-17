@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,8 +66,32 @@ apis:
 - description: Webhook subscriptions
   name: Cvent Registration Webhooks API
   slug: cvent-registration-webhooks-api
-artifact_total: 18
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cvent Registration REST Attendees API
+  slug: open-cvent-registration-attendees-api
+- collection_type: open
+  name: Cvent Registration REST Attendees Contacts API
+  slug: open-cvent-registration-contacts-api
+- collection_type: open
+  name: Cvent Registration REST Attendees Events API
+  slug: open-cvent-registration-events-api
+- collection_type: open
+  name: Cvent Registration REST Attendees Exhibitors API
+  slug: open-cvent-registration-exhibitors-api
+- collection_type: open
+  name: Cvent Registration REST Attendees OAuth API
+  slug: open-cvent-registration-oauth-api
+- collection_type: open
+  name: Cvent Registration REST Attendees Sessions API
+  slug: open-cvent-registration-sessions-api
+- collection_type: open
+  name: Cvent Registration REST Attendees Webhooks API
+  slug: open-cvent-registration-webhooks-api
 - collection_type: open
   name: Cvent Registration REST API
   slug: open-cvent-registration
@@ -168,7 +192,7 @@ plans:
 - name: Cvent Registration Plans Pricing
   plan_count: 3
   slug: cvent-registration-plans-pricing
-random_paper: 96
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Cvent Registration Rate Limits
@@ -204,7 +228,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/screenshots/cvent-registration-2026-06-20T175407.png
 security:

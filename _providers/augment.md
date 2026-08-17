@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -57,11 +57,33 @@ apis:
 - description: Public API endpoints for approved brokerages to list supported webhook event types, subscribe endpoints to event types, and send test deliveries. Subscriptions created through these public APIs delive
   name: Augment Webhook Event Subscriptions API
   slug: augment-webhook-event-subscriptions-api
-artifact_total: 13
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Augment Webhooks
   slug: augment-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Augment API Key API
+  slug: open-augment-api-key-api
+- collection_type: open
+  name: Augment API Key Carrier Management API
+  slug: open-augment-carrier-management-api
+- collection_type: open
+  name: Augment API Key Carrier Support API
+  slug: open-augment-carrier-support-api
+- collection_type: open
+  name: Augment API Key Load Management API
+  slug: open-augment-load-management-api
+- collection_type: open
+  name: Augment API Key Webhook Endpoints API
+  slug: open-augment-webhook-endpoints-api
+- collection_type: open
+  name: Augment API Key Webhook Event Subscriptions API
+  slug: open-augment-webhook-event-subscriptions-api
 common:
 - group: company
   title: ''
@@ -198,7 +220,7 @@ overview: 'Augment publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Augment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 33
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Augment Rate Limits
@@ -226,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/screenshots/augment-2026-07-25T201709.png
 security:

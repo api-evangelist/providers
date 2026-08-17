@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Access work instruction guidebooks and step-level content
@@ -43,7 +43,23 @@ apis:
 - description: Create, retrieve, and manage work orders on the manufacturing floor
   name: VKS Integrations Work Orders API
   slug: vks-integrations-work-orders-api
-artifact_total: 14
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VKS Guidebooks API
+  slug: open-vks-integrations-guidebooks-api
+- collection_type: open
+  name: VKS Operations API
+  slug: open-vks-integrations-operations-api
+- collection_type: open
+  name: VKS Production Data API
+  slug: open-vks-integrations-production-data-api
+- collection_type: open
+  name: VKS Work Orders API
+  slug: open-vks-integrations-work-orders-api
 common:
 - group: auth
   title: ''
@@ -113,7 +129,7 @@ plans:
 - name: Vks Integrations Plans Pricing
   plan_count: 3
   slug: vks-integrations-plans-pricing
-random_paper: 8
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Vks Integrations Rate Limits
@@ -154,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/screenshots/vks-integrations-2026-06-20T201113.png
 security:

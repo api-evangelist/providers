@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -122,11 +122,99 @@ apis:
 - description: The Vendors API from Rillet — 2 operation(s) for vendors.
   name: Rillet Vendors API
   slug: rillet-vendors-api
-artifact_total: 34
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Rillet Webhooks
   slug: rillet-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rillet Accounting API Key API
+  slug: open-rillet-api-key-api
+- collection_type: open
+  name: Rillet Accounting API Key Bank accounts API
+  slug: open-rillet-bank-accounts-api
+- collection_type: open
+  name: Rillet Accounting API Key Bank Transactions API
+  slug: open-rillet-bank-transactions-api
+- collection_type: open
+  name: Rillet Accounting API Key Bill Payments API
+  slug: open-rillet-bill-payments-api
+- collection_type: open
+  name: Rillet Accounting API Key Bills API
+  slug: open-rillet-bills-api
+- collection_type: open
+  name: Rillet Accounting API Key Books periods API
+  slug: open-rillet-books-periods-api
+- collection_type: open
+  name: Rillet Accounting API Key Charges API
+  slug: open-rillet-charges-api
+- collection_type: open
+  name: Rillet Accounting API Key Chart of Accounts API
+  slug: open-rillet-chart-of-accounts-api
+- collection_type: open
+  name: Rillet Accounting API Key Contract Items API
+  slug: open-rillet-contract-items-api
+- collection_type: open
+  name: Rillet Accounting API Key Contracts API
+  slug: open-rillet-contracts-api
+- collection_type: open
+  name: Rillet Accounting API Key Credit Memos API
+  slug: open-rillet-credit-memos-api
+- collection_type: open
+  name: Rillet Accounting API Key Customer Payments API
+  slug: open-rillet-customer-payments-api
+- collection_type: open
+  name: Rillet Accounting API Key Customers API
+  slug: open-rillet-customers-api
+- collection_type: open
+  name: Rillet Accounting API Key Draft Contracts API
+  slug: open-rillet-draft-contracts-api
+- collection_type: open
+  name: Rillet Accounting API Key Fields API
+  slug: open-rillet-fields-api
+- collection_type: open
+  name: Rillet Accounting API Key Health API
+  slug: open-rillet-health-api
+- collection_type: open
+  name: Rillet Accounting API Key Invoice payments API
+  slug: open-rillet-invoice-payments-api
+- collection_type: open
+  name: Rillet Accounting API Key Invoices API
+  slug: open-rillet-invoices-api
+- collection_type: open
+  name: Rillet Accounting API Key Journal Entries API
+  slug: open-rillet-journal-entries-api
+- collection_type: open
+  name: Rillet Accounting API Key Organizations API
+  slug: open-rillet-organizations-api
+- collection_type: open
+  name: Rillet Accounting API Key Products API
+  slug: open-rillet-products-api
+- collection_type: open
+  name: Rillet Accounting API Key Reimbursements API
+  slug: open-rillet-reimbursements-api
+- collection_type: open
+  name: Rillet Accounting API Key Reports API
+  slug: open-rillet-reports-api
+- collection_type: open
+  name: Rillet Accounting API Key Subsidiaries API
+  slug: open-rillet-subsidiaries-api
+- collection_type: open
+  name: Rillet Accounting API Key Tax rates API
+  slug: open-rillet-tax-rates-api
+- collection_type: open
+  name: Rillet Accounting API Key Vendor Credit Applications API
+  slug: open-rillet-vendor-credit-applications-api
+- collection_type: open
+  name: Rillet Accounting API Key Vendor Credits API
+  slug: open-rillet-vendor-credits-api
+- collection_type: open
+  name: Rillet Accounting API Key Vendors API
+  slug: open-rillet-vendors-api
 common:
 - group: start
   title: ''
@@ -275,7 +363,7 @@ overview: 'Rillet publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rillet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
-random_paper: 52
+random_paper: 56
 scopes:
 - name: Rillet Scopes
   scope_count: 2
@@ -304,7 +392,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

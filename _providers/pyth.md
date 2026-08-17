@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: The Updates API from Pyth — 2 operation(s) for updates.
   name: Pyth Updates API
   slug: pyth-updates-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Benchmarks Price Differences API
+  slug: open-pyth-price-differences-api
+- collection_type: open
+  name: Benchmarks Price Differences Price Feeds API
+  slug: open-pyth-price-feeds-api
+- collection_type: open
+  name: Benchmarks Price Differences rest API
+  slug: open-pyth-rest-api
+- collection_type: open
+  name: Benchmarks Price Differences TradingView API
+  slug: open-pyth-tradingview-api
+- collection_type: open
+  name: Benchmarks Price Differences Updates API
+  slug: open-pyth-updates-api
 common:
 - group: other
   title: ''
@@ -184,7 +203,7 @@ overview: 'Pyth publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Pyth''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
-random_paper: 93
+random_paper: 6
 score:
   band: developing
   composite: 49.2
@@ -214,7 +233,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

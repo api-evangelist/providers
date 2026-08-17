@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -46,7 +46,29 @@ apis:
 - description: The User API from OnPay — 1 operation(s) for user.
   name: OnPay User API
   slug: onpay-user-api
-artifact_total: 12
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OnPay Company API
+  slug: open-onpay-company-api
+- collection_type: open
+  name: OnPay Deductions API
+  slug: open-onpay-deductions-api
+- collection_type: open
+  name: OnPay Employees API
+  slug: open-onpay-employees-api
+- collection_type: open
+  name: OnPay Pay Runs API
+  slug: open-onpay-pay-runs-api
+- collection_type: open
+  name: OnPay Reports API
+  slug: open-onpay-reports-api
+- collection_type: open
+  name: OnPay User API
+  slug: open-onpay-user-api
 common:
 - group: agent
   title: ''
@@ -176,7 +198,7 @@ overview: 'OnPay publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   OnPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 71
+random_paper: 104
 scopes:
 - name: Onpay Scopes
   scope_count: 6
@@ -205,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/screenshots/onpay-2026-08-07T190403.png
 security:

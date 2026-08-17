@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -99,7 +99,65 @@ apis:
 - description: The Wizard Set Token API from GlitchTip — 1 operation(s) for wizard set token.
   name: GlitchTip Wizard Set Token API
   slug: glitchtip-wizard-set-token-api
-artifact_total: 56
+artifact_total: 75
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GlitchTip Accept API
+  slug: open-glitchtip-accept-api
+- collection_type: open
+  name: GlitchTip Accept Api Tokens API
+  slug: open-glitchtip-api-tokens-api
+- collection_type: open
+  name: GlitchTip Accept Embed API
+  slug: open-glitchtip-embed-api
+- collection_type: open
+  name: GlitchTip Accept Generate Recovery Codes API
+  slug: open-glitchtip-generate-recovery-codes-api
+- collection_type: open
+  name: GlitchTip Accept GlitchTip API API
+  slug: open-glitchtip-glitchtip-api-api
+- collection_type: open
+  name: GlitchTip Accept Import API
+  slug: open-glitchtip-import-api
+- collection_type: open
+  name: GlitchTip Accept Instance License API
+  slug: open-glitchtip-instance-license-api
+- collection_type: open
+  name: GlitchTip Accept Issues API
+  slug: open-glitchtip-issues-api
+- collection_type: open
+  name: GlitchTip Accept Organizations API
+  slug: open-glitchtip-organizations-api
+- collection_type: open
+  name: GlitchTip Accept Projects API
+  slug: open-glitchtip-projects-api
+- collection_type: open
+  name: GlitchTip Accept Security API
+  slug: open-glitchtip-security-api
+- collection_type: open
+  name: GlitchTip Accept Settings API
+  slug: open-glitchtip-settings-api
+- collection_type: open
+  name: GlitchTip Accept Store API
+  slug: open-glitchtip-store-api
+- collection_type: open
+  name: GlitchTip Accept Stripe API
+  slug: open-glitchtip-stripe-api
+- collection_type: open
+  name: GlitchTip Accept Teams API
+  slug: open-glitchtip-teams-api
+- collection_type: open
+  name: GlitchTip Accept Users API
+  slug: open-glitchtip-users-api
+- collection_type: open
+  name: GlitchTip Accept Wizard API
+  slug: open-glitchtip-wizard-api
+- collection_type: open
+  name: GlitchTip Accept Wizard Set Token API
+  slug: open-glitchtip-wizard-set-token-api
 common:
 - group: agent
   title: ''
@@ -287,7 +345,7 @@ plans:
 - name: Glitchtip Plans Pricing
   plan_count: 5
   slug: glitchtip-plans-pricing
-random_paper: 8
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Glitchtip Rate Limits
@@ -321,7 +379,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/screenshots/glitchtip-2026-06-20T181917.png
 security:

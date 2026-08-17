@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Jakarta Persistence specification for object-relational mapping in Java applications, defining annotations, entity managers, queries via JPQL and the Criteria API, and lifecycle callbacks for mana
@@ -72,7 +72,7 @@ plans:
 - name: Jpa Plans Pricing
   plan_count: 3
   slug: jpa-plans-pricing
-random_paper: 75
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Jpa Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jpa/refs/heads/main/screenshots/jpa-2026-06-20T183808.png
 security:

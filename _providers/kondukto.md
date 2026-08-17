@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
 - description: The Vulnerabilities API from Kondukto — 9 operation(s) for vulnerabilities.
   name: Kondukto Vulnerabilities API
   slug: kondukto-vulnerabilities-api
-artifact_total: 30
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Kondukto Webhooks
@@ -112,6 +112,42 @@ collections:
 - collection_type: postman
   name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Vulnerabilities API
   slug: postman-kondukto-vulnerabilities-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers API
+  slug: open-kondukto-authorization-managers-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Events API
+  slug: open-kondukto-events-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Health API
+  slug: open-kondukto-health-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Labels API
+  slug: open-kondukto-labels-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Products API
+  slug: open-kondukto-products-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Projects API
+  slug: open-kondukto-projects-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Scanners API
+  slug: open-kondukto-scanners-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Scans API
+  slug: open-kondukto-scans-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Teams API
+  slug: open-kondukto-teams-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Users API
+  slug: open-kondukto-users-api
+- collection_type: open
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Vulnerabilities API
+  slug: open-kondukto-vulnerabilities-api
 common:
 - group: other
   title: ''
@@ -288,7 +324,7 @@ plans:
 - name: Kondukto Plans
   plan_count: 2
   slug: kondukto-plans
-random_paper: 39
+random_paper: 134
 score:
   band: exemplar
   composite: 66.5
@@ -312,7 +348,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/screenshots/kondukto-2026-07-25T224148.png
 security:

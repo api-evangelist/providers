@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -51,8 +51,14 @@ apis:
 - description: The Courses API from Canvas — 25 operation(s) for courses.
   name: Canvas Courses API
   slug: canvas-courses-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canvas LMS REST API ( subset) Courses API
+  slug: open-canvas-courses-api
 - collection_type: open
   name: Canvas LMS REST API (Courses subset)
   slug: open-canvas
@@ -161,7 +167,7 @@ plans:
 - name: Canvas Plans Pricing
   plan_count: 3
   slug: canvas-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Canvas Rate Limits
@@ -186,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/screenshots/canvas-2026-06-20T173929.png
 security:

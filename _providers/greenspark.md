@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -60,7 +60,32 @@ apis:
 - description: The Widgets API from Greenspark — 17 operation(s) for widgets.
   name: Greenspark Widgets API
   slug: greenspark-widgets-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Greenspark Climate Account API
+  slug: open-greenspark-account-api
+- collection_type: open
+  name: Greenspark Climate Account Email API
+  slug: open-greenspark-email-api
+- collection_type: open
+  name: Greenspark Climate Account Estimations API
+  slug: open-greenspark-estimations-api
+- collection_type: open
+  name: Greenspark Climate Account Impacts API
+  slug: open-greenspark-impacts-api
+- collection_type: open
+  name: Greenspark Climate Account Projects API
+  slug: open-greenspark-projects-api
+- collection_type: open
+  name: Greenspark Climate Account Reports API
+  slug: open-greenspark-reports-api
+- collection_type: open
+  name: Greenspark Climate Account Widgets API
+  slug: open-greenspark-widgets-api
 common:
 - group: start
   title: ''
@@ -190,7 +215,7 @@ overview: 'Greenspark publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Greenspark''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 21 more developer resources.'
-random_paper: 114
+random_paper: 31
 score:
   band: developing
   composite: 50.2
@@ -214,7 +239,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/screenshots/greenspark-2026-07-25T220317.png
 security:

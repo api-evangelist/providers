@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -108,7 +108,7 @@ apis:
 - description: 'The #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.updatecertificateauthority.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-updatecertificateauthority-api
-artifact_total: 281
+artifact_total: 305
 collections:
 - collection_type: postman
   name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority API'
@@ -179,6 +179,78 @@ collections:
 - collection_type: postman
   name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API'
   slug: postman-amazon-private-ca-x-amz-target-acmprivateca-updatecertificateauthority-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-createcertificateauthority-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthorityAuditReport API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-createcertificateauthorityauditreport-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreatePermission API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-createpermission-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DeleteCertificateAuthority API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-deletecertificateauthority-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DeletePermission API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-deletepermission-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DeletePolicy API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-deletepolicy-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DescribeCertificateAuthority API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-describecertificateauthority-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DescribeCertificateAuthorityAuditReport API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-describecertificateauthorityauditreport-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.GetCertificate API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-getcertificate-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCertificate API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-getcertificateauthoritycertificate-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCsr API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-getcertificateauthoritycsr-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.GetPolicy API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-getpolicy-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.ImportCertificateAuthorityCertificate API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-importcertificateauthoritycertificate-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.IssueCertificate API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-issuecertificate-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.ListCertificateAuthorities API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-listcertificateauthorities-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.ListPermissions API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-listpermissions-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.ListTags API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-listtags-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.PutPolicy API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-putpolicy-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.RestoreCertificateAuthority API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-restorecertificateauthority-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.RevokeCertificate API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-revokecertificate-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.TagCertificateAuthority API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-tagcertificateauthority-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.UntagCertificateAuthority API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-untagcertificateauthority-api
+- collection_type: open
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API'
+  slug: open-amazon-private-ca-x-amz-target-acmprivateca-updatecertificateauthority-api
 common:
 - group: build
   title: ''
@@ -1781,7 +1853,7 @@ plans:
 - name: Amazon Private Ca Plans Pricing
   plan_count: 3
   slug: amazon-private-ca-plans-pricing
-random_paper: 15
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Amazon Private Ca Rate Limits
@@ -1823,7 +1895,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/screenshots/amazon-private-ca-2026-06-20T171803.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Short-term rental listing search, details, history, and comps.
   name: AirDNA STR Listing Data API
   slug: airdna-str-listing-data-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AirDNA Enterprise Market Data API
+  slug: open-airdna-market-data-api
+- collection_type: open
+  name: AirDNA Enterprise Market Data Rentalizer API
+  slug: open-airdna-rentalizer-api
+- collection_type: open
+  name: AirDNA Enterprise Market Data Rentalizer Lead Gen API
+  slug: open-airdna-rentalizer-lead-gen-api
+- collection_type: open
+  name: AirDNA Enterprise Market Data Smart Rates API
+  slug: open-airdna-smart-rates-api
+- collection_type: open
+  name: AirDNA Enterprise Market Data STR Listing Data API
+  slug: open-airdna-str-listing-data-api
 - collection_type: open
   name: AirDNA Enterprise API
   slug: open-airdna
@@ -116,7 +134,7 @@ plans:
 - name: Airdna Plans Pricing
   plan_count: 1
   slug: airdna-plans-pricing
-random_paper: 23
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Airdna Rate Limits
@@ -147,7 +165,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/screenshots/airdna-2026-07-25T195414.png
 security:

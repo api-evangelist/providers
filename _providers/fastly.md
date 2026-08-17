@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 7
@@ -337,7 +337,7 @@ arazzos:
 - description: Read a domain, then check its DNS configuration and branch on the result.
   name: Fastly Verify Domain DNS
   slug: fastly-verify-domain-dns-workflow
-artifact_total: 258
+artifact_total: 339
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous and streaming surfaces exposed by Fastly across three documented capabilities: 1. Real-Time Analytics (rt.fastly.com) - long-polling stream of one-second a'
   name: Fastly Streaming, Logging, and Event Surfaces
@@ -410,8 +410,17 @@ collections:
   name: Fastly Next-Gen WAF API
   slug: postman-fastly-waf
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Fastly Account API
   slug: open-fastly-account
+- collection_type: open
+  name: Fastly Account ACL API
+  slug: open-fastly-acl-api
+- collection_type: open
+  name: Fastly Account ACL ACL Entry API
+  slug: open-fastly-acl-entry-api
 - collection_type: open
   name: Fastly Access Control Lists API
   slug: open-fastly-acls
@@ -419,8 +428,32 @@ collections:
   name: Fastly AI Accelerator
   slug: open-fastly-ai-accelerator
 - collection_type: open
+  name: Fastly Account ACL Alerts API
+  slug: open-fastly-alerts-api
+- collection_type: open
+  name: Fastly Account ACL API Discovery API
+  slug: open-fastly-api-discovery-api
+- collection_type: open
   name: Fastly Authentication Tokens API
   slug: open-fastly-authentication-tokens
+- collection_type: open
+  name: Fastly Account ACL Automation Tokens API
+  slug: open-fastly-automation-tokens-api
+- collection_type: open
+  name: Fastly Account ACL Backend API
+  slug: open-fastly-backend-api
+- collection_type: open
+  name: Fastly Account ACL Bot Management API
+  slug: open-fastly-bot-management-api
+- collection_type: open
+  name: Fastly Account ACL Buckets API
+  slug: open-fastly-buckets-api
+- collection_type: open
+  name: Fastly Account ACL Cache Settings API
+  slug: open-fastly-cache-settings-api
+- collection_type: open
+  name: Fastly Account ACL Chat Completions API
+  slug: open-fastly-chat-completions-api
 - collection_type: open
   name: Fastly Client-Side Protection API
   slug: open-fastly-client-side-protection
@@ -428,17 +461,119 @@ collections:
   name: Fastly Compute API
   slug: open-fastly-compute
 - collection_type: open
+  name: Fastly Account ACL Condition API
+  slug: open-fastly-condition-api
+- collection_type: open
+  name: Fastly Account ACL Config Store API
+  slug: open-fastly-config-store-api
+- collection_type: open
+  name: Fastly Account ACL Content Status API
+  slug: open-fastly-content-status-api
+- collection_type: open
+  name: Fastly Account ACL Custom Dashboards API
+  slug: open-fastly-custom-dashboards-api
+- collection_type: open
+  name: Fastly Account ACL Custom VCL API
+  slug: open-fastly-custom-vcl-api
+- collection_type: open
+  name: Fastly Account ACL Customer API
+  slug: open-fastly-customer-api
+- collection_type: open
+  name: Fastly Account ACL DDoS Protection API
+  slug: open-fastly-ddos-protection-api
+- collection_type: open
   name: Fastly DDoS Protection Events API
   slug: open-fastly-ddos-protection
 - collection_type: open
   name: Fastly Edge Dictionaries API
   slug: open-fastly-dictionaries
 - collection_type: open
+  name: Fastly Account ACL Dictionary API
+  slug: open-fastly-dictionary-api
+- collection_type: open
+  name: Fastly Account ACL Dictionary Info API
+  slug: open-fastly-dictionary-info-api
+- collection_type: open
+  name: Fastly Account ACL Dictionary Item API
+  slug: open-fastly-dictionary-item-api
+- collection_type: open
+  name: Fastly Account ACL Diff API
+  slug: open-fastly-diff-api
+- collection_type: open
+  name: Fastly Account ACL Directors API
+  slug: open-fastly-directors-api
+- collection_type: open
+  name: Fastly Account ACL Docs API
+  slug: open-fastly-docs-api
+- collection_type: open
+  name: Fastly Account ACL Domain API
+  slug: open-fastly-domain-api
+- collection_type: open
+  name: Fastly Account ACL Domain Inspector API
+  slug: open-fastly-domain-inspector-api
+- collection_type: open
   name: Fastly Domain Management API
   slug: open-fastly-domain-management
 - collection_type: open
+  name: Fastly Account ACL Embeddings API
+  slug: open-fastly-embeddings-api
+- collection_type: open
+  name: Fastly Account ACL Events API
+  slug: open-fastly-events-api
+- collection_type: open
+  name: Fastly Account ACL Header API
+  slug: open-fastly-header-api
+- collection_type: open
+  name: Fastly Account ACL Historical Stats API
+  slug: open-fastly-historical-stats-api
+- collection_type: open
+  name: Fastly Account ACL IAM Roles API
+  slug: open-fastly-iam-roles-api
+- collection_type: open
+  name: Fastly Account ACL IAM Service Groups API
+  slug: open-fastly-iam-service-groups-api
+- collection_type: open
+  name: Fastly Account ACL IAM User Groups API
+  slug: open-fastly-iam-user-groups-api
+- collection_type: open
+  name: Fastly Account ACL Image Optimizer API
+  slug: open-fastly-image-optimizer-api
+- collection_type: open
+  name: Fastly Account ACL Insights API
+  slug: open-fastly-insights-api
+- collection_type: open
+  name: Fastly Account ACL KV Store API
+  slug: open-fastly-kv-store-api
+- collection_type: open
+  name: Fastly Account ACL KV Store Item API
+  slug: open-fastly-kv-store-item-api
+- collection_type: open
   name: Fastly Load Balancing API
   slug: open-fastly-load-balancing
+- collection_type: open
+  name: Fastly Account ACL Log Aggregations API
+  slug: open-fastly-log-aggregations-api
+- collection_type: open
+  name: Fastly Account ACL Log Explorer API
+  slug: open-fastly-log-explorer-api
+- collection_type: open
+  name: Fastly Account ACL Logging BigQuery API
+  slug: open-fastly-logging-bigquery-api
+- collection_type: open
+  name: Fastly Account ACL Logging Datadog API
+  slug: open-fastly-logging-datadog-api
+- collection_type: open
+  name: Fastly Account ACL Logging HTTPS API
+  slug: open-fastly-logging-https-api
+- collection_type: open
+  name: Fastly Account ACL Logging S3 API
+  slug: open-fastly-logging-s3-api
+- collection_type: open
+  name: Fastly Account ACL Logging Splunk API
+  slug: open-fastly-logging-splunk-api
+- collection_type: open
+  name: Fastly Account ACL Logging Syslog API
+  slug: open-fastly-logging-syslog-api
 - collection_type: open
   name: Fastly Real-Time Logging API
   slug: open-fastly-logging
@@ -446,26 +581,116 @@ collections:
   name: Fastly Metrics and Stats API
   slug: open-fastly-metrics-and-stats
 - collection_type: open
+  name: Fastly Account ACL Notification Service API
+  slug: open-fastly-notification-service-api
+- collection_type: open
   name: Fastly Object Storage
   slug: open-fastly-object-storage
+- collection_type: open
+  name: Fastly Account ACL Objects API
+  slug: open-fastly-objects-api
 - collection_type: open
   name: Fastly Observability API
   slug: open-fastly-observability
 - collection_type: open
+  name: Fastly Account ACL Origin Inspector API
+  slug: open-fastly-origin-inspector-api
+- collection_type: open
+  name: Fastly Account ACL Package API
+  slug: open-fastly-package-api
+- collection_type: open
+  name: Fastly Account ACL Pages API
+  slug: open-fastly-pages-api
+- collection_type: open
+  name: Fastly Account ACL Platform TLS API
+  slug: open-fastly-platform-tls-api
+- collection_type: open
+  name: Fastly Account ACL Policies API
+  slug: open-fastly-policies-api
+- collection_type: open
+  name: Fastly Account ACL POPs API
+  slug: open-fastly-pops-api
+- collection_type: open
   name: Fastly Products API
   slug: open-fastly-products
+- collection_type: open
+  name: Fastly Account ACL Public IP List API
+  slug: open-fastly-public-ip-list-api
+- collection_type: open
+  name: Fastly Account ACL Publishing API
+  slug: open-fastly-publishing-api
 - collection_type: open
   name: Fastly Publishing (Fanout) API
   slug: open-fastly-publishing
 - collection_type: open
+  name: Fastly Account ACL Purging API
+  slug: open-fastly-purging-api
+- collection_type: open
   name: Fastly Purging API
   slug: open-fastly-purging
+- collection_type: open
+  name: Fastly Account ACL Real-Time Analytics API
+  slug: open-fastly-real-time-analytics-api
+- collection_type: open
+  name: Fastly Account ACL Request Settings API
+  slug: open-fastly-request-settings-api
+- collection_type: open
+  name: Fastly Account ACL Response Object API
+  slug: open-fastly-response-object-api
+- collection_type: open
+  name: Fastly Account ACL Rules API
+  slug: open-fastly-rules-api
+- collection_type: open
+  name: Fastly Account ACL Scripts API
+  slug: open-fastly-scripts-api
+- collection_type: open
+  name: Fastly Account ACL Secret Store API
+  slug: open-fastly-secret-store-api
+- collection_type: open
+  name: Fastly Account ACL Security Headers API
+  slug: open-fastly-security-headers-api
+- collection_type: open
+  name: Fastly Account ACL Server Pools API
+  slug: open-fastly-server-pools-api
+- collection_type: open
+  name: Fastly Account ACL Servers API
+  slug: open-fastly-servers-api
+- collection_type: open
+  name: Fastly Account ACL Service API
+  slug: open-fastly-service-api
+- collection_type: open
+  name: Fastly Account ACL Service Version API
+  slug: open-fastly-service-version-api
 - collection_type: open
   name: Fastly Services API
   slug: open-fastly-services
 - collection_type: open
+  name: Fastly Account ACL Sudo Mode API
+  slug: open-fastly-sudo-mode-api
+- collection_type: open
+  name: Fastly Account ACL Timeseries API
+  slug: open-fastly-timeseries-api
+- collection_type: open
+  name: Fastly Account ACL TLS Activations API
+  slug: open-fastly-tls-activations-api
+- collection_type: open
+  name: Fastly Account ACL TLS Certificates API
+  slug: open-fastly-tls-certificates-api
+- collection_type: open
+  name: Fastly Account ACL TLS Private Keys API
+  slug: open-fastly-tls-private-keys-api
+- collection_type: open
   name: Fastly TLS API
   slug: open-fastly-tls
+- collection_type: open
+  name: Fastly Account ACL Traffic Stats API
+  slug: open-fastly-traffic-stats-api
+- collection_type: open
+  name: Fastly Account ACL User API
+  slug: open-fastly-user-api
+- collection_type: open
+  name: Fastly Account ACL User Tokens API
+  slug: open-fastly-user-tokens-api
 - collection_type: open
   name: Fastly Utilities API
   slug: open-fastly-utilities
@@ -473,8 +698,26 @@ collections:
   name: Fastly VCL Services API
   slug: open-fastly-vcl-services
 - collection_type: open
+  name: Fastly Account ACL VCL Snippet API
+  slug: open-fastly-vcl-snippet-api
+- collection_type: open
+  name: Fastly Account ACL WAF Active Rules API
+  slug: open-fastly-waf-active-rules-api
+- collection_type: open
+  name: Fastly Account ACL WAF Exclusions API
+  slug: open-fastly-waf-exclusions-api
+- collection_type: open
+  name: Fastly Account ACL WAF Firewalls API
+  slug: open-fastly-waf-firewalls-api
+- collection_type: open
+  name: Fastly Account ACL WAF Rules API
+  slug: open-fastly-waf-rules-api
+- collection_type: open
   name: Fastly Next-Gen WAF API
   slug: open-fastly-waf
+- collection_type: open
+  name: Fastly Account ACL Websites API
+  slug: open-fastly-websites-api
 common:
 - group: agent
   title: ''
@@ -1056,7 +1299,7 @@ plans:
 - name: Fastly Plans Pricing
   plan_count: 12
   slug: fastly-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 13
   name: Fastly Rate Limits
@@ -1106,7 +1349,7 @@ score:
       marker_coverage: 0.0
       total: 81
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/screenshots/fastly-2026-06-20T181052.png
 security:

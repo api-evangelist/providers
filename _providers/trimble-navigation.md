@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,11 +57,29 @@ apis:
 - description: The System API from Trimble Navigation — 1 operation(s) for system.
   name: Trimble Navigation System API
   slug: trimble-navigation-system-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Trimble Mobile Manager API
   slug: open-trimble-mobile-manager
+- collection_type: open
+  name: Trimble Mobile Manager Catalyst API
+  slug: open-trimble-navigation-catalyst-api
+- collection_type: open
+  name: Trimble Mobile Manager Catalyst Corrections API
+  slug: open-trimble-navigation-corrections-api
+- collection_type: open
+  name: Trimble Mobile Manager Catalyst Positioning API
+  slug: open-trimble-navigation-positioning-api
+- collection_type: open
+  name: Trimble Mobile Manager Catalyst Receiver API
+  slug: open-trimble-navigation-receiver-api
+- collection_type: open
+  name: Trimble Mobile Manager Catalyst System API
+  slug: open-trimble-navigation-system-api
 common:
 - group: agent
   title: ''
@@ -162,7 +180,7 @@ press:
 - date: '2026-05-25'
   title: Builder business and will extend Trimble's ability to provide ...
   url: https://www.facebook.com/TrimbleCorporate/posts/more-big-news-happened-todaywe-are-so-excited-to-announce-the-newest-member-of-t/1919754298098753/
-random_paper: 68
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Trimble Navigation Rate Limits
@@ -204,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble-navigation/refs/heads/main/screenshots/trimble-navigation-2026-06-20T195716.png
 security:

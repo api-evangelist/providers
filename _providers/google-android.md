@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -100,8 +100,35 @@ arazzos:
 - description: Create a hosted web app, confirm it registered, then add it to a policy so it installs on the fleet.
   name: Google Android Publish a Web App and Push It to a Policy
   slug: google-android-web-app-publishing-workflow
-artifact_total: 49
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Android Management Android Management API API
+  slug: open-google-android-android-management-api-api
+- collection_type: open
+  name: Android Management Android Management API Device API
+  slug: open-google-android-device-api
+- collection_type: open
+  name: Android Management Android Management API Devices API
+  slug: open-google-android-devices-api
+- collection_type: open
+  name: Android Management Android Management API EnrollmentTokens API
+  slug: open-google-android-enrollmenttokens-api
+- collection_type: open
+  name: Android Management Android Management API Enterprises API
+  slug: open-google-android-enterprises-api
+- collection_type: open
+  name: Android Management Android Management API Policies API
+  slug: open-google-android-policies-api
+- collection_type: open
+  name: Android Management Android Management API Policy API
+  slug: open-google-android-policy-api
+- collection_type: open
+  name: Android Management Android Management API WebApps API
+  slug: open-google-android-webapps-api
 - collection_type: open
   name: Android Management API
   slug: open-google-android
@@ -314,7 +341,7 @@ plans:
 - name: Google Android Plans Pricing
   plan_count: 3
   slug: google-android-plans-pricing
-random_paper: 99
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Google Android Rate Limits
@@ -346,7 +373,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/screenshots/google-android-2026-06-20T182012.png
 security:

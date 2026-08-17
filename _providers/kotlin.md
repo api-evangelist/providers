@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Core Kotlin standard library with collections, I/O, and utility functions.
@@ -91,7 +91,7 @@ plans:
 - name: Kotlin Plans Pricing
   plan_count: 3
   slug: kotlin-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Kotlin Rate Limits
@@ -109,7 +109,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 14.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotlin/refs/heads/main/screenshots/kotlin-2026-06-20T184140.png
 security:

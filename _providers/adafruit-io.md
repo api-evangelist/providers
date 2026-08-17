@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -103,14 +103,50 @@ arazzos:
 - description: Create a feed, push an initial data point to it, then read the last value back.
   name: Adafruit IO Provision Feed and Seed Data
   slug: adafruit-io-provision-feed-and-seed-data-workflow
-artifact_total: 60
+artifact_total: 72
 collections:
 - collection_type: postman
   name: Adafruit IO REST API
   slug: postman-adafruit-io-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adafruit IO REST Activities API
+  slug: open-adafruit-io-activities-api
+- collection_type: open
+  name: Adafruit IO REST Activities Blocks API
+  slug: open-adafruit-io-blocks-api
+- collection_type: open
+  name: Adafruit IO REST Activities Dashboards API
+  slug: open-adafruit-io-dashboards-api
+- collection_type: open
+  name: Adafruit IO REST Activities Data API
+  slug: open-adafruit-io-data-api
+- collection_type: open
+  name: Adafruit IO REST Activities Feeds API
+  slug: open-adafruit-io-feeds-api
+- collection_type: open
+  name: Adafruit IO REST Activities Groups API
+  slug: open-adafruit-io-groups-api
+- collection_type: open
+  name: Adafruit IO REST Activities Permissions API
+  slug: open-adafruit-io-permissions-api
+- collection_type: open
   name: Adafruit IO REST API
   slug: open-adafruit-io-rest-api
+- collection_type: open
+  name: Adafruit IO REST Activities Tokens API
+  slug: open-adafruit-io-tokens-api
+- collection_type: open
+  name: Adafruit IO REST Activities Triggers API
+  slug: open-adafruit-io-triggers-api
+- collection_type: open
+  name: Adafruit IO REST Activities Users API
+  slug: open-adafruit-io-users-api
+- collection_type: open
+  name: Adafruit IO REST Activities Webhooks API
+  slug: open-adafruit-io-webhooks-api
 common:
 - group: agent
   title: ''
@@ -398,7 +434,7 @@ plans:
 - name: Adafruit Io Plans Pricing
   plan_count: 3
   slug: adafruit-io-plans-pricing
-random_paper: 29
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Adafruit Io Rate Limits
@@ -440,7 +476,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/screenshots/adafruit-io-2026-06-20T164505.png
 security:

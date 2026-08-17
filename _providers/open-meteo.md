@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,38 @@ apis:
 - description: The Weather Forecast APIs API from Open-Meteo — 1 operation(s) for weather forecast apis.
   name: Open-Meteo Weather Forecast APIs API
   slug: open-meteo-weather-forecast-apis-api
-artifact_total: 24
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open-Meteo Air Quality Air Quality APIs API
+  slug: open-open-meteo-air-quality-apis-api
+- collection_type: open
+  name: Open-Meteo Air Quality Air Quality APIs Climate Change APIs API
+  slug: open-open-meteo-climate-change-apis-api
+- collection_type: open
+  name: Open-Meteo Air Quality Air Quality APIs Elevation API API
+  slug: open-open-meteo-elevation-api-api
+- collection_type: open
+  name: Open-Meteo Air Quality Air Quality APIs Ensemble Forecast APIs API
+  slug: open-open-meteo-ensemble-forecast-apis-api
+- collection_type: open
+  name: Open-Meteo Air Quality Air Quality APIs Flood APIs API
+  slug: open-open-meteo-flood-apis-api
+- collection_type: open
+  name: Open-Meteo Air Quality Air Quality APIs Historical Weather APIs API
+  slug: open-open-meteo-historical-weather-apis-api
+- collection_type: open
+  name: Open-Meteo Air Quality Air Quality APIs Marine Weather APIs API
+  slug: open-open-meteo-marine-weather-apis-api
+- collection_type: open
+  name: Open-Meteo Air Quality Air Quality APIs Seasonal Forecast APIs API
+  slug: open-open-meteo-seasonal-forecast-apis-api
+- collection_type: open
+  name: Open-Meteo Air Quality Air Quality APIs Weather Forecast APIs API
+  slug: open-open-meteo-weather-forecast-apis-api
 common:
 - group: agent
   title: ''
@@ -170,7 +201,7 @@ plans:
 - name: Open Meteo Plans Pricing
   plan_count: 4
   slug: open-meteo-plans-pricing
-random_paper: 57
+random_paper: 123
 rate_limits:
 - limit_count: 4
   name: Open Meteo Rate Limits
@@ -204,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/screenshots/open-meteo-2026-06-20T190840.png
 security:

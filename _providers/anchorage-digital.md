@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -98,11 +98,75 @@ apis:
 - description: The Webhook Notifications API from Anchorage Digital — 6 operation(s) for webhook notifications.
   name: Anchorage Digital Webhook Notifications API
   slug: anchorage-digital-webhook-notifications-api
-artifact_total: 27
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Anchorage Digital Webhooks
   slug: anchorage-digital-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses API
+  slug: open-anchorage-digital-addresses-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses API Key API
+  slug: open-anchorage-digital-api-key-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Asset Types API
+  slug: open-anchorage-digital-asset-types-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Atlas Settlement Network API
+  slug: open-anchorage-digital-atlas-settlement-network-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Collateral Management API
+  slug: open-anchorage-digital-collateral-management-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Deposit Attribution API
+  slug: open-anchorage-digital-deposit-attribution-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Onboarding API
+  slug: open-anchorage-digital-onboarding-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Stablecoins API
+  slug: open-anchorage-digital-stablecoins-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Statements API
+  slug: open-anchorage-digital-statements-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Subaccounts API
+  slug: open-anchorage-digital-subaccounts-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Tax API
+  slug: open-anchorage-digital-tax-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Tax Reporting API
+  slug: open-anchorage-digital-tax-reporting-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Trading API
+  slug: open-anchorage-digital-trading-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Transactions API
+  slug: open-anchorage-digital-transactions-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Transfers API
+  slug: open-anchorage-digital-transfers-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Trusted Destinations API
+  slug: open-anchorage-digital-trusted-destinations-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Vaults API
+  slug: open-anchorage-digital-vaults-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Vesting API
+  slug: open-anchorage-digital-vesting-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Wallets API
+  slug: open-anchorage-digital-wallets-api
+- collection_type: open
+  name: Anchorage Digital API Reference Addresses Webhook Notifications API
+  slug: open-anchorage-digital-webhook-notifications-api
 common:
 - group: company
   title: ''
@@ -251,7 +315,7 @@ overview: 'Anchorage Digital publishes 20 APIs on the [APIs.io](https://apis.io/
 
 
   Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
-random_paper: 35
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Anchorage Digital Rate Limits
@@ -285,7 +349,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage-digital/refs/heads/main/screenshots/anchorage-digital-2026-07-25T200222.png
 security:

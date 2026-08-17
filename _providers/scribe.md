@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The Teams API from Scribe — 1 operation(s) for teams.
   name: Scribe Teams API
   slug: scribe-teams-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scribe Search & Retrieval Documents API
+  slug: open-scribe-documents-api
+- collection_type: open
+  name: Scribe & Retrieval Documents Search API
+  slug: open-scribe-search-api
+- collection_type: open
+  name: Scribe Search & Retrieval Documents Teams API
+  slug: open-scribe-teams-api
 common:
 - group: other
   title: ''
@@ -173,7 +186,7 @@ overview: 'Scribe publishes 3 APIs on the [APIs.io](https://apis.io/) network: D
 
 
   Scribe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Scribe Rate Limits
@@ -201,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

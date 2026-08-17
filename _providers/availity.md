@@ -14,12 +14,12 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 45.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -88,18 +88,111 @@ arazzos:
 - description: Determine whether authorization is required, create the X12 278 service review, attach supporting clinical documentation, then read back the authorization decision.
   name: Availity Prior Authorization (X12 278)
   slug: availity-prior-authorization-workflow
-artifact_total: 164
+artifact_total: 195
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Availity Claim Attachments Auth Attachments API
+  slug: open-availity-auth-attachments-api
+- collection_type: open
+  name: Availity Auth Attachments Claim Attachments API
+  slug: open-availity-claim-attachments-api
 - collection_type: open
   name: Availity Claim Attachments API
   slug: open-availity-claim-attachments
 - collection_type: open
+  name: Availity Claim Attachments Auth Attachments Claim Status API
+  slug: open-availity-claim-status-api
+- collection_type: open
   name: Availity Claim Status API
   slug: open-availity-claim-status
 - collection_type: open
+  name: Availity Claim Attachments Auth Attachments Eligibility API
+  slug: open-availity-eligibility-api
+- collection_type: open
   name: Availity Eligibility & Benefits API
   slug: open-availity-eligibility
+- collection_type: open
+  name: Availity Claim Attachments Auth Attachments Enhanced Claim Status API
+  slug: open-availity-enhanced-claim-status-api
+- collection_type: open
+  name: Availity Claim Attachments Auth Attachments Is Auth Required API
+  slug: open-availity-is-auth-required-api
 common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/availity
+- group: company
+  title: ''
+  type: Website
+  url: https://www.availity.com
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer.availity.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.availity.com/blog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.availity.com/partner/gettingstarted
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.availity.com/blog/2025/3/25/availity-api-guide
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.availity.com/partner/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.availity.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.availity.com/Privacy-Policy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/availity
+- group: build
+  title: ''
+  type: SDKs
+  url: https://availity.github.io/sdk-js/
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/json-schema/availity-eligibility-schema.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/json-ld/availity-eligibility-context.jsonld
+- group: design
+  title: ''
+  type: JSONLD
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/json-ld/availity-claim-context.jsonld
+- group: design
+  title: ''
+  type: JSONLD
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/json-ld/availity-service-context.jsonld
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/rules/availity-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/vocabulary/availity-vocabulary.yaml
+- group: design
+  title: ''
+  type: ArazzoWorkflows
+  url: ''
 - group: agent
   title: ''
   type: AgenticAccess
@@ -116,10 +209,179 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/availity-scopes.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.availity.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.availity.com/portal/catalogue-products/healthcare-hipaa-transactions-1
 - group: company
   title: ''
   type: Blog
-  url: https://developer.availity.com/blog
+  url: https://www.availity.com/blog/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.availity.com/portal/user/login
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.availity.com/regulatory-compliance/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.availity.com
+- group: build
+  title: ''
+  type: Packages
+  url: packages/availity-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/availity-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/availity-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/availity-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/availity-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/availity-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/availity-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/availity-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/availity-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/availity-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/availity-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/availity-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/availity-finops.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/availity-llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-aws-payer-list-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-care-cost-estimator-institutional-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-care-cost-estimator-professional-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-claim-statuses-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-configurations-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-coverages-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-dental-claims-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-dfs-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-patient-cost-estimator-professional-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-payer-list-swagger.json
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_harvested/availity-service-reviews-swagger.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-aws-payer-list-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-care-cost-estimator-institutional-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-care-cost-estimator-professional-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-claim-statuses-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-configurations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-coverages-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-dental-claims-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-dfs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-patient-cost-estimator-professional-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-payer-list-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/availity-service-reviews-overlay.yaml
+created: '2026-04-20'
 description: Availity is a healthcare information network and clearinghouse providing REST APIs for real-time HIPAA EDI transactions. The platform processes over 11 billion annual healthcare transactions connecting providers, health plans, and vendors nationwide. Create your application and subscribe to a plan to make use of Availity APIs for eligibility verification, claims management, prior authorization, and patient cost estimation.
 examples:
 - key_count: 6
@@ -227,11 +489,45 @@ examples:
 - key_count: 5
   name: Service Reviews Service Review Response Example
   slug: service-reviews-service-review-response-example
+features:
+- description: Client credentials grant flow with 5-minute token expiration and HTTPS/TLS encryption for secure API access.
+  name: OAuth 2.0 Authentication
+- description: Processing over 8.8 million daily transactions and 11 billion annual healthcare transactions across all major health plans.
+  name: Real-Time EDI Transactions
+- description: Access to every major health plan nationwide and over 1 million providers through the Availity clearinghouse.
+  name: Nationwide Payer Network
+- description: Returns JSON and XML representations including errors using HTTP response codes. Supports CSV, PDF, PNG, and XLS for specific endpoints.
+  name: Multi-Format Responses
+- description: Collection resources support offset/limit pagination with limit range of 1-50 items per request with link relations.
+  name: Cursor-Based Pagination
+- description: Demo subscriptions support custom response selection via X-Api-Mock-Scenario-ID and X-Api-Mock-Response headers.
+  name: Mock/Sandbox Testing
+- description: Standard tier provides 100,000 calls per day and 100 calls per second for HIPAA transaction APIs.
+  name: Rate Limiting
+- description: Full support for HIPAA EDI version 005010 transactions including 270/271, 276/277, 278, and 835 transaction sets.
+  name: ASC X12 EDI Standards
 finops:
 - name: Availity Finops
   service_category: Healthcare Network / Clearinghouse
   slug: availity-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/availity.png
+integrations:
+- description: Integrates with electronic health record systems to embed eligibility and claims workflows into clinical workflows.
+  name: EHR Systems
+- description: Connects practice management software to payer networks for revenue cycle management and claims processing.
+  name: Practice Management Systems
+- description: Integrates with RCM platforms to automate eligibility verification, claim submission, and payment reconciliation.
+  name: Revenue Cycle Management Platforms
+- description: Direct integration with BCBS plans nationwide for eligibility, claims, and prior authorization transactions.
+  name: Blue Cross Blue Shield Plans
+- description: Integration with Humana for care reminders, eligibility verification, and claims processing.
+  name: Humana
+- description: Integration with Molina Healthcare for eligibility and benefits verification and care reminders.
+  name: Molina Healthcare
+- description: Integration with Florida Blue for care reminders and real-time eligibility verification.
+  name: Florida Blue
+- description: Integration with Healthfirst New York for eligibility and care gap identification.
+  name: Healthfirst New York
 json_schemas:
 - name: AsyncJobResponse
   property_count: 2
@@ -544,28 +840,28 @@ jsonld:
   property_count: 30
   slug: availity-service-context
 layout: provider
-modified: '2026-05-19'
-name: availity
+modified: '2026-08-15'
+name: Availity
 nav: Providers
 network: true
-overview: 'availity publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth Attachments API, Claim Attachments API, Claim Status API, and 4 more.
+overview: 'Availity publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth Attachments API, Claim Attachments API, Claim Status API, and 4 more. Tagged areas include Healthcare, Clearinghouse, HIPAA, X12 EDI, and Eligibility.
 
 
-  The availity catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Availity catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  availity''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
+  Availity''s developer surface includes developer portal, documentation, getting-started guide, support, authentication, API reference, engineering blog, and 57 more developer resources.'
 plans:
 - name: Availity Plans Pricing
-  plan_count: 5
+  plan_count: 7
   slug: availity-plans-pricing
-random_paper: 27
+random_paper: 122
 rate_limits:
-- limit_count: 3
+- limit_count: 4
   name: Availity Rate Limits
   slug: availity-rate-limits
 rules:
-- name: availity API Rules
+- name: Availity API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -573,7 +869,7 @@ rules:
     info: 2
     warn: 4
   slug: availity-jsonschema-spectral-rules
-- name: availity API Rules
+- name: Availity API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -583,20 +879,20 @@ rules:
   slug: availity-spectral-rules
 scopes:
 - name: Availity Scopes
-  scope_count: 1
+  scope_count: 10
   slug: availity-scopes
-  summary_line: 1 scope · clientCredentials
+  summary_line: 10 scopes
 score:
-  band: thin
-  composite: 39.6
-  delta: 0.0
+  band: exemplar
+  composite: 67.6
+  delta: 28.0
   facets:
-    commercial_clarity: 15.8
+    commercial_clarity: 57.9
     contract_quality: 77.2
-    developer_ergonomics: 13.0
-    discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 7.9
+    developer_ergonomics: 78.3
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 28.9
   previous_composite: 39.6
   provenance:
     agentic_access: derived
@@ -605,9 +901,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/screenshots/availity-2026-06-20T172716.png
 security:
 - kind: authentication
@@ -619,4 +921,33 @@ security:
   slug: availity-domain-security
   summary_line: TLSv1.3 · DMARC
 slug: availity
+tags:
+- Healthcare
+- Clearinghouse
+- HIPAA
+- X12 EDI
+- Eligibility
+- Claims
+- Prior Authorization
+- Revenue Cycle Management
+- Payers
+- Price Transparency
+use_cases:
+- description: Verify patient insurance coverage, co-pays, deductibles, and benefits in real time before scheduling or rendering services.
+  name: Real-Time Eligibility Verification
+- description: Track submitted claims through adjudication, checking ACKNOWLEDGED, PENDING, PAID, DENIED, and ADJUSTED statuses.
+  name: Claim Status Tracking
+- description: Submit and track prior authorization requests using X12 278 transactions to check if authorization is required before service delivery.
+  name: Prior Authorization Management
+- description: Estimate patient out-of-pocket costs before services are rendered to meet price transparency requirements and inform patients.
+  name: Patient Cost Estimation
+- description: Electronically attach clinical documentation to claims and authorizations, reducing manual faxing and accelerating adjudication.
+  name: Electronic Claim Attachments
+- description: Retrieve real-time care reminders during eligibility checks to identify preventive care gaps and coordinate outreach.
+  name: Care Gap Identification
+- description: Retrieve member ID cards digitally during eligibility verification, reducing administrative burden and improving patient experience.
+  name: Digital Member ID Cards
+- description: Connect to all major payers through a single clearinghouse API rather than managing individual payer connections.
+  name: Multi-Payer Data Consolidation
+website: https://www.availity.com
 ---

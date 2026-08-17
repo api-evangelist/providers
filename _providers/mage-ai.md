@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Manage pipelines.
   name: Mage Pipelines API
   slug: mage-ai-pipelines-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mage Blocks API
+  slug: open-mage-ai-blocks-api
+- collection_type: open
+  name: Mage Blocks Pipeline Runs API
+  slug: open-mage-ai-pipeline-runs-api
+- collection_type: open
+  name: Mage Blocks Pipeline Schedules API
+  slug: open-mage-ai-pipeline-schedules-api
+- collection_type: open
+  name: Mage Blocks Pipelines API
+  slug: open-mage-ai-pipelines-api
 - collection_type: open
   name: Mage API
   slug: open-mage-ai
@@ -125,7 +140,7 @@ plans:
 - name: Mage Ai Plans Pricing
   plan_count: 5
   slug: mage-ai-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Mage Ai Rate Limits
@@ -150,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/screenshots/mage-ai-2026-06-20T184836.png
 security:

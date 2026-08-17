@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Chemical format conversion and validation utilities.
   name: RSC Tools API
   slug: rsc-tools-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: RSC ChemSpider Compounds API
   slug: open-rsc-chemspider-compounds
+- collection_type: open
+  name: RSC ChemSpider Compounds Filter API
+  slug: open-rsc-filter-api
+- collection_type: open
+  name: RSC ChemSpider Compounds Filter Lookups API
+  slug: open-rsc-lookups-api
+- collection_type: open
+  name: RSC ChemSpider Compounds Filter Records API
+  slug: open-rsc-records-api
+- collection_type: open
+  name: RSC ChemSpider Compounds Filter Tools API
+  slug: open-rsc-tools-api
 common:
 - group: agent
   title: ''
@@ -139,7 +154,7 @@ plans:
 - name: Rsc Plans Pricing
   plan_count: 3
   slug: rsc-plans-pricing
-random_paper: 88
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Rsc Rate Limits
@@ -181,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: Obtaining and using tokens
   name: Echo Global Logistics token API
   slug: echo-global-token-api
-artifact_total: 24
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Echo Authorizer documents API
+  slug: open-echo-global-documents-api
+- collection_type: open
+  name: Echo Authorizer documents health API
+  slug: open-echo-global-health-api
+- collection_type: open
+  name: Echo Authorizer documents ping API
+  slug: open-echo-global-ping-api
+- collection_type: open
+  name: Echo Authorizer documents query API
+  slug: open-echo-global-query-api
+- collection_type: open
+  name: Echo Authorizer documents quotes API
+  slug: open-echo-global-quotes-api
+- collection_type: open
+  name: Echo Authorizer documents rates API
+  slug: open-echo-global-rates-api
+- collection_type: open
+  name: Echo Authorizer documents shipments API
+  slug: open-echo-global-shipments-api
+- collection_type: open
+  name: Echo Authorizer documents token API
+  slug: open-echo-global-token-api
 common:
 - group: agent
   title: ''
@@ -168,7 +196,7 @@ plans:
 - name: Echo Global Plans Pricing
   plan_count: 3
   slug: echo-global-plans-pricing
-random_paper: 5
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Echo Global Rate Limits
@@ -202,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/screenshots/echo-global-2026-06-20T180419.png
 security:

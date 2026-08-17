@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -72,12 +72,27 @@ apis:
 - description: Read-only market metadata.
   name: Polymarket Gamma Markets API
   slug: polymarket-gamma-markets-api
-artifact_total: 20
+artifact_total: 25
 asyncapis:
 - description: 'Real-time streaming feed for Polymarket''s central-limit order book (CLOB). Two channels are exposed: a public market channel that streams order book snapshots, price level updates, tick size changes, '
   name: Polymarket CLOB WebSocket API
   slug: polymarket-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Polymarket APIs (CLOB and Gamma) CLOB Market Data API
+  slug: open-polymarket-clob-market-data-api
+- collection_type: open
+  name: Polymarket APIs (CLOB and Gamma) CLOB Market Data CLOB Trade API
+  slug: open-polymarket-clob-trade-api
+- collection_type: open
+  name: Polymarket APIs (CLOB and Gamma) CLOB Market Data Gamma Events API
+  slug: open-polymarket-gamma-events-api
+- collection_type: open
+  name: Polymarket APIs (CLOB and Gamma) CLOB Market Data Gamma Markets API
+  slug: open-polymarket-gamma-markets-api
 - collection_type: open
   name: Polymarket APIs (CLOB and Gamma)
   slug: open-polymarket
@@ -157,7 +172,7 @@ plans:
 - name: Polymarket Plans Pricing
   plan_count: 1
   slug: polymarket-plans-pricing
-random_paper: 16
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Polymarket Rate Limits
@@ -197,7 +212,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/screenshots/polymarket-2026-06-20T191927.png
 security:

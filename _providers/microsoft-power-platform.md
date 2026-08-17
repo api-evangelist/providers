@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,8 +54,17 @@ apis:
 - description: The Records API from Microsoft Power Platform — 2 operation(s) for records.
   name: Microsoft Power Platform Records API
   slug: microsoft-power-platform-records-api
-artifact_total: 13
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Dataverse Web Metadata API
+  slug: open-microsoft-power-platform-metadata-api
+- collection_type: open
+  name: Microsoft Dataverse Web Metadata Records API
+  slug: open-microsoft-power-platform-records-api
 - collection_type: open
   name: Microsoft Dataverse Web API
   slug: open-microsoft-power-platform
@@ -140,7 +149,7 @@ plans:
 - name: Microsoft Power Platform Plans Pricing
   plan_count: 3
   slug: microsoft-power-platform-plans-pricing
-random_paper: 98
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Platform Rate Limits
@@ -176,7 +185,7 @@ score:
     regime_id: energy_utilities
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/screenshots/microsoft-power-platform-2026-06-20T185525.png
 security:

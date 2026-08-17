@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Transaction submission
   name: Aleo Transactions API
   slug: aleo-transactions-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aleo Node REST Blocks API
+  slug: open-aleo-blocks-api
+- collection_type: open
+  name: Aleo Node REST Blocks Chain API
+  slug: open-aleo-chain-api
+- collection_type: open
+  name: Aleo Node REST Blocks Network API
+  slug: open-aleo-network-api
+- collection_type: open
+  name: Aleo Node REST Blocks Programs API
+  slug: open-aleo-programs-api
+- collection_type: open
+  name: Aleo Node REST Blocks Transactions API
+  slug: open-aleo-transactions-api
 common:
 - group: auth
   title: ''
@@ -187,7 +206,7 @@ overview: 'Aleo publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Aleo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, CLI, and 22 more developer resources.'
-random_paper: 57
+random_paper: 119
 score:
   band: developing
   composite: 45.3
@@ -211,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/screenshots/aleo-2026-07-25T195557.png
 security:

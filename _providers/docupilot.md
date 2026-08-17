@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 6
@@ -159,7 +159,131 @@ apis:
 - description: The workspaces API from Docupilot — 4 operation(s) for workspaces.
   name: Docupilot workspaces API
   slug: docupilot-workspaces-api
-artifact_total: 318
+artifact_total: 359
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Docupilot accounts APIs ai API
+  slug: open-docupilot-ai-api
+- collection_type: open
+  name: Docupilot accounts APIs ai append API
+  slug: open-docupilot-append-api
+- collection_type: open
+  name: Docupilot accounts APIs ai application API
+  slug: open-docupilot-application-api
+- collection_type: open
+  name: Docupilot accounts APIs ai auth_tokens API
+  slug: open-docupilot-auth-tokens-api
+- collection_type: open
+  name: Docupilot accounts APIs ai community API
+  slug: open-docupilot-community-api
+- collection_type: open
+  name: Docupilot accounts APIs ai content_blocks API
+  slug: open-docupilot-content-blocks-api
+- collection_type: open
+  name: Docupilot accounts APIs ai convert API
+  slug: open-docupilot-convert-api
+- collection_type: open
+  name: Docupilot accounts APIs ai demographic API
+  slug: open-docupilot-demographic-api
+- collection_type: open
+  name: Docupilot accounts APIs ai domain API
+  slug: open-docupilot-domain-api
+- collection_type: open
+  name: Docupilot accounts APIs ai esign API
+  slug: open-docupilot-esign-api
+- collection_type: open
+  name: Docupilot accounts APIs ai esign-folders API
+  slug: open-docupilot-esign-folders-api
+- collection_type: open
+  name: Docupilot accounts APIs ai esign-settings API
+  slug: open-docupilot-esign-settings-api
+- collection_type: open
+  name: Docupilot accounts APIs ai extensions API
+  slug: open-docupilot-extensions-api
+- collection_type: open
+  name: Docupilot accounts APIs ai folders API
+  slug: open-docupilot-folders-api
+- collection_type: open
+  name: Docupilot accounts APIs ai Gallery templates API
+  slug: open-docupilot-gallery-templates-api
+- collection_type: open
+  name: Docupilot accounts APIs ai general API
+  slug: open-docupilot-general-api
+- collection_type: open
+  name: Docupilot accounts APIs ai generate API
+  slug: open-docupilot-generate-api
+- collection_type: open
+  name: Docupilot accounts APIs ai generate_bulk API
+  slug: open-docupilot-generate-bulk-api
+- collection_type: open
+  name: Docupilot accounts APIs ai history API
+  slug: open-docupilot-history-api
+- collection_type: open
+  name: Docupilot accounts APIs ai invitation API
+  slug: open-docupilot-invitation-api
+- collection_type: open
+  name: Docupilot accounts APIs ai invitations API
+  slug: open-docupilot-invitations-api
+- collection_type: open
+  name: Docupilot accounts APIs ai linked_accounts API
+  slug: open-docupilot-linked-accounts-api
+- collection_type: open
+  name: Docupilot accounts APIs ai merge_history API
+  slug: open-docupilot-merge-history-api
+- collection_type: open
+  name: Docupilot accounts APIs ai mfa API
+  slug: open-docupilot-mfa-api
+- collection_type: open
+  name: Docupilot accounts APIs ai organization API
+  slug: open-docupilot-organization-api
+- collection_type: open
+  name: Docupilot accounts APIs ai organization_onboarding API
+  slug: open-docupilot-organization-onboarding-api
+- collection_type: open
+  name: Docupilot accounts APIs ai pdf API
+  slug: open-docupilot-pdf-api
+- collection_type: open
+  name: Docupilot accounts APIs ai permissions API
+  slug: open-docupilot-permissions-api
+- collection_type: open
+  name: Docupilot accounts APIs ai personalization API
+  slug: open-docupilot-personalization-api
+- collection_type: open
+  name: Docupilot accounts APIs ai saml API
+  slug: open-docupilot-saml-api
+- collection_type: open
+  name: Docupilot accounts APIs ai scim API
+  slug: open-docupilot-scim-api
+- collection_type: open
+  name: Docupilot accounts APIs ai subscription API
+  slug: open-docupilot-subscription-api
+- collection_type: open
+  name: Docupilot accounts APIs ai team API
+  slug: open-docupilot-team-api
+- collection_type: open
+  name: Docupilot accounts APIs ai template_delivery API
+  slug: open-docupilot-template-delivery-api
+- collection_type: open
+  name: Docupilot accounts APIs ai Template versioning API
+  slug: open-docupilot-template-versioning-api
+- collection_type: open
+  name: Docupilot accounts APIs ai templates API
+  slug: open-docupilot-templates-api
+- collection_type: open
+  name: Docupilot accounts APIs ai user API
+  slug: open-docupilot-user-api
+- collection_type: open
+  name: Docupilot accounts APIs ai user_satisfaction_survey API
+  slug: open-docupilot-user-satisfaction-survey-api
+- collection_type: open
+  name: Docupilot accounts APIs ai users API
+  slug: open-docupilot-users-api
+- collection_type: open
+  name: Docupilot accounts APIs ai workspaces API
+  slug: open-docupilot-workspaces-api
 common:
 - group: agent
   title: ''
@@ -1059,7 +1183,7 @@ plans:
 - name: Docupilot Plans Pricing
   plan_count: 6
   slug: docupilot-plans-pricing
-random_paper: 19
+random_paper: 85
 rate_limits:
 - limit_count: 2
   name: Docupilot Rate Limits
@@ -1093,7 +1217,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/screenshots/docupilot-2026-06-20T180118.png
 security:

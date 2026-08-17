@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Scan execution results and metrics.
   name: Endor Labs Scan Results API
   slug: endor-labs-scan-results-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Endor Labs REST Authentication API
+  slug: open-endor-labs-authentication-api
+- collection_type: open
+  name: Endor Labs REST Authentication Findings API
+  slug: open-endor-labs-findings-api
+- collection_type: open
+  name: Endor Labs REST Authentication Namespaces API
+  slug: open-endor-labs-namespaces-api
+- collection_type: open
+  name: Endor Labs REST Authentication Packages API
+  slug: open-endor-labs-packages-api
+- collection_type: open
+  name: Endor Labs REST Authentication Policies API
+  slug: open-endor-labs-policies-api
+- collection_type: open
+  name: Endor Labs REST Authentication Projects API
+  slug: open-endor-labs-projects-api
+- collection_type: open
+  name: Endor Labs REST Authentication Scan Results API
+  slug: open-endor-labs-scan-results-api
 - collection_type: open
   name: Endor Labs REST API
   slug: open-endor-labs
@@ -130,7 +154,7 @@ plans:
 - name: Endor Labs Plans Pricing
   plan_count: 2
   slug: endor-labs-plans-pricing
-random_paper: 39
+random_paper: 105
 rate_limits:
 - limit_count: 2
   name: Endor Labs Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/screenshots/endor-labs-2026-06-20T180657.png
 security:

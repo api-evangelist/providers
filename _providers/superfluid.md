@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Public GraphQL Subgraph API (served via The Graph) for querying Superfluid protocol state — streams/flows, distribution pools, accounts, SuperTokens, token statistics, and events — across supported EV
@@ -115,7 +115,7 @@ overview: 'Superfluid publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Superfluid''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 12 more developer resources.'
-random_paper: 11
+random_paper: 48
 score:
   band: emerging
   composite: 22.0
@@ -135,7 +135,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

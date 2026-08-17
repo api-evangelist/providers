@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,11 @@ apis:
 - description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Payees surface of the shared DSB Banking API implemented by Bank of Melbourne as an accredited CDR data holder. Access requires an Accredited Data Recipie
   name: Bank of Melbourne CDR Payees API
   slug: bank-of-melbourne-cdr-payees-api
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: CDR Banking API
+  slug: open-bank-of-melbourne-cds-banking-products
 common:
 - group: agent
   title: ''
@@ -147,7 +151,7 @@ overview: 'Bank of Melbourne publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Bank of Melbourne''s developer surface includes documentation, authentication, and 17 more developer resources.'
-random_paper: 4
+random_paper: 45
 score:
   band: thin
   composite: 30.4
@@ -172,7 +176,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/screenshots/bank-of-melbourne-2026-07-21T114702.png
 security:

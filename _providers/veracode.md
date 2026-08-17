@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -72,11 +72,26 @@ apis:
 - description: User and API service account management
   name: Veracode Users API
   slug: veracode-users-api
-artifact_total: 32
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veracode Applications REST API Credentials API
+  slug: open-veracode-api-credentials-api
+- collection_type: open
+  name: Veracode REST API Credentials Applications API
+  slug: open-veracode-applications-api
 - collection_type: open
   name: Veracode Applications REST API
   slug: open-veracode-applications
+- collection_type: open
+  name: Veracode Applications REST API Credentials Business Units API
+  slug: open-veracode-business-units-api
+- collection_type: open
+  name: Veracode Applications REST API Credentials Findings API
+  slug: open-veracode-findings-api
 - collection_type: open
   name: Veracode Findings REST API
   slug: open-veracode-findings
@@ -84,8 +99,29 @@ collections:
   name: Veracode Identity REST API
   slug: open-veracode-identity
 - collection_type: open
+  name: Veracode Applications REST API Credentials Manual Penetration Testing API
+  slug: open-veracode-manual-penetration-testing-api
+- collection_type: open
+  name: Veracode Applications REST API Credentials Policy Evaluations API
+  slug: open-veracode-policy-evaluations-api
+- collection_type: open
   name: Veracode Reporting REST API
   slug: open-veracode-reporting
+- collection_type: open
+  name: Veracode Applications REST API Credentials Reports API
+  slug: open-veracode-reports-api
+- collection_type: open
+  name: Veracode Applications REST API Credentials Roles API
+  slug: open-veracode-roles-api
+- collection_type: open
+  name: Veracode Applications REST API Credentials Sandboxes API
+  slug: open-veracode-sandboxes-api
+- collection_type: open
+  name: Veracode Applications REST API Credentials Teams API
+  slug: open-veracode-teams-api
+- collection_type: open
+  name: Veracode Applications REST API Credentials Users API
+  slug: open-veracode-users-api
 common:
 - group: agent
   title: ''
@@ -193,7 +229,7 @@ plans:
 - name: Veracode Plans Pricing
   plan_count: 1
   slug: veracode-plans-pricing
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Veracode Rate Limits
@@ -235,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/screenshots/veracode-2026-06-20T200920.png
 security:

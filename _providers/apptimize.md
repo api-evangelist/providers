@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Track user events used as experiment and feature-flag goals.
@@ -37,7 +37,17 @@ apis:
 - description: Retrieve variant assignments and experiment data for a user.
   name: Apptimize Experiments API
   slug: apptimize-experiments-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apptimize REST Events API
+  slug: open-apptimize-events-api
+- collection_type: open
+  name: Apptimize REST Events Experiments API
+  slug: open-apptimize-experiments-api
 common:
 - group: other
   title: ''
@@ -127,7 +137,7 @@ overview: 'Apptimize publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Apptimize''s developer surface includes documentation, API reference, support, authentication, and 14 more developer resources.'
-random_paper: 19
+random_paper: 85
 score:
   band: thin
   composite: 34.5
@@ -150,7 +160,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/screenshots/apptimize-2026-07-25T200851.png
 security:

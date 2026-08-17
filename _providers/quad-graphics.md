@@ -1,20 +1,21 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Gated
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://www.quad.com/solutions/technology/at-home-connect
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +23,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 12.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -47,18 +48,72 @@ common:
   title: ''
   type: Blog
   url: https://www.quad.com/feed
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/quad-graphics-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/quad-graphics-authentication.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/quad-graphics-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/quad-graphics-rate-limits.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.quad.com/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.quad.com/legal/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.quad.com/legal/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/QuadGraphics
+- group: start
+  title: ''
+  type: Login
+  url: https://athomeconnect.quad.com/
+coverage:
+  checked: '2026-08-13'
+  detail: Quad markets an At-Home Connect API for triggering direct mail from CRM and marketing automation platforms but publishes no reference for it — the product page's only next step is a contact form to "see if you qualify for early access", and the one reachable Quad API host, api.postal.quad.com, answers 403 to anonymous requests with no WWW-Authenticate challenge and real 404s on every spec path.
+  evidence:
+  - status: 200
+    url: https://www.quad.com/solutions/technology/at-home-connect
+  - status: 403
+    url: https://api.postal.quad.com/
+  - status: 404
+    url: https://api.postal.quad.com/openapi.json
+  - status: 401
+    url: https://connect.qg.com/swagger.json
+  reason: sales-gate
+  state: gated
 created: '2026-03-24'
-description: Quad/Graphics is a worldwide marketing solutions company that provides print and integrated marketing services helping marketers reach today's consumers across multiple channels.
+description: 'Quad (NYSE: QUAD), formerly Quad/Graphics, is a Sussex, Wisconsin marketing experience company that pairs one of North America''s largest commercial printing platforms with data, creative, media and marketing-technology services. Its offer spans audience targeting and consumer analytics, creative and content production through its Betty agency, omnichannel media planning and placement through its Rise agency, catalog, magazine, direct mail and packaging production, in-store retail media displays, postal optimization and logistics, and the QuadMed employee health business. Quad markets three named marketing-technology platforms — At-Home Connect for automated triggered direct mail, Local Connect for multi-location marketing, and In-Store Connect for retail media — and advertises API integration with CRM and marketing-automation platforms for At-Home Connect, but publishes no developer portal, API reference or machine-readable specification for any of them.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quad-graphics.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-13'
 name: Quad/Graphics
 nav: Providers
 network: true
-overview: 'Quad/Graphics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Marketing, Print, and Media.
+overview: 'Quad/Graphics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Marketing, Print, Media, Advertising, and Direct Mail.
 
 
-  Quad/Graphics'' developer surface includes engineering blog and 3 more developer resources.'
+  Quad/Graphics'' developer surface includes engineering blog, authentication, support, and 10 more developer resources.'
+plans:
+- name: Quad Graphics Plans Pricing
+  plan_count: 0
+  slug: quad-graphics-plans-pricing
 press:
 - date: '2026-05-25'
   title: Quad Announces Participation in the Rosenblatt Virtual ...
@@ -75,24 +130,32 @@ press:
 - date: '2026-05-25'
   title: Quad makes audience creation easier, faster and more ...
   url: https://www.prnewswire.com/news-releases/quad-makes-audience-creation-easier-faster-and-more-precise-with-natural-language-ai-prompts-powered-by-snowflake-302578665.html
-random_paper: 1
+random_paper: 129
+rate_limits:
+- limit_count: 0
+  name: Quad Graphics Rate Limits
+  slug: quad-graphics-rate-limits
 score:
-  band: minimal
-  composite: 4.3
-  delta: 0.0
+  band: emerging
+  composite: 16.7
+  delta: 12.4
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 38.9
+    developer_ergonomics: 17.4
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 4.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/quad-graphics/refs/heads/main/screenshots/quad-graphics-2026-06-20T192354.png
 security:
+- kind: authentication
+  name: Quad Graphics Authentication
+  slug: quad-graphics-authentication
+  summary_line: openIdConnect · 1 scheme
 - kind: domain-security
   name: Quad Graphics Domain Security
   slug: quad-graphics-domain-security
@@ -102,5 +165,11 @@ tags:
 - Marketing
 - Print
 - Media
+- Advertising
+- Direct Mail
+- Marketing Technology
+- Retail Media
+- Packaging
+- Data
 website: https://www.quad.com
 ---

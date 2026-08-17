@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: The VirtualNetworks API from Azure Networking Services — 3 operation(s) for virtualnetworks.
   name: Azure Networking Services VirtualNetworks API
   slug: azure-networking-services-virtualnetworks-api
-artifact_total: 184
+artifact_total: 190
 collections:
 - collection_type: postman
   name: NetworkManagementClient LoadBalancers API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: NetworkManagementClient LoadBalancers VirtualNetworks API
   slug: postman-azure-networking-services-virtualnetworks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NetworkManagementClient LoadBalancers API
+  slug: open-azure-networking-services-loadbalancers-api
+- collection_type: open
+  name: NetworkManagementClient LoadBalancers Subnets API
+  slug: open-azure-networking-services-subnets-api
+- collection_type: open
+  name: NetworkManagementClient LoadBalancers Subscriptions API
+  slug: open-azure-networking-services-subscriptions-api
+- collection_type: open
+  name: NetworkManagementClient LoadBalancers VirtualNetworkPeerings API
+  slug: open-azure-networking-services-virtualnetworkpeerings-api
+- collection_type: open
+  name: NetworkManagementClient LoadBalancers VirtualNetworks API
+  slug: open-azure-networking-services-virtualnetworks-api
 common:
 - group: build
   title: ''
@@ -667,7 +685,7 @@ plans:
 - name: Azure Networking Services Plans Pricing
   plan_count: 3
   slug: azure-networking-services-plans-pricing
-random_paper: 85
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Azure Networking Services Rate Limits
@@ -714,7 +732,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/screenshots/azure-networking-services-2026-06-20T172903.png
 security:

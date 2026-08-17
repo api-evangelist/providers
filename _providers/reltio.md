@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Tenant-scoped REST API for the Reltio Context Intelligence Platform: entities, relations, interactions, reference data, load/export, data integration, workflow, hierarchy, statistics, and validation. '
@@ -168,7 +168,7 @@ overview: 'Reltio publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Reltio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 55
+random_paper: 59
 score:
   band: thin
   composite: 38.8
@@ -186,7 +186,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

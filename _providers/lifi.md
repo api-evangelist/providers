@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -93,7 +93,62 @@ apis:
 - description: The Tools API from LI.FI — 1 operation(s) for tools.
   name: LI.FI Tools API
   slug: lifi-tools-api
-artifact_total: 24
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LI.FI Earn advanced API
+  slug: open-lifi-advanced-api
+- collection_type: open
+  name: LI.FI Earn advanced Analytics API
+  slug: open-lifi-analytics-api
+- collection_type: open
+  name: LI.FI Earn advanced Calldata API
+  slug: open-lifi-calldata-api
+- collection_type: open
+  name: LI.FI Earn advanced Chains API
+  slug: open-lifi-chains-api
+- collection_type: open
+  name: LI.FI Earn advanced Connections API
+  slug: open-lifi-connections-api
+- collection_type: open
+  name: LI.FI Earn advanced Earn Chains API
+  slug: open-lifi-earn-chains-api
+- collection_type: open
+  name: LI.FI Earn advanced Earn Portfolio API
+  slug: open-lifi-earn-portfolio-api
+- collection_type: open
+  name: LI.FI Earn advanced Earn Protocols API
+  slug: open-lifi-earn-protocols-api
+- collection_type: open
+  name: LI.FI Earn advanced Earn Vaults API
+  slug: open-lifi-earn-vaults-api
+- collection_type: open
+  name: LI.FI Earn advanced Gas API
+  slug: open-lifi-gas-api
+- collection_type: open
+  name: LI.FI Earn advanced Integrators API
+  slug: open-lifi-integrators-api
+- collection_type: open
+  name: LI.FI Earn advanced Quote API
+  slug: open-lifi-quote-api
+- collection_type: open
+  name: LI.FI Earn advanced Relayer API
+  slug: open-lifi-relayer-api
+- collection_type: open
+  name: LI.FI Earn advanced Status API
+  slug: open-lifi-status-api
+- collection_type: open
+  name: LI.FI Earn advanced Token API
+  slug: open-lifi-token-api
+- collection_type: open
+  name: LI.FI Earn advanced Tokens API
+  slug: open-lifi-tokens-api
+- collection_type: open
+  name: LI.FI Earn advanced Tools API
+  slug: open-lifi-tools-api
 common:
 - group: company
   title: ''
@@ -251,7 +306,7 @@ overview: 'LI.FI publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LI.FI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 60
+random_paper: 122
 rate_limits:
 - limit_count: 4
   name: Lifi Rate Limits
@@ -285,7 +340,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/screenshots/lifi-2026-07-25T225052.png
 security:

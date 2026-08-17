@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -110,7 +110,83 @@ apis:
 - description: The Widgets API from Demisto — 3 operation(s) for widgets.
   name: Demisto Widgets API
   slug: demisto-widgets-api
-artifact_total: 28
+artifact_total: 53
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Demisto Apikeys API
+  slug: open-demisto-apikeys-api
+- collection_type: open
+  name: Demisto Apikeys Automation API
+  slug: open-demisto-automation-api
+- collection_type: open
+  name: Demisto Apikeys Classifier API
+  slug: open-demisto-classifier-api
+- collection_type: open
+  name: Demisto Apikeys Contentpacks API
+  slug: open-demisto-contentpacks-api
+- collection_type: open
+  name: Demisto Apikeys Dashboards API
+  slug: open-demisto-dashboards-api
+- collection_type: open
+  name: Demisto Apikeys Entry API
+  slug: open-demisto-entry-api
+- collection_type: open
+  name: Demisto Apikeys Evidence API
+  slug: open-demisto-evidence-api
+- collection_type: open
+  name: Demisto Apikeys Incident API
+  slug: open-demisto-incident-api
+- collection_type: open
+  name: Demisto Apikeys Incidentfields API
+  slug: open-demisto-incidentfields-api
+- collection_type: open
+  name: Demisto Apikeys Incidents API
+  slug: open-demisto-incidents-api
+- collection_type: open
+  name: Demisto Apikeys Incidenttype API
+  slug: open-demisto-incidenttype-api
+- collection_type: open
+  name: Demisto Apikeys Incidenttypes API
+  slug: open-demisto-incidenttypes-api
+- collection_type: open
+  name: Demisto Apikeys Indicator API
+  slug: open-demisto-indicator-api
+- collection_type: open
+  name: Demisto Apikeys Indicators API
+  slug: open-demisto-indicators-api
+- collection_type: open
+  name: Demisto Apikeys Inv Playbook API
+  slug: open-demisto-inv-playbook-api
+- collection_type: open
+  name: Demisto Apikeys Investigations API
+  slug: open-demisto-investigations-api
+- collection_type: open
+  name: Demisto Apikeys Layouts API
+  slug: open-demisto-layouts-api
+- collection_type: open
+  name: Demisto Apikeys Playbook API
+  slug: open-demisto-playbook-api
+- collection_type: open
+  name: Demisto Apikeys Report API
+  slug: open-demisto-report-api
+- collection_type: open
+  name: Demisto Apikeys Reports API
+  slug: open-demisto-reports-api
+- collection_type: open
+  name: Demisto Apikeys Reputation API
+  slug: open-demisto-reputation-api
+- collection_type: open
+  name: Demisto Apikeys Settings API
+  slug: open-demisto-settings-api
+- collection_type: open
+  name: Demisto Apikeys Statistics API
+  slug: open-demisto-statistics-api
+- collection_type: open
+  name: Demisto Apikeys Widgets API
+  slug: open-demisto-widgets-api
 common:
 - group: other
   title: ''
@@ -224,7 +300,7 @@ overview: 'Demisto publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Demisto''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 18 more developer resources.'
-random_paper: 37
+random_paper: 12
 score:
   band: thin
   composite: 40.1
@@ -248,7 +324,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/screenshots/demisto-2026-07-25T211711.png
 security:

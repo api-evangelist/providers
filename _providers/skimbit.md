@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,16 +20,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-12'
+  score: 50.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,7 +63,39 @@ apis:
 - description: The Verticals API from SkimBit — 2 operation(s) for verticals.
   name: SkimBit Verticals API
   slug: skimbit-verticals-api
-artifact_total: 13
+artifact_total: 24
+asyncapis:
+- description: 'The Skimlinks Data Pipe is the event-level data surface behind the Skimlinks affiliate platform: impressions, clicks, commissions and products purchased, cleaned and exported daily to a customer-owned'
+  name: Skimlinks Data Pipe
+  slug: skimbit-data-pipe-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Skimlinks Merchant Commissions API
+  slug: open-skimbit-commissions-api
+- collection_type: open
+  name: Skimlinks Merchant Commissions Domains API
+  slug: open-skimbit-domains-api
+- collection_type: open
+  name: Skimlinks Merchant Commissions Merchants API
+  slug: open-skimbit-merchants-api
+- collection_type: open
+  name: Skimlinks Merchant Commissions Offers API
+  slug: open-skimbit-offers-api
+- collection_type: open
+  name: Skimlinks Merchant Commissions Payments API
+  slug: open-skimbit-payments-api
+- collection_type: open
+  name: Skimlinks Merchant Commissions Products API
+  slug: open-skimbit-products-api
+- collection_type: open
+  name: Skimlinks Merchant Commissions Reports API
+  slug: open-skimbit-reports-api
+- collection_type: open
+  name: Skimlinks Merchant Commissions Verticals API
+  slug: open-skimbit-verticals-api
 common:
 - group: auth
   title: ''
@@ -172,6 +205,26 @@ common:
   title: ''
   type: Overlay
   url: overlays/skimbit-product-key-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/skimbit-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/skimbit-plans-pricing.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/skimbit-data-pipe-asyncapi.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/skimbit-tool-crosswalk.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.skimlinks.com/data-pipe.html
 created: '2026-07-17'
 description: SkimBit Ltd, operating as Skimlinks, is a London-founded content-monetization and affiliate-marketing platform (now part of Taboola) that helps publishers and content creators earn commerce revenue from the products and merchants they mention in editorial content. Skimlinks automatically affiliates outbound merchant links, tracks the resulting clicks and commissions across thousands of affiliate networks and merchant programs, and pays publishers a share of the revenue. For developers, Skimlinks exposes a suite of publisher-facing REST APIs — the Merchant API (merchant programs, domains, verticals and offers), the Reporting API (raw commissions, aggregated performance, trending/purchased products, payment status and deactivated merchants) and the Product Key API (product details, pricing, availability and merchant alternatives across a billion+ product offers) — plus the Skimlinks JavaScript on-page monetization script and a batch Data Pipe delivering event-level clicks, impressions,
   commissions and product-purchase data to cloud storage.
@@ -181,28 +234,35 @@ mcp_servers:
 - description: ''
   name: skimbit-mcp.yml
   slug: skimbit-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: SkimBit
 nav: Providers
 network: true
 overview: 'SkimBit publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Commissions API, Domains API, Merchants API, and 5 more. Tagged areas include Company, Affiliate Marketing, Content Monetization, Commerce, and Publishers.
 
 
-  SkimBit''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 35
+  The SkimBit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  SkimBit''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 26 more developer resources.'
+plans:
+- name: Skimbit Plans Pricing
+  plan_count: 0
+  slug: skimbit-plans-pricing
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Skimbit Rate Limits
   slug: skimbit-rate-limits
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 48.5
+  delta: 3.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.6
+    contract_quality: 67.5
     developer_ergonomics: 45.1
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 45.2
@@ -217,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

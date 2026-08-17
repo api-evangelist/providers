@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -57,8 +57,29 @@ apis:
 - description: Transcoded content items and their playable file URLs.
   name: Vimeo OTT Videos API
   slug: vimeo-ott-videos-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vimeo OTT Analytics API
+  slug: open-vimeo-ott-analytics-api
+- collection_type: open
+  name: Vimeo OTT Analytics Authorizations API
+  slug: open-vimeo-ott-authorizations-api
+- collection_type: open
+  name: Vimeo OTT Analytics Collections API
+  slug: open-vimeo-ott-collections-api
+- collection_type: open
+  name: Vimeo OTT Analytics Customers API
+  slug: open-vimeo-ott-customers-api
+- collection_type: open
+  name: Vimeo OTT Analytics Products API
+  slug: open-vimeo-ott-products-api
+- collection_type: open
+  name: Vimeo OTT Analytics Videos API
+  slug: open-vimeo-ott-videos-api
 - collection_type: open
   name: Vimeo OTT API
   slug: open-vimeo-ott
@@ -127,7 +148,7 @@ plans:
 - name: Vimeo Ott Plans Pricing
   plan_count: 2
   slug: vimeo-ott-plans-pricing
-random_paper: 92
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Vimeo Ott Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The VIN Decoding API from Auto.dev — 2 operation(s) for vin decoding.
   name: Auto.dev VIN Decoding API
   slug: auto-dev-vin-decoding-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Auto.dev Dealers API
+  slug: open-auto-dev-dealers-api
+- collection_type: open
+  name: Auto.dev Dealers Listings API
+  slug: open-auto-dev-listings-api
+- collection_type: open
+  name: Auto.dev Dealers Market Value API
+  slug: open-auto-dev-market-value-api
+- collection_type: open
+  name: Auto.dev Dealers Recalls API
+  slug: open-auto-dev-recalls-api
+- collection_type: open
+  name: Auto.dev Dealers VIN Decoding API
+  slug: open-auto-dev-vin-decoding-api
 - collection_type: open
   name: Auto.dev API
   slug: open-auto-dev
@@ -124,7 +142,7 @@ plans:
 - name: Auto Dev Plans Pricing
   plan_count: 3
   slug: auto-dev-plans-pricing
-random_paper: 85
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Auto Dev Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/screenshots/auto-dev-2026-07-25T201815.png
 security:

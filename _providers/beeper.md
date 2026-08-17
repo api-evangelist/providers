@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -60,11 +60,36 @@ apis:
 - description: Server discovery and capability metadata. Use /v1/info before authentication setup.
   name: Beeper Server API
   slug: beeper-server-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: Experimental WebSocket event stream exposed by the local Beeper Desktop API. Clients subscribe to chats and receive domain events as they occur.
   name: Beeper Desktop API - Live Events
   slug: beeper-events-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Beeper Desktop Accounts API
+  slug: open-beeper-accounts-api
+- collection_type: open
+  name: Beeper Desktop Accounts App API
+  slug: open-beeper-app-api
+- collection_type: open
+  name: Beeper Desktop Accounts Chats API
+  slug: open-beeper-chats-api
+- collection_type: open
+  name: Beeper Desktop Accounts Contacts API
+  slug: open-beeper-contacts-api
+- collection_type: open
+  name: Beeper Desktop Accounts Files API
+  slug: open-beeper-files-api
+- collection_type: open
+  name: Beeper Desktop Accounts Messages API
+  slug: open-beeper-messages-api
+- collection_type: open
+  name: Beeper Desktop Accounts Server API
+  slug: open-beeper-server-api
 common:
 - group: other
   title: ''
@@ -205,7 +230,7 @@ overview: 'Beeper publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Beeper''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 23 more developer resources.'
-random_paper: 27
+random_paper: 31
 scopes:
 - name: Beeper Scopes
   scope_count: 2
@@ -234,7 +259,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/screenshots/beeper-2026-07-25T202639.png
 security:

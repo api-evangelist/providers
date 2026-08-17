@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Subscribe partner endpoints to device, command, access code, and account events
   name: Allegion Webhook Subscriptions API
   slug: allegion-webhook-subscriptions-api
-artifact_total: 50
+artifact_total: 56
 collections:
 - collection_type: postman
   name: ENGAGE Cloud Credentialing Access Codes API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: ENGAGE Cloud Credentialing Access Codes Webhook Subscriptions API
   slug: postman-allegion-webhook-subscriptions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ENGAGE Cloud Credentialing Access Codes API
+  slug: open-allegion-access-codes-api
+- collection_type: open
+  name: ENGAGE Cloud Credentialing Access Codes Commands API
+  slug: open-allegion-commands-api
+- collection_type: open
+  name: ENGAGE Cloud Credentialing Access Codes Devices API
+  slug: open-allegion-devices-api
+- collection_type: open
+  name: ENGAGE Cloud Credentialing Access Codes Mobile Credentials API
+  slug: open-allegion-mobile-credentials-api
+- collection_type: open
+  name: ENGAGE Cloud Credentialing Access Codes Webhook Subscriptions API
+  slug: open-allegion-webhook-subscriptions-api
 - collection_type: open
   name: ENGAGE Cloud Credentialing API
   slug: open-engage-credentialing
@@ -317,7 +335,7 @@ plans:
 - name: Allegion Plans Pricing
   plan_count: 3
   slug: allegion-plans-pricing
-random_paper: 3
+random_paper: 98
 rate_limits:
 - limit_count: 7
   name: Allegion Rate Limits
@@ -372,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/screenshots/allegion-2026-06-20T171528.png
 security:

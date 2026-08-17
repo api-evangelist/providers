@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Operations for managing farm workers
   name: Amazon Deadline Cloud Workers API
   slug: amazon-deadline-cloud-workers-api
-artifact_total: 76
+artifact_total: 82
 collections:
 - collection_type: postman
   name: Amazon Deadline Cloud Farms API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Amazon Deadline Cloud Farms Workers API
   slug: postman-amazon-deadline-cloud-workers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Deadline Cloud Farms API
+  slug: open-amazon-deadline-cloud-farms-api
+- collection_type: open
+  name: Amazon Deadline Cloud Farms Fleets API
+  slug: open-amazon-deadline-cloud-fleets-api
+- collection_type: open
+  name: Amazon Deadline Cloud Farms Jobs API
+  slug: open-amazon-deadline-cloud-jobs-api
+- collection_type: open
+  name: Amazon Deadline Cloud Farms Queues API
+  slug: open-amazon-deadline-cloud-queues-api
+- collection_type: open
+  name: Amazon Deadline Cloud Farms Workers API
+  slug: open-amazon-deadline-cloud-workers-api
 - collection_type: open
   name: Amazon Deadline Cloud API
   slug: open-amazon-deadline-cloud
@@ -340,7 +358,7 @@ plans:
 - name: Amazon Deadline Cloud Plans Pricing
   plan_count: 3
   slug: amazon-deadline-cloud-plans-pricing
-random_paper: 53
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Deadline Cloud Rate Limits
@@ -382,7 +400,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/screenshots/amazon-deadline-cloud-2026-06-20T171619.png
 security:

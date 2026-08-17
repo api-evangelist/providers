@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 5
@@ -93,27 +93,81 @@ apis:
 - description: Endpoint for receiving event data from third-party applications via webhook integration.
   name: statsig Webhooks API
   slug: statsig-webhooks-api
-artifact_total: 46
+artifact_total: 64
 asyncapis:
 - description: 'Statsig''s webhook system provides real-time event-driven notifications for exposure events and configuration changes. Webhooks are triggered at runtime as users are assigned to gates and experiments, '
   name: Statsig Webhook Events
   slug: statsig-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Statsig Client SDK Audit Logs API
+  slug: open-statsig-audit-logs-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Autotunes API
+  slug: open-statsig-autotunes-api
+- collection_type: open
   name: Statsig Client SDK API
   slug: open-statsig-client-sdk-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Configuration API
+  slug: open-statsig-configuration-api
 - collection_type: open
   name: Statsig Console API
   slug: open-statsig-console-api
 - collection_type: open
-  name: Statsig Events API
+  name: Statsig Client SDK Audit Logs Dynamic Configs API
+  slug: open-statsig-dynamic-configs-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Events API
   slug: open-statsig-events-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Experiments API
+  slug: open-statsig-experiments-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Feature Gates API
+  slug: open-statsig-feature-gates-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Gates API
+  slug: open-statsig-gates-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Holdouts API
+  slug: open-statsig-holdouts-api
 - collection_type: open
   name: Statsig HTTP API
   slug: open-statsig-http-api
 - collection_type: open
+  name: Statsig Client SDK Audit Logs Initialization API
+  slug: open-statsig-initialization-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Keys API
+  slug: open-statsig-keys-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Layers API
+  slug: open-statsig-layers-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Metrics API
+  slug: open-statsig-metrics-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Segments API
+  slug: open-statsig-segments-api
+- collection_type: open
   name: Statsig Server SDK API
   slug: open-statsig-server-sdk-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Tags API
+  slug: open-statsig-tags-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Target Apps API
+  slug: open-statsig-target-apps-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Users API
+  slug: open-statsig-users-api
+- collection_type: open
+  name: Statsig Client SDK Audit Logs Webhooks API
+  slug: open-statsig-webhooks-api
 common:
 - group: agent
   title: ''
@@ -242,7 +296,7 @@ plans:
 - name: Statsig Plans Pricing
   plan_count: 3
   slug: statsig-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Statsig Rate Limits
@@ -292,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/screenshots/statsig-2026-06-20T194528.png
 security:

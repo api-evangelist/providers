@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 0
@@ -69,26 +69,59 @@ apis:
 - description: 1 services
   name: Frostbyte Security API
   slug: frostbyte-security-api
-artifact_total: 57
+artifact_total: 68
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Clawdia Agent Gateway API
   slug: open-frostbyte-agent-gateway
 - collection_type: open
+  name: Clawdia Agent Gateway Agent Infrastructure API
+  slug: open-frostbyte-agent-infrastructure-api
+- collection_type: open
   name: Frostbyte Code Execution API
   slug: open-frostbyte-code-execution
+- collection_type: open
+  name: Clawdia Agent Gateway Agent Infrastructure Communication API
+  slug: open-frostbyte-communication-api
+- collection_type: open
+  name: Clawdia Agent Gateway Agent Infrastructure Crypto Prices API
+  slug: open-frostbyte-crypto-prices-api
 - collection_type: open
   name: Frostbyte Crypto Prices API
   slug: open-frostbyte-crypto-prices
 - collection_type: open
+  name: Clawdia Agent Gateway Agent Infrastructure Data & Analytics API
+  slug: open-frostbyte-data-analytics-api
+- collection_type: open
+  name: Clawdia Agent Gateway Agent Infrastructure DeFi & Crypto API
+  slug: open-frostbyte-defi-crypto-api
+- collection_type: open
   name: Frostbyte DNS Lookup API
   slug: open-frostbyte-dns-lookup
+- collection_type: open
+  name: Clawdia Agent Gateway Agent Infrastructure Gaming API
+  slug: open-frostbyte-gaming-api
+- collection_type: open
+  name: Clawdia Agent Agent Infrastructure Gateway API
+  slug: open-frostbyte-gateway-api
+- collection_type: open
+  name: Clawdia Agent Gateway Agent Infrastructure IP Geolocation API
+  slug: open-frostbyte-ip-geolocation-api
 - collection_type: open
   name: Frostbyte IP Geolocation API
   slug: open-frostbyte-ip-geolocation
 - collection_type: open
+  name: Clawdia Agent Gateway Agent Infrastructure Other API
+  slug: open-frostbyte-other-api
+- collection_type: open
   name: Frostbyte Screenshot API
   slug: open-frostbyte-screenshot
+- collection_type: open
+  name: Clawdia Agent Gateway Agent Infrastructure Security API
+  slug: open-frostbyte-security-api
 - collection_type: open
   name: Frostbyte Web Scraper API
   slug: open-frostbyte-web-scraper
@@ -253,7 +286,7 @@ plans:
 - name: Frostbyte Plans Pricing
   plan_count: 2
   slug: frostbyte-plans-pricing
-random_paper: 34
+random_paper: 100
 rate_limits:
 - limit_count: 0
   name: Frostbyte Rate Limits
@@ -301,7 +334,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/screenshots/frostbyte-2026-06-20T181557.png
 security:

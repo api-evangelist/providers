@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -57,7 +57,26 @@ apis:
 - description: Deposit and withdrawal history
   name: Bithumb Wallet API
   slug: bithumb-wallet-api
-artifact_total: 18
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bithumb Global REST Account API
+  slug: open-bithumb-account-api
+- collection_type: open
+  name: Bithumb Global REST Account General API
+  slug: open-bithumb-general-api
+- collection_type: open
+  name: Bithumb Global REST Account Market Data API
+  slug: open-bithumb-market-data-api
+- collection_type: open
+  name: Bithumb Global REST Account Spot Trading API
+  slug: open-bithumb-spot-trading-api
+- collection_type: open
+  name: Bithumb Global REST Account Wallet API
+  slug: open-bithumb-wallet-api
 common:
 - group: operate
   title: ''
@@ -147,7 +166,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -187,7 +206,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png
 security:

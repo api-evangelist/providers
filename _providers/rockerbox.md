@@ -1,73 +1,118 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Enterprise
   onboarding: unknown
   pricing: enterprise
   public: false
   source:
-  - plans
+  - https://www.rockerbox.com/plans
+  - https://data-foundation.rockerbox.com/warehousing/quickstart
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: flavored
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 58.6
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
-- description: REST API for querying multi-touch attribution data, channel performance metrics, customer journeys, and media spend effectiveness across all integrated marketing channels.
-  name: Rockerbox API
+- description: 'Rockerbox''s server-side integration. A documented HTTP POST endpoint that accepts one conversion or marketing event per request as JSON, authenticated by a Rockerbox Advertiser ID passed in the query '
+  name: Rockerbox Conversion & Marketing Event Ingestion
   slug: rockerbox-api
-artifact_total: 6
+- description: Rockerbox's warehouse-share delivery surface and the documentation site that describes it. The contract here is a set of published dataset schemas — log_conversions, clickstream, log_mta, aggregate_mt
+  name: Rockerbox Data Foundation
+  slug: rockerbox-data-foundation
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Rockerbox Webhooks
+  slug: rockerbox-webhooks
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/rockerbox-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.rockerbox.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://data-foundation.rockerbox.com/
 - group: docs
   title: ''
   type: Documentation
   url: https://help.rockerbox.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://data-foundation.rockerbox.com/warehousing/schemas
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://data-foundation.rockerbox.com/warehousing/quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.rockerbox.com/article/ocjyw3jty7-rockerbox-support
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/rockerbox
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/rockerbox
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.rockerbox.com/blog
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.rockerbox.com/plans
 - group: other
   title: ''
   type: X
   url: https://x.com/rockerbox
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rockerbox.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.rockerbox.com/blog/rss.xml
+- group: company
+  title: ''
+  type: Blog
+  url: blogs/blogs.json
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.rockerbox.com/plans
+- group: start
+  title: ''
+  type: Login
+  url: https://app.rockerbox.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.rockerbox.com/website-terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.rockerbox.com/privacy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.rockerbox.com/faq/how-does-rockerbox-provide-secure-marketing-measurement
 - group: commercial
   title: ''
   type: Plans
@@ -80,20 +125,72 @@ common:
   title: ''
   type: FinOps
   url: finops/rockerbox-finops.yml
-- group: company
-  title: ''
-  type: BlogRSS
-  url: https://www.rockerbox.com/blog/rss.xml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: design
   title: ''
   type: JSONLD
   url: json-ld/rockerbox-context.jsonld
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/rockerbox-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/rockerbox-mcp.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/rockerbox-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/rockerbox-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/rockerbox-well-known.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/rockerbox-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/rockerbox-data-model.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/rockerbox-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/rockerbox-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/rockerbox-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/rockerbox-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/rockerbox-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://data-foundation.rockerbox.com/warehousing/aggregate-mta-partition-migration
+- group: build
+  title: ''
+  type: Packages
+  url: packages/rockerbox-packages.yml
 created: 2026-06-13
-description: Rockerbox is a unified marketing measurement platform with a REST API for querying multi-touch attribution data, channel performance, customer journeys, and media spend effectiveness across 100+ integrations, combining MTA, Marketing Mix Modeling, and incrementality testing on a SOC2-certified data foundation.
+description: 'Rockerbox is a New York-based unified marketing measurement platform that combines multi-touch attribution (MTA), marketing mix modeling (MMM) and incrementality testing on a single first-party data foundation spanning 100+ advertising integrations. Its developer surface is deliberately narrow and unusual: there is no public REST API and no OpenAPI. Data goes IN through a documented server-side conversion webhook, onsite tracking pixels, and batch files; results come OUT as warehouse shares into Snowflake, BigQuery or Redshift against published schemas, plus scheduled and ad hoc exports. Rockerbox does, however, run a genuinely modern agent surface on its Data Foundation documentation host — an anonymous remote MCP server, an A2A agent card, a provider-published Agent Skill, an llms.txt, and an explicit robots.txt Content-Signal grant.'
 finops:
 - name: Rockerbox Finops
   service_category: ''
@@ -105,47 +202,55 @@ jsonld:
   property_count: 6
   slug: rockerbox-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: rockerbox-mcp.yml
+  slug: rockerbox-mcpyml
+modified: 2026-08-13
 name: Rockerbox
 nav: Providers
 network: true
-overview: 'Rockerbox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Marketing Attribution, Multi-Touch Attribution, Marketing Mix Modeling, Incrementality Testing, and Media Spend.
+overview: 'Rockerbox publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Marketing Attribution, Multi-Touch Attribution, Marketing Mix Modeling, Incrementality Testing, and Media Spend.
 
 
-  The Rockerbox catalog on APIs.io includes 1 JSON-LD context.
+  The Rockerbox catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Rockerbox''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Rockerbox''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 29 more developer resources.'
 plans:
 - name: Rockerbox Plans Pricing
   plan_count: 1
   slug: rockerbox-plans-pricing
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Rockerbox Rate Limits
   slug: rockerbox-rate-limits
 score:
-  band: thin
-  composite: 28.9
-  delta: 0.0
+  band: strong
+  composite: 58.9
+  delta: 30.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 45.2
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 81.6
+    contract_quality: 64.5
+    developer_ergonomics: 67.4
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 21.1
   previous_composite: 28.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockerbox/refs/heads/main/screenshots/rockerbox-2026-06-20T193150.png
 security:
+- kind: authentication
+  name: Rockerbox Authentication
+  slug: rockerbox-authentication
+  summary_line: tenant-identifier/session-login/warehouse-grant · 5 schemes
 - kind: domain-security
   name: Rockerbox Domain Security
   slug: rockerbox-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: rockerbox
 tags:
 - Marketing Attribution
@@ -155,5 +260,8 @@ tags:
 - Media Spend
 - Customer Journeys
 - Marketing Analytics
+- Data Warehousing
+- Conversion Tracking
+- Webhooks
 website: https://www.rockerbox.com/
 ---

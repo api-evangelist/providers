@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -62,7 +62,35 @@ apis:
 - description: Bulk-import your school reunification roster — schools, students (with guardians), teachers, staff, and class sections — programmatically, the API equivalent of the in-app CSV upload. Each import is a
   name: Coram Ai reunification API
   slug: coram-ai-reunification-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coram alerts API
+  slug: open-coram-ai-alerts-api
+- collection_type: open
+  name: Coram alerts camera-groups API
+  slug: open-coram-ai-camera-groups-api
+- collection_type: open
+  name: Coram alerts cameras API
+  slug: open-coram-ai-cameras-api
+- collection_type: open
+  name: Coram alerts doors API
+  slug: open-coram-ai-doors-api
+- collection_type: open
+  name: Coram alerts events API
+  slug: open-coram-ai-events-api
+- collection_type: open
+  name: Coram alerts locations API
+  slug: open-coram-ai-locations-api
+- collection_type: open
+  name: Coram alerts nvrs API
+  slug: open-coram-ai-nvrs-api
+- collection_type: open
+  name: Coram alerts reunification API
+  slug: open-coram-ai-reunification-api
 common:
 - group: start
   title: ''
@@ -176,7 +204,7 @@ overview: 'Coram Ai publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Coram Ai''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 17 more developer resources.'
-random_paper: 57
+random_paper: 32
 score:
   band: developing
   composite: 46.2
@@ -200,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/screenshots/coram-ai-2026-07-25T210425.png
 security:

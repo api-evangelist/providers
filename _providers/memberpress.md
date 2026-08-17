@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API exposed by the MemberPress Developer Tools add-on on the site owner's own WordPress installation, under the WordPress REST namespace mp/v1. Covers members, memberships, transactions, subscrip
@@ -28,11 +28,15 @@ apis:
 - description: WordPress MCP server shipped by the MemberPress AI Foundation add-on. It exposes membership, subscription, transaction, coupon, access-rule and reporting tools — MemberPress states 41 tools on a stand
   name: MemberPress AI Foundation MCP Server
   slug: ai-foundation-mcp
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Memberpress Webhooks
   slug: memberpress-webhooks
+collections:
+- collection_type: open
+  name: MemberPress Developer Tools REST API
+  slug: open-memberpress-developer-tools
 common:
 - group: auth
   title: ''
@@ -185,7 +189,7 @@ plans:
 - name: Memberpress Plans Pricing
   plan_count: 3
   slug: memberpress-plans-pricing
-random_paper: 109
+random_paper: 146
 rate_limits:
 - limit_count: 0
   name: Memberpress Rate Limits
@@ -193,6 +197,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.3
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 67.9
@@ -200,6 +205,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 28.9
+  previous_composite: 58.3
   regulatory:
     applies: true
     matched_via: tags
@@ -207,7 +213,8 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Memberpress Authentication

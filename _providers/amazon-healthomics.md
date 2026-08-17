@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ arazzos:
 - description: Create a run group, start a run inside it, and poll the run to completion.
   name: Amazon HealthOmics Run a Workflow in a Run Group
   slug: amazon-healthomics-run-workflow-in-group-workflow
-artifact_total: 1176
+artifact_total: 1190
 collections:
 - collection_type: postman
   name: Amazon Omics AnnotationStore API
@@ -153,6 +153,48 @@ collections:
 - collection_type: postman
   name: Amazon Omics
   slug: postman-amazon-healthomics
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Omics AnnotationStore API
+  slug: open-amazon-healthomics-annotationstore-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore AnnotationStores API
+  slug: open-amazon-healthomics-annotationstores-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore Import API
+  slug: open-amazon-healthomics-import-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore Referencestore API
+  slug: open-amazon-healthomics-referencestore-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore Referencestores API
+  slug: open-amazon-healthomics-referencestores-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore Run API
+  slug: open-amazon-healthomics-run-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore RunGroup API
+  slug: open-amazon-healthomics-rungroup-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore Sequencestore API
+  slug: open-amazon-healthomics-sequencestore-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore Sequencestores API
+  slug: open-amazon-healthomics-sequencestores-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore Tags API
+  slug: open-amazon-healthomics-tags-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore VariantStore API
+  slug: open-amazon-healthomics-variantstore-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore VariantStores API
+  slug: open-amazon-healthomics-variantstores-api
+- collection_type: open
+  name: Amazon Omics AnnotationStore Workflow API
+  slug: open-amazon-healthomics-workflow-api
 common:
 - group: agent
   title: ''
@@ -3672,7 +3714,7 @@ plans:
 - name: Amazon Healthomics Plans Pricing
   plan_count: 3
   slug: amazon-healthomics-plans-pricing
-random_paper: 60
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Amazon Healthomics Rate Limits
@@ -3720,7 +3762,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/screenshots/amazon-healthomics-2026-07-25T200010.png
 security:

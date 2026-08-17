@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Users API from X — 2 operation(s) for users.
   name: X Users API
   slug: x-users-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: X API v2 Posts API
+  slug: open-x-posts-api
+- collection_type: open
+  name: X API v2 Posts Trends API
+  slug: open-x-trends-api
+- collection_type: open
+  name: X API v2 Posts Users API
+  slug: open-x-users-api
 - collection_type: open
   name: X API v2
   slug: open-x
@@ -89,7 +101,7 @@ plans:
 - name: X Plans Pricing
   plan_count: 3
   slug: x-plans-pricing
-random_paper: 0
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: X Rate Limits
@@ -114,7 +126,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/screenshots/x-2026-06-20T201653.png
 security:

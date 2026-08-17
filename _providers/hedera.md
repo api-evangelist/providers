@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: The transaction object represents the transactions processed on the Hedera network.
   name: Hedera transactions API
   slug: hedera-transactions-api
-artifact_total: 209
+artifact_total: 220
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mirror Node REST accounts API
+  slug: open-hedera-accounts-api
+- collection_type: open
+  name: Mirror Node REST accounts airdrops API
+  slug: open-hedera-airdrops-api
+- collection_type: open
+  name: Mirror Node REST accounts balances API
+  slug: open-hedera-balances-api
+- collection_type: open
+  name: Mirror Node REST accounts blocks API
+  slug: open-hedera-blocks-api
+- collection_type: open
+  name: Mirror Node REST accounts contracts API
+  slug: open-hedera-contracts-api
+- collection_type: open
+  name: Mirror Node REST accounts network API
+  slug: open-hedera-network-api
+- collection_type: open
+  name: Mirror Node REST accounts schedules API
+  slug: open-hedera-schedules-api
+- collection_type: open
+  name: Mirror Node REST accounts tokens API
+  slug: open-hedera-tokens-api
+- collection_type: open
+  name: Mirror Node REST accounts topics API
+  slug: open-hedera-topics-api
+- collection_type: open
+  name: Mirror Node REST accounts transactions API
+  slug: open-hedera-transactions-api
 common:
 - group: agent
   title: ''
@@ -756,7 +790,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -790,7 +824,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/screenshots/hedera-2026-06-20T182613.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 25
@@ -182,7 +182,155 @@ apis:
 - description: The Wireless locks API from KISI — 1 operation(s) for wireless locks.
   name: KISI Wireless locks API
   slug: kisi-wireless-locks-api
-artifact_total: 55
+artifact_total: 104
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kisi Calendars API
+  slug: open-kisi-calendars-api
+- collection_type: open
+  name: Kisi Calendars Cameras API
+  slug: open-kisi-cameras-api
+- collection_type: open
+  name: Kisi Calendars Card assignments API
+  slug: open-kisi-card-assignments-api
+- collection_type: open
+  name: Kisi Calendars Cards API
+  slug: open-kisi-cards-api
+- collection_type: open
+  name: Kisi Calendars Controller Input Connections API
+  slug: open-kisi-controller-input-connections-api
+- collection_type: open
+  name: Kisi Calendars Controller Inputs API
+  slug: open-kisi-controller-inputs-api
+- collection_type: open
+  name: Kisi Calendars Controller Relay Connections API
+  slug: open-kisi-controller-relay-connections-api
+- collection_type: open
+  name: Kisi Calendars Controller Relays API
+  slug: open-kisi-controller-relays-api
+- collection_type: open
+  name: Kisi Calendars Controller Wiegand Connections API
+  slug: open-kisi-controller-wiegand-connections-api
+- collection_type: open
+  name: Kisi Calendars Controller Wiegands API
+  slug: open-kisi-controller-wiegands-api
+- collection_type: open
+  name: Kisi Calendars Controllers API
+  slug: open-kisi-controllers-api
+- collection_type: open
+  name: Kisi Calendars CSV card imports API
+  slug: open-kisi-csv-card-imports-api
+- collection_type: open
+  name: Kisi Calendars CSV user imports API
+  slug: open-kisi-csv-user-imports-api
+- collection_type: open
+  name: Kisi Calendars Elevator stops API
+  slug: open-kisi-elevator-stops-api
+- collection_type: open
+  name: Kisi Calendars Elevators API
+  slug: open-kisi-elevators-api
+- collection_type: open
+  name: Kisi Calendars Event sets API
+  slug: open-kisi-event-sets-api
+- collection_type: open
+  name: Kisi Calendars Events API
+  slug: open-kisi-events-api
+- collection_type: open
+  name: Kisi Calendars Floors API
+  slug: open-kisi-floors-api
+- collection_type: open
+  name: Kisi Calendars Group elevator stops API
+  slug: open-kisi-group-elevator-stops-api
+- collection_type: open
+  name: Kisi Calendars Group links API
+  slug: open-kisi-group-links-api
+- collection_type: open
+  name: Kisi Calendars Group locks API
+  slug: open-kisi-group-locks-api
+- collection_type: open
+  name: Kisi Calendars Group terminals API
+  slug: open-kisi-group-terminals-api
+- collection_type: open
+  name: Kisi Calendars Group zones API
+  slug: open-kisi-group-zones-api
+- collection_type: open
+  name: Kisi Calendars Groups API
+  slug: open-kisi-groups-api
+- collection_type: open
+  name: Kisi Calendars Guests API
+  slug: open-kisi-guests-api
+- collection_type: open
+  name: Kisi Calendars Holiday calendars API
+  slug: open-kisi-holiday-calendars-api
+- collection_type: open
+  name: Kisi Calendars Integrations API
+  slug: open-kisi-integrations-api
+- collection_type: open
+  name: Kisi Calendars Invites API
+  slug: open-kisi-invites-api
+- collection_type: open
+  name: Kisi Calendars Locks API
+  slug: open-kisi-locks-api
+- collection_type: open
+  name: Kisi Calendars Logins API
+  slug: open-kisi-logins-api
+- collection_type: open
+  name: Kisi Calendars Members API
+  slug: open-kisi-members-api
+- collection_type: open
+  name: Kisi Calendars Organizations API
+  slug: open-kisi-organizations-api
+- collection_type: open
+  name: Kisi Calendars Places API
+  slug: open-kisi-places-api
+- collection_type: open
+  name: Kisi Calendars Presences API
+  slug: open-kisi-presences-api
+- collection_type: open
+  name: Kisi Calendars Readers API
+  slug: open-kisi-readers-api
+- collection_type: open
+  name: Kisi Calendars Reports API
+  slug: open-kisi-reports-api
+- collection_type: open
+  name: Kisi Calendars Role assignments API
+  slug: open-kisi-role-assignments-api
+- collection_type: open
+  name: Kisi Calendars Roles API
+  slug: open-kisi-roles-api
+- collection_type: open
+  name: Kisi Calendars Scheduled reports API
+  slug: open-kisi-scheduled-reports-api
+- collection_type: open
+  name: Kisi Calendars Schedules API
+  slug: open-kisi-schedules-api
+- collection_type: open
+  name: Kisi Calendars SCRAM API
+  slug: open-kisi-scram-api
+- collection_type: open
+  name: Kisi Calendars Shares API
+  slug: open-kisi-shares-api
+- collection_type: open
+  name: Kisi Calendars Signed upload URLs API
+  slug: open-kisi-signed-upload-urls-api
+- collection_type: open
+  name: Kisi Calendars Team memberships API
+  slug: open-kisi-team-memberships-api
+- collection_type: open
+  name: Kisi Calendars Teams API
+  slug: open-kisi-teams-api
+- collection_type: open
+  name: Kisi Calendars Terminals API
+  slug: open-kisi-terminals-api
+- collection_type: open
+  name: Kisi Calendars Users API
+  slug: open-kisi-users-api
+- collection_type: open
+  name: Kisi Calendars Wireless locks API
+  slug: open-kisi-wireless-locks-api
 common:
 - group: company
   title: ''
@@ -320,7 +468,7 @@ overview: 'KISI publishes 48 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   KISI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 0
   name: Kisi Rate Limits
@@ -353,7 +501,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/screenshots/kisi-2026-07-25T223853.png
 security:

@@ -13,14 +13,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -30,6 +30,18 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/vida-health-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/vida-health-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/vida-health-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/vida-health-conformance.yml
 - group: company
   title: ''
   type: Website
@@ -79,19 +91,23 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/vida-health_stock/
 coverage:
-  checked: '2026-08-05'
-  detail: Vida's production API host api.vida.com is live but answers HTTP 401 (Invalid or expired access token) on every path including the entire /.well-known/ tree, and there is no developer portal — the Partners page advertises streamlined integrations with existing healthcare ecosystems but publishes no reference or spec, routing every technical question to a contact-sales form.
+  checked: '2026-08-15'
+  detail: 'Vida''s production API host api.vida.com is live but returns a uniform HTTP 401 ({"error": "Invalid or expired access token"}) on every path — including /openapi.json, /graphql, /mcp and the whole /.well-known/ tree, so even the anonymous OAuth discovery documents RFC 8414 and RFC 9728 require are behind the token wall — and there is no developer host at all (developer.vida.com, developers.vida.com and docs.vida.com have no DNS record); the Partners page advertises "streamlined integrations with existing healthcare ecosystems" and "smooth and secure data sharing" but publishes no reference, spec or standard, routing every technical question to a get-a-demo form.'
   evidence:
   - status: 401
     url: https://api.vida.com/openapi.json
   - status: 401
-    url: https://api.vida.com/.well-known/openid-configuration
+    url: https://api.vida.com/.well-known/oauth-protected-resource
   - status: 401
     url: https://api.vida.com/graphql
+  - status: 401
+    url: https://api.vida.com/mcp
   - status: 404
-    url: https://www.vida.com/developers
+    url: https://www.vida.com/.well-known/agent-card.json
   - status: 404
     url: https://www.vida.com/llms.txt
+  - status: 404
+    url: https://www.vida.com/pricing/
   - status: 200
     url: https://www.vida.com/partners/
   reason: sales-gate
@@ -100,21 +116,29 @@ created: '2026-08-05'
 description: 'Vida Health is a San Francisco-based virtual care company founded in 2014 that combines an AI-powered mobile app with a national network of licensed clinicians, coaches and therapists to prevent, manage and reverse chronic cardiometabolic and behavioral health conditions including obesity, diabetes, hypertension, depression and anxiety. Vida sells a turnkey enterprise programme to employers and health plans, layering GLP-1 prescribing and clinical oversight on top of behavioral coaching, and its platform ingests real-time readings from more than 100 connected devices and consumer health apps to feed outcome reporting back to its enterprise buyers. Vida publishes no public developer portal or API documentation: the API host api.vida.com is live but returns 401 on every path, and data/EHR integration for health plans and employers is arranged through enterprise sales rather than self-service onboarding.'
 image: https://static.vida.com/wp-content/uploads/2025/03/20211650/Enterprise-3.png
 layout: provider
-modified: '2026-08-05'
+modified: '2026-08-15'
 name: Vida Health
 nav: Providers
 network: true
 overview: 'Vida Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Virtual Care.
 
 
-  Vida Health''s developer surface includes engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 15
+  Vida Health''s developer surface includes engineering blog, support, signup flow, and 14 more developer resources.'
+plans:
+- name: Vida Health Plans Pricing
+  plan_count: 0
+  slug: vida-health-plans-pricing
+random_paper: 52
+rate_limits:
+- limit_count: 0
+  name: Vida Health Rate Limits
+  slug: vida-health-rate-limits
 score:
   band: emerging
-  composite: 15.0
-  delta: 0.0
+  composite: 18.2
+  delta: 3.2
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 57.4
@@ -126,9 +150,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
+    score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

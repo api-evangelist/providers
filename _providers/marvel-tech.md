@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Marvel Tech (Mufan Power)
 nav: Providers
 network: true
 overview: Marvel Tech (Mufan Power) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Power Generation, Hydrogen, and Gas Turbine.
-random_paper: 32
+random_paper: 69
 score:
   band: minimal
   composite: 4.3
@@ -68,7 +68,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marvel-tech/refs/heads/main/screenshots/marvel-tech-2026-07-25T230339.png
 slug: marvel-tech

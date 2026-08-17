@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -63,8 +63,32 @@ apis:
 - description: The Snapshot API from Elastic Stack (ELK Stack) — 1 operation(s) for snapshot.
   name: Elastic Stack (ELK Stack) Snapshot API
   slug: elk-stack-snapshot-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Elasticsearch REST Cat API
+  slug: open-elk-stack-cat-api
+- collection_type: open
+  name: Elasticsearch REST Cat Cluster API
+  slug: open-elk-stack-cluster-api
+- collection_type: open
+  name: Elasticsearch REST Cat Document API
+  slug: open-elk-stack-document-api
+- collection_type: open
+  name: Elasticsearch REST Cat Index API
+  slug: open-elk-stack-index-api
+- collection_type: open
+  name: Elasticsearch REST Cat Ingest API
+  slug: open-elk-stack-ingest-api
+- collection_type: open
+  name: Elasticsearch REST Cat Search API
+  slug: open-elk-stack-search-api
+- collection_type: open
+  name: Elasticsearch REST Cat Snapshot API
+  slug: open-elk-stack-snapshot-api
 - collection_type: open
   name: Elasticsearch REST API
   slug: open-elk-stack
@@ -137,7 +161,7 @@ plans:
 - name: Elk Stack Plans Pricing
   plan_count: 3
   slug: elk-stack-plans-pricing
-random_paper: 55
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Elk Stack Rate Limits
@@ -162,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/screenshots/elk-stack-2026-06-20T180610.png
 security:

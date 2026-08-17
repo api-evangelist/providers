@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -144,7 +144,116 @@ apis:
 - description: Work orders represent maintenance tasks, repairs, and scheduled jobs across your facilities. Track them from creation through assignment, execution, and closure. Assign to staff or teams, set prioriti
   name: Facilio Work Orders API
   slug: facilio-work-orders-api
-artifact_total: 41
+artifact_total: 77
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Facilio REST Assets API
+  slug: open-facilio-assets-api
+- collection_type: open
+  name: Facilio REST Assets Buildings API
+  slug: open-facilio-buildings-api
+- collection_type: open
+  name: Facilio REST Assets Client Contacts API
+  slug: open-facilio-client-contacts-api
+- collection_type: open
+  name: Facilio REST Assets Client Credits API
+  slug: open-facilio-client-credits-api
+- collection_type: open
+  name: Facilio REST Assets Clients API
+  slug: open-facilio-clients-api
+- collection_type: open
+  name: Facilio REST Assets Common API
+  slug: open-facilio-common-api
+- collection_type: open
+  name: Facilio REST Assets Custom Modules API
+  slug: open-facilio-custom-modules-api
+- collection_type: open
+  name: Facilio REST Assets Floors API
+  slug: open-facilio-floors-api
+- collection_type: open
+  name: Facilio REST Assets Inventory Requests API
+  slug: open-facilio-inventory-requests-api
+- collection_type: open
+  name: Facilio REST Assets Invoices API
+  slug: open-facilio-invoices-api
+- collection_type: open
+  name: Facilio REST Assets Item Types API
+  slug: open-facilio-item-types-api
+- collection_type: open
+  name: Facilio REST Assets Items API
+  slug: open-facilio-items-api
+- collection_type: open
+  name: Facilio REST Assets Picklists API
+  slug: open-facilio-picklists-api
+- collection_type: open
+  name: Facilio REST Assets Purchase Orders API
+  slug: open-facilio-purchase-orders-api
+- collection_type: open
+  name: Facilio REST Assets Purchase Requests API
+  slug: open-facilio-purchase-requests-api
+- collection_type: open
+  name: Facilio REST Assets Quotes API
+  slug: open-facilio-quotes-api
+- collection_type: open
+  name: Facilio REST Assets Receivables API
+  slug: open-facilio-receivables-api
+- collection_type: open
+  name: Facilio REST Assets Service Request Attachments API
+  slug: open-facilio-service-request-attachments-api
+- collection_type: open
+  name: Facilio REST Assets Service Request Comments API
+  slug: open-facilio-service-request-comments-api
+- collection_type: open
+  name: Facilio REST Assets Service Requests API
+  slug: open-facilio-service-requests-api
+- collection_type: open
+  name: Facilio REST Assets Services API
+  slug: open-facilio-services-api
+- collection_type: open
+  name: Facilio REST Assets Sites API
+  slug: open-facilio-sites-api
+- collection_type: open
+  name: Facilio REST Assets Spaces API
+  slug: open-facilio-spaces-api
+- collection_type: open
+  name: Facilio REST Assets Storerooms API
+  slug: open-facilio-storerooms-api
+- collection_type: open
+  name: Facilio REST Assets Tenant Contacts API
+  slug: open-facilio-tenant-contacts-api
+- collection_type: open
+  name: Facilio REST Assets Tenant Units API
+  slug: open-facilio-tenant-units-api
+- collection_type: open
+  name: Facilio REST Assets Tenants API
+  slug: open-facilio-tenants-api
+- collection_type: open
+  name: Facilio REST Assets Tool Types API
+  slug: open-facilio-tool-types-api
+- collection_type: open
+  name: Facilio REST Assets Tools API
+  slug: open-facilio-tools-api
+- collection_type: open
+  name: Facilio REST Assets Vendor Contacts API
+  slug: open-facilio-vendor-contacts-api
+- collection_type: open
+  name: Facilio REST Assets Vendor Credits API
+  slug: open-facilio-vendor-credits-api
+- collection_type: open
+  name: Facilio REST Assets Vendors API
+  slug: open-facilio-vendors-api
+- collection_type: open
+  name: Facilio REST Assets Work Order Attachments API
+  slug: open-facilio-work-order-attachments-api
+- collection_type: open
+  name: Facilio REST Assets Work Order Comments API
+  slug: open-facilio-work-order-comments-api
+- collection_type: open
+  name: Facilio REST Assets Work Orders API
+  slug: open-facilio-work-orders-api
 common:
 - group: auth
   title: ''
@@ -290,7 +399,7 @@ overview: 'Facilio publishes 35 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Facilio''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 25 more developer resources.'
-random_paper: 7
+random_paper: 131
 scopes:
 - name: Facilio Scopes
   scope_count: 7
@@ -319,7 +428,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/screenshots/facilio-2026-07-25T214135.png
 security:

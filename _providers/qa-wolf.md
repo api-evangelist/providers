@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Continuous integration triggers and pipeline gating
@@ -37,11 +37,21 @@ apis:
 - description: Deployment and environment lifecycle notifications to QA Wolf
   name: QA Wolf Webhooks API
   slug: qa-wolf-webhooks-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Qa Wolf Webhooks
   slug: qa-wolf-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QA Wolf REST CI API
+  slug: open-qa-wolf-ci-api
+- collection_type: open
+  name: QA Wolf REST CI Webhooks API
+  slug: open-qa-wolf-webhooks-api
 common:
 - group: other
   title: ''
@@ -186,7 +196,7 @@ overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   QA Wolf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 95
+random_paper: 99
 score:
   band: developing
   composite: 44.8
@@ -209,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: The Models API from DeepInfra — 2 operation(s) for models.
   name: DeepInfra Models API
   slug: deepinfra-models-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DeepInfra Inference Audio API
+  slug: open-deepinfra-audio-api
+- collection_type: open
+  name: DeepInfra Inference Audio Chat API
+  slug: open-deepinfra-chat-api
+- collection_type: open
+  name: DeepInfra Inference Audio Completions API
+  slug: open-deepinfra-completions-api
+- collection_type: open
+  name: DeepInfra Inference Audio Embeddings API
+  slug: open-deepinfra-embeddings-api
+- collection_type: open
+  name: DeepInfra Inference Audio Images API
+  slug: open-deepinfra-images-api
+- collection_type: open
+  name: DeepInfra Inference Audio Models API
+  slug: open-deepinfra-models-api
 - collection_type: open
   name: DeepInfra Inference API
   slug: open-deepinfra
@@ -134,7 +155,7 @@ plans:
 - name: Deepinfra Plans Pricing
   plan_count: 1
   slug: deepinfra-plans-pricing
-random_paper: 102
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Deepinfra Rate Limits
@@ -159,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/screenshots/deepinfra-2026-06-20T175818.png
 security:

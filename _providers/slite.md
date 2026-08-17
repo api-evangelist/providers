@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: The Users API from Slite — 2 operation(s) for users.
   name: Slite Users API
   slug: slite-users-api
-artifact_total: 74
+artifact_total: 82
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Slite api Ask API
+  slug: open-slite-ask-api
+- collection_type: open
+  name: Public Slite api Ask Groups API
+  slug: open-slite-groups-api
+- collection_type: open
+  name: Public Slite api Ask Knowledge Management API
+  slug: open-slite-knowledge-management-api
+- collection_type: open
+  name: Public Slite api Ask Me API
+  slug: open-slite-me-api
+- collection_type: open
+  name: Public Slite api Ask Notes API
+  slug: open-slite-notes-api
+- collection_type: open
+  name: Public Slite api Ask Search Notes API
+  slug: open-slite-search-notes-api
+- collection_type: open
+  name: Public Slite api Ask Users API
+  slug: open-slite-users-api
 common:
 - group: agent
   title: ''
@@ -334,7 +359,7 @@ plans:
 - name: Slite Plans Pricing
   plan_count: 3
   slug: slite-plans-pricing
-random_paper: 65
+random_paper: 98
 rate_limits:
 - limit_count: 0
   name: Slite Rate Limits
@@ -368,7 +393,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/screenshots/slite-2026-06-20T194030.png
 security:

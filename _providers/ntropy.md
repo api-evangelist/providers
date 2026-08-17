@@ -1,13 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup with free trial credits; pricing behind the dashboard
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
-  - authentication
-  trial: false
+  - https://docs.ntropy.com/onboarding
+  - https://docs.ntropy.com/introduction
+  - plans/ntropy-plans-pricing.yml
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-ready
@@ -29,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -87,11 +89,63 @@ apis:
 - description: The webhooks API from Ntropy — 2 operation(s) for webhooks.
   name: Ntropy webhooks API
   slug: ntropy-webhooks-api
-artifact_total: 22
+artifact_total: 41
 asyncapis:
 - description: Event-driven notifications from the Ntropy API. Ntropy POSTs an event to the registered webhook url. If a token was set at creation it is sent in the X-Ntropy-Token header. Delivery is at-least-once (
   name: Ntropy Webhooks
   slug: ntropy-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference Account Holder API
+  slug: open-ntropy-account-holder-api
+- collection_type: open
+  name: API Reference Account Holder accountHolders API
+  slug: open-ntropy-accountholders-api
+- collection_type: open
+  name: API Reference Account Holder Bank statements API
+  slug: open-ntropy-bank-statements-api
+- collection_type: open
+  name: API Reference Account Holder bankStatements API
+  slug: open-ntropy-bankstatements-api
+- collection_type: open
+  name: API Reference Account Holder batches API
+  slug: open-ntropy-batches-api
+- collection_type: open
+  name: API Reference Account Holder categories API
+  slug: open-ntropy-categories-api
+- collection_type: open
+  name: API Reference Account Holder Enrichment API
+  slug: open-ntropy-enrichment-api
+- collection_type: open
+  name: API Reference Account Holder entities API
+  slug: open-ntropy-entities-api
+- collection_type: open
+  name: API Reference Account Holder Labels API
+  slug: open-ntropy-labels-api
+- collection_type: open
+  name: API Reference Account Holder Misc API
+  slug: open-ntropy-misc-api
+- collection_type: open
+  name: API Reference Account Holder personalization API
+  slug: open-ntropy-personalization-api
+- collection_type: open
+  name: API Reference Account Holder recurrence API
+  slug: open-ntropy-recurrence-api
+- collection_type: open
+  name: API Reference Account Holder Reporting API
+  slug: open-ntropy-reporting-api
+- collection_type: open
+  name: API Reference Account Holder reports API
+  slug: open-ntropy-reports-api
+- collection_type: open
+  name: API Reference Account Holder transactions API
+  slug: open-ntropy-transactions-api
+- collection_type: open
+  name: API Reference Account Holder webhooks API
+  slug: open-ntropy-webhooks-api
 common:
 - group: other
   title: ''
@@ -133,6 +187,10 @@ common:
   title: ''
   type: SignUp
   url: https://dashboard.ntropy.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.ntropy.com/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -141,6 +199,22 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://ntropy.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.ntropy.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://documenter.getpostman.com/view/17988251/UVsQriab
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.ntropy.com/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/ntropy-network/ntropy-sdk
 - group: build
   title: ''
   type: Packages
@@ -153,6 +227,10 @@ common:
   title: ''
   type: MCPServer
   url: mcp/ntropy-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/ntropy-tool-crosswalk.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -173,6 +251,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/ntropy-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/ntropy-trust-center.yml
 - group: design
   title: ''
   type: Conformance
@@ -201,6 +283,10 @@ common:
   title: ''
   type: RateLimits
   url: rate-limits/ntropy-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ntropy-plans-pricing.yml
 - group: docs
   title: ''
   type: AsyncAPI
@@ -221,7 +307,7 @@ mcp_servers:
 - description: ''
   name: ntropy-mcp.yml
   slug: ntropy-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Ntropy
 nav: Providers
 network: true
@@ -231,23 +317,27 @@ overview: 'Ntropy publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
   The Ntropy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ntropy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 84
+  Ntropy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 31 more developer resources.'
+plans:
+- name: Ntropy Plans Pricing
+  plan_count: 0
+  slug: ntropy-plans-pricing
+random_paper: 88
 rate_limits:
 - limit_count: 24
   name: Ntropy Rate Limits
   slug: ntropy-rate-limits
 score:
-  band: developing
-  composite: 53.0
-  delta: 0.0
+  band: strong
+  composite: 59.3
+  delta: 6.3
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 50.0
     contract_quality: 66.1
-    developer_ergonomics: 69.0
+    developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 60.5
+    operational_transparency: 76.3
   previous_composite: 53.0
   provenance:
     agentic_access: derived
@@ -264,10 +354,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 37.9
+    score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/screenshots/ntropy-2026-08-07T185714.png
 security:
 - kind: authentication
@@ -278,6 +368,10 @@ security:
   name: Ntropy Domain Security
   slug: ntropy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Ntropy Trust Center
+  slug: ntropy-trust-center
+  summary_line: SOC 2 Type 2
 slug: ntropy
 tags:
 - Company

@@ -1,13 +1,12 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
-  pricing: enterprise
+  confidence: low
+  label: Unknown · no verifiable provider surface
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
   - plans
-  - authentication
   trial: false
   try_now: false
 agent_readiness:
@@ -29,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,14 +50,29 @@ apis:
 - description: Phone number validation endpoints
   name: Telefono Validation API
   slug: telefono-validation-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telefono Carrier Lookup Batch API
+  slug: open-telefono-batch-api
+- collection_type: open
+  name: Telefono Lookup Batch Carrier API
+  slug: open-telefono-carrier-api
 - collection_type: open
   name: Telefono Carrier Lookup API
   slug: open-telefono-carrier
 - collection_type: open
+  name: Telefono Carrier Lookup Batch Format API
+  slug: open-telefono-format-api
+- collection_type: open
   name: Telefono Number Formatting API
   slug: open-telefono-format
+- collection_type: open
+  name: Telefono Carrier Lookup Batch Validation API
+  slug: open-telefono-validation-api
 - collection_type: open
   name: Telefono Phone Validation API
   slug: open-telefono-validation
@@ -111,6 +125,32 @@ common:
   title: ''
   type: GitHub
   url: https://github.com/telefono-api
+coverage:
+  checked: '2026-08-14'
+  detail: 'telefono.com is a parked domain: its root serves a 346-byte HTML frameset whose only frame points at the domain marketplace domainnames.net, every other path on the host returns 404, and api./developers./status./docs.telefono.com are all NXDOMAIN — including api.telefono.com, the host declared in the servers[] block of every OpenAPI in this repo and in every apis[].baseURL.'
+  evidence:
+  - status: 200
+    url: https://www.telefono.com/
+  - status: 404
+    url: https://www.telefono.com/pricing
+  - status: 404
+    url: https://www.telefono.com/signup
+  - status: 404
+    url: https://www.telefono.com/terms
+  - status: 404
+    url: https://www.telefono.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.telefono.com/llms.txt
+  - status: 0
+    url: https://api.telefono.com/v1/validate
+  - status: 0
+    url: https://developers.telefono.com/validation
+  - status: 0
+    url: https://status.telefono.com
+  - status: 404
+    url: https://github.com/telefono-api
+  reason: defunct
+  state: none
 created: '2024-01-15'
 description: Telefono is a phone number intelligence and validation API platform providing real-time phone number lookup, validation, carrier information, line type detection, and number formatting services for developers. The platform helps businesses verify user phone numbers, detect fraud, improve deliverability of SMS campaigns, and enrich contact data with carrier and geographic information.
 examples:
@@ -154,7 +194,7 @@ plans:
 - name: Telefono Plans Pricing
   plan_count: 1
   slug: telefono-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 1
   name: Telefono Rate Limits
@@ -202,7 +242,7 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/screenshots/telefono-2026-06-20T195031.png
 security:

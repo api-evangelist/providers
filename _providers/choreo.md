@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
 - description: API usage statistics and request metrics.
   name: Choreo Usage API
   slug: choreo-usage-api
-artifact_total: 77
+artifact_total: 94
 collections:
 - collection_type: postman
   name: Choreo API Management Alerts API
@@ -138,14 +138,65 @@ collections:
   name: Choreo API Management Alerts Usage API
   slug: postman-choreo-usage-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Choreo API Management Alerts API
+  slug: open-choreo-alerts-api
+- collection_type: open
   name: Choreo API Management API
   slug: open-choreo-api-management
+- collection_type: open
+  name: Choreo API Management Alerts Apis API
+  slug: open-choreo-apis-api
+- collection_type: open
+  name: Choreo API Management Alerts Application Keys API
+  slug: open-choreo-application-keys-api
+- collection_type: open
+  name: Choreo API Management Alerts Applications API
+  slug: open-choreo-applications-api
+- collection_type: open
+  name: Choreo API Management Alerts Builds API
+  slug: open-choreo-builds-api
+- collection_type: open
+  name: Choreo API Management Alerts Business Plans API
+  slug: open-choreo-business-plans-api
+- collection_type: open
+  name: Choreo API Management Alerts Components API
+  slug: open-choreo-components-api
+- collection_type: open
+  name: Choreo API Management Alerts Deployments API
+  slug: open-choreo-deployments-api
 - collection_type: open
   name: Choreo Developer Portal API
   slug: open-choreo-developer-portal
 - collection_type: open
+  name: Choreo API Management Alerts Environments API
+  slug: open-choreo-environments-api
+- collection_type: open
+  name: Choreo API Management Alerts Errors API
+  slug: open-choreo-errors-api
+- collection_type: open
   name: Choreo Insights API
   slug: open-choreo-insights
+- collection_type: open
+  name: Choreo API Management Alerts Latency API
+  slug: open-choreo-latency-api
+- collection_type: open
+  name: Choreo API Management Alerts Logs API
+  slug: open-choreo-logs-api
+- collection_type: open
+  name: Choreo API Management Alerts Organizations API
+  slug: open-choreo-organizations-api
+- collection_type: open
+  name: Choreo API Management Alerts Projects API
+  slug: open-choreo-projects-api
+- collection_type: open
+  name: Choreo API Management Alerts Subscriptions API
+  slug: open-choreo-subscriptions-api
+- collection_type: open
+  name: Choreo API Management Alerts Usage API
+  slug: open-choreo-usage-api
 common:
 - group: build
   title: ''
@@ -328,7 +379,7 @@ plans:
 - name: Choreo Plans Pricing
   plan_count: 3
   slug: choreo-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Choreo Rate Limits
@@ -367,7 +418,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/screenshots/choreo-2026-06-20T174326.png
 security:

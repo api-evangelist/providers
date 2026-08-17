@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Endpoints for checking payment transaction status
   name: Apple Pay Payment Status API
   slug: apple-pay-payment-status-api
-artifact_total: 46
+artifact_total: 51
 collections:
 - collection_type: postman
   name: Apple Pay JS Merchant Registration API
@@ -69,8 +69,23 @@ collections:
   name: Apple Pay JS Merchant Registration Payment Status API
   slug: postman-apple-pay-payment-status-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Apple Pay JS API
   slug: open-apple-pay-js
+- collection_type: open
+  name: Apple Pay JS Merchant Registration API
+  slug: open-apple-pay-merchant-registration-api
+- collection_type: open
+  name: Apple Pay JS Merchant Registration Merchant Validation API
+  slug: open-apple-pay-merchant-validation-api
+- collection_type: open
+  name: Apple Pay JS Merchant Registration Payment Processing API
+  slug: open-apple-pay-payment-processing-api
+- collection_type: open
+  name: Apple Pay JS Merchant Registration Payment Status API
+  slug: open-apple-pay-payment-status-api
 - collection_type: open
   name: Apple Pay Payment Token API
   slug: open-apple-pay-payment-token
@@ -210,7 +225,7 @@ plans:
 - name: Apple Pay Plans Pricing
   plan_count: 2
   slug: apple-pay-plans-pricing
-random_paper: 65
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Apple Pay Rate Limits
@@ -258,7 +273,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/screenshots/apple-pay-2026-06-20T172320.png
 security:

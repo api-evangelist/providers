@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -89,8 +89,59 @@ apis:
 - description: The Webhooks API from SysAid — 5 operation(s) for webhooks.
   name: SysAid Webhooks API
   slug: sysaid-webhooks-api
-artifact_total: 22
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SysAid REST ActionItems API
+  slug: open-sysaid-actionitems-api
+- collection_type: open
+  name: SysAid REST ActionItems Activities API
+  slug: open-sysaid-activities-api
+- collection_type: open
+  name: SysAid REST ActionItems Agents API
+  slug: open-sysaid-agents-api
+- collection_type: open
+  name: SysAid REST ActionItems Assets API
+  slug: open-sysaid-assets-api
+- collection_type: open
+  name: SysAid REST ActionItems Attachments API
+  slug: open-sysaid-attachments-api
+- collection_type: open
+  name: SysAid REST ActionItems Auth API
+  slug: open-sysaid-auth-api
+- collection_type: open
+  name: SysAid REST ActionItems CIs API
+  slug: open-sysaid-cis-api
+- collection_type: open
+  name: SysAid REST ActionItems Companies API
+  slug: open-sysaid-companies-api
+- collection_type: open
+  name: SysAid REST ActionItems EndUsers API
+  slug: open-sysaid-endusers-api
+- collection_type: open
+  name: SysAid REST ActionItems Groups API
+  slug: open-sysaid-groups-api
+- collection_type: open
+  name: SysAid REST ActionItems LicenseManager API
+  slug: open-sysaid-licensemanager-api
+- collection_type: open
+  name: SysAid REST ActionItems RelatedItems API
+  slug: open-sysaid-relateditems-api
+- collection_type: open
+  name: SysAid REST ActionItems ServiceRecords API
+  slug: open-sysaid-servicerecords-api
+- collection_type: open
+  name: SysAid REST ActionItems Templates API
+  slug: open-sysaid-templates-api
+- collection_type: open
+  name: SysAid REST ActionItems Utilities API
+  slug: open-sysaid-utilities-api
+- collection_type: open
+  name: SysAid REST ActionItems Webhooks API
+  slug: open-sysaid-webhooks-api
 - collection_type: open
   name: SysAid REST API
   slug: open-sysaid
@@ -159,7 +210,7 @@ overview: 'SysAid publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   SysAid''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 53
+random_paper: 57
 score:
   band: thin
   composite: 32.6
@@ -180,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/screenshots/sysaid-2026-06-20T194835.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -93,14 +93,68 @@ apis:
 - description: Manage upstream backend service definitions with load balancing.
   name: Apache APISIX Upstreams API
   slug: apache-apisix-upstreams-api
-artifact_total: 83
+artifact_total: 101
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Apache APISIX Admin API
   slug: open-apache-apisix-admin-api
 - collection_type: open
+  name: Apache APISIX Admin Consumer Groups API
+  slug: open-apache-apisix-consumer-groups-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Consumers API
+  slug: open-apache-apisix-consumers-api
+- collection_type: open
   name: Apache APISIX Control API
   slug: open-apache-apisix-control-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Diagnostics API
+  slug: open-apache-apisix-diagnostics-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Global Rules API
+  slug: open-apache-apisix-global-rules-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Health Check API
+  slug: open-apache-apisix-health-check-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Introspection API
+  slug: open-apache-apisix-introspection-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Plugin Configs API
+  slug: open-apache-apisix-plugin-configs-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Plugin Metadata API
+  slug: open-apache-apisix-plugin-metadata-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Plugins API
+  slug: open-apache-apisix-plugins-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Protos API
+  slug: open-apache-apisix-protos-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Routes API
+  slug: open-apache-apisix-routes-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Schema API
+  slug: open-apache-apisix-schema-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Secrets API
+  slug: open-apache-apisix-secrets-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Services API
+  slug: open-apache-apisix-services-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups SSL API
+  slug: open-apache-apisix-ssl-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Stream Routes API
+  slug: open-apache-apisix-stream-routes-api
+- collection_type: open
+  name: Apache APISIX Admin Consumer Groups Upstreams API
+  slug: open-apache-apisix-upstreams-api
 common:
 - group: operate
   title: ''
@@ -387,7 +441,7 @@ plans:
 - name: Apache Apisix Plans Pricing
   plan_count: 3
   slug: apache-apisix-plans-pricing
-random_paper: 109
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Apache Apisix Rate Limits
@@ -429,7 +483,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/screenshots/apache-apisix-2026-06-20T172044.png
 security:

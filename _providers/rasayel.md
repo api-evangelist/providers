@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Templates API from Rasayel — 2 operation(s) for templates.
   name: Rasayel Templates API
   slug: rasayel-templates-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rasayel REST Channels API
+  slug: open-rasayel-channels-api
+- collection_type: open
+  name: Rasayel REST Channels Contacts API
+  slug: open-rasayel-contacts-api
+- collection_type: open
+  name: Rasayel REST Channels Conversations API
+  slug: open-rasayel-conversations-api
+- collection_type: open
+  name: Rasayel REST Channels Messages API
+  slug: open-rasayel-messages-api
+- collection_type: open
+  name: Rasayel REST Channels Properties API
+  slug: open-rasayel-properties-api
+- collection_type: open
+  name: Rasayel REST Channels Tags API
+  slug: open-rasayel-tags-api
+- collection_type: open
+  name: Rasayel REST Channels Templates API
+  slug: open-rasayel-templates-api
 common:
 - group: docs
   title: ''
@@ -197,7 +222,7 @@ overview: 'Rasayel publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rasayel''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 33
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Rasayel Rate Limits
@@ -225,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

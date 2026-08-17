@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Substly is an uncomplicated and affordable SaaS management platform for SMBs, offering subscription tracking, spend optimization, user access management, and shadow IT detection. It integrates with Go
@@ -96,7 +96,7 @@ plans:
 - name: Substly Plans Pricing
   plan_count: 3
   slug: substly-plans-pricing
-random_paper: 70
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Substly Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/substly/refs/heads/main/screenshots/substly-2026-06-20T194632.png
 security:

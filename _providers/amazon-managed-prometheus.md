@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: The Workspaces API from Amazon Managed Service for Prometheus — 7 operation(s) for workspaces.
   name: Amazon Managed Service for Prometheus Workspaces API
   slug: amazon-managed-prometheus-workspaces-api
-artifact_total: 263
+artifact_total: 266
 collections:
 - collection_type: postman
   name: Amazon Prometheus Service Tags API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Amazon Prometheus Service Tags Workspaces API
   slug: postman-amazon-managed-prometheus-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Prometheus Service Tags API
+  slug: open-amazon-managed-prometheus-tags-api
+- collection_type: open
+  name: Amazon Prometheus Service Tags Workspaces API
+  slug: open-amazon-managed-prometheus-workspaces-api
 common:
 - group: build
   title: ''
@@ -889,7 +898,7 @@ plans:
 - name: Amazon Managed Prometheus Plans Pricing
   plan_count: 3
   slug: amazon-managed-prometheus-plans-pricing
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Prometheus Rate Limits
@@ -931,7 +940,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/screenshots/amazon-managed-prometheus-2026-06-20T171735.png
 security:

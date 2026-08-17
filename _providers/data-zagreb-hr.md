@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: CKAN Action API for data.zagreb.hr Official Open Data Portal, a consistent JSON-over-HTTP interface over a catalog of 199 datasets. Standard actions include package_search, package_show, package_list,
@@ -84,7 +84,7 @@ plans:
 - name: Data Zagreb Hr Plans Pricing
   plan_count: 1
   slug: data-zagreb-hr-plans-pricing
-random_paper: 33
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Data Zagreb Hr Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-zagreb-hr/refs/heads/main/screenshots/data-zagreb-hr-2026-06-20T175625.png
 security:

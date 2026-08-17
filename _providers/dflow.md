@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,11 +60,36 @@ apis:
 - description: Venue endpoints
   name: DFlow venues API
   slug: dflow-venues-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: DERIVED event surface for the DFlow Trading API real-time WebSocket streams. Modeled by API Evangelist from the published DFlow docs (https://pond.dflow.net/resources/trading-api/websockets/overview a
   name: DFlow Trading API WebSocket Streams
   slug: dflow-trading-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DFlow Aggregator admin API
+  slug: open-dflow-admin-api
+- collection_type: open
+  name: DFlow Aggregator admin intent API
+  slug: open-dflow-intent-api
+- collection_type: open
+  name: DFlow Aggregator admin order API
+  slug: open-dflow-order-api
+- collection_type: open
+  name: DFlow Aggregator admin prediction_market API
+  slug: open-dflow-prediction-market-api
+- collection_type: open
+  name: DFlow Aggregator admin swap API
+  slug: open-dflow-swap-api
+- collection_type: open
+  name: DFlow Aggregator admin tokens API
+  slug: open-dflow-tokens-api
+- collection_type: open
+  name: DFlow Aggregator admin venues API
+  slug: open-dflow-venues-api
 common:
 - group: other
   title: ''
@@ -181,7 +206,7 @@ overview: 'DFlow publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   DFlow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 17 more developer resources.'
-random_paper: 60
+random_paper: 93
 score:
   band: developing
   composite: 42.5
@@ -211,7 +236,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/screenshots/dflow-2026-07-25T211845.png
 security:

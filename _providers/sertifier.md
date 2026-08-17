@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -66,8 +66,38 @@ apis:
 - description: MODELED - inbound/outbound event automation. Not confirmed in the public reference.
   name: Sertifier Webhooks API
   slug: sertifier-webhooks-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sertifier Credential Attributes API
+  slug: open-sertifier-attributes-api
+- collection_type: open
+  name: Sertifier Credential Attributes Authentication API
+  slug: open-sertifier-authentication-api
+- collection_type: open
+  name: Sertifier Credential Attributes Campaigns API
+  slug: open-sertifier-campaigns-api
+- collection_type: open
+  name: Sertifier Credential Attributes Credentials API
+  slug: open-sertifier-credentials-api
+- collection_type: open
+  name: Sertifier Credential Attributes Designs API
+  slug: open-sertifier-designs-api
+- collection_type: open
+  name: Sertifier Credential Attributes Details API
+  slug: open-sertifier-details-api
+- collection_type: open
+  name: Sertifier Credential Attributes Email Templates API
+  slug: open-sertifier-email-templates-api
+- collection_type: open
+  name: Sertifier Credential Attributes Recipients API
+  slug: open-sertifier-recipients-api
+- collection_type: open
+  name: Sertifier Credential Attributes Webhooks API
+  slug: open-sertifier-webhooks-api
 - collection_type: open
   name: Sertifier Credential API
   slug: open-sertifier
@@ -132,7 +162,7 @@ plans:
 - name: Sertifier Plans Pricing
   plan_count: 4
   slug: sertifier-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Sertifier Rate Limits
@@ -157,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

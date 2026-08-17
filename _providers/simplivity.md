@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -68,7 +68,41 @@ apis:
 - description: A virtual_machine represents a single virtual machine created within an HPE SimpliVity datastore.
   name: SimpliVity virtual_machines API
   slug: simplivity-virtual-machines-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HPE OmniStack REST backups API
+  slug: open-simplivity-backups-api
+- collection_type: open
+  name: HPE OmniStack REST backups cluster_groups API
+  slug: open-simplivity-cluster-groups-api
+- collection_type: open
+  name: HPE OmniStack REST backups datastores API
+  slug: open-simplivity-datastores-api
+- collection_type: open
+  name: HPE OmniStack REST backups external_stores API
+  slug: open-simplivity-external-stores-api
+- collection_type: open
+  name: HPE OmniStack REST backups hosts API
+  slug: open-simplivity-hosts-api
+- collection_type: open
+  name: HPE OmniStack REST backups omnistack_clusters API
+  slug: open-simplivity-omnistack-clusters-api
+- collection_type: open
+  name: HPE OmniStack REST backups policies API
+  slug: open-simplivity-policies-api
+- collection_type: open
+  name: HPE OmniStack REST backups security API
+  slug: open-simplivity-security-api
+- collection_type: open
+  name: HPE OmniStack REST backups tasks API
+  slug: open-simplivity-tasks-api
+- collection_type: open
+  name: HPE OmniStack REST backups virtual_machines API
+  slug: open-simplivity-virtual-machines-api
 common:
 - group: commercial
   title: ''
@@ -166,7 +200,7 @@ overview: 'SimpliVity publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   SimpliVity''s developer surface includes documentation, API reference, and 18 more developer resources.'
-random_paper: 34
+random_paper: 71
 scopes:
 - name: Simplivity Scopes
   scope_count: 2
@@ -195,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

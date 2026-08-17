@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,14 +63,35 @@ apis:
 - description: Trade submission and management.
   name: StoneX Trading API
   slug: stonex-trading-api
-artifact_total: 24
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: StoneX Clearing Accounts API
+  slug: open-stonex-accounts-api
+- collection_type: open
+  name: StoneX Clearing Accounts Authentication API
+  slug: open-stonex-authentication-api
 - collection_type: open
   name: StoneX Clearing API
   slug: open-stonex-clearing
 - collection_type: open
+  name: StoneX Clearing Accounts Documents API
+  slug: open-stonex-documents-api
+- collection_type: open
+  name: StoneX Clearing Accounts FX Rates API
+  slug: open-stonex-fx-rates-api
+- collection_type: open
+  name: StoneX Clearing Accounts Payments API
+  slug: open-stonex-payments-api
+- collection_type: open
   name: StoneX Payments API
   slug: open-stonex-payments
+- collection_type: open
+  name: StoneX Clearing Accounts Trading API
+  slug: open-stonex-trading-api
 common:
 - group: agent
   title: ''
@@ -155,7 +176,7 @@ plans:
 - name: Stonex Plans Pricing
   plan_count: 1
   slug: stonex-plans-pricing
-random_paper: 73
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Stonex Rate Limits
@@ -203,7 +224,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/screenshots/stonex-2026-06-20T194558.png
 security:

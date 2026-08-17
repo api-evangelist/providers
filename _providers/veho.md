@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -62,11 +62,39 @@ apis:
 - description: Serviceable Zips
   name: Veho zips API
   slug: veho-zips-api
-artifact_total: 23
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Veho Webhooks
   slug: veho-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Veho labels API
+  slug: open-veho-labels-api
+- collection_type: open
+  name: Veho labels manifests API
+  slug: open-veho-manifests-api
+- collection_type: open
+  name: Veho labels merchants API
+  slug: open-veho-merchants-api
+- collection_type: open
+  name: Veho labels orders API
+  slug: open-veho-orders-api
+- collection_type: open
+  name: Veho labels packages API
+  slug: open-veho-packages-api
+- collection_type: open
+  name: Veho labels quotes API
+  slug: open-veho-quotes-api
+- collection_type: open
+  name: Veho labels webhooks API
+  slug: open-veho-webhooks-api
+- collection_type: open
+  name: Veho labels zips API
+  slug: open-veho-zips-api
 common:
 - group: company
   title: ''
@@ -240,7 +268,7 @@ overview: 'Veho publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Veho''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, sandbox, and 25 more developer resources.'
-random_paper: 74
+random_paper: 136
 score:
   band: developing
   composite: 54.8
@@ -264,7 +292,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

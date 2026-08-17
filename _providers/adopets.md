@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,7 +54,20 @@ arazzos:
 - description: Connect a staff user, look up a payment transaction by uuid, then issue a refund. Grounded in real operationIds from the Adopets External API.
   name: Refund an adoption payment transaction (Adopets External API)
   slug: adopets-refund-transaction
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adopets External payment-request API
+  slug: open-adopets-payment-request-api
+- collection_type: open
+  name: Adopets External payment-request payment-transaction API
+  slug: open-adopets-payment-transaction-api
+- collection_type: open
+  name: Adopets External payment-request system-auth API
+  slug: open-adopets-system-auth-api
 common:
 - group: company
   title: ''
@@ -156,7 +169,7 @@ overview: 'Adopets publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Adopets'' developer surface includes documentation, API reference, authentication, sandbox, and 17 more developer resources.'
-random_paper: 32
+random_paper: 7
 score:
   band: thin
   composite: 34.0
@@ -186,7 +199,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/screenshots/adopets-2026-07-25T181658.png
 security:

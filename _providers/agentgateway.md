@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -59,8 +59,29 @@ apis:
 - description: The Profiling API from AgentGateway — 2 operation(s) for profiling.
   name: AgentGateway Profiling API
   slug: agentgateway-profiling-api
-artifact_total: 49
+artifact_total: 56
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AgentGateway Admin / Debug Config API
+  slug: open-agentgateway-config-api
+- collection_type: open
+  name: AgentGateway Admin / Config Debug API
+  slug: open-agentgateway-debug-api
+- collection_type: open
+  name: AgentGateway Admin / Debug Config Lifecycle API
+  slug: open-agentgateway-lifecycle-api
+- collection_type: open
+  name: AgentGateway Admin / Debug Config Logging API
+  slug: open-agentgateway-logging-api
+- collection_type: open
+  name: AgentGateway Admin / Debug Config Memory API
+  slug: open-agentgateway-memory-api
+- collection_type: open
+  name: AgentGateway Admin / Debug Config Profiling API
+  slug: open-agentgateway-profiling-api
 - collection_type: open
   name: AgentGateway Admin / Debug API
   slug: open-agentgateway
@@ -239,7 +260,7 @@ plans:
 - name: Agentgateway Plans Pricing
   plan_count: 3
   slug: agentgateway-plans-pricing
-random_paper: 81
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Agentgateway Rate Limits
@@ -273,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/screenshots/agentgateway-2026-06-20T170015.png
 security:

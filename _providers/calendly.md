@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -81,15 +81,54 @@ apis:
 - description: Endpoints for creating, listing, retrieving, and deleting webhook subscriptions that receive real-time event notifications.
   name: Calendly Webhook Subscriptions API
   slug: calendly-webhook-subscriptions-api
-artifact_total: 29
+artifact_total: 42
 asyncapis:
 - description: 'The Calendly Webhook API enables developers to receive real-time notifications when scheduling events occur in Calendly. By creating webhook subscriptions, applications can automatically receive data '
   name: Calendly Webhook Events
   slug: calendly-webhook-api-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Calendly Scheduling Activity Log API
+  slug: open-calendly-activity-log-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Availability API
+  slug: open-calendly-availability-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Data Compliance API
+  slug: open-calendly-data-compliance-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Event Types API
+  slug: open-calendly-event-types-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Groups API
+  slug: open-calendly-groups-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Invitees API
+  slug: open-calendly-invitees-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Organizations API
+  slug: open-calendly-organizations-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Routing Forms API
+  slug: open-calendly-routing-forms-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Scheduled Events API
+  slug: open-calendly-scheduled-events-api
+- collection_type: open
   name: Calendly Scheduling API
   slug: open-calendly-scheduling-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Shares API
+  slug: open-calendly-shares-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Users API
+  slug: open-calendly-users-api
+- collection_type: open
+  name: Calendly Scheduling Activity Log Webhook Subscriptions API
+  slug: open-calendly-webhook-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -201,7 +240,7 @@ plans:
 - name: Calendly Plans Pricing
   plan_count: 4
   slug: calendly-plans-pricing
-random_paper: 4
+random_paper: 99
 rate_limits:
 - limit_count: 2
   name: Calendly Rate Limits
@@ -243,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/screenshots/calendly-2026-06-20T173843.png
 security:

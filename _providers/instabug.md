@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,15 +78,33 @@ apis:
 - description: Read app store, native-prompt, and custom-prompt reviews captured through the Luciq SDK, with filters for rating, version, country, device, prompt type, and OS.
   name: Instabug (Luciq) Reviews API
   slug: instabug-reviews-api
-artifact_total: 66
+artifact_total: 72
 asyncapis:
 - description: Luciq (formerly Instabug) webhooks deliver real-time notifications about bug reports, crash reports, and APM events to a configured callback URL via HTTP POST. The webhook integration is configured pe
   name: Luciq Webhook Events
   slug: instabug-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Luciq MCP Server App Hangs API
+  slug: open-instabug-app-hangs-api
+- collection_type: open
+  name: Luciq MCP Server App Hangs Applications API
+  slug: open-instabug-applications-api
+- collection_type: open
+  name: Luciq MCP Server App Hangs Bugs API
+  slug: open-instabug-bugs-api
+- collection_type: open
+  name: Luciq MCP Server App Hangs Crashes API
+  slug: open-instabug-crashes-api
+- collection_type: open
   name: Luciq MCP Server
   slug: open-instabug-mcp-server
+- collection_type: open
+  name: Luciq MCP Server App Hangs Occurrences API
+  slug: open-instabug-occurrences-api
 common:
 - group: operate
   title: ''
@@ -369,7 +387,7 @@ plans:
 - name: Instabug Plans Pricing
   plan_count: 3
   slug: instabug-plans-pricing
-random_paper: 21
+random_paper: 116
 rate_limits:
 - limit_count: 7
   name: Instabug Rate Limits
@@ -424,7 +442,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/screenshots/instabug-2026-06-20T183406.png
 security:

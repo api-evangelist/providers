@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -51,7 +51,20 @@ arazzos:
 - description: Screen a blockchain address, and when it is risky, drill down through score, breakdown, and path-level evidence, then generate an analyst-ready risk assessment. Seeded with co-sandbox test values so a
   name: CipherOwl SRR Investigation Funnel
   slug: cipherowl-srr-investigation
-artifact_total: 10
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CipherOwl Onchain Service API
+  slug: open-cipherowl-onchain-service-api
+- collection_type: open
+  name: CipherOwl Onchain Service Private Data API API
+  slug: open-cipherowl-private-data-api-api
+- collection_type: open
+  name: CipherOwl Onchain Service SRR API API
+  slug: open-cipherowl-srr-api-api
 common:
 - group: other
   title: ''
@@ -193,7 +206,7 @@ overview: 'CipherOwl publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 13
+random_paper: 79
 score:
   band: strong
   composite: 58.3
@@ -217,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/screenshots/cipherowl-2026-07-25T205400.png
 security:

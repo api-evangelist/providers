@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Supply-side ad request API. A single GET to /api/AdServer returns one or more ad objects for a full-screen interstitial or banner placement, as a JSON array (response_format=0) or as HTML markup (resp
@@ -163,7 +163,7 @@ plans:
 - name: Pokkt Plans Pricing
   plan_count: 0
   slug: pokkt-plans-pricing
-random_paper: 73
+random_paper: 106
 rate_limits:
 - limit_count: 0
   name: Pokkt Rate Limits
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.4
-  delta: 32.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.6
@@ -179,10 +179,10 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 13.2
-  previous_composite: 7.4
+  previous_composite: 39.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Pokkt Authentication

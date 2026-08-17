@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Current, forecast, and historical weather data
   name: Agromonitoring Weather API
   slug: agromonitoring-weather-api
-artifact_total: 71
+artifact_total: 78
 collections:
 - collection_type: postman
   name: Agromonitoring Agro NDVI History API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: Agromonitoring Agro NDVI History Weather API
   slug: postman-agromonitoring-weather-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agromonitoring Agro NDVI History API
+  slug: open-agromonitoring-ndvi-history-api
+- collection_type: open
+  name: Agromonitoring Agro NDVI History Polygons API
+  slug: open-agromonitoring-polygons-api
+- collection_type: open
+  name: Agromonitoring Agro NDVI History Satellite Imagery API
+  slug: open-agromonitoring-satellite-imagery-api
+- collection_type: open
+  name: Agromonitoring Agro NDVI History Soil API
+  slug: open-agromonitoring-soil-api
+- collection_type: open
+  name: Agromonitoring Agro NDVI History UV Index API
+  slug: open-agromonitoring-uv-index-api
+- collection_type: open
+  name: Agromonitoring Agro NDVI History Weather API
+  slug: open-agromonitoring-weather-api
 - collection_type: open
   name: Agromonitoring Agro API
   slug: open-agromonitoring
@@ -293,7 +314,7 @@ plans:
 - name: Agromonitoring Plans Pricing
   plan_count: 3
   slug: agromonitoring-plans-pricing
-random_paper: 79
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Agromonitoring Rate Limits
@@ -335,7 +356,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/screenshots/agromonitoring-2026-06-20T170453.png
 security:

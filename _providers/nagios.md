@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -78,8 +78,44 @@ apis:
 - description: Admin-only endpoints to manage Nagios XI subsystems, apply configuration, schedule downtime, and execute commands.
   name: Nagios System API
   slug: nagios-system-api
-artifact_total: 37
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nagios XI REST Config API
+  slug: open-nagios-config-api
+- collection_type: open
+  name: Nagios XI REST Config CPU API
+  slug: open-nagios-cpu-api
+- collection_type: open
+  name: Nagios XI REST Config Disk API
+  slug: open-nagios-disk-api
+- collection_type: open
+  name: Nagios XI REST Config Interface API
+  slug: open-nagios-interface-api
+- collection_type: open
+  name: Nagios XI REST Config Memory API
+  slug: open-nagios-memory-api
+- collection_type: open
+  name: Nagios XI REST Config Objects API
+  slug: open-nagios-objects-api
+- collection_type: open
+  name: Nagios XI REST Config Plugins API
+  slug: open-nagios-plugins-api
+- collection_type: open
+  name: Nagios XI REST Config Processes API
+  slug: open-nagios-processes-api
+- collection_type: open
+  name: Nagios XI REST Config Services API
+  slug: open-nagios-services-api
+- collection_type: open
+  name: Nagios XI REST Config Submission API
+  slug: open-nagios-submission-api
+- collection_type: open
+  name: Nagios XI REST Config System API
+  slug: open-nagios-system-api
 - collection_type: open
   name: Nagios XI REST API
   slug: open-nagios-xi
@@ -280,7 +316,7 @@ plans:
 - name: Nagios Plans Pricing
   plan_count: 4
   slug: nagios-plans-pricing
-random_paper: 41
+random_paper: 45
 rules:
 - name: Nagios API Rules
   rule_count: 5
@@ -326,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/screenshots/nagios-2026-06-20T185930.png
 security:

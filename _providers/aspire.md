@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Aspire''s public REST API for business finance automation: payout/transfer operations across 30+ currencies (local and SWIFT), FX quotes, virtual card issuance and controls, and bank-feed/transaction r'
@@ -123,7 +123,7 @@ overview: 'Aspire publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aspire''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 10 more developer resources.'
-random_paper: 44
+random_paper: 48
 scopes:
 - name: Aspire Scopes
   scope_count: 2
@@ -151,7 +151,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aspire/refs/heads/main/screenshots/aspire-2026-07-25T201432.png
 security:

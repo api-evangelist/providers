@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -54,7 +54,7 @@ apis:
 - description: The Bloomberg Open API (BLPAPI) Core — the foundational service-oriented, socket-based API used by the Desktop API, Server API (SAPI), B-PIPE, and Bloomberg Platform products. Provides Request/Respons
   name: Bloomberg BLPAPI Core
   slug: bloomberg-blpapi-core
-artifact_total: 64
+artifact_total: 75
 asyncapis:
 - description: Event surface of the Bloomberg Open API (BLPAPI) Subscription paradigm. Clients call Session.subscribe(SubscriptionList) over a BLPAPI SDK session (Desktop API localhost:8194 or SAPI/B-PIPE host); str
   name: Bloomberg BLPAPI Market Data Subscriptions
@@ -90,6 +90,39 @@ collections:
 - collection_type: postman
   name: Bloomberg BLPAPI Core Field Discovery VWAP API
   slug: postman-bloomberg-vwap-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery API
+  slug: open-bloomberg-field-discovery-api
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery Historical Data API
+  slug: open-bloomberg-historical-data-api
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery Intraday Bars API
+  slug: open-bloomberg-intraday-bars-api
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery Intraday Ticks API
+  slug: open-bloomberg-intraday-ticks-api
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery Real-Time Bars API
+  slug: open-bloomberg-real-time-bars-api
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery Real-Time Market Data API
+  slug: open-bloomberg-real-time-market-data-api
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery Reference Data API
+  slug: open-bloomberg-reference-data-api
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery Request/Response API
+  slug: open-bloomberg-request-response-api
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery Subscriptions API
+  slug: open-bloomberg-subscriptions-api
+- collection_type: open
+  name: Bloomberg BLPAPI Core Field Discovery VWAP API
+  slug: open-bloomberg-vwap-api
 - collection_type: open
   name: Bloomberg BLPAPI Core
   slug: open-blpapi-core
@@ -351,7 +384,7 @@ plans:
 - name: Bloomberg Plans Pricing
   plan_count: 2
   slug: bloomberg-plans-pricing
-random_paper: 113
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Bloomberg Rate Limits
@@ -407,7 +440,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
 security:

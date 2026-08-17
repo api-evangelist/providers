@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 556
 apis:
 - description: The account API from Chaitin Tech — 22 operation(s) for account.
@@ -1699,7 +1699,1679 @@ apis:
 - description: The 资产/种子/域名 WHOIS API from Chaitin Tech — 6 operation(s) for 资产/种子/域名 whois.
   name: Chaitin Tech 资产/种子/域名 WHOIS API
   slug: chaitin-whois-api
-artifact_total: 559
+artifact_total: 1116
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APISec Management account API
+  slug: open-chaitin-account-api
+- collection_type: open
+  name: APISec Management account account/staff_devices/{staff_id}/add API
+  slug: open-chaitin-account-staff-devices-staff-id-add-api
+- collection_type: open
+  name: APISec Management account account/staff_devices/{staff_id}/remove API
+  slug: open-chaitin-account-staff-devices-staff-id-remove-api
+- collection_type: open
+  name: APISec Management account account/staff/list API
+  slug: open-chaitin-account-staff-list-api
+- collection_type: open
+  name: APISec Management account account/staff/{staff_id}/fav API
+  slug: open-chaitin-account-staff-staff-id-fav-api
+- collection_type: open
+  name: APISec Management account account/staff_tag API
+  slug: open-chaitin-account-staff-tag-api
+- collection_type: open
+  name: APISec Management account account/staff_tag/list API
+  slug: open-chaitin-account-staff-tag-list-api
+- collection_type: open
+  name: APISec Management account account/staff_tags/{staff_id}/bind API
+  slug: open-chaitin-account-staff-tags-staff-id-bind-api
+- collection_type: open
+  name: APISec Management account account/tag/modify API
+  slug: open-chaitin-account-tag-modify-api
+- collection_type: open
+  name: APISec Management account analyse/expression/classification API
+  slug: open-chaitin-analyse-expression-classification-api
+- collection_type: open
+  name: APISec Management account analyse/expression/classification/batch API
+  slug: open-chaitin-analyse-expression-classification-batch-api
+- collection_type: open
+  name: APISec Management account analyse/filecut API
+  slug: open-chaitin-analyse-filecut-api
+- collection_type: open
+  name: APISec Management account api_assets API
+  slug: open-chaitin-api-assets-api
+- collection_type: open
+  name: APISec Management account api_log API
+  slug: open-chaitin-api-log-api
+- collection_type: open
+  name: APISec Management account audit/operationlog/action/getfieldmetadata API
+  slug: open-chaitin-audit-operationlog-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account audit/operationlog/action/getfieldvalues API
+  slug: open-chaitin-audit-operationlog-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account backup API
+  slug: open-chaitin-backup-api
+- collection_type: open
+  name: APISec Management account browsermanager/action/bulkdestroy API
+  slug: open-chaitin-browsermanager-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account browsermanager/action/getfieldmetadata API
+  slug: open-chaitin-browsermanager-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account browsermanager/action/getfieldvalues API
+  slug: open-chaitin-browsermanager-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account browsermanager/download API
+  slug: open-chaitin-browsermanager-download-api
+- collection_type: open
+  name: APISec Management account browsermanager/list API
+  slug: open-chaitin-browsermanager-list-api
+- collection_type: open
+  name: APISec Management account browsermanager/plugin/action/getfieldmetadata API
+  slug: open-chaitin-browsermanager-plugin-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account browsermanager/plugin/action/getfieldvalues API
+  slug: open-chaitin-browsermanager-plugin-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account browsermanager/plugin/list API
+  slug: open-chaitin-browsermanager-plugin-list-api
+- collection_type: open
+  name: APISec Management account browsermanager/{tid}/detail API
+  slug: open-chaitin-browsermanager-tid-detail-api
+- collection_type: open
+  name: APISec Management account browsermanager/{tid}/device/list API
+  slug: open-chaitin-browsermanager-tid-device-list-api
+- collection_type: open
+  name: APISec Management account browsermanager/{tid}/plugin/list API
+  slug: open-chaitin-browsermanager-tid-plugin-list-api
+- collection_type: open
+  name: APISec Management account browserplugin/extract API
+  slug: open-chaitin-browserplugin-extract-api
+- collection_type: open
+  name: APISec Management account browserplugin/source/browsertypecount API
+  slug: open-chaitin-browserplugin-source-browsertypecount-api
+- collection_type: open
+  name: APISec Management account browserplugin/template API
+  slug: open-chaitin-browserplugin-template-api
+- collection_type: open
+  name: APISec Management account buildin_waf API
+  slug: open-chaitin-buildin-waf-api
+- collection_type: open
+  name: APISec Management account cert API
+  slug: open-chaitin-cert-api
+- collection_type: open
+  name: APISec Management account classification/data_classification/{cl_id}/detail API
+  slug: open-chaitin-classification-data-classification-cl-id-detail-api
+- collection_type: open
+  name: APISec Management account classification/data_classification_hub/classification_tree API
+  slug: open-chaitin-classification-data-classification-hub-classification-tree-api
+- collection_type: open
+  name: APISec Management account classification/data_classification_hub/{hub_id}/action/remove API
+  slug: open-chaitin-classification-data-classification-hub-hub-id-action-remove-api
+- collection_type: open
+  name: APISec Management account classification/download API
+  slug: open-chaitin-classification-download-api
+- collection_type: open
+  name: APISec Management account classification/init_data/info API
+  slug: open-chaitin-classification-init-data-info-api
+- collection_type: open
+  name: APISec Management account classification/init_data/recordlist API
+  slug: open-chaitin-classification-init-data-recordlist-api
+- collection_type: open
+  name: APISec Management account classification/init_data/upload API
+  slug: open-chaitin-classification-init-data-upload-api
+- collection_type: open
+  name: APISec Management account clipboardbehavior/action/getfieldmetadata API
+  slug: open-chaitin-clipboardbehavior-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account clipboardbehavior/stafflist API
+  slug: open-chaitin-clipboardbehavior-stafflist-api
+- collection_type: open
+  name: APISec Management account clipboardbehavior/timelinelist API
+  slug: open-chaitin-clipboardbehavior-timelinelist-api
+- collection_type: open
+  name: APISec Management account Count API
+  slug: open-chaitin-count-api
+- collection_type: open
+  name: APISec Management account dashboard API
+  slug: open-chaitin-dashboard-api
+- collection_type: open
+  name: APISec Management account dataasset/action/getfieldmetadata API
+  slug: open-chaitin-dataasset-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account dataasset/{asset_id}/detail API
+  slug: open-chaitin-dataasset-asset-id-detail-api
+- collection_type: open
+  name: APISec Management account dataasset/{asset_id}/hitdetail API
+  slug: open-chaitin-dataasset-asset-id-hitdetail-api
+- collection_type: open
+  name: APISec Management account dataasset/download API
+  slug: open-chaitin-dataasset-download-api
+- collection_type: open
+  name: APISec Management account dataasset/graph API
+  slug: open-chaitin-dataasset-graph-api
+- collection_type: open
+  name: APISec Management account dataasset/list API
+  slug: open-chaitin-dataasset-list-api
+- collection_type: open
+  name: APISec Management account dataasset/{md5_hash}/detail API
+  slug: open-chaitin-dataasset-md5-hash-detail-api
+- collection_type: open
+  name: APISec Management account dataasset/md5/{md5}/taskinfo API
+  slug: open-chaitin-dataasset-md5-md5-taskinfo-api
+- collection_type: open
+  name: APISec Management account dataasset/source/{source}/md5/{md5}/dept/list API
+  slug: open-chaitin-dataasset-source-source-md5-md5-dept-list-api
+- collection_type: open
+  name: APISec Management account dataasset/source/{source}/md5/{md5}/device/{device_id}/filerecord/list API
+  slug: open-chaitin-dataasset-source-source-md5-md5-device-device-id-filerecord-list-api
+- collection_type: open
+  name: APISec Management account dataasset/source/{source}/md5/{md5}/staff/list API
+  slug: open-chaitin-dataasset-source-source-md5-md5-staff-list-api
+- collection_type: open
+  name: APISec Management account dataasset/stats/cnt API
+  slug: open-chaitin-dataasset-stats-cnt-api
+- collection_type: open
+  name: APISec Management account dataasset/tracing/download API
+  slug: open-chaitin-dataasset-tracing-download-api
+- collection_type: open
+  name: APISec Management account dataasset/tracing/info API
+  slug: open-chaitin-dataasset-tracing-info-api
+- collection_type: open
+  name: APISec Management account dataasset/tracing/list API
+  slug: open-chaitin-dataasset-tracing-list-api
+- collection_type: open
+  name: APISec Management account dataclassification/clustering/list API
+  slug: open-chaitin-dataclassification-clustering-list-api
+- collection_type: open
+  name: APISec Management account dataclassification/clustering/perform API
+  slug: open-chaitin-dataclassification-clustering-perform-api
+- collection_type: open
+  name: APISec Management account 数字情报/任务管理 API
+  slug: open-chaitin-default-api
+- collection_type: open
+  name: APISec Management account device/agent_version/list API
+  slug: open-chaitin-device-agent-version-list-api
+- collection_type: open
+  name: APISec Management account Device API
+  slug: open-chaitin-device-api
+- collection_type: open
+  name: APISec Management account device/avscantask API
+  slug: open-chaitin-device-avscantask-api
+- collection_type: open
+  name: APISec Management account device/avscantask/device/list API
+  slug: open-chaitin-device-avscantask-device-list-api
+- collection_type: open
+  name: APISec Management account device/avscantask/list API
+  slug: open-chaitin-device-avscantask-list-api
+- collection_type: open
+  name: APISec Management account device/avscantask/{task_id}/action/remove API
+  slug: open-chaitin-device-avscantask-task-id-action-remove-api
+- collection_type: open
+  name: APISec Management account device/avscantask/{task_id} API
+  slug: open-chaitin-device-avscantask-task-id-api
+- collection_type: open
+  name: APISec Management account device/avscantask/{task_id}/instance/{instance_id}/device/list API
+  slug: open-chaitin-device-avscantask-task-id-instance-instance-id-device-list-api
+- collection_type: open
+  name: APISec Management account device/avscantask/{task_id}/instance/list API
+  slug: open-chaitin-device-avscantask-task-id-instance-list-api
+- collection_type: open
+  name: APISec Management account device/avscantask/{task_id}/updatestatus API
+  slug: open-chaitin-device-avscantask-task-id-updatestatus-api
+- collection_type: open
+  name: APISec Management account device/bindhistory/list API
+  slug: open-chaitin-device-bindhistory-list-api
+- collection_type: open
+  name: APISec Management account device/{device_id}/detail API
+  slug: open-chaitin-device-device-id-detail-api
+- collection_type: open
+  name: APISec Management account device/{device_id}/diagnosistask API
+  slug: open-chaitin-device-device-id-diagnosistask-api
+- collection_type: open
+  name: APISec Management account device/{device_id}/diagnosistask/{task_id}/getfilemetadata API
+  slug: open-chaitin-device-device-id-diagnosistask-task-id-getfilemetadata-api
+- collection_type: open
+  name: APISec Management account device/{device_id}/filedeletetask API
+  slug: open-chaitin-device-device-id-filedeletetask-api
+- collection_type: open
+  name: APISec Management account device/filedeletetask/list API
+  slug: open-chaitin-device-filedeletetask-list-api
+- collection_type: open
+  name: APISec Management account device/filescantask API
+  slug: open-chaitin-device-filescantask-api
+- collection_type: open
+  name: APISec Management account device/filescantask/list API
+  slug: open-chaitin-device-filescantask-list-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote API
+  slug: open-chaitin-device-filescantask-remote-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/list API
+  slug: open-chaitin-device-filescantask-remote-list-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/{task_id}/detail API
+  slug: open-chaitin-device-filescantask-remote-task-id-detail-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/{task_id}/instance/{instance_id}/detail API
+  slug: open-chaitin-device-filescantask-remote-task-id-instance-instance-id-detail-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/{task_id}/instance/{instance_id}/device/list API
+  slug: open-chaitin-device-filescantask-remote-task-id-instance-instance-id-device-list-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/{task_id}/instance/{instance_id}/device/statistic API
+  slug: open-chaitin-device-filescantask-remote-task-id-instance-instance-id-device-statistic-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/{task_id}/instance/{instance_id}/results/list API
+  slug: open-chaitin-device-filescantask-remote-task-id-instance-instance-id-results-list-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/{task_id}/instance/list API
+  slug: open-chaitin-device-filescantask-remote-task-id-instance-list-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/{task_id}/operation API
+  slug: open-chaitin-device-filescantask-remote-task-id-operation-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/{task_id}/trigger API
+  slug: open-chaitin-device-filescantask-remote-task-id-trigger-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/test_connection API
+  slug: open-chaitin-device-filescantask-remote-test-connection-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/test_connection/{task_id}/result API
+  slug: open-chaitin-device-filescantask-remote-test-connection-task-id-result-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/test_connection/{task_id}/status API
+  slug: open-chaitin-device-filescantask-remote-test-connection-task-id-status-api
+- collection_type: open
+  name: APISec Management account device/filescantask/remote/validation API
+  slug: open-chaitin-device-filescantask-remote-validation-api
+- collection_type: open
+  name: APISec Management account device/filescantask/results/{task_id}/detail API
+  slug: open-chaitin-device-filescantask-results-task-id-detail-api
+- collection_type: open
+  name: APISec Management account device/filescantask/{task_id}/instance/{instance_id}/device/action/download API
+  slug: open-chaitin-device-filescantask-task-id-instance-instance-id-device-action-download-api
+- collection_type: open
+  name: APISec Management account device/filescantask/{task_id}/instance/{instance_id}/device/statistic API
+  slug: open-chaitin-device-filescantask-task-id-instance-instance-id-device-statistic-api
+- collection_type: open
+  name: APISec Management account device/filescantask/{task_id}/instance/list API
+  slug: open-chaitin-device-filescantask-task-id-instance-list-api
+- collection_type: open
+  name: APISec Management account device/list API
+  slug: open-chaitin-device-list-api
+- collection_type: open
+  name: APISec Management account device/plugin/list API
+  slug: open-chaitin-device-plugin-list-api
+- collection_type: open
+  name: APISec Management account device/policy/{devic_id}/showtree API
+  slug: open-chaitin-device-policy-devic-id-showtree-api
+- collection_type: open
+  name: APISec Management account device/policy/{device_id}/list API
+  slug: open-chaitin-device-policy-device-id-list-api
+- collection_type: open
+  name: APISec Management account device/software/cnt API
+  slug: open-chaitin-device-software-cnt-api
+- collection_type: open
+  name: APISec Management account device/software/list API
+  slug: open-chaitin-device-software-list-api
+- collection_type: open
+  name: APISec Management account device/tag/modify API
+  slug: open-chaitin-device-tag-modify-api
+- collection_type: open
+  name: APISec Management account device/uninstalltask/ad454e0c-9156-48ab-bc30-304f638e8ad8/instance API
+  slug: open-chaitin-device-uninstalltask-ad454e0c-9156-48ab-bc30-304f638e8ad8-instance-api
+- collection_type: open
+  name: APISec Management account device/uninstalltask API
+  slug: open-chaitin-device-uninstalltask-api
+- collection_type: open
+  name: APISec Management account device/uninstalltask/list API
+  slug: open-chaitin-device-uninstalltask-list-api
+- collection_type: open
+  name: APISec Management account deviceconn/action/getfieldmetadata API
+  slug: open-chaitin-deviceconn-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account deviceconn/action/offline/list API
+  slug: open-chaitin-deviceconn-action-offline-list-api
+- collection_type: open
+  name: APISec Management account devicetag/list API
+  slug: open-chaitin-devicetag-list-api
+- collection_type: open
+  name: APISec Management account deviceuninstall/action/getfieldmetadata API
+  slug: open-chaitin-deviceuninstall-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account deviceuninstall/action/getfieldvalues API
+  slug: open-chaitin-deviceuninstall-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account discover_api API
+  slug: open-chaitin-discover-api-api
+- collection_type: open
+  name: APISec Management account discover_data API
+  slug: open-chaitin-discover-data-api
+- collection_type: open
+  name: APISec Management account disposal/approval/list API
+  slug: open-chaitin-disposal-approval-list-api
+- collection_type: open
+  name: APISec Management account disposal/approvalinstance API
+  slug: open-chaitin-disposal-approvalinstance-api
+- collection_type: open
+  name: APISec Management account disposal/approvalinstance/list API
+  slug: open-chaitin-disposal-approvalinstance-list-api
+- collection_type: open
+  name: APISec Management account exportrecord/getfieldmetadata API
+  slug: open-chaitin-exportrecord-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account exportrecord/list API
+  slug: open-chaitin-exportrecord-list-api
+- collection_type: open
+  name: APISec Management account exportrecord/{task_id}/download API
+  slug: open-chaitin-exportrecord-task-id-download-api
+- collection_type: open
+  name: APISec Management account filebehavior/action/bulkdestroy API
+  slug: open-chaitin-filebehavior-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account filebehavior/action/getfieldvalues API
+  slug: open-chaitin-filebehavior-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account filebehavior/list API
+  slug: open-chaitin-filebehavior-list-api
+- collection_type: open
+  name: APISec Management account filebehavior/{log_id}/detail API
+  slug: open-chaitin-filebehavior-log-id-detail-api
+- collection_type: open
+  name: APISec Management account filebehavior/stafflist API
+  slug: open-chaitin-filebehavior-stafflist-api
+- collection_type: open
+  name: APISec Management account filebehavior/timelinelist API
+  slug: open-chaitin-filebehavior-timelinelist-api
+- collection_type: open
+  name: APISec Management account filerule/machinelearning/list API
+  slug: open-chaitin-filerule-machinelearning-list-api
+- collection_type: open
+  name: APISec Management account filter API
+  slug: open-chaitin-filter-api
+- collection_type: open
+  name: APISec Management account installer/action/bulkdestroy API
+  slug: open-chaitin-installer-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account installer/download/config/remove API
+  slug: open-chaitin-installer-download-config-remove-api
+- collection_type: open
+  name: APISec Management account installer/download/search/tree API
+  slug: open-chaitin-installer-download-search-tree-api
+- collection_type: open
+  name: APISec Management account installer/downloadmeta/list API
+  slug: open-chaitin-installer-downloadmeta-list-api
+- collection_type: open
+  name: APISec Management account installer/{installer_id}/getmetadata API
+  slug: open-chaitin-installer-installer-id-getmetadata-api
+- collection_type: open
+  name: APISec Management account installer/list API
+  slug: open-chaitin-installer-list-api
+- collection_type: open
+  name: APISec Management account installer/{meta_id}/downloadurl API
+  slug: open-chaitin-installer-meta-id-downloadurl-api
+- collection_type: open
+  name: APISec Management account installer/simpletask API
+  slug: open-chaitin-installer-simpletask-api
+- collection_type: open
+  name: APISec Management account installer/simpletask/list API
+  slug: open-chaitin-installer-simpletask-list-api
+- collection_type: open
+  name: APISec Management account installer/simpletask/{simple_task_id}/action API
+  slug: open-chaitin-installer-simpletask-simple-task-id-action-api
+- collection_type: open
+  name: APISec Management account installer/simpletask/{simple_task_id}/action/remove API
+  slug: open-chaitin-installer-simpletask-simple-task-id-action-remove-api
+- collection_type: open
+  name: APISec Management account installer/simpletask/{simple_task_id} API
+  slug: open-chaitin-installer-simpletask-simple-task-id-api
+- collection_type: open
+  name: APISec Management account installer/simpletask/{simple_task_id}/detail API
+  slug: open-chaitin-installer-simpletask-simple-task-id-detail-api
+- collection_type: open
+  name: APISec Management account installer/statistic API
+  slug: open-chaitin-installer-statistic-api
+- collection_type: open
+  name: APISec Management account installer/task API
+  slug: open-chaitin-installer-task-api
+- collection_type: open
+  name: APISec Management account installer/task/{install_task_id}/action API
+  slug: open-chaitin-installer-task-install-task-id-action-api
+- collection_type: open
+  name: APISec Management account installer/task/{install_task_id} API
+  slug: open-chaitin-installer-task-install-task-id-api
+- collection_type: open
+  name: APISec Management account installer/task/{install_task_id}/detail API
+  slug: open-chaitin-installer-task-install-task-id-detail-api
+- collection_type: open
+  name: APISec Management account installer/task/list API
+  slug: open-chaitin-installer-task-list-api
+- collection_type: open
+  name: APISec Management account installer/taskstep API
+  slug: open-chaitin-installer-taskstep-api
+- collection_type: open
+  name: APISec Management account installer/taskstep/{step_id}/action API
+  slug: open-chaitin-installer-taskstep-step-id-action-api
+- collection_type: open
+  name: APISec Management account installer/taskstep/{step_id}/action/remove API
+  slug: open-chaitin-installer-taskstep-step-id-action-remove-api
+- collection_type: open
+  name: APISec Management account installer/taskstep/{step_id} API
+  slug: open-chaitin-installer-taskstep-step-id-api
+- collection_type: open
+  name: APISec Management account installer/taskstep/{step_id}/detail API
+  slug: open-chaitin-installer-taskstep-step-id-detail-api
+- collection_type: open
+  name: APISec Management account installer/tast_template/retrieve API
+  slug: open-chaitin-installer-tast-template-retrieve-api
+- collection_type: open
+  name: APISec Management account installer/tast_template/update API
+  slug: open-chaitin-installer-tast-template-update-api
+- collection_type: open
+  name: APISec Management account installer/version/device/distribution API
+  slug: open-chaitin-installer-version-device-distribution-api
+- collection_type: open
+  name: APISec Management account installer/version/device/list API
+  slug: open-chaitin-installer-version-device-list-api
+- collection_type: open
+  name: APISec Management account intranet API
+  slug: open-chaitin-intranet-api
+- collection_type: open
+  name: APISec Management account 资产/IP地址 API
+  slug: open-chaitin-ip-api
+- collection_type: open
+  name: APISec Management account ipgroup API
+  slug: open-chaitin-ipgroup-api
+- collection_type: open
+  name: APISec Management account label API
+  slug: open-chaitin-label-api
+- collection_type: open
+  name: APISec Management account learning API
+  slug: open-chaitin-learning-api
+- collection_type: open
+  name: APISec Management account List API
+  slug: open-chaitin-list-api
+- collection_type: open
+  name: APISec Management account log/attack API
+  slug: open-chaitin-log-attack-api
+- collection_type: open
+  name: APISec Management account log/audit API
+  slug: open-chaitin-log-audit-api
+- collection_type: open
+  name: APISec Management account log/rule API
+  slug: open-chaitin-log-rule-api
+- collection_type: open
+  name: APISec Management account machinelearning API
+  slug: open-chaitin-machinelearning-api
+- collection_type: open
+  name: APISec Management account machinelearning/list API
+  slug: open-chaitin-machinelearning-list-api
+- collection_type: open
+  name: APISec Management account machinelearning/{machine_id}/detail API
+  slug: open-chaitin-machinelearning-machine-id-detail-api
+- collection_type: open
+  name: APISec Management account machinelearning/{ml_id}/action/perform API
+  slug: open-chaitin-machinelearning-ml-id-action-perform-api
+- collection_type: open
+  name: APISec Management account merge_api API
+  slug: open-chaitin-merge-api-api
+- collection_type: open
+  name: APISec Management account module API
+  slug: open-chaitin-module-api
+- collection_type: open
+  name: APISec Management account notificationbot API
+  slug: open-chaitin-notificationbot-api
+- collection_type: open
+  name: APISec Management account notificationbot/{bot}/test API
+  slug: open-chaitin-notificationbot-bot-test-api
+- collection_type: open
+  name: APISec Management account options API
+  slug: open-chaitin-options-api
+- collection_type: open
+  name: APISec Management account plugin API
+  slug: open-chaitin-plugin-api
+- collection_type: open
+  name: APISec Management account policy API
+  slug: open-chaitin-policy-api
+- collection_type: open
+  name: APISec Management account policy/browserplugin/whitelist API
+  slug: open-chaitin-policy-browserplugin-whitelist-api
+- collection_type: open
+  name: APISec Management account policy/channel API
+  slug: open-chaitin-policy-channel-api
+- collection_type: open
+  name: APISec Management account policy/channel/entitywhitelist/list API
+  slug: open-chaitin-policy-channel-entitywhitelist-list-api
+- collection_type: open
+  name: APISec Management account policy/channel/{policy_id} API
+  slug: open-chaitin-policy-channel-policy-id-api
+- collection_type: open
+  name: APISec Management account policy/channel/{policy_id}/detail API
+  slug: open-chaitin-policy-channel-policy-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/clipboard API
+  slug: open-chaitin-policy-clipboard-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/configwhitelist/{config_id}/detail API
+  slug: open-chaitin-policy-codecontrol-configwhitelist-config-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/configwhitelist/{config_id}/update API
+  slug: open-chaitin-policy-codecontrol-configwhitelist-config-id-update-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/configwhitelist/create API
+  slug: open-chaitin-policy-codecontrol-configwhitelist-create-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/configwhitelist/delete API
+  slug: open-chaitin-policy-codecontrol-configwhitelist-delete-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/configwhitelist/list API
+  slug: open-chaitin-policy-codecontrol-configwhitelist-list-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/configwhitelist/synccodecontrolconfig API
+  slug: open-chaitin-policy-codecontrol-configwhitelist-synccodecontrolconfig-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/controlwhitelist/batchremove API
+  slug: open-chaitin-policy-codecontrol-controlwhitelist-batchremove-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/controlwhitelist/{control_id}/detail API
+  slug: open-chaitin-policy-codecontrol-controlwhitelist-control-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/controlwhitelist/{control_id}/update API
+  slug: open-chaitin-policy-codecontrol-controlwhitelist-control-id-update-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/controlwhitelist/create API
+  slug: open-chaitin-policy-codecontrol-controlwhitelist-create-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/controlwhitelist/list API
+  slug: open-chaitin-policy-codecontrol-controlwhitelist-list-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/create API
+  slug: open-chaitin-policy-codecontrol-create-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/entitywhitelist/batchremove API
+  slug: open-chaitin-policy-codecontrol-entitywhitelist-batchremove-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/entitywhitelist/list API
+  slug: open-chaitin-policy-codecontrol-entitywhitelist-list-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/list API
+  slug: open-chaitin-policy-codecontrol-list-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/{policy_id}/action API
+  slug: open-chaitin-policy-codecontrol-policy-id-action-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/{policy_id}/detail API
+  slug: open-chaitin-policy-codecontrol-policy-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/{policy_id}/remove API
+  slug: open-chaitin-policy-codecontrol-policy-id-remove-api
+- collection_type: open
+  name: APISec Management account policy/codecontrol/{policy_id}/update API
+  slug: open-chaitin-policy-codecontrol-policy-id-update-api
+- collection_type: open
+  name: APISec Management account policy/email API
+  slug: open-chaitin-policy-email-api
+- collection_type: open
+  name: APISec Management account policy/email/entitywhitelist/action/bulkdestroy API
+  slug: open-chaitin-policy-email-entitywhitelist-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account policy/email/entitywhitelist API
+  slug: open-chaitin-policy-email-entitywhitelist-api
+- collection_type: open
+  name: APISec Management account policy/email/entitywhitelist/list API
+  slug: open-chaitin-policy-email-entitywhitelist-list-api
+- collection_type: open
+  name: APISec Management account policy/email/list API
+  slug: open-chaitin-policy-email-list-api
+- collection_type: open
+  name: APISec Management account policy/email/{uid}/action API
+  slug: open-chaitin-policy-email-uid-action-api
+- collection_type: open
+  name: APISec Management account policy/email/{uid}/action/remove API
+  slug: open-chaitin-policy-email-uid-action-remove-api
+- collection_type: open
+  name: APISec Management account policy/email/{uid} API
+  slug: open-chaitin-policy-email-uid-api
+- collection_type: open
+  name: APISec Management account policy/email/{uid}/detail API
+  slug: open-chaitin-policy-email-uid-detail-api
+- collection_type: open
+  name: APISec Management account policy/externaldevice/dbc780f7-4099-48e2-8db4-5fe000c2022a API
+  slug: open-chaitin-policy-externaldevice-dbc780f7-4099-48e2-8db4-5fe000c2022a-api
+- collection_type: open
+  name: APISec Management account policy/externaldevice/entitywhitelist/list API
+  slug: open-chaitin-policy-externaldevice-entitywhitelist-list-api
+- collection_type: open
+  name: APISec Management account policy/externaldevice/list API
+  slug: open-chaitin-policy-externaldevice-list-api
+- collection_type: open
+  name: APISec Management account policy/landing API
+  slug: open-chaitin-policy-landing-api
+- collection_type: open
+  name: APISec Management account policy/landing/entitywhitelist/action/bulkdestroy API
+  slug: open-chaitin-policy-landing-entitywhitelist-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account policy/landing/entitywhitelist API
+  slug: open-chaitin-policy-landing-entitywhitelist-api
+- collection_type: open
+  name: APISec Management account policy/landing/entitywhitelist/list API
+  slug: open-chaitin-policy-landing-entitywhitelist-list-api
+- collection_type: open
+  name: APISec Management account policy/landing/list API
+  slug: open-chaitin-policy-landing-list-api
+- collection_type: open
+  name: APISec Management account policy/landing/{uid}/action API
+  slug: open-chaitin-policy-landing-uid-action-api
+- collection_type: open
+  name: APISec Management account policy/landing/{uid}/action/remove API
+  slug: open-chaitin-policy-landing-uid-action-remove-api
+- collection_type: open
+  name: APISec Management account policy/landing/{uid} API
+  slug: open-chaitin-policy-landing-uid-api
+- collection_type: open
+  name: APISec Management account policy/landing/{uid}/detail API
+  slug: open-chaitin-policy-landing-uid-detail-api
+- collection_type: open
+  name: APISec Management account policy/list API
+  slug: open-chaitin-policy-list-api
+- collection_type: open
+  name: APISec Management account policy/network API
+  slug: open-chaitin-policy-network-api
+- collection_type: open
+  name: APISec Management account policy/phishing_protection/create API
+  slug: open-chaitin-policy-phishing-protection-create-api
+- collection_type: open
+  name: APISec Management account policy/phishing_protection/list API
+  slug: open-chaitin-policy-phishing-protection-list-api
+- collection_type: open
+  name: APISec Management account policy/phishing_protection/{policy_id}/action API
+  slug: open-chaitin-policy-phishing-protection-policy-id-action-api
+- collection_type: open
+  name: APISec Management account policy/phishing_protection/{policy_id}/detail API
+  slug: open-chaitin-policy-phishing-protection-policy-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/phishing_protection/{policy_id}/remove API
+  slug: open-chaitin-policy-phishing-protection-policy-id-remove-api
+- collection_type: open
+  name: APISec Management account policy/phishing_protection/{policy_id}/update API
+  slug: open-chaitin-policy-phishing-protection-policy-id-update-api
+- collection_type: open
+  name: APISec Management account policy/phishing_protection/template/depend API
+  slug: open-chaitin-policy-phishing-protection-template-depend-api
+- collection_type: open
+  name: APISec Management account policy/privacy_protection/create API
+  slug: open-chaitin-policy-privacy-protection-create-api
+- collection_type: open
+  name: APISec Management account policy/privacy_protection/list API
+  slug: open-chaitin-policy-privacy-protection-list-api
+- collection_type: open
+  name: APISec Management account policy/privacy_protection/{policy_id}/action API
+  slug: open-chaitin-policy-privacy-protection-policy-id-action-api
+- collection_type: open
+  name: APISec Management account policy/privacy_protection/{policy_id}/detail API
+  slug: open-chaitin-policy-privacy-protection-policy-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/privacy_protection/{policy_id}/remove API
+  slug: open-chaitin-policy-privacy-protection-policy-id-remove-api
+- collection_type: open
+  name: APISec Management account policy/privacy_protection/{policy_id}/update API
+  slug: open-chaitin-policy-privacy-protection-policy-id-update-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/comment/{comment_id}/remove API
+  slug: open-chaitin-policy-realtime-monitor-comment-comment-id-remove-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/comment/create API
+  slug: open-chaitin-policy-realtime-monitor-comment-create-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/comment/list API
+  slug: open-chaitin-policy-realtime-monitor-comment-list-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/create API
+  slug: open-chaitin-policy-realtime-monitor-create-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/list API
+  slug: open-chaitin-policy-realtime-monitor-list-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/{policy_id}/action API
+  slug: open-chaitin-policy-realtime-monitor-policy-id-action-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/{policy_id}/detail API
+  slug: open-chaitin-policy-realtime-monitor-policy-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/{policy_id}/remove API
+  slug: open-chaitin-policy-realtime-monitor-policy-id-remove-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/record/action/getscreenshotmetadata API
+  slug: open-chaitin-policy-realtime-monitor-record-action-getscreenshotmetadata-api
+- collection_type: open
+  name: APISec Management account policy/realtime_monitor/record/list API
+  slug: open-chaitin-policy-realtime-monitor-record-list-api
+- collection_type: open
+  name: APISec Management account policy/remote_control/list API
+  slug: open-chaitin-policy-remote-control-list-api
+- collection_type: open
+  name: APISec Management account policy/remote_control/{policy_id} API
+  slug: open-chaitin-policy-remote-control-policy-id-api
+- collection_type: open
+  name: APISec Management account policy/remote_control/{policy_id}/detail API
+  slug: open-chaitin-policy-remote-control-policy-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/soft_network API
+  slug: open-chaitin-policy-soft-network-api
+- collection_type: open
+  name: APISec Management account policy/soft_network/list API
+  slug: open-chaitin-policy-soft-network-list-api
+- collection_type: open
+  name: APISec Management account policy/soft_network/{policy_id}/action API
+  slug: open-chaitin-policy-soft-network-policy-id-action-api
+- collection_type: open
+  name: APISec Management account policy/soft_network/{policy_id}/action/remove API
+  slug: open-chaitin-policy-soft-network-policy-id-action-remove-api
+- collection_type: open
+  name: APISec Management account policy/soft_network/{policy_id} API
+  slug: open-chaitin-policy-soft-network-policy-id-api
+- collection_type: open
+  name: APISec Management account policy/software/processwhitelist API
+  slug: open-chaitin-policy-software-processwhitelist-api
+- collection_type: open
+  name: APISec Management account policy/ted API
+  slug: open-chaitin-policy-ted-api
+- collection_type: open
+  name: APISec Management account policy/ted/entitywhitelist API
+  slug: open-chaitin-policy-ted-entitywhitelist-api
+- collection_type: open
+  name: APISec Management account policy/ted/entitywhitelist/batchremove API
+  slug: open-chaitin-policy-ted-entitywhitelist-batchremove-api
+- collection_type: open
+  name: APISec Management account policy/ted/entitywhitelist/list API
+  slug: open-chaitin-policy-ted-entitywhitelist-list-api
+- collection_type: open
+  name: APISec Management account policy/ted/list API
+  slug: open-chaitin-policy-ted-list-api
+- collection_type: open
+  name: APISec Management account policy/ted/{uid}/action API
+  slug: open-chaitin-policy-ted-uid-action-api
+- collection_type: open
+  name: APISec Management account policy/ted/{uid}/action/remove API
+  slug: open-chaitin-policy-ted-uid-action-remove-api
+- collection_type: open
+  name: APISec Management account policy/ted/{uid} API
+  slug: open-chaitin-policy-ted-uid-api
+- collection_type: open
+  name: APISec Management account policy/ted/{uid}/detail API
+  slug: open-chaitin-policy-ted-uid-detail-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/create API
+  slug: open-chaitin-policy-webpost-control-create-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/entitywhitelist/action/bulkdestroy API
+  slug: open-chaitin-policy-webpost-control-entitywhitelist-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/entitywhitelist/create API
+  slug: open-chaitin-policy-webpost-control-entitywhitelist-create-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/entitywhitelist/list API
+  slug: open-chaitin-policy-webpost-control-entitywhitelist-list-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/list API
+  slug: open-chaitin-policy-webpost-control-list-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/{policy_id}/action API
+  slug: open-chaitin-policy-webpost-control-policy-id-action-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/{policy_id}/detail API
+  slug: open-chaitin-policy-webpost-control-policy-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/{policy_id}/remove API
+  slug: open-chaitin-policy-webpost-control-policy-id-remove-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/{policy_id}/update API
+  slug: open-chaitin-policy-webpost-control-policy-id-update-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/whitelist/action/bulkdestroy API
+  slug: open-chaitin-policy-webpost-control-whitelist-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/whitelist/{config_id}/detail API
+  slug: open-chaitin-policy-webpost-control-whitelist-config-id-detail-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/whitelist/{config_id}/update API
+  slug: open-chaitin-policy-webpost-control-whitelist-config-id-update-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/whitelist/create API
+  slug: open-chaitin-policy-webpost-control-whitelist-create-api
+- collection_type: open
+  name: APISec Management account policy/webpost_control/whitelist/list API
+  slug: open-chaitin-policy-webpost-control-whitelist-list-api
+- collection_type: open
+  name: APISec Management account policylog/aicls/action/getfieldmetadata API
+  slug: open-chaitin-policylog-aicls-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/aicls/action/getfieldvalues API
+  slug: open-chaitin-policylog-aicls-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account policylog/browserplugin/action/batchupdatestatus API
+  slug: open-chaitin-policylog-browserplugin-action-batchupdatestatus-api
+- collection_type: open
+  name: APISec Management account policylog/browserplugin/action/bulkdestroy API
+  slug: open-chaitin-policylog-browserplugin-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account policylog/browserplugin/action/getfieldmetadata API
+  slug: open-chaitin-policylog-browserplugin-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/browserplugin/action/getfieldvalues API
+  slug: open-chaitin-policylog-browserplugin-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account policylog/browserplugin/download API
+  slug: open-chaitin-policylog-browserplugin-download-api
+- collection_type: open
+  name: APISec Management account policylog/browserplugin/list API
+  slug: open-chaitin-policylog-browserplugin-list-api
+- collection_type: open
+  name: APISec Management account policylog/browserplugin/{log_id}/detail API
+  slug: open-chaitin-policylog-browserplugin-log-id-detail-api
+- collection_type: open
+  name: APISec Management account policylog/browserplugin/statsbystatus API
+  slug: open-chaitin-policylog-browserplugin-statsbystatus-api
+- collection_type: open
+  name: APISec Management account policylog/channel/action/getfieldmetadata API
+  slug: open-chaitin-policylog-channel-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/channel/action/getfieldvalues API
+  slug: open-chaitin-policylog-channel-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account policylog/channel/download API
+  slug: open-chaitin-policylog-channel-download-api
+- collection_type: open
+  name: APISec Management account policylog/channel/{event_id}/fileflow API
+  slug: open-chaitin-policylog-channel-event-id-fileflow-api
+- collection_type: open
+  name: APISec Management account policylog/channel/{event_id}/innerfileflow API
+  slug: open-chaitin-policylog-channel-event-id-innerfileflow-api
+- collection_type: open
+  name: APISec Management account policylog/channel/list API
+  slug: open-chaitin-policylog-channel-list-api
+- collection_type: open
+  name: APISec Management account policylog/channel/{policylog_id}/detail API
+  slug: open-chaitin-policylog-channel-policylog-id-detail-api
+- collection_type: open
+  name: APISec Management account policylog/channel/stafflist API
+  slug: open-chaitin-policylog-channel-stafflist-api
+- collection_type: open
+  name: APISec Management account policylog/channel/statsbystatus API
+  slug: open-chaitin-policylog-channel-statsbystatus-api
+- collection_type: open
+  name: APISec Management account policylog/channel/timelinelist API
+  slug: open-chaitin-policylog-channel-timelinelist-api
+- collection_type: open
+  name: APISec Management account policylog/clipboard/action/getfieldmetadata API
+  slug: open-chaitin-policylog-clipboard-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/clipboard/list API
+  slug: open-chaitin-policylog-clipboard-list-api
+- collection_type: open
+  name: APISec Management account policylog/clipboard/stafflist API
+  slug: open-chaitin-policylog-clipboard-stafflist-api
+- collection_type: open
+  name: APISec Management account policylog/clipboard/timelinelist API
+  slug: open-chaitin-policylog-clipboard-timelinelist-api
+- collection_type: open
+  name: APISec Management account policylog/code/action/getfieldmetadata API
+  slug: open-chaitin-policylog-code-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/code/download API
+  slug: open-chaitin-policylog-code-download-api
+- collection_type: open
+  name: APISec Management account policylog/code/stafflist API
+  slug: open-chaitin-policylog-code-stafflist-api
+- collection_type: open
+  name: APISec Management account policylog/code/timelinelist API
+  slug: open-chaitin-policylog-code-timelinelist-api
+- collection_type: open
+  name: APISec Management account policylog/compliance/action/getfieldmetadata API
+  slug: open-chaitin-policylog-compliance-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/compliance/action/getfieldvalues API
+  slug: open-chaitin-policylog-compliance-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account policylog/compliance/list API
+  slug: open-chaitin-policylog-compliance-list-api
+- collection_type: open
+  name: APISec Management account policylog/email/action/getfieldmetadata API
+  slug: open-chaitin-policylog-email-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/email/stafflist API
+  slug: open-chaitin-policylog-email-stafflist-api
+- collection_type: open
+  name: APISec Management account policylog/email/timelinelist API
+  slug: open-chaitin-policylog-email-timelinelist-api
+- collection_type: open
+  name: APISec Management account policylog/externaldevice/action/getfieldmetadata API
+  slug: open-chaitin-policylog-externaldevice-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/externaldevice/list API
+  slug: open-chaitin-policylog-externaldevice-list-api
+- collection_type: open
+  name: APISec Management account policylog/im/action/getfieldmetadata API
+  slug: open-chaitin-policylog-im-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/im/list API
+  slug: open-chaitin-policylog-im-list-api
+- collection_type: open
+  name: APISec Management account policylog/im/stafflist API
+  slug: open-chaitin-policylog-im-stafflist-api
+- collection_type: open
+  name: APISec Management account policylog/im/timelinelist API
+  slug: open-chaitin-policylog-im-timelinelist-api
+- collection_type: open
+  name: APISec Management account policylog/landing/{log_id}/innerfileflow API
+  slug: open-chaitin-policylog-landing-log-id-innerfileflow-api
+- collection_type: open
+  name: APISec Management account policylog/log_file_similarity/download API
+  slug: open-chaitin-policylog-log-file-similarity-download-api
+- collection_type: open
+  name: APISec Management account policylog/log_file_similarity/list API
+  slug: open-chaitin-policylog-log-file-similarity-list-api
+- collection_type: open
+  name: APISec Management account policylog/log_file_similarity/simhash API
+  slug: open-chaitin-policylog-log-file-similarity-simhash-api
+- collection_type: open
+  name: APISec Management account policylog/network/action/getfieldmetadata API
+  slug: open-chaitin-policylog-network-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/network/download API
+  slug: open-chaitin-policylog-network-download-api
+- collection_type: open
+  name: APISec Management account policylog/software/action/getfieldmetadata API
+  slug: open-chaitin-policylog-software-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/software/list API
+  slug: open-chaitin-policylog-software-list-api
+- collection_type: open
+  name: APISec Management account policylog/softwarenetwork/action/getfieldmetadata API
+  slug: open-chaitin-policylog-softwarenetwork-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account policylog/softwarenetwork/download API
+  slug: open-chaitin-policylog-softwarenetwork-download-api
+- collection_type: open
+  name: APISec Management account policylog/softwarenetwork/list API
+  slug: open-chaitin-policylog-softwarenetwork-list-api
+- collection_type: open
+  name: APISec Management account policylog/ted/action/getfieldmetadata API
+  slug: open-chaitin-policylog-ted-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account report API
+  slug: open-chaitin-report-api
+- collection_type: open
+  name: APISec Management account report/dashboard/builtinchart/create API
+  slug: open-chaitin-report-dashboard-builtinchart-create-api
+- collection_type: open
+  name: APISec Management account report/dashboard/builtinchart/list API
+  slug: open-chaitin-report-dashboard-builtinchart-list-api
+- collection_type: open
+  name: APISec Management account report/dashboard/chart/{chart_id}/details API
+  slug: open-chaitin-report-dashboard-chart-chart-id-details-api
+- collection_type: open
+  name: APISec Management account report/dashboard/chart/{chart_id}/update API
+  slug: open-chaitin-report-dashboard-chart-chart-id-update-api
+- collection_type: open
+  name: APISec Management account report/dashboard/chart/<>/copy API
+  slug: open-chaitin-report-dashboard-chart-copy-api
+- collection_type: open
+  name: APISec Management account report/dashboard/chart/create API
+  slug: open-chaitin-report-dashboard-chart-create-api
+- collection_type: open
+  name: APISec Management account report/dashboard/chart/<>/delete API
+  slug: open-chaitin-report-dashboard-chart-delete-api
+- collection_type: open
+  name: APISec Management account report/dashboard/chart/query API
+  slug: open-chaitin-report-dashboard-chart-query-api
+- collection_type: open
+  name: APISec Management account report/dashboard/chart/select/datasource/list API
+  slug: open-chaitin-report-dashboard-chart-select-datasource-list-api
+- collection_type: open
+  name: APISec Management account report/dashboard/<>/copy API
+  slug: open-chaitin-report-dashboard-copy-api
+- collection_type: open
+  name: APISec Management account report/dashboard/create API
+  slug: open-chaitin-report-dashboard-create-api
+- collection_type: open
+  name: APISec Management account report/dashboard/{dashboard_id}/delete API
+  slug: open-chaitin-report-dashboard-dashboard-id-delete-api
+- collection_type: open
+  name: APISec Management account report/dashboard/{dashboard_id}/details API
+  slug: open-chaitin-report-dashboard-dashboard-id-details-api
+- collection_type: open
+  name: APISec Management account report/dashboard/getfieldmetadata API
+  slug: open-chaitin-report-dashboard-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account report/dashboard/getfieldvalues API
+  slug: open-chaitin-report-dashboard-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account report/dashboard/list API
+  slug: open-chaitin-report-dashboard-list-api
+- collection_type: open
+  name: APISec Management account report/dashboard/<>/screenshot API
+  slug: open-chaitin-report-dashboard-screenshot-api
+- collection_type: open
+  name: APISec Management account report/dashboard/select/list API
+  slug: open-chaitin-report-dashboard-select-list-api
+- collection_type: open
+  name: APISec Management account report/dashboard/<>/update API
+  slug: open-chaitin-report-dashboard-update-api
+- collection_type: open
+  name: APISec Management account report/task/list API
+  slug: open-chaitin-report-task-list-api
+- collection_type: open
+  name: APISec Management account report/task/{task_id} API
+  slug: open-chaitin-report-task-task-id-api
+- collection_type: open
+  name: APISec Management account report/task/{task_id}/detail API
+  slug: open-chaitin-report-task-task-id-detail-api
+- collection_type: open
+  name: APISec Management account report/taskinstance/list API
+  slug: open-chaitin-report-taskinstance-list-api
+- collection_type: open
+  name: APISec Management account risk API
+  slug: open-chaitin-risk-api
+- collection_type: open
+  name: APISec Management account riskwarning/action/getscreenshotmetadata API
+  slug: open-chaitin-riskwarning-action-getscreenshotmetadata-api
+- collection_type: open
+  name: APISec Management account riskwarning/action/screendownload API
+  slug: open-chaitin-riskwarning-action-screendownload-api
+- collection_type: open
+  name: APISec Management account rule API
+  slug: open-chaitin-rule-api
+- collection_type: open
+  name: APISec Management account sensitive_data API
+  slug: open-chaitin-sensitive-data-api
+- collection_type: open
+  name: APISec Management account site API
+  slug: open-chaitin-site-api
+- collection_type: open
+  name: APISec Management account skynet API
+  slug: open-chaitin-skynet-api
+- collection_type: open
+  name: APISec Management account skynet/switch API
+  slug: open-chaitin-skynet-switch-api
+- collection_type: open
+  name: APISec Management account software/distribution/{software_id}/instance API
+  slug: open-chaitin-software-distribution-software-id-instance-api
+- collection_type: open
+  name: APISec Management account software/uninstall/instance API
+  slug: open-chaitin-software-uninstall-instance-api
+- collection_type: open
+  name: APISec Management account software/uninstall/instance/{instance_id}/action/remove API
+  slug: open-chaitin-software-uninstall-instance-instance-id-action-remove-api
+- collection_type: open
+  name: APISec Management account software/uninstall/instance/{instance_id}/detail API
+  slug: open-chaitin-software-uninstall-instance-instance-id-detail-api
+- collection_type: open
+  name: APISec Management account software/uninstall/instance/{instance_id}/device/{device_id}/uninstallsource/list API
+  slug: open-chaitin-software-uninstall-instance-instance-id-device-device-id-uninstallsource-list-api
+- collection_type: open
+  name: APISec Management account software/uninstall/instance/{instance_id}/device/list API
+  slug: open-chaitin-software-uninstall-instance-instance-id-device-list-api
+- collection_type: open
+  name: APISec Management account software/uninstall/instance/list API
+  slug: open-chaitin-software-uninstall-instance-list-api
+- collection_type: open
+  name: APISec Management account softwaremanager/action/bulkdestroy API
+  slug: open-chaitin-softwaremanager-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account softwaremanager/action/getfieldmetadata API
+  slug: open-chaitin-softwaremanager-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account softwaremanager/cnt API
+  slug: open-chaitin-softwaremanager-cnt-api
+- collection_type: open
+  name: APISec Management account softwaremanager/download API
+  slug: open-chaitin-softwaremanager-download-api
+- collection_type: open
+  name: APISec Management account softwaremanager/internalsource/list API
+  slug: open-chaitin-softwaremanager-internalsource-list-api
+- collection_type: open
+  name: APISec Management account softwaremanager/internalsource/softwaretypecount API
+  slug: open-chaitin-softwaremanager-internalsource-softwaretypecount-api
+- collection_type: open
+  name: APISec Management account softwaremanager/list API
+  slug: open-chaitin-softwaremanager-list-api
+- collection_type: open
+  name: APISec Management account softwaremanager/{software_hash}/detail API
+  slug: open-chaitin-softwaremanager-software-hash-detail-api
+- collection_type: open
+  name: APISec Management account softwaremanager/{software_hash}/list API
+  slug: open-chaitin-softwaremanager-software-hash-list-api
+- collection_type: open
+  name: APISec Management account softwaremanager/source/list API
+  slug: open-chaitin-softwaremanager-source-list-api
+- collection_type: open
+  name: APISec Management account softwaremanager/source/softwaretypecount API
+  slug: open-chaitin-softwaremanager-source-softwaretypecount-api
+- collection_type: open
+  name: APISec Management account softwaremanager/uninstallsource/list API
+  slug: open-chaitin-softwaremanager-uninstallsource-list-api
+- collection_type: open
+  name: APISec Management account split_api API
+  slug: open-chaitin-split-api-api
+- collection_type: open
+  name: APISec Management account stat API
+  slug: open-chaitin-stat-api
+- collection_type: open
+  name: APISec Management account stat/trend API
+  slug: open-chaitin-stat-trend-api
+- collection_type: open
+  name: APISec Management account statistic/device/devicecputotalbytime API
+  slug: open-chaitin-statistic-device-devicecputotalbytime-api
+- collection_type: open
+  name: APISec Management account statistic/device/devicememtotalbytime API
+  slug: open-chaitin-statistic-device-devicememtotalbytime-api
+- collection_type: open
+  name: APISec Management account statistic/{device_id}/disk API
+  slug: open-chaitin-statistic-device-id-disk-api
+- collection_type: open
+  name: APISec Management account statistic/device_info_summary API
+  slug: open-chaitin-statistic-device-info-summary-api
+- collection_type: open
+  name: APISec Management account statistic/filescan API
+  slug: open-chaitin-statistic-filescan-api
+- collection_type: open
+  name: APISec Management account statistic/filescan/flush API
+  slug: open-chaitin-statistic-filescan-flush-api
+- collection_type: open
+  name: APISec Management account statistic/monitoring/daily/cpu_usage API
+  slug: open-chaitin-statistic-monitoring-daily-cpu-usage-api
+- collection_type: open
+  name: APISec Management account statistic/monitoring/daily/gpu_mem_usage API
+  slug: open-chaitin-statistic-monitoring-daily-gpu-mem-usage-api
+- collection_type: open
+  name: APISec Management account statistic/monitoring/daily/gpu_usage API
+  slug: open-chaitin-statistic-monitoring-daily-gpu-usage-api
+- collection_type: open
+  name: APISec Management account statistic/network/access API
+  slug: open-chaitin-statistic-network-access-api
+- collection_type: open
+  name: APISec Management account statistic/riskwarning/risklevelbytime API
+  slug: open-chaitin-statistic-riskwarning-risklevelbytime-api
+- collection_type: open
+  name: APISec Management account statistic/userbehavior/outgoingfilebytime API
+  slug: open-chaitin-statistic-userbehavior-outgoingfilebytime-api
+- collection_type: open
+  name: APISec Management account Syslog 管理与系统日志 API
+  slug: open-chaitin-syslog-api
+- collection_type: open
+  name: APISec Management account system/accesscontrol/access_control_mgr/modify API
+  slug: open-chaitin-system-accesscontrol-access-control-mgr-modify-api
+- collection_type: open
+  name: APISec Management account system/accesscontrol/access_control_mgr/retrieve API
+  slug: open-chaitin-system-accesscontrol-access-control-mgr-retrieve-api
+- collection_type: open
+  name: APISec Management account system/accesscontrol/feishu/modify API
+  slug: open-chaitin-system-accesscontrol-feishu-modify-api
+- collection_type: open
+  name: APISec Management account system/accesscontrol/feishu/retrieve API
+  slug: open-chaitin-system-accesscontrol-feishu-retrieve-api
+- collection_type: open
+  name: APISec Management account system/accesscontrol/portalpageconfig/modify API
+  slug: open-chaitin-system-accesscontrol-portalpageconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/accesscontrol/portalpageconfig/retrieve API
+  slug: open-chaitin-system-accesscontrol-portalpageconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/accesscontrol/realtimepolicy/modify API
+  slug: open-chaitin-system-accesscontrol-realtimepolicy-modify-api
+- collection_type: open
+  name: APISec Management account system/accesscontrol/realtimepolicy/retrieve API
+  slug: open-chaitin-system-accesscontrol-realtimepolicy-retrieve-api
+- collection_type: open
+  name: APISec Management account system/accesscontrolconfig/modify API
+  slug: open-chaitin-system-accesscontrolconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/accesscontrolconfig/retrieve API
+  slug: open-chaitin-system-accesscontrolconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/avscan/modify API
+  slug: open-chaitin-system-avscan-modify-api
+- collection_type: open
+  name: APISec Management account system/bindingconfig/retrieve API
+  slug: open-chaitin-system-bindingconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/browserplugin/upload API
+  slug: open-chaitin-system-browserplugin-upload-api
+- collection_type: open
+  name: APISec Management account system/channeldef/{channel_id}/detail API
+  slug: open-chaitin-system-channeldef-channel-id-detail-api
+- collection_type: open
+  name: APISec Management account system/channeldef/{channel_id}/modify API
+  slug: open-chaitin-system-channeldef-channel-id-modify-api
+- collection_type: open
+  name: APISec Management account system/channeldef/{channel_id}/remove API
+  slug: open-chaitin-system-channeldef-channel-id-remove-api
+- collection_type: open
+  name: APISec Management account system/channeldef/uploadtask/create API
+  slug: open-chaitin-system-channeldef-uploadtask-create-api
+- collection_type: open
+  name: APISec Management account system/channeldef/uploadtask/list API
+  slug: open-chaitin-system-channeldef-uploadtask-list-api
+- collection_type: open
+  name: APISec Management account system/channeldef/uploadtask/{task_id}/detail API
+  slug: open-chaitin-system-channeldef-uploadtask-task-id-detail-api
+- collection_type: open
+  name: APISec Management account system/channeldef/uploadtask/{task_id}/start API
+  slug: open-chaitin-system-channeldef-uploadtask-task-id-start-api
+- collection_type: open
+  name: APISec Management account system/channeldef/uploadtask/{task_id}/status API
+  slug: open-chaitin-system-channeldef-uploadtask-task-id-status-api
+- collection_type: open
+  name: APISec Management account system/channeldefgroup/action/getsnapshotinfo API
+  slug: open-chaitin-system-channeldefgroup-action-getsnapshotinfo-api
+- collection_type: open
+  name: APISec Management account system/channeldefgroup API
+  slug: open-chaitin-system-channeldefgroup-api
+- collection_type: open
+  name: APISec Management account system/channeldefgroup/email/list API
+  slug: open-chaitin-system-channeldefgroup-email-list-api
+- collection_type: open
+  name: APISec Management account system/channeldefgroup/landing/list API
+  slug: open-chaitin-system-channeldefgroup-landing-list-api
+- collection_type: open
+  name: APISec Management account system/channeldefgroup/list API
+  slug: open-chaitin-system-channeldefgroup-list-api
+- collection_type: open
+  name: APISec Management account system/clientconfig/import API
+  slug: open-chaitin-system-clientconfig-import-api
+- collection_type: open
+  name: APISec Management account system/commonstatusdeviceconfig/modify API
+  slug: open-chaitin-system-commonstatusdeviceconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/commonstatusdeviceconfig/retrieve API
+  slug: open-chaitin-system-commonstatusdeviceconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/customconfig/import API
+  slug: open-chaitin-system-customconfig-import-api
+- collection_type: open
+  name: APISec Management account system/customconfig/reset API
+  slug: open-chaitin-system-customconfig-reset-api
+- collection_type: open
+  name: APISec Management account system/customconfig/retrieve API
+  slug: open-chaitin-system-customconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/filebehaviorconfig/modify API
+  slug: open-chaitin-system-filebehaviorconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/filebehaviorconfig/retrieve API
+  slug: open-chaitin-system-filebehaviorconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/filescanremotestorage API
+  slug: open-chaitin-system-filescanremotestorage-api
+- collection_type: open
+  name: APISec Management account system/filescanremotestorage/bulkdestroy API
+  slug: open-chaitin-system-filescanremotestorage-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account system/filescanremotestorage/list API
+  slug: open-chaitin-system-filescanremotestorage-list-api
+- collection_type: open
+  name: APISec Management account system/filescanremotestorage/{uid} API
+  slug: open-chaitin-system-filescanremotestorage-uid-api
+- collection_type: open
+  name: APISec Management account system/filescanremotestorage/{uid}/detail API
+  slug: open-chaitin-system-filescanremotestorage-uid-detail-api
+- collection_type: open
+  name: APISec Management account system/generalssidconfig/modify API
+  slug: open-chaitin-system-generalssidconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/generalssidconfig/retrieve API
+  slug: open-chaitin-system-generalssidconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/guestportalserverconfig/modify API
+  slug: open-chaitin-system-guestportalserverconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/guestportalserverconfig/password_delivery/test/sms API
+  slug: open-chaitin-system-guestportalserverconfig-password-delivery-test-sms-api
+- collection_type: open
+  name: APISec Management account system/guestportalserverconfig/retrieve API
+  slug: open-chaitin-system-guestportalserverconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/logmirror/create API
+  slug: open-chaitin-system-logmirror-create-api
+- collection_type: open
+  name: APISec Management account system/logmirror/list API
+  slug: open-chaitin-system-logmirror-list-api
+- collection_type: open
+  name: APISec Management account system/logmirror/test API
+  slug: open-chaitin-system-logmirror-test-api
+- collection_type: open
+  name: APISec Management account system/logmirror/update API
+  slug: open-chaitin-system-logmirror-update-api
+- collection_type: open
+  name: APISec Management account system/macosauthconfig/guideinfo/modify API
+  slug: open-chaitin-system-macosauthconfig-guideinfo-modify-api
+- collection_type: open
+  name: APISec Management account system/macosauthconfig/modify API
+  slug: open-chaitin-system-macosauthconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/macosauthconfig/retrieve API
+  slug: open-chaitin-system-macosauthconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/moduleconfig/modify API
+  slug: open-chaitin-system-moduleconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/ocr/modify API
+  slug: open-chaitin-system-ocr-modify-api
+- collection_type: open
+  name: APISec Management account system/ocr/retrieve API
+  slug: open-chaitin-system-ocr-retrieve-api
+- collection_type: open
+  name: APISec Management account system/securityconfig/agenttemporaryexitcode API
+  slug: open-chaitin-system-securityconfig-agenttemporaryexitcode-api
+- collection_type: open
+  name: APISec Management account system/securityconfig/js_sdk_p_key API
+  slug: open-chaitin-system-securityconfig-js-sdk-p-key-api
+- collection_type: open
+  name: APISec Management account system/securityconfig/modify API
+  slug: open-chaitin-system-securityconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/securityconfig/retrieve API
+  slug: open-chaitin-system-securityconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/serverhostconfig/modify API
+  slug: open-chaitin-system-serverhostconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/serverhostconfig/retrieve API
+  slug: open-chaitin-system-serverhostconfig-retrieve-api
+- collection_type: open
+  name: APISec Management account system/storagechannel/modify API
+  slug: open-chaitin-system-storagechannel-modify-api
+- collection_type: open
+  name: APISec Management account system/storagechannel/retrieve API
+  slug: open-chaitin-system-storagechannel-retrieve-api
+- collection_type: open
+  name: APISec Management account system/storagechannel/test API
+  slug: open-chaitin-system-storagechannel-test-api
+- collection_type: open
+  name: APISec Management account system/system/bindingconfig/modify API
+  slug: open-chaitin-system-system-bindingconfig-modify-api
+- collection_type: open
+  name: APISec Management account system/tedbackupconfig API
+  slug: open-chaitin-system-tedbackupconfig-api
+- collection_type: open
+  name: APISec Management account system/tedbackupconfig/bulkdestroy API
+  slug: open-chaitin-system-tedbackupconfig-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account system/tedbackupconfig/{config_id} API
+  slug: open-chaitin-system-tedbackupconfig-config-id-api
+- collection_type: open
+  name: APISec Management account system/tedbackupconfig/{config_id}/detail API
+  slug: open-chaitin-system-tedbackupconfig-config-id-detail-api
+- collection_type: open
+  name: APISec Management account system/tedbackupconfig/list API
+  slug: open-chaitin-system-tedbackupconfig-list-api
+- collection_type: open
+  name: APISec Management account system/tedbackupconfig/lite/modify API
+  slug: open-chaitin-system-tedbackupconfig-lite-modify-api
+- collection_type: open
+  name: APISec Management account system/tedbackupconfig/lite/retrieve API
+  slug: open-chaitin-system-tedbackupconfig-lite-retrieve-api
+- collection_type: open
+  name: APISec Management account system/tedbackupconfig/metadata API
+  slug: open-chaitin-system-tedbackupconfig-metadata-api
+- collection_type: open
+  name: APISec Management account system/tedconfig/sendout/modify API
+  slug: open-chaitin-system-tedconfig-sendout-modify-api
+- collection_type: open
+  name: APISec Management account system/tedconfig/sendout/retrieve API
+  slug: open-chaitin-system-tedconfig-sendout-retrieve-api
+- collection_type: open
+  name: APISec Management account system/tedencryptconfig/37852520-0516-4950-9dc4-80687e979e5d API
+  slug: open-chaitin-system-tedencryptconfig-37852520-0516-4950-9dc4-80687e979e5d-api
+- collection_type: open
+  name: APISec Management account system/tedencryptconfig API
+  slug: open-chaitin-system-tedencryptconfig-api
+- collection_type: open
+  name: APISec Management account system/tedencryptconfig/bulkdestroy API
+  slug: open-chaitin-system-tedencryptconfig-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account system/tedencryptconfig/<config_id:str>/action API
+  slug: open-chaitin-system-tedencryptconfig-config-id-str-action-api
+- collection_type: open
+  name: APISec Management account system/tedencryptconfig/list API
+  slug: open-chaitin-system-tedencryptconfig-list-api
+- collection_type: open
+  name: APISec Management account third_party API
+  slug: open-chaitin-third-party-api
+- collection_type: open
+  name: APISec Management account trigger_rule API
+  slug: open-chaitin-trigger-rule-api
+- collection_type: open
+  name: APISec Management account ueba API
+  slug: open-chaitin-ueba-api
+- collection_type: open
+  name: APISec Management account ueba/index/aggcount API
+  slug: open-chaitin-ueba-index-aggcount-api
+- collection_type: open
+  name: APISec Management account ueba/index/count API
+  slug: open-chaitin-ueba-index-count-api
+- collection_type: open
+  name: APISec Management account ueba/index/rank API
+  slug: open-chaitin-ueba-index-rank-api
+- collection_type: open
+  name: APISec Management account ueba/list API
+  slug: open-chaitin-ueba-list-api
+- collection_type: open
+  name: APISec Management account ueba/log/action/bulkdestroy API
+  slug: open-chaitin-ueba-log-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account ueba/log/action/getfieldmetadata API
+  slug: open-chaitin-ueba-log-action-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account ueba/log/action/getfieldvalues API
+  slug: open-chaitin-ueba-log-action-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account ueba/log/action/{ueba_category}/getfieldvalues API
+  slug: open-chaitin-ueba-log-action-ueba-category-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account ueba/log/{ueba_category}/download API
+  slug: open-chaitin-ueba-log-ueba-category-download-api
+- collection_type: open
+  name: APISec Management account ueba/log/{ueba_category}/list API
+  slug: open-chaitin-ueba-log-ueba-category-list-api
+- collection_type: open
+  name: APISec Management account ueba/staff/getfieldmetadata API
+  slug: open-chaitin-ueba-staff-getfieldmetadata-api
+- collection_type: open
+  name: APISec Management account ueba/staff/getfieldvalues API
+  slug: open-chaitin-ueba-staff-getfieldvalues-api
+- collection_type: open
+  name: APISec Management account ueba/staff/list API
+  slug: open-chaitin-ueba-staff-list-api
+- collection_type: open
+  name: APISec Management account ueba/staff/{staff_id}/calendar API
+  slug: open-chaitin-ueba-staff-staff-id-calendar-api
+- collection_type: open
+  name: APISec Management account ueba/staff/{staff_id}/eventlist API
+  slug: open-chaitin-ueba-staff-staff-id-eventlist-api
+- collection_type: open
+  name: APISec Management account ueba/staff/{staff_id}/radar API
+  slug: open-chaitin-ueba-staff-staff-id-radar-api
+- collection_type: open
+  name: APISec Management account ueba/staff/{staff_id}/score API
+  slug: open-chaitin-ueba-staff-staff-id-score-api
+- collection_type: open
+  name: APISec Management account ueba/test API
+  slug: open-chaitin-ueba-test-api
+- collection_type: open
+  name: APISec Management account ueba/test/{event_id} API
+  slug: open-chaitin-ueba-test-event-id-api
+- collection_type: open
+  name: APISec Management account ueba/{ueba_id}/action/remove API
+  slug: open-chaitin-ueba-ueba-id-action-remove-api
+- collection_type: open
+  name: APISec Management account ueba/{ueba_id} API
+  slug: open-chaitin-ueba-ueba-id-api
+- collection_type: open
+  name: APISec Management account ueba/{ueba_id}/detail API
+  slug: open-chaitin-ueba-ueba-id-detail-api
+- collection_type: open
+  name: APISec Management account update API
+  slug: open-chaitin-update-api
+- collection_type: open
+  name: APISec Management account 任务/任务实例v2 API
+  slug: open-chaitin-v2-api
+- collection_type: open
+  name: APISec Management account vulnerability API
+  slug: open-chaitin-vulnerability-api
+- collection_type: open
+  name: APISec Management account watermarkrule/{wr_id}/detail API
+  slug: open-chaitin-watermarkrule-wr-id-detail-api
+- collection_type: open
+  name: APISec Management account watermarkrule/{wt_id}/detail API
+  slug: open-chaitin-watermarkrule-wt-id-detail-api
+- collection_type: open
+  name: APISec Management account web框架 API
+  slug: open-chaitin-web-api
+- collection_type: open
+  name: APISec Management account website API
+  slug: open-chaitin-website-api
+- collection_type: open
+  name: APISec Management account whitelist/browserplugin/download API
+  slug: open-chaitin-whitelist-browserplugin-download-api
+- collection_type: open
+  name: APISec Management account whitelist/browserplugin/exists API
+  slug: open-chaitin-whitelist-browserplugin-exists-api
+- collection_type: open
+  name: APISec Management account whitelist/browserplugin/import API
+  slug: open-chaitin-whitelist-browserplugin-import-api
+- collection_type: open
+  name: APISec Management account whitelist/browserplugin/template API
+  slug: open-chaitin-whitelist-browserplugin-template-api
+- collection_type: open
+  name: APISec Management account whitelist/directory API
+  slug: open-chaitin-whitelist-directory-api
+- collection_type: open
+  name: APISec Management account whitelist/directory/download API
+  slug: open-chaitin-whitelist-directory-download-api
+- collection_type: open
+  name: APISec Management account whitelist/directory/{dw_id}/action/remove API
+  slug: open-chaitin-whitelist-directory-dw-id-action-remove-api
+- collection_type: open
+  name: APISec Management account whitelist/directory/{dw_id} API
+  slug: open-chaitin-whitelist-directory-dw-id-api
+- collection_type: open
+  name: APISec Management account whitelist/directory/{dw_id}/detail API
+  slug: open-chaitin-whitelist-directory-dw-id-detail-api
+- collection_type: open
+  name: APISec Management account whitelist/directory/list API
+  slug: open-chaitin-whitelist-directory-list-api
+- collection_type: open
+  name: APISec Management account whitelist/directory/template API
+  slug: open-chaitin-whitelist-directory-template-api
+- collection_type: open
+  name: APISec Management account whitelist/email/action/bulkdestroy API
+  slug: open-chaitin-whitelist-email-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account whitelist/email API
+  slug: open-chaitin-whitelist-email-api
+- collection_type: open
+  name: APISec Management account whitelist/email/bulkcreate API
+  slug: open-chaitin-whitelist-email-bulkcreate-api
+- collection_type: open
+  name: APISec Management account whitelist/email/{ew_id}/action/remove API
+  slug: open-chaitin-whitelist-email-ew-id-action-remove-api
+- collection_type: open
+  name: APISec Management account whitelist/email/{ew_id} API
+  slug: open-chaitin-whitelist-email-ew-id-api
+- collection_type: open
+  name: APISec Management account whitelist/email/{fw_id}/detail API
+  slug: open-chaitin-whitelist-email-fw-id-detail-api
+- collection_type: open
+  name: APISec Management account whitelist/email/list API
+  slug: open-chaitin-whitelist-email-list-api
+- collection_type: open
+  name: APISec Management account whitelist/file/action/bulkdestroy API
+  slug: open-chaitin-whitelist-file-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account whitelist/file API
+  slug: open-chaitin-whitelist-file-api
+- collection_type: open
+  name: APISec Management account whitelist/file/bulkcreate API
+  slug: open-chaitin-whitelist-file-bulkcreate-api
+- collection_type: open
+  name: APISec Management account whitelist/file/{fw_id}/action/remove API
+  slug: open-chaitin-whitelist-file-fw-id-action-remove-api
+- collection_type: open
+  name: APISec Management account whitelist/file/{fw_id} API
+  slug: open-chaitin-whitelist-file-fw-id-api
+- collection_type: open
+  name: APISec Management account whitelist/file/{fw_id}/detail API
+  slug: open-chaitin-whitelist-file-fw-id-detail-api
+- collection_type: open
+  name: APISec Management account whitelist/file/list API
+  slug: open-chaitin-whitelist-file-list-api
+- collection_type: open
+  name: APISec Management account whitelist/file/template API
+  slug: open-chaitin-whitelist-file-template-api
+- collection_type: open
+  name: APISec Management account whitelist/leakage_control/template API
+  slug: open-chaitin-whitelist-leakage-control-template-api
+- collection_type: open
+  name: APISec Management account whitelist/network/action/bulkdestroy API
+  slug: open-chaitin-whitelist-network-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account whitelist/network API
+  slug: open-chaitin-whitelist-network-api
+- collection_type: open
+  name: APISec Management account whitelist/network/import API
+  slug: open-chaitin-whitelist-network-import-api
+- collection_type: open
+  name: APISec Management account whitelist/network/process/action/bulkdestroy API
+  slug: open-chaitin-whitelist-network-process-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account whitelist/network/process/bulkcreate API
+  slug: open-chaitin-whitelist-network-process-bulkcreate-api
+- collection_type: open
+  name: APISec Management account whitelist/network/{w_id}/action/remove API
+  slug: open-chaitin-whitelist-network-w-id-action-remove-api
+- collection_type: open
+  name: APISec Management account whitelist/network/{w_id} API
+  slug: open-chaitin-whitelist-network-w-id-api
+- collection_type: open
+  name: APISec Management account whitelist/sign/action/bulkdestroy API
+  slug: open-chaitin-whitelist-sign-action-bulkdestroy-api
+- collection_type: open
+  name: APISec Management account whitelist/sign API
+  slug: open-chaitin-whitelist-sign-api
+- collection_type: open
+  name: APISec Management account whitelist/sign/bulkcreate API
+  slug: open-chaitin-whitelist-sign-bulkcreate-api
+- collection_type: open
+  name: APISec Management account whitelist/sign/import API
+  slug: open-chaitin-whitelist-sign-import-api
+- collection_type: open
+  name: APISec Management account whitelist/sign/list API
+  slug: open-chaitin-whitelist-sign-list-api
+- collection_type: open
+  name: APISec Management account whitelist/sign/{sw_id}/action/remove API
+  slug: open-chaitin-whitelist-sign-sw-id-action-remove-api
+- collection_type: open
+  name: APISec Management account whitelist/sign/{sw_id} API
+  slug: open-chaitin-whitelist-sign-sw-id-api
+- collection_type: open
+  name: APISec Management account whitelist/sign/{sw_id}/detail API
+  slug: open-chaitin-whitelist-sign-sw-id-detail-api
+- collection_type: open
+  name: APISec Management account whitelist/sign/template API
+  slug: open-chaitin-whitelist-sign-template-api
+- collection_type: open
+  name: APISec Management account whitelist/soft_network/exists API
+  slug: open-chaitin-whitelist-soft-network-exists-api
+- collection_type: open
+  name: APISec Management account 资产/种子/域名 WHOIS API
+  slug: open-chaitin-whois-api
 common:
 - group: company
   title: ''
@@ -1809,7 +3481,7 @@ overview: 'Chaitin Tech publishes 556 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Chaitin Tech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 16 more developer resources.'
-random_paper: 16
+random_paper: 140
 score:
   band: thin
   composite: 36.3
@@ -1832,7 +3504,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/screenshots/chaitin-2026-07-25T205025.png
 security:

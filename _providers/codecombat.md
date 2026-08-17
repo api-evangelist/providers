@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Auth API from CodeCombat — 1 operation(s) for auth.
@@ -49,7 +49,29 @@ apis:
 - description: The Users API from CodeCombat — 10 operation(s) for users.
   name: CodeCombat Users API
   slug: codecombat-users-api
-artifact_total: 9
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CodeCombat Auth API
+  slug: open-codecombat-auth-api
+- collection_type: open
+  name: CodeCombat Auth Clans API
+  slug: open-codecombat-clans-api
+- collection_type: open
+  name: CodeCombat Auth Classrooms API
+  slug: open-codecombat-classrooms-api
+- collection_type: open
+  name: CodeCombat Auth  API
+  slug: open-codecombat-default-api
+- collection_type: open
+  name: CodeCombat Auth Stats API
+  slug: open-codecombat-stats-api
+- collection_type: open
+  name: CodeCombat Auth Users API
+  slug: open-codecombat-users-api
 common:
 - group: auth
   title: ''
@@ -159,7 +181,7 @@ overview: 'CodeCombat publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CodeCombat''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 17 more developer resources.'
-random_paper: 81
+random_paper: 147
 score:
   band: developing
   composite: 43.6
@@ -182,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/screenshots/codecombat-2026-07-25T205918.png
 security:

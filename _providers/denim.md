@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -56,7 +56,29 @@ apis:
 - description: Transactions are payments incoming, outgoing, netting, and adjustments. Transactions are are generally applied towards obligations.
   name: Denim Transactions API
   slug: denim-transactions-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Denim Public API Reference Documentation Companies API
+  slug: open-denim-companies-api
+- collection_type: open
+  name: Denim Public API Reference Documentation Companies Debtors API
+  slug: open-denim-debtors-api
+- collection_type: open
+  name: Denim Public API Reference Documentation Companies Jobs API
+  slug: open-denim-jobs-api
+- collection_type: open
+  name: Denim Public API Reference Documentation Companies Jobs V2 API
+  slug: open-denim-jobs-v2-api
+- collection_type: open
+  name: Denim Public API Reference Documentation Companies Payees API
+  slug: open-denim-payees-api
+- collection_type: open
+  name: Denim Public API Reference Documentation Companies Transactions API
+  slug: open-denim-transactions-api
 common:
 - group: company
   title: ''
@@ -178,7 +200,7 @@ overview: 'Denim publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Denim''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 45
+random_paper: 78
 score:
   band: developing
   composite: 46.9
@@ -208,7 +230,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/screenshots/denim-2026-07-25T211718.png
 security:

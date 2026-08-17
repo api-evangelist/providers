@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -79,11 +79,51 @@ apis:
 - description: Lets partners submit and track merchant referrals into Tyro, supporting partner-driven merchant acquisition and onboarding workflows within the Tyro Connect ecosystem.
   name: Tyro Connect Referrals API
   slug: tyro-connect-referrals-api
-artifact_total: 18
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Tyro Webhooks
   slug: tyro-webhooks
+collections:
+- collection_type: open
+  name: Booking API
+  slug: open-tyro-connect-booking
+- collection_type: open
+  name: Location API
+  slug: open-tyro-connect-locations
+- collection_type: open
+  name: Loyalty Data API
+  slug: open-tyro-connect-loyalty
+- collection_type: open
+  name: Menu API
+  slug: open-tyro-connect-menu
+- collection_type: open
+  name: Ordering API for App Partners
+  slug: open-tyro-connect-ordering
+- collection_type: open
+  name: Pay API
+  slug: open-tyro-connect-pay
+- collection_type: open
+  name: Referrals API
+  slug: open-tyro-connect-referrals
+- collection_type: open
+  name: Refunds API
+  slug: open-tyro-connect-refunds
+- collection_type: open
+  name: Reporting API
+  slug: open-tyro-connect-reporting
+- collection_type: open
+  name: Sales Data API
+  slug: open-tyro-connect-sales
+- collection_type: open
+  name: Table API
+  slug: open-tyro-connect-tables
+- collection_type: open
+  name: Embedded Payments API
+  slug: open-tyro-pos-embedded-payments
+- collection_type: open
+  name: Pay Terminal API
+  slug: open-tyro-pos-pay-terminal
 common:
 - group: agent
   title: ''
@@ -236,7 +276,7 @@ overview: 'Tyro Payments publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Tyro Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 26 more developer resources.'
-random_paper: 102
+random_paper: 15
 score:
   band: developing
   composite: 52.5
@@ -266,7 +306,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

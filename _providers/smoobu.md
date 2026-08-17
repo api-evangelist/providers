@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The authenticated Smoobu account.
   name: Smoobu User API
   slug: smoobu-user-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smoobu Apartments API
+  slug: open-smoobu-apartments-api
+- collection_type: open
+  name: Smoobu Apartments Guests API
+  slug: open-smoobu-guests-api
+- collection_type: open
+  name: Smoobu Apartments Messaging API
+  slug: open-smoobu-messaging-api
+- collection_type: open
+  name: Smoobu Apartments Rates and Availability API
+  slug: open-smoobu-rates-and-availability-api
+- collection_type: open
+  name: Smoobu Apartments Reservations API
+  slug: open-smoobu-reservations-api
+- collection_type: open
+  name: Smoobu Apartments User API
+  slug: open-smoobu-user-api
 - collection_type: open
   name: Smoobu API
   slug: open-smoobu
@@ -123,7 +144,7 @@ plans:
 - name: Smoobu Plans Pricing
   plan_count: 4
   slug: smoobu-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Smoobu Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

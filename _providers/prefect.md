@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 6
@@ -227,8 +227,194 @@ apis:
 - description: Interact with Prefect Cloud Workspaces.
   name: Prefect Workspaces API
   slug: prefect-workspaces-api
-artifact_total: 71
+artifact_total: 133
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prefect Cloud Account Billing API
+  slug: open-prefect-account-billing-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Account Images API
+  slug: open-prefect-account-images-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Account Memberships API
+  slug: open-prefect-account-memberships-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Account Roles API
+  slug: open-prefect-account-roles-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Account SSO API
+  slug: open-prefect-account-sso-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Accounts API
+  slug: open-prefect-accounts-api
+- collection_type: open
+  name: Prefect Cloud Account Billing AI API
+  slug: open-prefect-ai-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Artifacts API
+  slug: open-prefect-artifacts-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Asset Publications API
+  slug: open-prefect-asset-publications-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Asset Subscriptions API
+  slug: open-prefect-asset-subscriptions-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Assets API
+  slug: open-prefect-assets-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Automations API
+  slug: open-prefect-automations-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Available Assets API
+  slug: open-prefect-available-assets-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Block capabilities API
+  slug: open-prefect-block-capabilities-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Block documents API
+  slug: open-prefect-block-documents-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Block schemas API
+  slug: open-prefect-block-schemas-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Block types API
+  slug: open-prefect-block-types-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Bots API
+  slug: open-prefect-bots-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Collections API
+  slug: open-prefect-collections-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Concurrency Limits API
+  slug: open-prefect-concurrency-limits-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Concurrency Limits V2 API
+  slug: open-prefect-concurrency-limits-v2-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Deployments API
+  slug: open-prefect-deployments-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Download API
+  slug: open-prefect-download-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Event Publications API
+  slug: open-prefect-event-publications-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Event Subscriptions API
+  slug: open-prefect-event-subscriptions-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Events API
+  slug: open-prefect-events-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Flow Run States API
+  slug: open-prefect-flow-run-states-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Flow Runs API
+  slug: open-prefect-flow-runs-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Flows API
+  slug: open-prefect-flows-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Invitations API
+  slug: open-prefect-invitations-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Logs API
+  slug: open-prefect-logs-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Managed Automations API
+  slug: open-prefect-managed-automations-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Me API
+  slug: open-prefect-me-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Metrics API
+  slug: open-prefect-metrics-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Pins API
+  slug: open-prefect-pins-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Rate Limits API
+  slug: open-prefect-rate-limits-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Resources API
+  slug: open-prefect-resources-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Root API
+  slug: open-prefect-root-api
+- collection_type: open
+  name: Prefect Cloud Account Billing SavedSearches API
+  slug: open-prefect-savedsearches-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Schemas API
+  slug: open-prefect-schemas-api
+- collection_type: open
+  name: Prefect Cloud Account Billing SLAs API
+  slug: open-prefect-slas-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Spans API
+  slug: open-prefect-spans-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Task Run States API
+  slug: open-prefect-task-run-states-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Task Runs API
+  slug: open-prefect-task-runs-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Task Workers API
+  slug: open-prefect-task-workers-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Teams API
+  slug: open-prefect-teams-api
+- collection_type: open
+  name: Prefect Cloud Account Billing UI API
+  slug: open-prefect-ui-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Users API
+  slug: open-prefect-users-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Variables API
+  slug: open-prefect-variables-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Webhooks API
+  slug: open-prefect-webhooks-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Work Pools API
+  slug: open-prefect-work-pools-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Work Queues API
+  slug: open-prefect-work-queues-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Workspace Access API
+  slug: open-prefect-workspace-access-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Workspace Bot Access API
+  slug: open-prefect-workspace-bot-access-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Workspace Invitations API
+  slug: open-prefect-workspace-invitations-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Workspace Rate Limit Allocations API
+  slug: open-prefect-workspace-rate-limit-allocations-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Workspace Roles API
+  slug: open-prefect-workspace-roles-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Workspace Scopes API
+  slug: open-prefect-workspace-scopes-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Workspace Team Access API
+  slug: open-prefect-workspace-team-access-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Workspace User Access API
+  slug: open-prefect-workspace-user-access-api
+- collection_type: open
+  name: Prefect Cloud Account Billing Workspaces API
+  slug: open-prefect-workspaces-api
 - collection_type: open
   name: Prefect Cloud API
   slug: open-prefect
@@ -341,7 +527,7 @@ plans:
 - name: Prefect Plans Pricing
   plan_count: 3
   slug: prefect-plans-pricing
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Prefect Rate Limits
@@ -366,7 +552,7 @@ score:
       marker_coverage: 0.0
       total: 61
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/screenshots/prefect-2026-06-20T192044.png
 security:

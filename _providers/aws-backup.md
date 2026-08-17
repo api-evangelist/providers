@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -71,8 +71,41 @@ apis:
 - description: The Tags API from AWS Backup — 1 operation(s) for tags.
   name: AWS Backup Tags API
   slug: aws-backup-tags-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Backup Backup Jobs API
+  slug: open-aws-backup-backup-jobs-api
+- collection_type: open
+  name: AWS Backup Backup Jobs Backup Plans API
+  slug: open-aws-backup-backup-plans-api
+- collection_type: open
+  name: AWS Backup Backup Jobs Backup Selections API
+  slug: open-aws-backup-backup-selections-api
+- collection_type: open
+  name: AWS Backup Backup Jobs Backup Vaults API
+  slug: open-aws-backup-backup-vaults-api
+- collection_type: open
+  name: AWS Backup Backup Jobs Copy Jobs API
+  slug: open-aws-backup-copy-jobs-api
+- collection_type: open
+  name: AWS Backup Backup Jobs Frameworks API
+  slug: open-aws-backup-frameworks-api
+- collection_type: open
+  name: AWS Backup Backup Jobs Recovery Points API
+  slug: open-aws-backup-recovery-points-api
+- collection_type: open
+  name: AWS Backup Backup Jobs Report Plans API
+  slug: open-aws-backup-report-plans-api
+- collection_type: open
+  name: AWS Backup Backup Jobs Restore Jobs API
+  slug: open-aws-backup-restore-jobs-api
+- collection_type: open
+  name: AWS Backup Backup Jobs Tags API
+  slug: open-aws-backup-tags-api
 - collection_type: open
   name: AWS Backup API
   slug: open-aws-backup
@@ -125,7 +158,7 @@ overview: 'AWS Backup publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AWS Backup''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 46
+random_paper: 112
 score:
   band: thin
   composite: 31.5
@@ -146,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/screenshots/aws-backup-2026-06-20T172742.png
 security:

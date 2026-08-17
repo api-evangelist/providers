@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 6
@@ -84,7 +84,7 @@ apis:
 - description: Operations for creating, retrieving, updating, and deleting user accounts within the OpsGenie platform.
   name: OpsGenie Users API
   slug: opsgenie-users-api
-artifact_total: 174
+artifact_total: 190
 asyncapis:
 - description: OpsGenie sends webhook notifications for alert actions to configured webhook URLs. When alert events occur such as create, acknowledge, close, or delete, OpsGenie posts a JSON payload to the registere
   name: OpsGenie Webhook Events
@@ -136,23 +136,47 @@ collections:
   name: OpsGenie Account Users API
   slug: postman-opsgenie-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpsGenie Account API
+  slug: open-opsgenie-account-api
+- collection_type: open
   name: OpsGenie Account API
   slug: open-opsgenie-account
 - collection_type: open
   name: OpsGenie Alert API
   slug: open-opsgenie-alert
 - collection_type: open
+  name: OpsGenie Account Alerts API
+  slug: open-opsgenie-alerts-api
+- collection_type: open
   name: OpsGenie Escalation API
   slug: open-opsgenie-escalation
+- collection_type: open
+  name: OpsGenie Account Escalations API
+  slug: open-opsgenie-escalations-api
 - collection_type: open
   name: OpsGenie Heartbeat API
   slug: open-opsgenie-heartbeat
 - collection_type: open
+  name: OpsGenie Account Heartbeats API
+  slug: open-opsgenie-heartbeats-api
+- collection_type: open
   name: OpsGenie Incident API
   slug: open-opsgenie-incident
 - collection_type: open
+  name: OpsGenie Account Incidents API
+  slug: open-opsgenie-incidents-api
+- collection_type: open
   name: OpsGenie Integration API
   slug: open-opsgenie-integration
+- collection_type: open
+  name: OpsGenie Account Integrations API
+  slug: open-opsgenie-integrations-api
+- collection_type: open
+  name: OpsGenie Account Maintenance API
+  slug: open-opsgenie-maintenance-api
 - collection_type: open
   name: OpsGenie Maintenance API
   slug: open-opsgenie-maintenance
@@ -160,17 +184,41 @@ collections:
   name: OpsGenie Notification Rule API
   slug: open-opsgenie-notification-rule
 - collection_type: open
+  name: OpsGenie Account Notification Rules API
+  slug: open-opsgenie-notification-rules-api
+- collection_type: open
+  name: OpsGenie Account On-Call API
+  slug: open-opsgenie-on-call-api
+- collection_type: open
+  name: OpsGenie Account Overrides API
+  slug: open-opsgenie-overrides-api
+- collection_type: open
+  name: OpsGenie Account Rotations API
+  slug: open-opsgenie-rotations-api
+- collection_type: open
   name: OpsGenie Schedule API
   slug: open-opsgenie-schedule
+- collection_type: open
+  name: OpsGenie Account Schedules API
+  slug: open-opsgenie-schedules-api
 - collection_type: open
   name: OpsGenie Service API
   slug: open-opsgenie-service
 - collection_type: open
+  name: OpsGenie Account Services API
+  slug: open-opsgenie-services-api
+- collection_type: open
   name: OpsGenie Team API
   slug: open-opsgenie-team
 - collection_type: open
+  name: OpsGenie Account Teams API
+  slug: open-opsgenie-teams-api
+- collection_type: open
   name: OpsGenie User API
   slug: open-opsgenie-user
+- collection_type: open
+  name: OpsGenie Account Users API
+  slug: open-opsgenie-users-api
 common:
 - group: build
   title: ''
@@ -595,7 +643,7 @@ plans:
 - name: Opsgenie Plans Pricing
   plan_count: 5
   slug: opsgenie-plans-pricing
-random_paper: 18
+random_paper: 113
 rate_limits:
 - limit_count: 3
   name: Opsgenie Rate Limits
@@ -637,7 +685,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/screenshots/opsgenie-2026-06-20T191103.png
 security:

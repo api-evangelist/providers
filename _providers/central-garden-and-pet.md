@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Central Garden and Pet API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Central Garden And Pet Plans Pricing
   plan_count: 1
   slug: central-garden-and-pet-plans-pricing
-random_paper: 101
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Central Garden And Pet Rate Limits
@@ -83,7 +83,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/central-garden-and-pet/refs/heads/main/screenshots/central-garden-and-pet-2026-06-20T174129.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Open-source REST and WebSocket API for querying the Dash Core (layer 1) blockchain. Provides endpoints for blocks (by hash or height), raw blocks, transactions (by txid), raw transactions, addresses (
@@ -104,7 +104,7 @@ plans:
 - name: Dash Plans Pricing
   plan_count: 2
   slug: dash-plans-pricing
-random_paper: 56
+random_paper: 118
 rate_limits:
 - limit_count: 4
   name: Dash Rate Limits
@@ -128,7 +128,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dash/refs/heads/main/screenshots/dash-2026-06-20T175502.png
 security:

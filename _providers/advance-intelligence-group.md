@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Obtain an access token for calling the Open API.
@@ -43,7 +43,23 @@ apis:
 - description: Optical character recognition for identity documents.
   name: Advance Intelligence Group OCR API
   slug: advance-intelligence-group-ocr-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ADVANCE.AI Open Authentication API
+  slug: open-advance-intelligence-group-authentication-api
+- collection_type: open
+  name: ADVANCE.AI Open Authentication Document Verification API
+  slug: open-advance-intelligence-group-document-verification-api
+- collection_type: open
+  name: ADVANCE.AI Open Authentication Face Recognition API
+  slug: open-advance-intelligence-group-face-recognition-api
+- collection_type: open
+  name: ADVANCE.AI Open Authentication OCR API
+  slug: open-advance-intelligence-group-ocr-api
 common:
 - group: other
   title: ''
@@ -149,7 +165,7 @@ overview: 'Advance Intelligence Group publishes 4 APIs on the [APIs.io](https://
 
 
   Advance Intelligence Group''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 116
+random_paper: 103
 score:
   band: thin
   composite: 41.3
@@ -172,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png
 security:

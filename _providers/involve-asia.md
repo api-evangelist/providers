@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -19,16 +20,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-12'
+  score: 46.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -63,7 +64,33 @@ arazzos:
 - description: Authenticate and pull attributed conversions for a date range.
   name: Involve Asia Sync Conversions
   slug: involve-asia-sync-conversions-workflow
-artifact_total: 12
+artifact_total: 22
+asyncapis:
+- description: ''
+  name: Involve Asia Webhooks
+  slug: involve-asia-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Involve Asia Publisher Auth API
+  slug: open-involve-asia-auth-api
+- collection_type: open
+  name: Involve Asia Publisher Auth Campaigns API
+  slug: open-involve-asia-campaigns-api
+- collection_type: open
+  name: Involve Asia Publisher Auth Conversions API
+  slug: open-involve-asia-conversions-api
+- collection_type: open
+  name: Involve Asia Publisher Auth Deeplink API
+  slug: open-involve-asia-deeplink-api
+- collection_type: open
+  name: Involve Asia Publisher Auth Offers API
+  slug: open-involve-asia-offers-api
+- collection_type: open
+  name: Involve Asia Publisher Auth Shopee API
+  slug: open-involve-asia-shopee-api
 common:
 - group: company
   title: ''
@@ -177,6 +204,18 @@ common:
   title: ''
   type: Arazzo
   url: arazzo/involve-asia-sync-conversions-workflow.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/involve-asia-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/involve-asia-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/involve-asia-packages.yml
 created: '2026-07-17'
 description: 'Involve Asia (Involve Asia Technologies Sdn. Bhd.) is a leading affiliate and partnership-marketing network across Southeast Asia and Taiwan, connecting advertisers with publishers and creators to grow revenue through performance marketing. Its public Publisher API lets publishers programmatically pull conversion (commission) data, browse offers and campaigns, generate trackable affiliate deeplinks, and access Shopee Commission Xtra boosted-payout brands — without logging into the dashboard. The API is REST over HTTPS with bearer-JWT auth (2-hour token TTL), form-urlencoded requests, page-number pagination, a 60 requests/minute throttle, and a 1,000-link rolling 30-day deeplink cap. Involve Asia publishes first-party machine-readable artifacts: an OpenAPI 3.1 spec, a Claude Skill, an llms.txt, and a Postman collection.'
 image: https://api.involve.asia/docs/assets/f4c704c9-e5f3-4fea-8ccd-89209c3f2451.svg
@@ -185,26 +224,37 @@ mcp_servers:
 - description: ''
   name: involve-asia-mcp.yml
   slug: involve-asia-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Involve Asia
 nav: Providers
 network: true
 overview: 'Involve Asia publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Campaigns API, Conversions API, and 3 more. Tagged areas include Affiliate Marketing, Performance Marketing, Partnership Marketing, Publishers, and Creators.
 
 
-  Involve Asia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 30
+  The Involve Asia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Involve Asia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
+plans:
+- name: Involve Asia Plans Pricing
+  plan_count: 0
+  slug: involve-asia-plans-pricing
+random_paper: 38
+rate_limits:
+- limit_count: 2
+  name: Involve Asia Rate Limits
+  slug: involve-asia-rate-limits
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 52.4
+  delta: 6.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.7
+    contract_quality: 68.7
     developer_ergonomics: 65.2
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 15.8
+    operational_transparency: 44.7
   previous_composite: 46.4
   provenance:
     agentic_access: derived
@@ -217,8 +267,8 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/screenshots/involve-asia-2026-07-25T222801.png
 security:
 - kind: authentication
@@ -228,7 +278,7 @@ security:
 - kind: domain-security
   name: Involve Asia Domain Security
   slug: involve-asia-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 slug: involve-asia
 tags:
 - Affiliate Marketing

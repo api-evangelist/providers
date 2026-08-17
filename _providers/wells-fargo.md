@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,17 +57,35 @@ apis:
 - description: Retrieve and search account transaction data.
   name: wells-fargo Transactions API
   slug: wells-fargo-transactions-api
-artifact_total: 28
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Wells Fargo Account Transactions API
   slug: open-wells-fargo-account-transactions-api
 - collection_type: open
-  name: Wells Fargo ACH Payments API
+  name: Wells Fargo Account Transactions Accounts API
+  slug: open-wells-fargo-accounts-api
+- collection_type: open
+  name: Wells Fargo Account Transactions Accounts ACH Payments API
   slug: open-wells-fargo-ach-payments-api
 - collection_type: open
   name: Wells Fargo Gateway API
   slug: open-wells-fargo-gateway-api
+- collection_type: open
+  name: Wells Fargo Account Transactions Accounts Payment Batches API
+  slug: open-wells-fargo-payment-batches-api
+- collection_type: open
+  name: Wells Fargo Account Transactions Accounts Payment Returns API
+  slug: open-wells-fargo-payment-returns-api
+- collection_type: open
+  name: Wells Fargo Account Transactions Accounts Payments API
+  slug: open-wells-fargo-payments-api
+- collection_type: open
+  name: Wells Fargo Account Accounts Transactions API
+  slug: open-wells-fargo-transactions-api
 common:
 - group: operate
   title: ''
@@ -203,7 +221,7 @@ press:
 - date: '2026-05-25'
   title: Wells Fargo, BNP Paribas bolster AI leadership
   url: https://www.bankingdive.com/news/wells-fargo-ai-faraz-shafiq-saul-van-beurden-bnp-paribas/810717/
-random_paper: 43
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Wells Fargo Rate Limits
@@ -250,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png
 security:

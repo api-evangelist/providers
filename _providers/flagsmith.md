@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -66,18 +66,45 @@ apis:
 - description: Configure webhooks for environments and organisations to receive notifications about flag changes and audit log events.
   name: flagsmith Webhooks API
   slug: flagsmith-webhooks-api
-artifact_total: 22
+artifact_total: 31
 asyncapis:
 - description: Flagsmith provides two types of webhooks for receiving event notifications. Environment webhooks automatically send flag evaluations for identified users whenever an identity's flags are evaluated via
   name: Flagsmith Webhook Events
   slug: flagsmith-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Flagsmith Admin API
   slug: open-flagsmith-admin-api
 - collection_type: open
-  name: Flagsmith Flags API
+  name: Flagsmith Admin Environments API
+  slug: open-flagsmith-environments-api
+- collection_type: open
+  name: Flagsmith Admin Environments Features API
+  slug: open-flagsmith-features-api
+- collection_type: open
+  name: Flagsmith Admin Environments Flags API
   slug: open-flagsmith-flags-api
+- collection_type: open
+  name: Flagsmith Admin Environments Identities API
+  slug: open-flagsmith-identities-api
+- collection_type: open
+  name: Flagsmith Admin Environments Organisations API
+  slug: open-flagsmith-organisations-api
+- collection_type: open
+  name: Flagsmith Admin Environments Projects API
+  slug: open-flagsmith-projects-api
+- collection_type: open
+  name: Flagsmith Admin Environments Segments API
+  slug: open-flagsmith-segments-api
+- collection_type: open
+  name: Flagsmith Admin Environments Users API
+  slug: open-flagsmith-users-api
+- collection_type: open
+  name: Flagsmith Admin Environments Webhooks API
+  slug: open-flagsmith-webhooks-api
 common:
 - group: agent
   title: ''
@@ -142,7 +169,7 @@ plans:
 - name: Flagsmith Plans Pricing
   plan_count: 3
   slug: flagsmith-plans-pricing
-random_paper: 119
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Flagsmith Rate Limits
@@ -184,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/screenshots/flagsmith-2026-06-20T181306.png
 security:

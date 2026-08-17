@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ arazzos:
 - description: Read a workload and update its descriptive metadata and pillar priorities.
   name: Amazon Well-Architected Tool Update Workload Metadata
   slug: amazon-well-architected-tool-update-workload-metadata-workflow
-artifact_total: 813
+artifact_total: 827
 collections:
 - collection_type: postman
   name: AWS Well-Architected Tool ConsolidatedReport#Format API
@@ -162,6 +162,48 @@ collections:
 - collection_type: postman
   name: AWS Well-Architected Tool ConsolidatedReport#Format WorkloadsSummaries API
   slug: postman-amazon-well-architected-tool-workloadssummaries-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format API
+  slug: open-amazon-well-architected-tool-consolidatedreport-format-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format Global Settings API
+  slug: open-amazon-well-architected-tool-global-settings-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format ImportLens API
+  slug: open-amazon-well-architected-tool-importlens-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format Lenses API
+  slug: open-amazon-well-architected-tool-lenses-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format Notifications API
+  slug: open-amazon-well-architected-tool-notifications-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format ProfileNotifications API
+  slug: open-amazon-well-architected-tool-profilenotifications-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format Profiles API
+  slug: open-amazon-well-architected-tool-profiles-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format ProfileSummaries API
+  slug: open-amazon-well-architected-tool-profilesummaries-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format ProfileTemplate API
+  slug: open-amazon-well-architected-tool-profiletemplate-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format ShareInvitations API
+  slug: open-amazon-well-architected-tool-shareinvitations-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format Tags API
+  slug: open-amazon-well-architected-tool-tags-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format Workloads API
+  slug: open-amazon-well-architected-tool-workloads-api
+- collection_type: open
+  name: AWS Well-Architected Tool ConsolidatedReport#Format WorkloadsSummaries API
+  slug: open-amazon-well-architected-tool-workloadssummaries-api
 common:
 - group: operate
   title: ''
@@ -2602,7 +2644,7 @@ plans:
 - name: Amazon Well Architected Tool Plans Pricing
   plan_count: 3
   slug: amazon-well-architected-tool-plans-pricing
-random_paper: 55
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Amazon Well Architected Tool Rate Limits
@@ -2644,7 +2686,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/screenshots/amazon-well-architected-tool-2026-07-25T200017.png
 security:

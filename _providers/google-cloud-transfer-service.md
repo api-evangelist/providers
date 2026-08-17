@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Operations for monitoring transfer operations
   name: Google Cloud Transfer Service TransferOperations API
   slug: google-cloud-transfer-service-transferoperations-api
-artifact_total: 15
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Transfer Service Google Storage Transfer AgentPools API
+  slug: open-google-cloud-transfer-service-agentpools-api
+- collection_type: open
+  name: Google Cloud Transfer Service Google Storage Transfer AgentPools TransferJobs API
+  slug: open-google-cloud-transfer-service-transferjobs-api
+- collection_type: open
+  name: Google Cloud Transfer Service Google Storage Transfer AgentPools TransferOperations API
+  slug: open-google-cloud-transfer-service-transferoperations-api
 - collection_type: open
   name: Google Cloud Transfer Service Google Storage Transfer API
   slug: open-storage-transfer-api
@@ -126,7 +138,7 @@ plans:
 - name: Google Cloud Transfer Service Plans Pricing
   plan_count: 3
   slug: google-cloud-transfer-service-plans-pricing
-random_paper: 49
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Google Cloud Transfer Service Rate Limits
@@ -165,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/screenshots/google-cloud-transfer-service-2026-06-20T182144.png
 security:

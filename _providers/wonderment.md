@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,11 +52,24 @@ arazzos:
 - description: List the authenticated shop's shipment report exports and download the most recent finished, non-expired report.
   name: Wonderment — export and download a shipment report
   slug: wonderment-report-export
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Wonderment Webhooks
   slug: wonderment-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wonderment Delivery Promise API
+  slug: open-wonderment-delivery-promise-api
+- collection_type: open
+  name: Wonderment Delivery Promise Reports API
+  slug: open-wonderment-reports-api
+- collection_type: open
+  name: Wonderment Delivery Promise Shipments API
+  slug: open-wonderment-shipments-api
 common:
 - group: other
   title: ''
@@ -161,7 +174,7 @@ overview: 'Wonderment publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wonderment''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
-random_paper: 11
+random_paper: 48
 score:
   band: thin
   composite: 39.9
@@ -185,7 +198,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

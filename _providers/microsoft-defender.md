@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,11 +66,23 @@ apis:
 - description: Retrieve vulnerability information from Microsoft Defender Vulnerability Management. Access CVE data, severity scores, exploit information, and exposure metrics.
   name: Microsoft Defender Vulnerabilities API
   slug: microsoft-defender-vulnerabilities-api
-artifact_total: 30
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Defender for Endpoint Alerts API
+  slug: open-microsoft-defender-alerts-api
 - collection_type: open
   name: Microsoft Defender for Endpoint API
   slug: open-microsoft-defender-for-endpoint-api
+- collection_type: open
+  name: Microsoft Defender for Endpoint Alerts Machines API
+  slug: open-microsoft-defender-machines-api
+- collection_type: open
+  name: Microsoft Defender for Endpoint Alerts Vulnerabilities API
+  slug: open-microsoft-defender-vulnerabilities-api
 common:
 - group: agent
   title: ''
@@ -196,7 +208,7 @@ plans:
 - name: Microsoft Defender Plans Pricing
   plan_count: 17
   slug: microsoft-defender-plans-pricing
-random_paper: 56
+random_paper: 68
 rate_limits:
 - limit_count: 6
   name: Microsoft Defender Rate Limits
@@ -235,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-06-20T185449.png
 security:

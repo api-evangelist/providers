@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -143,7 +143,107 @@ apis:
 - description: The WindSolar API from MISO — 7 operation(s) for windsolar.
   name: MISO Wind Solar API
   slug: miso-windsolar-api
-artifact_total: 107
+artifact_total: 140
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MISO Public Ace API
+  slug: open-miso-ace-api
+- collection_type: open
+  name: MUI - Public Specification Admin API
+  slug: open-miso-admin-api
+- collection_type: open
+  name: Pricing Aggregated Pnode API
+  slug: open-miso-aggregated-pnode-api
+- collection_type: open
+  name: MUI - Public Specification Bidding API
+  slug: open-miso-bidding-api
+- collection_type: open
+  name: MISO Public Binding Constraints API
+  slug: open-miso-bindingconstraints-api
+- collection_type: open
+  name: MUI - Public Specification Contracts API
+  slug: open-miso-contracts-api
+- collection_type: open
+  name: MISO Public Coordinated Transaction Scheduling API
+  slug: open-miso-coordinatedtransactionscheduling-api
+- collection_type: open
+  name: MISO Public Csat Next Day Short Term Reserve Requirement API
+  slug: open-miso-csatnextdayshorttermreserverequirement-api
+- collection_type: open
+  name: MISO Public Csat Supply Demand API
+  slug: open-miso-csatsupplydemand-api
+- collection_type: open
+  name: Miso Day Ahead API
+  slug: open-miso-day-ahead-api
+- collection_type: open
+  name: Miso Forecast API
+  slug: open-miso-forecast-api
+- collection_type: open
+  name: MISO Public Fuel Mix API
+  slug: open-miso-fuelmix-api
+- collection_type: open
+  name: MISO Public Generation Outages API
+  slug: open-miso-generationoutages-api
+- collection_type: open
+  name: Load, Generation, and Interchange Historical API
+  slug: open-miso-historical-api
+- collection_type: open
+  name: MUI - Public Specification IMM API
+  slug: open-miso-imm-api
+- collection_type: open
+  name: MISO Public Interchange API
+  slug: open-miso-interchange-api
+- collection_type: open
+  name: MISO Public Market Pricing API
+  slug: open-miso-marketpricing-api
+- collection_type: open
+  name: MUI - Public Specification Model API
+  slug: open-miso-model-api
+- collection_type: open
+  name: API Collection
+  slug: open-miso-mui-provenance
+- collection_type: open
+  name: MUI - Public Specification Notifications API
+  slug: open-miso-notifications-api
+- collection_type: open
+  name: MUI - Public Specification Notifications Format API
+  slug: open-miso-notifications-format-api
+- collection_type: open
+  name: MUI - Public Specification Offer API
+  slug: open-miso-offer-api
+- collection_type: open
+  name: Miso Real Time API
+  slug: open-miso-real-time-api
+- collection_type: open
+  name: MISO Public Real Time RSG Commitments API
+  slug: open-miso-realtimersgcommitments-api
+- collection_type: open
+  name: MISO Public Real Time Total Load API
+  slug: open-miso-realtimetotalload-api
+- collection_type: open
+  name: MISO Public Regional Directional Transfer API
+  slug: open-miso-regionaldirectionaltransfer-api
+- collection_type: open
+  name: MUI - Public Specification Reports API
+  slug: open-miso-reports-api
+- collection_type: open
+  name: MUI - Public Specification Reserves API
+  slug: open-miso-reserves-api
+- collection_type: open
+  name: MISO Public Snapshot API
+  slug: open-miso-snapshot-api
+- collection_type: open
+  name: MUI - Public Specification Transactions API
+  slug: open-miso-transactions-api
+- collection_type: open
+  name: MISO Information Interface Weather API
+  slug: open-miso-weather-api
+- collection_type: open
+  name: MISO Public Wind Solar API
+  slug: open-miso-windsolar-api
 common:
 - group: other
   title: ''
@@ -492,7 +592,7 @@ plans:
 - name: Miso Plans
   plan_count: 5
   slug: miso-plans
-random_paper: 80
+random_paper: 142
 rate_limits:
 - limit_count: 3
   name: Miso Rate Limits
@@ -526,7 +626,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png
 security:

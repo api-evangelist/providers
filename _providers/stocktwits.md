@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -65,7 +65,38 @@ apis:
 - description: Watchlist management endpoints for creating and managing symbol watchlists.
   name: StockTwits Watchlists API
   slug: stocktwits-watchlists-api
-artifact_total: 14
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: StockTwits Account API
+  slug: open-stocktwits-account-api
+- collection_type: open
+  name: StockTwits Account Deletions API
+  slug: open-stocktwits-deletions-api
+- collection_type: open
+  name: StockTwits Account Friendships API
+  slug: open-stocktwits-friendships-api
+- collection_type: open
+  name: StockTwits Account Graph (Social) API
+  slug: open-stocktwits-graph-social-api
+- collection_type: open
+  name: StockTwits Account Messages API
+  slug: open-stocktwits-messages-api
+- collection_type: open
+  name: StockTwits Account Search API
+  slug: open-stocktwits-search-api
+- collection_type: open
+  name: StockTwits Account Streams API
+  slug: open-stocktwits-streams-api
+- collection_type: open
+  name: StockTwits Account Trending API
+  slug: open-stocktwits-trending-api
+- collection_type: open
+  name: StockTwits Account Watchlists API
+  slug: open-stocktwits-watchlists-api
 common:
 - group: docs
   title: ''
@@ -199,7 +230,7 @@ overview: 'StockTwits publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   StockTwits'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 39
+random_paper: 76
 scopes:
 - name: Stocktwits Scopes
   scope_count: 6
@@ -234,7 +265,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

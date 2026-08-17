@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +23,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-12'
+  score: 59.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,14 +56,23 @@ arazzos:
 - description: Confirm an email's domain resolves and is deliverable before reporting it, so junk addresses never pollute the reputation graph.
   name: EmailRep Verify Before Report
   slug: emailrep-verify-before-report-workflow
-artifact_total: 28
+artifact_total: 33
 collections:
 - collection_type: postman
   name: EmailRep API
   slug: postman-emailrep-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: EmailRep API
   slug: open-emailrep-api
+- collection_type: open
+  name: EmailRep Reports API
+  slug: open-emailrep-reports-api
+- collection_type: open
+  name: EmailRep Reports Reputation API
+  slug: open-emailrep-reputation-api
 common:
 - group: operate
   title: ''
@@ -103,18 +113,18 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.sublimesecurity.com/reference/emailrep-introduction
+  url: https://docs.sublime.security/reference/emailrep-introduction
 - group: docs
   title: ''
   type: APIReference
-  url: https://docs.sublimesecurity.com/reference/emailrep-introduction
+  url: https://docs.sublime.security/reference/emailrep-introduction
 - group: start
   title: ''
   type: GettingStarted
-  url: https://docs.sublimesecurity.com/reference/emailrep-quickstart
+  url: https://github.com/sublime-security/emailrep.io#simple-usage
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://emailrep.io/key
 - group: commercial
   title: ''
@@ -123,19 +133,19 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://emailrep.io/terms
+  url: https://sublimesecurity.com/terms
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://emailrep.io/privacy
+  url: https://sublimesecurity.com/privacy
 - group: company
   title: ''
   type: Blog
-  url: https://emailrep.io/blog
+  url: https://blog.sublimesecurity.com
 - group: operate
   title: ''
   type: Support
-  url: https://sublimesecurity.com/contact
+  url: https://emailrep.io/contact
 - group: build
   title: ''
   type: GitHubOrganization
@@ -260,6 +270,66 @@ common:
   title: ''
   type: Examples
   url: examples/api-report-response-example.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/emailrep-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/emailrep-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/emailrep-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/emailrep-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/emailrep-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/emailrep-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/emailrep-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/emailrep-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/emailrep-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/emailrep-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/emailrep-data-model.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/emailrep-trust-center.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emailrep-reputation-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emailrep-reports-api-overlay.yaml
 created: '2026-05-28'
 description: EmailRep is an email address reputation and threat-intelligence API operated by Sublime Security, Inc. It crawls and enriches data across social media profiles, professional networking sites, dark-web credential leaks, data breaches, phishing kits, phishing emails, spam lists, open mail relays, spam traps, domain age and reputation, and email-deliverability signals to predict the risk associated with any email address. The free, JSON-over-HTTP REST API returns a `reputation`, a `suspicious` flag, a `references` count, and a detailed signal block (blacklisted, malicious_activity, credentials_leaked, data_breach, domain_reputation, deliverable, spoofable, profiles, and more). A POST `/report` endpoint lets analysts contribute observations of malicious email behavior back into the reputation graph.
 examples:
@@ -312,7 +382,11 @@ jsonld:
   property_count: 35
   slug: emailrep-api-context
 layout: provider
-modified: '2026-05-30'
+mcp_servers:
+- description: ''
+  name: Sublime Security documentation MCP server (exposes the EmailRep Alpha API spec)
+  slug: sublime-security-documentation-mcp-server-exposes-the-emailrep-alpha-api-spec
+modified: '2026-08-13'
 name: EmailRep
 nav: Providers
 network: true
@@ -322,12 +396,12 @@ overview: 'EmailRep publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   The EmailRep catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  EmailRep''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 42 more developer resources.'
+  EmailRep''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 57 more developer resources.'
 plans:
 - name: Emailrep Plans Pricing
   plan_count: 3
   slug: emailrep-plans-pricing
-random_paper: 7
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Emailrep Rate Limits
@@ -350,15 +424,15 @@ rules:
     warn: 27
   slug: emailrep-spectral-rules
 score:
-  band: developing
-  composite: 51.8
-  delta: 0.0
+  band: strong
+  composite: 62.3
+  delta: 10.5
   facets:
-    commercial_clarity: 84.2
+    commercial_clarity: 92.1
     contract_quality: 22.0
-    developer_ergonomics: 47.8
-    discoverability: 68.5
-    governance: 68.8
+    developer_ergonomics: 76.1
+    discoverability: 75.9
+    governance: 89.6
     operational_transparency: 36.8
   previous_composite: 51.8
   provenance:
@@ -369,8 +443,8 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/screenshots/emailrep-2026-06-20T180624.png
 security:
 - kind: authentication
@@ -381,6 +455,10 @@ security:
   name: Emailrep Domain Security
   slug: emailrep-domain-security
   summary_line: TLSv1.2 · DMARC
+- kind: trust-center
+  name: Emailrep Trust Center
+  slug: emailrep-trust-center
+  summary_line: trust center published
 slug: emailrep
 tags:
 - Security

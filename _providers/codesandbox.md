@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -69,7 +69,29 @@ apis:
 - description: Workspace and organization management
   name: CodeSandbox workspace API
   slug: codesandbox-workspace-api
-artifact_total: 26
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CodeSandbox meta API
+  slug: open-codesandbox-meta-api
+- collection_type: open
+  name: CodeSandbox meta sandbox API
+  slug: open-codesandbox-sandbox-api
+- collection_type: open
+  name: CodeSandbox meta templates API
+  slug: open-codesandbox-templates-api
+- collection_type: open
+  name: CodeSandbox meta token API
+  slug: open-codesandbox-token-api
+- collection_type: open
+  name: CodeSandbox meta vm API
+  slug: open-codesandbox-vm-api
+- collection_type: open
+  name: CodeSandbox meta workspace API
+  slug: open-codesandbox-workspace-api
 common:
 - group: operate
   title: ''
@@ -201,7 +223,7 @@ plans:
 - name: Codesandbox Plans Pricing
   plan_count: 4
   slug: codesandbox-plans-pricing
-random_paper: 82
+random_paper: 119
 rate_limits:
 - limit_count: 7
   name: Codesandbox Rate Limits
@@ -235,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/screenshots/codesandbox-2026-06-20T174706.png
 security:

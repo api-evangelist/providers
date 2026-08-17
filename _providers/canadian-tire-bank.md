@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -75,7 +75,7 @@ overview: 'Canadian Tire Bank is profiled on the [APIs.io](https://apis.io/) net
 
 
   Canadian Tire Bank''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 73
+random_paper: 114
 scopes:
 - name: Canadian Tire Bank Scopes
   scope_count: 4
@@ -102,7 +102,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canadian-tire-bank/refs/heads/main/screenshots/canadian-tire-bank-2026-07-25T204326.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Register webhook subscriptions for platform events.
   name: SleekFlow Webhooks API
   slug: sleekflow-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SleekFlow Platform Companies API
+  slug: open-sleekflow-companies-api
+- collection_type: open
+  name: SleekFlow Platform Companies Contacts API
+  slug: open-sleekflow-contacts-api
+- collection_type: open
+  name: SleekFlow Platform Companies Conversations API
+  slug: open-sleekflow-conversations-api
+- collection_type: open
+  name: SleekFlow Platform Companies Lists API
+  slug: open-sleekflow-lists-api
+- collection_type: open
+  name: SleekFlow Platform Companies Messaging API
+  slug: open-sleekflow-messaging-api
+- collection_type: open
+  name: SleekFlow Platform Companies Staff and Teams API
+  slug: open-sleekflow-staff-and-teams-api
+- collection_type: open
+  name: SleekFlow Platform Companies Webhooks API
+  slug: open-sleekflow-webhooks-api
 - collection_type: open
   name: SleekFlow Platform API
   slug: open-sleekflow
@@ -126,7 +150,7 @@ plans:
 - name: Sleekflow Plans Pricing
   plan_count: 5
   slug: sleekflow-plans-pricing
-random_paper: 12
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Sleekflow Rate Limits
@@ -151,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/screenshots/sleekflow-2026-06-20T194028.png
 security:

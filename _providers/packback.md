@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Inquiry-based student discussion product with built-in AI coaching that helps students ask better questions and write stronger responses, plus automated moderation for instructors. Accessed by student
@@ -40,8 +40,11 @@ apis:
 - description: Packback's integration surface is the IMS Global LTI standard (1EdTech certified for LTI 1.0, 1.2, and 1.3 / LTI Advantage), providing single sign-on, deep linking, and gradebook/grade passback sync a
   name: Packback LTI Integration
   slug: lti-integration
-artifact_total: 8
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Packback API
   slug: open-packback
@@ -102,7 +105,7 @@ plans:
 - name: Packback Plans Pricing
   plan_count: 3
   slug: packback-plans-pricing
-random_paper: 96
+random_paper: 71
 rate_limits:
 - limit_count: 2
   name: Packback Rate Limits
@@ -120,7 +123,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 27.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/screenshots/packback-2026-08-07T191240.png
 security:

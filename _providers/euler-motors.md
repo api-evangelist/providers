@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,7 +101,7 @@ plans:
 - name: Euler Motors Plans Pricing
   plan_count: 0
   slug: euler-motors-plans-pricing
-random_paper: 62
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Euler Motors Rate Limits
@@ -109,6 +109,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -116,8 +117,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 11.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Euler Motors Domain Security

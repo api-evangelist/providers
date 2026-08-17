@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -93,8 +93,38 @@ apis:
 - description: The WebSearch API from Microsoft Bing — 1 operation(s) for websearch.
   name: Microsoft Bing WebSearch API
   slug: microsoft-bing-websearch-api
-artifact_total: 25
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bing Search APIs Autosuggest API
+  slug: open-microsoft-bing-autosuggest-api
+- collection_type: open
+  name: Bing Search APIs Autosuggest CustomSearch API
+  slug: open-microsoft-bing-customsearch-api
+- collection_type: open
+  name: Bing Search APIs Autosuggest EntitySearch API
+  slug: open-microsoft-bing-entitysearch-api
+- collection_type: open
+  name: Bing Search APIs Autosuggest ImageSearch API
+  slug: open-microsoft-bing-imagesearch-api
+- collection_type: open
+  name: Bing Search APIs Autosuggest NewsSearch API
+  slug: open-microsoft-bing-newssearch-api
+- collection_type: open
+  name: Bing Search APIs Autosuggest SpellCheck API
+  slug: open-microsoft-bing-spellcheck-api
+- collection_type: open
+  name: Bing Search APIs Autosuggest VideoSearch API
+  slug: open-microsoft-bing-videosearch-api
+- collection_type: open
+  name: Bing Search APIs Autosuggest VisualSearch API
+  slug: open-microsoft-bing-visualsearch-api
+- collection_type: open
+  name: Bing Search APIs Autosuggest WebSearch API
+  slug: open-microsoft-bing-websearch-api
 - collection_type: open
   name: Bing Search APIs
   slug: open-microsoft-bing
@@ -171,7 +201,7 @@ plans:
 - name: Microsoft Bing Plans Pricing
   plan_count: 3
   slug: microsoft-bing-plans-pricing
-random_paper: 3
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Microsoft Bing Rate Limits
@@ -196,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/screenshots/microsoft-bing-2026-06-20T185445.png
 security:

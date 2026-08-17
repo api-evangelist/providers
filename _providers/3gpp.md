@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 1
@@ -380,11 +380,360 @@ apis:
 - description: 'The 3GPP Forge (forge.3gpp.org) is a self-managed GitLab instance where 3GPP publishes the machine-readable OpenAPI for the 5G Service Based Architecture, the NEF/SCEF northbound exposure APIs, CAPIF '
   name: 3GPP Forge API
   slug: forge-gitlab-api
-artifact_total: 124
+artifact_total: 240
 asyncapis:
 - description: ''
   name: 3Gpp Notifications Webhooks
   slug: 3gpp-notifications-webhooks
+collections:
+- collection_type: open
+  name: MDA NRM
+  slug: open-3gpp-ts28104-mdanrm
+- collection_type: open
+  name: MDA Report
+  slug: open-3gpp-ts28104-mdareport
+- collection_type: open
+  name: AI/ML NRM
+  slug: open-3gpp-ts28105-aimlnrm
+- collection_type: open
+  name: Fault Management Notifications
+  slug: open-3gpp-ts28111-faultnotifications
+- collection_type: open
+  name: Fault Management NRM
+  slug: open-3gpp-ts28111-faultnrm
+- collection_type: open
+  name: Energy Information NRM
+  slug: open-3gpp-ts28310-energyinformationnrm
+- collection_type: open
+  name: Scenario specific Intent Expectations
+  slug: open-3gpp-ts28312-intentexpectations
+- collection_type: open
+  name: Intent NRM
+  slug: open-3gpp-ts28312-intentnrm
+- collection_type: open
+  name: RANSC NRM
+  slug: open-3gpp-ts28317-ranscnrm
+- collection_type: open
+  name: 3GPP NRM
+  slug: open-3gpp-ts28318-dsonrm
+- collection_type: open
+  name: MSAC NRM
+  slug: open-3gpp-ts28319-msacnrm
+- collection_type: open
+  name: Network Slice Provisioning MnS
+  slug: open-3gpp-ts28531-nsprovmns
+- collection_type: open
+  name: Network Slice Subnet Provisioning MnS
+  slug: open-3gpp-ts28531-nssprovmns
+- collection_type: open
+  name: File Data Reporting MnS
+  slug: open-3gpp-ts28532-filedatareportingmns
+- collection_type: open
+  name: Heartbeat notification
+  slug: open-3gpp-ts28532-heartbeatntf
+- collection_type: open
+  name: TS 28.532 Performance Threshold Monitoring MnS
+  slug: open-3gpp-ts28532-perfmns
+- collection_type: open
+  name: Provisioning MnS
+  slug: open-3gpp-ts28532-provmns
+- collection_type: open
+  name: TS 28.532 Streaming data reporting service
+  slug: open-3gpp-ts28532-streamingdatamns
+- collection_type: open
+  name: coslaNrm
+  slug: open-3gpp-ts28536-coslanrm
+- collection_type: open
+  name: 3GPP Edge NRM
+  slug: open-3gpp-ts28538-edgenrm
+- collection_type: open
+  name: 3GPP 5GC NRM
+  slug: open-3gpp-ts28541-5gcnrm
+- collection_type: open
+  name: NR NRM
+  slug: open-3gpp-ts28541-nrnrm
+- collection_type: open
+  name: Slice NRM
+  slug: open-3gpp-ts28541-slicenrm
+- collection_type: open
+  name: TS 28.550 Performance Measurement Job Control Service
+  slug: open-3gpp-ts28550-perfmeasjobctrlmns
+- collection_type: open
+  name: NDT NRM
+  slug: open-3gpp-ts28561-ndtnrm
+- collection_type: open
+  name: CCL NRM
+  slug: open-3gpp-ts28567-cclnrm
+- collection_type: open
+  name: 3GPP Plan Provisioning Management API
+  slug: open-3gpp-ts28572-planmanagement
+- collection_type: open
+  name: Common Type Definitions
+  slug: open-3gpp-ts28623-comdefs
+- collection_type: open
+  name: External data management NRM
+  slug: open-3gpp-ts28623-externaldatamgmtnrm
+- collection_type: open
+  name: NRM Feautres
+  slug: open-3gpp-ts28623-featurenrm
+- collection_type: open
+  name: File Management NRM
+  slug: open-3gpp-ts28623-filemanagementnrm
+- collection_type: open
+  name: Generic NRM
+  slug: open-3gpp-ts28623-genericnrm
+- collection_type: open
+  name: Management Data Collection NRM
+  slug: open-3gpp-ts28623-managementdatacollectionnrm
+- collection_type: open
+  name: MnS Registry NRM
+  slug: open-3gpp-ts28623-mnsregistrynrm
+- collection_type: open
+  name: PM control NRM
+  slug: open-3gpp-ts28623-pmcontrolnrm
+- collection_type: open
+  name: QoE Measurement Collection NRM
+  slug: open-3gpp-ts28623-qoemeasurementcollectionnrm
+- collection_type: open
+  name: Subscription Control NRM
+  slug: open-3gpp-ts28623-subscriptioncontrolnrm
+- collection_type: open
+  name: Threshold Monitor NRM
+  slug: open-3gpp-ts28623-thresholdmonitornrm
+- collection_type: open
+  name: Trace Control NRM
+  slug: open-3gpp-ts28623-tracecontrolnrm
+- collection_type: open
+  name: 3gpp-as-session-with-qos
+  slug: open-3gpp-ts29122-assessionwithqos
+- collection_type: open
+  name: 3gpp-chargeable-party
+  slug: open-3gpp-ts29122-chargeableparty
+- collection_type: open
+  name: TS 29.122 Common Data Types
+  slug: open-3gpp-ts29122-commondata
+- collection_type: open
+  name: 3gpp-cp-parameter-provisioning
+  slug: open-3gpp-ts29122-cpprovisioning
+- collection_type: open
+  name: 3gpp-device-triggering
+  slug: open-3gpp-ts29122-devicetriggering
+- collection_type: open
+  name: 3gpp-ecr-control
+  slug: open-3gpp-ts29122-ecrcontrol
+- collection_type: open
+  name: GMDviaMBMSbyMB2
+  slug: open-3gpp-ts29122-gmdviambmsbymb2
+- collection_type: open
+  name: GMDviaMBMSbyxMB
+  slug: open-3gpp-ts29122-gmdviambmsbyxmb
+- collection_type: open
+  name: 3gpp-monitoring-event
+  slug: open-3gpp-ts29122-monitoringevent
+- collection_type: open
+  name: 3gpp-msisdn-less-mo-sms
+  slug: open-3gpp-ts29122-msisdnlessmosms
+- collection_type: open
+  name: 3gpp-nidd
+  slug: open-3gpp-ts29122-nidd
+- collection_type: open
+  name: 3gpp-network-parameter-configuration
+  slug: open-3gpp-ts29122-npconfiguration
+- collection_type: open
+  name: 3gpp-pfd-management
+  slug: open-3gpp-ts29122-pfdmanagement
+- collection_type: open
+  name: 3gpp-racs-parameter-provisioning
+  slug: open-3gpp-ts29122-racsparameterprovisioning
+- collection_type: open
+  name: 3gpp-network-status-reporting
+  slug: open-3gpp-ts29122-reportingnetworkstatus
+- collection_type: open
+  name: 3gpp-bdt
+  slug: open-3gpp-ts29122-resourcemanagementofbdt
+- collection_type: open
+  name: AEF_Security_API
+  slug: open-3gpp-ts29222-aef-security-api
+- collection_type: open
+  name: CAPIF_Access_Control_Policy_API
+  slug: open-3gpp-ts29222-capif-access-control-policy-api
+- collection_type: open
+  name: CAPIF_API_Invoker_Management_API
+  slug: open-3gpp-ts29222-capif-api-invoker-management-api
+- collection_type: open
+  name: CAPIF_API_Provider_Management_API
+  slug: open-3gpp-ts29222-capif-api-provider-management-api
+- collection_type: open
+  name: CAPIF_Auditing_API
+  slug: open-3gpp-ts29222-capif-auditing-api
+- collection_type: open
+  name: CAPIF_Discover_Service_API
+  slug: open-3gpp-ts29222-capif-discover-service-api
+- collection_type: open
+  name: CAPIF_Events_API
+  slug: open-3gpp-ts29222-capif-events-api
+- collection_type: open
+  name: CAPIF_Logging_API_Invocation_API
+  slug: open-3gpp-ts29222-capif-logging-api-invocation-api
+- collection_type: open
+  name: CAPIF_Open_Discover_Service_API
+  slug: open-3gpp-ts29222-capif-open-discover-service-api
+- collection_type: open
+  name: CAPIF_Publish_Service_API
+  slug: open-3gpp-ts29222-capif-publish-service-api
+- collection_type: open
+  name: CAPIF_Routing_Info_API
+  slug: open-3gpp-ts29222-capif-routing-info-api
+- collection_type: open
+  name: CAPIF_Security_API
+  slug: open-3gpp-ts29222-capif-security-api
+- collection_type: open
+  name: Npcf_SMPolicyControl API
+  slug: open-3gpp-ts29512-npcf-smpolicycontrol
+- collection_type: open
+  name: Npcf_PolicyAuthorization Service API
+  slug: open-3gpp-ts29514-npcf-policyauthorization
+- collection_type: open
+  name: Nnwdaf_AnalyticsInfo
+  slug: open-3gpp-ts29520-nnwdaf-analyticsinfo
+- collection_type: open
+  name: Nnwdaf_EventsSubscription
+  slug: open-3gpp-ts29520-nnwdaf-eventssubscription
+- collection_type: open
+  name: 3gpp-5glan-pp
+  slug: open-3gpp-ts29522-5glanparameterprovision
+- collection_type: open
+  name: 3gpp-acs-pp
+  slug: open-3gpp-ts29522-acsparameterprovision
+- collection_type: open
+  name: 3gpp-addr-pp
+  slug: open-3gpp-ts29522-addressingparamprovision
+- collection_type: open
+  name: 3gpp-aiot
+  slug: open-3gpp-ts29522-aiot
+- collection_type: open
+  name: 3gpp-akma
+  slug: open-3gpp-ts29522-akma
+- collection_type: open
+  name: AMInfluence
+  slug: open-3gpp-ts29522-aminfluence
+- collection_type: open
+  name: 3gpp-am-policyauthorization
+  slug: open-3gpp-ts29522-ampolicyauthorization
+- collection_type: open
+  name: 3gpp-analyticsexposure
+  slug: open-3gpp-ts29522-analyticsexposure
+- collection_type: open
+  name: 3gpp-applying-bdt-policy
+  slug: open-3gpp-ts29522-applyingbdtpolicy
+- collection_type: open
+  name: 3gpp-asti
+  slug: open-3gpp-ts29522-asti
+- collection_type: open
+  name: 3gpp-caginfo-pp
+  slug: open-3gpp-ts29522-caginfoparamprovision
+- collection_type: open
+  name: 3gpp-data-reporting
+  slug: open-3gpp-ts29522-datareporting
+- collection_type: open
+  name: 3gpp-data-reporting-provisioning
+  slug: open-3gpp-ts29522-datareportingprovisioning
+- collection_type: open
+  name: 3gpp-dnai-mapping
+  slug: open-3gpp-ts29522-dnaimapping
+- collection_type: open
+  name: 3gpp-eas-deployment
+  slug: open-3gpp-ts29522-easdeployment
+- collection_type: open
+  name: 3gpp-ecs-address
+  slug: open-3gpp-ts29522-ecsaddress
+- collection_type: open
+  name: 3gpp-ecs-address-provision
+  slug: open-3gpp-ts29522-ecsaddressprovision
+- collection_type: open
+  name: 3gpp-grp-pp
+  slug: open-3gpp-ts29522-groupparametersprovisioning
+- collection_type: open
+  name: 3gpp-ims-ee
+  slug: open-3gpp-ts29522-imseventexposure
+- collection_type: open
+  name: 3gpp-ims-pp
+  slug: open-3gpp-ts29522-imsparamprovision
+- collection_type: open
+  name: 3gpp-ims-sm
+  slug: open-3gpp-ts29522-imssessionmanagement
+- collection_type: open
+  name: 3gpp-iptvconfiguration
+  slug: open-3gpp-ts29522-iptvconfiguration
+- collection_type: open
+  name: 3gpp-lpi-pp
+  slug: open-3gpp-ts29522-lpiparameterprovision
+- collection_type: open
+  name: 3gpp-mbs-group-msg
+  slug: open-3gpp-ts29522-mbsgroupmsgdelivery
+- collection_type: open
+  name: 3gpp-mbs-session
+  slug: open-3gpp-ts29522-mbssession
+- collection_type: open
+  name: 3gpp-mbs-tmgi
+  slug: open-3gpp-ts29522-mbstmgi
+- collection_type: open
+  name: 3gpp-mbs-ud-ingest
+  slug: open-3gpp-ts29522-mbsuserdataingestsession
+- collection_type: open
+  name: 3gpp-mbs-us
+  slug: open-3gpp-ts29522-mbsuserservice
+- collection_type: open
+  name: 3gpp-musa
+  slug: open-3gpp-ts29522-memberueselectionassistance
+- collection_type: open
+  name: 3gpp-mo-lcs-notify
+  slug: open-3gpp-ts29522-molcsnotify
+- collection_type: open
+  name: 3gpp-ms-event-exposure
+  slug: open-3gpp-ts29522-mseventexposure
+- collection_type: open
+  name: 3gpp-nidd-configuration-trigger
+  slug: open-3gpp-ts29522-niddconfigurationtrigger
+- collection_type: open
+  name: 3gpp-pdtq-policy-negotiation
+  slug: open-3gpp-ts29522-pdtqpolicynegotiation
+- collection_type: open
+  name: 3gpp-rslppi-pp
+  slug: open-3gpp-ts29522-rslppiparametersprovisioning
+- collection_type: open
+  name: 3gpp-service-parameter
+  slug: open-3gpp-ts29522-serviceparameter
+- collection_type: open
+  name: 3gpp-slice-pp
+  slug: open-3gpp-ts29522-sliceparamprovision
+- collection_type: open
+  name: 3gpp-time-sync
+  slug: open-3gpp-ts29522-timesyncexposure
+- collection_type: open
+  name: 3gpp-traffic-influence
+  slug: open-3gpp-ts29522-trafficinfluence
+- collection_type: open
+  name: 3gpp-uav-fa
+  slug: open-3gpp-ts29522-uavflightassistance
+- collection_type: open
+  name: 3gpp-ue-address
+  slug: open-3gpp-ts29522-ueaddress
+- collection_type: open
+  name: 3gpp-ueid
+  slug: open-3gpp-ts29522-ueid
+- collection_type: open
+  name: 3gpp-vfl-inference
+  slug: open-3gpp-ts29522-vflinference
+- collection_type: open
+  name: 3gpp-vfl-nf-discovery
+  slug: open-3gpp-ts29522-vflnfdiscovery
+- collection_type: open
+  name: 3gpp-vfl-training
+  slug: open-3gpp-ts29522-vfltraining
+- collection_type: open
+  name: Common Data Types
+  slug: open-3gpp-ts29571-commondata
 common:
 - group: agent
   title: ''
@@ -546,7 +895,7 @@ overview: '3GPP publishes 116 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   3GPP''s developer surface includes authentication, documentation, developer portal, tooling, engineering blog, changelog, support, and 28 more developer resources.'
-random_paper: 18
+random_paper: 80
 scopes:
 - name: 3Gpp Scopes
   scope_count: 6
@@ -581,7 +930,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/screenshots/3gpp-2026-08-07T160703.png
 security:

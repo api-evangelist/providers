@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,15 +54,24 @@ apis:
 - description: Infor M3 business API programs
   name: Infor M3 API API
   slug: infor-m3-api-api
-artifact_total: 19
+artifact_total: 22
 asyncapis:
 - description: Infor ION event framework AsyncAPI specification for event-driven integrations with Infor CloudSuite applications. The ION Event Hub publishes business events when transactions occur in Infor applicat
   name: Infor ION Events
   slug: infor-ion-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Infor ION API Gateway
   slug: open-infor-ion-api-gateway
+- collection_type: open
+  name: Infor ION API Gateway ION Documents API
+  slug: open-infor-ion-documents-api
+- collection_type: open
+  name: Infor ION API Gateway ION Documents M3 API API
+  slug: open-infor-m3-api-api
 common:
 - group: agent
   title: ''
@@ -119,7 +128,7 @@ plans:
 - name: Infor Plans Pricing
   plan_count: 1
   slug: infor-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: Infor Rate Limits
@@ -166,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/screenshots/infor-2026-06-20T183339.png
 security:

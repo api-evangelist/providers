@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: Return user response.
   name: Mastercard Developer Hub for FDX APIs User APIs API
   slug: mastercard-developer-hub-for-fdx-apis-user-apis-api
-artifact_total: 16
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller API
+  slug: open-mastercard-developer-hub-for-fdx-apis-application-check-controller-api
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller Consent API
+  slug: open-mastercard-developer-hub-for-fdx-apis-consent-api
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller Data Resource APIs API
+  slug: open-mastercard-developer-hub-for-fdx-apis-data-resource-apis-api
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller Dynamic Client Registration API
+  slug: open-mastercard-developer-hub-for-fdx-apis-dynamic-client-registration-api
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller Non PAR Authorize API
+  slug: open-mastercard-developer-hub-for-fdx-apis-non-par-authorize-api
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller PAR+RAR Authorize API
+  slug: open-mastercard-developer-hub-for-fdx-apis-par-rar-authorize-api
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller Resource Token API
+  slug: open-mastercard-developer-hub-for-fdx-apis-resource-token-api
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller Token Introspection API
+  slug: open-mastercard-developer-hub-for-fdx-apis-token-introspection-api
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller Upload Data API
+  slug: open-mastercard-developer-hub-for-fdx-apis-upload-data-api
+- collection_type: open
+  name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller User APIs API
+  slug: open-mastercard-developer-hub-for-fdx-apis-user-apis-api
 common:
 - group: operate
   title: ''
@@ -255,7 +289,7 @@ plans:
 - name: Mastercard Developer Hub For Fdx Apis Plans Pricing
   plan_count: 3
   slug: mastercard-developer-hub-for-fdx-apis-plans-pricing
-random_paper: 50
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Mastercard Developer Hub For Fdx Apis Rate Limits
@@ -286,7 +320,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/screenshots/mastercard-developer-hub-for-fdx-apis-2026-06-20T185022.png
 security:

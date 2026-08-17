@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 5
@@ -95,7 +95,68 @@ apis:
 - description: Persistent volumes
   name: Smol Machines volumes API
   slug: smol-machines-volumes-api
-artifact_total: 23
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: smolfleet apikeys API
+  slug: open-smol-machines-apikeys-api
+- collection_type: open
+  name: smolfleet apikeys apps API
+  slug: open-smol-machines-apps-api
+- collection_type: open
+  name: smolfleet apikeys billing API
+  slug: open-smol-machines-billing-api
+- collection_type: open
+  name: smolfleet apikeys Containers API
+  slug: open-smol-machines-containers-api
+- collection_type: open
+  name: smolfleet apikeys Execution API
+  slug: open-smol-machines-execution-api
+- collection_type: open
+  name: smolfleet apikeys health API
+  slug: open-smol-machines-health-api
+- collection_type: open
+  name: smolfleet apikeys Images API
+  slug: open-smol-machines-images-api
+- collection_type: open
+  name: smolfleet apikeys Logs API
+  slug: open-smol-machines-logs-api
+- collection_type: open
+  name: smolfleet apikeys machines API
+  slug: open-smol-machines-machines-api
+- collection_type: open
+  name: smolfleet apikeys MicroVMs API
+  slug: open-smol-machines-microvms-api
+- collection_type: open
+  name: smolfleet apikeys nodes API
+  slug: open-smol-machines-nodes-api
+- collection_type: open
+  name: smolfleet apikeys operations API
+  slug: open-smol-machines-operations-api
+- collection_type: open
+  name: smolfleet apikeys plans API
+  slug: open-smol-machines-plans-api
+- collection_type: open
+  name: smolfleet apikeys pools API
+  slug: open-smol-machines-pools-api
+- collection_type: open
+  name: smolfleet apikeys Sandboxes API
+  slug: open-smol-machines-sandboxes-api
+- collection_type: open
+  name: smolfleet apikeys tenants API
+  slug: open-smol-machines-tenants-api
+- collection_type: open
+  name: smolfleet apikeys tokens API
+  slug: open-smol-machines-tokens-api
+- collection_type: open
+  name: smolfleet apikeys usage API
+  slug: open-smol-machines-usage-api
+- collection_type: open
+  name: smolfleet apikeys volumes API
+  slug: open-smol-machines-volumes-api
 common:
 - group: other
   title: ''
@@ -245,7 +306,7 @@ overview: 'Smol Machines publishes 19 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Smol Machines'' developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, signup flow, pricing, and 26 more developer resources.'
-random_paper: 8
+random_paper: 136
 score:
   band: developing
   composite: 48.3
@@ -269,7 +330,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 5
@@ -143,7 +143,116 @@ apis:
 - description: APIs for managing ZKS (ZEDEDA Kubernetes Service) cluster instances including creation, management, node operations, and status monitoring
   name: Zededa ZKSClusterInstances API
   slug: zededa-zksclusterinstances-api
-artifact_total: 40
+artifact_total: 76
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService API
+  slug: open-zededa-appprofileservice-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService ArtifactManager API
+  slug: open-zededa-artifactmanager-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService AssetGroupService API
+  slug: open-zededa-assetgroupservice-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService BulkJobOps API
+  slug: open-zededa-bulkjobops-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService CertificateEnrollmentProfileConfiguration API
+  slug: open-zededa-certificateenrollmentprofileconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService CloudDiagnostics API
+  slug: open-zededa-clouddiagnostics-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService ClusterGroups API
+  slug: open-zededa-clustergroups-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService ClusterStatus API
+  slug: open-zededa-clusterstatus-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService DatastoreConfiguration API
+  slug: open-zededa-datastoreconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeApplicationConfiguration API
+  slug: open-zededa-edgeapplicationconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeApplicationInstanceConfiguration API
+  slug: open-zededa-edgeapplicationinstanceconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeApplicationInstanceStatus API
+  slug: open-zededa-edgeapplicationinstancestatus-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeDiagnostics API
+  slug: open-zededa-edgediagnostics-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeNetworkConfiguration API
+  slug: open-zededa-edgenetworkconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeNetworkInstanceConfiguration API
+  slug: open-zededa-edgenetworkinstanceconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeNetworkInstanceStatus API
+  slug: open-zededa-edgenetworkinstancestatus-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeNodeClusterConfiguration API
+  slug: open-zededa-edgenodeclusterconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeNodeConfiguration API
+  slug: open-zededa-edgenodeconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EdgeNodeStatus API
+  slug: open-zededa-edgenodestatus-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService EnterpriseEntitlementsReport API
+  slug: open-zededa-enterpriseentitlementsreport-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService HardwareModel API
+  slug: open-zededa-hardwaremodel-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService HelmChartManagement API
+  slug: open-zededa-helmchartmanagement-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService IdentityAccessManagement API
+  slug: open-zededa-identityaccessmanagement-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService ImageConfiguration API
+  slug: open-zededa-imageconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService KubernetesDeployments API
+  slug: open-zededa-kubernetesdeployments-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService KubernetesGitOps API
+  slug: open-zededa-kubernetesgitops-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService KubernetesSecrets API
+  slug: open-zededa-kubernetessecrets-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService PatchEnvelopeConfiguration API
+  slug: open-zededa-patchenvelopeconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService PrivateHelmRepositories API
+  slug: open-zededa-privatehelmrepositories-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService ProfileDeploymentService API
+  slug: open-zededa-profiledeploymentservice-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService ResourceGroup API
+  slug: open-zededa-resourcegroup-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService ResourceGroupStatus API
+  slug: open-zededa-resourcegroupstatus-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService VolumeInstanceConfiguration API
+  slug: open-zededa-volumeinstanceconfiguration-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService VolumeInstanceStatus API
+  slug: open-zededa-volumeinstancestatus-api
+- collection_type: open
+  name: ZEDEDA App Profiles Service AppProfileService ZKSClusterInstances API
+  slug: open-zededa-zksclusterinstances-api
 common:
 - group: docs
   title: ''
@@ -269,7 +378,7 @@ overview: 'Zededa publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Zededa''s developer surface includes API reference, documentation, authentication, support, engineering blog, and 22 more developer resources.'
-random_paper: 21
+random_paper: 25
 score:
   band: developing
   composite: 42.0
@@ -293,7 +402,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

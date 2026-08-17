@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 51.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +52,7 @@ apis:
 - description: Public Da Vinci Plan-Net FHIR R4 provider directory resources.
   name: Independence Blue Cross Provider Directory API
   slug: independence-blue-cross-provider-directory-api
-artifact_total: 65
+artifact_total: 70
 collections:
 - collection_type: postman
   name: Independence Blue Cross Drug FHIR Formulary API
@@ -63,15 +64,111 @@ collections:
   name: Independence Blue Cross Drug FHIR Formulary Provider Directory API
   slug: postman-independence-blue-cross-provider-directory-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Independence Blue Cross Drug FHIR Formulary API
+  slug: open-independence-blue-cross-formulary-api
+- collection_type: open
   name: Independence Blue Cross Drug Formulary FHIR API
   slug: open-independence-blue-cross-formulary
+- collection_type: open
+  name: Independence Blue Cross Drug FHIR Formulary Patient Access API
+  slug: open-independence-blue-cross-patient-access-api
 - collection_type: open
   name: Independence Blue Cross Patient Access FHIR API
   slug: open-independence-blue-cross-patient
 - collection_type: open
+  name: Independence Blue Cross Drug FHIR Formulary Provider Directory API
+  slug: open-independence-blue-cross-provider-directory-api
+- collection_type: open
   name: Independence Blue Cross Provider Directory FHIR API
   slug: open-independence-blue-cross-provider
 common:
+- group: docs
+  title: ''
+  type: Swagger
+  url: openapi/_original/independence-blue-cross-cms-swagger.json
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/independence-blue-cross-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/independence-blue-cross-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/independence-blue-cross-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/independence-blue-cross-mcp.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/independence-blue-cross-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.ibx.com/privacy-policy/hipaa-compliance.html
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/independence-blue-cross-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/independence-blue-cross-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/independence-blue-cross-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/independence-blue-cross-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/independence-blue-cross-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.ibx.com/developer-resources/index.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ibx.com/contact-us/index.html
+- group: build
+  title: ''
+  type: Examples
+  url: examples/independence-blue-cross-patient-read-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/independence-blue-cross-coverage-search-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/independence-blue-cross-explanation-of-benefit-search-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/independence-blue-cross-practitioner-search-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/independence-blue-cross-organization-search-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/independence-blue-cross-medication-knowledge-search-example.json
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -322,7 +419,11 @@ jsonld:
   property_count: 12
   slug: independence-blue-cross-context
 layout: provider
-modified: '2026-07-25'
+mcp_servers:
+- description: ''
+  name: independence-blue-cross-mcp.yml
+  slug: independence-blue-cross-mcpyml
+modified: '2026-08-15'
 name: Independence Blue Cross
 nav: Providers
 network: true
@@ -332,12 +433,12 @@ overview: 'Independence Blue Cross publishes 3 APIs on the [APIs.io](https://api
   The Independence Blue Cross catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Independence Blue Cross'' developer surface includes authentication, developer portal, documentation, YouTube channel, engineering blog, and 34 more developer resources.'
+  Independence Blue Cross'' developer surface includes sandbox, getting-started guide, support, code examples, authentication, developer portal, documentation, and 53 more developer resources.'
 plans:
 - name: Independence Blue Cross Plans Pricing
   plan_count: 5
   slug: independence-blue-cross-plans-pricing
-random_paper: 38
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Independence Blue Cross Rate Limits
@@ -365,15 +466,15 @@ scopes:
   slug: independence-blue-cross-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.4
-  delta: 0.0
+  band: exemplar
+  composite: 69.8
+  delta: 12.4
   facets:
-    commercial_clarity: 73.7
+    commercial_clarity: 81.6
     contract_quality: 67.2
-    developer_ergonomics: 34.8
-    discoverability: 74.1
-    governance: 68.8
+    developer_ergonomics: 71.7
+    discoverability: 81.5
+    governance: 89.6
     operational_transparency: 31.6
   previous_composite: 57.4
   provenance:
@@ -388,16 +489,16 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 52.5
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:
 - kind: authentication
   name: Independence Blue Cross Authentication
   slug: independence-blue-cross-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2 · 2 schemes
 - kind: domain-security
   name: Independence Blue Cross Domain Security
   slug: independence-blue-cross-domain-security

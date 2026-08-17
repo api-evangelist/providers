@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -51,7 +51,23 @@ apis:
 - description: AI agent skills (SKILL.md) discovered and scanned by AgentMesh
   name: Knostic skills API
   slug: knostic-skills-api
-artifact_total: 13
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Knostic AgentMesh extensions API
+  slug: open-knostic-extensions-api
+- collection_type: open
+  name: Knostic AgentMesh extensions mcp API
+  slug: open-knostic-mcp-api
+- collection_type: open
+  name: Knostic AgentMesh extensions scans API
+  slug: open-knostic-scans-api
+- collection_type: open
+  name: Knostic AgentMesh extensions skills API
+  slug: open-knostic-skills-api
 common:
 - group: agent
   title: ''
@@ -203,7 +219,7 @@ overview: 'Knostic publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Knostic Rate Limits
@@ -231,7 +247,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/screenshots/knostic-2026-07-25T224003.png
 security:

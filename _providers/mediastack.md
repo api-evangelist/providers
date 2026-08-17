@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: Discovery of supported news sources, publishers, and blogs.
   name: Mediastack Sources API
   slug: mediastack-sources-api
-artifact_total: 47
+artifact_total: 50
 collections:
 - collection_type: postman
   name: Mediastack News API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Mediastack News Sources API
   slug: postman-mediastack-sources-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mediastack News API
+  slug: open-mediastack-news-api
+- collection_type: open
+  name: Mediastack News Sources API
+  slug: open-mediastack-sources-api
 - collection_type: open
   name: Mediastack News API
   slug: open-mediastack
@@ -227,7 +236,7 @@ plans:
 - name: Mediastack Plans Pricing
   plan_count: 5
   slug: mediastack-plans-pricing
-random_paper: 86
+random_paper: 3
 rate_limits:
 - limit_count: 8
   name: Mediastack Rate Limits
@@ -269,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/screenshots/mediastack-2026-06-20T185116.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -62,8 +62,29 @@ apis:
 - description: The Products API from Magento 2 (Adobe Commerce) — 2 operation(s) for products.
   name: Magento 2 (Adobe Commerce) Products API
   slug: magento-2-products-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Commerce (Magento 2) REST Auth API
+  slug: open-magento-2-auth-api
+- collection_type: open
+  name: Adobe Commerce (Magento 2) REST Auth Carts API
+  slug: open-magento-2-carts-api
+- collection_type: open
+  name: Adobe Commerce (Magento 2) REST Auth Categories API
+  slug: open-magento-2-categories-api
+- collection_type: open
+  name: Adobe Commerce (Magento 2) REST Auth Customers API
+  slug: open-magento-2-customers-api
+- collection_type: open
+  name: Adobe Commerce (Magento 2) REST Auth Orders API
+  slug: open-magento-2-orders-api
+- collection_type: open
+  name: Adobe Commerce (Magento 2) REST Auth Products API
+  slug: open-magento-2-products-api
 - collection_type: open
   name: Adobe Commerce (Magento 2) REST API
   slug: open-magento-2
@@ -124,7 +145,7 @@ overview: 'Magento 2 (Adobe Commerce) publishes 6 APIs on the [APIs.io](https://
 
 
   Magento 2 (Adobe Commerce)''s developer surface includes authentication, documentation, GitHub presence, pricing, signup flow, and 5 more developer resources.'
-random_paper: 2
+random_paper: 97
 score:
   band: thin
   composite: 29.6
@@ -145,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/screenshots/magento-2-2026-06-20T184840.png
 security:

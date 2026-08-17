@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 4
@@ -68,7 +68,41 @@ apis:
 - description: All endpoints related to interacting with Robot's vehicle operations here
   name: Polymath Robotics Vehicle Operations API
   slug: polymath-vehicle-operations-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Polymath API Service CANBus API
+  slug: open-polymath-canbus-api
+- collection_type: open
+  name: Polymath API Service CANBus filesystem API
+  slug: open-polymath-filesystem-api
+- collection_type: open
+  name: Polymath API Service CANBus Health Check API
+  slug: open-polymath-health-check-api
+- collection_type: open
+  name: Polymath API Service CANBus Livekit API
+  slug: open-polymath-livekit-api
+- collection_type: open
+  name: Polymath API Service CANBus Media API
+  slug: open-polymath-media-api
+- collection_type: open
+  name: Polymath API Service CANBus ros API
+  slug: open-polymath-ros-api
+- collection_type: open
+  name: Polymath API Service CANBus systemd API
+  slug: open-polymath-systemd-api
+- collection_type: open
+  name: Polymath API Service CANBus Teleop Control API
+  slug: open-polymath-teleop-control-api
+- collection_type: open
+  name: Polymath API Service CANBus Vehicle Autonomy API
+  slug: open-polymath-vehicle-autonomy-api
+- collection_type: open
+  name: Polymath API Service CANBus Vehicle Operations API
+  slug: open-polymath-vehicle-operations-api
 common:
 - group: other
   title: ''
@@ -178,7 +212,7 @@ overview: 'Polymath Robotics publishes 10 APIs on the [APIs.io](https://apis.io/
 
 
   Polymath Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 38
+random_paper: 133
 score:
   band: thin
   composite: 39.9
@@ -202,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

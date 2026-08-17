@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 41
 apis:
 - description: The Aggregates API from Uniform — 1 operation(s) for aggregates.
@@ -155,11 +155,135 @@ apis:
 - description: The Workflows API from Uniform — 1 operation(s) for workflows.
   name: Uniform Workflows API
   slug: uniform-workflows-api
-artifact_total: 46
+artifact_total: 87
 asyncapis:
 - description: ''
   name: Uniform Webhooks
   slug: uniform-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Uniform Platform Aggregates API
+  slug: open-uniform-aggregates-api
+- collection_type: open
+  name: Uniform Platform Aggregates AI Agents API
+  slug: open-uniform-ai-agents-api
+- collection_type: open
+  name: Uniform Platform Aggregates Assets API
+  slug: open-uniform-assets-api
+- collection_type: open
+  name: Uniform Platform Aggregates Authentication API
+  slug: open-uniform-authentication-api
+- collection_type: open
+  name: Uniform Platform Aggregates Categories API
+  slug: open-uniform-categories-api
+- collection_type: open
+  name: Uniform Platform Aggregates Component Definitions API
+  slug: open-uniform-component-definitions-api
+- collection_type: open
+  name: Uniform Platform Aggregates Compositions & Component/Composition Patterns API
+  slug: open-uniform-compositions-component-composition-patterns-api
+- collection_type: open
+  name: Uniform Platform Aggregates Content Types API
+  slug: open-uniform-content-types-api
+- collection_type: open
+  name: Uniform Platform Aggregates Data Sources API
+  slug: open-uniform-data-sources-api
+- collection_type: open
+  name: Uniform Platform Aggregates Data Types API
+  slug: open-uniform-data-types-api
+- collection_type: open
+  name: Uniform Platform Aggregates Dimensions API
+  slug: open-uniform-dimensions-api
+- collection_type: open
+  name: Uniform Platform Aggregates Enrichments API
+  slug: open-uniform-enrichments-api
+- collection_type: open
+  name: Uniform Platform Aggregates Entries & Entry Patterns API
+  slug: open-uniform-entries-entry-patterns-api
+- collection_type: open
+  name: Uniform Platform Aggregates Favorites API
+  slug: open-uniform-favorites-api
+- collection_type: open
+  name: Uniform Platform Aggregates Files API
+  slug: open-uniform-files-api
+- collection_type: open
+  name: Uniform Platform Aggregates Insights API
+  slug: open-uniform-insights-api
+- collection_type: open
+  name: Uniform Platform Aggregates Integrations API
+  slug: open-uniform-integrations-api
+- collection_type: open
+  name: Uniform Platform Aggregates Labels API
+  slug: open-uniform-labels-api
+- collection_type: open
+  name: Uniform Platform Aggregates Locales API
+  slug: open-uniform-locales-api
+- collection_type: open
+  name: Uniform Platform Aggregates Manifest API
+  slug: open-uniform-manifest-api
+- collection_type: open
+  name: Uniform Platform Aggregates Members API
+  slug: open-uniform-members-api
+- collection_type: open
+  name: Uniform Platform Aggregates Notifications API
+  slug: open-uniform-notifications-api
+- collection_type: open
+  name: Uniform Platform Aggregates Policies API
+  slug: open-uniform-policies-api
+- collection_type: open
+  name: Uniform Platform Aggregates Project Map API
+  slug: open-uniform-project-map-api
+- collection_type: open
+  name: Uniform Platform Aggregates Projects API
+  slug: open-uniform-projects-api
+- collection_type: open
+  name: Uniform Platform Aggregates Prompts API
+  slug: open-uniform-prompts-api
+- collection_type: open
+  name: Uniform Platform Aggregates Quirks API
+  slug: open-uniform-quirks-api
+- collection_type: open
+  name: Uniform Platform Aggregates Redirects API
+  slug: open-uniform-redirects-api
+- collection_type: open
+  name: Uniform Platform Aggregates Relationships API
+  slug: open-uniform-relationships-api
+- collection_type: open
+  name: Uniform Platform Aggregates Releases API
+  slug: open-uniform-releases-api
+- collection_type: open
+  name: Uniform Platform Aggregates Roles API
+  slug: open-uniform-roles-api
+- collection_type: open
+  name: Uniform Platform Aggregates Routes API
+  slug: open-uniform-routes-api
+- collection_type: open
+  name: Uniform Platform Aggregates Security API
+  slug: open-uniform-security-api
+- collection_type: open
+  name: Uniform Platform Aggregates Signals API
+  slug: open-uniform-signals-api
+- collection_type: open
+  name: Uniform Platform Aggregates Teams API
+  slug: open-uniform-teams-api
+- collection_type: open
+  name: Uniform Platform Aggregates Tests API
+  slug: open-uniform-tests-api
+- collection_type: open
+  name: Uniform Platform Aggregates UTM Mapper API
+  slug: open-uniform-utm-mapper-api
+- collection_type: open
+  name: Uniform Platform Aggregates Vercel API
+  slug: open-uniform-vercel-api
+- collection_type: open
+  name: Uniform Platform Aggregates Webhooks API
+  slug: open-uniform-webhooks-api
+- collection_type: open
+  name: Uniform Platform Aggregates Workflows API
+  slug: open-uniform-workflows-api
 common:
 - group: other
   title: ''
@@ -309,7 +433,7 @@ overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Uniform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 25 more developer resources.'
-random_paper: 48
+random_paper: 23
 score:
   band: developing
   composite: 55.4
@@ -332,7 +456,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

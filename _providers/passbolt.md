@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -120,7 +120,92 @@ apis:
 - description: User are entities with the ability to interact with the application.
   name: Passbolt Users API
   slug: passbolt-users-api
-artifact_total: 34
+artifact_total: 62
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Authentication (GPGAuth) API
+  slug: open-passbolt-authentication-gpgauth-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Authentication (JWT) API
+  slug: open-passbolt-authentication-jwt-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Avatars API
+  slug: open-passbolt-avatars-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Comments API
+  slug: open-passbolt-comments-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Directory Sync API
+  slug: open-passbolt-directory-sync-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Favorites API
+  slug: open-passbolt-favorites-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Folders API
+  slug: open-passbolt-folders-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) GPG keys API
+  slug: open-passbolt-gpg-keys-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Groups API
+  slug: open-passbolt-groups-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Healthcheck API
+  slug: open-passbolt-healthcheck-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Metadata keys API
+  slug: open-passbolt-metadata-keys-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Metadata private keys API
+  slug: open-passbolt-metadata-private-keys-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Metadata rotate key API
+  slug: open-passbolt-metadata-rotate-key-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Metadata session key API
+  slug: open-passbolt-metadata-session-key-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Metadata types settings API
+  slug: open-passbolt-metadata-types-settings-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Metadata upgrade API
+  slug: open-passbolt-metadata-upgrade-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Move API
+  slug: open-passbolt-move-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Multi-Factor Authentication API
+  slug: open-passbolt-multi-factor-authentication-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Permissions API
+  slug: open-passbolt-permissions-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Resource types API
+  slug: open-passbolt-resource-types-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Resources API
+  slug: open-passbolt-resources-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Roles API
+  slug: open-passbolt-roles-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Secrets API
+  slug: open-passbolt-secrets-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Settings API
+  slug: open-passbolt-settings-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Shares API
+  slug: open-passbolt-shares-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Tags API
+  slug: open-passbolt-tags-api
+- collection_type: open
+  name: Passbolt Authentication (GPGAuth) Authentication (GPGAuth) Users API
+  slug: open-passbolt-users-api
 common:
 - group: agent
   title: ''
@@ -178,7 +263,7 @@ plans:
 - name: Passbolt Plans Pricing
   plan_count: 3
   slug: passbolt-plans-pricing
-random_paper: 32
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Passbolt Rate Limits
@@ -203,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passbolt/refs/heads/main/screenshots/passbolt-2026-06-20T191434.png
 security:

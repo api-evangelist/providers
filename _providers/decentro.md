@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -72,19 +72,49 @@ apis:
 - description: The Verification API from Decentro — 1 operation(s) for verification.
   name: Decentro Verification API
   slug: decentro-verification-api
-artifact_total: 26
+artifact_total: 36
 collections:
 - collection_type: open
-  name: Decentro KYC & Onboarding API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Decentro KYC & Onboarding Accounts API
+  slug: open-decentro-accounts-api
+- collection_type: open
+  name: Decentro KYC & Onboarding Accounts Collections API
+  slug: open-decentro-collections-api
+- collection_type: open
+  name: Decentro KYC & Onboarding Accounts Forensics API
+  slug: open-decentro-forensics-api
+- collection_type: open
+  name: Decentro KYC & Onboarding Accounts Journals API
+  slug: open-decentro-journals-api
+- collection_type: open
+  name: Decentro & Onboarding Accounts KYC API
   slug: open-decentro-kyc-api
 - collection_type: open
   name: Decentro Ledger API
   slug: open-decentro-ledger-api
 - collection_type: open
+  name: Decentro KYC & Onboarding Accounts Mandates API
+  slug: open-decentro-mandates-api
+- collection_type: open
   name: Decentro Payments API
   slug: open-decentro-payments-api
 - collection_type: open
-  name: Decentro Virtual Accounts API
+  name: Decentro KYC & Onboarding Accounts Payouts API
+  slug: open-decentro-payouts-api
+- collection_type: open
+  name: Decentro KYC & Onboarding Accounts Settlements API
+  slug: open-decentro-settlements-api
+- collection_type: open
+  name: Decentro KYC & Onboarding Accounts Transactions API
+  slug: open-decentro-transactions-api
+- collection_type: open
+  name: Decentro KYC & Onboarding Accounts Verification API
+  slug: open-decentro-verification-api
+- collection_type: open
+  name: Decentro KYC & Onboarding Accounts Virtual Accounts API
   slug: open-decentro-virtual-accounts-api
 common:
 - group: agent
@@ -174,7 +204,7 @@ plans:
 - name: Decentro Plans Pricing
   plan_count: 2
   slug: decentro-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Decentro Rate Limits
@@ -222,7 +252,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/screenshots/decentro-2026-06-20T175753.png
 security:

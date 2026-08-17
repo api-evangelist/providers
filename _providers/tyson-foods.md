@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,20 @@ apis:
 - description: Shipment tracking operations
   name: Tyson Foods Shipments API
   slug: tyson-foods-shipments-api
-artifact_total: 16
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Tyson Foods EDI Integration API
   slug: open-tyson-foods-edi-integration-api
+- collection_type: open
+  name: Tyson Foods EDI Integration Orders API
+  slug: open-tyson-foods-orders-api
+- collection_type: open
+  name: Tyson Foods EDI Integration Orders Shipments API
+  slug: open-tyson-foods-shipments-api
 common:
 - group: agent
   title: ''
@@ -176,7 +185,7 @@ press:
 - date: '2026-05-25'
   title: Tyson Demo Day Showcases AI Innovations in Food ...
   url: https://www.tysonfoods.com/news/news-releases/2025/7/tyson-demo-day-showcases-ai-innovations-food-technology
-random_paper: 77
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Tyson Foods Rate Limits
@@ -218,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/screenshots/tyson-foods-2026-06-20T195909.png
 security:

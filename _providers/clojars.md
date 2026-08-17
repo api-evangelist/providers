@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Operations related to Clojars user profiles and group memberships
   name: Clojars Users API
   slug: clojars-users-api
-artifact_total: 20
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clojars REST Artifacts API
+  slug: open-clojars-artifacts-api
+- collection_type: open
+  name: Clojars REST Artifacts Feeds API
+  slug: open-clojars-feeds-api
+- collection_type: open
+  name: Clojars REST Artifacts Groups API
+  slug: open-clojars-groups-api
+- collection_type: open
+  name: Clojars REST Artifacts Search API
+  slug: open-clojars-search-api
+- collection_type: open
+  name: Clojars REST Artifacts Users API
+  slug: open-clojars-users-api
 common:
 - group: operate
   title: ''
@@ -150,7 +169,7 @@ plans:
 - name: Free
   plan_count: 0
   slug: free
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Default
@@ -184,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/screenshots/clojars-2026-06-20T174532.png
 security:

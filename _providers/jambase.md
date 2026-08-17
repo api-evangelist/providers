@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Search Venues
   name: JamBase Venues API
   slug: jambase-venues-api
-artifact_total: 43
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JamBase Concert Data Artists API
+  slug: open-jambase-artists-api
+- collection_type: open
+  name: JamBase Concert Data Artists Events API
+  slug: open-jambase-events-api
+- collection_type: open
+  name: JamBase Concert Data Artists Genres API
+  slug: open-jambase-genres-api
+- collection_type: open
+  name: JamBase Concert Data Artists Geographies API
+  slug: open-jambase-geographies-api
+- collection_type: open
+  name: JamBase Concert Data Artists Lookups API
+  slug: open-jambase-lookups-api
+- collection_type: open
+  name: JamBase Concert Data Artists Streams API
+  slug: open-jambase-streams-api
+- collection_type: open
+  name: JamBase Concert Data Artists Venues API
+  slug: open-jambase-venues-api
 common:
 - group: agent
   title: ''
@@ -226,7 +251,7 @@ plans:
 - name: Jambase Plans Pricing
   plan_count: 5
   slug: jambase-plans-pricing
-random_paper: 3
+random_paper: 127
 rate_limits:
 - limit_count: 9
   name: Jambase Rate Limits
@@ -260,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/screenshots/jambase-2026-06-20T183655.png
 security:

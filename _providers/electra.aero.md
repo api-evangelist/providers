@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -32,7 +32,11 @@ apis:
 - description: Public, unauthenticated, CORS-open JSON API serving the Electra.aero newsroom — press releases, program milestones and syndicated coverage. This is the default Statamic Content REST API behind the cor
   name: Electra.aero Content API
   slug: electraaero-content-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Electra.aero Content API (news)
+  slug: open-electra
 common:
 - group: agent
   title: ''
@@ -123,7 +127,7 @@ plans:
 - name: Electra.Aero Plans Pricing
   plan_count: 0
   slug: electra.aero-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Electra.Aero Rate Limits
@@ -131,6 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 56.7
@@ -138,8 +143,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 29.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Electra.Aero Authentication

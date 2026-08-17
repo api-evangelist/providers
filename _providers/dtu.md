@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,17 @@ apis:
 - description: The institutions API from Technical University of Denmark — 1 operation(s) for institutions.
   name: Technical University of Denmark institutions API
   slug: dtu-institutions-api
-artifact_total: 18
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DTU Data (Figshare API v2) articles API
+  slug: open-dtu-articles-api
+- collection_type: open
+  name: DTU Data (Figshare API v2) articles institutions API
+  slug: open-dtu-institutions-api
 common:
 - group: agent
   title: ''
@@ -145,7 +155,7 @@ plans:
 - name: Dtu Plans Pricing
   plan_count: 2
   slug: dtu-plans-pricing
-random_paper: 93
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Dtu Rate Limits
@@ -193,7 +203,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/screenshots/dtu-2026-06-20T180302.png
 security:

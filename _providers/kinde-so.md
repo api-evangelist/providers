@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 12
@@ -120,8 +120,92 @@ apis:
 - description: The Webhooks API from Kinde — 4 operation(s) for webhooks.
   name: Kinde Webhooks API
   slug: kinde-so-webhooks-api
-artifact_total: 36
+artifact_total: 64
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kinde Management API Keys API
+  slug: open-kinde-so-api-keys-api
+- collection_type: open
+  name: Kinde Management API Keys APIs API
+  slug: open-kinde-so-apis-api
+- collection_type: open
+  name: Kinde Management API Keys Applications API
+  slug: open-kinde-so-applications-api
+- collection_type: open
+  name: Kinde Management API Keys Billing Agreements API
+  slug: open-kinde-so-billing-agreements-api
+- collection_type: open
+  name: Kinde Management API Keys Billing Entitlements API
+  slug: open-kinde-so-billing-entitlements-api
+- collection_type: open
+  name: Kinde Management API Keys Billing Meter Usage API
+  slug: open-kinde-so-billing-meter-usage-api
+- collection_type: open
+  name: Kinde Management API Keys Business API
+  slug: open-kinde-so-business-api
+- collection_type: open
+  name: Kinde Management API Keys Callbacks API
+  slug: open-kinde-so-callbacks-api
+- collection_type: open
+  name: Kinde Management API Keys Connected Apps API
+  slug: open-kinde-so-connected-apps-api
+- collection_type: open
+  name: Kinde Management API Keys Connections API
+  slug: open-kinde-so-connections-api
+- collection_type: open
+  name: Kinde Management API Keys Directories API
+  slug: open-kinde-so-directories-api
+- collection_type: open
+  name: Kinde Management API Keys Environment variables API
+  slug: open-kinde-so-environment-variables-api
+- collection_type: open
+  name: Kinde Management API Keys Environments API
+  slug: open-kinde-so-environments-api
+- collection_type: open
+  name: Kinde Management API Keys Feature Flags API
+  slug: open-kinde-so-feature-flags-api
+- collection_type: open
+  name: Kinde Management API Keys Identities API
+  slug: open-kinde-so-identities-api
+- collection_type: open
+  name: Kinde Management API Keys Industries API
+  slug: open-kinde-so-industries-api
+- collection_type: open
+  name: Kinde Management API Keys MFA API
+  slug: open-kinde-so-mfa-api
+- collection_type: open
+  name: Kinde Management API Keys Organizations API
+  slug: open-kinde-so-organizations-api
+- collection_type: open
+  name: Kinde Management API Keys Permissions API
+  slug: open-kinde-so-permissions-api
+- collection_type: open
+  name: Kinde Management API Keys Properties API
+  slug: open-kinde-so-properties-api
+- collection_type: open
+  name: Kinde Management API Keys Property Categories API
+  slug: open-kinde-so-property-categories-api
+- collection_type: open
+  name: Kinde Management API Keys Roles API
+  slug: open-kinde-so-roles-api
+- collection_type: open
+  name: Kinde Management API Keys Search API
+  slug: open-kinde-so-search-api
+- collection_type: open
+  name: Kinde Management API Keys Subscribers API
+  slug: open-kinde-so-subscribers-api
+- collection_type: open
+  name: Kinde Management API Keys Timezones API
+  slug: open-kinde-so-timezones-api
+- collection_type: open
+  name: Kinde Management API Keys Users API
+  slug: open-kinde-so-users-api
+- collection_type: open
+  name: Kinde Management API Keys Webhooks API
+  slug: open-kinde-so-webhooks-api
 - collection_type: open
   name: Kinde Management API
   slug: open-kinde-so
@@ -198,7 +282,7 @@ plans:
 - name: Kinde So Plans Pricing
   plan_count: 5
   slug: kinde-so-plans-pricing
-random_paper: 74
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Kinde So Rate Limits
@@ -223,7 +307,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinde-so/refs/heads/main/screenshots/kinde-so-2026-07-25T223804.png
 security:

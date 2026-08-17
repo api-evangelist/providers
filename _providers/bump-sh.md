@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: The Versions API from Bump.sh — 2 operation(s) for versions.
   name: Bump.sh Versions API
   slug: bump-sh-versions-api
-artifact_total: 54
+artifact_total: 62
 collections:
 - collection_type: postman
   name: Bump.sh Api Branches API
@@ -90,6 +90,30 @@ collections:
 - collection_type: postman
   name: Bump.sh Api Branches Versions API
   slug: postman-bump-sh-versions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bump.sh Api Branches API
+  slug: open-bump-sh-branches-api
+- collection_type: open
+  name: Bump.sh Api Branches Diffs API
+  slug: open-bump-sh-diffs-api
+- collection_type: open
+  name: Bump.sh Api Branches Hubs API
+  slug: open-bump-sh-hubs-api
+- collection_type: open
+  name: Bump.sh Api Branches MCP servers API
+  slug: open-bump-sh-mcp-servers-api
+- collection_type: open
+  name: Bump.sh Api Branches Ping API
+  slug: open-bump-sh-ping-api
+- collection_type: open
+  name: Bump.sh Api Branches Validations API
+  slug: open-bump-sh-validations-api
+- collection_type: open
+  name: Bump.sh Api Branches Versions API
+  slug: open-bump-sh-versions-api
 common:
 - group: operate
   title: ''
@@ -314,7 +338,7 @@ plans:
 - name: Bump Sh Plans Pricing
   plan_count: 4
   slug: bump-sh-plans-pricing
-random_paper: 100
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Bump Sh Rate Limits
@@ -356,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/screenshots/bump-sh-2026-06-20T173758.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -70,11 +70,57 @@ apis:
 - description: Server-to-server events Riot sends to customer-configured endpoints.
   name: Riot Webhook Events API
   slug: riot-webhook-events-api
-artifact_total: 23
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Riot Webhooks
   slug: riot-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Riot Awareness API
+  slug: open-riot-awareness-api
+- collection_type: open
+  name: Riot Breaches API
+  slug: open-riot-breaches-api
+- collection_type: open
+  name: Riot General API
+  slug: open-riot-general-api
+- collection_type: open
+  name: Riot Groups API
+  slug: open-riot-groups-api
+- collection_type: open
+  name: Riot Inbox API
+  slug: open-riot-inbox-api
+- collection_type: open
+  name: Riot SCIM API
+  slug: open-riot-scim-api
+- collection_type: open
+  name: Riot Simulation API
+  slug: open-riot-simulation-api
+- collection_type: open
+  name: Riot Slash API
+  slug: open-riot-slash-api
+- collection_type: open
+  name: Riot Sonar API
+  slug: open-riot-sonar-api
+- collection_type: open
+  name: Riot Team awareness API
+  slug: open-riot-team-awareness-api
+- collection_type: open
+  name: Riot Team inbox API
+  slug: open-riot-team-inbox-api
+- collection_type: open
+  name: Riot Team platform API
+  slug: open-riot-team-platform-api
+- collection_type: open
+  name: Riot Team simulation API
+  slug: open-riot-team-simulation-api
+- collection_type: open
+  name: Riot Webhook Events API
+  slug: open-riot-webhook-events-api
 common:
 - group: agent
   title: ''
@@ -239,7 +285,7 @@ overview: 'Riot publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 29 more developer resources.'
-random_paper: 86
+random_paper: 148
 rate_limits:
 - limit_count: 0
   name: Riot Rate Limits
@@ -272,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

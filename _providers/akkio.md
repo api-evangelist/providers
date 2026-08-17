@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,26 +18,39 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-12'
-api_count: 2
+  score: 40.3
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
-- description: Create and populate datasets that models train on.
+- description: Akkio's current public API, served and documented as "Akkio Public API (Beta)". Covers projects (including the Chat Explore custom-instruction fields), asynchronous model training, and Chat Explore na
+  name: Akkio Public API (Beta)
+  slug: akkio-public-api
+- description: Legacy v1 datasets surface. Create a dataset, append rows, set field types, parse fields, list and delete. Authenticated with an api_key query parameter on GET and an api_key JSON body field on POST/D
   name: Akkio Datasets API
   slug: akkio-datasets-api
-- description: Train predictive models and generate predictions.
+- description: Legacy v1 models surface. List trained models and POST rows to a model to receive predictions with per-class probabilities. Akkio's own docs describe the newer /api/v1 Training routes as a better-desi
   name: Akkio Models API
   slug: akkio-models-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Akkio Datasets API
+  slug: open-akkio-datasets-api
+- collection_type: open
+  name: Akkio Datasets Models API
+  slug: open-akkio-models-api
 common:
 - group: auth
   title: ''
@@ -50,19 +63,19 @@ common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://docs.akkio.com/akkio-help-center
+  url: https://docs.akkio.com/akkio-docs
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.akkio.com/akkio-help-center
+  url: https://docs.akkio.com/akkio-docs
 - group: docs
   title: ''
   type: APIReference
-  url: https://github.com/akkio-inc/akkio-python
+  url: https://docs.akkio.com/akkio-docs/endpoints-and-schemas/endpoints
 - group: start
   title: ''
   type: GettingStarted
-  url: https://docs.akkio.com/akkio-help-center/getting-started/account-set-up
+  url: https://docs.akkio.com/akkio-docs/rest-api/api-introduction/quickstart
 - group: operate
   title: ''
   type: Support
@@ -137,10 +150,6 @@ common:
   url: packages/akkio-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
-  url: mcp/akkio-mcp.yml
-- group: agent
-  title: ''
   type: LLMsTxt
   url: llms/akkio-llms.txt
 - group: agent
@@ -151,34 +160,59 @@ common:
   title: ''
   type: OpenAPI
   url: openapi/_original/akkio-api-openapi.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/akkio-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/akkio-plans-pricing.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/akkio-problem-types.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/akkio-public-api-overlay.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/akkio-public-api-openapi.yaml
 created: '2026-07-17'
-description: 'Akkio is a no-code predictive AI and AI-workflow-automation platform built for media agencies and data providers. Teams use it to activate data across the campaign lifecycle: audience segmentation, propensity modeling, RFM analysis, media-mix modeling, performance measurement, and campaign-strategy development, all from unified intelligence. Beyond the app, Akkio exposes a developer REST API at https://api.akk.io/v1 (API-key auth) for managing datasets, training predictive models, and generating predictions with optional feature explanations, backed by official Python and JavaScript SDKs. The company is SOC 2 Type 2 and HIPAA compliant (verified via Drata).'
+description: 'Akkio is a no-code predictive AI and AI-workflow-automation platform built for media agencies and data providers. Teams use it to activate data across the campaign lifecycle: audience segmentation, propensity modeling, RFM analysis, media-mix modeling, performance measurement, and campaign-strategy development, all from unified intelligence. Beyond the app, Akkio ships a developer REST API on https://api.akkio.com in two generations: the legacy /v1 datasets and models routes (api_key in query or body), and the current "Akkio Public API (Beta)" at /api/v1, which covers projects, asynchronous model training and Chat Explore natural-language querying behind an X-API-Key header. Akkio publishes its own OpenAPI 3.1.0 document at /api/v1/api.yaml with a Swagger UI at /api/v1/docs and documents generating clients from it; the two first-party SDKs (PyPI and npm `akkio`) cover only the legacy surface and have not been released since 2021. The company is SOC 2 Type 2 and HIPAA compliant
+  (verified via Drata).'
 image: https://cdn.prod.website-files.com/5c97e8c9de94e8a3480419a5/6959836988084dcbb9ac3605_Screenshot%202026-01-03%20at%2012.58.19%E2%80%AFPM.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: akkio-mcp.yml
-  slug: akkio-mcpyml
-modified: '2026-07-17'
+modified: '2026-08-13'
 name: Akkio
 nav: Providers
 network: true
-overview: 'Akkio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Models API. Tagged areas include Company, Ai Apps, Machine Learning, Predictive Analytics, and No Code.
+overview: 'Akkio publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public API (Beta), Datasets API, and Models API. Tagged areas include Company, Ai Apps, Machine Learning, Predictive Analytics, and No Code.
 
 
-  Akkio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 47
+  Akkio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Akkio Plans Pricing
+  plan_count: 0
+  slug: akkio-plans-pricing
+random_paper: 80
+rate_limits:
+- limit_count: 1
+  name: Akkio Rate Limits
+  slug: akkio-rate-limits
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 53.1
+  delta: 5.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.5
-    developer_ergonomics: 62.5
-    discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 15.8
+    contract_quality: 54.2
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 11.5
+    operational_transparency: 36.8
   previous_composite: 47.5
   provenance:
     conformance: derived
@@ -190,14 +224,14 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/screenshots/akkio-2026-07-25T195516.png
 security:
 - kind: authentication
   name: Akkio Authentication
   slug: akkio-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey · 3 schemes
 - kind: domain-security
   name: Akkio Domain Security
   slug: akkio-domain-security

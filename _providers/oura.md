@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -102,7 +102,74 @@ apis:
 - description: The Workout data scope includes information about user workouts. This is a diverse, growing list of workouts that help inform how the user is training and exercising.
   name: Oura Ring Workout Routes API
   slug: oura-workout-routes-api
-artifact_total: 62
+artifact_total: 84
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes API
+  slug: open-oura-daily-activity-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Daily Cardiovascular Age Routes API
+  slug: open-oura-daily-cardiovascular-age-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Daily Readiness Routes API
+  slug: open-oura-daily-readiness-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Daily Resilience Routes API
+  slug: open-oura-daily-resilience-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Daily Sleep Routes API
+  slug: open-oura-daily-sleep-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Daily Spo2 Routes API
+  slug: open-oura-daily-spo2-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Daily Stress Routes API
+  slug: open-oura-daily-stress-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Enhanced Tag Routes API
+  slug: open-oura-enhanced-tag-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Heart Rate Routes API
+  slug: open-oura-heart-rate-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Personal Info Routes API
+  slug: open-oura-personal-info-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Rest Mode Period Routes API
+  slug: open-oura-rest-mode-period-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Ring Battery Level Routes API
+  slug: open-oura-ring-battery-level-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Ring Configuration Routes API
+  slug: open-oura-ring-configuration-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Sandbox Routes API
+  slug: open-oura-sandbox-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Session Routes API
+  slug: open-oura-session-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Sleep Routes API
+  slug: open-oura-sleep-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Sleep Time Routes API
+  slug: open-oura-sleep-time-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Tag Routes API
+  slug: open-oura-tag-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes VO2 Max Routes API
+  slug: open-oura-vo2-max-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Webhook Subscription Routes API
+  slug: open-oura-webhook-subscription-routes-api
+- collection_type: open
+  name: Oura API Documentation Daily Activity Routes Workout Routes API
+  slug: open-oura-workout-routes-api
 common:
 - group: agent
   title: ''
@@ -301,7 +368,7 @@ plans:
 - name: Oura Plans Pricing
   plan_count: 2
   slug: oura-plans-pricing
-random_paper: 79
+random_paper: 141
 rate_limits:
 - limit_count: 3
   name: Oura Rate Limits
@@ -346,7 +413,7 @@ score:
     regime_id: health
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/screenshots/oura-2026-06-20T191225.png
 security:

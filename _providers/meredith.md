@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -323,7 +323,7 @@ plans:
 - name: Meredith Plans Pricing
   plan_count: 8
   slug: meredith-plans-pricing
-random_paper: 10
+random_paper: 105
 rate_limits:
 - limit_count: 0
   name: Meredith Rate Limits
@@ -348,7 +348,7 @@ rules:
 score:
   band: developing
   composite: 47.3
-  delta: 7.2
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 22.6
@@ -356,7 +356,7 @@ score:
     discoverability: 92.6
     governance: 81.3
     operational_transparency: 31.6
-  previous_composite: 40.1
+  previous_composite: 47.3
   regulatory:
     applies: true
     matched_via: tags
@@ -364,8 +364,8 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Meredith Domain Security

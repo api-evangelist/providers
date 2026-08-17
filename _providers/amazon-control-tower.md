@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -73,11 +73,26 @@ arazzos:
 - description: Update a landing zone's version or manifest, poll the async operation, then read back its details.
   name: AWS Control Tower Update Landing Zone and Confirm
   slug: amazon-control-tower-update-landing-zone-workflow
-artifact_total: 165
+artifact_total: 170
 collections:
 - collection_type: postman
   name: AWS Control Tower API
   slug: postman-amazon-control-tower
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Control Tower Baselines API
+  slug: open-amazon-control-tower-baselines-api
+- collection_type: open
+  name: AWS Control Tower Baselines Controls API
+  slug: open-amazon-control-tower-controls-api
+- collection_type: open
+  name: AWS Control Tower Baselines Landing Zones API
+  slug: open-amazon-control-tower-landing-zones-api
+- collection_type: open
+  name: AWS Control Tower Baselines Tags API
+  slug: open-amazon-control-tower-tags-api
 - collection_type: open
   name: AWS Control Tower API
   slug: open-amazon-control-tower
@@ -631,7 +646,7 @@ plans:
 - name: Amazon Control Tower Plans Pricing
   plan_count: 3
   slug: amazon-control-tower-plans-pricing
-random_paper: 26
+random_paper: 129
 rate_limits:
 - limit_count: 5
   name: Amazon Control Tower Rate Limits
@@ -673,7 +688,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/screenshots/amazon-control-tower-2026-06-20T171608.png
 security:

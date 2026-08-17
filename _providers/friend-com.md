@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -77,7 +77,7 @@ plans:
 - name: Friend Com Plans Pricing
   plan_count: 1
   slug: friend-com-plans-pricing
-random_paper: 36
+random_paper: 102
 rate_limits:
 - limit_count: 2
   name: Friend Com Rate Limits
@@ -95,7 +95,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friend-com/refs/heads/main/screenshots/friend-com-2026-06-20T181547.png
 security:

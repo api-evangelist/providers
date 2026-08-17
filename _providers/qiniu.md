@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API for Qiniu Kodo object storage — bucket administration, object upload/download, stat/copy/move/delete, lifecycle and CORS rules, async fetch, and CDN prefetch/refresh. S3-compatible surface av
@@ -151,7 +151,7 @@ overview: 'Qiniu Cloud publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Qiniu Cloud''s developer surface includes documentation, API reference, getting-started guide, support, pricing, CLI, authentication, and 17 more developer resources.'
-random_paper: 70
+random_paper: 103
 score:
   band: thin
   composite: 32.3
@@ -169,7 +169,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

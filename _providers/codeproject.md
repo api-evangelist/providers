@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -78,14 +78,56 @@ apis:
 - description: Scene classification.
   name: CodeProject Vision-Scene API
   slug: codeproject-vision-scene-api
-artifact_total: 24
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: CodeProject.AI Server API
   slug: open-codeproject-ai-server
 - collection_type: open
+  name: CodeProject.AI Server Articles API
+  slug: open-codeproject-articles-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Audio API
+  slug: open-codeproject-audio-api
+- collection_type: open
+  name: CodeProject.AI Server Articles ForumMessages API
+  slug: open-codeproject-forummessages-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Image-Processing API
+  slug: open-codeproject-image-processing-api
+- collection_type: open
+  name: CodeProject.AI Server Articles My API
+  slug: open-codeproject-my-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Questions API
+  slug: open-codeproject-questions-api
+- collection_type: open
   name: CodeProject REST API
   slug: open-codeproject-rest-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Status API
+  slug: open-codeproject-status-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Text API
+  slug: open-codeproject-text-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Training API
+  slug: open-codeproject-training-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Vision-ALPR API
+  slug: open-codeproject-vision-alpr-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Vision-Detection API
+  slug: open-codeproject-vision-detection-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Vision-Face API
+  slug: open-codeproject-vision-face-api
+- collection_type: open
+  name: CodeProject.AI Server Articles Vision-Scene API
+  slug: open-codeproject-vision-scene-api
 common:
 - group: operate
   title: ''
@@ -195,7 +237,7 @@ plans:
 - name: Codeproject Plans Pricing
   plan_count: 3
   slug: codeproject-plans-pricing
-random_paper: 90
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Codeproject Rate Limits
@@ -234,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/screenshots/codeproject-2026-06-20T174804.png
 security:

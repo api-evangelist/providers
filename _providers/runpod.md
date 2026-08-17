@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -69,8 +69,35 @@ apis:
 - description: The Templates API from RunPod — 3 operation(s) for templates.
   name: RunPod Templates API
   slug: runpod-templates-api
-artifact_total: 27
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Runpod REST Billing API
+  slug: open-runpod-billing-api
+- collection_type: open
+  name: Runpod REST Billing Containerregistryauth API
+  slug: open-runpod-containerregistryauth-api
+- collection_type: open
+  name: Runpod REST Billing Docs API
+  slug: open-runpod-docs-api
+- collection_type: open
+  name: Runpod REST Billing Endpoints API
+  slug: open-runpod-endpoints-api
+- collection_type: open
+  name: Runpod REST Billing Networkvolumes API
+  slug: open-runpod-networkvolumes-api
+- collection_type: open
+  name: Runpod REST Billing Openapi.json API
+  slug: open-runpod-openapi-json-api
+- collection_type: open
+  name: Runpod REST Billing Pods API
+  slug: open-runpod-pods-api
+- collection_type: open
+  name: Runpod REST Billing Templates API
+  slug: open-runpod-templates-api
 - collection_type: open
   name: Runpod REST API
   slug: open-runpod
@@ -209,7 +236,7 @@ plans:
 - name: Runpod Plans Pricing
   plan_count: 1
   slug: runpod-plans-pricing
-random_paper: 64
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Runpod Rate Limits
@@ -234,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/screenshots/runpod-2026-06-20T193259.png
 security:

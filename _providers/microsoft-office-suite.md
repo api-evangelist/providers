@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -69,8 +69,20 @@ apis:
 - description: The Teams API from Microsoft Office Suite — 4 operation(s) for teams.
   name: Microsoft Office Suite Teams API
   slug: microsoft-office-suite-teams-api
-artifact_total: 19
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph API - Office Suite Drive API
+  slug: open-microsoft-office-suite-drive-api
+- collection_type: open
+  name: Microsoft Graph API - Office Suite Drive Mail API
+  slug: open-microsoft-office-suite-mail-api
+- collection_type: open
+  name: Microsoft Graph API - Office Suite Drive Teams API
+  slug: open-microsoft-office-suite-teams-api
 - collection_type: open
   name: Microsoft Graph API - Office Suite
   slug: open-microsoft-office-suite
@@ -139,7 +151,7 @@ plans:
 - name: Microsoft Office Suite Plans Pricing
   plan_count: 3
   slug: microsoft-office-suite-plans-pricing
-random_paper: 86
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Suite Rate Limits
@@ -169,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-suite/refs/heads/main/screenshots/microsoft-office-suite-2026-06-20T185516.png
 security:

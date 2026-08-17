@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,11 +50,27 @@ apis:
 - description: Enterprise project and user management
   name: Pimloc Projects API
   slug: pimloc-projects-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: Secure Redact processes media asynchronously. When a state_callback and/or export_callback URL is supplied on upload, the platform POSTs event payloads to those URLs as media moves through the redacti
   name: Secure Redact Media Callbacks
   slug: pimloc-secureredact-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Secure Redact Account API
+  slug: open-pimloc-account-api
+- collection_type: open
+  name: Secure Redact Account Authentication API
+  slug: open-pimloc-authentication-api
+- collection_type: open
+  name: Secure Redact Account Media API
+  slug: open-pimloc-media-api
+- collection_type: open
+  name: Secure Redact Account Projects API
+  slug: open-pimloc-projects-api
 common:
 - group: agent
   title: ''
@@ -199,7 +215,7 @@ overview: 'Pimloc publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Pimloc''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 44
+random_paper: 48
 score:
   band: developing
   composite: 53.9
@@ -223,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

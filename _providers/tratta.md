@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Webhook configuration for event notifications
   name: Tratta Webhooks API
   slug: tratta-webhooks-api
-artifact_total: 25
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tratta Bulk Operations API
+  slug: open-tratta-bulk-operations-api
+- collection_type: open
+  name: Tratta Bulk Operations Charges API
+  slug: open-tratta-charges-api
+- collection_type: open
+  name: Tratta Bulk Operations Customer Sessions API
+  slug: open-tratta-customer-sessions-api
+- collection_type: open
+  name: Tratta Bulk Operations Customers API
+  slug: open-tratta-customers-api
+- collection_type: open
+  name: Tratta Bulk Operations Debt Accounts API
+  slug: open-tratta-debt-accounts-api
+- collection_type: open
+  name: Tratta Bulk Operations Payment Methods API
+  slug: open-tratta-payment-methods-api
+- collection_type: open
+  name: Tratta Bulk Operations Payment Plans API
+  slug: open-tratta-payment-plans-api
+- collection_type: open
+  name: Tratta Bulk Operations Tickets API
+  slug: open-tratta-tickets-api
+- collection_type: open
+  name: Tratta Bulk Operations Transactions API
+  slug: open-tratta-transactions-api
+- collection_type: open
+  name: Tratta Bulk Operations Webhooks API
+  slug: open-tratta-webhooks-api
 - collection_type: open
   name: Tratta API
   slug: open-tratta
@@ -157,7 +190,7 @@ plans:
 - name: Tratta Plans Pricing
   plan_count: 3
   slug: tratta-plans-pricing
-random_paper: 56
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Tratta Rate Limits
@@ -205,7 +238,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/screenshots/tratta-2026-06-20T195633.png
 security:

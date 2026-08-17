@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,8 +65,32 @@ apis:
 - description: The Users API from Microsoft 365 — 2 operation(s) for users.
   name: Microsoft 365 Users API
   slug: microsoft-365-users-api
-artifact_total: 17
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft 365 (Microsoft Graph API) Calendar API
+  slug: open-microsoft-365-calendar-api
+- collection_type: open
+  name: Microsoft 365 (Microsoft Graph API) Calendar Files API
+  slug: open-microsoft-365-files-api
+- collection_type: open
+  name: Microsoft 365 (Microsoft Graph API) Calendar Groups API
+  slug: open-microsoft-365-groups-api
+- collection_type: open
+  name: Microsoft 365 (Microsoft Graph API) Calendar Mail API
+  slug: open-microsoft-365-mail-api
+- collection_type: open
+  name: Microsoft 365 (Microsoft Graph API) Calendar Me API
+  slug: open-microsoft-365-me-api
+- collection_type: open
+  name: Microsoft 365 (Microsoft Graph API) Calendar Teams API
+  slug: open-microsoft-365-teams-api
+- collection_type: open
+  name: Microsoft 365 (Microsoft Graph API) Calendar Users API
+  slug: open-microsoft-365-users-api
 - collection_type: open
   name: Microsoft 365 (Microsoft Graph API)
   slug: open-microsoft-365
@@ -147,7 +171,7 @@ overview: 'Microsoft 365 publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Microsoft 365''s developer surface includes authentication, documentation, signup flow, pricing, and 11 more developer resources.'
-random_paper: 105
+random_paper: 142
 scopes:
 - name: Microsoft 365 Scopes
   scope_count: 8
@@ -173,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/screenshots/microsoft-365-2026-06-20T185401.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -84,8 +84,56 @@ apis:
 - description: User management
   name: FOSSology User API
   slug: fossology-user-api
-artifact_total: 31
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FOSSology Admin API
+  slug: open-fossology-admin-api
+- collection_type: open
+  name: FOSSology Admin auth API
+  slug: open-fossology-auth-api
+- collection_type: open
+  name: FOSSology Admin Copyrights API
+  slug: open-fossology-copyrights-api
+- collection_type: open
+  name: FOSSology Admin Folders API
+  slug: open-fossology-folders-api
+- collection_type: open
+  name: FOSSology Admin Groups API
+  slug: open-fossology-groups-api
+- collection_type: open
+  name: FOSSology Admin info API
+  slug: open-fossology-info-api
+- collection_type: open
+  name: FOSSology Admin Job API
+  slug: open-fossology-job-api
+- collection_type: open
+  name: FOSSology Admin License API
+  slug: open-fossology-license-api
+- collection_type: open
+  name: FOSSology Admin Maintenance API
+  slug: open-fossology-maintenance-api
+- collection_type: open
+  name: FOSSology Admin Organize API
+  slug: open-fossology-organize-api
+- collection_type: open
+  name: FOSSology Admin Overview API
+  slug: open-fossology-overview-api
+- collection_type: open
+  name: FOSSology Admin Report API
+  slug: open-fossology-report-api
+- collection_type: open
+  name: FOSSology Admin Search API
+  slug: open-fossology-search-api
+- collection_type: open
+  name: FOSSology Admin Upload API
+  slug: open-fossology-upload-api
+- collection_type: open
+  name: FOSSology Admin User API
+  slug: open-fossology-user-api
 - collection_type: open
   name: FOSSology API
   slug: open-fossology
@@ -183,7 +231,7 @@ plans:
 - name: Fossology Plans Pricing
   plan_count: 3
   slug: fossology-plans-pricing
-random_paper: 37
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Fossology Rate Limits
@@ -230,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/screenshots/fossology-2026-06-20T181450.png
 security:

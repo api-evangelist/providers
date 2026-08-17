@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -63,8 +63,35 @@ apis:
 - description: Restream a live stream to third-party RTMP destinations.
   name: FastPix Simulcast API
   slug: fastpix-simulcast-api
-artifact_total: 17
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FastPix Data API
+  slug: open-fastpix-data-api
+- collection_type: open
+  name: FastPix Data DRM API
+  slug: open-fastpix-drm-api
+- collection_type: open
+  name: FastPix Data In-Video AI API
+  slug: open-fastpix-in-video-ai-api
+- collection_type: open
+  name: FastPix Data Live Streaming API
+  slug: open-fastpix-live-streaming-api
+- collection_type: open
+  name: FastPix Data On-Demand API
+  slug: open-fastpix-on-demand-api
+- collection_type: open
+  name: FastPix Data Playback API
+  slug: open-fastpix-playback-api
+- collection_type: open
+  name: FastPix Data Signing Keys API
+  slug: open-fastpix-signing-keys-api
+- collection_type: open
+  name: FastPix Data Simulcast API
+  slug: open-fastpix-simulcast-api
 - collection_type: open
   name: FastPix API
   slug: open-fastpix
@@ -141,7 +168,7 @@ plans:
 - name: Fastpix Plans Pricing
   plan_count: 4
   slug: fastpix-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Fastpix Rate Limits
@@ -166,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/screenshots/fastpix-2026-07-25T214247.png
 security:

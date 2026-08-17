@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ apis:
 - description: Read employee training and course completion records.
   name: HR Partner Training API
   slug: hr-partner-training-api
-artifact_total: 121
+artifact_total: 152
 collections:
 - collection_type: postman
   name: HR Partner REST Absences API
@@ -228,8 +228,101 @@ collections:
   name: HR Partner REST Absences Training API
   slug: postman-hr-partner-training-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HR Partner REST Absences API
+  slug: open-hr-partner-absences-api
+- collection_type: open
+  name: HR Partner REST Absences Addresses API
+  slug: open-hr-partner-addresses-api
+- collection_type: open
+  name: HR Partner REST Absences Applicants API
+  slug: open-hr-partner-applicants-api
+- collection_type: open
+  name: HR Partner REST Absences Application Stage Tracking API
+  slug: open-hr-partner-application-stage-tracking-api
+- collection_type: open
+  name: HR Partner REST Absences Applications API
+  slug: open-hr-partner-applications-api
+- collection_type: open
+  name: HR Partner REST Absences Assets API
+  slug: open-hr-partner-assets-api
+- collection_type: open
+  name: HR Partner REST Absences Attachments API
+  slug: open-hr-partner-attachments-api
+- collection_type: open
+  name: HR Partner REST Absences Benefits API
+  slug: open-hr-partner-benefits-api
+- collection_type: open
+  name: HR Partner REST Absences Checklists API
+  slug: open-hr-partner-checklists-api
+- collection_type: open
+  name: HR Partner REST Absences Company API
+  slug: open-hr-partner-company-api
+- collection_type: open
+  name: HR Partner REST Absences Contacts API
+  slug: open-hr-partner-contacts-api
+- collection_type: open
+  name: HR Partner REST Absences Dependents API
+  slug: open-hr-partner-dependents-api
+- collection_type: open
+  name: HR Partner REST Absences Education API
+  slug: open-hr-partner-education-api
+- collection_type: open
+  name: HR Partner REST Absences Employees API
+  slug: open-hr-partner-employees-api
+- collection_type: open
+  name: HR Partner REST Absences Expenses API
+  slug: open-hr-partner-expenses-api
+- collection_type: open
+  name: HR Partner REST Absences Goals API
+  slug: open-hr-partner-goals-api
+- collection_type: open
+  name: HR Partner REST Absences Grievances API
+  slug: open-hr-partner-grievances-api
+- collection_type: open
+  name: HR Partner REST Absences Job Listings API
+  slug: open-hr-partner-job-listings-api
+- collection_type: open
+  name: HR Partner REST Absences Leave Balances API
+  slug: open-hr-partner-leave-balances-api
+- collection_type: open
+  name: HR Partner REST Absences Leave Requests API
+  slug: open-hr-partner-leave-requests-api
+- collection_type: open
+  name: HR Partner REST Absences Library API
+  slug: open-hr-partner-library-api
+- collection_type: open
+  name: HR Partner REST Absences Lookups API
+  slug: open-hr-partner-lookups-api
+- collection_type: open
+  name: HR Partner REST Absences Notes API
+  slug: open-hr-partner-notes-api
+- collection_type: open
+  name: HR Partner REST Absences Positions API
+  slug: open-hr-partner-positions-api
+- collection_type: open
+  name: HR Partner REST Absences Projects API
+  slug: open-hr-partner-projects-api
+- collection_type: open
+  name: HR Partner REST Absences Reminders API
+  slug: open-hr-partner-reminders-api
+- collection_type: open
+  name: HR Partner REST Absences Renewables API
+  slug: open-hr-partner-renewables-api
+- collection_type: open
   name: HR Partner REST API
   slug: open-hr-partner-rest-api
+- collection_type: open
+  name: HR Partner REST Absences Skills API
+  slug: open-hr-partner-skills-api
+- collection_type: open
+  name: HR Partner REST Absences Timesheets API
+  slug: open-hr-partner-timesheets-api
+- collection_type: open
+  name: HR Partner REST Absences Training API
+  slug: open-hr-partner-training-api
 common:
 - group: build
   title: ''
@@ -489,7 +582,7 @@ plans:
 - name: Hr Partner Plans Pricing
   plan_count: 3
   slug: hr-partner-plans-pricing
-random_paper: 67
+random_paper: 133
 rate_limits:
 - limit_count: 2
   name: Hr Partner Rate Limits
@@ -531,7 +624,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hr-partner/refs/heads/main/screenshots/hr-partner-2026-06-20T182858.png
 security:

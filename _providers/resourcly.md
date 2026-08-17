@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -104,7 +104,77 @@ apis:
 - description: The upload API from Resourcly — 1 operation(s) for upload.
   name: Resourcly upload API
   slug: resourcly-upload-api
-artifact_total: 26
+artifact_total: 49
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Resourcly analytics API
+  slug: open-resourcly-analytics-api
+- collection_type: open
+  name: Resourcly analytics auth API
+  slug: open-resourcly-auth-api
+- collection_type: open
+  name: Resourcly analytics bom-comparisons API
+  slug: open-resourcly-bom-comparisons-api
+- collection_type: open
+  name: Resourcly analytics boms API
+  slug: open-resourcly-boms-api
+- collection_type: open
+  name: Resourcly analytics business API
+  slug: open-resourcly-business-api
+- collection_type: open
+  name: Resourcly analytics datasources API
+  slug: open-resourcly-datasources-api
+- collection_type: open
+  name: Resourcly analytics documents API
+  slug: open-resourcly-documents-api
+- collection_type: open
+  name: Resourcly analytics drive API
+  slug: open-resourcly-drive-api
+- collection_type: open
+  name: Resourcly analytics duplicates API
+  slug: open-resourcly-duplicates-api
+- collection_type: open
+  name: Resourcly analytics email API
+  slug: open-resourcly-email-api
+- collection_type: open
+  name: Resourcly analytics feedback API
+  slug: open-resourcly-feedback-api
+- collection_type: open
+  name: Resourcly analytics health API
+  slug: open-resourcly-health-api
+- collection_type: open
+  name: Resourcly analytics imports API
+  slug: open-resourcly-imports-api
+- collection_type: open
+  name: Resourcly analytics inventory API
+  slug: open-resourcly-inventory-api
+- collection_type: open
+  name: Resourcly analytics Items API
+  slug: open-resourcly-items-api
+- collection_type: open
+  name: Resourcly analytics release-notes API
+  slug: open-resourcly-release-notes-api
+- collection_type: open
+  name: Resourcly analytics search API
+  slug: open-resourcly-search-api
+- collection_type: open
+  name: Resourcly analytics storage API
+  slug: open-resourcly-storage-api
+- collection_type: open
+  name: Resourcly analytics supplier-data-requests API
+  slug: open-resourcly-supplier-data-requests-api
+- collection_type: open
+  name: Resourcly analytics supplier-portal API
+  slug: open-resourcly-supplier-portal-api
+- collection_type: open
+  name: Resourcly analytics suppliers API
+  slug: open-resourcly-suppliers-api
+- collection_type: open
+  name: Resourcly analytics upload API
+  slug: open-resourcly-upload-api
 common:
 - group: auth
   title: ''
@@ -210,7 +280,7 @@ overview: 'Resourcly publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Resourcly''s developer surface includes authentication, documentation, API reference, support, changelog, and 17 more developer resources.'
-random_paper: 40
+random_paper: 106
 score:
   band: thin
   composite: 38.0
@@ -234,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

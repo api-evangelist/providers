@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -144,8 +144,113 @@ apis:
 - description: The ZoneService API from Openprovider — 2 operation(s) for zoneservice.
   name: Openprovider ZoneService API
   slug: openprovider-zoneservice-api
-artifact_total: 43
+artifact_total: 78
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: REST AdditionalData API
+  slug: open-openprovider-additionaldata-api
+- collection_type: open
+  name: REST AdditionalData ApproverEmail API
+  slug: open-openprovider-approveremail-api
+- collection_type: open
+  name: REST AdditionalData Auth API
+  slug: open-openprovider-auth-api
+- collection_type: open
+  name: REST AdditionalData AuthCode API
+  slug: open-openprovider-authcode-api
+- collection_type: open
+  name: REST AdditionalData ContactService API
+  slug: open-openprovider-contactservice-api
+- collection_type: open
+  name: REST AdditionalData Csr API
+  slug: open-openprovider-csr-api
+- collection_type: open
+  name: REST AdditionalData Customer API
+  slug: open-openprovider-customer-api
+- collection_type: open
+  name: REST AdditionalData CustomerAdditionalData API
+  slug: open-openprovider-customeradditionaldata-api
+- collection_type: open
+  name: REST AdditionalData DomainPriceService API
+  slug: open-openprovider-domainpriceservice-api
+- collection_type: open
+  name: REST AdditionalData DomainService API
+  slug: open-openprovider-domainservice-api
+- collection_type: open
+  name: REST AdditionalData DomainToken API
+  slug: open-openprovider-domaintoken-api
+- collection_type: open
+  name: REST AdditionalData EasydmarcOrder API
+  slug: open-openprovider-easydmarcorder-api
+- collection_type: open
+  name: REST AdditionalData Email API
+  slug: open-openprovider-email-api
+- collection_type: open
+  name: REST AdditionalData EmailVerification API
+  slug: open-openprovider-emailverification-api
+- collection_type: open
+  name: REST AdditionalData InvoiceService API
+  slug: open-openprovider-invoiceservice-api
+- collection_type: open
+  name: REST AdditionalData LicenseService API
+  slug: open-openprovider-licenseservice-api
+- collection_type: open
+  name: REST AdditionalData NameserverService API
+  slug: open-openprovider-nameserverservice-api
+- collection_type: open
+  name: REST AdditionalData NsGroupService API
+  slug: open-openprovider-nsgroupservice-api
+- collection_type: open
+  name: REST AdditionalData Order API
+  slug: open-openprovider-order-api
+- collection_type: open
+  name: REST AdditionalData OrderApproverEmail API
+  slug: open-openprovider-orderapproveremail-api
+- collection_type: open
+  name: REST AdditionalData OtpToken API
+  slug: open-openprovider-otptoken-api
+- collection_type: open
+  name: REST AdditionalData Payment API
+  slug: open-openprovider-payment-api
+- collection_type: open
+  name: REST AdditionalData Product API
+  slug: open-openprovider-product-api
+- collection_type: open
+  name: REST AdditionalData ResellerService API
+  slug: open-openprovider-resellerservice-api
+- collection_type: open
+  name: REST AdditionalData SEDomain API
+  slug: open-openprovider-sedomain-api
+- collection_type: open
+  name: REST AdditionalData Settings API
+  slug: open-openprovider-settings-api
+- collection_type: open
+  name: REST AdditionalData SpamExpert API
+  slug: open-openprovider-spamexpert-api
+- collection_type: open
+  name: REST AdditionalData Statistics API
+  slug: open-openprovider-statistics-api
+- collection_type: open
+  name: REST AdditionalData TagService API
+  slug: open-openprovider-tagservice-api
+- collection_type: open
+  name: REST AdditionalData TemplateService API
+  slug: open-openprovider-templateservice-api
+- collection_type: open
+  name: REST AdditionalData TldService API
+  slug: open-openprovider-tldservice-api
+- collection_type: open
+  name: REST AdditionalData Transaction API
+  slug: open-openprovider-transaction-api
+- collection_type: open
+  name: REST AdditionalData ZoneRecordService API
+  slug: open-openprovider-zonerecordservice-api
+- collection_type: open
+  name: REST AdditionalData ZoneService API
+  slug: open-openprovider-zoneservice-api
 - collection_type: open
   name: REST API
   slug: open-openprovider
@@ -218,7 +323,7 @@ plans:
 - name: Openprovider Plans Pricing
   plan_count: 3
   slug: openprovider-plans-pricing
-random_paper: 109
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Openprovider Rate Limits
@@ -243,7 +348,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/screenshots/openprovider-2026-06-20T191025.png
 security:

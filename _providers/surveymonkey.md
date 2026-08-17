@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,12 +63,39 @@ apis:
 - description: The Workgroups API from SurveyMonkey — 2 operation(s) for workgroups.
   name: SurveyMonkey Workgroups API
   slug: surveymonkey-workgroups-api
-artifact_total: 19
+artifact_total: 28
 asyncapis:
 - description: AsyncAPI 2.6 description of the SurveyMonkey v3 webhook surface. SurveyMonkey delivers events as HTTP POST requests to a `subscription_url` that the consumer registers via the REST endpoint `POST /v3/
   name: SurveyMonkey Webhooks
   slug: surveymonkey-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SurveyMonkey API v3 Collectors API
+  slug: open-surveymonkey-collectors-api
+- collection_type: open
+  name: SurveyMonkey API v3 Collectors Contacts API
+  slug: open-surveymonkey-contacts-api
+- collection_type: open
+  name: SurveyMonkey API v3 Collectors Groups API
+  slug: open-surveymonkey-groups-api
+- collection_type: open
+  name: SurveyMonkey API v3 Collectors Responses API
+  slug: open-surveymonkey-responses-api
+- collection_type: open
+  name: SurveyMonkey API v3 Collectors Survey Structure API
+  slug: open-surveymonkey-survey-structure-api
+- collection_type: open
+  name: SurveyMonkey API v3 Collectors Surveys API
+  slug: open-surveymonkey-surveys-api
+- collection_type: open
+  name: SurveyMonkey API v3 Collectors Users API
+  slug: open-surveymonkey-users-api
+- collection_type: open
+  name: SurveyMonkey API v3 Collectors Workgroups API
+  slug: open-surveymonkey-workgroups-api
 - collection_type: open
   name: SurveyMonkey API v3
   slug: open-surveymonkey
@@ -120,7 +147,7 @@ plans:
 - name: Surveymonkey Plans Pricing
   plan_count: 5
   slug: surveymonkey-plans-pricing
-random_paper: 25
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Surveymonkey Rate Limits
@@ -159,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/screenshots/surveymonkey-2026-06-20T194739.png
 security:

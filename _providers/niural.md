@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,11 +41,27 @@ apis:
 - description: The Transactions API from Niural — 4 operation(s) for transactions.
   name: Niural Transactions API
   slug: niural-transactions-api
-artifact_total: 13
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Niural Webhooks
   slug: niural-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Niural Public Authentication API
+  slug: open-niural-authentication-api
+- collection_type: open
+  name: Niural Public Contracts API
+  slug: open-niural-contracts-api
+- collection_type: open
+  name: Niural Public Invoices API
+  slug: open-niural-invoices-api
+- collection_type: open
+  name: Niural Public Transactions API
+  slug: open-niural-transactions-api
 common:
 - group: company
   title: ''
@@ -210,7 +226,7 @@ plans:
 - name: Niural Plans Pricing
   plan_count: 8
   slug: niural-plans-pricing
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Niural Rate Limits
@@ -244,7 +260,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/screenshots/niural-2026-08-07T185346.png
 security:

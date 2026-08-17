@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -93,11 +93,68 @@ apis:
 - description: OpenID Connect userinfo endpoint.
   name: Blizzard Entertainment UserInfo API
   slug: blizzard-entertainment-userinfo-api
-artifact_total: 45
+artifact_total: 64
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Diablo III Community API
   slug: open-blizzard-diablo-iii
+- collection_type: open
+  name: Diablo III Community Achievements API
+  slug: open-blizzard-entertainment-achievements-api
+- collection_type: open
+  name: Diablo III Community Achievements Acts API
+  slug: open-blizzard-entertainment-acts-api
+- collection_type: open
+  name: Diablo III Community Achievements Artisans API
+  slug: open-blizzard-entertainment-artisans-api
+- collection_type: open
+  name: Diablo III Community Achievements Auctions API
+  slug: open-blizzard-entertainment-auctions-api
+- collection_type: open
+  name: Diablo III Community Achievements Authorization API
+  slug: open-blizzard-entertainment-authorization-api
+- collection_type: open
+  name: Diablo III Community Achievements Card Backs API
+  slug: open-blizzard-entertainment-card-backs-api
+- collection_type: open
+  name: Diablo III Community Achievements Cards API
+  slug: open-blizzard-entertainment-cards-api
+- collection_type: open
+  name: Diablo III Community Achievements Characters API
+  slug: open-blizzard-entertainment-characters-api
+- collection_type: open
+  name: Diablo III Community Achievements Decks API
+  slug: open-blizzard-entertainment-decks-api
+- collection_type: open
+  name: Diablo III Community Achievements Guilds API
+  slug: open-blizzard-entertainment-guilds-api
+- collection_type: open
+  name: Diablo III Community Achievements Items API
+  slug: open-blizzard-entertainment-items-api
+- collection_type: open
+  name: Diablo III Community Achievements Ladders API
+  slug: open-blizzard-entertainment-ladders-api
+- collection_type: open
+  name: Diablo III Community Achievements Metadata API
+  slug: open-blizzard-entertainment-metadata-api
+- collection_type: open
+  name: Diablo III Community Achievements Mounts API
+  slug: open-blizzard-entertainment-mounts-api
+- collection_type: open
+  name: Diablo III Community Achievements Profiles API
+  slug: open-blizzard-entertainment-profiles-api
+- collection_type: open
+  name: Diablo III Community Achievements Realms API
+  slug: open-blizzard-entertainment-realms-api
+- collection_type: open
+  name: Diablo III Community Achievements Token API
+  slug: open-blizzard-entertainment-token-api
+- collection_type: open
+  name: Diablo III Community Achievements UserInfo API
+  slug: open-blizzard-entertainment-userinfo-api
 - collection_type: open
   name: Hearthstone Game Data API
   slug: open-blizzard-hearthstone
@@ -239,7 +296,7 @@ plans:
 - name: Blizzard Entertainment Plans Pricing
   plan_count: 2
   slug: blizzard-entertainment-plans-pricing
-random_paper: 37
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Blizzard Entertainment Rate Limits
@@ -273,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/screenshots/blizzard-entertainment-2026-06-20T173354.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: 'PNC Financial Services'' AI Strategy: Analysis of ...'
   url: https://www.klover.ai/pnc-financial-services-ai-strategy-analysis-of-dominance-in-bank-holding-financial-services-ai/
-random_paper: 54
+random_paper: 132
 score:
   band: minimal
   composite: 6.0
@@ -92,7 +92,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pnc-financial-services-group/refs/heads/main/screenshots/pnc-financial-services-group-2026-06-20T191821.png
 security:

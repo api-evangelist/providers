@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -105,11 +105,81 @@ apis:
 - description: The Webhooks resource allows applications to subscribe to topics and receive events for users. Events are pushed to the webhook's `address` with a payload by issuing an HTTP POST request each time. **
   name: Boxc Webhooks API
   slug: boxc-webhooks-api
-artifact_total: 28
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Boxc Webhooks
   slug: boxc-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BoxC CalculateDuty API
+  slug: open-boxc-calculateduty-api
+- collection_type: open
+  name: BoxC CalculateDuty Classify API
+  slug: open-boxc-classify-api
+- collection_type: open
+  name: BoxC CalculateDuty Credentials API
+  slug: open-boxc-credentials-api
+- collection_type: open
+  name: BoxC CalculateDuty CustomsProducts API
+  slug: open-boxc-customsproducts-api
+- collection_type: open
+  name: BoxC CalculateDuty EntryPoints API
+  slug: open-boxc-entrypoints-api
+- collection_type: open
+  name: BoxC CalculateDuty Estimate API
+  slug: open-boxc-estimate-api
+- collection_type: open
+  name: BoxC CalculateDuty Inbound API
+  slug: open-boxc-inbound-api
+- collection_type: open
+  name: BoxC CalculateDuty Invoices API
+  slug: open-boxc-invoices-api
+- collection_type: open
+  name: BoxC CalculateDuty Labels API
+  slug: open-boxc-labels-api
+- collection_type: open
+  name: BoxC CalculateDuty Manifests API
+  slug: open-boxc-manifests-api
+- collection_type: open
+  name: BoxC CalculateDuty Orders API
+  slug: open-boxc-orders-api
+- collection_type: open
+  name: BoxC CalculateDuty Overpacks API
+  slug: open-boxc-overpacks-api
+- collection_type: open
+  name: BoxC CalculateDuty Products API
+  slug: open-boxc-products-api
+- collection_type: open
+  name: BoxC CalculateDuty Reshipments API
+  slug: open-boxc-reshipments-api
+- collection_type: open
+  name: BoxC CalculateDuty Returns API
+  slug: open-boxc-returns-api
+- collection_type: open
+  name: BoxC CalculateDuty Shipments API
+  slug: open-boxc-shipments-api
+- collection_type: open
+  name: BoxC CalculateDuty Shops API
+  slug: open-boxc-shops-api
+- collection_type: open
+  name: BoxC CalculateDuty Track API
+  slug: open-boxc-track-api
+- collection_type: open
+  name: BoxC CalculateDuty Users API
+  slug: open-boxc-users-api
+- collection_type: open
+  name: BoxC CalculateDuty ValidateAddress API
+  slug: open-boxc-validateaddress-api
+- collection_type: open
+  name: BoxC CalculateDuty Warehouses API
+  slug: open-boxc-warehouses-api
+- collection_type: open
+  name: BoxC CalculateDuty Webhooks API
+  slug: open-boxc-webhooks-api
 common:
 - group: company
   title: ''
@@ -246,7 +316,7 @@ overview: 'Boxc publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boxc''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 68
+random_paper: 130
 scopes:
 - name: Boxc Scopes
   scope_count: 19
@@ -275,7 +345,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/screenshots/boxc-2026-07-25T203656.png
 security:

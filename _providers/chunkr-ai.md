@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Create, poll, list, cancel, and delete parse and extract tasks.
   name: Chunkr Tasks API
   slug: chunkr-ai-tasks-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chunkr Files API
+  slug: open-chunkr-ai-files-api
+- collection_type: open
+  name: Chunkr Files Health API
+  slug: open-chunkr-ai-health-api
+- collection_type: open
+  name: Chunkr Files Tasks API
+  slug: open-chunkr-ai-tasks-api
 - collection_type: open
   name: Chunkr API
   slug: open-chunkr-ai
@@ -118,7 +130,7 @@ plans:
 - name: Chunkr Ai Plans Pricing
   plan_count: 6
   slug: chunkr-ai-plans-pricing
-random_paper: 58
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Chunkr Ai Rate Limits
@@ -143,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/screenshots/chunkr-ai-2026-06-20T174340.png
 security:

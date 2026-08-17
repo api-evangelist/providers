@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Monthly API usage and credit-consumption reporting.
   name: Sinay Usage API
   slug: sinay-usage-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sinay Maritime APIs CO2 Emission API
+  slug: open-sinay-co2-emission-api
+- collection_type: open
+  name: Sinay Maritime APIs CO2 Emission ETA API
+  slug: open-sinay-eta-api
+- collection_type: open
+  name: Sinay Maritime APIs CO2 Emission Metocean API
+  slug: open-sinay-metocean-api
+- collection_type: open
+  name: Sinay Maritime APIs CO2 Emission Port Congestion API
+  slug: open-sinay-port-congestion-api
+- collection_type: open
+  name: Sinay Maritime APIs CO2 Emission Ports and Vessels API
+  slug: open-sinay-ports-and-vessels-api
+- collection_type: open
+  name: Sinay Maritime APIs CO2 Emission Usage API
+  slug: open-sinay-usage-api
 - collection_type: open
   name: Sinay Maritime APIs
   slug: open-sinay
@@ -123,7 +144,7 @@ plans:
 - name: Sinay Plans Pricing
   plan_count: 4
   slug: sinay-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 3
   name: Sinay Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

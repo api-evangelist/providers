@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,18 +23,22 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-12'
+  score: 19.4
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Evolv Participant API is the runtime edge API the client SDKs call to fetch a participant's experiment configuration and allocations for an environment, and to ingest context and behavioral events
   name: Evolv Participant API
   slug: evolv-participant-api
-artifact_total: 4
+artifact_total: 8
+collections:
+- collection_type: postman
+  name: Evolv
+  slug: postman-evolv-participant-api
 common:
 - group: company
   title: ''
@@ -100,31 +104,67 @@ common:
   title: ''
   type: DomainSecurity
   url: security/evolv-domain-security.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://app.evolv.ai
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/evolv-plans-pricing.yml
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/evolv-allocate-participant.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/evolv-record-events.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/evolv-offline-preallocations.md
 created: '2026-07-17'
 description: Evolv AI (formerly Sentient Ascend) is an experience optimization and autonomous experimentation platform that continuously tests and personalizes digital experiences using machine learning. Its Participant API and official client SDKs for JavaScript, iOS, Android, PHP and React allocate visitors to experiment variants, deliver optimized configurations, and ingest behavioral events so AI-driven optimization can evolve web and app experiences without manual A/B-test management. Enterprises use Evolv AI to automate conversion-rate optimization and personalization across their digital properties.
+examples:
+- key_count: 1
+  name: Evolv Configuration Basic Response Example
+  slug: evolv-configuration-basic-response-example
 image: https://evolv.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
   name: evolv-mcp.yml
   slug: evolv-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Evolv
 nav: Providers
 network: true
 overview: 'Evolv publishes 1 API on the [APIs.io](https://apis.io/) network: Participant API. Tagged areas include Experimentation, Optimization, Personalization, A/B Testing, and Machine Learning.
 
 
-  Evolv''s developer surface includes documentation, CLI, authentication, sandbox, changelog, and 11 more developer resources.'
-random_paper: 76
+  Evolv''s developer surface includes documentation, CLI, authentication, sandbox, changelog, and 17 more developer resources.'
+plans:
+- name: Evolv Plans Pricing
+  plan_count: 0
+  slug: evolv-plans-pricing
+random_paper: 109
+rate_limits:
+- limit_count: 0
+  name: Evolv Rate Limits
+  slug: evolv-rate-limits
 score:
   band: emerging
-  composite: 20.7
-  delta: 0.0
+  composite: 24.6
+  delta: 3.9
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 13.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 56.5
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 21.1
@@ -133,14 +173,14 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/screenshots/evolv-2026-07-25T213820.png
 security:
 - kind: authentication
   name: Evolv Authentication
   slug: evolv-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey/http · 3 schemes
 - kind: domain-security
   name: Evolv Domain Security
   slug: evolv-domain-security

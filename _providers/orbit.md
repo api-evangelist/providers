@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: The Workspaces API from Orbit — 2 operation(s) for workspaces.
   name: Orbit Workspaces API
   slug: orbit-workspaces-api
-artifact_total: 55
+artifact_total: 65
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orbit Activities API
+  slug: open-orbit-activities-api
+- collection_type: open
+  name: Orbit Activities Activity Types API
+  slug: open-orbit-activity-types-api
+- collection_type: open
+  name: Orbit Activities Members API
+  slug: open-orbit-members-api
+- collection_type: open
+  name: Orbit Activities Notes API
+  slug: open-orbit-notes-api
+- collection_type: open
+  name: Orbit Activities Organizations API
+  slug: open-orbit-organizations-api
+- collection_type: open
+  name: Orbit Activities Reports API
+  slug: open-orbit-reports-api
+- collection_type: open
+  name: Orbit Activities Users API
+  slug: open-orbit-users-api
+- collection_type: open
+  name: Orbit Activities Webhooks API
+  slug: open-orbit-webhooks-api
+- collection_type: open
+  name: Orbit Activities Workspaces API
+  slug: open-orbit-workspaces-api
 common:
 - group: commercial
   title: ''
@@ -272,7 +303,7 @@ plans:
 - name: Orbit Plans Pricing
   plan_count: 3
   slug: orbit-plans-pricing
-random_paper: 64
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: Orbit Rate Limits
@@ -306,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

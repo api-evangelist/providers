@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Payments registered against invoices for reconciliation and tax reporting.
   name: Octobat Transactions API
   slug: octobat-transactions-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Octobat Coupons API
+  slug: open-octobat-coupons-api
+- collection_type: open
+  name: Octobat Coupons Credit Notes API
+  slug: open-octobat-credit-notes-api
+- collection_type: open
+  name: Octobat Coupons Customers API
+  slug: open-octobat-customers-api
+- collection_type: open
+  name: Octobat Coupons Invoices API
+  slug: open-octobat-invoices-api
+- collection_type: open
+  name: Octobat Coupons Payouts API
+  slug: open-octobat-payouts-api
+- collection_type: open
+  name: Octobat Coupons Products API
+  slug: open-octobat-products-api
+- collection_type: open
+  name: Octobat Coupons Subscriptions API
+  slug: open-octobat-subscriptions-api
+- collection_type: open
+  name: Octobat Coupons Tax Evidence API
+  slug: open-octobat-tax-evidence-api
+- collection_type: open
+  name: Octobat Coupons Transactions API
+  slug: open-octobat-transactions-api
 - collection_type: open
   name: Octobat API
   slug: open-octobat
@@ -132,7 +162,7 @@ plans:
 - name: Octobat Plans Pricing
   plan_count: 4
   slug: octobat-plans-pricing
-random_paper: 28
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Octobat Rate Limits
@@ -163,7 +193,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/screenshots/octobat-2026-08-07T185941.png
 security:

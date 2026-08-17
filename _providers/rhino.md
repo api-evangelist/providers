@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,11 +43,33 @@ apis:
 - description: The Webhooks API from Rhino — 5 operation(s) for webhooks.
   name: Rhino Webhooks API
   slug: rhino-webhooks-api
-artifact_total: 11
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Rhino Webhooks
   slug: rhino-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SayRhino Partner Authentication API
+  slug: open-rhino-authentication-api
+- collection_type: open
+  name: SayRhino Partner API
+  slug: open-rhino-partner-api
+- collection_type: open
+  name: SayRhino Partner Partner Api::V2::Test::Resident API
+  slug: open-rhino-partnerapi-v2-test-resident-api
+- collection_type: open
+  name: SayRhino Partner Partner Api::V2::Test::Sayrhino User API
+  slug: open-rhino-partnerapi-v2-test-sayrhinouser-api
+- collection_type: open
+  name: SayRhino Partner Prospects API
+  slug: open-rhino-prospects-api
+- collection_type: open
+  name: SayRhino Partner Webhooks API
+  slug: open-rhino-webhooks-api
 common:
 - group: agent
   title: ''
@@ -192,7 +214,7 @@ overview: 'Rhino publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Rhino''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, code examples, and 24 more developer resources.'
-random_paper: 64
+random_paper: 97
 score:
   band: developing
   composite: 43.0
@@ -222,7 +244,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

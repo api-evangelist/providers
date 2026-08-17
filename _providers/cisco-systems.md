@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +60,17 @@ apis:
 - description: Networking operations
   name: Cisco Systems Networking API
   slug: cisco-systems-networking-api
-artifact_total: 23
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Cisco DevNet API
   slug: open-cisco-systems-cisco-api
+- collection_type: open
+  name: Cisco DevNet Networking API
+  slug: open-cisco-systems-networking-api
 common:
 - group: agent
   title: ''
@@ -197,7 +203,7 @@ press:
 - date: '2026-05-25'
   title: Newsroom
   url: https://newsroom.cisco.com/
-random_paper: 46
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Cisco Systems Rate Limits
@@ -231,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/screenshots/cisco-systems-2026-06-20T174403.png
 security:

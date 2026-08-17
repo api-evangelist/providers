@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -60,8 +60,32 @@ apis:
 - description: Separate environments with their own users, permissions, and content.
   name: Yodeck Workspaces API
   slug: yodeck-signage-workspaces-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yodeck REST API (Modeled) Layouts API
+  slug: open-yodeck-signage-layouts-api
+- collection_type: open
+  name: Yodeck REST API (Modeled) Layouts Media API
+  slug: open-yodeck-signage-media-api
+- collection_type: open
+  name: Yodeck REST API (Modeled) Layouts Playlists API
+  slug: open-yodeck-signage-playlists-api
+- collection_type: open
+  name: Yodeck REST API (Modeled) Layouts Schedules API
+  slug: open-yodeck-signage-schedules-api
+- collection_type: open
+  name: Yodeck REST API (Modeled) Layouts Screens API
+  slug: open-yodeck-signage-screens-api
+- collection_type: open
+  name: Yodeck REST API (Modeled) Layouts Shows API
+  slug: open-yodeck-signage-shows-api
+- collection_type: open
+  name: Yodeck REST API (Modeled) Layouts Workspaces API
+  slug: open-yodeck-signage-workspaces-api
 - collection_type: open
   name: Yodeck REST API (Modeled)
   slug: open-yodeck-signage
@@ -130,7 +154,7 @@ plans:
 - name: Yodeck Signage Plans Pricing
   plan_count: 4
   slug: yodeck-signage-plans-pricing
-random_paper: 98
+random_paper: 77
 rate_limits:
 - limit_count: 3
   name: Yodeck Signage Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

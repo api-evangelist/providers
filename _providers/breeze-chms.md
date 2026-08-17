@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Volunteers and volunteer roles for events.
   name: Breeze ChMS Volunteers API
   slug: breeze-chms-volunteers-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Breeze ChMS Account API
+  slug: open-breeze-chms-account-api
+- collection_type: open
+  name: Breeze ChMS Account Attendance API
+  slug: open-breeze-chms-attendance-api
+- collection_type: open
+  name: Breeze ChMS Account Events API
+  slug: open-breeze-chms-events-api
+- collection_type: open
+  name: Breeze ChMS Account Forms API
+  slug: open-breeze-chms-forms-api
+- collection_type: open
+  name: Breeze ChMS Account Funds API
+  slug: open-breeze-chms-funds-api
+- collection_type: open
+  name: Breeze ChMS Account Giving API
+  slug: open-breeze-chms-giving-api
+- collection_type: open
+  name: Breeze ChMS Account People API
+  slug: open-breeze-chms-people-api
+- collection_type: open
+  name: Breeze ChMS Account Pledges API
+  slug: open-breeze-chms-pledges-api
+- collection_type: open
+  name: Breeze ChMS Account Tags API
+  slug: open-breeze-chms-tags-api
+- collection_type: open
+  name: Breeze ChMS Account Volunteers API
+  slug: open-breeze-chms-volunteers-api
 - collection_type: open
   name: Breeze ChMS API
   slug: open-breeze-chms
@@ -135,7 +168,7 @@ plans:
 - name: Breeze Chms Plans Pricing
   plan_count: 2
   slug: breeze-chms-plans-pricing
-random_paper: 29
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Breeze Chms Rate Limits
@@ -160,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/screenshots/breeze-chms-2026-07-25T203746.png
 security:

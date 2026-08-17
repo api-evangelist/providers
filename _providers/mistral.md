@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Document OCR and text extraction operations
   name: Mistral AI OCR API
   slug: mistral-ocr-api
-artifact_total: 126
+artifact_total: 140
 asyncapis:
 - description: 'AsyncAPI definition for Mistral AI streaming completion endpoints. Mistral is OpenAI-compatible and delivers streamed completions as Server-Sent Events (SSE) over HTTP when `stream: true` is set on th'
   name: Mistral AI Streaming Completions API
@@ -103,14 +103,32 @@ collections:
   name: Mistral AI Agents Training Jobs API
   slug: postman-mistral-training-jobs-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mistral AI Agents API
+  slug: open-mistral-agents-api
+- collection_type: open
   name: Mistral AI Agents API
   slug: open-mistral-agents
+- collection_type: open
+  name: Mistral AI Agents Audio API
+  slug: open-mistral-audio-api
 - collection_type: open
   name: Mistral AI Audio Transcription API
   slug: open-mistral-audio-transcription
 - collection_type: open
+  name: Mistral AI Agents Batch Jobs API
+  slug: open-mistral-batch-jobs-api
+- collection_type: open
   name: Mistral AI Batch API
   slug: open-mistral-batch
+- collection_type: open
+  name: Mistral AI Agents Chat API
+  slug: open-mistral-chat-api
+- collection_type: open
+  name: Mistral AI Agents Chat Completions API
+  slug: open-mistral-chat-completions-api
 - collection_type: open
   name: Mistral AI Chat Completions API
   slug: open-mistral-chat-completions
@@ -118,14 +136,26 @@ collections:
   name: Mistral AI Chat API
   slug: open-mistral-chat
 - collection_type: open
+  name: Mistral AI Agents Embeddings API
+  slug: open-mistral-embeddings-api
+- collection_type: open
   name: Mistral AI Mistral Embeddings API
   slug: open-mistral-embeddings
+- collection_type: open
+  name: Mistral AI Agents Files API
+  slug: open-mistral-files-api
 - collection_type: open
   name: Mistral AI Files API
   slug: open-mistral-files
 - collection_type: open
+  name: Mistral AI Agents FIM API
+  slug: open-mistral-fim-api
+- collection_type: open
   name: Mistral AI FIM API
   slug: open-mistral-fim
+- collection_type: open
+  name: Mistral AI Agents Fine-Tuning Jobs API
+  slug: open-mistral-fine-tuning-jobs-api
 - collection_type: open
   name: Mistral AI Fine-Tuning API
   slug: open-mistral-fine-tuning
@@ -133,14 +163,26 @@ collections:
   name: Mistral AI Forge API
   slug: open-mistral-forge
 - collection_type: open
+  name: Mistral AI Agents Models API
+  slug: open-mistral-models-api
+- collection_type: open
   name: Mistral AI Models API
   slug: open-mistral-models
+- collection_type: open
+  name: Mistral AI Agents Moderation API
+  slug: open-mistral-moderation-api
 - collection_type: open
   name: Mistral AI Mistral Moderation API
   slug: open-mistral-moderation
 - collection_type: open
+  name: Mistral AI Agents OCR API
+  slug: open-mistral-ocr-api
+- collection_type: open
   name: Mistral AI OCR API
   slug: open-mistral-ocr
+- collection_type: open
+  name: Mistral AI Agents Training Jobs API
+  slug: open-mistral-training-jobs-api
 common:
 - group: build
   title: ''
@@ -522,7 +564,7 @@ plans:
 - name: Mistral Plans Pricing
   plan_count: 6
   slug: mistral-plans-pricing
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Mistral Rate Limits
@@ -564,7 +606,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/screenshots/mistral-2026-06-20T185616.png
 security:

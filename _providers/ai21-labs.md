@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -72,12 +72,24 @@ apis:
 - description: The Maestro API from AI21 Labs — 2 operation(s) for maestro.
   name: AI21 Labs Maestro API
   slug: ai21-labs-maestro-api
-artifact_total: 21
+artifact_total: 25
 asyncapis:
 - description: AsyncAPI description of AI21 Labs' documented streaming surface. The AI21 Studio Jamba chat completions endpoint streams partial responses over HTTP using Server-Sent Events (SSE) when the `stream` re
   name: AI21 Studio Streaming API
   slug: ai21-labs-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AI21 Studio Chat API
+  slug: open-ai21-labs-chat-api
+- collection_type: open
+  name: AI21 Studio Chat Library API
+  slug: open-ai21-labs-library-api
+- collection_type: open
+  name: AI21 Studio Chat Maestro API
+  slug: open-ai21-labs-maestro-api
 - collection_type: open
   name: AI21 Studio API
   slug: open-ai21-labs
@@ -181,7 +193,7 @@ plans:
 - name: Ai21 Labs Plans Pricing
   plan_count: 1
   slug: ai21-labs-plans-pricing
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Ai21 Labs Rate Limits
@@ -215,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/screenshots/ai21-labs-2026-06-20T170826.png
 security:

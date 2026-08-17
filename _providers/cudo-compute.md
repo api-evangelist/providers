@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 4
@@ -63,8 +63,35 @@ apis:
 - description: The Virtual Machines API from CUDO Compute — 10 operation(s) for virtual machines.
   name: CUDO Compute Virtual Machines API
   slug: cudo-compute-virtual-machines-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CUDO Compute Billing API
+  slug: open-cudo-compute-billing-api
+- collection_type: open
+  name: CUDO Compute Billing Data Centers API
+  slug: open-cudo-compute-data-centers-api
+- collection_type: open
+  name: CUDO Compute Billing Disks API
+  slug: open-cudo-compute-disks-api
+- collection_type: open
+  name: CUDO Compute Billing Images API
+  slug: open-cudo-compute-images-api
+- collection_type: open
+  name: CUDO Compute Billing Machine Types API
+  slug: open-cudo-compute-machine-types-api
+- collection_type: open
+  name: CUDO Compute Billing Networks API
+  slug: open-cudo-compute-networks-api
+- collection_type: open
+  name: CUDO Compute Billing SSH Keys API
+  slug: open-cudo-compute-ssh-keys-api
+- collection_type: open
+  name: CUDO Compute Billing Virtual Machines API
+  slug: open-cudo-compute-virtual-machines-api
 - collection_type: open
   name: CUDO Compute API
   slug: open-cudo-compute
@@ -133,7 +160,7 @@ plans:
 - name: Cudo Compute Plans Pricing
   plan_count: 3
   slug: cudo-compute-plans-pricing
-random_paper: 37
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Cudo Compute Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/screenshots/cudo-compute-2026-07-25T210908.png
 security:

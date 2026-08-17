@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,8 +56,20 @@ apis:
 - description: Health check endpoints for liveness and readiness probes.
   name: Akka Health API
   slug: akka-health-api
-artifact_total: 31
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Akka Management Bootstrap API
+  slug: open-akka-bootstrap-api
+- collection_type: open
+  name: Akka Management Bootstrap Cluster API
+  slug: open-akka-cluster-api
+- collection_type: open
+  name: Akka Management Bootstrap Health API
+  slug: open-akka-health-api
 - collection_type: open
   name: Akka Management API
   slug: open-akka-management
@@ -177,7 +189,7 @@ plans:
 - name: Akka Plans Pricing
   plan_count: 6
   slug: akka-plans-pricing
-random_paper: 48
+random_paper: 110
 rate_limits:
 - limit_count: 3
   name: Akka Rate Limits
@@ -219,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/screenshots/akka-2026-06-20T171452.png
 security:

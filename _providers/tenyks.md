@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Create and retrieve datasets.
   name: Tenyks Datasets API
   slug: tenyks-datasets-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tenyks Auth API
+  slug: open-tenyks-auth-api
+- collection_type: open
+  name: Tenyks Auth Data Upload API
+  slug: open-tenyks-data-upload-api
+- collection_type: open
+  name: Tenyks Auth Datasets API
+  slug: open-tenyks-datasets-api
 common:
 - group: auth
   title: ''
@@ -174,7 +187,7 @@ overview: 'Tenyks publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Tenyks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 70
+random_paper: 74
 score:
   band: developing
   composite: 47.6
@@ -198,7 +211,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

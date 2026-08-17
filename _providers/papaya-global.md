@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Manage organizational wallets for payment funding
   name: Papaya Global Wallets API
   slug: papaya-global-wallets-api
-artifact_total: 19
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Papaya Global Workforce Payments Authentication API
+  slug: open-papaya-global-authentication-api
+- collection_type: open
+  name: Papaya Global Workforce Payments Authentication Beneficiaries API
+  slug: open-papaya-global-beneficiaries-api
+- collection_type: open
+  name: Papaya Global Workforce Payments Authentication Groups API
+  slug: open-papaya-global-groups-api
+- collection_type: open
+  name: Papaya Global Workforce Authentication Payments API
+  slug: open-papaya-global-payments-api
+- collection_type: open
+  name: Papaya Global Workforce Payments Authentication Wallets API
+  slug: open-papaya-global-wallets-api
 common:
 - group: agent
   title: ''
@@ -160,7 +179,7 @@ plans:
 - name: Papaya Global Plans Pricing
   plan_count: 6
   slug: papaya-global-plans-pricing
-random_paper: 106
+random_paper: 114
 rate_limits:
 - limit_count: 3
   name: Papaya Global Rate Limits
@@ -200,7 +219,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/screenshots/papaya-global-2026-06-20T191348.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,8 +66,35 @@ apis:
 - description: The Topics API from Confluent — 2 operation(s) for topics.
   name: Confluent Topics API
   slug: confluent-topics-api
-artifact_total: 29
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Confluent Cloud Kafka REST ACLs API
+  slug: open-confluent-acls-api
+- collection_type: open
+  name: Confluent Cloud Kafka REST ACLs API Keys API
+  slug: open-confluent-api-keys-api
+- collection_type: open
+  name: Confluent Cloud Kafka REST ACLs Clusters API
+  slug: open-confluent-clusters-api
+- collection_type: open
+  name: Confluent Cloud Kafka REST ACLs Consumer Groups API
+  slug: open-confluent-consumer-groups-api
+- collection_type: open
+  name: Confluent Cloud Kafka REST ACLs Environments API
+  slug: open-confluent-environments-api
+- collection_type: open
+  name: Confluent Cloud Kafka REST ACLs Partitions API
+  slug: open-confluent-partitions-api
+- collection_type: open
+  name: Confluent Cloud Kafka REST ACLs Service Accounts API
+  slug: open-confluent-service-accounts-api
+- collection_type: open
+  name: Confluent Cloud Kafka REST ACLs Topics API
+  slug: open-confluent-topics-api
 - collection_type: open
   name: Confluent Cloud Kafka REST API
   slug: open-confluent
@@ -128,7 +155,7 @@ plans:
 - name: Confluent Plans Pricing
   plan_count: 3
   slug: confluent-plans-pricing
-random_paper: 14
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Confluent Rate Limits
@@ -153,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/screenshots/confluent-2026-06-20T174900.png
 security:

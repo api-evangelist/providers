@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Covid 19 statistics state and district wise about cases, vaccinations, recovery within India
@@ -56,7 +56,7 @@ name: Covid-19 India
 nav: Providers
 network: true
 overview: Covid-19 India publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 46
+random_paper: 54
 score:
   band: minimal
   composite: 6.0
@@ -76,7 +76,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covid-19-india/refs/heads/main/screenshots/covid-19-india-2026-06-20T175132.png
 security:

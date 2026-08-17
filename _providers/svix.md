@@ -14,22 +14,22 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-12'
+  score: 73.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -148,11 +148,78 @@ arazzos:
 - description: Create a stream, attach a poller sink, publish events, and poll the sink for them.
   name: Svix Create Stream with Poller Sink and Send Events
   slug: svix-stream-sink-and-poll-events-workflow
-artifact_total: 66
+artifact_total: 89
+asyncapis:
+- description: ''
+  name: Svix Operational Webhooks
+  slug: svix-operational-webhooks
 collections:
 - collection_type: postman
   name: Svix API
   slug: postman-svix-openapi
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Svix Application API
+  slug: open-svix-application-api
+- collection_type: open
+  name: Svix Application Authentication API
+  slug: open-svix-authentication-api
+- collection_type: open
+  name: Svix Application Background Task API
+  slug: open-svix-background-task-api
+- collection_type: open
+  name: Svix Application Connector API
+  slug: open-svix-connector-api
+- collection_type: open
+  name: Svix Application Endpoint API
+  slug: open-svix-endpoint-api
+- collection_type: open
+  name: Svix Application Environment API
+  slug: open-svix-environment-api
+- collection_type: open
+  name: Svix Application Event API
+  slug: open-svix-event-api
+- collection_type: open
+  name: Svix Application Event Type API
+  slug: open-svix-event-type-api
+- collection_type: open
+  name: Svix Application Health API
+  slug: open-svix-health-api
+- collection_type: open
+  name: Svix Application Ingest Endpoint API
+  slug: open-svix-ingest-endpoint-api
+- collection_type: open
+  name: Svix Application Ingest Source API
+  slug: open-svix-ingest-source-api
+- collection_type: open
+  name: Svix Application Integration API
+  slug: open-svix-integration-api
+- collection_type: open
+  name: Svix Application Message API
+  slug: open-svix-message-api
+- collection_type: open
+  name: Svix Application Message Attempt API
+  slug: open-svix-message-attempt-api
+- collection_type: open
+  name: Svix Application Sink API
+  slug: open-svix-sink-api
+- collection_type: open
+  name: Svix Application Statistics API
+  slug: open-svix-statistics-api
+- collection_type: open
+  name: Svix Application Stream API
+  slug: open-svix-stream-api
+- collection_type: open
+  name: Svix Application Stream Authentication API
+  slug: open-svix-stream-authentication-api
+- collection_type: open
+  name: Svix Application Stream Event Type API
+  slug: open-svix-stream-event-type-api
+- collection_type: open
+  name: Svix Application Webhook Endpoint API
+  slug: open-svix-webhook-endpoint-api
 - collection_type: open
   name: Svix API
   slug: open-svix
@@ -261,10 +328,6 @@ common:
   title: ''
   type: APIReference
   url: https://api.svix.com/docs
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://docs.svix.com/quickstart
 - group: start
   title: ''
   type: GettingStarted
@@ -433,6 +496,82 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.svix.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/svix-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/svix-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/svix-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/svix-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/svix-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/svix-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/svix-llms.txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/svix-operational-webhooks.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/svix-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/svix-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/svix-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/svix-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/svix-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/svix-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/svix-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/svix-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/svix-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/svix-sandbox.yml
 created: '2026-05-22'
 description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for streaming (Stream) and webhook ingestion (Ingest). Hosted offering is multi-region (US, EU, CA, AU, IN) with SOC 2 Type II, HIPAA, PCI-DSS attestations.
 examples:
@@ -500,22 +639,26 @@ jsonld:
   property_count: 9
   slug: svix-context
 layout: provider
-modified: '2026-05-22'
+mcp_servers:
+- description: ''
+  name: Consumer App Portal MCP (remote, hosted)
+  slug: consumer-app-portal-mcp-remote-hosted
+modified: '2026-08-13'
 name: Svix
 nav: Providers
 network: true
 overview: 'Svix publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Application API, Authentication API, Background Task API, and 17 more. Tagged areas include Webhooks, Webhooks As A Service, Webhook Delivery, Webhook Sending, and Event Driven.
 
 
-  The Svix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Svix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Svix''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 62 more developer resources.'
+  Svix''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 80 more developer resources.'
 plans:
 - name: Svix Plans Pricing
   plan_count: 3
   slug: svix-plans-pricing
-random_paper: 98
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Svix Rate Limits
@@ -539,15 +682,15 @@ rules:
   slug: svix-rules
 score:
   band: exemplar
-  composite: 75.7
-  delta: 0.0
+  composite: 84.1
+  delta: 8.4
   facets:
     commercial_clarity: 100.0
-    contract_quality: 65.6
-    developer_ergonomics: 84.8
-    discoverability: 72.2
-    governance: 68.8
-    operational_transparency: 78.9
+    contract_quality: 74.5
+    developer_ergonomics: 100.0
+    discoverability: 83.3
+    governance: 89.6
+    operational_transparency: 86.8
   previous_composite: 75.7
   provenance:
     agentic_access: derived
@@ -563,8 +706,8 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:
 - kind: authentication

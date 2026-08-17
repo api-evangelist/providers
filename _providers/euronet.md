@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -46,7 +46,23 @@ apis:
 - description: Dandelion by Euronet — a real-time, ISO 20022-compliant cross-border payments network exposed through a single customizable API reaching 190+ countries, ~6 billion bank accounts and mobile wallets, an
   name: Dandelion Cross-Border Payments API
   slug: dandelion-cross-border-payments-api
-artifact_total: 11
+artifact_total: 16
+collections:
+- collection_type: open
+  name: XE Currency Data API
+  slug: open-xe-currency-data-api
+- collection_type: open
+  name: XE Currency Data Tradable Rates API
+  slug: open-xe-currency-data-tradable-rates-api
+- collection_type: open
+  name: Xe.Api.MassPayments
+  slug: open-xe-mass-payments-api
+- collection_type: open
+  name: Xe.Api.Payments
+  slug: open-xe-payments-api
+- collection_type: open
+  name: XETA
+  slug: open-xeta-api
 common:
 - group: agent
   title: ''
@@ -181,7 +197,7 @@ overview: 'Euronet Worldwide publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Euronet Worldwide''s developer surface includes authentication, API reference, pricing, engineering blog, documentation, signup flow, and 23 more developer resources.'
-random_paper: 50
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Euronet Rate Limits
@@ -210,7 +226,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/screenshots/euronet-2026-07-25T213700.png
 security:

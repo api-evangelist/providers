@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,11 +87,53 @@ apis:
 - description: Vital signs measurements.
   name: Roivant Sciences Vitals API
   slug: roivant-sciences-vitals-api
-artifact_total: 34
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Datavant Healthjump EHR Integration API
   slug: open-datavant-healthjump-ehr
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies API
+  slug: open-roivant-sciences-allergies-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Appointments API
+  slug: open-roivant-sciences-appointments-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Diagnoses API
+  slug: open-roivant-sciences-diagnoses-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Documents API
+  slug: open-roivant-sciences-documents-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Encounters API
+  slug: open-roivant-sciences-encounters-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Immunizations API
+  slug: open-roivant-sciences-immunizations-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Labs API
+  slug: open-roivant-sciences-labs-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Medications API
+  slug: open-roivant-sciences-medications-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Patients API
+  slug: open-roivant-sciences-patients-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Practices API
+  slug: open-roivant-sciences-practices-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Procedures API
+  slug: open-roivant-sciences-procedures-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Providers API
+  slug: open-roivant-sciences-providers-api
+- collection_type: open
+  name: Datavant Healthjump EHR Integration Allergies Vitals API
+  slug: open-roivant-sciences-vitals-api
 common:
 - group: agent
   title: ''
@@ -213,7 +255,7 @@ plans:
 - name: Roivant Sciences Plans Pricing
   plan_count: 3
   slug: roivant-sciences-plans-pricing
-random_paper: 101
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Roivant Sciences Rate Limits
@@ -266,7 +308,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/screenshots/roivant-sciences-2026-06-20T193202.png
 security:

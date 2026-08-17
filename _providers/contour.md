@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -65,14 +65,35 @@ apis:
 - description: Namespace-scoped resources that define TLS routing rules for routing TLS connections based on SNI hostname to backend services.
   name: Contour TLSRoute API
   slug: contour-tlsroute-api
-artifact_total: 64
+artifact_total: 71
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Contour Gateway API
+  slug: open-contour-gateway-api
 - collection_type: open
   name: Contour Gateway API
   slug: open-contour-gateway
 - collection_type: open
+  name: Contour Gateway GatewayClass API
+  slug: open-contour-gatewayclass-api
+- collection_type: open
+  name: Contour Gateway HTTPProxy API
+  slug: open-contour-httpproxy-api
+- collection_type: open
   name: Contour HTTPProxy API
   slug: open-contour-httpproxy
+- collection_type: open
+  name: Contour Gateway HTTPRoute API
+  slug: open-contour-httproute-api
+- collection_type: open
+  name: Contour Gateway TLSCertificateDelegation API
+  slug: open-contour-tlscertificatedelegation-api
+- collection_type: open
+  name: Contour Gateway TLSRoute API
+  slug: open-contour-tlsroute-api
 common:
 - group: auth
   title: ''
@@ -324,7 +345,7 @@ plans:
 - name: Contour Plans Pricing
   plan_count: 1
   slug: contour-plans-pricing
-random_paper: 58
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Contour Rate Limits
@@ -374,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/screenshots/contour-2026-06-20T174944.png
 security:

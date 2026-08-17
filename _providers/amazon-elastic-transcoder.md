@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -76,7 +76,7 @@ arazzos:
 - description: Define a reusable output preset, then submit a transcoding job into an existing pipeline that uses the new preset.
   name: Amazon Elastic Transcoder Create Preset and Submit a Job Using It
   slug: amazon-elastic-transcoder-preset-job-workflow
-artifact_total: 456
+artifact_total: 463
 collections:
 - collection_type: postman
   name: Amazon Elastic Transcoder Jobs API
@@ -99,6 +99,27 @@ collections:
 - collection_type: postman
   name: Amazon Elastic Transcoder
   slug: postman-amazon-elastic-transcoder
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Elastic Transcoder Jobs API
+  slug: open-amazon-elastic-transcoder-jobs-api
+- collection_type: open
+  name: Amazon Elastic Transcoder Jobs JobsByPipeline API
+  slug: open-amazon-elastic-transcoder-jobsbypipeline-api
+- collection_type: open
+  name: Amazon Elastic Transcoder Jobs JobsByStatus API
+  slug: open-amazon-elastic-transcoder-jobsbystatus-api
+- collection_type: open
+  name: Amazon Elastic Transcoder Jobs Pipelines API
+  slug: open-amazon-elastic-transcoder-pipelines-api
+- collection_type: open
+  name: Amazon Elastic Transcoder Jobs Presets API
+  slug: open-amazon-elastic-transcoder-presets-api
+- collection_type: open
+  name: Amazon Elastic Transcoder Jobs RoleTests API
+  slug: open-amazon-elastic-transcoder-roletests-api
 - collection_type: open
   name: Amazon Elastic Transcoder
   slug: open-amazon-elastic-transcoder
@@ -1525,7 +1546,7 @@ plans:
 - name: Amazon Elastic Transcoder Plans Pricing
   plan_count: 3
   slug: amazon-elastic-transcoder-plans-pricing
-random_paper: 34
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Transcoder Rate Limits
@@ -1567,7 +1588,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/screenshots/amazon-elastic-transcoder-2026-06-20T171639.png
 security:

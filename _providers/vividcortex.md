@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Observed queries, query digests, and query samples.
   name: VividCortex Queries API
   slug: vividcortex-queries-api
-artifact_total: 17
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Vividcortex Alerts Webhooks
@@ -75,6 +75,24 @@ collections:
 - collection_type: postman
   name: VividCortex (SolarWinds Database Performance Monitor) Alerts Queries API
   slug: postman-vividcortex-queries-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts API
+  slug: open-vividcortex-alerts-api
+- collection_type: open
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts Events API
+  slug: open-vividcortex-events-api
+- collection_type: open
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts Hosts API
+  slug: open-vividcortex-hosts-api
+- collection_type: open
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts Metrics API
+  slug: open-vividcortex-metrics-api
+- collection_type: open
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts Queries API
+  slug: open-vividcortex-queries-api
 common:
 - group: build
   title: ''
@@ -235,7 +253,7 @@ overview: 'VividCortex publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VividCortex''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 28 more developer resources.'
-random_paper: 7
+random_paper: 15
 score:
   band: strong
   composite: 59.5
@@ -259,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

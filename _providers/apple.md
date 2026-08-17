@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ apis:
 - description: Manage builds uploaded to App Store Connect, including build metadata, processing state, and build relationships.
   name: Apple Builds API
   slug: apple-builds-api
-artifact_total: 162
+artifact_total: 166
 collections:
 - collection_type: postman
   name: Apple App Store Connect Apps API
@@ -115,8 +115,20 @@ collections:
   name: Apple App Store Connect Apps Builds API
   slug: postman-apple-builds-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Apple App Store Connect API
   slug: open-app-store-connect-api
+- collection_type: open
+  name: Apple App Store Connect Apps API
+  slug: open-apple-apps-api
+- collection_type: open
+  name: Apple App Store Connect Apps Beta Testers API
+  slug: open-apple-beta-testers-api
+- collection_type: open
+  name: Apple App Store Connect Apps Builds API
+  slug: open-apple-builds-api
 common:
 - group: build
   title: ''
@@ -608,7 +620,7 @@ press:
 - date: '2026-05-25'
   title: Joint statement from Google and Apple
   url: https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/
-random_paper: 50
+random_paper: 83
 rate_limits:
 - limit_count: 2
   name: Apple Rate Limits
@@ -650,7 +662,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png
 security:

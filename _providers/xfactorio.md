@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -59,6 +59,10 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/XFactor-IO
+- group: start
+  title: ''
+  type: Login
+  url: https://app.xfactor.io/
 - group: auth
   title: ''
   type: TrustCenter
@@ -79,25 +83,49 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/xfactorio-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Xfactor.io ships only the closed app.xfactor.io SaaS product — its api.xfactor.io host answers an nginx-ingress "default backend - 404" at every OpenAPI, Swagger, GraphQL and docs path on the host root, no docs., developer. or mcp. subdomain resolves, the XFactor-IO GitHub organization has zero public repositories, and the complete 24-page site sitemap contains no developer, API or documentation page.
+  evidence:
+  - status: 404
+    url: https://api.xfactor.io/openapi.json
+  - status: 404
+    url: https://api.xfactor.io/graphql
+  - status: 200
+    url: https://www.xfactor.io/page-sitemap.xml
+  - status: 404
+    url: https://www.xfactor.io/llms.txt
+  - status: 200
+    url: https://api.github.com/orgs/XFactor-IO/repos
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Xfactor.io is an AI-powered revenue operations platform founded by Mike Carpenter and backed by Accel and Lightspeed Venture Partners. Its Growth AI engine, together with the Xfactor Central, OpenInsights, and Simulation products, builds a live digital twin of a company's go-to-market operations — connecting CRM, pipeline, usage, and financial data so revenue teams can test decisions through simulation before rolling them out. The platform is delivered as a closed B2B SaaS application (app.xfactor.io) and does not publish a public API, developer portal, or client SDKs; security posture is documented on a Secureframe trust center with a SOC 2 Type II attestation.
 image: https://www.xfactor.io/wp-content/uploads/2026/01/xf-logo-white-inline-1.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Xfactor.io
 nav: Providers
 network: true
 overview: 'Xfactor.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Services, Revenue Operations, Artificial Intelligence, and Analytics.
 
 
-  Xfactor.io''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 15
+  Xfactor.io''s developer surface includes engineering blog, support, and 11 more developer resources.'
+plans:
+- name: Xfactorio Plans Pricing
+  plan_count: 0
+  slug: xfactorio-plans-pricing
+random_paper: 81
+rate_limits:
+- limit_count: 0
+  name: Xfactorio Rate Limits
+  slug: xfactorio-rate-limits
 score:
   band: emerging
-  composite: 15.1
-  delta: 0.0
+  composite: 17.7
+  delta: 2.6
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 57.4
@@ -105,7 +133,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -139,7 +139,7 @@ overview: 'JetBlue is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   JetBlue''s developer surface includes authentication, documentation, legal docs, support, and 21 more developer resources.'
-random_paper: 27
+random_paper: 2
 scopes:
 - name: Jetblue Scopes
   scope_count: 7
@@ -161,7 +161,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/screenshots/jetblue-2026-08-07T171000.png
 security:

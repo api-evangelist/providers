@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,32 @@ apis:
 - description: Service status
   name: University of Edinburgh Status API
   slug: university-of-edinburgh-status-api
-artifact_total: 26
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Edinburgh DataShare REST Bitstreams API
+  slug: open-university-of-edinburgh-bitstreams-api
+- collection_type: open
+  name: Edinburgh DataShare REST Bitstreams Collections API
+  slug: open-university-of-edinburgh-collections-api
+- collection_type: open
+  name: Edinburgh DataShare REST Bitstreams Communities API
+  slug: open-university-of-edinburgh-communities-api
+- collection_type: open
+  name: Edinburgh DataShare REST Bitstreams Hierarchy API
+  slug: open-university-of-edinburgh-hierarchy-api
+- collection_type: open
+  name: Edinburgh DataShare REST Bitstreams Items API
+  slug: open-university-of-edinburgh-items-api
+- collection_type: open
+  name: Edinburgh DataShare REST Bitstreams Registries API
+  slug: open-university-of-edinburgh-registries-api
+- collection_type: open
+  name: Edinburgh DataShare REST Bitstreams Status API
+  slug: open-university-of-edinburgh-status-api
 common:
 - group: agent
   title: ''
@@ -165,7 +190,7 @@ plans:
 - name: University Of Edinburgh Plans Pricing
   plan_count: 2
   slug: university-of-edinburgh-plans-pricing
-random_paper: 97
+random_paper: 142
 rate_limits:
 - limit_count: 1
   name: University Of Edinburgh Rate Limits
@@ -213,7 +238,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/screenshots/university-of-edinburgh-2026-06-20T200145.png
 security:

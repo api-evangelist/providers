@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -117,11 +117,90 @@ arazzos:
 - description: Create a project and target group, check feasibility, then launch a fielding run.
   name: Launch a Cint Exchange Target Group
   slug: cint-launch-target-group
-artifact_total: 32
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Cint Webhooks
   slug: cint-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Demand Accounts API
+  slug: open-cint-accounts-api
+- collection_type: open
+  name: Demand Accounts Allocation Templates Admin API
+  slug: open-cint-allocation-templates-admin-api
+- collection_type: open
+  name: Demand Accounts Definitions API
+  slug: open-cint-definitions-api
+- collection_type: open
+  name: Demand Accounts Exclusive Endpoints API
+  slug: open-cint-exclusive-endpoints-api
+- collection_type: open
+  name: Demand Accounts Feasibility API
+  slug: open-cint-feasibility-api
+- collection_type: open
+  name: Demand Accounts Fielding API
+  slug: open-cint-fielding-api
+- collection_type: open
+  name: Demand Accounts Fielding Assistant API
+  slug: open-cint-fielding-assistant-api
+- collection_type: open
+  name: Demand Accounts Fielding (Batch) API
+  slug: open-cint-fielding-batch-api
+- collection_type: open
+  name: Demand Accounts Fulfillment API
+  slug: open-cint-fulfillment-api
+- collection_type: open
+  name: Demand Accounts Intelligent Calendar API
+  slug: open-cint-intelligent-calendar-api
+- collection_type: open
+  name: Demand Accounts Manage Profiles for Launched Target Groups API
+  slug: open-cint-manage-profiles-for-launched-target-groups-api
+- collection_type: open
+  name: Demand Accounts Notifications Webhooks API
+  slug: open-cint-notifications-webhooks-api
+- collection_type: open
+  name: Demand Accounts Profiling Helper API
+  slug: open-cint-profiling-helper-api
+- collection_type: open
+  name: Demand Accounts Profiling Library API
+  slug: open-cint-profiling-library-api
+- collection_type: open
+  name: Demand Accounts Profiling Quotas By Supplier API
+  slug: open-cint-profiling-quotas-by-supplier-api
+- collection_type: open
+  name: Demand Accounts Profiling Templates API
+  slug: open-cint-profiling-templates-api
+- collection_type: open
+  name: Demand Accounts Projects API
+  slug: open-cint-projects-api
+- collection_type: open
+  name: Demand Accounts Reconciliations API
+  slug: open-cint-reconciliations-api
+- collection_type: open
+  name: Demand Accounts Recontacts API
+  slug: open-cint-recontacts-api
+- collection_type: open
+  name: Demand Accounts Reports API
+  slug: open-cint-reports-api
+- collection_type: open
+  name: Demand Accounts Respondent Exclusions API
+  slug: open-cint-respondent-exclusions-api
+- collection_type: open
+  name: Demand Accounts Respondent Unique Codes API
+  slug: open-cint-respondent-unique-codes-api
+- collection_type: open
+  name: Demand Accounts Target Group Allocations API
+  slug: open-cint-target-group-allocations-api
+- collection_type: open
+  name: Demand Accounts Target Groups API
+  slug: open-cint-target-groups-api
+- collection_type: open
+  name: Demand Accounts Target Groups (Batch) API
+  slug: open-cint-target-groups-batch-api
 common:
 - group: start
   title: ''
@@ -254,7 +333,7 @@ overview: 'Cint publishes 25 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cint''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 70
+random_paper: 132
 score:
   band: developing
   composite: 53.1
@@ -278,7 +357,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/screenshots/cint-2026-07-25T205351.png
 security:

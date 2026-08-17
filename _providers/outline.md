@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -93,7 +93,65 @@ apis:
 - description: '`Views` represent a compressed record of an individual users views of a document. Individual views are not recorded but a first, last and total is kept per user.'
   name: Outline Views API
   slug: outline-views-api
-artifact_total: 178
+artifact_total: 197
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Outline AccessRequests API
+  slug: open-outline-accessrequests-api
+- collection_type: open
+  name: Outline AccessRequests Attachments API
+  slug: open-outline-attachments-api
+- collection_type: open
+  name: Outline AccessRequests Auth API
+  slug: open-outline-auth-api
+- collection_type: open
+  name: Outline AccessRequests Collections API
+  slug: open-outline-collections-api
+- collection_type: open
+  name: Outline AccessRequests Comments API
+  slug: open-outline-comments-api
+- collection_type: open
+  name: Outline AccessRequests DataAttributes API
+  slug: open-outline-dataattributes-api
+- collection_type: open
+  name: Outline AccessRequests Documents API
+  slug: open-outline-documents-api
+- collection_type: open
+  name: Outline AccessRequests Events API
+  slug: open-outline-events-api
+- collection_type: open
+  name: Outline AccessRequests FileOperations API
+  slug: open-outline-fileoperations-api
+- collection_type: open
+  name: Outline AccessRequests Groups API
+  slug: open-outline-groups-api
+- collection_type: open
+  name: Outline AccessRequests OAuthAuthentications API
+  slug: open-outline-oauthauthentications-api
+- collection_type: open
+  name: Outline AccessRequests OAuthClients API
+  slug: open-outline-oauthclients-api
+- collection_type: open
+  name: Outline AccessRequests Revisions API
+  slug: open-outline-revisions-api
+- collection_type: open
+  name: Outline AccessRequests Shares API
+  slug: open-outline-shares-api
+- collection_type: open
+  name: Outline AccessRequests Stars API
+  slug: open-outline-stars-api
+- collection_type: open
+  name: Outline AccessRequests Templates API
+  slug: open-outline-templates-api
+- collection_type: open
+  name: Outline AccessRequests Users API
+  slug: open-outline-users-api
+- collection_type: open
+  name: Outline AccessRequests Views API
+  slug: open-outline-views-api
 common:
 - group: commercial
   title: ''
@@ -647,7 +705,7 @@ plans:
 - name: Outline Plans Pricing
   plan_count: 4
   slug: outline-plans-pricing
-random_paper: 48
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Outline Rate Limits
@@ -686,7 +744,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/screenshots/outline-2026-06-20T191231.png
 security:

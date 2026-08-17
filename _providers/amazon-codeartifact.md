@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - description: The Untag#resourceArn API from Amazon CodeArtifact — 1 operation(s) for untag#resourcearn.
   name: Amazon CodeArtifact Untag#resourceArn API
   slug: amazon-codeartifact-untag-resourcearn-api
-artifact_total: 486
+artifact_total: 500
 collections:
 - collection_type: postman
   name: CodeArtifact Authorization Token#domain API
@@ -119,6 +119,48 @@ collections:
 - collection_type: postman
   name: CodeArtifact Authorization Token#domain Untag#resourceArn API
   slug: postman-amazon-codeartifact-untag-resourcearn-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain API
+  slug: open-amazon-codeartifact-authorization-token-domain-api
+- collection_type: open
+  name: CodeArtifact Authorization Token# Domain API
+  slug: open-amazon-codeartifact-domain-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Domain#domain API
+  slug: open-amazon-codeartifact-domain-domain-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Domains API
+  slug: open-amazon-codeartifact-domains-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Package API
+  slug: open-amazon-codeartifact-package-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Package#domain&repository&format&package API
+  slug: open-amazon-codeartifact-package-domain-repository-format-package-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Packages#domain&repository API
+  slug: open-amazon-codeartifact-packages-domain-repository-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Repositories API
+  slug: open-amazon-codeartifact-repositories-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Repository API
+  slug: open-amazon-codeartifact-repository-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Repository#domain&repository API
+  slug: open-amazon-codeartifact-repository-domain-repository-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Tag#resourceArn API
+  slug: open-amazon-codeartifact-tag-resourcearn-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Tags#resourceArn API
+  slug: open-amazon-codeartifact-tags-resourcearn-api
+- collection_type: open
+  name: CodeArtifact Authorization Token#domain Untag#resourceArn API
+  slug: open-amazon-codeartifact-untag-resourcearn-api
 common:
 - group: agent
   title: ''
@@ -1577,7 +1619,7 @@ overview: 'Amazon CodeArtifact publishes 13 APIs on the [APIs.io](https://apis.i
 
 
   Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 22 more developer resources.'
-random_paper: 28
+random_paper: 11
 rules:
 - name: Amazon CodeArtifact API Rules
   rule_count: 5
@@ -1617,7 +1659,7 @@ score:
       total: 13
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/screenshots/amazon-codeartifact-2026-07-25T195952.png
 security:

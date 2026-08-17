@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Workspaces API from Preset — 2 operation(s) for workspaces.
   name: Preset Workspaces API
   slug: preset-workspaces-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Preset Authentication API
+  slug: open-preset-authentication-api
+- collection_type: open
+  name: Preset Authentication Charts API
+  slug: open-preset-charts-api
+- collection_type: open
+  name: Preset Authentication Dashboards API
+  slug: open-preset-dashboards-api
+- collection_type: open
+  name: Preset Authentication Databases API
+  slug: open-preset-databases-api
+- collection_type: open
+  name: Preset Authentication Datasets API
+  slug: open-preset-datasets-api
+- collection_type: open
+  name: Preset Authentication SQL Lab API
+  slug: open-preset-sql-lab-api
+- collection_type: open
+  name: Preset Authentication Teams API
+  slug: open-preset-teams-api
+- collection_type: open
+  name: Preset Authentication Workspaces API
+  slug: open-preset-workspaces-api
 - collection_type: open
   name: Preset API
   slug: open-preset
@@ -129,7 +156,7 @@ plans:
 - name: Preset Plans Pricing
   plan_count: 3
   slug: preset-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Preset Rate Limits
@@ -154,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/screenshots/preset-2026-06-20T192138.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,14 @@ apis:
 - description: The Values API from Device Specs API — 4 operation(s) for values.
   name: Device Specs API Values API
   slug: device-specs-api-values-api
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Device Specs Values API
+  slug: open-device-specs-api-values-api
 common:
 - group: agent
   title: ''
@@ -192,7 +199,7 @@ plans:
 - name: Device Specs Api Plans
   plan_count: 4
   slug: device-specs-api-plans
-random_paper: 10
+random_paper: 80
 rate_limits:
 - limit_count: 9
   name: Device Specs Api Rate Limits
@@ -229,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

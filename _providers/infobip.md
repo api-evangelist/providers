@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -170,7 +170,7 @@ apis:
 - description: Infobip OpenAPI Specification from Infobip — 652 path(s) described in OpenAPI.
   name: Infobip OpenAPI Specification
   slug: infobip-platform-full-openapi
-artifact_total: 103
+artifact_total: 150
 asyncapis:
 - description: AsyncAPI projection of the 102 webhooks published in the Infobip platform OpenAPI 3.1 document (the "webhooks" object). Each channel is an Infobip-originated HTTP callback delivered to a customer-conf
   name: Infobip platform webhooks
@@ -317,6 +317,147 @@ collections:
 - collection_type: postman
   name: Infobip OpenAPI Specification
   slug: postman-infobip-zalo-openapi
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-2fa
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-account-management
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-ai-assistants
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-answers
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-apple-mfb
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-application-entity
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-billing-usage-api
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-biometrics
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-blocklist
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-camara
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-catalogs-api
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-common-assets
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-conversations
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-email
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-instagram
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-kakao
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-knowledge-base
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-line
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-live-chat
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-messages-api
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-messenger
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-metrics-api
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-mms
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-mobile-app-messaging
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-mobile-identity
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-moments
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-number-activation-state
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-number-lookup
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-numbers
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-omni-failover
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-open-channel
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-openapi
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-people
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-platform-full
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-rcs
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-resources
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-sending-strategy
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-signals
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-sms
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-subscriptions-api
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-tiktok
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-viber
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-vocalize
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-voice
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-webrtc-calls
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-whatsapp
+- collection_type: open
+  name: Infobip OpenAPI Specification
+  slug: open-infobip-zalo
 common:
 - group: build
   title: ''
@@ -594,7 +735,7 @@ overview: 'Infobip publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 57 more developer resources.'
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 44
   name: Infobip Rate Limits
@@ -633,7 +774,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/screenshots/infobip-2026-08-07T170702.png
 security:

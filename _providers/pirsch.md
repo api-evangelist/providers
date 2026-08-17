@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-12'
+  score: 49.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -84,7 +85,60 @@ apis:
 - description: Configure webhooks for event-driven integrations
   name: Pirsch Webhooks API
   slug: pirsch-webhooks-api
-artifact_total: 32
+artifact_total: 49
+asyncapis:
+- description: ''
+  name: Pirsch Webhooks
+  slug: pirsch-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pirsch Access Links API
+  slug: open-pirsch-access-links-api
+- collection_type: open
+  name: Pirsch Access Links Authentication API
+  slug: open-pirsch-authentication-api
+- collection_type: open
+  name: Pirsch Access Links Clients API
+  slug: open-pirsch-clients-api
+- collection_type: open
+  name: Pirsch Access Links Conversion Goals API
+  slug: open-pirsch-conversion-goals-api
+- collection_type: open
+  name: Pirsch Access Links Domains API
+  slug: open-pirsch-domains-api
+- collection_type: open
+  name: Pirsch Access Links Email Reports API
+  slug: open-pirsch-email-reports-api
+- collection_type: open
+  name: Pirsch Access Links Funnels API
+  slug: open-pirsch-funnels-api
+- collection_type: open
+  name: Pirsch Access Links Members API
+  slug: open-pirsch-members-api
+- collection_type: open
+  name: Pirsch Access Links Short Links API
+  slug: open-pirsch-short-links-api
+- collection_type: open
+  name: Pirsch Access Links Statistics API
+  slug: open-pirsch-statistics-api
+- collection_type: open
+  name: Pirsch Access Links Tracking API
+  slug: open-pirsch-tracking-api
+- collection_type: open
+  name: Pirsch Access Links Traffic Management API
+  slug: open-pirsch-traffic-management-api
+- collection_type: open
+  name: Pirsch Access Links User API
+  slug: open-pirsch-user-api
+- collection_type: open
+  name: Pirsch Access Links Views API
+  slug: open-pirsch-views-api
+- collection_type: open
+  name: Pirsch Access Links Webhooks API
+  slug: open-pirsch-webhooks-api
 common:
 - group: agent
   title: ''
@@ -138,6 +192,246 @@ common:
   title: ''
   type: FinOps
   url: finops/pirsch-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.pirsch.io/api-sdks/api-v1
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.pirsch.io/api-sdks/api-v1
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.pirsch.io/get-started/frontend-integration
+- group: operate
+  title: ''
+  type: Support
+  url: https://forum.pirsch.io
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://docs.pirsch.io/faq
+- group: start
+  title: ''
+  type: Console
+  url: https://pirsch.pirsch.io
+- group: company
+  title: ''
+  type: About
+  url: https://pirsch.io/about-us
+- group: company
+  title: ''
+  type: News
+  url: https://pirsch.io/news
+- group: commercial
+  title: ''
+  type: DataProcessingAgreement
+  url: https://pirsch.io/static/files/Data%20Processing%20Agreement%20-%20Pirsch%20Analytics.pdf
+- group: company
+  title: ''
+  type: Bluesky
+  url: https://bsky.app/profile/pirsch.bsky.social
+- group: company
+  title: ''
+  type: Mastodon
+  url: https://social.anoxinon.de/@pirsch
+- group: other
+  title: ''
+  type: ProductHunt
+  url: https://www.producthunt.com/products/pirsch-analytics
+- group: start
+  title: ''
+  type: SignUp
+  url: https://pirsch.io/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://pirsch.io/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://pirsch.io/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://pirsch.io/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/pirsch-analytics
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.pirsch.io/changelog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/pirsch-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pirsch-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/pirsch-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pirsch-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pirsch-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pirsch-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pirsch-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pirsch-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.pirsch.io/privacy
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/pirsch-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/pirsch-components.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/pirsch-webhooks.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/pirsch-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/pirsch-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/pirsch-context.jsonld
+- group: design
+  title: ''
+  type: Rules
+  url: rules/pirsch-jsonschema-spectral-rules.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/pirsch-hit-request.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/pirsch-event-request.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/pirsch-visitor-stats.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/pirsch-domain.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/pirsch-hit-request-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/pirsch-event-request-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/pirsch-token-request-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/pirsch-token-response-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/pirsch-visitor-stats-response-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/pirsch-domain-example.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-access-links-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-authentication-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-clients-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-conversion-goals-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-domains-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-email-reports-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-funnels-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-members-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-short-links-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-statistics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-tracking-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-traffic-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-user-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-views-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pirsch-webhooks-overlay.yaml
 created: '2026-06-13'
 description: Pirsch is a privacy-first website analytics platform built and hosted in Germany. GDPR, CCPA, PECR, and Schrems II compliant, it tracks page views, sessions, custom events, conversion goals, funnels, and traffic sources without cookies or personal data storage. Developers access all data via a RESTful API with OAuth and access-key authentication, supported by official Go, JavaScript, and PHP SDKs.
 examples:
@@ -180,22 +474,22 @@ jsonld:
   property_count: 63
   slug: pirsch-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: Pirsch
 nav: Providers
 network: true
 overview: 'Pirsch publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Access Links API, Authentication API, Clients API, and 12 more. Tagged areas include Analytics, Web Analytics, Privacy, GDPR, and Cookie-Free.
 
 
-  The Pirsch catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Pirsch catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Pirsch''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  Pirsch''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 66 more developer resources.'
 plans:
 - name: Pirsch Plans Pricing
   plan_count: 3
   slug: pirsch-plans-pricing
-random_paper: 49
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Pirsch Rate Limits
@@ -210,16 +504,16 @@ rules:
     warn: 4
   slug: pirsch-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.3
-  delta: 0.0
+  band: exemplar
+  composite: 76.0
+  delta: 26.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 62.9
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    commercial_clarity: 92.1
+    contract_quality: 71.9
+    developer_ergonomics: 71.7
+    discoverability: 81.5
+    governance: 77.1
+    operational_transparency: 60.5
   previous_composite: 49.3
   provenance:
     agentic_access: derived
@@ -229,8 +523,8 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/screenshots/pirsch-2026-06-20T191730.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: The Quotations API from Insightly — 1 operation(s) for quotations.
   name: Insightly Quotations API
   slug: insightly-quotations-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Insightly CRM Contacts API
+  slug: open-insightly-contacts-api
+- collection_type: open
+  name: Insightly CRM Contacts Leads API
+  slug: open-insightly-leads-api
+- collection_type: open
+  name: Insightly CRM Contacts Opportunities API
+  slug: open-insightly-opportunities-api
+- collection_type: open
+  name: Insightly CRM Contacts Organisations API
+  slug: open-insightly-organisations-api
+- collection_type: open
+  name: Insightly CRM Contacts Products API
+  slug: open-insightly-products-api
+- collection_type: open
+  name: Insightly CRM Contacts Projects API
+  slug: open-insightly-projects-api
+- collection_type: open
+  name: Insightly CRM Contacts Quotations API
+  slug: open-insightly-quotations-api
 - collection_type: open
   name: Insightly CRM API
   slug: open-insightly
@@ -128,7 +152,7 @@ overview: 'Insightly publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Insightly''s developer surface includes authentication, documentation, support, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 27
+random_paper: 93
 score:
   band: thin
   composite: 31.9
@@ -149,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/screenshots/insightly-2026-06-20T183401.png
 security:

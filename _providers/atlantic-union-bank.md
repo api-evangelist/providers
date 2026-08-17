@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Atlantic Union Bank is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Atlantic Union Bank''s developer surface includes support and 9 more developer resources.'
-random_paper: 103
+random_paper: 115
 score:
   band: emerging
   composite: 13.0
@@ -95,7 +95,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlantic-union-bank/refs/heads/main/screenshots/atlantic-union-bank-2026-07-25T201536.png
 security:

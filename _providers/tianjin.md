@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -96,7 +96,7 @@ plans:
 - name: Tianjin Plans Pricing
   plan_count: 2
   slug: tianjin-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Tianjin Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tianjin/refs/heads/main/screenshots/tianjin-2026-06-20T195443.png
 security:

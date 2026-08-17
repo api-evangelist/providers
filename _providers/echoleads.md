@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: EchoLeads provider surfaces. The agent-native artifacts (llms.txt, llms-full.txt, security.txt) are confirmed publicly reachable and are saved verbatim in this repo. A REST API for triggering calls, r
@@ -107,7 +107,7 @@ plans:
 - name: Echoleads Plans Pricing
   plan_count: 0
   slug: echoleads-plans-pricing
-random_paper: 96
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Echoleads Rate Limits
@@ -125,7 +125,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

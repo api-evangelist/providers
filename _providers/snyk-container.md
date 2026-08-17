@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Manage scan targets (images, registries)
   name: Snyk Container Targets API
   slug: snyk-container-targets-api
-artifact_total: 23
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Snyk Container Container Projects API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Snyk Container Container Projects Targets API
   slug: postman-snyk-container-targets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Snyk Container Container Projects API
+  slug: open-snyk-container-container-projects-api
+- collection_type: open
+  name: Snyk Container Container Projects Issues API
+  slug: open-snyk-container-issues-api
+- collection_type: open
+  name: Snyk Container Container Projects Targets API
+  slug: open-snyk-container-targets-api
 - collection_type: open
   name: Snyk Container API
   slug: open-snyk-container
@@ -201,7 +213,7 @@ plans:
 - name: Snyk Container Plans Pricing
   plan_count: 3
   slug: snyk-container-plans-pricing
-random_paper: 21
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: Snyk Container Rate Limits
@@ -243,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/screenshots/snyk-container-2026-06-20T194116.png
 security:

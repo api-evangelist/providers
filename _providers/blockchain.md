@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -75,12 +75,24 @@ apis:
 - description: Bitcoin transaction lookups.
   name: Blockchain.com Transactions API
   slug: blockchain-transactions-api
-artifact_total: 239
+artifact_total: 250
 asyncapis:
 - description: 'Real-time WebSocket APIs published by Blockchain.com covering two distinct surfaces: 1. Bitcoin / blockchain.info Explorer WebSocket — subscribe to unconfirmed transactions, new blocks, address activi'
   name: Blockchain.com WebSocket APIs
   slug: blockchain-com-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blockchain.com Charts, Stats & Market Data Addresses API
+  slug: open-blockchain-addresses-api
+- collection_type: open
+  name: Blockchain.com Charts, Stats & Market Data Addresses Blocks API
+  slug: open-blockchain-blocks-api
+- collection_type: open
+  name: Blockchain.com , Stats & Market Data Addresses Charts API
+  slug: open-blockchain-charts-api
 - collection_type: open
   name: Blockchain.com Charts, Stats & Market Data API
   slug: open-blockchain-charts-stats
@@ -90,6 +102,27 @@ collections:
 - collection_type: open
   name: Blockchain.com Exchange REST API
   slug: open-blockchain-exchange
+- collection_type: open
+  name: Blockchain.com Charts, Stats & Addresses Market Data API
+  slug: open-blockchain-market-data-api
+- collection_type: open
+  name: Blockchain.com Charts, Stats & Market Data Addresses Network API
+  slug: open-blockchain-network-api
+- collection_type: open
+  name: Blockchain.com Charts, Stats & Market Data Addresses Payments API
+  slug: open-blockchain-payments-api
+- collection_type: open
+  name: Blockchain.com Charts, Stats & Market Data Addresses Pools API
+  slug: open-blockchain-pools-api
+- collection_type: open
+  name: Blockchain.com Charts, & Market Data Addresses Stats API
+  slug: open-blockchain-stats-api
+- collection_type: open
+  name: Blockchain.com Charts, Stats & Market Data Addresses Trading API
+  slug: open-blockchain-trading-api
+- collection_type: open
+  name: Blockchain.com Charts, Stats & Market Data Addresses Transactions API
+  slug: open-blockchain-transactions-api
 common:
 - group: agent
   title: ''
@@ -829,7 +862,7 @@ plans:
 - name: Blockchain Plans Pricing
   plan_count: 3
   slug: blockchain-plans-pricing
-random_paper: 78
+random_paper: 144
 rate_limits:
 - limit_count: 7
   name: Blockchain Rate Limits
@@ -885,7 +918,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain/refs/heads/main/screenshots/blockchain-2026-06-20T173356.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: RESTful entry point to the Monetate decision engine. A client POSTs a batch of context events, page events and record events for a session and receives back the actions (experiences) the engine decide
@@ -36,7 +36,20 @@ apis:
 - description: Hosted Model Context Protocol server published on the monetate.com marketing site, advertised through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-resource metadata. Provided by
   name: Monetate Website MCP Server
   slug: monetate-website-mcp-server
-artifact_total: 13
+artifact_total: 17
+collections:
+- collection_type: open
+  name: Monetate Auth API
+  slug: open-monetate-auth-api
+- collection_type: open
+  name: Monetate Data API
+  slug: open-monetate-data-api
+- collection_type: open
+  name: Monetate Engine API
+  slug: open-monetate-engine-api
+- collection_type: open
+  name: Monetate Metadata API
+  slug: open-monetate-metadata-api
 common:
 - group: company
   title: ''
@@ -193,7 +206,7 @@ plans:
 - name: Monetate Plans Pricing
   plan_count: 0
   slug: monetate-plans-pricing
-random_paper: 21
+random_paper: 116
 rate_limits:
 - limit_count: 0
   name: Monetate Rate Limits
@@ -201,6 +214,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 52.0
@@ -208,8 +222,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
+  previous_composite: 53.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Monetate Authentication

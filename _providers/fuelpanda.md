@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'FleetPanda is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   FleetPanda''s developer surface includes engineering blog, support, pricing, and 10 more developer resources.'
-random_paper: 104
+random_paper: 50
 score:
   band: emerging
   composite: 21.6
@@ -117,7 +117,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fuelpanda/refs/heads/main/screenshots/fuelpanda-2026-07-25T215251.png
 security:

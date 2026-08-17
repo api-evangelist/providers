@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Create, read, update, and delete company records.
@@ -64,7 +64,44 @@ apis:
 - description: The Users API from Fixture — 1 operation(s) for users.
   name: Fixture Users API
   slug: fixture-users-api
-artifact_total: 15
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fixture Accounts API
+  slug: open-fixture-accounts-api
+- collection_type: open
+  name: Fixture Accounts Activities API
+  slug: open-fixture-activities-api
+- collection_type: open
+  name: Fixture Accounts Contacts API
+  slug: open-fixture-contacts-api
+- collection_type: open
+  name: Fixture Accounts Deals API
+  slug: open-fixture-deals-api
+- collection_type: open
+  name: Fixture Accounts Fixture API API
+  slug: open-fixture-fixture-api-api
+- collection_type: open
+  name: Fixture Accounts Leads API
+  slug: open-fixture-leads-api
+- collection_type: open
+  name: Fixture Accounts Notes API
+  slug: open-fixture-notes-api
+- collection_type: open
+  name: Fixture Accounts Pipelines API
+  slug: open-fixture-pipelines-api
+- collection_type: open
+  name: Fixture Accounts Task Statuses API
+  slug: open-fixture-task-statuses-api
+- collection_type: open
+  name: Fixture Accounts Tasks API
+  slug: open-fixture-tasks-api
+- collection_type: open
+  name: Fixture Accounts Users API
+  slug: open-fixture-users-api
 common:
 - group: other
   title: ''
@@ -194,7 +231,7 @@ overview: 'Fixture publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fixture''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 22 more developer resources.'
-random_paper: 55
+random_paper: 30
 scopes:
 - name: Fixture Scopes
   scope_count: 0
@@ -222,7 +259,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/screenshots/fixture-2026-07-25T214655.png
 security:

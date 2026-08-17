@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ overview: 'accessiBe publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   accessiBe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 90
+random_paper: 36
 score:
   band: developing
   composite: 53.7
@@ -212,7 +212,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/screenshots/accessibe-2026-08-07T160757.png
 security:

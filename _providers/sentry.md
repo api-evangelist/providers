@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ arazzos:
 - description: Find the most relevant unresolved issue, inspect its events, then resolve or reprioritize it.
   name: Sentry Triage and Resolve an Issue
   slug: sentry-triage-issue-workflow
-artifact_total: 51
+artifact_total: 58
 asyncapis:
 - description: Sentry Integration Platform delivers webhook notifications to registered integrations when events occur in Sentry. Webhooks are sent as HTTP POST requests signed with HMAC-SHA256 using the client secr
   name: Sentry Integration Platform Webhooks
@@ -92,8 +92,29 @@ collections:
   name: Sentry Error Monitoring API
   slug: postman-sentry-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sentry Error Monitoring Alerts API
+  slug: open-sentry-alerts-api
+- collection_type: open
   name: Sentry Error Monitoring API
   slug: open-sentry-api
+- collection_type: open
+  name: Sentry Error Monitoring Alerts Events API
+  slug: open-sentry-events-api
+- collection_type: open
+  name: Sentry Error Monitoring Alerts Issues API
+  slug: open-sentry-issues-api
+- collection_type: open
+  name: Sentry Error Monitoring Alerts Organizations API
+  slug: open-sentry-organizations-api
+- collection_type: open
+  name: Sentry Error Monitoring Alerts Projects API
+  slug: open-sentry-projects-api
+- collection_type: open
+  name: Sentry Error Monitoring Alerts Releases API
+  slug: open-sentry-releases-api
 common:
 - group: agent
   title: ''
@@ -305,7 +326,7 @@ plans:
 - name: Sentry Plans Pricing
   plan_count: 4
   slug: sentry-plans-pricing
-random_paper: 77
+random_paper: 81
 rate_limits:
 - limit_count: 4
   name: Sentry Rate Limits
@@ -355,7 +376,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry/refs/heads/main/screenshots/sentry-2026-06-20T193811.png
 security:

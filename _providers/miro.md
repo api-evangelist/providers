@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -192,8 +192,164 @@ apis:
 - description: The User groups API from Miro — 2 operation(s) for user groups.
   name: Miro User groups API
   slug: miro-user-groups-api
-artifact_total: 60
+artifact_total: 112
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs API
+  slug: open-miro-ai-interaction-logs-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs App card items API
+  slug: open-miro-app-card-items-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs App metrics (experimental) API
+  slug: open-miro-app-metrics-experimental-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Audit Logs API
+  slug: open-miro-audit-logs-api
+- collection_type: open
+  name: 'Miro Developer Platform AI Interaction Logs Board classification: Board level API'
+  slug: open-miro-board-classification-board-level-api
+- collection_type: open
+  name: 'Miro Developer Platform AI Interaction Logs Board classification: Organization level API'
+  slug: open-miro-board-classification-organization-level-api
+- collection_type: open
+  name: 'Miro Developer Platform AI Interaction Logs Board classification: Team level API'
+  slug: open-miro-board-classification-team-level-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Board Content Logs API
+  slug: open-miro-board-content-logs-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Board Export API
+  slug: open-miro-board-export-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Board members API
+  slug: open-miro-board-members-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Boards API
+  slug: open-miro-boards-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Bulk operations API
+  slug: open-miro-bulk-operations-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Card items API
+  slug: open-miro-card-items-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Code widget items (experimental) API
+  slug: open-miro-code-widget-items-experimental-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Connectors API
+  slug: open-miro-connectors-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Discovery API
+  slug: open-miro-discovery-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs doc formats API
+  slug: open-miro-doc-formats-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Document items API
+  slug: open-miro-document-items-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs documents API
+  slug: open-miro-documents-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Embed items API
+  slug: open-miro-embed-items-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Flowchart shapes (experimental) API
+  slug: open-miro-flowchart-shapes-experimental-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs frames API
+  slug: open-miro-frames-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Group API
+  slug: open-miro-group-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs groups API
+  slug: open-miro-groups-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Image items API
+  slug: open-miro-image-items-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs images API
+  slug: open-miro-images-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Items API
+  slug: open-miro-items-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Legal holds API
+  slug: open-miro-legal-holds-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Mind map nodes (experimental) API
+  slug: open-miro-mind-map-nodes-experimental-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs OAuth API
+  slug: open-miro-oauth-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Organization Members API
+  slug: open-miro-organization-members-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Organizations API
+  slug: open-miro-organizations-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Project Members API
+  slug: open-miro-project-members-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Project Settings API
+  slug: open-miro-project-settings-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Projects API
+  slug: open-miro-projects-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Reset all sessions of a user API
+  slug: open-miro-reset-all-sessions-of-a-user-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Shape items API
+  slug: open-miro-shape-items-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Share boards with groups API
+  slug: open-miro-share-boards-with-groups-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Share projects with groups API
+  slug: open-miro-share-projects-with-groups-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Sticky note items API
+  slug: open-miro-sticky-note-items-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs tags API
+  slug: open-miro-tags-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Team Members API
+  slug: open-miro-team-members-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Team Settings API
+  slug: open-miro-team-settings-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Team user groups API
+  slug: open-miro-team-user-groups-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Teams API
+  slug: open-miro-teams-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs Text items API
+  slug: open-miro-text-items-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs tokens API
+  slug: open-miro-tokens-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs User API
+  slug: open-miro-user-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs User group members API
+  slug: open-miro-user-group-members-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs User group to teams API
+  slug: open-miro-user-group-to-teams-api
+- collection_type: open
+  name: Miro Developer Platform AI Interaction Logs User groups API
+  slug: open-miro-user-groups-api
 - collection_type: open
   name: Miro Developer Platform
   slug: open-miro
@@ -274,7 +430,7 @@ plans:
 - name: Miro Plans Pricing
   plan_count: 4
   slug: miro-plans-pricing
-random_paper: 79
+random_paper: 141
 rate_limits:
 - limit_count: 4
   name: Miro Rate Limits
@@ -304,7 +460,7 @@ score:
       marker_coverage: 0.0
       total: 51
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/screenshots/miro-2026-08-07T183725.png
 security:

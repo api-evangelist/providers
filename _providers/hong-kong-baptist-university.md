@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 1
@@ -141,7 +141,107 @@ apis:
 - description: The user API from Hong Kong Baptist University — 7 operation(s) for user.
   name: Hong Kong Baptist University user API
   slug: hong-kong-baptist-university-user-api
-artifact_total: 51
+artifact_total: 84
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-hong-kong-baptist-university-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-hong-kong-baptist-university-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-hong-kong-baptist-university-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-hong-kong-baptist-university-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-hong-kong-baptist-university-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-hong-kong-baptist-university-concept-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-hong-kong-baptist-university-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-hong-kong-baptist-university-dataset-api
+- collection_type: open
+  name: Pure activity education API
+  slug: open-hong-kong-baptist-university-education-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-hong-kong-baptist-university-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-hong-kong-baptist-university-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-hong-kong-baptist-university-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-hong-kong-baptist-university-externalperson-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-hong-kong-baptist-university-fundingopportunity-api
+- collection_type: open
+  name: Pure activity impact API
+  slug: open-hong-kong-baptist-university-impact-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-hong-kong-baptist-university-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-hong-kong-baptist-university-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity milestone API
+  slug: open-hong-kong-baptist-university-milestone-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-hong-kong-baptist-university-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-hong-kong-baptist-university-person-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-hong-kong-baptist-university-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-hong-kong-baptist-university-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-hong-kong-baptist-university-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-hong-kong-baptist-university-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-hong-kong-baptist-university-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-hong-kong-baptist-university-role-api
+- collection_type: open
+  name: Pure activity semester API
+  slug: open-hong-kong-baptist-university-semester-api
+- collection_type: open
+  name: Pure activity specialization API
+  slug: open-hong-kong-baptist-university-specialization-api
+- collection_type: open
+  name: Pure activity studentProject API
+  slug: open-hong-kong-baptist-university-studentproject-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-hong-kong-baptist-university-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-hong-kong-baptist-university-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-hong-kong-baptist-university-user-api
 common:
 - group: agent
   title: ''
@@ -246,7 +346,7 @@ plans:
 - name: Hong Kong Baptist University Plans Pricing
   plan_count: 2
   slug: hong-kong-baptist-university-plans-pricing
-random_paper: 115
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Hong Kong Baptist University Rate Limits
@@ -288,7 +388,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/screenshots/hong-kong-baptist-university-2026-06-20T182824.png
 security:

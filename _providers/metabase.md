@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: User account management.
   name: Metabase Users API
   slug: metabase-users-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Metabase Cards API
+  slug: open-metabase-cards-api
+- collection_type: open
+  name: Metabase Cards Collections API
+  slug: open-metabase-collections-api
+- collection_type: open
+  name: Metabase Cards Dashboards API
+  slug: open-metabase-dashboards-api
+- collection_type: open
+  name: Metabase Cards Databases API
+  slug: open-metabase-databases-api
+- collection_type: open
+  name: Metabase Cards Datasets API
+  slug: open-metabase-datasets-api
+- collection_type: open
+  name: Metabase Cards Permissions API
+  slug: open-metabase-permissions-api
+- collection_type: open
+  name: Metabase Cards Search API
+  slug: open-metabase-search-api
+- collection_type: open
+  name: Metabase Cards Sessions API
+  slug: open-metabase-sessions-api
+- collection_type: open
+  name: Metabase Cards Settings API
+  slug: open-metabase-settings-api
+- collection_type: open
+  name: Metabase Cards Users API
+  slug: open-metabase-users-api
 - collection_type: open
   name: Metabase API
   slug: open-metabase
@@ -155,7 +188,7 @@ plans:
 - name: Metabase Plans Pricing
   plan_count: 3
   slug: metabase-plans-pricing
-random_paper: 114
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Metabase Rate Limits
@@ -180,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/screenshots/metabase-2026-06-20T185245.png
 security:

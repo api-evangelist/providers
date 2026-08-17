@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -37,7 +37,14 @@ apis:
 - description: 'AGL''s retail energy plans published as anonymous, machine-readable Consumer Data Right Product Reference Data. Verified live on 2026-07-27: GET /energy/plans?page-size=10 returned HTTP 200 with x-v:1,'
   name: AGL Energy Product Reference Data (PRD) API
   slug: agl-energy-product-reference-data-api
-artifact_total: 9
+artifact_total: 11
+collections:
+- collection_type: open
+  name: CDR Common API
+  slug: open-agl-energy-cds-common
+- collection_type: open
+  name: CDR Energy API
+  slug: open-agl-energy-cds-energy
 common:
 - group: auth
   title: ''
@@ -165,7 +172,7 @@ overview: 'AGL Energy publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AGL Energy''s developer surface includes authentication, changelog, API reference, documentation, support, and 22 more developer resources.'
-random_paper: 43
+random_paper: 109
 scopes:
 - name: Agl Energy Scopes
   scope_count: 11
@@ -200,7 +207,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

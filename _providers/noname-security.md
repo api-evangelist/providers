@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Noname API Security Platform provides comprehensive API security through discovery, posture management, runtime protection, and active testing. It discovers all APIs across the organization, detec
@@ -109,7 +109,7 @@ plans:
 - name: Noname Security Plans Pricing
   plan_count: 3
   slug: noname-security-plans-pricing
-random_paper: 11
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Noname Security Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noname-security/refs/heads/main/screenshots/noname-security-2026-06-20T190402.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -99,8 +99,71 @@ apis:
 - description: Workflow task groups, tasks, and outputs.
   name: Benchling Workflows API
   slug: benchling-lims-workflows-api
-artifact_total: 29
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Benchling AA Sequences API
+  slug: open-benchling-lims-aa-sequences-api
+- collection_type: open
+  name: Benchling AA Sequences Apps API
+  slug: open-benchling-lims-apps-api
+- collection_type: open
+  name: Benchling AA Sequences Assay Results API
+  slug: open-benchling-lims-assay-results-api
+- collection_type: open
+  name: Benchling AA Sequences Assay Runs API
+  slug: open-benchling-lims-assay-runs-api
+- collection_type: open
+  name: Benchling AA Sequences Blobs & Files API
+  slug: open-benchling-lims-blobs-files-api
+- collection_type: open
+  name: Benchling AA Sequences Custom Entities API
+  slug: open-benchling-lims-custom-entities-api
+- collection_type: open
+  name: Benchling AA Sequences DNA Sequences API
+  slug: open-benchling-lims-dna-sequences-api
+- collection_type: open
+  name: Benchling AA Sequences Entries API
+  slug: open-benchling-lims-entries-api
+- collection_type: open
+  name: Benchling AA Sequences Events API
+  slug: open-benchling-lims-events-api
+- collection_type: open
+  name: Benchling AA Sequences Inventory API
+  slug: open-benchling-lims-inventory-api
+- collection_type: open
+  name: Benchling AA Sequences Lab Automation API
+  slug: open-benchling-lims-lab-automation-api
+- collection_type: open
+  name: Benchling AA Sequences Molecules API
+  slug: open-benchling-lims-molecules-api
+- collection_type: open
+  name: Benchling AA Sequences Oligos API
+  slug: open-benchling-lims-oligos-api
+- collection_type: open
+  name: Benchling AA Sequences Projects & Folders API
+  slug: open-benchling-lims-projects-folders-api
+- collection_type: open
+  name: Benchling AA Sequences Registry API
+  slug: open-benchling-lims-registry-api
+- collection_type: open
+  name: Benchling AA Sequences Requests API
+  slug: open-benchling-lims-requests-api
+- collection_type: open
+  name: Benchling AA Sequences RNA Sequences API
+  slug: open-benchling-lims-rna-sequences-api
+- collection_type: open
+  name: Benchling AA Sequences Teams & Organizations API
+  slug: open-benchling-lims-teams-organizations-api
+- collection_type: open
+  name: Benchling AA Sequences Users API
+  slug: open-benchling-lims-users-api
+- collection_type: open
+  name: Benchling AA Sequences Workflows API
+  slug: open-benchling-lims-workflows-api
 - collection_type: open
   name: Benchling API
   slug: open-benchling-lims
@@ -177,7 +240,7 @@ plans:
 - name: Benchling Lims Plans Pricing
   plan_count: 4
   slug: benchling-lims-plans-pricing
-random_paper: 100
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Benchling Lims Rate Limits
@@ -213,7 +276,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/screenshots/benchling-lims-2026-07-25T202730.png
 security:

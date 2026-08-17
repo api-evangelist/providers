@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -66,8 +66,38 @@ apis:
 - description: Manage event webhooks.
   name: Enode Webhooks API
   slug: enode-webhooks-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Enode Batteries API
+  slug: open-enode-batteries-api
+- collection_type: open
+  name: Enode Batteries Chargers API
+  slug: open-enode-chargers-api
+- collection_type: open
+  name: Enode Batteries HVAC API
+  slug: open-enode-hvac-api
+- collection_type: open
+  name: Enode Batteries Inverters API
+  slug: open-enode-inverters-api
+- collection_type: open
+  name: Enode Batteries Meters API
+  slug: open-enode-meters-api
+- collection_type: open
+  name: Enode Batteries Smart Charging API
+  slug: open-enode-smart-charging-api
+- collection_type: open
+  name: Enode Batteries Users API
+  slug: open-enode-users-api
+- collection_type: open
+  name: Enode Batteries Vehicles API
+  slug: open-enode-vehicles-api
+- collection_type: open
+  name: Enode Batteries Webhooks API
+  slug: open-enode-webhooks-api
 - collection_type: open
   name: Enode API
   slug: open-enode
@@ -140,7 +170,7 @@ plans:
 - name: Enode Plans Pricing
   plan_count: 2
   slug: enode-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Enode Rate Limits
@@ -171,7 +201,7 @@ score:
     regime_id: energy_utilities
     score: 24.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/screenshots/enode-2026-07-25T213409.png
 security:

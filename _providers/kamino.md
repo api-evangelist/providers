@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -107,7 +107,80 @@ apis:
 - description: The Yields API from Kamino — 2 operation(s) for yields.
   name: Kamino Yields API
   slug: kamino-yields-api
-artifact_total: 29
+artifact_total: 53
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kamino Public Airdrop API
+  slug: open-kamino-airdrop-api
+- collection_type: open
+  name: Kamino Public Airdrop Farms API
+  slug: open-kamino-farms-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Earn Deposit API
+  slug: open-kamino-kamino-earn-deposit-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Earn User API
+  slug: open-kamino-kamino-earn-user-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Earn Vault Metadata API
+  slug: open-kamino-kamino-earn-vault-metadata-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Earn Vaults API
+  slug: open-kamino-kamino-earn-vaults-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Earn Withdraw API
+  slug: open-kamino-kamino-earn-withdraw-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Lend Borrow API
+  slug: open-kamino-kamino-lend-borrow-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Lend Borrow Orders API
+  slug: open-kamino-kamino-lend-borrow-orders-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Lend Deposit API
+  slug: open-kamino-kamino-lend-deposit-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Lend Markets API
+  slug: open-kamino-kamino-lend-markets-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Lend Repay API
+  slug: open-kamino-kamino-lend-repay-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Lend Transactions API
+  slug: open-kamino-kamino-lend-transactions-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Lend User Loans API
+  slug: open-kamino-kamino-lend-user-loans-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Lend Withdraw API
+  slug: open-kamino-kamino-lend-withdraw-api
+- collection_type: open
+  name: Kamino Public Airdrop Kamino Lend Yield API
+  slug: open-kamino-kamino-lend-yield-api
+- collection_type: open
+  name: Kamino Public Airdrop Lookup Tables API
+  slug: open-kamino-lookup-tables-api
+- collection_type: open
+  name: Kamino Public Airdrop Other API
+  slug: open-kamino-other-api
+- collection_type: open
+  name: Kamino Public Airdrop Portfolio API
+  slug: open-kamino-portfolio-api
+- collection_type: open
+  name: Kamino Public Airdrop Private Credit API
+  slug: open-kamino-private-credit-api
+- collection_type: open
+  name: Kamino Public Airdrop Season Rewards API
+  slug: open-kamino-season-rewards-api
+- collection_type: open
+  name: Kamino Public Airdrop Staking Yields API
+  slug: open-kamino-staking-yields-api
+- collection_type: open
+  name: Kamino Public Airdrop Yields API
+  slug: open-kamino-yields-api
 common:
 - group: other
   title: ''
@@ -245,7 +318,7 @@ overview: 'Kamino publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kamino''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 23 more developer resources.'
-random_paper: 39
+random_paper: 43
 score:
   band: developing
   composite: 46.4
@@ -269,7 +342,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kamino/refs/heads/main/screenshots/kamino-2026-07-25T223446.png
 security:

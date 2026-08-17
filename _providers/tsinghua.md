@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: Endpoints describing mirror synchronization state.
   name: Tsinghua University Mirror Status API
   slug: tsinghua-mirror-status-api
-artifact_total: 11
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TUNA Mirror Sync Status Mirror Status API
+  slug: open-tsinghua-mirror-status-api
 common:
 - group: agent
   title: ''
@@ -119,7 +126,7 @@ plans:
 - name: Tsinghua Plans Pricing
   plan_count: 2
   slug: tsinghua-plans-pricing
-random_paper: 27
+random_paper: 122
 rate_limits:
 - limit_count: 1
   name: Tsinghua Rate Limits
@@ -161,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/screenshots/tsinghua-2026-06-20T195921.png
 security:

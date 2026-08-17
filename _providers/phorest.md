@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -81,8 +81,50 @@ apis:
 - description: Gift voucher creation, lookup, and balance updates.
   name: Phorest Vouchers API
   slug: phorest-vouchers-api
-artifact_total: 23
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Phorest Third-Party Appointments API
+  slug: open-phorest-appointments-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Bookings API
+  slug: open-phorest-bookings-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Branches API
+  slug: open-phorest-branches-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Clients API
+  slug: open-phorest-clients-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Courses API
+  slug: open-phorest-courses-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Leads API
+  slug: open-phorest-leads-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Loyalty API
+  slug: open-phorest-loyalty-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Products API
+  slug: open-phorest-products-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Purchases API
+  slug: open-phorest-purchases-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Reporting API
+  slug: open-phorest-reporting-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Services API
+  slug: open-phorest-services-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Staff API
+  slug: open-phorest-staff-api
+- collection_type: open
+  name: Phorest Third-Party Appointments Vouchers API
+  slug: open-phorest-vouchers-api
 - collection_type: open
   name: Phorest Third-Party API
   slug: open-phorest
@@ -159,7 +201,7 @@ plans:
 - name: Phorest Plans Pricing
   plan_count: 7
   slug: phorest-plans-pricing
-random_paper: 53
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Phorest Rate Limits
@@ -184,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

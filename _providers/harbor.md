@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Operations for managing the rewards catalog that members can redeem with earned points.
   name: Harbor Rewards API
   slug: harbor-rewards-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harbor Challenges API
+  slug: open-harbor-challenges-api
+- collection_type: open
+  name: Harbor Challenges Communities API
+  slug: open-harbor-communities-api
+- collection_type: open
+  name: Harbor Challenges Leaderboards API
+  slug: open-harbor-leaderboards-api
+- collection_type: open
+  name: Harbor Challenges Members API
+  slug: open-harbor-members-api
+- collection_type: open
+  name: Harbor Challenges Redemptions API
+  slug: open-harbor-redemptions-api
+- collection_type: open
+  name: Harbor Challenges Rewards API
+  slug: open-harbor-rewards-api
 - collection_type: open
   name: Harbor API
   slug: open-harbor
@@ -134,7 +155,7 @@ plans:
 - name: Harbor Plans Pricing
   plan_count: 3
   slug: harbor-plans-pricing
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Harbor Rate Limits
@@ -168,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/screenshots/harbor-2026-06-20T182512.png
 security:

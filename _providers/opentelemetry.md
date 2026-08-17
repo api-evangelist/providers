@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The OTLP gRPC API defines Protocol Buffers service definitions for exporting traces, metrics, and logs over gRPC. It is the primary transport for OpenTelemetry data between SDK instrumentation, the Op
@@ -49,11 +49,24 @@ apis:
 - description: The Traces API from OpenTelemetry — 1 operation(s) for traces.
   name: OpenTelemetry Traces API
   slug: opentelemetry-traces-api
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: The OpenTelemetry Protocol (OTLP) defines the event-driven telemetry export pipeline through which instrumented applications and OpenTelemetry Collectors push batches of traces, metrics, and logs to o
   name: OpenTelemetry Protocol (OTLP) Telemetry Events
   slug: opentelemetry-otlp-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenTelemetry Protocol (OTLP) HTTP Logs API
+  slug: open-opentelemetry-logs-api
+- collection_type: open
+  name: OpenTelemetry Protocol (OTLP) HTTP Metrics API
+  slug: open-opentelemetry-metrics-api
+- collection_type: open
+  name: OpenTelemetry Protocol (OTLP) HTTP Traces API
+  slug: open-opentelemetry-traces-api
 common:
 - group: commercial
   title: ''
@@ -142,7 +155,7 @@ plans:
 - name: Opentelemetry Plans Pricing
   plan_count: 3
   slug: opentelemetry-plans-pricing
-random_paper: 101
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Opentelemetry Rate Limits
@@ -175,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/screenshots/opentelemetry-2026-06-20T191044.png
 security:

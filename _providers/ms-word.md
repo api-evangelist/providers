@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: JavaScript API for building Word add-ins and interacting with Word document content.
@@ -110,7 +110,7 @@ plans:
 - name: Ms Word Plans Pricing
   plan_count: 3
   slug: ms-word-plans-pricing
-random_paper: 113
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Ms Word Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-word/refs/heads/main/screenshots/ms-word-2026-06-20T185847.png
 security:

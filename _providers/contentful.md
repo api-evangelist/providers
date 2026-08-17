@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,8 +64,14 @@ apis:
 - description: The Spaces API from Contentful — 10 operation(s) for spaces.
   name: Contentful Spaces API
   slug: contentful-spaces-api
-artifact_total: 25
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Contentful Content Delivery Spaces API
+  slug: open-contentful-spaces-api
 - collection_type: open
   name: Contentful Webhooks
   slug: open-contentful-webhooks-asyncapi
@@ -201,7 +207,7 @@ plans:
 - name: Contentful Plans Pricing
   plan_count: 3
   slug: contentful-plans-pricing
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Contentful Rate Limits
@@ -226,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/screenshots/contentful-2026-06-20T174923.png
 security:

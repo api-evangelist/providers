@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Recess is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Recess'' developer surface includes signup flow, pricing, and 7 more developer resources.'
-random_paper: 45
+random_paper: 49
 score:
   band: minimal
   composite: 11.1
@@ -93,7 +93,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

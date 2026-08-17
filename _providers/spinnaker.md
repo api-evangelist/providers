@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,11 +66,41 @@ apis:
 - description: Task management for tracking long-running Spinnaker operations and checking their completion status
   name: Spinnaker Tasks API
   slug: spinnaker-tasks-api
-artifact_total: 24
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spinnaker Gate Applications API
+  slug: open-spinnaker-applications-api
+- collection_type: open
+  name: Spinnaker Gate Applications Build Services API
+  slug: open-spinnaker-build-services-api
+- collection_type: open
+  name: Spinnaker Gate Applications Clusters API
+  slug: open-spinnaker-clusters-api
 - collection_type: open
   name: Spinnaker Gate API
   slug: open-spinnaker-gate
+- collection_type: open
+  name: Spinnaker Gate Applications Images API
+  slug: open-spinnaker-images-api
+- collection_type: open
+  name: Spinnaker Gate Applications Load Balancers API
+  slug: open-spinnaker-load-balancers-api
+- collection_type: open
+  name: Spinnaker Gate Applications Pipelines API
+  slug: open-spinnaker-pipelines-api
+- collection_type: open
+  name: Spinnaker Gate Applications Projects API
+  slug: open-spinnaker-projects-api
+- collection_type: open
+  name: Spinnaker Gate Applications Search API
+  slug: open-spinnaker-search-api
+- collection_type: open
+  name: Spinnaker Gate Applications Tasks API
+  slug: open-spinnaker-tasks-api
 common:
 - group: commercial
   title: ''
@@ -187,7 +217,7 @@ plans:
 - name: Spinnaker Plans Pricing
   plan_count: 3
   slug: spinnaker-plans-pricing
-random_paper: 11
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Spinnaker Rate Limits
@@ -234,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/screenshots/spinnaker-2026-06-20T194321.png
 security:

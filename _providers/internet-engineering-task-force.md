@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Meetings API from Internet Engineering Task Force — 1 operation(s) for meetings.
   name: Internet Engineering Task Force Meetings API
   slug: internet-engineering-task-force-meetings-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IETF Datatracker Documents API
+  slug: open-internet-engineering-task-force-documents-api
+- collection_type: open
+  name: IETF Datatracker Documents Framework API API
+  slug: open-internet-engineering-task-force-framework-api-api
+- collection_type: open
+  name: IETF Datatracker Documents Identity API
+  slug: open-internet-engineering-task-force-identity-api
+- collection_type: open
+  name: IETF Datatracker Documents IESG API
+  slug: open-internet-engineering-task-force-iesg-api
+- collection_type: open
+  name: IETF Datatracker Documents Meetings API
+  slug: open-internet-engineering-task-force-meetings-api
 - collection_type: open
   name: IETF Datatracker API
   slug: open-internet-engineering-task-force
@@ -118,7 +136,7 @@ plans:
 - name: Internet Engineering Task Force Plans Pricing
   plan_count: 3
   slug: internet-engineering-task-force-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Internet Engineering Task Force Rate Limits
@@ -152,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/screenshots/internet-engineering-task-force-2026-06-20T183501.png
 security:

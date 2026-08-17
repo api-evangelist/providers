@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -54,8 +54,26 @@ apis:
 - description: Information about the authenticated user and their subscription.
   name: Import.io User API
   slug: import-io-user-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Import.io Crawlrun API
+  slug: open-import-io-crawlrun-api
+- collection_type: open
+  name: Import.io Crawlrun Extractor API
+  slug: open-import-io-extractor-api
+- collection_type: open
+  name: Import.io Crawlrun Report API
+  slug: open-import-io-report-api
+- collection_type: open
+  name: Import.io Crawlrun ReportRun API
+  slug: open-import-io-reportrun-api
+- collection_type: open
+  name: Import.io Crawlrun User API
+  slug: open-import-io-user-api
 - collection_type: open
   name: Import.io API
   slug: open-import-io
@@ -140,7 +158,7 @@ plans:
 - name: Import Io Plans Pricing
   plan_count: 3
   slug: import-io-plans-pricing
-random_paper: 88
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Import Io Rate Limits
@@ -165,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/screenshots/import-io-2026-06-20T183259.png
 security:

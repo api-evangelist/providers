@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: The Wine API from Spoonacular — 4 operation(s) for wine.
   name: Spoonacular Wine API
   slug: spoonacular-wine-api
-artifact_total: 63
+artifact_total: 71
 collections:
 - collection_type: postman
   name: spoonacular Ingredients API
@@ -83,6 +83,30 @@ collections:
 - collection_type: postman
   name: spoonacular Ingredients Wine API
   slug: postman-spoonacular-wine-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: spoonacular Ingredients API
+  slug: open-spoonacular-ingredients-api
+- collection_type: open
+  name: spoonacular Ingredients Meal Planning API
+  slug: open-spoonacular-meal-planning-api
+- collection_type: open
+  name: spoonacular Ingredients Menu Items API
+  slug: open-spoonacular-menu-items-api
+- collection_type: open
+  name: spoonacular Ingredients Misc API
+  slug: open-spoonacular-misc-api
+- collection_type: open
+  name: spoonacular Ingredients Products API
+  slug: open-spoonacular-products-api
+- collection_type: open
+  name: spoonacular Ingredients Recipes API
+  slug: open-spoonacular-recipes-api
+- collection_type: open
+  name: spoonacular Ingredients Wine API
+  slug: open-spoonacular-wine-api
 - collection_type: open
   name: spoonacular API
   slug: open-spoonacular
@@ -314,7 +338,7 @@ plans:
 - name: Spoonacular Plans Pricing
   plan_count: 5
   slug: spoonacular-plans-pricing
-random_paper: 111
+random_paper: 148
 rate_limits:
 - limit_count: 6
   name: Spoonacular Rate Limits
@@ -356,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/screenshots/spoonacular-2026-06-20T194333.png
 security:

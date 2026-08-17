@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -111,7 +111,74 @@ apis:
 - description: Manage webhooks and get notified for various onchain activities.
   name: Avalanche Webhooks API
   slug: avalanche-webhooks-api
-artifact_total: 306
+artifact_total: 328
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Data AVAX Supply API
+  slug: open-avalanche-avax-supply-api
+- collection_type: open
+  name: Data AVAX Supply Data API Usage Metrics API
+  slug: open-avalanche-data-api-usage-metrics-api
+- collection_type: open
+  name: Data AVAX Supply EVM Balances API
+  slug: open-avalanche-evm-balances-api
+- collection_type: open
+  name: Data AVAX Supply EVM Blocks API
+  slug: open-avalanche-evm-blocks-api
+- collection_type: open
+  name: Data AVAX Supply EVM Chains API
+  slug: open-avalanche-evm-chains-api
+- collection_type: open
+  name: Data AVAX Supply EVM Contracts API
+  slug: open-avalanche-evm-contracts-api
+- collection_type: open
+  name: Data AVAX Supply EVM Transactions API
+  slug: open-avalanche-evm-transactions-api
+- collection_type: open
+  name: Data AVAX Supply Health Check API
+  slug: open-avalanche-health-check-api
+- collection_type: open
+  name: Data AVAX Supply Interchain Messaging API
+  slug: open-avalanche-interchain-messaging-api
+- collection_type: open
+  name: Data AVAX Supply NFTs API
+  slug: open-avalanche-nfts-api
+- collection_type: open
+  name: Data AVAX Supply Operations API
+  slug: open-avalanche-operations-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network API
+  slug: open-avalanche-primary-network-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Balances API
+  slug: open-avalanche-primary-network-balances-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Blocks API
+  slug: open-avalanche-primary-network-blocks-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Rewards API
+  slug: open-avalanche-primary-network-rewards-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Transactions API
+  slug: open-avalanche-primary-network-transactions-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network UTXOs API
+  slug: open-avalanche-primary-network-utxos-api
+- collection_type: open
+  name: Data AVAX Supply Primary Network Vertices API
+  slug: open-avalanche-primary-network-vertices-api
+- collection_type: open
+  name: Data AVAX Supply Signature Aggregator API
+  slug: open-avalanche-signature-aggregator-api
+- collection_type: open
+  name: Data AVAX Supply Teleporter API
+  slug: open-avalanche-teleporter-api
+- collection_type: open
+  name: Data AVAX Supply Webhooks API
+  slug: open-avalanche-webhooks-api
 common:
 - group: agent
   title: ''
@@ -1031,7 +1098,7 @@ plans:
 - name: Data Api
   plan_count: 8
   slug: data-api
-random_paper: 91
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Data Api
@@ -1065,7 +1132,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/screenshots/avalanche-2026-06-20T172715.png
 security:

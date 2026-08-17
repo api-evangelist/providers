@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -72,8 +72,35 @@ apis:
 - description: Manage automated utility data import credentials
   name: WegoWise Utility Logins API
   slug: wegowise-utility-logins-api
-artifact_total: 26
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WegoWise Apartments API
+  slug: open-wegowise-apartments-api
+- collection_type: open
+  name: WegoWise Apartments Areas API
+  slug: open-wegowise-areas-api
+- collection_type: open
+  name: WegoWise Apartments Buildings API
+  slug: open-wegowise-buildings-api
+- collection_type: open
+  name: WegoWise Apartments Developments API
+  slug: open-wegowise-developments-api
+- collection_type: open
+  name: WegoWise Apartments Meters API
+  slug: open-wegowise-meters-api
+- collection_type: open
+  name: WegoWise Apartments Usage Data API
+  slug: open-wegowise-usage-data-api
+- collection_type: open
+  name: WegoWise Apartments Utility Companies API
+  slug: open-wegowise-utility-companies-api
+- collection_type: open
+  name: WegoWise Apartments Utility Logins API
+  slug: open-wegowise-utility-logins-api
 - collection_type: open
   name: WegoWise API
   slug: open-wegowise
@@ -180,7 +207,7 @@ plans:
 - name: Wegowise Plans Pricing
   plan_count: 1
   slug: wegowise-plans-pricing
-random_paper: 34
+random_paper: 129
 rate_limits:
 - limit_count: 1
   name: Wegowise Rate Limits
@@ -228,7 +255,7 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/screenshots/wegowise-2026-06-20T201345.png
 security:

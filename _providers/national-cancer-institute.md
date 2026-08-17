@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Submission API from National Cancer Institute — 1 operation(s) for submission.
   name: National Cancer Institute Submission API
   slug: national-cancer-institute-submission-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NCI Genomic Data Commons (GDC) Download API
+  slug: open-national-cancer-institute-download-api
+- collection_type: open
+  name: NCI Genomic Data Commons (GDC) Download Search API
+  slug: open-national-cancer-institute-search-api
+- collection_type: open
+  name: NCI Genomic Data Commons (GDC) Download Status API
+  slug: open-national-cancer-institute-status-api
+- collection_type: open
+  name: NCI Genomic Data Commons (GDC) Download Submission API
+  slug: open-national-cancer-institute-submission-api
 - collection_type: open
   name: NCI Genomic Data Commons (GDC) API
   slug: open-national-cancer-institute
@@ -109,7 +124,7 @@ plans:
 - name: National Cancer Institute Plans Pricing
   plan_count: 3
   slug: national-cancer-institute-plans-pricing
-random_paper: 45
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: National Cancer Institute Rate Limits
@@ -140,7 +155,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-cancer-institute/refs/heads/main/screenshots/national-cancer-institute-2026-06-20T190008.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Resource-oriented JSON REST API for treasury and payment operations. Paths follow /{namespace}/v#/{resource} across financial-data, payments, iam, connectivity, analytics and accounting namespaces. OA
@@ -183,7 +183,7 @@ overview: 'Atlar publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Atlar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 24 more developer resources.'
-random_paper: 52
+random_paper: 85
 score:
   band: developing
   composite: 51.4
@@ -206,7 +206,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlar/refs/heads/main/screenshots/atlar-2026-07-25T201542.png
 security:

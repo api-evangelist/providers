@@ -1,35 +1,37 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  label: Enterprise · Contact sales for credentials
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - https://api.basis.net/swagger.json
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 49.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +44,14 @@ apis:
 - description: The Analytics API from Basis — 31 operation(s) for analytics.
   name: Basis Analytics API
   slug: basis-analytics-api
-artifact_total: 27
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Basis Platform Analytics API
+  slug: open-basis-analytics-api
 common:
 - group: agent
   title: ''
@@ -92,6 +101,74 @@ common:
   title: ''
   type: FinOps
   url: finops/basis-finops.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/basis-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/basis-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/basis-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/basis-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/basis-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/basis-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/basis-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/basis-sandbox.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/basis-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/basis-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/basis-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/basis-packages.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/basis-vocabulary.json
+- group: start
+  title: ''
+  type: SignUp
+  url: https://platform.basis.net/auth/login
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.basis.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://basis.com/connect
 created: '2026-06-13'
 description: Basis is an advertising automation platform providing REST APIs for programmatic DSP campaign management, audience targeting, publisher management, reporting, and omnichannel media buying automation across display, video, audio, native, connected TV, and site-direct channels.
 examples:
@@ -161,7 +238,11 @@ jsonld:
   property_count: 9
   slug: basis-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: Candidate tool surface derived from the Basis OpenAPI — Basis operates no MCP server
+  slug: candidate-tool-surface-derived-from-the-basis-openapi-basis-operates-no-mcp-server
+modified: '2026-08-13'
 name: Basis
 nav: Providers
 network: true
@@ -171,14 +252,14 @@ overview: 'Basis publishes 1 API on the [APIs.io](https://apis.io/) network: Ana
   The Basis catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Basis'' developer surface includes authentication, documentation, engineering blog, pricing, and 8 more developer resources.'
+  Basis'' developer surface includes authentication, documentation, engineering blog, pricing, sandbox, signup flow, support, and 22 more developer resources.'
 plans:
 - name: Basis Plans Pricing
   plan_count: 1
   slug: basis-plans-pricing
-random_paper: 50
+random_paper: 83
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Basis Rate Limits
   slug: basis-rate-limits
 rules:
@@ -190,17 +271,22 @@ rules:
     info: 1
     warn: 4
   slug: basis-jsonschema-spectral-rules
+scopes:
+- name: Basis Scopes
+  scope_count: 0
+  slug: basis-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 40.3
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: 22.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 56.7
-    developer_ergonomics: 21.7
-    discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 0.0
+    commercial_clarity: 71.1
+    contract_quality: 61.2
+    developer_ergonomics: 47.8
+    discoverability: 87.0
+    governance: 89.6
+    operational_transparency: 31.6
   previous_composite: 40.3
   provenance:
     agentic_access: derived
@@ -210,14 +296,14 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/screenshots/basis-2026-06-20T173036.png
 security:
 - kind: authentication
   name: Basis Authentication
   slug: basis-authentication
-  summary_line: http/unknown · 2 schemes
+  summary_line: oauth2/http · 2 schemes
 - kind: domain-security
   name: Basis Domain Security
   slug: basis-domain-security

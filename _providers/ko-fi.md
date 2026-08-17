@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Outbound webhook that Ko-fi HTTP POSTs to a URL you configure whenever a payment happens on your Ko-fi page. The single POST body is form-encoded with a "data" field containing a JSON payload; a "type
@@ -95,7 +95,7 @@ plans:
 - name: Ko Fi Plans Pricing
   plan_count: 2
   slug: ko-fi-plans-pricing
-random_paper: 110
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Ko Fi Rate Limits
@@ -128,7 +128,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ko-fi/refs/heads/main/screenshots/ko-fi-2026-07-25T224019.png
 security:

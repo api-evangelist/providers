@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Publish usage events for applications.
   name: Productiv Usage Events API
   slug: productiv-usage-events-api
-artifact_total: 71
+artifact_total: 83
 collections:
 - collection_type: postman
   name: Productiv Developer App Details API
@@ -108,8 +108,44 @@ collections:
   name: Productiv Developer App Details Usage Events API
   slug: postman-productiv-usage-events-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Productiv Developer App Details API
+  slug: open-productiv-app-details-api
+- collection_type: open
+  name: Productiv Developer App Details App Summaries API
+  slug: open-productiv-app-summaries-api
+- collection_type: open
+  name: Productiv Developer App Details Applications API
+  slug: open-productiv-applications-api
+- collection_type: open
+  name: Productiv Developer App Details Audit Events API
+  slug: open-productiv-audit-events-api
+- collection_type: open
+  name: Productiv Developer App Details Authentication API
+  slug: open-productiv-authentication-api
+- collection_type: open
+  name: Productiv Developer App Details Batch Upload API
+  slug: open-productiv-batch-upload-api
+- collection_type: open
   name: Productiv Developer API
   slug: open-productiv-developer
+- collection_type: open
+  name: Productiv Developer App Details Org Chart API
+  slug: open-productiv-org-chart-api
+- collection_type: open
+  name: Productiv Developer App Details Provisioned Users API
+  slug: open-productiv-provisioned-users-api
+- collection_type: open
+  name: Productiv Developer App Details Provisioning Workflows API
+  slug: open-productiv-provisioning-workflows-api
+- collection_type: open
+  name: Productiv Developer App Details Spend Data API
+  slug: open-productiv-spend-data-api
+- collection_type: open
+  name: Productiv Developer App Details Usage Events API
+  slug: open-productiv-usage-events-api
 common:
 - group: build
   title: ''
@@ -261,7 +297,7 @@ plans:
 - name: Productiv Plans Pricing
   plan_count: 3
   slug: productiv-plans-pricing
-random_paper: 32
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Productiv Rate Limits
@@ -303,7 +339,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/screenshots/productiv-2026-06-20T192136.png
 security:

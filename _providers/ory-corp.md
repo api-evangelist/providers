@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -75,8 +75,47 @@ apis:
 - description: Keto relationship-tuple writes and OPL syntax checks.
   name: Ory Relationships API
   slug: ory-corp-relationships-api
-artifact_total: 21
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ory Network Billing API
+  slug: open-ory-corp-billing-api
+- collection_type: open
+  name: Ory Network Billing Courier API
+  slug: open-ory-corp-courier-api
+- collection_type: open
+  name: Ory Network Billing Event Streams API
+  slug: open-ory-corp-event-streams-api
+- collection_type: open
+  name: Ory Network Billing Identity (Admin) API
+  slug: open-ory-corp-identity-admin-api
+- collection_type: open
+  name: Ory Network Billing Identity (Self-Service) API
+  slug: open-ory-corp-identity-self-service-api
+- collection_type: open
+  name: Ory Network Billing OAuth2 (Admin) API
+  slug: open-ory-corp-oauth2-admin-api
+- collection_type: open
+  name: Ory Network Billing OAuth2 (Public) API
+  slug: open-ory-corp-oauth2-public-api
+- collection_type: open
+  name: Ory Network Billing Organizations API
+  slug: open-ory-corp-organizations-api
+- collection_type: open
+  name: Ory Network Billing Permissions API
+  slug: open-ory-corp-permissions-api
+- collection_type: open
+  name: Ory Network Billing Project Tokens API
+  slug: open-ory-corp-project-tokens-api
+- collection_type: open
+  name: Ory Network Billing Projects API
+  slug: open-ory-corp-projects-api
+- collection_type: open
+  name: Ory Network Billing Relationships API
+  slug: open-ory-corp-relationships-api
 - collection_type: open
   name: Ory Network API
   slug: open-ory-corp
@@ -153,7 +192,7 @@ plans:
 - name: Ory Corp Plans Pricing
   plan_count: 5
   slug: ory-corp-plans-pricing
-random_paper: 107
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Ory Corp Rate Limits
@@ -178,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ory-corp/refs/heads/main/screenshots/ory-corp-2026-08-07T190959.png
 security:

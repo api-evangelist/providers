@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,13 +56,31 @@ apis:
 - description: The Reproducibility API from Debian — 1 operation(s) for reproducibility.
   name: Debian Reproducibility API
   slug: debian-reproducibility-api
-artifact_total: 20
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Debian Bug Tracking System API
   slug: open-debian-bts-api
 - collection_type: open
-  name: Debian Sources API
+  name: Debian Bug Tracking System Bugs API
+  slug: open-debian-bugs-api
+- collection_type: open
+  name: Debian Bug Tracking System Bugs Copyright API
+  slug: open-debian-copyright-api
+- collection_type: open
+  name: Debian Bug Tracking System Bugs Maintainers API
+  slug: open-debian-maintainers-api
+- collection_type: open
+  name: Debian Bug Tracking System Bugs Patches API
+  slug: open-debian-patches-api
+- collection_type: open
+  name: Debian Bug Tracking System Bugs Reproducibility API
+  slug: open-debian-reproducibility-api
+- collection_type: open
+  name: Debian Bug Tracking System Bugs Sources API
   slug: open-debian-sources-api
 - collection_type: open
   name: Debian Ultimate Database (UDD) Web Tools
@@ -163,7 +181,7 @@ plans:
 - name: Debian Plans Pricing
   plan_count: 3
   slug: debian-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Debian Rate Limits
@@ -205,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/screenshots/debian-2026-06-20T175746.png
 security:

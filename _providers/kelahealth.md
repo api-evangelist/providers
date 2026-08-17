@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ name: kelaHealth
 nav: Providers
 network: true
 overview: kelaHealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Surgery, Artificial Intelligence, and Predictive Analytics.
-random_paper: 83
+random_paper: 0
 score:
   band: emerging
   composite: 15.6
@@ -94,7 +94,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kelahealth/refs/heads/main/screenshots/kelahealth-2026-07-25T223601.png
 security:

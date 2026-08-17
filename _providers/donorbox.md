@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Individual event tickets.
   name: Donorbox Tickets API
   slug: donorbox-tickets-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Donorbox Campaigns API
+  slug: open-donorbox-campaigns-api
+- collection_type: open
+  name: Donorbox Campaigns Donations API
+  slug: open-donorbox-donations-api
+- collection_type: open
+  name: Donorbox Campaigns Donors API
+  slug: open-donorbox-donors-api
+- collection_type: open
+  name: Donorbox Campaigns Events API
+  slug: open-donorbox-events-api
+- collection_type: open
+  name: Donorbox Campaigns Plans API
+  slug: open-donorbox-plans-api
+- collection_type: open
+  name: Donorbox Campaigns Purchases API
+  slug: open-donorbox-purchases-api
+- collection_type: open
+  name: Donorbox Campaigns Tickets API
+  slug: open-donorbox-tickets-api
 - collection_type: open
   name: Donorbox API
   slug: open-donorbox
@@ -138,7 +162,7 @@ plans:
 - name: Donorbox Plans Pricing
   plan_count: 4
   slug: donorbox-plans-pricing
-random_paper: 35
+random_paper: 130
 rate_limits:
 - limit_count: 2
   name: Donorbox Rate Limits
@@ -169,7 +193,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/screenshots/donorbox-2026-07-25T212301.png
 security:

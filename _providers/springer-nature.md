@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,14 +51,23 @@ apis:
 - description: The Search API from Springer Nature — 2 operation(s) for search.
   name: Springer Nature Search API
   slug: springer-nature-search-api
-artifact_total: 19
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Springer Nature Meta API
   slug: open-springer-nature-meta
 - collection_type: open
+  name: Springer Nature Meta Open Access API
+  slug: open-springer-nature-open-access-api
+- collection_type: open
   name: Springer Nature Open Access API
   slug: open-springer-nature-openaccess
+- collection_type: open
+  name: Springer Nature Meta Open Access Search API
+  slug: open-springer-nature-search-api
 common:
 - group: agent
   title: ''
@@ -156,7 +165,7 @@ plans:
 - name: Springer Nature Plans Pricing
   plan_count: 1
   slug: springer-nature-plans-pricing
-random_paper: 14
+random_paper: 84
 rate_limits:
 - limit_count: 2
   name: Springer Nature Rate Limits
@@ -198,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/screenshots/springer-nature-2026-06-20T194417.png
 security:

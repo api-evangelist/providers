@@ -24,12 +24,12 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.6
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -71,6 +71,14 @@ common:
   title: ''
   type: Conformance
   url: conformance/lavender-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/lavender-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lavender-plans-pricing.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -91,35 +99,54 @@ common:
   title: ''
   type: YouTube
   url: https://www.youtube.com/@itslavenderduh/videos
+coverage:
+  checked: '2026-08-13'
+  detail: 'Lavender ships only end-user software — a Chrome/Outlook extension, a dashboard and a Salesforce integration — and exposes no developer surface at all: contract discovery across www, api, app, dashboard and docs subdomains found no OpenAPI, GraphQL, MCP or agent card, and docs.lavender.ai is a dangling Stoplight host (CNAME ingress.stoplight.io) that Cloudflare answers with error 1014.'
+  evidence:
+  - status: 404
+    url: https://api.lavender.ai/openapi.json
+  - status: 404
+    url: https://www.lavender.ai/.well-known/agent-card.json
+  - status: 403
+    url: https://docs.lavender.ai/openapi.json
+  - note: Soft 200 — SPA catch-all returning text/html for every path, not a spec. Recorded so a later round does not read it as a contract.
+    status: 200
+    url: https://app.lavender.ai/openapi.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: 'Lavender is an AI email intelligence company for sales teams. Its Email Coach is a browser extension and Outlook add-in that scores and coaches outbound sales email in real time — subject line, structure, tone, length and personalization — using models trained on billions of sales emails, and its newer product Ora is an AI sales agent that drafts email and pushes reasoned prospect research into Salesforce CRM records. Lavender is distributed as an end-user extension and a Salesforce integration rather than as a public developer API: as of this profile the company publishes no developer portal, no API reference, no OpenAPI definition, and no client SDKs. It is SOC 2 Type 2 certified and GDPR compliant. Lavender is backed by Norwest Venture Partners.'
 image: https://cdn.prod.website-files.com/658433a0cbce340e298ba330/658433a0cbce340e298ba44f_webclip.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Lavender
 nav: Providers
 network: true
 overview: 'Lavender is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Email, Artificial Intelligence, and Sales Enablement.
 
 
-  Lavender''s developer surface includes engineering blog, support, pricing, signup flow, YouTube channel, and 10 more developer resources.'
-random_paper: 9
+  Lavender''s developer surface includes engineering blog, support, pricing, signup flow, YouTube channel, and 12 more developer resources.'
+plans:
+- name: Lavender Plans Pricing
+  plan_count: 0
+  slug: lavender-plans-pricing
+random_paper: 104
 score:
   band: emerging
-  composite: 19.1
-  delta: 0.0
+  composite: 20.2
+  delta: 1.1
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 19.1
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lavender/refs/heads/main/screenshots/lavender-2026-07-25T224733.png
 security:
@@ -127,6 +154,10 @@ security:
   name: Lavender Domain Security
   slug: lavender-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Lavender Trust Center
+  slug: lavender-trust-center
+  summary_line: trust center published
 slug: lavender
 tags:
 - Company

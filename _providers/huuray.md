@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Template API from Huuray — 1 operation(s) for template.
   name: Huuray Template API
   slug: huuray-template-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Huuray Balance API
+  slug: open-huuray-balance-api
+- collection_type: open
+  name: Huuray Balance Cancel API
+  slug: open-huuray-cancel-api
+- collection_type: open
+  name: Huuray Balance Catalogue API
+  slug: open-huuray-catalogue-api
+- collection_type: open
+  name: Huuray Balance ExchangeRates API
+  slug: open-huuray-exchangerates-api
+- collection_type: open
+  name: Huuray Balance Order API
+  slug: open-huuray-order-api
+- collection_type: open
+  name: Huuray Balance Resend API
+  slug: open-huuray-resend-api
+- collection_type: open
+  name: Huuray Balance Search API
+  slug: open-huuray-search-api
+- collection_type: open
+  name: Huuray Balance Stock API
+  slug: open-huuray-stock-api
+- collection_type: open
+  name: Huuray Balance Template API
+  slug: open-huuray-template-api
 - collection_type: open
   name: Huuray API
   slug: open-huuray
@@ -124,7 +154,7 @@ plans:
 - name: Huuray Plans Pricing
   plan_count: 3
   slug: huuray-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Huuray Rate Limits
@@ -155,7 +185,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/screenshots/huuray-2026-08-07T182120.png
 security:

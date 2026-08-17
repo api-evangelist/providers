@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -72,11 +72,45 @@ apis:
 - description: Premium first-party API for executing FX trades against existing quotes, published on the Danske Bank developer portal with a public mock sandbox.
   name: Danske Bank (UK) FX Trade Execution API
   slug: danske-bank-uk-fx-trade-execution-api
-artifact_total: 17
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Danske Bank Uk Events Webhooks
   slug: danske-bank-uk-events-webhooks
+collections:
+- collection_type: open
+  name: Account Transaction & Balance API
+  slug: open-danske-bank-uk-account-transaction-balance-premium
+- collection_type: open
+  name: Account and Transaction - UK OB
+  slug: open-danske-bank-uk-account-transaction
+- collection_type: open
+  name: Confirmation of Funds - UK OB
+  slug: open-danske-bank-uk-confirmation-of-funds
+- collection_type: open
+  name: Events - UK OB
+  slug: open-danske-bank-uk-events
+- collection_type: open
+  name: FX Trade Execution API
+  slug: open-danske-bank-uk-fx-trade-execution
+- collection_type: open
+  name: FX Trade Report API
+  slug: open-danske-bank-uk-fx-trade-report
+- collection_type: open
+  name: Opendata
+  slug: open-danske-bank-uk-opendata
+- collection_type: open
+  name: Payment Collection API
+  slug: open-danske-bank-uk-payment-collection-premium
+- collection_type: open
+  name: Payment Initiation - UK OB
+  slug: open-danske-bank-uk-payment-initiation
+- collection_type: open
+  name: Premium Payment Initiation API
+  slug: open-danske-bank-uk-premium-payment-initiation
+- collection_type: open
+  name: Variable Recurring Payments - UK OB
+  slug: open-danske-bank-uk-variable-recurring-payments
 common:
 - group: auth
   title: ''
@@ -210,7 +244,7 @@ overview: 'Danske Bank (UK) publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   Danske Bank (UK)''s developer surface includes authentication, sandbox, documentation, getting-started guide, engineering blog, support, and 22 more developer resources.'
-random_paper: 36
+random_paper: 15
 scopes:
 - name: Danske Bank Uk Scopes
   scope_count: 4
@@ -240,7 +274,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/screenshots/danske-bank-uk-2026-07-25T211205.png
 security:

@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-12'
+  score: 50.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -114,11 +114,90 @@ apis:
 - description: Operations for Webhooks
   name: Tackle Webhooks API
   slug: tackle-webhooks-api
-artifact_total: 32
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Tackle Webhooks
   slug: tackle-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tackle Authentication API
+  slug: open-tackle-authentication-api
+- collection_type: open
+  name: Tackle Authentication Contracts API
+  slug: open-tackle-contracts-api
+- collection_type: open
+  name: Tackle Authentication Currencies API
+  slug: open-tackle-currencies-api
+- collection_type: open
+  name: Tackle Authentication Disbursements API
+  slug: open-tackle-disbursements-api
+- collection_type: open
+  name: Tackle Authentication Entitlements API
+  slug: open-tackle-entitlements-api
+- collection_type: open
+  name: Tackle Authentication Groups API
+  slug: open-tackle-groups-api
+- collection_type: open
+  name: Tackle Authentication Invitations API
+  slug: open-tackle-invitations-api
+- collection_type: open
+  name: Tackle Authentication Invoices API
+  slug: open-tackle-invoices-api
+- collection_type: open
+  name: Tackle Authentication Marketplace API
+  slug: open-tackle-marketplace-api
+- collection_type: open
+  name: Tackle Authentication Metering API
+  slug: open-tackle-metering-api
+- collection_type: open
+  name: Tackle Authentication Notifications API
+  slug: open-tackle-notifications-api
+- collection_type: open
+  name: Tackle Authentication Opportunities API
+  slug: open-tackle-opportunities-api
+- collection_type: open
+  name: Tackle Authentication Partners API
+  slug: open-tackle-partners-api
+- collection_type: open
+  name: Tackle Authentication Private Offer Actions API
+  slug: open-tackle-private-offer-actions-api
+- collection_type: open
+  name: Tackle Authentication Private Offers API
+  slug: open-tackle-private-offers-api
+- collection_type: open
+  name: Tackle Authentication Products API
+  slug: open-tackle-products-api
+- collection_type: open
+  name: Tackle Authentication public API
+  slug: open-tackle-public-api
+- collection_type: open
+  name: Tackle Authentication Registrations API
+  slug: open-tackle-registrations-api
+- collection_type: open
+  name: Tackle Authentication Scores API
+  slug: open-tackle-scores-api
+- collection_type: open
+  name: Tackle Authentication Service Provider API
+  slug: open-tackle-service-provider-api
+- collection_type: open
+  name: Tackle Authentication Solutions API
+  slug: open-tackle-solutions-api
+- collection_type: open
+  name: Tackle Authentication Subscriptions API
+  slug: open-tackle-subscriptions-api
+- collection_type: open
+  name: Tackle Authentication Users API
+  slug: open-tackle-users-api
+- collection_type: open
+  name: Tackle Authentication Version API
+  slug: open-tackle-version-api
+- collection_type: open
+  name: Tackle Authentication Webhooks API
+  slug: open-tackle-webhooks-api
 common:
 - group: other
   title: ''
@@ -148,10 +227,10 @@ common:
   title: ''
   type: Blog
   url: https://tackle.io/resources/blogs/
-- group: commercial
+- group: build
   title: ''
-  type: Pricing
-  url: https://tackle.io/pricing/
+  type: GitHubOrganization
+  url: https://github.com/tackle-io
 - group: start
   title: ''
   type: SignUp
@@ -160,6 +239,14 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://tackle.io/privacy-policy-tackle-platform/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://tackle.io/platform-terms-of-use/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/tackle-plans-pricing.yml
 - group: operate
   title: ''
   type: StatusPage
@@ -172,6 +259,14 @@ common:
   title: ''
   type: TrustCenter
   url: security/tackle-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/tackle-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://trust.tackle.io/
 - group: auth
   title: ''
   type: Authentication
@@ -204,14 +299,22 @@ common:
   title: ''
   type: MCPServer
   url: mcp/tackle-mcp.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/tackle-well-known.yml
 - group: design
   title: ''
   type: Lifecycle
   url: lifecycle/tackle-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/tackle-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/tackle-rate-limits.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/tackle-sandbox.yml
 - group: design
   title: ''
   type: Conformance
@@ -240,7 +343,7 @@ mcp_servers:
 - description: ''
   name: tackle-mcp.yml
   slug: tackle-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Tackle
 nav: Providers
 network: true
@@ -250,24 +353,32 @@ overview: 'Tackle publishes 25 APIs on the [APIs.io](https://apis.io/) network, 
   The Tackle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tackle''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 28
+  Tackle''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
+plans:
+- name: Tackle Plans Pricing
+  plan_count: 0
+  slug: tackle-plans-pricing
+random_paper: 32
+rate_limits:
+- limit_count: 1
+  name: Tackle Rate Limits
+  slug: tackle-rate-limits
 scopes:
 - name: Tackle Scopes
   scope_count: 0
   slug: tackle-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.7
-  delta: 0.0
+  band: strong
+  composite: 60.7
+  delta: 6.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 70.7
-    developer_ergonomics: 56.0
+    developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 20.8
-    operational_transparency: 39.5
+    operational_transparency: 76.3
   previous_composite: 54.7
   provenance:
     agentic_access: derived
@@ -280,8 +391,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Tackle Authentication
@@ -290,11 +401,15 @@ security:
 - kind: domain-security
   name: Tackle Domain Security
   slug: tackle-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Tackle Vulnerability Disclosure
+  slug: tackle-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 - kind: trust-center
   name: Tackle Trust Center
   slug: tackle-trust-center
-  summary_line: SOC 2 Type II, GDPR
+  summary_line: SOC 2 Type II, SOC 3, GDPR
 slug: tackle
 tags:
 - Company

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Access Bloomberg TV and Radio content including video clips, interview segments, market coverage segments, and audio content for licensed distribution to enterprise clients and media partners.
@@ -96,7 +96,7 @@ plans:
 - name: Bloomberg Television And Radio Plans Pricing
   plan_count: 3
   slug: bloomberg-television-and-radio-plans-pricing
-random_paper: 12
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Bloomberg Television And Radio Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-television-and-radio/refs/heads/main/screenshots/bloomberg-television-and-radio-2026-07-25T203405.png
 security:

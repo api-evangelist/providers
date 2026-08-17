@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -65,7 +65,38 @@ apis:
 - description: The Remote Development API from Release — 2 operation(s) for remote development.
   name: Release Remote Development API
   slug: release-remote-development-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Release.com Platform Accounts API
+  slug: open-release-accounts-api
+- collection_type: open
+  name: Release.com Platform Accounts Apps API
+  slug: open-release-apps-api
+- collection_type: open
+  name: Release.com Platform Accounts Builds API
+  slug: open-release-builds-api
+- collection_type: open
+  name: Release.com Platform Accounts Clusters API
+  slug: open-release-clusters-api
+- collection_type: open
+  name: Release.com Platform Accounts Configs API
+  slug: open-release-configs-api
+- collection_type: open
+  name: Release.com Platform Accounts Deploys API
+  slug: open-release-deploys-api
+- collection_type: open
+  name: Release.com Platform Accounts Environments API
+  slug: open-release-environments-api
+- collection_type: open
+  name: Release.com Platform Accounts Instances API
+  slug: open-release-instances-api
+- collection_type: open
+  name: Release.com Platform Accounts Remote Development API
+  slug: open-release-remote-development-api
 common:
 - group: other
   title: ''
@@ -215,7 +246,7 @@ overview: 'Release publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Release''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 17
+random_paper: 141
 score:
   band: developing
   composite: 53.4
@@ -239,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

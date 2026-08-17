@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: The Users API from Dome9 — 1 operation(s) for users.
   name: Dome9 Users API
   slug: dome9-users-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dome9 / CloudGuard AWSAccounts API
+  slug: open-dome9-awsaccounts-api
+- collection_type: open
+  name: Dome9 / CloudGuard AWSAccounts AzureAccounts API
+  slug: open-dome9-azureaccounts-api
+- collection_type: open
+  name: Dome9 / CloudGuard AWSAccounts Compliance API
+  slug: open-dome9-compliance-api
+- collection_type: open
+  name: Dome9 / CloudGuard AWSAccounts GoogleAccounts API
+  slug: open-dome9-googleaccounts-api
+- collection_type: open
+  name: Dome9 / CloudGuard AWSAccounts Roles API
+  slug: open-dome9-roles-api
+- collection_type: open
+  name: Dome9 / CloudGuard AWSAccounts Users API
+  slug: open-dome9-users-api
 - collection_type: open
   name: Dome9 / CloudGuard API
   slug: open-dome9
@@ -122,7 +143,7 @@ plans:
 - name: Dome9 Plans Pricing
   plan_count: 3
   slug: dome9-plans-pricing
-random_paper: 118
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Dome9 Rate Limits
@@ -147,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/screenshots/dome9-2026-07-25T212245.png
 security:

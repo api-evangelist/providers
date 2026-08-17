@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -158,7 +158,140 @@ apis:
 - description: The ValueSet FHIR resource type
   name: ModMed Value Set API
   slug: modernizing-medicine-valueset-api
-artifact_total: 50
+artifact_total: 94
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ModMed Certified Allergy Intolerance API
+  slug: open-modernizing-medicine-allergyintolerance-api
+- collection_type: open
+  name: EMA Proprietary Appointments and Slots API
+  slug: open-modernizing-medicine-appointments-and-slots-api
+- collection_type: open
+  name: Modernizing Medicine Authentication API
+  slug: open-modernizing-medicine-authentication-api
+- collection_type: open
+  name: Modernizing Medicine Capability Statement API
+  slug: open-modernizing-medicine-capability-statement-api
+- collection_type: open
+  name: ModMed Certified Care Plan API
+  slug: open-modernizing-medicine-careplan-api
+- collection_type: open
+  name: ModMed Certified Care Team API
+  slug: open-modernizing-medicine-careteam-api
+- collection_type: open
+  name: EMA Proprietary Charges/Financial API
+  slug: open-modernizing-medicine-charges-financial-api
+- collection_type: open
+  name: EMA Proprietary Clinical Data/Clipboard API
+  slug: open-modernizing-medicine-clinical-data-clipboard-api
+- collection_type: open
+  name: ModMed Certified Condition API
+  slug: open-modernizing-medicine-condition-api
+- collection_type: open
+  name: ModMed Certified Coverage API
+  slug: open-modernizing-medicine-coverage-api
+- collection_type: open
+  name: ModMed Certified Device API
+  slug: open-modernizing-medicine-device-api
+- collection_type: open
+  name: ModMed Certified Diagnostic Report API
+  slug: open-modernizing-medicine-diagnosticreport-api
+- collection_type: open
+  name: ModMed Certified Document Reference API
+  slug: open-modernizing-medicine-documentreference-api
+- collection_type: open
+  name: EMA Proprietary Documents API
+  slug: open-modernizing-medicine-documents-api
+- collection_type: open
+  name: ModMed Certified Encounter API
+  slug: open-modernizing-medicine-encounter-api
+- collection_type: open
+  name: EMA Proprietary Encounters/Visits API
+  slug: open-modernizing-medicine-encounters-visits-api
+- collection_type: open
+  name: ModMed Certified Endpoint API
+  slug: open-modernizing-medicine-endpoint-api
+- collection_type: open
+  name: ModMed Certified Goal API
+  slug: open-modernizing-medicine-goal-api
+- collection_type: open
+  name: ModMed Certified Group API
+  slug: open-modernizing-medicine-group-api
+- collection_type: open
+  name: ModMed Certified Immunization API
+  slug: open-modernizing-medicine-immunization-api
+- collection_type: open
+  name: EMA Proprietary Insurance API
+  slug: open-modernizing-medicine-insurance-api
+- collection_type: open
+  name: ModMed Certified Location API
+  slug: open-modernizing-medicine-location-api
+- collection_type: open
+  name: EMA Proprietary Locations/Facilities API
+  slug: open-modernizing-medicine-locations-facilities-api
+- collection_type: open
+  name: ModMed Certified Medication API
+  slug: open-modernizing-medicine-medication-api
+- collection_type: open
+  name: ModMed Certified Medication Dispense API
+  slug: open-modernizing-medicine-medicationdispense-api
+- collection_type: open
+  name: ModMed Certified Medication Request API
+  slug: open-modernizing-medicine-medicationrequest-api
+- collection_type: open
+  name: ModMed Certified Observation API
+  slug: open-modernizing-medicine-observation-api
+- collection_type: open
+  name: ModMed Certified Operation Definition API
+  slug: open-modernizing-medicine-operationdefinition-api
+- collection_type: open
+  name: ModMed Certified Organization API
+  slug: open-modernizing-medicine-organization-api
+- collection_type: open
+  name: Modernizing Medicine Patient API
+  slug: open-modernizing-medicine-patient-api
+- collection_type: open
+  name: ModMed Certified Practitioner API
+  slug: open-modernizing-medicine-practitioner-api
+- collection_type: open
+  name: ModMed Certified Practitioner Role API
+  slug: open-modernizing-medicine-practitionerrole-api
+- collection_type: open
+  name: ModMed Certified Procedure API
+  slug: open-modernizing-medicine-procedure-api
+- collection_type: open
+  name: ModMed Certified Provenance API
+  slug: open-modernizing-medicine-provenance-api
+- collection_type: open
+  name: EMA Proprietary Providers and Referring Providers API
+  slug: open-modernizing-medicine-providers-and-referring-providers-api
+- collection_type: open
+  name: ModMed Certified Questionnaire API
+  slug: open-modernizing-medicine-questionnaire-api
+- collection_type: open
+  name: ModMed Certified Questionnaire Response API
+  slug: open-modernizing-medicine-questionnaireresponse-api
+- collection_type: open
+  name: ModMed Certified Related Person API
+  slug: open-modernizing-medicine-relatedperson-api
+- collection_type: open
+  name: ModMed Certified Service Request API
+  slug: open-modernizing-medicine-servicerequest-api
+- collection_type: open
+  name: ModMed Certified Specimen API
+  slug: open-modernizing-medicine-specimen-api
+- collection_type: open
+  name: EMA Proprietary Tasks/Recalls API
+  slug: open-modernizing-medicine-tasks-recalls-api
+- collection_type: open
+  name: EMA Proprietary Transcription API
+  slug: open-modernizing-medicine-transcription-api
+- collection_type: open
+  name: ModMed Certified Value Set API
+  slug: open-modernizing-medicine-valueset-api
 common:
 - group: company
   title: ''
@@ -316,7 +449,7 @@ overview: 'ModMed publishes 43 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   ModMed''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 25
+random_paper: 128
 rate_limits:
 - limit_count: 2
   name: Modernizing Medicine Rate Limits
@@ -355,7 +488,7 @@ score:
     regime_id: health
     score: 73.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/screenshots/modernizing-medicine-2026-08-07T184015.png
 security:

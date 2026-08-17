@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -77,21 +77,36 @@ apis:
 - description: Workflow orchestration operations.
   name: Dapr Workflow API
   slug: dapr-workflow-api
-artifact_total: 45
+artifact_total: 59
 asyncapis:
 - description: The Dapr Pub/Sub AsyncAPI defines the event-driven messaging interfaces for Dapr publish and subscribe operations. Applications publish events to topics and subscribe to receive events using the Cloud
   name: Dapr Pub/Sub Messaging API
   slug: dapr-pubsub-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dapr Actors API
+  slug: open-dapr-actors-api
+- collection_type: open
   name: Dapr Actors API
   slug: open-dapr-actors
+- collection_type: open
+  name: Dapr Actors Bindings API
+  slug: open-dapr-bindings-api
 - collection_type: open
   name: Dapr Bindings API
   slug: open-dapr-bindings
 - collection_type: open
+  name: Dapr Actors Configuration API
+  slug: open-dapr-configuration-api
+- collection_type: open
   name: Dapr Configuration API
   slug: open-dapr-configuration
+- collection_type: open
+  name: Dapr Actors Cryptography API
+  slug: open-dapr-cryptography-api
 - collection_type: open
   name: Dapr Cryptography API
   slug: open-dapr-cryptography
@@ -99,17 +114,35 @@ collections:
   name: Dapr Distributed Lock API
   slug: open-dapr-distributed-lock
 - collection_type: open
+  name: Dapr Actors DistributedLock API
+  slug: open-dapr-distributedlock-api
+- collection_type: open
+  name: Dapr Actors Health API
+  slug: open-dapr-health-api
+- collection_type: open
   name: Dapr Health API
   slug: open-dapr-health
+- collection_type: open
+  name: Dapr Actors Jobs API
+  slug: open-dapr-jobs-api
 - collection_type: open
   name: Dapr Jobs API
   slug: open-dapr-jobs
 - collection_type: open
+  name: Dapr Actors Metadata API
+  slug: open-dapr-metadata-api
+- collection_type: open
   name: Dapr Metadata API
   slug: open-dapr-metadata
 - collection_type: open
+  name: Dapr Actors PubSub API
+  slug: open-dapr-pubsub-api
+- collection_type: open
   name: Dapr Pub/Sub API
   slug: open-dapr-pubsub
+- collection_type: open
+  name: Dapr Actors Secrets API
+  slug: open-dapr-secrets-api
 - collection_type: open
   name: Dapr Secrets API
   slug: open-dapr-secrets
@@ -117,8 +150,17 @@ collections:
   name: Dapr Service Invocation API
   slug: open-dapr-service-invocation
 - collection_type: open
+  name: Dapr Actors ServiceInvocation API
+  slug: open-dapr-serviceinvocation-api
+- collection_type: open
+  name: Dapr Actors State API
+  slug: open-dapr-state-api
+- collection_type: open
   name: Dapr State Management API
   slug: open-dapr-state-management
+- collection_type: open
+  name: Dapr Actors Workflow API
+  slug: open-dapr-workflow-api
 - collection_type: open
   name: Dapr Workflow API
   slug: open-dapr-workflow
@@ -251,7 +293,7 @@ plans:
 - name: Dapr Plans Pricing
   plan_count: 1
   slug: dapr-plans-pricing
-random_paper: 63
+random_paper: 125
 rate_limits:
 - limit_count: 2
   name: Dapr Rate Limits
@@ -301,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:

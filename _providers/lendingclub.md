@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The LendingClub API provides access to platform services and data for enterprise integration and automation.
@@ -69,7 +69,7 @@ plans:
 - name: Lendingclub Plans Pricing
   plan_count: 1
   slug: lendingclub-plans-pricing
-random_paper: 79
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: Lendingclub Rate Limits
@@ -93,7 +93,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendingclub/refs/heads/main/screenshots/lendingclub-2026-06-20T184419.png
 security:

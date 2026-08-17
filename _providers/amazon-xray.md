@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ apis:
 - description: The UpdateSamplingRule API from Amazon X-Ray — 1 operation(s) for updatesamplingrule.
   name: Amazon X-Ray UpdateSamplingRule API
   slug: amazon-xray-updatesamplingrule-api
-artifact_total: 668
+artifact_total: 701
 collections:
 - collection_type: postman
   name: AWS X-Ray CreateGroup API
@@ -233,6 +233,105 @@ collections:
 - collection_type: postman
   name: AWS X-Ray CreateGroup UpdateSamplingRule API
   slug: postman-amazon-xray-updatesamplingrule-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS X-Ray CreateGroup API
+  slug: open-amazon-xray-creategroup-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup CreateSamplingRule API
+  slug: open-amazon-xray-createsamplingrule-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup DeleteGroup API
+  slug: open-amazon-xray-deletegroup-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup DeleteResourcePolicy API
+  slug: open-amazon-xray-deleteresourcepolicy-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup DeleteSamplingRule API
+  slug: open-amazon-xray-deletesamplingrule-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup EncryptionConfig API
+  slug: open-amazon-xray-encryptionconfig-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup GetGroup API
+  slug: open-amazon-xray-getgroup-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup GetSamplingRules API
+  slug: open-amazon-xray-getsamplingrules-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup Groups API
+  slug: open-amazon-xray-groups-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup Insight API
+  slug: open-amazon-xray-insight-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup InsightEvents API
+  slug: open-amazon-xray-insightevents-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup InsightImpactGraph API
+  slug: open-amazon-xray-insightimpactgraph-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup InsightSummaries API
+  slug: open-amazon-xray-insightsummaries-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup ListResourcePolicies API
+  slug: open-amazon-xray-listresourcepolicies-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup ListTagsForResource API
+  slug: open-amazon-xray-listtagsforresource-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup PutEncryptionConfig API
+  slug: open-amazon-xray-putencryptionconfig-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup PutResourcePolicy API
+  slug: open-amazon-xray-putresourcepolicy-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup Sampling API
+  slug: open-amazon-xray-sampling-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup SamplingStatisticSummaries API
+  slug: open-amazon-xray-samplingstatisticsummaries-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup SamplingTargets API
+  slug: open-amazon-xray-samplingtargets-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup Service Graph API
+  slug: open-amazon-xray-service-graph-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup ServiceGraph API
+  slug: open-amazon-xray-servicegraph-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup TagResource API
+  slug: open-amazon-xray-tagresource-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup TelemetryRecords API
+  slug: open-amazon-xray-telemetryrecords-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup TimeSeriesServiceStatistics API
+  slug: open-amazon-xray-timeseriesservicestatistics-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup TraceGraph API
+  slug: open-amazon-xray-tracegraph-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup Traces API
+  slug: open-amazon-xray-traces-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup TraceSegments API
+  slug: open-amazon-xray-tracesegments-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup TraceSummaries API
+  slug: open-amazon-xray-tracesummaries-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup UntagResource API
+  slug: open-amazon-xray-untagresource-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup UpdateGroup API
+  slug: open-amazon-xray-updategroup-api
+- collection_type: open
+  name: AWS X-Ray CreateGroup UpdateSamplingRule API
+  slug: open-amazon-xray-updatesamplingrule-api
 - collection_type: open
   name: Amazon X-Ray API
   slug: open-amazon-xray
@@ -2114,7 +2213,7 @@ plans:
 - name: Amazon Xray Plans Pricing
   plan_count: 3
   slug: amazon-xray-plans-pricing
-random_paper: 63
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Amazon Xray Rate Limits
@@ -2156,7 +2255,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/screenshots/amazon-xray-2026-06-20T171851.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,7 +64,7 @@ name: Octavewealth
 nav: Providers
 network: true
 overview: Octavewealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wealth Management, Personal Finance, Fintech, and Y Combinator.
-random_paper: 87
+random_paper: 95
 score:
   band: minimal
   composite: 6.4
@@ -78,7 +78,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 6.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octavewealth/refs/heads/main/screenshots/octavewealth-2026-08-07T185940.png
 security:

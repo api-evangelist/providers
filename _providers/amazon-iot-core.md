@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 2
@@ -249,7 +249,7 @@ apis:
 - description: The Violations API from Amazon IoT Core — 1 operation(s) for violations.
   name: Amazon IoT Core Violations API
   slug: amazon-iot-core-violations-api
-artifact_total: 765
+artifact_total: 836
 collections:
 - collection_type: postman
   name: AWS IoT Accept Certificate Transfer API
@@ -461,6 +461,219 @@ collections:
 - collection_type: postman
   name: AWS IoT Accept Certificate Transfer Violations API
   slug: postman-amazon-iot-core-violations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer API
+  slug: open-amazon-iot-core-accept-certificate-transfer-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Active Violations API
+  slug: open-amazon-iot-core-active-violations-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Attached Policies API
+  slug: open-amazon-iot-core-attached-policies-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Audit API
+  slug: open-amazon-iot-core-audit-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Authorizer API
+  slug: open-amazon-iot-core-authorizer-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Authorizers API
+  slug: open-amazon-iot-core-authorizers-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Behavior Model Training API
+  slug: open-amazon-iot-core-behavior-model-training-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Billing Groups API
+  slug: open-amazon-iot-core-billing-groups-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Cacertificate API
+  slug: open-amazon-iot-core-cacertificate-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Cacertificates API
+  slug: open-amazon-iot-core-cacertificates-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Cancel Certificate Transfer API
+  slug: open-amazon-iot-core-cancel-certificate-transfer-api
+- collection_type: open
+  name: AWS IoT Accept Transfer Certificate API
+  slug: open-amazon-iot-core-certificate-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Certificates API
+  slug: open-amazon-iot-core-certificates-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Certificates By Ca API
+  slug: open-amazon-iot-core-certificates-by-ca-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Certificates Out Going API
+  slug: open-amazon-iot-core-certificates-out-going-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Confirmdestination API
+  slug: open-amazon-iot-core-confirmdestination-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Custom Metric API
+  slug: open-amazon-iot-core-custom-metric-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Custom Metrics API
+  slug: open-amazon-iot-core-custom-metrics-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Default Authorizer API
+  slug: open-amazon-iot-core-default-authorizer-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Destinations API
+  slug: open-amazon-iot-core-destinations-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Detect API
+  slug: open-amazon-iot-core-detect-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Dimensions API
+  slug: open-amazon-iot-core-dimensions-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer DomainConfigurations API
+  slug: open-amazon-iot-core-domainconfigurations-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Dynamic Thing Groups API
+  slug: open-amazon-iot-core-dynamic-thing-groups-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Effective Policies API
+  slug: open-amazon-iot-core-effective-policies-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Endpoint API
+  slug: open-amazon-iot-core-endpoint-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Event Configurations API
+  slug: open-amazon-iot-core-event-configurations-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Fleet Metric API
+  slug: open-amazon-iot-core-fleet-metric-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Fleet Metrics API
+  slug: open-amazon-iot-core-fleet-metrics-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Indexing API
+  slug: open-amazon-iot-core-indexing-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Indices API
+  slug: open-amazon-iot-core-indices-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Job Templates API
+  slug: open-amazon-iot-core-job-templates-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Jobs API
+  slug: open-amazon-iot-core-jobs-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Keys And Certificate API
+  slug: open-amazon-iot-core-keys-and-certificate-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer LoggingOptions API
+  slug: open-amazon-iot-core-loggingoptions-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Managed Job Templates API
+  slug: open-amazon-iot-core-managed-job-templates-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Metric Values#thingName&metricName&startTime&endTime API
+  slug: open-amazon-iot-core-metric-values-thingname-metricname-starttime-endtime-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Mitigationactions API
+  slug: open-amazon-iot-core-mitigationactions-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer OtaUpdates API
+  slug: open-amazon-iot-core-otaupdates-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Policies API
+  slug: open-amazon-iot-core-policies-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Policy Principals#x Amzn Iot Policy API
+  slug: open-amazon-iot-core-policy-principals-x-amzn-iot-policy-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Policy Targets API
+  slug: open-amazon-iot-core-policy-targets-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Principal Policies API
+  slug: open-amazon-iot-core-principal-policies-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Principal Policies#x Amzn Iot Principal API
+  slug: open-amazon-iot-core-principal-policies-x-amzn-iot-principal-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Principals API
+  slug: open-amazon-iot-core-principals-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Provisioning Templates API
+  slug: open-amazon-iot-core-provisioning-templates-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Registrationcode API
+  slug: open-amazon-iot-core-registrationcode-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Reject Certificate Transfer API
+  slug: open-amazon-iot-core-reject-certificate-transfer-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Role Aliases API
+  slug: open-amazon-iot-core-role-aliases-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Rules API
+  slug: open-amazon-iot-core-rules-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Security Profile Behaviors API
+  slug: open-amazon-iot-core-security-profile-behaviors-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Security Profiles API
+  slug: open-amazon-iot-core-security-profiles-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Security Profiles For Target#securityProfileTargetArn API
+  slug: open-amazon-iot-core-security-profiles-for-target-securityprofiletargetarn-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Shadows API
+  slug: open-amazon-iot-core-shadows-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Streams API
+  slug: open-amazon-iot-core-streams-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Tags API
+  slug: open-amazon-iot-core-tags-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Tags#resourceArn API
+  slug: open-amazon-iot-core-tags-resourcearn-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Target Policies API
+  slug: open-amazon-iot-core-target-policies-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Test Authorization API
+  slug: open-amazon-iot-core-test-authorization-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Thing Groups API
+  slug: open-amazon-iot-core-thing-groups-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Thing Registration Tasks API
+  slug: open-amazon-iot-core-thing-registration-tasks-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Thing Types API
+  slug: open-amazon-iot-core-thing-types-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Things API
+  slug: open-amazon-iot-core-things-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Transfer Certificate API
+  slug: open-amazon-iot-core-transfer-certificate-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Untag API
+  slug: open-amazon-iot-core-untag-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer V2LoggingLevel API
+  slug: open-amazon-iot-core-v2logginglevel-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer V2LoggingLevel#targetType&targetName API
+  slug: open-amazon-iot-core-v2logginglevel-targettype-targetname-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer V2LoggingOptions API
+  slug: open-amazon-iot-core-v2loggingoptions-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Violation Events#startTime&endTime API
+  slug: open-amazon-iot-core-violation-events-starttime-endtime-api
+- collection_type: open
+  name: AWS IoT Accept Certificate Transfer Violations API
+  slug: open-amazon-iot-core-violations-api
 - collection_type: open
   name: Amazon IoT Core API
   slug: open-amazon-iot-core
@@ -2408,7 +2621,7 @@ plans:
 - name: Amazon Iot Core Plans Pricing
   plan_count: 3
   slug: amazon-iot-core-plans-pricing
-random_paper: 53
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Core Rate Limits
@@ -2450,7 +2663,7 @@ score:
       marker_coverage: 0.0
       total: 70
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/screenshots/amazon-iot-core-2026-06-20T171706.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -102,8 +102,20 @@ apis:
 - description: Initiate and track refunds.
   name: PhonePe Refunds API
   slug: phonepe-refunds-api
-artifact_total: 29
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PhonePe Payment Gateway Checkout API
+  slug: open-phonepe-checkout-api
+- collection_type: open
+  name: PhonePe Payment Gateway Checkout Order Status API
+  slug: open-phonepe-order-status-api
+- collection_type: open
+  name: PhonePe Payment Gateway Checkout Refunds API
+  slug: open-phonepe-refunds-api
 - collection_type: open
   name: PhonePe Payment Gateway API
   slug: open-phonepe
@@ -164,7 +176,7 @@ plans:
 - name: Phonepe Plans Pricing
   plan_count: 1
   slug: phonepe-plans-pricing
-random_paper: 31
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Phonepe Rate Limits
@@ -195,7 +207,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/screenshots/phonepe-2026-06-20T191650.png
 security:

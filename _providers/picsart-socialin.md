@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -108,7 +108,80 @@ apis:
 - description: The Watermark API from PicsArt (Socialin) — 1 operation(s) for watermark.
   name: PicsArt (Socialin) Watermark API
   slug: picsart-socialin-watermark-api
-artifact_total: 28
+artifact_total: 52
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Picsart GenAI Ads API
+  slug: open-picsart-socialin-ads-api
+- collection_type: open
+  name: Picsart GenAI Ads Audio API
+  slug: open-picsart-socialin-audio-api
+- collection_type: open
+  name: Picsart GenAI Ads Classification API
+  slug: open-picsart-socialin-classification-api
+- collection_type: open
+  name: Picsart GenAI Ads Content Generation API
+  slug: open-picsart-socialin-content-generation-api
+- collection_type: open
+  name: Picsart GenAI Ads Conversion API
+  slug: open-picsart-socialin-conversion-api
+- collection_type: open
+  name: Picsart GenAI Ads Edit API
+  slug: open-picsart-socialin-edit-api
+- collection_type: open
+  name: Picsart GenAI Ads Editing API
+  slug: open-picsart-socialin-editing-api
+- collection_type: open
+  name: Picsart GenAI Ads Effects API
+  slug: open-picsart-socialin-effects-api
+- collection_type: open
+  name: Picsart GenAI Ads Image2Image / Inpainting API
+  slug: open-picsart-socialin-image2image-inpainting-api
+- collection_type: open
+  name: Picsart GenAI Ads Metadata API
+  slug: open-picsart-socialin-metadata-api
+- collection_type: open
+  name: Picsart GenAI Ads Photo enhancement API
+  slug: open-picsart-socialin-photo-enhancement-api
+- collection_type: open
+  name: Picsart GenAI Ads Remove Background API
+  slug: open-picsart-socialin-remove-background-api
+- collection_type: open
+  name: Picsart GenAI Ads Replay API
+  slug: open-picsart-socialin-replay-api
+- collection_type: open
+  name: Picsart GenAI Ads Surfacemap API
+  slug: open-picsart-socialin-surfacemap-api
+- collection_type: open
+  name: Picsart GenAI Ads Text2Audio API
+  slug: open-picsart-socialin-text2audio-api
+- collection_type: open
+  name: Picsart GenAI Ads Text2Image API
+  slug: open-picsart-socialin-text2image-api
+- collection_type: open
+  name: Picsart GenAI Ads Text2Text API
+  slug: open-picsart-socialin-text2text-api
+- collection_type: open
+  name: Picsart GenAI Ads Text2Video & Image2Video API
+  slug: open-picsart-socialin-text2video-image2video-api
+- collection_type: open
+  name: Picsart GenAI Ads Transcriptions API
+  slug: open-picsart-socialin-transcriptions-api
+- collection_type: open
+  name: Picsart GenAI Ads Utilities API
+  slug: open-picsart-socialin-utilities-api
+- collection_type: open
+  name: Picsart GenAI Ads Variable Data Content API
+  slug: open-picsart-socialin-variable-data-content-api
+- collection_type: open
+  name: Picsart GenAI Ads Video enhancement API
+  slug: open-picsart-socialin-video-enhancement-api
+- collection_type: open
+  name: Picsart GenAI Ads Watermark API
+  slug: open-picsart-socialin-watermark-api
 common:
 - group: agent
   title: ''
@@ -270,7 +343,7 @@ overview: 'PicsArt (Socialin) publishes 23 APIs on the [APIs.io](https://apis.io
 
 
   PicsArt (Socialin)''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
-random_paper: 93
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Picsart Socialin Rate Limits
@@ -298,7 +371,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

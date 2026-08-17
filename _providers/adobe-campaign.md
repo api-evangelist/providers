@@ -1,35 +1,37 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid · Contact sales · API access gated
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/apis/get-started-apis
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-12'
+  score: 59.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -99,12 +101,183 @@ apis:
 - description: Control workflow execution including starting, pausing, resuming, and stopping marketing workflows.
   name: Adobe Campaign Workflows API
   slug: adobe-campaign-workflows-api
-artifact_total: 145
+artifact_total: 166
 asyncapis:
 - description: Event-driven transactional messaging system for Adobe Campaign. Supports triggering personalized messages across email, SMS, and push notification channels in response to real-time customer events. Ev
   name: Adobe Campaign Transactional Messaging Events
   slug: adobe-campaign-transactional-messaging-asyncapi-original
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources API
+  slug: open-adobe-campaign-custom-resources-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Data Management API
+  slug: open-adobe-campaign-data-management-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Delivery API
+  slug: open-adobe-campaign-delivery-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Marketing History API
+  slug: open-adobe-campaign-marketing-history-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Metadata API
+  slug: open-adobe-campaign-metadata-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Organizational Units API
+  slug: open-adobe-campaign-organizational-units-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Privacy API
+  slug: open-adobe-campaign-privacy-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources ProfileAndServices API
+  slug: open-adobe-campaign-profileandservices-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Profiles API
+  slug: open-adobe-campaign-profiles-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Query Definition API
+  slug: open-adobe-campaign-query-definition-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Real-Time Events API
+  slug: open-adobe-campaign-real-time-events-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Session Management API
+  slug: open-adobe-campaign-session-management-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Subscription API
+  slug: open-adobe-campaign-subscription-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Subscriptions API
+  slug: open-adobe-campaign-subscriptions-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Transactional Messages API
+  slug: open-adobe-campaign-transactional-messages-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Workflow API
+  slug: open-adobe-campaign-workflow-api
+- collection_type: open
+  name: Adobe Campaign Classic Custom Resources Workflows API
+  slug: open-adobe-campaign-workflows-api
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adobe-campaign-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/adobe-campaign-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/adobe-campaign-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/adobe-campaign-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adobe-campaign-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/adobe-campaign-mcp.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adobe-campaign-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/adobe-campaign-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/adobe-campaign-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/adobe-campaign-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/adobe-campaign-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adobe-campaign-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/adobe-campaign-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/adobe-campaign-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/adobe-campaign-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/adobe-campaign-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/adobe-campaign-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/adobe-campaign-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/adobe-campaign-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-campaign-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/adobe-campaign-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.adobe.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/apis/get-started-apis
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/adobe
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.adobe.com/console
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://business.adobe.com/products/campaign/adobe-campaign.html
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes
 - group: operate
   title: ''
   type: IssueTracker
@@ -174,7 +347,7 @@ common:
   type: Blog
   url: https://business.adobe.com/blog/
 created: '2024-01-01'
-description: Adobe Campaign is a comprehensive marketing automation platform that enables businesses to orchestrate personalized customer experiences across multiple channels including email, mobile, social, and web.
+description: 'Adobe Campaign is Adobe''s enterprise cross-channel campaign management and marketing automation platform, orchestrating email, SMS, push, direct mail and web messaging against a customer-owned marketing database. It ships two distinct programmable surfaces: a JSON REST API on https://mc.adobe.io/{ORGANIZATION}/campaign covering profiles, services and subscriptions, custom resources, workflows, privacy requests and transactional messaging, authenticated with an Adobe IMS OAuth Server-to-Server bearer token plus an X-Api-Key; and the Campaign Classic SOAP-over-HTTP surface on the customer''s own instance host, authenticated with a session-token pair from xtk:session#Logon. Campaign v8 is the current generation, Campaign Classic v7 is the legacy on-premise line, and Adobe has deprecated Campaign Standard in favour of Adobe Journey Optimizer. The data model is extended per tenant, so the deployed shape must be discovered at runtime rather than assumed from a specification.'
 examples:
 - key_count: 2
   name: Adobe Campaign Classic Delivery Request Example
@@ -489,7 +662,11 @@ jsonld:
   property_count: 57
   slug: adobe-campaign-context
 layout: provider
-modified: '2026-04-17'
+mcp_servers:
+- description: ''
+  name: adobe-campaign-mcp.yml
+  slug: adobe-campaign-mcpyml
+modified: '2026-08-13'
 name: Adobe Campaign
 nav: Providers
 network: true
@@ -499,12 +676,12 @@ overview: 'Adobe Campaign publishes 17 APIs on the [APIs.io](https://apis.io/) n
   The Adobe Campaign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Adobe Campaign''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, and 12 more developer resources.'
+  Adobe Campaign''s developer surface includes changelog, sandbox, documentation, API reference, signup flow, pricing, release notes, and 39 more developer resources.'
 plans:
 - name: Adobe Campaign Plans Pricing
   plan_count: 2
   slug: adobe-campaign-plans-pricing
-random_paper: 64
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Adobe Campaign Rate Limits
@@ -534,17 +711,22 @@ rules:
     info: 1
     warn: 2
   slug: adobe-campaign-spectral-rules
+scopes:
+- name: Adobe Campaign Scopes
+  scope_count: 0
+  slug: adobe-campaign-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 50.0
-  delta: 0.0
+  band: exemplar
+  composite: 74.7
+  delta: 24.7
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 73.7
     contract_quality: 79.3
-    developer_ergonomics: 37.0
-    discoverability: 74.1
-    governance: 47.9
-    operational_transparency: 21.1
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    governance: 68.8
+    operational_transparency: 60.5
   previous_composite: 50.0
   provenance:
     agentic_access: derived
@@ -553,15 +735,21 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:
 - kind: authentication
   name: Adobe Campaign Authentication
   slug: adobe-campaign-authentication
-  summary_line: apiKey/http · 3 schemes
+  summary_line: apiKey/http/oauth2 · 3 schemes
 - kind: domain-security
   name: Adobe Campaign Domain Security
   slug: adobe-campaign-domain-security
@@ -570,6 +758,10 @@ security:
   name: Adobe Campaign Vulnerability Disclosure
   slug: adobe-campaign-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Adobe Campaign Trust Center
+  slug: adobe-campaign-trust-center
+  summary_line: trust center published
 slug: adobe-campaign
 solutions:
 - description: Cloud-native marketing automation with modern REST APIs and visual workflow designer.
@@ -584,6 +776,13 @@ tags:
 - Email Marketing
 - Marketing Automation
 - Multi-Channel Marketing
+- Transactional Messaging
+- Customer Data
+- Adobe Experience Cloud
+- SMS
+- Push Notifications
+- Workflow Automation
+- Privacy
 use_cases:
 - description: Design, personalize, and send email campaigns with tracking and analytics.
   name: Email Marketing Campaigns

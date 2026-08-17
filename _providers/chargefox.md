@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Chargefox's documented REST API for fleet customers, described by an OpenAPI 3.0.1 contract titled "Fleets API" version 1.0 that the company renders publicly with Redoc at https://app.chargefox.com/de
@@ -27,7 +27,11 @@ apis:
 - description: Chargefox's Open Charge Point Interface implementation in the Charge Point Operator role, used for roaming so that another network's drivers can authorise, charge and be billed on Chargefox infrastruc
   name: Chargefox OCPI CPO API
   slug: chargefox-ocpi-cpo-api
-artifact_total: 11
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Fleets API
+  slug: open-chargefox-fleets-api
 common:
 - group: agent
   title: ''
@@ -192,7 +196,7 @@ overview: 'Chargefox publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Chargefox''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, code examples, and 26 more developer resources.'
-random_paper: 111
+random_paper: 57
 rate_limits:
 - limit_count: 25
   name: Chargefox Rate Limits
@@ -220,7 +224,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/screenshots/chargefox-2026-08-07T163259.png
 security:

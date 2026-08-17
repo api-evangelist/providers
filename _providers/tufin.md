@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: Security zones and zone-to-zone matrix
   name: Tufin Zones API
   slug: tufin-zones-api
-artifact_total: 60
+artifact_total: 72
 collections:
 - collection_type: postman
   name: Tufin SecureChange REST Compliance API
@@ -117,11 +117,47 @@ collections:
   name: Tufin SecureChange REST Compliance Zones API
   slug: postman-tufin-zones-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tufin SecureChange REST Compliance API
+  slug: open-tufin-compliance-api
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Devices API
+  slug: open-tufin-devices-api
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Objects API
+  slug: open-tufin-objects-api
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Revisions API
+  slug: open-tufin-revisions-api
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Rules API
+  slug: open-tufin-rules-api
+- collection_type: open
   name: Tufin SecureChange REST API
   slug: open-tufin-securechange
 - collection_type: open
   name: Tufin SecureTrack REST API
   slug: open-tufin-securetrack
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Tasks API
+  slug: open-tufin-tasks-api
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Tickets API
+  slug: open-tufin-tickets-api
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Topology API
+  slug: open-tufin-topology-api
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Users API
+  slug: open-tufin-users-api
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Workflow Definitions API
+  slug: open-tufin-workflow-definitions-api
+- collection_type: open
+  name: Tufin SecureChange REST Compliance Zones API
+  slug: open-tufin-zones-api
 common:
 - group: build
   title: ''
@@ -343,7 +379,7 @@ plans:
 - name: Tufin Plans Pricing
   plan_count: 1
   slug: tufin-plans-pricing
-random_paper: 70
+random_paper: 103
 rate_limits:
 - limit_count: 1
   name: Tufin Rate Limits
@@ -391,7 +427,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/screenshots/tufin-2026-06-20T195822.png
 security:

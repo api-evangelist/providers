@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -47,8 +47,17 @@ apis:
 - description: The Proxy API from Dev Proxy — 4 operation(s) for proxy.
   name: Dev Proxy Proxy API
   slug: dev-proxy-proxy-api
-artifact_total: 19
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Dev Proxy — Proxy JWT API
+  slug: open-dev-proxy-jwt-api
+- collection_type: open
+  name: Microsoft Dev — JWT Proxy API
+  slug: open-dev-proxy-proxy-api
 - collection_type: open
   name: Microsoft Dev Proxy — Proxy API
   slug: open-dev-proxy
@@ -101,7 +110,7 @@ plans:
 - name: Dev Proxy Plans Pricing
   plan_count: 3
   slug: dev-proxy-plans-pricing
-random_paper: 102
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Dev Proxy Rate Limits
@@ -126,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/screenshots/dev-proxy-2026-06-20T175945.png
 security:

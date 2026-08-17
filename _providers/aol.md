@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: OpenID Connect userinfo and JWKS endpoints
   name: AOL OpenID Connect API
   slug: aol-openid-connect-api
-artifact_total: 12
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yahoo (formerly AOL) OAuth 2.0 and OpenID Connect OAuth2 API
+  slug: open-aol-oauth2-api
+- collection_type: open
+  name: Yahoo (formerly AOL) OAuth 2.0 and OAuth2 OpenID Connect API
+  slug: open-aol-openid-connect-api
 - collection_type: open
   name: Yahoo (formerly AOL) OAuth 2.0 and OpenID Connect API
   slug: open-aol
@@ -130,7 +139,7 @@ press:
 - date: '2026-05-25'
   title: BBB warns about AI search use, details how to use it smartly
   url: https://www.aol.com/news/bbb-warns-ai-search-details-201446520.html
-random_paper: 76
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Aol Rate Limits
@@ -160,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/screenshots/aol-2026-06-20T172055.png
 security:

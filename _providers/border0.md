@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -83,7 +83,56 @@ apis:
 - description: The Users API from Border0 — 5 operation(s) for users.
   name: Border0 Users API
   slug: border0-users-api
-artifact_total: 20
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Border0 Audit Actions API
+  slug: open-border0-audit-actions-api
+- collection_type: open
+  name: Border0 Audit Actions Client API
+  slug: open-border0-client-api
+- collection_type: open
+  name: Border0 Audit Actions Connect API
+  slug: open-border0-connect-api
+- collection_type: open
+  name: Border0 Audit Actions Login API
+  slug: open-border0-login-api
+- collection_type: open
+  name: Border0 Audit Actions Mtls-Ca API
+  slug: open-border0-mtls-ca-api
+- collection_type: open
+  name: Border0 Audit Actions Organization API
+  slug: open-border0-organization-api
+- collection_type: open
+  name: Border0 Audit Actions Organizations API
+  slug: open-border0-organizations-api
+- collection_type: open
+  name: Border0 Audit Actions Policies API
+  slug: open-border0-policies-api
+- collection_type: open
+  name: Border0 Audit Actions Policy API
+  slug: open-border0-policy-api
+- collection_type: open
+  name: Border0 Audit Actions Session API
+  slug: open-border0-session-api
+- collection_type: open
+  name: Border0 Audit Actions Sessions API
+  slug: open-border0-sessions-api
+- collection_type: open
+  name: Border0 Audit Actions Socket API
+  slug: open-border0-socket-api
+- collection_type: open
+  name: Border0 Audit Actions Stats API
+  slug: open-border0-stats-api
+- collection_type: open
+  name: Border0 Audit Actions User API
+  slug: open-border0-user-api
+- collection_type: open
+  name: Border0 Audit Actions Users API
+  slug: open-border0-users-api
 common:
 - group: other
   title: ''
@@ -225,7 +274,7 @@ overview: 'Border0 publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Border0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
-random_paper: 86
+random_paper: 90
 score:
   band: developing
   composite: 50.4
@@ -249,7 +298,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/screenshots/border0-2026-07-25T203633.png
 security:

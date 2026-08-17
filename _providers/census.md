@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -69,8 +69,32 @@ apis:
 - description: Organization-level workspace management
   name: Census Workspaces API
   slug: census-workspaces-api
-artifact_total: 19
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Census Activations REST Destinations API
+  slug: open-census-destinations-api
+- collection_type: open
+  name: Census Activations REST Destinations Models API
+  slug: open-census-models-api
+- collection_type: open
+  name: Census Activations REST Destinations Segments API
+  slug: open-census-segments-api
+- collection_type: open
+  name: Census Activations REST Destinations Sources API
+  slug: open-census-sources-api
+- collection_type: open
+  name: Census Activations REST Destinations SyncRuns API
+  slug: open-census-syncruns-api
+- collection_type: open
+  name: Census Activations REST Destinations Syncs API
+  slug: open-census-syncs-api
+- collection_type: open
+  name: Census Activations REST Destinations Workspaces API
+  slug: open-census-workspaces-api
 - collection_type: open
   name: Census Activations REST API
   slug: open-census
@@ -151,7 +175,7 @@ plans:
 - name: Census Plans Pricing
   plan_count: 3
   slug: census-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Census Rate Limits
@@ -176,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/screenshots/census-2026-06-20T174117.png
 security:

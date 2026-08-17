@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Approvals API from N3XT — 2 operation(s) for approvals.
@@ -65,7 +65,7 @@ apis:
 - description: The Wallets API from N3XT — 6 operation(s) for wallets.
   name: N3XT Wallets API
   slug: n3xt-wallets-api
-artifact_total: 28
+artifact_total: 40
 collections:
 - collection_type: postman
   name: N3XT API Documentation Approvals API
@@ -100,6 +100,42 @@ collections:
 - collection_type: postman
   name: N3XT API Documentation Approvals Wallets API
   slug: postman-n3xt-wallets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: N3XT API Documentation Approvals API
+  slug: open-n3xt-approvals-api
+- collection_type: open
+  name: N3XT API Documentation Approvals AuditTrail API
+  slug: open-n3xt-audittrail-api
+- collection_type: open
+  name: N3XT API Documentation Approvals Businesses API
+  slug: open-n3xt-businesses-api
+- collection_type: open
+  name: N3XT API Documentation Approvals Contacts API
+  slug: open-n3xt-contacts-api
+- collection_type: open
+  name: N3XT API Documentation Approvals Ndd Routes API
+  slug: open-n3xt-ndd-routes-api
+- collection_type: open
+  name: N3XT API Documentation Approvals Payments API
+  slug: open-n3xt-payments-api
+- collection_type: open
+  name: N3XT API Documentation Approvals Programmable API
+  slug: open-n3xt-programmable-api
+- collection_type: open
+  name: N3XT API Documentation Approvals System API
+  slug: open-n3xt-system-api
+- collection_type: open
+  name: N3XT API Documentation Approvals Transfers API
+  slug: open-n3xt-transfers-api
+- collection_type: open
+  name: N3XT API Documentation Approvals Users API
+  slug: open-n3xt-users-api
+- collection_type: open
+  name: N3XT API Documentation Approvals Wallets API
+  slug: open-n3xt-wallets-api
 common:
 - group: build
   title: ''
@@ -245,7 +281,7 @@ overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 37
+random_paper: 99
 scopes:
 - name: N3Xt Scopes
   scope_count: 8
@@ -279,7 +315,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/screenshots/n3xt-2026-08-07T184554.png
 security:

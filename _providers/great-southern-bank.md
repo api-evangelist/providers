@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -52,7 +52,32 @@ apis:
 - description: Banking Product endpoints
   name: Great Southern Bank Banking Products API
   slug: great-southern-bank-banking-products-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDR Banking Banking Account Balances API
+  slug: open-great-southern-bank-banking-account-balances-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Direct Debits API
+  slug: open-great-southern-bank-banking-account-direct-debits-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Scheduled Payments API
+  slug: open-great-southern-bank-banking-account-scheduled-payments-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Account Transactions API
+  slug: open-great-southern-bank-banking-account-transactions-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Accounts API
+  slug: open-great-southern-bank-banking-accounts-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Payees API
+  slug: open-great-southern-bank-banking-payees-api
+- collection_type: open
+  name: CDR Banking Banking Account Balances Banking Products API
+  slug: open-great-southern-bank-banking-products-api
 common:
 - group: auth
   title: ''
@@ -175,7 +200,7 @@ overview: 'Great Southern Bank publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   Great Southern Bank''s developer surface includes authentication, API reference, developer portal, documentation, support, engineering blog, and 20 more developer resources.'
-random_paper: 1
+random_paper: 133
 scopes:
 - name: Great Southern Bank Scopes
   scope_count: 13
@@ -209,7 +234,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/screenshots/great-southern-bank-2026-07-21T114729.png
 security:

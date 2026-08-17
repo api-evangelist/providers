@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -110,7 +110,77 @@ apis:
 - description: Query the available stock.
   name: BICS stock API
   slug: bics-network-stock-api
-artifact_total: 29
+artifact_total: 52
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: connect Address Management API
+  slug: open-bics-network-address-management-api
+- collection_type: open
+  name: connect Address Management CDR API
+  slug: open-bics-network-cdr-api
+- collection_type: open
+  name: connect Address Management Connections Management API
+  slug: open-bics-network-connections-management-api
+- collection_type: open
+  name: connect Address Management Conversions API
+  slug: open-bics-network-conversions-api
+- collection_type: open
+  name: connect Address Management Conversionsinfos API
+  slug: open-bics-network-conversionsinfos-api
+- collection_type: open
+  name: connect Address Management Disconnection Services API
+  slug: open-bics-network-disconnection-services-api
+- collection_type: open
+  name: connect Address Management Document Management API
+  slug: open-bics-network-document-management-api
+- collection_type: open
+  name: connect Address Management Emergency Services API
+  slug: open-bics-network-emergency-services-api
+- collection_type: open
+  name: connect Address Management Inbound API
+  slug: open-bics-network-inbound-api
+- collection_type: open
+  name: connect Address Management Interconnects List API
+  slug: open-bics-network-interconnects-list-api
+- collection_type: open
+  name: connect Address Management inventory API
+  slug: open-bics-network-inventory-api
+- collection_type: open
+  name: connect Address Management number API
+  slug: open-bics-network-number-api
+- collection_type: open
+  name: connect Address Management order API
+  slug: open-bics-network-order-api
+- collection_type: open
+  name: connect Address Management Outbound API
+  slug: open-bics-network-outbound-api
+- collection_type: open
+  name: connect Address Management porting API
+  slug: open-bics-network-porting-api
+- collection_type: open
+  name: connect Address Management Porting Specification API
+  slug: open-bics-network-porting-specification-api
+- collection_type: open
+  name: connect Address Management pricelist API
+  slug: open-bics-network-pricelist-api
+- collection_type: open
+  name: connect Address Management reference API
+  slug: open-bics-network-reference-api
+- collection_type: open
+  name: connect Address Management Reference Data API
+  slug: open-bics-network-reference-data-api
+- collection_type: open
+  name: connect Address Management routing API
+  slug: open-bics-network-routing-api
+- collection_type: open
+  name: connect Address Management specification API
+  slug: open-bics-network-specification-api
+- collection_type: open
+  name: connect Address Management stock API
+  slug: open-bics-network-stock-api
 common:
 - group: agent
   title: ''
@@ -164,7 +234,7 @@ plans:
 - name: Bics Network Plans Pricing
   plan_count: 0
   slug: bics-network-plans-pricing
-random_paper: 40
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Bics Network Rate Limits
@@ -195,7 +265,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/screenshots/bics-network-2026-07-25T202908.png
 security:

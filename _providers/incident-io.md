@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -114,8 +114,86 @@ apis:
 - description: The Workflows API from Incident.io — 2 operation(s) for workflows.
   name: Incident.io Workflows API
   slug: incident-io-workflows-api
-artifact_total: 55
+artifact_total: 81
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Incident.io Actions API
+  slug: open-incident-io-actions-api
+- collection_type: open
+  name: Incident.io Actions Alert Attributes API
+  slug: open-incident-io-alert-attributes-api
+- collection_type: open
+  name: Incident.io Actions Alert Routes API
+  slug: open-incident-io-alert-routes-api
+- collection_type: open
+  name: Incident.io Actions Alert Sources API
+  slug: open-incident-io-alert-sources-api
+- collection_type: open
+  name: Incident.io Actions Alerts API
+  slug: open-incident-io-alerts-api
+- collection_type: open
+  name: Incident.io Actions API Keys API
+  slug: open-incident-io-api-keys-api
+- collection_type: open
+  name: Incident.io Actions Catalog Entries API
+  slug: open-incident-io-catalog-entries-api
+- collection_type: open
+  name: Incident.io Actions Catalog Types API
+  slug: open-incident-io-catalog-types-api
+- collection_type: open
+  name: Incident.io Actions Custom Fields API
+  slug: open-incident-io-custom-fields-api
+- collection_type: open
+  name: Incident.io Actions Escalation Paths API
+  slug: open-incident-io-escalation-paths-api
+- collection_type: open
+  name: Incident.io Actions Escalations API
+  slug: open-incident-io-escalations-api
+- collection_type: open
+  name: Incident.io Actions Follow-ups API
+  slug: open-incident-io-follow-ups-api
+- collection_type: open
+  name: Incident.io Actions Incident Roles API
+  slug: open-incident-io-incident-roles-api
+- collection_type: open
+  name: Incident.io Actions Incident Statuses API
+  slug: open-incident-io-incident-statuses-api
+- collection_type: open
+  name: Incident.io Actions Incident Types API
+  slug: open-incident-io-incident-types-api
+- collection_type: open
+  name: Incident.io Actions Incidents API
+  slug: open-incident-io-incidents-api
+- collection_type: open
+  name: Incident.io Actions Maintenance Windows API
+  slug: open-incident-io-maintenance-windows-api
+- collection_type: open
+  name: Incident.io Actions Postmortem Documents API
+  slug: open-incident-io-postmortem-documents-api
+- collection_type: open
+  name: Incident.io Actions Schedules API
+  slug: open-incident-io-schedules-api
+- collection_type: open
+  name: Incident.io Actions Severities API
+  slug: open-incident-io-severities-api
+- collection_type: open
+  name: Incident.io Actions Status Pages API
+  slug: open-incident-io-status-pages-api
+- collection_type: open
+  name: Incident.io Actions Teams API
+  slug: open-incident-io-teams-api
+- collection_type: open
+  name: Incident.io Actions Users API
+  slug: open-incident-io-users-api
+- collection_type: open
+  name: Incident.io Actions Utilities API
+  slug: open-incident-io-utilities-api
+- collection_type: open
+  name: Incident.io Actions Workflows API
+  slug: open-incident-io-workflows-api
 - collection_type: open
   name: Incident.io API
   slug: open-incident-io
@@ -219,7 +297,7 @@ plans:
 - name: Incident Io Plans Pricing
   plan_count: 5
   slug: incident-io-plans-pricing
-random_paper: 27
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Incident Io Rate Limits
@@ -253,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incident-io/refs/heads/main/screenshots/incident-io-2026-06-20T183308.png
 security:

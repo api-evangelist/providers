@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -81,7 +81,35 @@ apis:
 - description: '#### Options to download virus genome data, including the associated sequence and metadata. These virus services allow you to get virus genome metadata as a data report or download genome and protein '
   name: National Center for Biotechnology Information (NCBI) Virus API
   slug: ncbi-virus-api
-artifact_total: 48
+artifact_total: 57
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NCBI Datasets BioSample API
+  slug: open-ncbi-biosample-api
+- collection_type: open
+  name: NCBI Datasets BioSample Gene API
+  slug: open-ncbi-gene-api
+- collection_type: open
+  name: NCBI Datasets BioSample Genome API
+  slug: open-ncbi-genome-api
+- collection_type: open
+  name: NCBI Datasets BioSample Organelle API
+  slug: open-ncbi-organelle-api
+- collection_type: open
+  name: NCBI Datasets BioSample Prokaryote API
+  slug: open-ncbi-prokaryote-api
+- collection_type: open
+  name: NCBI Datasets BioSample Taxonomy API
+  slug: open-ncbi-taxonomy-api
+- collection_type: open
+  name: NCBI Datasets BioSample Version API
+  slug: open-ncbi-version-api
+- collection_type: open
+  name: NCBI Datasets BioSample Virus API
+  slug: open-ncbi-virus-api
 common:
 - group: agent
   title: ''
@@ -222,7 +250,7 @@ plans:
 - name: Pubchem Pug Rest
   plan_count: 1
   slug: pubchem-pug-rest
-random_paper: 52
+random_paper: 114
 rate_limits:
 - limit_count: 0
   name: Blast
@@ -280,7 +308,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/screenshots/ncbi-2026-06-20T190109.png
 security:

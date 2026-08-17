@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Manage webhook subscriptions for school events.
   name: LearnWorlds Webhooks API
   slug: learnworlds-webhooks-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LearnWorlds Courses API
+  slug: open-learnworlds-courses-api
+- collection_type: open
+  name: LearnWorlds Courses Enrollments API
+  slug: open-learnworlds-enrollments-api
+- collection_type: open
+  name: LearnWorlds Courses Payments API
+  slug: open-learnworlds-payments-api
+- collection_type: open
+  name: LearnWorlds Courses Progress API
+  slug: open-learnworlds-progress-api
+- collection_type: open
+  name: LearnWorlds Courses Tags API
+  slug: open-learnworlds-tags-api
+- collection_type: open
+  name: LearnWorlds Courses Users API
+  slug: open-learnworlds-users-api
+- collection_type: open
+  name: LearnWorlds Courses Webhooks API
+  slug: open-learnworlds-webhooks-api
 - collection_type: open
   name: LearnWorlds API
   slug: open-learnworlds
@@ -130,7 +154,7 @@ plans:
 - name: Learnworlds Plans Pricing
   plan_count: 4
   slug: learnworlds-plans-pricing
-random_paper: 117
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Learnworlds Rate Limits
@@ -160,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/screenshots/learnworlds-2026-07-25T224802.png
 security:

@@ -1,34 +1,37 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Sales-gated onboarding, list pricing published
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - authentication
+  - https://www.leadsquared.com/sales-crm-pricing/
+  - https://www.leadsquared.com/marketing-automation-pricing/
+  - https://www.leadsquared.com/free-trial/
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 64.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -36,19 +39,35 @@ agentic_access:
   operation_count: 4
   slug: leadsquared-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 3
+api_count: 4
 apis:
 - description: REST API for managing leads, opportunities, activities, tasks, users, campaigns, and other CRM resources in LeadSquared. Includes Sales CRM, Service CRM, Async, and Portal APIs along with Lapps, Batch
   name: LeadSquared REST API
   slug: rest-api
+- description: Queued, retrying variants of the highest-volume LeadSquared write operations — Capture Leads, Update a Lead, Post an Activity on a Lead, Create a Lead and Activity, Capture Opportunities, Update an Op
+  name: LeadSquared Async API
+  slug: async-api
 - description: Activity events on leads
   name: LeadSquared Activities API
   slug: leadsquared-activities-api
 - description: Lead create, get, and search
   name: LeadSquared Leads API
   slug: leadsquared-leads-api
-artifact_total: 7
+artifact_total: 17
+asyncapis:
+- description: ''
+  name: Leadsquared Webhooks
+  slug: leadsquared-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LeadSquared REST Activities API
+  slug: open-leadsquared-activities-api
+- collection_type: open
+  name: LeadSquared REST Activities Leads API
+  slug: open-leadsquared-leads-api
 - collection_type: open
   name: LeadSquared REST API
   slug: open-leadsquared
@@ -84,35 +103,166 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.leadsquared.com/pricing/
+  url: https://www.leadsquared.com/marketing-automation-pricing/
 - group: start
   title: ''
-  type: Signup
-  url: https://www.leadsquared.com/free-trial/
+  type: SignUp
+  url: https://www.leadsquared.com/book-demo/
+- group: start
+  title: ''
+  type: Login
+  url: https://login.leadsquared.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://apidocs.leadsquared.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.leadsquared.com/overview/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://apidocs.leadsquared.com/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.leadsquared.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.leadsquared.com/learn/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/leadsquaredapi
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.leadsquared.com/leadsquared-terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.leadsquared.com/privacy-policy/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/leadsquared-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/leadsquared-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/leadsquared-cli.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/leadsquared-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/leadsquared-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/leadsquared-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/leadsquared-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/leadsquared-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/leadsquared-plans-pricing.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/leadsquared-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/leadsquared-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/leadsquared-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.leadsquared.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/leadsquared-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/leadsquared-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.leadsquared.com/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/leadsquared-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/leadsquared-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.leadsquared.com/security/
 created: '2026-05-11'
 description: LeadSquared is a marketing automation and CRM platform that helps businesses capture, manage, nurture, and convert leads across sales, marketing, and service workflows. It offers Sales CRM, Service CRM, marketing automation, field force automation, and a no-code/low-code platform for building industry-specific customer experiences. The LeadSquared REST API provides access to core platform resources like leads, opportunities, activities, tasks, and users using API key authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leadsquared.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: leadsquared-mcp.yml
+  slug: leadsquared-mcpyml
+modified: '2026-08-13'
 name: LeadSquared
 nav: Providers
 network: true
 overview: 'LeadSquared publishes 3 APIs on the [APIs.io](https://apis.io/) network: REST API, Activities API, and Leads API. Tagged areas include Marketing Automation, CRM, Sales Automation, Lead Management, and Customer Engagement.
 
 
-  LeadSquared''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 83
+  The LeadSquared catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  LeadSquared''s developer surface includes authentication, documentation, pricing, signup flow, API reference, getting-started guide, support, and 31 more developer resources.'
+plans:
+- name: Leadsquared Plans Pricing
+  plan_count: 4
+  slug: leadsquared-plans-pricing
+random_paper: 120
+rate_limits:
+- limit_count: 10
+  name: Leadsquared Rate Limits
+  slug: leadsquared-rate-limits
 score:
-  band: thin
-  composite: 29.9
-  delta: 0.0
+  band: exemplar
+  composite: 73.8
+  delta: 43.9
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 52.7
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 92.1
+    contract_quality: 61.7
+    developer_ergonomics: 84.8
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 86.8
   previous_composite: 29.9
   provenance:
     agentic_access: derived
@@ -122,18 +272,26 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/screenshots/leadsquared-2026-06-20T184350.png
 security:
 - kind: authentication
   name: Leadsquared Authentication
   slug: leadsquared-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey · 5 schemes
 - kind: domain-security
   name: Leadsquared Domain Security
   slug: leadsquared-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Leadsquared Vulnerability Disclosure
+  slug: leadsquared-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Leadsquared Trust Center
+  slug: leadsquared-trust-center
+  summary_line: ISO 27001:2022, GDPR
 slug: leadsquared
 tags:
 - Marketing Automation

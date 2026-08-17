@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Catalog of available AI voice avatars and their metadata.
   name: WellSaid Labs Voice Avatars API
   slug: wellsaid-labs-voice-avatars-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WellSaid Labs Clips API
+  slug: open-wellsaid-labs-clips-api
+- collection_type: open
+  name: WellSaid Labs Clips Pronunciation API
+  slug: open-wellsaid-labs-pronunciation-api
+- collection_type: open
+  name: WellSaid Labs Clips Text-to-Speech API
+  slug: open-wellsaid-labs-text-to-speech-api
+- collection_type: open
+  name: WellSaid Labs Clips Voice Avatars API
+  slug: open-wellsaid-labs-voice-avatars-api
 - collection_type: open
   name: WellSaid Labs API
   slug: open-wellsaid-labs
@@ -117,7 +132,7 @@ plans:
 - name: Wellsaid Labs Plans Pricing
   plan_count: 5
   slug: wellsaid-labs-plans-pricing
-random_paper: 116
+random_paper: 124
 rate_limits:
 - limit_count: 3
   name: Wellsaid Labs Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -48,16 +48,19 @@ apis:
 - description: Anonymous user creation, email-code login, token refresh, and avatar access tokens used by the Ready Player Me Avatar Creator and SDKs. Authentication runs through each application's per-studio subdom
   name: Ready Player Me Auth API
   slug: ready-player-me-auth-api
-artifact_total: 19
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Ready Player Me Assets API
   slug: open-ready-player-me-assets-api
 - collection_type: open
-  name: Ready Player Me Auth API
+  name: Ready Player Me Assets Auth API
   slug: open-ready-player-me-auth-api
 - collection_type: open
-  name: Ready Player Me Avatars API
+  name: Ready Player Me Assets Avatars API
   slug: open-ready-player-me-avatars-api
 common:
 - group: agent
@@ -223,7 +226,7 @@ plans:
 - name: Ready Player Me Plans Pricing
   plan_count: 3
   slug: ready-player-me-plans-pricing
-random_paper: 46
+random_paper: 145
 rate_limits:
 - limit_count: 0
   name: Ready Player Me Rate Limits
@@ -265,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

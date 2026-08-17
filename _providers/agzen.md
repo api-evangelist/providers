@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: AgZen
 nav: Providers
 network: true
 overview: AgZen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Agriculture, and Computer Vision.
-random_paper: 53
+random_paper: 86
 score:
   band: minimal
   composite: 5.7
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agzen/refs/heads/main/screenshots/agzen-2026-07-25T195330.png
 security:

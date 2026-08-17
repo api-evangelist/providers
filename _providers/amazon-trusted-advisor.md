@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -86,8 +86,59 @@ apis:
 - description: The ResolveCase API from Amazon Trusted Advisor — 1 operation(s) for resolvecase.
   name: Amazon Trusted Advisor ResolveCase API
   slug: amazon-trusted-advisor-resolvecase-api
-artifact_total: 30
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet API
+  slug: open-amazon-trusted-advisor-addattachmentstoset-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet AddCommunicationToCase API
+  slug: open-amazon-trusted-advisor-addcommunicationtocase-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet CreateCase API
+  slug: open-amazon-trusted-advisor-createcase-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeAttachment API
+  slug: open-amazon-trusted-advisor-describeattachment-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeCases API
+  slug: open-amazon-trusted-advisor-describecases-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeCommunications API
+  slug: open-amazon-trusted-advisor-describecommunications-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeCreateCaseOptions API
+  slug: open-amazon-trusted-advisor-describecreatecaseoptions-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeServices API
+  slug: open-amazon-trusted-advisor-describeservices-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeSeverityLevels API
+  slug: open-amazon-trusted-advisor-describeseveritylevels-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeSupportedLanguages API
+  slug: open-amazon-trusted-advisor-describesupportedlanguages-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorCheckRefreshStatuses API
+  slug: open-amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorCheckResult API
+  slug: open-amazon-trusted-advisor-describetrustedadvisorcheckresult-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorChecks API
+  slug: open-amazon-trusted-advisor-describetrustedadvisorchecks-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorCheckSummaries API
+  slug: open-amazon-trusted-advisor-describetrustedadvisorchecksummaries-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet RefreshTrustedAdvisorCheck API
+  slug: open-amazon-trusted-advisor-refreshtrustedadvisorcheck-api
+- collection_type: open
+  name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet ResolveCase API
+  slug: open-amazon-trusted-advisor-resolvecase-api
 - collection_type: open
   name: Amazon Trusted Advisor (AWS Support)
   slug: open-amazon-trusted-advisor
@@ -197,7 +248,7 @@ plans:
 - name: Amazon Trusted Advisor Plans Pricing
   plan_count: 3
   slug: amazon-trusted-advisor-plans-pricing
-random_paper: 115
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Amazon Trusted Advisor Rate Limits
@@ -231,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/screenshots/amazon-trusted-advisor-2026-06-20T171840.png
 security:

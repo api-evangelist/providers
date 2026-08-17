@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -50,8 +50,20 @@ apis:
 - description: The Workspaces API from Hewlett Packard Enterprise — 3 operation(s) for workspaces.
   name: Hewlett Packard Enterprise Workspaces API
   slug: hpe-workspaces-api
-artifact_total: 8
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HPE GreenLake Authorization API
+  slug: open-hpe-authorization-api
+- collection_type: open
+  name: HPE GreenLake Authorization Identity API
+  slug: open-hpe-identity-api
+- collection_type: open
+  name: HPE GreenLake Authorization Workspaces API
+  slug: open-hpe-workspaces-api
 - collection_type: open
   name: HPE GreenLake API
   slug: open-hpe
@@ -104,7 +116,7 @@ overview: 'Hewlett Packard Enterprise publishes 3 APIs on the [APIs.io](https://
 
 
   Hewlett Packard Enterprise''s developer surface includes authentication, documentation, signup flow, and 6 more developer resources.'
-random_paper: 77
+random_paper: 19
 score:
   band: thin
   composite: 30.2
@@ -125,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/screenshots/hpe-2026-06-20T182854.png
 security:

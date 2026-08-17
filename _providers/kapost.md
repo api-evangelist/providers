@@ -23,18 +23,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 33.8
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
-- description: Versioned REST Content API for managing content, collections, ideas, initiatives, custom fields, tasks, users, and insights. HTTP Basic auth with a per-user API token (password ignored); JSON response
+- description: Versioned REST Content API with 67 documented operations across content, collections, comments, reminders, tasks, visibility, ideas, initiatives, custom fields, content types, destinations, membership
   name: Kapost Content API
   slug: kapost-content-api
-artifact_total: 4
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Kapost Webhooks
@@ -96,11 +96,55 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/kapost-llms.txt
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://uplandsoftware.com/privacy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/kapost
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/kapost-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/kapost-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/kapost-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/kapost-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.uplandsoftware.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/kapost-trust-center.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/kapost-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/kapost-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/kapost-rate-limits.yml
 created: '2026-07-17'
 description: Kapost is a content operations platform — now part of Upland Software — that lets B2B marketing teams plan, produce, distribute, and analyze content across the customer journey through its Canvas, Studio, Gallery, and Insights modules. Kapost exposes a versioned REST Content API (/api/v1) secured with HTTP Basic authentication using a per-user API token and returning JSON, plus outbound content webhooks (create/update/publish/delete), an XML-RPC interface, and a first-party WordPress plugin for publishing content from Kapost to WordPress sites. This profile was enriched from Kapost's live developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kapost.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Kapost
 nav: Providers
 network: true
@@ -110,23 +154,31 @@ overview: 'Kapost publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Kapost catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kapost''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 58
+  Kapost''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
+plans:
+- name: Kapost Plans Pricing
+  plan_count: 0
+  slug: kapost-plans-pricing
+random_paper: 62
+rate_limits:
+- limit_count: 0
+  name: Kapost Rate Limits
+  slug: kapost-rate-limits
 score:
-  band: thin
-  composite: 34.6
-  delta: 0.0
+  band: developing
+  composite: 43.3
+  delta: 8.7
   facets:
-    commercial_clarity: 13.2
+    commercial_clarity: 39.5
     contract_quality: 51.6
-    developer_ergonomics: 52.2
+    developer_ergonomics: 58.7
     discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 7.9
+    governance: 12.5
+    operational_transparency: 13.2
   previous_composite: 34.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/screenshots/kapost-2026-07-25T223456.png
 security:
 - kind: authentication
@@ -136,7 +188,11 @@ security:
 - kind: domain-security
   name: Kapost Domain Security
   slug: kapost-domain-security
-  summary_line: TLSv1.2
+  summary_line: TLSv1.2 · HSTS
+- kind: trust-center
+  name: Kapost Trust Center
+  slug: kapost-trust-center
+  summary_line: SOC 2 Type 2, SOC 1 Type 2, ISO/IEC 27001:2022, PCI DSS, CSA STAR Level 1, GDPR, CCPA, PIPEDA, GLBA, EU-US Data Privacy Framework, Swiss-US Data Privacy Framework, UK Extension to the EU-US Data Privacy Framework
 slug: kapost
 tags:
 - Content Operations

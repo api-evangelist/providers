@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Early-access v2 REST API that replaces product-photo backgrounds with AI-generated scenes and upscales images — the same functionality as the Mokker web app. Documented with a POST /v2/replace-backgro
@@ -87,7 +87,7 @@ overview: 'Mokker.ai publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Mokker.ai''s developer surface includes pricing, engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 11
+random_paper: 106
 score:
   band: emerging
   composite: 19.6
@@ -103,7 +103,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mokkerai/refs/heads/main/screenshots/mokkerai-2026-08-07T184055.png
 security:

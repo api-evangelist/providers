@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -80,11 +80,57 @@ apis:
 - description: The Security API from Receeve — 1 operation(s) for security.
   name: Receeve Security API
   slug: receeve-security-api
-artifact_total: 19
+artifact_total: 34
 asyncapis:
 - description: Signed outbound webhook event catalog for InDebted's Receive (formerly Receeve) debt servicing platform. Every event is delivered as an HTTP POST with a common envelope and an RSA/SHA-256 signature (b
   name: Receive (Receeve) Webhook Events
   slug: receeve-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: InDebted Receive API Documentation Account API
+  slug: open-receeve-account-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account AccountMandate API
+  slug: open-receeve-accountmandate-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account Claim API
+  slug: open-receeve-claim-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account CustomTriggers API
+  slug: open-receeve-customtriggers-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account Debtor API
+  slug: open-receeve-debtor-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account Event API
+  slug: open-receeve-event-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account Files API
+  slug: open-receeve-files-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account Finance Instalments V2 API
+  slug: open-receeve-finance-instalments-v2-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account Finance Settlements API
+  slug: open-receeve-finance-settlements-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account Journey API
+  slug: open-receeve-journey-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account LandingPage API
+  slug: open-receeve-landingpage-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account Message API
+  slug: open-receeve-message-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account PromiseToPay API
+  slug: open-receeve-promisetopay-api
+- collection_type: open
+  name: InDebted Receive API Documentation Account Security API
+  slug: open-receeve-security-api
 common:
 - group: auth
   title: ''
@@ -193,7 +239,7 @@ overview: 'Receeve publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Receeve''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 17 more developer resources.'
-random_paper: 15
+random_paper: 139
 score:
   band: thin
   composite: 39.0
@@ -223,7 +269,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

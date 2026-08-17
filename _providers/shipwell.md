@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Multimodal freight shipments - the central platform resource. (confirmed)
   name: Shipwell Shipments API
   slug: shipwell-shipments-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shipwell v2 Core Carriers API
+  slug: open-shipwell-carriers-api
+- collection_type: open
+  name: Shipwell v2 Core Carriers Events and Webhooks API
+  slug: open-shipwell-events-and-webhooks-api
+- collection_type: open
+  name: Shipwell v2 Core Carriers Orders API
+  slug: open-shipwell-orders-api
+- collection_type: open
+  name: Shipwell v2 Core Carriers Quoting API
+  slug: open-shipwell-quoting-api
+- collection_type: open
+  name: Shipwell v2 Core Carriers Shipments API
+  slug: open-shipwell-shipments-api
 - collection_type: open
   name: Shipwell v2 Core API
   slug: open-shipwell
@@ -124,7 +142,7 @@ plans:
 - name: Shipwell Plans Pricing
   plan_count: 3
   slug: shipwell-plans-pricing
-random_paper: 32
+random_paper: 127
 rate_limits:
 - limit_count: 3
   name: Shipwell Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

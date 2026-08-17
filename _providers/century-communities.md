@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Century Communities API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Century Communities Plans Pricing
   plan_count: 1
   slug: century-communities-plans-pricing
-random_paper: 100
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Century Communities Rate Limits
@@ -83,7 +83,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/century-communities/refs/heads/main/screenshots/century-communities-2026-06-20T174130.png
 security:

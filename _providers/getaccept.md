@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-12'
+  score: 46.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -74,11 +75,51 @@ apis:
 - description: You can upload videos and reuse it in many documents.
   name: GetAccept Videos API
   slug: getaccept-videos-api
-artifact_total: 19
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Getaccept Webhooks
   slug: getaccept-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GetAccept Archive API
+  slug: open-getaccept-archive-api
+- collection_type: open
+  name: GetAccept Archive Attachments API
+  slug: open-getaccept-attachments-api
+- collection_type: open
+  name: GetAccept Archive Authentication API
+  slug: open-getaccept-authentication-api
+- collection_type: open
+  name: GetAccept Archive Communication Templates API
+  slug: open-getaccept-communication-templates-api
+- collection_type: open
+  name: GetAccept Archive Contacts API
+  slug: open-getaccept-contacts-api
+- collection_type: open
+  name: GetAccept Archive Custom Data API
+  slug: open-getaccept-custom-data-api
+- collection_type: open
+  name: GetAccept Archive Documents API
+  slug: open-getaccept-documents-api
+- collection_type: open
+  name: GetAccept Archive Others API
+  slug: open-getaccept-others-api
+- collection_type: open
+  name: GetAccept Archive Subscriptions API
+  slug: open-getaccept-subscriptions-api
+- collection_type: open
+  name: GetAccept Archive Templates API
+  slug: open-getaccept-templates-api
+- collection_type: open
+  name: GetAccept Archive Users API
+  slug: open-getaccept-users-api
+- collection_type: open
+  name: GetAccept Archive Videos API
+  slug: open-getaccept-videos-api
 common:
 - group: other
   title: ''
@@ -87,19 +128,19 @@ common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://developers.getaccept.com/
+  url: https://www.getaccept.com/api
 - group: docs
   title: ''
   type: Documentation
-  url: https://developers.getaccept.com/docs
+  url: https://help.getaccept.com/en/collections/9436688-api
 - group: docs
   title: ''
   type: APIReference
-  url: https://developers.getaccept.com/reference
+  url: https://app.getaccept.com/api/
 - group: start
   title: ''
   type: GettingStarted
-  url: https://developers.getaccept.com/docs
+  url: https://help.getaccept.com/en/articles/2393314-how-to-use-the-getaccept-public-api
 - group: build
   title: ''
   type: GitHubOrganization
@@ -200,6 +241,34 @@ common:
   title: ''
   type: Website
   url: https://www.getaccept.com/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.getaccept.com/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/GetAccept/openapi
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.getaccept.com/whats-new
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/getaccept-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/getaccept-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/getaccept-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/getaccept-packages.yml
 created: '2026-07-17'
 description: GetAccept is a digital sales room and sales enablement platform that helps revenue teams design, send, promote, track, and e-sign sales documents in one place — combining sales collateral, proposals, contract management, document tracking, and legally binding electronic signatures. The GetAccept REST API (v1, base https://api.getaccept.com/v1) exposes 86 operations across documents, e-signature, recipients, contacts, templates, users, videos, custom data, communication templates, and webhook subscriptions, secured with OAuth2 (authorization code) or bearer tokens. GetAccept is backed by Bessemer Venture Partners and Y Combinator.
 image: https://www.getaccept.com/hubfs/logotype.svg
@@ -208,7 +277,7 @@ mcp_servers:
 - description: ''
   name: getaccept-mcp.yml
   slug: getaccept-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: GetAccept
 nav: Providers
 network: true
@@ -218,24 +287,32 @@ overview: 'GetAccept publishes 12 APIs on the [APIs.io](https://apis.io/) networ
   The GetAccept catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  GetAccept''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 104
+  GetAccept''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 30 more developer resources.'
+plans:
+- name: Getaccept Plans Pricing
+  plan_count: 3
+  slug: getaccept-plans-pricing
+random_paper: 50
+rate_limits:
+- limit_count: 0
+  name: Getaccept Rate Limits
+  slug: getaccept-rate-limits
 scopes:
 - name: Getaccept Scopes
   scope_count: 1
   slug: getaccept-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 54.2
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: 8.4
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 70.5
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 28.9
+    operational_transparency: 44.7
   previous_composite: 54.2
   provenance:
     agentic_access: derived
@@ -248,8 +325,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/screenshots/getaccept-2026-07-25T215711.png
 security:
 - kind: authentication
@@ -263,7 +340,7 @@ security:
 - kind: trust-center
   name: Getaccept Trust Center
   slug: getaccept-trust-center
-  summary_line: SOC 2, GDPR
+  summary_line: SOC 2 Type II, GDPR, CCPA, eIDAS (EU Regulation No 910/2014), ESIGN Act, UETA, Electronic Communications Act 2000
 slug: getaccept
 tags:
 - Company

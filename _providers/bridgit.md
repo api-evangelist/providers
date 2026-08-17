@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 2
@@ -158,11 +158,134 @@ apis:
 - description: The Users API from Bridgit — 1 operation(s) for users.
   name: Bridgit Users API
   slug: bridgit-users-api
-artifact_total: 45
+artifact_total: 86
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bench AccountActivities API
+  slug: open-bridgit-accountactivities-api
+- collection_type: open
+  name: Bench AccountActivities AccountCertifications API
+  slug: open-bridgit-accountcertifications-api
+- collection_type: open
+  name: Bench AccountActivities AccountGroupings API
+  slug: open-bridgit-accountgroupings-api
+- collection_type: open
+  name: Bench AccountActivities AccountInvitations API
+  slug: open-bridgit-accountinvitations-api
+- collection_type: open
+  name: Bench AccountActivities Accounts API
+  slug: open-bridgit-accounts-api
+- collection_type: open
+  name: Bench AccountActivities AccountUsers API
+  slug: open-bridgit-accountusers-api
+- collection_type: open
+  name: Bench AccountActivities Allocations API
+  slug: open-bridgit-allocations-api
 - collection_type: open
   name: Bench API
   slug: open-bridgit-bench
+- collection_type: open
+  name: Bench AccountActivities ExperienceFields API
+  slug: open-bridgit-experiencefields-api
+- collection_type: open
+  name: Bench AccountActivities ExperienceFieldValues API
+  slug: open-bridgit-experiencefieldvalues-api
+- collection_type: open
+  name: Bench AccountActivities External API
+  slug: open-bridgit-external-api
+- collection_type: open
+  name: Bench AccountActivities HourlyAllocations API
+  slug: open-bridgit-hourlyallocations-api
+- collection_type: open
+  name: Bench AccountActivities HourlyRoleNames API
+  slug: open-bridgit-hourlyrolenames-api
+- collection_type: open
+  name: Bench AccountActivities PersonAttachments API
+  slug: open-bridgit-personattachments-api
+- collection_type: open
+  name: Bench AccountActivities PersonCertAttachments API
+  slug: open-bridgit-personcertattachments-api
+- collection_type: open
+  name: Bench AccountActivities PersonCertifications API
+  slug: open-bridgit-personcertifications-api
+- collection_type: open
+  name: Bench AccountActivities PersonFields API
+  slug: open-bridgit-personfields-api
+- collection_type: open
+  name: Bench AccountActivities PersonFieldValue API
+  slug: open-bridgit-personfieldvalue-api
+- collection_type: open
+  name: Bench AccountActivities PersonGroupings API
+  slug: open-bridgit-persongroupings-api
+- collection_type: open
+  name: Bench AccountActivities PersonHistoricalExperienceFields API
+  slug: open-bridgit-personhistoricalexperiencefields-api
+- collection_type: open
+  name: Bench AccountActivities PersonHistoricalExperiences API
+  slug: open-bridgit-personhistoricalexperiences-api
+- collection_type: open
+  name: Bench AccountActivities PersonProfile API
+  slug: open-bridgit-personprofile-api
+- collection_type: open
+  name: Bench AccountActivities Persons API
+  slug: open-bridgit-persons-api
+- collection_type: open
+  name: Bench AccountActivities PersonUnavailabilities API
+  slug: open-bridgit-personunavailabilities-api
+- collection_type: open
+  name: Bench AccountActivities Phases API
+  slug: open-bridgit-phases-api
+- collection_type: open
+  name: Bench AccountActivities ProjectFields API
+  slug: open-bridgit-projectfields-api
+- collection_type: open
+  name: Bench AccountActivities ProjectFieldValue API
+  slug: open-bridgit-projectfieldvalue-api
+- collection_type: open
+  name: Bench AccountActivities ProjectGroupings API
+  slug: open-bridgit-projectgroupings-api
+- collection_type: open
+  name: Bench AccountActivities ProjectNotes API
+  slug: open-bridgit-projectnotes-api
+- collection_type: open
+  name: Bench AccountActivities ProjectRoleCategories API
+  slug: open-bridgit-projectrolecategories-api
+- collection_type: open
+  name: Bench AccountActivities ProjectRoles API
+  slug: open-bridgit-projectroles-api
+- collection_type: open
+  name: Bench AccountActivities Projects API
+  slug: open-bridgit-projects-api
+- collection_type: open
+  name: Bench AccountActivities ProjectsPhases API
+  slug: open-bridgit-projectsphases-api
+- collection_type: open
+  name: Bench AccountActivities ProjectTasks API
+  slug: open-bridgit-projecttasks-api
+- collection_type: open
+  name: Bench AccountActivities ProjectWorkforceSpendReports API
+  slug: open-bridgit-projectworkforcespendreports-api
+- collection_type: open
+  name: Bench AccountActivities RoleAllocations API
+  slug: open-bridgit-roleallocations-api
+- collection_type: open
+  name: Bench AccountActivities RoleNames API
+  slug: open-bridgit-rolenames-api
+- collection_type: open
+  name: Bench AccountActivities ServiceAccounts API
+  slug: open-bridgit-serviceaccounts-api
+- collection_type: open
+  name: Bench AccountActivities SharedFilters API
+  slug: open-bridgit-sharedfilters-api
+- collection_type: open
+  name: Bench AccountActivities UserFilters API
+  slug: open-bridgit-userfilters-api
+- collection_type: open
+  name: Bench AccountActivities Users API
+  slug: open-bridgit-users-api
 common:
 - group: agent
   title: ''
@@ -261,7 +384,7 @@ overview: 'Bridgit publishes 40 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bridgit''s developer surface includes authentication, documentation, support, engineering blog, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 21
+random_paper: 145
 score:
   band: thin
   composite: 30.4
@@ -282,7 +405,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/screenshots/bridgit-2026-06-20T173656.png
 security:

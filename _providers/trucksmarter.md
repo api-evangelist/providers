@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +45,14 @@ arazzos:
 - description: Post a batch of freight loads to the TruckSmarter load board via the partner Load Posting API, then remove them by loadId once they are covered or cancelled.
   name: Post loads to TruckSmarter and remove them once covered
   slug: trucksmarter-post-and-remove-loads
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TruckSmarter Load Posting Loads API
+  slug: open-trucksmarter-loads-api
 common:
 - group: other
   title: ''
@@ -167,7 +174,7 @@ overview: 'TruckSmarter publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   TruckSmarter''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 119
+random_paper: 127
 score:
   band: developing
   composite: 43.0
@@ -191,7 +198,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

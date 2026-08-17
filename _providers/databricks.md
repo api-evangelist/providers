@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -281,11 +281,23 @@ arazzos:
 - description: Read a job, partially update its settings, then trigger a fresh run.
   name: Databricks Update Job Settings and Re-Run
   slug: databricks-update-job-and-rerun-workflow
-artifact_total: 263
+artifact_total: 267
 collections:
 - collection_type: postman
   name: Databricks REST API
   slug: postman-databricks
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Databricks REST Clusters API
+  slug: open-databricks-clusters-api
+- collection_type: open
+  name: Databricks REST Clusters Jobs API
+  slug: open-databricks-jobs-api
+- collection_type: open
+  name: Databricks REST Clusters Workspace API
+  slug: open-databricks-workspace-api
 - collection_type: open
   name: Databricks REST API
   slug: open-databricks
@@ -998,7 +1010,7 @@ plans:
 - name: Databricks Plans Pricing
   plan_count: 5
   slug: databricks-plans-pricing
-random_paper: 88
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Databricks Rate Limits
@@ -1040,7 +1052,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/screenshots/databricks-2026-06-20T175634.png
 security:

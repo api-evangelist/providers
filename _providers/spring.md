@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -81,17 +81,59 @@ apis:
 - description: Thread dump and virtual thread information
   name: Spring Framework Threads API
   slug: spring-threads-api
-artifact_total: 38
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spring Boot Actuator Beans API
+  slug: open-spring-beans-api
 - collection_type: open
   name: Spring Boot Actuator API
   slug: open-spring-boot-actuator
 - collection_type: open
+  name: Spring Boot Actuator Beans Environment API
+  slug: open-spring-environment-api
+- collection_type: open
+  name: Spring Cloud Gateway Actuator Filters API
+  slug: open-spring-filters-api
+- collection_type: open
   name: Spring Cloud Gateway Actuator API
   slug: open-spring-gateway-actuator
 - collection_type: open
+  name: Spring Boot Actuator Beans Health API
+  slug: open-spring-health-api
+- collection_type: open
+  name: Spring Boot Actuator Beans Info API
+  slug: open-spring-info-api
+- collection_type: open
   name: Spring Initializr API
   slug: open-spring-initializr-api
+- collection_type: open
+  name: Spring Boot Actuator Beans Loggers API
+  slug: open-spring-loggers-api
+- collection_type: open
+  name: Spring Boot Actuator Beans Mappings API
+  slug: open-spring-mappings-api
+- collection_type: open
+  name: Spring Boot Actuator Beans Metadata API
+  slug: open-spring-metadata-api
+- collection_type: open
+  name: Spring Boot Actuator Beans Metrics API
+  slug: open-spring-metrics-api
+- collection_type: open
+  name: Spring Cloud Gateway Actuator Filters Predicates API
+  slug: open-spring-predicates-api
+- collection_type: open
+  name: Spring Boot Actuator Beans Project Generation API
+  slug: open-spring-project-generation-api
+- collection_type: open
+  name: Spring Cloud Gateway Actuator Filters Routes API
+  slug: open-spring-routes-api
+- collection_type: open
+  name: Spring Boot Actuator Beans Threads API
+  slug: open-spring-threads-api
 common:
 - group: agent
   title: ''
@@ -218,7 +260,7 @@ plans:
 - name: Spring Plans Pricing
   plan_count: 2
   slug: spring-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Spring Rate Limits
@@ -268,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/screenshots/spring-2026-06-20T194408.png
 security:

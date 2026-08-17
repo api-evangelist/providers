@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ name: Amblea
 nav: Providers
 network: true
 overview: Amblea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Patient Transport, Medical Transport, and Healthcare Logistics.
-random_paper: 10
+random_paper: 14
 score:
   band: minimal
   composite: 8.2
@@ -77,7 +77,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amblea/refs/heads/main/screenshots/amblea-2026-07-25T200028.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,8 +50,17 @@ apis:
 - description: Model inference operations
   name: Google TensorFlow Prediction API
   slug: google-tensorflow-prediction-api
-artifact_total: 13
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google TensorFlow TensorFlow Serving REST Model Status API
+  slug: open-google-tensorflow-model-status-api
+- collection_type: open
+  name: Google TensorFlow TensorFlow Serving REST Model Status Prediction API
+  slug: open-google-tensorflow-prediction-api
 - collection_type: open
   name: Google TensorFlow TensorFlow Serving REST API
   slug: open-tensorflow-serving
@@ -128,7 +137,7 @@ plans:
 - name: Google Tensorflow Plans Pricing
   plan_count: 1
   slug: google-tensorflow-plans-pricing
-random_paper: 109
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Google Tensorflow Rate Limits
@@ -162,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/screenshots/google-tensorflow-2026-06-20T182241.png
 security:

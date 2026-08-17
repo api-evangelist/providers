@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 0
@@ -213,8 +213,185 @@ apis:
 - description: Endpoints for creating/updating Users
   name: M3ter User API
   slug: m3ter-user-api
-artifact_total: 68
+artifact_total: 127
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: m3ter Account API
+  slug: open-m3ter-account-api
+- collection_type: open
+  name: m3ter Account AccountPlan API
+  slug: open-m3ter-accountplan-api
+- collection_type: open
+  name: m3ter Account Aggregation API
+  slug: open-m3ter-aggregation-api
+- collection_type: open
+  name: m3ter Account Auth API
+  slug: open-m3ter-auth-api
+- collection_type: open
+  name: m3ter Account BalanceChargeSchedule API
+  slug: open-m3ter-balancechargeschedule-api
+- collection_type: open
+  name: m3ter Account Balances API
+  slug: open-m3ter-balances-api
+- collection_type: open
+  name: m3ter Account BalanceTransactionSchedule API
+  slug: open-m3ter-balancetransactionschedule-api
+- collection_type: open
+  name: m3ter Account Bill API
+  slug: open-m3ter-bill-api
+- collection_type: open
+  name: m3ter Account BillConfig API
+  slug: open-m3ter-billconfig-api
+- collection_type: open
+  name: m3ter Account BillGroupingKey API
+  slug: open-m3ter-billgroupingkey-api
+- collection_type: open
+  name: m3ter Account BillJob API
+  slug: open-m3ter-billjob-api
+- collection_type: open
+  name: m3ter Account Charge API
+  slug: open-m3ter-charge-api
+- collection_type: open
+  name: m3ter Account Commitments API
+  slug: open-m3ter-commitments-api
+- collection_type: open
+  name: m3ter Account CompoundAggregation API
+  slug: open-m3ter-compoundaggregation-api
+- collection_type: open
+  name: m3ter Account Contract API
+  slug: open-m3ter-contract-api
+- collection_type: open
+  name: m3ter Account Counter API
+  slug: open-m3ter-counter-api
+- collection_type: open
+  name: m3ter Account CounterAdjustments API
+  slug: open-m3ter-counteradjustments-api
+- collection_type: open
+  name: m3ter Account CounterPricing API
+  slug: open-m3ter-counterpricing-api
+- collection_type: open
+  name: m3ter Account CreditReason API
+  slug: open-m3ter-creditreason-api
+- collection_type: open
+  name: m3ter Account Credits API
+  slug: open-m3ter-credits-api
+- collection_type: open
+  name: m3ter Account Currency API
+  slug: open-m3ter-currency-api
+- collection_type: open
+  name: m3ter Account CustomField API
+  slug: open-m3ter-customfield-api
+- collection_type: open
+  name: m3ter Account DataExplorer API
+  slug: open-m3ter-dataexplorer-api
+- collection_type: open
+  name: m3ter Account DataExplorerV2 API
+  slug: open-m3ter-dataexplorerv2-api
+- collection_type: open
+  name: m3ter Account DebitReason API
+  slug: open-m3ter-debitreason-api
+- collection_type: open
+  name: m3ter Account Debits API
+  slug: open-m3ter-debits-api
+- collection_type: open
+  name: m3ter Account Events API
+  slug: open-m3ter-events-api
+- collection_type: open
+  name: m3ter Account ExportAdHoc API
+  slug: open-m3ter-exportadhoc-api
+- collection_type: open
+  name: m3ter Account ExportDestination API
+  slug: open-m3ter-exportdestination-api
+- collection_type: open
+  name: m3ter Account ExportJob API
+  slug: open-m3ter-exportjob-api
+- collection_type: open
+  name: m3ter Account ExportSchedule API
+  slug: open-m3ter-exportschedule-api
+- collection_type: open
+  name: m3ter Account External Mapping API
+  slug: open-m3ter-external-mapping-api
+- collection_type: open
+  name: m3ter Account Integrations API
+  slug: open-m3ter-integrations-api
+- collection_type: open
+  name: m3ter Account Invitations API
+  slug: open-m3ter-invitations-api
+- collection_type: open
+  name: m3ter Account Line Item API
+  slug: open-m3ter-line-item-api
+- collection_type: open
+  name: m3ter Account LookupTable API
+  slug: open-m3ter-lookuptable-api
+- collection_type: open
+  name: m3ter Account LookupTableRevision API
+  slug: open-m3ter-lookuptablerevision-api
+- collection_type: open
+  name: m3ter Account LookupTableRevisionData API
+  slug: open-m3ter-lookuptablerevisiondata-api
+- collection_type: open
+  name: m3ter Account Marketplace Integrations API
+  slug: open-m3ter-marketplace-integrations-api
+- collection_type: open
+  name: m3ter Account Measurements API
+  slug: open-m3ter-measurements-api
+- collection_type: open
+  name: m3ter Account Meter API
+  slug: open-m3ter-meter-api
+- collection_type: open
+  name: m3ter Account Notifications API
+  slug: open-m3ter-notifications-api
+- collection_type: open
+  name: m3ter Account OrganizationConfig API
+  slug: open-m3ter-organizationconfig-api
+- collection_type: open
+  name: m3ter Account OrgUsers API
+  slug: open-m3ter-orgusers-api
+- collection_type: open
+  name: m3ter Account PermissionPolicy API
+  slug: open-m3ter-permissionpolicy-api
+- collection_type: open
+  name: m3ter Account Plan API
+  slug: open-m3ter-plan-api
+- collection_type: open
+  name: m3ter Account PlanGroup API
+  slug: open-m3ter-plangroup-api
+- collection_type: open
+  name: m3ter Account PlanGroupLink API
+  slug: open-m3ter-plangrouplink-api
+- collection_type: open
+  name: m3ter Account PlanTemplate API
+  slug: open-m3ter-plantemplate-api
+- collection_type: open
+  name: m3ter Account Pricing API
+  slug: open-m3ter-pricing-api
+- collection_type: open
+  name: m3ter Account Product API
+  slug: open-m3ter-product-api
+- collection_type: open
+  name: m3ter Account ResourceGroup API
+  slug: open-m3ter-resourcegroup-api
+- collection_type: open
+  name: m3ter Account ScheduledEventConfigurations API
+  slug: open-m3ter-scheduledeventconfigurations-api
+- collection_type: open
+  name: m3ter Account StatementDefinition API
+  slug: open-m3ter-statementdefinition-api
+- collection_type: open
+  name: m3ter Account StatementJob API
+  slug: open-m3ter-statementjob-api
+- collection_type: open
+  name: m3ter Account Support API
+  slug: open-m3ter-support-api
+- collection_type: open
+  name: m3ter Account TransactionType API
+  slug: open-m3ter-transactiontype-api
+- collection_type: open
+  name: m3ter Account User API
+  slug: open-m3ter-user-api
 - collection_type: open
   name: m3ter API
   slug: open-m3ter
@@ -287,7 +464,7 @@ plans:
 - name: M3Ter Plans Pricing
   plan_count: 3
   slug: m3ter-plans-pricing
-random_paper: 11
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: M3Ter Rate Limits
@@ -317,7 +494,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/screenshots/m3ter-2026-06-20T184823.png
 security:

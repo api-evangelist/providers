@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,8 +99,26 @@ apis:
 - description: The Grid Section API from what3words — 1 operation(s) for grid section.
   name: what3words Grid Section API
   slug: what3words-grid-section-api
-artifact_total: 27
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: what3words Public Autosuggest API
+  slug: open-what3words-autosuggest-api
+- collection_type: open
+  name: what3words Public Autosuggest Available Languages API
+  slug: open-what3words-available-languages-api
+- collection_type: open
+  name: what3words Public Autosuggest Convert To 3wa API
+  slug: open-what3words-convert-to-3wa-api
+- collection_type: open
+  name: what3words Public Autosuggest Convert To Coordinates API
+  slug: open-what3words-convert-to-coordinates-api
+- collection_type: open
+  name: what3words Public Autosuggest Grid Section API
+  slug: open-what3words-grid-section-api
 - collection_type: open
   name: what3words Public API
   slug: open-what3words
@@ -165,7 +183,7 @@ plans:
 - name: What3Words Plans Pricing
   plan_count: 1
   slug: what3words-plans-pricing
-random_paper: 86
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: What3Words Rate Limits
@@ -190,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/screenshots/what3words-2026-06-20T201420.png
 security:

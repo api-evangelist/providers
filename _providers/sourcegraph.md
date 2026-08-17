@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Versioned external REST API introduced in Sourcegraph 7.0 and intended as the stable integration surface going forward. Each Sourcegraph instance exposes its own /api-reference path where the live Ope
@@ -193,7 +193,7 @@ plans:
 - name: Sourcegraph Plans Pricing
   plan_count: 1
   slug: sourcegraph-plans-pricing
-random_paper: 107
+random_paper: 144
 rate_limits:
 - limit_count: 2
   name: Sourcegraph Rate Limits
@@ -211,7 +211,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 28.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcegraph/refs/heads/main/screenshots/sourcegraph-2026-06-20T194223.png
 security:

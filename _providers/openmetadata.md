@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 848
   human_in_the_loop: 12
@@ -306,7 +306,278 @@ apis:
 - description: A `Worksheet` is an individual sheet or tab within a Spreadsheet.
   name: OpenMetadata Worksheets API
   slug: openmetadata-worksheets-api
-artifact_total: 129
+artifact_total: 219
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions API
+  slug: open-openmetadata-agent-executions-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions AI Applications API
+  slug: open-openmetadata-ai-applications-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions AI Governance Policies API
+  slug: open-openmetadata-ai-governance-policies-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions API Collections API
+  slug: open-openmetadata-api-collections-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions API Endpoint API
+  slug: open-openmetadata-api-endpoint-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions API Services API
+  slug: open-openmetadata-api-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Apps API
+  slug: open-openmetadata-apps-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Audit Logs API
+  slug: open-openmetadata-audit-logs-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Bots API
+  slug: open-openmetadata-bots-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions ChangeSummary API
+  slug: open-openmetadata-changesummary-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Charts API
+  slug: open-openmetadata-charts-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Classifications API
+  slug: open-openmetadata-classifications-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Columns API
+  slug: open-openmetadata-columns-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Containers API
+  slug: open-openmetadata-containers-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Dashboard Data Models API
+  slug: open-openmetadata-dashboard-data-models-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Dashboard Services API
+  slug: open-openmetadata-dashboard-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Dashboards API
+  slug: open-openmetadata-dashboards-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Data Contracts API
+  slug: open-openmetadata-data-contracts-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Data Quality API
+  slug: open-openmetadata-data-quality-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Database Schemas API
+  slug: open-openmetadata-database-schemas-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Database Services API
+  slug: open-openmetadata-database-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Databases API
+  slug: open-openmetadata-databases-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Directories API
+  slug: open-openmetadata-directories-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Document Store API
+  slug: open-openmetadata-document-store-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Domains API
+  slug: open-openmetadata-domains-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Drive Services API
+  slug: open-openmetadata-drive-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Events API
+  slug: open-openmetadata-events-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Feeds API
+  slug: open-openmetadata-feeds-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Files API
+  slug: open-openmetadata-files-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Glossaries API
+  slug: open-openmetadata-glossaries-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Ingestion Pipelines API
+  slug: open-openmetadata-ingestion-pipelines-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions ingestionPipelines API
+  slug: open-openmetadata-ingestionpipelines-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Learning Resources API
+  slug: open-openmetadata-learning-resources-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Lineage API
+  slug: open-openmetadata-lineage-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions LLM Models API
+  slug: open-openmetadata-llm-models-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions LLM Services API
+  slug: open-openmetadata-llm-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions MCP Executions API
+  slug: open-openmetadata-mcp-executions-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions MCP Servers API
+  slug: open-openmetadata-mcp-servers-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions MCP Services API
+  slug: open-openmetadata-mcp-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions MCP Usage API
+  slug: open-openmetadata-mcp-usage-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Messaging Services API
+  slug: open-openmetadata-messaging-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Metadata API
+  slug: open-openmetadata-metadata-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Metadata Services API
+  slug: open-openmetadata-metadata-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Metrics API
+  slug: open-openmetadata-metrics-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions ML Model Services API
+  slug: open-openmetadata-ml-model-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions ML Models API
+  slug: open-openmetadata-ml-models-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Notification Templates API
+  slug: open-openmetadata-notification-templates-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Object Store Services API
+  slug: open-openmetadata-object-store-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions OpenLineage API
+  slug: open-openmetadata-openlineage-api
+- collection_type: open
+  name: Agent Executions OpenMetadata APIs API
+  slug: open-openmetadata-openmetadata-apis-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Permissions API
+  slug: open-openmetadata-permissions-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Personas API
+  slug: open-openmetadata-personas-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Pipeline Services API
+  slug: open-openmetadata-pipeline-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Pipelines API
+  slug: open-openmetadata-pipelines-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Policies API
+  slug: open-openmetadata-policies-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Prompt Templates API
+  slug: open-openmetadata-prompt-templates-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Queries API
+  slug: open-openmetadata-queries-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Query Cost Record Manager API
+  slug: open-openmetadata-query-cost-record-manager-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions RDF API
+  slug: open-openmetadata-rdf-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions RDF SQL API
+  slug: open-openmetadata-rdf-sql-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Reports (beta) API
+  slug: open-openmetadata-reports-beta-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Roles API
+  slug: open-openmetadata-roles-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions SCIM API
+  slug: open-openmetadata-scim-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Search API
+  slug: open-openmetadata-search-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Search Reindex API
+  slug: open-openmetadata-search-reindex-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Search Services API
+  slug: open-openmetadata-search-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions SearchIndex API
+  slug: open-openmetadata-searchindex-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Security Services API
+  slug: open-openmetadata-security-services-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Spreadsheets API
+  slug: open-openmetadata-spreadsheets-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Stored Procedures API
+  slug: open-openmetadata-stored-procedures-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Suggestions API
+  slug: open-openmetadata-suggestions-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Swagger.json API
+  slug: open-openmetadata-swagger-json-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Swagger.yaml API
+  slug: open-openmetadata-swagger-yaml-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions System API
+  slug: open-openmetadata-system-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Tables API
+  slug: open-openmetadata-tables-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Teams API
+  slug: open-openmetadata-teams-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Test Case Incident Manager API
+  slug: open-openmetadata-test-case-incident-manager-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Test Case Results API
+  slug: open-openmetadata-test-case-results-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Test Cases API
+  slug: open-openmetadata-test-cases-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Test Definitions API
+  slug: open-openmetadata-test-definitions-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Test Suites API
+  slug: open-openmetadata-test-suites-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Topics API
+  slug: open-openmetadata-topics-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Usage API
+  slug: open-openmetadata-usage-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Users API
+  slug: open-openmetadata-users-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Vector Search API
+  slug: open-openmetadata-vector-search-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Workflow Definitions API
+  slug: open-openmetadata-workflow-definitions-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Workflow Instance States API
+  slug: open-openmetadata-workflow-instance-states-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Workflow Instances API
+  slug: open-openmetadata-workflow-instances-api
+- collection_type: open
+  name: OpenMetadata APIs Agent Executions Worksheets API
+  slug: open-openmetadata-worksheets-api
 common:
 - group: agent
   title: ''
@@ -510,7 +781,7 @@ plans:
 - name: Openmetadata Plans Pricing
   plan_count: 5
   slug: openmetadata-plans-pricing
-random_paper: 67
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Openmetadata Rate Limits
@@ -544,7 +815,7 @@ score:
       marker_coverage: 0.0
       total: 89
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/screenshots/openmetadata-2026-06-20T191017.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -57,11 +57,33 @@ apis:
 - description: The Secrets API from Instabase — 1 operation(s) for secrets.
   name: Instabase Secrets API
   slug: instabase-secrets-api
-artifact_total: 13
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Instabase Webhooks
   slug: instabase-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AI Hub Audit API
+  slug: open-instabase-audit-api
+- collection_type: open
+  name: AI Hub Audit Batches API
+  slug: open-instabase-batches-api
+- collection_type: open
+  name: AI Hub Audit Files API
+  slug: open-instabase-files-api
+- collection_type: open
+  name: AI Hub Audit Jobs API
+  slug: open-instabase-jobs-api
+- collection_type: open
+  name: AI Hub Audit Runs API
+  slug: open-instabase-runs-api
+- collection_type: open
+  name: AI Hub Audit Secrets API
+  slug: open-instabase-secrets-api
 common:
 - group: other
   title: ''
@@ -202,7 +224,7 @@ overview: 'Instabase publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Instabase''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 23 more developer resources.'
-random_paper: 114
+random_paper: 60
 score:
   band: developing
   composite: 54.6
@@ -232,7 +254,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/screenshots/instabase-2026-07-25T222558.png
 security:

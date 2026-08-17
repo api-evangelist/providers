@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The HUD USER FMR/IL API publishes Fair Market Rents (FMRs), Small Area Fair Market Rents, and Income Limits (IL) for U.S. metropolitan and non-metropolitan areas. It exposes endpoints for listing stat
@@ -137,7 +137,7 @@ plans:
 - name: Department Of Housing And Urban Development Plans Pricing
   plan_count: 3
   slug: department-of-housing-and-urban-development-plans-pricing
-random_paper: 109
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: Department Of Housing And Urban Development Rate Limits
@@ -161,7 +161,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-housing-and-urban-development/refs/heads/main/screenshots/department-of-housing-and-urban-development-2026-06-20T175917.png
 security:

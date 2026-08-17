@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: The Clients API from Stackmint — 9 operation(s) for clients.
   name: Stackmint Clients API
   slug: stackmint-clients-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stackmint Platform Admin API
+  slug: open-stackmint-admin-api
+- collection_type: open
+  name: Stackmint Platform Admin Clients API
+  slug: open-stackmint-clients-api
 - collection_type: open
   name: Stackmint Platform API
   slug: open-stackmint
@@ -121,7 +130,7 @@ overview: 'Stackmint publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Stackmint''s developer surface includes authentication, documentation, API reference, engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 14
+random_paper: 80
 score:
   band: thin
   composite: 31.2
@@ -142,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/screenshots/stackmint-2026-06-20T194447.png
 security:

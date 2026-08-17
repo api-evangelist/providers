@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: Airport schedules and flight timetables
   name: Aviation Edge Schedules API
   slug: aviation-edge-schedules-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aviation Edge Real-Time API
+  slug: open-aviation-edge-real-time-api
+- collection_type: open
+  name: Aviation Edge Real-Time Reference API
+  slug: open-aviation-edge-reference-api
+- collection_type: open
+  name: Aviation Edge Real-Time Satellites API
+  slug: open-aviation-edge-satellites-api
+- collection_type: open
+  name: Aviation Edge Real-Time Schedules API
+  slug: open-aviation-edge-schedules-api
 - collection_type: open
   name: Aviation Edge API
   slug: open-aviation-edge
@@ -108,7 +123,7 @@ plans:
 - name: Aviation Edge Plans Pricing
   plan_count: 3
   slug: aviation-edge-plans-pricing
-random_paper: 109
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Aviation Edge Rate Limits
@@ -133,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/screenshots/aviation-edge-2026-06-20T172729.png
 security:

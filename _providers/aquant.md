@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,7 +45,14 @@ arazzos:
 - description: Health-check the service, generate the PM checklist for an asset, then produce the summary report.
   name: Run a preventive-maintenance visit and file the summary
   slug: aquant-preventive-maintenance-visit
-artifact_total: 12
+artifact_total: 14
+collections:
+- collection_type: open
+  name: Aquant MCP Server
+  slug: open-aquant-mcp-server
+- collection_type: open
+  name: FastAPI
+  slug: open-aquant-voiceai-api
 common:
 - group: auth
   title: ''
@@ -219,7 +226,7 @@ overview: 'Aquant publishes 2 APIs on the [APIs.io](https://apis.io/) network: M
 
 
   Aquant''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 31 more developer resources.'
-random_paper: 50
+random_paper: 54
 scopes:
 - name: Aquant Scopes
   scope_count: 7
@@ -249,7 +256,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/screenshots/aquant-2026-08-07T161534.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,26 @@ apis:
 - description: Landgate's customer identity provider, running PingFederate. The OpenID Connect discovery document is served anonymously (HTTP 200, 2026-07-26) at /.well-known/openid-configuration and is saved verbat
   name: MyLandgate OpenID Connect / OAuth 2.0 (PingFederate)
   slug: mylandgate-openid-connect
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: Data WA CKAN Action API (operated by Landgate)
+  slug: open-landgate-data-wa-ckan
+- collection_type: open
+  name: API Collection
+  slug: open-landgate-mylandgate-openid-configuration
+- collection_type: open
+  name: API Collection
+  slug: open-landgate-slip-public-arcgis-rest-services
+- collection_type: open
+  name: Landgate SLIP Public Services (ArcGIS REST)
+  slug: open-landgate-slip-public-arcgis
+- collection_type: open
+  name: Landgate SLIP Public OGC Web Services (WMS / WFS)
+  slug: open-landgate-slip-public-ogc
+- collection_type: open
+  name: API Collection
+  slug: open-landgate-slip-public-services-folder
 common:
 - group: agent
   title: ''
@@ -179,7 +198,7 @@ overview: 'Landgate publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 23 more developer resources.'
-random_paper: 112
+random_paper: 87
 scopes:
 - name: Landgate Scopes
   scope_count: 6
@@ -214,7 +233,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:

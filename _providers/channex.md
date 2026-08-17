@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Manage event notification callbacks.
   name: Channex Webhooks API
   slug: channex-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Channex ARI API
+  slug: open-channex-ari-api
+- collection_type: open
+  name: Channex ARI Bookings API
+  slug: open-channex-bookings-api
+- collection_type: open
+  name: Channex ARI Channels API
+  slug: open-channex-channels-api
+- collection_type: open
+  name: Channex ARI Properties API
+  slug: open-channex-properties-api
+- collection_type: open
+  name: Channex ARI Rate Plans API
+  slug: open-channex-rate-plans-api
+- collection_type: open
+  name: Channex ARI Room Types API
+  slug: open-channex-room-types-api
+- collection_type: open
+  name: Channex ARI Webhooks API
+  slug: open-channex-webhooks-api
 - collection_type: open
   name: Channex API
   slug: open-channex
@@ -126,7 +150,7 @@ plans:
 - name: Channex Plans Pricing
   plan_count: 2
   slug: channex-plans-pricing
-random_paper: 21
+random_paper: 145
 rate_limits:
 - limit_count: 3
   name: Channex Rate Limits
@@ -151,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/screenshots/channex-2026-07-25T205054.png
 security:

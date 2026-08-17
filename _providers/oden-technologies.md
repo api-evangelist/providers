@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -74,7 +74,47 @@ apis:
 - description: The Targets API from Oden Technologies — 2 operation(s) for targets.
   name: Oden Technologies Targets API
   slug: oden-technologies-targets-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oden Dashboards API
+  slug: open-oden-technologies-dashboards-api
+- collection_type: open
+  name: Oden Dashboards Intervals API
+  slug: open-oden-technologies-intervals-api
+- collection_type: open
+  name: Oden Dashboards Machine Groups API
+  slug: open-oden-technologies-machine-groups-api
+- collection_type: open
+  name: Oden Dashboards Maintenance Work Orders API
+  slug: open-oden-technologies-maintenance-work-orders-api
+- collection_type: open
+  name: Oden Dashboards Metric Groups API
+  slug: open-oden-technologies-metric-groups-api
+- collection_type: open
+  name: Oden Dashboards OQL API
+  slug: open-oden-technologies-oql-api
+- collection_type: open
+  name: Oden Dashboards Product Attributes API
+  slug: open-oden-technologies-product-attributes-api
+- collection_type: open
+  name: Oden Dashboards Product Mappings API
+  slug: open-oden-technologies-product-mappings-api
+- collection_type: open
+  name: Oden Dashboards Products API
+  slug: open-oden-technologies-products-api
+- collection_type: open
+  name: Oden Dashboards Quality Test API
+  slug: open-oden-technologies-quality-test-api
+- collection_type: open
+  name: Oden Dashboards Scrap/Yield Data API
+  slug: open-oden-technologies-scrap-yield-data-api
+- collection_type: open
+  name: Oden Dashboards Targets API
+  slug: open-oden-technologies-targets-api
 common:
 - group: agent
   title: ''
@@ -184,7 +224,7 @@ overview: 'Oden Technologies publishes 12 APIs on the [APIs.io](https://apis.io/
 
 
   Oden Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 71
+random_paper: 112
 score:
   band: developing
   composite: 42.0
@@ -208,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/screenshots/oden-technologies-2026-08-07T190003.png
 security:

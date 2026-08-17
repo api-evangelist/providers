@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Advanced multi-step (minutely / hourly / daily / current) forecast and historical timelines.
   name: Tomorrow.io Timelines API
   slug: tomorrow-timelines-api
-artifact_total: 113
+artifact_total: 125
 collections:
 - collection_type: postman
   name: Tomorrow.io Weather Alerts API
@@ -107,6 +107,42 @@ collections:
 - collection_type: postman
   name: Tomorrow.io Weather Alerts Timelines API
   slug: postman-tomorrow-timelines-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tomorrow.io Weather Alerts API
+  slug: open-tomorrow-alerts-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Climate API
+  slug: open-tomorrow-climate-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Events API
+  slug: open-tomorrow-events-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Forecast API
+  slug: open-tomorrow-forecast-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Historical API
+  slug: open-tomorrow-historical-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Insights API
+  slug: open-tomorrow-insights-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Locations API
+  slug: open-tomorrow-locations-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Map Tiles API
+  slug: open-tomorrow-map-tiles-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Realtime API
+  slug: open-tomorrow-realtime-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Routes API
+  slug: open-tomorrow-routes-api
+- collection_type: open
+  name: Tomorrow.io Weather Alerts Timelines API
+  slug: open-tomorrow-timelines-api
 - collection_type: open
   name: Tomorrow.io Weather API
   slug: open-tomorrow
@@ -477,7 +513,7 @@ plans:
 - name: Tomorrow Plans Pricing
   plan_count: 4
   slug: tomorrow-plans-pricing
-random_paper: 65
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Tomorrow Rate Limits
@@ -519,7 +555,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/screenshots/tomorrow-2026-06-20T195446.png
 security:

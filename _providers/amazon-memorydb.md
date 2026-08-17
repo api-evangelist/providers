@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: The Users API from Amazon MemoryDB — 1 operation(s) for users.
   name: Amazon MemoryDB Users API
   slug: amazon-memorydb-users-api
-artifact_total: 74
+artifact_total: 87
 collections:
 - collection_type: postman
   name: Amazon MemoryDB ACLs API
@@ -113,6 +113,45 @@ collections:
 - collection_type: postman
   name: Amazon MemoryDB ACLs Users API
   slug: postman-amazon-memorydb-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon MemoryDB ACLs API
+  slug: open-amazon-memorydb-acls-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs Clusters API
+  slug: open-amazon-memorydb-clusters-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs EngineVersions API
+  slug: open-amazon-memorydb-engineversions-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs Events API
+  slug: open-amazon-memorydb-events-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs NodeTypes API
+  slug: open-amazon-memorydb-nodetypes-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs ParameterGroups API
+  slug: open-amazon-memorydb-parametergroups-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs ReservedNodes API
+  slug: open-amazon-memorydb-reservednodes-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs Shards API
+  slug: open-amazon-memorydb-shards-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs Snapshots API
+  slug: open-amazon-memorydb-snapshots-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs SubnetGroups API
+  slug: open-amazon-memorydb-subnetgroups-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs Tags API
+  slug: open-amazon-memorydb-tags-api
+- collection_type: open
+  name: Amazon MemoryDB ACLs Users API
+  slug: open-amazon-memorydb-users-api
 - collection_type: open
   name: Amazon MemoryDB API
   slug: open-openapi
@@ -320,7 +359,7 @@ plans:
 - name: Amazon Memorydb Plans Pricing
   plan_count: 3
   slug: amazon-memorydb-plans-pricing
-random_paper: 114
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Amazon Memorydb Rate Limits
@@ -362,7 +401,7 @@ score:
       marker_coverage: 100.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/screenshots/amazon-memorydb-2026-06-20T171744.png
 security:

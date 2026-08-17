@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -74,8 +74,38 @@ apis:
 - description: The Terminals API from Jupyter — 2 operation(s) for terminals.
   name: Jupyter Terminals API
   slug: jupyter-terminals-api
-artifact_total: 19
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jupyter Server REST Config API
+  slug: open-jupyter-config-api
+- collection_type: open
+  name: Jupyter Server REST Config Contents API
+  slug: open-jupyter-contents-api
+- collection_type: open
+  name: Jupyter Server REST Config Jupyter Server REST API API
+  slug: open-jupyter-jupyter-server-rest-api-api
+- collection_type: open
+  name: Jupyter Server REST Config Kernels API
+  slug: open-jupyter-kernels-api
+- collection_type: open
+  name: Jupyter Server REST Config Kernelspecs API
+  slug: open-jupyter-kernelspecs-api
+- collection_type: open
+  name: Jupyter Server REST Config Me API
+  slug: open-jupyter-me-api
+- collection_type: open
+  name: Jupyter Server REST Config Sessions API
+  slug: open-jupyter-sessions-api
+- collection_type: open
+  name: Jupyter Server REST Config Status API
+  slug: open-jupyter-status-api
+- collection_type: open
+  name: Jupyter Server REST Config Terminals API
+  slug: open-jupyter-terminals-api
 - collection_type: open
   name: Jupyter Server REST API
   slug: open-jupyter
@@ -168,7 +198,7 @@ plans:
 - name: Jupyter Plans Pricing
   plan_count: 3
   slug: jupyter-plans-pricing
-random_paper: 67
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Jupyter Rate Limits
@@ -193,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/screenshots/jupyter-2026-06-20T183836.png
 security:

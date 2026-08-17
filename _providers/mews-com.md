@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 1
@@ -333,7 +333,7 @@ arazzos:
 - description: Resolve a rate, update its price for a range, then re-read to verify.
   name: Mews Update Rate Pricing
   slug: mews-com-update-rate-pricing-workflow
-artifact_total: 135
+artifact_total: 211
 collections:
 - collection_type: postman
   name: BookingEngineApi
@@ -345,8 +345,236 @@ collections:
   name: DistributorApi
   slug: postman-mews-distributor-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: BookingEngineApi
   slug: open-mews-booking-engine-api
+- collection_type: open
+  name: BookingEngineApi Account notes API
+  slug: open-mews-com-account-notes-api
+- collection_type: open
+  name: BookingEngineApi Account notes Accounting categories API
+  slug: open-mews-com-accounting-categories-api
+- collection_type: open
+  name: BookingEngineApi Account notes Accounting items API
+  slug: open-mews-com-accounting-items-api
+- collection_type: open
+  name: BookingEngineApi Account notes Accounts API
+  slug: open-mews-com-accounts-api
+- collection_type: open
+  name: BookingEngineApi Account notes Addresses API
+  slug: open-mews-com-addresses-api
+- collection_type: open
+  name: BookingEngineApi Account notes Age categories API
+  slug: open-mews-com-age-categories-api
+- collection_type: open
+  name: BookingEngineApi Account notes Availability adjustments API
+  slug: open-mews-com-availability-adjustments-api
+- collection_type: open
+  name: BookingEngineApi Account notes Availability blocks API
+  slug: open-mews-com-availability-blocks-api
+- collection_type: open
+  name: BookingEngineApi Account notes Billing automations API
+  slug: open-mews-com-billing-automations-api
+- collection_type: open
+  name: BookingEngineApi Account notes Bills API
+  slug: open-mews-com-bills-api
+- collection_type: open
+  name: Account notes BookingEngineApi API
+  slug: open-mews-com-bookingengineapi-api
+- collection_type: open
+  name: BookingEngineApi Account notes Business segments API
+  slug: open-mews-com-business-segments-api
+- collection_type: open
+  name: BookingEngineApi Account notes Cancellation policies API
+  slug: open-mews-com-cancellation-policies-api
+- collection_type: open
+  name: BookingEngineApi Account notes Cashier transactions API
+  slug: open-mews-com-cashier-transactions-api
+- collection_type: open
+  name: BookingEngineApi Account notes Cashiers API
+  slug: open-mews-com-cashiers-api
+- collection_type: open
+  name: BookingEngineApi Account notes Commands API
+  slug: open-mews-com-commands-api
+- collection_type: open
+  name: BookingEngineApi Account notes Companies API
+  slug: open-mews-com-companies-api
+- collection_type: open
+  name: BookingEngineApi Account notes Companionships API
+  slug: open-mews-com-companionships-api
+- collection_type: open
+  name: BookingEngineApi Account notes Company contracts API
+  slug: open-mews-com-company-contracts-api
+- collection_type: open
+  name: BookingEngineApi Account notes Configuration API
+  slug: open-mews-com-configuration-api
+- collection_type: open
+  name: BookingEngineApi Account notes Counters API
+  slug: open-mews-com-counters-api
+- collection_type: open
+  name: BookingEngineApi Account notes Countries API
+  slug: open-mews-com-countries-api
+- collection_type: open
+  name: BookingEngineApi Account notes Credit cards API
+  slug: open-mews-com-credit-cards-api
+- collection_type: open
+  name: BookingEngineApi Account notes Currencies API
+  slug: open-mews-com-currencies-api
+- collection_type: open
+  name: BookingEngineApi Account notes Customers API
+  slug: open-mews-com-customers-api
+- collection_type: open
+  name: BookingEngineApi Account notes Departments API
+  slug: open-mews-com-departments-api
+- collection_type: open
+  name: BookingEngineApi Account notes Devices API
+  slug: open-mews-com-devices-api
+- collection_type: open
+  name: BookingEngineApi Account notes DistributorApi API
+  slug: open-mews-com-distributorapi-api
+- collection_type: open
+  name: BookingEngineApi Account notes Enterprises API
+  slug: open-mews-com-enterprises-api
+- collection_type: open
+  name: BookingEngineApi Account notes Exchange rates API
+  slug: open-mews-com-exchange-rates-api
+- collection_type: open
+  name: BookingEngineApi Account notes Exports API
+  slug: open-mews-com-exports-api
+- collection_type: open
+  name: BookingEngineApi Account notes Identity documents API
+  slug: open-mews-com-identity-documents-api
+- collection_type: open
+  name: BookingEngineApi Account notes Images API
+  slug: open-mews-com-images-api
+- collection_type: open
+  name: BookingEngineApi Account notes Languages API
+  slug: open-mews-com-languages-api
+- collection_type: open
+  name: BookingEngineApi Account notes Ledger balances API
+  slug: open-mews-com-ledger-balances-api
+- collection_type: open
+  name: BookingEngineApi Account notes Loyalty memberships API
+  slug: open-mews-com-loyalty-memberships-api
+- collection_type: open
+  name: BookingEngineApi Account notes Loyalty programs API
+  slug: open-mews-com-loyalty-programs-api
+- collection_type: open
+  name: BookingEngineApi Account notes Loyalty tiers API
+  slug: open-mews-com-loyalty-tiers-api
+- collection_type: open
+  name: BookingEngineApi Account notes Message threads API
+  slug: open-mews-com-message-threads-api
+- collection_type: open
+  name: BookingEngineApi Account notes Messages API
+  slug: open-mews-com-messages-api
+- collection_type: open
+  name: BookingEngineApi Account notes Order items API
+  slug: open-mews-com-order-items-api
+- collection_type: open
+  name: BookingEngineApi Account notes Orders API
+  slug: open-mews-com-orders-api
+- collection_type: open
+  name: BookingEngineApi Account notes Outlet bills API
+  slug: open-mews-com-outlet-bills-api
+- collection_type: open
+  name: BookingEngineApi Account notes Outlet items API
+  slug: open-mews-com-outlet-items-api
+- collection_type: open
+  name: BookingEngineApi Account notes Outlets API
+  slug: open-mews-com-outlets-api
+- collection_type: open
+  name: BookingEngineApi Account notes Payment method requests API
+  slug: open-mews-com-payment-method-requests-api
+- collection_type: open
+  name: BookingEngineApi Account notes Payment plans API
+  slug: open-mews-com-payment-plans-api
+- collection_type: open
+  name: BookingEngineApi Account notes Payment requests API
+  slug: open-mews-com-payment-requests-api
+- collection_type: open
+  name: BookingEngineApi Account notes Payments API
+  slug: open-mews-com-payments-api
+- collection_type: open
+  name: BookingEngineApi Account notes Preauthorizations API
+  slug: open-mews-com-preauthorizations-api
+- collection_type: open
+  name: BookingEngineApi Account notes Product categories API
+  slug: open-mews-com-product-categories-api
+- collection_type: open
+  name: BookingEngineApi Account notes Product service orders API
+  slug: open-mews-com-product-service-orders-api
+- collection_type: open
+  name: BookingEngineApi Account notes Products API
+  slug: open-mews-com-products-api
+- collection_type: open
+  name: BookingEngineApi Account notes Rate groups API
+  slug: open-mews-com-rate-groups-api
+- collection_type: open
+  name: BookingEngineApi Account notes Rates API
+  slug: open-mews-com-rates-api
+- collection_type: open
+  name: BookingEngineApi Account notes Reservation groups API
+  slug: open-mews-com-reservation-groups-api
+- collection_type: open
+  name: BookingEngineApi Account notes Reservations API
+  slug: open-mews-com-reservations-api
+- collection_type: open
+  name: BookingEngineApi Account notes Resource access tokens API
+  slug: open-mews-com-resource-access-tokens-api
+- collection_type: open
+  name: BookingEngineApi Account notes Resource blocks API
+  slug: open-mews-com-resource-blocks-api
+- collection_type: open
+  name: BookingEngineApi Account notes Resource categories API
+  slug: open-mews-com-resource-categories-api
+- collection_type: open
+  name: BookingEngineApi Account notes Resource features API
+  slug: open-mews-com-resource-features-api
+- collection_type: open
+  name: BookingEngineApi Account notes Resources API
+  slug: open-mews-com-resources-api
+- collection_type: open
+  name: BookingEngineApi Account notes Restrictions API
+  slug: open-mews-com-restrictions-api
+- collection_type: open
+  name: BookingEngineApi Account notes Routing rules API
+  slug: open-mews-com-routing-rules-api
+- collection_type: open
+  name: BookingEngineApi Account notes Rules API
+  slug: open-mews-com-rules-api
+- collection_type: open
+  name: BookingEngineApi Account notes Service order notes API
+  slug: open-mews-com-service-order-notes-api
+- collection_type: open
+  name: BookingEngineApi Account notes Service overbooking limits API
+  slug: open-mews-com-service-overbooking-limits-api
+- collection_type: open
+  name: BookingEngineApi Account notes Services API
+  slug: open-mews-com-services-api
+- collection_type: open
+  name: BookingEngineApi Account notes Source assignments API
+  slug: open-mews-com-source-assignments-api
+- collection_type: open
+  name: BookingEngineApi Account notes Sources API
+  slug: open-mews-com-sources-api
+- collection_type: open
+  name: BookingEngineApi Account notes Tasks API
+  slug: open-mews-com-tasks-api
+- collection_type: open
+  name: BookingEngineApi Account notes Tax environments API
+  slug: open-mews-com-tax-environments-api
+- collection_type: open
+  name: BookingEngineApi Account notes Taxations API
+  slug: open-mews-com-taxations-api
+- collection_type: open
+  name: BookingEngineApi Account notes Voucher codes API
+  slug: open-mews-com-voucher-codes-api
+- collection_type: open
+  name: BookingEngineApi Account notes Vouchers API
+  slug: open-mews-com-vouchers-api
 - collection_type: open
   name: Connector API
   slug: open-mews-connector-api
@@ -650,7 +878,7 @@ plans:
 - name: Mews Com Plans Pricing
   plan_count: 5
   slug: mews-com-plans-pricing
-random_paper: 88
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Mews Com Rate Limits
@@ -692,7 +920,7 @@ score:
       marker_coverage: 0.0
       total: 75
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/screenshots/mews-com-2026-06-20T185312.png
 security:

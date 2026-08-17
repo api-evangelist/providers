@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 19
@@ -143,7 +143,107 @@ apis:
 - description: Workspaces and workspace membership.
   name: tessl.io Workspaces API
   slug: tesslio-workspaces-api
-artifact_total: 41
+artifact_total: 74
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tessl Admin Keys API
+  slug: open-tesslio-admin-keys-api
+- collection_type: open
+  name: Tessl Admin Keys Agent Logs API
+  slug: open-tesslio-agent-logs-api
+- collection_type: open
+  name: Tessl Admin Keys API Keys API
+  slug: open-tesslio-api-keys-api
+- collection_type: open
+  name: Tessl Admin Keys Badges API
+  slug: open-tesslio-badges-api
+- collection_type: open
+  name: Tessl Admin Keys Billing API
+  slug: open-tesslio-billing-api
+- collection_type: open
+  name: Tessl Admin Keys Capacity API
+  slug: open-tesslio-capacity-api
+- collection_type: open
+  name: Tessl Admin Keys CLI API
+  slug: open-tesslio-cli-api
+- collection_type: open
+  name: Tessl Admin Keys Context API
+  slug: open-tesslio-context-api
+- collection_type: open
+  name: Tessl Admin Keys Curated Lists API
+  slug: open-tesslio-curated-lists-api
+- collection_type: open
+  name: Tessl Admin Keys Environments API
+  slug: open-tesslio-environments-api
+- collection_type: open
+  name: Tessl Admin Keys Evals API
+  slug: open-tesslio-evals-api
+- collection_type: open
+  name: Tessl Admin Keys Fix Runs API
+  slug: open-tesslio-fix-runs-api
+- collection_type: open
+  name: Tessl Admin Keys Generation API
+  slug: open-tesslio-generation-api
+- collection_type: open
+  name: Tessl Admin Keys InstallPolicy API
+  slug: open-tesslio-installpolicy-api
+- collection_type: open
+  name: Tessl Admin Keys Integrations API
+  slug: open-tesslio-integrations-api
+- collection_type: open
+  name: Tessl Admin Keys Launch Runs API
+  slug: open-tesslio-launch-runs-api
+- collection_type: open
+  name: Tessl Admin Keys LLM API
+  slug: open-tesslio-llm-api
+- collection_type: open
+  name: Tessl Admin Keys ManagedProjectPolicy API
+  slug: open-tesslio-managedprojectpolicy-api
+- collection_type: open
+  name: Tessl Admin Keys MCP API
+  slug: open-tesslio-mcp-api
+- collection_type: open
+  name: Tessl Admin Keys Orgs API
+  slug: open-tesslio-orgs-api
+- collection_type: open
+  name: Tessl Admin Keys Policy API
+  slug: open-tesslio-policy-api
+- collection_type: open
+  name: Tessl Admin Keys Projects API
+  slug: open-tesslio-projects-api
+- collection_type: open
+  name: Tessl Admin Keys PublishPolicy API
+  slug: open-tesslio-publishpolicy-api
+- collection_type: open
+  name: Tessl Admin Keys Repos API
+  slug: open-tesslio-repos-api
+- collection_type: open
+  name: Tessl Admin Keys Search API
+  slug: open-tesslio-search-api
+- collection_type: open
+  name: Tessl Admin Keys SkillInventory API
+  slug: open-tesslio-skillinventory-api
+- collection_type: open
+  name: Tessl Admin Keys Skills API
+  slug: open-tesslio-skills-api
+- collection_type: open
+  name: Tessl Admin Keys Tasks API
+  slug: open-tesslio-tasks-api
+- collection_type: open
+  name: Tessl Admin Keys Tiles API
+  slug: open-tesslio-tiles-api
+- collection_type: open
+  name: Tessl Admin Keys Users API
+  slug: open-tesslio-users-api
+- collection_type: open
+  name: Tessl Admin Keys Workflows API
+  slug: open-tesslio-workflows-api
+- collection_type: open
+  name: Tessl Admin Keys Workspaces API
+  slug: open-tesslio-workspaces-api
 common:
 - group: docs
   title: ''
@@ -301,7 +401,7 @@ overview: 'tessl.io publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
 
   tessl.io''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 51
+random_paper: 26
 score:
   band: developing
   composite: 50.4
@@ -325,7 +425,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

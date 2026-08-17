@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -149,7 +149,7 @@ arazzos:
 - description: Validate a new subscription purchase with the Subscriptions v2 API and acknowledge it before the three-day auto-refund window closes.
   name: Android Verify and Acknowledge a Subscription Purchase
   slug: android-verify-acknowledge-subscription-purchase-workflow
-artifact_total: 237
+artifact_total: 241
 collections:
 - collection_type: postman
   name: Google Play Developer Orders API
@@ -163,6 +163,18 @@ collections:
 - collection_type: postman
   name: Google Play Developer Orders Subscriptions API
   slug: postman-android-subscriptions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Play Developer Orders API
+  slug: open-android-orders-api
+- collection_type: open
+  name: Google Play Developer Orders Purchases API
+  slug: open-android-purchases-api
+- collection_type: open
+  name: Google Play Developer Orders Subscriptions API
+  slug: open-android-subscriptions-api
 - collection_type: open
   name: Google Play Developer API
   slug: open-google-play-developer-api
@@ -850,7 +862,7 @@ plans:
 - name: Android Plans Pricing
   plan_count: 6
   slug: android-plans-pricing
-random_paper: 17
+random_paper: 141
 rate_limits:
 - limit_count: 10
   name: Android Rate Limits
@@ -899,7 +911,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/screenshots/android-2026-06-20T171952.png
 security:

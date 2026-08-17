@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Rate answer messages.
   name: Mendable Ratings API
   slug: mendable-ratings-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mendable Chat API
+  slug: open-mendable-chat-api
+- collection_type: open
+  name: Mendable Chat Conversations API
+  slug: open-mendable-conversations-api
+- collection_type: open
+  name: Mendable Chat Ingestion API
+  slug: open-mendable-ingestion-api
+- collection_type: open
+  name: Mendable Chat Ratings API
+  slug: open-mendable-ratings-api
 - collection_type: open
   name: Mendable API
   slug: open-mendable
@@ -125,7 +140,7 @@ plans:
 - name: Mendable Plans Pricing
   plan_count: 2
   slug: mendable-plans-pricing
-random_paper: 104
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Mendable Rate Limits
@@ -150,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/screenshots/mendable-2026-06-20T185156.png
 security:

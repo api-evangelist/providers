@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: The Tags API from Amazon CodeGuru Reviewer — 2 operation(s) for tags.
   name: Amazon CodeGuru Reviewer Tags API
   slug: amazon-codeguru-reviewer-tags-api
-artifact_total: 332
+artifact_total: 333
 collections:
 - collection_type: postman
   name: Amazon CodeGuru Reviewer Associations API
@@ -71,6 +71,9 @@ collections:
 - collection_type: postman
   name: Amazon CodeGuru Reviewer Associations Tags API
   slug: postman-amazon-codeguru-reviewer-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 common:
 - group: agent
   title: ''
@@ -1128,7 +1131,7 @@ overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 71
+random_paper: 87
 rules:
 - name: Amazon CodeGuru Reviewer API Rules
   rule_count: 5
@@ -1168,7 +1171,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:

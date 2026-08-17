@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -57,7 +57,29 @@ apis:
 - description: The Platform API from Feldera — 9 operation(s) for platform.
   name: Feldera Platform API
   slug: feldera-platform-api
-artifact_total: 11
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Feldera Input Connectors API
+  slug: open-feldera-input-connectors-api
+- collection_type: open
+  name: Feldera Input Connectors Metrics & Debugging API
+  slug: open-feldera-metrics-debugging-api
+- collection_type: open
+  name: Feldera Input Connectors Output Connectors API
+  slug: open-feldera-output-connectors-api
+- collection_type: open
+  name: Feldera Input Connectors Pipeline CRUD API
+  slug: open-feldera-pipeline-crud-api
+- collection_type: open
+  name: Feldera Input Connectors Pipeline Lifecycle API
+  slug: open-feldera-pipeline-lifecycle-api
+- collection_type: open
+  name: Feldera Input Connectors Platform API
+  slug: open-feldera-platform-api
 common:
 - group: start
   title: ''
@@ -211,7 +233,7 @@ overview: 'Feldera publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Feldera''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 27 more developer resources.'
-random_paper: 3
+random_paper: 127
 score:
   band: strong
   composite: 58.9
@@ -235,7 +257,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/screenshots/feldera-2026-07-25T214327.png
 security:

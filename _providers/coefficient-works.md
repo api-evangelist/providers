@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,18 +18,22 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 24.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
+asyncapis:
+- description: ''
+  name: Coefficient Works Webhooks
+  slug: coefficient-works-webhooks
 common:
 - group: auth
   title: ''
@@ -103,34 +107,70 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/coefficient-works-llms.txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/coefficient-works-webhooks.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/coefficient-works-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/coefficient-works-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/coefficient-works-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://coefficient.io/data-security
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/coeff
 created: '2026-07-17'
-description: 'Coefficient Works, Inc. (operating as Coefficient) is a San Mateo, California no-code data platform that connects live business data to Google Sheets and Microsoft Excel. Founded in 2019 by Navneet Loiwal and Tommy Tsai, the company provides point-and-click connectors to 60+ business systems including Salesforce, HubSpot, NetSuite, QuickBooks, Snowflake, MySQL, Stripe, Looker, Tableau and Google Ads, with scheduled two-way sync, spreadsheet-native alerting through Slack and email, live web dashboards, and an AI assistant that builds pivot tables, formulas, charts and data-cleaning steps from natural language. Coefficient is a consumer of other providers'' APIs rather than a producer: as of this enrichment pass it publishes no public developer API, no OpenAPI or AsyncAPI description, no client SDKs, and no developer portal. Distribution is through the Google Workspace Marketplace and Microsoft AppSource. The company is backed by Battery Ventures, Foundation Capital and S28 Capital.'
+description: 'Coefficient Works, Inc. (operating as Coefficient) is a San Mateo, California no-code data platform that connects live business data to Google Sheets and Microsoft Excel. Founded in 2019 by Navneet Loiwal and Tommy Tsai, the company provides point-and-click connectors to 60+ business systems including Salesforce, HubSpot, NetSuite, QuickBooks, Snowflake, MySQL, Stripe, Looker, Tableau and Google Ads, with scheduled two-way sync, spreadsheet-native alerting through Slack and email, live web dashboards, and an AI assistant that builds pivot tables, formulas, charts and data-cleaning steps from natural language. Coefficient is a consumer of other providers'' APIs rather than a producer: as of this enrichment pass it publishes no public developer API, no OpenAPI or AsyncAPI description, no client SDKs, and no developer portal, and its "Connect Any API" feature is a consumer-side HTTP client (GET/POST, bearer token / API key / basic auth, cursor, offset and page-number pagination)
+  that writes third-party API responses into a sheet. The one programmatic surface Coefficient serves is an inbound webhook trigger URL, issued per import on the Pro and Enterprise plans, that an external system calls to force an immediate refresh — capped at 12 calls per hour with a five-minute minimum interval. Coefficient states it is SOC 2 compliant and provides the audit report on request. Distribution is through the Google Workspace Marketplace and Microsoft AppSource. The company is backed by Battery Ventures, Foundation Capital and S28 Capital.'
 image: https://coefficient.io/wp-content/uploads/2026/02/homepage-meta-image-v2.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Coefficient Works
 nav: Providers
 network: true
 overview: 'Coefficient Works is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spreadsheets, Google Sheets, Microsoft Excel, and Data Integration.
 
 
-  Coefficient Works'' developer surface includes documentation, support, getting-started guide, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 82
+  The Coefficient Works catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Coefficient Works'' developer surface includes documentation, support, getting-started guide, engineering blog, pricing, signup flow, and 18 more developer resources.'
+plans:
+- name: Coefficient Works Plans Pricing
+  plan_count: 4
+  slug: coefficient-works-plans-pricing
+random_paper: 123
+rate_limits:
+- limit_count: 2
+  name: Coefficient Works Rate Limits
+  slug: coefficient-works-rate-limits
 score:
-  band: emerging
-  composite: 19.9
-  delta: 0.0
+  band: developing
+  composite: 46.6
+  delta: 26.7
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
+    commercial_clarity: 84.2
+    contract_quality: 51.6
     developer_ergonomics: 26.1
     discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
+    governance: 12.5
+    operational_transparency: 34.2
   previous_composite: 19.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/coefficient-works/refs/heads/main/screenshots/coefficient-works-2026-07-25T205946.png
 security:
 - kind: domain-security

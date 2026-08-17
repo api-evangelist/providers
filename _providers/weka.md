@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 25
@@ -173,7 +173,146 @@ apis:
 - description: The Weka home API from Weka — 6 operation(s) for weka home.
   name: Weka Weka home API
   slug: weka-weka-home-api
-artifact_total: 50
+artifact_total: 96
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: '@weka-api Active Directory API'
+  slug: open-weka-active-directory-api
+- collection_type: open
+  name: '@weka-api Active Directory Alerts API'
+  slug: open-weka-alerts-api
+- collection_type: open
+  name: '@weka-api Active Directory Catalog API'
+  slug: open-weka-catalog-api
+- collection_type: open
+  name: '@weka-api Active Directory Cluster API'
+  slug: open-weka-cluster-api
+- collection_type: open
+  name: '@weka-api Active Directory Containers API'
+  slug: open-weka-containers-api
+- collection_type: open
+  name: '@weka-api Active Directory Data Service API'
+  slug: open-weka-dataservice-api
+- collection_type: open
+  name: '@weka-api Active Directory Default network API'
+  slug: open-weka-default-network-api
+- collection_type: open
+  name: '@weka-api Active Directory Drive API'
+  slug: open-weka-drive-api
+- collection_type: open
+  name: '@weka-api Active Directory Events API'
+  slug: open-weka-events-api
+- collection_type: open
+  name: '@weka-api Active Directory Failure domains API'
+  slug: open-weka-failure-domains-api
+- collection_type: open
+  name: '@weka-api Active Directory Filesystem API'
+  slug: open-weka-filesystem-api
+- collection_type: open
+  name: '@weka-api Active Directory Filesystem group API'
+  slug: open-weka-filesystem-group-api
+- collection_type: open
+  name: '@weka-api Active Directory Health API'
+  slug: open-weka-health-api
+- collection_type: open
+  name: '@weka-api Active Directory Hosts API'
+  slug: open-weka-hosts-api
+- collection_type: open
+  name: '@weka-api Active Directory Interface group API'
+  slug: open-weka-interface-group-api
+- collection_type: open
+  name: '@weka-api Active Directory KMS API'
+  slug: open-weka-kms-api
+- collection_type: open
+  name: '@weka-api Active Directory LDAP API'
+  slug: open-weka-ldap-api
+- collection_type: open
+  name: '@weka-api Active Directory License API'
+  slug: open-weka-license-api
+- collection_type: open
+  name: '@weka-api Active Directory Lockout policy API'
+  slug: open-weka-lockout-policy-api
+- collection_type: open
+  name: '@weka-api Active Directory Login API'
+  slug: open-weka-login-api
+- collection_type: open
+  name: '@weka-api Active Directory Machines API'
+  slug: open-weka-machines-api
+- collection_type: open
+  name: '@weka-api Active Directory Mounts Defaults API'
+  slug: open-weka-mounts-defaults-api
+- collection_type: open
+  name: '@weka-api Active Directory Network Space API'
+  slug: open-weka-networkspace-api
+- collection_type: open
+  name: '@weka-api Active Directory NFS API'
+  slug: open-weka-nfs-api
+- collection_type: open
+  name: '@weka-api Active Directory Nodes API'
+  slug: open-weka-nodes-api
+- collection_type: open
+  name: '@weka-api Active Directory Object store API'
+  slug: open-weka-object-store-api
+- collection_type: open
+  name: '@weka-api Active Directory Object store bucket API'
+  slug: open-weka-object-store-bucket-api
+- collection_type: open
+  name: '@weka-api Active Directory Organization API'
+  slug: open-weka-organization-api
+- collection_type: open
+  name: '@weka-api Active Directory Processes API'
+  slug: open-weka-processes-api
+- collection_type: open
+  name: '@weka-api Active Directory Quota API'
+  slug: open-weka-quota-api
+- collection_type: open
+  name: '@weka-api Active Directory S3 API'
+  slug: open-weka-s3-api
+- collection_type: open
+  name: '@weka-api Active Directory Security API'
+  slug: open-weka-security-api
+- collection_type: open
+  name: '@weka-api Active Directory Servers API'
+  slug: open-weka-servers-api
+- collection_type: open
+  name: '@weka-api Active Directory SMB API'
+  slug: open-weka-smb-api
+- collection_type: open
+  name: '@weka-api Active Directory Snapshot Policy API'
+  slug: open-weka-snapshot-policy-api
+- collection_type: open
+  name: '@weka-api Active Directory Snapshots API'
+  slug: open-weka-snapshots-api
+- collection_type: open
+  name: '@weka-api Active Directory Stats API'
+  slug: open-weka-stats-api
+- collection_type: open
+  name: '@weka-api Active Directory System IO API'
+  slug: open-weka-system-io-api
+- collection_type: open
+  name: '@weka-api Active Directory Tasks API'
+  slug: open-weka-tasks-api
+- collection_type: open
+  name: '@weka-api Active Directory Telemetry API'
+  slug: open-weka-telemetry-api
+- collection_type: open
+  name: '@weka-api Active Directory Tenant API'
+  slug: open-weka-tenant-api
+- collection_type: open
+  name: '@weka-api Active Directory TLS API'
+  slug: open-weka-tls-api
+- collection_type: open
+  name: '@weka-api Active Directory Traces API'
+  slug: open-weka-traces-api
+- collection_type: open
+  name: '@weka-api Active Directory User API'
+  slug: open-weka-user-api
+- collection_type: open
+  name: '@weka-api Active Directory Weka home API'
+  slug: open-weka-weka-home-api
 common:
 - group: other
   title: ''
@@ -295,7 +434,7 @@ overview: 'Weka publishes 45 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Weka''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 19 more developer resources.'
-random_paper: 64
+random_paper: 126
 score:
   band: developing
   composite: 49.1
@@ -319,7 +458,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

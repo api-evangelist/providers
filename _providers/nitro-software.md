@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -47,11 +47,24 @@ apis:
 - description: The Sign API from Nitro Software — 22 operation(s) for sign.
   name: Nitro Software Sign API
   slug: nitro-software-sign-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Nitro Software Sign Webhooks
   slug: nitro-software-sign-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nitro Sign Public Authentication API
+  slug: open-nitro-software-authentication-api
+- collection_type: open
+  name: Nitro Sign Public Authentication Platform API
+  slug: open-nitro-software-platform-api
+- collection_type: open
+  name: Nitro Public Authentication Sign API
+  slug: open-nitro-software-sign-api
 common:
 - group: agent
   title: ''
@@ -196,7 +209,7 @@ overview: 'Nitro Software publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Nitro Software''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 24 more developer resources.'
-random_paper: 36
+random_paper: 135
 score:
   band: strong
   composite: 58.0
@@ -220,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/screenshots/nitro-software-2026-08-07T185343.png
 security:

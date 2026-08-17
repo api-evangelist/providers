@@ -1,21 +1,22 @@
 ---
 access_model:
-  confidence: medium
-  label: Enterprise
-  onboarding: unknown
-  pricing: enterprise
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
   public: false
   source:
   - plans
+  - authentication
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,27 +28,18 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 12.2
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
-- description: REST API for the Loomly brand success platform, providing programmatic access to social media calendars, posts, approval workflows, publishing scheduling, and analytics. Authenticated via OAuth 2.0 Be
-  name: Loomly API
-  slug: loomly-api
-artifact_total: 7
+- description: Public, read-only, unauthenticated JSON API for the Loomly status page, exposing overall system state, the four service components (Publishing, Analytics, Interactions, Website) and paginated incident
+  name: Loomly Status API
+  slug: loomly-status-api
+- description: Loomly operates an OAuth 2.0 protected platform API that backs its Zapier app — 12 triggers (new post, post state updated, post publish successful/failed/required, new comment, new quick post, new cus
+  name: Loomly Platform API (partner-gated)
+  slug: loomly-platform-api
+artifact_total: 9
 common:
-- group: auth
-  title: ''
-  type: TrustCenter
-  url: security/loomly-trust-center.yml
-- group: auth
-  title: ''
-  type: VulnerabilityDisclosure
-  url: security/loomly-vulnerability-disclosure.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/loomly-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -55,31 +47,95 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.loomly.com/integrations
-- group: build
+  url: https://loomly.zendesk.com/hc/en-us/
+- group: start
   title: ''
-  type: GitHubOrg
-  url: https://github.com/loomly
-- group: company
+  type: GettingStarted
+  url: https://loomly.zendesk.com/hc/en-us/sections/38524587224347-Get-started
+- group: operate
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/loomly
+  type: Support
+  url: https://loomly.zendesk.com/hc/en-us/requests/new
 - group: company
   title: ''
   type: Blog
   url: https://www.loomly.com/blog
-- group: commercial
+- group: company
   title: ''
-  type: Pricing
-  url: https://www.loomly.com/pricing
-- group: operate
+  type: BlogRSS
+  url: https://www.loomly.com/blog/rss.xml
+- group: build
   title: ''
-  type: StatusPage
-  url: https://status.loomly.com
+  type: GitHubOrganization
+  url: https://github.com/Loomly
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/loomly
 - group: other
   title: ''
   type: X
   url: https://x.com/LoomlySocial
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.loomly.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.loomly.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.loomly.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.loomly.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.loomly.com
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/loomly-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/loomly-changelog.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/loomly-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/loomly-conventions.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/loomly-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/loomly-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/loomly-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/loomly-domain-security.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/loomly-conformance.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/loomly-conformance.yml
 - group: commercial
   title: ''
   type: Plans
@@ -92,60 +148,82 @@ common:
   title: ''
   type: FinOps
   url: finops/loomly-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/loomly-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Loomly runs no developer site and publishes no API reference or spec — its entire programmable surface (12 triggers, 2 write actions) is listed only on zapier.com, entered through an OAuth authorization endpoint at app.loomly.com/oauth/authorize that 302s to sign-in, and the api.loomly.com host a previous pass recorded does not resolve at all.
+  evidence:
+  - status: 404
+    url: https://www.loomly.com/developers
+  - status: 302
+    url: https://app.loomly.com/oauth/authorize
+  - status: 200
+    url: https://zapier.com/apps/loomly/integrations
+  - status: 404
+    url: https://www.loomly.com/openapi.json
+  reason: marketplace-only
+  state: gated
 created: '2026-06-13'
-description: Loomly is a brand success platform with a REST API for managing social media content calendars, post ideas, approval workflows, publishing, and audience engagement analytics. It supports 10+ social channels including Facebook, Instagram, LinkedIn, TikTok, YouTube, Pinterest, Google Business Profile, and Threads, enabling marketing teams to collaborate, schedule, and analyze content from a unified platform.
+description: Loomly is a social media management and brand success platform for planning, creating, approving, scheduling and publishing content across Facebook, Instagram, LinkedIn, TikTok, YouTube, Pinterest, Snapchat, Threads, Bluesky and Google Business Profile, with collaboration and approval workflows, a content library, analytics and a community-management inbox. Loomly publishes no public developer API, API reference or machine-readable specification. Its only programmable surfaces are a partner-gated platform API reached through the Loomly Zapier app (12 triggers, 2 actions) over an OAuth 2.0 authorization flow at app.loomly.com, and a public read-only status API on status.loomly.com operated by SorryApp. Loomly was acquired by Bending Spoons on 2 January 2025.
 finops:
 - name: Loomly Finops
   service_category: ''
   slug: loomly-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loomly.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: Loomly
 nav: Providers
 network: true
-overview: 'Loomly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Content Calendar, Scheduling, Approval Workflows, and Analytics.
+overview: 'Loomly publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Content Calendar, Scheduling, Approval Workflows, and Analytics.
 
 
-  Loomly''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Loomly''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 21 more developer resources.'
 plans:
 - name: Loomly Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: loomly-plans-pricing
-random_paper: 68
+random_paper: 72
 rate_limits:
-- limit_count: 2
+- limit_count: 1
   name: Loomly Rate Limits
   slug: loomly-rate-limits
 score:
-  band: emerging
-  composite: 26.1
-  delta: 0.0
+  band: developing
+  composite: 44.5
+  delta: 18.4
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 100.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 42.1
+    developer_ergonomics: 37.0
+    discoverability: 66.7
+    governance: 12.5
+    operational_transparency: 68.4
   previous_composite: 26.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/screenshots/loomly-2026-06-20T184715.png
 security:
+- kind: authentication
+  name: Loomly Authentication
+  slug: loomly-authentication
+  summary_line: oauth2/none · 0 schemes
 - kind: domain-security
   name: Loomly Domain Security
   slug: loomly-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: vulnerability-disclosure
   name: Loomly Vulnerability Disclosure
   slug: loomly-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: Loomly Trust Center
   slug: loomly-trust-center
-  summary_line: SOC 2, ISO 27001, PCI DSS
+  summary_line: trust center published
 slug: loomly
 tags:
 - Social Media
@@ -156,5 +234,7 @@ tags:
 - Brand Management
 - Publishing
 - Community Management
+- Marketing
+- Social Media Management
 website: https://www.loomly.com
 ---

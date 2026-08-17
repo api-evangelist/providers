@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,8 +46,20 @@ apis:
 - description: Full-text search across the joke corpus.
   name: chucknorris.io Search API
   slug: chucknorris-io-search-api
-artifact_total: 48
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chuck Norris Jokes Categories API
+  slug: open-chucknorris-io-categories-api
+- collection_type: open
+  name: Chuck Norris Categories Jokes API
+  slug: open-chucknorris-io-jokes-api
+- collection_type: open
+  name: Chuck Norris Jokes Categories Search API
+  slug: open-chucknorris-io-search-api
 - collection_type: open
   name: Chuck Norris Jokes API
   slug: open-chucknorris-io
@@ -263,7 +275,7 @@ plans:
 - name: Chucknorris Io Plans Pricing
   plan_count: 1
   slug: chucknorris-io-plans-pricing
-random_paper: 16
+random_paper: 115
 rate_limits:
 - limit_count: 0
   name: Chucknorris Io Rate Limits
@@ -305,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/screenshots/chucknorris-io-2026-06-20T174333.png
 security:

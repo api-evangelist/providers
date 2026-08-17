@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -101,7 +101,74 @@ apis:
 - description: The users API from Popsink — 7 operation(s) for users.
   name: Popsink users API
   slug: popsink-users-api
-artifact_total: 25
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast admin API
+  slug: open-popsink-admin-api
+- collection_type: open
+  name: Fast admin auth API
+  slug: open-popsink-auth-api
+- collection_type: open
+  name: Fast admin brokers API
+  slug: open-popsink-brokers-api
+- collection_type: open
+  name: Fast admin connector types API
+  slug: open-popsink-connector-types-api
+- collection_type: open
+  name: Fast admin connectors API
+  slug: open-popsink-connectors-api
+- collection_type: open
+  name: Fast admin env_member API
+  slug: open-popsink-env-member-api
+- collection_type: open
+  name: Fast admin env_request API
+  slug: open-popsink-env-request-api
+- collection_type: open
+  name: Fast admin envs API
+  slug: open-popsink-envs-api
+- collection_type: open
+  name: Fast admin healthchecks API
+  slug: open-popsink-healthchecks-api
+- collection_type: open
+  name: Fast admin jobs-smt API
+  slug: open-popsink-jobs-smt-api
+- collection_type: open
+  name: Fast admin organizations API
+  slug: open-popsink-organizations-api
+- collection_type: open
+  name: Fast admin pipelines API
+  slug: open-popsink-pipelines-api
+- collection_type: open
+  name: Fast admin Popsink Public API API
+  slug: open-popsink-popsink-public-api-api
+- collection_type: open
+  name: Fast admin probes API
+  slug: open-popsink-probes-api
+- collection_type: open
+  name: Fast admin saml API
+  slug: open-popsink-saml-api
+- collection_type: open
+  name: Fast admin schemas API
+  slug: open-popsink-schemas-api
+- collection_type: open
+  name: Fast admin team_member API
+  slug: open-popsink-team-member-api
+- collection_type: open
+  name: Fast admin team_request API
+  slug: open-popsink-team-request-api
+- collection_type: open
+  name: Fast admin teams API
+  slug: open-popsink-teams-api
+- collection_type: open
+  name: Fast admin user-logs API
+  slug: open-popsink-user-logs-api
+- collection_type: open
+  name: Fast admin users API
+  slug: open-popsink-users-api
 common:
 - group: other
   title: ''
@@ -227,7 +294,7 @@ overview: 'Popsink publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Popsink''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 52
+random_paper: 27
 score:
   band: developing
   composite: 47.1
@@ -251,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

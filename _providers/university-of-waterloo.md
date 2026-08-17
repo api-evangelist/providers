@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -75,7 +75,47 @@ apis:
 - description: The Wcms API from University of Waterloo — 8 operation(s) for wcms.
   name: University of Waterloo Wcms API
   slug: university-of-waterloo-wcms-api
-artifact_total: 35
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations API
+  slug: open-university-of-waterloo-academicorganizations-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations Account API
+  slug: open-university-of-waterloo-account-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations ClassSchedules API
+  slug: open-university-of-waterloo-classschedules-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations Courses API
+  slug: open-university-of-waterloo-courses-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations ExamSchedules API
+  slug: open-university-of-waterloo-examschedules-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations FoodServices API
+  slug: open-university-of-waterloo-foodservices-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations HolidayDates API
+  slug: open-university-of-waterloo-holidaydates-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations ImportantDates API
+  slug: open-university-of-waterloo-importantdates-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations Locations API
+  slug: open-university-of-waterloo-locations-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations Subjects API
+  slug: open-university-of-waterloo-subjects-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations Terms API
+  slug: open-university-of-waterloo-terms-api
+- collection_type: open
+  name: Waterloo OpenData AcademicOrganizations Wcms API
+  slug: open-university-of-waterloo-wcms-api
 common:
 - group: agent
   title: ''
@@ -203,7 +243,7 @@ plans:
 - name: University Of Waterloo Plans Pricing
   plan_count: 2
   slug: university-of-waterloo-plans-pricing
-random_paper: 22
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: University Of Waterloo Rate Limits
@@ -251,7 +291,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png
 security:

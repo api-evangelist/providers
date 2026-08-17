@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 6.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -67,39 +67,89 @@ common:
   title: ''
   type: DomainSecurity
   url: security/setsail-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/setsail-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.setsail.co/legal/vulnerability-reporting-policy
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/setsail-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.setsail.co/faq/is-setsail-secure
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/setsail-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/setsail-plans-pricing.yml
+coverage:
+  checked: '2026-08-13'
+  detail: SetSail ships only an end-user product — the sole SetSail-served HTTP API is the private backend of its own customer app at https://app.setsail.co/api/, which answers {"error":"Authentication Error"} with HTTP 401 on every path including /api/openapi.json, and none of the 365 URLs in the sitemap or the 104 public FAQ/knowledge-base pages is a developer portal, API reference or spec (they describe only the CRM, email and calendar APIs SetSail consumes).
+  evidence:
+  - status: 401
+    url: https://app.setsail.co/api/openapi.json
+  - status: 404
+    url: https://www.setsail.co/openapi.json
+  - status: 404
+    url: https://www.setsail.co/developers
+  - status: 404
+    url: https://www.setsail.co/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: SetSail is a revenue-operations and sales-AI platform (now part of ZoomInfo) that automatically captures sales activity data from email, calendar, and contacts and syncs it to Salesforce, then layers AI-powered revenue intelligence on top of it, including MEDDIC deal analysis, meeting preparation, deal alerts, and performance coaching. Insights are delivered to sales reps and leaders through Slack, email, the browser, and Salesforce, and activity data can be routed to Snowflake, Databricks, Tableau, and Looker for analytics. SetSail does not publish a public developer API, developer portal, or OpenAPI at this time; this profile captures its public identity and domain-security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/setsail.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: SetSail
 nav: Providers
 network: true
 overview: 'SetSail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Revenue Operations, RevOps, and Sales Intelligence.
 
 
-  SetSail''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 37
+  SetSail''s developer surface includes engineering blog, support, and 13 more developer resources.'
+plans:
+- name: Setsail Plans Pricing
+  plan_count: 0
+  slug: setsail-plans-pricing
+random_paper: 12
+rate_limits:
+- limit_count: 0
+  name: Setsail Rate Limits
+  slug: setsail-rate-limits
 score:
   band: emerging
-  composite: 14.7
-  delta: 0.0
+  composite: 21.0
+  delta: 6.3
   facets:
-    commercial_clarity: 42.1
+    commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 10.5
   previous_composite: 14.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Setsail Domain Security
   slug: setsail-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Setsail Vulnerability Disclosure
+  slug: setsail-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: setsail
 tags:
 - Company

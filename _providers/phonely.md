@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,12 +45,15 @@ apis:
 - description: Receive structured post-call event data from Phonely after each AI voice interaction completes. The Send Call Data post-call workflow action POSTs a JSON payload containing call metadata, full transcr
   name: Phonely Webhooks API
   slug: phonely-webhooks-api
-artifact_total: 58
+artifact_total: 59
 asyncapis:
 - description: Phonely delivers post-call event data to any HTTPS endpoint configured via the "Send Call Data" post-call action in the workflow builder. The event is delivered as an HTTP POST with a JSON body contai
   name: Phonely Webhooks
   slug: phonely-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Phonely Agents API
   slug: open-phonely-agents-api
@@ -209,7 +212,7 @@ plans:
 - name: Phonely Plans Pricing
   plan_count: 4
   slug: phonely-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Phonely Rate Limits
@@ -265,7 +268,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/screenshots/phonely-2026-06-20T191652.png
 security:

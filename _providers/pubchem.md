@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,20 @@ apis:
 - description: Utility operations
   name: PubChem Utilities API
   slug: pubchem-utilities-api
-artifact_total: 19
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PubChem PUG REST Compounds API
+  slug: open-pubchem-compounds-api
+- collection_type: open
+  name: PubChem PUG REST Compounds Structure Search API
+  slug: open-pubchem-structure-search-api
+- collection_type: open
+  name: PubChem PUG REST Compounds Utilities API
+  slug: open-pubchem-utilities-api
 common:
 - group: agent
   title: ''
@@ -166,7 +179,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 4
   name: Rate Limits
@@ -206,7 +219,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/screenshots/pubchem-2026-06-20T192236.png
 security:

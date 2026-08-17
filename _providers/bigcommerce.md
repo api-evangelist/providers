@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 341
   human_in_the_loop: 2
@@ -522,15 +522,474 @@ apis:
 - description: The Wishlists Items API from BigCommerce — 2 operation(s) for wishlists items.
   name: BigCommerce Wishlists Items API
   slug: bigcommerce-wishlists-items-api
-artifact_total: 1180
+artifact_total: 1333
 asyncapis:
 - description: AsyncAPI description of BigCommerce's outbound webhook surface. BigCommerce delivers near real-time event notifications by issuing HTTP POST requests with a JSON body to a customer-configured destinat
   name: BigCommerce Webhooks
   slug: bigcommerce-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: BigCommerce Accepted Payment Methods
   slug: open-accepted-payment-methods
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails API
+  slug: open-bigcommerce-abandoned-cart-emails-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Abandoned Cart Settings API
+  slug: open-bigcommerce-abandoned-cart-settings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Abandoned Carts API
+  slug: open-bigcommerce-abandoned-carts-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Abandoned Carts Settings API
+  slug: open-bigcommerce-abandoned-carts-settings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Access API
+  slug: open-bigcommerce-access-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Active Theme API
+  slug: open-bigcommerce-active-theme-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Addresses API
+  slug: open-bigcommerce-addresses-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Analytics API
+  slug: open-bigcommerce-analytics-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails API Token API
+  slug: open-bigcommerce-api-token-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Attribute Values API
+  slug: open-bigcommerce-attribute-values-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Attributes API
+  slug: open-bigcommerce-attributes-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Banners API
+  slug: open-bigcommerce-banners-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Batch Metafields API
+  slug: open-bigcommerce-batch-metafields-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Blog Posts API
+  slug: open-bigcommerce-blog-posts-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Blog Tags API
+  slug: open-bigcommerce-blog-tags-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Brands API
+  slug: open-bigcommerce-brands-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Bulk Pricing Rules API
+  slug: open-bigcommerce-bulk-pricing-rules-api
+- collection_type: open
+  name: BigCommerce Abandoned Emails Cart API
+  slug: open-bigcommerce-cart-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Cart Currency API
+  slug: open-bigcommerce-cart-currency-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Cart Items API
+  slug: open-bigcommerce-cart-items-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Carts (Single) API
+  slug: open-bigcommerce-carts-single-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Catalog API
+  slug: open-bigcommerce-catalog-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Categories API
+  slug: open-bigcommerce-categories-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Categories (Deprecated) API
+  slug: open-bigcommerce-categories-deprecated-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Category Assignments API
+  slug: open-bigcommerce-category-assignments-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Category Trees API
+  slug: open-bigcommerce-category-trees-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Channel Assignments API
+  slug: open-bigcommerce-channel-assignments-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Channel Settings API
+  slug: open-bigcommerce-channel-settings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Channels API
+  slug: open-bigcommerce-channels-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout API
+  slug: open-bigcommerce-checkout-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Billing Address API
+  slug: open-bigcommerce-checkout-billing-address-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Cart Items API
+  slug: open-bigcommerce-checkout-cart-items-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Consignments API
+  slug: open-bigcommerce-checkout-consignments-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Coupons API
+  slug: open-bigcommerce-checkout-coupons-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Discounts API
+  slug: open-bigcommerce-checkout-discounts-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Gift Certificates API
+  slug: open-bigcommerce-checkout-gift-certificates-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Orders API
+  slug: open-bigcommerce-checkout-orders-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Settings API
+  slug: open-bigcommerce-checkout-settings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Spam Protection API
+  slug: open-bigcommerce-checkout-spam-protection-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Store Credit API
+  slug: open-bigcommerce-checkout-store-credit-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Checkout Token API
+  slug: open-bigcommerce-checkout-token-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Complex Rules API
+  slug: open-bigcommerce-complex-rules-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Consent API
+  slug: open-bigcommerce-consent-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Countries API
+  slug: open-bigcommerce-countries-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Coupons API
+  slug: open-bigcommerce-coupons-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Currencies (Bulk) API
+  slug: open-bigcommerce-currencies-bulk-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Currencies (Single) API
+  slug: open-bigcommerce-currencies-single-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Currency Assignments API
+  slug: open-bigcommerce-currency-assignments-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Current Customers API
+  slug: open-bigcommerce-current-customers-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Custom Fields API
+  slug: open-bigcommerce-custom-fields-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Custom Template Associations API
+  slug: open-bigcommerce-custom-template-associations-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Customer Batch Metafields API
+  slug: open-bigcommerce-customer-batch-metafields-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Customer Impersonation Token API
+  slug: open-bigcommerce-customer-impersonation-token-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Customer Metafields API
+  slug: open-bigcommerce-customer-metafields-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Customers API
+  slug: open-bigcommerce-customers-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Customs Information API
+  slug: open-bigcommerce-customs-information-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Email Statuses API
+  slug: open-bigcommerce-email-statuses-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Email Templates API
+  slug: open-bigcommerce-email-templates-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Favicon Image API
+  slug: open-bigcommerce-favicon-image-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Form Field Values API
+  slug: open-bigcommerce-form-field-values-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Form Fields API
+  slug: open-bigcommerce-form-fields-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Gift Certificates API
+  slug: open-bigcommerce-gift-certificates-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Global Settings API
+  slug: open-bigcommerce-global-settings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Images API
+  slug: open-bigcommerce-images-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Import-Export API
+  slug: open-bigcommerce-import-export-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Inventory API
+  slug: open-bigcommerce-inventory-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Inventory Notifications API
+  slug: open-bigcommerce-inventory-notifications-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Items API
+  slug: open-bigcommerce-items-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Listings API
+  slug: open-bigcommerce-listings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Login Token API
+  slug: open-bigcommerce-login-token-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Logo API
+  slug: open-bigcommerce-logo-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Logo Image API
+  slug: open-bigcommerce-logo-image-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Manage Webhooks (Bulk) API
+  slug: open-bigcommerce-manage-webhooks-bulk-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Manage Webhooks (Single) API
+  slug: open-bigcommerce-manage-webhooks-single-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Menus API
+  slug: open-bigcommerce-menus-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Metafields API
+  slug: open-bigcommerce-metafields-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Methods API
+  slug: open-bigcommerce-methods-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Methods (Deprecated) API
+  slug: open-bigcommerce-methods-deprecated-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Order API
+  slug: open-bigcommerce-order-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Order Settings API
+  slug: open-bigcommerce-order-settings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Pages API
+  slug: open-bigcommerce-pages-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Pages (Bulk) API
+  slug: open-bigcommerce-pages-bulk-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Pages (Single) API
+  slug: open-bigcommerce-pages-single-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Payment Actions API
+  slug: open-bigcommerce-payment-actions-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Payments API
+  slug: open-bigcommerce-payments-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Placement API
+  slug: open-bigcommerce-placement-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Price Lists API
+  slug: open-bigcommerce-price-lists-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Price Lists Assignments API
+  slug: open-bigcommerce-price-lists-assignments-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Price Lists Records API
+  slug: open-bigcommerce-price-lists-records-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Processing API
+  slug: open-bigcommerce-processing-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Product Modifiers API
+  slug: open-bigcommerce-product-modifiers-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Product Tax Properties API
+  slug: open-bigcommerce-product-tax-properties-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Product Variant Options API
+  slug: open-bigcommerce-product-variant-options-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Product Variants API
+  slug: open-bigcommerce-product-variants-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Products API
+  slug: open-bigcommerce-products-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Redirects API
+  slug: open-bigcommerce-redirects-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Redirects - Cart Redirect URLs API
+  slug: open-bigcommerce-redirects-cart-redirect-urls-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Regions API
+  slug: open-bigcommerce-regions-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Scripts API
+  slug: open-bigcommerce-scripts-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Search Filters API
+  slug: open-bigcommerce-search-filters-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Settings API
+  slug: open-bigcommerce-settings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Shipping Provider API
+  slug: open-bigcommerce-shipping-provider-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Site API
+  slug: open-bigcommerce-site-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Site Certificate API
+  slug: open-bigcommerce-site-certificate-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Site Checkout URL API
+  slug: open-bigcommerce-site-checkout-url-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Site Routes API
+  slug: open-bigcommerce-site-routes-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Sites API
+  slug: open-bigcommerce-sites-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Sort Order API
+  slug: open-bigcommerce-sort-order-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails States API
+  slug: open-bigcommerce-states-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Store Information API
+  slug: open-bigcommerce-store-information-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Store Locale API
+  slug: open-bigcommerce-store-locale-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Store Profile API
+  slug: open-bigcommerce-store-profile-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Stored Instruments API
+  slug: open-bigcommerce-stored-instruments-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Storefront Category API
+  slug: open-bigcommerce-storefront-category-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Storefront Product API
+  slug: open-bigcommerce-storefront-product-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Storefront Robotstxt API
+  slug: open-bigcommerce-storefront-robotstxt-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Storefront Search API
+  slug: open-bigcommerce-storefront-search-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Storefront Security API
+  slug: open-bigcommerce-storefront-security-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Storefront SEO API
+  slug: open-bigcommerce-storefront-seo-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Storefront Status API
+  slug: open-bigcommerce-storefront-status-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Subscribers API
+  slug: open-bigcommerce-subscribers-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Subscription API
+  slug: open-bigcommerce-subscription-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Summary API
+  slug: open-bigcommerce-summary-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails System Logs API
+  slug: open-bigcommerce-system-logs-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Tax Properties API
+  slug: open-bigcommerce-tax-properties-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Tax Provider API
+  slug: open-bigcommerce-tax-provider-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Tax Provider Connection API
+  slug: open-bigcommerce-tax-provider-connection-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Tax Rates API
+  slug: open-bigcommerce-tax-rates-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Tax Settings API
+  slug: open-bigcommerce-tax-settings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Tax Zone Check API
+  slug: open-bigcommerce-tax-zone-check-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Tax Zones API
+  slug: open-bigcommerce-tax-zones-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Taxes API
+  slug: open-bigcommerce-taxes-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Template Settings API
+  slug: open-bigcommerce-template-settings-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Theme Actions API
+  slug: open-bigcommerce-theme-actions-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Theme Configurations API
+  slug: open-bigcommerce-theme-configurations-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Theme Custom Templates API
+  slug: open-bigcommerce-theme-custom-templates-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Theme Jobs API
+  slug: open-bigcommerce-theme-jobs-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Themes API
+  slug: open-bigcommerce-themes-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Time Zone API
+  slug: open-bigcommerce-time-zone-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Tokens API
+  slug: open-bigcommerce-tokens-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Transactions API
+  slug: open-bigcommerce-transactions-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Units of Measurement API
+  slug: open-bigcommerce-units-of-measurement-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Validate Credentials API
+  slug: open-bigcommerce-validate-credentials-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Values API
+  slug: open-bigcommerce-values-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Variants (Batch) API
+  slug: open-bigcommerce-variants-batch-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Videos API
+  slug: open-bigcommerce-videos-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Webhook Events API
+  slug: open-bigcommerce-webhook-events-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Webhooks Admin API
+  slug: open-bigcommerce-webhooks-admin-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Widget API
+  slug: open-bigcommerce-widget-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Widget Template API
+  slug: open-bigcommerce-widget-template-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Wishlists API
+  slug: open-bigcommerce-wishlists-api
+- collection_type: open
+  name: BigCommerce Abandoned Cart Emails Wishlists Items API
+  slug: open-bigcommerce-wishlists-items-api
 - collection_type: open
   name: BigCommerce Payment Access Token
   slug: open-payment-access-token
@@ -3581,7 +4040,7 @@ plans:
 - name: Bigcommerce Plans Pricing
   plan_count: 4
   slug: bigcommerce-plans-pricing
-random_paper: 69
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Bigcommerce Rate Limits
@@ -3637,7 +4096,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/screenshots/bigcommerce-2026-06-20T173231.png
 security:

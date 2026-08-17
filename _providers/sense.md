@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,7 +57,26 @@ apis:
 - description: User-level timeline and usage data
   name: Sense Users API
   slug: sense-users-api
-artifact_total: 22
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sense Client Authentication API
+  slug: open-sense-authentication-api
+- collection_type: open
+  name: Sense Client Authentication Devices API
+  slug: open-sense-devices-api
+- collection_type: open
+  name: Sense Client Authentication History API
+  slug: open-sense-history-api
+- collection_type: open
+  name: Sense Client Authentication Monitors API
+  slug: open-sense-monitors-api
+- collection_type: open
+  name: Sense Client Authentication Users API
+  slug: open-sense-users-api
 common:
 - group: agent
   title: ''
@@ -170,7 +189,7 @@ plans:
 - name: Sense Plans Pricing
   plan_count: 3
   slug: sense-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Sense Rate Limits
@@ -210,7 +229,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/screenshots/sense-2026-06-20T193703.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -124,7 +124,7 @@ arazzos:
 - description: Safely decommission a recipe by stopping it before deletion.
   name: Workato Stop and Delete a Recipe
   slug: workato-stop-and-delete-recipe-workflow
-artifact_total: 179
+artifact_total: 190
 asyncapis:
 - description: Workato Event Streams provides a publish-subscribe messaging system within the Workato platform. Topics act as channels through which producers publish messages and consumers retrieve them. Event Stre
   name: Workato Event Streams
@@ -143,8 +143,14 @@ collections:
   name: Workato MCP Server API
   slug: postman-workato-mcp-server
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Workato Agent Studio API
   slug: open-workato-agent-studio
+- collection_type: open
+  name: Workato Agent Studio Data Tables API
+  slug: open-workato-data-tables-api
 - collection_type: open
   name: Workato Developer API
   slug: open-workato-developer-api
@@ -152,8 +158,35 @@ collections:
   name: Workato Event Streams Public API
   slug: open-workato-event-streams
 - collection_type: open
+  name: Workato Agent Studio Data Tables Genies API
+  slug: open-workato-genies-api
+- collection_type: open
+  name: Workato Agent Studio Data Tables Knowledge Bases API
+  slug: open-workato-knowledge-bases-api
+- collection_type: open
   name: Workato MCP Server API
   slug: open-workato-mcp-server
+- collection_type: open
+  name: Workato Agent Studio Data Tables MCP Servers API
+  slug: open-workato-mcp-servers-api
+- collection_type: open
+  name: Workato Agent Studio Data Tables Messages API
+  slug: open-workato-messages-api
+- collection_type: open
+  name: Workato Agent Studio Data Tables Policies API
+  slug: open-workato-policies-api
+- collection_type: open
+  name: Workato Agent Studio Data Tables Recipes API
+  slug: open-workato-recipes-api
+- collection_type: open
+  name: Workato Agent Studio Data Tables Skills API
+  slug: open-workato-skills-api
+- collection_type: open
+  name: Workato Agent Studio Data Tables Tools API
+  slug: open-workato-tools-api
+- collection_type: open
+  name: Workato Agent Studio Data Tables User Groups API
+  slug: open-workato-user-groups-api
 common:
 - group: agent
   title: ''
@@ -980,7 +1013,7 @@ plans:
 - name: Workato Plans Pricing
   plan_count: 4
   slug: workato-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 6
   name: Workato Rate Limits
@@ -1030,7 +1063,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/screenshots/workato-2026-06-20T201551.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More
@@ -52,7 +52,7 @@ name: Cloudflare Trace
 nav: Providers
 network: true
 overview: Cloudflare Trace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 69
+random_paper: 139
 score:
   band: minimal
   composite: 5.0
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-trace/refs/heads/main/screenshots/cloudflare-trace-2026-06-20T174558.png
 slug: cloudflare-trace

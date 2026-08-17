@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 302
   human_in_the_loop: 1
@@ -53,11 +53,30 @@ apis:
 - description: Endpoints that require a Sequence service token intended to be secret. You can manually generate one on Sequence Builder and pass it as a Bearer Token.
   name: Horizon Blockchain Games secret API
   slug: horizon-blockchain-games-secret-api
-artifact_total: 10
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Horizon Blockchain Games Webhooks
   slug: horizon-blockchain-games-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Api Analytics API
+  slug: open-horizon-blockchain-games-analytics-api
+- collection_type: open
+  name: Api Analytics Marketplace API
+  slug: open-horizon-blockchain-games-marketplace-api
+- collection_type: open
+  name: Api Analytics public API
+  slug: open-horizon-blockchain-games-public-api
+- collection_type: open
+  name: Api Analytics Rpc API
+  slug: open-horizon-blockchain-games-rpc-api
+- collection_type: open
+  name: Api Analytics secret API
+  slug: open-horizon-blockchain-games-secret-api
 common:
 - group: other
   title: ''
@@ -206,7 +225,7 @@ overview: 'Horizon Blockchain Games publishes 5 APIs on the [APIs.io](https://ap
 
 
   Horizon Blockchain Games'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 30
+random_paper: 46
 score:
   band: developing
   composite: 51.1
@@ -236,7 +255,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/screenshots/horizon-blockchain-games-2026-07-25T221424.png
 security:

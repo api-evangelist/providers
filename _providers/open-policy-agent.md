@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -62,8 +62,11 @@ apis:
 - description: The Status API from Open Policy Agent — 1 operation(s) for status.
   name: Open Policy Agent Status API
   slug: open-policy-agent-status-api
-artifact_total: 24
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Compile API
   slug: open-compile-api
@@ -76,6 +79,30 @@ collections:
 - collection_type: open
   name: Health API
   slug: open-health-api
+- collection_type: open
+  name: Compile API
+  slug: open-open-policy-agent-compile-api
+- collection_type: open
+  name: Compile Config API
+  slug: open-open-policy-agent-config-api
+- collection_type: open
+  name: Compile Data API
+  slug: open-open-policy-agent-data-api
+- collection_type: open
+  name: Compile Health API
+  slug: open-open-policy-agent-health-api
+- collection_type: open
+  name: Compile Policies API
+  slug: open-open-policy-agent-policies-api
+- collection_type: open
+  name: Compile Query API API
+  slug: open-open-policy-agent-query-api-api
+- collection_type: open
+  name: Compile Query API
+  slug: open-open-policy-agent-query-api
+- collection_type: open
+  name: Compile Status API
+  slug: open-open-policy-agent-status-api
 - collection_type: open
   name: Policy API
   slug: open-policy-api
@@ -206,7 +233,7 @@ plans:
 - name: Open Policy Agent Plans Pricing
   plan_count: 1
   slug: open-policy-agent-plans-pricing
-random_paper: 27
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Open Policy Agent Rate Limits
@@ -240,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/screenshots/open-policy-agent-2026-06-20T190852.png
 security:

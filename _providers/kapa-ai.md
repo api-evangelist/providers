@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: List, retrieve, and continue conversations.
   name: kapa.ai Threads API
   slug: kapa-ai-threads-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: kapa.ai Query Analytics API
+  slug: open-kapa-ai-analytics-api
+- collection_type: open
+  name: kapa.ai Query Analytics Chat API
+  slug: open-kapa-ai-chat-api
+- collection_type: open
+  name: kapa.ai Query Analytics Feedback API
+  slug: open-kapa-ai-feedback-api
+- collection_type: open
+  name: kapa.ai Query Analytics Projects API
+  slug: open-kapa-ai-projects-api
+- collection_type: open
+  name: kapa.ai Query Analytics Retrieval API
+  slug: open-kapa-ai-retrieval-api
+- collection_type: open
+  name: kapa.ai Query Analytics Threads API
+  slug: open-kapa-ai-threads-api
 - collection_type: open
   name: kapa.ai Query API
   slug: open-kapa-ai
@@ -127,7 +148,7 @@ plans:
 - name: Kapa Ai Plans Pricing
   plan_count: 3
   slug: kapa-ai-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Kapa Ai Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/screenshots/kapa-ai-2026-06-20T183921.png
 security:

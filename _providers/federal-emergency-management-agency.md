@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: National Flood Insurance Program data
   name: Federal Emergency Management Agency NFIP API
   slug: federal-emergency-management-agency-nfip-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenFEMA Assistance API
+  slug: open-federal-emergency-management-agency-assistance-api
+- collection_type: open
+  name: OpenFEMA Assistance Disasters API
+  slug: open-federal-emergency-management-agency-disasters-api
+- collection_type: open
+  name: OpenFEMA Assistance Metadata API
+  slug: open-federal-emergency-management-agency-metadata-api
+- collection_type: open
+  name: OpenFEMA Assistance NFIP API
+  slug: open-federal-emergency-management-agency-nfip-api
 - collection_type: open
   name: OpenFEMA API
   slug: open-openfema
@@ -107,7 +122,7 @@ plans:
 - name: Federal Emergency Management Agency Plans Pricing
   plan_count: 3
   slug: federal-emergency-management-agency-plans-pricing
-random_paper: 21
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Federal Emergency Management Agency Rate Limits
@@ -147,7 +162,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

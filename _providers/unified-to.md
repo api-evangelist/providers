@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -487,7 +487,7 @@ arazzos:
 - description: Look up an employee, file a time-off request for them, then list their time-off records.
   name: Unified.to HRIS Time-Off Request
   slug: unified-to-hris-timeoff-request-workflow
-artifact_total: 1439
+artifact_total: 1577
 collections:
 - collection_type: postman
   name: Unified.to account API
@@ -903,6 +903,420 @@ collections:
 - collection_type: postman
   name: Unified.to account webinar API
   slug: postman-unified-to-webinar-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unified.to account API
+  slug: open-unified-to-account-api
+- collection_type: open
+  name: Unified.to account accounting API
+  slug: open-unified-to-accounting-api
+- collection_type: open
+  name: Unified.to account activity API
+  slug: open-unified-to-activity-api
+- collection_type: open
+  name: Unified.to account ad API
+  slug: open-unified-to-ad-api
+- collection_type: open
+  name: Unified.to account ads API
+  slug: open-unified-to-ads-api
+- collection_type: open
+  name: Unified.to account apicall API
+  slug: open-unified-to-apicall-api
+- collection_type: open
+  name: Unified.to account application API
+  slug: open-unified-to-application-api
+- collection_type: open
+  name: Unified.to account applicationstatus API
+  slug: open-unified-to-applicationstatus-api
+- collection_type: open
+  name: Unified.to account assessment API
+  slug: open-unified-to-assessment-api
+- collection_type: open
+  name: Unified.to account ats API
+  slug: open-unified-to-ats-api
+- collection_type: open
+  name: Unified.to account auth API
+  slug: open-unified-to-auth-api
+- collection_type: open
+  name: Unified.to account availability API
+  slug: open-unified-to-availability-api
+- collection_type: open
+  name: Unified.to account balancesheet API
+  slug: open-unified-to-balancesheet-api
+- collection_type: open
+  name: Unified.to account bankaccount API
+  slug: open-unified-to-bankaccount-api
+- collection_type: open
+  name: Unified.to account benefit API
+  slug: open-unified-to-benefit-api
+- collection_type: open
+  name: Unified.to account bill API
+  slug: open-unified-to-bill-api
+- collection_type: open
+  name: Unified.to account branch API
+  slug: open-unified-to-branch-api
+- collection_type: open
+  name: Unified.to account busy API
+  slug: open-unified-to-busy-api
+- collection_type: open
+  name: Unified.to account calendar API
+  slug: open-unified-to-calendar-api
+- collection_type: open
+  name: Unified.to account call API
+  slug: open-unified-to-call-api
+- collection_type: open
+  name: Unified.to account campaign API
+  slug: open-unified-to-campaign-api
+- collection_type: open
+  name: Unified.to account candidate API
+  slug: open-unified-to-candidate-api
+- collection_type: open
+  name: Unified.to account carrier API
+  slug: open-unified-to-carrier-api
+- collection_type: open
+  name: Unified.to account cashflow API
+  slug: open-unified-to-cashflow-api
+- collection_type: open
+  name: Unified.to account category API
+  slug: open-unified-to-category-api
+- collection_type: open
+  name: Unified.to account change API
+  slug: open-unified-to-change-api
+- collection_type: open
+  name: Unified.to account channel API
+  slug: open-unified-to-channel-api
+- collection_type: open
+  name: Unified.to account class API
+  slug: open-unified-to-class-api
+- collection_type: open
+  name: Unified.to account collection API
+  slug: open-unified-to-collection-api
+- collection_type: open
+  name: Unified.to account comment API
+  slug: open-unified-to-comment-api
+- collection_type: open
+  name: Unified.to account commerce API
+  slug: open-unified-to-commerce-api
+- collection_type: open
+  name: Unified.to account commit API
+  slug: open-unified-to-commit-api
+- collection_type: open
+  name: Unified.to account company API
+  slug: open-unified-to-company-api
+- collection_type: open
+  name: Unified.to account connection API
+  slug: open-unified-to-connection-api
+- collection_type: open
+  name: Unified.to account contact API
+  slug: open-unified-to-contact-api
+- collection_type: open
+  name: Unified.to account content API
+  slug: open-unified-to-content-api
+- collection_type: open
+  name: Unified.to account course API
+  slug: open-unified-to-course-api
+- collection_type: open
+  name: Unified.to account creative API
+  slug: open-unified-to-creative-api
+- collection_type: open
+  name: Unified.to account creditmemo API
+  slug: open-unified-to-creditmemo-api
+- collection_type: open
+  name: Unified.to account crm API
+  slug: open-unified-to-crm-api
+- collection_type: open
+  name: Unified.to account customer API
+  slug: open-unified-to-customer-api
+- collection_type: open
+  name: Unified.to account deal API
+  slug: open-unified-to-deal-api
+- collection_type: open
+  name: Unified.to account deduction API
+  slug: open-unified-to-deduction-api
+- collection_type: open
+  name: Unified.to account device API
+  slug: open-unified-to-device-api
+- collection_type: open
+  name: Unified.to account document API
+  slug: open-unified-to-document-api
+- collection_type: open
+  name: Unified.to account embedding API
+  slug: open-unified-to-embedding-api
+- collection_type: open
+  name: Unified.to account employee API
+  slug: open-unified-to-employee-api
+- collection_type: open
+  name: Unified.to account enrich API
+  slug: open-unified-to-enrich-api
+- collection_type: open
+  name: Unified.to account environment API
+  slug: open-unified-to-environment-api
+- collection_type: open
+  name: Unified.to account event API
+  slug: open-unified-to-event-api
+- collection_type: open
+  name: Unified.to account expense API
+  slug: open-unified-to-expense-api
+- collection_type: open
+  name: Unified.to account file API
+  slug: open-unified-to-file-api
+- collection_type: open
+  name: Unified.to account form API
+  slug: open-unified-to-form-api
+- collection_type: open
+  name: Unified.to account forms API
+  slug: open-unified-to-forms-api
+- collection_type: open
+  name: Unified.to account genai API
+  slug: open-unified-to-genai-api
+- collection_type: open
+  name: Unified.to account group API
+  slug: open-unified-to-group-api
+- collection_type: open
+  name: Unified.to account hris API
+  slug: open-unified-to-hris-api
+- collection_type: open
+  name: Unified.to account insertionorder API
+  slug: open-unified-to-insertionorder-api
+- collection_type: open
+  name: Unified.to account instructor API
+  slug: open-unified-to-instructor-api
+- collection_type: open
+  name: Unified.to account integration API
+  slug: open-unified-to-integration-api
+- collection_type: open
+  name: Unified.to account interview API
+  slug: open-unified-to-interview-api
+- collection_type: open
+  name: Unified.to account inventory API
+  slug: open-unified-to-inventory-api
+- collection_type: open
+  name: Unified.to account invoice API
+  slug: open-unified-to-invoice-api
+- collection_type: open
+  name: Unified.to account issue API
+  slug: open-unified-to-issue-api
+- collection_type: open
+  name: Unified.to account item API
+  slug: open-unified-to-item-api
+- collection_type: open
+  name: Unified.to account itemvariant API
+  slug: open-unified-to-itemvariant-api
+- collection_type: open
+  name: Unified.to account job API
+  slug: open-unified-to-job-api
+- collection_type: open
+  name: Unified.to account journal API
+  slug: open-unified-to-journal-api
+- collection_type: open
+  name: Unified.to account kms API
+  slug: open-unified-to-kms-api
+- collection_type: open
+  name: Unified.to account label API
+  slug: open-unified-to-label-api
+- collection_type: open
+  name: Unified.to account lead API
+  slug: open-unified-to-lead-api
+- collection_type: open
+  name: Unified.to account link API
+  slug: open-unified-to-link-api
+- collection_type: open
+  name: Unified.to account list API
+  slug: open-unified-to-list-api
+- collection_type: open
+  name: Unified.to account lms API
+  slug: open-unified-to-lms-api
+- collection_type: open
+  name: Unified.to account location API
+  slug: open-unified-to-location-api
+- collection_type: open
+  name: Unified.to account login API
+  slug: open-unified-to-login-api
+- collection_type: open
+  name: Unified.to account martech API
+  slug: open-unified-to-martech-api
+- collection_type: open
+  name: Unified.to account member API
+  slug: open-unified-to-member-api
+- collection_type: open
+  name: Unified.to account message API
+  slug: open-unified-to-message-api
+- collection_type: open
+  name: Unified.to account messaging API
+  slug: open-unified-to-messaging-api
+- collection_type: open
+  name: Unified.to account metadata API
+  slug: open-unified-to-metadata-api
+- collection_type: open
+  name: Unified.to account model API
+  slug: open-unified-to-model-api
+- collection_type: open
+  name: Unified.to account note API
+  slug: open-unified-to-note-api
+- collection_type: open
+  name: Unified.to account order API
+  slug: open-unified-to-order-api
+- collection_type: open
+  name: Unified.to account organization API
+  slug: open-unified-to-organization-api
+- collection_type: open
+  name: Unified.to account package API
+  slug: open-unified-to-package-api
+- collection_type: open
+  name: Unified.to account page API
+  slug: open-unified-to-page-api
+- collection_type: open
+  name: Unified.to account passthrough API
+  slug: open-unified-to-passthrough-api
+- collection_type: open
+  name: Unified.to account payment API
+  slug: open-unified-to-payment-api
+- collection_type: open
+  name: Unified.to account payout API
+  slug: open-unified-to-payout-api
+- collection_type: open
+  name: Unified.to account payslip API
+  slug: open-unified-to-payslip-api
+- collection_type: open
+  name: Unified.to account person API
+  slug: open-unified-to-person-api
+- collection_type: open
+  name: Unified.to account pipeline API
+  slug: open-unified-to-pipeline-api
+- collection_type: open
+  name: Unified.to account profitloss API
+  slug: open-unified-to-profitloss-api
+- collection_type: open
+  name: Unified.to account project API
+  slug: open-unified-to-project-api
+- collection_type: open
+  name: Unified.to account promoted API
+  slug: open-unified-to-promoted-api
+- collection_type: open
+  name: Unified.to account prompt API
+  slug: open-unified-to-prompt-api
+- collection_type: open
+  name: Unified.to account pullrequest API
+  slug: open-unified-to-pullrequest-api
+- collection_type: open
+  name: Unified.to account purchaseorder API
+  slug: open-unified-to-purchaseorder-api
+- collection_type: open
+  name: Unified.to account rate API
+  slug: open-unified-to-rate-api
+- collection_type: open
+  name: Unified.to account recording API
+  slug: open-unified-to-recording-api
+- collection_type: open
+  name: Unified.to account refund API
+  slug: open-unified-to-refund-api
+- collection_type: open
+  name: Unified.to account repo API
+  slug: open-unified-to-repo-api
+- collection_type: open
+  name: Unified.to account report API
+  slug: open-unified-to-report-api
+- collection_type: open
+  name: Unified.to account repository API
+  slug: open-unified-to-repository-api
+- collection_type: open
+  name: Unified.to account request API
+  slug: open-unified-to-request-api
+- collection_type: open
+  name: Unified.to account reservation API
+  slug: open-unified-to-reservation-api
+- collection_type: open
+  name: Unified.to account saleschannel API
+  slug: open-unified-to-saleschannel-api
+- collection_type: open
+  name: Unified.to account salesorder API
+  slug: open-unified-to-salesorder-api
+- collection_type: open
+  name: Unified.to account scim API
+  slug: open-unified-to-scim-api
+- collection_type: open
+  name: Unified.to account scorecard API
+  slug: open-unified-to-scorecard-api
+- collection_type: open
+  name: Unified.to account shipment API
+  slug: open-unified-to-shipment-api
+- collection_type: open
+  name: Unified.to account shipping API
+  slug: open-unified-to-shipping-api
+- collection_type: open
+  name: Unified.to account signatory API
+  slug: open-unified-to-signatory-api
+- collection_type: open
+  name: Unified.to account signing API
+  slug: open-unified-to-signing-api
+- collection_type: open
+  name: Unified.to account space API
+  slug: open-unified-to-space-api
+- collection_type: open
+  name: Unified.to account storage API
+  slug: open-unified-to-storage-api
+- collection_type: open
+  name: Unified.to account student API
+  slug: open-unified-to-student-api
+- collection_type: open
+  name: Unified.to account submission API
+  slug: open-unified-to-submission-api
+- collection_type: open
+  name: Unified.to account subscription API
+  slug: open-unified-to-subscription-api
+- collection_type: open
+  name: Unified.to account target API
+  slug: open-unified-to-target-api
+- collection_type: open
+  name: Unified.to account task API
+  slug: open-unified-to-task-api
+- collection_type: open
+  name: Unified.to account taxrate API
+  slug: open-unified-to-taxrate-api
+- collection_type: open
+  name: Unified.to account template API
+  slug: open-unified-to-template-api
+- collection_type: open
+  name: Unified.to account ticket API
+  slug: open-unified-to-ticket-api
+- collection_type: open
+  name: Unified.to account ticketing API
+  slug: open-unified-to-ticketing-api
+- collection_type: open
+  name: Unified.to account timeoff API
+  slug: open-unified-to-timeoff-api
+- collection_type: open
+  name: Unified.to account timeshift API
+  slug: open-unified-to-timeshift-api
+- collection_type: open
+  name: Unified.to account tracking API
+  slug: open-unified-to-tracking-api
+- collection_type: open
+  name: Unified.to account transaction API
+  slug: open-unified-to-transaction-api
+- collection_type: open
+  name: Unified.to account trialbalance API
+  slug: open-unified-to-trialbalance-api
+- collection_type: open
+  name: Unified.to account uc API
+  slug: open-unified-to-uc-api
+- collection_type: open
+  name: .to account unified API
+  slug: open-unified-to-unified-api
+- collection_type: open
+  name: Unified.to account user API
+  slug: open-unified-to-user-api
+- collection_type: open
+  name: Unified.to account verification API
+  slug: open-unified-to-verification-api
+- collection_type: open
+  name: Unified.to account webhook API
+  slug: open-unified-to-webhook-api
+- collection_type: open
+  name: Unified.to account webinar API
+  slug: open-unified-to-webinar-api
 common:
 - group: build
   title: ''
@@ -4514,7 +4928,7 @@ plans:
 - name: Unified To Plans Pricing
   plan_count: 4
   slug: unified-to-plans-pricing
-random_paper: 52
+random_paper: 118
 rate_limits:
 - limit_count: 3
   name: Unified To Rate Limits
@@ -4556,7 +4970,7 @@ score:
       marker_coverage: 0.0
       total: 138
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:

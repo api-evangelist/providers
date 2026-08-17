@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,7 +31,14 @@ apis:
 - description: Submit images for recognition and retrieve the resulting annotation.
   name: CloudSight Images API
   slug: cloudsight-images-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CloudSight Images API
+  slug: open-cloudsight-images-api
 common:
 - group: other
   title: ''
@@ -145,7 +152,7 @@ overview: 'CloudSight publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   CloudSight''s developer surface includes documentation, support, authentication, code examples, changelog, sandbox, and 18 more developer resources.'
-random_paper: 118
+random_paper: 35
 score:
   band: developing
   composite: 43.5
@@ -169,7 +176,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

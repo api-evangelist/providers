@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -81,7 +81,44 @@ apis:
 - description: Email and ticket verification operations for confirming user actions
   name: Nhost verification API
   slug: nhost-verification-api
-artifact_total: 31
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nhost authentication API
+  slug: open-nhost-authentication-api
+- collection_type: open
+  name: Nhost authentication documentation API
+  slug: open-nhost-documentation-api
+- collection_type: open
+  name: Nhost authentication excludeme API
+  slug: open-nhost-excludeme-api
+- collection_type: open
+  name: Nhost authentication files API
+  slug: open-nhost-files-api
+- collection_type: open
+  name: Nhost authentication operations API
+  slug: open-nhost-operations-api
+- collection_type: open
+  name: Nhost authentication security API
+  slug: open-nhost-security-api
+- collection_type: open
+  name: Nhost authentication session API
+  slug: open-nhost-session-api
+- collection_type: open
+  name: Nhost authentication storage API
+  slug: open-nhost-storage-api
+- collection_type: open
+  name: Nhost authentication system API
+  slug: open-nhost-system-api
+- collection_type: open
+  name: Nhost authentication user API
+  slug: open-nhost-user-api
+- collection_type: open
+  name: Nhost authentication verification API
+  slug: open-nhost-verification-api
 common:
 - group: agent
   title: ''
@@ -207,7 +244,7 @@ plans:
 - name: Nhost Plans Pricing
   plan_count: 4
   slug: nhost-plans-pricing
-random_paper: 76
+random_paper: 109
 rate_limits:
 - limit_count: 0
   name: Nhost Rate Limits
@@ -241,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/screenshots/nhost-2026-06-20T190311.png
 security:

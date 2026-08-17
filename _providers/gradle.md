@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Endpoints related to Develocity authentication and authorization. The permissions required for these endpoints vary. Consult the endpoint descriptions.
@@ -65,7 +65,44 @@ apis:
 - description: Endpoints related to retrieving details of tests of the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission. The Develocity installation als
   name: Gradle Tests API
   slug: gradle-tests-api
-artifact_total: 16
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Develocity Auth API
+  slug: open-gradle-auth-api
+- collection_type: open
+  name: Develocity Auth BuildCache API
+  slug: open-gradle-buildcache-api
+- collection_type: open
+  name: Develocity Auth Builds API
+  slug: open-gradle-builds-api
+- collection_type: open
+  name: Develocity Auth Comparison API
+  slug: open-gradle-comparison-api
+- collection_type: open
+  name: Auth Develocity API
+  slug: open-gradle-develocity-api
+- collection_type: open
+  name: Develocity Auth Failures API
+  slug: open-gradle-failures-api
+- collection_type: open
+  name: Develocity Auth GradleEnterprise API
+  slug: open-gradle-gradleenterprise-api
+- collection_type: open
+  name: Develocity Auth Meta API
+  slug: open-gradle-meta-api
+- collection_type: open
+  name: Develocity Auth Projects API
+  slug: open-gradle-projects-api
+- collection_type: open
+  name: Develocity Auth TestDistribution API
+  slug: open-gradle-testdistribution-api
+- collection_type: open
+  name: Develocity Auth Tests API
+  slug: open-gradle-tests-api
 common:
 - group: start
   title: ''
@@ -219,7 +256,7 @@ overview: 'Gradle publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Gradle''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 23
+random_paper: 27
 score:
   band: strong
   composite: 57.8
@@ -242,7 +279,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/screenshots/gradle-2026-07-25T220203.png
 security:

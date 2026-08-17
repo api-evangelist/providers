@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Business review excerpts and ratings
   name: Yelp Reviews API
   slug: yelp-reviews-api
-artifact_total: 80
+artifact_total: 85
 collections:
 - collection_type: postman
   name: Yelp Fusion AI API
@@ -71,6 +71,21 @@ collections:
 - collection_type: postman
   name: Yelp Fusion AI Reviews API
   slug: postman-yelp-reviews-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yelp Fusion AI API
+  slug: open-yelp-ai-api
+- collection_type: open
+  name: Yelp Fusion AI Businesses API
+  slug: open-yelp-businesses-api
+- collection_type: open
+  name: Yelp Fusion AI Categories API
+  slug: open-yelp-categories-api
+- collection_type: open
+  name: Yelp Fusion AI Events API
+  slug: open-yelp-events-api
 - collection_type: open
   name: Yelp Fusion API
   slug: open-yelp
@@ -404,7 +419,7 @@ plans:
 - name: Yelp Plans Pricing
   plan_count: 5
   slug: yelp-plans-pricing
-random_paper: 82
+random_paper: 144
 rate_limits:
 - limit_count: 4
   name: Yelp Rate Limits
@@ -446,7 +461,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png
 security:

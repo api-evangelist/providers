@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Market order creation and execution
@@ -40,7 +40,20 @@ apis:
 - description: Service and execution-provider health
   name: Rift Status API
   slug: rift-status-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rift Router Orders API
+  slug: open-rift-orders-api
+- collection_type: open
+  name: Rift Router Orders Quotes API
+  slug: open-rift-quotes-api
+- collection_type: open
+  name: Rift Router Orders Status API
+  slug: open-rift-status-api
 common:
 - group: company
   title: ''
@@ -134,7 +147,7 @@ overview: 'Rift publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ord
 
 
   Rift''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 77
+random_paper: 139
 score:
   band: thin
   composite: 32.8
@@ -163,7 +176,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

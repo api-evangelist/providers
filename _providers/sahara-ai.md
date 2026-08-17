@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: OpenAI-compatible chat completion inference.
   name: Sahara AI Inference API
   slug: sahara-ai-inference-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sahara AI Compute Discovery API
+  slug: open-sahara-ai-discovery-api
+- collection_type: open
+  name: Sahara AI Compute Discovery Inference API
+  slug: open-sahara-ai-inference-api
 common:
 - group: other
   title: ''
@@ -150,7 +160,7 @@ overview: 'Sahara AI publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sahara AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 15 more developer resources.'
-random_paper: 31
+random_paper: 126
 score:
   band: developing
   composite: 45.5
@@ -174,7 +184,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

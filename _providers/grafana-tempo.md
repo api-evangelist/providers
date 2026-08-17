@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,29 @@ apis:
 - description: The Traces API from Grafana Tempo — 1 operation(s) for traces.
   name: Grafana Tempo Traces API
   slug: grafana-tempo-traces-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Grafana Tempo HTTP Echo API
+  slug: open-grafana-tempo-echo-api
+- collection_type: open
+  name: Grafana Tempo HTTP Echo Metrics API
+  slug: open-grafana-tempo-metrics-api
+- collection_type: open
+  name: Grafana Tempo HTTP Echo Ready API
+  slug: open-grafana-tempo-ready-api
+- collection_type: open
+  name: Grafana Tempo HTTP Echo Search API
+  slug: open-grafana-tempo-search-api
+- collection_type: open
+  name: Grafana Tempo HTTP Echo Status API
+  slug: open-grafana-tempo-status-api
+- collection_type: open
+  name: Grafana Tempo HTTP Echo Traces API
+  slug: open-grafana-tempo-traces-api
 - collection_type: open
   name: Grafana Tempo HTTP API
   slug: open-tempo-http-api
@@ -125,7 +146,7 @@ plans:
 - name: Grafana Tempo Plans Pricing
   plan_count: 3
   slug: grafana-tempo-plans-pricing
-random_paper: 114
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Grafana Tempo Rate Limits
@@ -159,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/screenshots/grafana-tempo-2026-06-20T182315.png
 security:

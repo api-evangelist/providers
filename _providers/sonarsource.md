@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -137,7 +137,110 @@ apis:
 - description: Get information on the web api supported on this instance.
   name: SonarSource webservices API
   slug: sonarsource-webservices-api
-artifact_total: 37
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SonarQube Cloud Web authentication API
+  slug: open-sonarsource-authentication-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication ce API
+  slug: open-sonarsource-ce-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication components API
+  slug: open-sonarsource-components-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication duplications API
+  slug: open-sonarsource-duplications-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication favorites API
+  slug: open-sonarsource-favorites-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication favourites API
+  slug: open-sonarsource-favourites-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication hotspots API
+  slug: open-sonarsource-hotspots-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication issues API
+  slug: open-sonarsource-issues-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication languages API
+  slug: open-sonarsource-languages-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication measures API
+  slug: open-sonarsource-measures-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication metrics API
+  slug: open-sonarsource-metrics-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication notifications API
+  slug: open-sonarsource-notifications-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication permissions API
+  slug: open-sonarsource-permissions-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication project_analyses API
+  slug: open-sonarsource-project-analyses-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication project_badges API
+  slug: open-sonarsource-project-badges-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication project_branches API
+  slug: open-sonarsource-project-branches-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication project_links API
+  slug: open-sonarsource-project-links-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication project_pull_requests API
+  slug: open-sonarsource-project-pull-requests-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication project_tags API
+  slug: open-sonarsource-project-tags-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication projects API
+  slug: open-sonarsource-projects-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication properties API
+  slug: open-sonarsource-properties-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication qualitygates API
+  slug: open-sonarsource-qualitygates-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication qualityprofiles API
+  slug: open-sonarsource-qualityprofiles-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication rules API
+  slug: open-sonarsource-rules-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication settings API
+  slug: open-sonarsource-settings-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication sources API
+  slug: open-sonarsource-sources-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication timemachine API
+  slug: open-sonarsource-timemachine-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication user_groups API
+  slug: open-sonarsource-user-groups-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication user_properties API
+  slug: open-sonarsource-user-properties-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication user_tokens API
+  slug: open-sonarsource-user-tokens-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication users API
+  slug: open-sonarsource-users-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication webhooks API
+  slug: open-sonarsource-webhooks-api
+- collection_type: open
+  name: SonarQube Cloud Web authentication webservices API
+  slug: open-sonarsource-webservices-api
 common:
 - group: auth
   title: ''
@@ -279,7 +382,7 @@ overview: 'SonarSource publishes 33 APIs on the [APIs.io](https://apis.io/) netw
 
 
   SonarSource''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
   band: developing
   composite: 54.7
@@ -303,7 +406,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

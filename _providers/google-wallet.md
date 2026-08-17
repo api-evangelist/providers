@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - description: Manage loyalty card classes and objects
   name: Google Wallet Loyalty Cards API
   slug: google-wallet-loyalty-cards-api
-artifact_total: 20
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Google Wallet Event Tickets API
@@ -70,6 +70,24 @@ collections:
 - collection_type: postman
   name: Google Wallet Event Tickets Loyalty Cards API
   slug: postman-google-wallet-loyalty-cards-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Wallet Event Tickets API
+  slug: open-google-wallet-event-tickets-api
+- collection_type: open
+  name: Google Wallet Event Tickets Generic Passes API
+  slug: open-google-wallet-generic-passes-api
+- collection_type: open
+  name: Google Wallet Event Tickets Issuers API
+  slug: open-google-wallet-issuers-api
+- collection_type: open
+  name: Google Wallet Event Tickets JWT API
+  slug: open-google-wallet-jwt-api
+- collection_type: open
+  name: Google Wallet Event Tickets Loyalty Cards API
+  slug: open-google-wallet-loyalty-cards-api
 - collection_type: open
   name: Google Wallet API
   slug: open-openapi
@@ -162,7 +180,7 @@ plans:
 - name: Google Wallet Plans Pricing
   plan_count: 3
   slug: google-wallet-plans-pricing
-random_paper: 11
+random_paper: 139
 rate_limits:
 - limit_count: 5
   name: Google Wallet Rate Limits
@@ -202,7 +220,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/screenshots/google-wallet-2026-06-20T182248.png
 security:

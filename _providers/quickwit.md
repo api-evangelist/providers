@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -59,7 +59,32 @@ apis:
 - description: Configure data sources such as Kafka, Kinesis, and Pulsar
   name: Quickwit Sources API
   slug: quickwit-sources-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quickwit REST Cluster API
+  slug: open-quickwit-cluster-api
+- collection_type: open
+  name: Quickwit REST Cluster Delete Tasks API
+  slug: open-quickwit-delete-tasks-api
+- collection_type: open
+  name: Quickwit REST Cluster Index Templates API
+  slug: open-quickwit-index-templates-api
+- collection_type: open
+  name: Quickwit REST Cluster Indexes API
+  slug: open-quickwit-indexes-api
+- collection_type: open
+  name: Quickwit REST Cluster Ingest API
+  slug: open-quickwit-ingest-api
+- collection_type: open
+  name: Quickwit REST Cluster Search API
+  slug: open-quickwit-search-api
+- collection_type: open
+  name: Quickwit REST Cluster Sources API
+  slug: open-quickwit-sources-api
 common:
 - group: commercial
   title: ''
@@ -145,7 +170,7 @@ plans:
 - name: Quickwit Plans Pricing
   plan_count: 1
   slug: quickwit-plans-pricing
-random_paper: 41
+random_paper: 136
 rate_limits:
 - limit_count: 4
   name: Quickwit Rate Limits
@@ -170,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/screenshots/quickwit-2026-06-20T192434.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: S3-compatible object CRUD, tagging, and tiering operations.
   name: Tigris Objects API
   slug: tigris-data-objects-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tigris Object Storage (S3-Compatible) Buckets API
+  slug: open-tigris-data-buckets-api
+- collection_type: open
+  name: Tigris Object Storage (S3-Compatible) Buckets Multipart API
+  slug: open-tigris-data-multipart-api
+- collection_type: open
+  name: Tigris Object Storage (S3-Compatible) Buckets Objects API
+  slug: open-tigris-data-objects-api
 - collection_type: open
   name: Tigris Object Storage (S3-Compatible) API
   slug: open-tigris-data
@@ -122,7 +134,7 @@ plans:
 - name: Tigris Data Plans Pricing
   plan_count: 3
   slug: tigris-data-plans-pricing
-random_paper: 33
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Tigris Data Rate Limits
@@ -147,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/screenshots/tigris-data-2026-06-20T195343.png
 security:

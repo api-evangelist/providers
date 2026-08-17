@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -64,8 +64,38 @@ apis:
 - description: Subaward (pass-through award) listings scoped to a prime award.
   name: USAspending.gov Subawards API
   slug: usaspending-subawards-api
-artifact_total: 13
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USAspending Agency API
+  slug: open-usaspending-agency-api
+- collection_type: open
+  name: USAspending Agency Awards Search API
+  slug: open-usaspending-awards-search-api
+- collection_type: open
+  name: USAspending Agency Budget Functions API
+  slug: open-usaspending-budget-functions-api
+- collection_type: open
+  name: USAspending Agency Bulk Download API
+  slug: open-usaspending-bulk-download-api
+- collection_type: open
+  name: USAspending Agency Disaster API
+  slug: open-usaspending-disaster-api
+- collection_type: open
+  name: USAspending Agency Federal Accounts API
+  slug: open-usaspending-federal-accounts-api
+- collection_type: open
+  name: USAspending Agency Recipient API
+  slug: open-usaspending-recipient-api
+- collection_type: open
+  name: USAspending Agency References API
+  slug: open-usaspending-references-api
+- collection_type: open
+  name: USAspending Agency Subawards API
+  slug: open-usaspending-subawards-api
 - collection_type: open
   name: USAspending API
   slug: open-usaspending
@@ -106,7 +136,7 @@ overview: 'USAspending.gov publishes 9 APIs on the [APIs.io](https://apis.io/) n
 
 
   USAspending.gov''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 105
+random_paper: 142
 rate_limits:
 - limit_count: 3
   name: Usaspending Rate Limits
@@ -137,7 +167,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

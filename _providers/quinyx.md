@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -147,7 +147,116 @@ arazzos:
 - description: Create an organizational group, create an employee, and assign a role using the Quinyx API v3.
   name: Onboard an employee in Quinyx
   slug: quinyx-onboard-employee
-artifact_total: 41
+artifact_total: 77
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quinyx Absence Schedules API
+  slug: open-quinyx-absence-schedules-api
+- collection_type: open
+  name: Quinyx Absence Schedules Absence Types API
+  slug: open-quinyx-absence-types-api
+- collection_type: open
+  name: Quinyx Absence Schedules Absences API
+  slug: open-quinyx-absences-api
+- collection_type: open
+  name: Quinyx Absence Schedules Access Token API
+  slug: open-quinyx-access-token-api
+- collection_type: open
+  name: Quinyx Absence Schedules Agreements API
+  slug: open-quinyx-agreements-api
+- collection_type: open
+  name: Quinyx Absence Schedules AI Scheduled Headcount API
+  slug: open-quinyx-ai-scheduled-headcount-api
+- collection_type: open
+  name: Quinyx Absence Schedules Authentication API
+  slug: open-quinyx-authentication-api
+- collection_type: open
+  name: Quinyx Absence Schedules Collaboration Groups API
+  slug: open-quinyx-collaboration-groups-api
+- collection_type: open
+  name: Quinyx Absence Schedules Collaboration Groups Labels API
+  slug: open-quinyx-collaboration-groups-labels-api
+- collection_type: open
+  name: Quinyx Absence Schedules Employee API
+  slug: open-quinyx-employee-api
+- collection_type: open
+  name: Quinyx Absence Schedules Employees API
+  slug: open-quinyx-employees-api
+- collection_type: open
+  name: Quinyx Absence Schedules Forecast Data API
+  slug: open-quinyx-forecast-data-api
+- collection_type: open
+  name: Quinyx Absence Schedules Forecast Dynamic Rules API
+  slug: open-quinyx-forecast-dynamic-rules-api
+- collection_type: open
+  name: Quinyx Absence Schedules Forecast Event Categories API
+  slug: open-quinyx-forecast-event-categories-api
+- collection_type: open
+  name: Quinyx Absence Schedules Forecast Event Effects API
+  slug: open-quinyx-forecast-event-effects-api
+- collection_type: open
+  name: Quinyx Absence Schedules Forecast Events API
+  slug: open-quinyx-forecast-events-api
+- collection_type: open
+  name: Quinyx Absence Schedules Forecast Optimal Headcounts API
+  slug: open-quinyx-forecast-optimal-headcounts-api
+- collection_type: open
+  name: Quinyx Absence Schedules Forecast Static Rules API
+  slug: open-quinyx-forecast-static-rules-api
+- collection_type: open
+  name: Quinyx Absence Schedules Forecast Target Data API
+  slug: open-quinyx-forecast-target-data-api
+- collection_type: open
+  name: Quinyx Absence Schedules Group API
+  slug: open-quinyx-group-api
+- collection_type: open
+  name: Quinyx Absence Schedules Group Locations API
+  slug: open-quinyx-group-locations-api
+- collection_type: open
+  name: Quinyx Absence Schedules Groups API
+  slug: open-quinyx-groups-api
+- collection_type: open
+  name: Quinyx Absence Schedules Labor Standards API
+  slug: open-quinyx-labor-standards-api
+- collection_type: open
+  name: Quinyx Absence Schedules Leave Applications API
+  slug: open-quinyx-leave-applications-api
+- collection_type: open
+  name: Quinyx Absence Schedules Leave Reasons API
+  slug: open-quinyx-leave-reasons-api
+- collection_type: open
+  name: Quinyx Absence Schedules Mappings API
+  slug: open-quinyx-mappings-api
+- collection_type: open
+  name: Quinyx Absence Schedules Opening Hours API
+  slug: open-quinyx-opening-hours-api
+- collection_type: open
+  name: Quinyx Absence Schedules Pay Schedules API
+  slug: open-quinyx-pay-schedules-api
+- collection_type: open
+  name: Quinyx Absence Schedules Role API
+  slug: open-quinyx-role-api
+- collection_type: open
+  name: Quinyx Absence Schedules Role Assignment API
+  slug: open-quinyx-role-assignment-api
+- collection_type: open
+  name: Quinyx Absence Schedules Schedule Availability API
+  slug: open-quinyx-schedule-availability-api
+- collection_type: open
+  name: Quinyx Absence Schedules Shift API
+  slug: open-quinyx-shift-api
+- collection_type: open
+  name: Quinyx Absence Schedules Shifts API
+  slug: open-quinyx-shifts-api
+- collection_type: open
+  name: Quinyx Absence Schedules Standard Variables API
+  slug: open-quinyx-standard-variables-api
+- collection_type: open
+  name: Quinyx Absence Schedules Tags API
+  slug: open-quinyx-tags-api
 common:
 - group: other
   title: ''
@@ -277,7 +386,7 @@ overview: 'Quinyx publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 86
+random_paper: 90
 scopes:
 - name: Quinyx Scopes
   scope_count: 14
@@ -306,7 +415,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

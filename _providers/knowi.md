@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -57,14 +57,35 @@ apis:
 - description: Manage workspace users.
   name: Knowi Users API
   slug: knowi-users-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Knowi Management Authentication API
+  slug: open-knowi-authentication-api
+- collection_type: open
+  name: Knowi Management Authentication Dashboards API
+  slug: open-knowi-dashboards-api
+- collection_type: open
+  name: Knowi Management Authentication Groups API
+  slug: open-knowi-groups-api
 - collection_type: open
   name: Knowi Management API
   slug: open-knowi-management-api
 - collection_type: open
+  name: Knowi Management Authentication Pull API
+  slug: open-knowi-pull-api
+- collection_type: open
+  name: Knowi Management Authentication Push API
+  slug: open-knowi-push-api
+- collection_type: open
   name: Knowi Push Data API
   slug: open-knowi-push-data-api
+- collection_type: open
+  name: Knowi Management Authentication Users API
+  slug: open-knowi-users-api
 common:
 - group: agent
   title: ''
@@ -142,7 +163,7 @@ plans:
 - name: Knowi Plans Pricing
   plan_count: 3
   slug: knowi-plans-pricing
-random_paper: 72
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Knowi Rate Limits
@@ -167,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/screenshots/knowi-2026-06-20T184113.png
 security:

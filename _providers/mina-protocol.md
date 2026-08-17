@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Native GraphQL API served by the Mina daemon (default port 3085) to query blockchain data — accounts, blocks, transactions, pending pool, daemon status — and submit signed transactions including zkApp
@@ -115,7 +115,7 @@ overview: 'Mina Protocol publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mina Protocol''s developer surface includes documentation, API reference, getting-started guide, changelog, CLI, sandbox, authentication, and 9 more developer resources.'
-random_paper: 28
+random_paper: 7
 score:
   band: emerging
   composite: 24.0
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/screenshots/mina-protocol-2026-08-07T172922.png
 security:

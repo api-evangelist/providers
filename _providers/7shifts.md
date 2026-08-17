@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -84,8 +84,56 @@ apis:
 - description: Company-level webhook subscriptions.
   name: 7shifts Webhooks API
   slug: 7shifts-webhooks-api
-artifact_total: 63
+artifact_total: 79
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 7shifts Availability API
+  slug: open-7shifts-availability-api
+- collection_type: open
+  name: 7shifts Availability Companies API
+  slug: open-7shifts-companies-api
+- collection_type: open
+  name: 7shifts Availability Departments API
+  slug: open-7shifts-departments-api
+- collection_type: open
+  name: 7shifts Availability Identity API
+  slug: open-7shifts-identity-api
+- collection_type: open
+  name: 7shifts Availability Locations API
+  slug: open-7shifts-locations-api
+- collection_type: open
+  name: 7shifts Availability OAuth API
+  slug: open-7shifts-oauth-api
+- collection_type: open
+  name: 7shifts Availability Reporting API
+  slug: open-7shifts-reporting-api
+- collection_type: open
+  name: 7shifts Availability Roles API
+  slug: open-7shifts-roles-api
+- collection_type: open
+  name: 7shifts Availability Sales API
+  slug: open-7shifts-sales-api
+- collection_type: open
+  name: 7shifts Availability Shifts API
+  slug: open-7shifts-shifts-api
+- collection_type: open
+  name: 7shifts Availability Time Off API
+  slug: open-7shifts-time-off-api
+- collection_type: open
+  name: 7shifts Availability Time Punches API
+  slug: open-7shifts-time-punches-api
+- collection_type: open
+  name: 7shifts Availability Users API
+  slug: open-7shifts-users-api
+- collection_type: open
+  name: 7shifts Availability Wages API
+  slug: open-7shifts-wages-api
+- collection_type: open
+  name: 7shifts Availability Webhooks API
+  slug: open-7shifts-webhooks-api
 - collection_type: open
   name: 7shifts API
   slug: open-7shifts
@@ -313,7 +361,7 @@ plans:
 - name: 7Shifts Plans Pricing
   plan_count: 4
   slug: 7shifts-plans-pricing
-random_paper: 112
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: 7Shifts Rate Limits
@@ -360,7 +408,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/screenshots/7shifts-2026-06-20T162818.png
 security:

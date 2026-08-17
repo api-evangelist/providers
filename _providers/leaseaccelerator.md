@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: The Documents API from LeaseAccelerator — 4 operation(s) for documents.
@@ -58,7 +58,38 @@ apis:
 - description: The User Provisioning API from LeaseAccelerator — 3 operation(s) for user provisioning.
   name: LeaseAccelerator User Provisioning API
   slug: leaseaccelerator-user-provisioning-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LeaseAccelerator Documents API
+  slug: open-leaseaccelerator-documents-api
+- collection_type: open
+  name: LeaseAccelerator Documents Events API
+  slug: open-leaseaccelerator-events-api
+- collection_type: open
+  name: LeaseAccelerator Documents Financials API
+  slug: open-leaseaccelerator-financials-api
+- collection_type: open
+  name: LeaseAccelerator Documents Portfolio API
+  slug: open-leaseaccelerator-portfolio-api
+- collection_type: open
+  name: LeaseAccelerator Documents Process Status API
+  slug: open-leaseaccelerator-process-status-api
+- collection_type: open
+  name: LeaseAccelerator Documents Reference Data API
+  slug: open-leaseaccelerator-reference-data-api
+- collection_type: open
+  name: LeaseAccelerator Documents Reporting API
+  slug: open-leaseaccelerator-reporting-api
+- collection_type: open
+  name: LeaseAccelerator Documents Search API
+  slug: open-leaseaccelerator-search-api
+- collection_type: open
+  name: LeaseAccelerator Documents User Provisioning API
+  slug: open-leaseaccelerator-user-provisioning-api
 common:
 - group: other
   title: ''
@@ -204,7 +235,7 @@ overview: 'LeaseAccelerator publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   LeaseAccelerator''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 119
+random_paper: 40
 score:
   band: developing
   composite: 54.2
@@ -227,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/screenshots/leaseaccelerator-2026-07-25T224805.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -69,7 +69,7 @@ arazzos:
 - description: Authenticate, check eligibility, run data processing, capture customer KYC, and send it for review.
   name: CrediLinq — Onboard a customer and complete KYC
   slug: credilinqai-onboard-and-kyc
-artifact_total: 16
+artifact_total: 25
 asyncapis:
 - description: AsyncAPI representation of CrediLinq's documented webhook events. CrediLinq delivers server-to-server notifications via HTTP POST to a partner-configured redirect_url. Payloads are signed with HMAC SH
   name: CrediLinq Webhooks
@@ -77,6 +77,34 @@ asyncapis:
 - description: ''
   name: Credilinqai Webhooks
   slug: credilinqai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CrediLinq Authentication API
+  slug: open-credilinqai-authentication-api
+- collection_type: open
+  name: CrediLinq Authentication Customers API
+  slug: open-credilinqai-customers-api
+- collection_type: open
+  name: CrediLinq Authentication KYC API
+  slug: open-credilinqai-kyc-api
+- collection_type: open
+  name: CrediLinq Authentication Loans API
+  slug: open-credilinqai-loans-api
+- collection_type: open
+  name: CrediLinq Authentication Miscellaneous API
+  slug: open-credilinqai-miscellaneous-api
+- collection_type: open
+  name: CrediLinq Authentication Onboarding API
+  slug: open-credilinqai-onboarding-api
+- collection_type: open
+  name: CrediLinq Authentication Payment API
+  slug: open-credilinqai-payment-api
+- collection_type: open
+  name: CrediLinq Authentication Report API
+  slug: open-credilinqai-report-api
 common:
 - group: company
   title: ''
@@ -217,7 +245,7 @@ overview: 'Credilinq.ai publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Credilinq.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
-random_paper: 77
+random_paper: 114
 score:
   band: developing
   composite: 48.0
@@ -247,7 +275,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/screenshots/credilinqai-2026-07-25T210714.png
 security:

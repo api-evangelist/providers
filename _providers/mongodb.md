@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 240
   human_in_the_loop: 9
@@ -199,7 +199,164 @@ apis:
 - description: Returns, edits, and removes user-managed X.509 configurations. Also returns and generates MongoDB Cloud-managed X.509 certificates for database users. The following resources help manage database user
   name: MongoDB X.509 Authentication API
   slug: mongodb-x-509-authentication-api
-artifact_total: 89
+artifact_total: 141
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking API
+  slug: open-mongodb-access-tracking-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Activity Feed API
+  slug: open-mongodb-activity-feed-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Alert Configurations API
+  slug: open-mongodb-alert-configurations-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Alerts API
+  slug: open-mongodb-alerts-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Atlas Search API
+  slug: open-mongodb-atlas-search-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Auditing API
+  slug: open-mongodb-auditing-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking AWS Clusters DNS API
+  slug: open-mongodb-aws-clusters-dns-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Cloud Backups API
+  slug: open-mongodb-cloud-backups-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Cloud Migration Service API
+  slug: open-mongodb-cloud-migration-service-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Cloud Provider Access API
+  slug: open-mongodb-cloud-provider-access-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Cluster Outage Simulation API
+  slug: open-mongodb-cluster-outage-simulation-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Clusters API
+  slug: open-mongodb-clusters-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Collection Level Metrics API
+  slug: open-mongodb-collection-level-metrics-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Custom Database Roles API
+  slug: open-mongodb-custom-database-roles-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Data Federation API
+  slug: open-mongodb-data-federation-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Data Lake Pipelines API
+  slug: open-mongodb-data-lake-pipelines-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Database Users API
+  slug: open-mongodb-database-users-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Encryption at Rest using Customer Key Management API
+  slug: open-mongodb-encryption-at-rest-using-customer-key-management-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Events API
+  slug: open-mongodb-events-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Federated Authentication API
+  slug: open-mongodb-federated-authentication-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Flex Clusters API
+  slug: open-mongodb-flex-clusters-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Flex Restore Jobs API
+  slug: open-mongodb-flex-restore-jobs-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Flex Snapshots API
+  slug: open-mongodb-flex-snapshots-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Global Clusters API
+  slug: open-mongodb-global-clusters-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Invoices API
+  slug: open-mongodb-invoices-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking LDAP Configuration API
+  slug: open-mongodb-ldap-configuration-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Legacy Backup API
+  slug: open-mongodb-legacy-backup-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Maintenance Windows API
+  slug: open-mongodb-maintenance-windows-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking MongoDB Cloud Users API
+  slug: open-mongodb-mongodb-cloud-users-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Monitoring and Logs API
+  slug: open-mongodb-monitoring-and-logs-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Network Peering API
+  slug: open-mongodb-network-peering-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Online Archive API
+  slug: open-mongodb-online-archive-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Organizations API
+  slug: open-mongodb-organizations-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Performance Advisor API
+  slug: open-mongodb-performance-advisor-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Private Endpoint Services API
+  slug: open-mongodb-private-endpoint-services-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Programmatic API Keys API
+  slug: open-mongodb-programmatic-api-keys-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Project IP Access List API
+  slug: open-mongodb-project-ip-access-list-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Projects API
+  slug: open-mongodb-projects-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Push-Based Log Export API
+  slug: open-mongodb-push-based-log-export-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Query Shape Insights API
+  slug: open-mongodb-query-shape-insights-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Rate Limiting API
+  slug: open-mongodb-rate-limiting-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Resource Policies API
+  slug: open-mongodb-resource-policies-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Rolling Index API
+  slug: open-mongodb-rolling-index-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Root API
+  slug: open-mongodb-root-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Serverless Instances API
+  slug: open-mongodb-serverless-instances-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Serverless Private Endpoints API
+  slug: open-mongodb-serverless-private-endpoints-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Service Accounts API
+  slug: open-mongodb-service-accounts-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Streams API
+  slug: open-mongodb-streams-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Teams API
+  slug: open-mongodb-teams-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking Third-Party Integrations API
+  slug: open-mongodb-third-party-integrations-api
+- collection_type: open
+  name: MongoDB Atlas Administration Access Tracking X.509 Authentication API
+  slug: open-mongodb-x-509-authentication-api
 common:
 - group: agent
   title: ''
@@ -323,7 +480,7 @@ plans:
 - name: Mongodb Plans Pricing
   plan_count: 4
   slug: mongodb-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Mongodb Rate Limits
@@ -353,7 +510,7 @@ score:
       marker_coverage: 0.0
       total: 51
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/screenshots/mongodb-2026-06-20T185729.png
 security:

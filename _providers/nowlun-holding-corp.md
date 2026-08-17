@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Nowlun freight-forwarding capabilities to agents. Requires an access token holding the "mcp" scope.
@@ -96,7 +96,7 @@ overview: 'Nowlun Holding Corp. publishes 1 API on the [APIs.io](https://apis.io
 
 
   Nowlun Holding Corp.''s developer surface includes authentication, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 22
+random_paper: 5
 scopes:
 - name: Nowlun Holding Corp Scopes
   scope_count: 3
@@ -117,7 +117,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/screenshots/nowlun-holding-corp-2026-08-07T185638.png
 security:

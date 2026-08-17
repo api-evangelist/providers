@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -350,7 +350,7 @@ arazzos:
 - description: Create a webinar, add a scheduled session to it, register an attendee, and read the registrant back for their join link.
   name: RingCentral Create a Webinar, Schedule a Session, and Register an Attendee
   slug: ringcentral-webinar-registration-workflow
-artifact_total: 189
+artifact_total: 264
 asyncapis:
 - description: AsyncAPI 2.6 description of the asynchronous event surface exposed by the RingCentral Subscription API. RingCentral delivers events from the RingCentral platform to subscribers via two documented tran
   name: RingCentral Subscriptions and Event Notifications
@@ -579,8 +579,233 @@ collections:
   name: RingCentral Adaptive Cards Webinars and Sessions API
   slug: postman-ringcentral-webinars-and-sessions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RingCentral Adaptive Cards API
+  slug: open-ringcentral-adaptive-cards-api
+- collection_type: open
+  name: RingCentral Adaptive Cards API Info API
+  slug: open-ringcentral-api-info-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Audio API
+  slug: open-ringcentral-audio-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Audit Trail API
+  slug: open-ringcentral-audit-trail-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Automatic Location Updates API
+  slug: open-ringcentral-automatic-location-updates-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Bridge Management API
+  slug: open-ringcentral-bridge-management-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Business Analytics API
+  slug: open-ringcentral-business-analytics-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Business Hours API
+  slug: open-ringcentral-business-hours-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Calendar Events API
+  slug: open-ringcentral-calendar-events-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Call Blocking API
+  slug: open-ringcentral-call-blocking-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Call Control API
+  slug: open-ringcentral-call-control-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Call Forwarding API
+  slug: open-ringcentral-call-forwarding-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Call Handling Rules API
+  slug: open-ringcentral-call-handling-rules-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Call Log API
+  slug: open-ringcentral-call-log-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Call Monitoring Groups API
+  slug: open-ringcentral-call-monitoring-groups-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Call Queues API
+  slug: open-ringcentral-call-queues-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Call Recording Settings API
+  slug: open-ringcentral-call-recording-settings-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Call Recordings API
+  slug: open-ringcentral-call-recordings-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Chats API
+  slug: open-ringcentral-chats-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Company API
+  slug: open-ringcentral-company-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Compliance Exports API
+  slug: open-ringcentral-compliance-exports-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Contents API
+  slug: open-ringcentral-contents-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Conversations API
+  slug: open-ringcentral-conversations-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Custom Fields API
+  slug: open-ringcentral-custom-fields-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Delegation Management API
+  slug: open-ringcentral-delegation-management-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Device SIP Registration API
+  slug: open-ringcentral-device-sip-registration-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Devices API
+  slug: open-ringcentral-devices-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Extensions API
+  slug: open-ringcentral-extensions-api
+- collection_type: open
+  name: RingCentral Adaptive Cards External Contacts API
+  slug: open-ringcentral-external-contacts-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Fax API
+  slug: open-ringcentral-fax-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Features API
+  slug: open-ringcentral-features-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Greetings API
+  slug: open-ringcentral-greetings-api
+- collection_type: open
+  name: RingCentral Adaptive Cards High Volume SMS API
+  slug: open-ringcentral-high-volume-sms-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Historical Recordings API
+  slug: open-ringcentral-historical-recordings-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Historical Webinars API
+  slug: open-ringcentral-historical-webinars-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Identities API
+  slug: open-ringcentral-identities-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Incoming Webhooks API
+  slug: open-ringcentral-incoming-webhooks-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Insights API
+  slug: open-ringcentral-insights-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Internal Contacts API
+  slug: open-ringcentral-internal-contacts-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Invitees API
+  slug: open-ringcentral-invitees-api
+- collection_type: open
+  name: RingCentral Adaptive Cards IVR API
+  slug: open-ringcentral-ivr-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Meeting Recordings API
+  slug: open-ringcentral-meeting-recordings-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Meetings History API
+  slug: open-ringcentral-meetings-history-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Message Exports API
+  slug: open-ringcentral-message-exports-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Message Store API
+  slug: open-ringcentral-message-store-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Multi-Site API
+  slug: open-ringcentral-multi-site-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Notes API
+  slug: open-ringcentral-notes-api
+- collection_type: open
+  name: RingCentral Adaptive Cards OAuth 2.0 / OpenID Connect API
+  slug: open-ringcentral-oauth-2-0-openid-connect-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Pager Messages API
+  slug: open-ringcentral-pager-messages-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Paging Only Groups API
+  slug: open-ringcentral-paging-only-groups-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Phone Numbers API
+  slug: open-ringcentral-phone-numbers-api
+- collection_type: open
   name: RingCentral API
   slug: open-ringcentral-platform
+- collection_type: open
+  name: RingCentral Adaptive Cards Posts API
+  slug: open-ringcentral-posts-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Presence API
+  slug: open-ringcentral-presence-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Profile API
+  slug: open-ringcentral-profile-api
+- collection_type: open
+  name: RingCentral Adaptive Cards RCM Meetings (Legacy) API
+  slug: open-ringcentral-rcm-meetings-legacy-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Regional Settings API
+  slug: open-ringcentral-regional-settings-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Registrants API
+  slug: open-ringcentral-registrants-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Registration Management API
+  slug: open-ringcentral-registration-management-api
+- collection_type: open
+  name: RingCentral Adaptive Cards RingOut API
+  slug: open-ringcentral-ringout-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Role Management API
+  slug: open-ringcentral-role-management-api
+- collection_type: open
+  name: RingCentral Adaptive Cards SCIM API
+  slug: open-ringcentral-scim-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Site Administration API
+  slug: open-ringcentral-site-administration-api
+- collection_type: open
+  name: RingCentral Adaptive Cards SMS API
+  slug: open-ringcentral-sms-api
+- collection_type: open
+  name: RingCentral Adaptive Cards SMS Templates API
+  slug: open-ringcentral-sms-templates-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Status API
+  slug: open-ringcentral-status-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Subscriptions API
+  slug: open-ringcentral-subscriptions-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Tasks API
+  slug: open-ringcentral-tasks-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Teams API
+  slug: open-ringcentral-teams-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Text API
+  slug: open-ringcentral-text-api
+- collection_type: open
+  name: RingCentral Adaptive Cards User Permissions API
+  slug: open-ringcentral-user-permissions-api
+- collection_type: open
+  name: RingCentral Adaptive Cards User Settings API
+  slug: open-ringcentral-user-settings-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Video Configuration API
+  slug: open-ringcentral-video-configuration-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Webinar Subscriptions API
+  slug: open-ringcentral-webinar-subscriptions-api
+- collection_type: open
+  name: RingCentral Adaptive Cards Webinars and Sessions API
+  slug: open-ringcentral-webinars-and-sessions-api
 common:
 - group: auth
   title: ''
@@ -837,7 +1062,7 @@ plans:
 - name: Ringcentral Plans Pricing
   plan_count: 5
   slug: ringcentral-plans-pricing
-random_paper: 97
+random_paper: 134
 rate_limits:
 - limit_count: 4
   name: Ringcentral Rate Limits
@@ -884,7 +1109,7 @@ score:
     regime_id: telecommunications
     score: 54.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png
 security:

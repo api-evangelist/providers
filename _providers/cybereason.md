@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -69,8 +69,38 @@ apis:
 - description: The VisualSearch API from Cybereason — 1 operation(s) for visualsearch.
   name: Cybereason VisualSearch API
   slug: cybereason-visualsearch-api
-artifact_total: 38
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cybereason Authentication API
+  slug: open-cybereason-authentication-api
+- collection_type: open
+  name: Cybereason Authentication CustomDetectionRules API
+  slug: open-cybereason-customdetectionrules-api
+- collection_type: open
+  name: Cybereason Authentication IsolationRules API
+  slug: open-cybereason-isolationrules-api
+- collection_type: open
+  name: Cybereason Authentication Malops API
+  slug: open-cybereason-malops-api
+- collection_type: open
+  name: Cybereason Authentication Remediation API
+  slug: open-cybereason-remediation-api
+- collection_type: open
+  name: Cybereason Authentication Reputation API
+  slug: open-cybereason-reputation-api
+- collection_type: open
+  name: Cybereason Authentication Sensors API
+  slug: open-cybereason-sensors-api
+- collection_type: open
+  name: Cybereason Authentication ThreatIntel API
+  slug: open-cybereason-threatintel-api
+- collection_type: open
+  name: Cybereason Authentication VisualSearch API
+  slug: open-cybereason-visualsearch-api
 - collection_type: open
   name: Cybereason API
   slug: open-cybereason
@@ -185,7 +215,7 @@ plans:
 - name: Cybereason Plans Pricing
   plan_count: 1
   slug: cybereason-plans-pricing
-random_paper: 107
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Cybereason Rate Limits
@@ -210,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/screenshots/cybereason-2026-06-20T175410.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: Manage session tokens to track served questions.
   name: Open Trivia DB Tokens API
   slug: open-trivia-db-tokens-api
-artifact_total: 9
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Trivia DB Categories API
+  slug: open-open-trivia-db-categories-api
+- collection_type: open
+  name: Open Trivia DB Categories Questions API
+  slug: open-open-trivia-db-questions-api
+- collection_type: open
+  name: Open Trivia DB Categories Tokens API
+  slug: open-open-trivia-db-tokens-api
 - collection_type: open
   name: Open Trivia DB API
   slug: open-open-trivia-db
@@ -89,7 +101,7 @@ plans:
 - name: Open Trivia Db Plans Pricing
   plan_count: 3
   slug: open-trivia-db-plans-pricing
-random_paper: 57
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Open Trivia Db Rate Limits
@@ -114,7 +126,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/screenshots/open-trivia-db-2026-06-20T190856.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -78,7 +78,50 @@ apis:
 - description: The Monitors API from Datafold — 11 operation(s) for monitors.
   name: Datafold Monitors API
   slug: datafold-monitors-api
-artifact_total: 24
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Datafold Audit Logs API
+  slug: open-datafold-audit-logs-api
+- collection_type: open
+  name: Datafold Audit Logs bi_added API
+  slug: open-datafold-bi-added-api
+- collection_type: open
+  name: Datafold Audit Logs BI API
+  slug: open-datafold-bi-api
+- collection_type: open
+  name: Datafold Audit Logs bi_deleted API
+  slug: open-datafold-bi-deleted-api
+- collection_type: open
+  name: Datafold Audit Logs bi_modified API
+  slug: open-datafold-bi-modified-api
+- collection_type: open
+  name: Datafold Audit Logs bolt API
+  slug: open-datafold-bolt-api
+- collection_type: open
+  name: Datafold Audit Logs CI API
+  slug: open-datafold-ci-api
+- collection_type: open
+  name: Datafold Audit Logs Data diffs API
+  slug: open-datafold-data-diffs-api
+- collection_type: open
+  name: Datafold Audit Logs data_source_added API
+  slug: open-datafold-data-source-added-api
+- collection_type: open
+  name: Datafold Audit Logs Data sources API
+  slug: open-datafold-data-sources-api
+- collection_type: open
+  name: Datafold Audit Logs diff_created API
+  slug: open-datafold-diff-created-api
+- collection_type: open
+  name: Datafold Audit Logs Explore API
+  slug: open-datafold-explore-api
+- collection_type: open
+  name: Datafold Audit Logs Monitors API
+  slug: open-datafold-monitors-api
 common:
 - group: agent
   title: ''
@@ -176,7 +219,7 @@ plans:
 - name: Datafold Plans Pricing
   plan_count: 3
   slug: datafold-plans-pricing
-random_paper: 111
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Datafold Rate Limits
@@ -210,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/screenshots/datafold-2026-06-20T175639.png
 security:

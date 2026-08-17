@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Manage team membership and access
   name: SwaggerHub Teams API
   slug: swaggerhub-teams-api
-artifact_total: 33
+artifact_total: 43
 collections:
 - collection_type: postman
   name: SwaggerHub Registry APIs API
@@ -96,8 +96,38 @@ collections:
   name: SwaggerHub Registry APIs Teams API
   slug: postman-swaggerhub-teams-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SwaggerHub Registry APIs API
+  slug: open-swaggerhub-apis-api
+- collection_type: open
+  name: SwaggerHub Registry APIs Domains API
+  slug: open-swaggerhub-domains-api
+- collection_type: open
+  name: SwaggerHub Registry APIs Integrations API
+  slug: open-swaggerhub-integrations-api
+- collection_type: open
+  name: SwaggerHub Registry APIs Organizations API
+  slug: open-swaggerhub-organizations-api
+- collection_type: open
+  name: SwaggerHub Registry APIs Projects API
+  slug: open-swaggerhub-projects-api
+- collection_type: open
   name: SwaggerHub Registry API
   slug: open-swaggerhub-registry-api
+- collection_type: open
+  name: SwaggerHub Registry APIs Search API
+  slug: open-swaggerhub-search-api
+- collection_type: open
+  name: SwaggerHub Registry APIs Settings API
+  slug: open-swaggerhub-settings-api
+- collection_type: open
+  name: SwaggerHub Registry APIs Standardization API
+  slug: open-swaggerhub-standardization-api
+- collection_type: open
+  name: SwaggerHub Registry APIs Teams API
+  slug: open-swaggerhub-teams-api
 - collection_type: open
   name: SwaggerHub User Management API
   slug: open-swaggerhub-user-management
@@ -229,7 +259,7 @@ plans:
 - name: Swaggerhub Plans Pricing
   plan_count: 3
   slug: swaggerhub-plans-pricing
-random_paper: 111
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Swaggerhub Rate Limits
@@ -271,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/screenshots/swaggerhub-2026-06-20T194753.png
 security:

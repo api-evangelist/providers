@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Triumph Group developer portal providing digital integration capabilities for aircraft lifecycle partners and customers. Supports MRO (Maintenance, Repair and Overhaul) integrations and technical data
@@ -129,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Adam Cady's Post
   url: https://www.linkedin.com/posts/adam-cady-ba34bb202_lazards-aerospace-defense-advisory-team-activity-7292204364289433601-Mfwj
-random_paper: 59
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Triumph Group Rate Limits
@@ -156,7 +156,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/screenshots/triumph-group-2026-06-20T195738.png
 security:

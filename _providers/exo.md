@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -130,7 +130,7 @@ plans:
 - name: Exo Plans
   plan_count: 11
   slug: exo-plans
-random_paper: 92
+random_paper: 34
 score:
   band: thin
   composite: 36.1
@@ -152,7 +152,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exo/refs/heads/main/screenshots/exo-2026-08-07T165307.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 95.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -37,7 +37,7 @@ apis:
 - description: Read-only hosted MCP server for searching Xquik documentation.
   name: Xquik Docs MCP Server
   slug: xquik-docs-mcp-server
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Xquik Asyncapi Provenance
@@ -45,7 +45,23 @@ asyncapis:
 - description: Xquik sends signed monitor events to customer-managed HTTPS webhook endpoints. Xquik is not affiliated with or endorsed by X Corp.
   name: Xquik Monitor Webhooks
   slug: xquik-asyncapi
+collections:
+- collection_type: open
+  name: Xquik API
+  slug: open-xquik-rest-api
 common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/xquik-api-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/xquik-api-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/xquik-api-authentication.yml
 - group: company
   title: ''
   type: Website
@@ -262,6 +278,54 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/xquik-webhook-endpoint.schema.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/xquik-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/xquik-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/xquik-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/xquik-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/xquik-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/xquik-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/xquik-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/xquik-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/xquik-sandbox.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/xquik-scopes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/xquik-lifecycle.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/xquik-security.txt
 created: '2026-04-14'
 description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
 finops:
@@ -289,7 +353,10 @@ mcp_servers:
 - description: ''
   name: mcp
   slug: mcp
-modified: '2026-08-07'
+- description: ''
+  name: xquik-docs-mcp.yml
+  slug: xquik-docs-mcpyml
+modified: '2026-08-13'
 name: Xquik
 nav: Providers
 network: true
@@ -299,14 +366,14 @@ overview: 'Xquik publishes 1 API on the [APIs.io](https://apis.io/) network: RES
   The Xquik catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Xquik''s developer surface includes documentation, API reference, getting-started guide, authentication, SDKs, CLI, sandbox, and 47 more developer resources.'
+  Xquik''s developer surface includes authentication, documentation, API reference, getting-started guide, SDKs, CLI, sandbox, and 62 more developer resources.'
 plans:
 - name: Xquik Plans
   plan_count: 4
   slug: xquik-plans
-random_paper: 81
+random_paper: 27
 rate_limits:
-- limit_count: 3
+- limit_count: 7
   name: Xquik Rate Limits
   slug: xquik-rate-limits
 rules:
@@ -318,6 +385,11 @@ rules:
     info: 2
     warn: 3
   slug: xquik-rules
+scopes:
+- name: Xquik Scopes
+  scope_count: 1
+  slug: xquik-scopes
+  summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
   composite: 89.7
@@ -341,8 +413,21 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
+security:
+- kind: authentication
+  name: Xquik Api Authentication
+  slug: xquik-api-authentication
+  summary_line: apiKey/http · 3 schemes
+- kind: domain-security
+  name: Xquik Api Domain Security
+  slug: xquik-api-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Xquik Api Vulnerability Disclosure
+  slug: xquik-api-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: xquik-api
 tags:
 - social media data

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 3
@@ -106,7 +106,7 @@ apis:
 - description: The .well Known API from Weaviate — 3 operation(s) for .well known.
   name: Weaviate .well Known API
   slug: weaviate-well-known-api
-artifact_total: 482
+artifact_total: 505
 collections:
 - collection_type: postman
   name: Weaviate REST authz API
@@ -174,6 +174,75 @@ collections:
 - collection_type: postman
   name: Weaviate REST authz .well Known API
   slug: postman-weaviate-well-known-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Weaviate REST authz API
+  slug: open-weaviate-authz-api
+- collection_type: open
+  name: Weaviate REST authz backups API
+  slug: open-weaviate-backups-api
+- collection_type: open
+  name: Weaviate REST authz batch API
+  slug: open-weaviate-batch-api
+- collection_type: open
+  name: Weaviate REST authz classifications API
+  slug: open-weaviate-classifications-api
+- collection_type: open
+  name: Weaviate REST authz cluster API
+  slug: open-weaviate-cluster-api
+- collection_type: open
+  name: Weaviate REST authz discovery API
+  slug: open-weaviate-discovery-api
+- collection_type: open
+  name: Weaviate REST authz distributedTasks API
+  slug: open-weaviate-distributedtasks-api
+- collection_type: open
+  name: Weaviate REST authz export API
+  slug: open-weaviate-export-api
+- collection_type: open
+  name: Weaviate REST authz graphql API
+  slug: open-weaviate-graphql-api
+- collection_type: open
+  name: Weaviate REST authz mcp API
+  slug: open-weaviate-mcp-api
+- collection_type: open
+  name: Weaviate REST authz meta API
+  slug: open-weaviate-meta-api
+- collection_type: open
+  name: Weaviate REST authz namespaces API
+  slug: open-weaviate-namespaces-api
+- collection_type: open
+  name: Weaviate REST authz nodes API
+  slug: open-weaviate-nodes-api
+- collection_type: open
+  name: Weaviate REST authz objects API
+  slug: open-weaviate-objects-api
+- collection_type: open
+  name: Weaviate REST authz oidc API
+  slug: open-weaviate-oidc-api
+- collection_type: open
+  name: Weaviate REST authz references API
+  slug: open-weaviate-references-api
+- collection_type: open
+  name: Weaviate REST authz replication API
+  slug: open-weaviate-replication-api
+- collection_type: open
+  name: Weaviate REST authz schema API
+  slug: open-weaviate-schema-api
+- collection_type: open
+  name: Weaviate REST authz tokenize API
+  slug: open-weaviate-tokenize-api
+- collection_type: open
+  name: Weaviate REST authz users API
+  slug: open-weaviate-users-api
+- collection_type: open
+  name: Weaviate REST authz Weaviate REST API API
+  slug: open-weaviate-weaviate-rest-api-api
+- collection_type: open
+  name: Weaviate REST authz .well Known API
+  slug: open-weaviate-well-known-api
 - collection_type: open
   name: Weaviate REST API
   slug: open-weaviate
@@ -1555,7 +1624,7 @@ plans:
 - name: Weaviate Plans Pricing
   plan_count: 3
   slug: weaviate-plans-pricing
-random_paper: 14
+random_paper: 109
 rate_limits:
 - limit_count: 4
   name: Weaviate Rate Limits
@@ -1597,7 +1666,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/screenshots/weaviate-2026-06-20T201320.png
 security:

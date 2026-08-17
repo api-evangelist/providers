@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,7 +71,32 @@ apis:
 - description: The vested-balance API from Synthetix — 1 operation(s) for vested-balance.
   name: Synthetix vested-balance API
   slug: synthetix-vested-balance-api
-artifact_total: 20
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Synthetix escrowed-balance API
+  slug: open-synthetix-escrowed-balance-api
+- collection_type: open
+  name: Synthetix escrowed-balance health-check API
+  slug: open-synthetix-health-check-api
+- collection_type: open
+  name: Synthetix escrowed-balance staking API
+  slug: open-synthetix-staking-api
+- collection_type: open
+  name: Synthetix escrowed-balance stats API
+  slug: open-synthetix-stats-api
+- collection_type: open
+  name: Synthetix escrowed-balance supply API
+  slug: open-synthetix-supply-api
+- collection_type: open
+  name: Synthetix escrowed-balance v3 API
+  slug: open-synthetix-v3-api
+- collection_type: open
+  name: Synthetix escrowed-balance vested-balance API
+  slug: open-synthetix-vested-balance-api
 common:
 - group: agent
   title: ''
@@ -167,7 +192,7 @@ plans:
 - name: Plans
   plan_count: 9
   slug: plans
-random_paper: 48
+random_paper: 114
 rate_limits:
 - limit_count: 11
   name: Rate Limits
@@ -207,7 +232,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/screenshots/synthetix-2026-06-20T194832.png
 security:

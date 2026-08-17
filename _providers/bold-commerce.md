@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Recurring orders, intervals, and subscription management.
   name: Bold Commerce Subscriptions API
   slug: bold-commerce-subscriptions-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bold Commerce Checkout API
+  slug: open-bold-commerce-checkout-api
+- collection_type: open
+  name: Bold Commerce Checkout Customers API
+  slug: open-bold-commerce-customers-api
+- collection_type: open
+  name: Bold Commerce Checkout Price Rules API
+  slug: open-bold-commerce-price-rules-api
+- collection_type: open
+  name: Bold Commerce Checkout Products API
+  slug: open-bold-commerce-products-api
+- collection_type: open
+  name: Bold Commerce Checkout Shops API
+  slug: open-bold-commerce-shops-api
+- collection_type: open
+  name: Bold Commerce Checkout Subscriptions API
+  slug: open-bold-commerce-subscriptions-api
 - collection_type: open
   name: Bold Commerce API
   slug: open-bold-commerce
@@ -131,7 +152,7 @@ plans:
 - name: Bold Commerce Plans Pricing
   plan_count: 7
   slug: bold-commerce-plans-pricing
-random_paper: 105
+random_paper: 113
 rate_limits:
 - limit_count: 3
   name: Bold Commerce Rate Limits
@@ -162,7 +183,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/screenshots/bold-commerce-2026-07-25T203530.png
 security:

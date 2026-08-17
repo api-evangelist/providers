@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -82,11 +82,51 @@ arazzos:
 - description: Read an order, mark a parcel shipped with tracking, optionally refund.
   name: Order fulfillment
   slug: depop-order-fulfillment.arazzo
-artifact_total: 22
+artifact_total: 35
 asyncapis:
 - description: Event surface for the Depop Selling API, generated from the webhooks section of the OpenAPI 3.1 document. Depop delivers order and product engagement events to a partner-registered HTTPS endpoint. Eve
   name: Depop Selling API — Webhooks
   slug: depop-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Seller API status API
+  slug: open-depop-api-status-api
+- collection_type: open
+  name: Seller API status Authentication API
+  slug: open-depop-authentication-api
+- collection_type: open
+  name: Seller API status Docs API
+  slug: open-depop-docs-api
+- collection_type: open
+  name: Seller API status Insights API
+  slug: open-depop-insights-api
+- collection_type: open
+  name: Seller API status Orders API
+  slug: open-depop-orders-api
+- collection_type: open
+  name: Seller API status Pricing Inspiration API
+  slug: open-depop-pricing-inspiration-api
+- collection_type: open
+  name: Seller API status Products API
+  slug: open-depop-products-api
+- collection_type: open
+  name: Seller API status Products - By Product ID API
+  slug: open-depop-products-by-product-id-api
+- collection_type: open
+  name: Seller API status Products - By SKU API
+  slug: open-depop-products-by-sku-api
+- collection_type: open
+  name: Seller API status Products - By Slug API
+  slug: open-depop-products-by-slug-api
+- collection_type: open
+  name: Seller API status Products - Legacy (Deprecated) API
+  slug: open-depop-products-legacy-deprecated-api
+- collection_type: open
+  name: Seller API status Shop Management API
+  slug: open-depop-shop-management-api
 common:
 - group: other
   title: ''
@@ -243,7 +283,7 @@ overview: 'depop publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   depop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 27 more developer resources.'
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Depop Rate Limits
@@ -276,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png
 security:

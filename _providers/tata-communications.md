@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,11 +46,21 @@ apis:
 - description: Issues an OAuth 2.0 bearer access token used to call the other Tata Communications MOVE APIs. Published on the MOVE Azure API Management developer portal; the reference is behind sign-in and no anonym
   name: MOVE Access Token API
   slug: tata-communications-move-access-token-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Tata Communications Webhooks
   slug: tata-communications-webhooks
+collections:
+- collection_type: open
+  name: Mobile Messaging Exchange - Account Administration
+  slug: open-tata-communications-mobile-messaging-exchange-account-administration
+- collection_type: open
+  name: Mobile Messaging Exchange - CDR Report API
+  slug: open-tata-communications-mobile-messaging-exchange-cdr-report-api
+- collection_type: open
+  name: Number Intelligence API
+  slug: open-tata-communications-number-intelligence-api
 common:
 - group: agent
   title: ''
@@ -208,7 +218,7 @@ overview: 'Tata Communications publishes 3 APIs on the [APIs.io](https://apis.io
 
 
   Tata Communications'' developer surface includes authentication, code examples, sandbox, documentation, signup flow, engineering blog, developer portal, and 27 more developer resources.'
-random_paper: 64
+random_paper: 47
 score:
   band: developing
   composite: 44.9
@@ -233,7 +243,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,24 +27,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/propagate-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://propagatebrands.com
+coverage:
+  checked: '2026-08-13'
+  detail: propagatebrands.com and www.propagatebrands.com still resolve to Webflow's shared proxy but abort every TLS handshake with an internal error, so not one HTTP response came back — and the Wayback record shows the site 403/404ing since July 2024 and serving a 545-byte parked lander by August 2025, with no api/app/docs/developers subdomain, GitHub org, or package-registry presence anywhere.
+  evidence:
+  - status: 0
+    url: https://propagatebrands.com/
+  - status: 0
+    url: https://www.propagatebrands.com/
+  - status: 301
+    url: http://propagatebrands.com/
+  - status: 0
+    url: https://propagatebrands.com/openapi.json
+  - status: 0
+    url: https://propagatebrands.com/.well-known/agent-card.json
+  - status: 200
+    url: http://web.archive.org/web/20250806030036/http://propagatebrands.com/
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: Propagate (Propagate Brands) is an e-commerce accelerator and equity syndication platform founded by JD Jernigan and backed by 500 Global. It partners with early-stage direct-to-consumer brands selling on Shopify and Amazon — typically those under $1M in annual revenue and overlooked by larger aggregators — providing working capital plus growth marketing, branding, data collection, customer service, and supply-chain support to help them scale and reach acquisition-ready exits. It simultaneously lets individual investors take equity stakes in these growing private commerce brands to earn passive income. Propagate operates as a services-and-investment business rather than a software company and publishes no public developer API, SDK, or technical platform surface.
+description: Propagate (Propagate Brands) is an e-commerce accelerator and equity syndication platform founded by JD Jernigan and backed by 500 Global. It partners with early-stage direct-to-consumer brands selling on Shopify and Amazon — typically those under $1M in annual revenue and overlooked by larger aggregators — providing working capital plus growth marketing, branding, data collection, customer service, and supply-chain support to help them scale and reach acquisition-ready exits. It simultaneously lets individual investors take equity stakes in these growing private commerce brands to earn passive income. Propagate operates as a services-and-investment business rather than a software company and publishes no public developer API, SDK, or technical platform surface. As of August 2026 its website is also no longer reachable — propagatebrands.com and its www host resolve to Webflow's shared proxy but abort the TLS handshake, and archived captures show the site returning 403/404 since
+  mid-2024 and a parked lander page by August 2025.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/propagate.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Propagate
 nav: Providers
 network: true
 overview: Propagate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Direct-to-Consumer, Shopify, and Accelerator.
-random_paper: 3
+random_paper: 69
 score:
   band: minimal
   composite: 5.0
@@ -58,8 +81,13 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
+security:
+- kind: domain-security
+  name: Propagate Domain Security
+  slug: propagate-domain-security
+  summary_line: no transport/DNS hardening detected
 slug: propagate
 tags:
 - Company

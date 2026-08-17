@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -54,12 +54,30 @@ apis:
 - description: Hybrid search, find (RAG retrieval) and suggest over a Knowledge Box.
   name: Nuclia Search API
   slug: nuclia-search-api
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: AsyncAPI 2.6 description of Nuclia's **ask / chat generative answer streaming** surface. Nuclia does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://do
   name: Nuclia Ask / Chat Generative Answer Stream (HTTP + ndjson/SSE)
   slug: nuclia-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nuclia RAG-as-a-Service Ask API
+  slug: open-nuclia-ask-api
+- collection_type: open
+  name: Nuclia RAG-as-a-Service Ask Knowledge Boxes API
+  slug: open-nuclia-knowledge-boxes-api
+- collection_type: open
+  name: Nuclia RAG-as-a-Service Ask Predict API
+  slug: open-nuclia-predict-api
+- collection_type: open
+  name: Nuclia RAG-as-a-Service Ask Resources API
+  slug: open-nuclia-resources-api
+- collection_type: open
+  name: Nuclia RAG-as-a-Service Ask Search API
+  slug: open-nuclia-search-api
 - collection_type: open
   name: Nuclia RAG-as-a-Service API
   slug: open-nuclia
@@ -131,7 +149,7 @@ plans:
 - name: Nuclia Plans Pricing
   plan_count: 3
   slug: nuclia-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Nuclia Rate Limits
@@ -165,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/screenshots/nuclia-2026-06-20T190517.png
 security:

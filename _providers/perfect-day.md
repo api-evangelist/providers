@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: WordPress REST `categories` resource on perfectday.com.
@@ -69,7 +69,59 @@ apis:
 - description: WordPress REST `types` resource on perfectday.com.
   name: Perfect Day Types API
   slug: perfect-day-types-api
-artifact_total: 19
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Perfect Day Content API () Categories API
+  slug: open-perfect-day-categories-api
+- collection_type: open
+  name: Perfect Day Content API () Comments API
+  slug: open-perfect-day-comments-api
+- collection_type: open
+  name: Perfect Day Content API () Leader Category API
+  slug: open-perfect-day-leader-category-api
+- collection_type: open
+  name: Perfect Day Content API () Media API
+  slug: open-perfect-day-media-api
+- collection_type: open
+  name: Perfect Day Content API () Modal API
+  slug: open-perfect-day-modal-api
+- collection_type: open
+  name: Perfect Day Content API () News API
+  slug: open-perfect-day-news-api
+- collection_type: open
+  name: Perfect Day Content API () News Category API
+  slug: open-perfect-day-news-category-api
+- collection_type: open
+  name: Perfect Day Content API () Pages API
+  slug: open-perfect-day-pages-api
+- collection_type: open
+  name: Perfect Day Content API () Posts API
+  slug: open-perfect-day-posts-api
+- collection_type: open
+  name: Perfect Day Content API () Search API
+  slug: open-perfect-day-search-api
+- collection_type: open
+  name: Perfect Day Content API () Statuses API
+  slug: open-perfect-day-statuses-api
+- collection_type: open
+  name: Perfect Day Content API () Success Story API
+  slug: open-perfect-day-success-story-api
+- collection_type: open
+  name: Perfect Day Content API () Success Story Category API
+  slug: open-perfect-day-success-story-category-api
+- collection_type: open
+  name: Perfect Day Content API () Tags API
+  slug: open-perfect-day-tags-api
+- collection_type: open
+  name: Perfect Day Content API () Taxonomies API
+  slug: open-perfect-day-taxonomies-api
+- collection_type: open
+  name: Perfect Day Content API () Types API
+  slug: open-perfect-day-types-api
 common:
 - group: other
   title: ''
@@ -211,7 +263,7 @@ overview: 'Perfect Day publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Perfect Day''s developer surface includes documentation, API reference, engineering blog, support, FAQ, authentication, and 25 more developer resources.'
-random_paper: 28
+random_paper: 65
 score:
   band: thin
   composite: 37.9
@@ -234,7 +286,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

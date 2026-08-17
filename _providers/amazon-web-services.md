@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3518
   human_in_the_loop: 147
@@ -5450,7 +5450,5414 @@ apis:
 - description: The Zonalshifts API from Amazon Web Services — 2 operation(s) for zonalshifts.
   name: Amazon Web Services Zonalshifts API
   slug: amazon-web-services-zonalshifts-api
-artifact_total: 1848
+artifact_total: 3650
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 API
+  slug: open-amazon-web-services-2012-09-25-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2013 01 01 API
+  slug: open-amazon-web-services-2013-01-01-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2013 04 01 API
+  slug: open-amazon-web-services-2013-04-01-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2014 11 13 API
+  slug: open-amazon-web-services-2014-11-13-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2015 01 01 API
+  slug: open-amazon-web-services-2015-01-01-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2015 02 01 API
+  slug: open-amazon-web-services-2015-02-01-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2015 03 31 API
+  slug: open-amazon-web-services-2015-03-31-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2016 08 19 API
+  slug: open-amazon-web-services-2016-08-19-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2017 03 31 API
+  slug: open-amazon-web-services-2017-03-31-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2017 08 29 API
+  slug: open-amazon-web-services-2017-08-29-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2017 10 31 API
+  slug: open-amazon-web-services-2017-10-31-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2018 10 31 API
+  slug: open-amazon-web-services-2018-10-31-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2019 09 25 API
+  slug: open-amazon-web-services-2019-09-25-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2019 09 30 API
+  slug: open-amazon-web-services-2019-09-30-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2020 04 22 API
+  slug: open-amazon-web-services-2020-04-22-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2020 05 31 API
+  slug: open-amazon-web-services-2020-05-31-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2020 06 30 API
+  slug: open-amazon-web-services-2020-06-30-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2020 08 01 API
+  slug: open-amazon-web-services-2020-08-01-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2020 11 20 API
+  slug: open-amazon-web-services-2020-11-20-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 20200301 API
+  slug: open-amazon-web-services-20200301-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2021 01 01 API
+  slug: open-amazon-web-services-2021-01-01-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2021 07 20 API
+  slug: open-amazon-web-services-2021-07-20-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2021 10 31 API
+  slug: open-amazon-web-services-2021-10-31-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2021 11 15 API
+  slug: open-amazon-web-services-2021-11-15-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 2022 01 01 API
+  slug: open-amazon-web-services-2022-01-01-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Accept Certificate Transfer API
+  slug: open-amazon-web-services-accept-certificate-transfer-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Acceptresourceshareinvitation API
+  slug: open-amazon-web-services-acceptresourceshareinvitation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Access Policies API
+  slug: open-amazon-web-services-access-policies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Accessgrantsinstance API
+  slug: open-amazon-web-services-accessgrantsinstance-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Accessgrantsinstances API
+  slug: open-amazon-web-services-accessgrantsinstances-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Accesslogsubscriptions API
+  slug: open-amazon-web-services-accesslogsubscriptions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Accessors API
+  slug: open-amazon-web-services-accessors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Accesspoint API
+  slug: open-amazon-web-services-accesspoint-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Accesspointforobjectlambda API
+  slug: open-amazon-web-services-accesspointforobjectlambda-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 accessTokens API
+  slug: open-amazon-web-services-accesstokens-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Account API
+  slug: open-amazon-web-services-account-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Account Settings API
+  slug: open-amazon-web-services-account-settings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 accountConfiguration API
+  slug: open-amazon-web-services-accountconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Accountpermissions API
+  slug: open-amazon-web-services-accountpermissions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Accounts API
+  slug: open-amazon-web-services-accounts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Action Interactions API
+  slug: open-amazon-web-services-action-interactions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Action Recommendations API
+  slug: open-amazon-web-services-action-recommendations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Actions API
+  slug: open-amazon-web-services-actions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 actionTargets API
+  slug: open-amazon-web-services-actiontargets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ActivateAnomalyDetector API
+  slug: open-amazon-web-services-activateanomalydetector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Active Violations API
+  slug: open-amazon-web-services-active-violations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Activities API
+  slug: open-amazon-web-services-activities-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Add Draft App Version Resource Mappings API
+  slug: open-amazon-web-services-add-draft-app-version-resource-mappings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 AddLFTagsToResource API
+  slug: open-amazon-web-services-addlftagstoresource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Addons API
+  slug: open-amazon-web-services-addons-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Admin API
+  slug: open-amazon-web-services-admin-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Administrator API
+  slug: open-amazon-web-services-administrator-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Agent API
+  slug: open-amazon-web-services-agent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Agent Status API
+  slug: open-amazon-web-services-agent-status-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Agents API
+  slug: open-amazon-web-services-agents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Alarm Models API
+  slug: open-amazon-web-services-alarm-models-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Alarms API
+  slug: open-amazon-web-services-alarms-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Alerts API
+  slug: open-amazon-web-services-alerts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Allow Lists API
+  slug: open-amazon-web-services-allow-lists-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Acm API
+  slug: open-amazon-web-services-amazon-web-services-acm-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Acm Pca API
+  slug: open-amazon-web-services-amazon-web-services-acm-pca-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Application Autoscaling API
+  slug: open-amazon-web-services-amazon-web-services-application-autoscaling-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Application Insights API
+  slug: open-amazon-web-services-amazon-web-services-application-insights-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Apprunner API
+  slug: open-amazon-web-services-amazon-web-services-apprunner-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Appstream API
+  slug: open-amazon-web-services-amazon-web-services-appstream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Athena API
+  slug: open-amazon-web-services-amazon-web-services-athena-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Autoscaling API
+  slug: open-amazon-web-services-amazon-web-services-autoscaling-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Autoscaling Plans API
+  slug: open-amazon-web-services-amazon-web-services-autoscaling-plans-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services AWSMigrationHub API
+  slug: open-amazon-web-services-amazon-web-services-awsmigrationhub-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services B2bi API
+  slug: open-amazon-web-services-amazon-web-services-b2bi-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Backup Gateway API
+  slug: open-amazon-web-services-amazon-web-services-backup-gateway-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Bcm Data Exports API
+  slug: open-amazon-web-services-amazon-web-services-bcm-data-exports-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Budgets API
+  slug: open-amazon-web-services-amazon-web-services-budgets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Ce API
+  slug: open-amazon-web-services-amazon-web-services-ce-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cloud9 API
+  slug: open-amazon-web-services-amazon-web-services-cloud9-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cloudcontrol API
+  slug: open-amazon-web-services-amazon-web-services-cloudcontrol-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cloudformation API
+  slug: open-amazon-web-services-amazon-web-services-cloudformation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cloudhsm API
+  slug: open-amazon-web-services-amazon-web-services-cloudhsm-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cloudhsmv2 API
+  slug: open-amazon-web-services-amazon-web-services-cloudhsmv2-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cloudsearch API
+  slug: open-amazon-web-services-amazon-web-services-cloudsearch-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cloudtrail API
+  slug: open-amazon-web-services-amazon-web-services-cloudtrail-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Codebuild API
+  slug: open-amazon-web-services-amazon-web-services-codebuild-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Codecommit API
+  slug: open-amazon-web-services-amazon-web-services-codecommit-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Codedeploy API
+  slug: open-amazon-web-services-amazon-web-services-codedeploy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Codepipeline API
+  slug: open-amazon-web-services-amazon-web-services-codepipeline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Codestar API
+  slug: open-amazon-web-services-amazon-web-services-codestar-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Codestar Connections API
+  slug: open-amazon-web-services-amazon-web-services-codestar-connections-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cognito Identity API
+  slug: open-amazon-web-services-amazon-web-services-cognito-identity-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cognito Idp API
+  slug: open-amazon-web-services-amazon-web-services-cognito-idp-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Comprehend API
+  slug: open-amazon-web-services-amazon-web-services-comprehend-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Comprehendmedical API
+  slug: open-amazon-web-services-amazon-web-services-comprehendmedical-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Compute Optimizer API
+  slug: open-amazon-web-services-amazon-web-services-compute-optimizer-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Config API
+  slug: open-amazon-web-services-amazon-web-services-config-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cost Optimization Hub API
+  slug: open-amazon-web-services-amazon-web-services-cost-optimization-hub-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Cur API
+  slug: open-amazon-web-services-amazon-web-services-cur-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Dataexchange API
+  slug: open-amazon-web-services-amazon-web-services-dataexchange-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Datapipeline API
+  slug: open-amazon-web-services-amazon-web-services-datapipeline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Datasync API
+  slug: open-amazon-web-services-amazon-web-services-datasync-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Dax API
+  slug: open-amazon-web-services-amazon-web-services-dax-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Devicefarm API
+  slug: open-amazon-web-services-amazon-web-services-devicefarm-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Directconnect API
+  slug: open-amazon-web-services-amazon-web-services-directconnect-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Discovery API
+  slug: open-amazon-web-services-amazon-web-services-discovery-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Dms API
+  slug: open-amazon-web-services-amazon-web-services-dms-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Docdb API
+  slug: open-amazon-web-services-amazon-web-services-docdb-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Ds API
+  slug: open-amazon-web-services-amazon-web-services-ds-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Dynamodb API
+  slug: open-amazon-web-services-amazon-web-services-dynamodb-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Ec2 API
+  slug: open-amazon-web-services-amazon-web-services-ec2-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Ec2 Instance Connect API
+  slug: open-amazon-web-services-amazon-web-services-ec2-instance-connect-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Ecr API
+  slug: open-amazon-web-services-amazon-web-services-ecr-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Ecr Public API
+  slug: open-amazon-web-services-amazon-web-services-ecr-public-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Ecs API
+  slug: open-amazon-web-services-amazon-web-services-ecs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Elasticache API
+  slug: open-amazon-web-services-amazon-web-services-elasticache-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Elasticbeanstalk API
+  slug: open-amazon-web-services-amazon-web-services-elasticbeanstalk-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Elasticloadbalancing API
+  slug: open-amazon-web-services-amazon-web-services-elasticloadbalancing-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Elasticloadbalancingv2 API
+  slug: open-amazon-web-services-amazon-web-services-elasticloadbalancingv2-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Elasticmapreduce API
+  slug: open-amazon-web-services-amazon-web-services-elasticmapreduce-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Email API
+  slug: open-amazon-web-services-amazon-web-services-email-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Entitlement.marketplace API
+  slug: open-amazon-web-services-amazon-web-services-entitlement-marketplace-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Eventbridge API
+  slug: open-amazon-web-services-amazon-web-services-eventbridge-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Events API
+  slug: open-amazon-web-services-amazon-web-services-events-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Firehose API
+  slug: open-amazon-web-services-amazon-web-services-firehose-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Fms API
+  slug: open-amazon-web-services-amazon-web-services-fms-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Forecast API
+  slug: open-amazon-web-services-amazon-web-services-forecast-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Forecastquery API
+  slug: open-amazon-web-services-amazon-web-services-forecastquery-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Frauddetector API
+  slug: open-amazon-web-services-amazon-web-services-frauddetector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Freetier API
+  slug: open-amazon-web-services-amazon-web-services-freetier-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Fsx API
+  slug: open-amazon-web-services-amazon-web-services-fsx-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Gamelift API
+  slug: open-amazon-web-services-amazon-web-services-gamelift-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Globalaccelerator API
+  slug: open-amazon-web-services-amazon-web-services-globalaccelerator-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Glue API
+  slug: open-amazon-web-services-amazon-web-services-glue-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Health API
+  slug: open-amazon-web-services-amazon-web-services-health-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Healthlake API
+  slug: open-amazon-web-services-amazon-web-services-healthlake-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Iam API
+  slug: open-amazon-web-services-amazon-web-services-iam-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Identitystore API
+  slug: open-amazon-web-services-amazon-web-services-identitystore-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Inspector API
+  slug: open-amazon-web-services-amazon-web-services-inspector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Iotfleetwise API
+  slug: open-amazon-web-services-amazon-web-services-iotfleetwise-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Iotsecuretunneling API
+  slug: open-amazon-web-services-amazon-web-services-iotsecuretunneling-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Iotthingsgraph API
+  slug: open-amazon-web-services-amazon-web-services-iotthingsgraph-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Kendra API
+  slug: open-amazon-web-services-amazon-web-services-kendra-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Kendra Ranking API
+  slug: open-amazon-web-services-amazon-web-services-kendra-ranking-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Keyspaces API
+  slug: open-amazon-web-services-amazon-web-services-keyspaces-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Kinesis API
+  slug: open-amazon-web-services-amazon-web-services-kinesis-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Kinesisanalytics API
+  slug: open-amazon-web-services-amazon-web-services-kinesisanalytics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Kinesisanalyticsv2 API
+  slug: open-amazon-web-services-amazon-web-services-kinesisanalyticsv2-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Kms API
+  slug: open-amazon-web-services-amazon-web-services-kms-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services License Manager API
+  slug: open-amazon-web-services-amazon-web-services-license-manager-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Lightsail API
+  slug: open-amazon-web-services-amazon-web-services-lightsail-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Logs API
+  slug: open-amazon-web-services-amazon-web-services-logs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Lookoutequipment API
+  slug: open-amazon-web-services-amazon-web-services-lookoutequipment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Machinelearning API
+  slug: open-amazon-web-services-amazon-web-services-machinelearning-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Marketplace Agreement API
+  slug: open-amazon-web-services-amazon-web-services-marketplace-agreement-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Marketplacecommerceanalytics API
+  slug: open-amazon-web-services-amazon-web-services-marketplacecommerceanalytics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Mediastore API
+  slug: open-amazon-web-services-amazon-web-services-mediastore-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Mediastore Data API
+  slug: open-amazon-web-services-amazon-web-services-mediastore-data-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Memorydb API
+  slug: open-amazon-web-services-amazon-web-services-memorydb-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Meteringmarketplace API
+  slug: open-amazon-web-services-amazon-web-services-meteringmarketplace-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Migrationhub Config API
+  slug: open-amazon-web-services-amazon-web-services-migrationhub-config-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Monitoring API
+  slug: open-amazon-web-services-amazon-web-services-monitoring-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Mturk Requester API
+  slug: open-amazon-web-services-amazon-web-services-mturk-requester-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Neptune API
+  slug: open-amazon-web-services-amazon-web-services-neptune-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Network Firewall API
+  slug: open-amazon-web-services-amazon-web-services-network-firewall-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Opensearchserverless API
+  slug: open-amazon-web-services-amazon-web-services-opensearchserverless-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Opsworks API
+  slug: open-amazon-web-services-amazon-web-services-opsworks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Opsworkscm API
+  slug: open-amazon-web-services-amazon-web-services-opsworkscm-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Organizations API
+  slug: open-amazon-web-services-amazon-web-services-organizations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Payment Cryptography API
+  slug: open-amazon-web-services-amazon-web-services-payment-cryptography-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Personalize API
+  slug: open-amazon-web-services-amazon-web-services-personalize-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Pi API
+  slug: open-amazon-web-services-amazon-web-services-pi-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Pinpoint Sms Voice V2 API
+  slug: open-amazon-web-services-amazon-web-services-pinpoint-sms-voice-v2-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Pricing API
+  slug: open-amazon-web-services-amazon-web-services-pricing-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Proton API
+  slug: open-amazon-web-services-amazon-web-services-proton-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Qldb Session API
+  slug: open-amazon-web-services-amazon-web-services-qldb-session-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Rds API
+  slug: open-amazon-web-services-amazon-web-services-rds-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Redshift API
+  slug: open-amazon-web-services-amazon-web-services-redshift-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Redshift Data API
+  slug: open-amazon-web-services-amazon-web-services-redshift-data-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Redshift Serverless API
+  slug: open-amazon-web-services-amazon-web-services-redshift-serverless-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Rekognition API
+  slug: open-amazon-web-services-amazon-web-services-rekognition-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Resourcegroupstaggingapi API
+  slug: open-amazon-web-services-amazon-web-services-resourcegroupstaggingapi-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Route53 Recovery Cluster API
+  slug: open-amazon-web-services-amazon-web-services-route53-recovery-cluster-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Route53domains API
+  slug: open-amazon-web-services-amazon-web-services-route53domains-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Route53resolver API
+  slug: open-amazon-web-services-amazon-web-services-route53resolver-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Sagemaker API
+  slug: open-amazon-web-services-amazon-web-services-sagemaker-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Sdb API
+  slug: open-amazon-web-services-amazon-web-services-sdb-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Secretsmanager API
+  slug: open-amazon-web-services-amazon-web-services-secretsmanager-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Service Quotas API
+  slug: open-amazon-web-services-amazon-web-services-service-quotas-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Servicecatalog API
+  slug: open-amazon-web-services-amazon-web-services-servicecatalog-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Servicediscovery API
+  slug: open-amazon-web-services-amazon-web-services-servicediscovery-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Shield API
+  slug: open-amazon-web-services-amazon-web-services-shield-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Sms API
+  slug: open-amazon-web-services-amazon-web-services-sms-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Snowball API
+  slug: open-amazon-web-services-amazon-web-services-snowball-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Sns API
+  slug: open-amazon-web-services-amazon-web-services-sns-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Sqs API
+  slug: open-amazon-web-services-amazon-web-services-sqs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Ssm API
+  slug: open-amazon-web-services-amazon-web-services-ssm-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Ssm Contacts API
+  slug: open-amazon-web-services-amazon-web-services-ssm-contacts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Sso Admin API
+  slug: open-amazon-web-services-amazon-web-services-sso-admin-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services States API
+  slug: open-amazon-web-services-amazon-web-services-states-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Storagegateway API
+  slug: open-amazon-web-services-amazon-web-services-storagegateway-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Streams.dynamodb API
+  slug: open-amazon-web-services-amazon-web-services-streams-dynamodb-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Sts API
+  slug: open-amazon-web-services-amazon-web-services-sts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Support API
+  slug: open-amazon-web-services-amazon-web-services-support-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Swf API
+  slug: open-amazon-web-services-amazon-web-services-swf-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Textract API
+  slug: open-amazon-web-services-amazon-web-services-textract-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Timestream Query API
+  slug: open-amazon-web-services-amazon-web-services-timestream-query-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Timestream Write API
+  slug: open-amazon-web-services-amazon-web-services-timestream-write-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Transcribe API
+  slug: open-amazon-web-services-amazon-web-services-transcribe-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Transfer API
+  slug: open-amazon-web-services-amazon-web-services-transfer-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Translate API
+  slug: open-amazon-web-services-amazon-web-services-translate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Verifiedpermissions API
+  slug: open-amazon-web-services-amazon-web-services-verifiedpermissions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Voice Id API
+  slug: open-amazon-web-services-amazon-web-services-voice-id-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Waf API
+  slug: open-amazon-web-services-amazon-web-services-waf-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Waf Regional API
+  slug: open-amazon-web-services-amazon-web-services-waf-regional-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Wafv2 API
+  slug: open-amazon-web-services-amazon-web-services-wafv2-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Workmail API
+  slug: open-amazon-web-services-amazon-web-services-workmail-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazon Web Services Workspaces API
+  slug: open-amazon-web-services-amazon-web-services-workspaces-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Amazonclouddirectory API
+  slug: open-amazon-web-services-amazonclouddirectory-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Analysis API
+  slug: open-amazon-web-services-analysis-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Analytics Data API
+  slug: open-amazon-web-services-analytics-data-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Analyzed Resource API
+  slug: open-amazon-web-services-analyzed-resource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Analyzer API
+  slug: open-amazon-web-services-analyzer-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 annotationStore API
+  slug: open-amazon-web-services-annotationstore-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 annotationStores API
+  slug: open-amazon-web-services-annotationstores-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Anomalies API
+  slug: open-amazon-web-services-anomalies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ApiCaches API
+  slug: open-amazon-web-services-apicaches-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Apikeys API
+  slug: open-amazon-web-services-apikeys-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Apikeys?mode=import API
+  slug: open-amazon-web-services-apikeys-mode-import-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Apis API
+  slug: open-amazon-web-services-apis-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 App API
+  slug: open-amazon-web-services-app-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 App Instance Bots API
+  slug: open-amazon-web-services-app-instance-bots-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 App Instance Users API
+  slug: open-amazon-web-services-app-instance-users-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 App Instances API
+  slug: open-amazon-web-services-app-instances-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Appbundles API
+  slug: open-amazon-web-services-appbundles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Application Instances API
+  slug: open-amazon-web-services-application-instances-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Applications API
+  slug: open-amazon-web-services-applications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Appmonitor API
+  slug: open-amazon-web-services-appmonitor-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Appmonitors API
+  slug: open-amazon-web-services-appmonitors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Apps API
+  slug: open-amazon-web-services-apps-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Archive Rule API
+  slug: open-amazon-web-services-archive-rule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ArchiveApplication API
+  slug: open-amazon-web-services-archiveapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ArchiveWave API
+  slug: open-amazon-web-services-archivewave-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Artifacts API
+  slug: open-amazon-web-services-artifacts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 assessmentFrameworks API
+  slug: open-amazon-web-services-assessmentframeworks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 assessmentFrameworkShareRequests API
+  slug: open-amazon-web-services-assessmentframeworksharerequests-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 assessmentReports API
+  slug: open-amazon-web-services-assessmentreports-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Assessments API
+  slug: open-amazon-web-services-assessments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Asset Models API
+  slug: open-amazon-web-services-asset-models-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Assets API
+  slug: open-amazon-web-services-assets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Assignment API
+  slug: open-amazon-web-services-assignment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Assistants API
+  slug: open-amazon-web-services-assistants-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Associate Accounts API
+  slug: open-amazon-web-services-associate-accounts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Associate Pricing Rules API
+  slug: open-amazon-web-services-associate-pricing-rules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 AssociateApplications API
+  slug: open-amazon-web-services-associateapplications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 AssociateDefaultView API
+  slug: open-amazon-web-services-associatedefaultview-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 associateDomain API
+  slug: open-amazon-web-services-associatedomain-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Associateresourceshare API
+  slug: open-amazon-web-services-associateresourceshare-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Associateresourcesharepermission API
+  slug: open-amazon-web-services-associateresourcesharepermission-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 AssociateSourceNetworkStack API
+  slug: open-amazon-web-services-associatesourcenetworkstack-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 AssociateSourceServers API
+  slug: open-amazon-web-services-associatesourceservers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 associateWebsiteAuthorizationProvider API
+  slug: open-amazon-web-services-associatewebsiteauthorizationprovider-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 associateWebsiteCertificateAuthority API
+  slug: open-amazon-web-services-associatewebsitecertificateauthority-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Associations API
+  slug: open-amazon-web-services-associations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 AssumeDecoratedRoleWithSAML API
+  slug: open-amazon-web-services-assumedecoratedrolewithsaml-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Async Requests API
+  slug: open-amazon-web-services-async-requests-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Attached Policies API
+  slug: open-amazon-web-services-attached-policies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Attachments API
+  slug: open-amazon-web-services-attachments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Attribute Groups API
+  slug: open-amazon-web-services-attribute-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Audience Export Job API
+  slug: open-amazon-web-services-audience-export-job-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Audience Generation Job API
+  slug: open-amazon-web-services-audience-generation-job-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Audience Model API
+  slug: open-amazon-web-services-audience-model-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Audit API
+  slug: open-amazon-web-services-audit-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Authorization Token API
+  slug: open-amazon-web-services-authorization-token-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Authorizer API
+  slug: open-amazon-web-services-authorizer-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Authorizers API
+  slug: open-amazon-web-services-authorizers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Authpolicy API
+  slug: open-amazon-web-services-authpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Automated Discovery API
+  slug: open-amazon-web-services-automated-discovery-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Automationrules API
+  slug: open-amazon-web-services-automationrules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Autoshifts API
+  slug: open-amazon-web-services-autoshifts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Backend API
+  slug: open-amazon-web-services-backend-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BackTestAnomalyDetector API
+  slug: open-amazon-web-services-backtestanomalydetector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Backup API
+  slug: open-amazon-web-services-backup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Backup Jobs API
+  slug: open-amazon-web-services-backup-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Backup Vaults API
+  slug: open-amazon-web-services-backup-vaults-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Batch Associate Resources to Custom Line Item API
+  slug: open-amazon-web-services-batch-associate-resources-to-custom-line-item-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Batch Disassociate Resources From Custom Line Item API
+  slug: open-amazon-web-services-batch-disassociate-resources-from-custom-line-item-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Batch Get Token Balance API
+  slug: open-amazon-web-services-batch-get-token-balance-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Batch Update Recommendation Status API
+  slug: open-amazon-web-services-batch-update-recommendation-status-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 batchDeleteWorlds API
+  slug: open-amazon-web-services-batchdeleteworlds-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchDescribeEntities API
+  slug: open-amazon-web-services-batchdescribeentities-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 batchDescribeSimulationJob API
+  slug: open-amazon-web-services-batchdescribesimulationjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchExecute API
+  slug: open-amazon-web-services-batchexecute-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchGetChannel API
+  slug: open-amazon-web-services-batchgetchannel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 batchGetFindings API
+  slug: open-amazon-web-services-batchgetfindings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 batchGetIncidentFindings API
+  slug: open-amazon-web-services-batchgetincidentfindings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchGetRecord API
+  slug: open-amazon-web-services-batchgetrecord-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchGetStreamKey API
+  slug: open-amazon-web-services-batchgetstreamkey-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchGetView API
+  slug: open-amazon-web-services-batchgetview-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchGrantPermissions API
+  slug: open-amazon-web-services-batchgrantpermissions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchPutMetrics API
+  slug: open-amazon-web-services-batchputmetrics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchRevokePermissions API
+  slug: open-amazon-web-services-batchrevokepermissions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BatchStartViewerSessionRevocation API
+  slug: open-amazon-web-services-batchstartviewersessionrevocation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 BeginTransaction API
+  slug: open-amazon-web-services-begintransaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Behavior Model Training API
+  slug: open-amazon-web-services-behavior-model-training-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Billing Groups API
+  slug: open-amazon-web-services-billing-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bot API
+  slug: open-amazon-web-services-bot-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bots API
+  slug: open-amazon-web-services-bots-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bridges API
+  slug: open-amazon-web-services-bridges-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Broker Engine Types API
+  slug: open-amazon-web-services-broker-engine-types-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Broker Instance Options API
+  slug: open-amazon-web-services-broker-instance-options-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Brokers API
+  slug: open-amazon-web-services-brokers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 browserSettings API
+  slug: open-amazon-web-services-browsersettings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Accelerate Configuration API
+  slug: open-amazon-web-services-bucket-accelerate-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket ACL API
+  slug: open-amazon-web-services-bucket-acl-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Analytics Configuration API
+  slug: open-amazon-web-services-bucket-analytics-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket API
+  slug: open-amazon-web-services-bucket-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket CORS API
+  slug: open-amazon-web-services-bucket-cors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Encryption API
+  slug: open-amazon-web-services-bucket-encryption-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Intelligent Tiering Configuration API
+  slug: open-amazon-web-services-bucket-intelligent-tiering-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Inventory Configuration API
+  slug: open-amazon-web-services-bucket-inventory-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Lifecycle Configuration API
+  slug: open-amazon-web-services-bucket-lifecycle-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Location API
+  slug: open-amazon-web-services-bucket-location-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Logging API
+  slug: open-amazon-web-services-bucket-logging-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Metrics Configuration API
+  slug: open-amazon-web-services-bucket-metrics-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Notification Configuration API
+  slug: open-amazon-web-services-bucket-notification-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Ownership Controls API
+  slug: open-amazon-web-services-bucket-ownership-controls-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Policy API
+  slug: open-amazon-web-services-bucket-policy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Policy Status API
+  slug: open-amazon-web-services-bucket-policy-status-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Replication API
+  slug: open-amazon-web-services-bucket-replication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Request Payment API
+  slug: open-amazon-web-services-bucket-request-payment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Tagging API
+  slug: open-amazon-web-services-bucket-tagging-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Versioning API
+  slug: open-amazon-web-services-bucket-versioning-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bucket Website API
+  slug: open-amazon-web-services-bucket-website-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Builtins API
+  slug: open-amazon-web-services-builtins-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Bundles API
+  slug: open-amazon-web-services-bundles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cacertificate API
+  slug: open-amazon-web-services-cacertificate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cacertificates API
+  slug: open-amazon-web-services-cacertificates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Call Analytics Stream Transcription API
+  slug: open-amazon-web-services-call-analytics-stream-transcription-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Campaigns API
+  slug: open-amazon-web-services-campaigns-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Campaigns State API
+  slug: open-amazon-web-services-campaigns-state-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Campaigns Summary API
+  slug: open-amazon-web-services-campaigns-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Canaries API
+  slug: open-amazon-web-services-canaries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Canary API
+  slug: open-amazon-web-services-canary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cancel Certificate Transfer API
+  slug: open-amazon-web-services-cancel-certificate-transfer-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cancel Flow Executions API
+  slug: open-amazon-web-services-cancel-flow-executions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CancelChangeSet API
+  slug: open-amazon-web-services-cancelchangeset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 cancelDeploymentJob API
+  slug: open-amazon-web-services-canceldeploymentjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CancelImageCreation API
+  slug: open-amazon-web-services-cancelimagecreation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Canceljob API
+  slug: open-amazon-web-services-canceljob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CancelLifecycleExecution API
+  slug: open-amazon-web-services-cancellifecycleexecution-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 cancelSimulationJob API
+  slug: open-amazon-web-services-cancelsimulationjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 cancelSimulationJobBatch API
+  slug: open-amazon-web-services-cancelsimulationjobbatch-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CancelTransaction API
+  slug: open-amazon-web-services-canceltransaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 cancelWorldExportJob API
+  slug: open-amazon-web-services-cancelworldexportjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 cancelWorldGenerationJob API
+  slug: open-amazon-web-services-cancelworldgenerationjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cardvalidationdata API
+  slug: open-amazon-web-services-cardvalidationdata-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Catalog API
+  slug: open-amazon-web-services-catalog-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Catalogs API
+  slug: open-amazon-web-services-catalogs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cellreadiness API
+  slug: open-amazon-web-services-cellreadiness-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cells API
+  slug: open-amazon-web-services-cells-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Certificate API
+  slug: open-amazon-web-services-certificate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Certificate Providers API
+  slug: open-amazon-web-services-certificate-providers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Certificates API
+  slug: open-amazon-web-services-certificates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Certificates by Ca API
+  slug: open-amazon-web-services-certificates-by-ca-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Certificates Out Going API
+  slug: open-amazon-web-services-certificates-out-going-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ChangeServerLifeCycleState API
+  slug: open-amazon-web-services-changeserverlifecyclestate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Channel API
+  slug: open-amazon-web-services-channel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Channel Flows API
+  slug: open-amazon-web-services-channel-flows-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 channelGroup API
+  slug: open-amazon-web-services-channelgroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Channels API
+  slug: open-amazon-web-services-channels-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Channels?operation=search API
+  slug: open-amazon-web-services-channels-operation-search-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Channels?scope=app Instance User Memberships API
+  slug: open-amazon-web-services-channels-scope-app-instance-user-memberships-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Channels?scope=app Instance User Moderated Channels API
+  slug: open-amazon-web-services-channels-scope-app-instance-user-moderated-channels-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Channels?scope=channel Flow Associations API
+  slug: open-amazon-web-services-channels-scope-channel-flow-associations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Chat Integration Event API
+  slug: open-amazon-web-services-chat-integration-event-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Checks API
+  slug: open-amazon-web-services-checks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cis API
+  slug: open-amazon-web-services-cis-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cissession API
+  slug: open-amazon-web-services-cissession-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Claims API
+  slug: open-amazon-web-services-claims-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Classification Export Configuration API
+  slug: open-amazon-web-services-classification-export-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Classification Scopes API
+  slug: open-amazon-web-services-classification-scopes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Client API
+  slug: open-amazon-web-services-client-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Clientcertificates API
+  slug: open-amazon-web-services-clientcertificates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Clitoken API
+  slug: open-amazon-web-services-clitoken-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cluster API
+  slug: open-amazon-web-services-cluster-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cluster Registrations API
+  slug: open-amazon-web-services-cluster-registrations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cluster Snapshot API
+  slug: open-amazon-web-services-cluster-snapshot-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cluster Snapshots API
+  slug: open-amazon-web-services-cluster-snapshots-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Clusters API
+  slug: open-amazon-web-services-clusters-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Codesnippet API
+  slug: open-amazon-web-services-codesnippet-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Collaborations API
+  slug: open-amazon-web-services-collaborations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CommitTransaction API
+  slug: open-amazon-web-services-committransaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Compatible Kafka Versions API
+  slug: open-amazon-web-services-compatible-kafka-versions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Config API
+  slug: open-amazon-web-services-config-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Configuration API
+  slug: open-amazon-web-services-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 configurationPolicy API
+  slug: open-amazon-web-services-configurationpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 configurationPolicyAssociation API
+  slug: open-amazon-web-services-configurationpolicyassociation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Configurations API
+  slug: open-amazon-web-services-configurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Configurationsessions API
+  slug: open-amazon-web-services-configurationsessions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Configured Audience Model API
+  slug: open-amazon-web-services-configured-audience-model-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 configuredTables API
+  slug: open-amazon-web-services-configuredtables-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 configureLogs API
+  slug: open-amazon-web-services-configurelogs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Confirmdestination API
+  slug: open-amazon-web-services-confirmdestination-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Connect Attachments API
+  slug: open-amazon-web-services-connect-attachments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Connect Instance API
+  slug: open-amazon-web-services-connect-instance-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Connect Peers API
+  slug: open-amazon-web-services-connect-peers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 @Connections API
+  slug: open-amazon-web-services-connections-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Connectors API
+  slug: open-amazon-web-services-connectors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 consolidatedReport API
+  slug: open-amazon-web-services-consolidatedreport-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Contact API
+  slug: open-amazon-web-services-contact-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Contact Evaluations API
+  slug: open-amazon-web-services-contact-evaluations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Contact Flow Modules API
+  slug: open-amazon-web-services-contact-flow-modules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Contact Flow Modules Summary API
+  slug: open-amazon-web-services-contact-flow-modules-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Contact Flows API
+  slug: open-amazon-web-services-contact-flows-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Contact Flows Summary API
+  slug: open-amazon-web-services-contact-flows-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Contacts API
+  slug: open-amazon-web-services-contacts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Control API
+  slug: open-amazon-web-services-control-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Controlpanel API
+  slug: open-amazon-web-services-controlpanel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Controlpanels API
+  slug: open-amazon-web-services-controlpanels-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Controls API
+  slug: open-amazon-web-services-controls-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Copy Jobs API
+  slug: open-amazon-web-services-copy-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Core Networks API
+  slug: open-amazon-web-services-core-networks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cors API
+  slug: open-amazon-web-services-cors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cost Estimation API
+  slug: open-amazon-web-services-cost-estimation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Coverage API
+  slug: open-amazon-web-services-coverage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create App API
+  slug: open-amazon-web-services-create-app-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create App Version App Component API
+  slug: open-amazon-web-services-create-app-version-app-component-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create App Version Resource API
+  slug: open-amazon-web-services-create-app-version-resource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Billing Group API
+  slug: open-amazon-web-services-create-billing-group-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Connector Profile API
+  slug: open-amazon-web-services-create-connector-profile-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Custom Line Item API
+  slug: open-amazon-web-services-create-custom-line-item-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Flow API
+  slug: open-amazon-web-services-create-flow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Landingzone API
+  slug: open-amazon-web-services-create-landingzone-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Multipart Upload API
+  slug: open-amazon-web-services-create-multipart-upload-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Pricing Plan API
+  slug: open-amazon-web-services-create-pricing-plan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Pricing Rule API
+  slug: open-amazon-web-services-create-pricing-rule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Recommendation Template API
+  slug: open-amazon-web-services-create-recommendation-template-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Resiliency Policy API
+  slug: open-amazon-web-services-create-resiliency-policy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Create Session API
+  slug: open-amazon-web-services-create-session-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateAlert API
+  slug: open-amazon-web-services-createalert-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateAnomalyDetector API
+  slug: open-amazon-web-services-createanomalydetector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateApplication API
+  slug: open-amazon-web-services-createapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateChannel API
+  slug: open-amazon-web-services-createchannel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateChatToken API
+  slug: open-amazon-web-services-createchattoken-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateComponent API
+  slug: open-amazon-web-services-createcomponent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Createcomputeenvironment API
+  slug: open-amazon-web-services-createcomputeenvironment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateConnector API
+  slug: open-amazon-web-services-createconnector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateContainerRecipe API
+  slug: open-amazon-web-services-createcontainerrecipe-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateDataCellsFilter API
+  slug: open-amazon-web-services-createdatacellsfilter-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createDeployment API
+  slug: open-amazon-web-services-createdeployment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createDeploymentJob API
+  slug: open-amazon-web-services-createdeploymentjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createDestination API
+  slug: open-amazon-web-services-createdestination-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateDistributionConfiguration API
+  slug: open-amazon-web-services-createdistributionconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateEncoderConfiguration API
+  slug: open-amazon-web-services-createencoderconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateExtendedSourceServer API
+  slug: open-amazon-web-services-createextendedsourceserver-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createFleet API
+  slug: open-amazon-web-services-createfleet-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateGroup API
+  slug: open-amazon-web-services-creategroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateImage API
+  slug: open-amazon-web-services-createimage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateImagePipeline API
+  slug: open-amazon-web-services-createimagepipeline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateImageRecipe API
+  slug: open-amazon-web-services-createimagerecipe-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateIndex API
+  slug: open-amazon-web-services-createindex-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateInfrastructureConfiguration API
+  slug: open-amazon-web-services-createinfrastructureconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Createjobqueue API
+  slug: open-amazon-web-services-createjobqueue-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateLakeFormationIdentityCenterConfiguration API
+  slug: open-amazon-web-services-createlakeformationidentitycenterconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateLakeFormationOptIn API
+  slug: open-amazon-web-services-createlakeformationoptin-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateLaunchConfigurationTemplate API
+  slug: open-amazon-web-services-createlaunchconfigurationtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateLFTag API
+  slug: open-amazon-web-services-createlftag-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateLifecyclePolicy API
+  slug: open-amazon-web-services-createlifecyclepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateLink API
+  slug: open-amazon-web-services-createlink-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateLoggingConfiguration API
+  slug: open-amazon-web-services-createloggingconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateMetricSet API
+  slug: open-amazon-web-services-createmetricset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createNotificationRule API
+  slug: open-amazon-web-services-createnotificationrule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateParticipantToken API
+  slug: open-amazon-web-services-createparticipanttoken-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Createpermission API
+  slug: open-amazon-web-services-createpermission-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Createpermissionversion API
+  slug: open-amazon-web-services-createpermissionversion-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreatePlaybackRestrictionPolicy API
+  slug: open-amazon-web-services-createplaybackrestrictionpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateRecordingConfiguration API
+  slug: open-amazon-web-services-createrecordingconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateReplicationConfigurationTemplate API
+  slug: open-amazon-web-services-createreplicationconfigurationtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createReplicationSet API
+  slug: open-amazon-web-services-createreplicationset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Createresourceshare API
+  slug: open-amazon-web-services-createresourceshare-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createResponsePlan API
+  slug: open-amazon-web-services-createresponseplan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createRobot API
+  slug: open-amazon-web-services-createrobot-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createRobotApplication API
+  slug: open-amazon-web-services-createrobotapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createRobotApplicationVersion API
+  slug: open-amazon-web-services-createrobotapplicationversion-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateRoom API
+  slug: open-amazon-web-services-createroom-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateSamplingRule API
+  slug: open-amazon-web-services-createsamplingrule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateSavingsPlan API
+  slug: open-amazon-web-services-createsavingsplan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Createschedulingpolicy API
+  slug: open-amazon-web-services-createschedulingpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createSignalingChannel API
+  slug: open-amazon-web-services-createsignalingchannel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createSimulationApplication API
+  slug: open-amazon-web-services-createsimulationapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createSimulationApplicationVersion API
+  slug: open-amazon-web-services-createsimulationapplicationversion-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createSimulationJob API
+  slug: open-amazon-web-services-createsimulationjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateSink API
+  slug: open-amazon-web-services-createsink-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createSite API
+  slug: open-amazon-web-services-createsite-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Createsnapshot API
+  slug: open-amazon-web-services-createsnapshot-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateSourceNetwork API
+  slug: open-amazon-web-services-createsourcenetwork-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateStage API
+  slug: open-amazon-web-services-createstage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateStorageConfiguration API
+  slug: open-amazon-web-services-createstorageconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createStream API
+  slug: open-amazon-web-services-createstream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateStreamKey API
+  slug: open-amazon-web-services-createstreamkey-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createTimelineEvent API
+  slug: open-amazon-web-services-createtimelineevent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Createuploadurl API
+  slug: open-amazon-web-services-createuploadurl-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateView API
+  slug: open-amazon-web-services-createview-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateWave API
+  slug: open-amazon-web-services-createwave-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createWorker API
+  slug: open-amazon-web-services-createworker-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createWorkerFleet API
+  slug: open-amazon-web-services-createworkerfleet-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 CreateWorkflow API
+  slug: open-amazon-web-services-createworkflow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createWorldExportJob API
+  slug: open-amazon-web-services-createworldexportjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createWorldGenerationJob API
+  slug: open-amazon-web-services-createworldgenerationjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 createWorldTemplate API
+  slug: open-amazon-web-services-createworldtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Credentials API
+  slug: open-amazon-web-services-credentials-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Crl API
+  slug: open-amazon-web-services-crl-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Crls API
+  slug: open-amazon-web-services-crls-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Crossaccountauthorizations API
+  slug: open-amazon-web-services-crossaccountauthorizations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Cryptogram API
+  slug: open-amazon-web-services-cryptogram-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Custom Data Identifiers API
+  slug: open-amazon-web-services-custom-data-identifiers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Custom Metric API
+  slug: open-amazon-web-services-custom-metric-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Custom Metrics API
+  slug: open-amazon-web-services-custom-metrics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Custom Models API
+  slug: open-amazon-web-services-custom-models-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Custom Plugins API
+  slug: open-amazon-web-services-custom-plugins-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Dashboards API
+  slug: open-amazon-web-services-dashboards-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Data Sets API
+  slug: open-amazon-web-services-data-sets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 dataflowEndpointGroup API
+  slug: open-amazon-web-services-dataflowendpointgroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 dataIntegrations API
+  slug: open-amazon-web-services-dataintegrations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Datalake API
+  slug: open-amazon-web-services-datalake-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Datalakes API
+  slug: open-amazon-web-services-datalakes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Dataplane Evaluatecode API
+  slug: open-amazon-web-services-dataplane-evaluatecode-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Dataplane Evaluatetemplate API
+  slug: open-amazon-web-services-dataplane-evaluatetemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Datasets API
+  slug: open-amazon-web-services-datasets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Datasetsv2 API
+  slug: open-amazon-web-services-datasetsv2-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 dataSourceKeywords API
+  slug: open-amazon-web-services-datasourcekeywords-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Datasources API
+  slug: open-amazon-web-services-datasources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Datastore API
+  slug: open-amazon-web-services-datastore-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Datastores API
+  slug: open-amazon-web-services-datastores-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeactivateAnomalyDetector API
+  slug: open-amazon-web-services-deactivateanomalydetector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Default Authorizer API
+  slug: open-amazon-web-services-default-authorizer-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Default Vocabulary API
+  slug: open-amazon-web-services-default-vocabulary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Default Vocabulary Summary API
+  slug: open-amazon-web-services-default-vocabulary-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delegatedadminaccounts API
+  slug: open-amazon-web-services-delegatedadminaccounts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delegations API
+  slug: open-amazon-web-services-delegations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete App API
+  slug: open-amazon-web-services-delete-app-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete App Assessment API
+  slug: open-amazon-web-services-delete-app-assessment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete App Input Source API
+  slug: open-amazon-web-services-delete-app-input-source-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete App Version App Component API
+  slug: open-amazon-web-services-delete-app-version-app-component-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete App Version Resource API
+  slug: open-amazon-web-services-delete-app-version-resource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Billing Group API
+  slug: open-amazon-web-services-delete-billing-group-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Connector Profile API
+  slug: open-amazon-web-services-delete-connector-profile-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Custom Line Item API
+  slug: open-amazon-web-services-delete-custom-line-item-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Flow API
+  slug: open-amazon-web-services-delete-flow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Group API
+  slug: open-amazon-web-services-delete-group-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Landingzone API
+  slug: open-amazon-web-services-delete-landingzone-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Objects. API
+  slug: open-amazon-web-services-delete-objects-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Pricing Plan API
+  slug: open-amazon-web-services-delete-pricing-plan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Pricing Rule API
+  slug: open-amazon-web-services-delete-pricing-rule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Recommendation Template API
+  slug: open-amazon-web-services-delete-recommendation-template-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Resiliency Policy API
+  slug: open-amazon-web-services-delete-resiliency-policy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Delete Resource Permission API
+  slug: open-amazon-web-services-delete-resource-permission-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteAlert API
+  slug: open-amazon-web-services-deletealert-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteAlternateContact API
+  slug: open-amazon-web-services-deletealternatecontact-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteAnomalyDetector API
+  slug: open-amazon-web-services-deleteanomalydetector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deleteapp API
+  slug: open-amazon-web-services-deleteapp-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteApplication API
+  slug: open-amazon-web-services-deleteapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteChannel API
+  slug: open-amazon-web-services-deletechannel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteComponent API
+  slug: open-amazon-web-services-deletecomponent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deletecomputeenvironment API
+  slug: open-amazon-web-services-deletecomputeenvironment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteConnector API
+  slug: open-amazon-web-services-deleteconnector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteContainerRecipe API
+  slug: open-amazon-web-services-deletecontainerrecipe-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteDataCellsFilter API
+  slug: open-amazon-web-services-deletedatacellsfilter-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteDeployment API
+  slug: open-amazon-web-services-deletedeployment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteDestination API
+  slug: open-amazon-web-services-deletedestination-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteDistributionConfiguration API
+  slug: open-amazon-web-services-deletedistributionconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteEdgeConfiguration API
+  slug: open-amazon-web-services-deleteedgeconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteEncoderConfiguration API
+  slug: open-amazon-web-services-deleteencoderconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteFleet API
+  slug: open-amazon-web-services-deletefleet-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteGroup API
+  slug: open-amazon-web-services-deletegroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteImage API
+  slug: open-amazon-web-services-deleteimage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteImagePipeline API
+  slug: open-amazon-web-services-deleteimagepipeline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteImageRecipe API
+  slug: open-amazon-web-services-deleteimagerecipe-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteIncidentRecord API
+  slug: open-amazon-web-services-deleteincidentrecord-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteIndex API
+  slug: open-amazon-web-services-deleteindex-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteInfrastructureConfiguration API
+  slug: open-amazon-web-services-deleteinfrastructureconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteJob API
+  slug: open-amazon-web-services-deletejob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deletejobqueue API
+  slug: open-amazon-web-services-deletejobqueue-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteLakeFormationIdentityCenterConfiguration API
+  slug: open-amazon-web-services-deletelakeformationidentitycenterconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteLakeFormationOptIn API
+  slug: open-amazon-web-services-deletelakeformationoptin-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteLaunchAction API
+  slug: open-amazon-web-services-deletelaunchaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteLaunchConfigurationTemplate API
+  slug: open-amazon-web-services-deletelaunchconfigurationtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteLFTag API
+  slug: open-amazon-web-services-deletelftag-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteLifecyclePolicy API
+  slug: open-amazon-web-services-deletelifecyclepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteLink API
+  slug: open-amazon-web-services-deletelink-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteLoggingConfiguration API
+  slug: open-amazon-web-services-deleteloggingconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteMessage API
+  slug: open-amazon-web-services-deletemessage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteNotificationRule API
+  slug: open-amazon-web-services-deletenotificationrule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteObjectsOnCancel API
+  slug: open-amazon-web-services-deleteobjectsoncancel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deletepermission API
+  slug: open-amazon-web-services-deletepermission-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deletepermissionversion API
+  slug: open-amazon-web-services-deletepermissionversion-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeletePlaybackKeyPair API
+  slug: open-amazon-web-services-deleteplaybackkeypair-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeletePlaybackRestrictionPolicy API
+  slug: open-amazon-web-services-deleteplaybackrestrictionpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteQueuedSavingsPlan API
+  slug: open-amazon-web-services-deletequeuedsavingsplan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteRecordingConfiguration API
+  slug: open-amazon-web-services-deleterecordingconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteRecoveryInstance API
+  slug: open-amazon-web-services-deleterecoveryinstance-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteReplicationConfigurationTemplate API
+  slug: open-amazon-web-services-deletereplicationconfigurationtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteReplicationSet API
+  slug: open-amazon-web-services-deletereplicationset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteResourcePolicy API
+  slug: open-amazon-web-services-deleteresourcepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deleteresourceshare API
+  slug: open-amazon-web-services-deleteresourceshare-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteResponsePlan API
+  slug: open-amazon-web-services-deleteresponseplan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteRobot API
+  slug: open-amazon-web-services-deleterobot-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteRobotApplication API
+  slug: open-amazon-web-services-deleterobotapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteRoom API
+  slug: open-amazon-web-services-deleteroom-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteSamplingRule API
+  slug: open-amazon-web-services-deletesamplingrule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deleteschedulingpolicy API
+  slug: open-amazon-web-services-deleteschedulingpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteSignalingChannel API
+  slug: open-amazon-web-services-deletesignalingchannel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deletesimulation API
+  slug: open-amazon-web-services-deletesimulation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteSimulationApplication API
+  slug: open-amazon-web-services-deletesimulationapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteSink API
+  slug: open-amazon-web-services-deletesink-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteSite API
+  slug: open-amazon-web-services-deletesite-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteSourceNetwork API
+  slug: open-amazon-web-services-deletesourcenetwork-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteSourceServer API
+  slug: open-amazon-web-services-deletesourceserver-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteStage API
+  slug: open-amazon-web-services-deletestage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteStorageConfiguration API
+  slug: open-amazon-web-services-deletestorageconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteStream API
+  slug: open-amazon-web-services-deletestream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteStreamKey API
+  slug: open-amazon-web-services-deletestreamkey-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteTarget API
+  slug: open-amazon-web-services-deletetarget-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteTimelineEvent API
+  slug: open-amazon-web-services-deletetimelineevent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteVcenterClient API
+  slug: open-amazon-web-services-deletevcenterclient-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteView API
+  slug: open-amazon-web-services-deleteview-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteWave API
+  slug: open-amazon-web-services-deletewave-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteWorker API
+  slug: open-amazon-web-services-deleteworker-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteWorkerFleet API
+  slug: open-amazon-web-services-deleteworkerfleet-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeleteWorkflow API
+  slug: open-amazon-web-services-deleteworkflow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deleteWorldTemplate API
+  slug: open-amazon-web-services-deleteworldtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deployementstrategies API
+  slug: open-amazon-web-services-deployementstrategies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deployments API
+  slug: open-amazon-web-services-deployments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deploymentstrategies API
+  slug: open-amazon-web-services-deploymentstrategies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deregister Application API
+  slug: open-amazon-web-services-deregister-application-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deregister Device API
+  slug: open-amazon-web-services-deregister-device-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Deregisterjobdefinition API
+  slug: open-amazon-web-services-deregisterjobdefinition-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DeregisterResource API
+  slug: open-amazon-web-services-deregisterresource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 deregisterRobot API
+  slug: open-amazon-web-services-deregisterrobot-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Accelerator Offerings API
+  slug: open-amazon-web-services-describe-accelerator-offerings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Accelerator Types API
+  slug: open-amazon-web-services-describe-accelerator-types-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Accelerators API
+  slug: open-amazon-web-services-describe-accelerators-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe App API
+  slug: open-amazon-web-services-describe-app-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe App Assessment API
+  slug: open-amazon-web-services-describe-app-assessment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe App Version API
+  slug: open-amazon-web-services-describe-app-version-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe App Version App Component API
+  slug: open-amazon-web-services-describe-app-version-app-component-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe App Version Resource API
+  slug: open-amazon-web-services-describe-app-version-resource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe App Version Resources Resolution Status API
+  slug: open-amazon-web-services-describe-app-version-resources-resolution-status-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe App Version Template API
+  slug: open-amazon-web-services-describe-app-version-template-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Connector API
+  slug: open-amazon-web-services-describe-connector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Connector Entity API
+  slug: open-amazon-web-services-describe-connector-entity-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Connector Profiles API
+  slug: open-amazon-web-services-describe-connector-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Connectors API
+  slug: open-amazon-web-services-describe-connectors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Draft App Version Resources Import Status API
+  slug: open-amazon-web-services-describe-draft-app-version-resources-import-status-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Flow API
+  slug: open-amazon-web-services-describe-flow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Flow Execution Records API
+  slug: open-amazon-web-services-describe-flow-execution-records-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describe Resiliency Policy API
+  slug: open-amazon-web-services-describe-resiliency-policy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeAlert API
+  slug: open-amazon-web-services-describealert-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeAnomalyDetectionExecutions API
+  slug: open-amazon-web-services-describeanomalydetectionexecutions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeAnomalyDetector API
+  slug: open-amazon-web-services-describeanomalydetector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describeapp API
+  slug: open-amazon-web-services-describeapp-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeAuditStreamConfiguration API
+  slug: open-amazon-web-services-describeauditstreamconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeChangeSet API
+  slug: open-amazon-web-services-describechangeset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeCompanyNetworkConfiguration API
+  slug: open-amazon-web-services-describecompanynetworkconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describecomputeenvironments API
+  slug: open-amazon-web-services-describecomputeenvironments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeDeploymentJob API
+  slug: open-amazon-web-services-describedeploymentjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeDevice API
+  slug: open-amazon-web-services-describedevice-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeDevicePolicyConfiguration API
+  slug: open-amazon-web-services-describedevicepolicyconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeDomain API
+  slug: open-amazon-web-services-describedomain-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeEdgeConfiguration API
+  slug: open-amazon-web-services-describeedgeconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeEntity API
+  slug: open-amazon-web-services-describeentity-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeFleet API
+  slug: open-amazon-web-services-describefleet-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeFleetMetadata API
+  slug: open-amazon-web-services-describefleetmetadata-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeIdentityProviderConfiguration API
+  slug: open-amazon-web-services-describeidentityproviderconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeImageGenerationConfiguration API
+  slug: open-amazon-web-services-describeimagegenerationconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describejobdefinitions API
+  slug: open-amazon-web-services-describejobdefinitions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeJobLogItems API
+  slug: open-amazon-web-services-describejoblogitems-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describejobqueues API
+  slug: open-amazon-web-services-describejobqueues-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describejobs API
+  slug: open-amazon-web-services-describejobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeLakeFormationIdentityCenterConfiguration API
+  slug: open-amazon-web-services-describelakeformationidentitycenterconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeLaunchConfigurationTemplates API
+  slug: open-amazon-web-services-describelaunchconfigurationtemplates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeMappedResourceConfiguration API
+  slug: open-amazon-web-services-describemappedresourceconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeMediaStorageConfiguration API
+  slug: open-amazon-web-services-describemediastorageconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeMetricSet API
+  slug: open-amazon-web-services-describemetricset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeNotificationConfiguration API
+  slug: open-amazon-web-services-describenotificationconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeNotificationRule API
+  slug: open-amazon-web-services-describenotificationrule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeRecoveryInstances API
+  slug: open-amazon-web-services-describerecoveryinstances-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeRecoverySnapshots API
+  slug: open-amazon-web-services-describerecoverysnapshots-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeReplicationConfigurationTemplates API
+  slug: open-amazon-web-services-describereplicationconfigurationtemplates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeResource API
+  slug: open-amazon-web-services-describeresource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeRobot API
+  slug: open-amazon-web-services-describerobot-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeRobotApplication API
+  slug: open-amazon-web-services-describerobotapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeSavingsPlanRates API
+  slug: open-amazon-web-services-describesavingsplanrates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeSavingsPlans API
+  slug: open-amazon-web-services-describesavingsplans-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeSavingsPlansOfferingRates API
+  slug: open-amazon-web-services-describesavingsplansofferingrates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeSavingsPlansOfferings API
+  slug: open-amazon-web-services-describesavingsplansofferings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describeschedulingpolicies API
+  slug: open-amazon-web-services-describeschedulingpolicies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeSignalingChannel API
+  slug: open-amazon-web-services-describesignalingchannel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Describesimulation API
+  slug: open-amazon-web-services-describesimulation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeSimulationApplication API
+  slug: open-amazon-web-services-describesimulationapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeSimulationJob API
+  slug: open-amazon-web-services-describesimulationjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeSimulationJobBatch API
+  slug: open-amazon-web-services-describesimulationjobbatch-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeSourceNetworks API
+  slug: open-amazon-web-services-describesourcenetworks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeSourceServers API
+  slug: open-amazon-web-services-describesourceservers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeStream API
+  slug: open-amazon-web-services-describestream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeTransaction API
+  slug: open-amazon-web-services-describetransaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DescribeVcenterClients API
+  slug: open-amazon-web-services-describevcenterclients-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeWebsiteCertificateAuthority API
+  slug: open-amazon-web-services-describewebsitecertificateauthority-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeWorld API
+  slug: open-amazon-web-services-describeworld-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeWorldExportJob API
+  slug: open-amazon-web-services-describeworldexportjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeWorldGenerationJob API
+  slug: open-amazon-web-services-describeworldgenerationjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 describeWorldTemplate API
+  slug: open-amazon-web-services-describeworldtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Destinations API
+  slug: open-amazon-web-services-destinations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Detect API
+  slug: open-amazon-web-services-detect-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DetectMetricSetConfig API
+  slug: open-amazon-web-services-detectmetricsetconfig-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Detector API
+  slug: open-amazon-web-services-detector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Detector Models API
+  slug: open-amazon-web-services-detector-models-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Detectors API
+  slug: open-amazon-web-services-detectors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Device API
+  slug: open-amazon-web-services-device-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Device Authorization API
+  slug: open-amazon-web-services-device-authorization-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Device Identifiers API
+  slug: open-amazon-web-services-device-identifiers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Device Profiles API
+  slug: open-amazon-web-services-device-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Devices API
+  slug: open-amazon-web-services-devices-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Dimensions API
+  slug: open-amazon-web-services-dimensions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Directory Buckets API
+  slug: open-amazon-web-services-directory-buckets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 directoryRegistrations API
+  slug: open-amazon-web-services-directoryregistrations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Disable API
+  slug: open-amazon-web-services-disable-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Disable Baseline API
+  slug: open-amazon-web-services-disable-baseline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Disable Control API
+  slug: open-amazon-web-services-disable-control-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 disableRegion API
+  slug: open-amazon-web-services-disableregion-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Disassociate Accounts API
+  slug: open-amazon-web-services-disassociate-accounts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Disassociate Pricing Rules API
+  slug: open-amazon-web-services-disassociate-pricing-rules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DisassociateApplications API
+  slug: open-amazon-web-services-disassociateapplications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DisassociateDefaultView API
+  slug: open-amazon-web-services-disassociatedefaultview-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 disassociateDomain API
+  slug: open-amazon-web-services-disassociatedomain-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Disassociateresourceshare API
+  slug: open-amazon-web-services-disassociateresourceshare-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Disassociateresourcesharepermission API
+  slug: open-amazon-web-services-disassociateresourcesharepermission-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DisassociateSourceServers API
+  slug: open-amazon-web-services-disassociatesourceservers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 disassociateWebsiteAuthorizationProvider API
+  slug: open-amazon-web-services-disassociatewebsiteauthorizationprovider-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 disassociateWebsiteCertificateAuthority API
+  slug: open-amazon-web-services-disassociatewebsitecertificateauthority-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DisconnectFromService API
+  slug: open-amazon-web-services-disconnectfromservice-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DisconnectParticipant API
+  slug: open-amazon-web-services-disconnectparticipant-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DisconnectRecoveryInstance API
+  slug: open-amazon-web-services-disconnectrecoveryinstance-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DisconnectSourceServer API
+  slug: open-amazon-web-services-disconnectsourceserver-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 DisconnectUser API
+  slug: open-amazon-web-services-disconnectuser-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Discover API
+  slug: open-amazon-web-services-discover-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Discoverers API
+  slug: open-amazon-web-services-discoverers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Documents API
+  slug: open-amazon-web-services-documents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 documentVersions API
+  slug: open-amazon-web-services-documentversions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Domain API
+  slug: open-amazon-web-services-domain-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 domainConfigurations API
+  slug: open-amazon-web-services-domainconfigurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Domainnames API
+  slug: open-amazon-web-services-domainnames-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Domains API
+  slug: open-amazon-web-services-domains-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Domains List API
+  slug: open-amazon-web-services-domains-list-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Dynamic Thing Groups API
+  slug: open-amazon-web-services-dynamic-thing-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Earth Observation Jobs API
+  slug: open-amazon-web-services-earth-observation-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Ec2deepinspectionconfiguration API
+  slug: open-amazon-web-services-ec2deepinspectionconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Ec2deepinspectionstatus API
+  slug: open-amazon-web-services-ec2deepinspectionstatus-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Effective Policies API
+  slug: open-amazon-web-services-effective-policies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Eks Anywhere Subscriptions API
+  slug: open-amazon-web-services-eks-anywhere-subscriptions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Email API
+  slug: open-amazon-web-services-email-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Emergency Calling API
+  slug: open-amazon-web-services-emergency-calling-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Enable API
+  slug: open-amazon-web-services-enable-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Enable Baseline API
+  slug: open-amazon-web-services-enable-baseline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Enable Control API
+  slug: open-amazon-web-services-enable-control-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 enableRegion API
+  slug: open-amazon-web-services-enableregion-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Enablesharingwithawsorganization API
+  slug: open-amazon-web-services-enablesharingwithawsorganization-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 EncryptionConfig API
+  slug: open-amazon-web-services-encryptionconfig-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Encryptionkey API
+  slug: open-amazon-web-services-encryptionkey-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Endpoint API
+  slug: open-amazon-web-services-endpoint-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Endpoints API
+  slug: open-amazon-web-services-endpoints-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Engine Versions API
+  slug: open-amazon-web-services-engine-versions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Entitlements API
+  slug: open-amazon-web-services-entitlements-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Environment API
+  slug: open-amazon-web-services-environment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Environments API
+  slug: open-amazon-web-services-environments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 environmentVariables API
+  slug: open-amazon-web-services-environmentvariables-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Ephemerides API
+  slug: open-amazon-web-services-ephemerides-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Ephemeris API
+  slug: open-amazon-web-services-ephemeris-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Evaluation Forms API
+  slug: open-amazon-web-services-evaluation-forms-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Event Actions API
+  slug: open-amazon-web-services-event-actions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Event Configurations API
+  slug: open-amazon-web-services-event-configurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Event Configurations Resource Types API
+  slug: open-amazon-web-services-event-configurations-resource-types-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Event Sources API
+  slug: open-amazon-web-services-event-sources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 eventIntegrations API
+  slug: open-amazon-web-services-eventintegrations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Events API
+  slug: open-amazon-web-services-events-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 evidenceFileUploadUrl API
+  slug: open-amazon-web-services-evidencefileuploadurl-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Execute API
+  slug: open-amazon-web-services-execute-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ExecuteSql API
+  slug: open-amazon-web-services-executesql-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Executions API
+  slug: open-amazon-web-services-executions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Experiments API
+  slug: open-amazon-web-services-experiments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 experimentTemplates API
+  slug: open-amazon-web-services-experimenttemplates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Export API
+  slug: open-amazon-web-services-export-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Export Earth Observation Job API
+  slug: open-amazon-web-services-export-earth-observation-job-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Export Vector Enrichment Jobs API
+  slug: open-amazon-web-services-export-vector-enrichment-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Exports API
+  slug: open-amazon-web-services-exports-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ExportSourceNetworkCfnTemplate API
+  slug: open-amazon-web-services-exportsourcenetworkcfntemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ExtendTransaction API
+  slug: open-amazon-web-services-extendtransaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Extensionassociations API
+  slug: open-amazon-web-services-extensionassociations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Extensions API
+  slug: open-amazon-web-services-extensions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 FeatureGroup API
+  slug: open-amazon-web-services-featuregroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Federation API
+  slug: open-amazon-web-services-federation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Feedback API
+  slug: open-amazon-web-services-feedback-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Filters API
+  slug: open-amazon-web-services-filters-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 FinalizeCutover API
+  slug: open-amazon-web-services-finalizecutover-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Finding API
+  slug: open-amazon-web-services-finding-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 findingAggregator API
+  slug: open-amazon-web-services-findingaggregator-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 findingHistory API
+  slug: open-amazon-web-services-findinghistory-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Findings API
+  slug: open-amazon-web-services-findings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Findings Publication Configuration API
+  slug: open-amazon-web-services-findings-publication-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Findingsfilters API
+  slug: open-amazon-web-services-findingsfilters-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Findingv2 API
+  slug: open-amazon-web-services-findingv2-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Fleet Metric API
+  slug: open-amazon-web-services-fleet-metric-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Fleet Metrics API
+  slug: open-amazon-web-services-fleet-metrics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Flow Associations API
+  slug: open-amazon-web-services-flow-associations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Flow Associations Batch API
+  slug: open-amazon-web-services-flow-associations-batch-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Flow Associations Summary API
+  slug: open-amazon-web-services-flow-associations-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Flows API
+  slug: open-amazon-web-services-flows-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 FlushCache API
+  slug: open-amazon-web-services-flushcache-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Folders API
+  slug: open-amazon-web-services-folders-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Foundation Models API
+  slug: open-amazon-web-services-foundation-models-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Freetrialinfo API
+  slug: open-amazon-web-services-freetrialinfo-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Functions API
+  slug: open-amazon-web-services-functions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Fuota Tasks API
+  slug: open-amazon-web-services-fuota-tasks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Gateway Instances API
+  slug: open-amazon-web-services-gateway-instances-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Gateways API
+  slug: open-amazon-web-services-gateways-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Geofencing API
+  slug: open-amazon-web-services-geofencing-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Account Settings API
+  slug: open-amazon-web-services-get-account-settings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Application API
+  slug: open-amazon-web-services-get-application-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Applicationcomponent Details API
+  slug: open-amazon-web-services-get-applicationcomponent-details-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Applicationcomponent Strategies API
+  slug: open-amazon-web-services-get-applicationcomponent-strategies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Assessment API
+  slug: open-amazon-web-services-get-assessment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Asset Contract API
+  slug: open-amazon-web-services-get-asset-contract-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Baseline API
+  slug: open-amazon-web-services-get-baseline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Baseline Operation API
+  slug: open-amazon-web-services-get-baseline-operation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Billing Group Cost Report API
+  slug: open-amazon-web-services-get-billing-group-cost-report-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Component API
+  slug: open-amazon-web-services-get-component-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Control Operation API
+  slug: open-amazon-web-services-get-control-operation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Database API
+  slug: open-amazon-web-services-get-database-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Enabled Baseline API
+  slug: open-amazon-web-services-get-enabled-baseline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Enabled Control API
+  slug: open-amazon-web-services-get-enabled-control-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Group API
+  slug: open-amazon-web-services-get-group-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Group Configuration API
+  slug: open-amazon-web-services-get-group-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Group Query API
+  slug: open-amazon-web-services-get-group-query-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Ice Server Config API
+  slug: open-amazon-web-services-get-ice-server-config-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Import File Task API
+  slug: open-amazon-web-services-get-import-file-task-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Landingzone API
+  slug: open-amazon-web-services-get-landingzone-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Landingzone Operation API
+  slug: open-amazon-web-services-get-landingzone-operation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Latest Assessment Id API
+  slug: open-amazon-web-services-get-latest-assessment-id-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Operation API
+  slug: open-amazon-web-services-get-operation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Portfolio Preferences API
+  slug: open-amazon-web-services-get-portfolio-preferences-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Portfolio Summary API
+  slug: open-amazon-web-services-get-portfolio-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Recommendation Report Details API
+  slug: open-amazon-web-services-get-recommendation-report-details-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Resource Permission API
+  slug: open-amazon-web-services-get-resource-permission-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Server Details API
+  slug: open-amazon-web-services-get-server-details-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Server Strategies API
+  slug: open-amazon-web-services-get-server-strategies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Token Balance API
+  slug: open-amazon-web-services-get-token-balance-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Get Transaction API
+  slug: open-amazon-web-services-get-transaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetAccountLevelServiceConfiguration API
+  slug: open-amazon-web-services-getaccountlevelserviceconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getAlternateContact API
+  slug: open-amazon-web-services-getalternatecontact-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetAnomalyGroup API
+  slug: open-amazon-web-services-getanomalygroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetChannel API
+  slug: open-amazon-web-services-getchannel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getClip API
+  slug: open-amazon-web-services-getclip-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetComponent API
+  slug: open-amazon-web-services-getcomponent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetComponentPolicy API
+  slug: open-amazon-web-services-getcomponentpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetComposition API
+  slug: open-amazon-web-services-getcomposition-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getContactInformation API
+  slug: open-amazon-web-services-getcontactinformation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetContainerRecipe API
+  slug: open-amazon-web-services-getcontainerrecipe-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetContainerRecipePolicy API
+  slug: open-amazon-web-services-getcontainerrecipepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getDASHStreamingSessionURL API
+  slug: open-amazon-web-services-getdashstreamingsessionurl-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetDataCellsFilter API
+  slug: open-amazon-web-services-getdatacellsfilter-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getDataEndpoint API
+  slug: open-amazon-web-services-getdataendpoint-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetDataLakeSettings API
+  slug: open-amazon-web-services-getdatalakesettings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetDataQualityMetrics API
+  slug: open-amazon-web-services-getdataqualitymetrics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetDefaultView API
+  slug: open-amazon-web-services-getdefaultview-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getDeployment API
+  slug: open-amazon-web-services-getdeployment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetDeployments API
+  slug: open-amazon-web-services-getdeployments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getDestination API
+  slug: open-amazon-web-services-getdestination-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetDeviceRegistration API
+  slug: open-amazon-web-services-getdeviceregistration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getDICOMImportJob API
+  slug: open-amazon-web-services-getdicomimportjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetDistributionConfiguration API
+  slug: open-amazon-web-services-getdistributionconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetEffectivePermissionsForPath API
+  slug: open-amazon-web-services-geteffectivepermissionsforpath-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetEncoderConfiguration API
+  slug: open-amazon-web-services-getencoderconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetFailbackReplicationConfiguration API
+  slug: open-amazon-web-services-getfailbackreplicationconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetFeedback API
+  slug: open-amazon-web-services-getfeedback-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetGroup API
+  slug: open-amazon-web-services-getgroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getHLSStreamingSessionURL API
+  slug: open-amazon-web-services-gethlsstreamingsessionurl-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetImage API
+  slug: open-amazon-web-services-getimage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetImagePipeline API
+  slug: open-amazon-web-services-getimagepipeline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetImagePolicy API
+  slug: open-amazon-web-services-getimagepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetImageRecipe API
+  slug: open-amazon-web-services-getimagerecipe-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetImageRecipePolicy API
+  slug: open-amazon-web-services-getimagerecipepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getImages API
+  slug: open-amazon-web-services-getimages-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getIncidentRecord API
+  slug: open-amazon-web-services-getincidentrecord-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetIndex API
+  slug: open-amazon-web-services-getindex-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetInfrastructureConfiguration API
+  slug: open-amazon-web-services-getinfrastructureconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetLaunchConfiguration API
+  slug: open-amazon-web-services-getlaunchconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetLFTag API
+  slug: open-amazon-web-services-getlftag-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetLifecycleExecution API
+  slug: open-amazon-web-services-getlifecycleexecution-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetLifecyclePolicy API
+  slug: open-amazon-web-services-getlifecyclepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetLink API
+  slug: open-amazon-web-services-getlink-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetLoggingConfiguration API
+  slug: open-amazon-web-services-getloggingconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getMedia API
+  slug: open-amazon-web-services-getmedia-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getMediaForFragmentList API
+  slug: open-amazon-web-services-getmediaforfragmentlist-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetParticipant API
+  slug: open-amazon-web-services-getparticipant-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Getpermission API
+  slug: open-amazon-web-services-getpermission-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetPlaybackKeyPair API
+  slug: open-amazon-web-services-getplaybackkeypair-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetPlaybackRestrictionPolicy API
+  slug: open-amazon-web-services-getplaybackrestrictionpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetQueryState API
+  slug: open-amazon-web-services-getquerystate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetQueryStatistics API
+  slug: open-amazon-web-services-getquerystatistics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetRecordingConfiguration API
+  slug: open-amazon-web-services-getrecordingconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getRegionOptStatus API
+  slug: open-amazon-web-services-getregionoptstatus-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetReplicationConfiguration API
+  slug: open-amazon-web-services-getreplicationconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getReplicationSet API
+  slug: open-amazon-web-services-getreplicationset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetResourceLFTags API
+  slug: open-amazon-web-services-getresourcelftags-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Getresourcepolicies API
+  slug: open-amazon-web-services-getresourcepolicies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetResourcePolicy API
+  slug: open-amazon-web-services-getresourcepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Getresourceshareassociations API
+  slug: open-amazon-web-services-getresourceshareassociations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Getresourceshareinvitations API
+  slug: open-amazon-web-services-getresourceshareinvitations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Getresourceshares API
+  slug: open-amazon-web-services-getresourceshares-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getResponsePlan API
+  slug: open-amazon-web-services-getresponseplan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetRoom API
+  slug: open-amazon-web-services-getroom-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetSampleData API
+  slug: open-amazon-web-services-getsampledata-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetSamplingRules API
+  slug: open-amazon-web-services-getsamplingrules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getSignalingChannelEndpoint API
+  slug: open-amazon-web-services-getsignalingchannelendpoint-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetSink API
+  slug: open-amazon-web-services-getsink-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetSinkPolicy API
+  slug: open-amazon-web-services-getsinkpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getSite API
+  slug: open-amazon-web-services-getsite-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetStage API
+  slug: open-amazon-web-services-getstage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetStageSession API
+  slug: open-amazon-web-services-getstagesession-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetStorageConfiguration API
+  slug: open-amazon-web-services-getstorageconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetStream API
+  slug: open-amazon-web-services-getstream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetStreamKey API
+  slug: open-amazon-web-services-getstreamkey-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetStreamSession API
+  slug: open-amazon-web-services-getstreamsession-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetTableObjects API
+  slug: open-amazon-web-services-gettableobjects-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetTemporaryGluePartitionCredentials API
+  slug: open-amazon-web-services-gettemporarygluepartitioncredentials-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetTemporaryGlueTableCredentials API
+  slug: open-amazon-web-services-gettemporarygluetablecredentials-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getTimelineEvent API
+  slug: open-amazon-web-services-gettimelineevent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetView API
+  slug: open-amazon-web-services-getview-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getWorker API
+  slug: open-amazon-web-services-getworker-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getWorkerFleet API
+  slug: open-amazon-web-services-getworkerfleet-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetWorkflow API
+  slug: open-amazon-web-services-getworkflow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetWorkflowExecution API
+  slug: open-amazon-web-services-getworkflowexecution-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetWorkflowStepExecution API
+  slug: open-amazon-web-services-getworkflowstepexecution-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getWorkload API
+  slug: open-amazon-web-services-getworkload-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetWorkUnitResults API
+  slug: open-amazon-web-services-getworkunitresults-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GetWorkUnits API
+  slug: open-amazon-web-services-getworkunits-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 getWorldTemplateBody API
+  slug: open-amazon-web-services-getworldtemplatebody-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Global Networks API
+  slug: open-amazon-web-services-global-networks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Global Settings API
+  slug: open-amazon-web-services-global-settings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 GrantPermissions API
+  slug: open-amazon-web-services-grantpermissions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Graph API
+  slug: open-amazon-web-services-graph-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Graphs API
+  slug: open-amazon-web-services-graphs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Greengrass API
+  slug: open-amazon-web-services-greengrass-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Gremlin API
+  slug: open-amazon-web-services-gremlin-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Groundstation API
+  slug: open-amazon-web-services-groundstation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Group API
+  slug: open-amazon-web-services-group-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Group Resources API
+  slug: open-amazon-web-services-group-resources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Groups API
+  slug: open-amazon-web-services-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Groups List API
+  slug: open-amazon-web-services-groups-list-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Harvest Jobs API
+  slug: open-amazon-web-services-harvest-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Hours of Operations API
+  slug: open-amazon-web-services-hours-of-operations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Hours of Operations Summary API
+  slug: open-amazon-web-services-hours-of-operations-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Human Loops API
+  slug: open-amazon-web-services-human-loops-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Identity Provider API
+  slug: open-amazon-web-services-identity-provider-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Identitypools API
+  slug: open-amazon-web-services-identitypools-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 identityProviders API
+  slug: open-amazon-web-services-identityproviders-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Idmappingworkflows API
+  slug: open-amazon-web-services-idmappingworkflows-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Import API
+  slug: open-amazon-web-services-import-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Import Resources to Draft App Version API
+  slug: open-amazon-web-services-import-resources-to-draft-app-version-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 importApplicationUsage API
+  slug: open-amazon-web-services-importapplicationusage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ImportComponent API
+  slug: open-amazon-web-services-importcomponent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 importLens API
+  slug: open-amazon-web-services-importlens-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ImportPlaybackKeyPair API
+  slug: open-amazon-web-services-importplaybackkeypair-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Imports API
+  slug: open-amazon-web-services-imports-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Importtasks API
+  slug: open-amazon-web-services-importtasks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ImportVmImage API
+  slug: open-amazon-web-services-importvmimage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Indexing API
+  slug: open-amazon-web-services-indexing-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Indices API
+  slug: open-amazon-web-services-indices-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 InitializeService API
+  slug: open-amazon-web-services-initializeservice-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Input Routings API
+  slug: open-amazon-web-services-input-routings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Inputs API
+  slug: open-amazon-web-services-inputs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Insight API
+  slug: open-amazon-web-services-insight-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 InsightEvents API
+  slug: open-amazon-web-services-insightevents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 InsightImpactGraph API
+  slug: open-amazon-web-services-insightimpactgraph-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Insights API
+  slug: open-amazon-web-services-insights-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 InsightSummaries API
+  slug: open-amazon-web-services-insightsummaries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Instance API
+  slug: open-amazon-web-services-instance-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Integrations API
+  slug: open-amazon-web-services-integrations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Intents API
+  slug: open-amazon-web-services-intents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Internal API
+  slug: open-amazon-web-services-internal-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Investigations API
+  slug: open-amazon-web-services-investigations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Invitation API
+  slug: open-amazon-web-services-invitation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Invitations API
+  slug: open-amazon-web-services-invitations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ipAccessSettings API
+  slug: open-amazon-web-services-ipaccesssettings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Items API
+  slug: open-amazon-web-services-items-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Job API
+  slug: open-amazon-web-services-job-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Job Templates API
+  slug: open-amazon-web-services-job-templates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Jobs API
+  slug: open-amazon-web-services-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Jobtemplates API
+  slug: open-amazon-web-services-jobtemplates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 joinStorageSession API
+  slug: open-amazon-web-services-joinstoragesession-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Journal S3 Exports API
+  slug: open-amazon-web-services-journal-s3-exports-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Kafka Versions API
+  slug: open-amazon-web-services-kafka-versions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Key Value Stores API
+  slug: open-amazon-web-services-key-value-stores-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Keys and Certificate API
+  slug: open-amazon-web-services-keys-and-certificate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Keys API
+  slug: open-amazon-web-services-keys-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Knowledgebases API
+  slug: open-amazon-web-services-knowledgebases-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Kx API
+  slug: open-amazon-web-services-kx-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Ledgers API
+  slug: open-amazon-web-services-ledgers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Legal Holds API
+  slug: open-amazon-web-services-legal-holds-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Lenses API
+  slug: open-amazon-web-services-lenses-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Lexicons API
+  slug: open-amazon-web-services-lexicons-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Account Associations API
+  slug: open-amazon-web-services-list-account-associations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Alarm Recommendations API
+  slug: open-amazon-web-services-list-alarm-recommendations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Analyzable Servers API
+  slug: open-amazon-web-services-list-analyzable-servers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List App Assessment Compliance Drifts API
+  slug: open-amazon-web-services-list-app-assessment-compliance-drifts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List App Assessments API
+  slug: open-amazon-web-services-list-app-assessments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List App Component Compliances API
+  slug: open-amazon-web-services-list-app-component-compliances-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List App Component Recommendations API
+  slug: open-amazon-web-services-list-app-component-recommendations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List App Input Sources API
+  slug: open-amazon-web-services-list-app-input-sources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List App Version App Components API
+  slug: open-amazon-web-services-list-app-version-app-components-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List App Version Resource Mappings API
+  slug: open-amazon-web-services-list-app-version-resource-mappings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List App Version Resources API
+  slug: open-amazon-web-services-list-app-version-resources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List App Versions API
+  slug: open-amazon-web-services-list-app-versions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Applicationcomponents API
+  slug: open-amazon-web-services-list-applicationcomponents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Applications API
+  slug: open-amazon-web-services-list-applications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Apps API
+  slug: open-amazon-web-services-list-apps-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Asset Contracts API
+  slug: open-amazon-web-services-list-asset-contracts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Baselines API
+  slug: open-amazon-web-services-list-baselines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Billing Group Cost Reports API
+  slug: open-amazon-web-services-list-billing-group-cost-reports-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Billing Groups API
+  slug: open-amazon-web-services-list-billing-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Collectors API
+  slug: open-amazon-web-services-list-collectors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Components API
+  slug: open-amazon-web-services-list-components-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Connector Entities API
+  slug: open-amazon-web-services-list-connector-entities-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Connectors API
+  slug: open-amazon-web-services-list-connectors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Custom Line Item Versions API
+  slug: open-amazon-web-services-list-custom-line-item-versions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Custom Line Items API
+  slug: open-amazon-web-services-list-custom-line-items-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Databases API
+  slug: open-amazon-web-services-list-databases-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Earth Observation Jobs API
+  slug: open-amazon-web-services-list-earth-observation-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Enabled Baselines API
+  slug: open-amazon-web-services-list-enabled-baselines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Enabled Controls API
+  slug: open-amazon-web-services-list-enabled-controls-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Flows API
+  slug: open-amazon-web-services-list-flows-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Group Resources API
+  slug: open-amazon-web-services-list-group-resources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Import File Task API
+  slug: open-amazon-web-services-list-import-file-task-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Landingzones API
+  slug: open-amazon-web-services-list-landingzones-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Log Anomalies API
+  slug: open-amazon-web-services-list-log-anomalies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Operations API
+  slug: open-amazon-web-services-list-operations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Orders API
+  slug: open-amazon-web-services-list-orders-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Pricing Plans API
+  slug: open-amazon-web-services-list-pricing-plans-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Pricing Plans Associated with Pricing Rule API
+  slug: open-amazon-web-services-list-pricing-plans-associated-with-pricing-rule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Pricing Rules API
+  slug: open-amazon-web-services-list-pricing-rules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Pricing Rules Associated to Pricing Plan API
+  slug: open-amazon-web-services-list-pricing-rules-associated-to-pricing-plan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Recommendation Templates API
+  slug: open-amazon-web-services-list-recommendation-templates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Resiliency Policies API
+  slug: open-amazon-web-services-list-resiliency-policies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Resources Associated to Custom Line Item API
+  slug: open-amazon-web-services-list-resources-associated-to-custom-line-item-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Rules API
+  slug: open-amazon-web-services-list-rules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Servers API
+  slug: open-amazon-web-services-list-servers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Sop Recommendations API
+  slug: open-amazon-web-services-list-sop-recommendations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Suggested Resiliency Policies API
+  slug: open-amazon-web-services-list-suggested-resiliency-policies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Test Recommendations API
+  slug: open-amazon-web-services-list-test-recommendations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Token Balances API
+  slug: open-amazon-web-services-list-token-balances-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Transaction Events API
+  slug: open-amazon-web-services-list-transaction-events-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Transactions API
+  slug: open-amazon-web-services-list-transactions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Unsupported App Version Resources API
+  slug: open-amazon-web-services-list-unsupported-app-version-resources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 List Vector Enrichment Jobs API
+  slug: open-amazon-web-services-list-vector-enrichment-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListAlerts API
+  slug: open-amazon-web-services-listalerts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListAnomalyDetectors API
+  slug: open-amazon-web-services-listanomalydetectors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListAnomalyGroupRelatedMetrics API
+  slug: open-amazon-web-services-listanomalygrouprelatedmetrics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListAnomalyGroupSummaries API
+  slug: open-amazon-web-services-listanomalygroupsummaries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListAnomalyGroupTimeSeries API
+  slug: open-amazon-web-services-listanomalygrouptimeseries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListApplications API
+  slug: open-amazon-web-services-listapplications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listapps API
+  slug: open-amazon-web-services-listapps-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListAttachedLinks API
+  slug: open-amazon-web-services-listattachedlinks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListChangeSets API
+  slug: open-amazon-web-services-listchangesets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListChannels API
+  slug: open-amazon-web-services-listchannels-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListComponentBuildVersions API
+  slug: open-amazon-web-services-listcomponentbuildversions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListComponents API
+  slug: open-amazon-web-services-listcomponents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListCompositions API
+  slug: open-amazon-web-services-listcompositions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListConnectors API
+  slug: open-amazon-web-services-listconnectors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListContainerRecipes API
+  slug: open-amazon-web-services-listcontainerrecipes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListDataCellsFilter API
+  slug: open-amazon-web-services-listdatacellsfilter-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listDeploymentEvents API
+  slug: open-amazon-web-services-listdeploymentevents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listDeploymentJobs API
+  slug: open-amazon-web-services-listdeploymentjobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listDeployments API
+  slug: open-amazon-web-services-listdeployments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listDestinations API
+  slug: open-amazon-web-services-listdestinations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listDevices API
+  slug: open-amazon-web-services-listdevices-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listDICOMImportJobs API
+  slug: open-amazon-web-services-listdicomimportjobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListDistributionConfigurations API
+  slug: open-amazon-web-services-listdistributionconfigurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listDomains API
+  slug: open-amazon-web-services-listdomains-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listEdgeAgentConfigurations API
+  slug: open-amazon-web-services-listedgeagentconfigurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListEncoderConfigurations API
+  slug: open-amazon-web-services-listencoderconfigurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListEntities API
+  slug: open-amazon-web-services-listentities-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listEventTypes API
+  slug: open-amazon-web-services-listeventtypes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListExportErrors API
+  slug: open-amazon-web-services-listexporterrors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListExports API
+  slug: open-amazon-web-services-listexports-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListExtensibleSourceServers API
+  slug: open-amazon-web-services-listextensiblesourceservers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listFleets API
+  slug: open-amazon-web-services-listfleets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listFragments API
+  slug: open-amazon-web-services-listfragments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImageBuildVersions API
+  slug: open-amazon-web-services-listimagebuildversions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImagePackages API
+  slug: open-amazon-web-services-listimagepackages-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImagePipelineImages API
+  slug: open-amazon-web-services-listimagepipelineimages-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImagePipelines API
+  slug: open-amazon-web-services-listimagepipelines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImageRecipes API
+  slug: open-amazon-web-services-listimagerecipes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImages API
+  slug: open-amazon-web-services-listimages-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImageScanFindingAggregations API
+  slug: open-amazon-web-services-listimagescanfindingaggregations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImageScanFindings API
+  slug: open-amazon-web-services-listimagescanfindings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImportErrors API
+  slug: open-amazon-web-services-listimporterrors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListImports API
+  slug: open-amazon-web-services-listimports-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listIncidentFindings API
+  slug: open-amazon-web-services-listincidentfindings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listIncidentRecords API
+  slug: open-amazon-web-services-listincidentrecords-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListIndexes API
+  slug: open-amazon-web-services-listindexes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListIndexesForMembers API
+  slug: open-amazon-web-services-listindexesformembers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListInfrastructureConfigurations API
+  slug: open-amazon-web-services-listinfrastructureconfigurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listjobs API
+  slug: open-amazon-web-services-listjobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListLakeFormationOptIns API
+  slug: open-amazon-web-services-listlakeformationoptins-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListLaunchActions API
+  slug: open-amazon-web-services-listlaunchactions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListLFTags API
+  slug: open-amazon-web-services-listlftags-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListLifecycleExecutionResources API
+  slug: open-amazon-web-services-listlifecycleexecutionresources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListLifecycleExecutions API
+  slug: open-amazon-web-services-listlifecycleexecutions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListLifecyclePolicies API
+  slug: open-amazon-web-services-listlifecyclepolicies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListLinks API
+  slug: open-amazon-web-services-listlinks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListLoggingConfigurations API
+  slug: open-amazon-web-services-listloggingconfigurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListManagedAccounts API
+  slug: open-amazon-web-services-listmanagedaccounts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListMetricSets API
+  slug: open-amazon-web-services-listmetricsets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listNotificationRules API
+  slug: open-amazon-web-services-listnotificationrules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListParticipantEvents API
+  slug: open-amazon-web-services-listparticipantevents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListParticipants API
+  slug: open-amazon-web-services-listparticipants-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listpendinginvitationresources API
+  slug: open-amazon-web-services-listpendinginvitationresources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listpermissionassociations API
+  slug: open-amazon-web-services-listpermissionassociations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListPermissions API
+  slug: open-amazon-web-services-listpermissions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listpermissionversions API
+  slug: open-amazon-web-services-listpermissionversions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListPlaybackKeyPairs API
+  slug: open-amazon-web-services-listplaybackkeypairs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListPlaybackRestrictionPolicies API
+  slug: open-amazon-web-services-listplaybackrestrictionpolicies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listprincipals API
+  slug: open-amazon-web-services-listprincipals-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListRecordingConfigurations API
+  slug: open-amazon-web-services-listrecordingconfigurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listRegions API
+  slug: open-amazon-web-services-listregions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listRelatedItems API
+  slug: open-amazon-web-services-listrelateditems-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listreplacepermissionassociationswork API
+  slug: open-amazon-web-services-listreplacepermissionassociationswork-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listReplicationSets API
+  slug: open-amazon-web-services-listreplicationsets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListResourcePolicies API
+  slug: open-amazon-web-services-listresourcepolicies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListResources API
+  slug: open-amazon-web-services-listresources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listresourcesharepermissions API
+  slug: open-amazon-web-services-listresourcesharepermissions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listresourcetypes API
+  slug: open-amazon-web-services-listresourcetypes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listResponsePlans API
+  slug: open-amazon-web-services-listresponseplans-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listRobotApplications API
+  slug: open-amazon-web-services-listrobotapplications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listRobots API
+  slug: open-amazon-web-services-listrobots-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListRooms API
+  slug: open-amazon-web-services-listrooms-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listschedulingpolicies API
+  slug: open-amazon-web-services-listschedulingpolicies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listSignalingChannels API
+  slug: open-amazon-web-services-listsignalingchannels-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listSimulationApplications API
+  slug: open-amazon-web-services-listsimulationapplications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listSimulationJobBatches API
+  slug: open-amazon-web-services-listsimulationjobbatches-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listSimulationJobs API
+  slug: open-amazon-web-services-listsimulationjobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Listsimulations API
+  slug: open-amazon-web-services-listsimulations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListSinks API
+  slug: open-amazon-web-services-listsinks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listSites API
+  slug: open-amazon-web-services-listsites-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListSourceServerActions API
+  slug: open-amazon-web-services-listsourceserveractions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListStages API
+  slug: open-amazon-web-services-liststages-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListStageSessions API
+  slug: open-amazon-web-services-liststagesessions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListStagingAccounts API
+  slug: open-amazon-web-services-liststagingaccounts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListStorageConfigurations API
+  slug: open-amazon-web-services-liststorageconfigurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListStreamKeys API
+  slug: open-amazon-web-services-liststreamkeys-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListStreams API
+  slug: open-amazon-web-services-liststreams-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListStreamSessions API
+  slug: open-amazon-web-services-liststreamsessions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListSupportedResourceTypes API
+  slug: open-amazon-web-services-listsupportedresourcetypes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListTableStorageOptimizers API
+  slug: open-amazon-web-services-listtablestorageoptimizers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listTagsForResource API
+  slug: open-amazon-web-services-listtagsforresource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listTagsForStream API
+  slug: open-amazon-web-services-listtagsforstream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listTargets API
+  slug: open-amazon-web-services-listtargets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListTemplateActions API
+  slug: open-amazon-web-services-listtemplateactions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listTimelineEvents API
+  slug: open-amazon-web-services-listtimelineevents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListTransactions API
+  slug: open-amazon-web-services-listtransactions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListViews API
+  slug: open-amazon-web-services-listviews-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListWaitingWorkflowSteps API
+  slug: open-amazon-web-services-listwaitingworkflowsteps-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListWaves API
+  slug: open-amazon-web-services-listwaves-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWebsiteAuthorizationProviders API
+  slug: open-amazon-web-services-listwebsiteauthorizationproviders-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWebsiteCertificateAuthorities API
+  slug: open-amazon-web-services-listwebsitecertificateauthorities-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWorkerFleets API
+  slug: open-amazon-web-services-listworkerfleets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWorkers API
+  slug: open-amazon-web-services-listworkers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListWorkflowBuildVersions API
+  slug: open-amazon-web-services-listworkflowbuildversions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListWorkflowExecutions API
+  slug: open-amazon-web-services-listworkflowexecutions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListWorkflows API
+  slug: open-amazon-web-services-listworkflows-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ListWorkflowStepExecutions API
+  slug: open-amazon-web-services-listworkflowstepexecutions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWorkloadDeploymentPatterns API
+  slug: open-amazon-web-services-listworkloaddeploymentpatterns-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWorkloads API
+  slug: open-amazon-web-services-listworkloads-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWorldExportJobs API
+  slug: open-amazon-web-services-listworldexportjobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWorldGenerationJobs API
+  slug: open-amazon-web-services-listworldgenerationjobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWorlds API
+  slug: open-amazon-web-services-listworlds-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 listWorldTemplates API
+  slug: open-amazon-web-services-listworldtemplates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Loader API
+  slug: open-amazon-web-services-loader-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Log Levels API
+  slug: open-amazon-web-services-log-levels-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Logging API
+  slug: open-amazon-web-services-logging-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 loggingOptions API
+  slug: open-amazon-web-services-loggingoptions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Logically Air Gapped Backup Vaults API
+  slug: open-amazon-web-services-logically-air-gapped-backup-vaults-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Logout API
+  slug: open-amazon-web-services-logout-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Mac API
+  slug: open-amazon-web-services-mac-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Macie API
+  slug: open-amazon-web-services-macie-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Malware Scan API
+  slug: open-amazon-web-services-malware-scan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Managed Data Identifiers API
+  slug: open-amazon-web-services-managed-data-identifiers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Managed Device API
+  slug: open-amazon-web-services-managed-device-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Managed Devices API
+  slug: open-amazon-web-services-managed-devices-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Managed Job Templates API
+  slug: open-amazon-web-services-managed-job-templates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Managedresources API
+  slug: open-amazon-web-services-managedresources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Maps API
+  slug: open-amazon-web-services-maps-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 MarkAsArchived API
+  slug: open-amazon-web-services-markasarchived-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Master API
+  slug: open-amazon-web-services-master-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Matchingworkflows API
+  slug: open-amazon-web-services-matchingworkflows-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Me API
+  slug: open-amazon-web-services-me-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Media Capture Pipelines API
+  slug: open-amazon-web-services-media-capture-pipelines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Media Insights Pipeline Configurations API
+  slug: open-amazon-web-services-media-insights-pipeline-configurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Media Insights Pipeline Status API
+  slug: open-amazon-web-services-media-insights-pipeline-status-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Media Insights Pipelines API
+  slug: open-amazon-web-services-media-insights-pipelines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Media Pipeline Kinesis Video Stream Pools API
+  slug: open-amazon-web-services-media-pipeline-kinesis-video-stream-pools-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Medical Stream Transcription API
+  slug: open-amazon-web-services-medical-stream-transcription-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Meetings API
+  slug: open-amazon-web-services-meetings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Meetings?operation=create Attendees API
+  slug: open-amazon-web-services-meetings-operation-create-attendees-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Members API
+  slug: open-amazon-web-services-members-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Membership API
+  slug: open-amazon-web-services-membership-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Memberships API
+  slug: open-amazon-web-services-memberships-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 mergedApis API
+  slug: open-amazon-web-services-mergedapis-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Meshes API
+  slug: open-amazon-web-services-meshes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Messages API
+  slug: open-amazon-web-services-messages-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Metadata API
+  slug: open-amazon-web-services-metadata-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Metadata Transfer Jobs API
+  slug: open-amazon-web-services-metadata-transfer-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Metadata Transfer Jobs List API
+  slug: open-amazon-web-services-metadata-transfer-jobs-list-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Metric Values API
+  slug: open-amazon-web-services-metric-values-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Metrics API
+  slug: open-amazon-web-services-metrics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Migrations API
+  slug: open-amazon-web-services-migrations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Migrationworkflow API
+  slug: open-amazon-web-services-migrationworkflow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Migrationworkflows API
+  slug: open-amazon-web-services-migrationworkflows-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Migrationworkflowtemplate API
+  slug: open-amazon-web-services-migrationworkflowtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Migrationworkflowtemplates API
+  slug: open-amazon-web-services-migrationworkflowtemplates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Minute Usage API
+  slug: open-amazon-web-services-minute-usage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Missionprofile API
+  slug: open-amazon-web-services-missionprofile-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Mitigationactions API
+  slug: open-amazon-web-services-mitigationactions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Ml API
+  slug: open-amazon-web-services-ml-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Model API
+  slug: open-amazon-web-services-model-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Model Customization Jobs API
+  slug: open-amazon-web-services-model-customization-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Models API
+  slug: open-amazon-web-services-models-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 monitoredResources API
+  slug: open-amazon-web-services-monitoredresources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Monitors API
+  slug: open-amazon-web-services-monitors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Mrap API
+  slug: open-amazon-web-services-mrap-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Multicast Groups API
+  slug: open-amazon-web-services-multicast-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Multipart Uploads API
+  slug: open-amazon-web-services-multipart-uploads-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Network Analyzer Configurations API
+  slug: open-amazon-web-services-network-analyzer-configurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Network Resources API
+  slug: open-amazon-web-services-network-resources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Network Sites API
+  slug: open-amazon-web-services-network-sites-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Networks API
+  slug: open-amazon-web-services-networks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 networkSettings API
+  slug: open-amazon-web-services-networksettings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Nodes API
+  slug: open-amazon-web-services-nodes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Notifications API
+  slug: open-amazon-web-services-notifications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Object ACL API
+  slug: open-amazon-web-services-object-acl-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Object Attributes API
+  slug: open-amazon-web-services-object-attributes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Object Legal Hold API
+  slug: open-amazon-web-services-object-legal-hold-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Object Lock Configuration API
+  slug: open-amazon-web-services-object-lock-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Object Retention API
+  slug: open-amazon-web-services-object-retention-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Object Tagging API
+  slug: open-amazon-web-services-object-tagging-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Object Torrent API
+  slug: open-amazon-web-services-object-torrent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Object Versions API
+  slug: open-amazon-web-services-object-versions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Objects API
+  slug: open-amazon-web-services-objects-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Objects V 2 API
+  slug: open-amazon-web-services-objects-v-2-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Offerings API
+  slug: open-amazon-web-services-offerings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Opencypher API
+  slug: open-amazon-web-services-opencypher-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ?Operation=CancelJob API
+  slug: open-amazon-web-services-operation-canceljob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ?Operation=CreateJob API
+  slug: open-amazon-web-services-operation-createjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ?Operation=GetShippingLabel API
+  slug: open-amazon-web-services-operation-getshippinglabel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ?Operation=GetStatus API
+  slug: open-amazon-web-services-operation-getstatus-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ?Operation=ListJobs API
+  slug: open-amazon-web-services-operation-listjobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ?Operation=UpdateJob API
+  slug: open-amazon-web-services-operation-updatejob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Operations API
+  slug: open-amazon-web-services-operations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Orders API
+  slug: open-amazon-web-services-orders-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Organization API
+  slug: open-amazon-web-services-organization-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Organization Recommendations API
+  slug: open-amazon-web-services-organization-recommendations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Organizationconfiguration API
+  slug: open-amazon-web-services-organizationconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Organizations API
+  slug: open-amazon-web-services-organizations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Orgs API
+  slug: open-amazon-web-services-orgs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Origin Endpoints API
+  slug: open-amazon-web-services-origin-endpoints-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 otaUpdates API
+  slug: open-amazon-web-services-otaupdates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Outposts API
+  slug: open-amazon-web-services-outposts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Package API
+  slug: open-amazon-web-services-package-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Package Configuration API
+  slug: open-amazon-web-services-package-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Packages API
+  slug: open-amazon-web-services-packages-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Packaging Configurations API
+  slug: open-amazon-web-services-packaging-configurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Packaging Groups API
+  slug: open-amazon-web-services-packaging-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Participant API
+  slug: open-amazon-web-services-participant-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Partner Accounts API
+  slug: open-amazon-web-services-partner-accounts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PauseReplication API
+  slug: open-amazon-web-services-pausereplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Peerings API
+  slug: open-amazon-web-services-peerings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Permission Group API
+  slug: open-amazon-web-services-permission-group-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Personalize Ranking API
+  slug: open-amazon-web-services-personalize-ranking-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Phone API
+  slug: open-amazon-web-services-phone-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Phone Number API
+  slug: open-amazon-web-services-phone-number-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Phone Number Countries API
+  slug: open-amazon-web-services-phone-number-countries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Phone Number Orders API
+  slug: open-amazon-web-services-phone-number-orders-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Phone Numbers API
+  slug: open-amazon-web-services-phone-numbers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Phone Numbers?operation=batch Delete API
+  slug: open-amazon-web-services-phone-numbers-operation-batch-delete-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Phone Numbers?operation=batch Update API
+  slug: open-amazon-web-services-phone-numbers-operation-batch-update-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Phone Numbers Summary API
+  slug: open-amazon-web-services-phone-numbers-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Pindata API
+  slug: open-amazon-web-services-pindata-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Ping API
+  slug: open-amazon-web-services-ping-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Pipelineactivities API
+  slug: open-amazon-web-services-pipelineactivities-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Pipelines API
+  slug: open-amazon-web-services-pipelines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Pipes API
+  slug: open-amazon-web-services-pipes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Places API
+  slug: open-amazon-web-services-places-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 playbackConfiguration API
+  slug: open-amazon-web-services-playbackconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 playbackConfigurations API
+  slug: open-amazon-web-services-playbackconfigurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Plugins API
+  slug: open-amazon-web-services-plugins-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Policies API
+  slug: open-amazon-web-services-policies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Policy API
+  slug: open-amazon-web-services-policy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Policy Principals API
+  slug: open-amazon-web-services-policy-principals-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Policy Targets API
+  slug: open-amazon-web-services-policy-targets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 portalIdp API
+  slug: open-amazon-web-services-portalidp-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Portals API
+  slug: open-amazon-web-services-portals-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Position Configurations API
+  slug: open-amazon-web-services-position-configurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Position Estimate API
+  slug: open-amazon-web-services-position-estimate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Positions API
+  slug: open-amazon-web-services-positions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Predefined Attributes API
+  slug: open-amazon-web-services-predefined-attributes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 prefetchSchedule API
+  slug: open-amazon-web-services-prefetchschedule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Pricingplan API
+  slug: open-amazon-web-services-pricingplan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Principal Policies API
+  slug: open-amazon-web-services-principal-policies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Principals API
+  slug: open-amazon-web-services-principals-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Prod API
+  slug: open-amazon-web-services-prod-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Products API
+  slug: open-amazon-web-services-products-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 productSubscriptions API
+  slug: open-amazon-web-services-productsubscriptions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Profile API
+  slug: open-amazon-web-services-profile-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 profileJobs API
+  slug: open-amazon-web-services-profilejobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 profileNotifications API
+  slug: open-amazon-web-services-profilenotifications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Profiles API
+  slug: open-amazon-web-services-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 profileSummaries API
+  slug: open-amazon-web-services-profilesummaries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 profileTemplate API
+  slug: open-amazon-web-services-profiletemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 profilingGroups API
+  slug: open-amazon-web-services-profilinggroups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Project API
+  slug: open-amazon-web-services-project-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Projects API
+  slug: open-amazon-web-services-projects-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Promotepermissioncreatedfrompolicy API
+  slug: open-amazon-web-services-promotepermissioncreatedfrompolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Promoteresourcesharecreatedfrompolicy API
+  slug: open-amazon-web-services-promoteresourcesharecreatedfrompolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Prompts API
+  slug: open-amazon-web-services-prompts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Prompts Summary API
+  slug: open-amazon-web-services-prompts-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Properties API
+  slug: open-amazon-web-services-properties-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Propertygraph API
+  slug: open-amazon-web-services-propertygraph-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Providerservices API
+  slug: open-amazon-web-services-providerservices-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Provisioned Capacity API
+  slug: open-amazon-web-services-provisioned-capacity-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Provisioned Model Throughput API
+  slug: open-amazon-web-services-provisioned-model-throughput-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Provisioned Model Throughputs API
+  slug: open-amazon-web-services-provisioned-model-throughputs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Provisioning Templates API
+  slug: open-amazon-web-services-provisioning-templates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Public Access Block API
+  slug: open-amazon-web-services-public-access-block-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Publish App Version API
+  slug: open-amazon-web-services-publish-app-version-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Put Draft App Version Template API
+  slug: open-amazon-web-services-put-draft-app-version-template-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Put Group Configuration API
+  slug: open-amazon-web-services-put-group-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Put Notifications Settings API
+  slug: open-amazon-web-services-put-notifications-settings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Put Portfolio Preferences API
+  slug: open-amazon-web-services-put-portfolio-preferences-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Put Resource Permission API
+  slug: open-amazon-web-services-put-resource-permission-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 putAlternateContact API
+  slug: open-amazon-web-services-putalternatecontact-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutAuditEvents API
+  slug: open-amazon-web-services-putauditevents-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutComponentPolicy API
+  slug: open-amazon-web-services-putcomponentpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 putContactInformation API
+  slug: open-amazon-web-services-putcontactinformation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutContainerRecipePolicy API
+  slug: open-amazon-web-services-putcontainerrecipepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutDataLakeSettings API
+  slug: open-amazon-web-services-putdatalakesettings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutEncryptionConfig API
+  slug: open-amazon-web-services-putencryptionconfig-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutFeedback API
+  slug: open-amazon-web-services-putfeedback-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutImagePolicy API
+  slug: open-amazon-web-services-putimagepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutImageRecipePolicy API
+  slug: open-amazon-web-services-putimagerecipepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutLaunchAction API
+  slug: open-amazon-web-services-putlaunchaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutMetadata API
+  slug: open-amazon-web-services-putmetadata-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutResourcePolicy API
+  slug: open-amazon-web-services-putresourcepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutSinkPolicy API
+  slug: open-amazon-web-services-putsinkpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutSourceServerAction API
+  slug: open-amazon-web-services-putsourceserveraction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 PutTemplateAction API
+  slug: open-amazon-web-services-puttemplateaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Quantum Task API
+  slug: open-amazon-web-services-quantum-task-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Quantum Tasks API
+  slug: open-amazon-web-services-quantum-tasks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Queries API
+  slug: open-amazon-web-services-queries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Queues API
+  slug: open-amazon-web-services-queues-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Queues Summary API
+  slug: open-amazon-web-services-queues-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Quick Connects API
+  slug: open-amazon-web-services-quick-connects-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Raster Data Collection API
+  slug: open-amazon-web-services-raster-data-collection-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Raster Data Collections API
+  slug: open-amazon-web-services-raster-data-collections-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Rdf API
+  slug: open-amazon-web-services-rdf-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Readinesschecks API
+  slug: open-amazon-web-services-readinesschecks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Realtime Contact Analysis API
+  slug: open-amazon-web-services-realtime-contact-analysis-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 recipeJobs API
+  slug: open-amazon-web-services-recipejobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Recipes API
+  slug: open-amazon-web-services-recipes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 recipeVersions API
+  slug: open-amazon-web-services-recipeversions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Recommendations API
+  slug: open-amazon-web-services-recommendations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Recommenders API
+  slug: open-amazon-web-services-recommenders-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Recoverygroupreadiness API
+  slug: open-amazon-web-services-recoverygroupreadiness-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Recoverygroups API
+  slug: open-amazon-web-services-recoverygroups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Referencestore API
+  slug: open-amazon-web-services-referencestore-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Referencestores API
+  slug: open-amazon-web-services-referencestores-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Register Application API
+  slug: open-amazon-web-services-register-application-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Register Connector API
+  slug: open-amazon-web-services-register-connector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Registerjobdefinition API
+  slug: open-amazon-web-services-registerjobdefinition-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 RegisterResource API
+  slug: open-amazon-web-services-registerresource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 registerRobot API
+  slug: open-amazon-web-services-registerrobot-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Registrationcode API
+  slug: open-amazon-web-services-registrationcode-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Registries API
+  slug: open-amazon-web-services-registries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Reject Certificate Transfer API
+  slug: open-amazon-web-services-reject-certificate-transfer-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Rejectresourceshareinvitation API
+  slug: open-amazon-web-services-rejectresourceshareinvitation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Remove Draft App Version Resource Mappings API
+  slug: open-amazon-web-services-remove-draft-app-version-resource-mappings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 RemoveLFTagsFromResource API
+  slug: open-amazon-web-services-removelftagsfromresource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 RemoveSourceServerAction API
+  slug: open-amazon-web-services-removesourceserveraction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 RemoveTemplateAction API
+  slug: open-amazon-web-services-removetemplateaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Replacepermissionassociations API
+  slug: open-amazon-web-services-replacepermissionassociations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Replication API
+  slug: open-amazon-web-services-replication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 reportDefinition API
+  slug: open-amazon-web-services-reportdefinition-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Reporting API
+  slug: open-amazon-web-services-reporting-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Repositories API
+  slug: open-amazon-web-services-repositories-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Repository API
+  slug: open-amazon-web-services-repository-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Reservations API
+  slug: open-amazon-web-services-reservations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Reset Connector Metadata Cache API
+  slug: open-amazon-web-services-reset-connector-metadata-cache-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Reset Enabled Baseline API
+  slug: open-amazon-web-services-reset-enabled-baseline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Reset Landingzone API
+  slug: open-amazon-web-services-reset-landingzone-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Reset Notifications Settings API
+  slug: open-amazon-web-services-reset-notifications-settings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Resolve App Version Resources API
+  slug: open-amazon-web-services-resolve-app-version-resources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Resource API
+  slug: open-amazon-web-services-resource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Resource Collections API
+  slug: open-amazon-web-services-resource-collections-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Resource Policy API
+  slug: open-amazon-web-services-resource-policy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Resource Positions API
+  slug: open-amazon-web-services-resource-positions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Resource Profiles API
+  slug: open-amazon-web-services-resource-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Resourcepolicy API
+  slug: open-amazon-web-services-resourcepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Resources API
+  slug: open-amazon-web-services-resources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Resourcesets API
+  slug: open-amazon-web-services-resourcesets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Restapis API
+  slug: open-amazon-web-services-restapis-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Restapis?mode=import API
+  slug: open-amazon-web-services-restapis-mode-import-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 restartSimulationJob API
+  slug: open-amazon-web-services-restartsimulationjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Restore Jobs API
+  slug: open-amazon-web-services-restore-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Restore Object. API
+  slug: open-amazon-web-services-restore-object-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Restore Testing API
+  slug: open-amazon-web-services-restore-testing-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 restoreDomainAccess API
+  slug: open-amazon-web-services-restoredomainaccess-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ResumeReplication API
+  slug: open-amazon-web-services-resumereplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 retainedMessage API
+  slug: open-amazon-web-services-retainedmessage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 retrieveAndGenerate API
+  slug: open-amazon-web-services-retrieveandgenerate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 RetryDataReplication API
+  slug: open-amazon-web-services-retrydatareplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Retryworkflowstep API
+  slug: open-amazon-web-services-retryworkflowstep-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Reveal Configuration API
+  slug: open-amazon-web-services-reveal-configuration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ReverseReplication API
+  slug: open-amazon-web-services-reversereplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Revocations API
+  slug: open-amazon-web-services-revocations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 revokeDomainAccess API
+  slug: open-amazon-web-services-revokedomainaccess-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 RevokePermissions API
+  slug: open-amazon-web-services-revokepermissions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Role Aliases API
+  slug: open-amazon-web-services-role-aliases-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 RollbackTransaction API
+  slug: open-amazon-web-services-rollbacktransaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Routes API
+  slug: open-amazon-web-services-routes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Routing Profiles API
+  slug: open-amazon-web-services-routing-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Routing Profiles Summary API
+  slug: open-amazon-web-services-routing-profiles-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Routingcontrol API
+  slug: open-amazon-web-services-routingcontrol-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Rules API
+  slug: open-amazon-web-services-rules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Rulesets API
+  slug: open-amazon-web-services-rulesets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Rummetrics API
+  slug: open-amazon-web-services-rummetrics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Run API
+  slug: open-amazon-web-services-run-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 runGroup API
+  slug: open-amazon-web-services-rungroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Runtime Versions API
+  slug: open-amazon-web-services-runtime-versions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 s3Buckets API
+  slug: open-amazon-web-services-s3buckets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 S3Outposts API
+  slug: open-amazon-web-services-s3outposts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Safetyrule API
+  slug: open-amazon-web-services-safetyrule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 SamplingStatisticSummaries API
+  slug: open-amazon-web-services-samplingstatisticsummaries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 SamplingTargets API
+  slug: open-amazon-web-services-samplingtargets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Satellite API
+  slug: open-amazon-web-services-satellite-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sbomexport API
+  slug: open-amazon-web-services-sbomexport-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Scan API
+  slug: open-amazon-web-services-scan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Scans API
+  slug: open-amazon-web-services-scans-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Schedule Groups API
+  slug: open-amazon-web-services-schedule-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Schedules API
+  slug: open-amazon-web-services-schedules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Schema API
+  slug: open-amazon-web-services-schema-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Schemacreation API
+  slug: open-amazon-web-services-schemacreation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Schemas API
+  slug: open-amazon-web-services-schemas-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Scraperconfiguration API
+  slug: open-amazon-web-services-scraperconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Scrapers API
+  slug: open-amazon-web-services-scrapers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Screendata API
+  slug: open-amazon-web-services-screendata-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sdk Media Capture Pipelines API
+  slug: open-amazon-web-services-sdk-media-capture-pipelines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sdk Media Concatenation Pipelines API
+  slug: open-amazon-web-services-sdk-media-concatenation-pipelines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sdk Media Live Connector Pipelines API
+  slug: open-amazon-web-services-sdk-media-live-connector-pipelines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sdk Media Pipelines API
+  slug: open-amazon-web-services-sdk-media-pipelines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sdk Media Stream Pipelines API
+  slug: open-amazon-web-services-sdk-media-stream-pipelines-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sdktypes API
+  slug: open-amazon-web-services-sdktypes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search API
+  slug: open-amazon-web-services-search-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Contacts API
+  slug: open-amazon-web-services-search-contacts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Hours of Operations API
+  slug: open-amazon-web-services-search-hours-of-operations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Predefined Attributes API
+  slug: open-amazon-web-services-search-predefined-attributes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Prompts API
+  slug: open-amazon-web-services-search-prompts-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Queues API
+  slug: open-amazon-web-services-search-queues-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Quick Connects API
+  slug: open-amazon-web-services-search-quick-connects-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Raster Data Collection API
+  slug: open-amazon-web-services-search-raster-data-collection-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Resource Tags API
+  slug: open-amazon-web-services-search-resource-tags-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Routing Profiles API
+  slug: open-amazon-web-services-search-routing-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Security Profiles API
+  slug: open-amazon-web-services-search-security-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search?type=phone Numbers API
+  slug: open-amazon-web-services-search-type-phone-numbers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Search Users API
+  slug: open-amazon-web-services-search-users-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 SearchDatabasesByLFTags API
+  slug: open-amazon-web-services-searchdatabasesbylftags-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 SearchTablesByLFTags API
+  slug: open-amazon-web-services-searchtablesbylftags-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Security Profile Behaviors API
+  slug: open-amazon-web-services-security-profile-behaviors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Security Profiles API
+  slug: open-amazon-web-services-security-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Security Profiles Applications API
+  slug: open-amazon-web-services-security-profiles-applications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Security Profiles for Target API
+  slug: open-amazon-web-services-security-profiles-for-target-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Security Profiles Permissions API
+  slug: open-amazon-web-services-security-profiles-permissions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Security Profiles Summary API
+  slug: open-amazon-web-services-security-profiles-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 securityControl API
+  slug: open-amazon-web-services-securitycontrol-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 securityControls API
+  slug: open-amazon-web-services-securitycontrols-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Segments API
+  slug: open-amazon-web-services-segments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Select Object Content. API
+  slug: open-amazon-web-services-select-object-content-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Send Alexa Offer to Master API
+  slug: open-amazon-web-services-send-alexa-offer-to-master-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 SendEvent API
+  slug: open-amazon-web-services-sendevent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 SendHeartbeat API
+  slug: open-amazon-web-services-sendheartbeat-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 SendWorkflowStepAction API
+  slug: open-amazon-web-services-sendworkflowstepaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sequencestore API
+  slug: open-amazon-web-services-sequencestore-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sequencestores API
+  slug: open-amazon-web-services-sequencestores-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Service Endpoint API
+  slug: open-amazon-web-services-service-endpoint-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Service Integrations API
+  slug: open-amazon-web-services-service-integrations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Service Profiles API
+  slug: open-amazon-web-services-service-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 ServiceGraph API
+  slug: open-amazon-web-services-servicegraph-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Servicenetworks API
+  slug: open-amazon-web-services-servicenetworks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Servicenetworkserviceassociations API
+  slug: open-amazon-web-services-servicenetworkserviceassociations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Servicenetworkvpcassociations API
+  slug: open-amazon-web-services-servicenetworkvpcassociations-api
+- collection_type: open
+  name: Amazon Web accessanalyzer 2012 09 25 Services API
+  slug: open-amazon-web-services-services-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Session API
+  slug: open-amazon-web-services-session-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Setdefaultpermissionversion API
+  slug: open-amazon-web-services-setdefaultpermissionversion-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Settings API
+  slug: open-amazon-web-services-settings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Share API
+  slug: open-amazon-web-services-share-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 shareInvitations API
+  slug: open-amazon-web-services-shareinvitations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Shares API
+  slug: open-amazon-web-services-shares-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Signed Bi Url API
+  slug: open-amazon-web-services-signed-bi-url-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Signing Jobs API
+  slug: open-amazon-web-services-signing-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Signing Platforms API
+  slug: open-amazon-web-services-signing-platforms-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Signing Profiles API
+  slug: open-amazon-web-services-signing-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 signOutUser API
+  slug: open-amazon-web-services-signoutuser-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sip Media Applications API
+  slug: open-amazon-web-services-sip-media-applications-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sip Rules API
+  slug: open-amazon-web-services-sip-rules-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Site to Site Vpn Attachments API
+  slug: open-amazon-web-services-site-to-site-vpn-attachments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sites API
+  slug: open-amazon-web-services-sites-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Slottypes API
+  slug: open-amazon-web-services-slottypes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sms Voice API
+  slug: open-amazon-web-services-sms-voice-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Snapshots API
+  slug: open-amazon-web-services-snapshots-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Softwaresets API
+  slug: open-amazon-web-services-softwaresets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sol API
+  slug: open-amazon-web-services-sol-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 sourceApiAssociations API
+  slug: open-amazon-web-services-sourceapiassociations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 sourceApis API
+  slug: open-amazon-web-services-sourceapis-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 sourceLocation API
+  slug: open-amazon-web-services-sourcelocation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 sourceLocations API
+  slug: open-amazon-web-services-sourcelocations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Spaces API
+  slug: open-amazon-web-services-spaces-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sparql API
+  slug: open-amazon-web-services-sparql-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Speech API
+  slug: open-amazon-web-services-speech-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Stages API
+  slug: open-amazon-web-services-stages-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Standards API
+  slug: open-amazon-web-services-standards-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Start App Assessment API
+  slug: open-amazon-web-services-start-app-assessment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Start Application Refresh API
+  slug: open-amazon-web-services-start-application-refresh-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Start Assessment API
+  slug: open-amazon-web-services-start-assessment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Start Flow API
+  slug: open-amazon-web-services-start-flow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Start Import File Task API
+  slug: open-amazon-web-services-start-import-file-task-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Start Recommendation Report Generation API
+  slug: open-amazon-web-services-start-recommendation-report-generation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Startapp API
+  slug: open-amazon-web-services-startapp-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartChangeSet API
+  slug: open-amazon-web-services-startchangeset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Startclock API
+  slug: open-amazon-web-services-startclock-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartComposition API
+  slug: open-amazon-web-services-startcomposition-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartCutover API
+  slug: open-amazon-web-services-startcutover-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 startDICOMImportJob API
+  slug: open-amazon-web-services-startdicomimportjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 startEdgeConfigurationUpdate API
+  slug: open-amazon-web-services-startedgeconfigurationupdate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartExport API
+  slug: open-amazon-web-services-startexport-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartFailbackLaunch API
+  slug: open-amazon-web-services-startfailbacklaunch-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartImagePipelineExecution API
+  slug: open-amazon-web-services-startimagepipelineexecution-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartImport API
+  slug: open-amazon-web-services-startimport-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 startIncident API
+  slug: open-amazon-web-services-startincident-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartQueryPlanning API
+  slug: open-amazon-web-services-startqueryplanning-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartRecovery API
+  slug: open-amazon-web-services-startrecovery-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartReplication API
+  slug: open-amazon-web-services-startreplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartResourceStateUpdate API
+  slug: open-amazon-web-services-startresourcestateupdate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Startsimulation API
+  slug: open-amazon-web-services-startsimulation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 startSimulationJobBatch API
+  slug: open-amazon-web-services-startsimulationjobbatch-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartSourceNetworkRecovery API
+  slug: open-amazon-web-services-startsourcenetworkrecovery-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartSourceNetworkReplication API
+  slug: open-amazon-web-services-startsourcenetworkreplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartTest API
+  slug: open-amazon-web-services-starttest-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartTransaction API
+  slug: open-amazon-web-services-starttransaction-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StartViewerSessionRevocation API
+  slug: open-amazon-web-services-startviewersessionrevocation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Status API
+  slug: open-amazon-web-services-status-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Stop Assessment API
+  slug: open-amazon-web-services-stop-assessment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Stop Flow API
+  slug: open-amazon-web-services-stop-flow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Stopapp API
+  slug: open-amazon-web-services-stopapp-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Stopclock API
+  slug: open-amazon-web-services-stopclock-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StopComposition API
+  slug: open-amazon-web-services-stopcomposition-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StopFailback API
+  slug: open-amazon-web-services-stopfailback-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StopReplication API
+  slug: open-amazon-web-services-stopreplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Stopsimulation API
+  slug: open-amazon-web-services-stopsimulation-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StopSourceNetworkReplication API
+  slug: open-amazon-web-services-stopsourcenetworkreplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 StopStream API
+  slug: open-amazon-web-services-stopstream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Storagelens API
+  slug: open-amazon-web-services-storagelens-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Storagelensgroup API
+  slug: open-amazon-web-services-storagelensgroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Stream Transcription API
+  slug: open-amazon-web-services-stream-transcription-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Streams API
+  slug: open-amazon-web-services-streams-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Subject API
+  slug: open-amazon-web-services-subject-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Subjects API
+  slug: open-amazon-web-services-subjects-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Submitjob API
+  slug: open-amazon-web-services-submitjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Subscribe API
+  slug: open-amazon-web-services-subscribe-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Subscribers API
+  slug: open-amazon-web-services-subscribers-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Subscription API
+  slug: open-amazon-web-services-subscription-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 suiteDefinitions API
+  slug: open-amazon-web-services-suitedefinitions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 suiteRuns API
+  slug: open-amazon-web-services-suiteruns-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Summary API
+  slug: open-amazon-web-services-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Supported Resource Types API
+  slug: open-amazon-web-services-supported-resource-types-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sync API
+  slug: open-amazon-web-services-sync-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Sync Jobs API
+  slug: open-amazon-web-services-sync-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 syncDeploymentJob API
+  slug: open-amazon-web-services-syncdeploymentjob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 synthesisTasks API
+  slug: open-amazon-web-services-synthesistasks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 System API
+  slug: open-amazon-web-services-system-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Tag API
+  slug: open-amazon-web-services-tag-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 tagResource API
+  slug: open-amazon-web-services-tagresource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Tags API
+  slug: open-amazon-web-services-tags-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Tags List API
+  slug: open-amazon-web-services-tags-list-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Tags?operation=tag Resource API
+  slug: open-amazon-web-services-tags-operation-tag-resource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Tags?operation=untag Resource API
+  slug: open-amazon-web-services-tags-operation-untag-resource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 tagStream API
+  slug: open-amazon-web-services-tagstream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Target Policies API
+  slug: open-amazon-web-services-target-policies-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Targetgroups API
+  slug: open-amazon-web-services-targetgroups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 targetResourceTypes API
+  slug: open-amazon-web-services-targetresourcetypes-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Task API
+  slug: open-amazon-web-services-task-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Tasks API
+  slug: open-amazon-web-services-tasks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 TelemetryRecords API
+  slug: open-amazon-web-services-telemetryrecords-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Templates API
+  slug: open-amazon-web-services-templates-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Templatestep API
+  slug: open-amazon-web-services-templatestep-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Templatestepgroups API
+  slug: open-amazon-web-services-templatestepgroups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Templatesteps API
+  slug: open-amazon-web-services-templatesteps-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Terminatejob API
+  slug: open-amazon-web-services-terminatejob-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 TerminateRecoveryInstances API
+  slug: open-amazon-web-services-terminaterecoveryinstances-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 TerminateTargetInstances API
+  slug: open-amazon-web-services-terminatetargetinstances-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Test Authorization API
+  slug: open-amazon-web-services-test-authorization-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Test Segment Pattern API
+  slug: open-amazon-web-services-test-segment-pattern-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Testexecutions API
+  slug: open-amazon-web-services-testexecutions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Testsetdiscrepancy API
+  slug: open-amazon-web-services-testsetdiscrepancy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Testsetgenerations API
+  slug: open-amazon-web-services-testsetgenerations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Testsets API
+  slug: open-amazon-web-services-testsets-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Thing Groups API
+  slug: open-amazon-web-services-thing-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Thing Registration Tasks API
+  slug: open-amazon-web-services-thing-registration-tasks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Thing Types API
+  slug: open-amazon-web-services-thing-types-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Things API
+  slug: open-amazon-web-services-things-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Tile API
+  slug: open-amazon-web-services-tile-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Timeseries API
+  slug: open-amazon-web-services-timeseries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 TimeSeriesServiceStatistics API
+  slug: open-amazon-web-services-timeseriesservicestatistics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Token API
+  slug: open-amazon-web-services-token-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Token?aws Iam=t API
+  slug: open-amazon-web-services-token-aws-iam-t-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Tokens API
+  slug: open-amazon-web-services-tokens-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Topics API
+  slug: open-amazon-web-services-topics-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 TraceGraph API
+  slug: open-amazon-web-services-tracegraph-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Traces API
+  slug: open-amazon-web-services-traces-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 TraceSegments API
+  slug: open-amazon-web-services-tracesegments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 TraceSummaries API
+  slug: open-amazon-web-services-tracesummaries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Tracking API
+  slug: open-amazon-web-services-tracking-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Traffic Distribution API
+  slug: open-amazon-web-services-traffic-distribution-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Traffic Distribution Group API
+  slug: open-amazon-web-services-traffic-distribution-group-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Traffic Distribution Groups API
+  slug: open-amazon-web-services-traffic-distribution-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Training Dataset API
+  slug: open-amazon-web-services-training-dataset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Transfer Certificate API
+  slug: open-amazon-web-services-transfer-certificate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Transit Gateway Peerings API
+  slug: open-amazon-web-services-transit-gateway-peerings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Transit Gateway Route Table Attachments API
+  slug: open-amazon-web-services-transit-gateway-route-table-attachments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Trustanchor API
+  slug: open-amazon-web-services-trustanchor-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Trustanchors API
+  slug: open-amazon-web-services-trustanchors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 trustStores API
+  slug: open-amazon-web-services-truststores-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Types API
+  slug: open-amazon-web-services-types-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UnarchiveApplication API
+  slug: open-amazon-web-services-unarchiveapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UnarchiveWave API
+  slug: open-amazon-web-services-unarchivewave-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Ungroup Resources API
+  slug: open-amazon-web-services-ungroup-resources-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Unregister Connector API
+  slug: open-amazon-web-services-unregister-connector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Unsubscribe API
+  slug: open-amazon-web-services-unsubscribe-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Untag API
+  slug: open-amazon-web-services-untag-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 untagResource API
+  slug: open-amazon-web-services-untagresource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 untagStream API
+  slug: open-amazon-web-services-untagstream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Account Settings API
+  slug: open-amazon-web-services-update-account-settings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update API
+  slug: open-amazon-web-services-update-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update App API
+  slug: open-amazon-web-services-update-app-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update App Version API
+  slug: open-amazon-web-services-update-app-version-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update App Version App Component API
+  slug: open-amazon-web-services-update-app-version-app-component-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update App Version Resource API
+  slug: open-amazon-web-services-update-app-version-resource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Application Settings API
+  slug: open-amazon-web-services-update-application-settings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Applicationcomponent Config API
+  slug: open-amazon-web-services-update-applicationcomponent-config-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Billing Group API
+  slug: open-amazon-web-services-update-billing-group-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Connector Profile API
+  slug: open-amazon-web-services-update-connector-profile-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Connector Registration API
+  slug: open-amazon-web-services-update-connector-registration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Custom Line Item API
+  slug: open-amazon-web-services-update-custom-line-item-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Enabled Baseline API
+  slug: open-amazon-web-services-update-enabled-baseline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Enabled Control API
+  slug: open-amazon-web-services-update-enabled-control-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Flow API
+  slug: open-amazon-web-services-update-flow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Group API
+  slug: open-amazon-web-services-update-group-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Group Query API
+  slug: open-amazon-web-services-update-group-query-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Landingzone API
+  slug: open-amazon-web-services-update-landingzone-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Pricing Plan API
+  slug: open-amazon-web-services-update-pricing-plan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Pricing Rule API
+  slug: open-amazon-web-services-update-pricing-rule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Resiliency Policy API
+  slug: open-amazon-web-services-update-resiliency-policy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Update Server Config API
+  slug: open-amazon-web-services-update-server-config-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateAccountConfiguration API
+  slug: open-amazon-web-services-updateaccountconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateAlert API
+  slug: open-amazon-web-services-updatealert-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateAnomalyDetector API
+  slug: open-amazon-web-services-updateanomalydetector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateApplication API
+  slug: open-amazon-web-services-updateapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateAuditStreamConfiguration API
+  slug: open-amazon-web-services-updateauditstreamconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateChannel API
+  slug: open-amazon-web-services-updatechannel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateCompanyNetworkConfiguration API
+  slug: open-amazon-web-services-updatecompanynetworkconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Updatecomputeenvironment API
+  slug: open-amazon-web-services-updatecomputeenvironment-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateConnector API
+  slug: open-amazon-web-services-updateconnector-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateDataCellsFilter API
+  slug: open-amazon-web-services-updatedatacellsfilter-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateDataRetention API
+  slug: open-amazon-web-services-updatedataretention-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateDeletionProtection API
+  slug: open-amazon-web-services-updatedeletionprotection-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateDestination API
+  slug: open-amazon-web-services-updatedestination-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateDevicePolicyConfiguration API
+  slug: open-amazon-web-services-updatedevicepolicyconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateDistributionConfiguration API
+  slug: open-amazon-web-services-updatedistributionconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateDomainMetadata API
+  slug: open-amazon-web-services-updatedomainmetadata-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateFailbackReplicationConfiguration API
+  slug: open-amazon-web-services-updatefailbackreplicationconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateFleetMetadata API
+  slug: open-amazon-web-services-updatefleetmetadata-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateGroup API
+  slug: open-amazon-web-services-updategroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateIdentityProviderConfiguration API
+  slug: open-amazon-web-services-updateidentityproviderconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateImageGenerationConfiguration API
+  slug: open-amazon-web-services-updateimagegenerationconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateImagePipeline API
+  slug: open-amazon-web-services-updateimagepipeline-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateIncidentRecord API
+  slug: open-amazon-web-services-updateincidentrecord-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateIndexType API
+  slug: open-amazon-web-services-updateindextype-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateInfrastructureConfiguration API
+  slug: open-amazon-web-services-updateinfrastructureconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Updatejobqueue API
+  slug: open-amazon-web-services-updatejobqueue-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateLakeFormationIdentityCenterConfiguration API
+  slug: open-amazon-web-services-updatelakeformationidentitycenterconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateLaunchConfiguration API
+  slug: open-amazon-web-services-updatelaunchconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateLaunchConfigurationTemplate API
+  slug: open-amazon-web-services-updatelaunchconfigurationtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateLFTag API
+  slug: open-amazon-web-services-updatelftag-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateLifecyclePolicy API
+  slug: open-amazon-web-services-updatelifecyclepolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateLink API
+  slug: open-amazon-web-services-updatelink-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateLoggingConfiguration API
+  slug: open-amazon-web-services-updateloggingconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateMediaStorageConfiguration API
+  slug: open-amazon-web-services-updatemediastorageconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateMetricSet API
+  slug: open-amazon-web-services-updatemetricset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateNotificationConfiguration API
+  slug: open-amazon-web-services-updatenotificationconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateNotificationRule API
+  slug: open-amazon-web-services-updatenotificationrule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdatePlaybackRestrictionPolicy API
+  slug: open-amazon-web-services-updateplaybackrestrictionpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateRelatedItems API
+  slug: open-amazon-web-services-updaterelateditems-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateReplicationConfiguration API
+  slug: open-amazon-web-services-updatereplicationconfiguration-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateReplicationConfigurationTemplate API
+  slug: open-amazon-web-services-updatereplicationconfigurationtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateReplicationSet API
+  slug: open-amazon-web-services-updatereplicationset-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateResource API
+  slug: open-amazon-web-services-updateresource-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Updateresourceshare API
+  slug: open-amazon-web-services-updateresourceshare-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateResponsePlan API
+  slug: open-amazon-web-services-updateresponseplan-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateRobotApplication API
+  slug: open-amazon-web-services-updaterobotapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateRoom API
+  slug: open-amazon-web-services-updateroom-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateSamplingRule API
+  slug: open-amazon-web-services-updatesamplingrule-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Updateschedulingpolicy API
+  slug: open-amazon-web-services-updateschedulingpolicy-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateSignalingChannel API
+  slug: open-amazon-web-services-updatesignalingchannel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateSimulationApplication API
+  slug: open-amazon-web-services-updatesimulationapplication-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateSite API
+  slug: open-amazon-web-services-updatesite-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateSourceServer API
+  slug: open-amazon-web-services-updatesourceserver-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateSourceServerReplicationType API
+  slug: open-amazon-web-services-updatesourceserverreplicationtype-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateStage API
+  slug: open-amazon-web-services-updatestage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateStream API
+  slug: open-amazon-web-services-updatestream-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateTableObjects API
+  slug: open-amazon-web-services-updatetableobjects-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateTableStorageOptimizer API
+  slug: open-amazon-web-services-updatetablestorageoptimizer-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateTimelineEvent API
+  slug: open-amazon-web-services-updatetimelineevent-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateView API
+  slug: open-amazon-web-services-updateview-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 UpdateWave API
+  slug: open-amazon-web-services-updatewave-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateWorker API
+  slug: open-amazon-web-services-updateworker-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateWorkerFleet API
+  slug: open-amazon-web-services-updateworkerfleet-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 updateWorldTemplate API
+  slug: open-amazon-web-services-updateworldtemplate-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Upload Part API
+  slug: open-amazon-web-services-upload-part-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 uploadUrl API
+  slug: open-amazon-web-services-uploadurl-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Usage API
+  slug: open-amazon-web-services-usage-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Usageplans API
+  slug: open-amazon-web-services-usageplans-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 User API
+  slug: open-amazon-web-services-user-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 User Hierarchy Groups API
+  slug: open-amazon-web-services-user-hierarchy-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 User Hierarchy Groups Summary API
+  slug: open-amazon-web-services-user-hierarchy-groups-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 User Hierarchy Structure API
+  slug: open-amazon-web-services-user-hierarchy-structure-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Useraccess API
+  slug: open-amazon-web-services-useraccess-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 userAccessLoggingSettings API
+  slug: open-amazon-web-services-useraccessloggingsettings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 userDetails API
+  slug: open-amazon-web-services-userdetails-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Users API
+  slug: open-amazon-web-services-users-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Users Summary API
+  slug: open-amazon-web-services-users-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 userSettings API
+  slug: open-amazon-web-services-usersettings-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 v2LoggingLevel API
+  slug: open-amazon-web-services-v2logginglevel-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 v2LoggingOptions API
+  slug: open-amazon-web-services-v2loggingoptions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 variantStore API
+  slug: open-amazon-web-services-variantstore-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 variantStores API
+  slug: open-amazon-web-services-variantstores-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vaults API
+  slug: open-amazon-web-services-vaults-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vector Enrichment Jobs API
+  slug: open-amazon-web-services-vector-enrichment-jobs-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Versions API
+  slug: open-amazon-web-services-versions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Views API
+  slug: open-amazon-web-services-views-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Violation Events API
+  slug: open-amazon-web-services-violation-events-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Violations API
+  slug: open-amazon-web-services-violations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Virtualclusters API
+  slug: open-amazon-web-services-virtualclusters-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vocabulary API
+  slug: open-amazon-web-services-vocabulary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vocabulary Remove API
+  slug: open-amazon-web-services-vocabulary-remove-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vocabulary Summary API
+  slug: open-amazon-web-services-vocabulary-summary-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Voice Connector Groups API
+  slug: open-amazon-web-services-voice-connector-groups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Voice Connector Regions API
+  slug: open-amazon-web-services-voice-connector-regions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Voice Connectors API
+  slug: open-amazon-web-services-voice-connectors-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Voice Profile Domains API
+  slug: open-amazon-web-services-voice-profile-domains-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Voice Profiles API
+  slug: open-amazon-web-services-voice-profiles-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Voices API
+  slug: open-amazon-web-services-voices-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vpc Attachments API
+  slug: open-amazon-web-services-vpc-attachments-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vpc Connection API
+  slug: open-amazon-web-services-vpc-connection-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vpc Connections API
+  slug: open-amazon-web-services-vpc-connections-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vpclinks API
+  slug: open-amazon-web-services-vpclinks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Vulnerabilities API
+  slug: open-amazon-web-services-vulnerabilities-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Webhooks API
+  slug: open-amazon-web-services-webhooks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Webtoken API
+  slug: open-amazon-web-services-webtoken-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Wireless Device Import Task API
+  slug: open-amazon-web-services-wireless-device-import-task-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Wireless Device Import Tasks API
+  slug: open-amazon-web-services-wireless-device-import-tasks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Wireless Devices API
+  slug: open-amazon-web-services-wireless-devices-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Wireless Gateway Task Definitions API
+  slug: open-amazon-web-services-wireless-gateway-task-definitions-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Wireless Gateways API
+  slug: open-amazon-web-services-wireless-gateways-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Wireless Single Device Import Task API
+  slug: open-amazon-web-services-wireless-single-device-import-task-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Workbooks API
+  slug: open-amazon-web-services-workbooks-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Worker Configurations API
+  slug: open-amazon-web-services-worker-configurations-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Workflow API
+  slug: open-amazon-web-services-workflow-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Workflowstep API
+  slug: open-amazon-web-services-workflowstep-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Workflowstepgroup API
+  slug: open-amazon-web-services-workflowstepgroup-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Workflowstepgroups API
+  slug: open-amazon-web-services-workflowstepgroups-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 workingLocationV1 API
+  slug: open-amazon-web-services-workinglocationv1-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Workloads API
+  slug: open-amazon-web-services-workloads-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 workloadsSummaries API
+  slug: open-amazon-web-services-workloadssummaries-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Workspaces API
+  slug: open-amazon-web-services-workspaces-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Workspaces List API
+  slug: open-amazon-web-services-workspaces-list-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Write  Object Response. API
+  slug: open-amazon-web-services-write-object-response-api
+- collection_type: open
+  name: Amazon Web Services accessanalyzer 2012 09 25 Zonalshifts API
+  slug: open-amazon-web-services-zonalshifts-api
 common:
 - group: agent
   title: ''
@@ -5534,7 +10941,7 @@ plans:
 - name: Amazon Web Services Plans Pricing
   plan_count: 3
   slug: amazon-web-services-plans-pricing
-random_paper: 2
+random_paper: 134
 rate_limits:
 - limit_count: 2
   name: Amazon Web Services Rate Limits
@@ -5568,7 +10975,7 @@ score:
       marker_coverage: 0.0
       total: 1804
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/screenshots/amazon-web-services-2026-06-20T171845.png
 slug: amazon-web-services

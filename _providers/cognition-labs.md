@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -66,8 +66,38 @@ apis:
 - description: Create and manage Devin sessions (v1 legacy surface).
   name: Cognition Labs Sessions API
   slug: cognition-labs-sessions-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Devin API (Cognition Labs) Attachments API
+  slug: open-cognition-labs-attachments-api
+- collection_type: open
+  name: Devin API (Cognition Labs) Attachments Consumption API
+  slug: open-cognition-labs-consumption-api
+- collection_type: open
+  name: Devin API (Cognition Labs) Attachments Enterprise (v3) API
+  slug: open-cognition-labs-enterprise-v3-api
+- collection_type: open
+  name: Devin API (Cognition Labs) Attachments Knowledge API
+  slug: open-cognition-labs-knowledge-api
+- collection_type: open
+  name: Devin API (Cognition Labs) Attachments Messages API
+  slug: open-cognition-labs-messages-api
+- collection_type: open
+  name: Devin API (Cognition Labs) Attachments Organizations (v3) API
+  slug: open-cognition-labs-organizations-v3-api
+- collection_type: open
+  name: Devin API (Cognition Labs) Attachments Playbooks API
+  slug: open-cognition-labs-playbooks-api
+- collection_type: open
+  name: Devin API (Cognition Labs) Attachments Secrets API
+  slug: open-cognition-labs-secrets-api
+- collection_type: open
+  name: Devin API (Cognition Labs) Attachments Sessions API
+  slug: open-cognition-labs-sessions-api
 - collection_type: open
   name: Devin API (Cognition Labs)
   slug: open-cognition-labs
@@ -144,7 +174,7 @@ plans:
 - name: Cognition Labs Plans Pricing
   plan_count: 6
   slug: cognition-labs-plans-pricing
-random_paper: 113
+random_paper: 92
 rate_limits:
 - limit_count: 6
   name: Cognition Labs Rate Limits
@@ -169,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/screenshots/cognition-labs-2026-07-25T210009.png
 security:

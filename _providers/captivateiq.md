@@ -10,12 +10,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-12'
+  score: 35.4
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: The Attribute Worksheets API from CaptivateIQ — 5 operation(s) for attribute worksheets.
@@ -79,7 +79,59 @@ apis:
 - description: The Users API from CaptivateIQ — 2 operation(s) for users.
   name: CaptivateIQ Users API
   slug: captivateiq-users-api
-artifact_total: 22
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets API
+  slug: open-captivateiq-attribute-worksheets-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Audit Logs API
+  slug: open-captivateiq-audit-logs-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Commission Plans API
+  slug: open-captivateiq-commission-plans-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Dashboards API
+  slug: open-captivateiq-dashboards-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Data Workbooks API
+  slug: open-captivateiq-data-workbooks-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Data Worksheets API
+  slug: open-captivateiq-data-worksheets-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Employee Assumptions API
+  slug: open-captivateiq-employee-assumptions-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Employees API
+  slug: open-captivateiq-employees-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Hierarchies API
+  slug: open-captivateiq-hierarchies-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Jobs API
+  slug: open-captivateiq-jobs-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Metadata API
+  slug: open-captivateiq-metadata-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Payouts API
+  slug: open-captivateiq-payouts-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Report Models API
+  slug: open-captivateiq-report-models-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Transformation Worksheets API
+  slug: open-captivateiq-transformation-worksheets-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Uploads API
+  slug: open-captivateiq-uploads-api
+- collection_type: open
+  name: CaptivateIQ Attribute Worksheets Users API
+  slug: open-captivateiq-users-api
 common:
 - group: agent
   title: ''
@@ -197,36 +249,62 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/captivateiq-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/captivateiq-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/captivateiq-plans-pricing.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/captivateiq-tool-crosswalk.yml
 created: '2026-07-17'
-description: CaptivateIQ is a sales performance and commission management platform that automates the calculation, administration, and reporting of sales commissions and incentive compensation. Its ICM (Incentive Compensation Management) and SPM (Sales Performance Management) products let revenue, finance, and sales-ops teams design complex commission plans, model quotas and territories, and pay reps accurately and on time. CaptivateIQ exposes a public REST API (ciq/v1) for managing employees, users, hierarchies, data workbooks and worksheets, employee assumptions, commission plans, period groups, payouts, report models, transformation worksheets, uploads, dashboards, and audit logs. The API uses token-based authentication (Authorization header with a "Token" prefix), limit/offset pagination, and per-tier rate limiting, and is documented on a public developer portal with guides, recipes, a changelog, and an llms.txt index.
+description: CaptivateIQ is a sales performance and commission management platform that automates the calculation, administration, and reporting of sales commissions and incentive compensation. Its ICM (Incentive Compensation Management) and SPM (Sales Performance Management) products let revenue, finance, and sales-ops teams design complex commission plans, model quotas and territories, and pay reps accurately and on time. CaptivateIQ exposes a public REST API (ciq/v1) for managing employees, users, hierarchies, data workbooks and worksheets, employee assumptions, commission plans, period groups, payouts, report models, transformation worksheets, uploads, dashboards, and audit logs. The API uses token-based authentication (Authorization header with a "Token" prefix), limit/offset pagination, and per-tier rate limiting, and is documented on a public developer portal with guides, recipes, a changelog, and an llms.txt index. CaptivateIQ also serves a live remote MCP endpoint on its developer-docs
+  host and an RFC 8414 OAuth authorization-server metadata document on its app host, and publicly announced a customer-facing CaptivateIQ MCP Server (limited beta, May 2026) for connecting live compensation and planning data to AI tools.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/captivateiq.png
 layout: provider
 mcp_servers:
 - description: ''
   name: captivateiq-mcp.yml
   slug: captivateiq-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: CaptivateIQ
 nav: Providers
 network: true
 overview: 'CaptivateIQ publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Attribute Worksheets API, Audit Logs API, Commission Plans API, and 13 more. Tagged areas include Company, Cloud Saas, Sales Commissions, Incentive Compensation Management, and Sales Performance Management.
 
 
-  CaptivateIQ''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, support, and 22 more developer resources.'
-random_paper: 99
+  CaptivateIQ''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, support, and 26 more developer resources.'
+plans:
+- name: Captivateiq Plans Pricing
+  plan_count: 0
+  slug: captivateiq-plans-pricing
+random_paper: 136
 rate_limits:
 - limit_count: 2
   name: Captivateiq Rate Limits
   slug: captivateiq-rate-limits
+scopes:
+- name: Captivateiq Scopes
+  scope_count: 0
+  slug: captivateiq-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 55.7
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.3
-    developer_ergonomics: 45.1
-    discoverability: 81.5
+    developer_ergonomics: 56.0
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 68.4
   previous_composite: 52.4
@@ -240,14 +318,14 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
 security:
 - kind: authentication
   name: Captivateiq Authentication
   slug: captivateiq-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Captivateiq Domain Security
   slug: captivateiq-domain-security
@@ -255,11 +333,11 @@ security:
 - kind: vulnerability-disclosure
   name: Captivateiq Vulnerability Disclosure
   slug: captivateiq-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: contact published
 - kind: trust-center
   name: Captivateiq Trust Center
   slug: captivateiq-trust-center
-  summary_line: SOC 1, SOC 2, SOX, GDPR
+  summary_line: ISO 27001, SOC 1, SOC 2, SOX, GDPR
 slug: captivateiq
 tags:
 - Company

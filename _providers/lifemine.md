@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 0
@@ -202,7 +202,185 @@ apis:
 - description: The wp/v2 API from LifeMine — 1 operation(s) for wp/v2.
   name: LifeMine Wp/v2 API
   slug: lifemine-wp-v2-api
-artifact_total: 72
+artifact_total: 131
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Abilities API
+  slug: open-lifemine-abilities-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Block Directory API
+  slug: open-lifemine-block-directory-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Block Patterns API
+  slug: open-lifemine-block-patterns-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Block Renderer API
+  slug: open-lifemine-block-renderer-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Block Types API
+  slug: open-lifemine-block-types-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Blocks API
+  slug: open-lifemine-blocks-api
+- collection_type: open
+  name: LifeMine Careers API (Greenhouse Job ) Board API
+  slug: open-lifemine-board-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Categories API
+  slug: open-lifemine-categories-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Comments API
+  slug: open-lifemine-comments-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Customgf/v2 API
+  slug: open-lifemine-customgf-v2-api
+- collection_type: open
+  name: LifeMine Careers API (Greenhouse Job Board) Departments API
+  slug: open-lifemine-departments-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Directory Sizes API
+  slug: open-lifemine-directory-sizes-api
+- collection_type: open
+  name: LifeMine Careers API (Greenhouse Job Board) Education API
+  slug: open-lifemine-education-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Embed API
+  slug: open-lifemine-embed-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Export API
+  slug: open-lifemine-export-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Font Collections API
+  slug: open-lifemine-font-collections-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Font Families API
+  slug: open-lifemine-font-families-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Forms API
+  slug: open-lifemine-forms-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Global Styles API
+  slug: open-lifemine-global-styles-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Icons API
+  slug: open-lifemine-icons-api
+- collection_type: open
+  name: LifeMine Careers API (Greenhouse Job Board) Jobs API
+  slug: open-lifemine-jobs-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Media API
+  slug: open-lifemine-media-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Menu Items API
+  slug: open-lifemine-menu-items-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Menu Locations API
+  slug: open-lifemine-menu-locations-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Menus API
+  slug: open-lifemine-menus-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Navigation API
+  slug: open-lifemine-navigation-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Navigation Fallback API
+  slug: open-lifemine-navigation-fallback-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Oembed/1.0 API
+  slug: open-lifemine-oembed-1-0-api
+- collection_type: open
+  name: LifeMine Careers API (Greenhouse Job Board) Offices API
+  slug: open-lifemine-offices-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Pages API
+  slug: open-lifemine-pages-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Pattern Directory API
+  slug: open-lifemine-pattern-directory-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Plugins API
+  slug: open-lifemine-plugins-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Posts API
+  slug: open-lifemine-posts-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Proxy API
+  slug: open-lifemine-proxy-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Root API
+  slug: open-lifemine-root-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Search API
+  slug: open-lifemine-search-api
+- collection_type: open
+  name: LifeMine Careers API (Greenhouse Job Board) Sections API
+  slug: open-lifemine-sections-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Settings API
+  slug: open-lifemine-settings-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Sidebars API
+  slug: open-lifemine-sidebars-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Statuses API
+  slug: open-lifemine-statuses-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Tags API
+  slug: open-lifemine-tags-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Taxonomies API
+  slug: open-lifemine-taxonomies-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Team API
+  slug: open-lifemine-team-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Team Categories API
+  slug: open-lifemine-team-categories-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Template Parts API
+  slug: open-lifemine-template-parts-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Templates API
+  slug: open-lifemine-templates-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Tests API
+  slug: open-lifemine-tests-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Themes API
+  slug: open-lifemine-themes-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Types API
+  slug: open-lifemine-types-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) URL Details API
+  slug: open-lifemine-url-details-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Users API
+  slug: open-lifemine-users-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Widget Types API
+  slug: open-lifemine-widget-types-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Widgets API
+  slug: open-lifemine-widgets-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Wp Abilities/v1 API
+  slug: open-lifemine-wp-abilities-v1-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Wp Block Editor/v1 API
+  slug: open-lifemine-wp-block-editor-v1-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Wp Pattern Category API
+  slug: open-lifemine-wp-pattern-category-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Wp Site Health/v1 API
+  slug: open-lifemine-wp-site-health-v1-api
+- collection_type: open
+  name: LifeMine Website Content API (WordPress REST) Wp/v2 API
+  slug: open-lifemine-wp-v2-api
 common:
 - group: other
   title: ''
@@ -357,7 +535,7 @@ overview: 'LifeMine publishes 58 APIs on the [APIs.io](https://apis.io/) network
 
 
   LifeMine''s developer surface includes engineering blog, product news, support, authentication, and 22 more developer resources.'
-random_paper: 1
+random_paper: 96
 score:
   band: emerging
   composite: 20.0
@@ -387,7 +565,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/screenshots/lifemine-2026-08-07T171642.png
 security:

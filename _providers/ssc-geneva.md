@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Trade capture and processing
   name: SS&C Geneva Trades API
   slug: ssc-geneva-trades-api
-artifact_total: 24
+artifact_total: 30
 collections:
 - collection_type: postman
   name: SS&C Geneva Fund Accounting Investors API
@@ -72,8 +72,26 @@ collections:
   name: SS&C Geneva Fund Accounting Investors Trades API
   slug: postman-ssc-geneva-trades-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: SS&C Geneva Fund Accounting API
   slug: open-ssc-geneva-fund-accounting
+- collection_type: open
+  name: SS&C Geneva Fund Accounting Investors API
+  slug: open-ssc-geneva-investors-api
+- collection_type: open
+  name: SS&C Geneva Fund Accounting Investors NAV API
+  slug: open-ssc-geneva-nav-api
+- collection_type: open
+  name: SS&C Geneva Fund Accounting Investors Portfolios API
+  slug: open-ssc-geneva-portfolios-api
+- collection_type: open
+  name: SS&C Geneva Fund Accounting Investors Positions API
+  slug: open-ssc-geneva-positions-api
+- collection_type: open
+  name: SS&C Geneva Fund Accounting Investors Trades API
+  slug: open-ssc-geneva-trades-api
 common:
 - group: build
   title: ''
@@ -186,7 +204,7 @@ plans:
 - name: Ssc Geneva Plans Pricing
   plan_count: 3
   slug: ssc-geneva-plans-pricing
-random_paper: 44
+random_paper: 110
 rate_limits:
 - limit_count: 5
   name: Ssc Geneva Rate Limits
@@ -228,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/screenshots/ssc-geneva-2026-06-20T194436.png
 security:

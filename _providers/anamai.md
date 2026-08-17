@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -69,7 +69,7 @@ apis:
 - description: The Voices API from Anam.ai — 3 operation(s) for voices.
   name: Anam.ai Voices API
   slug: anamai-voices-api
-artifact_total: 27
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Anam AI Avatars API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: Anam AI Avatars Voices API
   slug: postman-anamai-voices-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anam AI Avatars API
+  slug: open-anamai-avatars-api
+- collection_type: open
+  name: Anam AI Avatars Engine API
+  slug: open-anamai-engine-api
+- collection_type: open
+  name: Anam AI Avatars Knowledge API
+  slug: open-anamai-knowledge-api
+- collection_type: open
+  name: Anam AI Avatars LLMs API
+  slug: open-anamai-llms-api
+- collection_type: open
+  name: Anam AI Avatars Meetings API
+  slug: open-anamai-meetings-api
+- collection_type: open
+  name: Anam AI Avatars Personas API
+  slug: open-anamai-personas-api
+- collection_type: open
+  name: Anam AI Avatars Sessions API
+  slug: open-anamai-sessions-api
+- collection_type: open
+  name: Anam AI Avatars Share Links API
+  slug: open-anamai-share-links-api
+- collection_type: open
+  name: Anam AI Avatars Tools API
+  slug: open-anamai-tools-api
+- collection_type: open
+  name: Anam AI Avatars Voices API
+  slug: open-anamai-voices-api
 common:
 - group: other
   title: ''
@@ -270,7 +303,7 @@ overview: 'Anam.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Anam.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Anamai Rate Limits
@@ -298,7 +331,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/screenshots/anamai-2026-07-25T200158.png
 security:

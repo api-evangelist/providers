@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -78,8 +78,50 @@ apis:
 - description: Manage webhook consumers for event subscriptions.
   name: Codat Webhooks API
   slug: codat-io-webhooks-api
-artifact_total: 20
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Codat Accounting API
+  slug: open-codat-io-accounting-api
+- collection_type: open
+  name: Codat Accounting Bank Feeds API
+  slug: open-codat-io-bank-feeds-api
+- collection_type: open
+  name: Codat Accounting Banking API
+  slug: open-codat-io-banking-api
+- collection_type: open
+  name: Codat Accounting Commerce API
+  slug: open-codat-io-commerce-api
+- collection_type: open
+  name: Codat Accounting Companies API
+  slug: open-codat-io-companies-api
+- collection_type: open
+  name: Codat Accounting Connections API
+  slug: open-codat-io-connections-api
+- collection_type: open
+  name: Codat Accounting Expenses API
+  slug: open-codat-io-expenses-api
+- collection_type: open
+  name: Codat Accounting Integrations API
+  slug: open-codat-io-integrations-api
+- collection_type: open
+  name: Codat Accounting Lending API
+  slug: open-codat-io-lending-api
+- collection_type: open
+  name: Codat Accounting Manage data API
+  slug: open-codat-io-manage-data-api
+- collection_type: open
+  name: Codat Accounting Payables API
+  slug: open-codat-io-payables-api
+- collection_type: open
+  name: Codat Accounting Sync for Commerce API
+  slug: open-codat-io-sync-for-commerce-api
+- collection_type: open
+  name: Codat Accounting Webhooks API
+  slug: open-codat-io-webhooks-api
 - collection_type: open
   name: Codat API
   slug: open-codat-io
@@ -144,7 +186,7 @@ plans:
 - name: Codat Io Plans Pricing
   plan_count: 3
   slug: codat-io-plans-pricing
-random_paper: 64
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Codat Io Rate Limits
@@ -175,7 +217,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/screenshots/codat-io-2026-07-25T205918.png
 security:

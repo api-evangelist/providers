@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'The Sling Resource API provides RESTful access to JCR content repository nodes via HTTP. Every content node is addressable as a URL, supporting GET, POST, PUT, DELETE, and MOVE operations through the '
@@ -154,7 +154,7 @@ plans:
 - name: Apache Sling Plans Pricing
   plan_count: 3
   slug: apache-sling-plans-pricing
-random_paper: 116
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Apache Sling Rate Limits
@@ -172,7 +172,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 21.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-sling/refs/heads/main/screenshots/apache-sling-2026-06-20T172143.png
 security:

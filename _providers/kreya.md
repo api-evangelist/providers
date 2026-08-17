@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Kreya is a GUI client for gRPC and REST APIs with innovative features for environments, authorizations, and more.
@@ -84,7 +84,7 @@ plans:
 - name: Kreya Plans Pricing
   plan_count: 3
   slug: kreya-plans-pricing
-random_paper: 60
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Kreya Rate Limits
@@ -102,7 +102,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kreya/refs/heads/main/screenshots/kreya-2026-06-20T184156.png
 security:

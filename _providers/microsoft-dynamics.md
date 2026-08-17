@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -96,11 +96,32 @@ apis:
 - description: The Vendors API from Microsoft Dynamics — 2 operation(s) for vendors.
   name: Microsoft Dynamics Vendors API
   slug: microsoft-dynamics-vendors-api
-artifact_total: 44
+artifact_total: 64
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts API
+  slug: open-microsoft-dynamics-accounts-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Activities API
+  slug: open-microsoft-dynamics-activities-api
 - collection_type: open
   name: Microsoft Dynamics 365 Business Central API
   slug: open-microsoft-dynamics-business-central
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Cases API
+  slug: open-microsoft-dynamics-cases-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Companies API
+  slug: open-microsoft-dynamics-companies-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Contacts API
+  slug: open-microsoft-dynamics-contacts-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Customers API
+  slug: open-microsoft-dynamics-customers-api
 - collection_type: open
   name: Microsoft Dynamics 365 / Dataverse Webhooks
   slug: open-microsoft-dynamics-dataverse-webhooks-asyncapi
@@ -108,8 +129,47 @@ collections:
   name: Microsoft Dynamics 365 Dataverse Web API
   slug: open-microsoft-dynamics-dataverse
 - collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Employees API
+  slug: open-microsoft-dynamics-employees-api
+- collection_type: open
   name: Microsoft Dynamics 365 Finance & Operations Data API
   slug: open-microsoft-dynamics-finance-operations
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts General Ledger API
+  slug: open-microsoft-dynamics-general-ledger-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Human Resources API
+  slug: open-microsoft-dynamics-human-resources-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Items API
+  slug: open-microsoft-dynamics-items-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Journals API
+  slug: open-microsoft-dynamics-journals-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Leads API
+  slug: open-microsoft-dynamics-leads-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Opportunities API
+  slug: open-microsoft-dynamics-opportunities-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Products API
+  slug: open-microsoft-dynamics-products-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Purchase Invoices API
+  slug: open-microsoft-dynamics-purchase-invoices-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Purchase Orders API
+  slug: open-microsoft-dynamics-purchase-orders-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Sales Invoices API
+  slug: open-microsoft-dynamics-sales-invoices-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Sales Orders API
+  slug: open-microsoft-dynamics-sales-orders-api
+- collection_type: open
+  name: Microsoft Dynamics 365 Business Central Accounts Vendors API
+  slug: open-microsoft-dynamics-vendors-api
 common:
 - group: agent
   title: ''
@@ -218,7 +278,7 @@ plans:
 - name: Microsoft Dynamics Plans Pricing
   plan_count: 13
   slug: microsoft-dynamics-plans-pricing
-random_paper: 83
+random_paper: 95
 rate_limits:
 - limit_count: 6
   name: Microsoft Dynamics Rate Limits
@@ -257,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics/refs/heads/main/screenshots/microsoft-dynamics-2026-06-20T185452.png
 security:

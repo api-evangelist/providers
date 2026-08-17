@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,11 +44,33 @@ apis:
 - description: 상점 조회 및 주문 제휴사 ↔ 고릴라 상점 매핑
   name: Barogo Stores API
   slug: barogo-stores-api
-artifact_total: 10
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Barogo Gorela Webhooks
   slug: barogo-gorela-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Barogo Gorela Order Agency Areas API
+  slug: open-barogo-areas-api
+- collection_type: open
+  name: Barogo Gorela Order Agency Delivery API
+  slug: open-barogo-delivery-api
+- collection_type: open
+  name: Barogo Gorela Order Agency Deposits API
+  slug: open-barogo-deposits-api
+- collection_type: open
+  name: Barogo Gorela Callback (Webhook) API
+  slug: open-barogo-gorela-callbacks
+- collection_type: open
+  name: Barogo Gorela Order Agency Orders API
+  slug: open-barogo-orders-api
+- collection_type: open
+  name: Barogo Gorela Order Agency Stores API
+  slug: open-barogo-stores-api
 common:
 - group: other
   title: ''
@@ -197,7 +219,7 @@ overview: 'Barogo publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Barogo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, product news, and 25 more developer resources.'
-random_paper: 34
+random_paper: 38
 score:
   band: developing
   composite: 51.5
@@ -221,7 +243,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png
 security:

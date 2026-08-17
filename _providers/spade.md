@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Contact sales
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - authentication
+  - https://www.spade.com/pricing
+  - https://docs.spade.com/reference/integrate-with-spades-api
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,12 +25,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-12'
+  score: 46.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -62,11 +64,39 @@ apis:
 - description: The Universal Enrichment API from Spade — 3 operation(s) for universal enrichment.
   name: Spade Universal Enrichment API
   slug: spade-universal-enrichment-api
-artifact_total: 15
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Spade Webhooks
   slug: spade-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spade Card Enrichment API
+  slug: open-spade-card-enrichment-api
+- collection_type: open
+  name: Spade Card Enrichment Category Action Triggers API
+  slug: open-spade-category-action-triggers-api
+- collection_type: open
+  name: Spade Card Enrichment Category Personalization API
+  slug: open-spade-category-personalization-api
+- collection_type: open
+  name: Spade Card Enrichment Feedback and Reporting API
+  slug: open-spade-feedback-and-reporting-api
+- collection_type: open
+  name: Spade Card Enrichment Merchant Action Triggers API
+  slug: open-spade-merchant-action-triggers-api
+- collection_type: open
+  name: Spade Card Enrichment Merchant Search API
+  slug: open-spade-merchant-search-api
+- collection_type: open
+  name: Spade Card Enrichment Transfer Enrichment API
+  slug: open-spade-transfer-enrichment-api
+- collection_type: open
+  name: Spade Card Enrichment Universal Enrichment API
+  slug: open-spade-universal-enrichment-api
 common:
 - group: other
   title: ''
@@ -184,6 +214,38 @@ common:
   title: ''
   type: DomainSecurity
   url: security/spade-domain-security.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.spadeapi.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.spade.com
+- group: build
+  title: ''
+  type: Postman
+  url: https://app.getpostman.com/run-collection/45578594-3ac97973-91ba-4d95-ad07-c058a347bddc
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/spade-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/spade-api-catalog.json
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/spade-a2a.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/spade-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/spade-plans-pricing.yml
 created: '2026-07-17'
 description: Spade is a real-time transaction enrichment and merchant intelligence platform for financial services. Its API transforms raw, messy card, transfer, and universal transaction records into clean, structured, verified merchant, location, and category data with sub-50ms latency. Fintechs, banks, and card issuers use Spade for authorization decisions, rewards attribution, recurring-payment detection, risk and fraud signals, spend analytics, and category personalization, plus merchant search and account/program/user/card-scoped action triggers. Spade operates east and west US sandbox and production environments and is SOC 2 Type II certified.
 image: https://spadewp.wpenginepowered.com/wp-content/uploads/2025/07/OpenGraph.webp
@@ -192,7 +254,7 @@ mcp_servers:
 - description: ''
   name: spade-mcp.yml
   slug: spade-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: Spade
 nav: Providers
 network: true
@@ -202,19 +264,27 @@ overview: 'Spade publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Spade catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spade''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 22 more developer resources.'
-random_paper: 45
+  Spade''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 30 more developer resources.'
+plans:
+- name: Spade Plans Pricing
+  plan_count: 3
+  slug: spade-plans-pricing
+random_paper: 78
+rate_limits:
+- limit_count: 4
+  name: Spade Rate Limits
+  slug: spade-rate-limits
 score:
-  band: developing
-  composite: 54.4
-  delta: 0.0
+  band: exemplar
+  composite: 66.1
+  delta: 11.7
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 78.9
     contract_quality: 69.8
-    developer_ergonomics: 60.3
+    developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
-    operational_transparency: 34.2
+    operational_transparency: 81.6
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -233,8 +303,8 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Spade Authentication
@@ -243,7 +313,7 @@ security:
 - kind: domain-security
   name: Spade Domain Security
   slug: spade-domain-security
-  summary_line: TLSv1.2 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: vulnerability-disclosure
   name: Spade Vulnerability Disclosure
   slug: spade-vulnerability-disclosure

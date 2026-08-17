@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ apis:
 - description: Operations for managing IPv4 and IPv6 networks, network containers, and network views.
   name: Infoblox Networks API
   slug: infoblox-networks-api
-artifact_total: 67
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Infoblox WAPI (Web API) DHCP API
@@ -122,6 +122,27 @@ collections:
 - collection_type: postman
   name: Infoblox WAPI (Web API) DHCP Networks API
   slug: postman-infoblox-networks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Infoblox WAPI (Web API) DHCP API
+  slug: open-infoblox-dhcp-api
+- collection_type: open
+  name: Infoblox WAPI (Web API) DHCP DNS Records API
+  slug: open-infoblox-dns-records-api
+- collection_type: open
+  name: Infoblox WAPI (Web API) DHCP DNS Zones API
+  slug: open-infoblox-dns-zones-api
+- collection_type: open
+  name: Infoblox WAPI (Web API) DHCP Grid API
+  slug: open-infoblox-grid-api
+- collection_type: open
+  name: Infoblox WAPI (Web API) DHCP IP Address Management API
+  slug: open-infoblox-ip-address-management-api
+- collection_type: open
+  name: Infoblox WAPI (Web API) DHCP Networks API
+  slug: open-infoblox-networks-api
 - collection_type: open
   name: Infoblox WAPI (Web API)
   slug: open-infoblox-wapi
@@ -324,7 +345,7 @@ plans:
 - name: Infoblox Plans Pricing
   plan_count: 3
   slug: infoblox-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 2
   name: Infoblox Rate Limits
@@ -358,7 +379,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/screenshots/infoblox-2026-06-20T183337.png
 security:

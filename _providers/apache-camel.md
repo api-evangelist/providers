@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Apache Camel Java DSL provides a fluent API for defining integration routes using Enterprise Integration Patterns. Developers define RouteBuilder subclasses to connect Camel components via endpoin
@@ -173,7 +173,7 @@ plans:
 - name: Apache Camel Plans Pricing
   plan_count: 3
   slug: apache-camel-plans-pricing
-random_paper: 89
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Apache Camel Rate Limits
@@ -191,7 +191,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 24.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-camel/refs/heads/main/screenshots/apache-camel-2026-06-20T172046.png
 security:

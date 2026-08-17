@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -56,7 +56,26 @@ apis:
 - description: Manage team configuration, members, and permissions.
   name: Corridor Teams API
   slug: corridor-teams-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Corridor Dashboard API
+  slug: open-corridor-dashboard-api
+- collection_type: open
+  name: Corridor Dashboard Findings API
+  slug: open-corridor-findings-api
+- collection_type: open
+  name: Corridor Dashboard Guardrails API
+  slug: open-corridor-guardrails-api
+- collection_type: open
+  name: Corridor Dashboard Projects API
+  slug: open-corridor-projects-api
+- collection_type: open
+  name: Corridor Dashboard Teams API
+  slug: open-corridor-teams-api
 common:
 - group: other
   title: ''
@@ -190,7 +209,7 @@ overview: 'Corridor publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Corridor''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 28
+random_paper: 123
 score:
   band: developing
   composite: 54.1
@@ -214,7 +233,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/screenshots/corridor-2026-07-25T210442.png
 security:

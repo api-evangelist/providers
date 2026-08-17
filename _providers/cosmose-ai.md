@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Registration, onboarding, invitation and account-lifecycle service behind Cosmose AI's KaiKai / Deal Hunter consumer app, plus the merchant, school, newsletter and contact lead-capture forms on kaikai
   name: Cosmose AI Deal Hunter Registration API
   slug: cosmose-ai-deal-hunter-registration-api
-artifact_total: 5
+artifact_total: 6
+collections:
+- collection_type: open
+  name: Cosmose AI Deal Hunter Registration API
+  slug: open-cosmose-ai-deal-hunter-registration-api
 common:
 - group: company
   title: ''
@@ -107,7 +111,7 @@ plans:
 - name: Cosmose Ai Plans Pricing
   plan_count: 0
   slug: cosmose-ai-plans-pricing
-random_paper: 48
+random_paper: 114
 rate_limits:
 - limit_count: 0
   name: Cosmose Ai Rate Limits
@@ -115,7 +119,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.2
-  delta: 22.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 45.5
@@ -123,10 +127,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 6.0
+  previous_composite: 28.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Cosmose Ai Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,11 +60,35 @@ apis:
 - description: User account information.
   name: western-digital User API
   slug: western-digital-user-api
-artifact_total: 22
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WD My Cloud Home Authentication API
+  slug: open-western-digital-authentication-api
+- collection_type: open
+  name: WD My Cloud Home Authentication Configuration API
+  slug: open-western-digital-configuration-api
+- collection_type: open
+  name: WD My Cloud Home Authentication Device API
+  slug: open-western-digital-device-api
+- collection_type: open
+  name: WD My Cloud Home Authentication Files API
+  slug: open-western-digital-files-api
 - collection_type: open
   name: WD My Cloud Home API
   slug: open-western-digital-my-cloud-home
+- collection_type: open
+  name: WD My Cloud Home Authentication Search API
+  slug: open-western-digital-search-api
+- collection_type: open
+  name: WD My Cloud Home Authentication Sharing API
+  slug: open-western-digital-sharing-api
+- collection_type: open
+  name: WD My Cloud Home Authentication User API
+  slug: open-western-digital-user-api
 common:
 - group: agent
   title: ''
@@ -175,7 +199,7 @@ press:
 - date: '2026-05-25'
   title: Western Digital forecasts quarterly revenue above ...
   url: https://www.reuters.com/business/western-digital-forecasts-quarterly-revenue-above-estimates-ai-storage-demand-2026-04-30/
-random_paper: 115
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Western Digital Rate Limits
@@ -217,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/screenshots/western-digital-2026-06-20T201446.png
 security:

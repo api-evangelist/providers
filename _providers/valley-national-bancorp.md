@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Valley National Bancorp
 nav: Providers
 network: true
 overview: Valley National Bancorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Regional Bank, Commercial Banking, and Consumer Banking.
-random_paper: 58
+random_paper: 103
 score:
   band: minimal
   composite: 4.9
@@ -72,7 +72,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valley-national-bancorp/refs/heads/main/screenshots/valley-national-bancorp-2026-06-20T200804.png
 security:

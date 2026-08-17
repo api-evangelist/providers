@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,26 @@ apis:
 - description: Near Earth Object Web Service
   name: Artemis NeoWs API
   slug: artemis-neows-api
-artifact_total: 23
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NASA Open APIs (Artemis-relevant subset) APOD API
+  slug: open-artemis-apod-api
+- collection_type: open
+  name: NASA Open APIs (Artemis-relevant subset) APOD DONKI API
+  slug: open-artemis-donki-api
+- collection_type: open
+  name: NASA Open APIs (Artemis-relevant subset) APOD EPIC API
+  slug: open-artemis-epic-api
+- collection_type: open
+  name: NASA Open APIs (Artemis-relevant subset) APOD Images API
+  slug: open-artemis-images-api
+- collection_type: open
+  name: NASA Open APIs (Artemis-relevant subset) APOD NeoWs API
+  slug: open-artemis-neows-api
 - collection_type: open
   name: NASA Open APIs (Artemis-relevant subset)
   slug: open-artemis
@@ -137,7 +155,7 @@ plans:
 - name: Artemis Plans Pricing
   plan_count: 3
   slug: artemis-plans-pricing
-random_paper: 37
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Artemis Rate Limits
@@ -168,7 +186,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/screenshots/artemis-2026-06-20T172440.png
 security:

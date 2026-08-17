@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -136,14 +136,35 @@ arazzos:
 - description: Find the most severe open incident, inspect its events, and clear it.
   name: Oracle Enterprise Manager Triage and Clear Incident
   slug: oracle-enterprise-manager-triage-clear-incident-workflow
-artifact_total: 235
+artifact_total: 242
 collections:
 - collection_type: postman
   name: Oracle Enterprise Manager Cloud Control REST API
   slug: postman-oracle-enterprise-manager-cloud-control
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Enterprise Manager Cloud Control REST Blackouts API
+  slug: open-oracle-enterprise-manager-blackouts-api
+- collection_type: open
   name: Oracle Enterprise Manager Cloud Control REST API
   slug: open-oracle-enterprise-manager-cloud-control
+- collection_type: open
+  name: Oracle Enterprise Manager Cloud Control REST Blackouts Events API
+  slug: open-oracle-enterprise-manager-events-api
+- collection_type: open
+  name: Oracle Enterprise Manager Cloud Control REST Blackouts Global Target Properties API
+  slug: open-oracle-enterprise-manager-global-target-properties-api
+- collection_type: open
+  name: Oracle Enterprise Manager Cloud Control REST Blackouts Incidents API
+  slug: open-oracle-enterprise-manager-incidents-api
+- collection_type: open
+  name: Oracle Enterprise Manager Cloud Control REST Blackouts Metrics API
+  slug: open-oracle-enterprise-manager-metrics-api
+- collection_type: open
+  name: Oracle Enterprise Manager Cloud Control REST Blackouts Targets API
+  slug: open-oracle-enterprise-manager-targets-api
 common:
 - group: agent
   title: ''
@@ -887,7 +908,7 @@ plans:
 - name: Oracle Enterprise Manager Plans Pricing
   plan_count: 6
   slug: oracle-enterprise-manager-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Oracle Enterprise Manager Rate Limits
@@ -931,7 +952,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
 security:

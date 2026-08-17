@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -87,15 +87,63 @@ apis:
 - description: User management
   name: DreamFactory User API
   slug: dreamfactory-user-api
-artifact_total: 93
+artifact_total: 109
 asyncapis:
 - description: Asynchronous event model for the DreamFactory System API. DreamFactory provides a comprehensive event scripting system that fires events before and after every API call, allowing server-side scripts (
   name: DreamFactory System API Events
   slug: dreamfactory-system-api-asyncapi
 collections:
 - collection_type: open
-  name: DreamFactory System API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DreamFactory System Admin API
+  slug: open-dreamfactory-admin-api
+- collection_type: open
+  name: DreamFactory System Admin App API
+  slug: open-dreamfactory-app-api
+- collection_type: open
+  name: DreamFactory System Admin AppGroup API
+  slug: open-dreamfactory-appgroup-api
+- collection_type: open
+  name: DreamFactory System Admin CORS API
+  slug: open-dreamfactory-cors-api
+- collection_type: open
+  name: DreamFactory System Admin Custom API
+  slug: open-dreamfactory-custom-api
+- collection_type: open
+  name: DreamFactory System Admin EmailTemplate API
+  slug: open-dreamfactory-emailtemplate-api
+- collection_type: open
+  name: DreamFactory System Admin Environment API
+  slug: open-dreamfactory-environment-api
+- collection_type: open
+  name: DreamFactory System Admin Event API
+  slug: open-dreamfactory-event-api
+- collection_type: open
+  name: DreamFactory System Admin Limit API
+  slug: open-dreamfactory-limit-api
+- collection_type: open
+  name: DreamFactory System Admin Lookup API
+  slug: open-dreamfactory-lookup-api
+- collection_type: open
+  name: DreamFactory System Admin Package API
+  slug: open-dreamfactory-package-api
+- collection_type: open
+  name: DreamFactory System Admin Role API
+  slug: open-dreamfactory-role-api
+- collection_type: open
+  name: DreamFactory System Admin ScriptType API
+  slug: open-dreamfactory-scripttype-api
+- collection_type: open
+  name: DreamFactory System Admin ServiceType API
+  slug: open-dreamfactory-servicetype-api
+- collection_type: open
+  name: DreamFactory Admin System API
   slug: open-dreamfactory-system-api
+- collection_type: open
+  name: DreamFactory System Admin User API
+  slug: open-dreamfactory-user-api
 common:
 - group: agent
   title: ''
@@ -255,7 +303,7 @@ plans:
 - name: Dreamfactory Plans Pricing
   plan_count: 3
   slug: dreamfactory-plans-pricing
-random_paper: 81
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Dreamfactory Rate Limits
@@ -297,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/screenshots/dreamfactory-2026-06-20T180322.png
 security:

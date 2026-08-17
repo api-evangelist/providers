@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -302,7 +302,7 @@ arazzos:
 - description: Find a CSM contact by email and update it if it exists, otherwise create it.
   name: ServiceNow Upsert Contact
   slug: servicenow-upsert-contact-workflow
-artifact_total: 287
+artifact_total: 303
 asyncapis:
 - description: ServiceNow supports outbound event-driven integrations through business rules, event management, and outbound REST messages. When records are created, updated, or deleted in ServiceNow tables, busines
   name: ServiceNow Events and Notifications
@@ -336,26 +336,74 @@ collections:
   name: ServiceNow Trouble Ticket Open API
   slug: postman-trouble-ticket
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: ServiceNow Aggregate API
   slug: open-servicenow-aggregate-api
+- collection_type: open
+  name: ServiceNow Aggregate Statistics API
+  slug: open-servicenow-aggregate-statistics-api
 - collection_type: open
   name: ServiceNow Attachment API
   slug: open-servicenow-attachment-api
 - collection_type: open
+  name: ServiceNow Attachments API
+  slug: open-servicenow-attachments-api
+- collection_type: open
+  name: ServiceNow Cart API
+  slug: open-servicenow-cart-api
+- collection_type: open
+  name: ServiceNow Catalog Items API
+  slug: open-servicenow-catalog-items-api
+- collection_type: open
+  name: ServiceNow Catalogs API
+  slug: open-servicenow-catalogs-api
+- collection_type: open
+  name: ServiceNow Categories API
+  slug: open-servicenow-categories-api
+- collection_type: open
   name: ServiceNow Change Management API
   slug: open-servicenow-change-management-api
+- collection_type: open
+  name: ServiceNow Change Tasks API
+  slug: open-servicenow-change-tasks-api
 - collection_type: open
   name: ServiceNow CMDB Instance API
   slug: open-servicenow-cmdb-instance-api
 - collection_type: open
+  name: ServiceNow CMDB Instances API
+  slug: open-servicenow-cmdb-instances-api
+- collection_type: open
+  name: ServiceNow Contact API
+  slug: open-servicenow-contact-api
+- collection_type: open
+  name: ServiceNow Emergency Changes API
+  slug: open-servicenow-emergency-changes-api
+- collection_type: open
   name: ServiceNow Import Set API
   slug: open-servicenow-import-set-api
+- collection_type: open
+  name: ServiceNow Import Sets API
+  slug: open-servicenow-import-sets-api
+- collection_type: open
+  name: ServiceNow Normal Changes API
+  slug: open-servicenow-normal-changes-api
 - collection_type: open
   name: ServiceNow Service Catalog API
   slug: open-servicenow-service-catalog-api
 - collection_type: open
+  name: ServiceNow Standard Changes API
+  slug: open-servicenow-standard-changes-api
+- collection_type: open
   name: ServiceNow Table API
   slug: open-servicenow-table-api
+- collection_type: open
+  name: ServiceNow Table Records API
+  slug: open-servicenow-table-records-api
+- collection_type: open
+  name: ServiceNow Trouble Ticket API
+  slug: open-servicenow-trouble-ticket-api
 common:
 - group: agent
   title: ''
@@ -1354,7 +1402,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Agent-commerce surface for the TTRacing Shopify store: a hosted UCP shopping MCP endpoint plus unauthenticated read-only product/collection JSON browsing.'
@@ -80,7 +80,7 @@ name: TTRacing
 nav: Providers
 network: true
 overview: TTRacing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming Chairs, Gaming Furniture, Ecommerce, and Retail.
-random_paper: 20
+random_paper: 115
 score:
   band: emerging
   composite: 13.6
@@ -96,7 +96,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Houlihan Lokey API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Houlihan Lokey Plans Pricing
   plan_count: 1
   slug: houlihan-lokey-plans-pricing
-random_paper: 9
+random_paper: 108
 rate_limits:
 - limit_count: 1
   name: Houlihan Lokey Rate Limits
@@ -89,7 +89,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/houlihan-lokey/refs/heads/main/screenshots/houlihan-lokey-2026-06-20T182846.png
 security:

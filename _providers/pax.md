@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Live JSON API host for Pax AI (api.paxai.com). A health endpoint is publicly reachable; no public OpenAPI, reference documentation, or developer program was discoverable at enrichment time.
@@ -63,7 +63,7 @@ overview: 'Pax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pax''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 89
+random_paper: 31
 score:
   band: minimal
   composite: 8.0
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pax/refs/heads/main/screenshots/pax-2026-08-07T191617.png
 security:

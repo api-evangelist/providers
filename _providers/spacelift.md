@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,11 +45,17 @@ apis:
 - description: Spacelift GraphQL endpoint
   name: Spacelift GraphQL API
   slug: spacelift-graphql-api
-artifact_total: 18
+artifact_total: 20
 collections:
 - collection_type: postman
   name: Spacelift GraphQL API
   slug: postman-spacelift-graphql-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spacelift GraphQL API
+  slug: open-spacelift-graphql-api
 - collection_type: open
   name: Spacelift GraphQL API
   slug: open-spacelift
@@ -162,7 +168,7 @@ plans:
 - name: Spacelift Plans Pricing
   plan_count: 3
   slug: spacelift-plans-pricing
-random_paper: 115
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Spacelift Rate Limits
@@ -196,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/screenshots/spacelift-2026-06-20T194237.png
 security:

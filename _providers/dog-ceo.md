@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Operations for fetching images from a specific sub-breed
   name: Dog CEO Sub-Breed API
   slug: dog-ceo-sub-breed-api
-artifact_total: 19
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dog CEO Breed API
+  slug: open-dog-ceo-breed-api
+- collection_type: open
+  name: Dog CEO Breed Breeds API
+  slug: open-dog-ceo-breeds-api
+- collection_type: open
+  name: Dog CEO Breed Random API
+  slug: open-dog-ceo-random-api
+- collection_type: open
+  name: Dog CEO Breed Sub-Breed API
+  slug: open-dog-ceo-sub-breed-api
 common:
 - group: operate
   title: ''
@@ -162,7 +178,7 @@ plans:
 - name: Dog Ceo Plans Pricing
   plan_count: 1
   slug: dog-ceo-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Dog Ceo Rate Limits
@@ -196,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/screenshots/dog-ceo-2026-06-20T180123.png
 security:

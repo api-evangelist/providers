@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Vision API from Writer — 1 operation(s) for vision.
   name: Writer Vision API
   slug: writer-vision-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: File API API
+  slug: open-writer-file-api-api
+- collection_type: open
+  name: File API Generation API API
+  slug: open-writer-generation-api-api
+- collection_type: open
+  name: File API KG API API
+  slug: open-writer-kg-api-api
+- collection_type: open
+  name: File API template API
+  slug: open-writer-template-api
+- collection_type: open
+  name: File API Tools API API
+  slug: open-writer-tools-api-api
+- collection_type: open
+  name: File API Translation API
+  slug: open-writer-translation-api
+- collection_type: open
+  name: File API Vision API
+  slug: open-writer-vision-api
 - collection_type: open
   name: API
   slug: open-writer
@@ -134,7 +158,7 @@ plans:
 - name: Writer Plans Pricing
   plan_count: 3
   slug: writer-plans-pricing
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Writer Rate Limits
@@ -159,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/screenshots/writer-2026-06-20T201632.png
 security:

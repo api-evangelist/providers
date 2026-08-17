@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -31,7 +31,11 @@ apis:
 - description: The external surface of NAR's REALTORS M1 Gateway - the members-first engagement system that is the single source of truth for REALTOR member data across state and local associations. The published Sw
   name: REALTORS M1 Gateway External API
   slug: nar-m1-gateway-external-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: M1Gateway - External
+  slug: open-nar-m1-gateway-external
 common:
 - group: auth
   title: ''
@@ -150,7 +154,7 @@ overview: 'National Association of REALTORS publishes 1 API on the [APIs.io](htt
 
 
   National Association of REALTORS''s developer surface includes authentication, engineering blog, documentation, support, and 21 more developer resources.'
-random_paper: 81
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Nar Rate Limits
@@ -178,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/screenshots/nar-2026-08-07T184628.png
 security:

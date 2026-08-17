@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Morpheus Space is profiled on the [APIs.io](https://apis.io/) network
 
 
   Morpheus Space''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 12
+random_paper: 111
 score:
   band: minimal
   composite: 10.9
@@ -111,7 +111,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morpheus-space/refs/heads/main/screenshots/morpheus-space-2026-08-07T184310.png
 security:

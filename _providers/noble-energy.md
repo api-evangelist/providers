@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: Chevron to Buy Noble Energy for $5B
   url: https://www.cfo.com/news/chevron-to-buy-noble-energy-for-5b/656399/
-random_paper: 23
+random_paper: 31
 score:
   band: minimal
   composite: 3.5
@@ -84,7 +84,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: noble-energy
 tags:

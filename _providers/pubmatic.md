@@ -12,24 +12,28 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: true
+    rate_limit_signal: documented
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 31.1
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: 'PubMatic''s Model Context Protocol (MCP) server — the company''s public agent-facing API surface for programmatic advertising. It exposes four published tools over JSON-RPC 2.0: deal_management (create '
+  name: PubMatic MCP Server
+  slug: pubmatic-mcp-server
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -85,7 +89,7 @@ common:
   url: https://help.pubmatic.com
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/PubMatic
 - group: other
   title: ''
@@ -114,6 +118,10 @@ common:
 - group: agent
   title: ''
   type: MCPServer
+  url: mcp/pubmatic-mcp.yml
+- group: build
+  title: ''
+  type: SourceCode
   url: https://github.com/PubMatic/pubmatic-mcp-server
 - group: other
   title: ''
@@ -122,11 +130,7 @@ common:
 - group: other
   title: ''
   type: SupplyChain
-  url: https://pubmatic.com/legal/sellers-json/
-- group: other
-  title: ''
-  type: AdsTxt
-  url: https://pubmatic.com/ads.txt
+  url: https://pubmatic.com/sellers.json
 - group: company
   title: ''
   type: Investors
@@ -138,7 +142,11 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://pubmatic.com/blog/
+  url: https://pubmatic.com/resources/?type=blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://pubmatic.com/blog/feed/
 - group: company
   title: ''
   type: Careers
@@ -149,8 +157,8 @@ common:
   url: https://pubmatic.com/contact-us/
 - group: commercial
   title: ''
-  type: Privacy
-  url: https://pubmatic.com/legal/privacy-policy/
+  type: PrivacyPolicy
+  url: https://pubmatic.com/legal/privacy/
 - group: company
   title: ''
   type: Twitter
@@ -165,47 +173,119 @@ common:
   url: https://www.youtube.com/@PubMatic
 - group: docs
   title: ''
-  type: GraphQL
-  url: graphql/pubmatic-graphql.md
+  type: Documentation
+  url: https://help.pubmatic.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://pubmatic.com/legal/website-terms-of-service/
+- group: commercial
+  title: ''
+  type: DeveloperTerms
+  url: https://pubmatic.com/legal/developer-terms-use/
+- group: start
+  title: ''
+  type: Login
+  url: https://apps.pubmatic.com/login/community
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pubmatic-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pubmatic-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/pubmatic-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pubmatic-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pubmatic-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pubmatic-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pubmatic-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pubmatic-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/pubmatic-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pubmatic-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pubmatic-rate-limits.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/pubmatic-data-model.yml
 created: '2026-05-25'
 description: 'PubMatic is a Redwood City, California-headquartered independent technology company (NASDAQ: PUBM) operating a supply-side platform (SSP) that powers programmatic advertising for publishers, media buyers, commerce media, and AI agents across CTV, mobile app, online video, display, and audio. Its unified platform combines an SSP for monetization and demand access, the OpenWrap header-bidding wrapper (an open-source Prebid-based wrapper with web, iOS, Android, Flutter, and Unity SDKs), Connect for curation and audience activation, Activate for buyer-side supply-path optimization and direct-to-publisher deals, Convert for commerce/retail media, Identity Hub for identity orchestration, and AgenticOS for agent-driven campaign planning and execution. PubMatic processes trillions of bids per day across global infrastructure, and exposes its programmatic surface primarily via the OpenRTB protocol, prebid integrations, and embedded SDKs rather than a public REST developer portal — making
-  this profile a directory of PubMatic''s products, OpenWrap repos, sample apps, and supply-chain endpoints rather than a tier-1 OpenAPI-backed catalog.'
-graphqls:
-- description: PubMatic is a sell-side platform for digital advertising. Their API covers inventory management, deals and private marketplaces, audience segments, yield analytics, and programmatic direct workflows.
-  name: PubMatic GraphQL API
-  slug: pubmatic-graphql
+  this profile a directory of PubMatic''s products, OpenWrap repos, sample apps, and supply-chain endpoints rather than a tier-1 OpenAPI-backed catalog. Its one reachable agent-facing API is the PubMatic MCP Server at https://mcp.pubmatic.com/mcp, whose specifications, integration guides and packaged Agent Skills PubMatic publishes openly at github.com/PubMatic/pubmatic-mcp-server even though the endpoint itself is account-gated; the customer API reference at help.pubmatic.com sits behind an Okta/Auth0 login, and no OpenAPI, AsyncAPI, GraphQL or A2A agent card is served on any PubMatic host.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pubmatic.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: pubmatic-mcp-server
-  slug: pubmatic-mcp-server
-modified: '2026-05-25'
+  name: pubmatic-mcp.yml
+  slug: pubmatic-mcpyml
+modified: '2026-08-13'
 name: PubMatic
 nav: Providers
 network: true
-overview: 'PubMatic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, AdTech, Programmatic Advertising, Supply Side Platform, and SSP.
+overview: 'PubMatic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, AdTech, Programmatic Advertising, Supply Side Platform, and SSP.
 
 
-  PubMatic''s developer surface includes GitHub presence, engineering blog, privacy policy, YouTube channel, and 30 more developer resources.'
-random_paper: 13
+  PubMatic''s developer surface includes engineering blog, YouTube channel, documentation, authentication, changelog, and 46 more developer resources.'
+plans:
+- name: Pubmatic Plans Pricing
+  plan_count: 0
+  slug: pubmatic-plans-pricing
+random_paper: 108
+rate_limits:
+- limit_count: 0
+  name: Pubmatic Rate Limits
+  slug: pubmatic-rate-limits
 score:
-  band: emerging
-  composite: 21.6
-  delta: 0.0
+  band: thin
+  composite: 28.2
+  delta: 6.6
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 43.2
-    developer_ergonomics: 15.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 47.8
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 21.1
   previous_composite: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubmatic/refs/heads/main/screenshots/pubmatic-2026-06-20T192244.png
 security:
+- kind: authentication
+  name: Pubmatic Authentication
+  slug: pubmatic-authentication
+  summary_line: http/apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Pubmatic Domain Security
   slug: pubmatic-domain-security

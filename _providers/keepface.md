@@ -1,35 +1,50 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Self-service with a free tier
   onboarding: unknown
   pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
+  public: true
+  source:
+  - https://keepface.com/pricing
+  - https://keepface.com/ai-info
+  - https://keepface.com/signup
+  - https://help.keepface.com/brand/integrations/manage-with-claude-code/
+  trial: true
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 52.3
+  scored_at: '2026-08-17'
+api_count: 2
+apis:
+- description: The public server-side affiliate tracking API for Keepface. Brands POST sale and refund events from their own backend (or from Shopify, or from the browser JS pixel) and Keepface attributes them to th
+  name: Keepface Affiliate API v2
+  slug: affiliate
+- description: A hosted, remote Model Context Protocol server that exposes 94 actions across the Keepface brand workspace — discovery, lists, campaigns, outreach, reporting, affiliate, wallet (read-only), CRM, brand
+  name: Keepface MCP Server
+  slug: mcp
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Keepface Affiliate Webhooks
+  slug: keepface-affiliate-webhooks
 common:
 - group: company
   title: ''
@@ -67,40 +82,160 @@ common:
   title: ''
   type: DomainSecurity
   url: security/keepface-domain-security.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.keepface.com/brand/affiliate-program/api-reference/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.keepface.com/brand/getting-started/welcome/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.keepface.com
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/keepface-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/keepface-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/keepface-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/keepface-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/keepface-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/keepface-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/keepface-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/keepface-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/keepface-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://help.keepface.com/brand/affiliate-program/api-reference/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/keepface-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/keepface-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/keepface-affiliate-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/keepface-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/keepface-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/keepface-plans-pricing.yml
+- group: other
+  title: ''
+  type: CookiePolicy
+  url: https://keepface.com/cookie-policy
+- group: commercial
+  title: ''
+  type: UserAgreement
+  url: https://keepface.com/user-agreement
+- group: auth
+  title: ''
+  type: GDPR
+  url: https://keepface.com/gdpr
+- group: other
+  title: ''
+  type: Glossary
+  url: https://keepface.com/resources/glossary
+- group: docs
+  title: ''
+  type: Guides
+  url: https://keepface.com/resources/guides
 created: '2026-07-17'
 description: KeepFace is an all-in-one influencer marketing platform that helps brands, agencies, and enterprises discover, manage, and measure creator campaigns at scale. The platform spans creator discovery and CRM across 2M+ influencers in 43 countries, campaign management from brief through outreach, contract, and content approval, AI-driven brand-safety scoring and sentiment analysis of posts, real-time performance reporting (engagement rate, estimated media value, deletion-proof post archives), affiliate link tracking with pay-on-attributed-sales commissioning, and customer and employee advocacy programs. KeepFace is a portfolio company of 500 Global.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keepface.png
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: keepface-mcp.yml
+  slug: keepface-mcpyml
+modified: '2026-08-13'
 name: KeepFace
 nav: Providers
 network: true
-overview: 'KeepFace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Economy, Marketing, and Social Media.
+overview: 'KeepFace publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Economy, Marketing, and Social Media.
 
 
-  KeepFace''s developer surface includes documentation, support, pricing, signup flow, and 5 more developer resources.'
-random_paper: 100
+  The KeepFace catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  KeepFace''s developer surface includes documentation, support, pricing, signup flow, API reference, getting-started guide, authentication, and 26 more developer resources.'
+plans:
+- name: Keepface Plans Pricing
+  plan_count: 0
+  slug: keepface-plans-pricing
+random_paper: 75
+rate_limits:
+- limit_count: 6
+  name: Keepface Rate Limits
+  slug: keepface-rate-limits
+scopes:
+- name: Keepface Scopes
+  scope_count: 11
+  slug: keepface-scopes
+  summary_line: 11 scopes
 score:
-  band: emerging
-  composite: 16.5
-  delta: 0.0
+  band: developing
+  composite: 49.1
+  delta: 32.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 13.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 50.0
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 63.2
   previous_composite: 16.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/screenshots/keepface-2026-07-25T223555.png
 security:
+- kind: authentication
+  name: Keepface Authentication
+  slug: keepface-authentication
+  summary_line: hmac/bearer/origin-allowlist/none · 5 schemes
 - kind: domain-security
   name: Keepface Domain Security
   slug: keepface-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: keepface
 tags:
 - Company
@@ -111,5 +246,9 @@ tags:
 - Affiliate Marketing
 - Advocacy
 - Campaign Management
+- MCP
+- AI Agents
+- Attribution
+- Webhooks
 website: https://keepface.com
 ---

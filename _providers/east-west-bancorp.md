@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The East West Bancorp API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: East West Bancorp Plans Pricing
   plan_count: 1
   slug: east-west-bancorp-plans-pricing
-random_paper: 31
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: East West Bancorp Rate Limits
@@ -89,7 +89,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/screenshots/east-west-bancorp-2026-06-20T180412.png
 security:

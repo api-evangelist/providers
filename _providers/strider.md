@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Strider's hosted Model Context Protocol server, published at app.striderintel.com/app-api/mcp. It advertises itself by name ("Strider MCP") in an RFC 9728 protected-resource metadata document and is p
@@ -133,7 +133,7 @@ overview: 'Strider publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Strider''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 45
+random_paper: 20
 score:
   band: thin
   composite: 28.9
@@ -150,7 +150,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

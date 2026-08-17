@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Financial reporting and analytics
   name: Apptio Reports API
   slug: apptio-reports-api
-artifact_total: 15
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apptio Technology Business Management Budgets API
+  slug: open-apptio-budgets-api
+- collection_type: open
+  name: Apptio Technology Business Management Budgets Cost Allocations API
+  slug: open-apptio-cost-allocations-api
+- collection_type: open
+  name: Apptio Technology Business Management Budgets Reports API
+  slug: open-apptio-reports-api
 common:
 - group: agent
   title: ''
@@ -126,7 +139,7 @@ plans:
 - name: Apptio Plans Pricing
   plan_count: 3
   slug: apptio-plans-pricing
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Apptio Rate Limits
@@ -168,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/screenshots/apptio-2026-06-20T172335.png
 security:

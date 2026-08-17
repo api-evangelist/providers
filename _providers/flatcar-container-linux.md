@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Update API from Flatcar Container Linux — 1 operation(s) for update.
   name: Flatcar Container Linux Update API
   slug: flatcar-container-linux-update-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nebraska Activity API
+  slug: open-flatcar-container-linux-activity-api
+- collection_type: open
+  name: Nebraska Activity Apps API
+  slug: open-flatcar-container-linux-apps-api
+- collection_type: open
+  name: Nebraska Activity Channels API
+  slug: open-flatcar-container-linux-channels-api
+- collection_type: open
+  name: Nebraska Activity Config API
+  slug: open-flatcar-container-linux-config-api
+- collection_type: open
+  name: Nebraska Activity Health API
+  slug: open-flatcar-container-linux-health-api
+- collection_type: open
+  name: Nebraska Activity Instances API
+  slug: open-flatcar-container-linux-instances-api
+- collection_type: open
+  name: Nebraska Activity Login API
+  slug: open-flatcar-container-linux-login-api
+- collection_type: open
+  name: Nebraska Activity Update API
+  slug: open-flatcar-container-linux-update-api
 - collection_type: open
   name: Nebraska
   slug: open-nebraska-update-api
@@ -157,7 +184,7 @@ plans:
 - name: Flatcar Container Linux Plans Pricing
   plan_count: 3
   slug: flatcar-container-linux-plans-pricing
-random_paper: 66
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Flatcar Container Linux Rate Limits
@@ -182,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/screenshots/flatcar-container-linux-2026-06-20T181304.png
 security:

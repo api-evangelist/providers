@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 253
   human_in_the_loop: 0
@@ -209,7 +209,182 @@ apis:
 - description: The Xcm API from Polkadot — 10 operation(s) for xcm.
   name: Polkadot Xcm API
   slug: polkadot-xcm-api
-artifact_total: 63
+artifact_total: 121
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Polkadot REST Account API
+  slug: open-polkadot-account-api
+- collection_type: open
+  name: Polkadot REST Account accounts API
+  slug: open-polkadot-accounts-api
+- collection_type: open
+  name: Polkadot REST Account ahm API
+  slug: open-polkadot-ahm-api
+- collection_type: open
+  name: Polkadot REST Account Assets API
+  slug: open-polkadot-assets-api
+- collection_type: open
+  name: Polkadot REST Account Avail API
+  slug: open-polkadot-avail-api
+- collection_type: open
+  name: Polkadot REST Account Bifrost API
+  slug: open-polkadot-bifrost-api
+- collection_type: open
+  name: Polkadot REST Account Block API
+  slug: open-polkadot-block-api
+- collection_type: open
+  name: Polkadot REST Account blocks API
+  slug: open-polkadot-blocks-api
+- collection_type: open
+  name: Polkadot REST Account capabilities API
+  slug: open-polkadot-capabilities-api
+- collection_type: open
+  name: Polkadot REST Account Collator API
+  slug: open-polkadot-collator-api
+- collection_type: open
+  name: Polkadot REST Account Common API
+  slug: open-polkadot-common-api
+- collection_type: open
+  name: Polkadot REST Account Contracts API
+  slug: open-polkadot-contracts-api
+- collection_type: open
+  name: Polkadot REST Account coretime API
+  slug: open-polkadot-coretime-api
+- collection_type: open
+  name: Polkadot REST Account CrustStorage API
+  slug: open-polkadot-cruststorage-api
+- collection_type: open
+  name: Polkadot REST Account Currency API
+  slug: open-polkadot-currency-api
+- collection_type: open
+  name: Polkadot REST Account Enjin API
+  slug: open-polkadot-enjin-api
+- collection_type: open
+  name: Polkadot REST Account Event API
+  slug: open-polkadot-event-api
+- collection_type: open
+  name: Polkadot REST Account EVM API
+  slug: open-polkadot-evm-api
+- collection_type: open
+  name: Polkadot REST Account Extrinsic API
+  slug: open-polkadot-extrinsic-api
+- collection_type: open
+  name: Polkadot REST Account ForeignAssets API
+  slug: open-polkadot-foreignassets-api
+- collection_type: open
+  name: Polkadot REST Account Governance API
+  slug: open-polkadot-governance-api
+- collection_type: open
+  name: Polkadot REST Account health API
+  slug: open-polkadot-health-api
+- collection_type: open
+  name: Polkadot REST Account Log API
+  slug: open-polkadot-log-api
+- collection_type: open
+  name: Polkadot REST Account Metadata API
+  slug: open-polkadot-metadata-api
+- collection_type: open
+  name: Polkadot REST Account Midnight API
+  slug: open-polkadot-midnight-api
+- collection_type: open
+  name: Polkadot REST Account Moonbeam API
+  slug: open-polkadot-moonbeam-api
+- collection_type: open
+  name: Polkadot REST Account MultiChain API
+  slug: open-polkadot-multichain-api
+- collection_type: open
+  name: Polkadot REST Account Multisig API
+  slug: open-polkadot-multisig-api
+- collection_type: open
+  name: Polkadot REST Account NFTs API
+  slug: open-polkadot-nfts-api
+- collection_type: open
+  name: Polkadot REST Account node API
+  slug: open-polkadot-node-api
+- collection_type: open
+  name: Polkadot REST Account NominationPools API
+  slug: open-polkadot-nominationpools-api
+- collection_type: open
+  name: Polkadot REST Account pallets API
+  slug: open-polkadot-pallets-api
+- collection_type: open
+  name: Polkadot REST Account Parachain API
+  slug: open-polkadot-parachain-api
+- collection_type: open
+  name: Polkadot REST Account paras API
+  slug: open-polkadot-paras-api
+- collection_type: open
+  name: Polkadot REST Account PRO API
+  slug: open-polkadot-pro-api
+- collection_type: open
+  name: Polkadot REST Account Proxy API
+  slug: open-polkadot-proxy-api
+- collection_type: open
+  name: Polkadot REST Account rc accounts API
+  slug: open-polkadot-rc-accounts-api
+- collection_type: open
+  name: Polkadot REST Account rc API
+  slug: open-polkadot-rc-api
+- collection_type: open
+  name: Polkadot REST Account rc blocks API
+  slug: open-polkadot-rc-blocks-api
+- collection_type: open
+  name: Polkadot REST Account rc node API
+  slug: open-polkadot-rc-node-api
+- collection_type: open
+  name: Polkadot REST Account rc pallets API
+  slug: open-polkadot-rc-pallets-api
+- collection_type: open
+  name: Polkadot REST Account rc runtime API
+  slug: open-polkadot-rc-runtime-api
+- collection_type: open
+  name: Polkadot REST Account rc staking API
+  slug: open-polkadot-rc-staking-api
+- collection_type: open
+  name: Polkadot REST Account rc transaction API
+  slug: open-polkadot-rc-transaction-api
+- collection_type: open
+  name: Polkadot REST Account runtime API
+  slug: open-polkadot-runtime-api
+- collection_type: open
+  name: Polkadot REST Account Scheduler API
+  slug: open-polkadot-scheduler-api
+- collection_type: open
+  name: Polkadot REST Account Search API
+  slug: open-polkadot-search-api
+- collection_type: open
+  name: Polkadot REST Account Staking API
+  slug: open-polkadot-staking-api
+- collection_type: open
+  name: Polkadot REST Account Stat API
+  slug: open-polkadot-stat-api
+- collection_type: open
+  name: Polkadot REST Account Sxt API
+  slug: open-polkadot-sxt-api
+- collection_type: open
+  name: Polkadot REST Account Tokens API
+  slug: open-polkadot-tokens-api
+- collection_type: open
+  name: Polkadot REST Account trace API
+  slug: open-polkadot-trace-api
+- collection_type: open
+  name: Polkadot REST Account transaction API
+  slug: open-polkadot-transaction-api
+- collection_type: open
+  name: Polkadot REST Account Uniques API
+  slug: open-polkadot-uniques-api
+- collection_type: open
+  name: Polkadot REST Account version API
+  slug: open-polkadot-version-api
+- collection_type: open
+  name: Polkadot REST Account Vesting API
+  slug: open-polkadot-vesting-api
+- collection_type: open
+  name: Polkadot REST Account Xcm API
+  slug: open-polkadot-xcm-api
 common:
 - group: commercial
   title: ''
@@ -279,7 +454,7 @@ plans:
 - name: Subscan
   plan_count: 3
   slug: subscan
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 3
   name: Subscan
@@ -304,7 +479,7 @@ score:
       marker_coverage: 0.0
       total: 57
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/screenshots/polkadot-2026-06-20T192021.png
 security:

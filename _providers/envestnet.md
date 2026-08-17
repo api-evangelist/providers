@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -101,7 +101,74 @@ apis:
 - description: The View API from Envestnet — 11 operation(s) for view.
   name: Envestnet View API
   slug: envestnet-view-api
-artifact_total: 425
+artifact_total: 447
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token API
+  slug: open-envestnet-account-token-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Accounts API
+  slug: open-envestnet-accounts-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Associated Details API
+  slug: open-envestnet-associated-details-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Auth API
+  slug: open-envestnet-auth-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Configs API
+  slug: open-envestnet-configs-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Consents API
+  slug: open-envestnet-consents-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token CreditAcceleratorFile API
+  slug: open-envestnet-creditacceleratorfile-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Customer API
+  slug: open-envestnet-customer-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token DataExtracts API
+  slug: open-envestnet-dataextracts-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Derived API
+  slug: open-envestnet-derived-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Documents API
+  slug: open-envestnet-documents-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Holdings API
+  slug: open-envestnet-holdings-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Payment Processor API
+  slug: open-envestnet-payment-processor-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token ProviderAccounts API
+  slug: open-envestnet-provideraccounts-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Providers API
+  slug: open-envestnet-providers-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Statements API
+  slug: open-envestnet-statements-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Transactions API
+  slug: open-envestnet-transactions-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token User API
+  slug: open-envestnet-user-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Verification API
+  slug: open-envestnet-verification-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token Verify Account API
+  slug: open-envestnet-verify-account-api
+- collection_type: open
+  name: Envestnet Aggregation APIs Account Token View API
+  slug: open-envestnet-view-api
 common:
 - group: agent
   title: ''
@@ -1375,7 +1442,7 @@ plans:
 - name: Envestnet Plans Pricing
   plan_count: 2
   slug: envestnet-plans-pricing
-random_paper: 28
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Envestnet Rate Limits
@@ -1415,7 +1482,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/screenshots/envestnet-2026-06-20T180737.png
 security:

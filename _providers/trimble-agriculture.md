@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -72,8 +72,41 @@ apis:
 - description: The Work Orders API from Trimble Agriculture — 2 operation(s) for work orders.
   name: Trimble Agriculture Work Orders API
   slug: trimble-agriculture-work-orders-api
-artifact_total: 28
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries API
+  slug: open-trimble-agriculture-boundaries-api
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries Crop Zones API
+  slug: open-trimble-agriculture-crop-zones-api
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries Equipment Activities API
+  slug: open-trimble-agriculture-equipment-activities-api
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries Farms API
+  slug: open-trimble-agriculture-farms-api
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries Fields API
+  slug: open-trimble-agriculture-fields-api
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries Imagery API
+  slug: open-trimble-agriculture-imagery-api
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries Materials API
+  slug: open-trimble-agriculture-materials-api
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries Organizations API
+  slug: open-trimble-agriculture-organizations-api
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries Prescriptions API
+  slug: open-trimble-agriculture-prescriptions-api
+- collection_type: open
+  name: Trimble Agriculture Data Boundaries Work Orders API
+  slug: open-trimble-agriculture-work-orders-api
 - collection_type: open
   name: Trimble Agriculture Data API
   slug: open-trimble-agriculture
@@ -171,7 +204,7 @@ plans:
 - name: Trimble Agriculture Plans Pricing
   plan_count: 3
   slug: trimble-agriculture-plans-pricing
-random_paper: 67
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Trimble Agriculture Rate Limits
@@ -213,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/screenshots/trimble-agriculture-2026-06-20T195713.png
 security:

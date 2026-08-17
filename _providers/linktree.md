@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-12'
+  score: 40.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,12 +36,15 @@ agentic_access:
   operation_count: 30
   slug: linktree-agentic-access
   summary_line: 30 operations
-api_count: 1
+api_count: 2
 apis:
 - description: OAuth 2.0-protected Model Context Protocol server, speaking streamable-http, that lets agents manage Linktree profiles, links, collections, appearance, social icon links, workspaces, and analytics. Th
   name: Linktree MCP
   slug: linktree-mcp
-artifact_total: 8
+- description: Arbor is Linktree's design system, published as a public HTTP component registry. Anonymous, unauthenticated GETs return a versioned JSON manifest of 51 React components (/manifest.json, registry vers
+  name: Linktree Arbor Registry
+  slug: linktree-arbor-registry
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -103,6 +106,30 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/linktree-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/linktree-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/linktree-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/linktree-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/linktree-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/linktree-rate-limits.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/blstrco
 - group: design
   title: ''
   type: Lifecycle
@@ -184,38 +211,47 @@ common:
   type: Press
   url: https://linktr.ee/s/about/press/
 created: '2026-07-17'
-description: Linktree is the link-in-bio platform used by 70M+ creators, brands, and businesses to share everything they create, curate, and sell from a single URL. Operated by Linktree Pty Ltd from Collingwood, Victoria, Australia, the product builds a mobile-friendly landing page that aggregates social profiles, content, products, and services behind one link, with paid Starter, Pro, and Premium plans adding customization, analytics, commerce, scheduling, and AI features. Linktree publishes no general-purpose public REST API — its developer program is an expression-of-interest waitlist for forthcoming APIs and SDKs. It does, however, run a live, fully documented OAuth 2.0-protected Model Context Protocol server at mcp.linktr.ee exposing 30 tools for managing profiles, links, collections, appearance, social icons, workspaces, and analytics, discoverable from an RFC 9727 api-catalog on the apex domain.
+description: Linktree is the link-in-bio platform used by 70M+ creators, brands, and businesses to share everything they create, curate, and sell from a single URL. Operated by Linktree Pty Ltd from Collingwood, Victoria, Australia, the product builds a mobile-friendly landing page that aggregates social profiles, content, products, and services behind one link, with paid Starter, Pro, and Premium plans adding customization, analytics, commerce, scheduling, and AI features. Linktree publishes no general-purpose public REST API — its developer program is an expression-of-interest waitlist for forthcoming APIs and SDKs. It does, however, run a live, fully documented OAuth 2.0-protected Model Context Protocol server at mcp.linktr.ee exposing 30 tools for managing profiles, links, collections, appearance, social icons, workspaces, and analytics, discoverable from an RFC 9727 api-catalog on the apex domain. Alongside it Linktree operates Arbor, a public unauthenticated component registry at arbor.linktr.ee
+  serving a versioned JSON manifest of 51 React components plus a health endpoint and an llms.txt, and it ships first-party developer tooling on npm under the @linktr.ee scope — the LinkApps scaffold/build/deploy CLIs and a stdio Arbor MCP server.
 image: https://linktr.ee/_marketing/og/linktree-default.jpg
 layout: provider
 mcp_servers:
 - description: ''
   name: linktree-mcp.yml
   slug: linktree-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Linktree
 nav: Providers
 network: true
-overview: 'Linktree publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Link in Bio, Creator Economy, and Social Media.
+overview: 'Linktree publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Link in Bio, Creator Economy, and Social Media.
 
 
-  Linktree''s developer surface includes documentation, API reference, authentication, changelog, getting-started guide, support, engineering blog, and 28 more developer resources.'
-random_paper: 22
+  Linktree''s developer surface includes documentation, API reference, authentication, CLI, changelog, getting-started guide, support, and 34 more developer resources.'
+plans:
+- name: Linktree Plans Pricing
+  plan_count: 5
+  slug: linktree-plans-pricing
+random_paper: 117
+rate_limits:
+- limit_count: 0
+  name: Linktree Rate Limits
+  slug: linktree-rate-limits
 scopes:
 - name: Linktree Scopes
   scope_count: 30
   slug: linktree-scopes
   summary_line: 30 scopes · authorizationCode/clientCredentials/deviceCode
 score:
-  band: thin
-  composite: 38.7
-  delta: 0.0
+  band: developing
+  composite: 47.0
+  delta: 8.3
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 62.5
+    developer_ergonomics: 69.0
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 42.1
+    operational_transparency: 47.4
   previous_composite: 38.7
   provenance:
     agentic_access: first-party
@@ -223,8 +259,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/screenshots/linktree-2026-07-25T225257.png
 security:
 - kind: authentication
@@ -254,5 +290,7 @@ tags:
 - Analytics
 - MCP
 - Agents
+- Design System
+- Developer Tools
 website: https://linktr.ee/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -95,7 +95,68 @@ apis:
 - description: The Workspaces API from Oxen — 5 operation(s) for workspaces.
   name: Oxen Workspaces API
   slug: oxen-workspaces-api
-artifact_total: 23
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: oxen Ai API
+  slug: open-oxen-ai-api
+- collection_type: open
+  name: oxen Ai Branches API
+  slug: open-oxen-branches-api
+- collection_type: open
+  name: oxen Ai Commits API
+  slug: open-oxen-commits-api
+- collection_type: open
+  name: oxen Ai Compare API
+  slug: open-oxen-compare-api
+- collection_type: open
+  name: oxen Ai Data Frames API
+  slug: open-oxen-data-frames-api
+- collection_type: open
+  name: oxen Ai Directories API
+  slug: open-oxen-directories-api
+- collection_type: open
+  name: oxen Ai evaluations API
+  slug: open-oxen-evaluations-api
+- collection_type: open
+  name: oxen Ai Export API
+  slug: open-oxen-export-api
+- collection_type: open
+  name: oxen Ai Files API
+  slug: open-oxen-files-api
+- collection_type: open
+  name: oxen Ai fine_tunes API
+  slug: open-oxen-fine-tunes-api
+- collection_type: open
+  name: oxen Ai Health API
+  slug: open-oxen-health-api
+- collection_type: open
+  name: oxen Ai Import API
+  slug: open-oxen-import-api
+- collection_type: open
+  name: oxen Ai Merge API
+  slug: open-oxen-merge-api
+- collection_type: open
+  name: oxen Ai Metadata API
+  slug: open-oxen-metadata-api
+- collection_type: open
+  name: oxen Ai Namespaces API
+  slug: open-oxen-namespaces-api
+- collection_type: open
+  name: oxen Ai Repositories API
+  slug: open-oxen-repositories-api
+- collection_type: open
+  name: oxen Ai Version Files API
+  slug: open-oxen-version-files-api
+- collection_type: open
+  name: oxen Ai Workspace Files API
+  slug: open-oxen-workspace-files-api
+- collection_type: open
+  name: oxen Ai Workspaces API
+  slug: open-oxen-workspaces-api
 common:
 - group: other
   title: ''
@@ -233,7 +294,7 @@ overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 82
+random_paper: 144
 score:
   band: developing
   composite: 51.6
@@ -257,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/screenshots/oxen-2026-08-07T191204.png
 security:

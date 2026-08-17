@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Functional annotations and term lookup
@@ -52,7 +52,32 @@ apis:
 - description: Values/Ranks GSEA-like enrichment (requires API key)
   name: STRING Valuesranks API
   slug: string-db-valuesranks-api
-artifact_total: 20
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: STRING REST Annotation API
+  slug: open-string-db-annotation-api
+- collection_type: open
+  name: STRING REST Enrichment API
+  slug: open-string-db-enrichment-api
+- collection_type: open
+  name: STRING REST Homology API
+  slug: open-string-db-homology-api
+- collection_type: open
+  name: STRING REST Identifiers API
+  slug: open-string-db-identifiers-api
+- collection_type: open
+  name: STRING REST Network API
+  slug: open-string-db-network-api
+- collection_type: open
+  name: STRING REST Utility API
+  slug: open-string-db-utility-api
+- collection_type: open
+  name: STRING REST Valuesranks API
+  slug: open-string-db-valuesranks-api
 common:
 - group: auth
   title: ''
@@ -125,7 +150,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 66
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -164,7 +189,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png
 security:

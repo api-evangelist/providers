@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -120,11 +120,96 @@ apis:
 - description: The endpoints to manage the Wiz integration.
   name: Qwiet Ai wiz API
   slug: qwiet-ai-wiz-api
-artifact_total: 32
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Qwiet Ai Alerting Webhooks
   slug: qwiet-ai-alerting-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: alerting API
+  slug: open-qwiet-ai-alerting-api
+- collection_type: open
+  name: alerting analyze API
+  slug: open-qwiet-ai-analyze-api
+- collection_type: open
+  name: alerting app_groups API
+  slug: open-qwiet-ai-app-groups-api
+- collection_type: open
+  name: alerting app_labels API
+  slug: open-qwiet-ai-app-labels-api
+- collection_type: open
+  name: alerting apps API
+  slug: open-qwiet-ai-apps-api
+- collection_type: open
+  name: alerting autofix API
+  slug: open-qwiet-ai-autofix-api
+- collection_type: open
+  name: alerting azureboard API
+  slug: open-qwiet-ai-azureboard-api
+- collection_type: open
+  name: alerting branches API
+  slug: open-qwiet-ai-branches-api
+- collection_type: open
+  name: alerting comments API
+  slug: open-qwiet-ai-comments-api
+- collection_type: open
+  name: alerting compounds API
+  slug: open-qwiet-ai-compounds-api
+- collection_type: open
+  name: alerting findings API
+  slug: open-qwiet-ai-findings-api
+- collection_type: open
+  name: alerting org_backup API
+  slug: open-qwiet-ai-org-backup-api
+- collection_type: open
+  name: alerting orgs API
+  slug: open-qwiet-ai-orgs-api
+- collection_type: open
+  name: alerting rbac API
+  slug: open-qwiet-ai-rbac-api
+- collection_type: open
+  name: alerting reports API
+  slug: open-qwiet-ai-reports-api
+- collection_type: open
+  name: alerting SAML API
+  slug: open-qwiet-ai-saml-api
+- collection_type: open
+  name: alerting sarif API
+  slug: open-qwiet-ai-sarif-api
+- collection_type: open
+  name: alerting saved_searches API
+  slug: open-qwiet-ai-saved-searches-api
+- collection_type: open
+  name: alerting sca API
+  slug: open-qwiet-ai-sca-api
+- collection_type: open
+  name: alerting scans API
+  slug: open-qwiet-ai-scans-api
+- collection_type: open
+  name: alerting scopes API
+  slug: open-qwiet-ai-scopes-api
+- collection_type: open
+  name: alerting slack API
+  slug: open-qwiet-ai-slack-api
+- collection_type: open
+  name: alerting team_config API
+  slug: open-qwiet-ai-team-config-api
+- collection_type: open
+  name: alerting tokens API
+  slug: open-qwiet-ai-tokens-api
+- collection_type: open
+  name: alerting users API
+  slug: open-qwiet-ai-users-api
+- collection_type: open
+  name: alerting versions API
+  slug: open-qwiet-ai-versions-api
+- collection_type: open
+  name: alerting wiz API
+  slug: open-qwiet-ai-wiz-api
 common:
 - group: company
   title: ''
@@ -269,7 +354,7 @@ overview: 'Qwiet Ai publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Qwiet Ai''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 24 more developer resources.'
-random_paper: 81
+random_paper: 56
 score:
   band: strong
   composite: 56.3
@@ -293,7 +378,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

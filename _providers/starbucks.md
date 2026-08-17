@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Store location and search operations
   name: Starbucks Stores API
   slug: starbucks-stores-api
-artifact_total: 25
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Starbucks Loyalty API
+  slug: open-starbucks-loyalty-api
+- collection_type: open
+  name: Starbucks Loyalty Menu API
+  slug: open-starbucks-menu-api
+- collection_type: open
+  name: Starbucks Loyalty Orders API
+  slug: open-starbucks-orders-api
 - collection_type: open
   name: Starbucks API
   slug: open-starbucks-starbucks-api
+- collection_type: open
+  name: Starbucks Loyalty Status API
+  slug: open-starbucks-status-api
+- collection_type: open
+  name: Starbucks Loyalty Stores API
+  slug: open-starbucks-stores-api
 common:
 - group: agent
   title: ''
@@ -198,7 +216,7 @@ press:
 - date: '2026-05-25'
   title: News Blog
   url: https://about.starbucks.com/press/news-blog/
-random_paper: 18
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Starbucks Rate Limits
@@ -240,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png
 security:

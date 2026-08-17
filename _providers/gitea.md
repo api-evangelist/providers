@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -137,7 +137,7 @@ arazzos:
 - description: Create a milestone and label, open an issue under them, and apply the label.
   name: Gitea Sprint Issue Setup
   slug: gitea-sprint-issue-setup-workflow
-artifact_total: 130
+artifact_total: 140
 collections:
 - collection_type: postman
   name: Gitea API
@@ -146,8 +146,38 @@ collections:
   name: Gitea API
   slug: postman-gitea-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gitea admin API
+  slug: open-gitea-admin-api
+- collection_type: open
+  name: Gitea admin issue API
+  slug: open-gitea-issue-api
+- collection_type: open
+  name: Gitea admin miscellaneous API
+  slug: open-gitea-miscellaneous-api
+- collection_type: open
+  name: Gitea admin notification API
+  slug: open-gitea-notification-api
+- collection_type: open
+  name: Gitea admin organization API
+  slug: open-gitea-organization-api
+- collection_type: open
+  name: Gitea admin package API
+  slug: open-gitea-package-api
+- collection_type: open
+  name: Gitea admin repository API
+  slug: open-gitea-repository-api
+- collection_type: open
   name: Gitea API
   slug: open-gitea-rest-api
+- collection_type: open
+  name: Gitea admin settings API
+  slug: open-gitea-settings-api
+- collection_type: open
+  name: Gitea admin user API
+  slug: open-gitea-user-api
 common:
 - group: operate
   title: ''
@@ -719,7 +749,7 @@ plans:
 - name: Gitea Plans Pricing
   plan_count: 3
   slug: gitea-plans-pricing
-random_paper: 42
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Gitea Rate Limits
@@ -768,7 +798,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/screenshots/gitea-2026-06-20T181832.png
 security:

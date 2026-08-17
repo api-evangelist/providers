@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: Get list of entities
   name: Ion Group Entities API
   slug: ion-group-entities-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ion Group Acuris Entities API
+  slug: open-ion-group-entities-api
 - collection_type: open
   name: Ion Group Acuris Entities API
   slug: open-ion-group
@@ -99,7 +105,7 @@ plans:
 - name: Ion Group Plans Pricing
   plan_count: 3
   slug: ion-group-plans-pricing
-random_paper: 88
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Ion Group Rate Limits
@@ -130,7 +136,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/screenshots/ion-group-2026-06-20T183527.png
 security:

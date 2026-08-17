@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -98,11 +98,44 @@ arazzos:
 - description: Discover an action on an app, resolve its input fields, run it, and poll for the result.
   name: Zapier Run an AI Action
   slug: zapier-run-ai-action-workflow
-artifact_total: 377
+artifact_total: 388
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Partner Accounts API
+  slug: open-zapier-accounts-api
+- collection_type: open
+  name: Partner Accounts Actions API
+  slug: open-zapier-actions-api
+- collection_type: open
+  name: Partner Accounts Apps API
+  slug: open-zapier-apps-api
+- collection_type: open
+  name: Partner Accounts Authentications API
+  slug: open-zapier-authentications-api
+- collection_type: open
+  name: Partner Accounts Categories API
+  slug: open-zapier-categories-api
+- collection_type: open
+  name: Partner Accounts Experimental API
+  slug: open-zapier-experimental-api
+- collection_type: open
+  name: Partner Accounts Inputs API
+  slug: open-zapier-inputs-api
+- collection_type: open
+  name: Partner Accounts Outputs API
+  slug: open-zapier-outputs-api
 - collection_type: open
   name: Partner API
   slug: open-zapier-partner-api
+- collection_type: open
+  name: Partner Accounts Zap Templates API
+  slug: open-zapier-zap-templates-api
+- collection_type: open
+  name: Partner Accounts Zaps API
+  slug: open-zapier-zaps-api
 common:
 - group: agent
   title: ''
@@ -1356,7 +1389,7 @@ plans:
 - name: Zapier Plans Pricing
   plan_count: 4
   slug: zapier-plans-pricing
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Zapier Rate Limits
@@ -1405,7 +1438,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/screenshots/zapier-2026-06-20T201801.png
 security:

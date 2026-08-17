@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -110,10 +110,11 @@ plans:
 - name: Carrd Plans Pricing
   plan_count: 17
   slug: carrd-plans-pricing
-random_paper: 44
+random_paper: 77
 score:
   band: emerging
   composite: 27.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -121,8 +122,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
+  previous_composite: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Carrd Domain Security

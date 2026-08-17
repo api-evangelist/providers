@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Jakarta JSON Processing specification (formerly JSR 374) for parsing, generating, transforming, and querying JSON messages in Java applications. Provides an object model API and a streaming API fo
@@ -76,7 +76,7 @@ plans:
 - name: Json Processing Plans Pricing
   plan_count: 3
   slug: json-processing-plans-pricing
-random_paper: 12
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Json Processing Rate Limits
@@ -94,7 +94,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/json-processing/refs/heads/main/screenshots/json-processing-2026-06-20T183816.png
 security:

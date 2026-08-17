@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -117,24 +117,102 @@ apis:
 - description: Manage Spotfire users
   name: TIBCO Users API
   slug: tibco-users-api
-artifact_total: 48
+artifact_total: 74
 asyncapis:
 - description: Enterprise messaging API supporting TIBCO Enterprise Message Service (EMS) and FTL (TIBCO FTL) for reliable, high-performance messaging. Supports JMS-compatible publish-subscribe and point-to-point me
   name: TIBCO Messaging API
   slug: tibco-messaging-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TIBCO BusinessEvents Agents API
+  slug: open-tibco-agents-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Analyses API
+  slug: open-tibco-analyses-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Applications API
+  slug: open-tibco-applications-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Apps API
+  slug: open-tibco-apps-api
+- collection_type: open
   name: TIBCO BusinessEvents API
   slug: open-tibco-businessevents
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Channels API
+  slug: open-tibco-channels-api
 - collection_type: open
   name: TIBCO Cloud Integration API
   slug: open-tibco-cloud-integration
 - collection_type: open
+  name: TIBCO BusinessEvents Agents Connections API
+  slug: open-tibco-connections-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Data Sources API
+  slug: open-tibco-data-sources-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Decision Tables API
+  slug: open-tibco-decision-tables-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Deployments API
+  slug: open-tibco-deployments-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Endpoints API
+  slug: open-tibco-endpoints-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Environments API
+  slug: open-tibco-environments-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Events API
+  slug: open-tibco-events-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Flows API
+  slug: open-tibco-flows-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Groups API
+  slug: open-tibco-groups-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Library API
+  slug: open-tibco-library-api
+- collection_type: open
   name: TIBCO Mashery API Management
   slug: open-tibco-mashery
 - collection_type: open
+  name: TIBCO BusinessEvents Agents Members API
+  slug: open-tibco-members-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Nodes API
+  slug: open-tibco-nodes-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Packages API
+  slug: open-tibco-packages-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Plans API
+  slug: open-tibco-plans-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Reports API
+  slug: open-tibco-reports-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Rest API
+  slug: open-tibco-rest-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Rules API
+  slug: open-tibco-rules-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Scheduled Updates API
+  slug: open-tibco-scheduled-updates-api
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Scorecards API
+  slug: open-tibco-scorecards-api
+- collection_type: open
   name: TIBCO Spotfire Analytics API
   slug: open-tibco-spotfire
+- collection_type: open
+  name: TIBCO BusinessEvents Agents Users API
+  slug: open-tibco-users-api
 common:
 - group: agent
   title: ''
@@ -265,7 +343,7 @@ plans:
 - name: Tibco Plans Pricing
   plan_count: 1
   slug: tibco-plans-pricing
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Tibco Rate Limits
@@ -320,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/screenshots/tibco-2026-06-20T195332.png
 security:

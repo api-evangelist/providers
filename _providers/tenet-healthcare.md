@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,11 +63,32 @@ apis:
 - description: Patient demographic and administrative information (FHIR Patient resource)
   name: Tenet Healthcare Patients API
   slug: tenet-healthcare-patients-api
-artifact_total: 24
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tenet Healthcare FHIR R4 Patient Appointments API
+  slug: open-tenet-healthcare-appointments-api
+- collection_type: open
+  name: Tenet Healthcare FHIR R4 Patient Appointments Conditions API
+  slug: open-tenet-healthcare-conditions-api
+- collection_type: open
+  name: Tenet Healthcare FHIR R4 Patient Appointments Documents API
+  slug: open-tenet-healthcare-documents-api
 - collection_type: open
   name: Tenet Healthcare FHIR R4 Patient API
   slug: open-tenet-healthcare-fhir
+- collection_type: open
+  name: Tenet Healthcare FHIR R4 Patient Appointments Medications API
+  slug: open-tenet-healthcare-medications-api
+- collection_type: open
+  name: Tenet Healthcare FHIR R4 Patient Appointments Observations API
+  slug: open-tenet-healthcare-observations-api
+- collection_type: open
+  name: Tenet Healthcare FHIR R4 Patient Appointments Patients API
+  slug: open-tenet-healthcare-patients-api
 common:
 - group: agent
   title: ''
@@ -203,7 +224,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Tenet Healthcare
   url: https://emerj.com/artificial-intelligence-at-tenet-healthcare/
-random_paper: 70
+random_paper: 140
 rate_limits:
 - limit_count: 1
   name: Tenet Healthcare Rate Limits
@@ -256,7 +277,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/screenshots/tenet-healthcare-2026-06-20T195114.png
 security:

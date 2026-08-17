@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The System API from TigerGraph — 4 operation(s) for system.
   name: TigerGraph System API
   slug: tigergraph-system-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TigerGraph REST++ Authentication API
+  slug: open-tigergraph-authentication-api
+- collection_type: open
+  name: TigerGraph REST++ Authentication Data API
+  slug: open-tigergraph-data-api
+- collection_type: open
+  name: TigerGraph REST++ Authentication Query API
+  slug: open-tigergraph-query-api
+- collection_type: open
+  name: TigerGraph REST++ Authentication Schema API
+  slug: open-tigergraph-schema-api
+- collection_type: open
+  name: TigerGraph REST++ Authentication System API
+  slug: open-tigergraph-system-api
 - collection_type: open
   name: TigerGraph REST++ API
   slug: open-tigergraph
@@ -128,7 +146,7 @@ plans:
 - name: Tigergraph Plans Pricing
   plan_count: 3
   slug: tigergraph-plans-pricing
-random_paper: 109
+random_paper: 26
 rate_limits:
 - limit_count: 4
   name: Tigergraph Rate Limits
@@ -153,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/screenshots/tigergraph-2026-06-20T195352.png
 security:

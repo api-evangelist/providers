@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API to copy, move, pull, share, and list files across connected storage providers (Amazon S3, Google Drive, Dropbox, Box and more) using the DART acceleration protocol. Bearer API-key auth over h
@@ -128,7 +128,7 @@ overview: 'Byteport publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Byteport''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 13 more developer resources.'
-random_paper: 49
+random_paper: 144
 score:
   band: emerging
   composite: 25.9
@@ -145,7 +145,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/byteport/refs/heads/main/screenshots/byteport-2026-07-25T204142.png
 security:

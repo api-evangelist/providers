@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,11 +54,23 @@ apis:
 - description: Manage deployed GraphQL API endpoints
   name: StepZen Endpoints API
   slug: stepzen-endpoints-api
-artifact_total: 19
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: StepZen Admin Account API
+  slug: open-stepzen-account-api
 - collection_type: open
   name: StepZen Admin API
   slug: open-stepzen-admin
+- collection_type: open
+  name: StepZen Admin Account API Keys API
+  slug: open-stepzen-api-keys-api
+- collection_type: open
+  name: StepZen Admin Account Endpoints API
+  slug: open-stepzen-endpoints-api
 common:
 - group: agent
   title: ''
@@ -144,7 +156,7 @@ plans:
 - name: Stepzen Plans Pricing
   plan_count: 3
   slug: stepzen-plans-pricing
-random_paper: 57
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Stepzen Rate Limits
@@ -186,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

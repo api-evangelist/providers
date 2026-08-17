@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: The AWS CodeBuild API API from AWS CodeBuild — 1 operation(s) for aws codebuild api.
   name: AWS CodeBuild AWS CodeBuild API API
   slug: aws-codebuild-aws-codebuild-api-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS CodeBuild AWS CodeBuild API API
+  slug: open-aws-codebuild-aws-codebuild-api-api
 - collection_type: open
   name: AWS CodeBuild API
   slug: open-aws-codebuild
@@ -123,7 +129,7 @@ overview: 'AWS CodeBuild publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   AWS CodeBuild''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, and 10 more developer resources.'
-random_paper: 115
+random_paper: 123
 score:
   band: thin
   composite: 36.9
@@ -144,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/screenshots/aws-codebuild-2026-06-20T172754.png
 security:

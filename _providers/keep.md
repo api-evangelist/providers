@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 5
@@ -119,8 +119,92 @@ apis:
 - description: The workflows API from Keep — 11 operation(s) for workflows.
   name: Keep workflows API
   slug: keep-workflows-api
-artifact_total: 32
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Keep actions API
+  slug: open-keep-actions-api
+- collection_type: open
+  name: Keep actions alerts API
+  slug: open-keep-alerts-api
+- collection_type: open
+  name: Keep actions auth API
+  slug: open-keep-auth-api
+- collection_type: open
+  name: Keep actions dashboard API
+  slug: open-keep-dashboard-api
+- collection_type: open
+  name: Keep actions deduplications API
+  slug: open-keep-deduplications-api
+- collection_type: open
+  name: Keep actions enrichment API
+  slug: open-keep-enrichment-api
+- collection_type: open
+  name: Keep actions extraction API
+  slug: open-keep-extraction-api
+- collection_type: open
+  name: Keep actions groups API
+  slug: open-keep-groups-api
+- collection_type: open
+  name: Keep actions healthcheck API
+  slug: open-keep-healthcheck-api
+- collection_type: open
+  name: Keep actions incidents API
+  slug: open-keep-incidents-api
+- collection_type: open
+  name: Keep actions Keep API API
+  slug: open-keep-keep-api-api
+- collection_type: open
+  name: Keep actions maintenance API
+  slug: open-keep-maintenance-api
+- collection_type: open
+  name: Keep actions mapping API
+  slug: open-keep-mapping-api
+- collection_type: open
+  name: Keep actions metrics API
+  slug: open-keep-metrics-api
+- collection_type: open
+  name: Keep actions permissions API
+  slug: open-keep-permissions-api
+- collection_type: open
+  name: Keep actions preset API
+  slug: open-keep-preset-api
+- collection_type: open
+  name: Keep actions providers API
+  slug: open-keep-providers-api
+- collection_type: open
+  name: Keep actions pusher API
+  slug: open-keep-pusher-api
+- collection_type: open
+  name: Keep actions roles API
+  slug: open-keep-roles-api
+- collection_type: open
+  name: Keep actions rules API
+  slug: open-keep-rules-api
+- collection_type: open
+  name: Keep actions settings API
+  slug: open-keep-settings-api
+- collection_type: open
+  name: Keep actions status API
+  slug: open-keep-status-api
+- collection_type: open
+  name: Keep actions tags API
+  slug: open-keep-tags-api
+- collection_type: open
+  name: Keep actions topology API
+  slug: open-keep-topology-api
+- collection_type: open
+  name: Keep actions users API
+  slug: open-keep-users-api
+- collection_type: open
+  name: Keep actions whoami API
+  slug: open-keep-whoami-api
+- collection_type: open
+  name: Keep actions workflows API
+  slug: open-keep-workflows-api
 - collection_type: open
   name: Keep API
   slug: open-keep
@@ -201,7 +285,7 @@ overview: 'Keep publishes 27 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Keep''s developer surface includes authentication, documentation, signup flow, engineering blog, and 12 more developer resources.'
-random_paper: 61
+random_paper: 123
 scopes:
 - name: Keep Scopes
   scope_count: 0
@@ -227,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/screenshots/keep-2026-06-20T183935.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -90,8 +90,35 @@ apis:
 - description: The VerifiedModels API from DataDome — 1 operation(s) for verifiedmodels.
   name: DataDome VerifiedModels API
   slug: datadome-verifiedmodels-api
-artifact_total: 24
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DataDome Management Account API
+  slug: open-datadome-account-api
+- collection_type: open
+  name: DataDome Management Account AccountProtect API
+  slug: open-datadome-accountprotect-api
+- collection_type: open
+  name: DataDome Management Account CustomRules API
+  slug: open-datadome-customrules-api
+- collection_type: open
+  name: DataDome Management Account Endpoints API
+  slug: open-datadome-endpoints-api
+- collection_type: open
+  name: DataDome Management Account Priorities API
+  slug: open-datadome-priorities-api
+- collection_type: open
+  name: DataDome Management Account Templates API
+  slug: open-datadome-templates-api
+- collection_type: open
+  name: DataDome Management Account TrustedProxies API
+  slug: open-datadome-trustedproxies-api
+- collection_type: open
+  name: DataDome Management Account VerifiedModels API
+  slug: open-datadome-verifiedmodels-api
 - collection_type: open
   name: DataDome Management API
   slug: open-datadome
@@ -172,7 +199,7 @@ plans:
 - name: Datadome Plans Pricing
   plan_count: 1
   slug: datadome-plans-pricing
-random_paper: 111
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Datadome Rate Limits
@@ -197,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/screenshots/datadome-2026-06-20T175642.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 248
   human_in_the_loop: 0
@@ -231,11 +231,207 @@ apis:
 - description: The workorder API from Erply — 14 operation(s) for workorder.
   name: Erply workorder API
   slug: erply-workorder-api
-artifact_total: 70
+artifact_total: 135
 asyncapis:
 - description: ''
   name: Erply Webhooks
   slug: erply-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: assignments Assortment API
+  slug: open-erply-assortment-api
+- collection_type: open
+  name: assignments Assortment Assortment To Product Linking API
+  slug: open-erply-assortment-to-product-linking-api
+- collection_type: open
+  name: assignments Assortment Attributes API
+  slug: open-erply-attributes-api
+- collection_type: open
+  name: assignments Assortment auth API
+  slug: open-erply-auth-api
+- collection_type: open
+  name: assignments Assortment Brand API
+  slug: open-erply-brand-api
+- collection_type: open
+  name: assignments Assortment clsf API
+  slug: open-erply-clsf-api
+- collection_type: open
+  name: assignments Assortment clsf-device-properties API
+  slug: open-erply-clsf-device-properties-api
+- collection_type: open
+  name: assignments Assortment clsf-events API
+  slug: open-erply-clsf-events-api
+- collection_type: open
+  name: assignments Assortment clsf-labels API
+  slug: open-erply-clsf-labels-api
+- collection_type: open
+  name: assignments Assortment Country API
+  slug: open-erply-country-api
+- collection_type: open
+  name: assignments Assortment device API
+  slug: open-erply-device-api
+- collection_type: open
+  name: assignments Assortment event API
+  slug: open-erply-event-api
+- collection_type: open
+  name: assignments Assortment Export API
+  slug: open-erply-export-api
+- collection_type: open
+  name: assignments Assortment External IDs API
+  slug: open-erply-external-ids-api
+- collection_type: open
+  name: assignments Assortment form API
+  slug: open-erply-form-api
+- collection_type: open
+  name: assignments Assortment Franchise Products API
+  slug: open-erply-franchise-products-api
+- collection_type: open
+  name: assignments Assortment Import & Export API
+  slug: open-erply-import-export-api
+- collection_type: open
+  name: assignments Assortment item API
+  slug: open-erply-item-api
+- collection_type: open
+  name: assignments Assortment label API
+  slug: open-erply-label-api
+- collection_type: open
+  name: assignments Assortment Linked Products API
+  slug: open-erply-linked-products-api
+- collection_type: open
+  name: assignments Assortment Locations in warehouse API
+  slug: open-erply-locations-in-warehouse-api
+- collection_type: open
+  name: assignments Assortment Matrix Dimension API
+  slug: open-erply-matrix-dimension-api
+- collection_type: open
+  name: assignments Assortment Matrix Dimension Value API
+  slug: open-erply-matrix-dimension-value-api
+- collection_type: open
+  name: assignments Assortment Matrix Product API
+  slug: open-erply-matrix-product-api
+- collection_type: open
+  name: assignments Assortment Matrix Product Variation API
+  slug: open-erply-matrix-product-variation-api
+- collection_type: open
+  name: assignments Assortment note API
+  slug: open-erply-note-api
+- collection_type: open
+  name: assignments Assortment Parameter Set to Group Linking API
+  slug: open-erply-parameter-set-to-group-linking-api
+- collection_type: open
+  name: assignments Assortment Parameter Set To Product Linking API
+  slug: open-erply-parameter-set-to-product-linking-api
+- collection_type: open
+  name: assignments Assortment Permissions API
+  slug: open-erply-permissions-api
+- collection_type: open
+  name: assignments Assortment printout API
+  slug: open-erply-printout-api
+- collection_type: open
+  name: assignments Assortment Product Category API
+  slug: open-erply-product-category-api
+- collection_type: open
+  name: assignments Assortment Product Extra Field 1 API
+  slug: open-erply-product-extra-field-1-api
+- collection_type: open
+  name: assignments Assortment Product Extra Field 2 API
+  slug: open-erply-product-extra-field-2-api
+- collection_type: open
+  name: assignments Assortment Product Extra Field 3 API
+  slug: open-erply-product-extra-field-3-api
+- collection_type: open
+  name: assignments Assortment Product Extra Field 4 API
+  slug: open-erply-product-extra-field-4-api
+- collection_type: open
+  name: assignments Assortment Product Family API
+  slug: open-erply-product-family-api
+- collection_type: open
+  name: assignments Assortment Product Fields API
+  slug: open-erply-product-fields-api
+- collection_type: open
+  name: assignments Assortment Product Group API
+  slug: open-erply-product-group-api
+- collection_type: open
+  name: assignments Assortment Product Package API
+  slug: open-erply-product-package-api
+- collection_type: open
+  name: assignments Assortment Product Parameter API
+  slug: open-erply-product-parameter-api
+- collection_type: open
+  name: assignments Assortment Product Parameter Option API
+  slug: open-erply-product-parameter-option-api
+- collection_type: open
+  name: assignments Assortment Product Parameter Set API
+  slug: open-erply-product-parameter-set-api
+- collection_type: open
+  name: assignments Assortment Product Parameter Validation Rule API
+  slug: open-erply-product-parameter-validation-rule-api
+- collection_type: open
+  name: assignments Assortment Product Parameter Value API
+  slug: open-erply-product-parameter-value-api
+- collection_type: open
+  name: assignments Assortment Product Priority Groups API
+  slug: open-erply-product-priority-groups-api
+- collection_type: open
+  name: assignments Assortment Product Recipes API
+  slug: open-erply-product-recipes-api
+- collection_type: open
+  name: assignments Assortment Product Replacement API
+  slug: open-erply-product-replacement-api
+- collection_type: open
+  name: assignments Assortment Product Units API
+  slug: open-erply-product-units-api
+- collection_type: open
+  name: assignments Assortment Products API
+  slug: open-erply-products-api
+- collection_type: open
+  name: assignments Assortment report API
+  slug: open-erply-report-api
+- collection_type: open
+  name: assignments Assortment resource API
+  slug: open-erply-resource-api
+- collection_type: open
+  name: assignments Assortment row API
+  slug: open-erply-row-api
+- collection_type: open
+  name: assignments Assortment Special Endpoints API
+  slug: open-erply-special-endpoints-api
+- collection_type: open
+  name: assignments Assortment Supplier API
+  slug: open-erply-supplier-api
+- collection_type: open
+  name: assignments Assortment sync API
+  slug: open-erply-sync-api
+- collection_type: open
+  name: assignments Assortment task API
+  slug: open-erply-task-api
+- collection_type: open
+  name: assignments Assortment Tasks API
+  slug: open-erply-tasks-api
+- collection_type: open
+  name: assignments Assortment template API
+  slug: open-erply-template-api
+- collection_type: open
+  name: assignments Assortment v1 API
+  slug: open-erply-v1-api
+- collection_type: open
+  name: assignments Assortment v3 API
+  slug: open-erply-v3-api
+- collection_type: open
+  name: assignments Assortment Warehouse Locations API
+  slug: open-erply-warehouse-locations-api
+- collection_type: open
+  name: assignments Assortment webhook API
+  slug: open-erply-webhook-api
+- collection_type: open
+  name: assignments Assortment webhook-configuration API
+  slug: open-erply-webhook-configuration-api
+- collection_type: open
+  name: assignments Assortment workorder API
+  slug: open-erply-workorder-api
 common:
 - group: other
   title: ''
@@ -384,7 +580,7 @@ overview: 'Erply publishes 64 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Erply''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 76
+random_paper: 109
 rate_limits:
 - limit_count: 1
   name: Erply Rate Limits
@@ -412,7 +608,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/screenshots/erply-2026-07-25T213611.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,11 +47,24 @@ apis:
 - description: Transcript related operations
   name: AssemblyAI Transcript API
   slug: assemblyai-transcript-api
-artifact_total: 27
+artifact_total: 31
 asyncapis:
 - description: AsyncAPI specification for the AssemblyAI Universal Streaming Speech-to-Text WebSocket API (v3). Clients open a WebSocket to `wss://streaming.assemblyai.com/v3/ws`, send raw binary PCM audio frames, a
   name: AssemblyAI Universal Streaming Speech-to-Text API
   slug: assemblyai-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AssemblyAI LeMUR API
+  slug: open-assemblyai-lemur-api
+- collection_type: open
+  name: AssemblyAI LeMUR Streaming API
+  slug: open-assemblyai-streaming-api
+- collection_type: open
+  name: AssemblyAI LeMUR Transcript API
+  slug: open-assemblyai-transcript-api
 common:
 - group: agent
   title: ''
@@ -152,7 +165,7 @@ plans:
 - name: Assemblyai Plans Pricing
   plan_count: 3
   slug: assemblyai-plans-pricing
-random_paper: 106
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Assemblyai Rate Limits
@@ -186,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/screenshots/assemblyai-2026-06-20T172502.png
 security:

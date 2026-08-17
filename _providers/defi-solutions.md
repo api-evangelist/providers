@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'defi SOLUTIONS is profiled on the [APIs.io](https://apis.io/) network
 
 
   defi SOLUTIONS''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 21
+random_paper: 120
 score:
   band: emerging
   composite: 13.1
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defi-solutions/refs/heads/main/screenshots/defi-solutions-2026-07-25T211620.png
 security:

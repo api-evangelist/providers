@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: OpenAI-compatible endpoints. Use with the OpenAI SDK by setting base_url=https://api.pioneer.ai/v1.
   name: Fastino Labs openai-compat API
   slug: fastino-labs-openai-compat-api
-artifact_total: 11
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pioneer Inference anthropic-compat API
+  slug: open-fastino-labs-anthropic-compat-api
+- collection_type: open
+  name: Pioneer anthropic-compat inference API
+  slug: open-fastino-labs-inference-api
+- collection_type: open
+  name: Pioneer Inference anthropic-compat inference-history API
+  slug: open-fastino-labs-inference-history-api
+- collection_type: open
+  name: Pioneer Inference anthropic-compat openai-compat API
+  slug: open-fastino-labs-openai-compat-api
 common:
 - group: other
   title: ''
@@ -201,7 +217,7 @@ overview: 'Fastino Labs publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Fastino Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 19
+random_paper: 27
 rate_limits:
 - limit_count: 7
   name: Fastino Labs Rate Limits
@@ -234,7 +250,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/screenshots/fastino-labs-2026-07-25T214244.png
 security:

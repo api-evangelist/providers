@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -37,11 +37,18 @@ apis:
 - description: Halo Connect's FHIR API for accessing primary-care data from on-premise practice management systems, based on FHIR Release 4 (R4) version 4.0.1 and built toward the AU Base 4.1.0 implementation guide.
   name: Halo Cloud FHIR API
   slug: halo-cloud-fhir-api
-artifact_total: 10
+artifact_total: 12
 asyncapis:
 - description: Halo Cloud delivers HTTPS POST webhook notifications when an async or a registered query completes. The payload does NOT include the query result; the integrator retrieves results via the REST API usi
   name: Halo Connect Webhooks
   slug: halo-connect-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: Halo Cloud API for Desktop Applications
+  slug: open-halo-connect-desktop
+- collection_type: open
+  name: Halo Cloud API for Integrators
+  slug: open-halo-connect-integrator
 common:
 - group: agent
   title: ''
@@ -194,7 +201,7 @@ overview: 'Halo Connect publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Halo Connect''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, sandbox, and 26 more developer resources.'
-random_paper: 11
+random_paper: 19
 score:
   band: developing
   composite: 54.9
@@ -224,7 +231,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/screenshots/halo-connect-2026-07-25T220547.png
 security:

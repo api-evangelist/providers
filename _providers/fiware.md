@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -83,14 +83,62 @@ apis:
 - description: The Types API from FIWARE — 2 operation(s) for types.
   name: FIWARE Types API
   slug: fiware-types-api
-artifact_total: 22
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point API
+  slug: open-fiware-api-entry-point-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Attribute Value API
+  slug: open-fiware-attribute-value-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Attributes API
+  slug: open-fiware-attributes-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Batch Operations API
+  slug: open-fiware-batch-operations-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Context Information API
+  slug: open-fiware-context-information-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Context Sources API
+  slug: open-fiware-context-sources-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Context Subscription API
+  slug: open-fiware-context-subscription-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point CSourceRegistrations API
+  slug: open-fiware-csourceregistrations-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point CSourceSubscriptions API
+  slug: open-fiware-csourcesubscriptions-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Entities API
+  slug: open-fiware-entities-api
 - collection_type: open
   name: ETSI ISG CIM / NGSI-LD API
   slug: open-fiware-ngsi-ld
 - collection_type: open
   name: FIWARE-NGSI v2 Specification
   slug: open-fiware-ngsiv2
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Registrations API
+  slug: open-fiware-registrations-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Subscriptions API
+  slug: open-fiware-subscriptions-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Temporal API
+  slug: open-fiware-temporal-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Temporal Evolution API
+  slug: open-fiware-temporal-evolution-api
+- collection_type: open
+  name: ETSI ISG CIM / NGSI-LD API Entry Point Types API
+  slug: open-fiware-types-api
 common:
 - group: agent
   title: ''
@@ -144,7 +192,7 @@ plans:
 - name: Fiware Plans Pricing
   plan_count: 3
   slug: fiware-plans-pricing
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Fiware Rate Limits
@@ -169,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/screenshots/fiware-2026-06-20T181304.png
 security:

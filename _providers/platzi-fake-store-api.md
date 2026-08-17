@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Users API from Platzi Fake Store API — 3 operation(s) for users.
   name: Platzi Fake Store API Users API
   slug: platzi-fake-store-api-users-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Platzi Fake Store Auth API
+  slug: open-platzi-fake-store-api-auth-api
+- collection_type: open
+  name: Platzi Fake Store Auth Categories API
+  slug: open-platzi-fake-store-api-categories-api
+- collection_type: open
+  name: Platzi Fake Store Auth Files API
+  slug: open-platzi-fake-store-api-files-api
+- collection_type: open
+  name: Platzi Fake Store Auth Products API
+  slug: open-platzi-fake-store-api-products-api
+- collection_type: open
+  name: Platzi Fake Store Auth Users API
+  slug: open-platzi-fake-store-api-users-api
 - collection_type: open
   name: Platzi Fake Store API
   slug: open-platzi-fake-store-api
@@ -108,7 +126,7 @@ plans:
 - name: Platzi Fake Store Api Plans Pricing
   plan_count: 3
   slug: platzi-fake-store-api-plans-pricing
-random_paper: 33
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Platzi Fake Store Api Rate Limits
@@ -133,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/screenshots/platzi-fake-store-api-2026-06-20T191758.png
 security:

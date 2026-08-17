@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,26 @@ apis:
 - description: Search and discovery across LUX scopes
   name: Yale University Search API
   slug: yale-search-api
-artifact_total: 24
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LUX Yale Collections Discovery Configuration API
+  slug: open-yale-configuration-api
+- collection_type: open
+  name: LUX Yale Collections Discovery Configuration Documents API
+  slug: open-yale-documents-api
+- collection_type: open
+  name: LUX Yale Collections Discovery Configuration Facets API
+  slug: open-yale-facets-api
+- collection_type: open
+  name: LUX Yale Collections Discovery Configuration Related API
+  slug: open-yale-related-api
+- collection_type: open
+  name: LUX Yale Collections Discovery Configuration Search API
+  slug: open-yale-search-api
 common:
 - group: agent
   title: ''
@@ -167,7 +186,7 @@ plans:
 - name: Yale Plans Pricing
   plan_count: 2
   slug: yale-plans-pricing
-random_paper: 67
+random_paper: 129
 rate_limits:
 - limit_count: 1
   name: Yale Rate Limits
@@ -209,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/screenshots/yale-2026-06-20T201720.png
 security:

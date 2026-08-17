@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -149,7 +149,7 @@ overview: 'Battery Smart is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Battery Smart''s developer surface includes support, engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 39
+random_paper: 18
 score:
   band: minimal
   composite: 12.4
@@ -169,7 +169,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/battery-smart/refs/heads/main/screenshots/battery-smart-2026-08-07T162208.png
 security:

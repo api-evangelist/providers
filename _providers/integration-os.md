@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: One is the current successor brand to IntegrationOS and Pica. It provides agent infrastructure with a unified CLI for 250+ platforms and 50,000+ tools, managed OAuth (AuthKit), multi-step Flows, memor
@@ -105,7 +105,7 @@ plans:
 - name: Integration Os Plans Pricing
   plan_count: 3
   slug: integration-os-plans-pricing
-random_paper: 19
+random_paper: 118
 rate_limits:
 - limit_count: 5
   name: Integration Os Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 19.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-os/refs/heads/main/screenshots/integration-os-2026-06-20T183438.png
 security:

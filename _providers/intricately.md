@@ -28,13 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Cloud Dynamics API (formerly the Intricately API) provides access to cloud adoption, usage, and spend data on companies, products, applications, and domains. Requests authenticate with an X-API-KE
   name: Cloud Dynamics API (Intricately)
   slug: cloud-dynamics-api-intricately
-artifact_total: 5
+artifact_total: 7
 common:
 - group: start
   title: ''
@@ -55,11 +55,23 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://help.intricately.com/hc/en-us/articles/4416133622285-Request-an-API-Key
+  url: https://help.intricately.com/articles/5366497774-request-an-api-key
 - group: start
   title: ''
   type: SignUp
   url: https://content.intricately.com/demo
+- group: start
+  title: ''
+  type: Login
+  url: https://my.intricately.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://hginsights.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://hginsights.com/privacy-policy/
 - group: agent
   title: ''
   type: LLMsTxt
@@ -68,6 +80,22 @@ common:
   title: ''
   type: DomainSecurity
   url: security/intricately-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/intricately-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/intricately-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/intricately-conformance.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/intricately-trust-center.yml
 created: '2026-07-17'
 description: Intricately is a cloud and technology spend intelligence platform that tracks the adoption, usage, and spend of more than 15,000 cloud products across millions of companies worldwide, giving sales and marketing teams the signals they need to find accounts, spot active sales cycles, and predict churn. Founded in 2014 in San Francisco and backed by Bloomberg Beta, GitHub, Susa Ventures, and Singtel Innov8, Intricately was acquired by HG Insights in March 2022 and its data product is now delivered as the Cloud Dynamics API. The REST API (https://api.intricately.com/api/v2) authenticates with an X-API-KEY header and centers on asynchronous Bulk Jobs that enrich lists of domains with cloud adoption, product signatures, revenue, and digital-relationship data. API access is available on Enterprise plans.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intricately.png
@@ -76,36 +104,40 @@ mcp_servers:
 - description: ''
   name: intricately-mcp.yml
   slug: intricately-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Intricately
 nav: Providers
 network: true
 overview: 'Intricately publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API, Sales Intelligence, Cloud Intelligence, and Technographics.
 
 
-  Intricately''s developer surface includes documentation, support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 112
+  Intricately''s developer surface includes documentation, support, pricing, signup flow, and 11 more developer resources.'
+plans:
+- name: Intricately Plans Pricing
+  plan_count: 0
+  slug: intricately-plans-pricing
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Intricately Rate Limits
   slug: intricately-rate-limits
 score:
-  band: emerging
-  composite: 21.5
-  delta: 0.0
+  band: thin
+  composite: 28.7
+  delta: 7.2
   facets:
-    commercial_clarity: 23.7
+    commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 75.9
-    governance: 0.0
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 21.5
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/screenshots/intricately-2026-07-25T222720.png
 security:
 - kind: authentication
@@ -116,6 +148,10 @@ security:
   name: Intricately Domain Security
   slug: intricately-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Intricately Trust Center
+  slug: intricately-trust-center
+  summary_line: SOC 2 Type 2
 slug: intricately
 tags:
 - Company

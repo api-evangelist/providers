@@ -1,36 +1,94 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Sales-gated
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://www.nectarsocial.com/book-a-demo
+  - https://beta-api.nectarsocial.com/.well-known/oauth-authorization-server
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 50.9
+  scored_at: '2026-08-17'
+api_count: 2
+apis:
+- description: 'Remote Model Context Protocol server exposing Nectar Social''s social content and analytics to AI agents over JSON-RPC 2.0 (Streamable HTTP). OAuth-protected: an anonymous tools/list returns HTTP 401 w'
+  name: Nectar Social MCP Server
+  slug: nectar-social-mcp-server
+- description: The OAuth 2.0 authorization server and platform REST API named by the MCP server's protected-resource metadata. Publishes 18 scopes covering content, analytics, community, inbox, campaigns, competitor
+  name: Nectar Social Platform API (Beta)
+  slug: nectar-social-platform-api-beta
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Nectar Social Webhooks
+  slug: nectar-social-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/nectar-social-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/nectar-social-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/nectar-social-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/nectar-social-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/nectar-social-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/nectar-social-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/nectar-social-lifecycle.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/nectar-social-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/nectar-social-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/nectar-social-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/nectar-social-rate-limits.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -68,38 +126,66 @@ common:
   type: Website
   url: https://www.nectarsocial.com
 created: '2026-07-17'
-description: Nectar Social is an AI "social operating system" for consumer brands — an AI-powered social teammate that manages online communities, performs real-time social listening and sentiment analysis, tracks influencers, and turns organic social engagement and DM conversations into measurable revenue across community, brand safety, commerce, influencer, social-selling, and analytics use cases. Founded in 2023 by Misbah and Farah Uraizee and based in Bellevue, Washington, the company raised $30M from Menlo Ventures, GV (Google Ventures), and True Ventures. Added to the API Evangelist network as a company profile; as of this enrichment pass Nectar Social ships a SaaS web application (app.nectarsocial.com) but does not publish a public API, developer portal, OpenAPI, or SDKs.
+description: 'Nectar Social is an AI "social operating system" for consumer brands — an AI-powered social teammate that manages online communities, performs real-time social listening and sentiment analysis, tracks influencers, and turns organic social engagement and DM conversations into measurable revenue across community, brand safety, commerce, influencer, social-selling, and analytics use cases. Founded in 2023 by Misbah and Farah Uraizee and based in Bellevue, Washington, the company raised $30M from Menlo Ventures, GV (Google Ventures), and True Ventures. Nectar Social operates a remote Model Context Protocol server at mcp.nectarsocial.com/mcp, protected by a full OAuth 2.1 stack — RFC 9728 protected-resource metadata, an RFC 8414 authorization server at beta-api.nectarsocial.com publishing 18 fine-grained scopes, PKCE S256, dynamic client registration and token revocation. It is an agent-first surface: the MCP server is the only documented way in, and the company publishes no OpenAPI,
+  no SDK and no public developer documentation, with docs.nectarsocial.com redirecting into a login-gated single-page application.'
 image: https://cdn.prod.website-files.com/6831e07f7427f0c59b8b2a7b/6837117d77fca09e24ab5ba0_Frame%201912056558.png
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: nectar-social-mcp.yml
+  slug: nectar-social-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
+modified: '2026-08-13'
 name: Nectar Social
 nav: Providers
 network: true
-overview: 'Nectar Social is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Social Media, Community Management, and Social Listening.
+overview: 'Nectar Social publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Social Media, Community Management, and Social Listening.
 
 
-  Nectar Social''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 117
+  The Nectar Social catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Nectar Social''s developer surface includes authentication, engineering blog, and 18 more developer resources.'
+plans:
+- name: Nectar Social Plans Pricing
+  plan_count: 0
+  slug: nectar-social-plans-pricing
+random_paper: 125
+rate_limits:
+- limit_count: 0
+  name: Nectar Social Rate Limits
+  slug: nectar-social-rate-limits
+scopes:
+- name: Nectar Social Scopes
+  scope_count: 18
+  slug: nectar-social-scopes
+  summary_line: 18 scopes · authorizationCode
 score:
-  band: minimal
-  composite: 9.6
-  delta: 0.0
+  band: thin
+  composite: 31.9
+  delta: 22.3
   facets:
     commercial_clarity: 10.5
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 10.5
+    contract_quality: 51.6
+    developer_ergonomics: 21.7
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 18.4
   previous_composite: 9.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Nectar Social Authentication
+  slug: nectar-social-authentication
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Nectar Social Domain Security
   slug: nectar-social-domain-security
-  summary_line: TLSv1.3 · DNSSEC · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 - kind: vulnerability-disclosure
   name: Nectar Social Vulnerability Disclosure
   slug: nectar-social-vulnerability-disclosure
@@ -114,5 +200,8 @@ tags:
 - Influencer Marketing
 - Customer Engagement
 - Social Commerce
+- MCP
+- Agents
+- OAuth
 website: https://www.nectarsocial.com
 ---

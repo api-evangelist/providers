@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ apis:
 - description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatetlsinspectionconfiguratio'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatetlsinspectionconfiguration-api
-artifact_total: 772
+artifact_total: 809
 collections:
 - collection_type: postman
   name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy API'
@@ -257,6 +257,117 @@ collections:
 - collection_type: postman
   name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API'
   slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatetlsinspectionconfiguration-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-associatefirewallpolicy-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateSubnets API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-associatesubnets-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.CreateFirewall API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-createfirewall-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.CreateFirewallPolicy API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-createfirewallpolicy-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.CreateRuleGroup API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-createrulegroup-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.CreateTLSInspectionConfiguration API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-createtlsinspectionconfiguration-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteFirewall API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deletefirewall-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteFirewallPolicy API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deletefirewallpolicy-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteResourcePolicy API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deleteresourcepolicy-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteRuleGroup API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deleterulegroup-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteTLSInspectionConfiguration API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deletetlsinspectionconfiguration-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeFirewall API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describefirewall-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeFirewallPolicy API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describefirewallpolicy-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeLoggingConfiguration API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describeloggingconfiguration-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeResourcePolicy API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describeresourcepolicy-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroup API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describerulegroup-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroupMetadata API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describerulegroupmetadata-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeTLSInspectionConfiguration API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describetlsinspectionconfiguration-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DisassociateSubnets API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-disassociatesubnets-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListFirewallPolicies API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listfirewallpolicies-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListFirewalls API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listfirewalls-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListRuleGroups API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listrulegroups-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListTagsForResource API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listtagsforresource-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListTLSInspectionConfigurations API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listtlsinspectionconfigurations-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.PutResourcePolicy API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-putresourcepolicy-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.TagResource API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-tagresource-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UntagResource API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-untagresource-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDeleteProtection API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewalldeleteprotection-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDescription API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewalldescription-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallEncryptionConfiguration API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewallencryptionconfiguration-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicy API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewallpolicy-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicyChangeProtection API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewallpolicychangeprotection-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateLoggingConfiguration API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updateloggingconfiguration-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateRuleGroup API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updaterulegroup-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateSubnetChangeProtection API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatesubnetchangeprotection-api
+- collection_type: open
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API'
+  slug: open-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatetlsinspectionconfiguration-api
 - collection_type: open
   name: AWS Network Firewall
   slug: open-amazon-network-firewall
@@ -2464,7 +2575,7 @@ plans:
 - name: Amazon Network Firewall Plans Pricing
   plan_count: 3
   slug: amazon-network-firewall-plans-pricing
-random_paper: 88
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Amazon Network Firewall Rate Limits
@@ -2506,7 +2617,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/screenshots/amazon-network-firewall-2026-06-20T171749.png
 security:

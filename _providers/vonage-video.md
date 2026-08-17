@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 4
@@ -66,8 +66,38 @@ apis:
 - description: Inspect streams and change stream layout classes.
   name: Vonage Video API Streams API
   slug: vonage-video-streams-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vonage Video Archives API
+  slug: open-vonage-video-archives-api
+- collection_type: open
+  name: Vonage Video Archives Broadcasts API
+  slug: open-vonage-video-broadcasts-api
+- collection_type: open
+  name: Vonage Video Archives Captions API
+  slug: open-vonage-video-captions-api
+- collection_type: open
+  name: Vonage Video Archives Moderation API
+  slug: open-vonage-video-moderation-api
+- collection_type: open
+  name: Vonage Video Archives Render API
+  slug: open-vonage-video-render-api
+- collection_type: open
+  name: Vonage Video Archives Sessions API
+  slug: open-vonage-video-sessions-api
+- collection_type: open
+  name: Vonage Video Archives Signaling API
+  slug: open-vonage-video-signaling-api
+- collection_type: open
+  name: Vonage Video Archives SIP API
+  slug: open-vonage-video-sip-api
+- collection_type: open
+  name: Vonage Video Archives Streams API
+  slug: open-vonage-video-streams-api
 - collection_type: open
   name: Vonage Video API
   slug: open-vonage-video
@@ -132,7 +162,7 @@ plans:
 - name: Vonage Video Plans Pricing
   plan_count: 3
   slug: vonage-video-plans-pricing
-random_paper: 20
+random_paper: 28
 rate_limits:
 - limit_count: 7
   name: Vonage Video Rate Limits
@@ -163,7 +193,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/screenshots/vonage-video-2026-06-20T201136.png
 security:

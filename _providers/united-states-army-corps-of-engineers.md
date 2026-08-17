@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,11 +69,44 @@ apis:
 - description: API version information
   name: United States Army Corps of Engineers Version API
   slug: united-states-army-corps-of-engineers-version-api
-artifact_total: 27
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: CWMS Data API
   slug: open-cwms-data-api
+- collection_type: open
+  name: CWMS Data Basins API
+  slug: open-united-states-army-corps-of-engineers-basins-api
+- collection_type: open
+  name: CWMS Data Basins Catalog API
+  slug: open-united-states-army-corps-of-engineers-catalog-api
+- collection_type: open
+  name: CWMS Data Basins Forecasts API
+  slug: open-united-states-army-corps-of-engineers-forecasts-api
+- collection_type: open
+  name: CWMS Data Basins Levels API
+  slug: open-united-states-army-corps-of-engineers-levels-api
+- collection_type: open
+  name: CWMS Data Basins Locations API
+  slug: open-united-states-army-corps-of-engineers-locations-api
+- collection_type: open
+  name: CWMS Data Basins Parameters API
+  slug: open-united-states-army-corps-of-engineers-parameters-api
+- collection_type: open
+  name: CWMS Data Basins Projects API
+  slug: open-united-states-army-corps-of-engineers-projects-api
+- collection_type: open
+  name: CWMS Data Basins Ratings API
+  slug: open-united-states-army-corps-of-engineers-ratings-api
+- collection_type: open
+  name: CWMS Data Basins Time Series API
+  slug: open-united-states-army-corps-of-engineers-time-series-api
+- collection_type: open
+  name: CWMS Data Basins Version API
+  slug: open-united-states-army-corps-of-engineers-version-api
 common:
 - group: commercial
   title: ''
@@ -175,7 +208,7 @@ plans:
 - name: United States Army Corps Of Engineers Plans Pricing
   plan_count: 3
   slug: united-states-army-corps-of-engineers-plans-pricing
-random_paper: 99
+random_paper: 123
 rate_limits:
 - limit_count: 5
   name: United States Army Corps Of Engineers Rate Limits
@@ -223,7 +256,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/screenshots/united-states-army-corps-of-engineers-2026-06-20T200046.png
 security:

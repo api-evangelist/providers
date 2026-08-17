@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Discover the workspaces available to the authenticated key.
   name: Rows Workspaces API
   slug: rows-workspaces-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rows Data API
+  slug: open-rows-data-api
+- collection_type: open
+  name: Rows Data Folders API
+  slug: open-rows-folders-api
+- collection_type: open
+  name: Rows Data Spreadsheets API
+  slug: open-rows-spreadsheets-api
+- collection_type: open
+  name: Rows Data Vision API
+  slug: open-rows-vision-api
+- collection_type: open
+  name: Rows Data Workspaces API
+  slug: open-rows-workspaces-api
 common:
 - group: agent
   title: ''
@@ -183,7 +202,7 @@ overview: 'Rows publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rows'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, authentication, and 22 more developer resources.'
-random_paper: 99
+random_paper: 12
 score:
   band: developing
   composite: 49.0
@@ -207,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

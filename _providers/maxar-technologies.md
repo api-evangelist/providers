@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -114,7 +114,7 @@ apis:
 - description: The WMTS API from Maxar Technologies — 1 operation(s) for wmts.
   name: Maxar Technologies WMTS API
   slug: maxar-technologies-wmts-api
-artifact_total: 78
+artifact_total: 100
 collections:
 - collection_type: postman
   name: Vantor Hub Account Services Accounts API
@@ -180,6 +180,9 @@ collections:
   name: Vantor Hub Account Services Accounts WMTS API
   slug: postman-maxar-technologies-wmts-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Vantor Hub Account Services API
   slug: open-admin
 - collection_type: open
@@ -188,6 +191,69 @@ collections:
 - collection_type: open
   name: Vantor Hub Discovery API
   slug: open-discovery
+- collection_type: open
+  name: Vantor Hub Account Services Accounts API
+  slug: open-maxar-technologies-accounts-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts API Keys API
+  slug: open-maxar-technologies-api-keys-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Collections API
+  slug: open-maxar-technologies-collections-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Credits API
+  slug: open-maxar-technologies-credits-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Deliveries API
+  slug: open-maxar-technologies-deliveries-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Estimates API
+  slug: open-maxar-technologies-estimates-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Events API
+  slug: open-maxar-technologies-events-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Feasibility API
+  slug: open-maxar-technologies-feasibility-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Image API
+  slug: open-maxar-technologies-image-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Introspection API
+  slug: open-maxar-technologies-introspection-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Items API
+  slug: open-maxar-technologies-items-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Monitors API
+  slug: open-maxar-technologies-monitors-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Orders API
+  slug: open-maxar-technologies-orders-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Search API
+  slug: open-maxar-technologies-search-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Subscriptions API
+  slug: open-maxar-technologies-subscriptions-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Tasks API
+  slug: open-maxar-technologies-tasks-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Tokens API
+  slug: open-maxar-technologies-tokens-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts Users API
+  slug: open-maxar-technologies-users-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts WFS API
+  slug: open-maxar-technologies-wfs-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts WMS API
+  slug: open-maxar-technologies-wms-api
+- collection_type: open
+  name: Vantor Hub Account Services Accounts WMTS API
+  slug: open-maxar-technologies-wmts-api
 - collection_type: open
   name: Maxar Geospatial Platform Monitoring API
   slug: open-monitoring
@@ -430,7 +496,7 @@ plans:
 - name: Maxar Technologies Plans Pricing
   plan_count: 4
   slug: maxar-technologies-plans-pricing
-random_paper: 66
+random_paper: 78
 rate_limits:
 - limit_count: 6
   name: Maxar Technologies Rate Limits
@@ -472,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png
 security:

@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-12'
+  score: 52.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 3
   slug: ezoic-agentic-access
   summary_line: 3 operations
-api_count: 3
+api_count: 5
 apis:
 - description: The Access API from ezoic — 1 operation(s) for access.
   name: ezoic Access API
@@ -48,7 +48,26 @@ apis:
 - description: The Purchases API from ezoic — 1 operation(s) for purchases.
   name: ezoic Purchases API
   slug: ezoic-purchases-api
-artifact_total: 8
+- description: The Big Data Analytics (BDA) REST API pulls the same reports and analytics data a publisher sees in the Ezoic dashboard — predefined reports that ship with the account and custom reports the publisher
+  name: ezoic Big Data Analytics API
+  slug: ezoic-big-data-analytics-api
+- description: The CDN REST API clears and purges cached content on the Ezoic CDN — a single URL, a batch of URLs in groups of 100, a comma-separated set of surrogate keys, or a whole domain — plus a ping liveness c
+  name: ezoic CDN API
+  slug: ezoic-cdn-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ezoic Subscriptions Server-to-Server REST Access API
+  slug: open-ezoic-access-api
+- collection_type: open
+  name: Ezoic Subscriptions Server-to-Server REST Access Products API
+  slug: open-ezoic-products-api
+- collection_type: open
+  name: Ezoic Subscriptions Server-to-Server REST Access Purchases API
+  slug: open-ezoic-purchases-api
 common:
 - group: other
   title: ''
@@ -102,6 +121,10 @@ common:
   title: ''
   type: Login
   url: https://pubdash.ezoic.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://admin.bidsystem.ai/register
 - group: commercial
   title: ''
   type: TermsOfService
@@ -114,10 +137,34 @@ common:
   title: ''
   type: MCPServer
   url: mcp/ezoic-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/ezoic-tool-crosswalk.yml
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/ezoic-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ezoic-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/ezoic-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ezoic-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ezoic-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ezoic-rate-limits.yml
 - group: build
   title: ''
   type: Packages
@@ -179,31 +226,45 @@ common:
   type: Website
   url: https://www.ezoic.com/
 created: '2026-07-17'
-description: Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, video, anchor, rewarded, and interstitial ad formats across 5,000+ premium sites. Beyond ads, Ezoic offers first-party Identity (ezID), Visitor Accounts (ezAuth), Ezoic Subscriptions (paywalls, donations, and a server-to-server REST API for verifying reader access), a Web Games ad SDK, Custom Events into its Big Data Analytics platform, and an official hosted Analytics MCP server that exposes read-only pageview, ad-impression, rewarded, and video analytics to AI assistants over OAuth.
+description: 'Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, video, anchor, rewarded, and interstitial ad formats across 5,000+ premium sites. Beyond ads, Ezoic offers first-party Identity (ezID), Visitor Accounts (ezAuth), Ezoic Subscriptions (paywalls, donations, and a server-to-server REST API for verifying reader access), a Web Games ad SDK, and Custom Events into its Big Data Analytics platform. Its developer surface is a single API gateway (api-gateway.ezoic.com) fronting three services enabled individually from the dashboard and sharing one developerKey — Big Data Analytics for reports, segments and custom data; CDN for cache clearing and purging; and Subscriptions for server-side reader entitlement checks. Ezoic also runs three hosted
+  MCP servers: a read-only Analytics server over OAuth, an anonymous Setup Assistant listed in the official MCP Registry as com.ezoic/setup, and an OAuth-gated endpoint on bidsystem.ai, its performance advertising platform for brands.'
 image: https://www.ezoic.com/wp-content/uploads/2021/03/ezoic-logo.png
 layout: provider
 mcp_servers:
 - description: ''
   name: ezoic-mcp.yml
   slug: ezoic-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: ezoic
 nav: Providers
 network: true
-overview: 'ezoic publishes 3 APIs on the [APIs.io](https://apis.io/) network: Access API, Products API, and Purchases API. Tagged areas include Company, Advertising, AdTech, Publisher Monetization, and Analytics.
+overview: 'ezoic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Access API, Products API, Purchases API, and 2 more. Tagged areas include Company, Advertising, AdTech, Publisher Monetization, and Analytics.
 
 
-  ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 58
+  ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+plans:
+- name: Ezoic Plans Pricing
+  plan_count: 3
+  slug: ezoic-plans-pricing
+random_paper: 91
+rate_limits:
+- limit_count: 0
+  name: Ezoic Rate Limits
+  slug: ezoic-rate-limits
+scopes:
+- name: Ezoic Scopes
+  scope_count: 0
+  slug: ezoic-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.0
-  delta: 0.0
+  band: strong
+  composite: 61.4
+  delta: 8.4
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 62.4
-    developer_ergonomics: 69.0
-    discoverability: 81.5
+    commercial_clarity: 76.3
+    contract_quality: 61.0
+    developer_ergonomics: 75.5
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 53.0
@@ -218,14 +279,14 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/screenshots/ezoic-2026-07-25T214052.png
 security:
 - kind: authentication
   name: Ezoic Authentication
   slug: ezoic-authentication
-  summary_line: apiKey · 3 schemes
+  summary_line: apiKey/oauth2 · 6 schemes
 - kind: domain-security
   name: Ezoic Domain Security
   slug: ezoic-domain-security
@@ -241,8 +302,14 @@ tags:
 - AdTech
 - Publisher Monetization
 - Analytics
+- Reporting
 - Subscriptions
+- Paywalls
 - Identity
+- CDN
+- Caching
 - MCP
+- OAuth
+- Agents
 website: https://www.ezoic.com/
 ---

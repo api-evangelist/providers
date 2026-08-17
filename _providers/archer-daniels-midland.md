@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: ADM food ingredients and product catalog
   name: Archer Daniels Midland Products API
   slug: archer-daniels-midland-products-api
-artifact_total: 50
+artifact_total: 54
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Archer Daniels Midland Commodity Data Commodities API
+  slug: open-archer-daniels-midland-commodities-api
 - collection_type: open
   name: Archer Daniels Midland Commodity Data API
   slug: open-archer-daniels-midland-commodity-data-api
+- collection_type: open
+  name: Archer Daniels Midland Commodity Data Commodities Locations API
+  slug: open-archer-daniels-midland-locations-api
+- collection_type: open
+  name: Archer Daniels Midland Commodity Data Commodities Products API
+  slug: open-archer-daniels-midland-products-api
 common:
 - group: agent
   title: ''
@@ -229,7 +241,7 @@ press:
 - date: '2026-05-25'
   title: AI could pose risk for food and ag companies
   url: https://www.agriculturedive.com/news/ai-could-create-risk-for-food-and-ag-companies-ADM-Coca-Cola/724981/
-random_paper: 24
+random_paper: 98
 rate_limits:
 - limit_count: 1
   name: Archer Daniels Midland Rate Limits
@@ -271,7 +283,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png
 security:

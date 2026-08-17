@@ -20,7 +20,7 @@ modified: '2026-05-22'
 name: AsyncAPI
 nav: Providers
 network: true
-random_paper: 56
+random_paper: 122
 slug: async-apis
 tags:
 - AsyncAPI

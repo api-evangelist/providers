@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,26 @@ apis:
 - description: Operations for retrieving outgoing reference data
   name: OpenCitations References API
   slug: opencitations-references-api
-artifact_total: 15
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenCitations Index REST Authors API
+  slug: open-opencitations-authors-api
+- collection_type: open
+  name: OpenCitations Index REST Authors Citations API
+  slug: open-opencitations-citations-api
+- collection_type: open
+  name: OpenCitations Index REST Authors Editors API
+  slug: open-opencitations-editors-api
+- collection_type: open
+  name: OpenCitations Index REST Authors Metadata API
+  slug: open-opencitations-metadata-api
+- collection_type: open
+  name: OpenCitations Index REST Authors References API
+  slug: open-opencitations-references-api
 common:
 - group: agent
   title: ''
@@ -106,7 +125,7 @@ overview: 'OpenCitations publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   OpenCitations'' developer surface includes authentication and 2 more developer resources.'
-random_paper: 88
+random_paper: 67
 score:
   band: emerging
   composite: 27.7
@@ -127,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/screenshots/opencitations-2026-06-20T190921.png
 security:

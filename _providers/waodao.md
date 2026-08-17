@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,11 +40,26 @@ apis:
 - description: Read agent-friendly metadata for a published WAODAO day.
   name: WAODAO Token Metadata API
   slug: waodao-token-metadata-api
-artifact_total: 17
+artifact_total: 22
 collections:
 - collection_type: postman
   name: WAODAO Agent API
   slug: postman-waodao-agent-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Waodao Art Chain API
+  slug: open-waodao-artchain-api
+- collection_type: open
+  name: Waodao Liquidity Pools API
+  slug: open-waodao-liquidity-pools-api
+- collection_type: open
+  name: Waodao Schema API
+  slug: open-waodao-schema-api
+- collection_type: open
+  name: Waodao Token Metadata API
+  slug: open-waodao-token-metadata-api
 common:
 - group: start
   title: ''
@@ -217,7 +232,7 @@ overview: 'WAODAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   WAODAO''s developer surface includes documentation, support, authentication, code examples, and 28 more developer resources.'
-random_paper: 35
+random_paper: 39
 score:
   band: thin
   composite: 34.8
@@ -241,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

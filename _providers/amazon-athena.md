@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -63,8 +63,35 @@ apis:
 - description: Operations for managing Athena work groups
   name: Amazon Athena Work Groups API
   slug: amazon-athena-work-groups-api
-artifact_total: 340
+artifact_total: 349
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Athena Data Catalogs API
+  slug: open-amazon-athena-data-catalogs-api
+- collection_type: open
+  name: Amazon Athena Data Catalogs Databases API
+  slug: open-amazon-athena-databases-api
+- collection_type: open
+  name: Amazon Athena Data Catalogs Named Queries API
+  slug: open-amazon-athena-named-queries-api
+- collection_type: open
+  name: Amazon Athena Data Catalogs Prepared Statements API
+  slug: open-amazon-athena-prepared-statements-api
+- collection_type: open
+  name: Amazon Athena Data Catalogs Query Executions API
+  slug: open-amazon-athena-query-executions-api
+- collection_type: open
+  name: Amazon Athena Data Catalogs Table Metadata API
+  slug: open-amazon-athena-table-metadata-api
+- collection_type: open
+  name: Amazon Athena Data Catalogs Tags API
+  slug: open-amazon-athena-tags-api
+- collection_type: open
+  name: Amazon Athena Data Catalogs Work Groups API
+  slug: open-amazon-athena-work-groups-api
 - collection_type: open
   name: Amazon Athena API
   slug: open-amazon-athena
@@ -1023,7 +1050,7 @@ plans:
 - name: Amazon Athena Plans Pricing
   plan_count: 1
   slug: amazon-athena-plans-pricing
-random_paper: 116
+random_paper: 124
 rate_limits:
 - limit_count: 2
   name: Amazon Athena Rate Limits
@@ -1065,7 +1092,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/screenshots/amazon-athena-2026-06-20T171608.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: The Tasks API from Nimbleway — 6 operation(s) for tasks.
   name: Nimbleway Tasks API
   slug: nimbleway-tasks-api
-artifact_total: 17
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nimble SDK Agents API
+  slug: open-nimbleway-agents-api
+- collection_type: open
+  name: Nimble SDK Agents Crawl API
+  slug: open-nimbleway-crawl-api
+- collection_type: open
+  name: Nimble SDK Agents Domain Knowledge API
+  slug: open-nimbleway-domain-knowledge-api
+- collection_type: open
+  name: Nimble SDK Agents Extract API
+  slug: open-nimbleway-extract-api
+- collection_type: open
+  name: Nimble SDK Agents Fast SERP API
+  slug: open-nimbleway-fast-serp-api
+- collection_type: open
+  name: Nimble SDK Agents Jobs API
+  slug: open-nimbleway-jobs-api
+- collection_type: open
+  name: Nimble SDK Agents Map API
+  slug: open-nimbleway-map-api
+- collection_type: open
+  name: Nimble SDK Agents Media API
+  slug: open-nimbleway-media-api
+- collection_type: open
+  name: Nimble SDK Agents Search API
+  slug: open-nimbleway-search-api
+- collection_type: open
+  name: Nimble SDK Agents SERP API
+  slug: open-nimbleway-serp-api
+- collection_type: open
+  name: Nimble SDK Agents Tasks API
+  slug: open-nimbleway-tasks-api
 common:
 - group: start
   title: ''
@@ -226,7 +263,7 @@ overview: 'Nimbleway publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nimbleway''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, engineering blog, and 27 more developer resources.'
-random_paper: 8
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Nimbleway Rate Limits
@@ -254,7 +291,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/screenshots/nimbleway-2026-08-07T185313.png
 security:

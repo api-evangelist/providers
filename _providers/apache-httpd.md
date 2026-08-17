@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: Server status and metrics
   name: Apache HTTP Server Status API
   slug: apache-httpd-status-api
-artifact_total: 43
+artifact_total: 46
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache HTTP Server Status Balancer API
+  slug: open-apache-httpd-balancer-api
+- collection_type: open
+  name: Apache HTTP Server Balancer Status API
+  slug: open-apache-httpd-status-api
 - collection_type: open
   name: Apache HTTP Server Status API
   slug: open-apache-httpd-status
@@ -196,7 +205,7 @@ plans:
 - name: Apache Httpd Plans Pricing
   plan_count: 3
   slug: apache-httpd-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Apache Httpd Rate Limits
@@ -238,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/screenshots/apache-httpd-2026-06-20T172105.png
 security:

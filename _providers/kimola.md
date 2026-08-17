@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API for presets (pre-trained classification and entity-extraction models), research reports and their analyses, feedback feeds, query consumption, and subscription usage. Authenticated with an HT
@@ -155,7 +155,7 @@ overview: 'Kimola publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Kimola''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 37
+random_paper: 41
 score:
   band: thin
   composite: 28.2
@@ -173,7 +173,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/screenshots/kimola-2026-07-25T223754.png
 security:

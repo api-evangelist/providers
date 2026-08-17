@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,11 +59,35 @@ apis:
 - description: The Science API from Slashdot — 1 operation(s) for science.
   name: Slashdot Science API
   slug: slashdot-science-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Slashdot RSS/Atom Feeds Apple API
+  slug: open-slashdot-apple-api
+- collection_type: open
+  name: Slashdot RSS/Atom Feeds Apple Developers API
+  slug: open-slashdot-developers-api
+- collection_type: open
+  name: Slashdot RSS/Atom Apple Feeds API
+  slug: open-slashdot-feeds-api
+- collection_type: open
+  name: Slashdot RSS/Atom Feeds Apple Games API
+  slug: open-slashdot-games-api
+- collection_type: open
+  name: Slashdot RSS/Atom Feeds Apple Linux API
+  slug: open-slashdot-linux-api
+- collection_type: open
+  name: Slashdot RSS/Atom Feeds Apple Rights API
+  slug: open-slashdot-rights-api
 - collection_type: open
   name: Slashdot RSS/Atom Feeds
   slug: open-slashdot-rss
+- collection_type: open
+  name: Slashdot RSS/Atom Feeds Apple Science API
+  slug: open-slashdot-science-api
 common:
 - group: agent
   title: ''
@@ -177,7 +201,7 @@ plans:
 - name: Slashdot Plans Pricing
   plan_count: 3
   slug: slashdot-plans-pricing
-random_paper: 26
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Slashdot Rate Limits
@@ -211,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/screenshots/slashdot-2026-06-20T194022.png
 security:

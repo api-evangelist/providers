@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -102,7 +102,74 @@ apis:
 - description: The Webhooks API from Kajabi — 8 operation(s) for webhooks.
   name: Kajabi Webhooks API
   slug: kajabi-webhooks-api
-artifact_total: 58
+artifact_total: 80
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kajabi API V1 Authentication API
+  slug: open-kajabi-authentication-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Blog posts API
+  slug: open-kajabi-blog-posts-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Contact Notes API
+  slug: open-kajabi-contact-notes-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Contact Tags API
+  slug: open-kajabi-contact-tags-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Contacts API
+  slug: open-kajabi-contacts-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Courses API
+  slug: open-kajabi-courses-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Custom Fields API
+  slug: open-kajabi-custom-fields-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Customers API
+  slug: open-kajabi-customers-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Forms API
+  slug: open-kajabi-forms-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Kajabi Payments Payouts API
+  slug: open-kajabi-kajabi-payments-payouts-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Landing pages API
+  slug: open-kajabi-landing-pages-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Me API
+  slug: open-kajabi-me-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Offers API
+  slug: open-kajabi-offers-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Orders API
+  slug: open-kajabi-orders-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Podcasts API
+  slug: open-kajabi-podcasts-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Products API
+  slug: open-kajabi-products-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Purchases API
+  slug: open-kajabi-purchases-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Sites API
+  slug: open-kajabi-sites-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Transactions API
+  slug: open-kajabi-transactions-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Version API
+  slug: open-kajabi-version-api
+- collection_type: open
+  name: Kajabi API V1 Authentication Webhooks API
+  slug: open-kajabi-webhooks-api
 common:
 - group: agent
   title: ''
@@ -278,7 +345,7 @@ plans:
 - name: Kajabi Plans Pricing
   plan_count: 4
   slug: kajabi-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Kajabi Rate Limits
@@ -318,7 +385,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kajabi/refs/heads/main/screenshots/kajabi-2026-06-20T183859.png
 security:

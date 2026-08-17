@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Event webhook subscriptions.
   name: Transistor Webhooks API
   slug: transistor-webhooks-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Transistor Account API
+  slug: open-transistor-account-api
+- collection_type: open
+  name: Transistor Account Analytics API
+  slug: open-transistor-analytics-api
+- collection_type: open
+  name: Transistor Account Episodes API
+  slug: open-transistor-episodes-api
+- collection_type: open
+  name: Transistor Account Shows API
+  slug: open-transistor-shows-api
+- collection_type: open
+  name: Transistor Account Subscribers API
+  slug: open-transistor-subscribers-api
+- collection_type: open
+  name: Transistor Account Webhooks API
+  slug: open-transistor-webhooks-api
 - collection_type: open
   name: Transistor API
   slug: open-transistor
@@ -127,7 +148,7 @@ plans:
 - name: Transistor Plans Pricing
   plan_count: 4
   slug: transistor-plans-pricing
-random_paper: 33
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Transistor Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

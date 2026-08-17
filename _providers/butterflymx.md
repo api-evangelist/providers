@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The Access groups API from ButterflyMX — 6 operation(s) for access groups.
@@ -63,11 +63,57 @@ apis:
 - description: The Virtual Keys API from ButterflyMX — 2 operation(s) for virtual keys.
   name: ButterflyMX Virtual Keys API
   slug: butterflymx-virtual-keys-api
-artifact_total: 20
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Butterflymx Webhooks
   slug: butterflymx-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ButterflyMX Access groups API
+  slug: open-butterflymx-access-groups-api
+- collection_type: open
+  name: ButterflyMX Access Logs API
+  slug: open-butterflymx-access-logs-api
+- collection_type: open
+  name: ButterflyMX Access Points API
+  slug: open-butterflymx-access-points-api
+- collection_type: open
+  name: ButterflyMX Access Tools API
+  slug: open-butterflymx-access-tools-api
+- collection_type: open
+  name: ButterflyMX Building Integrations API
+  slug: open-butterflymx-building-integrations-api
+- collection_type: open
+  name: ButterflyMX Buildings API
+  slug: open-butterflymx-buildings-api
+- collection_type: open
+  name: ButterflyMX Calls API
+  slug: open-butterflymx-calls-api
+- collection_type: open
+  name: ButterflyMX Devices API
+  slug: open-butterflymx-devices-api
+- collection_type: open
+  name: ButterflyMX Door Release Requests API
+  slug: open-butterflymx-door-release-requests-api
+- collection_type: open
+  name: ButterflyMX Keychains API
+  slug: open-butterflymx-keychains-api
+- collection_type: open
+  name: ButterflyMX Tenant Integrations API
+  slug: open-butterflymx-tenant-integrations-api
+- collection_type: open
+  name: ButterflyMX Tenants API
+  slug: open-butterflymx-tenants-api
+- collection_type: open
+  name: ButterflyMX Units API
+  slug: open-butterflymx-units-api
+- collection_type: open
+  name: ButterflyMX Virtual Keys API
+  slug: open-butterflymx-virtual-keys-api
 common:
 - group: agent
   title: ''
@@ -225,7 +271,7 @@ overview: 'ButterflyMX publishes 14 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ButterflyMX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 27 more developer resources.'
-random_paper: 22
+random_paper: 30
 scopes:
 - name: Butterflymx Scopes
   scope_count: 6
@@ -253,7 +299,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

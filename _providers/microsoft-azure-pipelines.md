@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Operations for triggering, monitoring, and retrieving pipeline run executions including run state, result, and parameters.
   name: Azure Pipelines Runs API
   slug: microsoft-azure-pipelines-runs-api
-artifact_total: 27
+artifact_total: 36
 collections:
 - collection_type: postman
   name: Azure Pipelines Build REST Artifacts API
@@ -99,11 +99,38 @@ collections:
   name: Azure Pipelines Build REST Artifacts Runs API
   slug: postman-microsoft-azure-pipelines-runs-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Pipelines Build REST API
   slug: open-azure-pipelines-build-api
 - collection_type: open
   name: Azure Pipelines REST API
   slug: open-azure-pipelines-rest-api
+- collection_type: open
+  name: Azure Pipelines Build REST Artifacts API
+  slug: open-microsoft-azure-pipelines-artifacts-api
+- collection_type: open
+  name: Azure Pipelines Build REST Artifacts Build Artifacts API
+  slug: open-microsoft-azure-pipelines-build-artifacts-api
+- collection_type: open
+  name: Azure Pipelines Build REST Artifacts Build Definitions API
+  slug: open-microsoft-azure-pipelines-build-definitions-api
+- collection_type: open
+  name: Azure Pipelines Build REST Artifacts Build Tags API
+  slug: open-microsoft-azure-pipelines-build-tags-api
+- collection_type: open
+  name: Azure Pipelines Build REST Artifacts Builds API
+  slug: open-microsoft-azure-pipelines-builds-api
+- collection_type: open
+  name: Azure Pipelines Build REST Artifacts Logs API
+  slug: open-microsoft-azure-pipelines-logs-api
+- collection_type: open
+  name: Azure Build REST Artifacts Pipelines API
+  slug: open-microsoft-azure-pipelines-pipelines-api
+- collection_type: open
+  name: Azure Pipelines Build REST Artifacts Runs API
+  slug: open-microsoft-azure-pipelines-runs-api
 common:
 - group: auth
   title: ''
@@ -237,7 +264,7 @@ plans:
 - name: Microsoft Azure Pipelines Plans Pricing
   plan_count: 6
   slug: microsoft-azure-pipelines-plans-pricing
-random_paper: 72
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Pipelines Rate Limits
@@ -262,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/screenshots/microsoft-azure-pipelines-2026-06-20T185430.png
 security:

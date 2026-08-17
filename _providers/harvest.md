@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -74,8 +74,44 @@ apis:
 - description: The Users API from Harvest — 3 operation(s) for users.
   name: Harvest Users API
   slug: harvest-users-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harvest API v2 Clients API
+  slug: open-harvest-clients-api
+- collection_type: open
+  name: Harvest API v2 Clients Company API
+  slug: open-harvest-company-api
+- collection_type: open
+  name: Harvest API v2 Clients Estimates API
+  slug: open-harvest-estimates-api
+- collection_type: open
+  name: Harvest API v2 Clients Expenses API
+  slug: open-harvest-expenses-api
+- collection_type: open
+  name: Harvest API v2 Clients Invoices API
+  slug: open-harvest-invoices-api
+- collection_type: open
+  name: Harvest API v2 Clients Projects API
+  slug: open-harvest-projects-api
+- collection_type: open
+  name: Harvest API v2 Clients Reports API
+  slug: open-harvest-reports-api
+- collection_type: open
+  name: Harvest API v2 Clients Roles API
+  slug: open-harvest-roles-api
+- collection_type: open
+  name: Harvest API v2 Clients Tasks API
+  slug: open-harvest-tasks-api
+- collection_type: open
+  name: Harvest API v2 Clients TimeEntries API
+  slug: open-harvest-timeentries-api
+- collection_type: open
+  name: Harvest API v2 Clients Users API
+  slug: open-harvest-users-api
 - collection_type: open
   name: Harvest API v2
   slug: open-harvest
@@ -148,7 +184,7 @@ overview: 'Harvest publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Harvest''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 8 more developer resources.'
-random_paper: 45
+random_paper: 20
 score:
   band: thin
   composite: 35.5
@@ -169,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/screenshots/harvest-2026-06-20T182526.png
 security:

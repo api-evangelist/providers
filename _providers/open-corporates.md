@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API providing access to the world's largest open database of companies. Search and retrieve company registration data, officer information, corporate filings, and jurisdiction data across more th
@@ -104,7 +104,7 @@ plans:
 - name: Open Corporates Plans Pricing
   plan_count: 6
   slug: open-corporates-plans-pricing
-random_paper: 9
+random_paper: 79
 rate_limits:
 - limit_count: 9
   name: Open Corporates Rate Limits
@@ -128,7 +128,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-corporates/refs/heads/main/screenshots/open-corporates-2026-06-20T190736.png
 security:

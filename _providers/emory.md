@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 4
@@ -114,7 +114,77 @@ apis:
 - description: worker resource
   name: Emory University worker API
   slug: emory-worker-api
-artifact_total: 46
+artifact_total: 69
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation API
+  slug: open-emory-annotation-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation api_key API
+  slug: open-emory-api-key-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation assetstore API
+  slug: open-emory-assetstore-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation collection API
+  slug: open-emory-collection-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation dicomweb_assetstore API
+  slug: open-emory-dicomweb-assetstore-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation file API
+  slug: open-emory-file-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation files API
+  slug: open-emory-files-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation folder API
+  slug: open-emory-folder-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation group API
+  slug: open-emory-group-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation histomicsui API
+  slug: open-emory-histomicsui-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation homepage API
+  slug: open-emory-homepage-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation item API
+  slug: open-emory-item-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation job API
+  slug: open-emory-job-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation large_image API
+  slug: open-emory-large-image-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation notification API
+  slug: open-emory-notification-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation resource API
+  slug: open-emory-resource-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation slicer_cli_web API
+  slug: open-emory-slicer-cli-web-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation system API
+  slug: open-emory-system-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation tcga API
+  slug: open-emory-tcga-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation token API
+  slug: open-emory-token-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation user API
+  slug: open-emory-user-api
+- collection_type: open
+  name: Girder REST API (Emory Digital Slide Archive) annotation worker API
+  slug: open-emory-worker-api
 common:
 - group: operate
   title: ''
@@ -243,7 +313,7 @@ plans:
 - name: Emory Plans Pricing
   plan_count: 2
   slug: emory-plans-pricing
-random_paper: 76
+random_paper: 109
 rate_limits:
 - limit_count: 1
   name: Emory Rate Limits
@@ -285,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/screenshots/emory-2026-07-25T213244.png
 security:

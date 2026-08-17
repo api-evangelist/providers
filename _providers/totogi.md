@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Totogi Charging-as-a-Service is a serverless, multi-tenant 5G Standalone and 5G Advanced converged charging system delivered as SaaS on AWS, with built-in policy control. Its account-management surfac
@@ -193,7 +193,7 @@ overview: 'Totogi publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Totogi''s developer surface includes FAQ, engineering blog, support, YouTube channel, authentication, changelog, and 29 more developer resources.'
-random_paper: 62
+random_paper: 66
 scopes:
 - name: Totogi Scopes
   scope_count: 0
@@ -222,7 +222,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

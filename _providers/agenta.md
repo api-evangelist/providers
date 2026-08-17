@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Query observability traces and spans.
   name: Agenta Traces API
   slug: agenta-traces-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agenta Applications API
+  slug: open-agenta-applications-api
+- collection_type: open
+  name: Agenta Applications Configs API
+  slug: open-agenta-configs-api
+- collection_type: open
+  name: Agenta Applications Evaluations API
+  slug: open-agenta-evaluations-api
+- collection_type: open
+  name: Agenta Applications Evaluators API
+  slug: open-agenta-evaluators-api
+- collection_type: open
+  name: Agenta Applications OpenTelemetry API
+  slug: open-agenta-opentelemetry-api
+- collection_type: open
+  name: Agenta Applications Testsets API
+  slug: open-agenta-testsets-api
+- collection_type: open
+  name: Agenta Applications Traces API
+  slug: open-agenta-traces-api
 - collection_type: open
   name: Agenta API
   slug: open-agenta
@@ -130,7 +154,7 @@ plans:
 - name: Agenta Plans Pricing
   plan_count: 5
   slug: agenta-plans-pricing
-random_paper: 24
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Agenta Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/screenshots/agenta-2026-06-20T170004.png
 security:

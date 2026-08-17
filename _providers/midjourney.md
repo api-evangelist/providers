@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,15 +57,30 @@ apis:
 - description: Operations for tracking and managing asynchronous image generation jobs, including retrieving job status, results, and listing previous jobs.
   name: midjourney Jobs API
   slug: midjourney-jobs-api
-artifact_total: 19
+artifact_total: 24
 asyncapis:
 - description: 'The Midjourney Image Generation webhook interface delivers real-time notifications about image generation job status changes. When a webhook URL is provided during job creation, Midjourney sends HTTP '
   name: Midjourney Image Generation Webhooks
   slug: midjourney-image-generation-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Midjourney Image Generation Image Analysis API
+  slug: open-midjourney-image-analysis-api
+- collection_type: open
+  name: Midjourney Image Analysis Image Generation API
+  slug: open-midjourney-image-generation-api
+- collection_type: open
   name: Midjourney Image Generation API
   slug: open-midjourney-image-generation
+- collection_type: open
+  name: Midjourney Image Generation Image Analysis Image Manipulation API
+  slug: open-midjourney-image-manipulation-api
+- collection_type: open
+  name: Midjourney Image Generation Image Analysis Jobs API
+  slug: open-midjourney-jobs-api
 common:
 - group: agent
   title: ''
@@ -126,7 +141,7 @@ plans:
 - name: Midjourney Plans Pricing
   plan_count: 5
   slug: midjourney-plans-pricing
-random_paper: 14
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Midjourney Rate Limits
@@ -168,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/screenshots/midjourney-2026-06-20T185557.png
 security:

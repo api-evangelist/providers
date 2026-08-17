@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -63,8 +63,35 @@ apis:
 - description: Configure webhook endpoints and per-event subscriptions.
   name: Printful Webhooks API
   slug: printful-webhooks-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Printful Catalog API
+  slug: open-printful-catalog-api
+- collection_type: open
+  name: Printful Catalog Files API
+  slug: open-printful-files-api
+- collection_type: open
+  name: Printful Catalog Mockup Generator API
+  slug: open-printful-mockup-generator-api
+- collection_type: open
+  name: Printful Catalog Orders API
+  slug: open-printful-orders-api
+- collection_type: open
+  name: Printful Catalog Shipping Rates API
+  slug: open-printful-shipping-rates-api
+- collection_type: open
+  name: Printful Catalog Store Products API
+  slug: open-printful-store-products-api
+- collection_type: open
+  name: Printful Catalog Warehouse API
+  slug: open-printful-warehouse-api
+- collection_type: open
+  name: Printful Catalog Webhooks API
+  slug: open-printful-webhooks-api
 - collection_type: open
   name: Printful API
   slug: open-printful
@@ -137,7 +164,7 @@ plans:
 - name: Printful Plans Pricing
   plan_count: 2
   slug: printful-plans-pricing
-random_paper: 44
+random_paper: 139
 rate_limits:
 - limit_count: 2
   name: Printful Rate Limits
@@ -162,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

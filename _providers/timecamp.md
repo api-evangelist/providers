@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -120,8 +120,92 @@ apis:
 - description: The [v3] Time Entry Restriction API from TimeCamp — 3 operation(s) for [v3] time entry restriction.
   name: TimeCamp [v3] Time Entry Restriction API
   slug: timecamp-v3-time-entry-restriction-api
-artifact_total: 34
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Approvals API
+  slug: open-timecamp-v1-approvals-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Attendance API
+  slug: open-timecamp-v1-attendance-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Billing Rates API
+  slug: open-timecamp-v1-billing-rates-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Computer Activities API
+  slug: open-timecamp-v1-computer-activities-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Entry API
+  slug: open-timecamp-v1-entry-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Group API
+  slug: open-timecamp-v1-group-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Roles & Permissions API
+  slug: open-timecamp-v1-roles-permissions-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Tags API
+  slug: open-timecamp-v1-tags-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Task API
+  slug: open-timecamp-v1-task-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] Timer API
+  slug: open-timecamp-v1-timer-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v1] User API
+  slug: open-timecamp-v1-user-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Approval API
+  slug: open-timecamp-v3-approval-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Attendance API
+  slug: open-timecamp-v3-attendance-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Attendance Requests API
+  slug: open-timecamp-v3-attendance-requests-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Computer Activities API
+  slug: open-timecamp-v3-computer-activities-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Custom Fields API
+  slug: open-timecamp-v3-custom-fields-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Data Export API
+  slug: open-timecamp-v3-data-export-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Expense API
+  slug: open-timecamp-v3-expense-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Invoices API
+  slug: open-timecamp-v3-invoices-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Projects API
+  slug: open-timecamp-v3-projects-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Storage API
+  slug: open-timecamp-v3-storage-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Tags API
+  slug: open-timecamp-v3-tags-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Task API
+  slug: open-timecamp-v3-task-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Task Archive API
+  slug: open-timecamp-v3-task-archive-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Task Picker API
+  slug: open-timecamp-v3-task-picker-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Time Entry API
+  slug: open-timecamp-v3-time-entry-api
+- collection_type: open
+  name: TimeCamp [v1] Approvals [v1] Approvals [v3] Time Entry Restriction API
+  slug: open-timecamp-v3-time-entry-restriction-api
 - collection_type: open
   name: TimeCamp API
   slug: open-timecamp
@@ -194,7 +278,7 @@ plans:
 - name: Timecamp Plans Pricing
   plan_count: 5
   slug: timecamp-plans-pricing
-random_paper: 8
+random_paper: 103
 rate_limits:
 - limit_count: 2
   name: Timecamp Rate Limits
@@ -219,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

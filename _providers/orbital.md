@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,14 +56,35 @@ apis:
 - description: The Types API from Orbital — 2 operation(s) for types.
   name: Orbital Types API
   slug: orbital-types-api
-artifact_total: 21
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orbital Query Caches API
+  slug: open-orbital-caches-api
+- collection_type: open
+  name: Orbital Query Caches Connections API
+  slug: open-orbital-connections-api
 - collection_type: open
   name: Orbital Query API
   slug: open-orbital-query-api
 - collection_type: open
   name: Orbital Schema Management API
   slug: open-orbital-schema-management-api
+- collection_type: open
+  name: Orbital Query Caches Schemas API
+  slug: open-orbital-schemas-api
+- collection_type: open
+  name: Orbital Query Caches Services API
+  slug: open-orbital-services-api
+- collection_type: open
+  name: Orbital Query Caches Taxiql API
+  slug: open-orbital-taxiql-api
+- collection_type: open
+  name: Orbital Query Caches Types API
+  slug: open-orbital-types-api
 common:
 - group: agent
   title: ''
@@ -148,7 +169,7 @@ plans:
 - name: Orbital Plans Pricing
   plan_count: 3
   slug: orbital-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Orbital Rate Limits
@@ -182,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/screenshots/orbital-2026-06-20T191159.png
 security:

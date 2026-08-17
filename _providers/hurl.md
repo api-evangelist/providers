@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Hurl is an open source command-line tool for running HTTP requests defined in a simple plain text format, with built-in assertions for API testing, response capturing, and request chaining. As a CLI u
@@ -100,7 +100,7 @@ plans:
 - name: Hurl Plans Pricing
   plan_count: 3
   slug: hurl-plans-pricing
-random_paper: 83
+random_paper: 145
 rate_limits:
 - limit_count: 5
   name: Hurl Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hurl/refs/heads/main/screenshots/hurl-2026-06-20T182953.png
 security:

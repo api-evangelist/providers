@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Place and track manufacturing orders.
   name: Shapeways Orders API
   slug: shapeways-orders-api
-artifact_total: 9
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shapeways Cart API
+  slug: open-shapeways-cart-api
+- collection_type: open
+  name: Shapeways Cart Materials API
+  slug: open-shapeways-materials-api
+- collection_type: open
+  name: Shapeways Cart Models API
+  slug: open-shapeways-models-api
+- collection_type: open
+  name: Shapeways Cart Orders API
+  slug: open-shapeways-orders-api
 common:
 - group: other
   title: ''
@@ -176,7 +192,7 @@ overview: 'Shapeways publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Shapeways'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 21
+random_paper: 87
 scopes:
 - name: Shapeways Scopes
   scope_count: 0
@@ -205,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

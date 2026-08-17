@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Shipment tracking.
   name: ClickPost Tracking API
   slug: clickpost-tracking-api
-artifact_total: 17
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClickPost Cancellation API
+  slug: open-clickpost-cancellation-api
+- collection_type: open
+  name: ClickPost Cancellation Label API
+  slug: open-clickpost-label-api
+- collection_type: open
+  name: ClickPost Cancellation Order API
+  slug: open-clickpost-order-api
+- collection_type: open
+  name: ClickPost Cancellation Pickup API
+  slug: open-clickpost-pickup-api
+- collection_type: open
+  name: ClickPost Cancellation Recommendation API
+  slug: open-clickpost-recommendation-api
+- collection_type: open
+  name: ClickPost Cancellation Serviceability API
+  slug: open-clickpost-serviceability-api
+- collection_type: open
+  name: ClickPost Cancellation Tracking API
+  slug: open-clickpost-tracking-api
 - collection_type: open
   name: ClickPost API
   slug: open-clickpost
@@ -154,7 +178,7 @@ plans:
 - name: Clickpost Plans Pricing
   plan_count: 3
   slug: clickpost-plans-pricing
-random_paper: 12
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Clickpost Rate Limits
@@ -194,7 +218,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/screenshots/clickpost-2026-06-20T174515.png
 security:

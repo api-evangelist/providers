@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Operations for managing worker pools
   name: Google Cloud Build WorkerPools API
   slug: google-cloud-build-workerpools-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud Build Builds API
@@ -60,8 +60,20 @@ collections:
   name: Google Cloud Build Builds WorkerPools API
   slug: postman-google-cloud-build-workerpools-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Build API
   slug: open-cloud-build-api
+- collection_type: open
+  name: Google Cloud Build Builds API
+  slug: open-google-cloud-build-builds-api
+- collection_type: open
+  name: Google Cloud Build Builds Triggers API
+  slug: open-google-cloud-build-triggers-api
+- collection_type: open
+  name: Google Cloud Build Builds WorkerPools API
+  slug: open-google-cloud-build-workerpools-api
 common:
 - group: build
   title: ''
@@ -171,7 +183,7 @@ plans:
 - name: Google Cloud Build Plans Pricing
   plan_count: 3
   slug: google-cloud-build-plans-pricing
-random_paper: 110
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Google Cloud Build Rate Limits
@@ -210,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/screenshots/google-cloud-build-2026-06-20T182048.png
 security:

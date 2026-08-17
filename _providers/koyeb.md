@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -165,8 +165,137 @@ apis:
 - description: The Users API from Koyeb — 2 operation(s) for users.
   name: Koyeb Users API
   slug: koyeb-users-api
-artifact_total: 49
+artifact_total: 92
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Koyeb Rest activity API
+  slug: open-koyeb-activity-api
+- collection_type: open
+  name: Koyeb Rest activity Apps API
+  slug: open-koyeb-apps-api
+- collection_type: open
+  name: Koyeb Rest activity Archives API
+  slug: open-koyeb-archives-api
+- collection_type: open
+  name: Koyeb Rest activity billing API
+  slug: open-koyeb-billing-api
+- collection_type: open
+  name: Koyeb Rest activity CatalogDatacenters API
+  slug: open-koyeb-catalogdatacenters-api
+- collection_type: open
+  name: Koyeb Rest activity CatalogInstances API
+  slug: open-koyeb-cataloginstances-api
+- collection_type: open
+  name: Koyeb Rest activity CatalogInstanceUsage API
+  slug: open-koyeb-cataloginstanceusage-api
+- collection_type: open
+  name: Koyeb Rest activity CatalogRegions API
+  slug: open-koyeb-catalogregions-api
+- collection_type: open
+  name: Koyeb Rest activity Compose API
+  slug: open-koyeb-compose-api
+- collection_type: open
+  name: Koyeb Rest activity Coupons API
+  slug: open-koyeb-coupons-api
+- collection_type: open
+  name: Koyeb Rest activity Credentials API
+  slug: open-koyeb-credentials-api
+- collection_type: open
+  name: Koyeb Rest activity Deployments API
+  slug: open-koyeb-deployments-api
+- collection_type: open
+  name: Koyeb Rest activity DockerHelper API
+  slug: open-koyeb-dockerhelper-api
+- collection_type: open
+  name: Koyeb Rest activity Domains API
+  slug: open-koyeb-domains-api
+- collection_type: open
+  name: Koyeb Rest activity Instances API
+  slug: open-koyeb-instances-api
+- collection_type: open
+  name: Koyeb Rest activity Intercom API
+  slug: open-koyeb-intercom-api
+- collection_type: open
+  name: Koyeb Rest activity invite API
+  slug: open-koyeb-invite-api
+- collection_type: open
+  name: Koyeb Rest activity Logs API
+  slug: open-koyeb-logs-api
+- collection_type: open
+  name: Koyeb Rest activity Metrics API
+  slug: open-koyeb-metrics-api
+- collection_type: open
+  name: Koyeb Rest activity organization API
+  slug: open-koyeb-organization-api
+- collection_type: open
+  name: Koyeb Rest activity OrganizationConfirmations API
+  slug: open-koyeb-organizationconfirmations-api
+- collection_type: open
+  name: Koyeb Rest activity OrganizationInvitations API
+  slug: open-koyeb-organizationinvitations-api
+- collection_type: open
+  name: Koyeb Rest activity OrganizationMembers API
+  slug: open-koyeb-organizationmembers-api
+- collection_type: open
+  name: Koyeb Rest activity OrganizationQuotas API
+  slug: open-koyeb-organizationquotas-api
+- collection_type: open
+  name: Koyeb Rest activity PaymentMethods API
+  slug: open-koyeb-paymentmethods-api
+- collection_type: open
+  name: Koyeb Rest activity PersistentVolumes API
+  slug: open-koyeb-persistentvolumes-api
+- collection_type: open
+  name: Koyeb Rest activity Profile API
+  slug: open-koyeb-profile-api
+- collection_type: open
+  name: Koyeb Rest activity Projects API
+  slug: open-koyeb-projects-api
+- collection_type: open
+  name: Koyeb Rest activity Provisioning API
+  slug: open-koyeb-provisioning-api
+- collection_type: open
+  name: Koyeb Rest activity Quotas API
+  slug: open-koyeb-quotas-api
+- collection_type: open
+  name: Koyeb Rest activity RegionalDeployments API
+  slug: open-koyeb-regionaldeployments-api
+- collection_type: open
+  name: Koyeb Rest activity Repositories API
+  slug: open-koyeb-repositories-api
+- collection_type: open
+  name: Koyeb Rest activity Search API
+  slug: open-koyeb-search-api
+- collection_type: open
+  name: Koyeb Rest activity Secrets API
+  slug: open-koyeb-secrets-api
+- collection_type: open
+  name: Koyeb Rest activity Services API
+  slug: open-koyeb-services-api
+- collection_type: open
+  name: Koyeb Rest activity Sessions API
+  slug: open-koyeb-sessions-api
+- collection_type: open
+  name: Koyeb Rest activity Snapshots API
+  slug: open-koyeb-snapshots-api
+- collection_type: open
+  name: Koyeb Rest activity sso API
+  slug: open-koyeb-sso-api
+- collection_type: open
+  name: Koyeb Rest activity Subscriptions API
+  slug: open-koyeb-subscriptions-api
+- collection_type: open
+  name: Koyeb Rest activity Summary API
+  slug: open-koyeb-summary-api
+- collection_type: open
+  name: Koyeb Rest activity Usages API
+  slug: open-koyeb-usages-api
+- collection_type: open
+  name: Koyeb Rest activity Users API
+  slug: open-koyeb-users-api
 - collection_type: open
   name: Koyeb Rest API
   slug: open-koyeb
@@ -235,7 +364,7 @@ plans:
 - name: Koyeb Plans Pricing
   plan_count: 3
   slug: koyeb-plans-pricing
-random_paper: 58
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Koyeb Rate Limits
@@ -260,7 +389,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/screenshots/koyeb-2026-06-20T184145.png
 security:

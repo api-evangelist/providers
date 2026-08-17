@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Endpoints related to scanning blockchain transactions
   name: Blowfish Scan transaction API
   slug: blowfish-scan-transaction-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API reference Download blocklist API
+  slug: open-blowfish-download-blocklist-api
+- collection_type: open
+  name: API reference Download blocklist Scan domain API
+  slug: open-blowfish-scan-domain-api
+- collection_type: open
+  name: API reference Download blocklist Scan message API
+  slug: open-blowfish-scan-message-api
+- collection_type: open
+  name: API reference Download blocklist Scan transaction API
+  slug: open-blowfish-scan-transaction-api
 common:
 - group: other
   title: ''
@@ -176,7 +192,7 @@ overview: 'Blowfish publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Blowfish''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, support, and 20 more developer resources.'
-random_paper: 22
+random_paper: 117
 score:
   band: developing
   composite: 43.6
@@ -206,7 +222,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/screenshots/blowfish-2026-07-25T203426.png
 security:

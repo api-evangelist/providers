@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Integration-specific datasets (Kelp, ether.fi).
@@ -40,7 +40,20 @@ apis:
 - description: Daily and hourly performance snapshots of Sommelier vaults (cellars).
   name: Sommelier Vault Data API
   slug: sommelier-vault-data-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sommelier Finance Integrations API
+  slug: open-sommelier-integrations-api
+- collection_type: open
+  name: Sommelier Finance Integrations Protocol API
+  slug: open-sommelier-protocol-api
+- collection_type: open
+  name: Sommelier Finance Integrations Vault Data API
+  slug: open-sommelier-vault-data-api
 common:
 - group: company
   title: ''
@@ -102,7 +115,7 @@ overview: 'Sommelier publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sommelier''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 13
+random_paper: 79
 score:
   band: emerging
   composite: 27.4
@@ -125,7 +138,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

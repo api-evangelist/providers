@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -57,7 +57,23 @@ apis:
 - description: The User API from Turso — 1 operation(s) for user.
   name: Turso User API
   slug: turso-user-api
-artifact_total: 22
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Turso Platform Auth API
+  slug: open-turso-auth-api
+- collection_type: open
+  name: Turso Platform Auth Locations API
+  slug: open-turso-locations-api
+- collection_type: open
+  name: Turso Platform Auth Organizations API
+  slug: open-turso-organizations-api
+- collection_type: open
+  name: Turso Platform Auth User API
+  slug: open-turso-user-api
 common:
 - group: agent
   title: ''
@@ -194,7 +210,7 @@ plans:
 - name: Turso Plans Pricing
   plan_count: 5
   slug: turso-plans-pricing
-random_paper: 93
+random_paper: 126
 rate_limits:
 - limit_count: 11
   name: Turso Rate Limits
@@ -228,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/screenshots/turso-2026-06-20T195837.png
 security:

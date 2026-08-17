@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: The Replicas Status API from ClickHouse — 1 operation(s) for replicas status.
   name: ClickHouse Replicas Status API
   slug: clickhouse-replicas-status-api
-artifact_total: 25
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI description of the documented streaming surface that ClickHouse offers through the Kafka table engine. ClickHouse itself does NOT publish a public WebSocket, Server-Sent Events, or push-style
   name: ClickHouse Kafka Table Engine (Consumer-Side Streaming)
@@ -84,6 +84,21 @@ collections:
 - collection_type: postman
   name: ClickHouse HTTP Interface Replicas Status API
   slug: postman-clickhouse-replicas-status-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClickHouse HTTP Interface API
+  slug: open-clickhouse-clickhouse-http-interface-api
+- collection_type: open
+  name: ClickHouse HTTP Interface Ping API
+  slug: open-clickhouse-ping-api
+- collection_type: open
+  name: ClickHouse HTTP Interface Play API
+  slug: open-clickhouse-play-api
+- collection_type: open
+  name: ClickHouse HTTP Interface Replicas Status API
+  slug: open-clickhouse-replicas-status-api
 - collection_type: open
   name: ClickHouse HTTP Interface
   slug: open-clickhouse
@@ -200,7 +215,7 @@ plans:
 - name: Clickhouse Plans Pricing
   plan_count: 3
   slug: clickhouse-plans-pricing
-random_paper: 106
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Clickhouse Rate Limits
@@ -242,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/screenshots/clickhouse-2026-06-20T174515.png
 security:

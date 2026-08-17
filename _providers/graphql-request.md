@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Minimal, type-safe GraphQL client API supporting HTTP and in-memory transports, custom scalars, file uploads, and a composable extension system for JavaScript and TypeScript applications.
@@ -91,7 +91,7 @@ overview: 'GraphQL Request publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   GraphQL Request''s developer surface includes documentation, pricing, and 8 more developer resources.'
-random_paper: 13
+random_paper: 83
 score:
   band: emerging
   composite: 24.1
@@ -105,7 +105,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-request/refs/heads/main/screenshots/graphql-request-2026-06-20T182337.png
 security:

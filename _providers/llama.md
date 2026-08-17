@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Meta's hosted REST API providing access to Llama large language models for chat completions, text generation, and embeddings. Authentication is via API key issued through llama.developer.meta.com.
@@ -97,7 +97,7 @@ plans:
 - name: Llama Plans Pricing
   plan_count: 3
   slug: llama-plans-pricing
-random_paper: 39
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Llama Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 16.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/screenshots/llama-2026-06-20T184621.png
 security:

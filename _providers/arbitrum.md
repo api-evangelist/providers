@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,12 +68,18 @@ apis:
 - description: Ethereum-compatible JSON-RPC 2.0 endpoint
   name: Arbitrum JSON-RPC API
   slug: arbitrum-json-rpc-api
-artifact_total: 18
+artifact_total: 20
 asyncapis:
 - description: 'AsyncAPI description of the WebSocket surface that Arbitrum exposes from publicly documented endpoints. ## Important scope notes (from Arbitrum docs) Arbitrum''s public RPC endpoints — `arb1.arbitrum.i'
   name: Arbitrum Public WebSocket APIs
   slug: arbitrum-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arbitrum JSON-RPC API
+  slug: open-arbitrum-json-rpc-api
 - collection_type: open
   name: Arbitrum JSON-RPC API
   slug: open-arbitrum
@@ -165,7 +171,7 @@ plans:
 - name: Arbitrum Plans Pricing
   plan_count: 1
   slug: arbitrum-plans-pricing
-random_paper: 30
+random_paper: 125
 rate_limits:
 - limit_count: 2
   name: Arbitrum Rate Limits
@@ -199,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/screenshots/arbitrum-2026-06-20T172358.png
 security:

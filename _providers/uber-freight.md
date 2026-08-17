@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'Core REST API for generating price quotes for truckload shipments, tendering loads to Uber Freight''s carrier network, and cancelling tenders. Returns guaranteed spot rates with expiration timestamps. '
@@ -110,7 +110,7 @@ plans:
 - name: Uber Freight Plans Pricing
   plan_count: 2
   slug: uber-freight-plans-pricing
-random_paper: 20
+random_paper: 28
 rate_limits:
 - limit_count: 4
   name: Uber Freight Rate Limits
@@ -134,7 +134,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-freight/refs/heads/main/screenshots/uber-freight-2026-06-20T195933.png
 security:

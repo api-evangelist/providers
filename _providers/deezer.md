@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,8 +75,44 @@ apis:
 - description: The User API from Deezer — 7 operation(s) for user.
   name: Deezer User API
   slug: deezer-user-api
-artifact_total: 22
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deezer Public Album API
+  slug: open-deezer-album-api
+- collection_type: open
+  name: Deezer Public Album Artist API
+  slug: open-deezer-artist-api
+- collection_type: open
+  name: Deezer Public Album Chart API
+  slug: open-deezer-chart-api
+- collection_type: open
+  name: Deezer Public Album Editorial API
+  slug: open-deezer-editorial-api
+- collection_type: open
+  name: Deezer Public Album Genre API
+  slug: open-deezer-genre-api
+- collection_type: open
+  name: Deezer Public Album Infos API
+  slug: open-deezer-infos-api
+- collection_type: open
+  name: Deezer Public Album Playlist API
+  slug: open-deezer-playlist-api
+- collection_type: open
+  name: Deezer Public Album Radio API
+  slug: open-deezer-radio-api
+- collection_type: open
+  name: Deezer Public Album Search API
+  slug: open-deezer-search-api
+- collection_type: open
+  name: Deezer Public Album Track API
+  slug: open-deezer-track-api
+- collection_type: open
+  name: Deezer Public Album User API
+  slug: open-deezer-user-api
 - collection_type: open
   name: Deezer Public API
   slug: open-deezer
@@ -153,7 +189,7 @@ plans:
 - name: Deezer Plans Pricing
   plan_count: 2
   slug: deezer-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Deezer Rate Limits
@@ -183,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/screenshots/deezer-2026-06-20T175819.png
 security:

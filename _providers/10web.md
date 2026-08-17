@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: Operations for managing account-level resources
@@ -70,11 +70,54 @@ apis:
 - description: Operations for DNS zone management
   name: 10Web Zone API
   slug: 10web-zone-api
-artifact_total: 17
+artifact_total: 31
 asyncapis:
 - description: ''
   name: 10Web Webhooks
   slug: 10web-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 10Web API V1 Account API
+  slug: open-10web-account-api
+- collection_type: open
+  name: 10Web API V1 Account Backup API
+  slug: open-10web-backup-api
+- collection_type: open
+  name: 10Web API V1 Account Builder API
+  slug: open-10web-builder-api
+- collection_type: open
+  name: 10Web API V1 Account Cache API
+  slug: open-10web-cache-api
+- collection_type: open
+  name: 10Web API V1 Account Certificate API
+  slug: open-10web-certificate-api
+- collection_type: open
+  name: 10Web API V1 Account Domain API
+  slug: open-10web-domain-api
+- collection_type: open
+  name: 10Web API V1 Account PHP Management API
+  slug: open-10web-php-management-api
+- collection_type: open
+  name: 10Web API V1 Account Section Based AI API
+  slug: open-10web-section-based-ai-api
+- collection_type: open
+  name: 10Web API V1 Account Subdomain API
+  slug: open-10web-subdomain-api
+- collection_type: open
+  name: 10Web API V1 Account Vibe Coding API
+  slug: open-10web-vibe-coding-api
+- collection_type: open
+  name: 10Web API V1 Account Website API
+  slug: open-10web-website-api
+- collection_type: open
+  name: 10Web API V1 Account WP Autologin API
+  slug: open-10web-wp-autologin-api
+- collection_type: open
+  name: 10Web API V1 Account Zone API
+  slug: open-10web-zone-api
 common:
 - group: agent
   title: ''
@@ -179,7 +222,7 @@ overview: '10Web publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   10Web''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 55
+random_paper: 117
 score:
   band: developing
   composite: 45.5
@@ -202,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/screenshots/10web-2026-07-25T181101.png
 security:

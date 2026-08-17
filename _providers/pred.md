@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -63,11 +63,36 @@ arazzos:
 - description: End-to-end signed-order trading flow on the Pred prediction exchange.
   name: PRED trading workflows
   slug: pred-trading
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: Real-time market and order data for the Pred prediction exchange, delivered over Ably WebSocket. Obtain an Ably token via POST /api/v1/auth/ably (use it as Ably authCallback). The private user channel
   name: PRED Real-Time API (Ably WebSocket)
   slug: pred-realtime-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PRED Trading Platform Authentication API
+  slug: open-pred-authentication-api
+- collection_type: open
+  name: PRED Trading Platform Authentication Market Discovery API
+  slug: open-pred-market-discovery-api
+- collection_type: open
+  name: PRED Trading Platform Authentication Orders API
+  slug: open-pred-orders-api
+- collection_type: open
+  name: PRED Trading Platform Authentication Overview API
+  slug: open-pred-overview-api
+- collection_type: open
+  name: PRED Trading Platform Authentication Portfolio API
+  slug: open-pred-portfolio-api
+- collection_type: open
+  name: PRED Trading Platform Authentication User API
+  slug: open-pred-user-api
+- collection_type: open
+  name: PRED Trading Platform Authentication WebSocket API
+  slug: open-pred-websocket-api
 common:
 - group: auth
   title: ''
@@ -204,7 +229,7 @@ overview: 'Pred publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Pred''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 22 more developer resources.'
-random_paper: 67
+random_paper: 129
 score:
   band: developing
   composite: 45.1
@@ -234,7 +259,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

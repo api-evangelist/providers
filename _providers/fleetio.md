@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The Work Orders API from Fleetio — 2 operation(s) for work orders.
   name: Fleetio Work Orders API
   slug: fleetio-work-orders-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fleetio Developer Contacts API
+  slug: open-fleetio-contacts-api
+- collection_type: open
+  name: Fleetio Developer Contacts Fuel Entries API
+  slug: open-fleetio-fuel-entries-api
+- collection_type: open
+  name: Fleetio Developer Contacts Inspections API
+  slug: open-fleetio-inspections-api
+- collection_type: open
+  name: Fleetio Developer Contacts Inventory Journal Entries API
+  slug: open-fleetio-inventory-journal-entries-api
+- collection_type: open
+  name: Fleetio Developer Contacts Issues API
+  slug: open-fleetio-issues-api
+- collection_type: open
+  name: Fleetio Developer Contacts Parts API
+  slug: open-fleetio-parts-api
+- collection_type: open
+  name: Fleetio Developer Contacts Service Entries API
+  slug: open-fleetio-service-entries-api
+- collection_type: open
+  name: Fleetio Developer Contacts Service Reminders API
+  slug: open-fleetio-service-reminders-api
+- collection_type: open
+  name: Fleetio Developer Contacts Vehicles API
+  slug: open-fleetio-vehicles-api
+- collection_type: open
+  name: Fleetio Developer Contacts Webhooks API
+  slug: open-fleetio-webhooks-api
+- collection_type: open
+  name: Fleetio Developer Contacts Work Orders API
+  slug: open-fleetio-work-orders-api
 - collection_type: open
   name: Fleetio Developer API
   slug: open-fleetio
@@ -142,7 +178,7 @@ plans:
 - name: Fleetio Plans Pricing
   plan_count: 3
   slug: fleetio-plans-pricing
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 2
   name: Fleetio Rate Limits
@@ -167,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/screenshots/fleetio-2026-07-25T214735.png
 security:

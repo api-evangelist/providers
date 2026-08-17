@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -101,7 +101,7 @@ plans:
 - name: Doodles Plans Pricing
   plan_count: 0
   slug: doodles-plans-pricing
-random_paper: 26
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Doodles Rate Limits
@@ -109,6 +109,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -116,8 +117,10 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 13.2
+  previous_composite: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Doodles Authentication

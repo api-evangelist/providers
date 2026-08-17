@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Webhooks API from Hyperline — 3 operation(s) for webhooks.
   name: Hyperline Webhooks API
   slug: hyperline-webhooks-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hyperline Billable Events API
+  slug: open-hyperline-billable-events-api
+- collection_type: open
+  name: Hyperline Billable Events Customers API
+  slug: open-hyperline-customers-api
+- collection_type: open
+  name: Hyperline Billable Events Invoices API
+  slug: open-hyperline-invoices-api
+- collection_type: open
+  name: Hyperline Billable Events Payments API
+  slug: open-hyperline-payments-api
+- collection_type: open
+  name: Hyperline Billable Events Products API
+  slug: open-hyperline-products-api
+- collection_type: open
+  name: Hyperline Billable Events Subscriptions API
+  slug: open-hyperline-subscriptions-api
+- collection_type: open
+  name: Hyperline Billable Events Webhooks API
+  slug: open-hyperline-webhooks-api
 - collection_type: open
   name: Hyperline API
   slug: open-hyperline
@@ -130,7 +154,7 @@ plans:
 - name: Hyperline Plans Pricing
   plan_count: 3
   slug: hyperline-plans-pricing
-random_paper: 16
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Hyperline Rate Limits
@@ -161,7 +185,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/screenshots/hyperline-2026-06-20T183050.png
 security:

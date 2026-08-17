@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,8 +72,38 @@ apis:
 - description: The Vehicles API from Chicago Transit Authority — 1 operation(s) for vehicles.
   name: Chicago Transit Authority Vehicles API
   slug: chicago-transit-authority-vehicles-api
-artifact_total: 39
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CTA Bus Tracker Arrivals API
+  slug: open-chicago-transit-authority-arrivals-api
+- collection_type: open
+  name: CTA Bus Tracker Arrivals Bulletins API
+  slug: open-chicago-transit-authority-bulletins-api
+- collection_type: open
+  name: CTA Bus Tracker Arrivals Follow API
+  slug: open-chicago-transit-authority-follow-api
+- collection_type: open
+  name: CTA Bus Tracker Arrivals Locations API
+  slug: open-chicago-transit-authority-locations-api
+- collection_type: open
+  name: CTA Bus Tracker Arrivals Predictions API
+  slug: open-chicago-transit-authority-predictions-api
+- collection_type: open
+  name: CTA Bus Tracker Arrivals Routes API
+  slug: open-chicago-transit-authority-routes-api
+- collection_type: open
+  name: CTA Bus Tracker Arrivals Stops API
+  slug: open-chicago-transit-authority-stops-api
+- collection_type: open
+  name: CTA Bus Tracker Arrivals System API
+  slug: open-chicago-transit-authority-system-api
+- collection_type: open
+  name: CTA Bus Tracker Arrivals Vehicles API
+  slug: open-chicago-transit-authority-vehicles-api
 - collection_type: open
   name: CTA Bus Tracker API
   slug: open-cta-bus-tracker
@@ -184,7 +214,7 @@ plans:
 - name: Chicago Transit Authority Plans Pricing
   plan_count: 3
   slug: chicago-transit-authority-plans-pricing
-random_paper: 62
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Chicago Transit Authority Rate Limits
@@ -215,7 +245,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/screenshots/chicago-transit-authority-2026-06-20T174303.png
 security:

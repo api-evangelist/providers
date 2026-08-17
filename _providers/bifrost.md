@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,7 +52,17 @@ apis:
 - description: Gateway health and status endpoints
   name: Bifrost Health API
   slug: bifrost-health-api
-artifact_total: 54
+artifact_total: 57
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bifrost HTTP Gateway Chat API
+  slug: open-bifrost-chat-api
+- collection_type: open
+  name: Bifrost HTTP Gateway Chat Health API
+  slug: open-bifrost-health-api
 common:
 - group: operate
   title: ''
@@ -286,7 +296,7 @@ plans:
 - name: Bifrost Plans Pricing
   plan_count: 2
   slug: bifrost-plans-pricing
-random_paper: 41
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Bifrost Rate Limits
@@ -328,7 +338,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/screenshots/bifrost-2026-06-20T173231.png
 security:

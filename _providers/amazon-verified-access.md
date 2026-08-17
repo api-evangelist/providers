@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -116,8 +116,89 @@ apis:
 - description: The ModifyVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccesstrustprovider.
   name: Amazon Verified Access ModifyVerifiedAccessTrustProvider API
   slug: amazon-verified-access-modifyverifiedaccesstrustprovider-api
-artifact_total: 40
+artifact_total: 67
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider API
+  slug: open-amazon-verified-access-attachverifiedaccesstrustprovider-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider CreateVerifiedAccessEndpoint API
+  slug: open-amazon-verified-access-createverifiedaccessendpoint-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider CreateVerifiedAccessGroup API
+  slug: open-amazon-verified-access-createverifiedaccessgroup-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider CreateVerifiedAccessInstance API
+  slug: open-amazon-verified-access-createverifiedaccessinstance-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider CreateVerifiedAccessTrustProvider API
+  slug: open-amazon-verified-access-createverifiedaccesstrustprovider-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DeleteVerifiedAccessEndpoint API
+  slug: open-amazon-verified-access-deleteverifiedaccessendpoint-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DeleteVerifiedAccessGroup API
+  slug: open-amazon-verified-access-deleteverifiedaccessgroup-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DeleteVerifiedAccessInstance API
+  slug: open-amazon-verified-access-deleteverifiedaccessinstance-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DeleteVerifiedAccessTrustProvider API
+  slug: open-amazon-verified-access-deleteverifiedaccesstrustprovider-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DescribeVerifiedAccessEndpoints API
+  slug: open-amazon-verified-access-describeverifiedaccessendpoints-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DescribeVerifiedAccessGroups API
+  slug: open-amazon-verified-access-describeverifiedaccessgroups-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DescribeVerifiedAccessInstanceLoggingConfigurations API
+  slug: open-amazon-verified-access-describeverifiedaccessinstanceloggingconfigurations-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DescribeVerifiedAccessInstances API
+  slug: open-amazon-verified-access-describeverifiedaccessinstances-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DescribeVerifiedAccessTrustProviders API
+  slug: open-amazon-verified-access-describeverifiedaccesstrustproviders-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider DetachVerifiedAccessTrustProvider API
+  slug: open-amazon-verified-access-detachverifiedaccesstrustprovider-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider ExportVerifiedAccessInstanceClientConfiguration API
+  slug: open-amazon-verified-access-exportverifiedaccessinstanceclientconfiguration-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider GetVerifiedAccessEndpointPolicy API
+  slug: open-amazon-verified-access-getverifiedaccessendpointpolicy-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider GetVerifiedAccessEndpointTargets API
+  slug: open-amazon-verified-access-getverifiedaccessendpointtargets-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider GetVerifiedAccessGroupPolicy API
+  slug: open-amazon-verified-access-getverifiedaccessgrouppolicy-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessEndpoint API
+  slug: open-amazon-verified-access-modifyverifiedaccessendpoint-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessEndpointPolicy API
+  slug: open-amazon-verified-access-modifyverifiedaccessendpointpolicy-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessGroup API
+  slug: open-amazon-verified-access-modifyverifiedaccessgroup-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessGroupPolicy API
+  slug: open-amazon-verified-access-modifyverifiedaccessgrouppolicy-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessInstance API
+  slug: open-amazon-verified-access-modifyverifiedaccessinstance-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessInstanceLoggingConfiguration API
+  slug: open-amazon-verified-access-modifyverifiedaccessinstanceloggingconfiguration-api
+- collection_type: open
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessTrustProvider API
+  slug: open-amazon-verified-access-modifyverifiedaccesstrustprovider-api
 - collection_type: open
   name: Amazon Verified Access
   slug: open-amazon-verified-access
@@ -227,7 +308,7 @@ plans:
 - name: Amazon Verified Access Plans Pricing
   plan_count: 3
   slug: amazon-verified-access-plans-pricing
-random_paper: 48
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Amazon Verified Access Rate Limits
@@ -261,7 +342,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/screenshots/amazon-verified-access-2026-06-20T171841.png
 security:

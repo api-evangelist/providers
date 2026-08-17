@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Using AI to predict and prevent cardiac emergencies
   url: https://news.bostonscientific.com/ai-diagnostic-heart-failure-symptoms-arrythmia
-random_paper: 83
+random_paper: 124
 score:
   band: minimal
   composite: 6.0
@@ -108,7 +108,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boston-scientific/refs/heads/main/screenshots/boston-scientific-2026-06-20T173616.png
 security:

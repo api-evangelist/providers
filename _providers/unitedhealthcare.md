@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,14 +60,38 @@ apis:
 - description: Provider demographics and directory
   name: UnitedHealthcare Providers API
   slug: unitedhealthcare-providers-api
-artifact_total: 53
+artifact_total: 61
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UnitedHealthcare Interoperability Claims API
+  slug: open-unitedhealthcare-claims-api
+- collection_type: open
+  name: UnitedHealthcare Interoperability Claims Eligibility API
+  slug: open-unitedhealthcare-eligibility-api
+- collection_type: open
+  name: UnitedHealthcare Interoperability Claims Formulary API
+  slug: open-unitedhealthcare-formulary-api
 - collection_type: open
   name: UnitedHealthcare Interoperability API
   slug: open-unitedhealthcare-interoperability-api
 - collection_type: open
+  name: UnitedHealthcare Interoperability Claims Patient Access API
+  slug: open-unitedhealthcare-patient-access-api
+- collection_type: open
+  name: UnitedHealthcare Interoperability Claims Prior Authorization API
+  slug: open-unitedhealthcare-prior-authorization-api
+- collection_type: open
   name: UnitedHealthcare Provider API
   slug: open-unitedhealthcare-provider-api
+- collection_type: open
+  name: UnitedHealthcare Interoperability Claims Provider Directory API
+  slug: open-unitedhealthcare-provider-directory-api
+- collection_type: open
+  name: UnitedHealthcare Interoperability Claims Providers API
+  slug: open-unitedhealthcare-providers-api
 common:
 - group: agent
   title: ''
@@ -226,7 +250,7 @@ plans:
 - name: Unitedhealthcare Plans Pricing
   plan_count: 3
   slug: unitedhealthcare-plans-pricing
-random_paper: 10
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Unitedhealthcare Rate Limits
@@ -274,7 +298,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/screenshots/unitedhealthcare-2026-06-20T200108.png
 security:

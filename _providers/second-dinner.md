@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ overview: 'Second Dinner is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Second Dinner''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 1
+random_paper: 129
 score:
   band: minimal
   composite: 10.0
@@ -106,7 +106,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

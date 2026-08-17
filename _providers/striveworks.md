@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Per-tenant REST API for the Chariot AI operations platform, organized as versioned microservice paths under /api/{service}/{version}/ — identity, training, evaluation, notification, catalog, serve and
@@ -115,7 +115,7 @@ overview: 'Striveworks publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Striveworks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 12 more developer resources.'
-random_paper: 35
+random_paper: 43
 score:
   band: emerging
   composite: 25.1
@@ -137,7 +137,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

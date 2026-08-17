@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -96,7 +96,68 @@ apis:
 - description: The Users API from Edge Delta — 2 operation(s) for users.
   name: Edge Delta Users API
   slug: edge-delta-users-api
-artifact_total: 24
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Edge Delta Access API
+  slug: open-edge-delta-access-api
+- collection_type: open
+  name: Edge Delta Access Add Source API
+  slug: open-edge-delta-add-source-api
+- collection_type: open
+  name: Edge Delta Access Agent Configs API
+  slug: open-edge-delta-agent-configs-api
+- collection_type: open
+  name: Edge Delta Access AI API
+  slug: open-edge-delta-ai-api
+- collection_type: open
+  name: Edge Delta Access Event Search API
+  slug: open-edge-delta-event-search-api
+- collection_type: open
+  name: Edge Delta Access Get Dashboard API
+  slug: open-edge-delta-get-dashboard-api
+- collection_type: open
+  name: Edge Delta Access Get Dashboards API
+  slug: open-edge-delta-get-dashboards-api
+- collection_type: open
+  name: Edge Delta Access Get Metrics API
+  slug: open-edge-delta-get-metrics-api
+- collection_type: open
+  name: Edge Delta Access Group Members API
+  slug: open-edge-delta-group-members-api
+- collection_type: open
+  name: Edge Delta Access Groups API
+  slug: open-edge-delta-groups-api
+- collection_type: open
+  name: Edge Delta Access Integrations API
+  slug: open-edge-delta-integrations-api
+- collection_type: open
+  name: Edge Delta Access Log Search API
+  slug: open-edge-delta-log-search-api
+- collection_type: open
+  name: Edge Delta Access Lookup Tables API
+  slug: open-edge-delta-lookup-tables-api
+- collection_type: open
+  name: Edge Delta Access Pattern Stats API
+  slug: open-edge-delta-pattern-stats-api
+- collection_type: open
+  name: Edge Delta Access Pipeline API
+  slug: open-edge-delta-pipeline-api
+- collection_type: open
+  name: Edge Delta Access Public API
+  slug: open-edge-delta-public-api
+- collection_type: open
+  name: Edge Delta Access Rehydrations API
+  slug: open-edge-delta-rehydrations-api
+- collection_type: open
+  name: Edge Delta Access ServedByMCP API
+  slug: open-edge-delta-servedbymcp-api
+- collection_type: open
+  name: Edge Delta Access Users API
+  slug: open-edge-delta-users-api
 common:
 - group: start
   title: ''
@@ -234,7 +295,7 @@ overview: 'Edge Delta publishes 19 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Edge Delta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 12
+random_paper: 78
 score:
   band: developing
   composite: 54.4
@@ -258,7 +319,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-delta/refs/heads/main/screenshots/edge-delta-2026-07-25T212824.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 210
   human_in_the_loop: 9
@@ -147,17 +147,125 @@ apis:
 - description: Manage users and passwords.
   name: Unleash Users API
   slug: unleash-users-api
-artifact_total: 53
+artifact_total: 89
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unleash Admin Addons API
+  slug: open-unleash-addons-api
 - collection_type: open
   name: Unleash Admin API
   slug: open-unleash-admin-api
 - collection_type: open
-  name: Unleash Client API
+  name: Unleash Admin Addons Admin UI API
+  slug: open-unleash-admin-ui-api
+- collection_type: open
+  name: Unleash Admin Addons API tokens API
+  slug: open-unleash-api-tokens-api
+- collection_type: open
+  name: Unleash Admin Addons Archive API
+  slug: open-unleash-archive-api
+- collection_type: open
+  name: Unleash Admin Addons Auth API
+  slug: open-unleash-auth-api
+- collection_type: open
+  name: Unleash Admin Addons Banners API
+  slug: open-unleash-banners-api
+- collection_type: open
+  name: Unleash Admin Addons Change Requests API
+  slug: open-unleash-change-requests-api
+- collection_type: open
+  name: Unleash Admin Addons Client API
   slug: open-unleash-client-api
+- collection_type: open
+  name: Unleash Admin Addons Context API
+  slug: open-unleash-context-api
+- collection_type: open
+  name: Unleash Admin Addons Dependencies API
+  slug: open-unleash-dependencies-api
+- collection_type: open
+  name: Unleash Admin Addons Environments API
+  slug: open-unleash-environments-api
+- collection_type: open
+  name: Unleash Admin Addons Events API
+  slug: open-unleash-events-api
+- collection_type: open
+  name: Unleash Admin Addons Feature Types API
+  slug: open-unleash-feature-types-api
+- collection_type: open
+  name: Unleash Admin Addons Features API
+  slug: open-unleash-features-api
+- collection_type: open
+  name: Unleash Admin Addons Frontend API API
+  slug: open-unleash-frontend-api-api
 - collection_type: open
   name: Unleash Frontend API
   slug: open-unleash-frontend-api
+- collection_type: open
+  name: Unleash Admin Addons Import/Export API
+  slug: open-unleash-import-export-api
+- collection_type: open
+  name: Unleash Admin Addons Instance Admin API
+  slug: open-unleash-instance-admin-api
+- collection_type: open
+  name: Unleash Admin Addons Maintenance API
+  slug: open-unleash-maintenance-api
+- collection_type: open
+  name: Unleash Admin Addons Metrics API
+  slug: open-unleash-metrics-api
+- collection_type: open
+  name: Unleash Admin Addons Notifications API
+  slug: open-unleash-notifications-api
+- collection_type: open
+  name: Unleash Admin Addons Operational API
+  slug: open-unleash-operational-api
+- collection_type: open
+  name: Unleash Admin Addons Personal access tokens API
+  slug: open-unleash-personal-access-tokens-api
+- collection_type: open
+  name: Unleash Admin Addons Playground API
+  slug: open-unleash-playground-api
+- collection_type: open
+  name: Unleash Admin Addons Projects API
+  slug: open-unleash-projects-api
+- collection_type: open
+  name: Unleash Admin Addons Public signup tokens API
+  slug: open-unleash-public-signup-tokens-api
+- collection_type: open
+  name: Unleash Admin Addons Release Templates API
+  slug: open-unleash-release-templates-api
+- collection_type: open
+  name: Unleash Admin Addons Search API
+  slug: open-unleash-search-api
+- collection_type: open
+  name: Unleash Admin Addons Segments API
+  slug: open-unleash-segments-api
+- collection_type: open
+  name: Unleash Admin Addons Service Accounts API
+  slug: open-unleash-service-accounts-api
+- collection_type: open
+  name: Unleash Admin Addons Strategies API
+  slug: open-unleash-strategies-api
+- collection_type: open
+  name: Unleash Admin Addons Tags API
+  slug: open-unleash-tags-api
+- collection_type: open
+  name: Unleash Admin Addons Telemetry API
+  slug: open-unleash-telemetry-api
+- collection_type: open
+  name: Unleash Admin Addons Unknown Flags API
+  slug: open-unleash-unknown-flags-api
+- collection_type: open
+  name: Unleash Admin Addons Unleash Edge API
+  slug: open-unleash-unleash-edge-api
+- collection_type: open
+  name: Unleash Admin Addons Unstable API
+  slug: open-unleash-unstable-api
+- collection_type: open
+  name: Unleash Admin Addons Users API
+  slug: open-unleash-users-api
 common:
 - group: agent
   title: ''
@@ -265,7 +373,7 @@ plans:
 - name: Unleash Plans Pricing
   plan_count: 2
   slug: unleash-plans-pricing
-random_paper: 32
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Unleash Rate Limits
@@ -307,7 +415,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/screenshots/unleash-2026-06-20T200436.png
 security:

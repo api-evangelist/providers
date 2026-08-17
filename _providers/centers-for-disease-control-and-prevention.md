@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,8 +66,17 @@ apis:
 - description: Next-generation query and export endpoints.
   name: Centers for Disease Control and Prevention SODA v3 API
   slug: centers-for-disease-control-and-prevention-soda-v3-api
-artifact_total: 16
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CDC Socrata Open Data API (data.cdc.gov) SODA v2.1 API
+  slug: open-centers-for-disease-control-and-prevention-soda-v2-1-api
+- collection_type: open
+  name: CDC Socrata Open Data API (data.cdc.gov) SODA v2.1 SODA v3 API
+  slug: open-centers-for-disease-control-and-prevention-soda-v3-api
 - collection_type: open
   name: CDC Socrata Open Data API (data.cdc.gov)
   slug: open-centers-for-disease-control-and-prevention
@@ -148,7 +157,7 @@ plans:
 - name: Centers For Disease Control And Prevention Plans Pricing
   plan_count: 3
   slug: centers-for-disease-control-and-prevention-plans-pricing
-random_paper: 16
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Centers For Disease Control And Prevention Rate Limits
@@ -179,7 +188,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/screenshots/centers-for-disease-control-and-prevention-2026-06-20T174125.png
 security:

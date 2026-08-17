@@ -1,11 +1,15 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Contact Sales
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://www.actively.ai/sitemap.xml
+  - https://www.actively.ai/pricing
+  - https://app.actively.ai/
+  - https://www.actively.ai/products/api-platform
   trial: false
   try_now: false
 agent_readiness:
@@ -14,7 +18,7 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +26,18 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 23.0
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: Actively's hosted (remote) Model Context Protocol server, which connects its Per-Account Agents — per-account research, strategy and persistent memory — into external AI clients such as ChatGPT, Claud
+  name: Actively Intelligence MCP
+  slug: actively-intelligence-mcp
+artifact_total: 9
 common:
 - group: design
   title: ''
@@ -59,10 +67,46 @@ common:
   title: ''
   type: DomainSecurity
   url: security/actively-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/actively-trust-center.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/actively-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/actively-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/actively-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/actively-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/actively-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/actively-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/actively-rate-limits.yml
 - group: company
   title: ''
   type: Blog
   url: https://www.actively.ai/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/actively-ai
 - group: start
   title: ''
   type: SignUp
@@ -87,35 +131,52 @@ mcp_servers:
 - description: ''
   name: actively-mcp.yml
   slug: actively-mcpyml
-modified: '2026-07-17'
+modified: '2026-08-13'
 name: Actively
 nav: Providers
 network: true
-overview: 'Actively is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, AI Agents, Revenue Intelligence, and Sales.
+overview: 'Actively publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, AI Agents, Revenue Intelligence, and Sales.
 
 
-  Actively''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 25
+  Actively''s developer surface includes authentication, engineering blog, signup flow, and 18 more developer resources.'
+plans:
+- name: Actively Plans Pricing
+  plan_count: 0
+  slug: actively-plans-pricing
+random_paper: 120
+rate_limits:
+- limit_count: 0
+  name: Actively Rate Limits
+  slug: actively-rate-limits
+scopes:
+- name: Actively Scopes
+  scope_count: 0
+  slug: actively-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 25.5
+  delta: 6.3
   facets:
-    commercial_clarity: 42.1
+    commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 57.4
+    developer_ergonomics: 21.7
+    discoverability: 75.9
     governance: 12.5
-    operational_transparency: 10.5
+    operational_transparency: 15.8
   previous_composite: 19.2
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/screenshots/actively-2026-07-25T181529.png
 security:
+- kind: authentication
+  name: Actively Authentication
+  slug: actively-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Actively Domain Security
   slug: actively-domain-security
@@ -124,6 +185,10 @@ security:
   name: Actively Vulnerability Disclosure
   slug: actively-vulnerability-disclosure
   summary_line: contact published
+- kind: trust-center
+  name: Actively Trust Center
+  slug: actively-trust-center
+  summary_line: SOC 2 Type II, ISO 27001, HITRUST, GDPR, CCPA
 slug: actively
 tags:
 - Company
@@ -133,5 +198,9 @@ tags:
 - Sales
 - Go To Market
 - MCP
+- OAuth
+- Model Context Protocol
+- Sales Intelligence
+- Enterprise Software
 website: https://www.actively.ai/
 ---

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The SST framework is an open source CLI and component library distributed via npm (`sst`) and as a Go-based CLI. Developers describe their full-stack application in a single `sst.config.ts` file using
@@ -141,7 +141,7 @@ overview: 'SST publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SST''s developer surface includes documentation, engineering blog, YouTube channel, tutorials, code examples, and 13 more developer resources.'
-random_paper: 110
+random_paper: 114
 score:
   band: minimal
   composite: 9.7
@@ -155,7 +155,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Signatures API from Apache PDFBox — 1 operation(s) for signatures.
   name: Apache PDFBox Signatures API
   slug: apache-pdfbox-signatures-api
-artifact_total: 63
+artifact_total: 69
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache PDFBox Documents API
+  slug: open-apache-pdfbox-documents-api
+- collection_type: open
+  name: Apache PDFBox Documents Forms API
+  slug: open-apache-pdfbox-forms-api
+- collection_type: open
+  name: Apache PDFBox Documents Operations API
+  slug: open-apache-pdfbox-operations-api
+- collection_type: open
+  name: Apache PDFBox Documents Pages API
+  slug: open-apache-pdfbox-pages-api
+- collection_type: open
+  name: Apache PDFBox Documents Signatures API
+  slug: open-apache-pdfbox-signatures-api
 common:
 - group: agent
   title: ''
@@ -245,7 +264,7 @@ plans:
 - name: Apache Pdfbox Plans Pricing
   plan_count: 3
   slug: apache-pdfbox-plans-pricing
-random_paper: 98
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Apache Pdfbox Rate Limits
@@ -287,7 +306,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/screenshots/apache-pdfbox-2026-06-20T172133.png
 security:

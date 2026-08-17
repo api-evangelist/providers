@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Published pages and the site-wide search index.
@@ -42,7 +42,32 @@ apis:
 - description: Registered post types, statuses, taxonomies and terms.
   name: Kartos Therapeutics Taxonomy API
   slug: kartos-therapeutics-taxonomy-api
-artifact_total: 9
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kartos Therapeutics Content API
+  slug: open-kartos-therapeutics-content-api
+- collection_type: open
+  name: Kartos Therapeutics Content Discovery API
+  slug: open-kartos-therapeutics-discovery-api
+- collection_type: open
+  name: Kartos Therapeutics Content Media API
+  slug: open-kartos-therapeutics-media-api
+- collection_type: open
+  name: Kartos Therapeutics Content Oembed API
+  slug: open-kartos-therapeutics-oembed-api
+- collection_type: open
+  name: Kartos Therapeutics Content People API
+  slug: open-kartos-therapeutics-people-api
+- collection_type: open
+  name: Kartos Therapeutics Content Science API
+  slug: open-kartos-therapeutics-science-api
+- collection_type: open
+  name: Kartos Therapeutics Content Taxonomy API
+  slug: open-kartos-therapeutics-taxonomy-api
 common:
 - group: other
   title: ''
@@ -145,7 +170,7 @@ overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   Kartos Therapeutics'' developer surface includes support, authentication, and 20 more developer resources.'
-random_paper: 82
+random_paper: 65
 score:
   band: emerging
   composite: 19.7
@@ -173,7 +198,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/screenshots/kartos-therapeutics-2026-08-07T171100.png
 security:

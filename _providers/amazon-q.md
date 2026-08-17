@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: The Indices API from Amazon Q — 1 operation(s) for indices.
   name: Amazon Q Indices API
   slug: amazon-q-indices-api
-artifact_total: 48
+artifact_total: 53
 collections:
 - collection_type: postman
   name: Amazon Q Business Applications API
@@ -74,6 +74,21 @@ collections:
 - collection_type: postman
   name: Amazon Q Business Applications Indices API
   slug: postman-amazon-q-indices-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Q Business Applications API
+  slug: open-amazon-q-applications-api
+- collection_type: open
+  name: Amazon Q Business Applications Conversations API
+  slug: open-amazon-q-conversations-api
+- collection_type: open
+  name: Amazon Q Business Applications Data Sources API
+  slug: open-amazon-q-data-sources-api
+- collection_type: open
+  name: Amazon Q Business Applications Indices API
+  slug: open-amazon-q-indices-api
 - collection_type: open
   name: Amazon Q Business API
   slug: open-amazon-q
@@ -384,7 +399,7 @@ plans:
 - name: Amazon Q Plans Pricing
   plan_count: 7
   slug: amazon-q-plans-pricing
-random_paper: 84
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Amazon Q Rate Limits
@@ -426,7 +441,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/screenshots/amazon-q-2026-06-20T171808.png
 security:

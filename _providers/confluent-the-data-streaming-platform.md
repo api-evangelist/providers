@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -72,8 +72,26 @@ apis:
 - description: The Service Accounts API from Confluent | the Data Streaming Platform — 2 operation(s) for service accounts.
   name: Confluent | the Data Streaming Platform Service Accounts API
   slug: confluent-the-data-streaming-platform-service-accounts-api
-artifact_total: 31
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Confluent Cloud REST API (selected) API Keys API
+  slug: open-confluent-the-data-streaming-platform-api-keys-api
+- collection_type: open
+  name: Confluent Cloud REST API (selected) API Keys Clusters API
+  slug: open-confluent-the-data-streaming-platform-clusters-api
+- collection_type: open
+  name: Confluent Cloud REST API (selected) API Keys Environments API
+  slug: open-confluent-the-data-streaming-platform-environments-api
+- collection_type: open
+  name: Confluent Cloud REST API (selected) API Keys Organizations API
+  slug: open-confluent-the-data-streaming-platform-organizations-api
+- collection_type: open
+  name: Confluent Cloud REST API (selected) API Keys Service Accounts API
+  slug: open-confluent-the-data-streaming-platform-service-accounts-api
 - collection_type: open
   name: Confluent Cloud REST API (selected)
   slug: open-confluent-the-data-streaming-platform
@@ -178,7 +196,7 @@ plans:
 - name: Confluent The Data Streaming Platform Plans Pricing
   plan_count: 3
   slug: confluent-the-data-streaming-platform-plans-pricing
-random_paper: 4
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Confluent The Data Streaming Platform Rate Limits
@@ -203,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent-the-data-streaming-platform/refs/heads/main/screenshots/confluent-the-data-streaming-platform-2026-06-20T174902.png
 security:

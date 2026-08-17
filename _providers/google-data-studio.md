@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -57,7 +57,7 @@ apis:
 - description: Operations for creating and configuring pre-built Looker Studio reports
   name: Google Data Studio Reports API
   slug: google-data-studio-reports-api
-artifact_total: 27
+artifact_total: 32
 collections:
 - collection_type: postman
   name: Google Data Studio Assets API
@@ -72,11 +72,26 @@ collections:
   name: Google Data Studio Assets Reports API
   slug: postman-google-data-studio-reports-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Data Studio API
   slug: open-google-data-studio-api
 - collection_type: open
+  name: Google Data Studio Assets API
+  slug: open-google-data-studio-assets-api
+- collection_type: open
+  name: Google Data Studio Assets Embedding API
+  slug: open-google-data-studio-embedding-api
+- collection_type: open
   name: Google Data Studio Looker Studio Linking API
   slug: open-google-data-studio-linking-api
+- collection_type: open
+  name: Google Data Studio Assets Permissions API
+  slug: open-google-data-studio-permissions-api
+- collection_type: open
+  name: Google Data Studio Assets Reports API
+  slug: open-google-data-studio-reports-api
 common:
 - group: build
   title: ''
@@ -246,7 +261,7 @@ plans:
 - name: Google Data Studio Plans Pricing
   plan_count: 6
   slug: google-data-studio-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 13
   name: Google Data Studio Rate Limits
@@ -285,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/screenshots/google-data-studio-2026-06-20T182153.png
 security:

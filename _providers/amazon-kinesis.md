@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -97,7 +97,7 @@ arazzos:
 - description: Resize a provisioned stream's shard count, wait for ACTIVE, then list shards.
   name: Amazon Kinesis Scale Stream Shard Count
   slug: amazon-kinesis-scale-stream-shard-count-workflow
-artifact_total: 44
+artifact_total: 56
 asyncapis:
 - description: Amazon Kinesis Data Streams is a massively scalable and durable real-time data streaming service. This AsyncAPI specification describes the event-driven consumer patterns for Kinesis Data Streams, inc
   name: Amazon Kinesis Data Streams
@@ -107,8 +107,44 @@ collections:
   name: Amazon Kinesis Data Streams API
   slug: postman-amazon-kinesis-data-streams
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Kinesis Data Streams Account API
+  slug: open-amazon-kinesis-account-api
+- collection_type: open
+  name: Amazon Kinesis Data Streams Account Consumers API
+  slug: open-amazon-kinesis-consumers-api
+- collection_type: open
   name: Amazon Kinesis Data Streams API
   slug: open-amazon-kinesis-data-streams
+- collection_type: open
+  name: Amazon Kinesis Data Streams Account Encryption API
+  slug: open-amazon-kinesis-encryption-api
+- collection_type: open
+  name: Amazon Kinesis Data Streams Account Monitoring API
+  slug: open-amazon-kinesis-monitoring-api
+- collection_type: open
+  name: Amazon Kinesis Data Streams Account Policies API
+  slug: open-amazon-kinesis-policies-api
+- collection_type: open
+  name: Amazon Kinesis Data Streams Account Records API
+  slug: open-amazon-kinesis-records-api
+- collection_type: open
+  name: Amazon Kinesis Data Streams Account Shards API
+  slug: open-amazon-kinesis-shards-api
+- collection_type: open
+  name: Amazon Kinesis Data Account Streams API
+  slug: open-amazon-kinesis-streams-api
+- collection_type: open
+  name: 'Amazon Kinesis Data Streams Account #X Amz Target=Kinesis 20131202.AddTagsToStream API'
+  slug: open-amazon-kinesis-x-amz-target-kinesis-20131202-addtagstostream-api
+- collection_type: open
+  name: 'Amazon Kinesis Data Streams Account #X Amz Target=Kinesis 20131202.ListTagsForStream API'
+  slug: open-amazon-kinesis-x-amz-target-kinesis-20131202-listtagsforstream-api
+- collection_type: open
+  name: 'Amazon Kinesis Data Streams Account #X Amz Target=Kinesis 20131202.RemoveTagsFromStream API'
+  slug: open-amazon-kinesis-x-amz-target-kinesis-20131202-removetagsfromstream-api
 - collection_type: open
   name: Amazon Kinesis API
   slug: open-amazon-kinesis
@@ -314,7 +350,7 @@ plans:
 - name: Amazon Kinesis Plans Pricing
   plan_count: 3
   slug: amazon-kinesis-plans-pricing
-random_paper: 9
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Amazon Kinesis Rate Limits
@@ -364,7 +400,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/screenshots/amazon-kinesis-2026-06-20T171718.png
 security:

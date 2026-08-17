@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Contact sales
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - authentication
+  - https://www.extole.com/pricing/
+  - https://docs.extole.com/reference/authentication-overview
   trial: false
   try_now: false
 agent_readiness:
@@ -24,12 +25,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-12'
+  score: 49.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 400
   human_in_the_loop: 151
@@ -171,11 +172,147 @@ apis:
 - description: The Zone Rendering API from Extole — 2 operation(s) for zone rendering.
   name: Extole Zone Rendering API
   slug: extole-zone-rendering-api
-artifact_total: 51
+artifact_total: 99
 asyncapis:
 - description: ''
   name: Extole Webhooks
   slug: extole-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences API
+  slug: open-extole-audiences-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Authentication API
+  slug: open-extole-authentication-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Batch Jobs API
+  slug: open-extole-batch-jobs-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Blocks API
+  slug: open-extole-blocks-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Campaign Controllers Actions API
+  slug: open-extole-campaign-controllers-actions-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Campaign Controllers API
+  slug: open-extole-campaign-controllers-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Campaign Controllers Triggers API
+  slug: open-extole-campaign-controllers-triggers-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Campaign Flow Steps API
+  slug: open-extole-campaign-flow-steps-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Campaigns API
+  slug: open-extole-campaigns-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Components API
+  slug: open-extole-components-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Components Grants API
+  slug: open-extole-components-grants-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Components Settings API
+  slug: open-extole-components-settings-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Components Subscriptions API
+  slug: open-extole-components-subscriptions-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Components Types API
+  slug: open-extole-components-types-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Content API
+  slug: open-extole-content-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Debug API
+  slug: open-extole-debug-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Domains API
+  slug: open-extole-domains-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Email API
+  slug: open-extole-email-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Erasure API
+  slug: open-extole-erasure-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Event Prehandlers API
+  slug: open-extole-event-prehandlers-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Event Streams API
+  slug: open-extole-event-streams-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Events API
+  slug: open-extole-events-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences File Validation Monitors API
+  slug: open-extole-file-validation-monitors-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Files API
+  slug: open-extole-files-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Javascript Core Extensions API
+  slug: open-extole-javascript-core-extensions-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Optout API
+  slug: open-extole-optout-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Persons API
+  slug: open-extole-persons-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Profile Assets API
+  slug: open-extole-profile-assets-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Profiles API
+  slug: open-extole-profiles-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Promotion Links API
+  slug: open-extole-promotion-links-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Report Schedules API
+  slug: open-extole-report-schedules-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Report Types API
+  slug: open-extole-report-types-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Reporting API
+  slug: open-extole-reporting-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Reports API
+  slug: open-extole-reports-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Reward Suppliers API
+  slug: open-extole-reward-suppliers-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Rewards API
+  slug: open-extole-rewards-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Security Keys API
+  slug: open-extole-security-keys-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Settings API
+  slug: open-extole-settings-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences SFTP Servers API
+  slug: open-extole-sftp-servers-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences User Notifications API
+  slug: open-extole-user-notifications-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences User Subscriptions API
+  slug: open-extole-user-subscriptions-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Users API
+  slug: open-extole-users-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Webhooks API
+  slug: open-extole-webhooks-api
+- collection_type: open
+  name: Integration API - Consumer to Extole Audiences Zone Rendering API
+  slug: open-extole-zone-rendering-api
 common:
 - group: company
   title: ''
@@ -184,15 +321,15 @@ common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://developers.extole.com/
+  url: https://docs.extole.com/
 - group: docs
   title: ''
   type: Documentation
-  url: https://developers.extole.com/docs
+  url: https://docs.extole.com/
 - group: docs
   title: ''
   type: APIReference
-  url: https://developers.extole.com/reference
+  url: https://docs.extole.com/reference
 - group: company
   title: ''
   type: Blog
@@ -269,10 +406,6 @@ common:
   title: ''
   type: Lifecycle
   url: lifecycle/extole-lifecycle.yml
-- group: operate
-  title: ''
-  type: Deprecation
-  url: lifecycle/extole-lifecycle.yml
 - group: design
   title: ''
   type: Conformance
@@ -301,15 +434,68 @@ common:
   title: ''
   type: Overlay
   url: overlays/extole-management-overlay.yaml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.extole.com/docs/getting-started
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.extole.com/pricing/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.extole.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/extole-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/extole-rate-limits.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/extole-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/extole-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/extole-components.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/extole-error-codes.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/extole-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/extole-management-expert-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/extole-integration-server-to-extole-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/extole-integration-consumer-to-extole-overlay.yaml
 created: '2026-07-17'
-description: 'Extole is an enterprise referral, advocacy, and loyalty marketing platform that lets consumer brands run customer-acquisition programs powered by word-of-mouth. Its API surface spans four OpenAPI 3.0 specifications: a consumer-facing Integration API for advocate share links, referrals, and profiles; a server-side Integration API for rewards, persons, events, and files; and Management and Management Expert APIs for audiences, campaigns, components, zone rendering, reports, settings, and event webhooks. Authentication is token-based (Authorization header, extole_token cookie, or access_token query parameter) against api.extole.io, with first-party SDKs (iOS, Android, React Native), a developer CLI, published Postman collections, and an ISO 27001 / GDPR trust center. Surfaced originally as a Norwest Venture Partners portfolio lead and enriched from Extole''s public developer surface.'
+description: 'Extole is an enterprise referral, advocacy, and loyalty marketing platform that lets consumer brands run customer-acquisition programs powered by word-of-mouth. Its API surface spans four OpenAPI 3.0 specifications: a consumer-facing Integration API for advocate share links, referrals, and profiles; a server-side Integration API for rewards, persons, events, and files; and Management and Management Expert APIs for audiences, campaigns, components, zone rendering, reports, settings, and event webhooks. Authentication is token-based (Authorization header, extole_token cookie, or access_token query parameter) against api.extole.io, with first-party SDKs (iOS, Android, React Native), a developer CLI, published Postman collections, and an ISO 27001 / GDPR trust center. Extole also runs a first-party remote MCP server at mcp.extole.com — OAuth 2.1 with PKCE against idp.extole.com, 31 published toolsets — alongside published rate limits, a 90-code error registry, and a developer center
+  at docs.extole.com. Surfaced originally as a Norwest Venture Partners portfolio lead and enriched from Extole''s public developer surface.'
 image: https://github.com/extole.png
 layout: provider
 mcp_servers:
 - description: ''
   name: extole-mcp.yml
   slug: extole-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Extole
 nav: Providers
 network: true
@@ -319,8 +505,16 @@ overview: 'Extole publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
   The Extole catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Extole''s developer surface includes documentation, API reference, engineering blog, authentication, CLI, changelog, and 25 more developer resources.'
-random_paper: 57
+  Extole''s developer surface includes documentation, API reference, engineering blog, authentication, CLI, changelog, getting-started guide, and 36 more developer resources.'
+plans:
+- name: Extole Plans Pricing
+  plan_count: 0
+  slug: extole-plans-pricing
+random_paper: 61
+rate_limits:
+- limit_count: 2
+  name: Extole Rate Limits
+  slug: extole-rate-limits
 rules:
 - name: Extole API Rules
   rule_count: 8
@@ -330,17 +524,22 @@ rules:
     info: 0
     warn: 3
   slug: extole-spectral
+scopes:
+- name: Extole Scopes
+  scope_count: 8
+  slug: extole-scopes
+  summary_line: 8 scopes
 score:
-  band: developing
-  composite: 54.2
-  delta: 0.0
+  band: strong
+  composite: 63.6
+  delta: 9.4
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 50.0
     contract_quality: 67.1
-    developer_ergonomics: 58.2
+    developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 32.3
-    operational_transparency: 52.6
+    operational_transparency: 65.8
   previous_composite: 54.2
   provenance:
     agentic_access: derived
@@ -353,14 +552,14 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/screenshots/extole-2026-07-25T213956.png
 security:
 - kind: authentication
   name: Extole Authentication
   slug: extole-authentication
-  summary_line: apiKey · 3 schemes
+  summary_line: apiKey/http/oauth2 · 4 schemes
 - kind: domain-security
   name: Extole Domain Security
   slug: extole-domain-security

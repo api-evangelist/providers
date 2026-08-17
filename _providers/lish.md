@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Category terms used to classify posts.
@@ -64,7 +64,44 @@ apis:
 - description: Post authors exposed by the site.
   name: Lish Users API
   slug: lish-users-api
-artifact_total: 14
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lish WordPress REST Categories API
+  slug: open-lish-categories-api
+- collection_type: open
+  name: Lish WordPress REST Categories Comments API
+  slug: open-lish-comments-api
+- collection_type: open
+  name: Lish WordPress REST Categories Media API
+  slug: open-lish-media-api
+- collection_type: open
+  name: Lish WordPress REST Categories Pages API
+  slug: open-lish-pages-api
+- collection_type: open
+  name: Lish WordPress REST Categories Posts API
+  slug: open-lish-posts-api
+- collection_type: open
+  name: Lish WordPress REST Categories Search API
+  slug: open-lish-search-api
+- collection_type: open
+  name: Lish WordPress REST Categories Statuses API
+  slug: open-lish-statuses-api
+- collection_type: open
+  name: Lish WordPress REST Categories Tags API
+  slug: open-lish-tags-api
+- collection_type: open
+  name: Lish WordPress REST Categories Taxonomies API
+  slug: open-lish-taxonomies-api
+- collection_type: open
+  name: Lish WordPress REST Categories Types API
+  slug: open-lish-types-api
+- collection_type: open
+  name: Lish WordPress REST Categories Users API
+  slug: open-lish-users-api
 common:
 - group: agent
   title: ''
@@ -163,7 +200,7 @@ overview: 'Lish publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lish''s developer surface includes authentication, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 72
+random_paper: 134
 score:
   band: emerging
   composite: 24.4
@@ -186,7 +223,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/screenshots/lish-2026-07-25T225325.png
 security:

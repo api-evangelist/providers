@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -153,11 +153,122 @@ apis:
 - description: The ZoneIngress API from Kuma — 2 operation(s) for zoneingress.
   name: Kuma ZoneIngress API
   slug: kuma-zoneingress-api
-artifact_total: 48
+artifact_total: 85
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Kuma API
   slug: open-kuma-api
+- collection_type: open
+  name: Kuma Dataplane API
+  slug: open-kuma-dataplane-api
+- collection_type: open
+  name: Kuma Dataplane GlobalInsight API
+  slug: open-kuma-globalinsight-api
+- collection_type: open
+  name: Kuma Dataplane HostnameGenerator API
+  slug: open-kuma-hostnamegenerator-api
+- collection_type: open
+  name: Kuma Dataplane Inspect API
+  slug: open-kuma-inspect-api
+- collection_type: open
+  name: Kuma Dataplane KRI API
+  slug: open-kuma-kri-api
+- collection_type: open
+  name: Kuma Dataplane Mesh API
+  slug: open-kuma-mesh-api
+- collection_type: open
+  name: Kuma Dataplane MeshAccessLog API
+  slug: open-kuma-meshaccesslog-api
+- collection_type: open
+  name: Kuma Dataplane MeshCircuitBreaker API
+  slug: open-kuma-meshcircuitbreaker-api
+- collection_type: open
+  name: Kuma Dataplane Meshes API
+  slug: open-kuma-meshes-api
+- collection_type: open
+  name: Kuma Dataplane MeshExternalService API
+  slug: open-kuma-meshexternalservice-api
+- collection_type: open
+  name: Kuma Dataplane MeshFaultInjection API
+  slug: open-kuma-meshfaultinjection-api
+- collection_type: open
+  name: Kuma Dataplane MeshGateway API
+  slug: open-kuma-meshgateway-api
+- collection_type: open
+  name: Kuma Dataplane MeshHealthCheck API
+  slug: open-kuma-meshhealthcheck-api
+- collection_type: open
+  name: Kuma Dataplane MeshHTTPRoute API
+  slug: open-kuma-meshhttproute-api
+- collection_type: open
+  name: Kuma Dataplane MeshIdentity API
+  slug: open-kuma-meshidentity-api
+- collection_type: open
+  name: Kuma Dataplane MeshLoadBalancingStrategy API
+  slug: open-kuma-meshloadbalancingstrategy-api
+- collection_type: open
+  name: Kuma Dataplane MeshMetric API
+  slug: open-kuma-meshmetric-api
+- collection_type: open
+  name: Kuma Dataplane MeshMultiZoneService API
+  slug: open-kuma-meshmultizoneservice-api
+- collection_type: open
+  name: Kuma Dataplane MeshOpenTelemetryBackend API
+  slug: open-kuma-meshopentelemetrybackend-api
+- collection_type: open
+  name: Kuma Dataplane MeshPassthrough API
+  slug: open-kuma-meshpassthrough-api
+- collection_type: open
+  name: Kuma Dataplane MeshProxyPatch API
+  slug: open-kuma-meshproxypatch-api
+- collection_type: open
+  name: Kuma Dataplane MeshRateLimit API
+  slug: open-kuma-meshratelimit-api
+- collection_type: open
+  name: Kuma Dataplane MeshRetry API
+  slug: open-kuma-meshretry-api
+- collection_type: open
+  name: Kuma Dataplane MeshService API
+  slug: open-kuma-meshservice-api
+- collection_type: open
+  name: Kuma Dataplane MeshTCPRoute API
+  slug: open-kuma-meshtcproute-api
+- collection_type: open
+  name: Kuma Dataplane MeshTimeout API
+  slug: open-kuma-meshtimeout-api
+- collection_type: open
+  name: Kuma Dataplane MeshTLS API
+  slug: open-kuma-meshtls-api
+- collection_type: open
+  name: Kuma Dataplane MeshTrace API
+  slug: open-kuma-meshtrace-api
+- collection_type: open
+  name: Kuma Dataplane MeshTrafficPermission API
+  slug: open-kuma-meshtrafficpermission-api
+- collection_type: open
+  name: Kuma Dataplane MeshTrust API
+  slug: open-kuma-meshtrust-api
+- collection_type: open
+  name: Kuma Dataplane MeshZoneAddress API
+  slug: open-kuma-meshzoneaddress-api
+- collection_type: open
+  name: Kuma Dataplane Secret API
+  slug: open-kuma-secret-api
+- collection_type: open
+  name: Kuma Dataplane System API
+  slug: open-kuma-system-api
+- collection_type: open
+  name: Kuma Dataplane Workload API
+  slug: open-kuma-workload-api
+- collection_type: open
+  name: Kuma Dataplane ZoneEgress API
+  slug: open-kuma-zoneegress-api
+- collection_type: open
+  name: Kuma Dataplane ZoneIngress API
+  slug: open-kuma-zoneingress-api
 common:
 - group: operate
   title: ''
@@ -279,7 +390,7 @@ plans:
 - name: Kuma Plans Pricing
   plan_count: 2
   slug: kuma-plans-pricing
-random_paper: 70
+random_paper: 132
 rate_limits:
 - limit_count: 2
   name: Kuma Rate Limits
@@ -313,7 +424,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuma/refs/heads/main/screenshots/kuma-2026-06-20T184214.png
 security:

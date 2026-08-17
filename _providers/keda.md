@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,12 +54,15 @@ apis:
 - description: 'The CloudEventSource and ClusterCloudEventSource custom resources define HTTP or Azure Event Grid destinations where KEDA delivers CloudEvents when scaling events occur. Events follow the CloudEvents '
   name: KEDA CloudEventSource API
   slug: keda-cloud-event-source-api
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: 'KEDA emits CloudEvents to configured HTTP or Azure Event Grid destinations when scaling events occur. The CloudEventSource and ClusterCloudEventSource custom resources define the destination endpoint '
   name: KEDA CloudEvent Source
   slug: keda-cloud-events-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: KEDA Metrics API
   slug: open-keda-metrics-api
@@ -191,7 +194,7 @@ plans:
 - name: Keda Plans Pricing
   plan_count: 1
   slug: keda-plans-pricing
-random_paper: 45
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Keda Rate Limits
@@ -233,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/screenshots/keda-2026-06-20T183939.png
 security:

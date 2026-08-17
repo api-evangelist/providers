@@ -22,33 +22,74 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/echo-ai-fka-pathlight-domain-security.yml
 - group: company
   title: ''
   type: Website
-  url: https://www.pathlight.com/
+  url: https://www.echoai.com/
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/pathlight
+- group: build
+  title: ''
+  type: Packages
+  url: packages/echo-ai-fka-pathlight-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/echo-ai-fka-pathlight-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/echo-ai-fka-pathlight-rate-limits.yml
+coverage:
+  checked: '2026-08-14'
+  detail: Echo AI was acquired by Calabrio on 2024-12-11 and wound down its own web presence — echoai.com now answers HTTP 404 with a Framer "Site Not Found" shell on every path including /openapi.json and /.well-known/*, and pathlight.com has no A record at all.
+  evidence:
+  - status: 404
+    url: https://echoai.com/
+  - status: 404
+    url: https://echoai.com/openapi.json
+  - status: 404
+    url: https://echoai.com/.well-known/agent-card.json
+  - status: 0
+    url: https://www.pathlight.com/
+  - status: 200
+    url: https://www.calabrio.com/press/calabrio-continues-to-accelerate-ai-innovation-with-acquisition-of-echo-ai/
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: Echo AI (formerly Pathlight) was an AI-driven customer conversation intelligence platform used by customer-experience and support teams to analyze support conversations, surface hidden insights, and coach agents. It was a portfolio company of Insight Partners. As of this enrichment pass the company publishes no discoverable public developer surface — no API documentation, OpenAPI, SDKs, or MCP server — and its marketing domains are offline (pathlight.com no longer resolves and echoai.com returns a removed Framer site). The only verified live public asset is the company's GitHub organization, whose public repositories are forks of third-party libraries and Singer.io data-ingestion taps used internally rather than any first-party client library. This profile is retained as an identity record; no fabricated API artifacts were added.
+description: Echo AI (formerly Pathlight) was an AI-driven customer conversation intelligence platform used by customer-experience and support teams to analyze support conversations, surface hidden insights, and coach agents. Founded as Pathlight and backed by Kleiner Perkins, Insight Partners and Quiet Capital, it rebranded to Echo AI in January 2024 and was acquired by contact-center workforce-engagement vendor Calabrio on 2024-12-11; the technology now ships inside Calabrio ONE, and calabrio.com itself now redirects to verint.com. The company publishes no discoverable public developer surface of its own — no API documentation, OpenAPI, GraphQL, MCP server, agent card or first-party SDK — and both brand domains are dark — pathlight.com no longer resolves and echoai.com returns a removed Framer site (HTTP 404). The Wayback index for both domains contains no /api, /docs/api or /developer path at any point in their history, only legal pages. The only verified live public asset is the Pathlight
+  GitHub organization, whose 62 public repositories are third-party forks plus first-party Singer.io taps that INGEST other vendors' APIs (Zendesk, Gorgias, Gladly, Dialpad, Five9, Kustomer) rather than any first-party client library. This profile is retained as an identity record; no fabricated API artifacts were added, and the npm/PyPI packages that share the Pathlight and Echo AI names were verified to belong to unrelated publishers.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/echo-ai-fka-pathlight.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Echo AI (fka Pathlight)
 nav: Providers
 network: true
 overview: Echo AI (fka Pathlight) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversation Intelligence, Customer Experience, Customer Support, and Artificial Intelligence.
-random_paper: 103
+plans:
+- name: Echo Ai Fka Pathlight Plans Pricing
+  plan_count: 0
+  slug: echo-ai-fka-pathlight-plans-pricing
+random_paper: 86
+rate_limits:
+- limit_count: 0
+  name: Echo Ai Fka Pathlight Rate Limits
+  slug: echo-ai-fka-pathlight-rate-limits
 score:
   band: minimal
   composite: 5.7
@@ -62,8 +103,13 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
+security:
+- kind: domain-security
+  name: Echo Ai Fka Pathlight Domain Security
+  slug: echo-ai-fka-pathlight-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: echo-ai-fka-pathlight
 tags:
 - Company
@@ -72,5 +118,5 @@ tags:
 - Customer Support
 - Artificial Intelligence
 - Analytics
-website: https://www.pathlight.com/
+website: https://www.echoai.com/
 ---

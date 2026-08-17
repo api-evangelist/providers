@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Cross-entity search.
   name: IGDB Search API
   slug: igdb-search-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IGDB Companies API
+  slug: open-igdb-companies-api
+- collection_type: open
+  name: IGDB Companies Games API
+  slug: open-igdb-games-api
+- collection_type: open
+  name: IGDB Companies Genres API
+  slug: open-igdb-genres-api
+- collection_type: open
+  name: IGDB Companies Media API
+  slug: open-igdb-media-api
+- collection_type: open
+  name: IGDB Companies Platforms API
+  slug: open-igdb-platforms-api
+- collection_type: open
+  name: IGDB Companies Reference API
+  slug: open-igdb-reference-api
+- collection_type: open
+  name: IGDB Companies Releases API
+  slug: open-igdb-releases-api
+- collection_type: open
+  name: IGDB Companies Search API
+  slug: open-igdb-search-api
 - collection_type: open
   name: IGDB API
   slug: open-igdb
@@ -120,7 +147,7 @@ plans:
 - name: Igdb Plans Pricing
   plan_count: 3
   slug: igdb-plans-pricing
-random_paper: 46
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Igdb Rate Limits
@@ -154,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/screenshots/igdb-2026-06-20T183218.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -117,7 +117,83 @@ apis:
 - description: Endpoints to obtain transaction details and to broadcast transactions to the network
   name: Hiro Transactions API
   slug: hiro-transactions-api
-artifact_total: 32
+artifact_total: 57
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Signer Metrics Accounts API
+  slug: open-hiro-accounts-api
+- collection_type: open
+  name: Signer Metrics Accounts Atlas API
+  slug: open-hiro-atlas-api
+- collection_type: open
+  name: Signer Metrics Accounts Blocks API
+  slug: open-hiro-blocks-api
+- collection_type: open
+  name: Signer Metrics Accounts Blocks Proposals API
+  slug: open-hiro-blocks-proposals-api
+- collection_type: open
+  name: Signer Metrics Accounts Burn Blocks API
+  slug: open-hiro-burn-blocks-api
+- collection_type: open
+  name: Signer Metrics Accounts Faucets API
+  slug: open-hiro-faucets-api
+- collection_type: open
+  name: Signer Metrics Accounts Fees API
+  slug: open-hiro-fees-api
+- collection_type: open
+  name: Signer Metrics Accounts Fungible Tokens API
+  slug: open-hiro-fungible-tokens-api
+- collection_type: open
+  name: Signer Metrics Accounts Info API
+  slug: open-hiro-info-api
+- collection_type: open
+  name: Signer Metrics Accounts Mempool API
+  slug: open-hiro-mempool-api
+- collection_type: open
+  name: Signer Metrics Accounts Microblocks API
+  slug: open-hiro-microblocks-api
+- collection_type: open
+  name: Signer Metrics Accounts Mining API
+  slug: open-hiro-mining-api
+- collection_type: open
+  name: Signer Metrics Accounts Names API
+  slug: open-hiro-names-api
+- collection_type: open
+  name: Signer Metrics Accounts Non-Fungible Tokens API
+  slug: open-hiro-non-fungible-tokens-api
+- collection_type: open
+  name: Signer Metrics Accounts Proof of Transfer API
+  slug: open-hiro-proof-of-transfer-api
+- collection_type: open
+  name: Signer Metrics Accounts Search API
+  slug: open-hiro-search-api
+- collection_type: open
+  name: Signer Metrics Accounts Signers API
+  slug: open-hiro-signers-api
+- collection_type: open
+  name: Signer Metrics Accounts Smart Contracts API
+  slug: open-hiro-smart-contracts-api
+- collection_type: open
+  name: Signer Metrics Accounts StackerDB API
+  slug: open-hiro-stackerdb-api
+- collection_type: open
+  name: Signer Metrics Accounts Stacking API
+  slug: open-hiro-stacking-api
+- collection_type: open
+  name: Signer Metrics Accounts Stacking Rewards API
+  slug: open-hiro-stacking-rewards-api
+- collection_type: open
+  name: Signer Metrics Accounts Status API
+  slug: open-hiro-status-api
+- collection_type: open
+  name: Signer Metrics Accounts Tokens API
+  slug: open-hiro-tokens-api
+- collection_type: open
+  name: Signer Metrics Accounts Transactions API
+  slug: open-hiro-transactions-api
 common:
 - group: agent
   title: ''
@@ -179,7 +255,7 @@ plans:
 - name: Hiro Plans Pricing
   plan_count: 3
   slug: hiro-plans-pricing
-random_paper: 74
+random_paper: 136
 rate_limits:
 - limit_count: 2
   name: Hiro Rate Limits
@@ -204,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/screenshots/hiro-2026-06-20T182757.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 19
 apis:
 - description: Authentication operations for user authentication, authorization, and session management. Authentication endpoints handle user identity verification, token generation, and access control throughout th
@@ -88,11 +88,69 @@ apis:
 - description: The worker-groups API from Super.ai — 3 operation(s) for worker-groups.
   name: Super.ai worker-groups API
   slug: superai-worker-groups-api
-artifact_total: 25
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Superai Flows Webhooks
   slug: superai-flows-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SuperAI Flow Platform auth API
+  slug: open-superai-auth-api
+- collection_type: open
+  name: SuperAI Flow Platform auth files API
+  slug: open-superai-files-api
+- collection_type: open
+  name: SuperAI Flow Platform auth flow-executions API
+  slug: open-superai-flow-executions-api
+- collection_type: open
+  name: SuperAI Flow Platform auth flows API
+  slug: open-superai-flows-api
+- collection_type: open
+  name: SuperAI Flow Platform auth integrations API
+  slug: open-superai-integrations-api
+- collection_type: open
+  name: SuperAI Flow Platform auth models API
+  slug: open-superai-models-api
+- collection_type: open
+  name: SuperAI Flow Platform auth organizations API
+  slug: open-superai-organizations-api
+- collection_type: open
+  name: SuperAI Flow Platform auth plugins API
+  slug: open-superai-plugins-api
+- collection_type: open
+  name: SuperAI Flow Platform auth profile API
+  slug: open-superai-profile-api
+- collection_type: open
+  name: SuperAI Flow Platform auth service-accounts API
+  slug: open-superai-service-accounts-api
+- collection_type: open
+  name: SuperAI Flow Platform auth sso API
+  slug: open-superai-sso-api
+- collection_type: open
+  name: SuperAI Flow Platform auth task-data API
+  slug: open-superai-task-data-api
+- collection_type: open
+  name: SuperAI Flow Platform auth task-executions API
+  slug: open-superai-task-executions-api
+- collection_type: open
+  name: SuperAI Flow Platform auth task-executors API
+  slug: open-superai-task-executors-api
+- collection_type: open
+  name: SuperAI Flow Platform auth task-outputs API
+  slug: open-superai-task-outputs-api
+- collection_type: open
+  name: SuperAI Flow Platform auth task-tags API
+  slug: open-superai-task-tags-api
+- collection_type: open
+  name: SuperAI Flow Platform auth webhook-data API
+  slug: open-superai-webhook-data-api
+- collection_type: open
+  name: SuperAI Flow Platform auth worker-groups API
+  slug: open-superai-worker-groups-api
 common:
 - group: auth
   title: ''
@@ -237,7 +295,7 @@ overview: 'Super.ai publishes 19 APIs on the [APIs.io](https://apis.io/) network
 
 
   Super.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 24 more developer resources.'
-random_paper: 41
+random_paper: 16
 score:
   band: developing
   composite: 54.8
@@ -260,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

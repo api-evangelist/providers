@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Daily Forecast pollen conditions data for a specific location
@@ -56,7 +56,7 @@ name: BreezoMeter Pollen
 nav: Providers
 network: true
 overview: BreezoMeter Pollen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 83
+random_paper: 95
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breezometer-pollen/refs/heads/main/screenshots/breezometer-pollen-2026-06-20T173659.png
 security:

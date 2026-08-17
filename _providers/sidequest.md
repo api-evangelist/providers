@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Apps API from SideQuest — 1 operation(s) for apps.
@@ -46,7 +46,26 @@ apis:
 - description: The UsersApps API from SideQuest — 1 operation(s) for usersapps.
   name: SideQuest UsersApps API
   slug: sidequest-usersapps-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SideQuest Apps API
+  slug: open-sidequest-apps-api
+- collection_type: open
+  name: SideQuest Apps Developers API
+  slug: open-sidequest-developers-api
+- collection_type: open
+  name: SideQuest Apps OAuth2 API
+  slug: open-sidequest-oauth2-api
+- collection_type: open
+  name: SideQuest Apps Users API
+  slug: open-sidequest-users-api
+- collection_type: open
+  name: SideQuest Apps UsersApps API
+  slug: open-sidequest-usersapps-api
 common:
 - group: docs
   title: ''
@@ -128,7 +147,7 @@ overview: 'SideQuest publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   SideQuest''s developer surface includes authentication, documentation, and 14 more developer resources.'
-random_paper: 23
+random_paper: 89
 scopes:
 - name: Sidequest Scopes
   scope_count: 0
@@ -156,7 +175,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

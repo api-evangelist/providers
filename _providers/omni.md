@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 38
 apis:
 - description: AI-powered query generation
@@ -146,7 +146,125 @@ apis:
 - description: Inspect your own user permissions
   name: Omni Who Am I API
   slug: omni-who-am-i-api
-artifact_total: 43
+artifact_total: 82
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Omni AI API
+  slug: open-omni-ai-api
+- collection_type: open
+  name: Omni AI AI Credit Controls API
+  slug: open-omni-ai-credit-controls-api
+- collection_type: open
+  name: Omni AI AI Eval API
+  slug: open-omni-ai-eval-api
+- collection_type: open
+  name: Omni AI AI Model Suggestions API
+  slug: open-omni-ai-model-suggestions-api
+- collection_type: open
+  name: Omni AI AI Routines API
+  slug: open-omni-ai-routines-api
+- collection_type: open
+  name: Omni AI API Tokens API
+  slug: open-omni-api-tokens-api
+- collection_type: open
+  name: Omni AI Connection environments API
+  slug: open-omni-connection-environments-api
+- collection_type: open
+  name: Omni AI Connections API
+  slug: open-omni-connections-api
+- collection_type: open
+  name: Omni AI Content API
+  slug: open-omni-content-api
+- collection_type: open
+  name: Omni AI Content migration API
+  slug: open-omni-content-migration-api
+- collection_type: open
+  name: Omni AI Content validator API
+  slug: open-omni-content-validator-api
+- collection_type: open
+  name: Omni AI Dashboard downloads API
+  slug: open-omni-dashboard-downloads-api
+- collection_type: open
+  name: Omni AI Dashboard filters API
+  slug: open-omni-dashboard-filters-api
+- collection_type: open
+  name: Omni AI dbt API
+  slug: open-omni-dbt-api
+- collection_type: open
+  name: Omni AI Document favorites API
+  slug: open-omni-document-favorites-api
+- collection_type: open
+  name: Omni AI Document labels API
+  slug: open-omni-document-labels-api
+- collection_type: open
+  name: Omni AI Document permissions API
+  slug: open-omni-document-permissions-api
+- collection_type: open
+  name: Omni AI Documents API
+  slug: open-omni-documents-api
+- collection_type: open
+  name: Omni AI Documents v2 API
+  slug: open-omni-documents-v2-api
+- collection_type: open
+  name: Omni AI Folder permissions API
+  slug: open-omni-folder-permissions-api
+- collection_type: open
+  name: Omni AI Folders API
+  slug: open-omni-folders-api
+- collection_type: open
+  name: Omni AI Jobs API
+  slug: open-omni-jobs-api
+- collection_type: open
+  name: Omni AI Labels API
+  slug: open-omni-labels-api
+- collection_type: open
+  name: Omni AI Model branches API
+  slug: open-omni-model-branches-api
+- collection_type: open
+  name: Omni AI Model git configuration API
+  slug: open-omni-model-git-configuration-api
+- collection_type: open
+  name: Omni AI Models API
+  slug: open-omni-models-api
+- collection_type: open
+  name: Omni AI Queries API
+  slug: open-omni-queries-api
+- collection_type: open
+  name: Omni AI Schedule recipients API
+  slug: open-omni-schedule-recipients-api
+- collection_type: open
+  name: Omni AI Schedules API
+  slug: open-omni-schedules-api
+- collection_type: open
+  name: Omni AI Schema refresh schedules API
+  slug: open-omni-schema-refresh-schedules-api
+- collection_type: open
+  name: Omni AI Topics API
+  slug: open-omni-topics-api
+- collection_type: open
+  name: Omni AI Uploads API
+  slug: open-omni-uploads-api
+- collection_type: open
+  name: Omni AI User attributes API
+  slug: open-omni-user-attributes-api
+- collection_type: open
+  name: Omni AI User group model roles API
+  slug: open-omni-user-group-model-roles-api
+- collection_type: open
+  name: Omni AI User groups API
+  slug: open-omni-user-groups-api
+- collection_type: open
+  name: Omni AI User model roles API
+  slug: open-omni-user-model-roles-api
+- collection_type: open
+  name: Omni AI Users API
+  slug: open-omni-users-api
+- collection_type: open
+  name: Omni AI Who Am I API
+  slug: open-omni-who-am-i-api
 common:
 - group: company
   title: ''
@@ -296,7 +414,7 @@ overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Omni''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 26 more developer resources.'
-random_paper: 75
+random_paper: 137
 score:
   band: strong
   composite: 58.2
@@ -319,7 +437,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/screenshots/omni-2026-08-07T190144.png
 security:

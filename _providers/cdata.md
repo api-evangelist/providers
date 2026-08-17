@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -72,8 +72,20 @@ apis:
 - description: Execute SQL queries and batch operations
   name: CData Query API
   slug: cdata-query-api
-artifact_total: 310
+artifact_total: 314
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CData Connect Cloud SQL Metadata API
+  slug: open-cdata-metadata-api
+- collection_type: open
+  name: CData Connect Cloud SQL Metadata Procedures API
+  slug: open-cdata-procedures-api
+- collection_type: open
+  name: CData Connect Cloud SQL Metadata Query API
+  slug: open-cdata-query-api
 - collection_type: open
   name: CData Connect Cloud SQL API
   slug: open-cdata
@@ -494,7 +506,7 @@ plans:
 - name: Cdata Plans Pricing
   plan_count: 3
   slug: cdata-plans-pricing
-random_paper: 29
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Cdata Rate Limits
@@ -519,7 +531,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/screenshots/cdata-2026-06-20T174101.png
 security:

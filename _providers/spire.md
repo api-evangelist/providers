@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,15 +53,27 @@ apis:
 - description: JSON Web Key Set endpoint that exposes public keys used to verify JWT-SVIDs issued by SPIRE.
   name: SPIRE Keys API
   slug: spire-keys-api
-artifact_total: 26
+artifact_total: 30
 asyncapis:
 - description: 'The SPIRE Workload API is a gRPC streaming interface exposed by the SPIRE Agent on each node, through which workloads request and receive SPIFFE Verifiable Identity Documents (SVIDs) and trust bundle '
   name: SPIRE Workload API Events
   slug: spire-workload-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SPIRE Health Check Discovery API
+  slug: open-spire-discovery-api
+- collection_type: open
+  name: SPIRE Check Discovery Health API
+  slug: open-spire-health-api
+- collection_type: open
   name: SPIRE Health Check API
   slug: open-spire-health
+- collection_type: open
+  name: SPIRE Health Check Discovery Keys API
+  slug: open-spire-keys-api
 - collection_type: open
   name: SPIRE OIDC Discovery Provider API
   slug: open-spire-oidc-discovery
@@ -209,7 +221,7 @@ plans:
 - name: Spire Plans Pricing
   plan_count: 3
   slug: spire-plans-pricing
-random_paper: 67
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Spire Rate Limits
@@ -259,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/screenshots/spire-2026-06-20T194318.png
 security:

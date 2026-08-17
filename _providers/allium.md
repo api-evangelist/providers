@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,11 +48,24 @@ apis:
 - description: The Polygon API from Allium — 1 operation(s) for polygon.
   name: Allium Polygon API
   slug: allium-polygon-api
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Allium Webhooks
   slug: allium-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Allium Explorer API
+  slug: open-allium-explorer-api
+- collection_type: open
+  name: Allium Explorer ping API
+  slug: open-allium-ping-api
+- collection_type: open
+  name: Allium Explorer Polygon API
+  slug: open-allium-polygon-api
 common:
 - group: auth
   title: ''
@@ -197,7 +210,7 @@ overview: 'Allium publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Allium''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, pricing, and 24 more developer resources.'
-random_paper: 44
+random_paper: 48
 score:
   band: developing
   composite: 55.3
@@ -227,7 +240,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/screenshots/allium-2026-07-25T195712.png
 security:

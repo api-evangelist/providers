@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,7 +69,26 @@ apis:
 - description: ZIP code to geographic area crosswalk queries
   name: HUD - US Department of Housing and Urban Development ZIP Code Crosswalk API
   slug: hud-zip-code-crosswalk-api
-artifact_total: 24
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HUD User CHAS API
+  slug: open-hud-chas-api
+- collection_type: open
+  name: HUD User CHAS Fair Market Rents API
+  slug: open-hud-fair-market-rents-api
+- collection_type: open
+  name: HUD User CHAS Housing Counseling API
+  slug: open-hud-housing-counseling-api
+- collection_type: open
+  name: HUD User CHAS Income Limits API
+  slug: open-hud-income-limits-api
+- collection_type: open
+  name: HUD User CHAS ZIP Code Crosswalk API
+  slug: open-hud-zip-code-crosswalk-api
 common:
 - group: agent
   title: ''
@@ -175,7 +194,7 @@ plans:
 - name: Hud Plans Pricing
   plan_count: 2
   slug: hud-plans-pricing
-random_paper: 81
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Hud Rate Limits
@@ -215,7 +234,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/screenshots/hud-2026-06-20T182921.png
 security:

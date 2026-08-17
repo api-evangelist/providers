@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: Pre-built and customer-defined workflow-agent invocations.
   name: AlphaSense Workflow Agents API
   slug: alphasense-workflow-agents-api
-artifact_total: 104
+artifact_total: 118
 collections:
 - collection_type: postman
   name: AlphaSense Agent Authentication API
@@ -135,11 +135,53 @@ collections:
   name: AlphaSense Agent Authentication Workflow Agents API
   slug: postman-alphasense-workflow-agents-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: AlphaSense Agent API
   slug: open-alphasense-agent-api
 - collection_type: open
+  name: AlphaSense Agent Authentication API
+  slug: open-alphasense-authentication-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Brokers API
+  slug: open-alphasense-brokers-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Companies API
+  slug: open-alphasense-companies-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Deep Research API
+  slug: open-alphasense-deep-research-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Document Search API
+  slug: open-alphasense-document-search-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Download API
+  slug: open-alphasense-download-api
+- collection_type: open
+  name: AlphaSense Agent Authentication GenSearch API
+  slug: open-alphasense-gensearch-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Ingestion API
+  slug: open-alphasense-ingestion-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Search API
+  slug: open-alphasense-search-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Trends API
+  slug: open-alphasense-trends-api
+- collection_type: open
+  name: AlphaSense Agent Authentication User API
+  slug: open-alphasense-user-api
+- collection_type: open
   name: AlphaSense Utility APIs
   slug: open-alphasense-utility-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Watchlist API
+  slug: open-alphasense-watchlist-api
+- collection_type: open
+  name: AlphaSense Agent Authentication Workflow Agents API
+  slug: open-alphasense-workflow-agents-api
 common:
 - group: docs
   title: ''
@@ -385,7 +427,7 @@ plans:
 - name: Alphasense Plans Pricing
   plan_count: 6
   slug: alphasense-plans-pricing
-random_paper: 100
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Alphasense Rate Limits
@@ -427,7 +469,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/screenshots/alphasense-2026-06-20T171557.png
 security:

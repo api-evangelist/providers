@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 4
@@ -75,7 +75,47 @@ apis:
 - description: The Stripe API from Precog — 2 operation(s) for stripe.
   name: Precog Stripe API
   slug: precog-stripe-api
-artifact_total: 20
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: http-api Admin API
+  slug: open-precog-admin-api
+- collection_type: open
+  name: http-api Admin Data Model API
+  slug: open-precog-data-model-api
+- collection_type: open
+  name: http-api Admin Datasets API
+  slug: open-precog-datasets-api
+- collection_type: open
+  name: http-api Admin Destinations API
+  slug: open-precog-destinations-api
+- collection_type: open
+  name: http-api Admin Issues API
+  slug: open-precog-issues-api
+- collection_type: open
+  name: http-api Admin Kinds API
+  slug: open-precog-kinds-api
+- collection_type: open
+  name: http-api Admin Loads API
+  slug: open-precog-loads-api
+- collection_type: open
+  name: http-api Admin Log API
+  slug: open-precog-log-api
+- collection_type: open
+  name: http-api Admin Pipelines API
+  slug: open-precog-pipelines-api
+- collection_type: open
+  name: http-api Admin Semantic Model API
+  slug: open-precog-semantic-model-api
+- collection_type: open
+  name: http-api Admin Sources API
+  slug: open-precog-sources-api
+- collection_type: open
+  name: http-api Admin Stripe API
+  slug: open-precog-stripe-api
 common:
 - group: auth
   title: ''
@@ -217,7 +257,7 @@ overview: 'Precog publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Precog''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 40
+random_paper: 44
 scopes:
 - name: Precog Scopes
   scope_count: 3
@@ -246,7 +286,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

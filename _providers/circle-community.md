@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -63,12 +63,36 @@ apis:
 - description: Member-authenticated experience endpoints.
   name: Circle Headless - Member API
   slug: circle-community-headless-member-api
-artifact_total: 17
+artifact_total: 25
 asyncapis:
 - description: Circle exposes a documented public WebSocket API for realtime chat and notifications, in beta for customers on the Business plan and above. The transport is ActionCable (Rails' WebSocket framework), a
   name: Circle Realtime WebSocket API (Beta)
   slug: circle-community-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Circle Developer Platform Admin - Courses API
+  slug: open-circle-community-admin-courses-api
+- collection_type: open
+  name: Circle Developer Platform Admin - Courses Admin - Events API
+  slug: open-circle-community-admin-events-api
+- collection_type: open
+  name: Circle Developer Platform Admin - Courses Admin - Members API
+  slug: open-circle-community-admin-members-api
+- collection_type: open
+  name: Circle Developer Platform Admin - Courses Admin - Posts API
+  slug: open-circle-community-admin-posts-api
+- collection_type: open
+  name: Circle Developer Platform Admin - Courses Admin - Spaces API
+  slug: open-circle-community-admin-spaces-api
+- collection_type: open
+  name: Circle Developer Platform Admin - Courses Headless - Auth API
+  slug: open-circle-community-headless-auth-api
+- collection_type: open
+  name: Circle Developer Platform Admin - Courses Headless - Member API
+  slug: open-circle-community-headless-member-api
 - collection_type: open
   name: Circle Developer Platform API
   slug: open-circle-community
@@ -132,7 +156,7 @@ plans:
 - name: Circle Community Plans Pricing
   plan_count: 4
   slug: circle-community-plans-pricing
-random_paper: 108
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Circle Community Rate Limits
@@ -166,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/screenshots/circle-community-2026-07-25T205412.png
 security:

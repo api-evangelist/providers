@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: API access add-on, contact sales
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
-  - authentication
+  - https://developers.madkudu.com/getting-started/usage-and-credits
+  - https://developers.madkudu.com/readme.md
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,26 +20,26 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-12'
+  score: 51.1
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
-- description: The current MadKudu API (MadAPI) exposes account and person lookup, full account/person details and activities, company hiring/job-posting enrichment, person contact enrichment, advanced account and p
+- description: The current MadKudu API (MadAPI) exposes account and person lookup, full account/person details and activities, company hiring/job-posting enrichment, advanced account and person search, prospect disc
   name: MadKudu API (MadAPI)
   slug: madkudu-api-madapi
-- description: 'The legacy MadKudu Scoring API returns customer-fit, likelihood-to-buy and lead-grade scores for accounts and persons. Authentication is HTTP Basic (API key as username); rate limited to 600 requests '
+- description: The legacy MadKudu Scoring API returns customer-fit (demographics), likelihood-to-buy and lead-grade scores for companies by domain and persons by email, plus a job-changes watch list and a ping utili
   name: MadKudu Legacy Scoring API
   slug: madkudu-legacy-scoring-api
-artifact_total: 5
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -58,11 +60,15 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://developers.madkudu.com/getting-started
+  url: https://developers.madkudu.com/getting-started/quickstart
 - group: agent
   title: ''
   type: MCPServer
   url: mcp/madkudu-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/madkudu-tool-crosswalk.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -71,10 +77,34 @@ common:
   title: ''
   type: Support
   url: mailto:support@madkudu.com
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.madkudu.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://madkudu.com/blog
 - group: start
   title: ''
   type: Login
   url: https://msi.madkudu.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://hginsights.com/product/pricing-guide/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://hginsights.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://hginsights.com/privacy-page/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.madkudu.com
 - group: auth
   title: ''
   type: Authentication
@@ -103,14 +133,34 @@ common:
   title: ''
   type: Conformance
   url: conformance/madkudu-conformance.yml
-- group: agent
+- group: auth
   title: ''
-  type: WellKnown
-  url: well-known/madkudu-well-known.yml
+  type: Compliance
+  url: security/madkudu-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/madkudu-trust-center.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/madkudu-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/madkudu-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/madkudu-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/madkudu-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/madkudu-rate-limits.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -120,51 +170,63 @@ common:
   type: LLMsTxt
   url: llms/madkudu-llms.txt
 created: '2026-07-17'
-description: MadKudu is a predictive lead scoring and account intelligence platform for B2B sales and marketing teams, using AI-driven propensity modeling and dynamic scoring across fit, intent, and engagement signals to surface high-propensity accounts and people. Its developer surface (MadAPI) programmatically exposes account and person lookup, enrichment, activity, search, discovery, and organisation endpoints, plus a hosted Model Context Protocol (MCP) server for AI agents. MadKudu is now part of HG Insights (HG Sales Copilot). Originally backed by Partech and Techstars.
-image: https://developers.madkudu.com/~gitbook/image
+description: MadKudu is a predictive lead scoring and account intelligence platform for B2B sales and marketing teams, using AI-driven propensity modeling and dynamic scoring across fit, intent, and engagement signals to surface high-propensity accounts and people. Its developer surface (MadAPI) programmatically exposes account and person lookup, enrichment, activity, search, sourcing discovery, AI web search, organisation endpoints and a "coming soon" custom ingestion API, alongside a legacy Scoring API and a hosted Model Context Protocol (MCP) server for AI agents. MadKudu publishes OpenAPI 3.1.0 for both surfaces, but only as per-operation blocks embedded in its GitBook reference — no spec document is served. MadKudu was acquired by HG Insights in 2025; the docs are now titled "HG Platform API" and API access is contact-sales. Originally backed by Partech and Techstars.
+image: https://cdn.prod.website-files.com/6107b1101d4d3e748743f234/65f31ad2b4ac6cf0cb8bd691_og-img.png
 layout: provider
 mcp_servers:
 - description: ''
   name: madkudu-mcp.yml
   slug: madkudu-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: MadKudu
 nav: Providers
 network: true
-overview: 'MadKudu publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Sales Intelligence, Lead Scoring, and Predictive Analytics.
+overview: 'MadKudu publishes 2 APIs on the [APIs.io](https://apis.io/) network: API (MadAPI) and Legacy Scoring API. Tagged areas include Company, Applicative Saas, Sales Intelligence, Lead Scoring, and Predictive Analytics.
 
 
-  MadKudu''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 14 more developer resources.'
-random_paper: 27
+  MadKudu''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
+plans:
+- name: Madkudu Plans Pricing
+  plan_count: 0
+  slug: madkudu-plans-pricing
+random_paper: 2
+rate_limits:
+- limit_count: 2
+  name: Madkudu Rate Limits
+  slug: madkudu-rate-limits
 score:
-  band: emerging
-  composite: 24.7
-  delta: 0.0
+  band: strong
+  composite: 56.4
+  delta: 31.7
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 0.0
-    developer_ergonomics: 66.8
-    discoverability: 75.9
-    governance: 3.1
-    operational_transparency: 5.3
+    commercial_clarity: 60.5
+    contract_quality: 54.5
+    developer_ergonomics: 75.5
+    discoverability: 87.0
+    governance: 11.5
+    operational_transparency: 42.1
   previous_composite: 24.7
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/screenshots/madkudu-2026-07-25T225833.png
 security:
 - kind: authentication
   name: Madkudu Authentication
   slug: madkudu-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: apiKey/http · 3 schemes
 - kind: domain-security
   name: Madkudu Domain Security
   slug: madkudu-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Madkudu Trust Center
+  slug: madkudu-trust-center
+  summary_line: SOC 2 Type 2, CAIQ, SIG Lite
 slug: madkudu
 tags:
 - Company
@@ -175,5 +237,7 @@ tags:
 - Account Intelligence
 - Data Enrichment
 - MCP
+- Agents
+- Go To Market
 website: https://madkudu.com/
 ---

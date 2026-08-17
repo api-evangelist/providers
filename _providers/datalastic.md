@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Vessels within a radius of a point, port, or moving vessel.
   name: Datalastic Zone Traffic API
   slug: datalastic-zone-traffic-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Datalastic Maritime Historical API
+  slug: open-datalastic-historical-api
+- collection_type: open
+  name: Datalastic Maritime Historical Live Tracking API
+  slug: open-datalastic-live-tracking-api
+- collection_type: open
+  name: Datalastic Maritime Historical Ports API
+  slug: open-datalastic-ports-api
+- collection_type: open
+  name: Datalastic Maritime Historical Reports and Usage API
+  slug: open-datalastic-reports-and-usage-api
+- collection_type: open
+  name: Datalastic Maritime Historical Vessel Data API
+  slug: open-datalastic-vessel-data-api
+- collection_type: open
+  name: Datalastic Maritime Historical Zone Traffic API
+  slug: open-datalastic-zone-traffic-api
 - collection_type: open
   name: Datalastic Maritime API
   slug: open-datalastic
@@ -131,7 +152,7 @@ plans:
 - name: Datalastic Plans Pricing
   plan_count: 6
   slug: datalastic-plans-pricing
-random_paper: 90
+random_paper: 7
 rate_limits:
 - limit_count: 7
   name: Datalastic Rate Limits
@@ -156,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/screenshots/datalastic-2026-07-25T211330.png
 security:

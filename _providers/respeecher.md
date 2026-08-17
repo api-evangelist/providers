@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -89,11 +89,63 @@ apis:
 - description: The voices API from Respeecher — 4 operation(s) for voices.
   name: Respeecher voices API
   slug: respeecher-voices-api
-artifact_total: 24
+artifact_total: 41
 asyncapis:
 - description: AsyncAPI description of the Respeecher Space real-time text-to-speech WebSocket channel. A single persistent WebSocket connection carries multiple concurrent text-to-speech generations, differentiated
   name: Respeecher Space Real-Time TTS WebSocket API
   slug: respeecher-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Voice Markertplace accents API
+  slug: open-respeecher-accents-api
+- collection_type: open
+  name: Voice Markertplace accents auth API
+  slug: open-respeecher-auth-api
+- collection_type: open
+  name: Voice Markertplace accents calibration API
+  slug: open-respeecher-calibration-api
+- collection_type: open
+  name: Voice Markertplace accents credits API
+  slug: open-respeecher-credits-api
+- collection_type: open
+  name: Voice Markertplace accents folders API
+  slug: open-respeecher-folders-api
+- collection_type: open
+  name: Voice Markertplace accents healtz API
+  slug: open-respeecher-healtz-api
+- collection_type: open
+  name: Voice Markertplace accents models API
+  slug: open-respeecher-models-api
+- collection_type: open
+  name: Voice Markertplace accents narration-styles API
+  slug: open-respeecher-narration-styles-api
+- collection_type: open
+  name: Voice Markertplace accents notes API
+  slug: open-respeecher-notes-api
+- collection_type: open
+  name: Voice Markertplace accents orders API
+  slug: open-respeecher-orders-api
+- collection_type: open
+  name: Voice Markertplace accents projects API
+  slug: open-respeecher-projects-api
+- collection_type: open
+  name: Voice Markertplace accents recordings API
+  slug: open-respeecher-recordings-api
+- collection_type: open
+  name: Voice Markertplace accents stats API
+  slug: open-respeecher-stats-api
+- collection_type: open
+  name: Voice Markertplace accents storage API
+  slug: open-respeecher-storage-api
+- collection_type: open
+  name: Voice Markertplace accents tts API
+  slug: open-respeecher-tts-api
+- collection_type: open
+  name: Voice Markertplace accents voices API
+  slug: open-respeecher-voices-api
 common:
 - group: agent
   title: ''
@@ -166,7 +218,7 @@ plans:
 - name: Respeecher Plans Pricing
   plan_count: 6
   slug: respeecher-plans-pricing
-random_paper: 102
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Respeecher Rate Limits
@@ -200,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: Notebook executions.
   name: Deepnote Runs API
   slug: deepnote-runs-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deepnote Public Execute (v1) Execute (v1) Execute (v1) API
+  slug: open-deepnote-execute-v1-api
+- collection_type: open
+  name: Deepnote Public Execute (v1) Execute (v1) Me API
+  slug: open-deepnote-me-api
+- collection_type: open
+  name: Deepnote Public Execute (v1) Execute (v1) Notebooks API
+  slug: open-deepnote-notebooks-api
+- collection_type: open
+  name: Deepnote Public Execute (v1) Execute (v1) Projects API
+  slug: open-deepnote-projects-api
+- collection_type: open
+  name: Deepnote Public Execute (v1) Execute (v1) Runs API
+  slug: open-deepnote-runs-api
 - collection_type: open
   name: Deepnote Public API
   slug: open-deepnote
@@ -131,7 +149,7 @@ plans:
 - name: Deepnote Plans Pricing
   plan_count: 3
   slug: deepnote-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 3
   name: Deepnote Rate Limits
@@ -156,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

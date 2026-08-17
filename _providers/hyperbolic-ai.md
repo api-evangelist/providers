@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ arazzos:
 - description: Run an OpenAI-compatible tool call and feed the tool result back for a final answer.
   name: Hyperbolic Tool Calling Roundtrip
   slug: hyperbolic-ai-tool-calling-roundtrip-workflow
-artifact_total: 60
+artifact_total: 66
 collections:
 - collection_type: postman
   name: Hyperbolic Audio Generation API
@@ -102,6 +102,24 @@ collections:
 - collection_type: postman
   name: Hyperbolic Models API
   slug: postman-hyperbolic-models-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hyperbolic Audio Generation API
+  slug: open-hyperbolic-ai-audio-generation-api
+- collection_type: open
+  name: Hyperbolic Audio Generation Chat Completions API
+  slug: open-hyperbolic-ai-chat-completions-api
+- collection_type: open
+  name: Hyperbolic Audio Generation Completions API
+  slug: open-hyperbolic-ai-completions-api
+- collection_type: open
+  name: Hyperbolic Audio Generation Image Generation API
+  slug: open-hyperbolic-ai-image-generation-api
+- collection_type: open
+  name: Hyperbolic Audio Generation Models API
+  slug: open-hyperbolic-ai-models-api
 - collection_type: open
   name: Hyperbolic Audio Generation API
   slug: open-hyperbolic-audio-generation-api
@@ -437,7 +455,7 @@ plans:
 - name: Hyperbolic Ai Plans Pricing
   plan_count: 16
   slug: hyperbolic-ai-plans-pricing
-random_paper: 0
+random_paper: 128
 rate_limits:
 - limit_count: 3
   name: Hyperbolic Ai Rate Limits
@@ -479,7 +497,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/screenshots/hyperbolic-ai-2026-06-20T183118.png
 security:

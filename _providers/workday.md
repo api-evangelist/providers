@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -251,7 +251,7 @@ arazzos:
 - description: Discover a WQL data source and its fields, then execute a WQL query against it.
   name: Workday WQL Discover and Query
   slug: workday-wql-discover-and-query-workflow
-artifact_total: 694
+artifact_total: 740
 collections:
 - collection_type: postman
   name: Workday Absence Management API
@@ -299,6 +299,9 @@ collections:
   name: Workday WQL API
   slug: postman-wql
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Workday Absence Management API
   slug: open-absenceManagement
 - collection_type: open
@@ -343,6 +346,141 @@ collections:
 - collection_type: open
   name: Workday Time Tracking API
   slug: open-timeTracking
+- collection_type: open
+  name: Workday Absence Management Absence Types API
+  slug: open-workday-absence-types-api
+- collection_type: open
+  name: Workday Financial Management Accounting API
+  slug: open-workday-accounting-api
+- collection_type: open
+  name: Workday Benefits Benefit Elections API
+  slug: open-workday-benefit-elections-api
+- collection_type: open
+  name: Workday Benefits Benefit Plans API
+  slug: open-workday-benefit-plans-api
+- collection_type: open
+  name: Workday Recruiting Candidates API
+  slug: open-workday-candidates-api
+- collection_type: open
+  name: Workday Compensation Compensation Plans API
+  slug: open-workday-compensation-plans-api
+- collection_type: open
+  name: Workday Person Contact Information API
+  slug: open-workday-contact-information-api
+- collection_type: open
+  name: Workday Prism Analytics Data Change Tasks API
+  slug: open-workday-data-change-tasks-api
+- collection_type: open
+  name: Workday WQL Data Sources API
+  slug: open-workday-data-sources-api
+- collection_type: open
+  name: Workday Prism Analytics Datasets API
+  slug: open-workday-datasets-api
+- collection_type: open
+  name: Workday Benefits Dependents API
+  slug: open-workday-dependents-api
+- collection_type: open
+  name: Workday Financial Management Expenses API
+  slug: open-workday-expenses-api
+- collection_type: open
+  name: Workday Performance Management Feedback API
+  slug: open-workday-feedback-api
+- collection_type: open
+  name: Workday Prism Analytics File Containers API
+  slug: open-workday-file-containers-api
+- collection_type: open
+  name: Workday Performance Management Goals API
+  slug: open-workday-goals-api
+- collection_type: open
+  name: Workday Recruiting Job Applications API
+  slug: open-workday-job-applications-api
+- collection_type: open
+  name: Workday Recruiting Job Postings API
+  slug: open-workday-job-postings-api
+- collection_type: open
+  name: Workday Staffing Job Profiles API
+  slug: open-workday-job-profiles-api
+- collection_type: open
+  name: Workday Recruiting Job Requisitions API
+  slug: open-workday-job-requisitions-api
+- collection_type: open
+  name: Workday Absence Management Leave of Absence API
+  slug: open-workday-leave-of-absence-api
+- collection_type: open
+  name: Workday HCM Locations API
+  slug: open-workday-locations-api
+- collection_type: open
+  name: Workday Talent Management Mentorships API
+  slug: open-workday-mentorships-api
+- collection_type: open
+  name: Workday Compensation One-Time Payments API
+  slug: open-workday-one-time-payments-api
+- collection_type: open
+  name: Workday HCM Organizations API
+  slug: open-workday-organizations-api
+- collection_type: open
+  name: Workday Payroll Pay Groups API
+  slug: open-workday-pay-groups-api
+- collection_type: open
+  name: Workday Payroll Pay Slips API
+  slug: open-workday-pay-slips-api
+- collection_type: open
+  name: Workday Payroll Payroll Inputs API
+  slug: open-workday-payroll-inputs-api
+- collection_type: open
+  name: Workday Person People API
+  slug: open-workday-people-api
+- collection_type: open
+  name: Workday Staffing Positions API
+  slug: open-workday-positions-api
+- collection_type: open
+  name: Workday Financial Management Procurement API
+  slug: open-workday-procurement-api
+- collection_type: open
+  name: Workday Recruiting Prospects API
+  slug: open-workday-prospects-api
+- collection_type: open
+  name: Workday WQL Query API
+  slug: open-workday-query-api
+- collection_type: open
+  name: Workday Common Reference Data API
+  slug: open-workday-reference-data-api
+- collection_type: open
+  name: Workday Report-as-a-Service Reports API
+  slug: open-workday-reports-api
+- collection_type: open
+  name: Workday Financial Management Revenue API
+  slug: open-workday-revenue-api
+- collection_type: open
+  name: Workday Compensation Scorecards API
+  slug: open-workday-scorecards-api
+- collection_type: open
+  name: Workday Staffing API
+  slug: open-workday-staffing-api
+- collection_type: open
+  name: Workday Talent Management Succession Planning API
+  slug: open-workday-succession-planning-api
+- collection_type: open
+  name: Workday Prism Analytics Tables API
+  slug: open-workday-tables-api
+- collection_type: open
+  name: Workday Talent Management Talent Profiles API
+  slug: open-workday-talent-profiles-api
+- collection_type: open
+  name: Workday Time Tracking Time Clock API
+  slug: open-workday-time-clock-api
+- collection_type: open
+  name: Workday Time Tracking Time Entries API
+  slug: open-workday-time-entries-api
+- collection_type: open
+  name: Workday Absence Management Time Off API
+  slug: open-workday-time-off-api
+- collection_type: open
+  name: Workday Time Tracking Timesheets API
+  slug: open-workday-timesheets-api
+- collection_type: open
+  name: Workday HCM Workers API
+  slug: open-workday-workers-api
 - collection_type: open
   name: Workday WQL API
   slug: open-wql
@@ -2405,7 +2543,7 @@ plans:
 - name: Workday Plans Pricing
   plan_count: 1
   slug: workday-plans-pricing
-random_paper: 35
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Workday Rate Limits
@@ -2454,7 +2592,7 @@ score:
       total: 46
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png
 security:

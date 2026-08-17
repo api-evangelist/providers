@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ apis:
 - description: The Webhooks API from Total Expert — 3 operation(s) for webhooks.
   name: Total Expert Webhooks API
   slug: total-expert-webhooks-api
-artifact_total: 43
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Total Expert Webhooks
@@ -149,6 +149,60 @@ collections:
 - collection_type: postman
   name: Total Expert Public Account Endpoints Webhooks API
   slug: postman-total-expert-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Total Expert Public Account Endpoints API
+  slug: open-total-expert-account-endpoints-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Activity Endpoints API
+  slug: open-total-expert-activity-endpoints-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints ALM Leads (formerly Lead Opportunities) API
+  slug: open-total-expert-alm-leads-formerly-lead-opportunities-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Authentication API
+  slug: open-total-expert-authentication-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Contact Endpoints API
+  slug: open-total-expert-contact-endpoints-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Email APIs API
+  slug: open-total-expert-email-apis-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Email Unsubscribes API
+  slug: open-total-expert-email-unsubscribes-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Entities API
+  slug: open-total-expert-entities-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Heartbeat API
+  slug: open-total-expert-heartbeat-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Insight Endpoints API
+  slug: open-total-expert-insight-endpoints-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Lead Opportunities (New) API
+  slug: open-total-expert-lead-opportunities-new-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Loan Endpoints API
+  slug: open-total-expert-loan-endpoints-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Scenarios API
+  slug: open-total-expert-scenarios-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Schema Endpoints API
+  slug: open-total-expert-schema-endpoints-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints SMS Opting API
+  slug: open-total-expert-sms-opting-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints User Endpoints API
+  slug: open-total-expert-user-endpoints-api
+- collection_type: open
+  name: Total Expert Public Account Endpoints Webhooks API
+  slug: open-total-expert-webhooks-api
 common:
 - group: build
   title: ''
@@ -232,10 +286,6 @@ common:
   url: packages/total-expert-packages.yml
 - group: agent
   title: ''
-  type: WellKnown
-  url: well-known/total-expert-well-known.yml
-- group: agent
-  title: ''
   type: MCPServer
   url: mcp/total-expert-mcp.yml
 - group: agent
@@ -286,6 +336,34 @@ common:
   title: ''
   type: DataModel
   url: data-model/total-expert-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/total-expert-changelog.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://totalexpert.freshdesk.com/support/solutions/22000109162
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/total-expert-plans-pricing.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/total-expert-components.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/total-expert-te-connect-ppe-schema.yml
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://totalexpert.freshdesk.com/support/home
+- group: start
+  title: ''
+  type: Login
+  url: https://totalexpert.net/login
 created: '2026-07-17'
 description: Total Expert is a fintech CRM and customer-engagement platform built for banks, credit unions, lenders, and mortgage companies. Its Public API is a REST/JSON surface at public.totalexpert.net/v1, secured with OAuth 2.0 (client-credentials for admin integrations, authorization-code for user-level access), covering contacts, leads, loans, insights, surveys, campaigns, users, teams, accounts, and webhook subscriptions, with documented deduplication, pagination, and rate-limit contracts and an isolated sandbox environment for integration partners.
 image: https://developer.totalexpert.net/img/Total-Expert-Logo-Color.png
@@ -294,7 +372,7 @@ mcp_servers:
 - description: ''
   name: total-expert-mcp.yml
   slug: total-expert-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Total Expert
 nav: Providers
 network: true
@@ -304,8 +382,12 @@ overview: 'Total Expert publishes 17 APIs on the [APIs.io](https://apis.io/) net
   The Total Expert catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 27 more developer resources.'
-random_paper: 57
+  Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 33 more developer resources.'
+plans:
+- name: Total Expert Plans Pricing
+  plan_count: 0
+  slug: total-expert-plans-pricing
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Total Expert Rate Limits
@@ -316,16 +398,16 @@ scopes:
   slug: total-expert-scopes
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.0
+  band: strong
+  composite: 60.8
+  delta: 5.1
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 50.0
     contract_quality: 68.8
     developer_ergonomics: 66.8
     discoverability: 81.5
-    governance: 20.8
-    operational_transparency: 50.0
+    governance: 31.3
+    operational_transparency: 65.8
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -344,8 +426,8 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Total Expert Authentication

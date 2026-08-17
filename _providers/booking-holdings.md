@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: Enables management of booking orders within the Demand API. </br></br>Use these endpoints to preview and create new orders, check order details, cancel or modify existing orders. This collection is re
   name: Booking Holdings Orders API
   slug: booking-holdings-orders-api
-artifact_total: 94
+artifact_total: 104
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Booking.com Demand Accommodations API
+  slug: open-booking-holdings-accommodations-api
+- collection_type: open
+  name: Booking.com Demand Accommodations Attachments API
+  slug: open-booking-holdings-attachments-api
+- collection_type: open
+  name: Booking.com Demand Accommodations Cars API
+  slug: open-booking-holdings-cars-api
+- collection_type: open
+  name: Booking.com Demand Accommodations Common/languages API
+  slug: open-booking-holdings-common-languages-api
+- collection_type: open
+  name: Booking.com Demand Accommodations Common/locations API
+  slug: open-booking-holdings-common-locations-api
+- collection_type: open
+  name: Booking.com Demand Accommodations Common/payments API
+  slug: open-booking-holdings-common-payments-api
+- collection_type: open
+  name: Booking.com Demand Accommodations Conversations API
+  slug: open-booking-holdings-conversations-api
+- collection_type: open
+  name: Booking.com Demand Accommodations Messages API
+  slug: open-booking-holdings-messages-api
+- collection_type: open
+  name: Booking.com Demand Accommodations Orders API
+  slug: open-booking-holdings-orders-api
 common:
 - group: agent
   title: ''
@@ -404,7 +435,7 @@ plans:
 - name: Booking Holdings Plans Pricing
   plan_count: 2
   slug: booking-holdings-plans-pricing
-random_paper: 86
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Booking Holdings Rate Limits
@@ -454,7 +485,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png
 security:

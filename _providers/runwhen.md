@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 10
@@ -192,7 +192,164 @@ apis:
 - description: The workspaces API from RunWhen — 72 operation(s) for workspaces.
   name: RunWhen workspaces API
   slug: runwhen-workspaces-api
-artifact_total: 56
+artifact_total: 108
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: papi alert-query-proxy API
+  slug: open-runwhen-alert-query-proxy-api
+- collection_type: open
+  name: papi alert-query-proxy auth API
+  slug: open-runwhen-auth-api
+- collection_type: open
+  name: papi alert-query-proxy auth-providers API
+  slug: open-runwhen-auth-providers-api
+- collection_type: open
+  name: papi alert-query-proxy auth0 API
+  slug: open-runwhen-auth0-api
+- collection_type: open
+  name: papi alert-query-proxy author API
+  slug: open-runwhen-author-api
+- collection_type: open
+  name: papi alert-query-proxy chat-config API
+  slug: open-runwhen-chat-config-api
+- collection_type: open
+  name: papi alert-query-proxy codebundles API
+  slug: open-runwhen-codebundles-api
+- collection_type: open
+  name: papi alert-query-proxy codecollections API
+  slug: open-runwhen-codecollections-api
+- collection_type: open
+  name: papi alert-query-proxy comments API
+  slug: open-runwhen-comments-api
+- collection_type: open
+  name: papi alert-query-proxy configuration API
+  slug: open-runwhen-configuration-api
+- collection_type: open
+  name: papi alert-query-proxy explorer API
+  slug: open-runwhen-explorer-api
+- collection_type: open
+  name: papi alert-query-proxy Graphql API
+  slug: open-runwhen-graphql-api
+- collection_type: open
+  name: papi alert-query-proxy health API
+  slug: open-runwhen-health-api
+- collection_type: open
+  name: papi alert-query-proxy internal API
+  slug: open-runwhen-internal-api
+- collection_type: open
+  name: papi alert-query-proxy issue-occurrences API
+  slug: open-runwhen-issue-occurrences-api
+- collection_type: open
+  name: papi alert-query-proxy issues API
+  slug: open-runwhen-issues-api
+- collection_type: open
+  name: papi alert-query-proxy jwks API
+  slug: open-runwhen-jwks-api
+- collection_type: open
+  name: papi alert-query-proxy llm-config API
+  slug: open-runwhen-llm-config-api
+- collection_type: open
+  name: papi alert-query-proxy notes (deprecated v3) API
+  slug: open-runwhen-notes-deprecated-v3-api
+- collection_type: open
+  name: papi alert-query-proxy notes-import-v4 API
+  slug: open-runwhen-notes-import-v4-api
+- collection_type: open
+  name: papi alert-query-proxy notes-v4 API
+  slug: open-runwhen-notes-v4-api
+- collection_type: open
+  name: papi alert-query-proxy oauth-server API
+  slug: open-runwhen-oauth-server-api
+- collection_type: open
+  name: papi alert-query-proxy persona-v4 API
+  slug: open-runwhen-persona-v4-api
+- collection_type: open
+  name: papi alert-query-proxy personas API
+  slug: open-runwhen-personas-api
+- collection_type: open
+  name: papi alert-query-proxy profile API
+  slug: open-runwhen-profile-api
+- collection_type: open
+  name: papi alert-query-proxy run-requests API
+  slug: open-runwhen-run-requests-api
+- collection_type: open
+  name: papi alert-query-proxy run-sessions API
+  slug: open-runwhen-run-sessions-api
+- collection_type: open
+  name: papi alert-query-proxy runbook-v4 API
+  slug: open-runwhen-runbook-v4-api
+- collection_type: open
+  name: papi alert-query-proxy runbooks API
+  slug: open-runwhen-runbooks-api
+- collection_type: open
+  name: papi alert-query-proxy runners API
+  slug: open-runwhen-runners-api
+- collection_type: open
+  name: papi alert-query-proxy rwfs API
+  slug: open-runwhen-rwfs-api
+- collection_type: open
+  name: papi alert-query-proxy rwsupport API
+  slug: open-runwhen-rwsupport-api
+- collection_type: open
+  name: papi alert-query-proxy rwsupport-prompt-hub API
+  slug: open-runwhen-rwsupport-prompt-hub-api
+- collection_type: open
+  name: papi alert-query-proxy rwsupport-scrubhub API
+  slug: open-runwhen-rwsupport-scrubhub-api
+- collection_type: open
+  name: papi alert-query-proxy slack API
+  slug: open-runwhen-slack-api
+- collection_type: open
+  name: papi alert-query-proxy sli-v4 API
+  slug: open-runwhen-sli-v4-api
+- collection_type: open
+  name: papi alert-query-proxy slis API
+  slug: open-runwhen-slis-api
+- collection_type: open
+  name: papi alert-query-proxy slo-v4 API
+  slug: open-runwhen-slo-v4-api
+- collection_type: open
+  name: papi alert-query-proxy slos API
+  slug: open-runwhen-slos-api
+- collection_type: open
+  name: papi alert-query-proxy slx-v4 API
+  slug: open-runwhen-slx-v4-api
+- collection_type: open
+  name: papi alert-query-proxy slxs API
+  slug: open-runwhen-slxs-api
+- collection_type: open
+  name: papi alert-query-proxy social-auth API
+  slug: open-runwhen-social-auth-api
+- collection_type: open
+  name: papi alert-query-proxy sync API
+  slug: open-runwhen-sync-api
+- collection_type: open
+  name: papi alert-query-proxy tokens API
+  slug: open-runwhen-tokens-api
+- collection_type: open
+  name: papi alert-query-proxy tutorials API
+  slug: open-runwhen-tutorials-api
+- collection_type: open
+  name: papi alert-query-proxy users API
+  slug: open-runwhen-users-api
+- collection_type: open
+  name: papi alert-query-proxy workflow-v4 API
+  slug: open-runwhen-workflow-v4-api
+- collection_type: open
+  name: papi alert-query-proxy workflows API
+  slug: open-runwhen-workflows-api
+- collection_type: open
+  name: papi alert-query-proxy workspace-alerts API
+  slug: open-runwhen-workspace-alerts-api
+- collection_type: open
+  name: papi alert-query-proxy workspace-v4 API
+  slug: open-runwhen-workspace-v4-api
+- collection_type: open
+  name: papi alert-query-proxy workspaces API
+  slug: open-runwhen-workspaces-api
 common:
 - group: docs
   title: ''
@@ -318,7 +475,7 @@ overview: 'RunWhen publishes 51 APIs on the [APIs.io](https://apis.io/) network,
 
 
   RunWhen''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 55
+random_paper: 30
 scopes:
 - name: Runwhen Scopes
   scope_count: 3
@@ -347,7 +504,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

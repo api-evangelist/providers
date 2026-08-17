@@ -1,60 +1,121 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
+  label: Freemium · Self-serve signup · 100 free credits
   onboarding: self-serve
-  pricing: paid
+  pricing: freemium
   public: false
   source:
   - plans
   - authentication
-  trial: false
+  - https://konbiniapi.com/pricing
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 58.6
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 0
+- acting_count: 3
   human_in_the_loop: 0
   name: Konbiniapi Agentic Access
-  operation_count: 30
+  operation_count: 67
   slug: konbiniapi-agentic-access
-  summary_line: 30 operations
-api_count: 2
+  summary_line: 67 operations · 3 acting
+api_count: 6
 apis:
-- description: Instagram data endpoints
+- description: Ten Instagram endpoints covering profiles, posts, reels, tagged media, story highlights, post comments, location feeds and trending media search, normalized to ActivityStreams 2.0.
   name: KonbiniAPI Instagram API
   slug: konbiniapi-instagram-api
-- description: TikTok data endpoints
+- description: Twenty-one TikTok endpoints covering profiles, videos, likes, reposts, collections, stories, following and follower lists, live streams, comments and replies, WebVTT transcripts, hashtags, audio track
   name: KonbiniAPI TikTok API
   slug: konbiniapi-tiktok-api
-artifact_total: 95
+- description: Seven X (Twitter) endpoints covering public profiles, user post timelines, the Highlights tab, single posts, and X Communities including community metadata, posts and media — all as visible to a logge
+  name: KonbiniAPI X API
+  slug: konbiniapi-x-api
+- description: Twenty-two Reddit endpoints — the provider's deepest surface — covering users, subreddits and their structured rules, posts, comments and reply threads, duplicates and crossposts, site-wide feeds, thr
+  name: KonbiniAPI Reddit API
+  slug: konbiniapi-reddit-api
+- description: Seven LinkedIn endpoints covering public member profiles, member posts and published articles, company pages and company posts, single posts with inline comments, and video post transcripts. The newes
+  name: KonbiniAPI LinkedIn API
+  slug: konbiniapi-linkedin-api
+- description: Hosted remote MCP server exposing one typed tool for every one of the 67 REST operations, over streamable HTTP with OAuth 2.1 (authorization code + PKCE) or a Bearer API key. Adds three MCP-only proje
+  name: KonbiniAPI MCP Server
+  slug: konbiniapi-mcp
+artifact_total: 106
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Konbini Instagram API
+  slug: open-konbiniapi-instagram-api
+- collection_type: open
+  name: Konbini LinkedIn API
+  slug: open-konbiniapi-linkedin-api
+- collection_type: open
+  name: Konbini TikTok API
+  slug: open-konbiniapi-tiktok-api
+- collection_type: open
+  name: Konbini X API
+  slug: open-konbiniapi-x-api
 - collection_type: open
   name: KonbiniAPI
   slug: open-konbiniapi
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/konbiniapi-openapi.json
 - group: agent
   title: ''
-  type: AgenticAccess
-  url: agentic-access/konbiniapi-agentic-access.yml
+  type: MCPServer
+  url: mcp/konbiniapi-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/konbiniapi-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/konbiniapi-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/konbiniapi-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/konbiniapi-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/konbiniapi-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/konbiniapi-vulnerability-disclosure.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -69,19 +130,107 @@ common:
   url: authentication/konbiniapi-authentication.yml
 - group: auth
   title: ''
+  type: OAuthScopes
+  url: scopes/konbiniapi-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/konbiniapi-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/konbiniapi-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/konbiniapi-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/konbiniapi-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/konbiniapi-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/konbiniapi-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/konbiniapi-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/konbiniapi-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/konbiniapi-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/konbiniapi-finops.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/konbiniapi-agentic-access.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/konbiniapi-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/konbiniapi-rules.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/konbiniapi-context.jsonld
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/konbiniapi.postman_collection.json
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/konbiniapi.opencollection.json
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/konbiniapi-api-catalog.json
+- group: build
+  title: ''
+  type: OpenAIPluginManifest
+  url: well-known/konbiniapi-ai-plugin.json
+- group: auth
+  title: ''
   type: Authentication
   url: https://docs.konbiniapi.com/getting-started/authentication
 - group: start
   title: ''
-  type: GettingStarted
-  url: https://docs.konbiniapi.com/getting-started/quickstart
+  type: DeveloperPortal
+  url: https://docs.konbiniapi.com
 - group: docs
   title: ''
   type: Documentation
   url: https://docs.konbiniapi.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.konbiniapi.com/reference/api/overview
 - group: start
   title: ''
-  type: Signup
+  type: GettingStarted
+  url: https://docs.konbiniapi.com/getting-started/quickstart
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.konbiniapi.com/changelog
+- group: start
+  title: ''
+  type: SignUp
   url: https://app.konbiniapi.com
 - group: commercial
   title: ''
@@ -95,16 +244,40 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://konbiniapi.com/privacy
+- group: other
+  title: ''
+  type: DPA
+  url: https://konbiniapi.com/dpa
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/konbiniapi
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/konbiniapi
+- group: agent
+  title: ''
+  type: X-llms-txt
+  url: https://docs.konbiniapi.com/llms.txt
+- group: agent
+  title: ''
+  type: X-llms-full-txt
+  url: https://docs.konbiniapi.com/llms-full.txt
+- group: agent
+  title: ''
+  type: X-mcp
+  url: https://mcp.konbiniapi.com
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:hello@konbiniapi.com
 - group: operate
   title: ''
   type: Contact
   url: mailto:hello@konbiniapi.com
 created: '2026-05-06'
-description: KonbiniAPI is the social data layer for Instagram and TikTok, normalizing real-time public profile, post, video, comment, audio, location, and search data into a consistent ActivityStreams 2.0 (W3C) format. The service exposes one Bearer-authenticated REST API and an MCP (Model Context Protocol) interface so developers, AI agents, and automation platforms can fetch normalized social data without managing platform-specific JSON quirks, TLS fingerprinting, sessions, or pagination internals.
+description: KonbiniAPI is the social data layer for Instagram, TikTok, X, Reddit and LinkedIn, normalizing real-time public profile, post, video, comment, audio, community, subreddit, location and search data into a single consistent ActivityStreams 2.0 (W3C) shape. Sixty-seven endpoints are exposed through one Bearer-authenticated REST API and, one-for-one, through a hosted remote MCP (Model Context Protocol) server at mcp.konbiniapi.com with OAuth 2.1, so developers, AI agents and automation platforms can fetch normalized social data without managing platform-specific JSON quirks, TLS fingerprinting, sessions or pagination internals. Billing is a flat credit model — one successful request costs one credit, failed and upstream-error requests are refunded, and the provider publishes no rate limits at all.
 examples:
 - key_count: 4
   name: Konbiniapi Instagramgethighlightstories Example
@@ -365,22 +538,26 @@ jsonld:
   property_count: 24
   slug: konbiniapi-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: konbiniapi-mcp.yml
+  slug: konbiniapi-mcpyml
+modified: '2026-08-13'
 name: KonbiniAPI
 nav: Providers
 network: true
-overview: 'KonbiniAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Instagram API and TikTok API. Tagged areas include API, Social Media, Instagram, TikTok, and ActivityStreams 2.0.
+overview: 'KonbiniAPI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Instagram API, TikTok API, X API, and 2 more. Tagged areas include API, Social Media, Instagram, TikTok, and X.
 
 
   The KonbiniAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  KonbiniAPI''s developer surface includes authentication, getting-started guide, documentation, signup flow, pricing, and 8 more developer resources.'
+  KonbiniAPI''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, signup flow, pricing, and 42 more developer resources.'
 plans:
 - name: Konbiniapi Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: konbiniapi-plans-pricing
-random_paper: 100
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Konbiniapi Rate Limits
@@ -402,17 +579,22 @@ rules:
     info: 0
     warn: 3
   slug: konbiniapi-rules
+scopes:
+- name: Konbiniapi Scopes
+  scope_count: 0
+  slug: konbiniapi-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: exemplar
+  composite: 72.8
+  delta: 15.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 78.4
-    developer_ergonomics: 30.4
-    discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 5.3
+    contract_quality: 73.9
+    developer_ergonomics: 69.6
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 31.6
   previous_composite: 57.1
   provenance:
     agentic_access: derived
@@ -426,16 +608,16 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 57.4
+    score: 75.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/screenshots/konbiniapi-2026-06-20T184125.png
 security:
 - kind: authentication
   name: Konbiniapi Authentication
   slug: konbiniapi-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Konbiniapi Domain Security
   slug: konbiniapi-domain-security
@@ -450,6 +632,9 @@ tags:
 - Social Media
 - Instagram
 - TikTok
+- X
+- Reddit
+- LinkedIn
 - ActivityStreams 2.0
 - Scraping
 - Data Extraction
@@ -459,4 +644,7 @@ tags:
 - Creator Tools
 - MCP
 - Model Context Protocol
+- Agent Skills
+- Agents
+website: https://docs.konbiniapi.com
 ---

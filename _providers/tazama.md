@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: ISO 20022 transaction message evaluation for fraud and AML detection
   name: Tazama Transaction Evaluation API
   slug: tazama-transaction-evaluation-api
-artifact_total: 18
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tazama Transaction Monitoring Service Health API
+  slug: open-tazama-health-api
+- collection_type: open
+  name: Tazama Transaction Monitoring Service Health Transaction Evaluation API
+  slug: open-tazama-transaction-evaluation-api
 - collection_type: open
   name: Tazama Transaction Monitoring Service API
   slug: open-tazama-transaction-monitoring-service
@@ -159,7 +168,7 @@ plans:
 - name: Tazama Plans Pricing
   plan_count: 3
   slug: tazama-plans-pricing
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Tazama Rate Limits
@@ -201,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/screenshots/tazama-2026-06-20T194939.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -49,7 +49,23 @@ apis:
 - description: The SearchHotel API from Trip.com — 1 operation(s) for searchhotel.
   name: Trip.com SearchHotel API
   slug: tripcom-searchhotel-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trip.com Plugin- Personal Travel Assistant. SearchAttractionAndActivity API
+  slug: open-tripcom-searchattractionandactivity-api
+- collection_type: open
+  name: Trip.com Plugin- Personal Travel Assistant. SearchAttractionAndActivity SearchCars API
+  slug: open-tripcom-searchcars-api
+- collection_type: open
+  name: Trip.com Plugin- Personal Travel Assistant. SearchAttractionAndActivity SearchFlightTicket API
+  slug: open-tripcom-searchflightticket-api
+- collection_type: open
+  name: Trip.com Plugin- Personal Travel Assistant. SearchAttractionAndActivity SearchHotel API
+  slug: open-tripcom-searchhotel-api
 common:
 - group: other
   title: ''
@@ -127,7 +143,7 @@ overview: 'Trip.com publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Trip.com''s developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 46
+random_paper: 21
 score:
   band: thin
   composite: 30.8
@@ -151,7 +167,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

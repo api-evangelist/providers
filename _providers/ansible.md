@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
 - description: The Workflow Jobs API from Ansible — 1 operation(s) for workflow jobs.
   name: Ansible Workflow Jobs API
   slug: ansible-workflow-jobs-api
-artifact_total: 58
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Ansible Automation Controller Auth API
@@ -125,6 +125,45 @@ collections:
 - collection_type: postman
   name: Ansible Automation Controller Auth Workflow Jobs API
   slug: postman-ansible-workflow-jobs-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ansible Automation Controller Auth API
+  slug: open-ansible-auth-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Credentials API
+  slug: open-ansible-credentials-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Hosts API
+  slug: open-ansible-hosts-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Inventories API
+  slug: open-ansible-inventories-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Job Templates API
+  slug: open-ansible-job-templates-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Jobs API
+  slug: open-ansible-jobs-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Organizations API
+  slug: open-ansible-organizations-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Projects API
+  slug: open-ansible-projects-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Schedules API
+  slug: open-ansible-schedules-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Users API
+  slug: open-ansible-users-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Workflow Job Templates API
+  slug: open-ansible-workflow-job-templates-api
+- collection_type: open
+  name: Ansible Automation Controller Auth Workflow Jobs API
+  slug: open-ansible-workflow-jobs-api
 - collection_type: open
   name: Ansible Automation Controller API
   slug: open-ansible
@@ -301,7 +340,7 @@ plans:
 - name: Ansible Plans Pricing
   plan_count: 3
   slug: ansible-plans-pricing
-random_paper: 14
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Ansible Rate Limits
@@ -335,7 +374,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/screenshots/ansible-2026-06-20T172015.png
 security:

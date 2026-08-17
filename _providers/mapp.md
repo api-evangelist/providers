@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: 'The Mapp Engage REST API (REST 2.0, incremental version v19) exchanges data between external systems and Mapp Engage: create and update contacts, manage group memberships and attributes, send single, '
@@ -34,11 +34,24 @@ apis:
 - description: 'The Mapp Fashion (formerly Dressipi) recommendation API returns curated fashion and retail recommendations: related and complementary items for a seed product, themed and facetted recommendations, top'
   name: Mapp Fashion API
   slug: fashion
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Mapp Data Streams
   slug: mapp-data-streams
+collections:
+- collection_type: open
+  name: Mapp Engage public API
+  slug: open-mapp-engage
+- collection_type: open
+  name: Mapp Fashion API
+  slug: open-mapp-fashion
+- collection_type: open
+  name: Analytics API
+  slug: open-mapp-intelligence-analytics
+- collection_type: open
+  name: Product Catalog - Public API
+  slug: open-mapp-product-catalog
 common:
 - group: auth
   title: ''
@@ -223,7 +236,7 @@ plans:
 - name: Mapp Plans Pricing
   plan_count: 3
   slug: mapp-plans-pricing
-random_paper: 70
+random_paper: 132
 rate_limits:
 - limit_count: 1
   name: Mapp Rate Limits
@@ -236,6 +249,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 60.9
@@ -243,6 +257,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 65.8
+  previous_composite: 69.0
   regulatory:
     applies: true
     matched_via: tags
@@ -250,7 +265,8 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Mapp Authentication

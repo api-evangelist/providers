@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ arazzos:
 - description: Look up an API proxy by name and update it if it exists, otherwise create it.
   name: SAP Integration Suite Upsert API Proxy
   slug: sap-integration-suite-upsert-api-proxy-workflow
-artifact_total: 62
+artifact_total: 74
 collections:
 - collection_type: postman
   name: SAP API Management API
@@ -133,11 +133,47 @@ collections:
   name: SAP Cloud Integration API
   slug: postman-sap-integration-suite-cloud-integration
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: SAP API Management API
   slug: open-sap-integration-suite-api-management
 - collection_type: open
+  name: SAP API Management API Products API
+  slug: open-sap-integration-suite-api-products-api
+- collection_type: open
+  name: SAP API Management API Products API Proxies API
+  slug: open-sap-integration-suite-api-proxies-api
+- collection_type: open
+  name: SAP API Management API Products Applications API
+  slug: open-sap-integration-suite-applications-api
+- collection_type: open
   name: SAP Cloud Integration API
   slug: open-sap-integration-suite-cloud-integration
+- collection_type: open
+  name: SAP API Management API Products Developers API
+  slug: open-sap-integration-suite-developers-api
+- collection_type: open
+  name: SAP API Management API Products Integration Flows API
+  slug: open-sap-integration-suite-integration-flows-api
+- collection_type: open
+  name: SAP API Management API Products Integration Packages API
+  slug: open-sap-integration-suite-integration-packages-api
+- collection_type: open
+  name: SAP API Management API Products Key Value Maps API
+  slug: open-sap-integration-suite-key-value-maps-api
+- collection_type: open
+  name: SAP API Management API Products Message Processing Logs API
+  slug: open-sap-integration-suite-message-processing-logs-api
+- collection_type: open
+  name: SAP API Management API Products Runtime Artifacts API
+  slug: open-sap-integration-suite-runtime-artifacts-api
+- collection_type: open
+  name: SAP API Management API Products Service Endpoints API
+  slug: open-sap-integration-suite-service-endpoints-api
+- collection_type: open
+  name: SAP API Management API Products Variables API
+  slug: open-sap-integration-suite-variables-api
 common:
 - group: agent
   title: ''
@@ -367,7 +403,7 @@ plans:
 - name: Sap Integration Suite Plans Pricing
   plan_count: 1
   slug: sap-integration-suite-plans-pricing
-random_paper: 116
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Sap Integration Suite Rate Limits
@@ -414,7 +450,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/screenshots/sap-integration-suite-2026-06-20T193428.png
 security:

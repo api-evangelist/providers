@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,8 +47,14 @@ apis:
 - description: The Videos API from API.Video — 8 operation(s) for videos.
   name: API.Video Videos API
   slug: api-video-videos-api
-artifact_total: 25
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: api.video Videos API
+  slug: open-api-video-videos-api
 - collection_type: open
   name: api.video API
   slug: open-api-video
@@ -137,7 +143,7 @@ plans:
 - name: Api Video Plans Pricing
   plan_count: 3
   slug: api-video-plans-pricing
-random_paper: 54
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Api Video Rate Limits
@@ -162,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/screenshots/api-video-2026-06-20T172221.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -137,7 +137,110 @@ apis:
 - description: The Vanity URLs API from Posit — 2 operation(s) for vanity urls.
   name: Posit Vanity URLs API
   slug: posit-vanity-urls-api
-artifact_total: 37
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Posit Connect API Reference API Keys API
+  slug: open-posit-api-keys-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Audit Logs API
+  slug: open-posit-audit-logs-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Bookmarks API
+  slug: open-posit-bookmarks-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Bootstrap API
+  slug: open-posit-bootstrap-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Bundles API
+  slug: open-posit-bundles-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Content API
+  slug: open-posit-content-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Content Permissions API
+  slug: open-posit-content-permissions-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Custom Documentation API
+  slug: open-posit-custom-documentation-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Environment Permissions API
+  slug: open-posit-environment-permissions-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Environments API
+  slug: open-posit-environments-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Examples API
+  slug: open-posit-examples-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Feature Usage API
+  slug: open-posit-feature-usage-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Groups API
+  slug: open-posit-groups-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Instrumentation API
+  slug: open-posit-instrumentation-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Jobs API
+  slug: open-posit-jobs-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Metrics API
+  slug: open-posit-metrics-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys OAuth Clients API
+  slug: open-posit-oauth-clients-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys OAuth Integration Templates API
+  slug: open-posit-oauth-integration-templates-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys OAuth Integrations API
+  slug: open-posit-oauth-integrations-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys OAuth Sessions API
+  slug: open-posit-oauth-sessions-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Packages API
+  slug: open-posit-packages-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Queue API
+  slug: open-posit-queue-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Schedules API
+  slug: open-posit-schedules-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Server Information API
+  slug: open-posit-server-information-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Service Tokens API
+  slug: open-posit-service-tokens-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Storage API
+  slug: open-posit-storage-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys System API
+  slug: open-posit-system-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys System Checks API
+  slug: open-posit-system-checks-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys System Information API
+  slug: open-posit-system-information-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Tags API
+  slug: open-posit-tags-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Tasks API
+  slug: open-posit-tasks-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Users API
+  slug: open-posit-users-api
+- collection_type: open
+  name: Posit Connect API Reference API Keys Vanity URLs API
+  slug: open-posit-vanity-urls-api
 common:
 - group: other
   title: ''
@@ -275,7 +378,7 @@ overview: 'Posit publishes 33 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Posit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 23 more developer resources.'
-random_paper: 79
+random_paper: 112
 score:
   band: developing
   composite: 47.7
@@ -299,7 +402,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

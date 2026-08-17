@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,20 +56,38 @@ apis:
 - description: Everything about Stores
   name: IKEA Stores API
   slug: ikea-stores-api
-artifact_total: 67
+artifact_total: 73
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: IKEA After Purchase Ordering API
   slug: open-ikea-after-purchase-ordering
 - collection_type: open
+  name: IKEA After Purchase Ordering Availability API
+  slug: open-ikea-availability-api
+- collection_type: open
+  name: IKEA After Purchase Ordering Availability Categories API
+  slug: open-ikea-categories-api
+- collection_type: open
+  name: IKEA After Purchase Ordering Availability Parts API
+  slug: open-ikea-parts-api
+- collection_type: open
   name: IKEA Product Catalog API
   slug: open-ikea-product-catalog
+- collection_type: open
+  name: IKEA After Purchase Ordering Availability Products API
+  slug: open-ikea-products-api
 - collection_type: open
   name: IKEA Sales Item API
   slug: open-ikea-sales-item
 - collection_type: open
   name: IKEA Search API
   slug: open-ikea-search
+- collection_type: open
+  name: IKEA After Purchase Ordering Availability Stores API
+  slug: open-ikea-stores-api
 common:
 - group: operate
   title: ''
@@ -315,7 +333,7 @@ overview: 'IKEA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   IKEA''s developer surface includes authentication, engineering blog, code examples, and 14 more developer resources.'
-random_paper: 50
+random_paper: 112
 rules:
 - name: IKEA API Rules
   rule_count: 5
@@ -353,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

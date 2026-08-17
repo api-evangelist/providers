@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Ethereum-compatible JSON-RPC 2.0 API for the Aurora EVM network of virtual chains on NEAR. Exposes the standard eth_* method set over HTTPS (and WebSocket subscriptions) on public mainnet and testnet '
@@ -140,7 +140,7 @@ overview: 'Aurora publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aurora''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, authentication, sandbox, and 16 more developer resources.'
-random_paper: 50
+random_paper: 54
 score:
   band: emerging
   composite: 27.2
@@ -156,7 +156,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora/refs/heads/main/screenshots/aurora-2026-07-25T201745.png
 security:

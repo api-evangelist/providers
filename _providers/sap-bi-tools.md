@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -160,11 +160,14 @@ arazzos:
 - description: Find a SAC story, fetch its detail, then list MODEL resources from the file repository to cross-reference its data sources.
   name: SAP BI Tools Story and Resource Cross-Reference
   slug: sap-bi-tools-story-resource-crossref-workflow
-artifact_total: 83
+artifact_total: 100
 collections:
 - collection_type: postman
   name: SAP BI Tools SAP Analytics Cloud API
   slug: postman-sap-analytics-cloud-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: SAP BI Tools SAP Analytics Cloud API
   slug: open-sap-analytics-cloud-api
@@ -174,6 +177,54 @@ collections:
 - collection_type: open
   name: SAP BI Tools SAP Analytics Cloud Data Export API
   slug: open-sap-analytics-cloud-data-export-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration API
+  slug: open-sap-bi-tools-administration-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Authentication API
+  slug: open-sap-bi-tools-authentication-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Calendars API
+  slug: open-sap-bi-tools-calendars-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration CMS Query API
+  slug: open-sap-bi-tools-cms-query-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Content Items API
+  slug: open-sap-bi-tools-content-items-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Fact Data API
+  slug: open-sap-bi-tools-fact-data-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Import API
+  slug: open-sap-bi-tools-import-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Inbox API
+  slug: open-sap-bi-tools-inbox-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration InfoStore API
+  slug: open-sap-bi-tools-infostore-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Master Data API
+  slug: open-sap-bi-tools-master-data-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Metadata API
+  slug: open-sap-bi-tools-metadata-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Resources API
+  slug: open-sap-bi-tools-resources-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Scheduling API
+  slug: open-sap-bi-tools-scheduling-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Stories API
+  slug: open-sap-bi-tools-stories-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Teams API
+  slug: open-sap-bi-tools-teams-api
+- collection_type: open
+  name: SAP BI Tools SAP Analytics Cloud Administration Users API
+  slug: open-sap-bi-tools-users-api
 - collection_type: open
   name: SAP BI Tools SAP BusinessObjects BI Platform RESTful Web Services
   slug: open-sap-businessobjects-bi-platform-api
@@ -486,7 +537,7 @@ plans:
 - name: Sap Bi Tools Plans Pricing
   plan_count: 1
   slug: sap-bi-tools-plans-pricing
-random_paper: 98
+random_paper: 135
 rate_limits:
 - limit_count: 1
   name: Sap Bi Tools Rate Limits
@@ -533,7 +584,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/screenshots/sap-bi-tools-2026-06-20T193416.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Operations for accessing and managing shapes on a Visio page
   name: Microsoft Visio API Shapes API
   slug: visio-shapes-api
-artifact_total: 31
+artifact_total: 39
 collections:
 - collection_type: postman
   name: Visio JavaScript Application API
@@ -87,8 +87,32 @@ collections:
   name: Visio JavaScript Application Shapes API
   slug: postman-visio-shapes-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Visio JavaScript Application API
+  slug: open-visio-application-api
+- collection_type: open
+  name: Visio JavaScript Application Comments API
+  slug: open-visio-comments-api
+- collection_type: open
+  name: Visio JavaScript Application Documents API
+  slug: open-visio-documents-api
+- collection_type: open
+  name: Visio JavaScript Application Hyperlinks API
+  slug: open-visio-hyperlinks-api
+- collection_type: open
   name: Visio JavaScript API
   slug: open-visio-javascript
+- collection_type: open
+  name: Visio JavaScript Application Pages API
+  slug: open-visio-pages-api
+- collection_type: open
+  name: Visio JavaScript Application Shape Data API
+  slug: open-visio-shape-data-api
+- collection_type: open
+  name: Visio JavaScript Application Shapes API
+  slug: open-visio-shapes-api
 common:
 - group: build
   title: ''
@@ -212,7 +236,7 @@ plans:
 - name: Visio Plans Pricing
   plan_count: 3
   slug: visio-plans-pricing
-random_paper: 74
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Visio Rate Limits
@@ -254,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/screenshots/visio-2026-06-20T201052.png
 security:

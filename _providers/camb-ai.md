@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,12 +57,33 @@ apis:
 - description: Discover, clone, design, and manage voices.
   name: Camb.AI Voices API
   slug: camb-ai-voices-api
-artifact_total: 15
+artifact_total: 22
 asyncapis:
 - description: 'Camb.AI exposes public WebSocket channels for real-time voice AI in addition to its REST API. Three streaming surfaces are documented: live text-to-speech (stream text in, receive synthesized audio an'
   name: Camb.AI Realtime WebSocket API
   slug: camb-ai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Camb.AI Dubbing API
+  slug: open-camb-ai-dubbing-api
+- collection_type: open
+  name: Camb.AI Dubbing Languages API
+  slug: open-camb-ai-languages-api
+- collection_type: open
+  name: Camb.AI Dubbing Text-to-Speech API
+  slug: open-camb-ai-text-to-speech-api
+- collection_type: open
+  name: Camb.AI Dubbing Transcription API
+  slug: open-camb-ai-transcription-api
+- collection_type: open
+  name: Camb.AI Dubbing Translation API
+  slug: open-camb-ai-translation-api
+- collection_type: open
+  name: Camb.AI Dubbing Voices API
+  slug: open-camb-ai-voices-api
 - collection_type: open
   name: Camb.AI API
   slug: open-camb-ai
@@ -134,7 +155,7 @@ plans:
 - name: Camb Ai Plans Pricing
   plan_count: 6
   slug: camb-ai-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 6
   name: Camb Ai Rate Limits
@@ -168,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/screenshots/camb-ai-2026-07-25T204253.png
 security:

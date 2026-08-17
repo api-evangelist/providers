@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Kinema is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kinema''s developer surface includes support, signup flow, and 7 more developer resources.'
-random_paper: 29
+random_paper: 33
 score:
   band: emerging
   composite: 13.4
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinema/refs/heads/main/screenshots/kinema-2026-07-25T223817.png
 security:

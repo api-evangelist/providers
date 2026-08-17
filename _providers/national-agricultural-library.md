@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: endpoints to retrieve nutrient data
   name: National Agricultural Library FDC API
   slug: national-agricultural-library-fdc-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Food Data Central FDC API
+  slug: open-national-agricultural-library-fdc-api
 - collection_type: open
   name: Food Data Central API
   slug: open-national-agricultural-library
@@ -92,7 +98,7 @@ plans:
 - name: National Agricultural Library Plans Pricing
   plan_count: 3
   slug: national-agricultural-library-plans-pricing
-random_paper: 116
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: National Agricultural Library Rate Limits
@@ -123,7 +129,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/refs/heads/main/screenshots/national-agricultural-library-2026-06-20T185959.png
 security:

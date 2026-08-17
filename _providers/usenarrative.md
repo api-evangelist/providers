@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -56,7 +56,29 @@ apis:
 - description: The Tasks API from Narrative Sports — 8 operation(s) for tasks.
   name: Narrative Sports Tasks API
   slug: usenarrative-tasks-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Narrative Sports Health API
+  slug: open-usenarrative-health-api
+- collection_type: open
+  name: Narrative Sports Health Highlight Packages API
+  slug: open-usenarrative-highlight-packages-api
+- collection_type: open
+  name: Narrative Sports Health Highlights API
+  slug: open-usenarrative-highlights-api
+- collection_type: open
+  name: Narrative Sports Health Projects API
+  slug: open-usenarrative-projects-api
+- collection_type: open
+  name: Narrative Sports Health Recaps API
+  slug: open-usenarrative-recaps-api
+- collection_type: open
+  name: Narrative Sports Health Tasks API
+  slug: open-usenarrative-tasks-api
 common:
 - group: company
   title: ''
@@ -174,7 +196,7 @@ overview: 'Narrative Sports publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Narrative Sports'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 105
+random_paper: 113
 score:
   band: developing
   composite: 45.3
@@ -198,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -97,14 +97,44 @@ arazzos:
 - description: Inspect a line item and branch — resend it when fulfilled, otherwise reissue it.
   name: Tango Resolve a Failed Line Item
   slug: tango-resolve-line-item-workflow
-artifact_total: 37
+artifact_total: 47
 collections:
 - collection_type: postman
   name: Tango RaaS API
   slug: postman-tango-raas-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tango RaaS Accounts API
+  slug: open-tango-accounts-api
+- collection_type: open
+  name: Tango RaaS Accounts Catalog API
+  slug: open-tango-catalog-api
+- collection_type: open
+  name: Tango RaaS Accounts Customers API
+  slug: open-tango-customers-api
+- collection_type: open
+  name: Tango RaaS Accounts Digital Templates API
+  slug: open-tango-digital-templates-api
+- collection_type: open
+  name: Tango RaaS Accounts Funding API
+  slug: open-tango-funding-api
+- collection_type: open
+  name: Tango RaaS Accounts Line Items API
+  slug: open-tango-line-items-api
+- collection_type: open
+  name: Tango RaaS Accounts Low Balance Alerts API
+  slug: open-tango-low-balance-alerts-api
+- collection_type: open
+  name: Tango RaaS Accounts Orders API
+  slug: open-tango-orders-api
+- collection_type: open
   name: Tango RaaS API
   slug: open-tango-raas-api
+- collection_type: open
+  name: Tango RaaS Accounts Reference Data API
+  slug: open-tango-reference-data-api
 common:
 - group: agent
   title: ''
@@ -298,7 +328,7 @@ plans:
 - name: Tango Plans Pricing
   plan_count: 3
   slug: tango-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Tango Rate Limits
@@ -346,7 +376,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/screenshots/tango-2026-06-20T194913.png
 security:

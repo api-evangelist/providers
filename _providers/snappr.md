@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,11 +65,42 @@ apis:
 - description: Retrieve videos for bookings.
   name: Snappr Videos API
   slug: snappr-videos-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Snappr Webhooks
   slug: snappr-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Snappr Availability API
+  slug: open-snappr-availability-api
+- collection_type: open
+  name: Snappr Availability Bookings API
+  slug: open-snappr-bookings-api
+- collection_type: open
+  name: Snappr Availability Coverage API
+  slug: open-snappr-coverage-api
+- collection_type: open
+  name: Snappr Availability Editing Job Types API
+  slug: open-snappr-editing-job-types-api
+- collection_type: open
+  name: Snappr Availability Editing Jobs API
+  slug: open-snappr-editing-jobs-api
+- collection_type: open
+  name: Snappr Availability Images API
+  slug: open-snappr-images-api
+- collection_type: open
+  name: Snappr Availability Presets API
+  slug: open-snappr-presets-api
+- collection_type: open
+  name: Snappr Availability Shoot Types API
+  slug: open-snappr-shoot-types-api
+- collection_type: open
+  name: Snappr Availability Videos API
+  slug: open-snappr-videos-api
 common:
 - group: other
   title: ''
@@ -186,7 +217,7 @@ overview: 'Snappr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Snappr''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 17 more developer resources.'
-random_paper: 60
+random_paper: 64
 score:
   band: developing
   composite: 52.7
@@ -210,7 +241,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

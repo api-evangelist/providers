@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: 'Miso''s new Ask API is the next generation of question answering APIs. It is designed to provide accurate and concise answers to your questions based on your existing product documents. Ask API offers '
@@ -61,7 +61,41 @@ apis:
 - description: APIs for recommending products and content to users based on their interests.
   name: miso.ai User Recommendations API
   slug: misoai-user-recommendations-api
-artifact_total: 13
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Miso Ask APIs API
+  slug: open-misoai-ask-apis-api
+- collection_type: open
+  name: Miso Ask APIs Bulk API API
+  slug: open-misoai-bulk-api-api
+- collection_type: open
+  name: Miso Ask APIs Experiment APIs API
+  slug: open-misoai-experiment-apis-api
+- collection_type: open
+  name: Miso Ask APIs Interaction APIs API
+  slug: open-misoai-interaction-apis-api
+- collection_type: open
+  name: Miso Ask APIs Product / Content APIs API
+  slug: open-misoai-product-content-apis-api
+- collection_type: open
+  name: Miso Ask APIs Product Recommendations API
+  slug: open-misoai-product-recommendations-api
+- collection_type: open
+  name: Miso Ask APIs Q&A APIs API
+  slug: open-misoai-q-a-apis-api
+- collection_type: open
+  name: Miso Ask APIs Search APIs API
+  slug: open-misoai-search-apis-api
+- collection_type: open
+  name: Miso Ask APIs User APIs API
+  slug: open-misoai-user-apis-api
+- collection_type: open
+  name: Miso Ask APIs User Recommendations API
+  slug: open-misoai-user-recommendations-api
 common:
 - group: other
   title: ''
@@ -195,7 +229,7 @@ overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   miso.ai''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, pricing, signup flow, and 22 more developer resources.'
-random_paper: 42
+random_paper: 46
 score:
   band: developing
   composite: 46.5
@@ -218,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/screenshots/misoai-2026-08-07T183747.png
 security:

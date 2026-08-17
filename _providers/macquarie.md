@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -75,7 +75,41 @@ apis:
 - description: The symplectic API from Macquarie University — 5 operation(s) for symplectic.
   name: Macquarie University symplectic API
   slug: macquarie-symplectic-api
-artifact_total: 28
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric API
+  slug: open-macquarie-altmetric-api
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric articles API
+  slug: open-macquarie-articles-api
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric authors API
+  slug: open-macquarie-authors-api
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric collections API
+  slug: open-macquarie-collections-api
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric institutions API
+  slug: open-macquarie-institutions-api
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric oauth API
+  slug: open-macquarie-oauth-api
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric other API
+  slug: open-macquarie-other-api
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric profiles API
+  slug: open-macquarie-profiles-api
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric projects API
+  slug: open-macquarie-projects-api
+- collection_type: open
+  name: Figshare API (Macquarie University Research Data Repository) altmetric symplectic API
+  slug: open-macquarie-symplectic-api
 common:
 - group: agent
   title: ''
@@ -178,7 +212,7 @@ plans:
 - name: Macquarie Plans Pricing
   plan_count: 2
   slug: macquarie-plans-pricing
-random_paper: 112
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Macquarie Rate Limits
@@ -225,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/screenshots/macquarie-2026-06-20T184829.png
 security:

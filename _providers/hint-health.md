@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 65.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -186,7 +186,162 @@ apis:
 - description: The WebhookEndpoint API from Hint Health — 2 operation(s) for webhookendpoint.
   name: Hint Health WebhookEndpoint API
   slug: hint-health-webhookendpoint-api
-artifact_total: 391
+artifact_total: 443
+asyncapis:
+- description: ''
+  name: Hint Health Webhooks
+  slug: hint-health-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hint Health AccountAccessToken API
+  slug: open-hint-health-accountaccesstoken-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Affiliate API
+  slug: open-hint-health-affiliate-api
+- collection_type: open
+  name: Hint Health AccountAccessToken AffiliateBill API
+  slug: open-hint-health-affiliatebill-api
+- collection_type: open
+  name: Hint Health AccountAccessToken AffiliatePatient API
+  slug: open-hint-health-affiliatepatient-api
+- collection_type: open
+  name: Hint Health AccountAccessToken CancellationReason API
+  slug: open-hint-health-cancellationreason-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Charge API
+  slug: open-hint-health-charge-api
+- collection_type: open
+  name: Hint Health AccountAccessToken ChargeItem API
+  slug: open-hint-health-chargeitem-api
+- collection_type: open
+  name: Hint Health AccountAccessToken ClinicalNoteInteraction API
+  slug: open-hint-health-clinicalnoteinteraction-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Company API
+  slug: open-hint-health-company-api
+- collection_type: open
+  name: Hint Health AccountAccessToken CompanyPlan API
+  slug: open-hint-health-companyplan-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Coupon API
+  slug: open-hint-health-coupon-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Credit API
+  slug: open-hint-health-credit-api
+- collection_type: open
+  name: Hint Health AccountAccessToken CreditCategory API
+  slug: open-hint-health-creditcategory-api
+- collection_type: open
+  name: Hint Health AccountAccessToken CreditLine API
+  slug: open-hint-health-creditline-api
+- collection_type: open
+  name: Hint Health AccountAccessToken CustomerInvoice API
+  slug: open-hint-health-customerinvoice-api
+- collection_type: open
+  name: Hint Health AccountAccessToken CustomerInvoiceCharge API
+  slug: open-hint-health-customerinvoicecharge-api
+- collection_type: open
+  name: Hint Health AccountAccessToken CustomerInvoicePayment API
+  slug: open-hint-health-customerinvoicepayment-api
+- collection_type: open
+  name: Hint Health AccountAccessToken DocumentInteraction API
+  slug: open-hint-health-documentinteraction-api
+- collection_type: open
+  name: Hint Health AccountAccessToken EmployeeDivision API
+  slug: open-hint-health-employeedivision-api
+- collection_type: open
+  name: Hint Health AccountAccessToken FormResponse API
+  slug: open-hint-health-formresponse-api
+- collection_type: open
+  name: Hint Health AccountAccessToken GlobalWebhookEndpoint API
+  slug: open-hint-health-globalwebhookendpoint-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Integration API
+  slug: open-hint-health-integration-api
+- collection_type: open
+  name: Hint Health AccountAccessToken IntegrationRecord API
+  slug: open-hint-health-integrationrecord-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Interaction API
+  slug: open-hint-health-interaction-api
+- collection_type: open
+  name: Hint Health AccountAccessToken InteractionNotifications API
+  slug: open-hint-health-interactionnotifications-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Invoice API
+  slug: open-hint-health-invoice-api
+- collection_type: open
+  name: Hint Health AccountAccessToken InvoicePayment API
+  slug: open-hint-health-invoicepayment-api
+- collection_type: open
+  name: Hint Health AccountAccessToken LabInteraction API
+  slug: open-hint-health-labinteraction-api
+- collection_type: open
+  name: Hint Health AccountAccessToken LeadSource API
+  slug: open-hint-health-leadsource-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Location API
+  slug: open-hint-health-location-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Membership API
+  slug: open-hint-health-membership-api
+- collection_type: open
+  name: Hint Health AccountAccessToken MembershipContract API
+  slug: open-hint-health-membershipcontract-api
+- collection_type: open
+  name: Hint Health AccountAccessToken MembershipMember API
+  slug: open-hint-health-membershipmember-api
+- collection_type: open
+  name: Hint Health AccountAccessToken OAuth API
+  slug: open-hint-health-oauth-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Partner API
+  slug: open-hint-health-partner-api
+- collection_type: open
+  name: Hint Health AccountAccessToken PartnerCharge API
+  slug: open-hint-health-partnercharge-api
+- collection_type: open
+  name: Hint Health AccountAccessToken PartnerInteraction API
+  slug: open-hint-health-partnerinteraction-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Patient API
+  slug: open-hint-health-patient-api
+- collection_type: open
+  name: Hint Health AccountAccessToken PaymentMethod API
+  slug: open-hint-health-paymentmethod-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Plan API
+  slug: open-hint-health-plan-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Practice API
+  slug: open-hint-health-practice-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Practitioner API
+  slug: open-hint-health-practitioner-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Quote API
+  slug: open-hint-health-quote-api
+- collection_type: open
+  name: Hint Health AccountAccessToken SignupAttempt API
+  slug: open-hint-health-signupattempt-api
+- collection_type: open
+  name: Hint Health AccountAccessToken SocialSecurityNumber API
+  slug: open-hint-health-socialsecuritynumber-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Sponsorship API
+  slug: open-hint-health-sponsorship-api
+- collection_type: open
+  name: Hint Health AccountAccessToken Supplements API
+  slug: open-hint-health-supplements-api
+- collection_type: open
+  name: Hint Health AccountAccessToken User API
+  slug: open-hint-health-user-api
+- collection_type: open
+  name: Hint Health AccountAccessToken WebhookEndpoint API
+  slug: open-hint-health-webhookendpoint-api
 common:
 - group: agent
   title: ''
@@ -214,7 +369,7 @@ common:
   url: https://developers.hint.com/docs/overview
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/hinthealth
 - group: company
   title: ''
@@ -248,6 +403,102 @@ common:
   title: ''
   type: FinOps
   url: finops/hint-health-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.hint.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.hint.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.hint.com/docs/requesting-a-sandbox-and-api-access
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.hint.com/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.hint.com/get-started
+- group: start
+  title: ''
+  type: Login
+  url: https://accounts.hint.com/oauth/account/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.hint.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.hint.com/privacy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.hint.com/security
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hint-health-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/hint-health-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/hint-health-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/hint-health-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hint-health-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hint-health-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/hint-health-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/hint-health-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/hint-health-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/hint-health-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/hint-health-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/hint-health-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/hint-health-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hint-health-llms.txt
 created: 2026-06-13
 description: Hint Health is the leading direct primary care (DPC) technology platform, powering thousands of DPC practices with software for membership management, automated billing, clinical workflows, and provider networks. The Hint REST API provides programmatic access to clinic operations including patient enrollment, membership billing, practice configuration, clinical data management, charges, invoices, webhooks, and OAuth-based partner integrations.
 examples:
@@ -1262,24 +1513,28 @@ jsonld:
   property_count: 66
   slug: hint-health-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: hint-health-mcp.yml
+  slug: hint-health-mcpyml
+modified: 2026-08-15
 name: Hint Health
 nav: Providers
 network: true
 overview: 'Hint Health publishes 49 APIs on the [APIs.io](https://apis.io/) network, including AccountAccessToken API, Affiliate API, AffiliateBill API, and 46 more. Tagged areas include Direct Primary Care, DPC, Healthcare, Membership Management, and Patient Enrollment.
 
 
-  The Hint Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Hint Health catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Hint Health''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Hint Health''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 32 more developer resources.'
 plans:
 - name: Hint Health Plans Pricing
   plan_count: 6
   slug: hint-health-plans-pricing
-random_paper: 30
+random_paper: 67
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Hint Health Rate Limits
   slug: hint-health-rate-limits
 rules:
@@ -1292,16 +1547,16 @@ rules:
     warn: 4
   slug: hint-health-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: exemplar
+  composite: 72.8
+  delta: 27.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 62.5
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
+    commercial_clarity: 100.0
+    contract_quality: 75.2
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    governance: 79.2
+    operational_transparency: 50.0
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -1315,16 +1570,16 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 27.5
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/screenshots/hint-health-2026-06-20T182747.png
 security:
 - kind: authentication
   name: Hint Health Authentication
   slug: hint-health-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/apiKey · 2 schemes
 - kind: domain-security
   name: Hint Health Domain Security
   slug: hint-health-domain-security

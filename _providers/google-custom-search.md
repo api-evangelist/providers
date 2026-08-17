@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: The Customsearch API from Google Custom Search — 2 operation(s) for customsearch.
   name: Google Custom Search Customsearch API
   slug: google-custom-search-customsearch-api
-artifact_total: 13
+artifact_total: 15
 collections:
 - collection_type: postman
   name: Google Custom Search JSON Customsearch API
   slug: postman-google-custom-search-customsearch-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Custom Search JSON Customsearch API
+  slug: open-google-custom-search-customsearch-api
 - collection_type: open
   name: Google Custom Search JSON API
   slug: open-openapi
@@ -143,7 +149,7 @@ plans:
 - name: Google Custom Search Plans Pricing
   plan_count: 3
   slug: google-custom-search-plans-pricing
-random_paper: 104
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Google Custom Search Rate Limits
@@ -177,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-custom-search/refs/heads/main/screenshots/google-custom-search-2026-06-20T182152.png
 security:

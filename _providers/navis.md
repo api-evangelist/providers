@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Vessel port call management and planning
   name: Navis (Kaleris) Vessel Visits API
   slug: navis-vessel-visits-api
-artifact_total: 21
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Navis N4 Terminal Operating System REST Gate API
@@ -72,8 +72,26 @@ collections:
   name: Navis N4 Terminal Operating System REST Gate Vessel Visits API
   slug: postman-navis-vessel-visits-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Navis N4 Terminal Operating System REST Gate API
+  slug: open-navis-gate-api
+- collection_type: open
+  name: Navis N4 Terminal Operating System REST Gate Holds API
+  slug: open-navis-holds-api
+- collection_type: open
   name: Navis N4 Terminal Operating System REST API
   slug: open-navis-n4
+- collection_type: open
+  name: Navis N4 Terminal Operating System REST Gate Operations API
+  slug: open-navis-operations-api
+- collection_type: open
+  name: Navis N4 Terminal Operating System REST Gate Units API
+  slug: open-navis-units-api
+- collection_type: open
+  name: Navis N4 Terminal Operating System REST Gate Vessel Visits API
+  slug: open-navis-vessel-visits-api
 common:
 - group: build
   title: ''
@@ -163,7 +181,7 @@ plans:
 - name: Navis Plans Pricing
   plan_count: 3
   slug: navis-plans-pricing
-random_paper: 65
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Navis Rate Limits
@@ -197,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/screenshots/navis-2026-06-20T190102.png
 security:

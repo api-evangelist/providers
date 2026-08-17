@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 2
@@ -108,11 +108,71 @@ apis:
 - description: Create and manage Virtual Private Clouds for isolated network environments and subnets for Linode instances.
   name: linode VPCs API
   slug: linode-vpcs-api
-artifact_total: 159
+artifact_total: 179
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Linode API v4 Account API
+  slug: open-linode-account-api
 - collection_type: open
   name: Linode API v4
   slug: open-linode-api-v4
+- collection_type: open
+  name: Linode API v4 Account Databases API
+  slug: open-linode-databases-api
+- collection_type: open
+  name: Linode API v4 Account Domains API
+  slug: open-linode-domains-api
+- collection_type: open
+  name: Linode API v4 Account Images API
+  slug: open-linode-images-api
+- collection_type: open
+  name: Linode API v4 Account Linode Instances API
+  slug: open-linode-linode-instances-api
+- collection_type: open
+  name: Linode API v4 Account Linode Kubernetes Engine (LKE) API
+  slug: open-linode-linode-kubernetes-engine-lke-api
+- collection_type: open
+  name: Linode API v4 Account Longview API
+  slug: open-linode-longview-api
+- collection_type: open
+  name: Linode API v4 Account Managed API
+  slug: open-linode-managed-api
+- collection_type: open
+  name: Linode API v4 Account Networking API
+  slug: open-linode-networking-api
+- collection_type: open
+  name: Linode API v4 Account NodeBalancers API
+  slug: open-linode-nodebalancers-api
+- collection_type: open
+  name: Linode API v4 Account Object Storage API
+  slug: open-linode-object-storage-api
+- collection_type: open
+  name: Linode API v4 Account Placement Groups API
+  slug: open-linode-placement-groups-api
+- collection_type: open
+  name: Linode API v4 Account Profile API
+  slug: open-linode-profile-api
+- collection_type: open
+  name: Linode API v4 Account Regions API
+  slug: open-linode-regions-api
+- collection_type: open
+  name: Linode API v4 Account StackScripts API
+  slug: open-linode-stackscripts-api
+- collection_type: open
+  name: Linode API v4 Account Support API
+  slug: open-linode-support-api
+- collection_type: open
+  name: Linode API v4 Account Tags API
+  slug: open-linode-tags-api
+- collection_type: open
+  name: Linode API v4 Account Volumes API
+  slug: open-linode-volumes-api
+- collection_type: open
+  name: Linode API v4 Account VPCs API
+  slug: open-linode-vpcs-api
 common:
 - group: agent
   title: ''
@@ -518,7 +578,7 @@ plans:
 - name: Linode Plans Pricing
   plan_count: 6
   slug: linode-plans-pricing
-random_paper: 35
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Linode Rate Limits
@@ -557,7 +617,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/screenshots/linode-2026-06-20T184550.png
 security:

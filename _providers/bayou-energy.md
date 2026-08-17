@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Utilities API from Bayou Energy — 2 operation(s) for utilities.
   name: Bayou Energy Utilities API
   slug: bayou-energy-utilities-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bayou Energy Bills API
+  slug: open-bayou-energy-bills-api
+- collection_type: open
+  name: Bayou Energy Bills Customers API
+  slug: open-bayou-energy-customers-api
+- collection_type: open
+  name: Bayou Energy Bills Intervals API
+  slug: open-bayou-energy-intervals-api
+- collection_type: open
+  name: Bayou Energy Bills Utilities API
+  slug: open-bayou-energy-utilities-api
 - collection_type: open
   name: Bayou Energy API
   slug: open-bayou-energy
@@ -117,7 +132,7 @@ plans:
 - name: Bayou Energy Plans Pricing
   plan_count: 2
   slug: bayou-energy-plans-pricing
-random_paper: 39
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Bayou Energy Rate Limits
@@ -148,7 +163,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/screenshots/bayou-energy-2026-07-25T202450.png
 security:

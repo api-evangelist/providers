@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The hosted OAuth authorization broker FuseWP operates at auth.fusewp.com. The self-hosted FuseWP plugin cannot safely hold OAuth client secrets for the partner platforms it connects to, so it delegate
@@ -151,7 +151,7 @@ plans:
 - name: Fusewp Plans Pricing
   plan_count: 7
   slug: fusewp-plans-pricing
-random_paper: 66
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Fusewp Rate Limits
@@ -164,6 +164,7 @@ scopes:
 score:
   band: thin
   composite: 38.0
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -171,8 +172,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
+  previous_composite: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Fusewp Authentication

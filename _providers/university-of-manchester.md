@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 1
@@ -159,7 +159,116 @@ apis:
 - description: The user API from University of Manchester — 7 operation(s) for user.
   name: University of Manchester user API
   slug: university-of-manchester-user-api
-artifact_total: 61
+artifact_total: 97
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-university-of-manchester-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-university-of-manchester-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-university-of-manchester-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-university-of-manchester-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-university-of-manchester-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-university-of-manchester-concept-api
+- collection_type: open
+  name: Pure activity contract API
+  slug: open-university-of-manchester-contract-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-university-of-manchester-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-university-of-manchester-dataset-api
+- collection_type: open
+  name: Pure activity education API
+  slug: open-university-of-manchester-education-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-university-of-manchester-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-university-of-manchester-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-university-of-manchester-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-university-of-manchester-externalperson-api
+- collection_type: open
+  name: Pure activity fingerprint API
+  slug: open-university-of-manchester-fingerprint-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-university-of-manchester-fundingopportunity-api
+- collection_type: open
+  name: Pure activity impact API
+  slug: open-university-of-manchester-impact-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-university-of-manchester-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-university-of-manchester-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity milestone API
+  slug: open-university-of-manchester-milestone-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-university-of-manchester-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-university-of-manchester-person-api
+- collection_type: open
+  name: Pure activity personExpertise API
+  slug: open-university-of-manchester-personexpertise-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-university-of-manchester-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-university-of-manchester-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-university-of-manchester-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-university-of-manchester-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-university-of-manchester-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-university-of-manchester-role-api
+- collection_type: open
+  name: Pure activity semester API
+  slug: open-university-of-manchester-semester-api
+- collection_type: open
+  name: Pure activity specialization API
+  slug: open-university-of-manchester-specialization-api
+- collection_type: open
+  name: Pure activity studentProject API
+  slug: open-university-of-manchester-studentproject-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-university-of-manchester-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-university-of-manchester-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-university-of-manchester-user-api
 common:
 - group: agent
   title: ''
@@ -280,7 +389,7 @@ plans:
 - name: University Of Manchester Plans Pricing
   plan_count: 2
   slug: university-of-manchester-plans-pricing
-random_paper: 91
+random_paper: 107
 rate_limits:
 - limit_count: 1
   name: University Of Manchester Rate Limits
@@ -328,7 +437,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/screenshots/university-of-manchester-2026-06-20T200205.png
 security:

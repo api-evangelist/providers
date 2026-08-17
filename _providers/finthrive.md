@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The FinThrive API, published through a Microsoft Azure API Management instance. The developer portal at api-portal.nthrive.com is publicly reachable and describes auto-generated API documentation, mul
@@ -121,7 +121,7 @@ plans:
 - name: Finthrive Plans Pricing
   plan_count: 0
   slug: finthrive-plans-pricing
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Finthrive Rate Limits
@@ -129,6 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -136,6 +137,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 24.3
   regulatory:
     applies: true
     matched_via: tags
@@ -143,7 +145,8 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Finthrive Authentication

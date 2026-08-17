@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -360,7 +360,7 @@ arazzos:
 - description: Find a DNS record by name and update it if present, otherwise create it.
   name: Cloudflare Upsert DNS Record
   slug: cloudflare-upsert-dns-record-workflow
-artifact_total: 460
+artifact_total: 518
 asyncapis:
 - description: Cloudflare Notifications sends webhook events to configured endpoints when various alerts fire across your account. Webhooks deliver JSON payloads for events including DDoS attacks, SSL certificate ex
   name: Cloudflare Notifications Webhooks
@@ -442,32 +442,158 @@ collections:
   name: Cloudflare zones/
   slug: postman-cloudflare-zones--openapi-original
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudflare / Accounts API
+  slug: open-cloudflare-accounts-api
+- collection_type: open
   name: Cloudflare AI Gateway API
   slug: open-cloudflare-ai-gateway
+- collection_type: open
+  name: Cloudflare / Accounts AI Inference API
+  slug: open-cloudflare-ai-inference-api
+- collection_type: open
+  name: Cloudflare / Accounts Buckets API
+  slug: open-cloudflare-buckets-api
+- collection_type: open
+  name: Cloudflare / Accounts Bulk Operations API
+  slug: open-cloudflare-bulk-operations-api
+- collection_type: open
+  name: Cloudflare / Accounts Certificates API
+  slug: open-cloudflare-certificates-api
+- collection_type: open
+  name: Cloudflare / Accounts Configuration API
+  slug: open-cloudflare-configuration-api
+- collection_type: open
+  name: Cloudflare / Accounts Configurations API
+  slug: open-cloudflare-configurations-api
+- collection_type: open
+  name: Cloudflare / Accounts Consumers API
+  slug: open-cloudflare-consumers-api
 - collection_type: open
   name: Cloudflare D1 API
   slug: open-cloudflare-d1
 - collection_type: open
+  name: Cloudflare / Accounts Databases API
+  slug: open-cloudflare-databases-api
+- collection_type: open
+  name: Cloudflare / Accounts Datasets API
+  slug: open-cloudflare-datasets-api
+- collection_type: open
+  name: Cloudflare / Accounts Deployments API
+  slug: open-cloudflare-deployments-api
+- collection_type: open
+  name: Cloudflare / Accounts Direct Uploads API
+  slug: open-cloudflare-direct-uploads-api
+- collection_type: open
+  name: Cloudflare / Accounts DNS Analytics API
+  slug: open-cloudflare-dns-analytics-api
+- collection_type: open
+  name: Cloudflare / Accounts DNS Batch Operations API
+  slug: open-cloudflare-dns-batch-operations-api
+- collection_type: open
+  name: Cloudflare / Accounts DNS Record Import/Export API
+  slug: open-cloudflare-dns-record-import-export-api
+- collection_type: open
+  name: Cloudflare / Accounts DNS Record Scanning API
+  slug: open-cloudflare-dns-record-scanning-api
+- collection_type: open
+  name: Cloudflare / Accounts DNS Records API
+  slug: open-cloudflare-dns-records-api
+- collection_type: open
   name: Cloudflare DNS API
   slug: open-cloudflare-dns
+- collection_type: open
+  name: Cloudflare / Accounts DNSSEC API
+  slug: open-cloudflare-dnssec-api
+- collection_type: open
+  name: Cloudflare / Accounts Domains API
+  slug: open-cloudflare-domains-api
 - collection_type: open
   name: Cloudflare Durable Objects API
   slug: open-cloudflare-durable-objects
 - collection_type: open
+  name: Cloudflare / Accounts Gateways API
+  slug: open-cloudflare-gateways-api
+- collection_type: open
   name: Cloudflare Hyperdrive API
   slug: open-cloudflare-hyperdrive
+- collection_type: open
+  name: Cloudflare / Accounts Images API
+  slug: open-cloudflare-images-api
 - collection_type: open
   name: Cloudflare Images API
   slug: open-cloudflare-images
 - collection_type: open
+  name: Cloudflare / Accounts Import/Export API
+  slug: open-cloudflare-import-export-api
+- collection_type: open
+  name: Cloudflare / Accounts Indexes API
+  slug: open-cloudflare-indexes-api
+- collection_type: open
+  name: Cloudflare / Accounts Ips API
+  slug: open-cloudflare-ips-api
+- collection_type: open
+  name: Cloudflare / Accounts Key-Value Pairs API
+  slug: open-cloudflare-key-value-pairs-api
+- collection_type: open
+  name: Cloudflare / Accounts Keys API
+  slug: open-cloudflare-keys-api
+- collection_type: open
   name: Cloudflare KV API
   slug: open-cloudflare-kv
+- collection_type: open
+  name: Cloudflare / Accounts Live Inputs API
+  slug: open-cloudflare-live-inputs-api
+- collection_type: open
+  name: Cloudflare / Accounts Logpush Jobs API
+  slug: open-cloudflare-logpush-jobs-api
 - collection_type: open
   name: Cloudflare Logpush API
   slug: open-cloudflare-logpush
 - collection_type: open
+  name: Cloudflare / Accounts Logs API
+  slug: open-cloudflare-logs-api
+- collection_type: open
+  name: Cloudflare / Accounts Memberships API
+  slug: open-cloudflare-memberships-api
+- collection_type: open
+  name: Cloudflare / Accounts Messages API
+  slug: open-cloudflare-messages-api
+- collection_type: open
+  name: Cloudflare / Accounts Metadata API
+  slug: open-cloudflare-metadata-api
+- collection_type: open
+  name: Cloudflare / Accounts Namespaces API
+  slug: open-cloudflare-namespaces-api
+- collection_type: open
+  name: Cloudflare / Accounts Objects API
+  slug: open-cloudflare-objects-api
+- collection_type: open
+  name: Cloudflare / Accounts OpenAI Compatible API
+  slug: open-cloudflare-openai-compatible-api
+- collection_type: open
+  name: Cloudflare / Accounts Organizations API
+  slug: open-cloudflare-organizations-api
+- collection_type: open
+  name: Cloudflare / Accounts Ownership API
+  slug: open-cloudflare-ownership-api
+- collection_type: open
   name: Cloudflare Pages API
   slug: open-cloudflare-pages
+- collection_type: open
+  name: Cloudflare / Accounts Projects API
+  slug: open-cloudflare-projects-api
+- collection_type: open
+  name: Cloudflare / Accounts Purge API
+  slug: open-cloudflare-purge-api
+- collection_type: open
+  name: Cloudflare / Accounts Queries API
+  slug: open-cloudflare-queries-api
+- collection_type: open
+  name: Cloudflare / Accounts Queues API
+  slug: open-cloudflare-queues-api
 - collection_type: open
   name: Cloudflare Queues API
   slug: open-cloudflare-queues
@@ -475,20 +601,68 @@ collections:
   name: Cloudflare R2 API
   slug: open-cloudflare-r2
 - collection_type: open
+  name: Cloudflare / Accounts Radar API
+  slug: open-cloudflare-radar-api
+- collection_type: open
+  name: Cloudflare / Accounts Routes API
+  slug: open-cloudflare-routes-api
+- collection_type: open
+  name: Cloudflare / Accounts Scripts API
+  slug: open-cloudflare-scripts-api
+- collection_type: open
+  name: Cloudflare / Accounts Secrets API
+  slug: open-cloudflare-secrets-api
+- collection_type: open
+  name: Cloudflare / Accounts Signing Keys API
+  slug: open-cloudflare-signing-keys-api
+- collection_type: open
   name: Cloudflare Stream API
   slug: open-cloudflare-stream
+- collection_type: open
+  name: Cloudflare / Accounts Time Travel API
+  slug: open-cloudflare-time-travel-api
 - collection_type: open
   name: Cloudflare Turnstile API
   slug: open-cloudflare-turnstile
 - collection_type: open
+  name: Cloudflare / Accounts User API
+  slug: open-cloudflare-user-api
+- collection_type: open
+  name: Cloudflare / Accounts Variants API
+  slug: open-cloudflare-variants-api
+- collection_type: open
   name: Cloudflare Vectorize API
   slug: open-cloudflare-vectorize
+- collection_type: open
+  name: Cloudflare / Accounts Vectors API
+  slug: open-cloudflare-vectors-api
+- collection_type: open
+  name: Cloudflare / Accounts Verification API
+  slug: open-cloudflare-verification-api
+- collection_type: open
+  name: Cloudflare / Accounts Versions API
+  slug: open-cloudflare-versions-api
+- collection_type: open
+  name: Cloudflare / Accounts Videos API
+  slug: open-cloudflare-videos-api
+- collection_type: open
+  name: Cloudflare / Accounts Webhooks API
+  slug: open-cloudflare-webhooks-api
+- collection_type: open
+  name: Cloudflare / Accounts Widgets API
+  slug: open-cloudflare-widgets-api
 - collection_type: open
   name: Cloudflare Workers AI API
   slug: open-cloudflare-workers-ai
 - collection_type: open
+  name: Cloudflare / Accounts Workers API
+  slug: open-cloudflare-workers-api
+- collection_type: open
   name: Cloudflare Workers API
   slug: open-cloudflare-workers
+- collection_type: open
+  name: Cloudflare / Accounts Zones API
+  slug: open-cloudflare-zones-api
 common:
 - group: other
   title: ''
@@ -1690,7 +1864,7 @@ plans:
 - name: Cloudflare Plans Pricing
   plan_count: 6
   slug: cloudflare-plans-pricing
-random_paper: 97
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Cloudflare Rate Limits
@@ -1740,7 +1914,7 @@ score:
       marker_coverage: 0.0
       total: 57
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png
 security:

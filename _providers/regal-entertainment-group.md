@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Ticket purchasing and reservations
   name: regal-entertainment-group Tickets API
   slug: regal-entertainment-group-tickets-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Regal Cinema API
   slug: open-regal-cinema
+- collection_type: open
+  name: Regal Cinema Loyalty API
+  slug: open-regal-entertainment-group-loyalty-api
+- collection_type: open
+  name: Regal Cinema Loyalty Movies API
+  slug: open-regal-entertainment-group-movies-api
+- collection_type: open
+  name: Regal Cinema Loyalty Showtimes API
+  slug: open-regal-entertainment-group-showtimes-api
+- collection_type: open
+  name: Regal Cinema Loyalty Theatres API
+  slug: open-regal-entertainment-group-theatres-api
+- collection_type: open
+  name: Regal Cinema Loyalty Tickets API
+  slug: open-regal-entertainment-group-tickets-api
 common:
 - group: agent
   title: ''
@@ -160,7 +178,7 @@ press:
 - date: '2026-05-25'
   title: News
   url: https://www.motionpictures.org/news/
-random_paper: 56
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Regal Entertainment Group Rate Limits
@@ -202,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

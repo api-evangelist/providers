@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ arazzos:
 - description: Read a wallet's lamport balance, enumerate its SPL Token accounts, and price one token account.
   name: Solana Snapshot a Wallet's SOL and SPL Token Holdings
   slug: solana-wallet-portfolio-workflow
-artifact_total: 60
+artifact_total: 67
 collections:
 - collection_type: postman
   name: Solana JSON-RPC Accounts API
@@ -147,6 +147,27 @@ collections:
 - collection_type: postman
   name: Solana JSON-RPC Accounts Transactions API
   slug: postman-solana-transactions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Solana JSON-RPC Accounts API
+  slug: open-solana-accounts-api
+- collection_type: open
+  name: Solana JSON-RPC Accounts Blocks API
+  slug: open-solana-blocks-api
+- collection_type: open
+  name: Solana JSON-RPC Accounts Cluster API
+  slug: open-solana-cluster-api
+- collection_type: open
+  name: Solana JSON-RPC Accounts Economics API
+  slug: open-solana-economics-api
+- collection_type: open
+  name: Solana JSON-RPC Accounts Tokens API
+  slug: open-solana-tokens-api
+- collection_type: open
+  name: Solana JSON-RPC Accounts Transactions API
+  slug: open-solana-transactions-api
 common:
 - group: commercial
   title: ''
@@ -461,7 +482,7 @@ plans:
 - name: Solana Plans
   plan_count: 3
   slug: solana-plans
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Solana Rpc Rate Limits
@@ -497,7 +518,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/screenshots/solana-2026-06-20T194144.png
 security:

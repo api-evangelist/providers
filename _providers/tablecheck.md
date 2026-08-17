@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -81,8 +81,53 @@ apis:
 - description: The timetable API from TableCheck — 1 operation(s) for timetable.
   name: TableCheck timetable API
   slug: tablecheck-timetable-api
-artifact_total: 21
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TableCheck API - V1 availability API
+  slug: open-tablecheck-availability-api
+- collection_type: open
+  name: TableCheck API - V1 availability blockages API
+  slug: open-tablecheck-blockages-api
+- collection_type: open
+  name: TableCheck API - V1 availability calendar API
+  slug: open-tablecheck-calendar-api
+- collection_type: open
+  name: TableCheck API - V1 availability customers API
+  slug: open-tablecheck-customers-api
+- collection_type: open
+  name: TableCheck API - V1 availability franchises API
+  slug: open-tablecheck-franchises-api
+- collection_type: open
+  name: TableCheck API - V1 availability membership_programs API
+  slug: open-tablecheck-membership-programs-api
+- collection_type: open
+  name: TableCheck API - V1 availability memberships API
+  slug: open-tablecheck-memberships-api
+- collection_type: open
+  name: TableCheck API - V1 availability pos_journals API
+  slug: open-tablecheck-pos-journals-api
+- collection_type: open
+  name: TableCheck API - V1 availability reservation_flags API
+  slug: open-tablecheck-reservation-flags-api
+- collection_type: open
+  name: TableCheck API - V1 availability reservations API
+  slug: open-tablecheck-reservations-api
+- collection_type: open
+  name: TableCheck API - V1 availability shops API
+  slug: open-tablecheck-shops-api
+- collection_type: open
+  name: TableCheck API - V1 availability table_status API
+  slug: open-tablecheck-table-status-api
+- collection_type: open
+  name: TableCheck API - V1 availability tables API
+  slug: open-tablecheck-tables-api
+- collection_type: open
+  name: TableCheck API - V1 availability timetable API
+  slug: open-tablecheck-timetable-api
 - collection_type: open
   name: TableCheck API
   slug: open-tablecheck
@@ -151,7 +196,7 @@ plans:
 - name: Tablecheck Plans Pricing
   plan_count: 2
   slug: tablecheck-plans-pricing
-random_paper: 70
+random_paper: 136
 rate_limits:
 - limit_count: 2
   name: Tablecheck Rate Limits
@@ -176,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

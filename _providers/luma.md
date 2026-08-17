@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: The Webhooks API from Luma — 5 operation(s) for webhooks.
   name: Luma Webhooks API
   slug: luma-webhooks-api
-artifact_total: 215
+artifact_total: 222
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Luma Calendars API
+  slug: open-luma-calendars-api
+- collection_type: open
+  name: Luma Calendars Events API
+  slug: open-luma-events-api
+- collection_type: open
+  name: Luma Calendars Memberships API
+  slug: open-luma-memberships-api
+- collection_type: open
+  name: Luma Calendars Miscellaneous API
+  slug: open-luma-miscellaneous-api
+- collection_type: open
+  name: Luma Calendars Organizations API
+  slug: open-luma-organizations-api
+- collection_type: open
+  name: Luma Calendars Webhooks API
+  slug: open-luma-webhooks-api
 common:
 - group: agent
   title: ''
@@ -742,7 +764,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 71
+random_paper: 133
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -776,7 +798,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/screenshots/luma-2026-06-20T184751.png
 security:

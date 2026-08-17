@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Real-time screening status callbacks.
   name: Sterling Webhooks API
   slug: sterling-check-webhooks-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sterling Authentication API
+  slug: open-sterling-check-authentication-api
+- collection_type: open
+  name: Sterling Authentication Candidates API
+  slug: open-sterling-check-candidates-api
+- collection_type: open
+  name: Sterling Authentication Invites API
+  slug: open-sterling-check-invites-api
+- collection_type: open
+  name: Sterling Authentication Packages API
+  slug: open-sterling-check-packages-api
+- collection_type: open
+  name: Sterling Authentication Reports API
+  slug: open-sterling-check-reports-api
+- collection_type: open
+  name: Sterling Authentication Screenings API
+  slug: open-sterling-check-screenings-api
+- collection_type: open
+  name: Sterling Authentication Webhooks API
+  slug: open-sterling-check-webhooks-api
 - collection_type: open
   name: Sterling API
   slug: open-sterling-check
@@ -134,7 +158,7 @@ plans:
 - name: Sterling Check Plans Pricing
   plan_count: 3
   slug: sterling-check-plans-pricing
-random_paper: 107
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Sterling Check Rate Limits
@@ -164,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

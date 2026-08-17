@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -97,11 +97,32 @@ arazzos:
 - description: Create a realm-level role if it is missing, update it if it already exists, then read it back.
   name: Keycloak Upsert a Realm Role
   slug: keycloak-upsert-realm-role-workflow
-artifact_total: 29
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Keycloak Admin REST API
   slug: open-keycloak-admin-rest-api
+- collection_type: open
+  name: Keycloak Admin REST Clients API
+  slug: open-keycloak-clients-api
+- collection_type: open
+  name: Keycloak Admin REST Clients Groups API
+  slug: open-keycloak-groups-api
+- collection_type: open
+  name: Keycloak Admin REST Clients Identity Providers API
+  slug: open-keycloak-identity-providers-api
+- collection_type: open
+  name: Keycloak Admin REST Clients Realms API
+  slug: open-keycloak-realms-api
+- collection_type: open
+  name: Keycloak Admin REST Clients Roles API
+  slug: open-keycloak-roles-api
+- collection_type: open
+  name: Keycloak Admin REST Clients Users API
+  slug: open-keycloak-users-api
 common:
 - group: agent
   title: ''
@@ -266,7 +287,7 @@ plans:
 - name: Keycloak Plans Pricing
   plan_count: 3
   slug: keycloak-plans-pricing
-random_paper: 11
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Keycloak Rate Limits
@@ -302,7 +323,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/screenshots/keycloak-2026-06-20T184004.png
 security:

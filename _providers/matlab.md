@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: Call MATLAB from Python, allowing Python programs to start MATLAB, execute MATLAB functions, and exchange data between Python and MATLAB.
@@ -152,7 +152,7 @@ plans:
 - name: Matlab Plans Pricing
   plan_count: 3
   slug: matlab-plans-pricing
-random_paper: 25
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Matlab Rate Limits
@@ -170,7 +170,7 @@ score:
     operational_transparency: 55.3
   previous_composite: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/screenshots/matlab-2026-06-20T185035.png
 security:

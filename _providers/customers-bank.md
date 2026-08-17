@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -58,11 +58,42 @@ apis:
 - description: Wires API (v2) for originating and managing incoming and outgoing wire transfers, retrieving purpose and reference-data codes, and managing wire account entitlements. OpenAPI 3.0.1, OAuth2 client-cred
   name: Customers Bank Wires API
   slug: customers-bank-wires-api
-artifact_total: 16
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Customers Bank Webhooks
   slug: customers-bank-webhooks
+collections:
+- collection_type: open
+  name: Accounts
+  slug: open-customers-bank-accounts
+- collection_type: open
+  name: ACH
+  slug: open-customers-bank-ach
+- collection_type: open
+  name: ConsumerLending
+  slug: open-customers-bank-consumerlending
+- collection_type: open
+  name: InstantPayments
+  slug: open-customers-bank-instantpayments
+- collection_type: open
+  name: IT Operations
+  slug: open-customers-bank-itoperations
+- collection_type: open
+  name: Partners
+  slug: open-customers-bank-partners
+- collection_type: open
+  name: Security
+  slug: open-customers-bank-security
+- collection_type: open
+  name: Transfers
+  slug: open-customers-bank-transfers
+- collection_type: open
+  name: Webhooks
+  slug: open-customers-bank-webhooks
+- collection_type: open
+  name: Wires
+  slug: open-customers-bank-wires
 common:
 - group: agent
   title: ''
@@ -195,7 +226,7 @@ overview: 'Customers Bank publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Customers Bank''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 14
+random_paper: 113
 score:
   band: developing
   composite: 42.9
@@ -220,7 +251,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/screenshots/customers-bank-2026-07-25T211012.png
 security:

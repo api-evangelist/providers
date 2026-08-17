@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -84,8 +84,38 @@ apis:
 - description: The Transactions API from US Bancorp — 2 operation(s) for transactions.
   name: US Bancorp Transactions API
   slug: us-bancorp-transactions-api
-artifact_total: 37
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: US Bank Corporate Account Information Accounts API
+  slug: open-us-bancorp-accounts-api
+- collection_type: open
+  name: US Bank Corporate Account Information Accounts Balances API
+  slug: open-us-bancorp-balances-api
+- collection_type: open
+  name: US Bank Corporate Account Information Accounts Credit Transfers API
+  slug: open-us-bancorp-credit-transfers-api
+- collection_type: open
+  name: US Bank Corporate Account Information Accounts Exception History API
+  slug: open-us-bancorp-exception-history-api
+- collection_type: open
+  name: US Bank Corporate Account Information Accounts Exceptions API
+  slug: open-us-bancorp-exceptions-api
+- collection_type: open
+  name: US Bank Corporate Account Information Accounts Push to Card Payments API
+  slug: open-us-bancorp-push-to-card-payments-api
+- collection_type: open
+  name: US Bank Corporate Account Information Accounts Request for Payment API
+  slug: open-us-bancorp-request-for-payment-api
+- collection_type: open
+  name: US Bank Corporate Account Information Accounts RTP Eligibility API
+  slug: open-us-bancorp-rtp-eligibility-api
+- collection_type: open
+  name: US Bank Corporate Account Information Accounts Transactions API
+  slug: open-us-bancorp-transactions-api
 - collection_type: open
   name: US Bank Corporate Account Information API
   slug: open-us-bank-corporate-account-information
@@ -189,7 +219,7 @@ press:
 - date: '2026-05-25'
   title: U.S. Bancorp Annual Report 2025
   url: https://s203.q4cdn.com/711684571/files/doc_financials/2025/ar/2025-Annual-Report_ADA_F.pdf
-random_paper: 58
+random_paper: 124
 rate_limits:
 - limit_count: 1
   name: Us Bancorp Rate Limits
@@ -242,7 +272,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/screenshots/us-bancorp-2026-06-20T200603.png
 security:

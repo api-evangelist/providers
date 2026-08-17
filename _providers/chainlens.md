@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -152,8 +152,125 @@ apis:
 - description: The Transaction-Events-Controller API from Chainlens — 1 operation(s) for transaction-events-controller.
   name: Chainlens Transaction-Events-Controller API
   slug: chainlens-transaction-events-controller-api
-artifact_total: 73
+artifact_total: 112
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chainlens Account-Controller API
+  slug: open-chainlens-account-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Account-Mapping-Controller API
+  slug: open-chainlens-account-mapping-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Account-Tokens-Controller API
+  slug: open-chainlens-account-tokens-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Account-Transactions-Controller API
+  slug: open-chainlens-account-transactions-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Block-Controller API
+  slug: open-chainlens-block-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Block-Transactions-Controller API
+  slug: open-chainlens-block-transactions-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Configuration-Controller API
+  slug: open-chainlens-configuration-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Contract-Bytecode-Controller API
+  slug: open-chainlens-contract-bytecode-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Contract-Controller API
+  slug: open-chainlens-contract-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Contract-Events-Controller API
+  slug: open-chainlens-contract-events-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Contract-Internal-Transactions-Controller API
+  slug: open-chainlens-contract-internal-transactions-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Contract-Transactions-Controller API
+  slug: open-chainlens-contract-transactions-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Dashboard-Tokens-Totals-Controller API
+  slug: open-chainlens-dashboard-tokens-totals-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Dashboard-Totals-Controller API
+  slug: open-chainlens-dashboard-totals-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Dashboard-Transactions-Totals-Controller API
+  slug: open-chainlens-dashboard-transactions-totals-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Download-Abi-Controller API
+  slug: open-chainlens-download-abi-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Eip-3091-Controller API
+  slug: open-chainlens-eip-3091-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Erc-1155-Transfers-Controller API
+  slug: open-chainlens-erc-1155-transfers-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Erc-20-Transfers-Controller API
+  slug: open-chainlens-erc-20-transfers-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Erc-223-Transfers-Controller API
+  slug: open-chainlens-erc-223-transfers-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Erc-721-Transfers-Controller API
+  slug: open-chainlens-erc-721-transfers-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Erc-777-Transfers-Controller API
+  slug: open-chainlens-erc-777-transfers-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Events-Controller API
+  slug: open-chainlens-events-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Gas-Oracle-Controller API
+  slug: open-chainlens-gas-oracle-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Internal-Transactions-Controller API
+  slug: open-chainlens-internal-transactions-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Media-Type-Controller API
+  slug: open-chainlens-media-type-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Metadata-Controller API
+  slug: open-chainlens-metadata-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Nft-Controller API
+  slug: open-chainlens-nft-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Node-Controller API
+  slug: open-chainlens-node-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Projects-Controller API
+  slug: open-chainlens-projects-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Rwa-Controller API
+  slug: open-chainlens-rwa-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Search-Controller API
+  slug: open-chainlens-search-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Token-Controller API
+  slug: open-chainlens-token-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Token-Events-Controller API
+  slug: open-chainlens-token-events-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Token-Holders-Controller API
+  slug: open-chainlens-token-holders-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Token-Transactions-Controller API
+  slug: open-chainlens-token-transactions-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Transaction-Controller API
+  slug: open-chainlens-transaction-controller-api
+- collection_type: open
+  name: Chainlens Account-Controller Transaction-Events-Controller API
+  slug: open-chainlens-transaction-events-controller-api
 - collection_type: open
   name: Chainlens
   slug: open-chainlens
@@ -267,7 +384,7 @@ plans:
 - name: Chainlens Plans Pricing
   plan_count: 1
   slug: chainlens-plans-pricing
-random_paper: 109
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Chainlens Rate Limits
@@ -292,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/screenshots/chainlens-2026-06-20T174159.png
 security:

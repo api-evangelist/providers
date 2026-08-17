@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: ServiceNow Flow Designer is an enterprise workflow automation tool for building automated processes within the ServiceNow platform.
@@ -72,7 +72,7 @@ plans:
 - name: Servicenow Flow Designer Plans Pricing
   plan_count: 3
   slug: servicenow-flow-designer-plans-pricing
-random_paper: 72
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Servicenow Flow Designer Rate Limits
@@ -90,7 +90,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 10.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow-flow-designer/refs/heads/main/screenshots/servicenow-flow-designer-2026-06-20T193733.png
 security:

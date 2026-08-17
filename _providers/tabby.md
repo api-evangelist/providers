@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Manage webhook endpoints.
   name: Tabby Webhooks API
   slug: tabby-webhooks-api
-artifact_total: 26
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Tabby API Reference
   slug: open-tabby-api
+- collection_type: open
+  name: Tabby API Reference Checkout API
+  slug: open-tabby-checkout-api
+- collection_type: open
+  name: Tabby API Reference Checkout Disputes API
+  slug: open-tabby-disputes-api
+- collection_type: open
+  name: Tabby API Reference Checkout Payments API
+  slug: open-tabby-payments-api
+- collection_type: open
+  name: Tabby API Reference Checkout Webhooks API
+  slug: open-tabby-webhooks-api
 common:
 - group: agent
   title: ''
@@ -306,7 +321,7 @@ plans:
 - name: Tabby Plans Pricing
   plan_count: 3
   slug: tabby-plans-pricing
-random_paper: 50
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Tabby Rate Limits
@@ -354,7 +369,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/screenshots/tabby-2026-06-20T194846.png
 security:

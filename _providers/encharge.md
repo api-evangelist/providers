@@ -1,82 +1,134 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup, 14-day free trial
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - https://encharge.io/pricing
   - authentication
-  trial: false
+  trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-12'
+  score: 47.7
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 12
+- acting_count: 43
   human_in_the_loop: 0
   name: Encharge Agentic Access
-  operation_count: 17
+  operation_count: 69
   slug: encharge-agentic-access
-  summary_line: 17 operations · 12 acting
-api_count: 11
+  summary_line: 69 operations · 43 acting
+api_count: 16
 apis:
-- description: REST API (v1) for managing people, segments, tags, fields, flows, broadcasts, and events in Encharge. Authentication is via an API key passed as the token query parameter or X-Encharge-Token header.
+- description: REST API (v1) for managing people, person fields, segments, tags, broadcasts, email templates, sending domains, custom objects and event subscriptions in Encharge. Encharge publishes an OpenAPI 3.0 de
   name: Encharge REST API
   slug: rest-api
-- description: REST API for sending transactional emails through Encharge. Accepts JSON payloads at POST /v1/emails/send and authenticates via the same API token used by the core REST API.
+- description: REST API for sending transactional emails through Encharge. Accepts JSON at POST /v1/emails/send with exactly one of template, html or text, returns 202 Accepted, and authenticates via the same accoun
   name: Encharge Transactional Email API
   slug: transactional-email-api
-- description: Ingest API for streaming people and activity events into Encharge from backend systems. Posts JSON payloads to ingest.encharge.io/v1/ using the same API token.
+- description: Single-endpoint Ingest API for creating/updating people and submitting product events into Encharge from an application backend. POSTs JSON to https://ingest.encharge.io/v1/ with the account write key
   name: Encharge Ingest API
   slug: ingest-api
-- description: The Account API from Encharge — 1 operation(s) for account.
+- description: The Account API from Encharge — 2 operation(s) for account information.
   name: Encharge Account API
   slug: encharge-account-api
-- description: The Events API from Encharge — 2 operation(s) for events.
-  name: Encharge Events API
-  slug: encharge-events-api
-- description: The Fields API from Encharge — 2 operation(s) for fields.
-  name: Encharge Fields API
-  slug: encharge-fields-api
-- description: The Ingest API from Encharge — 1 operation(s) for ingest.
-  name: Encharge Ingest API
-  slug: encharge-ingest-api
-- description: The People API from Encharge — 2 operation(s) for people.
+- description: The Broadcasts API from Encharge — 1 operation(s) for sending broadcasts.
+  name: Encharge Broadcasts API
+  slug: encharge-broadcasts-api
+- description: The Custom Objects API from Encharge — 18 operation(s) for creating, reading, searching and associating custom objects and companies.
+  name: Encharge Custom Objects API
+  slug: encharge-customobjects-api
+- description: The Custom Objects Schema API from Encharge — 10 operation(s) for defining object types, their fields, and the associations between them.
+  name: Encharge Custom Objects Schema API
+  slug: encharge-customobjectsschema-api
+- description: The Email Templates API from Encharge — 9 operation(s) for creating and versioning email templates.
+  name: Encharge Email Templates API
+  slug: encharge-emailtemplates-api
+- description: The Folders API from Encharge — 2 operation(s) for organizing assets into folders.
+  name: Encharge Folders API
+  slug: encharge-folders-api
+- description: The People API from Encharge — 5 operation(s) for creating, updating, reading, unsubscribing and archiving people.
   name: Encharge People API
   slug: encharge-people-api
-- description: The Segments API from Encharge — 2 operation(s) for segments.
+- description: The Person Fields API from Encharge — 4 operation(s) for managing person fields.
+  name: Encharge Person Fields API
+  slug: encharge-personfields-api
+- description: The Segments API from Encharge — 4 operation(s) for dynamic segments.
   name: Encharge Segments API
   slug: encharge-segments-api
-- description: The Tags API from Encharge — 1 operation(s) for tags.
+- description: The email settings API from Encharge — 5 operation(s) for adding and verifying sending domains.
+  name: Encharge Email Domain Settings API
+  slug: encharge-settings-api
+- description: The Tags API from Encharge — 2 operation(s) for tagging and untagging people.
   name: Encharge Tags API
   slug: encharge-tags-api
-- description: The Transactional Email API from Encharge — 1 operation(s) for transactional email.
-  name: Encharge Transactional Email API
-  slug: encharge-transactional-email-api
-artifact_total: 16
+- description: The Tags Management API from Encharge — 5 operation(s) for the account tag registry and tag counts.
+  name: Encharge Tags Management API
+  slug: encharge-tags-management-api
+- description: The Webhooks API from Encharge — 2 operation(s) for creating and deleting event subscriptions against Encharge's event catalog.
+  name: Encharge Webhooks API
+  slug: encharge-webhooks-api
+artifact_total: 35
+asyncapis:
+- description: ''
+  name: Encharge Webhooks
+  slug: encharge-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Encharge REST Account API
+  slug: open-encharge-account-api
+- collection_type: open
+  name: Encharge REST Account Events API
+  slug: open-encharge-events-api
+- collection_type: open
+  name: Encharge REST Account Fields API
+  slug: open-encharge-fields-api
+- collection_type: open
+  name: Encharge REST Account Ingest API
+  slug: open-encharge-ingest-api
+- collection_type: open
+  name: Encharge REST Account People API
+  slug: open-encharge-people-api
+- collection_type: open
+  name: Encharge REST Account Segments API
+  slug: open-encharge-segments-api
+- collection_type: open
+  name: Encharge REST Account Tags API
+  slug: open-encharge-tags-api
+- collection_type: open
+  name: Encharge REST Account Transactional Email API
+  slug: open-encharge-transactional-email-api
 - collection_type: open
   name: Encharge REST API
   slug: open-encharge
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/encharge-scopes.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -87,12 +139,96 @@ common:
   url: security/encharge-vulnerability-disclosure.yml
 - group: auth
   title: ''
+  type: Security
+  url: https://encharge.io/responsible-disclosure/
+- group: auth
+  title: ''
   type: DomainSecurity
   url: security/encharge-domain-security.yml
 - group: auth
   title: ''
+  type: TrustCenter
+  url: security/encharge-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://gdpr.encharge.io/
+- group: auth
+  title: ''
   type: Authentication
   url: authentication/encharge-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/encharge-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/encharge-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/encharge-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/encharge-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/encharge-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/encharge-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/encharge-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/encharge-well-known.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/encharge-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/encharge-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/encharge-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://encharge.noorahq.com/changelog
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://encharge.noorahq.com/roadmap
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/encharge-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/encharge-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/encharge-llms.txt
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.encharge.io/llms.txt
 - group: company
   title: ''
   type: LinkedIn
@@ -101,6 +237,10 @@ common:
   title: ''
   type: Website
   url: https://encharge.io
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.encharge.io
 - group: docs
   title: ''
   type: Documentation
@@ -109,50 +249,90 @@ common:
   title: ''
   type: API Documentation
   url: https://docs.encharge.io/api-documentation
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://app-encharge-resources.s3.amazonaws.com/redoc.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.encharge.io/getting-started/connecting-your-app-to-encharge
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.encharge.io
+- group: build
+  title: ''
+  type: Postman
+  url: https://documenter.getpostman.com/view/460427/TVRj5o3E
 - group: commercial
   title: ''
   type: Pricing
   url: https://encharge.io/pricing
 - group: start
   title: ''
+  type: SignUp
+  url: https://app.encharge.io/signup
+- group: start
+  title: ''
   type: Signup
   url: https://app.encharge.io/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://encharge.io/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://encharge.io/privacy-policy/
 - group: build
   title: ''
   type: API Integration
   url: https://encharge.io/integrations/api/
-- group: agent
-  title: ''
-  type: LlmsText
-  url: https://docs.encharge.io/llms.txt
 - group: company
   title: ''
   type: Blog
   url: https://encharge.io/feed/
 created: '2026-05-11'
-description: Encharge is a behavior-based marketing automation platform built for SaaS companies, with a visual flow builder, broadcasts, segments, lead scoring, A/B testing, and 50+ native integrations (HubSpot, Stripe, Salesforce, Facebook Ads, and more). The platform combines email marketing automation, user profiles, and product-event tracking to send targeted emails based on what users do (or do not do) in a SaaS product. Encharge exposes REST, Ingest, and Transactional Email APIs authenticated with an API token.
+description: 'Encharge is a behavior-based marketing automation platform built for SaaS companies, with a visual flow builder, broadcasts, segments, lead scoring, A/B testing, native forms, custom objects, and 50+ native integrations (HubSpot, Stripe, Salesforce, Segment, Facebook Ads, and more). The platform combines email marketing automation, user profiles, and product-event tracking to send targeted emails based on what users do (or do not do) in a SaaS product. Encharge exposes three developer surfaces: a REST API of 69 operations covering people, person fields, segments, tags, broadcasts, email templates, sending domains, custom objects and event subscriptions, described by a published OpenAPI 3.0 definition; a prose-documented Transactional Email API; and an Ingest API for streaming people and product events from a backend. All three authenticate with the same account token, passed in the X-Encharge-Token header or a token query parameter, with OAuth 2 available for partner apps.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/encharge.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-08-13'
 name: Encharge
 nav: Providers
 network: true
-overview: 'Encharge publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Events API, Fields API, and 5 more. Tagged areas include Email Marketing, Marketing Automation, Transactional Email, SaaS, and Behavioral Email.
+overview: 'Encharge publishes 16 APIs on the [APIs.io](https://apis.io/) network, including REST API, Transactional Email API, Ingest API, and 13 more. Tagged areas include Email Marketing, Marketing Automation, Transactional Email, SaaS, and Behavioral Email.
 
 
-  Encharge''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 109
+  The Encharge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Encharge''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, pricing, and 35 more developer resources.'
+plans:
+- name: Encharge Plans Pricing
+  plan_count: 3
+  slug: encharge-plans-pricing
+random_paper: 84
+rate_limits:
+- limit_count: 0
+  name: Encharge Rate Limits
+  slug: encharge-rate-limits
+scopes:
+- name: Encharge Scopes
+  scope_count: 8
+  slug: encharge-scopes
+  summary_line: 8 scopes · authorizationCode
 score:
-  band: thin
-  composite: 32.6
-  delta: 0.0
+  band: strong
+  composite: 61.5
+  delta: 28.9
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 56.3
-    developer_ergonomics: 28.3
-    discoverability: 81.5
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 92.1
+    contract_quality: 54.5
+    developer_ergonomics: 63.0
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 39.5
   previous_composite: 32.6
   provenance:
     agentic_access: derived
@@ -162,14 +342,14 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/screenshots/encharge-2026-06-20T180652.png
 security:
 - kind: authentication
   name: Encharge Authentication
   slug: encharge-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Encharge Domain Security
   slug: encharge-domain-security
@@ -178,6 +358,10 @@ security:
   name: Encharge Vulnerability Disclosure
   slug: encharge-vulnerability-disclosure
   summary_line: disclosure policy published
+- kind: trust-center
+  name: Encharge Trust Center
+  slug: encharge-trust-center
+  summary_line: GDPR
 slug: encharge
 tags:
 - Email Marketing
@@ -186,5 +370,7 @@ tags:
 - SaaS
 - Behavioral Email
 - Customer Engagement
+- Customer Data
+- Webhooks
 website: https://encharge.io
 ---

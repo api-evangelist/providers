@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -71,11 +71,35 @@ apis:
 - description: Thread and heap diagnostics
   name: Spring Boot 3 Threads API
   slug: spring-boot-3-threads-api
-artifact_total: 27
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Spring Boot 3 Actuator API
   slug: open-spring-boot-3-actuator
+- collection_type: open
+  name: Spring Boot 3 Actuator Environment API
+  slug: open-spring-boot-3-environment-api
+- collection_type: open
+  name: Spring Boot 3 Actuator Environment Health API
+  slug: open-spring-boot-3-health-api
+- collection_type: open
+  name: Spring Boot 3 Actuator Environment Info API
+  slug: open-spring-boot-3-info-api
+- collection_type: open
+  name: Spring Boot 3 Actuator Environment Loggers API
+  slug: open-spring-boot-3-loggers-api
+- collection_type: open
+  name: Spring Boot 3 Actuator Environment Metrics API
+  slug: open-spring-boot-3-metrics-api
+- collection_type: open
+  name: Spring Boot 3 Actuator Environment Scheduling API
+  slug: open-spring-boot-3-scheduling-api
+- collection_type: open
+  name: Spring Boot 3 Actuator Environment Threads API
+  slug: open-spring-boot-3-threads-api
 common:
 - group: commercial
   title: ''
@@ -166,7 +190,7 @@ plans:
 - name: Spring Boot 3 Plans Pricing
   plan_count: 2
   slug: spring-boot-3-plans-pricing
-random_paper: 36
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Spring Boot 3 Rate Limits
@@ -208,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/screenshots/spring-boot-3-2026-06-20T194407.png
 security:

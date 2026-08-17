@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Endpoints for obtaining access tokens using the OAuth 2.0 Client Credentials flow.
   name: Wellhub OAuth API
   slug: wellhub-oauth-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Integrations Companies API
+  slug: open-wellhub-companies-api
+- collection_type: open
+  name: Integrations Companies Employees API
+  slug: open-wellhub-employees-api
+- collection_type: open
+  name: Integrations Companies Jobs API
+  slug: open-wellhub-jobs-api
+- collection_type: open
+  name: Integrations Companies OAuth API
+  slug: open-wellhub-oauth-api
 common:
 - group: other
   title: ''
@@ -173,7 +189,7 @@ overview: 'Wellhub publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Wellhub''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, signup flow, engineering blog, and 19 more developer resources.'
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 10
   name: Wellhub Rate Limits
@@ -207,7 +223,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Discover and query grid balancing authorities and regions.
   name: WattTime Grid Regions API
   slug: watttime-grid-regions-api
-artifact_total: 75
+artifact_total: 81
 collections:
 - collection_type: postman
   name: WattTime Account API
@@ -74,6 +74,24 @@ collections:
 - collection_type: postman
   name: WattTime Account Grid Regions API
   slug: postman-watttime-grid-regions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WattTime Account API
+  slug: open-watttime-account-api
+- collection_type: open
+  name: WattTime Account Authentication API
+  slug: open-watttime-authentication-api
+- collection_type: open
+  name: WattTime Account Emissions Data API
+  slug: open-watttime-emissions-data-api
+- collection_type: open
+  name: WattTime Account Forecasts API
+  slug: open-watttime-forecasts-api
+- collection_type: open
+  name: WattTime Account Grid Regions API
+  slug: open-watttime-grid-regions-api
 - collection_type: open
   name: WattTime API
   slug: open-watttime
@@ -308,7 +326,7 @@ plans:
 - name: Watttime Plans Pricing
   plan_count: 3
   slug: watttime-plans-pricing
-random_paper: 39
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Watttime Rate Limits
@@ -356,7 +374,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/screenshots/watttime-2026-06-20T201256.png
 security:

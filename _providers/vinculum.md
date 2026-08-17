@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: API to retrieve or manipulate ASN related information.
@@ -82,7 +82,62 @@ apis:
 - description: API to retrieve or manipulate Vendor related information.
   name: Vinculum Vendors API
   slug: vinculum-vendors-api
-artifact_total: 21
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vinculum Advance Shipping Notice API
+  slug: open-vinculum-advance-shipping-notice-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Authentication Process API
+  slug: open-vinculum-authentication-process-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Common API
+  slug: open-vinculum-common-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Courier Allocation Process API
+  slug: open-vinculum-courier-allocation-process-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Inbounds API
+  slug: open-vinculum-inbounds-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Listing Managment API
+  slug: open-vinculum-listing-managment-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Manifest API
+  slug: open-vinculum-manifest-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Order Managment API
+  slug: open-vinculum-order-managment-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Order Returns API
+  slug: open-vinculum-order-returns-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Orders API
+  slug: open-vinculum-orders-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Products API
+  slug: open-vinculum-products-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Purchase Orders API
+  slug: open-vinculum-purchase-orders-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Putaway API
+  slug: open-vinculum-putaway-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Return to Vendor API
+  slug: open-vinculum-return-to-vendor-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Stock API
+  slug: open-vinculum-stock-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Transfers API
+  slug: open-vinculum-transfers-api
+- collection_type: open
+  name: Vinculum Advance Shipping Notice Vendors API
+  slug: open-vinculum-vendors-api
 common:
 - group: other
   title: ''
@@ -172,7 +227,7 @@ overview: 'Vinculum publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Vinculum''s developer surface includes documentation, engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 43
+random_paper: 138
 rate_limits:
 - limit_count: 3
   name: Vinculum Rate Limits
@@ -199,7 +254,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

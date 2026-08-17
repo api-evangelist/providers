@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 27
 apis:
 - description: The Attachments API from COR — 1 operation(s) for attachments.
@@ -113,7 +113,92 @@ apis:
 - description: The Working Time API from COR — 2 operation(s) for working time.
   name: COR Working Time API
   slug: cor-working-time-api
-artifact_total: 30
+artifact_total: 58
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: COR Attachments API
+  slug: open-cor-attachments-api
+- collection_type: open
+  name: COR Attachments Auth API
+  slug: open-cor-auth-api
+- collection_type: open
+  name: COR Attachments Brands API
+  slug: open-cor-brands-api
+- collection_type: open
+  name: COR Attachments Clients API
+  slug: open-cor-clients-api
+- collection_type: open
+  name: COR Attachments Collaborators API
+  slug: open-cor-collaborators-api
+- collection_type: open
+  name: COR Attachments Contacts API
+  slug: open-cor-contacts-api
+- collection_type: open
+  name: COR Attachments Contract Positions API
+  slug: open-cor-contract-positions-api
+- collection_type: open
+  name: COR Attachments Contracts API
+  slug: open-cor-contracts-api
+- collection_type: open
+  name: COR Attachments Contracts Users API
+  slug: open-cor-contracts-users-api
+- collection_type: open
+  name: COR Attachments Costs API
+  slug: open-cor-costs-api
+- collection_type: open
+  name: COR Attachments Estimates API
+  slug: open-cor-estimates-api
+- collection_type: open
+  name: COR Attachments Fees API
+  slug: open-cor-fees-api
+- collection_type: open
+  name: COR Attachments Hours API
+  slug: open-cor-hours-api
+- collection_type: open
+  name: COR Attachments Labels API
+  slug: open-cor-labels-api
+- collection_type: open
+  name: COR Attachments Messages API
+  slug: open-cor-messages-api
+- collection_type: open
+  name: COR Attachments Products API
+  slug: open-cor-products-api
+- collection_type: open
+  name: COR Attachments Project Templates API
+  slug: open-cor-project-templates-api
+- collection_type: open
+  name: COR Attachments Projects API
+  slug: open-cor-projects-api
+- collection_type: open
+  name: COR Attachments Ratecards API
+  slug: open-cor-ratecards-api
+- collection_type: open
+  name: COR Attachments Resource Allocation API
+  slug: open-cor-resource-allocation-api
+- collection_type: open
+  name: COR Attachments Tasks API
+  slug: open-cor-tasks-api
+- collection_type: open
+  name: COR Attachments Teams API
+  slug: open-cor-teams-api
+- collection_type: open
+  name: COR Attachments Transactions API
+  slug: open-cor-transactions-api
+- collection_type: open
+  name: COR Attachments User Leaves API
+  slug: open-cor-user-leaves-api
+- collection_type: open
+  name: COR Attachments User Positions API
+  slug: open-cor-user-positions-api
+- collection_type: open
+  name: COR Attachments Users API
+  slug: open-cor-users-api
+- collection_type: open
+  name: COR Attachments Working Time API
+  slug: open-cor-working-time-api
 common:
 - group: other
   title: ''
@@ -223,7 +308,7 @@ overview: 'COR publishes 27 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   COR''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 16 more developer resources.'
-random_paper: 84
+random_paper: 26
 score:
   band: developing
   composite: 44.4
@@ -246,7 +331,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/screenshots/cor-2026-07-25T210412.png
 security:

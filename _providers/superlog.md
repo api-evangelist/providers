@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -55,11 +55,27 @@ arazzos:
 - description: Create a new Superlog project, then mint a project-scoped OTLP ingest key so a service can start sending OpenTelemetry telemetry.
   name: Provision a Superlog project and mint an ingest key
   slug: superlog-provision-project
-artifact_total: 12
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Superlog Webhooks
   slug: superlog-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Superlog Management API keys API
+  slug: open-superlog-api-keys-api
+- collection_type: open
+  name: Superlog Management API keys GitHub integration API
+  slug: open-superlog-github-integration-api
+- collection_type: open
+  name: Superlog Management API keys Projects API
+  slug: open-superlog-projects-api
+- collection_type: open
+  name: Superlog Management API keys Telemetry read API
+  slug: open-superlog-telemetry-read-api
 common:
 - group: other
   title: ''
@@ -176,7 +192,7 @@ overview: 'Superlog publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Superlog''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 18 more developer resources.'
-random_paper: 41
+random_paper: 136
 scopes:
 - name: Superlog Scopes
   scope_count: 3
@@ -205,7 +221,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

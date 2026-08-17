@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -60,11 +60,29 @@ apis:
 - description: Certificate revocation
   name: SSL/TLS Revocation API
   slug: ssl-tls-revocation-api
-artifact_total: 22
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: SSL/TLS Certificate Management API
   slug: open-ssl-tls-certificate-management
+- collection_type: open
+  name: SSL/TLS Certificate Management Certificates API
+  slug: open-ssl-tls-certificates-api
+- collection_type: open
+  name: SSL/TLS Certificate Management Certificates Domains API
+  slug: open-ssl-tls-domains-api
+- collection_type: open
+  name: SSL/TLS Certificate Management Certificates Monitoring API
+  slug: open-ssl-tls-monitoring-api
+- collection_type: open
+  name: SSL/TLS Certificate Management Certificates Orders API
+  slug: open-ssl-tls-orders-api
+- collection_type: open
+  name: SSL/TLS Certificate Management Certificates Revocation API
+  slug: open-ssl-tls-revocation-api
 common:
 - group: agent
   title: ''
@@ -165,7 +183,7 @@ plans:
 - name: Ssl Tls Plans Pricing
   plan_count: 1
   slug: ssl-tls-plans-pricing
-random_paper: 2
+random_paper: 126
 rate_limits:
 - limit_count: 7
   name: Ssl Tls Rate Limits
@@ -207,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/screenshots/ssl-tls-2026-06-20T194435.png
 security:

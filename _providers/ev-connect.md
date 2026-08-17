@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Manage charging stations and charge points (EVSE) - registration, status, health, and availability - within the EV Connect charge point management platform. Endpoints and base URL are not publicly doc
@@ -49,8 +49,11 @@ apis:
 - description: Event notifications for charging lifecycle changes (e.g., session start, stop, and station status). EV Connect markets event-driven integrations, but no public webhook event catalog or payloads are do
   name: EV Connect Webhooks
   slug: webhooks
-artifact_total: 12
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: EV Connect API Platform
   slug: open-ev-connect
@@ -115,7 +118,7 @@ plans:
 - name: Ev Connect Plans Pricing
   plan_count: 1
   slug: ev-connect-plans-pricing
-random_paper: 50
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: Ev Connect Rate Limits
@@ -139,7 +142,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/screenshots/ev-connect-2026-07-25T213703.png
 security:

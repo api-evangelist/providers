@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: 'The #ListProtections API from Amazon Shield — 1 operation(s) for #listprotections.'
   name: 'Amazon Shield #ListProtections API'
   slug: amazon-shield-listprotections-api
-artifact_total: 72
+artifact_total: 80
 collections:
 - collection_type: postman
   name: Amazon Shield REST Amazon Shield REST API API
@@ -84,8 +84,32 @@ collections:
   name: 'Amazon Shield REST Amazon Shield REST API #ListProtections API'
   slug: postman-amazon-shield-listprotections-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Shield REST Amazon Shield REST API API
+  slug: open-amazon-shield-amazon-shield-rest-api-api
+- collection_type: open
   name: Amazon Shield REST API
   slug: open-amazon-shield-api
+- collection_type: open
+  name: 'Amazon Shield REST Amazon Shield REST API #CreateProtectionGroup API'
+  slug: open-amazon-shield-createprotectiongroup-api
+- collection_type: open
+  name: 'Amazon Shield REST Amazon Shield REST API #CreateSubscription API'
+  slug: open-amazon-shield-createsubscription-api
+- collection_type: open
+  name: 'Amazon Shield REST Amazon Shield REST API #DescribeAttack API'
+  slug: open-amazon-shield-describeattack-api
+- collection_type: open
+  name: 'Amazon Shield REST Amazon Shield REST API #DescribeProtection API'
+  slug: open-amazon-shield-describeprotection-api
+- collection_type: open
+  name: 'Amazon Shield REST Amazon Shield REST API #DescribeSubscription API'
+  slug: open-amazon-shield-describesubscription-api
+- collection_type: open
+  name: 'Amazon Shield REST Amazon Shield REST API #ListProtections API'
+  slug: open-amazon-shield-listprotections-api
 common:
 - group: build
   title: ''
@@ -529,7 +553,7 @@ plans:
 - name: Amazon Shield Plans Pricing
   plan_count: 3
   slug: amazon-shield-plans-pricing
-random_paper: 4
+random_paper: 132
 rate_limits:
 - limit_count: 5
   name: Amazon Shield Rate Limits
@@ -571,7 +595,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/screenshots/amazon-shield-2026-06-20T171822.png
 security:

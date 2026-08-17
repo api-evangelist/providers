@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Workflows API from Shuffle — 9 operation(s) for workflows.
   name: Shuffle Workflows API
   slug: shuffle-workflows-api
-artifact_total: 25
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shuffle Administration API
+  slug: open-shuffle-administration-api
+- collection_type: open
+  name: Shuffle Administration Apps API
+  slug: open-shuffle-apps-api
+- collection_type: open
+  name: Shuffle Administration Datastore API
+  slug: open-shuffle-datastore-api
+- collection_type: open
+  name: Shuffle Administration Files API
+  slug: open-shuffle-files-api
+- collection_type: open
+  name: Shuffle Administration Notifications API
+  slug: open-shuffle-notifications-api
+- collection_type: open
+  name: Shuffle Administration Organizations API
+  slug: open-shuffle-organizations-api
+- collection_type: open
+  name: Shuffle Administration Triggers API
+  slug: open-shuffle-triggers-api
+- collection_type: open
+  name: Shuffle Administration Users API
+  slug: open-shuffle-users-api
+- collection_type: open
+  name: Shuffle Administration Workflows API
+  slug: open-shuffle-workflows-api
 - collection_type: open
   name: Shuffle API
   slug: open-shuffle
@@ -142,7 +172,7 @@ plans:
 - name: Shuffle Plans Pricing
   plan_count: 3
   slug: shuffle-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Shuffle Rate Limits
@@ -184,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/screenshots/shuffle-2026-06-20T193850.png
 security:

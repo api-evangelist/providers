@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -100,11 +100,32 @@ arazzos:
 - description: Find an existing event action, repoint its export destination, and verify the change.
   name: Amazon Data Exchange Update Event Action Destination
   slug: amazon-data-exchange-update-event-action-destination-workflow
-artifact_total: 111
+artifact_total: 118
 collections:
 - collection_type: postman
   name: AWS Data Exchange API
   slug: postman-amazon-data-exchange
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Data Exchange Assets API
+  slug: open-amazon-data-exchange-assets-api
+- collection_type: open
+  name: AWS Data Exchange Assets Data Sets API
+  slug: open-amazon-data-exchange-data-sets-api
+- collection_type: open
+  name: AWS Data Exchange Assets Event Actions API
+  slug: open-amazon-data-exchange-event-actions-api
+- collection_type: open
+  name: AWS Data Exchange Assets Jobs API
+  slug: open-amazon-data-exchange-jobs-api
+- collection_type: open
+  name: AWS Data Exchange Assets Revisions API
+  slug: open-amazon-data-exchange-revisions-api
+- collection_type: open
+  name: AWS Data Exchange Assets Tags API
+  slug: open-amazon-data-exchange-tags-api
 - collection_type: open
   name: AWS Data Exchange API
   slug: open-amazon-data-exchange
@@ -493,7 +514,7 @@ plans:
 - name: Amazon Data Exchange Plans Pricing
   plan_count: 3
   slug: amazon-data-exchange-plans-pricing
-random_paper: 61
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Amazon Data Exchange Rate Limits
@@ -535,7 +556,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/screenshots/amazon-data-exchange-2026-06-20T171621.png
 security:

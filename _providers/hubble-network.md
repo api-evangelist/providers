@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -50,11 +50,36 @@ apis:
 - description: The Platform Metrics API from Hubble Network — 4 operation(s) for platform metrics.
   name: Hubble Network Platform Metrics API
   slug: hubble-network-platform-metrics-api
-artifact_total: 25
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Hubble Network Packet Webhooks
   slug: hubble-network-packet-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hubble Platform API Keys API
+  slug: open-hubble-network-api-keys-api
+- collection_type: open
+  name: Hubble Platform Billing API
+  slug: open-hubble-network-billing-api
+- collection_type: open
+  name: Hubble Platform Devices API
+  slug: open-hubble-network-devices-api
+- collection_type: open
+  name: Hubble Platform Organizations API
+  slug: open-hubble-network-organizations-api
+- collection_type: open
+  name: Hubble Platform Packet Webhooks API
+  slug: open-hubble-network-packet-webhooks-api
+- collection_type: open
+  name: Hubble Platform Packets API
+  slug: open-hubble-network-packets-api
+- collection_type: open
+  name: Hubble Platform Platform Metrics API
+  slug: open-hubble-network-platform-metrics-api
 common:
 - group: agent
   title: ''
@@ -290,7 +315,7 @@ plans:
 - name: Hubble Network Plans Pricing
   plan_count: 4
   slug: hubble-network-plans-pricing
-random_paper: 9
+random_paper: 108
 rate_limits:
 - limit_count: 7
   name: Hubble Network Rate Limits
@@ -323,7 +348,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/screenshots/hubble-network-2026-08-07T170350.png
 security:

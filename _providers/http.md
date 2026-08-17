@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 7
 common:
@@ -94,7 +94,7 @@ overview: 'HTTP is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   The HTTP catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 88
+random_paper: 1
 rules:
 - name: HTTP API Rules
   rule_count: 4
@@ -125,7 +125,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/http/refs/heads/main/screenshots/http-2026-06-20T182903.png
 security:

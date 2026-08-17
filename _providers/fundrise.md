@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,7 +60,38 @@ arazzos:
 - description: 'The primary Fundrise Connect flow, modelled from the sequence Fundrise publishes under the "Workflow Example" tag of its own OpenAPI: create a Client, exchange the issued refresh token for a Client ac'
   name: Fundrise Connect — onboard a Client and place an Investment
   slug: fundrise-onboard-client-and-invest
-artifact_total: 17
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fundrise Connect (External API) Acknowledgments API
+  slug: open-fundrise-acknowledgments-api
+- collection_type: open
+  name: Fundrise Connect (External API) Authentication API
+  slug: open-fundrise-authentication-api
+- collection_type: open
+  name: Fundrise Connect (External API) Clients API
+  slug: open-fundrise-clients-api
+- collection_type: open
+  name: Fundrise Connect (External API) Holdings API
+  slug: open-fundrise-holdings-api
+- collection_type: open
+  name: Fundrise Connect (External API) Investments API
+  slug: open-fundrise-investments-api
+- collection_type: open
+  name: Fundrise Connect (External API) Liquidations API
+  slug: open-fundrise-liquidations-api
+- collection_type: open
+  name: Fundrise Connect (External API) Offerings API
+  slug: open-fundrise-offerings-api
+- collection_type: open
+  name: Fundrise Connect (External API) Tax Forms API
+  slug: open-fundrise-tax-forms-api
+- collection_type: open
+  name: Fundrise Connect (External API) Transactions API
+  slug: open-fundrise-transactions-api
 common:
 - group: agent
   title: ''
@@ -171,7 +202,7 @@ overview: 'Fundrise publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 0
   name: Fundrise Rate Limits
@@ -204,7 +235,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

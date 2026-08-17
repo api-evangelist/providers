@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'Universal Commerce Protocol (UCP) MCP endpoint published on the Arccos Golf Shopify storefront for agent-driven commerce. An anonymous JSON-RPC tools/list returns 13 tools covering catalog search and '
@@ -39,11 +39,33 @@ apis:
 - description: The Webhooks API from Arccos Golf — 2 operation(s) for webhooks.
   name: Arccos Golf Webhooks API
   slug: arccos-golf-webhooks-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Arccos Golf Webhooks
   slug: arccos-golf-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arccos On-Course Data Clubs API
+  slug: open-arccos-golf-clubs-api
+- collection_type: open
+  name: Arccos On-Course Data Courses API
+  slug: open-arccos-golf-courses-api
+- collection_type: open
+  name: Arccos On-Course Data API
+  slug: open-arccos-golf-on-course-data-api
+- collection_type: open
+  name: Arccos On-Course Data Rounds API
+  slug: open-arccos-golf-rounds-api
+- collection_type: open
+  name: Arccos On-Course Data Users API
+  slug: open-arccos-golf-users-api
+- collection_type: open
+  name: Arccos On-Course Data Webhooks API
+  slug: open-arccos-golf-webhooks-api
 common:
 - group: auth
   title: ''
@@ -195,7 +217,7 @@ overview: 'Arccos Golf publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Arccos Golf''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 24
+random_paper: 61
 scopes:
 - name: Arccos Golf Scopes
   scope_count: 4
@@ -223,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/screenshots/arccos-golf-2026-08-07T161622.png
 security:

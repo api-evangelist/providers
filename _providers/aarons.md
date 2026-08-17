@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Aaron's online lease application and approval system enabling customers to apply for lease-to-own financing before shopping. Provides instant approval decisions and leasing power discovery for furnitu
@@ -116,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: IQVentures Completes Acquisition of The Aaron's Company
   url: https://www.prnewswire.com/news-releases/iqventures-completes-acquisition-of-the-aarons-company-302267226.html
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Aarons Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/screenshots/aarons-2026-06-20T163019.png
 security:

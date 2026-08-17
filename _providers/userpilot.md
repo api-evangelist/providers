@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -56,14 +56,35 @@ apis:
 - description: The Track API from Userpilot — 1 operation(s) for track.
   name: Userpilot Track API
   slug: userpilot-track-api
-artifact_total: 36
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Userpilot API
   slug: open-userpilot-analytex
 - collection_type: open
+  name: Userpilot Analytics API
+  slug: open-userpilot-analytics-api
+- collection_type: open
   name: Userpilot API
   slug: open-userpilot-appex
+- collection_type: open
+  name: Userpilot Analytics Background Jobs API
+  slug: open-userpilot-background-jobs-api
+- collection_type: open
+  name: Userpilot Analytics Companies API
+  slug: open-userpilot-companies-api
+- collection_type: open
+  name: Userpilot Analytics Imports API
+  slug: open-userpilot-imports-api
+- collection_type: open
+  name: Userpilot Analytics Real-time API
+  slug: open-userpilot-real-time-api
+- collection_type: open
+  name: Userpilot Analytics Track API
+  slug: open-userpilot-track-api
 - collection_type: open
   name: Userpilot API
   slug: open-userpilot
@@ -203,7 +224,7 @@ plans:
 - name: Userpilot Plans Pricing
   plan_count: 1
   slug: userpilot-plans-pricing
-random_paper: 39
+random_paper: 105
 rate_limits:
 - limit_count: 1
   name: Userpilot Rate Limits
@@ -237,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/screenshots/userpilot-2026-06-20T200701.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -74,7 +74,26 @@ apis:
 - description: Quantum random number generation security chip and solution from SK Telecom, listed in the Authentication/Security category of the SK open API portal. Listed as a product rather than a documented REST
   name: SK Telecom QRNG
   slug: sk-telecom-qrng-api
-artifact_total: 20
+artifact_total: 26
+collections:
+- collection_type: open
+  name: A.X tts
+  slug: open-sk-telecom-ax-tts
+- collection_type: open
+  name: NUGU facecan
+  slug: open-sk-telecom-facecan
+- collection_type: open
+  name: META
+  slug: open-sk-telecom-meta
+- collection_type: open
+  name: OVS
+  slug: open-sk-telecom-ovs
+- collection_type: open
+  name: 장소 혼잡도
+  slug: open-sk-telecom-puzzle-place-congestion
+- collection_type: open
+  name: 주거 생활
+  slug: open-sk-telecom-puzzle-residence
 common:
 - group: agent
   title: ''
@@ -254,7 +273,7 @@ overview: 'SK Telecom publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SK Telecom''s developer surface includes authentication, signup flow, support, FAQ, engineering blog, documentation, changelog, and 33 more developer resources.'
-random_paper: 52
+random_paper: 118
 rate_limits:
 - limit_count: 0
   name: Sk Telecom Rate Limits
@@ -283,7 +302,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

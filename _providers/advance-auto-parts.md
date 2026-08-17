@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,14 +60,38 @@ apis:
 - description: Vehicle year/make/model lookup and fitment
   name: Advance Auto Parts Vehicles API
   slug: advance-auto-parts-vehicles-api
-artifact_total: 103
+artifact_total: 111
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Advance Auto Parts Catalog Cart API
+  slug: open-advance-auto-parts-cart-api
 - collection_type: open
   name: Advance Auto Parts Catalog API
   slug: open-advance-auto-parts-catalog-api
 - collection_type: open
   name: Advance Auto Parts Commerce API
   slug: open-advance-auto-parts-commerce-api
+- collection_type: open
+  name: Advance Auto Parts Catalog Cart Inventory API
+  slug: open-advance-auto-parts-inventory-api
+- collection_type: open
+  name: Advance Auto Parts Catalog Cart Loyalty API
+  slug: open-advance-auto-parts-loyalty-api
+- collection_type: open
+  name: Advance Auto Parts Catalog Cart Orders API
+  slug: open-advance-auto-parts-orders-api
+- collection_type: open
+  name: Advance Auto Parts Catalog Cart Products API
+  slug: open-advance-auto-parts-products-api
+- collection_type: open
+  name: Advance Auto Parts Catalog Cart Stores API
+  slug: open-advance-auto-parts-stores-api
+- collection_type: open
+  name: Advance Auto Parts Catalog Cart Vehicles API
+  slug: open-advance-auto-parts-vehicles-api
 common:
 - group: agent
   title: ''
@@ -395,7 +419,7 @@ press:
 - date: '2026-05-25'
   title: Advance Auto Parts reshapes footprint and 2025 results
   url: https://www.stocktitan.net/sec-filings/AAP/10-k-advance-auto-parts-inc-files-annual-report-a1f015e6e77e.html
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Advance Auto Parts Rate Limits
@@ -442,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 3
@@ -105,7 +105,7 @@ apis:
 - description: The Webhooks API from Twitter/X — 5 operation(s) for webhooks.
   name: Twitter/X Webhooks API
   slug: twitter-x-webhooks-api
-artifact_total: 52
+artifact_total: 75
 asyncapis:
 - description: ''
   name: Twitter X Webhooks
@@ -177,6 +177,75 @@ collections:
 - collection_type: postman
   name: X API v2 Account Activity Webhooks API
   slug: postman-twitter-x-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: X API v2 Account Activity API
+  slug: open-twitter-x-account-activity-api
+- collection_type: open
+  name: X API v2 Account Activity API
+  slug: open-twitter-x-activity-api
+- collection_type: open
+  name: X API v2 Account Activity Articles API
+  slug: open-twitter-x-articles-api
+- collection_type: open
+  name: X API v2 Account Activity Bookmarks API
+  slug: open-twitter-x-bookmarks-api
+- collection_type: open
+  name: X API v2 Account Activity Chat API
+  slug: open-twitter-x-chat-api
+- collection_type: open
+  name: X API v2 Account Activity Communities API
+  slug: open-twitter-x-communities-api
+- collection_type: open
+  name: X API v2 Account Activity Community Notes API
+  slug: open-twitter-x-community-notes-api
+- collection_type: open
+  name: X API v2 Account Activity Compliance API
+  slug: open-twitter-x-compliance-api
+- collection_type: open
+  name: X API v2 Account Activity Connections API
+  slug: open-twitter-x-connections-api
+- collection_type: open
+  name: X API v2 Account Activity Direct Messages API
+  slug: open-twitter-x-direct-messages-api
+- collection_type: open
+  name: X API v2 Account Activity General API
+  slug: open-twitter-x-general-api
+- collection_type: open
+  name: X API v2 Account Activity Likes API
+  slug: open-twitter-x-likes-api
+- collection_type: open
+  name: X API v2 Account Activity Lists API
+  slug: open-twitter-x-lists-api
+- collection_type: open
+  name: X API v2 Account Activity Media API
+  slug: open-twitter-x-media-api
+- collection_type: open
+  name: X API v2 Account Activity News API
+  slug: open-twitter-x-news-api
+- collection_type: open
+  name: X API v2 Account Activity Spaces API
+  slug: open-twitter-x-spaces-api
+- collection_type: open
+  name: X API v2 Account Activity Stream API
+  slug: open-twitter-x-stream-api
+- collection_type: open
+  name: X API v2 Account Activity Trends API
+  slug: open-twitter-x-trends-api
+- collection_type: open
+  name: X API v2 Account Activity Tweets API
+  slug: open-twitter-x-tweets-api
+- collection_type: open
+  name: X API v2 Account Activity Usage API
+  slug: open-twitter-x-usage-api
+- collection_type: open
+  name: X API v2 Account Activity Users API
+  slug: open-twitter-x-users-api
+- collection_type: open
+  name: X API v2 Account Activity Webhooks API
+  slug: open-twitter-x-webhooks-api
 common:
 - group: other
   title: ''
@@ -357,7 +426,7 @@ overview: 'Twitter/X publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Twitter/X''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 33 more developer resources.'
-random_paper: 112
+random_paper: 58
 rate_limits:
 - limit_count: 18
   name: Twitter X Rate Limits
@@ -390,7 +459,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

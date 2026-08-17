@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -37,7 +37,23 @@ apis:
 - description: The Monitoring API from Taalas — 1 operation(s) for monitoring.
   name: Taalas Monitoring API
   slug: taalas-monitoring-api
-artifact_total: 7
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Taalas API
+  slug: open-taalas-inference-api
+- collection_type: open
+  name: Taalas API — v1
+  slug: open-taalas-inference-v1-api
+- collection_type: open
+  name: Taalas Models API
+  slug: open-taalas-models-api
+- collection_type: open
+  name: Taalas Monitoring API
+  slug: open-taalas-monitoring-api
 common:
 - group: company
   title: ''
@@ -159,7 +175,7 @@ overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Taalas'' developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 30
+random_paper: 34
 score:
   band: thin
   composite: 39.0
@@ -183,7 +199,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

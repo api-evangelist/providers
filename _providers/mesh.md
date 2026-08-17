@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: The Assets API from Mesh — 2 operation(s) for assets.
@@ -59,11 +59,42 @@ apis:
 - description: '### Supported integrations: ```Robinhood``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Binance``` ```Gemini``` ```OkCoin``` ```KuCoin``` ```BinanceInternational``` ```Bitstamp```'
   name: Mesh Transfers API
   slug: mesh-transfers-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Mesh Transfers Webhooks
   slug: mesh-transfers-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mesh Connect Integration Assets API
+  slug: open-mesh-assets-api
+- collection_type: open
+  name: Mesh Connect Integration Assets Balance API
+  slug: open-mesh-balance-api
+- collection_type: open
+  name: Mesh Connect Integration Assets BrokerAccountDetail API
+  slug: open-mesh-brokeraccountdetail-api
+- collection_type: open
+  name: Mesh Connect Integration Assets Managed Account Authentication API
+  slug: open-mesh-managed-account-authentication-api
+- collection_type: open
+  name: Mesh Connect Integration Assets Managed Transfers API
+  slug: open-mesh-managed-transfers-api
+- collection_type: open
+  name: Mesh Connect Integration Assets Portfolio API
+  slug: open-mesh-portfolio-api
+- collection_type: open
+  name: Mesh Connect Integration Assets Self Managed Account Authentication API
+  slug: open-mesh-self-managed-account-authentication-api
+- collection_type: open
+  name: Mesh Connect Integration Assets Transactions API
+  slug: open-mesh-transactions-api
+- collection_type: open
+  name: Mesh Connect Integration Assets Transfers API
+  slug: open-mesh-transfers-api
 common:
 - group: other
   title: ''
@@ -204,7 +235,7 @@ overview: 'Mesh publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Mesh''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 23 more developer resources.'
-random_paper: 69
+random_paper: 131
 score:
   band: developing
   composite: 54.7
@@ -233,7 +264,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh/refs/heads/main/screenshots/mesh-2026-08-07T172618.png
 security:

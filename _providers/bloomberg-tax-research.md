@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Programmatic access to Bloomberg Tax research content including tax portfolios, practitioner analysis, primary sources, and tax news for integration into legal research and tax technology platforms.
@@ -96,7 +96,7 @@ plans:
 - name: Bloomberg Tax Research Plans Pricing
   plan_count: 3
   slug: bloomberg-tax-research-plans-pricing
-random_paper: 61
+random_paper: 135
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tax Research Rate Limits
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-tax-research/refs/heads/main/screenshots/bloomberg-tax-research-2026-06-20T173508.png
 security:

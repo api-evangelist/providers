@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -94,14 +94,35 @@ arazzos:
 - description: Read a Namespace, update its spec using the current resourceVersion, then confirm the change.
   name: Temporal Update a Namespace With Optimistic Concurrency
   slug: temporal-update-namespace-workflow
-artifact_total: 87
+artifact_total: 94
 collections:
 - collection_type: postman
   name: Temporal Cloud Operations API
   slug: postman-cloud-ops-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Temporal Cloud Operations API
   slug: open-cloud-ops-api
+- collection_type: open
+  name: Temporal Cloud Operations API Keys API
+  slug: open-temporal-api-keys-api
+- collection_type: open
+  name: Temporal Cloud Operations API Keys Async Operations API
+  slug: open-temporal-async-operations-api
+- collection_type: open
+  name: Temporal Cloud Operations API Keys Namespaces API
+  slug: open-temporal-namespaces-api
+- collection_type: open
+  name: Temporal Cloud Operations API Keys Regions API
+  slug: open-temporal-regions-api
+- collection_type: open
+  name: Temporal Cloud Operations API Keys Service Accounts API
+  slug: open-temporal-service-accounts-api
+- collection_type: open
+  name: Temporal Cloud Operations API Keys Users API
+  slug: open-temporal-users-api
 common:
 - group: agent
   title: ''
@@ -470,7 +491,7 @@ plans:
 - name: Temporal Plans Pricing
   plan_count: 3
   slug: temporal-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 5
   name: Temporal Rate Limits
@@ -514,7 +535,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/screenshots/temporal-2026-06-20T195103.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +53,26 @@ apis:
 - description: Structured XBRL financial data
   name: sec-edgar XBRL API
   slug: sec-edgar-xbrl-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SEC EDGAR Submissions & XBRL Company Facts API
+  slug: open-sec-edgar-company-facts-api
+- collection_type: open
+  name: SEC EDGAR Submissions & XBRL Company Facts Full-Text Search API
+  slug: open-sec-edgar-full-text-search-api
+- collection_type: open
+  name: SEC EDGAR & XBRL Company Facts Submissions API
+  slug: open-sec-edgar-submissions-api
 - collection_type: open
   name: SEC EDGAR Submissions & XBRL API
   slug: open-sec-edgar-submissions
+- collection_type: open
+  name: SEC EDGAR Submissions & Company Facts XBRL API
+  slug: open-sec-edgar-xbrl-api
 common:
 - group: agent
   title: ''
@@ -141,7 +156,7 @@ plans:
 - name: Sec Edgar Plans Pricing
   plan_count: 1
   slug: sec-edgar-plans-pricing
-random_paper: 35
+random_paper: 130
 rate_limits:
 - limit_count: 1
   name: Sec Edgar Rate Limits
@@ -175,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/screenshots/sec-edgar-2026-06-20T193620.png
 security:

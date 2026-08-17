@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Foundry Group
 nav: Providers
 network: true
-random_paper: 57
+random_paper: 36
 slug: foundry-group
 tags:
 - Venture Capital

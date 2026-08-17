@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -103,11 +103,35 @@ arazzos:
 - description: Read a draft report, update its header fields, then read it back to confirm.
   name: SAP Concur Update Report and Verify
   slug: sap-concur-expense-update-report-verify-workflow
-artifact_total: 67
+artifact_total: 75
 collections:
 - collection_type: postman
   name: SAP Concur Expense API
   slug: postman-sap-concur-expense-report
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP Concur Expense Allocations API
+  slug: open-sap-concur-expense-allocations-api
+- collection_type: open
+  name: SAP Concur Expense Allocations Expense Entries API
+  slug: open-sap-concur-expense-expense-entries-api
+- collection_type: open
+  name: SAP Concur Expense Allocations Expense Reports API
+  slug: open-sap-concur-expense-expense-reports-api
+- collection_type: open
+  name: SAP Concur Expense Allocations Group Configurations API
+  slug: open-sap-concur-expense-group-configurations-api
+- collection_type: open
+  name: SAP Concur Expense Allocations Payment Batches API
+  slug: open-sap-concur-expense-payment-batches-api
+- collection_type: open
+  name: SAP Concur Expense Allocations Quick Expenses API
+  slug: open-sap-concur-expense-quick-expenses-api
+- collection_type: open
+  name: SAP Concur Expense Allocations Receipt Images API
+  slug: open-sap-concur-expense-receipt-images-api
 - collection_type: open
   name: SAP Concur Expense API
   slug: open-sap-concur-expense-report
@@ -410,7 +434,7 @@ plans:
 - name: Sap Concur Expense Plans Pricing
   plan_count: 1
   slug: sap-concur-expense-plans-pricing
-random_paper: 24
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Sap Concur Expense Rate Limits
@@ -457,7 +481,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/screenshots/sap-concur-expense-2026-06-20T193425.png
 security:

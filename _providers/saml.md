@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: SAML 2.0 Single Sign-On operations.
   name: SAML SSO API
   slug: saml-sso-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAML 2.0 SSO HTTP Bindings Metadata API
+  slug: open-saml-metadata-api
+- collection_type: open
+  name: SAML 2.0 SSO HTTP Bindings Metadata SLO API
+  slug: open-saml-slo-api
+- collection_type: open
+  name: SAML 2.0 HTTP Bindings Metadata SSO API
+  slug: open-saml-sso-api
 - collection_type: open
   name: SAML 2.0 SSO HTTP Bindings
   slug: open-saml-sso-bindings
@@ -155,7 +167,7 @@ plans:
 - name: Saml Plans Pricing
   plan_count: 3
   slug: saml-plans-pricing
-random_paper: 69
+random_paper: 131
 rate_limits:
 - limit_count: 5
   name: Saml Rate Limits
@@ -197,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/screenshots/saml-2026-06-20T193358.png
 slug: saml

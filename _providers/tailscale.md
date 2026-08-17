@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -59,8 +59,32 @@ apis:
 - description: The Tailnet API from Tailscale — 2 operation(s) for tailnet.
   name: Tailscale Tailnet API
   slug: tailscale-tailnet-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tailscale REST Devices API
+  slug: open-tailscale-devices-api
+- collection_type: open
+  name: Tailscale REST Devices DNS API
+  slug: open-tailscale-dns-api
+- collection_type: open
+  name: Tailscale REST Devices Invites API
+  slug: open-tailscale-invites-api
+- collection_type: open
+  name: Tailscale REST Devices Keys API
+  slug: open-tailscale-keys-api
+- collection_type: open
+  name: Tailscale REST Devices Logging API
+  slug: open-tailscale-logging-api
+- collection_type: open
+  name: Tailscale REST Devices Policy API
+  slug: open-tailscale-policy-api
+- collection_type: open
+  name: Tailscale REST Devices Tailnet API
+  slug: open-tailscale-tailnet-api
 - collection_type: open
   name: Tailscale REST API
   slug: open-tailscale
@@ -125,7 +149,7 @@ overview: 'Tailscale publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tailscale''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 106
+random_paper: 52
 score:
   band: thin
   composite: 32.6
@@ -146,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/screenshots/tailscale-2026-06-20T194858.png
 security:

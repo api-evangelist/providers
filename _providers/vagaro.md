@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,7 +60,29 @@ apis:
 - description: Single- and multi-location business details. Endpoints modeled.
   name: Vagaro Locations API
   slug: vagaro-locations-api
-artifact_total: 13
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vagaro Enterprise Business API (Partial, Community-Modeled) Appointments API
+  slug: open-vagaro-appointments-api
+- collection_type: open
+  name: Vagaro Enterprise Business API (Partial, Community-Modeled) Appointments Authentication API
+  slug: open-vagaro-authentication-api
+- collection_type: open
+  name: Vagaro Enterprise Business API (Partial, Community-Modeled) Appointments Customers API
+  slug: open-vagaro-customers-api
+- collection_type: open
+  name: Vagaro Enterprise Business API (Partial, Community-Modeled) Appointments Employee Management API
+  slug: open-vagaro-employee-management-api
+- collection_type: open
+  name: Vagaro Enterprise Business API (Partial, Community-Modeled) Appointments Employees API
+  slug: open-vagaro-employees-api
+- collection_type: open
+  name: Vagaro Enterprise Business API (Partial, Community-Modeled) Appointments Locations API
+  slug: open-vagaro-locations-api
 common:
 - group: agent
   title: ''
@@ -119,7 +141,7 @@ plans:
 - name: Vagaro Plans Pricing
   plan_count: 5
   slug: vagaro-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Vagaro Rate Limits
@@ -144,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

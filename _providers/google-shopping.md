@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
 - description: Manage product listings
   name: Google Content API for Shopping Products API
   slug: google-shopping-products-api
-artifact_total: 18
+artifact_total: 23
 collections:
 - collection_type: postman
   name: Google Content API for Shopping Accounts API
@@ -64,6 +64,21 @@ collections:
 - collection_type: postman
   name: Google Content API for Shopping Accounts Products API
   slug: postman-google-shopping-products-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Content API for Shopping Accounts API
+  slug: open-google-shopping-accounts-api
+- collection_type: open
+  name: Google Content API for Shopping Accounts Datafeeds API
+  slug: open-google-shopping-datafeeds-api
+- collection_type: open
+  name: Google Content API for Shopping Accounts Orders API
+  slug: open-google-shopping-orders-api
+- collection_type: open
+  name: Google Content API for Shopping Accounts Products API
+  slug: open-google-shopping-products-api
 - collection_type: open
   name: Google Content API for Shopping
   slug: open-openapi
@@ -160,7 +175,7 @@ plans:
 - name: Google Shopping Plans Pricing
   plan_count: 3
   slug: google-shopping-plans-pricing
-random_paper: 114
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Google Shopping Rate Limits
@@ -200,7 +215,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/screenshots/google-shopping-2026-06-20T182233.png
 security:

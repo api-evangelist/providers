@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,11 +45,21 @@ apis:
 - description: The webhooks API from Andel — 2 operation(s) for webhooks.
   name: Andel webhooks API
   slug: andel-webhooks-api
-artifact_total: 8
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Andel Data Exchange Webhooks
   slug: andel-data-exchange-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Data Exchange purchases API
+  slug: open-andel-purchases-api
+- collection_type: open
+  name: Data Exchange purchases webhooks API
+  slug: open-andel-webhooks-api
 common:
 - group: start
   title: ''
@@ -174,7 +184,7 @@ overview: 'Andel publishes 2 APIs on the [APIs.io](https://apis.io/) network: pu
 
 
   Andel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 36
+random_paper: 69
 scopes:
 - name: Andel Scopes
   scope_count: 1
@@ -209,7 +219,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/screenshots/andel-2026-07-25T200224.png
 security:

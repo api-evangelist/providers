@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup with a 7-day free trial
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
-  - authentication
-  trial: false
+  - plans/chatfuel-plans-pricing.yml
+  - authentication/chatfuel-authentication.yml
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-aware
@@ -25,48 +26,59 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 12.2
-  scored_at: '2026-08-12'
-api_count: 2
+  score: 15.8
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
-- description: 'HTTP API for sending any block or flow from a bot to a user via a POST request, including targeting users by attribute. Rate limited to 25 requests per second per bot. Requests are authenticated with '
+- description: The only documented Chatfuel API operation as of 2026-08-13. POST https://panel.chatfuel.com/api/contacts/{automation_id}/whatsapp/ imports a batch of up to 1,000 WhatsApp phone numbers into an automa
+  name: Chatfuel Contacts API
+  slug: chatfuel-contacts-api
+- description: HTTP API for sending any block or flow from a bot to a user via a POST request, including targeting users by attribute. Historically rate limited to 25 requests per second per bot and authenticated wi
   name: Chatfuel Broadcasting API
   slug: chatfuel-broadcasting-api
 - description: HTTP API to programmatically create and modify bots and pages — create bots, clone bot content, generate role-based invite links, and bind/unbind bots to Facebook pages. Authenticated with a Bearer Da
   name: Chatfuel Dashboard API
   slug: chatfuel-dashboard-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://docs.chatfuel.com/en/
+  url: https://help.chatfuel.com/
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.chatfuel.com/en/
+  url: https://help.chatfuel.com/
 - group: docs
   title: ''
   type: APIReference
-  url: https://docs.chatfuel.com/en/collections/168839-api
+  url: https://help.chatfuel.com/create-contacts-in-chatfuel-via-api-23134b06ecf8800683b6efacab24b68d
 - group: start
   title: ''
   type: GettingStarted
-  url: https://docs.chatfuel.com/en/collections/168839-api
+  url: https://help.chatfuel.com/how-to-set-up-ai:-the-definitive-guide-1b934b06ecf88097b2a3dd91314c1a6b
 - group: operate
   title: ''
   type: Support
-  url: https://docs.chatfuel.com/en/
+  url: https://help.chatfuel.com/
 - group: company
   title: ''
   type: Blog
   url: https://chatfuel.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/chatfuel-lab
 - group: commercial
   title: ''
   type: Pricing
   url: https://chatfuel.com/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chatfuel-plans-pricing.yml
 - group: start
   title: ''
   type: SignUp
@@ -132,45 +144,50 @@ common:
   type: LLMsTxt
   url: llms/chatfuel-llms.txt
 created: '2026-07-17'
-description: Chatfuel is a no-code AI-powered chatbot and business-automation platform for conversational commerce across Meta-owned messaging channels — WhatsApp, Instagram, Facebook Messenger, TikTok, and an embeddable website chat widget. Trusted by 18,000+ businesses and an official Meta Business Partner, Chatfuel lets teams build automated flows and AI agents that qualify leads, answer customer questions, take bookings, run re-engagement campaigns, and hand off to live agents. For developers Chatfuel exposes an HTTP Broadcasting API (api.chatfuel.com) for sending blocks and flows to users, a Dashboard API (dashboard.chatfuel.com/api) for programmatically creating and managing bots and page bindings, and a JSON API plugin for calling external services from inside a bot flow.
+description: 'Chatfuel is a no-code AI-powered chatbot and business-automation platform for conversational commerce across Meta-owned messaging channels — WhatsApp, Instagram, Facebook Messenger, TikTok, and an embeddable website chat widget. An official Meta Business Partner, Chatfuel lets teams build automated flows and Fuely AI agents that qualify leads, answer customer questions, take bookings, run re-engagement campaigns, and hand off to live agents. Its developer surface is deliberately small and has been shrinking: the single documented HTTP operation is a Contacts API on panel.chatfuel.com that imports up to 1,000 WhatsApp numbers into an automation with a Bearer account token. The older Broadcasting API (api.chatfuel.com) and Dashboard API (dashboard.chatfuel.com/api) still respond, but Chatfuel retired their documentation along with the whole docs.chatfuel.com help center during 2026, leaving no reference, no deprecation notice and no redirect. A live GraphQL gateway runs at panel.chatfuel.com/graphql
+  with introspection disabled, and a Swagger route on the API host is walled behind Google SSO. Chatfuel publishes no OpenAPI, no AsyncAPI, no first-party SDK and no MCP server.'
 image: https://chatfuel.com/favicons/apple-touch-icon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Chatfuel
 nav: Providers
 network: true
-overview: 'Chatfuel publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chatbots, Conversational AI, Messaging, and Marketing Automation.
+overview: 'Chatfuel publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chatbots, Conversational AI, Messaging, and Marketing Automation.
 
 
-  Chatfuel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 4
+  Chatfuel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
+plans:
+- name: Chatfuel Plans Pricing
+  plan_count: 17
+  slug: chatfuel-plans-pricing
+random_paper: 99
 rate_limits:
-- limit_count: 1
+- limit_count: 2
   name: Chatfuel Rate Limits
   slug: chatfuel-rate-limits
 score:
-  band: thin
-  composite: 34.8
-  delta: 0.0
+  band: developing
+  composite: 43.5
+  delta: 8.7
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 84.2
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 75.9
+    discoverability: 92.6
     governance: 12.5
-    operational_transparency: 36.8
+    operational_transparency: 42.1
   previous_composite: 34.8
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/screenshots/chatfuel-2026-07-25T205116.png
 security:
 - kind: authentication
   name: Chatfuel Authentication
   slug: chatfuel-authentication
-  summary_line: http/apiKey · 2 schemes
+  summary_line: http/apiKey · 3 schemes
 - kind: domain-security
   name: Chatfuel Domain Security
   slug: chatfuel-domain-security
@@ -186,6 +203,8 @@ tags:
 - WhatsApp
 - Instagram
 - Facebook Messenger
+- TikTok
 - No-Code
+- AI Agents
 website: https://chatfuel.com
 ---

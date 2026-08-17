@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid (free trial)
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
-  trial: false
+  source:
+  - plans
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-aware
@@ -22,14 +23,14 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-12'
+  score: 14.0
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -79,6 +80,32 @@ common:
   title: ''
   type: DomainSecurity
   url: security/ripl-domain-security.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.ripl.com/support/solutions/16000060995
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ripl-plans-pricing.yml
+coverage:
+  checked: '2026-08-13'
+  detail: Ripl ships a consumer/SMB social-posting app and no developer program at all — ripl.com/api and ripl.com/developers are 404, the Freshdesk help center has no API, webhook or integration section, and api.ripl.com is a private Rails/Heroku backend whose root 301s to the marketing site and which 404s every spec, docs and /.well-known path; the only machine-readable surface on the domain is the generic Wix Site MCP server Wix mounts at /_api/mcp for every site it hosts.
+  evidence:
+  - status: 404
+    url: https://www.ripl.com/api
+  - status: 404
+    url: https://www.ripl.com/developers
+  - status: 404
+    url: https://api.ripl.com/openapi.json
+  - status: 301
+    url: https://api.ripl.com/
+  - status: 400
+    url: https://www.ripl.com/.well-known/agent-card.json
+  - status: 200
+    url: https://www.ripl.com/_api/mcp
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Ripl is a social media marketing platform for small businesses, helping owners create, schedule, and publish engaging content across Instagram, Facebook, TikTok, YouTube, and other channels from customizable, industry-specific templates. It bundles branded post design, stock media, royalty-free music, scheduling, multi-account management, team collaboration, and an AI caption writer so restaurants, retailers, real estate agents, nonprofits, and other small businesses can maintain a consistent, professional online presence without a dedicated marketing team. Ripl is a Techstars portfolio company. Its public website (ripl.com) is built on Wix and exposes no first-party developer API; the app at app.ripl.com is the primary consumer product.
 image: https://static.wixstatic.com/ficons/d8d800_48a04f46042747328480b7d817dc73f2~mv2.ico
@@ -87,23 +114,31 @@ mcp_servers:
 - description: ''
   name: Ripl (Wix Site MCP)
   slug: ripl-wix-site-mcp
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Ripl
 nav: Providers
 network: true
 overview: 'Ripl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media Marketing, Small Business, Content Scheduling, and Marketing.
 
 
-  Ripl''s developer surface includes pricing, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 79
+  Ripl''s developer surface includes pricing, engineering blog, support, signup flow, getting-started guide, and 9 more developer resources.'
+plans:
+- name: Ripl Plans Pricing
+  plan_count: 2
+  slug: ripl-plans-pricing
+random_paper: 141
+rate_limits:
+- limit_count: 0
+  name: Ripl Rate Limits
+  slug: ripl-rate-limits
 score:
   band: emerging
-  composite: 17.7
-  delta: 0.0
+  composite: 24.1
+  delta: 6.4
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 65.8
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 26.1
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
@@ -111,8 +146,8 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Ripl Domain Security

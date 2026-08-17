@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -85,11 +85,29 @@ arazzos:
 - description: Read a plan and its details for ETags, rename the plan, then set category label descriptions.
   name: Microsoft Planner Rename a Plan and Describe Its Categories
   slug: microsoft-planner-rename-plan-workflow
-artifact_total: 190
+artifact_total: 196
 collections:
 - collection_type: postman
   name: Microsoft Planner Microsoft Graph Planner API
   slug: postman-microsoft-planner
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Planner Microsoft Graph Planner Buckets API
+  slug: open-microsoft-planner-buckets-api
+- collection_type: open
+  name: Microsoft Planner Microsoft Graph Planner Buckets Plan Details API
+  slug: open-microsoft-planner-plan-details-api
+- collection_type: open
+  name: Microsoft Planner Microsoft Graph Planner Buckets Plans API
+  slug: open-microsoft-planner-plans-api
+- collection_type: open
+  name: Microsoft Planner Microsoft Graph Planner Buckets Task Details API
+  slug: open-microsoft-planner-task-details-api
+- collection_type: open
+  name: Microsoft Planner Microsoft Graph Planner Buckets Tasks API
+  slug: open-microsoft-planner-tasks-api
 - collection_type: open
   name: Microsoft Planner Microsoft Graph Planner API
   slug: open-microsoft-planner
@@ -697,7 +715,7 @@ plans:
 - name: Microsoft Planner Plans Pricing
   plan_count: 4
   slug: microsoft-planner-plans-pricing
-random_paper: 99
+random_paper: 140
 rate_limits:
 - limit_count: 4
   name: Microsoft Planner Rate Limits
@@ -744,7 +762,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/screenshots/microsoft-planner-2026-06-20T185518.png
 security:

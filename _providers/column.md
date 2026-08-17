@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -102,11 +102,50 @@ apis:
 - description: The Wire Transfers API from Column — 2 operation(s) for wire transfers.
   name: Column Wire Transfers API
   slug: column-wire-transfers-api
-artifact_total: 29
+artifact_total: 42
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Column Account Numbers API
+  slug: open-column-account-numbers-api
+- collection_type: open
+  name: Column Account Numbers ACH Transfers API
+  slug: open-column-ach-transfers-api
 - collection_type: open
   name: Column Webhooks
   slug: open-column-asyncapi
+- collection_type: open
+  name: Column Account Numbers Bank Accounts API
+  slug: open-column-bank-accounts-api
+- collection_type: open
+  name: Column Account Numbers Book Transfers API
+  slug: open-column-book-transfers-api
+- collection_type: open
+  name: Column Account Numbers Check Transfers API
+  slug: open-column-check-transfers-api
+- collection_type: open
+  name: Column Account Numbers Counterparties API
+  slug: open-column-counterparties-api
+- collection_type: open
+  name: Column Account Numbers Entities API
+  slug: open-column-entities-api
+- collection_type: open
+  name: Column Account Numbers Events API
+  slug: open-column-events-api
+- collection_type: open
+  name: Column Account Numbers International Wires API
+  slug: open-column-international-wires-api
+- collection_type: open
+  name: Column Account Numbers Realtime Transfers API
+  slug: open-column-realtime-transfers-api
+- collection_type: open
+  name: Column Account Numbers Webhooks API
+  slug: open-column-webhooks-api
+- collection_type: open
+  name: Column Account Numbers Wire Transfers API
+  slug: open-column-wire-transfers-api
 - collection_type: open
   name: Column API
   slug: open-column
@@ -199,7 +238,7 @@ plans:
 - name: Column Plans Pricing
   plan_count: 1
   slug: column-plans-pricing
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Column Rate Limits
@@ -230,7 +269,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

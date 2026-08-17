@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -68,7 +68,41 @@ apis:
 - description: The authenticated member — profile, status, wallets, tags, and check-in history. Subject resolved from the token.
   name: Blackbird Users API
   slug: blackbird-users-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flynet App API
+  slug: open-blackbird-app-api
+- collection_type: open
+  name: Flynet App Challenges API
+  slug: open-blackbird-challenges-api
+- collection_type: open
+  name: Flynet App Check-ins API
+  slug: open-blackbird-check-ins-api
+- collection_type: open
+  name: Flynet App Locations API
+  slug: open-blackbird-locations-api
+- collection_type: open
+  name: Flynet App Memberships API
+  slug: open-blackbird-memberships-api
+- collection_type: open
+  name: Flynet App Payments API
+  slug: open-blackbird-payments-api
+- collection_type: open
+  name: Flynet App Restaurants API
+  slug: open-blackbird-restaurants-api
+- collection_type: open
+  name: Flynet App Rewards API
+  slug: open-blackbird-rewards-api
+- collection_type: open
+  name: Flynet App Specials API
+  slug: open-blackbird-specials-api
+- collection_type: open
+  name: Flynet App Users API
+  slug: open-blackbird-users-api
 common:
 - group: other
   title: ''
@@ -194,7 +228,7 @@ overview: 'Blackbird publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 86
+random_paper: 32
 scopes:
 - name: Blackbird Scopes
   scope_count: 9
@@ -229,7 +263,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/screenshots/blackbird-2026-07-25T203240.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -78,8 +78,29 @@ apis:
 - description: The Webhooks API from Qlik Cloud — 1 operation(s) for webhooks.
   name: Qlik Cloud Webhooks API
   slug: qlik-cloud-webhooks-api
-artifact_total: 21
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qlik Cloud REST Api Keys API
+  slug: open-qlik-cloud-api-keys-api
+- collection_type: open
+  name: Qlik Cloud REST Api Keys Apps API
+  slug: open-qlik-cloud-apps-api
+- collection_type: open
+  name: Qlik Cloud REST Api Keys Csrf Token API
+  slug: open-qlik-cloud-csrf-token-api
+- collection_type: open
+  name: Qlik Cloud REST Api Keys Spaces API
+  slug: open-qlik-cloud-spaces-api
+- collection_type: open
+  name: Qlik Cloud REST Api Keys Users API
+  slug: open-qlik-cloud-users-api
+- collection_type: open
+  name: Qlik Cloud REST Api Keys Webhooks API
+  slug: open-qlik-cloud-webhooks-api
 - collection_type: open
   name: Qlik Cloud REST API
   slug: open-qlik-cloud
@@ -164,7 +185,7 @@ plans:
 - name: Qlik Cloud Plans Pricing
   plan_count: 3
   slug: qlik-cloud-plans-pricing
-random_paper: 53
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Qlik Cloud Rate Limits
@@ -189,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/screenshots/qlik-cloud-2026-06-20T192341.png
 security:

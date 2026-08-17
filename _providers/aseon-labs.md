@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ name: Aseon Labs
 nav: Providers
 network: true
 overview: Aseon Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Autonomous Vehicles, Fleet Operations, and Infrastructure.
-random_paper: 37
+random_paper: 103
 score:
   band: minimal
   composite: 9.5
@@ -84,7 +84,7 @@ score:
     regime_id: energy_utilities
     score: 10.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aseon-labs/refs/heads/main/screenshots/aseon-labs-2026-07-25T201410.png
 slug: aseon-labs

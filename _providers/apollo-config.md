@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Release and publish management
   name: Apollo Config Releases API
   slug: apollo-config-releases-api
-artifact_total: 63
+artifact_total: 69
 collections:
 - collection_type: postman
   name: Apollo Config Open Apps API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Apollo Config Open Apps Releases API
   slug: postman-apollo-config-releases-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apollo Config Open Apps API
+  slug: open-apollo-config-apps-api
+- collection_type: open
+  name: Apollo Config Open Apps Clusters API
+  slug: open-apollo-config-clusters-api
+- collection_type: open
+  name: Apollo Config Open Apps Items API
+  slug: open-apollo-config-items-api
+- collection_type: open
+  name: Apollo Config Open Apps Namespaces API
+  slug: open-apollo-config-namespaces-api
+- collection_type: open
+  name: Apollo Config Open Apps Releases API
+  slug: open-apollo-config-releases-api
 - collection_type: open
   name: Apollo Config Open API
   slug: open-apollo-open-api
@@ -267,7 +285,7 @@ plans:
 - name: Apollo Config Plans Pricing
   plan_count: 3
   slug: apollo-config-plans-pricing
-random_paper: 2
+random_paper: 130
 rate_limits:
 - limit_count: 5
   name: Apollo Config Rate Limits
@@ -301,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/screenshots/apollo-config-2026-06-20T172307.png
 security:

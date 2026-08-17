@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -130,7 +130,7 @@ arazzos:
 - description: Submit an asynchronous Web Unlocker request and poll for the unlocked response.
   name: Bright Data Submit Async Unlock and Retrieve Result
   slug: bright-data-web-unlocker-async-workflow
-artifact_total: 83
+artifact_total: 99
 collections:
 - collection_type: postman
   name: Bright Data Account Management API
@@ -163,17 +163,47 @@ collections:
   name: Bright Data Web Unlocker API
   slug: postman-bright-data-web-unlocker-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bright Data Account Management Access API
+  slug: open-bright-data-access-api
+- collection_type: open
   name: Bright Data Account Management API
   slug: open-bright-data-account-management-api
+- collection_type: open
+  name: Bright Data Account Management Access Archive API
+  slug: open-bright-data-archive-api
+- collection_type: open
+  name: Bright Data Account Management Access Billing API
+  slug: open-bright-data-billing-api
 - collection_type: open
   name: Bright Data Dataset Marketplace API
   slug: open-bright-data-dataset-marketplace-api
 - collection_type: open
+  name: Bright Data Account Management Access Datasets API
+  slug: open-bright-data-datasets-api
+- collection_type: open
   name: Bright Data Deep Lookup API
   slug: open-bright-data-deep-lookup-api
 - collection_type: open
+  name: Bright Data Account Management Access Delivery API
+  slug: open-bright-data-delivery-api
+- collection_type: open
+  name: Bright Data Account Management Access IPs API
+  slug: open-bright-data-ips-api
+- collection_type: open
+  name: Bright Data Account Management Access Lookup API
+  slug: open-bright-data-lookup-api
+- collection_type: open
+  name: Bright Data Account Management Access Proxies API
+  slug: open-bright-data-proxies-api
+- collection_type: open
   name: Bright Data Proxy Manager API
   slug: open-bright-data-proxy-manager-api
+- collection_type: open
+  name: Bright Data Account Management Access Scrape API
+  slug: open-bright-data-scrape-api
 - collection_type: open
   name: Bright Data Scraping Browser API
   slug: open-bright-data-scraping-browser-api
@@ -181,8 +211,23 @@ collections:
   name: Bright Data Scraping Shield API
   slug: open-bright-data-scraping-shield-api
 - collection_type: open
-  name: Bright Data SERP API
+  name: Bright Data Account Management Access SERP API
   slug: open-bright-data-serp-api
+- collection_type: open
+  name: Bright Data Account Management Access Sessions API
+  slug: open-bright-data-sessions-api
+- collection_type: open
+  name: Bright Data Account Management Access Shield API
+  slug: open-bright-data-shield-api
+- collection_type: open
+  name: Bright Data Account Management Access Snapshots API
+  slug: open-bright-data-snapshots-api
+- collection_type: open
+  name: Bright Data Account Management Access Tokens API
+  slug: open-bright-data-tokens-api
+- collection_type: open
+  name: Bright Data Account Management Access Unlock API
+  slug: open-bright-data-unlock-api
 - collection_type: open
   name: Bright Data Web Archive API
   slug: open-bright-data-web-archive-api
@@ -192,6 +237,9 @@ collections:
 - collection_type: open
   name: Bright Data Web Unlocker API
   slug: open-bright-data-web-unlocker-api
+- collection_type: open
+  name: Bright Data Account Management Access Zones API
+  slug: open-bright-data-zones-api
 - collection_type: open
   name: Bright Data API (Index)
   slug: open-bright-data
@@ -443,7 +491,7 @@ plans:
 - name: Bright Data Plans Pricing
   plan_count: 17
   slug: bright-data-plans-pricing
-random_paper: 15
+random_paper: 52
 rate_limits:
 - limit_count: 8
   name: Bright Data Rate Limits
@@ -485,7 +533,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/screenshots/bright-data-2026-06-20T173659.png
 security:

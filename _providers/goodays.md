@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The core API from Goodays — 22 operation(s) for core.
@@ -52,7 +52,32 @@ apis:
 - description: The stats API from Goodays — 8 operation(s) for stats.
   name: Goodays stats API
   slug: goodays-stats-api
-artifact_total: 10
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Goodays core API
+  slug: open-goodays-core-api
+- collection_type: open
+  name: Goodays core dashboard API
+  slug: open-goodays-dashboard-api
+- collection_type: open
+  name: Goodays core events API
+  slug: open-goodays-events-api
+- collection_type: open
+  name: Goodays core response API
+  slug: open-goodays-response-api
+- collection_type: open
+  name: Goodays core session API
+  slug: open-goodays-session-api
+- collection_type: open
+  name: Goodays core solicitation API
+  slug: open-goodays-solicitation-api
+- collection_type: open
+  name: Goodays core stats API
+  slug: open-goodays-stats-api
 common:
 - group: other
   title: ''
@@ -174,7 +199,7 @@ overview: 'Goodays publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Goodays'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 20 more developer resources.'
-random_paper: 38
+random_paper: 13
 score:
   band: thin
   composite: 40.6
@@ -197,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/screenshots/goodays-2026-07-25T220046.png
 security:

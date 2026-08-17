@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -83,8 +83,56 @@ apis:
 - description: The Workflow API from Langflow — 2 operation(s) for workflow.
   name: Langflow Workflow API
   slug: langflow-workflow-api
-artifact_total: 55
+artifact_total: 71
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Langflow Base API
+  slug: open-langflow-base-api
+- collection_type: open
+  name: Langflow Base Chat API
+  slug: open-langflow-chat-api
+- collection_type: open
+  name: Langflow Base Files API
+  slug: open-langflow-files-api
+- collection_type: open
+  name: Langflow Base Flow Events API
+  slug: open-langflow-flow-events-api
+- collection_type: open
+  name: Langflow Base Flows API
+  slug: open-langflow-flows-api
+- collection_type: open
+  name: Langflow Base Health Check API
+  slug: open-langflow-health-check-api
+- collection_type: open
+  name: Langflow Base Log API
+  slug: open-langflow-log-api
+- collection_type: open
+  name: Langflow Base MCP API
+  slug: open-langflow-mcp-api
+- collection_type: open
+  name: Langflow Base mcp_projects API
+  slug: open-langflow-mcp-projects-api
+- collection_type: open
+  name: Langflow Base Monitor API
+  slug: open-langflow-monitor-api
+- collection_type: open
+  name: Langflow Base OpenAI Responses API API
+  slug: open-langflow-openai-responses-api-api
+- collection_type: open
+  name: Langflow Base Projects API
+  slug: open-langflow-projects-api
+- collection_type: open
+  name: Langflow Base Traces API
+  slug: open-langflow-traces-api
+- collection_type: open
+  name: Langflow Base Users API
+  slug: open-langflow-users-api
+- collection_type: open
+  name: Langflow Base Workflow API
+  slug: open-langflow-workflow-api
 - collection_type: open
   name: Langflow
   slug: open-langflow
@@ -365,7 +413,7 @@ overview: 'Langflow publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Langflow''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, tooling, code examples, and 43 more developer resources.'
-random_paper: 18
+random_paper: 113
 rules:
 - name: Langflow API Rules
   rule_count: 5
@@ -408,7 +456,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/screenshots/langflow-2026-06-20T184304.png
 security:

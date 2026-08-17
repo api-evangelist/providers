@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: The Requests API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for requests.
   name: Stella Connect (Medallia Agent Connect) Requests API
   slug: stellaconnect-requests-api
-artifact_total: 11
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agent Connect Coaching API
+  slug: open-stellaconnect-coaching-api
+- collection_type: open
+  name: Agent Connect Coaching Data API
+  slug: open-stellaconnect-data-api
+- collection_type: open
+  name: Agent Connect Coaching Employees API
+  slug: open-stellaconnect-employees-api
+- collection_type: open
+  name: Agent Connect Coaching Qa API
+  slug: open-stellaconnect-qa-api
+- collection_type: open
+  name: Agent Connect Coaching Recoveries API
+  slug: open-stellaconnect-recoveries-api
+- collection_type: open
+  name: Agent Connect Coaching Requests API
+  slug: open-stellaconnect-requests-api
 common:
 - group: agent
   title: ''
@@ -194,7 +216,7 @@ overview: 'Stella Connect (Medallia Agent Connect) publishes 6 APIs on the [APIs
 
 
   Stella Connect (Medallia Agent Connect)''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, sandbox, and 23 more developer resources.'
-random_paper: 71
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Stellaconnect Rate Limits
@@ -222,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

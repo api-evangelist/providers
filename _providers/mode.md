@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -71,7 +71,44 @@ apis:
 - description: The Verify API from Mode — 1 operation(s) for verify.
   name: Mode Verify API
   slug: mode-verify-api
-artifact_total: 15
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mode Account API
+  slug: open-mode-account-api
+- collection_type: open
+  name: Mode Account Audit Logs API
+  slug: open-mode-audit-logs-api
+- collection_type: open
+  name: Mode Account Data Sources API
+  slug: open-mode-data-sources-api
+- collection_type: open
+  name: Mode Account Datasets API
+  slug: open-mode-datasets-api
+- collection_type: open
+  name: Mode Account Definitions API
+  slug: open-mode-definitions-api
+- collection_type: open
+  name: Mode Account Groups API
+  slug: open-mode-groups-api
+- collection_type: open
+  name: Mode Account Invites API
+  slug: open-mode-invites-api
+- collection_type: open
+  name: Mode Account Memberships API
+  slug: open-mode-memberships-api
+- collection_type: open
+  name: Mode Account Reports API
+  slug: open-mode-reports-api
+- collection_type: open
+  name: Mode Account Spaces API
+  slug: open-mode-spaces-api
+- collection_type: open
+  name: Mode Account Verify API
+  slug: open-mode-verify-api
 common:
 - group: other
   title: ''
@@ -189,7 +226,7 @@ overview: 'Mode publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mode''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 18 more developer resources.'
-random_paper: 61
+random_paper: 123
 score:
   band: developing
   composite: 47.1
@@ -213,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/screenshots/mode-2026-08-07T183917.png
 security:

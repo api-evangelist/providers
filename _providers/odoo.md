@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: Authenticated XML-RPC endpoint for model operations
   name: Odoo Object API
   slug: odoo-object-api
-artifact_total: 12
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Odoo External Common API
+  slug: open-odoo-common-api
+- collection_type: open
+  name: Odoo External Common JSON-RPC API
+  slug: open-odoo-json-rpc-api
+- collection_type: open
+  name: Odoo External Common Object API
+  slug: open-odoo-object-api
 - collection_type: open
   name: Odoo External API
   slug: open-odoo
@@ -113,7 +125,7 @@ plans:
 - name: Odoo Plans Pricing
   plan_count: 3
   slug: odoo-plans-pricing
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 5
   name: Odoo Rate Limits
@@ -138,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/screenshots/odoo-2026-06-20T190621.png
 security:

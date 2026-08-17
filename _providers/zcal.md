@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Unlimited shareable scheduling links, meeting polls, and customizable booking pages let invitees self-serve a time. This is a product surface managed through the Zcal web application; there is no docu
@@ -40,8 +40,11 @@ apis:
 - description: Outbound webhooks POST a JSON payload to a subscriber URL when a booking is created, rescheduled, or cancelled. Payloads can be verified with an optional HMAC SHA-256 signature via the x-zcal-webhook-
   name: Zcal Integrations and Webhooks
   slug: integrations-webhooks
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Zcal
   slug: open-zcal
@@ -102,7 +105,7 @@ plans:
 - name: Zcal Plans Pricing
   plan_count: 3
   slug: zcal-plans-pricing
-random_paper: 66
+random_paper: 128
 rate_limits:
 - limit_count: 2
   name: Zcal Rate Limits
@@ -120,7 +123,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

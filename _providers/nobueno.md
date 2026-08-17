@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 32
 apis:
 - description: The admin API from NoBueno — 51 operation(s) for admin.
@@ -127,7 +127,104 @@ apis:
 - description: The work-experience API from NoBueno — 2 operation(s) for work-experience.
   name: NoBueno work-experience API
   slug: nobueno-work-experience-api
-artifact_total: 35
+artifact_total: 67
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jungle admin API
+  slug: open-nobueno-admin-api
+- collection_type: open
+  name: Jungle admin bitcoin API
+  slug: open-nobueno-bitcoin-api
+- collection_type: open
+  name: Jungle admin categories API
+  slug: open-nobueno-categories-api
+- collection_type: open
+  name: Jungle admin cities API
+  slug: open-nobueno-cities-api
+- collection_type: open
+  name: Jungle admin companies API
+  slug: open-nobueno-companies-api
+- collection_type: open
+  name: Jungle admin countries API
+  slug: open-nobueno-countries-api
+- collection_type: open
+  name: Jungle admin credits API
+  slug: open-nobueno-credits-api
+- collection_type: open
+  name: Jungle admin currencies API
+  slug: open-nobueno-currencies-api
+- collection_type: open
+  name: Jungle admin devices API
+  slug: open-nobueno-devices-api
+- collection_type: open
+  name: Jungle admin fields API
+  slug: open-nobueno-fields-api
+- collection_type: open
+  name: Jungle admin forgot API
+  slug: open-nobueno-forgot-api
+- collection_type: open
+  name: Jungle admin jobs API
+  slug: open-nobueno-jobs-api
+- collection_type: open
+  name: Jungle admin languages API
+  slug: open-nobueno-languages-api
+- collection_type: open
+  name: Jungle admin login API
+  slug: open-nobueno-login-api
+- collection_type: open
+  name: Jungle admin matches API
+  slug: open-nobueno-matches-api
+- collection_type: open
+  name: Jungle admin me API
+  slug: open-nobueno-me-api
+- collection_type: open
+  name: Jungle admin messages API
+  slug: open-nobueno-messages-api
+- collection_type: open
+  name: Jungle admin notifications API
+  slug: open-nobueno-notifications-api
+- collection_type: open
+  name: Jungle admin profile API
+  slug: open-nobueno-profile-api
+- collection_type: open
+  name: Jungle admin public API
+  slug: open-nobueno-public-api
+- collection_type: open
+  name: Jungle admin refresh API
+  slug: open-nobueno-refresh-api
+- collection_type: open
+  name: Jungle admin register API
+  slug: open-nobueno-register-api
+- collection_type: open
+  name: Jungle admin roles API
+  slug: open-nobueno-roles-api
+- collection_type: open
+  name: Jungle admin skill-categories API
+  slug: open-nobueno-skill-categories-api
+- collection_type: open
+  name: Jungle admin skills API
+  slug: open-nobueno-skills-api
+- collection_type: open
+  name: Jungle admin user_block API
+  slug: open-nobueno-user-block-api
+- collection_type: open
+  name: Jungle admin user_report API
+  slug: open-nobueno-user-report-api
+- collection_type: open
+  name: Jungle admin users API
+  slug: open-nobueno-users-api
+- collection_type: open
+  name: Jungle admin v2 API
+  slug: open-nobueno-v2-api
+- collection_type: open
+  name: Jungle admin webrtc-configs API
+  slug: open-nobueno-webrtc-configs-api
+- collection_type: open
+  name: Jungle admin work-experience API
+  slug: open-nobueno-work-experience-api
 common:
 - group: auth
   title: ''
@@ -189,7 +286,7 @@ overview: 'NoBueno publishes 32 APIs on the [APIs.io](https://apis.io/) network,
 
 
   NoBueno''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 38
+random_paper: 13
 score:
   band: emerging
   composite: 23.5
@@ -212,7 +309,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

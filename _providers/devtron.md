@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -123,11 +123,99 @@ apis:
 - description: The Workflow Management API from Devtron — 2 operation(s) for workflow management.
   name: Devtron Workflow Management API
   slug: devtron-workflow-management-api
-artifact_total: 33
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Devtron Notifications Webhooks
   slug: devtron-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Devtron APIs Specs Applications API
+  slug: open-devtron-applications-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Authentication API
+  slug: open-devtron-authentication-api
+- collection_type: open
+  name: Devtron APIs Specs Applications bulk_other API
+  slug: open-devtron-bulk-other-api
+- collection_type: open
+  name: Devtron APIs Specs Applications BulkUpdate API
+  slug: open-devtron-bulkupdate-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Cache Management API
+  slug: open-devtron-cache-management-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Change Chart API
+  slug: open-devtron-change-chart-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Clone Workflow API
+  slug: open-devtron-clone-workflow-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Cluster Environment API
+  slug: open-devtron-cluster-environment-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Cluster Management API
+  slug: open-devtron-cluster-management-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Deployment History API
+  slug: open-devtron-deployment-history-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Devtron Server version API
+  slug: open-devtron-devtron-server-version-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Environment Management API
+  slug: open-devtron-environment-management-api
+- collection_type: open
+  name: Devtron APIs Specs Applications GitOps Validation API
+  slug: open-devtron-gitops-validation-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Helm Charts API
+  slug: open-devtron-helm-charts-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Jobs API
+  slug: open-devtron-jobs-api
+- collection_type: open
+  name: Devtron APIs Specs Applications K8s API
+  slug: open-devtron-k8s-api
+- collection_type: open
+  name: Devtron APIs Specs Applications K8s Resource API
+  slug: open-devtron-k8s-resource-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Labels API
+  slug: open-devtron-labels-api
+- collection_type: open
+  name: Devtron APIs Specs Applications List Applications API
+  slug: open-devtron-list-applications-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Metadata API
+  slug: open-devtron-metadata-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Notifications API
+  slug: open-devtron-notifications-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Policy Management API
+  slug: open-devtron-policy-management-api
+- collection_type: open
+  name: Devtron APIs Specs Applications RBAC API
+  slug: open-devtron-rbac-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Resource Recommendation API
+  slug: open-devtron-resource-recommendation-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Role Group Management API
+  slug: open-devtron-role-group-management-api
+- collection_type: open
+  name: Devtron APIs Specs Applications SSO Configuration API
+  slug: open-devtron-sso-configuration-api
+- collection_type: open
+  name: Devtron APIs Specs Applications User Management API
+  slug: open-devtron-user-management-api
+- collection_type: open
+  name: Devtron APIs Specs Applications Workflow Management API
+  slug: open-devtron-workflow-management-api
 common:
 - group: other
   title: ''
@@ -236,7 +324,7 @@ overview: 'Devtron publishes 28 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Devtron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 15 more developer resources.'
-random_paper: 50
+random_paper: 25
 score:
   band: developing
   composite: 44.4
@@ -260,7 +348,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/screenshots/devtron-2026-07-25T211825.png
 security:

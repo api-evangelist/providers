@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -79,11 +79,63 @@ apis:
 - description: The Wallets API from BVNK — 4 operation(s) for wallets.
   name: BVNK Wallets API
   slug: bvnk-wallets-api
-artifact_total: 24
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Bvnk Webhooks
   slug: bvnk-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Digital Asset Address API
+  slug: open-bvnk-address-api
+- collection_type: open
+  name: Digital Asset Asset Pool API
+  slug: open-bvnk-asset-pool-api
+- collection_type: open
+  name: BVNK API Endpoints Channels API
+  slug: open-bvnk-channels-api
+- collection_type: open
+  name: BVNK API Endpoints Currencies API
+  slug: open-bvnk-currencies-api
+- collection_type: open
+  name: Digital Asset Export API
+  slug: open-bvnk-export-api
+- collection_type: open
+  name: Digital Asset Fee API
+  slug: open-bvnk-fee-api
+- collection_type: open
+  name: Digital Asset Key Pair API
+  slug: open-bvnk-key-pair-api
+- collection_type: open
+  name: BVNK API Endpoints Merchant IDs API
+  slug: open-bvnk-merchant-ids-api
+- collection_type: open
+  name: Digital Asset Network API
+  slug: open-bvnk-network-api
+- collection_type: open
+  name: BVNK API Endpoints Payments API
+  slug: open-bvnk-payments-api
+- collection_type: open
+  name: Digital Asset Return API
+  slug: open-bvnk-return-api
+- collection_type: open
+  name: Digital Asset Screening API
+  slug: open-bvnk-screening-api
+- collection_type: open
+  name: BVNK API Endpoints Trading and Conversions API
+  slug: open-bvnk-trading-and-conversions-api
+- collection_type: open
+  name: Digital Asset Transaction API
+  slug: open-bvnk-transaction-api
+- collection_type: open
+  name: Digital Asset Transaction Request API
+  slug: open-bvnk-transaction-request-api
+- collection_type: open
+  name: BVNK API Endpoints Wallets API
+  slug: open-bvnk-wallets-api
 common:
 - group: other
   title: ''
@@ -268,7 +320,7 @@ overview: 'BVNK publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   BVNK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
-random_paper: 73
+random_paper: 135
 scopes:
 - name: Bvnk Scopes
   scope_count: 156
@@ -303,7 +355,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

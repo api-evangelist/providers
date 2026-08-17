@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -59,8 +59,32 @@ apis:
 - description: Products, price lists, and inventory.
   name: CleanCloud Products API
   slug: drycleancloud-products-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CleanCloud Business and Reporting API
+  slug: open-drycleancloud-business-and-reporting-api
+- collection_type: open
+  name: CleanCloud Business and Reporting Customers API
+  slug: open-drycleancloud-customers-api
+- collection_type: open
+  name: CleanCloud Business and Reporting Messaging API
+  slug: open-drycleancloud-messaging-api
+- collection_type: open
+  name: CleanCloud Business and Reporting Orders API
+  slug: open-drycleancloud-orders-api
+- collection_type: open
+  name: CleanCloud Business and Reporting Payments API
+  slug: open-drycleancloud-payments-api
+- collection_type: open
+  name: CleanCloud Business and Reporting Pickup and Delivery API
+  slug: open-drycleancloud-pickup-and-delivery-api
+- collection_type: open
+  name: CleanCloud Business and Reporting Products API
+  slug: open-drycleancloud-products-api
 - collection_type: open
   name: CleanCloud API
   slug: open-drycleancloud
@@ -121,7 +145,7 @@ plans:
 - name: Drycleancloud Plans Pricing
   plan_count: 4
   slug: drycleancloud-plans-pricing
-random_paper: 65
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Drycleancloud Rate Limits
@@ -146,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/screenshots/drycleancloud-2026-07-25T212430.png
 security:

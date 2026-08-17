@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -75,8 +75,38 @@ apis:
 - description: Technical Analysis Service — historical, intraday, and real-time studies
   name: Bloomberg APIs tasvc API
   slug: bloomberg-apis-tasvc-api
-artifact_total: 20
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bloomberg API (BLPAPI) apiauth API
+  slug: open-bloomberg-apis-apiauth-api
+- collection_type: open
+  name: Bloomberg API (BLPAPI) apiauth apiflds API
+  slug: open-bloomberg-apis-apiflds-api
+- collection_type: open
+  name: Bloomberg API (BLPAPI) apiauth instruments API
+  slug: open-bloomberg-apis-instruments-api
+- collection_type: open
+  name: Bloomberg API (BLPAPI) apiauth mktbar API
+  slug: open-bloomberg-apis-mktbar-api
+- collection_type: open
+  name: Bloomberg API (BLPAPI) apiauth mktdata API
+  slug: open-bloomberg-apis-mktdata-api
+- collection_type: open
+  name: Bloomberg API (BLPAPI) apiauth mktvwap API
+  slug: open-bloomberg-apis-mktvwap-api
+- collection_type: open
+  name: Bloomberg API (BLPAPI) apiauth pagedata API
+  slug: open-bloomberg-apis-pagedata-api
+- collection_type: open
+  name: Bloomberg API (BLPAPI) apiauth refdata API
+  slug: open-bloomberg-apis-refdata-api
+- collection_type: open
+  name: Bloomberg API (BLPAPI) apiauth tasvc API
+  slug: open-bloomberg-apis-tasvc-api
 - collection_type: open
   name: Bloomberg API (BLPAPI)
   slug: open-bloomberg-blpapi
@@ -137,7 +167,7 @@ plans:
 - name: Bloomberg Apis Plans Pricing
   plan_count: 3
   slug: bloomberg-apis-plans-pricing
-random_paper: 107
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Bloomberg Apis Rate Limits
@@ -168,7 +198,7 @@ score:
     regime_id: securities_market_data
     score: 53.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/screenshots/bloomberg-apis-2026-06-20T173407.png
 security:

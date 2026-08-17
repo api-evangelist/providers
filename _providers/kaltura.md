@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1250
   human_in_the_loop: 41
@@ -705,7 +705,677 @@ apis:
 - description: The zoomVendor API from Kaltura — 9 operation(s) for zoomvendor.
   name: Kaltura zoomVendor API
   slug: kaltura-zoomvendor-api
-artifact_total: 268
+artifact_total: 491
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kaltura OTT accessControl API
+  slug: open-kaltura-accesscontrol-api
+- collection_type: open
+  name: Kaltura OTT accessControl accessControlProfile API
+  slug: open-kaltura-accesscontrolprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl adminUser API
+  slug: open-kaltura-adminuser-api
+- collection_type: open
+  name: Kaltura OTT accessControl analytics API
+  slug: open-kaltura-analytics-api
+- collection_type: open
+  name: Kaltura OTT accessControl annotation API
+  slug: open-kaltura-annotation-api
+- collection_type: open
+  name: Kaltura OTT accessControl announcement API
+  slug: open-kaltura-announcement-api
+- collection_type: open
+  name: Kaltura OTT accessControl appToken API
+  slug: open-kaltura-apptoken-api
+- collection_type: open
+  name: Kaltura OTT accessControl aspera API
+  slug: open-kaltura-aspera-api
+- collection_type: open
+  name: Kaltura OTT accessControl asset API
+  slug: open-kaltura-asset-api
+- collection_type: open
+  name: Kaltura OTT accessControl assetComment API
+  slug: open-kaltura-assetcomment-api
+- collection_type: open
+  name: Kaltura OTT accessControl assetFile API
+  slug: open-kaltura-assetfile-api
+- collection_type: open
+  name: Kaltura OTT accessControl assetHistory API
+  slug: open-kaltura-assethistory-api
+- collection_type: open
+  name: Kaltura OTT accessControl assetStatistics API
+  slug: open-kaltura-assetstatistics-api
+- collection_type: open
+  name: Kaltura OTT accessControl assetStruct API
+  slug: open-kaltura-assetstruct-api
+- collection_type: open
+  name: Kaltura OTT accessControl attachmentAsset API
+  slug: open-kaltura-attachmentasset-api
+- collection_type: open
+  name: Kaltura OTT accessControl attUverse API
+  slug: open-kaltura-attuverse-api
+- collection_type: open
+  name: Kaltura OTT accessControl auditTrail API
+  slug: open-kaltura-audittrail-api
+- collection_type: open
+  name: Kaltura OTT accessControl avn API
+  slug: open-kaltura-avn-api
+- collection_type: open
+  name: Kaltura OTT accessControl baseEntry API
+  slug: open-kaltura-baseentry-api
+- collection_type: open
+  name: Kaltura OTT accessControl batch API
+  slug: open-kaltura-batch-api
+- collection_type: open
+  name: Kaltura OTT accessControl batchcontrol API
+  slug: open-kaltura-batchcontrol-api
+- collection_type: open
+  name: Kaltura OTT accessControl beacon API
+  slug: open-kaltura-beacon-api
+- collection_type: open
+  name: Kaltura OTT accessControl bookmark API
+  slug: open-kaltura-bookmark-api
+- collection_type: open
+  name: Kaltura OTT accessControl bulk API
+  slug: open-kaltura-bulk-api
+- collection_type: open
+  name: Kaltura OTT accessControl bulkUpload API
+  slug: open-kaltura-bulkupload-api
+- collection_type: open
+  name: Kaltura OTT accessControl bumper API
+  slug: open-kaltura-bumper-api
+- collection_type: open
+  name: Kaltura OTT accessControl businessProcessCase API
+  slug: open-kaltura-businessprocesscase-api
+- collection_type: open
+  name: Kaltura OTT accessControl businessProcessServer API
+  slug: open-kaltura-businessprocessserver-api
+- collection_type: open
+  name: Kaltura OTT accessControl captionAsset API
+  slug: open-kaltura-captionasset-api
+- collection_type: open
+  name: Kaltura OTT accessControl captionAssetItem API
+  slug: open-kaltura-captionassetitem-api
+- collection_type: open
+  name: Kaltura OTT accessControl captionParams API
+  slug: open-kaltura-captionparams-api
+- collection_type: open
+  name: Kaltura OTT accessControl captureSpace API
+  slug: open-kaltura-capturespace-api
+- collection_type: open
+  name: Kaltura OTT accessControl category API
+  slug: open-kaltura-category-api
+- collection_type: open
+  name: Kaltura OTT accessControl categoryEntry API
+  slug: open-kaltura-categoryentry-api
+- collection_type: open
+  name: Kaltura OTT accessControl categoryUser API
+  slug: open-kaltura-categoryuser-api
+- collection_type: open
+  name: Kaltura OTT accessControl cdnAdapterProfile API
+  slug: open-kaltura-cdnadapterprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl cdnPartnerSettings API
+  slug: open-kaltura-cdnpartnersettings-api
+- collection_type: open
+  name: Kaltura OTT accessControl cDVRAdapterProfile API
+  slug: open-kaltura-cdvradapterprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl channel API
+  slug: open-kaltura-channel-api
+- collection_type: open
+  name: Kaltura OTT accessControl collection API
+  slug: open-kaltura-collection-api
+- collection_type: open
+  name: Kaltura OTT accessControl comcastMrss API
+  slug: open-kaltura-comcastmrss-api
+- collection_type: open
+  name: Kaltura OTT accessControl compensation API
+  slug: open-kaltura-compensation-api
+- collection_type: open
+  name: Kaltura OTT accessControl configurationGroup API
+  slug: open-kaltura-configurationgroup-api
+- collection_type: open
+  name: Kaltura OTT accessControl configurationGroupDevice API
+  slug: open-kaltura-configurationgroupdevice-api
+- collection_type: open
+  name: Kaltura OTT accessControl configurationGroupTag API
+  slug: open-kaltura-configurationgrouptag-api
+- collection_type: open
+  name: Kaltura OTT accessControl configurations API
+  slug: open-kaltura-configurations-api
+- collection_type: open
+  name: Kaltura OTT accessControl confMaps API
+  slug: open-kaltura-confmaps-api
+- collection_type: open
+  name: Kaltura OTT accessControl contentDistributionBatch API
+  slug: open-kaltura-contentdistributionbatch-api
+- collection_type: open
+  name: Kaltura OTT accessControl conversionProfile API
+  slug: open-kaltura-conversionprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl conversionProfileAssetParams API
+  slug: open-kaltura-conversionprofileassetparams-api
+- collection_type: open
+  name: Kaltura OTT accessControl country API
+  slug: open-kaltura-country-api
+- collection_type: open
+  name: Kaltura OTT accessControl coupon API
+  slug: open-kaltura-coupon-api
+- collection_type: open
+  name: Kaltura OTT accessControl cuePoint API
+  slug: open-kaltura-cuepoint-api
+- collection_type: open
+  name: Kaltura OTT accessControl currency API
+  slug: open-kaltura-currency-api
+- collection_type: open
+  name: Kaltura OTT accessControl data API
+  slug: open-kaltura-data-api
+- collection_type: open
+  name: Kaltura OTT accessControl deliveryProfile API
+  slug: open-kaltura-deliveryprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl deviceBrand API
+  slug: open-kaltura-devicebrand-api
+- collection_type: open
+  name: Kaltura OTT accessControl deviceFamily API
+  slug: open-kaltura-devicefamily-api
+- collection_type: open
+  name: Kaltura OTT accessControl distributionProfile API
+  slug: open-kaltura-distributionprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl distributionProvider API
+  slug: open-kaltura-distributionprovider-api
+- collection_type: open
+  name: Kaltura OTT accessControl documents API
+  slug: open-kaltura-documents-api
+- collection_type: open
+  name: Kaltura OTT accessControl doubleClick API
+  slug: open-kaltura-doubleclick-api
+- collection_type: open
+  name: Kaltura OTT accessControl drmLicenseAccess API
+  slug: open-kaltura-drmlicenseaccess-api
+- collection_type: open
+  name: Kaltura OTT accessControl drmPolicy API
+  slug: open-kaltura-drmpolicy-api
+- collection_type: open
+  name: Kaltura OTT accessControl drmProfile API
+  slug: open-kaltura-drmprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl dropFolder API
+  slug: open-kaltura-dropfolder-api
+- collection_type: open
+  name: Kaltura OTT accessControl dropFolderFile API
+  slug: open-kaltura-dropfolderfile-api
+- collection_type: open
+  name: Kaltura OTT accessControl email API
+  slug: open-kaltura-email-api
+- collection_type: open
+  name: Kaltura OTT accessControl EmailIngestionProfile API
+  slug: open-kaltura-emailingestionprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl engagement API
+  slug: open-kaltura-engagement-api
+- collection_type: open
+  name: Kaltura OTT accessControl engagementAdapter API
+  slug: open-kaltura-engagementadapter-api
+- collection_type: open
+  name: Kaltura OTT accessControl entitlement API
+  slug: open-kaltura-entitlement-api
+- collection_type: open
+  name: Kaltura OTT accessControl entryDistribution API
+  slug: open-kaltura-entrydistribution-api
+- collection_type: open
+  name: Kaltura OTT accessControl entryServerNode API
+  slug: open-kaltura-entryservernode-api
+- collection_type: open
+  name: Kaltura OTT accessControl entryVendorTask API
+  slug: open-kaltura-entryvendortask-api
+- collection_type: open
+  name: Kaltura OTT accessControl eSearch API
+  slug: open-kaltura-esearch-api
+- collection_type: open
+  name: Kaltura OTT accessControl eventNotificationTemplate API
+  slug: open-kaltura-eventnotificationtemplate-api
+- collection_type: open
+  name: Kaltura OTT accessControl exportcsv API
+  slug: open-kaltura-exportcsv-api
+- collection_type: open
+  name: Kaltura OTT accessControl exportTask API
+  slug: open-kaltura-exporttask-api
+- collection_type: open
+  name: Kaltura OTT accessControl externalChannelProfile API
+  slug: open-kaltura-externalchannelprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl externalMedia API
+  slug: open-kaltura-externalmedia-api
+- collection_type: open
+  name: Kaltura OTT accessControl favorite API
+  slug: open-kaltura-favorite-api
+- collection_type: open
+  name: Kaltura OTT accessControl fileAsset API
+  slug: open-kaltura-fileasset-api
+- collection_type: open
+  name: Kaltura OTT accessControl fileSync API
+  slug: open-kaltura-filesync-api
+- collection_type: open
+  name: Kaltura OTT accessControl filesyncImportBatch API
+  slug: open-kaltura-filesyncimportbatch-api
+- collection_type: open
+  name: Kaltura OTT accessControl flavorAsset API
+  slug: open-kaltura-flavorasset-api
+- collection_type: open
+  name: Kaltura OTT accessControl flavorParams API
+  slug: open-kaltura-flavorparams-api
+- collection_type: open
+  name: Kaltura OTT accessControl flavorParamsOutput API
+  slug: open-kaltura-flavorparamsoutput-api
+- collection_type: open
+  name: Kaltura OTT accessControl followTvSeries API
+  slug: open-kaltura-followtvseries-api
+- collection_type: open
+  name: Kaltura OTT accessControl genericDistributionProvider API
+  slug: open-kaltura-genericdistributionprovider-api
+- collection_type: open
+  name: Kaltura OTT accessControl genericDistributionProviderAction API
+  slug: open-kaltura-genericdistributionprovideraction-api
+- collection_type: open
+  name: Kaltura OTT accessControl group API
+  slug: open-kaltura-group-api
+- collection_type: open
+  name: Kaltura OTT accessControl groupUser API
+  slug: open-kaltura-groupuser-api
+- collection_type: open
+  name: Kaltura OTT accessControl homeNetwork API
+  slug: open-kaltura-homenetwork-api
+- collection_type: open
+  name: Kaltura OTT accessControl household API
+  slug: open-kaltura-household-api
+- collection_type: open
+  name: Kaltura OTT accessControl householdDevice API
+  slug: open-kaltura-householddevice-api
+- collection_type: open
+  name: Kaltura OTT accessControl householdLimitations API
+  slug: open-kaltura-householdlimitations-api
+- collection_type: open
+  name: Kaltura OTT accessControl householdPaymentGateway API
+  slug: open-kaltura-householdpaymentgateway-api
+- collection_type: open
+  name: Kaltura OTT accessControl householdPaymentMethod API
+  slug: open-kaltura-householdpaymentmethod-api
+- collection_type: open
+  name: Kaltura OTT accessControl householdPremiumService API
+  slug: open-kaltura-householdpremiumservice-api
+- collection_type: open
+  name: Kaltura OTT accessControl householdQuota API
+  slug: open-kaltura-householdquota-api
+- collection_type: open
+  name: Kaltura OTT accessControl householdUser API
+  slug: open-kaltura-householduser-api
+- collection_type: open
+  name: Kaltura OTT accessControl image API
+  slug: open-kaltura-image-api
+- collection_type: open
+  name: Kaltura OTT accessControl imageType API
+  slug: open-kaltura-imagetype-api
+- collection_type: open
+  name: Kaltura OTT accessControl inboxMessage API
+  slug: open-kaltura-inboxmessage-api
+- collection_type: open
+  name: Kaltura OTT accessControl integration API
+  slug: open-kaltura-integration-api
+- collection_type: open
+  name: Kaltura OTT accessControl interactivity API
+  slug: open-kaltura-interactivity-api
+- collection_type: open
+  name: Kaltura OTT accessControl jobs API
+  slug: open-kaltura-jobs-api
+- collection_type: open
+  name: Kaltura OTT accessControl language API
+  slug: open-kaltura-language-api
+- collection_type: open
+  name: Kaltura OTT accessControl licensedUrl API
+  slug: open-kaltura-licensedurl-api
+- collection_type: open
+  name: Kaltura OTT accessControl like API
+  slug: open-kaltura-like-api
+- collection_type: open
+  name: Kaltura OTT accessControl liveConversionProfile API
+  slug: open-kaltura-liveconversionprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl liveReports API
+  slug: open-kaltura-livereports-api
+- collection_type: open
+  name: Kaltura OTT accessControl liveStats API
+  slug: open-kaltura-livestats-api
+- collection_type: open
+  name: Kaltura OTT accessControl liveStream API
+  slug: open-kaltura-livestream-api
+- collection_type: open
+  name: Kaltura OTT accessControl media API
+  slug: open-kaltura-media-api
+- collection_type: open
+  name: Kaltura OTT accessControl mediaFile API
+  slug: open-kaltura-mediafile-api
+- collection_type: open
+  name: Kaltura OTT accessControl mediaFileType API
+  slug: open-kaltura-mediafiletype-api
+- collection_type: open
+  name: Kaltura OTT accessControl mediaInfo API
+  slug: open-kaltura-mediainfo-api
+- collection_type: open
+  name: Kaltura OTT accessControl messageTemplate API
+  slug: open-kaltura-messagetemplate-api
+- collection_type: open
+  name: Kaltura OTT accessControl meta API
+  slug: open-kaltura-meta-api
+- collection_type: open
+  name: Kaltura OTT accessControl metadata API
+  slug: open-kaltura-metadata-api
+- collection_type: open
+  name: Kaltura OTT accessControl metadataBatch API
+  slug: open-kaltura-metadatabatch-api
+- collection_type: open
+  name: Kaltura OTT accessControl metadataProfile API
+  slug: open-kaltura-metadataprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl ndn API
+  slug: open-kaltura-ndn-api
+- collection_type: open
+  name: Kaltura OTT accessControl notification API
+  slug: open-kaltura-notification-api
+- collection_type: open
+  name: Kaltura OTT accessControl notificationsPartnerSettings API
+  slug: open-kaltura-notificationspartnersettings-api
+- collection_type: open
+  name: Kaltura OTT accessControl notificationsSettings API
+  slug: open-kaltura-notificationssettings-api
+- collection_type: open
+  name: Kaltura OTT accessControl ossAdapterProfile API
+  slug: open-kaltura-ossadapterprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl ottCategory API
+  slug: open-kaltura-ottcategory-api
+- collection_type: open
+  name: Kaltura OTT accessControl ottUser API
+  slug: open-kaltura-ottuser-api
+- collection_type: open
+  name: Kaltura OTT accessControl parentalRule API
+  slug: open-kaltura-parentalrule-api
+- collection_type: open
+  name: Kaltura OTT accessControl partner API
+  slug: open-kaltura-partner-api
+- collection_type: open
+  name: Kaltura OTT accessControl PartnerCatalogItem API
+  slug: open-kaltura-partnercatalogitem-api
+- collection_type: open
+  name: Kaltura OTT accessControl partnerConfiguration API
+  slug: open-kaltura-partnerconfiguration-api
+- collection_type: open
+  name: Kaltura OTT accessControl paymentGatewayProfile API
+  slug: open-kaltura-paymentgatewayprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl paymentMethodProfile API
+  slug: open-kaltura-paymentmethodprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl permission API
+  slug: open-kaltura-permission-api
+- collection_type: open
+  name: Kaltura OTT accessControl permissionItem API
+  slug: open-kaltura-permissionitem-api
+- collection_type: open
+  name: Kaltura OTT accessControl personalFeed API
+  slug: open-kaltura-personalfeed-api
+- collection_type: open
+  name: Kaltura OTT accessControl pexip API
+  slug: open-kaltura-pexip-api
+- collection_type: open
+  name: Kaltura OTT accessControl pin API
+  slug: open-kaltura-pin-api
+- collection_type: open
+  name: Kaltura OTT accessControl playlist API
+  slug: open-kaltura-playlist-api
+- collection_type: open
+  name: Kaltura OTT accessControl playReadyDrm API
+  slug: open-kaltura-playreadydrm-api
+- collection_type: open
+  name: Kaltura OTT accessControl poll API
+  slug: open-kaltura-poll-api
+- collection_type: open
+  name: Kaltura OTT accessControl ppv API
+  slug: open-kaltura-ppv-api
+- collection_type: open
+  name: Kaltura OTT accessControl priceDetails API
+  slug: open-kaltura-pricedetails-api
+- collection_type: open
+  name: Kaltura OTT accessControl pricePlan API
+  slug: open-kaltura-priceplan-api
+- collection_type: open
+  name: Kaltura OTT accessControl productPrice API
+  slug: open-kaltura-productprice-api
+- collection_type: open
+  name: Kaltura OTT accessControl purchaseSettings API
+  slug: open-kaltura-purchasesettings-api
+- collection_type: open
+  name: Kaltura OTT accessControl quiz API
+  slug: open-kaltura-quiz-api
+- collection_type: open
+  name: Kaltura OTT accessControl rating API
+  slug: open-kaltura-rating-api
+- collection_type: open
+  name: Kaltura OTT accessControl ratio API
+  slug: open-kaltura-ratio-api
+- collection_type: open
+  name: Kaltura OTT accessControl reachProfile API
+  slug: open-kaltura-reachprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl recommendationProfile API
+  slug: open-kaltura-recommendationprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl recording API
+  slug: open-kaltura-recording-api
+- collection_type: open
+  name: Kaltura OTT accessControl region API
+  slug: open-kaltura-region-api
+- collection_type: open
+  name: Kaltura OTT accessControl registrySettings API
+  slug: open-kaltura-registrysettings-api
+- collection_type: open
+  name: Kaltura OTT accessControl reminder API
+  slug: open-kaltura-reminder-api
+- collection_type: open
+  name: Kaltura OTT accessControl report API
+  slug: open-kaltura-report-api
+- collection_type: open
+  name: Kaltura OTT accessControl responseProfile API
+  slug: open-kaltura-responseprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl scheduledTaskProfile API
+  slug: open-kaltura-scheduledtaskprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl scheduleEvent API
+  slug: open-kaltura-scheduleevent-api
+- collection_type: open
+  name: Kaltura OTT accessControl scheduleEventResource API
+  slug: open-kaltura-scheduleeventresource-api
+- collection_type: open
+  name: Kaltura OTT accessControl scheduleResource API
+  slug: open-kaltura-scheduleresource-api
+- collection_type: open
+  name: Kaltura OTT accessControl schema API
+  slug: open-kaltura-schema-api
+- collection_type: open
+  name: Kaltura OTT accessControl searchHistory API
+  slug: open-kaltura-searchhistory-api
+- collection_type: open
+  name: Kaltura OTT accessControl seriesRecording API
+  slug: open-kaltura-seriesrecording-api
+- collection_type: open
+  name: Kaltura OTT accessControl serverNode API
+  slug: open-kaltura-servernode-api
+- collection_type: open
+  name: Kaltura OTT accessControl session API
+  slug: open-kaltura-session-api
+- collection_type: open
+  name: Kaltura OTT accessControl sharepointExtension API
+  slug: open-kaltura-sharepointextension-api
+- collection_type: open
+  name: Kaltura OTT accessControl shortLink API
+  slug: open-kaltura-shortlink-api
+- collection_type: open
+  name: Kaltura OTT accessControl social API
+  slug: open-kaltura-social-api
+- collection_type: open
+  name: Kaltura OTT accessControl socialAction API
+  slug: open-kaltura-socialaction-api
+- collection_type: open
+  name: Kaltura OTT accessControl socialComment API
+  slug: open-kaltura-socialcomment-api
+- collection_type: open
+  name: Kaltura OTT accessControl socialFriendActivity API
+  slug: open-kaltura-socialfriendactivity-api
+- collection_type: open
+  name: Kaltura OTT accessControl sso API
+  slug: open-kaltura-sso-api
+- collection_type: open
+  name: Kaltura OTT accessControl stats API
+  slug: open-kaltura-stats-api
+- collection_type: open
+  name: Kaltura OTT accessControl storageProfile API
+  slug: open-kaltura-storageprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl subscription API
+  slug: open-kaltura-subscription-api
+- collection_type: open
+  name: Kaltura OTT accessControl subscriptionSet API
+  slug: open-kaltura-subscriptionset-api
+- collection_type: open
+  name: Kaltura OTT accessControl synacorHbo API
+  slug: open-kaltura-synacorhbo-api
+- collection_type: open
+  name: Kaltura OTT accessControl syndicationFeed API
+  slug: open-kaltura-syndicationfeed-api
+- collection_type: open
+  name: Kaltura OTT accessControl system API
+  slug: open-kaltura-system-api
+- collection_type: open
+  name: Kaltura OTT accessControl systemPartner API
+  slug: open-kaltura-systempartner-api
+- collection_type: open
+  name: Kaltura OTT accessControl tag API
+  slug: open-kaltura-tag-api
+- collection_type: open
+  name: Kaltura OTT accessControl thumbAsset API
+  slug: open-kaltura-thumbasset-api
+- collection_type: open
+  name: Kaltura OTT accessControl thumbnail API
+  slug: open-kaltura-thumbnail-api
+- collection_type: open
+  name: Kaltura OTT accessControl thumbParams API
+  slug: open-kaltura-thumbparams-api
+- collection_type: open
+  name: Kaltura OTT accessControl thumbParamsOutput API
+  slug: open-kaltura-thumbparamsoutput-api
+- collection_type: open
+  name: Kaltura OTT accessControl timeShiftedTvPartnerSettings API
+  slug: open-kaltura-timeshiftedtvpartnersettings-api
+- collection_type: open
+  name: Kaltura OTT accessControl timeWarner API
+  slug: open-kaltura-timewarner-api
+- collection_type: open
+  name: Kaltura OTT accessControl topic API
+  slug: open-kaltura-topic-api
+- collection_type: open
+  name: Kaltura OTT accessControl transaction API
+  slug: open-kaltura-transaction-api
+- collection_type: open
+  name: Kaltura OTT accessControl transactionHistory API
+  slug: open-kaltura-transactionhistory-api
+- collection_type: open
+  name: Kaltura OTT accessControl tvCom API
+  slug: open-kaltura-tvcom-api
+- collection_type: open
+  name: Kaltura OTT accessControl uiConf API
+  slug: open-kaltura-uiconf-api
+- collection_type: open
+  name: Kaltura OTT accessControl unicorn API
+  slug: open-kaltura-unicorn-api
+- collection_type: open
+  name: Kaltura OTT accessControl unifiedPayment API
+  slug: open-kaltura-unifiedpayment-api
+- collection_type: open
+  name: Kaltura OTT accessControl upload API
+  slug: open-kaltura-upload-api
+- collection_type: open
+  name: Kaltura OTT accessControl uploadToken API
+  slug: open-kaltura-uploadtoken-api
+- collection_type: open
+  name: Kaltura OTT accessControl user API
+  slug: open-kaltura-user-api
+- collection_type: open
+  name: Kaltura OTT accessControl userAssetRule API
+  slug: open-kaltura-userassetrule-api
+- collection_type: open
+  name: Kaltura OTT accessControl userAssetsListItem API
+  slug: open-kaltura-userassetslistitem-api
+- collection_type: open
+  name: Kaltura OTT accessControl userEntry API
+  slug: open-kaltura-userentry-api
+- collection_type: open
+  name: Kaltura OTT accessControl userInterest API
+  slug: open-kaltura-userinterest-api
+- collection_type: open
+  name: Kaltura OTT accessControl userLoginPin API
+  slug: open-kaltura-userloginpin-api
+- collection_type: open
+  name: Kaltura OTT accessControl userRole API
+  slug: open-kaltura-userrole-api
+- collection_type: open
+  name: Kaltura OTT accessControl userScore API
+  slug: open-kaltura-userscore-api
+- collection_type: open
+  name: Kaltura OTT accessControl uverse API
+  slug: open-kaltura-uverse-api
+- collection_type: open
+  name: Kaltura OTT accessControl uverseClickToOrder API
+  slug: open-kaltura-uverseclicktoorder-api
+- collection_type: open
+  name: Kaltura OTT accessControl varConsole API
+  slug: open-kaltura-varconsole-api
+- collection_type: open
+  name: Kaltura OTT accessControl vendorCatalogItem API
+  slug: open-kaltura-vendorcatalogitem-api
+- collection_type: open
+  name: Kaltura OTT accessControl vendorIntegration API
+  slug: open-kaltura-vendorintegration-api
+- collection_type: open
+  name: Kaltura OTT accessControl virtualEvent API
+  slug: open-kaltura-virtualevent-api
+- collection_type: open
+  name: Kaltura OTT accessControl virusScanProfile API
+  slug: open-kaltura-virusscanprofile-api
+- collection_type: open
+  name: Kaltura OTT accessControl volatileInteractivity API
+  slug: open-kaltura-volatileinteractivity-api
+- collection_type: open
+  name: Kaltura OTT accessControl webexVendor API
+  slug: open-kaltura-webexvendor-api
+- collection_type: open
+  name: Kaltura OTT accessControl widevineDrm API
+  slug: open-kaltura-widevinedrm-api
+- collection_type: open
+  name: Kaltura OTT accessControl widget API
+  slug: open-kaltura-widget-api
+- collection_type: open
+  name: Kaltura OTT accessControl xInternal API
+  slug: open-kaltura-xinternal-api
+- collection_type: open
+  name: Kaltura OTT accessControl zoomVendor API
+  slug: open-kaltura-zoomvendor-api
 common:
 - group: agent
   title: ''
@@ -908,7 +1578,7 @@ plans:
 - name: Kaltura Plans Pricing
   plan_count: 6
   slug: kaltura-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Kaltura Rate Limits
@@ -942,7 +1612,7 @@ score:
       marker_coverage: 0.0
       total: 222
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/screenshots/kaltura-2026-06-20T183911.png
 security:

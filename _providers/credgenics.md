@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,11 +47,24 @@ apis:
 - description: Loan and payment ingestion and retrieval.
   name: Credgenics Lending API
   slug: credgenics-lending-api
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Credgenics Webhooks
   slug: credgenics-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Credgenics Recovery Authentication API
+  slug: open-credgenics-authentication-api
+- collection_type: open
+  name: Credgenics Recovery Authentication Credit Line API
+  slug: open-credgenics-credit-line-api
+- collection_type: open
+  name: Credgenics Recovery Authentication Lending API
+  slug: open-credgenics-lending-api
 common:
 - group: company
   title: ''
@@ -176,7 +189,7 @@ overview: 'Credgenics publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Credgenics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 87
+random_paper: 4
 score:
   band: thin
   composite: 38.8
@@ -200,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/screenshots/credgenics-2026-07-25T210716.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: Video stream management
   name: Amazon Kinesis Video Streams Streams API
   slug: amazon-kinesis-video-streams-streams-api
-artifact_total: 34
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Amazon Kinesis Video Streams Signaling Channels API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Amazon Kinesis Video Signaling Channels Streams API
   slug: postman-amazon-kinesis-video-streams-streams-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Kinesis Video Streams Signaling Channels API
+  slug: open-amazon-kinesis-video-streams-signaling-channels-api
+- collection_type: open
+  name: Amazon Kinesis Video Signaling Channels Streams API
+  slug: open-amazon-kinesis-video-streams-streams-api
 - collection_type: open
   name: Amazon Kinesis Video Streams API
   slug: open-amazon-kinesis-video-streams
@@ -208,7 +217,7 @@ plans:
 - name: Amazon Kinesis Video Streams Plans Pricing
   plan_count: 3
   slug: amazon-kinesis-video-streams-plans-pricing
-random_paper: 81
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Amazon Kinesis Video Streams Rate Limits
@@ -250,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/screenshots/amazon-kinesis-video-streams-2026-06-20T171720.png
 security:

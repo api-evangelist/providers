@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ arazzos:
 - description: Find a student in a term, pull their record, then review class enrollment and financial aid awards.
   name: PeopleSoft Student Enrollment and Aid Review
   slug: peoplesoft-student-enrollment-review-workflow
-artifact_total: 169
+artifact_total: 208
 collections:
 - collection_type: postman
   name: PeopleSoft Application Services Framework API
@@ -286,6 +286,9 @@ collections:
   name: PeopleSoft Update Manager API
   slug: postman-update-manager
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: PeopleSoft Application Services Framework API
   slug: open-application-services-framework
 - collection_type: open
@@ -324,6 +327,120 @@ collections:
 - collection_type: open
   name: PeopleSoft Notification Framework API
   slug: open-notification-framework
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable API
+  slug: open-peoplesoft-accounts-payable-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Accounts Receivable API
+  slug: open-peoplesoft-accounts-receivable-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Admissions API
+  slug: open-peoplesoft-admissions-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Analytics API
+  slug: open-peoplesoft-analytics-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Approvals API
+  slug: open-peoplesoft-approvals-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Benefits API
+  slug: open-peoplesoft-benefits-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Branding API
+  slug: open-peoplesoft-branding-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Budgets API
+  slug: open-peoplesoft-budgets-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Candidates API
+  slug: open-peoplesoft-candidates-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Cases API
+  slug: open-peoplesoft-cases-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Chatbot API
+  slug: open-peoplesoft-chatbot-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Component Interfaces API
+  slug: open-peoplesoft-component-interfaces-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Content API
+  slug: open-peoplesoft-content-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Customers API
+  slug: open-peoplesoft-customers-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Employees API
+  slug: open-peoplesoft-employees-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Enrollment API
+  slug: open-peoplesoft-enrollment-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Environments API
+  slug: open-peoplesoft-environments-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Expenses API
+  slug: open-peoplesoft-expenses-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Financial Aid API
+  slug: open-peoplesoft-financial-aid-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Forecasts API
+  slug: open-peoplesoft-forecasts-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable General Ledger API
+  slug: open-peoplesoft-general-ledger-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Inventory API
+  slug: open-peoplesoft-inventory-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Jobs API
+  slug: open-peoplesoft-jobs-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Notifications API
+  slug: open-peoplesoft-notifications-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Orders API
+  slug: open-peoplesoft-orders-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Payroll API
+  slug: open-peoplesoft-payroll-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Pivot Grids API
+  slug: open-peoplesoft-pivot-grids-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Processes API
+  slug: open-peoplesoft-processes-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Procurement API
+  slug: open-peoplesoft-procurement-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Queries API
+  slug: open-peoplesoft-queries-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Resources API
+  slug: open-peoplesoft-resources-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Sales API
+  slug: open-peoplesoft-sales-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Search API
+  slug: open-peoplesoft-search-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Service Operations API
+  slug: open-peoplesoft-service-operations-api
+- collection_type: open
+  name: PeopleSoft Application Framework Accounts Payable Services API
+  slug: open-peoplesoft-services-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Students API
+  slug: open-peoplesoft-students-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Templates API
+  slug: open-peoplesoft-templates-api
+- collection_type: open
+  name: PeopleSoft Application Services Framework Accounts Payable Updates API
+  slug: open-peoplesoft-updates-api
 - collection_type: open
   name: PeopleSoft Pivot Grid API
   slug: open-pivot-grid
@@ -676,7 +793,7 @@ plans:
 - name: Peoplesoft Plans Pricing
   plan_count: 1
   slug: peoplesoft-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Peoplesoft Rate Limits
@@ -723,7 +840,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/screenshots/peoplesoft-2026-06-20T191552.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 2
@@ -84,7 +84,56 @@ apis:
 - description: The `workspace` object represents an Astro Workspace, which is a collection of Deployments that can be accessed by a specific group of users. It contains metadata about a Workspace, but does not conta
   name: Astronomer Workspace API
   slug: astronomer-workspace-api
-artifact_total: 21
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Astro Platform AgentToken API
+  slug: open-astronomer-agenttoken-api
+- collection_type: open
+  name: Astro Platform AgentToken AllowedIpAddressRange API
+  slug: open-astronomer-allowedipaddressrange-api
+- collection_type: open
+  name: Astro Platform AgentToken ApiToken API
+  slug: open-astronomer-apitoken-api
+- collection_type: open
+  name: Astro Platform AgentToken Authorization API
+  slug: open-astronomer-authorization-api
+- collection_type: open
+  name: Astro Platform AgentToken Cluster API
+  slug: open-astronomer-cluster-api
+- collection_type: open
+  name: Astro Platform AgentToken Deploy API
+  slug: open-astronomer-deploy-api
+- collection_type: open
+  name: Astro Platform AgentToken Deployment API
+  slug: open-astronomer-deployment-api
+- collection_type: open
+  name: Astro Platform AgentToken Environment API
+  slug: open-astronomer-environment-api
+- collection_type: open
+  name: Astro Platform AgentToken Invite API
+  slug: open-astronomer-invite-api
+- collection_type: open
+  name: Astro Platform AgentToken Options API
+  slug: open-astronomer-options-api
+- collection_type: open
+  name: Astro Platform AgentToken Organization API
+  slug: open-astronomer-organization-api
+- collection_type: open
+  name: Astro Platform AgentToken Role API
+  slug: open-astronomer-role-api
+- collection_type: open
+  name: Astro Platform AgentToken Team API
+  slug: open-astronomer-team-api
+- collection_type: open
+  name: Astro Platform AgentToken User API
+  slug: open-astronomer-user-api
+- collection_type: open
+  name: Astro Platform AgentToken Workspace API
+  slug: open-astronomer-workspace-api
 common:
 - group: other
   title: ''
@@ -222,7 +271,7 @@ overview: 'Astronomer publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Astronomer''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 23 more developer resources.'
-random_paper: 18
+random_paper: 55
 score:
   band: strong
   composite: 56.2
@@ -246,7 +295,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astronomer/refs/heads/main/screenshots/astronomer-2026-07-25T201511.png
 security:

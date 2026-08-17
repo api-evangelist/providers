@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,11 +57,32 @@ apis:
 - description: Lobbying firm and self-employed lobbyist registrations
   name: US Senate Registrants API
   slug: us-senate-registrants-api
-artifact_total: 20
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: US Senate Lobbying Disclosure Act (LDA) Clients API
+  slug: open-us-senate-clients-api
+- collection_type: open
+  name: US Senate Lobbying Disclosure Act (LDA) Clients Constants API
+  slug: open-us-senate-constants-api
+- collection_type: open
+  name: US Senate Lobbying Disclosure Act (LDA) Clients Contributions API
+  slug: open-us-senate-contributions-api
+- collection_type: open
+  name: US Senate Lobbying Disclosure Act (LDA) Clients Filings API
+  slug: open-us-senate-filings-api
 - collection_type: open
   name: US Senate Lobbying Disclosure Act (LDA) API
   slug: open-us-senate-lda
+- collection_type: open
+  name: US Senate Lobbying Disclosure Act (LDA) Clients Lobbyists API
+  slug: open-us-senate-lobbyists-api
+- collection_type: open
+  name: US Senate Lobbying Disclosure Act (LDA) Clients Registrants API
+  slug: open-us-senate-registrants-api
 common:
 - group: agent
   title: ''
@@ -122,7 +143,7 @@ plans:
 - name: Us Senate Plans Pricing
   plan_count: 3
   slug: us-senate-plans-pricing
-random_paper: 77
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Us Senate Rate Limits
@@ -170,7 +191,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/screenshots/us-senate-2026-06-20T200626.png
 security:

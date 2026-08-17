@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
 - description: Operations related to Wingspan Wallet
   name: Wingspan Wingspan Wallet API
   slug: wingspan-wingspan-wallet-api
-artifact_total: 37
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Wingspan Webhooks
@@ -134,6 +134,54 @@ collections:
 - collection_type: postman
   name: Wingspan Payments 1099 Operations Wingspan Wallet API
   slug: postman-wingspan-wingspan-wallet-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wingspan Payments 1099 Operations API
+  slug: open-wingspan-1099-operations-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Banking Management API
+  slug: open-wingspan-banking-management-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Bulk Operations API
+  slug: open-wingspan-bulk-operations-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Client Management API
+  slug: open-wingspan-client-management-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Collaborator Management API
+  slug: open-wingspan-collaborator-management-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Custom Field Management API
+  slug: open-wingspan-custom-field-management-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Deprecated API
+  slug: open-wingspan-deprecated-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Document Signing and Eligibility API
+  slug: open-wingspan-document-signing-and-eligibility-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Invoice Management API
+  slug: open-wingspan-invoice-management-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Merchant Category Codes API
+  slug: open-wingspan-merchant-category-codes-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Payables Management API
+  slug: open-wingspan-payables-management-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Payroll Settings API
+  slug: open-wingspan-payroll-settings-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Reporting and Analytics API
+  slug: open-wingspan-reporting-and-analytics-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Service Settings API
+  slug: open-wingspan-service-settings-api
+- collection_type: open
+  name: Wingspan Payments 1099 Operations Wingspan Wallet API
+  slug: open-wingspan-wingspan-wallet-api
 common:
 - group: other
   title: ''
@@ -290,7 +338,7 @@ overview: 'Wingspan publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wingspan''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
-random_paper: 31
+random_paper: 126
 rate_limits:
 - limit_count: 2
   name: Wingspan Rate Limits
@@ -324,7 +372,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

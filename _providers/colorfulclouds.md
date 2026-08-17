@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,11 +57,32 @@ apis:
 - description: Combined weather envelope returning realtime, minutely, hourly, daily, and alerts in one call.
   name: ColorfulClouds Weather API
   slug: colorfulclouds-weather-api
-artifact_total: 147
+artifact_total: 154
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Caiyun Weather Air Quality API
+  slug: open-colorfulclouds-air-quality-api
+- collection_type: open
+  name: Caiyun Weather Air Quality Alerts API
+  slug: open-colorfulclouds-alerts-api
 - collection_type: open
   name: Caiyun Weather API
   slug: open-colorfulclouds-caiyun-weather
+- collection_type: open
+  name: Caiyun Weather Air Quality Forecast API
+  slug: open-colorfulclouds-forecast-api
+- collection_type: open
+  name: Caiyun Weather Air Quality Precipitation Map API
+  slug: open-colorfulclouds-precipitation-map-api
+- collection_type: open
+  name: Caiyun Weather Air Quality Realtime API
+  slug: open-colorfulclouds-realtime-api
+- collection_type: open
+  name: Caiyun Air Quality Weather API
+  slug: open-colorfulclouds-weather-api
 common:
 - group: agent
   title: ''
@@ -559,7 +580,7 @@ plans:
 - name: Colorfulclouds Plans Pricing
   plan_count: 3
   slug: colorfulclouds-plans-pricing
-random_paper: 80
+random_paper: 30
 rate_limits:
 - limit_count: 4
   name: Colorfulclouds Rate Limits
@@ -601,7 +622,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/screenshots/colorfulclouds-2026-06-20T174759.png
 security:

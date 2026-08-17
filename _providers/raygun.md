@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -106,7 +106,7 @@ arazzos:
 - description: Inspect an error group and its latest occurrence, then record a triage comment.
   name: Raygun Triage Error Group and Add Comment
   slug: raygun-triage-error-group-comment-workflow
-artifact_total: 89
+artifact_total: 90
 collections:
 - collection_type: postman
   name: Raygun Applications API
@@ -145,43 +145,46 @@ collections:
   name: Raygun Teams API
   slug: postman-raygun-teams-api
 - collection_type: open
-  name: Raygun Applications API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Raygun applications API
   slug: open-raygun-applications-api
 - collection_type: open
-  name: Raygun Customers API
+  name: Raygun applications customers API
   slug: open-raygun-customers-api
 - collection_type: open
-  name: Raygun Deployments API
+  name: Raygun applications deployments API
   slug: open-raygun-deployments-api
 - collection_type: open
-  name: Raygun Errors API
+  name: Raygun applications errors API
   slug: open-raygun-errors-api
 - collection_type: open
-  name: Raygun Flutter Symbols API
+  name: Raygun applications flutter-symbols API
   slug: open-raygun-flutter-symbols-api
 - collection_type: open
-  name: Raygun Invitations API
+  name: Raygun applications invitations API
   slug: open-raygun-invitations-api
 - collection_type: open
-  name: Raygun Metrics API
+  name: Raygun applications metrics API
   slug: open-raygun-metrics-api
 - collection_type: open
-  name: Raygun Pages API
+  name: Raygun applications pages API
   slug: open-raygun-pages-api
 - collection_type: open
-  name: Raygun Plans API
+  name: Raygun applications plans API
   slug: open-raygun-plans-api
 - collection_type: open
   name: Raygun API
   slug: open-raygun-public-api
 - collection_type: open
-  name: Raygun Sessions API
+  name: Raygun applications sessions API
   slug: open-raygun-sessions-api
 - collection_type: open
-  name: Raygun Source Maps API
+  name: Raygun applications source-maps API
   slug: open-raygun-source-maps-api
 - collection_type: open
-  name: Raygun Teams API
+  name: Raygun applications teams API
   slug: open-raygun-teams-api
 - collection_type: open
   name: Raygun Outbound Webhooks
@@ -456,7 +459,7 @@ plans:
 - name: Raygun Plans Pricing
   plan_count: 13
   slug: raygun-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Raygun Rate Limits
@@ -498,7 +501,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/screenshots/raygun-2026-06-20T192616.png
 security:

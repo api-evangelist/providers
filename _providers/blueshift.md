@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'The Blueshift REST API: 81 operations across 21 resource groups covering customer profiles and privacy operations (create/update, bulk, merge, forget/unforget, delete), event ingestion (single, bulk, '
@@ -27,11 +27,15 @@ apis:
 - description: Official hosted remote MCP server, in public beta, exposing a catalogue of 131 tools (97 read, 34 write) across campaigns, segments, customer profiles, catalogs, templates, shared assets, tags, report
   name: Blueshift MCP Server
   slug: blueshift-mcp-server
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Blueshift Webhooks
   slug: blueshift-webhooks
+collections:
+- collection_type: open
+  name: Blueshift APIs
+  slug: open-blueshift
 common:
 - group: auth
   title: ''
@@ -164,7 +168,7 @@ plans:
 - name: Blueshift Plans Pricing
   plan_count: 3
   slug: blueshift-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 6
   name: Blueshift Rate Limits
@@ -177,6 +181,7 @@ scopes:
 score:
   band: strong
   composite: 62.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 66.4
@@ -184,6 +189,7 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 68.4
+  previous_composite: 62.0
   regulatory:
     applies: true
     matched_via: tags
@@ -191,7 +197,8 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Blueshift Authentication

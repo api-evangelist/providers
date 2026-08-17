@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -63,34 +63,76 @@ common:
   title: ''
   type: SignUp
   url: https://apps.shopify.com/revie
+- group: start
+  title: ''
+  type: Login
+  url: https://app.revie.lat/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/revie-plans-pricing.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/revie-components.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/revie-llms.txt
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/revieio
+coverage:
+  checked: '2026-08-13'
+  detail: Revie ships only end-user storefront apps for Shopify, Tiendanube and VTEX — there is no developer portal, no API reference, no SDK and no GitHub organisation, and the one API host that exists (api.revie.lat) is the private AWS API Gateway backend for the app.revie.lat dashboard, named in the SPA's own config.js and answering every path with 403 "Missing Authentication Token".
+  evidence:
+  - status: 403
+    url: https://api.revie.lat/openapi.json
+  - status: 404
+    url: https://www.revie.lat/openapi.json
+  - status: 404
+    url: https://help.revie.ai/openapi.json
+  - status: 404
+    url: https://www.revie.lat/llms.txt
+  - status: 404
+    url: https://www.revie.lat/.well-known/agent-card.json
+  - status: 200
+    url: https://app.revie.lat/config/config.js
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Revie is an AI-powered customer review collection and WhatsApp marketing automation platform for e-commerce businesses, with a focus on the Latin American market. It requests and collects product reviews over WhatsApp (in text, photo, video, and voice-note formats) after a purchase, then applies AI sentiment analysis and keyword grouping to surface customer feedback in a dashboard. Revie also powers WhatsApp marketing campaigns, customer segmentation, and discount incentives, and integrates with Shopify, Tienda Nube, and VTEX storefronts. The company exposes no public developer API or SDK; its product is delivered as installable storefront apps.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revie.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Revie
 nav: Providers
 network: true
 overview: 'Revie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reviews, WhatsApp, Marketing, and E-commerce.
 
 
-  Revie''s developer surface includes pricing, engineering blog, documentation, signup flow, and 4 more developer resources.'
-random_paper: 59
+  Revie''s developer surface includes pricing, engineering blog, documentation, signup flow, and 9 more developer resources.'
+plans:
+- name: Revie Plans Pricing
+  plan_count: 7
+  slug: revie-plans-pricing
+random_paper: 92
 score:
   band: emerging
-  composite: 14.9
-  delta: 0.0
+  composite: 21.9
+  delta: 7.0
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 65.8
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Revie Domain Security
@@ -106,5 +148,7 @@ tags:
 - Customer Experience
 - Messaging
 - Artificial Intelligence
+- Shopify
+- Latin America
 website: https://revie.lat
 ---

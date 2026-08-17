@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -72,11 +72,44 @@ apis:
 - description: The Users API from Secure Code Warrior — 4 operation(s) for users.
   name: Secure Code Warrior Users API
   slug: secure-code-warrior-users-api
-artifact_total: 25
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments API
+  slug: open-secure-code-warrior-assessments-api
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments Audit API
+  slug: open-secure-code-warrior-audit-api
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments Courses API
+  slug: open-secure-code-warrior-courses-api
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments Learning API
+  slug: open-secure-code-warrior-learning-api
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments Metrics API
+  slug: open-secure-code-warrior-metrics-api
 - collection_type: open
   name: Secure Code Warrior Portal API
   slug: open-secure-code-warrior-portal
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments Programs API
+  slug: open-secure-code-warrior-programs-api
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments Teams API
+  slug: open-secure-code-warrior-teams-api
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments Tournaments API
+  slug: open-secure-code-warrior-tournaments-api
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments Training API
+  slug: open-secure-code-warrior-training-api
+- collection_type: open
+  name: Secure Code Warrior Portal Assessments Users API
+  slug: open-secure-code-warrior-users-api
 common:
 - group: agent
   title: ''
@@ -194,7 +227,7 @@ plans:
 - name: Secure Code Warrior Plans Pricing
   plan_count: 3
   slug: secure-code-warrior-plans-pricing
-random_paper: 2
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Secure Code Warrior Rate Limits
@@ -236,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/screenshots/secure-code-warrior-2026-06-20T193625.png
 security:

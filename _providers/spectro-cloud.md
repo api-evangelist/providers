@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 759
   human_in_the_loop: 29
@@ -164,7 +164,137 @@ apis:
 - description: The workspaces API from Spectro Cloud — 14 operation(s) for workspaces.
   name: Spectro Cloud workspaces API
   slug: spectro-cloud-workspaces-api
-artifact_total: 48
+artifact_total: 91
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Local Management APIs activations API
+  slug: open-spectro-cloud-activations-api
+- collection_type: open
+  name: Local Management APIs activations apiKeys API
+  slug: open-spectro-cloud-apikeys-api
+- collection_type: open
+  name: Local Management APIs activations appDeployments API
+  slug: open-spectro-cloud-appdeployments-api
+- collection_type: open
+  name: Local Management APIs activations appProfiles API
+  slug: open-spectro-cloud-appprofiles-api
+- collection_type: open
+  name: Local Management APIs activations audits API
+  slug: open-spectro-cloud-audits-api
+- collection_type: open
+  name: Local Management APIs activations auth API
+  slug: open-spectro-cloud-auth-api
+- collection_type: open
+  name: Local Management APIs activations cloudaccounts API
+  slug: open-spectro-cloud-cloudaccounts-api
+- collection_type: open
+  name: Local Management APIs activations cloudconfigs API
+  slug: open-spectro-cloud-cloudconfigs-api
+- collection_type: open
+  name: Local Management APIs activations clouds API
+  slug: open-spectro-cloud-clouds-api
+- collection_type: open
+  name: Local Management APIs activations clustergroups API
+  slug: open-spectro-cloud-clustergroups-api
+- collection_type: open
+  name: Local Management APIs activations clusterprofiles API
+  slug: open-spectro-cloud-clusterprofiles-api
+- collection_type: open
+  name: Local Management APIs activations clusterTemplates API
+  slug: open-spectro-cloud-clustertemplates-api
+- collection_type: open
+  name: Local Management APIs activations dashboard API
+  slug: open-spectro-cloud-dashboard-api
+- collection_type: open
+  name: Local Management APIs activations datasinks API
+  slug: open-spectro-cloud-datasinks-api
+- collection_type: open
+  name: Local Management APIs activations edge-mgmt API
+  slug: open-spectro-cloud-edge-mgmt-api
+- collection_type: open
+  name: Local Management APIs activations edgehosts API
+  slug: open-spectro-cloud-edgehosts-api
+- collection_type: open
+  name: Local Management APIs activations events API
+  slug: open-spectro-cloud-events-api
+- collection_type: open
+  name: Local Management APIs activations features API
+  slug: open-spectro-cloud-features-api
+- collection_type: open
+  name: Local Management APIs activations filters API
+  slug: open-spectro-cloud-filters-api
+- collection_type: open
+  name: Local Management APIs activations grpc API
+  slug: open-spectro-cloud-grpc-api
+- collection_type: open
+  name: Local Management APIs activations health API
+  slug: open-spectro-cloud-health-api
+- collection_type: open
+  name: Local Management APIs activations installers API
+  slug: open-spectro-cloud-installers-api
+- collection_type: open
+  name: Local Management APIs activations metrics API
+  slug: open-spectro-cloud-metrics-api
+- collection_type: open
+  name: Local Management APIs activations notifications API
+  slug: open-spectro-cloud-notifications-api
+- collection_type: open
+  name: Local Management APIs activations overlords API
+  slug: open-spectro-cloud-overlords-api
+- collection_type: open
+  name: Local Management APIs activations packs API
+  slug: open-spectro-cloud-packs-api
+- collection_type: open
+  name: Local Management APIs activations pcg API
+  slug: open-spectro-cloud-pcg-api
+- collection_type: open
+  name: Local Management APIs activations permissions API
+  slug: open-spectro-cloud-permissions-api
+- collection_type: open
+  name: Local Management APIs activations ping API
+  slug: open-spectro-cloud-ping-api
+- collection_type: open
+  name: Local Management APIs activations plans API
+  slug: open-spectro-cloud-plans-api
+- collection_type: open
+  name: Local Management APIs activations projects API
+  slug: open-spectro-cloud-projects-api
+- collection_type: open
+  name: Local Management APIs activations registries API
+  slug: open-spectro-cloud-registries-api
+- collection_type: open
+  name: Local Management APIs activations roles API
+  slug: open-spectro-cloud-roles-api
+- collection_type: open
+  name: Local Management APIs activations services API
+  slug: open-spectro-cloud-services-api
+- collection_type: open
+  name: Local Management APIs activations spcPolicies API
+  slug: open-spectro-cloud-spcpolicies-api
+- collection_type: open
+  name: Local Management APIs activations spectroclusters API
+  slug: open-spectro-cloud-spectroclusters-api
+- collection_type: open
+  name: Local Management APIs activations system API
+  slug: open-spectro-cloud-system-api
+- collection_type: open
+  name: Local Management APIs activations teams API
+  slug: open-spectro-cloud-teams-api
+- collection_type: open
+  name: Local Management APIs activations tenants API
+  slug: open-spectro-cloud-tenants-api
+- collection_type: open
+  name: Local Management APIs activations tunnel API
+  slug: open-spectro-cloud-tunnel-api
+- collection_type: open
+  name: Local Management APIs activations users API
+  slug: open-spectro-cloud-users-api
+- collection_type: open
+  name: Local Management APIs activations workspaces API
+  slug: open-spectro-cloud-workspaces-api
 common:
 - group: agent
   title: ''
@@ -318,7 +448,7 @@ overview: 'Spectro Cloud publishes 42 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Spectro Cloud''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 27 more developer resources.'
-random_paper: 28
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Spectro Cloud Rate Limits
@@ -346,7 +476,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

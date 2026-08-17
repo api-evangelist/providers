@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -40,11 +40,24 @@ apis:
 - description: 'Bell''s implementation of the TM Forum TMF655 Change Management Open API (Bell version v1.1, TMF655 v4.2), letting a partner raise, update, retrieve and list change requests against Bell services with '
   name: Bell Canada Change Management API
   slug: bell-canada-change-management-api
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Bell Canada Webhooks
   slug: bell-canada-webhooks
+collections:
+- collection_type: open
+  name: API ChangeManagement
+  slug: open-bell-canada-change-management-api
+- collection_type: open
+  name: Resource Inventory Management
+  slug: open-bell-canada-resource-inventory-api
+- collection_type: open
+  name: API ServiceOrdering
+  slug: open-bell-canada-service-order-api
+- collection_type: open
+  name: Trouble Ticket
+  slug: open-bell-canada-trouble-ticket-api
 common:
 - group: agent
   title: ''
@@ -186,7 +199,7 @@ overview: 'Bell Canada publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Bell Canada''s developer surface includes authentication, sandbox, code examples, getting-started guide, support, documentation, API reference, and 23 more developer resources.'
-random_paper: 100
+random_paper: 17
 score:
   band: developing
   composite: 44.4
@@ -216,7 +229,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/screenshots/bell-canada-2026-08-07T162303.png
 security:

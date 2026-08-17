@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,11 +63,35 @@ apis:
 - description: FX rate and payment quote generation.
   name: western-union Quotes API
   slug: western-union-quotes-api
-artifact_total: 24
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Western Union Mass Payments Balances API
+  slug: open-western-union-balances-api
+- collection_type: open
+  name: Western Union Mass Payments Balances Batches API
+  slug: open-western-union-batches-api
+- collection_type: open
+  name: Western Union Mass Payments Balances Customers API
+  slug: open-western-union-customers-api
+- collection_type: open
+  name: Western Union Mass Payments Balances Health API
+  slug: open-western-union-health-api
 - collection_type: open
   name: Western Union Mass Payments API
   slug: open-western-union-mass-payments
+- collection_type: open
+  name: Western Union Mass Payments Balances Orders API
+  slug: open-western-union-orders-api
+- collection_type: open
+  name: Western Union Mass Balances Payments API
+  slug: open-western-union-payments-api
+- collection_type: open
+  name: Western Union Mass Payments Balances Quotes API
+  slug: open-western-union-quotes-api
 common:
 - group: agent
   title: ''
@@ -181,7 +205,7 @@ press:
 - date: '2026-05-25'
   title: Western Union Builds on Accelerator Momentum with New ...
   url: https://ir.westernunion.com/news/archived-press-releases/press-release-details/2019/Western-Union-Builds-on-Accelerator-Momentum-with-New-Artificial-Intelligence-Projects/default.aspx
-random_paper: 54
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Western Union Rate Limits
@@ -223,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/screenshots/western-union-2026-06-20T201410.png
 security:

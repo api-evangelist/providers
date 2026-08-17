@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: Generate harmonious color palettes from a seed color using color theory.
   name: The Color API Schemes API
   slug: the-color-api-schemes-api
-artifact_total: 15
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Color Colors API
+  slug: open-the-color-api-colors-api
+- collection_type: open
+  name: The Color Colors Schemes API
+  slug: open-the-color-api-schemes-api
 - collection_type: open
   name: The Color API
   slug: open-the-color-api
@@ -117,7 +126,7 @@ plans:
 - name: The Color Api Plans Pricing
   plan_count: 3
   slug: the-color-api-plans-pricing
-random_paper: 68
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: The Color Api Rate Limits
@@ -165,7 +174,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-color-api/refs/heads/main/screenshots/the-color-api-2026-06-20T195217.png
 security:

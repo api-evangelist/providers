@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,8 +63,20 @@ apis:
 - description: Source-control management integrations
   name: Applitools SCM API
   slug: applitools-scm-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Applitools Eyes Server REST Batches API
+  slug: open-applitools-batches-api
+- collection_type: open
+  name: Applitools Eyes Server REST Batches Discussions API
+  slug: open-applitools-discussions-api
+- collection_type: open
+  name: Applitools Eyes Server REST Batches SCM API
+  slug: open-applitools-scm-api
 - collection_type: open
   name: Applitools Eyes Server REST API
   slug: open-applitools
@@ -137,7 +149,7 @@ plans:
 - name: Applitools Plans Pricing
   plan_count: 1
   slug: applitools-plans-pricing
-random_paper: 15
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Applitools Rate Limits
@@ -162,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applitools/refs/heads/main/screenshots/applitools-2026-06-20T172326.png
 security:

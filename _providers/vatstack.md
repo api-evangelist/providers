@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: The Validations API from Vatstack — 2 operation(s) for validations.
   name: Vatstack Validations API
   slug: vatstack-validations-api
-artifact_total: 32
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vatstack API Specification Batches API
+  slug: open-vatstack-batches-api
+- collection_type: open
+  name: Vatstack API Specification Batches Evidences API
+  slug: open-vatstack-evidences-api
+- collection_type: open
+  name: Vatstack API Specification Batches Hits API
+  slug: open-vatstack-hits-api
+- collection_type: open
+  name: Vatstack API Specification Batches Quotes API
+  slug: open-vatstack-quotes-api
+- collection_type: open
+  name: Vatstack API Specification Batches Rates API
+  slug: open-vatstack-rates-api
+- collection_type: open
+  name: Vatstack API Specification Batches Supplies API
+  slug: open-vatstack-supplies-api
+- collection_type: open
+  name: Vatstack API Specification Batches Validations API
+  slug: open-vatstack-validations-api
 common:
 - group: agent
   title: ''
@@ -196,7 +221,7 @@ plans:
 - name: Vatstack Plans Pricing
   plan_count: 3
   slug: vatstack-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 8
   name: Vatstack Rate Limits
@@ -230,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/screenshots/vatstack-2026-06-20T200843.png
 security:

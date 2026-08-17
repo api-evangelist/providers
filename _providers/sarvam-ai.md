@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,12 +57,33 @@ apis:
 - description: The Transliterate API from Sarvam AI — 1 operation(s) for transliterate.
   name: Sarvam AI Transliterate API
   slug: sarvam-ai-transliterate-api
-artifact_total: 15
+artifact_total: 22
 asyncapis:
 - description: AsyncAPI 2.6 description of Sarvam AI's **chat completion streaming** surface. Sarvam's chat completions endpoint streams partial results as **HTTP Server-Sent Events (SSE)** over the same REST endpoi
   name: Sarvam AI Chat Completions Streaming (HTTP + SSE)
   slug: sarvam-ai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sarvam AI Chat API
+  slug: open-sarvam-ai-chat-api
+- collection_type: open
+  name: Sarvam AI Chat Language Identification API
+  slug: open-sarvam-ai-language-identification-api
+- collection_type: open
+  name: Sarvam AI Chat Speech to Text API
+  slug: open-sarvam-ai-speech-to-text-api
+- collection_type: open
+  name: Sarvam AI Chat Text to Speech API
+  slug: open-sarvam-ai-text-to-speech-api
+- collection_type: open
+  name: Sarvam AI Chat Translate API
+  slug: open-sarvam-ai-translate-api
+- collection_type: open
+  name: Sarvam AI Chat Transliterate API
+  slug: open-sarvam-ai-transliterate-api
 - collection_type: open
   name: Sarvam AI API
   slug: open-sarvam-ai
@@ -134,7 +155,7 @@ plans:
 - name: Sarvam Ai Plans Pricing
   plan_count: 3
   slug: sarvam-ai-plans-pricing
-random_paper: 57
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Sarvam Ai Rate Limits
@@ -168,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

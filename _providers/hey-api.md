@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -59,11 +59,33 @@ apis:
 - description: The Users API from Hey API — 6 operation(s) for users.
   name: Hey API Users API
   slug: hey-api-users-api
-artifact_total: 14
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Hey Api Platform Webhooks
   slug: hey-api-platform-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hey Get API
+  slug: open-hey-api-get-api
+- collection_type: open
+  name: Hey Hey API API
+  slug: open-hey-api-hey-api-api
+- collection_type: open
+  name: Hey Internal API
+  slug: open-hey-api-internal-api
+- collection_type: open
+  name: Hey Organizations API
+  slug: open-hey-api-organizations-api
+- collection_type: open
+  name: Hey Specifications API
+  slug: open-hey-api-specifications-api
+- collection_type: open
+  name: Hey Users API
+  slug: open-hey-api-users-api
 common:
 - group: other
   title: ''
@@ -216,7 +238,7 @@ plans:
 - name: Hey Api Plans Pricing
   plan_count: 3
   slug: hey-api-plans-pricing
-random_paper: 85
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Hey Api Rate Limits
@@ -243,7 +265,7 @@ score:
       total: 6
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/screenshots/hey-api-2026-06-20T182713.png
 security:

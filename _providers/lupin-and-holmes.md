@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Lupin & Holmes is profiled on the [APIs.io](https://apis.io/) network
 
 
   Lupin & Holmes'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 37
+random_paper: 107
 score:
   band: minimal
   composite: 11.7
@@ -97,7 +97,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 11.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lupin-and-holmes/refs/heads/main/screenshots/lupin-and-holmes-2026-07-25T225731.png
 security:

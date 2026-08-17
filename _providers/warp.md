@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Operations for creating and managing scheduled agents
   name: Warp schedules API
   slug: warp-schedules-api
-artifact_total: 23
+artifact_total: 27
 collections:
 - collection_type: postman
   name: Oz agent API
@@ -65,6 +65,18 @@ collections:
 - collection_type: postman
   name: Oz agent schedules API
   slug: postman-warp-schedules-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oz agent API
+  slug: open-warp-agent-api
+- collection_type: open
+  name: Oz agent harness-support API
+  slug: open-warp-harness-support-api
+- collection_type: open
+  name: Oz agent schedules API
+  slug: open-warp-schedules-api
 common:
 - group: build
   title: ''
@@ -194,7 +206,7 @@ plans:
 - name: Warp Plans Pricing
   plan_count: 5
   slug: warp-plans-pricing
-random_paper: 82
+random_paper: 144
 rate_limits:
 - limit_count: 3
   name: Warp Rate Limits
@@ -228,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/screenshots/warp-2026-06-20T201231.png
 security:

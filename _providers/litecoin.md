@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,7 +69,38 @@ apis:
 - description: Unspent transaction output query endpoints
   name: Litecoin UTXO API
   slug: litecoin-utxo-api
-artifact_total: 25
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Litecoin Core JSON-RPC Addresses API
+  slug: open-litecoin-addresses-api
+- collection_type: open
+  name: Litecoin Core JSON-RPC Addresses Blockchain API
+  slug: open-litecoin-blockchain-api
+- collection_type: open
+  name: Litecoin Core JSON-RPC Addresses Blocks API
+  slug: open-litecoin-blocks-api
+- collection_type: open
+  name: Litecoin Core JSON-RPC Addresses Fees API
+  slug: open-litecoin-fees-api
+- collection_type: open
+  name: Litecoin Core Addresses JSON-RPC API
+  slug: open-litecoin-json-rpc-api
+- collection_type: open
+  name: Litecoin Core JSON-RPC Addresses Mempool API
+  slug: open-litecoin-mempool-api
+- collection_type: open
+  name: Litecoin Core JSON-RPC Addresses Mining API
+  slug: open-litecoin-mining-api
+- collection_type: open
+  name: Litecoin Core JSON-RPC Addresses Transactions API
+  slug: open-litecoin-transactions-api
+- collection_type: open
+  name: Litecoin Core JSON-RPC Addresses UTXO API
+  slug: open-litecoin-utxo-api
 common:
 - group: commercial
   title: ''
@@ -157,7 +188,7 @@ plans:
 - name: Litecoin Space Websocket
   plan_count: 2
   slug: litecoin-space-websocket
-random_paper: 15
+random_paper: 110
 rate_limits:
 - limit_count: 0
   name: Litecoin Core Json Rpc
@@ -197,7 +228,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/screenshots/litecoin-2026-06-20T184600.png
 security:

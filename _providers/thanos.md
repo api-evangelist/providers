@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,26 +68,56 @@ apis:
 - description: The Targets API from Thanos — 1 operation(s) for targets.
   name: Thanos Targets API
   slug: thanos-targets-api
-artifact_total: 52
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thanos Compact Alerts API
+  slug: open-thanos-alerts-api
+- collection_type: open
+  name: Thanos Compact Alerts Blocks API
+  slug: open-thanos-blocks-api
 - collection_type: open
   name: Thanos Compact API
   slug: open-thanos-compact
 - collection_type: open
-  name: Thanos Query API
+  name: Thanos Compact Alerts Health API
+  slug: open-thanos-health-api
+- collection_type: open
+  name: Thanos Compact Alerts Metadata API
+  slug: open-thanos-metadata-api
+- collection_type: open
+  name: Thanos Compact Alerts Metrics API
+  slug: open-thanos-metrics-api
+- collection_type: open
+  name: Thanos Compact Alerts Query API
   slug: open-thanos-query-api
 - collection_type: open
   name: Thanos Receive API
   slug: open-thanos-receive
 - collection_type: open
+  name: Thanos Compact Alerts Remote Write API
+  slug: open-thanos-remote-write-api
+- collection_type: open
   name: Thanos Ruler API
   slug: open-thanos-ruler
+- collection_type: open
+  name: Thanos Compact Alerts Rules API
+  slug: open-thanos-rules-api
 - collection_type: open
   name: Thanos Sidecar API
   slug: open-thanos-sidecar
 - collection_type: open
   name: Thanos Store Gateway API
   slug: open-thanos-store-gateway
+- collection_type: open
+  name: Thanos Compact Alerts Stores API
+  slug: open-thanos-stores-api
+- collection_type: open
+  name: Thanos Compact Alerts Targets API
+  slug: open-thanos-targets-api
 common:
 - group: agent
   title: ''
@@ -268,7 +298,7 @@ plans:
 - name: Thanos Plans Pricing
   plan_count: 1
   slug: thanos-plans-pricing
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Thanos Rate Limits
@@ -310,7 +340,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/screenshots/thanos-2026-06-20T195209.png
 security:

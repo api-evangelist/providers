@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ apis:
 - description: REST API for programmatic interaction with Findigs and integration of Findigs data into existing property management systems and workflows. Covers listings (the window during which a unit accepts rent
   name: Findigs Client API
   slug: findigs-client-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Findigs Webhooks
@@ -41,6 +41,9 @@ collections:
 - collection_type: postman
   name: Findigs Client API
   slug: postman-findigs-client-api
+- collection_type: open
+  name: Findigs Client API
+  slug: open-findigs-client-api
 common:
 - group: company
   title: ''
@@ -190,7 +193,7 @@ plans:
 - name: Findigs Plans Pricing
   plan_count: 3
   slug: findigs-plans-pricing
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 0
   name: Findigs Rate Limits
@@ -198,6 +201,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.0
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 60.4
@@ -205,6 +209,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 23.7
+  previous_composite: 54.0
   regulatory:
     applies: true
     matched_via: tags
@@ -212,7 +217,8 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Findigs Authentication

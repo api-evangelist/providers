@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -273,12 +273,249 @@ apis:
 - description: The Update Test Case Definition API from Retell AI — 1 operation(s) for update test case definition.
   name: Retell AI Update Test Case Definition API
   slug: retell-ai-update-test-case-definition-api
-artifact_total: 87
+artifact_total: 166
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Retell AI''s publicly documented WebSocket surfaces. All events are sourced from the official Retell AI documentation (https://docs.retellai.com) and cover: * Custom LLM Web'
   name: Retell AI WebSocket APIs
   slug: retell-ai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Retell SDK Add Community Voice API
+  slug: open-retell-ai-add-community-voice-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Add Knowledge Base Sources API
+  slug: open-retell-ai-add-knowledge-base-sources-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Agent Playground Completion API
+  slug: open-retell-ai-agent-playground-completion-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Clone Voice API
+  slug: open-retell-ai-clone-voice-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Agent API
+  slug: open-retell-ai-create-agent-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Agent Version API
+  slug: open-retell-ai-create-agent-version-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Batch Call API
+  slug: open-retell-ai-create-batch-call-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Batch Test API
+  slug: open-retell-ai-create-batch-test-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Chat Agent API
+  slug: open-retell-ai-create-chat-agent-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Chat API
+  slug: open-retell-ai-create-chat-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Chat Completion API
+  slug: open-retell-ai-create-chat-completion-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Conversation Flow API
+  slug: open-retell-ai-create-conversation-flow-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Conversation Flow Component API
+  slug: open-retell-ai-create-conversation-flow-component-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Knowledge Base API
+  slug: open-retell-ai-create-knowledge-base-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Phone Call API
+  slug: open-retell-ai-create-phone-call-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Phone Number API
+  slug: open-retell-ai-create-phone-number-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Retell Llm API
+  slug: open-retell-ai-create-retell-llm-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Sms Chat API
+  slug: open-retell-ai-create-sms-chat-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Test Case Definition API
+  slug: open-retell-ai-create-test-case-definition-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Create Web Call API
+  slug: open-retell-ai-create-web-call-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Agent API
+  slug: open-retell-ai-delete-agent-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Agent Version API
+  slug: open-retell-ai-delete-agent-version-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Call API
+  slug: open-retell-ai-delete-call-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Chat Agent API
+  slug: open-retell-ai-delete-chat-agent-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Conversation Flow API
+  slug: open-retell-ai-delete-conversation-flow-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Conversation Flow Component API
+  slug: open-retell-ai-delete-conversation-flow-component-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Knowledge Base API
+  slug: open-retell-ai-delete-knowledge-base-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Knowledge Base Source API
+  slug: open-retell-ai-delete-knowledge-base-source-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Phone Number API
+  slug: open-retell-ai-delete-phone-number-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Retell Llm API
+  slug: open-retell-ai-delete-retell-llm-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Delete Test Case Definition API
+  slug: open-retell-ai-delete-test-case-definition-api
+- collection_type: open
+  name: Retell SDK Add Community Voice End Chat API
+  slug: open-retell-ai-end-chat-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Agent API
+  slug: open-retell-ai-get-agent-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Agent Versions API
+  slug: open-retell-ai-get-agent-versions-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Batch Test API
+  slug: open-retell-ai-get-batch-test-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Call API
+  slug: open-retell-ai-get-call-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Chat Agent API
+  slug: open-retell-ai-get-chat-agent-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Chat Agent Versions API
+  slug: open-retell-ai-get-chat-agent-versions-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Chat API
+  slug: open-retell-ai-get-chat-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Concurrency API
+  slug: open-retell-ai-get-concurrency-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Conversation Flow API
+  slug: open-retell-ai-get-conversation-flow-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Conversation Flow Component API
+  slug: open-retell-ai-get-conversation-flow-component-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Knowledge Base API
+  slug: open-retell-ai-get-knowledge-base-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Mcp Tools API
+  slug: open-retell-ai-get-mcp-tools-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Phone Number API
+  slug: open-retell-ai-get-phone-number-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Retell Llm API
+  slug: open-retell-ai-get-retell-llm-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Test Case Definition API
+  slug: open-retell-ai-get-test-case-definition-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Test Run API
+  slug: open-retell-ai-get-test-run-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Get Voice API
+  slug: open-retell-ai-get-voice-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Import Phone Number API
+  slug: open-retell-ai-import-phone-number-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Agents API
+  slug: open-retell-ai-list-agents-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Batch Tests API
+  slug: open-retell-ai-list-batch-tests-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Calls API
+  slug: open-retell-ai-list-calls-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Chat Agents API
+  slug: open-retell-ai-list-chat-agents-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Chat API
+  slug: open-retell-ai-list-chat-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Chats API
+  slug: open-retell-ai-list-chats-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Conversation Flow Components API
+  slug: open-retell-ai-list-conversation-flow-components-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Conversation Flows API
+  slug: open-retell-ai-list-conversation-flows-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Export Requests API
+  slug: open-retell-ai-list-export-requests-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Knowledge Bases API
+  slug: open-retell-ai-list-knowledge-bases-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Phone Numbers API
+  slug: open-retell-ai-list-phone-numbers-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Retell Llms API
+  slug: open-retell-ai-list-retell-llms-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Test Case Definitions API
+  slug: open-retell-ai-list-test-case-definitions-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Test Runs API
+  slug: open-retell-ai-list-test-runs-api
+- collection_type: open
+  name: Retell SDK Add Community Voice List Voices API
+  slug: open-retell-ai-list-voices-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Publish Agent Version API
+  slug: open-retell-ai-publish-agent-version-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Register Phone Call API
+  slug: open-retell-ai-register-phone-call-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Search Community Voice API
+  slug: open-retell-ai-search-community-voice-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Stop Call API
+  slug: open-retell-ai-stop-call-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Update Agent API
+  slug: open-retell-ai-update-agent-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Update Call API
+  slug: open-retell-ai-update-call-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Update Chat Agent API
+  slug: open-retell-ai-update-chat-agent-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Update Chat API
+  slug: open-retell-ai-update-chat-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Update Conversation Flow API
+  slug: open-retell-ai-update-conversation-flow-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Update Conversation Flow Component API
+  slug: open-retell-ai-update-conversation-flow-component-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Update Phone Number API
+  slug: open-retell-ai-update-phone-number-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Update Retell Llm API
+  slug: open-retell-ai-update-retell-llm-api
+- collection_type: open
+  name: Retell SDK Add Community Voice Update Test Case Definition API
+  slug: open-retell-ai-update-test-case-definition-api
 - collection_type: open
   name: Retell SDK
   slug: open-retell-ai
@@ -358,7 +595,7 @@ plans:
 - name: Retell Ai Plans Pricing
   plan_count: 3
   slug: retell-ai-plans-pricing
-random_paper: 55
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Retell Ai Rate Limits
@@ -392,7 +629,7 @@ score:
       marker_coverage: 0.0
       total: 78
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/screenshots/retell-ai-2026-06-20T193039.png
 security:

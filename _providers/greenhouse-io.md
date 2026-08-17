@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ apis:
 - description: Inspect the current authenticated user.
   name: Greenhouse Users API
   slug: greenhouse-io-users-api
-artifact_total: 93
+artifact_total: 119
 collections:
 - collection_type: postman
   name: Greenhouse Assessment Partner ActivityFeed API
@@ -198,6 +198,9 @@ collections:
   name: Greenhouse Assessment Partner ActivityFeed Users API
   slug: postman-greenhouse-io-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Greenhouse Assessment Partner API
   slug: open-greenhouse-assessment-api
 - collection_type: open
@@ -209,6 +212,81 @@ collections:
 - collection_type: open
   name: Greenhouse Harvest API
   slug: open-greenhouse-harvest-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed API
+  slug: open-greenhouse-io-activityfeed-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Applications API
+  slug: open-greenhouse-io-applications-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Approvals API
+  slug: open-greenhouse-io-approvals-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Auth API
+  slug: open-greenhouse-io-auth-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Candidates API
+  slug: open-greenhouse-io-candidates-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed CustomFields API
+  slug: open-greenhouse-io-customfields-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Departments API
+  slug: open-greenhouse-io-departments-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Events API
+  slug: open-greenhouse-io-events-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed GraphQL API
+  slug: open-greenhouse-io-graphql-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed JobOpenings API
+  slug: open-greenhouse-io-jobopenings-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed JobPosts API
+  slug: open-greenhouse-io-jobposts-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Jobs API
+  slug: open-greenhouse-io-jobs-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed JobStages API
+  slug: open-greenhouse-io-jobstages-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Offers API
+  slug: open-greenhouse-io-offers-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Offices API
+  slug: open-greenhouse-io-offices-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed ProspectPools API
+  slug: open-greenhouse-io-prospectpools-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed RejectionReasons API
+  slug: open-greenhouse-io-rejectionreasons-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed ScheduledInterviews API
+  slug: open-greenhouse-io-scheduledinterviews-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Scorecards API
+  slug: open-greenhouse-io-scorecards-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Sources API
+  slug: open-greenhouse-io-sources-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Tags API
+  slug: open-greenhouse-io-tags-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed TestDelivery API
+  slug: open-greenhouse-io-testdelivery-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Tests API
+  slug: open-greenhouse-io-tests-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed TrackingLinks API
+  slug: open-greenhouse-io-trackinglinks-api
+- collection_type: open
+  name: Greenhouse Assessment Partner ActivityFeed Users API
+  slug: open-greenhouse-io-users-api
 - collection_type: open
   name: Greenhouse Job Board API
   slug: open-greenhouse-job-board-api
@@ -421,7 +499,7 @@ plans:
 - name: Greenhouse Io Plans Pricing
   plan_count: 3
   slug: greenhouse-io-plans-pricing
-random_paper: 18
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Greenhouse Io Rate Limits
@@ -460,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/screenshots/greenhouse-io-2026-06-20T182402.png
 security:

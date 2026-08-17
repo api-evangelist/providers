@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for the MakeLeaps cloud invoicing platform. Authenticated with OAuth 2.0 client-credentials against api.makeleaps.com, it exposes partner-scoped resources for clients, documents (invoices, qu
@@ -124,7 +124,7 @@ overview: 'MakeLeaps publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   MakeLeaps'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 107
+random_paper: 53
 score:
   band: thin
   composite: 28.1
@@ -147,7 +147,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makeleaps/refs/heads/main/screenshots/makeleaps-2026-07-25T225937.png
 security:

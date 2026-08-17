@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -46,7 +46,17 @@ apis:
 - description: AdvancedMD's proprietary partner API family, published in both XML-RPC and REST formats, which lets developers build companion applications that replicate functionality available in the AdvancedMD use
   name: AdvancedMD Connect APIs
   slug: advancedmd-connect-apis
-artifact_total: 12
+artifact_total: 16
+collections:
+- collection_type: open
+  name: AdvancedMD Application Access APIs
+  slug: open-advancedmd-application-access-apis-swagger
+- collection_type: open
+  name: FHIR Bulk API
+  slug: open-advancedmd-fhir-bulk-api
+- collection_type: open
+  name: FHIR Single API - US Core 6.1.0
+  slug: open-advancedmd-fhir-single-api
 common:
 - group: agent
   title: ''
@@ -184,6 +194,10 @@ common:
   title: ''
   type: RateLimits
   url: rate-limits/advancedmd-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/advancedmd-plans-pricing.yml
 - group: start
   title: ''
   type: Sandbox
@@ -229,15 +243,19 @@ mcp_servers:
 - description: ''
   name: advancedmd-mcp.yml
   slug: advancedmd-mcpyml
-modified: '2026-08-06'
+modified: '2026-08-15'
 name: AdvancedMD
 nav: Providers
 network: true
 overview: 'AdvancedMD publishes 3 APIs on the [APIs.io](https://apis.io/) network: FHIR Single API (US Core 6.1.0), FHIR Bulk API, and Application Access APIs (Legacy Patient APIs). Tagged areas include Healthcare, United States, EHR, EMR, and Practice Management.
 
 
-  AdvancedMD''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, FAQ, signup flow, and 36 more developer resources.'
-random_paper: 71
+  AdvancedMD''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, FAQ, signup flow, and 37 more developer resources.'
+plans:
+- name: Advancedmd Plans Pricing
+  plan_count: 6
+  slug: advancedmd-plans-pricing
+random_paper: 137
 rate_limits:
 - limit_count: 0
   name: Advancedmd Rate Limits
@@ -248,11 +266,11 @@ scopes:
   slug: advancedmd-scopes
   summary_line: 128 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 52.2
-  delta: 0.0
+  band: strong
+  composite: 57.5
+  delta: 5.3
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 84.2
     contract_quality: 52.1
     developer_ergonomics: 62.5
     discoverability: 83.3
@@ -276,8 +294,8 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/screenshots/advancedmd-2026-08-07T160939.png
 security:
 - kind: authentication

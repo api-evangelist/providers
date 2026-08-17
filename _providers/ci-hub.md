@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The HTTP API a partner platform calls to embed CI HUB's DAM connectivity in its own product. A partner backend signs an RS256 JWT and exchanges it at POST /auth/exchangeToken for a CI HUB access token
@@ -30,7 +30,11 @@ apis:
 - description: A hosted, remote Model Context Protocol server that gives an AI client governed access to the DAM systems a user has connected through CI HUB. It exposes core system, asset and folder tools — provider
   name: CI HUB MCP Server (Bright AI Connector)
   slug: mcp
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: CI HUB Access SDK API
+  slug: open-ci-hub-access
 common:
 - group: company
   title: ''
@@ -149,7 +153,7 @@ plans:
 - name: Ci Hub Plans Pricing
   plan_count: 12
   slug: ci-hub-plans-pricing
-random_paper: 88
+random_paper: 121
 rate_limits:
 - limit_count: 2
   name: Ci Hub Rate Limits
@@ -162,6 +166,7 @@ scopes:
 score:
   band: strong
   composite: 56.9
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 57.3
@@ -169,8 +174,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 26.3
+  previous_composite: 56.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Ci Hub Authentication

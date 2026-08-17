@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Runs API from UpTrain — 3 operation(s) for runs.
   name: UpTrain Runs API
   slug: uptrain-runs-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UpTrain Managed Evaluation Auth API
+  slug: open-uptrain-auth-api
+- collection_type: open
+  name: UpTrain Managed Evaluation Auth Checksets API
+  slug: open-uptrain-checksets-api
+- collection_type: open
+  name: UpTrain Managed Evaluation Auth Datasets API
+  slug: open-uptrain-datasets-api
+- collection_type: open
+  name: UpTrain Managed Auth Evaluation API
+  slug: open-uptrain-evaluation-api
+- collection_type: open
+  name: UpTrain Managed Evaluation Auth Root Cause Analysis API
+  slug: open-uptrain-root-cause-analysis-api
+- collection_type: open
+  name: UpTrain Managed Evaluation Auth Runs API
+  slug: open-uptrain-runs-api
 - collection_type: open
   name: UpTrain Managed Evaluation API
   slug: open-uptrain
@@ -123,7 +144,7 @@ plans:
 - name: Uptrain Plans Pricing
   plan_count: 2
   slug: uptrain-plans-pricing
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Uptrain Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/screenshots/uptrain-2026-06-20T200550.png
 security:

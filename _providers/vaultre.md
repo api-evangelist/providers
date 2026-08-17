@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 0
@@ -49,11 +49,24 @@ apis:
 - description: A deliberately separate write-only ingestion API that lets other CRM systems feed property data into VaultRE on behalf of a franchise-group agency. Six documented operations accept staff records and p
   name: VaultRE Aggregator API
   slug: vaultre-aggregator-api
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Vaultre Webhooks
   slug: vaultre-webhooks
+collections:
+- collection_type: open
+  name: VaultRE Aggregator
+  slug: open-vaultre-aggregator-api-v1-0
+- collection_type: open
+  name: VaultRE
+  slug: open-vaultre-api-v1-1
+- collection_type: open
+  name: VaultRE
+  slug: open-vaultre-api-v1-2
+- collection_type: open
+  name: VaultRE
+  slug: open-vaultre-api-v1-3
 common:
 - group: agent
   title: ''
@@ -216,7 +229,7 @@ overview: 'VaultRE publishes 3 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   VaultRE''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, code examples, signup flow, and 28 more developer resources.'
-random_paper: 51
+random_paper: 26
 scopes:
 - name: Vaultre Scopes
   scope_count: 0
@@ -245,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/screenshots/vaultre-2026-07-27T125402.png
 security:

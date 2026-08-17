@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -90,11 +90,38 @@ apis:
 - description: The Webhooks API from Formstack — 2 operation(s) for webhooks.
   name: Formstack Webhooks API
   slug: formstack-webhooks-api
-artifact_total: 28
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Formstack Webhooks
   slug: open-formstack-asyncapi
+- collection_type: open
+  name: Formstack Confirmations API
+  slug: open-formstack-confirmations-api
+- collection_type: open
+  name: Formstack Confirmations Fields API
+  slug: open-formstack-fields-api
+- collection_type: open
+  name: Formstack Confirmations Folders API
+  slug: open-formstack-folders-api
+- collection_type: open
+  name: Formstack Confirmations Forms API
+  slug: open-formstack-forms-api
+- collection_type: open
+  name: Formstack Confirmations Notifications API
+  slug: open-formstack-notifications-api
+- collection_type: open
+  name: Formstack Confirmations Subaccounts API
+  slug: open-formstack-subaccounts-api
+- collection_type: open
+  name: Formstack Confirmations Submissions API
+  slug: open-formstack-submissions-api
+- collection_type: open
+  name: Formstack Confirmations Webhooks API
+  slug: open-formstack-webhooks-api
 - collection_type: open
   name: Formstack API
   slug: open-formstack
@@ -175,7 +202,7 @@ plans:
 - name: Formstack Plans Pricing
   plan_count: 1
   slug: formstack-plans-pricing
-random_paper: 10
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Formstack Rate Limits
@@ -205,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/screenshots/formstack-2026-06-20T181438.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: Public Safety operations
   name: Motorola Solutions Public Safety API
   slug: motorola-solutions-public-safety-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Motorola Solutions API
   slug: open-motorola-solutions-motorola-api
+- collection_type: open
+  name: Motorola Solutions Public Safety API
+  slug: open-motorola-solutions-public-safety-api
 common:
 - group: agent
   title: ''
@@ -108,7 +114,7 @@ press:
 - date: '2026-05-25'
   title: Motorola Solutions Opens New AI and Resilience Software ...
   url: https://www.businesswire.com/news/home/20260521618405/en/Motorola-Solutions-Opens-New-AI-and-Resilience-Software-Hub-in-Boston-Massachusetts
-random_paper: 10
+random_paper: 142
 rate_limits:
 - limit_count: 1
   name: Motorola Solutions Rate Limits
@@ -133,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motorola-solutions/refs/heads/main/screenshots/motorola-solutions-2026-06-20T185835.png
 security:

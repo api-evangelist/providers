@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,7 +56,26 @@ apis:
 - description: Health checks and metrics endpoints.
   name: Apache BookKeeper Monitoring API
   slug: apache-bookkeeper-monitoring-api
-artifact_total: 56
+artifact_total: 62
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache BookKeeper Admin Auto Recovery API
+  slug: open-apache-bookkeeper-auto-recovery-api
+- collection_type: open
+  name: Apache BookKeeper Admin Auto Recovery Bookies API
+  slug: open-apache-bookkeeper-bookies-api
+- collection_type: open
+  name: Apache BookKeeper Admin Auto Recovery Configuration API
+  slug: open-apache-bookkeeper-configuration-api
+- collection_type: open
+  name: Apache BookKeeper Admin Auto Recovery Ledgers API
+  slug: open-apache-bookkeeper-ledgers-api
+- collection_type: open
+  name: Apache BookKeeper Admin Auto Recovery Monitoring API
+  slug: open-apache-bookkeeper-monitoring-api
 common:
 - group: operate
   title: ''
@@ -250,7 +269,7 @@ plans:
 - name: Apache Bookkeeper Plans Pricing
   plan_count: 3
   slug: apache-bookkeeper-plans-pricing
-random_paper: 38
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Apache Bookkeeper Rate Limits
@@ -292,7 +311,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/screenshots/apache-bookkeeper-2026-06-20T172044.png
 security:

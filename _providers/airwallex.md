@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: The Transfers API from Airwallex — 2 operation(s) for transfers.
   name: Airwallex Transfers API
   slug: airwallex-transfers-api
-artifact_total: 62
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Airwallex Open Authentication API
@@ -107,6 +107,33 @@ collections:
 - collection_type: postman
   name: Airwallex Open Authentication Transfers API
   slug: postman-airwallex-transfers-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airwallex Open Authentication API
+  slug: open-airwallex-authentication-api
+- collection_type: open
+  name: Airwallex Open Authentication Balances API
+  slug: open-airwallex-balances-api
+- collection_type: open
+  name: Airwallex Open Authentication Beneficiaries API
+  slug: open-airwallex-beneficiaries-api
+- collection_type: open
+  name: Airwallex Open Authentication Customers API
+  slug: open-airwallex-customers-api
+- collection_type: open
+  name: Airwallex Open Authentication Payment Intents API
+  slug: open-airwallex-payment-intents-api
+- collection_type: open
+  name: Airwallex Open Authentication Payouts API
+  slug: open-airwallex-payouts-api
+- collection_type: open
+  name: Airwallex Open Authentication Refunds API
+  slug: open-airwallex-refunds-api
+- collection_type: open
+  name: Airwallex Open Authentication Transfers API
+  slug: open-airwallex-transfers-api
 - collection_type: open
   name: Airwallex Open API
   slug: open-airwallex
@@ -281,7 +308,7 @@ plans:
 - name: Airwallex Plans Pricing
   plan_count: 3
   slug: airwallex-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Airwallex Rate Limits
@@ -329,7 +356,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png
 security:

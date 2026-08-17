@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Manage sequences (emailer campaigns) and outreach emails.
   name: Apollo.io Sequences API
   slug: apollo-enrich-sequences-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apollo.io Accounts API
+  slug: open-apollo-enrich-accounts-api
+- collection_type: open
+  name: Apollo.io Accounts Contacts API
+  slug: open-apollo-enrich-contacts-api
+- collection_type: open
+  name: Apollo.io Accounts Organization Enrichment API
+  slug: open-apollo-enrich-organization-enrichment-api
+- collection_type: open
+  name: Apollo.io Accounts Organization Search API
+  slug: open-apollo-enrich-organization-search-api
+- collection_type: open
+  name: Apollo.io Accounts People Enrichment API
+  slug: open-apollo-enrich-people-enrichment-api
+- collection_type: open
+  name: Apollo.io Accounts People Search API
+  slug: open-apollo-enrich-people-search-api
+- collection_type: open
+  name: Apollo.io Accounts Sequences API
+  slug: open-apollo-enrich-sequences-api
 - collection_type: open
   name: Apollo.io API
   slug: open-apollo-enrich
@@ -134,7 +158,7 @@ plans:
 - name: Apollo Enrich Plans Pricing
   plan_count: 5
   slug: apollo-enrich-plans-pricing
-random_paper: 5
+random_paper: 133
 rate_limits:
 - limit_count: 6
   name: Apollo Enrich Rate Limits
@@ -159,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/screenshots/apollo-enrich-2026-07-25T200708.png
 security:

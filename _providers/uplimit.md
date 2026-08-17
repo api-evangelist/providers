@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Course API from Uplimit — 3 operation(s) for course.
@@ -49,7 +49,29 @@ apis:
 - description: The User API from Uplimit — 10 operation(s) for user.
   name: Uplimit User API
   slug: uplimit-user-api
-artifact_total: 9
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Uplimit Organization Course API
+  slug: open-uplimit-course-api
+- collection_type: open
+  name: Uplimit Organization Course Enrollment API
+  slug: open-uplimit-enrollment-api
+- collection_type: open
+  name: Uplimit Organization Course Export API
+  slug: open-uplimit-export-api
+- collection_type: open
+  name: Uplimit Organization Course Platform API
+  slug: open-uplimit-platform-api
+- collection_type: open
+  name: Uplimit Organization Course Session API
+  slug: open-uplimit-session-api
+- collection_type: open
+  name: Uplimit Organization Course User API
+  slug: open-uplimit-user-api
 common:
 - group: auth
   title: ''
@@ -159,7 +181,7 @@ overview: 'Uplimit publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Uplimit''s developer surface includes engineering blog, authentication, and 21 more developer resources.'
-random_paper: 52
+random_paper: 27
 score:
   band: thin
   composite: 35.0
@@ -182,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

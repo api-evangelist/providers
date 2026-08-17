@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -146,7 +146,119 @@ apis:
 - description: The widgets API from LanzaTech — 2 operation(s) for widgets.
   name: LanzaTech widgets API
   slug: lanzatech-widgets-api
-artifact_total: 40
+artifact_total: 77
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory API
+  slug: open-lanzatech-block-directory-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory block-patterns API
+  slug: open-lanzatech-block-patterns-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory block-renderer API
+  slug: open-lanzatech-block-renderer-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory block-types API
+  slug: open-lanzatech-block-types-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory blocks API
+  slug: open-lanzatech-blocks-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory board-member API
+  slug: open-lanzatech-board-member-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory categories API
+  slug: open-lanzatech-categories-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory comments API
+  slug: open-lanzatech-comments-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory download API
+  slug: open-lanzatech-download-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory employee API
+  slug: open-lanzatech-employee-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory global-styles API
+  slug: open-lanzatech-global-styles-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory jet-engine API
+  slug: open-lanzatech-jet-engine-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory media API
+  slug: open-lanzatech-media-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory menu-items API
+  slug: open-lanzatech-menu-items-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory menu-locations API
+  slug: open-lanzatech-menu-locations-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory menus API
+  slug: open-lanzatech-menus-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory navigation API
+  slug: open-lanzatech-navigation-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory news API
+  slug: open-lanzatech-news-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory pages API
+  slug: open-lanzatech-pages-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory pattern-directory API
+  slug: open-lanzatech-pattern-directory-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory plugins API
+  slug: open-lanzatech-plugins-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory posts API
+  slug: open-lanzatech-posts-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory search API
+  slug: open-lanzatech-search-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory settings API
+  slug: open-lanzatech-settings-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory sidebars API
+  slug: open-lanzatech-sidebars-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory statuses API
+  slug: open-lanzatech-statuses-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory tags API
+  slug: open-lanzatech-tags-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory taxonomies API
+  slug: open-lanzatech-taxonomies-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory template-parts API
+  slug: open-lanzatech-template-parts-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory templates API
+  slug: open-lanzatech-templates-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory testimonial API
+  slug: open-lanzatech-testimonial-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory themes API
+  slug: open-lanzatech-themes-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory types API
+  slug: open-lanzatech-types-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory users API
+  slug: open-lanzatech-users-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory widget-types API
+  slug: open-lanzatech-widget-types-api
+- collection_type: open
+  name: LanzaTech WordPress REST block-directory widgets API
+  slug: open-lanzatech-widgets-api
 common:
 - group: other
   title: ''
@@ -268,7 +380,7 @@ overview: 'LanzaTech publishes 36 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LanzaTech''s developer surface includes engineering blog, support, YouTube channel, authentication, and 22 more developer resources.'
-random_paper: 114
+random_paper: 60
 score:
   band: thin
   composite: 32.9
@@ -298,7 +410,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png
 security:

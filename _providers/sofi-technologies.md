@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The SoFi Technologies API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Sofi Technologies Plans Pricing
   plan_count: 1
   slug: sofi-technologies-plans-pricing
-random_paper: 82
+random_paper: 123
 rate_limits:
 - limit_count: 1
   name: Sofi Technologies Rate Limits
@@ -89,7 +89,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/screenshots/sofi-technologies-2026-06-20T194126.png
 security:

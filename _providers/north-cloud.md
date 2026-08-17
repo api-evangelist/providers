@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Manage and retrieve cost unit metric data.
   name: North.Cloud Cost Units API
   slug: north-cloud-cost-units-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: North.Cloud Public Cost Units API
+  slug: open-north-cloud-cost-units-api
 - collection_type: open
   name: North.Cloud Public API
   slug: open-north-cloud
@@ -104,7 +110,7 @@ plans:
 - name: North Cloud Plans Pricing
   plan_count: 3
   slug: north-cloud-plans-pricing
-random_paper: 55
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: North Cloud Rate Limits
@@ -129,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/north-cloud/refs/heads/main/screenshots/north-cloud-2026-06-20T190412.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,7 +103,7 @@ overview: 'Almabase is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Almabase''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
-random_paper: 102
+random_paper: 77
 score:
   band: emerging
   composite: 20.6
@@ -117,7 +117,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/screenshots/almabase-2026-07-25T195731.png
 security:

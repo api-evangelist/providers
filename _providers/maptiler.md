@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,7 +93,44 @@ apis:
 - description: The Weather API from MapTiler — 1 operation(s) for weather.
   name: MapTiler Weather API
   slug: maptiler-weather-api
-artifact_total: 34
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MapTiler Coordinates API
+  slug: open-maptiler-coordinates-api
+- collection_type: open
+  name: MapTiler Coordinates Data API
+  slug: open-maptiler-data-api
+- collection_type: open
+  name: MapTiler Coordinates Elevation API
+  slug: open-maptiler-elevation-api
+- collection_type: open
+  name: MapTiler Coordinates Geocoding API
+  slug: open-maptiler-geocoding-api
+- collection_type: open
+  name: MapTiler Coordinates Geolocation API
+  slug: open-maptiler-geolocation-api
+- collection_type: open
+  name: MapTiler Coordinates Images API
+  slug: open-maptiler-images-api
+- collection_type: open
+  name: MapTiler Coordinates Maps API
+  slug: open-maptiler-maps-api
+- collection_type: open
+  name: MapTiler Coordinates Other API
+  slug: open-maptiler-other-api
+- collection_type: open
+  name: MapTiler Coordinates Static maps API
+  slug: open-maptiler-static-maps-api
+- collection_type: open
+  name: MapTiler Coordinates Tiles API
+  slug: open-maptiler-tiles-api
+- collection_type: open
+  name: MapTiler Coordinates Weather API
+  slug: open-maptiler-weather-api
 common:
 - group: agent
   title: ''
@@ -243,7 +280,7 @@ plans:
 - name: Maptiler Plans Pricing
   plan_count: 4
   slug: maptiler-plans-pricing
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 4
   name: Maptiler Rate Limits
@@ -277,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/screenshots/maptiler-2026-06-20T184936.png
 security:

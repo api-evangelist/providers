@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: Manage non-learner users (instructors, admins).
   name: Class (fka ClassEDU) Users API
   slug: class-fka-classedu-users-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Class Developer Classes API
+  slug: open-class-fka-classedu-classes-api
+- collection_type: open
+  name: Class Developer Classes Enrollments API
+  slug: open-class-fka-classedu-enrollments-api
+- collection_type: open
+  name: Class Developer Classes Launch API
+  slug: open-class-fka-classedu-launch-api
+- collection_type: open
+  name: Class Developer Classes Reporting API
+  slug: open-class-fka-classedu-reporting-api
+- collection_type: open
+  name: Class Developer Classes Schedules API
+  slug: open-class-fka-classedu-schedules-api
+- collection_type: open
+  name: Class Developer Classes Templates API
+  slug: open-class-fka-classedu-templates-api
+- collection_type: open
+  name: Class Developer Classes Users API
+  slug: open-class-fka-classedu-users-api
 common:
 - group: auth
   title: ''
@@ -181,7 +206,7 @@ overview: 'Class (fka ClassEDU) publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Class (fka ClassEDU)''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 21 more developer resources.'
-random_paper: 102
+random_paper: 143
 score:
   band: developing
   composite: 42.7
@@ -205,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/screenshots/class-fka-classedu-2026-07-25T205514.png
 security:

@@ -10,82 +10,133 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 61.3
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 21
-  human_in_the_loop: 0
+- acting_count: 54
+  human_in_the_loop: 1
   name: Apollo Api Documentation Agentic Access
-  operation_count: 28
+  operation_count: 80
   slug: apollo-api-documentation-agentic-access
-  summary_line: 28 operations · 21 acting
+  summary_line: 80 operations · 54 acting · 1 human-in-the-loop
 api_count: 14
 apis:
-- description: The Accounts API from Apollo API Documentation — 3 operation(s) for accounts.
-  name: Apollo API Documentation Accounts API
+- description: Create, update, and search the companies your team tracks in Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 8 operation(s).
+  name: Apollo API Accounts
   slug: apollo-api-documentation-accounts-api
-- description: The Contacts API from Apollo API Documentation — 3 operation(s) for contacts.
-  name: Apollo API Documentation Contacts API
+- description: Query saved analytics reports. Harvested from the Apollo-published OpenAPI 3.1 specification — 1 operation(s).
+  name: Apollo API Analytics
+  slug: apollo-api-documentation-analytics-api
+- description: Log and update call records made inside or outside Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 3 operation(s).
+  name: Apollo API Calls
+  slug: apollo-api-documentation-calls-api
+- description: Create, update, and search the people your team saves in Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 10 operation(s).
+  name: Apollo API Contacts
   slug: apollo-api-documentation-contacts-api
-- description: The Email Accounts API from Apollo API Documentation — 1 operation(s) for email accounts.
-  name: Apollo API Documentation Email Accounts API
-  slug: apollo-api-documentation-email-accounts-api
-- description: The Emailer Campaigns API from Apollo API Documentation — 3 operation(s) for emailer campaigns.
-  name: Apollo API Documentation Emailer Campaigns API
-  slug: apollo-api-documentation-emailer-campaigns-api
-- description: The Mixed Companies API from Apollo API Documentation — 1 operation(s) for mixed companies.
-  name: Apollo API Documentation Mixed Companies API
-  slug: apollo-api-documentation-mixed-companies-api
-- description: The Mixed People API from Apollo API Documentation — 1 operation(s) for mixed people.
-  name: Apollo API Documentation Mixed People API
-  slug: apollo-api-documentation-mixed-people-api
-- description: The Opportunities API from Apollo API Documentation — 3 operation(s) for opportunities.
-  name: Apollo API Documentation Opportunities API
-  slug: apollo-api-documentation-opportunities-api
-- description: The Organizations API from Apollo API Documentation — 2 operation(s) for organizations.
-  name: Apollo API Documentation Organizations API
-  slug: apollo-api-documentation-organizations-api
-- description: The People API from Apollo API Documentation — 2 operation(s) for people.
-  name: Apollo API Documentation People API
-  slug: apollo-api-documentation-people-api
-- description: The Phone Calls API from Apollo API Documentation — 3 operation(s) for phone calls.
-  name: Apollo API Documentation Phone Calls API
-  slug: apollo-api-documentation-phone-calls-api
-- description: The Sync Report API from Apollo API Documentation — 1 operation(s) for sync report.
-  name: Apollo API Documentation Sync Report API
-  slug: apollo-api-documentation-sync-report-api
-- description: The Tasks API from Apollo API Documentation — 3 operation(s) for tasks.
-  name: Apollo API Documentation Tasks API
+- description: Search, export, and retrieve recorded conversations. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
+  name: Apollo API Conversations
+  slug: apollo-api-documentation-conversations-api
+- description: Create, update, and track deals in your pipeline. Harvested from the Apollo-published OpenAPI 3.1 specification — 5 operation(s).
+  name: Apollo API Deals
+  slug: apollo-api-documentation-deals-api
+- description: The Emailer Messages surface of the Apollo API. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
+  name: Apollo API Emailer Messages
+  slug: apollo-api-documentation-emailer-messages-api
+- description: Enrich people and company records, individually or in bulk. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
+  name: Apollo API Enrichment
+  slug: apollo-api-documentation-enrichment-api
+- description: List, create, and update the fields and custom fields in your Apollo account. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
+  name: Apollo API Fields
+  slug: apollo-api-documentation-fields-api
+- description: Users, email accounts, lists, notes, usage stats, and webhook results. Harvested from the Apollo-published OpenAPI 3.1 specification — 12 operation(s).
+  name: Apollo API Miscellaneous
+  slug: apollo-api-documentation-miscellaneous-api
+- description: Search Apollo's database of people, companies, news articles, and job postings. Harvested from the Apollo-published OpenAPI 3.1 specification — 6 operation(s).
+  name: Apollo API Search
+  slug: apollo-api-documentation-search-api
+- description: Manage outreach sequences and the contacts enrolled in them. Harvested from the Apollo-published OpenAPI 3.1 specification — 12 operation(s).
+  name: Apollo API Sequences
+  slug: apollo-api-documentation-sequences-api
+- description: Create and search tasks for your go-to-market workflows. Harvested from the Apollo-published OpenAPI 3.1 specification — 7 operation(s).
+  name: Apollo API Tasks
   slug: apollo-api-documentation-tasks-api
-- description: The Usage Stats API from Apollo API Documentation — 1 operation(s) for usage stats.
-  name: Apollo API Documentation Usage Stats API
-  slug: apollo-api-documentation-usage-stats-api
-- description: The Users API from Apollo API Documentation — 1 operation(s) for users.
-  name: Apollo API Documentation Users API
-  slug: apollo-api-documentation-users-api
-artifact_total: 35
+- description: Apollo's hosted remote Model Context Protocol server. Streamable HTTP transport at https://mcp.apollo.io/mcp, OAuth 2.0 authorization with dynamic client registration, exposing Apollo search, enrichme
+  name: Apollo MCP
+  slug: apollo-api-documentation-mcp
+artifact_total: 53
+asyncapis:
+- description: ''
+  name: Apollo Api Documentation Webhooks
+  slug: apollo-api-documentation-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apollo API — Accounts
+  slug: open-apollo-api-documentation-accounts-api
+- collection_type: open
+  name: Apollo API — Analytics
+  slug: open-apollo-api-documentation-analytics-api
+- collection_type: open
+  name: Apollo API — Calls
+  slug: open-apollo-api-documentation-calls-api
+- collection_type: open
+  name: Apollo API — Contacts
+  slug: open-apollo-api-documentation-contacts-api
+- collection_type: open
+  name: Apollo API — Conversations
+  slug: open-apollo-api-documentation-conversations-api
+- collection_type: open
+  name: Apollo API — Deals
+  slug: open-apollo-api-documentation-deals-api
+- collection_type: open
+  name: Apollo API — Emailer Messages
+  slug: open-apollo-api-documentation-emailer-messages-api
+- collection_type: open
+  name: Apollo API — Enrichment
+  slug: open-apollo-api-documentation-enrichment-api
+- collection_type: open
+  name: Apollo API — Fields
+  slug: open-apollo-api-documentation-fields-api
+- collection_type: open
+  name: Apollo API — Miscellaneous
+  slug: open-apollo-api-documentation-miscellaneous-api
+- collection_type: open
+  name: Apollo API — Search
+  slug: open-apollo-api-documentation-search-api
+- collection_type: open
+  name: Apollo API — Sequences
+  slug: open-apollo-api-documentation-sequences-api
+- collection_type: open
+  name: Apollo API — Tasks
+  slug: open-apollo-api-documentation-tasks-api
 - collection_type: open
   name: Apollo.io API
   slug: open-apollo-api-documentation
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/apollo-api-documentation-authentication.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -113,11 +164,11 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://docs.apollo.io/docs
+  url: https://docs.apollo.io/docs/build-with-apollo
 - group: docs
   title: ''
   type: APIReference
-  url: https://docs.apollo.io/reference
+  url: https://docs.apollo.io/reference/apollo-api
 - group: auth
   title: ''
   type: Authentication
@@ -130,8 +181,140 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.apollo.io/llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/apollo-api-documentation-apollo-rest-api-openapi.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/apollo-api-documentation-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/apollo-api-documentation-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/apollo-api-documentation-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/apollo-api-documentation-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/apollo-api-documentation-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/apollo-api-documentation-enrichment-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/apollo-api-documentation-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.apollo.io/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/apollo-api-documentation-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/apollo-api-documentation-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.apollo.io
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/apollo-api-documentation-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/apollo-api-documentation-conventions.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/apollo-api-documentation-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/apollo-api-documentation-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/apollo-api-documentation-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/apollo-api-documentation-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/apollo-api-documentation-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/apollo-api-documentation-finops.yml
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/apollo-api-documentation.postman_collection.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.apollo.io/
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://docs.apollo.io/docs/create-api-key
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.apollo.io/contact
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://docs.apollo.io/docs/developer-faqs
+- group: learn
+  title: ''
+  type: Tutorials
+  url: https://docs.apollo.io/docs/capabilities
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.apollo.io/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.apollo.io/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://app.apollo.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.apollo.io/terms/api
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.apollo.io/privacy-policy
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.apollo.io/
 created: '2025-07-10'
-description: Apollo.io provides a comprehensive REST API for sales intelligence with over 210 million contacts and 35 million companies. The Apollo API enables data enrichment, people and organization search, CRM management, sequences, deals, analytics, and integrations. Authentication is via API keys or OAuth 2.0 for partner integrations. This repository profiles Apollo.io's API documentation as an example of API documentation best practices.
+description: Apollo.io is a sales intelligence and engagement platform. Its REST API provides programmatic access to a database of over 240 million contacts and 30 million companies, covering people and organization enrichment (single and bulk), people/company/news search, and go-to-market workflow management across accounts, contacts, deals, sequences, emails, tasks, calls, conversations, lists and custom fields. Apollo users authenticate with an API key in the x-api-key header; partners building on behalf of mutual users authenticate with OAuth 2.0. Apollo publishes a complete OpenAPI 3.1 specification, a hosted remote MCP server at mcp.apollo.io, and a first-party CLI.
 features:
 - description: Enrich contact records with data from Apollo's 210M+ contact database.
   name: People Enrichment
@@ -160,34 +343,46 @@ integrations:
 - description: Direct API key access for customers building internal integrations.
   name: API Key Authentication
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: apollo-api-documentation-mcp.yml
+  slug: apollo-api-documentation-mcpyml
+modified: '2026-08-14'
 name: Apollo API Documentation
 nav: Providers
 network: true
-overview: 'Apollo API Documentation publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Email Accounts API, and 11 more. Tagged areas include API Documentation, Best Practices, Data Enrichment, People Search, and Sales Intelligence.
+overview: 'Apollo API Documentation publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Apollo API Accounts, Apollo API Analytics, Apollo API Calls, and 10 more. Tagged areas include API Documentation, Sales Intelligence, Data Enrichment, People Search, and Company Search.
 
 
-  Apollo API Documentation''s developer surface includes engineering blog, documentation, getting-started guide, API reference, authentication, and 6 more developer resources.'
+  The Apollo API Documentation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Apollo API Documentation''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, CLI, quickstart, and 38 more developer resources.'
 plans:
 - name: Apollo Api Documentation Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: apollo-api-documentation-plans-pricing
-random_paper: 53
+random_paper: 69
 rate_limits:
-- limit_count: 5
+- limit_count: 17
   name: Apollo Api Documentation Rate Limits
   slug: apollo-api-documentation-rate-limits
+scopes:
+- name: Apollo Api Documentation Scopes
+  scope_count: 0
+  slug: apollo-api-documentation-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 33.2
-  delta: 0.0
+  band: strong
+  composite: 65.0
+  delta: 31.8
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 47.0
-    developer_ergonomics: 39.1
-    discoverability: 72.2
-    governance: 0.0
-    operational_transparency: 13.2
+    commercial_clarity: 76.3
+    contract_quality: 74.6
+    developer_ergonomics: 78.3
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 36.8
   previous_composite: 33.2
   provenance:
     agentic_access: derived
@@ -197,10 +392,14 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/screenshots/apollo-api-documentation-2026-06-20T172307.png
 security:
+- kind: authentication
+  name: Apollo Api Documentation Authentication
+  slug: apollo-api-documentation-authentication
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Apollo Api Documentation Domain Security
   slug: apollo-api-documentation-domain-security
@@ -212,10 +411,15 @@ security:
 slug: apollo-api-documentation
 tags:
 - API Documentation
-- Best Practices
+- Sales Intelligence
 - Data Enrichment
 - People Search
-- Sales Intelligence
+- Company Search
+- Sales Engagement
+- CRM
+- MCP
+- Agents
+- Go-To-Market
 use_cases:
 - description: Access Apollo's contact and company database for prospecting and outreach.
   name: Sales Intelligence
@@ -225,4 +429,5 @@ use_cases:
   name: Partner Integrations
 - description: Automate sales workflows including sequences, tasks, and deal management.
   name: Workflow Automation
+website: https://docs.apollo.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Everything about your Policies
   name: dope.security Policies API
   slug: dopesecurity-policies-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flightdeck - dope.security - Public API specification Authorization API
+  slug: open-dopesecurity-authorization-api
+- collection_type: open
+  name: Flightdeck - dope.security - Public API specification Authorization Custom Categories API
+  slug: open-dopesecurity-custom-categories-api
+- collection_type: open
+  name: Flightdeck - dope.security - Public API specification Authorization Endpoints API
+  slug: open-dopesecurity-endpoints-api
+- collection_type: open
+  name: Flightdeck - dope.security - Public API specification Authorization Policies API
+  slug: open-dopesecurity-policies-api
 common:
 - group: auth
   title: ''
@@ -205,7 +221,7 @@ overview: 'dope.security publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   dope.security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 27 more developer resources.'
-random_paper: 112
+random_paper: 120
 score:
   band: strong
   composite: 59.1
@@ -229,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/screenshots/dopesecurity-2026-07-25T212307.png
 security:

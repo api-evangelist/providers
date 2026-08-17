@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 5
@@ -123,20 +123,107 @@ apis:
 - description: Username and password auth method
   name: HashiCorp Vault Userpass API
   slug: hvault-userpass-api
-artifact_total: 46
+artifact_total: 75
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole API
+  slug: open-hvault-approle-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Audit API
+  slug: open-hvault-audit-api
+- collection_type: open
+  name: HashiCorp Vault Vault Methods AppRole Auth API
+  slug: open-hvault-auth-api
 - collection_type: open
   name: HashiCorp Vault Vault Auth Methods API
   slug: open-hvault-auth-methods
 - collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole AWS API
+  slug: open-hvault-aws-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Configuration API
+  slug: open-hvault-configuration-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Database API
+  slug: open-hvault-database-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Entity Alias API
+  slug: open-hvault-entity-alias-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Entity API
+  slug: open-hvault-entity-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole GitHub API
+  slug: open-hvault-github-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Group Alias API
+  slug: open-hvault-group-alias-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Group API
+  slug: open-hvault-group-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Health API
+  slug: open-hvault-health-api
+- collection_type: open
   name: HashiCorp Vault Vault Identity API
   slug: open-hvault-identity
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Init API
+  slug: open-hvault-init-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole JWT/OIDC API
+  slug: open-hvault-jwt-oidc-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Kubernetes API
+  slug: open-hvault-kubernetes-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole KV V2 API
+  slug: open-hvault-kv-v2-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole LDAP API
+  slug: open-hvault-ldap-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Leader API
+  slug: open-hvault-leader-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Lookup API
+  slug: open-hvault-lookup-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Mounts API
+  slug: open-hvault-mounts-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole OIDC API
+  slug: open-hvault-oidc-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole PKI API
+  slug: open-hvault-pki-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Policy API
+  slug: open-hvault-policy-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Seal API
+  slug: open-hvault-seal-api
 - collection_type: open
   name: HashiCorp Vault Vault Secrets Engines API
   slug: open-hvault-secrets-engines
 - collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole SSH API
+  slug: open-hvault-ssh-api
+- collection_type: open
   name: HashiCorp Vault Vault System Backend API
   slug: open-hvault-system-backend
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Token API
+  slug: open-hvault-token-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Transit API
+  slug: open-hvault-transit-api
+- collection_type: open
+  name: HashiCorp Vault Vault Auth Methods AppRole Userpass API
+  slug: open-hvault-userpass-api
 common:
 - group: agent
   title: ''
@@ -273,7 +360,7 @@ plans:
 - name: Hvault Plans Pricing
   plan_count: 4
   slug: hvault-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Hvault Rate Limits
@@ -307,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

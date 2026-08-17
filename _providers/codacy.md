@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Repository SSH key administration.
   name: Codacy Security API
   slug: codacy-security-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Codacy Account API
+  slug: open-codacy-account-api
+- collection_type: open
+  name: Codacy Account Coverage API
+  slug: open-codacy-coverage-api
+- collection_type: open
+  name: Codacy Account Issues API
+  slug: open-codacy-issues-api
+- collection_type: open
+  name: Codacy Account Organizations API
+  slug: open-codacy-organizations-api
+- collection_type: open
+  name: Codacy Account Pull Requests API
+  slug: open-codacy-pull-requests-api
+- collection_type: open
+  name: Codacy Account Quality Settings API
+  slug: open-codacy-quality-settings-api
+- collection_type: open
+  name: Codacy Account Repositories API
+  slug: open-codacy-repositories-api
+- collection_type: open
+  name: Codacy Account Security API
+  slug: open-codacy-security-api
 - collection_type: open
   name: Codacy API
   slug: open-codacy
@@ -133,7 +160,7 @@ plans:
 - name: Codacy Plans Pricing
   plan_count: 3
   slug: codacy-plans-pricing
-random_paper: 27
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Codacy Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/screenshots/codacy-2026-07-25T205855.png
 security:

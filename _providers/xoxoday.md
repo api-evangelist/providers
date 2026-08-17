@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -68,7 +68,32 @@ apis:
 - description: Send, fetch, and cancel reward points
   name: Xoxoday Reward Points API
   slug: xoxoday-reward-points-api
-artifact_total: 20
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xoxoday Plum Rewards Authentication API
+  slug: open-xoxoday-authentication-api
+- collection_type: open
+  name: Xoxoday Plum Rewards Authentication Balance API
+  slug: open-xoxoday-balance-api
+- collection_type: open
+  name: Xoxoday Plum Rewards Authentication Gift Cards API
+  slug: open-xoxoday-gift-cards-api
+- collection_type: open
+  name: Xoxoday Plum Rewards Authentication Orders API
+  slug: open-xoxoday-orders-api
+- collection_type: open
+  name: Xoxoday Plum Rewards Authentication Payments API
+  slug: open-xoxoday-payments-api
+- collection_type: open
+  name: Xoxoday Plum Rewards Authentication Reward Links API
+  slug: open-xoxoday-reward-links-api
+- collection_type: open
+  name: Xoxoday Plum Rewards Authentication Reward Points API
+  slug: open-xoxoday-reward-points-api
 common:
 - group: agent
   title: ''
@@ -166,7 +191,7 @@ plans:
 - name: Xoxoday Plans Pricing
   plan_count: 0
   slug: xoxoday-plans-pricing
-random_paper: 60
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Xoxoday Rate Limits
@@ -202,7 +227,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/screenshots/xoxoday-2026-06-20T201711.png
 security:

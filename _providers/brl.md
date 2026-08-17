@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -68,11 +68,45 @@ apis:
 - description: The Withdrawals API from BRL — 2 operation(s) for withdrawals.
   name: BRL Withdrawals API
   slug: brl-withdrawals-api
-artifact_total: 15
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Brl Webhooks
   slug: brl-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crown API & Webhooks Accounts API
+  slug: open-brl-accounts-api
+- collection_type: open
+  name: Crown API & Webhooks Accounts Assets API
+  slug: open-brl-assets-api
+- collection_type: open
+  name: Crown API & Webhooks Accounts Claims API
+  slug: open-brl-claims-api
+- collection_type: open
+  name: Crown API & Webhooks Accounts Nft Transfers API
+  slug: open-brl-nft-transfers-api
+- collection_type: open
+  name: Crown API & Webhooks Accounts Orders API
+  slug: open-brl-orders-api
+- collection_type: open
+  name: Crown API & Webhooks Accounts Quotes API
+  slug: open-brl-quotes-api
+- collection_type: open
+  name: Crown API & Webhooks Accounts Tax Exemption API
+  slug: open-brl-tax-exemption-api
+- collection_type: open
+  name: Crown API & Webhooks Accounts Transfers API
+  slug: open-brl-transfers-api
+- collection_type: open
+  name: Crown API & Webhooks Accounts Wallets API
+  slug: open-brl-wallets-api
+- collection_type: open
+  name: Crown API & Webhooks Accounts Withdrawals API
+  slug: open-brl-withdrawals-api
 common:
 - group: auth
   title: ''
@@ -182,7 +216,7 @@ overview: 'BRL publishes 10 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   BRL''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, and 17 more developer resources.'
-random_paper: 80
+random_paper: 22
 score:
   band: thin
   composite: 40.1
@@ -211,7 +245,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/screenshots/brl-2026-07-25T203938.png
 security:

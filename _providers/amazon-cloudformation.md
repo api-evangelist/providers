@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Operations for working with CloudFormation templates
   name: Amazon CloudFormation Templates API
   slug: amazon-cloudformation-templates-api
-artifact_total: 73
+artifact_total: 78
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CloudFormation Change Sets API
+  slug: open-amazon-cloudformation-change-sets-api
+- collection_type: open
+  name: Amazon CloudFormation Change Sets Resources API
+  slug: open-amazon-cloudformation-resources-api
+- collection_type: open
+  name: Amazon CloudFormation Change Sets Stacks API
+  slug: open-amazon-cloudformation-stacks-api
+- collection_type: open
+  name: Amazon CloudFormation Change Sets Templates API
+  slug: open-amazon-cloudformation-templates-api
 common:
 - group: other
   title: ''
@@ -343,7 +359,7 @@ overview: 'Amazon CloudFormation publishes 4 APIs on the [APIs.io](https://apis.
 
 
   Amazon CloudFormation''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
-random_paper: 41
+random_paper: 115
 rules:
 - name: Amazon CloudFormation API Rules
   rule_count: 6
@@ -383,7 +399,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/screenshots/amazon-cloudformation-2026-07-25T195946.png
 security:

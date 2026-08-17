@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -90,7 +90,7 @@ apis:
 - description: Manage workload optimization settings, view workload recommendations, and configure workload autoscaling.
   name: CAST AI Workload Optimization API
   slug: cast-ai-workload-optimization-api
-artifact_total: 85
+artifact_total: 103
 collections:
 - collection_type: postman
   name: CAST AI Kubernetes Cost Optimization AI Enabler API
@@ -144,8 +144,62 @@ collections:
   name: CAST AI Kubernetes Cost Optimization AI Enabler Workload Optimization API
   slug: postman-cast-ai-workload-optimization-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler API
+  slug: open-cast-ai-ai-enabler-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Allocation Groups API
+  slug: open-cast-ai-allocation-groups-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Autoscaler API
+  slug: open-cast-ai-autoscaler-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Cluster Actions API
+  slug: open-cast-ai-cluster-actions-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Cost Reports API
+  slug: open-cast-ai-cost-reports-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler External Clusters API
+  slug: open-cast-ai-external-clusters-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Hibernation Schedules API
+  slug: open-cast-ai-hibernation-schedules-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Insights API
+  slug: open-cast-ai-insights-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Inventory API
+  slug: open-cast-ai-inventory-api
+- collection_type: open
   name: CAST AI Kubernetes Cost Optimization API
   slug: open-cast-ai-kubernetes-cost-optimization
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Node Configuration API
+  slug: open-cast-ai-node-configuration-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Node Templates API
+  slug: open-cast-ai-node-templates-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Operations API
+  slug: open-cast-ai-operations-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Policies API
+  slug: open-cast-ai-policies-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Pricing API
+  slug: open-cast-ai-pricing-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Scheduled Rebalancing API
+  slug: open-cast-ai-scheduled-rebalancing-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Settings API
+  slug: open-cast-ai-settings-api
+- collection_type: open
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Workload Optimization API
+  slug: open-cast-ai-workload-optimization-api
 common:
 - group: build
   title: ''
@@ -321,7 +375,7 @@ plans:
 - name: Cast Ai Plans Pricing
   plan_count: 3
   slug: cast-ai-plans-pricing
-random_paper: 74
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Cast Ai Rate Limits
@@ -355,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/screenshots/cast-ai-2026-06-20T174036.png
 security:

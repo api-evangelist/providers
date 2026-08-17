@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: The SellerHub API from Spaceship — 7 operation(s) for sellerhub.
   name: Spaceship SellerHub API
   slug: spaceship-sellerhub-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spaceship.com Async Operations API
+  slug: open-spaceship-async-operations-api
+- collection_type: open
+  name: Spaceship.com Async Operations Contacts API
+  slug: open-spaceship-contacts-api
+- collection_type: open
+  name: Spaceship.com Async Operations Contacts attributes API
+  slug: open-spaceship-contacts-attributes-api
+- collection_type: open
+  name: Spaceship.com Async Operations DNS records API
+  slug: open-spaceship-dns-records-api
+- collection_type: open
+  name: Spaceship.com Async Operations Domain Availability API
+  slug: open-spaceship-domain-availability-api
+- collection_type: open
+  name: Spaceship.com Async Operations Domain Management API
+  slug: open-spaceship-domain-management-api
+- collection_type: open
+  name: Spaceship.com Async Operations Domain Settings API
+  slug: open-spaceship-domain-settings-api
+- collection_type: open
+  name: Spaceship.com Async Operations Domain Transfer API
+  slug: open-spaceship-domain-transfer-api
+- collection_type: open
+  name: Spaceship.com Async Operations Personal Nameservers API
+  slug: open-spaceship-personal-nameservers-api
+- collection_type: open
+  name: Spaceship.com Async Operations SellerHub API
+  slug: open-spaceship-sellerhub-api
 common:
 - group: company
   title: ''
@@ -175,7 +209,7 @@ overview: 'Spaceship publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Spaceship''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
-random_paper: 0
+random_paper: 66
 scopes:
 - name: Spaceship Scopes
   scope_count: 11
@@ -204,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

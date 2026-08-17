@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: Online home reservation and configuration
   name: taylor-morrison-home Reservations API
   slug: taylor-morrison-home-reservations-api
-artifact_total: 23
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Taylor Morrison Home Search Communities API
+  slug: open-taylor-morrison-home-communities-api
+- collection_type: open
+  name: Taylor Morrison Home Search Communities Design API
+  slug: open-taylor-morrison-home-design-api
+- collection_type: open
+  name: Taylor Morrison Home Search Communities Floor Plans API
+  slug: open-taylor-morrison-home-floor-plans-api
+- collection_type: open
+  name: Taylor Morrison Home Search Communities Homes API
+  slug: open-taylor-morrison-home-homes-api
+- collection_type: open
+  name: Taylor Morrison Home Search Communities Lots API
+  slug: open-taylor-morrison-home-lots-api
+- collection_type: open
+  name: Taylor Morrison Home Search Communities Reservations API
+  slug: open-taylor-morrison-home-reservations-api
 - collection_type: open
   name: Taylor Morrison Home Search API
   slug: open-taylor-morrison-home-search
@@ -180,7 +201,7 @@ press:
 - date: '2026-05-25'
   title: Taylor Morrison Announces Date for First Quarter 2026 Earnings ...
   url: https://www.barchart.com/story/news/939225/taylor-morrison-announces-date-for-first-quarter-2026-earnings-release-and-webcast-conference-call
-random_paper: 31
+random_paper: 134
 rate_limits:
 - limit_count: 1
   name: Taylor Morrison Home Rate Limits
@@ -230,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/screenshots/taylor-morrison-home-2026-06-20T194942.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -144,11 +144,120 @@ apis:
 - description: The User API from MV sistemas — 1 operation(s) for user.
   name: MV sistemas User API
   slug: mv-sistemas-user-api
-artifact_total: 40
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Mv Sistemas Webhooks
   slug: mv-sistemas-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clinic Agenda Agendamento API
+  slug: open-mv-sistemas-agendamento-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Agendamento de performance API
+  slug: open-mv-sistemas-agendamento-de-performance-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Atendimento API
+  slug: open-mv-sistemas-atendimento-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Attendance API
+  slug: open-mv-sistemas-attendance-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Auditoria API
+  slug: open-mv-sistemas-auditoria-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Autenticação API
+  slug: open-mv-sistemas-autentica-o-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Beneficiário e carteira API
+  slug: open-mv-sistemas-benefici-rio-e-carteira-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Cadastros auxiliares API
+  slug: open-mv-sistemas-cadastros-auxiliares-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Clínicas API
+  slug: open-mv-sistemas-cl-nicas-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Compartilhamento de Dados API
+  slug: open-mv-sistemas-compartilhamento-de-dados-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Conta API
+  slug: open-mv-sistemas-conta-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Convênios API
+  slug: open-mv-sistemas-conv-nios-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Exames API
+  slug: open-mv-sistemas-exames-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Financeiro e atendimento API
+  slug: open-mv-sistemas-financeiro-e-atendimento-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Gestão de Beneficiários API
+  slug: open-mv-sistemas-gest-o-de-benefici-rios-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Gestão de Eventos API
+  slug: open-mv-sistemas-gest-o-de-eventos-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Gestão de Pendências API
+  slug: open-mv-sistemas-gest-o-de-pend-ncias-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Guias e utilização API
+  slug: open-mv-sistemas-guias-e-utiliza-o-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Horários Disponíveis API
+  slug: open-mv-sistemas-hor-rios-dispon-veis-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Importação de Dados API
+  slug: open-mv-sistemas-importa-o-de-dados-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Importação de dados biométricos API
+  slug: open-mv-sistemas-importa-o-de-dados-biom-tricos-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Movimentações de Visitantes API
+  slug: open-mv-sistemas-movimenta-es-de-visitantes-api
+- collection_type: open
+  name: Clinic Agenda Agendamento News API
+  slug: open-mv-sistemas-news-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Notification API
+  slug: open-mv-sistemas-notification-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Parametrização API
+  slug: open-mv-sistemas-parametriza-o-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Person API
+  slug: open-mv-sistemas-person-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Planos Obstétricos API
+  slug: open-mv-sistemas-planos-obst-tricos-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Presigned API
+  slug: open-mv-sistemas-presigned-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Prestadores/Usuários API
+  slug: open-mv-sistemas-prestadores-usu-rios-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Protocolo de Entrada API
+  slug: open-mv-sistemas-protocolo-de-entrada-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Protocolo de reconhecimento API
+  slug: open-mv-sistemas-protocolo-de-reconhecimento-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Reconhecimento Facial API
+  slug: open-mv-sistemas-reconhecimento-facial-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Regulação API
+  slug: open-mv-sistemas-regula-o-api
+- collection_type: open
+  name: Clinic Agenda Agendamento Serviços API
+  slug: open-mv-sistemas-servi-os-api
+- collection_type: open
+  name: Clinic Agenda Agendamento User API
+  slug: open-mv-sistemas-user-api
 common:
 - group: other
   title: ''
@@ -253,7 +362,7 @@ overview: 'MV sistemas publishes 35 APIs on the [APIs.io](https://apis.io/) netw
 
 
   MV sistemas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 65
+random_paper: 102
 score:
   band: thin
   composite: 38.4
@@ -283,7 +392,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/screenshots/mv-sistemas-2026-08-07T184458.png
 security:

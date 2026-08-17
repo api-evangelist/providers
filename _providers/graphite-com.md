@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,8 +52,23 @@ apis:
 - description: Create, submit, sync, and merge stacked pull requests via the gt CLI.
   name: Graphite Stacks API
   slug: graphite-com-stacks-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Graphite Platform Authentication API
+  slug: open-graphite-com-authentication-api
+- collection_type: open
+  name: Graphite Platform Authentication GitHub App API
+  slug: open-graphite-com-github-app-api
+- collection_type: open
+  name: Graphite Platform Authentication Merge Queue API
+  slug: open-graphite-com-merge-queue-api
+- collection_type: open
+  name: Graphite Platform Authentication Stacks API
+  slug: open-graphite-com-stacks-api
 - collection_type: open
   name: Graphite Platform
   slug: open-graphite-com
@@ -250,7 +265,7 @@ plans:
 - name: Graphite Com Plans Pricing
   plan_count: 4
   slug: graphite-com-plans-pricing
-random_paper: 16
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Graphite Com Rate Limits
@@ -278,7 +293,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/screenshots/graphite-com-2026-06-20T182329.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: Synchronous and streaming inference operations.
   name: Amazon Nova Inference API
   slug: amazon-nova-inference-api
-artifact_total: 36
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Nova on Amazon Bedrock Runtime Async API
+  slug: open-amazon-nova-async-api
+- collection_type: open
+  name: Amazon Nova on Amazon Bedrock Runtime Async Inference API
+  slug: open-amazon-nova-inference-api
 - collection_type: open
   name: Amazon Nova on Amazon Bedrock Runtime API
   slug: open-amazon-nova
@@ -180,7 +189,7 @@ plans:
 - name: Amazon Nova Plans Pricing
   plan_count: 3
   slug: amazon-nova-plans-pricing
-random_paper: 47
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Amazon Nova Rate Limits
@@ -205,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/screenshots/amazon-nova-2026-06-20T171754.png
 security:

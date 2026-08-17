@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ name: Meta4 Capital
 nav: Providers
 network: true
 overview: Meta4 Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, NFT, Investment, and Venture Capital.
-random_paper: 54
+random_paper: 62
 score:
   band: minimal
   composite: 7.1
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta4-capital/refs/heads/main/screenshots/meta4-capital-2026-08-07T172641.png
 slug: meta4-capital

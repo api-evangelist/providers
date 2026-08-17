@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -93,8 +93,59 @@ apis:
 - description: The Years API from Car API (carapi.app) — 1 operation(s) for years.
   name: Car API (carapi.app) Years API
   slug: car-api-years-api
-artifact_total: 38
+artifact_total: 55
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Car Account API
+  slug: open-car-api-account-api
+- collection_type: open
+  name: Car Account Auth API
+  slug: open-car-api-auth-api
+- collection_type: open
+  name: Car Authentication API
+  slug: open-car-api-authentication-api
+- collection_type: open
+  name: Car Account Bodies API
+  slug: open-car-api-bodies-api
+- collection_type: open
+  name: Car Account Colors (Exterior) API
+  slug: open-car-api-colors-exterior-api
+- collection_type: open
+  name: Car Account Colors (Interior) API
+  slug: open-car-api-colors-interior-api
+- collection_type: open
+  name: Car Account Data Feeds API
+  slug: open-car-api-data-feeds-api
+- collection_type: open
+  name: Car Account Engines API
+  slug: open-car-api-engines-api
+- collection_type: open
+  name: Car Account Makes API
+  slug: open-car-api-makes-api
+- collection_type: open
+  name: Car Account Mileages API
+  slug: open-car-api-mileages-api
+- collection_type: open
+  name: Car Account Models API
+  slug: open-car-api-models-api
+- collection_type: open
+  name: Car Account Trims API
+  slug: open-car-api-trims-api
+- collection_type: open
+  name: Car Account Vehicle Attributes API
+  slug: open-car-api-vehicle-attributes-api
+- collection_type: open
+  name: Car Authentication Vehicles API
+  slug: open-car-api-vehicles-api
+- collection_type: open
+  name: Car Account Vin Decoder API
+  slug: open-car-api-vin-decoder-api
+- collection_type: open
+  name: Car Account Years API
+  slug: open-car-api-years-api
 - collection_type: open
   name: CarAPI
   slug: open-carapi
@@ -220,7 +271,7 @@ plans:
 - name: Car Api Plans Pricing
   plan_count: 4
   slug: car-api-plans-pricing
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Car Api Rate Limits
@@ -260,7 +311,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/screenshots/car-api-2026-06-20T173946.png
 security:

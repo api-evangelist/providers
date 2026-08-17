@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Account render usage for the current billing period.
   name: Urlbox Usage API
   slug: urlbox-usage-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Urlbox Render API
+  slug: open-urlbox-render-api
+- collection_type: open
+  name: Urlbox Render Render Links API
+  slug: open-urlbox-render-links-api
+- collection_type: open
+  name: Urlbox Render Status API
+  slug: open-urlbox-status-api
+- collection_type: open
+  name: Urlbox Render Usage API
+  slug: open-urlbox-usage-api
 - collection_type: open
   name: Urlbox API
   slug: open-urlbox
@@ -125,7 +140,7 @@ plans:
 - name: Urlbox Plans Pricing
   plan_count: 5
   slug: urlbox-plans-pricing
-random_paper: 68
+random_paper: 72
 rate_limits:
 - limit_count: 6
   name: Urlbox Rate Limits
@@ -150,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/screenshots/urlbox-2026-06-20T200526.png
 security:

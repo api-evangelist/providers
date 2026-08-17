@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API to create and manage products, deliveries (inbound stock), shipments (outbound orders), and returns across byrd's European fulfillment network. JWT bearer auth; JSON over HTTPS (TLS 1.2+); re
@@ -132,7 +132,7 @@ overview: 'Byrd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Byrd''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 13 more developer resources.'
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 1
   name: Byrd Rate Limits
@@ -154,7 +154,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/screenshots/byrd-2026-07-25T204138.png
 security:

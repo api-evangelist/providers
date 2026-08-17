@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: Data and analytics catalog spanning S&P Global business units (Market Intelligence, Ratings, Commodity Insights/Platts, Mobility, Sustainable1, Indices, Dow Jones) plus third-party vendors. Distributi
   name: S&P Global Marketplace
   slug: sp-marketplace
-artifact_total: 185
+artifact_total: 220
 asyncapis:
 - description: Real-time streaming transcription WebSocket API from Kensho Technologies (a wholly-owned S&P Global subsidiary). Companion to the Kensho Scribe v2 batch REST API. Streams uncompressed PCM audio chunks
   name: Kensho Scribe Real Time API
@@ -191,6 +191,9 @@ collections:
   name: Kensho Extract annotations-async Users API
   slug: postman-sp-global-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Kensho Extract API
   slug: open-kensho-extract
 - collection_type: open
@@ -205,6 +208,108 @@ collections:
 - collection_type: open
   name: Scribe Batch API
   slug: open-kensho-scribe-batch-v2
+- collection_type: open
+  name: Kensho Extract annotations-async API
+  slug: open-sp-global-annotations-async-api
+- collection_type: open
+  name: Kensho Extract annotations-async Auditors API
+  slug: open-sp-global-auditors-api
+- collection_type: open
+  name: Kensho Extract annotations-async Ciqpro API
+  slug: open-sp-global-ciqpro-api
+- collection_type: open
+  name: Kensho Extract annotations-async Company Groups API
+  slug: open-sp-global-company-groups-api
+- collection_type: open
+  name: Kensho Extract annotations-async Competitors API
+  slug: open-sp-global-competitors-api
+- collection_type: open
+  name: Kensho Extract annotations-async Cusip API
+  slug: open-sp-global-cusip-api
+- collection_type: open
+  name: Kensho Extract annotations-async Earnings API
+  slug: open-sp-global-earnings-api
+- collection_type: open
+  name: Kensho Extract annotations-async Estimates API
+  slug: open-sp-global-estimates-api
+- collection_type: open
+  name: Kensho Extract annotations-async Extractions API
+  slug: open-sp-global-extractions-api
+- collection_type: open
+  name: Kensho Extract annotations-async Fundinground API
+  slug: open-sp-global-fundinground-api
+- collection_type: open
+  name: Kensho Extract annotations-async Fundingrounds API
+  slug: open-sp-global-fundingrounds-api
+- collection_type: open
+  name: Kensho Extract annotations-async Id API
+  slug: open-sp-global-id-api
+- collection_type: open
+  name: Kensho Extract annotations-async Ids API
+  slug: open-sp-global-ids-api
+- collection_type: open
+  name: Kensho Extract annotations-async Info API
+  slug: open-sp-global-info-api
+- collection_type: open
+  name: Kensho Extract annotations-async Isin API
+  slug: open-sp-global-isin-api
+- collection_type: open
+  name: Kensho Extract annotations-async Latest API
+  slug: open-sp-global-latest-api
+- collection_type: open
+  name: Kensho Extract annotations-async Line Item API
+  slug: open-sp-global-line-item-api
+- collection_type: open
+  name: Kensho Extract annotations-async Market Cap API
+  slug: open-sp-global-market-cap-api
+- collection_type: open
+  name: Kensho Extract annotations-async Merger API
+  slug: open-sp-global-merger-api
+- collection_type: open
+  name: Kensho Extract annotations-async Mergers API
+  slug: open-sp-global-mergers-api
+- collection_type: open
+  name: Kensho Extract annotations-async Price Chart API
+  slug: open-sp-global-price-chart-api
+- collection_type: open
+  name: Kensho Extract annotations-async Pricing API
+  slug: open-sp-global-pricing-api
+- collection_type: open
+  name: Kensho Extract annotations-async Relationship API
+  slug: open-sp-global-relationship-api
+- collection_type: open
+  name: Kensho Extract annotations-async Securities API
+  slug: open-sp-global-securities-api
+- collection_type: open
+  name: Kensho Extract annotations-async Segments API
+  slug: open-sp-global-segments-api
+- collection_type: open
+  name: Kensho Extract annotations-async Statements API
+  slug: open-sp-global-statements-api
+- collection_type: open
+  name: Kensho Extract annotations-async Ticker Groups API
+  slug: open-sp-global-ticker-groups-api
+- collection_type: open
+  name: Kensho Extract annotations-async Trading Item Groups API
+  slug: open-sp-global-trading-item-groups-api
+- collection_type: open
+  name: Kensho Extract annotations-async Trading Items API
+  slug: open-sp-global-trading-items-api
+- collection_type: open
+  name: Kensho Extract annotations-async Transcript API
+  slug: open-sp-global-transcript-api
+- collection_type: open
+  name: Kensho Extract annotations-async Transcription API
+  slug: open-sp-global-transcription-api
+- collection_type: open
+  name: Kensho Extract annotations-async upload-url API
+  slug: open-sp-global-upload-url-api
+- collection_type: open
+  name: Kensho Extract annotations-async user-info API
+  slug: open-sp-global-user-info-api
+- collection_type: open
+  name: Kensho Extract annotations-async Users API
+  slug: open-sp-global-users-api
 common:
 - group: build
   title: ''
@@ -735,7 +840,7 @@ plans:
 - name: Sp Global Plans Pricing
   plan_count: 7
   slug: sp-global-plans-pricing
-random_paper: 57
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Sp Global Rate Limits
@@ -793,7 +898,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:

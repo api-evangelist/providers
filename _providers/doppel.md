@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The alerts API from Doppel — 3 operation(s) for alerts.
@@ -52,11 +52,36 @@ apis:
 - description: The scan API from Doppel — 2 operation(s) for scan.
   name: Doppel scan API
   slug: doppel-scan-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: AsyncAPI derived from the Doppel V1 OpenAPI webhooks[] surface — the events Doppel POSTs to a subscriber endpoint for Brand Protection, IOC, and Human Risk Management activity. Payload schemas are the
   name: Doppel Webhooks
   slug: doppel-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Doppel alerts API
+  slug: open-doppel-alerts-api
+- collection_type: open
+  name: Doppel alerts brands API
+  slug: open-doppel-brands-api
+- collection_type: open
+  name: Doppel alerts hrm API
+  slug: open-doppel-hrm-api
+- collection_type: open
+  name: Doppel alerts phishing-simulation API
+  slug: open-doppel-phishing-simulation-api
+- collection_type: open
+  name: Doppel alerts protected-assets API
+  slug: open-doppel-protected-assets-api
+- collection_type: open
+  name: Doppel alerts reports API
+  slug: open-doppel-reports-api
+- collection_type: open
+  name: Doppel alerts scan API
+  slug: open-doppel-scan-api
 common:
 - group: company
   title: ''
@@ -197,7 +222,7 @@ overview: 'Doppel publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Doppel''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 23 more developer resources.'
-random_paper: 44
+random_paper: 48
 score:
   band: developing
   composite: 55.2
@@ -220,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/screenshots/doppel-2026-07-25T212309.png
 security:

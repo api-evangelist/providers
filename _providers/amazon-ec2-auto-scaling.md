@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 2
@@ -262,7 +262,7 @@ arazzos:
 - description: Manually set a group's desired capacity, verify it took effect, and review the scaling activity.
   name: Amazon EC2 Auto Scaling Set Desired Capacity and Verify
   slug: amazon-ec2-auto-scaling-set-desired-capacity-and-verify-workflow
-artifact_total: 1282
+artifact_total: 1348
 collections:
 - collection_type: postman
   name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=AttachInstances API'
@@ -459,6 +459,204 @@ collections:
 - collection_type: postman
   name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=UpdateAutoScalingGroup API'
   slug: postman-amazon-ec2-auto-scaling-action-updateautoscalinggroup-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=AttachInstances API'
+  slug: open-amazon-ec2-auto-scaling-action-attachinstances-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=AttachLoadBalancers API'
+  slug: open-amazon-ec2-auto-scaling-action-attachloadbalancers-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=AttachLoadBalancerTargetGroups API'
+  slug: open-amazon-ec2-auto-scaling-action-attachloadbalancertargetgroups-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=AttachTrafficSources API'
+  slug: open-amazon-ec2-auto-scaling-action-attachtrafficsources-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=BatchDeleteScheduledAction API'
+  slug: open-amazon-ec2-auto-scaling-action-batchdeletescheduledaction-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=BatchPutScheduledUpdateGroupAction API'
+  slug: open-amazon-ec2-auto-scaling-action-batchputscheduledupdategroupaction-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=CancelInstanceRefresh API'
+  slug: open-amazon-ec2-auto-scaling-action-cancelinstancerefresh-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=CompleteLifecycleAction API'
+  slug: open-amazon-ec2-auto-scaling-action-completelifecycleaction-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=CreateAutoScalingGroup API'
+  slug: open-amazon-ec2-auto-scaling-action-createautoscalinggroup-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=CreateLaunchConfiguration API'
+  slug: open-amazon-ec2-auto-scaling-action-createlaunchconfiguration-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=CreateOrUpdateTags API'
+  slug: open-amazon-ec2-auto-scaling-action-createorupdatetags-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DeleteAutoScalingGroup API'
+  slug: open-amazon-ec2-auto-scaling-action-deleteautoscalinggroup-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DeleteLaunchConfiguration API'
+  slug: open-amazon-ec2-auto-scaling-action-deletelaunchconfiguration-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DeleteLifecycleHook API'
+  slug: open-amazon-ec2-auto-scaling-action-deletelifecyclehook-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DeleteNotificationConfiguration API'
+  slug: open-amazon-ec2-auto-scaling-action-deletenotificationconfiguration-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DeletePolicy API'
+  slug: open-amazon-ec2-auto-scaling-action-deletepolicy-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DeleteScheduledAction API'
+  slug: open-amazon-ec2-auto-scaling-action-deletescheduledaction-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DeleteTags API'
+  slug: open-amazon-ec2-auto-scaling-action-deletetags-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DeleteWarmPool API'
+  slug: open-amazon-ec2-auto-scaling-action-deletewarmpool-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeAccountLimits API'
+  slug: open-amazon-ec2-auto-scaling-action-describeaccountlimits-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeAdjustmentTypes API'
+  slug: open-amazon-ec2-auto-scaling-action-describeadjustmenttypes-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeAutoScalingGroups API'
+  slug: open-amazon-ec2-auto-scaling-action-describeautoscalinggroups-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeAutoScalingInstances API'
+  slug: open-amazon-ec2-auto-scaling-action-describeautoscalinginstances-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeAutoScalingNotificationTypes API'
+  slug: open-amazon-ec2-auto-scaling-action-describeautoscalingnotificationtypes-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeInstanceRefreshes API'
+  slug: open-amazon-ec2-auto-scaling-action-describeinstancerefreshes-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeLaunchConfigurations API'
+  slug: open-amazon-ec2-auto-scaling-action-describelaunchconfigurations-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeLifecycleHooks API'
+  slug: open-amazon-ec2-auto-scaling-action-describelifecyclehooks-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeLifecycleHookTypes API'
+  slug: open-amazon-ec2-auto-scaling-action-describelifecyclehooktypes-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeLoadBalancers API'
+  slug: open-amazon-ec2-auto-scaling-action-describeloadbalancers-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeLoadBalancerTargetGroups API'
+  slug: open-amazon-ec2-auto-scaling-action-describeloadbalancertargetgroups-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeMetricCollectionTypes API'
+  slug: open-amazon-ec2-auto-scaling-action-describemetriccollectiontypes-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeNotificationConfigurations API'
+  slug: open-amazon-ec2-auto-scaling-action-describenotificationconfigurations-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribePolicies API'
+  slug: open-amazon-ec2-auto-scaling-action-describepolicies-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeScalingActivities API'
+  slug: open-amazon-ec2-auto-scaling-action-describescalingactivities-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeScalingProcessTypes API'
+  slug: open-amazon-ec2-auto-scaling-action-describescalingprocesstypes-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeScheduledActions API'
+  slug: open-amazon-ec2-auto-scaling-action-describescheduledactions-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeTags API'
+  slug: open-amazon-ec2-auto-scaling-action-describetags-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeTerminationPolicyTypes API'
+  slug: open-amazon-ec2-auto-scaling-action-describeterminationpolicytypes-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeTrafficSources API'
+  slug: open-amazon-ec2-auto-scaling-action-describetrafficsources-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DescribeWarmPool API'
+  slug: open-amazon-ec2-auto-scaling-action-describewarmpool-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DetachInstances API'
+  slug: open-amazon-ec2-auto-scaling-action-detachinstances-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DetachLoadBalancers API'
+  slug: open-amazon-ec2-auto-scaling-action-detachloadbalancers-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DetachLoadBalancerTargetGroups API'
+  slug: open-amazon-ec2-auto-scaling-action-detachloadbalancertargetgroups-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DetachTrafficSources API'
+  slug: open-amazon-ec2-auto-scaling-action-detachtrafficsources-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=DisableMetricsCollection API'
+  slug: open-amazon-ec2-auto-scaling-action-disablemetricscollection-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=EnableMetricsCollection API'
+  slug: open-amazon-ec2-auto-scaling-action-enablemetricscollection-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=EnterStandby API'
+  slug: open-amazon-ec2-auto-scaling-action-enterstandby-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=ExecutePolicy API'
+  slug: open-amazon-ec2-auto-scaling-action-executepolicy-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=ExitStandby API'
+  slug: open-amazon-ec2-auto-scaling-action-exitstandby-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=GetPredictiveScalingForecast API'
+  slug: open-amazon-ec2-auto-scaling-action-getpredictivescalingforecast-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=PutLifecycleHook API'
+  slug: open-amazon-ec2-auto-scaling-action-putlifecyclehook-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=PutNotificationConfiguration API'
+  slug: open-amazon-ec2-auto-scaling-action-putnotificationconfiguration-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=PutScalingPolicy API'
+  slug: open-amazon-ec2-auto-scaling-action-putscalingpolicy-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=PutScheduledUpdateGroupAction API'
+  slug: open-amazon-ec2-auto-scaling-action-putscheduledupdategroupaction-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=PutWarmPool API'
+  slug: open-amazon-ec2-auto-scaling-action-putwarmpool-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=RecordLifecycleActionHeartbeat API'
+  slug: open-amazon-ec2-auto-scaling-action-recordlifecycleactionheartbeat-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=ResumeProcesses API'
+  slug: open-amazon-ec2-auto-scaling-action-resumeprocesses-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=RollbackInstanceRefresh API'
+  slug: open-amazon-ec2-auto-scaling-action-rollbackinstancerefresh-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=SetDesiredCapacity API'
+  slug: open-amazon-ec2-auto-scaling-action-setdesiredcapacity-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=SetInstanceHealth API'
+  slug: open-amazon-ec2-auto-scaling-action-setinstancehealth-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=SetInstanceProtection API'
+  slug: open-amazon-ec2-auto-scaling-action-setinstanceprotection-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=StartInstanceRefresh API'
+  slug: open-amazon-ec2-auto-scaling-action-startinstancerefresh-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=SuspendProcesses API'
+  slug: open-amazon-ec2-auto-scaling-action-suspendprocesses-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=TerminateInstanceInAutoScalingGroup API'
+  slug: open-amazon-ec2-auto-scaling-action-terminateinstanceinautoscalinggroup-api
+- collection_type: open
+  name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=UpdateAutoScalingGroup API'
+  slug: open-amazon-ec2-auto-scaling-action-updateautoscalinggroup-api
 common:
 - group: agent
   title: ''
@@ -4005,7 +4203,7 @@ plans:
 - name: Amazon Ec2 Auto Scaling Plans Pricing
   plan_count: 3
   slug: amazon-ec2-auto-scaling-plans-pricing
-random_paper: 49
+random_paper: 123
 rate_limits:
 - limit_count: 5
   name: Amazon Ec2 Auto Scaling Rate Limits
@@ -4047,7 +4245,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/screenshots/amazon-ec2-auto-scaling-2026-07-25T200006.png
 security:

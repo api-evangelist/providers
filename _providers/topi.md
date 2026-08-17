@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -54,11 +54,30 @@ apis:
 - description: Provides operations to handle shipping-related tasks.
   name: Topi shippingMethod API
   slug: topi-shippingmethod-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Topi Webhooks
   slug: topi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: topi Seller catalog API
+  slug: open-topi-catalog-api
+- collection_type: open
+  name: topi Seller catalog offer API
+  slug: open-topi-offer-api
+- collection_type: open
+  name: topi Seller catalog order API
+  slug: open-topi-order-api
+- collection_type: open
+  name: topi Seller catalog shipment API
+  slug: open-topi-shipment-api
+- collection_type: open
+  name: topi Seller catalog shippingMethod API
+  slug: open-topi-shippingmethod-api
 common:
 - group: start
   title: ''
@@ -175,7 +194,7 @@ overview: 'Topi publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Topi''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 84
+random_paper: 146
 scopes:
 - name: Topi Scopes
   scope_count: 13
@@ -210,7 +229,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

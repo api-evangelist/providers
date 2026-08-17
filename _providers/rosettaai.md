@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -91,25 +91,62 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/rosettaai-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/rosettaai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/rosettaai-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/rosettaai-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/rosettaai-components.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/rosettaai-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/rosettaai-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/rosettaai-lifecycle.yml
 created: '2026-07-17'
-description: Rosetta.ai is a Taipei-based e-commerce personalization and marketing automation platform that uses AI, image recognition, and deep learning to tailor the online shopping experience for every visitor. Its product suite spans Rosetta Engage (AI product recommenders), Rosetta AdMatch (personalized advertising and traffic acquisition), Rosetta Analytics (machine-learning consumer and product insight), and Rosetta Automation (multi-channel EDM, SMS, and LINE marketing). The platform is delivered as a hosted SaaS dashboard and as a Shopify app ("Personalization Upsell Dealer"), integrating with storefronts through Google Tag Manager and product-feed connections rather than a public developer REST API. This profile was surfaced as a 500 Global portfolio company and enriched from Rosetta.ai's public marketing site, GitBook help center, and GitHub organization.
+description: Rosetta.ai is a Taipei-based e-commerce personalization and marketing automation platform that uses AI, image recognition, and deep learning to tailor the online shopping experience for every visitor. Its product suite spans Rosetta Engage (AI product recommenders), Rosetta AdMatch (personalized advertising and traffic acquisition), Rosetta Analytics (machine-learning consumer and product insight), and Rosetta Automation (multi-channel EDM, SMS, and LINE marketing). The platform is delivered as a hosted SaaS dashboard and as a Shopify app ("Personalization Upsell Dealer"), integrating with storefronts through Google Tag Manager and product-feed connections rather than a public developer REST API. A first-party REST API does run at api.rosetta.ai — the production tag authenticates to it with a Bearer token and an application/vnd.rosetta-ai.v2+json media type — but Rosetta.ai publishes no reference, no specification and no developer program for it, so it is an internal contract
+  rather than a product. This profile was surfaced as a 500 Global portfolio company and enriched from Rosetta.ai's public marketing site, GitBook help center, CDN distribution, and GitHub organization.
 image: https://images.prismic.io/rosetta-marketing-website/9621daef-3ce6-47d3-abec-1a4210f8fbb9_Social%20Card%20-%20Homepage.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Rosetta.ai
 nav: Providers
 network: true
 overview: 'Rosetta.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Personalization, Recommendations, and Marketing Automation.
 
 
-  Rosetta.ai''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 8 more developer resources.'
-random_paper: 12
+  Rosetta.ai''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
+plans:
+- name: Rosettaai Plans Pricing
+  plan_count: 3
+  slug: rosettaai-plans-pricing
+random_paper: 78
+rate_limits:
+- limit_count: 0
+  name: Rosettaai Rate Limits
+  slug: rosettaai-rate-limits
 score:
-  band: emerging
-  composite: 22.6
-  delta: 0.0
+  band: thin
+  composite: 29.0
+  delta: 6.4
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 26.1
     discoverability: 57.4
@@ -117,13 +154,17 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Rosettaai Authentication
+  slug: rosettaai-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Rosettaai Domain Security
   slug: rosettaai-domain-security
-  summary_line: TLSv1.3 · HSTS
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: rosettaai
 tags:
 - Company

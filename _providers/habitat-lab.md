@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Habitat Lab provides an overview of Habitat 2.0 with documentation, quickstart code, and reproducing benchmark results for embodied AI research in simulated 3D environments. There is no public REST or
@@ -92,7 +92,7 @@ plans:
 - name: Habitat Lab Plans Pricing
   plan_count: 3
   slug: habitat-lab-plans-pricing
-random_paper: 1
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Habitat Lab Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 14.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/habitat-lab/refs/heads/main/screenshots/habitat-lab-2026-06-20T182448.png
 security:

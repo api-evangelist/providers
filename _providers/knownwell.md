@@ -1,14 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup with a 30-day trial
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
+  - https://knownwell.com/pricing/
+  - https://knownwell.com/free-trial/
+  - https://api.knownwell.com/ci/docs
   - authentication
-  trial: false
-  try_now: false
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -28,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -36,8 +39,11 @@ agentic_access:
   operation_count: 25
   slug: knownwell-agentic-access
   summary_line: 25 operations · 2 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 10
 apis:
+- description: The alignment API from Knownwell — 2 operation(s) for alignment. Returns the Red/Amber/Green alignment read a client team files by hand each week, alongside the machine-computed Knownwell score, so th
+  name: Knownwell alignment API
+  slug: knownwell-alignment-api
 - description: The api-keys API from Knownwell — 2 operation(s) for api-keys.
   name: Knownwell api-keys API
   slug: knownwell-api-keys-api
@@ -65,7 +71,38 @@ apis:
 - description: The topics API from Knownwell — 1 operation(s) for topics.
   name: Knownwell topics API
   slug: knownwell-topics-api
-artifact_total: 16
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Knownwell api-keys API
+  slug: open-knownwell-api-keys-api
+- collection_type: open
+  name: Knownwell api-keys clients API
+  slug: open-knownwell-clients-api
+- collection_type: open
+  name: Knownwell api-keys documentation API
+  slug: open-knownwell-documentation-api
+- collection_type: open
+  name: Knownwell api-keys health API
+  slug: open-knownwell-health-api
+- collection_type: open
+  name: Knownwell api-keys portfolios API
+  slug: open-knownwell-portfolios-api
+- collection_type: open
+  name: Knownwell api-keys root API
+  slug: open-knownwell-root-api
+- collection_type: open
+  name: Knownwell api-keys status API
+  slug: open-knownwell-status-api
+- collection_type: open
+  name: Knownwell api-keys streams API
+  slug: open-knownwell-streams-api
+- collection_type: open
+  name: Knownwell api-keys topics API
+  slug: open-knownwell-topics-api
 common:
 - group: other
   title: ''
@@ -195,35 +232,48 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/knownwell-plans-pricing.yml
+- group: start
+  title: ''
+  type: Console
+  url: sandbox/knownwell-sandbox.yml
 created: '2026-07-17'
-description: Knownwell is an AI-powered commercial intelligence platform for B2B professional services firms, built around client retention and expansion rather than new-logo acquisition. The platform ingests communications, CRM records, and enterprise data through connectors to Microsoft 365, Google Workspace, Salesforce, HubSpot, Slack, Teams, and conversation intelligence tools, then synthesizes an objective Knownwell score for every client relationship. Teams use it to detect churn risk before a renewal conversation, surface growth opportunities across a portfolio, and track relationship health over time without manual data entry. Knownwell publishes a read-only public REST API at api.knownwell.com/ci/v1 that exposes client scores, score history, portfolios, streams, topics, priorities, notes, and key people, authenticated with an X-API-Key header. Knownwell was acquired by 2X to form a human-agentic GTM services company.
+description: Knownwell is an AI-powered commercial intelligence platform for B2B professional services firms, built around client retention and expansion rather than new-logo acquisition. The platform ingests communications, CRM records, and enterprise data through connectors to Microsoft 365, Google Workspace, Salesforce, HubSpot, Slack, Teams, and conversation intelligence tools, then synthesizes an objective Knownwell score for every client relationship. Teams use it to detect churn risk before a renewal conversation, surface growth opportunities across a portfolio, and track relationship health over time without manual data entry. Knownwell publishes a read-only public REST API at api.knownwell.com/ci/v1 that exposes client scores, score history, portfolios, streams, topics, priorities, notes, key people, and the weekly Red/Amber/Green alignment reads a client team files by hand, authenticated with an X-API-Key header. Platform pricing is published as a live per-client volume calculator
+  rather than named tiers, with a 30-day trial and no per-seat charge. Knownwell was acquired by 2X to form a human-agentic GTM services company.
 image: https://knownwell.com/wp-content/uploads/2023/08/favicon21.svg
 layout: provider
 mcp_servers:
 - description: ''
   name: knownwell-mcp.yml
   slug: knownwell-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Knownwell
 nav: Providers
 network: true
-overview: 'Knownwell publishes 9 APIs on the [APIs.io](https://apis.io/) network, including api-keys API, clients API, documentation API, and 6 more. Tagged areas include Company, Commercial Intelligence, Client Intelligence, Customer Success, and Revenue Operations.
+overview: 'Knownwell publishes 10 APIs on the [APIs.io](https://apis.io/) network, including alignment API, api-keys API, clients API, and 7 more. Tagged areas include Company, Commercial Intelligence, Client Intelligence, Customer Success, and Revenue Operations.
 
 
-  Knownwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 33
+  Knownwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Knownwell Plans Pricing
+  plan_count: 0
+  slug: knownwell-plans-pricing
+random_paper: 99
 rate_limits:
 - limit_count: 3
   name: Knownwell Rate Limits
   slug: knownwell-rate-limits
 score:
-  band: developing
-  composite: 54.5
-  delta: 0.0
+  band: strong
+  composite: 56.0
+  delta: 1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 48.8
-    developer_ergonomics: 60.3
+    contract_quality: 49.3
+    developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 57.9
@@ -239,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/screenshots/knownwell-2026-07-25T224012.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The core Mockito mocking framework for creating mock objects, stubbing methods, verifying invocations, and writing expressive unit tests in Java. Mockito Core is consumed as a Java library (Maven / Gr
@@ -96,7 +96,7 @@ plans:
 - name: Mockito Plans Pricing
   plan_count: 3
   slug: mockito-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Mockito Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 16.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockito/refs/heads/main/screenshots/mockito-2026-06-20T185636.png
 security:

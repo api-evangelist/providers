@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +43,17 @@ apis:
 - description: Operations for defining and managing index fields
   name: Amazon CloudSearch Index Fields API
   slug: amazon-cloudsearch-index-fields-api
-artifact_total: 52
+artifact_total: 55
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CloudSearch Domains API
+  slug: open-amazon-cloudsearch-domains-api
+- collection_type: open
+  name: Amazon CloudSearch Domains Index Fields API
+  slug: open-amazon-cloudsearch-index-fields-api
 common:
 - group: agent
   title: ''
@@ -294,7 +304,7 @@ overview: 'Amazon CloudSearch publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon CloudSearch''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 56
+random_paper: 68
 rules:
 - name: Amazon CloudSearch API Rules
   rule_count: 5
@@ -334,7 +344,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/screenshots/amazon-cloudsearch-2026-07-25T195949.png
 security:

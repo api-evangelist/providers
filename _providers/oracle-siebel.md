@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-12'
+  score: 48.6
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -79,12 +80,54 @@ apis:
 - description: Operations on Service Request business objects for customer service case management and issue tracking
   name: Oracle Siebel Service Requests API
   slug: oracle-siebel-service-requests-api
-artifact_total: 25
+artifact_total: 41
 asyncapis:
 - description: Event-driven integration framework enabling real-time communication between Oracle Siebel CRM and external systems using Apache Kafka. The Event Pub/Sub system supports publishing events from Siebel t
   name: Oracle Siebel CRM Event Pub/Sub
   slug: oracle-siebel-event-pubsub-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Siebel REST Accounts API
+  slug: open-oracle-siebel-accounts-api
+- collection_type: open
+  name: Oracle Siebel REST Activities API
+  slug: open-oracle-siebel-activities-api
+- collection_type: open
+  name: Oracle Siebel REST Business Services API
+  slug: open-oracle-siebel-business-services-api
+- collection_type: open
+  name: Oracle Siebel REST Contacts API
+  slug: open-oracle-siebel-contacts-api
+- collection_type: open
+  name: Oracle Siebel REST Metadata API
+  slug: open-oracle-siebel-metadata-api
+- collection_type: open
+  name: Oracle Siebel REST Opportunities API
+  slug: open-oracle-siebel-opportunities-api
+- collection_type: open
+  name: Oracle Siebel REST Orders API
+  slug: open-oracle-siebel-orders-api
+- collection_type: open
+  name: Oracle Siebel REST Products API
+  slug: open-oracle-siebel-products-api
+- collection_type: open
+  name: Oracle Siebel REST Repository API
+  slug: open-oracle-siebel-repository-api
+- collection_type: open
+  name: Oracle Siebel REST Service Requests API
+  slug: open-oracle-siebel-service-requests-api
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/oracle-siebel-scopes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/oracle-siebel-authentication.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -161,6 +204,94 @@ common:
   title: ''
   type: GitHubRepository
   url: https://github.com/OracleSiebel/ConfiguringSiebel
+- group: build
+  title: ''
+  type: Packages
+  url: packages/oracle-siebel-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/oracle-siebel-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/oracle-siebel-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/oracle-siebel-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/oracle-siebel-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/oracle-siebel-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/oracle-siebel-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/oracle-siebel-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/oracle-siebel-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/oracle-siebel-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/oracle-siebel-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/oracle-siebel-components.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/oracle-siebel-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/oracle-siebel-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/oracle-siebel-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/oracle-siebel-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/oracle-siebel-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/oracle-siebel-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/oracle-siebel-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.oracle.com/cd/E95904_01/books/RestAPI/overview-of-using-the-siebel-rest-api.html
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.oracle.com/us/corporate/pricing/price-lists/index.html
 created: '2024-01-01'
 description: Oracle Siebel CRM APIs provide programmatic access to customer relationship management functionality including sales, marketing, and service automation capabilities. Siebel CRM offers REST, SOAP, scripting, and event-driven integration interfaces for building integrations with enterprise systems.
 finops:
@@ -176,24 +307,28 @@ json_schemas:
   property_count: 20
   slug: oracle-siebel-contact
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: oracle-siebel-mcp.yml
+  slug: oracle-siebel-mcpyml
+modified: '2026-08-13'
 name: Oracle Siebel
 nav: Providers
 network: true
-overview: 'Oracle Siebel publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Business Services API, and 7 more. Tagged areas include CRM, Customer Management, Enterprise Software, Marketing Automation, and Oracle.
+overview: 'Oracle Siebel publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Event Pub/Sub API, Accounts API, Activities API, and 8 more. Tagged areas include CRM, Customer Management, Enterprise Software, Marketing Automation, and Oracle.
 
 
   The Oracle Siebel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Oracle Siebel''s developer surface includes developer portal, documentation, getting-started guide, authentication, support, engineering blog, changelog, and 12 more developer resources.'
+  Oracle Siebel''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, changelog, and 36 more developer resources.'
 plans:
 - name: Oracle Siebel Plans Pricing
   plan_count: 3
   slug: oracle-siebel-plans-pricing
-random_paper: 103
+random_paper: 111
 rate_limits:
-- limit_count: 3
+- limit_count: 4
   name: Oracle Siebel Rate Limits
   slug: oracle-siebel-rate-limits
 rules:
@@ -213,17 +348,22 @@ rules:
     info: 1
     warn: 3
   slug: oracle-siebel-jsonschema-spectral-rules
+scopes:
+- name: Oracle Siebel Scopes
+  scope_count: 0
+  slug: oracle-siebel-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 56.1
-  delta: 0.0
+  band: exemplar
+  composite: 72.3
+  delta: 16.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.9
-    developer_ergonomics: 50.0
-    discoverability: 64.8
-    governance: 52.1
-    operational_transparency: 55.3
+    commercial_clarity: 76.3
+    contract_quality: 68.6
+    developer_ergonomics: 78.3
+    discoverability: 72.2
+    governance: 72.9
+    operational_transparency: 63.2
   previous_composite: 56.1
   provenance:
     contracts:
@@ -232,14 +372,26 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:
+- kind: authentication
+  name: Oracle Siebel Authentication
+  slug: oracle-siebel-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Oracle Siebel Domain Security
   slug: oracle-siebel-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Oracle Siebel Vulnerability Disclosure
+  slug: oracle-siebel-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Oracle Siebel Trust Center
+  slug: oracle-siebel-trust-center
+  summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, PCI DSS, HIPAA, FedRAMP, GDPR, Cyber Essentials Plus, HMG Cloud Security Principles
 slug: oracle-siebel
 tags:
 - CRM

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Model Management API from Inferless — 2 operation(s) for model management.
   name: Inferless Model Management API
   slug: inferless-model-management-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inferless Inference API
+  slug: open-inferless-inference-api
+- collection_type: open
+  name: Inferless Inference Model Management API
+  slug: open-inferless-model-management-api
 - collection_type: open
   name: Inferless API
   slug: open-inferless
@@ -115,7 +124,7 @@ plans:
 - name: Inferless Plans Pricing
   plan_count: 4
   slug: inferless-plans-pricing
-random_paper: 11
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Inferless Rate Limits
@@ -140,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/screenshots/inferless-2026-06-20T183328.png
 security:

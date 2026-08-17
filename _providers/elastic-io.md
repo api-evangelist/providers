@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -105,7 +105,7 @@ apis:
 - description: Manage workspaces within contracts
   name: Elastic.io Workspaces API
   slug: elastic-io-workspaces-api
-artifact_total: 409
+artifact_total: 432
 asyncapis:
 - description: The elastic.io Platform Events API describes the asynchronous event-driven interactions of the elastic.io iPaaS platform. This includes webhook triggers that initiate integration flows when external s
   name: elastic.io Platform Events API
@@ -178,8 +178,77 @@ collections:
   name: elastic.io Platform REST Agents Workspaces API
   slug: postman-elastic-io-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: elastic.io Platform REST Agents API
+  slug: open-elastic-io-agents-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Auth Clients API
+  slug: open-elastic-io-auth-clients-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Auth Secrets API
+  slug: open-elastic-io-auth-secrets-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Components API
+  slug: open-elastic-io-components-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Contracts API
+  slug: open-elastic-io-contracts-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Credentials API
+  slug: open-elastic-io-credentials-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Data Samples API
+  slug: open-elastic-io-data-samples-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Executions API
+  slug: open-elastic-io-executions-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Flow Drafts API
+  slug: open-elastic-io-flow-drafts-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Flow Versions API
+  slug: open-elastic-io-flow-versions-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Flows API
+  slug: open-elastic-io-flows-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Logs API
+  slug: open-elastic-io-logs-api
+- collection_type: open
   name: elastic.io Platform REST API
   slug: open-elastic-io-platform-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Quota Usages API
+  slug: open-elastic-io-quota-usages-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Recipes API
+  slug: open-elastic-io-recipes-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Roles API
+  slug: open-elastic-io-roles-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Snapshots API
+  slug: open-elastic-io-snapshots-api
+- collection_type: open
+  name: elastic.io Platform REST Agents SSH Keys API
+  slug: open-elastic-io-ssh-keys-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Subscriptions API
+  slug: open-elastic-io-subscriptions-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Teams API
+  slug: open-elastic-io-teams-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Topics API
+  slug: open-elastic-io-topics-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Users API
+  slug: open-elastic-io-users-api
+- collection_type: open
+  name: elastic.io Platform REST Agents Workspaces API
+  slug: open-elastic-io-workspaces-api
 common:
 - group: build
   title: ''
@@ -655,7 +724,7 @@ plans:
 - name: Elastic Io Plans Pricing
   plan_count: 3
   slug: elastic-io-plans-pricing
-random_paper: 42
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Elastic Io Rate Limits
@@ -697,7 +766,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-io/refs/heads/main/screenshots/elastic-io-2026-06-20T180540.png
 security:

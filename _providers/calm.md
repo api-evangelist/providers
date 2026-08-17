@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,7 +44,20 @@ apis:
 - description: Link and cancel partner-user Calm subscriptions.
   name: Calm Subscriptions API
   slug: calm-subscriptions-api
-artifact_total: 7
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Calm Partner Authentication API
+  slug: open-calm-authentication-api
+- collection_type: open
+  name: Calm Partner API
+  slug: open-calm-partner-api
+- collection_type: open
+  name: Calm Partner Authentication Subscriptions API
+  slug: open-calm-subscriptions-api
 common:
 - group: other
   title: ''
@@ -142,9 +155,248 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/calm-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/calm-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/calm-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.calm.com
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.calm.com
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.calm.com/signup
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.calm.com/subscribe
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://partner.calm.com/docs/sso
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://partner.calm.com/docs/sftp-instructions
+- group: other
+  title: ''
+  type: Product
+  url: https://business.calm.com
+- group: other
+  title: ''
+  type: Product
+  url: https://health.calm.com
+- group: other
+  title: ''
+  type: Product
+  url: https://app.calmhealth.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.calm.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.calm.com/terms
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.calm.com
+- group: company
+  title: ''
+  type: Press
+  url: https://www.calm.com/press
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.calm.com/jobs
+- group: operate
+  title: ''
+  type: Contact
+  url: https://support.calm.com/hc/en-us/requests/new
+- group: other
+  title: ''
+  type: AppStoreApple
+  url: https://apps.apple.com/us/app/calm/id571800810
+- group: other
+  title: ''
+  type: AppStoreGoogle
+  url: https://play.google.com/store/apps/details?id=com.calm.android
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/calm
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/calm-com
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/calm
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/c/calm
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/calm.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/calm
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/calm-domain-security.yml
+- group: other
+  title: ''
+  type: CalmHealth
+  url: https://health.calm.com
+- group: commercial
+  title: ''
+  type: ForHealthPlans
+  url: https://health.calm.com/health-plans
+- group: other
+  title: ''
+  type: ForEmployers
+  url: https://health.calm.com/employers
+- group: other
+  title: ''
+  type: ForConsultants
+  url: https://health.calm.com/consultants
+- group: build
+  title: ''
+  type: ClinicalPrograms
+  url: https://health.calm.com/clinical-programs
+- group: other
+  title: ''
+  type: Gift
+  url: https://www.calm.com/gift
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.calm.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.calm.com/blog
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://newsroom.calm.com
+- group: other
+  title: ''
+  type: Science
+  url: https://www.calm.com/science
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.calm.com/privacy-policy
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://health.calm.com/trust
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.calm.com/careers
+- group: other
+  title: ''
+  type: iOSApp
+  url: https://apps.apple.com/us/app/calm/id571800810
+- group: other
+  title: ''
+  type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.calm.android
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/calm
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/calm
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/calm/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://health.calm.com/contact
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/calm-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/calm-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/calm-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/calm-domain-security.yml
 created: '2026-07-17'
 description: 'Calm is a leading consumer mental-wellness company whose app offers guided meditations, Sleep Stories, breathing programs, mindfulness masterclasses, and soundscapes. Beyond the direct-to-consumer app, Calm sells two B2B products: Calm Business, which delivers the Calm experience to employers as an employee wellness benefit, and Calm Health, a clinical mental-health offering for health plans and large self-insured employers. Both are powered by the Calm Partner API, an OAuth 2.0 client-credentials REST surface that partner HR and benefits systems use to provision, link, and cancel Calm subscriptions for their members, alongside SAML 2.0 IdP-initiated SSO and SFTP eligibility-file uploads. Calm is a portfolio company of Lightspeed Venture Partners.'
+examples:
+- key_count: 2
+  name: Calm Authorize Example
+  slug: calm-authorize-example
+- key_count: 2
+  name: Calm Cancel User Example
+  slug: calm-cancel-user-example
+- key_count: 2
+  name: Calm Link User Example
+  slug: calm-link-user-example
+features:
+- Guided meditations across stress, anxiety, focus, and self-care libraries
+- Sleep Stories — long-form bedtime audio narrated by well-known voices
+- Daily Calm — a fresh 10-minute guided meditation every day
+- Breathing exercises and breathwork programs
+- Mindfulness and emotional-skill courses
+- Calm Music — curated music for focus, relaxation, and sleep
+- Calm Kids content library for children
+- Soundscapes and nature audio
+- Calm Business — employer-paid Calm benefit for employee wellness
+- Calm Health — clinical mental health programs for health plans and self-insured employers
+- Partner API with OAuth 2.0 client_credentials for subscription provisioning
+- Partner SAML 2.0 IdP-initiated SSO with unique SubjectNameId
+- SFTP eligibility file ingestion (CSV) at sftp.ws.calm.com:/inbound/eligibility/
+- Partner Portal for administration, reporting, and segmentation
+- iOS and Android apps plus a web experience at calm.com
+- Available on Apple Watch, Apple TV, and Amazon Alexa
 image: https://www.calm.com/favicon.ico
+json_schemas:
+- name: Calm Eligibility File Row
+  property_count: 4
+  slug: calm-eligibility-file
+- name: Calm Partner User
+  property_count: 9
+  slug: calm-partner-user
+jsonld:
+- class_count: 16
+  name: Calm Context
+  property_count: 2
+  slug: calm-context
 layout: provider
 mcp_servers:
 - description: ''
@@ -157,24 +409,36 @@ network: true
 overview: 'Calm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Subscriptions API. Tagged areas include Company, Mental Health, Wellness, Meditation, and Mindfulness.
 
 
-  Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 17 more developer resources.'
-random_paper: 53
+  The Calm catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 67 more developer resources.'
+random_paper: 115
+rules:
+- name: Calm API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: calm-jsonschema-spectral-rules
 scopes:
 - name: Calm Scopes
   scope_count: 2
   slug: calm-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 43.4
-  delta: 0.0
+  band: strong
+  composite: 58.6
+  delta: 15.2
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 61.6
-    developer_ergonomics: 60.3
+    commercial_clarity: 52.6
+    contract_quality: 67.5
+    developer_ergonomics: 62.5
     discoverability: 75.9
-    governance: 11.5
-    operational_transparency: 15.8
+    governance: 69.8
+    operational_transparency: 21.1
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -191,10 +455,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 47.5
+    score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/screenshots/calm-2026-07-25T204251.png
 security:
 - kind: authentication
@@ -217,5 +481,5 @@ tags:
 - Health
 - B2B
 - Subscriptions
-website: https://partner.calm.com/
+website: https://www.calm.com
 ---

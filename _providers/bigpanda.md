@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Schedule maintenance windows to suppress alerts
   name: BigPanda Maintenance Plans API
   slug: bigpanda-maintenance-plans-api
-artifact_total: 78
+artifact_total: 85
 collections:
 - collection_type: postman
   name: BigPanda Alerts API
@@ -77,6 +77,27 @@ collections:
 - collection_type: postman
   name: BigPanda Alerts Maintenance Plans API
   slug: postman-bigpanda-maintenance-plans-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BigPanda Alerts API
+  slug: open-bigpanda-alerts-api
+- collection_type: open
+  name: BigPanda Alerts Audit API
+  slug: open-bigpanda-audit-api
+- collection_type: open
+  name: BigPanda Alerts Changes API
+  slug: open-bigpanda-changes-api
+- collection_type: open
+  name: BigPanda Alerts Environments API
+  slug: open-bigpanda-environments-api
+- collection_type: open
+  name: BigPanda Alerts Incidents API
+  slug: open-bigpanda-incidents-api
+- collection_type: open
+  name: BigPanda Alerts Maintenance Plans API
+  slug: open-bigpanda-maintenance-plans-api
 - collection_type: open
   name: BigPanda API
   slug: open-bigpanda
@@ -319,7 +340,7 @@ plans:
 - name: Bigpanda Plans Pricing
   plan_count: 3
   slug: bigpanda-plans-pricing
-random_paper: 102
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Bigpanda Rate Limits
@@ -361,7 +382,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/screenshots/bigpanda-2026-06-20T173234.png
 security:

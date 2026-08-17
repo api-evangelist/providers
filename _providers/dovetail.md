@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Dovetail Public API for building custom integrations against a Dovetail workspace: manage projects, folders, docs, insights, data (notes), highlights, tags, themes, channels, topics, contacts, users, '
@@ -156,7 +156,7 @@ overview: 'Dovetail publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Dovetail''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 19 more developer resources.'
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 1
   name: Dovetail Rate Limits
@@ -176,7 +176,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/screenshots/dovetail-2026-07-25T212327.png
 security:

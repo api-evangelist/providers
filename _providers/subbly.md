@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -57,8 +57,23 @@ apis:
 - description: Customer subscriptions and preferences (modeled from the SDK).
   name: Subbly Subscriptions API
   slug: subbly-subscriptions-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Subbly Storefront API (Modeled) Cart API
+  slug: open-subbly-cart-api
+- collection_type: open
+  name: Subbly Storefront API (Modeled) Cart Customers API
+  slug: open-subbly-customers-api
+- collection_type: open
+  name: Subbly Storefront API (Modeled) Cart Products API
+  slug: open-subbly-products-api
+- collection_type: open
+  name: Subbly Storefront API (Modeled) Cart Subscriptions API
+  slug: open-subbly-subscriptions-api
 - collection_type: open
   name: Subbly Storefront API (Modeled)
   slug: open-subbly
@@ -139,7 +154,7 @@ plans:
 - name: Subbly Plans Pricing
   plan_count: 5
   slug: subbly-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Subbly Rate Limits
@@ -164,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

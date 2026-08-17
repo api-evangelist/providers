@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 9
@@ -261,8 +261,227 @@ apis:
 - description: The subpackage_workspaces.subpackage_workspaces/projects API from Label Studio — 1 operation(s) for subpackage_workspaces.subpackage_workspaces/projects.
   name: Label Studio subpackage_workspaces.subpackage_workspaces/projects API
   slug: label-studio-subpackage-workspaces-subpackage-workspaces-projects-api
-artifact_total: 81
+artifact_total: 154
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference subpackage_actions API
+  slug: open-label-studio-subpackage-actions-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_activityLogs API
+  slug: open-label-studio-subpackage-activitylogs-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_annotationHistory API
+  slug: open-label-studio-subpackage-annotationhistory-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_annotations API
+  slug: open-label-studio-subpackage-annotations-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_billing API
+  slug: open-label-studio-subpackage-billing-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_comments API
+  slug: open-label-studio-subpackage-comments-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_dimensions API
+  slug: open-label-studio-subpackage-dimensions-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage API
+  slug: open-label-studio-subpackage-exportstorage-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/azure API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-azure-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/azureSpi API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-azurespi-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/databricks API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-databricks-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/gcs API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-gcs-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/gcsSa API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-gcssa-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/gcswif API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-gcswif-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/local API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-local-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/redis API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-redis-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/s3 API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-s3-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_exportStorage.subpackage_exportStorage/s3S API
+  slug: open-label-studio-subpackage-exportstorage-subpackage-exportstorage-s3s-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_files API
+  slug: open-label-studio-subpackage-files-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage API
+  slug: open-label-studio-subpackage-importstorage-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/azure API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-azure-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/azureSpi API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-azurespi-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/databricks API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-databricks-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/gcs API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-gcs-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/gcsSa API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-gcssa-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/gcswif API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-gcswif-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/local API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-local-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/redis API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-redis-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/s3 API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-s3-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_importStorage.subpackage_importStorage/s3S API
+  slug: open-label-studio-subpackage-importstorage-subpackage-importstorage-s3s-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_jwtSettings API
+  slug: open-label-studio-subpackage-jwtsettings-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_ml API
+  slug: open-label-studio-subpackage-ml-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_modelProviders API
+  slug: open-label-studio-subpackage-modelproviders-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_organizations API
+  slug: open-label-studio-subpackage-organizations-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_organizations.subpackage_organizations/invites API
+  slug: open-label-studio-subpackage-organizations-subpackage-organizations-invites-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_organizations.subpackage_organizations/members API
+  slug: open-label-studio-subpackage-organizations-subpackage-organizations-members-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_organizations.subpackage_organizations/memberTags API
+  slug: open-label-studio-subpackage-organizations-subpackage-organizations-membertags-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_organizations.subpackage_organizations/memberTags.subpackage_organizations/memberTags/bulk API
+  slug: open-label-studio-subpackage-organizations-subpackage-organizations-membertags-subpackage-organizations-membertags-bulk-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_organizations.subpackage_organizations/permissions API
+  slug: open-label-studio-subpackage-organizations-subpackage-organizations-permissions-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_predictions API
+  slug: open-label-studio-subpackage-predictions-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects API
+  slug: open-label-studio-subpackage-projects-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/assignments API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-assignments-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/exports API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-exports-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/members API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-members-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/members.subpackage_projects/members/bulk API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-bulk-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/members.subpackage_projects/members/paginated API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-paginated-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/metrics API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-metrics-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/metrics.subpackage_projects/metrics/custom API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-metrics-subpackage-projects-metrics-custom-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/pauses API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-pauses-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/roles API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-roles-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projects.subpackage_projects/stats API
+  slug: open-label-studio-subpackage-projects-subpackage-projects-stats-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_projectTemplates API
+  slug: open-label-studio-subpackage-projecttemplates-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_prompts API
+  slug: open-label-studio-subpackage-prompts-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_prompts.subpackage_prompts/indicators API
+  slug: open-label-studio-subpackage-prompts-subpackage-prompts-indicators-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_prompts.subpackage_prompts/runs API
+  slug: open-label-studio-subpackage-prompts-subpackage-prompts-runs-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_prompts.subpackage_prompts/versions API
+  slug: open-label-studio-subpackage-prompts-subpackage-prompts-versions-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_sessionPolicy API
+  slug: open-label-studio-subpackage-sessionpolicy-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_sso.subpackage_sso/saml API
+  slug: open-label-studio-subpackage-sso-subpackage-sso-saml-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_sso.subpackage_sso/scim API
+  slug: open-label-studio-subpackage-sso-subpackage-sso-scim-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_states API
+  slug: open-label-studio-subpackage-states-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_tasks API
+  slug: open-label-studio-subpackage-tasks-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_tasks.subpackage_tasks/agreementMatrix API
+  slug: open-label-studio-subpackage-tasks-subpackage-tasks-agreementmatrix-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_tokens API
+  slug: open-label-studio-subpackage-tokens-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_users API
+  slug: open-label-studio-subpackage-users-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_versions API
+  slug: open-label-studio-subpackage-versions-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_views API
+  slug: open-label-studio-subpackage-views-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_webhooks API
+  slug: open-label-studio-subpackage-webhooks-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_workspaces API
+  slug: open-label-studio-subpackage-workspaces-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_workspaces.subpackage_workspaces/members API
+  slug: open-label-studio-subpackage-workspaces-subpackage-workspaces-members-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_workspaces.subpackage_workspaces/members.subpackage_workspaces/members/bulk API
+  slug: open-label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-bulk-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_workspaces.subpackage_workspaces/members.subpackage_workspaces/members/paginated API
+  slug: open-label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-paginated-api
+- collection_type: open
+  name: API Reference subpackage_actions subpackage_workspaces.subpackage_workspaces/projects API
+  slug: open-label-studio-subpackage-workspaces-subpackage-workspaces-projects-api
 - collection_type: open
   name: API Reference
   slug: open-label-studio
@@ -355,7 +574,7 @@ plans:
 - name: Label Studio Plans Pricing
   plan_count: 3
   slug: label-studio-plans-pricing
-random_paper: 21
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Label Studio Rate Limits
@@ -380,7 +599,7 @@ score:
       marker_coverage: 0.0
       total: 74
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/screenshots/label-studio-2026-06-20T184236.png
 security:

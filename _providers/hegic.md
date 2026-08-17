@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,7 +69,32 @@ apis:
 - description: Total Value Locked data for Hegic and other protocols
   name: Hegic TVL API
   slug: hegic-tvl-api
-artifact_total: 17
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arbiscan Token API - HEGIC Token Accounts API
+  slug: open-hegic-accounts-api
+- collection_type: open
+  name: Arbiscan Token API - HEGIC Token Accounts Contracts API
+  slug: open-hegic-contracts-api
+- collection_type: open
+  name: Arbiscan Token API - HEGIC Token Accounts Fees API
+  slug: open-hegic-fees-api
+- collection_type: open
+  name: Arbiscan Token API - HEGIC Token Accounts Options API
+  slug: open-hegic-options-api
+- collection_type: open
+  name: Arbiscan Token API - HEGIC Token Accounts Prices API
+  slug: open-hegic-prices-api
+- collection_type: open
+  name: Arbiscan Token API - HEGIC Token Accounts Tokens API
+  slug: open-hegic-tokens-api
+- collection_type: open
+  name: Arbiscan Token API - HEGIC Token Accounts TVL API
+  slug: open-hegic-tvl-api
 common:
 - group: agent
   title: ''
@@ -143,7 +168,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 32
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -174,7 +199,7 @@ score:
     regime_id: securities_market_data
     score: 36.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/screenshots/hegic-2026-06-20T182611.png
 security:

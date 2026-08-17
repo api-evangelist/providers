@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: 商品マスタ / 商品対応表 — product master and mapping
@@ -58,7 +58,38 @@ apis:
 - description: 仕入先マスタ — supplier master
   name: Logiless Suppliers API
   slug: logiless-suppliers-api
-artifact_total: 14
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LOGILESS Articles API
+  slug: open-logiless-articles-api
+- collection_type: open
+  name: LOGILESS Articles Inbound Deliveries API
+  slug: open-logiless-inbound-deliveries-api
+- collection_type: open
+  name: LOGILESS Articles Inter-Warehouse Transfers API
+  slug: open-logiless-inter-warehouse-transfers-api
+- collection_type: open
+  name: LOGILESS Articles Inventory API
+  slug: open-logiless-inventory-api
+- collection_type: open
+  name: LOGILESS Articles Locations API
+  slug: open-logiless-locations-api
+- collection_type: open
+  name: LOGILESS Articles Outbound Deliveries API
+  slug: open-logiless-outbound-deliveries-api
+- collection_type: open
+  name: LOGILESS Articles Sales Orders API
+  slug: open-logiless-sales-orders-api
+- collection_type: open
+  name: LOGILESS Articles Sales Returns API
+  slug: open-logiless-sales-returns-api
+- collection_type: open
+  name: LOGILESS Articles Suppliers API
+  slug: open-logiless-suppliers-api
 common:
 - group: other
   title: ''
@@ -188,7 +219,7 @@ overview: 'Logiless publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Logiless'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 26
+random_paper: 121
 rate_limits:
 - limit_count: 1
   name: Logiless Rate Limits
@@ -220,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png
 security:

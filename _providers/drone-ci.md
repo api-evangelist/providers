@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -57,8 +57,26 @@ apis:
 - description: The User API from Drone — 1 operation(s) for user.
   name: Drone User API
   slug: drone-ci-user-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Drone CI REST Builds API
+  slug: open-drone-ci-builds-api
+- collection_type: open
+  name: Drone CI REST Builds Cron API
+  slug: open-drone-ci-cron-api
+- collection_type: open
+  name: Drone CI REST Builds Secrets API
+  slug: open-drone-ci-secrets-api
+- collection_type: open
+  name: Drone CI REST Builds Templates API
+  slug: open-drone-ci-templates-api
+- collection_type: open
+  name: Drone CI REST Builds User API
+  slug: open-drone-ci-user-api
 - collection_type: open
   name: Drone CI REST API
   slug: open-drone-ci
@@ -131,7 +149,7 @@ plans:
 - name: Drone Ci Plans Pricing
   plan_count: 2
   slug: drone-ci-plans-pricing
-random_paper: 65
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Drone Ci Rate Limits
@@ -156,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/screenshots/drone-ci-2026-06-20T180242.png
 security:

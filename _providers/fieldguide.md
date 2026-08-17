@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -84,11 +84,60 @@ apis:
 - description: Endpoints used to interact with Fieldguide Webhooks
   name: Fieldguide webhooks API
   slug: fieldguide-webhooks-api
-artifact_total: 22
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Fieldguide Webhooks
   slug: fieldguide-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fieldguide api API
+  slug: open-fieldguide-api-api
+- collection_type: open
+  name: Fieldguide api comments API
+  slug: open-fieldguide-comments-api
+- collection_type: open
+  name: Fieldguide api companies API
+  slug: open-fieldguide-companies-api
+- collection_type: open
+  name: Fieldguide api controls API
+  slug: open-fieldguide-controls-api
+- collection_type: open
+  name: Fieldguide api engagements API
+  slug: open-fieldguide-engagements-api
+- collection_type: open
+  name: Fieldguide api files API
+  slug: open-fieldguide-files-api
+- collection_type: open
+  name: Fieldguide api insights API
+  slug: open-fieldguide-insights-api
+- collection_type: open
+  name: Fieldguide api jobs API
+  slug: open-fieldguide-jobs-api
+- collection_type: open
+  name: Fieldguide api milestones API
+  slug: open-fieldguide-milestones-api
+- collection_type: open
+  name: Fieldguide api requests API
+  slug: open-fieldguide-requests-api
+- collection_type: open
+  name: Fieldguide api sheet-columns API
+  slug: open-fieldguide-sheet-columns-api
+- collection_type: open
+  name: Fieldguide api sheet-rows API
+  slug: open-fieldguide-sheet-rows-api
+- collection_type: open
+  name: Fieldguide api sheets API
+  slug: open-fieldguide-sheets-api
+- collection_type: open
+  name: Fieldguide api users API
+  slug: open-fieldguide-users-api
+- collection_type: open
+  name: Fieldguide api webhooks API
+  slug: open-fieldguide-webhooks-api
 common:
 - group: auth
   title: ''
@@ -225,7 +274,7 @@ overview: 'Fieldguide publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fieldguide''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 82
+random_paper: 148
 scopes:
 - name: Fieldguide Scopes
   scope_count: 21
@@ -254,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/screenshots/fieldguide-2026-07-25T214434.png
 security:

@@ -1,36 +1,63 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Public documentation, gated credentials
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
-  trial: false
+  source:
+  - https://eventx.io/pricing
+  - https://eventx-hq.gitbook.io/knowledge-base/api-doc/auth
+  - https://esaas-api.eventx.io/api-docs/public-api/openApi.json
+  trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    openapi_examples: verified
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 71.6
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 35
+  human_in_the_loop: 0
+  name: Eventxtra Agentic Access
+  operation_count: 58
+  slug: eventxtra-agentic-access
+  summary_line: 58 operations · 35 acting
+api_count: 1
+apis:
+- description: 'The EventX Public API is a REST interface over the EventX event management platform, published as an OpenAPI 3.2.0 document with 46 paths and 58 operations across Auth, Event, Attendee, Custom Field, '
+  name: EventX Public API
+  slug: eventx-public-api
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Eventxtra Webhooks
+  slug: eventxtra-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/eventxtra-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/eventxtra-authentication.yml
 - group: company
   title: ''
   type: Website
@@ -95,43 +122,127 @@ common:
   title: ''
   type: DomainSecurity
   url: security/eventxtra-domain-security.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://eventx-hq.gitbook.io/knowledge-base/api-doc/auth
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://eventx-hq.gitbook.io/knowledge-base
+- group: start
+  title: ''
+  type: SignUp
+  url: https://portal.eventx.io/signup
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.eventx.io/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/eventxtra-public-api-openapi.json
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/eventxtra-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/eventxtra-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/eventxtra-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/eventxtra-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/eventxtra-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/eventxtra-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/eventxtra-public-api-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/eventxtra-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/eventxtra-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/eventxtra-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/eventxtra-knowledge-base-llms.txt
 created: '2026-07-17'
-description: EventX (EventXtra Limited) is an AI-powered, all-in-one event management and marketing platform for in-person, virtual, and hybrid events, headquartered in Hong Kong with offices across APAC. It provides event registration and RSVP, QR-code check-in and badge printing, ticketing and payment with 0% platform fees, AI Lead Finder, event website building, virtual event hosting, sponsor and exhibitor management, lead capture, and WhatsApp/email marketing. EventX serves 5,600+ brands and is ISO 27001 certified and GDPR compliant. It also offers an official hosted MCP server that lets AI assistants query live event data (registrations, sessions, ticket sales, attendance) in natural language, provisioned one-click from the EventX dashboard and compatible with Claude, ChatGPT, Cursor, and OpenCode. Added to the API Evangelist network as a portfolio company of 500 Global and enriched via the pipeline.
+description: EventX (EventXtra Limited) is an AI-powered, all-in-one event management and marketing platform for in-person, virtual, and hybrid events, headquartered in Hong Kong with offices across APAC. It provides event registration and RSVP, QR-code check-in and badge printing, ticketing and payment with 0% platform fees, AI Lead Finder, event website building, virtual event hosting, sponsor and exhibitor management, lead capture, and WhatsApp/email marketing. EventX serves 5,600+ brands and is ISO 27001 certified and GDPR compliant. It also offers an official hosted MCP server that lets AI assistants query live event data (registrations, sessions, ticket sales, attendance) in natural language, provisioned one-click from the EventX dashboard and compatible with Claude, ChatGPT, Cursor, and OpenCode. EventX publishes a REST Public API documented as an OpenAPI 3.2.0 contract (46 paths, 58 operations) at esaas-api.eventx.io, covering events, attendees, custom fields, ticket classes, orders,
+  invoices, media, registration forms and outreach, plus a per-event webhook subscription API delivering five attendee lifecycle actions. Added to the API Evangelist network as a portfolio company of 500 Global and enriched via the pipeline.
 image: https://eventx.io/images/og/index-b41677e1.png
 layout: provider
 mcp_servers:
 - description: ''
   name: eventxtra-mcp.yml
   slug: eventxtra-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: EventX
 nav: Providers
 network: true
-overview: 'EventX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Event Management, Event Registration, Ticketing, and Check-in.
+overview: 'EventX publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Event Management, Event Registration, Ticketing, and Check-in.
 
 
-  EventX''s developer surface includes documentation, support, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 33
+  The EventX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  EventX''s developer surface includes authentication, documentation, support, engineering blog, pricing, API reference, getting-started guide, and 28 more developer resources.'
+plans:
+- name: Eventxtra Plans Pricing
+  plan_count: 4
+  slug: eventxtra-plans-pricing
+random_paper: 99
+rate_limits:
+- limit_count: 2
+  name: Eventxtra Rate Limits
+  slug: eventxtra-rate-limits
 score:
-  band: emerging
-  composite: 24.8
-  delta: 0.0
+  band: strong
+  composite: 61.7
+  delta: 36.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 23.9
-    discoverability: 57.4
-    governance: 12.5
-    operational_transparency: 5.3
+    commercial_clarity: 92.1
+    contract_quality: 55.3
+    developer_ergonomics: 58.7
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 50.0
   previous_composite: 24.8
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/screenshots/eventxtra-2026-07-25T213718.png
 security:
+- kind: authentication
+  name: Eventxtra Authentication
+  slug: eventxtra-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Eventxtra Domain Security
   slug: eventxtra-domain-security
@@ -149,7 +260,11 @@ tags:
 - Check-in
 - Event Marketing
 - Virtual Events
+- Webhooks
+- OpenAPI
 - MCP
 - AI
+- Hong Kong
+- APAC
 website: https://eventx.io
 ---

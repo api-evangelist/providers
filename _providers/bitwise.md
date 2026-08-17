@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Bitwise crypto index metadata, history, and constituents.
   name: Bitwise Indexes API
   slug: bitwise-indexes-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bitwise ETFs API
+  slug: open-bitwise-etfs-api
+- collection_type: open
+  name: Bitwise ETFs Funds API
+  slug: open-bitwise-funds-api
+- collection_type: open
+  name: Bitwise ETFs Indexes API
+  slug: open-bitwise-indexes-api
 common:
 - group: agent
   title: ''
@@ -137,7 +150,7 @@ overview: 'Bitwise publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Bitwise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 39
+random_paper: 14
 score:
   band: thin
   composite: 39.1
@@ -167,7 +180,7 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/screenshots/bitwise-2026-07-25T203218.png
 security:

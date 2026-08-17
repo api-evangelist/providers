@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,8 +49,23 @@ apis:
 - description: Refund settled FawryPay orders.
   name: Fawry Refunds API
   slug: fawry-refunds-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FawryPay Server Installments API
+  slug: open-fawry-installments-api
+- collection_type: open
+  name: FawryPay Server Installments Orders API
+  slug: open-fawry-orders-api
+- collection_type: open
+  name: FawryPay Server Installments Payments API
+  slug: open-fawry-payments-api
+- collection_type: open
+  name: FawryPay Server Installments Refunds API
+  slug: open-fawry-refunds-api
 - collection_type: open
   name: FawryPay Server API
   slug: open-fawrypay-server-api
@@ -235,7 +250,7 @@ overview: 'Fawry publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fawry''s developer surface includes developer portal, getting-started guide, documentation, signup flow, support, code examples, YouTube channel, and 32 more developer resources.'
-random_paper: 73
+random_paper: 106
 score:
   band: thin
   composite: 29.6
@@ -262,7 +277,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/screenshots/fawry-2026-06-20T181100.png
 security:

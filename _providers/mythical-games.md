@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: gRPC/Protobuf API of the Mythical Platform (Saga SDK) for issuing, transferring, and burning game items and currencies, managing item/currency types and minting, creating marketplace listings and offe
@@ -144,7 +144,7 @@ overview: 'Mythical Games publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Mythical Games'' developer surface includes authentication, engineering blog, and 21 more developer resources.'
-random_paper: 109
+random_paper: 88
 score:
   band: emerging
   composite: 19.3
@@ -162,7 +162,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/screenshots/mythical-games-2026-08-07T184545.png
 security:

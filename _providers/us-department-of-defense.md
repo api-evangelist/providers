@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,8 +71,35 @@ apis:
 - description: Time series data retrieval and management
   name: US Department of Defense Time Series API
   slug: us-department-of-defense-time-series-api
-artifact_total: 23
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USACE Corps Water Management System Data Catalog API
+  slug: open-us-department-of-defense-catalog-api
+- collection_type: open
+  name: USACE Corps Water Management System Data Catalog Levels API
+  slug: open-us-department-of-defense-levels-api
+- collection_type: open
+  name: USACE Corps Water Management System Data Catalog Locations API
+  slug: open-us-department-of-defense-locations-api
+- collection_type: open
+  name: USACE Corps Water Management System Data Catalog Measurements API
+  slug: open-us-department-of-defense-measurements-api
+- collection_type: open
+  name: USACE Corps Water Management System Data Catalog Offices API
+  slug: open-us-department-of-defense-offices-api
+- collection_type: open
+  name: USACE Corps Water Management System Data Catalog Projects API
+  slug: open-us-department-of-defense-projects-api
+- collection_type: open
+  name: USACE Corps Water Management System Data Catalog Ratings API
+  slug: open-us-department-of-defense-ratings-api
+- collection_type: open
+  name: USACE Corps Water Management System Data Catalog Time Series API
+  slug: open-us-department-of-defense-time-series-api
 - collection_type: open
   name: USACE Corps Water Management System Data API
   slug: open-usace-cwms-data-api
@@ -126,7 +153,7 @@ plans:
 - name: Us Department Of Defense Plans Pricing
   plan_count: 3
   slug: us-department-of-defense-plans-pricing
-random_paper: 106
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Us Department Of Defense Rate Limits
@@ -174,7 +201,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/screenshots/us-department-of-defense-2026-06-20T200627.png
 security:

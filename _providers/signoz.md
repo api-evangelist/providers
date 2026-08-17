@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 3
@@ -127,7 +127,7 @@ apis:
 - description: The zeus API from SigNoz — 2 operation(s) for zeus.
   name: SigNoz zeus API
   slug: signoz-zeus-api
-artifact_total: 88
+artifact_total: 118
 collections:
 - collection_type: postman
   name: SigNoz alerts API
@@ -216,6 +216,96 @@ collections:
 - collection_type: postman
   name: SigNoz alerts zeus API
   slug: postman-signoz-zeus-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SigNoz alerts API
+  slug: open-signoz-alerts-api
+- collection_type: open
+  name: SigNoz alerts authdomains API
+  slug: open-signoz-authdomains-api
+- collection_type: open
+  name: SigNoz alerts authz API
+  slug: open-signoz-authz-api
+- collection_type: open
+  name: SigNoz alerts channels API
+  slug: open-signoz-channels-api
+- collection_type: open
+  name: SigNoz alerts cloudintegration API
+  slug: open-signoz-cloudintegration-api
+- collection_type: open
+  name: SigNoz alerts dashboard API
+  slug: open-signoz-dashboard-api
+- collection_type: open
+  name: SigNoz alerts downtimeschedules API
+  slug: open-signoz-downtimeschedules-api
+- collection_type: open
+  name: SigNoz alerts features API
+  slug: open-signoz-features-api
+- collection_type: open
+  name: SigNoz alerts fields API
+  slug: open-signoz-fields-api
+- collection_type: open
+  name: SigNoz alerts gateway API
+  slug: open-signoz-gateway-api
+- collection_type: open
+  name: SigNoz alerts global API
+  slug: open-signoz-global-api
+- collection_type: open
+  name: SigNoz alerts health API
+  slug: open-signoz-health-api
+- collection_type: open
+  name: SigNoz alerts inframonitoring API
+  slug: open-signoz-inframonitoring-api
+- collection_type: open
+  name: SigNoz alerts llmpricingrules API
+  slug: open-signoz-llmpricingrules-api
+- collection_type: open
+  name: SigNoz alerts logs API
+  slug: open-signoz-logs-api
+- collection_type: open
+  name: SigNoz alerts metrics API
+  slug: open-signoz-metrics-api
+- collection_type: open
+  name: SigNoz alerts orgs API
+  slug: open-signoz-orgs-api
+- collection_type: open
+  name: SigNoz alerts preferences API
+  slug: open-signoz-preferences-api
+- collection_type: open
+  name: SigNoz alerts querier API
+  slug: open-signoz-querier-api
+- collection_type: open
+  name: SigNoz alerts role API
+  slug: open-signoz-role-api
+- collection_type: open
+  name: SigNoz alerts routepolicies API
+  slug: open-signoz-routepolicies-api
+- collection_type: open
+  name: SigNoz alerts rules API
+  slug: open-signoz-rules-api
+- collection_type: open
+  name: SigNoz alerts serviceaccount API
+  slug: open-signoz-serviceaccount-api
+- collection_type: open
+  name: SigNoz alerts sessions API
+  slug: open-signoz-sessions-api
+- collection_type: open
+  name: SigNoz alerts spanmapper API
+  slug: open-signoz-spanmapper-api
+- collection_type: open
+  name: SigNoz alerts tracedetail API
+  slug: open-signoz-tracedetail-api
+- collection_type: open
+  name: SigNoz alerts traces API
+  slug: open-signoz-traces-api
+- collection_type: open
+  name: SigNoz alerts users API
+  slug: open-signoz-users-api
+- collection_type: open
+  name: SigNoz alerts zeus API
+  slug: open-signoz-zeus-api
 - collection_type: open
   name: SigNoz
   slug: open-signoz
@@ -355,7 +445,7 @@ plans:
 - name: Signoz Plans Pricing
   plan_count: 3
   slug: signoz-plans-pricing
-random_paper: 66
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Signoz Rate Limits
@@ -397,7 +487,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/screenshots/signoz-2026-06-20T193914.png
 security:

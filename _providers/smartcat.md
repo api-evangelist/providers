@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 8
@@ -125,11 +125,102 @@ apis:
 - description: The Vendor API from Smartcat — 2 operation(s) for vendor.
   name: Smartcat Vendor API
   slug: smartcat-vendor-api
-artifact_total: 35
+artifact_total: 65
 asyncapis:
 - description: ''
   name: Smartcat Callbacks Webhooks
   slug: smartcat-callbacks-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smartcat Account API
+  slug: open-smartcat-account-api
+- collection_type: open
+  name: Smartcat Account AssignmentTemplates API
+  slug: open-smartcat-assignmenttemplates-api
+- collection_type: open
+  name: Smartcat Account Audit API
+  slug: open-smartcat-audit-api
+- collection_type: open
+  name: Smartcat Account Callback API
+  slug: open-smartcat-callback-api
+- collection_type: open
+  name: Smartcat Account Client API
+  slug: open-smartcat-client-api
+- collection_type: open
+  name: Smartcat Account ClientIndustry API
+  slug: open-smartcat-clientindustry-api
+- collection_type: open
+  name: Smartcat Account CustomFields API
+  slug: open-smartcat-customfields-api
+- collection_type: open
+  name: Smartcat Account Directories API
+  slug: open-smartcat-directories-api
+- collection_type: open
+  name: Smartcat Account Document API
+  slug: open-smartcat-document-api
+- collection_type: open
+  name: Smartcat Account DocumentExport API
+  slug: open-smartcat-documentexport-api
+- collection_type: open
+  name: Smartcat Account FileDisassemblingAlgorithmPresets API
+  slug: open-smartcat-filedisassemblingalgorithmpresets-api
+- collection_type: open
+  name: Smartcat Account FileManagement API
+  slug: open-smartcat-filemanagement-api
+- collection_type: open
+  name: Smartcat Account Glossary API
+  slug: open-smartcat-glossary-api
+- collection_type: open
+  name: Smartcat Account Invoice API
+  slug: open-smartcat-invoice-api
+- collection_type: open
+  name: Smartcat Account Job API
+  slug: open-smartcat-job-api
+- collection_type: open
+  name: Smartcat Account LspPrices API
+  slug: open-smartcat-lspprices-api
+- collection_type: open
+  name: Smartcat Account LspService API
+  slug: open-smartcat-lspservice-api
+- collection_type: open
+  name: Smartcat Account MyTeam API
+  slug: open-smartcat-myteam-api
+- collection_type: open
+  name: Smartcat Account PlaceholderFormatApi API
+  slug: open-smartcat-placeholderformatapi-api
+- collection_type: open
+  name: Smartcat Account Project API
+  slug: open-smartcat-project-api
+- collection_type: open
+  name: Smartcat Account ProjectTask API
+  slug: open-smartcat-projecttask-api
+- collection_type: open
+  name: Smartcat Account Quote API
+  slug: open-smartcat-quote-api
+- collection_type: open
+  name: Smartcat Account SegmentConfirmationStatistics API
+  slug: open-smartcat-segmentconfirmationstatistics-api
+- collection_type: open
+  name: Smartcat Account SmartTranslation API
+  slug: open-smartcat-smarttranslation-api
+- collection_type: open
+  name: Smartcat Account Smartwords API
+  slug: open-smartcat-smartwords-api
+- collection_type: open
+  name: Smartcat Account Template API
+  slug: open-smartcat-template-api
+- collection_type: open
+  name: Smartcat Account TranslationMemories API
+  slug: open-smartcat-translationmemories-api
+- collection_type: open
+  name: Smartcat Account UserDeletionRequests API
+  slug: open-smartcat-userdeletionrequests-api
+- collection_type: open
+  name: Smartcat Account Vendor API
+  slug: open-smartcat-vendor-api
 common:
 - group: other
   title: ''
@@ -270,7 +361,7 @@ overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   Smartcat''s developer surface includes changelog, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 23
+random_paper: 118
 score:
   band: developing
   composite: 51.4
@@ -294,7 +385,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

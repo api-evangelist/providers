@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 1
@@ -144,7 +144,7 @@ apis:
 - description: The X-Internal API from Netlify — 3 operation(s) for x-internal.
   name: Netlify X-Internal API
   slug: netlify-x-internal-api
-artifact_total: 170
+artifact_total: 206
 asyncapis:
 - description: 'AsyncAPI description of Netlify''s asynchronous event surface. Two documented surfaces are modelled here: 1. Outgoing webhooks (deploy / form / split test notifications). Netlify issues an HTTP POST to'
   name: Netlify Webhooks and Build Hooks
@@ -255,6 +255,114 @@ collections:
 - collection_type: postman
   name: Netlify Netlify's API documentation accessToken X-Internal API
   slug: postman-netlify-x-internal-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken API
+  slug: open-netlify-accesstoken-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken accountMembership API
+  slug: open-netlify-accountmembership-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken accountType API
+  slug: open-netlify-accounttype-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Asset API
+  slug: open-netlify-asset-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken assetPublicSignature API
+  slug: open-netlify-assetpublicsignature-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken auditLog API
+  slug: open-netlify-auditlog-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Build API
+  slug: open-netlify-build-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken buildHook API
+  slug: open-netlify-buildhook-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken buildLogMsg API
+  slug: open-netlify-buildlogmsg-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Deploy API
+  slug: open-netlify-deploy-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken deployedBranch API
+  slug: open-netlify-deployedbranch-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken deployKey API
+  slug: open-netlify-deploykey-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken devServer API
+  slug: open-netlify-devserver-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken devServerHook API
+  slug: open-netlify-devserverhook-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken dnsZone API
+  slug: open-netlify-dnszone-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken environmentVariables API
+  slug: open-netlify-environmentvariables-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken File API
+  slug: open-netlify-file-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Form API
+  slug: open-netlify-form-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Function API
+  slug: open-netlify-function-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Hook API
+  slug: open-netlify-hook-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken hookType API
+  slug: open-netlify-hooktype-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Member API
+  slug: open-netlify-member-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Metadata API
+  slug: open-netlify-metadata-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken paymentMethod API
+  slug: open-netlify-paymentmethod-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Purge API
+  slug: open-netlify-purge-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken serviceInstance API
+  slug: open-netlify-serviceinstance-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Services API
+  slug: open-netlify-services-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Site API
+  slug: open-netlify-site-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken sniCertificate API
+  slug: open-netlify-snicertificate-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Snippet API
+  slug: open-netlify-snippet-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken splitTest API
+  slug: open-netlify-splittest-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Submission API
+  slug: open-netlify-submission-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken Ticket API
+  slug: open-netlify-ticket-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken User API
+  slug: open-netlify-user-api
+- collection_type: open
+  name: Netlify Netlify's API documentation accessToken X-Internal API
+  slug: open-netlify-x-internal-api
 common:
 - group: operate
   title: ''
@@ -671,7 +779,7 @@ plans:
 - name: Netlify Plans Pricing
   plan_count: 4
   slug: netlify-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Netlify Rate Limits
@@ -718,7 +826,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/screenshots/netlify-2026-06-20T190259.png
 security:

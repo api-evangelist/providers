@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -140,7 +140,7 @@ overview: 'Avrea is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Avrea''s developer surface includes documentation, getting-started guide, developer console, pricing, engineering blog, signup flow, support, and 17 more developer resources.'
-random_paper: 47
+random_paper: 80
 score:
   band: thin
   composite: 37.0
@@ -156,7 +156,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/screenshots/avrea-2026-07-25T202013.png
 security:

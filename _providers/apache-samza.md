@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -47,7 +47,20 @@ apis:
 - description: The Tasks API from Apache Samza — 1 operation(s) for tasks.
   name: Apache Samza Tasks API
   slug: apache-samza-tasks-api
-artifact_total: 50
+artifact_total: 54
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Samza REST Checkpoints API
+  slug: open-apache-samza-checkpoints-api
+- collection_type: open
+  name: Apache Samza REST Checkpoints Jobs API
+  slug: open-apache-samza-jobs-api
+- collection_type: open
+  name: Apache Samza REST Checkpoints Tasks API
+  slug: open-apache-samza-tasks-api
 common:
 - group: agent
   title: ''
@@ -210,7 +223,7 @@ plans:
 - name: Apache Samza Plans Pricing
   plan_count: 3
   slug: apache-samza-plans-pricing
-random_paper: 115
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Apache Samza Rate Limits
@@ -252,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/screenshots/apache-samza-2026-06-20T172138.png
 security:

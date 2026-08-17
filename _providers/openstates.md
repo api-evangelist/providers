@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,29 @@ apis:
 - description: The people API from Open States — 2 operation(s) for people.
   name: Open States people API
   slug: openstates-people-api
-artifact_total: 21
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open States API v3 bills API
+  slug: open-openstates-bills-api
+- collection_type: open
+  name: Open States API v3 bills committees API
+  slug: open-openstates-committees-api
+- collection_type: open
+  name: Open States API v3 bills events API
+  slug: open-openstates-events-api
+- collection_type: open
+  name: Open States API v3 bills jurisdictions API
+  slug: open-openstates-jurisdictions-api
+- collection_type: open
+  name: Open States API v3 bills Metrics API
+  slug: open-openstates-metrics-api
+- collection_type: open
+  name: Open States API v3 bills people API
+  slug: open-openstates-people-api
 common:
 - group: commercial
   title: ''
@@ -161,7 +183,7 @@ plans:
 - name: Openstates Plans Pricing
   plan_count: 4
   slug: openstates-plans-pricing
-random_paper: 14
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Openstates Rate Limits
@@ -201,7 +223,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/screenshots/openstates-2026-06-20T191040.png
 security:

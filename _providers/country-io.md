@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +56,32 @@ apis:
 - description: International dialing codes by ISO2 country code.
   name: Country.io Phone API
   slug: country-io-phone-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Country.io Data Capitals API
+  slug: open-country-io-capitals-api
+- collection_type: open
+  name: Country.io Data Capitals Continents API
+  slug: open-country-io-continents-api
+- collection_type: open
+  name: Country.io Data Capitals Currency API
+  slug: open-country-io-currency-api
 - collection_type: open
   name: Country.io Data API
   slug: open-country-io-data
+- collection_type: open
+  name: Country.io Data Capitals ISO3 API
+  slug: open-country-io-iso3-api
+- collection_type: open
+  name: Country.io Data Capitals Names API
+  slug: open-country-io-names-api
+- collection_type: open
+  name: Country.io Data Capitals Phone API
+  slug: open-country-io-phone-api
 common:
 - group: agent
   title: ''
@@ -114,7 +135,7 @@ plans:
 - name: Country Io Plans Pricing
   plan_count: 3
   slug: country-io-plans-pricing
-random_paper: 89
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Country Io Rate Limits
@@ -154,7 +175,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/screenshots/country-io-2026-06-20T175104.png
 security:

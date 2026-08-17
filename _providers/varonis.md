@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -82,14 +82,26 @@ arazzos:
 - description: Find a user's high-severity alerts, pull the top alert's events, and annotate it.
   name: Varonis User High-Severity Investigation
   slug: varonis-user-high-severity-investigation-workflow
-artifact_total: 86
+artifact_total: 90
 collections:
 - collection_type: postman
   name: Varonis DatAlert API
   slug: postman-varonis-datalert
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Varonis DatAlert Alerts API
+  slug: open-varonis-alerts-api
+- collection_type: open
   name: Varonis DatAlert API
   slug: open-varonis-datalert
+- collection_type: open
+  name: Varonis DatAlert Alerts Events API
+  slug: open-varonis-events-api
+- collection_type: open
+  name: Varonis DatAlert Alerts Threat Models API
+  slug: open-varonis-threat-models-api
 common:
 - group: agent
   title: ''
@@ -404,7 +416,7 @@ plans:
 - name: Varonis Plans Pricing
   plan_count: 1
   slug: varonis-plans-pricing
-random_paper: 50
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Varonis Rate Limits
@@ -446,7 +458,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/screenshots/varonis-2026-06-20T200821.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Manage digital work instructions and task lists
   name: Acadia Work Instructions API
   slug: acadia-work-instructions-api
-artifact_total: 68
+artifact_total: 74
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Acadia - Platform Employees API
+  slug: open-acadia-employees-api
+- collection_type: open
+  name: Acadia - Platform Employees Quizzes API
+  slug: open-acadia-quizzes-api
+- collection_type: open
+  name: Acadia - Platform Employees Roles API
+  slug: open-acadia-roles-api
+- collection_type: open
+  name: Acadia - Platform Employees Skills API
+  slug: open-acadia-skills-api
+- collection_type: open
+  name: Acadia - Platform Employees Work Instructions API
+  slug: open-acadia-work-instructions-api
 common:
 - group: agent
   title: ''
@@ -258,7 +277,7 @@ plans:
 - name: Acadia Plans Pricing
   plan_count: 1
   slug: acadia-plans-pricing
-random_paper: 115
+random_paper: 148
 rate_limits:
 - limit_count: 0
   name: Acadia Rate Limits
@@ -300,7 +319,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/screenshots/acadia-2026-06-20T163529.png
 security:

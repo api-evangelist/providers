@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,11 +64,20 @@ arazzos:
 - description: Repeatedly describe a dashboard until its version status settles, then branch.
   name: Amazon QuickSight Poll Dashboard Publish Status
   slug: amazon-quicksight-poll-dashboard-status-workflow
-artifact_total: 36
+artifact_total: 39
 collections:
 - collection_type: postman
   name: Amazon QuickSight API
   slug: postman-amazon-quicksight
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon QuickSight Dashboards API
+  slug: open-amazon-quicksight-dashboards-api
+- collection_type: open
+  name: Amazon QuickSight Dashboards Datasets API
+  slug: open-amazon-quicksight-datasets-api
 - collection_type: open
   name: Amazon QuickSight API
   slug: open-amazon-quicksight
@@ -340,7 +349,7 @@ plans:
 - name: Amazon Quicksight Plans Pricing
   plan_count: 3
   slug: amazon-quicksight-plans-pricing
-random_paper: 95
+random_paper: 136
 rate_limits:
 - limit_count: 5
   name: Amazon Quicksight Rate Limits
@@ -382,7 +391,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/screenshots/amazon-quicksight-2026-06-20T171805.png
 security:

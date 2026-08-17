@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Operations operations
   name: microsoft-azure-container-instances Operations API
   slug: microsoft-azure-container-instances-operations-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Container Instances REST Container Groups API
+  slug: open-microsoft-azure-container-instances-container-groups-api
+- collection_type: open
+  name: Azure Container Instances REST Container Groups Operations API
+  slug: open-microsoft-azure-container-instances-operations-api
 - collection_type: open
   name: Azure Container Instances REST API
   slug: open-microsoft-azure-container-instances
@@ -118,7 +127,7 @@ plans:
 - name: Microsoft Azure Container Instances Plans Pricing
   plan_count: 3
   slug: microsoft-azure-container-instances-plans-pricing
-random_paper: 119
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Container Instances Rate Limits
@@ -148,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-container-instances/refs/heads/main/screenshots/microsoft-azure-container-instances-2026-06-20T185406.png
 security:

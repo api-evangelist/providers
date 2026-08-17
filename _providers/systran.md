@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Translation API from SYSTRAN — 4 operation(s) for translation.
   name: SYSTRAN Translation API
   slug: systran-translation-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SYSTRAN Translate & NLP Corpus API
+  slug: open-systran-corpus-api
+- collection_type: open
+  name: SYSTRAN Translate & NLP Corpus Dictionary API
+  slug: open-systran-dictionary-api
+- collection_type: open
+  name: SYSTRAN Translate & NLP Corpus File Translation API
+  slug: open-systran-file-translation-api
+- collection_type: open
+  name: SYSTRAN Translate & NLP Corpus Language Detection API
+  slug: open-systran-language-detection-api
+- collection_type: open
+  name: SYSTRAN Translate & Corpus NLP API
+  slug: open-systran-nlp-api
+- collection_type: open
+  name: SYSTRAN Translate & NLP Corpus Profiles API
+  slug: open-systran-profiles-api
+- collection_type: open
+  name: SYSTRAN Translate & NLP Corpus Supported Languages API
+  slug: open-systran-supported-languages-api
+- collection_type: open
+  name: SYSTRAN Translate & NLP Corpus Translation API
+  slug: open-systran-translation-api
 - collection_type: open
   name: SYSTRAN Translate & NLP API
   slug: open-systran
@@ -129,7 +156,7 @@ plans:
 - name: Systran Plans Pricing
   plan_count: 4
   slug: systran-plans-pricing
-random_paper: 68
+random_paper: 43
 rate_limits:
 - limit_count: 4
   name: Systran Rate Limits
@@ -154,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

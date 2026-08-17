@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -38,7 +38,11 @@ arazzos:
 - description: Run a proposed mortgage amount against Landcor's AVM value for a BC property and retrieve the password-protected PDF valuation report for the file.
   name: Landcor — loan-to-value check and valuation report
   slug: landcor-ltv-check-and-report
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Landcor Property API
+  slug: open-landcor-property-api
 common:
 - group: agent
   title: ''
@@ -186,7 +190,7 @@ overview: 'Landcor Data publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Landcor Data''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 19
+random_paper: 143
 score:
   band: thin
   composite: 41.0
@@ -205,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png
 security:

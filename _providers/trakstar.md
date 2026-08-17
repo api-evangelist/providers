@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -75,7 +75,44 @@ apis:
 - description: Manage user accounts
   name: Trakstar Users API
   slug: trakstar-users-api
-artifact_total: 29
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trakstar Hire Auth API
+  slug: open-trakstar-auth-api
+- collection_type: open
+  name: Trakstar Hire Auth Candidate Messages API
+  slug: open-trakstar-candidate-messages-api
+- collection_type: open
+  name: Trakstar Hire Auth Candidates API
+  slug: open-trakstar-candidates-api
+- collection_type: open
+  name: Trakstar Hire Auth Courses API
+  slug: open-trakstar-courses-api
+- collection_type: open
+  name: Trakstar Hire Auth Evaluations API
+  slug: open-trakstar-evaluations-api
+- collection_type: open
+  name: Trakstar Hire Auth Groups API
+  slug: open-trakstar-groups-api
+- collection_type: open
+  name: Trakstar Hire Auth Internal Notes API
+  slug: open-trakstar-internal-notes-api
+- collection_type: open
+  name: Trakstar Hire Auth Interviews API
+  slug: open-trakstar-interviews-api
+- collection_type: open
+  name: Trakstar Hire Auth Openings API
+  slug: open-trakstar-openings-api
+- collection_type: open
+  name: Trakstar Hire Auth To-Dos API
+  slug: open-trakstar-to-dos-api
+- collection_type: open
+  name: Trakstar Hire Auth Users API
+  slug: open-trakstar-users-api
 common:
 - group: agent
   title: ''
@@ -199,7 +236,7 @@ plans:
 - name: Trakstar Plans Pricing
   plan_count: 4
   slug: trakstar-plans-pricing
-random_paper: 36
+random_paper: 131
 rate_limits:
 - limit_count: 0
   name: Trakstar Rate Limits
@@ -233,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/screenshots/trakstar-2026-06-20T195534.png
 security:

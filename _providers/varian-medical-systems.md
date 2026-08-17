@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,11 +75,47 @@ apis:
 - description: Radiation therapy and other clinical procedures
   name: Varian Medical Systems Procedure API
   slug: varian-medical-systems-procedure-api
-artifact_total: 27
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Varian ARIA FHIR API
   slug: open-varian-aria-fhir
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance API
+  slug: open-varian-medical-systems-allergyintolerance-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance CarePlan API
+  slug: open-varian-medical-systems-careplan-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance Condition API
+  slug: open-varian-medical-systems-condition-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance DiagnosticReport API
+  slug: open-varian-medical-systems-diagnosticreport-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance DocumentReference API
+  slug: open-varian-medical-systems-documentreference-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance Goal API
+  slug: open-varian-medical-systems-goal-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance MedicationRequest API
+  slug: open-varian-medical-systems-medicationrequest-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance Metadata API
+  slug: open-varian-medical-systems-metadata-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance Observation API
+  slug: open-varian-medical-systems-observation-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance Patient API
+  slug: open-varian-medical-systems-patient-api
+- collection_type: open
+  name: Varian ARIA FHIR AllergyIntolerance Procedure API
+  slug: open-varian-medical-systems-procedure-api
 common:
 - group: agent
   title: ''
@@ -196,7 +232,7 @@ press:
 - date: '2026-05-25'
   title: AI-Enabled Radiation Therapy System & 1,000th Patient
   url: https://siteman.wustl.edu/ai-enabled-radiation-therapy-system-at-siteman/
-random_paper: 82
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Varian Medical Systems Rate Limits
@@ -249,7 +285,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/screenshots/varian-medical-systems-2026-06-20T200814.png
 security:

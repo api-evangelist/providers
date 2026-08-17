@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: Manage tenant information
   name: Innago Tenants API
   slug: innago-tenants-api
-artifact_total: 21
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Innago Expenses API
+  slug: open-innago-expenses-api
+- collection_type: open
+  name: Innago Expenses External References API
+  slug: open-innago-external-references-api
+- collection_type: open
+  name: Innago Expenses Health API
+  slug: open-innago-health-api
+- collection_type: open
+  name: Innago Expenses Invoices API
+  slug: open-innago-invoices-api
+- collection_type: open
+  name: Innago Expenses Leases API
+  slug: open-innago-leases-api
+- collection_type: open
+  name: Innago Expenses Maintenance API
+  slug: open-innago-maintenance-api
+- collection_type: open
+  name: Innago Expenses Payments API
+  slug: open-innago-payments-api
+- collection_type: open
+  name: Innago Expenses Properties API
+  slug: open-innago-properties-api
+- collection_type: open
+  name: Innago Expenses Tenants API
+  slug: open-innago-tenants-api
 common:
 - group: agent
   title: ''
@@ -157,7 +188,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -197,7 +228,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/screenshots/innago-2026-06-20T183356.png
 security:

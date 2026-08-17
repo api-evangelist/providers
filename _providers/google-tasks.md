@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: The Users API from Google Tasks — 2 operation(s) for users.
   name: Google Tasks Users API
   slug: google-tasks-users-api
-artifact_total: 16
+artifact_total: 19
 collections:
 - collection_type: postman
   name: Google Tasks Lists API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Google Tasks Lists Users API
   slug: postman-google-tasks-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Tasks Lists API
+  slug: open-google-tasks-lists-api
+- collection_type: open
+  name: Google Tasks Lists Users API
+  slug: open-google-tasks-users-api
 - collection_type: open
   name: Google Tasks API
   slug: open-tasks
@@ -157,7 +166,7 @@ plans:
 - name: Google Tasks Plans Pricing
   plan_count: 3
   slug: google-tasks-plans-pricing
-random_paper: 32
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Google Tasks Rate Limits
@@ -196,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/screenshots/google-tasks-2026-06-20T182240.png
 security:

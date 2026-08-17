@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: Create shortlink reward orders
   name: Giftbit Shortlinks API
   slug: giftbit-shortlinks-api
-artifact_total: 26
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Giftbit Brands API
+  slug: open-giftbit-brands-api
+- collection_type: open
+  name: Giftbit Brands Campaigns API
+  slug: open-giftbit-campaigns-api
+- collection_type: open
+  name: Giftbit Brands Direct Links API
+  slug: open-giftbit-direct-links-api
+- collection_type: open
+  name: Giftbit Brands Embedded Rewards API
+  slug: open-giftbit-embedded-rewards-api
+- collection_type: open
+  name: Giftbit Brands Funds API
+  slug: open-giftbit-funds-api
+- collection_type: open
+  name: Giftbit Brands Ping API
+  slug: open-giftbit-ping-api
+- collection_type: open
+  name: Giftbit Brands Regions API
+  slug: open-giftbit-regions-api
+- collection_type: open
+  name: Giftbit Brands Rewards API
+  slug: open-giftbit-rewards-api
+- collection_type: open
+  name: Giftbit Brands Shortlinks API
+  slug: open-giftbit-shortlinks-api
 common:
 - group: agent
   title: ''
@@ -183,7 +214,7 @@ plans:
 - name: Giftbit Plans Pricing
   plan_count: 1
   slug: giftbit-plans-pricing
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Giftbit Rate Limits
@@ -223,7 +254,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giftbit/refs/heads/main/screenshots/giftbit-2026-06-20T181826.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -51,7 +51,7 @@ apis:
 - description: Get user PII and approve / reject receipt of PII
   name: Civic piirequest API
   slug: civic-piirequest-api
-artifact_total: 21
+artifact_total: 24
 collections:
 - collection_type: postman
   name: Civic Customer pass API
@@ -59,6 +59,15 @@ collections:
 - collection_type: postman
   name: Civic Customer pass piirequest API
   slug: postman-civic-piirequest-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Civic Customer pass API
+  slug: open-civic-pass-api
+- collection_type: open
+  name: Civic Customer pass piirequest API
+  slug: open-civic-piirequest-api
 common:
 - group: commercial
   title: ''
@@ -188,7 +197,7 @@ plans:
 - name: Civic Plans Pricing
   plan_count: 3
   slug: civic-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Civic Rate Limits
@@ -233,7 +242,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/screenshots/civic-2026-06-20T174430.png
 security:

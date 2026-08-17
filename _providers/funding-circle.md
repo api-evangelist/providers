@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Retrieve credit decisions
@@ -40,11 +40,24 @@ apis:
 - description: Create and manage business loan applications
   name: Funding Circle Loan Applications API
   slug: funding-circle-loan-applications-api
-artifact_total: 7
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Funding Circle Webhooks
   slug: funding-circle-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Funding Circle Introducer Decisions API
+  slug: open-funding-circle-decisions-api
+- collection_type: open
+  name: Funding Circle Introducer Decisions Documents API
+  slug: open-funding-circle-documents-api
+- collection_type: open
+  name: Funding Circle Introducer Decisions Loan Applications API
+  slug: open-funding-circle-loan-applications-api
 common:
 - group: company
   title: ''
@@ -153,7 +166,7 @@ overview: 'Funding Circle publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Funding Circle''s developer surface includes documentation, API reference, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 98
+random_paper: 77
 score:
   band: developing
   composite: 44.3
@@ -182,7 +195,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

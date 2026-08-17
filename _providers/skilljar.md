@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 6
@@ -272,11 +272,249 @@ apis:
 - description: The Webhooks API from Skilljar — 13 operation(s) for webhooks.
   name: Skilljar Webhooks API
   slug: skilljar-webhooks-api
-artifact_total: 84
+artifact_total: 163
 asyncapis:
 - description: ''
   name: Skilljar Webhooks
   slug: skilljar-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Skilljar Assets API
+  slug: open-skilljar-assets-api
+- collection_type: open
+  name: Skilljar Assets Courses API
+  slug: open-skilljar-courses-api
+- collection_type: open
+  name: Skilljar Assets Courses > Labels API
+  slug: open-skilljar-courses-labels-api
+- collection_type: open
+  name: Skilljar Assets Courses > Lessons API
+  slug: open-skilljar-courses-lessons-api
+- collection_type: open
+  name: Skilljar Assets Domains > Access Codes > Codes API
+  slug: open-skilljar-domains-access-codes-codes-api
+- collection_type: open
+  name: Skilljar Assets Domains > Access Codes > Pools API
+  slug: open-skilljar-domains-access-codes-pools-api
+- collection_type: open
+  name: Skilljar Assets Domains API
+  slug: open-skilljar-domains-api
+- collection_type: open
+  name: Skilljar Assets Domains > Catalog Page > Page Items (Classic) API
+  slug: open-skilljar-domains-catalog-page-page-items-classic-api
+- collection_type: open
+  name: Skilljar Assets Domains > Catalog Pages API
+  slug: open-skilljar-domains-catalog-pages-api
+- collection_type: open
+  name: Skilljar Assets Domains > Catalog Pages (Builder) > Component Content Block API
+  slug: open-skilljar-domains-catalog-pages-builder-component-content-block-api
+- collection_type: open
+  name: Skilljar Assets Domains > Catalog Pages (Builder) > Content Blocks API
+  slug: open-skilljar-domains-catalog-pages-builder-content-blocks-api
+- collection_type: open
+  name: Skilljar Assets Domains > Catalog Pages (Builder) > HTML Content Blocks API
+  slug: open-skilljar-domains-catalog-pages-builder-html-content-blocks-api
+- collection_type: open
+  name: Skilljar Assets Domains > Catalog Pages (Builder) > Tile Containers API
+  slug: open-skilljar-domains-catalog-pages-builder-tile-containers-api
+- collection_type: open
+  name: Skilljar Assets Domains > Catalog Pages (Builder) > Tile Containers > Tile Items API
+  slug: open-skilljar-domains-catalog-pages-builder-tile-containers-tile-items-api
+- collection_type: open
+  name: Skilljar Assets Domains > Catalog Pages > Tags API
+  slug: open-skilljar-domains-catalog-pages-tags-api
+- collection_type: open
+  name: Skilljar Assets Domains > Course Series API
+  slug: open-skilljar-domains-course-series-api
+- collection_type: open
+  name: Skilljar Assets Domains > Course Series > Published Courses API
+  slug: open-skilljar-domains-course-series-published-courses-api
+- collection_type: open
+  name: Skilljar Assets Domains > Manager Access API
+  slug: open-skilljar-domains-manager-access-api
+- collection_type: open
+  name: Skilljar Assets Domains > Plans API
+  slug: open-skilljar-domains-plans-api
+- collection_type: open
+  name: Skilljar Assets Domains > Plans > Enrollments API
+  slug: open-skilljar-domains-plans-enrollments-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Courses API
+  slug: open-skilljar-domains-published-courses-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Courses > Enrollments API
+  slug: open-skilljar-domains-published-courses-enrollments-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Courses > Prerequisites API
+  slug: open-skilljar-domains-published-courses-prerequisites-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Courses > Reenrollment Rule API
+  slug: open-skilljar-domains-published-courses-reenrollment-rule-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Courses > Student Group Prerequisites API
+  slug: open-skilljar-domains-published-courses-student-group-prerequisites-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Courses > Tags API
+  slug: open-skilljar-domains-published-courses-tags-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Courses > Visibility Overrides API
+  slug: open-skilljar-domains-published-courses-visibility-overrides-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Paths API
+  slug: open-skilljar-domains-published-paths-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Paths > Enrollments API
+  slug: open-skilljar-domains-published-paths-enrollments-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Paths > Labels API
+  slug: open-skilljar-domains-published-paths-labels-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Paths > Path Items API
+  slug: open-skilljar-domains-published-paths-path-items-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Paths > Tags API
+  slug: open-skilljar-domains-published-paths-tags-api
+- collection_type: open
+  name: Skilljar Assets Domains > Published Paths > Visibility Overrides API
+  slug: open-skilljar-domains-published-paths-visibility-overrides-api
+- collection_type: open
+  name: Skilljar Assets Domains > Signup Fields API
+  slug: open-skilljar-domains-signup-fields-api
+- collection_type: open
+  name: Skilljar Assets Domains > Users API
+  slug: open-skilljar-domains-users-api
+- collection_type: open
+  name: Skilljar Assets Domains > Users > Invites API
+  slug: open-skilljar-domains-users-invites-api
+- collection_type: open
+  name: Skilljar Assets Domains > Users > Signup Fields API
+  slug: open-skilljar-domains-users-signup-fields-api
+- collection_type: open
+  name: Skilljar Assets Group Categories API
+  slug: open-skilljar-group-categories-api
+- collection_type: open
+  name: Skilljar Assets Groups > Access Code Pools API
+  slug: open-skilljar-groups-access-code-pools-api
+- collection_type: open
+  name: Skilljar Assets Groups API
+  slug: open-skilljar-groups-api
+- collection_type: open
+  name: Skilljar Assets Groups > Email Domain Rules API
+  slug: open-skilljar-groups-email-domain-rules-api
+- collection_type: open
+  name: Skilljar Assets Groups > Users API
+  slug: open-skilljar-groups-users-api
+- collection_type: open
+  name: Skilljar Assets Instructor Led Events > Sessions API
+  slug: open-skilljar-instructor-led-events-sessions-api
+- collection_type: open
+  name: Skilljar Assets Instructor Led Training > Instructors API
+  slug: open-skilljar-instructor-led-training-instructors-api
+- collection_type: open
+  name: Skilljar Assets Instructor Led Training > Multi-Session Events API
+  slug: open-skilljar-instructor-led-training-multi-session-events-api
+- collection_type: open
+  name: Skilljar Assets Labels API
+  slug: open-skilljar-labels-api
+- collection_type: open
+  name: Skilljar Assets Lesson Progress API
+  slug: open-skilljar-lesson-progress-api
+- collection_type: open
+  name: Skilljar Assets Lessons > Lesson Content Items API
+  slug: open-skilljar-lessons-lesson-content-items-api
+- collection_type: open
+  name: Skilljar Assets Lessons > Rating Content Blocks API
+  slug: open-skilljar-lessons-rating-content-blocks-api
+- collection_type: open
+  name: Skilljar Assets License Package Seats API
+  slug: open-skilljar-license-package-seats-api
+- collection_type: open
+  name: Skilljar Assets License Packages API
+  slug: open-skilljar-license-packages-api
+- collection_type: open
+  name: Skilljar Assets Offers API
+  slug: open-skilljar-offers-api
+- collection_type: open
+  name: Skilljar Assets Paths API
+  slug: open-skilljar-paths-api
+- collection_type: open
+  name: Skilljar Assets Paths > Path Items API
+  slug: open-skilljar-paths-path-items-api
+- collection_type: open
+  name: Skilljar Assets Ping API
+  slug: open-skilljar-ping-api
+- collection_type: open
+  name: Skilljar Assets Progress Tokens API
+  slug: open-skilljar-progress-tokens-api
+- collection_type: open
+  name: Skilljar Assets Promo Codes > Codes API
+  slug: open-skilljar-promo-codes-codes-api
+- collection_type: open
+  name: Skilljar Assets Promo Codes > Pools API
+  slug: open-skilljar-promo-codes-pools-api
+- collection_type: open
+  name: Skilljar Assets Promo Codes > Promo Code Pools > Offers API
+  slug: open-skilljar-promo-codes-promo-code-pools-offers-api
+- collection_type: open
+  name: Skilljar Assets Purchases API
+  slug: open-skilljar-purchases-api
+- collection_type: open
+  name: Skilljar Assets Question Banks API
+  slug: open-skilljar-question-banks-api
+- collection_type: open
+  name: Skilljar Assets Question Banks > Questions API
+  slug: open-skilljar-question-banks-questions-api
+- collection_type: open
+  name: Skilljar Assets Quiz Questions API
+  slug: open-skilljar-quiz-questions-api
+- collection_type: open
+  name: Skilljar Assets Quizzes API
+  slug: open-skilljar-quizzes-api
+- collection_type: open
+  name: Skilljar Assets Quizzes > Question Banks API
+  slug: open-skilljar-quizzes-question-banks-api
+- collection_type: open
+  name: Skilljar Assets Quizzes > Questions API
+  slug: open-skilljar-quizzes-questions-api
+- collection_type: open
+  name: Skilljar Assets tags API
+  slug: open-skilljar-tags-api
+- collection_type: open
+  name: Skilljar Assets Training Credit Codes API
+  slug: open-skilljar-training-credit-codes-api
+- collection_type: open
+  name: Skilljar Assets Users API
+  slug: open-skilljar-users-api
+- collection_type: open
+  name: Skilljar Assets Users > Groups API
+  slug: open-skilljar-users-groups-api
+- collection_type: open
+  name: Skilljar Assets Users > Learning Paths API
+  slug: open-skilljar-users-learning-paths-api
+- collection_type: open
+  name: Skilljar Assets Users > Plans API
+  slug: open-skilljar-users-plans-api
+- collection_type: open
+  name: Skilljar Assets Users > Published Courses API
+  slug: open-skilljar-users-published-courses-api
+- collection_type: open
+  name: Skilljar Assets Users > Published Courses > Lessons API
+  slug: open-skilljar-users-published-courses-lessons-api
+- collection_type: open
+  name: Skilljar Assets VILT > Session Events API
+  slug: open-skilljar-vilt-session-events-api
+- collection_type: open
+  name: Skilljar Assets VILT > Session Registrations API
+  slug: open-skilljar-vilt-session-registrations-api
+- collection_type: open
+  name: Skilljar Assets Web Packages API
+  slug: open-skilljar-web-packages-api
+- collection_type: open
+  name: Skilljar Assets Webhooks API
+  slug: open-skilljar-webhooks-api
 common:
 - group: other
   title: ''
@@ -413,7 +651,7 @@ overview: 'Skilljar publishes 78 APIs on the [APIs.io](https://apis.io/) network
 
 
   Skilljar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 20
+random_paper: 115
 scopes:
 - name: Skilljar Scopes
   scope_count: 89
@@ -442,7 +680,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

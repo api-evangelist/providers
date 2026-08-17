@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: The SEC Filings API from Archrock — 1 operation(s) for sec filings.
   name: Archrock SEC Filings API
   slug: archrock-sec-filings-api
-artifact_total: 46
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Archrock Investor Relations Financials API
+  slug: open-archrock-financials-api
+- collection_type: open
+  name: Archrock Investor Relations Financials Fleet API
+  slug: open-archrock-fleet-api
+- collection_type: open
+  name: Archrock Investor Relations Financials Operations API
+  slug: open-archrock-operations-api
+- collection_type: open
+  name: Archrock Investor Relations Financials SEC Filings API
+  slug: open-archrock-sec-filings-api
 common:
 - group: agent
   title: ''
@@ -221,7 +237,7 @@ press:
 - date: '2026-05-25'
   title: AI Power, LNG Growth Sparking Natural Gas Compression ...
   url: https://naturalgasintel.com/news/ai-power-lng-growth-sparking-natural-gas-compression-boom-for-archrock/
-random_paper: 5
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Archrock Rate Limits
@@ -269,7 +285,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/screenshots/archrock-2026-06-20T172409.png
 security:

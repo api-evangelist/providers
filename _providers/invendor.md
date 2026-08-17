@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 194
   human_in_the_loop: 3
@@ -164,7 +164,137 @@ apis:
 - description: The WMSLocations API from Invendor — 9 operation(s) for wmslocations.
   name: Invendor WMSLocations API
   slug: invendor-wmslocations-api
-artifact_total: 47
+artifact_total: 90
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IO.Common Accounts API
+  slug: open-invendor-accounts-api
+- collection_type: open
+  name: IO.Common Accounts Auth API
+  slug: open-invendor-auth-api
+- collection_type: open
+  name: IO.Common Accounts Barcodes API
+  slug: open-invendor-barcodes-api
+- collection_type: open
+  name: IO.Common Accounts Consumption API
+  slug: open-invendor-consumption-api
+- collection_type: open
+  name: IO.Common Accounts DataJobs API
+  slug: open-invendor-datajobs-api
+- collection_type: open
+  name: IO.Common Accounts Devices API
+  slug: open-invendor-devices-api
+- collection_type: open
+  name: IO.Common Accounts Dimensions API
+  slug: open-invendor-dimensions-api
+- collection_type: open
+  name: IO.Common Accounts DimensionValues API
+  slug: open-invendor-dimensionvalues-api
+- collection_type: open
+  name: IO.Common Accounts Doors API
+  slug: open-invendor-doors-api
+- collection_type: open
+  name: IO.Common Accounts DynamicScanContent API
+  slug: open-invendor-dynamicscancontent-api
+- collection_type: open
+  name: IO.Common Accounts ExtendedProperties API
+  slug: open-invendor-extendedproperties-api
+- collection_type: open
+  name: IO.Common Accounts FlagTypes API
+  slug: open-invendor-flagtypes-api
+- collection_type: open
+  name: IO.Common Accounts GlobalSettings API
+  slug: open-invendor-globalsettings-api
+- collection_type: open
+  name: IO.Common Accounts Gravity API
+  slug: open-invendor-gravity-api
+- collection_type: open
+  name: IO.Common Accounts ItemQuantities API
+  slug: open-invendor-itemquantities-api
+- collection_type: open
+  name: IO.Common Accounts Items API
+  slug: open-invendor-items-api
+- collection_type: open
+  name: IO.Common Accounts ItemTransactions API
+  slug: open-invendor-itemtransactions-api
+- collection_type: open
+  name: IO.Common Accounts Journals API
+  slug: open-invendor-journals-api
+- collection_type: open
+  name: IO.Common Accounts Locations API
+  slug: open-invendor-locations-api
+- collection_type: open
+  name: IO.Common Accounts Metadata API
+  slug: open-invendor-metadata-api
+- collection_type: open
+  name: IO.Common Accounts OperationDimGroups API
+  slug: open-invendor-operationdimgroups-api
+- collection_type: open
+  name: IO.Common Accounts Operations API
+  slug: open-invendor-operations-api
+- collection_type: open
+  name: IO.Common Accounts Orders API
+  slug: open-invendor-orders-api
+- collection_type: open
+  name: IO.Common Accounts QuestionDefinitions API
+  slug: open-invendor-questiondefinitions-api
+- collection_type: open
+  name: IO.Common Accounts Questions API
+  slug: open-invendor-questions-api
+- collection_type: open
+  name: IO.Common Accounts Replenishment API
+  slug: open-invendor-replenishment-api
+- collection_type: open
+  name: IO.Common Accounts Reports API
+  slug: open-invendor-reports-api
+- collection_type: open
+  name: IO.Common Accounts Roles API
+  slug: open-invendor-roles-api
+- collection_type: open
+  name: IO.Common Accounts ScaleLocker API
+  slug: open-invendor-scalelocker-api
+- collection_type: open
+  name: IO.Common Accounts Scales API
+  slug: open-invendor-scales-api
+- collection_type: open
+  name: IO.Common Accounts Scans API
+  slug: open-invendor-scans-api
+- collection_type: open
+  name: IO.Common Accounts Services API
+  slug: open-invendor-services-api
+- collection_type: open
+  name: IO.Common Accounts Sessions API
+  slug: open-invendor-sessions-api
+- collection_type: open
+  name: IO.Common Accounts Subscriptions API
+  slug: open-invendor-subscriptions-api
+- collection_type: open
+  name: IO.Common Accounts UniqueItems API
+  slug: open-invendor-uniqueitems-api
+- collection_type: open
+  name: IO.Common Accounts UniqueItemStatuses API
+  slug: open-invendor-uniqueitemstatuses-api
+- collection_type: open
+  name: IO.Common Accounts UnitConversions API
+  slug: open-invendor-unitconversions-api
+- collection_type: open
+  name: IO.Common Accounts Units API
+  slug: open-invendor-units-api
+- collection_type: open
+  name: IO.Common Accounts UserProfiles API
+  slug: open-invendor-userprofiles-api
+- collection_type: open
+  name: IO.Common Accounts Users API
+  slug: open-invendor-users-api
+- collection_type: open
+  name: IO.Common Accounts WMSItemLocationParams API
+  slug: open-invendor-wmsitemlocationparams-api
+- collection_type: open
+  name: IO.Common Accounts WMSLocations API
+  slug: open-invendor-wmslocations-api
 common:
 - group: other
   title: ''
@@ -270,7 +400,7 @@ overview: 'Invendor publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   Invendor''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 29
+random_paper: 124
 scopes:
 - name: Invendor Scopes
   scope_count: 2
@@ -299,7 +429,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/screenshots/invendor-2026-07-25T222735.png
 security:

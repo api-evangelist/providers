@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,14 +66,41 @@ apis:
 - description: Reverse and void transactions.
   name: Synchrony Financial Reversals API
   slug: synchrony-financial-reversals-api
-artifact_total: 26
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Synchrony Financial Credit Authorization Applications API
+  slug: open-synchrony-financial-applications-api
 - collection_type: open
   name: Synchrony Financial Credit Authorization API
   slug: open-synchrony-financial-credit-authorization
 - collection_type: open
+  name: Synchrony Financial Credit Authorization Applications Decisions API
+  slug: open-synchrony-financial-decisions-api
+- collection_type: open
+  name: Synchrony Financial Credit Authorization Applications Payments API
+  slug: open-synchrony-financial-payments-api
+- collection_type: open
+  name: Synchrony Financial Credit Authorization Applications Preapprovals API
+  slug: open-synchrony-financial-preapprovals-api
+- collection_type: open
+  name: Synchrony Financial Credit Authorization Applications Preauthorizations API
+  slug: open-synchrony-financial-preauthorizations-api
+- collection_type: open
+  name: Synchrony Financial Credit Authorization Applications Purchases API
+  slug: open-synchrony-financial-purchases-api
+- collection_type: open
   name: Synchrony Financial Quickscreen Apply API
   slug: open-synchrony-financial-quickscreen-apply
+- collection_type: open
+  name: Synchrony Financial Credit Authorization Applications Refunds API
+  slug: open-synchrony-financial-refunds-api
+- collection_type: open
+  name: Synchrony Financial Credit Authorization Applications Reversals API
+  slug: open-synchrony-financial-reversals-api
 common:
 - group: company
   title: ''
@@ -185,7 +212,7 @@ plans:
 - name: Synchrony Financial Plans Pricing
   plan_count: 1
   slug: synchrony-financial-plans-pricing
-random_paper: 63
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Synchrony Financial Rate Limits
@@ -233,7 +260,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/screenshots/synchrony-financial-2026-06-20T194826.png
 security:

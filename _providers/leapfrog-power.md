@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 9
@@ -53,11 +53,36 @@ apis:
 - description: 'Submit and monitor partner-supplied interval meter data — upload statuses, data validation errors, aggregated intervals and meter-level intervals — for meters where Leap does not receive utility data '
   name: Leap Interval Data Upload API
   slug: leapfrog-power-interval-data-upload-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: API Evangelist DERIVED AsyncAPI rendering of Leap's published webhook surface. Leap does not publish an AsyncAPI document; this document was derived from the public event catalog and the published exa
   name: Leap Webhook Events
   slug: leapfrog-power-events-asyncapi
+collections:
+- collection_type: open
+  name: Create Meters
+  slug: open-leapfrog-power-create-meters
+- collection_type: open
+  name: Dispatch
+  slug: open-leapfrog-power-dispatch
+- collection_type: open
+  name: Interval Data Upload
+  slug: open-leapfrog-power-interval-data-upload
+- collection_type: open
+  name: Get meter detail
+  slug: open-leapfrog-power-meter-details
+- collection_type: open
+  name: Meter Information API
+  slug: open-leapfrog-power-meter-enrollment
+- collection_type: open
+  name: Meter Nomination API
+  slug: open-leapfrog-power-nominations
+- collection_type: open
+  name: Revenue & Analytics
+  slug: open-leapfrog-power-revenue-analytics
+- collection_type: open
+  name: Webhook Subscription API
+  slug: open-leapfrog-power-webhooks
 common:
 - group: agent
   title: ''
@@ -247,7 +272,7 @@ overview: 'Leap publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Leap''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, support, and 35 more developer resources.'
-random_paper: 10
+random_paper: 109
 score:
   band: developing
   composite: 49.6
@@ -277,7 +302,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/screenshots/leapfrog-power-2026-08-07T171518.png
 security:

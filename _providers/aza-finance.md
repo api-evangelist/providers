@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -90,11 +90,63 @@ arazzos:
 - description: Quote FX, create a sender, create a transaction, fund it, and confirm settlement.
   name: AZA Finance — send a cross-border payout
   slug: aza-finance-send-payout
-artifact_total: 22
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Aza Finance Webhooks
   slug: aza-finance-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TransferZero Account Debits API
+  slug: open-aza-finance-account-debits-api
+- collection_type: open
+  name: TransferZero Account Debits Account Validation API
+  slug: open-aza-finance-account-validation-api
+- collection_type: open
+  name: TransferZero Account Debits Accounts API
+  slug: open-aza-finance-accounts-api
+- collection_type: open
+  name: TransferZero Account Debits API Logs API
+  slug: open-aza-finance-api-logs-api
+- collection_type: open
+  name: TransferZero Account Debits Currency Info API
+  slug: open-aza-finance-currency-info-api
+- collection_type: open
+  name: TransferZero Account Debits dlocal balance API
+  slug: open-aza-finance-dlocal-balance-api
+- collection_type: open
+  name: TransferZero Account Debits Documents API
+  slug: open-aza-finance-documents-api
+- collection_type: open
+  name: TransferZero Account Debits Logs API
+  slug: open-aza-finance-logs-api
+- collection_type: open
+  name: TransferZero Account Debits Mandates API
+  slug: open-aza-finance-mandates-api
+- collection_type: open
+  name: TransferZero Account Debits Payin Methods API
+  slug: open-aza-finance-payin-methods-api
+- collection_type: open
+  name: TransferZero Account Debits Payment Methods API
+  slug: open-aza-finance-payment-methods-api
+- collection_type: open
+  name: TransferZero Account Debits Payout Methods API
+  slug: open-aza-finance-payout-methods-api
+- collection_type: open
+  name: TransferZero Account Debits Recipients API
+  slug: open-aza-finance-recipients-api
+- collection_type: open
+  name: TransferZero Account Debits Senders API
+  slug: open-aza-finance-senders-api
+- collection_type: open
+  name: TransferZero Account Debits Transactions API
+  slug: open-aza-finance-transactions-api
+- collection_type: open
+  name: TransferZero Account Debits Webhooks API
+  slug: open-aza-finance-webhooks-api
 common:
 - group: other
   title: ''
@@ -223,7 +275,7 @@ overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   AZA Finance''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 20 more developer resources.'
-random_paper: 5
+random_paper: 42
 score:
   band: developing
   composite: 47.5
@@ -253,7 +305,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/screenshots/aza-finance-2026-07-25T202112.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -109,11 +109,78 @@ arazzos:
 - description: Create a project, an application and an application agent, then mint an AppAgent credential for data-plane calls.
   name: Provision an IndyKite project and AppAgent credential
   slug: indykite-provision-project-appagent
-artifact_total: 30
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Indykite Event Sinks Webhooks
   slug: indykite-event-sinks-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Config REST Application Agent Credentials API
+  slug: open-indykite-application-agent-credentials-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Application Agents API
+  slug: open-indykite-application-agents-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Applications API
+  slug: open-indykite-applications-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Authorization Policies API
+  slug: open-indykite-authorization-policies-api
+- collection_type: open
+  name: Config REST Application Agent Credentials AuthZEN API
+  slug: open-indykite-authzen-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Capture API
+  slug: open-indykite-capture-api
+- collection_type: open
+  name: Config REST Application Agent Credentials ContX IQ API
+  slug: open-indykite-contx-iq-api
+- collection_type: open
+  name: Config REST Application Agent Credentials DataSchema API
+  slug: open-indykite-dataschema-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Deprecated API
+  slug: open-indykite-deprecated-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Entity Matching API
+  slug: open-indykite-entity-matching-api
+- collection_type: open
+  name: Config REST Application Agent Credentials EntityMatching API
+  slug: open-indykite-entitymatching-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Event Sinks API
+  slug: open-indykite-event-sinks-api
+- collection_type: open
+  name: Config REST Application Agent Credentials External Data Resolver API
+  slug: open-indykite-external-data-resolver-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Knowledge Queries API
+  slug: open-indykite-knowledge-queries-api
+- collection_type: open
+  name: Config REST Application Agent Credentials MCP Servers API
+  slug: open-indykite-mcp-servers-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Organizations API
+  slug: open-indykite-organizations-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Projects API
+  slug: open-indykite-projects-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Service Account Credentials API
+  slug: open-indykite-service-account-credentials-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Service Accounts API
+  slug: open-indykite-service-accounts-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Token Introspect API
+  slug: open-indykite-token-introspect-api
+- collection_type: open
+  name: Config REST Application Agent Credentials Trust Score API
+  slug: open-indykite-trust-score-api
 common:
 - group: other
   title: ''
@@ -267,7 +334,7 @@ overview: 'Indykite publishes 21 APIs on the [APIs.io](https://apis.io/) network
 
 
   Indykite''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 26 more developer resources.'
-random_paper: 25
+random_paper: 120
 score:
   band: strong
   composite: 57.9
@@ -291,7 +358,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/screenshots/indykite-2026-07-25T222343.png
 security:

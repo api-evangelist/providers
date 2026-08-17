@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -45,7 +45,7 @@ apis:
 - description: The Tags API from Amazon Lookout for Vision — 2 operation(s) for tags.
   name: Amazon Lookout for Vision Tags API
   slug: amazon-lookout-for-vision-tags-api
-artifact_total: 418
+artifact_total: 421
 collections:
 - collection_type: postman
   name: Amazon Lookout for Vision Projects API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Amazon Lookout for Vision Projects Tags API
   slug: postman-amazon-lookout-for-vision-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Lookout for Vision Projects API
+  slug: open-amazon-lookout-for-vision-projects-api
+- collection_type: open
+  name: Amazon Lookout for Vision Projects Tags API
+  slug: open-amazon-lookout-for-vision-tags-api
 common:
 - group: build
   title: ''
@@ -1355,7 +1364,7 @@ plans:
 - name: Amazon Lookout For Vision Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-vision-plans-pricing
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Vision Rate Limits
@@ -1397,7 +1406,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/screenshots/amazon-lookout-for-vision-2026-06-20T171731.png
 security:

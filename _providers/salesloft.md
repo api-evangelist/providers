@@ -11,26 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-12'
+  score: 69.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 4
@@ -38,11 +37,14 @@ agentic_access:
   operation_count: 176
   slug: salesloft-agentic-access
   summary_line: 176 operations · 73 acting · 4 human-in-the-loop
-api_count: 84
+api_count: 85
 apis:
 - description: REST API for cadences, people, accounts, emails, calls, tasks, opportunities and analytics.
   name: Salesloft Platform API
   slug: salesloft-platform-api
+- description: 'First-party remote Model Context Protocol server exposing fifteen read-only tools over Salesloft accounts, people, users, opportunities, conversations and team data. OAuth 2.1 protected resource with '
+  name: Salesloft MCP Server
+  slug: salesloft-mcp-server
 - description: Subscribe to platform events for real-time updates.
   name: Salesloft Webhooks API
   slug: salesloft-webhooks-api
@@ -124,7 +126,7 @@ apis:
 - description: '[https://developer.salesloft.com/docs/api/calls/](https://developer.salesloft.com/docs/api/calls/)'
   name: Salesloft Calls API
   slug: salesloft-calls-api
-- description: If you are building a private OAuth app, it's likely easier to use Client Credentials rather than OAuth2.0 refresh tokens. Use the request in this folder to retreive an access_token for your private O
+- description: OAuth 2.0 token endpoint for private Salesloft applications using the client credentials grant. POST /oauth/token on the Salesloft accounts host, not on the v2 API host.
   name: Salesloft Client Credentials Access Token API
   slug: salesloft-client-credentials-access-token-api
 - description: '[https://developer.salesloft.com/docs/api/conversations/](https://developer.salesloft.com/docs/api/conversations/)'
@@ -292,8 +294,257 @@ apis:
 - description: '[https://developer.salesloft.com/docs/api/webhook-subscriptions/](https://developer.salesloft.com/docs/api/webhook-subscriptions/)'
   name: Salesloft Webhook Subscriptions API
   slug: salesloft-webhook-subscriptions-api
-artifact_total: 102
+artifact_total: 189
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesloft Account and People Redaction API
+  slug: open-salesloft-account-and-people-redaction-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Account Redaction API
+  slug: open-salesloft-account-redaction-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Account Stages API
+  slug: open-salesloft-account-stages-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Account Team Member Roles API
+  slug: open-salesloft-account-team-member-roles-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Account Tiers API
+  slug: open-salesloft-account-tiers-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Account Upserts API
+  slug: open-salesloft-account-upserts-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Accounts API
+  slug: open-salesloft-accounts-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Actions API
+  slug: open-salesloft-actions-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Activities API
+  slug: open-salesloft-activities-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Activity Histories API
+  slug: open-salesloft-activity-histories-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Bulk Jobs API
+  slug: open-salesloft-bulk-jobs-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Bulk Jobs - Job Data API
+  slug: open-salesloft-bulk-jobs-job-data-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Bulk Jobs - Results API
+  slug: open-salesloft-bulk-jobs-results-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Bulk Reschedule Tasks API
+  slug: open-salesloft-bulk-reschedule-tasks-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Cadence Exports API
+  slug: open-salesloft-cadence-exports-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Cadence Imports API
+  slug: open-salesloft-cadence-imports-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Cadence Memberships API
+  slug: open-salesloft-cadence-memberships-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Cadence Stats API
+  slug: open-salesloft-cadence-stats-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Cadences API
+  slug: open-salesloft-cadences-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Calendar Events API
+  slug: open-salesloft-calendar-events-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Call Data Records API
+  slug: open-salesloft-call-data-records-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Call Dispositions API
+  slug: open-salesloft-call-dispositions-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Call Instructions API
+  slug: open-salesloft-call-instructions-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Call Sentiments API
+  slug: open-salesloft-call-sentiments-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Caller Ids API
+  slug: open-salesloft-caller-ids-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Calls API
+  slug: open-salesloft-calls-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Client Credentials Access Token API
+  slug: open-salesloft-client-credentials-access-token-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Conversations API
+  slug: open-salesloft-conversations-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Conversations Calls API
+  slug: open-salesloft-conversations-calls-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Counts API
+  slug: open-salesloft-counts-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Crm Account Team Members API
+  slug: open-salesloft-crm-account-team-members-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Crm Activities API
+  slug: open-salesloft-crm-activities-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Crm Activity Fields API
+  slug: open-salesloft-crm-activity-fields-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Crm Users API
+  slug: open-salesloft-crm-users-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Custom Fields API
+  slug: open-salesloft-custom-fields-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Custom Roles API
+  slug: open-salesloft-custom-roles-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Email Missing Tags API
+  slug: open-salesloft-email-missing-tags-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Email Template Attachments API
+  slug: open-salesloft-email-template-attachments-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Email Templates API
+  slug: open-salesloft-email-templates-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Emails API
+  slug: open-salesloft-emails-api
+- collection_type: open
+  name: Salesloft Account and People Redaction External Emails API
+  slug: open-salesloft-external-emails-api
+- collection_type: open
+  name: Salesloft Account and People Redaction External Id Configuration API
+  slug: open-salesloft-external-id-configuration-api
+- collection_type: open
+  name: Salesloft Account and People Redaction External Id Mapping API
+  slug: open-salesloft-external-id-mapping-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Groups API
+  slug: open-salesloft-groups-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Imports API
+  slug: open-salesloft-imports-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Live Feed Items API
+  slug: open-salesloft-live-feed-items-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Live Website Tracking Parameters API
+  slug: open-salesloft-live-website-tracking-parameters-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Me API
+  slug: open-salesloft-me-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Meetings API
+  slug: open-salesloft-meetings-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Mime Email Payloads API
+  slug: open-salesloft-mime-email-payloads-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Notes API
+  slug: open-salesloft-notes-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Ongoing Actions API
+  slug: open-salesloft-ongoing-actions-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Opportunities API
+  slug: open-salesloft-opportunities-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Opportunity People API
+  slug: open-salesloft-opportunity-people-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Opportunity Stages API
+  slug: open-salesloft-opportunity-stages-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Pending Emails API
+  slug: open-salesloft-pending-emails-api
+- collection_type: open
+  name: Salesloft Account and Redaction People API
+  slug: open-salesloft-people-api
+- collection_type: open
+  name: Salesloft Account and People Redaction People Soft Deletion API
+  slug: open-salesloft-people-soft-deletion-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Person Stages API
+  slug: open-salesloft-person-stages-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Person Upserts API
+  slug: open-salesloft-person-upserts-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Phone Number Assignments API
+  slug: open-salesloft-phone-number-assignments-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Play Registrations API
+  slug: open-salesloft-play-registrations-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Profiles API
+  slug: open-salesloft-profiles-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Recording Settings API
+  slug: open-salesloft-recording-settings-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Requests API
+  slug: open-salesloft-requests-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Reschedule Links API
+  slug: open-salesloft-reschedule-links-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Right to Be Forgotten API
+  slug: open-salesloft-right-to-be-forgotten-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Saved List Views API
+  slug: open-salesloft-saved-list-views-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Searches API
+  slug: open-salesloft-searches-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Settings API
+  slug: open-salesloft-settings-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Signal Registrations API
+  slug: open-salesloft-signal-registrations-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Signals API
+  slug: open-salesloft-signals-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Steps API
+  slug: open-salesloft-steps-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Successes API
+  slug: open-salesloft-successes-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Tags API
+  slug: open-salesloft-tags-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Tasks API
+  slug: open-salesloft-tasks-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Team API
+  slug: open-salesloft-team-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Team Template Attachments API
+  slug: open-salesloft-team-template-attachments-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Team Templates API
+  slug: open-salesloft-team-templates-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Transcriptions API
+  slug: open-salesloft-transcriptions-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Users API
+  slug: open-salesloft-users-api
+- collection_type: open
+  name: Salesloft Account and People Redaction Webhook Subscriptions API
+  slug: open-salesloft-webhook-subscriptions-api
 - collection_type: open
   name: Salesloft
   slug: open-salesloft
@@ -338,8 +589,136 @@ common:
   title: ''
   type: FinOps
   url: finops/salesloft-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/salesloft-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/salesloft-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/salesloft-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/salesloft-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/salesloft-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/salesloft-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.salesloft.com/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/salesloft-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/salesloft-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.salesloft.com/
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/salesloft-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/salesloft-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/salesloft-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/salesloft-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/salesloft-data-model.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/salesloft-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.salesloft.com/security
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://developers.salesloft.com/docs/platform/webhooks/
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.salesloft.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.salesloft.com/docs/platform/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.salesloft.com/docs/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.salesloft.com/docs/platform/intro/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.salesloft.com/
+- group: operate
+  title: ''
+  type: Community
+  url: https://champions.salesloft.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.salesloft.com/resources/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.salesloft.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://accounts.salesloft.com/sign_in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.salesloft.com/legal/msa
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.salesloft.com/legal/platform-privacy-notice
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/salesloft-dev/salesloft
 created: '2026-05-08'
-description: Salesloft is a sales engagement and revenue orchestration platform. APIs cover cadences, people, accounts, calls, emails, meetings, and webhooks.
+description: Salesloft is a sales engagement and revenue orchestration platform, now combined with Clari, Drift and Groove, used by more than 4,000 sales teams to run cadences, dial and email prospects, capture and analyse conversations, and forecast pipeline. The Salesloft Platform API v2 at https://api.salesloft.com/v2 covers accounts, people, cadences, steps and actions, tasks, calls, emails, meetings, notes, opportunities, conversation intelligence, bulk jobs, imports, CRM mirroring, data-redaction governance and Rhythm signals, authenticated with OAuth 2.0 (authorization code and client credentials) or scoped API keys and priced against a 600-cost-per-minute per-team budget. Salesloft also publishes a documented webhook surface with HMAC-signed deliveries and a first-party remote MCP server at https://mcp.salesloft.com/mcp exposing fifteen read-only tools to AI agents.
 examples:
 - key_count: 2
   name: Salesloft Create Person Example
@@ -375,7 +754,11 @@ jsonld:
   property_count: 5
   slug: salesloft-context
 layout: provider
-modified: '2026-05-30'
+mcp_servers:
+- description: ''
+  name: salesloft-mcp.yml
+  slug: salesloft-mcpyml
+modified: '2026-08-13'
 name: Salesloft
 nav: Providers
 network: true
@@ -385,14 +768,14 @@ overview: 'Salesloft publishes 83 APIs on the [APIs.io](https://apis.io/) networ
   The Salesloft catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesloft''s developer surface includes authentication and 9 more developer resources.'
+  Salesloft''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 35 more developer resources.'
 plans:
 - name: Salesloft Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: salesloft-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
-- limit_count: 1
+- limit_count: 5
   name: Salesloft Rate Limits
   slug: salesloft-rate-limits
 rules:
@@ -412,17 +795,22 @@ rules:
     info: 0
     warn: 5
   slug: salesloft-rules
+scopes:
+- name: Salesloft Scopes
+  scope_count: 57
+  slug: salesloft-scopes
+  summary_line: 57 scopes
 score:
-  band: thin
-  composite: 34.3
-  delta: 0.0
+  band: exemplar
+  composite: 69.9
+  delta: 35.6
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 68.4
     contract_quality: 61.7
-    developer_ergonomics: 10.9
-    discoverability: 40.7
-    governance: 58.3
-    operational_transparency: 10.5
+    developer_ergonomics: 71.7
+    discoverability: 87.0
+    governance: 79.2
+    operational_transparency: 63.2
   previous_composite: 34.3
   provenance:
     agentic_access: derived
@@ -432,18 +820,22 @@ score:
       marker_coverage: 0.0
       total: 82
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/screenshots/salesloft-2026-06-20T193352.png
 security:
 - kind: authentication
   name: Salesloft Authentication
   slug: salesloft-authentication
-  summary_line: http · 3 schemes
+  summary_line: oauth2/openIdConnect/apiKey · 5 schemes
 - kind: domain-security
   name: Salesloft Domain Security
   slug: salesloft-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Salesloft Vulnerability Disclosure
+  slug: salesloft-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Salesloft Trust Center
   slug: salesloft-trust-center
@@ -455,5 +847,14 @@ tags:
 - Cadences
 - CRM
 - Email
+- Revenue Intelligence
+- Conversation Intelligence
+- Sales Automation
+- Webhooks
+- MCP
+- Agents
+- Dialer
+- Pipeline
+- Forecasting
 website: https://salesloft.com/
 ---

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'Haus Laboratories is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Haus Laboratories'' developer surface includes support and 3 more developer resources.'
-random_paper: 85
+random_paper: 126
 score:
   band: minimal
   composite: 10.1
@@ -73,7 +73,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haus-laboratories/refs/heads/main/screenshots/haus-laboratories-2026-08-07T170005.png
 slug: haus-laboratories

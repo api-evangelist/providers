@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Retrieve leads captured by a chatbot.
   name: Chatbase Leads API
   slug: chatbase-leads-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chatbase Chat API
+  slug: open-chatbase-chat-api
+- collection_type: open
+  name: Chatbase Chat Chatbots API
+  slug: open-chatbase-chatbots-api
+- collection_type: open
+  name: Chatbase Chat Contacts API
+  slug: open-chatbase-contacts-api
+- collection_type: open
+  name: Chatbase Chat Conversations API
+  slug: open-chatbase-conversations-api
+- collection_type: open
+  name: Chatbase Chat Leads API
+  slug: open-chatbase-leads-api
 - collection_type: open
   name: Chatbase API
   slug: open-chatbase
@@ -132,7 +150,7 @@ plans:
 - name: Chatbase Plans Pricing
   plan_count: 6
   slug: chatbase-plans-pricing
-random_paper: 107
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Chatbase Rate Limits
@@ -157,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/screenshots/chatbase-2026-06-20T174234.png
 security:

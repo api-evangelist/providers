@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Recipient transfers and withdrawals.
   name: Pagar.me Transfers API
   slug: pagarme-transfers-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pagar.me Core Anticipations API
+  slug: open-pagarme-anticipations-api
+- collection_type: open
+  name: Pagar.me Core Anticipations Cards API
+  slug: open-pagarme-cards-api
+- collection_type: open
+  name: Pagar.me Core Anticipations Charges API
+  slug: open-pagarme-charges-api
+- collection_type: open
+  name: Pagar.me Core Anticipations Customers API
+  slug: open-pagarme-customers-api
+- collection_type: open
+  name: Pagar.me Core Anticipations Invoices API
+  slug: open-pagarme-invoices-api
+- collection_type: open
+  name: Pagar.me Core Anticipations Orders API
+  slug: open-pagarme-orders-api
+- collection_type: open
+  name: Pagar.me Core Anticipations Plans API
+  slug: open-pagarme-plans-api
+- collection_type: open
+  name: Pagar.me Core Anticipations Recipients API
+  slug: open-pagarme-recipients-api
+- collection_type: open
+  name: Pagar.me Core Anticipations Subscriptions API
+  slug: open-pagarme-subscriptions-api
+- collection_type: open
+  name: Pagar.me Core Anticipations Transfers API
+  slug: open-pagarme-transfers-api
 - collection_type: open
   name: Pagar.me Core API
   slug: open-pagarme
@@ -135,7 +168,7 @@ plans:
 - name: Pagarme Plans Pricing
   plan_count: 3
   slug: pagarme-plans-pricing
-random_paper: 13
+random_paper: 137
 rate_limits:
 - limit_count: 2
   name: Pagarme Rate Limits
@@ -166,7 +199,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/screenshots/pagarme-2026-08-07T191256.png
 security:

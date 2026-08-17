@@ -23,20 +23,20 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-12'
+  score: 40.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
   name: 99Designs Agentic Access
-  operation_count: 7
+  operation_count: 8
   slug: 99designs-agentic-access
-  summary_line: 7 operations · 4 acting
-api_count: 4
+  summary_line: 8 operations · 4 acting
+api_count: 5
 apis:
 - description: Collect design briefs.
   name: 99designs Briefs API
@@ -47,10 +47,32 @@ apis:
 - description: Search and retrieve designers, reviews, and portfolios.
   name: 99designs Designers API
   slug: 99designs-designers-api
+- description: List the 99designs products a partner has available for sale, with prices and the brief schema each product version requires.
+  name: 99designs Products API
+  slug: 99designs-products-api
 - description: Place orders against 99designs products.
   name: 99designs Orders API
   slug: 99designs-orders-api
-artifact_total: 9
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 99designs Briefs API
+  slug: open-99designs-briefs-api
+- collection_type: open
+  name: 99designs Coupons API
+  slug: open-99designs-coupons-api
+- collection_type: open
+  name: 99designs Briefs Designers API
+  slug: open-99designs-designers-api
+- collection_type: open
+  name: 99designs Briefs Orders API
+  slug: open-99designs-orders-api
+- collection_type: open
+  name: 99designs Products API
+  slug: open-99designs-products-api
 common:
 - group: docs
   title: ''
@@ -88,6 +110,18 @@ common:
   title: ''
   type: MCPServer
   url: mcp/99designs-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/99designs-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/99designs-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/99designs-rate-limits.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -134,6 +168,10 @@ common:
   url: https://api.99designs.com/resources/docs/
 - group: start
   title: ''
+  type: GettingStarted
+  url: https://api.99designs.com/resources/docs/#getting-started
+- group: start
+  title: ''
   type: SignUp
   url: https://99designs.com/api
 - group: build
@@ -165,33 +203,41 @@ common:
   type: Website
   url: https://www.99designs.com
 created: '2026-07-17'
-description: '99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.com/resources/v1) lets platforms embed a fully-managed creative marketplace: search and match designers, retrieve designer profiles, reviews and portfolios, collect design briefs, place orders against 99designs products, and generate partner coupons. Authentication uses a pair of API key headers (Api-Key-Id and Api-Key-Secret) issued to partners on request. Founded in 2008 as a SitePoint spin-off and acquired by Cimpress/Vista in 2020.'
+description: '99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.com/resources/v1) lets platforms embed a fully-managed creative marketplace: search and match designers, retrieve designer profiles, reviews and portfolios, collect design briefs, list the products a partner has available for sale, place orders against those product versions, and generate partner coupons. Authentication uses a pair of API key headers (Api-Key-Id and Api-Key-Secret) issued to partners on request — access is sales-gated rather than self-serve, and no API plans or pricing are published. Founded in 2008 as a SitePoint spin-off and acquired by Cimpress/Vista in 2020.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/99designs.png
 layout: provider
 mcp_servers:
 - description: ''
   name: 99designs-mcp.yml
   slug: 99designs-mcpyml
-modified: '2026-07-17'
+modified: '2026-08-13'
 name: 99designs
 nav: Providers
 network: true
-overview: '99designs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Briefs API, Coupons API, Designers API, and 1 more. Tagged areas include Company, Media, Design, Marketplace, and Creative.
+overview: '99designs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Briefs API, Coupons API, Designers API, and 2 more. Tagged areas include Company, Media, Design, Marketplace, and Creative.
 
 
-  99designs'' developer surface includes authentication, documentation, API reference, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 23
+  99designs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 25 more developer resources.'
+plans:
+- name: 99Designs Plans Pricing
+  plan_count: 0
+  slug: 99designs-plans-pricing
+random_paper: 118
+rate_limits:
+- limit_count: 1
+  name: 99Designs Rate Limits
+  slug: 99designs-rate-limits
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 50.9
+  delta: 4.9
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.2
-    developer_ergonomics: 45.1
+    developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 15.8
+    operational_transparency: 36.8
   previous_composite: 46.0
   provenance:
     agentic_access: derived
@@ -204,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/screenshots/99designs-2026-07-25T181252.png
 security:

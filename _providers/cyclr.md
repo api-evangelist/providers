@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -66,15 +66,45 @@ apis:
 - description: Manage and install integration templates
   name: Cyclr Templates API
   slug: cyclr-templates-api
-artifact_total: 27
+artifact_total: 37
 asyncapis:
 - description: AsyncAPI specification for Cyclr webhook events. Cyclr is an embedded iPaaS/integration platform that emits webhook notifications when key events occur within accounts, cycles, connectors, and templat
   name: Cyclr Webhook Events
   slug: cyclr-cyclr-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cyclr Accounts API
+  slug: open-cyclr-accounts-api
+- collection_type: open
+  name: Cyclr Accounts Authentication API
+  slug: open-cyclr-authentication-api
+- collection_type: open
+  name: Cyclr Accounts Connectors API
+  slug: open-cyclr-connectors-api
+- collection_type: open
+  name: Cyclr Accounts Cycles API
+  slug: open-cyclr-cycles-api
+- collection_type: open
   name: Cyclr API
   slug: open-cyclr-cyclr
+- collection_type: open
+  name: Cyclr Accounts Data on Demand API
+  slug: open-cyclr-data-on-demand-api
+- collection_type: open
+  name: Cyclr Accounts LAUNCH API
+  slug: open-cyclr-launch-api
+- collection_type: open
+  name: Cyclr Accounts Marketplace API
+  slug: open-cyclr-marketplace-api
+- collection_type: open
+  name: Cyclr Accounts Steps API
+  slug: open-cyclr-steps-api
+- collection_type: open
+  name: Cyclr Accounts Templates API
+  slug: open-cyclr-templates-api
 common:
 - group: agent
   title: ''
@@ -207,7 +237,7 @@ plans:
 - name: Cyclr Plans Pricing
   plan_count: 3
   slug: cyclr-plans-pricing
-random_paper: 61
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Cyclr Rate Limits
@@ -257,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/screenshots/cyclr-2026-06-20T175412.png
 security:

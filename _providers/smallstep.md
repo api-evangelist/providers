@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -56,11 +56,33 @@ apis:
 - description: Manage access to protected resources
   name: SmallStep Protect API
   slug: smallstep-protect-api
-artifact_total: 11
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Smallstep Webhooks
   slug: smallstep-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smallstep Authentication API
+  slug: open-smallstep-authentication-api
+- collection_type: open
+  name: Smallstep Authentication Certificates API
+  slug: open-smallstep-certificates-api
+- collection_type: open
+  name: Smallstep Authentication Credentials API
+  slug: open-smallstep-credentials-api
+- collection_type: open
+  name: Smallstep Authentication Device Inventory API
+  slug: open-smallstep-device-inventory-api
+- collection_type: open
+  name: Smallstep Authentication PKI Architecture API
+  slug: open-smallstep-pki-architecture-api
+- collection_type: open
+  name: Smallstep Authentication Protect API
+  slug: open-smallstep-protect-api
 common:
 - group: other
   title: ''
@@ -213,7 +235,7 @@ overview: 'SmallStep publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   SmallStep''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 27 more developer resources.'
-random_paper: 21
+random_paper: 87
 score:
   band: strong
   composite: 56.9
@@ -237,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

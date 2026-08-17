@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -67,13 +67,19 @@ arazzos:
 - description: Capture a full snapshot of customers, integrations, and instances in one pass.
   name: Prismatic Tenant Inventory Snapshot
   slug: prismatic-tenant-inventory-snapshot-workflow
-artifact_total: 254
+artifact_total: 256
 collections:
 - collection_type: postman
   name: Prismatic GraphQL API
   slug: postman-prismatic-graphql-api
 - collection_type: open
-  name: Prismatic GraphQL API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prismatic GraphQL Authentication API
+  slug: open-prismatic-authentication-api
+- collection_type: open
+  name: Prismatic Authentication GraphQL API
   slug: open-prismatic-graphql-api
 common:
 - group: agent
@@ -756,7 +762,7 @@ plans:
 - name: Prismatic Plans Pricing
   plan_count: 3
   slug: prismatic-plans-pricing
-random_paper: 12
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Prismatic Rate Limits
@@ -798,7 +804,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/screenshots/prismatic-2026-06-20T192113.png
 security:

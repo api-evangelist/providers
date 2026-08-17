@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The PDF Merging & Splitting API from PDF.co — 4 operation(s) for pdf merging & splitting.
   name: PDF.co PDF Merging & Splitting API
   slug: pdf-co-pdf-merging-splitting-api
-artifact_total: 35
+artifact_total: 46
 collections:
 - collection_type: postman
   name: PDF.co Barcodes API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: PDF.co Barcodes PDF Merging & Splitting API
   slug: postman-pdf-co-pdf-merging-splitting-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PDF.co Barcodes API
+  slug: open-pdf-co-barcodes-api
+- collection_type: open
+  name: PDF.co Barcodes Document, File & System API
+  slug: open-pdf-co-document-file-system-api
+- collection_type: open
+  name: PDF.co Barcodes Editing API
+  slug: open-pdf-co-editing-api
+- collection_type: open
+  name: PDF.co Barcodes Excel Conversion API
+  slug: open-pdf-co-excel-conversion-api
+- collection_type: open
+  name: PDF.co Barcodes Extraction API
+  slug: open-pdf-co-extraction-api
+- collection_type: open
+  name: PDF.co Barcodes Find & Search API
+  slug: open-pdf-co-find-search-api
+- collection_type: open
+  name: PDF.co Barcodes Forms API
+  slug: open-pdf-co-forms-api
+- collection_type: open
+  name: PDF.co Barcodes Pages API
+  slug: open-pdf-co-pages-api
+- collection_type: open
+  name: PDF.co Barcodes PDF Conversion API
+  slug: open-pdf-co-pdf-conversion-api
+- collection_type: open
+  name: PDF.co Barcodes PDF Merging & Splitting API
+  slug: open-pdf-co-pdf-merging-splitting-api
 - collection_type: open
   name: PDF.co API
   slug: open-pdf-co
@@ -265,7 +298,7 @@ plans:
 - name: Pdf Co Plans Pricing
   plan_count: 7
   slug: pdf-co-plans-pricing
-random_paper: 89
+random_paper: 122
 rate_limits:
 - limit_count: 0
   name: Pdf Co Rate Limits
@@ -299,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/screenshots/pdf-co-2026-06-20T191516.png
 security:

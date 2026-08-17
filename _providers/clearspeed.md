@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -32,11 +32,18 @@ apis:
 - description: The Default API from Clearspeed — 4 operation(s) for default.
   name: Clearspeed Default API
   slug: clearspeed-default-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Clearspeed Webhooks
   slug: clearspeed-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clearspeed Integration  API
+  slug: open-clearspeed-default-api
 common:
 - group: company
   title: ''
@@ -185,7 +192,7 @@ overview: 'Clearspeed publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Clearspeed''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 88
+random_paper: 5
 score:
   band: developing
   composite: 52.8
@@ -215,7 +222,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/screenshots/clearspeed-2026-08-07T163447.png
 security:

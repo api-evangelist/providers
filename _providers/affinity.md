@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -72,7 +72,41 @@ apis:
 - description: Operations about persons
   name: Affinity persons API
   slug: affinity-persons-api
-artifact_total: 35
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Affinity API v2 auth API
+  slug: open-affinity-auth-api
+- collection_type: open
+  name: Affinity API v2 auth companies API
+  slug: open-affinity-companies-api
+- collection_type: open
+  name: Affinity API v2 auth companyMerges API
+  slug: open-affinity-companymerges-api
+- collection_type: open
+  name: Affinity API v2 auth emails API
+  slug: open-affinity-emails-api
+- collection_type: open
+  name: Affinity API v2 auth lists API
+  slug: open-affinity-lists-api
+- collection_type: open
+  name: Affinity API v2 auth meetings API
+  slug: open-affinity-meetings-api
+- collection_type: open
+  name: Affinity API v2 auth notes API
+  slug: open-affinity-notes-api
+- collection_type: open
+  name: Affinity API v2 auth opportunities API
+  slug: open-affinity-opportunities-api
+- collection_type: open
+  name: Affinity API v2 auth personMerges API
+  slug: open-affinity-personmerges-api
+- collection_type: open
+  name: Affinity API v2 auth persons API
+  slug: open-affinity-persons-api
 common:
 - group: agent
   title: ''
@@ -217,7 +251,7 @@ plans:
 - name: Affinity Plans Pricing
   plan_count: 4
   slug: affinity-plans-pricing
-random_paper: 18
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Affinity Rate Limits
@@ -251,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/screenshots/affinity-2026-06-20T165626.png
 security:

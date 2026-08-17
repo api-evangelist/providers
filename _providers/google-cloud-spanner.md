@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Operations on database sessions
   name: Google Cloud Spanner Sessions API
   slug: google-cloud-spanner-sessions-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud Spanner Databases API
@@ -60,8 +60,20 @@ collections:
   name: Google Cloud Spanner Databases Sessions API
   slug: postman-google-cloud-spanner-sessions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Spanner API
   slug: open-cloud-spanner
+- collection_type: open
+  name: Google Cloud Spanner Databases API
+  slug: open-google-cloud-spanner-databases-api
+- collection_type: open
+  name: Google Cloud Spanner Databases Instances API
+  slug: open-google-cloud-spanner-instances-api
+- collection_type: open
+  name: Google Cloud Spanner Databases Sessions API
+  slug: open-google-cloud-spanner-sessions-api
 common:
 - group: build
   title: ''
@@ -167,7 +179,7 @@ plans:
 - name: Google Cloud Spanner Plans Pricing
   plan_count: 3
   slug: google-cloud-spanner-plans-pricing
-random_paper: 101
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Google Cloud Spanner Rate Limits
@@ -206,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/screenshots/google-cloud-spanner-2026-06-20T182136.png
 security:

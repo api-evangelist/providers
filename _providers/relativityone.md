@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -72,11 +72,32 @@ apis:
 - description: Operations for legal hold task management
   name: RelativityOne Tasks API
   slug: relativityone-tasks-api
-artifact_total: 45
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RelativityOne Legal Hold Communications API
+  slug: open-relativityone-communications-api
+- collection_type: open
+  name: RelativityOne Legal Hold Communications Custodians API
+  slug: open-relativityone-custodians-api
+- collection_type: open
+  name: RelativityOne Legal Hold Communications Entities API
+  slug: open-relativityone-entities-api
+- collection_type: open
+  name: RelativityOne Legal Hold Communications Legal Hold Projects API
+  slug: open-relativityone-legal-hold-projects-api
 - collection_type: open
   name: RelativityOne Legal Hold API
   slug: open-relativityone-legal-hold
+- collection_type: open
+  name: RelativityOne Legal Hold Communications Preservation API
+  slug: open-relativityone-preservation-api
+- collection_type: open
+  name: RelativityOne Legal Hold Communications Tasks API
+  slug: open-relativityone-tasks-api
 common:
 - group: agent
   title: ''
@@ -239,7 +260,7 @@ plans:
 - name: Relativityone Plans Pricing
   plan_count: 1
   slug: relativityone-plans-pricing
-random_paper: 103
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Relativityone Rate Limits
@@ -281,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/screenshots/relativityone-2026-06-20T192820.png
 security:

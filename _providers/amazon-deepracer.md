@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Manage virtual and physical racing tracks
   name: Amazon DeepRacer Tracks API
   slug: amazon-deepracer-tracks-api
-artifact_total: 53
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Amazon DeepRacer Cars API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Amazon DeepRacer Cars Tracks API
   slug: postman-amazon-deepracer-tracks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon DeepRacer Cars API
+  slug: open-amazon-deepracer-cars-api
+- collection_type: open
+  name: Amazon DeepRacer Cars Leaderboards API
+  slug: open-amazon-deepracer-leaderboards-api
+- collection_type: open
+  name: Amazon DeepRacer Cars Models API
+  slug: open-amazon-deepracer-models-api
+- collection_type: open
+  name: Amazon DeepRacer Cars Tracks API
+  slug: open-amazon-deepracer-tracks-api
 - collection_type: open
   name: Amazon DeepRacer API
   slug: open-amazon-deepracer
@@ -275,7 +290,7 @@ plans:
 - name: Amazon Deepracer Plans Pricing
   plan_count: 3
   slug: amazon-deepracer-plans-pricing
-random_paper: 70
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Amazon Deepracer Rate Limits
@@ -317,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/screenshots/amazon-deepracer-2026-06-20T171619.png
 security:

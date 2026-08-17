@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Webhook subscription, unsubscription, and automation triggers.
   name: Thoughtly webhooks API
   slug: thoughtly-webhooks-api
-artifact_total: 45
+artifact_total: 50
 collections:
 - collection_type: postman
   name: Thoughtly agent API
@@ -66,8 +66,23 @@ collections:
   name: Thoughtly agent webhooks API
   slug: postman-thoughtly-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thoughtly agent API
+  slug: open-thoughtly-agent-api
+- collection_type: open
   name: Thoughtly API
   slug: open-thoughtly-api
+- collection_type: open
+  name: Thoughtly agent contact API
+  slug: open-thoughtly-contact-api
+- collection_type: open
+  name: Thoughtly agent user API
+  slug: open-thoughtly-user-api
+- collection_type: open
+  name: Thoughtly agent webhooks API
+  slug: open-thoughtly-webhooks-api
 common:
 - group: build
   title: ''
@@ -291,7 +306,7 @@ plans:
 - name: Thoughtly Plans Pricing
   plan_count: 4
   slug: thoughtly-plans-pricing
-random_paper: 40
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: Thoughtly Rate Limits
@@ -339,7 +354,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/screenshots/thoughtly-2026-06-20T195315.png
 security:

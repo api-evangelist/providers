@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 5
@@ -101,7 +101,77 @@ apis:
 - description: Manage Views to use ArangoSearch for information retrieval
   name: ArangoDB Views API
   slug: arangodb-views-api
-artifact_total: 28
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ArangoDB Core Administration API
+  slug: open-arangodb-administration-api
+- collection_type: open
+  name: ArangoDB Core Analyzers API
+  slug: open-arangodb-analyzers-api
+- collection_type: open
+  name: ArangoDB Core Authentication API
+  slug: open-arangodb-authentication-api
+- collection_type: open
+  name: ArangoDB Core Batch Requests API
+  slug: open-arangodb-batch-requests-api
+- collection_type: open
+  name: ArangoDB Core Cluster API
+  slug: open-arangodb-cluster-api
+- collection_type: open
+  name: ArangoDB Core Collections API
+  slug: open-arangodb-collections-api
+- collection_type: open
+  name: ArangoDB Core Databases API
+  slug: open-arangodb-databases-api
+- collection_type: open
+  name: ArangoDB Core Documents API
+  slug: open-arangodb-documents-api
+- collection_type: open
+  name: ArangoDB Core Foxx API
+  slug: open-arangodb-foxx-api
+- collection_type: open
+  name: ArangoDB Core Graphs API
+  slug: open-arangodb-graphs-api
+- collection_type: open
+  name: ArangoDB Core Hot Backups API
+  slug: open-arangodb-hot-backups-api
+- collection_type: open
+  name: ArangoDB Core Import API
+  slug: open-arangodb-import-api
+- collection_type: open
+  name: ArangoDB Core Indexes API
+  slug: open-arangodb-indexes-api
+- collection_type: open
+  name: ArangoDB Core Jobs API
+  slug: open-arangodb-jobs-api
+- collection_type: open
+  name: ArangoDB Core Monitoring API
+  slug: open-arangodb-monitoring-api
+- collection_type: open
+  name: ArangoDB Core Queries API
+  slug: open-arangodb-queries-api
+- collection_type: open
+  name: ArangoDB Core Replication API
+  slug: open-arangodb-replication-api
+- collection_type: open
+  name: ArangoDB Core Security API
+  slug: open-arangodb-security-api
+- collection_type: open
+  name: ArangoDB Core Tasks API
+  slug: open-arangodb-tasks-api
+- collection_type: open
+  name: ArangoDB Core Transactions API
+  slug: open-arangodb-transactions-api
+- collection_type: open
+  name: ArangoDB Core Users API
+  slug: open-arangodb-users-api
+- collection_type: open
+  name: ArangoDB Core Views API
+  slug: open-arangodb-views-api
 common:
 - group: other
   title: ''
@@ -247,7 +317,7 @@ overview: 'ArangoDB publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   ArangoDB''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 110
+random_paper: 85
 score:
   band: developing
   composite: 51.3
@@ -271,7 +341,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/screenshots/arangodb-2026-08-07T161603.png
 security:

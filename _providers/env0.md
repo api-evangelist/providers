@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,8 +75,44 @@ apis:
 - description: The Webhooks API from Env0 — 1 operation(s) for webhooks.
   name: Env0 Webhooks API
   slug: env0-webhooks-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: env0 Agents API
+  slug: open-env0-agents-api
+- collection_type: open
+  name: env0 Agents ApprovalPolicies API
+  slug: open-env0-approvalpolicies-api
+- collection_type: open
+  name: env0 Agents Configuration API
+  slug: open-env0-configuration-api
+- collection_type: open
+  name: env0 Agents Deployments API
+  slug: open-env0-deployments-api
+- collection_type: open
+  name: env0 Agents Environments API
+  slug: open-env0-environments-api
+- collection_type: open
+  name: env0 Agents Modules API
+  slug: open-env0-modules-api
+- collection_type: open
+  name: env0 Agents Organizations API
+  slug: open-env0-organizations-api
+- collection_type: open
+  name: env0 Agents Projects API
+  slug: open-env0-projects-api
+- collection_type: open
+  name: env0 Agents Templates API
+  slug: open-env0-templates-api
+- collection_type: open
+  name: env0 Agents Users API
+  slug: open-env0-users-api
+- collection_type: open
+  name: env0 Agents Webhooks API
+  slug: open-env0-webhooks-api
 - collection_type: open
   name: env0 API
   slug: open-env0
@@ -141,7 +177,7 @@ plans:
 - name: Env0 Plans Pricing
   plan_count: 3
   slug: env0-plans-pricing
-random_paper: 17
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Env0 Rate Limits
@@ -166,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/screenshots/env0-2026-06-20T180838.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Tools API API from Zhipu AI — 1 operation(s) for tools api.
   name: Zhipu AI Tools API API
   slug: zhipu-ai-tools-api-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Z.AI Agents API
+  slug: open-zhipu-ai-agents-api
+- collection_type: open
+  name: Z.AI Agents Paas API
+  slug: open-zhipu-ai-paas-api
+- collection_type: open
+  name: Z.AI Agents Tools API API
+  slug: open-zhipu-ai-tools-api-api
 - collection_type: open
   name: Z.AI API
   slug: open-zhipu-ai
@@ -126,7 +138,7 @@ plans:
 - name: Zhipu Ai Plans Pricing
   plan_count: 3
   slug: zhipu-ai-plans-pricing
-random_paper: 87
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Zhipu Ai Rate Limits
@@ -151,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/screenshots/zhipu-ai-2026-06-20T201901.png
 security:

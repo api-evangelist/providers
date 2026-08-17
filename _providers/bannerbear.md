@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Render videos from video templates.
   name: Bannerbear Videos API
   slug: bannerbear-videos-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bannerbear Animated GIFs API
+  slug: open-bannerbear-animated-gifs-api
+- collection_type: open
+  name: Bannerbear Animated GIFs Auth API
+  slug: open-bannerbear-auth-api
+- collection_type: open
+  name: Bannerbear Animated GIFs Collections API
+  slug: open-bannerbear-collections-api
+- collection_type: open
+  name: Bannerbear Animated GIFs Fonts API
+  slug: open-bannerbear-fonts-api
+- collection_type: open
+  name: Bannerbear Animated GIFs Images API
+  slug: open-bannerbear-images-api
+- collection_type: open
+  name: Bannerbear Animated GIFs Screenshots API
+  slug: open-bannerbear-screenshots-api
+- collection_type: open
+  name: Bannerbear Animated GIFs Templates API
+  slug: open-bannerbear-templates-api
+- collection_type: open
+  name: Bannerbear Animated GIFs Videos API
+  slug: open-bannerbear-videos-api
 - collection_type: open
   name: Bannerbear API
   slug: open-bannerbear
@@ -133,7 +160,7 @@ plans:
 - name: Bannerbear Plans Pricing
   plan_count: 4
   slug: bannerbear-plans-pricing
-random_paper: 80
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Bannerbear Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/screenshots/bannerbear-2026-06-20T172954.png
 security:

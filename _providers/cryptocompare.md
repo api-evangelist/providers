@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ arazzos:
 - description: Rank coins by 24h volume, pull full data, then branch into the news feed.
   name: CryptoCompare Top Volume Deep Dive
   slug: cryptocompare-top-volume-deep-dive-workflow
-artifact_total: 82
+artifact_total: 99
 asyncapis:
 - description: AsyncAPI 2.6 description of the CryptoCompare (now CoinDesk) WebSocket streaming API. Clients open a single secure WebSocket to `wss://streamer.cryptocompare.com/v2` and multiplex any number of subscr
   name: CryptoCompare Streaming API
@@ -132,11 +132,62 @@ collections:
   name: CryptoCompare min-api (Legacy)
   slug: postman-cryptocompare-min-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset API
+  slug: open-cryptocompare-asset-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Blockchain API
+  slug: open-cryptocompare-blockchain-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Coins API
+  slug: open-cryptocompare-coins-api
+- collection_type: open
   name: CoinDesk Data API (CCData)
   slug: open-cryptocompare-data-api
 - collection_type: open
+  name: CoinDesk Data API (CCData) Asset Exchanges API
+  slug: open-cryptocompare-exchanges-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Futures API
+  slug: open-cryptocompare-futures-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Historical API
+  slug: open-cryptocompare-historical-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Index API
+  slug: open-cryptocompare-index-api
+- collection_type: open
   name: CryptoCompare min-api (Legacy)
   slug: open-cryptocompare-min-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset News API
+  slug: open-cryptocompare-news-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset On-Chain API
+  slug: open-cryptocompare-on-chain-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Options API
+  slug: open-cryptocompare-options-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Order Book API
+  slug: open-cryptocompare-order-book-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Overview API
+  slug: open-cryptocompare-overview-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Price API
+  slug: open-cryptocompare-price-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Social API
+  slug: open-cryptocompare-social-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Spot API
+  slug: open-cryptocompare-spot-api
+- collection_type: open
+  name: CoinDesk Data API (CCData) Asset Top Lists API
+  slug: open-cryptocompare-top-lists-api
 common:
 - group: agent
   title: ''
@@ -440,7 +491,7 @@ plans:
 - name: Cryptocompare Plans Pricing
   plan_count: 4
   slug: cryptocompare-plans-pricing
-random_paper: 96
+random_paper: 75
 rate_limits:
 - limit_count: 11
   name: Cryptocompare Rate Limits
@@ -499,7 +550,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:

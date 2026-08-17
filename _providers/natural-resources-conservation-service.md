@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,8 +50,20 @@ apis:
 - description: The Spatial API from Natural Resources Conservation Service — 2 operation(s) for spatial.
   name: Natural Resources Conservation Service Spatial API
   slug: natural-resources-conservation-service-spatial-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USDA NRCS Soil Data Access Query API
+  slug: open-natural-resources-conservation-service-query-api
+- collection_type: open
+  name: USDA NRCS Soil Data Access Query SOAP API
+  slug: open-natural-resources-conservation-service-soap-api
+- collection_type: open
+  name: USDA NRCS Soil Data Access Query Spatial API
+  slug: open-natural-resources-conservation-service-spatial-api
 - collection_type: open
   name: USDA NRCS Soil Data Access
   slug: open-natural-resources-conservation-service
@@ -104,7 +116,7 @@ plans:
 - name: Natural Resources Conservation Service Plans Pricing
   plan_count: 3
   slug: natural-resources-conservation-service-plans-pricing
-random_paper: 101
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Natural Resources Conservation Service Rate Limits
@@ -135,7 +147,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natural-resources-conservation-service/refs/heads/main/screenshots/natural-resources-conservation-service-2026-06-20T190054.png
 security:

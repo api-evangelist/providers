@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Tables API from Apache Pinot — 2 operation(s) for tables.
   name: Apache Pinot Tables API
   slug: apache-pinot-tables-api
-artifact_total: 66
+artifact_total: 72
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Pinot REST Cluster API
+  slug: open-apache-pinot-cluster-api
+- collection_type: open
+  name: Apache Pinot REST Cluster Queries API
+  slug: open-apache-pinot-queries-api
+- collection_type: open
+  name: Apache Pinot REST Cluster Schemas API
+  slug: open-apache-pinot-schemas-api
+- collection_type: open
+  name: Apache Pinot REST Cluster Segments API
+  slug: open-apache-pinot-segments-api
+- collection_type: open
+  name: Apache Pinot REST Cluster Tables API
+  slug: open-apache-pinot-tables-api
 common:
 - group: agent
   title: ''
@@ -256,7 +275,7 @@ plans:
 - name: Apache Pinot Plans Pricing
   plan_count: 3
   slug: apache-pinot-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Apache Pinot Rate Limits
@@ -298,7 +317,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/screenshots/apache-pinot-2026-06-20T172200.png
 security:

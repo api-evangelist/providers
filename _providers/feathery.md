@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: Workspace management
   name: Feathery Workspaces API
   slug: feathery-workspaces-api
-artifact_total: 23
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Feathery REST Account API
+  slug: open-feathery-account-api
+- collection_type: open
+  name: Feathery REST Account Data Hubs API
+  slug: open-feathery-data-hubs-api
+- collection_type: open
+  name: Feathery REST Account Document Intelligence API
+  slug: open-feathery-document-intelligence-api
+- collection_type: open
+  name: Feathery REST Account Document Templates API
+  slug: open-feathery-document-templates-api
+- collection_type: open
+  name: Feathery REST Account End Users API
+  slug: open-feathery-end-users-api
+- collection_type: open
+  name: Feathery REST Account Forms API
+  slug: open-feathery-forms-api
+- collection_type: open
+  name: Feathery REST Account Hidden Fields API
+  slug: open-feathery-hidden-fields-api
+- collection_type: open
+  name: Feathery REST Account Logs API
+  slug: open-feathery-logs-api
+- collection_type: open
+  name: Feathery REST Account Workspaces API
+  slug: open-feathery-workspaces-api
 common:
 - group: agent
   title: ''
@@ -176,7 +207,7 @@ plans:
 - name: Feathery Plans Pricing
   plan_count: 3
   slug: feathery-plans-pricing
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 0
   name: Feathery Rate Limits
@@ -216,7 +247,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/screenshots/feathery-2026-06-20T181109.png
 security:

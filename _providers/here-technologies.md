@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -120,8 +120,26 @@ apis:
 - description: The Reverse Geocode API from HERE Technologies — 1 operation(s) for reverse geocode.
   name: HERE Technologies Reverse Geocode API
   slug: here-technologies-reverse-geocode-api
-artifact_total: 34
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HERE Geocoding & Search API v7 Batch Jobs API
+  slug: open-here-technologies-batch-jobs-api
+- collection_type: open
+  name: HERE Geocoding & Search API v7 Batch Jobs Geocode API
+  slug: open-here-technologies-geocode-api
+- collection_type: open
+  name: HERE Geocoding & Search API v7 Batch Jobs Health API
+  slug: open-here-technologies-health-api
+- collection_type: open
+  name: HERE Geocoding & Search API v7 Batch Jobs Notifications API
+  slug: open-here-technologies-notifications-api
+- collection_type: open
+  name: HERE Geocoding & Search API v7 Batch Jobs Reverse Geocode API
+  slug: open-here-technologies-reverse-geocode-api
 - collection_type: open
   name: HERE Geocoding & Search API v7
   slug: open-here-technologies
@@ -186,7 +204,7 @@ plans:
 - name: Here Technologies Plans Pricing
   plan_count: 1
   slug: here-technologies-plans-pricing
-random_paper: 69
+random_paper: 110
 rate_limits:
 - limit_count: 2
   name: Here Technologies Rate Limits
@@ -211,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/here-technologies/refs/heads/main/screenshots/here-technologies-2026-06-20T182642.png
 security:

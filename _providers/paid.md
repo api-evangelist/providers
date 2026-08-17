@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 22
 apis:
 - description: The agents API from Paid — 3 operation(s) for agents.
@@ -98,11 +98,81 @@ apis:
 - description: The webhooks API from Paid — 4 operation(s) for webhooks.
   name: Paid webhooks API
   slug: paid-webhooks-api
-artifact_total: 26
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Paid Webhooks
   slug: paid-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference agents API
+  slug: open-paid-agents-api
+- collection_type: open
+  name: API Reference agents analyticsExperimental API
+  slug: open-paid-analyticsexperimental-api
+- collection_type: open
+  name: API Reference agents checkouts API
+  slug: open-paid-checkouts-api
+- collection_type: open
+  name: API Reference agents contacts API
+  slug: open-paid-contacts-api
+- collection_type: open
+  name: API Reference agents costs API
+  slug: open-paid-costs-api
+- collection_type: open
+  name: API Reference agents credits API
+  slug: open-paid-credits-api
+- collection_type: open
+  name: API Reference agents customer-groups API
+  slug: open-paid-customer-groups-api
+- collection_type: open
+  name: API Reference agents customer-portals API
+  slug: open-paid-customer-portals-api
+- collection_type: open
+  name: API Reference agents customers API
+  slug: open-paid-customers-api
+- collection_type: open
+  name: API Reference agents customViewsExperimental API
+  slug: open-paid-customviewsexperimental-api
+- collection_type: open
+  name: API Reference agents invoices API
+  slug: open-paid-invoices-api
+- collection_type: open
+  name: API Reference agents orders API
+  slug: open-paid-orders-api
+- collection_type: open
+  name: API Reference agents orders > lines API
+  slug: open-paid-orders-lines-api
+- collection_type: open
+  name: API Reference agents plans API
+  slug: open-paid-plans-api
+- collection_type: open
+  name: API Reference agents pricing API
+  slug: open-paid-pricing-api
+- collection_type: open
+  name: API Reference agents products API
+  slug: open-paid-products-api
+- collection_type: open
+  name: API Reference agents signals API
+  slug: open-paid-signals-api
+- collection_type: open
+  name: API Reference agents traces API
+  slug: open-paid-traces-api
+- collection_type: open
+  name: API Reference agents usage API
+  slug: open-paid-usage-api
+- collection_type: open
+  name: API Reference agents value-models API
+  slug: open-paid-value-models-api
+- collection_type: open
+  name: API Reference agents value-receipts API
+  slug: open-paid-value-receipts-api
+- collection_type: open
+  name: API Reference agents webhooks API
+  slug: open-paid-webhooks-api
 common:
 - group: other
   title: ''
@@ -239,7 +309,7 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 54
+random_paper: 116
 score:
   band: developing
   composite: 50.8
@@ -268,7 +338,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/screenshots/paid-2026-08-07T191309.png
 security:

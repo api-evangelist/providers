@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,23 @@ apis:
 - description: Utility endpoints for health checks and random item retrieval
   name: Digital Public Library of America Utilities API
   slug: dpla-utilities-api
-artifact_total: 12
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Digital Public Library of America (DPLA) Authentication API
+  slug: open-dpla-authentication-api
+- collection_type: open
+  name: Digital Public Library of America (DPLA) Authentication Items API
+  slug: open-dpla-items-api
+- collection_type: open
+  name: Digital Public Library of America (DPLA) Authentication Primary Source Sets API
+  slug: open-dpla-primary-source-sets-api
+- collection_type: open
+  name: Digital Public Library of America (DPLA) Authentication Utilities API
+  slug: open-dpla-utilities-api
 common:
 - group: commercial
   title: ''
@@ -148,7 +164,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 57
+random_paper: 119
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -179,7 +195,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

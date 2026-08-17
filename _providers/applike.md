@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
@@ -54,11 +54,36 @@ apis:
 - description: The Partners API from AppLike Group — 1 operation(s) for partners.
   name: AppLike Group Partners API
   slug: applike-partners-api
-artifact_total: 16
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Applike Webhooks
   slug: applike-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Management App Partner Connection API
+  slug: open-applike-app-partner-connection-api
+- collection_type: open
+  name: AppEvent Appevents API
+  slug: open-applike-appevents-api
+- collection_type: open
+  name: Management Apps API
+  slug: open-applike-apps-api
+- collection_type: open
+  name: Management Bids API
+  slug: open-applike-bids-api
+- collection_type: open
+  name: Management Campaigns API
+  slug: open-applike-campaigns-api
+- collection_type: open
+  name: Management Partner Configurations API
+  slug: open-applike-partner-configurations-api
+- collection_type: open
+  name: Management Partners API
+  slug: open-applike-partners-api
 common:
 - group: auth
   title: ''
@@ -223,7 +248,7 @@ overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   AppLike Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 30 more developer resources.'
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 1
   name: Applike Rate Limits
@@ -249,7 +274,7 @@ score:
       total: 7
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/screenshots/applike-2026-08-07T161506.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -71,7 +71,44 @@ apis:
 - description: The Visitor API from Kadence — 2 operation(s) for visitor.
   name: Kadence Visitor API
   slug: kadence-visitor-api
-artifact_total: 17
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kadence Public Bookable Day API
+  slug: open-kadence-bookable-day-api
+- collection_type: open
+  name: Kadence Public Bookable Day Bookable Onsite Pass API
+  slug: open-kadence-bookable-onsite-pass-api
+- collection_type: open
+  name: Kadence Public Bookable Day Bookable Space API
+  slug: open-kadence-bookable-space-api
+- collection_type: open
+  name: Kadence Public Bookable Day Booking API
+  slug: open-kadence-booking-api
+- collection_type: open
+  name: Kadence Public Bookable Day Building API
+  slug: open-kadence-building-api
+- collection_type: open
+  name: Kadence Public Bookable Day Floor API
+  slug: open-kadence-floor-api
+- collection_type: open
+  name: Kadence Public Bookable Day Neighborhood API
+  slug: open-kadence-neighborhood-api
+- collection_type: open
+  name: Kadence Public Bookable Day Space API
+  slug: open-kadence-space-api
+- collection_type: open
+  name: Kadence Public Bookable Day User API
+  slug: open-kadence-user-api
+- collection_type: open
+  name: Kadence Public Bookable Day Visit API
+  slug: open-kadence-visit-api
+- collection_type: open
+  name: Kadence Public Bookable Day Visitor API
+  slug: open-kadence-visitor-api
 common:
 - group: other
   title: ''
@@ -213,7 +250,7 @@ overview: 'Kadence publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Kadence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 115
+random_paper: 119
 scopes:
 - name: Kadence Scopes
   scope_count: 1
@@ -242,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/screenshots/kadence-2026-07-25T223408.png
 security:

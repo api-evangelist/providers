@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ arazzos:
 - description: Find a contact by email and update it if it exists, otherwise create it.
   name: Microsoft Exchange Upsert a Contact
   slug: microsoft-exchange-upsert-contact-workflow
-artifact_total: 113
+artifact_total: 131
 collections:
 - collection_type: postman
   name: Microsoft Exchange Exchange Online Admin API
@@ -172,8 +172,32 @@ collections:
   name: Microsoft Exchange Microsoft Graph People API
   slug: postman-microsoft-exchange-graph-people
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains API
+  slug: open-microsoft-exchange-accepted-domains-api
+- collection_type: open
   name: Microsoft Exchange Exchange Online Admin API
   slug: open-microsoft-exchange-admin-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Attachments API
+  slug: open-microsoft-exchange-attachments-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Calendars API
+  slug: open-microsoft-exchange-calendars-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Contact Folders API
+  slug: open-microsoft-exchange-contact-folders-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Contacts API
+  slug: open-microsoft-exchange-contacts-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Distribution Groups API
+  slug: open-microsoft-exchange-distribution-groups-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Events API
+  slug: open-microsoft-exchange-events-api
 - collection_type: open
   name: Microsoft Exchange Microsoft Graph Calendar API
   slug: open-microsoft-exchange-graph-calendar
@@ -189,6 +213,36 @@ collections:
 - collection_type: open
   name: Microsoft Exchange Microsoft Graph People API
   slug: open-microsoft-exchange-graph-people
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Mail Folders API
+  slug: open-microsoft-exchange-mail-folders-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Mailbox Discovery API
+  slug: open-microsoft-exchange-mailbox-discovery-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Mailbox Export API
+  slug: open-microsoft-exchange-mailbox-export-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Mailbox Folder Permissions API
+  slug: open-microsoft-exchange-mailbox-folder-permissions-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Mailbox Import API
+  slug: open-microsoft-exchange-mailbox-import-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Mailboxes API
+  slug: open-microsoft-exchange-mailboxes-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Messages API
+  slug: open-microsoft-exchange-messages-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Organization Configuration API
+  slug: open-microsoft-exchange-organization-configuration-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains People API
+  slug: open-microsoft-exchange-people-api
+- collection_type: open
+  name: Microsoft Exchange Exchange Online Admin Accepted Domains Scheduling API
+  slug: open-microsoft-exchange-scheduling-api
 common:
 - group: other
   title: ''
@@ -631,7 +685,7 @@ plans:
 - name: Microsoft Exchange Plans Pricing
   plan_count: 4
   slug: microsoft-exchange-plans-pricing
-random_paper: 62
+random_paper: 74
 rate_limits:
 - limit_count: 7
   name: Microsoft Exchange Rate Limits
@@ -672,7 +726,7 @@ score:
       total: 17
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:

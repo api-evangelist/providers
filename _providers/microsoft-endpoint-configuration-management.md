@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -169,7 +169,7 @@ arazzos:
 - description: Correlate Data Warehouse policies with their device activity and the device population.
   name: Microsoft Endpoint Configuration Management Data Warehouse Policy Compliance Analytics
   slug: microsoft-endpoint-configuration-management-warehouse-policy-compliance-analytics-workflow
-artifact_total: 96
+artifact_total: 117
 collections:
 - collection_type: postman
   name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService)
@@ -184,8 +184,41 @@ collections:
   name: Microsoft Endpoint Configuration Management Intune Reporting Export API
   slug: postman-microsoft-endpoint-configuration-management-intune-reporting-export-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications API
+  slug: open-microsoft-endpoint-configuration-management-applications-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Collections API
+  slug: open-microsoft-endpoint-configuration-management-collections-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Compliance API
+  slug: open-microsoft-endpoint-configuration-management-compliance-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Compliance Policies API
+  slug: open-microsoft-endpoint-configuration-management-compliance-policies-api
+- collection_type: open
   name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService)
   slug: open-microsoft-endpoint-configuration-management-configmgr-rest-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Configuration Profiles API
+  slug: open-microsoft-endpoint-configuration-management-configuration-profiles-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Dates API
+  slug: open-microsoft-endpoint-configuration-management-dates-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Deployments API
+  slug: open-microsoft-endpoint-configuration-management-deployments-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Device Actions API
+  slug: open-microsoft-endpoint-configuration-management-device-actions-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Devices API
+  slug: open-microsoft-endpoint-configuration-management-devices-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Export Jobs API
+  slug: open-microsoft-endpoint-configuration-management-export-jobs-api
 - collection_type: open
   name: Microsoft Endpoint Configuration Management Intune Data Warehouse API
   slug: open-microsoft-endpoint-configuration-management-intune-data-warehouse-api
@@ -195,6 +228,36 @@ collections:
 - collection_type: open
   name: Microsoft Endpoint Configuration Management Intune Reporting Export API
   slug: open-microsoft-endpoint-configuration-management-intune-reporting-export-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Management Extensions API
+  slug: open-microsoft-endpoint-configuration-management-management-extensions-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Packages API
+  slug: open-microsoft-endpoint-configuration-management-packages-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Policies API
+  slug: open-microsoft-endpoint-configuration-management-policies-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Reports API
+  slug: open-microsoft-endpoint-configuration-management-reports-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Scripts API
+  slug: open-microsoft-endpoint-configuration-management-scripts-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Site Administration API
+  slug: open-microsoft-endpoint-configuration-management-site-administration-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Software Updates API
+  slug: open-microsoft-endpoint-configuration-management-software-updates-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Task Sequences API
+  slug: open-microsoft-endpoint-configuration-management-task-sequences-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications User Device Associations API
+  slug: open-microsoft-endpoint-configuration-management-user-device-associations-api
+- collection_type: open
+  name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Users API
+  slug: open-microsoft-endpoint-configuration-management-users-api
 common:
 - group: agent
   title: ''
@@ -495,7 +558,7 @@ plans:
 - name: Microsoft Endpoint Configuration Management Plans Pricing
   plan_count: 3
   slug: microsoft-endpoint-configuration-management-plans-pricing
-random_paper: 115
+random_paper: 114
 rate_limits:
 - limit_count: 3
   name: Microsoft Endpoint Configuration Management Rate Limits
@@ -534,7 +597,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/screenshots/microsoft-endpoint-configuration-management-2026-06-20T185457.png
 security:

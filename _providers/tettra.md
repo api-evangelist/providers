@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,14 @@ apis:
 - description: The Teams API from Tettra — 2 operation(s) for teams.
   name: Tettra Teams API
   slug: tettra-teams-api
-artifact_total: 14
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tettra REST Teams API
+  slug: open-tettra-teams-api
 common:
 - group: agent
   title: ''
@@ -145,7 +152,7 @@ plans:
 - name: Tettra Plans Pricing
   plan_count: 2
   slug: tettra-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Tettra Rate Limits
@@ -179,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/screenshots/tettra-2026-06-20T195201.png
 security:

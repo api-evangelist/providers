@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: 'Informational product surface for Haven-1, billed as the world''s first commercial space station - a standalone crewed station designed to host four crew with 45 cubic meters of habitable volume. This '
@@ -43,8 +43,11 @@ apis:
 - description: Informational surface covering Vast's Request for Proposals (RFP) and payload-partner program for research on Haven-1 across life sciences, physical sciences, technology demonstrations, biotechnology,
   name: Vast Payload & Research Opportunities
   slug: payload-research-opportunities
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Vast (Informational - No Public API)
   slug: open-vast-space
@@ -97,7 +100,7 @@ plans:
 - name: Vast Space Plans Pricing
   plan_count: 1
   slug: vast-space-plans-pricing
-random_paper: 55
+random_paper: 121
 rate_limits:
 - limit_count: 2
   name: Vast Space Rate Limits
@@ -115,7 +118,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/screenshots/vast-space-2026-06-20T200831.png
 security:

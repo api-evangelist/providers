@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -41,8 +41,14 @@ apis:
 - description: The Notebook API from Apache Zeppelin — 18 operation(s) for notebook.
   name: Apache Zeppelin Notebook API
   slug: apache-zeppelin-notebook-api
-artifact_total: 24
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Zeppelin REST Notebook API
+  slug: open-apache-zeppelin-notebook-api
 - collection_type: open
   name: Apache Zeppelin Notebook REST API
   slug: open-apache-zeppelin
@@ -145,7 +151,7 @@ plans:
 - name: Apache Zeppelin Plans Pricing
   plan_count: 3
   slug: apache-zeppelin-plans-pricing
-random_paper: 86
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Apache Zeppelin Rate Limits
@@ -170,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zeppelin/refs/heads/main/screenshots/apache-zeppelin-2026-06-20T172200.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,8 +49,23 @@ apis:
 - description: API entry-point listing the top-level resource URLs.
   name: An API of Ice And Fire Root API
   slug: an-api-of-ice-and-fire-root-api
-artifact_total: 9
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: An API of Ice And Fire Books API
+  slug: open-an-api-of-ice-and-fire-books-api
+- collection_type: open
+  name: An API of Ice And Fire Books Characters API
+  slug: open-an-api-of-ice-and-fire-characters-api
+- collection_type: open
+  name: An API of Ice And Fire Books Houses API
+  slug: open-an-api-of-ice-and-fire-houses-api
+- collection_type: open
+  name: An API of Ice And Fire Books Root API
+  slug: open-an-api-of-ice-and-fire-root-api
 - collection_type: open
   name: An API of Ice And Fire
   slug: open-an-api-of-ice-and-fire
@@ -126,7 +141,7 @@ overview: 'An API of Ice And Fire publishes 4 APIs on the [APIs.io](https://apis
 
 
   An API of Ice And Fire''s developer surface includes documentation and 12 more developer resources.'
-random_paper: 73
+random_paper: 56
 rules:
 - name: An API of Ice And Fire API Rules
   rule_count: 53
@@ -162,7 +177,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/screenshots/an-api-of-ice-and-fire-2026-06-20T171942.png
 security:

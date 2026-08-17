@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -63,8 +63,35 @@ apis:
 - description: Add and remove players or groups on a running deployment.
   name: Edgegap Sessions API
   slug: edgegap-sessions-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Edgegap Arbitrium App Versions API
+  slug: open-edgegap-app-versions-api
+- collection_type: open
+  name: Edgegap Arbitrium App Versions Applications API
+  slug: open-edgegap-applications-api
+- collection_type: open
+  name: Edgegap Arbitrium App Versions Deployments API
+  slug: open-edgegap-deployments-api
+- collection_type: open
+  name: Edgegap Arbitrium App Versions Fleets API
+  slug: open-edgegap-fleets-api
+- collection_type: open
+  name: Edgegap Arbitrium App Versions Matchmaking API
+  slug: open-edgegap-matchmaking-api
+- collection_type: open
+  name: Edgegap Arbitrium App Versions Metrics API
+  slug: open-edgegap-metrics-api
+- collection_type: open
+  name: Edgegap Arbitrium App Versions Relays API
+  slug: open-edgegap-relays-api
+- collection_type: open
+  name: Edgegap Arbitrium App Versions Sessions API
+  slug: open-edgegap-sessions-api
 - collection_type: open
   name: Edgegap Arbitrium API
   slug: open-edgegap
@@ -129,7 +156,7 @@ plans:
 - name: Edgegap Plans Pricing
   plan_count: 3
   slug: edgegap-plans-pricing
-random_paper: 117
+random_paper: 121
 rate_limits:
 - limit_count: 4
   name: Edgegap Rate Limits
@@ -154,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/screenshots/edgegap-2026-07-25T212833.png
 security:

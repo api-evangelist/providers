@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: 'Leaf-level crop intelligence delivered through the AcreForward platform using submillimeter aerial imagery and computer vision to detect weeds, insect damage, disease pressure, nutrient deficiencies, '
@@ -43,8 +43,11 @@ apis:
 - description: Channel and data partnerships (e.g., Syngenta Crop Protection, Ag Partners / Nutrien) and ingestion of machinery and weather data that power AcreForward. These are commercial and operational integrati
   name: Taranis Platform Integrations
   slug: taranis-platform-integrations
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Taranis API
   slug: open-taranis
@@ -101,7 +104,7 @@ plans:
 - name: Taranis Plans Pricing
   plan_count: 2
   slug: taranis-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Taranis Rate Limits
@@ -119,7 +122,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/screenshots/taranis-2026-06-20T194922.png
 security:

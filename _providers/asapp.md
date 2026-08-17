@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 2
@@ -81,11 +81,57 @@ apis:
 - description: The Twilio Media Stream API from ASAPP — 1 operation(s) for twilio media stream.
   name: ASAPP Twilio Media Stream API
   slug: asapp-twilio-media-stream-api
-artifact_total: 21
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Asapp Realtime Events Webhooks
   slug: asapp-realtime-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AutoCompose API
+  slug: open-asapp-autocompose-api
+- collection_type: open
+  name: AutoCompose AutoSummary API
+  slug: open-asapp-autosummary-api
+- collection_type: open
+  name: AutoCompose AutoTranscribe API
+  slug: open-asapp-autotranscribe-api
+- collection_type: open
+  name: AutoCompose AutoTranscribe Media Gateway API
+  slug: open-asapp-autotranscribe-media-gateway-api
+- collection_type: open
+  name: AutoCompose Configuration API
+  slug: open-asapp-configuration-api
+- collection_type: open
+  name: AutoCompose Conversations API
+  slug: open-asapp-conversations-api
+- collection_type: open
+  name: AutoCompose Disengage API
+  slug: open-asapp-disengage-api
+- collection_type: open
+  name: AutoCompose Engage API
+  slug: open-asapp-engage-api
+- collection_type: open
+  name: AutoCompose File Exporter API
+  slug: open-asapp-file-exporter-api
+- collection_type: open
+  name: AutoCompose GenerativeAgent API
+  slug: open-asapp-generativeagent-api
+- collection_type: open
+  name: AutoCompose Health Check API
+  slug: open-asapp-health-check-api
+- collection_type: open
+  name: AutoCompose Knowledge Base API
+  slug: open-asapp-knowledge-base-api
+- collection_type: open
+  name: AutoCompose Metadata API
+  slug: open-asapp-metadata-api
+- collection_type: open
+  name: AutoCompose Twilio Media Stream API
+  slug: open-asapp-twilio-media-stream-api
 common:
 - group: other
   title: ''
@@ -234,7 +280,7 @@ overview: 'ASAPP publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ASAPP''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 24 more developer resources.'
-random_paper: 53
+random_paper: 86
 score:
   band: developing
   composite: 55.0
@@ -258,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/screenshots/asapp-2026-07-25T201402.png
 security:

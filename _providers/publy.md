@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -51,34 +51,70 @@ common:
   title: ''
   type: DomainSecurity
   url: security/publy-domain-security.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://publy.co/free-trial
+- group: start
+  title: ''
+  type: SignUp
+  url: https://publy.co/signup
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/publy-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/publy-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: PUBLY ships only a Korean consumer career-membership web/app product — publy.co returns hard 404s for /openapi.json, /graphql, /apis.json and every /.well-known/ path, api./docs./developer. subdomains do not resolve at all, and robots.txt exposes only an undocumented internal app backend (Disallow /api/**), so there is no developer program to profile.
+  evidence:
+  - status: 404
+    url: https://publy.co/openapi.json
+  - status: 404
+    url: https://publy.co/.well-known/agent-card.json
+  - status: 404
+    url: https://publy.co/.well-known/security.txt
+  - status: 200
+    url: https://publy.co/robots.txt
+  - status: 200
+    url: https://publy.co/free-trial
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: PUBLY is a Korean career-development and content membership platform operated by NEWNEEK Co., Ltd. (뉴닉). It offers a subscription-based Career Membership giving working professionals access to curated career content, series, templates and job-transition guides, personalized daily recommendations by career stage, an AI feature (Perdy, beta), and a newsletter. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network; PUBLY publishes a consumer web product and does not expose a public developer API, so this profile carries identity and security-posture signal only.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/publy.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: PUBLY
 nav: Providers
 network: true
 overview: 'PUBLY is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Content, Media, Career, and Membership.
 
 
-  PUBLY''s developer surface includes support and 4 more developer resources.'
-random_paper: 76
+  PUBLY''s developer surface includes support, pricing, signup flow, and 6 more developer resources.'
+plans:
+- name: Publy Plans Pricing
+  plan_count: 2
+  slug: publy-plans-pricing
+random_paper: 109
 score:
-  band: minimal
-  composite: 10.1
-  delta: 0.0
+  band: emerging
+  composite: 19.8
+  delta: 9.7
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 65.8
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Publy Domain Security

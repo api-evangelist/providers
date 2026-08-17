@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -106,7 +106,80 @@ apis:
 - description: Previous queries filter
   name: Reactome token API
   slug: reactome-token-api
-artifact_total: 98
+artifact_total: 122
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pathway Analysis Service database API
+  slug: open-reactome-database-api
+- collection_type: open
+  name: Pathway Analysis Service database discover API
+  slug: open-reactome-discover-api
+- collection_type: open
+  name: Pathway Analysis Service database diseases API
+  slug: open-reactome-diseases-api
+- collection_type: open
+  name: Pathway Analysis Service database download API
+  slug: open-reactome-download-api
+- collection_type: open
+  name: Pathway Analysis Service database entities API
+  slug: open-reactome-entities-api
+- collection_type: open
+  name: Pathway Analysis Service database events API
+  slug: open-reactome-events-api
+- collection_type: open
+  name: Pathway Analysis Service database exporter API
+  slug: open-reactome-exporter-api
+- collection_type: open
+  name: Pathway Analysis Service database identifier API
+  slug: open-reactome-identifier-api
+- collection_type: open
+  name: Pathway Analysis Service database identifiers API
+  slug: open-reactome-identifiers-api
+- collection_type: open
+  name: Pathway Analysis Service database import API
+  slug: open-reactome-import-api
+- collection_type: open
+  name: Pathway Analysis Service database interactors API
+  slug: open-reactome-interactors-api
+- collection_type: open
+  name: Pathway Analysis Service database mapping API
+  slug: open-reactome-mapping-api
+- collection_type: open
+  name: Pathway Analysis Service database orthology API
+  slug: open-reactome-orthology-api
+- collection_type: open
+  name: Pathway Analysis Service database participants API
+  slug: open-reactome-participants-api
+- collection_type: open
+  name: Pathway Analysis Service database pathways API
+  slug: open-reactome-pathways-api
+- collection_type: open
+  name: Pathway Analysis Service database person API
+  slug: open-reactome-person-api
+- collection_type: open
+  name: Pathway Analysis Service database query API
+  slug: open-reactome-query-api
+- collection_type: open
+  name: Pathway Analysis Service database references API
+  slug: open-reactome-references-api
+- collection_type: open
+  name: Pathway Analysis Service database report API
+  slug: open-reactome-report-api
+- collection_type: open
+  name: Pathway Analysis Service database schema API
+  slug: open-reactome-schema-api
+- collection_type: open
+  name: Pathway Analysis Service database search API
+  slug: open-reactome-search-api
+- collection_type: open
+  name: Pathway Analysis Service database species API
+  slug: open-reactome-species-api
+- collection_type: open
+  name: Pathway Analysis Service database token API
+  slug: open-reactome-token-api
 common:
 - group: agent
   title: ''
@@ -390,7 +463,7 @@ overview: 'Reactome publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Reactome''s developer surface includes documentation, FAQ, GitHub presence, engineering blog, and 8 more developer resources.'
-random_paper: 8
+random_paper: 103
 rules:
 - name: Reactome API Rules
   rule_count: 5
@@ -426,7 +499,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/screenshots/reactome-2026-06-20T192632.png
 security:

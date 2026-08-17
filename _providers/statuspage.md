@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -50,12 +50,18 @@ apis:
 - description: The Pages API from Statuspage — 17 operation(s) for pages.
   name: Statuspage Pages API
   slug: statuspage-pages-api
-artifact_total: 13
+artifact_total: 15
 asyncapis:
 - description: AsyncAPI description of the webhook notifications that Atlassian Statuspage delivers to subscriber endpoints. Statuspage POSTs a JSON body to a customer-configured URL whenever a component changes sta
   name: Statuspage Webhook Notifications
   slug: statuspage-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Statuspage REST Pages API
+  slug: open-statuspage-pages-api
 - collection_type: open
   name: Statuspage REST API
   slug: open-statuspage
@@ -139,7 +145,7 @@ overview: 'Statuspage publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Statuspage''s developer surface includes authentication, documentation, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 9
+random_paper: 46
 rules:
 - name: Statuspage API Rules
   rule_count: 6
@@ -169,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/screenshots/statuspage-2026-06-20T194529.png
 security:

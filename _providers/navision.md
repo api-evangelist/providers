@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ arazzos:
 - description: Find an item by number and update it if it exists, otherwise create it.
   name: Business Central Upsert an Item
   slug: navision-upsert-item-workflow
-artifact_total: 463
+artifact_total: 502
 collections:
 - collection_type: postman
   name: Business Central Administration Center API
@@ -196,6 +196,9 @@ collections:
   name: Dynamics 365 Business Central API v2.0
   slug: postman-business-central-api-v2
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Business Central Administration Center API
   slug: open-admin-center-api
 - collection_type: open
@@ -204,6 +207,120 @@ collections:
 - collection_type: open
   name: Dynamics 365 Business Central API v2.0
   slug: open-business-central-api-v2
+- collection_type: open
+  name: Business Central Administration Center Accounts API
+  slug: open-navision-accounts-api
+- collection_type: open
+  name: Business Central Administration Center Accounts App Management API
+  slug: open-navision-app-management-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Available Applications API
+  slug: open-navision-available-applications-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Companies API
+  slug: open-navision-companies-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Configuration Packages API
+  slug: open-navision-configuration-packages-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Countries/Regions API
+  slug: open-navision-countries-regions-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Currency API
+  slug: open-navision-currency-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Customer Payments API
+  slug: open-navision-customer-payments-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Customers API
+  slug: open-navision-customers-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Dimensions API
+  slug: open-navision-dimensions-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Employees API
+  slug: open-navision-employees-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Environment Operations API
+  slug: open-navision-environment-operations-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Environment Settings API
+  slug: open-navision-environment-settings-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Environments API
+  slug: open-navision-environments-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Extension Deployment Status API
+  slug: open-navision-extension-deployment-status-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Extension Upload API
+  slug: open-navision-extension-upload-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Extensions API
+  slug: open-navision-extensions-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Features API
+  slug: open-navision-features-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Item Categories API
+  slug: open-navision-item-categories-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Items API
+  slug: open-navision-items-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Journals API
+  slug: open-navision-journals-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Notifications API
+  slug: open-navision-notifications-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Payment Methods API
+  slug: open-navision-payment-methods-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Payment Terms API
+  slug: open-navision-payment-terms-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Permission Sets API
+  slug: open-navision-permission-sets-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Profiles API
+  slug: open-navision-profiles-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Purchase Invoices API
+  slug: open-navision-purchase-invoices-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Purchase Orders API
+  slug: open-navision-purchase-orders-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Sales Invoices API
+  slug: open-navision-sales-invoices-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Sales Orders API
+  slug: open-navision-sales-orders-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Scheduled Jobs API
+  slug: open-navision-scheduled-jobs-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Security Groups API
+  slug: open-navision-security-groups-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Storage API
+  slug: open-navision-storage-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Support Settings API
+  slug: open-navision-support-settings-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Update Management API
+  slug: open-navision-update-management-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Users API
+  slug: open-navision-users-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Vendor Payments API
+  slug: open-navision-vendor-payments-api
+- collection_type: open
+  name: Business Central Administration Center Accounts Vendors API
+  slug: open-navision-vendors-api
 common:
 - group: operate
   title: ''
@@ -1641,7 +1758,7 @@ plans:
 - name: Navision Plans Pricing
   plan_count: 5
   slug: navision-plans-pricing
-random_paper: 31
+random_paper: 126
 rate_limits:
 - limit_count: 20
   name: Navision Rate Limits
@@ -1688,7 +1805,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/screenshots/navision-2026-06-20T190101.png
 security:

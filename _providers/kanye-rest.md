@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,8 +40,14 @@ apis:
 - description: Endpoints that return random or bulk Kanye West quotes.
   name: kanye.rest Quotes API
   slug: kanye-rest-quotes-api
-artifact_total: 13
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kanye REST Quotes API
+  slug: open-kanye-rest-quotes-api
 - collection_type: open
   name: Kanye REST
   slug: open-kanye-rest
@@ -156,7 +162,7 @@ overview: 'kanye.rest publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   kanye.rest''s developer surface includes CLI, code examples, and 16 more developer resources.'
-random_paper: 67
+random_paper: 133
 rate_limits:
 - limit_count: 3
   name: Kanye Rest Rate Limits
@@ -198,7 +204,7 @@ score:
       marker_coverage: 100.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanye-rest/refs/heads/main/screenshots/kanye-rest-2026-06-20T183915.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,7 +81,53 @@ apis:
 - description: Real-time streaming via WebSocket (V2)
   name: The Rundown V2 WebSocket API
   slug: therundown-v2-websocket-api
-artifact_total: 87
+artifact_total: 102
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TheRundown Sports V1 Delta API
+  slug: open-therundown-v1-delta-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V1 Events API
+  slug: open-therundown-v1-events-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V1 Lines API
+  slug: open-therundown-v1-lines-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V1 Reference API
+  slug: open-therundown-v1-reference-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V1 Sports API
+  slug: open-therundown-v1-sports-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V1 WebSocket API
+  slug: open-therundown-v1-websocket-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V2 Events API
+  slug: open-therundown-v2-events-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V2 Markets API
+  slug: open-therundown-v2-markets-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V2 Players API
+  slug: open-therundown-v2-players-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V2 Reference API
+  slug: open-therundown-v2-reference-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V2 Sports API
+  slug: open-therundown-v2-sports-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V2 Stats API
+  slug: open-therundown-v2-stats-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V2 Teams API
+  slug: open-therundown-v2-teams-api
+- collection_type: open
+  name: TheRundown Sports V1 Delta V2 WebSocket API
+  slug: open-therundown-v2-websocket-api
 common:
 - group: agent
   title: ''
@@ -376,7 +422,7 @@ plans:
 - name: Therundown Plans Pricing
   plan_count: 8
   slug: therundown-plans-pricing
-random_paper: 22
+random_paper: 59
 rate_limits:
 - limit_count: 8
   name: Therundown Rate Limits
@@ -410,7 +456,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/screenshots/therundown-2026-06-20T195255.png
 security:

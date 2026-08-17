@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,14 +52,32 @@ apis:
 - description: Random or keyed website recommendations (v2 only).
   name: Bored API Websites API
   slug: bored-websites-api
-artifact_total: 47
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bored Activities API
+  slug: open-bored-activities-api
 - collection_type: open
   name: Bored API
   slug: open-bored-api
 - collection_type: open
   name: Bored API (App Brewery Fork)
   slug: open-bored-appbrewery
+- collection_type: open
+  name: Bored Activities Facts API
+  slug: open-bored-facts-api
+- collection_type: open
+  name: Bored Activities Riddles API
+  slug: open-bored-riddles-api
+- collection_type: open
+  name: Bored Activities Suggestions API
+  slug: open-bored-suggestions-api
+- collection_type: open
+  name: Bored Activities Websites API
+  slug: open-bored-websites-api
 common:
 - group: operate
   title: ''
@@ -233,7 +251,7 @@ overview: 'Bored API publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bored API''s developer surface includes developer portal, GitHub presence, documentation, and 13 more developer resources.'
-random_paper: 44
+random_paper: 77
 rules:
 - name: Bored API API Rules
   rule_count: 5
@@ -271,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/screenshots/bored-2026-06-20T173607.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,7 +46,29 @@ apis:
 - description: The Product Categories.json API from Mydentify Public API — 1 operation(s) for product categories.json.
   name: Mydentify Public API Product Categories.json API
   slug: mydentify-public-api-product-categories-json-api
-artifact_total: 14
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mydentify Public Directories API
+  slug: open-mydentify-public-api-directories-api
+- collection_type: open
+  name: Mydentify Public Directories.json API
+  slug: open-mydentify-public-api-directories-json-api
+- collection_type: open
+  name: Mydentify Public Imports API
+  slug: open-mydentify-public-api-imports-api
+- collection_type: open
+  name: Mydentify Public Leaderboards API
+  slug: open-mydentify-public-api-leaderboards-api
+- collection_type: open
+  name: Mydentify Public Leaderboards.json API
+  slug: open-mydentify-public-api-leaderboards-json-api
+- collection_type: open
+  name: Mydentify Public Product Categories.json API
+  slug: open-mydentify-public-api-product-categories-json-api
 common:
 - group: agent
   title: ''
@@ -177,7 +199,7 @@ overview: 'Mydentify Public API publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Mydentify Public API''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 108
+random_paper: 91
 score:
   band: thin
   composite: 41.3
@@ -201,7 +223,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

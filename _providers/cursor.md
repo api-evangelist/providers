@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -69,11 +69,32 @@ apis:
 - description: Daily usage and granular usage event data
   name: Cursor Usage API
   slug: cursor-usage-api
-artifact_total: 24
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Cursor Admin API
   slug: open-cursor-admin-api
+- collection_type: open
+  name: Cursor Admin Audit Logs API
+  slug: open-cursor-audit-logs-api
+- collection_type: open
+  name: Cursor Admin Audit Logs Groups API
+  slug: open-cursor-groups-api
+- collection_type: open
+  name: Cursor Admin Audit Logs Members API
+  slug: open-cursor-members-api
+- collection_type: open
+  name: Cursor Admin Audit Logs Repo Blocklists API
+  slug: open-cursor-repo-blocklists-api
+- collection_type: open
+  name: Cursor Admin Audit Logs Spend API
+  slug: open-cursor-spend-api
+- collection_type: open
+  name: Cursor Admin Audit Logs Usage API
+  slug: open-cursor-usage-api
 common:
 - group: agent
   title: ''
@@ -169,7 +190,7 @@ plans:
 - name: Cursor Plans Pricing
   plan_count: 1
   slug: cursor-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Cursor Rate Limits
@@ -211,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/screenshots/cursor-2026-06-20T175349.png
 security:

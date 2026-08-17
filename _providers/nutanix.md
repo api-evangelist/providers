@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-12'
+  score: 43.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ apis:
 - description: Manage webhook listeners that receive event notifications from the Nutanix platform.
   name: Nutanix Webhooks API
   slug: nutanix-webhooks-api
-artifact_total: 64
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Nutanix Prism Central API v3 Alerts API
@@ -150,12 +150,68 @@ collections:
   name: Nutanix Prism Central API v3 Alerts Webhooks API
   slug: postman-nutanix-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts API
+  slug: open-nutanix-alerts-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Categories API
+  slug: open-nutanix-categories-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Clusters API
+  slug: open-nutanix-clusters-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Hosts API
+  slug: open-nutanix-hosts-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Images API
+  slug: open-nutanix-images-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Network Security Rules API
+  slug: open-nutanix-network-security-rules-api
+- collection_type: open
   name: Nutanix Prism Central API v3
   slug: open-nutanix-prism-central-v3
 - collection_type: open
   name: Nutanix Prism Element API v2
   slug: open-nutanix-prism-element-v2
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Projects API
+  slug: open-nutanix-projects-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Protection Domains API
+  slug: open-nutanix-protection-domains-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Snapshots API
+  slug: open-nutanix-snapshots-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Storage Containers API
+  slug: open-nutanix-storage-containers-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Storage Pools API
+  slug: open-nutanix-storage-pools-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Subnets API
+  slug: open-nutanix-subnets-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Virtual Disks API
+  slug: open-nutanix-virtual-disks-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts VMs API
+  slug: open-nutanix-vms-api
+- collection_type: open
+  name: Nutanix Prism Central API v3 Alerts Webhooks API
+  slug: open-nutanix-webhooks-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/nutanix/ntnx-api-mcp-server
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://github.com/nutanix/ntnx-api-mcp-server/blob/main/docs/quickstart.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -315,7 +371,11 @@ json_structures:
   property_count: 0
   slug: nutanix-structure
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: Nutanix MCP Server
+  slug: nutanix-mcp-server
+modified: '2026-08-15'
 name: Nutanix
 nav: Providers
 network: true
@@ -325,12 +385,12 @@ overview: 'Nutanix publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Nutanix catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Nutanix''s developer surface includes authentication, documentation, getting-started guide, changelog, engineering blog, support, signup flow, and 16 more developer resources.'
+  Nutanix''s developer surface includes authentication, documentation, getting-started guide, changelog, engineering blog, support, signup flow, and 18 more developer resources.'
 plans:
 - name: Nutanix Plans Pricing
   plan_count: 5
   slug: nutanix-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Nutanix Rate Limits
@@ -346,12 +406,12 @@ rules:
   slug: nutanix-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.2
-  delta: 0.0
+  composite: 59.0
+  delta: 1.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.4
-    developer_ergonomics: 63.0
+    developer_ergonomics: 71.7
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 44.7
@@ -364,7 +424,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/screenshots/nutanix-2026-06-20T190530.png
 security:

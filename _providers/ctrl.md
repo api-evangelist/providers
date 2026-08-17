@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -47,10 +47,22 @@ common:
   title: ''
   type: Pricing
   url: https://www.getctrl.co/pricing
-- group: start
+- group: commercial
   title: ''
-  type: Login
-  url: https://app.getctrl.co/
+  type: Plans
+  url: plans/ctrl-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ctrl-packages.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ctrl-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ctrl-llms.txt
 - group: commercial
   title: ''
   type: TermsOfService
@@ -59,33 +71,53 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.getctrl.co/privacy-policy
+coverage:
+  checked: '2026-08-13'
+  detail: Ctrl was absorbed into Sana Labs on 2024-10-30; the marketing site is now a live archive whose own homepage answers 200 with a 404 body, api.getctrl.co has never resolved, and the former application host app.getctrl.co has been taken over by an unrelated Indonesian gambling portal.
+  evidence:
+  - status: 200
+    url: https://www.getctrl.co/
+  - status: 200
+    url: https://app.getctrl.co/
+  - status: 404
+    url: https://www.getctrl.co/.well-known/agent-card.json
+  - status: 404
+    url: https://www.getctrl.co/openapi.json
+  - status: 404
+    url: https://www.getctrl.co/llms.txt
+  reason: defunct
+  state: none
 created: '2026-07-17'
 description: Ctrl (Ctrl, Inc., a Delaware corporation) is an AI-powered workspace for revenue and sales teams that consolidates the tools and data a rep needs — CRM, email, calendar, and messaging — into a single actionable view. Founded in 2021 by Omri Sagzan and Aviv Nahum and based in Tel Aviv and London, Ctrl automates the manual work of updating records across apps such as HubSpot, Salesforce, Google Workspace, and Slack, and helps teams codify and replicate their winning sales playbooks. The company raised a $9M seed round led by LocalGlobe and Earlybird in 2023 and was acquired by Sana Labs in October 2024. Ctrl is a UI/workspace product surfaced as an Earlybird portfolio company; it publishes no public developer API, OpenAPI, or SDKs.
 image: https://cdn.prod.website-files.com/625d8e920c535704a599b545/62ab32f217ec4d3c47eda994_Screenshot%202022-06-16%20164043.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Ctrl
 nav: Providers
 network: true
 overview: 'Ctrl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Revenue Operations, CRM, and Productivity.
 
 
-  Ctrl''s developer surface includes engineering blog, pricing, and 5 more developer resources.'
-random_paper: 77
+  Ctrl''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
+plans:
+- name: Ctrl Plans Pricing
+  plan_count: 3
+  slug: ctrl-plans-pricing
+random_paper: 139
 score:
   band: emerging
-  composite: 14.4
-  delta: 0.0
+  composite: 18.8
+  delta: 4.4
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 63.2
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ctrl/refs/heads/main/screenshots/ctrl-2026-07-25T210854.png
 security:

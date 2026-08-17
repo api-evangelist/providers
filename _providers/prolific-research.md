@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Top-level containers that hold projects, fund studies, and scope teams.
   name: Prolific Workspaces API
   slug: prolific-research-workspaces-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prolific Bonuses API
+  slug: open-prolific-research-bonuses-api
+- collection_type: open
+  name: Prolific Bonuses Filters API
+  slug: open-prolific-research-filters-api
+- collection_type: open
+  name: Prolific Bonuses Hooks API
+  slug: open-prolific-research-hooks-api
+- collection_type: open
+  name: Prolific Bonuses Messages API
+  slug: open-prolific-research-messages-api
+- collection_type: open
+  name: Prolific Bonuses Participant Groups API
+  slug: open-prolific-research-participant-groups-api
+- collection_type: open
+  name: Prolific Bonuses Projects API
+  slug: open-prolific-research-projects-api
+- collection_type: open
+  name: Prolific Bonuses Studies API
+  slug: open-prolific-research-studies-api
+- collection_type: open
+  name: Prolific Bonuses Submissions API
+  slug: open-prolific-research-submissions-api
+- collection_type: open
+  name: Prolific Bonuses Users API
+  slug: open-prolific-research-users-api
+- collection_type: open
+  name: Prolific Bonuses Workspaces API
+  slug: open-prolific-research-workspaces-api
 - collection_type: open
   name: Prolific API
   slug: open-prolific-research
@@ -139,7 +172,7 @@ plans:
 - name: Prolific Research Plans Pricing
   plan_count: 3
   slug: prolific-research-plans-pricing
-random_paper: 66
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Prolific Research Rate Limits
@@ -164,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

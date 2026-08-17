@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,11 +63,23 @@ apis:
 - description: Portal items, users, groups, and organizational management
   name: ESRI ArcGIS Portal API
   slug: esri-arcgis-portal-api
-artifact_total: 36
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ESRI ArcGIS Platform Geocoding API
+  slug: open-esri-arcgis-geocoding-api
+- collection_type: open
+  name: ESRI ArcGIS Platform Geocoding Places API
+  slug: open-esri-arcgis-places-api
 - collection_type: open
   name: ESRI ArcGIS Platform API
   slug: open-esri-arcgis-platform
+- collection_type: open
+  name: ESRI ArcGIS Platform Geocoding Portal API
+  slug: open-esri-arcgis-portal-api
 common:
 - group: agent
   title: ''
@@ -172,7 +184,7 @@ plans:
 - name: Esri Arcgis Plans Pricing
   plan_count: 9
   slug: esri-arcgis-plans-pricing
-random_paper: 33
+random_paper: 70
 rate_limits:
 - limit_count: 7
   name: Esri Arcgis Rate Limits
@@ -211,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/screenshots/esri-arcgis-2026-06-20T180823.png
 security:

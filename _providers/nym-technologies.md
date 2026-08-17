@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 23
 apis:
 - description: The API Status API from Nym Technologies — 3 operation(s) for api status.
@@ -100,7 +100,80 @@ apis:
 - description: The Utility API from Nym Technologies — 4 operation(s) for utility.
   name: Nym Technologies Utility API
   slug: nym-technologies-utility-api
-artifact_total: 28
+artifact_total: 52
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Node Status API Status API
+  slug: open-nym-technologies-api-status-api
+- collection_type: open
+  name: Node Status API Status circulating-supply API
+  slug: open-nym-technologies-circulating-supply-api
+- collection_type: open
+  name: Node Status API Status contract-cache API
+  slug: open-nym-technologies-contract-cache-api
+- collection_type: open
+  name: Node Status API Status dVPN Directory Cache API
+  slug: open-nym-technologies-dvpn-directory-cache-api
+- collection_type: open
+  name: Node Status API Status Ecash API
+  slug: open-nym-technologies-ecash-api
+- collection_type: open
+  name: Node Status API Status Ecash Global Data API
+  slug: open-nym-technologies-ecash-global-data-api
+- collection_type: open
+  name: Node Status API Status Gateways API
+  slug: open-nym-technologies-gateways-api
+- collection_type: open
+  name: Node Status API Status Mixnodes API
+  slug: open-nym-technologies-mixnodes-api
+- collection_type: open
+  name: Node Status API Status network API
+  slug: open-nym-technologies-network-api
+- collection_type: open
+  name: Node Status API Status network-monitor-status API
+  slug: open-nym-technologies-network-monitor-status-api
+- collection_type: open
+  name: Node Status API Status Node Families API
+  slug: open-nym-technologies-node-families-api
+- collection_type: open
+  name: Node Status API Status Nym Explorer API
+  slug: open-nym-technologies-nym-explorer-api
+- collection_type: open
+  name: Node Status API Status Nym Nodes API
+  slug: open-nym-technologies-nym-nodes-api
+- collection_type: open
+  name: Node Status API Status Services API
+  slug: open-nym-technologies-services-api
+- collection_type: open
+  name: Node Status API Status Sessions API
+  slug: open-nym-technologies-sessions-api
+- collection_type: open
+  name: Node API Status API
+  slug: open-nym-technologies-status-api
+- collection_type: open
+  name: Node Status API Status Summary API
+  slug: open-nym-technologies-summary-api
+- collection_type: open
+  name: Node Status API Status Unstable API
+  slug: open-nym-technologies-unstable-api
+- collection_type: open
+  name: Node Status API Status UNSTABLE - DO **NOT** USE API
+  slug: open-nym-technologies-unstable-do-not-use-api
+- collection_type: open
+  name: Node Status API Status Unstable Nym Nodes API
+  slug: open-nym-technologies-unstable-nym-nodes-api
+- collection_type: open
+  name: Node Status API Status Unstable Nym Nodes v2 API
+  slug: open-nym-technologies-unstable-nym-nodes-v2-api
+- collection_type: open
+  name: Node Status API Status Unstable Nym Nodes v3 API
+  slug: open-nym-technologies-unstable-nym-nodes-v3-api
+- collection_type: open
+  name: Node Status API Status Utility API
+  slug: open-nym-technologies-utility-api
 common:
 - group: other
   title: ''
@@ -258,7 +331,7 @@ overview: 'Nym Technologies publishes 23 APIs on the [APIs.io](https://apis.io/)
 
 
   Nym Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 28 more developer resources.'
-random_paper: 109
+random_paper: 30
 score:
   band: developing
   composite: 51.3
@@ -281,7 +354,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/screenshots/nym-technologies-2026-08-07T185831.png
 security:

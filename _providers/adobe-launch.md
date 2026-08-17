@@ -12,15 +12,16 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 53.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 135
   slug: adobe-launch-agentic-access
   summary_line: 135 operations · 65 acting
-api_count: 16
+api_count: 17
 apis:
 - description: Manage compiled tag library builds for deployment.
   name: Adobe Launch Builds API
@@ -87,6 +88,9 @@ apis:
 - description: Manage secrets for authenticating event forwarding rules with external systems. Supports token, simple-http, oauth2, and oauth2-google types.
   name: Adobe Launch Secrets API
   slug: adobe-launch-secrets-api
+- description: 'The Reactor API is Adobe''s own published management contract for Adobe Launch / Adobe Experience Platform Tags: 137 operations across companies, properties, data elements, rules, rule components, exte'
+  name: Adobe Launch Reactor API
+  slug: adobe-launch-reactor-api
 arazzos:
 - description: Verify a rule exists, add a new rule component to it, and list the rule's components to confirm.
   name: Adobe Launch Add a Component to an Existing Rule
@@ -127,7 +131,11 @@ arazzos:
 - description: Search across Tags resources by name for a property, then retrieve the matched property in full.
   name: Adobe Launch Search for a Property and Fetch It
   slug: adobe-launch-search-and-fetch-property-workflow
-artifact_total: 486
+artifact_total: 510
+asyncapis:
+- description: ''
+  name: Adobe Launch Webhooks
+  slug: adobe-launch-webhooks
 collections:
 - collection_type: postman
   name: Adobe Experience Platform Data Collection API
@@ -141,6 +149,66 @@ collections:
 - collection_type: postman
   name: Adobe Launch Reactor API
   slug: postman-reactor-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds API
+  slug: open-adobe-launch-builds-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Callbacks API
+  slug: open-adobe-launch-callbacks-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Companies API
+  slug: open-adobe-launch-companies-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Data Elements API
+  slug: open-adobe-launch-data-elements-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Edge Network API API
+  slug: open-adobe-launch-edge-network-api-api
+- collection_type: open
+  name: Adobe Experience Platform Edge Network API
+  slug: open-adobe-launch-edge-network-published
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Environments API
+  slug: open-adobe-launch-environments-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Extension Packages API
+  slug: open-adobe-launch-extension-packages-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Extensions API
+  slug: open-adobe-launch-extensions-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Hosts API
+  slug: open-adobe-launch-hosts-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Libraries API
+  slug: open-adobe-launch-libraries-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Media Edge API API
+  slug: open-adobe-launch-media-edge-api-api
+- collection_type: open
+  name: Media Edge API
+  slug: open-adobe-launch-media-edge-published
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Properties API
+  slug: open-adobe-launch-properties-api
+- collection_type: open
+  name: Reactor API
+  slug: open-adobe-launch-reactor-api-published
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Rule Components API
+  slug: open-adobe-launch-rule-components-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Rules API
+  slug: open-adobe-launch-rules-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Search API
+  slug: open-adobe-launch-search-api
+- collection_type: open
+  name: Adobe Experience Platform Data Collection Builds Secrets API
+  slug: open-adobe-launch-secrets-api
 - collection_type: open
   name: Adobe Experience Platform Data Collection API
   slug: open-data-collection-api
@@ -282,6 +350,130 @@ common:
   title: ''
   type: SDKs
   url: https://www.npmjs.com/package/@adobe/reactor-sandbox
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adobe-launch-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/adobe-launch-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/adobe-launch-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/adobe-launch-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/adobe-launch-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/adobe-launch-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/adobe-launch-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adobe-launch-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adobe-launch-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/adobe-launch-reactor-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/adobe-launch-edge-network-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/adobe-launch-media-edge-overlay.yaml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/adobe-launch-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adobe-launch-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/adobe-launch-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/adobe-launch-conventions.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/adobe-launch-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/adobe-launch-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/adobe-launch-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/adobe-launch-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/adobe-launch-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/adobe-launch-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/adobe-launch-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-launch-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/adobe-launch-finops.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://experienceleague.adobe.com/en/docs/experience-platform/tags/home
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.adobe.com/experience-platform-apis/references/reactor
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://experienceleague.adobe.com/en/docs/experience-platform/tags/api/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://experienceleague.adobe.com/?support-solution=Experience+Platform
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.adobe.com/
 created: '2024-01-15'
 description: Adobe Launch, now known as Adobe Experience Platform Tags, is a next-generation tag management system that unifies the client-side marketing ecosystem by empowering developers to build integrations on a robust, extensible platform that partners, clients, and the broader industry can build on and contribute to.
 examples:
@@ -1566,24 +1758,24 @@ jsonld:
   property_count: 0
   slug: reactor-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Adobe Launch
 nav: Providers
 network: true
-overview: 'Adobe Launch publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Callbacks API, Companies API, and 13 more. Tagged areas include Data Collection, Edge Network, Event Forwarding, Marketing Technology, and Tag Management.
+overview: 'Adobe Launch publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Callbacks API, Companies API, and 14 more. Tagged areas include Data Collection, Edge Network, Event Forwarding, Marketing Technology, and Tag Management.
 
 
-  The Adobe Launch catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Adobe Launch catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Adobe Launch''s developer surface includes authentication, developer console, developer portal, engineering blog, signup flow, changelog, and 26 more developer resources.'
+  Adobe Launch''s developer surface includes authentication, developer console, developer portal, engineering blog, signup flow, changelog, CLI, and 56 more developer resources.'
 plans:
 - name: Adobe Launch Plans Pricing
   plan_count: 1
   slug: adobe-launch-plans-pricing
-random_paper: 107
+random_paper: 144
 rate_limits:
-- limit_count: 2
+- limit_count: 4
   name: Adobe Launch Rate Limits
   slug: adobe-launch-rate-limits
 rules:
@@ -1603,17 +1795,22 @@ rules:
     info: 0
     warn: 6
   slug: adobe-launch-spectral-rules
+scopes:
+- name: Adobe Launch Scopes
+  scope_count: 0
+  slug: adobe-launch-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.0
+  band: exemplar
+  composite: 77.6
+  delta: 19.7
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 78.2
-    developer_ergonomics: 47.8
-    discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 42.1
+    commercial_clarity: 63.2
+    contract_quality: 85.5
+    developer_ergonomics: 91.3
+    discoverability: 75.9
+    governance: 79.2
+    operational_transparency: 63.2
   previous_composite: 57.9
   provenance:
     agentic_access: derived
@@ -1623,8 +1820,8 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/screenshots/adobe-launch-2026-06-20T164946.png
 security:
 - kind: authentication
@@ -1639,6 +1836,10 @@ security:
   name: Adobe Launch Vulnerability Disclosure
   slug: adobe-launch-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Adobe Launch Trust Center
+  slug: adobe-launch-trust-center
+  summary_line: SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 27002, FedRAMP, PCI DSS, HIPAA, BSI C5
 slug: adobe-launch
 tags:
 - Data Collection

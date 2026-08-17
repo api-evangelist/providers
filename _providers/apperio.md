@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The users endpoints allow you to manage your API tokens. Tokens are used to authenticate requests to the Apperio API. You can list your existing tokens, delete tokens that are no longer needed, and ac
   name: Apperio Users API
   slug: apperio-users-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apperio API Documentation Analytics API
+  slug: open-apperio-analytics-api
+- collection_type: open
+  name: Apperio API Documentation Analytics E-billing API
+  slug: open-apperio-e-billing-api
+- collection_type: open
+  name: Apperio API Documentation Analytics Filter API
+  slug: open-apperio-filter-api
+- collection_type: open
+  name: Apperio API Documentation Analytics Matter information API
+  slug: open-apperio-matter-information-api
+- collection_type: open
+  name: Apperio API Documentation Analytics Users API
+  slug: open-apperio-users-api
 common:
 - group: other
   title: ''
@@ -183,7 +202,7 @@ overview: 'Apperio publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Apperio''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 21 more developer resources.'
-random_paper: 32
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Apperio Rate Limits
@@ -211,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/screenshots/apperio-2026-07-25T200728.png
 security:

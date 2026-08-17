@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -57,11 +57,32 @@ apis:
 - description: Void authorized, captured, or credited transactions
   name: Visa Acceptance Voids API
   slug: visa-acceptance-voids-api
-artifact_total: 23
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Visa Acceptance Payments Captures API
+  slug: open-visa-acceptance-captures-api
+- collection_type: open
+  name: Visa Acceptance Payments Captures Invoices API
+  slug: open-visa-acceptance-invoices-api
+- collection_type: open
+  name: Visa Acceptance Payments Captures Pay by Link API
+  slug: open-visa-acceptance-pay-by-link-api
+- collection_type: open
+  name: Visa Acceptance Captures Payments API
+  slug: open-visa-acceptance-payments-api
 - collection_type: open
   name: Visa Acceptance Payments API
   slug: open-visa-acceptance-payments
+- collection_type: open
+  name: Visa Acceptance Payments Captures Refunds API
+  slug: open-visa-acceptance-refunds-api
+- collection_type: open
+  name: Visa Acceptance Payments Captures Voids API
+  slug: open-visa-acceptance-voids-api
 common:
 - group: agent
   title: ''
@@ -175,7 +196,7 @@ plans:
 - name: Visa Acceptance Plans Pricing
   plan_count: 1
   slug: visa-acceptance-plans-pricing
-random_paper: 71
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Visa Acceptance Rate Limits
@@ -223,7 +244,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/screenshots/visa-acceptance-2026-06-20T201047.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: The Onboarding API from HHAeXchange — 3 operation(s) for onboarding.
   name: HHAeXchange Onboarding API
   slug: hhaexchange-onboarding-api
-artifact_total: 14
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HHAeXchange FHIR Configuration API
+  slug: open-hhaexchange-configuration-api
+- collection_type: open
+  name: HHAeXchange FHIR Configuration Internal API
+  slug: open-hhaexchange-internal-api
+- collection_type: open
+  name: HHAeXchange FHIR Configuration Onboarding API
+  slug: open-hhaexchange-onboarding-api
 common:
 - group: agent
   title: ''
@@ -130,7 +143,7 @@ plans:
 - name: Hhaexchange Plans Pricing
   plan_count: 2
   slug: hhaexchange-plans-pricing
-random_paper: 60
+random_paper: 97
 rate_limits:
 - limit_count: 3
   name: Hhaexchange Rate Limits
@@ -175,7 +188,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/screenshots/hhaexchange-2026-06-20T182722.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -41,7 +41,14 @@ apis:
 - description: Operations for creating and managing human review loops
   name: Amazon Augmented AI Human Loops API
   slug: amazon-augmented-ai-human-loops-api
-artifact_total: 71
+artifact_total: 73
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Augmented AI (A2I) Human Loops API
+  slug: open-amazon-augmented-ai-human-loops-api
 common:
 - group: agent
   title: ''
@@ -236,7 +243,7 @@ overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Amazon Augmented AI''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 92
+random_paper: 104
 rules:
 - name: Amazon Augmented AI API Rules
   rule_count: 4
@@ -276,7 +283,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/screenshots/amazon-augmented-ai-2026-07-25T195931.png
 security:

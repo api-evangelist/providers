@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ apis:
 - description: Your company's shared knowledge base — pages and folders. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our
   name: Reonic Wiki API
   slug: reonic-wiki-api
-artifact_total: 35
+artifact_total: 65
 asyncapis:
 - description: Event surface for the Reonic REST API v3. Reonic POSTs a signed JSON body (HMAC SHA-256, X-Reonic-Signature) to your configured HTTPS endpoint when a selected event occurs. Payloads are thin (ids only
   name: Reonic Webhooks
@@ -133,6 +133,97 @@ asyncapis:
 - description: ''
   name: Reonic Webhooks
   slug: reonic-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reonic REST Api v3 Activities API
+  slug: open-reonic-activities-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Appointments API
+  slug: open-reonic-appointments-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Calendar Categories API
+  slug: open-reonic-calendar-categories-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Calendars API
+  slug: open-reonic-calendars-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Checklist Templates API
+  slug: open-reonic-checklist-templates-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Checklists API
+  slug: open-reonic-checklists-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Commercial Projects API
+  slug: open-reonic-commercial-projects-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Components API
+  slug: open-reonic-components-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Contacts API
+  slug: open-reonic-contacts-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities File Folders API
+  slug: open-reonic-file-folders-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Files API
+  slug: open-reonic-files-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Kanban Boards API
+  slug: open-reonic-kanban-boards-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Kanban Columns API
+  slug: open-reonic-kanban-columns-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Lead Sources API
+  slug: open-reonic-lead-sources-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Links API
+  slug: open-reonic-links-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Notes API
+  slug: open-reonic-notes-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Offer Templates API
+  slug: open-reonic-offer-templates-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Photogrammetry API
+  slug: open-reonic-photogrammetry-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Planning Packages API
+  slug: open-reonic-planning-packages-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Planning Templates API
+  slug: open-reonic-planning-templates-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Residential Projects API
+  slug: open-reonic-residential-projects-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Signature Requests API
+  slug: open-reonic-signature-requests-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Tags API
+  slug: open-reonic-tags-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Tasks API
+  slug: open-reonic-tasks-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Teams API
+  slug: open-reonic-teams-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Time Tracking API
+  slug: open-reonic-time-tracking-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Upload API
+  slug: open-reonic-upload-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Users API
+  slug: open-reonic-users-api
+- collection_type: open
+  name: Reonic REST Api v3 Activities Wiki API
+  slug: open-reonic-wiki-api
 common:
 - group: other
   title: ''
@@ -261,7 +352,7 @@ overview: 'Reonic publishes 29 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Reonic''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, changelog, and 20 more developer resources.'
-random_paper: 40
+random_paper: 44
 score:
   band: developing
   composite: 44.1
@@ -291,7 +382,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

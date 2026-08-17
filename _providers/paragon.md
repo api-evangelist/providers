@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ arazzos:
 - description: Confirm the Connected User has the integration enabled, then proxy a live API call to it.
   name: Paragon Verify Integration then Proxy a Request
   slug: paragon-verify-integration-and-proxy-request-workflow
-artifact_total: 234
+artifact_total: 241
 collections:
 - collection_type: postman
   name: Paragon ActionKit API
@@ -116,22 +116,43 @@ collections:
   name: Paragon Users API
   slug: postman-paragon-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Paragon ActionKit API
   slug: open-paragon-actionkit-api
+- collection_type: open
+  name: Paragon ActionKit Credentials API
+  slug: open-paragon-credentials-api
+- collection_type: open
+  name: Paragon ActionKit Credentials Custom Integrations API
+  slug: open-paragon-custom-integrations-api
+- collection_type: open
+  name: Paragon ActionKit Credentials Integrations API
+  slug: open-paragon-integrations-api
 - collection_type: open
   name: Paragon Managed Sync API
   slug: open-paragon-managed-sync-api
 - collection_type: open
-  name: Paragon Proxy API
+  name: Paragon ActionKit Credentials Permissions API
+  slug: open-paragon-permissions-api
+- collection_type: open
+  name: Paragon ActionKit Credentials Proxy API
   slug: open-paragon-proxy-api
 - collection_type: open
-  name: Paragon Task History API
+  name: Paragon ActionKit Credentials Sync API
+  slug: open-paragon-sync-api
+- collection_type: open
+  name: Paragon ActionKit Credentials Task History API
   slug: open-paragon-task-history-api
 - collection_type: open
-  name: Paragon Triggers API
+  name: Paragon ActionKit Credentials Tools API
+  slug: open-paragon-tools-api
+- collection_type: open
+  name: Paragon ActionKit Credentials Triggers API
   slug: open-paragon-triggers-api
 - collection_type: open
-  name: Paragon Users API
+  name: Paragon ActionKit Credentials Users API
   slug: open-paragon-users-api
 common:
 - group: agent
@@ -643,7 +664,7 @@ plans:
 - name: Paragon Plans Pricing
   plan_count: 3
   slug: paragon-plans-pricing
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 6
   name: Paragon Rate Limits
@@ -685,7 +706,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/screenshots/paragon-2026-06-20T191356.png
 security:

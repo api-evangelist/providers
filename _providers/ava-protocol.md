@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -68,7 +68,41 @@ apis:
 - description: Workflow CRUD and lifecycle actions
   name: Ava Protocol Workflows API
   slug: ava-protocol-workflows-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ava Protocol AVS Auth API
+  slug: open-ava-protocol-auth-api
+- collection_type: open
+  name: Ava Protocol AVS Auth Executions API
+  slug: open-ava-protocol-executions-api
+- collection_type: open
+  name: Ava Protocol AVS Auth Health API
+  slug: open-ava-protocol-health-api
+- collection_type: open
+  name: Ava Protocol AVS Auth Nodes API
+  slug: open-ava-protocol-nodes-api
+- collection_type: open
+  name: Ava Protocol AVS Auth Operators API
+  slug: open-ava-protocol-operators-api
+- collection_type: open
+  name: Ava Protocol AVS Auth Secrets API
+  slug: open-ava-protocol-secrets-api
+- collection_type: open
+  name: Ava Protocol AVS Auth Tokens API
+  slug: open-ava-protocol-tokens-api
+- collection_type: open
+  name: Ava Protocol AVS Auth Triggers API
+  slug: open-ava-protocol-triggers-api
+- collection_type: open
+  name: Ava Protocol AVS Auth Wallets API
+  slug: open-ava-protocol-wallets-api
+- collection_type: open
+  name: Ava Protocol AVS Auth Workflows API
+  slug: open-ava-protocol-workflows-api
 common:
 - group: other
   title: ''
@@ -214,7 +248,7 @@ overview: 'Ava Protocol publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Ava Protocol''s developer surface includes authentication, sandbox, CLI, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
-random_paper: 39
+random_paper: 47
 score:
   band: developing
   composite: 44.5
@@ -244,7 +278,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/screenshots/ava-protocol-2026-07-25T201902.png
 security:

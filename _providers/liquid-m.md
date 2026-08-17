@@ -11,10 +11,11 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -23,12 +24,19 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-12'
+  score: 51.6
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Liquid M Agentic Access
+  operation_count: 7
+  slug: liquid-m-agentic-access
+  summary_line: 7 operations · 3 acting
 api_count: 5
 apis:
 - description: The Ads API from Liquid M — 1 operation(s) for ads.
@@ -46,8 +54,31 @@ apis:
 - description: Visual report queries across dimensions and metrics.
   name: Liquid M Reporting API
   slug: liquid-m-reporting-api
-artifact_total: 10
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LiquidM Management Ads API
+  slug: open-liquid-m-ads-api
+- collection_type: open
+  name: LiquidM Management Ads Authentication API
+  slug: open-liquid-m-authentication-api
+- collection_type: open
+  name: LiquidM Management Ads Budgets API
+  slug: open-liquid-m-budgets-api
+- collection_type: open
+  name: LiquidM Management Ads Campaigns API
+  slug: open-liquid-m-campaigns-api
+- collection_type: open
+  name: LiquidM Management Ads Reporting API
+  slug: open-liquid-m-reporting-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/liquid-m-agentic-access.yml
 - group: other
   title: ''
   type: Overlay
@@ -116,10 +147,6 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/liquid-m-visual-report.json
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/liquid-m-well-known.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -136,8 +163,25 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/liquid-m-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liquid-m-reporting-overlay.yaml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/liquid-m-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/liquid-m-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://github.com/liquidm/liquidm-reporting-api-client/blob/master/README.md
 created: '2026-07-17'
-description: 'LiquidM Technology GmbH is a Berlin-based demand-side platform for programmatic advertising, backed by Earlybird. Its platform at platform.liquidm.com exposes two developer surfaces: a Reporting API that returns the same data as the platform''s Visual Reports UI, split across more than thirty dimensions (campaign, ad, site, domain, device, geo, audience) and thirty-plus metrics (impressions, bids, bid requests, clicks, CTR, win rate, eCPM, conversion funnels, video quartiles); and a campaign Management API covering campaigns, budgets and ads. LiquidM publishes a first-party MIT-licensed JavaScript client for the Management API and an example Ruby client for the Reporting API from a 100-repo public GitHub organization. The liquidm.com marketing domain now redirects to Equativ, though the platform host and its APIs remain reachable.'
+description: 'LiquidM Technology GmbH is a Berlin-based demand-side platform for programmatic advertising, founded in 2013 and backed early by Earlybird, later Bertelsmann-owned, and acquired by Smart AdServer — now Equativ — in December 2019. Its platform at platform.liquidm.com exposes two developer surfaces: a Reporting API that returns the same data as the platform''s Visual Reports UI, split across more than thirty dimensions (campaign, ad, site, domain, device, geo, audience) and thirty-plus metrics (impressions, bids, bid requests, clicks, CTR, win rate, eCPM, conversion funnels, video quartiles); and a campaign Management API covering campaigns, budgets and ads. LiquidM publishes a first-party MIT-licensed JavaScript client for the Management API and an example Ruby client for the Reporting API from a 100-repo public GitHub organization, neither released to a package registry. Both APIs remain live and authenticate, but the published surface has fallen well behind the deployed one:
+  probing confirms fifteen live v1 collections against the three the client documents, and an entirely undocumented v2 generation that answers in JSON:API. The liquidm.com marketing domain no longer serves HTTPS — its certificate expired in July 2026 — and over plain HTTP redirects to Equativ.'
 examples:
 - key_count: 3
   name: Liquid M Visual Report Response
@@ -152,23 +196,31 @@ mcp_servers:
 - description: ''
   name: liquid-m-mcp.yml
   slug: liquid-m-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Liquid M
 nav: Providers
 network: true
 overview: 'Liquid M publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Authentication API, Budgets API, and 2 more. Tagged areas include Company, Advertising, AdTech, Demand-Side Platform, and Programmatic Advertising.
 
 
-  Liquid M''s developer surface includes developer portal, signup flow, authentication, code examples, and 18 more developer resources.'
-random_paper: 82
+  Liquid M''s developer surface includes developer portal, signup flow, authentication, code examples, API reference, and 21 more developer resources.'
+plans:
+- name: Liquid M Plans Pricing
+  plan_count: 0
+  slug: liquid-m-plans-pricing
+random_paper: 57
+rate_limits:
+- limit_count: 0
+  name: Liquid M Rate Limits
+  slug: liquid-m-rate-limits
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 36.7
+  delta: 1.3
   facets:
     commercial_clarity: 13.2
     contract_quality: 56.9
-    developer_ergonomics: 29.9
+    developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 21.9
     operational_transparency: 5.3
@@ -183,7 +235,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/screenshots/liquid-m-2026-07-25T225318.png
 security:
@@ -194,7 +246,7 @@ security:
 - kind: domain-security
   name: Liquid M Domain Security
   slug: liquid-m-domain-security
-  summary_line: TLSv1.2 · HSTS
+  summary_line: TLSv1.2
 slug: liquid-m
 tags:
 - Company

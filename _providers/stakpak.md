@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -99,7 +99,71 @@ apis:
 - description: The Upload API from StakPak — 1 operation(s) for upload.
   name: StakPak Upload API
   slug: stakpak-upload-api
-artifact_total: 24
+artifact_total: 45
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stakpak Account API
+  slug: open-stakpak-account-api
+- collection_type: open
+  name: Stakpak Account Account (V2) API
+  slug: open-stakpak-account-v2-api
+- collection_type: open
+  name: Stakpak Account Agents API
+  slug: open-stakpak-agents-api
+- collection_type: open
+  name: Stakpak Account Agents (V2) API
+  slug: open-stakpak-agents-v2-api
+- collection_type: open
+  name: Stakpak Account Billing (V2) API
+  slug: open-stakpak-billing-v2-api
+- collection_type: open
+  name: Stakpak Account Chat API
+  slug: open-stakpak-chat-api
+- collection_type: open
+  name: Stakpak Account Commands API
+  slug: open-stakpak-commands-api
+- collection_type: open
+  name: Stakpak Account Knowledge API
+  slug: open-stakpak-knowledge-api
+- collection_type: open
+  name: Stakpak Account Knowledge Registry API
+  slug: open-stakpak-knowledge-registry-api
+- collection_type: open
+  name: Stakpak Account MCP API
+  slug: open-stakpak-mcp-api
+- collection_type: open
+  name: Stakpak Account Memory API
+  slug: open-stakpak-memory-api
+- collection_type: open
+  name: Stakpak Account Memory (V2) API
+  slug: open-stakpak-memory-v2-api
+- collection_type: open
+  name: Stakpak Account Organizations API
+  slug: open-stakpak-organizations-api
+- collection_type: open
+  name: Stakpak Account Recovery API
+  slug: open-stakpak-recovery-api
+- collection_type: open
+  name: Stakpak Account Rules API
+  slug: open-stakpak-rules-api
+- collection_type: open
+  name: Stakpak Account Rules (V2) API
+  slug: open-stakpak-rules-v2-api
+- collection_type: open
+  name: Stakpak Account Runners (V2) API
+  slug: open-stakpak-runners-v2-api
+- collection_type: open
+  name: Stakpak Account Sessions API
+  slug: open-stakpak-sessions-api
+- collection_type: open
+  name: Stakpak Account Telemetry API
+  slug: open-stakpak-telemetry-api
+- collection_type: open
+  name: Stakpak Account Upload API
+  slug: open-stakpak-upload-api
 common:
 - group: other
   title: ''
@@ -213,7 +277,7 @@ overview: 'StakPak publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   StakPak''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, CLI, and 17 more developer resources.'
-random_paper: 31
+random_paper: 6
 score:
   band: developing
   composite: 45.0
@@ -237,7 +301,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

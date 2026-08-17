@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: The ApiKeys API from Voltair — 2 operation(s) for apikeys.
@@ -79,11 +79,63 @@ apis:
 - description: The Webhooks API from Voltair — 5 operation(s) for webhooks.
   name: Voltair Webhooks API
   slug: voltair-webhooks-api
-artifact_total: 21
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Voltair Webhooks
   slug: voltair-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Voltair ApiKeys API
+  slug: open-voltair-apikeys-api
+- collection_type: open
+  name: Voltair ApiKeys Assets API
+  slug: open-voltair-assets-api
+- collection_type: open
+  name: Voltair ApiKeys Clusters API
+  slug: open-voltair-clusters-api
+- collection_type: open
+  name: Voltair ApiKeys ClusterVisits API
+  slug: open-voltair-clustervisits-api
+- collection_type: open
+  name: Voltair ApiKeys Events API
+  slug: open-voltair-events-api
+- collection_type: open
+  name: Voltair ApiKeys Identity API
+  slug: open-voltair-identity-api
+- collection_type: open
+  name: Voltair ApiKeys Inspections API
+  slug: open-voltair-inspections-api
+- collection_type: open
+  name: Voltair ApiKeys Media API
+  slug: open-voltair-media-api
+- collection_type: open
+  name: Voltair ApiKeys Missions API
+  slug: open-voltair-missions-api
+- collection_type: open
+  name: Voltair ApiKeys Organization API
+  slug: open-voltair-organization-api
+- collection_type: open
+  name: Voltair ApiKeys Roles API
+  slug: open-voltair-roles-api
+- collection_type: open
+  name: Voltair ApiKeys Sites API
+  slug: open-voltair-sites-api
+- collection_type: open
+  name: Voltair ApiKeys SiteVisits API
+  slug: open-voltair-sitevisits-api
+- collection_type: open
+  name: Voltair ApiKeys Transactions API
+  slug: open-voltair-transactions-api
+- collection_type: open
+  name: Voltair ApiKeys Users API
+  slug: open-voltair-users-api
+- collection_type: open
+  name: Voltair ApiKeys Webhooks API
+  slug: open-voltair-webhooks-api
 common:
 - group: other
   title: ''
@@ -188,7 +240,7 @@ overview: 'Voltair publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Voltair''s developer surface includes documentation, API reference, authentication, and 18 more developer resources.'
-random_paper: 49
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Voltair Rate Limits
@@ -221,7 +273,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

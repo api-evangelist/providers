@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,11 +63,38 @@ apis:
 - description: Training programs and enrollment management
   name: Prosci Training API
   slug: prosci-training-api
-artifact_total: 19
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Prosci Change Management ADKAR Assessments API
+  slug: open-prosci-adkar-assessments-api
 - collection_type: open
   name: Prosci Change Management API
   slug: open-prosci-change-management
+- collection_type: open
+  name: Prosci Change Management ADKAR Assessments Change Plans API
+  slug: open-prosci-change-plans-api
+- collection_type: open
+  name: Prosci Change Management ADKAR Assessments Organizations API
+  slug: open-prosci-organizations-api
+- collection_type: open
+  name: Prosci Change Management ADKAR Assessments PCT Assessments API
+  slug: open-prosci-pct-assessments-api
+- collection_type: open
+  name: Prosci Change Management ADKAR Assessments Projects API
+  slug: open-prosci-projects-api
+- collection_type: open
+  name: Prosci Change Management ADKAR Assessments Risk Assessment API
+  slug: open-prosci-risk-assessment-api
+- collection_type: open
+  name: Prosci Change Management ADKAR Assessments Stakeholders API
+  slug: open-prosci-stakeholders-api
+- collection_type: open
+  name: Prosci Change Management ADKAR Assessments Training API
+  slug: open-prosci-training-api
 common:
 - group: agent
   title: ''
@@ -136,7 +163,7 @@ plans:
 - name: Prosci Plans Pricing
   plan_count: 3
   slug: prosci-plans-pricing
-random_paper: 56
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Prosci Rate Limits
@@ -170,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

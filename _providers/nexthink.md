@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: The Workflows API from Nexthink — 5 operation(s) for workflows.
   name: Nexthink Workflows API
   slug: nexthink-workflows-api
-artifact_total: 15
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Campaigns API
+  slug: open-nexthink-campaigns-api
+- collection_type: open
+  name: Campaigns device-deletions API
+  slug: open-nexthink-device-deletions-api
+- collection_type: open
+  name: Campaigns enrichment API
+  slug: open-nexthink-enrichment-api
+- collection_type: open
+  name: Campaigns Execute API
+  slug: open-nexthink-execute-api
+- collection_type: open
+  name: Campaigns Export API
+  slug: open-nexthink-export-api
+- collection_type: open
+  name: Campaigns Handoff API API
+  slug: open-nexthink-handoff-api-api
+- collection_type: open
+  name: Campaigns Remote actions API
+  slug: open-nexthink-remote-actions-api
+- collection_type: open
+  name: Campaigns Workflows API
+  slug: open-nexthink-workflows-api
 common:
 - group: other
   title: ''
@@ -205,7 +233,7 @@ overview: 'Nexthink publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nexthink''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 24 more developer resources.'
-random_paper: 33
+random_paper: 128
 scopes:
 - name: Nexthink Scopes
   scope_count: 1
@@ -234,7 +262,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/screenshots/nexthink-2026-08-07T185209.png
 security:

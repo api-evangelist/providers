@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,8 +84,17 @@ apis:
 - description: The Verify API from Orange — 1 operation(s) for verify.
   name: Orange Verify API
   slug: orange-verify-api
-artifact_total: 23
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orange Number Verification Device Phone Number API
+  slug: open-orange-device-phone-number-api
+- collection_type: open
+  name: Orange Number Verification Device Phone Number Verify API
+  slug: open-orange-verify-api
 - collection_type: open
   name: Orange Number Verification API
   slug: open-orange
@@ -166,7 +175,7 @@ plans:
 - name: Orange Plans Pricing
   plan_count: 3
   slug: orange-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Orange Rate Limits
@@ -197,7 +206,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/screenshots/orange-2026-06-20T191151.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -38,7 +38,20 @@ apis:
 - description: The user API from Songtradr — 15 operation(s) for user.
   name: Songtradr User API
   slug: songtradr-user-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Songtradr Allowed Values API
+  slug: open-songtradr-allowed-values-api
+- collection_type: open
+  name: Songtradr Similarity Vector Controller API
+  slug: open-songtradr-similarity-vector-controller-api
+- collection_type: open
+  name: Songtradr User API
+  slug: open-songtradr-user-api
 common:
 - group: agent
   title: ''
@@ -168,7 +181,7 @@ overview: 'Songtradr publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Songtradr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 20
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Songtradr Rate Limits
@@ -196,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

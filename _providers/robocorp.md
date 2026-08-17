@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -78,7 +78,7 @@ apis:
 - description: Workspace information
   name: Robocorp Workspace API
   slug: robocorp-workspace-api
-artifact_total: 40
+artifact_total: 53
 collections:
 - collection_type: postman
   name: Robocorp Control Room Assets API
@@ -117,8 +117,47 @@ collections:
   name: Robocorp Control Room Assets Workspace API
   slug: postman-robocorp-workspace-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Robocorp Control Room Assets API
+  slug: open-robocorp-assets-api
+- collection_type: open
+  name: Robocorp Control Room Assets Assistants API
+  slug: open-robocorp-assistants-api
+- collection_type: open
   name: Robocorp Control Room API
   slug: open-robocorp-control-room
+- collection_type: open
+  name: Robocorp Control Room Assets Process Runs API
+  slug: open-robocorp-process-runs-api
+- collection_type: open
+  name: Robocorp Control Room Assets Processes API
+  slug: open-robocorp-processes-api
+- collection_type: open
+  name: Robocorp Control Room Assets Step Runs API
+  slug: open-robocorp-step-runs-api
+- collection_type: open
+  name: Robocorp Control Room Assets Task Packages API
+  slug: open-robocorp-task-packages-api
+- collection_type: open
+  name: Robocorp Control Room Assets Vault API
+  slug: open-robocorp-vault-api
+- collection_type: open
+  name: Robocorp Control Room Assets Webhooks API
+  slug: open-robocorp-webhooks-api
+- collection_type: open
+  name: Robocorp Control Room Assets Work Items API
+  slug: open-robocorp-work-items-api
+- collection_type: open
+  name: Robocorp Control Room Assets Worker Groups API
+  slug: open-robocorp-worker-groups-api
+- collection_type: open
+  name: Robocorp Control Room Assets Workers API
+  slug: open-robocorp-workers-api
+- collection_type: open
+  name: Robocorp Control Room Assets Workspace API
+  slug: open-robocorp-workspace-api
 common:
 - group: build
   title: ''
@@ -230,7 +269,7 @@ plans:
 - name: Robocorp Plans Pricing
   plan_count: 3
   slug: robocorp-plans-pricing
-random_paper: 30
+random_paper: 125
 rate_limits:
 - limit_count: 5
   name: Robocorp Rate Limits
@@ -272,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/screenshots/robocorp-2026-06-20T193143.png
 security:

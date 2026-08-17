@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The canplug API from Farmers Edge — 1 operation(s) for canplug.
@@ -64,7 +64,44 @@ apis:
 - description: The token-login API from Farmers Edge — 1 operation(s) for token-login.
   name: Farmers Edge token-login API
   slug: farmers-edge-token-login-api
-artifact_total: 14
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FarmCommand canplug API
+  slug: open-farmers-edge-canplug-api
+- collection_type: open
+  name: FarmCommand canplug carbon API
+  slug: open-farmers-edge-carbon-api
+- collection_type: open
+  name: FarmCommand canplug client API
+  slug: open-farmers-edge-client-api
+- collection_type: open
+  name: FarmCommand canplug contact API
+  slug: open-farmers-edge-contact-api
+- collection_type: open
+  name: FarmCommand canplug gridcalc API
+  slug: open-farmers-edge-gridcalc-api
+- collection_type: open
+  name: FarmCommand canplug hefty API
+  slug: open-farmers-edge-hefty-api
+- collection_type: open
+  name: FarmCommand canplug integrations API
+  slug: open-farmers-edge-integrations-api
+- collection_type: open
+  name: FarmCommand canplug labcommand API
+  slug: open-farmers-edge-labcommand-api
+- collection_type: open
+  name: FarmCommand canplug payments API
+  slug: open-farmers-edge-payments-api
+- collection_type: open
+  name: FarmCommand canplug recengine API
+  slug: open-farmers-edge-recengine-api
+- collection_type: open
+  name: FarmCommand canplug token-login API
+  slug: open-farmers-edge-token-login-api
 common:
 - group: auth
   title: ''
@@ -142,7 +179,7 @@ overview: 'Farmers Edge publishes 11 APIs on the [APIs.io](https://apis.io/) net
 
 
   Farmers Edge''s developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: thin
   composite: 29.4
@@ -165,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/screenshots/farmers-edge-2026-07-25T214231.png
 security:

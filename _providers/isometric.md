@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -146,14 +146,122 @@ apis:
 - description: The Transfers API from Isometric — 3 operation(s) for transfers.
   name: Isometric Transfers API
   slug: isometric-transfers-api
-artifact_total: 56
+artifact_total: 92
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries API
+  slug: open-isometric-beneficiaries-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Beneficiary API
+  slug: open-isometric-beneficiary-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Biochar Applications API
+  slug: open-isometric-biochar-applications-api
 - collection_type: open
   name: Isometric Certify Data Ingestion API
   slug: open-isometric-certify-api
 - collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Component Blueprints API
+  slug: open-isometric-component-blueprints-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Components API
+  slug: open-isometric-components-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Credit Batches API
+  slug: open-isometric-credit-batches-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Data Upload Submissions API
+  slug: open-isometric-data-upload-submissions-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Datapoints API
+  slug: open-isometric-datapoints-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Deliveries API
+  slug: open-isometric-deliveries-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Feedstock Batches API
+  slug: open-isometric-feedstock-batches-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Feedstock Types API
+  slug: open-isometric-feedstock-types-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries File Uploads API
+  slug: open-isometric-file-uploads-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Ghg Statement Components API
+  slug: open-isometric-ghg-statement-components-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Ghg Statements API
+  slug: open-isometric-ghg-statements-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Issuances API
+  slug: open-isometric-issuances-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Measurement Locations API
+  slug: open-isometric-measurement-locations-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Measurement Samples API
+  slug: open-isometric-measurement-samples-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Orders API
+  slug: open-isometric-orders-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Organisation API
+  slug: open-isometric-organisation-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Organisations API
+  slug: open-isometric-organisations-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Processes API
+  slug: open-isometric-processes-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Production Batches API
+  slug: open-isometric-production-batches-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Project Components API
+  slug: open-isometric-project-components-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Projects API
+  slug: open-isometric-projects-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Refunds API
+  slug: open-isometric-refunds-api
+- collection_type: open
   name: Isometric Registry API
   slug: open-isometric-registry-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Removals API
+  slug: open-isometric-removals-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Retirements API
+  slug: open-isometric-retirements-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Sensors API
+  slug: open-isometric-sensors-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Sources API
+  slug: open-isometric-sources-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Storage Units API
+  slug: open-isometric-storage-units-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Stripe API
+  slug: open-isometric-stripe-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Supplier API
+  slug: open-isometric-supplier-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Suppliers API
+  slug: open-isometric-suppliers-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Transferees API
+  slug: open-isometric-transferees-api
+- collection_type: open
+  name: Isometric Certify Data Ingestion Beneficiaries Transfers API
+  slug: open-isometric-transfers-api
 common:
 - group: agent
   title: ''
@@ -292,7 +400,7 @@ overview: 'Isometric publishes 35 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Isometric''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, and 21 more developer resources.'
-random_paper: 15
+random_paper: 81
 score:
   band: thin
   composite: 28.4
@@ -319,7 +427,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/screenshots/isometric-2026-06-20T183619.png
 security:

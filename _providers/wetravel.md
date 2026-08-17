@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -90,11 +90,66 @@ apis:
 - description: The Trips API from WeTravel — 3 operation(s) for trips.
   name: WeTravel Trips API
   slug: wetravel-trips-api
-artifact_total: 24
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Wetravel Webhooks
   slug: wetravel-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WeTravel Partner Access token API
+  slug: open-wetravel-access-token-api
+- collection_type: open
+  name: WeTravel Partner Access token Add-ons API
+  slug: open-wetravel-add-ons-api
+- collection_type: open
+  name: WeTravel Partner Access token Discounts API
+  slug: open-wetravel-discounts-api
+- collection_type: open
+  name: WeTravel Partner Access token Images API
+  slug: open-wetravel-images-api
+- collection_type: open
+  name: WeTravel Partner Access token Included items API
+  slug: open-wetravel-included-items-api
+- collection_type: open
+  name: WeTravel Partner Access token Leads API
+  slug: open-wetravel-leads-api
+- collection_type: open
+  name: WeTravel Partner Access token Not Included items API
+  slug: open-wetravel-not-included-items-api
+- collection_type: open
+  name: WeTravel Partner Access token Orders API
+  slug: open-wetravel-orders-api
+- collection_type: open
+  name: WeTravel Partner Access token Packages API
+  slug: open-wetravel-packages-api
+- collection_type: open
+  name: WeTravel Partner Access token Paragraphs API
+  slug: open-wetravel-paragraphs-api
+- collection_type: open
+  name: WeTravel Partner Access token Participant Information API
+  slug: open-wetravel-participant-information-api
+- collection_type: open
+  name: WeTravel Partner Access token Payment Links API
+  slug: open-wetravel-payment-links-api
+- collection_type: open
+  name: WeTravel Partner Access token Payment Plans API
+  slug: open-wetravel-payment-plans-api
+- collection_type: open
+  name: WeTravel Partner Access token Suppliers API
+  slug: open-wetravel-suppliers-api
+- collection_type: open
+  name: WeTravel Partner Access token Transactions API
+  slug: open-wetravel-transactions-api
+- collection_type: open
+  name: WeTravel Partner Access token Trip Overview API
+  slug: open-wetravel-trip-overview-api
+- collection_type: open
+  name: WeTravel Partner Access token Trips API
+  slug: open-wetravel-trips-api
 common:
 - group: other
   title: ''
@@ -223,7 +278,7 @@ overview: 'WeTravel publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
-random_paper: 34
+random_paper: 129
 rate_limits:
 - limit_count: 1
   name: Wetravel Rate Limits
@@ -257,7 +312,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Signed server-to-server callbacks for screening status updates.
   name: Certn Webhooks API
   slug: certn-webhooks-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Certn Applications API
+  slug: open-certn-applications-api
+- collection_type: open
+  name: Certn Applications Checks API
+  slug: open-certn-checks-api
+- collection_type: open
+  name: Certn Applications Packages API
+  slug: open-certn-packages-api
+- collection_type: open
+  name: Certn Applications Reports API
+  slug: open-certn-reports-api
+- collection_type: open
+  name: Certn Applications Teams and Users API
+  slug: open-certn-teams-and-users-api
+- collection_type: open
+  name: Certn Applications Webhooks API
+  slug: open-certn-webhooks-api
 - collection_type: open
   name: Certn API
   slug: open-certn
@@ -131,7 +152,7 @@ plans:
 - name: Certn Plans Pricing
   plan_count: 4
   slug: certn-plans-pricing
-random_paper: 60
+random_paper: 93
 rate_limits:
 - limit_count: 3
   name: Certn Rate Limits
@@ -156,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/screenshots/certn-2026-07-25T205011.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'contentbox is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   contentbox''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 12
+random_paper: 49
 score:
   band: minimal
   composite: 7.7
@@ -87,7 +87,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentbox/refs/heads/main/screenshots/contentbox-2026-07-25T210320.png
 security:

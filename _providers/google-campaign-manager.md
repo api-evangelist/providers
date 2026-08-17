@@ -1,35 +1,36 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Contact sales · Campaign Manager 360 contract required
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
   - plans
   - authentication
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 55.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -54,8 +55,23 @@ apis:
 - description: Create, configure, and run reports to analyze campaign performance. Reports support multiple types including standard, reach, path to conversion, cross-dimension reach, floodlight, and cross-media rea
   name: Google Campaign Manager Reports API
   slug: google-campaign-manager-reports-api
-artifact_total: 224
+artifact_total: 230
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Campaign Manager Campaign Manager 360 Ads API
+  slug: open-google-campaign-manager-ads-api
+- collection_type: open
+  name: Google Campaign Manager Campaign Manager 360 Ads Campaigns API
+  slug: open-google-campaign-manager-campaigns-api
+- collection_type: open
+  name: Google Campaign Manager Campaign Manager 360 Ads Placements API
+  slug: open-google-campaign-manager-placements-api
+- collection_type: open
+  name: Google Campaign Manager Campaign Manager 360 Ads Reports API
+  slug: open-google-campaign-manager-reports-api
 - collection_type: open
   name: Google Campaign Manager Campaign Manager 360 API
   slug: open-google-campaign-manager
@@ -80,6 +96,142 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/google-campaign-manager-scopes.yml
+- group: other
+  title: ''
+  type: Discovery
+  url: discovery/google-campaign-manager-dfareporting-v5-discovery.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-campaign-manager-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/google-campaign-manager-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-campaign-manager-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-campaign-manager-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/google-campaign-manager-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/google-campaign-manager-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-campaign-manager-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-campaign-manager-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-campaign-manager-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-campaign-manager-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/google-campaign-manager-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-campaign-manager-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-campaign-manager-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-campaign-manager-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-campaign-manager-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-campaign-manager-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/google-campaign-manager-finops.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/google-campaign-manager-jsonschema-spectral-rules.yml
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/google-campaign-manager.postman_collection.json
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/google-campaign-manager.opencollection.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.google.com/doubleclick-advertisers
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/doubleclick-advertisers
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/doubleclick-advertisers/rest
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.google.com/doubleclick-advertisers/getting_started
+- group: operate
+  title: ''
+  type: Support
+  url: https://developers.google.com/doubleclick-advertisers/get-support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.google.com/campaignmanager
+- group: operate
+  title: ''
+  type: Forum
+  url: https://groups.google.com/g/dfa-api
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://developers.google.com/doubleclick-advertisers/rel_notes
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/googleads
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://marketingplatform.google.com/about/campaign-manager-360/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://marketingplatform.google.com/about/campaign-manager-360/
+- group: start
+  title: ''
+  type: Console
+  url: https://console.cloud.google.com/apis/library/dfareporting.googleapis.com
 - group: start
   title: ''
   type: Portal
@@ -120,8 +272,8 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/google-campaign-manager-vocabulary.yaml
-created: '2024'
-description: The Campaign Manager 360 API allows developers to programmatically manage campaigns, creatives, reports, and other advertising operations in Google's Campaign Manager 360 platform.
+created: '2024-01-01'
+description: Campaign Manager 360 is Google's ad-serving, trafficking and measurement platform for advertisers and agencies. Its API — service name dfareporting — lets developers programmatically manage advertisers, campaigns, ads, creatives, placements, floodlight conversion tags and remarketing lists, generate publisher ad tags, and define, run and download standard, reach, path-to-conversion, floodlight and cross-media reach reports. Access is OAuth 2.0 only and every path is scoped to a Campaign Manager 360 user profile. The current version is v5; v4 has been fully sunset. Google publishes a Discovery Document rather than an OpenAPI, plus Data Transfer v2.0 for bulk event-level delivery to Cloud Storage.
 examples:
 - key_count: 3
   name: Google Campaign Manager Activities Example
@@ -736,7 +888,11 @@ jsonld:
   property_count: 0
   slug: google-campaign-manager-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: google-campaign-manager-mcp.yml
+  slug: google-campaign-manager-mcpyml
+modified: '2026-08-13'
 name: Google Campaign Manager
 nav: Providers
 network: true
@@ -746,14 +902,14 @@ overview: 'Google Campaign Manager publishes 4 APIs on the [APIs.io](https://api
   The Google Campaign Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Campaign Manager''s developer surface includes authentication, developer portal, engineering blog, and 12 more developer resources.'
+  Google Campaign Manager''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, release notes, and 42 more developer resources.'
 plans:
 - name: Google Campaign Manager Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: google-campaign-manager-plans-pricing
-random_paper: 10
+random_paper: 55
 rate_limits:
-- limit_count: 5
+- limit_count: 3
   name: Google Campaign Manager Rate Limits
   slug: google-campaign-manager-rate-limits
 rules:
@@ -775,20 +931,20 @@ rules:
   slug: google-campaign-manager-spectral-rules
 scopes:
 - name: Google Campaign Manager Scopes
-  scope_count: 2
+  scope_count: 3
   slug: google-campaign-manager-scopes
-  summary_line: 2 scopes · authorizationCode
+  summary_line: 3 scopes
 score:
-  band: developing
-  composite: 47.4
-  delta: 0.0
+  band: exemplar
+  composite: 72.5
+  delta: 25.1
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 52.6
     contract_quality: 74.4
-    developer_ergonomics: 21.7
-    discoverability: 57.4
-    governance: 68.8
-    operational_transparency: 23.7
+    developer_ergonomics: 84.8
+    discoverability: 74.1
+    governance: 89.6
+    operational_transparency: 63.2
   previous_composite: 47.4
   provenance:
     agentic_access: derived
@@ -798,8 +954,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/screenshots/google-campaign-manager-2026-06-20T182032.png
 security:
 - kind: authentication
@@ -821,6 +977,13 @@ tags:
 - Campaign Management
 - Digital Marketing
 - Reporting
+- Ad Serving
+- Ad Trafficking
+- Attribution
+- Conversion Tracking
+- Marketing
+- Media Buying
+- Google Marketing Platform
 use_cases:
 - description: Automate the creation and configuration of advertising campaigns, ads, and placements across publisher inventory.
   name: Programmatic Campaign Setup
@@ -830,5 +993,5 @@ use_cases:
   name: Cross-Channel Attribution
 - description: Streamline trafficking workflows including placement creation, tag generation, and creative assignment.
   name: Ad Operations Automation
-website: https://developers.google.com/
+website: https://developers.google.com/doubleclick-advertisers
 ---

@@ -5,7 +5,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -14,12 +14,19 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-12'
+  score: 64.9
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 54
+  human_in_the_loop: 0
+  name: Chili Piper Agentic Access
+  operation_count: 73
+  slug: chili-piper-agentic-access
+  summary_line: 73 operations · 54 acting
 api_count: 16
 apis:
 - description: Official hosted remote MCP server for Chili Piper, served over streamable HTTP at https://fire.chilipiper.com/api/fire-edge/v1/org/mcp. Supports OAuth (Admin, browser-based) and API-key bearer authent
@@ -70,12 +77,65 @@ apis:
 - description: The workspace API from Chili Piper — 4 operation(s) for workspace.
   name: Chili Piper Workspace API
   slug: chili-piper-workspace-api
-artifact_total: 23
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Chili Piper Webhooks
   slug: chili-piper-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chili Piper — Inspector Actions Availability API
+  slug: open-chili-piper-availability-api
+- collection_type: open
+  name: Chili Piper — Conversation Inspector Actions Chat API
+  slug: open-chili-piper-chat-api
+- collection_type: open
+  name: Chili Piper Concierge API
+  slug: open-chili-piper-concierge-api
+- collection_type: open
+  name: Chili Piper Distribution API
+  slug: open-chili-piper-distribution-api
+- collection_type: open
+  name: Chili Piper Distro API
+  slug: open-chili-piper-distro-api
+- collection_type: open
+  name: Chili Piper — Router Configuration Actions Handoff API
+  slug: open-chili-piper-handoff-api
+- collection_type: open
+  name: Chili Piper Meeting Type API
+  slug: open-chili-piper-meeting-type-api
+- collection_type: open
+  name: Chili Piper — Meeting Type Management Actions Meeting Type Reminder API
+  slug: open-chili-piper-meeting-type-reminder-api
+- collection_type: open
+  name: Chili Piper Meetings API
+  slug: open-chili-piper-meetings-api
+- collection_type: open
+  name: Chili Piper Rule API
+  slug: open-chili-piper-rule-api
+- collection_type: open
+  name: Chili Piper Scheduling Links API
+  slug: open-chili-piper-schedulinglinks-api
+- collection_type: open
+  name: Chili Piper Team API
+  slug: open-chili-piper-team-api
+- collection_type: open
+  name: Chili Piper — Concierge Router Builder Actions Tenant API
+  slug: open-chili-piper-tenant-api
+- collection_type: open
+  name: Chili Piper User API
+  slug: open-chili-piper-user-api
+- collection_type: open
+  name: Chili Piper Workspace API
+  slug: open-chili-piper-workspace-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/chili-piper-agentic-access.yml
 - group: other
   title: ''
   type: Overlay
@@ -216,6 +276,14 @@ common:
   title: ''
   type: ToolCrosswalk
   url: mcp/chili-piper-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chili-piper-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/chili-piper-rate-limits.yml
 created: '2026-08-09'
 description: Chili Piper is a demand conversion platform for B2B go-to-market teams, founded in 2016 by Alina and Nicolas Vandenberghe and headquartered in New York. Its products - Concierge, Distro, Handoff, Chat AI, Web Experiences, Re-engagement and ChiliCal - turn inbound website visitors and form submissions into booked meetings by qualifying, enriching, routing and scheduling leads against Salesforce or HubSpot ownership, territory and round-robin distribution logic. For developers, Chili Piper publishes the Edge API (https://fire.chilipiper.com/api/fire-edge), a bearer-token REST surface covering users, workspaces, teams, routing rules, distributions, meetings, meeting types, scheduling links, handoff and Concierge routing; a hosted remote MCP server with 55 documented tools; official Agent Skills and ChatGPT GPT actions published under the Chili-Piper GitHub organization; a Concierge JavaScript embed distributed on npm; and custom webhooks for booked, updated and cancelled meetings.
 image: https://cdn.prod.website-files.com/61c9fe00acd90d7271f7014e/63d787acdbdc86179f01ed1a_Favicon%20(1).png
@@ -224,7 +292,7 @@ mcp_servers:
 - description: ''
   name: chili-piper-mcp.yml
   slug: chili-piper-mcpyml
-modified: '2026-08-09'
+modified: '2026-08-13'
 name: Chili Piper
 nav: Providers
 network: true
@@ -234,19 +302,27 @@ overview: 'Chili Piper publishes 15 APIs on the [APIs.io](https://apis.io/) netw
   The Chili Piper catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chili Piper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 30
+  Chili Piper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Chili Piper Plans Pricing
+  plan_count: 4
+  slug: chili-piper-plans-pricing
+random_paper: 67
+rate_limits:
+- limit_count: 0
+  name: Chili Piper Rate Limits
+  slug: chili-piper-rate-limits
 scopes:
 - name: Chili Piper Scopes
   scope_count: 0
   slug: chili-piper-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 60.2
-  delta: 0.0
+  band: exemplar
+  composite: 66.5
+  delta: 6.3
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 68.9
     developer_ergonomics: 65.2
     discoverability: 92.6
@@ -263,8 +339,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Chili Piper Authentication

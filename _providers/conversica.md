@@ -12,14 +12,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: derived
+    mcp_server: false
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-12'
+  score: 47.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -32,16 +32,16 @@ apis:
 - description: JSON-over-HTTPS integration surface for the Conversica Platform. A customer system posts Lead objects to a single Conversica endpoint using HTTP Basic authentication, and Conversica posts Message obje
   name: Conversica Integrations API
   slug: integrations-api
-artifact_total: 16
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Conversica Webhooks
   slug: conversica-webhooks
+collections:
+- collection_type: open
+  name: Conversica Integrations API
+  slug: open-conversica-integrations-api
 common:
-- group: agent
-  title: ''
-  type: MCPServer
-  url: mcp/conversica-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -150,6 +150,14 @@ common:
   title: ''
   type: Packages
   url: packages/conversica-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/conversica-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/conversica-plans-pricing.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -191,11 +199,7 @@ examples:
   slug: conversica-message-sent
 image: https://cdn.prod.website-files.com/685300c814434f10e21dadd0/687ab25d596cea9ade1ebbc6_logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: conversica-mcp.yml
-  slug: conversica-mcpyml
-modified: '2026-08-01'
+modified: '2026-08-13'
 name: Conversica
 nav: Providers
 network: true
@@ -205,16 +209,24 @@ overview: 'Conversica publishes 1 API on the [APIs.io](https://apis.io/) network
   The Conversica catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Conversica''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, code examples, and 24 more developer resources.'
-random_paper: 109
+  Conversica''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, code examples, and 25 more developer resources.'
+plans:
+- name: Conversica Plans Pricing
+  plan_count: 0
+  slug: conversica-plans-pricing
+random_paper: 26
+rate_limits:
+- limit_count: 0
+  name: Conversica Rate Limits
+  slug: conversica-rate-limits
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 41.8
+  delta: -0.4
   facets:
     commercial_clarity: 50.0
     contract_quality: 25.7
-    developer_ergonomics: 53.8
+    developer_ergonomics: 51.6
     discoverability: 75.9
     governance: 21.9
     operational_transparency: 26.3
@@ -236,7 +248,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/screenshots/conversica-2026-08-07T163802.png
 security:

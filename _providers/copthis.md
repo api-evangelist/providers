@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Order previews, creation, tracking, address updates, and cancellation.
@@ -37,7 +37,17 @@ apis:
 - description: Partner stores (typically one per artist) and their merchandise.
   name: CopThis Stores API
   slug: copthis-stores-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Merchbar Partner Orders API
+  slug: open-copthis-orders-api
+- collection_type: open
+  name: Merchbar Partner Orders Stores API
+  slug: open-copthis-stores-api
 common:
 - group: auth
   title: ''
@@ -119,7 +129,7 @@ overview: 'CopThis publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   CopThis'' developer surface includes documentation, API reference, authentication, and 13 more developer resources.'
-random_paper: 42
+random_paper: 17
 score:
   band: thin
   composite: 31.7
@@ -142,7 +152,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/screenshots/copthis-2026-07-25T210411.png
 security:

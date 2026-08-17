@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -50,7 +50,20 @@ apis:
 - description: The Project API from Newforma — 4 operation(s) for project.
   name: Newforma Project API
   slug: newforma-project-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Newforma Konekt Hub API
+  slug: open-newforma-hub-api
+- collection_type: open
+  name: Newforma Konekt Hub Issue API
+  slug: open-newforma-issue-api
+- collection_type: open
+  name: Newforma Konekt Hub Project API
+  slug: open-newforma-project-api
 common:
 - group: start
   title: ''
@@ -172,7 +185,7 @@ overview: 'Newforma publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Newforma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 23
+random_paper: 118
 scopes:
 - name: Newforma Scopes
   scope_count: 14
@@ -201,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/screenshots/newforma-2026-08-07T185104.png
 security:

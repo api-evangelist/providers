@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Search for products similar to an image
   name: Google Cloud Vision ProductSearch API
   slug: google-cloud-vision-productsearch-api
-artifact_total: 16
+artifact_total: 20
 collections:
 - collection_type: postman
   name: Google Cloud Vision Files API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Google Cloud Vision Files ProductSearch API
   slug: postman-google-cloud-vision-productsearch-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud Vision Files API
+  slug: open-google-cloud-vision-files-api
+- collection_type: open
+  name: Google Cloud Vision Files Images API
+  slug: open-google-cloud-vision-images-api
+- collection_type: open
+  name: Google Cloud Vision Files ProductSearch API
+  slug: open-google-cloud-vision-productsearch-api
 - collection_type: open
   name: Google Cloud Vision API
   slug: open-openapi
@@ -158,7 +170,7 @@ plans:
 - name: Google Cloud Vision Plans Pricing
   plan_count: 3
   slug: google-cloud-vision-plans-pricing
-random_paper: 6
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Google Cloud Vision Rate Limits
@@ -197,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/screenshots/google-cloud-vision-2026-06-20T182154.png
 security:

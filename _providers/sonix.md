@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Translate a completed transcript into another language.
   name: Sonix Translations API
   slug: sonix-translations-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sonix AI Analysis API
+  slug: open-sonix-ai-analysis-api
+- collection_type: open
+  name: Sonix AI Analysis Exports API
+  slug: open-sonix-exports-api
+- collection_type: open
+  name: Sonix AI Analysis Folders API
+  slug: open-sonix-folders-api
+- collection_type: open
+  name: Sonix AI Analysis Media API
+  slug: open-sonix-media-api
+- collection_type: open
+  name: Sonix AI Analysis Transcripts API
+  slug: open-sonix-transcripts-api
+- collection_type: open
+  name: Sonix AI Analysis Translations API
+  slug: open-sonix-translations-api
 - collection_type: open
   name: Sonix API
   slug: open-sonix
@@ -119,7 +140,7 @@ plans:
 - name: Sonix Plans Pricing
   plan_count: 5
   slug: sonix-plans-pricing
-random_paper: 81
+random_paper: 114
 rate_limits:
 - limit_count: 6
   name: Sonix Rate Limits
@@ -144,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

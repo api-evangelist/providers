@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 14
@@ -141,7 +141,113 @@ apis:
 - description: The Users API from Aiven — 31 operation(s) for users.
   name: Aiven Users API
   slug: aiven-users-api
-artifact_total: 57
+artifact_total: 92
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aiven API Documentation Account API
+  slug: open-aiven-account-api
+- collection_type: open
+  name: Aiven API Documentation Account Application_Users API
+  slug: open-aiven-application-users-api
+- collection_type: open
+  name: Aiven API Documentation Account Authentication_Methods API
+  slug: open-aiven-authentication-methods-api
+- collection_type: open
+  name: Aiven API Documentation Account Billing API
+  slug: open-aiven-billing-api
+- collection_type: open
+  name: Aiven API Documentation Account BillingGroup API
+  slug: open-aiven-billinggroup-api
+- collection_type: open
+  name: Aiven API Documentation Account Cloud_platforms API
+  slug: open-aiven-cloud-platforms-api
+- collection_type: open
+  name: Aiven API Documentation Account Custom_Cloud API
+  slug: open-aiven-custom-cloud-api
+- collection_type: open
+  name: Aiven API Documentation Account Domains API
+  slug: open-aiven-domains-api
+- collection_type: open
+  name: Aiven API Documentation Account Groups API
+  slug: open-aiven-groups-api
+- collection_type: open
+  name: Aiven API Documentation Account Organization_Vpc API
+  slug: open-aiven-organization-vpc-api
+- collection_type: open
+  name: Aiven API Documentation Account OrganizationBillingGroup API
+  slug: open-aiven-organizationbillinggroup-api
+- collection_type: open
+  name: Aiven API Documentation Account OrganizationEmissions API
+  slug: open-aiven-organizationemissions-api
+- collection_type: open
+  name: Aiven API Documentation Account OrganizationPaymentMethod API
+  slug: open-aiven-organizationpaymentmethod-api
+- collection_type: open
+  name: Aiven API Documentation Account Organizations API
+  slug: open-aiven-organizations-api
+- collection_type: open
+  name: Aiven API Documentation Account Payment API
+  slug: open-aiven-payment-api
+- collection_type: open
+  name: Aiven API Documentation Account Permissions API
+  slug: open-aiven-permissions-api
+- collection_type: open
+  name: Aiven API Documentation Account Project API
+  slug: open-aiven-project-api
+- collection_type: open
+  name: Aiven API Documentation Account Project_Billing API
+  slug: open-aiven-project-billing-api
+- collection_type: open
+  name: Aiven API Documentation Account Project_Key_Management API
+  slug: open-aiven-project-key-management-api
+- collection_type: open
+  name: Aiven API Documentation Account Secrets API
+  slug: open-aiven-secrets-api
+- collection_type: open
+  name: Aiven API Documentation Account Service API
+  slug: open-aiven-service-api
+- collection_type: open
+  name: Aiven API Documentation Account Service:_ClickHouse API
+  slug: open-aiven-service-clickhouse-api
+- collection_type: open
+  name: Aiven API Documentation Account Service:_Flink API
+  slug: open-aiven-service-flink-api
+- collection_type: open
+  name: Aiven API Documentation Account Service_Integrations API
+  slug: open-aiven-service-integrations-api
+- collection_type: open
+  name: Aiven API Documentation Account Service:_Kafka API
+  slug: open-aiven-service-kafka-api
+- collection_type: open
+  name: Aiven API Documentation Account Service:_Kafka_MirrorMaker API
+  slug: open-aiven-service-kafka-mirrormaker-api
+- collection_type: open
+  name: Aiven API Documentation Account Service:_MySQL API
+  slug: open-aiven-service-mysql-api
+- collection_type: open
+  name: Aiven API Documentation Account Service:_OpenSearch API
+  slug: open-aiven-service-opensearch-api
+- collection_type: open
+  name: Aiven API Documentation Account Service:_PostgreSQL API
+  slug: open-aiven-service-postgresql-api
+- collection_type: open
+  name: Aiven API Documentation Account Service:_Thanos API
+  slug: open-aiven-service-thanos-api
+- collection_type: open
+  name: Aiven API Documentation Account StaticIP API
+  slug: open-aiven-staticip-api
+- collection_type: open
+  name: Aiven API Documentation Account Ticket_[deprecated] API
+  slug: open-aiven-ticket-deprecated-api
+- collection_type: open
+  name: Aiven API Documentation Account Upgrade_pipeline API
+  slug: open-aiven-upgrade-pipeline-api
+- collection_type: open
+  name: Aiven API Documentation Account Users API
+  slug: open-aiven-users-api
 common:
 - group: agent
   title: ''
@@ -293,7 +399,7 @@ plans:
 - name: Aiven Plans Pricing
   plan_count: 7
   slug: aiven-plans-pricing
-random_paper: 51
+random_paper: 84
 rate_limits:
 - limit_count: 0
   name: Aiven Rate Limits
@@ -332,7 +438,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/screenshots/aiven-2026-06-20T171443.png
 security:

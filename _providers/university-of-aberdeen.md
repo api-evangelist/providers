@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Aberdeen University Research Archive (AURA) runs DSpace 8.1 and exposes a public HATEOAS REST API for discovering communities, collections, items, bitstreams, and related metadata in the open-acce
@@ -103,7 +103,7 @@ plans:
 - name: University Of Aberdeen Plans Pricing
   plan_count: 2
   slug: university-of-aberdeen-plans-pricing
-random_paper: 87
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: University Of Aberdeen Rate Limits
@@ -121,7 +121,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 19.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-aberdeen/refs/heads/main/screenshots/university-of-aberdeen-2026-06-20T200131.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: The Plan Design API from Lincoln National — 1 operation(s) for plan design.
   name: Lincoln National Plan Design API
   slug: lincoln-national-plan-design-api
-artifact_total: 9
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lincoln Financial LincSmart APIs Enrollment API
+  slug: open-lincoln-national-enrollment-api
+- collection_type: open
+  name: Lincoln Financial LincSmart APIs Enrollment Eoi API
+  slug: open-lincoln-national-eoi-api
+- collection_type: open
+  name: Lincoln Financial LincSmart APIs Enrollment Plan Design API
+  slug: open-lincoln-national-plan-design-api
 - collection_type: open
   name: Lincoln Financial LincSmart APIs
   slug: open-lincoln-national
@@ -117,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Delaware Market Conduct Examination Report The Lincoln ...
   url: https://insurance.delaware.gov/wp-content/uploads/sites/15/2025/09/LincolnNationalLifeInsuranceCo2024web.pdf
-random_paper: 90
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Lincoln National Rate Limits
@@ -148,7 +160,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png
 security:

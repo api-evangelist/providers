@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Ontario Energy Board's Open Data programme, launched September 2022 under Ontario's Digital and Data Directive (2021) and expanded in October 2023 ("Open Data 2.0") and August 2024. A crawl of bot
@@ -27,7 +27,14 @@ apis:
 - description: The OEB's public regulatory document search, serving every filing, decision, order, licence, code amendment and piece of correspondence in the Board's case record. It runs on Micro Focus / OpenText Co
   name: OEB Regulatory Document Search (RDS)
   slug: oeb-regulatory-document-search
-artifact_total: 9
+artifact_total: 11
+collections:
+- collection_type: open
+  name: OEB Open Data
+  slug: open-ontario-energy-board-open-data
+- collection_type: open
+  name: OEB Regulatory Document Search (RDS)
+  slug: open-ontario-energy-board-rds
 common:
 - group: agent
   title: ''
@@ -173,7 +180,7 @@ overview: 'Ontario Energy Board publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 22 more developer resources.'
-random_paper: 104
+random_paper: 87
 score:
   band: thin
   composite: 37.5
@@ -202,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png
 security:

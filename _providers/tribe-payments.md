@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -73,11 +73,57 @@ apis:
 - description: Payment Services API (v1) for Tribe's Bank Connect / Banking-as-a-Service product, enabling fintechs to embed banking and payment services. Documented in the Tribe developer portal; no downloadable Op
   name: Bank Connect - Payment Services API
   slug: bank-connect-payment-services-api
-artifact_total: 20
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Tribe Payments Webhooks
   slug: tribe-payments-webhooks
+collections:
+- collection_type: open
+  name: Bank Webhooks API
+  slug: open-tribe-payments-obb-bank-api-webhooks
+- collection_type: open
+  name: 'Open Banking: Bank API'
+  slug: open-tribe-payments-obb-bank-api
+- collection_type: open
+  name: Payment Webhooks
+  slug: open-tribe-payments-obb-tpp-api-webhooks
+- collection_type: open
+  name: 'Open Banking: TPP API v2'
+  slug: open-tribe-payments-obb-tpp-api
+- collection_type: open
+  name: Merchant API Credit Card Callback
+  slug: open-tribe-payments-trb-cc-api-merchant-api-credit-card-callback-v3
+- collection_type: open
+  name: Merchant API Credit Card
+  slug: open-tribe-payments-trb-cc-api-merchant-api-credit-card-v3
+- collection_type: open
+  name: Merchant API Credit Card Token
+  slug: open-tribe-payments-trb-cc-token-api-merchant-api-credit-card-token-v3
+- collection_type: open
+  name: Merchant API Credit Card Token Webhook
+  slug: open-tribe-payments-trb-cc-token-api-merchant-api-credit-card-token-webhook-v3
+- collection_type: open
+  name: Merchant API HPP
+  slug: open-tribe-payments-trb-hpp-api-merchant-api-hpp-v3
+- collection_type: open
+  name: Merchant API HPP Webhook
+  slug: open-tribe-payments-trb-hpp-api-merchant-api-hpp-webhook-v3
+- collection_type: open
+  name: Device Directory API
+  slug: open-tribe-payments-trb-isac-pos-tdd-device-api-openapi-device-directory-api-v3
+- collection_type: open
+  name: Merchant API
+  slug: open-tribe-payments-trb-report-api-merchant-api-report-callback-v3
+- collection_type: open
+  name: Merchant API Report
+  slug: open-tribe-payments-trb-report-api-merchant-api-report-v3
+- collection_type: open
+  name: API Collection
+  slug: open-tribe-payments-trb-risk-monitor-client-api-webhooks
+- collection_type: open
+  name: API Collection
+  slug: open-tribe-payments-trb-risk-monitor-client-api
 common:
 - group: agent
   title: ''
@@ -218,7 +264,7 @@ overview: 'Tribe Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Tribe Payments'' developer surface includes authentication, documentation, API reference, changelog, engineering blog, support, getting-started guide, and 23 more developer resources.'
-random_paper: 20
+random_paper: 119
 score:
   band: developing
   composite: 46.7
@@ -248,7 +294,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

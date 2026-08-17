@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Events, Event Sessions (Dates) and registration.
@@ -31,11 +31,24 @@ apis:
 - description: Participation and attendance reporting.
   name: Banzai Reports API
   slug: banzai-reports-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Banzai Demio Events
   slug: banzai-demio-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Demio Events API
+  slug: open-banzai-events-api
+- collection_type: open
+  name: Public Demio Intro API
+  slug: open-banzai-intro-api
+- collection_type: open
+  name: Public Demio Reports API
+  slug: open-banzai-reports-api
 common:
 - group: company
   title: ''
@@ -201,7 +214,7 @@ overview: 'Banzai publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Banzai''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 29
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Banzai Rate Limits
@@ -228,7 +241,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/screenshots/banzai-2026-08-07T162131.png
 security:

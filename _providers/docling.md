@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -91,14 +91,29 @@ apis:
 - description: Task status, results, and streaming.
   name: Docling Tasks API
   slug: docling-tasks-api
-artifact_total: 49
+artifact_total: 54
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Docling CLI as REST Async API
+  slug: open-docling-async-api
 - collection_type: open
   name: Docling CLI as REST
   slug: open-docling-cli
 - collection_type: open
+  name: Docling CLI as REST Async Convert API
+  slug: open-docling-convert-api
+- collection_type: open
   name: Docling Serve REST API
   slug: open-docling-serve
+- collection_type: open
+  name: Docling CLI as REST Async System API
+  slug: open-docling-system-api
+- collection_type: open
+  name: Docling CLI as REST Async Tasks API
+  slug: open-docling-tasks-api
 common:
 - group: auth
   title: ''
@@ -281,7 +296,7 @@ overview: 'Docling publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Docling''s developer surface includes developer portal, documentation, getting-started guide, CLI, release notes, changelog, engineering blog, and 23 more developer resources.'
-random_paper: 16
+random_paper: 140
 rules:
 - name: Docling API Rules
   rule_count: 6
@@ -319,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/screenshots/docling-2026-06-20T180109.png
 slug: docling

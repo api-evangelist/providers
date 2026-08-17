@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -227,11 +227,122 @@ arazzos:
 - description: List recent video views in a timeframe, then fetch the full detail of the first matching view.
   name: Mux Video View Drilldown
   slug: mux-com-video-view-drilldown-workflow
-artifact_total: 116
+artifact_total: 153
 collections:
 - collection_type: postman
   name: Mux API
   slug: postman-mux
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mux Animated Images API
+  slug: open-mux-com-animated-images-api
+- collection_type: open
+  name: Mux Animated Images Annotations API
+  slug: open-mux-com-annotations-api
+- collection_type: open
+  name: Mux Animated Images Ask Questions API
+  slug: open-mux-com-ask-questions-api
+- collection_type: open
+  name: Mux Animated Images Assets API
+  slug: open-mux-com-assets-api
+- collection_type: open
+  name: Mux Animated Images Captions and Transcripts API
+  slug: open-mux-com-captions-and-transcripts-api
+- collection_type: open
+  name: Mux Animated Images Delivery Usage API
+  slug: open-mux-com-delivery-usage-api
+- collection_type: open
+  name: Mux Animated Images Dimensions API
+  slug: open-mux-com-dimensions-api
+- collection_type: open
+  name: Mux Animated Images Direct Uploads API
+  slug: open-mux-com-direct-uploads-api
+- collection_type: open
+  name: Mux Animated Images DRM Configurations API
+  slug: open-mux-com-drm-configurations-api
+- collection_type: open
+  name: Mux Animated Images Edit Captions API
+  slug: open-mux-com-edit-captions-api
+- collection_type: open
+  name: Mux Animated Images Errors API
+  slug: open-mux-com-errors-api
+- collection_type: open
+  name: Mux Animated Images Exports API
+  slug: open-mux-com-exports-api
+- collection_type: open
+  name: Mux Animated Images Filters API
+  slug: open-mux-com-filters-api
+- collection_type: open
+  name: Mux Animated Images Find Key Moments API
+  slug: open-mux-com-find-key-moments-api
+- collection_type: open
+  name: Mux Animated Images Generate Chapters API
+  slug: open-mux-com-generate-chapters-api
+- collection_type: open
+  name: Mux Animated Images Incidents API
+  slug: open-mux-com-incidents-api
+- collection_type: open
+  name: Mux Animated Images Jobs API
+  slug: open-mux-com-jobs-api
+- collection_type: open
+  name: Mux Animated Images Live Streams API
+  slug: open-mux-com-live-streams-api
+- collection_type: open
+  name: Mux Animated Images Metrics API
+  slug: open-mux-com-metrics-api
+- collection_type: open
+  name: Mux Animated Images Moderate API
+  slug: open-mux-com-moderate-api
+- collection_type: open
+  name: Mux Animated Images Monitoring API
+  slug: open-mux-com-monitoring-api
+- collection_type: open
+  name: Mux Animated Images Playback ID API
+  slug: open-mux-com-playback-id-api
+- collection_type: open
+  name: Mux Video Assets Playback IDs API
+  slug: open-mux-com-playback-ids-api
+- collection_type: open
+  name: Mux Animated Images Playback Restrictions API
+  slug: open-mux-com-playback-restrictions-api
+- collection_type: open
+  name: Mux Animated Images Real-Time API
+  slug: open-mux-com-real-time-api
+- collection_type: open
+  name: Mux Animated Images Signing Keys API
+  slug: open-mux-com-signing-keys-api
+- collection_type: open
+  name: Mux Animated Images Storyboards API
+  slug: open-mux-com-storyboards-api
+- collection_type: open
+  name: Mux Animated Images Streaming API
+  slug: open-mux-com-streaming-api
+- collection_type: open
+  name: Mux Animated Images Summarize API
+  slug: open-mux-com-summarize-api
+- collection_type: open
+  name: Mux Animated Images Thumbnails API
+  slug: open-mux-com-thumbnails-api
+- collection_type: open
+  name: Mux Animated Images Transcription Vocabularies API
+  slug: open-mux-com-transcription-vocabularies-api
+- collection_type: open
+  name: Mux Animated Images Translate Captions API
+  slug: open-mux-com-translate-captions-api
+- collection_type: open
+  name: Mux Animated Images URL Signing Keys API
+  slug: open-mux-com-url-signing-keys-api
+- collection_type: open
+  name: Mux Animated Images Utilities API
+  slug: open-mux-com-utilities-api
+- collection_type: open
+  name: Mux Animated Images Video Views API
+  slug: open-mux-com-video-views-api
+- collection_type: open
+  name: Mux Animated Images View and Viewer Counts API
+  slug: open-mux-com-view-and-viewer-counts-api
 - collection_type: open
   name: Mux API
   slug: open-mux
@@ -624,7 +735,7 @@ plans:
 - name: Mux Com Plans Pricing
   plan_count: 11
   slug: mux-com-plans-pricing
-random_paper: 110
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Mux Com Rate Limits
@@ -658,7 +769,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/screenshots/mux-com-2026-08-07T184502.png
 security:

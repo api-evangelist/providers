@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: The Search API from Cronitor — 1 operation(s) for search.
   name: Cronitor Search API
   slug: cronitor-search-api
-artifact_total: 20
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cronitor Groups and Notifications Cronitor Telemetry API API
+  slug: open-cronitor-cronitor-telemetry-api-api
+- collection_type: open
+  name: Cronitor and Notifications Cronitor Telemetry API Groups API
+  slug: open-cronitor-groups-api
+- collection_type: open
+  name: Cronitor Groups and Notifications Cronitor Telemetry API Monitors API
+  slug: open-cronitor-monitors-api
+- collection_type: open
+  name: Cronitor Groups and Cronitor Telemetry API Notifications API
+  slug: open-cronitor-notifications-api
+- collection_type: open
+  name: Cronitor Groups and Notifications Cronitor Telemetry API P API
+  slug: open-cronitor-p-api
+- collection_type: open
+  name: Cronitor Groups and Notifications Cronitor Telemetry API Search API
+  slug: open-cronitor-search-api
 common:
 - group: agent
   title: ''
@@ -187,7 +209,7 @@ plans:
 - name: Cronitor Plans Pricing
   plan_count: 3
   slug: cronitor-plans-pricing
-random_paper: 40
+random_paper: 135
 rate_limits:
 - limit_count: 5
   name: Cronitor Rate Limits
@@ -221,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/screenshots/cronitor-2026-06-20T175236.png
 security:

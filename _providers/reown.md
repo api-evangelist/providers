@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,12 +60,24 @@ apis:
 - description: Logo image assets for listings.
   name: Reown Logos API
   slug: reown-logos-api
-artifact_total: 17
+artifact_total: 21
 asyncapis:
 - description: 'AsyncAPI description of the Reown (formerly WalletConnect) v2 Relay WebSocket protocol. The relay is a JSON-RPC over WebSocket transport that routes end-to-end encrypted messages between paired peers '
   name: Reown / WalletConnect v2 Relay
   slug: reown-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reown Cloud Explorer Chains API
+  slug: open-reown-chains-api
+- collection_type: open
+  name: Reown Cloud Explorer Chains Listings API
+  slug: open-reown-listings-api
+- collection_type: open
+  name: Reown Cloud Explorer Chains Logos API
+  slug: open-reown-logos-api
 - collection_type: open
   name: Reown Cloud Explorer API
   slug: open-reown
@@ -141,7 +153,7 @@ plans:
 - name: Reown Plans Pricing
   plan_count: 3
   slug: reown-plans-pricing
-random_paper: 75
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Reown Rate Limits
@@ -181,7 +193,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/screenshots/reown-2026-06-20T192900.png
 security:

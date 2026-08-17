@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Demandstar is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Demandstar''s developer surface includes developer portal, pricing, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 99
+random_paper: 16
 score:
   band: emerging
   composite: 18.9
@@ -111,7 +111,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandstar/refs/heads/main/screenshots/demandstar-2026-07-25T211708.png
 security:

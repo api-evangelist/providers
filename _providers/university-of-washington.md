@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -125,7 +125,89 @@ apis:
 - description: The Version API from University of Washington — 1 operation(s) for version.
   name: University of Washington Version API
   slug: university-of-washington-version-api
-artifact_total: 43
+artifact_total: 70
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus API
+  slug: open-university-of-washington-campus-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Card API
+  slug: open-university-of-washington-card-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus College API
+  slug: open-university-of-washington-college-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Course API
+  slug: open-university-of-washington-course-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Curriculum API
+  slug: open-university-of-washington-curriculum-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Degree API
+  slug: open-university-of-washington-degree-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus DegreeAudit API
+  slug: open-university-of-washington-degreeaudit-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus DegreeAuditException API
+  slug: open-university-of-washington-degreeauditexception-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus DegreeAuditProgram API
+  slug: open-university-of-washington-degreeauditprogram-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus DegreeAuditStatus API
+  slug: open-university-of-washington-degreeauditstatus-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Department API
+  slug: open-university-of-washington-department-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Enrollment API
+  slug: open-university-of-washington-enrollment-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus EnrollmentMajor API
+  slug: open-university-of-washington-enrollmentmajor-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus MajorStudents API
+  slug: open-university-of-washington-majorstudents-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Notice API
+  slug: open-university-of-washington-notice-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Person API
+  slug: open-university-of-washington-person-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus PersonalFinancial API
+  slug: open-university-of-washington-personalfinancial-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Photo API
+  slug: open-university-of-washington-photo-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Program API
+  slug: open-university-of-washington-program-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Registration API
+  slug: open-university-of-washington-registration-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus ResourceList API
+  slug: open-university-of-washington-resourcelist-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Schedule API
+  slug: open-university-of-washington-schedule-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Section API
+  slug: open-university-of-washington-section-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Term API
+  slug: open-university-of-washington-term-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus TestScore API
+  slug: open-university-of-washington-testscore-api
+- collection_type: open
+  name: IdCard Web Service (IdCardWS) Campus Version API
+  slug: open-university-of-washington-version-api
 common:
 - group: agent
   title: ''
@@ -224,7 +306,7 @@ plans:
 - name: University Of Washington Plans Pricing
   plan_count: 2
   slug: university-of-washington-plans-pricing
-random_paper: 115
+random_paper: 131
 rate_limits:
 - limit_count: 1
   name: University Of Washington Rate Limits
@@ -272,7 +354,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png
 security:

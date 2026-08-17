@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,8 +64,36 @@ apis:
 - description: The Webhooks API from MailerSend — 2 operation(s) for webhooks.
   name: MailerSend Webhooks API
   slug: mailersend-webhooks-api
-artifact_total: 15
+artifact_total: 26
+asyncapis:
+- description: ''
+  name: Mailersend Webhooks
+  slug: mailersend-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MailerSend Bulk Email API
+  slug: open-mailersend-bulk-email-api
+- collection_type: open
+  name: MailerSend Bulk Email Domains API
+  slug: open-mailersend-domains-api
+- collection_type: open
+  name: MailerSend Bulk Email API
+  slug: open-mailersend-email-api
+- collection_type: open
+  name: MailerSend Bulk Email Messages API
+  slug: open-mailersend-messages-api
+- collection_type: open
+  name: MailerSend Bulk Email Sender Identities API
+  slug: open-mailersend-sender-identities-api
+- collection_type: open
+  name: MailerSend Bulk Email Templates API
+  slug: open-mailersend-templates-api
+- collection_type: open
+  name: MailerSend Bulk Email Webhooks API
+  slug: open-mailersend-webhooks-api
 - collection_type: open
   name: MailerSend API
   slug: open-mailersend
@@ -109,42 +138,146 @@ common:
   title: ''
   type: FinOps
   url: finops/mailersend-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.mailersend.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.mailersend.com/api/v1/email
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.mailersend.com/sdk
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.mailersend.com/help
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.mailersend.com/pricing
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.mailersend.com/legal/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.mailersend.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mailersend-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/mailersend-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/mailersend-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mailersend-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/mailersend-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mailersend-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/mailersend-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/mailersend-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mailersend-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mailersend-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/mailersend-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mailersend-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mailersend-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mailersend-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/mailersend-webhooks.yml
 created: '2026-05-08'
-description: MailerSend is a transactional email and SMS platform built for developers, with email API, SMTP relay, templates, and analytics.
+description: MailerSend is a transactional email and SMS platform built for developers. Its v1 REST API covers email sending (single, bulk to 500 objects per request, and scheduled up to 72 hours out), SMTP relay, templates, sending domains and DNS verification, sender identities, recipients and five suppression lists, inbound routing, activity and analytics, email verification, DMARC and blocklist monitoring, SMS, and account/token administration. Authentication is a domain-scoped bearer token drawn from a 30-value scope vocabulary. MailerSend ships six official SDKs, an official Laravel driver, a Go CLI with an interactive TUI, a remote OAuth-protected MCP server exposing 127 tools, and its own published Agent Skill — but no machine-readable API contract and no idempotency guarantee.
 finops:
 - name: Mailersend Finops
   service_category: Email
   slug: mailersend-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mailersend.png
 layout: provider
-modified: '2026-05-08'
+mcp_servers:
+- description: ''
+  name: mailersend-mcp.yml
+  slug: mailersend-mcpyml
+modified: '2026-08-13'
 name: MailerSend
 nav: Providers
 network: true
 overview: 'MailerSend publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bulk Email API, Domains API, Email API, and 4 more. Tagged areas include Email, Transactional Email, SMTP, Marketing, and Communications.
 
 
-  MailerSend''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  The MailerSend catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  MailerSend''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, CLI, and 26 more developer resources.'
 plans:
 - name: Mailersend Plans Pricing
-  plan_count: 1
+  plan_count: 5
   slug: mailersend-plans-pricing
-random_paper: 100
+random_paper: 17
 rate_limits:
-- limit_count: 1
+- limit_count: 5
   name: Mailersend Rate Limits
   slug: mailersend-rate-limits
+scopes:
+- name: Mailersend Scopes
+  scope_count: 30
+  slug: mailersend-scopes
+  summary_line: 30 scopes
 score:
-  band: thin
-  composite: 28.6
-  delta: 0.0
+  band: developing
+  composite: 55.5
+  delta: 26.9
   facets:
-    commercial_clarity: 13.2
-    contract_quality: 56.7
-    developer_ergonomics: 19.6
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 10.5
+    commercial_clarity: 36.8
+    contract_quality: 65.7
+    developer_ergonomics: 78.3
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 36.8
   previous_composite: 28.6
   provenance:
     agentic_access: derived
@@ -153,19 +286,25 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 52.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/screenshots/mailersend-2026-06-20T184858.png
 security:
 - kind: authentication
   name: Mailersend Authentication
   slug: mailersend-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Mailersend Domain Security
   slug: mailersend-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 slug: mailersend
 tags:
 - Email
@@ -173,5 +312,13 @@ tags:
 - SMTP
 - Marketing
 - Communications
+- SMS
+- Messaging
+- Templates
+- Webhooks
+- Email Verification
+- Deliverability
+- Analytics
+- MCP
 website: https://www.mailersend.com/
 ---

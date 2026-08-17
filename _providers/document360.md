@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: The Users API from Document360 — 1 operation(s) for users.
   name: Document360 Users API
   slug: document360-users-api
-artifact_total: 24
+artifact_total: 31
 collections:
 - collection_type: postman
   name: Document360 Articles API
@@ -78,8 +78,29 @@ collections:
   name: Document360 Articles Users API
   slug: postman-document360-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Document360 Articles API
+  slug: open-document360-articles-api
+- collection_type: open
+  name: Document360 Articles Categories API
+  slug: open-document360-categories-api
+- collection_type: open
   name: Document360 API
   slug: open-document360-document360-api
+- collection_type: open
+  name: Document360 Articles Drive API
+  slug: open-document360-drive-api
+- collection_type: open
+  name: Document360 Articles Project Versions API
+  slug: open-document360-project-versions-api
+- collection_type: open
+  name: Document360 Articles Teams API
+  slug: open-document360-teams-api
+- collection_type: open
+  name: Document360 Articles Users API
+  slug: open-document360-users-api
 common:
 - group: build
   title: ''
@@ -172,7 +193,7 @@ plans:
 - name: Document360 Plans Pricing
   plan_count: 3
   slug: document360-plans-pricing
-random_paper: 56
+random_paper: 122
 rate_limits:
 - limit_count: 5
   name: Document360 Rate Limits
@@ -206,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/screenshots/document360-2026-06-20T180118.png
 security:

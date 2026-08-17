@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RESTful API providing programmatic access to BrightLocal local SEO tools including local rank tracking, listings management, citation building, reputation management, and AI-powered insights. Uses API
@@ -112,7 +112,7 @@ plans:
 - name: Brightlocal Plans Pricing
   plan_count: 6
   slug: brightlocal-plans-pricing
-random_paper: 83
+random_paper: 120
 rate_limits:
 - limit_count: 3
   name: Brightlocal Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 30.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightlocal/refs/heads/main/screenshots/brightlocal-2026-06-20T173703.png
 security:

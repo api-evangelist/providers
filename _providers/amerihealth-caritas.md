@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 0
@@ -114,14 +114,86 @@ apis:
 - description: Server-level operations
   name: AmeriHealth Caritas System Level Operations API
   slug: amerihealth-caritas-system-level-operations-api
-artifact_total: 78
+artifact_total: 102
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance API
+  slug: open-amerihealth-caritas-allergyintolerance-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Claim API
+  slug: open-amerihealth-caritas-claim-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Condition API
+  slug: open-amerihealth-caritas-condition-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Coverage API
+  slug: open-amerihealth-caritas-coverage-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Encounter API
+  slug: open-amerihealth-caritas-encounter-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance ExplanationOfBenefit API
+  slug: open-amerihealth-caritas-explanationofbenefit-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance HealthcareService API
+  slug: open-amerihealth-caritas-healthcareservice-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Immunization API
+  slug: open-amerihealth-caritas-immunization-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance InsurancePlan API
+  slug: open-amerihealth-caritas-insuranceplan-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance List API
+  slug: open-amerihealth-caritas-list-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Location API
+  slug: open-amerihealth-caritas-location-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Medication API
+  slug: open-amerihealth-caritas-medication-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance MedicationDispense API
+  slug: open-amerihealth-caritas-medicationdispense-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance MedicationKnowledge API
+  slug: open-amerihealth-caritas-medicationknowledge-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance MedicationRequest API
+  slug: open-amerihealth-caritas-medicationrequest-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Observation API
+  slug: open-amerihealth-caritas-observation-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Organization API
+  slug: open-amerihealth-caritas-organization-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance OrganizationAffiliation API
+  slug: open-amerihealth-caritas-organizationaffiliation-api
 - collection_type: open
   name: AmeriHealth Caritas
   slug: open-amerihealth-caritas-patient-access
 - collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Patient API
+  slug: open-amerihealth-caritas-patient-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Practitioner API
+  slug: open-amerihealth-caritas-practitioner-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance PractitionerRole API
+  slug: open-amerihealth-caritas-practitionerrole-api
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance Procedure API
+  slug: open-amerihealth-caritas-procedure-api
+- collection_type: open
   name: AmeriHealth Caritas
   slug: open-amerihealth-caritas-provider-directory
+- collection_type: open
+  name: AmeriHealth Caritas AllergyIntolerance System Level Operations API
+  slug: open-amerihealth-caritas-system-level-operations-api
 common:
 - group: agent
   title: ''
@@ -325,7 +397,7 @@ plans:
 - name: Amerihealth Caritas Plans Pricing
   plan_count: 4
   slug: amerihealth-caritas-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Amerihealth Caritas Rate Limits
@@ -373,7 +445,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/screenshots/amerihealth-caritas-2026-06-20T171925.png
 security:

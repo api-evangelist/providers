@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -189,8 +189,149 @@ apis:
 - description: The Zero API from EVE Online — 1 operation(s) for zero.
   name: EVE Online Zero API
   slug: eve-online-zero-api
-artifact_total: 111
+artifact_total: 158
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EVE Swagger Interface Alliance agent API
+  slug: open-eve-online-agent-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance API
+  slug: open-eve-online-alliance-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Assets API
+  slug: open-eve-online-assets-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Calendar API
+  slug: open-eve-online-calendar-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Character API
+  slug: open-eve-online-character-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Clones API
+  slug: open-eve-online-clones-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Contacts API
+  slug: open-eve-online-contacts-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Contracts API
+  slug: open-eve-online-contracts-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Corporation API
+  slug: open-eve-online-corporation-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Dogma API
+  slug: open-eve-online-dogma-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance EmptyValueParams API
+  slug: open-eve-online-emptyvalueparams-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Faction Warfare API
+  slug: open-eve-online-faction-warfare-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Fittings API
+  slug: open-eve-online-fittings-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Fleets API
+  slug: open-eve-online-fleets-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Incursions API
+  slug: open-eve-online-incursions-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Industry API
+  slug: open-eve-online-industry-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Insurance API
+  slug: open-eve-online-insurance-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Killmails API
+  slug: open-eve-online-killmails-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Location API
+  slug: open-eve-online-location-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Loyalty API
+  slug: open-eve-online-loyalty-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Mail API
+  slug: open-eve-online-mail-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Market API
+  slug: open-eve-online-market-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance One API
+  slug: open-eve-online-one-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance pet API
+  slug: open-eve-online-pet-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Planetary Interaction API
+  slug: open-eve-online-planetary-interaction-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance RegularParams API
+  slug: open-eve-online-regularparams-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Report API
+  slug: open-eve-online-report-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Routes API
+  slug: open-eve-online-routes-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Search API
+  slug: open-eve-online-search-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance session API
+  slug: open-eve-online-session-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Skills API
+  slug: open-eve-online-skills-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Sovereignty API
+  slug: open-eve-online-sovereignty-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance sql API
+  slug: open-eve-online-sql-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Status API
+  slug: open-eve-online-status-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance store API
+  slug: open-eve-online-store-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Streams API
+  slug: open-eve-online-streams-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Test Api 1 API
+  slug: open-eve-online-test-api-1-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Test Api 2 API
+  slug: open-eve-online-test-api-2-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Test API with Schema API
+  slug: open-eve-online-test-api-with-schema-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Test API
+  slug: open-eve-online-test-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Universe API
+  slug: open-eve-online-universe-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance user API
+  slug: open-eve-online-user-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance User Interface API
+  slug: open-eve-online-user-interface-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Wallet API
+  slug: open-eve-online-wallet-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Wars API
+  slug: open-eve-online-wars-api
+- collection_type: open
+  name: EVE Swagger Interface Alliance Zero API
+  slug: open-eve-online-zero-api
 - collection_type: open
   name: EVE Swagger Interface
   slug: open-eve-online
@@ -550,7 +691,7 @@ overview: 'EVE Online publishes 46 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   EVE Online''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, tooling, and 43 more developer resources.'
-random_paper: 50
+random_paper: 116
 rules:
 - name: EVE Online API Rules
   rule_count: 5
@@ -593,7 +734,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png
 security:

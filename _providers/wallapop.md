@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: A category is a classification for product listings, with specific attributes and constraints that products within the category must adhere to.
@@ -50,11 +50,33 @@ apis:
 - description: Webhooks allow you to receive event notifications.
   name: Wallapop Webhooks API
   slug: wallapop-webhooks-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Wallapop Webhooks Catalog
   slug: wallapop-webhooks-catalog
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Items Connect Categories API
+  slug: open-wallapop-categories-api
+- collection_type: open
+  name: Items Connect Categories Delivery API
+  slug: open-wallapop-delivery-api
+- collection_type: open
+  name: Items Connect Categories Disputes API
+  slug: open-wallapop-disputes-api
+- collection_type: open
+  name: Connect Categories Items API
+  slug: open-wallapop-items-api
+- collection_type: open
+  name: Items Connect Categories Transactions API
+  slug: open-wallapop-transactions-api
+- collection_type: open
+  name: Items Connect Categories Webhooks API
+  slug: open-wallapop-webhooks-api
 common:
 - group: other
   title: ''
@@ -187,7 +209,7 @@ overview: 'Wallapop publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Wallapop''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 21 more developer resources.'
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 3
   name: Wallapop Rate Limits
@@ -219,7 +241,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

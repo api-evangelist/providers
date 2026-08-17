@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Bettermode''s public GraphQL API for reading and writing community data — spaces, posts, members, reactions, tags, and collections — plus app installation and signed webhooks. Single POST endpoint per '
@@ -171,7 +171,7 @@ overview: 'Bettermode publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Bettermode''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, support, and 22 more developer resources.'
-random_paper: 107
+random_paper: 24
 rate_limits:
 - limit_count: 8
   name: Bettermode Rate Limits
@@ -191,7 +191,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bettermode/refs/heads/main/screenshots/bettermode-2026-07-25T202811.png
 security:

@@ -28,14 +28,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Ameriprise Financial is a diversified financial services company providing financial planning, products, and services including wealth management, asset management, insurance, and annuities. The compa
   name: Ameriprise Financial Website
   slug: website
-artifact_total: 24
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Ameriprise Financial API
   slug: open-ameriprise
@@ -142,7 +145,7 @@ press:
 - date: '2026-05-25'
   title: 'AI stocks: Boom or bust? Ameriprise Chief Market Strategist ...'
   url: https://www.instagram.com/reel/DSkc7-Dkgq0/
-random_paper: 11
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Ameriprise Financial Rate Limits
@@ -166,7 +169,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/screenshots/ameriprise-financial-2026-06-20T171926.png
 security:

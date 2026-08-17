@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Self-serve REST API to generate and edit sound effects from video or text. Bearer-token (API key) auth; JSON request/response returning generated audio asset URLs; synchronous and asynchronous (job-po
@@ -140,7 +140,7 @@ overview: 'Mirelo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mirelo''s developer surface includes documentation, API reference, engineering blog, pricing, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 48
+random_paper: 52
 score:
   band: thin
   composite: 30.9
@@ -156,7 +156,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/screenshots/mirelo-2026-08-07T183717.png
 security:

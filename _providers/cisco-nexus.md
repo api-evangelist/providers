@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -87,11 +87,29 @@ apis:
 - description: VLAN bridge domain management using the l2BD managed object class (DN sys/bd/bd-[vlan-id]) and SVI interface configuration using sviIf
   name: Cisco Nexus Dashboard VLANs API
   slug: cisco-nexus-vlans-api
-artifact_total: 165
+artifact_total: 171
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cisco NX-API REST Authentication API
+  slug: open-cisco-nexus-authentication-api
+- collection_type: open
+  name: Cisco NX-API REST Authentication Interfaces API
+  slug: open-cisco-nexus-interfaces-api
 - collection_type: open
   name: Cisco NX-API REST
   slug: open-cisco-nexus-nxapi-rest
+- collection_type: open
+  name: Cisco NX-API REST Authentication Routing API
+  slug: open-cisco-nexus-routing-api
+- collection_type: open
+  name: Cisco NX-API REST Authentication System API
+  slug: open-cisco-nexus-system-api
+- collection_type: open
+  name: Cisco NX-API REST Authentication VLANs API
+  slug: open-cisco-nexus-vlans-api
 common:
 - group: operate
   title: ''
@@ -564,7 +582,7 @@ plans:
 - name: Cisco Nexus Plans Pricing
   plan_count: 1
   slug: cisco-nexus-plans-pricing
-random_paper: 57
+random_paper: 94
 rate_limits:
 - limit_count: 3
   name: Cisco Nexus Rate Limits
@@ -606,7 +624,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/screenshots/cisco-nexus-2026-06-20T174359.png
 security:

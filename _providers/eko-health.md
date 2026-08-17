@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: A live, anonymously reachable Model Context Protocol server published on Eko Health's own www.ekohealth.com host, implementing the Shopify storefront / Universal Commerce Protocol (UCP) shopping servi
@@ -150,7 +150,7 @@ plans:
 - name: Eko Health Plans
   plan_count: 5
   slug: eko-health-plans
-random_paper: 34
+random_paper: 100
 scopes:
 - name: Eko Health Scopes
   scope_count: 4
@@ -179,7 +179,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/screenshots/eko-health-2026-08-07T164805.png
 security:

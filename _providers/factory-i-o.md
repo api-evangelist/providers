@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -50,7 +50,20 @@ apis:
 - description: Operations for listing and querying scene tags
   name: FACTORY I/O Tags API
   slug: factory-i-o-tags-api
-artifact_total: 19
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FACTORY I/O Web Tag Values API
+  slug: open-factory-i-o-tag-values-api
+- collection_type: open
+  name: FACTORY I/O Web Tag Values Tag Values by Name API
+  slug: open-factory-i-o-tag-values-by-name-api
+- collection_type: open
+  name: FACTORY I/O Web Tag Values Tags API
+  slug: open-factory-i-o-tags-api
 common:
 - group: agent
   title: ''
@@ -128,7 +141,7 @@ plans:
 - name: Factory I O Plans Pricing
   plan_count: 3
   slug: factory-i-o-plans-pricing
-random_paper: 106
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Factory I O Rate Limits
@@ -170,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/screenshots/factory-i-o-2026-06-20T181011.png
 security:

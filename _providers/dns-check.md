@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: The DNS Record Monitoring API from DNS Check — 1 operation(s) for dns record monitoring.
   name: DNS Check DNS Record Monitoring API
   slug: dns-check-dns-record-monitoring-api
-artifact_total: 6
+artifact_total: 8
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DNS Check DNS Record Monitoring API
+  slug: open-dns-check-dns-record-monitoring-api
 - collection_type: open
   name: DNS Check API
   slug: open-dns-check
@@ -98,7 +104,7 @@ overview: 'DNS Check publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   DNS Check''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 40
+random_paper: 135
 score:
   band: thin
   composite: 30.4
@@ -119,7 +125,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/screenshots/dns-check-2026-06-20T180058.png
 security:

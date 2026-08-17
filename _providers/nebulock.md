@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -57,7 +57,23 @@ arazzos:
 - description: Validate rule content, create it inactive, then activate it.
   name: Validate and deploy a Nebulock detection rule
   slug: nebulock-validate-and-deploy-rule
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nebulock Public Entities API
+  slug: open-nebulock-entities-api
+- collection_type: open
+  name: Nebulock Public Entities Findings API
+  slug: open-nebulock-findings-api
+- collection_type: open
+  name: Nebulock Public Entities Hunts API
+  slug: open-nebulock-hunts-api
+- collection_type: open
+  name: Nebulock Public Entities Rules API
+  slug: open-nebulock-rules-api
 common:
 - group: docs
   title: ''
@@ -171,7 +187,7 @@ overview: 'Nebulock publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nebulock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 11
+random_paper: 106
 score:
   band: thin
   composite: 35.8
@@ -195,7 +211,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/screenshots/nebulock-2026-08-07T184813.png
 security:

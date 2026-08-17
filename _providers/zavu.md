@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 3
@@ -101,11 +101,78 @@ apis:
 - description: The WhatsApp Sync API from Zavu — 3 operation(s) for whatsapp sync.
   name: Zavu WhatsApp Sync API
   slug: zavu-whatsapp-sync-api
-artifact_total: 27
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Zavu Messaging Webhooks
   slug: zavu-messaging-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC API
+  slug: open-zavu-10dlc-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Account API
+  slug: open-zavu-account-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Agent Flows API
+  slug: open-zavu-agent-flows-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Agent Knowledge Bases API
+  slug: open-zavu-agent-knowledge-bases-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Agent Tools API
+  slug: open-zavu-agent-tools-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Agents API
+  slug: open-zavu-agents-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Balance API
+  slug: open-zavu-balance-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Broadcasts API
+  slug: open-zavu-broadcasts-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Contacts API
+  slug: open-zavu-contacts-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Functions API
+  slug: open-zavu-functions-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Introspect API
+  slug: open-zavu-introspect-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Invitations API
+  slug: open-zavu-invitations-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Messages API
+  slug: open-zavu-messages-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Phone Numbers API
+  slug: open-zavu-phone-numbers-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Regulatory API
+  slug: open-zavu-regulatory-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Senders API
+  slug: open-zavu-senders-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Sub-Accounts API
+  slug: open-zavu-sub-accounts-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC Templates API
+  slug: open-zavu-templates-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC URL Verification API
+  slug: open-zavu-url-verification-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC WhatsApp Alternative API
+  slug: open-zavu-whatsapp-alternative-api
+- collection_type: open
+  name: Zavu Unified Messaging Layer 10DLC WhatsApp Sync API
+  slug: open-zavu-whatsapp-sync-api
 common:
 - group: company
   title: ''
@@ -254,7 +321,7 @@ overview: 'Zavu publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zavu''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 94
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Zavu Rate Limits
@@ -288,7 +355,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

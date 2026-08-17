@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'Ansa Biotechnologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   Ansa Biotechnologies'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 22
+random_paper: 125
 score:
   band: emerging
   composite: 13.5
@@ -97,7 +97,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansa-biotechnologies/refs/heads/main/screenshots/ansa-biotechnologies-2026-08-07T161422.png
 security:

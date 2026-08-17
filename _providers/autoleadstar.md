@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
@@ -45,7 +45,32 @@ apis:
 - description: Operations related to tasks
   name: AutoLeadStar Tasks API
   slug: autoleadstar-tasks-api
-artifact_total: 14
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Autoleadstar Activities API
+  slug: open-autoleadstar-activities-api
+- collection_type: open
+  name: Autoleadstar Appointments API
+  slug: open-autoleadstar-appointments-api
+- collection_type: open
+  name: Autoleadstar Audiences API
+  slug: open-autoleadstar-audiences-api
+- collection_type: open
+  name: Autoleadstar Consents API
+  slug: open-autoleadstar-consents-api
+- collection_type: open
+  name: Autoleadstar Leads API
+  slug: open-autoleadstar-leads-api
+- collection_type: open
+  name: Autoleadstar Shoppers API
+  slug: open-autoleadstar-shoppers-api
+- collection_type: open
+  name: Autoleadstar Tasks API
+  slug: open-autoleadstar-tasks-api
 common:
 - group: other
   title: ''
@@ -135,6 +160,14 @@ common:
   title: ''
   type: Conventions
   url: conventions/autoleadstar-conventions.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/autoleadstar-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/autoleadstar-plans-pricing.yml
 - group: design
   title: ''
   type: Lifecycle
@@ -156,15 +189,19 @@ mcp_servers:
 - description: ''
   name: autoleadstar-mcp.yml
   slug: autoleadstar-mcpyml
-modified: '2026-08-06'
+modified: '2026-08-14'
 name: AutoLeadStar
 nav: Providers
 network: true
 overview: 'AutoLeadStar publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Appointments API, Audiences API, and 4 more. Tagged areas include Company, Automotive, Customer Data Platform, Marketing Automation, and Dealerships.
 
 
-  AutoLeadStar''s developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
-random_paper: 89
+  AutoLeadStar''s developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, and 21 more developer resources.'
+plans:
+- name: Autoleadstar Plans Pricing
+  plan_count: 0
+  slug: autoleadstar-plans-pricing
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: Autoleadstar Rate Limits
@@ -191,7 +228,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/screenshots/autoleadstar-2026-08-07T161958.png
 security:

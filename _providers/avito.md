@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 2
@@ -192,7 +192,164 @@ apis:
 - description: The XDelivery API from Avito — 7 operation(s) for xdelivery.
   name: Avito XDelivery API
   slug: avito-xdelivery-api
-artifact_total: 57
+artifact_total: 109
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Иерархия Аккаунтов Access API
+  slug: open-avito-access-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Ads API
+  slug: open-avito-ads-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access ApplicationAccess API
+  slug: open-avito-applicationaccess-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Auction API
+  slug: open-avito-auction-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Authorization API
+  slug: open-avito-authorization-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Autoload API
+  slug: open-avito-autoload-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Autostrategy API
+  slug: open-avito-autostrategy-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access balance API
+  slug: open-avito-balance-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Call API
+  slug: open-avito-call-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Calltracking API
+  slug: open-avito-calltracking-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Chat API
+  slug: open-avito-chat-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access CheckAhUserV1 API
+  slug: open-avito-checkahuserv1-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access CheckAhUserV2 API
+  slug: open-avito-checkahuserv2-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Core API
+  slug: open-avito-core-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Cpa API
+  slug: open-avito-cpa-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Cpxpromo API
+  slug: open-avito-cpxpromo-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access DeliverySandbox API
+  slug: open-avito-deliverysandbox-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access DeliveryTariffication API
+  slug: open-avito-deliverytariffication-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Evaluation API
+  slug: open-avito-evaluation-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access GetAhInfoV1 API
+  slug: open-avito-getahinfov1-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access GetEmployeesV1 API
+  slug: open-avito-getemployeesv1-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access invite API
+  slug: open-avito-invite-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Item API
+  slug: open-avito-item-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Job API
+  slug: open-avito-job-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access LinkItemsV1 API
+  slug: open-avito-linkitemsv1-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access ListCompanyPhonesV1 API
+  slug: open-avito-listcompanyphonesv1-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access ListItemsByEmployeeIdV1 API
+  slug: open-avito-listitemsbyemployeeidv1-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Messenger API
+  slug: open-avito-messenger-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access OfflineMonitoring API
+  slug: open-avito-offlinemonitoring-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Order Management API
+  slug: open-avito-order-management-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access ParcelProcessing API
+  slug: open-avito-parcelprocessing-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access profile API
+  slug: open-avito-profile-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Promotion API
+  slug: open-avito-promotion-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Promotion_BBIP API
+  slug: open-avito-promotion-bbip-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Ratings API
+  slug: open-avito-ratings-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Realty API
+  slug: open-avito-realty-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access ReferenceData API
+  slug: open-avito-referencedata-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Report API
+  slug: open-avito-report-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access RisksAssessment API
+  slug: open-avito-risksassessment-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Signal API
+  slug: open-avito-signal-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access SpecialOffers API
+  slug: open-avito-specialoffers-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access statistics API
+  slug: open-avito-statistics-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Stock Management API
+  slug: open-avito-stock-management-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access targeting API
+  slug: open-avito-targeting-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Tariff API
+  slug: open-avito-tariff-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Teaser API
+  slug: open-avito-teaser-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access TerminalManagement API
+  slug: open-avito-terminalmanagement-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access transactions API
+  slug: open-avito-transactions-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access Trx Promo API
+  slug: open-avito-trx-promo-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access User API
+  slug: open-avito-user-api
+- collection_type: open
+  name: Иерархия Аккаунтов Access XDelivery API
+  slug: open-avito-xdelivery-api
 common:
 - group: auth
   title: ''
@@ -434,7 +591,7 @@ overview: 'Avito publishes 51 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Avito''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, signup flow, and 49 more developer resources.'
-random_paper: 67
+random_paper: 100
 rate_limits:
 - limit_count: 1
   name: Avito Rate Limits
@@ -467,7 +624,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png
 security:

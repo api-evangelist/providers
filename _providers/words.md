@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Words API Lookup a Word and Retrieve Its Full Lexical Entry.
   name: Words API Word API
   slug: words-word-api
-artifact_total: 154
+artifact_total: 164
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Words Categories API
+  slug: open-words-categories-api
+- collection_type: open
+  name: Words Categories Definitions API
+  slug: open-words-definitions-api
+- collection_type: open
+  name: Words Categories Examples API
+  slug: open-words-examples-api
+- collection_type: open
+  name: Words Categories Frequency API
+  slug: open-words-frequency-api
+- collection_type: open
+  name: Words Categories Hierarchy API
+  slug: open-words-hierarchy-api
+- collection_type: open
+  name: Words Categories Phonetics API
+  slug: open-words-phonetics-api
+- collection_type: open
+  name: Words Categories Search API
+  slug: open-words-search-api
+- collection_type: open
+  name: Words Categories Thesaurus API
+  slug: open-words-thesaurus-api
+- collection_type: open
+  name: Words Categories Word API
+  slug: open-words-word-api
 - collection_type: open
   name: Words API
   slug: open-words
@@ -533,7 +563,7 @@ plans:
 - name: Words Plans Pricing
   plan_count: 5
   slug: words-plans-pricing
-random_paper: 79
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Words Rate Limits
@@ -575,7 +605,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/screenshots/words-2026-06-20T201547.png
 security:

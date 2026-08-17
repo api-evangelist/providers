@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Check whether a destination URL can be monetized by Sovrn Commerce, get its estimated earnings per click, and receive the optimized affiliate URL to use in its place. Supports a geo override for affil
@@ -64,7 +64,35 @@ apis:
 - description: Hosted, beta Model Context Protocol server exposing Sovrn Commerce affiliate data, campaigns and products to AI clients — twelve tools covering price search, link checking, product recommendations and
   name: Sovrn Commerce MCP Server
   slug: sovrn-commerce-mcp-server
-artifact_total: 17
+artifact_total: 26
+collections:
+- collection_type: open
+  name: Sovrn Advertising Performance Reporting API
+  slug: open-sovrn-advertising-reporting
+- collection_type: open
+  name: Sovrn Commerce Bid Check API
+  slug: open-sovrn-commerce-bid-check
+- collection_type: open
+  name: Sovrn Commerce Campaigns API
+  slug: open-sovrn-commerce-campaigns
+- collection_type: open
+  name: Sovrn Commerce Link Check API
+  slug: open-sovrn-commerce-link-check
+- collection_type: open
+  name: Sovrn Commerce Real-Time Reports API
+  slug: open-sovrn-commerce-reports
+- collection_type: open
+  name: Sovrn Commerce Merchant Group Summaries API
+  slug: open-sovrn-merchant-summaries
+- collection_type: open
+  name: Sovrn Commerce Price Comparisons (Product Affiliate) API
+  slug: open-sovrn-price-comparisons
+- collection_type: open
+  name: Sovrn Commerce Product Promo Codes API
+  slug: open-sovrn-product-coupons
+- collection_type: open
+  name: Sovrn Commerce Product Recommendation API
+  slug: open-sovrn-product-recommendations
 common:
 - group: company
   title: ''
@@ -214,7 +242,7 @@ plans:
 - name: Sovrn Plans Pricing
   plan_count: 0
   slug: sovrn-plans-pricing
-random_paper: 88
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Sovrn Rate Limits
@@ -222,7 +250,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.3
-  delta: 37.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 52.6
@@ -230,10 +258,10 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 16.2
+  previous_composite: 53.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Sovrn Authentication

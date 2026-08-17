@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,41 @@ apis:
 - description: Topic terms in the post_tag taxonomy.
   name: Accelsius Tags API
   slug: accelsius-tags-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Accelsius Taxonomy Categories API
+  slug: open-accelsius-categories-api
+- collection_type: open
+  name: Accelsius Resources Content API
+  slug: open-accelsius-content-api
+- collection_type: open
+  name: Accelsius Discovery API
+  slug: open-accelsius-discovery-api
+- collection_type: open
+  name: Accelsius Media API
+  slug: open-accelsius-media-api
+- collection_type: open
+  name: Accelsius Taxonomy Media Folders API
+  slug: open-accelsius-media-folders-api
+- collection_type: open
+  name: Accelsius News API
+  slug: open-accelsius-news-api
+- collection_type: open
+  name: Accelsius Pages API
+  slug: open-accelsius-pages-api
+- collection_type: open
+  name: Accelsius Taxonomy Registry API
+  slug: open-accelsius-registry-api
+- collection_type: open
+  name: Accelsius Search API
+  slug: open-accelsius-search-api
+- collection_type: open
+  name: Accelsius Taxonomy Tags API
+  slug: open-accelsius-tags-api
 common:
 - group: agent
   title: ''
@@ -193,7 +227,7 @@ overview: 'Accelsius publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Accelsius'' developer surface includes authentication, support, FAQ, engineering blog, code examples, and 24 more developer resources.'
-random_paper: 116
+random_paper: 62
 score:
   band: thin
   composite: 30.9
@@ -217,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/screenshots/accelsius-2026-08-07T160754.png
 security:

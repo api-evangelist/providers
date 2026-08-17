@@ -28,10 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 5
+artifact_total: 6
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Constellation Energy API
   slug: open-constellation-energy
@@ -104,7 +107,7 @@ plans:
 - name: Constellation Energy Plans Pricing
   plan_count: 1
   slug: constellation-energy-plans-pricing
-random_paper: 62
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Constellation Energy Rate Limits
@@ -128,7 +131,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-energy/refs/heads/main/screenshots/constellation-energy-2026-06-20T174911.png
 security:

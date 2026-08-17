@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -75,7 +75,47 @@ apis:
 - description: The Webhooks API from Xata — 2 operation(s) for webhooks.
   name: Xata Webhooks API
   slug: xata-webhooks-api
-artifact_total: 39
+artifact_total: 52
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xata API Keys API
+  slug: open-xata-api-keys-api
+- collection_type: open
+  name: Xata API Keys Billing API
+  slug: open-xata-billing-api
+- collection_type: open
+  name: Xata API Keys Branches API
+  slug: open-xata-branches-api
+- collection_type: open
+  name: Xata API Keys Gateway API
+  slug: open-xata-gateway-api
+- collection_type: open
+  name: Xata API Keys GitHub App API
+  slug: open-xata-github-app-api
+- collection_type: open
+  name: Xata API Keys Logs API
+  slug: open-xata-logs-api
+- collection_type: open
+  name: Xata API Keys Marketplace API
+  slug: open-xata-marketplace-api
+- collection_type: open
+  name: Xata API Keys Metrics API
+  slug: open-xata-metrics-api
+- collection_type: open
+  name: Xata API Keys Organizations API
+  slug: open-xata-organizations-api
+- collection_type: open
+  name: Xata API Keys Projects API
+  slug: open-xata-projects-api
+- collection_type: open
+  name: Xata API Keys Projects Webhooks API
+  slug: open-xata-projects-webhooks-api
+- collection_type: open
+  name: Xata API Keys Webhooks API
+  slug: open-xata-webhooks-api
 common:
 - group: agent
   title: ''
@@ -227,7 +267,7 @@ plans:
 - name: Xata Plans Pricing
   plan_count: 4
   slug: xata-plans-pricing
-random_paper: 70
+random_paper: 132
 rate_limits:
 - limit_count: 3
   name: Xata Rate Limits
@@ -266,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/screenshots/xata-2026-06-20T201708.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -186,7 +186,152 @@ apis:
 - description: Endpoints for the Endpoints for the vocabularies.
   name: RWTH Aachen University Vocabulary API
   slug: rwth-aachen-university-vocabulary-api
-artifact_total: 66
+artifact_total: 114
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coscine Web Admin API
+  slug: open-rwth-aachen-university-admin-api
+- collection_type: open
+  name: Coscine Web Admin ApplicationProfile API
+  slug: open-rwth-aachen-university-applicationprofile-api
+- collection_type: open
+  name: Coscine Web Admin Blob API
+  slug: open-rwth-aachen-university-blob-api
+- collection_type: open
+  name: Coscine Web Admin DataHamsterReport API
+  slug: open-rwth-aachen-university-datahamsterreport-api
+- collection_type: open
+  name: Coscine Web Admin Discipline API
+  slug: open-rwth-aachen-university-discipline-api
+- collection_type: open
+  name: Coscine Web Admin Graph API
+  slug: open-rwth-aachen-university-graph-api
+- collection_type: open
+  name: Coscine Web Admin GraphMetadata API
+  slug: open-rwth-aachen-university-graphmetadata-api
+- collection_type: open
+  name: Coscine Web Admin GraphMetadataContent API
+  slug: open-rwth-aachen-university-graphmetadatacontent-api
+- collection_type: open
+  name: Coscine Web Admin Handle API
+  slug: open-rwth-aachen-university-handle-api
+- collection_type: open
+  name: Coscine Web Admin Language API
+  slug: open-rwth-aachen-university-language-api
+- collection_type: open
+  name: Coscine Web Admin License API
+  slug: open-rwth-aachen-university-license-api
+- collection_type: open
+  name: Coscine Web Admin Maintenance API
+  slug: open-rwth-aachen-university-maintenance-api
+- collection_type: open
+  name: Coscine Web Admin Notification API
+  slug: open-rwth-aachen-university-notification-api
+- collection_type: open
+  name: Coscine Web Admin Organization API
+  slug: open-rwth-aachen-university-organization-api
+- collection_type: open
+  name: Coscine Web Admin Pid API
+  slug: open-rwth-aachen-university-pid-api
+- collection_type: open
+  name: Coscine Web Admin Project API
+  slug: open-rwth-aachen-university-project-api
+- collection_type: open
+  name: Coscine Web Admin ProjectGraphContent API
+  slug: open-rwth-aachen-university-projectgraphcontent-api
+- collection_type: open
+  name: Coscine Web Admin ProjectInvitation API
+  slug: open-rwth-aachen-university-projectinvitation-api
+- collection_type: open
+  name: Coscine Web Admin ProjectMember API
+  slug: open-rwth-aachen-university-projectmember-api
+- collection_type: open
+  name: Coscine Web Admin ProjectPublicationRequest API
+  slug: open-rwth-aachen-university-projectpublicationrequest-api
+- collection_type: open
+  name: Coscine Web Admin ProjectQuota API
+  slug: open-rwth-aachen-university-projectquota-api
+- collection_type: open
+  name: Coscine Web Admin ProjectResource API
+  slug: open-rwth-aachen-university-projectresource-api
+- collection_type: open
+  name: Coscine Web Admin ProjectResourceQuota API
+  slug: open-rwth-aachen-university-projectresourcequota-api
+- collection_type: open
+  name: Coscine Web Admin ProjectResourceType API
+  slug: open-rwth-aachen-university-projectresourcetype-api
+- collection_type: open
+  name: Coscine Web Admin ProjectSubProjects API
+  slug: open-rwth-aachen-university-projectsubprojects-api
+- collection_type: open
+  name: Coscine Web Admin Provenance API
+  slug: open-rwth-aachen-university-provenance-api
+- collection_type: open
+  name: Coscine Web Admin PublicationAdvisoryService API
+  slug: open-rwth-aachen-university-publicationadvisoryservice-api
+- collection_type: open
+  name: Coscine Web Admin Report API
+  slug: open-rwth-aachen-university-report-api
+- collection_type: open
+  name: Coscine Web Admin Resource API
+  slug: open-rwth-aachen-university-resource-api
+- collection_type: open
+  name: Coscine Web Admin ResourceGraphContent API
+  slug: open-rwth-aachen-university-resourcegraphcontent-api
+- collection_type: open
+  name: Coscine Web Admin ResourceType API
+  slug: open-rwth-aachen-university-resourcetype-api
+- collection_type: open
+  name: Coscine Web Admin ResourceTypeGitLab API
+  slug: open-rwth-aachen-university-resourcetypegitlab-api
+- collection_type: open
+  name: Coscine Web Admin Role API
+  slug: open-rwth-aachen-university-role-api
+- collection_type: open
+  name: Coscine Web Admin Search API
+  slug: open-rwth-aachen-university-search-api
+- collection_type: open
+  name: Coscine Web Admin Self API
+  slug: open-rwth-aachen-university-self-api
+- collection_type: open
+  name: Coscine Web Admin SelfApiToken API
+  slug: open-rwth-aachen-university-selfapitoken-api
+- collection_type: open
+  name: Coscine Web Admin SelfSession API
+  slug: open-rwth-aachen-university-selfsession-api
+- collection_type: open
+  name: Coscine Web Admin Storage API
+  slug: open-rwth-aachen-university-storage-api
+- collection_type: open
+  name: Coscine Web Admin StorageContent API
+  slug: open-rwth-aachen-university-storagecontent-api
+- collection_type: open
+  name: Coscine Web Admin SystemStatus API
+  slug: open-rwth-aachen-university-systemstatus-api
+- collection_type: open
+  name: Coscine Web Admin Title API
+  slug: open-rwth-aachen-university-title-api
+- collection_type: open
+  name: Coscine Web Admin Tos API
+  slug: open-rwth-aachen-university-tos-api
+- collection_type: open
+  name: Coscine Web Admin Tree API
+  slug: open-rwth-aachen-university-tree-api
+- collection_type: open
+  name: Coscine Web Admin User API
+  slug: open-rwth-aachen-university-user-api
+- collection_type: open
+  name: Coscine Web Admin UserNotificationOptOut API
+  slug: open-rwth-aachen-university-usernotificationoptout-api
+- collection_type: open
+  name: Coscine Web Admin Visibility API
+  slug: open-rwth-aachen-university-visibility-api
+- collection_type: open
+  name: Coscine Web Admin Vocabulary API
+  slug: open-rwth-aachen-university-vocabulary-api
 common:
 - group: agent
   title: ''
@@ -288,7 +433,7 @@ plans:
 - name: Rwth Aachen University Plans Pricing
   plan_count: 2
   slug: rwth-aachen-university-plans-pricing
-random_paper: 113
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Rwth Aachen University Rate Limits
@@ -330,7 +475,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/screenshots/rwth-aachen-university-2026-06-20T193306.png
 security:

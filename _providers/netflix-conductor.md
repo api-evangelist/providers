@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -50,11 +50,26 @@ apis:
 - description: The Workflow API from Netflix Conductor — 9 operation(s) for workflow.
   name: Netflix Conductor Workflow API
   slug: netflix-conductor-workflow-api
-artifact_total: 10
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Netflix Conductor REST API
   slug: open-conductor-api
+- collection_type: open
+  name: Netflix Conductor REST Events API
+  slug: open-netflix-conductor-events-api
+- collection_type: open
+  name: Netflix Conductor REST Events Metadata API
+  slug: open-netflix-conductor-metadata-api
+- collection_type: open
+  name: Netflix Conductor REST Events Tasks API
+  slug: open-netflix-conductor-tasks-api
+- collection_type: open
+  name: Netflix Conductor REST Events Workflow API
+  slug: open-netflix-conductor-workflow-api
 common:
 - group: agent
   title: ''
@@ -104,7 +119,7 @@ plans:
 - name: Netflix Conductor Plans Pricing
   plan_count: 3
   slug: netflix-conductor-plans-pricing
-random_paper: 104
+random_paper: 145
 rate_limits:
 - limit_count: 5
   name: Netflix Conductor Rate Limits
@@ -129,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/screenshots/netflix-conductor-2026-06-20T190151.png
 security:

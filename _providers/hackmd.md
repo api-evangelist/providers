@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Operations related to user's note history.
@@ -55,7 +55,35 @@ apis:
 - description: Operations related to a user's personal notes.
   name: HackMD User Notes API
   slug: hackmd-user-notes-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HackMD Open History API
+  slug: open-hackmd-history-api
+- collection_type: open
+  name: HackMD Open History Profile API
+  slug: open-hackmd-profile-api
+- collection_type: open
+  name: HackMD Open History Team Folders API
+  slug: open-hackmd-team-folders-api
+- collection_type: open
+  name: HackMD Open History Team Notes API
+  slug: open-hackmd-team-notes-api
+- collection_type: open
+  name: HackMD Open History Teams API
+  slug: open-hackmd-teams-api
+- collection_type: open
+  name: HackMD Open History Trash API
+  slug: open-hackmd-trash-api
+- collection_type: open
+  name: HackMD Open History User Folders API
+  slug: open-hackmd-user-folders-api
+- collection_type: open
+  name: HackMD Open History User Notes API
+  slug: open-hackmd-user-notes-api
 common:
 - group: company
   title: ''
@@ -197,7 +225,7 @@ overview: 'HackMD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   HackMD''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Hackmd Rate Limits
@@ -224,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/screenshots/hackmd-2026-07-25T220526.png
 security:

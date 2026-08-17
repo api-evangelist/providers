@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: Create, manage, rate, purchase, and void shipments.
   name: Karrio Shipments API
   slug: karrio-shipments-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Karrio Shipments API
+  slug: open-karrio-shipments-api
 - collection_type: open
   name: Karrio Shipments API
   slug: open-karrio
@@ -103,7 +109,7 @@ plans:
 - name: Karrio Plans Pricing
   plan_count: 3
   slug: karrio-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Karrio Rate Limits
@@ -128,7 +134,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/screenshots/karrio-2026-06-20T183922.png
 security:

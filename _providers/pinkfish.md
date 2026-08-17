@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: Execute published workflows via API and webhook triggers
   name: Pinkfish Triggers API
   slug: pinkfish-triggers-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AI Workflow Runs API
+  slug: open-pinkfish-runs-api
+- collection_type: open
+  name: AI Workflow Runs Triggers API
+  slug: open-pinkfish-triggers-api
 common:
 - group: other
   title: ''
@@ -163,7 +173,7 @@ overview: 'Pinkfish publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pinkfish''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, changelog, authentication, and 18 more developer resources.'
-random_paper: 20
+random_paper: 115
 score:
   band: developing
   composite: 46.4
@@ -187,7 +197,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

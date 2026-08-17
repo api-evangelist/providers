@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -69,8 +69,29 @@ apis:
 - description: The Web API from Microsoft SharePoint — 2 operation(s) for web.
   name: Microsoft SharePoint Web API
   slug: microsoft-sharepoint-web-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SharePoint REST $batch $batch $batch API
+  slug: open-microsoft-sharepoint-batch-api
+- collection_type: open
+  name: SharePoint REST $batch $batch Files API
+  slug: open-microsoft-sharepoint-files-api
+- collection_type: open
+  name: SharePoint REST $batch $batch ListItems API
+  slug: open-microsoft-sharepoint-listitems-api
+- collection_type: open
+  name: SharePoint REST $batch $batch Lists API
+  slug: open-microsoft-sharepoint-lists-api
+- collection_type: open
+  name: SharePoint REST $batch $batch Site API
+  slug: open-microsoft-sharepoint-site-api
+- collection_type: open
+  name: SharePoint REST $batch $batch Web API
+  slug: open-microsoft-sharepoint-web-api
 - collection_type: open
   name: SharePoint REST API
   slug: open-microsoft-sharepoint
@@ -151,7 +172,7 @@ plans:
 - name: Microsoft Sharepoint Plans Pricing
   plan_count: 3
   slug: microsoft-sharepoint-plans-pricing
-random_paper: 72
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Microsoft Sharepoint Rate Limits
@@ -176,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/screenshots/microsoft-sharepoint-2026-06-20T185531.png
 security:

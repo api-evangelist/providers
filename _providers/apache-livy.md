@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Code statement execution within sessions
   name: Apache Livy Statements API
   slug: apache-livy-statements-api
-artifact_total: 64
+artifact_total: 68
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Livy REST Batches API
+  slug: open-apache-livy-batches-api
+- collection_type: open
+  name: Apache Livy REST Batches Sessions API
+  slug: open-apache-livy-sessions-api
+- collection_type: open
+  name: Apache Livy REST Batches Statements API
+  slug: open-apache-livy-statements-api
 common:
 - group: operate
   title: ''
@@ -270,7 +283,7 @@ plans:
 - name: Apache Livy Plans Pricing
   plan_count: 3
   slug: apache-livy-plans-pricing
-random_paper: 27
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Apache Livy Rate Limits
@@ -312,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/screenshots/apache-livy-2026-06-20T172116.png
 security:

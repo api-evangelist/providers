@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The Activity API from Velaris — 4 operation(s) for activity.
@@ -73,7 +73,53 @@ apis:
 - description: The Users API from Velaris — 2 operation(s) for users.
   name: Velaris Users API
   slug: velaris-users-api
-artifact_total: 19
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Velaris Public Activity API
+  slug: open-velaris-activity-api
+- collection_type: open
+  name: Velaris Public Activity Attribute Change Log API
+  slug: open-velaris-attribute-change-log-api
+- collection_type: open
+  name: Velaris Public Activity Currencies API
+  slug: open-velaris-currencies-api
+- collection_type: open
+  name: Velaris Public Activity Custom Objects API
+  slug: open-velaris-custom-objects-api
+- collection_type: open
+  name: Velaris Public Activity Entity Management V1 API
+  slug: open-velaris-entity-management-v1-api
+- collection_type: open
+  name: Velaris Public Activity Entity Management V2 API
+  slug: open-velaris-entity-management-v2-api
+- collection_type: open
+  name: Velaris Public Activity Field Definitions API
+  slug: open-velaris-field-definitions-api
+- collection_type: open
+  name: Velaris Public Activity Integrations API
+  slug: open-velaris-integrations-api
+- collection_type: open
+  name: Velaris Public Activity Lifecycles API
+  slug: open-velaris-lifecycles-api
+- collection_type: open
+  name: Velaris Public Activity Notes API
+  slug: open-velaris-notes-api
+- collection_type: open
+  name: Velaris Public Activity Surveys API
+  slug: open-velaris-surveys-api
+- collection_type: open
+  name: Velaris Public Activity Tasks API
+  slug: open-velaris-tasks-api
+- collection_type: open
+  name: Velaris Public Activity Ticketing API
+  slug: open-velaris-ticketing-api
+- collection_type: open
+  name: Velaris Public Activity Users API
+  slug: open-velaris-users-api
 common:
 - group: company
   title: ''
@@ -199,7 +245,7 @@ overview: 'Velaris publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Velaris'' developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, authentication, and 20 more developer resources.'
-random_paper: 38
+random_paper: 13
 score:
   band: developing
   composite: 49.9
@@ -222,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

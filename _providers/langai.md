@@ -10,11 +10,11 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -23,12 +23,19 @@ agent_readiness:
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-12'
+  score: 55.2
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Langai Agentic Access
+  operation_count: 5
+  slug: langai-agentic-access
+  summary_line: 5 operations · 3 acting
 api_count: 2
 apis:
 - description: Analyze and save documents against a project.
@@ -37,8 +44,22 @@ apis:
 - description: Create and inspect classification projects and their tags.
   name: Lang.ai Projects API
   slug: langai-projects-api
-artifact_total: 7
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lang.ai Documents API
+  slug: open-langai-documents-api
+- collection_type: open
+  name: Lang.ai Documents Projects API
+  slug: open-langai-projects-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/langai-agentic-access.yml
 - group: company
   title: ''
   type: Website
@@ -155,6 +176,34 @@ common:
   title: ''
   type: TrustCenter
   url: security/langai-trust-center.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/langai-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://roadmap.lang.ai/changelog
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://roadmap.lang.ai/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/langai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/langai-rate-limits.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/langai-request-examples.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/langai-packages.yml
 created: '2026-07-17'
 description: 'Lang.ai is a conversation-intelligence platform that turns unstructured customer interactions — support tickets, chatbot messages, emails and calls — into structured intents, features and tags. Its unsupervised algorithm ingests a dataset of customer text, automatically extracts the intents and features it finds, and lets teams group those into tags that form a custom classifier for any language, industry or business case. A small REST API then applies that classifier in real time: create a project from a CSV dataset, list projects and their tags, analyze a document to get back its matched tags and intents, and save documents with arbitrary metadata for dashboard reporting. Lang.ai was founded in Spain, backed by 500 Global, and is now part of Capacity, whose AI support-automation platform absorbed Lang.ai''s conversation intelligence.'
 image: https://docs.lang.ai/images/logo-lang.svg
@@ -163,26 +212,34 @@ mcp_servers:
 - description: ''
   name: langai-mcp.yml
   slug: langai-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Lang.ai
 nav: Providers
 network: true
 overview: 'Lang.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Natural Language Processing, and Conversation Intelligence.
 
 
-  Lang.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 20
+  Lang.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+plans:
+- name: Langai Plans Pricing
+  plan_count: 3
+  slug: langai-plans-pricing
+random_paper: 24
+rate_limits:
+- limit_count: 0
+  name: Langai Rate Limits
+  slug: langai-rate-limits
 score:
-  band: developing
-  composite: 51.1
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: 9.0
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 64.2
     developer_ergonomics: 56.0
     discoverability: 75.9
     governance: 11.5
-    operational_transparency: 21.1
+    operational_transparency: 42.1
   previous_composite: 51.1
   provenance:
     conformance: derived
@@ -194,8 +251,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/screenshots/langai-2026-07-25T224513.png
 security:
 - kind: authentication
@@ -205,7 +262,7 @@ security:
 - kind: domain-security
   name: Langai Domain Security
   slug: langai-domain-security
-  summary_line: TLSv1.2 · HSTS · DMARC
+  summary_line: TLSv1.2 · DMARC
 - kind: vulnerability-disclosure
   name: Langai Vulnerability Disclosure
   slug: langai-vulnerability-disclosure

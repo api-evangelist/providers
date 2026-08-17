@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 214
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
 - description: The Project API from Xero — 7 operation(s) for project.
   name: Xero Project API
   slug: xero-project-api
-artifact_total: 777
+artifact_total: 788
 asyncapis:
 - description: AsyncAPI 2.6 description of Xero's outbound webhook surface for the INVOICE and CONTACT event categories. Xero delivers event notifications by issuing HTTP POST requests with a JSON body to a single s
   name: Xero Webhooks
@@ -107,20 +107,41 @@ collections:
   name: Xero Accounting Project API
   slug: postman-xero-project-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xero Accounting API
+  slug: open-xero-accounting-api
+- collection_type: open
   name: Xero Accounting API
   slug: open-xero-accounting
+- collection_type: open
+  name: Xero Accounting Asset API
+  slug: open-xero-asset-api
 - collection_type: open
   name: Xero Assets API
   slug: open-xero-assets
 - collection_type: open
+  name: Xero Accounting BankFeeds API
+  slug: open-xero-bankfeeds-api
+- collection_type: open
   name: Xero Bank Feeds API
   slug: open-xero-bankfeeds
+- collection_type: open
+  name: Xero Accounting Files API
+  slug: open-xero-files-api
 - collection_type: open
   name: Xero Files API
   slug: open-xero-files
 - collection_type: open
+  name: Xero Accounting Finance API
+  slug: open-xero-finance-api
+- collection_type: open
   name: Xero Finance API
   slug: open-xero-finance
+- collection_type: open
+  name: Xero Accounting Identity API
+  slug: open-xero-identity-api
 - collection_type: open
   name: Xero OAuth 2 Identity Service API
   slug: open-xero-identity
@@ -133,6 +154,18 @@ collections:
 - collection_type: open
   name: Xero Payroll UK
   slug: open-xero-payroll-uk
+- collection_type: open
+  name: Xero Accounting PayrollAu API
+  slug: open-xero-payrollau-api
+- collection_type: open
+  name: Xero Accounting PayrollNz API
+  slug: open-xero-payrollnz-api
+- collection_type: open
+  name: Xero Accounting PayrollUk API
+  slug: open-xero-payrolluk-api
+- collection_type: open
+  name: Xero Accounting Project API
+  slug: open-xero-project-api
 - collection_type: open
   name: Xero Projects API
   slug: open-xero-projects
@@ -2460,7 +2493,7 @@ plans:
 - name: Xero Plans Pricing
   plan_count: 1
   slug: xero-plans-pricing
-random_paper: 86
+random_paper: 148
 rate_limits:
 - limit_count: 1
   name: Xero Rate Limits
@@ -2513,7 +2546,7 @@ score:
     regime_id: banking_open_finance
     score: 46.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/screenshots/xero-2026-06-20T201700.png
 security:

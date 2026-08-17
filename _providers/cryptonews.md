@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: Large on-chain whale transaction tracking
   name: CryptoNews API Whale Transactions API
   slug: cryptonews-whale-transactions-api
-artifact_total: 22
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CryptoNews Account API
+  slug: open-cryptonews-account-api
+- collection_type: open
+  name: CryptoNews Account Categories API
+  slug: open-cryptonews-categories-api
+- collection_type: open
+  name: CryptoNews Account Digest API
+  slug: open-cryptonews-digest-api
+- collection_type: open
+  name: CryptoNews Account News API
+  slug: open-cryptonews-news-api
+- collection_type: open
+  name: CryptoNews Account Prices API
+  slug: open-cryptonews-prices-api
+- collection_type: open
+  name: CryptoNews Account Sentiment & Stats API
+  slug: open-cryptonews-sentiment-stats-api
+- collection_type: open
+  name: CryptoNews Account Trending API
+  slug: open-cryptonews-trending-api
+- collection_type: open
+  name: CryptoNews Account Whale Transactions API
+  slug: open-cryptonews-whale-transactions-api
 common:
 - group: agent
   title: ''
@@ -169,7 +197,7 @@ plans:
 - name: Cryptonews Plans Pricing
   plan_count: 4
   slug: cryptonews-plans-pricing
-random_paper: 38
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Cryptonews Rate Limits
@@ -209,7 +237,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/screenshots/cryptonews-2026-06-20T175312.png
 security:

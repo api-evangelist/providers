@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Restricted REST API for approved partners covering restaurant content, availability, reservations, and CRM. Access is granted through the OpenTable Partner Portal under contractual agreement.
@@ -151,7 +151,7 @@ plans:
 - name: Opentable Plans Pricing
   plan_count: 2
   slug: opentable-plans-pricing
-random_paper: 114
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Opentable Rate Limits
@@ -169,7 +169,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentable/refs/heads/main/screenshots/opentable-2026-06-20T191050.png
 security:

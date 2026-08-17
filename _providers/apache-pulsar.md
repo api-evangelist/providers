@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -62,12 +62,36 @@ apis:
 - description: The Topics API from Apache Pulsar — 4 operation(s) for topics.
   name: Apache Pulsar Topics API
   slug: apache-pulsar-topics-api
-artifact_total: 53
+artifact_total: 61
 asyncapis:
 - description: 'Apache Pulsar is a cloud-native, multi-tenant, high-performance messaging and streaming platform. This spec describes the messaging patterns for producing and consuming messages on Pulsar topics with '
   name: Apache Pulsar Messaging API
   slug: pulsar-messaging
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Pulsar Admin REST Brokers API
+  slug: open-apache-pulsar-brokers-api
+- collection_type: open
+  name: Apache Pulsar Admin REST Brokers Clusters API
+  slug: open-apache-pulsar-clusters-api
+- collection_type: open
+  name: Apache Pulsar Admin REST Brokers Functions API
+  slug: open-apache-pulsar-functions-api
+- collection_type: open
+  name: Apache Pulsar Admin REST Brokers Namespaces API
+  slug: open-apache-pulsar-namespaces-api
+- collection_type: open
+  name: Apache Pulsar Admin REST Brokers Subscriptions API
+  slug: open-apache-pulsar-subscriptions-api
+- collection_type: open
+  name: Apache Pulsar Admin REST Brokers Tenants API
+  slug: open-apache-pulsar-tenants-api
+- collection_type: open
+  name: Apache Pulsar Admin REST Brokers Topics API
+  slug: open-apache-pulsar-topics-api
 - collection_type: open
   name: Apache Pulsar Admin REST API
   slug: open-pulsar-admin
@@ -220,7 +244,7 @@ plans:
 - name: Apache Pulsar Plans Pricing
   plan_count: 3
   slug: apache-pulsar-plans-pricing
-random_paper: 118
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Apache Pulsar Rate Limits
@@ -270,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/screenshots/apache-pulsar-2026-06-20T172138.png
 security:

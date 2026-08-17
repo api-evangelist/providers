@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,8 +50,20 @@ apis:
 - description: Workgroup and organizational unit management
   name: UKG Ready Groups API
   slug: ukg-ready-groups-api
-artifact_total: 9
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UKG Ready Authentication API
+  slug: open-ukg-ready-authentication-api
+- collection_type: open
+  name: UKG Ready Authentication Content API
+  slug: open-ukg-ready-content-api
+- collection_type: open
+  name: UKG Ready Authentication Groups API
+  slug: open-ukg-ready-groups-api
 - collection_type: open
   name: UKG Ready API
   slug: open-ukg-ready
@@ -120,7 +132,7 @@ overview: 'UKG Ready publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   UKG Ready''s developer surface includes authentication, documentation, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 65
+random_paper: 11
 score:
   band: thin
   composite: 34.1
@@ -141,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/screenshots/ukg-ready-2026-06-20T200009.png
 security:

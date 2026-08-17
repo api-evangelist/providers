@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -81,8 +81,53 @@ apis:
 - description: Bookkeeping vouchers and the voucherlist search.
   name: lexoffice Vouchers API
   slug: lexoffice-vouchers-api
-artifact_total: 21
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts API
+  slug: open-lexoffice-contacts-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Credit Notes API
+  slug: open-lexoffice-credit-notes-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Delivery Notes API
+  slug: open-lexoffice-delivery-notes-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Down Payment Invoices API
+  slug: open-lexoffice-down-payment-invoices-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Dunnings API
+  slug: open-lexoffice-dunnings-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Event Subscriptions API
+  slug: open-lexoffice-event-subscriptions-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Files API
+  slug: open-lexoffice-files-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Invoices API
+  slug: open-lexoffice-invoices-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Order Confirmations API
+  slug: open-lexoffice-order-confirmations-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Payments API
+  slug: open-lexoffice-payments-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Profile API
+  slug: open-lexoffice-profile-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Quotations API
+  slug: open-lexoffice-quotations-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Recurring Templates API
+  slug: open-lexoffice-recurring-templates-api
+- collection_type: open
+  name: lexoffice (lexware Office) Public Contacts Vouchers API
+  slug: open-lexoffice-vouchers-api
 - collection_type: open
   name: lexoffice (lexware Office) Public API
   slug: open-lexoffice
@@ -143,7 +188,7 @@ plans:
 - name: Lexoffice Plans Pricing
   plan_count: 4
   slug: lexoffice-plans-pricing
-random_paper: 109
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Lexoffice Rate Limits
@@ -168,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/screenshots/lexoffice-2026-07-25T225004.png
 security:

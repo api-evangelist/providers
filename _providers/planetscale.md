@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -99,15 +99,69 @@ apis:
 - description: Manage webhook configurations for database event notifications.
   name: planetscale Webhooks API
   slug: planetscale-webhooks-api
-artifact_total: 71
+artifact_total: 89
 asyncapis:
 - description: PlanetScale webhooks deliver HTTP POST callbacks to a configured URL when specific events occur within a PlanetScale organization. Webhooks enable real-time notifications for database branch lifecycle
   name: PlanetScale Webhook Events
   slug: planetscale-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PlanetScale Platform Backups API
+  slug: open-planetscale-backups-api
+- collection_type: open
+  name: PlanetScale Platform Backups Billing API
+  slug: open-planetscale-billing-api
+- collection_type: open
+  name: PlanetScale Platform Backups Bouncers API
+  slug: open-planetscale-bouncers-api
+- collection_type: open
+  name: PlanetScale Platform Backups Branches API
+  slug: open-planetscale-branches-api
+- collection_type: open
+  name: PlanetScale Platform Backups Cluster Sizes API
+  slug: open-planetscale-cluster-sizes-api
+- collection_type: open
+  name: PlanetScale Platform Backups Databases API
+  slug: open-planetscale-databases-api
+- collection_type: open
+  name: PlanetScale Platform Backups Deploy Requests API
+  slug: open-planetscale-deploy-requests-api
+- collection_type: open
+  name: PlanetScale Platform Backups IP Restrictions API
+  slug: open-planetscale-ip-restrictions-api
+- collection_type: open
+  name: PlanetScale Platform Backups Organization Members API
+  slug: open-planetscale-organization-members-api
+- collection_type: open
+  name: PlanetScale Platform Backups Organizations API
+  slug: open-planetscale-organizations-api
+- collection_type: open
+  name: PlanetScale Platform Backups Passwords API
+  slug: open-planetscale-passwords-api
+- collection_type: open
   name: PlanetScale Platform API
   slug: open-planetscale-platform-api
+- collection_type: open
+  name: PlanetScale Platform Backups Query Patterns API
+  slug: open-planetscale-query-patterns-api
+- collection_type: open
+  name: PlanetScale Platform Backups Roles API
+  slug: open-planetscale-roles-api
+- collection_type: open
+  name: PlanetScale Platform Backups Schema Recommendations API
+  slug: open-planetscale-schema-recommendations-api
+- collection_type: open
+  name: PlanetScale Platform Backups Service Tokens API
+  slug: open-planetscale-service-tokens-api
+- collection_type: open
+  name: PlanetScale Platform Backups Teams API
+  slug: open-planetscale-teams-api
+- collection_type: open
+  name: PlanetScale Platform Backups Webhooks API
+  slug: open-planetscale-webhooks-api
 common:
 - group: agent
   title: ''
@@ -259,7 +313,7 @@ plans:
 - name: Planetscale Plans Pricing
   plan_count: 5
   slug: planetscale-plans-pricing
-random_paper: 84
+random_paper: 121
 rate_limits:
 - limit_count: 3
   name: Planetscale Rate Limits
@@ -301,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/screenshots/planetscale-2026-06-20T191803.png
 security:

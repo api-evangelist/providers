@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -116,11 +116,93 @@ apis:
 - description: Convert, Deposit, Withdraw, Transfers, and Sub Account Transfer operations.
   name: Coins.ph Wallet API
   slug: coinsph-wallet-api
-artifact_total: 32
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Coinsph Webhooks
   slug: coinsph-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TRADING Account API
+  slug: open-coinsph-account-api
+- collection_type: open
+  name: TRADING Account Account Validation API
+  slug: open-coinsph-account-validation-api
+- collection_type: open
+  name: TRADING Account Checkout API
+  slug: open-coinsph-checkout-api
+- collection_type: open
+  name: TRADING Account Checkout Refund API
+  slug: open-coinsph-checkout-refund-api
+- collection_type: open
+  name: TRADING Account Collections - Crypto API
+  slug: open-coinsph-collections-crypto-api
+- collection_type: open
+  name: TRADING Account Collections - QRPH API
+  slug: open-coinsph-collections-qrph-api
+- collection_type: open
+  name: TRADING Account Convert API
+  slug: open-coinsph-convert-api
+- collection_type: open
+  name: TRADING Account Disbursements API
+  slug: open-coinsph-disbursements-api
+- collection_type: open
+  name: TRADING Account General API
+  slug: open-coinsph-general-api
+- collection_type: open
+  name: TRADING Account Listens API
+  slug: open-coinsph-listens-api
+- collection_type: open
+  name: TRADING Account Markets API
+  slug: open-coinsph-markets-api
+- collection_type: open
+  name: TRADING Account ON/OFF Ramp API
+  slug: open-coinsph-on-off-ramp-api
+- collection_type: open
+  name: TRADING Account Order History API
+  slug: open-coinsph-order-history-api
+- collection_type: open
+  name: TRADING Account Ramp Callback API
+  slug: open-coinsph-ramp-callback-api
+- collection_type: open
+  name: TRADING Account Reconciliation API
+  slug: open-coinsph-reconciliation-api
+- collection_type: open
+  name: TRADING Account Refund API
+  slug: open-coinsph-refund-api
+- collection_type: open
+  name: TRADING Account Scan to Pay API
+  slug: open-coinsph-scan-to-pay-api
+- collection_type: open
+  name: TRADING Account Spot API
+  slug: open-coinsph-spot-api
+- collection_type: open
+  name: TRADING Account Sub Account API
+  slug: open-coinsph-sub-account-api
+- collection_type: open
+  name: TRADING Account Tokenized Checkout API
+  slug: open-coinsph-tokenized-checkout-api
+- collection_type: open
+  name: TRADING Account Trading - Convert API
+  slug: open-coinsph-trading-convert-api
+- collection_type: open
+  name: TRADING Account Trading - OTC API
+  slug: open-coinsph-trading-otc-api
+- collection_type: open
+  name: TRADING Account Transfers API
+  slug: open-coinsph-transfers-api
+- collection_type: open
+  name: TRADING Account Utility API
+  slug: open-coinsph-utility-api
+- collection_type: open
+  name: TRADING Account Virtual Account API
+  slug: open-coinsph-virtual-account-api
+- collection_type: open
+  name: TRADING Account Wallet API
+  slug: open-coinsph-wallet-api
 common:
 - group: start
   title: ''
@@ -273,7 +355,7 @@ overview: 'Coins.ph publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coins.ph''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 36
+random_paper: 11
 score:
   band: developing
   composite: 53.1
@@ -303,7 +385,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/screenshots/coinsph-2026-07-25T210033.png
 security:

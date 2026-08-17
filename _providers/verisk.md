@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Insurance risk scores and rating factors
   name: Verisk Risk Scoring API
   slug: verisk-risk-scoring-api
-artifact_total: 76
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Verisk Insurance Analytics Catastrophe API
@@ -69,8 +69,23 @@ collections:
   name: Verisk Insurance Analytics Catastrophe Risk Scoring API
   slug: postman-verisk-risk-scoring-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Verisk Insurance Analytics Catastrophe API
+  slug: open-verisk-catastrophe-api
+- collection_type: open
+  name: Verisk Insurance Analytics Catastrophe Claims API
+  slug: open-verisk-claims-api
+- collection_type: open
   name: Verisk Insurance Analytics API
   slug: open-verisk-insurance-analytics
+- collection_type: open
+  name: Verisk Insurance Analytics Catastrophe Property API
+  slug: open-verisk-property-api
+- collection_type: open
+  name: Verisk Insurance Analytics Catastrophe Risk Scoring API
+  slug: open-verisk-risk-scoring-api
 common:
 - group: build
   title: ''
@@ -318,7 +333,7 @@ plans:
 - name: Verisk Plans Pricing
   plan_count: 1
   slug: verisk-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Verisk Rate Limits
@@ -366,7 +381,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-06-20T200935.png
 security:

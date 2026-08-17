@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Event subscriptions for real-time notifications.
   name: Lodgify Webhooks API
   slug: lodgify-webhooks-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lodgify Public Availability API
+  slug: open-lodgify-availability-api
+- collection_type: open
+  name: Lodgify Public Availability Bookings API
+  slug: open-lodgify-bookings-api
+- collection_type: open
+  name: Lodgify Public Availability Messaging API
+  slug: open-lodgify-messaging-api
+- collection_type: open
+  name: Lodgify Public Availability Properties API
+  slug: open-lodgify-properties-api
+- collection_type: open
+  name: Lodgify Public Availability Rates & Quotes API
+  slug: open-lodgify-rates-quotes-api
+- collection_type: open
+  name: Lodgify Public Availability Webhooks API
+  slug: open-lodgify-webhooks-api
 - collection_type: open
   name: Lodgify Public API
   slug: open-lodgify
@@ -127,7 +148,7 @@ plans:
 - name: Lodgify Plans Pricing
   plan_count: 4
   slug: lodgify-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Lodgify Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/screenshots/lodgify-2026-07-25T225448.png
 security:

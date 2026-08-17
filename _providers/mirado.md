@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,11 +100,11 @@ plans:
 - name: Mirado Plans Pricing
   plan_count: 0
   slug: mirado-plans-pricing
-random_paper: 36
+random_paper: 40
 score:
   band: minimal
   composite: 11.6
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -112,7 +112,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.0
+  previous_composite: 11.6
   regulatory:
     applies: true
     matched_via: tags
@@ -120,7 +120,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirado/refs/heads/main/screenshots/mirado-2026-08-07T183707.png
 security:

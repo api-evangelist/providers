@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,8 +54,20 @@ apis:
 - description: Schema-generated endpoints that run registered queries against the connected vector database.
   name: Superlinked Query API
   slug: superlinked-query-api
-artifact_total: 13
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Superlinked Server Data Loader API
+  slug: open-superlinked-data-loader-api
+- collection_type: open
+  name: Superlinked Server Data Loader Ingestion API
+  slug: open-superlinked-ingestion-api
+- collection_type: open
+  name: Superlinked Server Data Loader Query API
+  slug: open-superlinked-query-api
 - collection_type: open
   name: Superlinked Server API
   slug: open-superlinked
@@ -100,7 +112,7 @@ plans:
 - name: Superlinked Plans Pricing
   plan_count: 2
   slug: superlinked-plans-pricing
-random_paper: 110
+random_paper: 147
 rate_limits:
 - limit_count: 4
   name: Superlinked Rate Limits
@@ -125,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/screenshots/superlinked-2026-06-20T194718.png
 security:

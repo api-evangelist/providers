@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. Built with TypeScript and inspired by Angular, it provides an out-of-the-box applicat
@@ -135,7 +135,7 @@ plans:
 - name: Nestjs Plans Pricing
   plan_count: 3
   slug: nestjs-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Nestjs Rate Limits
@@ -162,7 +162,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nestjs/refs/heads/main/screenshots/nestjs-2026-06-20T190137.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -90,7 +90,44 @@ apis:
 - description: Manage AXFR zone transfer settings.
   name: Gandi Zone Transfers API
   slug: gandi-zone-transfers-api
-artifact_total: 25
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gandi Domain Authorization API
+  slug: open-gandi-authorization-api
+- collection_type: open
+  name: Gandi Domain Authorization Availability API
+  slug: open-gandi-availability-api
+- collection_type: open
+  name: Gandi Domain Authorization DNSSEC API
+  slug: open-gandi-dnssec-api
+- collection_type: open
+  name: Gandi Domain Authorization Domains API
+  slug: open-gandi-domains-api
+- collection_type: open
+  name: Gandi Domain Authorization Ownership API
+  slug: open-gandi-ownership-api
+- collection_type: open
+  name: Gandi Domain Authorization Records API
+  slug: open-gandi-records-api
+- collection_type: open
+  name: Gandi Domain Authorization Renewal API
+  slug: open-gandi-renewal-api
+- collection_type: open
+  name: Gandi Domain Authorization Trademark API
+  slug: open-gandi-trademark-api
+- collection_type: open
+  name: Gandi Domain Authorization TSIG API
+  slug: open-gandi-tsig-api
+- collection_type: open
+  name: Gandi Domain Authorization Utilities API
+  slug: open-gandi-utilities-api
+- collection_type: open
+  name: Gandi Domain Authorization Zone Transfers API
+  slug: open-gandi-zone-transfers-api
 common:
 - group: agent
   title: ''
@@ -156,7 +193,7 @@ plans:
 - name: Gandi Plans Pricing
   plan_count: 2
   slug: gandi-plans-pricing
-random_paper: 35
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Gandi Rate Limits
@@ -181,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/screenshots/gandi-2026-06-20T181644.png
 security:

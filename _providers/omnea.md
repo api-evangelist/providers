@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Omnea''s documented public REST API for programmatic access to the procurement platform. The reference is served as a client-rendered docs app; the OpenAPI definition is not published at a static path '
@@ -112,7 +112,7 @@ overview: 'Omnea publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Omnea''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 9 more developer resources.'
-random_paper: 48
+random_paper: 81
 score:
   band: emerging
   composite: 25.7
@@ -128,7 +128,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnea/refs/heads/main/screenshots/omnea-2026-08-07T190143.png
 security:

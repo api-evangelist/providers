@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: The Phone API from SEON — 1 operation(s) for phone.
   name: SEON Phone API
   slug: seon-docs-phone-api
-artifact_total: 16
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SEON AML API
+  slug: open-seon-docs-aml-api
+- collection_type: open
+  name: SEON AML BIN API
+  slug: open-seon-docs-bin-api
+- collection_type: open
+  name: SEON AML Email API
+  slug: open-seon-docs-email-api
+- collection_type: open
+  name: SEON AML Fraud API
+  slug: open-seon-docs-fraud-api
+- collection_type: open
+  name: SEON AML IP API
+  slug: open-seon-docs-ip-api
+- collection_type: open
+  name: SEON AML Phone API
+  slug: open-seon-docs-phone-api
 - collection_type: open
   name: SEON API
   slug: open-seon-docs
@@ -133,7 +154,7 @@ plans:
 - name: Seon Docs Plans Pricing
   plan_count: 3
   slug: seon-docs-plans-pricing
-random_paper: 67
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Seon Docs Rate Limits
@@ -158,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seon-docs/refs/heads/main/screenshots/seon-docs-2026-06-20T193713.png
 security:

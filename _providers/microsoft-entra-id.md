@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: User identity management
   name: Microsoft Entra ID Users API
   slug: microsoft-entra-id-users-api
-artifact_total: 16
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Entra ID (Microsoft Graph) REST Applications API
+  slug: open-microsoft-entra-id-applications-api
+- collection_type: open
+  name: Microsoft Entra ID (Microsoft Graph) REST Applications DirectoryRoles API
+  slug: open-microsoft-entra-id-directoryroles-api
+- collection_type: open
+  name: Microsoft Entra ID (Microsoft Graph) REST Applications Groups API
+  slug: open-microsoft-entra-id-groups-api
+- collection_type: open
+  name: Microsoft Entra ID (Microsoft Graph) REST Applications ServicePrincipals API
+  slug: open-microsoft-entra-id-serviceprincipals-api
+- collection_type: open
+  name: Microsoft Entra ID (Microsoft Graph) REST Applications Users API
+  slug: open-microsoft-entra-id-users-api
 - collection_type: open
   name: Microsoft Entra ID (Microsoft Graph) REST API
   slug: open-microsoft-entra-id
@@ -123,7 +141,7 @@ plans:
 - name: Microsoft Entra Id Plans Pricing
   plan_count: 3
   slug: microsoft-entra-id-plans-pricing
-random_paper: 15
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Microsoft Entra Id Rate Limits
@@ -153,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entra-id/refs/heads/main/screenshots/microsoft-entra-id-2026-06-20T185459.png
 security:

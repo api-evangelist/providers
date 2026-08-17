@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Get Stats API from Gender API — 1 operation(s) for get stats.
   name: Gender API Get Stats API
   slug: gender-api-get-stats-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gender Get API
+  slug: open-gender-api-get-api
+- collection_type: open
+  name: Gender Get Get Country Of Origin API
+  slug: open-gender-api-get-country-of-origin-api
+- collection_type: open
+  name: Gender Get Get Stats API
+  slug: open-gender-api-get-stats-api
 - collection_type: open
   name: Gender API
   slug: open-gender-api
@@ -134,7 +146,7 @@ plans:
 - name: Gender Api Plans Pricing
   plan_count: 3
   slug: gender-api-plans-pricing
-random_paper: 28
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Gender Api Rate Limits
@@ -159,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/screenshots/gender-api-2026-06-20T181719.png
 security:

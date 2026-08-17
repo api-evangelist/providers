@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -111,11 +111,87 @@ apis:
 - description: Folder for loyalty
   name: StreamElements users API
   slug: streamelements-users-api
-artifact_total: 30
+artifact_total: 55
 asyncapis:
 - description: StreamElements' dedicated pubsub WebSocket gateway. Subscribe to per-channel topics to receive live stream events (tips, activities, session updates, overlay/chatbot events) the moment they happen. Ca
   name: StreamElements Astro Real-Time Gateway
   slug: streamelements-astro-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SE API Docs activities API
+  slug: open-streamelements-activities-api
+- collection_type: open
+  name: SE API Docs activities bot API
+  slug: open-streamelements-bot-api
+- collection_type: open
+  name: SE API Docs activities channels API
+  slug: open-streamelements-channels-api
+- collection_type: open
+  name: SE API Docs activities chatstats API
+  slug: open-streamelements-chatstats-api
+- collection_type: open
+  name: SE API Docs activities commands API
+  slug: open-streamelements-commands-api
+- collection_type: open
+  name: SE API Docs activities contests API
+  slug: open-streamelements-contests-api
+- collection_type: open
+  name: SE API Docs activities filters API
+  slug: open-streamelements-filters-api
+- collection_type: open
+  name: SE API Docs activities giveaways API
+  slug: open-streamelements-giveaways-api
+- collection_type: open
+  name: SE API Docs activities loyalties API
+  slug: open-streamelements-loyalties-api
+- collection_type: open
+  name: SE API Docs activities modules API
+  slug: open-streamelements-modules-api
+- collection_type: open
+  name: SE API Docs activities overlays API
+  slug: open-streamelements-overlays-api
+- collection_type: open
+  name: SE API Docs activities points API
+  slug: open-streamelements-points-api
+- collection_type: open
+  name: SE API Docs activities redemptions API
+  slug: open-streamelements-redemptions-api
+- collection_type: open
+  name: SE API Docs activities sessions API
+  slug: open-streamelements-sessions-api
+- collection_type: open
+  name: SE API Docs activities single contest API
+  slug: open-streamelements-single-contest-api
+- collection_type: open
+  name: SE API Docs activities single giveaway API
+  slug: open-streamelements-single-giveaway-api
+- collection_type: open
+  name: SE API Docs activities single user API
+  slug: open-streamelements-single-user-api
+- collection_type: open
+  name: SE API Docs activities songrequests API
+  slug: open-streamelements-songrequests-api
+- collection_type: open
+  name: SE API Docs activities stats API
+  slug: open-streamelements-stats-api
+- collection_type: open
+  name: SE API Docs activities store API
+  slug: open-streamelements-store-api
+- collection_type: open
+  name: SE API Docs activities themes API
+  slug: open-streamelements-themes-api
+- collection_type: open
+  name: SE API Docs activities timers API
+  slug: open-streamelements-timers-api
+- collection_type: open
+  name: SE API Docs activities tips API
+  slug: open-streamelements-tips-api
+- collection_type: open
+  name: SE API Docs activities users API
+  slug: open-streamelements-users-api
 common:
 - group: other
   title: ''
@@ -252,7 +328,7 @@ overview: 'StreamElements publishes 24 APIs on the [APIs.io](https://apis.io/) n
 
 
   StreamElements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 73
+random_paper: 23
 scopes:
 - name: Streamelements Scopes
   scope_count: 20
@@ -281,7 +357,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

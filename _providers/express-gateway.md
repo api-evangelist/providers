@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: The Users API from Express Gateway — 3 operation(s) for users.
   name: Express Gateway Users API
   slug: express-gateway-users-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Express Gateway Admin Apps API
+  slug: open-express-gateway-apps-api
+- collection_type: open
+  name: Express Gateway Admin Apps Credentials API
+  slug: open-express-gateway-credentials-api
+- collection_type: open
+  name: Express Gateway Admin Apps Scopes API
+  slug: open-express-gateway-scopes-api
+- collection_type: open
+  name: Express Gateway Admin Apps Users API
+  slug: open-express-gateway-users-api
 - collection_type: open
   name: Express Gateway Admin API
   slug: open-express-gateway
@@ -104,7 +119,7 @@ plans:
 - name: Express Gateway Plans Pricing
   plan_count: 3
   slug: express-gateway-plans-pricing
-random_paper: 17
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Express Gateway Rate Limits
@@ -129,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/screenshots/express-gateway-2026-06-20T180941.png
 security:

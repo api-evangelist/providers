@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -45,8 +45,17 @@ apis:
 - description: Verify and manage software license keys issued for Payhip products.
   name: Payhip License Keys API
   slug: payhip-license-keys-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Payhip Coupons API
+  slug: open-payhip-coupons-api
+- collection_type: open
+  name: Payhip Coupons License Keys API
+  slug: open-payhip-license-keys-api
 - collection_type: open
   name: Payhip API
   slug: open-payhip
@@ -111,7 +120,7 @@ plans:
 - name: Payhip Plans Pricing
   plan_count: 3
   slug: payhip-plans-pricing
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Payhip Rate Limits
@@ -142,7 +151,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/screenshots/payhip-2026-08-07T191637.png
 security:

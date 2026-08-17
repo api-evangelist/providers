@@ -10,38 +10,76 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: true
+    agentic_access: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 64.0
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 122
+  human_in_the_loop: 3
+  name: Optum Agentic Access
+  operation_count: 483
+  slug: optum-agentic-access
+  summary_line: 483 operations · 122 acting · 3 human-in-the-loop
+api_count: 9
 apis:
-- description: RESTful, JSON and X12 EDI (270/271, 837, 276/277, 835) healthcare transaction APIs for real-time patient eligibility and coverage verification, professional and institutional claim validation and subm
+- description: RESTful JSON and native X12 EDI (270/271, 837P/837I, 276/277, 835) healthcare transaction APIs for real-time patient eligibility and coverage verification, enhanced eligibility with asynchronous cover
   name: Optum Medical Network Eligibility and Claims API
   slug: optum-medical-network-eligibility-and-claims-api
-- description: 'FHIR R4-based Patient Access and interoperability APIs (Endpoint, Procedure, DocumentReference, ObservationVitalSigns, Immunization, and related resources) supporting CMS interoperability and patient '
-  name: Optum Data Access and Interoperability (FHIR) API
-  slug: optum-data-access-and-interoperability-fhir-api
-- description: Real-time dental data exchange APIs for pre-care estimates, eligibility, claims submission and inquiry, attachments with image intelligence, and ERA, with GraphQL options for select operations.
+- description: 'Optum Real point-of-care APIs on the oihub gateway: pre-service eligibility, claim pre-check, claim actions, claim inquiry, patient benefit check, document search, auth referral submission, plus HL7 F'
+  name: Optum Real (Medical) API
+  slug: optum-real-medical-api
+- description: 'Real-time dental data exchange APIs for pre-care eligibility and eligibility intelligence, pre-care cost estimates, claim submission (GraphQL-backed), claim status inquiry, and attachments with image '
   name: Optum Real for Dental API
   slug: optum-real-for-dental-api
-artifact_total: 6
+- description: 'Pharmacy network services: a formatting rule API and telecom formatter for NCPDP-style pharmacy claim formatting, and a submitter API for managing pharmacy network submitters.'
+  name: Optum Pharmacy Solutions API
+  slug: optum-pharmacy-solutions-api
+- description: 'Payer enrollment and document tracking for the Optum intelligent clearinghouse: PES payer enrollments, EDI enrollment, and a file and document tracking API for following submissions through the cleari'
+  name: Optum Payment and Reimbursement API
+  slug: optum-payment-and-reimbursement-api
+- description: 'Optum Insight Platform services published on gateway.optuminsightplatform.com: NCC data acquisition, a code-search core service, CMS and Optum common physician and facility provider-directory services'
+  name: Optum Insight Platform (Platform and Interoperability) API
+  slug: optum-insight-platform-platform-and-interoperability-api
+- description: 'Analytics and payment-integrity APIs: PROMETHEUS Analytics job submission and check-job for episode-of-care analytics, ABM care decision support, and ABM pre-pay DME, pre-pay lab and prior-authorizati'
+  name: Optum Analytics and Insights API
+  slug: optum-analytics-and-insights-api
+- description: The platform OAuth2 token service. Security and Authorization v2 issues a one-hour JWT bearer token at /apip/auth/v2/token for the Medical Network and Dental APIs; v3 ("sentinel") issues one at /apip/
+  name: Optum API Tools — Security and Authorization
+  slug: optum-api-tools-security-and-authorization
+- description: Optum's payer-side CMS Interoperability and Patient Access (CMS-9115-F) surface — Patient Access, Provider Directory and Payer-to-Payer exchange for the Optum behavioral and physical health plans. The
+  name: Optum Interoperability APIs (CMS Patient Access)
+  slug: optum-interoperability-apis-cms-patient-access
+artifact_total: 17
+asyncapis:
+- description: ''
+  name: Optum Webhooks
+  slug: optum-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/optum-agentic-access.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/optum-scopes.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -122,48 +160,133 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.optum.com/privacy-policy.html
+- group: build
+  title: ''
+  type: Packages
+  url: packages/optum-packages.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://business.optum.com/en/federal-government/about-optum-serve/certifications-partnerships.html
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/optum-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/optum-data-model.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/optum-examples.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.optum.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/optum-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/optum-sandbox.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/optum-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/optum-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://marketplace.optum.com/apiservices/api-sandbox-access
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/optum-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optum-servers-and-provenance-overlay.yaml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://developer.optum.com/.well-known/api-catalog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Optum
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.optum.com/en/newsroom.html
 created: '2026-07-17'
-description: Optum, part of UnitedHealth Group, is a health services and technology company that operates one of the largest medical and pharmacy networks in the United States. Its developer platform (developer.optum.com) exposes RESTful, JSON- and X12 EDI-based healthcare APIs for eligibility verification, professional and institutional claims validation and submission, claim status, ERA/remittance reports, prior authorization, attachments, payer directory, dental pre-care and claims, pharmacy solutions, and FHIR-based Data Access and Interoperability (Patient Access) endpoints. APIs are secured with OAuth2 client-credentials bearer tokens over TLS 1.2+, with free sandbox access, interactive "Try It" documentation, and downloadable OpenAPI specifications.
+description: 'Optum, part of UnitedHealth Group, is a health services and technology company that operates one of the largest medical, dental and pharmacy networks in the United States and runs the clearinghouse formerly known as Change Healthcare. Its developer platform (developer.optum.com) publishes eight product lines of RESTful JSON, native X12 EDI and HL7 FHIR R4 APIs: eligibility and coverage discovery, professional and institutional claim validation and submission, claim status, ERA/remittance reports, attachments, payer directory and outage feeds, prior authorization in both X12 278 and FHIR Da Vinci PAS/DTR/CRD form, provider access and bulk member match, dental pre-care estimates and claims, pharmacy formatting and submitter services, payer enrollment and document tracking, and Optum Insight Platform data, code-search and analytics services. Every API is secured with an OAuth2 client-credentials JWT bearer token over TLS 1.2+, with a free canned-response sandbox on a separate
+  host. Optum also publishes an RFC 9727 API catalog at /.well-known/api-catalog, which is how the 59 OpenAPI documents in this repo were harvested.'
 image: https://www.optum.com/content/dam/optum4/images/logos/optum-logo.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-14'
 name: Optum
 nav: Providers
 network: true
-overview: 'Optum publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Insurance, Claims, and Eligibility.
+overview: 'Optum publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Medical Network Eligibility and Claims API, Real (Medical) API, Real for Dental API, and 5 more. Tagged areas include Company, Healthcare, Health Insurance, Claims, and Eligibility.
 
 
-  Optum''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 13 more developer resources.'
-random_paper: 85
+  The Optum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Optum''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 32 more developer resources.'
+plans:
+- name: Optum Plans Pricing
+  plan_count: 0
+  slug: optum-plans-pricing
+random_paper: 118
+rate_limits:
+- limit_count: 0
+  name: Optum Rate Limits
+  slug: optum-rate-limits
+scopes:
+- name: Optum Scopes
+  scope_count: 7
+  slug: optum-scopes
+  summary_line: 7 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 31.8
-  delta: 0.0
+  band: strong
+  composite: 57.8
+  delta: 26.0
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 56.5
+    commercial_clarity: 52.6
+    contract_quality: 59.5
+    developer_ergonomics: 65.2
     discoverability: 92.6
-    governance: 3.1
-    operational_transparency: 10.5
+    governance: 11.5
+    operational_transparency: 55.3
   previous_composite: 31.8
   provenance:
     conformance: derived
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 47.0
+    regime: Health
+    regime_id: health
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/screenshots/optum-2026-08-07T190817.png
 security:
 - kind: authentication
   name: Optum Authentication
   slug: optum-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2 · 2 schemes
 - kind: domain-security
   name: Optum Domain Security
   slug: optum-domain-security
@@ -186,5 +309,13 @@ tags:
 - X12
 - Payments
 - Prior Authorization
+- Clearinghouse
+- Revenue Cycle
+- Dental
+- Da Vinci
+- Patient Access
+- Remittance
+- Attachments
+- Payer Directory
 website: https://www.optum.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Customer API is for Jiko customers integrating Jiko directly into their own internal systems. It uses OAuth 2.0 (authorization code and client credentials flows) with Private Key JWT client authen
@@ -182,7 +182,7 @@ overview: 'Jiko publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jiko''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, developer portal, and 23 more developer resources.'
-random_paper: 69
+random_paper: 131
 rate_limits:
 - limit_count: 16
   name: Jiko Rate Limits
@@ -215,7 +215,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-07-25T223151.png
 security:

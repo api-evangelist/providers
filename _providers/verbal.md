@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -59,8 +59,39 @@ common:
   title: ''
   type: DomainSecurity
   url: security/verbal-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Salusive
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.tryverbal.com/features/secure-hipaa-compliant
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/verbal-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/verbal-llms.txt
+coverage:
+  checked: '2026-08-14'
+  detail: Verbal ships only an end-user SaaS app and a Chrome extension; the "simple API connection" language on its integrations pages is Verbal calling RingCentral, NICE and Healthie, and its own app backend (svc-amd.app.tryverbal.com, FastAPI) has /docs, /redoc and /openapi.json all disabled behind a CORS allow-list pinned to app.tryverbal.com.
+  evidence:
+  - status: 404
+    url: https://www.tryverbal.com/developers
+  - status: 404
+    url: https://www.tryverbal.com/docs
+  - status: 404
+    url: https://svc-amd.app.tryverbal.com/openapi.json
+  - status: 200
+    url: https://svc-amd.app.tryverbal.com/health
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Verbal (tryverbal.com) is an AI-powered clinical compliance and quality-assurance platform for healthcare organizations. It automatically audits patient interactions — phone and video calls, telehealth visits, AI-agent conversations, and clinical chart notes — against customizable regulatory and quality checklists, scoring compliance in real time and surfacing gaps for supervisors and QA teams. Verbal integrates with communications and EHR platforms including Zoom, Five9, Epic, and Athena. As of this enrichment pass the company publishes a marketing site and customer app but no public developer API, documentation, or developer portal. Backed by 500 Global.
+description: Verbal (tryverbal.com), from Salusive Health, is an AI-powered clinical compliance and quality-assurance platform for healthcare organizations. It automatically audits patient interactions — phone and video calls, telehealth visits, AI-agent conversations, and clinical chart notes — against customizable regulatory and quality checklists, scoring compliance in real time and surfacing gaps for supervisors and QA teams. Verbal connects to communications and EHR platforms including RingCentral, NICE, Zoom, Five9, Healthie, Epic, and Athena, and ships a Chrome extension for clinicians. It publishes a healthcare compliance posture — HIPAA compliant, HITRUST certified, CPRA, BAAs with all customers, PII redaction and US data residency. As of this enrichment pass the company exposes no public developer API — the API language on its site describes Verbal consuming partner platform APIs, not an API it publishes, and there is no developer portal, reference, machine-readable spec, or SDK
+  on any Verbal host. Backed by 500 Global.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verbal.png
 layout: provider
 modified: '2026-07-21'
@@ -70,29 +101,37 @@ network: true
 overview: 'Verbal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Compliance, Artificial Intelligence, and Quality Assurance.
 
 
-  Verbal''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 36
+  Verbal''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
+plans:
+- name: Verbal Plans Pricing
+  plan_count: 0
+  slug: verbal-plans-pricing
+random_paper: 40
+rate_limits:
+- limit_count: 0
+  name: Verbal Rate Limits
+  slug: verbal-rate-limits
 score:
   band: emerging
-  composite: 13.1
-  delta: 0.0
+  composite: 18.8
+  delta: 5.7
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    discoverability: 57.4
+    governance: 12.5
+    operational_transparency: 5.3
   previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
+    score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Verbal Domain Security

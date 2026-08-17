@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -77,7 +77,7 @@ apis:
 - description: The WorkflowRun API from Lightfield — 1 operation(s) for workflowrun.
   name: Lightfield WorkflowRun API
   slug: lightfield-workflowrun-api
-artifact_total: 34
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Lightfield Events
@@ -122,6 +122,48 @@ collections:
 - collection_type: postman
   name: API Reference Accounts WorkflowRun API
   slug: postman-lightfield-workflowrun-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference Accounts API
+  slug: open-lightfield-accounts-api
+- collection_type: open
+  name: API Reference Accounts Auth API
+  slug: open-lightfield-auth-api
+- collection_type: open
+  name: API Reference Accounts Contacts API
+  slug: open-lightfield-contacts-api
+- collection_type: open
+  name: API Reference Accounts Emails API
+  slug: open-lightfield-emails-api
+- collection_type: open
+  name: API Reference Accounts Files API
+  slug: open-lightfield-files-api
+- collection_type: open
+  name: API Reference Accounts Lists API
+  slug: open-lightfield-lists-api
+- collection_type: open
+  name: API Reference Accounts Meetings API
+  slug: open-lightfield-meetings-api
+- collection_type: open
+  name: API Reference Accounts Members API
+  slug: open-lightfield-members-api
+- collection_type: open
+  name: API Reference Accounts Notes API
+  slug: open-lightfield-notes-api
+- collection_type: open
+  name: API Reference Accounts Objects API
+  slug: open-lightfield-objects-api
+- collection_type: open
+  name: API Reference Accounts Opportunities API
+  slug: open-lightfield-opportunities-api
+- collection_type: open
+  name: API Reference Accounts Tasks API
+  slug: open-lightfield-tasks-api
+- collection_type: open
+  name: API Reference Accounts WorkflowRun API
+  slug: open-lightfield-workflowrun-api
 common:
 - group: other
   title: ''
@@ -199,6 +241,10 @@ common:
   title: ''
   type: MCPServer
   url: mcp/lightfield-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/lightfield-tool-crosswalk.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -230,7 +276,11 @@ common:
 - group: operate
   title: ''
   type: RateLimits
-  url: conventions/lightfield-conventions.yml
+  url: rate-limits/lightfield-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lightfield-plans-pricing.yml
 - group: design
   title: ''
   type: ErrorCatalog
@@ -296,7 +346,7 @@ mcp_servers:
 - description: ''
   name: lightfield-mcp.yml
   slug: lightfield-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Lightfield
 nav: Providers
 network: true
@@ -306,24 +356,32 @@ overview: 'Lightfield publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
   The Lightfield catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lightfield''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 92
+  Lightfield''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+plans:
+- name: Lightfield Plans Pricing
+  plan_count: 4
+  slug: lightfield-plans-pricing
+random_paper: 9
+rate_limits:
+- limit_count: 3
+  name: Lightfield Rate Limits
+  slug: lightfield-rate-limits
 scopes:
 - name: Lightfield Scopes
   scope_count: 26
   slug: lightfield-scopes
   summary_line: 26 scopes
 score:
-  band: strong
-  composite: 62.2
-  delta: 0.0
+  band: exemplar
+  composite: 72.6
+  delta: 10.4
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 65.3
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 55.3
+    operational_transparency: 86.8
   previous_composite: 62.2
   provenance:
     agentic_access: derived
@@ -336,8 +394,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png
 security:
 - kind: authentication
@@ -355,7 +413,7 @@ security:
 - kind: trust-center
   name: Lightfield Trust Center
   slug: lightfield-trust-center
-  summary_line: SOC 2 Type 2, HIPAA
+  summary_line: SOC 2 Type 2, HIPAA, GDPR, ISO 27001
 slug: lightfield
 tags:
 - Company

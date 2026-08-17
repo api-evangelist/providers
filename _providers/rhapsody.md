@@ -24,13 +24,13 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-12'
-api_count: 5
+  score: 12.2
+  scored_at: '2026-08-17'
+api_count: 6
 apis:
 - description: Rhapsody's flagship healthcare integration engine, connecting systems across FHIR, HL7 v2, REST, CDA, X12/EDI, SQL, DICOM, AMQP, and MCP from a single platform, with a REST administration/management A
   name: Rhapsody Integration Engine
@@ -44,10 +44,13 @@ apis:
 - description: Rhapsody Semantic terminology management and data standardization services (code-system mapping, LOINC/SNOMED standardization) supporting FHIR terminology workflows. Documentation is served through th
   name: Rhapsody Semantic (Terminology Management)
   slug: rhapsody-semantic
+- description: Rhapsody Guardian is a healthcare-purpose-built API gateway, launched October 2025, that lets healthcare organizations securely expose their own APIs and FHIR endpoints. Rhapsody states Guardian "supp
+  name: Rhapsody Guardian (Healthcare API Gateway)
+  slug: rhapsody-guardian
 - description: Rhapsody Axon embeds AI into the integration platform and adds Model Context Protocol (MCP) support for AI-driven, agent-ready healthcare data workflows. Capabilities are documented in the gated devel
   name: Rhapsody Axon (AI + MCP)
   slug: rhapsody-axon-mcp
-artifact_total: 8
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -69,6 +72,22 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/rhapsody-llms.txt
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/rhapsody-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/rhapsody-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/rhapsody-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/rhapsody-rate-limits.yml
 - group: commercial
   title: ''
   type: TermsOfService
@@ -110,30 +129,38 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/rhapsodyhealth
 created: '2026-07-24'
-description: Rhapsody Health Solutions is a US-headquartered (Boston, Massachusetts) healthcare interoperability company trusted by more than 1,900 healthcare organizations across 31 countries, and recognized as Best in KLAS for integration engines for 17 consecutive years. Formed from the lineage of Orion Health's Rhapsody Integration Engine (2000), the 2019 merger with Corepoint Health, and acquisitions of Datica, NextGate EMPI, and CareCom, Rhapsody delivers a single interoperability platform spanning integration engines (Rhapsody and Corepoint), enterprise master patient index (EMPI / Rhapsody Identity), semantic terminology management, data governance (Guardian), and automated integrations (Envoy, Image Director). The platform supports FHIR, HL7 v2, REST, CDA, X12/EDI, SQL, DICOM, AMQP, and Model Context Protocol (MCP) from a single deployment, with embedded AI (Rhapsody Axon). Its home market is the United States, aligned to ONC/CMS interoperability mandates. Rhapsody's product REST/administration
-  and FHIR APIs are documented in a developer documentation portal (docs.rhapsody.health) that sits behind an AWS Cognito single-sign-on gate; there is no public self-serve API host or downloadable specification.
+description: Rhapsody Health Solutions is a US-headquartered (Boston, Massachusetts) healthcare interoperability company trusted by more than 1,900 healthcare organizations across 31 countries, and recognized as Best in KLAS for integration engines for 17 consecutive years. Formed from the lineage of Orion Health's Rhapsody Integration Engine (2000), the 2019 merger with Corepoint Health, and acquisitions of Datica, NextGate EMPI, and CareCom, Rhapsody delivers a single interoperability platform spanning integration engines (Rhapsody and Corepoint), enterprise master patient index (EMPI / Rhapsody Identity), semantic terminology management, data governance (Guardian), and automated integrations (Envoy, Image Director). The platform supports FHIR, HL7 v2, REST, CDA, X12/EDI, SQL, DICOM, AMQP, and Model Context Protocol (MCP) from a single deployment, with embedded AI (Rhapsody Axon). Its home market is the United States, aligned to ONC/CMS interoperability mandates. Rhapsody added Guardian,
+  a healthcare-purpose-built API gateway (OAuth 2.0, SMART on FHIR, Basic Auth), in October 2025. Rhapsody's product REST/administration and FHIR APIs are documented in a developer documentation portal (docs.rhapsody.health) that sits behind an AWS Cognito single-sign-on gate; there is no public self-serve API host or downloadable specification. The one machine-readable document Rhapsody does publish is an authoritative llms.txt at rhapsody.health/llms.txt.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24T18:00:00Z'
+modified: '2026-08-14T00:00:00Z'
 name: Rhapsody
 nav: Providers
 network: true
-overview: 'Rhapsody publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Interoperability, Integration Engine, and FHIR.
+overview: 'Rhapsody publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Interoperability, Integration Engine, and FHIR.
 
 
-  Rhapsody''s developer surface includes authentication, documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 34
+  Rhapsody''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 14 more developer resources.'
+plans:
+- name: Rhapsody Plans Pricing
+  plan_count: 0
+  slug: rhapsody-plans-pricing
+random_paper: 129
+rate_limits:
+- limit_count: 0
+  name: Rhapsody Rate Limits
+  slug: rhapsody-rate-limits
 score:
-  band: emerging
-  composite: 26.4
-  delta: 0.0
+  band: thin
+  composite: 28.1
+  delta: 1.7
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 34.8
     discoverability: 72.2
     governance: 12.5
-    operational_transparency: 10.5
+    operational_transparency: 26.3
   previous_composite: 26.4
   provenance:
     conformance: first-party
@@ -144,7 +171,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication
@@ -171,5 +198,6 @@ tags:
 - Terminology
 - Health Data
 - MCP
+- API Gateway
 website: https://rhapsody.health/
 ---

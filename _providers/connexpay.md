@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -146,11 +146,132 @@ apis:
 - description: The Void API from ConnexPay — 1 operation(s) for void.
   name: ConnexPay Void API
   slug: connexpay-void-api
-artifact_total: 44
+artifact_total: 84
 asyncapis:
 - description: ''
   name: Connexpay Webhooks
   slug: connexpay-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: sales-api 3ds API
+  slug: open-connexpay-3ds-api
+- collection_type: open
+  name: sales-api 3 D Secure API
+  slug: open-connexpay-3dsecure-api
+- collection_type: open
+  name: ConnexPay Reporting Accounting API
+  slug: open-connexpay-accounting-api
+- collection_type: open
+  name: purchases-api Addendum API
+  slug: open-connexpay-addendum-api
+- collection_type: open
+  name: reporting-authentication Authenticate API
+  slug: open-connexpay-authenticate-api
+- collection_type: open
+  name: sales-api Authonlys API
+  slug: open-connexpay-authonlys-api
+- collection_type: open
+  name: sales-api Cancel API
+  slug: open-connexpay-cancel-api
+- collection_type: open
+  name: sales-api Captures API
+  slug: open-connexpay-captures-api
+- collection_type: open
+  name: purchases-api Card Booking API
+  slug: open-connexpay-cardbooking-api
+- collection_type: open
+  name: purchases-api Cards API
+  slug: open-connexpay-cards-api
+- collection_type: open
+  name: Connexpay Chargeback API
+  slug: open-connexpay-chargeback-api
+- collection_type: open
+  name: ConnexPay Checkout Session Checkout Sessions API
+  slug: open-connexpay-checkout-sessions-api
+- collection_type: open
+  name: ConnexPay Reporting Credit API
+  slug: open-connexpay-credit-api
+- collection_type: open
+  name: ConnexPay Reporting Extended Data API
+  slug: open-connexpay-extendeddata-api
+- collection_type: open
+  name: sales-api Hosted Payment Page Requests API
+  slug: open-connexpay-hostedpaymentpagerequests-api
+- collection_type: open
+  name: purchases-api Issue ACH API
+  slug: open-connexpay-issueach-api
+- collection_type: open
+  name: purchases-api Issue Card API
+  slug: open-connexpay-issuecard-api
+- collection_type: open
+  name: purchases-api IssueCard (COPY) IssueCard (COPY) API
+  slug: open-connexpay-issuecard-copy-api
+- collection_type: open
+  name: sales-api Merchant Flex Funding API
+  slug: open-connexpay-merchantflexfunding-api
+- collection_type: open
+  name: Purchases Merchant Payor API
+  slug: open-connexpay-merchantpayor-api
+- collection_type: open
+  name: purchases-api Merchants API
+  slug: open-connexpay-merchants-api
+- collection_type: open
+  name: sales-api Merchant Self Service Funding API
+  slug: open-connexpay-merchantselfservicefunding-api
+- collection_type: open
+  name: purchases-api Merchantsupplier API
+  slug: open-connexpay-merchantsupplier-api
+- collection_type: open
+  name: v1 Payment Instruction API
+  slug: open-connexpay-paymentinstruction-api
+- collection_type: open
+  name: purchases-api Physical Card API
+  slug: open-connexpay-physicalcard-api
+- collection_type: open
+  name: purchases-api Purchase Event History API
+  slug: open-connexpay-purchaseeventhistory-api
+- collection_type: open
+  name: Purchases Push To Card API
+  slug: open-connexpay-pushtocard-api
+- collection_type: open
+  name: sales-api Returns API
+  slug: open-connexpay-returns-api
+- collection_type: open
+  name: sales-api Sale Event History API
+  slug: open-connexpay-saleeventhistory-api
+- collection_type: open
+  name: sales-api Sales Api API
+  slug: open-connexpay-sales-api-api
+- collection_type: open
+  name: api Sales API
+  slug: open-connexpay-sales-api
+- collection_type: open
+  name: Connexpay Search API
+  slug: open-connexpay-search-api
+- collection_type: open
+  name: Purchases Stop Payment Service API
+  slug: open-connexpay-stoppaymentservice-api
+- collection_type: open
+  name: purchases-api Terminate Card API
+  slug: open-connexpay-terminatecard-api
+- collection_type: open
+  name: Connexpay Token API
+  slug: open-connexpay-token-api
+- collection_type: open
+  name: ConnexPay Reporting UATP API
+  slug: open-connexpay-uatp-api
+- collection_type: open
+  name: sales-api Verify API
+  slug: open-connexpay-verify-api
+- collection_type: open
+  name: sales-api Verify1 API
+  slug: open-connexpay-verify1-api
+- collection_type: open
+  name: sales-api Void API
+  slug: open-connexpay-void-api
 common:
 - group: agent
   title: ''
@@ -303,7 +424,7 @@ overview: 'ConnexPay publishes 39 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ConnexPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 26 more developer resources.'
-random_paper: 21
+random_paper: 87
 score:
   band: developing
   composite: 54.0
@@ -333,7 +454,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -48,7 +48,7 @@ apis:
 - description: The Oauth2 API from Fitbit — 4 operation(s) for oauth2.
   name: Fitbit Oauth2 API
   slug: fitbit-oauth2-api
-artifact_total: 50
+artifact_total: 53
 asyncapis:
 - description: Fitbit's Subscription API streams sync notifications to a registered Subscriber endpoint each time a user has new data available for a subscribed collection. Five collections are subscribable per user
   name: Fitbit Subscriptions Webhooks
@@ -63,6 +63,9 @@ collections:
 - collection_type: postman
   name: Fitbit Activity Foods User API
   slug: postman-fitbit-user-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Fitbit Activity API
   slug: open-fitbit-activity-api
@@ -79,6 +82,9 @@ collections:
   name: Fitbit ECG and Irregular Rhythm Notifications API
   slug: open-fitbit-ecg-irn-api
 - collection_type: open
+  name: Fitbit Activity Foods API
+  slug: open-fitbit-foods-api
+- collection_type: open
   name: Fitbit Friends API
   slug: open-fitbit-friends-api
 - collection_type: open
@@ -87,6 +93,9 @@ collections:
 - collection_type: open
   name: Fitbit Nutrition API
   slug: open-fitbit-nutrition-api
+- collection_type: open
+  name: Fitbit Activity Foods Oauth2 API
+  slug: open-fitbit-oauth2-api
 - collection_type: open
   name: Fitbit Sleep API
   slug: open-fitbit-sleep-api
@@ -97,7 +106,7 @@ collections:
   name: Fitbit Subscriptions API
   slug: open-fitbit-subscriptions-api
 - collection_type: open
-  name: Fitbit User API
+  name: Fitbit Activity Foods User API
   slug: open-fitbit-user-api
 common:
 - group: build
@@ -347,7 +356,7 @@ plans:
 - name: Fitbit Plans Pricing
   plan_count: 6
   slug: fitbit-plans-pricing
-random_paper: 42
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Fitbit Rate Limits
@@ -400,7 +409,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/screenshots/fitbit-2026-06-20T181253.png
 security:

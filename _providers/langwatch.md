@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 3
@@ -123,8 +123,95 @@ apis:
 - description: The Workflows API from LangWatch — 2 operation(s) for workflows.
   name: LangWatch Workflows API
   slug: langwatch-workflows-api
-artifact_total: 54
+artifact_total: 83
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LangWatch Agents API
+  slug: open-langwatch-agents-api
+- collection_type: open
+  name: LangWatch Agents Analytics API
+  slug: open-langwatch-analytics-api
+- collection_type: open
+  name: LangWatch Agents Annotations API
+  slug: open-langwatch-annotations-api
+- collection_type: open
+  name: LangWatch Agents Api Keys API
+  slug: open-langwatch-api-keys-api
+- collection_type: open
+  name: LangWatch Agents Budgets API
+  slug: open-langwatch-budgets-api
+- collection_type: open
+  name: LangWatch Agents Cache Rules API
+  slug: open-langwatch-cache-rules-api
+- collection_type: open
+  name: LangWatch Agents Dashboards API
+  slug: open-langwatch-dashboards-api
+- collection_type: open
+  name: LangWatch Agents Dataset API
+  slug: open-langwatch-dataset-api
+- collection_type: open
+  name: LangWatch Agents Evaluations V3 API
+  slug: open-langwatch-evaluations-v3-api
+- collection_type: open
+  name: LangWatch Agents Evaluators API
+  slug: open-langwatch-evaluators-api
+- collection_type: open
+  name: LangWatch Agents Graphs API
+  slug: open-langwatch-graphs-api
+- collection_type: open
+  name: LangWatch Agents LangWatch API API
+  slug: open-langwatch-langwatch-api-api
+- collection_type: open
+  name: LangWatch Agents Model Defaults API
+  slug: open-langwatch-model-defaults-api
+- collection_type: open
+  name: LangWatch Agents Model Providers API
+  slug: open-langwatch-model-providers-api
+- collection_type: open
+  name: LangWatch Agents Monitors API
+  slug: open-langwatch-monitors-api
+- collection_type: open
+  name: LangWatch Agents Projects API
+  slug: open-langwatch-projects-api
+- collection_type: open
+  name: LangWatch Agents Prompts API
+  slug: open-langwatch-prompts-api
+- collection_type: open
+  name: LangWatch Agents Providers API
+  slug: open-langwatch-providers-api
+- collection_type: open
+  name: LangWatch Agents Scenario Events API
+  slug: open-langwatch-scenario-events-api
+- collection_type: open
+  name: LangWatch Agents Scenarios API
+  slug: open-langwatch-scenarios-api
+- collection_type: open
+  name: LangWatch Agents Secrets API
+  slug: open-langwatch-secrets-api
+- collection_type: open
+  name: LangWatch Agents Simulation Runs API
+  slug: open-langwatch-simulation-runs-api
+- collection_type: open
+  name: LangWatch Agents Suites API
+  slug: open-langwatch-suites-api
+- collection_type: open
+  name: LangWatch Agents Trace API
+  slug: open-langwatch-trace-api
+- collection_type: open
+  name: LangWatch Agents Traces API
+  slug: open-langwatch-traces-api
+- collection_type: open
+  name: LangWatch Agents Triggers API
+  slug: open-langwatch-triggers-api
+- collection_type: open
+  name: LangWatch Agents Virtual Keys API
+  slug: open-langwatch-virtual-keys-api
+- collection_type: open
+  name: LangWatch Agents Workflows API
+  slug: open-langwatch-workflows-api
 - collection_type: open
   name: LangWatch API
   slug: open-langwatch
@@ -351,7 +438,7 @@ plans:
 - name: Langwatch Plans Pricing
   plan_count: 4
   slug: langwatch-plans-pricing
-random_paper: 113
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Langwatch Rate Limits
@@ -376,7 +463,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/screenshots/langwatch-2026-06-20T184318.png
 security:

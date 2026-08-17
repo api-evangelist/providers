@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Wing Security platform API provides programmatic access to SaaS discovery, risk assessment, identity threat detection, and remediation capabilities. The platform supports webhook integrations and '
@@ -122,7 +122,7 @@ plans:
 - name: Wing Security Plans Pricing
   plan_count: 3
   slug: wing-security-plans-pricing
-random_paper: 50
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Wing Security Rate Limits
@@ -149,7 +149,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wing-security/refs/heads/main/screenshots/wing-security-2026-06-20T201514.png
 security:

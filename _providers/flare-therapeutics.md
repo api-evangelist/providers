@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The anonymously readable WordPress REST content API behind www.flaretx.com — the 42-item corporate news archive, 14 corporate pages, a 419-item media library, the category taxonomy, cross-content sear
   name: Flare Therapeutics Content API
   slug: flare-therapeutics-content-api
-artifact_total: 5
+artifact_total: 6
+collections:
+- collection_type: open
+  name: Flare Therapeutics Content API
+  slug: open-flare-therapeutics-content
 common:
 - group: auth
   title: ''
@@ -135,7 +139,7 @@ plans:
 - name: Flare Therapeutics Plans Pricing
   plan_count: 0
   slug: flare-therapeutics-plans-pricing
-random_paper: 64
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Flare Therapeutics Rate Limits
@@ -143,6 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 49.3
@@ -150,6 +155,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 5.3
+  previous_composite: 30.9
   regulatory:
     applies: true
     matched_via: tags
@@ -157,7 +163,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Flare Therapeutics Authentication

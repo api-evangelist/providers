@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Luko is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Luko''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 83
+random_paper: 145
 score:
   band: emerging
   composite: 14.6
@@ -103,7 +103,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luko/refs/heads/main/screenshots/luko-2026-07-25T225651.png
 security:

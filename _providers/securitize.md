@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 64
@@ -50,11 +50,33 @@ apis:
 - description: The Webhooks API from Securitize — 4 operation(s) for webhooks.
   name: Securitize Webhooks API
   slug: securitize-webhooks-api
-artifact_total: 14
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Securitize Webhooks
   slug: securitize-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Securitize Domains APAC API
+  slug: open-securitize-apac-api
+- collection_type: open
+  name: Securitize Domains API
+  slug: open-securitize-domains-api
+- collection_type: open
+  name: Securitize Domains API
+  slug: open-securitize-domains-openapi-original
+- collection_type: open
+  name: Securitize Domains Health Check API
+  slug: open-securitize-health-check-api
+- collection_type: open
+  name: Securitize Domains Travel Rule API
+  slug: open-securitize-travel-rule-api
+- collection_type: open
+  name: Securitize Domains Webhooks API
+  slug: open-securitize-webhooks-api
 common:
 - group: company
   title: ''
@@ -188,7 +210,7 @@ overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Securitize''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 15
+random_paper: 52
 scopes:
 - name: Securitize Scopes
   scope_count: 3
@@ -223,7 +245,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

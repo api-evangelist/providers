@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -37,11 +37,21 @@ apis:
 - description: The Virtual Power Plant API is the grid-services surface, sold only to utilities, aggregators, DERMS providers and third-party owners registered as Enphase Grid Services partners — the pricing page ca
   name: Enphase VPP API
   slug: enphase-vpp-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: Server-sent event stream of a single Enphase system's real-time power state. Derived by API Evangelist from the published Monitoring API operation getLiveData, which produces text/event-stream and car
   name: Enphase Enlighten Live Status Stream
   slug: enphase-live-status-asyncapi
+collections:
+- collection_type: open
+  name: Commissioning API
+  slug: open-enphase-commissioning-api
+- collection_type: open
+  name: Monitoring API
+  slug: open-enphase-monitoring-api
+- collection_type: open
+  name: API Reference
+  slug: open-enphase-vpp-api
 common:
 - group: agent
   title: ''
@@ -247,7 +257,7 @@ plans:
 - name: Enphase Plans
   plan_count: 5
   slug: enphase-plans
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 8
   name: Enphase Rate Limits
@@ -281,7 +291,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png
 security:

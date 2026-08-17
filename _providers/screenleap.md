@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Create, retrieve, list and stop screen share sessions.
   name: Screenleap Screen Shares API
   slug: screenleap-screen-shares-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Screenleap Screen Shares API
+  slug: open-screenleap-screen-shares-api
 common:
 - group: other
   title: ''
@@ -148,7 +155,7 @@ overview: 'Screenleap publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Screenleap''s developer surface includes documentation, API reference, getting-started guide, FAQ, engineering blog, support, pricing, and 17 more developer resources.'
-random_paper: 98
+random_paper: 15
 score:
   band: developing
   composite: 44.0
@@ -171,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

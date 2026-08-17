@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -71,7 +71,38 @@ apis:
 - description: Methods for submitting transactions
   name: Sui Write API API
   slug: sui-write-api-api
-artifact_total: 33
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sui JSON-RPC Coin Query API API
+  slug: open-sui-coin-query-api-api
+- collection_type: open
+  name: Sui JSON-RPC Coin Query API Extended API API
+  slug: open-sui-extended-api-api
+- collection_type: open
+  name: Sui JSON-RPC Coin Query API Governance Read API API
+  slug: open-sui-governance-read-api-api
+- collection_type: open
+  name: Sui JSON-RPC Coin Query API Move Utils API
+  slug: open-sui-move-utils-api
+- collection_type: open
+  name: Sui JSON-RPC Coin Query API PubSub API
+  slug: open-sui-pubsub-api
+- collection_type: open
+  name: Sui JSON-RPC Coin Query API Read API API
+  slug: open-sui-read-api-api
+- collection_type: open
+  name: Sui JSON-RPC Coin Query API Transaction Builder API API
+  slug: open-sui-transaction-builder-api-api
+- collection_type: open
+  name: Sui JSON-RPC Coin Query API Websocket API
+  slug: open-sui-websocket-api
+- collection_type: open
+  name: Sui JSON-RPC Coin Query API Write API API
+  slug: open-sui-write-api-api
 common:
 - group: agent
   title: ''
@@ -215,7 +246,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 97
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -249,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/screenshots/sui-2026-06-20T194741.png
 security:

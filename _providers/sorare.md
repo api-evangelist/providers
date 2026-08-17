@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing Sorare cards, users, auctions, offers and real-time subscriptions across football, NBA and MLB, with JWT / OAuth 2.0 / API-key auth.
@@ -155,7 +155,7 @@ overview: 'Sorare publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sorare''s developer surface includes documentation, API reference, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Sorare Rate Limits
@@ -182,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -32,11 +32,15 @@ apis:
 - description: The Connecteam public REST API. 145 operations across users, admins, smart groups and custom fields; time clock, time activities, geofences, breadcrumbs and lock days; job scheduling and shifts (v1 an
   name: Connecteam API
   slug: api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Connecteam Events Webhooks
   slug: connecteam-events-webhooks
+collections:
+- collection_type: open
+  name: Connecteam API documentation
+  slug: open-connecteam-openapi-original
 common:
 - group: agent
   title: ''
@@ -213,7 +217,7 @@ plans:
 - name: Connecteam Plans
   plan_count: 5
   slug: connecteam-plans
-random_paper: 93
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Connecteam Rate Limits
@@ -241,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/screenshots/connecteam-2026-08-07T163740.png
 security:

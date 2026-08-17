@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -117,7 +117,7 @@ apis:
 - description: The Time entries API from Toast — 2 operation(s) for time entries.
   name: Toast Time entries API
   slug: toast-tab-time-entries-api
-artifact_total: 392
+artifact_total: 407
 collections:
 - collection_type: postman
   name: Toast Authentication API
@@ -162,14 +162,44 @@ collections:
   name: Toast Authentication Time entries API
   slug: postman-toast-tab-time-entries-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Toast Authentication API
+  slug: open-toast-tab-authentication-api
+- collection_type: open
   name: Toast authentication API
   slug: open-toast-tab-authentication
+- collection_type: open
+  name: Toast Authentication ConnectedRestaurants API
+  slug: open-toast-tab-connectedrestaurants-api
+- collection_type: open
+  name: Toast Authentication Discounts API
+  slug: open-toast-tab-discounts-api
+- collection_type: open
+  name: Toast Authentication Employees API
+  slug: open-toast-tab-employees-api
+- collection_type: open
+  name: Toast Authentication Groups API
+  slug: open-toast-tab-groups-api
+- collection_type: open
+  name: Toast Authentication Jobs API
+  slug: open-toast-tab-jobs-api
 - collection_type: open
   name: Toast Labor API
   slug: open-toast-tab-labor
 - collection_type: open
+  name: Toast Authentication Menus API
+  slug: open-toast-tab-menus-api
+- collection_type: open
   name: Menus API
   slug: open-toast-tab-menus
+- collection_type: open
+  name: Toast Authentication Metadata API
+  slug: open-toast-tab-metadata-api
+- collection_type: open
+  name: Toast Authentication Orders API
+  slug: open-toast-tab-orders-api
 - collection_type: open
   name: Toast Orders API
   slug: open-toast-tab-orders
@@ -177,11 +207,26 @@ collections:
   name: Partners API
   slug: open-toast-tab-partners
 - collection_type: open
+  name: Toast Authentication Payments API
+  slug: open-toast-tab-payments-api
+- collection_type: open
+  name: Toast Authentication Restaurants API
+  slug: open-toast-tab-restaurants-api
+- collection_type: open
   name: Restaurants API
   slug: open-toast-tab-restaurants
 - collection_type: open
+  name: Toast Authentication Shifts API
+  slug: open-toast-tab-shifts-api
+- collection_type: open
+  name: Toast Authentication Stock API
+  slug: open-toast-tab-stock-api
+- collection_type: open
   name: Stock API
   slug: open-toast-tab-stock
+- collection_type: open
+  name: Toast Authentication Time entries API
+  slug: open-toast-tab-time-entries-api
 common:
 - group: build
   title: ''
@@ -1320,7 +1365,7 @@ plans:
 - name: Toast Tab Plans Pricing
   plan_count: 1
   slug: toast-tab-plans-pricing
-random_paper: 71
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Toast Tab Rate Limits
@@ -1373,7 +1418,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/screenshots/toast-tab-2026-06-20T195430.png
 security:

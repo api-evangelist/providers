@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -72,7 +72,41 @@ apis:
 - description: The symplectic API from Hamad Bin Khalifa University — 5 operation(s) for symplectic.
   name: Hamad Bin Khalifa University symplectic API
   slug: hbku-symplectic-api
-artifact_total: 29
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figshare altmetric API
+  slug: open-hbku-altmetric-api
+- collection_type: open
+  name: Figshare altmetric articles API
+  slug: open-hbku-articles-api
+- collection_type: open
+  name: Figshare altmetric authors API
+  slug: open-hbku-authors-api
+- collection_type: open
+  name: Figshare altmetric collections API
+  slug: open-hbku-collections-api
+- collection_type: open
+  name: Figshare altmetric institutions API
+  slug: open-hbku-institutions-api
+- collection_type: open
+  name: Figshare altmetric oauth API
+  slug: open-hbku-oauth-api
+- collection_type: open
+  name: Figshare altmetric other API
+  slug: open-hbku-other-api
+- collection_type: open
+  name: Figshare altmetric profiles API
+  slug: open-hbku-profiles-api
+- collection_type: open
+  name: Figshare altmetric projects API
+  slug: open-hbku-projects-api
+- collection_type: open
+  name: Figshare altmetric symplectic API
+  slug: open-hbku-symplectic-api
 common:
 - group: agent
   title: ''
@@ -189,7 +223,7 @@ plans:
 - name: Hbku Plans Pricing
   plan_count: 2
   slug: hbku-plans-pricing
-random_paper: 66
+random_paper: 128
 rate_limits:
 - limit_count: 1
   name: Hbku Rate Limits
@@ -236,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/screenshots/hbku-2026-06-20T182545.png
 security:

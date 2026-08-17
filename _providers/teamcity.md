@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
 - description: Manage version control system roots
   name: TeamCity VCS Roots API
   slug: teamcity-vcs-roots-api
-artifact_total: 82
+artifact_total: 100
 collections:
 - collection_type: postman
   name: TeamCity REST Agent Pools API
@@ -144,8 +144,62 @@ collections:
   name: TeamCity REST Agent Pools VCS Roots API
   slug: postman-teamcity-vcs-roots-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TeamCity REST Agent Pools API
+  slug: open-teamcity-agent-pools-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Agents API
+  slug: open-teamcity-agents-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Audit API
+  slug: open-teamcity-audit-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Build Configurations API
+  slug: open-teamcity-build-configurations-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Build Queue API
+  slug: open-teamcity-build-queue-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Builds API
+  slug: open-teamcity-builds-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Changes API
+  slug: open-teamcity-changes-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Cloud API
+  slug: open-teamcity-cloud-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Investigations API
+  slug: open-teamcity-investigations-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Mutes API
+  slug: open-teamcity-mutes-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Problems API
+  slug: open-teamcity-problems-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Projects API
+  slug: open-teamcity-projects-api
+- collection_type: open
   name: TeamCity REST API
   slug: open-teamcity-rest-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Server API
+  slug: open-teamcity-server-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Tests API
+  slug: open-teamcity-tests-api
+- collection_type: open
+  name: TeamCity REST Agent Pools User Groups API
+  slug: open-teamcity-user-groups-api
+- collection_type: open
+  name: TeamCity REST Agent Pools Users API
+  slug: open-teamcity-users-api
+- collection_type: open
+  name: TeamCity REST Agent Pools VCS Roots API
+  slug: open-teamcity-vcs-roots-api
 common:
 - group: commercial
   title: ''
@@ -321,7 +375,7 @@ plans:
 - name: Teamcity Plans Pricing
   plan_count: 3
   slug: teamcity-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Teamcity Rate Limits
@@ -355,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/screenshots/teamcity-2026-06-20T194957.png
 security:

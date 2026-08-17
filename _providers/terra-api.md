@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -72,8 +72,41 @@ apis:
 - description: Look up and manage connected users and subscriptions.
   name: Terra Users API
   slug: terra-api-users-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Terra Activity API
+  slug: open-terra-api-activity-api
+- collection_type: open
+  name: Terra Activity Athlete API
+  slug: open-terra-api-athlete-api
+- collection_type: open
+  name: Terra Activity Authentication API
+  slug: open-terra-api-authentication-api
+- collection_type: open
+  name: Terra Activity Body API
+  slug: open-terra-api-body-api
+- collection_type: open
+  name: Terra Activity Daily API
+  slug: open-terra-api-daily-api
+- collection_type: open
+  name: Terra Activity Integrations API
+  slug: open-terra-api-integrations-api
+- collection_type: open
+  name: Terra Activity Menstruation API
+  slug: open-terra-api-menstruation-api
+- collection_type: open
+  name: Terra Activity Nutrition API
+  slug: open-terra-api-nutrition-api
+- collection_type: open
+  name: Terra Activity Sleep API
+  slug: open-terra-api-sleep-api
+- collection_type: open
+  name: Terra Activity Users API
+  slug: open-terra-api-users-api
 - collection_type: open
   name: Terra API
   slug: open-terra-api
@@ -142,7 +175,7 @@ plans:
 - name: Terra Api Plans Pricing
   plan_count: 4
   slug: terra-api-plans-pricing
-random_paper: 61
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Terra Api Rate Limits
@@ -173,7 +206,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

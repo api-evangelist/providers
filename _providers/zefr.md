@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 6
 common:
@@ -140,7 +140,7 @@ plans:
 - name: Zefr Plans Pricing
   plan_count: 0
   slug: zefr-plans-pricing
-random_paper: 79
+random_paper: 141
 rate_limits:
 - limit_count: 0
   name: Zefr Rate Limits
@@ -153,7 +153,7 @@ scopes:
 score:
   band: emerging
   composite: 19.8
-  delta: 12.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -161,10 +161,10 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 7.6
+  previous_composite: 19.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Zefr Authentication

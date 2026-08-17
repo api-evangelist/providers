@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Multimodal origin-to-destination trip planning.
   name: Transit Trip Planning API
   slug: transitapp-trip-planning-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Transit Locations API
+  slug: open-transitapp-locations-api
+- collection_type: open
+  name: Transit Locations Nearby Routes API
+  slug: open-transitapp-nearby-routes-api
+- collection_type: open
+  name: Transit Locations Nearby Stops API
+  slug: open-transitapp-nearby-stops-api
+- collection_type: open
+  name: Transit Locations Route Details API
+  slug: open-transitapp-route-details-api
+- collection_type: open
+  name: Transit Locations Service Alerts API
+  slug: open-transitapp-service-alerts-api
+- collection_type: open
+  name: Transit Locations Stop Departures API
+  slug: open-transitapp-stop-departures-api
+- collection_type: open
+  name: Transit Locations Trip Planning API
+  slug: open-transitapp-trip-planning-api
 - collection_type: open
   name: Transit API
   slug: open-transitapp
@@ -130,7 +154,7 @@ plans:
 - name: Transitapp Plans Pricing
   plan_count: 2
   slug: transitapp-plans-pricing
-random_paper: 14
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Transitapp Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

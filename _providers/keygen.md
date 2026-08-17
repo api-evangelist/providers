@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -75,8 +75,47 @@ apis:
 - description: Webhook endpoints and events.
   name: Keygen Webhooks API
   slug: keygen-webhooks-api
-artifact_total: 21
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Keygen Artifacts API
+  slug: open-keygen-artifacts-api
+- collection_type: open
+  name: Keygen Artifacts Components API
+  slug: open-keygen-components-api
+- collection_type: open
+  name: Keygen Artifacts Entitlements API
+  slug: open-keygen-entitlements-api
+- collection_type: open
+  name: Keygen Artifacts Licenses API
+  slug: open-keygen-licenses-api
+- collection_type: open
+  name: Keygen Artifacts Machines API
+  slug: open-keygen-machines-api
+- collection_type: open
+  name: Keygen Artifacts Policies API
+  slug: open-keygen-policies-api
+- collection_type: open
+  name: Keygen Artifacts Processes API
+  slug: open-keygen-processes-api
+- collection_type: open
+  name: Keygen Artifacts Products API
+  slug: open-keygen-products-api
+- collection_type: open
+  name: Keygen Artifacts Releases API
+  slug: open-keygen-releases-api
+- collection_type: open
+  name: Keygen Artifacts Tokens API
+  slug: open-keygen-tokens-api
+- collection_type: open
+  name: Keygen Artifacts Users API
+  slug: open-keygen-users-api
+- collection_type: open
+  name: Keygen Artifacts Webhooks API
+  slug: open-keygen-webhooks-api
 - collection_type: open
   name: Keygen API
   slug: open-keygen
@@ -153,7 +192,7 @@ plans:
 - name: Keygen Plans Pricing
   plan_count: 5
   slug: keygen-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Keygen Rate Limits
@@ -178,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 6
@@ -176,11 +176,153 @@ apis:
 - description: The Webhook API from ConductorOne — 4 operation(s) for webhook.
   name: ConductorOne Webhook API
   slug: conductorone-webhook-api
-artifact_total: 54
+artifact_total: 101
 asyncapis:
 - description: ''
   name: Conductorone Webhooks
   slug: conductorone-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ConductorOne Access Conflict API
+  slug: open-conductorone-access-conflict-api
+- collection_type: open
+  name: ConductorOne Access Conflict App API
+  slug: open-conductorone-app-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Entitlement API
+  slug: open-conductorone-app-entitlement-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Entitlement Automation API
+  slug: open-conductorone-app-entitlement-automation-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Entitlement Automation Exclusion API
+  slug: open-conductorone-app-entitlement-automation-exclusion-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Entitlement Monitor Binding API
+  slug: open-conductorone-app-entitlement-monitor-binding-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Entitlement Owner API
+  slug: open-conductorone-app-entitlement-owner-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Entitlement Proxy Binding API
+  slug: open-conductorone-app-entitlement-proxy-binding-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Entitlement User Binding API
+  slug: open-conductorone-app-entitlement-user-binding-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Entitlement User Binding Feed API
+  slug: open-conductorone-app-entitlement-user-binding-feed-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Entitlement User Binding History API
+  slug: open-conductorone-app-entitlement-user-binding-history-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Owner API
+  slug: open-conductorone-app-owner-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Reports API
+  slug: open-conductorone-app-reports-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Resource API
+  slug: open-conductorone-app-resource-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Resource Owner API
+  slug: open-conductorone-app-resource-owner-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Resource Type API
+  slug: open-conductorone-app-resource-type-api
+- collection_type: open
+  name: ConductorOne Access Conflict App Usage Controls API
+  slug: open-conductorone-app-usage-controls-api
+- collection_type: open
+  name: ConductorOne Access Conflict AppAccessRequestDefaults API
+  slug: open-conductorone-appaccessrequestdefaults-api
+- collection_type: open
+  name: ConductorOne Access Conflict AppUsers API
+  slug: open-conductorone-appusers-api
+- collection_type: open
+  name: ConductorOne Access Conflict Attribute API
+  slug: open-conductorone-attribute-api
+- collection_type: open
+  name: ConductorOne Access Conflict Auth API
+  slug: open-conductorone-auth-api
+- collection_type: open
+  name: ConductorOne Access Conflict Automations API
+  slug: open-conductorone-automations-api
+- collection_type: open
+  name: ConductorOne Access Conflict AWS External ID Settings API
+  slug: open-conductorone-aws-external-id-settings-api
+- collection_type: open
+  name: ConductorOne Access Conflict Compliance Framework API
+  slug: open-conductorone-compliance-framework-api
+- collection_type: open
+  name: ConductorOne Access Conflict Connector API
+  slug: open-conductorone-connector-api
+- collection_type: open
+  name: ConductorOne Access Conflict Connector Catalog API
+  slug: open-conductorone-connector-catalog-api
+- collection_type: open
+  name: ConductorOne Access Conflict Directory API
+  slug: open-conductorone-directory-api
+- collection_type: open
+  name: ConductorOne Access Conflict Function API
+  slug: open-conductorone-function-api
+- collection_type: open
+  name: ConductorOne Access Conflict Function Commit API
+  slug: open-conductorone-function-commit-api
+- collection_type: open
+  name: ConductorOne Access Conflict Function Tag API
+  slug: open-conductorone-function-tag-api
+- collection_type: open
+  name: ConductorOne Access Conflict Org Domain API
+  slug: open-conductorone-org-domain-api
+- collection_type: open
+  name: ConductorOne Access Conflict Personal Client API
+  slug: open-conductorone-personal-client-api
+- collection_type: open
+  name: ConductorOne Access Conflict Policy API
+  slug: open-conductorone-policy-api
+- collection_type: open
+  name: ConductorOne Access Conflict Request Catalog API
+  slug: open-conductorone-request-catalog-api
+- collection_type: open
+  name: ConductorOne Access Conflict Request Schema API
+  slug: open-conductorone-request-schema-api
+- collection_type: open
+  name: ConductorOne Access Conflict Request Schema Entitlement Binding API
+  slug: open-conductorone-request-schema-entitlement-binding-api
+- collection_type: open
+  name: ConductorOne Access Conflict Risk Level API
+  slug: open-conductorone-risk-level-api
+- collection_type: open
+  name: ConductorOne Access Conflict Role API
+  slug: open-conductorone-role-api
+- collection_type: open
+  name: ConductorOne Access Conflict Session Settings API
+  slug: open-conductorone-session-settings-api
+- collection_type: open
+  name: ConductorOne Access Conflict Step Up Authentication Providers API
+  slug: open-conductorone-step-up-authentication-providers-api
+- collection_type: open
+  name: ConductorOne Access Conflict Step Up Authentication Transactions API
+  slug: open-conductorone-step-up-authentication-transactions-api
+- collection_type: open
+  name: ConductorOne Access Conflict System Log API
+  slug: open-conductorone-system-log-api
+- collection_type: open
+  name: ConductorOne Access Conflict System Log Exporter API
+  slug: open-conductorone-system-log-exporter-api
+- collection_type: open
+  name: ConductorOne Access Conflict Task API
+  slug: open-conductorone-task-api
+- collection_type: open
+  name: ConductorOne Access Conflict User API
+  slug: open-conductorone-user-api
+- collection_type: open
+  name: ConductorOne Access Conflict Webhook API
+  slug: open-conductorone-webhook-api
 common:
 - group: auth
   title: ''
@@ -337,7 +479,7 @@ overview: 'ConductorOne publishes 46 APIs on the [APIs.io](https://apis.io/) net
 
 
   ConductorOne''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, CLI, and 27 more developer resources.'
-random_paper: 99
+random_paper: 107
 scopes:
 - name: Conductorone Scopes
   scope_count: 0
@@ -366,7 +508,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/screenshots/conductorone-2026-07-25T210248.png
 security:

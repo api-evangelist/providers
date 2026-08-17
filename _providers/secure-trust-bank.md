@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -40,7 +40,11 @@ apis:
 - description: The OBIE Read/Write Confirmation of Funds (CBPII) API - FAPI-secured yes/no confirmation that funds are available on an account, for card-based payment instrument issuers, under PSD2 strong customer a
   name: Secure Trust Bank Confirmation of Funds API (OBIE Read/Write, CBPII)
   slug: confirmation-of-funds-api
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-open-data-standard
 common:
 - group: agent
   title: ''
@@ -155,7 +159,7 @@ overview: 'Secure Trust Bank publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Secure Trust Bank''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 47
+random_paper: 88
 scopes:
 - name: Secure Trust Bank Scopes
   scope_count: 3
@@ -190,7 +194,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

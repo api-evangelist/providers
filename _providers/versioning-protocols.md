@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Semantic Versioning is a versioning scheme using a MAJOR.MINOR.PATCH format where MAJOR increments denote breaking changes, MINOR increments indicate new backward-compatible features, and PATCH increm
@@ -152,7 +152,7 @@ plans:
 - name: Versioning Protocols Plans Pricing
   plan_count: 3
   slug: versioning-protocols-plans-pricing
-random_paper: 94
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Versioning Protocols Rate Limits
@@ -179,7 +179,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/versioning-protocols/refs/heads/main/screenshots/versioning-protocols-2026-06-20T200942.png
 security:

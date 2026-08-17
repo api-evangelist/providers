@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The ScanCloudStorage API from Cloudmersive — 10 operation(s) for scancloudstorage.
   name: Cloudmersive ScanCloudStorage API
   slug: cloudmersive-scancloudstorage-api
-artifact_total: 12
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: virusapi Scan API
+  slug: open-cloudmersive-scan-api
+- collection_type: open
+  name: virusapi Scan ScanCloudStorage API
+  slug: open-cloudmersive-scancloudstorage-api
 - collection_type: open
   name: virusapi
   slug: open-cloudmersive-virus-scan
@@ -131,7 +140,7 @@ plans:
 - name: Cloudmersive Plans Pricing
   plan_count: 8
   slug: cloudmersive-plans-pricing
-random_paper: 98
+random_paper: 106
 rate_limits:
 - limit_count: 10
   name: Cloudmersive Rate Limits
@@ -165,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/screenshots/cloudmersive-2026-06-20T174612.png
 security:

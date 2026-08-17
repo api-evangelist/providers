@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +53,23 @@ apis:
 - description: Property detail operations
   name: Starwood Hotels and Resorts Properties API
   slug: starwood-hotels-and-resorts-properties-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Starwood Hotel Search API
   slug: open-starwood-hotel-search
+- collection_type: open
+  name: Starwood Hotel Search Availability API
+  slug: open-starwood-hotels-and-resorts-availability-api
+- collection_type: open
+  name: Starwood Hotel Search Availability Hotels API
+  slug: open-starwood-hotels-and-resorts-hotels-api
+- collection_type: open
+  name: Starwood Hotel Search Availability Properties API
+  slug: open-starwood-hotels-and-resorts-properties-api
 common:
 - group: agent
   title: ''
@@ -178,7 +190,7 @@ press:
 - date: '2026-05-25'
   title: CT-STARWOOD-HOTELS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/3177140/ct-starwood-hotels?publisherId=90456
-random_paper: 6
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Starwood Hotels And Resorts Rate Limits
@@ -220,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/screenshots/starwood-hotels-and-resorts-2026-06-20T194521.png
 security:

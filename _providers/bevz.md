@@ -1,35 +1,46 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Partner
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
-  trial: false
+  source:
+  - https://www.bevz.com/pricing
+  - https://docs.bevz.com/#tag/faq
+  trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    mcp_server: true
+    openapi_examples: verified
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 46.4
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The Bevz Integrator Service is a partner REST API that lets POS vendors and third-party integrators provision and manage stores on the Bevz platform programmatically. It covers store creation, provisi
+  name: Bevz Integrator Service
+  slug: bevz-integrator-service
+artifact_total: 7
+asyncapis:
+- description: ''
+  name: Bevz Webhooks
+  slug: bevz-webhooks
 common:
 - group: auth
   title: ''
@@ -39,10 +50,54 @@ common:
   title: ''
   type: Website
   url: https://bevz.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.bevz.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.bevz.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.bevz.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.bevz.com/#tag/Getting-Started
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/bevz-changelog.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bevz-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/bevz-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bevz-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bevz-plans-pricing.yml
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.bevz.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://join.bevz.com/
 - group: company
   title: ''
   type: Blog
@@ -64,35 +119,55 @@ common:
   type: PrivacyPolicy
   url: https://www.bevz.com/privacy-policy
 created: '2026-07-17'
-description: Bevz is a delivery-management platform built for liquor stores and convenience retailers that consolidates multiple third-party delivery apps (DoorDash, Uber Eats, GrubHub) into a single dashboard. Its products cover menu management across platforms (Connect), AI-powered marketing and local promotion on Yelp, Google, and Facebook (Reach), cross-platform performance analytics (Reporting+), and a white-label direct-delivery storefront for restricted items (Shop.Bevz). Bevz bundles an iPad plus software, access to a 215,000+ product catalog, barcode scanning, onboarding, and training. Bevz is a Techstars-backed company; no public API, developer portal, or SDKs are currently published, so this profile is identity-only pending an API surface.
+description: 'Bevz is a delivery-management platform built for liquor stores and convenience retailers that consolidates multiple third-party delivery apps (DoorDash, Uber Eats, GrubHub) into a single dashboard. Its products cover menu management across platforms (Connect), AI-powered marketing and local promotion on Yelp, Google, and Facebook (Reach), cross-platform performance analytics (Reporting+), and a white-label direct-delivery storefront for restricted items (Shop.Bevz). Bevz bundles an iPad plus software, access to a 215,000+ product catalog, barcode scanning, onboarding, and training. Behind the merchant product Bevz operates a real partner API: the Bevz Integrator Service, a REST API documented with a published OpenAPI 3.0.3 contract covering 30 operations across store provisioning, menu upload and sync, product catalog maintenance, order lifecycle management, order adjustments and delivery-service onboarding for DoorDash, Grubhub and Uber Eats, plus three outbound webhooks.
+  It is aimed at POS vendors and third-party integrators, is credentialed by Bevz rather than self-serve, and runs a separate sandbox environment with a formal certification path to production. Bevz is a Techstars-backed company.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bevz.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: bevz-mcp.yml
+  slug: bevz-mcpyml
+modified: '2026-08-13'
 name: Bevz
 nav: Providers
 network: true
-overview: 'Bevz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Delivery Management, Liquor Retail, Convenience Store, and Point of Sale.
+overview: 'Bevz publishes 1 API on the [APIs.io](https://apis.io/) network: Integrator Service. Tagged areas include Company, Delivery Management, Liquor Retail, Convenience Store, and Point of Sale.
 
 
-  Bevz''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 79
+  The Bevz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Bevz''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, signup flow, engineering blog, and 12 more developer resources.'
+plans:
+- name: Bevz Plans Pricing
+  plan_count: 3
+  slug: bevz-plans-pricing
+random_paper: 141
+rate_limits:
+- limit_count: 0
+  name: Bevz Rate Limits
+  slug: bevz-rate-limits
 score:
-  band: minimal
-  composite: 12.6
-  delta: 0.0
+  band: developing
+  composite: 54.7
+  delta: 42.1
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 76.3
+    contract_quality: 64.2
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 15.8
   previous_composite: 12.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/screenshots/bevz-2026-07-25T202827.png
 security:
+- kind: authentication
+  name: Bevz Authentication
+  slug: bevz-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Bevz Domain Security
   slug: bevz-domain-security
@@ -107,5 +182,9 @@ tags:
 - Food Delivery
 - Retail Technology
 - Marketing
+- Menu Management
+- Order Management
+- Webhooks
+- Integrator API
 website: https://bevz.com/
 ---

@@ -1,35 +1,36 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  label: Enterprise · Partner certification required
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
+  - https://developers.partech.com/engagement-tools/par-punchh/
   - plans
   - authentication
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-12'
+  score: 65.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -37,30 +38,58 @@ agentic_access:
   operation_count: 17
   slug: punchh-agentic-access
   summary_line: 17 operations · 12 acting
-api_count: 7
+api_count: 15
 apis:
-- description: Loyalty check-ins for online orders.
-  name: Punchh Check-In API
-  slug: punchh-check-in-api
-- description: Loyalty check-in transaction details.
-  name: Punchh Check-Ins API
-  slug: punchh-check-ins-api
-- description: Location and program configuration/metadata.
-  name: Punchh Configuration API
-  slug: punchh-configuration-api
-- description: Guest offer management.
-  name: Punchh Offers API
-  slug: punchh-offers-api
-- description: Receipt detail storage.
-  name: Punchh Receipts API
-  slug: punchh-receipts-api
-- description: Apply rewards and discounts against online order receipts.
-  name: Punchh Redemptions API
-  slug: punchh-redemptions-api
-- description: Guest registration, authentication, and profile management.
-  name: Punchh Users API
-  slug: punchh-users-api
-artifact_total: 94
+- description: Punchh provides a robust platform for offering loyalty programs to customers. When a business integrates its back-end with the Punchh server, the Punchh APIs become instrumental in executing loyalty p
+  name: Punchh Mobile API
+  slug: punchh-mobile-api
+- description: For more information, see Online Ordering Module 5 - Redemptions. Published by PAR on the mobile section of the PAR developer portal; 6 operations. Certification required.
+  name: Punchh Redemptions 1.0 (Legacy) API - Mobile
+  slug: punchh-mobile-redemptions-legacy
+- description: 'The Redemptions 2.0 protocol has been designed to replace the legacy Redemptions 1.0 endpoints. The new protocol allows for the following features: - Single-scan flow support - Batching of redemptions'
+  name: Punchh Redemptions 2.0 (New) API - Mobile
+  slug: punchh-mobile-redemptions-v2
+- description: Subscriptions is an add-on Punchh loyalty product that allows businesses to create subscription plans to generate up-front revenue and offers benefits in addition to the standard benefits that unsubsc
+  name: Punchh Subscription API - Mobile
+  slug: punchh-mobile-subscription
+- description: 'For more information, see Online Ordering Module 5: Redemptions. Published by PAR on the online ordering section of the PAR developer portal; 4 operations. Certification required.'
+  name: Punchh Redemptions 1.0 (Legacy) API - Online Ordering
+  slug: punchh-online-ordering-redemptions-legacy
+- description: 'The Redemptions 2.0 protocol has been designed to replace the legacy Redemptions 1.0 endpoints. The new protocol allows for the following features: - Single-scan flow support - Batching of redemptions'
+  name: Punchh Redemptions 2.0 (New) API - Online Ordering
+  slug: punchh-online-ordering-redemptions-v2
+- description: The Punchh SSO API endpoints provide user-management functions such as login, registration, forgot password, and connect with Facebook for users on the Punchh loyalty platform. You can also fetch user
+  name: Punchh Online Ordering and SSO API
+  slug: punchh-online-ordering-sso-api
+- description: Subscriptions is an add-on Punchh loyalty product that allows businesses to create subscription plans to generate up-front revenue and offers benefits in addition to the standard benefits that unsubsc
+  name: Punchh Subscription API - Online Ordering
+  slug: punchh-online-ordering-subscription
+- description: This API documentation is intended to provide comprehensive information for admin users of the Punchh platform. Many of the settings and available actions depend on an appropriate level of access to P
+  name: Punchh Platform Functions API
+  slug: punchh-platform-functions-api
+- description: Distribute Punchh offers through an external system of choice by configuring and scheduling the mass offer campaign functionality through API calls. For more information, see Headless Offers Managemen
+  name: Punchh Headless Offers API - Platform Functions
+  slug: punchh-platform-functions-headless-offers
+- description: Create and update in bulk and list Line Item Selectors (LIS), Qualification Criteria (QC), and Reedemables through Offers Ingestion API calls. For more information, see Offers Ingestion Management Pub
+  name: Punchh Offers Ingestion API - Platform Functions
+  slug: punchh-platform-functions-offers-ingestion
+- description: Subscriptions is an add-on Punchh loyalty product that allows businesses to create subscription plans to generate up-front revenue and offers benefits in addition to the standard benefits that unsubsc
+  name: Punchh Subscription API - Platform Functions
+  slug: punchh-platform-functions-subscription
+- description: Punchh provides robust APIs for integrating POS (Point-of-Sale) terminals with its back end. The integration helps businesses to offer their customers loyalty programs directly from their POS systems.
+  name: Punchh POS API
+  slug: punchh-pos-api
+- description: For more information, see POS Module 6 - Redemptions. Published by PAR on the pos section of the PAR developer portal; 6 operations. Certification required.
+  name: Punchh Redemptions 1.0 (Legacy) API - POS
+  slug: punchh-pos-redemptions-legacy
+- description: 'The Redemptions 2.0 protocol has been designed to replace the legacy Redemptions 1.0 endpoints. The new protocol allows for the following features: - Single-scan flow support - Batching of redemptions'
+  name: Punchh Redemptions 2.0 (New) API - POS
+  slug: punchh-pos-redemptions-v2
+artifact_total: 102
+asyncapis:
+- description: ''
+  name: Punchh Webhooks
+  slug: punchh-webhooks
 collections:
 - collection_type: postman
   name: PAR Punchh Mobile Check-In API
@@ -84,14 +113,62 @@ collections:
   name: PAR Punchh Mobile Check-In Users API
   slug: postman-punchh-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mobile API
+  slug: open-punchh-mobile-api
+- collection_type: open
+  name: Redemptions 1.0 (Legacy) API - Mobile
+  slug: open-punchh-mobile-redemptions-legacy
+- collection_type: open
+  name: Redemptions 2.0 (New) API - Mobile
+  slug: open-punchh-mobile-redemptions-v2
+- collection_type: open
+  name: Subscription API - Mobile
+  slug: open-punchh-mobile-subscription
+- collection_type: open
   name: PAR Punchh Mobile API
   slug: open-punchh-mobile
+- collection_type: open
+  name: Redemptions 1.0 (Legacy) API - Online Ordering
+  slug: open-punchh-online-ordering-redemptions-legacy
+- collection_type: open
+  name: Redemptions 2.0 (New) API - Online Ordering
+  slug: open-punchh-online-ordering-redemptions-v2
+- collection_type: open
+  name: Online Ordering and SSO API
+  slug: open-punchh-online-ordering-sso-api
+- collection_type: open
+  name: Subscription API - Online Ordering
+  slug: open-punchh-online-ordering-subscription
 - collection_type: open
   name: PAR Punchh Online Ordering and SSO API
   slug: open-punchh-online-ordering
 - collection_type: open
+  name: Platform Functions API
+  slug: open-punchh-platform-functions-api
+- collection_type: open
+  name: Headless Offers API - Platform Functions
+  slug: open-punchh-platform-functions-headless-offers
+- collection_type: open
+  name: Offers Ingestion API - Platform Functions
+  slug: open-punchh-platform-functions-offers-ingestion
+- collection_type: open
+  name: Subscription API - Platform Functions
+  slug: open-punchh-platform-functions-subscription
+- collection_type: open
   name: PAR Punchh Platform Functions API
   slug: open-punchh-platform-functions
+- collection_type: open
+  name: POS API
+  slug: open-punchh-pos-api
+- collection_type: open
+  name: Redemptions 1.0 (Legacy) API - POS
+  slug: open-punchh-pos-redemptions-legacy
+- collection_type: open
+  name: Redemptions 2.0 (New) API - POS
+  slug: open-punchh-pos-redemptions-v2
 - collection_type: open
   name: PAR Punchh POS and Kiosk API
   slug: open-punchh-pos
@@ -134,10 +211,6 @@ common:
   url: https://developers.partech.com/docs/dev-portal-developer-resources
 - group: build
   title: ''
-  type: Postman
-  url: https://punchh.com/blog/2024/07/12/par-punchh-apis-now-available-on-postman-workspace/
-- group: build
-  title: ''
   type: GitHubOrganization
   url: https://github.com/punchh
 - group: company
@@ -172,6 +245,94 @@ common:
   title: ''
   type: Webhooks
   url: https://developers.partech.com/docs/dev-portal-webhooks-manager/8c18e3660f73f-event-guest
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/punchh-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/punchh-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/punchh-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/punchh-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.punchh.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/punchh-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/punchh-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/punchh-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/punchh-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/punchh-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/punchh-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/punchh-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/punchh-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/punchh-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/punchh-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://partech.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://partech.com/terms-of-use/
+- group: operate
+  title: ''
+  type: Support
+  url: https://punchh.com/contact/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.partech.com/docs/dev-portal-developer-resources
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://punchh.com/security/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/par-tech/workspace/par-tech-apis-official
 created: '2026-06-02'
 description: Punchh, now part of PAR Technology and offered under the PAR Engagement brand, is an enterprise loyalty, offers, and customer engagement platform for restaurants. It unifies guest data from online ordering, mobile apps, POS, and kiosks into a single view so brands can run personalized loyalty and marketing programs. PAR exposes well-documented Punchh APIs through its developer portal covering platform functions, mobile, online ordering, POS and kiosk integration, and a webhooks manager, with sample collections published to Postman. Most integration surfaces require partner certification. Over 275 restaurant brands rely on Punchh to grow customer lifetime value.
 examples:
@@ -220,35 +381,11 @@ examples:
 - key_count: 6
   name: Pos Pos User Example
   slug: pos-pos-user-example
-features:
-- description: Configurable points, rewards, tiers, and membership levels across channels.
-  name: Loyalty Programs
-- description: Targeted offers, coupons, and personalized marketing campaigns driven by unified guest data.
-  name: Offers and Campaigns
-- description: Earn loyalty across mobile, online ordering, POS, and kiosk channels.
-  name: Omnichannel Check-Ins
-- description: Apply rewards, redeemables, and discounts against receipts with possible/create/void flows.
-  name: Redemptions
-- description: Real-time event notifications for coupons, points, rewards, and guest lifecycle events.
-  name: Webhooks Manager
-- description: Surface Punchh-defined offers natively in external platforms via Platform Functions.
-  name: Headless Offers
 finops:
 - name: Punchh Finops
   service_category: Loyalty + Guest Engagement
   slug: punchh-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/punchh.png
-integrations:
-- description: Integrations with restaurant POS platforms for in-store loyalty.
-  name: Point of Sale Systems
-- description: Digital and online ordering platforms connect via the Online Ordering and SSO API.
-  name: Online Ordering Platforms
-- description: Unify guest data with CDPs and CRMs.
-  name: Customer Data Platforms
-- description: Punchh Loyalty connector for Salesforce Marketing Cloud on AppExchange.
-  name: Salesforce Marketing Cloud
-- description: Connects to messaging platforms, surveys, and payment gateways across dozens of categories.
-  name: Messaging and Payment Gateways
 json_schemas:
 - name: AccessToken
   property_count: 4
@@ -359,22 +496,26 @@ jsonld:
   property_count: 10
   slug: punchh-pos-context
 layout: provider
-modified: '2026-06-03'
+mcp_servers:
+- description: ''
+  name: punchh-mcp.yml
+  slug: punchh-mcpyml
+modified: '2026-08-13'
 name: Punchh
 nav: Providers
 network: true
-overview: 'Punchh publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Check-In API, Check-Ins API, Configuration API, and 4 more. Tagged areas include Restaurant, Loyalty, Marketing, Guest Engagement, and Online Ordering.
+overview: 'Punchh publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Mobile API, Redemptions 1.0 (Legacy) API - Mobile, Redemptions 2.0 (New) API - Mobile, and 12 more. Tagged areas include Gift Cards, Guest Engagement, Loyalty, Marketing, and Mobile.
 
 
-  The Punchh catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Punchh catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Punchh''s developer surface includes authentication, documentation, developer portal, getting-started guide, engineering blog, and 14 more developer resources.'
+  Punchh''s developer surface includes authentication, documentation, developer portal, getting-started guide, engineering blog, sandbox, changelog, and 33 more developer resources.'
 plans:
 - name: Punchh Plans Pricing
   plan_count: 1
   slug: punchh-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Punchh Rate Limits
@@ -397,16 +538,16 @@ rules:
     warn: 23
   slug: punchh-spectral-rules
 score:
-  band: developing
-  composite: 43.7
-  delta: 0.0
+  band: strong
+  composite: 63.9
+  delta: 20.2
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 31.6
-    developer_ergonomics: 45.7
-    discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 44.7
+    commercial_clarity: 50.0
+    contract_quality: 38.9
+    developer_ergonomics: 78.3
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 94.7
   previous_composite: 43.7
   provenance:
     agentic_access: derived
@@ -415,15 +556,21 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:
 - kind: authentication
   name: Punchh Authentication
   slug: punchh-authentication
-  summary_line: apiKey/http · 3 schemes
+  summary_line: http/apiKey/oauth2-flavoured · 7 schemes
 - kind: domain-security
   name: Punchh Domain Security
   slug: punchh-domain-security
@@ -433,30 +580,18 @@ security:
   slug: punchh-vulnerability-disclosure
   summary_line: Hackerone
 slug: punchh
-solutions:
-- description: Enterprise loyalty program management for restaurant brands.
-  name: Loyalty
-- description: Personalized offers and promotions engine.
-  name: Offers
-- description: Unified marketing and engagement across the guest lifecycle.
-  name: Guest Engagement
 tags:
-- Restaurant
+- Gift Cards
+- Guest Engagement
 - Loyalty
 - Marketing
-- Guest Engagement
-- Online Ordering
 - Mobile
+- Offers
+- Online Ordering
+- PAR Technology
 - Point Of Sale
+- Restaurant
+- Restaurant Technology
 - Webhooks
-use_cases:
-- description: Power a restaurant brand's mobile app with sign-in, profile, check-ins, and offers.
-  name: Branded Mobile Loyalty App
-- description: Let guests earn and redeem loyalty on a digital ordering platform via SSO and check-in APIs.
-  name: Online Ordering Rewards
-- description: Look up guests, accrue points, and redeem rewards at the point of sale or kiosk.
-  name: POS Loyalty at the Counter
-- description: Pull Punchh redeemables into a CDP, messaging platform, or partner channel.
-  name: External Offer Distribution
 website: https://punchh.com/
 ---

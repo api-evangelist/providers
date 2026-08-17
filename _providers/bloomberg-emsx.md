@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: Manage EMSX trading teams
   name: Bloomberg EMSX Teams API
   slug: bloomberg-emsx-teams-api
-artifact_total: 20
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bloomberg EMSX Trading Brokers API
+  slug: open-bloomberg-emsx-brokers-api
+- collection_type: open
+  name: Bloomberg EMSX Trading Brokers Field Lists API
+  slug: open-bloomberg-emsx-field-lists-api
+- collection_type: open
+  name: Bloomberg EMSX Trading Brokers Fills API
+  slug: open-bloomberg-emsx-fills-api
+- collection_type: open
+  name: Bloomberg EMSX Trading Brokers Orders API
+  slug: open-bloomberg-emsx-orders-api
+- collection_type: open
+  name: Bloomberg EMSX Trading Brokers Routes API
+  slug: open-bloomberg-emsx-routes-api
+- collection_type: open
+  name: Bloomberg EMSX Trading Brokers Teams API
+  slug: open-bloomberg-emsx-teams-api
 - collection_type: open
   name: Bloomberg EMSX Trading API
   slug: open-bloomberg-emsx-trading
@@ -140,7 +161,7 @@ plans:
 - name: Bloomberg Emsx Plans Pricing
   plan_count: 3
   slug: bloomberg-emsx-plans-pricing
-random_paper: 3
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Bloomberg Emsx Rate Limits
@@ -180,7 +201,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/screenshots/bloomberg-emsx-2026-07-25T203400.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The Gateway API from Rivet — 12 operation(s) for gateway.
   name: Rivet Gateway API
   slug: rivet-gateway-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RivetKit Actors API
+  slug: open-rivet-actors-api
+- collection_type: open
+  name: RivetKit Actors Gateway API
+  slug: open-rivet-gateway-api
 common:
 - group: other
   title: ''
@@ -170,7 +180,7 @@ overview: 'Rivet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ac
 
 
   Rivet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 74
+random_paper: 107
 score:
   band: developing
   composite: 42.0
@@ -194,7 +204,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

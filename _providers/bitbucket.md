@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -108,7 +108,7 @@ apis:
 - description: A workspace is where you create repositories, collaborate on your code, and organize different streams of work in your Bitbucket Cloud account. Workspaces replace the use of teams and users in API cal
   name: Bitbucket Workspaces API
   slug: bitbucket-workspaces-api
-artifact_total: 103
+artifact_total: 127
 asyncapis:
 - description: Bitbucket Cloud webhooks deliver event payloads to a subscriber URL via HTTP POST whenever a configured event occurs in a repository or workspace. Each event request includes an X-Event-Key header ide
   name: Bitbucket Cloud Webhook Events
@@ -184,8 +184,80 @@ collections:
   name: Bitbucket Addon Workspaces API
   slug: postman-bitbucket-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bitbucket Addon API
+  slug: open-bitbucket-addon-api
+- collection_type: open
+  name: Bitbucket Addon Branch restrictions API
+  slug: open-bitbucket-branch-restrictions-api
+- collection_type: open
+  name: Bitbucket Addon Branching model API
+  slug: open-bitbucket-branching-model-api
+- collection_type: open
   name: Bitbucket API
   slug: open-bitbucket-cloud-rest-api
+- collection_type: open
+  name: Bitbucket Addon Commit statuses API
+  slug: open-bitbucket-commit-statuses-api
+- collection_type: open
+  name: Bitbucket Addon Commits API
+  slug: open-bitbucket-commits-api
+- collection_type: open
+  name: Bitbucket Addon Deployments API
+  slug: open-bitbucket-deployments-api
+- collection_type: open
+  name: Bitbucket Addon Downloads API
+  slug: open-bitbucket-downloads-api
+- collection_type: open
+  name: Bitbucket Addon GPG API
+  slug: open-bitbucket-gpg-api
+- collection_type: open
+  name: Bitbucket Addon Issue tracker API
+  slug: open-bitbucket-issue-tracker-api
+- collection_type: open
+  name: Bitbucket Addon Pipelines API
+  slug: open-bitbucket-pipelines-api
+- collection_type: open
+  name: Bitbucket Addon Projects API
+  slug: open-bitbucket-projects-api
+- collection_type: open
+  name: Bitbucket Addon properties API
+  slug: open-bitbucket-properties-api
+- collection_type: open
+  name: Bitbucket Addon Pullrequests API
+  slug: open-bitbucket-pullrequests-api
+- collection_type: open
+  name: Bitbucket Addon Refs API
+  slug: open-bitbucket-refs-api
+- collection_type: open
+  name: Bitbucket Addon Reports API
+  slug: open-bitbucket-reports-api
+- collection_type: open
+  name: Bitbucket Addon Repositories API
+  slug: open-bitbucket-repositories-api
+- collection_type: open
+  name: Bitbucket Addon Search API
+  slug: open-bitbucket-search-api
+- collection_type: open
+  name: Bitbucket Addon Snippets API
+  slug: open-bitbucket-snippets-api
+- collection_type: open
+  name: Bitbucket Addon Source API
+  slug: open-bitbucket-source-api
+- collection_type: open
+  name: Bitbucket Addon SSH API
+  slug: open-bitbucket-ssh-api
+- collection_type: open
+  name: Bitbucket Addon Users API
+  slug: open-bitbucket-users-api
+- collection_type: open
+  name: Bitbucket Addon Webhooks API
+  slug: open-bitbucket-webhooks-api
+- collection_type: open
+  name: Bitbucket Addon Workspaces API
+  slug: open-bitbucket-workspaces-api
 common:
 - group: build
   title: ''
@@ -367,7 +439,7 @@ plans:
 - name: Bitbucket Plans Pricing
   plan_count: 3
   slug: bitbucket-plans-pricing
-random_paper: 117
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Bitbucket Rate Limits
@@ -422,7 +494,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/screenshots/bitbucket-2026-06-20T173301.png
 security:

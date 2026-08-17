@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -48,7 +48,38 @@ apis:
 - description: Categories, tags and the `portfolio-types` custom taxonomy. Categories holds one term (Uncategorized, count 0); tags is empty; portfolio-types holds one term (leadership, count 0).
   name: Nacuity Pharmaceuticals Taxonomy API
   slug: nacuity-pharmaceuticals-taxonomy-api
-artifact_total: 12
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nacuity Pharmaceuticals Content Discovery API
+  slug: open-nacuity-pharmaceuticals-discovery-api
+- collection_type: open
+  name: Nacuity Pharmaceuticals Content Media API
+  slug: open-nacuity-pharmaceuticals-media-api
+- collection_type: open
+  name: Nacuity Pharmaceuticals Content Oembed API
+  slug: open-nacuity-pharmaceuticals-oembed-api
+- collection_type: open
+  name: Nacuity Pharmaceuticals Content Pages API
+  slug: open-nacuity-pharmaceuticals-pages-api
+- collection_type: open
+  name: Nacuity Pharmaceuticals Content Portfolio API
+  slug: open-nacuity-pharmaceuticals-portfolio-api
+- collection_type: open
+  name: Nacuity Pharmaceuticals Content Posts API
+  slug: open-nacuity-pharmaceuticals-posts-api
+- collection_type: open
+  name: Nacuity Pharmaceuticals Content Search API
+  slug: open-nacuity-pharmaceuticals-search-api
+- collection_type: open
+  name: Nacuity Pharmaceuticals Content Seo API
+  slug: open-nacuity-pharmaceuticals-seo-api
+- collection_type: open
+  name: Nacuity Pharmaceuticals Content Taxonomy API
+  slug: open-nacuity-pharmaceuticals-taxonomy-api
 common:
 - group: other
   title: ''
@@ -199,7 +230,7 @@ overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://api
 
 
   Nacuity Pharmaceuticals'' developer surface includes product news, support, authentication, and 29 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: thin
   composite: 29.1
@@ -227,7 +258,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/screenshots/nacuity-pharmaceuticals-2026-08-07T184606.png
 security:

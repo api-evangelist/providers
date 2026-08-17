@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -83,11 +83,56 @@ apis:
 - description: Aider Commands That Pull in Web Content.
   name: Aider Web API
   slug: aider-web-api
-artifact_total: 101
+artifact_total: 116
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aider CLI Chat API
+  slug: open-aider-chat-api
 - collection_type: open
   name: Aider CLI
   slug: open-aider-cli
+- collection_type: open
+  name: Aider CLI Chat Editing API
+  slug: open-aider-editing-api
+- collection_type: open
+  name: Aider CLI Chat Files API
+  slug: open-aider-files-api
+- collection_type: open
+  name: Aider CLI Chat Git API
+  slug: open-aider-git-api
+- collection_type: open
+  name: Aider CLI Chat IO API
+  slug: open-aider-io-api
+- collection_type: open
+  name: Aider CLI Chat Launch API
+  slug: open-aider-launch-api
+- collection_type: open
+  name: Aider CLI Chat Map API
+  slug: open-aider-map-api
+- collection_type: open
+  name: Aider CLI Chat Models API
+  slug: open-aider-models-api
+- collection_type: open
+  name: Aider CLI Chat Modes API
+  slug: open-aider-modes-api
+- collection_type: open
+  name: Aider CLI Chat Quality API
+  slug: open-aider-quality-api
+- collection_type: open
+  name: Aider CLI Chat Session API
+  slug: open-aider-session-api
+- collection_type: open
+  name: Aider CLI Chat Settings API
+  slug: open-aider-settings-api
+- collection_type: open
+  name: Aider CLI Chat Voice API
+  slug: open-aider-voice-api
+- collection_type: open
+  name: Aider CLI Chat Web API
+  slug: open-aider-web-api
 common:
 - group: operate
   title: ''
@@ -491,7 +536,7 @@ overview: 'Aider publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aider''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, tooling, and 30 more developer resources.'
-random_paper: 37
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Aider Rate Limits
@@ -533,7 +578,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/screenshots/aider-2026-06-20T170838.png
 security:

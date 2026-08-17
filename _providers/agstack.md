@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 20
@@ -60,11 +60,35 @@ apis:
 - description: The Linkeddata API from AgStack Foundation — 5 operation(s) for linkeddata.
   name: AgStack Foundation Linkeddata API
   slug: agstack-linkeddata-api
-artifact_total: 259
+artifact_total: 267
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AgStack Asset Registry api API
+  slug: open-agstack-api-api
 - collection_type: open
   name: AgStack Asset Registry API
   slug: open-agstack-asset-registry
+- collection_type: open
+  name: AgStack Asset Registry api Auth API
+  slug: open-agstack-auth-api
+- collection_type: open
+  name: AgStack Asset Registry api Authentication API
+  slug: open-agstack-authentication-api
+- collection_type: open
+  name: AgStack Asset Registry api Data API
+  slug: open-agstack-data-api
+- collection_type: open
+  name: AgStack Asset Registry api Field Registration (POST) API
+  slug: open-agstack-field-registration-post-api
+- collection_type: open
+  name: AgStack Asset Registry api Field Retrieval & Queries API
+  slug: open-agstack-field-retrieval-queries-api
+- collection_type: open
+  name: AgStack Asset Registry api Linkeddata API
+  slug: open-agstack-linkeddata-api
 - collection_type: open
   name: OpenAgri Farm Calendar API
   slug: open-agstack-openagri-farm-calendar
@@ -843,7 +867,7 @@ plans:
 - name: Agstack Plans Pricing
   plan_count: 3
   slug: agstack-plans-pricing
-random_paper: 14
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Agstack Rate Limits
@@ -885,7 +909,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/screenshots/agstack-2026-06-20T170504.png
 security:

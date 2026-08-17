@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: River's GraphQL data API secured with OAuth 2.0 authorization-code + PKCE and OpenID Connect. Read scopes cover account balances, transactions, identity, and payment networks.
@@ -132,7 +132,7 @@ overview: 'River Financial publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   River Financial''s developer surface includes support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 90
+random_paper: 40
 scopes:
 - name: River Financial Scopes
   scope_count: 6
@@ -160,7 +160,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

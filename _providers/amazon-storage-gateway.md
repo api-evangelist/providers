@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 3
@@ -324,7 +324,7 @@ apis:
 - description: 'The #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatevtldevicetype.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api
-artifact_total: 866
+artifact_total: 962
 collections:
 - collection_type: postman
   name: Amazon Storage Gateway REST Amazon Storage Gateway REST API API
@@ -612,8 +612,296 @@ collections:
   name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API'
   slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Storage Gateway REST Amazon Storage Gateway REST API API
+  slug: open-amazon-storage-gateway-amazon-storage-gateway-rest-api-api
+- collection_type: open
   name: Amazon Storage Gateway REST API
   slug: open-amazon-storage-gateway-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #CreateNFSFileShare API'
+  slug: open-amazon-storage-gateway-createnfsfileshare-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #DescribeGatewayInformation API'
+  slug: open-amazon-storage-gateway-describegatewayinformation-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #ListGateways API'
+  slug: open-amazon-storage-gateway-listgateways-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #ListVolumes API'
+  slug: open-amazon-storage-gateway-listvolumes-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ActivateGateway API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-activategateway-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AddCache API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-addcache-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AddTagsToResource API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-addtagstoresource-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AddUploadBuffer API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-adduploadbuffer-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AddWorkingStorage API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-addworkingstorage-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AssignTapePool API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-assigntapepool-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AssociateFileSystem API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-associatefilesystem-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AttachVolume API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-attachvolume-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CancelArchival API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-cancelarchival-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CancelRetrieval API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-cancelretrieval-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateCachediSCSIVolume API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createcachediscsivolume-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateNFSFileShare API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createnfsfileshare-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateSMBFileShare API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createsmbfileshare-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateSnapshot API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createsnapshot-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateSnapshotFromVolumeRecoveryPoint API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createsnapshotfromvolumerecoverypoint-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateStorediSCSIVolume API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createstorediscsivolume-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateTapePool API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createtapepool-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateTapes API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createtapes-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateTapeWithBarcode API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createtapewithbarcode-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteAutomaticTapeCreationPolicy API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deleteautomatictapecreationpolicy-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteBandwidthRateLimit API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletebandwidthratelimit-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteChapCredentials API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletechapcredentials-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteFileShare API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletefileshare-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteGateway API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletegateway-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteSnapshotSchedule API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletesnapshotschedule-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteTape API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletetape-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteTapeArchive API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletetapearchive-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteTapePool API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletetapepool-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteVolume API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletevolume-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeAvailabilityMonitorTest API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describeavailabilitymonitortest-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimit API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describebandwidthratelimit-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimitSchedule API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describebandwidthratelimitschedule-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeCache API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describecache-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeCachediSCSIVolumes API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describecachediscsivolumes-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeChapCredentials API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describechapcredentials-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeFileSystemAssociations API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describefilesystemassociations-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeGatewayInformation API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describegatewayinformation-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeMaintenanceStartTime API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describemaintenancestarttime-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeNFSFileShares API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describenfsfileshares-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeSMBFileShares API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describesmbfileshares-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeSMBSettings API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describesmbsettings-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeSnapshotSchedule API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describesnapshotschedule-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeStorediSCSIVolumes API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describestorediscsivolumes-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeTapeArchives API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describetapearchives-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeTapeRecoveryPoints API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describetaperecoverypoints-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeTapes API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describetapes-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeUploadBuffer API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describeuploadbuffer-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeVTLDevices API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describevtldevices-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeWorkingStorage API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describeworkingstorage-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DetachVolume API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-detachvolume-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DisableGateway API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-disablegateway-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DisassociateFileSystem API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-disassociatefilesystem-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.JoinDomain API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-joindomain-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListAutomaticTapeCreationPolicies API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listautomatictapecreationpolicies-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListFileShares API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listfileshares-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListFileSystemAssociations API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listfilesystemassociations-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListGateways API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listgateways-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListLocalDisks API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listlocaldisks-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListTagsForResource API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listtagsforresource-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListTapePools API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listtapepools-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListTapes API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listtapes-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListVolumeInitiators API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listvolumeinitiators-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListVolumeRecoveryPoints API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listvolumerecoverypoints-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListVolumes API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listvolumes-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.NotifyWhenUploaded API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-notifywhenuploaded-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.RefreshCache API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-refreshcache-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.RemoveTagsFromResource API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-removetagsfromresource-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ResetCache API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-resetcache-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.RetrieveTapeArchive API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-retrievetapearchive-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.RetrieveTapeRecoveryPoint API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-retrievetaperecoverypoint-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.SetLocalConsolePassword API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-setlocalconsolepassword-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.SetSMBGuestPassword API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-setsmbguestpassword-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ShutdownGateway API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-shutdowngateway-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.StartAvailabilityMonitorTest API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-startavailabilitymonitortest-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.StartGateway API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-startgateway-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateAutomaticTapeCreationPolicy API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updateautomatictapecreationpolicy-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimit API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatebandwidthratelimit-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimitSchedule API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatebandwidthratelimitschedule-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateChapCredentials API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatechapcredentials-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateFileSystemAssociation API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatefilesystemassociation-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateGatewayInformation API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updategatewayinformation-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateGatewaySoftwareNow API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updategatewaysoftwarenow-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateMaintenanceStartTime API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatemaintenancestarttime-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateNFSFileShare API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatenfsfileshare-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSMBFileShare API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmbfileshare-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSMBFileShareVisibility API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmbfilesharevisibility-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSMBLocalGroups API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmblocalgroups-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSMBSecurityStrategy API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmbsecuritystrategy-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSnapshotSchedule API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesnapshotschedule-api
+- collection_type: open
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API'
+  slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api
 common:
 - group: build
   title: ''
@@ -2702,7 +2990,7 @@ plans:
 - name: Amazon Storage Gateway Plans Pricing
   plan_count: 3
   slug: amazon-storage-gateway-plans-pricing
-random_paper: 87
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Storage Gateway Rate Limits
@@ -2744,7 +3032,7 @@ score:
       marker_coverage: 0.0
       total: 95
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/screenshots/amazon-storage-gateway-2026-06-20T171833.png
 security:

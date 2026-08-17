@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: Park entities including rides, shows, restaurants, and parks
   name: ThemeParks.wiki Entities API
   slug: themeparks-wiki-entities-api
-artifact_total: 57
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ThemeParks.wiki Destinations API
+  slug: open-themeparks-wiki-destinations-api
+- collection_type: open
+  name: ThemeParks.wiki Destinations Entities API
+  slug: open-themeparks-wiki-entities-api
 - collection_type: open
   name: ThemeParks.wiki API
   slug: open-themeparks-wiki
@@ -236,7 +245,7 @@ plans:
 - name: Themeparks Wiki Plans Pricing
   plan_count: 3
   slug: themeparks-wiki-plans-pricing
-random_paper: 117
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Themeparks Wiki Rate Limits
@@ -278,7 +287,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/screenshots/themeparks-wiki-2026-06-20T195346.png
 security:

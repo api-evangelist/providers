@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Users API from Configure8 — 2 operation(s) for users.
   name: Configure8 Users API
   slug: configure8-users-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Configure8 Public REST Catalog Entities API
+  slug: open-configure8-catalog-entities-api
+- collection_type: open
+  name: Configure8 Public REST Catalog Entities Catalog Relations API
+  slug: open-configure8-catalog-relations-api
+- collection_type: open
+  name: Configure8 Public REST Catalog Entities Deployments API
+  slug: open-configure8-deployments-api
+- collection_type: open
+  name: Configure8 Public REST Catalog Entities Scorecards API
+  slug: open-configure8-scorecards-api
+- collection_type: open
+  name: Configure8 Public REST Catalog Entities Users API
+  slug: open-configure8-users-api
 - collection_type: open
   name: Configure8 Public REST API
   slug: open-configure8
@@ -135,7 +153,7 @@ plans:
 - name: Configure8 Plans Pricing
   plan_count: 3
   slug: configure8-plans-pricing
-random_paper: 58
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Configure8 Rate Limits
@@ -160,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/screenshots/configure8-2026-06-20T174854.png
 security:

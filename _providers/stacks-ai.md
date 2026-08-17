@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Run Flow API from Stacks Ai — 1 operation(s) for run flow.
   name: Stacks Ai Run Flow API
   slug: stacks-ai-run-flow-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: StackAI analytics API
+  slug: open-stacks-ai-analytics-api
+- collection_type: open
+  name: StackAI analytics Knowledge Base Resources API
+  slug: open-stacks-ai-knowledge-base-resources-api
+- collection_type: open
+  name: StackAI analytics Knowledge Base Sync API
+  slug: open-stacks-ai-knowledge-base-sync-api
+- collection_type: open
+  name: StackAI analytics Knowledge Bases API
+  slug: open-stacks-ai-knowledge-bases-api
+- collection_type: open
+  name: StackAI analytics Run Flow API
+  slug: open-stacks-ai-run-flow-api
 common:
 - group: agent
   title: ''
@@ -151,7 +170,7 @@ overview: 'Stacks Ai publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Stacks Ai''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 14 more developer resources.'
-random_paper: 56
+random_paper: 2
 scopes:
 - name: Stacks Ai Scopes
   scope_count: 0
@@ -180,7 +199,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

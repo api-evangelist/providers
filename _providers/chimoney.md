@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: List, look up, and transfer between Chimoney wallets.
   name: Chimoney Wallet API
   slug: chimoney-wallet-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chimoney Account API
+  slug: open-chimoney-account-api
+- collection_type: open
+  name: Chimoney Account Info API
+  slug: open-chimoney-info-api
+- collection_type: open
+  name: Chimoney Account Interledger API
+  slug: open-chimoney-interledger-api
+- collection_type: open
+  name: Chimoney Account MultiCurrency Wallets API
+  slug: open-chimoney-multicurrency-wallets-api
+- collection_type: open
+  name: Chimoney Account Payments API
+  slug: open-chimoney-payments-api
+- collection_type: open
+  name: Chimoney Account Payouts API
+  slug: open-chimoney-payouts-api
+- collection_type: open
+  name: Chimoney Account Redeem API
+  slug: open-chimoney-redeem-api
+- collection_type: open
+  name: Chimoney Account SubAccount API
+  slug: open-chimoney-subaccount-api
+- collection_type: open
+  name: Chimoney Account Wallet API
+  slug: open-chimoney-wallet-api
 - collection_type: open
   name: Chimoney API
   slug: open-chimoney
@@ -136,7 +166,7 @@ plans:
 - name: Chimoney Plans Pricing
   plan_count: 3
   slug: chimoney-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 2
   name: Chimoney Rate Limits
@@ -167,7 +197,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/screenshots/chimoney-2026-07-25T205233.png
 security:

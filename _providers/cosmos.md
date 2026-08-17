@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The Service API from Cosmos — 19 operation(s) for service.
   name: Cosmos Service API
   slug: cosmos-service-api
-artifact_total: 85
+artifact_total: 88
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cosmos SDK - gRPC Gateway docs Query API
+  slug: open-cosmos-query-api
+- collection_type: open
+  name: Cosmos SDK - gRPC Gateway docs Query Service API
+  slug: open-cosmos-service-api
 common:
 - group: operate
   title: ''
@@ -381,7 +391,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -415,7 +425,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmos/refs/heads/main/screenshots/cosmos-2026-06-20T175049.png
 security:

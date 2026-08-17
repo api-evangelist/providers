@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,11 +51,27 @@ apis:
 - description: The Testing API from handy — 1 operation(s) for testing.
   name: handy Testing API
   slug: handy-testing-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Handy Webhooks
   slug: handy-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Handy’s Partner Bookings API
+  slug: open-handy-bookings-api
+- collection_type: open
+  name: Handy’s Partner Bookings Order Products API
+  slug: open-handy-order-products-api
+- collection_type: open
+  name: Handy’s Partner Bookings Orders API
+  slug: open-handy-orders-api
+- collection_type: open
+  name: Handy’s Partner Bookings Testing API
+  slug: open-handy-testing-api
 common:
 - group: agent
   title: ''
@@ -180,7 +196,7 @@ overview: 'handy publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   handy''s developer surface includes documentation, API reference, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 52
+random_paper: 85
 score:
   band: thin
   composite: 41.5
@@ -204,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/screenshots/handy-2026-07-25T220617.png
 security:

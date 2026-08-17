@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'First Digital''s RESTful API suite for programmatic access to its trust and custody data and services. The provider''s product page describes seven capability areas: client onboarding (business and indi'
@@ -154,7 +154,7 @@ plans:
 - name: First Digital Trust Plans Pricing
   plan_count: 0
   slug: first-digital-trust-plans-pricing
-random_paper: 34
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: First Digital Trust Rate Limits
@@ -162,6 +162,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -169,6 +170,7 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 10.5
+  previous_composite: 36.8
   regulatory:
     applies: true
     matched_via: tags
@@ -176,7 +178,8 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: First Digital Trust Domain Security

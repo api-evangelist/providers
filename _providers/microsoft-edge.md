@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ arazzos:
 - description: Confirm a product exists, upload a draft package, and poll until the package is validated.
   name: Microsoft Edge Upload Package And Validate
   slug: microsoft-edge-upload-package-and-validate-workflow
-artifact_total: 73
+artifact_total: 80
 collections:
 - collection_type: postman
   name: Microsoft Edge Add-ons API
@@ -93,6 +93,27 @@ collections:
 - collection_type: postman
   name: Microsoft Edge DevTools Protocol HTTP API
   slug: postman-microsoft-edge-devtools-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Edge Add-ons Browser API
+  slug: open-microsoft-edge-browser-api
+- collection_type: open
+  name: Microsoft Edge Add-ons Browser Packages API
+  slug: open-microsoft-edge-packages-api
+- collection_type: open
+  name: Microsoft Edge Add-ons Browser Pages API
+  slug: open-microsoft-edge-pages-api
+- collection_type: open
+  name: Microsoft Edge Add-ons Browser Products API
+  slug: open-microsoft-edge-products-api
+- collection_type: open
+  name: Microsoft Edge Add-ons Browser Publishing API
+  slug: open-microsoft-edge-publishing-api
+- collection_type: open
+  name: Microsoft Edge Add-ons Browser Targets API
+  slug: open-microsoft-edge-targets-api
 common:
 - group: agent
   title: ''
@@ -358,7 +379,7 @@ plans:
 - name: Microsoft Edge Plans Pricing
   plan_count: 2
   slug: microsoft-edge-plans-pricing
-random_paper: 112
+random_paper: 91
 rate_limits:
 - limit_count: 3
   name: Microsoft Edge Rate Limits
@@ -400,7 +421,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/screenshots/microsoft-edge-2026-08-07T172849.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,11 +51,27 @@ apis:
 - description: The User Data API from Rho Protocol — 12 operation(s) for user data.
   name: Rho Protocol User Data API
   slug: rho-protocol-user-data-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: Real-time streaming of market data, order updates, and account state for Rho X (Rho Exchange). Private channels require a WS session token (POST /auth-api/v1/ws-session).
   name: Rho X WebSocket API
   slug: rho-protocol-ws-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rho Exchange Market Data API
+  slug: open-rho-protocol-market-data-api
+- collection_type: open
+  name: Rho Exchange Market Data Stats API
+  slug: open-rho-protocol-stats-api
+- collection_type: open
+  name: Rho Exchange Market Data Trading API
+  slug: open-rho-protocol-trading-api
+- collection_type: open
+  name: Rho Exchange Market Data User Data API
+  slug: open-rho-protocol-user-data-api
 common:
 - group: auth
   title: ''
@@ -184,7 +200,7 @@ overview: 'Rho Protocol publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rho Protocol''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 56
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Rho Protocol Rate Limits
@@ -218,7 +234,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

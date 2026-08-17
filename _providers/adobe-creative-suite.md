@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ arazzos:
 - description: Search Adobe Stock for video clips and license the top match for download.
   name: Adobe Stock Search and License Video
   slug: adobe-creative-suite-stock-search-and-license-video-workflow
-artifact_total: 331
+artifact_total: 359
 collections:
 - collection_type: postman
   name: Adobe Creative Suite Adobe Firefly API
@@ -235,8 +235,74 @@ collections:
   name: Adobe Creative Suite Adobe Stock API
   slug: postman-adobe-creative-suite-stock
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility API
+  slug: open-adobe-creative-suite-accessibility-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Artboard API
+  slug: open-adobe-creative-suite-artboard-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Assets API
+  slug: open-adobe-creative-suite-assets-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Combine PDF API
+  slug: open-adobe-creative-suite-combine-pdf-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Compress PDF API
+  slug: open-adobe-creative-suite-compress-pdf-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Create PDF API
+  slug: open-adobe-creative-suite-create-pdf-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Cutout API
+  slug: open-adobe-creative-suite-cutout-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Document API
+  slug: open-adobe-creative-suite-document-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Document Generation API
+  slug: open-adobe-creative-suite-document-generation-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Export PDF API
+  slug: open-adobe-creative-suite-export-pdf-api
+- collection_type: open
   name: Adobe Creative Suite Adobe Firefly API
   slug: open-adobe-creative-suite-firefly
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Generative Expand API
+  slug: open-adobe-creative-suite-generative-expand-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Generative Fill API
+  slug: open-adobe-creative-suite-generative-fill-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Image Generation API
+  slug: open-adobe-creative-suite-image-generation-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Layers API
+  slug: open-adobe-creative-suite-layers-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility License API
+  slug: open-adobe-creative-suite-license-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Linearize PDF API
+  slug: open-adobe-creative-suite-linearize-pdf-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Mask API
+  slug: open-adobe-creative-suite-mask-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Member API
+  slug: open-adobe-creative-suite-member-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Object Composite API
+  slug: open-adobe-creative-suite-object-composite-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility OCR API
+  slug: open-adobe-creative-suite-ocr-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Operations API
+  slug: open-adobe-creative-suite-operations-api
 - collection_type: open
   name: Adobe Creative Suite Adobe PDF Services API
   slug: open-adobe-creative-suite-pdf-services
@@ -244,8 +310,26 @@ collections:
   name: Adobe Creative Suite Adobe Photoshop API
   slug: open-adobe-creative-suite-photoshop
 - collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Rendition API
+  slug: open-adobe-creative-suite-rendition-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Search API
+  slug: open-adobe-creative-suite-search-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Smart Object API
+  slug: open-adobe-creative-suite-smart-object-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Status API
+  slug: open-adobe-creative-suite-status-api
+- collection_type: open
   name: Adobe Creative Suite Adobe Stock API
   slug: open-adobe-creative-suite-stock
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Text API
+  slug: open-adobe-creative-suite-text-api
+- collection_type: open
+  name: Adobe Creative Suite Adobe Firefly Accessibility Video Generation API
+  slug: open-adobe-creative-suite-video-generation-api
 common:
 - group: agent
   title: ''
@@ -1174,7 +1258,7 @@ plans:
 - name: Adobe Creative Suite Plans Pricing
   plan_count: 1
   slug: adobe-creative-suite-plans-pricing
-random_paper: 82
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Adobe Creative Suite Rate Limits
@@ -1216,7 +1300,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/screenshots/adobe-creative-suite-2026-06-20T164857.png
 security:

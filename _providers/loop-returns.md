@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: The Return Data API from Loop Returns — 3 operation(s) for return data.
   name: Loop Returns Return Data API
   slug: loop-returns-return-data-api
-artifact_total: 30
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Loop Returns Cart API
@@ -83,6 +83,30 @@ collections:
 - collection_type: postman
   name: Loop Returns Cart Return Data API
   slug: postman-loop-returns-return-data-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Loop Returns Cart API
+  slug: open-loop-returns-cart-api
+- collection_type: open
+  name: Loop Returns Cart Destinations API
+  slug: open-loop-returns-destinations-api
+- collection_type: open
+  name: Loop Returns Cart Fraud Reports API
+  slug: open-loop-returns-fraud-reports-api
+- collection_type: open
+  name: Loop Returns Cart Label Requests API
+  slug: open-loop-returns-label-requests-api
+- collection_type: open
+  name: Loop Returns Cart Programmatic Webhooks API
+  slug: open-loop-returns-programmatic-webhooks-api
+- collection_type: open
+  name: Loop Returns Cart Return Actions API
+  slug: open-loop-returns-return-actions-api
+- collection_type: open
+  name: Loop Returns Cart Return Data API
+  slug: open-loop-returns-return-data-api
 common:
 - group: build
   title: ''
@@ -216,7 +240,7 @@ plans:
 - name: Loop Returns Plans Pricing
   plan_count: 3
   slug: loop-returns-plans-pricing
-random_paper: 74
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Loop Returns Rate Limits
@@ -261,7 +285,7 @@ score:
     regime_id: securities_market_data
     score: 63.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/screenshots/loop-returns-2026-06-20T184717.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -51,15 +51,30 @@ apis:
 - description: Webhook subscription management
   name: project44 Webhooks API
   slug: project44-webhooks-api
-artifact_total: 33
+artifact_total: 38
 asyncapis:
 - description: project44 publishes real-time freight visibility events via webhooks. Events include shipment status updates, position changes, ETA revisions, and exception alerts across TL, LTL, ocean, air, and parc
   name: project44 Shipment Events API
   slug: project44-shipment-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: project44 Tracking Shipments API
+  slug: open-project44-shipments-api
+- collection_type: open
+  name: project44 Tracking Shipments Status API
+  slug: open-project44-status-api
+- collection_type: open
+  name: project44 Shipments Tracking API
+  slug: open-project44-tracking-api
+- collection_type: open
   name: project44 Tracking API
   slug: open-project44-tracking
+- collection_type: open
+  name: project44 Tracking Shipments Webhooks API
+  slug: open-project44-webhooks-api
 common:
 - group: agent
   title: ''
@@ -192,7 +207,7 @@ plans:
 - name: Project44 Plans Pricing
   plan_count: 1
   slug: project44-plans-pricing
-random_paper: 23
+random_paper: 118
 rate_limits:
 - limit_count: 1
   name: Project44 Rate Limits
@@ -239,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/screenshots/project44-2026-06-20T192205.png
 security:

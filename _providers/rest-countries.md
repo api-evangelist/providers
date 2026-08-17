@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,8 +71,47 @@ apis:
 - description: Lookup countries by translated name.
   name: REST Countries Translation API
   slug: rest-countries-translation-api
-artifact_total: 32
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: REST Countries All API
+  slug: open-rest-countries-all-api
+- collection_type: open
+  name: REST Countries All Alpha API
+  slug: open-rest-countries-alpha-api
+- collection_type: open
+  name: REST Countries All Capital API
+  slug: open-rest-countries-capital-api
+- collection_type: open
+  name: REST Countries API
+  slug: open-rest-countries-countries-api
+- collection_type: open
+  name: REST Countries All Currency API
+  slug: open-rest-countries-currency-api
+- collection_type: open
+  name: REST Countries All Demonym API
+  slug: open-rest-countries-demonym-api
+- collection_type: open
+  name: REST Countries All Independent API
+  slug: open-rest-countries-independent-api
+- collection_type: open
+  name: REST Countries All Language API
+  slug: open-rest-countries-language-api
+- collection_type: open
+  name: REST Countries All Name API
+  slug: open-rest-countries-name-api
+- collection_type: open
+  name: REST Countries All Region API
+  slug: open-rest-countries-region-api
+- collection_type: open
+  name: REST Countries All Subregion API
+  slug: open-rest-countries-subregion-api
+- collection_type: open
+  name: REST Countries All Translation API
+  slug: open-rest-countries-translation-api
 - collection_type: open
   name: REST Countries
   slug: open-rest-countries
@@ -210,7 +249,7 @@ plans:
 - name: Rest Countries Plans Pricing
   plan_count: 2
   slug: rest-countries-plans-pricing
-random_paper: 39
+random_paper: 138
 rate_limits:
 - limit_count: 3
   name: Rest Countries Rate Limits
@@ -252,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/screenshots/rest-countries-2026-06-20T193018.png
 security:

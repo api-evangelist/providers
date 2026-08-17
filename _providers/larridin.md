@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Clustered workflow analysis, friction, recommendations, and tool verdicts.
   name: Larridin Workflow Intelligence API
   slug: larridin-workflow-intelligence-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Larridin Scout Adoption API
+  slug: open-larridin-adoption-api
+- collection_type: open
+  name: Larridin Scout Adoption Proficiency API
+  slug: open-larridin-proficiency-api
+- collection_type: open
+  name: Larridin Scout Adoption Surveys API
+  slug: open-larridin-surveys-api
+- collection_type: open
+  name: Larridin Scout Adoption Tools API
+  slug: open-larridin-tools-api
+- collection_type: open
+  name: Larridin Scout Adoption Workflow Intelligence API
+  slug: open-larridin-workflow-intelligence-api
 common:
 - group: agent
   title: ''
@@ -195,7 +214,7 @@ overview: 'Larridin publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Larridin''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 24 more developer resources.'
-random_paper: 13
+random_paper: 108
 scopes:
 - name: Larridin Scopes
   scope_count: 4
@@ -224,7 +243,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/screenshots/larridin-2026-07-25T224539.png
 security:

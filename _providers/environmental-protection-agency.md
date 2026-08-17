@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,8 +56,17 @@ apis:
 - description: The UVIndex API from Environmental Protection Agency — 4 operation(s) for uvindex.
   name: Environmental Protection Agency UVIndex API
   slug: environmental-protection-agency-uvindex-api
-artifact_total: 12
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EPA Data Service Envirofacts API
+  slug: open-environmental-protection-agency-envirofacts-api
+- collection_type: open
+  name: EPA Data Service Envirofacts UVIndex API
+  slug: open-environmental-protection-agency-uvindex-api
 - collection_type: open
   name: EPA Envirofacts Data Service API
   slug: open-environmental-protection-agency
@@ -111,7 +120,7 @@ plans:
 - name: Environmental Protection Agency Plans Pricing
   plan_count: 3
   slug: environmental-protection-agency-plans-pricing
-random_paper: 106
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Environmental Protection Agency Rate Limits
@@ -142,7 +151,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/screenshots/environmental-protection-agency-2026-06-20T180737.png
 security:

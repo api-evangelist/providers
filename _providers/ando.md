@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: Outbound webhook endpoint and delivery routes.
   name: Ando Webhooks API
   slug: ando-webhooks-api
-artifact_total: 13
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Ando Webhooks
   slug: ando-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ando Public Calls API
+  slug: open-ando-calls-api
+- collection_type: open
+  name: Ando Public Calls Clipboards API
+  slug: open-ando-clipboards-api
+- collection_type: open
+  name: Ando Public Calls Members API
+  slug: open-ando-members-api
+- collection_type: open
+  name: Ando Public Calls Messages API
+  slug: open-ando-messages-api
+- collection_type: open
+  name: Ando Public Calls Realtime API
+  slug: open-ando-realtime-api
+- collection_type: open
+  name: Ando Public Calls Search API
+  slug: open-ando-search-api
+- collection_type: open
+  name: Ando Public Calls Tasks API
+  slug: open-ando-tasks-api
+- collection_type: open
+  name: Ando Public Calls Webhooks API
+  slug: open-ando-webhooks-api
 common:
 - group: start
   title: ''
@@ -227,7 +255,7 @@ overview: 'Ando publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ando''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 28 more developer resources.'
-random_paper: 58
+random_paper: 120
 score:
   band: developing
   composite: 53.7
@@ -251,7 +279,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/screenshots/ando-2026-07-25T200233.png
 security:

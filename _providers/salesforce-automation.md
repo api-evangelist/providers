@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ apis:
 - description: Workflow rules and process automation
   name: Salesforce Automation Workflow API
   slug: salesforce-automation-workflow-api
-artifact_total: 192
+artifact_total: 231
 collections:
 - collection_type: postman
   name: Salesforce Analytics (CRM Analytics) REST Actions API
@@ -282,11 +282,128 @@ collections:
   name: Salesforce Analytics (CRM Analytics) REST Actions Workflow API
   slug: postman-salesforce-automation-workflow-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Salesforce Analytics (CRM Analytics) REST API
   slug: open-salesforce-analytics-api
 - collection_type: open
   name: Salesforce Apex REST API
   slug: open-salesforce-apex-rest-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions API
+  slug: open-salesforce-automation-actions-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Approvals API
+  slug: open-salesforce-automation-approvals-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Batch API
+  slug: open-salesforce-automation-batch-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Change Events API
+  slug: open-salesforce-automation-change-events-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Comments API
+  slug: open-salesforce-automation-comments-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Composite API
+  slug: open-salesforce-automation-composite-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Configuration API
+  slug: open-salesforce-automation-configuration-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Custom Actions API
+  slug: open-salesforce-automation-custom-actions-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Custom Endpoints API
+  slug: open-salesforce-automation-custom-endpoints-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Dashboards API
+  slug: open-salesforce-automation-dashboards-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Dataflows API
+  slug: open-salesforce-automation-dataflows-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Datasets API
+  slug: open-salesforce-automation-datasets-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Development API
+  slug: open-salesforce-automation-development-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Events API
+  slug: open-salesforce-automation-events-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Feeds API
+  slug: open-salesforce-automation-feeds-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Flows API
+  slug: open-salesforce-automation-flows-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Folders API
+  slug: open-salesforce-automation-folders-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Graph API
+  slug: open-salesforce-automation-graph-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Groups API
+  slug: open-salesforce-automation-groups-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Ingest Jobs API
+  slug: open-salesforce-automation-ingest-jobs-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Lenses API
+  slug: open-salesforce-automation-lenses-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Limits API
+  slug: open-salesforce-automation-limits-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions PushTopics API
+  slug: open-salesforce-automation-pushtopics-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Query API
+  slug: open-salesforce-automation-query-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Query Jobs API
+  slug: open-salesforce-automation-query-jobs-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Records API
+  slug: open-salesforce-automation-records-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions SObject Collections API
+  slug: open-salesforce-automation-sobject-collections-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions SObject Tree API
+  slug: open-salesforce-automation-sobject-tree-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions SObjects API
+  slug: open-salesforce-automation-sobjects-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions SOQL API
+  slug: open-salesforce-automation-soql-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions SOSL API
+  slug: open-salesforce-automation-sosl-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Standard Actions API
+  slug: open-salesforce-automation-standard-actions-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Streaming Channels API
+  slug: open-salesforce-automation-streaming-channels-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Testing API
+  slug: open-salesforce-automation-testing-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Topics API
+  slug: open-salesforce-automation-topics-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Users API
+  slug: open-salesforce-automation-users-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Versions API
+  slug: open-salesforce-automation-versions-api
+- collection_type: open
+  name: Salesforce Analytics (CRM Analytics) REST Actions Workflow API
+  slug: open-salesforce-automation-workflow-api
 - collection_type: open
   name: Salesforce Bulk API 2.0
   slug: open-salesforce-bulk-api
@@ -737,7 +854,7 @@ plans:
 - name: Salesforce Automation Plans Pricing
   plan_count: 1
   slug: salesforce-automation-plans-pricing
-random_paper: 37
+random_paper: 111
 rate_limits:
 - limit_count: 3
   name: Salesforce Automation Rate Limits
@@ -784,7 +901,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/screenshots/salesforce-automation-2026-06-20T193343.png
 security:

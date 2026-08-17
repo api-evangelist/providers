@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,7 +64,35 @@ apis:
 - description: The usage API from PDFShift — 1 operation(s) for usage.
   name: PDFShift usage API
   slug: pdfshift-usage-api
-artifact_total: 39
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PDFShift API Documentation account API
+  slug: open-pdfshift-account-api
+- collection_type: open
+  name: PDFShift API Documentation account Convert API
+  slug: open-pdfshift-convert-api
+- collection_type: open
+  name: PDFShift API Documentation account credits API
+  slug: open-pdfshift-credits-api
+- collection_type: open
+  name: PDFShift API Documentation account details API
+  slug: open-pdfshift-details-api
+- collection_type: open
+  name: PDFShift API Documentation account Invoices API
+  slug: open-pdfshift-invoices-api
+- collection_type: open
+  name: PDFShift API Documentation account Logs API
+  slug: open-pdfshift-logs-api
+- collection_type: open
+  name: PDFShift API Documentation account templates API
+  slug: open-pdfshift-templates-api
+- collection_type: open
+  name: PDFShift API Documentation account usage API
+  slug: open-pdfshift-usage-api
 common:
 - group: agent
   title: ''
@@ -222,7 +250,7 @@ plans:
 - name: Pdfshift Plans Pricing
   plan_count: 5
   slug: pdfshift-plans-pricing
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 0
   name: Pdfshift Rate Limits
@@ -256,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/screenshots/pdfshift-2026-06-20T191519.png
 security:

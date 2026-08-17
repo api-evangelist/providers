@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,8 +66,14 @@ apis:
 - description: The Saleor GraphQL API API from Saleor — 1 operation(s) for saleor graphql api.
   name: Saleor Saleor GraphQL API API
   slug: saleor-saleor-graphql-api-api
-artifact_total: 17
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Saleor GraphQL Saleor GraphQL API API
+  slug: open-saleor-saleor-graphql-api-api
 - collection_type: open
   name: Saleor GraphQL API
   slug: open-saleor
@@ -152,7 +158,7 @@ plans:
 - name: Saleor Plans Pricing
   plan_count: 1
   slug: saleor-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Saleor Rate Limits
@@ -177,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/screenshots/saleor-2026-06-20T193340.png
 security:

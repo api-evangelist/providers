@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,8 +138,20 @@ apis:
 - description: The Ichibaranking API from Rakuten — 1 operation(s) for ichibaranking.
   name: Rakuten Ichibaranking API
   slug: rakuten-ichibaranking-api
-artifact_total: 40
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rakuten Web Services Ichibagt API
+  slug: open-rakuten-ichibagt-api
+- collection_type: open
+  name: Rakuten Web Services Ichibagt Ichibams API
+  slug: open-rakuten-ichibams-api
+- collection_type: open
+  name: Rakuten Web Services Ichibagt Ichibaranking API
+  slug: open-rakuten-ichibaranking-api
 - collection_type: open
   name: Rakuten Web Services API
   slug: open-rakuten
@@ -236,7 +248,7 @@ plans:
 - name: Rakuten Plans Pricing
   plan_count: 1
   slug: rakuten-plans-pricing
-random_paper: 42
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Rakuten Rate Limits
@@ -267,7 +279,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/screenshots/rakuten-2026-06-20T192542.png
 security:

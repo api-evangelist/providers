@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,20 @@ apis:
 - description: The Tags API from Dragos — 2 operation(s) for tags.
   name: Dragos Tags API
   slug: dragos-tags-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dragos WorldView Indicators API
+  slug: open-dragos-indicators-api
+- collection_type: open
+  name: Dragos WorldView Indicators Products API
+  slug: open-dragos-products-api
+- collection_type: open
+  name: Dragos WorldView Indicators Tags API
+  slug: open-dragos-tags-api
 common:
 - group: auth
   title: ''
@@ -192,7 +205,7 @@ overview: 'Dragos publishes 3 APIs on the [APIs.io](https://apis.io/) network: I
 
 
   Dragos'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 24 more developer resources.'
-random_paper: 40
+random_paper: 44
 score:
   band: developing
   composite: 46.9
@@ -216,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/screenshots/dragos-2026-07-25T212343.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -92,8 +92,53 @@ apis:
 - description: The Withdrawals API from Blockscout — 1 operation(s) for withdrawals.
   name: Blockscout Withdrawals API
   slug: blockscout-withdrawals-api
-artifact_total: 25
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BlockScout Addresses API
+  slug: open-blockscout-addresses-api
+- collection_type: open
+  name: BlockScout Addresses Blocks API
+  slug: open-blockscout-blocks-api
+- collection_type: open
+  name: BlockScout Addresses CelestiaService API
+  slug: open-blockscout-celestiaservice-api
+- collection_type: open
+  name: BlockScout Addresses Config API
+  slug: open-blockscout-config-api
+- collection_type: open
+  name: BlockScout Addresses Internal Transactions API
+  slug: open-blockscout-internal-transactions-api
+- collection_type: open
+  name: BlockScout Addresses Main Page API
+  slug: open-blockscout-main-page-api
+- collection_type: open
+  name: BlockScout Addresses Proxy API
+  slug: open-blockscout-proxy-api
+- collection_type: open
+  name: BlockScout Addresses Search API
+  slug: open-blockscout-search-api
+- collection_type: open
+  name: BlockScout Addresses Smart Contracts API
+  slug: open-blockscout-smart-contracts-api
+- collection_type: open
+  name: BlockScout Addresses Stats API
+  slug: open-blockscout-stats-api
+- collection_type: open
+  name: BlockScout Addresses Token Transfers API
+  slug: open-blockscout-token-transfers-api
+- collection_type: open
+  name: BlockScout Addresses Tokens API
+  slug: open-blockscout-tokens-api
+- collection_type: open
+  name: BlockScout Addresses Transactions API
+  slug: open-blockscout-transactions-api
+- collection_type: open
+  name: BlockScout Addresses Withdrawals API
+  slug: open-blockscout-withdrawals-api
 - collection_type: open
   name: BlockScout API
   slug: open-blockscout
@@ -170,7 +215,7 @@ plans:
 - name: Blockscout Plans Pricing
   plan_count: 4
   slug: blockscout-plans-pricing
-random_paper: 1
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Blockscout Rate Limits
@@ -195,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/screenshots/blockscout-2026-06-20T173404.png
 security:

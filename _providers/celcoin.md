@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -84,7 +84,47 @@ apis:
 - description: The TaggingJourney API from Celcoin — 1 operation(s) for taggingjourney.
   name: Celcoin TaggingJourney API
   slug: celcoin-taggingjourney-api
-artifact_total: 22
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar API
+  slug: open-celcoin-annotationcompetencecalendar-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar BankCorrespondentAgent API
+  slug: open-celcoin-bankcorrespondentagent-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar Consignee API
+  slug: open-celcoin-consignee-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar Files API
+  slug: open-celcoin-files-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar Guarantee API
+  slug: open-celcoin-guarantee-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar LegacyGuarantee API
+  slug: open-celcoin-legacyguarantee-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar LegalPerson API
+  slug: open-celcoin-legalperson-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar NaturalPerson API
+  slug: open-celcoin-naturalperson-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar OutstandingBalance API
+  slug: open-celcoin-outstandingbalance-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar Proposal API
+  slug: open-celcoin-proposal-api
+- collection_type: open
+  name: billissuance--webservice AnnotationCompetenceCalendar Settlement API
+  slug: open-celcoin-settlement-api
+- collection_type: open
+  name: billissuance-settlement-webservice AnnotationCompetenceCalendar TaggingJourney API
+  slug: open-celcoin-taggingjourney-api
 common:
 - group: agent
   title: ''
@@ -182,7 +222,7 @@ plans:
 - name: Celcoin Plans Pricing
   plan_count: 4
   slug: celcoin-plans-pricing
-random_paper: 13
+random_paper: 137
 rate_limits:
 - limit_count: 0
   name: Celcoin Rate Limits
@@ -213,7 +253,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png
 security:

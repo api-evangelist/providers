@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -99,7 +99,71 @@ apis:
 - description: The Testing Infrastructure API from watchTowr — 1 operation(s) for testing infrastructure.
   name: watchTowr Testing Infrastructure API
   slug: watchtowr-testing-infrastructure-api
-artifact_total: 25
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: watchTowr Platform Client Activity Log API
+  slug: open-watchtowr-activity-log-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Assets API
+  slug: open-watchtowr-assets-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Business Unit API
+  slug: open-watchtowr-business-unit-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Certificates API
+  slug: open-watchtowr-certificates-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Cloud Storage API
+  slug: open-watchtowr-cloud-storage-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Containers API
+  slug: open-watchtowr-containers-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Domains API
+  slug: open-watchtowr-domains-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Findings API
+  slug: open-watchtowr-findings-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Hunts API
+  slug: open-watchtowr-hunts-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log IP Addresses API
+  slug: open-watchtowr-ip-addresses-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log IP Ranges API
+  slug: open-watchtowr-ip-ranges-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Mobile Applications API
+  slug: open-watchtowr-mobile-applications-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Points of Interest API
+  slug: open-watchtowr-points-of-interest-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Ports API
+  slug: open-watchtowr-ports-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log SaaS Platforms API
+  slug: open-watchtowr-saas-platforms-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Service Listing API
+  slug: open-watchtowr-service-listing-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Source Code Repositories API
+  slug: open-watchtowr-source-code-repositories-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Subdomains API
+  slug: open-watchtowr-subdomains-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Suspicious Domains API
+  slug: open-watchtowr-suspicious-domains-api
+- collection_type: open
+  name: watchTowr Platform Client Activity Log Testing Infrastructure API
+  slug: open-watchtowr-testing-infrastructure-api
 common:
 - group: company
   title: ''
@@ -229,7 +293,7 @@ overview: 'watchTowr publishes 20 APIs on the [APIs.io](https://apis.io/) networ
 
 
   watchTowr''s developer surface includes documentation, developer portal, engineering blog, support, authentication, and 23 more developer resources.'
-random_paper: 35
+random_paper: 101
 score:
   band: developing
   composite: 42.9
@@ -253,7 +317,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

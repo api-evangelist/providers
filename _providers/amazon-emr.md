@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,11 +60,17 @@ arazzos:
 - description: Launch a Spark cluster and queue an ETL processing step in one call.
   name: Amazon EMR Run a Spark ETL Job
   slug: amazon-emr-run-spark-etl-job-workflow
-artifact_total: 35
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Amazon EMR API
   slug: postman-amazon-emr
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EMR Clusters API
+  slug: open-amazon-emr-clusters-api
 - collection_type: open
   name: Amazon EMR API
   slug: open-amazon-emr
@@ -257,7 +263,7 @@ plans:
 - name: Amazon Emr Plans Pricing
   plan_count: 3
   slug: amazon-emr-plans-pricing
-random_paper: 55
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Amazon Emr Rate Limits
@@ -299,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/screenshots/amazon-emr-2026-06-20T171642.png
 security:

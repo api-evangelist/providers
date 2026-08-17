@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Account API from Johrh — 9 operation(s) for account.
@@ -66,7 +66,47 @@ apis:
 - description: The Storefront API from Johrh — 17 operation(s) for storefront.
   name: Johrh Storefront API
   slug: johrh-storefront-api
-artifact_total: 13
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vitrin Account API
+  slug: open-johrh-account-api
+- collection_type: open
+  name: Vitrin Account Auth API
+  slug: open-johrh-auth-api
+- collection_type: open
+  name: Vitrin Account Categories API
+  slug: open-johrh-categories-api
+- collection_type: open
+  name: Vitrin Account Checkout API
+  slug: open-johrh-checkout-api
+- collection_type: open
+  name: Vitrin Account internal API
+  slug: open-johrh-internal-api
+- collection_type: open
+  name: Vitrin Account Metrics API
+  slug: open-johrh-metrics-api
+- collection_type: open
+  name: Vitrin Account Orders API
+  slug: open-johrh-orders-api
+- collection_type: open
+  name: Vitrin Account Payments API
+  slug: open-johrh-payments-api
+- collection_type: open
+  name: Vitrin Account Products API
+  slug: open-johrh-products-api
+- collection_type: open
+  name: Vitrin Account redirects API
+  slug: open-johrh-redirects-api
+- collection_type: open
+  name: Vitrin Account SSO API
+  slug: open-johrh-sso-api
+- collection_type: open
+  name: Vitrin Account Storefront API
+  slug: open-johrh-storefront-api
 common:
 - group: company
   title: ''
@@ -89,7 +129,7 @@ name: Johrh
 nav: Providers
 network: true
 overview: Johrh publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Categories API, and 9 more. Tagged areas include Company, Retail, E-commerce, Fashion, and Apparel.
-random_paper: 59
+random_paper: 92
 score:
   band: emerging
   composite: 18.4
@@ -109,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/screenshots/johrh-2026-07-25T223224.png
 security:

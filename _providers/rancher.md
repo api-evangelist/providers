@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,11 +63,38 @@ apis:
 - description: Rancher users.
   name: Rancher Users API
   slug: rancher-users-api
-artifact_total: 27
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rancher Management Apps API
+  slug: open-rancher-apps-api
+- collection_type: open
+  name: Rancher Management Apps Catalogs API
+  slug: open-rancher-catalogs-api
+- collection_type: open
+  name: Rancher Management Apps Clusters API
+  slug: open-rancher-clusters-api
 - collection_type: open
   name: Rancher Management API
   slug: open-rancher-management-api
+- collection_type: open
+  name: Rancher Management Apps Nodes API
+  slug: open-rancher-nodes-api
+- collection_type: open
+  name: Rancher Management Apps Projects API
+  slug: open-rancher-projects-api
+- collection_type: open
+  name: Rancher Management Apps Roles API
+  slug: open-rancher-roles-api
+- collection_type: open
+  name: Rancher Management Apps Tokens API
+  slug: open-rancher-tokens-api
+- collection_type: open
+  name: Rancher Management Apps Users API
+  slug: open-rancher-users-api
 common:
 - group: commercial
   title: ''
@@ -183,7 +210,7 @@ plans:
 - name: Rancher Plans Pricing
   plan_count: 3
   slug: rancher-plans-pricing
-random_paper: 19
+random_paper: 143
 rate_limits:
 - limit_count: 5
   name: Rancher Rate Limits
@@ -225,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/screenshots/rancher-2026-06-20T192552.png
 security:

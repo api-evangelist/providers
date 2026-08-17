@@ -1,40 +1,56 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup with a 14-day free trial; pricing quoted by sales
   onboarding: self-serve
   pricing: unknown
   public: false
   source:
-  - authentication
-  trial: false
-  try_now: false
+  - plans/appgain-plans-pricing.yml
+  - sandbox/appgain-sandbox.yml
+  - authentication/appgain-authentication.yml
+  trial: true
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 45.5
+  scored_at: '2026-08-17'
+api_count: 3
 apis:
 - description: REST API for sending multi-channel campaigns (rich push notifications, email, SMS, web push), creating smart deep links, managing a media library, and logging user events/purchases into the Appgain CD
   name: Appgain OmniChannel Messaging API
   slug: appgain-omnichannel-messaging-api
-artifact_total: 3
+- description: The messaging send service. A single POST /{projectId}/send endpoint whose channel is selected by the top-level body key (appPush, email, SMS, webPush, WHATSAPP, UOWHATSAPP), plus SMS target-list subs
+  name: Appgain Notify API
+  slug: appgain-notify-api
+- description: 'The marketing-automation service. Fires and cancels dashboard-configured automation journeys at a named trigger point, for one user or a batch of users via the v2 form. Authenticated with the project '
+  name: Appgain Automator API
+  slug: appgain-automator-api
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Appgain Webhooks
+  slug: appgain-webhooks
+collections:
+- collection_type: postman
+  name: Appgain.io
+  slug: postman-appgain-omnichannel
 common:
 - group: company
   title: ''
@@ -79,7 +95,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.appgain.io/terms
+  url: https://appgain.io/tos
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -120,46 +136,106 @@ common:
   title: ''
   type: DomainSecurity
   url: security/appgain-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/appgain-llms.txt
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: postman/appgain-omnichannel.postman_collection.json
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/appgain-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/appgain-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/appgain-conformance.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/appgain-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/appgain-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/appgain-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/appgain-webhooks.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/appgain-components.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnownProbe
+  url: well-known/appgain-well-known.yml
 created: '2026-07-17'
-description: Appgain is an omnichannel messaging and mobile marketing automation platform, originally out of the MENA region, that lets marketers acquire, engage, and retain mobile and web users across push notifications, in-app messaging, email, SMS, WhatsApp, and web push from a single cloud. Its REST API and mobile SDKs power smart deep links, micro landing pages, behavior-triggered automation journeys, a customer data platform (CDP) with real-time event logging and purchase tracking, and multi-channel campaign delivery, with marketplace apps for Shopify, Zid, and Salla and no-code integrations via Zapier and n8n. The backend is built on the open-source Parse Server stack, and first-party SDKs cover Android, iOS, Flutter, React Native, Cordova/Ionic, and web.
+description: Appgain is an omnichannel messaging and mobile marketing automation platform, originally out of the MENA region, that lets marketers acquire, engage, and retain mobile and web users across push notifications, in-app messaging, email, SMS, WhatsApp, and web push from a single cloud. Its REST API and mobile SDKs power smart deep links, micro landing pages, behavior-triggered automation journeys, a customer data platform (CDP) with real-time event logging and purchase tracking, and multi-channel campaign delivery, with marketplace apps for Shopify, Zid, and Salla and no-code integrations via Zapier and n8n. The backend is built on the open-source Parse Server stack, and first-party SDKs cover Android, iOS, Flutter, React Native, Cordova/Ionic, and web. Since 2026 the company positions itself as an "AI Workforce Platform" for MENA businesses, adding AI agent products - a RAG-powered customer bot, AI call intelligence with Arabic and English transcription, a visual bot builder, and
+  a unified inbox - on top of the messaging core. The only machine-readable contract Appgain publishes is a public Postman collection served from its own apidocs subdomain; there is no OpenAPI.
 image: https://appgain.io/og-image-blog.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Appgain
 nav: Providers
 network: true
-overview: 'Appgain publishes 1 API on the [APIs.io](https://apis.io/) network: OmniChannel Messaging API. Tagged areas include Company, Mobile Marketing, Marketing Automation, Omnichannel Messaging, and Push Notifications.
+overview: 'Appgain publishes 3 APIs on the [APIs.io](https://apis.io/) network: OmniChannel Messaging API, Notify API, and Automator API. Tagged areas include Company, Mobile Marketing, Marketing Automation, Omnichannel Messaging, and Push Notifications.
 
 
-  Appgain''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 16
+  The Appgain catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Appgain''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 26 more developer resources.'
+plans:
+- name: Appgain Plans Pricing
+  plan_count: 0
+  slug: appgain-plans-pricing
+random_paper: 140
+rate_limits:
+- limit_count: 0
+  name: Appgain Rate Limits
+  slug: appgain-rate-limits
 score:
-  band: thin
-  composite: 30.6
-  delta: 0.0
+  band: developing
+  composite: 49.0
+  delta: 18.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 63.0
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    contract_quality: 51.6
+    developer_ergonomics: 76.1
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 28.9
   previous_composite: 30.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 27.8
+    score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/screenshots/appgain-2026-07-25T200731.png
 security:
 - kind: authentication
   name: Appgain Authentication
   slug: appgain-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 6 schemes
 - kind: domain-security
   name: Appgain Domain Security
   slug: appgain-domain-security
@@ -177,5 +253,8 @@ tags:
 - Customer Data Platform
 - Deep Linking
 - Customer Engagement
+- AI Agents
+- Conversational AI
+- MENA
 website: https://appgain.io
 ---

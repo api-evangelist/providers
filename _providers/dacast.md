@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Video on demand upload and management.
   name: Dacast VOD API
   slug: dacast-vod-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dacast Analytics API
+  slug: open-dacast-analytics-api
+- collection_type: open
+  name: Dacast Analytics Live Channels API
+  slug: open-dacast-live-channels-api
+- collection_type: open
+  name: Dacast Analytics Playlists API
+  slug: open-dacast-playlists-api
+- collection_type: open
+  name: Dacast Analytics VOD API
+  slug: open-dacast-vod-api
 common:
 - group: agent
   title: ''
@@ -109,7 +125,7 @@ plans:
 - name: Dacast Plans Pricing
   plan_count: 5
   slug: dacast-plans-pricing
-random_paper: 24
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Dacast Rate Limits
@@ -134,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/screenshots/dacast-2026-07-25T211123.png
 security:

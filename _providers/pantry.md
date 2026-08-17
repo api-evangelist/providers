@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: Pantry account (account-level operations)
   name: Pantry Pantry API
   slug: pantry-pantry-api
-artifact_total: 12
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pantry Basket API
+  slug: open-pantry-basket-api
+- collection_type: open
+  name: Basket Pantry API
+  slug: open-pantry-pantry-api
 - collection_type: open
   name: Pantry API
   slug: open-pantry
@@ -125,7 +134,7 @@ press:
 - date: '2026-05-25'
   title: Purdue professor uses AI technology to help food pantries
   url: https://www.purdueexponent.org/city_state/purdue-alex-psomas-indianapolis-artificial-intelligence/article_07b6cdae-a219-11ef-866e-17a294dc19fd.html
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Pantry Rate Limits
@@ -159,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/screenshots/pantry-2026-06-20T191358.png
 security:

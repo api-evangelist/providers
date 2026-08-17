@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -57,12 +57,33 @@ apis:
 - description: Booking, reschedule, cancellation, and location policies.
   name: Launch27 Policy API
   slug: launch27-policy-api
-artifact_total: 16
+artifact_total: 23
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the one WebSocket surface Launch27 documents: an account-scoped notification channel reached via a `pubsub_url` returned by the authenticated `GET /settings` call (see the '
   name: Launch27 Account Notification Channel (WebSocket, minimally documented)
   slug: launch27-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Launch27 Account API
+  slug: open-launch27-account-api
+- collection_type: open
+  name: Launch27 Account Authentication API
+  slug: open-launch27-authentication-api
+- collection_type: open
+  name: Launch27 Account Booking Helpers API
+  slug: open-launch27-booking-helpers-api
+- collection_type: open
+  name: Launch27 Account Customer Bookings API
+  slug: open-launch27-customer-bookings-api
+- collection_type: open
+  name: Launch27 Account Guest Booking API
+  slug: open-launch27-guest-booking-api
+- collection_type: open
+  name: Launch27 Account Policy API
+  slug: open-launch27-policy-api
 - collection_type: open
   name: Launch27 API
   slug: open-launch27
@@ -139,7 +160,7 @@ plans:
 - name: Launch27 Plans Pricing
   plan_count: 4
   slug: launch27-plans-pricing
-random_paper: 20
+random_paper: 144
 rate_limits:
 - limit_count: 3
   name: Launch27 Rate Limits
@@ -173,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/screenshots/launch27-2026-07-25T224614.png
 security:

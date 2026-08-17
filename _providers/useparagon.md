@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Triggering workflows and checking execution status.
   name: Paragon Workflows API
   slug: useparagon-workflows-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paragon ActionKit API
+  slug: open-useparagon-actionkit-api
+- collection_type: open
+  name: Paragon ActionKit Connect API
+  slug: open-useparagon-connect-api
+- collection_type: open
+  name: Paragon ActionKit Integrations API
+  slug: open-useparagon-integrations-api
+- collection_type: open
+  name: Paragon ActionKit Managed Sync API
+  slug: open-useparagon-managed-sync-api
+- collection_type: open
+  name: Paragon ActionKit Permissions API
+  slug: open-useparagon-permissions-api
+- collection_type: open
+  name: Paragon ActionKit Proxy API
+  slug: open-useparagon-proxy-api
+- collection_type: open
+  name: Paragon ActionKit Users API
+  slug: open-useparagon-users-api
+- collection_type: open
+  name: Paragon ActionKit Workflows API
+  slug: open-useparagon-workflows-api
 - collection_type: open
   name: Paragon API
   slug: open-useparagon
@@ -133,7 +160,7 @@ plans:
 - name: Useparagon Plans Pricing
   plan_count: 4
   slug: useparagon-plans-pricing
-random_paper: 117
+random_paper: 34
 rate_limits:
 - limit_count: 4
   name: Useparagon Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

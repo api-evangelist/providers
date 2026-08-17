@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -38,11 +38,15 @@ apis:
 - description: Authorization verification. Confirms an account API key/secret pair is valid and reports whether it is a sandbox credential.
   name: Demio Intro API
   slug: demio-intro-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Demio Events
   slug: demio-events
+collections:
+- collection_type: open
+  name: Public Demio API
+  slug: open-demio
 common:
 - group: agent
   title: ''
@@ -212,7 +216,7 @@ plans:
 - name: Demio Plans Pricing
   plan_count: 4
   slug: demio-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Demio Rate Limits
@@ -220,6 +224,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.9
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 67.2
@@ -227,8 +232,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
+  previous_composite: 63.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Demio Authentication

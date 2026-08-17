@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Quote generation and management
   name: AmTrust Financial Services Quotes API
   slug: amtrust-financial-services-quotes-api
-artifact_total: 50
+artifact_total: 55
 collections:
 - collection_type: postman
   name: AmTrust Financial Services Commercial Lines Appetite API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: AmTrust Financial Services Commercial Lines Appetite Quotes API
   slug: postman-amtrust-financial-services-quotes-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AmTrust Financial Services Commercial Lines Appetite API
+  slug: open-amtrust-financial-services-appetite-api
+- collection_type: open
+  name: AmTrust Financial Services Commercial Lines Appetite Authentication API
+  slug: open-amtrust-financial-services-authentication-api
+- collection_type: open
+  name: AmTrust Financial Services Commercial Lines Appetite Policies API
+  slug: open-amtrust-financial-services-policies-api
+- collection_type: open
+  name: AmTrust Financial Services Commercial Lines Appetite Quotes API
+  slug: open-amtrust-financial-services-quotes-api
 common:
 - group: build
   title: ''
@@ -276,7 +291,7 @@ press:
 - date: '2026-05-25'
   title: 'AmTrust partners with Blackstone: Insurance news'
   url: https://www.dig-in.com/news/amtrust-partners-with-blackstone-insurance-news
-random_paper: 35
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: Amtrust Financial Services Rate Limits
@@ -324,7 +339,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png
 security:

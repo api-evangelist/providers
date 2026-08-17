@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -51,8 +51,23 @@ apis:
 - description: User administration for a Passage app.
   name: Passage by 1Password Users API
   slug: passage-1password-users-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Passage by 1Password Management Devices API
+  slug: open-passage-1password-devices-api
+- collection_type: open
+  name: Passage by 1Password Management Devices Magic Links API
+  slug: open-passage-1password-magic-links-api
+- collection_type: open
+  name: Passage by 1Password Management Devices Tokens API
+  slug: open-passage-1password-tokens-api
+- collection_type: open
+  name: Passage by 1Password Management Devices Users API
+  slug: open-passage-1password-users-api
 - collection_type: open
   name: Passage by 1Password Management API
   slug: open-passage-1password
@@ -125,7 +140,7 @@ plans:
 - name: Passage 1Password Plans Pricing
   plan_count: 3
   slug: passage-1password-plans-pricing
-random_paper: 37
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Passage 1Password Rate Limits
@@ -150,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/screenshots/passage-1password-2026-06-20T191432.png
 security:

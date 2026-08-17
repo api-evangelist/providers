@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: Prometheus metrics scraping endpoint.
   name: CRI-O Metrics API
   slug: cri-o-metrics-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CRI-O Metrics Containers API
+  slug: open-cri-o-containers-api
+- collection_type: open
+  name: CRI-O Metrics Containers Debug API
+  slug: open-cri-o-debug-api
+- collection_type: open
+  name: CRI-O Metrics Containers Information API
+  slug: open-cri-o-information-api
+- collection_type: open
+  name: CRI-O Metrics Containers Lifecycle API
+  slug: open-cri-o-lifecycle-api
+- collection_type: open
+  name: CRI-O Containers Metrics API
+  slug: open-cri-o-metrics-api
 - collection_type: open
   name: CRI-O Metrics API
   slug: open-cri-o-metrics
@@ -152,7 +170,7 @@ plans:
 - name: Cri O Plans Pricing
   plan_count: 1
   slug: cri-o-plans-pricing
-random_paper: 114
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Cri O Rate Limits
@@ -194,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/screenshots/cri-o-2026-06-20T175228.png
 security:

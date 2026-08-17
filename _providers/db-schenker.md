@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Version 1 of the Schenker AB (Sweden) Partner services API — the Nordic parcel network surface inherited from Privpak. Nine operations covering service point lookup (DeliveryPoint and ExtendedDelivery
@@ -33,7 +33,20 @@ apis:
 - description: Version 4 of the Schenker AB (Sweden) Partner services API, the current CollectionPoint surface (published specification version 4.2.0, document dated 2025-04-23). Six operations across DeliveryPoint/
   name: DB Schenker Partner Services API V4
   slug: db-schenker-partner-services-api-v4
-artifact_total: 4
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Partner services API V1.
+  slug: open-db-schenker-partner-services-v1-swagger
+- collection_type: open
+  name: Partner services API V2.
+  slug: open-db-schenker-partner-services-v2-swagger
+- collection_type: open
+  name: Partner services API V3.
+  slug: open-db-schenker-partner-services-v3-swagger
+- collection_type: open
+  name: Partner services API V4.
+  slug: open-db-schenker-partner-services-v4-swagger
 common:
 - group: company
   title: ''
@@ -76,7 +89,7 @@ overview: 'DB Schenker publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   DB Schenker''s developer surface includes API reference, documentation, and 5 more developer resources.'
-random_paper: 14
+random_paper: 51
 score:
   band: emerging
   composite: 24.0
@@ -96,7 +109,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/db-schenker/refs/heads/main/screenshots/db-schenker-2026-08-07T164220.png
 slug: db-schenker

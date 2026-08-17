@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -94,11 +94,72 @@ apis:
 - description: WebSocket endpoints for getting a real-time stream of metrics, market data, indexes and other time series data.
   name: Coin Metrics Timeseries stream API
   slug: coin-metrics-timeseries-stream-api
-artifact_total: 25
+artifact_total: 45
 asyncapis:
 - description: WebSocket streaming surface of the Coin Metrics API v4, derived from the published OpenAPI 3.0.2 definition (timeseries-stream tag). Real-time streams of metrics, market trades, quotes, order books, c
   name: Coin Metrics Timeseries Stream API
   slug: coin-metrics-timeseries-stream-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job API
+  slug: open-coin-metrics-blockchain-explorer-job-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Blockchain Metadata API
+  slug: open-coin-metrics-blockchain-metadata-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Catalog API
+  slug: open-coin-metrics-catalog-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Catalog v2 API
+  slug: open-coin-metrics-catalog-v2-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Chain Monitor tools API
+  slug: open-coin-metrics-chain-monitor-tools-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Constituent Snapshots API
+  slug: open-coin-metrics-constituent-snapshots-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Constituent Timeframes API
+  slug: open-coin-metrics-constituent-timeframes-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Full blockchain entities v2 API
+  slug: open-coin-metrics-full-blockchain-entities-v2-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Full catalog API
+  slug: open-coin-metrics-full-catalog-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Full catalog v2 API
+  slug: open-coin-metrics-full-catalog-v2-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Jobs API
+  slug: open-coin-metrics-jobs-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job List of blockchain entities v2 API
+  slug: open-coin-metrics-list-of-blockchain-entities-v2-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Profile API
+  slug: open-coin-metrics-profile-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Reference Data API
+  slug: open-coin-metrics-reference-data-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Security Master API
+  slug: open-coin-metrics-security-master-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Taxonomy API
+  slug: open-coin-metrics-taxonomy-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Taxonomy Metadata API
+  slug: open-coin-metrics-taxonomy-metadata-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Timeseries API
+  slug: open-coin-metrics-timeseries-api
+- collection_type: open
+  name: Coin Metrics API v4 Blockchain Explorer Job Timeseries stream API
+  slug: open-coin-metrics-timeseries-stream-api
 common:
 - group: auth
   title: ''
@@ -247,7 +308,7 @@ overview: 'Coin Metrics publishes 19 APIs on the [APIs.io](https://apis.io/) net
 
 
   Coin Metrics'' developer surface includes authentication, developer portal, documentation, engineering blog, pricing, support, API reference, and 25 more developer resources.'
-random_paper: 29
+random_paper: 37
 rate_limits:
 - limit_count: 6
   name: Coin Metrics Rate Limits
@@ -281,7 +342,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/screenshots/coin-metrics-2026-07-22T202257.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -67,11 +67,60 @@ apis:
 - description: Agent-facing microservice that reads and toggles Outlook calendar synchronisation for a local property expert. The only Purplebricks API path disclosed in robots.txt, and the thread that led to the re
   name: Purplebricks Outlook Sync API
   slug: purplebricks-outlook-sync-api
-artifact_total: 17
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Purplebricks Webhooks
   slug: purplebricks-webhooks
+collections:
+- collection_type: open
+  name: Purplebricks Account API 1 - Platform
+  slug: open-purplebricks-account-v1
+- collection_type: open
+  name: Purplebricks.Agent.Api 1.0 - Squad Agents Experience
+  slug: open-purplebricks-agent-v1
+- collection_type: open
+  name: Purplebricks.Branch.Api 1.0 - Squad Agents Experience
+  slug: open-purplebricks-branch-v1
+- collection_type: open
+  name: Purplebricks.Communications.Api 1.0 - Core Team
+  slug: open-purplebricks-communications-v1
+- collection_type: open
+  name: PB Conveyancing Api 1.0 - PB Digital
+  slug: open-purplebricks-conveyancing-v1
+- collection_type: open
+  name: Purplebricks Feedback API 1 - Core Squad
+  slug: open-purplebricks-feedback-v1
+- collection_type: open
+  name: Purplebricks.Lettings.Api 1 - Team Integrations
+  slug: open-purplebricks-lettings-v1
+- collection_type: open
+  name: Purplebricks.Messaging.Api 1.0 - Backend
+  slug: open-purplebricks-messaging-v1
+- collection_type: open
+  name: Purplebricks.Messaging.Api 2.0 - Backend
+  slug: open-purplebricks-messaging-v2
+- collection_type: open
+  name: Purplebricks.Microservice.Outlook.Api 1.0 - Squad Agents and Intel
+  slug: open-purplebricks-outlook-v1
+- collection_type: open
+  name: Purplebricks Property API 1.0 - Platform
+  slug: open-purplebricks-property-v1
+- collection_type: open
+  name: Purplebricks Property API 2.0 - Platform
+  slug: open-purplebricks-property-v2
+- collection_type: open
+  name: Purplebricks.Valuations.Api 1.0 - Core
+  slug: open-purplebricks-valuations-v1
+- collection_type: open
+  name: Purplebricks.Valuations.Api 2 - Core
+  slug: open-purplebricks-valuations-v2
+- collection_type: open
+  name: Purplebricks.Viewings.Api 1.0 - Customer Experience
+  slug: open-purplebricks-viewings-v1
+- collection_type: open
+  name: Purplebricks Workflow API 1.0 - Platform
+  slug: open-purplebricks-workflow-v1
 common:
 - group: auth
   title: ''
@@ -285,7 +334,7 @@ overview: 'Purplebricks publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Purplebricks'' developer surface includes pricing, engineering blog, YouTube channel, authentication, API reference, signup flow, support, and 42 more developer resources.'
-random_paper: 102
+random_paper: 110
 score:
   band: thin
   composite: 37.7
@@ -309,7 +358,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

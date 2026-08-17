@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: The RoomTypes API from Cvent Hospitality Cloud — 1 operation(s) for roomtypes.
   name: Cvent Hospitality Cloud RoomTypes API
   slug: cvent-hospitality-cloud-roomtypes-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cvent Passkey RegLink REST Authentication API
+  slug: open-cvent-hospitality-cloud-authentication-api
+- collection_type: open
+  name: Cvent Passkey RegLink REST Authentication Connections API
+  slug: open-cvent-hospitality-cloud-connections-api
+- collection_type: open
+  name: Cvent Passkey RegLink REST Authentication Events API
+  slug: open-cvent-hospitality-cloud-events-api
+- collection_type: open
+  name: Cvent Passkey RegLink REST Authentication Hotels API
+  slug: open-cvent-hospitality-cloud-hotels-api
+- collection_type: open
+  name: Cvent Passkey RegLink REST Authentication ReservationRequests API
+  slug: open-cvent-hospitality-cloud-reservationrequests-api
+- collection_type: open
+  name: Cvent Passkey RegLink REST Authentication RoomTypes API
+  slug: open-cvent-hospitality-cloud-roomtypes-api
 - collection_type: open
   name: Cvent Passkey RegLink REST API
   slug: open-cvent-hospitality-cloud
@@ -153,7 +174,7 @@ plans:
 - name: Cvent Hospitality Cloud Plans Pricing
   plan_count: 3
   slug: cvent-hospitality-cloud-plans-pricing
-random_paper: 99
+random_paper: 144
 rate_limits:
 - limit_count: 5
   name: Cvent Hospitality Cloud Rate Limits
@@ -183,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/screenshots/cvent-hospitality-cloud-2026-06-20T175403.png
 security:

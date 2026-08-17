@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -72,7 +72,41 @@ apis:
 - description: The symplectic API from Loughborough University — 5 operation(s) for symplectic.
   name: Loughborough University symplectic API
   slug: loughborough-symplectic-api
-artifact_total: 26
+artifact_total: 37
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric API
+  slug: open-loughborough-altmetric-api
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric articles API
+  slug: open-loughborough-articles-api
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric authors API
+  slug: open-loughborough-authors-api
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric collections API
+  slug: open-loughborough-collections-api
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric institutions API
+  slug: open-loughborough-institutions-api
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric oauth API
+  slug: open-loughborough-oauth-api
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric other API
+  slug: open-loughborough-other-api
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric profiles API
+  slug: open-loughborough-profiles-api
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric projects API
+  slug: open-loughborough-projects-api
+- collection_type: open
+  name: Loughborough Research Repository (figshare API) altmetric symplectic API
+  slug: open-loughborough-symplectic-api
 common:
 - group: agent
   title: ''
@@ -176,7 +210,7 @@ plans:
 - name: Loughborough Plans Pricing
   plan_count: 2
   slug: loughborough-plans-pricing
-random_paper: 101
+random_paper: 109
 rate_limits:
 - limit_count: 1
   name: Loughborough Rate Limits
@@ -223,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/screenshots/loughborough-2026-06-20T184729.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: RESTful v1 API for the August Health EHR platform covering organizations, facilities, rooms, census, residents, contacts, assessments, incidents & notes, medications (orders and administrations), vita
@@ -171,7 +171,7 @@ overview: 'August Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   August Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 20
+random_paper: 148
 rate_limits:
 - limit_count: 1
   name: August Health Rate Limits
@@ -199,7 +199,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/screenshots/august-health-2026-07-25T201720.png
 security:

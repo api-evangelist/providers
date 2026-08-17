@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -77,11 +77,29 @@ arazzos:
 - description: List existing API entities and regenerate an SDK for the first one.
   name: APIMatic Regenerate SDK for Existing Entity
   slug: apimatic-list-entities-generate-sdk-workflow
-artifact_total: 47
+artifact_total: 53
 collections:
 - collection_type: postman
   name: APIMatic Platform API
   slug: postman-apimatic-platform-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APIMatic Platform APIs API
+  slug: open-apimatic-apis-api
+- collection_type: open
+  name: APIMatic Platform APIs Portals API
+  slug: open-apimatic-portals-api
+- collection_type: open
+  name: APIMatic Platform APIs SDK Generation API
+  slug: open-apimatic-sdk-generation-api
+- collection_type: open
+  name: APIMatic Platform APIs Transformation API
+  slug: open-apimatic-transformation-api
+- collection_type: open
+  name: APIMatic Platform APIs Validation API
+  slug: open-apimatic-validation-api
 common:
 - group: agent
   title: ''
@@ -266,7 +284,7 @@ plans:
 - name: Apimatic Plans Pricing
   plan_count: 3
   slug: apimatic-plans-pricing
-random_paper: 0
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Apimatic Rate Limits
@@ -300,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/screenshots/apimatic-2026-07-25T200631.png
 security:

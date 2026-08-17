@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -84,12 +84,57 @@ apis:
 - description: The WebSocket API from WellnessLiving — 1 operation(s) for websocket.
   name: WellnessLiving WebSocket API
   slug: wellnessliving-websocket-api
-artifact_total: 24
+artifact_total: 39
 asyncapis:
 - description: WellnessLiving's own web and mobile clients (Achieve, Elevate, the backend console) receive live updates - report-generation progress, visit/attendance status changes, and messenger chat messages - ov
   name: WellnessLiving Real-Time Notifications (WebSocket)
   slug: wellnessliving-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WellnessLiving Appointments API
+  slug: open-wellnessliving-appointments-api
+- collection_type: open
+  name: WellnessLiving Appointments Authentication API
+  slug: open-wellnessliving-authentication-api
+- collection_type: open
+  name: WellnessLiving Appointments Booking API
+  slug: open-wellnessliving-booking-api
+- collection_type: open
+  name: WellnessLiving Appointments Business API
+  slug: open-wellnessliving-business-api
+- collection_type: open
+  name: WellnessLiving Appointments Catalog API
+  slug: open-wellnessliving-catalog-api
+- collection_type: open
+  name: WellnessLiving Appointments Classes API
+  slug: open-wellnessliving-classes-api
+- collection_type: open
+  name: WellnessLiving Appointments Clients API
+  slug: open-wellnessliving-clients-api
+- collection_type: open
+  name: WellnessLiving Appointments Locations API
+  slug: open-wellnessliving-locations-api
+- collection_type: open
+  name: WellnessLiving Appointments Payments API
+  slug: open-wellnessliving-payments-api
+- collection_type: open
+  name: WellnessLiving Appointments Promotions API
+  slug: open-wellnessliving-promotions-api
+- collection_type: open
+  name: WellnessLiving Appointments Reports API
+  slug: open-wellnessliving-reports-api
+- collection_type: open
+  name: WellnessLiving Appointments Rewards API
+  slug: open-wellnessliving-rewards-api
+- collection_type: open
+  name: WellnessLiving Appointments Staff API
+  slug: open-wellnessliving-staff-api
+- collection_type: open
+  name: WellnessLiving Appointments WebSocket API
+  slug: open-wellnessliving-websocket-api
 - collection_type: open
   name: WellnessLiving API
   slug: open-wellnessliving
@@ -162,7 +207,7 @@ plans:
 - name: Wellnessliving Plans Pricing
   plan_count: 4
   slug: wellnessliving-plans-pricing
-random_paper: 86
+random_paper: 36
 rate_limits:
 - limit_count: 4
   name: Wellnessliving Rate Limits
@@ -196,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

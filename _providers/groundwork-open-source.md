@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The agent API from Groundwork Open Source — 8 operation(s) for agent.
@@ -55,7 +55,35 @@ apis:
 - description: The metrics API from Groundwork Open Source — 1 operation(s) for metrics.
   name: Groundwork Open Source metrics API
   slug: groundwork-open-source-metrics-api
-artifact_total: 10
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Groundwork Open Source agent API
+  slug: open-groundwork-open-source-agent-api
+- collection_type: open
+  name: Groundwork Open Source agent alert API
+  slug: open-groundwork-open-source-alert-api
+- collection_type: open
+  name: Groundwork Open Source agent connector API
+  slug: open-groundwork-open-source-connector-api
+- collection_type: open
+  name: Groundwork Open Source agent downtimes API
+  slug: open-groundwork-open-source-downtimes-api
+- collection_type: open
+  name: Groundwork Open Source agent event API
+  slug: open-groundwork-open-source-event-api
+- collection_type: open
+  name: Groundwork Open Source agent inventory API
+  slug: open-groundwork-open-source-inventory-api
+- collection_type: open
+  name: Groundwork Open Source agent metric API
+  slug: open-groundwork-open-source-metric-api
+- collection_type: open
+  name: Groundwork Open Source agent metrics API
+  slug: open-groundwork-open-source-metrics-api
 common:
 - group: operate
   title: ''
@@ -149,7 +177,7 @@ overview: 'Groundwork Open Source publishes 8 APIs on the [APIs.io](https://apis
 
 
   Groundwork Open Source''s developer surface includes authentication, documentation, API reference, and 16 more developer resources.'
-random_paper: 7
+random_paper: 52
 score:
   band: emerging
   composite: 25.9
@@ -172,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/screenshots/groundwork-open-source-2026-07-25T220352.png
 security:

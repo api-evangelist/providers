@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -128,14 +128,38 @@ arazzos:
 - description: Find an organization, list its folders, then list the projects directly under it.
   name: Google Cloud Platform Walk Resource Hierarchy
   slug: google-cloud-platform-walk-resource-hierarchy-workflow
-artifact_total: 186
+artifact_total: 194
 collections:
 - collection_type: postman
   name: Google Cloud Platform Google Cloud Resource Manager API
   slug: postman-cloud-resource-manager
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Platform Google Cloud Resource Manager API
   slug: open-cloud-resource-manager
+- collection_type: open
+  name: Google Cloud Platform Google Cloud Resource Manager Folders API
+  slug: open-google-cloud-platform-folders-api
+- collection_type: open
+  name: Google Cloud Platform Google Cloud Resource Manager Folders Operations API
+  slug: open-google-cloud-platform-operations-api
+- collection_type: open
+  name: Google Cloud Platform Google Cloud Resource Manager Folders Organizations API
+  slug: open-google-cloud-platform-organizations-api
+- collection_type: open
+  name: Google Cloud Platform Google Cloud Resource Manager Folders Projects API
+  slug: open-google-cloud-platform-projects-api
+- collection_type: open
+  name: Google Cloud Platform Google Cloud Resource Manager Folders TagBindings API
+  slug: open-google-cloud-platform-tagbindings-api
+- collection_type: open
+  name: Google Cloud Platform Google Cloud Resource Manager Folders TagKeys API
+  slug: open-google-cloud-platform-tagkeys-api
+- collection_type: open
+  name: Google Cloud Platform Google Cloud Resource Manager Folders TagValues API
+  slug: open-google-cloud-platform-tagvalues-api
 common:
 - group: agent
   title: ''
@@ -847,7 +871,7 @@ plans:
 - name: Google Cloud Platform Plans Pricing
   plan_count: 5
   slug: google-cloud-platform-plans-pricing
-random_paper: 91
+random_paper: 45
 rate_limits:
 - limit_count: 7
   name: Google Cloud Platform Rate Limits
@@ -896,7 +920,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/screenshots/google-cloud-platform-2026-06-20T182128.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 0
@@ -325,7 +325,7 @@ arazzos:
 - description: Resolve the most recent changeset on an iModel and pin a named version to it.
   name: Bentley Tag a Named Version From the Latest Changeset
   slug: bentley-systems-tag-named-version-workflow
-artifact_total: 195
+artifact_total: 282
 collections:
 - collection_type: postman
   name: iTwin Access Control API
@@ -420,6 +420,267 @@ collections:
 - collection_type: postman
   name: iTwin Webhooks API
   slug: postman-itwin-webhooks
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: iTwin Control Access API
+  slug: open-bentley-systems-access-api
+- collection_type: open
+  name: iTwin Control Access Animations API
+  slug: open-bentley-systems-animations-api
+- collection_type: open
+  name: iTwin Control Access Attachments API
+  slug: open-bentley-systems-attachments-api
+- collection_type: open
+  name: iTwin Control Access Audit Trail API
+  slug: open-bentley-systems-audit-trail-api
+- collection_type: open
+  name: iTwin Control Access Authorization API
+  slug: open-bentley-systems-authorization-api
+- collection_type: open
+  name: iTwin Control Access Baselines API
+  slug: open-bentley-systems-baselines-api
+- collection_type: open
+  name: iTwin Control Access Briefcases API
+  slug: open-bentley-systems-briefcases-api
+- collection_type: open
+  name: iTwin Control Access Calendars API
+  slug: open-bentley-systems-calendars-api
+- collection_type: open
+  name: iTwin Control Access Catalog API
+  slug: open-bentley-systems-catalog-api
+- collection_type: open
+  name: iTwin Control Access Categories API
+  slug: open-bentley-systems-categories-api
+- collection_type: open
+  name: iTwin Control Access Cesium API
+  slug: open-bentley-systems-cesium-api
+- collection_type: open
+  name: iTwin Control Access Change Tracking API
+  slug: open-bentley-systems-change-tracking-api
+- collection_type: open
+  name: iTwin Control Access Changesets API
+  slug: open-bentley-systems-changesets-api
+- collection_type: open
+  name: iTwin Control Access Comments API
+  slug: open-bentley-systems-comments-api
+- collection_type: open
+  name: iTwin Control Access Comparisons API
+  slug: open-bentley-systems-comparisons-api
+- collection_type: open
+  name: iTwin Control Access Components API
+  slug: open-bentley-systems-components-api
+- collection_type: open
+  name: iTwin Control Access Configurations API
+  slug: open-bentley-systems-configurations-api
+- collection_type: open
+  name: iTwin Control Access Connections API
+  slug: open-bentley-systems-connections-api
+- collection_type: open
+  name: iTwin Control Access Connectors API
+  slug: open-bentley-systems-connectors-api
+- collection_type: open
+  name: iTwin Control Access Content API
+  slug: open-bentley-systems-content-api
+- collection_type: open
+  name: iTwin Control Access Detectors API
+  slug: open-bentley-systems-detectors-api
+- collection_type: open
+  name: iTwin Control Access Devices API
+  slug: open-bentley-systems-devices-api
+- collection_type: open
+  name: iTwin Control Access Events API
+  slug: open-bentley-systems-events-api
+- collection_type: open
+  name: iTwin Control Access Export API
+  slug: open-bentley-systems-export-api
+- collection_type: open
+  name: iTwin Control Access Exports API
+  slug: open-bentley-systems-exports-api
+- collection_type: open
+  name: iTwin Control Access Extensions API
+  slug: open-bentley-systems-extensions-api
+- collection_type: open
+  name: iTwin Control Access Extractions API
+  slug: open-bentley-systems-extractions-api
+- collection_type: open
+  name: iTwin Control Access Features API
+  slug: open-bentley-systems-features-api
+- collection_type: open
+  name: iTwin Control Access Files API
+  slug: open-bentley-systems-files-api
+- collection_type: open
+  name: iTwin Control Access Folders API
+  slug: open-bentley-systems-folders-api
+- collection_type: open
+  name: iTwin Control Access Forms API
+  slug: open-bentley-systems-forms-api
+- collection_type: open
+  name: iTwin Control Access Groups API
+  slug: open-bentley-systems-groups-api
+- collection_type: open
+  name: iTwin Control Access Images API
+  slug: open-bentley-systems-images-api
+- collection_type: open
+  name: iTwin Control Access iModels API
+  slug: open-bentley-systems-imodels-api
+- collection_type: open
+  name: iTwin Control Access Instances API
+  slug: open-bentley-systems-instances-api
+- collection_type: open
+  name: iTwin Control Access Invitations API
+  slug: open-bentley-systems-invitations-api
+- collection_type: open
+  name: iTwin Control Access Issues API
+  slug: open-bentley-systems-issues-api
+- collection_type: open
+  name: iTwin Control Access iTwins API
+  slug: open-bentley-systems-itwins-api
+- collection_type: open
+  name: iTwin Control Access Jobs API
+  slug: open-bentley-systems-jobs-api
+- collection_type: open
+  name: iTwin Control Access Layers API
+  slug: open-bentley-systems-layers-api
+- collection_type: open
+  name: iTwin Control Access Locks API
+  slug: open-bentley-systems-locks-api
+- collection_type: open
+  name: iTwin Control Access Mappings API
+  slug: open-bentley-systems-mappings-api
+- collection_type: open
+  name: iTwin Control Access Materials API
+  slug: open-bentley-systems-materials-api
+- collection_type: open
+  name: iTwin Control Access Me API
+  slug: open-bentley-systems-me-api
+- collection_type: open
+  name: iTwin Control Access Members API
+  slug: open-bentley-systems-members-api
+- collection_type: open
+  name: iTwin Control Access Mesh Export API
+  slug: open-bentley-systems-mesh-export-api
+- collection_type: open
+  name: iTwin Control Access Models API
+  slug: open-bentley-systems-models-api
+- collection_type: open
+  name: iTwin Control Access Named Groups API
+  slug: open-bentley-systems-named-groups-api
+- collection_type: open
+  name: iTwin Control Access Named Versions API
+  slug: open-bentley-systems-named-versions-api
+- collection_type: open
+  name: iTwin Control Access Observations API
+  slug: open-bentley-systems-observations-api
+- collection_type: open
+  name: iTwin Control Access ODATA API
+  slug: open-bentley-systems-odata-api
+- collection_type: open
+  name: iTwin Control Access Parameters API
+  slug: open-bentley-systems-parameters-api
+- collection_type: open
+  name: iTwin Control Access Permissions API
+  slug: open-bentley-systems-permissions-api
+- collection_type: open
+  name: iTwin Control Access Policies API
+  slug: open-bentley-systems-policies-api
+- collection_type: open
+  name: iTwin Control Access Properties API
+  slug: open-bentley-systems-properties-api
+- collection_type: open
+  name: iTwin Control Access Queries API
+  slug: open-bentley-systems-queries-api
+- collection_type: open
+  name: iTwin Control Access Reality Data API
+  slug: open-bentley-systems-reality-data-api
+- collection_type: open
+  name: iTwin Control Access Recents API
+  slug: open-bentley-systems-recents-api
+- collection_type: open
+  name: iTwin Control Access Reports API
+  slug: open-bentley-systems-reports-api
+- collection_type: open
+  name: iTwin Control Access Repositories API
+  slug: open-bentley-systems-repositories-api
+- collection_type: open
+  name: iTwin Control Access Resources API
+  slug: open-bentley-systems-resources-api
+- collection_type: open
+  name: iTwin Control Access Roles API
+  slug: open-bentley-systems-roles-api
+- collection_type: open
+  name: iTwin Control Access Runs API
+  slug: open-bentley-systems-runs-api
+- collection_type: open
+  name: iTwin Control Access Saved Views API
+  slug: open-bentley-systems-saved-views-api
+- collection_type: open
+  name: iTwin Control Access Scenes API
+  slug: open-bentley-systems-scenes-api
+- collection_type: open
+  name: iTwin Control Access Schedules API
+  slug: open-bentley-systems-schedules-api
+- collection_type: open
+  name: iTwin Control Access Schemas API
+  slug: open-bentley-systems-schemas-api
+- collection_type: open
+  name: iTwin Control Access Sensors API
+  slug: open-bentley-systems-sensors-api
+- collection_type: open
+  name: iTwin Control Access Shares API
+  slug: open-bentley-systems-shares-api
+- collection_type: open
+  name: iTwin Control Access Source Files API
+  slug: open-bentley-systems-source-files-api
+- collection_type: open
+  name: iTwin Control Access Sources API
+  slug: open-bentley-systems-sources-api
+- collection_type: open
+  name: iTwin Control Access Suppression Rules API
+  slug: open-bentley-systems-suppression-rules-api
+- collection_type: open
+  name: iTwin Control Access Symbols API
+  slug: open-bentley-systems-symbols-api
+- collection_type: open
+  name: iTwin Control Access Tags API
+  slug: open-bentley-systems-tags-api
+- collection_type: open
+  name: iTwin Control Access Tasks API
+  slug: open-bentley-systems-tasks-api
+- collection_type: open
+  name: iTwin Control Access Templates API
+  slug: open-bentley-systems-templates-api
+- collection_type: open
+  name: iTwin Control Access Tests API
+  slug: open-bentley-systems-tests-api
+- collection_type: open
+  name: iTwin Control Access Thumbnails API
+  slug: open-bentley-systems-thumbnails-api
+- collection_type: open
+  name: iTwin Control Access Transformations API
+  slug: open-bentley-systems-transformations-api
+- collection_type: open
+  name: iTwin Control Access Trash API
+  slug: open-bentley-systems-trash-api
+- collection_type: open
+  name: iTwin Control Access Users API
+  slug: open-bentley-systems-users-api
+- collection_type: open
+  name: iTwin Control Access Versions API
+  slug: open-bentley-systems-versions-api
+- collection_type: open
+  name: iTwin Control Access Webhooks API
+  slug: open-bentley-systems-webhooks-api
+- collection_type: open
+  name: iTwin Control Access Work Breakdown API
+  slug: open-bentley-systems-work-breakdown-api
+- collection_type: open
+  name: iTwin Control Access Workflow API
+  slug: open-bentley-systems-workflow-api
+- collection_type: open
+  name: iTwin Control Access Workspaces API
+  slug: open-bentley-systems-workspaces-api
 - collection_type: open
   name: iTwin Access Control API
   slug: open-itwin-access-control
@@ -855,7 +1116,7 @@ plans:
 - name: Bentley Systems Plans Pricing
   plan_count: 4
   slug: bentley-systems-plans-pricing
-random_paper: 32
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Bentley Systems Rate Limits
@@ -902,7 +1163,7 @@ score:
       marker_coverage: 0.0
       total: 86
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png
 security:

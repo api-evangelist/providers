@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,15 +57,33 @@ apis:
 - description: Discover the currency pairs available to the calling API key.
   name: 1Forge Symbols API
   slug: 1forge-symbols-api
-artifact_total: 30
+artifact_total: 36
 asyncapis:
 - description: '1Forge streams real-time forex and cryptocurrency price updates over a single WebSocket connection at `wss://sockets.1forge.com/socket`. Messages are pipe-delimited text frames: `{action}|{body}`, whe'
   name: 1Forge Forex Stream API
   slug: 1forge-forex-stream-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 1Forge Forex Data Convert API
+  slug: open-1forge-convert-api
+- collection_type: open
   name: 1Forge Forex Data API
   slug: open-1forge-forex-data-api
+- collection_type: open
+  name: 1Forge Forex Data Convert Market Status API
+  slug: open-1forge-market-status-api
+- collection_type: open
+  name: 1Forge Forex Data Convert Quota API
+  slug: open-1forge-quota-api
+- collection_type: open
+  name: 1Forge Forex Data Convert Quotes API
+  slug: open-1forge-quotes-api
+- collection_type: open
+  name: 1Forge Forex Data Convert Symbols API
+  slug: open-1forge-symbols-api
 common:
 - group: agent
   title: ''
@@ -198,7 +216,7 @@ plans:
 - name: 1Forge Plans Pricing
   plan_count: 4
   slug: 1forge-plans-pricing
-random_paper: 100
+random_paper: 133
 rate_limits:
 - limit_count: 2
   name: 1Forge Rate Limits
@@ -254,7 +272,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/screenshots/1forge-2026-06-20T162445.png
 security:

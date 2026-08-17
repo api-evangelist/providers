@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -213,7 +213,7 @@ apis:
 - description: The UserSessionRegistry API from The Things Network / The Things Stack — 2 operation(s) for usersessionregistry.
   name: The Things Network / The Things Stack UserSessionRegistry API
   slug: the-things-network-usersessionregistry-api
-artifact_total: 152
+artifact_total: 211
 collections:
 - collection_type: postman
   name: The Things Stack — Application Server AppAs API
@@ -389,6 +389,183 @@ collections:
 - collection_type: postman
   name: The Things Stack — Application Server AppAs UserSessionRegistry API
   slug: postman-the-things-network-usersessionregistry-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Things Stack — Application Server AppAs API
+  slug: open-the-things-network-appas-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ApplicationAccess API
+  slug: open-the-things-network-applicationaccess-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ApplicationActivationSettingRegistry API
+  slug: open-the-things-network-applicationactivationsettingregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ApplicationPackageRegistry API
+  slug: open-the-things-network-applicationpackageregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ApplicationPubSubRegistry API
+  slug: open-the-things-network-applicationpubsubregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ApplicationRegistry API
+  slug: open-the-things-network-applicationregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ApplicationUpStorage API
+  slug: open-the-things-network-applicationupstorage-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ApplicationWebhookRegistry API
+  slug: open-the-things-network-applicationwebhookregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs As API
+  slug: open-the-things-network-as-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs AsEndDeviceBatchRegistry API
+  slug: open-the-things-network-asenddevicebatchregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs AsEndDeviceRegistry API
+  slug: open-the-things-network-asenddeviceregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ClientAccess API
+  slug: open-the-things-network-clientaccess-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ClientRegistry API
+  slug: open-the-things-network-clientregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs Configuration API
+  slug: open-the-things-network-configuration-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ContactInfoRegistry API
+  slug: open-the-things-network-contactinforegistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs DeviceRepository API
+  slug: open-the-things-network-devicerepository-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EmailValidationRegistry API
+  slug: open-the-things-network-emailvalidationregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EndDeviceBatchClaimingServer API
+  slug: open-the-things-network-enddevicebatchclaimingserver-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EndDeviceBatchRegistry API
+  slug: open-the-things-network-enddevicebatchregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EndDeviceClaimingServer API
+  slug: open-the-things-network-enddeviceclaimingserver-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EndDeviceQRCodeGenerator API
+  slug: open-the-things-network-enddeviceqrcodegenerator-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EndDeviceRegistry API
+  slug: open-the-things-network-enddeviceregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EndDeviceRegistrySearch API
+  slug: open-the-things-network-enddeviceregistrysearch-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EndDeviceTemplateConverter API
+  slug: open-the-things-network-enddevicetemplateconverter-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EntityAccess API
+  slug: open-the-things-network-entityaccess-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs EntityRegistrySearch API
+  slug: open-the-things-network-entityregistrysearch-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs Events API
+  slug: open-the-things-network-events-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs GatewayAccess API
+  slug: open-the-things-network-gatewayaccess-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs GatewayBatchAccess API
+  slug: open-the-things-network-gatewaybatchaccess-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs GatewayBatchRegistry API
+  slug: open-the-things-network-gatewaybatchregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs GatewayClaimingServer API
+  slug: open-the-things-network-gatewayclaimingserver-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs GatewayConfigurationService API
+  slug: open-the-things-network-gatewayconfigurationservice-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs GatewayQRCodeGenerator API
+  slug: open-the-things-network-gatewayqrcodegenerator-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs GatewayRegistry API
+  slug: open-the-things-network-gatewayregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs Gs API
+  slug: open-the-things-network-gs-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs GtwGs API
+  slug: open-the-things-network-gtwgs-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs Is API
+  slug: open-the-things-network-is-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs Js API
+  slug: open-the-things-network-js-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs JsEndDeviceBatchRegistry API
+  slug: open-the-things-network-jsenddevicebatchregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs JsEndDeviceRegistry API
+  slug: open-the-things-network-jsenddeviceregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ManagedGatewayConfigurationService API
+  slug: open-the-things-network-managedgatewayconfigurationservice-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ManagedGatewayEthernetProfileConfigurationService API
+  slug: open-the-things-network-managedgatewayethernetprofileconfigurationservice-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs ManagedGatewayWiFiProfileConfigurationService API
+  slug: open-the-things-network-managedgatewaywifiprofileconfigurationservice-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs NotificationService API
+  slug: open-the-things-network-notificationservice-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs Ns API
+  slug: open-the-things-network-ns-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs NsEndDeviceBatchRegistry API
+  slug: open-the-things-network-nsenddevicebatchregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs NsEndDeviceRegistry API
+  slug: open-the-things-network-nsenddeviceregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs NsMACSettingsProfileRegistry API
+  slug: open-the-things-network-nsmacsettingsprofileregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs NsRelayConfigurationService API
+  slug: open-the-things-network-nsrelayconfigurationservice-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs OAuthAuthorizationRegistry API
+  slug: open-the-things-network-oauthauthorizationregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs OrganizationAccess API
+  slug: open-the-things-network-organizationaccess-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs OrganizationRegistry API
+  slug: open-the-things-network-organizationregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs Pba API
+  slug: open-the-things-network-pba-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs UserAccess API
+  slug: open-the-things-network-useraccess-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs UserBookmarkRegistry API
+  slug: open-the-things-network-userbookmarkregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs UserInvitationRegistry API
+  slug: open-the-things-network-userinvitationregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs UserRegistry API
+  slug: open-the-things-network-userregistry-api
+- collection_type: open
+  name: The Things Stack — Application Server AppAs UserSessionRegistry API
+  slug: open-the-things-network-usersessionregistry-api
 - collection_type: open
   name: The Things Stack — Application Server
   slug: open-the-things-stack-application-server
@@ -649,7 +826,7 @@ plans:
 - name: The Things Network Plans Pricing
   plan_count: 6
   slug: the-things-network-plans-pricing
-random_paper: 42
+random_paper: 54
 rate_limits:
 - limit_count: 7
   name: The Things Network Rate Limits
@@ -691,7 +868,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -149,7 +149,7 @@ arazzos:
 - description: Confirm the token's identity and scopes, then list the bases it can reach.
   name: Airtable Verify Token Access
   slug: airtable-verify-token-access-workflow
-artifact_total: 159
+artifact_total: 169
 asyncapis:
 - description: The Airtable Webhooks API delivers lightweight change notifications to a subscriber's notification URL whenever data within a base or table changes. Airtable sends a small "ping" via HTTP POST identif
   name: Airtable Webhooks API
@@ -174,23 +174,53 @@ collections:
   name: Airtable Shares API
   slug: postman-airtable-shares-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Airtable API
   slug: open-airtable-airtable-api
 - collection_type: open
   name: Airtable Audit Logs API
   slug: open-airtable-audit-logs-api
 - collection_type: open
-  name: Airtable Enterprise API
+  name: Airtable Audit Logs Bases API
+  slug: open-airtable-bases-api
+- collection_type: open
+  name: Airtable Audit Logs Comments API
+  slug: open-airtable-comments-api
+- collection_type: open
+  name: Airtable Audit Logs Enterprise API
   slug: open-airtable-enterprise-api
+- collection_type: open
+  name: Airtable Audit Logs Fields API
+  slug: open-airtable-fields-api
+- collection_type: open
+  name: Airtable Audit Logs Groups API
+  slug: open-airtable-groups-api
 - collection_type: open
   name: Airtable Metadata API
   slug: open-airtable-metadata-api
 - collection_type: open
+  name: Airtable Audit Logs Records API
+  slug: open-airtable-records-api
+- collection_type: open
   name: Airtable SCIM API
   slug: open-airtable-scim-api
 - collection_type: open
-  name: Airtable Shares API
+  name: Airtable Audit Logs Shares API
   slug: open-airtable-shares-api
+- collection_type: open
+  name: Airtable Audit Logs Tables API
+  slug: open-airtable-tables-api
+- collection_type: open
+  name: Airtable Audit Logs Users API
+  slug: open-airtable-users-api
+- collection_type: open
+  name: Airtable Audit Logs Webhooks API
+  slug: open-airtable-webhooks-api
+- collection_type: open
+  name: Airtable Audit Logs Workspaces API
+  slug: open-airtable-workspaces-api
 common:
 - group: agent
   title: ''
@@ -760,7 +790,7 @@ plans:
 - name: Airtable Plans Pricing
   plan_count: 4
   slug: airtable-plans-pricing
-random_paper: 116
+random_paper: 91
 rate_limits:
 - limit_count: 3
   name: Airtable Rate Limits
@@ -810,7 +840,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png
 security:

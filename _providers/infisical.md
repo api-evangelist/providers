@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 7
@@ -258,7 +258,230 @@ apis:
 - description: The Universal Auth API from Infisical — 8 operation(s) for universal auth.
   name: Infisical Universal Auth API
   slug: infisical-universal-auth-api
-artifact_total: 90
+artifact_total: 164
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Infisical Admin API
+  slug: open-infisical-admin-api
+- collection_type: open
+  name: Infisical Admin Alibaba Cloud Auth API
+  slug: open-infisical-alibaba-cloud-auth-api
+- collection_type: open
+  name: Infisical Admin App Connections API
+  slug: open-infisical-app-connections-api
+- collection_type: open
+  name: Infisical Admin Audit Logs API
+  slug: open-infisical-audit-logs-api
+- collection_type: open
+  name: Infisical Admin AWS Auth API
+  slug: open-infisical-aws-auth-api
+- collection_type: open
+  name: Infisical Admin Azure Auth API
+  slug: open-infisical-azure-auth-api
+- collection_type: open
+  name: Infisical Admin Cert Manager API
+  slug: open-infisical-cert-manager-api
+- collection_type: open
+  name: Infisical Admin Dynamic Secrets API
+  slug: open-infisical-dynamic-secrets-api
+- collection_type: open
+  name: Infisical Admin Environments API
+  slug: open-infisical-environments-api
+- collection_type: open
+  name: Infisical Admin Event Subscriptions API
+  slug: open-infisical-event-subscriptions-api
+- collection_type: open
+  name: Infisical Admin Folders API
+  slug: open-infisical-folders-api
+- collection_type: open
+  name: Infisical Admin GCP Auth API
+  slug: open-infisical-gcp-auth-api
+- collection_type: open
+  name: Infisical Admin Groups API
+  slug: open-infisical-groups-api
+- collection_type: open
+  name: Infisical Admin Identities API
+  slug: open-infisical-identities-api
+- collection_type: open
+  name: Infisical Admin Identity Specific Privileges API
+  slug: open-infisical-identity-specific-privileges-api
+- collection_type: open
+  name: Infisical Admin Identity Specific Privileges V2 API
+  slug: open-infisical-identity-specific-privileges-v2-api
+- collection_type: open
+  name: Infisical Admin Identity Templates API
+  slug: open-infisical-identity-templates-api
+- collection_type: open
+  name: Infisical Admin Integrations API
+  slug: open-infisical-integrations-api
+- collection_type: open
+  name: Infisical Admin JWT Auth API
+  slug: open-infisical-jwt-auth-api
+- collection_type: open
+  name: Infisical Admin KMS Encryption API
+  slug: open-infisical-kms-encryption-api
+- collection_type: open
+  name: Infisical Admin KMS Keys API
+  slug: open-infisical-kms-keys-api
+- collection_type: open
+  name: Infisical Admin KMS Signing API
+  slug: open-infisical-kms-signing-api
+- collection_type: open
+  name: Infisical Admin Kubernetes Auth API
+  slug: open-infisical-kubernetes-auth-api
+- collection_type: open
+  name: Infisical Admin LDAP Auth API
+  slug: open-infisical-ldap-auth-api
+- collection_type: open
+  name: Infisical Admin LDAP SSO API
+  slug: open-infisical-ldap-sso-api
+- collection_type: open
+  name: Infisical Admin OCI Auth API
+  slug: open-infisical-oci-auth-api
+- collection_type: open
+  name: Infisical Admin OIDC Auth API
+  slug: open-infisical-oidc-auth-api
+- collection_type: open
+  name: Infisical Admin OIDC SSO API
+  slug: open-infisical-oidc-sso-api
+- collection_type: open
+  name: Infisical Admin Organization Identity Membership API
+  slug: open-infisical-organization-identity-membership-api
+- collection_type: open
+  name: Infisical Admin Organization Roles API
+  slug: open-infisical-organization-roles-api
+- collection_type: open
+  name: Infisical Admin Organizations API
+  slug: open-infisical-organizations-api
+- collection_type: open
+  name: Infisical Admin PKI ACME API
+  slug: open-infisical-pki-acme-api
+- collection_type: open
+  name: Infisical Admin PKI Alerting API
+  slug: open-infisical-pki-alerting-api
+- collection_type: open
+  name: Infisical Admin Pki API
+  slug: open-infisical-pki-api
+- collection_type: open
+  name: Infisical Admin PKI Applications API
+  slug: open-infisical-pki-applications-api
+- collection_type: open
+  name: Infisical Admin PKI Certificate Authorities API
+  slug: open-infisical-pki-certificate-authorities-api
+- collection_type: open
+  name: Infisical Admin PKI Certificate Collections API
+  slug: open-infisical-pki-certificate-collections-api
+- collection_type: open
+  name: Infisical Admin PKI Certificate Policies API
+  slug: open-infisical-pki-certificate-policies-api
+- collection_type: open
+  name: Infisical Admin PKI Certificate Profiles API
+  slug: open-infisical-pki-certificate-profiles-api
+- collection_type: open
+  name: Infisical Admin PKI Certificate Templates API
+  slug: open-infisical-pki-certificate-templates-api
+- collection_type: open
+  name: Infisical Admin PKI Certificates API
+  slug: open-infisical-pki-certificates-api
+- collection_type: open
+  name: Infisical Admin PKI Discovery API
+  slug: open-infisical-pki-discovery-api
+- collection_type: open
+  name: Infisical Admin PKI Installations API
+  slug: open-infisical-pki-installations-api
+- collection_type: open
+  name: Infisical Admin PKI Signers API
+  slug: open-infisical-pki-signers-api
+- collection_type: open
+  name: Infisical Admin PKI Subscribers API
+  slug: open-infisical-pki-subscribers-api
+- collection_type: open
+  name: Infisical Admin PKI Syncs API
+  slug: open-infisical-pki-syncs-api
+- collection_type: open
+  name: Infisical Admin Project Groups API
+  slug: open-infisical-project-groups-api
+- collection_type: open
+  name: Infisical Admin Project Identities API
+  slug: open-infisical-project-identities-api
+- collection_type: open
+  name: Infisical Admin Project Identity Membership API
+  slug: open-infisical-project-identity-membership-api
+- collection_type: open
+  name: Infisical Admin Project Roles API
+  slug: open-infisical-project-roles-api
+- collection_type: open
+  name: Infisical Admin Project Templates API
+  slug: open-infisical-project-templates-api
+- collection_type: open
+  name: Infisical Admin Project Users API
+  slug: open-infisical-project-users-api
+- collection_type: open
+  name: Infisical Admin Projects API
+  slug: open-infisical-projects-api
+- collection_type: open
+  name: Infisical Admin Relays API
+  slug: open-infisical-relays-api
+- collection_type: open
+  name: Infisical Admin SAML SSO API
+  slug: open-infisical-saml-sso-api
+- collection_type: open
+  name: Infisical Admin SCIM API
+  slug: open-infisical-scim-api
+- collection_type: open
+  name: Infisical Admin Secret Imports API
+  slug: open-infisical-secret-imports-api
+- collection_type: open
+  name: Infisical Admin Secret Rotations API
+  slug: open-infisical-secret-rotations-api
+- collection_type: open
+  name: Infisical Admin Secret Scanning API
+  slug: open-infisical-secret-scanning-api
+- collection_type: open
+  name: Infisical Admin Secret Sharing API
+  slug: open-infisical-secret-sharing-api
+- collection_type: open
+  name: Infisical Admin Secret Syncs API
+  slug: open-infisical-secret-syncs-api
+- collection_type: open
+  name: Infisical Admin Secrets API
+  slug: open-infisical-secrets-api
+- collection_type: open
+  name: Infisical Admin Service Tokens API
+  slug: open-infisical-service-tokens-api
+- collection_type: open
+  name: Infisical Admin SPIFFE Auth API
+  slug: open-infisical-spiffe-auth-api
+- collection_type: open
+  name: Infisical Admin SSH Certificate Authorities API
+  slug: open-infisical-ssh-certificate-authorities-api
+- collection_type: open
+  name: Infisical Admin SSH Certificate Templates API
+  slug: open-infisical-ssh-certificate-templates-api
+- collection_type: open
+  name: Infisical Admin SSH Certificates API
+  slug: open-infisical-ssh-certificates-api
+- collection_type: open
+  name: Infisical Admin SSH Host Groups API
+  slug: open-infisical-ssh-host-groups-api
+- collection_type: open
+  name: Infisical Admin SSH Hosts API
+  slug: open-infisical-ssh-hosts-api
+- collection_type: open
+  name: Infisical Admin Sub Organizations API
+  slug: open-infisical-sub-organizations-api
+- collection_type: open
+  name: Infisical Admin TLS Certificate Auth API
+  slug: open-infisical-tls-certificate-auth-api
+- collection_type: open
+  name: Infisical Admin Token Auth API
+  slug: open-infisical-token-auth-api
+- collection_type: open
+  name: Infisical Admin Universal Auth API
+  slug: open-infisical-universal-auth-api
 common:
 - group: agent
   title: ''
@@ -414,7 +637,7 @@ plans:
 - name: Infisical Plans Pricing
   plan_count: 4
   slug: infisical-plans-pricing
-random_paper: 106
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Infisical Rate Limits
@@ -448,7 +671,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/screenshots/infisical-2026-06-20T183331.png
 security:

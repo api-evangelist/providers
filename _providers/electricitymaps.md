@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +60,50 @@ apis:
 - description: The Zones API from Electricity Maps — 1 operation(s) for zones.
   name: Electricity Maps Zones API
   slug: electricitymaps-zones-api
-artifact_total: 15
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Electricity Maps API
   slug: open-electricity-maps
+- collection_type: open
+  name: Electricity Maps Carbon Intensity API
+  slug: open-electricitymaps-carbon-intensity-api
+- collection_type: open
+  name: Electricity Maps CarbonIntensity API
+  slug: open-electricitymaps-carbonintensity-api
+- collection_type: open
+  name: Electricity Maps CarbonIntensity ElectricityMix API
+  slug: open-electricitymaps-electricitymix-api
+- collection_type: open
+  name: Electricity Maps Carbon Intensity Forecast API
+  slug: open-electricitymaps-forecast-api
+- collection_type: open
+  name: Electricity Maps CarbonIntensity GridMetrics API
+  slug: open-electricitymaps-gridmetrics-api
+- collection_type: open
+  name: Electricity Maps Carbon Intensity Health API
+  slug: open-electricitymaps-health-api
+- collection_type: open
+  name: Electricity Maps Carbon Intensity Power Breakdown API
+  slug: open-electricitymaps-power-breakdown-api
+- collection_type: open
+  name: Electricity Maps Carbon Intensity Power Consumption API
+  slug: open-electricitymaps-power-consumption-api
+- collection_type: open
+  name: Electricity Maps Carbon Intensity Power Production API
+  slug: open-electricitymaps-power-production-api
+- collection_type: open
+  name: Electricity Maps CarbonIntensity Pricing API
+  slug: open-electricitymaps-pricing-api
+- collection_type: open
+  name: Electricity Maps CarbonIntensity Renewables API
+  slug: open-electricitymaps-renewables-api
+- collection_type: open
+  name: Electricity Maps Carbon Intensity Zones API
+  slug: open-electricitymaps-zones-api
 - collection_type: open
   name: Electricity Maps API
   slug: open-electricitymaps
@@ -145,7 +184,7 @@ plans:
 - name: Electricitymaps Plans Pricing
   plan_count: 4
   slug: electricitymaps-plans-pricing
-random_paper: 58
+random_paper: 128
 rate_limits:
 - limit_count: 6
   name: Electricitymaps Rate Limits
@@ -176,7 +215,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/screenshots/electricitymaps-2026-07-25T213108.png
 security:

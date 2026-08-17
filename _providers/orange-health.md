@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Create and manage diagnostic collection orders.
@@ -40,11 +40,24 @@ apis:
 - description: Check whether a location is serviceable and fetch available slots.
   name: Orange Health Serviceability API
   slug: orange-health-serviceability-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Orange Health Webhooks
   slug: orange-health-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orange Health Partner Orders API
+  slug: open-orange-health-orders-api
+- collection_type: open
+  name: Orange Health Partner Orders Results API
+  slug: open-orange-health-results-api
+- collection_type: open
+  name: Orange Health Partner Orders Serviceability API
+  slug: open-orange-health-serviceability-api
 common:
 - group: other
   title: ''
@@ -129,7 +142,7 @@ overview: 'Orange Health publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Orange Health''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 111
+random_paper: 119
 score:
   band: thin
   composite: 39.8
@@ -158,7 +171,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/screenshots/orange-health-2026-08-07T190830.png
 security:

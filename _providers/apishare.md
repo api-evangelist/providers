@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: ApiShare provides a unified catalog of APIs, applications, assets, MCP servers, and AI agents with role-based visibility, configurable lifecycle workflows, subscription management, and built-in audita
@@ -116,7 +116,7 @@ plans:
 - name: Apishare Plans Pricing
   plan_count: 3
   slug: apishare-plans-pricing
-random_paper: 5
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Apishare Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 16.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apishare/refs/heads/main/screenshots/apishare-2026-06-20T172257.png
 security:

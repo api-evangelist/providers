@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -105,11 +105,29 @@ apis:
 - description: List and manage content across public and private workspaces
   name: automation-anywhere Workspaces API
   slug: automation-anywhere-workspaces-api
-artifact_total: 142
+artifact_total: 164
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails API
+  slug: open-automation-anywhere-accessdetails-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Allocations API
+  slug: open-automation-anywhere-allocations-api
 - collection_type: open
   name: Automation Anywhere API Task Execution API
   slug: open-automation-anywhere-api-task-execution
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails AttributeValues API
+  slug: open-automation-anywhere-attributevalues-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails AuditData API
+  slug: open-automation-anywhere-auditdata-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Authentication API
+  slug: open-automation-anywhere-authentication-api
 - collection_type: open
   name: Automation Anywhere Bot Deploy API
   slug: open-automation-anywhere-bot-deploy
@@ -117,17 +135,65 @@ collections:
   name: Automation Anywhere Bot Insight API
   slug: open-automation-anywhere-bot-insight
 - collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails BotRunData API
+  slug: open-automation-anywhere-botrundata-api
+- collection_type: open
   name: Automation Anywhere Control Room API
   slug: open-automation-anywhere-control-room
 - collection_type: open
   name: Automation Anywhere Credential Vault API
   slug: open-automation-anywhere-credential-vault
 - collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Credentials API
+  slug: open-automation-anywhere-credentials-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Deployments API
+  slug: open-automation-anywhere-deployments-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Files API
+  slug: open-automation-anywhere-files-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Folders API
+  slug: open-automation-anywhere-folders-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails LockerConsumers API
+  slug: open-automation-anywhere-lockerconsumers-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails LockerMembers API
+  slug: open-automation-anywhere-lockermembers-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Lockers API
+  slug: open-automation-anywhere-lockers-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Permissions API
+  slug: open-automation-anywhere-permissions-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Queues API
+  slug: open-automation-anywhere-queues-api
+- collection_type: open
   name: Automation Anywhere Repository Management API
   slug: open-automation-anywhere-repository-management
 - collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Roles API
+  slug: open-automation-anywhere-roles-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails TaskData API
+  slug: open-automation-anywhere-taskdata-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Users API
+  slug: open-automation-anywhere-users-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails WorkItemModels API
+  slug: open-automation-anywhere-workitemmodels-api
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails WorkItems API
+  slug: open-automation-anywhere-workitems-api
+- collection_type: open
   name: Automation Anywhere Workload Management API
   slug: open-automation-anywhere-workload-management
+- collection_type: open
+  name: Automation Anywhere API Task Execution AccessDetails Workspaces API
+  slug: open-automation-anywhere-workspaces-api
 common:
 - group: agent
   title: ''
@@ -522,7 +588,7 @@ plans:
 - name: Automation Anywhere Plans Pricing
   plan_count: 4
   slug: automation-anywhere-plans-pricing
-random_paper: 81
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Automation Anywhere Rate Limits
@@ -556,7 +622,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/screenshots/automation-anywhere-2026-06-20T172657.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,11 +41,17 @@ apis:
 - description: The overall signal.
   name: API Pulse Signals API
   slug: api-pulse-signals-api
-artifact_total: 19
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: API Pulse Publishing
   slug: open-api-pulse-publish
+- collection_type: open
+  name: API Pulse Publishing Signals API
+  slug: open-api-pulse-signals-api
 common:
 - group: operate
   title: ''
@@ -107,7 +113,7 @@ plans:
 - name: Api Pulse Plans Pricing
   plan_count: 3
   slug: api-pulse-plans-pricing
-random_paper: 72
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Api Pulse Rate Limits
@@ -132,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-pulse/refs/heads/main/screenshots/api-pulse-2026-06-20T172215.png
 security:

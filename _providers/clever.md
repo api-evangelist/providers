@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -72,7 +72,41 @@ apis:
 - description: The Users API from Clever — 9 operation(s) for users.
   name: Clever Users API
   slug: clever-users-api
-artifact_total: 31
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Data Assignments API
+  slug: open-clever-assignments-api
+- collection_type: open
+  name: Data Assignments Courses API
+  slug: open-clever-courses-api
+- collection_type: open
+  name: Data Assignments Districts API
+  slug: open-clever-districts-api
+- collection_type: open
+  name: Data Assignments Events API
+  slug: open-clever-events-api
+- collection_type: open
+  name: Data Assignments Resources API
+  slug: open-clever-resources-api
+- collection_type: open
+  name: Data Assignments Schools API
+  slug: open-clever-schools-api
+- collection_type: open
+  name: Data Assignments Sections API
+  slug: open-clever-sections-api
+- collection_type: open
+  name: Data Assignments Submissions API
+  slug: open-clever-submissions-api
+- collection_type: open
+  name: Data Assignments Terms API
+  slug: open-clever-terms-api
+- collection_type: open
+  name: Data Assignments Users API
+  slug: open-clever-users-api
 common:
 - group: agent
   title: ''
@@ -240,7 +274,7 @@ plans:
 - name: Clever Plans Pricing
   plan_count: 3
   slug: clever-plans-pricing
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Clever Rate Limits
@@ -279,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/screenshots/clever-2026-06-20T174509.png
 security:

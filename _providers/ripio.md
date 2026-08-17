@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
 - description: API to check addresses of wallets.
   name: Ripio Wallets API
   slug: ripio-wallets-api
-artifact_total: 30
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Ripio Trade Webhooks
@@ -110,6 +110,42 @@ collections:
 - collection_type: postman
   name: Ripio Trade - API Documentation Book Wallets API
   slug: postman-ripio-wallets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ripio Trade - API Documentation Book API
+  slug: open-ripio-book-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book Cryptocurrency Deposits API
+  slug: open-ripio-cryptocurrency-deposits-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book Cryptocurrency Withdrawals API
+  slug: open-ripio-cryptocurrency-withdrawals-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book General endpoints API
+  slug: open-ripio-general-endpoints-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book Orders API
+  slug: open-ripio-orders-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book Public API
+  slug: open-ripio-public-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book Ticker API
+  slug: open-ripio-ticker-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book Ticket API
+  slug: open-ripio-ticket-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book Transactions API
+  slug: open-ripio-transactions-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book User API
+  slug: open-ripio-user-api
+- collection_type: open
+  name: Ripio Trade - API Documentation Book Wallets API
+  slug: open-ripio-wallets-api
 common:
 - group: build
   title: ''
@@ -266,7 +302,7 @@ overview: 'Ripio publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ripio''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 28 more developer resources.'
-random_paper: 67
+random_paper: 100
 rate_limits:
 - limit_count: 4
   name: Ripio Rate Limits
@@ -300,7 +336,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

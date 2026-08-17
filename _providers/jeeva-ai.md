@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -83,34 +83,97 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/jeeva-ai-llms.txt
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.jeeva.ai/jeeva-university
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.jeeva.ai/quick-start-guide
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.jeeva.ai/contact-us
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Involve-AI
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/jeeva-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/jeeva-ai-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/jeeva-ai-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/jeeva-ai-components.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/jeeva-ai-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/jeeva-ai-conformance.yml
+coverage:
+  checked: '2026-08-14'
+  detail: 'Jeeva AI ships an end-user sales-automation SaaS and no developer program: its 705-URL sitemap contains no developer portal, API reference or docs host, no pricing tier grants API access, and the only API host, api.jeeva.ai, is an AWS API Gateway that returns 403 {"message":"Missing Authentication Token"} to every unauthenticated path including /openapi.json, /graphql, /mcp and /.well-known/*.'
+  evidence:
+  - status: 403
+    url: https://api.jeeva.ai/openapi.json
+  - status: 404
+    url: https://www.jeeva.ai/llms.txt
+  - status: 404
+    url: https://www.jeeva.ai/.well-known/agent-card.json
+  - status: 200
+    url: https://www.jeeva.ai/sitemap.xml
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Jeeva AI builds, deploys, and governs autonomous digital workers — AI agents that perceive, reason, act, and remember context across business systems. Workers are deployed with natural-language (no-code) descriptions and automate workflows across revenue, IT, customer service, operations, finance, security, and HR. The platform serves 36,000+ active users, runs production digital workers, and is backed by Sapphire Ventures following a $9M raise. Jeeva AI does not currently publish a public API reference or OpenAPI definition; enrichment here is identity, trust, and security posture.
+description: Jeeva AI builds, deploys, and governs autonomous digital workers — AI agents that perceive, reason, act, and remember context across business systems. Workers are deployed with natural-language (no-code) descriptions and automate workflows across revenue, IT, customer service, operations, finance, security, and HR. Revenue workers are live today; a Worker Builder Platform and IT and customer-service worker categories are in early access on a shared runtime. The platform serves 36,000+ active users and is backed by Sapphire Ventures, Alt Capital and Bonfire Ventures. Jeeva AI is sold as an end-user SaaS product with a free tier, self-serve Growth and Scale plans and a custom Enterprise tier; it publishes no public API, no developer portal, no API reference, no OpenAPI/AsyncAPI/GraphQL definition, no SDK in any package registry and no MCP server. The api.jeeva.ai host is an AWS API Gateway that answers 403 Missing Authentication Token on every path. Coverage here is identity,
+  commercial, trust and security posture.
 image: https://framerusercontent.com/assets/RErQi3dkoXX4oN1AdLpYpcxBPY.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Jeeva AI
 nav: Providers
 network: true
 overview: 'Jeeva AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, AI Agents, Digital Workers, and Sales Automation.
 
 
-  Jeeva AI''s developer surface includes signup flow, pricing, engineering blog, and 10 more developer resources.'
-random_paper: 50
+  Jeeva AI''s developer surface includes signup flow, pricing, engineering blog, documentation, getting-started guide, support, and 17 more developer resources.'
+plans:
+- name: Jeeva Ai Plans Pricing
+  plan_count: 4
+  slug: jeeva-ai-plans-pricing
+random_paper: 25
+rate_limits:
+- limit_count: 0
+  name: Jeeva Ai Rate Limits
+  slug: jeeva-ai-rate-limits
 score:
-  band: emerging
-  composite: 21.0
-  delta: 0.0
+  band: thin
+  composite: 35.4
+  delta: 14.4
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 21.1
+    developer_ergonomics: 26.1
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 26.3
   previous_composite: 21.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jeeva-ai/refs/heads/main/screenshots/jeeva-ai-2026-07-25T223125.png
 security:
 - kind: domain-security

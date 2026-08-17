@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Open-source web3 mobile toolkit exposed as first-party SDKs (React Native/Expo, Flutter, Unity) plus TypeScript libraries. Provides natively embedded self-custodial wallets and gasless transactions vi
@@ -60,7 +60,7 @@ name: Rally Network
 nav: Providers
 network: true
 overview: Rally Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Blockchain, SDK, and Mobile.
-random_paper: 51
+random_paper: 30
 score:
   band: minimal
   composite: 9.0
@@ -80,7 +80,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

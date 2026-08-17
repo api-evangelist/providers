@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,14 @@ apis:
 - description: The D1 API from Cloudflare D1 — 8 operation(s) for d1.
   name: Cloudflare D1 D1 API
   slug: cloudflare-d1-d1-api
-artifact_total: 45
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudflare D1 API
+  slug: open-cloudflare-d1-d1-api
 common:
 - group: agent
   title: ''
@@ -247,7 +254,7 @@ plans:
 - name: Cloudflare D1 Plans Pricing
   plan_count: 2
   slug: cloudflare-d1-plans-pricing
-random_paper: 51
+random_paper: 59
 rate_limits:
 - limit_count: 25
   name: Cloudflare D1 Rate Limits
@@ -281,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-d1/refs/heads/main/screenshots/cloudflare-d1-2026-06-20T174554.png
 security:

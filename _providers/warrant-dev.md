@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Relationship tuples (access rules) between subjects and objects.
   name: Warrant Warrants API
   slug: warrant-dev-warrants-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Warrant Check API
+  slug: open-warrant-dev-check-api
+- collection_type: open
+  name: Warrant Check Object Types API
+  slug: open-warrant-dev-object-types-api
+- collection_type: open
+  name: Warrant Check Objects API
+  slug: open-warrant-dev-objects-api
+- collection_type: open
+  name: Warrant Check Roles and Permissions API
+  slug: open-warrant-dev-roles-and-permissions-api
+- collection_type: open
+  name: Warrant Check Warrants API
+  slug: open-warrant-dev-warrants-api
 - collection_type: open
   name: Warrant API (Retired)
   slug: open-warrant-dev
@@ -128,7 +146,7 @@ plans:
 - name: Warrant Dev Plans Pricing
   plan_count: 4
   slug: warrant-dev-plans-pricing
-random_paper: 51
+random_paper: 88
 rate_limits:
 - limit_count: 3
   name: Warrant Dev Rate Limits
@@ -153,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/screenshots/warrant-dev-2026-06-20T201232.png
 security:

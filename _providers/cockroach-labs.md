@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -117,7 +117,7 @@ apis:
 - description: Manage cluster version deferral policies to delay automatic CockroachDB version upgrades.
   name: Cockroach Labs VersionDeferral API
   slug: cockroach-labs-versiondeferral-api
-artifact_total: 90
+artifact_total: 117
 collections:
 - collection_type: postman
   name: CockroachDB Cloud APIKeys API
@@ -198,11 +198,92 @@ collections:
   name: CockroachDB Cloud APIKeys VersionDeferral API
   slug: postman-cockroach-labs-versiondeferral-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CockroachDB Cloud APIKeys API
+  slug: open-cockroach-labs-apikeys-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys AuditLogs API
+  slug: open-cockroach-labs-auditlogs-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Auth API
+  slug: open-cockroach-labs-auth-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys BackupRestore API
+  slug: open-cockroach-labs-backuprestore-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Billing API
+  slug: open-cockroach-labs-billing-api
+- collection_type: open
   name: CockroachDB Cloud API
   slug: open-cockroach-labs-cloud-api
 - collection_type: open
   name: CockroachDB Cluster API
   slug: open-cockroach-labs-cluster-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Clusters API
+  slug: open-cockroach-labs-clusters-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys CMEK API
+  slug: open-cockroach-labs-cmek-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Databases API
+  slug: open-cockroach-labs-databases-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys EgressRules API
+  slug: open-cockroach-labs-egressrules-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Folders API
+  slug: open-cockroach-labs-folders-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Health API
+  slug: open-cockroach-labs-health-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys IPAllowlists API
+  slug: open-cockroach-labs-ipallowlists-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys JWTIssuers API
+  slug: open-cockroach-labs-jwtissuers-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys LogExport API
+  slug: open-cockroach-labs-logexport-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys MaintenanceWindows API
+  slug: open-cockroach-labs-maintenancewindows-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys MetricExport API
+  slug: open-cockroach-labs-metricexport-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Nodes API
+  slug: open-cockroach-labs-nodes-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Organizations API
+  slug: open-cockroach-labs-organizations-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys PrivateEndpoints API
+  slug: open-cockroach-labs-privateendpoints-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Ranges API
+  slug: open-cockroach-labs-ranges-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys RoleManagement API
+  slug: open-cockroach-labs-rolemanagement-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Rules API
+  slug: open-cockroach-labs-rules-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys ServiceAccounts API
+  slug: open-cockroach-labs-serviceaccounts-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys Sessions API
+  slug: open-cockroach-labs-sessions-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys SQLUsers API
+  slug: open-cockroach-labs-sqlusers-api
+- collection_type: open
+  name: CockroachDB Cloud APIKeys VersionDeferral API
+  slug: open-cockroach-labs-versiondeferral-api
 common:
 - group: build
   title: ''
@@ -336,7 +417,7 @@ plans:
 - name: Cockroach Labs Plans Pricing
   plan_count: 3
   slug: cockroach-labs-plans-pricing
-random_paper: 84
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Cockroach Labs Rate Limits
@@ -378,7 +459,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/screenshots/cockroach-labs-2026-06-20T174648.png
 security:

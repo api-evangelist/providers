@@ -10,25 +10,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
+  score: 47.3
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Veradigm FHIR R4 API provides RESTful access to clinical, demographic, and facility data using the HL7 FHIR R4 standard. It supports 28 FHIR resources including Patient, Condition, Observation, Me
@@ -40,12 +41,76 @@ apis:
 - description: 'The Paragon Open API provides FHIR-compliant access to data from the Veradigm Paragon acute care EHR platform. It enables third-party applications to integrate with Paragon to access patient clinical '
   name: Veradigm Paragon Open API
   slug: veradigm-paragon-open-api
-artifact_total: 11
+artifact_total: 14
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/allscripts-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/allscripts-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/allscripts-scopes.yml
+- group: other
+  title: ''
+  type: CapabilityStatement
+  url: conformance/allscripts-fhir-r4-capabilitystatement.json
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/allscripts-conformance.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/allscripts-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/allscripts-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/allscripts-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/allscripts-llms.txt
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/allscripts-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/allscripts-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/allscripts-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/allscripts-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/allscripts-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/allscripts-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/allscripts-fhir-patient-summary.md
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/veradigm
 - group: start
   title: ''
   type: DeveloperPortal
@@ -115,17 +180,21 @@ jsonld:
   property_count: 19
   slug: allscripts-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: allscripts-mcp.yml
+  slug: allscripts-mcpyml
+modified: '2026-08-14'
 name: Allscripts
 nav: Providers
 network: true
-overview: 'Allscripts publishes 1 API on the [APIs.io](https://apis.io/) network: Veradigm FHIR R4 API. Tagged areas include Healthcare IT, EHR, FHIR, Clinical Data, and Practice Management.
+overview: 'Allscripts publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare IT, EHR, FHIR, Clinical Data, and Practice Management.
 
 
   The Allscripts catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Allscripts'' developer surface includes signup flow, engineering blog, and 12 more developer resources.'
+  Allscripts'' developer surface includes authentication, sandbox, signup flow, engineering blog, and 26 more developer resources.'
 plans:
 - name: Unity Api Plans
   plan_count: 3
@@ -133,7 +202,7 @@ plans:
 - name: Veradigm Fhir Plans
   plan_count: 6
   slug: veradigm-fhir-plans
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Unity Api Rate Limits
@@ -141,29 +210,38 @@ rate_limits:
 - limit_count: 0
   name: Veradigm Fhir Rate Limits
   slug: veradigm-fhir-rate-limits
+scopes:
+- name: Allscripts Scopes
+  scope_count: 0
+  slug: allscripts-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 36.6
-  delta: 0.0
+  band: developing
+  composite: 51.3
+  delta: 14.7
   facets:
     commercial_clarity: 73.7
-    contract_quality: 58.0
-    developer_ergonomics: 10.9
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 0.0
+    contract_quality: 59.6
+    developer_ergonomics: 43.5
+    discoverability: 81.5
+    governance: 12.5
+    operational_transparency: 13.2
   previous_composite: 36.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
+    score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/screenshots/allscripts-2026-06-20T171537.png
 security:
+- kind: authentication
+  name: Allscripts Authentication
+  slug: allscripts-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Allscripts Domain Security
   slug: allscripts-domain-security

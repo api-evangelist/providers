@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,8 +66,17 @@ apis:
 - description: Projects operations
   name: Azure Migrate Projects API
   slug: microsoft-azure-migrate-projects-api
-artifact_total: 17
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Migrate REST Operations API
+  slug: open-microsoft-azure-migrate-operations-api
+- collection_type: open
+  name: Azure Migrate REST Operations Projects API
+  slug: open-microsoft-azure-migrate-projects-api
 - collection_type: open
   name: Azure Migrate REST API
   slug: open-microsoft-azure-migrate
@@ -176,7 +185,7 @@ plans:
 - name: Microsoft Azure Migrate Plans Pricing
   plan_count: 3
   slug: microsoft-azure-migrate-plans-pricing
-random_paper: 88
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Migrate Rate Limits
@@ -206,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/screenshots/microsoft-azure-migrate-2026-06-20T185423.png
 security:

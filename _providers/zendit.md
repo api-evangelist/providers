@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Digital gift cards and utility bill payments
   name: Zendit Vouchers API
   slug: zendit-vouchers-api
-artifact_total: 104
+artifact_total: 113
 collections:
 - collection_type: postman
   name: Zendit Account API
@@ -90,8 +90,35 @@ collections:
   name: Zendit Account Vouchers API
   slug: postman-zendit-vouchers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zendit Account API
+  slug: open-zendit-account-api
+- collection_type: open
   name: Zendit API
   slug: open-zendit-api
+- collection_type: open
+  name: Zendit Account Brands API
+  slug: open-zendit-brands-api
+- collection_type: open
+  name: Zendit Account eSIM API
+  slug: open-zendit-esim-api
+- collection_type: open
+  name: Zendit Account Mobile Top-Up API
+  slug: open-zendit-mobile-top-up-api
+- collection_type: open
+  name: Zendit Account Reports API
+  slug: open-zendit-reports-api
+- collection_type: open
+  name: Zendit Account Tools API
+  slug: open-zendit-tools-api
+- collection_type: open
+  name: Zendit Account Transactions API
+  slug: open-zendit-transactions-api
+- collection_type: open
+  name: Zendit Account Vouchers API
+  slug: open-zendit-vouchers-api
 common:
 - group: build
   title: ''
@@ -398,7 +425,7 @@ plans:
 - name: Zendit Plans Pricing
   plan_count: 3
   slug: zendit-plans-pricing
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Zendit Rate Limits
@@ -446,7 +473,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/screenshots/zendit-2026-06-20T201909.png
 security:

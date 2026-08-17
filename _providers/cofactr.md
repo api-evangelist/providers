@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,11 +52,21 @@ arazzos:
 - description: Search the Cofactr Knowledge Graph for a part, then view its full detail.
   name: Cofactr — search and view a component
   slug: cofactr-search-and-view-product
-artifact_total: 11
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Cofactr Platform Webhooks
   slug: cofactr-platform-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cofactr Knowledge Graph batch API
+  slug: open-cofactr-batch-api
+- collection_type: open
+  name: Cofactr Knowledge Graph batch products API
+  slug: open-cofactr-products-api
 common:
 - group: company
   title: ''
@@ -201,7 +211,7 @@ overview: 'Cofactr publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Cofactr''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 24 more developer resources.'
-random_paper: 18
+random_paper: 142
 rate_limits:
 - limit_count: 0
   name: Cofactr Rate Limits
@@ -229,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/screenshots/cofactr-2026-07-25T205951.png
 security:

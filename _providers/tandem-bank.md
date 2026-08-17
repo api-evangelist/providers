@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ overview: 'Tandem Bank publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tandem Bank''s developer surface includes authentication, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 10
+random_paper: 47
 scopes:
 - name: Tandem Bank Scopes
   scope_count: 3
@@ -187,7 +187,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

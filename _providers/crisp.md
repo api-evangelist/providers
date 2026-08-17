@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,12 +48,21 @@ apis:
 - description: The Website API from Crisp — 3 operation(s) for website.
   name: Crisp Website API
   slug: crisp-website-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: 'AsyncAPI description of Crisp''s two realtime delivery surfaces: * **Web Hooks (v1)** — HTTP POST callbacks delivered to a subscriber URL registered on a Crisp website or Crisp plugin. Payload envelope'
   name: Crisp Realtime Surface (Webhooks + RTM)
   slug: crisp-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crisp REST API v1 Conversations API
+  slug: open-crisp-conversations-api
+- collection_type: open
+  name: Crisp REST API v1 Conversations Website API
+  slug: open-crisp-website-api
 - collection_type: open
   name: Crisp REST API v1
   slug: open-crisp
@@ -125,7 +134,7 @@ plans:
 - name: Crisp Plans Pricing
   plan_count: 1
   slug: crisp-plans-pricing
-random_paper: 65
+random_paper: 98
 rate_limits:
 - limit_count: 1
   name: Crisp Rate Limits
@@ -159,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/screenshots/crisp-2026-06-20T175235.png
 security:

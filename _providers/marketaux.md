@@ -29,13 +29,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Live stock market news with tagged tickers, per-entity sentiment and match scores, entity statistics and trending endpoints, delivered as a GET-only JSON API authenticated with an api_token query para
   name: MarketAux API
   slug: marketaux-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Marketaux API
+  slug: open-marketaux
 common:
 - group: company
   title: ''
@@ -161,7 +165,7 @@ plans:
 - name: Marketaux Plans
   plan_count: 6
   slug: marketaux-plans
-random_paper: 18
+random_paper: 84
 rate_limits:
 - limit_count: 6
   name: Marketaux Rate Limits
@@ -194,7 +198,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/screenshots/marketaux-2026-06-20T184952.png
 security:

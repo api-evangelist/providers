@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ arazzos:
 - description: Create a query session, verify it is active, then close it.
   name: Teradata Session Lifecycle
   slug: teradata-session-lifecycle-workflow
-artifact_total: 65
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Teradata Query Service API
@@ -115,6 +115,42 @@ collections:
 - collection_type: postman
   name: Teradata QueryGrid Manager API
   slug: postman-teradata-querygrid-manager-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Teradata Query Service API Info API
+  slug: open-teradata-api-info-api
+- collection_type: open
+  name: Teradata Query Service API Info Configuration API
+  slug: open-teradata-configuration-api
+- collection_type: open
+  name: Teradata Query Service API Info Issues API
+  slug: open-teradata-issues-api
+- collection_type: open
+  name: Teradata Query Service API Info Managers API
+  slug: open-teradata-managers-api
+- collection_type: open
+  name: Teradata Query Service API Info Nodes API
+  slug: open-teradata-nodes-api
+- collection_type: open
+  name: Teradata Query Service API Info Operations API
+  slug: open-teradata-operations-api
+- collection_type: open
+  name: Teradata Query Service API Info Queries API
+  slug: open-teradata-queries-api
+- collection_type: open
+  name: Teradata Query Service API Info Sessions API
+  slug: open-teradata-sessions-api
+- collection_type: open
+  name: Teradata Query Service API Info Software API
+  slug: open-teradata-software-api
+- collection_type: open
+  name: Teradata Query Service API Info Systems API
+  slug: open-teradata-systems-api
+- collection_type: open
+  name: Teradata Query Service API Info Users API
+  slug: open-teradata-users-api
 common:
 - group: agent
   title: ''
@@ -402,7 +438,7 @@ press:
 - date: '2026-05-07'
   title: Introducing the Teradata Autonomous Knowledge Platform
   url: https://www.teradata.com/press-releases/2026/introducing-the-autonomous-knowledge-platform
-random_paper: 118
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Teradata Rate Limits
@@ -444,7 +480,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png
 security:

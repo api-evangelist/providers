@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Industry research reports and market intelligence data.
   name: IBISWorld Industry API
   slug: ibisworld-industry-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IBISWorld Business Environment API
+  slug: open-ibisworld-business-environment-api
+- collection_type: open
+  name: IBISWorld Business Environment Classification API
+  slug: open-ibisworld-classification-api
+- collection_type: open
+  name: IBISWorld Business Environment Company API
+  slug: open-ibisworld-company-api
+- collection_type: open
+  name: IBISWorld Business Environment Downloads API
+  slug: open-ibisworld-downloads-api
+- collection_type: open
+  name: IBISWorld Business Environment Industry API
+  slug: open-ibisworld-industry-api
 - collection_type: open
   name: IBISWorld API
   slug: open-ibisworld
@@ -127,7 +145,7 @@ plans:
 - name: Ibisworld Plans Pricing
   plan_count: 3
   slug: ibisworld-plans-pricing
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Ibisworld Rate Limits
@@ -166,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: The Webhooks API from Streak — 1 operation(s) for webhooks.
   name: Streak Webhooks API
   slug: streak-webhooks-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Streak REST Boxes API
+  slug: open-streak-boxes-api
+- collection_type: open
+  name: Streak REST Boxes Fields API
+  slug: open-streak-fields-api
+- collection_type: open
+  name: Streak REST Boxes Newsfeed API
+  slug: open-streak-newsfeed-api
+- collection_type: open
+  name: Streak REST Boxes Pipelines API
+  slug: open-streak-pipelines-api
+- collection_type: open
+  name: Streak REST Boxes Stages API
+  slug: open-streak-stages-api
+- collection_type: open
+  name: Streak REST Boxes Users API
+  slug: open-streak-users-api
+- collection_type: open
+  name: Streak REST Boxes Webhooks API
+  slug: open-streak-webhooks-api
 - collection_type: open
   name: Streak REST API
   slug: open-streak
@@ -132,7 +156,7 @@ overview: 'Streak publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Streak''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 50
+random_paper: 54
 score:
   band: thin
   composite: 31.9
@@ -153,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/screenshots/streak-2026-06-20T194620.png
 security:

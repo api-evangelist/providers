@@ -24,12 +24,12 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.6
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -51,38 +51,70 @@ common:
   title: ''
   type: TermsOfService
   url: https://goaudience.com/legal/terms-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://goaudience.com/privacy
 - group: operate
   title: ''
   type: Support
   url: https://goaudience.com/contact
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/goaudience-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/goaudience-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: GoAudience sells a Shopify merchant app and runs no developer program — goaudience.com returns a hard 404 on /docs, /api, /developers and /blog, the GoAudience GitHub organization has zero public repositories, and the merchant console at business.goaudience.com is a create-react-app SPA whose catch-all answers 200 with the same HTML shell for every path including ones that do not exist.
+  evidence:
+  - status: 404
+    url: https://goaudience.com/developers
+  - status: 404
+    url: https://goaudience.com/docs
+  - status: 404
+    url: https://goaudience.com/api
+  - status: 200
+    url: https://api.github.com/orgs/GoAudience/repos
+  - status: 200
+    url: https://business.goaudience.com/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: GoAudience is a customer-intelligence platform for Shopify ecommerce brands that turns first-party customer data into marketing decisions. It builds stable customer personas from real store data, surfaces findings and recommended actions ranked by impact, and syncs directly into Klaviyo, Meta, TikTok and other marketing tools. Features include a natural-language command surface for asking grounded questions about customers, a weekly "Monday Brief" digest of at-risk, lapsed and recovered customers with revenue impact, and a 90-day email audit. GoAudience is a Techstars-backed company; this profile was added to the API Evangelist network as an enrichment lead.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goaudience.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: GoAudience
 nav: Providers
 network: true
 overview: 'GoAudience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Intelligence, Ecommerce, Shopify, and Marketing.
 
 
-  GoAudience''s developer surface includes pricing, signup flow, support, and 3 more developer resources.'
-random_paper: 84
+  GoAudience''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
+plans:
+- name: Goaudience Plans Pricing
+  plan_count: 5
+  slug: goaudience-plans-pricing
+random_paper: 1
 score:
-  band: minimal
-  composite: 12.7
-  delta: 0.0
+  band: emerging
+  composite: 23.0
+  delta: 10.3
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/goaudience/refs/heads/main/screenshots/goaudience-2026-07-25T220010.png
 security:
 - kind: domain-security

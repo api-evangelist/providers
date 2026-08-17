@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -95,11 +95,75 @@ apis:
 - description: The Reference Data - Virtual Asset Serivce Providers API from Lukka — 1 operation(s) for reference data - virtual asset serivce providers.
   name: Lukka Reference Data - Virtual Asset Serivce Providers API
   slug: lukka-reference-data-virtual-asset-serivce-providers-api
-artifact_total: 89
+artifact_total: 110
 asyncapis:
 - description: 'Lukka''s WebSocket streaming surface for institutional digital-asset market data: executed trades, Level-1 order-book quotes, Lukka Prime pricing, Lukka Index valuations, Standard and Median Reference '
   name: Lukka Market Data Streaming API
   slug: lukka-market-data-streaming-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lukka Analytics Analytics - Analytics API API
+  slug: open-lukka-analytics-analytics-api-api
+- collection_type: open
+  name: Lukka Reference Data Analytics - Derived Data API
+  slug: open-lukka-analytics-derived-data-api
+- collection_type: open
+  name: Lukka Valuation (Data Calculation) Analytics - Valuations API
+  slug: open-lukka-analytics-valuations-api
+- collection_type: open
+  name: Lukka Pricing & Market Data Market Data - Derivatives API
+  slug: open-lukka-market-data-derivatives-api
+- collection_type: open
+  name: Lukka Pricing & Market Data Market Data - Downloadable Data (CSV) Market Data - Downloadable Data (CSV) API
+  slug: open-lukka-market-data-downloadable-data-csv-api
+- collection_type: open
+  name: Lukka Pricing & Market Data Market Data - Prediction Markets API
+  slug: open-lukka-market-data-prediction-markets-api
+- collection_type: open
+  name: Lukka Pricing & Market Data Market Data - Spot API
+  slug: open-lukka-market-data-spot-api
+- collection_type: open
+  name: Lukka & Market Data Pricing API
+  slug: open-lukka-pricing-api
+- collection_type: open
+  name: Lukka Pricing & Market Data Pricing - Legacy Versions API
+  slug: open-lukka-pricing-legacy-versions-api
+- collection_type: open
+  name: Lukka Reference Data API
+  slug: open-lukka-reference-data-api
+- collection_type: open
+  name: Lukka Reference Data Reference Data - Asset Terms and Conditions API
+  slug: open-lukka-reference-data-asset-terms-and-conditions-api
+- collection_type: open
+  name: Lukka Reference Data Reference Data - Crypto Actions API
+  slug: open-lukka-reference-data-crypto-actions-api
+- collection_type: open
+  name: Lukka Reference Data Reference Data - Custodian Terms and Conditions API
+  slug: open-lukka-reference-data-custodian-terms-and-conditions-api
+- collection_type: open
+  name: Lukka Reference Data Reference Data (Deprecated) Reference Data (Deprecated) API
+  slug: open-lukka-reference-data-deprecated-api
+- collection_type: open
+  name: Lukka Reference Data Reference Data - Derivative Terms and Conditions API
+  slug: open-lukka-reference-data-derivative-terms-and-conditions-api
+- collection_type: open
+  name: Lukka Reference Data Reference Data - Mapping and Normalization API
+  slug: open-lukka-reference-data-mapping-and-normalization-api
+- collection_type: open
+  name: Lukka Reference Data Reference Data - Marketplace Terms and Conditions API
+  slug: open-lukka-reference-data-marketplace-terms-and-conditions-api
+- collection_type: open
+  name: Lukka Reference Data Reference Data - Prediction Markets API
+  slug: open-lukka-reference-data-prediction-markets-api
+- collection_type: open
+  name: Lukka Reference Data API (v1) Reference Data v1 API
+  slug: open-lukka-reference-data-v1-api
+- collection_type: open
+  name: Lukka Reference Data Reference Data - Virtual Asset Serivce Providers API
+  slug: open-lukka-reference-data-virtual-asset-serivce-providers-api
 common:
 - group: other
   title: ''
@@ -448,7 +512,7 @@ overview: 'Lukka publishes 21 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lukka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 31 more developer resources.'
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Lukka Rate Limits
@@ -487,7 +551,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/screenshots/lukka-2026-08-07T171825.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Resolve a zip or postal code to coordinates, then return five day and sixteen day forecasts.
   name: OpenWeatherMap Zip To Forecast
   slug: openweathermap-zip-to-forecast-workflow
-artifact_total: 107
+artifact_total: 122
 collections:
 - collection_type: postman
   name: OpenWeatherMap Accumulated Parameters API
@@ -145,35 +145,80 @@ collections:
   name: OpenWeatherMap Weather Stations API
   slug: postman-openweathermap-weather-stations
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenWeatherMap Accumulated Parameters API
+  slug: open-openweathermap-accumulated-parameters-api
+- collection_type: open
   name: OpenWeatherMap Accumulated Parameters API
   slug: open-openweathermap-accumulated-parameters
+- collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Air Pollution API
+  slug: open-openweathermap-air-pollution-api
 - collection_type: open
   name: OpenWeatherMap Air Pollution API
   slug: open-openweathermap-air-pollution
 - collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Current Weather API
+  slug: open-openweathermap-current-weather-api
+- collection_type: open
   name: OpenWeatherMap Current Weather Data API
   slug: open-openweathermap-current-weather
+- collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Forecast API
+  slug: open-openweathermap-forecast-api
 - collection_type: open
   name: OpenWeatherMap Forecast APIs
   slug: open-openweathermap-forecast
 - collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Geocoding API
+  slug: open-openweathermap-geocoding-api
+- collection_type: open
   name: OpenWeatherMap Geocoding API
   slug: open-openweathermap-geocoding
+- collection_type: open
+  name: OpenWeatherMap Accumulated Parameters History API
+  slug: open-openweathermap-history-api
 - collection_type: open
   name: OpenWeatherMap Historical Weather API
   slug: open-openweathermap-history
 - collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Measurements API
+  slug: open-openweathermap-measurements-api
+- collection_type: open
+  name: OpenWeatherMap Accumulated Parameters One Call API
+  slug: open-openweathermap-one-call-api
+- collection_type: open
   name: OpenWeatherMap One Call API 4.0
   slug: open-openweathermap-one-call
+- collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Road Risk API
+  slug: open-openweathermap-road-risk-api
 - collection_type: open
   name: OpenWeatherMap Road Risk API
   slug: open-openweathermap-road-risk
 - collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Solar Irradiance API
+  slug: open-openweathermap-solar-irradiance-api
+- collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Solar Panels API
+  slug: open-openweathermap-solar-panels-api
+- collection_type: open
   name: OpenWeatherMap Solar Energy APIs
   slug: open-openweathermap-solar
 - collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Stations API
+  slug: open-openweathermap-stations-api
+- collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Statistical Weather API
+  slug: open-openweathermap-statistical-weather-api
+- collection_type: open
   name: OpenWeatherMap Statistical Weather API
   slug: open-openweathermap-statistical-weather
+- collection_type: open
+  name: OpenWeatherMap Accumulated Parameters Weather Maps API
+  slug: open-openweathermap-weather-maps-api
 - collection_type: open
   name: OpenWeatherMap Weather Maps 1.0 API
   slug: open-openweathermap-weather-maps
@@ -506,7 +551,7 @@ plans:
 - name: Openweathermap Plans Pricing
   plan_count: 7
   slug: openweathermap-plans-pricing
-random_paper: 64
+random_paper: 14
 rate_limits:
 - limit_count: 12
   name: Openweathermap Rate Limits
@@ -550,7 +595,7 @@ score:
       total: 14
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png
 security:

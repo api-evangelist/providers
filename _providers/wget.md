@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'GNU Wget is a free command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS. It supports recursive downloading, resume of aborted downloads, website '
@@ -125,7 +125,7 @@ plans:
 - name: Wget Plans Pricing
   plan_count: 3
   slug: wget-plans-pricing
-random_paper: 79
+random_paper: 141
 rate_limits:
 - limit_count: 5
   name: Wget Rate Limits
@@ -152,7 +152,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 29.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wget/refs/heads/main/screenshots/wget-2026-06-20T201415.png
 security:

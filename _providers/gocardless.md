@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -86,12 +86,63 @@ apis:
 - description: The subscriptions API from GoCardless — 3 operation(s) for subscriptions.
   name: GoCardless subscriptions API
   slug: gocardless-subscriptions-api
-artifact_total: 25
+artifact_total: 42
 asyncapis:
 - description: AsyncAPI description of the GoCardless webhook surface. GoCardless POSTs a JSON envelope containing one or more events (up to 250 per request) to each subscribed `webhook_endpoint`. Every request incl
   name: GoCardless Webhooks
   slug: gocardless-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GoCardless REST billing_request_flows API
+  slug: open-gocardless-billing-request-flows-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows billing_requests API
+  slug: open-gocardless-billing-requests-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows blocks API
+  slug: open-gocardless-blocks-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows creditor_bank_accounts API
+  slug: open-gocardless-creditor-bank-accounts-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows creditors API
+  slug: open-gocardless-creditors-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows customer_bank_accounts API
+  slug: open-gocardless-customer-bank-accounts-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows customers API
+  slug: open-gocardless-customers-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows events API
+  slug: open-gocardless-events-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows instalment_schedules API
+  slug: open-gocardless-instalment-schedules-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows institutions API
+  slug: open-gocardless-institutions-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows mandates API
+  slug: open-gocardless-mandates-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows payer_authorisations API
+  slug: open-gocardless-payer-authorisations-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows payments API
+  slug: open-gocardless-payments-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows payouts API
+  slug: open-gocardless-payouts-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows refunds API
+  slug: open-gocardless-refunds-api
+- collection_type: open
+  name: GoCardless REST billing_request_flows subscriptions API
+  slug: open-gocardless-subscriptions-api
 - collection_type: open
   name: GoCardless REST API
   slug: open-gocardless
@@ -199,7 +250,7 @@ overview: 'GoCardless publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   GoCardless'' developer surface includes authentication, sandbox, changelog, documentation, pricing, signup flow, support, and 15 more developer resources.'
-random_paper: 103
+random_paper: 20
 rules:
 - name: GoCardless API Rules
   rule_count: 6
@@ -240,7 +291,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/screenshots/gocardless-2026-06-20T181944.png
 security:

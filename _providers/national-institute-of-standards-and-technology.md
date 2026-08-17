@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: CVE change history events
   name: National Institute of Standards and Technology CVE History API
   slug: national-institute-of-standards-and-technology-cve-history-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NIST National Vulnerability Database (NVD) CPE API
+  slug: open-national-institute-of-standards-and-technology-cpe-api
+- collection_type: open
+  name: NIST National Vulnerability Database (NVD) CPE CVE API
+  slug: open-national-institute-of-standards-and-technology-cve-api
+- collection_type: open
+  name: NIST National Vulnerability Database (NVD) CPE CVE History API
+  slug: open-national-institute-of-standards-and-technology-cve-history-api
 - collection_type: open
   name: NIST National Vulnerability Database (NVD) API
   slug: open-national-institute-of-standards-and-technology
@@ -109,7 +121,7 @@ plans:
 - name: National Institute Of Standards And Technology Plans Pricing
   plan_count: 3
   slug: national-institute-of-standards-and-technology-plans-pricing
-random_paper: 88
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: National Institute Of Standards And Technology Rate Limits
@@ -140,7 +152,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institute-of-standards-and-technology/refs/heads/main/screenshots/national-institute-of-standards-and-technology-2026-06-20T190029.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The official ev.energy v2 REST API. 210 operations across 180 paths covering users, vehicles, EVSEs, charging sessions, schedules, tariffs, regions, solar, solar forecasts, home batteries, boundary me
@@ -134,7 +134,7 @@ plans:
 - name: Ev Energy Plans Pricing
   plan_count: 0
   slug: ev-energy-plans-pricing
-random_paper: 74
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Ev Energy Rate Limits
@@ -147,6 +147,7 @@ scopes:
 score:
   band: developing
   composite: 46.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 63.4
@@ -154,6 +155,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 36.8
+  previous_composite: 46.8
   regulatory:
     applies: true
     matched_via: tags
@@ -161,7 +163,8 @@ score:
     regime_id: energy_utilities
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Ev Energy Authentication

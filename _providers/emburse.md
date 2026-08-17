@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 77
@@ -183,7 +183,149 @@ apis:
 - description: Operations in Vendor API application service
   name: Emburse vendor-api-controller API
   slug: emburse-vendor-api-controller-api
-artifact_total: 67
+artifact_total: 114
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Api Documentation Accounts API
+  slug: open-emburse-accounts-api
+- collection_type: open
+  name: Api Documentation Accounts allocation-api-controller-v-1 API
+  slug: open-emburse-allocation-api-controller-v-1-api
+- collection_type: open
+  name: Api Documentation Accounts allocation-api-controller-v-2 API
+  slug: open-emburse-allocation-api-controller-v-2-api
+- collection_type: open
+  name: Api Documentation Accounts allocation-api-controller-v-3 API
+  slug: open-emburse-allocation-api-controller-v-3-api
+- collection_type: open
+  name: Api Documentation Accounts Allowances API
+  slug: open-emburse-allowances-api
+- collection_type: open
+  name: Api Documentation Accounts Cards API
+  slug: open-emburse-cards-api
+- collection_type: open
+  name: Api Documentation Accounts Categories API
+  slug: open-emburse-categories-api
+- collection_type: open
+  name: Api Documentation Accounts Company API
+  slug: open-emburse-company-api
+- collection_type: open
+  name: Api Documentation Accounts Departments API
+  slug: open-emburse-departments-api
+- collection_type: open
+  name: Api Documentation Accounts Entity Type API
+  slug: open-emburse-entity-type-api
+- collection_type: open
+  name: Api Documentation Accounts Entity (V1) API
+  slug: open-emburse-entity-v1-api
+- collection_type: open
+  name: Api Documentation Accounts Entity (V2) API
+  slug: open-emburse-entity-v2-api
+- collection_type: open
+  name: Api Documentation Accounts expense-approval-controller-v1 API
+  slug: open-emburse-expense-approval-controller-v1-api
+- collection_type: open
+  name: Api Documentation Accounts expense-approval-controller-v2 API
+  slug: open-emburse-expense-approval-controller-v2-api
+- collection_type: open
+  name: Api Documentation Accounts expense-controller-v1 API
+  slug: open-emburse-expense-controller-v1-api
+- collection_type: open
+  name: Api Documentation Accounts expense-controller-v3 API
+  slug: open-emburse-expense-controller-v3-api
+- collection_type: open
+  name: Api Documentation Accounts expense-export-controller-v1 API
+  slug: open-emburse-expense-export-controller-v1-api
+- collection_type: open
+  name: Api Documentation Accounts expense-export-controller-v2 API
+  slug: open-emburse-expense-export-controller-v2-api
+- collection_type: open
+  name: Api Documentation Accounts expense-image-api API
+  slug: open-emburse-expense-image-api-api
+- collection_type: open
+  name: Api Documentation Accounts expense-receipts-controller API
+  slug: open-emburse-expense-receipts-controller-api
+- collection_type: open
+  name: Api Documentation Accounts expense-report-line-item-controller API
+  slug: open-emburse-expense-report-line-item-controller-api
+- collection_type: open
+  name: Api Documentation Accounts expense-types-controller API
+  slug: open-emburse-expense-types-controller-api
+- collection_type: open
+  name: Api Documentation Accounts invoice-api-external-controller API
+  slug: open-emburse-invoice-api-external-controller-api
+- collection_type: open
+  name: Api Documentation Accounts Labels API
+  slug: open-emburse-labels-api
+- collection_type: open
+  name: Api Documentation Accounts Locations API
+  slug: open-emburse-locations-api
+- collection_type: open
+  name: Api Documentation Accounts Members API
+  slug: open-emburse-members-api
+- collection_type: open
+  name: Api Documentation Accounts Merchant Categories API
+  slug: open-emburse-merchant-categories-api
+- collection_type: open
+  name: Api Documentation Accounts Oauth API
+  slug: open-emburse-oauth-api
+- collection_type: open
+  name: Api Documentation Accounts paid-expense-controller API
+  slug: open-emburse-paid-expense-controller-api
+- collection_type: open
+  name: Api Documentation Accounts person-controller-v2 API
+  slug: open-emburse-person-controller-v2-api
+- collection_type: open
+  name: Api Documentation Accounts person-controller-v3 API
+  slug: open-emburse-person-controller-v3-api
+- collection_type: open
+  name: Api Documentation Accounts person-controller-v4 API
+  slug: open-emburse-person-controller-v4-api
+- collection_type: open
+  name: Api Documentation Accounts po-api-controller API
+  slug: open-emburse-po-api-controller-api
+- collection_type: open
+  name: Api Documentation Accounts po-api-receipt-controller API
+  slug: open-emburse-po-api-receipt-controller-api
+- collection_type: open
+  name: Api Documentation Accounts pre-approval-api-controller API
+  slug: open-emburse-pre-approval-api-controller-api
+- collection_type: open
+  name: Api Documentation Accounts pre-approval-api-controller-v-2 API
+  slug: open-emburse-pre-approval-api-controller-v-2-api
+- collection_type: open
+  name: Api Documentation Accounts pre-approval-api-export-controller API
+  slug: open-emburse-pre-approval-api-export-controller-api
+- collection_type: open
+  name: Api Documentation Accounts pre-approval-import-controller API
+  slug: open-emburse-pre-approval-import-controller-api
+- collection_type: open
+  name: Api Documentation Accounts Requisitions API
+  slug: open-emburse-requisitions-api
+- collection_type: open
+  name: Api Documentation Accounts returned-payments-controller API
+  slug: open-emburse-returned-payments-controller-api
+- collection_type: open
+  name: Api Documentation Accounts sap-person-controller API
+  slug: open-emburse-sap-person-controller-api
+- collection_type: open
+  name: Api Documentation Accounts Shared Links API
+  slug: open-emburse-shared-links-api
+- collection_type: open
+  name: Api Documentation Accounts Shipping Addresses API
+  slug: open-emburse-shipping-addresses-api
+- collection_type: open
+  name: Api Documentation Accounts Transactions API
+  slug: open-emburse-transactions-api
+- collection_type: open
+  name: Api Documentation Accounts /v1/contacts API
+  slug: open-emburse-v1-contacts-api
+- collection_type: open
+  name: Api Documentation Accounts vendor-api-controller API
+  slug: open-emburse-vendor-api-controller-api
 common:
 - group: agent
   title: ''
@@ -305,7 +447,7 @@ plans:
 - name: Emburse Plans Pricing
   plan_count: 7
   slug: emburse-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Emburse Rate Limits
@@ -345,7 +487,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/screenshots/emburse-2026-06-20T180630.png
 security:

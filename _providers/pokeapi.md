@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,8 +73,44 @@ apis:
 - description: Cross-cutting utility resources such as supported languages.
   name: PokéAPI Utility API
   slug: pokeapi-utility-api
-artifact_total: 205
+artifact_total: 217
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Poké Berries API
+  slug: open-pokeapi-berries-api
+- collection_type: open
+  name: Poké Berries Contests API
+  slug: open-pokeapi-contests-api
+- collection_type: open
+  name: Poké Berries Encounters API
+  slug: open-pokeapi-encounters-api
+- collection_type: open
+  name: Poké Berries Evolution API
+  slug: open-pokeapi-evolution-api
+- collection_type: open
+  name: Poké Berries Games API
+  slug: open-pokeapi-games-api
+- collection_type: open
+  name: Poké Berries Items API
+  slug: open-pokeapi-items-api
+- collection_type: open
+  name: Poké Berries Locations API
+  slug: open-pokeapi-locations-api
+- collection_type: open
+  name: Poké Berries Machines API
+  slug: open-pokeapi-machines-api
+- collection_type: open
+  name: Poké Berries Moves API
+  slug: open-pokeapi-moves-api
+- collection_type: open
+  name: Poké Berries Pokémon API
+  slug: open-pokeapi-pok-mon-api
+- collection_type: open
+  name: Poké Berries Utility API
+  slug: open-pokeapi-utility-api
 - collection_type: open
   name: PokéAPI
   slug: open-pokeapi
@@ -714,7 +750,7 @@ overview: 'PokéAPI publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   PokéAPI''s developer surface includes developer portal, getting-started guide, pricing, support, Stack Overflow tag, changelog, tooling, and 13 more developer resources.'
-random_paper: 25
+random_paper: 0
 rules:
 - name: PokéAPI API Rules
   rule_count: 5
@@ -758,7 +794,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/screenshots/pokeapi-2026-06-20T191844.png
 security:

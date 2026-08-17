@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -34,7 +34,14 @@ apis:
 - description: The larger of Reposit's two published contracts, and the one that actually controls hardware. A verbatim OpenAPI 3.0.1 document served anonymously at https://marketapi.repositpower.com/docs/spec/ (fil
   name: Reposit Power Market API
   slug: reposit-power-market-api
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Reposit Customer API - OpenAPI 3.0
+  slug: open-reposit-power-customer-api
+- collection_type: open
+  name: Reposit Power Market API
+  slug: open-reposit-power-market-api
 common:
 - group: agent
   title: ''
@@ -174,7 +181,7 @@ overview: 'Reposit Power publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Reposit Power''s developer surface includes authentication, engineering blog, pricing, FAQ, support, developer portal, API reference, and 23 more developer resources.'
-random_paper: 56
+random_paper: 35
 score:
   band: developing
   composite: 42.4
@@ -204,7 +211,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

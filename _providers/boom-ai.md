@@ -12,14 +12,14 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-12'
+  score: 70.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -68,7 +68,45 @@ apis:
 - description: The WhatsApp templates API from Boom Ai — 3 operation(s) for whatsapp templates.
   name: Boom Ai WhatsApp templates API
   slug: boom-ai-whatsapp-templates-api
-artifact_total: 14
+artifact_total: 30
+asyncapis:
+- description: ''
+  name: Boom Ai Webhooks
+  slug: boom-ai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Boom CDP Custom Objects API
+  slug: open-boom-ai-cdp-custom-objects-api
+- collection_type: open
+  name: Boom CDP Custom Objects CDP Events API
+  slug: open-boom-ai-cdp-events-api
+- collection_type: open
+  name: Boom CDP Custom Objects CDP People API
+  slug: open-boom-ai-cdp-people-api
+- collection_type: open
+  name: Boom CDP Custom Objects CDP Relationships API
+  slug: open-boom-ai-cdp-relationships-api
+- collection_type: open
+  name: Boom CDP Custom Objects CDP Sources API
+  slug: open-boom-ai-cdp-sources-api
+- collection_type: open
+  name: Boom CDP Custom Objects HTTP credentials API
+  slug: open-boom-ai-http-credentials-api
+- collection_type: open
+  name: Boom CDP Custom Objects Initiatives API
+  slug: open-boom-ai-initiatives-api
+- collection_type: open
+  name: Boom CDP Custom Objects Journeys API
+  slug: open-boom-ai-journeys-api
+- collection_type: open
+  name: Boom CDP Custom Objects Segments API
+  slug: open-boom-ai-segments-api
+- collection_type: open
+  name: Boom CDP Custom Objects WhatsApp templates API
+  slug: open-boom-ai-whatsapp-templates-api
 common:
 - group: agent
   title: ''
@@ -173,7 +211,7 @@ common:
 - group: operate
   title: ''
   type: RateLimits
-  url: conventions/boom-ai-conventions.yml
+  url: rate-limits/boom-ai-rate-limits.yml
 - group: operate
   title: ''
   type: ChangeLog
@@ -186,6 +224,50 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/boom-ai-a2a.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/boom-ai-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/boom-ai-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/boom-ai-scopes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/boom-ai-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/boom-ai-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/boom-ai-webhooks.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/boom-ai-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.useboom.ai/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/BOOM-TML
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/BOOM-TML/skills
 created: '2026-07-17'
 description: Boom AI (useboom.ai) is a Y Combinator-backed (Fall 2025) San Francisco company building "an AI workforce for your customers" — autonomous agents that hold real, multi-turn conversations over SMS, email, WhatsApp, and phone in 50+ languages to run collections and payment recovery, churn recovery, retention monitoring, customer onboarding, sales qualification, and market research for e-commerce and B2B brands. Boom exposes one uniform public REST API — and a hosted MCP server over the same capabilities — covering a customer data platform (people, custom objects, behavioral events, relationships, sources), segments, initiatives and participants, and journey authoring. Authentication is a Bearer organization API key (boom_org_...); the API uses cursor pagination, 1,000 requests/minute rate limits with X-RateLimit-*/Retry-After signaling, and idempotent upsert plus up-to-1000-record batch endpoints.
 image: https://useboom.ai/logo.svg
@@ -194,26 +276,42 @@ mcp_servers:
 - description: ''
   name: boom-ai-mcp.yml
   slug: boom-ai-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Boom Ai
 nav: Providers
 network: true
 overview: 'Boom Ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including CDP Custom Objects API, CDP Events API, CDP People API, and 7 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Customer Engagement, and Customer Data Platform.
 
 
-  Boom Ai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 76
+  The Boom Ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Boom Ai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 33 more developer resources.'
+plans:
+- name: Boom Ai Plans Pricing
+  plan_count: 4
+  slug: boom-ai-plans-pricing
+random_paper: 80
+rate_limits:
+- limit_count: 2
+  name: Boom Ai Rate Limits
+  slug: boom-ai-rate-limits
+scopes:
+- name: Boom Ai Scopes
+  scope_count: 7
+  slug: boom-ai-scopes
+  summary_line: 7 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.8
-  delta: 0.0
+  band: exemplar
+  composite: 68.1
+  delta: 19.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 59.8
+    commercial_clarity: 92.1
+    contract_quality: 68.7
     developer_ergonomics: 69.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 11.5
-    operational_transparency: 31.6
+    operational_transparency: 65.8
   previous_composite: 48.8
   provenance:
     agentic_access: derived
@@ -230,20 +328,24 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
+    score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:
 - kind: authentication
   name: Boom Ai Authentication
   slug: boom-ai-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 1 scheme
 - kind: domain-security
   name: Boom Ai Domain Security
   slug: boom-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Boom Ai Trust Center
+  slug: boom-ai-trust-center
+  summary_line: SOC 2 Type 1, SOC 2 Type 2
 slug: boom-ai
 tags:
 - Company

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Ameresco API provides access to platform services and data for enterprise integration and automation.
@@ -76,7 +76,7 @@ plans:
 - name: Ameresco Plans Pricing
   plan_count: 1
   slug: ameresco-plans-pricing
-random_paper: 7
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Ameresco Rate Limits
@@ -100,7 +100,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ameresco/refs/heads/main/screenshots/ameresco-2026-06-20T171904.png
 security:

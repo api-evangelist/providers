@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -41,11 +41,18 @@ arazzos:
 - description: Originate a one-to-one voice/video session on a Mavenir BYON call handling deployment, read it back, drive it to Connected, then terminate it. Every operationId is verified against openapi/mavenir-byo
   name: Place and manage a 1-1 VVoIP call (Mavenir BYON)
   slug: mavenir-byon-place-and-manage-call
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Mavenir Byon Events
   slug: mavenir-byon-events
+collections:
+- collection_type: open
+  name: Bring Your Own Number (BYON) call handling API (VVOIP Service)
+  slug: open-mavenir-byon-call-handling
+- collection_type: open
+  name: Bring Your Own Number (BYON) Registration and Connectivity Management (RACM) Service APIs
+  slug: open-mavenir-byon-racm
 common:
 - group: auth
   title: ''
@@ -199,7 +206,7 @@ overview: 'Mavenir publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Mavenir''s developer surface includes authentication, support, engineering blog, privacy policy, and 29 more developer resources.'
-random_paper: 34
+random_paper: 9
 score:
   band: thin
   composite: 37.9
@@ -229,7 +236,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/screenshots/mavenir-2026-08-07T172126.png
 security:

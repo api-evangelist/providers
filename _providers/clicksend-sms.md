@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: The Sms API from ClickSend SMS — 6 operation(s) for sms.
   name: ClickSend SMS Sms API
   slug: clicksend-sms-sms-api
-artifact_total: 6
+artifact_total: 8
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClickSend REST API v3 Sms API
+  slug: open-clicksend-sms-sms-api
 - collection_type: open
   name: ClickSend SMS REST API v3
   slug: open-clicksend-sms
@@ -103,7 +109,7 @@ overview: 'ClickSend SMS publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   ClickSend SMS''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 8
+random_paper: 136
 score:
   band: thin
   composite: 28.9
@@ -130,7 +136,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clicksend-sms/refs/heads/main/screenshots/clicksend-sms-2026-06-20T174517.png
 security:

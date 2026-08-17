@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -63,11 +63,39 @@ apis:
 - description: The textToSpeech API from Sarvam — 2 operation(s) for texttospeech.
   name: Sarvam textToSpeech API
   slug: sarvam-texttospeech-api
-artifact_total: 13
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Endpoints
   slug: sarvam-streaming-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Endpoints chat API
+  slug: open-sarvam-chat-api
+- collection_type: open
+  name: Endpoints chat documentIntelligence API
+  slug: open-sarvam-documentintelligence-api
+- collection_type: open
+  name: Endpoints chat pronunciationDictionary API
+  slug: open-sarvam-pronunciationdictionary-api
+- collection_type: open
+  name: Endpoints chat speechToText API
+  slug: open-sarvam-speechtotext-api
+- collection_type: open
+  name: Endpoints chat speechToTextJob API
+  slug: open-sarvam-speechtotextjob-api
+- collection_type: open
+  name: Endpoints chat speechToTextTranslateJob API
+  slug: open-sarvam-speechtotexttranslatejob-api
+- collection_type: open
+  name: Endpoints chat text API
+  slug: open-sarvam-text-api
+- collection_type: open
+  name: Endpoints chat textToSpeech API
+  slug: open-sarvam-texttospeech-api
 common:
 - group: start
   title: ''
@@ -196,7 +224,7 @@ overview: 'Sarvam publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sarvam''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 20 more developer resources.'
-random_paper: 50
+random_paper: 54
 score:
   band: developing
   composite: 54.1
@@ -220,7 +248,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

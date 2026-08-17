@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'The MX Platform API aggregates and enhances financial data, connecting apps and websites to tens of thousands of financial institutions. Covers users, members, accounts, transactions, categorization, '
@@ -41,7 +41,7 @@ apis:
 - description: MX Consent Management V4 API from MX — 4 path(s) described in OpenAPI.
   name: MX Consent Management V4 API
   slug: mx-consent-management-openapi
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Mx Webhooks
@@ -53,6 +53,12 @@ collections:
 - collection_type: postman
   name: MX Platform API
   slug: postman-mx-platform-api
+- collection_type: open
+  name: Consent Management V4 API
+  slug: open-mx-consent-management
+- collection_type: open
+  name: MX Platform API
+  slug: open-mx-platform-api
 common:
 - group: build
   title: ''
@@ -214,7 +220,7 @@ overview: 'MX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Platf
 
 
   MX''s developer surface includes authentication, documentation, engineering blog, support, changelog, sandbox, signup flow, and 28 more developer resources.'
-random_paper: 109
+random_paper: 80
 rate_limits:
 - limit_count: 4
   name: Mx Rate Limits
@@ -247,7 +253,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx/refs/heads/main/screenshots/mx-2026-08-07T184503.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -314,7 +314,287 @@ apis:
 - description: 'The #X Amz Target=StarlingDoveService.UntagResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.untagresource.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.UntagResource API'
   slug: amazon-config-x-amz-target-starlingdoveservice-untagresource-api
-artifact_total: 1343
+artifact_total: 1436
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-batchgetaggregateresourceconfig-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetResourceConfig API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-batchgetresourceconfig-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteAggregationAuthorization API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteaggregationauthorization-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteConfigRule API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteconfigrule-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteConfigurationAggregator API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteconfigurationaggregator-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteConfigurationRecorder API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteconfigurationrecorder-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteConformancePack API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteconformancepack-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteDeliveryChannel API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deletedeliverychannel-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteEvaluationResults API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteevaluationresults-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteOrganizationConfigRule API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteorganizationconfigrule-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteOrganizationConformancePack API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteorganizationconformancepack-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeletePendingAggregationRequest API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deletependingaggregationrequest-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteRemediationConfiguration API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteremediationconfiguration-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteRemediationExceptions API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteremediationexceptions-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteResourceConfig API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteresourceconfig-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteRetentionConfiguration API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deleteretentionconfiguration-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeleteStoredQuery API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deletestoredquery-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DeliverConfigSnapshot API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-deliverconfigsnapshot-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeAggregateComplianceByConfigRules API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeaggregatecompliancebyconfigrules-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeAggregateComplianceByConformancePacks API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeaggregatecompliancebyconformancepacks-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeAggregationAuthorizations API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeaggregationauthorizations-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeComplianceByConfigRule API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describecompliancebyconfigrule-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeComplianceByResource API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describecompliancebyresource-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeConfigRuleEvaluationStatus API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeconfigruleevaluationstatus-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeConfigRules API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeconfigrules-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeConfigurationAggregators API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeconfigurationaggregators-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeConfigurationAggregatorSourcesStatus API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeconfigurationaggregatorsourcesstatus-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeConfigurationRecorders API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeconfigurationrecorders-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeConfigurationRecorderStatus API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeconfigurationrecorderstatus-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeConformancePackCompliance API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeconformancepackcompliance-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeConformancePacks API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeconformancepacks-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeConformancePackStatus API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeconformancepackstatus-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeDeliveryChannels API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describedeliverychannels-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeDeliveryChannelStatus API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describedeliverychannelstatus-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeOrganizationConfigRules API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeorganizationconfigrules-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeOrganizationConfigRuleStatuses API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeorganizationconfigrulestatuses-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeOrganizationConformancePacks API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeorganizationconformancepacks-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeOrganizationConformancePackStatuses API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeorganizationconformancepackstatuses-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribePendingAggregationRequests API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describependingaggregationrequests-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeRemediationConfigurations API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeremediationconfigurations-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeRemediationExceptions API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeremediationexceptions-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeRemediationExecutionStatus API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeremediationexecutionstatus-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.DescribeRetentionConfigurations API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-describeretentionconfigurations-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetAggregateComplianceDetailsByConfigRule API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getaggregatecompliancedetailsbyconfigrule-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetAggregateConfigRuleComplianceSummary API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getaggregateconfigrulecompliancesummary-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetAggregateConformancePackComplianceSummary API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getaggregateconformancepackcompliancesummary-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetAggregateDiscoveredResourceCounts API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getaggregatediscoveredresourcecounts-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetAggregateResourceConfig API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getaggregateresourceconfig-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetComplianceDetailsByConfigRule API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getcompliancedetailsbyconfigrule-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetComplianceDetailsByResource API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getcompliancedetailsbyresource-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetComplianceSummaryByConfigRule API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getcompliancesummarybyconfigrule-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetComplianceSummaryByResourceType API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getcompliancesummarybyresourcetype-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetConformancePackComplianceDetails API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getconformancepackcompliancedetails-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetConformancePackComplianceSummary API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getconformancepackcompliancesummary-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetCustomRulePolicy API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getcustomrulepolicy-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetDiscoveredResourceCounts API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getdiscoveredresourcecounts-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetOrganizationConfigRuleDetailedStatus API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getorganizationconfigruledetailedstatus-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetOrganizationConformancePackDetailedStatus API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getorganizationconformancepackdetailedstatus-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetOrganizationCustomRulePolicy API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getorganizationcustomrulepolicy-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetResourceConfigHistory API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getresourceconfighistory-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetResourceEvaluationSummary API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getresourceevaluationsummary-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.GetStoredQuery API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-getstoredquery-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.ListAggregateDiscoveredResources API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-listaggregatediscoveredresources-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.ListConformancePackComplianceScores API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-listconformancepackcompliancescores-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.ListDiscoveredResources API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-listdiscoveredresources-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.ListResourceEvaluations API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-listresourceevaluations-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.ListStoredQueries API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-liststoredqueries-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.ListTagsForResource API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-listtagsforresource-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutAggregationAuthorization API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putaggregationauthorization-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutConfigRule API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putconfigrule-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutConfigurationAggregator API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putconfigurationaggregator-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutConfigurationRecorder API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putconfigurationrecorder-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutConformancePack API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putconformancepack-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutDeliveryChannel API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putdeliverychannel-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutEvaluations API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putevaluations-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutExternalEvaluation API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putexternalevaluation-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutOrganizationConfigRule API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putorganizationconfigrule-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutOrganizationConformancePack API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putorganizationconformancepack-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutRemediationConfigurations API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putremediationconfigurations-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutRemediationExceptions API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putremediationexceptions-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutResourceConfig API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putresourceconfig-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutRetentionConfiguration API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putretentionconfiguration-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.PutStoredQuery API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-putstoredquery-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.SelectAggregateResourceConfig API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-selectaggregateresourceconfig-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.SelectResourceConfig API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-selectresourceconfig-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.StartConfigRulesEvaluation API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-startconfigrulesevaluation-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.StartConfigurationRecorder API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-startconfigurationrecorder-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.StartRemediationExecution API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-startremediationexecution-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.StartResourceEvaluation API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-startresourceevaluation-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.StopConfigurationRecorder API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-stopconfigurationrecorder-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.TagResource API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-tagresource-api
+- collection_type: open
+  name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.UntagResource API'
+  slug: open-amazon-config-x-amz-target-starlingdoveservice-untagresource-api
 common:
 - group: other
   title: ''
@@ -4158,7 +4438,7 @@ overview: 'Amazon Config publishes 92 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon Config''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 1
+random_paper: 129
 rules:
 - name: Amazon Config API Rules
   rule_count: 5
@@ -4198,7 +4478,7 @@ score:
       total: 92
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/screenshots/amazon-config-2026-07-25T200004.png
 security:

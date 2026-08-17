@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: The Users API from Travis CI — 4 operation(s) for users.
   name: Travis CI Users API
   slug: travis-ci-users-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Travis CI REST API v3 Builds API
+  slug: open-travis-ci-builds-api
+- collection_type: open
+  name: Travis CI REST API v3 Builds Jobs API
+  slug: open-travis-ci-jobs-api
+- collection_type: open
+  name: Travis CI REST API v3 Builds Logs API
+  slug: open-travis-ci-logs-api
+- collection_type: open
+  name: Travis CI REST API v3 Builds Organizations API
+  slug: open-travis-ci-organizations-api
+- collection_type: open
+  name: Travis CI REST API v3 Builds Repositories API
+  slug: open-travis-ci-repositories-api
+- collection_type: open
+  name: Travis CI REST API v3 Builds Users API
+  slug: open-travis-ci-users-api
 - collection_type: open
   name: Travis CI REST API v3
   slug: open-travis-ci
@@ -141,7 +162,7 @@ plans:
 - name: Travis Ci Plans Pricing
   plan_count: 6
   slug: travis-ci-plans-pricing
-random_paper: 74
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Travis Ci Rate Limits
@@ -166,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/screenshots/travis-ci-2026-06-20T195637.png
 security:

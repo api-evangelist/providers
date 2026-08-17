@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,8 +51,17 @@ apis:
 - description: The Tokens API from Microsoft Power Virtual Agents — 2 operation(s) for tokens.
   name: Microsoft Power Virtual Agents Tokens API
   slug: microsoft-power-virtual-agents-tokens-api
-artifact_total: 12
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Copilot Studio Direct Line Conversations API
+  slug: open-microsoft-power-virtual-agents-conversations-api
+- collection_type: open
+  name: Microsoft Copilot Studio Direct Line Conversations Tokens API
+  slug: open-microsoft-power-virtual-agents-tokens-api
 - collection_type: open
   name: Microsoft Copilot Studio Direct Line API
   slug: open-microsoft-power-virtual-agents
@@ -133,7 +142,7 @@ plans:
 - name: Microsoft Power Virtual Agents Plans Pricing
   plan_count: 3
   slug: microsoft-power-virtual-agents-plans-pricing
-random_paper: 91
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Virtual Agents Rate Limits
@@ -158,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/screenshots/microsoft-power-virtual-agents-2026-06-20T185526.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -40,7 +40,11 @@ apis:
 - description: GB Bank Open Data API from GB Bank — 6 path(s) described in OpenAPI.
   name: GB Bank Open Data API
   slug: uk-open-banking-open-data-api-openapi
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-uk-open-banking-open-data-api
 common:
 - group: auth
   title: ''
@@ -135,7 +139,7 @@ overview: 'GB Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GB Bank''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
-random_paper: 58
+random_paper: 62
 scopes:
 - name: Gb Bank Scopes
   scope_count: 3
@@ -168,7 +172,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/screenshots/gb-bank-2026-07-25T215509.png
 security:

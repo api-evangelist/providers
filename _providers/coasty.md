@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 68.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 5
@@ -63,7 +63,7 @@ apis:
 - description: Versioned, branching multi-step automations (DSL) and their runs.
   name: Coasty workflows API
   slug: coasty-workflows-api
-artifact_total: 24
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Coasty Webhooks
@@ -93,6 +93,33 @@ collections:
 - collection_type: postman
   name: Coasty Public keys workflows API
   slug: postman-coasty-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coasty Public keys API
+  slug: open-coasty-keys-api
+- collection_type: open
+  name: Coasty Public keys machines API
+  slug: open-coasty-machines-api
+- collection_type: open
+  name: Coasty Public keys predict API
+  slug: open-coasty-predict-api
+- collection_type: open
+  name: Coasty Public keys runs API
+  slug: open-coasty-runs-api
+- collection_type: open
+  name: Coasty Public keys schedules API
+  slug: open-coasty-schedules-api
+- collection_type: open
+  name: Coasty Public keys sessions API
+  slug: open-coasty-sessions-api
+- collection_type: open
+  name: Coasty Public keys triggers API
+  slug: open-coasty-triggers-api
+- collection_type: open
+  name: Coasty Public keys workflows API
+  slug: open-coasty-workflows-api
 common:
 - group: build
   title: ''
@@ -269,7 +296,7 @@ plans:
 - name: Coasty Plans
   plan_count: 4
   slug: coasty-plans
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Coasty Rate Limits
@@ -297,7 +324,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/screenshots/coasty-2026-07-25T205838.png
 security:

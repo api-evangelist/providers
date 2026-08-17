@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -54,7 +54,20 @@ apis:
 - description: Identity, userinfo, and session endpoints
   name: University of Zurich OpenID Connect API
   slug: university-of-zurich-openid-connect-api
-artifact_total: 21
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SWITCH edu-ID OpenID Connect (UZH Federated Identity) Discovery API
+  slug: open-university-of-zurich-discovery-api
+- collection_type: open
+  name: SWITCH edu-ID OpenID Connect (UZH Federated Identity) Discovery OAuth2 API
+  slug: open-university-of-zurich-oauth2-api
+- collection_type: open
+  name: SWITCH edu-ID (UZH Federated Identity) Discovery OpenID Connect API
+  slug: open-university-of-zurich-openid-connect-api
 common:
 - group: agent
   title: ''
@@ -156,7 +169,7 @@ plans:
 - name: University Of Zurich Plans Pricing
   plan_count: 2
   slug: university-of-zurich-plans-pricing
-random_paper: 46
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: University Of Zurich Rate Limits
@@ -204,7 +217,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/screenshots/university-of-zurich-2026-06-20T200336.png
 security:

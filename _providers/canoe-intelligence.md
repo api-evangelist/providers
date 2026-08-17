@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: The User API from Canoe Intelligence — 4 operation(s) for user.
   name: Canoe Intelligence User API
   slug: canoe-intelligence-user-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canoe API v1 Allocations API
+  slug: open-canoe-intelligence-allocations-api
+- collection_type: open
+  name: Canoe API v1 Authentication API
+  slug: open-canoe-intelligence-authentication-api
+- collection_type: open
+  name: Canoe API v1 Custom Fields API
+  slug: open-canoe-intelligence-custom-fields-api
+- collection_type: open
+  name: Canoe API v1 Documents API
+  slug: open-canoe-intelligence-documents-api
+- collection_type: open
+  name: Canoe API v1 Funds API
+  slug: open-canoe-intelligence-funds-api
+- collection_type: open
+  name: Canoe API v1 Organizations API
+  slug: open-canoe-intelligence-organizations-api
+- collection_type: open
+  name: Canoe API v1 Password Grant Tokens API
+  slug: open-canoe-intelligence-password-grant-tokens-api
+- collection_type: open
+  name: Canoe API v1 Terms API
+  slug: open-canoe-intelligence-terms-api
+- collection_type: open
+  name: Canoe API v1 User API
+  slug: open-canoe-intelligence-user-api
 common:
 - group: agent
   title: ''
@@ -192,7 +223,7 @@ overview: 'Canoe Intelligence publishes 9 APIs on the [APIs.io](https://apis.io/
 
 
   Canoe Intelligence''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 22 more developer resources.'
-random_paper: 30
+random_paper: 42
 scopes:
 - name: Canoe Intelligence Scopes
   scope_count: 0
@@ -221,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

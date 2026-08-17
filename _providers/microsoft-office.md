@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -91,8 +91,20 @@ arazzos:
 - description: Resolve a joined team, check for an existing channel, create it when missing, and post a kickoff message.
   name: Microsoft Office Provision a Teams Channel and Announce It
   slug: microsoft-office-teams-channel-provisioning-workflow
-artifact_total: 28
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph API (Office 365 subset) Drive API
+  slug: open-microsoft-office-drive-api
+- collection_type: open
+  name: Microsoft Graph API (Office 365 subset) Drive Mail API
+  slug: open-microsoft-office-mail-api
+- collection_type: open
+  name: Microsoft Graph API (Office 365 subset) Drive Teams API
+  slug: open-microsoft-office-teams-api
 - collection_type: open
   name: Microsoft Graph API (Office 365 subset)
   slug: open-microsoft-office
@@ -277,7 +289,7 @@ plans:
 - name: Microsoft Office Plans Pricing
   plan_count: 3
   slug: microsoft-office-plans-pricing
-random_paper: 87
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Rate Limits
@@ -309,7 +321,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/screenshots/microsoft-office-2026-06-20T185511.png
 security:

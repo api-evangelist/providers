@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -120,7 +120,7 @@ apis:
 - description: The Workflow Runs API from Hatchet — 9 operation(s) for workflow runs.
   name: Hatchet Workflow Runs API
   slug: hatchet-workflow-runs-api
-artifact_total: 137
+artifact_total: 165
 collections:
 - collection_type: postman
   name: Hatchet API Token API
@@ -203,6 +203,90 @@ collections:
 - collection_type: postman
   name: Hatchet API Token Workflow Runs API
   slug: postman-hatchet-workflow-runs-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hatchet API Token API
+  slug: open-hatchet-api-token-api
+- collection_type: open
+  name: Hatchet API Token CEL API
+  slug: open-hatchet-cel-api
+- collection_type: open
+  name: Hatchet API Token Durable Tasks API
+  slug: open-hatchet-durable-tasks-api
+- collection_type: open
+  name: Hatchet API Token Event API
+  slug: open-hatchet-event-api
+- collection_type: open
+  name: Hatchet API Token Feature Flags API
+  slug: open-hatchet-feature-flags-api
+- collection_type: open
+  name: Hatchet API Token Filter API
+  slug: open-hatchet-filter-api
+- collection_type: open
+  name: Hatchet API Token Github API
+  slug: open-hatchet-github-api
+- collection_type: open
+  name: Hatchet API Token Healthcheck API
+  slug: open-hatchet-healthcheck-api
+- collection_type: open
+  name: Hatchet API Token Log API
+  slug: open-hatchet-log-api
+- collection_type: open
+  name: Hatchet API Token Metadata API
+  slug: open-hatchet-metadata-api
+- collection_type: open
+  name: Hatchet API Token Monitoring API
+  slug: open-hatchet-monitoring-api
+- collection_type: open
+  name: Hatchet API Token Observability API
+  slug: open-hatchet-observability-api
+- collection_type: open
+  name: Hatchet API Token Rate Limits API
+  slug: open-hatchet-rate-limits-api
+- collection_type: open
+  name: Hatchet API Token Slack API
+  slug: open-hatchet-slack-api
+- collection_type: open
+  name: Hatchet API Token SNS API
+  slug: open-hatchet-sns-api
+- collection_type: open
+  name: Hatchet API Token Step Run API
+  slug: open-hatchet-step-run-api
+- collection_type: open
+  name: Hatchet API Token Task API
+  slug: open-hatchet-task-api
+- collection_type: open
+  name: Hatchet API Token Tenant API
+  slug: open-hatchet-tenant-api
+- collection_type: open
+  name: Hatchet API Token Tenants API
+  slug: open-hatchet-tenants-api
+- collection_type: open
+  name: Hatchet API Token User API
+  slug: open-hatchet-user-api
+- collection_type: open
+  name: Hatchet API Token Version API
+  slug: open-hatchet-version-api
+- collection_type: open
+  name: Hatchet API Token Webhook API
+  slug: open-hatchet-webhook-api
+- collection_type: open
+  name: Hatchet API Token Webhook Workers API
+  slug: open-hatchet-webhook-workers-api
+- collection_type: open
+  name: Hatchet API Token Worker API
+  slug: open-hatchet-worker-api
+- collection_type: open
+  name: Hatchet API Token Workflow API
+  slug: open-hatchet-workflow-api
+- collection_type: open
+  name: Hatchet API Token Workflow Run API
+  slug: open-hatchet-workflow-run-api
+- collection_type: open
+  name: Hatchet API Token Workflow Runs API
+  slug: open-hatchet-workflow-runs-api
 - collection_type: open
   name: Hatchet API
   slug: open-hatchet
@@ -526,7 +610,7 @@ plans:
 - name: Hatchet Plans Pricing
   plan_count: 5
   slug: hatchet-plans-pricing
-random_paper: 17
+random_paper: 141
 rate_limits:
 - limit_count: 6
   name: Hatchet Rate Limits
@@ -568,7 +652,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/screenshots/hatchet-2026-06-20T182616.png
 security:

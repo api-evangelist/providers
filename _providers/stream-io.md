@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 497
   human_in_the_loop: 18
@@ -57,18 +57,36 @@ apis:
 - description: The product:video API from Stream — 121 operation(s) for product:video.
   name: Stream product:video API
   slug: stream-io-product-video-api
-artifact_total: 20
+artifact_total: 26
 asyncapis:
 - description: AsyncAPI description of the Stream (GetStream) Chat realtime WebSocket API. Clients connect to `wss://chat.stream-io-api.com/connect` with a JWT user token and receive a stream of JSON events. Event t
   name: Stream Chat WebSocket API
   slug: stream-io-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Stream API
   slug: open-stream-io-chat
 - collection_type: open
   name: Stream API
   slug: open-stream-io-moderation
+- collection_type: open
+  name: Stream product:chat API
+  slug: open-stream-io-product-chat-api
+- collection_type: open
+  name: Stream product:chat product:common API
+  slug: open-stream-io-product-common-api
+- collection_type: open
+  name: Stream product:chat product:feeds API
+  slug: open-stream-io-product-feeds-api
+- collection_type: open
+  name: Stream product:chat product:moderation API
+  slug: open-stream-io-product-moderation-api
+- collection_type: open
+  name: Stream product:chat product:video API
+  slug: open-stream-io-product-video-api
 - collection_type: open
   name: Stream API
   slug: open-stream-io-serverside
@@ -159,7 +177,7 @@ plans:
 - name: Stream Io Plans Pricing
   plan_count: 8
   slug: stream-io-plans-pricing
-random_paper: 73
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Stream Io Rate Limits
@@ -193,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/screenshots/stream-io-2026-06-20T194617.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: View management operations
   name: NocoDB Views API
   slug: nocodb-views-api
-artifact_total: 30
+artifact_total: 40
 collections:
 - collection_type: postman
   name: NocoDB Data Attachments API
@@ -95,6 +95,36 @@ collections:
 - collection_type: postman
   name: NocoDB Data Attachments Views API
   slug: postman-nocodb-views-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NocoDB Data Attachments API
+  slug: open-nocodb-attachments-api
+- collection_type: open
+  name: NocoDB Data Attachments Auth API
+  slug: open-nocodb-auth-api
+- collection_type: open
+  name: NocoDB Data Attachments Bases API
+  slug: open-nocodb-bases-api
+- collection_type: open
+  name: NocoDB Data Attachments Fields API
+  slug: open-nocodb-fields-api
+- collection_type: open
+  name: NocoDB Data Attachments Hooks API
+  slug: open-nocodb-hooks-api
+- collection_type: open
+  name: NocoDB Data Attachments Links API
+  slug: open-nocodb-links-api
+- collection_type: open
+  name: NocoDB Data Attachments Records API
+  slug: open-nocodb-records-api
+- collection_type: open
+  name: NocoDB Data Attachments Tables API
+  slug: open-nocodb-tables-api
+- collection_type: open
+  name: NocoDB Data Attachments Views API
+  slug: open-nocodb-views-api
 common:
 - group: build
   title: ''
@@ -226,7 +256,7 @@ plans:
 - name: Nocodb Plans Pricing
   plan_count: 9
   slug: nocodb-plans-pricing
-random_paper: 29
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Nocodb Rate Limits
@@ -260,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/screenshots/nocodb-2026-06-20T190347.png
 security:

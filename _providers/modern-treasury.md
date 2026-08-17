@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -171,8 +171,143 @@ apis:
 - description: The VirtualAccount API from Modern Treasury — 2 operation(s) for virtualaccount.
   name: Modern Treasury VirtualAccount API
   slug: modern-treasury-virtualaccount-api
-artifact_total: 209
+artifact_total: 254
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Modern Treasury AccountCapability API
+  slug: open-modern-treasury-accountcapability-api
+- collection_type: open
+  name: Modern Treasury AccountCapability AccountCollectionFlow API
+  slug: open-modern-treasury-accountcollectionflow-api
+- collection_type: open
+  name: Modern Treasury AccountCapability AccountDetail API
+  slug: open-modern-treasury-accountdetail-api
+- collection_type: open
+  name: Modern Treasury AccountCapability BalanceReport API
+  slug: open-modern-treasury-balancereport-api
+- collection_type: open
+  name: Modern Treasury AccountCapability BulkRequest API
+  slug: open-modern-treasury-bulkrequest-api
+- collection_type: open
+  name: Modern Treasury AccountCapability BulkResult API
+  slug: open-modern-treasury-bulkresult-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Connection API
+  slug: open-modern-treasury-connection-api
+- collection_type: open
+  name: Modern Treasury AccountCapability ConnectionLegalEntity API
+  slug: open-modern-treasury-connectionlegalentity-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Counterparty API
+  slug: open-modern-treasury-counterparty-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Document API
+  slug: open-modern-treasury-document-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Event API
+  slug: open-modern-treasury-event-api
+- collection_type: open
+  name: Modern Treasury AccountCapability ExpectedPayment API
+  slug: open-modern-treasury-expectedpayment-api
+- collection_type: open
+  name: Modern Treasury AccountCapability ExternalAccount API
+  slug: open-modern-treasury-externalaccount-api
+- collection_type: open
+  name: Modern Treasury AccountCapability ForeignExchangeQuote API
+  slug: open-modern-treasury-foreignexchangequote-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Hold API
+  slug: open-modern-treasury-hold-api
+- collection_type: open
+  name: Modern Treasury AccountCapability IncomingPaymentDetail API
+  slug: open-modern-treasury-incomingpaymentdetail-api
+- collection_type: open
+  name: Modern Treasury AccountCapability InternalAccount API
+  slug: open-modern-treasury-internalaccount-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Invoice API
+  slug: open-modern-treasury-invoice-api
+- collection_type: open
+  name: Modern Treasury AccountCapability InvoiceLineItem API
+  slug: open-modern-treasury-invoicelineitem-api
+- collection_type: open
+  name: Modern Treasury AccountCapability JournalEntry API
+  slug: open-modern-treasury-journalentry-api
+- collection_type: open
+  name: Modern Treasury AccountCapability JournalReport API
+  slug: open-modern-treasury-journalreport-api
+- collection_type: open
+  name: Modern Treasury AccountCapability JournalSource API
+  slug: open-modern-treasury-journalsource-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Ledger API
+  slug: open-modern-treasury-ledger-api
+- collection_type: open
+  name: Modern Treasury AccountCapability LedgerAccount API
+  slug: open-modern-treasury-ledgeraccount-api
+- collection_type: open
+  name: Modern Treasury AccountCapability LedgerAccountBalanceMonitor API
+  slug: open-modern-treasury-ledgeraccountbalancemonitor-api
+- collection_type: open
+  name: Modern Treasury AccountCapability LedgerAccountCategory API
+  slug: open-modern-treasury-ledgeraccountcategory-api
+- collection_type: open
+  name: Modern Treasury AccountCapability LedgerAccountSettlement API
+  slug: open-modern-treasury-ledgeraccountsettlement-api
+- collection_type: open
+  name: Modern Treasury AccountCapability LedgerAccountStatement API
+  slug: open-modern-treasury-ledgeraccountstatement-api
+- collection_type: open
+  name: Modern Treasury AccountCapability LedgerEntry API
+  slug: open-modern-treasury-ledgerentry-api
+- collection_type: open
+  name: Modern Treasury AccountCapability LedgerTransaction API
+  slug: open-modern-treasury-ledgertransaction-api
+- collection_type: open
+  name: Modern Treasury AccountCapability LegalEntity API
+  slug: open-modern-treasury-legalentity-api
+- collection_type: open
+  name: Modern Treasury AccountCapability LineItem API
+  slug: open-modern-treasury-lineitem-api
+- collection_type: open
+  name: Modern Treasury AccountCapability PaymentAction API
+  slug: open-modern-treasury-paymentaction-api
+- collection_type: open
+  name: Modern Treasury AccountCapability PaymentFlow API
+  slug: open-modern-treasury-paymentflow-api
+- collection_type: open
+  name: Modern Treasury AccountCapability PaymentOrder API
+  slug: open-modern-treasury-paymentorder-api
+- collection_type: open
+  name: Modern Treasury AccountCapability PaymentReference API
+  slug: open-modern-treasury-paymentreference-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Ping API
+  slug: open-modern-treasury-ping-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Return API
+  slug: open-modern-treasury-return-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Reversal API
+  slug: open-modern-treasury-reversal-api
+- collection_type: open
+  name: Modern Treasury AccountCapability RoutingDetail API
+  slug: open-modern-treasury-routingdetail-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Transaction API
+  slug: open-modern-treasury-transaction-api
+- collection_type: open
+  name: Modern Treasury AccountCapability TransactionLineItem API
+  slug: open-modern-treasury-transactionlineitem-api
+- collection_type: open
+  name: Modern Treasury AccountCapability Validation API
+  slug: open-modern-treasury-validation-api
+- collection_type: open
+  name: Modern Treasury AccountCapability VirtualAccount API
+  slug: open-modern-treasury-virtualaccount-api
 - collection_type: open
   name: Modern Treasury
   slug: open-modern-treasury
@@ -739,7 +874,7 @@ plans:
 - name: Modern Treasury Plans Pricing
   plan_count: 1
   slug: modern-treasury-plans-pricing
-random_paper: 25
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: Modern Treasury Rate Limits
@@ -779,7 +914,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern-treasury/refs/heads/main/screenshots/modern-treasury-2026-06-20T185652.png
 security:

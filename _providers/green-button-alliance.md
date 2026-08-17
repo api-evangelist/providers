@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -38,11 +38,21 @@ apis:
 - description: Green Button Alliance OpenESPI Authorization Server API from Green Button Alliance — 12 path(s) described in OpenAPI.
   name: Green Button Alliance OpenESPI Authorization Server API
   slug: green-button-alliance-authorization-server-openapi
-artifact_total: 15
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Green Button Alliance Webhooks
   slug: green-button-alliance-webhooks
+collections:
+- collection_type: open
+  name: Green Button Resource Server ApplicationInformation API Documentation
+  slug: open-green-button-alliance-application-information
+- collection_type: open
+  name: OpenESPI Authorization Server API
+  slug: open-green-button-alliance-authorization-server
+- collection_type: open
+  name: Green Button API Documentation
+  slug: open-green-button-alliance-green-button-api
 common:
 - group: operate
   title: ''
@@ -281,7 +291,7 @@ overview: 'Green Button Alliance publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 44 more developer resources.'
-random_paper: 72
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Green Button Alliance Rate Limits
@@ -320,7 +330,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/screenshots/green-button-alliance-2026-08-07T165838.png
 security:

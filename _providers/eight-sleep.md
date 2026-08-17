@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -60,8 +60,32 @@ apis:
 - description: Current and individual user profile reads (unofficial).
   name: Eight Sleep User API
   slug: eight-sleep-user-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eight Sleep Unofficial Community Alarms API
+  slug: open-eight-sleep-alarms-api
+- collection_type: open
+  name: Eight Sleep Unofficial Community Alarms Authentication API
+  slug: open-eight-sleep-authentication-api
+- collection_type: open
+  name: Eight Sleep Unofficial Community Alarms Base API
+  slug: open-eight-sleep-base-api
+- collection_type: open
+  name: Eight Sleep Unofficial Community Alarms Device API
+  slug: open-eight-sleep-device-api
+- collection_type: open
+  name: Eight Sleep Unofficial Community Alarms Temperature API
+  slug: open-eight-sleep-temperature-api
+- collection_type: open
+  name: Eight Sleep Unofficial Community Alarms Trends API
+  slug: open-eight-sleep-trends-api
+- collection_type: open
+  name: Eight Sleep Unofficial Community Alarms User API
+  slug: open-eight-sleep-user-api
 - collection_type: open
   name: Eight Sleep Unofficial Community API
   slug: open-eight-sleep
@@ -126,7 +150,7 @@ plans:
 - name: Eight Sleep Plans Pricing
   plan_count: 3
   slug: eight-sleep-plans-pricing
-random_paper: 31
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Eight Sleep Rate Limits
@@ -157,7 +181,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/screenshots/eight-sleep-2026-06-20T180520.png
 security:

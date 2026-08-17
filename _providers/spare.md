@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -89,11 +89,66 @@ apis:
 - description: The Transaction API from Spare — 5 operation(s) for transaction.
   name: Spare Transaction API
   slug: spare-transaction-api
-artifact_total: 24
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Spare Webhooks
   slug: spare-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Information Account API
+  slug: open-spare-account-api
+- collection_type: open
+  name: Information Account AccountInformationReport API
+  slug: open-spare-accountinformationreport-api
+- collection_type: open
+  name: Information Account Balance API
+  slug: open-spare-balance-api
+- collection_type: open
+  name: Information Account Beneficiary API
+  slug: open-spare-beneficiary-api
+- collection_type: open
+  name: Information Account Cert API
+  slug: open-spare-cert-api
+- collection_type: open
+  name: Information Account Connection API
+  slug: open-spare-connection-api
+- collection_type: open
+  name: Information Account Consent API
+  slug: open-spare-consent-api
+- collection_type: open
+  name: Information Account Customer API
+  slug: open-spare-customer-api
+- collection_type: open
+  name: Information Account DirectDebit API
+  slug: open-spare-directdebit-api
+- collection_type: open
+  name: Information Account Parties API
+  slug: open-spare-parties-api
+- collection_type: open
+  name: Information Account Payment API
+  slug: open-spare-payment-api
+- collection_type: open
+  name: Information Account Provider API
+  slug: open-spare-provider-api
+- collection_type: open
+  name: Information Account Request API
+  slug: open-spare-request-api
+- collection_type: open
+  name: Information Account RiskReport API
+  slug: open-spare-riskreport-api
+- collection_type: open
+  name: Information Account Statement API
+  slug: open-spare-statement-api
+- collection_type: open
+  name: Information Account Token API
+  slug: open-spare-token-api
+- collection_type: open
+  name: Information Account Transaction API
+  slug: open-spare-transaction-api
 common:
 - group: other
   title: ''
@@ -242,7 +297,7 @@ overview: 'Spare publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spare''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 59
+random_paper: 92
 scopes:
 - name: Spare Scopes
   scope_count: 0
@@ -277,7 +332,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

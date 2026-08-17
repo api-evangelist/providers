@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 65.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 207
   slug: mediamath-agentic-access
   summary_line: 207 operations · 88 acting
-api_count: 41
+api_count: 46
 apis:
 - description: API for leveraging PMP Direct and Exchange supply sources, enabling programmatic access to private marketplace deals and exchange inventory within the MediaMath Platform.
   name: MediaMath Marketplaces API V2.0
@@ -162,7 +163,141 @@ apis:
 - description: Verticals
   name: MediaMath Verticals API
   slug: mediamath-verticals-api
-artifact_total: 378
+- description: 'Audience Segments API (DMP v2.0) for onboarding and activating first- and third-party audience data in the MediaMath Platform. Manages global and permissioned taxonomies, external data segments (data '
+  name: MediaMath Audience Segments API
+  slug: mediamath-audience-segments-api
+- description: Bid Request Firehose (BOF) configuration API. BOF is a high-performance system that ingests bid opportunities from MediaMath bidders and filters and batches them to third-party consumers based on conf
+  name: MediaMath BOF Config API
+  slug: mediamath-bof-config-api
+- description: Component Creatives API (v3.0) for building and managing modular, component-based creatives in the MediaMath Platform — assembling creative components into dynamic ad units, managing component metadat
+  name: MediaMath Component Creatives API
+  slug: mediamath-component-creatives-api
+- description: Reporting API V1 (standard reports). Thirty GET report endpoints — performance, win/loss, win/loss creative, device technology, geo, site, audience index and more — each with a companion /meta endpoin
+  name: MediaMath Reporting API V1
+  slug: mediamath-reporting-api-v1
+- description: Video Creatives API (v1.0) for hosted video and audio creative management — reserving creative records, obtaining presigned S3 upload URLs, polling encode status through Pending/Processing/Finished, l
+  name: MediaMath Video Creatives API
+  slug: mediamath-video-creatives-api
+artifact_total: 424
+asyncapis:
+- description: ''
+  name: Mediamath Webhooks
+  slug: mediamath-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Campaigns Ad Servers API
+  slug: open-mediamath-ad-servers-api
+- collection_type: open
+  name: Campaigns Ad Servers Advertisers API
+  slug: open-mediamath-advertisers-api
+- collection_type: open
+  name: Campaigns Ad Servers Agencies API
+  slug: open-mediamath-agencies-api
+- collection_type: open
+  name: Campaigns Ad Servers Atomic Creatives API
+  slug: open-mediamath-atomic-creatives-api
+- collection_type: open
+  name: Campaigns Ad Servers Audience Vendors API
+  slug: open-mediamath-audience-vendors-api
+- collection_type: open
+  name: Campaigns Ad Servers Campaign Plans API
+  slug: open-mediamath-campaign-plans-api
+- collection_type: open
+  name: Ad Servers Campaigns API
+  slug: open-mediamath-campaigns-api
+- collection_type: open
+  name: Campaigns Ad Servers Campaigns Budget Flights API
+  slug: open-mediamath-campaigns-budget-flights-api
+- collection_type: open
+  name: Campaigns Ad Servers Concepts API
+  slug: open-mediamath-concepts-api
+- collection_type: open
+  name: Campaigns Ad Servers Contracts API
+  slug: open-mediamath-contracts-api
+- collection_type: open
+  name: Campaigns Ad Servers Creatives API
+  slug: open-mediamath-creatives-api
+- collection_type: open
+  name: Campaigns Ad Servers Currency Rates API
+  slug: open-mediamath-currency-rates-api
+- collection_type: open
+  name: Campaigns Ad Servers Datasets API
+  slug: open-mediamath-datasets-api
+- collection_type: open
+  name: Campaigns Ad Servers Enterprise Controls API
+  slug: open-mediamath-enterprise-controls-api
+- collection_type: open
+  name: Campaigns Ad Servers General API
+  slug: open-mediamath-general-api
+- collection_type: open
+  name: Campaigns Ad Servers Marketplaces API
+  slug: open-mediamath-marketplaces-api
+- collection_type: open
+  name: Campaigns Ad Servers New Strategy Groups API
+  slug: open-mediamath-new-strategy-groups-api
+- collection_type: open
+  name: Campaigns Ad Servers New Strategy Plans API
+  slug: open-mediamath-new-strategy-plans-api
+- collection_type: open
+  name: Campaigns Ad Servers Organizations API
+  slug: open-mediamath-organizations-api
+- collection_type: open
+  name: Campaigns Ad Servers Pixel Bundles API
+  slug: open-mediamath-pixel-bundles-api
+- collection_type: open
+  name: Campaigns Ad Servers Pixel Providers API
+  slug: open-mediamath-pixel-providers-api
+- collection_type: open
+  name: Campaigns Ad Servers Segment Groups API
+  slug: open-mediamath-segment-groups-api
+- collection_type: open
+  name: Campaigns Ad Servers Site Lists API
+  slug: open-mediamath-site-lists-api
+- collection_type: open
+  name: Campaigns Ad Servers Strategies API
+  slug: open-mediamath-strategies-api
+- collection_type: open
+  name: Campaigns Ad Servers Strategy Parameters API
+  slug: open-mediamath-strategy-parameters-api
+- collection_type: open
+  name: Campaigns Ad Servers Strategy Templates API
+  slug: open-mediamath-strategy-templates-api
+- collection_type: open
+  name: Campaigns Ad Servers Supply Sources API
+  slug: open-mediamath-supply-sources-api
+- collection_type: open
+  name: Campaigns Ad Servers Targeting API
+  slug: open-mediamath-targeting-api
+- collection_type: open
+  name: Campaigns Ad Servers Targeting Attachments API
+  slug: open-mediamath-targeting-attachments-api
+- collection_type: open
+  name: Campaigns Ad Servers Targeting Segment Objectives API
+  slug: open-mediamath-targeting-segment-objectives-api
+- collection_type: open
+  name: Campaigns Ad Servers Targeting Segments API
+  slug: open-mediamath-targeting-segments-api
+- collection_type: open
+  name: Campaigns Ad Servers Timezones API
+  slug: open-mediamath-timezones-api
+- collection_type: open
+  name: Campaigns Ad Servers User Permissions API
+  slug: open-mediamath-user-permissions-api
+- collection_type: open
+  name: Campaigns Ad Servers Users API
+  slug: open-mediamath-users-api
+- collection_type: open
+  name: Campaigns Ad Servers Vendor Contracts API
+  slug: open-mediamath-vendor-contracts-api
+- collection_type: open
+  name: Campaigns Ad Servers Vendors API
+  slug: open-mediamath-vendors-api
+- collection_type: open
+  name: Campaigns Ad Servers Verticals API
+  slug: open-mediamath-verticals-api
 common:
 - group: agent
   title: ''
@@ -203,7 +338,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://devblog.mediamath.com/
+  url: https://infillion.com/blog/
 - group: operate
   title: ''
   type: Support
@@ -216,6 +351,138 @@ common:
   title: ''
   type: Academy
   url: https://academy.mediamath.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mediamath-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/mediamath-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/mediamath-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mediamath-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/mediamath-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mediamath-llms.txt
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/mediamath-winnotice.proto
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mediamath-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mediamath-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mediamath-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/mediamath-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mediamath-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mediamath-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/mediamath-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/mediamath-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/mediamath-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://apidocs.mediamath.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.mediamath.com/apis/campaigns-api/openapi
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://apidocs.mediamath.com/guides
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/MediaMath
+- group: build
+  title: ''
+  type: Postman
+  url: https://apidocs.mediamath.com/guides/postman-collections
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://apidocs.mediamath.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://infillion.com/privacy-policy/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mediamath-audience-segments-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mediamath-bof-config-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mediamath-byoa-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mediamath-campaigns-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mediamath-component-creatives-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mediamath-marketplaces-api-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mediamath-reporting-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mediamath-video-creatives-api-overlay.yaml
 created: '2026-06-13'
 description: MediaMath (by Infillion) is a programmatic advertising DSP with REST APIs for managing campaigns, targeting, bidding strategies, creative trafficking, audience segments, and performance analytics. The platform provides an API-first composable architecture supporting campaign management, reporting, audience onboarding, marketplaces access, and custom bidding algorithms.
 examples:
@@ -1214,22 +1481,26 @@ json_schemas:
   property_count: 0
   slug: reporting-StreamingResponse
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: mediamath-mcp.yml
+  slug: mediamath-mcpyml
+modified: '2026-08-13'
 name: MediaMath
 nav: Providers
 network: true
-overview: 'MediaMath publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Ad Servers API, Advertisers API, Agencies API, and 34 more. Tagged areas include Programmatic Advertising, DSP, Demand-Side Platform, Campaign Management, and Ad Tech.
+overview: 'MediaMath publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Marketplaces API V2.0, Bring Your Own Algorithm (BYOA) API, Ad Servers API, and 41 more. Tagged areas include Programmatic Advertising, DSP, Demand-Side Platform, Campaign Management, and Ad Tech.
 
 
-  The MediaMath catalog on APIs.io includes 1 Spectral governance ruleset.
+  The MediaMath catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  MediaMath''s developer surface includes authentication, documentation, engineering blog, support, academy / training, and 8 more developer resources.'
+  MediaMath''s developer surface includes authentication, documentation, engineering blog, support, academy / training, code examples, API reference, and 39 more developer resources.'
 plans:
 - name: Mediamath Plans
   plan_count: 2
   slug: mediamath-plans
-random_paper: 98
+random_paper: 44
 rate_limits:
 - limit_count: 7
   name: Mediamath Rate Limits
@@ -1247,18 +1518,18 @@ scopes:
 - name: Mediamath Scopes
   scope_count: 2
   slug: mediamath-scopes
-  summary_line: 2 scopes · authorizationCode
+  summary_line: 2 scopes · authorizationCode/password/clientCredentials
 score:
-  band: developing
-  composite: 47.5
-  delta: 0.0
+  band: exemplar
+  composite: 72.4
+  delta: 24.9
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 63.8
-    developer_ergonomics: 26.1
-    discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 31.6
+    commercial_clarity: 63.2
+    contract_quality: 70.7
+    developer_ergonomics: 78.3
+    discoverability: 87.0
+    governance: 79.2
+    operational_transparency: 63.2
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -1268,18 +1539,22 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png
 security:
 - kind: authentication
   name: Mediamath Authentication
   slug: mediamath-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: apiKey/oauth2 · 6 schemes
 - kind: domain-security
   name: Mediamath Domain Security
   slug: mediamath-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Mediamath Vulnerability Disclosure
+  slug: mediamath-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: mediamath
 tags:
 - Programmatic Advertising
@@ -1292,4 +1567,5 @@ tags:
 - Creative Management
 - Reporting
 - Analytics
+website: https://apidocs.mediamath.com/
 ---

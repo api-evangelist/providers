@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Financing configuration and limits
@@ -43,7 +43,7 @@ apis:
 - description: Embeddable checkout widgets (HTML)
   name: Apurata widgets API
   slug: apurata-widgets-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: Outbound webhook events Apurata delivers to a merchant-registered URL as an aCuotaz installment order moves through its lifecycle. Generated from the public webhook documentation at docs.apurata.com/P
   name: Apurata aCuotaz Order Webhooks
@@ -51,6 +51,22 @@ asyncapis:
 - description: ''
   name: Apurata Acuotaz Webhooks
   slug: apurata-acuotaz-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apurata aCuotaz POS REST config API
+  slug: open-apurata-config-api
+- collection_type: open
+  name: Apurata aCuotaz POS REST config orders API
+  slug: open-apurata-orders-api
+- collection_type: open
+  name: Apurata aCuotaz POS REST config refunds API
+  slug: open-apurata-refunds-api
+- collection_type: open
+  name: Apurata aCuotaz POS REST config widgets API
+  slug: open-apurata-widgets-api
 common:
 - group: company
   title: ''
@@ -203,7 +219,7 @@ overview: 'Apurata publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Apurata''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 30
+random_paper: 5
 score:
   band: developing
   composite: 50.3
@@ -232,7 +248,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/screenshots/apurata-2026-07-25T200944.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,20 @@ apis:
 - description: Best Buy store location and information queries
   name: Best Buy Stores API
   slug: best-buy-stores-api
-artifact_total: 64
+artifact_total: 68
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Best Buy Products API
+  slug: open-best-buy-products-api
+- collection_type: open
+  name: Best Buy Products Recommendations API
+  slug: open-best-buy-recommendations-api
+- collection_type: open
+  name: Best Buy Products Stores API
+  slug: open-best-buy-stores-api
 common:
 - group: operate
   title: ''
@@ -298,7 +311,7 @@ press:
 - date: '2026-05-25'
   title: How Best Buy Uses AI To Transform Customer Experience
   url: https://www.forbes.com/sites/maribellopez/2025/06/17/how-best-buy-uses-ai-to-transform-customer-experience/
-random_paper: 91
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Best Buy Rate Limits
@@ -340,7 +353,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png
 security:

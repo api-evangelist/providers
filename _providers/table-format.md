@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,11 +63,32 @@ apis:
 - description: View lifecycle management
   name: Table Format Views API
   slug: table-format-views-api
-artifact_total: 23
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Apache Iceberg REST Catalog API
   slug: open-apache-iceberg-rest-catalog
+- collection_type: open
+  name: Apache Iceberg REST Catalog Commits API
+  slug: open-table-format-commits-api
+- collection_type: open
+  name: Apache Iceberg REST Catalog Commits Configuration API
+  slug: open-table-format-configuration-api
+- collection_type: open
+  name: Apache Iceberg REST Catalog Commits Namespaces API
+  slug: open-table-format-namespaces-api
+- collection_type: open
+  name: Apache Iceberg REST Catalog Commits OAuth2 API
+  slug: open-table-format-oauth2-api
+- collection_type: open
+  name: Apache Iceberg REST Catalog Commits Tables API
+  slug: open-table-format-tables-api
+- collection_type: open
+  name: Apache Iceberg REST Catalog Commits Views API
+  slug: open-table-format-views-api
 common:
 - group: agent
   title: ''
@@ -172,7 +193,7 @@ plans:
 - name: Table Format Plans Pricing
   plan_count: 3
   slug: table-format-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Table Format Rate Limits
@@ -211,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/screenshots/table-format-2026-06-20T194843.png
 security:

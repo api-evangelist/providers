@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: The Webhooks API from TicketSpice — 5 operation(s) for webhooks.
   name: TicketSpice Webhooks API
   slug: ticketspice-webhooks-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons API
+  slug: open-ticketspice-coupons-api
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons Customers API
+  slug: open-ticketspice-customers-api
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons Forms API
+  slug: open-ticketspice-forms-api
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons Health API
+  slug: open-ticketspice-health-api
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons Orders API
+  slug: open-ticketspice-orders-api
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons Registrants API
+  slug: open-ticketspice-registrants-api
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons Subscriptions API
+  slug: open-ticketspice-subscriptions-api
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons Tickets API
+  slug: open-ticketspice-tickets-api
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons Transactions API
+  slug: open-ticketspice-transactions-api
+- collection_type: open
+  name: TicketSpice API (Webconnex v2 Public) Coupons Webhooks API
+  slug: open-ticketspice-webhooks-api
 - collection_type: open
   name: TicketSpice API (Webconnex v2 Public)
   slug: open-ticketspice
@@ -135,7 +168,7 @@ plans:
 - name: Ticketspice Plans Pricing
   plan_count: 3
   slug: ticketspice-plans-pricing
-random_paper: 96
+random_paper: 133
 rate_limits:
 - limit_count: 3
   name: Ticketspice Rate Limits
@@ -166,7 +199,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

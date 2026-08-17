@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,14 +57,32 @@ apis:
 - description: Email test creation and management
   name: Litmus Tests API
   slug: litmus-tests-api
-artifact_total: 18
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Litmus Email Analytics API
+  slug: open-litmus-analytics-api
+- collection_type: open
+  name: Litmus Email Analytics Campaigns API
+  slug: open-litmus-campaigns-api
+- collection_type: open
+  name: Litmus Email Analytics Clients API
+  slug: open-litmus-clients-api
 - collection_type: open
   name: Litmus Email Analytics API
   slug: open-litmus-email-analytics
 - collection_type: open
   name: Litmus Instant API
   slug: open-litmus-instant
+- collection_type: open
+  name: Litmus Email Analytics Results API
+  slug: open-litmus-results-api
+- collection_type: open
+  name: Litmus Email Analytics Tests API
+  slug: open-litmus-tests-api
 common:
 - group: agent
   title: ''
@@ -158,7 +176,7 @@ plans:
 - name: Litmus Plans Pricing
   plan_count: 7
   slug: litmus-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Litmus Rate Limits
@@ -192,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/screenshots/litmus-2026-06-20T184609.png
 security:

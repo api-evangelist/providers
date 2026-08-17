@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Committed sales transactions and credit notes.
   name: Kintsugi Transactions API
   slug: kintsugi-transactions-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kintsugi Tax Address Validation API
+  slug: open-kintsugi-address-validation-api
+- collection_type: open
+  name: Kintsugi Tax Address Validation Customers API
+  slug: open-kintsugi-customers-api
+- collection_type: open
+  name: Kintsugi Tax Address Validation Exemptions API
+  slug: open-kintsugi-exemptions-api
+- collection_type: open
+  name: Kintsugi Tax Address Validation Filings API
+  slug: open-kintsugi-filings-api
+- collection_type: open
+  name: Kintsugi Tax Address Validation Nexus API
+  slug: open-kintsugi-nexus-api
+- collection_type: open
+  name: Kintsugi Tax Address Validation Products API
+  slug: open-kintsugi-products-api
+- collection_type: open
+  name: Kintsugi Tax Address Validation Registrations API
+  slug: open-kintsugi-registrations-api
+- collection_type: open
+  name: Kintsugi Tax Address Validation Tax Estimation API
+  slug: open-kintsugi-tax-estimation-api
+- collection_type: open
+  name: Kintsugi Tax Address Validation Transactions API
+  slug: open-kintsugi-transactions-api
 - collection_type: open
   name: Kintsugi Tax API
   slug: open-kintsugi
@@ -132,7 +162,7 @@ plans:
 - name: Kintsugi Plans Pricing
   plan_count: 4
   slug: kintsugi-plans-pricing
-random_paper: 38
+random_paper: 133
 rate_limits:
 - limit_count: 2
   name: Kintsugi Rate Limits
@@ -157,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/screenshots/kintsugi-2026-07-25T223847.png
 security:

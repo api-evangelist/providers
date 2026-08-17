@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -60,7 +60,7 @@ apis:
 - description: Create and track payment transactions.
   name: Wompi Transactions API
   slug: wompi-transactions-api
-artifact_total: 23
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Wompi Webhooks
@@ -84,6 +84,27 @@ collections:
 - collection_type: postman
   name: Wompi Merchants Transactions API
   slug: postman-wompi-transactions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wompi Merchants API
+  slug: open-wompi-merchants-api
+- collection_type: open
+  name: Wompi Merchants Payment Links API
+  slug: open-wompi-payment-links-api
+- collection_type: open
+  name: Wompi Merchants Payment Sources API
+  slug: open-wompi-payment-sources-api
+- collection_type: open
+  name: Wompi Merchants PSE API
+  slug: open-wompi-pse-api
+- collection_type: open
+  name: Wompi Merchants Tokenization API
+  slug: open-wompi-tokenization-api
+- collection_type: open
+  name: Wompi Merchants Transactions API
+  slug: open-wompi-transactions-api
 common:
 - group: build
   title: ''
@@ -244,7 +265,7 @@ plans:
 - name: Wompi Plans Pricing
   plan_count: 2
   slug: wompi-plans-pricing
-random_paper: 76
+random_paper: 109
 rate_limits:
 - limit_count: 1
   name: Wompi Rate Limits
@@ -278,7 +299,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

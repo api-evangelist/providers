@@ -1,15 +1,17 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Requires approval
   onboarding: approval
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
+  source:
+  - https://www.termscout.com/termscout-pricing
+  - https://api.termscout.com/docs
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +24,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 3
+  score: 19.4
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: 'The termscout-data API turns a commercial agreement into structured contract intelligence. Callers upload a contract (or point at a hosted public contract URL), poll processing status, then read back '
+  name: TermScout Data API
+  slug: termscout-data-api
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -79,35 +85,56 @@ common:
   title: ''
   type: DomainSecurity
   url: security/termscout-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/termscout-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/termscout-plans-pricing.yml
 created: '2026-07-17'
-description: TermScout is a contract intelligence and certification company for legal, procurement, and sales teams. Its platform analyzes and benchmarks commercial agreements against market standards, generates contract signals through Certify (AI contract analysis), and certifies contracts with TrustMark as an external, third-party signal of fairness that helps buyers and sellers close deals faster with less negotiation. TermScout was surfaced as a Techstars portfolio company and profiled in the API Evangelist network. TermScout does not currently publish a public API, developer portal, SDKs, or OpenAPI; its products are delivered through the app.termscout.com web application. This profile captures the company's public web, trust, and security surface.
+description: 'TermScout is a contract intelligence and certification company for legal, procurement, and sales teams. Its platform analyzes and benchmarks commercial agreements against market standards, generates contract signals through Certify (AI contract analysis), and certifies contracts with TrustMark as an external, third-party signal of fairness that helps buyers and sellers close deals faster with less negotiation. TermScout was surfaced as a Techstars portfolio company and profiled in the API Evangelist network. TermScout does publish a machine-readable contract: an OpenAPI 3.0.1 definition for the "termscout-data" API is served anonymously at https://api.termscout.com/docs, covering contract upload, processing status, extracted fields, citations, predicted labels and red flags, playbook results, and aggregate market data across contract positions. The API itself is key-gated (x-api-key plus an Authorization bearer credential) and access is arranged through sales; there is no self-serve
+  developer portal, SDK, or published API reference. Its end-user products are delivered through the app.termscout.com web application, which also publishes an llms.txt index of public TrustMark contract reports.'
 image: https://www.termscout.com/hs-fs/hubfs/Vector%20(21).png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: TermScout
 nav: Providers
 network: true
-overview: 'TermScout is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Contract Intelligence, Contract Certification, and Contract Analysis.
+overview: 'TermScout publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include Company, Legal Tech, Contract Intelligence, Contract Certification, and Contract Analysis.
 
 
-  TermScout''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 38
+  TermScout''s developer surface includes engineering blog, support, pricing, and 11 more developer resources.'
+plans:
+- name: Termscout Plans Pricing
+  plan_count: 3
+  slug: termscout-plans-pricing
+random_paper: 104
+rate_limits:
+- limit_count: 0
+  name: Termscout Rate Limits
+  slug: termscout-rate-limits
 score:
-  band: emerging
-  composite: 19.8
-  delta: 0.0
+  band: developing
+  composite: 42.5
+  delta: 22.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
+    commercial_clarity: 92.1
+    contract_quality: 45.5
     developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
+    discoverability: 75.9
+    governance: 20.8
     operational_transparency: 10.5
   previous_composite: 19.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Termscout Authentication
+  slug: termscout-authentication
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Termscout Domain Security
   slug: termscout-domain-security
@@ -131,5 +158,7 @@ tags:
 - Legal Operations
 - Sales Enablement
 - AI
+- Contract Data
+- Document Analysis
 website: https://termscout.com/
 ---

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Reusable block patterns and navigation menus. Both registered and reachable, but empty (X-WP-Total 0) — the site is built with Elementor, not the block editor.
@@ -51,7 +51,41 @@ apis:
 - description: Categories and tags. The hierarchical `category` taxonomy holds 10 terms and carries all classification; the flat `post_tag` taxonomy is registered but empty (0 terms).
   name: BioAegis Therapeutics Taxonomy API
   slug: bioaegis-therapeutics-taxonomy-api
-artifact_total: 13
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BioAegis Therapeutics Content Blocks API
+  slug: open-bioaegis-therapeutics-blocks-api
+- collection_type: open
+  name: BioAegis Therapeutics Content Comments API
+  slug: open-bioaegis-therapeutics-comments-api
+- collection_type: open
+  name: BioAegis Therapeutics Content Discovery API
+  slug: open-bioaegis-therapeutics-discovery-api
+- collection_type: open
+  name: BioAegis Therapeutics Content Media API
+  slug: open-bioaegis-therapeutics-media-api
+- collection_type: open
+  name: BioAegis Therapeutics Content Oembed API
+  slug: open-bioaegis-therapeutics-oembed-api
+- collection_type: open
+  name: BioAegis Therapeutics Content Pages API
+  slug: open-bioaegis-therapeutics-pages-api
+- collection_type: open
+  name: BioAegis Therapeutics Content Posts API
+  slug: open-bioaegis-therapeutics-posts-api
+- collection_type: open
+  name: BioAegis Therapeutics Content Search API
+  slug: open-bioaegis-therapeutics-search-api
+- collection_type: open
+  name: BioAegis Therapeutics Content Seo API
+  slug: open-bioaegis-therapeutics-seo-api
+- collection_type: open
+  name: BioAegis Therapeutics Content Taxonomy API
+  slug: open-bioaegis-therapeutics-taxonomy-api
 common:
 - group: other
   title: ''
@@ -206,7 +240,7 @@ overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis
 
 
   BioAegis Therapeutics'' developer surface includes FAQ, product news, support, YouTube channel, authentication, and 28 more developer resources.'
-random_paper: 17
+random_paper: 91
 score:
   band: thin
   composite: 32.0
@@ -234,7 +268,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/screenshots/bioaegis-therapeutics-2026-08-07T162447.png
 security:

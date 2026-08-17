@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 52
 apis:
 - description: The Agent Documents API from Oper — 2 operation(s) for agent documents.
@@ -187,7 +187,167 @@ apis:
 - description: Your Webhooks tag description
   name: Oper Webhooks API
   slug: oper-webhooks-api
-artifact_total: 57
+artifact_total: 110
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oper Agent Documents API
+  slug: open-oper-agent-documents-api
+- collection_type: open
+  name: Oper Agent Documents Appointment Booking Websites API
+  slug: open-oper-appointment-booking-websites-api
+- collection_type: open
+  name: Oper Agent Documents Approvals API
+  slug: open-oper-approvals-api
+- collection_type: open
+  name: Oper Agent Documents Bank Release Policy API
+  slug: open-oper-bank-release-policy-api
+- collection_type: open
+  name: Oper Agent Documents Base Products API
+  slug: open-oper-base-products-api
+- collection_type: open
+  name: Oper Agent Documents Calculate API
+  slug: open-oper-calculate-api
+- collection_type: open
+  name: Oper Agent Documents Check Invite Token API
+  slug: open-oper-check-invite-token-api
+- collection_type: open
+  name: Oper Agent Documents Check Reset Password API
+  slug: open-oper-check-reset-password-api
+- collection_type: open
+  name: Oper Agent Documents Client Users API
+  slug: open-oper-client-users-api
+- collection_type: open
+  name: Oper Agent Documents Clients API
+  slug: open-oper-clients-api
+- collection_type: open
+  name: Oper Agent Documents Commissions API
+  slug: open-oper-commissions-api
+- collection_type: open
+  name: Oper Agent Documents Communication History API
+  slug: open-oper-communication-history-api
+- collection_type: open
+  name: Oper Agent Documents Connective API
+  slug: open-oper-connective-api
+- collection_type: open
+  name: Oper Agent Documents Contact Advisor API
+  slug: open-oper-contact-advisor-api
+- collection_type: open
+  name: Oper Agent Documents Contact API
+  slug: open-oper-contact-api
+- collection_type: open
+  name: Oper Agent Documents Contact Policy API
+  slug: open-oper-contact-policy-api
+- collection_type: open
+  name: Oper Agent Documents Credit Providers API
+  slug: open-oper-credit-providers-api
+- collection_type: open
+  name: Oper Agent Documents Documentation Library API
+  slug: open-oper-documentation-library-api
+- collection_type: open
+  name: Oper Agent Documents API
+  slug: open-oper-documents-api
+- collection_type: open
+  name: Oper Agent Documents Easy Audit API
+  slug: open-oper-easy-audit-api
+- collection_type: open
+  name: Oper Agent Documents Forgot Password API
+  slug: open-oper-forgot-password-api
+- collection_type: open
+  name: Oper Agent Documents Gdpr Policy API
+  slug: open-oper-gdpr-policy-api
+- collection_type: open
+  name: Oper Agent Documents Health API
+  slug: open-oper-health-api
+- collection_type: open
+  name: Oper Agent Documents Integrations API
+  slug: open-oper-integrations-api
+- collection_type: open
+  name: Oper Agent Documents Internaldocuments API
+  slug: open-oper-internaldocuments-api
+- collection_type: open
+  name: Oper Agent Documents Jwt API
+  slug: open-oper-jwt-api
+- collection_type: open
+  name: Oper Agent Documents Legal Links API
+  slug: open-oper-legal-links-api
+- collection_type: open
+  name: Oper Agent Documents Library API
+  slug: open-oper-library-api
+- collection_type: open
+  name: Oper Agent Documents Loan Requests API
+  slug: open-oper-loan-requests-api
+- collection_type: open
+  name: Oper Agent Documents Loan Requests Client Info API
+  slug: open-oper-loan-requests-client-info-api
+- collection_type: open
+  name: Oper Agent Documents Main API
+  slug: open-oper-main-api
+- collection_type: open
+  name: Oper Agent Documents Me API
+  slug: open-oper-me-api
+- collection_type: open
+  name: Oper Agent Documents Metrics API
+  slug: open-oper-metrics-api
+- collection_type: open
+  name: Oper Agent Documents Model Fields API
+  slug: open-oper-model-fields-api
+- collection_type: open
+  name: Oper Agent Documents Pricing API
+  slug: open-oper-pricing-api
+- collection_type: open
+  name: Oper Agent Documents Privacy Policy API
+  slug: open-oper-privacy-policy-api
+- collection_type: open
+  name: Oper Agent Documents Products API
+  slug: open-oper-products-api
+- collection_type: open
+  name: Oper Agent Documents Reset Password API
+  slug: open-oper-reset-password-api
+- collection_type: open
+  name: Oper Agent Documents Resources API
+  slug: open-oper-resources-api
+- collection_type: open
+  name: Oper Agent Documents Send Generic Email API
+  slug: open-oper-send-generic-email-api
+- collection_type: open
+  name: Oper Agent Documents Sign In API
+  slug: open-oper-sign-in-api
+- collection_type: open
+  name: Oper Agent Documents Sign Up API
+  slug: open-oper-sign-up-api
+- collection_type: open
+  name: Oper Agent Documents Simulators API
+  slug: open-oper-simulators-api
+- collection_type: open
+  name: Oper Agent Documents Sso API
+  slug: open-oper-sso-api
+- collection_type: open
+  name: Oper Agent Documents Tasks API
+  slug: open-oper-tasks-api
+- collection_type: open
+  name: Oper Agent Documents Terms And Conditions API
+  slug: open-oper-terms-and-conditions-api
+- collection_type: open
+  name: Oper Agent Documents Third Parties API
+  slug: open-oper-third-parties-api
+- collection_type: open
+  name: Oper Agent Documents Third Party Api API
+  slug: open-oper-third-party-api-api
+- collection_type: open
+  name: Oper Agent Documents User Management API
+  slug: open-oper-user-management-api
+- collection_type: open
+  name: Oper Agent Documents Users API
+  slug: open-oper-users-api
+- collection_type: open
+  name: Oper Agent Documents Validators API
+  slug: open-oper-validators-api
+- collection_type: open
+  name: Oper Agent Documents Webhooks API
+  slug: open-oper-webhooks-api
 common:
 - group: other
   title: ''
@@ -289,7 +449,7 @@ overview: 'Oper publishes 52 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Oper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 78
+random_paper: 140
 score:
   band: thin
   composite: 39.7
@@ -318,7 +478,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/screenshots/oper-2026-08-07T190659.png
 security:

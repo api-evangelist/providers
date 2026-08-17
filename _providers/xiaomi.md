@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -63,8 +63,23 @@ apis:
 - description: The User API from Xiaomi — 4 operation(s) for user.
   name: Xiaomi User API
   slug: xiaomi-user-api
-artifact_total: 27
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xiaomi Galaxy FDS Access Control API
+  slug: open-xiaomi-access-control-api
+- collection_type: open
+  name: Xiaomi Galaxy FDS Access Control Authentication API
+  slug: open-xiaomi-authentication-api
+- collection_type: open
+  name: Xiaomi Galaxy FDS Access Control CDN API
+  slug: open-xiaomi-cdn-api
+- collection_type: open
+  name: Xiaomi Galaxy FDS Access Control Chat API
+  slug: open-xiaomi-chat-api
 - collection_type: open
   name: Xiaomi Galaxy FDS API
   slug: open-xiaomi-galaxy-fds
@@ -72,8 +87,20 @@ collections:
   name: Xiaomi MiMo AI API
   slug: open-xiaomi-mimo-api
 - collection_type: open
+  name: Xiaomi Galaxy FDS Access Control Models API
+  slug: open-xiaomi-models-api
+- collection_type: open
+  name: Xiaomi Galaxy FDS Access Control Multipart Upload API
+  slug: open-xiaomi-multipart-upload-api
+- collection_type: open
+  name: Xiaomi Galaxy FDS Access Control Objects API
+  slug: open-xiaomi-objects-api
+- collection_type: open
   name: Xiaomi Open API
   slug: open-xiaomi-open-api
+- collection_type: open
+  name: Xiaomi Galaxy FDS Access Control User API
+  slug: open-xiaomi-user-api
 common:
 - group: agent
   title: ''
@@ -181,7 +208,7 @@ plans:
 - name: Xiaomi Plans Pricing
   plan_count: 1
   slug: xiaomi-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Xiaomi Rate Limits
@@ -228,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/screenshots/xiaomi-2026-06-20T201705.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'OnFrontiers is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   OnFrontiers'' developer surface includes signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: emerging
   composite: 15.7
@@ -103,7 +103,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfrontiers/refs/heads/main/screenshots/onfrontiers-2026-08-07T190354.png
 security:

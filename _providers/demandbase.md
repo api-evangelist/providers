@@ -11,150 +11,95 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 64.9
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 26
+- acting_count: 24
   human_in_the_loop: 0
   name: Demandbase Agentic Access
-  operation_count: 67
+  operation_count: 54
   slug: demandbase-agentic-access
-  summary_line: 67 operations · 26 acting
-api_count: 28
+  summary_line: 54 operations · 24 acting
+api_count: 10
 apis:
-- description: Manage target account lists
-  name: Demandbase Account Lists API
-  slug: demandbase-account-lists-api
-- description: Look up and retrieve account information
-  name: Demandbase Accounts API
-  slug: demandbase-accounts-api
-- description: Activity streams and event tracking
-  name: Demandbase Activities API
-  slug: demandbase-activities-api
-- description: Retrieve campaign performance metrics
-  name: Demandbase Analytics API
-  slug: demandbase-analytics-api
-- description: API key set management
-  name: Demandbase API Keys API
-  slug: demandbase-api-keys-api
-- description: Create and manage audience segments
-  name: Demandbase Audiences API
-  slug: demandbase-audiences-api
-- description: Manage advertising campaigns
-  name: Demandbase Campaigns API
-  slug: demandbase-campaigns-api
-- description: Search and discover companies
-  name: Demandbase Company Search API
-  slug: demandbase-company-search-api
-- description: Contact discovery and lookup
-  name: Demandbase Contacts API
-  slug: demandbase-contacts-api
-- description: Identify companies from cookies
-  name: Demandbase Cookie Identification API
-  slug: demandbase-cookie-identification-api
-- description: Download exported data files
-  name: Demandbase Downloads API
-  slug: demandbase-downloads-api
-- description: Account engagement scores and metrics
-  name: Demandbase Engagement API
-  slug: demandbase-engagement-api
-- description: Enrich account and contact records with B2B data
-  name: Demandbase Enrichment API
-  slug: demandbase-enrichment-api
-- description: Create and manage data export jobs
-  name: Demandbase Export Jobs API
-  slug: demandbase-export-jobs-api
-- description: Access firmographic data for companies
-  name: Demandbase Firmographics API
-  slug: demandbase-firmographics-api
-- description: Identify companies from various signals
-  name: Demandbase Identification API
-  slug: demandbase-identification-api
-- description: Create and manage data import jobs
-  name: Demandbase Import Jobs API
-  slug: demandbase-import-jobs-api
-- description: Intent signals and buying indicators
+- description: 'Company and contact intelligence: search and fetch companies and contacts, company news, logos, installed technologies and corporate hierarchy; synchronous and bulk matching; asynchronous bulk data re'
+  name: Demandbase B2B API
+  slug: demandbase-b2b-api
+- description: Asynchronous export of Demandbase platform data — Account, Opportunity, Person, Activity, Campaign, Creative, Account List and Person List entities — to CSV or JSON behind a signed download URL. Field
+  name: Demandbase Data Export API
+  slug: demandbase-data-export-api
+- description: Asynchronous import of customer data and intent activity into the Demandbase platform. Create an import job, submit a data file of up to 5 GB, poll the job, and manage custom activity types and CSV re
+  name: Demandbase Data Import API
+  slug: demandbase-data-import-api
+- description: 'Beta. Company-level intent signals and research activity: query by company IDs, keyword set IDs or keywords over a date range, filtered by intent strength or number of people researching, with cursor-'
   name: Demandbase Intent API
   slug: demandbase-intent-api
-- description: Identify companies from IP addresses
-  name: Demandbase IP Identification API
-  slug: demandbase-ip-identification-api
-- description: Manage accounts within lists
-  name: Demandbase List Members API
-  slug: demandbase-list-members-api
-- description: Field mapping configuration
-  name: Demandbase Mappings API
-  slug: demandbase-mappings-api
-- description: Role and permission management
-  name: Demandbase Roles API
-  slug: demandbase-roles-api
-- description: CRM synchronization operations
-  name: Demandbase Sync API
-  slug: demandbase-sync-api
-- description: Technology usage data
-  name: Demandbase Technographics API
-  slug: demandbase-technographics-api
-- description: Upload data files for import
-  name: Demandbase Uploads API
-  slug: demandbase-uploads-api
-- description: User management operations
-  name: Demandbase Users API
-  slug: demandbase-users-api
-- description: Visitor tracking and company resolution
-  name: Demandbase Visitor Intelligence API
-  slug: demandbase-visitor-intelligence-api
-- description: Webhook subscription management
-  name: Demandbase Webhooks API
-  slug: demandbase-webhooks-api
-artifact_total: 95
+- description: 'User administration for a Demandbase tenant: create, update, retrieve, list and delete users, with filters for departments, views, permission sets and workspaces. 5 operations.'
+  name: Demandbase Admin API
+  slug: demandbase-admin-api
+- description: 'Credit usage reporting: returns a summary of credit consumption and entitlements for a given API category, the only runtime signal a consumer has for remaining quota. 1 operation.'
+  name: Demandbase Usage API
+  slug: demandbase-usage-api
+- description: Manage custom data sources and their per-object field mappings so third-party systems can feed the Demandbase platform. 7 operations.
+  name: Demandbase Custom Sources API
+  slug: demandbase-custom-sources-api
+- description: 'Token exchange for every other Demandbase API: POST an API Key Set client ID and client secret with grantType client_credentials and receive a bearer access token valid for 8 hours. 1 operation.'
+  name: Demandbase Auth API
+  slug: demandbase-auth-api
+- description: Hosted remote Model Context Protocol server exposing Demandbase account, person, intent, buying-group, account-brief, global company/contact and reference capabilities to AI assistants. OAuth 2.1 auth
+  name: Demandbase MCP Server
+  slug: demandbase-mcp-server
+- description: 'Real-time visitor identification: resolves a visitor IP address to a Demandbase company ID, firmographics and corporate hierarchy for web personalization, forms enrichment and analytics integrations. '
+  name: Demandbase IP-API v3
+  slug: demandbase-ip-api-v3
+artifact_total: 28
+asyncapis:
+- description: ''
+  name: Demandbase Webhooks
+  slug: demandbase-webhooks
 collections:
 - collection_type: open
-  name: Demandbase Account List API
-  slug: open-demandbase-account-list
-- collection_type: open
-  name: Demandbase Admin API
+  name: Admin API
   slug: open-demandbase-admin
 - collection_type: open
-  name: Demandbase Advertising API
-  slug: open-demandbase-advertising
+  name: Demandbase Auth API
+  slug: open-demandbase-auth
 - collection_type: open
-  name: Demandbase API
-  slug: open-demandbase-api
+  name: B2B API
+  slug: open-demandbase-b2b
 - collection_type: open
-  name: Demandbase B2B Data API
-  slug: open-demandbase-b2b-data
+  name: Custom Sources API
+  slug: open-demandbase-custom-sources
 - collection_type: open
-  name: Demandbase Data Export API
+  name: Data Export API
   slug: open-demandbase-data-export
 - collection_type: open
-  name: Demandbase Data Import API
+  name: Data Import API
   slug: open-demandbase-data-import
 - collection_type: open
-  name: Demandbase Engagement API
-  slug: open-demandbase-engagement
+  name: Intent API
+  slug: open-demandbase-intent
 - collection_type: open
-  name: Demandbase IP API
-  slug: open-demandbase-ip
-- collection_type: open
-  name: Demandbase Real-Time Identification API
-  slug: open-demandbase-real-time-identification
+  name: Usage API
+  slug: open-demandbase-usage
 common:
 - group: agent
   title: ''
@@ -176,14 +121,6 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/demandbase
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://docs.demandbase.com/docs/getting-started
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://docs.demandbase.com/docs/authentication
 - group: operate
   title: ''
   type: StatusPage
@@ -196,22 +133,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.demandbase.com/privacy-policy/
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.demandbase.com/terms-of-service/
 - group: company
   title: ''
   type: Blog
   url: https://www.demandbase.com/blog/
-- group: company
-  title: ''
-  type: BlogRSS
-  url: https://www.demandbase.com/feed/
-- group: operate
-  title: ''
-  type: Contact
-  url: https://www.demandbase.com/contact/
 - group: company
   title: ''
   type: LinkedIn
@@ -242,278 +167,180 @@ common:
   url: https://www.demandbase.com/products/data/api-integration/api-trial/
 - group: design
   title: ''
-  type: JSONLD
-  url: json-ld/demandbase-context.jsonld
-- group: docs
-  title: ''
-  type: JSONSchema
-  url: json-schema/demandbase-account-schema.json
-- group: docs
-  title: ''
-  type: JSONSchema
-  url: json-schema/demandbase-contact-schema.json
-- group: docs
-  title: ''
-  type: JSONSchema
-  url: json-schema/demandbase-campaign-schema.json
-- group: docs
-  title: ''
-  type: JSONSchema
-  url: json-schema/demandbase-engagement-schema.json
-- group: design
-  title: ''
   type: Vocabulary
   url: vocabulary/demandbase-vocabulary.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/demandbase-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/demandbase-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/demandbase-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/demandbase-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/demandbase-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/demandbase-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/demandbase-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.demandbase.com/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/demandbase-error-codes.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/demandbase-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/demandbase-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.demandbase.com/docs/migrating-from-legacy-tokens-to-api-keysets
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/demandbase-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/demandbase-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/demandbase-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/demandbase-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/demandbase-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/demandbase-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/demandbase-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/demandbase-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.demandbase.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.demandbase.com/docs/welcome
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.demandbase.com/reference/generate_access_token
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.demandbase.com/docs/api-getting-started
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.demandbase.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.demandbase.com/products/data/api-integration/api-trial/
+- group: start
+  title: ''
+  type: Login
+  url: https://web.demandbase.com/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.demandbase.com/hc/en-us
+- group: build
+  title: ''
+  type: SDK
+  url: https://pypi.org/project/demandbase-sdk/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.demandbase.com/company/contact-us/
 created: '2024-01-20'
-description: Demandbase is the leading Account-Based Marketing (ABM) platform that helps B2B companies identify, engage, and convert target accounts through intent data, advertising, personalization, and sales intelligence.
+description: Demandbase is a B2B go-to-market platform that unifies account intelligence, intent data, advertising, orchestration, personalization and sales intelligence into a single pipeline engine. Its developer surface is eight OpenAPI-documented REST APIs on uapi.demandbase.com — B2B company/contact intelligence, Data Export, Data Import, Admin, Intent (beta), Usage, Custom Sources and Auth — plus a hosted, OAuth-protected Model Context Protocol server that exposes account, person, intent, buying-group and account-brief capabilities to AI assistants, an official Python SDK, and a change-subscription webhook surface.
 finops:
 - name: Demandbase Finops
   service_category: B2B Marketing / Sales Intelligence
   slug: demandbase-finops
-graphqls:
-- description: This conceptual GraphQL schema represents the Demandbase ABM (Account-Based Marketing) and B2B intelligence platform. Demandbase provides account identification, intent data, advertising management, e
-  name: Demandbase GraphQL Schema
-  slug: demandbase-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/demandbase.png
-json_schemas:
-- name: Demandbase Account
-  property_count: 29
-  slug: demandbase-account
-- name: AccountEngagement
-  property_count: 9
-  slug: demandbase-accountengagement
-- name: AccountList
-  property_count: 8
-  slug: demandbase-accountlist
-- name: AccountListMember
-  property_count: 4
-  slug: demandbase-accountlistmember
-- name: Activity
-  property_count: 8
-  slug: demandbase-activity
-- name: ApiKeySet
-  property_count: 9
-  slug: demandbase-apikeyset
-- name: Audience
-  property_count: 6
-  slug: demandbase-audience
-- name: Demandbase Campaign
-  property_count: 16
-  slug: demandbase-campaign
-- name: CampaignAnalytics
-  property_count: 10
-  slug: demandbase-campaignanalytics
-- name: Company
-  property_count: 26
-  slug: demandbase-company
-- name: Demandbase Contact
-  property_count: 12
-  slug: demandbase-contact
-- name: CreateAccountListRequest
-  property_count: 3
-  slug: demandbase-createaccountlistrequest
-- name: CreateApiKeyRequest
-  property_count: 2
-  slug: demandbase-createapikeyrequest
-- name: CreateAudienceRequest
-  property_count: 3
-  slug: demandbase-createaudiencerequest
-- name: CreateCampaignRequest
-  property_count: 6
-  slug: demandbase-createcampaignrequest
-- name: CreateExportJobRequest
-  property_count: 4
-  slug: demandbase-createexportjobrequest
-- name: CreateImportJobRequest
-  property_count: 4
-  slug: demandbase-createimportjobrequest
-- name: CreateUserRequest
-  property_count: 4
-  slug: demandbase-createuserrequest
-- name: CreateWebhookRequest
-  property_count: 2
-  slug: demandbase-createwebhookrequest
-- name: Demandbase Account Engagement
-  property_count: 11
-  slug: demandbase-engagement
-- name: EnrichmentRequest
-  property_count: 2
-  slug: demandbase-enrichmentrequest
-- name: Error
-  property_count: 2
-  slug: demandbase-error
-- name: ExportableEntity
-  property_count: 3
-  slug: demandbase-exportableentity
-- name: ExportJob
-  property_count: 13
-  slug: demandbase-exportjob
-- name: FieldMapping
-  property_count: 5
-  slug: demandbase-fieldmapping
-- name: Firmographics
-  property_count: 13
-  slug: demandbase-firmographics
-- name: IdentificationResult
-  property_count: 33
-  slug: demandbase-identificationresult
-- name: ImportError
-  property_count: 5
-  slug: demandbase-importerror
-- name: ImportJob
-  property_count: 14
-  slug: demandbase-importjob
-- name: IntentSignals
-  property_count: 4
-  slug: demandbase-intentsignals
-- name: IpIdentificationResult
-  property_count: 42
-  slug: demandbase-ipidentificationresult
-- name: Role
-  property_count: 4
-  slug: demandbase-role
-- name: Technographics
-  property_count: 2
-  slug: demandbase-technographics
-- name: UpdateUserRequest
-  property_count: 4
-  slug: demandbase-updateuserrequest
-- name: User
-  property_count: 9
-  slug: demandbase-user
-- name: Webhook
-  property_count: 5
-  slug: demandbase-webhook
-json_structures:
-- name: Demandbase Structure
-  property_count: 0
-  slug: demandbase-structure
-jsonld:
-- class_count: 0
-  name: Demandbase Context
-  property_count: 10
-  slug: demandbase-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: demandbase-mcp.yml
+  slug: demandbase-mcpyml
+modified: '2026-08-13'
 name: Demandbase
 nav: Providers
 network: true
-overview: 'Demandbase publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Lists API, Accounts API, Activities API, and 25 more. Tagged areas include Account-Based Marketing, Advertising, AI Agents, B2B Marketing, and Data Enrichment.
+overview: 'Demandbase publishes 8 APIs on the [APIs.io](https://apis.io/) network, including B2B API, Data Export API, Data Import API, and 5 more. Tagged areas include Account-Based Marketing, Advertising, AI Agents, B2B Marketing, and Company Data.
 
 
-  The Demandbase catalog on APIs.io includes 1 JSON-LD context and 11 Spectral governance rulesets.
+  The Demandbase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Demandbase''s developer surface includes authentication, getting-started guide, support, engineering blog, developer portal, signup flow, and 21 more developer resources.'
+  Demandbase''s developer surface includes authentication, support, engineering blog, developer portal, signup flow, changelog, documentation, and 41 more developer resources.'
 plans:
 - name: Demandbase Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: demandbase-plans-pricing
-random_paper: 68
+random_paper: 134
 rate_limits:
-- limit_count: 1
+- limit_count: 15
   name: Demandbase Rate Limits
   slug: demandbase-rate-limits
-rules:
-- name: Demandbase API Rules
-  rule_count: 4
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 1
-    warn: 2
-  slug: demandbase-account-list-api-rules
-- name: Demandbase API Rules
-  rule_count: 4
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 3
-  slug: demandbase-admin-api-rules
-- name: Demandbase API Rules
-  rule_count: 4
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 3
-  slug: demandbase-advertising-api-rules
-- name: Demandbase API Rules
-  rule_count: 5
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 4
-  slug: demandbase-api-rules
-- name: Demandbase API Rules
-  rule_count: 4
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 3
-  slug: demandbase-b2b-data-api-rules
-- name: Demandbase API Rules
-  rule_count: 3
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 2
-  slug: demandbase-data-export-api-rules
-- name: Demandbase API Rules
-  rule_count: 3
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 2
-  slug: demandbase-data-import-api-rules
-- name: Demandbase API Rules
-  rule_count: 4
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 3
-  slug: demandbase-engagement-api-rules
-- name: Demandbase API Rules
-  rule_count: 3
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 2
-  slug: demandbase-ip-api-rules
-- name: Demandbase API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: demandbase-jsonschema-spectral-rules
-- name: Demandbase API Rules
-  rule_count: 4
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 3
-  slug: demandbase-real-time-identification-api-rules
+scopes:
+- name: Demandbase Scopes
+  scope_count: 4
+  slug: demandbase-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.0
-  delta: 0.0
+  band: exemplar
+  composite: 66.2
+  delta: 13.2
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 79.1
-    developer_ergonomics: 37.0
-    discoverability: 68.5
-    governance: 37.5
-    operational_transparency: 26.3
+    commercial_clarity: 68.4
+    contract_quality: 67.6
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 31.3
+    operational_transparency: 60.5
   previous_composite: 53.0
   provenance:
     agentic_access: derived
@@ -523,14 +350,14 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png
 security:
 - kind: authentication
   name: Demandbase Authentication
   slug: demandbase-authentication
-  summary_line: apiKey/http · 3 schemes
+  summary_line: http/oauth2 · 1 scheme
 - kind: domain-security
   name: Demandbase Domain Security
   slug: demandbase-domain-security
@@ -545,9 +372,13 @@ tags:
 - Advertising
 - AI Agents
 - B2B Marketing
+- Company Data
+- Contact Data
 - Data Enrichment
 - Intent Data
+- MCP
 - Personalization
 - Sales Intelligence
+- Technographics
 website: https://developer.demandbase.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,8 +99,32 @@ apis:
 - description: Near Earth Object Web Service.
   name: The National Aeronautics and Space Administration NeoWs API
   slug: national-aeronautics-and-space-administration-neows-api
-artifact_total: 27
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NASA Open APIs APOD API
+  slug: open-national-aeronautics-and-space-administration-apod-api
+- collection_type: open
+  name: NASA Open APIs APOD DONKI API
+  slug: open-national-aeronautics-and-space-administration-donki-api
+- collection_type: open
+  name: NASA Open APIs APOD Earth API
+  slug: open-national-aeronautics-and-space-administration-earth-api
+- collection_type: open
+  name: NASA Open APIs APOD EPIC API
+  slug: open-national-aeronautics-and-space-administration-epic-api
+- collection_type: open
+  name: NASA Open APIs APOD InSight API
+  slug: open-national-aeronautics-and-space-administration-insight-api
+- collection_type: open
+  name: NASA Open APIs APOD Mars Rover Photos API
+  slug: open-national-aeronautics-and-space-administration-mars-rover-photos-api
+- collection_type: open
+  name: NASA Open APIs APOD NeoWs API
+  slug: open-national-aeronautics-and-space-administration-neows-api
 - collection_type: open
   name: NASA Open APIs
   slug: open-national-aeronautics-and-space-administration
@@ -173,7 +197,7 @@ plans:
 - name: National Aeronautics And Space Administration Plans Pricing
   plan_count: 3
   slug: national-aeronautics-and-space-administration-plans-pricing
-random_paper: 117
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: National Aeronautics And Space Administration Rate Limits
@@ -204,7 +228,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/screenshots/national-aeronautics-and-space-administration-2026-06-20T185958.png
 security:

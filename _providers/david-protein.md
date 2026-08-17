@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: The Universal Commerce Protocol commerce server David serves at davidprotein.com/api/ucp/mcp, advertised in the store robots.txt and agents.md. Thirteen MCP tools cover catalog search and lookup, prod
@@ -183,7 +183,7 @@ plans:
 - name: David Protein Plans Pricing
   plan_count: 0
   slug: david-protein-plans-pricing
-random_paper: 14
+random_paper: 142
 rate_limits:
 - limit_count: 0
   name: David Protein Rate Limits
@@ -196,6 +196,7 @@ scopes:
 score:
   band: thin
   composite: 32.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -203,6 +204,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 32.9
   regulatory:
     applies: true
     matched_via: tags
@@ -210,7 +212,8 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: David Protein Authentication

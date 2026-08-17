@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,14 +45,23 @@ apis:
 - description: NIBRS national-estimates datasets.
   name: Bureau of Justice Statistics Data Analysis Tools NIBRS API
   slug: data-analysis-tools-bureau-of-justice-statistics-nibrs-api
-artifact_total: 14
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: BJS NCVS API
   slug: open-bjs-ncvs-api
 - collection_type: open
   name: BJS NIBRS National Estimates API
   slug: open-bjs-nibrs-api
+- collection_type: open
+  name: BJS NCVS API
+  slug: open-data-analysis-tools-bureau-of-justice-statistics-ncvs-api
+- collection_type: open
+  name: BJS NCVS NIBRS API
+  slug: open-data-analysis-tools-bureau-of-justice-statistics-nibrs-api
 common:
 - group: agent
   title: ''
@@ -130,7 +139,7 @@ plans:
 - name: Data Analysis Tools Bureau Of Justice Statistics Plans Pricing
   plan_count: 3
   slug: data-analysis-tools-bureau-of-justice-statistics-plans-pricing
-random_paper: 24
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Data Analysis Tools Bureau Of Justice Statistics Rate Limits
@@ -178,7 +187,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/screenshots/data-analysis-tools-bureau-of-justice-statistics-2026-06-20T175505.png
 security:

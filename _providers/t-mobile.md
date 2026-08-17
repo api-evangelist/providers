@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: T-Mobile operates a developer portal that provides programmatic access to T-Mobile services for partners, enterprises, and IoT customers. Specific API documentation requires partner registration.
@@ -103,7 +103,7 @@ overview: 'T-Mobile publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   T-Mobile''s developer surface includes product news and 12 more developer resources.'
-random_paper: 73
+random_paper: 48
 score:
   band: emerging
   composite: 20.6
@@ -123,7 +123,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -28,14 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Public API from OpenTopography API — 3 operation(s) for public.
   name: OpenTopography API Public API
   slug: opentopography-api-public-api
-artifact_total: 6
+artifact_total: 8
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenTopography Public API
+  slug: open-opentopography-api-public-api
 - collection_type: open
   name: OpenTopography API
   slug: open-opentopography-api
@@ -104,7 +110,7 @@ plans:
 - name: Opentopography Api Plans Pricing
   plan_count: 3
   slug: opentopography-api-plans-pricing
-random_paper: 94
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Opentopography Api Rate Limits
@@ -128,7 +134,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentopography-api/refs/heads/main/screenshots/opentopography-api-2026-06-20T191044.png
 security:

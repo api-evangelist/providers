@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 6
@@ -139,7 +139,110 @@ apis:
 - description: 'Manage webhooks used for asynchronous updates to your server. You can follow our getting started guide here: [Webhooks in the Partner API](https://docs.unstoppabledomains.com/domain-distribution-and-m'
   name: Unstoppable Domains webhooks API
   slug: unstoppable-domains-webhooks-api
-artifact_total: 40
+artifact_total: 74
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Web3 Partner API v3 account API
+  slug: open-unstoppable-domains-account-api
+- collection_type: open
+  name: Web3 Partner API v3 account AI Lander API
+  slug: open-unstoppable-domains-ai-lander-api
+- collection_type: open
+  name: Web3 Partner API v3 account Backorders API
+  slug: open-unstoppable-domains-backorders-api
+- collection_type: open
+  name: Web3 Partner API v3 account Cart API
+  slug: open-unstoppable-domains-cart-api
+- collection_type: open
+  name: Web3 Partner API v3 account contacts API
+  slug: open-unstoppable-domains-contacts-api
+- collection_type: open
+  name: Web3 Partner API v3 account DNS Management API
+  slug: open-unstoppable-domains-dns-management-api
+- collection_type: open
+  name: Web3 Partner API v3 account dns-records API
+  slug: open-unstoppable-domains-dns-records-api
+- collection_type: open
+  name: Web3 Partner API v3 account domain-contacts API
+  slug: open-unstoppable-domains-domain-contacts-api
+- collection_type: open
+  name: Web3 Partner API v3 account domain-flags API
+  slug: open-unstoppable-domains-domain-flags-api
+- collection_type: open
+  name: Web3 Partner API v3 account domain-management API
+  slug: open-unstoppable-domains-domain-management-api
+- collection_type: open
+  name: Web3 Partner API v3 account domain_registration API
+  slug: open-unstoppable-domains-domain-registration-api
+- collection_type: open
+  name: Web3 Partner API v3 account domain-search API
+  slug: open-unstoppable-domains-domain-search-api
+- collection_type: open
+  name: Web3 Partner API v3 account domain-transfers API
+  slug: open-unstoppable-domains-domain-transfers-api
+- collection_type: open
+  name: Web3 Partner API v3 account domains API
+  slug: open-unstoppable-domains-domains-api
+- collection_type: open
+  name: Web3 Partner API v3 account external_domains API
+  slug: open-unstoppable-domains-external-domains-api
+- collection_type: open
+  name: Web3 Partner API v3 account external_wallets API
+  slug: open-unstoppable-domains-external-wallets-api
+- collection_type: open
+  name: Web3 Partner API v3 account hosting API
+  slug: open-unstoppable-domains-hosting-api
+- collection_type: open
+  name: Web3 Partner API v3 account Leads API
+  slug: open-unstoppable-domains-leads-api
+- collection_type: open
+  name: Web3 Partner API v3 account marketplace API
+  slug: open-unstoppable-domains-marketplace-api
+- collection_type: open
+  name: Web3 Partner API v3 account operations API
+  slug: open-unstoppable-domains-operations-api
+- collection_type: open
+  name: Web3 Partner API v3 account Owner API
+  slug: open-unstoppable-domains-owner-api
+- collection_type: open
+  name: Web3 Partner API v3 account owners API
+  slug: open-unstoppable-domains-owners-api
+- collection_type: open
+  name: Web3 Partner API v3 account Portfolio API
+  slug: open-unstoppable-domains-portfolio-api
+- collection_type: open
+  name: Web3 Partner API v3 account pricing API
+  slug: open-unstoppable-domains-pricing-api
+- collection_type: open
+  name: Web3 Partner API v3 account Reverse API
+  slug: open-unstoppable-domains-reverse-api
+- collection_type: open
+  name: Web3 Partner API v3 account Rpc Proxy API
+  slug: open-unstoppable-domains-rpc-proxy-api
+- collection_type: open
+  name: Web3 Partner API v3 account search API
+  slug: open-unstoppable-domains-search-api
+- collection_type: open
+  name: Web3 Partner API v3 account Session API
+  slug: open-unstoppable-domains-session-api
+- collection_type: open
+  name: Web3 Partner API v3 account Status API
+  slug: open-unstoppable-domains-status-api
+- collection_type: open
+  name: Web3 Partner API v3 account suggestions API
+  slug: open-unstoppable-domains-suggestions-api
+- collection_type: open
+  name: Web3 Partner API v3 account tlds API
+  slug: open-unstoppable-domains-tlds-api
+- collection_type: open
+  name: Web3 Partner API v3 account wallets API
+  slug: open-unstoppable-domains-wallets-api
+- collection_type: open
+  name: Web3 Partner API v3 account webhooks API
+  slug: open-unstoppable-domains-webhooks-api
 common:
 - group: agent
   title: ''
@@ -233,7 +336,7 @@ plans:
 - name: Unstoppable Domains Plans Pricing
   plan_count: 4
   slug: unstoppable-domains-plans-pricing
-random_paper: 69
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Unstoppable Domains Rate Limits
@@ -258,7 +361,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/screenshots/unstoppable-domains-2026-06-20T200411.png
 security:

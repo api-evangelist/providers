@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,11 +86,32 @@ apis:
 - description: Endpoints for inspecting UDP routers and services.
   name: Traefik Labs UDP API
   slug: traefik-udp-api
-artifact_total: 33
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Traefik Proxy REST Entrypoints API
+  slug: open-traefik-entrypoints-api
+- collection_type: open
+  name: Traefik Proxy REST Entrypoints Health API
+  slug: open-traefik-health-api
+- collection_type: open
+  name: Traefik Proxy REST Entrypoints HTTP API
+  slug: open-traefik-http-api
+- collection_type: open
+  name: Traefik Proxy REST Entrypoints Overview API
+  slug: open-traefik-overview-api
 - collection_type: open
   name: Traefik Proxy REST API
   slug: open-traefik-proxy
+- collection_type: open
+  name: Traefik Proxy REST Entrypoints TCP API
+  slug: open-traefik-tcp-api
+- collection_type: open
+  name: Traefik Proxy REST Entrypoints UDP API
+  slug: open-traefik-udp-api
 common:
 - group: operate
   title: ''
@@ -308,7 +329,7 @@ plans:
 - name: Traefik Plans Pricing
   plan_count: 5
   slug: traefik-plans-pricing
-random_paper: 22
+random_paper: 146
 rate_limits:
 - limit_count: 5
   name: Traefik Rate Limits
@@ -350,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/screenshots/traefik-2026-06-20T195532.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,17 @@ apis:
 - description: The Rates API from Serif Health — 1 operation(s) for rates.
   name: Serif Health Rates API
   slug: serif-health-rates-api
-artifact_total: 11
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Serif Health Pricing Distributions API
+  slug: open-serif-health-distributions-api
+- collection_type: open
+  name: Serif Health Pricing Distributions Rates API
+  slug: open-serif-health-rates-api
 - collection_type: open
   name: Serif Health Pricing API
   slug: open-serif-health
@@ -121,7 +130,7 @@ plans:
 - name: Serif Health Plans Pricing
   plan_count: 4
   slug: serif-health-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Serif Health Rate Limits
@@ -152,7 +161,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

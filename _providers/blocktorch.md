@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: Manage managed Hardhat fork instances.
   name: Blocktorch Hardhat API
   slug: blocktorch-hardhat-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blocktorch Forking Hardhat API
+  slug: open-blocktorch-hardhat-api
 common:
 - group: other
   title: ''
@@ -147,7 +154,7 @@ overview: 'Blocktorch publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Blocktorch''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, support, CLI, authentication, and 15 more developer resources.'
-random_paper: 107
+random_paper: 24
 score:
   band: thin
   composite: 40.1
@@ -171,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/screenshots/blocktorch-2026-07-25T203347.png
 security:

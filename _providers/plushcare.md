@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 6.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -55,29 +55,86 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://plushcare.com/privacy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://plushcare.com/membership
+- group: start
+  title: ''
+  type: Login
+  url: https://my.plushcare.com/login
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/plushcare-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/plushcare-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/plushcare-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/plushcare-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/plushcare-llms.txt
+coverage:
+  checked: '2026-08-15'
+  detail: PlushCare ships only an end-user telehealth product; the single live API host, api.plushcare.com, is the patient app's own Django REST Framework backend whose router root advertises one collection (/users/) that returns 403 anonymously, and every schema path on it (/openapi.json, /swagger.json, /schema/, /docs, /redoc) returns 404, with no developer portal, docs host, SDK or package anywhere.
+  evidence:
+  - status: 200
+    url: https://api.plushcare.com/
+  - status: 403
+    url: https://api.plushcare.com/users/
+  - status: 404
+    url: https://api.plushcare.com/openapi.json
+  - status: 404
+    url: https://developer.plushcare.com/
+  - status: 404
+    url: https://docs.plushcare.com/
+  - status: 404
+    url: https://plushcare.com/developers
+  - status: 404
+    url: https://plushcare.com/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: PlushCare is a telehealth and virtual primary care platform that connects patients with board-certified physicians for online doctor visits, available 24/7 across all 50 US states. Services include online prescriptions and refills, urgent care video visits, mental health care and therapy, weight-loss management including GLP-1 medications, chronic disease management, pediatric and preventive care, and sexual health. Founded in 2014 and headquartered in San Francisco, PlushCare accepts most major insurance and offers self-pay memberships. It was surfaced as a portfolio company of GGV Capital and Lightspeed Venture Partners. As a consumer telehealth service, PlushCare publishes no public developer API, developer portal, or SDKs; this profile captures its public web and domain-security surface.
-image: https://plushcare.com/
+description: 'PlushCare is a direct-to-consumer telehealth and virtual primary care service that connects patients with board-certified physicians for online doctor visits, available 24/7 across all 50 US states. Services include online prescriptions and refills, urgent care video visits, mental health care and therapy, weight-loss management including GLP-1 medications, chronic disease management, pediatric and preventive care, and sexual health. Founded in 2014 in San Francisco by Dr. James Wantuck and Ryan McQuaid, PlushCare accepts most major insurance and sells a $19.99/month patient membership. Ownership has changed three times: Accolade acquired PlushCare in 2021, Transcarent acquired Accolade in 2025, and effective 2026-07-31 PlushCare, Inc. became a subsidiary of Fabric Labs, Inc. As a consumer telehealth service, PlushCare publishes no public developer API, developer portal, API reference, SDK, MCP server or agent card; its one live API host, api.plushcare.com, is the patient app''s
+  own private Django REST Framework backend and returns 403 anonymously. This profile captures its public web, pricing, compliance and domain-security surface.'
+image: https://plushcare.com/hubfs/Logos/logo-plushcare.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-15'
 name: PlushCare
 nav: Providers
 network: true
 overview: 'PlushCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Telehealth, Telemedicine, and Healthcare.
 
 
-  PlushCare''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 7
+  PlushCare''s developer surface includes support, engineering blog, pricing, and 10 more developer resources.'
+plans:
+- name: Plushcare Plans Pricing
+  plan_count: 1
+  slug: plushcare-plans-pricing
+random_paper: 73
+rate_limits:
+- limit_count: 0
+  name: Plushcare Rate Limits
+  slug: plushcare-rate-limits
 score:
-  band: minimal
-  composite: 11.6
-  delta: 0.0
+  band: emerging
+  composite: 25.2
+  delta: 13.6
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 73.7
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 11.6
   regulatory:
@@ -85,10 +142,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
+    score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Plushcare Domain Security
@@ -104,5 +161,7 @@ tags:
 - Primary Care
 - Digital Health
 - Mental Health
+- Virtual Care
+- Consumer Health
 website: https://plushcare.com/
 ---

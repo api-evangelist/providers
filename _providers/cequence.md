@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: API Spyder is a SaaS-based, agentless external discovery service that provides an attacker's view into an organization's public-facing API hosts, hosting providers, and API-specific exposures includin
@@ -112,7 +112,7 @@ plans:
 - name: Cequence Plans Pricing
   plan_count: 3
   slug: cequence-plans-pricing
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 5
   name: Cequence Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 17.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/screenshots/cequence-2026-06-20T174136.png
 security:

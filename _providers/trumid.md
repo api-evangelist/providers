@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Trumid is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Trumid''s developer surface includes support, signup flow, engineering blog, and 13 more developer resources.'
-random_paper: 61
+random_paper: 65
 score:
   band: emerging
   composite: 21.0
@@ -121,7 +121,7 @@ score:
     regime_id: securities_market_data
     score: 40.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

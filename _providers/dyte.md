@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 2
@@ -57,8 +57,29 @@ apis:
 - description: Manage webhook event subscriptions.
   name: Dyte Webhooks API
   slug: dyte-webhooks-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dyte v2 REST Livestreams API
+  slug: open-dyte-livestreams-api
+- collection_type: open
+  name: Dyte v2 REST Livestreams Meetings API
+  slug: open-dyte-meetings-api
+- collection_type: open
+  name: Dyte v2 REST Livestreams Participants API
+  slug: open-dyte-participants-api
+- collection_type: open
+  name: Dyte v2 REST Livestreams Recordings API
+  slug: open-dyte-recordings-api
+- collection_type: open
+  name: Dyte v2 REST Livestreams Sessions API
+  slug: open-dyte-sessions-api
+- collection_type: open
+  name: Dyte v2 REST Livestreams Webhooks API
+  slug: open-dyte-webhooks-api
 - collection_type: open
   name: Dyte v2 REST API
   slug: open-dyte
@@ -123,7 +144,7 @@ plans:
 - name: Dyte Plans Pricing
   plan_count: 3
   slug: dyte-plans-pricing
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 4
   name: Dyte Rate Limits
@@ -148,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/screenshots/dyte-2026-06-20T180436.png
 security:

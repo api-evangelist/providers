@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 68.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -81,7 +82,57 @@ apis:
 - description: The Webhooks API from Kit — 2 operation(s) for webhooks.
   name: Kit Webhooks API
   slug: convertkit-webhooks-api
-artifact_total: 197
+artifact_total: 214
+asyncapis:
+- description: ''
+  name: Convertkit Webhooks
+  slug: convertkit-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kit Accounts API
+  slug: open-convertkit-accounts-api
+- collection_type: open
+  name: Kit Accounts Broadcasts API
+  slug: open-convertkit-broadcasts-api
+- collection_type: open
+  name: Kit Accounts Custom Fields API
+  slug: open-convertkit-custom-fields-api
+- collection_type: open
+  name: Kit Accounts Email Templates API
+  slug: open-convertkit-email-templates-api
+- collection_type: open
+  name: Kit Accounts Forms API
+  slug: open-convertkit-forms-api
+- collection_type: open
+  name: Kit Accounts Posts API
+  slug: open-convertkit-posts-api
+- collection_type: open
+  name: Kit Accounts Purchases API
+  slug: open-convertkit-purchases-api
+- collection_type: open
+  name: Kit Accounts Segments API
+  slug: open-convertkit-segments-api
+- collection_type: open
+  name: Kit Accounts Sequence Emails API
+  slug: open-convertkit-sequence-emails-api
+- collection_type: open
+  name: Kit Accounts Sequences API
+  slug: open-convertkit-sequences-api
+- collection_type: open
+  name: Kit Accounts Snippets API
+  slug: open-convertkit-snippets-api
+- collection_type: open
+  name: Kit Accounts Subscribers API
+  slug: open-convertkit-subscribers-api
+- collection_type: open
+  name: Kit Accounts Tags API
+  slug: open-convertkit-tags-api
+- collection_type: open
+  name: Kit Accounts Webhooks API
+  slug: open-convertkit-webhooks-api
 common:
 - group: agent
   title: ''
@@ -117,8 +168,8 @@ common:
   url: https://developers.kit.com
 - group: build
   title: ''
-  type: GitHubOrg
-  url: https://github.com/convertkit
+  type: GitHubOrganization
+  url: https://github.com/Kit
 - group: company
   title: ''
   type: LinkedIn
@@ -151,8 +202,420 @@ common:
   title: ''
   type: FinOps
   url: finops/convertkit-finops.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/convertkit-a2a.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/convertkit-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/convertkit-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/convertkit-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/convertkit-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/convertkit-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/convertkit-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/convertkit-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/convertkit-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/convertkit-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developers.kit.com/api-reference/upgrading-to-v4
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/convertkit-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/convertkit-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://kit.com/security
+- group: auth
+  title: ''
+  type: Security
+  url: https://kit.com/security
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/convertkit-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/convertkit-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/convertkit-data-model.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/vocabulary.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.kit.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.kit.com/api-reference/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.kit.com/kit-app-store/quick-start-guide
+- group: operate
+  title: ''
+  type: Support
+  url: https://kit.com/support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.kit.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://kit.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://kit.com/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.kit.com/users/signup
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/convertkit-jsonschema-spectral-rules.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/add-subscriber-to-form-by-email-address.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/add-subscriber-to-form.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/add-subscriber-to-sequence-by-email-address.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/add-subscriber-to-sequence.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/bulk-add-subscribers-to-forms.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/bulk-create-custom-fields.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/bulk-create-subscribers.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/bulk-create-tags.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/bulk-remove-tags-from-subscribers.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/bulk-tag-subscribers.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/bulk-update-subscriber-custom-field-values.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/create-a-broadcast.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/create-a-custom-field.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/create-a-purchase.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/create-a-sequence-email.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/create-a-sequence.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/create-a-snippet.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/create-a-subscriber.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/create-a-tag.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/create-a-webhook.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/delete-a-broadcast.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/delete-a-sequence-email.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/delete-a-sequence.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/delete-a-webhook.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/delete-custom-field.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/filter-subscribers-based-on-engagement.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-a-broadcast.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-a-post.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-a-purchase.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-a-sequence-email.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-a-sequence.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-a-snippet.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-a-subscriber.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-creator-profile.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-current-account.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-email-stats.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-growth-stats.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-link-clicks-for-a-broadcast.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-stats-for-a-broadcast.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/get-stats-for-a-list-of-broadcasts.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-broadcasts.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-colors.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-custom-fields.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-email-templates.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-forms.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-posts.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-purchases.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-segments.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-sequence-emails.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-sequences.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-snippets.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-stats-for-a-subscriber.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-subscribers-for-a-form.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-subscribers-for-a-sequence.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-subscribers-for-a-tag.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-subscribers.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-tags-for-a-subscriber.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-tags.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/list-webhooks.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/remove-tag-from-subscriber-by-email-address.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/remove-tag-from-subscriber.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/tag-a-subscriber-by-email-address.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/tag-a-subscriber.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/unsubscribe-subscriber.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/update-a-broadcast.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/update-a-custom-field.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/update-a-sequence-email.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/update-a-sequence.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/update-a-snippet.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/update-a-subscriber.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/update-colors.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/update-tag-name.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/api.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/context.json
 created: '2026-06-13'
-description: Kit (formerly ConvertKit) is a creator email marketing platform with a REST API for managing subscribers, tags, sequences, forms, broadcasts, and automation rules. The API supports both API key and OAuth 2.0 authentication, with v4 as the current version featuring cursor-based pagination, bulk operations, and async processing.
+description: Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit-Api-Key header for personal automation or OAuth 2.0 (PKCE, dynamic client registration, rotating single-use refresh tokens) for apps published to the Kit App Store, and uses cursor-based pagination, an OAuth-only bulk namespace with async callbacks, and eventually-consistent list reads. Kit also runs two remote MCP servers - an OAuth-gated one that acts on a creator's account and an anonymous read-only documentation server - publishes an A2A agent card and an Agent Skill from its developer docs host, and ships llms.txt. Its only first-party API client is a PHP SDK.
 examples:
 - key_count: 6
   name: Add Subscriber To Form By Email Address
@@ -681,24 +1144,28 @@ json_schemas:
   property_count: 1
   slug: update_tag_name_response
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: convertkit-mcp.yml
+  slug: convertkit-mcpyml
+modified: '2026-08-13'
 name: Kit
 nav: Providers
 network: true
 overview: 'Kit publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Broadcasts API, Custom Fields API, and 11 more. Tagged areas include Email Marketing, Creator Economy, Subscribers, Automation, and Newsletters.
 
 
-  The Kit catalog on APIs.io includes 1 Spectral governance ruleset.
+  The Kit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Kit''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Kit''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 113 more developer resources.'
 plans:
 - name: Convertkit Plans Pricing
   plan_count: 3
   slug: convertkit-plans-pricing
-random_paper: 17
+random_paper: 54
 rate_limits:
-- limit_count: 2
+- limit_count: 3
   name: Convertkit Rate Limits
   slug: convertkit-rate-limits
 rules:
@@ -712,20 +1179,20 @@ rules:
   slug: convertkit-jsonschema-spectral-rules
 scopes:
 - name: Convertkit Scopes
-  scope_count: 2
+  scope_count: 3
   slug: convertkit-scopes
-  summary_line: 2 scopes · authorizationCode
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.6
-  delta: 0.0
+  band: exemplar
+  composite: 82.6
+  delta: 31.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 60.6
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 42.1
+    commercial_clarity: 100.0
+    contract_quality: 68.4
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 94.7
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -739,10 +1206,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 55.6
+    score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/screenshots/convertkit-2026-06-20T175000.png
 security:
 - kind: authentication
@@ -771,5 +1238,15 @@ tags:
 - Sequences
 - Forms
 - Broadcasts
+- Webhooks
+- MCP
+- Agents
+- OAuth
+- Marketing Automation
+- Landing Pages
+- Segmentation
+- Email Campaigns
+- SaaS
+- Commerce
 website: https://kit.com
 ---

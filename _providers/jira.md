@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ arazzos:
 - description: Read an issue, discover its legal transitions, apply one, and verify the new status.
   name: Jira Transition an Issue to a New Status
   slug: jira-transition-issue-workflow
-artifact_total: 208
+artifact_total: 217
 asyncapis:
 - description: Jira Cloud webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in your Jira instance. Webhooks can be registered via the Jira REST API or through the Jira administr
   name: Jira Cloud Webhooks
@@ -138,8 +138,35 @@ collections:
   name: Jira Cloud Platform REST Issue Comments Projects API
   slug: postman-jira-projects-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Jira Cloud Platform REST API
   slug: open-jira-cloud-platform-rest-api
+- collection_type: open
+  name: Jira Cloud Platform REST Issue Comments API
+  slug: open-jira-issue-comments-api
+- collection_type: open
+  name: Jira Cloud Platform REST Issue Comments Issue Priorities API
+  slug: open-jira-issue-priorities-api
+- collection_type: open
+  name: Jira Cloud Platform REST Issue Comments Issue Search API
+  slug: open-jira-issue-search-api
+- collection_type: open
+  name: Jira Cloud Platform REST Issue Comments Issue Statuses API
+  slug: open-jira-issue-statuses-api
+- collection_type: open
+  name: Jira Cloud Platform REST Issue Comments Issue Transitions API
+  slug: open-jira-issue-transitions-api
+- collection_type: open
+  name: Jira Cloud Platform REST Issue Comments Issue Types API
+  slug: open-jira-issue-types-api
+- collection_type: open
+  name: Jira Cloud Platform REST Issue Comments Issues API
+  slug: open-jira-issues-api
+- collection_type: open
+  name: Jira Cloud Platform REST Issue Comments Projects API
+  slug: open-jira-projects-api
 common:
 - group: build
   title: ''
@@ -802,7 +829,7 @@ plans:
 - name: Jira Plans Pricing
   plan_count: 4
   slug: jira-plans-pricing
-random_paper: 62
+random_paper: 124
 rate_limits:
 - limit_count: 4
   name: Jira Rate Limits
@@ -859,7 +886,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/screenshots/jira-2026-06-20T183734.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -61,12 +61,33 @@ apis:
 - description: The Wallets API from Circle — 7 operation(s) for wallets.
   name: Circle Wallets API
   slug: circle-wallets-api
-artifact_total: 22
+artifact_total: 29
 asyncapis:
 - description: AsyncAPI description of Circle's outbound webhook (notification) surfaces. Circle delivers event notifications by POSTing a JSON body to a subscriber endpoint that is registered via product-specific n
   name: Circle Webhook Notifications
   slug: circle-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Circle Web3 Services (W3S) — Developer-Controlled Wallets NFTs API
+  slug: open-circle-nfts-api
+- collection_type: open
+  name: Circle Web3 Services (W3S) — Developer-Controlled Wallets NFTs Signing API
+  slug: open-circle-signing-api
+- collection_type: open
+  name: Circle Web3 Services (W3S) — Developer-Controlled Wallets NFTs Tokens API
+  slug: open-circle-tokens-api
+- collection_type: open
+  name: Circle Web3 Services (W3S) — Developer-Controlled Wallets NFTs Transactions API
+  slug: open-circle-transactions-api
+- collection_type: open
+  name: Circle Web3 Services (W3S) — Developer-Controlled Wallets NFTs Wallet Sets API
+  slug: open-circle-wallet-sets-api
+- collection_type: open
+  name: Circle Web3 Services (W3S) — Developer-Controlled NFTs Wallets API
+  slug: open-circle-wallets-api
 - collection_type: open
   name: Circle Web3 Services (W3S) — Developer-Controlled Wallets API
   slug: open-circle
@@ -210,7 +231,7 @@ plans:
 - name: Circle Plans Pricing
   plan_count: 3
   slug: circle-plans-pricing
-random_paper: 26
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Circle Rate Limits
@@ -266,7 +287,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/screenshots/circle-2026-06-20T174349.png
 security:

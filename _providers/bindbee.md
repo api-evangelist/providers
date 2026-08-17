@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Employee time-off requests and balances
   name: Bindbee Time Off API
   slug: bindbee-time-off-api
-artifact_total: 55
+artifact_total: 61
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bindbee Candidates API
+  slug: open-bindbee-candidates-api
+- collection_type: open
+  name: Bindbee Candidates Departments API
+  slug: open-bindbee-departments-api
+- collection_type: open
+  name: Bindbee Candidates Employees API
+  slug: open-bindbee-employees-api
+- collection_type: open
+  name: Bindbee Candidates Jobs API
+  slug: open-bindbee-jobs-api
+- collection_type: open
+  name: Bindbee Candidates Time Off API
+  slug: open-bindbee-time-off-api
 common:
 - group: agent
   title: ''
@@ -230,7 +249,7 @@ plans:
 - name: Bindbee Plans Pricing
   plan_count: 3
   slug: bindbee-plans-pricing
-random_paper: 113
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Bindbee Rate Limits
@@ -272,7 +291,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/screenshots/bindbee-2026-06-20T173245.png
 security:

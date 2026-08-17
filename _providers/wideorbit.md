@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Certified-partner API gateway for WideOrbit.io providing real-time, object-level interaction with WideOrbit Traffic, Network, and Omni systems. Access is restricted to authorized, WideOrbit-certified '
@@ -168,7 +168,7 @@ plans:
 - name: Wideorbit Plans Pricing
   plan_count: 0
   slug: wideorbit-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Wideorbit Rate Limits
@@ -181,7 +181,7 @@ scopes:
 score:
   band: thin
   composite: 39.2
-  delta: 16.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -189,12 +189,12 @@ score:
     discoverability: 66.7
     governance: 12.5
     operational_transparency: 13.2
-  previous_composite: 22.8
+  previous_composite: 39.2
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Wideorbit Authentication

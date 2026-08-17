@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Address and VAT validation
   name: TaxJar Validations API
   slug: taxjar-validations-api
-artifact_total: 32
+artifact_total: 42
 collections:
 - collection_type: postman
   name: TaxJar Sales Tax Categories API
@@ -95,6 +95,36 @@ collections:
 - collection_type: postman
   name: TaxJar Sales Tax Categories Validations API
   slug: postman-taxjar-validations-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TaxJar Sales Tax Categories API
+  slug: open-taxjar-categories-api
+- collection_type: open
+  name: TaxJar Sales Tax Categories Customers API
+  slug: open-taxjar-customers-api
+- collection_type: open
+  name: TaxJar Sales Tax Categories Nexus API
+  slug: open-taxjar-nexus-api
+- collection_type: open
+  name: TaxJar Sales Tax Categories Rates API
+  slug: open-taxjar-rates-api
+- collection_type: open
+  name: TaxJar Sales Tax Categories Summary Rates API
+  slug: open-taxjar-summary-rates-api
+- collection_type: open
+  name: TaxJar Sales Tax Categories Taxes API
+  slug: open-taxjar-taxes-api
+- collection_type: open
+  name: TaxJar Sales Tax Categories Transactions - Orders API
+  slug: open-taxjar-transactions-orders-api
+- collection_type: open
+  name: TaxJar Sales Tax Categories Transactions - Refunds API
+  slug: open-taxjar-transactions-refunds-api
+- collection_type: open
+  name: TaxJar Sales Tax Categories Validations API
+  slug: open-taxjar-validations-api
 common:
 - group: build
   title: ''
@@ -229,7 +259,7 @@ plans:
 - name: Taxjar Plans Pricing
   plan_count: 2
   slug: taxjar-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Taxjar Rate Limits
@@ -263,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/screenshots/taxjar-2026-06-20T194935.png
 security:

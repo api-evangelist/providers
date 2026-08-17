@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: End-user records that scope credentials, integrations, and executions.
   name: Alloy Automation Users API
   slug: alloy-automation-users-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity API
+  slug: open-alloy-automation-connectivity-api
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity Credentials API
+  slug: open-alloy-automation-credentials-api
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity Events API
+  slug: open-alloy-automation-events-api
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity Integrations API
+  slug: open-alloy-automation-integrations-api
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity Passthrough API
+  slug: open-alloy-automation-passthrough-api
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity Unified Accounting API
+  slug: open-alloy-automation-unified-accounting-api
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity Unified Commerce API
+  slug: open-alloy-automation-unified-commerce-api
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity Unified CRM API
+  slug: open-alloy-automation-unified-crm-api
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity User Tokens API
+  slug: open-alloy-automation-user-tokens-api
+- collection_type: open
+  name: Alloy Automation Embedded & Unified Connectivity Users API
+  slug: open-alloy-automation-users-api
 - collection_type: open
   name: Alloy Automation Embedded & Unified API
   slug: open-alloy-automation
@@ -135,7 +168,7 @@ plans:
 - name: Alloy Automation Plans Pricing
   plan_count: 3
   slug: alloy-automation-plans-pricing
-random_paper: 119
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Alloy Automation Rate Limits
@@ -160,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/screenshots/alloy-automation-2026-07-25T195811.png
 security:

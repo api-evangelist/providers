@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -81,8 +81,53 @@ apis:
 - description: Software devices for testing automations and integrations.
   name: Samsung SmartThings Virtual Devices API
   slug: smartthings-virtual-devices-api
-artifact_total: 23
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Samsung SmartThings Apps API
+  slug: open-smartthings-apps-api
+- collection_type: open
+  name: Samsung SmartThings Apps Capabilities API
+  slug: open-smartthings-capabilities-api
+- collection_type: open
+  name: Samsung SmartThings Apps Device Commands & Status API
+  slug: open-smartthings-device-commands-status-api
+- collection_type: open
+  name: Samsung SmartThings Apps Devices API
+  slug: open-smartthings-devices-api
+- collection_type: open
+  name: Samsung SmartThings Apps History API
+  slug: open-smartthings-history-api
+- collection_type: open
+  name: Samsung SmartThings Apps Installed Apps API
+  slug: open-smartthings-installed-apps-api
+- collection_type: open
+  name: Samsung SmartThings Apps Locations API
+  slug: open-smartthings-locations-api
+- collection_type: open
+  name: Samsung SmartThings Apps Presentations API
+  slug: open-smartthings-presentations-api
+- collection_type: open
+  name: Samsung SmartThings Apps Rooms API
+  slug: open-smartthings-rooms-api
+- collection_type: open
+  name: Samsung SmartThings Apps Rules API
+  slug: open-smartthings-rules-api
+- collection_type: open
+  name: Samsung SmartThings Apps Scenes API
+  slug: open-smartthings-scenes-api
+- collection_type: open
+  name: Samsung SmartThings Apps Schedules API
+  slug: open-smartthings-schedules-api
+- collection_type: open
+  name: Samsung SmartThings Apps Subscriptions API
+  slug: open-smartthings-subscriptions-api
+- collection_type: open
+  name: Samsung SmartThings Apps Virtual Devices API
+  slug: open-smartthings-virtual-devices-api
 - collection_type: open
   name: Samsung SmartThings API
   slug: open-smartthings
@@ -155,7 +200,7 @@ plans:
 - name: Smartthings Plans Pricing
   plan_count: 2
   slug: smartthings-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 17
   name: Smartthings Rate Limits
@@ -185,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

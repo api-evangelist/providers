@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -50,7 +50,23 @@ apis:
 - description: The Routes API from Apache ServiceMix — 4 operation(s) for routes.
   name: Apache ServiceMix Routes API
   slug: apache-servicemix-routes-api
-artifact_total: 55
+artifact_total: 60
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache ServiceMix REST Bundles API
+  slug: open-apache-servicemix-bundles-api
+- collection_type: open
+  name: Apache ServiceMix REST Bundles Endpoints API
+  slug: open-apache-servicemix-endpoints-api
+- collection_type: open
+  name: Apache ServiceMix REST Bundles Messaging API
+  slug: open-apache-servicemix-messaging-api
+- collection_type: open
+  name: Apache ServiceMix REST Bundles Routes API
+  slug: open-apache-servicemix-routes-api
 common:
 - group: agent
   title: ''
@@ -220,7 +236,7 @@ plans:
 - name: Apache Servicemix Plans Pricing
   plan_count: 3
   slug: apache-servicemix-plans-pricing
-random_paper: 62
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Apache Servicemix Rate Limits
@@ -262,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/screenshots/apache-servicemix-2026-06-20T172139.png
 security:

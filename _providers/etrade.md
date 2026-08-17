@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Preview, place, change, and cancel equity and option orders
   name: Etrade Order API
   slug: etrade-order-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: E*TRADE Accounts API
+  slug: open-etrade-accounts-api
+- collection_type: open
+  name: E*TRADE Accounts Market API
+  slug: open-etrade-market-api
+- collection_type: open
+  name: E*TRADE Accounts Order API
+  slug: open-etrade-order-api
 - collection_type: open
   name: E*TRADE API
   slug: open-etrade
@@ -126,7 +138,7 @@ press:
 - date: '2026-05-25'
   title: Morgan Stanley Dives Deeper Into Retail With E*Trade Deal
   url: https://www.wealthmanagement.com/equities/morgan-stanley-dives-deeper-into-retail-with-e-trade-deal
-random_paper: 29
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Etrade Rate Limits
@@ -157,7 +169,7 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/screenshots/etrade-2026-06-20T180840.png
 security:

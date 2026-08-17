@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 386
   human_in_the_loop: 22
@@ -465,7 +465,434 @@ apis:
 - description: The Warehouses API from VTEX — 4 operation(s) for warehouses.
   name: VTEX Warehouses API
   slug: vtex-warehouses-api
-artifact_total: 1282
+artifact_total: 1424
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VTex Anti-fraud Provider Account API
+  slug: open-vtex-account-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Addresses API
+  slug: open-vtex-addresses-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Anti-Fraud Flow API
+  slug: open-vtex-anti-fraud-flow-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account App Keys API
+  slug: open-vtex-app-keys-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Attachment API
+  slug: open-vtex-attachment-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Authentication API
+  slug: open-vtex-authentication-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Autocomplete API
+  slug: open-vtex-autocomplete-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Brand API
+  slug: open-vtex-brand-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Bulk Import API
+  slug: open-vtex-bulk-import-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Carriers API
+  slug: open-vtex-carriers-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Cart Attachments API
+  slug: open-vtex-cart-attachments-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Category API
+  slug: open-vtex-category-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Category Specification API
+  slug: open-vtex-category-specification-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Change Order (Beta) API
+  slug: open-vtex-change-order-beta-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Change Seller API
+  slug: open-vtex-change-seller-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Change URI Schema API
+  slug: open-vtex-change-uri-schema-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Clusters API
+  slug: open-vtex-clusters-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Collection Beta API
+  slug: open-vtex-collection-beta-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Commercial Conditions API
+  slug: open-vtex-commercial-conditions-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Configuration API
+  slug: open-vtex-configuration-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Configuration Flow API
+  slug: open-vtex-configuration-flow-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Conversation API
+  slug: open-vtex-conversation-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Coupons API
+  slug: open-vtex-coupons-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account CrossSelling API
+  slug: open-vtex-crossselling-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Custom Data API
+  slug: open-vtex-custom-data-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Cycles API
+  slug: open-vtex-cycles-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Data Subject Rights API
+  slug: open-vtex-data-subject-rights-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Delivery Services API
+  slug: open-vtex-delivery-services-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account DKIM Configuration API
+  slug: open-vtex-dkim-configuration-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Docks API
+  slug: open-vtex-docks-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Documents API
+  slug: open-vtex-documents-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Events API
+  slug: open-vtex-events-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account External Marketplace API
+  slug: open-vtex-external-marketplace-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account External Seller API
+  slug: open-vtex-external-seller-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Facets API
+  slug: open-vtex-facets-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Feed V2 (Deprecated) API
+  slug: open-vtex-feed-v2-deprecated-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Feed V3 API
+  slug: open-vtex-feed-v3-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Freight Values API
+  slug: open-vtex-freight-values-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Fulfillment API
+  slug: open-vtex-fulfillment-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Get Suggestions API
+  slug: open-vtex-get-suggestions-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Get Versions API
+  slug: open-vtex-get-versions-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Gift Card API
+  slug: open-vtex-gift-card-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Gift Cards API
+  slug: open-vtex-gift-cards-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Gift List API
+  slug: open-vtex-gift-list-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Holidays API
+  slug: open-vtex-holidays-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Indices API
+  slug: open-vtex-indices-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Installments API
+  slug: open-vtex-installments-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Inventory API
+  slug: open-vtex-inventory-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Invoice API
+  slug: open-vtex-invoice-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Invoices API
+  slug: open-vtex-invoices-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Legacy Collection API
+  slug: open-vtex-legacy-collection-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Legacy Subcollection API
+  slug: open-vtex-legacy-subcollection-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Manage Suggestions API
+  slug: open-vtex-manage-suggestions-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Match Received SKUs API
+  slug: open-vtex-match-received-skus-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Matched Offers API
+  slug: open-vtex-matched-offers-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Non-Structured Specification API
+  slug: open-vtex-non-structured-specification-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Note API
+  slug: open-vtex-note-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Notification API
+  slug: open-vtex-notification-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account OAuth Flow API
+  slug: open-vtex-oauth-flow-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Offer Management API
+  slug: open-vtex-offer-management-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Offers API
+  slug: open-vtex-offers-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Order Hook API
+  slug: open-vtex-order-hook-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Order Placement API
+  slug: open-vtex-order-placement-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Orders API
+  slug: open-vtex-orders-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Pages API
+  slug: open-vtex-pages-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Payment API
+  slug: open-vtex-payment-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Payment Flow API
+  slug: open-vtex-payment-flow-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Pickup Points API
+  slug: open-vtex-pickup-points-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Plans API
+  slug: open-vtex-plans-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Policy API
+  slug: open-vtex-policy-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Polygons API
+  slug: open-vtex-polygons-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Price Tables API
+  slug: open-vtex-price-tables-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Prices and Fixed Prices API
+  slug: open-vtex-prices-and-fixed-prices-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Pricing Configuration API
+  slug: open-vtex-pricing-configuration-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Pricing Hub Prices API
+  slug: open-vtex-pricing-hub-prices-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Product API
+  slug: open-vtex-product-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Product Indexing API
+  slug: open-vtex-product-indexing-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Product List Page API
+  slug: open-vtex-product-list-page-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Product Specification API
+  slug: open-vtex-product-specification-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Profiles API
+  slug: open-vtex-profiles-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Prospects API
+  slug: open-vtex-prospects-api
+- collection_type: open
+  name: VTex Anti-fraud Account Provider API
+  slug: open-vtex-provider-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Purchase Information API
+  slug: open-vtex-purchase-information-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Rating API
+  slug: open-vtex-rating-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Region API
+  slug: open-vtex-region-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Reports API
+  slug: open-vtex-reports-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Reservations API
+  slug: open-vtex-reservations-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Roles API
+  slug: open-vtex-roles-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Sales Channel API
+  slug: open-vtex-sales-channel-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Sales Channel Mapping API
+  slug: open-vtex-sales-channel-mapping-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Scheduled Delivery API
+  slug: open-vtex-scheduled-delivery-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Schemas API
+  slug: open-vtex-schemas-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Scroll API
+  slug: open-vtex-scroll-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Search API
+  slug: open-vtex-search-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Segment API
+  slug: open-vtex-segment-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Seller API
+  slug: open-vtex-seller-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Seller Commissions API
+  slug: open-vtex-seller-commissions-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Seller Invite API
+  slug: open-vtex-seller-invite-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Sellers API
+  slug: open-vtex-sellers-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Service Integration API
+  slug: open-vtex-service-integration-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Session API
+  slug: open-vtex-session-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Settings API
+  slug: open-vtex-settings-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Shipping Policies API
+  slug: open-vtex-shipping-policies-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Shipping Updates API
+  slug: open-vtex-shipping-updates-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Shopping Cart API
+  slug: open-vtex-shopping-cart-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Similar Category API
+  slug: open-vtex-similar-category-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU API
+  slug: open-vtex-sku-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Approval Settings API
+  slug: open-vtex-sku-approval-settings-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Attachment API
+  slug: open-vtex-sku-attachment-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Bindings API
+  slug: open-vtex-sku-bindings-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Complement API
+  slug: open-vtex-sku-complement-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU EAN API
+  slug: open-vtex-sku-ean-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU File API
+  slug: open-vtex-sku-file-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Kit API
+  slug: open-vtex-sku-kit-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Seller API
+  slug: open-vtex-sku-seller-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Service API
+  slug: open-vtex-sku-service-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Service Attachment API
+  slug: open-vtex-sku-service-attachment-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Service Type API
+  slug: open-vtex-sku-service-type-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Service Value API
+  slug: open-vtex-sku-service-value-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SKU Specification API
+  slug: open-vtex-sku-specification-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account SLA API
+  slug: open-vtex-sla-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Specification API
+  slug: open-vtex-specification-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Specification Field API
+  slug: open-vtex-specification-field-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Specification Field Value API
+  slug: open-vtex-specification-field-value-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Specification Group API
+  slug: open-vtex-specification-group-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Specification Value API
+  slug: open-vtex-specification-value-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Store Configuration API
+  slug: open-vtex-store-configuration-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Stores API
+  slug: open-vtex-stores-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Subscriptions API
+  slug: open-vtex-subscriptions-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Supplier API
+  slug: open-vtex-supplier-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Task API
+  slug: open-vtex-task-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Tracking API
+  slug: open-vtex-tracking-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Trade Policy API
+  slug: open-vtex-trade-policy-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Transaction API
+  slug: open-vtex-transaction-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Transaction Flow API
+  slug: open-vtex-transaction-flow-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Transaction Process API
+  slug: open-vtex-transaction-process-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Transactions API
+  slug: open-vtex-transactions-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account User Orders API
+  slug: open-vtex-user-orders-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Users API
+  slug: open-vtex-users-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Versions API
+  slug: open-vtex-versions-api
+- collection_type: open
+  name: VTex Anti-fraud Provider Account Warehouses API
+  slug: open-vtex-warehouses-api
 common:
 - group: agent
   title: ''
@@ -3933,7 +4360,7 @@ plans:
 - name: Vtex Plans Pricing
   plan_count: 2
   slug: vtex-plans-pricing
-random_paper: 95
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Vtex Rate Limits
@@ -3981,7 +4408,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/screenshots/vtex-2026-06-20T201148.png
 security:

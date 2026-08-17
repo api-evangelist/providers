@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,11 +59,35 @@ apis:
 - description: The User API from Fluidstack — 2 operation(s) for user.
   name: Fluidstack User API
   slug: fluidstack-user-api
-artifact_total: 25
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Management Clusters API
+  slug: open-fluidstack-clusters-api
+- collection_type: open
+  name: Management Clusters Instances API
+  slug: open-fluidstack-instances-api
+- collection_type: open
+  name: Management Clusters Invitations API
+  slug: open-fluidstack-invitations-api
 - collection_type: open
   name: Management API
   slug: open-fluidstack-management-api
+- collection_type: open
+  name: Management Clusters Members API
+  slug: open-fluidstack-members-api
+- collection_type: open
+  name: Management Clusters Organizations API
+  slug: open-fluidstack-organizations-api
+- collection_type: open
+  name: Management Clusters Regions API
+  slug: open-fluidstack-regions-api
+- collection_type: open
+  name: Management Clusters User API
+  slug: open-fluidstack-user-api
 common:
 - group: agent
   title: ''
@@ -168,7 +192,7 @@ overview: 'Fluidstack publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Fluidstack''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 14 more developer resources.'
-random_paper: 106
+random_paper: 23
 score:
   band: thin
   composite: 31.4
@@ -189,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/screenshots/fluidstack-2026-06-20T181337.png
 security:

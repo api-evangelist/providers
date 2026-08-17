@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Technicians and users the work is assigned to.
   name: Service Fusion Techs and Users API
   slug: servicefusion-techs-and-users-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Service Fusion Open Calendar Tasks API
+  slug: open-servicefusion-calendar-tasks-api
+- collection_type: open
+  name: Service Fusion Open Calendar Tasks Contacts API
+  slug: open-servicefusion-contacts-api
+- collection_type: open
+  name: Service Fusion Open Calendar Tasks Customers API
+  slug: open-servicefusion-customers-api
+- collection_type: open
+  name: Service Fusion Open Calendar Tasks Estimates API
+  slug: open-servicefusion-estimates-api
+- collection_type: open
+  name: Service Fusion Open Calendar Tasks Invoices API
+  slug: open-servicefusion-invoices-api
+- collection_type: open
+  name: Service Fusion Open Calendar Tasks Jobs API
+  slug: open-servicefusion-jobs-api
+- collection_type: open
+  name: Service Fusion Open Calendar Tasks Payments API
+  slug: open-servicefusion-payments-api
+- collection_type: open
+  name: Service Fusion Open Calendar Tasks Products and Services API
+  slug: open-servicefusion-products-and-services-api
+- collection_type: open
+  name: Service Fusion Open Calendar Tasks Techs and Users API
+  slug: open-servicefusion-techs-and-users-api
 - collection_type: open
   name: Service Fusion Open API
   slug: open-servicefusion
@@ -136,7 +166,7 @@ plans:
 - name: Servicefusion Plans Pricing
   plan_count: 3
   slug: servicefusion-plans-pricing
-random_paper: 93
+random_paper: 72
 rate_limits:
 - limit_count: 4
   name: Servicefusion Rate Limits
@@ -166,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

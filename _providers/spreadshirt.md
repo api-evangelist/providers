@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Spreadshirt Public Shop API — REST API for building custom e-commerce storefronts against the Spreadshirt EU (spreadshirt.net) and North American (spreadshirt.com) marketplaces, using SprdAuth API-key
@@ -56,11 +56,36 @@ apis:
 - description: 'This api offers you webhook subscriptions that will notify you about changes with your order via a POST request. ### Acknowledge notifications Notifications are following the at *least once principal*'
   name: Spreadshirt Subscriptions API
   slug: spreadshirt-subscriptions-api
-artifact_total: 14
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Spreadshirt Webhooks
   slug: spreadshirt-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spreadconnect fulfillment service REST Articles API
+  slug: open-spreadshirt-articles-api
+- collection_type: open
+  name: Spreadconnect fulfillment service REST Articles Authentication API
+  slug: open-spreadshirt-authentication-api
+- collection_type: open
+  name: Spreadconnect fulfillment service REST Articles Designs API
+  slug: open-spreadshirt-designs-api
+- collection_type: open
+  name: Spreadconnect fulfillment service REST Articles Orders API
+  slug: open-spreadshirt-orders-api
+- collection_type: open
+  name: Spreadconnect fulfillment service REST Articles Product Types API
+  slug: open-spreadshirt-product-types-api
+- collection_type: open
+  name: Spreadconnect fulfillment service REST Articles Stocks API
+  slug: open-spreadshirt-stocks-api
+- collection_type: open
+  name: Spreadconnect fulfillment service REST Articles Subscriptions API
+  slug: open-spreadshirt-subscriptions-api
 common:
 - group: auth
   title: ''
@@ -193,7 +218,7 @@ overview: 'Spreadshirt publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Spreadshirt''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 21 more developer resources.'
-random_paper: 113
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Spreadshirt Rate Limits
@@ -220,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

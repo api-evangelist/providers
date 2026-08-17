@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 19
 apis:
 - description: Provides information about FCC-issued licenses for use of the nation's airwaves, including snapshots of license counts across different radio services such as 700 MHz, 800 MHz Cellular, AWS, PCS, BRS,
@@ -88,7 +88,47 @@ apis:
 - description: Project coordinates between coordinate reference systems
   name: FCC (Federal Communications Commission) Projection API
   slug: fcc-projection-api
-artifact_total: 23
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FCC Contours Am Pattern API
+  slug: open-fcc-am-pattern-api
+- collection_type: open
+  name: FCC Contours Antenna API
+  slug: open-fcc-antenna-api
+- collection_type: open
+  name: FCC and Census Block Area API
+  slug: open-fcc-area-api
+- collection_type: open
+  name: FCC Area and Census Block API
+  slug: open-fcc-block-api
+- collection_type: open
+  name: FCC Contours Coordinate Conversion API
+  slug: open-fcc-coordinate-conversion-api
+- collection_type: open
+  name: FCC Contours Coverage API
+  slug: open-fcc-coverage-api
+- collection_type: open
+  name: FCC Contours Distance API
+  slug: open-fcc-distance-api
+- collection_type: open
+  name: FCC Contours Elevation API
+  slug: open-fcc-elevation-api
+- collection_type: open
+  name: FCC Contours Entity API
+  slug: open-fcc-entity-api
+- collection_type: open
+  name: FCC Contours Haat API
+  slug: open-fcc-haat-api
+- collection_type: open
+  name: FCC Contours Profile API
+  slug: open-fcc-profile-api
+- collection_type: open
+  name: FCC Contours Projection API
+  slug: open-fcc-projection-api
 common:
 - group: operate
   title: ''
@@ -166,7 +206,7 @@ plans:
 - name: Fcc Plans Pricing
   plan_count: 1
   slug: fcc-plans-pricing
-random_paper: 60
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Fcc Rate Limits
@@ -196,7 +236,7 @@ score:
     regime_id: telecommunications
     score: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/screenshots/fcc-2026-06-20T181103.png
 security:

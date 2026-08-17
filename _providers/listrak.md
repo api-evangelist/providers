@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-12'
+  score: 50.9
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 121
   slug: listrak-agentic-access
   summary_line: 121 operations · 51 acting
-api_count: 53
+api_count: 56
 apis:
 - description: Endpoints to manage app push devices.
   name: Listrak app-push-mobile-client-device API
@@ -198,7 +199,180 @@ apis:
 - description: The TransactionalMessageResend API from Listrak — 1 operation(s) for transactionalmessageresend.
   name: Listrak TransactionalMessageResend API
   slug: listrak-transactionalmessageresend-api
-artifact_total: 73
+- description: Directory management for the Listrak media library - list top-level directories, list a directory's contents, and create, rename or delete a directory. Part of the Listrak Media REST API (OpenAPI 3.1.
+  name: Listrak Media Directories API
+  slug: listrak-media-directories-api
+- description: Image file management for the Listrak media library - upload a file into a directory, update its metadata, and delete it. Part of the Listrak Media REST API (OpenAPI 3.1.1).
+  name: Listrak Media Files API
+  slug: listrak-media-files-api
+- description: Read the fonts available to the account for use alongside media library assets. Part of the Listrak Media REST API (OpenAPI 3.1.1).
+  name: Listrak Media Fonts API
+  slug: listrak-media-fonts-api
+artifact_total: 132
+asyncapis:
+- description: ''
+  name: Listrak Webhooks
+  slug: listrak-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device API
+  slug: open-listrak-app-push-mobile-client-device-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device app-push-mobile-client-engagements API
+  slug: open-listrak-app-push-mobile-client-engagements-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device BroadcastMessage API
+  slug: open-listrak-broadcastmessage-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Campaign API
+  slug: open-listrak-campaign-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Contact API
+  slug: open-listrak-contact-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ContactListSubscription API
+  slug: open-listrak-contactlistsubscription-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ContactSegmentationField API
+  slug: open-listrak-contactsegmentationfield-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Content API
+  slug: open-listrak-content-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ContentFolder API
+  slug: open-listrak-contentfolder-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Conversation API
+  slug: open-listrak-conversation-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ConversationMessage API
+  slug: open-listrak-conversationmessage-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ConversationMessageActivity API
+  slug: open-listrak-conversationmessageactivity-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ConversationMessageLink API
+  slug: open-listrak-conversationmessagelink-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ConversationMessageLinkClicker API
+  slug: open-listrak-conversationmessagelinkclicker-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ConversationMessageSummary API
+  slug: open-listrak-conversationmessagesummary-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ConversationSummary API
+  slug: open-listrak-conversationsummary-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Customer API
+  slug: open-listrak-customer-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Event API
+  slug: open-listrak-event-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device EventConfigurations API
+  slug: open-listrak-eventconfigurations-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device EventGroup API
+  slug: open-listrak-eventgroup-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Events API
+  slug: open-listrak-events-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Folder API
+  slug: open-listrak-folder-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Forget API
+  slug: open-listrak-forget-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device IpPool API
+  slug: open-listrak-ippool-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device List API
+  slug: open-listrak-list-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ListImport API
+  slug: open-listrak-listimport-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ListImportContact API
+  slug: open-listrak-listimportcontact-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ListImportStatus API
+  slug: open-listrak-listimportstatus-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device ListImportSummary API
+  slug: open-listrak-listimportsummary-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Message API
+  slug: open-listrak-message-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device MessageActivity API
+  slug: open-listrak-messageactivity-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device MessageLink API
+  slug: open-listrak-messagelink-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device MessageLinkClicker API
+  slug: open-listrak-messagelinkclicker-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device MessageStatus API
+  slug: open-listrak-messagestatus-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Messagestream API
+  slug: open-listrak-messagestream-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device MessageSummary API
+  slug: open-listrak-messagesummary-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Order API
+  slug: open-listrak-order-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device PhoneList API
+  slug: open-listrak-phonelist-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Product API
+  slug: open-listrak-product-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device RatingSummary API
+  slug: open-listrak-ratingsummary-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device SavedAudience API
+  slug: open-listrak-savedaudience-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device SavedMessage API
+  slug: open-listrak-savedmessage-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Segmentation API
+  slug: open-listrak-segmentation-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device SegmentationField API
+  slug: open-listrak-segmentationfield-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device SegmentationFieldGroup API
+  slug: open-listrak-segmentationfieldgroup-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Send API
+  slug: open-listrak-send-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device SenderCode API
+  slug: open-listrak-sendercode-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device SplitTest API
+  slug: open-listrak-splittest-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device Tickets API
+  slug: open-listrak-tickets-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device TransactionalMessage API
+  slug: open-listrak-transactionalmessage-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device TransactionalMessageActivity API
+  slug: open-listrak-transactionalmessageactivity-api
+- collection_type: open
+  name: Listrak Cross Channel REST app-push-mobile-client-device TransactionalMessageResend API
+  slug: open-listrak-transactionalmessageresend-api
 common:
 - group: agent
   title: ''
@@ -226,8 +400,8 @@ common:
   url: https://www.listrak.com/learn/developers
 - group: build
   title: ''
-  type: GitHubOrg
-  url: https://github.com/InfernoRed/listrak-mobile-ios
+  type: GitHubOrganization
+  url: https://github.com/listrak
 - group: company
   title: ''
   type: LinkedIn
@@ -268,8 +442,104 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/listrak-context.jsonld
+- group: build
+  title: ''
+  type: Packages
+  url: packages/listrak-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/listrak-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/listrak-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/listrak-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/listrak-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/listrak-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/listrak-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/listrak-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/listrak-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/listrak-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/listrak-security-and-semantics-overlay.yaml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/listrak-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.listrak.com/privacy-and-terms/responsible-disclosure
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/listrak-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.listrak.com/privacy-and-terms/privacy-policy
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.listrak.com/learn/developers
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.listrak.com/email
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.listrak.com/en/articles/9406951-rest-api-integrations-at-listrak
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.listrak.com/en/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.listrak.com/get-started
+- group: start
+  title: ''
+  type: Login
+  url: https://admin.listrak.com/Account/Login.aspx
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.listrak.com/privacy-and-terms/acceptable-use-policy
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.listrak.com/privacy-and-terms/privacy-policy
 created: 2026-06-13
-description: Retail digital marketing platform with a REST API for managing email and SMS campaigns, subscriber data, behavioral triggers, and cross-channel marketing automation
+description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover contacts and lists, message authoring and transactional sends, profile-field segmentation, behavioral events that drive Journey Hub automations, bulk upsert of retail customers, orders, products and reviews, media library management, mobile device registration, two-way SMS support conversations, and GDPR/CCPA forget requests. Every server-side API authenticates with OAuth 2.0 client_credentials against a single token endpoint at auth.listrak.com, returns a consistent {status, error, message} envelope drawn from a published 68-code error registry, and pages with cursor plus count.'
 examples:
 - key_count: 4
   name: Listrak Crosschannel_Event Example
@@ -316,24 +586,24 @@ jsonld:
   property_count: 32
   slug: listrak-context
 layout: provider
-modified: 2026-06-13
+modified: 2026-08-13
 name: Listrak
 nav: Providers
 network: true
-overview: 'Listrak publishes 53 APIs on the [APIs.io](https://apis.io/) network, including app-push-mobile-client-device API, app-push-mobile-client-engagements API, BroadcastMessage API, and 50 more. Tagged areas include Email Marketing, SMS Marketing, Marketing Automation, Cross-Channel, and Retail.
+overview: 'Listrak publishes 56 APIs on the [APIs.io](https://apis.io/) network, including app-push-mobile-client-device API, app-push-mobile-client-engagements API, BroadcastMessage API, and 53 more. Tagged areas include Email Marketing, SMS Marketing, Marketing Automation, Cross-Channel, and Retail.
 
 
-  The Listrak catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Listrak catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Listrak''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Listrak''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Listrak Plans Pricing
   plan_count: 1
   slug: listrak-plans-pricing
-random_paper: 42
+random_paper: 17
 rate_limits:
-- limit_count: 4
+- limit_count: 9
   name: Listrak Rate Limits
   slug: listrak-rate-limits
 rules:
@@ -347,20 +617,20 @@ rules:
   slug: listrak-jsonschema-spectral-rules
 scopes:
 - name: Listrak Scopes
-  scope_count: 6
+  scope_count: 10
   slug: listrak-scopes
-  summary_line: 6 scopes · clientCredentials
+  summary_line: 10 scopes · clientCredentials
 score:
-  band: developing
-  composite: 47.7
-  delta: 0.0
+  band: exemplar
+  composite: 78.3
+  delta: 30.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.3
-    developer_ergonomics: 21.7
-    discoverability: 40.7
-    governance: 68.8
-    operational_transparency: 52.6
+    commercial_clarity: 89.5
+    contract_quality: 78.1
+    developer_ergonomics: 65.2
+    discoverability: 66.7
+    governance: 89.6
+    operational_transparency: 86.8
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -369,19 +639,33 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/screenshots/listrak-2026-06-20T184559.png
 security:
 - kind: authentication
   name: Listrak Authentication
   slug: listrak-authentication
-  summary_line: apiKey/oauth2 · 3 schemes
+  summary_line: oauth2/apiKey/http · 4 schemes
 - kind: domain-security
   name: Listrak Domain Security
   slug: listrak-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Listrak Vulnerability Disclosure
+  slug: listrak-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Listrak Trust Center
+  slug: listrak-trust-center
+  summary_line: trust center published
 slug: listrak
 tags:
 - Email Marketing
@@ -392,5 +676,13 @@ tags:
 - Push Notifications
 - Data Import
 - Privacy
+- Ecommerce
+- Customer Data
+- Transactional Messaging
+- Segmentation
+- Product Reviews
+- Media Management
+- Two-Way SMS
+- RCS
 website: https://www.listrak.com/
 ---

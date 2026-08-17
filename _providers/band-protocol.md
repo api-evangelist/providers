@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: 'The BandChain REST API provides HTTP access to BandChain mainnet data including oracle scripts, data requests, price feeds, validator information, account balances, and all Cosmos SDK module queries. '
@@ -130,7 +130,7 @@ plans:
 - name: Band Protocol Plans Pricing
   plan_count: 3
   slug: band-protocol-plans-pricing
-random_paper: 12
+random_paper: 140
 rate_limits:
 - limit_count: 4
   name: Band Protocol Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 29.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/band-protocol/refs/heads/main/screenshots/band-protocol-2026-06-20T173037.png
 security:

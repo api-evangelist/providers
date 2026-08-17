@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,20 @@ apis:
 - description: The Monitors and Alerts API from Associated Press — 10 operation(s) for monitors and alerts.
   name: Associated Press Monitors and Alerts API
   slug: associated-press-monitors-and-alerts-api
-artifact_total: 20
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Associated Press AP Media Account API
+  slug: open-associated-press-account-api
+- collection_type: open
+  name: Associated Press AP Media Account Content API
+  slug: open-associated-press-content-api
+- collection_type: open
+  name: Associated Press AP Media Account Monitors and Alerts API
+  slug: open-associated-press-monitors-and-alerts-api
 common:
 - group: agent
   title: ''
@@ -123,7 +136,7 @@ plans:
 - name: Associated Press Plans Pricing
   plan_count: 3
   slug: associated-press-plans-pricing
-random_paper: 98
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Associated Press Rate Limits
@@ -148,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/screenshots/associated-press-2026-06-20T172505.png
 security:

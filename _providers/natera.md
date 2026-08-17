@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,8 +59,17 @@ apis:
 - description: Test results retrieval (modeled on the documented results workflow).
   name: Natera Results API
   slug: natera-results-api
-artifact_total: 13
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Natera EMR Ordering and Results Integration Orders API
+  slug: open-natera-orders-api
+- collection_type: open
+  name: Natera EMR Ordering and Integration Orders Results API
+  slug: open-natera-results-api
 - collection_type: open
   name: Natera
   slug: open-natera
@@ -117,7 +126,7 @@ plans:
 - name: Natera Plans Pricing
   plan_count: 2
   slug: natera-plans-pricing
-random_paper: 35
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Natera Rate Limits
@@ -148,7 +157,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/screenshots/natera-2026-06-20T185957.png
 security:

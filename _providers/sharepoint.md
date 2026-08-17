@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ arazzos:
 - description: Survey a library folder, upload a file with overwrite, then read the bytes back.
   name: SharePoint Upload a Document and Verify It
   slug: sharepoint-upload-document-workflow
-artifact_total: 95
+artifact_total: 102
 collections:
 - collection_type: postman
   name: SharePoint REST Files API
@@ -106,6 +106,27 @@ collections:
 - collection_type: postman
   name: SharePoint REST Files User Profiles API
   slug: postman-sharepoint-user-profiles-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SharePoint REST Files API
+  slug: open-sharepoint-files-api
+- collection_type: open
+  name: SharePoint REST Files Items API
+  slug: open-sharepoint-items-api
+- collection_type: open
+  name: SharePoint REST Files Lists API
+  slug: open-sharepoint-lists-api
+- collection_type: open
+  name: SharePoint REST Files Search API
+  slug: open-sharepoint-search-api
+- collection_type: open
+  name: SharePoint REST Files Sites API
+  slug: open-sharepoint-sites-api
+- collection_type: open
+  name: SharePoint REST Files User Profiles API
+  slug: open-sharepoint-user-profiles-api
 common:
 - group: build
   title: ''
@@ -425,7 +446,7 @@ plans:
 - name: Sharepoint Plans Pricing
   plan_count: 5
   slug: sharepoint-plans-pricing
-random_paper: 5
+random_paper: 42
 rate_limits:
 - limit_count: 27
   name: Sharepoint Rate Limits
@@ -474,7 +495,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/screenshots/sharepoint-2026-06-20T193748.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: The Amazon CloudWatch API API from Amazon CloudWatch — 1 operation(s) for amazon cloudwatch api.
   name: Amazon CloudWatch Amazon CloudWatch API API
   slug: aws-cloudwatch-amazon-cloudwatch-api-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CloudWatch Amazon CloudWatch API API
+  slug: open-aws-cloudwatch-amazon-cloudwatch-api-api
 - collection_type: open
   name: Amazon CloudWatch API
   slug: open-aws-cloudwatch
@@ -98,7 +104,7 @@ overview: 'Amazon CloudWatch publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Amazon CloudWatch''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 6
+random_paper: 105
 score:
   band: thin
   composite: 32.0
@@ -119,7 +125,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cloudwatch/refs/heads/main/screenshots/aws-cloudwatch-2026-06-20T172757.png
 security:

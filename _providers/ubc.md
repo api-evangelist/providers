@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -113,7 +113,77 @@ apis:
 - description: The Workflows API from University of British Columbia — 1 operation(s) for workflows.
   name: University of British Columbia Workflows API
   slug: ubc-workflows-api
-artifact_total: 41
+artifact_total: 64
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UBC Abacus Dataverse Access API
+  slug: open-ubc-access-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Admin API
+  slug: open-ubc-admin-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Batch API
+  slug: open-ubc-batch-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Builtin Users API
+  slug: open-ubc-builtin-users-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Datasets API
+  slug: open-ubc-datasets-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Datatags API
+  slug: open-ubc-datatags-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Dataverses API
+  slug: open-ubc-dataverses-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Edit API
+  slug: open-ubc-edit-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Files API
+  slug: open-ubc-files-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Harvest API
+  slug: open-ubc-harvest-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Info API
+  slug: open-ubc-info-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Ingest API
+  slug: open-ubc-ingest-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Mail API
+  slug: open-ubc-mail-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Meta API
+  slug: open-ubc-meta-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Metadatablocks API
+  slug: open-ubc-metadatablocks-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Mydata API
+  slug: open-ubc-mydata-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Notifications API
+  slug: open-ubc-notifications-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Pids API
+  slug: open-ubc-pids-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Roles API
+  slug: open-ubc-roles-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Search API
+  slug: open-ubc-search-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Users API
+  slug: open-ubc-users-api
+- collection_type: open
+  name: UBC Abacus Dataverse Access Workflows API
+  slug: open-ubc-workflows-api
 common:
 - group: agent
   title: ''
@@ -215,7 +285,7 @@ plans:
 - name: Ubc Plans Pricing
   plan_count: 2
   slug: ubc-plans-pricing
-random_paper: 74
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Ubc Rate Limits
@@ -263,7 +333,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png
 security:

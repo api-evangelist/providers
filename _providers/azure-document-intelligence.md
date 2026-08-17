@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Operations API from Azure AI Document Intelligence — 2 operation(s) for operations.
   name: Azure AI Document Intelligence Operations API
   slug: azure-document-intelligence-operations-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Document Intelligence (formerly Form Recognizer) DocumentClassifiers API
+  slug: open-azure-document-intelligence-documentclassifiers-api
+- collection_type: open
+  name: Document Intelligence (formerly Form Recognizer) DocumentClassifiers DocumentClassifiers:authorizeCopy API
+  slug: open-azure-document-intelligence-documentclassifiers-authorizecopy-api
+- collection_type: open
+  name: Document Intelligence (formerly Form Recognizer) DocumentClassifiers DocumentClassifiers:build API
+  slug: open-azure-document-intelligence-documentclassifiers-build-api
+- collection_type: open
+  name: Document Intelligence (formerly Form Recognizer) DocumentClassifiers DocumentModels API
+  slug: open-azure-document-intelligence-documentmodels-api
+- collection_type: open
+  name: Document Intelligence (formerly Form Recognizer) DocumentClassifiers DocumentModels:authorizeCopy API
+  slug: open-azure-document-intelligence-documentmodels-authorizecopy-api
+- collection_type: open
+  name: Document Intelligence (formerly Form Recognizer) DocumentClassifiers DocumentModels:build API
+  slug: open-azure-document-intelligence-documentmodels-build-api
+- collection_type: open
+  name: Document Intelligence (formerly Form Recognizer) DocumentClassifiers DocumentModels:compose API
+  slug: open-azure-document-intelligence-documentmodels-compose-api
+- collection_type: open
+  name: Document Intelligence (formerly Form Recognizer) DocumentClassifiers Info API
+  slug: open-azure-document-intelligence-info-api
+- collection_type: open
+  name: Document Intelligence (formerly Form Recognizer) DocumentClassifiers Operations API
+  slug: open-azure-document-intelligence-operations-api
 - collection_type: open
   name: Document Intelligence (formerly Form Recognizer)
   slug: open-azure-document-intelligence
@@ -148,7 +178,7 @@ plans:
 - name: Azure Document Intelligence Plans Pricing
   plan_count: 5
   slug: azure-document-intelligence-plans-pricing
-random_paper: 11
+random_paper: 89
 rate_limits:
 - limit_count: 4
   name: Azure Document Intelligence Rate Limits
@@ -178,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/screenshots/azure-document-intelligence-2026-06-20T172854.png
 security:

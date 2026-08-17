@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Motadata is an AIOps platform for IT infrastructure monitoring, log management, network analytics, and service desk automation.
@@ -80,7 +80,7 @@ plans:
 - name: Motadata Plans Pricing
   plan_count: 3
   slug: motadata-plans-pricing
-random_paper: 3
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Motadata Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motadata/refs/heads/main/screenshots/motadata-2026-06-20T185837.png
 security:

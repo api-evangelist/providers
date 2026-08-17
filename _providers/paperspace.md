@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -114,7 +114,7 @@ apis:
 - description: The Team Secrets API from Paperspace — 2 operation(s) for team secrets.
   name: Paperspace Team Secrets API
   slug: paperspace-team-secrets-api
-artifact_total: 89
+artifact_total: 109
 collections:
 - collection_type: postman
   name: Paperspace Container Registries Activity API
@@ -192,32 +192,92 @@ collections:
   name: Paperspace Container Registries Activity Team Secrets API
   slug: postman-paperspace-team-secrets-api
 - collection_type: open
-  name: Paperspace Container Registries API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paperspace Container Registries Activity API
+  slug: open-paperspace-activity-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Authentication API
+  slug: open-paperspace-authentication-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Collaborators API
+  slug: open-paperspace-collaborators-api
+- collection_type: open
+  name: Paperspace Activity Container Registries API
   slug: open-paperspace-container-registries-api
 - collection_type: open
-  name: Paperspace Datasets API
+  name: Paperspace Container Registries Activity Custom Templates API
+  slug: open-paperspace-custom-templates-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Dataset Versions API
+  slug: open-paperspace-dataset-versions-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Datasets API
   slug: open-paperspace-datasets-api
 - collection_type: open
-  name: Paperspace Deployments API
+  name: Paperspace Container Registries Activity Deployments API
   slug: open-paperspace-deployments-api
 - collection_type: open
-  name: Paperspace Machines API
+  name: Paperspace Container Registries Activity Machine Access API
+  slug: open-paperspace-machine-access-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Machine Events API
+  slug: open-paperspace-machine-events-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Machine Types API
+  slug: open-paperspace-machine-types-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Machines API
   slug: open-paperspace-machines-api
 - collection_type: open
-  name: Paperspace Models API
+  name: Paperspace Container Registries Activity Models API
   slug: open-paperspace-models-api
 - collection_type: open
   name: Paperspace Networking API
   slug: open-paperspace-networking-api
 - collection_type: open
-  name: Paperspace Projects API
+  name: Paperspace Container Registries Activity OS Templates API
+  slug: open-paperspace-os-templates-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Private Networks API
+  slug: open-paperspace-private-networks-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Projects API
   slug: open-paperspace-projects-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Public IPs API
+  slug: open-paperspace-public-ips-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Secrets API
+  slug: open-paperspace-secrets-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Shared Drives API
+  slug: open-paperspace-shared-drives-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Snapshots API
+  slug: open-paperspace-snapshots-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Startup Scripts API
+  slug: open-paperspace-startup-scripts-api
 - collection_type: open
   name: Paperspace Storage API
   slug: open-paperspace-storage-api
 - collection_type: open
+  name: Paperspace Container Registries Activity Storage Providers API
+  slug: open-paperspace-storage-providers-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Tags API
+  slug: open-paperspace-tags-api
+- collection_type: open
   name: Paperspace Team and Authentication API
   slug: open-paperspace-team-auth-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Team Members API
+  slug: open-paperspace-team-members-api
+- collection_type: open
+  name: Paperspace Container Registries Activity Team Secrets API
+  slug: open-paperspace-team-secrets-api
 - collection_type: open
   name: Paperspace Templates and Startup Scripts API
   slug: open-paperspace-templates-api
@@ -459,7 +519,7 @@ plans:
 - name: Paperspace Plans Pricing
   plan_count: 6
   slug: paperspace-plans-pricing
-random_paper: 100
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Paperspace Rate Limits
@@ -501,7 +561,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png
 security:

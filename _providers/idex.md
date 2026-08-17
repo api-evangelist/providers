@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: IDEX Corp (NYSE:IEX) Reports In-Line Q4 Earnings ...
   url: https://www.chartmill.com/news/IEX/Chartmill-41103-IDEX-Corp-NYSEIEX-Reports-In-Line-Q4-Earnings-Highlights-AI-Driven-Order-Growth-Amid-Mixed-Segment-Demand
-random_paper: 66
+random_paper: 128
 score:
   band: minimal
   composite: 6.3
@@ -111,7 +111,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idex/refs/heads/main/screenshots/idex-2026-06-20T183208.png
 security:

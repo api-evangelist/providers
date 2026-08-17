@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,8 +52,26 @@ apis:
 - description: Valid value enumerations used by the search engine.
   name: YGOPRODeck Reference Data API
   slug: yu-gi-oh-reference-data-api
-artifact_total: 56
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: YGOPRODeck Yu-Gi-Oh! Card Database Archetypes API
+  slug: open-yu-gi-oh-archetypes-api
+- collection_type: open
+  name: YGOPRODeck Yu-Gi-Oh! Card Database Archetypes Card Sets API
+  slug: open-yu-gi-oh-card-sets-api
+- collection_type: open
+  name: YGOPRODeck Yu-Gi-Oh! Card Database Archetypes Cards API
+  slug: open-yu-gi-oh-cards-api
+- collection_type: open
+  name: YGOPRODeck Yu-Gi-Oh! Card Archetypes Database API
+  slug: open-yu-gi-oh-database-api
+- collection_type: open
+  name: YGOPRODeck Yu-Gi-Oh! Card Database Archetypes Reference Data API
+  slug: open-yu-gi-oh-reference-data-api
 - collection_type: open
   name: YGOPRODeck Yu-Gi-Oh! Card Database API
   slug: open-yu-gi-oh-ygoprodeck
@@ -284,7 +302,7 @@ overview: 'YGOPRODeck publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   YGOPRODeck''s developer surface includes documentation, pricing, tooling, and 14 more developer resources.'
-random_paper: 31
+random_paper: 6
 rules:
 - name: YGOPRODeck API Rules
   rule_count: 5
@@ -328,7 +346,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/screenshots/yu-gi-oh-2026-06-20T201751.png
 security:

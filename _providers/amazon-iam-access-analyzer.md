@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The Tags API from Amazon IAM Access Analyzer — 2 operation(s) for tags.
   name: Amazon IAM Access Analyzer Tags API
   slug: amazon-iam-access-analyzer-tags-api
-artifact_total: 482
+artifact_total: 491
 collections:
 - collection_type: postman
   name: Access Analyzer Access Preview#analyzerArn API
@@ -101,6 +101,33 @@ collections:
 - collection_type: postman
   name: Access Analyzer Access Preview#analyzerArn Tags API
   slug: postman-amazon-iam-access-analyzer-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Access Analyzer Access Preview#analyzerArn Analyzed Resource#analyzerArn&resourceArn API
+  slug: open-amazon-iam-access-analyzer-analyzed-resource-analyzerarn-resourcearn-api
+- collection_type: open
+  name: Access Analyzer Access Preview#analyzerArn Analyzed Resource API
+  slug: open-amazon-iam-access-analyzer-analyzed-resource-api
+- collection_type: open
+  name: Access Access Preview#analyzerArn Analyzer API
+  slug: open-amazon-iam-access-analyzer-analyzer-api
+- collection_type: open
+  name: Access Analyzer Access Preview#analyzerArn Archive Rule API
+  slug: open-amazon-iam-access-analyzer-archive-rule-api
+- collection_type: open
+  name: Access Analyzer Access Preview#analyzerArn Finding API
+  slug: open-amazon-iam-access-analyzer-finding-api
+- collection_type: open
+  name: Access Analyzer Access Preview#analyzerArn Policy API
+  slug: open-amazon-iam-access-analyzer-policy-api
+- collection_type: open
+  name: Access Analyzer Access Preview#analyzerArn Resource API
+  slug: open-amazon-iam-access-analyzer-resource-api
+- collection_type: open
+  name: Access Analyzer Access Preview#analyzerArn Tags API
+  slug: open-amazon-iam-access-analyzer-tags-api
 common:
 - group: build
   title: ''
@@ -1553,7 +1580,7 @@ plans:
 - name: Amazon Iam Access Analyzer Plans Pricing
   plan_count: 3
   slug: amazon-iam-access-analyzer-plans-pricing
-random_paper: 68
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Access Analyzer Rate Limits
@@ -1601,7 +1628,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/screenshots/amazon-iam-access-analyzer-2026-06-20T171702.png
 security:

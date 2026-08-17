@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: University of Melbourne open spatial-data portal hosted on ArcGIS Hub for exploring and downloading campus GIS layers including building, road and tree-canopy footprints. Datasets are served through t
@@ -111,7 +111,7 @@ plans:
 - name: University Of Melbourne Plans Pricing
   plan_count: 2
   slug: university-of-melbourne-plans-pricing
-random_paper: 114
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: University Of Melbourne Rate Limits
@@ -135,7 +135,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/screenshots/university-of-melbourne-2026-06-20T200206.png
 security:

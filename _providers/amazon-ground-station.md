@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: The Tags API from Amazon Ground Station — 2 operation(s) for tags.
   name: Amazon Ground Station Tags API
   slug: amazon-ground-station-tags-api
-artifact_total: 565
+artifact_total: 578
 collections:
 - collection_type: postman
   name: AWS Ground Station Agent API
@@ -113,6 +113,45 @@ collections:
 - collection_type: postman
   name: AWS Ground Station Agent Tags API
   slug: postman-amazon-ground-station-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Ground Station Agent API
+  slug: open-amazon-ground-station-agent-api
+- collection_type: open
+  name: AWS Ground Station Agent Config API
+  slug: open-amazon-ground-station-config-api
+- collection_type: open
+  name: AWS Ground Station Agent Contact API
+  slug: open-amazon-ground-station-contact-api
+- collection_type: open
+  name: AWS Ground Station Agent Contacts API
+  slug: open-amazon-ground-station-contacts-api
+- collection_type: open
+  name: AWS Ground Station Agent DataflowEndpointGroup API
+  slug: open-amazon-ground-station-dataflowendpointgroup-api
+- collection_type: open
+  name: AWS Ground Station Agent Ephemerides API
+  slug: open-amazon-ground-station-ephemerides-api
+- collection_type: open
+  name: AWS Ground Station Agent Ephemeris API
+  slug: open-amazon-ground-station-ephemeris-api
+- collection_type: open
+  name: AWS Ground Station Agent Groundstation API
+  slug: open-amazon-ground-station-groundstation-api
+- collection_type: open
+  name: AWS Ground Station Agent Minute Usage API
+  slug: open-amazon-ground-station-minute-usage-api
+- collection_type: open
+  name: AWS Ground Station Agent Missionprofile API
+  slug: open-amazon-ground-station-missionprofile-api
+- collection_type: open
+  name: AWS Ground Station Agent Satellite API
+  slug: open-amazon-ground-station-satellite-api
+- collection_type: open
+  name: AWS Ground Station Agent Tags API
+  slug: open-amazon-ground-station-tags-api
 common:
 - group: build
   title: ''
@@ -1791,7 +1830,7 @@ plans:
 - name: Amazon Ground Station Plans Pricing
   plan_count: 3
   slug: amazon-ground-station-plans-pricing
-random_paper: 1
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Amazon Ground Station Rate Limits
@@ -1833,7 +1872,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/screenshots/amazon-ground-station-2026-06-20T171659.png
 security:

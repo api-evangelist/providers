@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -39,10 +39,6 @@ common:
   title: ''
   type: Contact
   url: https://calendly.com/jordan-chung/krunch-demo
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/krunch-well-known.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -51,16 +47,36 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/krunch-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Krunch ships software only as client engagements - its entire public surface is one Next.js marketing page whose only link is a Calendly booking URL, and every docs, developer, pricing and contract path on it returns 404 with no api., docs. or developer.krunchdata.io host in DNS to try instead.
+  evidence:
+  - status: 200
+    url: https://www.krunchdata.io/
+  - status: 404
+    url: https://www.krunchdata.io/developers
+  - status: 404
+    url: https://www.krunchdata.io/openapi.json
+  - status: 404
+    url: https://www.krunchdata.io/.well-known/agent-card.json
+  - status: 404
+    url: https://www.krunchdata.io/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Krunch is an on-demand product studio that delivers product management, engineering, and marketing as a service, using AI and code to compress the build cycle for its clients. The team was accepted into the 500 Startup Accelerator program in Silicon Valley and markets prior engagements with Alibaba, Google, Camunda, New Relic, Polkadot, and Bowtie. Krunch operates as a services agency rather than an API provider - as of this enrichment pass it publishes a single-page marketing site with a Calendly booking link and no public developer portal, documentation, API reference, SDKs, or machine-readable API artifacts of any kind.
 image: https://www.krunchdata.io/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Krunch
 nav: Providers
 network: true
 overview: Krunch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consulting, Services, Product Management, and Engineering.
-random_paper: 51
+plans:
+- name: Krunch Plans Pricing
+  plan_count: 0
+  slug: krunch-plans-pricing
+random_paper: 55
 score:
   band: minimal
   composite: 5.7
@@ -74,7 +90,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krunch/refs/heads/main/screenshots/krunch-2026-08-07T171340.png
 security:

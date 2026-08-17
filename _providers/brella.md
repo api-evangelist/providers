@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: The Sponsors API from Brella — 1 operation(s) for sponsors.
   name: Brella Sponsors API
   slug: brella-sponsors-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brella Integration Attendees API
+  slug: open-brella-attendees-api
+- collection_type: open
+  name: Brella Integration Attendees Events API
+  slug: open-brella-events-api
+- collection_type: open
+  name: Brella Integration Attendees Invites API
+  slug: open-brella-invites-api
+- collection_type: open
+  name: Brella Integration Attendees Schedule API
+  slug: open-brella-schedule-api
+- collection_type: open
+  name: Brella Integration Attendees Speakers API
+  slug: open-brella-speakers-api
+- collection_type: open
+  name: Brella Integration Attendees Sponsors API
+  slug: open-brella-sponsors-api
 - collection_type: open
   name: Brella Integration API
   slug: open-brella
@@ -130,7 +151,7 @@ plans:
 - name: Brella Plans Pricing
   plan_count: 1
   slug: brella-plans-pricing
-random_paper: 26
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Brella Rate Limits
@@ -155,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/screenshots/brella-2026-07-25T203750.png
 security:

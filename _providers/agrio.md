@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Diagnosis results and disease identification data.
   name: agrio Diagnosis API
   slug: agrio-diagnosis-api
-artifact_total: 48
+artifact_total: 54
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agrio Agriculture Balance API
+  slug: open-agrio-balance-api
+- collection_type: open
+  name: Agrio Agriculture Balance Credit API
+  slug: open-agrio-credit-api
+- collection_type: open
+  name: Agrio Agriculture Balance Crops API
+  slug: open-agrio-crops-api
+- collection_type: open
+  name: Agrio Agriculture Balance Diagnose API
+  slug: open-agrio-diagnose-api
+- collection_type: open
+  name: Agrio Agriculture Balance Diagnosis API
+  slug: open-agrio-diagnosis-api
 common:
 - group: agent
   title: ''
@@ -207,7 +226,7 @@ plans:
 - name: Agrio Plans Pricing
   plan_count: 3
   slug: agrio-plans-pricing
-random_paper: 50
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Agrio Rate Limits
@@ -249,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/screenshots/agrio-2026-06-20T170436.png
 security:

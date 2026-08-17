@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The FastAPI API from Timeswap — 1 operation(s) for fastapi.
@@ -46,7 +46,26 @@ apis:
 - description: The Token API from Timeswap — 1 operation(s) for token.
   name: Timeswap Token API
   slug: timeswap-token-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast FastAPI API
+  slug: open-timeswap-fastapi-api
+- collection_type: open
+  name: Fast FastAPI Paulygon API
+  slug: open-timeswap-paulygon-api
+- collection_type: open
+  name: Fast FastAPI Pools API
+  slug: open-timeswap-pools-api
+- collection_type: open
+  name: Fast FastAPI TaskON API
+  slug: open-timeswap-taskon-api
+- collection_type: open
+  name: Fast FastAPI Token API
+  slug: open-timeswap-token-api
 common:
 - group: other
   title: ''
@@ -160,7 +179,7 @@ overview: 'Timeswap publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Timeswap''s developer surface includes documentation, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 34
+random_paper: 129
 score:
   band: thin
   composite: 32.8
@@ -183,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

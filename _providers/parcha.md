@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 66
 apis:
 - description: The Admin API from Parcha — 14 operation(s) for admin.
@@ -229,11 +229,213 @@ apis:
 - description: The UploadB64Document API from Parcha — 1 operation(s) for uploadb64document.
   name: Parcha UploadB64Document API
   slug: parcha-uploadb64document-api
-artifact_total: 71
+artifact_total: 138
 asyncapis:
 - description: ''
   name: Parcha Webhooks
   slug: parcha-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Parcha Admin API
+  slug: open-parcha-admin-api
+- collection_type: open
+  name: Parcha Admin admin-billing API
+  slug: open-parcha-admin-billing-api
+- collection_type: open
+  name: Parcha Admin Admin CSV Batch Management API
+  slug: open-parcha-admin-csv-batch-management-api
+- collection_type: open
+  name: Parcha Admin Admin - Profiler Testing API
+  slug: open-parcha-admin-profiler-testing-api
+- collection_type: open
+  name: Parcha Admin Admin - Scraper Testing API
+  slug: open-parcha-admin-scraper-testing-api
+- collection_type: open
+  name: Parcha Admin Agent API
+  slug: open-parcha-agent-api
+- collection_type: open
+  name: Parcha Admin Agent Schemas API
+  slug: open-parcha-agent-schemas-api
+- collection_type: open
+  name: Parcha Admin Billing API
+  slug: open-parcha-billing-api
+- collection_type: open
+  name: Parcha Admin Checks API
+  slug: open-parcha-checks-api
+- collection_type: open
+  name: Parcha Admin Cost Analytics API
+  slug: open-parcha-cost-analytics-api
+- collection_type: open
+  name: Parcha Admin Dashboard API
+  slug: open-parcha-dashboard-api
+- collection_type: open
+  name: Parcha Admin Document Management API
+  slug: open-parcha-document-management-api
+- collection_type: open
+  name: Parcha Admin document-requests API
+  slug: open-parcha-document-requests-api
+- collection_type: open
+  name: Parcha Admin Dojo API
+  slug: open-parcha-dojo-api
+- collection_type: open
+  name: Parcha Admin DownloadReport API
+  slug: open-parcha-downloadreport-api
+- collection_type: open
+  name: Parcha Admin EnqueueFromCSV API
+  slug: open-parcha-enqueuefromcsv-api
+- collection_type: open
+  name: Parcha Admin EnqueueFromSource API
+  slug: open-parcha-enqueuefromsource-api
+- collection_type: open
+  name: Parcha Admin EnqueueKybSchemas API
+  slug: open-parcha-enqueuekybschemas-api
+- collection_type: open
+  name: Parcha Admin EnrichCompany API
+  slug: open-parcha-enrichcompany-api
+- collection_type: open
+  name: Parcha Admin EnrichPerson API
+  slug: open-parcha-enrichperson-api
+- collection_type: open
+  name: Parcha Admin ExportCSVBatch API
+  slug: open-parcha-exportcsvbatch-api
+- collection_type: open
+  name: Parcha Admin Form API
+  slug: open-parcha-form-api
+- collection_type: open
+  name: Parcha Admin GenerateBulkCaseReports API
+  slug: open-parcha-generatebulkcasereports-api
+- collection_type: open
+  name: Parcha Admin GenerateReportToGDrive API
+  slug: open-parcha-generatereporttogdrive-api
+- collection_type: open
+  name: Parcha Admin GetAgentConfigCostEstimate API
+  slug: open-parcha-getagentconfigcostestimate-api
+- collection_type: open
+  name: Parcha Admin GetAgentConfigSchemas API
+  slug: open-parcha-getagentconfigschemas-api
+- collection_type: open
+  name: Parcha Admin GetAgentCostEstimate API
+  slug: open-parcha-getagentcostestimate-api
+- collection_type: open
+  name: Parcha Admin GetAgentJobByCaseId API
+  slug: open-parcha-getagentjobbycaseid-api
+- collection_type: open
+  name: Parcha Admin GetAllSources API
+  slug: open-parcha-getallsources-api
+- collection_type: open
+  name: Parcha Admin GetAvailableChecks API
+  slug: open-parcha-getavailablechecks-api
+- collection_type: open
+  name: Parcha Admin GetBatchJobs API
+  slug: open-parcha-getbatchjobs-api
+- collection_type: open
+  name: Parcha Admin GetCaseDataForJob API
+  slug: open-parcha-getcasedataforjob-api
+- collection_type: open
+  name: Parcha Admin GetCheckInfo API
+  slug: open-parcha-getcheckinfo-api
+- collection_type: open
+  name: Parcha Admin GetCheckResultFromJob API
+  slug: open-parcha-getcheckresultfromjob-api
+- collection_type: open
+  name: Parcha Admin GetCheckResults API
+  slug: open-parcha-getcheckresults-api
+- collection_type: open
+  name: Parcha Admin GetChecksOverviewData API
+  slug: open-parcha-getchecksoverviewdata-api
+- collection_type: open
+  name: Parcha Admin GetDocument API
+  slug: open-parcha-getdocument-api
+- collection_type: open
+  name: Parcha Admin GetFeedbackInputsByKey API
+  slug: open-parcha-getfeedbackinputsbykey-api
+- collection_type: open
+  name: Parcha Admin GetJobBatches API
+  slug: open-parcha-getjobbatches-api
+- collection_type: open
+  name: Parcha Admin GetJobById API
+  slug: open-parcha-getjobbyid-api
+- collection_type: open
+  name: Parcha Admin GetJobMetadata API
+  slug: open-parcha-getjobmetadata-api
+- collection_type: open
+  name: Parcha Admin GetJobMetadataByCaseId API
+  slug: open-parcha-getjobmetadatabycaseid-api
+- collection_type: open
+  name: Parcha Admin GetJobMetadataByJobId API
+  slug: open-parcha-getjobmetadatabyjobid-api
+- collection_type: open
+  name: Parcha Admin GetJobsByCaseId API
+  slug: open-parcha-getjobsbycaseid-api
+- collection_type: open
+  name: Parcha Admin GetJobStatusSummary API
+  slug: open-parcha-getjobstatussummary-api
+- collection_type: open
+  name: Parcha Admin GetKybSchemasFromSource API
+  slug: open-parcha-getkybschemasfromsource-api
+- collection_type: open
+  name: Parcha Admin GetLatestApplicationState API
+  slug: open-parcha-getlatestapplicationstate-api
+- collection_type: open
+  name: Parcha Admin GetSourceContents API
+  slug: open-parcha-getsourcecontents-api
+- collection_type: open
+  name: Parcha Admin GetThinking API
+  slug: open-parcha-getthinking-api
+- collection_type: open
+  name: Parcha Admin Image Proxy API
+  slug: open-parcha-image-proxy-api
+- collection_type: open
+  name: Parcha Admin MapCsvColumns API
+  slug: open-parcha-mapcsvcolumns-api
+- collection_type: open
+  name: Parcha Admin RunCheck API
+  slug: open-parcha-runcheck-api
+- collection_type: open
+  name: Parcha Admin RunFlashCheck API
+  slug: open-parcha-runflashcheck-api
+- collection_type: open
+  name: Parcha Admin schemas API
+  slug: open-parcha-schemas-api
+- collection_type: open
+  name: Parcha Admin SendFeedback API
+  slug: open-parcha-sendfeedback-api
+- collection_type: open
+  name: Parcha Admin SpecializedScraper API
+  slug: open-parcha-specializedscraper-api
+- collection_type: open
+  name: Parcha Admin StartKYBAgentJob API
+  slug: open-parcha-startkybagentjob-api
+- collection_type: open
+  name: Parcha Admin StartKYCAgentJob API
+  slug: open-parcha-startkycagentjob-api
+- collection_type: open
+  name: Parcha Admin StartPersonaKYBJob API
+  slug: open-parcha-startpersonakybjob-api
+- collection_type: open
+  name: Parcha Admin StartPersonaKYCJob API
+  slug: open-parcha-startpersonakycjob-api
+- collection_type: open
+  name: Parcha Admin StartPublicJob API
+  slug: open-parcha-startpublicjob-api
+- collection_type: open
+  name: Parcha Admin TestWebhook API
+  slug: open-parcha-testwebhook-api
+- collection_type: open
+  name: Parcha Admin TestWebhookReceiver API
+  slug: open-parcha-testwebhookreceiver-api
+- collection_type: open
+  name: Parcha Admin TriggerWebhook API
+  slug: open-parcha-triggerwebhook-api
+- collection_type: open
+  name: Parcha Admin UpdateApplicationStatus API
+  slug: open-parcha-updateapplicationstatus-api
+- collection_type: open
+  name: Parcha Admin UploadB64Document API
+  slug: open-parcha-uploadb64document-api
 common:
 - group: other
   title: ''
@@ -374,7 +576,7 @@ overview: 'Parcha publishes 66 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Parcha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 23
+random_paper: 27
 score:
   band: developing
   composite: 54.5
@@ -397,7 +599,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/screenshots/parcha-2026-08-07T191435.png
 security:

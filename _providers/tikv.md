@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,11 +62,29 @@ apis:
 - description: Node status and health
   name: TiKV Status API
   slug: tikv-status-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TiKV HTTP Management Configuration API
+  slug: open-tikv-configuration-api
+- collection_type: open
+  name: TiKV HTTP Management Configuration Debug API
+  slug: open-tikv-debug-api
 - collection_type: open
   name: TiKV HTTP Management API
   slug: open-tikv-http-api
+- collection_type: open
+  name: TiKV HTTP Management Configuration Metrics API
+  slug: open-tikv-metrics-api
+- collection_type: open
+  name: TiKV HTTP Management Configuration Regions API
+  slug: open-tikv-regions-api
+- collection_type: open
+  name: TiKV HTTP Management Configuration Status API
+  slug: open-tikv-status-api
 common:
 - group: agent
   title: ''
@@ -191,7 +209,7 @@ plans:
 - name: Tikv Plans Pricing
   plan_count: 1
   slug: tikv-plans-pricing
-random_paper: 86
+random_paper: 148
 rate_limits:
 - limit_count: 1
   name: Tikv Rate Limits
@@ -233,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/screenshots/tikv-2026-06-20T195351.png
 security:

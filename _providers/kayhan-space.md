@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -105,7 +105,71 @@ arazzos:
 - description: Upload an operator ephemeris to Satcat, make it operational, run a conjunction screening, and pull the resulting CDMs and plot.
   name: Screen an ephemeris and review conjunctions
   slug: kayhan-space-screen-ephemeris
-artifact_total: 27
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Satcat Service Authentication API
+  slug: open-kayhan-space-authentication-api
+- collection_type: open
+  name: Satcat Service Authentication Catalog API
+  slug: open-kayhan-space-catalog-api
+- collection_type: open
+  name: Satcat Service Authentication Conjunction API
+  slug: open-kayhan-space-conjunction-api
+- collection_type: open
+  name: Satcat Service Authentication Ephemeris API
+  slug: open-kayhan-space-ephemeris-api
+- collection_type: open
+  name: Satcat Service Authentication Events API
+  slug: open-kayhan-space-events-api
+- collection_type: open
+  name: Satcat Service Authentication Health API
+  slug: open-kayhan-space-health-api
+- collection_type: open
+  name: Satcat Service Authentication Launch Screening API
+  slug: open-kayhan-space-launch-screening-api
+- collection_type: open
+  name: Satcat Service Authentication LEOP API
+  slug: open-kayhan-space-leop-api
+- collection_type: open
+  name: Satcat Service Authentication Maneuver Designer API
+  slug: open-kayhan-space-maneuver-designer-api
+- collection_type: open
+  name: Satcat Service Authentication Metrics API
+  slug: open-kayhan-space-metrics-api
+- collection_type: open
+  name: Satcat Service Authentication Mission Planning API
+  slug: open-kayhan-space-mission-planning-api
+- collection_type: open
+  name: Satcat Service Authentication Mitigation API
+  slug: open-kayhan-space-mitigation-api
+- collection_type: open
+  name: Satcat Service Authentication NLP API
+  slug: open-kayhan-space-nlp-api
+- collection_type: open
+  name: Satcat Service Authentication Orbital Determination API
+  slug: open-kayhan-space-orbital-determination-api
+- collection_type: open
+  name: Satcat Service Authentication Plot API
+  slug: open-kayhan-space-plot-api
+- collection_type: open
+  name: Satcat Service Authentication Propagation API
+  slug: open-kayhan-space-propagation-api
+- collection_type: open
+  name: Satcat Service Authentication Satcat Service API API
+  slug: open-kayhan-space-satcat-service-api-api
+- collection_type: open
+  name: Satcat Service Authentication Screening API
+  slug: open-kayhan-space-screening-api
+- collection_type: open
+  name: Satcat Service Authentication State Vector API
+  slug: open-kayhan-space-state-vector-api
+- collection_type: open
+  name: Satcat Service Authentication Two Line Elements (TLEs) API
+  slug: open-kayhan-space-two-line-elements-tles-api
 common:
 - group: start
   title: ''
@@ -239,7 +303,7 @@ overview: 'Kayhan Space publishes 20 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kayhan Space''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 5
+random_paper: 13
 scopes:
 - name: Kayhan Space Scopes
   scope_count: 1
@@ -268,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/screenshots/kayhan-space-2026-07-25T223529.png
 security:

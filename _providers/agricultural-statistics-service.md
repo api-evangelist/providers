@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Agricultural statistics data retrieval and filtering
   name: Agricultural Statistics Service Statistics API
   slug: agricultural-statistics-service-statistics-api
-artifact_total: 47
+artifact_total: 50
 collections:
 - collection_type: postman
   name: USDA NASS QuickStats Parameters API
@@ -62,6 +62,15 @@ collections:
 - collection_type: postman
   name: USDA NASS QuickStats Parameters Statistics API
   slug: postman-agricultural-statistics-service-statistics-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USDA NASS QuickStats Parameters API
+  slug: open-agricultural-statistics-service-parameters-api
+- collection_type: open
+  name: USDA NASS QuickStats Parameters Statistics API
+  slug: open-agricultural-statistics-service-statistics-api
 common:
 - group: build
   title: ''
@@ -209,7 +218,7 @@ plans:
 - name: Agricultural Statistics Service Plans Pricing
   plan_count: 3
   slug: agricultural-statistics-service-plans-pricing
-random_paper: 117
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Agricultural Statistics Service Rate Limits
@@ -257,7 +266,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/screenshots/agricultural-statistics-service-2026-06-20T170425.png
 security:

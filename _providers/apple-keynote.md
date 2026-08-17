@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,7 +59,23 @@ apis:
 - description: Presentation themes and templates
   name: Apple Keynote Themes API
   slug: apple-keynote-themes-api
-artifact_total: 43
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apple Keynote iCloud Export API
+  slug: open-apple-keynote-export-api
+- collection_type: open
+  name: Apple Keynote iCloud Export Presentations API
+  slug: open-apple-keynote-presentations-api
+- collection_type: open
+  name: Apple Keynote iCloud Export Slides API
+  slug: open-apple-keynote-slides-api
+- collection_type: open
+  name: Apple Keynote iCloud Export Themes API
+  slug: open-apple-keynote-themes-api
 common:
 - group: agent
   title: ''
@@ -199,7 +215,7 @@ plans:
 - name: Apple Keynote Plans Pricing
   plan_count: 7
   slug: apple-keynote-plans-pricing
-random_paper: 22
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Apple Keynote Rate Limits
@@ -241,7 +257,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/screenshots/apple-keynote-2026-06-20T172318.png
 security:

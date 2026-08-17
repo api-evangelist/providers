@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-12'
+  score: 68.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +58,29 @@ apis:
 - description: Google Shopping product results.
   name: ValueSERP Shopping API
   slug: valueserp-shopping-api
-artifact_total: 20
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ValueSERP Search Images API
+  slug: open-valueserp-images-api
+- collection_type: open
+  name: ValueSERP Search Images News API
+  slug: open-valueserp-news-api
+- collection_type: open
+  name: ValueSERP Search Images Places API
+  slug: open-valueserp-places-api
+- collection_type: open
+  name: ValueSERP Search Images Product API
+  slug: open-valueserp-product-api
+- collection_type: open
+  name: ValueSERP Images Search API
+  slug: open-valueserp-search-api
+- collection_type: open
+  name: ValueSERP Search Images Shopping API
+  slug: open-valueserp-shopping-api
 common:
 - group: agent
   title: ''
@@ -79,10 +102,6 @@ common:
   title: ''
   type: Documentation
   url: https://docs.trajectdata.com/valueserp
-- group: build
-  title: ''
-  type: GitHubOrg
-  url: https://github.com/joejoinerr/python-valueserp
 - group: company
   title: ''
   type: LinkedIn
@@ -123,6 +142,102 @@ common:
   title: ''
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/json-ld/valueserp-context.jsonld
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/valueserp-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/valueserp-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/valueserp-mcp.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/valueserp-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/valueserp-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/valueserp-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/valueserp-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/valueserp-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/valueserp-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/valueserp-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: webhooks/valueserp-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/valueserp-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/valueserp-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.trajectdata.com/valueserp/search-api/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.trajectdata.com/valueserp/HX_zC2K66qg5OEkKe7g5p
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.trajectdata.com/valueserp/product-updates
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.valueserp.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.valueserp.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://trajectdata.com/contact-us/
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://trajectdata.com/faqs/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://trajectdata.com/traject-data-terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://trajectdata.com/privacy-policy/
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://trajectdata.com/case-studies
 created: 2026-06-13
 description: ValueSERP is a real-time Google Search API providing SERP results, image search, news search, shopping results, places, and local pack data via a simple REST interface with JSON output. Operated by Traject Data, it offers low-cost, high-reliability SERP data with no queues, batch processing capabilities, and pay-as-you-go or subscription pricing starting at $50/month for 25,000 searches.
 examples:
@@ -156,7 +271,11 @@ jsonld:
   property_count: 120
   slug: valueserp-context
 layout: provider
-modified: 2026-06-13
+mcp_servers:
+- description: ''
+  name: valueserp-mcp.yml
+  slug: valueserp-mcpyml
+modified: 2026-08-13
 name: ValueSERP
 nav: Providers
 network: true
@@ -166,12 +285,12 @@ overview: 'ValueSERP publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The ValueSERP catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ValueSERP''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  ValueSERP''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, API reference, and 32 more developer resources.'
 plans:
 - name: Valueserp Plans Pricing
   plan_count: 12
   slug: valueserp-plans-pricing
-random_paper: 23
+random_paper: 89
 rate_limits:
 - limit_count: 11
   name: Valueserp Rate Limits
@@ -186,16 +305,16 @@ rules:
     warn: 4
   slug: valueserp-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.0
+  band: exemplar
+  composite: 79.4
+  delta: 23.7
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 84.2
     contract_quality: 75.4
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    developer_ergonomics: 65.2
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 81.6
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -205,8 +324,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/screenshots/valueserp-2026-06-20T200802.png
 security:
 - kind: authentication
@@ -217,6 +336,10 @@ security:
   name: Valueserp Domain Security
   slug: valueserp-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Valueserp Vulnerability Disclosure
+  slug: valueserp-vulnerability-disclosure
+  summary_line: Hackerone
 slug: valueserp
 tags:
 - SERP

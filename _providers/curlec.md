@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ apis:
 - description: Fetch RazorpayX transaction records — credits (bank_transfer inflows) and debits (payout outflows)
   name: Curlec X Transactions API
   slug: curlec-x-transactions-api
-artifact_total: 66
+artifact_total: 97
 asyncapis:
 - description: ''
   name: Curlec Webhooks
@@ -224,6 +224,99 @@ collections:
 - collection_type: postman
   name: Razorpay Bills X Transactions API
   slug: postman-curlec-x-transactions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Razorpay Bills API
+  slug: open-curlec-bills-api
+- collection_type: open
+  name: Razorpay Bills Customers API
+  slug: open-curlec-customers-api
+- collection_type: open
+  name: Razorpay Bills Disputes API
+  slug: open-curlec-disputes-api
+- collection_type: open
+  name: Razorpay Bills Documents API
+  slug: open-curlec-documents-api
+- collection_type: open
+  name: Razorpay Bills Instant Settlements API
+  slug: open-curlec-instant-settlements-api
+- collection_type: open
+  name: Razorpay Bills Invoices API
+  slug: open-curlec-invoices-api
+- collection_type: open
+  name: Razorpay Bills Items API
+  slug: open-curlec-items-api
+- collection_type: open
+  name: Razorpay Bills Linked Accounts API
+  slug: open-curlec-linked-accounts-api
+- collection_type: open
+  name: Razorpay Bills Orders API
+  slug: open-curlec-orders-api
+- collection_type: open
+  name: Razorpay Bills Partner Accounts API
+  slug: open-curlec-partner-accounts-api
+- collection_type: open
+  name: Razorpay Bills Partner Documents API
+  slug: open-curlec-partner-documents-api
+- collection_type: open
+  name: Razorpay Bills Partner Stakeholders API
+  slug: open-curlec-partner-stakeholders-api
+- collection_type: open
+  name: Razorpay Bills Partner Webhooks API
+  slug: open-curlec-partner-webhooks-api
+- collection_type: open
+  name: Razorpay Bills Payment Downtimes API
+  slug: open-curlec-payment-downtimes-api
+- collection_type: open
+  name: Razorpay Bills Payment Links API
+  slug: open-curlec-payment-links-api
+- collection_type: open
+  name: Razorpay Bills Payments API
+  slug: open-curlec-payments-api
+- collection_type: open
+  name: Razorpay Bills Plans API
+  slug: open-curlec-plans-api
+- collection_type: open
+  name: Razorpay Bills QR Codes API
+  slug: open-curlec-qr-codes-api
+- collection_type: open
+  name: Razorpay Bills Refunds API
+  slug: open-curlec-refunds-api
+- collection_type: open
+  name: Razorpay Bills Settlements API
+  slug: open-curlec-settlements-api
+- collection_type: open
+  name: Razorpay Bills Subscriptions API
+  slug: open-curlec-subscriptions-api
+- collection_type: open
+  name: Razorpay Bills Transfers API
+  slug: open-curlec-transfers-api
+- collection_type: open
+  name: Razorpay Bills Virtual Accounts API
+  slug: open-curlec-virtual-accounts-api
+- collection_type: open
+  name: Razorpay Bills X Account Validation API
+  slug: open-curlec-x-account-validation-api
+- collection_type: open
+  name: Razorpay Bills X Banking Balances API
+  slug: open-curlec-x-banking-balances-api
+- collection_type: open
+  name: Razorpay Bills X Contacts API
+  slug: open-curlec-x-contacts-api
+- collection_type: open
+  name: Razorpay Bills X Fund Accounts API
+  slug: open-curlec-x-fund-accounts-api
+- collection_type: open
+  name: Razorpay Bills X Payout Links API
+  slug: open-curlec-x-payout-links-api
+- collection_type: open
+  name: Razorpay Bills X Payouts API
+  slug: open-curlec-x-payouts-api
+- collection_type: open
+  name: Razorpay Bills X Transactions API
+  slug: open-curlec-x-transactions-api
 common:
 - group: build
   title: ''
@@ -404,7 +497,7 @@ overview: 'Curlec publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 33 more developer resources.'
-random_paper: 38
+random_paper: 42
 scopes:
 - name: Curlec Scopes
   scope_count: 1
@@ -439,7 +532,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/screenshots/curlec-2026-07-25T210942.png
 security:

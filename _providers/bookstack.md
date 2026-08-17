@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The BookStack REST API provides programmatic access to manage the full content hierarchy of a BookStack instance including books, chapters, pages, shelves, attachments, image galleries, comments, role
@@ -108,7 +108,7 @@ plans:
 - name: Bookstack Plans Pricing
   plan_count: 1
   slug: bookstack-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Bookstack Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 22.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bookstack/refs/heads/main/screenshots/bookstack-2026-06-20T173603.png
 security:

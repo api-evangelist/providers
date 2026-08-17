@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ overview: 'LeafLink publishes 2 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LeafLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 118
+random_paper: 93
 rate_limits:
 - limit_count: 3
   name: Leaflink Rate Limits
@@ -227,7 +227,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/screenshots/leaflink-2026-08-07T171512.png
 security:

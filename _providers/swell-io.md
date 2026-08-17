@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -181,7 +181,7 @@ arazzos:
 - description: Read the session cart, then update the quantity of one of its line items.
   name: Swell Storefront Adjust Cart Item Quantity
   slug: swell-io-storefront-update-cart-item-workflow
-artifact_total: 125
+artifact_total: 157
 collections:
 - collection_type: postman
   name: Swell Backend API
@@ -190,11 +190,107 @@ collections:
   name: Swell Frontend API
   slug: postman-swell-frontend-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Swell Backend API
   slug: open-swell-backend-api
 - collection_type: open
   name: Swell Frontend API
   slug: open-swell-frontend-api
+- collection_type: open
+  name: Swell Backend Account Addresses API
+  slug: open-swell-io-account-addresses-api
+- collection_type: open
+  name: Swell Backend Addresses Account API
+  slug: open-swell-io-account-api
+- collection_type: open
+  name: Swell Backend Account Addresses Account Cards API
+  slug: open-swell-io-account-cards-api
+- collection_type: open
+  name: Swell Backend Account Addresses Account Credits API
+  slug: open-swell-io-account-credits-api
+- collection_type: open
+  name: Swell Backend Account Addresses Account Session API
+  slug: open-swell-io-account-session-api
+- collection_type: open
+  name: Swell Backend Account Addresses Accounts API
+  slug: open-swell-io-accounts-api
+- collection_type: open
+  name: Swell Backend Account Addresses Attributes API
+  slug: open-swell-io-attributes-api
+- collection_type: open
+  name: Swell Backend Account Addresses Cart API
+  slug: open-swell-io-cart-api
+- collection_type: open
+  name: Swell Backend Account Addresses Carts API
+  slug: open-swell-io-carts-api
+- collection_type: open
+  name: Swell Backend Account Addresses Categories API
+  slug: open-swell-io-categories-api
+- collection_type: open
+  name: Swell Backend Account Addresses Checkout API
+  slug: open-swell-io-checkout-api
+- collection_type: open
+  name: Swell Backend Account Addresses Content API
+  slug: open-swell-io-content-api
+- collection_type: open
+  name: Swell Backend Account Addresses Coupons API
+  slug: open-swell-io-coupons-api
+- collection_type: open
+  name: Swell Backend Account Addresses Events API
+  slug: open-swell-io-events-api
+- collection_type: open
+  name: Swell Backend Account Addresses Files API
+  slug: open-swell-io-files-api
+- collection_type: open
+  name: Swell Backend Account Addresses Gift Cards API
+  slug: open-swell-io-gift-cards-api
+- collection_type: open
+  name: Swell Backend Account Addresses Invoices API
+  slug: open-swell-io-invoices-api
+- collection_type: open
+  name: Swell Backend Account Addresses Orders API
+  slug: open-swell-io-orders-api
+- collection_type: open
+  name: Swell Backend Account Addresses Payments API
+  slug: open-swell-io-payments-api
+- collection_type: open
+  name: Swell Backend Account Addresses Products API
+  slug: open-swell-io-products-api
+- collection_type: open
+  name: Swell Backend Account Addresses Promotions API
+  slug: open-swell-io-promotions-api
+- collection_type: open
+  name: Swell Backend Account Addresses Purchase Links API
+  slug: open-swell-io-purchase-links-api
+- collection_type: open
+  name: Swell Backend Account Addresses Refunds API
+  slug: open-swell-io-refunds-api
+- collection_type: open
+  name: Swell Backend Account Addresses Returns API
+  slug: open-swell-io-returns-api
+- collection_type: open
+  name: Swell Backend Account Addresses Shipments API
+  slug: open-swell-io-shipments-api
+- collection_type: open
+  name: Swell Backend Account Addresses Stock API
+  slug: open-swell-io-stock-api
+- collection_type: open
+  name: Swell Backend Account Addresses Store API
+  slug: open-swell-io-store-api
+- collection_type: open
+  name: Swell Backend Account Addresses Subscription Plans API
+  slug: open-swell-io-subscription-plans-api
+- collection_type: open
+  name: Swell Backend Account Addresses Subscriptions API
+  slug: open-swell-io-subscriptions-api
+- collection_type: open
+  name: Swell Backend Account Addresses Variants API
+  slug: open-swell-io-variants-api
+- collection_type: open
+  name: Swell Backend Account Addresses Webhooks API
+  slug: open-swell-io-webhooks-api
 common:
 - group: agent
   title: ''
@@ -600,7 +696,7 @@ plans:
 - name: Swell Io Plans Pricing
   plan_count: 5
   slug: swell-io-plans-pricing
-random_paper: 92
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Swell Io Rate Limits
@@ -648,7 +744,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png
 security:

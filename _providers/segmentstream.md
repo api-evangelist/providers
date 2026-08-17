@@ -12,29 +12,29 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-12'
+  score: 29.5
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing SegmentStream's marketing measurement, attribution, budget-optimization, and BigQuery query capabilities as agent-callable tools (read-only reporting by d
   name: SegmentStream MCP
   slug: segmentstream-mcp
-artifact_total: 5
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -132,6 +132,34 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/segmentstream-a2a.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/segmentstream-cli.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/segmentstream-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/segmentstream-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/segmentstream-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/segmentstream-error-codes.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/segmentstream-components.yml
 created: '2026-07-17'
 description: SegmentStream is a marketing measurement platform that gives AI agents an attribution, budget-optimization, and incrementality-testing "brain." It consolidates first-party and third-party marketing data in Google BigQuery and applies ML-powered, cross-channel attribution across 20+ ad platforms (Google Ads, Meta, TikTok, LinkedIn, Microsoft, Snapchat, Pinterest, Reddit, Criteo, and more), then recommends budget reallocation via marginal-ROAS analysis and validates impact with geo-holdout incrementality experiments. Every capability is exposed as a tool through a hosted Model Context Protocol (MCP) server, so Claude, ChatGPT, Cursor, and any MCP client can query attribution reports, manage configuration, and run BigQuery SQL over a workspace. Backed by Techstars.
 image: https://segmentstream.com/images/og-image.png
@@ -140,34 +168,42 @@ mcp_servers:
 - description: ''
   name: segmentstream-mcp.yml
   slug: segmentstream-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: SegmentStream
 nav: Providers
 network: true
 overview: 'SegmentStream publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing Analytics, Attribution, Marketing Measurement, and Advertising.
 
 
-  SegmentStream''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 87
+  SegmentStream''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, CLI, and 24 more developer resources.'
+plans:
+- name: Segmentstream Plans Pricing
+  plan_count: 3
+  slug: segmentstream-plans-pricing
+random_paper: 66
+rate_limits:
+- limit_count: 0
+  name: Segmentstream Rate Limits
+  slug: segmentstream-rate-limits
 score:
-  band: thin
-  composite: 36.7
-  delta: 0.0
+  band: developing
+  composite: 46.3
+  delta: 9.6
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 0.0
-    developer_ergonomics: 58.2
+    developer_ergonomics: 64.7
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 21.1
+    operational_transparency: 36.8
   previous_composite: 36.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Segmentstream Authentication
@@ -180,7 +216,7 @@ security:
 - kind: trust-center
   name: Segmentstream Trust Center
   slug: segmentstream-trust-center
-  summary_line: SOC 2 (aligned with principles, monitored via Drata; not a stated attestation), GDPR, UK GDPR, CCPA, PIPEDA, LGPD, Swiss DPA
+  summary_line: SOC 2, GDPR
 slug: segmentstream
 tags:
 - Company

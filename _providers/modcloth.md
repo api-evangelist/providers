@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Universal Commerce Protocol shopping service exposed over MCP — search the catalog, build a cart, and run a buyer-approved checkout.
@@ -115,7 +115,7 @@ overview: 'Modcloth publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Modcloth''s developer surface includes documentation, authentication, and 13 more developer resources.'
-random_paper: 18
+random_paper: 113
 scopes:
 - name: Modcloth Scopes
   scope_count: 4
@@ -138,7 +138,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/screenshots/modcloth-2026-08-07T183919.png
 security:

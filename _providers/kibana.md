@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 15
@@ -219,7 +219,191 @@ apis:
 - description: Workflows enable you to automate multi-step processes directly in Kibana. Define sequences of steps in YAML to transform data insights into automated actions and outcomes, without needing external aut
   name: Kibana workflows API
   slug: kibana-workflows-api
-artifact_total: 67
+artifact_total: 128
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kibana APIs Actions API
+  slug: open-kibana-actions-api
+- collection_type: open
+  name: Kibana APIs Actions agent builder API
+  slug: open-kibana-agent-builder-api
+- collection_type: open
+  name: Kibana APIs Actions alerting API
+  slug: open-kibana-alerting-api
+- collection_type: open
+  name: Kibana APIs Actions APM agent configuration API
+  slug: open-kibana-apm-agent-configuration-api
+- collection_type: open
+  name: Kibana APIs Actions APM agent keys API
+  slug: open-kibana-apm-agent-keys-api
+- collection_type: open
+  name: Kibana APIs Actions APM annotations API
+  slug: open-kibana-apm-annotations-api
+- collection_type: open
+  name: Kibana APIs Actions APM server schema API
+  slug: open-kibana-apm-server-schema-api
+- collection_type: open
+  name: Kibana APIs Actions APM sourcemaps API
+  slug: open-kibana-apm-sourcemaps-api
+- collection_type: open
+  name: Kibana APIs Actions cases API
+  slug: open-kibana-cases-api
+- collection_type: open
+  name: Kibana APIs Actions connectors API
+  slug: open-kibana-connectors-api
+- collection_type: open
+  name: Kibana APIs Actions Data streams API
+  slug: open-kibana-data-streams-api
+- collection_type: open
+  name: Kibana APIs Actions data views API
+  slug: open-kibana-data-views-api
+- collection_type: open
+  name: Kibana APIs Actions Elastic Agent actions API
+  slug: open-kibana-elastic-agent-actions-api
+- collection_type: open
+  name: Kibana APIs Actions Elastic Agent binary download sources API
+  slug: open-kibana-elastic-agent-binary-download-sources-api
+- collection_type: open
+  name: Kibana APIs Actions Elastic Agent policies API
+  slug: open-kibana-elastic-agent-policies-api
+- collection_type: open
+  name: Kibana APIs Actions Elastic Agent status API
+  slug: open-kibana-elastic-agent-status-api
+- collection_type: open
+  name: Kibana APIs Actions Elastic Agents API
+  slug: open-kibana-elastic-agents-api
+- collection_type: open
+  name: Kibana APIs Actions Elastic Package Manager (EPM) API
+  slug: open-kibana-elastic-package-manager-epm-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet agentless policies API
+  slug: open-kibana-fleet-agentless-policies-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet API
+  slug: open-kibana-fleet-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet cloud connectors API
+  slug: open-kibana-fleet-cloud-connectors-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet enrollment API keys API
+  slug: open-kibana-fleet-enrollment-api-keys-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet internals API
+  slug: open-kibana-fleet-internals-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet outputs API
+  slug: open-kibana-fleet-outputs-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet package policies API
+  slug: open-kibana-fleet-package-policies-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet proxies API
+  slug: open-kibana-fleet-proxies-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet remote synced integrations API
+  slug: open-kibana-fleet-remote-synced-integrations-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet Server hosts API
+  slug: open-kibana-fleet-server-hosts-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet service tokens API
+  slug: open-kibana-fleet-service-tokens-api
+- collection_type: open
+  name: Kibana APIs Actions Fleet uninstall tokens API
+  slug: open-kibana-fleet-uninstall-tokens-api
+- collection_type: open
+  name: Kibana APIs Actions logstash API
+  slug: open-kibana-logstash-api
+- collection_type: open
+  name: Kibana APIs Actions maintenance-window API
+  slug: open-kibana-maintenance-window-api
+- collection_type: open
+  name: Kibana APIs Actions Message Signing Service API
+  slug: open-kibana-message-signing-service-api
+- collection_type: open
+  name: Kibana APIs Actions ml API
+  slug: open-kibana-ml-api
+- collection_type: open
+  name: Kibana APIs Actions observability_ai_assistant API
+  slug: open-kibana-observability-ai-assistant-api
+- collection_type: open
+  name: Kibana APIs Actions roles API
+  slug: open-kibana-roles-api
+- collection_type: open
+  name: Kibana APIs Actions saved objects API
+  slug: open-kibana-saved-objects-api
+- collection_type: open
+  name: Kibana APIs Actions Security AI Assistant API API
+  slug: open-kibana-security-ai-assistant-api-api
+- collection_type: open
+  name: Kibana APIs Actions Security API
+  slug: open-kibana-security-api
+- collection_type: open
+  name: Kibana APIs Actions Security Attack discovery API API
+  slug: open-kibana-security-attack-discovery-api-api
+- collection_type: open
+  name: Kibana APIs Actions Security Detections API API
+  slug: open-kibana-security-detections-api-api
+- collection_type: open
+  name: Kibana APIs Actions Security Endpoint Exceptions API API
+  slug: open-kibana-security-endpoint-exceptions-api-api
+- collection_type: open
+  name: Kibana APIs Actions Security Endpoint Management API API
+  slug: open-kibana-security-endpoint-management-api-api
+- collection_type: open
+  name: Kibana APIs Actions Security Entity Analytics API API
+  slug: open-kibana-security-entity-analytics-api-api
+- collection_type: open
+  name: Kibana APIs Actions Security entity store API
+  slug: open-kibana-security-entity-store-api
+- collection_type: open
+  name: Kibana APIs Actions Security Exceptions API API
+  slug: open-kibana-security-exceptions-api-api
+- collection_type: open
+  name: Kibana APIs Actions Security Lists API API
+  slug: open-kibana-security-lists-api-api
+- collection_type: open
+  name: Kibana APIs Actions Security Osquery API API
+  slug: open-kibana-security-osquery-api-api
+- collection_type: open
+  name: Kibana APIs Actions Security Timeline API API
+  slug: open-kibana-security-timeline-api-api
+- collection_type: open
+  name: Kibana APIs Actions short url API
+  slug: open-kibana-short-url-api
+- collection_type: open
+  name: Kibana APIs Actions slo API
+  slug: open-kibana-slo-api
+- collection_type: open
+  name: Kibana APIs Actions Spaces API
+  slug: open-kibana-spaces-api
+- collection_type: open
+  name: Kibana APIs Actions streams API
+  slug: open-kibana-streams-api
+- collection_type: open
+  name: Kibana APIs Actions synthetics API
+  slug: open-kibana-synthetics-api
+- collection_type: open
+  name: Kibana APIs Actions system API
+  slug: open-kibana-system-api
+- collection_type: open
+  name: Kibana APIs Actions task manager API
+  slug: open-kibana-task-manager-api
+- collection_type: open
+  name: Kibana APIs Actions upgrade API
+  slug: open-kibana-upgrade-api
+- collection_type: open
+  name: Kibana APIs Actions uptime API
+  slug: open-kibana-uptime-api
+- collection_type: open
+  name: Kibana APIs Actions user session API
+  slug: open-kibana-user-session-api
+- collection_type: open
+  name: Kibana APIs Actions workflows API
+  slug: open-kibana-workflows-api
 common:
 - group: agent
   title: ''
@@ -301,7 +485,7 @@ plans:
 - name: Kibana Plans Pricing
   plan_count: 3
   slug: kibana-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Kibana Rate Limits
@@ -326,7 +510,7 @@ score:
       marker_coverage: 0.0
       total: 60
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/screenshots/kibana-2026-06-20T184031.png
 security:

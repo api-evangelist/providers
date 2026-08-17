@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -56,11 +56,33 @@ apis:
 - description: Push notification related to events in MEDIGO's system
   name: Medigo webhooks API
   slug: medigo-webhooks-api
-artifact_total: 11
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Medigo Webhooks
   slug: medigo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MEDIGO attachments API
+  slug: open-medigo-attachments-api
+- collection_type: open
+  name: MEDIGO attachments inquiries API
+  slug: open-medigo-inquiries-api
+- collection_type: open
+  name: MEDIGO attachments search API
+  slug: open-medigo-search-api
+- collection_type: open
+  name: MEDIGO attachments second-opinions API
+  slug: open-medigo-second-opinions-api
+- collection_type: open
+  name: MEDIGO attachments tpa API
+  slug: open-medigo-tpa-api
+- collection_type: open
+  name: MEDIGO attachments webhooks API
+  slug: open-medigo-webhooks-api
 common:
 - group: other
   title: ''
@@ -153,7 +175,7 @@ overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Medigo''s developer surface includes authentication, support, and 16 more developer resources.'
-random_paper: 29
+random_paper: 33
 score:
   band: thin
   composite: 34.0
@@ -183,7 +205,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/screenshots/medigo-2026-08-07T172347.png
 security:

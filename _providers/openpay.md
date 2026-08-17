@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Register and manage webhook endpoints for event notifications.
   name: Openpay Webhooks API
   slug: openpay-webhooks-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Openpay BankAccounts API
+  slug: open-openpay-bankaccounts-api
+- collection_type: open
+  name: Openpay BankAccounts Cards API
+  slug: open-openpay-cards-api
+- collection_type: open
+  name: Openpay BankAccounts Charges API
+  slug: open-openpay-charges-api
+- collection_type: open
+  name: Openpay BankAccounts Customers API
+  slug: open-openpay-customers-api
+- collection_type: open
+  name: Openpay BankAccounts Fees API
+  slug: open-openpay-fees-api
+- collection_type: open
+  name: Openpay BankAccounts Payouts API
+  slug: open-openpay-payouts-api
+- collection_type: open
+  name: Openpay BankAccounts Plans API
+  slug: open-openpay-plans-api
+- collection_type: open
+  name: Openpay BankAccounts Subscriptions API
+  slug: open-openpay-subscriptions-api
+- collection_type: open
+  name: Openpay BankAccounts Tokens API
+  slug: open-openpay-tokens-api
+- collection_type: open
+  name: Openpay BankAccounts Transfers API
+  slug: open-openpay-transfers-api
+- collection_type: open
+  name: Openpay BankAccounts Webhooks API
+  slug: open-openpay-webhooks-api
 - collection_type: open
   name: Openpay API
   slug: open-openpay
@@ -138,7 +174,7 @@ plans:
 - name: Openpay Plans Pricing
   plan_count: 2
   slug: openpay-plans-pricing
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Openpay Rate Limits
@@ -169,7 +205,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/screenshots/openpay-2026-08-07T190624.png
 security:

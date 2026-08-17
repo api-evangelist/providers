@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,12 +63,21 @@ apis:
 - description: Ticker reference data.
   name: Polygon.io Reference API
   slug: polygon-io-reference-api
-artifact_total: 17
+artifact_total: 20
 asyncapis:
 - description: 'Streaming WebSocket APIs from Polygon.io (now operating as Massive) for real-time and delayed US Stocks, Options, Forex, Crypto, Indices, and Futures market data. Clients connect to a market-specific '
   name: Polygon.io WebSocket APIs
   slug: polygon-io-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Polygon.io REST API (Stocks) Aggregates API
+  slug: open-polygon-io-aggregates-api
+- collection_type: open
+  name: Polygon.io REST API (Stocks) Aggregates Reference API
+  slug: open-polygon-io-reference-api
 - collection_type: open
   name: Polygon.io REST API (Stocks)
   slug: open-polygon-io
@@ -144,7 +153,7 @@ plans:
 - name: Polygon Io Plans Pricing
   plan_count: 5
   slug: polygon-io-plans-pricing
-random_paper: 77
+random_paper: 143
 rate_limits:
 - limit_count: 4
   name: Polygon Io Rate Limits
@@ -184,7 +193,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon-io/refs/heads/main/screenshots/polygon-io-2026-06-20T191906.png
 security:

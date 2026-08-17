@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -45,7 +45,35 @@ apis:
 - description: Public author records.
   name: GRIN Therapeutics Users API
   slug: grin-therapeutics-users-api
-artifact_total: 10
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GRIN Therapeutics Content Discovery API
+  slug: open-grin-therapeutics-discovery-api
+- collection_type: open
+  name: GRIN Therapeutics Content Media API
+  slug: open-grin-therapeutics-media-api
+- collection_type: open
+  name: GRIN Therapeutics Content Oembed API
+  slug: open-grin-therapeutics-oembed-api
+- collection_type: open
+  name: GRIN Therapeutics Content Pages API
+  slug: open-grin-therapeutics-pages-api
+- collection_type: open
+  name: GRIN Therapeutics Content Posts API
+  slug: open-grin-therapeutics-posts-api
+- collection_type: open
+  name: GRIN Therapeutics Content Search API
+  slug: open-grin-therapeutics-search-api
+- collection_type: open
+  name: GRIN Therapeutics Content Taxonomy API
+  slug: open-grin-therapeutics-taxonomy-api
+- collection_type: open
+  name: GRIN Therapeutics Content Users API
+  slug: open-grin-therapeutics-users-api
 common:
 - group: other
   title: ''
@@ -168,7 +196,7 @@ overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/)
 
 
   GRIN Therapeutics'' developer surface includes product news, support, authentication, and 24 more developer resources.'
-random_paper: 94
+random_paper: 135
 score:
   band: thin
   composite: 28.2
@@ -196,7 +224,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/screenshots/grin-therapeutics-2026-08-07T165843.png
 security:

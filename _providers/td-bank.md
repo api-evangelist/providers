@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -87,8 +87,11 @@ apis:
 - description: The Tokens API from TD Bank — 3 operation(s) for tokens.
   name: TD Bank Tokens API
   slug: td-bank-tokens-api
-artifact_total: 50
+artifact_total: 61
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: TD Bank Account Basic API
   slug: open-td-bank-account-basic-api
@@ -96,37 +99,67 @@ collections:
   name: TD Bank Account Detailed API
   slug: open-td-bank-account-detailed-api
 - collection_type: open
+  name: TD Bank Account Basic Accounts API
+  slug: open-td-bank-accounts-api
+- collection_type: open
+  name: TD Bank Account Basic Accounts Apps API
+  slug: open-td-bank-apps-api
+- collection_type: open
   name: TD Bank Apps Management API
   slug: open-td-bank-apps-management-api
 - collection_type: open
   name: TD Bank Bill Payment API
   slug: open-td-bank-bill-payment-api
 - collection_type: open
+  name: TD Bank Account Basic Accounts Bill Payments API
+  slug: open-td-bank-bill-payments-api
+- collection_type: open
+  name: TD Bank Account Basic Accounts Clusters API
+  slug: open-td-bank-clusters-api
+- collection_type: open
   name: TD Bank Consent API
   slug: open-td-bank-consent-api
+- collection_type: open
+  name: TD Bank Account Basic Accounts Consents API
+  slug: open-td-bank-consents-api
 - collection_type: open
   name: TD Bank Customer API
   slug: open-td-bank-customer-api
 - collection_type: open
-  name: TD Bank Notifications API
+  name: TD Bank Account Basic Accounts Customers API
+  slug: open-td-bank-customers-api
+- collection_type: open
+  name: TD Bank Account Basic Accounts Notifications API
   slug: open-td-bank-notifications-api
 - collection_type: open
-  name: TD Bank Rewards API
+  name: TD Bank Account Basic Accounts Payees API
+  slug: open-td-bank-payees-api
+- collection_type: open
+  name: TD Bank Account Basic Accounts Rewards API
   slug: open-td-bank-rewards-api
 - collection_type: open
   name: TD Bank Service Token API
   slug: open-td-bank-service-token-api
 - collection_type: open
-  name: TD Bank Statements API
+  name: TD Bank Account Basic Accounts Service Tokens API
+  slug: open-td-bank-service-tokens-api
+- collection_type: open
+  name: TD Bank Account Basic Accounts Statements API
   slug: open-td-bank-statements-api
 - collection_type: open
-  name: TD Bank Tax Forms API
+  name: TD Bank Account Basic Accounts Subscriptions API
+  slug: open-td-bank-subscriptions-api
+- collection_type: open
+  name: TD Bank Account Basic Accounts Tax Forms API
   slug: open-td-bank-tax-forms-api
 - collection_type: open
   name: TD Bank Token API
   slug: open-td-bank-token-api
 - collection_type: open
-  name: TD Bank Transactions API
+  name: TD Bank Account Basic Accounts Tokens API
+  slug: open-td-bank-tokens-api
+- collection_type: open
+  name: TD Bank Account Basic Accounts Transactions API
   slug: open-td-bank-transactions-api
 common:
 - group: agent
@@ -309,7 +342,7 @@ plans:
 - name: Td Bank Plans Pricing
   plan_count: 3
   slug: td-bank-plans-pricing
-random_paper: 73
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Td Bank Rate Limits
@@ -362,7 +395,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

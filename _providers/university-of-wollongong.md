@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: OAI-PMH metadata harvesting interface for University of Wollongong Research Online, the institution's open access repository running on bepress Digital Commons. Exposes journal articles, conference pa
@@ -111,7 +111,7 @@ plans:
 - name: University Of Wollongong Plans Pricing
   plan_count: 2
   slug: university-of-wollongong-plans-pricing
-random_paper: 119
+random_paper: 135
 rate_limits:
 - limit_count: 1
   name: University Of Wollongong Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-wollongong/refs/heads/main/screenshots/university-of-wollongong-2026-06-20T200355.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'Cimulate is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cimulate''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 12
+random_paper: 107
 score:
   band: minimal
   composite: 12.8
@@ -91,7 +91,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cimulate/refs/heads/main/screenshots/cimulate-2026-07-25T205346.png
 security:

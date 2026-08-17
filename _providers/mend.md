@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 3
@@ -180,7 +180,152 @@ apis:
 - description: The Zero-Day Events API from Mend — 2 operation(s) for zero-day events.
   name: Mend Zero-Day Events API
   slug: mend-zero-day-events-api
-artifact_total: 52
+artifact_total: 100
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mend Access Management API
+  slug: open-mend-access-management-api
+- collection_type: open
+  name: Mend Access Management Access Management - Organizations API
+  slug: open-mend-access-management-organizations-api
+- collection_type: open
+  name: Mend Access Management Administration - Groups API
+  slug: open-mend-administration-groups-api
+- collection_type: open
+  name: Mend Access Management Administration - Labels API
+  slug: open-mend-administration-labels-api
+- collection_type: open
+  name: Mend Access Management Administration - Users API
+  slug: open-mend-administration-users-api
+- collection_type: open
+  name: Mend Access Management AI API
+  slug: open-mend-ai-api
+- collection_type: open
+  name: Mend Access Management Alerts - Product API
+  slug: open-mend-alerts-product-api
+- collection_type: open
+  name: Mend Access Management Alerts - Project API
+  slug: open-mend-alerts-project-api
+- collection_type: open
+  name: Mend Access Management Applications API
+  slug: open-mend-applications-api
+- collection_type: open
+  name: Mend Access Management Asynchronous Process Control API
+  slug: open-mend-asynchronous-process-control-api
+- collection_type: open
+  name: Mend Access Management CustomAttribute - Organization API
+  slug: open-mend-customattribute-organization-api
+- collection_type: open
+  name: Mend Access Management CustomAttribute - Product API
+  slug: open-mend-customattribute-product-api
+- collection_type: open
+  name: Mend Access Management CustomAttribute - Project API
+  slug: open-mend-customattribute-project-api
+- collection_type: open
+  name: Mend Access Management Dependencies Source Files API
+  slug: open-mend-dependencies-source-files-api
+- collection_type: open
+  name: Mend Access Management domain-controller API
+  slug: open-mend-domain-controller-api
+- collection_type: open
+  name: Mend Access Management Entities - Organization API
+  slug: open-mend-entities-organization-api
+- collection_type: open
+  name: Mend Access Management Entities - Product API
+  slug: open-mend-entities-product-api
+- collection_type: open
+  name: Mend Access Management Entities - Project API
+  slug: open-mend-entities-project-api
+- collection_type: open
+  name: Mend Access Management Findings - Project API
+  slug: open-mend-findings-project-api
+- collection_type: open
+  name: Mend Access Management Findings - Scan API
+  slug: open-mend-findings-scan-api
+- collection_type: open
+  name: Mend Access Management General Info - Licenses API
+  slug: open-mend-general-info-licenses-api
+- collection_type: open
+  name: Mend Access Management General Info - Permissions API
+  slug: open-mend-general-info-permissions-api
+- collection_type: open
+  name: Mend Access Management General Info - Vulnerabilities API
+  slug: open-mend-general-info-vulnerabilities-api
+- collection_type: open
+  name: Mend Access Management Integrations API
+  slug: open-mend-integrations-api
+- collection_type: open
+  name: Mend Access Management Library - Organization API
+  slug: open-mend-library-organization-api
+- collection_type: open
+  name: Mend Access Management Library - Product API
+  slug: open-mend-library-product-api
+- collection_type: open
+  name: Mend Access Management Library - Project API
+  slug: open-mend-library-project-api
+- collection_type: open
+  name: Mend Access Management Library - Source Files API
+  slug: open-mend-library-source-files-api
+- collection_type: open
+  name: Mend Access Management Policies - Organization API
+  slug: open-mend-policies-organization-api
+- collection_type: open
+  name: Mend Access Management Policies - Product API
+  slug: open-mend-policies-product-api
+- collection_type: open
+  name: Mend Access Management Policies - Project API
+  slug: open-mend-policies-project-api
+- collection_type: open
+  name: Mend Access Management product-attribution-report-controller API
+  slug: open-mend-product-attribution-report-controller-api
+- collection_type: open
+  name: Mend Access Management project-attribution-report-controller API
+  slug: open-mend-project-attribution-report-controller-api
+- collection_type: open
+  name: Mend Access Management Projects API
+  slug: open-mend-projects-api
+- collection_type: open
+  name: Mend Access Management Red Team API
+  slug: open-mend-red-team-api
+- collection_type: open
+  name: Mend Access Management Reports API
+  slug: open-mend-reports-api
+- collection_type: open
+  name: Mend Access Management Scans API
+  slug: open-mend-scans-api
+- collection_type: open
+  name: Mend Access Management Settings - In-House API
+  slug: open-mend-settings-in-house-api
+- collection_type: open
+  name: Mend Access Management Settings - Whitelist API
+  slug: open-mend-settings-whitelist-api
+- collection_type: open
+  name: Mend Access Management Summary - Organization API
+  slug: open-mend-summary-organization-api
+- collection_type: open
+  name: Mend Access Management Update Request API
+  slug: open-mend-update-request-api
+- collection_type: open
+  name: Mend Access Management User Management - Groups API
+  slug: open-mend-user-management-groups-api
+- collection_type: open
+  name: Mend Access Management User Management - Roles And Permissions API
+  slug: open-mend-user-management-roles-and-permissions-api
+- collection_type: open
+  name: Mend Access Management User Management - Users API
+  slug: open-mend-user-management-users-api
+- collection_type: open
+  name: Mend Access Management User Profile API
+  slug: open-mend-user-profile-api
+- collection_type: open
+  name: Mend Access Management Vulnerable Libraries API
+  slug: open-mend-vulnerable-libraries-api
+- collection_type: open
+  name: Mend Access Management Zero-Day Events API
+  slug: open-mend-zero-day-events-api
 common:
 - group: other
   title: ''
@@ -314,7 +459,7 @@ overview: 'Mend publishes 47 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mend''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
-random_paper: 60
+random_paper: 122
 score:
   band: developing
   composite: 50.7
@@ -338,7 +483,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/screenshots/mend-2026-08-07T172510.png
 security:

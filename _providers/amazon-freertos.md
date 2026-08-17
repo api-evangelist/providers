@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -67,11 +67,23 @@ arazzos:
 - description: Read a FreeRTOS software configuration, update its metadata, and confirm the change.
   name: Amazon FreeRTOS Update Software Configuration
   slug: amazon-freertos-update-software-configuration-workflow
-artifact_total: 50
+artifact_total: 54
 collections:
 - collection_type: postman
   name: Amazon FreeRTOS Management API
   slug: postman-amazon-freertos
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon FreeRTOS Management OTA Updates API
+  slug: open-amazon-freertos-ota-updates-api
+- collection_type: open
+  name: Amazon FreeRTOS Management OTA Updates Software Configurations API
+  slug: open-amazon-freertos-software-configurations-api
+- collection_type: open
+  name: Amazon FreeRTOS Management OTA Updates Tags API
+  slug: open-amazon-freertos-tags-api
 - collection_type: open
   name: Amazon FreeRTOS Management API
   slug: open-amazon-freertos
@@ -307,7 +319,7 @@ plans:
 - name: Amazon Freertos Plans Pricing
   plan_count: 3
   slug: amazon-freertos-plans-pricing
-random_paper: 5
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Amazon Freertos Rate Limits
@@ -349,7 +361,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/screenshots/amazon-freertos-2026-06-20T171652.png
 security:

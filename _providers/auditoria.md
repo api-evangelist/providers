@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -151,7 +151,7 @@ overview: 'Auditoria.AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Auditoria.AI''s developer surface includes documentation, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 2
+random_paper: 68
 scopes:
 - name: Auditoria Scopes
   scope_count: 14
@@ -172,7 +172,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auditoria/refs/heads/main/screenshots/auditoria-2026-08-07T161929.png
 security:

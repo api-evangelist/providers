@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,23 @@ apis:
 - description: Data feeds for the Liquity website including yield venues, leaderboard, and borrow rates.
   name: Liquity V2 Website Data API
   slug: liquity-v2-website-data-api
-artifact_total: 17
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Liquity Protocol V1 Supply API
+  slug: open-liquity-v1-supply-api
+- collection_type: open
+  name: Liquity Protocol V1 Supply V2 Governance API
+  slug: open-liquity-v2-governance-api
+- collection_type: open
+  name: Liquity Protocol V1 Supply V2 Protocol Stats API
+  slug: open-liquity-v2-protocol-stats-api
+- collection_type: open
+  name: Liquity Protocol V1 Supply V2 Website Data API
+  slug: open-liquity-v2-website-data-api
 common:
 - group: operate
   title: ''
@@ -180,7 +196,7 @@ overview: 'Liquity publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Liquity''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
-random_paper: 65
+random_paper: 40
 rules:
 - name: Liquity API Rules
   rule_count: 6
@@ -210,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/screenshots/liquity-2026-06-20T184559.png
 security:

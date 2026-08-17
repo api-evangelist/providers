@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -154,11 +154,141 @@ apis:
 - description: Webhook subscriptions
   name: Method Financial Webhooks API
   slug: method-financial-webhooks-api
-artifact_total: 50
+artifact_total: 93
 asyncapis:
 - description: ''
   name: Method Financial Webhooks
   slug: method-financial-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Method Account Attributes API
+  slug: open-method-financial-account-attributes-api
+- collection_type: open
+  name: Method Account Balances API
+  slug: open-method-financial-account-balances-api
+- collection_type: open
+  name: Method Account Card Brands API
+  slug: open-method-financial-account-card-brands-api
+- collection_type: open
+  name: Method Account Consent API
+  slug: open-method-financial-account-consent-api
+- collection_type: open
+  name: Method Account Payment Instruments API
+  slug: open-method-financial-account-payment-instruments-api
+- collection_type: open
+  name: Method Account Payoffs API
+  slug: open-method-financial-account-payoffs-api
+- collection_type: open
+  name: Method Account Products API
+  slug: open-method-financial-account-products-api
+- collection_type: open
+  name: Method Account Sensitive API
+  slug: open-method-financial-account-sensitive-api
+- collection_type: open
+  name: Method Account Subscriptions API
+  slug: open-method-financial-account-subscriptions-api
+- collection_type: open
+  name: Method Account Transactions API
+  slug: open-method-financial-account-transactions-api
+- collection_type: open
+  name: Method Account Updates API
+  slug: open-method-financial-account-updates-api
+- collection_type: open
+  name: Method Account Verification Sessions API
+  slug: open-method-financial-account-verification-sessions-api
+- collection_type: open
+  name: Method Accounts API
+  slug: open-method-financial-accounts-api
+- collection_type: open
+  name: Method Card Products API
+  slug: open-method-financial-card-products-api
+- collection_type: open
+  name: Method Elements API
+  slug: open-method-financial-elements-api
+- collection_type: open
+  name: Method Entities API
+  slug: open-method-financial-entities-api
+- collection_type: open
+  name: Method Entity Attributes API
+  slug: open-method-financial-entity-attributes-api
+- collection_type: open
+  name: Method Entity Connects API
+  slug: open-method-financial-entity-connects-api
+- collection_type: open
+  name: Method Entity Consent API
+  slug: open-method-financial-entity-consent-api
+- collection_type: open
+  name: Method Entity Credit Scores API
+  slug: open-method-financial-entity-credit-scores-api
+- collection_type: open
+  name: Method Entity Identities API
+  slug: open-method-financial-entity-identities-api
+- collection_type: open
+  name: Method Entity Products API
+  slug: open-method-financial-entity-products-api
+- collection_type: open
+  name: Method Entity Subscriptions API
+  slug: open-method-financial-entity-subscriptions-api
+- collection_type: open
+  name: Method Entity Vehicles API
+  slug: open-method-financial-entity-vehicles-api
+- collection_type: open
+  name: Method Entity Verification Sessions API
+  slug: open-method-financial-entity-verification-sessions-api
+- collection_type: open
+  name: Method Events API
+  slug: open-method-financial-events-api
+- collection_type: open
+  name: Method Forwarding Requests API
+  slug: open-method-financial-forwarding-requests-api
+- collection_type: open
+  name: Method Managed Accounts API
+  slug: open-method-financial-managed-accounts-api
+- collection_type: open
+  name: Method Merchants API
+  slug: open-method-financial-merchants-api
+- collection_type: open
+  name: Method Opal API
+  slug: open-method-financial-opal-api
+- collection_type: open
+  name: Method Payment Reversals API
+  slug: open-method-financial-payment-reversals-api
+- collection_type: open
+  name: Method Payments API
+  slug: open-method-financial-payments-api
+- collection_type: open
+  name: Method Ping API
+  slug: open-method-financial-ping-api
+- collection_type: open
+  name: Method Public Keys API
+  slug: open-method-financial-public-keys-api
+- collection_type: open
+  name: Method Reports API
+  slug: open-method-financial-reports-api
+- collection_type: open
+  name: Method Secrets API
+  slug: open-method-financial-secrets-api
+- collection_type: open
+  name: Method Simulate Accounts API
+  slug: open-method-financial-simulate-accounts-api
+- collection_type: open
+  name: Method Simulate Entities API
+  slug: open-method-financial-simulate-entities-api
+- collection_type: open
+  name: Method Simulate Events API
+  slug: open-method-financial-simulate-events-api
+- collection_type: open
+  name: Method Simulate Payments API
+  slug: open-method-financial-simulate-payments-api
+- collection_type: open
+  name: Method Teams API
+  slug: open-method-financial-teams-api
+- collection_type: open
+  name: Method Webhooks API
+  slug: open-method-financial-webhooks-api
 common:
 - group: agent
   title: ''
@@ -355,7 +485,7 @@ overview: 'Method Financial publishes 42 APIs on the [APIs.io](https://apis.io/)
 
 
   Method Financial''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 37 more developer resources.'
-random_paper: 59
+random_paper: 129
 rate_limits:
 - limit_count: 6
   name: Method Financial Rate Limits
@@ -389,7 +519,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/screenshots/method-financial-2026-08-07T172703.png
 security:

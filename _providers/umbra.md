@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: 'Anonymous, hosted Model Context Protocol server published by Umbra on the Canopy documentation host. Exposes six tools that let an agent enumerate the Canopy OpenAPI specs, list and search endpoints, '
@@ -67,7 +67,47 @@ apis:
 - description: The Thumbnail API from Umbra — 1 operation(s) for thumbnail.
   name: Umbra Thumbnail API
   slug: umbra-thumbnail-api
-artifact_total: 20
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Admin Client Credentials API
+  slug: open-umbra-client-credentials-api
+- collection_type: open
+  name: Umbra Collections API
+  slug: open-umbra-collections-api
+- collection_type: open
+  name: Delivery Collect Metadata API
+  slug: open-umbra-collectmetadata-api
+- collection_type: open
+  name: Tasking Collects API
+  slug: open-umbra-collects-api
+- collection_type: open
+  name: Delivery Delivery Config API
+  slug: open-umbra-deliveryconfig-api
+- collection_type: open
+  name: Tasking Feasibility API
+  slug: open-umbra-feasibility-api
+- collection_type: open
+  name: Admin Organizations API
+  slug: open-umbra-organizations-api
+- collection_type: open
+  name: Admin Product Constraints API
+  slug: open-umbra-product-constraints-api
+- collection_type: open
+  name: Tasking Restricted Access Areas API
+  slug: open-umbra-restricted-access-areas-api
+- collection_type: open
+  name: Umbra Search API
+  slug: open-umbra-search-api
+- collection_type: open
+  name: Tasking Tasks API
+  slug: open-umbra-tasks-api
+- collection_type: open
+  name: STAC Archive Thumbnail API
+  slug: open-umbra-thumbnail-api
 common:
 - group: other
   title: ''
@@ -225,7 +265,7 @@ overview: 'Umbra publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Umbra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 6
   name: Umbra Rate Limits
@@ -257,7 +297,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

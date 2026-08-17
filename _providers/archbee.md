@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Documentation space management
   name: Archbee Spaces API
   slug: archbee-spaces-api
-artifact_total: 57
+artifact_total: 61
 collections:
 - collection_type: postman
   name: Archbee Members API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Archbee Members Spaces API
   slug: postman-archbee-spaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Archbee Members API
+  slug: open-archbee-members-api
+- collection_type: open
+  name: Archbee Members Pages API
+  slug: open-archbee-pages-api
+- collection_type: open
+  name: Archbee Members Spaces API
+  slug: open-archbee-spaces-api
 common:
 - group: build
   title: ''
@@ -277,7 +289,7 @@ plans:
 - name: Archbee Plans Pricing
   plan_count: 3
   slug: archbee-plans-pricing
-random_paper: 114
+random_paper: 118
 rate_limits:
 - limit_count: 5
   name: Archbee Rate Limits
@@ -319,7 +331,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/screenshots/archbee-2026-06-20T172408.png
 security:

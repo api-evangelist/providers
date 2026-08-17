@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -63,8 +63,35 @@ apis:
 - description: Property and room configuration and bookable offers.
   name: Beds24 Properties API
   slug: beds24-properties-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Beds24 API V2 Accounts API
+  slug: open-beds24-accounts-api
+- collection_type: open
+  name: Beds24 API V2 Accounts Authentication API
+  slug: open-beds24-authentication-api
+- collection_type: open
+  name: Beds24 API V2 Accounts Bookings API
+  slug: open-beds24-bookings-api
+- collection_type: open
+  name: Beds24 API V2 Accounts Channels API
+  slug: open-beds24-channels-api
+- collection_type: open
+  name: Beds24 API V2 Accounts Inventory API
+  slug: open-beds24-inventory-api
+- collection_type: open
+  name: Beds24 API V2 Accounts Invoices API
+  slug: open-beds24-invoices-api
+- collection_type: open
+  name: Beds24 API V2 Accounts Messages API
+  slug: open-beds24-messages-api
+- collection_type: open
+  name: Beds24 API V2 Accounts Properties API
+  slug: open-beds24-properties-api
 - collection_type: open
   name: Beds24 API V2
   slug: open-beds24
@@ -125,7 +152,7 @@ plans:
 - name: Beds24 Plans Pricing
   plan_count: 5
   slug: beds24-plans-pricing
-random_paper: 36
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Beds24 Rate Limits
@@ -150,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/screenshots/beds24-2026-07-25T202622.png
 security:

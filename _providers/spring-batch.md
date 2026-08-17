@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,20 @@ apis:
 - description: Micrometer-based application metrics
   name: Spring Batch Metrics API
   slug: spring-batch-metrics-api
-artifact_total: 21
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spring Batch 5.1 Actuator Batch Jobs API
+  slug: open-spring-batch-batch-jobs-api
+- collection_type: open
+  name: Spring Batch 5.1 Actuator Batch Jobs Health API
+  slug: open-spring-batch-health-api
+- collection_type: open
+  name: Spring Batch 5.1 Actuator Batch Jobs Metrics API
+  slug: open-spring-batch-metrics-api
 - collection_type: open
   name: Spring Batch 5.1 Actuator API
   slug: open-spring-batch
@@ -160,7 +172,7 @@ plans:
 - name: Spring Batch Plans Pricing
   plan_count: 3
   slug: spring-batch-plans-pricing
-random_paper: 18
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Spring Batch Rate Limits
@@ -202,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/screenshots/spring-batch-2026-06-20T194402.png
 security:

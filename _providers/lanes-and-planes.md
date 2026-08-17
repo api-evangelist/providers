@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The External API (ExtAPI) is named in the company's own llms.txt as the integration surface used to synchronize employee and organizational data from HRIS and identity systems that lack a native conne
@@ -141,7 +141,7 @@ overview: 'Lanes & Planes publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Lanes & Planes'' developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 11
+random_paper: 81
 score:
   band: emerging
   composite: 26.4
@@ -157,7 +157,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lanes-and-planes/refs/heads/main/screenshots/lanes-and-planes-2026-07-25T224513.png
 security:

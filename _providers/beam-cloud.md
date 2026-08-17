@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,12 +48,24 @@ apis:
 - description: The Web Endpoints API from Beam — 3 operation(s) for web endpoints.
   name: Beam Web Endpoints API
   slug: beam-cloud-web-endpoints-api
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: AsyncAPI 2.6 description of Beam's **realtime endpoint** surface. Unlike the synchronous REST web endpoints, a Beam realtime app is deployed and, per the docs (https://docs.beam.cloud/v2/endpoint/real
   name: Beam Realtime Endpoints (WebSocket)
   slug: beam-cloud-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Beam Task Queues API
+  slug: open-beam-cloud-task-queues-api
+- collection_type: open
+  name: Beam Task Queues Tasks API
+  slug: open-beam-cloud-tasks-api
+- collection_type: open
+  name: Beam Task Queues Web Endpoints API
+  slug: open-beam-cloud-web-endpoints-api
 - collection_type: open
   name: Beam API
   slug: open-beam-cloud
@@ -125,7 +137,7 @@ plans:
 - name: Beam Cloud Plans Pricing
   plan_count: 5
   slug: beam-cloud-plans-pricing
-random_paper: 25
+random_paper: 91
 rate_limits:
 - limit_count: 4
   name: Beam Cloud Rate Limits
@@ -159,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/screenshots/beam-cloud-2026-06-20T173120.png
 security:

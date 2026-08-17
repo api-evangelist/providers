@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Auth API from Wayflyer — 2 operation(s) for auth.
@@ -67,7 +67,47 @@ apis:
 - description: The User Details API from Wayflyer — 4 operation(s) for user details.
   name: Wayflyer User Details API
   slug: wayflyer-user-details-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Embedded Finance Auth API
+  slug: open-wayflyer-auth-api
+- collection_type: open
+  name: Embedded Finance Auth Company Details API
+  slug: open-wayflyer-company-details-api
+- collection_type: open
+  name: Embedded Finance Auth Company Search API
+  slug: open-wayflyer-company-search-api
+- collection_type: open
+  name: Embedded Finance Auth CTA API
+  slug: open-wayflyer-cta-api
+- collection_type: open
+  name: Embedded Finance Auth Data Upload API
+  slug: open-wayflyer-data-upload-api
+- collection_type: open
+  name: Embedded Finance Auth Documents API
+  slug: open-wayflyer-documents-api
+- collection_type: open
+  name: Embedded Finance Auth Embedded Application API
+  slug: open-wayflyer-embedded-application-api
+- collection_type: open
+  name: Embedded Finance Auth Handover API
+  slug: open-wayflyer-handover-api
+- collection_type: open
+  name: Embedded Finance Auth Industry Classification API
+  slug: open-wayflyer-industry-classification-api
+- collection_type: open
+  name: Embedded Finance Auth Simulation API
+  slug: open-wayflyer-simulation-api
+- collection_type: open
+  name: Embedded Finance Auth Tracked Login API
+  slug: open-wayflyer-tracked-login-api
+- collection_type: open
+  name: Embedded Finance Auth User Details API
+  slug: open-wayflyer-user-details-api
 common:
 - group: other
   title: ''
@@ -209,7 +249,7 @@ overview: 'Wayflyer publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wayflyer''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 24 more developer resources.'
-random_paper: 43
+random_paper: 138
 score:
   band: developing
   composite: 52.3
@@ -232,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

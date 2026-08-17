@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: Officially published AI-related investigations, orders, fines and remedies with separate procedural stages and exact technology evidence.
@@ -72,7 +72,62 @@ apis:
 - description: Inspectable system profiles and source-evidenced links to repositories and technical inventories only.
   name: i6eal Open AI Data API Public AI System Evidence Pass API
   slug: i6eal-open-ai-data-api-public-ai-system-evidence-pass-api
-artifact_total: 23
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: i6eal Open AI Data AI Enforcement Monitor Germany & EU API
+  slug: open-i6eal-open-ai-data-api-ai-enforcement-monitor-germany-eu-api
+- collection_type: open
+  name: i6eal Open AI Data AI Parliamentary Accountability Monitor API
+  slug: open-i6eal-open-ai-data-api-ai-parliamentary-accountability-monitor-api
+- collection_type: open
+  name: i6eal Open AI Data Catalogue API
+  slug: open-i6eal-open-ai-data-api-catalogue-api
+- collection_type: open
+  name: i6eal Open AI Data EU AI Medical-Device Lifecycle Monitor API
+  slug: open-i6eal-open-ai-data-api-eu-ai-medical-device-lifecycle-monitor-api
+- collection_type: open
+  name: i6eal Open AI Data EU AI Studies Monitor API
+  slug: open-i6eal-open-ai-data-api-eu-ai-studies-monitor-api
+- collection_type: open
+  name: i6eal Open AI Data EU AI Transparency Evidence Monitor API
+  slug: open-i6eal-open-ai-data-api-eu-ai-transparency-evidence-monitor-api
+- collection_type: open
+  name: i6eal Open AI Data EU Platform Automation Monitor API
+  slug: open-i6eal-open-ai-data-api-eu-platform-automation-monitor-api
+- collection_type: open
+  name: i6eal Open AI Data German AI Case-Law Monitor API
+  slug: open-i6eal-open-ai-data-api-german-ai-case-law-monitor-api
+- collection_type: open
+  name: i6eal Open AI Data German AI Evidence Network API
+  slug: open-i6eal-open-ai-data-api-german-ai-evidence-network-api
+- collection_type: open
+  name: i6eal Open AI Data German & EU AI Adoption Atlas API
+  slug: open-i6eal-open-ai-data-api-german-eu-ai-adoption-atlas-api
+- collection_type: open
+  name: i6eal Open AI Data German & EU AI Procurement Chronicle API
+  slug: open-i6eal-open-ai-data-api-german-eu-ai-procurement-chronicle-api
+- collection_type: open
+  name: i6eal Open AI Data German & EU AI Standardisation Monitor API
+  slug: open-i6eal-open-ai-data-api-german-eu-ai-standardisation-monitor-api
+- collection_type: open
+  name: i6eal Open AI Data German & EU AI Supervision Monitor API
+  slug: open-i6eal-open-ai-data-api-german-eu-ai-supervision-monitor-api
+- collection_type: open
+  name: i6eal Open AI Data German Federal AI Budget Monitor API
+  slug: open-i6eal-open-ai-data-api-german-federal-ai-budget-monitor-api
+- collection_type: open
+  name: i6eal Open AI Data German State AI Evidence Layers API
+  slug: open-i6eal-open-ai-data-api-german-state-ai-evidence-layers-api
+- collection_type: open
+  name: i6eal Open AI Data Observed AI Procurement Changes API
+  slug: open-i6eal-open-ai-data-api-observed-ai-procurement-changes-api
+- collection_type: open
+  name: i6eal Open AI Data Public AI System Evidence Pass API
+  slug: open-i6eal-open-ai-data-api-public-ai-system-evidence-pass-api
 common:
 - group: agent
   title: ''
@@ -201,7 +256,7 @@ overview: 'i6eal Open AI Data API publishes 17 APIs on the [APIs.io](https://api
 
 
   i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 18 more developer resources.'
-random_paper: 85
+random_paper: 68
 score:
   band: thin
   composite: 39.6
@@ -230,7 +285,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

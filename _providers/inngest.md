@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Manage inbound webhooks that translate third-party payloads into Inngest events.
   name: Inngest Webhooks API
   slug: inngest-webhooks-api
-artifact_total: 44
+artifact_total: 53
 collections:
 - collection_type: postman
   name: Inngest REST Account API
@@ -89,6 +89,33 @@ collections:
 - collection_type: postman
   name: Inngest REST Account Webhooks API
   slug: postman-inngest-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inngest REST Account API
+  slug: open-inngest-account-api
+- collection_type: open
+  name: Inngest REST Account Apps API
+  slug: open-inngest-apps-api
+- collection_type: open
+  name: Inngest REST Account Environments API
+  slug: open-inngest-environments-api
+- collection_type: open
+  name: Inngest REST Account Events API
+  slug: open-inngest-events-api
+- collection_type: open
+  name: Inngest REST Account Functions API
+  slug: open-inngest-functions-api
+- collection_type: open
+  name: Inngest REST Account Keys API
+  slug: open-inngest-keys-api
+- collection_type: open
+  name: Inngest REST Account Runs API
+  slug: open-inngest-runs-api
+- collection_type: open
+  name: Inngest REST Account Webhooks API
+  slug: open-inngest-webhooks-api
 - collection_type: open
   name: Inngest REST API
   slug: open-inngest
@@ -424,7 +451,7 @@ plans:
 - name: Inngest Plans Pricing
   plan_count: 3
   slug: inngest-plans-pricing
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 8
   name: Inngest Rate Limits
@@ -466,7 +493,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/screenshots/inngest-2026-06-20T183358.png
 security:

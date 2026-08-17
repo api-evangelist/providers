@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ arazzos:
 - description: Go from ATCO Electric's whole Alberta distribution grid to a small, mapped shortlist of the feeder segments with the most DER hosting capacity, without ever pulling all 880,623 features.
   name: ATCO Electric DER siting shortlist
   slug: atco-der-siting-shortlist
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-atco-electric-hosting-capacity-featureserver
+- collection_type: open
+  name: API Collection
+  slug: open-atco-electric-hosting-capacity-layer-0
+- collection_type: open
+  name: ATCO Electric Hosting Capacity Feature Service
+  slug: open-atco-electric-hosting-capacity
 common:
 - group: agent
   title: ''
@@ -168,7 +178,7 @@ overview: 'ATCO publishes 1 API on the [APIs.io](https://apis.io/) network: Elec
 
 
   ATCO''s developer surface includes authentication, support, product news, and 23 more developer resources.'
-random_paper: 63
+random_paper: 125
 score:
   band: thin
   composite: 33.7
@@ -198,7 +208,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/screenshots/atco-2026-08-07T161823.png
 security:

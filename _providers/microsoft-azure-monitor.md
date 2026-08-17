@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ arazzos:
 - description: Discover the metric definitions available for a resource and then pull the metric values for them.
   name: Azure Monitor Resource Metrics Explorer
   slug: microsoft-azure-monitor-resource-metrics-explorer-workflow
-artifact_total: 179
+artifact_total: 199
 collections:
 - collection_type: postman
   name: Azure Monitor Action Groups API
@@ -175,6 +175,9 @@ collections:
   name: Azure Monitor Scheduled Query Rules API
   slug: postman-azure-monitor-scheduled-query-rules
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Monitor Action Groups API
   slug: open-azure-monitor-action-groups
 - collection_type: open
@@ -219,6 +222,63 @@ collections:
 - collection_type: open
   name: Azure Monitor Scheduled Query Rules API
   slug: open-azure-monitor-scheduled-query-rules
+- collection_type: open
+  name: Azure Monitor Action Groups API
+  slug: open-microsoft-azure-monitor-action-groups-api
+- collection_type: open
+  name: Azure Monitor Action Groups Activity Logs API
+  slug: open-microsoft-azure-monitor-activity-logs-api
+- collection_type: open
+  name: Azure Monitor Action Groups Alert Rules API
+  slug: open-microsoft-azure-monitor-alert-rules-api
+- collection_type: open
+  name: Azure Monitor Action Groups Autoscale Settings API
+  slug: open-microsoft-azure-monitor-autoscale-settings-api
+- collection_type: open
+  name: Azure Monitor Action Groups Data Collection Endpoints API
+  slug: open-microsoft-azure-monitor-data-collection-endpoints-api
+- collection_type: open
+  name: Azure Monitor Action Groups Data Collection Rules API
+  slug: open-microsoft-azure-monitor-data-collection-rules-api
+- collection_type: open
+  name: Azure Monitor Action Groups Diagnostic Settings API
+  slug: open-microsoft-azure-monitor-diagnostic-settings-api
+- collection_type: open
+  name: Azure Monitor Action Groups Events API
+  slug: open-microsoft-azure-monitor-events-api
+- collection_type: open
+  name: Azure Monitor Action Groups Logs Ingestion API
+  slug: open-microsoft-azure-monitor-logs-ingestion-api
+- collection_type: open
+  name: Azure Monitor Action Groups Metadata API
+  slug: open-microsoft-azure-monitor-metadata-api
+- collection_type: open
+  name: Azure Monitor Action Groups Metric Definitions API
+  slug: open-microsoft-azure-monitor-metric-definitions-api
+- collection_type: open
+  name: Azure Monitor Action Groups Metrics API
+  slug: open-microsoft-azure-monitor-metrics-api
+- collection_type: open
+  name: Azure Monitor Action Groups Metrics Batch API
+  slug: open-microsoft-azure-monitor-metrics-batch-api
+- collection_type: open
+  name: Azure Monitor Action Groups Predictive Metrics API
+  slug: open-microsoft-azure-monitor-predictive-metrics-api
+- collection_type: open
+  name: Azure Monitor Action Groups Private Link Scopes API
+  slug: open-microsoft-azure-monitor-private-link-scopes-api
+- collection_type: open
+  name: Azure Monitor Action Groups Query API
+  slug: open-microsoft-azure-monitor-query-api
+- collection_type: open
+  name: Azure Monitor Action Groups Scheduled Query Rules API
+  slug: open-microsoft-azure-monitor-scheduled-query-rules-api
+- collection_type: open
+  name: Azure Monitor Action Groups Scoped Resources API
+  slug: open-microsoft-azure-monitor-scoped-resources-api
+- collection_type: open
+  name: Azure Monitor Action Groups Test Notifications API
+  slug: open-microsoft-azure-monitor-test-notifications-api
 common:
 - group: agent
   title: ''
@@ -715,7 +775,7 @@ plans:
 - name: Microsoft Azure Monitor Plans Pricing
   plan_count: 7
   slug: microsoft-azure-monitor-plans-pricing
-random_paper: 119
+random_paper: 15
 rate_limits:
 - limit_count: 8
   name: Microsoft Azure Monitor Rate Limits
@@ -754,7 +814,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/screenshots/microsoft-azure-monitor-2026-06-20T185425.png
 security:

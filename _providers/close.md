@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-12'
+  score: 57.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -225,8 +226,201 @@ apis:
 - description: The subpackage_webhooks API from Close — 2 operation(s) for subpackage_webhooks.
   name: Close subpackage_webhooks API
   slug: close-subpackage-webhooks-api
-artifact_total: 80
+artifact_total: 147
+asyncapis:
+- description: ''
+  name: Close Webhooks
+  slug: close-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Endpoints subpackage_activities API
+  slug: open-close-subpackage-activities-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesCalls API
+  slug: open-close-subpackage-activitiescalls-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesCreations API
+  slug: open-close-subpackage-activitiescreations-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesCustomActivities API
+  slug: open-close-subpackage-activitiescustomactivities-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesEmails API
+  slug: open-close-subpackage-activitiesemails-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesEmailThreads API
+  slug: open-close-subpackage-activitiesemailthreads-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesFormSubmissions API
+  slug: open-close-subpackage-activitiesformsubmissions-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesLeadMerges API
+  slug: open-close-subpackage-activitiesleadmerges-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesLeadStatusChanges API
+  slug: open-close-subpackage-activitiesleadstatuschanges-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesMeetings API
+  slug: open-close-subpackage-activitiesmeetings-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesNotes API
+  slug: open-close-subpackage-activitiesnotes-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesOpportunityStatusChanges API
+  slug: open-close-subpackage-activitiesopportunitystatuschanges-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesSms API
+  slug: open-close-subpackage-activitiessms-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesTaskCompletions API
+  slug: open-close-subpackage-activitiestaskcompletions-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_activitiesWhatsappMessages API
+  slug: open-close-subpackage-activitieswhatsappmessages-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_blockedPhoneNumbers API
+  slug: open-close-subpackage-blockedphonenumbers-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_bulkActionsDelete API
+  slug: open-close-subpackage-bulkactionsdelete-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_bulkActionsEdit API
+  slug: open-close-subpackage-bulkactionsedit-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_bulkActionsEmail API
+  slug: open-close-subpackage-bulkactionsemail-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_bulkActionsSequenceSubscriptions API
+  slug: open-close-subpackage-bulkactionssequencesubscriptions-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_comments API
+  slug: open-close-subpackage-comments-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_connectedAccounts API
+  slug: open-close-subpackage-connectedaccounts-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_contacts API
+  slug: open-close-subpackage-contacts-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customActivityTypes API
+  slug: open-close-subpackage-customactivitytypes-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customFieldsActivity API
+  slug: open-close-subpackage-customfieldsactivity-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customFieldSchemas API
+  slug: open-close-subpackage-customfieldschemas-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customFieldsContact API
+  slug: open-close-subpackage-customfieldscontact-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customFieldsCustomObject API
+  slug: open-close-subpackage-customfieldscustomobject-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customFieldsLead API
+  slug: open-close-subpackage-customfieldslead-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customFieldsOpportunity API
+  slug: open-close-subpackage-customfieldsopportunity-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customFieldsShared API
+  slug: open-close-subpackage-customfieldsshared-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customObjects API
+  slug: open-close-subpackage-customobjects-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_customObjectTypes API
+  slug: open-close-subpackage-customobjecttypes-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_dialers API
+  slug: open-close-subpackage-dialers-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_emailTemplates API
+  slug: open-close-subpackage-emailtemplates-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_events API
+  slug: open-close-subpackage-events-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_exports API
+  slug: open-close-subpackage-exports-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_fieldEnrichment API
+  slug: open-close-subpackage-fieldenrichment-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_files API
+  slug: open-close-subpackage-files-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_groups API
+  slug: open-close-subpackage-groups-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_integrationLinks API
+  slug: open-close-subpackage-integrationlinks-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_leads API
+  slug: open-close-subpackage-leads-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_leadStatuses API
+  slug: open-close-subpackage-leadstatuses-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_memberships API
+  slug: open-close-subpackage-memberships-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_opportunities API
+  slug: open-close-subpackage-opportunities-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_opportunityStatuses API
+  slug: open-close-subpackage-opportunitystatuses-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_organizations API
+  slug: open-close-subpackage-organizations-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_outcomes API
+  slug: open-close-subpackage-outcomes-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_phoneNumbers API
+  slug: open-close-subpackage-phonenumbers-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_pipelines API
+  slug: open-close-subpackage-pipelines-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_playbooks API
+  slug: open-close-subpackage-playbooks-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_reporting API
+  slug: open-close-subpackage-reporting-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_roles API
+  slug: open-close-subpackage-roles-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_schedulingLinks API
+  slug: open-close-subpackage-schedulinglinks-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_sendAs API
+  slug: open-close-subpackage-sendas-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_sequences API
+  slug: open-close-subpackage-sequences-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_smartViews API
+  slug: open-close-subpackage-smartviews-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_smsTemplates API
+  slug: open-close-subpackage-smstemplates-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_tasks API
+  slug: open-close-subpackage-tasks-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_unsubscribedEmails API
+  slug: open-close-subpackage-unsubscribedemails-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_users API
+  slug: open-close-subpackage-users-api
+- collection_type: open
+  name: API Endpoints subpackage_activities subpackage_webhooks API
+  slug: open-close-subpackage-webhooks-api
 - collection_type: open
   name: API Endpoints
   slug: open-close
@@ -262,7 +456,7 @@ common:
 - group: docs
   title: ''
   type: APIReference
-  url: https://developer.close.com/resources/
+  url: https://developer.close.com/api/resources/leads
 - group: commercial
   title: ''
   type: Pricing
@@ -298,7 +492,7 @@ common:
 - group: auth
   title: ''
   type: Authentication
-  url: https://developer.close.com/topics/authentication/
+  url: https://developer.close.com/api/overview/api-key-authentication
 - group: operate
   title: ''
   type: RateLimits
@@ -306,7 +500,7 @@ common:
 - group: design
   title: ''
   type: Webhooks
-  url: https://developer.close.com/resources/webhooks/
+  url: https://developer.close.com/api/resources/webhooks
 - group: commercial
   title: ''
   type: Plans
@@ -323,6 +517,118 @@ common:
   title: ''
   type: LlmsText
   url: https://developer.close.com/llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/close-api-openapi.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/close-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/close-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/close-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/close-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/close-well-known.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/close-robots.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/close-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/close-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/close-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://close.com/security
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/close-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/close-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.close.com/api/overview/changelog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/close-changelog.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/close-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/close-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/close-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/close-components.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/close-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://close.com/security/submit-report
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/close-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.close.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.close.com/api/overview
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.close.com/signup/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://close.com/changelog
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.close.com/
 created: '2026-05-08'
 description: Close is an inside-sales CRM with calling, email, SMS, and WhatsApp built in. The Close API exposes leads, contacts, opportunities, tasks, activities (calls, emails, SMS, meetings, notes), pipelines, custom objects, sequences, smart views, scheduling, phone numbers, reporting, and webhooks for sales automation.
 features:
@@ -342,34 +648,46 @@ finops:
   slug: close-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/close.png
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: close-mcp.yml
+  slug: close-mcpyml
+modified: '2026-08-13'
 name: Close
 nav: Providers
 network: true
 overview: 'Close publishes 62 APIs on the [APIs.io](https://apis.io/) network, including subpackage_activities API, subpackage_activitiesCalls API, subpackage_activitiesCreations API, and 59 more. Tagged areas include CRM, Sales Engagement, Inside Sales, Calling, and SMS.
 
 
-  Close''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 17 more developer resources.'
+  The Close catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Close''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 44 more developer resources.'
 plans:
 - name: Close Plans Pricing
   plan_count: 7
   slug: close-plans-pricing
-random_paper: 54
+random_paper: 87
 rate_limits:
 - limit_count: 4
   name: Close Rate Limits
   slug: close-rate-limits
+scopes:
+- name: Close Scopes
+  scope_count: 5
+  slug: close-scopes
+  summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: exemplar
+  composite: 67.9
+  delta: 25.1
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 54.1
-    developer_ergonomics: 32.6
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 36.8
+    commercial_clarity: 76.3
+    contract_quality: 63.0
+    developer_ergonomics: 73.9
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 76.3
   previous_composite: 42.8
   provenance:
     agentic_access: derived
@@ -383,24 +701,28 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
+    score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/screenshots/close-2026-06-20T174533.png
 security:
 - kind: authentication
   name: Close Authentication
   slug: close-authentication
-  summary_line: http · 2 schemes
+  summary_line: http/oauth2/apiKey · 3 schemes
 - kind: domain-security
   name: Close Domain Security
   slug: close-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Close Vulnerability Disclosure
+  slug: close-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: Close Trust Center
   slug: close-trust-center
-  summary_line: SOC 2, GDPR
+  summary_line: SOC 2 Type 2, GDPR, CCPA
 slug: close
 tags:
 - CRM
@@ -408,6 +730,12 @@ tags:
 - Inside Sales
 - Calling
 - SMS
+- WhatsApp
+- Sales Automation
+- Pipeline Management
+- AI Agents
+- MCP
+- Webhooks
 - SaaS
 website: https://www.close.com/
 ---

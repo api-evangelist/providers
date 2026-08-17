@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 0
@@ -150,7 +150,122 @@ apis:
 - description: WordPress wp_pattern_category resource routes.
   name: Harbinger Health Wp Pattern Category API
   slug: harbinger-health-wp-pattern-category-api
-artifact_total: 47
+artifact_total: 85
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Block Directory API
+  slug: open-harbinger-health-block-directory-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Block Patterns API
+  slug: open-harbinger-health-block-patterns-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Block Renderer API
+  slug: open-harbinger-health-block-renderer-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Block Types API
+  slug: open-harbinger-health-block-types-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Blocks API
+  slug: open-harbinger-health-blocks-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Categories API
+  slug: open-harbinger-health-categories-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Comments API
+  slug: open-harbinger-health-comments-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Events API
+  slug: open-harbinger-health-events-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Font Collections API
+  slug: open-harbinger-health-font-collections-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Font Families API
+  slug: open-harbinger-health-font-families-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Global Styles API
+  slug: open-harbinger-health-global-styles-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Icons API
+  slug: open-harbinger-health-icons-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Index API
+  slug: open-harbinger-health-index-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Media API
+  slug: open-harbinger-health-media-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Menu Items API
+  slug: open-harbinger-health-menu-items-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Menu Locations API
+  slug: open-harbinger-health-menu-locations-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Menus API
+  slug: open-harbinger-health-menus-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Navigation API
+  slug: open-harbinger-health-navigation-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Pages API
+  slug: open-harbinger-health-pages-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Pattern Directory API
+  slug: open-harbinger-health-pattern-directory-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Plugins API
+  slug: open-harbinger-health-plugins-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Posts API
+  slug: open-harbinger-health-posts-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Search API
+  slug: open-harbinger-health-search-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Settings API
+  slug: open-harbinger-health-settings-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Sidebars API
+  slug: open-harbinger-health-sidebars-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Statuses API
+  slug: open-harbinger-health-statuses-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Tags API
+  slug: open-harbinger-health-tags-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Taxonomies API
+  slug: open-harbinger-health-taxonomies-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Template Parts API
+  slug: open-harbinger-health-template-parts-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Templates API
+  slug: open-harbinger-health-templates-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Themes API
+  slug: open-harbinger-health-themes-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Types API
+  slug: open-harbinger-health-types-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Users API
+  slug: open-harbinger-health-users-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Widget Types API
+  slug: open-harbinger-health-widget-types-api
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Widgets API
+  slug: open-harbinger-health-widgets-api
+- collection_type: open
+  name: API Collection
+  slug: open-harbinger-health-wp-json-discovery
+- collection_type: open
+  name: Harbinger Health WordPress REST API (wp/v2) Wp Pattern Category API
+  slug: open-harbinger-health-wp-pattern-category-api
 common:
 - group: company
   title: ''
@@ -329,7 +444,7 @@ overview: 'Harbinger Health publishes 36 APIs on the [APIs.io](https://apis.io/)
 
 
   Harbinger Health''s developer surface includes engineering blog, support, YouTube channel, authentication, code examples, and 31 more developer resources.'
-random_paper: 61
+random_paper: 131
 scopes:
 - name: Harbinger Health Scopes
   scope_count: 1
@@ -364,7 +479,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/screenshots/harbinger-health-2026-08-07T165948.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: 'The MikMak Headless Commerce API (v1) lets brands and their authorized agencies power commerce experiences on brand-owned websites and media ad units with MikMak''s retailer network: product lookup by '
@@ -48,7 +48,14 @@ apis:
 - description: The MikMak where-to-buy tag is the client-side distribution of MikMak Commerce for brand-owned websites. A single async script loaded from wtb-tag.mikmak.ai renders buy-now buttons, in-page containers
   name: MikMak Commerce for Brand.com (WTB Tag)
   slug: mikmak-brand-com-tag
-artifact_total: 14
+artifact_total: 16
+collections:
+- collection_type: open
+  name: Commerce API (v1)
+  slug: open-mikmak-commerce-api
+- collection_type: open
+  name: MikMak Insights API
+  slug: open-mikmak-insights-api
 common:
 - group: start
   title: ''
@@ -237,7 +244,7 @@ plans:
 - name: Mikmak Plans Pricing
   plan_count: 0
   slug: mikmak-plans-pricing
-random_paper: 34
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Mikmak Rate Limits
@@ -250,7 +257,7 @@ scopes:
 score:
   band: developing
   composite: 52.2
-  delta: 38.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 54.8
@@ -258,10 +265,10 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 13.5
+  previous_composite: 52.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png
 security:
 - kind: authentication

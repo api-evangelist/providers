@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 7
@@ -161,7 +161,119 @@ apis:
 - description: The Workflows API from KU Leuven — 1 operation(s) for workflows.
   name: KU Leuven Workflows API
   slug: ku-leuven-workflows-api
-artifact_total: 59
+artifact_total: 96
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access API
+  slug: open-ku-leuven-access-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access addFilesToDataset API
+  slug: open-ku-leuven-addfilestodataset-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access addFileToDataset API
+  slug: open-ku-leuven-addfiletodataset-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access addGlobusFilesToDataset API
+  slug: open-ku-leuven-addglobusfilestodataset-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Admin API
+  slug: open-ku-leuven-admin-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Batch API
+  slug: open-ku-leuven-batch-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Builtin Users API
+  slug: open-ku-leuven-builtin-users-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Datasetfields API
+  slug: open-ku-leuven-datasetfields-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Datasets API
+  slug: open-ku-leuven-datasets-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Datatags API
+  slug: open-ku-leuven-datatags-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access DataverseFeaturedItems API
+  slug: open-ku-leuven-dataversefeatureditems-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Dataverses API
+  slug: open-ku-leuven-dataverses-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Edit API
+  slug: open-ku-leuven-edit-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access ExternalTools API
+  slug: open-ku-leuven-externaltools-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Files API
+  slug: open-ku-leuven-files-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Harvest API
+  slug: open-ku-leuven-harvest-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Inbox API
+  slug: open-ku-leuven-inbox-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Info API
+  slug: open-ku-leuven-info-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Ingest API
+  slug: open-ku-leuven-ingest-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Licenses API
+  slug: open-ku-leuven-licenses-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Localcontexts API
+  slug: open-ku-leuven-localcontexts-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Logout API
+  slug: open-ku-leuven-logout-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Mail API
+  slug: open-ku-leuven-mail-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Meta API
+  slug: open-ku-leuven-meta-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Metadatablocks API
+  slug: open-ku-leuven-metadatablocks-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Mydata API
+  slug: open-ku-leuven-mydata-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Notifications API
+  slug: open-ku-leuven-notifications-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Pids API
+  slug: open-ku-leuven-pids-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access replaceFilesInDataset API
+  slug: open-ku-leuven-replacefilesindataset-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Roles API
+  slug: open-ku-leuven-roles-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access saveAuxiliaryFileWithVersion API
+  slug: open-ku-leuven-saveauxiliaryfilewithversion-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Search API
+  slug: open-ku-leuven-search-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Sendfeedback API
+  slug: open-ku-leuven-sendfeedback-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access uploadDatasetLogo API
+  slug: open-ku-leuven-uploaddatasetlogo-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Users API
+  slug: open-ku-leuven-users-api
+- collection_type: open
+  name: KU Leuven Research Data Repository (RDR) Access Workflows API
+  slug: open-ku-leuven-workflows-api
 common:
 - group: agent
   title: ''
@@ -269,7 +381,7 @@ plans:
 - name: Ku Leuven Plans Pricing
   plan_count: 2
   slug: ku-leuven-plans-pricing
-random_paper: 84
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Ku Leuven Rate Limits
@@ -317,7 +429,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/screenshots/ku-leuven-2026-06-20T184201.png
 security:

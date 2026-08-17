@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ name: Fleetzero
 nav: Providers
 network: true
 overview: Fleetzero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Maritime, Shipping, Batteries, and Energy Storage.
-random_paper: 16
+random_paper: 82
 score:
   band: minimal
   composite: 5.5
@@ -84,7 +84,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetzero/refs/heads/main/screenshots/fleetzero-2026-07-25T214742.png
 security:

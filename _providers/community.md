@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-12'
+  score: 46.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -50,11 +51,24 @@ apis:
 - description: The tags API from Community — 4 operation(s) for tags.
   name: Community tags API
   slug: community-tags-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Community Webhooks
   slug: community-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Async REST member-data API
+  slug: open-community-member-data-api
+- collection_type: open
+  name: Async REST member-data messaging API
+  slug: open-community-messaging-api
+- collection_type: open
+  name: Async REST member-data tags API
+  slug: open-community-tags-api
 common:
 - group: start
   title: ''
@@ -136,6 +150,18 @@ common:
   title: ''
   type: Authentication
   url: authentication/community-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/community-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/community-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/community-rate-limits.yml
 - group: company
   title: ''
   type: Blog
@@ -176,7 +202,7 @@ mcp_servers:
 - description: ''
   name: community-mcp.yml
   slug: community-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Community
 nav: Providers
 network: true
@@ -186,19 +212,27 @@ overview: 'Community publishes 3 APIs on the [APIs.io](https://apis.io/) network
   The Community catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Community''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 37
+  Community''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
+plans:
+- name: Community Plans Pricing
+  plan_count: 3
+  slug: community-plans-pricing
+random_paper: 103
+rate_limits:
+- limit_count: 0
+  name: Community Rate Limits
+  slug: community-rate-limits
 scopes:
 - name: Community Scopes
   scope_count: 0
   slug: community-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 52.1
-  delta: 0.0
+  band: strong
+  composite: 57.5
+  delta: 5.4
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 63.7
     developer_ergonomics: 56.0
     discoverability: 81.5
@@ -222,14 +256,14 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/screenshots/community-2026-07-25T210140.png
 security:
 - kind: authentication
   name: Community Authentication
   slug: community-authentication
-  summary_line: http/oauth2 · 2 schemes
+  summary_line: http/oauth2/apiKey · 3 schemes
 - kind: domain-security
   name: Community Domain Security
   slug: community-domain-security

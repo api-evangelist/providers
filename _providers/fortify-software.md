@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 28
 apis:
 - description: The ApiKeyManagement API from Fortify Software — 5 operation(s) for apikeymanagement.
@@ -115,7 +115,95 @@ apis:
 - description: The Vulnerabilities API from Fortify Software — 20 operation(s) for vulnerabilities.
   name: Fortify Software Vulnerabilities API
   slug: fortify-software-vulnerabilities-api
-artifact_total: 33
+artifact_total: 62
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement API
+  slug: open-fortify-software-apikeymanagement-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement Applications API
+  slug: open-fortify-software-applications-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement Attributes API
+  slug: open-fortify-software-attributes-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement AuditTemplate API
+  slug: open-fortify-software-audittemplate-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement DastAutomatedScans API
+  slug: open-fortify-software-dastautomatedscans-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement DynamicScans API
+  slug: open-fortify-software-dynamicscans-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement EventLogs API
+  slug: open-fortify-software-eventlogs-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement FortifyOnDemandConnectNetworks API
+  slug: open-fortify-software-fortifyondemandconnectnetworks-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement LookupItems API
+  slug: open-fortify-software-lookupitems-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement MobileScans API
+  slug: open-fortify-software-mobilescans-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement MultiFactorAuthorizationCode API
+  slug: open-fortify-software-multifactorauthorizationcode-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement Notifications API
+  slug: open-fortify-software-notifications-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement OpenSourceComponents API
+  slug: open-fortify-software-opensourcecomponents-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement OpenSourceScans API
+  slug: open-fortify-software-opensourcescans-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement PersonalAccessTokens API
+  slug: open-fortify-software-personalaccesstokens-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement Releases API
+  slug: open-fortify-software-releases-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement Reports API
+  slug: open-fortify-software-reports-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement Scans API
+  slug: open-fortify-software-scans-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement StaticScans API
+  slug: open-fortify-software-staticscans-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement TenantEntitlements API
+  slug: open-fortify-software-tenantentitlements-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement TenantHeatMaps API
+  slug: open-fortify-software-tenantheatmaps-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement Tenants API
+  slug: open-fortify-software-tenants-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement TenantSummary API
+  slug: open-fortify-software-tenantsummary-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement UserApplicationAccess API
+  slug: open-fortify-software-userapplicationaccess-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement UserGroupApplicationAccess API
+  slug: open-fortify-software-usergroupapplicationaccess-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement UserManagement API
+  slug: open-fortify-software-usermanagement-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement Users API
+  slug: open-fortify-software-users-api
+- collection_type: open
+  name: OpenText™ Core Application Security Web API Explorer ApiKeyManagement Vulnerabilities API
+  slug: open-fortify-software-vulnerabilities-api
 common:
 - group: other
   title: ''
@@ -229,7 +317,7 @@ overview: 'Fortify Software publishes 28 APIs on the [APIs.io](https://apis.io/)
 
 
   Fortify Software''s developer surface includes documentation, API reference, support, engineering blog, CLI, changelog, and 18 more developer resources.'
-random_paper: 11
+random_paper: 52
 scopes:
 - name: Fortify Software Scopes
   scope_count: 13
@@ -257,7 +345,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/screenshots/fortify-software-2026-07-25T215010.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -133,7 +133,7 @@ apis:
 - description: Business partner tax identification numbers
   name: SAP Tax Numbers API
   slug: sap-tax-numbers-api
-artifact_total: 160
+artifact_total: 176
 asyncapis:
 - description: Event-driven messaging API for SAP Business Technology Platform supporting AMQP, MQTT, and REST protocols. Enables publish/subscribe patterns for business events across SAP and third-party application
   name: SAP Event Mesh Events
@@ -185,14 +185,62 @@ collections:
   name: SAP AI Core Addresses Tax Numbers API
   slug: postman-sap-tax-numbers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP AI Core Addresses API
+  slug: open-sap-addresses-api
+- collection_type: open
   name: SAP AI Core API
   slug: open-sap-ai-core
+- collection_type: open
+  name: SAP AI Core Addresses Artifacts API
+  slug: open-sap-artifacts-api
+- collection_type: open
+  name: SAP AI Core Addresses Authentication API
+  slug: open-sap-authentication-api
+- collection_type: open
+  name: SAP AI Core Addresses Bank Accounts API
+  slug: open-sap-bank-accounts-api
 - collection_type: open
   name: SAP Business One Service Layer API
   slug: open-sap-business-one-service-layer
 - collection_type: open
+  name: SAP AI Core Addresses Business Partners API
+  slug: open-sap-business-partners-api
+- collection_type: open
+  name: SAP AI Core Addresses Configurations API
+  slug: open-sap-configurations-api
+- collection_type: open
+  name: SAP AI Core Addresses Deployments API
+  slug: open-sap-deployments-api
+- collection_type: open
+  name: SAP AI Core Addresses Executions API
+  slug: open-sap-executions-api
+- collection_type: open
+  name: SAP AI Core Addresses Invoices API
+  slug: open-sap-invoices-api
+- collection_type: open
+  name: SAP AI Core Addresses Items API
+  slug: open-sap-items-api
+- collection_type: open
+  name: SAP AI Core Addresses Journal Entries API
+  slug: open-sap-journal-entries-api
+- collection_type: open
+  name: SAP AI Core Addresses Orders API
+  slug: open-sap-orders-api
+- collection_type: open
+  name: SAP AI Core Addresses Roles API
+  slug: open-sap-roles-api
+- collection_type: open
   name: SAP S/4HANA Cloud Business Partner API
   slug: open-sap-s4hana-cloud-business-partner
+- collection_type: open
+  name: SAP AI Core Addresses Scenarios API
+  slug: open-sap-scenarios-api
+- collection_type: open
+  name: SAP AI Core Addresses Tax Numbers API
+  slug: open-sap-tax-numbers-api
 common:
 - group: build
   title: ''
@@ -612,7 +660,7 @@ plans:
 - name: Sap Plans Pricing
   plan_count: 1
   slug: sap-plans-pricing
-random_paper: 84
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Sap Rate Limits
@@ -667,7 +715,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:

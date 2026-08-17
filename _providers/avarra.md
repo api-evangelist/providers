@@ -9,27 +9,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 15.8
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: The production Avarra API, served from api.avarra.ai behind an AWS application load balancer. Every path under /v1/ is protected and returns a JSON 401 envelope without a bearer token; tokens are issu
+  name: Avarra API
+  slug: avarra-api
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -54,37 +58,98 @@ common:
 - group: auth
   title: ''
   type: Compliance
-  url: https://www.avarra.ai
+  url: https://www.avarra.ai/product
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.avarra.ai/msa
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.avarra.ai/blog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.avarra.ai
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/avarra-authentication.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/avarra-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/avarra-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/avarra-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/avarra-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/avarra-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/avarra-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/avarra-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/avarra-llms.txt
 created: '2026-07-17'
-description: 'Avarra is an AI-powered sales training and enablement platform that helps revenue teams onboard, coach, and certify sales representatives at scale. The platform turns real sales conversations into AI-driven role-play simulations, delivers personalized coaching feedback, standardizes sales methodology across teams and regions, and reports certification and performance analytics. Its workflow moves through five stages: Capture, Train, Practice, Certify, and Performance Insights, with the stated goal of cutting new-hire ramp time in half. Avarra is a Lightspeed Venture Partners portfolio company. As of this profile Avarra publishes a marketing and product site but no public developer API, documentation portal, or SDKs.'
+description: 'Avarra is an AI-powered sales training and enablement platform, operated by Ramp Systems, Inc., that helps revenue teams onboard, coach, and certify sales representatives at scale. The platform turns real sales conversations into AI-avatar role-play simulations delivered over Zoom, gives reps unlimited practice reps with instant coaching feedback, standardizes sales methodology across teams and regions, and reports certification and performance analytics through manager dashboards. Its workflow moves through five stages: Capture, Train, Practice, Certify, and Performance Insights, with the stated goal of cutting new-hire ramp time in half. Avarra is a Lightspeed Venture Partners portfolio company that exited stealth with $8M in seed funding. Avarra runs a production API at api.avarra.ai that publishes RFC 8414 OAuth 2.0 authorization server metadata and an RFC 7517 JWKS anonymously, but the entire /v1 resource surface is closed behind OAuth 2.0 client-credentials access and
+  the company publishes no OpenAPI, developer portal, API reference, SDKs, or pricing.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avarra.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-14'
 name: Avarra
 nav: Providers
 network: true
-overview: 'Avarra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Enablement, Sales Training, AI, and Coaching.
+overview: 'Avarra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Enablement, Sales Training, AI, and Coaching.
 
 
-  Avarra''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 37
+  Avarra''s developer surface includes signup flow, support, engineering blog, authentication, and 14 more developer resources.'
+plans:
+- name: Avarra Plans Pricing
+  plan_count: 0
+  slug: avarra-plans-pricing
+random_paper: 41
+rate_limits:
+- limit_count: 0
+  name: Avarra Rate Limits
+  slug: avarra-rate-limits
 score:
-  band: minimal
-  composite: 12.2
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: 12.0
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 4.3
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 15.8
   previous_composite: 12.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/avarra/refs/heads/main/screenshots/avarra-2026-07-25T201910.png
 security:
+- kind: authentication
+  name: Avarra Authentication
+  slug: avarra-authentication
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Avarra Domain Security
   slug: avarra-domain-security
@@ -99,5 +164,7 @@ tags:
 - Role-Play Simulation
 - Revenue Operations
 - Onboarding
+- Sales Readiness
+- Conversation Intelligence
 website: https://www.avarra.ai
 ---

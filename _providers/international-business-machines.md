@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -105,8 +105,11 @@ apis:
 - description: Manage worker pools.
   name: International Business Machines Worker Pools API
   slug: international-business-machines-worker-pools-api
-artifact_total: 50
+artifact_total: 73
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: International Business Machines IBM Cloud Object Storage API
   slug: open-ibm-cloud-object-storage
@@ -131,6 +134,72 @@ collections:
 - collection_type: open
   name: International Business Machines IBM watsonx Assistant v2 API
   slug: open-ibm-watsonx-assistant
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze API
+  slug: open-international-business-machines-analyze-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Buckets API
+  slug: open-international-business-machines-buckets-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Clusters API
+  slug: open-international-business-machines-clusters-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Custom Language Models API
+  slug: open-international-business-machines-custom-language-models-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Embeddings API
+  slug: open-international-business-machines-embeddings-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Environments API
+  slug: open-international-business-machines-environments-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Instances API
+  slug: open-international-business-machines-instances-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Messages API
+  slug: open-international-business-machines-messages-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Models API
+  slug: open-international-business-machines-models-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Objects API
+  slug: open-international-business-machines-objects-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Pronunciation API
+  slug: open-international-business-machines-pronunciation-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Recognition API
+  slug: open-international-business-machines-recognition-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Security Groups API
+  slug: open-international-business-machines-security-groups-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Sessions API
+  slug: open-international-business-machines-sessions-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Subnets API
+  slug: open-international-business-machines-subnets-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Synthesis API
+  slug: open-international-business-machines-synthesis-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Text Generation API
+  slug: open-international-business-machines-text-generation-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Voices API
+  slug: open-international-business-machines-voices-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Volumes API
+  slug: open-international-business-machines-volumes-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze VPCs API
+  slug: open-international-business-machines-vpcs-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Worker Nodes API
+  slug: open-international-business-machines-worker-nodes-api
+- collection_type: open
+  name: International Business Machines IBM Cloud Object Storage Analyze Worker Pools API
+  slug: open-international-business-machines-worker-pools-api
 common:
 - group: agent
   title: ''
@@ -229,7 +298,7 @@ plans:
 - name: International Business Machines Plans Pricing
   plan_count: 3
   slug: international-business-machines-plans-pricing
-random_paper: 86
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: International Business Machines Rate Limits
@@ -263,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-business-machines/refs/heads/main/screenshots/international-business-machines-2026-06-20T183455.png
 security:

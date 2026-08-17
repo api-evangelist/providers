@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Core Bloomberg API providing real-time and reference data access for financial applications across trading, risk, analytics, and compliance workflows.
@@ -101,7 +101,7 @@ plans:
 - name: Bloomberg Financial Solutions Plans Pricing
   plan_count: 3
   slug: bloomberg-financial-solutions-plans-pricing
-random_paper: 104
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Bloomberg Financial Solutions Rate Limits
@@ -125,7 +125,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-financial-solutions/refs/heads/main/screenshots/bloomberg-financial-solutions-2026-06-20T173430.png
 security:

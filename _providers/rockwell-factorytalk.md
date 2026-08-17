@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,15 +57,30 @@ apis:
 - description: Historical trend data retrieval
   name: rockwell-factorytalk TrendData API
   slug: rockwell-factorytalk-trenddata-api
-artifact_total: 23
+artifact_total: 28
 asyncapis:
 - description: Rockwell FactoryTalk Hub provides real-time industrial event streaming via webhooks and subscriptions. Events include tag value changes, alarm activations, and device connectivity notifications for co
   name: Rockwell FactoryTalk Hub Real-Time Events API
   slug: rockwell-factorytalk-realtime-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rockwell FactoryTalk Optix REST Alarms API
+  slug: open-rockwell-factorytalk-alarms-api
+- collection_type: open
   name: Rockwell FactoryTalk Optix REST API
   slug: open-rockwell-factorytalk-optix
+- collection_type: open
+  name: Rockwell FactoryTalk Optix REST Alarms Recipes API
+  slug: open-rockwell-factorytalk-recipes-api
+- collection_type: open
+  name: Rockwell FactoryTalk Optix REST Alarms Tags API
+  slug: open-rockwell-factorytalk-tags-api
+- collection_type: open
+  name: Rockwell FactoryTalk Optix REST Alarms TrendData API
+  slug: open-rockwell-factorytalk-trenddata-api
 common:
 - group: agent
   title: ''
@@ -181,7 +196,7 @@ plans:
 - name: Rockwell Factorytalk Plans Pricing
   plan_count: 1
   slug: rockwell-factorytalk-plans-pricing
-random_paper: 60
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Rockwell Factorytalk Rate Limits
@@ -236,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/screenshots/rockwell-factorytalk-2026-06-20T193201.png
 security:

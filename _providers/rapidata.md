@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 55
 apis:
 - description: The Asset API from Rapidata — 3 operation(s) for asset.
@@ -196,7 +196,176 @@ apis:
 - description: The Workflow API from Rapidata — 5 operation(s) for workflow.
   name: Rapidata Workflow API
   slug: rapidata-workflow-api
-artifact_total: 59
+artifact_total: 115
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rapidata Asset API
+  slug: open-rapidata-asset-api
+- collection_type: open
+  name: Rapidata Asset Audience API
+  slug: open-rapidata-audience-api
+- collection_type: open
+  name: Rapidata Asset BatchUpload API
+  slug: open-rapidata-batchupload-api
+- collection_type: open
+  name: Rapidata Asset Benchmark API
+  slug: open-rapidata-benchmark-api
+- collection_type: open
+  name: Rapidata Asset Billing API
+  slug: open-rapidata-billing-api
+- collection_type: open
+  name: Rapidata Asset BillingAccount API
+  slug: open-rapidata-billingaccount-api
+- collection_type: open
+  name: Rapidata Asset Cache API
+  slug: open-rapidata-cache-api
+- collection_type: open
+  name: Rapidata Asset Campaign API
+  slug: open-rapidata-campaign-api
+- collection_type: open
+  name: Rapidata Asset Client API
+  slug: open-rapidata-client-api
+- collection_type: open
+  name: Rapidata Asset ContextShortening API
+  slug: open-rapidata-contextshortening-api
+- collection_type: open
+  name: Rapidata Asset Customer API
+  slug: open-rapidata-customer-api
+- collection_type: open
+  name: Rapidata Asset CustomerRapid API
+  slug: open-rapidata-customerrapid-api
+- collection_type: open
+  name: Rapidata Asset Datapoints API
+  slug: open-rapidata-datapoints-api
+- collection_type: open
+  name: Rapidata Asset Dataset API
+  slug: open-rapidata-dataset-api
+- collection_type: open
+  name: Rapidata Asset DatasetGroup API
+  slug: open-rapidata-datasetgroup-api
+- collection_type: open
+  name: Rapidata Asset Evaluation API
+  slug: open-rapidata-evaluation-api
+- collection_type: open
+  name: Rapidata Asset Examples API
+  slug: open-rapidata-examples-api
+- collection_type: open
+  name: Rapidata Asset ExternalAudience API
+  slug: open-rapidata-externalaudience-api
+- collection_type: open
+  name: Rapidata Asset ExternalServicePrices API
+  slug: open-rapidata-externalserviceprices-api
+- collection_type: open
+  name: Rapidata Asset Faucet API
+  slug: open-rapidata-faucet-api
+- collection_type: open
+  name: Rapidata Asset Feedback API
+  slug: open-rapidata-feedback-api
+- collection_type: open
+  name: Rapidata Asset Flow API
+  slug: open-rapidata-flow-api
+- collection_type: open
+  name: Rapidata Asset FlowItem API
+  slug: open-rapidata-flowitem-api
+- collection_type: open
+  name: Rapidata Asset GlobalText API
+  slug: open-rapidata-globaltext-api
+- collection_type: open
+  name: Rapidata Asset GroupedRanking API
+  slug: open-rapidata-groupedranking-api
+- collection_type: open
+  name: Rapidata Asset Identity API
+  slug: open-rapidata-identity-api
+- collection_type: open
+  name: Rapidata Asset Invoice API
+  slug: open-rapidata-invoice-api
+- collection_type: open
+  name: Rapidata Asset Job API
+  slug: open-rapidata-job-api
+- collection_type: open
+  name: Rapidata Asset Leaderboard API
+  slug: open-rapidata-leaderboard-api
+- collection_type: open
+  name: Rapidata Asset Newsletter API
+  slug: open-rapidata-newsletter-api
+- collection_type: open
+  name: Rapidata Asset Order API
+  slug: open-rapidata-order-api
+- collection_type: open
+  name: Rapidata Asset Organization API
+  slug: open-rapidata-organization-api
+- collection_type: open
+  name: Rapidata Asset Participant API
+  slug: open-rapidata-participant-api
+- collection_type: open
+  name: Rapidata Asset Payment API
+  slug: open-rapidata-payment-api
+- collection_type: open
+  name: Rapidata Asset Pipeline API
+  slug: open-rapidata-pipeline-api
+- collection_type: open
+  name: Rapidata Asset Prompt API
+  slug: open-rapidata-prompt-api
+- collection_type: open
+  name: Rapidata Asset Ranking API
+  slug: open-rapidata-ranking-api
+- collection_type: open
+  name: Rapidata Asset RankingFlow API
+  slug: open-rapidata-rankingflow-api
+- collection_type: open
+  name: Rapidata Asset RankingFlowItem API
+  slug: open-rapidata-rankingflowitem-api
+- collection_type: open
+  name: Rapidata Asset Rapid API
+  slug: open-rapidata-rapid-api
+- collection_type: open
+  name: Rapidata Asset Rapidata.Identity.API API
+  slug: open-rapidata-rapidata-identity-api-api
+- collection_type: open
+  name: Rapidata Asset Reconciliation API
+  slug: open-rapidata-reconciliation-api
+- collection_type: open
+  name: Rapidata Asset Replicate API
+  slug: open-rapidata-replicate-api
+- collection_type: open
+  name: Rapidata Asset Sample API
+  slug: open-rapidata-sample-api
+- collection_type: open
+  name: Rapidata Asset SampleGeneration API
+  slug: open-rapidata-samplegeneration-api
+- collection_type: open
+  name: Rapidata Asset Settings API
+  slug: open-rapidata-settings-api
+- collection_type: open
+  name: Rapidata Asset Signal API
+  slug: open-rapidata-signal-api
+- collection_type: open
+  name: Rapidata Asset SimpleWorkflow API
+  slug: open-rapidata-simpleworkflow-api
+- collection_type: open
+  name: Rapidata Asset Survey API
+  slug: open-rapidata-survey-api
+- collection_type: open
+  name: Rapidata Asset Translation API
+  slug: open-rapidata-translation-api
+- collection_type: open
+  name: Rapidata Asset UserRapid API
+  slug: open-rapidata-userrapid-api
+- collection_type: open
+  name: Rapidata Asset ValidationFeedback API
+  slug: open-rapidata-validationfeedback-api
+- collection_type: open
+  name: Rapidata Asset ValidationSet API
+  slug: open-rapidata-validationset-api
+- collection_type: open
+  name: Rapidata Asset VolumeDiscount API
+  slug: open-rapidata-volumediscount-api
+- collection_type: open
+  name: Rapidata Asset Workflow API
+  slug: open-rapidata-workflow-api
 common:
 - group: start
   title: ''
@@ -326,7 +495,7 @@ overview: 'Rapidata publishes 55 APIs on the [APIs.io](https://apis.io/) network
 
 
   Rapidata''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 118
+random_paper: 93
 scopes:
 - name: Rapidata Scopes
   scope_count: 9
@@ -354,7 +523,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

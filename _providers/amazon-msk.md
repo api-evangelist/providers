@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -58,7 +58,7 @@ apis:
 - description: The Tags API from Amazon MSK — 2 operation(s) for tags.
   name: Amazon MSK Tags API
   slug: amazon-msk-tags-api
-artifact_total: 439
+artifact_total: 446
 collections:
 - collection_type: postman
   name: Managed Streaming for Kafka Clusters API
@@ -78,6 +78,27 @@ collections:
 - collection_type: postman
   name: Managed Streaming for Kafka Clusters Tags API
   slug: postman-amazon-msk-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Managed Streaming for Kafka Clusters API
+  slug: open-amazon-msk-clusters-api
+- collection_type: open
+  name: Managed Streaming for Kafka Clusters Compatible Kafka Versions API
+  slug: open-amazon-msk-compatible-kafka-versions-api
+- collection_type: open
+  name: Managed Streaming for Kafka Clusters Configurations API
+  slug: open-amazon-msk-configurations-api
+- collection_type: open
+  name: Managed Streaming for Kafka Clusters Kafka Versions API
+  slug: open-amazon-msk-kafka-versions-api
+- collection_type: open
+  name: Managed Streaming for Kafka Clusters Operations API
+  slug: open-amazon-msk-operations-api
+- collection_type: open
+  name: Managed Streaming for Kafka Clusters Tags API
+  slug: open-amazon-msk-tags-api
 - collection_type: open
   name: Amazon MSK API
   slug: open-openapi
@@ -1425,7 +1446,7 @@ plans:
 - name: Amazon Msk Plans Pricing
   plan_count: 3
   slug: amazon-msk-plans-pricing
-random_paper: 62
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Amazon Msk Rate Limits
@@ -1467,7 +1488,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/screenshots/amazon-msk-2026-06-20T171749.png
 security:

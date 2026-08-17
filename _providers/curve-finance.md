@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,8 +68,35 @@ apis:
 - description: The Volumes and APYs API from Curve Finance — 8 operation(s) for volumes and apys.
   name: Curve Finance Volumes and APYs API
   slug: curve-finance-volumes-and-apys-api
-artifact_total: 18
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Curve.finance crvUSD API
+  slug: open-curve-finance-crvusd-api
+- collection_type: open
+  name: Curve.finance crvUSD Deprecated API
+  slug: open-curve-finance-deprecated-api
+- collection_type: open
+  name: Curve.finance crvUSD Gauges API
+  slug: open-curve-finance-gauges-api
+- collection_type: open
+  name: Curve.finance crvUSD Lending API
+  slug: open-curve-finance-lending-api
+- collection_type: open
+  name: Curve.finance crvUSD Misc API
+  slug: open-curve-finance-misc-api
+- collection_type: open
+  name: Curve.finance crvUSD Pools API
+  slug: open-curve-finance-pools-api
+- collection_type: open
+  name: Curve.finance crvUSD Tokens API
+  slug: open-curve-finance-tokens-api
+- collection_type: open
+  name: Curve.finance crvUSD Volumes and APYs API
+  slug: open-curve-finance-volumes-and-apys-api
 - collection_type: open
   name: Curve.finance API
   slug: open-curve-finance
@@ -146,7 +173,7 @@ plans:
 - name: Curve Finance Plans Pricing
   plan_count: 2
   slug: curve-finance-plans-pricing
-random_paper: 118
+random_paper: 126
 rate_limits:
 - limit_count: 1
   name: Curve Finance Rate Limits
@@ -171,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/screenshots/curve-finance-2026-06-20T175354.png
 security:

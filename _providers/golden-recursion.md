@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,12 +24,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-12'
+  score: 48.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +55,20 @@ arazzos:
 - description: Resolve a saved Golden query by its permalink and page through its entity results.
   name: Golden — run a saved query by permalink
   slug: golden-recursion-saved-query
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Golden API v2 Entity API API
+  slug: open-golden-recursion-entity-api-api
+- collection_type: open
+  name: Golden API v2 Entity API Query API API
+  slug: open-golden-recursion-query-api-api
+- collection_type: open
+  name: Golden API v2 Entity API Schema API API
+  slug: open-golden-recursion-schema-api-api
 common:
 - group: start
   title: ''
@@ -75,19 +89,15 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://golden.com/help
-- group: company
+  url: https://goldenhq.notion.site/goldenhq/Golden-Guide-1eef7518f3ca43da8d6ee4d54307801b
+- group: operate
   title: ''
-  type: Blog
-  url: https://golden.com/blog
+  type: HelpCenter
+  url: https://goldenhq.notion.site/goldenhq/Golden-Guide-1eef7518f3ca43da8d6ee4d54307801b
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/goldenrecursion
-- group: operate
-  title: ''
-  type: Roadmap
-  url: https://golden.com/roadmap
 - group: commercial
   title: ''
   type: Pricing
@@ -103,11 +113,11 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://golden.com/terms
+  url: https://golden.com/about/terms-of-service
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://golden.com/privacy
+  url: https://golden.com/about/privacy-policy
 - group: auth
   title: ''
   type: Authentication
@@ -172,34 +182,51 @@ common:
   title: ''
   type: DomainSecurity
   url: security/golden-recursion-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/golden-recursion-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/golden-recursion-rate-limits.yml
 created: '2026-07-17'
-description: 'Golden Recursion Inc. builds Golden, a San Francisco company using machine intelligence to construct a self-building knowledge graph of millions of connected entities — companies, people, venture-capital firms and products — each described by structured, cited properties. The Golden API v2 gives developers read-only, programmatic access to the same data that powers the Golden Query Tool: retrieve entities and their cited properties, pull the results of saved queries by ID or permalink, and introspect the entity-type and predicate schema. Responses are structured JSON with underlying source citations so every value can be traced. Authentication is a simple apikey header. Golden also ships godel, an open-source Python SDK for its protocol GraphQL API. Backed by a16z.'
+description: 'Golden Recursion Inc. builds Golden, a San Francisco company using machine intelligence to construct a self-building knowledge graph of millions of connected entities — companies, people, venture-capital firms and products — each described by structured, cited properties. The Golden API v2 gives developers read-only, programmatic access to the same data that powers the Golden Query Tool: retrieve entities and their cited properties, pull the results of saved queries by ID or permalink, and introspect the entity-type and predicate schema. Responses are structured JSON with underlying source citations so every value can be traced. Authentication is a simple apikey header. Golden also published godel, an open-source Python SDK for its separate golden.xyz protocol GraphQL API. Backed by a16z ($59.5M raised); Golden was acquired by ComplyAdvantage on 2024-04-24 and golden.com now serves an acquisition notice, though the API v2 endpoints and the Scalar API reference at docs.golden.com
+  remain live and were re-verified 2026-08-14.'
 image: https://golden.com/static/images/38d57130206f78fb48c9.png
 layout: provider
 mcp_servers:
 - description: ''
   name: golden-recursion-mcp.yml
   slug: golden-recursion-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-14'
 name: Golden Recursion
 nav: Providers
 network: true
 overview: 'Golden Recursion publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entity API API, Query API API, and Schema API API. Tagged areas include Company, Knowledge Graph, Data Enrichment, Entity Data, and Company Data.
 
 
-  Golden Recursion''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 104
+  Golden Recursion''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 23 more developer resources.'
+plans:
+- name: Golden Recursion Plans Pricing
+  plan_count: 4
+  slug: golden-recursion-plans-pricing
+random_paper: 25
+rate_limits:
+- limit_count: 3
+  name: Golden Recursion Rate Limits
+  slug: golden-recursion-rate-limits
 score:
-  band: developing
-  composite: 46.9
-  delta: 0.0
+  band: strong
+  composite: 56.2
+  delta: 9.3
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 58.2
-    developer_ergonomics: 62.5
+    developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 10.5
+    operational_transparency: 36.8
   previous_composite: 46.9
   provenance:
     agentic_access: derived
@@ -212,8 +239,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/screenshots/golden-recursion-2026-07-25T220029.png
 security:
 - kind: authentication

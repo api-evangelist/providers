@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -81,15 +81,45 @@ apis:
 - description: Sticker pack management endpoints for uploading and retrieving sticker packs.
   name: Signal Stickers API
   slug: signal-stickers-api
-artifact_total: 31
+artifact_total: 41
 asyncapis:
 - description: 'The Signal Server real-time messaging interface provides WebSocket connections for persistent, bidirectional communication between Signal clients and the server. When a client has an active WebSocket '
   name: Signal Server Real-Time Events
   slug: signal-server-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Signal Server Accounts API
+  slug: open-signal-accounts-api
+- collection_type: open
+  name: Signal Server Accounts Attachments API
+  slug: open-signal-attachments-api
+- collection_type: open
+  name: Signal Server Accounts Certificates API
+  slug: open-signal-certificates-api
+- collection_type: open
+  name: Signal Server Accounts Devices API
+  slug: open-signal-devices-api
+- collection_type: open
+  name: Signal Server Accounts Keys API
+  slug: open-signal-keys-api
+- collection_type: open
+  name: Signal Server Accounts Messages API
+  slug: open-signal-messages-api
+- collection_type: open
+  name: Signal Server Accounts Profiles API
+  slug: open-signal-profiles-api
+- collection_type: open
+  name: Signal Server Accounts Registration API
+  slug: open-signal-registration-api
+- collection_type: open
   name: Signal Server API
   slug: open-signal-server
+- collection_type: open
+  name: Signal Server Accounts Stickers API
+  slug: open-signal-stickers-api
 common:
 - group: agent
   title: ''
@@ -182,7 +212,7 @@ plans:
 - name: Signal Plans Pricing
   plan_count: 1
   slug: signal-plans-pricing
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Signal Rate Limits
@@ -232,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/screenshots/signal-2026-06-20T193905.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -48,14 +48,26 @@ apis:
 - description: Send transactional and bulk emails
   name: Mailtrap Send API
   slug: mailtrap-send-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Mailtrap Email Sending API
   slug: open-mailtrap-email-api
 - collection_type: open
   name: Mailtrap Email Sandbox API
   slug: open-mailtrap-email-sandbox
+- collection_type: open
+  name: Mailtrap Email Sending Inboxes API
+  slug: open-mailtrap-inboxes-api
+- collection_type: open
+  name: Mailtrap Email Sending Inboxes Messages API
+  slug: open-mailtrap-messages-api
+- collection_type: open
+  name: Mailtrap Email Sending Inboxes Send API
+  slug: open-mailtrap-send-api
 common:
 - group: agent
   title: ''
@@ -141,7 +153,7 @@ plans:
 - name: Mailtrap Plans Pricing
   plan_count: 3
   slug: mailtrap-plans-pricing
-random_paper: 18
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Mailtrap Rate Limits
@@ -166,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/screenshots/mailtrap-2026-06-20T184904.png
 security:

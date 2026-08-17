@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 354
   human_in_the_loop: 0
@@ -91,7 +91,74 @@ apis:
 - description: The yoast/v1 API from Ascend Elements — 46 operation(s) for yoast/v1.
   name: Ascend Elements Yoast/v1 API
   slug: ascend-elements-yoast-v1-api
-artifact_total: 25
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ascend Elements WordPress REST Complianz/v1 API
+  slug: open-ascend-elements-complianz-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Core API
+  slug: open-ascend-elements-core-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Cptui/v1 API
+  slug: open-ascend-elements-cptui-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Ea11y/v1 API
+  slug: open-ascend-elements-ea11y-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Elementor Ai/v1 API
+  slug: open-ascend-elements-elementor-ai-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Elementor One/v1 API
+  slug: open-ascend-elements-elementor-one-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Elementor Pro/v1 API
+  slug: open-ascend-elements-elementor-pro-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Elementor/v1 API
+  slug: open-ascend-elements-elementor-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Elementor/v1/documents API
+  slug: open-ascend-elements-elementor-v1-documents-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Elementor/v1/feedback API
+  slug: open-ascend-elements-elementor-v1-feedback-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Facetwp/v1 API
+  slug: open-ascend-elements-facetwp-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Image Optimizer/v1 API
+  slug: open-ascend-elements-image-optimizer-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Oembed/1.0 API
+  slug: open-ascend-elements-oembed-1-0-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Site Mailer/v1 API
+  slug: open-ascend-elements-site-mailer-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Wp Abilities/v1 API
+  slug: open-ascend-elements-wp-abilities-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Wp Block Editor/v1 API
+  slug: open-ascend-elements-wp-block-editor-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Wp Site Health/v1 API
+  slug: open-ascend-elements-wp-site-health-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Wp/v2 API
+  slug: open-ascend-elements-wp-v2-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Wpe/cache Plugin/v1 API
+  slug: open-ascend-elements-wpe-cache-plugin-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Wpe Sign On Plugin/v1 API
+  slug: open-ascend-elements-wpe-sign-on-plugin-v1-api
+- collection_type: open
+  name: Ascend Elements WordPress REST Yoast/v1 API
+  slug: open-ascend-elements-yoast-v1-api
 common:
 - group: other
   title: ''
@@ -226,7 +293,7 @@ overview: 'Ascend Elements publishes 21 APIs on the [APIs.io](https://apis.io/) 
 
 
   Ascend Elements'' developer surface includes engineering blog, privacy policy, YouTube channel, authentication, and 25 more developer resources.'
-random_paper: 88
+random_paper: 38
 score:
   band: emerging
   composite: 18.9
@@ -250,7 +317,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

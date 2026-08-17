@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 135
   human_in_the_loop: 1
@@ -78,7 +78,44 @@ apis:
 - description: The Utility API from Nuix — 3 operation(s) for utility.
   name: Nuix Utility API
   slug: nuix-utility-api
-artifact_total: 356
+artifact_total: 368
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case API
+  slug: open-nuix-case-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Collection and Survey API
+  slug: open-nuix-collection-and-survey-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Collection Configuration API
+  slug: open-nuix-collection-configuration-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Computer API
+  slug: open-nuix-computer-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Computer Configuration API
+  slug: open-nuix-computer-configuration-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Custodian API
+  slug: open-nuix-custodian-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Group API
+  slug: open-nuix-group-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Job API
+  slug: open-nuix-job-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Log API
+  slug: open-nuix-log-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Target API
+  slug: open-nuix-target-api
+- collection_type: open
+  name: NUIX ECC REST API Command Reference Case Utility API
+  slug: open-nuix-utility-api
 common:
 - group: agent
   title: ''
@@ -1173,7 +1210,7 @@ plans:
 - name: Nuix Plans Pricing
   plan_count: 4
   slug: nuix-plans-pricing
-random_paper: 92
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Nuix Rate Limits
@@ -1207,7 +1244,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/screenshots/nuix-2026-06-20T190513.png
 security:

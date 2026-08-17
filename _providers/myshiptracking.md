@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Vessel positions, particulars, history, and search.
   name: MyShipTracking Vessels API
   slug: myshiptracking-vessels-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MyShipTracking Account API
+  slug: open-myshiptracking-account-api
+- collection_type: open
+  name: MyShipTracking Account Ports API
+  slug: open-myshiptracking-ports-api
+- collection_type: open
+  name: MyShipTracking Account Vessels API
+  slug: open-myshiptracking-vessels-api
 - collection_type: open
   name: MyShipTracking API
   slug: open-myshiptracking
@@ -110,7 +122,7 @@ plans:
 - name: Myshiptracking Plans Pricing
   plan_count: 5
   slug: myshiptracking-plans-pricing
-random_paper: 77
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Myshiptracking Rate Limits
@@ -135,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/screenshots/myshiptracking-2026-08-07T184540.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Payer directory, enrollment, appeals, and webhooks.
   name: Claim.MD Reference API
   slug: claim-md-reference-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Claim.MD Claim Status API
+  slug: open-claim-md-claim-status-api
+- collection_type: open
+  name: Claim.MD Claim Status Claims API
+  slug: open-claim-md-claims-api
+- collection_type: open
+  name: Claim.MD Claim Status Eligibility API
+  slug: open-claim-md-eligibility-api
+- collection_type: open
+  name: Claim.MD Claim Status ERA API
+  slug: open-claim-md-era-api
+- collection_type: open
+  name: Claim.MD Claim Status Reference API
+  slug: open-claim-md-reference-api
 - collection_type: open
   name: Claim.MD API
   slug: open-claim-md
@@ -120,7 +138,7 @@ plans:
 - name: Claim Md Plans Pricing
   plan_count: 2
   slug: claim-md-plans-pricing
-random_paper: 52
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Claim Md Rate Limits
@@ -151,7 +169,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/screenshots/claim-md-2026-07-25T205451.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -77,11 +77,54 @@ apis:
 - description: Sharing your forecasts helps us better understand your resources' expected behaviour, leading to improved flexibility opportunities and optimised market participation. See the [guide](/guides/connect/
   name: Powernaut uploading_forecasts API
   slug: powernaut-uploading-forecasts-api
-artifact_total: 18
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Powernaut Webhooks
   slug: powernaut-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Powernaut authentication API
+  slug: open-powernaut-authentication-api
+- collection_type: open
+  name: Powernaut authentication baselining API
+  slug: open-powernaut-baselining-api
+- collection_type: open
+  name: Powernaut authentication creating_bids API
+  slug: open-powernaut-creating-bids-api
+- collection_type: open
+  name: Powernaut authentication events API
+  slug: open-powernaut-events-api
+- collection_type: open
+  name: Powernaut authentication getting_forecasts API
+  slug: open-powernaut-getting-forecasts-api
+- collection_type: open
+  name: Powernaut authentication historical_data API
+  slug: open-powernaut-historical-data-api
+- collection_type: open
+  name: Powernaut authentication managing_bids API
+  slug: open-powernaut-managing-bids-api
+- collection_type: open
+  name: Powernaut authentication markets API
+  slug: open-powernaut-markets-api
+- collection_type: open
+  name: Powernaut authentication metrics API
+  slug: open-powernaut-metrics-api
+- collection_type: open
+  name: Powernaut authentication resources API
+  slug: open-powernaut-resources-api
+- collection_type: open
+  name: Powernaut authentication sensor_data API
+  slug: open-powernaut-sensor-data-api
+- collection_type: open
+  name: Powernaut authentication sites API
+  slug: open-powernaut-sites-api
+- collection_type: open
+  name: Powernaut authentication uploading_forecasts API
+  slug: open-powernaut-uploading-forecasts-api
 common:
 - group: other
   title: ''
@@ -190,7 +233,7 @@ overview: 'Powernaut publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 37
+random_paper: 103
 score:
   band: thin
   composite: 40.0
@@ -220,7 +263,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

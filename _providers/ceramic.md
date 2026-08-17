@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -68,7 +68,41 @@ apis:
 - description: The Version API from Ceramic — 1 operation(s) for version.
   name: Ceramic Version API
   slug: ceramic-version-api
-artifact_total: 35
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ceramic Config API
+  slug: open-ceramic-config-api
+- collection_type: open
+  name: Ceramic Config Debug API
+  slug: open-ceramic-debug-api
+- collection_type: open
+  name: Ceramic Config Events API
+  slug: open-ceramic-events-api
+- collection_type: open
+  name: Ceramic Config Experimental API
+  slug: open-ceramic-experimental-api
+- collection_type: open
+  name: Ceramic Config Feed API
+  slug: open-ceramic-feed-api
+- collection_type: open
+  name: Ceramic Config Interests API
+  slug: open-ceramic-interests-api
+- collection_type: open
+  name: Ceramic Config Liveness API
+  slug: open-ceramic-liveness-api
+- collection_type: open
+  name: Ceramic Config Peers API
+  slug: open-ceramic-peers-api
+- collection_type: open
+  name: Ceramic Config Streams API
+  slug: open-ceramic-streams-api
+- collection_type: open
+  name: Ceramic Config Version API
+  slug: open-ceramic-version-api
 common:
 - group: agent
   title: ''
@@ -208,7 +242,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 4
+random_paper: 128
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -242,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/screenshots/ceramic-2026-06-20T174136.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API for the Anomalo data quality platform. Connect and refresh data warehouses, configure which tables are monitored, author and run data quality checks, read check-run results and table data pro
@@ -27,7 +27,14 @@ apis:
 - description: Official Anomalo MCP (Model Context Protocol) server, published by Anomalo as a Google Gemini CLI extension under the Apache-2.0 license. Runs locally over stdio against a customer's own Anomalo insta
   name: Anomalo MCP Server
   slug: anomalo-mcp-server
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Anomalo Public API
+  slug: open-anomalo-public-api
+- collection_type: open
+  name: Anomalo Unstructured Data API
+  slug: open-anomalo-unstructured
 common:
 - group: operate
   title: ''
@@ -158,7 +165,7 @@ overview: 'Anomalo publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 21 more developer resources.'
-random_paper: 23
+random_paper: 147
 scopes:
 - name: Anomalo Scopes
   scope_count: 3
@@ -186,7 +193,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/screenshots/anomalo-2026-08-07T161419.png
 security:

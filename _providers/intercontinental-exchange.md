@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: The ICE Mortgage Technology Developer Portal is a self-service solution providing developers with resources and documentation to build and deploy mortgage lending applications. It includes a comprehen
   name: ICE Mortgage Technology Developer Portal
   slug: mortgage-technology-api
-artifact_total: 12
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: ICE Consolidated Feed API
   slug: open-ice-consolidated-feed-api
+- collection_type: open
+  name: ICE Consolidated Feed Instruments API
+  slug: open-intercontinental-exchange-instruments-api
+- collection_type: open
+  name: ICE Consolidated Feed Instruments Market Data API
+  slug: open-intercontinental-exchange-market-data-api
+- collection_type: open
+  name: ICE Consolidated Feed Instruments Reference Data API
+  slug: open-intercontinental-exchange-reference-data-api
 common:
 - group: agent
   title: ''
@@ -194,7 +206,7 @@ press:
 - date: '2026-05-25'
   title: National Housing Conference and ICE host industry ...
   url: https://nhc.org/press-release/national-housing-conference-and-ice-host-industry-leaders-and-experts-to-explore-technologys-transformative-impact-on-housing-finance/
-random_paper: 89
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Intercontinental Exchange Rate Limits
@@ -228,7 +240,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
 security:

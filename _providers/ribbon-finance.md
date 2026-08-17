@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -69,7 +69,35 @@ apis:
 - description: Trade and transaction history endpoints
   name: Ribbon Finance Trade History API
   slug: ribbon-finance-trade-history-api
-artifact_total: 18
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aevo Exchange Private REST Account API
+  slug: open-ribbon-finance-account-api
+- collection_type: open
+  name: Aevo Exchange Private REST Account API Keys API
+  slug: open-ribbon-finance-api-keys-api
+- collection_type: open
+  name: Aevo Exchange Private REST Account Instruments API
+  slug: open-ribbon-finance-instruments-api
+- collection_type: open
+  name: Aevo Exchange Private REST Account Market Data API
+  slug: open-ribbon-finance-market-data-api
+- collection_type: open
+  name: Aevo Exchange Private REST Account Orders API
+  slug: open-ribbon-finance-orders-api
+- collection_type: open
+  name: Aevo Exchange Private REST Account Positions API
+  slug: open-ribbon-finance-positions-api
+- collection_type: open
+  name: Aevo Exchange Private REST Account Statistics API
+  slug: open-ribbon-finance-statistics-api
+- collection_type: open
+  name: Aevo Exchange Private REST Account Trade History API
+  slug: open-ribbon-finance-trade-history-api
 common:
 - group: agent
   title: ''
@@ -151,7 +179,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 85
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Aevo Websocket
@@ -179,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/screenshots/ribbon-finance-2026-06-20T193110.png
 security:

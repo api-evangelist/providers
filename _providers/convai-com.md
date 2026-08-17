@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The TTS API from Convai — 3 operation(s) for tts.
   name: Convai TTS API
   slug: convai-com-tts-api
-artifact_total: 40
+artifact_total: 51
 collections:
 - collection_type: postman
   name: Convai Character Characters API
@@ -102,11 +102,44 @@ collections:
   name: Convai Character Characters TTS API
   slug: postman-convai-com-tts-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Convai Character API
   slug: open-convai-character-api
 - collection_type: open
   name: Convai Chat History API
   slug: open-convai-chat-history-api
+- collection_type: open
+  name: Convai Character Characters API
+  slug: open-convai-com-characters-api
+- collection_type: open
+  name: Convai Character Characters Chat History API
+  slug: open-convai-com-chat-history-api
+- collection_type: open
+  name: Convai Character Characters Custom LLM API
+  slug: open-convai-com-custom-llm-api
+- collection_type: open
+  name: Convai Character Characters Evaluation API
+  slug: open-convai-com-evaluation-api
+- collection_type: open
+  name: Convai Character Characters Interaction API
+  slug: open-convai-com-interaction-api
+- collection_type: open
+  name: Convai Character Characters Knowledge Bank API
+  slug: open-convai-com-knowledge-bank-api
+- collection_type: open
+  name: Convai Character Characters Live API
+  slug: open-convai-com-live-api
+- collection_type: open
+  name: Convai Character Characters Narrative API
+  slug: open-convai-com-narrative-api
+- collection_type: open
+  name: Convai Character Characters Streaming API
+  slug: open-convai-com-streaming-api
+- collection_type: open
+  name: Convai Character Characters TTS API
+  slug: open-convai-com-tts-api
 - collection_type: open
   name: Convai Custom LLM API
   slug: open-convai-custom-llm-api
@@ -278,7 +311,7 @@ plans:
 - name: Convai Plans Pricing
   plan_count: 5
   slug: convai-plans-pricing
-random_paper: 44
+random_paper: 110
 rate_limits:
 - limit_count: 7
   name: Convai Rate Limits
@@ -312,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/screenshots/convai-com-2026-06-20T174957.png
 security:

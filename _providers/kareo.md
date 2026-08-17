@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -62,7 +62,29 @@ apis:
 - description: Provider and practice administration
   name: Kareo Providers API
   slug: kareo-providers-api
-artifact_total: 22
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kareo Integration SOAP Administrative API
+  slug: open-kareo-administrative-api
+- collection_type: open
+  name: Kareo Integration SOAP Administrative Appointments API
+  slug: open-kareo-appointments-api
+- collection_type: open
+  name: Kareo Integration SOAP Administrative Billing API
+  slug: open-kareo-billing-api
+- collection_type: open
+  name: Kareo Integration SOAP Administrative Encounters API
+  slug: open-kareo-encounters-api
+- collection_type: open
+  name: Kareo Integration SOAP Administrative Patients API
+  slug: open-kareo-patients-api
+- collection_type: open
+  name: Kareo Integration SOAP Administrative Providers API
+  slug: open-kareo-providers-api
 common:
 - group: agent
   title: ''
@@ -168,7 +190,7 @@ plans:
 - name: Kareo Plans Pricing
   plan_count: 5
   slug: kareo-plans-pricing
-random_paper: 50
+random_paper: 83
 rate_limits:
 - limit_count: 2
   name: Kareo Rate Limits
@@ -208,7 +230,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/screenshots/kareo-2026-06-20T183920.png
 security:

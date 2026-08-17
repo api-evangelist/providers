@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Projects API from Lokalise — 2 operation(s) for projects.
   name: Lokalise Projects API
   slug: lokalise-projects-api
-artifact_total: 12
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lokalise API v2 Files API
+  slug: open-lokalise-files-api
+- collection_type: open
+  name: Lokalise API v2 Files Keys API
+  slug: open-lokalise-keys-api
+- collection_type: open
+  name: Lokalise API v2 Files Projects API
+  slug: open-lokalise-projects-api
 - collection_type: open
   name: Lokalise API v2
   slug: open-lokalise
@@ -129,7 +141,7 @@ plans:
 - name: Lokalise Plans Pricing
   plan_count: 1
   slug: lokalise-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Lokalise Rate Limits
@@ -154,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/screenshots/lokalise-2026-06-20T184709.png
 security:

@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 6.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -55,34 +55,103 @@ common:
   title: ''
   type: SecurityPolicy
   url: https://www.beremarkable.ai/security
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/remarkable-ai-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/remarkable-ai-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: lifecycle/remarkable-ai-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/remarkable-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/remarkable-ai-rate-limits.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.beremarkable.ai/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.chatdesk.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://app.beremarkable.ai/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.beremarkable.ai/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.beremarkable.ai/legal/privacy-policy
+coverage:
+  checked: '2026-08-13'
+  detail: 'Remarkable AI (Chatdesk, Inc.) sells an AI-plus-human customer-engagement service, not a developer product: its 34 "one-click integrations" all consume OTHER vendors'' APIs inbound, and across seven hosts on two domains the only API surfaces that exist are internal app plumbing — api.chatdesk.com answers HTTP 403 "Missing Authentication Token" on every path including the root, and the Spring Boot springdoc endpoint at trends.chatdesk.com/v3/api-docs HTTP 302s to /logout — while the marketing site, the 59-entry help-center llms.txt and the integrations page contain zero occurrences of "API", "webhook", "API key" or "developer".'
+  evidence:
+  - status: 403
+    url: https://api.chatdesk.com/
+  - status: 302
+    url: https://trends.chatdesk.com/v3/api-docs
+  - status: 404
+    url: https://www.beremarkable.ai/openapi.json
+  - status: 404
+    url: https://www.chatdesk.com/openapi.json
+  - status: 404
+    url: https://www.beremarkable.ai/.well-known/agent-card.json
+  - status: 200
+    url: https://help.beremarkable.ai/llms.txt
+  - status: 200
+    url: https://www.chatdesk.com/integrations
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Remarkable AI is an AI-powered customer engagement platform for consumer and ecommerce brands, delivering 1:1 personalized messaging across email, SMS, and social channels. Its products span Retain (personalized win-back campaigns for lapsed customers), Support (24/7 AI-plus-human customer service that converts tickets into sales), and Acquire (AI-driven social engagement on TikTok, YouTube, X, and Reddit). The platform is used by 1,000+ ecommerce brands including SAXX, Hyper Skin, Nomadica, Kindra, StoryWorth, and Hot Topic, with plans starting at $1,500/month. Remarkable AI was surfaced as a portfolio company of Partech and added to the API Evangelist network. It publishes no public developer API, SDKs, or developer documentation as of this enrichment pass.
+description: 'Remarkable AI is an AI-powered customer engagement platform for consumer and ecommerce brands, delivering 1:1 personalized messaging across email, SMS, and social channels. Its products span Retain (personalized win-back campaigns for lapsed customers), Support (24/7 AI-plus-human customer service that converts tickets into sales), and Acquire (AI-driven social engagement on TikTok, YouTube, X, and Reddit). The platform is used by 1,000+ ecommerce brands including SAXX, Hyper Skin, Nomadica, Kindra, StoryWorth, and Hot Topic, with plans starting at $1,500/month. Remarkable AI is the trading name of Chatdesk, Inc., which rebranded in 2024; its own terms of service state "We (Chatdesk, Inc. DBA Remarkable AI)", and the legacy chatdesk.com brand still carries the live pricing page, the responsible-disclosure program, and the Teams/Trends/Shift product surfaces. Remarkable AI was surfaced as a portfolio company of Partech and added to the API Evangelist network. It integrates INBOUND
+  with roughly 34 third-party platforms (Shopify, Gorgias, Zendesk, Klaviyo, Kustomer, Freshdesk, Salesforce, TikTok and others) by consuming their APIs, but publishes no outbound API of its own: no OpenAPI, GraphQL SDL, MCP server, agent card, SDK, CLI, webhook catalog or developer portal was found across seven hosts on two domains.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remarkable-ai.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Remarkable AI
 nav: Providers
 network: true
 overview: 'Remarkable AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Customer Engagement, Personalization, and Ecommerce.
 
 
-  Remarkable AI''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 93
+  Remarkable AI''s developer surface includes engineering blog, support, pricing, and 13 more developer resources.'
+plans:
+- name: Remarkable Ai Plans Pricing
+  plan_count: 6
+  slug: remarkable-ai-plans-pricing
+random_paper: 101
+rate_limits:
+- limit_count: 0
+  name: Remarkable Ai Rate Limits
+  slug: remarkable-ai-rate-limits
 score:
-  band: minimal
-  composite: 6.8
-  delta: 0.0
+  band: emerging
+  composite: 26.8
+  delta: 20.0
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
+    developer_ergonomics: 6.5
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 26.3
   previous_composite: 6.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Remarkable Ai Domain Security
@@ -91,7 +160,7 @@ security:
 - kind: vulnerability-disclosure
   name: Remarkable Ai Vulnerability Disclosure
   slug: remarkable-ai-vulnerability-disclosure
-  summary_line: contact published
+  summary_line: Bugcrowd · contact published
 slug: remarkable-ai
 tags:
 - Company

@@ -10,25 +10,26 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-12'
+  score: 49.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -98,7 +99,71 @@ apis:
 - description: The Workflows API from Salesflare — 4 operation(s) for workflows.
   name: Salesflare Workflows API
   slug: salesflare-workflows-api
-artifact_total: 32
+artifact_total: 56
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Salesflare Accounts API
+  slug: open-salesflare-accounts-api
+- collection_type: open
+  name: Salesflare Accounts AI Message Feedbacks API
+  slug: open-salesflare-ai-message-feedbacks-api
+- collection_type: open
+  name: Salesflare Accounts AISetings API
+  slug: open-salesflare-aisetings-api
+- collection_type: open
+  name: Salesflare Accounts AISettings API
+  slug: open-salesflare-aisettings-api
+- collection_type: open
+  name: Salesflare Accounts Calls API
+  slug: open-salesflare-calls-api
+- collection_type: open
+  name: Salesflare Accounts Contacts API
+  slug: open-salesflare-contacts-api
+- collection_type: open
+  name: Salesflare Accounts Custom Fields API
+  slug: open-salesflare-custom-fields-api
+- collection_type: open
+  name: Salesflare Accounts Email Data Sources API
+  slug: open-salesflare-email-data-sources-api
+- collection_type: open
+  name: Salesflare Accounts Filter Fields API
+  slug: open-salesflare-filter-fields-api
+- collection_type: open
+  name: Salesflare Accounts Groups API
+  slug: open-salesflare-groups-api
+- collection_type: open
+  name: Salesflare Accounts Internal Notes API
+  slug: open-salesflare-internal-notes-api
+- collection_type: open
+  name: Salesflare Accounts Meetings API
+  slug: open-salesflare-meetings-api
+- collection_type: open
+  name: Salesflare Accounts Opportunities API
+  slug: open-salesflare-opportunities-api
+- collection_type: open
+  name: Salesflare Accounts Persons API
+  slug: open-salesflare-persons-api
+- collection_type: open
+  name: Salesflare Accounts Pipelines API
+  slug: open-salesflare-pipelines-api
+- collection_type: open
+  name: Salesflare Accounts Regional Settings API
+  slug: open-salesflare-regional-settings-api
+- collection_type: open
+  name: Salesflare Accounts Tags API
+  slug: open-salesflare-tags-api
+- collection_type: open
+  name: Salesflare Accounts Tasks API
+  slug: open-salesflare-tasks-api
+- collection_type: open
+  name: Salesflare Accounts Users API
+  slug: open-salesflare-users-api
+- collection_type: open
+  name: Salesflare Accounts Workflows API
+  slug: open-salesflare-workflows-api
 common:
 - group: agent
   title: ''
@@ -152,6 +217,86 @@ common:
   title: ''
   type: FinOps
   url: finops/salesflare-finops.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://api.salesflare.com/openapi.json
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.salesflare.com/docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://api.salesflare.com/docs#section/Introduction/Getting-Started
+- group: operate
+  title: ''
+  type: Support
+  url: https://howto.salesflare.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://salesflare.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://salesflare.com/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://salesflare.com/signup
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/salesflare-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/salesflare-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/salesflare-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/salesflare-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/salesflare-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/salesflare-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/salesflare-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/salesflare-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/salesflare-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/salesflare-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/salesflare-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/salesflare-llms.txt
 created: '2026-06-12'
 description: Salesflare is an intelligent CRM built for B2B startups and small businesses that automates data input by pulling contact and company information from emails, calendars, phone logs, and social profiles. The platform provides a REST API for programmatically managing accounts, contacts, opportunities, tasks, and email messages. Developers can use the API to integrate CRM data into their own applications, automate sales workflows, and synchronize data across systems. Salesflare supports bearer token authentication via API keys generated from the settings dashboard, with endpoints covering the full CRM object model including leads, pipelines, and enriched contact records.
 examples:
@@ -171,7 +316,7 @@ finops:
 - name: Salesflare Finops
   service_category: ''
   slug: salesflare-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salesflare.png https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salesflare.png
 json_schemas:
 - name: Salesflare API Schemas
   property_count: 0
@@ -182,7 +327,11 @@ jsonld:
   property_count: 49
   slug: salesflare-context
 layout: provider
-modified: '2026-06-12'
+mcp_servers:
+- description: ''
+  name: Salesflare hosted MCP server
+  slug: salesflare-hosted-mcp-server
+modified: '2026-08-13'
 name: Salesflare
 nav: Providers
 network: true
@@ -192,12 +341,12 @@ overview: 'Salesflare publishes 20 APIs on the [APIs.io](https://apis.io/) netwo
   The Salesflare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Salesflare''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Salesflare''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, signup flow, and 26 more developer resources.'
 plans:
 - name: Salesflare Plans Pricing
   plan_count: 3
   slug: salesflare-plans-pricing
-random_paper: 98
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Salesflare Rate Limits
@@ -211,16 +360,21 @@ rules:
     info: 1
     warn: 5
   slug: salesflare-jsonschema-spectral-rules
+scopes:
+- name: Salesflare Scopes
+  scope_count: 2
+  slug: salesflare-scopes
+  summary_line: 2 scopes · authorizationCode/implicit/clientCredentials
 score:
-  band: developing
-  composite: 46.1
-  delta: 0.0
+  band: exemplar
+  composite: 66.8
+  delta: 20.7
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 84.2
     contract_quality: 56.0
-    developer_ergonomics: 10.9
-    discoverability: 74.1
-    governance: 58.3
+    developer_ergonomics: 58.7
+    discoverability: 92.6
+    governance: 79.2
     operational_transparency: 42.1
   previous_composite: 46.1
   provenance:
@@ -231,10 +385,14 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/screenshots/salesflare-2026-06-20T193340.png
 security:
+- kind: authentication
+  name: Salesflare Authentication
+  slug: salesflare-authentication
+  summary_line: http/oauth2/openIdConnect · 2 schemes
 - kind: domain-security
   name: Salesflare Domain Security
   slug: salesflare-domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Latenode''s low-code automation platform for building AI workflows with prebuilt SaaS integrations and access to multiple AI models. Latenode provides webhook trigger and action nodes and a JavaScript '
@@ -92,7 +92,7 @@ plans:
 - name: Latenode Plans Pricing
   plan_count: 3
   slug: latenode-plans-pricing
-random_paper: 4
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Latenode Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 18.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/latenode/refs/heads/main/screenshots/latenode-2026-06-20T184324.png
 security:

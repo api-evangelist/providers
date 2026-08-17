@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Payer-provider negotiated rate lookups from Transparency in Coverage MRFs.
   name: Payerset Rates API
   slug: payerset-rates-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Payerset Data Lake Billing Codes API
+  slug: open-payerset-billing-codes-api
+- collection_type: open
+  name: Payerset Data Lake Billing Codes Hospital MRF API
+  slug: open-payerset-hospital-mrf-api
+- collection_type: open
+  name: Payerset Data Lake Billing Codes Payers API
+  slug: open-payerset-payers-api
+- collection_type: open
+  name: Payerset Data Lake Billing Codes Providers API
+  slug: open-payerset-providers-api
+- collection_type: open
+  name: Payerset Data Lake Billing Codes Rates API
+  slug: open-payerset-rates-api
 - collection_type: open
   name: Payerset Data Lake API
   slug: open-payerset
@@ -124,7 +142,7 @@ plans:
 - name: Payerset Plans Pricing
   plan_count: 2
   slug: payerset-plans-pricing
-random_paper: 37
+random_paper: 132
 rate_limits:
 - limit_count: 2
   name: Payerset Rate Limits
@@ -155,7 +173,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/screenshots/payerset-2026-08-07T191632.png
 security:

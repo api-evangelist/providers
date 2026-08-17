@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The Admin Users API from Kolide — 2 operation(s) for admin users.
@@ -83,11 +83,66 @@ apis:
 - description: The Whoami API from Kolide — 1 operation(s) for whoami.
   name: Kolide Whoami API
   slug: kolide-whoami-api
-artifact_total: 23
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Kolide Events
   slug: kolide-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: K2 Admin Users API
+  slug: open-kolide-admin-users-api
+- collection_type: open
+  name: K2 Admin Users Audit Logs API
+  slug: open-kolide-audit-logs-api
+- collection_type: open
+  name: K2 Admin Users Auth Logs API
+  slug: open-kolide-auth-logs-api
+- collection_type: open
+  name: K2 Admin Users Checks API
+  slug: open-kolide-checks-api
+- collection_type: open
+  name: K2 Admin Users Custom Check Drafts API
+  slug: open-kolide-custom-check-drafts-api
+- collection_type: open
+  name: K2 Admin Users Deprovisioned People API
+  slug: open-kolide-deprovisioned-people-api
+- collection_type: open
+  name: K2 Admin Users Device Groups API
+  slug: open-kolide-device-groups-api
+- collection_type: open
+  name: K2 Admin Users Devices API
+  slug: open-kolide-devices-api
+- collection_type: open
+  name: K2 Admin Users Exemption Requests API
+  slug: open-kolide-exemption-requests-api
+- collection_type: open
+  name: K2 Admin Users Issues API
+  slug: open-kolide-issues-api
+- collection_type: open
+  name: K2 Admin Users Live Query Campaigns API
+  slug: open-kolide-live-query-campaigns-api
+- collection_type: open
+  name: K2 Admin Users Packages API
+  slug: open-kolide-packages-api
+- collection_type: open
+  name: K2 Admin Users People API
+  slug: open-kolide-people-api
+- collection_type: open
+  name: K2 Admin Users Person Groups API
+  slug: open-kolide-person-groups-api
+- collection_type: open
+  name: K2 Admin Users Registration Requests API
+  slug: open-kolide-registration-requests-api
+- collection_type: open
+  name: K2 Admin Users Reporting API
+  slug: open-kolide-reporting-api
+- collection_type: open
+  name: K2 Admin Users Whoami API
+  slug: open-kolide-whoami-api
 common:
 - group: company
   title: ''
@@ -237,7 +292,7 @@ overview: 'Kolide publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kolide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 32
+random_paper: 36
 score:
   band: strong
   composite: 58.1
@@ -260,7 +315,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolide/refs/heads/main/screenshots/kolide-2026-07-25T224129.png
 security:

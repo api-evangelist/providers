@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 7
@@ -66,8 +66,26 @@ apis:
 - description: Usage reporting and metering.
   name: Stigg Usage API
   slug: stigg-usage-api
-artifact_total: 49
+artifact_total: 55
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stigg Coupons API
+  slug: open-stigg-coupons-api
+- collection_type: open
+  name: Stigg Coupons Customers API
+  slug: open-stigg-customers-api
+- collection_type: open
+  name: Stigg Coupons Entitlements API
+  slug: open-stigg-entitlements-api
+- collection_type: open
+  name: Stigg Coupons Subscriptions API
+  slug: open-stigg-subscriptions-api
+- collection_type: open
+  name: Stigg Coupons Usage API
+  slug: open-stigg-usage-api
 - collection_type: open
   name: Stigg API
   slug: open-stigg
@@ -234,7 +252,7 @@ plans:
 - name: Stigg Plans Pricing
   plan_count: 3
   slug: stigg-plans-pricing
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Stigg Rate Limits
@@ -276,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/screenshots/stigg-2026-06-20T194550.png
 security:

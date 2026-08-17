@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: 'The TuneIn Platform API is a partner-facing REST API (OAuth 2.0) for embedding TuneIn''s full audio service into third-party devices and ecosystems. It exposes endpoints for categories, user profiles, '
@@ -49,7 +49,26 @@ apis:
 - description: The Tune.ashx API from TuneIn — 1 operation(s) for tune.ashx.
   name: TuneIn Tune.ashx API
   slug: tunein-tune-ashx-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TuneIn Streaming API (OPML/RadioTime) Browse.ashx API
+  slug: open-tunein-browse-ashx-api
+- collection_type: open
+  name: TuneIn Streaming API (OPML/RadioTime) Describe.ashx API
+  slug: open-tunein-describe-ashx-api
+- collection_type: open
+  name: TuneIn Streaming API (OPML/RadioTime) Playing.ashx API
+  slug: open-tunein-playing-ashx-api
+- collection_type: open
+  name: TuneIn Streaming API (OPML/RadioTime) Search.ashx API
+  slug: open-tunein-search-ashx-api
+- collection_type: open
+  name: TuneIn Streaming API (OPML/RadioTime) Tune.ashx API
+  slug: open-tunein-tune-ashx-api
 common:
 - group: auth
   title: ''
@@ -115,7 +134,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -139,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/screenshots/tunein-2026-06-20T195830.png
 security:

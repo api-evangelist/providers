@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Laminar Workflow endpoints, for managing workflows and workflow executions.
   name: Minicor Workflows API
   slug: minicor-workflows-api
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Minicor Webhooks
@@ -63,6 +63,18 @@ collections:
 - collection_type: postman
   name: Laminar Configuration Stores Workflows API
   slug: postman-minicor-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Laminar Configuration Stores API
+  slug: open-minicor-configuration-stores-api
+- collection_type: open
+  name: Laminar Configuration Stores external API
+  slug: open-minicor-external-api
+- collection_type: open
+  name: Laminar Configuration Stores Workflows API
+  slug: open-minicor-workflows-api
 common:
 - group: build
   title: ''
@@ -223,7 +235,7 @@ overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Minicor''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 28 more developer resources.'
-random_paper: 33
+random_paper: 8
 score:
   band: strong
   composite: 57.3
@@ -253,7 +265,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/screenshots/minicor-2026-08-07T172954.png
 security:

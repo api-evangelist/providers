@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -152,7 +152,7 @@ overview: 'MSC Mediterranean Shipping Company is profiled on the [APIs.io](https
 
 
   MSC Mediterranean Shipping Company''s developer surface includes FAQ, YouTube channel, and 25 more developer resources.'
-random_paper: 52
+random_paper: 147
 score:
   band: minimal
   composite: 6.7
@@ -166,7 +166,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/msc-cargo/refs/heads/main/screenshots/msc-cargo-2026-08-07T184417.png
 security:

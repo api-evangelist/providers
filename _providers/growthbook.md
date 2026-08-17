@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -147,7 +147,119 @@ apis:
 - description: Groups of visual changes made by the visual editor to a single page
   name: GrowthBook visual-changesets API
   slug: growthbook-visual-changesets-api
-artifact_total: 43
+artifact_total: 80
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations API
+  slug: open-growthbook-analyticsexplorations-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations archetypes API
+  slug: open-growthbook-archetypes-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations attributes API
+  slug: open-growthbook-attributes-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations code-references API
+  slug: open-growthbook-code-references-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations CustomFields API
+  slug: open-growthbook-customfields-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations Dashboards API
+  slug: open-growthbook-dashboards-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations data-sources API
+  slug: open-growthbook-data-sources-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations dimensions API
+  slug: open-growthbook-dimensions-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations environments API
+  slug: open-growthbook-environments-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations experiments API
+  slug: open-growthbook-experiments-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations ExperimentTemplates API
+  slug: open-growthbook-experimenttemplates-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations fact-metrics API
+  slug: open-growthbook-fact-metrics-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations fact-tables API
+  slug: open-growthbook-fact-tables-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations feature-revisions API
+  slug: open-growthbook-feature-revisions-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations feature-revisions-v2 API
+  slug: open-growthbook-feature-revisions-v2-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations features API
+  slug: open-growthbook-features-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations features-v2 API
+  slug: open-growthbook-features-v2-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations members API
+  slug: open-growthbook-members-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations MetricGroups API
+  slug: open-growthbook-metricgroups-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations metrics API
+  slug: open-growthbook-metrics-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations namespaces API
+  slug: open-growthbook-namespaces-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations organizations API
+  slug: open-growthbook-organizations-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations projects API
+  slug: open-growthbook-projects-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations queries API
+  slug: open-growthbook-queries-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations ramp-schedules API
+  slug: open-growthbook-ramp-schedules-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations RampScheduleTemplates API
+  slug: open-growthbook-rampscheduletemplates-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations saved-groups API
+  slug: open-growthbook-saved-groups-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations sdk-connections API
+  slug: open-growthbook-sdk-connections-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations Sdk Payload API
+  slug: open-growthbook-sdk-payload-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations segments API
+  slug: open-growthbook-segments-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations settings API
+  slug: open-growthbook-settings-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations snapshots API
+  slug: open-growthbook-snapshots-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations Teams API
+  slug: open-growthbook-teams-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations Transform Copy API
+  slug: open-growthbook-transform-copy-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations usage API
+  slug: open-growthbook-usage-api
+- collection_type: open
+  name: GrowthBook REST AnalyticsExplorations visual-changesets API
+  slug: open-growthbook-visual-changesets-api
 common:
 - group: agent
   title: ''
@@ -221,7 +333,7 @@ plans:
 - name: Growthbook Plans Pricing
   plan_count: 1
   slug: growthbook-plans-pricing
-random_paper: 14
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Growthbook Rate Limits
@@ -246,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/screenshots/growthbook-2026-06-20T182422.png
 security:

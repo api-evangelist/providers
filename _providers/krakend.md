@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,8 +53,20 @@ apis:
 - description: The Metrics API from KrakenD — 1 operation(s) for metrics.
   name: KrakenD Metrics API
   slug: krakend-metrics-api
-artifact_total: 20
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: KrakenD Service Debug API
+  slug: open-krakend-debug-api
+- collection_type: open
+  name: KrakenD Service Debug Health API
+  slug: open-krakend-health-api
+- collection_type: open
+  name: KrakenD Service Debug Metrics API
+  slug: open-krakend-metrics-api
 - collection_type: open
   name: KrakenD Service API
   slug: open-krakend-service-api
@@ -194,7 +206,7 @@ plans:
 - name: Krakend Plans Pricing
   plan_count: 2
   slug: krakend-plans-pricing
-random_paper: 16
+random_paper: 140
 rate_limits:
 - limit_count: 4
   name: Krakend Rate Limits
@@ -228,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/screenshots/krakend-2026-06-20T184150.png
 security:

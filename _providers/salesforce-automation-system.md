@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Query and invoke automation processes.
   name: Salesforce Automation System Process Automation API
   slug: salesforce-automation-system-process-automation-api
-artifact_total: 22
+artifact_total: 25
 collections:
 - collection_type: postman
   name: Salesforce Flow Automation Flows API
@@ -60,8 +60,17 @@ collections:
   name: Salesforce Flow Automation Flows Process Automation API
   slug: postman-salesforce-automation-system-process-automation-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Salesforce Flow Automation API
   slug: open-salesforce-automation-flow
+- collection_type: open
+  name: Salesforce Flow Automation Flows API
+  slug: open-salesforce-automation-system-flows-api
+- collection_type: open
+  name: Salesforce Flow Automation Flows Process Automation API
+  slug: open-salesforce-automation-system-process-automation-api
 common:
 - group: build
   title: ''
@@ -173,7 +182,7 @@ plans:
 - name: Salesforce Automation System Plans Pricing
   plan_count: 1
   slug: salesforce-automation-system-plans-pricing
-random_paper: 39
+random_paper: 88
 rate_limits:
 - limit_count: 4
   name: Salesforce Automation System Rate Limits
@@ -220,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/screenshots/salesforce-automation-system-2026-06-20T193343.png
 security:

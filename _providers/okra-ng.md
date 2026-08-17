@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Callback management.
   name: Okra Webhooks API
   slug: okra-ng-webhooks-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Okra Accounts API
+  slug: open-okra-ng-accounts-api
+- collection_type: open
+  name: Okra Accounts Auth API
+  slug: open-okra-ng-auth-api
+- collection_type: open
+  name: Okra Accounts Balance API
+  slug: open-okra-ng-balance-api
+- collection_type: open
+  name: Okra Accounts Identity API
+  slug: open-okra-ng-identity-api
+- collection_type: open
+  name: Okra Accounts Income API
+  slug: open-okra-ng-income-api
+- collection_type: open
+  name: Okra Accounts Payments API
+  slug: open-okra-ng-payments-api
+- collection_type: open
+  name: Okra Accounts Transactions API
+  slug: open-okra-ng-transactions-api
+- collection_type: open
+  name: Okra Accounts Webhooks API
+  slug: open-okra-ng-webhooks-api
 - collection_type: open
   name: Okra API
   slug: open-okra-ng
@@ -129,7 +156,7 @@ plans:
 - name: Okra Ng Plans Pricing
   plan_count: 3
   slug: okra-ng-plans-pricing
-random_paper: 87
+random_paper: 91
 rate_limits:
 - limit_count: 3
   name: Okra Ng Rate Limits
@@ -160,7 +187,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -87,8 +87,56 @@ apis:
 - description: The Sessions API from Integration.app (Membrane) — 4 operation(s) for sessions.
   name: Integration.app (Membrane) Sessions API
   slug: integration-app-sessions-api
-artifact_total: 25
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions API
+  slug: open-integration-app-actions-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions App Event Subscriptions API
+  slug: open-integration-app-app-event-subscriptions-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Connections API
+  slug: open-integration-app-connections-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Connectors API
+  slug: open-integration-app-connectors-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Customers API
+  slug: open-integration-app-customers-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Data Collections API
+  slug: open-integration-app-data-collections-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions External Event Subscriptions API
+  slug: open-integration-app-external-event-subscriptions-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Field Mappings API
+  slug: open-integration-app-field-mappings-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Flow Runs API
+  slug: open-integration-app-flow-runs-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Flows API
+  slug: open-integration-app-flows-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Integrations API
+  slug: open-integration-app-integrations-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Logs API
+  slug: open-integration-app-logs-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Public API
+  slug: open-integration-app-public-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Search API
+  slug: open-integration-app-search-api
+- collection_type: open
+  name: Membrane (formerly Integration.app) Platform Actions Sessions API
+  slug: open-integration-app-sessions-api
 - collection_type: open
   name: Membrane (formerly Integration.app) Platform API
   slug: open-integration-app
@@ -200,7 +248,7 @@ plans:
 - name: Integration App Plans Pricing
   plan_count: 3
   slug: integration-app-plans-pricing
-random_paper: 114
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Integration App Rate Limits
@@ -234,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/screenshots/integration-app-2026-06-20T183430.png
 security:

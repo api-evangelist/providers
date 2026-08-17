@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -40,7 +40,14 @@ apis:
 - description: CREA's OAuth 2.0 / OpenID Connect authorization server at identity.crea.ca, which issues the access tokens every DDF® Web API call requires. Its discovery document is served anonymously and advertises
   name: CREA Identity Server
   slug: crea-identity-server
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: REALTOR.ca DDF® Web API Documentation
+  slug: open-realtor-ca-ddf-web-api-docs
+- collection_type: open
+  name: REALTOR.ca DDF® Web API Documentation
+  slug: open-realtor-ca-ddf-web-api
 common:
 - group: agent
   title: ''
@@ -207,7 +214,7 @@ overview: 'REALTOR.ca publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   REALTOR.ca''s developer surface includes documentation, API reference, getting-started guide, legal docs, support, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 42
+random_paper: 108
 scopes:
 - name: Realtor Ca Scopes
   scope_count: 5
@@ -236,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

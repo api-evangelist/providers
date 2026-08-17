@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -128,7 +128,7 @@ overview: 'Dokku is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dokku''s developer surface includes documentation, getting-started guide, engineering blog, GitHub presence, release notes, and 16 more developer resources.'
-random_paper: 62
+random_paper: 95
 score:
   band: emerging
   composite: 13.0
@@ -142,7 +142,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 13.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dokku/refs/heads/main/screenshots/dokku-2026-06-20T180131.png
 security:

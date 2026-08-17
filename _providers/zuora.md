@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -278,11 +278,248 @@ apis:
 - description: '**Note:** You can only use the operations in this section if you have the Billing - Revenue Integration feature enabled. See <a href="https://knowledgecenter.zuora.com/Zuora_Revenue/Billing_-_Revenue_'
   name: Zuora Zuora Revenue Integration API
   slug: zuora-zuora-revenue-integration-api
-artifact_total: 86
+artifact_total: 165
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference Accounting Codes API
+  slug: open-zuora-accounting-codes-api
+- collection_type: open
+  name: API Reference Accounting Codes Accounting Periods API
+  slug: open-zuora-accounting-periods-api
+- collection_type: open
+  name: API Reference Accounting Codes Accounts API
+  slug: open-zuora-accounts-api
+- collection_type: open
+  name: API Reference Accounting Codes Actions API
+  slug: open-zuora-actions-api
+- collection_type: open
+  name: API Reference Accounting Codes Aggregate Queries API
+  slug: open-zuora-aggregate-queries-api
+- collection_type: open
+  name: API Reference Accounting Codes API Health API
+  slug: open-zuora-api-health-api
+- collection_type: open
+  name: API Reference Accounting Codes Attachments API
+  slug: open-zuora-attachments-api
+- collection_type: open
+  name: API Reference Accounting Codes Bill Run API
+  slug: open-zuora-bill-run-api
+- collection_type: open
+  name: API Reference Accounting Codes Bill Run Health API
+  slug: open-zuora-bill-run-health-api
+- collection_type: open
+  name: API Reference Accounting Codes Billing Documents API
+  slug: open-zuora-billing-documents-api
+- collection_type: open
+  name: API Reference Accounting Codes Catalog API
+  slug: open-zuora-catalog-api
+- collection_type: open
+  name: API Reference Accounting Codes Catalog Groups API
+  slug: open-zuora-catalog-groups-api
+- collection_type: open
+  name: API Reference Accounting Codes Configuration Templates API
+  slug: open-zuora-configuration-templates-api
+- collection_type: open
+  name: API Reference Accounting Codes Contact Snapshots API
+  slug: open-zuora-contact-snapshots-api
+- collection_type: open
+  name: API Reference Accounting Codes Contacts API
+  slug: open-zuora-contacts-api
+- collection_type: open
+  name: API Reference Accounting Codes Credit Memos API
+  slug: open-zuora-credit-memos-api
+- collection_type: open
+  name: API Reference Accounting Codes Custom Event Triggers API
+  slug: open-zuora-custom-event-triggers-api
+- collection_type: open
+  name: API Reference Accounting Codes Custom Exchange Rates API
+  slug: open-zuora-custom-exchange-rates-api
+- collection_type: open
+  name: API Reference Accounting Codes Custom Object Definitions API
+  slug: open-zuora-custom-object-definitions-api
+- collection_type: open
+  name: API Reference Accounting Codes Custom Object Jobs API
+  slug: open-zuora-custom-object-jobs-api
+- collection_type: open
+  name: API Reference Accounting Codes Custom Object Records API
+  slug: open-zuora-custom-object-records-api
+- collection_type: open
+  name: API Reference Accounting Codes Custom Payment Method Types API
+  slug: open-zuora-custom-payment-method-types-api
+- collection_type: open
+  name: API Reference Accounting Codes Custom Scheduled Events API
+  slug: open-zuora-custom-scheduled-events-api
+- collection_type: open
+  name: API Reference Accounting Codes Data Labeling API
+  slug: open-zuora-data-labeling-api
+- collection_type: open
+  name: API Reference Accounting Codes Data Queries API
+  slug: open-zuora-data-queries-api
+- collection_type: open
+  name: API Reference Accounting Codes Debit Memos API
+  slug: open-zuora-debit-memos-api
+- collection_type: open
+  name: API Reference Accounting Codes Delivery Adjustments API
+  slug: open-zuora-delivery-adjustments-api
+- collection_type: open
+  name: API Reference Accounting Codes Describe API
+  slug: open-zuora-describe-api
+- collection_type: open
+  name: API Reference Accounting Codes E-Invoicing API
+  slug: open-zuora-e-invoicing-api
+- collection_type: open
+  name: API Reference Accounting Codes Electronic Payments Health API
+  slug: open-zuora-electronic-payments-health-api
+- collection_type: open
+  name: API Reference Accounting Codes Files API
+  slug: open-zuora-files-api
+- collection_type: open
+  name: API Reference Accounting Codes Fulfillments API
+  slug: open-zuora-fulfillments-api
+- collection_type: open
+  name: API Reference Accounting Codes Hosted Pages API
+  slug: open-zuora-hosted-pages-api
+- collection_type: open
+  name: API Reference Accounting Codes Imports API
+  slug: open-zuora-imports-api
+- collection_type: open
+  name: API Reference Accounting Codes Invoice Schedules API
+  slug: open-zuora-invoice-schedules-api
+- collection_type: open
+  name: API Reference Accounting Codes Invoices API
+  slug: open-zuora-invoices-api
+- collection_type: open
+  name: API Reference Accounting Codes Journal Runs API
+  slug: open-zuora-journal-runs-api
+- collection_type: open
+  name: API Reference Accounting Codes Mass Updater API
+  slug: open-zuora-mass-updater-api
+- collection_type: open
+  name: API Reference Accounting Codes Notifications API
+  slug: open-zuora-notifications-api
+- collection_type: open
+  name: API Reference Accounting Codes OAuth API
+  slug: open-zuora-oauth-api
+- collection_type: open
+  name: API Reference Accounting Codes Offers API
+  slug: open-zuora-offers-api
+- collection_type: open
+  name: API Reference Accounting Codes Operations API
+  slug: open-zuora-operations-api
+- collection_type: open
+  name: API Reference Accounting Codes Order Actions API
+  slug: open-zuora-order-actions-api
+- collection_type: open
+  name: API Reference Accounting Codes Order Line Items API
+  slug: open-zuora-order-line-items-api
+- collection_type: open
+  name: API Reference Accounting Codes Orders API
+  slug: open-zuora-orders-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Authorization API
+  slug: open-zuora-payment-authorization-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Gateway Reconciliation API
+  slug: open-zuora-payment-gateway-reconciliation-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Gateways API
+  slug: open-zuora-payment-gateways-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Method Snapshots API
+  slug: open-zuora-payment-method-snapshots-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Method Transaction Logs API
+  slug: open-zuora-payment-method-transaction-logs-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Method Updater API
+  slug: open-zuora-payment-method-updater-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Methods API
+  slug: open-zuora-payment-methods-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Runs API
+  slug: open-zuora-payment-runs-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Schedules API
+  slug: open-zuora-payment-schedules-api
+- collection_type: open
+  name: API Reference Accounting Codes Payment Transaction Logs API
+  slug: open-zuora-payment-transaction-logs-api
+- collection_type: open
+  name: API Reference Accounting Codes Payments API
+  slug: open-zuora-payments-api
+- collection_type: open
+  name: API Reference Accounting Codes Prepaid with Drawdown API
+  slug: open-zuora-prepaid-with-drawdown-api
+- collection_type: open
+  name: API Reference Accounting Codes Price Book Items API
+  slug: open-zuora-price-book-items-api
+- collection_type: open
+  name: API Reference Accounting Codes Product Charge Definitions API
+  slug: open-zuora-product-charge-definitions-api
+- collection_type: open
+  name: API Reference Accounting Codes Product Rate Plan Charge Tiers API
+  slug: open-zuora-product-rate-plan-charge-tiers-api
+- collection_type: open
+  name: API Reference Accounting Codes Product Rate Plan Charges API
+  slug: open-zuora-product-rate-plan-charges-api
+- collection_type: open
+  name: API Reference Accounting Codes Product Rate Plan Definitions API
+  slug: open-zuora-product-rate-plan-definitions-api
+- collection_type: open
+  name: API Reference Accounting Codes Product Rate Plans API
+  slug: open-zuora-product-rate-plans-api
+- collection_type: open
+  name: API Reference Accounting Codes Products API
+  slug: open-zuora-products-api
+- collection_type: open
+  name: API Reference Accounting Codes Ramps API
+  slug: open-zuora-ramps-api
+- collection_type: open
+  name: API Reference Accounting Codes Rate Plans API
+  slug: open-zuora-rate-plans-api
+- collection_type: open
+  name: API Reference Accounting Codes Refunds API
+  slug: open-zuora-refunds-api
+- collection_type: open
+  name: API Reference Accounting Codes Regenerate API
+  slug: open-zuora-regenerate-api
+- collection_type: open
+  name: API Reference Accounting Codes RSA Signatures API
+  slug: open-zuora-rsa-signatures-api
+- collection_type: open
+  name: API Reference Accounting Codes Sequence Sets API
+  slug: open-zuora-sequence-sets-api
+- collection_type: open
+  name: API Reference Accounting Codes Settings API
+  slug: open-zuora-settings-api
+- collection_type: open
+  name: API Reference Accounting Codes Sign Up API
+  slug: open-zuora-sign-up-api
+- collection_type: open
+  name: API Reference Accounting Codes Subscriptions API
+  slug: open-zuora-subscriptions-api
+- collection_type: open
+  name: API Reference Accounting Codes Summary Journal Entries API
+  slug: open-zuora-summary-journal-entries-api
+- collection_type: open
+  name: API Reference Accounting Codes Taxation Items API
+  slug: open-zuora-taxation-items-api
+- collection_type: open
+  name: API Reference Accounting Codes Usage API
+  slug: open-zuora-usage-api
 - collection_type: open
   name: API Reference
   slug: open-zuora-v1
+- collection_type: open
+  name: API Reference Accounting Codes Workflows API
+  slug: open-zuora-workflows-api
+- collection_type: open
+  name: API Reference Accounting Codes Zuora Revenue Integration API
+  slug: open-zuora-zuora-revenue-integration-api
 common:
 - group: operate
   title: ''
@@ -360,7 +597,7 @@ plans:
 - name: Zuora Plans Pricing
   plan_count: 3
   slug: zuora-plans-pricing
-random_paper: 81
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Zuora Rate Limits
@@ -391,7 +628,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/screenshots/zuora-2026-06-20T202000.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 3
@@ -98,7 +98,80 @@ apis:
 - description: Manage user profiles, preferences, API keys, and account settings. Preferences control notification delivery, theme, and feature opt-ins. API keys authenticate CLI and programmatic access.
   name: Sageox Users API
   slug: sageox-users-api
-artifact_total: 28
+artifact_total: 52
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SageOx Admin API
+  slug: open-sageox-admin-api
+- collection_type: open
+  name: SageOx Admin AgentX API
+  slug: open-sageox-agentx-api
+- collection_type: open
+  name: SageOx Admin API Keys API
+  slug: open-sageox-api-keys-api
+- collection_type: open
+  name: SageOx Admin Auth API
+  slug: open-sageox-auth-api
+- collection_type: open
+  name: SageOx Admin CLI API
+  slug: open-sageox-cli-api
+- collection_type: open
+  name: SageOx Admin Devices API
+  slug: open-sageox-devices-api
+- collection_type: open
+  name: SageOx Admin Firmware Admin API
+  slug: open-sageox-firmware-admin-api
+- collection_type: open
+  name: SageOx Admin Firmware OTA API
+  slug: open-sageox-firmware-ota-api
+- collection_type: open
+  name: SageOx Admin Git API
+  slug: open-sageox-git-api
+- collection_type: open
+  name: SageOx Admin Guidance API
+  slug: open-sageox-guidance-api
+- collection_type: open
+  name: SageOx Admin Health API
+  slug: open-sageox-health-api
+- collection_type: open
+  name: SageOx Admin LLM API
+  slug: open-sageox-llm-api
+- collection_type: open
+  name: SageOx Admin Logs API
+  slug: open-sageox-logs-api
+- collection_type: open
+  name: SageOx Admin Miscellaneous API
+  slug: open-sageox-miscellaneous-api
+- collection_type: open
+  name: SageOx Admin Notifications API
+  slug: open-sageox-notifications-api
+- collection_type: open
+  name: SageOx Admin Photos API
+  slug: open-sageox-photos-api
+- collection_type: open
+  name: SageOx Admin Public API
+  slug: open-sageox-public-api
+- collection_type: open
+  name: SageOx Admin Recordings API
+  slug: open-sageox-recordings-api
+- collection_type: open
+  name: SageOx Admin Repositories API
+  slug: open-sageox-repositories-api
+- collection_type: open
+  name: SageOx Admin Repository API
+  slug: open-sageox-repository-api
+- collection_type: open
+  name: SageOx Admin runs API
+  slug: open-sageox-runs-api
+- collection_type: open
+  name: SageOx Admin Teams API
+  slug: open-sageox-teams-api
+- collection_type: open
+  name: SageOx Admin Users API
+  slug: open-sageox-users-api
 common:
 - group: agent
   title: ''
@@ -128,7 +201,7 @@ name: Sageox
 nav: Providers
 network: true
 overview: Sageox publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AgentX API, API Keys API, and 20 more. Tagged areas include Company.
-random_paper: 47
+random_paper: 51
 scopes:
 - name: Sageox Scopes
   scope_count: 4
@@ -157,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

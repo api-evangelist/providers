@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,7 +47,14 @@ apis:
 - description: The Shape API from ElectricSQL — 1 operation(s) for shape.
   name: ElectricSQL Shape API
   slug: electric-sql-shape-api
-artifact_total: 15
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Electric HTTP Shape API
+  slug: open-electric-sql-shape-api
 common:
 - group: agent
   title: ''
@@ -170,7 +177,7 @@ plans:
 - name: Electric Sql Plans Pricing
   plan_count: 4
   slug: electric-sql-plans-pricing
-random_paper: 24
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Electric Sql Rate Limits
@@ -204,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electric-sql/refs/heads/main/screenshots/electric-sql-2026-06-20T180546.png
 security:

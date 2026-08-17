@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -77,11 +77,44 @@ apis:
 - description: The Send Transaction API from EOSIO — 1 operation(s) for send transaction.
   name: EOSIO Send Transaction API
   slug: eosio-send-transaction-api
-artifact_total: 19
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi API
+  slug: open-eosio-get-abi-api
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi Get Account API
+  slug: open-eosio-get-account-api
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi Get Block API
+  slug: open-eosio-get-block-api
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi Get Code API
+  slug: open-eosio-get-code-api
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi Get Currency Balance API
+  slug: open-eosio-get-currency-balance-api
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi Get Info API
+  slug: open-eosio-get-info-api
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi Get Required Keys API
+  slug: open-eosio-get-required-keys-api
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi Get Table Rows API
+  slug: open-eosio-get-table-rows-api
 - collection_type: open
   name: EOSIO / Antelope Nodeos Chain API
   slug: open-eosio-nodeos-chain-api
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi Push Transaction API
+  slug: open-eosio-push-transaction-api
+- collection_type: open
+  name: EOSIO / Antelope Nodeos Chain Get Abi Send Transaction API
+  slug: open-eosio-send-transaction-api
 common:
 - group: operate
   title: ''
@@ -167,7 +200,7 @@ plans:
 - name: Eosio Plans Pricing
   plan_count: 2
   slug: eosio-plans-pricing
-random_paper: 63
+random_paper: 96
 rate_limits:
 - limit_count: 3
   name: Eosio Rate Limits
@@ -192,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

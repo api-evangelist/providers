@@ -10,32 +10,55 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-12'
+  score: 46.6
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Whoapi Agentic Access
+  operation_count: 1
+  slug: whoapi-agentic-access
+  summary_line: 1 operation
 api_count: 1
 apis:
-- description: The Domain Intelligence API from WhoAPI — 1 operation(s) for domain intelligence.
+- description: A single HTTP GET endpoint (api.whoapi.com) exposing nine domain-intelligence tasks selected by the `r` query parameter — whois, taken (availability), cert (SSL), domainscore and domainscore-check, em
   name: WhoAPI Domain Intelligence API
   slug: whoapi-domain-intelligence-api
-artifact_total: 4
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Whoapi Webhooks
+  slug: whoapi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WhoAPI Domain Intelligence API
+  slug: open-whoapi-domain-intelligence-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/whoapi-agentic-access.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -124,6 +147,30 @@ common:
   title: ''
   type: Conformance
   url: conformance/whoapi-conformance.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://whoapi.com/terms-of-use/
+- group: operate
+  title: ''
+  type: Support
+  url: https://whoapi.com/contact-us/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/whoapi-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/whoapi-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/whoapi-webhooks.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/whoapi-tool-crosswalk.yml
 created: '2026-07-17'
 description: WhoAPI (founded 2011, WhoAPI Inc.) is a domain-intelligence API company that exposes WHOIS records, real-time domain availability across hundreds of TLDs, domain age, domain reputation/score, SSL certificate inspection, email score, IP/domain blacklist checks, and website screenshots through a single key-authenticated REST endpoint (api.whoapi.com). Every request is an HTTP GET selecting a task with the `r` parameter and returning gzip-compressed JSON with a numeric `status` and human-readable `status_desc`. It serves cybersecurity teams, domain registrars, SEO agencies, and fraud-detection systems, with first-party and community SDKs for Ruby, Python, Go, and R.
 image: https://whoapi.com/wp-content/uploads/2024/04/API-company-illustration.svg
@@ -132,26 +179,37 @@ mcp_servers:
 - description: ''
   name: whoapi-mcp.yml
   slug: whoapi-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: WhoAPI
 nav: Providers
 network: true
 overview: 'WhoAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Domain Intelligence API. Tagged areas include Company, Domains, WHOIS, Domain Availability, and SSL.
 
 
-  WhoAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 15 more developer resources.'
-random_paper: 48
+  The WhoAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  WhoAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 22 more developer resources.'
+plans:
+- name: Whoapi Plans Pricing
+  plan_count: 0
+  slug: whoapi-plans-pricing
+random_paper: 52
+rate_limits:
+- limit_count: 4
+  name: Whoapi Rate Limits
+  slug: whoapi-rate-limits
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: strong
+  composite: 56.2
+  delta: 10.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 57.5
-    developer_ergonomics: 64.7
+    commercial_clarity: 44.7
+    contract_quality: 66.4
+    developer_ergonomics: 69.0
     discoverability: 75.9
     governance: 11.5
-    operational_transparency: 21.1
+    operational_transparency: 60.5
   previous_composite: 45.9
   provenance:
     conformance: derived
@@ -163,8 +221,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Whoapi Authentication

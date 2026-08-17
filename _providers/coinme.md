@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ arazzos:
 - description: Authorize as a partner, KYC-onboard an end user, create an executable buy quote, and execute it against the quote. Operation ids are verified against openapi/coinme-caas-openapi.json.
   name: Coinme — onboard a customer and buy crypto
   slug: coinme-onboard-and-buy
-artifact_total: 63
+artifact_total: 92
 asyncapis:
 - description: ''
   name: Coinme Webhooks
@@ -217,6 +217,93 @@ collections:
 - collection_type: postman
   name: Coinme Crypto-as-a-Service AuthLinkResult Widget API
   slug: postman-coinme-widget-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult API
+  slug: open-coinme-authlinkresult-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Authorize API
+  slug: open-coinme-authorize-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Businessonboarding API
+  slug: open-coinme-businessonboarding-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Cryptoassetbalance API
+  slug: open-coinme-cryptoassetbalance-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult CryptoChains API
+  slug: open-coinme-cryptochains-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Cryptoquote API
+  slug: open-coinme-cryptoquote-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Customeronboarding API
+  slug: open-coinme-customeronboarding-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Historiccryptodata API
+  slug: open-coinme-historiccryptodata-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Identity API
+  slug: open-coinme-identity-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Locationlicensing API
+  slug: open-coinme-locationlicensing-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Locations API
+  slug: open-coinme-locations-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult MobileAuth API
+  slug: open-coinme-mobileauth-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult MobileAuthFinish API
+  slug: open-coinme-mobileauthfinish-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Order Template API
+  slug: open-coinme-order-template-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Paymentmethods API
+  slug: open-coinme-paymentmethods-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Quote And Transaction API
+  slug: open-coinme-quote-and-transaction-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Send API
+  slug: open-coinme-send-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult SendAuthSms API
+  slug: open-coinme-sendauthsms-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Services API
+  slug: open-coinme-services-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult SmsAuth API
+  slug: open-coinme-smsauth-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Submit Blockchain Id API
+  slug: open-coinme-submit-blockchain-id-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Transaction API
+  slug: open-coinme-transaction-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Transactionhistory API
+  slug: open-coinme-transactionhistory-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Transactionlimits API
+  slug: open-coinme-transactionlimits-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Transactions API
+  slug: open-coinme-transactions-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Verify API
+  slug: open-coinme-verify-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Wallets API
+  slug: open-coinme-wallets-api
+- collection_type: open
+  name: Coinme Crypto-as-a-Service AuthLinkResult Widget API
+  slug: open-coinme-widget-api
 common:
 - group: other
   title: ''
@@ -373,7 +460,7 @@ overview: 'Coinme publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Coinme''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 35
+random_paper: 39
 scopes:
 - name: Coinme Scopes
   scope_count: 3
@@ -408,7 +495,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:

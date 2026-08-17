@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ name: Girlboss
 nav: Providers
 network: true
 overview: Girlboss is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Community, Ecommerce, and Retail.
-random_paper: 29
+random_paper: 124
 score:
   band: minimal
   composite: 12.6
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/girlboss/refs/heads/main/screenshots/girlboss-2026-08-07T165721.png
 security:

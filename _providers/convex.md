@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
 - description: Manage Convex teams, team members, and team-level access tokens. Teams are the billing and administrative unit that owns projects.
   name: Convex Teams API
   slug: convex-teams-api
-artifact_total: 62
+artifact_total: 74
 asyncapis:
 - description: AsyncAPI description of the Convex WebSocket sync protocol used between Convex client SDKs (browser/Node/React/React Native) and a Convex deployment's sync worker. The client opens a WebSocket to `wss
   name: Convex Sync Protocol
@@ -122,14 +122,50 @@ collections:
   name: Convex Deployment Platform AccessTokens Teams API
   slug: postman-convex-teams-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens API
+  slug: open-convex-accesstokens-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens Actions API
+  slug: open-convex-actions-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens CustomDomains API
+  slug: open-convex-customdomains-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens DeployKeys API
+  slug: open-convex-deploykeys-api
+- collection_type: open
   name: Convex Deployment Platform API
   slug: open-convex-deployment-platform-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens Deployments API
+  slug: open-convex-deployments-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens EnvironmentVariables API
+  slug: open-convex-environmentvariables-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens Functions API
+  slug: open-convex-functions-api
 - collection_type: open
   name: Convex HTTP API
   slug: open-convex-http-api
 - collection_type: open
   name: Convex Management API
   slug: open-convex-management-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens Mutations API
+  slug: open-convex-mutations-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens Projects API
+  slug: open-convex-projects-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens Queries API
+  slug: open-convex-queries-api
+- collection_type: open
+  name: Convex Deployment Platform AccessTokens Teams API
+  slug: open-convex-teams-api
 common:
 - group: build
   title: ''
@@ -307,7 +343,7 @@ plans:
 - name: Convex Plans Pricing
   plan_count: 3
   slug: convex-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 28
   name: Convex Rate Limits
@@ -373,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/screenshots/convex-2026-06-20T175006.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -84,11 +84,32 @@ apis:
 - description: Operations for retrieving telemetry information associated with managed users on ChromeOS devices.
   name: Google Chrome Telemetry Users API
   slug: google-chrome-telemetry-users-api
-artifact_total: 88
+artifact_total: 95
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Chrome Management App Details API
+  slug: open-google-chrome-app-details-api
 - collection_type: open
   name: Google Chrome Management API
   slug: open-google-chrome-management-api
+- collection_type: open
+  name: Google Chrome Management App Details Reports API
+  slug: open-google-chrome-reports-api
+- collection_type: open
+  name: Google Chrome Management App Details Telemetry Devices API
+  slug: open-google-chrome-telemetry-devices-api
+- collection_type: open
+  name: Google Chrome Management App Details Telemetry Events API
+  slug: open-google-chrome-telemetry-events-api
+- collection_type: open
+  name: Google Chrome Management App Details Telemetry Notification Configs API
+  slug: open-google-chrome-telemetry-notification-configs-api
+- collection_type: open
+  name: Google Chrome Management App Details Telemetry Users API
+  slug: open-google-chrome-telemetry-users-api
 common:
 - group: commercial
   title: ''
@@ -348,7 +369,7 @@ plans:
 - name: Google Chrome Plans Pricing
   plan_count: 4
   slug: google-chrome-plans-pricing
-random_paper: 0
+random_paper: 128
 rate_limits:
 - limit_count: 7
   name: Google Chrome Rate Limits
@@ -387,7 +408,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/screenshots/google-chrome-2026-06-20T182034.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for programmatic access to Logikcull's eDiscovery platform, enabling document upload, project management, tagging, redactions, and production set generation for legal review workflows.
@@ -112,7 +112,7 @@ plans:
 - name: Logikcull Plans Pricing
   plan_count: 2
   slug: logikcull-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Logikcull Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logikcull/refs/heads/main/screenshots/logikcull-2026-06-20T184702.png
 security:

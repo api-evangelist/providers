@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Discovery API from Voidpet — 1 operation(s) for discovery.
@@ -37,7 +37,17 @@ apis:
 - description: The Health API from Voidpet — 1 operation(s) for health.
   name: Voidpet Health API
   slug: voidpet-health-api
-artifact_total: 5
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Voidpet Public Discovery API
+  slug: open-voidpet-discovery-api
+- collection_type: open
+  name: Voidpet Public Discovery Health API
+  slug: open-voidpet-health-api
 common:
 - group: other
   title: ''
@@ -111,7 +121,7 @@ overview: 'Voidpet publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Voidpet''s developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
-random_paper: 43
+random_paper: 18
 score:
   band: thin
   composite: 33.3
@@ -140,7 +150,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

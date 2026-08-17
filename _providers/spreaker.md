@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: User profiles and social graph (followers, followings, blocks).
   name: Spreaker Users API
   slug: spreaker-users-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spreaker Advertising API
+  slug: open-spreaker-advertising-api
+- collection_type: open
+  name: Spreaker Advertising Episodes API
+  slug: open-spreaker-episodes-api
+- collection_type: open
+  name: Spreaker Advertising Search and Discovery API
+  slug: open-spreaker-search-and-discovery-api
+- collection_type: open
+  name: Spreaker Advertising Shows API
+  slug: open-spreaker-shows-api
+- collection_type: open
+  name: Spreaker Advertising Statistics API
+  slug: open-spreaker-statistics-api
+- collection_type: open
+  name: Spreaker Advertising Users API
+  slug: open-spreaker-users-api
 - collection_type: open
   name: Spreaker API
   slug: open-spreaker
@@ -127,7 +148,7 @@ plans:
 - name: Spreaker Plans Pricing
   plan_count: 4
   slug: spreaker-plans-pricing
-random_paper: 21
+random_paper: 116
 rate_limits:
 - limit_count: 3
   name: Spreaker Rate Limits
@@ -157,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

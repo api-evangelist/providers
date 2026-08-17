@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: The VectorSearch API from ScyllaDB — 1 operation(s) for vectorsearch.
   name: ScyllaDB VectorSearch API
   slug: scylladb-vectorsearch-api
-artifact_total: 33
+artifact_total: 42
 collections:
 - collection_type: postman
   name: ScyllaDB Cloud Account API
@@ -92,6 +92,33 @@ collections:
 - collection_type: postman
   name: ScyllaDB Cloud Account VectorSearch API
   slug: postman-scylladb-vectorsearch-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ScyllaDB Cloud Account API
+  slug: open-scylladb-account-api
+- collection_type: open
+  name: ScyllaDB Cloud Account Account Cluster Network API
+  slug: open-scylladb-account-cluster-network-api
+- collection_type: open
+  name: ScyllaDB Cloud Account Account network cluster connection API
+  slug: open-scylladb-account-network-cluster-connection-api
+- collection_type: open
+  name: ScyllaDB Cloud Account Cluster API
+  slug: open-scylladb-cluster-api
+- collection_type: open
+  name: ScyllaDB Cloud Account Cluster Request API
+  slug: open-scylladb-cluster-request-api
+- collection_type: open
+  name: ScyllaDB Cloud Account Deployment API
+  slug: open-scylladb-deployment-api
+- collection_type: open
+  name: ScyllaDB Cloud Account Pricing API
+  slug: open-scylladb-pricing-api
+- collection_type: open
+  name: ScyllaDB Cloud Account VectorSearch API
+  slug: open-scylladb-vectorsearch-api
 common:
 - group: build
   title: ''
@@ -236,7 +263,7 @@ plans:
 - name: Scylladb Plans Pricing
   plan_count: 4
   slug: scylladb-plans-pricing
-random_paper: 6
+random_paper: 101
 rate_limits:
 - limit_count: 2
   name: Scylladb Rate Limits
@@ -270,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/screenshots/scylladb-2026-06-20T193611.png
 security:

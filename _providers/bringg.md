@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ apis:
 - description: The Webhooks API from Bringg — 7 operation(s) for webhooks.
   name: Bringg Webhooks API
   slug: bringg-webhooks-api
-artifact_total: 110
+artifact_total: 141
 asyncapis:
 - description: Bringg sends server-to-server webhook callbacks to subscriber URLs when events occur on orders, drivers, runs, customers, and waypoints. Bringg retries failed deliveries three times before recording t
   name: Bringg Webhooks
@@ -226,14 +226,107 @@ collections:
   name: Bringg Delivery Hub Administration Webhooks API
   slug: postman-bringg-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bringg Delivery Hub Administration API
+  slug: open-bringg-administration-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Analytics API
+  slug: open-bringg-analytics-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Authentication API
+  slug: open-bringg-authentication-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Blackouts API
+  slug: open-bringg-blackouts-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Bulk API
+  slug: open-bringg-bulk-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Customers API
+  slug: open-bringg-customers-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Delivery Blocks API
+  slug: open-bringg-delivery-blocks-api
+- collection_type: open
   name: Bringg Delivery Hub API
   slug: open-bringg-delivery-hub-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Delivery Slots API
+  slug: open-bringg-delivery-slots-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Drivers API
+  slug: open-bringg-drivers-api
 - collection_type: open
   name: Bringg Drivers and Shifts API
   slug: open-bringg-drivers-shifts-api
 - collection_type: open
   name: Bringg Fleet Partners (Self-Integrated Fleets) API
   slug: open-bringg-fleet-partners-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Floating Inventory API
+  slug: open-bringg-floating-inventory-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Inventory API
+  slug: open-bringg-inventory-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Notes API
+  slug: open-bringg-notes-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Operations API
+  slug: open-bringg-operations-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Order Configurations API
+  slug: open-bringg-order-configurations-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Orders API
+  slug: open-bringg-orders-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Packages API
+  slug: open-bringg-packages-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Parking Spots API
+  slug: open-bringg-parking-spots-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Planned Routes API
+  slug: open-bringg-planned-routes-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Quotes API
+  slug: open-bringg-quotes-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Recurring Orders API
+  slug: open-bringg-recurring-orders-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Routes API
+  slug: open-bringg-routes-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Service Areas API
+  slug: open-bringg-service-areas-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Service Plans API
+  slug: open-bringg-service-plans-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Shifts API
+  slug: open-bringg-shifts-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Teams API
+  slug: open-bringg-teams-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Users API
+  slug: open-bringg-users-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Vehicle Profiles API
+  slug: open-bringg-vehicle-profiles-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Vehicles API
+  slug: open-bringg-vehicles-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Waypoints API
+  slug: open-bringg-waypoints-api
+- collection_type: open
+  name: Bringg Delivery Hub Administration Webhooks API
+  slug: open-bringg-webhooks-api
 common:
 - group: build
   title: ''
@@ -474,7 +567,7 @@ plans:
 - name: Bringg Plans Pricing
   plan_count: 1
   slug: bringg-plans-pricing
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Bringg Rate Limits
@@ -535,7 +628,7 @@ score:
     regime_id: telecommunications
     score: 59.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png
 security:

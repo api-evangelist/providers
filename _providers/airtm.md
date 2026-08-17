@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -100,11 +100,84 @@ apis:
 - description: '# Withdrawals The withdrawals API provides the capability to withdraw your funds to a previously registered external account (Bank or Crypto)'
   name: Airtm Withdrawals API
   slug: airtm-withdrawals-api
-artifact_total: 32
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Airtm Webhooks
   slug: airtm-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airtm Enterprise API V1 Account Status API
+  slug: open-airtm-account-status-api
+- collection_type: open
+  name: Airtm Enterprise API V2 API Keys API
+  slug: open-airtm-apikeys-api
+- collection_type: open
+  name: Airtm Enterprise API V1 Bulk Payments API
+  slug: open-airtm-bulk-payments-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Bulk Payouts API
+  slug: open-airtm-bulk-payouts-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Deposits API
+  slug: open-airtm-deposits-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Embedded Catalog API
+  slug: open-airtm-embedded-catalog-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Embedded Quotes API
+  slug: open-airtm-embedded-quotes-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Embedded Receivers API
+  slug: open-airtm-embedded-receivers-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Embedded Senders API
+  slug: open-airtm-embedded-senders-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Embedded Transactions API
+  slug: open-airtm-embedded-transactions-api
+- collection_type: open
+  name: Airtm Enterprise API V2 External Bank Account API
+  slug: open-airtm-external-bank-account-api
+- collection_type: open
+  name: Airtm Enterprise API V2 External Crypto Account API
+  slug: open-airtm-external-crypto-account-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Me API
+  slug: open-airtm-me-api
+- collection_type: open
+  name: Airtm Enterprise API V1 Operations API
+  slug: open-airtm-operations-api
+- collection_type: open
+  name: Airtm Enterprise API V1 Partner API
+  slug: open-airtm-partner-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Payins API
+  slug: open-airtm-payins-api
+- collection_type: open
+  name: Airtm Enterprise API V1 Payments / Payouts API
+  slug: open-airtm-payments-payouts-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Payouts API
+  slug: open-airtm-payouts-api
+- collection_type: open
+  name: Airtm Enterprise API V1 Purchases / Payins API
+  slug: open-airtm-purchases-payins-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Reports API
+  slug: open-airtm-reports-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Users API
+  slug: open-airtm-users-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Webhooks API
+  slug: open-airtm-webhooks-api
+- collection_type: open
+  name: Airtm Enterprise API V2 Withdrawals API
+  slug: open-airtm-withdrawals-api
 common:
 - group: other
   title: ''
@@ -277,7 +350,7 @@ overview: 'Airtm publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Airtm''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 32 more developer resources.'
-random_paper: 61
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Airtm Rate Limits
@@ -316,7 +389,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/screenshots/airtm-2026-08-07T161117.png
 security:

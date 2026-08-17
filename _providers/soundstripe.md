@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -60,8 +60,32 @@ apis:
 - description: Asynchronous AI music supervisor for natural-language and image-based catalog matching.
   name: Soundstripe Supe Search API
   slug: soundstripe-supe-search-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Soundstripe Categories API
+  slug: open-soundstripe-categories-api
+- collection_type: open
+  name: Soundstripe Categories Playlists API
+  slug: open-soundstripe-playlists-api
+- collection_type: open
+  name: Soundstripe Categories Private Playlists API
+  slug: open-soundstripe-private-playlists-api
+- collection_type: open
+  name: Soundstripe Categories Songs API
+  slug: open-soundstripe-songs-api
+- collection_type: open
+  name: Soundstripe Categories Sound Effects API
+  slug: open-soundstripe-sound-effects-api
+- collection_type: open
+  name: Soundstripe Categories Supe Assets API
+  slug: open-soundstripe-supe-assets-api
+- collection_type: open
+  name: Soundstripe Categories Supe Search API
+  slug: open-soundstripe-supe-search-api
 - collection_type: open
   name: Soundstripe API
   slug: open-soundstripe
@@ -183,7 +207,7 @@ plans:
 - name: Soundstripe Plans Pricing
   plan_count: 7
   slug: soundstripe-plans-pricing
-random_paper: 16
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Soundstripe Rate Limits
@@ -208,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/screenshots/soundstripe-2026-06-20T194222.png
 security:

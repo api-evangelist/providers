@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -105,7 +105,77 @@ apis:
 - description: Workflow Model Information
   name: Nuxeo Workflow Model API
   slug: nuxeo-workflow-model-api
-artifact_total: 77
+artifact_total: 100
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nuxeo Platform ACL API
+  slug: open-nuxeo-acl-api
+- collection_type: open
+  name: Nuxeo Platform ACL Adapter API
+  slug: open-nuxeo-adapter-api
+- collection_type: open
+  name: Nuxeo Platform ACL Annotation API
+  slug: open-nuxeo-annotation-api
+- collection_type: open
+  name: Nuxeo Platform ACL Audit API
+  slug: open-nuxeo-audit-api
+- collection_type: open
+  name: Nuxeo Platform ACL Automation API
+  slug: open-nuxeo-automation-api
+- collection_type: open
+  name: Nuxeo Platform ACL Blob API
+  slug: open-nuxeo-blob-api
+- collection_type: open
+  name: Nuxeo Platform ACL Business Object API
+  slug: open-nuxeo-business-object-api
+- collection_type: open
+  name: Nuxeo Platform ACL Children API
+  slug: open-nuxeo-children-api
+- collection_type: open
+  name: Nuxeo Platform ACL Configuration API
+  slug: open-nuxeo-configuration-api
+- collection_type: open
+  name: Nuxeo Platform ACL Conversion API
+  slug: open-nuxeo-conversion-api
+- collection_type: open
+  name: Nuxeo Platform ACL Directory API
+  slug: open-nuxeo-directory-api
+- collection_type: open
+  name: Nuxeo Platform ACL Document API
+  slug: open-nuxeo-document-api
+- collection_type: open
+  name: Nuxeo Platform ACL Empty Document API
+  slug: open-nuxeo-empty-document-api
+- collection_type: open
+  name: Nuxeo Platform ACL Group API
+  slug: open-nuxeo-group-api
+- collection_type: open
+  name: Nuxeo Platform ACL OAuth2 API
+  slug: open-nuxeo-oauth2-api
+- collection_type: open
+  name: Nuxeo Platform ACL Rendition API
+  slug: open-nuxeo-rendition-api
+- collection_type: open
+  name: Nuxeo Platform ACL Search API
+  slug: open-nuxeo-search-api
+- collection_type: open
+  name: Nuxeo Platform ACL Task API
+  slug: open-nuxeo-task-api
+- collection_type: open
+  name: Nuxeo Platform ACL Token API
+  slug: open-nuxeo-token-api
+- collection_type: open
+  name: Nuxeo Platform ACL User API
+  slug: open-nuxeo-user-api
+- collection_type: open
+  name: Nuxeo Platform ACL Workflow API
+  slug: open-nuxeo-workflow-api
+- collection_type: open
+  name: Nuxeo Platform ACL Workflow Model API
+  slug: open-nuxeo-workflow-model-api
 common:
 - group: agent
   title: ''
@@ -333,7 +403,7 @@ plans:
 - name: Nuxeo Plans Pricing
   plan_count: 2
   slug: nuxeo-plans-pricing
-random_paper: 79
+random_paper: 112
 rate_limits:
 - limit_count: 0
   name: Nuxeo Rate Limits
@@ -367,7 +437,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuxeo/refs/heads/main/screenshots/nuxeo-2026-06-20T190538.png
 security:

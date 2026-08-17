@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -69,11 +69,48 @@ apis:
 - description: The Webhooks API from CompanyCam — 2 operation(s) for webhooks.
   name: CompanyCam Webhooks API
   slug: companycam-webhooks-api
-artifact_total: 18
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Companycam Webhooks
   slug: companycam-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Core Checklists API
+  slug: open-companycam-checklists-api
+- collection_type: open
+  name: Core Checklists Company API
+  slug: open-companycam-company-api
+- collection_type: open
+  name: Core Checklists Groups API
+  slug: open-companycam-groups-api
+- collection_type: open
+  name: Core Checklists Photos API
+  slug: open-companycam-photos-api
+- collection_type: open
+  name: Core Checklists Projects API
+  slug: open-companycam-projects-api
+- collection_type: open
+  name: Core Checklists Tags API
+  slug: open-companycam-tags-api
+- collection_type: open
+  name: Core Checklists Templates API
+  slug: open-companycam-templates-api
+- collection_type: open
+  name: Core Checklists Users API
+  slug: open-companycam-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-companycam-v2
+- collection_type: open
+  name: Core Checklists Videos API
+  slug: open-companycam-videos-api
+- collection_type: open
+  name: Core Checklists Webhooks API
+  slug: open-companycam-webhooks-api
 common:
 - group: company
   title: ''
@@ -242,7 +279,7 @@ overview: 'CompanyCam publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CompanyCam''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 104
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Companycam Rate Limits
@@ -275,7 +312,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/screenshots/companycam-2026-07-25T210145.png
 security:

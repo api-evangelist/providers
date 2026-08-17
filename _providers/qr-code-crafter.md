@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -31,7 +31,11 @@ apis:
 - description: REST API for generating static and bulk QR codes and managing dynamic URL redirects/vaults with aggregate analytics. Includes an OpenAPI 3.0.1 contract, WebMCP browser-agent context, ai-plugin.json, l
   name: QRCodeCrafter API
   slug: qrcodecrafter-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: QRCodeCrafter API
+  slug: open-qr-code-crafter-openapi-original
 common:
 - group: company
   title: ''
@@ -165,7 +169,7 @@ plans:
 - name: Qr Code Crafter Plans Pricing
   plan_count: 1
   slug: qr-code-crafter-plans-pricing
-random_paper: 31
+random_paper: 130
 rate_limits:
 - limit_count: 4
   name: Qr Code Crafter Rate Limits
@@ -183,7 +187,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 43.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

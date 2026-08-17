@@ -19,13 +19,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API with a single endpoint (POST /v1/image/detect) that detects whether an image is AI-generated. Accepts a multipart file upload (JPG, PNG or WebP, up to 8 MB) or a JSON body with a public image
   name: AI Image Detector API
   slug: ai-image-detector-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: AI Image Detector API
+  slug: open-anyimagedetector-ai-image-detector
 common:
 - group: agent
   title: ''
@@ -148,7 +152,7 @@ plans:
 - name: Anyimagedetector Plans Pricing
   plan_count: 5
   slug: anyimagedetector-plans-pricing
-random_paper: 21
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Anyimagedetector Rate Limits
@@ -166,7 +170,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 53.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

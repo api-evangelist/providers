@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ overview: 'Radical Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Radical Health''s developer surface includes signup flow, pricing, engineering blog, and 12 more developer resources.'
-random_paper: 30
+random_paper: 9
 score:
   band: emerging
   composite: 21.4
@@ -124,7 +124,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

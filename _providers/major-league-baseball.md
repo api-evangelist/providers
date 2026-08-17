@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -139,8 +139,101 @@ apis:
 - description: The Weather API from Major League Baseball — 4 operation(s) for weather.
   name: Major League Baseball Weather API
   slug: major-league-baseball-weather-api
-artifact_total: 38
+artifact_total: 69
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stats API Documentation Analytics API
+  slug: open-major-league-baseball-analytics-api
+- collection_type: open
+  name: Stats API Documentation Analytics Attendance API
+  slug: open-major-league-baseball-attendance-api
+- collection_type: open
+  name: Stats API Documentation Analytics Awards API
+  slug: open-major-league-baseball-awards-api
+- collection_type: open
+  name: Stats API Documentation Analytics Bat Tracking API
+  slug: open-major-league-baseball-bat-tracking-api
+- collection_type: open
+  name: Stats API Documentation Analytics Biomechanics API
+  slug: open-major-league-baseball-biomechanics-api
+- collection_type: open
+  name: Stats API Documentation Analytics Broadcast API
+  slug: open-major-league-baseball-broadcast-api
+- collection_type: open
+  name: Stats API Documentation Analytics Conference API
+  slug: open-major-league-baseball-conference-api
+- collection_type: open
+  name: Stats API Documentation Analytics Config API
+  slug: open-major-league-baseball-config-api
+- collection_type: open
+  name: Stats API Documentation Analytics Division API
+  slug: open-major-league-baseball-division-api
+- collection_type: open
+  name: Stats API Documentation Analytics Draft API
+  slug: open-major-league-baseball-draft-api
+- collection_type: open
+  name: Stats API Documentation Analytics Game API
+  slug: open-major-league-baseball-game-api
+- collection_type: open
+  name: Stats API Documentation Analytics Game Pace API
+  slug: open-major-league-baseball-game-pace-api
+- collection_type: open
+  name: Stats API Documentation Analytics High/Low API
+  slug: open-major-league-baseball-high-low-api
+- collection_type: open
+  name: Stats API Documentation Analytics Homerun Derby API
+  slug: open-major-league-baseball-homerun-derby-api
+- collection_type: open
+  name: Stats API Documentation Analytics Job API
+  slug: open-major-league-baseball-job-api
+- collection_type: open
+  name: Stats API Documentation Analytics League API
+  slug: open-major-league-baseball-league-api
+- collection_type: open
+  name: Stats API Documentation Analytics Milestones API
+  slug: open-major-league-baseball-milestones-api
+- collection_type: open
+  name: Stats API Documentation Analytics Person API
+  slug: open-major-league-baseball-person-api
+- collection_type: open
+  name: Stats API Documentation Analytics Predictions API
+  slug: open-major-league-baseball-predictions-api
+- collection_type: open
+  name: Stats API Documentation Analytics Schedule API
+  slug: open-major-league-baseball-schedule-api
+- collection_type: open
+  name: Stats API Documentation Analytics Season API
+  slug: open-major-league-baseball-season-api
+- collection_type: open
+  name: Stats API Documentation Analytics Skeletal API
+  slug: open-major-league-baseball-skeletal-api
+- collection_type: open
+  name: Stats API Documentation Analytics Sports API
+  slug: open-major-league-baseball-sports-api
+- collection_type: open
+  name: Stats API Documentation Analytics Standings API
+  slug: open-major-league-baseball-standings-api
+- collection_type: open
+  name: API Documentation Analytics Stats API
+  slug: open-major-league-baseball-stats-api
+- collection_type: open
+  name: Stats API Documentation Analytics Streaks API
+  slug: open-major-league-baseball-streaks-api
+- collection_type: open
+  name: Stats API Documentation Analytics Teams API
+  slug: open-major-league-baseball-teams-api
+- collection_type: open
+  name: Stats API Documentation Analytics Transactions API
+  slug: open-major-league-baseball-transactions-api
+- collection_type: open
+  name: Stats API Documentation Analytics Venues API
+  slug: open-major-league-baseball-venues-api
+- collection_type: open
+  name: Stats API Documentation Analytics Weather API
+  slug: open-major-league-baseball-weather-api
 - collection_type: open
   name: Stats API Documentation
   slug: open-major-league-baseball
@@ -213,7 +306,7 @@ overview: 'Major League Baseball publishes 31 APIs on the [APIs.io](https://apis
 
 
   Major League Baseball''s developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 36
+random_paper: 139
 score:
   band: emerging
   composite: 18.2
@@ -234,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

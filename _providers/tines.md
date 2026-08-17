@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Manage teams and team membership
   name: Tines Teams API
   slug: tines-teams-api
-artifact_total: 23
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tines REST Actions API
+  slug: open-tines-actions-api
+- collection_type: open
+  name: Tines REST Actions Audit Logs API
+  slug: open-tines-audit-logs-api
+- collection_type: open
+  name: Tines REST Actions Credentials API
+  slug: open-tines-credentials-api
+- collection_type: open
+  name: Tines REST Actions Folders API
+  slug: open-tines-folders-api
+- collection_type: open
+  name: Tines REST Actions Stories API
+  slug: open-tines-stories-api
+- collection_type: open
+  name: Tines REST Actions Tags API
+  slug: open-tines-tags-api
+- collection_type: open
+  name: Tines REST Actions Teams API
+  slug: open-tines-teams-api
 common:
 - group: agent
   title: ''
@@ -174,7 +199,7 @@ plans:
 - name: Tines Plans Pricing
   plan_count: 3
   slug: tines-plans-pricing
-random_paper: 67
+random_paper: 100
 rate_limits:
 - limit_count: 0
   name: Tines Rate Limits
@@ -208,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tines/refs/heads/main/screenshots/tines-2026-06-20T195413.png
 security:

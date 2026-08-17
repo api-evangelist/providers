@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 8
@@ -232,7 +232,7 @@ arazzos:
 - description: Submit a TFLite training job, poll its status, and branch to logs or cancel.
   name: Viam Train and Monitor an ML Model
   slug: viam-train-and-monitor-model-workflow
-artifact_total: 137
+artifact_total: 189
 collections:
 - collection_type: postman
   name: Viam Billing API
@@ -277,8 +277,41 @@ collections:
   name: Viam Vision Service API
   slug: postman-viam-vision-service-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Viam Billing Arm API
+  slug: open-viam-arm-api
+- collection_type: open
+  name: Viam Billing Arm Audio In API
+  slug: open-viam-audio-in-api
+- collection_type: open
+  name: Viam Billing Arm Audio Out API
+  slug: open-viam-audio-out-api
+- collection_type: open
+  name: Viam Billing Arm Base API
+  slug: open-viam-base-api
+- collection_type: open
   name: Viam Billing API
   slug: open-viam-billing-api
+- collection_type: open
+  name: Viam Billing Arm Billing Tiers API
+  slug: open-viam-billing-tiers-api
+- collection_type: open
+  name: Viam Billing Arm Binary Data API
+  slug: open-viam-binary-data-api
+- collection_type: open
+  name: Viam Billing Arm Board API
+  slug: open-viam-board-api
+- collection_type: open
+  name: Viam Billing Arm Button API
+  slug: open-viam-button-api
+- collection_type: open
+  name: Viam Billing Arm Camera API
+  slug: open-viam-camera-api
+- collection_type: open
+  name: Viam Billing Arm Charges API
+  slug: open-viam-charges-api
 - collection_type: open
   name: Viam Component APIs
   slug: open-viam-component-apis
@@ -292,14 +325,59 @@ collections:
   name: Viam Data Sync API
   slug: open-viam-data-sync-api
 - collection_type: open
+  name: Viam Billing Arm Database API
+  slug: open-viam-database-api
+- collection_type: open
+  name: Viam Billing Arm Datasets API
+  slug: open-viam-datasets-api
+- collection_type: open
+  name: Viam Billing Arm Encoder API
+  slug: open-viam-encoder-api
+- collection_type: open
   name: Viam Fleet Management API
   slug: open-viam-fleet-management-api
+- collection_type: open
+  name: Viam Billing Arm Fragments API
+  slug: open-viam-fragments-api
+- collection_type: open
+  name: Viam Billing Arm Frame System API
+  slug: open-viam-frame-system-api
+- collection_type: open
+  name: Viam Billing Arm Gantry API
+  slug: open-viam-gantry-api
+- collection_type: open
+  name: Viam Billing Arm Generic API
+  slug: open-viam-generic-api
+- collection_type: open
+  name: Viam Billing Arm Gripper API
+  slug: open-viam-gripper-api
+- collection_type: open
+  name: Viam Billing Arm Inference API
+  slug: open-viam-inference-api
+- collection_type: open
+  name: Viam Billing Arm Invoices API
+  slug: open-viam-invoices-api
+- collection_type: open
+  name: Viam Billing Arm Locations API
+  slug: open-viam-locations-api
 - collection_type: open
   name: Viam Machine Management API
   slug: open-viam-machine-management-api
 - collection_type: open
+  name: Viam Billing Arm Machine Parts API
+  slug: open-viam-machine-parts-api
+- collection_type: open
+  name: Viam Billing Arm Machines API
+  slug: open-viam-machines-api
+- collection_type: open
+  name: Viam Billing Arm Members API
+  slug: open-viam-members-api
+- collection_type: open
   name: Viam ML Inference API
   slug: open-viam-ml-inference-api
+- collection_type: open
+  name: Viam Billing Arm ML Model API
+  slug: open-viam-ml-model-api
 - collection_type: open
   name: Viam ML Model Service API
   slug: open-viam-ml-model-service-api
@@ -307,14 +385,92 @@ collections:
   name: Viam ML Training API
   slug: open-viam-ml-training-api
 - collection_type: open
+  name: Viam Billing Arm Modules API
+  slug: open-viam-modules-api
+- collection_type: open
+  name: Viam Billing Arm Motion API
+  slug: open-viam-motion-api
+- collection_type: open
   name: Viam Motion Service API
   slug: open-viam-motion-service-api
 - collection_type: open
-  name: Viam Provisioning API
+  name: Viam Billing Arm Motor API
+  slug: open-viam-motor-api
+- collection_type: open
+  name: Viam Billing Arm Movement Sensor API
+  slug: open-viam-movement-sensor-api
+- collection_type: open
+  name: Viam Billing Arm OAuth Apps API
+  slug: open-viam-oauth-apps-api
+- collection_type: open
+  name: Viam Billing Arm Operations API
+  slug: open-viam-operations-api
+- collection_type: open
+  name: Viam Billing Arm Organizations API
+  slug: open-viam-organizations-api
+- collection_type: open
+  name: Viam Billing Arm Pipelines API
+  slug: open-viam-pipelines-api
+- collection_type: open
+  name: Viam Billing Arm Power Sensor API
+  slug: open-viam-power-sensor-api
+- collection_type: open
+  name: Viam Billing Arm Provisioning API
   slug: open-viam-provisioning-api
+- collection_type: open
+  name: Viam Billing Arm Resources API
+  slug: open-viam-resources-api
+- collection_type: open
+  name: Viam Billing Arm Saved Queries API
+  slug: open-viam-saved-queries-api
+- collection_type: open
+  name: Viam Billing Arm Secrets API
+  slug: open-viam-secrets-api
+- collection_type: open
+  name: Viam Billing Arm Sensor API
+  slug: open-viam-sensor-api
+- collection_type: open
+  name: Viam Billing Arm Sequences API
+  slug: open-viam-sequences-api
+- collection_type: open
+  name: Viam Billing Arm Servo API
+  slug: open-viam-servo-api
+- collection_type: open
+  name: Viam Billing Arm Sessions API
+  slug: open-viam-sessions-api
+- collection_type: open
+  name: Viam Billing Arm SLAM API
+  slug: open-viam-slam-api
 - collection_type: open
   name: Viam SLAM Service API
   slug: open-viam-slam-service-api
+- collection_type: open
+  name: Viam Billing Arm Status API
+  slug: open-viam-status-api
+- collection_type: open
+  name: Viam Billing Arm Switch API
+  slug: open-viam-switch-api
+- collection_type: open
+  name: Viam Billing Arm Tabular Data API
+  slug: open-viam-tabular-data-api
+- collection_type: open
+  name: Viam Billing Arm Tags API
+  slug: open-viam-tags-api
+- collection_type: open
+  name: Viam Billing Arm Training Jobs API
+  slug: open-viam-training-jobs-api
+- collection_type: open
+  name: Viam Billing Arm Tunneling API
+  slug: open-viam-tunneling-api
+- collection_type: open
+  name: Viam Billing Arm Upload API
+  slug: open-viam-upload-api
+- collection_type: open
+  name: Viam Billing Arm Usage API
+  slug: open-viam-usage-api
+- collection_type: open
+  name: Viam Billing Arm Vision API
+  slug: open-viam-vision-api
 - collection_type: open
   name: Viam Vision Service API
   slug: open-viam-vision-service-api
@@ -666,7 +822,7 @@ plans:
 - name: Viam Plans Pricing
   plan_count: 4
   slug: viam-plans-pricing
-random_paper: 69
+random_paper: 131
 rate_limits:
 - limit_count: 0
   name: Viam Rate Limits
@@ -708,7 +864,7 @@ score:
       marker_coverage: 0.0
       total: 52
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/screenshots/viam-2026-06-20T201013.png
 security:

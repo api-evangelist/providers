@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -59,12 +59,33 @@ apis:
 - description: The Topic API from Apache EventMesh — 3 operation(s) for topic.
   name: Apache EventMesh Topic API
   slug: apache-event-mesh-topic-api
-artifact_total: 47
+artifact_total: 54
 asyncapis:
 - description: Apache EventMesh provides event-driven messaging via multiple protocols including TCP, HTTP, and gRPC. Events follow the CloudEvents specification. EventMesh decouples event producers and consumers, s
   name: Apache EventMesh Messaging API
   slug: eventmesh-messaging
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache EventMesh Admin Client API
+  slug: open-apache-event-mesh-client-api
+- collection_type: open
+  name: Apache EventMesh Admin Client Event API
+  slug: open-apache-event-mesh-event-api
+- collection_type: open
+  name: Apache EventMesh Admin Client Monitoring API
+  slug: open-apache-event-mesh-monitoring-api
+- collection_type: open
+  name: Apache EventMesh Admin Client Registry API
+  slug: open-apache-event-mesh-registry-api
+- collection_type: open
+  name: Apache EventMesh Admin Client Subscription API
+  slug: open-apache-event-mesh-subscription-api
+- collection_type: open
+  name: Apache EventMesh Admin Client Topic API
+  slug: open-apache-event-mesh-topic-api
 - collection_type: open
   name: Apache EventMesh Admin API
   slug: open-eventmesh-admin
@@ -223,7 +244,7 @@ plans:
 - name: Apache Event Mesh Plans Pricing
   plan_count: 3
   slug: apache-event-mesh-plans-pricing
-random_paper: 115
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Apache Event Mesh Rate Limits
@@ -273,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/screenshots/apache-event-mesh-2026-06-20T172059.png
 security:

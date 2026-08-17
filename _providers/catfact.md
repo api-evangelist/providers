@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The Facts API from Cat Facts API — 1 operation(s) for facts.
   name: Cat Facts API Facts API
   slug: catfact-facts-api
-artifact_total: 17
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cat Facts Breeds API
+  slug: open-catfact-breeds-api
+- collection_type: open
+  name: Cat Facts Breeds Fact API
+  slug: open-catfact-fact-api
+- collection_type: open
+  name: Cat Breeds Facts API
+  slug: open-catfact-facts-api
 common:
 - group: agent
   title: ''
@@ -132,7 +145,7 @@ plans:
 - name: Catfact Plans Pricing
   plan_count: 1
   slug: catfact-plans-pricing
-random_paper: 6
+random_paper: 130
 rate_limits:
 - limit_count: 0
   name: Catfact Rate Limits
@@ -166,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/screenshots/catfact-2026-06-20T174051.png
 security:

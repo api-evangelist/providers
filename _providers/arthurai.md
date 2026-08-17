@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 68
 apis:
 - description: The Agent Discovery API from ArthurAI — 2 operation(s) for agent discovery.
@@ -235,11 +235,219 @@ apis:
 - description: The Workspaces V1 API from ArthurAI — 3 operation(s) for workspaces v1.
   name: ArthurAI Workspaces V1 API
   slug: arthurai-workspaces-v1-api
-artifact_total: 73
+artifact_total: 142
 asyncapis:
 - description: ''
   name: Arthurai Webhooks
   slug: arthurai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery API
+  slug: open-arthurai-agent-discovery-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Agentic Experiments API
+  slug: open-arthurai-agentic-experiments-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Agentic Notebooks API
+  slug: open-arthurai-agentic-notebooks-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Agents V1 API
+  slug: open-arthurai-agents-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Alert Rules V1 API
+  slug: open-arthurai-alert-rules-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Alerts V1 API
+  slug: open-arthurai-alerts-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery API Keys API
+  slug: open-arthurai-api-keys-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Authorization V1 API
+  slug: open-arthurai-authorization-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Chatbot API
+  slug: open-arthurai-chatbot-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Configuration API
+  slug: open-arthurai-configuration-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Connector Schemas V1 API
+  slug: open-arthurai-connector-schemas-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Connectors V1 API
+  slug: open-arthurai-connectors-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Continuous Eval Test Runs API
+  slug: open-arthurai-continuous-eval-test-runs-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Continuous Evals API
+  slug: open-arthurai-continuous-evals-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Custom Aggregation Tests V1 API
+  slug: open-arthurai-custom-aggregation-tests-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Custom Aggregations V1 API
+  slug: open-arthurai-custom-aggregations-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Data Plane Associations V1 API
+  slug: open-arthurai-data-plane-associations-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Data Planes V1 API
+  slug: open-arthurai-data-planes-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Data Retrieval V1 API
+  slug: open-arthurai-data-retrieval-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Datasets API
+  slug: open-arthurai-datasets-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Datasets V1 API
+  slug: open-arthurai-datasets-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Default Validation API
+  slug: open-arthurai-default-validation-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Demo API
+  slug: open-arthurai-demo-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Engine Config API
+  slug: open-arthurai-engine-config-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Feature Flags V1 API
+  slug: open-arthurai-feature-flags-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Feedback API
+  slug: open-arthurai-feedback-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Groups V1 API
+  slug: open-arthurai-groups-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Health API
+  slug: open-arthurai-health-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Inferences API
+  slug: open-arthurai-inferences-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Jobs V1 API
+  slug: open-arthurai-jobs-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery LLMEvals API
+  slug: open-arthurai-llmevals-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Metric Functions V1 API
+  slug: open-arthurai-metric-functions-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Metrics V1 API
+  slug: open-arthurai-metrics-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery ML Evals API
+  slug: open-arthurai-ml-evals-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Model Providers API
+  slug: open-arthurai-model-providers-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Models V1 API
+  slug: open-arthurai-models-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Notebooks API
+  slug: open-arthurai-notebooks-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery OAuth V1 API
+  slug: open-arthurai-oauth-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Organizations V1 API
+  slug: open-arthurai-organizations-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Policies V1 API
+  slug: open-arthurai-policies-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Projects V1 API
+  slug: open-arthurai-projects-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Prompt Experiments API
+  slug: open-arthurai-prompt-experiments-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Prompts API
+  slug: open-arthurai-prompts-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery RAG Experiments API
+  slug: open-arthurai-rag-experiments-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery RAG Notebooks API
+  slug: open-arthurai-rag-notebooks-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery RAG Providers API
+  slug: open-arthurai-rag-providers-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery RAG Settings API
+  slug: open-arthurai-rag-settings-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Registration V1 API
+  slug: open-arthurai-registration-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Roles V1 API
+  slug: open-arthurai-roles-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Rules API
+  slug: open-arthurai-rules-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Secrets API
+  slug: open-arthurai-secrets-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Sessions API
+  slug: open-arthurai-sessions-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Settings API
+  slug: open-arthurai-settings-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Spans API
+  slug: open-arthurai-spans-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Stateless Validation API
+  slug: open-arthurai-stateless-validation-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Task Based Validation API
+  slug: open-arthurai-task-based-validation-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Tasks API
+  slug: open-arthurai-tasks-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Tasks V1 API
+  slug: open-arthurai-tasks-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Tenant Signup API
+  slug: open-arthurai-tenant-signup-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Traces API
+  slug: open-arthurai-traces-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Transforms API
+  slug: open-arthurai-transforms-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Upsolve V1 API
+  slug: open-arthurai-upsolve-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Usage API
+  slug: open-arthurai-usage-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery User Management API
+  slug: open-arthurai-user-management-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Users API
+  slug: open-arthurai-users-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Users V1 API
+  slug: open-arthurai-users-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Webhooks V1 API
+  slug: open-arthurai-webhooks-v1-api
+- collection_type: open
+  name: Arthur GenAI Engine Agent Discovery Workspaces V1 API
+  slug: open-arthurai-workspaces-v1-api
 common:
 - group: company
   title: ''
@@ -376,7 +584,7 @@ overview: 'ArthurAI publishes 68 APIs on the [APIs.io](https://apis.io/) network
 
 
   ArthurAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
-random_paper: 24
+random_paper: 119
 scopes:
 - name: Arthurai Scopes
   scope_count: 191
@@ -404,7 +612,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/screenshots/arthurai-2026-07-25T201328.png
 security:

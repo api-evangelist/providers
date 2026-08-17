@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: Endpoints for retrieving workflow details, managing workflow status, and rerunning workflows.
   name: CircleCI Workflow API
   slug: circleci-workflow-api
-artifact_total: 116
+artifact_total: 132
 asyncapis:
 - description: CircleCI Webhooks allow developers to receive real-time notifications about events in their CI/CD pipelines by configuring HTTP callbacks. Webhooks can be set up through project settings or the API to
   name: CircleCI Webhooks
@@ -148,14 +148,62 @@ collections:
   name: CircleCI REST API v1 Artifact Workflow API
   slug: postman-circleci-workflow-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CircleCI REST API v1 Artifact API
+  slug: open-circleci-artifact-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Build API
+  slug: open-circleci-build-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Context API
+  slug: open-circleci-context-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Insights API
+  slug: open-circleci-insights-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Job API
+  slug: open-circleci-job-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Pipeline API
+  slug: open-circleci-pipeline-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Project API
+  slug: open-circleci-project-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Resource Class API
+  slug: open-circleci-resource-class-api
+- collection_type: open
   name: CircleCI REST API v1
   slug: open-circleci-rest-api-v1
 - collection_type: open
   name: CircleCI REST API v2
   slug: open-circleci-rest-api-v2
 - collection_type: open
-  name: CircleCI Self-Hosted Runner API
+  name: CircleCI REST API v1 Artifact Runner API
   slug: open-circleci-runner-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Runner Task API
+  slug: open-circleci-runner-task-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Schedule API
+  slug: open-circleci-schedule-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact SSH Key API
+  slug: open-circleci-ssh-key-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Test Metadata API
+  slug: open-circleci-test-metadata-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact User API
+  slug: open-circleci-user-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Webhook API
+  slug: open-circleci-webhook-api
+- collection_type: open
+  name: CircleCI REST API v1 Artifact Workflow API
+  slug: open-circleci-workflow-api
 common:
 - group: build
   title: ''
@@ -446,7 +494,7 @@ plans:
 - name: Circleci Plans Pricing
   plan_count: 3
   slug: circleci-plans-pricing
-random_paper: 110
+random_paper: 85
 rate_limits:
 - limit_count: 4
   name: Circleci Rate Limits
@@ -496,7 +544,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/screenshots/circleci-2026-06-20T174349.png
 security:

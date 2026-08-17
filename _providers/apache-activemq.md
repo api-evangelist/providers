@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,7 +51,17 @@ apis:
 - description: Operations for producing and consuming messages from queues and topics.
   name: Apache ActiveMQ Messages API
   slug: apache-activemq-messages-api
-artifact_total: 43
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache ActiveMQ REST Management API
+  slug: open-apache-activemq-management-api
+- collection_type: open
+  name: Apache ActiveMQ REST Management Messages API
+  slug: open-apache-activemq-messages-api
 common:
 - group: operate
   title: ''
@@ -230,7 +240,7 @@ plans:
 - name: Apache Activemq Plans Pricing
   plan_count: 3
   slug: apache-activemq-plans-pricing
-random_paper: 73
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Apache Activemq Rate Limits
@@ -272,7 +282,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/screenshots/apache-activemq-2026-06-20T172037.png
 security:

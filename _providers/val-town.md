@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -78,7 +78,44 @@ apis:
 - description: These endpoints let you get, create, and run vals.
   name: Val Town vals API
   slug: val-town-vals-api
-artifact_total: 32
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Val Town alias API
+  slug: open-val-town-alias-api
+- collection_type: open
+  name: Val Town alias blobs API
+  slug: open-val-town-blobs-api
+- collection_type: open
+  name: Val Town alias connections API
+  slug: open-val-town-connections-api
+- collection_type: open
+  name: Val Town alias emails API
+  slug: open-val-town-emails-api
+- collection_type: open
+  name: Val Town alias files API
+  slug: open-val-town-files-api
+- collection_type: open
+  name: Val Town alias me API
+  slug: open-val-town-me-api
+- collection_type: open
+  name: Val Town alias orgs API
+  slug: open-val-town-orgs-api
+- collection_type: open
+  name: Val Town alias sqlite API
+  slug: open-val-town-sqlite-api
+- collection_type: open
+  name: Val Town alias telemetry API
+  slug: open-val-town-telemetry-api
+- collection_type: open
+  name: Val Town alias users API
+  slug: open-val-town-users-api
+- collection_type: open
+  name: Val Town alias vals API
+  slug: open-val-town-vals-api
 common:
 - group: commercial
   title: ''
@@ -208,7 +245,7 @@ plans:
 - name: Val Town Plans Pricing
   plan_count: 4
   slug: val-town-plans-pricing
-random_paper: 104
+random_paper: 79
 rate_limits:
 - limit_count: 17
   name: Val Town Rate Limits
@@ -242,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/screenshots/val-town-2026-06-20T200750.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ name: Clicker
 nav: Providers
 network: true
 overview: Clicker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Streaming, Entertainment, Media, and Movies.
-random_paper: 13
+random_paper: 137
 score:
   band: minimal
   composite: 9.2
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clicker/refs/heads/main/screenshots/clicker-2026-07-25T205609.png
 slug: clicker

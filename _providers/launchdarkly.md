@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -120,18 +120,99 @@ apis:
 - description: Create and manage automated workflows for scheduling and orchestrating flag changes.
   name: launchdarkly Workflows API
   slug: launchdarkly-workflows-api
-artifact_total: 127
+artifact_total: 154
 asyncapis:
 - description: LaunchDarkly sends webhook notifications as HTTP POST requests when changes occur within the platform. The webhook payload format is identical to audit log entries and includes details about what chan
   name: LaunchDarkly Webhooks Events
   slug: launchdarkly-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens API
+  slug: open-launchdarkly-access-tokens-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Account Members API
+  slug: open-launchdarkly-account-members-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Approvals API
+  slug: open-launchdarkly-approvals-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Audit Log API
+  slug: open-launchdarkly-audit-log-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Client-Side Evaluation API
+  slug: open-launchdarkly-client-side-evaluation-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Client-Side Streaming API
+  slug: open-launchdarkly-client-side-streaming-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Code References API
+  slug: open-launchdarkly-code-references-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Custom Roles API
+  slug: open-launchdarkly-custom-roles-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Environments API
+  slug: open-launchdarkly-environments-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Experiments API
+  slug: open-launchdarkly-experiments-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Feature Flags API
+  slug: open-launchdarkly-feature-flags-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Flag Triggers API
+  slug: open-launchdarkly-flag-triggers-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Integration Audit Log Subscriptions API
+  slug: open-launchdarkly-integration-audit-log-subscriptions-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Metrics API
+  slug: open-launchdarkly-metrics-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens PHP Polling API
+  slug: open-launchdarkly-php-polling-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Projects API
+  slug: open-launchdarkly-projects-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Relay Proxy Configurations API
+  slug: open-launchdarkly-relay-proxy-configurations-api
+- collection_type: open
   name: LaunchDarkly Relay Proxy
   slug: open-launchdarkly-relay-proxy
 - collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Releases API
+  slug: open-launchdarkly-releases-api
+- collection_type: open
   name: LaunchDarkly REST API
   slug: open-launchdarkly-rest-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Segments API
+  slug: open-launchdarkly-segments-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Server-Side Evaluation API
+  slug: open-launchdarkly-server-side-evaluation-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Server-Side Streaming API
+  slug: open-launchdarkly-server-side-streaming-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Status API
+  slug: open-launchdarkly-status-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Tags API
+  slug: open-launchdarkly-tags-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Teams API
+  slug: open-launchdarkly-teams-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Webhooks API
+  slug: open-launchdarkly-webhooks-api
+- collection_type: open
+  name: LaunchDarkly Relay Proxy Access Tokens Workflows API
+  slug: open-launchdarkly-workflows-api
 common:
 - group: agent
   title: ''
@@ -436,7 +517,7 @@ plans:
 - name: Launchdarkly Plans Pricing
   plan_count: 4
   slug: launchdarkly-plans-pricing
-random_paper: 82
+random_paper: 90
 rate_limits:
 - limit_count: 3
   name: Launchdarkly Rate Limits
@@ -478,7 +559,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/screenshots/launchdarkly-2026-06-20T184335.png
 security:

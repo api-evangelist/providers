@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -90,7 +90,35 @@ apis:
 - description: Transaction execution and receipt status endpoints.
   name: Routescan (Snowtrace) Transactions API
   slug: snowtrace-transactions-api
-artifact_total: 33
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Routescan (Snowtrace) Etherscan-Compatible Accounts API
+  slug: open-snowtrace-accounts-api
+- collection_type: open
+  name: Routescan (Snowtrace) Etherscan-Compatible Accounts Blocks API
+  slug: open-snowtrace-blocks-api
+- collection_type: open
+  name: Routescan (Snowtrace) Etherscan-Compatible Accounts Contracts API
+  slug: open-snowtrace-contracts-api
+- collection_type: open
+  name: Routescan (Snowtrace) Etherscan-Compatible Accounts Logs API
+  slug: open-snowtrace-logs-api
+- collection_type: open
+  name: Routescan (Snowtrace) Etherscan-Compatible Accounts Proxy API
+  slug: open-snowtrace-proxy-api
+- collection_type: open
+  name: Routescan (Snowtrace) Etherscan-Compatible Accounts Stats API
+  slug: open-snowtrace-stats-api
+- collection_type: open
+  name: Routescan (Snowtrace) Etherscan-Compatible Accounts Tokens API
+  slug: open-snowtrace-tokens-api
+- collection_type: open
+  name: Routescan (Snowtrace) Etherscan-Compatible Accounts Transactions API
+  slug: open-snowtrace-transactions-api
 common:
 - group: agent
   title: ''
@@ -202,7 +230,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -236,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

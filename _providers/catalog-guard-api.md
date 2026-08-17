@@ -18,13 +18,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
   name: Catalog Guard API Catalog API
   slug: catalog-guard-api-catalog-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Guard Catalog API
+  slug: open-catalog-guard-api-catalog-api
 common:
 - group: docs
   title: ''
@@ -131,7 +138,7 @@ overview: 'Catalog Guard API publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Catalog Guard API''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, code examples, and 16 more developer resources.'
-random_paper: 106
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Catalog Guard Api Rate Limits
@@ -158,7 +165,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: The cdn API from Alokai (formerly Vue Storefront) — 2 operation(s) for cdn.
@@ -85,7 +85,65 @@ apis:
 - description: The v2.2/instance/{namespace}/pods API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance/{namespace}/pods.
   name: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/pods API
   slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api
-artifact_total: 21
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: farmer cdn API
+  slug: open-alokai-formerly-vue-storefront-cdn-api
+- collection_type: open
+  name: farmer cdn deploy_check API
+  slug: open-alokai-formerly-vue-storefront-deploy-check-api
+- collection_type: open
+  name: farmer cdn flush_cache API
+  slug: open-alokai-formerly-vue-storefront-flush-cache-api
+- collection_type: open
+  name: farmer cdn Healthz API
+  slug: open-alokai-formerly-vue-storefront-healthz-api
+- collection_type: open
+  name: farmer cdn Instance API
+  slug: open-alokai-formerly-vue-storefront-instance-api
+- collection_type: open
+  name: farmer cdn instance/{namespace} API
+  slug: open-alokai-formerly-vue-storefront-instance-namespace-api
+- collection_type: open
+  name: farmer cdn instance/{namespace}/exists API
+  slug: open-alokai-formerly-vue-storefront-instance-namespace-exists-api
+- collection_type: open
+  name: farmer cdn instance/{namespace}/ingresses API
+  slug: open-alokai-formerly-vue-storefront-instance-namespace-ingresses-api
+- collection_type: open
+  name: farmer cdn instance/{namespace}/kube_config API
+  slug: open-alokai-formerly-vue-storefront-instance-namespace-kube-config-api
+- collection_type: open
+  name: farmer cdn instance/{namespace}/pod API
+  slug: open-alokai-formerly-vue-storefront-instance-namespace-pod-api
+- collection_type: open
+  name: farmer cdn instance/{namespace}/pod/{pod} API
+  slug: open-alokai-formerly-vue-storefront-instance-namespace-pod-pod-api
+- collection_type: open
+  name: farmer cdn instance/{namespace}/pod/{pod}/log API
+  slug: open-alokai-formerly-vue-storefront-instance-namespace-pod-pod-log-api
+- collection_type: open
+  name: farmer cdn v2.2/admin/instance API
+  slug: open-alokai-formerly-vue-storefront-v2-2-admin-instance-api
+- collection_type: open
+  name: farmer cdn v2.2/instance/additional_application API
+  slug: open-alokai-formerly-vue-storefront-v2-2-instance-additional-application-api
+- collection_type: open
+  name: farmer cdn v2.2/instance API
+  slug: open-alokai-formerly-vue-storefront-v2-2-instance-api
+- collection_type: open
+  name: farmer cdn v2.2/instance/{namespace}/env_vars API
+  slug: open-alokai-formerly-vue-storefront-v2-2-instance-namespace-env-vars-api
+- collection_type: open
+  name: farmer cdn v2.2/instance/{namespace}/pod/{pod} API
+  slug: open-alokai-formerly-vue-storefront-v2-2-instance-namespace-pod-pod-api
+- collection_type: open
+  name: farmer cdn v2.2/instance/{namespace}/pods API
+  slug: open-alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api
 common:
 - group: agent
   title: ''
@@ -215,7 +273,7 @@ overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](h
 
 
   Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 86
+random_paper: 106
 score:
   band: developing
   composite: 46.8
@@ -238,7 +296,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/screenshots/alokai-formerly-vue-storefront-2026-07-25T195748.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Customer Due Diligence
@@ -49,11 +49,33 @@ apis:
 - description: '## How to Secure Webhook Deliveries To ensure that webhook payloads are securely transmitted and verified. This guide explains how to configure and validate webhook deliveries using a shared secret. #'
   name: Diligent Webhooks API
   slug: diligent-webhooks-api
-artifact_total: 11
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Diligent Webhooks
   slug: diligent-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Diligent CDD API
+  slug: open-diligent-cdd-api
+- collection_type: open
+  name: Diligent CDD Company API
+  slug: open-diligent-company-api
+- collection_type: open
+  name: Diligent CDD Instant Screening (experimental) API
+  slug: open-diligent-instant-screening-experimental-api
+- collection_type: open
+  name: Diligent CDD Monitorings API
+  slug: open-diligent-monitorings-api
+- collection_type: open
+  name: Diligent CDD Name Screening API
+  slug: open-diligent-name-screening-api
+- collection_type: open
+  name: Diligent CDD Webhooks API
+  slug: open-diligent-webhooks-api
 common:
 - group: other
   title: ''
@@ -194,7 +216,7 @@ overview: 'Diligent publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Diligent''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 23 more developer resources.'
-random_paper: 8
+random_paper: 103
 score:
   band: developing
   composite: 52.2
@@ -217,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/screenshots/diligent-2026-07-25T212039.png
 security:

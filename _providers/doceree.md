@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The ad-request surface Doceree publisher partners call to fetch an HCP-targeted advertisement. It is the endpoint behind the Doceree Publisher Tag, the first-party Prebid.js header-bidding adapter (bi
@@ -177,7 +177,7 @@ plans:
 - name: Doceree Plans Pricing
   plan_count: 0
   slug: doceree-plans-pricing
-random_paper: 7
+random_paper: 131
 rate_limits:
 - limit_count: 0
   name: Doceree Rate Limits
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.8
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -193,7 +193,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 33.3
+  previous_composite: 34.8
   provenance:
     conformance: first-party
   regulatory:
@@ -203,7 +203,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/screenshots/doceree-2026-08-07T164451.png
 security:

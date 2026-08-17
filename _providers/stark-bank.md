@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 31
 apis:
 - description: The balance entity holds the total funds available in your workspace and can be calculated as the sum of its transactions (cash-in + cash-out). Therefore, you can also interpret Transactions as balanc
@@ -124,11 +124,105 @@ apis:
 - description: Workspaces are bank accounts. They have independent balances, statements, operations and permissions. The only property that is shared between your workspaces is the link they have to your organizatio
   name: Stark Bank Workspace API
   slug: stark-bank-workspace-api
-artifact_total: 36
+artifact_total: 67
 asyncapis:
 - description: ''
   name: Stark Bank Events Webhooks
   slug: stark-bank-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Stark Bank Balance API
+  slug: open-stark-bank-balance-api
+- collection_type: open
+  name: Stark Bank Balance Boleto API
+  slug: open-stark-bank-boleto-api
+- collection_type: open
+  name: Stark Bank Balance Boleto Holmes API
+  slug: open-stark-bank-boleto-holmes-api
+- collection_type: open
+  name: Stark Bank Balance Boleto Payment API
+  slug: open-stark-bank-boleto-payment-api
+- collection_type: open
+  name: Stark Bank Balance Brcode Payment API
+  slug: open-stark-bank-brcode-payment-api
+- collection_type: open
+  name: Stark Bank Balance Darf Payment API
+  slug: open-stark-bank-darf-payment-api
+- collection_type: open
+  name: Stark Bank Balance Deposit API
+  slug: open-stark-bank-deposit-api
+- collection_type: open
+  name: Stark Bank Balance Dynamic Brcode API
+  slug: open-stark-bank-dynamic-brcode-api
+- collection_type: open
+  name: Stark Bank Balance Event API
+  slug: open-stark-bank-event-api
+- collection_type: open
+  name: Stark Bank Balance Event Attempt API
+  slug: open-stark-bank-event-attempt-api
+- collection_type: open
+  name: Stark Bank Balance Institutions API
+  slug: open-stark-bank-institutions-api
+- collection_type: open
+  name: Stark Bank Balance Invoice API
+  slug: open-stark-bank-invoice-api
+- collection_type: open
+  name: Stark Bank Balance Invoice Pull Request API
+  slug: open-stark-bank-invoice-pull-request-api
+- collection_type: open
+  name: Stark Bank Balance Invoice Pull Subscription API
+  slug: open-stark-bank-invoice-pull-subscription-api
+- collection_type: open
+  name: Stark Bank Balance Merchant Card API
+  slug: open-stark-bank-merchant-card-api
+- collection_type: open
+  name: Stark Bank Balance Merchant Installment API
+  slug: open-stark-bank-merchant-installment-api
+- collection_type: open
+  name: Stark Bank Balance Merchant Purchase API
+  slug: open-stark-bank-merchant-purchase-api
+- collection_type: open
+  name: Stark Bank Balance Merchant Session API
+  slug: open-stark-bank-merchant-session-api
+- collection_type: open
+  name: Stark Bank Balance Payment Request API
+  slug: open-stark-bank-payment-request-api
+- collection_type: open
+  name: Stark Bank Balance Pix Key API
+  slug: open-stark-bank-pix-key-api
+- collection_type: open
+  name: Stark Bank Balance Public Key API
+  slug: open-stark-bank-public-key-api
+- collection_type: open
+  name: Stark Bank Balance Split API
+  slug: open-stark-bank-split-api
+- collection_type: open
+  name: Stark Bank Balance Split Profile API
+  slug: open-stark-bank-split-profile-api
+- collection_type: open
+  name: Stark Bank Balance Split Receiver API
+  slug: open-stark-bank-split-receiver-api
+- collection_type: open
+  name: Stark Bank Balance Tax Payment API
+  slug: open-stark-bank-tax-payment-api
+- collection_type: open
+  name: Stark Bank Balance Transaction API
+  slug: open-stark-bank-transaction-api
+- collection_type: open
+  name: Stark Bank Balance Transfer API
+  slug: open-stark-bank-transfer-api
+- collection_type: open
+  name: Stark Bank Balance Utility Payment API
+  slug: open-stark-bank-utility-payment-api
+- collection_type: open
+  name: Stark Bank Balance Webhook API
+  slug: open-stark-bank-webhook-api
+- collection_type: open
+  name: Stark Bank Balance Workspace API
+  slug: open-stark-bank-workspace-api
 common:
 - group: other
   title: ''
@@ -269,7 +363,7 @@ overview: 'Stark Bank publishes 31 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Stark Bank''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 46
+random_paper: 112
 score:
   band: developing
   composite: 50.8
@@ -298,7 +392,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

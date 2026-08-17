@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The API Keys API from Qomplement — 2 operation(s) for api keys.
@@ -52,11 +52,36 @@ apis:
 - description: The Usage API from Qomplement — 1 operation(s) for usage.
   name: Qomplement Usage API
   slug: qomplement-usage-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Qomplement Webhooks
   slug: qomplement-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: StructDatafy API Keys API
+  slug: open-qomplement-api-keys-api
+- collection_type: open
+  name: StructDatafy API Keys Extract API
+  slug: open-qomplement-extract-api
+- collection_type: open
+  name: StructDatafy API Keys Fill Excel API
+  slug: open-qomplement-fill-excel-api
+- collection_type: open
+  name: StructDatafy API Keys Fill PDF API
+  slug: open-qomplement-fill-pdf-api
+- collection_type: open
+  name: StructDatafy API Keys Health API
+  slug: open-qomplement-health-api
+- collection_type: open
+  name: StructDatafy API Keys Jobs API
+  slug: open-qomplement-jobs-api
+- collection_type: open
+  name: StructDatafy API Keys Usage API
+  slug: open-qomplement-usage-api
 common:
 - group: start
   title: ''
@@ -193,7 +218,7 @@ overview: 'Qomplement publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Qomplement''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, support, and 22 more developer resources.'
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Qomplement Rate Limits
@@ -220,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

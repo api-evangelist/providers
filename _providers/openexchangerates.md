@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Account plan and usage statistics.
   name: Open Exchange Rates Usage API
   slug: openexchangerates-usage-api
-artifact_total: 30
+artifact_total: 39
 collections:
 - collection_type: postman
   name: Open Exchange Rates Convert API
@@ -80,6 +80,33 @@ collections:
 - collection_type: postman
   name: Open Exchange Rates Convert Usage API
   slug: postman-openexchangerates-usage-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Exchange Rates Convert API
+  slug: open-openexchangerates-convert-api
+- collection_type: open
+  name: Open Exchange Rates Convert Currencies API
+  slug: open-openexchangerates-currencies-api
+- collection_type: open
+  name: Open Exchange Rates Convert Historical Rates API
+  slug: open-openexchangerates-historical-rates-api
+- collection_type: open
+  name: Open Exchange Rates Convert Latest Rates API
+  slug: open-openexchangerates-latest-rates-api
+- collection_type: open
+  name: Open Exchange Rates Convert OHLC API
+  slug: open-openexchangerates-ohlc-api
+- collection_type: open
+  name: Open Exchange Convert Rates API
+  slug: open-openexchangerates-rates-api
+- collection_type: open
+  name: Open Exchange Rates Convert Time Series API
+  slug: open-openexchangerates-time-series-api
+- collection_type: open
+  name: Open Exchange Rates Convert Usage API
+  slug: open-openexchangerates-usage-api
 - collection_type: open
   name: Open Exchange Rates API
   slug: open-openexchangerates
@@ -210,7 +237,7 @@ plans:
 - name: Openexchangerates Plans Pricing
   plan_count: 5
   slug: openexchangerates-plans-pricing
-random_paper: 12
+random_paper: 24
 rate_limits:
 - limit_count: 6
   name: Openexchangerates Rate Limits
@@ -244,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/screenshots/openexchangerates-2026-08-07T190554.png
 security:

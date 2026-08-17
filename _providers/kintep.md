@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -63,7 +63,7 @@ overview: 'Kintep (Jiangsu Kintep Environmental Protection Co., Ltd.) is profile
 
 
   Kintep (Jiangsu Kintep Environmental Protection Co., Ltd.)''s developer surface includes support and 4 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: minimal
   composite: 5.9
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: kintep
 tags:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -117,11 +117,87 @@ apis:
 - description: Outbound webhooks are sent by Qargo to your system when certain events occur. Configure the receiving endpoint URL and credentials in the integration settings.
   name: Qargo Webhooks / Outbound API
   slug: qargo-webhooks-outbound-api
-artifact_total: 31
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Qargo Webhooks
   slug: qargo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qargo TMS API / Accounting API
+  slug: open-qargo-api-accounting-api
+- collection_type: open
+  name: Qargo TMS API / Accounting API / Authentication API
+  slug: open-qargo-api-authentication-api
+- collection_type: open
+  name: Qargo TMS API / Accounting API / Company API
+  slug: open-qargo-api-company-api
+- collection_type: open
+  name: Qargo TMS API / Accounting API / Document API
+  slug: open-qargo-api-document-api
+- collection_type: open
+  name: Qargo TMS API / Accounting API / Order API
+  slug: open-qargo-api-order-api
+- collection_type: open
+  name: Qargo TMS API / Accounting API / Resource API
+  slug: open-qargo-api-resource-api
+- collection_type: open
+  name: Qargo TMS API / Accounting API / Task API
+  slug: open-qargo-api-task-api
+- collection_type: open
+  name: Qargo TMS API / Accounting API / Trip API
+  slug: open-qargo-api-trip-api
+- collection_type: open
+  name: Qargo TMS API / Accounting System API
+  slug: open-qargo-system-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Accounting API
+  slug: open-qargo-use-case-accounting-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Customer portal API
+  slug: open-qargo-use-case-customer-portal-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Document import API
+  slug: open-qargo-use-case-document-import-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / E-invoicing API
+  slug: open-qargo-use-case-e-invoicing-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Fleet dispatch API
+  slug: open-qargo-use-case-fleet-dispatch-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Intermodal [partner] API
+  slug: open-qargo-use-case-intermodal-partner-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Location booking API
+  slug: open-qargo-use-case-location-booking-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Master data sync API
+  slug: open-qargo-use-case-master-data-sync-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Order API
+  slug: open-qargo-use-case-order-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Subcontractor dispatch API
+  slug: open-qargo-use-case-subcontractor-dispatch-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Tracking API
+  slug: open-qargo-use-case-tracking-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Trip import API
+  slug: open-qargo-use-case-trip-import-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Use case / Visibility API
+  slug: open-qargo-use-case-visibility-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Webhooks / Inbound API
+  slug: open-qargo-webhooks-inbound-api
+- collection_type: open
+  name: Qargo TMS API / Accounting Webhooks / Outbound API
+  slug: open-qargo-webhooks-outbound-api
 common:
 - group: other
   title: ''
@@ -258,7 +334,7 @@ overview: 'Qargo publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Qargo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
-random_paper: 58
+random_paper: 91
 score:
   band: developing
   composite: 49.0
@@ -282,7 +358,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

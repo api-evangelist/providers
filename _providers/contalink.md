@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,7 +62,35 @@ apis:
 - description: Valida los status de vigencia y pago de un documento fiscal
   name: Contalink Status de documentos fiscales API
   slug: contalink-status-de-documentos-fiscales-api
-artifact_total: 12
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Contalink Balanza de comprobación API
+  slug: open-contalink-balanza-de-comprobaci-n-api
+- collection_type: open
+  name: API Contalink Balanza de comprobación Cargar un documento fiscal API
+  slug: open-contalink-cargar-un-documento-fiscal-api
+- collection_type: open
+  name: API Contalink Balanza de comprobación Conciliación API
+  slug: open-contalink-conciliaci-n-api
+- collection_type: open
+  name: API Contalink Balanza de comprobación Listado de documentos fiscales API
+  slug: open-contalink-listado-de-documentos-fiscales-api
+- collection_type: open
+  name: API Contalink Balanza de comprobación Movimientos bancarios API
+  slug: open-contalink-movimientos-bancarios-api
+- collection_type: open
+  name: API Contalink Balanza de comprobación Pólizas manuales API
+  slug: open-contalink-p-lizas-manuales-api
+- collection_type: open
+  name: API Contalink Balanza de comprobación Saldo de una cuenta API
+  slug: open-contalink-saldo-de-una-cuenta-api
+- collection_type: open
+  name: API Contalink Balanza de comprobación Status de documentos fiscales API
+  slug: open-contalink-status-de-documentos-fiscales-api
 common:
 - group: agent
   title: ''
@@ -164,7 +192,7 @@ overview: 'Contalink publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Contalink''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 3
+random_paper: 69
 score:
   band: thin
   composite: 41.2
@@ -188,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/screenshots/contalink-2026-07-25T210322.png
 security:

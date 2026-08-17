@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,14 +52,29 @@ apis:
 - description: The Stores API from Restaurant Brands International — 3 operation(s) for stores.
   name: Restaurant Brands International Stores API
   slug: restaurant-brands-stores-api
-artifact_total: 298
+artifact_total: 303
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Burger King's Partners API
   slug: open-channel
 - collection_type: open
   name: Burger King's Partners API v2
   slug: open-menu-v2
+- collection_type: open
+  name: Burger King's Partners Loyalty API
+  slug: open-restaurant-brands-loyalty-api
+- collection_type: open
+  name: Burger King's Partners Loyalty Menus API
+  slug: open-restaurant-brands-menus-api
+- collection_type: open
+  name: Burger King's Partners Loyalty Orders API
+  slug: open-restaurant-brands-orders-api
+- collection_type: open
+  name: Burger King's Partners Loyalty Stores API
+  slug: open-restaurant-brands-stores-api
 common:
 - group: agent
   title: ''
@@ -1035,7 +1050,7 @@ plans:
 - name: Restaurant Brands Plans Pricing
   plan_count: 1
   slug: restaurant-brands-plans-pricing
-random_paper: 96
+random_paper: 137
 rate_limits:
 - limit_count: 2
   name: Restaurant Brands Rate Limits
@@ -1077,7 +1092,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 3
@@ -96,7 +96,68 @@ apis:
 - description: The Whoami API from Codag — 1 operation(s) for whoami.
   name: Codag Whoami API
   slug: codag-whoami-api
-artifact_total: 24
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: infra-logs templater Activate API
+  slug: open-codag-activate-api
+- collection_type: open
+  name: infra-logs templater Activate Admin API
+  slug: open-codag-admin-api
+- collection_type: open
+  name: infra-logs templater Activate Anonymous API
+  slug: open-codag-anonymous-api
+- collection_type: open
+  name: infra-logs templater Activate Auth API
+  slug: open-codag-auth-api
+- collection_type: open
+  name: infra-logs templater Activate billing API
+  slug: open-codag-billing-api
+- collection_type: open
+  name: infra-logs templater Activate Capsule API
+  slug: open-codag-capsule-api
+- collection_type: open
+  name: infra-logs templater Activate Cli API
+  slug: open-codag-cli-api
+- collection_type: open
+  name: infra-logs templater Activate Compact API
+  slug: open-codag-compact-api
+- collection_type: open
+  name: infra-logs templater Activate Free API
+  slug: open-codag-free-api
+- collection_type: open
+  name: infra-logs templater Activate Health API
+  slug: open-codag-health-api
+- collection_type: open
+  name: infra-logs templater Activate Incident Memory API
+  slug: open-codag-incident-memory-api
+- collection_type: open
+  name: infra-logs templater Activate Install.sh API
+  slug: open-codag-install-sh-api
+- collection_type: open
+  name: infra-logs templater Activate Internal API
+  slug: open-codag-internal-api
+- collection_type: open
+  name: infra-logs templater Activate Oauth API
+  slug: open-codag-oauth-api
+- collection_type: open
+  name: infra-logs templater Activate Onboard API
+  slug: open-codag-onboard-api
+- collection_type: open
+  name: infra-logs templater Activate Org API
+  slug: open-codag-org-api
+- collection_type: open
+  name: infra-logs templater Activate Orgs API
+  slug: open-codag-orgs-api
+- collection_type: open
+  name: infra-logs templater Activate Parse API
+  slug: open-codag-parse-api
+- collection_type: open
+  name: infra-logs templater Activate Whoami API
+  slug: open-codag-whoami-api
 common:
 - group: other
   title: ''
@@ -246,7 +307,7 @@ overview: 'Codag publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Codag''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
-random_paper: 30
+random_paper: 63
 score:
   band: developing
   composite: 51.5
@@ -270,7 +331,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/screenshots/codag-2026-07-25T205856.png
 security:

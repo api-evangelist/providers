@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -51,7 +51,7 @@ apis:
 - description: The Tags API from Amazon GuardDuty — 2 operation(s) for tags.
   name: Amazon GuardDuty Tags API
   slug: amazon-guardduty-tags-api
-artifact_total: 1217
+artifact_total: 1222
 collections:
 - collection_type: postman
   name: Amazon GuardDuty Admin API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Amazon GuardDuty Admin Tags API
   slug: postman-amazon-guardduty-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon GuardDuty Admin API
+  slug: open-amazon-guardduty-admin-api
+- collection_type: open
+  name: Amazon GuardDuty Admin Detector API
+  slug: open-amazon-guardduty-detector-api
+- collection_type: open
+  name: Amazon GuardDuty Admin Invitation API
+  slug: open-amazon-guardduty-invitation-api
+- collection_type: open
+  name: Amazon GuardDuty Admin Tags API
+  slug: open-amazon-guardduty-tags-api
 - collection_type: open
   name: Amazon GuardDuty
   slug: open-amazon-guardduty
@@ -3743,7 +3758,7 @@ plans:
 - name: Amazon Guardduty Plans Pricing
   plan_count: 3
   slug: amazon-guardduty-plans-pricing
-random_paper: 116
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Amazon Guardduty Rate Limits
@@ -3785,7 +3800,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/screenshots/amazon-guardduty-2026-06-20T171659.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -87,8 +87,38 @@ apis:
 - description: The Tables API from Weights and Biases — 4 operation(s) for tables.
   name: Weights and Biases Tables API
   slug: wandb-tables-api
-artifact_total: 25
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fast Calls API
+  slug: open-wandb-calls-api
+- collection_type: open
+  name: Fast Calls Costs API
+  slug: open-wandb-costs-api
+- collection_type: open
+  name: Fast Calls Feedback API
+  slug: open-wandb-feedback-api
+- collection_type: open
+  name: Fast Calls Files API
+  slug: open-wandb-files-api
+- collection_type: open
+  name: Fast Calls Objects API
+  slug: open-wandb-objects-api
+- collection_type: open
+  name: Fast Calls Refs API
+  slug: open-wandb-refs-api
+- collection_type: open
+  name: Fast Calls Service API
+  slug: open-wandb-service-api
+- collection_type: open
+  name: Fast Calls Table API
+  slug: open-wandb-table-api
+- collection_type: open
+  name: Fast Calls Tables API
+  slug: open-wandb-tables-api
 - collection_type: open
   name: FastAPI
   slug: open-wandb
@@ -185,7 +215,7 @@ plans:
 - name: Wandb Plans Pricing
   plan_count: 1
   slug: wandb-plans-pricing
-random_paper: 44
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Wandb Rate Limits
@@ -210,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/screenshots/wandb-2026-06-20T201222.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,8 +66,32 @@ apis:
 - description: The Transactions API from Thunes — 10 operation(s) for transactions.
   name: Thunes Transactions API
   slug: thunes-transactions-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thunes Money Transfer Account Management API
+  slug: open-thunes-account-management-api
+- collection_type: open
+  name: Thunes Money Transfer Account Management Connectivity API
+  slug: open-thunes-connectivity-api
+- collection_type: open
+  name: Thunes Money Transfer Account Management Credit Parties API
+  slug: open-thunes-credit-parties-api
+- collection_type: open
+  name: Thunes Money Transfer Account Management Discovery API
+  slug: open-thunes-discovery-api
+- collection_type: open
+  name: Thunes Money Transfer Account Management Quotations API
+  slug: open-thunes-quotations-api
+- collection_type: open
+  name: Thunes Money Transfer Account Management Simulation API
+  slug: open-thunes-simulation-api
+- collection_type: open
+  name: Thunes Money Transfer Account Management Transactions API
+  slug: open-thunes-transactions-api
 - collection_type: open
   name: Thunes Money Transfer API
   slug: open-thunes
@@ -128,7 +152,7 @@ plans:
 - name: Thunes Plans Pricing
   plan_count: 1
   slug: thunes-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Thunes Rate Limits
@@ -159,7 +183,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

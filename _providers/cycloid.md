@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: Stacks (Service Catalog) and StackForms.
   name: Cycloid ServiceCatalogs API
   slug: cycloid-servicecatalogs-api
-artifact_total: 31
+artifact_total: 40
 collections:
 - collection_type: postman
   name: Cycloid HTTP CloudCost API
@@ -90,8 +90,35 @@ collections:
   name: Cycloid HTTP CloudCost ServiceCatalogs API
   slug: postman-cycloid-servicecatalogs-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Cycloid HTTP API
   slug: open-cycloid-api
+- collection_type: open
+  name: Cycloid HTTP CloudCost API
+  slug: open-cycloid-cloudcost-api
+- collection_type: open
+  name: Cycloid HTTP CloudCost ConfigRepositories API
+  slug: open-cycloid-configrepositories-api
+- collection_type: open
+  name: Cycloid HTTP CloudCost Credentials API
+  slug: open-cycloid-credentials-api
+- collection_type: open
+  name: Cycloid HTTP CloudCost Inventory API
+  slug: open-cycloid-inventory-api
+- collection_type: open
+  name: Cycloid HTTP CloudCost Organizations API
+  slug: open-cycloid-organizations-api
+- collection_type: open
+  name: Cycloid HTTP CloudCost Pipelines API
+  slug: open-cycloid-pipelines-api
+- collection_type: open
+  name: Cycloid HTTP CloudCost Projects API
+  slug: open-cycloid-projects-api
+- collection_type: open
+  name: Cycloid HTTP CloudCost ServiceCatalogs API
+  slug: open-cycloid-servicecatalogs-api
 common:
 - group: build
   title: ''
@@ -228,7 +255,7 @@ plans:
 - name: Cycloid Plans Pricing
   plan_count: 3
   slug: cycloid-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 5
   name: Cycloid Rate Limits
@@ -275,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/screenshots/cycloid-2026-06-20T175412.png
 security:

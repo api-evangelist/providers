@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -66,14 +66,44 @@ apis:
 - description: Financial transactions and transaction detail
   name: Restaurant365 Transactions API
   slug: restaurant365-transactions-api
-artifact_total: 49
+artifact_total: 59
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Restaurant365 OData Connector AP Invoices API
+  slug: open-restaurant365-ap-invoices-api
+- collection_type: open
+  name: Restaurant365 OData Connector AP Invoices Audit API
+  slug: open-restaurant365-audit-api
+- collection_type: open
+  name: Restaurant365 OData Connector AP Invoices Authentication API
+  slug: open-restaurant365-authentication-api
+- collection_type: open
+  name: Restaurant365 OData Connector AP Invoices General Ledger API
+  slug: open-restaurant365-general-ledger-api
+- collection_type: open
+  name: Restaurant365 OData Connector AP Invoices Labor API
+  slug: open-restaurant365-labor-api
+- collection_type: open
+  name: Restaurant365 OData Connector AP Invoices Metadata API
+  slug: open-restaurant365-metadata-api
 - collection_type: open
   name: Restaurant365 OData Connector
   slug: open-restaurant365-odata-connector
 - collection_type: open
   name: R365 API
   slug: open-restaurant365-r365-api
+- collection_type: open
+  name: Restaurant365 OData Connector AP Invoices Reference Data API
+  slug: open-restaurant365-reference-data-api
+- collection_type: open
+  name: Restaurant365 OData Connector AP Invoices Sales API
+  slug: open-restaurant365-sales-api
+- collection_type: open
+  name: Restaurant365 OData Connector AP Invoices Transactions API
+  slug: open-restaurant365-transactions-api
 common:
 - group: agent
   title: ''
@@ -232,7 +262,7 @@ plans:
 - name: Restaurant365 Plans Pricing
   plan_count: 4
   slug: restaurant365-plans-pricing
-random_paper: 55
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Restaurant365 Rate Limits
@@ -274,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/screenshots/restaurant365-2026-06-20T193014.png
 security:

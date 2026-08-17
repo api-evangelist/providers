@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 38
 apis:
 - description: With KPN Number Verify, you can quickly check whether the mobile number someone provides is the same as their SIM card.
@@ -136,11 +136,111 @@ apis:
 - description: Converts inbound email into SMS messages delivered over the KPN network. Documented on the KPN Developer portal; no public OpenAPI definition was found for this product on KPN's SwaggerHub organisatio
   name: KPN Email-to-SMS API
   slug: kpn-email-to-sms
-artifact_total: 45
+artifact_total: 78
 asyncapis:
 - description: ''
   name: Kpn Webhooks
   slug: kpn-webhooks
+collections:
+- collection_type: open
+  name: Apidaze Voice - VoIP Innovations
+  slug: open-apidaze-voice
+- collection_type: open
+  name: Disturbance Check - KPN
+  slug: open-kpn-disturbance-check
+- collection_type: open
+  name: FIAM – Eneco Data Products
+  slug: open-kpn-fiam-eneco-data-products
+- collection_type: open
+  name: FIAM-KPN
+  slug: open-kpn-fiam
+- collection_type: open
+  name: High-Level Design FTTx
+  slug: open-kpn-high-level-design-ftth
+- collection_type: open
+  name: Internet Speed Check - KPN
+  slug: open-kpn-internet-speed-check
+- collection_type: open
+  name: ISE - KPN
+  slug: open-kpn-ise
+- collection_type: open
+  name: LoRa Device Management - KPN
+  slug: open-kpn-lora-device-management
+- collection_type: open
+  name: Match - KPN
+  slug: open-kpn-match
+- collection_type: open
+  name: MobileServicesManagement-KPN
+  slug: open-kpn-mobile-services-management
+- collection_type: open
+  name: Number Verify - KPN
+  slug: open-kpn-number-verify
+- collection_type: open
+  name: KPN SD-LAN SD-WAN Network View API
+  slug: open-kpn-sd-lan-sd-wan-network-view
+- collection_type: open
+  name: ServiceNow Customer Connect
+  slug: open-kpn-servicenow-connect
+- collection_type: open
+  name: SIM Swap
+  slug: open-kpn-sim-swap
+- collection_type: open
+  name: Inbound SMS - KPN
+  slug: open-kpn-sms-inbound
+- collection_type: open
+  name: TV Guide - KPN
+  slug: open-kpn-tv-guide
+- collection_type: open
+  name: Webhook Privacy Configuration - KPN
+  slug: open-kpn-webhook-privacy-config-manager
+- collection_type: open
+  name: Webhook Signing Keys - KPN
+  slug: open-kpn-webhook-signing-keys
+- collection_type: open
+  name: Wholesale Broadband Access
+  slug: open-kpn-wholesale-broadband-access-fpi-cip
+- collection_type: open
+  name: WBA APIs
+  slug: open-kpn-wholesale-wba
+- collection_type: open
+  name: Chat and Messaging - Parley
+  slug: open-parley-secure-messenger
+- collection_type: open
+  name: Knowledge Management – Polly.help
+  slug: open-pollyhelp-knowledge-management
+- collection_type: open
+  name: Registered E-mail - Registered E-mail
+  slug: open-registered-email
+- collection_type: open
+  name: SocialMediaWebcare - Tracebuzz
+  slug: open-tracebuzz-social-media-webcare
+- collection_type: open
+  name: Messages - Vonage
+  slug: open-vonage-messages
+- collection_type: open
+  name: Number Insight - Vonage
+  slug: open-vonage-number-insight
+- collection_type: open
+  name: Phone Numbers - Vonage
+  slug: open-vonage-phone-numbers
+- collection_type: open
+  name: SMS-Vonage
+  slug: open-vonage-sms
+- collection_type: open
+  name: Verify-Vonage
+  slug: open-vonage-verify
+- collection_type: open
+  name: Voice-Vonage
+  slug: open-vonage-voice
+- collection_type: open
+  name: WeSeeDo Direct - WeSeeDo
+  slug: open-weseedo-direct
+- collection_type: open
+  name: WeSeeDo Personal - WeSeeDo
+  slug: open-weseedo-personal
+- collection_type: open
+  name: Speech To Text - Xdroid
+  slug: open-xdroid-speech-to-text
 common:
 - group: auth
   title: ''
@@ -342,7 +442,7 @@ overview: 'KPN publishes 34 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   KPN''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, support, changelog, and 38 more developer resources.'
-random_paper: 89
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Kpn Rate Limits
@@ -380,7 +480,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png
 security:

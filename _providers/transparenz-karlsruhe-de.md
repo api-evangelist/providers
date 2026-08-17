@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: CKAN Action API for Transparency Portal for the City of Karlsruhe, Germany, a consistent JSON-over-HTTP interface over a catalog of 150 datasets. Standard actions include package_search, package_show,
@@ -84,7 +84,7 @@ plans:
 - name: Transparenz Karlsruhe De Plans Pricing
   plan_count: 1
   slug: transparenz-karlsruhe-de-plans-pricing
-random_paper: 76
+random_paper: 92
 rate_limits:
 - limit_count: 1
   name: Transparenz Karlsruhe De Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transparenz-karlsruhe-de/refs/heads/main/screenshots/transparenz-karlsruhe-de-2026-06-20T195549.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -127,7 +127,7 @@ arazzos:
 - description: Resolve a computer group by name, ask a question scoped to it, then read the result data.
   name: Tanium Ask A Question Scoped To A Computer Group
   slug: tanium-target-group-question-workflow
-artifact_total: 57
+artifact_total: 79
 collections:
 - collection_type: postman
   name: Tanium Connect API
@@ -139,11 +139,77 @@ collections:
   name: Tanium Threat Response API
   slug: postman-tanium-threat-response-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tanium Connect Actions API
+  slug: open-tanium-actions-api
+- collection_type: open
+  name: Tanium Connect Actions Alerts API
+  slug: open-tanium-alerts-api
+- collection_type: open
+  name: Tanium Connect Actions Authentication API
+  slug: open-tanium-authentication-api
+- collection_type: open
   name: Tanium Connect API
   slug: open-tanium-connect-api
 - collection_type: open
+  name: Tanium Connect Actions Connections API
+  slug: open-tanium-connections-api
+- collection_type: open
+  name: Tanium Connect Actions Destinations API
+  slug: open-tanium-destinations-api
+- collection_type: open
+  name: Tanium Connect Actions Events API
+  slug: open-tanium-events-api
+- collection_type: open
+  name: Tanium Connect Actions Evidence API
+  slug: open-tanium-evidence-api
+- collection_type: open
+  name: Tanium Connect Actions File Downloads API
+  slug: open-tanium-file-downloads-api
+- collection_type: open
+  name: Tanium Connect Actions File Operations API
+  slug: open-tanium-file-operations-api
+- collection_type: open
+  name: Tanium Connect Actions Groups API
+  slug: open-tanium-groups-api
+- collection_type: open
+  name: Tanium Connect Actions Intel Documents API
+  slug: open-tanium-intel-documents-api
+- collection_type: open
+  name: Tanium Connect Actions Labels API
+  slug: open-tanium-labels-api
+- collection_type: open
+  name: Tanium Connect Actions Packages API
+  slug: open-tanium-packages-api
+- collection_type: open
   name: Tanium Platform REST API
   slug: open-tanium-platform-rest-api
+- collection_type: open
+  name: Tanium Connect Actions Processes API
+  slug: open-tanium-processes-api
+- collection_type: open
+  name: Tanium Connect Actions Questions API
+  slug: open-tanium-questions-api
+- collection_type: open
+  name: Tanium Connect Actions Saved Questions API
+  slug: open-tanium-saved-questions-api
+- collection_type: open
+  name: Tanium Connect Actions Schedules API
+  slug: open-tanium-schedules-api
+- collection_type: open
+  name: Tanium Connect Actions Sensors API
+  slug: open-tanium-sensors-api
+- collection_type: open
+  name: Tanium Connect Actions Snapshots API
+  slug: open-tanium-snapshots-api
+- collection_type: open
+  name: Tanium Connect Actions Sources API
+  slug: open-tanium-sources-api
+- collection_type: open
+  name: Tanium Connect Actions Status API
+  slug: open-tanium-status-api
 - collection_type: open
   name: Tanium Threat Response API
   slug: open-tanium-threat-response-api
@@ -387,7 +453,7 @@ plans:
 - name: Tanium Plans Pricing
   plan_count: 1
   slug: tanium-plans-pricing
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Tanium Rate Limits
@@ -429,7 +495,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tanium/refs/heads/main/screenshots/tanium-2026-06-20T194916.png
 security:

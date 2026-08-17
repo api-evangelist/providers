@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Webhook subscription configuration.
   name: Formance Webhooks API
   slug: formance-webhooks-api
-artifact_total: 17
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Formance Platform Auth API
+  slug: open-formance-auth-api
+- collection_type: open
+  name: Formance Platform Auth Ledger API
+  slug: open-formance-ledger-api
+- collection_type: open
+  name: Formance Platform Auth Orchestration API
+  slug: open-formance-orchestration-api
+- collection_type: open
+  name: Formance Platform Auth Payments API
+  slug: open-formance-payments-api
+- collection_type: open
+  name: Formance Platform Auth Reconciliation API
+  slug: open-formance-reconciliation-api
+- collection_type: open
+  name: Formance Platform Auth Search API
+  slug: open-formance-search-api
+- collection_type: open
+  name: Formance Platform Auth Wallets API
+  slug: open-formance-wallets-api
+- collection_type: open
+  name: Formance Platform Auth Webhooks API
+  slug: open-formance-webhooks-api
 - collection_type: open
   name: Formance Platform API
   slug: open-formance
@@ -141,7 +168,7 @@ plans:
 - name: Formance Plans Pricing
   plan_count: 3
   slug: formance-plans-pricing
-random_paper: 3
+random_paper: 98
 rate_limits:
 - limit_count: 3
   name: Formance Rate Limits
@@ -177,7 +204,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/screenshots/formance-2026-07-25T214946.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -107,11 +107,47 @@ arazzos:
 - description: Look up a repository variable by name and either create it or update it, then read it back.
   name: GitHub Actions Upsert a Repository Variable
   slug: github-actions-upsert-repo-variable-workflow
-artifact_total: 153
+artifact_total: 165
 collections:
 - collection_type: postman
   name: GitHub Actions API
   slug: postman-github-actions
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitHub Actions Artifacts API
+  slug: open-github-actions-artifacts-api
+- collection_type: open
+  name: GitHub Actions Artifacts Cache API
+  slug: open-github-actions-cache-api
+- collection_type: open
+  name: GitHub Actions Artifacts Jobs API
+  slug: open-github-actions-jobs-api
+- collection_type: open
+  name: GitHub Actions Artifacts OIDC API
+  slug: open-github-actions-oidc-api
+- collection_type: open
+  name: GitHub Actions Artifacts Permissions API
+  slug: open-github-actions-permissions-api
+- collection_type: open
+  name: GitHub Actions Artifacts Secrets API
+  slug: open-github-actions-secrets-api
+- collection_type: open
+  name: GitHub Actions Artifacts Self-Hosted Runner Groups API
+  slug: open-github-actions-self-hosted-runner-groups-api
+- collection_type: open
+  name: GitHub Actions Artifacts Self-Hosted Runners API
+  slug: open-github-actions-self-hosted-runners-api
+- collection_type: open
+  name: GitHub Actions Artifacts Variables API
+  slug: open-github-actions-variables-api
+- collection_type: open
+  name: GitHub Actions Artifacts Workflow Runs API
+  slug: open-github-actions-workflow-runs-api
+- collection_type: open
+  name: GitHub Actions Artifacts Workflows API
+  slug: open-github-actions-workflows-api
 - collection_type: open
   name: GitHub Actions API
   slug: open-github-actions
@@ -719,7 +755,7 @@ plans:
 - name: Github Actions Plans Pricing
   plan_count: 3
   slug: github-actions-plans-pricing
-random_paper: 1
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Github Actions Rate Limits
@@ -768,7 +804,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/screenshots/github-actions-2026-06-20T181837.png
 security:

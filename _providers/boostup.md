@@ -23,12 +23,12 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-12'
+  score: 45.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +45,14 @@ arazzos:
 - description: Pull the first page of Opportunities, Accounts, and Forecast Submissions out of the Boostup / Terret Export API in one run, ready to page through with limit/skip.
   name: Export all Boostup revenue data
   slug: boostup-export-all-revenue-data
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Boostup Export API
+  slug: open-boostup-export-api
 common:
 - group: design
   title: ''
@@ -107,6 +114,18 @@ common:
   title: ''
   type: Authentication
   url: authentication/boostup-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/boostup-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/boostup-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/boostup-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -167,15 +186,23 @@ mcp_servers:
 - description: ''
   name: boostup-mcp.yml
   slug: boostup-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Boostup
 nav: Providers
 network: true
 overview: 'Boostup publishes 1 API on the [APIs.io](https://apis.io/) network: Export API. Tagged areas include Company, Revenue Intelligence, Sales, Forecasting, and Analytics.
 
 
-  Boostup''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, support, and 22 more developer resources.'
-random_paper: 60
+  Boostup''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, support, and 25 more developer resources.'
+plans:
+- name: Boostup Plans Pricing
+  plan_count: 0
+  slug: boostup-plans-pricing
+random_paper: 35
+rate_limits:
+- limit_count: 0
+  name: Boostup Rate Limits
+  slug: boostup-rate-limits
 score:
   band: developing
   composite: 45.9
@@ -199,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/screenshots/boostup-2026-07-25T203626.png
 security:

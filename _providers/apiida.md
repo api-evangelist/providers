@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -57,14 +57,35 @@ apis:
 - description: API version management
   name: APIIDA Versions API
   slug: apiida-versions-api
-artifact_total: 38
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APIIDA API Control Plane Alarms API
+  slug: open-apiida-alarms-api
 - collection_type: open
   name: APIIDA API Control Plane
   slug: open-apiida-api-control-plane
 - collection_type: open
   name: APIIDA API Gateway Manager
   slug: open-apiida-api-gateway-manager
+- collection_type: open
+  name: APIIDA API Control Plane Alarms Apis API
+  slug: open-apiida-apis-api
+- collection_type: open
+  name: APIIDA API Control Plane Alarms Deployments API
+  slug: open-apiida-deployments-api
+- collection_type: open
+  name: APIIDA API Control Plane Alarms Gateways API
+  slug: open-apiida-gateways-api
+- collection_type: open
+  name: APIIDA API Control Plane Alarms Monitoring API
+  slug: open-apiida-monitoring-api
+- collection_type: open
+  name: APIIDA API Control Plane Alarms Versions API
+  slug: open-apiida-versions-api
 common:
 - group: other
   title: ''
@@ -171,7 +192,7 @@ plans:
 - name: Apiida Plans Pricing
   plan_count: 3
   slug: apiida-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Apiida Rate Limits
@@ -213,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/screenshots/apiida-2026-06-20T172240.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -66,11 +66,42 @@ apis:
 - description: The webhooks API from 99 Minutos — 3 operation(s) for webhooks.
   name: 99 Minutos webhooks API
   slug: 99-minutos-webhooks-api
-artifact_total: 16
+artifact_total: 26
 asyncapis:
 - description: ''
   name: 99 Minutos Webhooks
   slug: 99-minutos-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Version 3 coverage API
+  slug: open-99-minutos-coverage-api
+- collection_type: open
+  name: API Version 3 coverage documents API
+  slug: open-99-minutos-documents-api
+- collection_type: open
+  name: API Version 3 coverage locations API
+  slug: open-99-minutos-locations-api
+- collection_type: open
+  name: API Version 3 coverage oauth API
+  slug: open-99-minutos-oauth-api
+- collection_type: open
+  name: API Version 3 coverage Orders API
+  slug: open-99-minutos-orders-api
+- collection_type: open
+  name: API Version 3 coverage shipments API
+  slug: open-99-minutos-shipments-api
+- collection_type: open
+  name: API Version 3 coverage shipping-rates API
+  slug: open-99-minutos-shipping-rates-api
+- collection_type: open
+  name: API Version 3 coverage super-geocoding API
+  slug: open-99-minutos-super-geocoding-api
+- collection_type: open
+  name: API Version 3 coverage webhooks API
+  slug: open-99-minutos-webhooks-api
 common:
 - group: start
   title: ''
@@ -219,7 +250,7 @@ overview: '99 Minutos publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   99 Minutos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 102
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: 99 Minutos Rate Limits
@@ -247,7 +278,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181252.png
 security:

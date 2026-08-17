@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -90,7 +90,62 @@ apis:
 - description: The vendors API from Procurify — 2 operation(s) for vendors.
   name: Procurify vendors API
   slug: procurify-vendors-api
-artifact_total: 367
+artifact_total: 385
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Procurify API Documentation account-codes API
+  slug: open-procurify-account-codes-api
+- collection_type: open
+  name: Procurify API Documentation account-codes accounts API
+  slug: open-procurify-accounts-api
+- collection_type: open
+  name: Procurify API Documentation account-codes ap API
+  slug: open-procurify-ap-api
+- collection_type: open
+  name: Procurify API Documentation account-codes catalog API
+  slug: open-procurify-catalog-api
+- collection_type: open
+  name: Procurify API Documentation account-codes currencies API
+  slug: open-procurify-currencies-api
+- collection_type: open
+  name: Procurify API Documentation account-codes custom-fields API
+  slug: open-procurify-custom-fields-api
+- collection_type: open
+  name: Procurify API Documentation account-codes departments API
+  slug: open-procurify-departments-api
+- collection_type: open
+  name: Procurify API Documentation account-codes locations API
+  slug: open-procurify-locations-api
+- collection_type: open
+  name: Procurify API Documentation account-codes oauth API
+  slug: open-procurify-oauth-api
+- collection_type: open
+  name: Procurify API Documentation account-codes order-items API
+  slug: open-procurify-order-items-api
+- collection_type: open
+  name: Procurify API Documentation account-codes permissions API
+  slug: open-procurify-permissions-api
+- collection_type: open
+  name: Procurify API Documentation account-codes public API
+  slug: open-procurify-public-api
+- collection_type: open
+  name: Procurify API Documentation account-codes purchase-orders API
+  slug: open-procurify-purchase-orders-api
+- collection_type: open
+  name: Procurify API Documentation account-codes receipt API
+  slug: open-procurify-receipt-api
+- collection_type: open
+  name: Procurify API Documentation account-codes requisitions API
+  slug: open-procurify-requisitions-api
+- collection_type: open
+  name: Procurify API Documentation account-codes users API
+  slug: open-procurify-users-api
+- collection_type: open
+  name: Procurify API Documentation account-codes vendors API
+  slug: open-procurify-vendors-api
 common:
 - group: agent
   title: ''
@@ -1217,7 +1272,7 @@ plans:
 - name: Procurify Plans Pricing
   plan_count: 2
   slug: procurify-plans-pricing
-random_paper: 35
+random_paper: 101
 rate_limits:
 - limit_count: 3
   name: Procurify Rate Limits
@@ -1256,7 +1311,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/screenshots/procurify-2026-06-20T192129.png
 security:

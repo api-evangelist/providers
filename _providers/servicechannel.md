@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 368
   human_in_the_loop: 9
@@ -236,11 +236,213 @@ apis:
 - description: The WorkRequests API from ServiceChannel — 13 operation(s) for workrequests.
   name: ServiceChannel WorkRequests API
   slug: servicechannel-workrequests-api
-artifact_total: 72
+artifact_total: 139
 asyncapis:
 - description: ''
   name: Servicechannel Webhooks
   slug: servicechannel-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours API
+  slug: open-servicechannel-afterhours-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours AIAgents API
+  slug: open-servicechannel-aiagents-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Announcements API
+  slug: open-servicechannel-announcements-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours ApplicationAccess API
+  slug: open-servicechannel-applicationaccess-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Assets API
+  slug: open-servicechannel-assets-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours AssetTaskResponse API
+  slug: open-servicechannel-assettaskresponse-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours AssetTypes API
+  slug: open-servicechannel-assettypes-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Attachments API
+  slug: open-servicechannel-attachments-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours BatchRfp API
+  slug: open-servicechannel-batchrfp-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Branding API
+  slug: open-servicechannel-branding-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Categories API
+  slug: open-servicechannel-categories-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours CheckLists API
+  slug: open-servicechannel-checklists-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Classification API
+  slug: open-servicechannel-classification-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Client API
+  slug: open-servicechannel-client-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Compliance API
+  slug: open-servicechannel-compliance-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Contracts API
+  slug: open-servicechannel-contracts-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours ContractServiceRates API
+  slug: open-servicechannel-contractservicerates-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Ctools API
+  slug: open-servicechannel-ctools-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Currencies API
+  slug: open-servicechannel-currencies-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours DashboardSettings API
+  slug: open-servicechannel-dashboardsettings-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours DoNotDispatch API
+  slug: open-servicechannel-donotdispatch-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours EmailNotifications API
+  slug: open-servicechannel-emailnotifications-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Eula API
+  slug: open-servicechannel-eula-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Feedback API
+  slug: open-servicechannel-feedback-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours GlCodes API
+  slug: open-servicechannel-glcodes-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Invitation API
+  slug: open-servicechannel-invitation-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Invoices API
+  slug: open-servicechannel-invoices-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours IssueList API
+  slug: open-servicechannel-issuelist-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours LocationNotes API
+  slug: open-servicechannel-locationnotes-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Locations API
+  slug: open-servicechannel-locations-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours LocationSupply API
+  slug: open-servicechannel-locationsupply-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours MliConfiguration API
+  slug: open-servicechannel-mliconfiguration-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours MobileTheme API
+  slug: open-servicechannel-mobiletheme-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Notes API
+  slug: open-servicechannel-notes-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours NotificationSubscriptions API
+  slug: open-servicechannel-notificationsubscriptions-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours NotificationWebHooks API
+  slug: open-servicechannel-notificationwebhooks-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours OutgoingXml API
+  slug: open-servicechannel-outgoingxml-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Parts API
+  slug: open-servicechannel-parts-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours PlannedMaintenance API
+  slug: open-servicechannel-plannedmaintenance-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Priorities API
+  slug: open-servicechannel-priorities-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Proposals API
+  slug: open-servicechannel-proposals-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours ProviderAssignment API
+  slug: open-servicechannel-providerassignment-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Providers API
+  slug: open-servicechannel-providers-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours PushNotifications API
+  slug: open-servicechannel-pushnotifications-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours RefrigerantTracking API
+  slug: open-servicechannel-refrigeranttracking-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours ResolutionCodes API
+  slug: open-servicechannel-resolutioncodes-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Rfps API
+  slug: open-servicechannel-rfps-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Roles API
+  slug: open-servicechannel-roles-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours ScConnector API
+  slug: open-servicechannel-scconnector-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours ServiceRequest API
+  slug: open-servicechannel-servicerequest-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours SingleSignOn API
+  slug: open-servicechannel-singlesignon-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours SiteAudit API
+  slug: open-servicechannel-siteaudit-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Subscribers API
+  slug: open-servicechannel-subscribers-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours SupplyClick API
+  slug: open-servicechannel-supplyclick-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours SurveyQuestions API
+  slug: open-servicechannel-surveyquestions-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours TemplateFilesHistory API
+  slug: open-servicechannel-templatefileshistory-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Trades API
+  slug: open-servicechannel-trades-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Tradesmen API
+  slug: open-servicechannel-tradesmen-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Training API
+  slug: open-servicechannel-training-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Trucks API
+  slug: open-servicechannel-trucks-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Users API
+  slug: open-servicechannel-users-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours Weather API
+  slug: open-servicechannel-weather-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours WorkActivities API
+  slug: open-servicechannel-workactivities-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours WorkOrders API
+  slug: open-servicechannel-workorders-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours WorkRequestNote API
+  slug: open-servicechannel-workrequestnote-api
+- collection_type: open
+  name: Fixxbook.Bearer.Api.V1 AfterHours WorkRequests API
+  slug: open-servicechannel-workrequests-api
 common:
 - group: other
   title: ''
@@ -361,7 +563,7 @@ overview: 'ServiceChannel publishes 66 APIs on the [APIs.io](https://apis.io/) n
 
 
   ServiceChannel''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 42
+random_paper: 141
 scopes:
 - name: Servicechannel Scopes
   scope_count: 0
@@ -390,7 +592,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -80,7 +80,7 @@ plans:
 - name: Udio Plans Pricing
   plan_count: 1
   slug: udio-plans-pricing
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 1
   name: Udio Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

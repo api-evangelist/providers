@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Venue and event lookup for event parking.
   name: ParkWhiz Venues & Events API
   slug: parkwhiz-venues-events-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ParkWhiz / Arrive API v4 Accounts & Vehicles API
+  slug: open-parkwhiz-accounts-vehicles-api
+- collection_type: open
+  name: ParkWhiz / Arrive API v4 Accounts & Vehicles Bookings API
+  slug: open-parkwhiz-bookings-api
+- collection_type: open
+  name: ParkWhiz / Arrive API v4 Accounts & Vehicles Monthly Parking API
+  slug: open-parkwhiz-monthly-parking-api
+- collection_type: open
+  name: ParkWhiz / Arrive API v4 Accounts & Vehicles OAuth API
+  slug: open-parkwhiz-oauth-api
+- collection_type: open
+  name: ParkWhiz / Arrive API v4 Accounts & Vehicles Quotes & Locations API
+  slug: open-parkwhiz-quotes-locations-api
+- collection_type: open
+  name: ParkWhiz / Arrive API v4 Accounts & Vehicles Tickets API
+  slug: open-parkwhiz-tickets-api
+- collection_type: open
+  name: ParkWhiz / Arrive API v4 Accounts & Vehicles Venues & Events API
+  slug: open-parkwhiz-venues-events-api
 - collection_type: open
   name: ParkWhiz / Arrive API v4
   slug: open-parkwhiz
@@ -142,7 +166,7 @@ plans:
 - name: Parkwhiz Plans Pricing
   plan_count: 3
   slug: parkwhiz-plans-pricing
-random_paper: 40
+random_paper: 135
 rate_limits:
 - limit_count: 3
   name: Parkwhiz Rate Limits
@@ -172,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/screenshots/parkwhiz-2026-08-07T191441.png
 security:

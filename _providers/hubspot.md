@@ -18,7 +18,7 @@ agent_readiness:
     agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: derived
@@ -29,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-12'
+  score: 63.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -389,7 +389,7 @@ arazzos:
 - description: Find a contact by email and update it if it exists, otherwise create it.
   name: HubSpot Upsert a Contact
   slug: hubspot-upsert-contact-workflow
-artifact_total: 2489
+artifact_total: 2545
 asyncapis:
 - description: 'The HubSpot Webhooks API enables real-time event notifications for changes to CRM objects and conversations in a HubSpot portal. When subscribed events occur, HubSpot delivers HTTP POST requests to a '
   name: HubSpot Webhooks API
@@ -474,14 +474,62 @@ collections:
   name: HubSpot CMS Source Code API
   slug: postman-hubspot-source-code-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens API
+  slug: open-hubspot-access-tokens-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Action Definitions API
+  slug: open-hubspot-action-definitions-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Action Functions API
+  slug: open-hubspot-action-functions-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Actors API
+  slug: open-hubspot-actors-api
+- collection_type: open
   name: HubSpot Analytics Events API
   slug: open-hubspot-analytics-events-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Application Feature Flags API
+  slug: open-hubspot-application-feature-flags-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Association Label Management API
+  slug: open-hubspot-association-label-management-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Association Type Definitions API
+  slug: open-hubspot-association-type-definitions-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Associations API
+  slug: open-hubspot-associations-api
 - collection_type: open
   name: HubSpot Blog Authors API
   slug: open-hubspot-authors-api
 - collection_type: open
-  name: HubSpot Blog Posts API
+  name: HubSpot Analytics Events Access Tokens Basic Operations API
+  slug: open-hubspot-basic-operations-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Batch API
+  slug: open-hubspot-batch-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Batch Association Operations API
+  slug: open-hubspot-batch-association-operations-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Batch Operations API
+  slug: open-hubspot-batch-operations-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Batch Portal Operations API
+  slug: open-hubspot-batch-portal-operations-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Blog Authors API
+  slug: open-hubspot-blog-authors-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Blog Posts API
   slug: open-hubspot-blog-posts-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Channels API
+  slug: open-hubspot-channels-api
 - collection_type: open
   name: HubSpot CMS HubDB API
   slug: open-hubspot-cms-hubdb-api
@@ -494,6 +542,12 @@ collections:
 - collection_type: open
   name: HubSpot Commerce Subscriptions API
   slug: open-hubspot-commerce-subscriptions-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Companies API
+  slug: open-hubspot-companies-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Contacts API
+  slug: open-hubspot-contacts-api
 - collection_type: open
   name: HubSpot Conversations API
   slug: open-hubspot-conversations-api
@@ -525,8 +579,23 @@ collections:
   name: HubSpot Custom Workflow Actions API
   slug: open-hubspot-custom-workflow-actions-api
 - collection_type: open
+  name: HubSpot Analytics Events Access Tokens Deals API
+  slug: open-hubspot-deals-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Definition Revisions API
+  slug: open-hubspot-definition-revisions-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Domain Management API
+  slug: open-hubspot-domain-management-api
+- collection_type: open
   name: HubSpot CMS Domains API
   slug: open-hubspot-domains-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Drafts and Revisions API
+  slug: open-hubspot-drafts-and-revisions-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Emails API
+  slug: open-hubspot-emails-api
 - collection_type: open
   name: HubSpot CRM Engagement Calls API
   slug: open-hubspot-engagement-calls-api
@@ -543,14 +612,113 @@ collections:
   name: HubSpot Engagement Tasks API
   slug: open-hubspot-engagement-tasks-api
 - collection_type: open
+  name: HubSpot Analytics Events Access Tokens Event Instances API
+  slug: open-hubspot-event-instances-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Event Types API
+  slug: open-hubspot-event-types-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens File Content API
+  slug: open-hubspot-file-content-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens File Extraction API
+  slug: open-hubspot-file-extraction-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens File Metadata API
+  slug: open-hubspot-file-metadata-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens File Validation API
+  slug: open-hubspot-file-validation-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens GDPR Compliance API
+  slug: open-hubspot-gdpr-compliance-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Inboxes API
+  slug: open-hubspot-inboxes-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Landing Pages API
+  slug: open-hubspot-landing-pages-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Lists API
+  slug: open-hubspot-lists-api
+- collection_type: open
   name: HubSpot Marketing Transactional Email API
   slug: open-hubspot-marketing-emal-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Meetings API
+  slug: open-hubspot-meetings-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Memberships API
+  slug: open-hubspot-memberships-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Messages API
+  slug: open-hubspot-messages-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Multi-Language Management API
+  slug: open-hubspot-multi-language-management-api
 - collection_type: open
   name: HubSpot OAuth API
   slug: open-hubspot-oauth-api
 - collection_type: open
+  name: HubSpot Analytics Events Access Tokens Object Associations API
+  slug: open-hubspot-object-associations-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Payment Search API
+  slug: open-hubspot-payment-search-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Portal Flag States API
+  slug: open-hubspot-portal-flag-states-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Post Cloning API
+  slug: open-hubspot-post-cloning-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Publishing and Scheduling API
+  slug: open-hubspot-publishing-and-scheduling-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Refresh Tokens API
+  slug: open-hubspot-refresh-tokens-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Rows API
+  slug: open-hubspot-rows-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Search API
+  slug: open-hubspot-search-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Single Payment Operations API
+  slug: open-hubspot-single-payment-operations-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Single Send API
+  slug: open-hubspot-single-send-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Site Pages API
+  slug: open-hubspot-site-pages-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens SMTP Token Management API
+  slug: open-hubspot-smtp-token-management-api
+- collection_type: open
   name: HubSpot CMS Source Code API
   slug: open-hubspot-source-code-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Subscriptions API
+  slug: open-hubspot-subscriptions-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Tables API
+  slug: open-hubspot-tables-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Tasks API
+  slug: open-hubspot-tasks-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Threads API
+  slug: open-hubspot-threads-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Tickets API
+  slug: open-hubspot-tickets-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Token Management API
+  slug: open-hubspot-token-management-api
+- collection_type: open
+  name: HubSpot Analytics Events Access Tokens Workflow Callbacks API
+  slug: open-hubspot-workflow-callbacks-api
 common:
 - group: operate
   title: ''
@@ -1007,13 +1175,129 @@ common:
 - group: agent
   title: ''
   type: MCPServer
-  url: https://github.com/HubSpot/mcp-server
+  url: mcp/hubspot-mcp.yml
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/HubSpot/noc-skills
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hubspot-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/hubspot-packages.yml
 - group: agent
   title: ''
-  type: AgentSkills
-  url: https://github.com/HubSpot/noc-skills
+  type: WellKnown
+  url: well-known/hubspot-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/hubspot-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/hubspot
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.hubspot.com/
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/hubspot-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hubspot-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hubspot-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/hubspot-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hubspot-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.hubspot.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developers.hubspot.com/changelog
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/hubspot-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/hubspot-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/hubspot-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/hubspot-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/hubspot-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/hubspot-data-model.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/hubspot-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/hubspot-webhooks-asyncapi.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/hubspot-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/hubspot-rate-limits.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.hubspot.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.hubspot.com/signup/developers
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/hubspot/hubspot-public-api-workspace/overview
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.hubspot.com/docs/reference/api/other-resources/error-handling
 created: 2023/11/14
-description: HubSpot provides a full platform of marketing, sales, customer service, and CRM software plus the methodology, resources, and support to help businesses grow better.
+description: HubSpot is an AI-native customer platform built around the Smart CRM, unifying marketing, sales, customer service, content, commerce and operations on a single shared customer record. Its developer platform exposes that record through a broad REST surface at api.hubapi.com covering CRM objects and associations, engagements, lists and segments, marketing and transactional email, CMS pages, blogs and HubDB, conversations, commerce payments and subscriptions, custom workflow actions, webhooks and analytics events. HubSpot ships first-party Node, Python, Ruby and PHP clients, a CLI, OAuth 2.0 with a granular scope model, a public developer changelog, date-based API versioning and a hosted MCP server for agents.
 examples:
 - key_count: 2
   name: Analytics Events Api Event Instance Collection Example
@@ -7906,7 +8190,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: HubSpot
 nav: Providers
 network: true
@@ -7916,12 +8200,12 @@ overview: 'HubSpot publishes 57 APIs on the [APIs.io](https://apis.io/) network,
   The HubSpot catalog on APIs.io includes 1 event-driven AsyncAPI specification, 61 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  HubSpot''s developer surface includes authentication, API reference, developer portal, documentation, changelog, support, engineering blog, and 108 more developer resources.'
+  HubSpot''s developer surface includes authentication, API reference, developer portal, documentation, changelog, support, engineering blog, and 137 more developer resources.'
 plans:
 - name: Hubspot Plans Pricing
   plan_count: 4
   slug: hubspot-plans-pricing
-random_paper: 53
+random_paper: 28
 rate_limits:
 - limit_count: 6
   name: Hubspot Rate Limits
@@ -7953,20 +8237,20 @@ rules:
   slug: hubspot-spectral-rules
 scopes:
 - name: Hubspot Scopes
-  scope_count: 16
+  scope_count: 29
   slug: hubspot-scopes
-  summary_line: 16 scopes · authorizationCode
+  summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.5
-  delta: 0.0
+  composite: 79.3
+  delta: 8.8
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 84.4
-    developer_ergonomics: 93.5
-    discoverability: 40.7
-    governance: 47.9
-    operational_transparency: 55.3
+    commercial_clarity: 76.3
+    contract_quality: 78.6
+    developer_ergonomics: 100.0
+    discoverability: 68.5
+    governance: 68.8
+    operational_transparency: 71.1
   previous_composite: 70.5
   provenance:
     agentic_access: derived
@@ -7976,8 +8260,8 @@ score:
       marker_coverage: 0.0
       total: 56
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:
 - kind: authentication

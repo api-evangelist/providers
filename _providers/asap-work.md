@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -75,7 +75,7 @@ overview: 'Asap Work is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Asap Work''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 77
+random_paper: 23
 score:
   band: minimal
   composite: 10.5
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asap-work/refs/heads/main/screenshots/asap-work-2026-07-25T201356.png
 slug: asap-work

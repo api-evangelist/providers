@@ -1,35 +1,41 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Demo-gated
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://brand.ai/faq/
+  - https://brand.ai/book-a-demo/
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 26.6
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: 'A hosted, remote Model Context Protocol server that lets an AI agent read a company''s Brand OS — brands, machine-readable brand rules and artifacts — and write back Brand Check validations, artifacts '
+  name: Brand.ai MCP Server
+  slug: brandai-mcp-server
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -83,35 +89,97 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/brandai-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/brandai-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/brandai-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/brandai-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/brandai-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/brandai-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/brandai-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/brandai-conventions.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/brandai-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/brandai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/brandai-rate-limits.yml
 created: '2026-07-17'
-description: 'Brand.ai (Access to Tools Inc.) is a San Francisco-based AI platform for brand management that converts a company''s brand assets into machine-readable intelligence so that people and AI agents can maintain brand consistency across tools and workflows. The product has two parts: Brand OS, which structures brand data through a Brand Foundation, Brand Ontology, Daily Signals and connected applications; and Brand Studio, which provides asset creation, a visual strategy Canvas, project management and Brand Check validation. Founded in 2024 and backed by Uncork Capital, the company targets brand builders, agencies and enterprise teams. Brand.ai is not a public developer API provider — it is a demo-gated SaaS platform with a published security posture (SOC 2 Type II, GDPR, CCPA), a Vanta trust center and a public status page, but no public API, SDK or developer portal at this time.'
+description: 'Brand.ai (Access to Tools Inc.) is a San Francisco-based AI platform that turns a company''s brand into machine-readable infrastructure — "your brand, as source code" — so that every team, tool and AI agent works from one enforced brand context. The product has two halves: Brand OS, which structures brand data through Brand Foundation (guidelines compiled into machine-readable rules), Brand Ontology (150+ perception dimensions), Daily Signals and OAuth-connected applications (Figma, Notion, Google Drive, Slack, Shopify); and Brand Studio, which executes on it through Assistant (built on Claude), the Canvas visual strategy sandbox, Projects and Brand Check pre-launch risk validation. Founded in 2024 and backed by Uncork Capital, it targets brand leaders, agencies and enterprise teams. Brand.ai publishes no developer portal, no OpenAPI and no SDKs, and the product itself is demo-gated with no self-serve sign-up or published pricing — but it does operate a real hosted remote MCP
+  server at https://app.brand.ai/api/mcp, gated by a full OAuth 2.0 / OpenID Connect authorization server with open Dynamic Client Registration and nine Brand OS resource scopes. Security posture is published: SOC 2 Type II, GDPR, CCPA, a Vanta trust center and a public status page.'
 image: https://cdn.sanity.io/images/3zwn2ers/fullsite/1e9606e67a676cbdfd3d4d66f10f4184e9bf7c8f-1800x942.png?w=1200&auto=format
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: brandai-mcp.yml
+  slug: brandai-mcpyml
+modified: '2026-08-13'
 name: Brand.ai
 nav: Providers
 network: true
-overview: 'Brand.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Brand Management, Artificial Intelligence, Marketing, and SaaS.
+overview: 'Brand.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Brand Management, Artificial Intelligence, Marketing, and SaaS.
 
 
-  Brand.ai''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 1
+  Brand.ai''s developer surface includes engineering blog, authentication, and 21 more developer resources.'
+plans:
+- name: Brandai Plans Pricing
+  plan_count: 0
+  slug: brandai-plans-pricing
+random_paper: 125
+rate_limits:
+- limit_count: 0
+  name: Brandai Rate Limits
+  slug: brandai-rate-limits
+scopes:
+- name: Brandai Scopes
+  scope_count: 13
+  slug: brandai-scopes
+  summary_line: 13 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.0
-  delta: 0.0
+  composite: 25.3
+  delta: 8.3
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 57.4
-    governance: 0.0
+    developer_ergonomics: 21.7
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 26.3
   previous_composite: 17.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Brandai Authentication
+  slug: brandai-authentication
+  summary_line: oauth2/openIdConnect · 3 schemes
 - kind: domain-security
   name: Brandai Domain Security
   slug: brandai-domain-security
@@ -130,5 +198,8 @@ tags:
 - Brand Operating System
 - AI Agents
 - Design
+- Model Context Protocol
+- Brand Governance
+- Brand Intelligence
 website: https://brand.ai
 ---

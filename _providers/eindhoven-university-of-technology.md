@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -153,7 +153,119 @@ apis:
 - description: The user API from Eindhoven University of Technology — 7 operation(s) for user.
   name: Eindhoven University of Technology user API
   slug: eindhoven-university-of-technology-user-api
-artifact_total: 57
+artifact_total: 94
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-eindhoven-university-of-technology-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-eindhoven-university-of-technology-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-eindhoven-university-of-technology-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-eindhoven-university-of-technology-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-eindhoven-university-of-technology-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-eindhoven-university-of-technology-concept-api
+- collection_type: open
+  name: Pure activity conferenceSeries API
+  slug: open-eindhoven-university-of-technology-conferenceseries-api
+- collection_type: open
+  name: Pure activity contract API
+  slug: open-eindhoven-university-of-technology-contract-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-eindhoven-university-of-technology-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-eindhoven-university-of-technology-dataset-api
+- collection_type: open
+  name: Pure activity education API
+  slug: open-eindhoven-university-of-technology-education-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-eindhoven-university-of-technology-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-eindhoven-university-of-technology-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-eindhoven-university-of-technology-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-eindhoven-university-of-technology-externalperson-api
+- collection_type: open
+  name: Pure activity fingerprint API
+  slug: open-eindhoven-university-of-technology-fingerprint-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-eindhoven-university-of-technology-fundingopportunity-api
+- collection_type: open
+  name: Pure activity impact API
+  slug: open-eindhoven-university-of-technology-impact-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-eindhoven-university-of-technology-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-eindhoven-university-of-technology-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity milestone API
+  slug: open-eindhoven-university-of-technology-milestone-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-eindhoven-university-of-technology-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-eindhoven-university-of-technology-person-api
+- collection_type: open
+  name: Pure activity personExpertise API
+  slug: open-eindhoven-university-of-technology-personexpertise-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-eindhoven-university-of-technology-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-eindhoven-university-of-technology-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-eindhoven-university-of-technology-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-eindhoven-university-of-technology-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-eindhoven-university-of-technology-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-eindhoven-university-of-technology-role-api
+- collection_type: open
+  name: Pure activity semester API
+  slug: open-eindhoven-university-of-technology-semester-api
+- collection_type: open
+  name: Pure activity specialization API
+  slug: open-eindhoven-university-of-technology-specialization-api
+- collection_type: open
+  name: Pure activity studentProject API
+  slug: open-eindhoven-university-of-technology-studentproject-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-eindhoven-university-of-technology-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-eindhoven-university-of-technology-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-eindhoven-university-of-technology-user-api
 common:
 - group: agent
   title: ''
@@ -257,7 +369,7 @@ plans:
 - name: Eindhoven University Of Technology Plans Pricing
   plan_count: 2
   slug: eindhoven-university-of-technology-plans-pricing
-random_paper: 34
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Eindhoven University Of Technology Rate Limits
@@ -305,7 +417,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/screenshots/eindhoven-university-of-technology-2026-06-20T180525.png
 security:

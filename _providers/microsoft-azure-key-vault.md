@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Operations for securely storing and managing secrets such as passwords, connection strings, and API keys.
   name: Azure Key Vault Secrets API
   slug: microsoft-azure-key-vault-secrets-api
-artifact_total: 222
+artifact_total: 226
 collections:
 - collection_type: postman
   name: Azure Key Vault Data Plane Certificates API
@@ -69,8 +69,20 @@ collections:
   name: Azure Key Vault Data Plane Certificates Secrets API
   slug: postman-microsoft-azure-key-vault-secrets-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Key Vault Data Plane API
   slug: open-azure-key-vault-data-plane
+- collection_type: open
+  name: Azure Key Vault Data Plane Certificates API
+  slug: open-microsoft-azure-key-vault-certificates-api
+- collection_type: open
+  name: Azure Key Vault Data Plane Certificates Keys API
+  slug: open-microsoft-azure-key-vault-keys-api
+- collection_type: open
+  name: Azure Key Vault Data Plane Certificates Secrets API
+  slug: open-microsoft-azure-key-vault-secrets-api
 common:
 - group: build
   title: ''
@@ -743,7 +755,7 @@ plans:
 - name: Microsoft Azure Key Vault Plans Pricing
   plan_count: 3
   slug: microsoft-azure-key-vault-plans-pricing
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 13
   name: Azure Key Vault Rate Limits
@@ -801,7 +813,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/screenshots/microsoft-azure-key-vault-2026-06-20T185418.png
 security:

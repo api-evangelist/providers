@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 31
 apis:
 - description: The 2FA API from Hevn Inc — 10 operation(s) for 2fa.
@@ -124,7 +124,104 @@ apis:
 - description: The Xero API from Hevn Inc — 10 operation(s) for xero.
   name: Hevn Inc Xero API
   slug: hevn-inc-xero-api
-artifact_total: 34
+artifact_total: 66
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HEVN 2FA API
+  slug: open-hevn-inc-2fa-api
+- collection_type: open
+  name: HEVN 2FA Activity API
+  slug: open-hevn-inc-activity-api
+- collection_type: open
+  name: HEVN 2FA apps API
+  slug: open-hevn-inc-apps-api
+- collection_type: open
+  name: HEVN 2FA apps-transfer API
+  slug: open-hevn-inc-apps-transfer-api
+- collection_type: open
+  name: HEVN 2FA auth API
+  slug: open-hevn-inc-auth-api
+- collection_type: open
+  name: HEVN 2FA B2B API
+  slug: open-hevn-inc-b2b-api
+- collection_type: open
+  name: HEVN 2FA Balance API
+  slug: open-hevn-inc-balance-api
+- collection_type: open
+  name: HEVN 2FA Banks API
+  slug: open-hevn-inc-banks-api
+- collection_type: open
+  name: HEVN 2FA Cards API
+  slug: open-hevn-inc-cards-api
+- collection_type: open
+  name: HEVN 2FA Chat API
+  slug: open-hevn-inc-chat-api
+- collection_type: open
+  name: HEVN 2FA contracts API
+  slug: open-hevn-inc-contracts-api
+- collection_type: open
+  name: HEVN 2FA Devices API
+  slug: open-hevn-inc-devices-api
+- collection_type: open
+  name: HEVN 2FA documents API
+  slug: open-hevn-inc-documents-api
+- collection_type: open
+  name: HEVN 2FA Exports API
+  slug: open-hevn-inc-exports-api
+- collection_type: open
+  name: HEVN 2FA Health API
+  slug: open-hevn-inc-health-api
+- collection_type: open
+  name: HEVN 2FA Incorporate API
+  slug: open-hevn-inc-incorporate-api
+- collection_type: open
+  name: HEVN 2FA invoices API
+  slug: open-hevn-inc-invoices-api
+- collection_type: open
+  name: HEVN 2FA kyb API
+  slug: open-hevn-inc-kyb-api
+- collection_type: open
+  name: HEVN 2FA mcp API
+  slug: open-hevn-inc-mcp-api
+- collection_type: open
+  name: HEVN 2FA Merchant API
+  slug: open-hevn-inc-merchant-api
+- collection_type: open
+  name: HEVN 2FA Public API
+  slug: open-hevn-inc-public-api
+- collection_type: open
+  name: HEVN 2FA Root API
+  slug: open-hevn-inc-root-api
+- collection_type: open
+  name: HEVN 2FA team API
+  slug: open-hevn-inc-team-api
+- collection_type: open
+  name: HEVN 2FA tee API
+  slug: open-hevn-inc-tee-api
+- collection_type: open
+  name: HEVN 2FA tee-local API
+  slug: open-hevn-inc-tee-local-api
+- collection_type: open
+  name: HEVN 2FA Transactions API
+  slug: open-hevn-inc-transactions-api
+- collection_type: open
+  name: HEVN 2FA User API
+  slug: open-hevn-inc-user-api
+- collection_type: open
+  name: HEVN 2FA Utils API
+  slug: open-hevn-inc-utils-api
+- collection_type: open
+  name: HEVN 2FA Wallet API
+  slug: open-hevn-inc-wallet-api
+- collection_type: open
+  name: HEVN 2FA Webhook API
+  slug: open-hevn-inc-webhook-api
+- collection_type: open
+  name: HEVN 2FA Xero API
+  slug: open-hevn-inc-xero-api
 common:
 - group: start
   title: ''
@@ -242,7 +339,7 @@ overview: 'Hevn Inc publishes 31 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hevn Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, authentication, and 19 more developer resources.'
-random_paper: 72
+random_paper: 47
 score:
   band: developing
   composite: 43.3
@@ -271,7 +368,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/screenshots/hevn-inc-2026-07-25T221107.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -69,27 +69,69 @@ apis:
 - description: The User Preferences API from Suki AI — 1 operation(s) for user preferences.
   name: Suki AI User Preferences API
   slug: suki-ai-user-preferences-api
-artifact_total: 47
+artifact_total: 61
 asyncapis:
 - description: AsyncAPI description for the three WebSocket audio-streaming channels exposed by the Suki Speech Service (Suki for Partners). Each REST session-create call (Ambient, Dictation, Form Filling) returns a
   name: Suki Speech Service Streaming API
   slug: suki-ai-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Suki Ambient API
   slug: open-suki-ai-ambient-api
 - collection_type: open
-  name: Suki Auth API
+  name: Suki Platform Ambient Content API
+  slug: open-suki-ai-ambient-content-api
+- collection_type: open
+  name: Suki Platform Ambient Content Ambient Sessions API
+  slug: open-suki-ai-ambient-sessions-api
+- collection_type: open
+  name: Suki Ambient Auth API
   slug: open-suki-ai-auth-api
 - collection_type: open
-  name: Suki Dictation API
+  name: Suki Platform Ambient Content Authentication API
+  slug: open-suki-ai-authentication-api
+- collection_type: open
+  name: Suki Ambient Auth Content API
+  slug: open-suki-ai-content-api
+- collection_type: open
+  name: Suki Ambient Auth Dictation API
   slug: open-suki-ai-dictation-api
+- collection_type: open
+  name: Suki Platform Ambient Content Feedback API
+  slug: open-suki-ai-feedback-api
 - collection_type: open
   name: Suki Form Filling API
   slug: open-suki-ai-form-filling-api
 - collection_type: open
-  name: Suki Info API
+  name: Suki Platform Ambient Content Form Filling Content API
+  slug: open-suki-ai-form-filling-content-api
+- collection_type: open
+  name: Suki Platform Ambient Content Form Filling Sessions API
+  slug: open-suki-ai-form-filling-sessions-api
+- collection_type: open
+  name: Suki Platform Ambient Content Info API
   slug: open-suki-ai-info-api
+- collection_type: open
+  name: Suki Ambient Auth MedicationOrders API
+  slug: open-suki-ai-medicationorders-api
+- collection_type: open
+  name: Suki Platform Ambient Content Notifications API
+  slug: open-suki-ai-notifications-api
+- collection_type: open
+  name: Suki Ambient Auth Preferences API
+  slug: open-suki-ai-preferences-api
+- collection_type: open
+  name: Suki Ambient Auth Sessions API
+  slug: open-suki-ai-sessions-api
+- collection_type: open
+  name: Suki Ambient Auth Templates API
+  slug: open-suki-ai-templates-api
+- collection_type: open
+  name: Suki Platform Ambient Content User Preferences API
+  slug: open-suki-ai-user-preferences-api
 - collection_type: open
   name: Suki Platform API
   slug: open-suki-ai
@@ -328,7 +370,7 @@ plans:
 - name: Suki Ai Plans Pricing
   plan_count: 1
   slug: suki-ai-plans-pricing
-random_paper: 91
+random_paper: 95
 rate_limits:
 - limit_count: 2
   name: Suki Ai Rate Limits
@@ -376,7 +418,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/screenshots/suki-ai-2026-06-20T194641.png
 security:

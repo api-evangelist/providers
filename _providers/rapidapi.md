@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -126,11 +126,56 @@ apis:
 - description: Endpoints for managing users within the Enterprise Hub, including user roles, permissions, and account configurations.
   name: RapidAPI Users API
   slug: rapidapi-users-api
-artifact_total: 118
+artifact_total: 148
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RapidAPI Gateway Alerts API
+  slug: open-rapidapi-alerts-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Analytics API
+  slug: open-rapidapi-analytics-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Apis API
+  slug: open-rapidapi-apis-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Applications API
+  slug: open-rapidapi-applications-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Authentication API
+  slug: open-rapidapi-authentication-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Categories API
+  slug: open-rapidapi-categories-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Collections API
+  slug: open-rapidapi-collections-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Definitions API
+  slug: open-rapidapi-definitions-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Documentation API
+  slug: open-rapidapi-documentation-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Endpoints API
+  slug: open-rapidapi-endpoints-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Environments API
+  slug: open-rapidapi-environments-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Executions API
+  slug: open-rapidapi-executions-api
 - collection_type: open
   name: RapidAPI Gateway API
   slug: open-rapidapi-gateway-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Gateways API
+  slug: open-rapidapi-gateways-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts GraphQL API
+  slug: open-rapidapi-graphql-api
 - collection_type: open
   name: RapidAPI GraphQL Platform API
   slug: open-rapidapi-graphql-platform-api
@@ -138,14 +183,59 @@ collections:
   name: RapidAPI Hub API
   slug: open-rapidapi-hub-api
 - collection_type: open
+  name: RapidAPI Gateway Alerts Locations API
+  slug: open-rapidapi-locations-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Organizations API
+  slug: open-rapidapi-organizations-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Projects API
+  slug: open-rapidapi-projects-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Rate Limiting API
+  slug: open-rapidapi-rate-limiting-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Requests API
+  slug: open-rapidapi-requests-api
+- collection_type: open
   name: RapidAPI REST Platform API
   slug: open-rapidapi-rest-platform-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Routes API
+  slug: open-rapidapi-routes-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Schedules API
+  slug: open-rapidapi-schedules-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Search API
+  slug: open-rapidapi-search-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Security API
+  slug: open-rapidapi-security-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Snippets API
+  slug: open-rapidapi-snippets-api
 - collection_type: open
   name: RapidAPI Studio API
   slug: open-rapidapi-studio-api
 - collection_type: open
+  name: RapidAPI Gateway Alerts Subscriptions API
+  slug: open-rapidapi-subscriptions-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Tags API
+  slug: open-rapidapi-tags-api
+- collection_type: open
   name: RapidAPI Testing API
   slug: open-rapidapi-testing-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Tests API
+  slug: open-rapidapi-tests-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Transactions API
+  slug: open-rapidapi-transactions-api
+- collection_type: open
+  name: RapidAPI Gateway Alerts Users API
+  slug: open-rapidapi-users-api
 common:
 - group: agent
   title: ''
@@ -465,7 +555,7 @@ plans:
 - name: Rapidapi Plans Pricing
   plan_count: 1
   slug: rapidapi-plans-pricing
-random_paper: 2
+random_paper: 97
 rate_limits:
 - limit_count: 2
   name: Rapidapi Rate Limits
@@ -507,7 +597,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/screenshots/rapidapi-2026-06-20T192601.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -219,7 +219,191 @@ apis:
 - description: The Validators API from NEAR Protocol — 1 operation(s) for validators.
   name: NEAR Protocol Validators API
   slug: near-validators-api
-artifact_total: 70
+artifact_total: 131
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FastNEAR accounts API
+  slug: open-near-accounts-api
+- collection_type: open
+  name: FastNEAR accounts Block API
+  slug: open-near-block-api
+- collection_type: open
+  name: FastNEAR accounts Block Effects API
+  slug: open-near-block-effects-api
+- collection_type: open
+  name: FastNEAR accounts Broadcast Tx Async API
+  slug: open-near-broadcast-tx-async-api
+- collection_type: open
+  name: FastNEAR accounts Broadcast Tx Commit API
+  slug: open-near-broadcast-tx-commit-api
+- collection_type: open
+  name: FastNEAR accounts Changes API
+  slug: open-near-changes-api
+- collection_type: open
+  name: FastNEAR accounts Chunk API
+  slug: open-near-chunk-api
+- collection_type: open
+  name: FastNEAR accounts Client Config API
+  slug: open-near-client-config-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Call Function API
+  slug: open-near-experimental-call-function-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Changes API
+  slug: open-near-experimental-changes-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Changes In Block API
+  slug: open-near-experimental-changes-in-block-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Congestion Level API
+  slug: open-near-experimental-congestion-level-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Genesis Config API
+  slug: open-near-experimental-genesis-config-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Light Client Block Proof API
+  slug: open-near-experimental-light-client-block-proof-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Light Client Proof API
+  slug: open-near-experimental-light-client-proof-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Maintenance Windows API
+  slug: open-near-experimental-maintenance-windows-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Protocol Config API
+  slug: open-near-experimental-protocol-config-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Receipt API
+  slug: open-near-experimental-receipt-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Receipt To Tx API
+  slug: open-near-experimental-receipt-to-tx-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Split Storage Info API
+  slug: open-near-experimental-split-storage-info-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Tx Status API
+  slug: open-near-experimental-tx-status-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL Validators Ordered API
+  slug: open-near-experimental-validators-ordered-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL View Access Key API
+  slug: open-near-experimental-view-access-key-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL View Access Key List API
+  slug: open-near-experimental-view-access-key-list-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL View Account API
+  slug: open-near-experimental-view-account-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL View Code API
+  slug: open-near-experimental-view-code-api
+- collection_type: open
+  name: FastNEAR accounts EXPERIMENTAL View State API
+  slug: open-near-experimental-view-state-api
+- collection_type: open
+  name: FastNEAR accounts fungible-tokens API
+  slug: open-near-fungible-tokens-api
+- collection_type: open
+  name: FastNEAR accounts Gas Price API
+  slug: open-near-gas-price-api
+- collection_type: open
+  name: FastNEAR accounts Genesis Config API
+  slug: open-near-genesis-config-api
+- collection_type: open
+  name: FastNEAR accounts Health API
+  slug: open-near-health-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Access Keys API
+  slug: open-near-legacy-access-keys-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Account API
+  slug: open-near-legacy-account-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Blocks API
+  slug: open-near-legacy-blocks-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Chain Abstraction API
+  slug: open-near-legacy-chain-abstraction-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Charts API
+  slug: open-near-legacy-charts-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / DEX API
+  slug: open-near-legacy-dex-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / FTs API
+  slug: open-near-legacy-fts-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Kitwallet API
+  slug: open-near-legacy-kitwallet-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / NFTs API
+  slug: open-near-legacy-nfts-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Search API
+  slug: open-near-legacy-search-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Stats API
+  slug: open-near-legacy-stats-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Supply API
+  slug: open-near-legacy-supply-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Txns API
+  slug: open-near-legacy-txns-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / V2 Account API
+  slug: open-near-legacy-v2-account-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / V2 Txns API
+  slug: open-near-legacy-v2-txns-api
+- collection_type: open
+  name: FastNEAR accounts Legacy / Validators API
+  slug: open-near-legacy-validators-api
+- collection_type: open
+  name: FastNEAR accounts Light Client Proof API
+  slug: open-near-light-client-proof-api
+- collection_type: open
+  name: FastNEAR accounts Maintenance Windows API
+  slug: open-near-maintenance-windows-api
+- collection_type: open
+  name: FastNEAR accounts Network Info API
+  slug: open-near-network-info-api
+- collection_type: open
+  name: FastNEAR accounts Next Light Client Block API
+  slug: open-near-next-light-client-block-api
+- collection_type: open
+  name: FastNEAR accounts non-fungible-tokens API
+  slug: open-near-non-fungible-tokens-api
+- collection_type: open
+  name: FastNEAR accounts public-key API
+  slug: open-near-public-key-api
+- collection_type: open
+  name: FastNEAR accounts Query API
+  slug: open-near-query-api
+- collection_type: open
+  name: FastNEAR accounts Send Tx API
+  slug: open-near-send-tx-api
+- collection_type: open
+  name: FastNEAR accounts staking API
+  slug: open-near-staking-api
+- collection_type: open
+  name: FastNEAR accounts Status API
+  slug: open-near-status-api
+- collection_type: open
+  name: FastNEAR accounts system API
+  slug: open-near-system-api
+- collection_type: open
+  name: FastNEAR accounts Tx API
+  slug: open-near-tx-api
+- collection_type: open
+  name: FastNEAR accounts Validators API
+  slug: open-near-validators-api
 common:
 - group: agent
   title: ''
@@ -259,7 +443,7 @@ plans:
 - name: Nearblocks Api
   plan_count: 5
   slug: nearblocks-api
-random_paper: 62
+random_paper: 124
 rate_limits:
 - limit_count: 0
   name: Fastnear Api
@@ -290,7 +474,7 @@ score:
       marker_coverage: 0.0
       total: 60
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/screenshots/near-2026-06-20T190119.png
 security:

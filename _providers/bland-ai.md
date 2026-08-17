@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -45,8 +45,14 @@ apis:
 - description: Send, list, retrieve, and stop AI phone calls.
   name: Bland AI Calls API
   slug: bland-ai-calls-api
-artifact_total: 10
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bland AI Platform Calls API
+  slug: open-bland-ai-calls-api
 - collection_type: open
   name: Bland AI Platform API
   slug: open-bland-ai
@@ -119,7 +125,7 @@ plans:
 - name: Bland Ai Plans Pricing
   plan_count: 5
   slug: bland-ai-plans-pricing
-random_paper: 40
+random_paper: 15
 rate_limits:
 - limit_count: 9
   name: Bland Ai Rate Limits
@@ -144,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/screenshots/bland-ai-2026-06-20T173346.png
 security:

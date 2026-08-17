@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Read the fleet graph — nodes, links, health scores, and routing state.
   name: Constellation Space Topology API
   slug: constellation-space-topology-api
-artifact_total: 10
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ConstellationOS Predictions API
+  slug: open-constellation-space-predictions-api
+- collection_type: open
+  name: ConstellationOS Predictions Telemetry API
+  slug: open-constellation-space-telemetry-api
+- collection_type: open
+  name: ConstellationOS Predictions Topology API
+  slug: open-constellation-space-topology-api
 common:
 - group: other
   title: ''
@@ -189,7 +202,7 @@ overview: 'Constellation Space publishes 3 APIs on the [APIs.io](https://apis.io
 
 
   Constellation Space''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 24 more developer resources.'
-random_paper: 56
+random_paper: 39
 scopes:
 - name: Constellation Space Scopes
   scope_count: 3
@@ -218,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/screenshots/constellation-space-2026-07-25T210309.png
 security:

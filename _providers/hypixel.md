@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +54,29 @@ apis:
 - description: Hypixel SkyBlock — auctions, bazaar, profiles, museum, garden, bingo, fire sales, and SkyBlock-specific reference data.
   name: Hypixel SkyBlock API
   slug: hypixel-skyblock-api
-artifact_total: 47
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hypixel Public Housing API
+  slug: open-hypixel-housing-api
+- collection_type: open
+  name: Hypixel Public Housing Other API
+  slug: open-hypixel-other-api
+- collection_type: open
+  name: Hypixel Public Housing Player Data API
+  slug: open-hypixel-player-data-api
 - collection_type: open
   name: Hypixel Public API
   slug: open-hypixel-public-api
+- collection_type: open
+  name: Hypixel Public Housing Resources API
+  slug: open-hypixel-resources-api
+- collection_type: open
+  name: Hypixel Public Housing SkyBlock API
+  slug: open-hypixel-skyblock-api
 common:
 - group: operate
   title: ''
@@ -268,7 +286,7 @@ plans:
 - name: Hypixel Plans Pricing
   plan_count: 2
   slug: hypixel-plans-pricing
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 4
   name: Hypixel Rate Limits
@@ -310,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/screenshots/hypixel-2026-07-25T221929.png
 security:

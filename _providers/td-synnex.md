@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -69,11 +69,44 @@ apis:
 - description: Cloud subscription management
   name: TD SYNNEX Subscriptions API
   slug: td-synnex-subscriptions-api
-artifact_total: 26
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication API
+  slug: open-td-synnex-authentication-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication Cart Items API
+  slug: open-td-synnex-cart-items-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication Carts API
+  slug: open-td-synnex-carts-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication Cloud Providers API
+  slug: open-td-synnex-cloud-providers-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication Customers API
+  slug: open-td-synnex-customers-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication Orders API
+  slug: open-td-synnex-orders-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication Products API
+  slug: open-td-synnex-products-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication Provisioning API
+  slug: open-td-synnex-provisioning-api
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication Reports API
+  slug: open-td-synnex-reports-api
 - collection_type: open
   name: TD SYNNEX StreamOne Ion Partner API
   slug: open-td-synnex-streamone-ion
+- collection_type: open
+  name: TD SYNNEX StreamOne Ion Partner Authentication Subscriptions API
+  slug: open-td-synnex-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -177,7 +210,7 @@ plans:
 - name: Td Synnex Plans Pricing
   plan_count: 1
   slug: td-synnex-plans-pricing
-random_paper: 98
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Td Synnex Rate Limits
@@ -224,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png
 security:

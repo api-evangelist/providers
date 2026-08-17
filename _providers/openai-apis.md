@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: Audio translation operations
   name: OpenAI APIs Translation API
   slug: openai-apis-translation-api
-artifact_total: 80
+artifact_total: 93
 collections:
 - collection_type: postman
   name: OpenAI APIs OpenAI Assistants API
@@ -113,6 +113,45 @@ collections:
 - collection_type: postman
   name: OpenAI APIs OpenAI Assistants Translation API
   slug: postman-openai-apis-translation-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants API
+  slug: open-openai-apis-assistants-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Chat API
+  slug: open-openai-apis-chat-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Completions API
+  slug: open-openai-apis-completions-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Embeddings API
+  slug: open-openai-apis-embeddings-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Images API
+  slug: open-openai-apis-images-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Messages API
+  slug: open-openai-apis-messages-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Moderations API
+  slug: open-openai-apis-moderations-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Runs API
+  slug: open-openai-apis-runs-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Speech API
+  slug: open-openai-apis-speech-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Threads API
+  slug: open-openai-apis-threads-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Transcription API
+  slug: open-openai-apis-transcription-api
+- collection_type: open
+  name: OpenAI APIs OpenAI Assistants Translation API
+  slug: open-openai-apis-translation-api
 - collection_type: open
   name: OpenAI APIs OpenAI Assistants API
   slug: open-openai-assistants
@@ -334,7 +373,7 @@ plans:
 - name: Openai Apis Plans Pricing
   plan_count: 6
   slug: openai-apis-plans-pricing
-random_paper: 30
+random_paper: 67
 rate_limits:
 - limit_count: 7
   name: Openai Apis Rate Limits
@@ -368,7 +407,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai-apis/refs/heads/main/screenshots/openai-apis-2026-08-07T190525.png
 security:

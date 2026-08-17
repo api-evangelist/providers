@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Retrieve telemetry field schema for a project.
   name: APIToolkit (Monoscope) Schema API
   slug: apitoolkit-schema-api
-artifact_total: 88
+artifact_total: 92
 collections:
 - collection_type: postman
   name: Monoscope Platform Metrics API
@@ -71,6 +71,18 @@ collections:
 - collection_type: postman
   name: Monoscope Platform Metrics Schema API
   slug: postman-apitoolkit-schema-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Monoscope Platform Metrics API
+  slug: open-apitoolkit-metrics-api
+- collection_type: open
+  name: Monoscope Platform Metrics Monitors API
+  slug: open-apitoolkit-monitors-api
+- collection_type: open
+  name: Monoscope Platform Metrics Schema API
+  slug: open-apitoolkit-schema-api
 - collection_type: open
   name: Monoscope Platform API
   slug: open-monoscope-platform
@@ -363,7 +375,7 @@ plans:
 - name: Apitoolkit Plans Pricing
   plan_count: 4
   slug: apitoolkit-plans-pricing
-random_paper: 8
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Apitoolkit Rate Limits
@@ -405,7 +417,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/screenshots/apitoolkit-2026-06-20T172258.png
 security:

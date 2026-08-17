@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: The Digital LTL Council's electronic bill of lading standard, version 2.1.0 — the council's first and most adopted contract. This is the standard's own specification, not any carrier's implementation.
@@ -39,7 +39,26 @@ apis:
 - description: Shipment status and location events while a full truckload movement is under way. Published as 1.0.0-public-preview; the LTL council's equivalent is still in development.
   name: DSDC FTL In-Transit Visibility API
   slug: nmfta-dsdc-ftl-in-transit-visibility-api
-artifact_total: 16
+artifact_total: 22
+collections:
+- collection_type: open
+  name: Electronic Bill Of Lading API
+  slug: open-nmfta-dsdc-ftl-ebol
+- collection_type: open
+  name: In-Transit Visibility API
+  slug: open-nmfta-dsdc-ftl-in-transit-visibility
+- collection_type: open
+  name: Invoice & Document API
+  slug: open-nmfta-dsdc-ftl-invoice-and-documents
+- collection_type: open
+  name: Rate Quote API
+  slug: open-nmfta-dsdc-ftl-rate-quote
+- collection_type: open
+  name: Electronic Bill Of Lading Service
+  slug: open-nmfta-dsdc-ltl-ebol-2.1
+- collection_type: open
+  name: Preliminary Freight Charges (PFC) API
+  slug: open-nmfta-dsdc-ltl-preliminary-freight-charges
 common:
 - group: operate
   title: ''
@@ -141,7 +160,7 @@ overview: 'NMFTA publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   NMFTA''s developer surface includes developer portal, product news, and 17 more developer resources.'
-random_paper: 54
+random_paper: 87
 score:
   band: emerging
   composite: 20.9
@@ -161,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png
 slug: nmfta

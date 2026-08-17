@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Subscriptions API from Invoiced — 3 operation(s) for subscriptions.
   name: Invoiced Subscriptions API
   slug: invoiced-subscriptions-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Invoiced Credit Notes API
+  slug: open-invoiced-credit-notes-api
+- collection_type: open
+  name: Invoiced Credit Notes Customers API
+  slug: open-invoiced-customers-api
+- collection_type: open
+  name: Invoiced Credit Notes Estimates API
+  slug: open-invoiced-estimates-api
+- collection_type: open
+  name: Invoiced Credit Notes Events API
+  slug: open-invoiced-events-api
+- collection_type: open
+  name: Invoiced Credit Notes Invoices API
+  slug: open-invoiced-invoices-api
+- collection_type: open
+  name: Invoiced Credit Notes Items API
+  slug: open-invoiced-items-api
+- collection_type: open
+  name: Invoiced Credit Notes Payments API
+  slug: open-invoiced-payments-api
+- collection_type: open
+  name: Invoiced Credit Notes Plans API
+  slug: open-invoiced-plans-api
+- collection_type: open
+  name: Invoiced Credit Notes Subscriptions API
+  slug: open-invoiced-subscriptions-api
 - collection_type: open
   name: Invoiced API
   slug: open-invoiced
@@ -136,7 +166,7 @@ plans:
 - name: Invoiced Plans Pricing
   plan_count: 2
   slug: invoiced-plans-pricing
-random_paper: 9
+random_paper: 104
 rate_limits:
 - limit_count: 2
   name: Invoiced Rate Limits
@@ -167,7 +197,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/screenshots/invoiced-2026-07-25T222800.png
 security:

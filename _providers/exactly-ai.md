@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -51,7 +51,17 @@ arazzos:
 - description: Create a custom style model, train it on brand images, then generate on-brand images once ready.
   name: Exactly.ai — train a style model and generate images
   slug: exactly-ai-train-and-generate
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Exactly Public Images v1 API
+  slug: open-exactly-ai-images-v1-api
+- collection_type: open
+  name: Exactly Public Images v1 Models v1 API
+  slug: open-exactly-ai-models-v1-api
 common:
 - group: agent
   title: ''
@@ -177,7 +187,7 @@ overview: 'Exactly Ai publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Exactly Ai''s developer surface includes documentation, API reference, pricing, support, signup flow, getting-started guide, authentication, and 20 more developer resources.'
-random_paper: 49
+random_paper: 115
 score:
   band: developing
   composite: 45.5
@@ -201,7 +211,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/screenshots/exactly-ai-2026-07-25T213837.png
 security:

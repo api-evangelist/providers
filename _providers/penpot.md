@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -455,7 +455,422 @@ apis:
 - description: The Verify Token API from Penpot — 1 operation(s) for verify token.
   name: Penpot Verify Token API
   slug: penpot-verify-token-api
-artifact_total: 148
+artifact_total: 286
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Penpot RPC Add Team To Organization API
+  slug: open-penpot-add-team-to-organization-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Assemble File Media Object API
+  slug: open-penpot-assemble-file-media-object-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Clone File Media Object API
+  slug: open-penpot-clone-file-media-object-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Clone Template API
+  slug: open-penpot-clone-template-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Access Token API
+  slug: open-penpot-create-access-token-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Comment API
+  slug: open-penpot-create-comment-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Comment Thread API
+  slug: open-penpot-create-comment-thread-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create File API
+  slug: open-penpot-create-file-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create File Media Object From Url API
+  slug: open-penpot-create-file-media-object-from-url-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create File Object Thumbnail API
+  slug: open-penpot-create-file-object-thumbnail-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create File Snapshot API
+  slug: open-penpot-create-file-snapshot-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create File Thumbnail API
+  slug: open-penpot-create-file-thumbnail-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Font Variant API
+  slug: open-penpot-create-font-variant-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Project API
+  slug: open-penpot-create-project-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Share Link API
+  slug: open-penpot-create-share-link-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Team Access Request API
+  slug: open-penpot-create-team-access-request-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Team API
+  slug: open-penpot-create-team-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Team Invitations API
+  slug: open-penpot-create-team-invitations-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Team With Invitations API
+  slug: open-penpot-create-team-with-invitations-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Upload Session API
+  slug: open-penpot-create-upload-session-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Create Webhook API
+  slug: open-penpot-create-webhook-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Access Token API
+  slug: open-penpot-delete-access-token-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Comment API
+  slug: open-penpot-delete-comment-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Comment Thread API
+  slug: open-penpot-delete-comment-thread-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete File API
+  slug: open-penpot-delete-file-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete File Object Thumbnail API
+  slug: open-penpot-delete-file-object-thumbnail-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete File Snapshot API
+  slug: open-penpot-delete-file-snapshot-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Font API
+  slug: open-penpot-delete-font-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Font Variant API
+  slug: open-penpot-delete-font-variant-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Profile Photo API
+  slug: open-penpot-delete-profile-photo-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Project API
+  slug: open-penpot-delete-project-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Share Link API
+  slug: open-penpot-delete-share-link-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Team API
+  slug: open-penpot-delete-team-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Team Invitation API
+  slug: open-penpot-delete-team-invitation-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Team Member API
+  slug: open-penpot-delete-team-member-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Delete Webhook API
+  slug: open-penpot-delete-webhook-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Download Font API
+  slug: open-penpot-download-font-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Download Font Family API
+  slug: open-penpot-download-font-family-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Duplicate File API
+  slug: open-penpot-duplicate-file-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Duplicate Project API
+  slug: open-penpot-duplicate-project-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Export Binfile API
+  slug: open-penpot-export-binfile-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Access Tokens API
+  slug: open-penpot-get-access-tokens-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get All Projects API
+  slug: open-penpot-get-all-projects-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Comment Thread API
+  slug: open-penpot-get-comment-thread-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Comment Threads API
+  slug: open-penpot-get-comment-threads-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Comments API
+  slug: open-penpot-get-comments-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Current Mcp Token API
+  slug: open-penpot-get-current-mcp-token-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File API
+  slug: open-penpot-get-file-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File Data For Thumbnail API
+  slug: open-penpot-get-file-data-for-thumbnail-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File Fragment API
+  slug: open-penpot-get-file-fragment-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File Info API
+  slug: open-penpot-get-file-info-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File Libraries API
+  slug: open-penpot-get-file-libraries-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File Object Thumbnails API
+  slug: open-penpot-get-file-object-thumbnails-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File Snapshot API
+  slug: open-penpot-get-file-snapshot-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File Snapshots API
+  slug: open-penpot-get-file-snapshots-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File Stats API
+  slug: open-penpot-get-file-stats-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get File Summary API
+  slug: open-penpot-get-file-summary-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Font Variants API
+  slug: open-penpot-get-font-variants-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Library File References API
+  slug: open-penpot-get-library-file-references-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Library Usage API
+  slug: open-penpot-get-library-usage-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Nitrate Connectivity API
+  slug: open-penpot-get-nitrate-connectivity-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Owned Teams API
+  slug: open-penpot-get-owned-teams-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Page API
+  slug: open-penpot-get-page-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Profile API
+  slug: open-penpot-get-profile-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Profiles For File Comments API
+  slug: open-penpot-get-profiles-for-file-comments-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Project API
+  slug: open-penpot-get-project-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Project Files API
+  slug: open-penpot-get-project-files-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Projects API
+  slug: open-penpot-get-projects-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Sso Provider API
+  slug: open-penpot-get-sso-provider-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team API
+  slug: open-penpot-get-team-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team Deleted Files API
+  slug: open-penpot-get-team-deleted-files-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team Info API
+  slug: open-penpot-get-team-info-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team Invitation Token API
+  slug: open-penpot-get-team-invitation-token-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team Invitations API
+  slug: open-penpot-get-team-invitations-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team Members API
+  slug: open-penpot-get-team-members-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team Recent Files API
+  slug: open-penpot-get-team-recent-files-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team Shared Files API
+  slug: open-penpot-get-team-shared-files-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team Stats API
+  slug: open-penpot-get-team-stats-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Team Users API
+  slug: open-penpot-get-team-users-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Teams API
+  slug: open-penpot-get-teams-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Unread Comment Threads API
+  slug: open-penpot-get-unread-comment-threads-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get View Only Bundle API
+  slug: open-penpot-get-view-only-bundle-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Get Webhooks API
+  slug: open-penpot-get-webhooks-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Has File Libraries API
+  slug: open-penpot-has-file-libraries-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Ignore File Library Sync Status API
+  slug: open-penpot-ignore-file-library-sync-status-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Import Binfile API
+  slug: open-penpot-import-binfile-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Leave Org API
+  slug: open-penpot-leave-org-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Leave Team API
+  slug: open-penpot-leave-team-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Link File To Library API
+  slug: open-penpot-link-file-to-library-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Lock File Snapshot API
+  slug: open-penpot-lock-file-snapshot-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Login With Ldap API
+  slug: open-penpot-login-with-ldap-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Login With Password API
+  slug: open-penpot-login-with-password-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Logout API
+  slug: open-penpot-logout-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Mark All Threads As Read API
+  slug: open-penpot-mark-all-threads-as-read-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Move Files API
+  slug: open-penpot-move-files-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Move Project API
+  slug: open-penpot-move-project-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Permanently Delete Team Files API
+  slug: open-penpot-permanently-delete-team-files-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Prepare Register Profile API
+  slug: open-penpot-prepare-register-profile-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Push Audit Events API
+  slug: open-penpot-push-audit-events-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Recover Profile API
+  slug: open-penpot-recover-profile-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Redeem Nitrate Activation Code API
+  slug: open-penpot-redeem-nitrate-activation-code-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Register Profile API
+  slug: open-penpot-register-profile-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Remove Team From Org API
+  slug: open-penpot-remove-team-from-org-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Rename File API
+  slug: open-penpot-rename-file-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Rename Project API
+  slug: open-penpot-rename-project-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Request Email Change API
+  slug: open-penpot-request-email-change-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Request Profile Recovery API
+  slug: open-penpot-request-profile-recovery-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Restore Deleted Team Files API
+  slug: open-penpot-restore-deleted-team-files-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Restore File Snapshot API
+  slug: open-penpot-restore-file-snapshot-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Search Files API
+  slug: open-penpot-search-files-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Send User Feedback API
+  slug: open-penpot-send-user-feedback-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Set File Shared API
+  slug: open-penpot-set-file-shared-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Unlink File From Library API
+  slug: open-penpot-unlink-file-from-library-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Unlock File Snapshot API
+  slug: open-penpot-unlock-file-snapshot-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Comment API
+  slug: open-penpot-update-comment-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Comment Thread API
+  slug: open-penpot-update-comment-thread-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Comment Thread Frame API
+  slug: open-penpot-update-comment-thread-frame-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Comment Thread Position API
+  slug: open-penpot-update-comment-thread-position-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Comment Thread Status API
+  slug: open-penpot-update-comment-thread-status-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update File API
+  slug: open-penpot-update-file-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update File Library Sync Status API
+  slug: open-penpot-update-file-library-sync-status-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update File Snapshot API
+  slug: open-penpot-update-file-snapshot-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Font API
+  slug: open-penpot-update-font-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Profile API
+  slug: open-penpot-update-profile-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Profile Notifications API
+  slug: open-penpot-update-profile-notifications-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Profile Password API
+  slug: open-penpot-update-profile-password-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Profile Photo API
+  slug: open-penpot-update-profile-photo-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Profile Props API
+  slug: open-penpot-update-profile-props-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Project Pin API
+  slug: open-penpot-update-project-pin-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Team API
+  slug: open-penpot-update-team-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Team Invitation Role API
+  slug: open-penpot-update-team-invitation-role-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Team Member Role API
+  slug: open-penpot-update-team-member-role-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Team Photo API
+  slug: open-penpot-update-team-photo-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Update Webhook API
+  slug: open-penpot-update-webhook-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Upload Chunk API
+  slug: open-penpot-upload-chunk-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Upload File Media Object API
+  slug: open-penpot-upload-file-media-object-api
+- collection_type: open
+  name: Penpot RPC Add Team To Organization Verify Token API
+  slug: open-penpot-verify-token-api
 common:
 - group: agent
   title: ''
@@ -549,7 +964,7 @@ plans:
 - name: Penpot Plans Pricing
   plan_count: 6
   slug: penpot-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Penpot Rate Limits
@@ -583,7 +998,7 @@ score:
       marker_coverage: 0.0
       total: 137
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penpot/refs/heads/main/screenshots/penpot-2026-06-20T191548.png
 security:

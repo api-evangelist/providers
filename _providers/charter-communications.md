@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,14 +50,29 @@ apis:
 - description: Service ticket operations
   name: Charter Communications Tickets API
   slug: charter-communications-tickets-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Charter Communications Bryte IQ API
   slug: open-charter-communications-bryte-iq-api
 - collection_type: open
+  name: Charter Communications Bryte IQ Devices API
+  slug: open-charter-communications-devices-api
+- collection_type: open
+  name: Charter Communications Bryte IQ Devices Network API
+  slug: open-charter-communications-network-api
+- collection_type: open
+  name: Charter Communications Bryte IQ Devices Serviceability API
+  slug: open-charter-communications-serviceability-api
+- collection_type: open
   name: Charter Communications Spectrum Enterprise API
   slug: open-charter-communications-spectrum-enterprise-api
+- collection_type: open
+  name: Charter Communications Bryte IQ Devices Tickets API
+  slug: open-charter-communications-tickets-api
 common:
 - group: agent
   title: ''
@@ -170,7 +185,7 @@ press:
 - date: '2026-05-25'
   title: 'AI Inside: Artificial Intelligence for Network and Customer ...'
   url: https://techexpo.scte.org/session/ai-inside-artificial-intelligence-for-network-and-customer-experience-innovation/
-random_paper: 23
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Charter Communications Rate Limits
@@ -210,7 +225,7 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/screenshots/charter-communications-2026-06-20T174233.png
 security:

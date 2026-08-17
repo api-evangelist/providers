@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: The Authorization API from Prodsmart — 1 operation(s) for authorization.
@@ -79,11 +79,63 @@ apis:
 - description: The Task Durations API from Prodsmart — 2 operation(s) for task durations.
   name: Prodsmart Task Durations API
   slug: prodsmart-task-durations-api
-artifact_total: 20
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Prodsmart Webhooks
   slug: prodsmart-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization API
+  slug: open-prodsmart-authorization-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Changes Feed API
+  slug: open-prodsmart-changes-feed-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Clients API
+  slug: open-prodsmart-clients-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Downtime API
+  slug: open-prodsmart-downtime-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Inventory API
+  slug: open-prodsmart-inventory-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Machines API
+  slug: open-prodsmart-machines-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Product Families API
+  slug: open-prodsmart-product-families-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Production Orders API
+  slug: open-prodsmart-production-orders-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Productions API
+  slug: open-prodsmart-productions-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Products API
+  slug: open-prodsmart-products-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Punch Clock API
+  slug: open-prodsmart-punch-clock-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Purchase Orders API
+  slug: open-prodsmart-purchase-orders-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Reports API
+  slug: open-prodsmart-reports-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Sales Orders API
+  slug: open-prodsmart-sales-orders-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Suppliers API
+  slug: open-prodsmart-suppliers-api
+- collection_type: open
+  name: Autodesk Fusion Operations (Prodsmart) API v1 Authorization Task Durations API
+  slug: open-prodsmart-task-durations-api
 common:
 - group: other
   title: ''
@@ -172,7 +224,7 @@ overview: 'Prodsmart publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prodsmart''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 11 more developer resources.'
-random_paper: 28
+random_paper: 94
 score:
   band: thin
   composite: 38.8
@@ -193,7 +245,7 @@ score:
       total: 16
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

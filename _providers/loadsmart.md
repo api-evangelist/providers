@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 122
@@ -183,14 +183,161 @@ apis:
 - description: The YMS - Yard View API from Loadsmart — 4 operation(s) for yms - yard view.
   name: Loadsmart YMS - Yard View API
   slug: loadsmart-yms-yard-view-api
-artifact_total: 73
+artifact_total: 122
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments API
+  slug: open-loadsmart-appointments-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Asset Container API
+  slug: open-loadsmart-asset-container-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Asset Visit API
+  slug: open-loadsmart-asset-visit-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Audit Log API
+  slug: open-loadsmart-audit-log-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Authentication API
+  slug: open-loadsmart-authentication-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Bids API
+  slug: open-loadsmart-bids-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments BOL API
+  slug: open-loadsmart-bol-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Capacity API
+  slug: open-loadsmart-capacity-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Carrier API
+  slug: open-loadsmart-carrier-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Carrier Companies API
+  slug: open-loadsmart-carrier-companies-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Carrier Users API
+  slug: open-loadsmart-carrier-users-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Custom Forms - Data API
+  slug: open-loadsmart-custom-forms-data-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Custom Forms - Fields API
+  slug: open-loadsmart-custom-forms-fields-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Custom Forms - Flows API
+  slug: open-loadsmart-custom-forms-flows-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Custom Forms - Form Fields API
+  slug: open-loadsmart-custom-forms-form-fields-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Custom Forms - Forms API
+  slug: open-loadsmart-custom-forms-forms-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Custom Forms - Triggers API
+  slug: open-loadsmart-custom-forms-triggers-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Docks API
+  slug: open-loadsmart-docks-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Documents API
+  slug: open-loadsmart-documents-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Gates API
+  slug: open-loadsmart-gates-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments General API
+  slug: open-loadsmart-general-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Load Offers API
+  slug: open-loadsmart-load-offers-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Load Type Groups API
+  slug: open-loadsmart-load-type-groups-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Load Types API
+  slug: open-loadsmart-load-types-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Loads API
+  slug: open-loadsmart-loads-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Metrics API
+  slug: open-loadsmart-metrics-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Observations API
+  slug: open-loadsmart-observations-api
 - collection_type: open
   name: Opendock Nova API Documentation
   slug: open-loadsmart-opendock
 - collection_type: open
+  name: Opendock Nova API Documentation Appointments Orgs API
+  slug: open-loadsmart-orgs-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Quotes API
+  slug: open-loadsmart-quotes-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Routes API
+  slug: open-loadsmart-routes-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments SAML API
+  slug: open-loadsmart-saml-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Settings Metadata API
+  slug: open-loadsmart-settings-metadata-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Shipment Events API
+  slug: open-loadsmart-shipment-events-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Shipment Stops API
+  slug: open-loadsmart-shipment-stops-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Shipments API
+  slug: open-loadsmart-shipments-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Shipper Accounting Info API
+  slug: open-loadsmart-shipper-accounting-info-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Shipper Accounts API
+  slug: open-loadsmart-shipper-accounts-api
+- collection_type: open
   name: Loadsmart API
   slug: open-loadsmart-shipperguide
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Shippers API
+  slug: open-loadsmart-shippers-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Storage API
+  slug: open-loadsmart-storage-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Unit Limiter API
+  slug: open-loadsmart-unit-limiter-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Users API
+  slug: open-loadsmart-users-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Warehouse Groups API
+  slug: open-loadsmart-warehouse-groups-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Warehouses API
+  slug: open-loadsmart-warehouses-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments Webhooks API
+  slug: open-loadsmart-webhooks-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments YMS - Spot API
+  slug: open-loadsmart-yms-spot-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments YMS - Spot Area API
+  slug: open-loadsmart-yms-spot-area-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments YMS - Spot Assignment API
+  slug: open-loadsmart-yms-spot-assignment-api
+- collection_type: open
+  name: Opendock Nova API Documentation Appointments YMS - Yard View API
+  slug: open-loadsmart-yms-yard-view-api
 common:
 - group: agent
   title: ''
@@ -367,7 +514,7 @@ plans:
 - name: Loadsmart Plans Pricing
   plan_count: 6
   slug: loadsmart-plans-pricing
-random_paper: 7
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Loadsmart Rate Limits
@@ -392,7 +539,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loadsmart/refs/heads/main/screenshots/loadsmart-2026-06-20T184627.png
 security:

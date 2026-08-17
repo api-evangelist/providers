@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -45,7 +45,17 @@ apis:
 - description: Webhook push notification management for receiving automatic tracking updates.
   name: 17TRACK Webhooks API
   slug: 17track-webhooks-api
-artifact_total: 22
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 17TRACK Tracking API
+  slug: open-17track-tracking-api
+- collection_type: open
+  name: 17TRACK Tracking Webhooks API
+  slug: open-17track-webhooks-api
 common:
 - group: agent
   title: ''
@@ -162,7 +172,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -202,7 +212,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/screenshots/17track-2026-06-20T162321.png
 security:

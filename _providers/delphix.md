@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 510
   human_in_the_loop: 15
@@ -219,7 +219,191 @@ apis:
 - description: The VirtualizationPolicies API from Delphix — 9 operation(s) for virtualizationpolicies.
   name: Delphix VirtualizationPolicies API
   slug: delphix-virtualizationpolicies-api
-artifact_total: 64
+artifact_total: 125
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Delphix DCT Algorithms API
+  slug: open-delphix-algorithms-api
+- collection_type: open
+  name: Delphix DCT Algorithms Bookmarks API
+  slug: open-delphix-bookmarks-api
+- collection_type: open
+  name: Delphix DCT Algorithms CDB DSources API
+  slug: open-delphix-cdb-dsources-api
+- collection_type: open
+  name: Delphix DCT Algorithms CDBs API
+  slug: open-delphix-cdbs-api
+- collection_type: open
+  name: Delphix DCT Algorithms Classifiers API
+  slug: open-delphix-classifiers-api
+- collection_type: open
+  name: Delphix DCT Algorithms CloudAccounts API
+  slug: open-delphix-cloudaccounts-api
+- collection_type: open
+  name: Delphix DCT Algorithms ComplianceJobCollections API
+  slug: open-delphix-compliancejobcollections-api
+- collection_type: open
+  name: Delphix DCT Algorithms ComplianceJobs API
+  slug: open-delphix-compliancejobs-api
+- collection_type: open
+  name: Delphix DCT Algorithms ComplianceNodes API
+  slug: open-delphix-compliancenodes-api
+- collection_type: open
+  name: Delphix DCT Algorithms Connectivity API
+  slug: open-delphix-connectivity-api
+- collection_type: open
+  name: Delphix DCT Algorithms Connectors API
+  slug: open-delphix-connectors-api
+- collection_type: open
+  name: Delphix DCT Algorithms DatabaseTemplates API
+  slug: open-delphix-databasetemplates-api
+- collection_type: open
+  name: Delphix DCT Algorithms DataClasses API
+  slug: open-delphix-dataclasses-api
+- collection_type: open
+  name: Delphix DCT Algorithms DataLayouts API
+  slug: open-delphix-datalayouts-api
+- collection_type: open
+  name: Delphix DCT Algorithms DiscoveryExpressions API
+  slug: open-delphix-discoveryexpressions-api
+- collection_type: open
+  name: Delphix DCT Algorithms DiscoveryPolicies API
+  slug: open-delphix-discoverypolicies-api
+- collection_type: open
+  name: Delphix DCT Algorithms DSources API
+  slug: open-delphix-dsources-api
+- collection_type: open
+  name: Delphix DCT Algorithms Environments API
+  slug: open-delphix-environments-api
+- collection_type: open
+  name: Delphix DCT Algorithms Executions API
+  slug: open-delphix-executions-api
+- collection_type: open
+  name: Delphix DCT Algorithms File Mapping API
+  slug: open-delphix-file-mapping-api
+- collection_type: open
+  name: Delphix DCT Algorithms Groups API
+  slug: open-delphix-groups-api
+- collection_type: open
+  name: Delphix DCT Algorithms HeldSpace API
+  slug: open-delphix-heldspace-api
+- collection_type: open
+  name: Delphix DCT Algorithms HookTemplates API
+  slug: open-delphix-hooktemplates-api
+- collection_type: open
+  name: Delphix DCT Algorithms HyperscaleInstance API
+  slug: open-delphix-hyperscaleinstance-api
+- collection_type: open
+  name: Delphix DCT Algorithms HyperscaleObjects API
+  slug: open-delphix-hyperscaleobjects-api
+- collection_type: open
+  name: Delphix DCT Algorithms JobCollectionExecutions API
+  slug: open-delphix-jobcollectionexecutions-api
+- collection_type: open
+  name: Delphix DCT Algorithms JobOrchestrators API
+  slug: open-delphix-joborchestrators-api
+- collection_type: open
+  name: Delphix DCT Algorithms KerberosConfig API
+  slug: open-delphix-kerberosconfig-api
+- collection_type: open
+  name: Delphix DCT Algorithms Management API
+  slug: open-delphix-management-api
+- collection_type: open
+  name: Delphix DCT Algorithms MaskingEnvironments API
+  slug: open-delphix-maskingenvironments-api
+- collection_type: open
+  name: Delphix DCT Algorithms MaskingFiles API
+  slug: open-delphix-maskingfiles-api
+- collection_type: open
+  name: Delphix DCT Algorithms MaskingJobs API
+  slug: open-delphix-maskingjobs-api
+- collection_type: open
+  name: Delphix DCT Algorithms MaskingPlugins API
+  slug: open-delphix-maskingplugins-api
+- collection_type: open
+  name: Delphix DCT Algorithms MigrationJobs API
+  slug: open-delphix-migrationjobs-api
+- collection_type: open
+  name: Delphix DCT Algorithms Namespace API
+  slug: open-delphix-namespace-api
+- collection_type: open
+  name: Delphix DCT Algorithms Network Performance Tool API
+  slug: open-delphix-network-performance-tool-api
+- collection_type: open
+  name: Delphix DCT Algorithms PaaSDatabases API
+  slug: open-delphix-paasdatabases-api
+- collection_type: open
+  name: Delphix DCT Algorithms PaaSInstances API
+  slug: open-delphix-paasinstances-api
+- collection_type: open
+  name: Delphix DCT Algorithms PaaSPlugins API
+  slug: open-delphix-paasplugins-api
+- collection_type: open
+  name: Delphix DCT Algorithms PaaSSnapshots API
+  slug: open-delphix-paassnapshots-api
+- collection_type: open
+  name: Delphix DCT Algorithms PaaSTimeflows API
+  slug: open-delphix-paastimeflows-api
+- collection_type: open
+  name: Delphix DCT Algorithms PasswordVaults API
+  slug: open-delphix-passwordvaults-api
+- collection_type: open
+  name: Delphix DCT Algorithms Replication API
+  slug: open-delphix-replication-api
+- collection_type: open
+  name: Delphix DCT Algorithms Reporting API
+  slug: open-delphix-reporting-api
+- collection_type: open
+  name: Delphix DCT Algorithms RuleSets API
+  slug: open-delphix-rulesets-api
+- collection_type: open
+  name: Delphix DCT Algorithms Snapshots API
+  slug: open-delphix-snapshots-api
+- collection_type: open
+  name: Delphix DCT Algorithms Sources API
+  slug: open-delphix-sources-api
+- collection_type: open
+  name: Delphix DCT Algorithms StagingCdbs API
+  slug: open-delphix-stagingcdbs-api
+- collection_type: open
+  name: Delphix DCT Algorithms StagingSources API
+  slug: open-delphix-stagingsources-api
+- collection_type: open
+  name: Delphix DCT Algorithms StorageUsage API
+  slug: open-delphix-storageusage-api
+- collection_type: open
+  name: Delphix DCT Algorithms Timeflows API
+  slug: open-delphix-timeflows-api
+- collection_type: open
+  name: Delphix DCT Algorithms Toolkits API
+  slug: open-delphix-toolkits-api
+- collection_type: open
+  name: Delphix DCT Algorithms VCDBs API
+  slug: open-delphix-vcdbs-api
+- collection_type: open
+  name: Delphix DCT Algorithms VDBGroups API
+  slug: open-delphix-vdbgroups-api
+- collection_type: open
+  name: Delphix DCT Algorithms VDBs API
+  slug: open-delphix-vdbs-api
+- collection_type: open
+  name: Delphix DCT Algorithms VirtualizationActions API
+  slug: open-delphix-virtualizationactions-api
+- collection_type: open
+  name: Delphix DCT Algorithms VirtualizationAlerts API
+  slug: open-delphix-virtualizationalerts-api
+- collection_type: open
+  name: Delphix DCT Algorithms VirtualizationFaults API
+  slug: open-delphix-virtualizationfaults-api
+- collection_type: open
+  name: Delphix DCT Algorithms VirtualizationJobs API
+  slug: open-delphix-virtualizationjobs-api
+- collection_type: open
+  name: Delphix DCT Algorithms VirtualizationPolicies API
+  slug: open-delphix-virtualizationpolicies-api
 common:
 - group: other
   title: ''
@@ -373,7 +557,7 @@ overview: 'Delphix publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Delphix''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 27 more developer resources.'
-random_paper: 30
+random_paper: 5
 score:
   band: developing
   composite: 51.7
@@ -397,7 +581,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/screenshots/delphix-2026-07-25T211658.png
 security:

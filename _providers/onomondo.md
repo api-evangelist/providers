@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Subscribe to SIM events delivered as HTTP POST callbacks.
   name: Onomondo Webhooks API
   slug: onomondo-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Onomondo Connectors API
+  slug: open-onomondo-connectors-api
+- collection_type: open
+  name: Onomondo Connectors Network Lists API
+  slug: open-onomondo-network-lists-api
+- collection_type: open
+  name: Onomondo Connectors SIMs API
+  slug: open-onomondo-sims-api
+- collection_type: open
+  name: Onomondo Connectors SMS API
+  slug: open-onomondo-sms-api
+- collection_type: open
+  name: Onomondo Connectors Tags API
+  slug: open-onomondo-tags-api
+- collection_type: open
+  name: Onomondo Connectors Usage API
+  slug: open-onomondo-usage-api
+- collection_type: open
+  name: Onomondo Connectors Webhooks API
+  slug: open-onomondo-webhooks-api
 - collection_type: open
   name: Onomondo API
   slug: open-onomondo
@@ -130,7 +154,7 @@ plans:
 - name: Onomondo Plans Pricing
   plan_count: 5
   slug: onomondo-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 2
   name: Onomondo Rate Limits
@@ -161,7 +185,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/screenshots/onomondo-2026-08-07T190606.png
 security:

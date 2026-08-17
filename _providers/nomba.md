@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -81,21 +81,42 @@ apis:
 - description: Endpoints for creating, fetching, filtering, updating, and expiring virtual bank accounts used for payment collection.
   name: Nomba Virtual Accounts API
   slug: nomba-virtual-accounts-api
-artifact_total: 68
+artifact_total: 82
 asyncapis:
 - description: The Nomba Webhooks system delivers real-time event notifications via HTTP POST callbacks when activities occur within a customer account. Events include payment successes and failures, payout completi
   name: Nomba Webhook Events
   slug: nomba-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nomba Accounts API
+  slug: open-nomba-accounts-api
+- collection_type: open
   name: Nomba Accounts API
   slug: open-nomba-accounts
+- collection_type: open
+  name: Nomba Accounts Authentication API
+  slug: open-nomba-authentication-api
 - collection_type: open
   name: Nomba Authentication API
   slug: open-nomba-authentication
 - collection_type: open
+  name: Nomba Accounts Card Charge API
+  slug: open-nomba-card-charge-api
+- collection_type: open
   name: Nomba Charge API
   slug: open-nomba-charge
+- collection_type: open
+  name: Nomba Accounts Checkout Orders API
+  slug: open-nomba-checkout-orders-api
+- collection_type: open
+  name: Nomba Accounts Corridors API
+  slug: open-nomba-corridors-api
+- collection_type: open
+  name: Nomba Accounts Exchange Rates API
+  slug: open-nomba-exchange-rates-api
 - collection_type: open
   name: Nomba Global Payout API
   slug: open-nomba-global-payout
@@ -103,11 +124,32 @@ collections:
   name: Nomba Online Checkout API
   slug: open-nomba-online-checkout
 - collection_type: open
+  name: Nomba Accounts Order Management API
+  slug: open-nomba-order-management-api
+- collection_type: open
+  name: Nomba Accounts Payouts API
+  slug: open-nomba-payouts-api
+- collection_type: open
+  name: Nomba Accounts Saved Cards API
+  slug: open-nomba-saved-cards-api
+- collection_type: open
+  name: Nomba Accounts Tokenized Cards API
+  slug: open-nomba-tokenized-cards-api
+- collection_type: open
+  name: Nomba Accounts Transactions API
+  slug: open-nomba-transactions-api
+- collection_type: open
   name: Nomba Transactions API
   slug: open-nomba-transactions
 - collection_type: open
+  name: Nomba Accounts Transfers API
+  slug: open-nomba-transfers-api
+- collection_type: open
   name: Nomba Transfers API
   slug: open-nomba-transfers
+- collection_type: open
+  name: Nomba Accounts Virtual Accounts API
+  slug: open-nomba-virtual-accounts-api
 - collection_type: open
   name: Nomba Virtual Accounts API
   slug: open-nomba-virtual-accounts
@@ -306,7 +348,7 @@ plans:
 - name: Nomba Plans Pricing
   plan_count: 1
   slug: nomba-plans-pricing
-random_paper: 45
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Nomba Rate Limits
@@ -354,7 +396,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/screenshots/nomba-2026-06-20T190355.png
 security:

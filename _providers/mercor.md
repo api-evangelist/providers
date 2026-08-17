@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: 'The core Mercor platform that matches expert humans to AI lab and enterprise demand for RLHF, SFT, evals, agent training, and frontier research projects. Domains covered include software engineering, '
@@ -142,7 +142,7 @@ plans:
 - name: Mercor Plans Pricing
   plan_count: 1
   slug: mercor-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Mercor Rate Limits
@@ -160,7 +160,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 25.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercor/refs/heads/main/screenshots/mercor-2026-06-20T185214.png
 security:

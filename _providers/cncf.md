@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The CNCF Cloud Native Interactive Landscape is the canonical map of the cloud-native ecosystem. The landscape is generated daily from landscape.yml and enriched with data from Crunchbase and GitHub. T
@@ -103,7 +103,7 @@ plans:
 - name: Cncf Plans Pricing
   plan_count: 3
   slug: cncf-plans-pricing
-random_paper: 50
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Cncf Rate Limits
@@ -121,7 +121,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cncf/refs/heads/main/screenshots/cncf-2026-06-20T174634.png
 security:

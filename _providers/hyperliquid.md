@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,12 +59,18 @@ apis:
 - description: The Info API from Hyperliquid — 1 operation(s) for info.
   name: Hyperliquid Info API
   slug: hyperliquid-info-api
-artifact_total: 15
+artifact_total: 17
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Hyperliquid public WebSocket API. Clients connect to wss://api.hyperliquid.xyz/ws (mainnet) or wss://api.hyperliquid-testnet.xyz/ws (testnet) and send subscribe / un
   name: Hyperliquid WebSocket API
   slug: hyperliquid-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hyperliquid Info API
+  slug: open-hyperliquid-info-api
 - collection_type: open
   name: Hyperliquid Info API
   slug: open-hyperliquid
@@ -148,7 +154,7 @@ plans:
 - name: Hyperliquid Plans Pricing
   plan_count: 1
   slug: hyperliquid-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Hyperliquid Rate Limits
@@ -188,7 +194,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/screenshots/hyperliquid-2026-06-20T183045.png
 security:

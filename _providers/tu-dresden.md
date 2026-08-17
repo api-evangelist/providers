@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,7 +65,26 @@ apis:
 - description: Source data access operation
   name: TU Dresden source API
   slug: tu-dresden-source-api
-artifact_total: 22
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LOD authority_search API
+  slug: open-tu-dresden-authority-search-api
+- collection_type: open
+  name: LOD authority_search explorative search API
+  slug: open-tu-dresden-explorative-search-api
+- collection_type: open
+  name: LOD authority_search reconcile API
+  slug: open-tu-dresden-reconcile-api
+- collection_type: open
+  name: LOD authority_search search and access API
+  slug: open-tu-dresden-search-and-access-api
+- collection_type: open
+  name: LOD authority_search source API
+  slug: open-tu-dresden-source-api
 common:
 - group: agent
   title: ''
@@ -150,7 +169,7 @@ plans:
 - name: Tu Dresden Plans Pricing
   plan_count: 2
   slug: tu-dresden-plans-pricing
-random_paper: 59
+random_paper: 125
 rate_limits:
 - limit_count: 1
   name: Tu Dresden Rate Limits
@@ -198,7 +217,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/screenshots/tu-dresden-2026-06-20T195822.png
 security:

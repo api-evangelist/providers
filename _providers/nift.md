@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Enterprise · Requires approval
+  onboarding: approval
+  pricing: enterprise
   public: false
   source:
-  - authentication
+  - plans/nift-plans-pricing.yml
+  - https://github.com/nift-sdks/nift-flow-sdk-docs/blob/main/docs/sdk/customer-status-server.md
   trial: false
   try_now: false
 agent_readiness:
@@ -23,12 +24,12 @@ agent_readiness:
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-12'
+  score: 52.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +42,14 @@ apis:
 - description: Customer status and deletion operations for partners.
   name: NIFT Customers API
   slug: nift-customers-api
-artifact_total: 6
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nift Partners Customers API
+  slug: open-nift-customers-api
 common:
 - group: other
   title: ''
@@ -59,6 +67,10 @@ common:
   title: ''
   type: Documentation
   url: https://github.com/nift-sdks/nift-flow-sdk-docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/nift-sdks/nift-flow-sdk-docs/blob/main/docs/sdk/web.md#quick-start
 - group: build
   title: ''
   type: GitHubOrganization
@@ -107,6 +119,10 @@ common:
   title: ''
   type: MCPServer
   url: mcp/nift-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/nift-tool-crosswalk.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -119,10 +135,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/nift-llms.txt
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/nift-well-known.yml
 - group: design
   title: ''
   type: Conventions
@@ -143,6 +155,10 @@ common:
   title: ''
   type: Conformance
   url: conformance/nift-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/nift-conformance.yml
 - group: design
   title: ''
   type: DataModel
@@ -151,6 +167,22 @@ common:
   title: ''
   type: DomainSecurity
   url: security/nift-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/nift-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.gonift.com/business/vulnerability-disclosure-policy
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/nift-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/nift-rate-limits.yml
 created: '2026-07-17'
 description: 'Nift is a customer-gifting and acquisition platform: businesses send "thank-you" gifts that let their own customers discover and try new brands, restaurants, and services, while the partnering brands gain new customers at the moment of gift selection. Proprietary AI matches each recipient to relevant gift options. For developers, Nift ships a partner integration surface: first-party SDKs (Web, iOS, Android, React Native) that embed the Nift gift-redemption "card flow" directly into a partner''s app, plus a server-side Partners API secured with OAuth 2.0 client credentials for looking up customer eligibility status and submitting GDPR-style customer deletion (anonymization) requests. Backed by Foundry Group.'
 image: https://cdn.nift.me/assets/media_library/Nift-30-GiftCard-330af8982cf61d121b763521121a4025dd0f85b6010e361ebc736d0fa0d13d78.png
@@ -159,31 +191,39 @@ mcp_servers:
 - description: ''
   name: nift-mcp.yml
   slug: nift-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: NIFT
 nav: Providers
 network: true
 overview: 'NIFT publishes 1 API on the [APIs.io](https://apis.io/) network: Customers API. Tagged areas include Company, Marketing, Gifting, Customer Acquisition, and Loyalty.
 
 
-  NIFT''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 73
+  NIFT''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
+plans:
+- name: Nift Plans Pricing
+  plan_count: 0
+  slug: nift-plans-pricing
+random_paper: 135
+rate_limits:
+- limit_count: 0
+  name: Nift Rate Limits
+  slug: nift-rate-limits
 scopes:
 - name: Nift Scopes
   scope_count: 2
   slug: nift-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 47.1
+  delta: 5.2
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 42.1
     contract_quality: 65.7
-    developer_ergonomics: 45.1
+    developer_ergonomics: 56.0
     discoverability: 75.9
     governance: 11.5
-    operational_transparency: 5.3
+    operational_transparency: 15.8
   previous_composite: 41.9
   provenance:
     agentic_access: derived
@@ -196,8 +236,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/screenshots/nift-2026-08-07T185254.png
 security:
 - kind: authentication
@@ -208,6 +248,10 @@ security:
   name: Nift Domain Security
   slug: nift-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Nift Vulnerability Disclosure
+  slug: nift-vulnerability-disclosure
+  summary_line: contact published
 slug: nift
 tags:
 - Company

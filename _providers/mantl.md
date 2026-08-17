@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -75,7 +75,7 @@ overview: 'MANTL is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   MANTL''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 60
+random_paper: 93
 score:
   band: emerging
   composite: 14.4
@@ -95,7 +95,7 @@ score:
     regime_id: banking_open_finance
     score: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantl/refs/heads/main/screenshots/mantl-2026-07-25T230105.png
 slug: mantl

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: Bespoke Starling Developer API for retrieving a customer's accounts, account identifiers (sort code / account number), and balances. Served over OAuth2 at the api.starlingbank.com/api/v2 host with a f
@@ -71,7 +71,11 @@ apis:
 - description: 'UK Open Banking Read/Write Confirmation of Funds (CBPII) API allowing a card-based payment instrument issuer to confirm whether funds are available, as an FCA-authorised ASPSP, conformant to the OBIE '
   name: Starling Confirmation of Funds API (CBPII, OBIE Read/Write)
   slug: starling-confirmation-of-funds-api
-artifact_total: 16
+artifact_total: 17
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-swagger
 common:
 - group: auth
   title: ''
@@ -206,7 +210,7 @@ overview: 'Starling Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Starling Bank''s developer surface includes authentication, sandbox, API reference, documentation, getting-started guide, engineering blog, support, and 23 more developer resources.'
-random_paper: 5
+random_paper: 133
 score:
   band: developing
   composite: 44.7
@@ -233,7 +237,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

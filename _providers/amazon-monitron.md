@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Tags API from Amazon Monitron — 1 operation(s) for tags.
   name: Amazon Monitron Tags API
   slug: amazon-monitron-tags-api
-artifact_total: 42
+artifact_total: 46
 collections:
 - collection_type: postman
   name: Amazon Monitron ProjectAdmins API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Amazon Monitron ProjectAdmins Tags API
   slug: postman-amazon-monitron-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Monitron ProjectAdmins API
+  slug: open-amazon-monitron-projectadmins-api
+- collection_type: open
+  name: Amazon Monitron ProjectAdmins Projects API
+  slug: open-amazon-monitron-projects-api
+- collection_type: open
+  name: Amazon Monitron ProjectAdmins Tags API
+  slug: open-amazon-monitron-tags-api
 common:
 - group: build
   title: ''
@@ -223,7 +235,7 @@ plans:
 - name: Amazon Monitron Plans Pricing
   plan_count: 3
   slug: amazon-monitron-plans-pricing
-random_paper: 17
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Amazon Monitron Rate Limits
@@ -265,7 +277,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/screenshots/amazon-monitron-2026-06-20T171745.png
 security:

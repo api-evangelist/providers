@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -134,7 +134,113 @@ apis:
 - description: The Wake Up API from Seekr — 1 operation(s) for wake up.
   name: Seekr Wake Up API
   slug: seekr-wake-up-api
-artifact_total: 40
+artifact_total: 75
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Seekr Agents API
+  slug: open-seekr-agents-api
+- collection_type: open
+  name: SeekrFlow Agents v1 - legacy API
+  slug: open-seekr-agents-v1-legacy-api
+- collection_type: open
+  name: SeekrFlow Alignment API
+  slug: open-seekr-alignment-api
+- collection_type: open
+  name: SeekrFlow Batches API
+  slug: open-seekr-batches-api
+- collection_type: open
+  name: SeekrFlow Data jobs API
+  slug: open-seekr-data-jobs-api
+- collection_type: open
+  name: SeekrFlow Deployments API
+  slug: open-seekr-deployments-api
+- collection_type: open
+  name: SeekrFlow Engines API
+  slug: open-seekr-engines-api
+- collection_type: open
+  name: SeekrFlow Evals API
+  slug: open-seekr-evals-api
+- collection_type: open
+  name: SeekrFlow Explainability API
+  slug: open-seekr-explainability-api
+- collection_type: open
+  name: SeekrFlow Feedback API
+  slug: open-seekr-feedback-api
+- collection_type: open
+  name: Seekr Files API
+  slug: open-seekr-files-api
+- collection_type: open
+  name: SeekrFlow Fine Tuning API
+  slug: open-seekr-fine-tuning-api
+- collection_type: open
+  name: SeekrFlow Functions API
+  slug: open-seekr-functions-api
+- collection_type: open
+  name: Seekr Health API
+  slug: open-seekr-health-api
+- collection_type: open
+  name: SeekrFlow Images API
+  slug: open-seekr-images-api
+- collection_type: open
+  name: SeekrFlow Inference API
+  slug: open-seekr-inference-api
+- collection_type: open
+  name: SeekrFlow Ingestion API
+  slug: open-seekr-ingestion-api
+- collection_type: open
+  name: SeekrFlow Insights API
+  slug: open-seekr-insights-api
+- collection_type: open
+  name: Seekr Internal API
+  slug: open-seekr-internal-api
+- collection_type: open
+  name: SeekrFlow Is Sleeping API
+  slug: open-seekr-is-sleeping-api
+- collection_type: open
+  name: SeekrFlow Metrics API
+  slug: open-seekr-metrics-api
+- collection_type: open
+  name: Seekr Models API
+  slug: open-seekr-models-api
+- collection_type: open
+  name: SeekrFlow Observability API
+  slug: open-seekr-observability-api
+- collection_type: open
+  name: SeekrFlow Pricing API
+  slug: open-seekr-pricing-api
+- collection_type: open
+  name: SeekrFlow Rerank API
+  slug: open-seekr-rerank-api
+- collection_type: open
+  name: SeekrFlow Runs API
+  slug: open-seekr-runs-api
+- collection_type: open
+  name: SeekrFlow Score API
+  slug: open-seekr-score-api
+- collection_type: open
+  name: SeekrFlow Sleep API
+  slug: open-seekr-sleep-api
+- collection_type: open
+  name: SeekrFlow Threads API
+  slug: open-seekr-threads-api
+- collection_type: open
+  name: SeekrFlow Tools API
+  slug: open-seekr-tools-api
+- collection_type: open
+  name: SeekrFlow Vector database API
+  slug: open-seekr-vector-database-api
+- collection_type: open
+  name: SeekrFlow Version API
+  slug: open-seekr-version-api
+- collection_type: open
+  name: SeekrFlow Versions API
+  slug: open-seekr-versions-api
+- collection_type: open
+  name: SeekrFlow Wake Up API
+  slug: open-seekr-wake-up-api
 common:
 - group: agent
   title: ''
@@ -316,7 +422,7 @@ overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 58
+random_paper: 91
 score:
   band: strong
   composite: 56.1
@@ -346,7 +452,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

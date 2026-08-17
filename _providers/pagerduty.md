@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 178
   human_in_the_loop: 2
@@ -154,7 +154,7 @@ apis:
 - description: A webhook is a way to receive events that occur on the PagerDuty platform via an HTTP POST request. V3 webhooks are set up by creating a webhook subscription.
   name: PagerDuty Webhooks API
   slug: pagerduty-webhooks-api
-artifact_total: 100
+artifact_total: 138
 asyncapis:
 - description: 'AsyncAPI description of PagerDuty''s event-driven surface. Two complementary channels are modelled: 1. Outbound V3 Webhooks — PagerDuty POSTs a JSON envelope to subscriber URLs whenever a configured in'
   name: PagerDuty Events
@@ -271,6 +271,120 @@ collections:
 - collection_type: postman
   name: PagerDuty Abilities Webhooks API
   slug: postman-pagerduty-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PagerDuty Abilities API
+  slug: open-pagerduty-abilities-api
+- collection_type: open
+  name: PagerDuty Abilities Add-Ons API
+  slug: open-pagerduty-add-ons-api
+- collection_type: open
+  name: PagerDuty Abilities Alert Grouping Settings API
+  slug: open-pagerduty-alert-grouping-settings-api
+- collection_type: open
+  name: PagerDuty Abilities Analytics API
+  slug: open-pagerduty-analytics-api
+- collection_type: open
+  name: PagerDuty Abilities Audit API
+  slug: open-pagerduty-audit-api
+- collection_type: open
+  name: PagerDuty Abilities Automation Actions API
+  slug: open-pagerduty-automation-actions-api
+- collection_type: open
+  name: PagerDuty Abilities Business Services API
+  slug: open-pagerduty-business-services-api
+- collection_type: open
+  name: PagerDuty Abilities Change Events API
+  slug: open-pagerduty-change-events-api
+- collection_type: open
+  name: PagerDuty Abilities Change Tags API
+  slug: open-pagerduty-change-tags-api
+- collection_type: open
+  name: PagerDuty Abilities Custom Fields API
+  slug: open-pagerduty-custom-fields-api
+- collection_type: open
+  name: PagerDuty Abilities Escalation Policies API
+  slug: open-pagerduty-escalation-policies-api
+- collection_type: open
+  name: PagerDuty Abilities Event Orchestrations API
+  slug: open-pagerduty-event-orchestrations-api
+- collection_type: open
+  name: PagerDuty Abilities Extension Schemas API
+  slug: open-pagerduty-extension-schemas-api
+- collection_type: open
+  name: PagerDuty Abilities Extensions API
+  slug: open-pagerduty-extensions-api
+- collection_type: open
+  name: PagerDuty Abilities Incident Workflows API
+  slug: open-pagerduty-incident-workflows-api
+- collection_type: open
+  name: PagerDuty Abilities Incidents API
+  slug: open-pagerduty-incidents-api
+- collection_type: open
+  name: PagerDuty Abilities Licenses API
+  slug: open-pagerduty-licenses-api
+- collection_type: open
+  name: PagerDuty Abilities Log Entries API
+  slug: open-pagerduty-log-entries-api
+- collection_type: open
+  name: PagerDuty Abilities Maintenance Windows API
+  slug: open-pagerduty-maintenance-windows-api
+- collection_type: open
+  name: PagerDuty Abilities Notifications API
+  slug: open-pagerduty-notifications-api
+- collection_type: open
+  name: PagerDuty Abilities On-Calls API
+  slug: open-pagerduty-on-calls-api
+- collection_type: open
+  name: PagerDuty Abilities Paused Incident Reports API
+  slug: open-pagerduty-paused-incident-reports-api
+- collection_type: open
+  name: PagerDuty Abilities Priorities API
+  slug: open-pagerduty-priorities-api
+- collection_type: open
+  name: PagerDuty Abilities Response Plays API
+  slug: open-pagerduty-response-plays-api
+- collection_type: open
+  name: PagerDuty Abilities Rulesets API
+  slug: open-pagerduty-rulesets-api
+- collection_type: open
+  name: PagerDuty Abilities Schedules API
+  slug: open-pagerduty-schedules-api
+- collection_type: open
+  name: PagerDuty Abilities Service Dependencies API
+  slug: open-pagerduty-service-dependencies-api
+- collection_type: open
+  name: PagerDuty Abilities Services API
+  slug: open-pagerduty-services-api
+- collection_type: open
+  name: PagerDuty Abilities Standards API
+  slug: open-pagerduty-standards-api
+- collection_type: open
+  name: PagerDuty Abilities Status Dashboards API
+  slug: open-pagerduty-status-dashboards-api
+- collection_type: open
+  name: PagerDuty Abilities Status Pages API
+  slug: open-pagerduty-status-pages-api
+- collection_type: open
+  name: PagerDuty Abilities Tags API
+  slug: open-pagerduty-tags-api
+- collection_type: open
+  name: PagerDuty Abilities Teams API
+  slug: open-pagerduty-teams-api
+- collection_type: open
+  name: PagerDuty Abilities Templates API
+  slug: open-pagerduty-templates-api
+- collection_type: open
+  name: PagerDuty Abilities Users API
+  slug: open-pagerduty-users-api
+- collection_type: open
+  name: PagerDuty Abilities Vendors API
+  slug: open-pagerduty-vendors-api
+- collection_type: open
+  name: PagerDuty Abilities Webhooks API
+  slug: open-pagerduty-webhooks-api
 common:
 - group: build
   title: ''
@@ -403,7 +517,7 @@ plans:
 - name: Pagerduty Plans Pricing
   plan_count: 4
   slug: pagerduty-plans-pricing
-random_paper: 21
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Pagerduty Rate Limits
@@ -437,7 +551,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagerduty/refs/heads/main/screenshots/pagerduty-2026-06-20T191325.png
 security:

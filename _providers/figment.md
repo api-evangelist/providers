@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 1
@@ -103,7 +103,83 @@ apis:
 - description: The x402 API from Figment — 5 operation(s) for x402.
   name: Figment X402 API
   slug: figment-x402-api
-artifact_total: 32
+artifact_total: 57
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figment Addresses API
+  slug: open-figment-addresses-api
+- collection_type: open
+  name: Figment Aptos API
+  slug: open-figment-aptos-api
+- collection_type: open
+  name: Figment Avalanche API
+  slug: open-figment-avalanche-api
+- collection_type: open
+  name: Figment Blockfrost Projects API
+  slug: open-figment-blockfrost-projects-api
+- collection_type: open
+  name: Figment Cardano API
+  slug: open-figment-cardano-api
+- collection_type: open
+  name: Figment Cosmos API
+  slug: open-figment-cosmos-api
+- collection_type: open
+  name: Figment Ethereum API
+  slug: open-figment-ethereum-api
+- collection_type: open
+  name: Figment NEAR API
+  slug: open-figment-near-api
+- collection_type: open
+  name: Figment Osmosis API
+  slug: open-figment-osmosis-api
+- collection_type: open
+  name: Figment Partners - Ethereum API
+  slug: open-figment-partners-ethereum-api
+- collection_type: open
+  name: Figment Polkadot API
+  slug: open-figment-polkadot-api
+- collection_type: open
+  name: Figment Polygon API
+  slug: open-figment-polygon-api
+- collection_type: open
+  name: Figment Portfolio API
+  slug: open-figment-portfolio-api
+- collection_type: open
+  name: Figment Rewards API
+  slug: open-figment-rewards-api
+- collection_type: open
+  name: Figment Solana API
+  slug: open-figment-solana-api
+- collection_type: open
+  name: Figment Stablecoins API
+  slug: open-figment-stablecoins-api
+- collection_type: open
+  name: Figment Staking Flows API
+  slug: open-figment-staking-flows-api
+- collection_type: open
+  name: Figment Statements API
+  slug: open-figment-statements-api
+- collection_type: open
+  name: Figment Sui API
+  slug: open-figment-sui-api
+- collection_type: open
+  name: Figment Transactions API
+  slug: open-figment-transactions-api
+- collection_type: open
+  name: Figment Validators API
+  slug: open-figment-validators-api
+- collection_type: open
+  name: Figment Vaulta API
+  slug: open-figment-vaulta-api
+- collection_type: open
+  name: Figment Vaults API
+  slug: open-figment-vaults-api
+- collection_type: open
+  name: Figment X402 API
+  slug: open-figment-x402-api
 common:
 - group: company
   title: ''
@@ -286,7 +362,7 @@ overview: 'Figment publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Figment''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
-random_paper: 26
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Figment Rate Limits
@@ -314,7 +390,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/screenshots/figment-2026-08-07T165258.png
 security:

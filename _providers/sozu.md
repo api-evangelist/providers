@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'The Sozu Command API provides programmatic control of the Sōzu HTTP reverse proxy at runtime. External tools communicate with the Sozu main process through a secure Unix socket using a protobuf-based '
@@ -136,7 +136,7 @@ plans:
 - name: Sozu Plans Pricing
   plan_count: 3
   slug: sozu-plans-pricing
-random_paper: 105
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Sozu Rate Limits
@@ -163,7 +163,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 31.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sozu/refs/heads/main/screenshots/sozu-2026-06-20T194231.png
 security:

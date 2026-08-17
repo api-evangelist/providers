@@ -1,36 +1,70 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid · Sales-led onboarding
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
+  source:
+  - https://magicmoment.jp/playbook/faq
+  - https://magicmoment.jp/company/contact
+  - https://magicmoment.jp/announcements/xip33i39nknwve03om0ym3vw
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 45.5
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 51
+  human_in_the_loop: 0
+  name: Magic Moment Agentic Access
+  operation_count: 111
+  slug: magic-moment-agentic-access
+  summary_line: 111 operations · 51 acting
+api_count: 5
+apis:
+- description: 'Swagger 2.0 contract for the Playbook Salesforce integration service: OAuth 2.0 connection to Salesforce, sync settings, field and ID mappings, engagement sync settings, Salesforce lead statuses / opp'
+  name: Magic Moment Playbook Salesforce Integration API
+  slug: magic-moment-playbook-salesforce-integration-api
+- description: 'Swagger 2.0 contract for the Playbook HubSpot integration service: OAuth 2.0 connection to HubSpot, sync settings and field mappings, Playbook <-> HubSpot ID mappings, engagement sync settings, HubSpo'
+  name: Magic Moment Playbook HubSpot Integration API
+  slug: magic-moment-playbook-hubspot-integration-api
+- description: 'Swagger 2.0 contract for the Playbook office-suite integration service: calendar event create/list/update/delete across connected Google Workspace and Microsoft 365 accounts, mail sync (OAuth results '
+  name: Magic Moment Playbook Office Suite Integration API
+  slug: magic-moment-playbook-office-suite-integration-api
+- description: 'Swagger 2.0 contract for the Playbook call integration service: call-log capture (including MiiTel), call-provider settings, capability tokens for the softphone client, and conference control (create,'
+  name: Magic Moment Playbook Call Integration API
+  slug: magic-moment-playbook-call-integration-api
+- description: 'Swagger 2.0 contract for the Playbook aggregation/reporting service: performance summary and detail by team, rep, and playbook phase, achievement by unit and user, performance targets, playbook phase '
+  name: Magic Moment Playbook Reporting API
+  slug: magic-moment-playbook-reporting-api
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/magic-moment-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/magic-moment-authentication.yml
 - group: company
   title: ''
   type: Website
@@ -67,38 +101,90 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/magic-moment-llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.magicmoment.co.jp
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://magicmoment.jp/playbook/faq
+- group: start
+  title: ''
+  type: Login
+  url: https://magicmoment.co.jp/login
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/magic-moment-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/magic-moment-rate-limits.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/magic-moment-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/magic-moment-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/magic-moment-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/magic-moment-lifecycle.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-17'
-description: Magic Moment is a Tokyo-based AI sales-automation company whose platform captures real business facts from deals, emails, and calls and turns them into actionable insight for sales forecasting and execution. Its flagship products — Magic Moment Playbook and Playbook Capture — layer AI over existing CRM systems (Salesforce, HubSpot) through no-code bidirectional sync, plus a Revenue Platform performance model and the Magic Moment X managed service. The company is ISO/IEC 27001:2022 certified. It does not currently publish a public developer API, developer portal, or OpenAPI specification; CRM integration is delivered as no-code sync rather than a documented API.
+description: Magic Moment is a Tokyo-based AI sales-automation company whose Magic Moment Playbook platform captures real business facts from deals, calls, email, and meetings and writes them back into Salesforce, HubSpot, and other CRMs as structured sales data. Products include Magic Moment Playbook (AI auto-recording SFA/CRM), Playbook Capture, MM Claw, the Revenue Platform performance-based demand service, and the Magic Moment X managed AI department. The company publishes a Playbook API for developers and partners (announced 2024-04-03, documented at developer.magicmoment.co.jp behind the product login) and serves five anonymous Swagger 2.0 contracts for its Playbook integration services on its production hosts — Salesforce, HubSpot, Office suite (Google Workspace / Microsoft 365), call integration (MiiTel, Zoom Phone), and the reporting/aggregation service. The company is ISO/IEC 27001:2022 certified and publishes an llms.txt.
 image: https://www.magicmoment.jp/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Magic Moment
 nav: Providers
 network: true
-overview: 'Magic Moment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Sales, Artificial Intelligence, and CRM.
+overview: 'Magic Moment publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Playbook Salesforce Integration API, Playbook HubSpot Integration API, Playbook Office Suite Integration API, and 2 more. Tagged areas include Company, Enterprise, Sales, Artificial Intelligence, and CRM.
 
 
-  Magic Moment''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 14
+  Magic Moment''s developer surface includes authentication, engineering blog, support, pricing, and 17 more developer resources.'
+plans:
+- name: Magic Moment Plans Pricing
+  plan_count: 2
+  slug: magic-moment-plans-pricing
+random_paper: 22
+rate_limits:
+- limit_count: 0
+  name: Magic Moment Rate Limits
+  slug: magic-moment-rate-limits
 score:
-  band: emerging
-  composite: 13.8
-  delta: 0.0
+  band: thin
+  composite: 41.8
+  delta: 28.0
   facets:
-    commercial_clarity: 26.3
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 57.4
-    governance: 12.5
+    commercial_clarity: 71.1
+    contract_quality: 41.6
+    developer_ergonomics: 32.6
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 13.8
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png
 security:
+- kind: authentication
+  name: Magic Moment Authentication
+  slug: magic-moment-authentication
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Magic Moment Domain Security
   slug: magic-moment-domain-security
@@ -117,5 +203,9 @@ tags:
 - Sales Automation
 - SaaS
 - Japan
+- Salesforce
+- HubSpot
+- Sales Enablement
+- API
 website: https://www.magicmoment.jp/
 ---

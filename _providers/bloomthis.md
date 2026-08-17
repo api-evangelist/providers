@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Agent-facing commerce surface of the BloomThis Shopify store — a hosted UCP MCP endpoint for search-to-buyer-approved-checkout, the Shopify Customer Account OIDC/OAuth API, and the read-only storefron
@@ -104,7 +104,7 @@ overview: 'BloomThis publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   BloomThis'' developer surface includes engineering blog, authentication, and 11 more developer resources.'
-random_paper: 17
+random_paper: 83
 scopes:
 - name: Bloomthis Scopes
   scope_count: 4
@@ -127,7 +127,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/screenshots/bloomthis-2026-08-07T162638.png
 security:

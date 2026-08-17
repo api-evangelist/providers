@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,14 +78,56 @@ apis:
 - description: A practitioner's role within an organization and network.
   name: wellcare-health-plans Practitioner Role API
   slug: wellcare-health-plans-practitioner-role-api
-artifact_total: 31
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: WellCare FHIR Patient Access API
   slug: open-wellcare-fhir-patient-access-api
 - collection_type: open
   name: WellCare FHIR Provider Directory API
   slug: open-wellcare-fhir-provider-directory-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition API
+  slug: open-wellcare-health-plans-condition-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Coverage API
+  slug: open-wellcare-health-plans-coverage-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Encounter API
+  slug: open-wellcare-health-plans-encounter-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Explanation of Benefits API
+  slug: open-wellcare-health-plans-explanation-of-benefits-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Immunization API
+  slug: open-wellcare-health-plans-immunization-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Insurance Plan API
+  slug: open-wellcare-health-plans-insurance-plan-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Location API
+  slug: open-wellcare-health-plans-location-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Medication Request API
+  slug: open-wellcare-health-plans-medication-request-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Observation API
+  slug: open-wellcare-health-plans-observation-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Organization API
+  slug: open-wellcare-health-plans-organization-api
+- collection_type: open
+  name: WellCare FHIR Access Condition Patient API
+  slug: open-wellcare-health-plans-patient-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Practitioner API
+  slug: open-wellcare-health-plans-practitioner-api
+- collection_type: open
+  name: WellCare FHIR Patient Access Condition Practitioner Role API
+  slug: open-wellcare-health-plans-practitioner-role-api
 common:
 - group: agent
   title: ''
@@ -195,7 +237,7 @@ press:
 - date: '2026-05-25'
   title: Wellcare Announces Refreshed Brand in Effort to Better ...
   url: https://www.prnewswire.com/news-releases/wellcare-announces-refreshed-brand-in-effort-to-better-serve-medicare-members-301366933.html
-random_paper: 69
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Wellcare Health Plans Rate Limits
@@ -242,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

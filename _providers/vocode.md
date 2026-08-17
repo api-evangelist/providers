@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,8 +66,32 @@ apis:
 - description: The Webhooks API from Vocode — 4 operation(s) for webhooks.
   name: Vocode Webhooks API
   slug: vocode-webhooks-api
-artifact_total: 16
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vocode Hosted Actions API
+  slug: open-vocode-actions-api
+- collection_type: open
+  name: Vocode Hosted Actions Agents API
+  slug: open-vocode-agents-api
+- collection_type: open
+  name: Vocode Hosted Actions Calls API
+  slug: open-vocode-calls-api
+- collection_type: open
+  name: Vocode Hosted Actions Numbers API
+  slug: open-vocode-numbers-api
+- collection_type: open
+  name: Vocode Hosted Actions Usage API
+  slug: open-vocode-usage-api
+- collection_type: open
+  name: Vocode Hosted Actions Voices API
+  slug: open-vocode-voices-api
+- collection_type: open
+  name: Vocode Hosted Actions Webhooks API
+  slug: open-vocode-webhooks-api
 - collection_type: open
   name: Vocode Hosted API
   slug: open-vocode
@@ -132,7 +156,7 @@ plans:
 - name: Vocode Plans Pricing
   plan_count: 4
   slug: vocode-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Vocode Rate Limits
@@ -157,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

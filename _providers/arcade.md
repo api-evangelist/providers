@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -72,11 +72,38 @@ apis:
 - description: The Tools API from Arcade — 9 operation(s) for tools.
   name: Arcade Tools API
   slug: arcade-tools-api
-artifact_total: 136
+artifact_total: 145
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arcade Admin API
+  slug: open-arcade-admin-api
+- collection_type: open
+  name: Arcade Admin Authorization API
+  slug: open-arcade-authorization-api
 - collection_type: open
   name: Arcade API
   slug: open-arcade-engine
+- collection_type: open
+  name: Arcade Admin Gateways API
+  slug: open-arcade-gateways-api
+- collection_type: open
+  name: Arcade Admin Hooks API
+  slug: open-arcade-hooks-api
+- collection_type: open
+  name: Arcade Admin LLM API
+  slug: open-arcade-llm-api
+- collection_type: open
+  name: Arcade Admin Operations API
+  slug: open-arcade-operations-api
+- collection_type: open
+  name: Arcade Admin Plugins API
+  slug: open-arcade-plugins-api
+- collection_type: open
+  name: Arcade Admin Tools API
+  slug: open-arcade-tools-api
 common:
 - group: operate
   title: ''
@@ -498,7 +525,7 @@ plans:
 - name: Arcade Plans Pricing
   plan_count: 4
   slug: arcade-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Arcade Rate Limits
@@ -540,7 +567,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/screenshots/arcade-2026-06-20T172354.png
 security:

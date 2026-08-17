@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -186,8 +186,143 @@ apis:
 - description: The Workspaces API from Airbus OneAtlas — 10 operation(s) for workspaces.
   name: Airbus OneAtlas Workspaces API
   slug: airbus-oneatlas-workspaces-api
-artifact_total: 310
+artifact_total: 355
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OneAtlas WorldDEM Access API
+  slug: open-airbus-oneatlas-access-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access accounting/balance API
+  slug: open-airbus-oneatlas-accounting-balance-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access accounting/transactions API
+  slug: open-airbus-oneatlas-accounting-transactions-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access APIkey management API
+  slug: open-airbus-oneatlas-apikey-management-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Attempts API
+  slug: open-airbus-oneatlas-attempts-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Catalog search API
+  slug: open-airbus-oneatlas-catalog-search-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Contract related Information API
+  slug: open-airbus-oneatlas-contract-related-information-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Contracts API
+  slug: open-airbus-oneatlas-contracts-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Control API
+  slug: open-airbus-oneatlas-control-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Convert API
+  slug: open-airbus-oneatlas-convert-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Deliver API
+  slug: open-airbus-oneatlas-deliver-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access elevation/orders API
+  slug: open-airbus-oneatlas-elevation-orders-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access elevation/price API
+  slug: open-airbus-oneatlas-elevation-price-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Feasibility API
+  slug: open-airbus-oneatlas-feasibility-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Format API
+  slug: open-airbus-oneatlas-format-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access freemium API
+  slug: open-airbus-oneatlas-freemium-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Get Capabilities API
+  slug: open-airbus-oneatlas-get-capabilities-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Health API
+  slug: open-airbus-oneatlas-health-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Maps API
+  slug: open-airbus-oneatlas-maps-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Monitor API
+  slug: open-airbus-oneatlas-monitor-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Notifications API
+  slug: open-airbus-oneatlas-notifications-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Notify API
+  slug: open-airbus-oneatlas-notify-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Opensearch API
+  slug: open-airbus-oneatlas-opensearch-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Ordering API
+  slug: open-airbus-oneatlas-ordering-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Orders API
+  slug: open-airbus-oneatlas-orders-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access payments API
+  slug: open-airbus-oneatlas-payments-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Pilot API
+  slug: open-airbus-oneatlas-pilot-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access PleiadesNeo specific API
+  slug: open-airbus-oneatlas-pleiadesneo-specific-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Process API
+  slug: open-airbus-oneatlas-process-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Sar/Baskets API
+  slug: open-airbus-oneatlas-sar-baskets-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Sar/Config API
+  slug: open-airbus-oneatlas-sar-config-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Sar/Editing API
+  slug: open-airbus-oneatlas-sar-editing-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Sar/Monitoring API
+  slug: open-airbus-oneatlas-sar-monitoring-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Sar/Prices API
+  slug: open-airbus-oneatlas-sar-prices-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Sar/Replication API
+  slug: open-airbus-oneatlas-sar-replication-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Sar/Search API
+  slug: open-airbus-oneatlas-sar-search-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Sar/Shopcart API
+  slug: open-airbus-oneatlas-sar-shopcart-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access SPOT and Pleiades ordering API
+  slug: open-airbus-oneatlas-spot-and-pleiades-ordering-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access SPOT and Pleiades specific API
+  slug: open-airbus-oneatlas-spot-and-pleiades-specific-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Subscriptions API
+  slug: open-airbus-oneatlas-subscriptions-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Tasking API
+  slug: open-airbus-oneatlas-tasking-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Token retrieval API
+  slug: open-airbus-oneatlas-token-retrieval-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access user API
+  slug: open-airbus-oneatlas-user-api
+- collection_type: open
+  name: OneAtlas WorldDEM Access Workspaces API
+  slug: open-airbus-oneatlas-workspaces-api
 - collection_type: open
   name: OneAtlas WorldDEM API
   slug: open-airbus-oneatlas-worlddem-api
@@ -1994,7 +2129,7 @@ plans:
 - name: Airbus Oneatlas Plans Pricing
   plan_count: 4
   slug: airbus-oneatlas-plans-pricing
-random_paper: 106
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Airbus Oneatlas Rate Limits
@@ -2044,7 +2179,7 @@ score:
       marker_coverage: 0.0
       total: 44
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/screenshots/airbus-oneatlas-2026-06-20T171419.png
 security:

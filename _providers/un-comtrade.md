@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,26 @@ apis:
 - description: REST API for extracting international merchandise and services trade statistics. Provides access to final trade data, tariffline data, data availability, metadata, live updates, and bulk file download
   name: UN Comtrade Data API
   slug: un-comtrade-data-api
-artifact_total: 13
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UN Comtrade Data Bulk Download API
+  slug: open-un-comtrade-bulk-download-api
+- collection_type: open
+  name: UN Comtrade Data Bulk Download Data Availability API
+  slug: open-un-comtrade-data-availability-api
+- collection_type: open
+  name: UN Comtrade Data Bulk Download Final Trade Data API
+  slug: open-un-comtrade-final-trade-data-api
+- collection_type: open
+  name: UN Comtrade Data Bulk Download Reference Data API
+  slug: open-un-comtrade-reference-data-api
+- collection_type: open
+  name: UN Comtrade Data Bulk Download Tariffline Data API
+  slug: open-un-comtrade-tariffline-data-api
 common:
 - group: agent
   title: ''
@@ -74,7 +93,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 39
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -108,7 +127,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/screenshots/un-comtrade-2026-06-20T200015.png
 security:

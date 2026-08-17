@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: The Tags#resourceArn&tagKeys API from Amazon IoT Events — 1 operation(s) for tags#resourcearn&tagkeys.
   name: Amazon IoT Events Tags#resourceArn&tagKeys API
   slug: amazon-iot-events-tags-resourcearn-tagkeys-api
-artifact_total: 454
+artifact_total: 463
 collections:
 - collection_type: postman
   name: AWS IoT Events Alarm Models API
@@ -89,6 +89,33 @@ collections:
 - collection_type: postman
   name: AWS IoT Events Alarm Models Tags#resourceArn&tagKeys API
   slug: postman-amazon-iot-events-tags-resourcearn-tagkeys-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS IoT Events Alarm Models API
+  slug: open-amazon-iot-events-alarm-models-api
+- collection_type: open
+  name: AWS IoT Events Alarm Models Analysis API
+  slug: open-amazon-iot-events-analysis-api
+- collection_type: open
+  name: AWS IoT Events Alarm Models Detector Models API
+  slug: open-amazon-iot-events-detector-models-api
+- collection_type: open
+  name: AWS IoT Events Alarm Models Input Routings API
+  slug: open-amazon-iot-events-input-routings-api
+- collection_type: open
+  name: AWS IoT Events Alarm Models Inputs API
+  slug: open-amazon-iot-events-inputs-api
+- collection_type: open
+  name: AWS IoT Events Alarm Models Logging API
+  slug: open-amazon-iot-events-logging-api
+- collection_type: open
+  name: AWS IoT Events Alarm Models Tags#resourceArn API
+  slug: open-amazon-iot-events-tags-resourcearn-api
+- collection_type: open
+  name: AWS IoT Events Alarm Models Tags#resourceArn&tagKeys API
+  slug: open-amazon-iot-events-tags-resourcearn-tagkeys-api
 common:
 - group: build
   title: ''
@@ -1478,7 +1505,7 @@ plans:
 - name: Amazon Iot Events Plans Pricing
   plan_count: 3
   slug: amazon-iot-events-plans-pricing
-random_paper: 49
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Events Rate Limits
@@ -1520,7 +1547,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/screenshots/amazon-iot-events-2026-06-20T171710.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -62,11 +62,39 @@ apis:
 - description: Stream voice responses and synthesize speech as real-time PCM audio.
   name: Delphi Voice API
   slug: delphi-voice-api
-artifact_total: 13
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Delphi Webhooks
   slug: delphi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Delphi Audience API
+  slug: open-delphi-audience-api
+- collection_type: open
+  name: Delphi Audience Clone API
+  slug: open-delphi-clone-api
+- collection_type: open
+  name: Delphi Audience Conversations API
+  slug: open-delphi-conversations-api
+- collection_type: open
+  name: Delphi Audience Questions API
+  slug: open-delphi-questions-api
+- collection_type: open
+  name: Delphi Audience Search API
+  slug: open-delphi-search-api
+- collection_type: open
+  name: Delphi Audience Tags API
+  slug: open-delphi-tags-api
+- collection_type: open
+  name: Delphi Audience Usage API
+  slug: open-delphi-usage-api
+- collection_type: open
+  name: Delphi Audience Voice API
+  slug: open-delphi-voice-api
 common:
 - group: company
   title: ''
@@ -199,7 +227,7 @@ overview: 'Delphi publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Delphi''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 30
+random_paper: 34
 score:
   band: thin
   composite: 41.7
@@ -223,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/screenshots/delphi-2026-07-25T211653.png
 security:

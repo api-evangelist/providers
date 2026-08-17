@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Location-pinned neighborhood messages.
   name: BlockChalk chalks API
   slug: blockchalk-chalks-api
-artifact_total: 3
+artifact_total: 5
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BlockChalk API (historical) chalks API
+  slug: open-blockchalk-chalks-api
 common:
 - group: other
   title: ''
@@ -77,7 +84,7 @@ overview: 'BlockChalk publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   BlockChalk''s developer surface includes documentation, API reference, and 5 more developer resources.'
-random_paper: 78
+random_paper: 144
 score:
   band: emerging
   composite: 15.4
@@ -98,7 +105,7 @@ score:
       marker_coverage: 100.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchalk/refs/heads/main/screenshots/blockchalk-2026-07-25T203346.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Manage container packages owned by the authenticated user
   name: GitHub Container Registry User Packages API
   slug: github-container-registry-user-packages-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitHub Container Registry Organization Packages API
+  slug: open-github-container-registry-organization-packages-api
+- collection_type: open
+  name: GitHub Container Registry Organization Packages User Namespace Packages API
+  slug: open-github-container-registry-user-namespace-packages-api
+- collection_type: open
+  name: GitHub Container Registry Organization Packages User Packages API
+  slug: open-github-container-registry-user-packages-api
 - collection_type: open
   name: GitHub Container Registry API
   slug: open-github-container-registry
@@ -121,7 +133,7 @@ plans:
 - name: Github Container Registry Plans Pricing
   plan_count: 3
   slug: github-container-registry-plans-pricing
-random_paper: 65
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Github Container Registry Rate Limits
@@ -155,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/screenshots/github-container-registry-2026-06-20T181838.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,8 +53,14 @@ apis:
 - description: No public, documented webhook or event-subscription surface is published by WISK as of this catalog date. Event-driven exchange with POS partners is arranged through WISK's partner integration process
   name: WISK Webhooks
   slug: wisk-ai-webhooks
-artifact_total: 28
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WISK Public Upload Sales API
+  slug: open-wisk-ai-sales-api
 - collection_type: open
   name: WISK Public Sales Upload API
   slug: open-wisk-ai-sales-upload
@@ -184,7 +190,7 @@ plans:
 - name: Wisk Ai Plans Pricing
   plan_count: 5
   slug: wisk-ai-plans-pricing
-random_paper: 93
+random_paper: 97
 rate_limits:
 - limit_count: 2
   name: Wisk Ai Rate Limits
@@ -226,7 +232,7 @@ score:
       marker_coverage: 100.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/screenshots/wisk-ai-2026-06-20T201524.png
 security:

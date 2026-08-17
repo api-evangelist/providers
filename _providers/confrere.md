@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,17 @@ arazzos:
 - description: Mint a single-use room URL for a participant, then end the session by invalidating the room.
   name: Confrere — start and end a video session
   slug: confrere-video-session
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Room API
+  slug: open-confrere-room-api
+- collection_type: open
+  name: Room Token API
+  slug: open-confrere-token-api
 common:
 - group: other
   title: ''
@@ -166,7 +176,7 @@ overview: 'Confrere publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Confrere''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 12
+random_paper: 107
 score:
   band: thin
   composite: 38.2
@@ -196,7 +206,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/screenshots/confrere-2026-07-25T210253.png
 security:

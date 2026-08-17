@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -79,38 +79,80 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/sintra-llms.txt
-- group: agent
+- group: commercial
   title: ''
-  type: WellKnown
-  url: well-known/sintra-well-known.yml
+  type: Plans
+  url: plans/sintra-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sintra-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sintra-packages.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://wishlist.sintra.ai
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/sintra-ai
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.sintra.ai
+coverage:
+  checked: '2026-08-13'
+  detail: 'Sintra''s own help center states it outright — "Unlike a public API, which Sintra does not provide" — and the surface agrees: api.sintra.ai is a live FastAPI backend for the web and mobile apps that returns {"detail":"Not Found"} on every path with /docs, /redoc and /openapi.json all disabled, and no docs., developer. or developers.sintra.ai host resolves at all.'
+  evidence:
+  - status: 200
+    url: https://help.sintra.ai/en/articles/12929400-integrations-explained
+  - status: 404
+    url: https://api.sintra.ai/openapi.json
+  - status: 404
+    url: https://api.sintra.ai/docs
+  - status: 404
+    url: https://sintra.ai/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Sintra is a no-code AI-employees platform that gives small businesses a team of role-based digital workers. It ships 12 specialized AI helpers — such as Soshie (social media), Cassie (customer support), Seomi (SEO), Buddy, and Vizzy (meeting notetaker) — that handle social media, inbox, content, customer support, SEO, and sales and business operations. Users chat with helpers, schedule recurring background tasks, build custom helpers with the Helper Builder, and connect tools like Facebook, Instagram, Gmail, Google Calendar, Outlook, Google Drive, Notion, and Strava through consumer OAuth integrations. Sintra is a portfolio company of Earlybird Venture Capital. As of this profile Sintra publishes no public developer API, OpenAPI, or API reference — it is an end-user low-code product rather than a developer platform.
 image: https://cdn.prod.website-files.com/661d4f6d81ac1042b721396c/6644bb86873663f1db3a68cd_sintra-home-opengraph.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Sintra
 nav: Providers
 network: true
 overview: 'Sintra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, AI Employees, and Automation.
 
 
-  Sintra''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 57
+  Sintra''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
+plans:
+- name: Sintra Plans Pricing
+  plan_count: 3
+  slug: sintra-plans-pricing
+random_paper: 61
+rate_limits:
+- limit_count: 0
+  name: Sintra Rate Limits
+  slug: sintra-rate-limits
 score:
-  band: emerging
-  composite: 19.9
-  delta: 0.0
+  band: thin
+  composite: 28.7
+  delta: 8.8
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 26.1
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   previous_composite: 19.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Sintra Domain Security

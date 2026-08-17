@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Users API from Miriel — 3 operation(s) for users.
   name: Miriel Users API
   slug: miriel-users-api
-artifact_total: 11
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Miriel Context Engine Documents API
+  slug: open-miriel-documents-api
+- collection_type: open
+  name: Miriel Context Engine Documents Learn API
+  slug: open-miriel-learn-api
+- collection_type: open
+  name: Miriel Context Engine Documents Monitoring API
+  slug: open-miriel-monitoring-api
+- collection_type: open
+  name: Miriel Context Engine Documents Policies API
+  slug: open-miriel-policies-api
+- collection_type: open
+  name: Miriel Context Engine Documents Projects API
+  slug: open-miriel-projects-api
+- collection_type: open
+  name: Miriel Context Engine Documents Query API
+  slug: open-miriel-query-api
+- collection_type: open
+  name: Miriel Context Engine Documents Users API
+  slug: open-miriel-users-api
 common:
 - group: start
   title: ''
@@ -173,7 +198,7 @@ overview: 'Miriel publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Miriel''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 42
+random_paper: 46
 score:
   band: thin
   composite: 38.5
@@ -197,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/screenshots/miriel-2026-08-07T183723.png
 security:

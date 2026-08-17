@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 0
@@ -87,8 +87,56 @@ apis:
 - description: The Workspaces API from Moesif — 8 operation(s) for workspaces.
   name: Moesif Workspaces API
   slug: moesif-workspaces-api
-artifact_total: 25
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Management Applications API
+  slug: open-moesif-applications-api
+- collection_type: open
+  name: Management Applications Balance Transactions API
+  slug: open-moesif-balance-transactions-api
+- collection_type: open
+  name: Management Applications Billing Meters API
+  slug: open-moesif-billing-meters-api
+- collection_type: open
+  name: Management Applications Billing Reports API
+  slug: open-moesif-billing-reports-api
+- collection_type: open
+  name: Management Applications Cohorts API
+  slug: open-moesif-cohorts-api
+- collection_type: open
+  name: Management Applications Companies API
+  slug: open-moesif-companies-api
+- collection_type: open
+  name: Management Applications Dashboards API
+  slug: open-moesif-dashboards-api
+- collection_type: open
+  name: Management Applications Email Templates API
+  slug: open-moesif-email-templates-api
+- collection_type: open
+  name: Management Applications Governance Rules API
+  slug: open-moesif-governance-rules-api
+- collection_type: open
+  name: Management Applications Metrics API
+  slug: open-moesif-metrics-api
+- collection_type: open
+  name: Management Applications Product Catalog API
+  slug: open-moesif-product-catalog-api
+- collection_type: open
+  name: Management Applications Properties API
+  slug: open-moesif-properties-api
+- collection_type: open
+  name: Management Applications Subscriptions API
+  slug: open-moesif-subscriptions-api
+- collection_type: open
+  name: Management Applications Users API
+  slug: open-moesif-users-api
+- collection_type: open
+  name: Management Applications Workspaces API
+  slug: open-moesif-workspaces-api
 - collection_type: open
   name: Management API
   slug: open-moesif
@@ -264,7 +312,7 @@ plans:
 - name: Moesif Plans Pricing
   plan_count: 3
   slug: moesif-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Moesif Rate Limits
@@ -303,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/screenshots/moesif-2026-06-20T185704.png
 security:

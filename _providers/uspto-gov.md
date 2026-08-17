@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -80,11 +80,56 @@ apis:
 - description: Trademark case status
   name: USPTO Status API
   slug: uspto-gov-status-api
-artifact_total: 28
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: USPTO Bulk Data Storage System (BDSS) API
   slug: open-uspto-bulk-data
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals API
+  slug: open-uspto-gov-appeals-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Application API
+  slug: open-uspto-gov-application-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Assignments API
+  slug: open-uspto-gov-assignments-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Citations API
+  slug: open-uspto-gov-citations-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Datasets API
+  slug: open-uspto-gov-datasets-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Decisions API
+  slug: open-uspto-gov-decisions-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Documents API
+  slug: open-uspto-gov-documents-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Enriched Citations API
+  slug: open-uspto-gov-enriched-citations-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Office Actions API
+  slug: open-uspto-gov-office-actions-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Patentsview API
+  slug: open-uspto-gov-patentsview-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Proceedings API
+  slug: open-uspto-gov-proceedings-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Rejections API
+  slug: open-uspto-gov-rejections-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Search API
+  slug: open-uspto-gov-search-api
+- collection_type: open
+  name: USPTO Bulk Data Storage System (BDSS) Appeals Status API
+  slug: open-uspto-gov-status-api
 - collection_type: open
   name: USPTO Office Action APIs
   slug: open-uspto-office-actions
@@ -219,7 +264,7 @@ overview: 'USPTO publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   USPTO''s developer surface includes authentication, developer portal, documentation, support, GitHub presence, engineering blog, and 17 more developer resources.'
-random_paper: 108
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Uspto Gov Rate Limits
@@ -259,7 +304,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png
 security:

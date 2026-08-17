@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Gamma Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   Gamma Technologies'' developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 44
+random_paper: 56
 score:
   band: emerging
   composite: 13.1
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamma-technologies/refs/heads/main/screenshots/gamma-technologies-2026-07-25T215429.png
 security:

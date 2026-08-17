@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,7 +46,20 @@ apis:
 - description: Operations for creating and managing CloudTrail trails
   name: Amazon CloudTrail Trails API
   slug: amazon-cloudtrail-trails-api
-artifact_total: 50
+artifact_total: 54
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon CloudTrail Event Data Stores API
+  slug: open-amazon-cloudtrail-event-data-stores-api
+- collection_type: open
+  name: Amazon CloudTrail Event Data Stores Events API
+  slug: open-amazon-cloudtrail-events-api
+- collection_type: open
+  name: Amazon CloudTrail Event Data Stores Trails API
+  slug: open-amazon-cloudtrail-trails-api
 common:
 - group: other
   title: ''
@@ -296,7 +309,7 @@ overview: 'Amazon CloudTrail publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 24 more developer resources.'
-random_paper: 86
+random_paper: 127
 rules:
 - name: Amazon CloudTrail API Rules
   rule_count: 5
@@ -336,7 +349,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/screenshots/amazon-cloudtrail-2026-07-25T195952.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,8 +60,26 @@ apis:
 - description: The Refresh API from Context7 — 1 operation(s) for refresh.
   name: Context7 Refresh API
   slug: context7-refresh-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Context7 REST Add API
+  slug: open-context7-add-api
+- collection_type: open
+  name: Context7 REST Add Context API
+  slug: open-context7-context-api
+- collection_type: open
+  name: Context7 REST Add Libs API
+  slug: open-context7-libs-api
+- collection_type: open
+  name: Context7 REST Add Policies API
+  slug: open-context7-policies-api
+- collection_type: open
+  name: Context7 REST Add Refresh API
+  slug: open-context7-refresh-api
 - collection_type: open
   name: Context7 REST API
   slug: open-context7
@@ -142,7 +160,7 @@ plans:
 - name: Context7 Plans Pricing
   plan_count: 3
   slug: context7-plans-pricing
-random_paper: 108
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Context7 Rate Limits
@@ -167,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/screenshots/context7-2026-06-20T174932.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -31,7 +31,29 @@ apis:
 - description: The RICS DigitalCommunity API is a live, RICS-operated REST API served from api.rics.org whose OpenAPI 3.0.1 contract is published anonymously and without credentials at https://api.rics.org/swagger/v
   name: RICS DigitalCommunity API
   slug: rics-digitalcommunity-api
-artifact_total: 6
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-rics-azure-ad-b2c-openid-configuration
+- collection_type: open
+  name: API Collection
+  slug: open-rics-data-standard-3.3
+- collection_type: open
+  name: API Collection
+  slug: open-rics-data-standard-3.3
+- collection_type: open
+  name: API Collection
+  slug: open-rics-data-standard-3.3
+- collection_type: open
+  name: API Collection
+  slug: open-rics-data-standard-3.3
+- collection_type: open
+  name: API Collection
+  slug: open-rics-data-standard-3.3
+- collection_type: open
+  name: DigitalCommunity API
+  slug: open-rics-digitalcommunity-api
 common:
 - group: commercial
   title: ''
@@ -238,7 +260,7 @@ overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 1 API on th
 
 
   RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 40 more developer resources.'
-random_paper: 73
+random_paper: 135
 scopes:
 - name: Rics Scopes
   scope_count: 1
@@ -267,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

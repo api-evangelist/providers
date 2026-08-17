@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,12 +54,24 @@ apis:
 - description: The Sessions API from Layercode — 3 operation(s) for sessions.
   name: Layercode Sessions API
   slug: layercode-sessions-api
-artifact_total: 14
+artifact_total: 18
 asyncapis:
 - description: AsyncAPI 2.6 description of Layercode's **realtime voice transport**, a genuine bidirectional WebSocket documented at https://docs.layercode.com/api-reference/frontend-ws-api. Unlike one-way HTTP SSE,
   name: Layercode Realtime Voice WebSocket API
   slug: layercode-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Layercode REST Agents API
+  slug: open-layercode-agents-api
+- collection_type: open
+  name: Layercode REST Agents Calls API
+  slug: open-layercode-calls-api
+- collection_type: open
+  name: Layercode REST Agents Sessions API
+  slug: open-layercode-sessions-api
 - collection_type: open
   name: Layercode REST API
   slug: open-layercode
@@ -127,7 +139,7 @@ plans:
 - name: Layercode Plans Pricing
   plan_count: 1
   slug: layercode-plans-pricing
-random_paper: 112
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Layercode Rate Limits
@@ -161,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/screenshots/layercode-2026-07-25T224657.png
 security:

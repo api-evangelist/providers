@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'GraphQL reporting API for Jampp advertisers. The pivot query returns funnel metrics — impressions, clicks, spend, installs, events, CPC/CPM/CTR/CPI/CPA/ROAS — grouped by any combination of documented '
@@ -154,7 +154,7 @@ plans:
 - name: Jampp Plans Pricing
   plan_count: 0
   slug: jampp-plans-pricing
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 0
   name: Jampp Rate Limits
@@ -167,6 +167,7 @@ scopes:
 score:
   band: thin
   composite: 34.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -174,8 +175,10 @@ score:
     discoverability: 87.0
     governance: 22.9
     operational_transparency: 21.1
+  previous_composite: 34.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Jampp Authentication

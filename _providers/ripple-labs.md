@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -146,11 +146,123 @@ apis:
 - description: Used to manage webhooks
   name: Ripple Labs Webhooks API
   slug: ripple-labs-webhooks-api
-artifact_total: 43
+artifact_total: 80
 asyncapis:
 - description: ''
   name: Ripple Labs Stablecoin Webhooks
   slug: ripple-labs-stablecoin-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Palisade Addresses API
+  slug: open-ripple-labs-addresses-api
+- collection_type: open
+  name: Palisade Addresses API Credentials API
+  slug: open-ripple-labs-api-credentials-api
+- collection_type: open
+  name: Palisade Addresses Auditing API
+  slug: open-ripple-labs-auditing-api
+- collection_type: open
+  name: Palisade Addresses Authentication API
+  slug: open-ripple-labs-authentication-api
+- collection_type: open
+  name: Palisade Addresses Balances and statements API
+  slug: open-ripple-labs-balances-and-statements-api
+- collection_type: open
+  name: Palisade Addresses Balances API
+  slug: open-ripple-labs-balances-api
+- collection_type: open
+  name: Palisade Addresses Beneficiary confirmation API
+  slug: open-ripple-labs-beneficiary-confirmation-api
+- collection_type: open
+  name: Palisade Addresses Counterparties API
+  slug: open-ripple-labs-counterparties-api
+- collection_type: open
+  name: Palisade Addresses Diagnostics API
+  slug: open-ripple-labs-diagnostics-api
+- collection_type: open
+  name: Palisade Addresses Exchange transfers API
+  slug: open-ripple-labs-exchange-transfers-api
+- collection_type: open
+  name: Palisade Addresses Fees API
+  slug: open-ripple-labs-fees-api
+- collection_type: open
+  name: Palisade Addresses Liquidations API
+  slug: open-ripple-labs-liquidations-api
+- collection_type: open
+  name: Palisade Addresses Market Cap API
+  slug: open-ripple-labs-market-cap-api
+- collection_type: open
+  name: Palisade Addresses Non-orchestration payments API
+  slug: open-ripple-labs-non-orchestration-payments-api
+- collection_type: open
+  name: Palisade Addresses Orchestration payments API
+  slug: open-ripple-labs-orchestration-payments-api
+- collection_type: open
+  name: Palisade Addresses Payment expiration API
+  slug: open-ripple-labs-payment-expiration-api
+- collection_type: open
+  name: Palisade Addresses Payout method API
+  slug: open-ripple-labs-payout-method-api
+- collection_type: open
+  name: Palisade Addresses Platform accounts API
+  slug: open-ripple-labs-platform-accounts-api
+- collection_type: open
+  name: Palisade Addresses Policies API
+  slug: open-ripple-labs-policies-api
+- collection_type: open
+  name: Palisade Addresses Pool accounts API
+  slug: open-ripple-labs-pool-accounts-api
+- collection_type: open
+  name: Palisade Addresses Quote expiration API
+  slug: open-ripple-labs-quote-expiration-api
+- collection_type: open
+  name: Palisade Addresses Quotes API
+  slug: open-ripple-labs-quotes-api
+- collection_type: open
+  name: Palisade Addresses Rates API
+  slug: open-ripple-labs-rates-api
+- collection_type: open
+  name: Palisade Addresses Reports API
+  slug: open-ripple-labs-reports-api
+- collection_type: open
+  name: Palisade Addresses Request for payment API
+  slug: open-ripple-labs-request-for-payment-api
+- collection_type: open
+  name: Palisade Addresses Sweep Configurations API
+  slug: open-ripple-labs-sweep-configurations-api
+- collection_type: open
+  name: Palisade Addresses Tags API
+  slug: open-ripple-labs-tags-api
+- collection_type: open
+  name: Palisade Addresses Transactions API
+  slug: open-ripple-labs-transactions-api
+- collection_type: open
+  name: Palisade Addresses Transactions - Sweep API
+  slug: open-ripple-labs-transactions-sweep-api
+- collection_type: open
+  name: Palisade Addresses Transactions - XRP API
+  slug: open-ripple-labs-transactions-xrp-api
+- collection_type: open
+  name: Palisade Addresses Transfers API
+  slug: open-ripple-labs-transfers-api
+- collection_type: open
+  name: Palisade Addresses Vault Tags API
+  slug: open-ripple-labs-vault-tags-api
+- collection_type: open
+  name: Palisade Addresses Vaults API
+  slug: open-ripple-labs-vaults-api
+- collection_type: open
+  name: Palisade Addresses Wallet Tags API
+  slug: open-ripple-labs-wallet-tags-api
+- collection_type: open
+  name: Palisade Addresses Wallets API
+  slug: open-ripple-labs-wallets-api
+- collection_type: open
+  name: Palisade Addresses Webhooks API
+  slug: open-ripple-labs-webhooks-api
 common:
 - group: auth
   title: ''
@@ -319,7 +431,7 @@ overview: 'Ripple Labs publishes 36 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Ripple Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 30 more developer resources.'
-random_paper: 35
+random_paper: 72
 scopes:
 - name: Ripple Labs Scopes
   scope_count: 2
@@ -354,7 +466,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

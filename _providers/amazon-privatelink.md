@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: VPC endpoints (consumer side)
   name: Amazon PrivateLink VPC Endpoints API
   slug: amazon-privatelink-vpc-endpoints-api
-artifact_total: 86
+artifact_total: 91
 collections:
 - collection_type: postman
   name: Amazon PrivateLink Endpoint Connections API
@@ -65,6 +65,21 @@ collections:
 - collection_type: postman
   name: Amazon PrivateLink Endpoint Connections VPC Endpoints API
   slug: postman-amazon-privatelink-vpc-endpoints-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon PrivateLink Endpoint Connections API
+  slug: open-amazon-privatelink-endpoint-connections-api
+- collection_type: open
+  name: Amazon PrivateLink Endpoint Connections Endpoint Services API
+  slug: open-amazon-privatelink-endpoint-services-api
+- collection_type: open
+  name: Amazon PrivateLink Endpoint Connections Principals API
+  slug: open-amazon-privatelink-principals-api
+- collection_type: open
+  name: Amazon PrivateLink Endpoint Connections VPC Endpoints API
+  slug: open-amazon-privatelink-vpc-endpoints-api
 common:
 - group: build
   title: ''
@@ -568,7 +583,7 @@ plans:
 - name: Amazon Privatelink Plans Pricing
   plan_count: 3
   slug: amazon-privatelink-plans-pricing
-random_paper: 84
+random_paper: 96
 rate_limits:
 - limit_count: 5
   name: Amazon Privatelink Rate Limits
@@ -610,7 +625,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/screenshots/amazon-privatelink-2026-06-20T171800.png
 security:

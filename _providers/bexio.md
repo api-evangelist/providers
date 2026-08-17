@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -67,7 +67,7 @@ apis:
 - description: The Sales Orders API from bexio — 5 operation(s) for sales orders.
   name: bexio Sales Orders API
   slug: bexio-sales-orders-api
-artifact_total: 28
+artifact_total: 38
 collections:
 - collection_type: postman
   name: bexio Accounting API
@@ -96,6 +96,36 @@ collections:
 - collection_type: postman
   name: bexio Accounting Sales Orders API
   slug: postman-bexio-sales-orders-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: bexio Accounting API
+  slug: open-bexio-accounting-api
+- collection_type: open
+  name: bexio Accounting Banking API
+  slug: open-bexio-banking-api
+- collection_type: open
+  name: bexio Accounting Contacts API
+  slug: open-bexio-contacts-api
+- collection_type: open
+  name: bexio Accounting Files API
+  slug: open-bexio-files-api
+- collection_type: open
+  name: bexio Accounting Items API
+  slug: open-bexio-items-api
+- collection_type: open
+  name: bexio Accounting Payroll API
+  slug: open-bexio-payroll-api
+- collection_type: open
+  name: bexio Accounting Projects API
+  slug: open-bexio-projects-api
+- collection_type: open
+  name: bexio Accounting Purchase API
+  slug: open-bexio-purchase-api
+- collection_type: open
+  name: bexio Accounting Sales Orders API
+  slug: open-bexio-sales-orders-api
 common:
 - group: build
   title: ''
@@ -285,7 +315,7 @@ plans:
 - name: Bexio Plans Pricing
   plan_count: 5
   slug: bexio-plans-pricing
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Bexio Rate Limits
@@ -318,7 +348,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png
 security:

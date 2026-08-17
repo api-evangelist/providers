@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: Operations on Google Slides presentations
   name: Google Slides Presentations API
   slug: google-slides-presentations-api
-artifact_total: 442
+artifact_total: 445
 collections:
 - collection_type: postman
   name: Google Slides Pages API
@@ -54,8 +54,17 @@ collections:
   name: Google Slides Pages Presentations API
   slug: postman-google-slides-presentations-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Slides API
   slug: open-google-slides-api
+- collection_type: open
+  name: Google Slides Pages API
+  slug: open-google-slides-pages-api
+- collection_type: open
+  name: Google Slides Pages Presentations API
+  slug: open-google-slides-presentations-api
 common:
 - group: operate
   title: ''
@@ -1445,7 +1454,7 @@ plans:
 - name: Google Slides Plans Pricing
   plan_count: 3
   slug: google-slides-plans-pricing
-random_paper: 6
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Google Slides Rate Limits
@@ -1492,7 +1501,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/screenshots/google-slides-2026-06-20T182234.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -66,8 +66,26 @@ apis:
 - description: The Video API from AutoContent API — 12 operation(s) for video.
   name: AutoContent API Video API
   slug: autocontent-api-video-api
-artifact_total: 32
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AutoContent Content API
+  slug: open-autocontent-api-content-api
+- collection_type: open
+  name: AutoContent Content Dedicated Account API
+  slug: open-autocontent-api-dedicated-account-api
+- collection_type: open
+  name: AutoContent Content Podcast API
+  slug: open-autocontent-api-podcast-api
+- collection_type: open
+  name: AutoContent Content Share API
+  slug: open-autocontent-api-share-api
+- collection_type: open
+  name: AutoContent Content Video API
+  slug: open-autocontent-api-video-api
 - collection_type: open
   name: AutoContent API
   slug: open-autocontent-api
@@ -156,7 +174,7 @@ plans:
 - name: Autocontent Api Plans Pricing
   plan_count: 3
   slug: autocontent-api-plans-pricing
-random_paper: 3
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Autocontent Api Rate Limits
@@ -181,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/screenshots/autocontent-api-2026-06-20T172653.png
 security:

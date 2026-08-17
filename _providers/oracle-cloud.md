@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 2
@@ -169,7 +169,7 @@ arazzos:
 - description: List subnets in a VCN, delete the first subnet, then delete the VCN itself.
   name: Oracle Cloud Teardown VCN Network
   slug: oracle-cloud-teardown-vcn-network-workflow
-artifact_total: 434
+artifact_total: 460
 collections:
 - collection_type: postman
   name: Oracle Cloud Compute API
@@ -195,6 +195,84 @@ collections:
 - collection_type: postman
   name: Oracle Cloud Container Engine for Kubernetes API
   slug: postman-oracle-cloud-oke
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Cloud Compute Alarms API
+  slug: open-oracle-cloud-alarms-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Applications API
+  slug: open-oracle-cloud-applications-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Autonomous Databases API
+  slug: open-oracle-cloud-autonomous-databases-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Buckets API
+  slug: open-oracle-cloud-buckets-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Clusters API
+  slug: open-oracle-cloud-clusters-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Compartments API
+  slug: open-oracle-cloud-compartments-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms DB Systems API
+  slug: open-oracle-cloud-db-systems-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Functions API
+  slug: open-oracle-cloud-functions-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Groups API
+  slug: open-oracle-cloud-groups-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Images API
+  slug: open-oracle-cloud-images-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Instances API
+  slug: open-oracle-cloud-instances-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Internet Gateways API
+  slug: open-oracle-cloud-internet-gateways-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Metrics API
+  slug: open-oracle-cloud-metrics-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Namespaces API
+  slug: open-oracle-cloud-namespaces-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Node Pools API
+  slug: open-oracle-cloud-node-pools-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Objects API
+  slug: open-oracle-cloud-objects-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Policies API
+  slug: open-oracle-cloud-policies-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Preauthenticated Requests API
+  slug: open-oracle-cloud-preauthenticated-requests-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Route Tables API
+  slug: open-oracle-cloud-route-tables-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Security Lists API
+  slug: open-oracle-cloud-security-lists-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Shapes API
+  slug: open-oracle-cloud-shapes-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Subnets API
+  slug: open-oracle-cloud-subnets-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Users API
+  slug: open-oracle-cloud-users-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms VCNs API
+  slug: open-oracle-cloud-vcns-api
+- collection_type: open
+  name: Oracle Cloud Compute Alarms Volume Attachments API
+  slug: open-oracle-cloud-volume-attachments-api
 common:
 - group: agent
   title: ''
@@ -1674,7 +1752,7 @@ plans:
 - name: Oracle Cloud Plans Pricing
   plan_count: 6
   slug: oracle-cloud-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Oracle Cloud Rate Limits
@@ -1716,7 +1794,7 @@ score:
       marker_coverage: 100.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png
 security:

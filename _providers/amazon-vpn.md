@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The AWS VPN API (Amazon EC2 Query API Subset) API from Amazon VPN — 1 operation(s) for aws vpn api (amazon ec2 query api subset).
   name: Amazon VPN AWS VPN API (Amazon EC2 Query API Subset) API
   slug: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
-artifact_total: 17
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS VPN API (Amazon EC2 Query API subset) AWS VPN API (Amazon EC2 Query API Subset) AWS VPN API (Amazon EC2 Query API Subset) AWS VPN API (Amazon EC2 Query API Subset) API
+  slug: open-amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
 - collection_type: open
   name: AWS VPN API (Amazon EC2 Query API subset)
   slug: open-amazon-vpn
@@ -160,7 +166,7 @@ plans:
 - name: Amazon Vpn Plans Pricing
   plan_count: 3
   slug: amazon-vpn-plans-pricing
-random_paper: 71
+random_paper: 137
 rate_limits:
 - limit_count: 5
   name: Amazon Vpn Rate Limits
@@ -194,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/screenshots/amazon-vpn-2026-06-20T171844.png
 security:

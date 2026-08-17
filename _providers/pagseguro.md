@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -138,8 +138,47 @@ apis:
 - description: The Subscriptions API from PagSeguro / PagBank — 5 operation(s) for subscriptions.
   name: PagSeguro / PagBank Subscriptions API
   slug: pagseguro-subscriptions-api
-artifact_total: 40
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts API
+  slug: open-pagseguro-accounts-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Charges API
+  slug: open-pagseguro-charges-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Checkout API
+  slug: open-pagseguro-checkout-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Connect API
+  slug: open-pagseguro-connect-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Coupons API
+  slug: open-pagseguro-coupons-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Invoices API
+  slug: open-pagseguro-invoices-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Orders API
+  slug: open-pagseguro-orders-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Plans API
+  slug: open-pagseguro-plans-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts PublicKeys API
+  slug: open-pagseguro-publickeys-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Refunds API
+  slug: open-pagseguro-refunds-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Subscribers API
+  slug: open-pagseguro-subscribers-api
+- collection_type: open
+  name: PagBank / PagSeguro REST Accounts Subscriptions API
+  slug: open-pagseguro-subscriptions-api
 - collection_type: open
   name: PagBank / PagSeguro REST API
   slug: open-pagseguro
@@ -228,7 +267,7 @@ plans:
 - name: Pagseguro Plans Pricing
   plan_count: 2
   slug: pagseguro-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Pagseguro Rate Limits
@@ -259,7 +298,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/screenshots/pagseguro-2026-06-20T191324.png
 security:

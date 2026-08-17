@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Live authenticated backend API for the Ajar Online property-management and rent-collection platform. The service root reports health but all resource endpoints require authentication; no public OpenAP
@@ -56,7 +56,7 @@ name: Ajar Online
 nav: Providers
 network: true
 overview: Ajar Online publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Property Management, and Rent Payments.
-random_paper: 24
+random_paper: 61
 score:
   band: minimal
   composite: 7.9
@@ -76,7 +76,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

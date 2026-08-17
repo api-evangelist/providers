@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -75,11 +75,38 @@ apis:
 - description: The Sensors API from Vertiv — 1 operation(s) for sensors.
   name: Vertiv Sensors API
   slug: vertiv-sensors-api
-artifact_total: 38
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vertiv Environet Alert REST Alarms API
+  slug: open-vertiv-alarms-api
+- collection_type: open
+  name: Vertiv Environet Alert REST Alarms Assets API
+  slug: open-vertiv-assets-api
+- collection_type: open
+  name: Vertiv Environet Alert REST Alarms Authentication API
+  slug: open-vertiv-authentication-api
+- collection_type: open
+  name: Vertiv Environet Alert REST Alarms Circuits API
+  slug: open-vertiv-circuits-api
+- collection_type: open
+  name: Vertiv Environet Alert REST Alarms Data Sets API
+  slug: open-vertiv-data-sets-api
+- collection_type: open
+  name: Vertiv Environet Alert REST Alarms Devices API
+  slug: open-vertiv-devices-api
 - collection_type: open
   name: Vertiv Environet Alert REST API
   slug: open-vertiv-environet-alert
+- collection_type: open
+  name: Vertiv Environet Alert REST Alarms Racks API
+  slug: open-vertiv-racks-api
+- collection_type: open
+  name: Vertiv Environet Alert REST Alarms Sensors API
+  slug: open-vertiv-sensors-api
 common:
 - group: agent
   title: ''
@@ -208,7 +235,7 @@ plans:
 - name: Vertiv Plans Pricing
   plan_count: 1
   slug: vertiv-plans-pricing
-random_paper: 72
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Vertiv Rate Limits
@@ -256,7 +283,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png
 security:

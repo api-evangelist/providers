@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -86,7 +86,59 @@ apis:
 - description: Transactions
   name: Teya Transactions API
   slug: teya-transactions-api
-artifact_total: 21
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Teya FX Captures API
+  slug: open-teya-captures-api
+- collection_type: open
+  name: Teya FX Captures DCC API
+  slug: open-teya-dcc-api
+- collection_type: open
+  name: Teya FX Captures ePOS Registration API
+  slug: open-teya-epos-registration-api
+- collection_type: open
+  name: Teya FX Captures Hosted Checkout API
+  slug: open-teya-hosted-checkout-api
+- collection_type: open
+  name: Teya FX Captures '@internal' API
+  slug: open-teya-internal-api
+- collection_type: open
+  name: Teya FX Captures Pay at Table API
+  slug: open-teya-pay-at-table-api
+- collection_type: open
+  name: Teya FX Captures PayByLink API
+  slug: open-teya-paybylink-api
+- collection_type: open
+  name: Teya FX Captures Payment Requests API
+  slug: open-teya-payment-requests-api
+- collection_type: open
+  name: Teya FX Captures Print Receipts (ePOS) API
+  slug: open-teya-print-receipts-epos-api
+- collection_type: open
+  name: Teya FX Captures '@public' API
+  slug: open-teya-public-api
+- collection_type: open
+  name: Teya FX Captures Refunds API
+  slug: open-teya-refunds-api
+- collection_type: open
+  name: Teya FX Captures Reversals API
+  slug: open-teya-reversals-api
+- collection_type: open
+  name: Teya FX Captures Stores API
+  slug: open-teya-stores-api
+- collection_type: open
+  name: Teya FX Captures Terminals API
+  slug: open-teya-terminals-api
+- collection_type: open
+  name: Teya FX Captures Tokens API
+  slug: open-teya-tokens-api
+- collection_type: open
+  name: Teya FX Captures Transactions API
+  slug: open-teya-transactions-api
 common:
 - group: other
   title: ''
@@ -228,7 +280,7 @@ overview: 'Teya publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Teya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 75
+random_paper: 137
 scopes:
 - name: Teya Scopes
   scope_count: 2
@@ -263,7 +315,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

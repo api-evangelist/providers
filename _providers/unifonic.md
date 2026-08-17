@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: 'The Unifonic Conversations API sends WhatsApp template and session messages and manages the WhatsApp service: template management and Meta catalog retrieval endpoints, incoming-message and delivery-st'
@@ -55,7 +55,7 @@ apis:
 - description: The Wrapper API from Unifonic — 2 operation(s) for wrapper.
   name: Unifonic Wrapper API
   slug: unifonic-wrapper-api
-artifact_total: 20
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Unifonic Webhooks
@@ -82,6 +82,30 @@ collections:
 - collection_type: postman
   name: Unifonic Authenticate Call Management and Status Wrapper API
   slug: postman-unifonic-wrapper-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unifonic Authenticate Call Management and Status API
+  slug: open-unifonic-call-management-and-status-api
+- collection_type: open
+  name: Unifonic Authenticate Call Management and Status Call Queue Management API
+  slug: open-unifonic-call-queue-management-api
+- collection_type: open
+  name: Unifonic Authenticate Call Management and Status Number Masking API
+  slug: open-unifonic-number-masking-api
+- collection_type: open
+  name: Unifonic Authenticate Call Management and Status Rest API
+  slug: open-unifonic-rest-api
+- collection_type: open
+  name: Unifonic Authenticate Call Management and Status Verifications API
+  slug: open-unifonic-verifications-api
+- collection_type: open
+  name: Unifonic Authenticate Call Management and Status Webhooks API
+  slug: open-unifonic-webhooks-api
+- collection_type: open
+  name: Unifonic Authenticate Call Management and Status Wrapper API
+  slug: open-unifonic-wrapper-api
 common:
 - group: other
   title: ''
@@ -238,7 +262,7 @@ overview: 'Unifonic publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Unifonic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, release notes, and 27 more developer resources.'
-random_paper: 19
+random_paper: 114
 score:
   band: strong
   composite: 57.0
@@ -267,7 +291,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

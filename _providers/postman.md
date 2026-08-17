@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ arazzos:
 - description: Create a workspace, then set and verify its global variables.
   name: Postman Manage Workspace Global Variables
   slug: postman-workspace-global-variables-workflow
-artifact_total: 223
+artifact_total: 252
 asyncapis:
 - description: Postman Webhooks enable you to receive incoming HTTP POST requests that trigger collection runs. When an external system sends a POST request to a Postman webhook URL, the webhook triggers a collectio
   name: Postman Webhooks
@@ -264,35 +264,122 @@ collections:
   name: Postman Workspaces API
   slug: postman-postman-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Postman Analytics API
+  slug: open-postman-analytics-api
+- collection_type: open
+  name: Postman API
+  slug: open-postman-api-api
+- collection_type: open
+  name: Postman API Catalog API
+  slug: open-postman-apicatalog-api
+- collection_type: open
   name: Postman APIs API
   slug: open-postman-apis-api
+- collection_type: open
+  name: Postman API Security API
+  slug: open-postman-apisecurity-api
 - collection_type: open
   name: Postman Audit Logs API
   slug: open-postman-audit-logs-api
 - collection_type: open
+  name: Postman Audit Logs API
+  slug: open-postman-auditlogs-api
+- collection_type: open
+  name: Postman Billing API
+  slug: open-postman-billing-api
+- collection_type: open
   name: Postman Collection Runs API
   slug: open-postman-collection-runs-api
+- collection_type: open
+  name: Postman Collection Access Keys API
+  slug: open-postman-collectionaccesskeys-api
+- collection_type: open
+  name: Postman Collection Folders API
+  slug: open-postman-collectionfolders-api
+- collection_type: open
+  name: Postman Collection Items API
+  slug: open-postman-collectionitems-api
+- collection_type: open
+  name: Postman Collection Requests API
+  slug: open-postman-collectionrequests-api
+- collection_type: open
+  name: Postman Collection Responses API
+  slug: open-postman-collectionresponses-api
 - collection_type: open
   name: Postman Collections API
   slug: open-postman-collections-api
 - collection_type: open
+  name: Postman Comments API
+  slug: open-postman-comments-api
+- collection_type: open
+  name: Postman Components API
+  slug: open-postman-components-api
+- collection_type: open
   name: Postman Environments API
   slug: open-postman-environments-api
+- collection_type: open
+  name: Postman Groups API
+  slug: open-postman-groups-api
+- collection_type: open
+  name: Postman Import API
+  slug: open-postman-import-api
 - collection_type: open
   name: Postman Mock Servers API
   slug: open-postman-mock-servers-api
 - collection_type: open
+  name: Postman Mocks API
+  slug: open-postman-mocks-api
+- collection_type: open
   name: Postman Monitors API
   slug: open-postman-monitors-api
+- collection_type: open
+  name: Postman O Auth20 API
+  slug: open-postman-oauth20-api
+- collection_type: open
+  name: Postman Postbot API
+  slug: open-postman-postbot-api
 - collection_type: open
   name: Postman Private API Network API
   slug: open-postman-private-api-network-api
 - collection_type: open
+  name: Postman Private API Network API
+  slug: open-postman-privateapinetwork-api
+- collection_type: open
+  name: Postman Pull Requests API
+  slug: open-postman-pullrequests-api
+- collection_type: open
+  name: Postman SCIM API
+  slug: open-postman-scim-api
+- collection_type: open
+  name: Postman Sd Ks API
+  slug: open-postman-sdks-api
+- collection_type: open
+  name: Postman Search API
+  slug: open-postman-search-api
+- collection_type: open
   name: Postman Secret Scanner API
   slug: open-postman-secret-scanner-api
 - collection_type: open
+  name: Postman Secret Scanner API
+  slug: open-postman-secretscanner-api
+- collection_type: open
+  name: Postman Service Accounts API
+  slug: open-postman-serviceaccounts-api
+- collection_type: open
+  name: Postman Specs API
+  slug: open-postman-specs-api
+- collection_type: open
   name: Postman Tags API
   slug: open-postman-tags-api
+- collection_type: open
+  name: Postman Teams API
+  slug: open-postman-teams-api
+- collection_type: open
+  name: Postman Users API
+  slug: open-postman-users-api
 - collection_type: open
   name: Postman Webhooks API
   slug: open-postman-webhooks-api
@@ -847,7 +934,7 @@ score:
       marker_coverage: 50.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png
 security:

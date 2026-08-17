@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: Semantic search over the Jentic API and workflow catalog using natural language queries.
   name: Jentic Search API
   slug: jentic-search-api
-artifact_total: 33
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Jentic Authentication API
@@ -75,6 +75,18 @@ collections:
 - collection_type: postman
   name: Jentic Authentication Search API
   slug: postman-jentic-search-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jentic Authentication API
+  slug: open-jentic-authentication-api
+- collection_type: open
+  name: Jentic Authentication Execution API
+  slug: open-jentic-execution-api
+- collection_type: open
+  name: Jentic Authentication Search API
+  slug: open-jentic-search-api
 - collection_type: open
   name: Jentic API
   slug: open-jentic
@@ -261,7 +273,7 @@ plans:
 - name: Jentic Plans Pricing
   plan_count: 2
   slug: jentic-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 4
   name: Jentic Rate Limits
@@ -303,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/screenshots/jentic-2026-06-20T183721.png
 security:

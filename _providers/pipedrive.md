@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ apis:
 - description: See <a href="https://pipedrive.readme.io/docs/guide-for-webhooks-v2?ref=api_reference" target="_blank" rel="noopener noreferrer">the guide for Webhooks</a> for more information.
   name: Pipedrive Webhooks API
   slug: pipedrive-webhooks-api
-artifact_total: 118
+artifact_total: 167
 asyncapis:
 - description: 'AsyncAPI description of the Pipedrive Webhooks v2 surface. Pipedrive delivers webhook notifications as HTTP `POST` requests carrying a JSON body. A webhook subscription is identified by combining two '
   name: Pipedrive Webhooks v2
@@ -334,11 +334,158 @@ collections:
   name: Pipedrive API v1 Activities Webhooks API
   slug: postman-pipedrive-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pipedrive API v1 Activities API
+  slug: open-pipedrive-activities-api
+- collection_type: open
+  name: Pipedrive API v1 Activities ActivityFields API
+  slug: open-pipedrive-activityfields-api
+- collection_type: open
+  name: Pipedrive API v1 Activities ActivityTypes API
+  slug: open-pipedrive-activitytypes-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Beta API
+  slug: open-pipedrive-beta-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Billing API
+  slug: open-pipedrive-billing-api
+- collection_type: open
+  name: Pipedrive API v1 Activities CallLogs API
+  slug: open-pipedrive-calllogs-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Channels API
+  slug: open-pipedrive-channels-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Currencies API
+  slug: open-pipedrive-currencies-api
+- collection_type: open
+  name: Pipedrive API v1 Activities DealFields API
+  slug: open-pipedrive-dealfields-api
+- collection_type: open
+  name: Pipedrive API v1 Activities DealInstallments API
+  slug: open-pipedrive-dealinstallments-api
+- collection_type: open
+  name: Pipedrive API v1 Activities DealProducts API
+  slug: open-pipedrive-dealproducts-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Deals API
+  slug: open-pipedrive-deals-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Files API
+  slug: open-pipedrive-files-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Filters API
+  slug: open-pipedrive-filters-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Goals API
+  slug: open-pipedrive-goals-api
+- collection_type: open
+  name: Pipedrive API v1 Activities ItemSearch API
+  slug: open-pipedrive-itemsearch-api
+- collection_type: open
+  name: Pipedrive API v1 Activities LeadFields API
+  slug: open-pipedrive-leadfields-api
+- collection_type: open
+  name: Pipedrive API v1 Activities LeadLabels API
+  slug: open-pipedrive-leadlabels-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Leads API
+  slug: open-pipedrive-leads-api
+- collection_type: open
+  name: Pipedrive API v1 Activities LeadSources API
+  slug: open-pipedrive-leadsources-api
+- collection_type: open
+  name: Pipedrive API v1 Activities LegacyTeams API
+  slug: open-pipedrive-legacyteams-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Mailbox API
+  slug: open-pipedrive-mailbox-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Meetings API
+  slug: open-pipedrive-meetings-api
+- collection_type: open
+  name: Pipedrive API v1 Activities NoteFields API
+  slug: open-pipedrive-notefields-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Notes API
+  slug: open-pipedrive-notes-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Oauth API
+  slug: open-pipedrive-oauth-api
+- collection_type: open
+  name: Pipedrive API v1 Activities OrganizationFields API
+  slug: open-pipedrive-organizationfields-api
+- collection_type: open
+  name: Pipedrive API v1 Activities OrganizationRelationships API
+  slug: open-pipedrive-organizationrelationships-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Organizations API
+  slug: open-pipedrive-organizations-api
+- collection_type: open
+  name: Pipedrive API v1 Activities PermissionSets API
+  slug: open-pipedrive-permissionsets-api
+- collection_type: open
+  name: Pipedrive API v1 Activities PersonFields API
+  slug: open-pipedrive-personfields-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Persons API
+  slug: open-pipedrive-persons-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Pipelines API
+  slug: open-pipedrive-pipelines-api
+- collection_type: open
+  name: Pipedrive API v1 Activities ProductFields API
+  slug: open-pipedrive-productfields-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Products API
+  slug: open-pipedrive-products-api
+- collection_type: open
+  name: Pipedrive API v1 Activities ProjectBoards API
+  slug: open-pipedrive-projectboards-api
+- collection_type: open
+  name: Pipedrive API v1 Activities ProjectFields API
+  slug: open-pipedrive-projectfields-api
+- collection_type: open
+  name: Pipedrive API v1 Activities ProjectPhases API
+  slug: open-pipedrive-projectphases-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Projects API
+  slug: open-pipedrive-projects-api
+- collection_type: open
+  name: Pipedrive API v1 Activities ProjectTemplates API
+  slug: open-pipedrive-projecttemplates-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Recents API
+  slug: open-pipedrive-recents-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Roles API
+  slug: open-pipedrive-roles-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Stages API
+  slug: open-pipedrive-stages-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Tasks API
+  slug: open-pipedrive-tasks-api
+- collection_type: open
+  name: Pipedrive API v1 Activities UserConnections API
+  slug: open-pipedrive-userconnections-api
+- collection_type: open
+  name: Pipedrive API v1 Activities Users API
+  slug: open-pipedrive-users-api
+- collection_type: open
+  name: Pipedrive API v1 Activities UserSettings API
+  slug: open-pipedrive-usersettings-api
+- collection_type: open
   name: Pipedrive API v1
   slug: open-pipedrive-v1
 - collection_type: open
   name: Pipedrive API v2
   slug: open-pipedrive-v2
+- collection_type: open
+  name: Pipedrive API v1 Activities Webhooks API
+  slug: open-pipedrive-webhooks-api
 common:
 - group: build
   title: ''
@@ -474,7 +621,7 @@ plans:
 - name: Pipedrive Plans Pricing
   plan_count: 11
   slug: pipedrive-plans-pricing
-random_paper: 8
+random_paper: 74
 rate_limits:
 - limit_count: 7
   name: Pipedrive Rate Limits
@@ -513,7 +660,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 37
 apis:
 - description: 1-Click applications are pre-built Droplet images or Kubernetes apps with software, features, and configuration details already set up for you. They can be found in the [DigitalOcean Marketplace](http
@@ -142,7 +142,122 @@ apis:
 - description: '[VPCs (virtual private clouds)](https://docs.digitalocean.com/products/networking/vpc/) allow you to create virtual networks containing resources that can communicate with each other in full isolation'
   name: Digital Ocean VPCs API
   slug: digital-ocean-vpcs-api
-artifact_total: 42
+artifact_total: 80
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DigitalOcean 1-Click Applications API
+  slug: open-digital-ocean-1-click-applications-api
+- collection_type: open
+  name: DigitalOcean Account API
+  slug: open-digital-ocean-account-api
+- collection_type: open
+  name: DigitalOcean Actions API
+  slug: open-digital-ocean-actions-api
+- collection_type: open
+  name: DigitalOcean Apps API
+  slug: open-digital-ocean-apps-api
+- collection_type: open
+  name: DigitalOcean Billing API
+  slug: open-digital-ocean-billing-api
+- collection_type: open
+  name: DigitalOcean Block Storage Actions API
+  slug: open-digital-ocean-block-storage-actions-api
+- collection_type: open
+  name: DigitalOcean Block Storage API
+  slug: open-digital-ocean-block-storage-api
+- collection_type: open
+  name: DigitalOcean CDN Endpoints API
+  slug: open-digital-ocean-cdn-endpoints-api
+- collection_type: open
+  name: DigitalOcean Certificates API
+  slug: open-digital-ocean-certificates-api
+- collection_type: open
+  name: DigitalOcean Container Registry API
+  slug: open-digital-ocean-container-registry-api
+- collection_type: open
+  name: DigitalOcean Databases API
+  slug: open-digital-ocean-databases-api
+- collection_type: open
+  name: DigitalOcean Domain Records API
+  slug: open-digital-ocean-domain-records-api
+- collection_type: open
+  name: DigitalOcean Domains API
+  slug: open-digital-ocean-domains-api
+- collection_type: open
+  name: DigitalOcean Droplet Actions API
+  slug: open-digital-ocean-droplet-actions-api
+- collection_type: open
+  name: DigitalOcean Droplet Autoscale Pools API
+  slug: open-digital-ocean-droplet-autoscale-pools-api
+- collection_type: open
+  name: DigitalOcean Droplets API
+  slug: open-digital-ocean-droplets-api
+- collection_type: open
+  name: DigitalOcean Firewalls API
+  slug: open-digital-ocean-firewalls-api
+- collection_type: open
+  name: DigitalOcean Floating IP Actions API
+  slug: open-digital-ocean-floating-ip-actions-api
+- collection_type: open
+  name: DigitalOcean Floating IPs API
+  slug: open-digital-ocean-floating-ips-api
+- collection_type: open
+  name: DigitalOcean Functions API
+  slug: open-digital-ocean-functions-api
+- collection_type: open
+  name: DigitalOcean Image Actions API
+  slug: open-digital-ocean-image-actions-api
+- collection_type: open
+  name: DigitalOcean Images API
+  slug: open-digital-ocean-images-api
+- collection_type: open
+  name: DigitalOcean Kubernetes API
+  slug: open-digital-ocean-kubernetes-api
+- collection_type: open
+  name: DigitalOcean Load Balancers API
+  slug: open-digital-ocean-load-balancers-api
+- collection_type: open
+  name: DigitalOcean Monitoring API
+  slug: open-digital-ocean-monitoring-api
+- collection_type: open
+  name: DigitalOcean Project Resources API
+  slug: open-digital-ocean-project-resources-api
+- collection_type: open
+  name: DigitalOcean Projects API
+  slug: open-digital-ocean-projects-api
+- collection_type: open
+  name: DigitalOcean Regions API
+  slug: open-digital-ocean-regions-api
+- collection_type: open
+  name: DigitalOcean Reserved IP Actions API
+  slug: open-digital-ocean-reserved-ip-actions-api
+- collection_type: open
+  name: DigitalOcean Reserved IPs API
+  slug: open-digital-ocean-reserved-ips-api
+- collection_type: open
+  name: DigitalOcean Sizes API
+  slug: open-digital-ocean-sizes-api
+- collection_type: open
+  name: DigitalOcean Snapshots API
+  slug: open-digital-ocean-snapshots-api
+- collection_type: open
+  name: DigitalOcean SSH Keys API
+  slug: open-digital-ocean-ssh-keys-api
+- collection_type: open
+  name: DigitalOcean Tags API
+  slug: open-digital-ocean-tags-api
+- collection_type: open
+  name: DigitalOcean Uptime API
+  slug: open-digital-ocean-uptime-api
+- collection_type: open
+  name: DigitalOcean VPC Peerings API
+  slug: open-digital-ocean-vpc-peerings-api
+- collection_type: open
+  name: DigitalOcean VPCs API
+  slug: open-digital-ocean-vpcs-api
 common:
 - group: operate
   title: ''
@@ -252,7 +367,7 @@ plans:
 - name: Digital Ocean Plans Pricing
   plan_count: 3
   slug: digital-ocean-plans-pricing
-random_paper: 97
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Digital Ocean Rate Limits
@@ -276,7 +391,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-ocean/refs/heads/main/screenshots/digital-ocean-2026-06-20T180020.png
 security:

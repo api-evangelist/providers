@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 419
   human_in_the_loop: 12
@@ -93,11 +93,69 @@ apis:
 - description: The Work Management API from Socotra — 39 operation(s) for work management.
   name: Socotra Work Management API
   slug: socotra-work-management-api
-artifact_total: 24
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Socotra Webhooks
   slug: socotra-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Auth API
+  slug: open-socotra-auth-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Auxdata API
+  slug: open-socotra-auxdata-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Billing API
+  slug: open-socotra-billing-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Business Stats API
+  slug: open-socotra-business-stats-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Claim API
+  slug: open-socotra-claim-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Compliance API
+  slug: open-socotra-compliance-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Config API
+  slug: open-socotra-config-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Contact API
+  slug: open-socotra-contact-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Document API
+  slug: open-socotra-document-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Event API
+  slug: open-socotra-event-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Migration API
+  slug: open-socotra-migration-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Payment Execution API
+  slug: open-socotra-payment-execution-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Plugin API
+  slug: open-socotra-plugin-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Policy API
+  slug: open-socotra-policy-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Producers API
+  slug: open-socotra-producers-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Resource API
+  slug: open-socotra-resource-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Search API
+  slug: open-socotra-search-api
+- collection_type: open
+  name: Socotra Insurance Suite OpenAPI Definition Work Management API
+  slug: open-socotra-work-management-api
 common:
 - group: auth
   title: ''
@@ -246,7 +304,7 @@ overview: 'Socotra publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Socotra''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 43
+random_paper: 18
 score:
   band: developing
   composite: 48.5
@@ -276,7 +334,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

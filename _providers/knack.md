@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: Operations on records via page view endpoints
   name: Knack View Records API
   slug: knack-view-records-api
-artifact_total: 7
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Knack REST Object Records API
+  slug: open-knack-object-records-api
+- collection_type: open
+  name: Knack REST Object Records View Records API
+  slug: open-knack-view-records-api
 - collection_type: open
   name: Knack REST API
   slug: open-knack
@@ -113,7 +122,7 @@ overview: 'Knack publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ob
 
 
   Knack''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 40
+random_paper: 73
 score:
   band: thin
   composite: 34.5
@@ -134,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/screenshots/knack-2026-06-20T184106.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -57,8 +57,29 @@ apis:
 - description: Register callbacks for transcription lifecycle events.
   name: Trint Webhooks API
   slug: trint-webhooks-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trint Export API
+  slug: open-trint-export-api
+- collection_type: open
+  name: Trint Export Realtime API
+  slug: open-trint-realtime-api
+- collection_type: open
+  name: Trint Export Transcripts and Files API
+  slug: open-trint-transcripts-and-files-api
+- collection_type: open
+  name: Trint Export Translations API
+  slug: open-trint-translations-api
+- collection_type: open
+  name: Trint Export Upload and Transcribe API
+  slug: open-trint-upload-and-transcribe-api
+- collection_type: open
+  name: Trint Export Webhooks API
+  slug: open-trint-webhooks-api
 - collection_type: open
   name: Trint API
   slug: open-trint
@@ -119,7 +140,7 @@ plans:
 - name: Trint Plans Pricing
   plan_count: 3
   slug: trint-plans-pricing
-random_paper: 81
+random_paper: 114
 rate_limits:
 - limit_count: 4
   name: Trint Rate Limits
@@ -144,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

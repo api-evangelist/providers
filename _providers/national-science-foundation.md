@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: The Awards.{format} API from National Science Foundation — 1 operation(s) for awards.{format}.
   name: National Science Foundation Awards.{format} API
   slug: national-science-foundation-awards-format-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: National Science Foundation Awards API
+  slug: open-national-science-foundation-awards-api
+- collection_type: open
+  name: National Science Foundation Awards Awards.{format} API
+  slug: open-national-science-foundation-awards-format-api
 - collection_type: open
   name: National Science Foundation Awards API
   slug: open-national-science-foundation
@@ -98,7 +107,7 @@ plans:
 - name: National Science Foundation Plans Pricing
   plan_count: 3
   slug: national-science-foundation-plans-pricing
-random_paper: 113
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: National Science Foundation Rate Limits
@@ -129,7 +138,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/screenshots/national-science-foundation-2026-06-20T190040.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
@@ -320,7 +320,7 @@ plans:
 - name: Apollo Graphql Plans Pricing
   plan_count: 3
   slug: apollo-graphql-plans-pricing
-random_paper: 3
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Apollo Graphql Rate Limits
@@ -349,7 +349,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/screenshots/apollo-graphql-2026-06-20T172310.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Webhook subscriptions for real-time ERP events.
   name: Fulfil Webhooks API
   slug: fulfil-io-webhooks-api
-artifact_total: 20
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication API
+  slug: open-fulfil-io-authentication-api
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication Customers API
+  slug: open-fulfil-io-customers-api
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication Inventory & Stock API
+  slug: open-fulfil-io-inventory-stock-api
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication Manufacturing API
+  slug: open-fulfil-io-manufacturing-api
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication Model Interface API
+  slug: open-fulfil-io-model-interface-api
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication Products & Variants API
+  slug: open-fulfil-io-products-variants-api
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication Purchases API
+  slug: open-fulfil-io-purchases-api
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication Sales Orders API
+  slug: open-fulfil-io-sales-orders-api
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication Shipments API
+  slug: open-fulfil-io-shipments-api
+- collection_type: open
+  name: Fulfil REST API (v2) Authentication Webhooks API
+  slug: open-fulfil-io-webhooks-api
 - collection_type: open
   name: Fulfil REST API (v2)
   slug: open-fulfil-io
@@ -147,7 +180,7 @@ plans:
 - name: Fulfil Io Plans Pricing
   plan_count: 4
   slug: fulfil-io-plans-pricing
-random_paper: 63
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Fulfil Io Rate Limits
@@ -177,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/screenshots/fulfil-io-2026-07-25T215253.png
 security:

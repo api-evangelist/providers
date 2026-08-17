@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -78,7 +78,7 @@ apis:
 - description: Manage VPC connectors
   name: AWS App Runner VPC API
   slug: aws-app-runner-vpc-api
-artifact_total: 102
+artifact_total: 116
 collections:
 - collection_type: postman
   name: AWS App Runner Auto Scaling API
@@ -119,6 +119,48 @@ collections:
 - collection_type: postman
   name: AWS App Runner Auto Scaling VPC API
   slug: postman-aws-app-runner-vpc-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS App Runner Auto Scaling API
+  slug: open-aws-app-runner-auto-scaling-api
+- collection_type: open
+  name: AWS App Runner Auto Scaling AWS App Runner API API
+  slug: open-aws-app-runner-aws-app-runner-api-api
+- collection_type: open
+  name: AWS App Runner Auto Scaling Connections API
+  slug: open-aws-app-runner-connections-api
+- collection_type: open
+  name: AWS App Runner Auto Scaling Custom Domains API
+  slug: open-aws-app-runner-custom-domains-api
+- collection_type: open
+  name: 'AWS App Runner Auto Scaling #DeleteService API'
+  slug: open-aws-app-runner-deleteservice-api
+- collection_type: open
+  name: AWS App Runner Auto Scaling Deployments API
+  slug: open-aws-app-runner-deployments-api
+- collection_type: open
+  name: 'AWS App Runner Auto Scaling #DescribeService API'
+  slug: open-aws-app-runner-describeservice-api
+- collection_type: open
+  name: 'AWS App Runner Auto Scaling #ListServices API'
+  slug: open-aws-app-runner-listservices-api
+- collection_type: open
+  name: AWS App Runner Auto Scaling Observability API
+  slug: open-aws-app-runner-observability-api
+- collection_type: open
+  name: 'AWS App Runner Auto Scaling #PauseService API'
+  slug: open-aws-app-runner-pauseservice-api
+- collection_type: open
+  name: 'AWS App Runner Auto Scaling #ResumeService API'
+  slug: open-aws-app-runner-resumeservice-api
+- collection_type: open
+  name: 'AWS App Runner Auto Scaling #UpdateService API'
+  slug: open-aws-app-runner-updateservice-api
+- collection_type: open
+  name: AWS App Runner Auto Scaling VPC API
+  slug: open-aws-app-runner-vpc-api
 - collection_type: open
   name: AWS App Runner API
   slug: open-aws-app-runner
@@ -408,7 +450,7 @@ plans:
 - name: Aws App Runner Plans Pricing
   plan_count: 3
   slug: aws-app-runner-plans-pricing
-random_paper: 88
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Aws App Runner Rate Limits
@@ -450,7 +492,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/screenshots/aws-app-runner-2026-06-20T172739.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'HavocAI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   HavocAI''s developer surface includes engineering blog, YouTube channel, and 11 more developer resources.'
-random_paper: 11
+random_paper: 135
 score:
   band: minimal
   composite: 10.0
@@ -99,7 +99,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/havocai/refs/heads/main/screenshots/havocai-2026-08-07T170005.png
 security:

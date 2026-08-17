@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: Identify dates with absent satellite fire detection data
   name: NASA FIRMS Missing Data API
   slug: nasa-firms-missing-data-api
-artifact_total: 16
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NASA FIRMS Area Fire Detections API
+  slug: open-nasa-firms-area-fire-detections-api
+- collection_type: open
+  name: NASA FIRMS Area Fire Detections Data Availability API
+  slug: open-nasa-firms-data-availability-api
+- collection_type: open
+  name: NASA FIRMS Area Fire Detections KML Fire Footprints API
+  slug: open-nasa-firms-kml-fire-footprints-api
+- collection_type: open
+  name: NASA FIRMS Area Fire Detections Missing Data API
+  slug: open-nasa-firms-missing-data-api
 common:
 - group: agent
   title: ''
@@ -161,7 +177,7 @@ plans:
 - name: Nasa Firms Plans Pricing
   plan_count: 2
   slug: nasa-firms-plans-pricing
-random_paper: 49
+random_paper: 115
 rate_limits:
 - limit_count: 1
   name: Nasa Firms Rate Limits
@@ -201,7 +217,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/screenshots/nasa-firms-2026-06-20T185947.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -72,8 +72,41 @@ apis:
 - description: The Workflows API from Mastra — 8 operation(s) for workflows.
   name: Mastra Workflows API
   slug: mastra-workflows-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mastra Server REST Agents API
+  slug: open-mastra-agents-api
+- collection_type: open
+  name: Mastra Server REST Agents Conversations API
+  slug: open-mastra-conversations-api
+- collection_type: open
+  name: Mastra Server REST Agents Logs API
+  slug: open-mastra-logs-api
+- collection_type: open
+  name: Mastra Server REST Agents Mcp API
+  slug: open-mastra-mcp-api
+- collection_type: open
+  name: Mastra Server REST Agents Memory API
+  slug: open-mastra-memory-api
+- collection_type: open
+  name: Mastra Server REST Agents Responses API
+  slug: open-mastra-responses-api
+- collection_type: open
+  name: Mastra Server REST Agents Telemetry API
+  slug: open-mastra-telemetry-api
+- collection_type: open
+  name: Mastra Server REST Agents Tools API
+  slug: open-mastra-tools-api
+- collection_type: open
+  name: Mastra Server REST Agents Vectors API
+  slug: open-mastra-vectors-api
+- collection_type: open
+  name: Mastra Server REST Agents Workflows API
+  slug: open-mastra-workflows-api
 - collection_type: open
   name: Mastra Server REST API
   slug: open-mastra
@@ -198,7 +231,7 @@ plans:
 - name: Mastra Plans Pricing
   plan_count: 3
   slug: mastra-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Mastra Rate Limits
@@ -223,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/screenshots/mastra-2026-06-20T185031.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -171,12 +171,69 @@ apis:
 - description: Manage vendor records for IT procurement and contracts.
   name: freshworks Vendors API
   slug: freshworks-vendors-api
-artifact_total: 154
+artifact_total: 197
 asyncapis:
 - description: Freshworks products support webhook callbacks that notify external applications when specific events occur within the helpdesk, service desk, CRM, and messaging platforms. Webhooks are configured thro
   name: Freshworks Webhook Events
   slug: freshworks-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freshworks Freshcaller Accounts API
+  slug: open-freshworks-accounts-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Agents API
+  slug: open-freshworks-agents-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Applicants API
+  slug: open-freshworks-applicants-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Appointments API
+  slug: open-freshworks-appointments-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Assets API
+  slug: open-freshworks-assets-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Branches API
+  slug: open-freshworks-branches-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Business Hours API
+  slug: open-freshworks-business-hours-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Call Metrics API
+  slug: open-freshworks-call-metrics-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Calls API
+  slug: open-freshworks-calls-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Changes API
+  slug: open-freshworks-changes-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Channels API
+  slug: open-freshworks-channels-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Companies API
+  slug: open-freshworks-companies-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Contacts API
+  slug: open-freshworks-contacts-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Conversations API
+  slug: open-freshworks-conversations-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Deals API
+  slug: open-freshworks-deals-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Departments API
+  slug: open-freshworks-departments-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Email Configs API
+  slug: open-freshworks-email-configs-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Employees API
+  slug: open-freshworks-employees-api
 - collection_type: open
   name: Freshworks Freshcaller API
   slug: open-freshworks-freshcaller-api
@@ -195,6 +252,78 @@ collections:
 - collection_type: open
   name: Freshworks Freshteam API
   slug: open-freshworks-freshteam-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Groups API
+  slug: open-freshworks-groups-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Job Postings API
+  slug: open-freshworks-job-postings-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Leads API
+  slug: open-freshworks-leads-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Levels API
+  slug: open-freshworks-levels-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Locations API
+  slug: open-freshworks-locations-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Messages API
+  slug: open-freshworks-messages-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Notes API
+  slug: open-freshworks-notes-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Problems API
+  slug: open-freshworks-problems-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Products API
+  slug: open-freshworks-products-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Releases API
+  slug: open-freshworks-releases-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Requesters API
+  slug: open-freshworks-requesters-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Roles API
+  slug: open-freshworks-roles-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Sales Activities API
+  slug: open-freshworks-sales-activities-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Service Catalog API
+  slug: open-freshworks-service-catalog-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts SLA Policies API
+  slug: open-freshworks-sla-policies-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Sub-Departments API
+  slug: open-freshworks-sub-departments-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Surveys API
+  slug: open-freshworks-surveys-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Tasks API
+  slug: open-freshworks-tasks-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Teams API
+  slug: open-freshworks-teams-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Tickets API
+  slug: open-freshworks-tickets-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Time Entries API
+  slug: open-freshworks-time-entries-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Time Off API
+  slug: open-freshworks-time-off-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Users API
+  slug: open-freshworks-users-api
+- collection_type: open
+  name: Freshworks Freshcaller Accounts Vendors API
+  slug: open-freshworks-vendors-api
 common:
 - group: agent
   title: ''
@@ -512,7 +641,7 @@ plans:
 - name: Freshworks Plans Pricing
   plan_count: 3
   slug: freshworks-plans-pricing
-random_paper: 22
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Freshworks Rate Limits
@@ -554,7 +683,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/screenshots/freshworks-2026-06-20T181551.png
 security:

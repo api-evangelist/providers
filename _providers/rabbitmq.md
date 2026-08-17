@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -81,15 +81,57 @@ apis:
 - description: The Virtual Hosts API from RabbitMQ — 2 operation(s) for virtual hosts.
   name: RabbitMQ Virtual Hosts API
   slug: rabbitmq-virtual-hosts-api
-artifact_total: 25
+artifact_total: 39
 asyncapis:
 - description: RabbitMQ messaging via AMQP 0-9-1 protocol. Producers publish messages to exchanges which route them to queues based on bindings and routing keys. Consumers subscribe to queues to receive messages.
   name: RabbitMQ AMQP Messaging API
   slug: rabbitmq-messaging
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings API
+  slug: open-rabbitmq-bindings-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Channels API
+  slug: open-rabbitmq-channels-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Connections API
+  slug: open-rabbitmq-connections-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Definitions API
+  slug: open-rabbitmq-definitions-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Exchanges API
+  slug: open-rabbitmq-exchanges-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Health API
+  slug: open-rabbitmq-health-api
+- collection_type: open
   name: RabbitMQ Management HTTP API
   slug: open-rabbitmq-management
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Nodes API
+  slug: open-rabbitmq-nodes-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Overview API
+  slug: open-rabbitmq-overview-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Permissions API
+  slug: open-rabbitmq-permissions-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Policies API
+  slug: open-rabbitmq-policies-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Queues API
+  slug: open-rabbitmq-queues-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Users API
+  slug: open-rabbitmq-users-api
+- collection_type: open
+  name: RabbitMQ Management HTTP Bindings Virtual Hosts API
+  slug: open-rabbitmq-virtual-hosts-api
 common:
 - group: agent
   title: ''
@@ -154,7 +196,7 @@ plans:
 - name: Rabbitmq Plans Pricing
   plan_count: 3
   slug: rabbitmq-plans-pricing
-random_paper: 10
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Rabbitmq Rate Limits
@@ -196,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/screenshots/rabbitmq-2026-06-20T192503.png
 security:

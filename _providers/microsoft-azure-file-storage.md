@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Shares operations
   name: Azure File Storage Shares API
   slug: microsoft-azure-file-storage-shares-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure File Storage REST Shares API
+  slug: open-microsoft-azure-file-storage-shares-api
 - collection_type: open
   name: Azure File Storage REST API
   slug: open-microsoft-azure-file-storage
@@ -104,7 +110,7 @@ plans:
 - name: Microsoft Azure File Storage Plans Pricing
   plan_count: 3
   slug: microsoft-azure-file-storage-plans-pricing
-random_paper: 81
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure File Storage Rate Limits
@@ -129,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-file-storage/refs/heads/main/screenshots/microsoft-azure-file-storage-2026-06-20T185414.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: MODIFI's partnership API supports trade finance transaction requests, financing status evaluation, and transaction management.
@@ -65,7 +65,7 @@ plans:
 - name: Modifi Plans Pricing
   plan_count: 3
   slug: modifi-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Modifi Rate Limits
@@ -83,7 +83,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 9.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modifi/refs/heads/main/screenshots/modifi-2026-06-20T185655.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: Retrieve table metadata
   name: Alation Tables API
   slug: alation-tables-api
-artifact_total: 83
+artifact_total: 96
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context API
+  slug: open-alation-aggregated-context-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Columns API
+  slug: open-alation-columns-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Custom Fields API
+  slug: open-alation-custom-fields-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Data Quality API
+  slug: open-alation-data-quality-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Data Sources API
+  slug: open-alation-data-sources-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Dataflows API
+  slug: open-alation-dataflows-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Glossary Terms API
+  slug: open-alation-glossary-terms-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Lineage API
+  slug: open-alation-lineage-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Policies API
+  slug: open-alation-policies-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Schemas API
+  slug: open-alation-schemas-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Search API
+  slug: open-alation-search-api
+- collection_type: open
+  name: Alation Data Catalog Aggregated Context Tables API
+  slug: open-alation-tables-api
 - collection_type: open
   name: API Collection
   slug: open-alation
@@ -324,7 +363,7 @@ plans:
 - name: Alation Plans Pricing
   plan_count: 1
   slug: alation-plans-pricing
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 2
   name: Alation Rate Limits
@@ -366,7 +405,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/screenshots/alation-2026-06-20T171502.png
 security:

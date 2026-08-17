@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: The Workflows API from Rootly — 2 operation(s) for workflows.
   name: Rootly Workflows API
   slug: rootly-workflows-api
-artifact_total: 17
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rootly Alerts API
+  slug: open-rootly-alerts-api
+- collection_type: open
+  name: Rootly Alerts Escalation Policies API
+  slug: open-rootly-escalation-policies-api
+- collection_type: open
+  name: Rootly Alerts Incidents API
+  slug: open-rootly-incidents-api
+- collection_type: open
+  name: Rootly Alerts Services API
+  slug: open-rootly-services-api
+- collection_type: open
+  name: Rootly Alerts Teams API
+  slug: open-rootly-teams-api
+- collection_type: open
+  name: Rootly Alerts Users API
+  slug: open-rootly-users-api
+- collection_type: open
+  name: Rootly Alerts Workflows API
+  slug: open-rootly-workflows-api
 - collection_type: open
   name: Rootly API
   slug: open-rootly
@@ -130,7 +154,7 @@ plans:
 - name: Rootly Plans Pricing
   plan_count: 3
   slug: rootly-plans-pricing
-random_paper: 81
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Rootly Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/screenshots/rootly-2026-06-20T193221.png
 security:

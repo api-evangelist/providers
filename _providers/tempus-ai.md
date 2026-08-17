@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Lens is Tempus' real-world multimodal data and agentic AI platform for life sciences and oncology drug development, providing exploration of one of the world's largest de-identified clinical and molec
@@ -43,8 +43,11 @@ apis:
 - description: Tempus integrates genomic test ordering and results into clinical workflows using near real-time connections (HL7, FHIR) and batch data exchange, including an integration with Epic. These interfaces a
   name: Tempus EHR Integration
   slug: tempus-ehr-integration
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Tempus AI
   slug: open-tempus-ai
@@ -121,7 +124,7 @@ plans:
 - name: Tempus Ai Plans Pricing
   plan_count: 1
   slug: tempus-ai-plans-pricing
-random_paper: 77
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Tempus Ai Rate Limits
@@ -145,7 +148,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

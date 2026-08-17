@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Donor records (Fundraise Up calls donors "supporters").
   name: Fundraise Up Supporters API
   slug: fundraiseup-supporters-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fundraise Up REST Donations API
+  slug: open-fundraiseup-donations-api
+- collection_type: open
+  name: Fundraise Up REST Donations Donor Portal API
+  slug: open-fundraiseup-donor-portal-api
+- collection_type: open
+  name: Fundraise Up REST Donations Events API
+  slug: open-fundraiseup-events-api
+- collection_type: open
+  name: Fundraise Up REST Donations Recurring Plans API
+  slug: open-fundraiseup-recurring-plans-api
+- collection_type: open
+  name: Fundraise Up REST Donations Supporters API
+  slug: open-fundraiseup-supporters-api
 - collection_type: open
   name: Fundraise Up REST API
   slug: open-fundraiseup
@@ -124,7 +142,7 @@ plans:
 - name: Fundraiseup Plans Pricing
   plan_count: 2
   slug: fundraiseup-plans-pricing
-random_paper: 110
+random_paper: 147
 rate_limits:
 - limit_count: 3
   name: Fundraiseup Rate Limits
@@ -155,7 +173,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/screenshots/fundraiseup-2026-07-25T215319.png
 security:

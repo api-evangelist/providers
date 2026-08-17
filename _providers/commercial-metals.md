@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Commercial Metals Company (CMC-N) Press Releases
   url: https://www.theglobeandmail.com/investing/markets/stocks/CMC/pressreleases/
-random_paper: 63
+random_paper: 104
 score:
   band: minimal
   composite: 5.0
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commercial-metals/refs/heads/main/screenshots/commercial-metals-2026-06-20T174819.png
 security:

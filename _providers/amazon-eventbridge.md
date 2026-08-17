@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ arazzos:
 - description: Inspect a bus's rules, delete a rule, then delete the custom event bus.
   name: Amazon EventBridge Teardown Event Bus
   slug: amazon-eventbridge-teardown-event-bus-workflow
-artifact_total: 133
+artifact_total: 139
 asyncapis:
 - description: Amazon EventBridge delivers events from event sources to targets based on rules you define. This AsyncAPI specification documents the event channels and message schemas for events delivered by EventBr
   name: Amazon EventBridge Event Delivery
@@ -91,6 +91,24 @@ collections:
 - collection_type: postman
   name: Amazon EventBridge API
   slug: postman-amazon-eventbridge
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EventBridge Archives API
+  slug: open-amazon-eventbridge-archives-api
+- collection_type: open
+  name: Amazon EventBridge Archives Event Buses API
+  slug: open-amazon-eventbridge-event-buses-api
+- collection_type: open
+  name: Amazon EventBridge Archives Events API
+  slug: open-amazon-eventbridge-events-api
+- collection_type: open
+  name: Amazon EventBridge Archives Rules API
+  slug: open-amazon-eventbridge-rules-api
+- collection_type: open
+  name: Amazon EventBridge Archives Targets API
+  slug: open-amazon-eventbridge-targets-api
 - collection_type: open
   name: Amazon EventBridge API
   slug: open-amazon-eventbridge
@@ -562,7 +580,7 @@ plans:
 - name: Amazon Eventbridge Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-plans-pricing
-random_paper: 58
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Rate Limits
@@ -612,7 +630,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/screenshots/amazon-eventbridge-2026-06-20T171644.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -57,11 +57,33 @@ apis:
 - description: Upload, manage, and download lookup table files for enrichment.
   name: Scanner Lookup Tables API
   slug: scanner-lookup-tables-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Scanner Webhooks
   slug: scanner-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scanner Ad Hoc Queries API
+  slug: open-scanner-ad-hoc-queries-api
+- collection_type: open
+  name: Scanner Ad Hoc Queries Detection Rules API
+  slug: open-scanner-detection-rules-api
+- collection_type: open
+  name: Scanner Ad Hoc Queries Event Sinks API
+  slug: open-scanner-event-sinks-api
+- collection_type: open
+  name: Scanner Ad Hoc Queries Indexes API
+  slug: open-scanner-indexes-api
+- collection_type: open
+  name: Scanner Ad Hoc Queries Info API
+  slug: open-scanner-info-api
+- collection_type: open
+  name: Scanner Ad Hoc Queries Lookup Tables API
+  slug: open-scanner-lookup-tables-api
 common:
 - group: start
   title: ''
@@ -202,7 +224,7 @@ overview: 'Scanner publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Scanner''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
-random_paper: 26
+random_paper: 1
 score:
   band: developing
   composite: 44.9
@@ -226,7 +248,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

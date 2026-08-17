@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -75,18 +75,57 @@ apis:
 - description: The tokens API from Ably — 1 operation(s) for tokens.
   name: Ably tokens API
   slug: ably-tokens-api
-artifact_total: 108
+artifact_total: 121
 asyncapis:
 - description: AsyncAPI 3.0 description of the Ably realtime messaging surface. Ably exposes pub/sub channels, presence, push notifications, and history over a native WebSocket-based protocol, with additional access
   name: Ably Realtime Protocol
   slug: ably-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Control API v1 apps API
+  slug: open-ably-apps-api
+- collection_type: open
+  name: Control API v1 apps Authentication API
+  slug: open-ably-authentication-api
+- collection_type: open
   name: Control API v1
   slug: open-ably-control-api
 - collection_type: open
+  name: Control API v1 apps History API
+  slug: open-ably-history-api
+- collection_type: open
+  name: Control API v1 apps keys API
+  slug: open-ably-keys-api
+- collection_type: open
+  name: Control API v1 apps namespaces API
+  slug: open-ably-namespaces-api
+- collection_type: open
   name: Platform API
   slug: open-ably-platform-api
+- collection_type: open
+  name: Control API v1 apps Publishing API
+  slug: open-ably-publishing-api
+- collection_type: open
+  name: Control API v1 apps Push API
+  slug: open-ably-push-api
+- collection_type: open
+  name: Control API v1 apps queues API
+  slug: open-ably-queues-api
+- collection_type: open
+  name: Control API v1 apps rules API
+  slug: open-ably-rules-api
+- collection_type: open
+  name: Control API v1 apps Stats API
+  slug: open-ably-stats-api
+- collection_type: open
+  name: Control API v1 apps Status API
+  slug: open-ably-status-api
+- collection_type: open
+  name: Control API v1 apps tokens API
+  slug: open-ably-tokens-api
 common:
 - group: agent
   title: ''
@@ -428,7 +467,7 @@ plans:
 - name: Ably Plans Pricing
   plan_count: 5
   slug: ably-plans-pricing
-random_paper: 64
+random_paper: 126
 rate_limits:
 - limit_count: 8
   name: Ably Rate Limits
@@ -470,7 +509,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/screenshots/ably-2026-06-20T163221.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -57,11 +57,26 @@ apis:
 - description: Worker (employee) data access
   name: ADP Workers API
   slug: adp-workers-api
-artifact_total: 107
+artifact_total: 112
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ADP Payroll Organizations API
+  slug: open-adp-organizations-api
 - collection_type: open
   name: ADP Payroll API
   slug: open-adp-payroll
+- collection_type: open
+  name: ADP Payroll Organizations PayrollInstructions API
+  slug: open-adp-payrollinstructions-api
+- collection_type: open
+  name: ADP Payroll Organizations PayrollOutputs API
+  slug: open-adp-payrolloutputs-api
+- collection_type: open
+  name: ADP Payroll Organizations Workers API
+  slug: open-adp-workers-api
 - collection_type: open
   name: ADP Workers API
   slug: open-adp-workers
@@ -408,7 +423,7 @@ plans:
 - name: Adp Plans Pricing
   plan_count: 2
   slug: adp-plans-pricing
-random_paper: 69
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Adp Rate Limits
@@ -455,7 +470,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png
 security:

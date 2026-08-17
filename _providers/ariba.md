@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 80
 apis:
 - description: Enables suppliers and buyers to exchange business documents and collaborate on the Ariba Network.
@@ -427,7 +427,7 @@ plans:
 - name: Ariba Plans Pricing
   plan_count: 3
   slug: ariba-plans-pricing
-random_paper: 31
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Ariba Rate Limits
@@ -445,7 +445,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 37.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/screenshots/ariba-2026-06-20T172425.png
 security:

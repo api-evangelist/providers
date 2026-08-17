@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: The Supplier API from Open Connectivity for Tours, Activities, and Attractions — 1 operation(s) for supplier.
   name: Open Connectivity for Tours, Activities, and Attractions Supplier API
   slug: octo-supplier-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Connectivity for Tours, Activities, and Attractions OCTO API Specification Availability API
+  slug: open-octo-availability-api
+- collection_type: open
+  name: Open Connectivity for Tours, Activities, and Attractions OCTO API Specification Availability Bookings API
+  slug: open-octo-bookings-api
+- collection_type: open
+  name: Open Connectivity for Tours, Activities, and Attractions OCTO API Specification Availability Products API
+  slug: open-octo-products-api
+- collection_type: open
+  name: Open Connectivity for Tours, Activities, and Attractions OCTO API Specification Availability Supplier API
+  slug: open-octo-supplier-api
 common:
 - group: agent
   title: ''
@@ -109,7 +125,7 @@ plans:
 - name: Octo Plans Pricing
   plan_count: 3
   slug: octo-plans-pricing
-random_paper: 77
+random_paper: 139
 rate_limits:
 - limit_count: 5
   name: Octo Rate Limits
@@ -134,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/screenshots/octo-2026-06-20T190610.png
 security:

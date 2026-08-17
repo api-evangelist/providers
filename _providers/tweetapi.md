@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API for public Twitter/X data with X-API-Key auth, JSON responses, and 76 documented endpoints across users, tweets, posting, interactions, lists, profiles, communities, Spaces, search, auth, X C
@@ -172,7 +172,7 @@ plans:
 - name: Tweetapi Plans Pricing
   plan_count: 4
   slug: tweetapi-plans-pricing
-random_paper: 27
+random_paper: 122
 rate_limits:
 - limit_count: 4
   name: Tweetapi Rate Limits
@@ -195,7 +195,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 48.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

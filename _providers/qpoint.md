@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Connect RPC / gRPC services backing Qpoint''s control plane: an event store service and the qscan scheduler service, with shared protobuf types for connections, requests, issues, PII, and tags.'
@@ -132,7 +132,7 @@ overview: 'Qpoint publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qpoint''s developer surface includes documentation, getting-started guide, quickstart, engineering blog, pricing, signup flow, CLI, and 13 more developer resources.'
-random_paper: 67
+random_paper: 71
 score:
   band: thin
   composite: 30.8
@@ -149,7 +149,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

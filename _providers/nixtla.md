@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: The Validate Api Key API from Nixtla — 1 operation(s) for validate api key.
   name: Nixtla Validate Api Key API
   slug: nixtla-validate-api-key-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nixtla Forecast Anomaly Detection API
+  slug: open-nixtla-anomaly-detection-api
+- collection_type: open
+  name: Nixtla Forecast Anomaly Detection Cross Validation API
+  slug: open-nixtla-cross-validation-api
+- collection_type: open
+  name: Nixtla Forecast Anomaly Detection excluded API
+  slug: open-nixtla-excluded-api
+- collection_type: open
+  name: Nixtla Forecast Anomaly Detection Finetune API
+  slug: open-nixtla-finetune-api
+- collection_type: open
+  name: Nixtla Forecast Anomaly Detection Finetuned Models API
+  slug: open-nixtla-finetuned-models-api
+- collection_type: open
+  name: Nixtla Anomaly Detection Forecast API
+  slug: open-nixtla-forecast-api
+- collection_type: open
+  name: Nixtla Forecast Anomaly Detection Online Anomaly Detection API
+  slug: open-nixtla-online-anomaly-detection-api
+- collection_type: open
+  name: Nixtla Forecast Anomaly Detection Validate Api Key API
+  slug: open-nixtla-validate-api-key-api
 common:
 - group: other
   title: ''
@@ -201,7 +229,7 @@ overview: 'Nixtla publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nixtla''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 56
+random_paper: 60
 score:
   band: developing
   composite: 55.2
@@ -225,7 +253,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/screenshots/nixtla-2026-08-07T185350.png
 security:

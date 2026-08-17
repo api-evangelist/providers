@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Time-off (leave) requests and types.
   name: Freshteam Time-off API
   slug: freshteam-time-off-api
-artifact_total: 11
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freshteam Applicants API
+  slug: open-freshteam-applicants-api
+- collection_type: open
+  name: Freshteam Applicants Employees API
+  slug: open-freshteam-employees-api
+- collection_type: open
+  name: Freshteam Applicants Job Postings API
+  slug: open-freshteam-job-postings-api
+- collection_type: open
+  name: Freshteam Applicants Onboarding API
+  slug: open-freshteam-onboarding-api
+- collection_type: open
+  name: Freshteam Applicants Time-off API
+  slug: open-freshteam-time-off-api
 - collection_type: open
   name: Freshteam API
   slug: open-freshteam
@@ -112,7 +130,7 @@ plans:
 - name: Freshteam Plans Pricing
   plan_count: 4
   slug: freshteam-plans-pricing
-random_paper: 119
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Freshteam Rate Limits
@@ -137,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/screenshots/freshteam-2026-07-25T215212.png
 security:

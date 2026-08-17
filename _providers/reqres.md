@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Legacy API from ReqRes — 4 operation(s) for legacy.
   name: ReqRes Legacy API
   slug: reqres-legacy-api
-artifact_total: 160
+artifact_total: 167
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ReqRes Agent Sandbox API
+  slug: open-reqres-agent-sandbox-api
+- collection_type: open
+  name: ReqRes Agent Sandbox App Users API
+  slug: open-reqres-app-users-api
+- collection_type: open
+  name: ReqRes Agent Sandbox Authentication API
+  slug: open-reqres-authentication-api
+- collection_type: open
+  name: ReqRes Agent Sandbox Collections API
+  slug: open-reqres-collections-api
+- collection_type: open
+  name: ReqRes Agent Sandbox Custom Endpoints API
+  slug: open-reqres-custom-endpoints-api
+- collection_type: open
+  name: ReqRes Agent Sandbox Legacy API
+  slug: open-reqres-legacy-api
 - collection_type: open
   name: ReqRes API
   slug: open-reqres
@@ -558,7 +579,7 @@ plans:
 - name: Reqres Plans Pricing
   plan_count: 7
   slug: reqres-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Reqres Rate Limits
@@ -600,7 +621,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/screenshots/reqres-2026-06-20T192921.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -56,8 +56,26 @@ apis:
 - description: Visitor profile updates
   name: Olark Visitor API
   slug: olark-visitor-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Olark JavaScript Box API
+  slug: open-olark-box-api
+- collection_type: open
+  name: Olark JavaScript Box Chat API
+  slug: open-olark-chat-api
+- collection_type: open
+  name: Olark JavaScript Box Configure API
+  slug: open-olark-configure-api
+- collection_type: open
+  name: Olark JavaScript Box Rules API
+  slug: open-olark-rules-api
+- collection_type: open
+  name: Olark JavaScript Box Visitor API
+  slug: open-olark-visitor-api
 - collection_type: open
   name: Olark JavaScript API
   slug: open-olark
@@ -126,7 +144,7 @@ overview: 'Olark publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Olark''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: thin
   composite: 32.7
@@ -147,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/screenshots/olark-2026-06-20T190655.png
 security:

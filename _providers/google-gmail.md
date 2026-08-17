@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -41,11 +41,17 @@ apis:
 - description: The Gmail API from Google Gmail — 19 operation(s) for gmail.
   name: Google Gmail Gmail API
   slug: google-gmail-gmail-api
-artifact_total: 11
+artifact_total: 13
 collections:
 - collection_type: postman
   name: Google Gmail API
   slug: postman-google-gmail-gmail-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Gmail API
+  slug: open-google-gmail-gmail-api
 - collection_type: open
   name: Google Gmail API
   slug: open-openapi
@@ -142,7 +148,7 @@ plans:
 - name: Google Gmail Plans Pricing
   plan_count: 3
   slug: google-gmail-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Google Gmail Rate Limits
@@ -176,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-gmail/refs/heads/main/screenshots/google-gmail-2026-06-20T182205.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 7
@@ -144,7 +144,7 @@ apis:
 - description: The Workflows API from TetraScience — 5 operation(s) for workflows.
   name: TetraScience Workflows API
   slug: tetrascience-workflows-api
-artifact_total: 80
+artifact_total: 116
 collections:
 - collection_type: postman
   name: TetraScience Data and AI Cloud Access Groups API
@@ -251,6 +251,114 @@ collections:
 - collection_type: postman
   name: TetraScience Data and AI Cloud Access Groups Workflows API
   slug: postman-tetrascience-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups API
+  slug: open-tetrascience-access-groups-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Agents API
+  slug: open-tetrascience-agents-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups ai-workflows API
+  slug: open-tetrascience-ai-workflows-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Attributes API
+  slug: open-tetrascience-attributes-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Audit Trail API
+  slug: open-tetrascience-audit-trail-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups clusters API
+  slug: open-tetrascience-clusters-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Commands API
+  slug: open-tetrascience-commands-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Connectors API
+  slug: open-tetrascience-connectors-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Data Acquisition API
+  slug: open-tetrascience-data-acquisition-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Data App Providers API
+  slug: open-tetrascience-data-app-providers-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Data Apps API
+  slug: open-tetrascience-data-apps-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups databricks API
+  slug: open-tetrascience-databricks-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Edit Subscriptions API
+  slug: open-tetrascience-edit-subscriptions-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Embedded Data Apps API
+  slug: open-tetrascience-embedded-data-apps-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Files API
+  slug: open-tetrascience-files-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Hubs API
+  slug: open-tetrascience-hubs-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups IDS API
+  slug: open-tetrascience-ids-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups lakehouse API
+  slug: open-tetrascience-lakehouse-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Linked Data Apps API
+  slug: open-tetrascience-linked-data-apps-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Login API
+  slug: open-tetrascience-login-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Logs API
+  slug: open-tetrascience-logs-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Organizations API
+  slug: open-tetrascience-organizations-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Pipelines API
+  slug: open-tetrascience-pipelines-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Protocols API
+  slug: open-tetrascience-protocols-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Requests API
+  slug: open-tetrascience-requests-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Roles API
+  slug: open-tetrascience-roles-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Schemas API
+  slug: open-tetrascience-schemas-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Search API
+  slug: open-tetrascience-search-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Task Scripts API
+  slug: open-tetrascience-task-scripts-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Tenants API
+  slug: open-tetrascience-tenants-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups tetraflows API
+  slug: open-tetrascience-tetraflows-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups tetraspheres API
+  slug: open-tetrascience-tetraspheres-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Users API
+  slug: open-tetrascience-users-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups View Subscriptions API
+  slug: open-tetrascience-view-subscriptions-api
+- collection_type: open
+  name: TetraScience Data and AI Cloud Access Groups Workflows API
+  slug: open-tetrascience-workflows-api
 - collection_type: open
   name: TetraScience Data and AI Cloud API
   slug: open-tetrascience
@@ -375,7 +483,7 @@ plans:
 - name: Tetrascience Plans Pricing
   plan_count: 3
   slug: tetrascience-plans-pricing
-random_paper: 74
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Tetrascience Rate Limits
@@ -415,7 +523,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/screenshots/tetrascience-2026-06-20T195201.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 55
 apis:
 - description: The Account_numbers API from MX Platform — 2 operation(s) for account_numbers.
@@ -196,7 +196,176 @@ apis:
 - description: The Widget_urls API from MX Platform — 1 operation(s) for widget_urls.
   name: MX Platform Widget_urls API
   slug: mx-platform-widget-urls-api
-artifact_total: 60
+artifact_total: 116
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MX Platform Account_numbers API
+  slug: open-mx-platform-account-numbers-api
+- collection_type: open
+  name: MX Platform Account_owners API
+  slug: open-mx-platform-account-owners-api
+- collection_type: open
+  name: MX Platform Accounts API
+  slug: open-mx-platform-accounts-api
+- collection_type: open
+  name: MX Platform Aggregate API
+  slug: open-mx-platform-aggregate-api
+- collection_type: open
+  name: MX Platform Budgets API
+  slug: open-mx-platform-budgets-api
+- collection_type: open
+  name: MX Platform Categories API
+  slug: open-mx-platform-categories-api
+- collection_type: open
+  name: MX Platform Challenges API
+  slug: open-mx-platform-challenges-api
+- collection_type: open
+  name: MX Platform Check_balance API
+  slug: open-mx-platform-check-balance-api
+- collection_type: open
+  name: MX Platform Connect_widget_url API
+  slug: open-mx-platform-connect-widget-url-api
+- collection_type: open
+  name: MX Platform Credentials API
+  slug: open-mx-platform-credentials-api
+- collection_type: open
+  name: MX Platform Credit_card_product_guid API
+  slug: open-mx-platform-credit-card-product-guid-api
+- collection_type: open
+  name: MX Platform Current API
+  slug: open-mx-platform-current-api
+- collection_type: open
+  name: MX Platform Default API
+  slug: open-mx-platform-default-api
+- collection_type: open
+  name: MX Platform Enhance API
+  slug: open-mx-platform-enhance-api
+- collection_type: open
+  name: MX Platform Extend_history API
+  slug: open-mx-platform-extend-history-api
+- collection_type: open
+  name: MX Platform Favorites API
+  slug: open-mx-platform-favorites-api
+- collection_type: open
+  name: MX Platform Fetch_rewards API
+  slug: open-mx-platform-fetch-rewards-api
+- collection_type: open
+  name: MX Platform Fetch_statements API
+  slug: open-mx-platform-fetch-statements-api
+- collection_type: open
+  name: MX Platform Fetch_tax_documents API
+  slug: open-mx-platform-fetch-tax-documents-api
+- collection_type: open
+  name: MX Platform Generate API
+  slug: open-mx-platform-generate-api
+- collection_type: open
+  name: MX Platform Goals API
+  slug: open-mx-platform-goals-api
+- collection_type: open
+  name: MX Platform Holdings API
+  slug: open-mx-platform-holdings-api
+- collection_type: open
+  name: MX Platform Identify API
+  slug: open-mx-platform-identify-api
+- collection_type: open
+  name: MX Platform Insights API
+  slug: open-mx-platform-insights-api
+- collection_type: open
+  name: MX Platform Institution_code API
+  slug: open-mx-platform-institution-code-api
+- collection_type: open
+  name: MX Platform Iteration_item_guid API
+  slug: open-mx-platform-iteration-item-guid-api
+- collection_type: open
+  name: MX Platform Iterations API
+  slug: open-mx-platform-iterations-api
+- collection_type: open
+  name: MX Platform Managed_members API
+  slug: open-mx-platform-managed-members-api
+- collection_type: open
+  name: MX Platform Members API
+  slug: open-mx-platform-members-api
+- collection_type: open
+  name: MX Platform Merchant_location_guid API
+  slug: open-mx-platform-merchant-location-guid-api
+- collection_type: open
+  name: MX Platform Merchants API
+  slug: open-mx-platform-merchants-api
+- collection_type: open
+  name: MX Platform Micro_deposits API
+  slug: open-mx-platform-micro-deposits-api
+- collection_type: open
+  name: MX Platform Microdeposit_guid API
+  slug: open-mx-platform-microdeposit-guid-api
+- collection_type: open
+  name: MX Platform Microdeposits API
+  slug: open-mx-platform-microdeposits-api
+- collection_type: open
+  name: MX Platform Monthly_cash_flow_profile API
+  slug: open-mx-platform-monthly-cash-flow-profile-api
+- collection_type: open
+  name: MX Platform Mx_platform API
+  slug: open-mx-platform-mx-platform-api
+- collection_type: open
+  name: MX Platform Oauth_window_uri API
+  slug: open-mx-platform-oauth-window-uri-api
+- collection_type: open
+  name: MX Platform .Pdf API
+  slug: open-mx-platform-pdf-api
+- collection_type: open
+  name: MX Platform Resume API
+  slug: open-mx-platform-resume-api
+- collection_type: open
+  name: MX Platform Rewards API
+  slug: open-mx-platform-rewards-api
+- collection_type: open
+  name: MX Platform Scheduled_payments API
+  slug: open-mx-platform-scheduled-payments-api
+- collection_type: open
+  name: MX Platform Spending_plan_accounts API
+  slug: open-mx-platform-spending-plan-accounts-api
+- collection_type: open
+  name: MX Platform Spending Plan API
+  slug: open-mx-platform-spending-plan-api
+- collection_type: open
+  name: MX Platform Spending_plans API
+  slug: open-mx-platform-spending-plans-api
+- collection_type: open
+  name: MX Platform Split API
+  slug: open-mx-platform-split-api
+- collection_type: open
+  name: MX Platform Statements API
+  slug: open-mx-platform-statements-api
+- collection_type: open
+  name: MX Platform Status API
+  slug: open-mx-platform-status-api
+- collection_type: open
+  name: MX Platform Taggings API
+  slug: open-mx-platform-taggings-api
+- collection_type: open
+  name: MX Platform Tags API
+  slug: open-mx-platform-tags-api
+- collection_type: open
+  name: MX Platform Tax_documents API
+  slug: open-mx-platform-tax-documents-api
+- collection_type: open
+  name: MX Platform Transaction_rules API
+  slug: open-mx-platform-transaction-rules-api
+- collection_type: open
+  name: MX Platform Transactions API
+  slug: open-mx-platform-transactions-api
+- collection_type: open
+  name: MX Platform Users API
+  slug: open-mx-platform-users-api
+- collection_type: open
+  name: MX Platform Verify API
+  slug: open-mx-platform-verify-api
+- collection_type: open
+  name: MX Platform Widget_urls API
+  slug: open-mx-platform-widget-urls-api
 common:
 - group: auth
   title: ''
@@ -310,7 +479,7 @@ plans:
 - name: Mx Platform Plans Pricing
   plan_count: 3
   slug: mx-platform-plans-pricing
-random_paper: 63
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Mx Platform Rate Limits
@@ -340,7 +509,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-platform/refs/heads/main/screenshots/mx-platform-2026-06-20T185909.png
 security:

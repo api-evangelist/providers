@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: The Operational Data API from Federal Railroad Administration — 1 operation(s) for operational data.
   name: Federal Railroad Administration Operational Data API
   slug: federal-railroad-administration-operational-data-api
-artifact_total: 11
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Federal Railroad Administration Public Accidents API
+  slug: open-federal-railroad-administration-accidents-api
+- collection_type: open
+  name: Federal Railroad Administration Public Accidents Crossings API
+  slug: open-federal-railroad-administration-crossings-api
+- collection_type: open
+  name: Federal Railroad Administration Public Accidents Incidents API
+  slug: open-federal-railroad-administration-incidents-api
+- collection_type: open
+  name: Federal Railroad Administration Public Accidents Inspections API
+  slug: open-federal-railroad-administration-inspections-api
+- collection_type: open
+  name: Federal Railroad Administration Public Accidents Operational Data API
+  slug: open-federal-railroad-administration-operational-data-api
 - collection_type: open
   name: Federal Railroad Administration Public API
   slug: open-federal-railroad-administration
@@ -99,7 +117,7 @@ plans:
 - name: Federal Railroad Administration Plans Pricing
   plan_count: 3
   slug: federal-railroad-administration-plans-pricing
-random_paper: 49
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Federal Railroad Administration Rate Limits
@@ -130,7 +148,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/screenshots/federal-railroad-administration-2026-06-20T181126.png
 security:

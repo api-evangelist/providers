@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Facilities and their bin locations.
   name: 3PL Warehouse Manager Warehouses API
   slug: 3plcentral-warehouses-api
-artifact_total: 17
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 3PL Warehouse Manager (SecureWMS) REST Authentication API
+  slug: open-3plcentral-authentication-api
+- collection_type: open
+  name: 3PL Warehouse Manager (SecureWMS) REST Authentication Customers API
+  slug: open-3plcentral-customers-api
+- collection_type: open
+  name: 3PL Warehouse Manager (SecureWMS) REST Authentication Inventory API
+  slug: open-3plcentral-inventory-api
+- collection_type: open
+  name: 3PL Warehouse Manager (SecureWMS) REST Authentication Items API
+  slug: open-3plcentral-items-api
+- collection_type: open
+  name: 3PL Warehouse Manager (SecureWMS) REST Authentication Orders API
+  slug: open-3plcentral-orders-api
+- collection_type: open
+  name: 3PL Warehouse Manager (SecureWMS) REST Authentication Packages API
+  slug: open-3plcentral-packages-api
+- collection_type: open
+  name: 3PL Warehouse Manager (SecureWMS) REST Authentication Receivers API
+  slug: open-3plcentral-receivers-api
+- collection_type: open
+  name: 3PL Warehouse Manager (SecureWMS) REST Authentication Stock Summaries API
+  slug: open-3plcentral-stock-summaries-api
+- collection_type: open
+  name: 3PL Warehouse Manager (SecureWMS) REST Authentication Warehouses API
+  slug: open-3plcentral-warehouses-api
 - collection_type: open
   name: 3PL Warehouse Manager (SecureWMS) REST API
   slug: open-3plcentral
@@ -140,7 +170,7 @@ plans:
 - name: 3Plcentral Plans Pricing
   plan_count: 3
   slug: 3plcentral-plans-pricing
-random_paper: 56
+random_paper: 122
 rate_limits:
 - limit_count: 3
   name: 3Plcentral Rate Limits
@@ -165,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/screenshots/3plcentral-2026-07-25T181157.png
 security:

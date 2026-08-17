@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,7 +74,11 @@ apis:
 - description: OBIE Read/Write Account & Transaction Information (AIS) API for the Standalone brand family (personal credit cards and sort-code-08 current and savings accounts), documented at OBIE v3.1.1. FAPI OAuth
   name: Virgin Money UK Standalone Account and Transaction API (AIS)
   slug: standalone-account-transaction-api
-artifact_total: 17
+artifact_total: 18
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-api-standard
 common:
 - group: agent
   title: ''
@@ -189,7 +193,7 @@ overview: 'Virgin Money UK publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Virgin Money UK''s developer surface includes authentication, documentation, support, and 22 more developer resources.'
-random_paper: 81
+random_paper: 31
 scopes:
 - name: Virgin Money Uk Scopes
   scope_count: 4
@@ -223,7 +227,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

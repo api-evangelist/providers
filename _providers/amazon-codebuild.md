@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -180,7 +180,152 @@ apis:
 - description: 'The #X Amz Target=CodeBuild 20161006.UpdateWebhook API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updatewebhook.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.UpdateWebhook API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-updatewebhook-api
-artifact_total: 730
+artifact_total: 778
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS CodeBuild Builds API
+  slug: open-amazon-codebuild-builds-api
+- collection_type: open
+  name: AWS CodeBuild Builds Projects API
+  slug: open-amazon-codebuild-projects-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.BatchDeleteBuilds API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-batchdeletebuilds-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.BatchGetBuildBatches API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-batchgetbuildbatches-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.BatchGetBuilds API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-batchgetbuilds-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.BatchGetProjects API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-batchgetprojects-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.BatchGetReportGroups API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-batchgetreportgroups-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.BatchGetReports API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-batchgetreports-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.CreateProject API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-createproject-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.CreateReportGroup API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-createreportgroup-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.CreateWebhook API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-createwebhook-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.DeleteBuildBatch API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-deletebuildbatch-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.DeleteProject API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-deleteproject-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.DeleteReport API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-deletereport-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.DeleteReportGroup API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-deletereportgroup-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.DeleteResourcePolicy API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-deleteresourcepolicy-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.DeleteSourceCredentials API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-deletesourcecredentials-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.DeleteWebhook API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-deletewebhook-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.DescribeCodeCoverages API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-describecodecoverages-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.DescribeTestCases API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-describetestcases-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.GetReportGroupTrend API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-getreportgrouptrend-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.GetResourcePolicy API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-getresourcepolicy-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ImportSourceCredentials API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-importsourcecredentials-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.InvalidateProjectCache API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-invalidateprojectcache-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListBuildBatches API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listbuildbatches-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListBuildBatchesForProject API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listbuildbatchesforproject-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListBuilds API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listbuilds-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListBuildsForProject API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listbuildsforproject-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListCuratedEnvironmentImages API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listcuratedenvironmentimages-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListProjects API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listprojects-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListReportGroups API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listreportgroups-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListReports API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listreports-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListReportsForReportGroup API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listreportsforreportgroup-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListSharedProjects API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listsharedprojects-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListSharedReportGroups API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listsharedreportgroups-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.ListSourceCredentials API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-listsourcecredentials-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.PutResourcePolicy API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-putresourcepolicy-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.RetryBuild API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-retrybuild-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.RetryBuildBatch API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-retrybuildbatch-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.StartBuild API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-startbuild-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.StartBuildBatch API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-startbuildbatch-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.StopBuild API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-stopbuild-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.StopBuildBatch API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-stopbuildbatch-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.UpdateProject API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-updateproject-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.UpdateProjectVisibility API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-updateprojectvisibility-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.UpdateReportGroup API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-updatereportgroup-api
+- collection_type: open
+  name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.UpdateWebhook API'
+  slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-updatewebhook-api
 common:
 - group: other
   title: ''
@@ -2322,7 +2467,7 @@ overview: 'Amazon CodeBuild publishes 47 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CodeBuild''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 24 more developer resources.'
-random_paper: 70
+random_paper: 140
 rules:
 - name: Amazon CodeBuild API Rules
   rule_count: 5
@@ -2362,7 +2507,7 @@ score:
       total: 47
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/screenshots/amazon-codebuild-2026-07-25T195953.png
 security:

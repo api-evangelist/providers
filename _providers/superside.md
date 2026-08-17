@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -63,10 +63,62 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.superside.com/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.superside.com/signup
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/superside-oss
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.superside.com/updates
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/superside-changelog.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.superside.com/bug-bounty-program-policy
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/superside-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.superside.com/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/superside-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/superside-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/superside-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/superside-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/superside-packages.yml
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/superside-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/superside-help-center-llms.txt
 - group: auth
   title: ''
   type: DomainSecurity
@@ -75,35 +127,51 @@ created: '2026-07-17'
 description: Superside is an always-on, AI-powered creative-as-a-service (CaaS) company that helps enterprises and high-growth brands scale their in-house creative teams with top global talent and industry-leading AI workflows. It delivers graphic and brand design, ad creative and digital campaigns, social media creative, presentation design, illustration, web design and Webflow development, video production and motion graphics, AI-enhanced creative, packaging and print, email design, and 3D/AR design. Superside serves 400+ major brands via a subscription and dedicated-team model. The company operates a marketing website and a customer application (app.superside.com) but publishes no public developer API, SDK, or webhook surface; this profile captures its public web, legal, and operational-transparency surface for the API Evangelist network.
 image: https://www.superside.com/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Superside
 nav: Providers
 network: true
 overview: 'Superside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Creative Services, Design, and Marketing.
 
 
-  Superside''s developer surface includes pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 20
+  Superside''s developer surface includes pricing, support, engineering blog, signup flow, changelog, and 18 more developer resources.'
+plans:
+- name: Superside Plans Pricing
+  plan_count: 4
+  slug: superside-plans-pricing
+random_paper: 86
+rate_limits:
+- limit_count: 0
+  name: Superside Rate Limits
+  slug: superside-rate-limits
 score:
-  band: emerging
-  composite: 18.0
-  delta: 0.0
+  band: thin
+  composite: 33.1
+  delta: 15.1
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 92.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 15.8
+    governance: 12.5
+    operational_transparency: 47.4
   previous_composite: 18.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Superside Domain Security
   slug: superside-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Superside Vulnerability Disclosure
+  slug: superside-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Superside Trust Center
+  slug: superside-trust-center
+  summary_line: SOC 2 Type II, GDPR, CCPA
 slug: superside
 tags:
 - Company

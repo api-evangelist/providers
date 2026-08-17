@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -111,12 +111,36 @@ apis:
 - description: The Webhooks API from Clerk — 1 operation(s) for webhooks.
   name: Clerk Webhooks API
   slug: clerk-webhooks-api
-artifact_total: 35
+artifact_total: 43
 asyncapis:
 - description: AsyncAPI 2.6 specification for Clerk's webhook surface. Clerk delivers webhook events via Svix to customer-configured endpoints. Each delivery is an HTTP POST of a JSON envelope signed with three Svix
   name: Clerk Webhooks
   slug: clerk-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clerk Backend Invitations API
+  slug: open-clerk-invitations-api
+- collection_type: open
+  name: Clerk Backend Invitations JwtTemplates API
+  slug: open-clerk-jwttemplates-api
+- collection_type: open
+  name: Clerk Backend Invitations Organizations API
+  slug: open-clerk-organizations-api
+- collection_type: open
+  name: Clerk Backend Invitations Sessions API
+  slug: open-clerk-sessions-api
+- collection_type: open
+  name: Clerk Backend Invitations SignInTokens API
+  slug: open-clerk-signintokens-api
+- collection_type: open
+  name: Clerk Backend Invitations Users API
+  slug: open-clerk-users-api
+- collection_type: open
+  name: Clerk Backend Invitations Webhooks API
+  slug: open-clerk-webhooks-api
 - collection_type: open
   name: Clerk Backend API
   slug: open-clerk
@@ -224,7 +248,7 @@ plans:
 - name: Clerk Plans Pricing
   plan_count: 1
   slug: clerk-plans-pricing
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Clerk Rate Limits
@@ -258,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/screenshots/clerk-2026-06-20T174506.png
 security:

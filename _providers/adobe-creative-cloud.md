@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ arazzos:
 - description: Search Adobe Stock for a photo, check its license state, then license it for download.
   name: Adobe Creative Cloud Stock Search License and Download
   slug: adobe-creative-cloud-stock-search-license-download-workflow
-artifact_total: 140
+artifact_total: 152
 asyncapis:
 - description: 'Adobe I/O Events enables developers to receive near-real-time notifications when events occur across Adobe products and services. Events are delivered via webhooks or journaling (pull-based polling). '
   name: Adobe I/O Events
@@ -178,6 +178,42 @@ collections:
 - collection_type: postman
   name: Adobe Creative Cloud Adobe Stock API
   slug: postman-adobe-stock-api-openapi-original
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets API
+  slug: open-adobe-creative-cloud-assets-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets Elements API
+  slug: open-adobe-creative-cloud-elements-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets Extraction API
+  slug: open-adobe-creative-cloud-extraction-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets Image Editing API
+  slug: open-adobe-creative-cloud-image-editing-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets Image Generation API
+  slug: open-adobe-creative-cloud-image-generation-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Assets Libraries API
+  slug: open-adobe-creative-cloud-libraries-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets Licensing API
+  slug: open-adobe-creative-cloud-licensing-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets Member API
+  slug: open-adobe-creative-cloud-member-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets PDF Operations API
+  slug: open-adobe-creative-cloud-pdf-operations-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets Search API
+  slug: open-adobe-creative-cloud-search-api
+- collection_type: open
+  name: Adobe Creative Cloud Creative Cloud Libraries Assets Utilities API
+  slug: open-adobe-creative-cloud-utilities-api
 common:
 - group: operate
   title: ''
@@ -614,7 +650,7 @@ plans:
 - name: Adobe Creative Cloud Plans Pricing
   plan_count: 5
   slug: adobe-creative-cloud-plans-pricing
-random_paper: 63
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Adobe Creative Cloud Rate Limits
@@ -664,7 +700,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
 security:

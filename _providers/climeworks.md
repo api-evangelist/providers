@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -110,7 +110,7 @@ overview: 'Climeworks is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Climeworks'' developer surface includes support, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 8
+random_paper: 45
 score:
   band: emerging
   composite: 19.3
@@ -132,7 +132,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climeworks/refs/heads/main/screenshots/climeworks-2026-08-07T163453.png
 security:

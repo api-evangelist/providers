@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 9
@@ -183,11 +183,152 @@ apis:
 - description: The Users API from Snyk — 3 operation(s) for users.
   name: Snyk Users API
   slug: snyk-users-api
-artifact_total: 58
+artifact_total: 105
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Snyk AccessRequests API
+  slug: open-snyk-accessrequests-api
+- collection_type: open
+  name: Snyk AccessRequests AiBom API
+  slug: open-snyk-aibom-api
+- collection_type: open
+  name: Snyk AccessRequests Apps API
+  slug: open-snyk-apps-api
+- collection_type: open
+  name: Snyk AccessRequests Asset API
+  slug: open-snyk-asset-api
+- collection_type: open
+  name: Snyk AccessRequests Audit Logs API
+  slug: open-snyk-audit-logs-api
+- collection_type: open
+  name: Snyk AccessRequests BrokerConnections API
+  slug: open-snyk-brokerconnections-api
+- collection_type: open
+  name: Snyk AccessRequests BrokerContexts API
+  slug: open-snyk-brokercontexts-api
+- collection_type: open
+  name: Snyk AccessRequests BrokerDeployments API
+  slug: open-snyk-brokerdeployments-api
+- collection_type: open
+  name: Snyk AccessRequests Catalog Resource API
+  slug: open-snyk-catalog-resource-api
+- collection_type: open
+  name: Snyk AccessRequests Cloud API
+  slug: open-snyk-cloud-api
+- collection_type: open
+  name: Snyk AccessRequests Collection API
+  slug: open-snyk-collection-api
+- collection_type: open
+  name: Snyk AccessRequests ContainerImage API
+  slug: open-snyk-containerimage-api
+- collection_type: open
+  name: Snyk AccessRequests ContainerRegistryImportPolicy API
+  slug: open-snyk-containerregistryimportpolicy-api
+- collection_type: open
+  name: Snyk AccessRequests Custom Base Images API
+  slug: open-snyk-custom-base-images-api
+- collection_type: open
+  name: Snyk AccessRequests DeploymentCredentials API
+  slug: open-snyk-deploymentcredentials-api
+- collection_type: open
+  name: Snyk AccessRequests Export API
+  slug: open-snyk-export-api
+- collection_type: open
+  name: Snyk AccessRequests Findings API
+  slug: open-snyk-findings-api
+- collection_type: open
+  name: Snyk AccessRequests Group API
+  slug: open-snyk-group-api
+- collection_type: open
+  name: Snyk AccessRequests Groups API
+  slug: open-snyk-groups-api
+- collection_type: open
+  name: Snyk AccessRequests IacSettings API
+  slug: open-snyk-iacsettings-api
+- collection_type: open
+  name: Snyk AccessRequests Integrations API
+  slug: open-snyk-integrations-api
+- collection_type: open
+  name: Snyk AccessRequests Inventory Assets API
+  slug: open-snyk-inventory-assets-api
+- collection_type: open
+  name: Snyk AccessRequests Invites API
+  slug: open-snyk-invites-api
+- collection_type: open
+  name: Snyk AccessRequests Issues API
+  slug: open-snyk-issues-api
+- collection_type: open
+  name: Snyk AccessRequests LanguagesSettings API
+  slug: open-snyk-languagessettings-api
+- collection_type: open
+  name: Snyk AccessRequests Learn assignment API
+  slug: open-snyk-learn-assignment-api
+- collection_type: open
+  name: Snyk AccessRequests Learn progress API
+  slug: open-snyk-learn-progress-api
+- collection_type: open
+  name: Snyk AccessRequests OpenAPI API
+  slug: open-snyk-openapi-api
+- collection_type: open
+  name: Snyk AccessRequests OpenSourceSettings API
+  slug: open-snyk-opensourcesettings-api
+- collection_type: open
+  name: Snyk AccessRequests Orgs API
+  slug: open-snyk-orgs-api
+- collection_type: open
+  name: Snyk AccessRequests Package API
+  slug: open-snyk-package-api
+- collection_type: open
+  name: Snyk AccessRequests Package Version API
+  slug: open-snyk-package-version-api
+- collection_type: open
+  name: Snyk AccessRequests PersonalAccessToken API
+  slug: open-snyk-personalaccesstoken-api
+- collection_type: open
+  name: Snyk AccessRequests Policies API
+  slug: open-snyk-policies-api
+- collection_type: open
+  name: Snyk AccessRequests Projects API
+  slug: open-snyk-projects-api
+- collection_type: open
+  name: Snyk AccessRequests Pull Request Templates API
+  slug: open-snyk-pull-request-templates-api
 - collection_type: open
   name: Snyk API
   slug: open-snyk-rest
+- collection_type: open
+  name: Snyk AccessRequests SastSettings API
+  slug: open-snyk-sastsettings-api
+- collection_type: open
+  name: Snyk AccessRequests SBOM API
+  slug: open-snyk-sbom-api
+- collection_type: open
+  name: Snyk AccessRequests ServiceAccounts API
+  slug: open-snyk-serviceaccounts-api
+- collection_type: open
+  name: Snyk AccessRequests Slack API
+  slug: open-snyk-slack-api
+- collection_type: open
+  name: Snyk AccessRequests SlackSettings API
+  slug: open-snyk-slacksettings-api
+- collection_type: open
+  name: Snyk AccessRequests Targets API
+  slug: open-snyk-targets-api
+- collection_type: open
+  name: Snyk AccessRequests TenantRole API
+  slug: open-snyk-tenantrole-api
+- collection_type: open
+  name: Snyk AccessRequests Tenants API
+  slug: open-snyk-tenants-api
+- collection_type: open
+  name: Snyk AccessRequests Tests API
+  slug: open-snyk-tests-api
+- collection_type: open
+  name: Snyk AccessRequests Users API
+  slug: open-snyk-users-api
 common:
 - group: agent
   title: ''
@@ -273,7 +414,7 @@ plans:
 - name: Snyk Plans Pricing
   plan_count: 4
   slug: snyk-plans-pricing
-random_paper: 93
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Snyk Rate Limits
@@ -298,7 +439,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png
 security:

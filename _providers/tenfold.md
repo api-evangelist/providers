@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Call analytics, transcripts, keywords, and reports
@@ -55,11 +55,39 @@ apis:
 - description: Users, current-user profile, and settings
   name: Tenfold Users API
   slug: tenfold-users-api
-artifact_total: 11
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Tenfold Webhooks
   slug: tenfold-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tenfold Analytics API
+  slug: open-tenfold-analytics-api
+- collection_type: open
+  name: Tenfold Analytics Authentication API
+  slug: open-tenfold-authentication-api
+- collection_type: open
+  name: Tenfold Analytics Calls API
+  slug: open-tenfold-calls-api
+- collection_type: open
+  name: Tenfold Analytics Contact Lists API
+  slug: open-tenfold-contact-lists-api
+- collection_type: open
+  name: Tenfold Analytics CRM Records API
+  slug: open-tenfold-crm-records-api
+- collection_type: open
+  name: Tenfold Analytics Organizations API
+  slug: open-tenfold-organizations-api
+- collection_type: open
+  name: Tenfold Analytics Tracking API
+  slug: open-tenfold-tracking-api
+- collection_type: open
+  name: Tenfold Analytics Users API
+  slug: open-tenfold-users-api
 common:
 - group: other
   title: ''
@@ -124,7 +152,7 @@ overview: 'Tenfold publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tenfold''s developer surface includes API reference, documentation, authentication, and 8 more developer resources.'
-random_paper: 28
+random_paper: 3
 score:
   band: thin
   composite: 34.0
@@ -147,7 +175,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: Live and recorded webinar sessions and their categories.
   name: Labayh Webinars API
   slug: labayh-webinars-api
-artifact_total: 16
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Labayh Content Consultants API
+  slug: open-labayh-consultants-api
+- collection_type: open
+  name: Labayh Consultants Content API
+  slug: open-labayh-content-api
+- collection_type: open
+  name: Labayh Content Consultants Events API
+  slug: open-labayh-events-api
+- collection_type: open
+  name: Labayh Content Consultants Meta API
+  slug: open-labayh-meta-api
+- collection_type: open
+  name: Labayh Content Consultants Programs API
+  slug: open-labayh-programs-api
+- collection_type: open
+  name: Labayh Content Consultants Support Groups API
+  slug: open-labayh-support-groups-api
+- collection_type: open
+  name: Labayh Content Consultants Webinars API
+  slug: open-labayh-webinars-api
 common:
 - group: other
   title: ''
@@ -190,7 +215,7 @@ overview: 'Labayh publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Labayh''s developer surface includes support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 25
+random_paper: 29
 score:
   band: thin
   composite: 38.2
@@ -220,7 +245,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/screenshots/labayh-2026-07-25T224413.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
 - description: Tagged equity news from 1,000+ publishers with ticker, topic, and source filters.
   name: Tiingo News API
   slug: news-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: Tiingo's WebSocket streaming interface for real-time market data. Clients subscribe and unsubscribe to data feeds by sending a JSON request containing eventName, an authorization API token, and eventD
   name: Tiingo WebSocket API
@@ -65,6 +65,9 @@ collections:
 - collection_type: postman
   name: Tiingo API
   slug: postman-tiingo
+- collection_type: open
+  name: Tiingo API
+  slug: open-tiingo
 common:
 - group: build
   title: ''
@@ -225,7 +228,7 @@ plans:
 - name: Tiingo Plans Pricing
   plan_count: 4
   slug: tiingo-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Tiingo Rate Limits
@@ -259,7 +262,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
 security:

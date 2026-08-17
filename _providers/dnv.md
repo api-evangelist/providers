@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +54,23 @@ apis:
 - description: Vessel classification status and information
   name: DNV Vessels API
   slug: dnv-vessels-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DNV Class Status Certificates API
+  slug: open-dnv-certificates-api
 - collection_type: open
   name: DNV Class Status API
   slug: open-dnv-class-status
+- collection_type: open
+  name: DNV Class Status Certificates Surveys API
+  slug: open-dnv-surveys-api
+- collection_type: open
+  name: DNV Class Status Certificates Vessels API
+  slug: open-dnv-vessels-api
 common:
 - group: agent
   title: ''
@@ -171,7 +183,7 @@ plans:
 - name: Dnv Plans Pricing
   plan_count: 2
   slug: dnv-plans-pricing
-random_paper: 88
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Dnv Rate Limits
@@ -216,7 +228,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/screenshots/dnv-2026-06-20T180105.png
 security:

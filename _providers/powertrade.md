@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'Public and private REST endpoints for market-data summaries, public trade history, positions, holdings, balances, reporting, and MFA. Private endpoints require an ES256 JWT access token. Versioned by '
@@ -162,7 +162,7 @@ overview: 'PowerTrade publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   PowerTrade''s developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 5
+random_paper: 42
 score:
   band: thin
   composite: 36.4
@@ -185,7 +185,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

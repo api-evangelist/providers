@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: The BuybackBidService API from Refurbed — 8 operation(s) for buybackbidservice.
@@ -85,7 +85,65 @@ apis:
 - description: The TicketService API from Refurbed — 10 operation(s) for ticketservice.
   name: Refurbed TicketService API
   slug: refurbed-ticketservice-api
-artifact_total: 22
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Affiliate Partner BuybackBidService API
+  slug: open-refurbed-buybackbidservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService BuybackOrderItemService API
+  slug: open-refurbed-buybackorderitemservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService BuybackOrderService API
+  slug: open-refurbed-buybackorderservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService BuybackProductService API
+  slug: open-refurbed-buybackproductservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService BuybackSupplyboxService API
+  slug: open-refurbed-buybacksupplyboxservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService CatalogService API
+  slug: open-refurbed-catalogservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService CurrencyService API
+  slug: open-refurbed-currencyservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService InstanceService API
+  slug: open-refurbed-instanceservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService MarketOfferService API
+  slug: open-refurbed-marketofferservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService MarketService API
+  slug: open-refurbed-marketservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService MerchantService API
+  slug: open-refurbed-merchantservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService OfferService API
+  slug: open-refurbed-offerservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService OrderItemReturnService API
+  slug: open-refurbed-orderitemreturnservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService OrderItemService API
+  slug: open-refurbed-orderitemservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService OrderService API
+  slug: open-refurbed-orderservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService ProductService API
+  slug: open-refurbed-productservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService ShippingProfileService API
+  slug: open-refurbed-shippingprofileservice-api
+- collection_type: open
+  name: Affiliate Partner BuybackBidService TicketService API
+  slug: open-refurbed-ticketservice-api
 common:
 - group: auth
   title: ''
@@ -191,7 +249,7 @@ overview: 'Refurbed publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Refurbed''s developer surface includes authentication, documentation, support, API reference, getting-started guide, and 17 more developer resources.'
-random_paper: 7
+random_paper: 102
 rate_limits:
 - limit_count: 0
   name: Refurbed Rate Limits
@@ -224,7 +282,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

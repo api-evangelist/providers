@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,26 @@ apis:
 - description: Rooms within buildings.
   name: Pennsylvania State University Rooms API
   slug: pennsylvania-state-university-rooms-api
-artifact_total: 24
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LionSpaceFIS REST Buildings API
+  slug: open-pennsylvania-state-university-buildings-api
+- collection_type: open
+  name: LionSpaceFIS REST Buildings Campuses API
+  slug: open-pennsylvania-state-university-campuses-api
+- collection_type: open
+  name: LionSpaceFIS REST Buildings Events API
+  slug: open-pennsylvania-state-university-events-api
+- collection_type: open
+  name: LionSpaceFIS REST Buildings Health API
+  slug: open-pennsylvania-state-university-health-api
+- collection_type: open
+  name: LionSpaceFIS REST Buildings Rooms API
+  slug: open-pennsylvania-state-university-rooms-api
 common:
 - group: agent
   title: ''
@@ -165,7 +184,7 @@ plans:
 - name: Pennsylvania State University Plans Pricing
   plan_count: 2
   slug: pennsylvania-state-university-plans-pricing
-random_paper: 61
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Pennsylvania State University Rate Limits
@@ -207,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/screenshots/pennsylvania-state-university-2026-06-20T191542.png
 security:

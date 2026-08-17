@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -37,8 +37,20 @@ apis:
 - description: The Tasks API from Teamwork.com — 1 operation(s) for tasks.
   name: Teamwork.com Tasks API
   slug: teamwork-tasks-api
-artifact_total: 7
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Teamwork.com Projects API v3 Activity API
+  slug: open-teamwork-activity-api
+- collection_type: open
+  name: Teamwork.com API v3 Activity Projects API
+  slug: open-teamwork-projects-api
+- collection_type: open
+  name: Teamwork.com Projects API v3 Activity Tasks API
+  slug: open-teamwork-tasks-api
 - collection_type: open
   name: Teamwork.com Projects API v3
   slug: open-teamwork
@@ -107,7 +119,7 @@ overview: 'Teamwork.com publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Teamwork.com''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 34
+random_paper: 129
 score:
   band: thin
   composite: 35.4
@@ -128,7 +140,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/screenshots/teamwork-2026-06-20T195100.png
 security:

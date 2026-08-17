@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Transaction status and receipts
   name: Etherscan Transactions API
   slug: etherscan-transactions-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Etherscan Accounts API
+  slug: open-etherscan-accounts-api
+- collection_type: open
+  name: Etherscan Accounts Blocks API
+  slug: open-etherscan-blocks-api
+- collection_type: open
+  name: Etherscan Accounts Contracts API
+  slug: open-etherscan-contracts-api
+- collection_type: open
+  name: Etherscan Accounts Gas Tracker API
+  slug: open-etherscan-gas-tracker-api
+- collection_type: open
+  name: Etherscan Accounts Stats API
+  slug: open-etherscan-stats-api
+- collection_type: open
+  name: Etherscan Accounts Tokens API
+  slug: open-etherscan-tokens-api
+- collection_type: open
+  name: Etherscan Accounts Transactions API
+  slug: open-etherscan-transactions-api
 - collection_type: open
   name: Etherscan API
   slug: open-etherscan
@@ -138,7 +162,7 @@ plans:
 - name: Etherscan Plans Pricing
   plan_count: 3
   slug: etherscan-plans-pricing
-random_paper: 117
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Etherscan Rate Limits
@@ -163,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/screenshots/etherscan-2026-06-20T180843.png
 security:

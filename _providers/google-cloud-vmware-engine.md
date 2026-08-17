@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Manage VMware private clouds
   name: Google Cloud VMware Engine PrivateClouds API
   slug: google-cloud-vmware-engine-privateclouds-api
-artifact_total: 15
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Cloud VMware Engine Clusters API
+  slug: open-google-cloud-vmware-engine-clusters-api
+- collection_type: open
+  name: Google Cloud VMware Engine Clusters NetworkPolicies API
+  slug: open-google-cloud-vmware-engine-networkpolicies-api
+- collection_type: open
+  name: Google Cloud VMware Engine Clusters PrivateClouds API
+  slug: open-google-cloud-vmware-engine-privateclouds-api
 - collection_type: open
   name: Google Cloud VMware Engine API
   slug: open-vmwareengine
@@ -126,7 +138,7 @@ plans:
 - name: Google Cloud Vmware Engine Plans Pricing
   plan_count: 3
   slug: google-cloud-vmware-engine-plans-pricing
-random_paper: 75
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Google Cloud Vmware Engine Rate Limits
@@ -165,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/screenshots/google-cloud-vmware-engine-2026-06-20T182153.png
 security:

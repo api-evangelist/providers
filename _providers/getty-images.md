@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 52
 apis:
 - description: The Affiliates API from Getty Images — 2 operation(s) for affiliates.
@@ -187,7 +187,167 @@ apis:
 - description: The Videos API from Getty Images — 11 operation(s) for videos.
   name: Getty Images Videos API
   slug: getty-images-videos-api
-artifact_total: 57
+artifact_total: 110
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Getty Images Affiliates API
+  slug: open-getty-images-affiliates-api
+- collection_type: open
+  name: Getty Images Ai API
+  slug: open-getty-images-ai-api
+- collection_type: open
+  name: Getty Images Ai Generator API
+  slug: open-getty-images-ai-generator-api
+- collection_type: open
+  name: Getty Images Artists API
+  slug: open-getty-images-artists-api
+- collection_type: open
+  name: Getty Images Assets API
+  slug: open-getty-images-assets-api
+- collection_type: open
+  name: Getty Images Background API
+  slug: open-getty-images-background-api
+- collection_type: open
+  name: Getty Images Batches API
+  slug: open-getty-images-batches-api
+- collection_type: open
+  name: Getty Images Boards API
+  slug: open-getty-images-boards-api
+- collection_type: open
+  name: Getty Images Change API
+  slug: open-getty-images-change-api
+- collection_type: open
+  name: Getty Images Changes API
+  slug: open-getty-images-changes-api
+- collection_type: open
+  name: Getty Images Channels API
+  slug: open-getty-images-channels-api
+- collection_type: open
+  name: Getty Images Collections API
+  slug: open-getty-images-collections-api
+- collection_type: open
+  name: Getty Images Color API
+  slug: open-getty-images-color-api
+- collection_type: open
+  name: Getty Images Comments API
+  slug: open-getty-images-comments-api
+- collection_type: open
+  name: Getty Images Compositions API
+  slug: open-getty-images-compositions-api
+- collection_type: open
+  name: Getty Images Countries API
+  slug: open-getty-images-countries-api
+- collection_type: open
+  name: Getty Images Creative API
+  slug: open-getty-images-creative-api
+- collection_type: open
+  name: Getty Images Current API
+  slug: open-getty-images-current-api
+- collection_type: open
+  name: Getty Images Customers API
+  slug: open-getty-images-customers-api
+- collection_type: open
+  name: Getty Images Downloads API
+  slug: open-getty-images-downloads-api
+- collection_type: open
+  name: Getty Images Editorial API
+  slug: open-getty-images-editorial-api
+- collection_type: open
+  name: Getty Images Events API
+  slug: open-getty-images-events-api
+- collection_type: open
+  name: Getty Images Extend API
+  slug: open-getty-images-extend-api
+- collection_type: open
+  name: Getty Images Files API
+  slug: open-getty-images-files-api
+- collection_type: open
+  name: Getty Images Generation API
+  slug: open-getty-images-generation-api
+- collection_type: open
+  name: Getty Images Generations API
+  slug: open-getty-images-generations-api
+- collection_type: open
+  name: Getty Images History API
+  slug: open-getty-images-history-api
+- collection_type: open
+  name: Getty Images Image API
+  slug: open-getty-images-image-api
+- collection_type: open
+  name: Getty Images API
+  slug: open-getty-images-images-api
+- collection_type: open
+  name: Getty Images Index API
+  slug: open-getty-images-index-api
+- collection_type: open
+  name: Getty Images Influence API
+  slug: open-getty-images-influence-api
+- collection_type: open
+  name: Getty Images Licensing API
+  slug: open-getty-images-licensing-api
+- collection_type: open
+  name: Getty Images Management API
+  slug: open-getty-images-management-api
+- collection_type: open
+  name: Getty Images Name API
+  slug: open-getty-images-name-api
+- collection_type: open
+  name: Getty Images Objects API
+  slug: open-getty-images-objects-api
+- collection_type: open
+  name: Getty Images Orders API
+  slug: open-getty-images-orders-api
+- collection_type: open
+  name: Getty Images Products API
+  slug: open-getty-images-products-api
+- collection_type: open
+  name: Getty Images Purchased API
+  slug: open-getty-images-purchased-api
+- collection_type: open
+  name: Getty Images Refine API
+  slug: open-getty-images-refine-api
+- collection_type: open
+  name: Getty Images Registrations API
+  slug: open-getty-images-registrations-api
+- collection_type: open
+  name: Getty Images Removal API
+  slug: open-getty-images-removal-api
+- collection_type: open
+  name: Getty Images Request API
+  slug: open-getty-images-request-api
+- collection_type: open
+  name: Getty Images Search API
+  slug: open-getty-images-search-api
+- collection_type: open
+  name: Getty Images Send API
+  slug: open-getty-images-send-api
+- collection_type: open
+  name: Getty Images Series API
+  slug: open-getty-images-series-api
+- collection_type: open
+  name: Getty Images Set API
+  slug: open-getty-images-set-api
+- collection_type: open
+  name: Getty Images Sets API
+  slug: open-getty-images-sets-api
+- collection_type: open
+  name: Getty Images Similar API
+  slug: open-getty-images-similar-api
+- collection_type: open
+  name: Getty Images Uploads API
+  slug: open-getty-images-uploads-api
+- collection_type: open
+  name: Getty Images Usage API
+  slug: open-getty-images-usage-api
+- collection_type: open
+  name: Getty Images Variations API
+  slug: open-getty-images-variations-api
+- collection_type: open
+  name: Getty Images Videos API
+  slug: open-getty-images-videos-api
 common:
 - group: auth
   title: ''
@@ -233,7 +393,7 @@ plans:
 - name: Getty Images Plans Pricing
   plan_count: 3
   slug: getty-images-plans-pricing
-random_paper: 32
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Getty Images Rate Limits
@@ -257,7 +417,7 @@ score:
       marker_coverage: 0.0
       total: 52
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/screenshots/getty-images-2026-06-20T181816.png
 security:

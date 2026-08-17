@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,20 @@ apis:
 - description: Inspect and expire HTTP sessions
   name: Apache Tomcat sessions API
   slug: apache-tomcat-sessions-api
-artifact_total: 29
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Tomcat Manager Text applications API
+  slug: open-apache-tomcat-applications-api
+- collection_type: open
+  name: Apache Tomcat Manager Text applications server API
+  slug: open-apache-tomcat-server-api
+- collection_type: open
+  name: Apache Tomcat Manager Text applications sessions API
+  slug: open-apache-tomcat-sessions-api
 - collection_type: open
   name: Apache Tomcat Manager Text API
   slug: open-apache-tomcat
@@ -166,7 +178,7 @@ plans:
 - name: Apache Tomcat Plans Pricing
   plan_count: 3
   slug: apache-tomcat-plans-pricing
-random_paper: 103
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Apache Tomcat Rate Limits
@@ -191,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/screenshots/apache-tomcat-2026-06-20T172155.png
 security:

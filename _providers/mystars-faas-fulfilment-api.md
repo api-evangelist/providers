@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST/HTTP API for pricing, recipient eligibility checks, product catalog, and Telegram Stars/Premium order lifecycle, with X-Api-Key auth and signed webhooks. OpenAPI contract and llms.txt are adverti
@@ -43,7 +43,7 @@ name: MyStars FaaS — Fulfilment API
 nav: Providers
 network: true
 overview: 'MyStars FaaS — Fulfilment API publishes 1 API on the [APIs.io](https://apis.io/) network: MyStars FaaS Fulfilment API. Tagged areas include telegram, telegram-stars, telegram-premium, payments, and crypto.'
-random_paper: 85
+random_paper: 43
 score:
   band: minimal
   composite: 12.2
@@ -63,7 +63,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/screenshots/mystars-faas-fulfilment-api-2026-08-07T184543.png
 slug: mystars-faas-fulfilment-api

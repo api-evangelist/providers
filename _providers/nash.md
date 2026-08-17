@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 16
@@ -128,7 +128,7 @@ apis:
 - description: Zones
   name: Nash Zones API
   slug: nash-zones-api
-artifact_total: 39
+artifact_total: 70
 asyncapis:
 - description: Real-time delivery events Nash pushes to subscriber endpoints over HTTP, delivered and signed via Svix. Each message carries `type`, `event`, and `data`. Endpoints are registered per event type in the
   name: Nash Webhooks
@@ -136,6 +136,100 @@ asyncapis:
 - description: ''
   name: Nash Webhooks
   slug: nash-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nash AI Functions API
+  slug: open-nash-ai-functions-api
+- collection_type: open
+  name: Nash AI Functions Annotate API
+  slug: open-nash-annotate-api
+- collection_type: open
+  name: Nash AI Functions Batch Job API
+  slug: open-nash-batch-job-api
+- collection_type: open
+  name: Nash AI Functions Contracts API
+  slug: open-nash-contracts-api
+- collection_type: open
+  name: Nash AI Functions Couriers API
+  slug: open-nash-couriers-api
+- collection_type: open
+  name: Nash AI Functions Delivery Windows API
+  slug: open-nash-delivery-windows-api
+- collection_type: open
+  name: Nash AI Functions Dispatch Strategies API
+  slug: open-nash-dispatch-strategies-api
+- collection_type: open
+  name: Nash AI Functions Feedback API
+  slug: open-nash-feedback-api
+- collection_type: open
+  name: Nash AI Functions Fleet API
+  slug: open-nash-fleet-api
+- collection_type: open
+  name: Nash AI Functions Job API
+  slug: open-nash-job-api
+- collection_type: open
+  name: Nash AI Functions Messaging API
+  slug: open-nash-messaging-api
+- collection_type: open
+  name: Nash AI Functions Miscellaneous API
+  slug: open-nash-miscellaneous-api
+- collection_type: open
+  name: Nash AI Functions Notifications API
+  slug: open-nash-notifications-api
+- collection_type: open
+  name: Nash AI Functions Optimization Strategies API
+  slug: open-nash-optimization-strategies-api
+- collection_type: open
+  name: Nash AI Functions Order API
+  slug: open-nash-order-api
+- collection_type: open
+  name: Nash AI Functions Organizations API
+  slug: open-nash-organizations-api
+- collection_type: open
+  name: Nash AI Functions Provider API
+  slug: open-nash-provider-api
+- collection_type: open
+  name: Nash AI Functions Route API
+  slug: open-nash-route-api
+- collection_type: open
+  name: Nash AI Functions Route Restrictions API
+  slug: open-nash-route-restrictions-api
+- collection_type: open
+  name: Nash AI Functions Shifts API
+  slug: open-nash-shifts-api
+- collection_type: open
+  name: Nash AI Functions Shipping API
+  slug: open-nash-shipping-api
+- collection_type: open
+  name: Nash AI Functions Store Catalog API
+  slug: open-nash-store-catalog-api
+- collection_type: open
+  name: Nash AI Functions Store Locations API
+  slug: open-nash-store-locations-api
+- collection_type: open
+  name: Nash AI Functions Templates API
+  slug: open-nash-templates-api
+- collection_type: open
+  name: Nash AI Functions Users API
+  slug: open-nash-users-api
+- collection_type: open
+  name: Nash AI Functions Vehicles API
+  slug: open-nash-vehicles-api
+- collection_type: open
+  name: Nash AI Functions Webhooks API
+  slug: open-nash-webhooks-api
+- collection_type: open
+  name: Nash AI Functions Workflow API
+  slug: open-nash-workflow-api
+- collection_type: open
+  name: Nash AI Functions Workflow Execution API
+  slug: open-nash-workflow-execution-api
+- collection_type: open
+  name: Nash AI Functions Zones API
+  slug: open-nash-zones-api
 common:
 - group: other
   title: ''
@@ -280,7 +374,7 @@ overview: 'Nash publishes 30 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nash''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, changelog, and 24 more developer resources.'
-random_paper: 66
+random_paper: 128
 rate_limits:
 - limit_count: 0
   name: Nash Rate Limits
@@ -308,7 +402,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/screenshots/nash-2026-08-07T184639.png
 security:

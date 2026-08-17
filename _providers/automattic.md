@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1218
   human_in_the_loop: 20
@@ -56,11 +56,30 @@ apis:
 - description: The GraphQL API for WordPress VIP, Automattic's enterprise WordPress and Node.js platform. Documented operation categories cover apps, domains, organizations, users, integrations, security and observa
   name: WordPress VIP Platform API
   slug: wordpress-vip-platform-api
-artifact_total: 17
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Automattic Wordpress Com Webhooks
   slug: automattic-wordpress-com-webhooks
+collections:
+- collection_type: open
+  name: Akismet API
+  slug: open-automattic-akismet
+- collection_type: open
+  name: WordPress.com REST API v1.1
+  slug: open-automattic-wordpress-com-rest-v1-1
+- collection_type: open
+  name: WordPress.com REST API v1.2
+  slug: open-automattic-wordpress-com-rest-v1-2
+- collection_type: open
+  name: WordPress.com REST API v1.3
+  slug: open-automattic-wordpress-com-rest-v1-3
+- collection_type: open
+  name: WordPress.com REST API — wp/v2 namespace
+  slug: open-automattic-wordpress-com-wp-v2
+- collection_type: open
+  name: WordPress.com REST API — wpcom/v2 namespace
+  slug: open-automattic-wordpress-com-wpcom-v2
 common:
 - group: operate
   title: ''
@@ -266,7 +285,7 @@ overview: 'Automattic publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Automattic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 3
+random_paper: 40
 scopes:
 - name: Automattic Scopes
   scope_count: 21
@@ -295,7 +314,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/screenshots/automattic-2026-08-07T161958.png
 security:

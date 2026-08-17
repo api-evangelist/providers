@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 226
@@ -213,7 +213,7 @@ apis:
 - description: Widgets Bundle
   name: ThingsBoard widgets-bundle-controller API
   slug: thingsboard-widgets-bundle-controller-api
-artifact_total: 173
+artifact_total: 232
 collections:
 - collection_type: postman
   name: ThingsBoard Admin admin-controller API
@@ -390,50 +390,227 @@ collections:
   name: ThingsBoard Admin admin-controller widgets-bundle-controller API
   slug: postman-thingsboard-widgets-bundle-controller-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ThingsBoard Admin admin-controller API
+  slug: open-thingsboard-admin-controller-api
+- collection_type: open
   name: ThingsBoard Admin API
   slug: open-thingsboard-admin
+- collection_type: open
+  name: ThingsBoard Admin admin-controller ai-model-controller API
+  slug: open-thingsboard-ai-model-controller-api
 - collection_type: open
   name: ThingsBoard AI API
   slug: open-thingsboard-ai
 - collection_type: open
+  name: ThingsBoard Admin admin-controller alarm-comment-controller API
+  slug: open-thingsboard-alarm-comment-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller alarm-controller API
+  slug: open-thingsboard-alarm-controller-api
+- collection_type: open
   name: ThingsBoard Alarms API
   slug: open-thingsboard-alarms
+- collection_type: open
+  name: ThingsBoard Admin admin-controller api-key-controller API
+  slug: open-thingsboard-api-key-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller asset-controller API
+  slug: open-thingsboard-asset-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller asset-profile-controller API
+  slug: open-thingsboard-asset-profile-controller-api
 - collection_type: open
   name: ThingsBoard Assets API
   slug: open-thingsboard-assets
 - collection_type: open
+  name: ThingsBoard Admin admin-controller audit-log-controller API
+  slug: open-thingsboard-audit-log-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller auth-controller API
+  slug: open-thingsboard-auth-controller-api
+- collection_type: open
   name: ThingsBoard Authentication API
   slug: open-thingsboard-auth
+- collection_type: open
+  name: ThingsBoard Admin admin-controller calculated-field-controller API
+  slug: open-thingsboard-calculated-field-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller component-descriptor-controller API
+  slug: open-thingsboard-component-descriptor-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller customer-controller API
+  slug: open-thingsboard-customer-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller dashboard-controller API
+  slug: open-thingsboard-dashboard-controller-api
 - collection_type: open
   name: ThingsBoard Dashboards API
   slug: open-thingsboard-dashboards
 - collection_type: open
+  name: ThingsBoard Admin admin-controller device-connectivity-controller API
+  slug: open-thingsboard-device-connectivity-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller device-controller API
+  slug: open-thingsboard-device-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller device-profile-controller API
+  slug: open-thingsboard-device-profile-controller-api
+- collection_type: open
   name: ThingsBoard Devices API
   slug: open-thingsboard-devices
+- collection_type: open
+  name: ThingsBoard Admin admin-controller domain-controller API
+  slug: open-thingsboard-domain-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller edge-controller API
+  slug: open-thingsboard-edge-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller edge-event-controller API
+  slug: open-thingsboard-edge-event-controller-api
 - collection_type: open
   name: ThingsBoard Edge API
   slug: open-thingsboard-edge
 - collection_type: open
+  name: ThingsBoard Admin admin-controller entities-version-control-controller API
+  slug: open-thingsboard-entities-version-control-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller entity-query-controller API
+  slug: open-thingsboard-entity-query-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller entity-relation-controller API
+  slug: open-thingsboard-entity-relation-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller entity-view-controller API
+  slug: open-thingsboard-entity-view-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller event-controller API
+  slug: open-thingsboard-event-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller image-controller API
+  slug: open-thingsboard-image-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller job-controller API
+  slug: open-thingsboard-job-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller login-endpoint API
+  slug: open-thingsboard-login-endpoint-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller lwm-2m-controller API
+  slug: open-thingsboard-lwm-2m-controller-api
+- collection_type: open
   name: ThingsBoard LwM2M API
   slug: open-thingsboard-lwm2m
+- collection_type: open
+  name: ThingsBoard Admin admin-controller mail-config-template-controller API
+  slug: open-thingsboard-mail-config-template-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller mobile-app-bundle-controller API
+  slug: open-thingsboard-mobile-app-bundle-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller mobile-app-controller API
+  slug: open-thingsboard-mobile-app-controller-api
 - collection_type: open
   name: ThingsBoard Mobile App API
   slug: open-thingsboard-mobile
 - collection_type: open
+  name: ThingsBoard Admin admin-controller notification-controller API
+  slug: open-thingsboard-notification-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller notification-rule-controller API
+  slug: open-thingsboard-notification-rule-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller notification-target-controller API
+  slug: open-thingsboard-notification-target-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller notification-template-controller API
+  slug: open-thingsboard-notification-template-controller-api
+- collection_type: open
   name: ThingsBoard Notifications API
   slug: open-thingsboard-notifications
+- collection_type: open
+  name: ThingsBoard Admin admin-controller o-auth-2-config-template-controller API
+  slug: open-thingsboard-o-auth-2-config-template-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller o-auth-2-controller API
+  slug: open-thingsboard-o-auth-2-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller ota-package-controller API
+  slug: open-thingsboard-ota-package-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller qr-code-settings-controller API
+  slug: open-thingsboard-qr-code-settings-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller queue-controller API
+  slug: open-thingsboard-queue-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller queue-stats-controller API
+  slug: open-thingsboard-queue-stats-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller rpc-v-1-controller API
+  slug: open-thingsboard-rpc-v-1-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller rpc-v-2-controller API
+  slug: open-thingsboard-rpc-v-2-controller-api
 - collection_type: open
   name: ThingsBoard RPC API
   slug: open-thingsboard-rpc
 - collection_type: open
+  name: ThingsBoard Admin admin-controller rule-chain-controller API
+  slug: open-thingsboard-rule-chain-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller rule-engine-controller API
+  slug: open-thingsboard-rule-engine-controller-api
+- collection_type: open
   name: ThingsBoard Rule Engine API
   slug: open-thingsboard-rule-engine
+- collection_type: open
+  name: ThingsBoard Admin admin-controller sign-up-controller API
+  slug: open-thingsboard-sign-up-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller tb-resource-controller API
+  slug: open-thingsboard-tb-resource-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller telemetry-controller API
+  slug: open-thingsboard-telemetry-controller-api
 - collection_type: open
   name: ThingsBoard Telemetry API
   slug: open-thingsboard-telemetry
 - collection_type: open
+  name: ThingsBoard Admin admin-controller tenant-controller API
+  slug: open-thingsboard-tenant-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller tenant-profile-controller API
+  slug: open-thingsboard-tenant-profile-controller-api
+- collection_type: open
   name: ThingsBoard Tenants and Customers API
   slug: open-thingsboard-tenants
+- collection_type: open
+  name: ThingsBoard Admin admin-controller trendz-controller API
+  slug: open-thingsboard-trendz-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller two-factor-auth-config-controller API
+  slug: open-thingsboard-two-factor-auth-config-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller two-factor-auth-controller API
+  slug: open-thingsboard-two-factor-auth-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller ui-settings-controller API
+  slug: open-thingsboard-ui-settings-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller usage-info-controller API
+  slug: open-thingsboard-usage-info-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller user-controller API
+  slug: open-thingsboard-user-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller widget-type-controller API
+  slug: open-thingsboard-widget-type-controller-api
+- collection_type: open
+  name: ThingsBoard Admin admin-controller widgets-bundle-controller API
+  slug: open-thingsboard-widgets-bundle-controller-api
 common:
 - group: build
   title: ''
@@ -701,7 +878,7 @@ plans:
 - name: Thingsboard Plans Pricing
   plan_count: 15
   slug: thingsboard-plans-pricing
-random_paper: 93
+random_paper: 130
 rate_limits:
 - limit_count: 0
   name: Thingsboard Rate Limits
@@ -743,7 +920,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/screenshots/thingsboard-2026-06-20T195300.png
 security:

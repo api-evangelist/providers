@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 5
@@ -64,7 +64,47 @@ apis:
 - description: The Users API from Ethyreal Bio — 21 operation(s) over WordPress author accounts and their application passwords. The route is authentication-gated; an anonymous GET returns HTTP 403 rest_user_cannot_
   name: Ethyreal Bio Users API
   slug: ethyreal-bio-users-api
-artifact_total: 17
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) Comments API
+  slug: open-ethyreal-bio-comments-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) Discovery API
+  slug: open-ethyreal-bio-discovery-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) FAQ API
+  slug: open-ethyreal-bio-faq-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) Media API
+  slug: open-ethyreal-bio-media-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) News API
+  slug: open-ethyreal-bio-news-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) Pages API
+  slug: open-ethyreal-bio-pages-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) People API
+  slug: open-ethyreal-bio-people-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) Portfolio API
+  slug: open-ethyreal-bio-portfolio-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) Search API
+  slug: open-ethyreal-bio-search-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) Settings API
+  slug: open-ethyreal-bio-settings-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) Taxonomy API
+  slug: open-ethyreal-bio-taxonomy-api
+- collection_type: open
+  name: Ethyreal Bio Content API (WordPress REST wp/v2) Users API
+  slug: open-ethyreal-bio-users-api
 common:
 - group: agent
   title: ''
@@ -175,7 +215,7 @@ plans:
 - name: Ethyreal Bio Plans Pricing
   plan_count: 0
   slug: ethyreal-bio-plans-pricing
-random_paper: 21
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Ethyreal Bio Rate Limits
@@ -183,6 +223,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 54.1
@@ -190,6 +231,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 32.5
   regulatory:
     applies: true
     matched_via: tags
@@ -197,7 +239,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Ethyreal Bio Authentication

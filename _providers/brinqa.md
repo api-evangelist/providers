@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: GraphQL API for the Brinqa Platform. Query assets, findings, hosts, tickets, and vulnerabilities using GraphQL and the Brinqa Query Language (BQL). Bearer-token authentication; the endpoint is per-ten
@@ -108,7 +108,7 @@ overview: 'Brinqa publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Brinqa''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 37
+random_paper: 41
 score:
   band: emerging
   composite: 22.9
@@ -122,7 +122,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brinqa/refs/heads/main/screenshots/brinqa-2026-07-25T203912.png
 security:

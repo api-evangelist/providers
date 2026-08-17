@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Restaurant floor table layout.
   name: Lavu Tables API
   slug: lavu-tables-api
-artifact_total: 35
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lavu (POSLavu) Inventory API
+  slug: open-lavu-inventory-api
+- collection_type: open
+  name: Lavu (POSLavu) Inventory Menu API
+  slug: open-lavu-menu-api
+- collection_type: open
+  name: Lavu (POSLavu) Inventory Orders API
+  slug: open-lavu-orders-api
 - collection_type: open
   name: Lavu (POSLavu) API
   slug: open-lavu-poslavu-api
+- collection_type: open
+  name: Lavu (POSLavu) Inventory Tables API
+  slug: open-lavu-tables-api
 common:
 - group: agent
   title: ''
@@ -203,7 +218,7 @@ plans:
 - name: Lavu Plans Pricing
   plan_count: 4
   slug: lavu-plans-pricing
-random_paper: 80
+random_paper: 142
 rate_limits:
 - limit_count: 1
   name: Lavu Rate Limits
@@ -251,7 +266,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/screenshots/lavu-2026-06-20T184344.png
 security:

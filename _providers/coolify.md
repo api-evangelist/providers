@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -95,8 +95,65 @@ apis:
 - description: The Version API from Coolify — 1 operation(s) for version.
   name: Coolify Version API
   slug: coolify-version-api
-artifact_total: 39
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coolify Applications API
+  slug: open-coolify-applications-api
+- collection_type: open
+  name: Coolify Applications Cloud Tokens API
+  slug: open-coolify-cloud-tokens-api
+- collection_type: open
+  name: Coolify Applications Databases API
+  slug: open-coolify-databases-api
+- collection_type: open
+  name: Coolify Applications Deployments API
+  slug: open-coolify-deployments-api
+- collection_type: open
+  name: Coolify Applications Disable API
+  slug: open-coolify-disable-api
+- collection_type: open
+  name: Coolify Applications Enable API
+  slug: open-coolify-enable-api
+- collection_type: open
+  name: Coolify Applications GitHub Apps API
+  slug: open-coolify-github-apps-api
+- collection_type: open
+  name: Coolify Applications Health API
+  slug: open-coolify-health-api
+- collection_type: open
+  name: Coolify Applications Hetzner API
+  slug: open-coolify-hetzner-api
+- collection_type: open
+  name: Coolify Applications Mcp API
+  slug: open-coolify-mcp-api
+- collection_type: open
+  name: Coolify Applications Private Keys API
+  slug: open-coolify-private-keys-api
+- collection_type: open
+  name: Coolify Applications Projects API
+  slug: open-coolify-projects-api
+- collection_type: open
+  name: Coolify Applications Resources API
+  slug: open-coolify-resources-api
+- collection_type: open
+  name: Coolify Applications Scheduled Tasks API
+  slug: open-coolify-scheduled-tasks-api
+- collection_type: open
+  name: Coolify Applications Servers API
+  slug: open-coolify-servers-api
+- collection_type: open
+  name: Coolify Applications Services API
+  slug: open-coolify-services-api
+- collection_type: open
+  name: Coolify Applications Teams API
+  slug: open-coolify-teams-api
+- collection_type: open
+  name: Coolify Applications Version API
+  slug: open-coolify-version-api
 - collection_type: open
   name: Coolify
   slug: open-coolify
@@ -238,7 +295,7 @@ overview: 'Coolify publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Coolify''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 19 more developer resources.'
-random_paper: 37
+random_paper: 12
 score:
   band: developing
   composite: 43.9
@@ -259,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/screenshots/coolify-2026-06-20T175004.png
 security:

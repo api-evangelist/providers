@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -116,7 +116,7 @@ overview: 'BlueLeaf is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BlueLeaf''s developer surface includes documentation, pricing, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 112
+random_paper: 87
 scopes:
 - name: Blueleaf Scopes
   scope_count: 3
@@ -137,7 +137,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueleaf/refs/heads/main/screenshots/blueleaf-2026-07-25T203457.png
 security:

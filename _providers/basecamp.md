@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -99,18 +99,78 @@ apis:
 - description: Manage webhook subscriptions for a project
   name: Basecamp Webhooks API
   slug: basecamp-webhooks-api
-artifact_total: 188
+artifact_total: 208
 asyncapis:
 - description: 'The Basecamp webhook system delivers real-time HTTP notifications to registered HTTPS endpoints when events occur within a Basecamp project. Webhooks are configured per project with a payload URL and '
   name: Basecamp Webhook Events
   slug: basecamp-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Basecamp API
   slug: open-basecamp-api
 - collection_type: open
+  name: Basecamp Authorization API
+  slug: open-basecamp-authorization-api
+- collection_type: open
+  name: Basecamp Authorization Campfires API
+  slug: open-basecamp-campfires-api
+- collection_type: open
+  name: Basecamp Authorization Card Tables API
+  slug: open-basecamp-card-tables-api
+- collection_type: open
+  name: Basecamp Authorization Comments API
+  slug: open-basecamp-comments-api
+- collection_type: open
+  name: Basecamp Authorization Documents API
+  slug: open-basecamp-documents-api
+- collection_type: open
+  name: Basecamp Authorization Identity API
+  slug: open-basecamp-identity-api
+- collection_type: open
+  name: Basecamp Authorization Messages API
+  slug: open-basecamp-messages-api
+- collection_type: open
   name: Basecamp OAuth API
   slug: open-basecamp-oauth
+- collection_type: open
+  name: Basecamp Authorization People API
+  slug: open-basecamp-people-api
+- collection_type: open
+  name: Basecamp Authorization Projects API
+  slug: open-basecamp-projects-api
+- collection_type: open
+  name: Basecamp Authorization Recordings API
+  slug: open-basecamp-recordings-api
+- collection_type: open
+  name: Basecamp Authorization Schedule Entries API
+  slug: open-basecamp-schedule-entries-api
+- collection_type: open
+  name: Basecamp Authorization Schedules API
+  slug: open-basecamp-schedules-api
+- collection_type: open
+  name: Basecamp Authorization Subscriptions API
+  slug: open-basecamp-subscriptions-api
+- collection_type: open
+  name: Basecamp Authorization Templates API
+  slug: open-basecamp-templates-api
+- collection_type: open
+  name: Basecamp Authorization To-Do Lists API
+  slug: open-basecamp-to-do-lists-api
+- collection_type: open
+  name: Basecamp Authorization To-Dos API
+  slug: open-basecamp-to-dos-api
+- collection_type: open
+  name: Basecamp Authorization Token API
+  slug: open-basecamp-token-api
+- collection_type: open
+  name: Basecamp Authorization Uploads API
+  slug: open-basecamp-uploads-api
+- collection_type: open
+  name: Basecamp Authorization Webhooks API
+  slug: open-basecamp-webhooks-api
 common:
 - group: agent
   title: ''
@@ -640,7 +700,7 @@ plans:
 - name: Basecamp Plans Pricing
   plan_count: 4
   slug: basecamp-plans-pricing
-random_paper: 108
+random_paper: 83
 rate_limits:
 - limit_count: 2
   name: Basecamp Rate Limits
@@ -690,7 +750,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/screenshots/basecamp-2026-06-20T173011.png
 security:

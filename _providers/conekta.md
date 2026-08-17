@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 0
@@ -114,11 +114,89 @@ apis:
 - description: The Webhooks API from Conekta — 3 operation(s) for webhooks.
   name: Conekta Webhooks API
   slug: conekta-webhooks-api
-artifact_total: 62
+artifact_total: 88
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Conekta Antifraud API
+  slug: open-conekta-antifraud-api
+- collection_type: open
+  name: Conekta Antifraud Api Keys API
+  slug: open-conekta-api-keys-api
 - collection_type: open
   name: Conekta API
   slug: open-conekta-api
+- collection_type: open
+  name: Conekta Antifraud Balances API
+  slug: open-conekta-balances-api
+- collection_type: open
+  name: Conekta Antifraud Charges API
+  slug: open-conekta-charges-api
+- collection_type: open
+  name: Conekta Antifraud Companies API
+  slug: open-conekta-companies-api
+- collection_type: open
+  name: Conekta Antifraud Customers API
+  slug: open-conekta-customers-api
+- collection_type: open
+  name: Conekta Antifraud Discounts API
+  slug: open-conekta-discounts-api
+- collection_type: open
+  name: Conekta Antifraud Events API
+  slug: open-conekta-events-api
+- collection_type: open
+  name: Conekta Antifraud Logs API
+  slug: open-conekta-logs-api
+- collection_type: open
+  name: Conekta Antifraud Orders API
+  slug: open-conekta-orders-api
+- collection_type: open
+  name: Conekta Antifraud Payment Link API
+  slug: open-conekta-payment-link-api
+- collection_type: open
+  name: Conekta Antifraud Payment Methods API
+  slug: open-conekta-payment-methods-api
+- collection_type: open
+  name: Conekta Antifraud Payout Orders API
+  slug: open-conekta-payout-orders-api
+- collection_type: open
+  name: Conekta Antifraud Plans API
+  slug: open-conekta-plans-api
+- collection_type: open
+  name: Conekta Antifraud Products API
+  slug: open-conekta-products-api
+- collection_type: open
+  name: Conekta Antifraud Shipping Contacts API
+  slug: open-conekta-shipping-contacts-api
+- collection_type: open
+  name: Conekta Antifraud Shippings API
+  slug: open-conekta-shippings-api
+- collection_type: open
+  name: Conekta Antifraud Subscriptions API
+  slug: open-conekta-subscriptions-api
+- collection_type: open
+  name: Conekta Antifraud Subscriptions - Customer Portal API
+  slug: open-conekta-subscriptions-customer-portal-api
+- collection_type: open
+  name: Conekta Antifraud Taxes API
+  slug: open-conekta-taxes-api
+- collection_type: open
+  name: Conekta Antifraud Tokens API
+  slug: open-conekta-tokens-api
+- collection_type: open
+  name: Conekta Antifraud Transactions API
+  slug: open-conekta-transactions-api
+- collection_type: open
+  name: Conekta Antifraud Transfers API
+  slug: open-conekta-transfers-api
+- collection_type: open
+  name: Conekta Antifraud Webhook keys API
+  slug: open-conekta-webhook-keys-api
+- collection_type: open
+  name: Conekta Antifraud Webhooks API
+  slug: open-conekta-webhooks-api
 common:
 - group: agent
   title: ''
@@ -356,7 +434,7 @@ plans:
 - name: Conekta Plans Pricing
   plan_count: 5
   slug: conekta-plans-pricing
-random_paper: 21
+random_paper: 145
 rate_limits:
 - limit_count: 2
   name: Conekta Rate Limits
@@ -404,7 +482,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/screenshots/conekta-2026-06-20T174849.png
 security:

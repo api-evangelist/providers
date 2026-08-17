@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 2
@@ -57,11 +57,17 @@ apis:
 - description: The projects API from Google Cloud Healthcare — 111 operation(s) for projects.
   name: Google Cloud Healthcare projects API
   slug: google-cloud-healthcare-projects-api
-artifact_total: 169
+artifact_total: 171
 collections:
 - collection_type: postman
   name: Cloud Healthcare projects API
   slug: postman-google-cloud-healthcare-projects-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloud Healthcare projects API
+  slug: open-google-cloud-healthcare-projects-api
 common:
 - group: build
   title: ''
@@ -619,7 +625,7 @@ plans:
 - name: Google Cloud Healthcare Plans Pricing
   plan_count: 6
   slug: google-cloud-healthcare-plans-pricing
-random_paper: 23
+random_paper: 68
 rate_limits:
 - limit_count: 13
   name: Google Cloud Healthcare Rate Limits
@@ -664,7 +670,7 @@ score:
     regime_id: health
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/screenshots/google-cloud-healthcare-2026-06-20T182114.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: ShiftMed markets an API that lets a hospital, health system or post-acute facility tap its network of credentialed CNAs, LPNs and RNs and fill open shifts on demand from within its existing scheduling
@@ -114,7 +114,7 @@ overview: 'ShiftMed publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   ShiftMed''s developer surface includes support, engineering blog, signup flow, YouTube channel, and 11 more developer resources.'
-random_paper: 12
+random_paper: 107
 score:
   band: emerging
   composite: 16.9
@@ -134,7 +134,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST/JSON API for Brazilian financial-market data — equities, FIIs, fundamentals, dividends, financial statements, and macro series. Authenticated via X-API-Key header.
@@ -43,7 +43,7 @@ name: Bolsai
 nav: Providers
 network: true
 overview: 'Bolsai publishes 1 API on the [APIs.io](https://apis.io/) network: Financial Data API. Tagged areas include finance, financial-data, market-data, stocks-equities, and real-estate-funds.'
-random_paper: 34
+random_paper: 38
 score:
   band: minimal
   composite: 12.2
@@ -63,7 +63,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/screenshots/bolsai-2026-07-25T203539.png
 slug: bolsai

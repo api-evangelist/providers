@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 44.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -151,7 +151,99 @@ arazzos:
 - description: Discover server capabilities, locate a patient, then pull the US Core clinical summary - problems, vitals/labs, medications, and allergies.
   name: Canvas Medical SMART on FHIR US Core Retrieval
   slug: canvas-medical-smart-us-core-patient-retrieval-workflow
-artifact_total: 51
+artifact_total: 81
+asyncapis:
+- description: ''
+  name: Canvas Medical Events Webhooks
+  slug: canvas-medical-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance API
+  slug: open-canvas-medical-allergyintolerance-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Appointment API
+  slug: open-canvas-medical-appointment-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance CarePlan API
+  slug: open-canvas-medical-careplan-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance CareTeam API
+  slug: open-canvas-medical-careteam-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Claim API
+  slug: open-canvas-medical-claim-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Communication API
+  slug: open-canvas-medical-communication-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Condition API
+  slug: open-canvas-medical-condition-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Consent API
+  slug: open-canvas-medical-consent-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Coverage API
+  slug: open-canvas-medical-coverage-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance DiagnosticReport API
+  slug: open-canvas-medical-diagnosticreport-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance DocumentReference API
+  slug: open-canvas-medical-documentreference-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Encounter API
+  slug: open-canvas-medical-encounter-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Goal API
+  slug: open-canvas-medical-goal-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Immunization API
+  slug: open-canvas-medical-immunization-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Location API
+  slug: open-canvas-medical-location-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance MedicationRequest API
+  slug: open-canvas-medical-medicationrequest-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Metadata API
+  slug: open-canvas-medical-metadata-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Observation API
+  slug: open-canvas-medical-observation-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Organization API
+  slug: open-canvas-medical-organization-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Patient API
+  slug: open-canvas-medical-patient-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Practitioner API
+  slug: open-canvas-medical-practitioner-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Procedure API
+  slug: open-canvas-medical-procedure-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Questionnaire API
+  slug: open-canvas-medical-questionnaire-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance QuestionnaireResponse API
+  slug: open-canvas-medical-questionnaireresponse-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Schedule API
+  slug: open-canvas-medical-schedule-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance ServiceRequest API
+  slug: open-canvas-medical-servicerequest-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Slot API
+  slug: open-canvas-medical-slot-api
+- collection_type: open
+  name: Canvas Medical FHIR AllergyIntolerance Task API
+  slug: open-canvas-medical-task-api
 common:
 - group: agent
   title: ''
@@ -233,6 +325,110 @@ common:
   title: ''
   type: ArazzoWorkflows
   url: ''
+- group: build
+  title: ''
+  type: Packages
+  url: packages/canvas-medical-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/canvas-medical-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/canvas-medical-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/canvas-medical-components.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/canvas-medical-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/canvas-medical-fhir-service-base-urls-production.json
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/canvas-medical-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/canvas-medical-fhir-api-overlay.yaml
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/canvas-medical-events.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/canvas-medical-effects.proto
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/canvas-medical-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.canvasmedical.com/guides/platform-security-overview/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/canvas-medical-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/canvas-medical-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.canvasmedical.com/product-updates/important-dates/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/canvas-medical-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/canvas-medical-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/canvas-medical-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/canvas-medical-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/canvas-medical-events-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://docs.canvasmedical.com/product-updates/roadmap/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.canvasmedical.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.canvasmedical.com/api/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.canvasmedical.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.canvasmedical.com/terms
 created: '2026-06-13'
 description: Canvas Medical is a developer-first EHR platform built for virtual and value-based care, offering a comprehensive FHIR R4 REST API with 41 resources for clinical workflows, patient management, and care team coordination. The platform combines a standards-based FHIR API with a native Python SDK that enables plugins to execute synchronously within the EMR, supporting scheduling, charting, billing, and custom workflow automation across more than 650 clinical and operational events.
 examples:
@@ -264,22 +460,22 @@ jsonld:
   property_count: 59
   slug: canvas-medical-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-14'
 name: Canvas Medical
 nav: Providers
 network: true
 overview: 'Canvas Medical publishes 28 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, Appointment API, CarePlan API, and 25 more. Tagged areas include EHR, FHIR, Healthcare, Electronic Health Records, and Virtual Care.
 
 
-  The Canvas Medical catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Canvas Medical catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Canvas Medical''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, getting-started guide, release notes, and 12 more developer resources.'
+  Canvas Medical''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, getting-started guide, release notes, and 38 more developer resources.'
 plans:
 - name: Canvas Medical Plans Pricing
   plan_count: 2
   slug: canvas-medical-plans-pricing
-random_paper: 80
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Canvas Medical Rate Limits
@@ -295,20 +491,20 @@ rules:
   slug: canvas-medical-jsonschema-spectral-rules
 scopes:
 - name: Canvas Medical Scopes
-  scope_count: 11
+  scope_count: 20
   slug: canvas-medical-scopes
-  summary_line: 11 scopes · clientCredentials/authorizationCode
+  summary_line: 20 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 51.0
-  delta: 0.0
+  band: exemplar
+  composite: 73.7
+  delta: 22.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 66.9
-    developer_ergonomics: 43.5
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    commercial_clarity: 68.4
+    contract_quality: 77.4
+    developer_ergonomics: 78.3
+    discoverability: 92.6
+    governance: 79.2
+    operational_transparency: 57.9
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -322,16 +518,16 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 42.5
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/screenshots/canvas-medical-2026-06-20T173934.png
 security:
 - kind: authentication
   name: Canvas Medical Authentication
   slug: canvas-medical-authentication
-  summary_line: http/oauth2 · 3 schemes
+  summary_line: oauth2/http/openIdConnect · 3 schemes
 - kind: domain-security
   name: Canvas Medical Domain Security
   slug: canvas-medical-domain-security

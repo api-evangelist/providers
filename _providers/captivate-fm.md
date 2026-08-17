@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Read a user and list the shows they can access or manage.
   name: Captivate Users API
   slug: captivate-fm-users-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Captivate Analytics API
+  slug: open-captivate-fm-analytics-api
+- collection_type: open
+  name: Captivate Analytics Authentication API
+  slug: open-captivate-fm-authentication-api
+- collection_type: open
+  name: Captivate Analytics Episodes API
+  slug: open-captivate-fm-episodes-api
+- collection_type: open
+  name: Captivate Analytics Media API
+  slug: open-captivate-fm-media-api
+- collection_type: open
+  name: Captivate Analytics Shows API
+  slug: open-captivate-fm-shows-api
+- collection_type: open
+  name: Captivate Analytics Users API
+  slug: open-captivate-fm-users-api
 - collection_type: open
   name: Captivate API
   slug: open-captivate-fm
@@ -127,7 +148,7 @@ plans:
 - name: Captivate Fm Plans Pricing
   plan_count: 3
   slug: captivate-fm-plans-pricing
-random_paper: 17
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Captivate Fm Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/screenshots/captivate-fm-2026-07-25T204454.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: The Nodes API from Proxmox VE — 1 operation(s) for nodes.
   name: Proxmox VE Nodes API
   slug: proxmox-nodes-api
-artifact_total: 10
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Proxmox VE Access API
+  slug: open-proxmox-access-api
+- collection_type: open
+  name: Proxmox VE Access Cluster API
+  slug: open-proxmox-cluster-api
+- collection_type: open
+  name: Proxmox VE Access Containers API
+  slug: open-proxmox-containers-api
+- collection_type: open
+  name: Proxmox VE Access Nodes API
+  slug: open-proxmox-nodes-api
 - collection_type: open
   name: Proxmox VE API
   slug: open-proxmox
@@ -119,7 +134,7 @@ overview: 'Proxmox VE publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Proxmox VE''s developer surface includes authentication, documentation, pricing, GitHub presence, and 8 more developer resources.'
-random_paper: 77
+random_paper: 52
 score:
   band: emerging
   composite: 26.8
@@ -140,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/screenshots/proxmox-2026-06-20T192222.png
 security:

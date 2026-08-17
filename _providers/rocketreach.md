@@ -11,24 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-12'
+  score: 57.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,17 +48,30 @@ apis:
 - description: The People Data API API from RocketReach — 9 operation(s) for people data api.
   name: RocketReach People Data API API
   slug: rocketreach-people-data-api-api
-artifact_total: 24
+artifact_total: 33
+asyncapis:
+- description: ''
+  name: Rocketreach Webhooks
+  slug: rocketreach-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: RocketReach Account API
   slug: open-rocketreach-account-api
+- collection_type: open
+  name: RocketReach Account Company Data API API
+  slug: open-rocketreach-company-data-api-api
 - collection_type: open
   name: RocketReach Company Lookup API
   slug: open-rocketreach-company-lookup-api
 - collection_type: open
   name: RocketReach Company Search API
   slug: open-rocketreach-company-search-api
+- collection_type: open
+  name: RocketReach Account People Data API API
+  slug: open-rocketreach-people-data-api-api
 - collection_type: open
   name: RocketReach People Lookup API
   slug: open-rocketreach-people-lookup-api
@@ -128,7 +142,7 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://rocketreach.co/api
+  url: https://rocketreach.co/pricing
 - group: start
   title: ''
   type: Signup
@@ -148,27 +162,23 @@ common:
 - group: other
   title: ''
   type: Company
-  url: https://rocketreach.co/about
+  url: https://rocketreach.co/company
 - group: company
   title: ''
   type: Careers
   url: https://rocketreach.co/careers
-- group: company
-  title: ''
-  type: Press
-  url: https://rocketreach.co/press
 - group: auth
   title: ''
   type: TrustCenter
-  url: https://rocketreach.co/security
+  url: https://trust.rocketreach.co
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://rocketreach.co/legal/privacy-policy
+  url: https://rocketreach.co/privacy
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://rocketreach.co/legal/terms-of-use
+  url: https://rocketreach.co/terms
 - group: company
   title: ''
   type: LinkedIn
@@ -185,6 +195,110 @@ common:
   title: ''
   type: YouTube
   url: https://www.youtube.com/@rocketreach
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/rocketreach-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/rocketreach-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/rocketreach-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/rocketreach-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/rocketreach-api-catalog.json
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/rocketreach-security.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/rocketreach-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/rocketreach-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/rocketreach-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/rocketreach-plans-pricing.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/rocketreach-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/rocketreach-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.rocketreach.co
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/rocketreach-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/rocketreach-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/rocketreach-conformance.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/rocketreach-scopes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/rocketreach-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/rocketreach-webhooks.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/rocketreach-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/rocketreach-trust-center.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/rocketreach
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.rocketreach.co/reference/rocketreach-api
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.rocketreach.co/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://rocketreach.co/signup
 created: '2026-05-25'
 description: RocketReach is a Seattle-based B2B contact data and sales intelligence provider that maintains a database of 700M+ professional profiles and 60M+ companies and exposes it through a REST API for email, phone, and social-handle discovery plus company firmographics. The platform is used for sales prospecting, recruiting, marketing enrichment, and CRM hydration, with results returned as structured profile and company objects and optional webhook delivery for asynchronous lookups.
 features:
@@ -202,26 +316,46 @@ features:
 - Salesforce, HubSpot, Outreach, SalesLoft, Zapier, and Chrome extension integrations
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rocketreach.png
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: rocketreach-mcp.yml
+  slug: rocketreach-mcpyml
+modified: '2026-08-13'
 name: RocketReach
 nav: Providers
 network: true
 overview: 'RocketReach publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Company Data API API, and People Data API API. Tagged areas include B2B, Contact Data, Email Lookup, Phone Lookup, and Sales Intelligence.
 
 
-  RocketReach''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, pricing, signup flow, and 23 more developer resources.'
-random_paper: 83
+  The RocketReach catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  RocketReach''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, pricing, signup flow, and 48 more developer resources.'
+plans:
+- name: Rocketreach Plans Pricing
+  plan_count: 4
+  slug: rocketreach-plans-pricing
+random_paper: 120
+rate_limits:
+- limit_count: 0
+  name: Rocketreach Rate Limits
+  slug: rocketreach-rate-limits
+scopes:
+- name: Rocketreach Scopes
+  scope_count: 0
+  slug: rocketreach-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: exemplar
+  composite: 66.3
+  delta: 23.5
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 62.7
-    developer_ergonomics: 45.7
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 7.9
+    commercial_clarity: 84.2
+    contract_quality: 71.6
+    developer_ergonomics: 73.9
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 47.4
   previous_composite: 42.8
   provenance:
     agentic_access: derived
@@ -231,14 +365,14 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/screenshots/rocketreach-2026-06-20T193159.png
 security:
 - kind: authentication
   name: Rocketreach Authentication
   slug: rocketreach-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Rocketreach Domain Security
   slug: rocketreach-domain-security
@@ -247,6 +381,10 @@ security:
   name: Rocketreach Vulnerability Disclosure
   slug: rocketreach-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Rocketreach Trust Center
+  slug: rocketreach-trust-center
+  summary_line: trust center published
 slug: rocketreach
 tags:
 - B2B

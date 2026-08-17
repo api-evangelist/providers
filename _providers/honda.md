@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Honda's customer satisfaction API includes roadside assistance, maintenance programs, and vehicle-service contracts for customers and dealers.
@@ -76,7 +76,7 @@ plans:
 - name: Honda Plans Pricing
   plan_count: 3
   slug: honda-plans-pricing
-random_paper: 42
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Honda Rate Limits
@@ -94,7 +94,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 21.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honda/refs/heads/main/screenshots/honda-2026-06-20T182819.png
 security:

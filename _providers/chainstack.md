@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1123
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ apis:
 - description: The Zkevm Methods API from Chainstack — 8 operation(s) for zkevm methods.
   name: Chainstack Zkevm Methods API
   slug: chainstack-zkevm-methods-api
-artifact_total: 104
+artifact_total: 136
 asyncapis:
 - description: AsyncAPI 2.6 specification for Chainstack's JSON-RPC WebSocket (WSS) subscription APIs. Chainstack-managed nodes expose a persistent WebSocket endpoint per node that accepts JSON-RPC 2.0 messages. Cli
   name: Chainstack RPC WebSocket APIs
@@ -238,6 +238,15 @@ collections:
   name: Chainstack Arbitrum Node Account Info Zkevm Methods API
   slug: postman-chainstack-zkevm-methods-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info API
+  slug: open-chainstack-account-info-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Accounts Info API
+  slug: open-chainstack-accounts-info-api
+- collection_type: open
   name: Chainstack Arbitrum Node API
   slug: open-chainstack-arbitrum-node-api
 - collection_type: open
@@ -253,11 +262,32 @@ collections:
   name: Chainstack Bitcoin Node API
   slug: open-chainstack-bitcoin-node-api
 - collection_type: open
+  name: Chainstack Arbitrum Node Account Info Blocks Info API
+  slug: open-chainstack-blocks-info-api
+- collection_type: open
   name: Chainstack BNB Smart Chain Node API
   slug: open-chainstack-bnb-node-api
 - collection_type: open
+  name: Chainstack Arbitrum Node Account Info Chain Info API
+  slug: open-chainstack-chain-info-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Client Info API
+  slug: open-chainstack-client-info-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Configuration Info API
+  slug: open-chainstack-configuration-info-api
+- collection_type: open
   name: Chainstack Cronos Node API
   slug: open-chainstack-cronos-node-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Debug And Trace API
+  slug: open-chainstack-debug-and-trace-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Debug API
+  slug: open-chainstack-debug-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Deployment Options API
+  slug: open-chainstack-deployment-options-api
 - collection_type: open
   name: Chainstack Ethereum Beacon Chain API
   slug: open-chainstack-ethereum-beacon-chain-api
@@ -265,23 +295,56 @@ collections:
   name: Chainstack Ethereum Node API
   slug: open-chainstack-ethereum-node-api
 - collection_type: open
+  name: Chainstack Arbitrum Node Account Info Events API
+  slug: open-chainstack-events-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Execute Transactions API
+  slug: open-chainstack-execute-transactions-api
+- collection_type: open
   name: Chainstack Fantom Node API
   slug: open-chainstack-fantom-node-api
 - collection_type: open
-  name: Chainstack Faucet API
+  name: Chainstack Arbitrum Node Account Info faucet API
   slug: open-chainstack-faucet-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Filter Handling API
+  slug: open-chainstack-filter-handling-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Gas Data API
+  slug: open-chainstack-gas-data-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info General API
+  slug: open-chainstack-general-api
 - collection_type: open
   name: Chainstack Gnosis Node API
   slug: open-chainstack-gnosis-node-api
 - collection_type: open
+  name: Chainstack Arbitrum Node Account Info History API
+  slug: open-chainstack-history-api
+- collection_type: open
   name: Chainstack Hyperliquid Node API
   slug: open-chainstack-hyperliquid-node-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Logs And Events API
+  slug: open-chainstack-logs-and-events-api
 - collection_type: open
   name: Chainstack Monad Node API
   slug: open-chainstack-monad-node-api
 - collection_type: open
+  name: Chainstack Arbitrum Node Account Info Network API
+  slug: open-chainstack-network-api
+- collection_type: open
+  name: Chainstack Arbitrum Account Info Node API
+  slug: open-chainstack-node-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Node V2 API
+  slug: open-chainstack-node-v2-api
+- collection_type: open
   name: Chainstack Optimism Node API
   slug: open-chainstack-optimism-node-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Organization API
+  slug: open-chainstack-organization-api
 - collection_type: open
   name: Chainstack Plasma Node API
   slug: open-chainstack-plasma-node-api
@@ -295,6 +358,12 @@ collections:
   name: Chainstack Polygon zkEVM Node API
   slug: open-chainstack-polygon-zkevm-node-api
 - collection_type: open
+  name: Chainstack Arbitrum Node Account Info Project API
+  slug: open-chainstack-project-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Project V2 API
+  slug: open-chainstack-project-v2-api
+- collection_type: open
   name: Chainstack Ronin Node API
   slug: open-chainstack-ronin-node-api
 - collection_type: open
@@ -304,14 +373,41 @@ collections:
   name: Chainstack Starknet Node API
   slug: open-chainstack-starknet-node-api
 - collection_type: open
+  name: Chainstack Arbitrum Node Account Info State API
+  slug: open-chainstack-state-api
+- collection_type: open
   name: Chainstack Tempo Node API
   slug: open-chainstack-tempo-node-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Tempo Specific API
+  slug: open-chainstack-tempo-specific-api
 - collection_type: open
   name: Chainstack TON Node API
   slug: open-chainstack-ton-node-api
 - collection_type: open
+  name: Chainstack Arbitrum Node Account Info Transaction Info API
+  slug: open-chainstack-transaction-info-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Transactions Info API
+  slug: open-chainstack-transactions-info-api
+- collection_type: open
   name: Chainstack TRON Node API
   slug: open-chainstack-tron-node-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Txpool API
+  slug: open-chainstack-txpool-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info V2 API
+  slug: open-chainstack-v2-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info V3 API
+  slug: open-chainstack-v3-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Validatiors Info API
+  slug: open-chainstack-validatiors-info-api
+- collection_type: open
+  name: Chainstack Arbitrum Node Account Info Zkevm Methods API
+  slug: open-chainstack-zkevm-methods-api
 - collection_type: open
   name: Chainstack zkSync Era Node API
   slug: open-chainstack-zksync-node-api
@@ -534,7 +630,7 @@ plans:
 - name: Chainstack Plans Pricing
   plan_count: 6
   slug: chainstack-plans-pricing
-random_paper: 89
+random_paper: 6
 rate_limits:
 - limit_count: 10
   name: Chainstack Rate Limits
@@ -584,7 +680,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/screenshots/chainstack-2026-06-20T174203.png
 security:

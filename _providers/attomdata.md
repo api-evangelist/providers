@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,8 +93,11 @@ apis:
 - description: School assignments and attendance-zone associations.
   name: ATTOM School API
   slug: attomdata-school-api
-artifact_total: 43
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: ATTOM Area API
   slug: open-attom-area-api
@@ -110,6 +113,60 @@ collections:
 - collection_type: open
   name: ATTOM Property API
   slug: open-attom-property-api
+- collection_type: open
+  name: ATTOM Area All Events API
+  slug: open-attomdata-all-events-api
+- collection_type: open
+  name: ATTOM Area All Events Assessment API
+  slug: open-attomdata-assessment-api
+- collection_type: open
+  name: ATTOM Area All Events AVM API
+  slug: open-attomdata-avm-api
+- collection_type: open
+  name: ATTOM Area All Events Boundary API
+  slug: open-attomdata-boundary-api
+- collection_type: open
+  name: ATTOM Area All Events Building Permits API
+  slug: open-attomdata-building-permits-api
+- collection_type: open
+  name: ATTOM Area All Events Community API
+  slug: open-attomdata-community-api
+- collection_type: open
+  name: ATTOM Area All Events Hierarchy API
+  slug: open-attomdata-hierarchy-api
+- collection_type: open
+  name: ATTOM Area All Events Home Equity API
+  slug: open-attomdata-home-equity-api
+- collection_type: open
+  name: ATTOM Area All Events Location API
+  slug: open-attomdata-location-api
+- collection_type: open
+  name: ATTOM Area All Events Lookup API
+  slug: open-attomdata-lookup-api
+- collection_type: open
+  name: ATTOM Area All Events Parcel Tiles API
+  slug: open-attomdata-parcel-tiles-api
+- collection_type: open
+  name: ATTOM Area All Events POI Categories API
+  slug: open-attomdata-poi-categories-api
+- collection_type: open
+  name: ATTOM Area All Events POI Search API
+  slug: open-attomdata-poi-search-api
+- collection_type: open
+  name: ATTOM Area All Events Pre-Foreclosure API
+  slug: open-attomdata-pre-foreclosure-api
+- collection_type: open
+  name: ATTOM Area All Events Property API
+  slug: open-attomdata-property-api
+- collection_type: open
+  name: ATTOM Area All Events Sale API
+  slug: open-attomdata-sale-api
+- collection_type: open
+  name: ATTOM Area All Events Sales Trends API
+  slug: open-attomdata-sales-trends-api
+- collection_type: open
+  name: ATTOM Area All Events School API
+  slug: open-attomdata-school-api
 common:
 - group: agent
   title: ''
@@ -306,7 +363,7 @@ plans:
 - name: Attomdata Plans Pricing
   plan_count: 4
   slug: attomdata-plans-pricing
-random_paper: 119
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Attomdata Rate Limits
@@ -354,7 +411,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/screenshots/attomdata-2026-06-20T172541.png
 security:

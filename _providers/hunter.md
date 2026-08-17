@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
     mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-12'
+  score: 62.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -106,14 +106,57 @@ arazzos:
 - description: Verify an email, add it to a campaign when valid, then start the campaign.
   name: Hunter Verify and Add to Campaign
   slug: hunter-verify-add-to-campaign-workflow
-artifact_total: 140
+artifact_total: 157
+asyncapis:
+- description: ''
+  name: Hunter Webhooks
+  slug: hunter-webhooks
 collections:
 - collection_type: postman
   name: Hunter API
   slug: postman-hunter-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hunter Account API
+  slug: open-hunter-account-api
+- collection_type: open
   name: Hunter API
   slug: open-hunter-api
+- collection_type: open
+  name: Hunter Account Campaigns API
+  slug: open-hunter-campaigns-api
+- collection_type: open
+  name: Hunter Account Combined Enrichment API
+  slug: open-hunter-combined-enrichment-api
+- collection_type: open
+  name: Hunter Account Company Enrichment API
+  slug: open-hunter-company-enrichment-api
+- collection_type: open
+  name: Hunter Account Discover API
+  slug: open-hunter-discover-api
+- collection_type: open
+  name: Hunter Account Domain Search API
+  slug: open-hunter-domain-search-api
+- collection_type: open
+  name: Hunter Account Email Count API
+  slug: open-hunter-email-count-api
+- collection_type: open
+  name: Hunter Account Email Enrichment API
+  slug: open-hunter-email-enrichment-api
+- collection_type: open
+  name: Hunter Account Email Finder API
+  slug: open-hunter-email-finder-api
+- collection_type: open
+  name: Hunter Account Email Verifier API
+  slug: open-hunter-email-verifier-api
+- collection_type: open
+  name: Hunter Account Leads API
+  slug: open-hunter-leads-api
+- collection_type: open
+  name: Hunter Account Leads Lists API
+  slug: open-hunter-leads-lists-api
 common:
 - group: agent
   title: ''
@@ -187,6 +230,10 @@ common:
   title: ''
   type: OpenAPI
   url: openapi/_original/hunter-api-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hunter-full-overlay.yaml
 - group: docs
   title: ''
   type: JSONSchema
@@ -250,9 +297,121 @@ common:
 - group: agent
   title: ''
   type: MCPServer
-  url: https://github.com/hunter-io/hunter-mcp
+  url: mcp/hunter-mcp.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.hunter.io/mcp
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/hunter-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/hunter-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hunter-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hunter-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/hunter-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/hunter-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/hunter-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hunter-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/hunter-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/hunter-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hunter-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://help.hunter.io/en/articles/1890029-gdpr-compliance
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/hunter-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/hunter-webhooks.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/hunter-changelog.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/hunter-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://hunter.io/security-policy
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/hunter-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/hunter-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/hunter-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/hunter-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/hunter-spectral-rules.yml
+- group: build
+  title: ''
+  type: Postman
+  url: postman/hunter-api.postman_collection.json
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://hunter.io/api-documentation/v2
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://hunter.io/api
+- group: commercial
+  title: ''
+  type: DataProcessingAgreement
+  url: https://hunter.io/data-processing-agreement
 created: '2024-01-01'
-description: Hunter is an email finding and verification service that helps find professional email addresses associated with a domain and verify email deliverability.
+description: Hunter is an email finding, verification and B2B prospecting platform. Its v2 API finds the professional email addresses associated with a company domain, predicts an address for a named person, verifies deliverability, enriches people and companies, discovers target accounts by natural-language query or structured filter, and manages the leads, lead lists and outreach sequences built from those results. Hunter also operates a first-party remote MCP server at https://mcp.hunter.io/mcp exposing roughly 100 tools, and publishes its own packaged Agent Skills, making it one of the few providers whose agent surface is wider than its documented REST contract.
 examples:
 - key_count: 9
   name: Hunter Account Result Example
@@ -561,24 +720,27 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: MCP Server
-  slug: mcp-server
-modified: '2026-05-19'
+  name: Hunter Remote MCP Server
+  slug: hunter-remote-mcp-server
+- description: ''
+  name: Hunter Remote MCP Endpoint
+  slug: hunter-remote-mcp-endpoint
+modified: '2026-08-13'
 name: Hunter
 nav: Providers
 network: true
 overview: 'Hunter publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Campaigns API, Combined Enrichment API, and 9 more. Tagged areas include Contact Discovery, Email, Email Verification, Lead Generation, and Prospecting.
 
 
-  The Hunter catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Hunter catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Hunter''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, signup flow, changelog, and 27 more developer resources.'
+  Hunter''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, signup flow, changelog, and 56 more developer resources.'
 plans:
 - name: Hunter Plans Pricing
   plan_count: 6
   slug: hunter-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 15
   name: Hunter Rate Limits
@@ -600,17 +762,22 @@ rules:
     info: 1
     warn: 8
   slug: hunter-spectral-rules
+scopes:
+- name: Hunter Scopes
+  scope_count: 2
+  slug: hunter-scopes
+  summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: strong
-  composite: 58.4
-  delta: 0.0
+  band: exemplar
+  composite: 75.1
+  delta: 16.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.9
-    developer_ergonomics: 47.8
-    discoverability: 64.8
-    governance: 58.3
-    operational_transparency: 44.7
+    commercial_clarity: 68.4
+    contract_quality: 78.9
+    developer_ergonomics: 67.4
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 63.2
   previous_composite: 58.4
   provenance:
     agentic_access: derived
@@ -620,18 +787,22 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/screenshots/hunter-2026-06-20T182943.png
 security:
 - kind: authentication
   name: Hunter Authentication
   slug: hunter-authentication
-  summary_line: apiKey/http · 3 schemes
+  summary_line: apiKey/http/oauth2 · 4 schemes
 - kind: domain-security
   name: Hunter Domain Security
   slug: hunter-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Hunter Vulnerability Disclosure
+  slug: hunter-vulnerability-disclosure
+  summary_line: Hackerone · security.txt
 slug: hunter
 tags:
 - Contact Discovery

@@ -14,12 +14,12 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 45.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -39,14 +39,20 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: Search for business entity firmographic data
+- description: Real-time business data append API. Submit a partial business record — company name and address, phone, website or DUNS number — and BizAPI matches it against the Dun & Bradstreet business database, r
   name: BizAPI Company Search API
   slug: bizapi-company-search-api
-artifact_total: 29
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: BizAPI Business Intelligence API
   slug: open-bizapi-business-intelligence-api
+- collection_type: open
+  name: BizAPI Business Intelligence Company Search API
+  slug: open-bizapi-company-search-api
 common:
 - group: agent
   title: ''
@@ -70,7 +76,7 @@ common:
   url: https://www.naics.com/business-intelligence-api/
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://www.naics.com/bizapi-details/
 - group: auth
   title: ''
@@ -88,6 +94,74 @@ common:
   title: ''
   type: Blog
   url: https://www.naics.com/feed/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.naics.com/business-intelligence-api/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.naics.com/wp-content/uploads/2021/09/BizAPI-V2-Documentation.pdf
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.naics.com/business-intelligence-api/bizapi-documents/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.naics.com/wp-content/uploads/2021/09/NAICS-BizAPI-V2-Examples.postman_collection.json_.zip
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.naics.com/contact-us/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.naics.com/data-layouts-pricing/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.naics.com/privacypolicy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.naics.com/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/bizapi-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/bizapi-problem-types.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/bizapi-sandbox.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bizapi-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bizapi-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bizapi-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bizapi-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bizapi-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2025-02-24'
 description: BizAPI is a real-time Business Intelligence API from the NAICS Association that provides firmographic data on over 220 million US and international business entities. It enables businesses to enrich CRM records, power customer acquisition workflows, and append NAICS codes, SIC codes, DUNS numbers, company details, sales volume, employee counts, and corporate hierarchy information to any business record via a simple REST API.
 examples:
@@ -135,7 +209,7 @@ jsonld:
   property_count: 0
   slug: bizapi-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-14'
 name: BizAPI
 nav: Providers
 network: true
@@ -145,14 +219,14 @@ overview: 'BizAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Co
   The BizAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BizAPI''s developer surface includes authentication, documentation, signup flow, engineering blog, and 6 more developer resources.'
+  BizAPI''s developer surface includes authentication, documentation, signup flow, engineering blog, API reference, getting-started guide, support, and 20 more developer resources.'
 plans:
 - name: Bizapi Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: bizapi-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Bizapi Rate Limits
   slug: bizapi-rate-limits
 rules:
@@ -173,16 +247,16 @@ rules:
     warn: 17
   slug: bizapi-spectral-rules
 score:
-  band: developing
-  composite: 44.4
-  delta: 0.0
+  band: strong
+  composite: 62.5
+  delta: 18.1
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 42.1
     contract_quality: 76.1
-    developer_ergonomics: 21.7
-    discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 7.9
+    developer_ergonomics: 69.6
+    discoverability: 75.9
+    governance: 89.6
+    operational_transparency: 21.1
   previous_composite: 44.4
   provenance:
     agentic_access: derived
@@ -192,8 +266,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/screenshots/bizapi-2026-06-20T173328.png
 security:
 - kind: authentication

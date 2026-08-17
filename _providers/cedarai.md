@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: The ChargeService API from Cedarai — 3 operation(s) for chargeservice.
@@ -58,11 +58,42 @@ apis:
 - description: The WorkOrderService API from Cedarai — 10 operation(s) for workorderservice.
   name: Cedarai WorkOrderService API
   slug: cedarai-workorderservice-api
-artifact_total: 13
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Cedarai Webhooks
   slug: cedarai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: protobuf/arms/charge.proto ChargeService API
+  slug: open-cedarai-chargeservice-api
+- collection_type: open
+  name: protobuf/arms/charge.proto ChargeService Equipment History API
+  slug: open-cedarai-equipment-history-api
+- collection_type: open
+  name: protobuf/arms/charge.proto ChargeService Ims API
+  slug: open-cedarai-ims-api
+- collection_type: open
+  name: protobuf/arms/charge.proto ChargeService InvoicesService API
+  slug: open-cedarai-invoicesservice-api
+- collection_type: open
+  name: protobuf/arms/charge.proto ChargeService LindaService API
+  slug: open-cedarai-lindaservice-api
+- collection_type: open
+  name: protobuf/arms/charge.proto ChargeService NetworkStructureService API
+  slug: open-cedarai-networkstructureservice-api
+- collection_type: open
+  name: protobuf/arms/charge.proto ChargeService QuotesService API
+  slug: open-cedarai-quotesservice-api
+- collection_type: open
+  name: protobuf/arms/charge.proto ChargeService TruckLoadTenderService API
+  slug: open-cedarai-truckloadtenderservice-api
+- collection_type: open
+  name: protobuf/arms/charge.proto ChargeService WorkOrderService API
+  slug: open-cedarai-workorderservice-api
 common:
 - group: other
   title: ''
@@ -171,7 +202,7 @@ overview: 'Cedarai publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cedarai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 113
+random_paper: 117
 score:
   band: developing
   composite: 45.9
@@ -194,7 +225,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/screenshots/cedarai-2026-07-25T204839.png
 security:

@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Yubico OTP validation operations.
   name: Yubico Validation API
   slug: yubico-validation-api
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yubico YubiCloud OTP Validation API
+  slug: open-yubico-validation-api
 common:
 - group: other
   title: ''
@@ -184,7 +191,7 @@ overview: 'Yubico publishes 1 API on the [APIs.io](https://apis.io/) network: Va
 
 
   Yubico''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 26 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: strong
   composite: 56.2
@@ -207,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

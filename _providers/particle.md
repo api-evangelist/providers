@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -114,11 +114,98 @@ apis:
 - description: The User API from Particle — 2 operation(s) for user.
   name: Particle User API
   slug: particle-user-api
-artifact_total: 35
+artifact_total: 64
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Particle Cloud Access Tokens API
+  slug: open-particle-access-tokens-api
+- collection_type: open
+  name: Particle Cloud Authentication API
+  slug: open-particle-authentication-api
+- collection_type: open
+  name: Particle Cloud Access Tokens Clients API
+  slug: open-particle-clients-api
+- collection_type: open
+  name: Particle Cloud Authentication Configuration API
+  slug: open-particle-configuration-api
+- collection_type: open
+  name: Particle Cloud Authentication Customers API
+  slug: open-particle-customers-api
+- collection_type: open
+  name: Particle Cloud Authentication Devices API
+  slug: open-particle-devices-api
+- collection_type: open
+  name: Particle Cloud Authentication Diagnostics API
+  slug: open-particle-diagnostics-api
+- collection_type: open
+  name: Particle Cloud Authentication Env API
+  slug: open-particle-env-api
+- collection_type: open
+  name: Particle Cloud Authentication Events API
+  slug: open-particle-events-api
+- collection_type: open
+  name: Particle Cloud Authentication Firmware API
+  slug: open-particle-firmware-api
+- collection_type: open
+  name: Particle Cloud Authentication FleetHealth API
+  slug: open-particle-fleethealth-api
+- collection_type: open
+  name: Particle Cloud Authentication Groups API
+  slug: open-particle-groups-api
+- collection_type: open
+  name: Particle Cloud Authentication Integrations API
+  slug: open-particle-integrations-api
 - collection_type: open
   name: Particle Cloud API
   slug: open-particle-io
+- collection_type: open
+  name: Particle Cloud Authentication Ledger API
+  slug: open-particle-ledger-api
+- collection_type: open
+  name: Particle Cloud Authentication Location API
+  slug: open-particle-location-api
+- collection_type: open
+  name: Particle Cloud Authentication Logic API
+  slug: open-particle-logic-api
+- collection_type: open
+  name: Particle Cloud Authentication OAuth API
+  slug: open-particle-oauth-api
+- collection_type: open
+  name: Particle Cloud Authentication Organizations API
+  slug: open-particle-organizations-api
+- collection_type: open
+  name: Particle Cloud Authentication ProductFirmware API
+  slug: open-particle-productfirmware-api
+- collection_type: open
+  name: Particle Cloud Authentication Products API
+  slug: open-particle-products-api
+- collection_type: open
+  name: Particle Cloud Authentication Quarantine API
+  slug: open-particle-quarantine-api
+- collection_type: open
+  name: Particle Cloud Authentication Search API
+  slug: open-particle-search-api
+- collection_type: open
+  name: Particle Cloud Authentication Secrets API
+  slug: open-particle-secrets-api
+- collection_type: open
+  name: Particle Cloud Access Tokens Serial Numbers API
+  slug: open-particle-serial-numbers-api
+- collection_type: open
+  name: Particle Cloud Authentication ServiceAgreements API
+  slug: open-particle-serviceagreements-api
+- collection_type: open
+  name: Particle Cloud Authentication Sims API
+  slug: open-particle-sims-api
+- collection_type: open
+  name: Particle Cloud Authentication Team API
+  slug: open-particle-team-api
+- collection_type: open
+  name: Particle Cloud Authentication User API
+  slug: open-particle-user-api
 common:
 - group: agent
   title: ''
@@ -264,7 +351,7 @@ plans:
 - name: Particle Plans Pricing
   plan_count: 5
   slug: particle-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 6
   name: Particle Rate Limits
@@ -289,7 +376,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/screenshots/particle-2026-06-20T191427.png
 security:

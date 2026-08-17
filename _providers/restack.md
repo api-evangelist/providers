@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Workflows API from Restack — 2 operation(s) for workflows.
   name: Restack Workflows API
   slug: restack-workflows-api
-artifact_total: 19
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Restack Agents API
+  slug: open-restack-agents-api
+- collection_type: open
+  name: Restack Agents System API
+  slug: open-restack-system-api
+- collection_type: open
+  name: Restack Agents Workflows API
+  slug: open-restack-workflows-api
 - collection_type: open
   name: Restack API
   slug: open-restack
@@ -147,7 +159,7 @@ plans:
 - name: Restack Plans Pricing
   plan_count: 3
   slug: restack-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Restack Rate Limits
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/screenshots/restack-2026-06-20T193006.png
 security:

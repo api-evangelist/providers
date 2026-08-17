@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -54,7 +54,7 @@ apis:
 - description: Operations for managing SSH keys.
   name: Lambda SSH Keys API
   slug: lambda-ssh-keys-api
-artifact_total: 34
+artifact_total: 40
 collections:
 - collection_type: postman
   name: Lambda Cloud File Systems API
@@ -72,8 +72,26 @@ collections:
   name: Lambda Cloud File Systems SSH Keys API
   slug: postman-lambda-ssh-keys-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Lambda Cloud API
   slug: open-lambda-cloud-api
+- collection_type: open
+  name: Lambda Cloud File Systems API
+  slug: open-lambda-file-systems-api
+- collection_type: open
+  name: Lambda Cloud File Systems Images API
+  slug: open-lambda-images-api
+- collection_type: open
+  name: Lambda Cloud File Systems Instance Types API
+  slug: open-lambda-instance-types-api
+- collection_type: open
+  name: Lambda Cloud File Systems Instances API
+  slug: open-lambda-instances-api
+- collection_type: open
+  name: Lambda Cloud File Systems SSH Keys API
+  slug: open-lambda-ssh-keys-api
 common:
 - group: build
   title: ''
@@ -191,7 +209,7 @@ plans:
 - name: Lambda Plans Pricing
   plan_count: 3
   slug: lambda-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Lambda Rate Limits
@@ -225,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/screenshots/lambda-2026-06-20T184249.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -84,8 +84,53 @@ apis:
 - description: The webhooks API from Mem0 — 2 operation(s) for webhooks.
   name: Mem0 webhooks API
   slug: mem0-webhooks-api
-artifact_total: 22
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mem0 API Docs agents API
+  slug: open-mem0-agents-api
+- collection_type: open
+  name: Mem0 API Docs agents apps API
+  slug: open-mem0-apps-api
+- collection_type: open
+  name: Mem0 API Docs agents entities API
+  slug: open-mem0-entities-api
+- collection_type: open
+  name: Mem0 API Docs agents events API
+  slug: open-mem0-events-api
+- collection_type: open
+  name: Mem0 API Docs agents exports API
+  slug: open-mem0-exports-api
+- collection_type: open
+  name: Mem0 API Docs agents feedback API
+  slug: open-mem0-feedback-api
+- collection_type: open
+  name: Mem0 API Docs agents memories API
+  slug: open-mem0-memories-api
+- collection_type: open
+  name: Mem0 API Docs agents organizations API
+  slug: open-mem0-organizations-api
+- collection_type: open
+  name: Mem0 API Docs agents Project API
+  slug: open-mem0-project-api
+- collection_type: open
+  name: Mem0 API Docs agents projects API
+  slug: open-mem0-projects-api
+- collection_type: open
+  name: Mem0 API Docs agents runs API
+  slug: open-mem0-runs-api
+- collection_type: open
+  name: Mem0 API Docs agents stats API
+  slug: open-mem0-stats-api
+- collection_type: open
+  name: Mem0 API Docs agents users API
+  slug: open-mem0-users-api
+- collection_type: open
+  name: Mem0 API Docs agents webhooks API
+  slug: open-mem0-webhooks-api
 - collection_type: open
   name: Mem0 API Docs
   slug: open-mem0
@@ -186,7 +231,7 @@ plans:
 - name: Mem0 Plans Pricing
   plan_count: 1
   slug: mem0-plans-pricing
-random_paper: 7
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Mem0 Rate Limits
@@ -211,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/screenshots/mem0-2026-06-20T185233.png
 security:

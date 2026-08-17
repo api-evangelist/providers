@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,7 +88,35 @@ apis:
 - description: API account usage and credit consumption
   name: Flightradar24 Usage API
   slug: flightradar24-usage-api
-artifact_total: 32
+artifact_total: 41
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flightradar24 Airlines API
+  slug: open-flightradar24-airlines-api
+- collection_type: open
+  name: Flightradar24 Airlines Airports API
+  slug: open-flightradar24-airports-api
+- collection_type: open
+  name: Flightradar24 Airlines Flight Summary API
+  slug: open-flightradar24-flight-summary-api
+- collection_type: open
+  name: Flightradar24 Airlines Flight Tracks API
+  slug: open-flightradar24-flight-tracks-api
+- collection_type: open
+  name: Flightradar24 Airlines Historic Events API
+  slug: open-flightradar24-historic-events-api
+- collection_type: open
+  name: Flightradar24 Airlines Historic Positions API
+  slug: open-flightradar24-historic-positions-api
+- collection_type: open
+  name: Flightradar24 Airlines Live Positions API
+  slug: open-flightradar24-live-positions-api
+- collection_type: open
+  name: Flightradar24 Airlines Usage API
+  slug: open-flightradar24-usage-api
 common:
 - group: agent
   title: ''
@@ -229,7 +257,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 62
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -263,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/screenshots/flightradar24-2026-06-20T181313.png
 security:

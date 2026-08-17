@@ -1,11 +1,13 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Free public beta, access by request
   onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
+  pricing: free
+  public: true
+  source:
+  - https://www.onescreen.ai/mcp/
+  - https://mcp.onescreen.ai/.well-known/oauth-protected-resource/mcp
   trial: false
   try_now: false
 agent_readiness:
@@ -14,22 +16,26 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.8
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 2
+  score: 25.7
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: 'OneScreen''s only API surface: a remote Model Context Protocol server over Streamable HTTP that exposes OOH audience personas, market and inventory rankings, geospatial points of interest, media-owner '
+  name: OneScreen MCP Server
+  slug: onescreen-mcp-server
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -43,6 +49,46 @@ common:
   title: ''
   type: Documentation
   url: https://www.onescreen.ai/mcp/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/onescreen-ai-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/onescreen-ai-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/onescreen-ai-well-known.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: https://www.onescreen.ai/robots.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/onescreen-ai-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/onescreen-ai-conventions.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/onescreen-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/onescreen-ai-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/onescreen-ai-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/onescreen-ai-packages.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -59,6 +105,10 @@ common:
   title: ''
   type: Support
   url: https://www.onescreen.ai/contact/
+- group: start
+  title: ''
+  type: Login
+  url: https://auth.onescreen.ai/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -68,41 +118,58 @@ common:
   type: PrivacyPolicy
   url: https://www.onescreen.ai/privacy-policy/
 created: '2026-07-17'
-description: OneScreen AI is a data-driven out-of-home (OOH) advertising company that makes real-world media — billboards, transit, and place-based advertising — as queryable and buyable as any digital channel. It combines more than 1,500 OOH audience personas, close to one million live inventory listings, and audience-based market and inventory recommendation models. OneScreen exposes this OOH intelligence to AI agents through a public Model Context Protocol (MCP) server (OAuth 2.1, free public beta) that connects to Claude, ChatGPT, or any MCP-compatible client. Products include OneScreen Research (free) and OneScreen Planner (closed beta). The company was originally surfaced as a Techstars portfolio lead and is headquartered in Boston, Massachusetts.
+description: OneScreen AI is a data-driven out-of-home (OOH) advertising company that makes real-world media — billboards, transit, and place-based advertising — as queryable and buyable as any digital channel. It combines more than 1,500 OOH audience personas, close to one million live inventory listings, and audience-based market and inventory recommendation models. OneScreen exposes this OOH intelligence to AI agents through a public Model Context Protocol (MCP) server at https://mcp.onescreen.ai/mcp, protected by OAuth 2.1 with audience-restricted tokens, open dynamic client registration and a published 22-scope permission model — and no REST or GraphQL contract at all. Products include OneScreen Research (free public beta) and OneScreen Planner (closed beta). The company was originally surfaced as a Techstars portfolio lead and is headquartered in Boston, Massachusetts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onescreen-ai.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: OneScreen MCP Server
-  slug: onescreen-mcp-server
-modified: '2026-07-20'
+  name: onescreen-ai-mcp.yml
+  slug: onescreen-ai-mcpyml
+modified: '2026-08-13'
 name: OneScreen AI
 nav: Providers
 network: true
-overview: 'OneScreen AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Out-of-Home, DOOH, and Advertising Technology.
+overview: 'OneScreen AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Out-of-Home, DOOH, and Advertising Technology.
 
 
-  OneScreen AI''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 9
+  OneScreen AI''s developer surface includes documentation, authentication, engineering blog, support, and 16 more developer resources.'
+plans:
+- name: Onescreen Ai Plans Pricing
+  plan_count: 2
+  slug: onescreen-ai-plans-pricing
+random_paper: 17
+rate_limits:
+- limit_count: 0
+  name: Onescreen Ai Rate Limits
+  slug: onescreen-ai-rate-limits
+scopes:
+- name: Onescreen Ai Scopes
+  scope_count: 22
+  slug: onescreen-ai-scopes
+  summary_line: 22 scopes
 score:
   band: emerging
-  composite: 14.7
-  delta: 0.0
+  composite: 27.1
+  delta: 12.4
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 55.3
     contract_quality: 0.0
-    developer_ergonomics: 23.9
-    discoverability: 57.4
-    governance: 0.0
+    developer_ergonomics: 34.8
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 14.7
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/onescreen-ai/refs/heads/main/screenshots/onescreen-ai-2026-08-07T190340.png
 security:
+- kind: authentication
+  name: Onescreen Ai Authentication
+  slug: onescreen-ai-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Onescreen Ai Domain Security
   slug: onescreen-ai-domain-security
@@ -118,5 +185,7 @@ tags:
 - Media
 - AI Agents
 - MCP
+- OAuth
+- Agent Readiness
 website: https://onescreen.ai/
 ---

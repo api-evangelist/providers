@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Submit and manage FOIA and Privacy Act requests for Alien File records
   name: US Citizenship and Immigration Services FOIA Requests API
   slug: us-citizenship-and-immigration-services-foia-requests-api
-artifact_total: 18
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USCIS Case Status API
+  slug: open-us-citizenship-and-immigration-services-case-status-api
+- collection_type: open
+  name: USCIS Case Status FOIA Requests API
+  slug: open-us-citizenship-and-immigration-services-foia-requests-api
 - collection_type: open
   name: USCIS Case Status API
   slug: open-uscis-case-status-api
@@ -117,7 +126,7 @@ plans:
 - name: Us Citizenship And Immigration Services Plans Pricing
   plan_count: 3
   slug: us-citizenship-and-immigration-services-plans-pricing
-random_paper: 5
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Us Citizenship And Immigration Services Rate Limits
@@ -170,7 +179,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/screenshots/us-citizenship-and-immigration-services-2026-06-20T200606.png
 security:

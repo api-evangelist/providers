@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: User management and provisioning
   name: Workleap Users API
   slug: workleap-users-api
-artifact_total: 21
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workleap Attributes API
+  slug: open-workleap-attributes-api
+- collection_type: open
+  name: Workleap Attributes Engagement API
+  slug: open-workleap-engagement-api
+- collection_type: open
+  name: Workleap Attributes Feedback API
+  slug: open-workleap-feedback-api
+- collection_type: open
+  name: Workleap Attributes GoodVibes API
+  slug: open-workleap-goodvibes-api
+- collection_type: open
+  name: Workleap Attributes Groups API
+  slug: open-workleap-groups-api
+- collection_type: open
+  name: Workleap Attributes Provisioning API
+  slug: open-workleap-provisioning-api
+- collection_type: open
+  name: Workleap Attributes Users API
+  slug: open-workleap-users-api
 common:
 - group: agent
   title: ''
@@ -187,7 +212,7 @@ plans:
 - name: Workleap Plans Pricing
   plan_count: 4
   slug: workleap-plans-pricing
-random_paper: 29
+random_paper: 124
 rate_limits:
 - limit_count: 0
   name: Workleap Rate Limits
@@ -221,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/screenshots/workleap-2026-06-20T201612.png
 security:

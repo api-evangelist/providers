@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 7
@@ -155,7 +155,119 @@ apis:
 - description: The Workflows API from University of North Carolina at Chapel Hill — 1 operation(s) for workflows.
   name: University of North Carolina at Chapel Hill Workflows API
   slug: university-of-north-carolina-at-chapel-hill-workflows-api
-artifact_total: 53
+artifact_total: 90
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dataverse Access API
+  slug: open-university-of-north-carolina-at-chapel-hill-access-api
+- collection_type: open
+  name: Dataverse Access addFilesToDataset API
+  slug: open-university-of-north-carolina-at-chapel-hill-addfilestodataset-api
+- collection_type: open
+  name: Dataverse Access addFileToDataset API
+  slug: open-university-of-north-carolina-at-chapel-hill-addfiletodataset-api
+- collection_type: open
+  name: Dataverse Access addGlobusFilesToDataset API
+  slug: open-university-of-north-carolina-at-chapel-hill-addglobusfilestodataset-api
+- collection_type: open
+  name: Dataverse Access Admin API
+  slug: open-university-of-north-carolina-at-chapel-hill-admin-api
+- collection_type: open
+  name: Dataverse Access Batch API
+  slug: open-university-of-north-carolina-at-chapel-hill-batch-api
+- collection_type: open
+  name: Dataverse Access Builtin Users API
+  slug: open-university-of-north-carolina-at-chapel-hill-builtin-users-api
+- collection_type: open
+  name: Dataverse Access Datasetfields API
+  slug: open-university-of-north-carolina-at-chapel-hill-datasetfields-api
+- collection_type: open
+  name: Dataverse Access Datasets API
+  slug: open-university-of-north-carolina-at-chapel-hill-datasets-api
+- collection_type: open
+  name: Dataverse Access Datatags API
+  slug: open-university-of-north-carolina-at-chapel-hill-datatags-api
+- collection_type: open
+  name: Dataverse Access DataverseFeaturedItems API
+  slug: open-university-of-north-carolina-at-chapel-hill-dataversefeatureditems-api
+- collection_type: open
+  name: Dataverse Access Dataverses API
+  slug: open-university-of-north-carolina-at-chapel-hill-dataverses-api
+- collection_type: open
+  name: Dataverse Access Edit API
+  slug: open-university-of-north-carolina-at-chapel-hill-edit-api
+- collection_type: open
+  name: Dataverse Access ExternalTools API
+  slug: open-university-of-north-carolina-at-chapel-hill-externaltools-api
+- collection_type: open
+  name: Dataverse Access Files API
+  slug: open-university-of-north-carolina-at-chapel-hill-files-api
+- collection_type: open
+  name: Dataverse Access Harvest API
+  slug: open-university-of-north-carolina-at-chapel-hill-harvest-api
+- collection_type: open
+  name: Dataverse Access Inbox API
+  slug: open-university-of-north-carolina-at-chapel-hill-inbox-api
+- collection_type: open
+  name: Dataverse Access Info API
+  slug: open-university-of-north-carolina-at-chapel-hill-info-api
+- collection_type: open
+  name: Dataverse Access Ingest API
+  slug: open-university-of-north-carolina-at-chapel-hill-ingest-api
+- collection_type: open
+  name: Dataverse Access Licenses API
+  slug: open-university-of-north-carolina-at-chapel-hill-licenses-api
+- collection_type: open
+  name: Dataverse Access Localcontexts API
+  slug: open-university-of-north-carolina-at-chapel-hill-localcontexts-api
+- collection_type: open
+  name: Dataverse Access Logout API
+  slug: open-university-of-north-carolina-at-chapel-hill-logout-api
+- collection_type: open
+  name: Dataverse Access Mail API
+  slug: open-university-of-north-carolina-at-chapel-hill-mail-api
+- collection_type: open
+  name: Dataverse Access Meta API
+  slug: open-university-of-north-carolina-at-chapel-hill-meta-api
+- collection_type: open
+  name: Dataverse Access Metadatablocks API
+  slug: open-university-of-north-carolina-at-chapel-hill-metadatablocks-api
+- collection_type: open
+  name: Dataverse Access Mydata API
+  slug: open-university-of-north-carolina-at-chapel-hill-mydata-api
+- collection_type: open
+  name: Dataverse Access Notifications API
+  slug: open-university-of-north-carolina-at-chapel-hill-notifications-api
+- collection_type: open
+  name: Dataverse Access Pids API
+  slug: open-university-of-north-carolina-at-chapel-hill-pids-api
+- collection_type: open
+  name: Dataverse Access replaceFilesInDataset API
+  slug: open-university-of-north-carolina-at-chapel-hill-replacefilesindataset-api
+- collection_type: open
+  name: Dataverse Access Roles API
+  slug: open-university-of-north-carolina-at-chapel-hill-roles-api
+- collection_type: open
+  name: Dataverse Access saveAuxiliaryFileWithVersion API
+  slug: open-university-of-north-carolina-at-chapel-hill-saveauxiliaryfilewithversion-api
+- collection_type: open
+  name: Dataverse Access Search API
+  slug: open-university-of-north-carolina-at-chapel-hill-search-api
+- collection_type: open
+  name: Dataverse Access Sendfeedback API
+  slug: open-university-of-north-carolina-at-chapel-hill-sendfeedback-api
+- collection_type: open
+  name: Dataverse Access uploadDatasetLogo API
+  slug: open-university-of-north-carolina-at-chapel-hill-uploaddatasetlogo-api
+- collection_type: open
+  name: Dataverse Access Users API
+  slug: open-university-of-north-carolina-at-chapel-hill-users-api
+- collection_type: open
+  name: Dataverse Access Workflows API
+  slug: open-university-of-north-carolina-at-chapel-hill-workflows-api
 common:
 - group: agent
   title: ''
@@ -250,7 +362,7 @@ plans:
 - name: University Of North Carolina At Chapel Hill Plans Pricing
   plan_count: 2
   slug: university-of-north-carolina-at-chapel-hill-plans-pricing
-random_paper: 60
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: University Of North Carolina At Chapel Hill Rate Limits
@@ -298,7 +410,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-north-carolina-at-chapel-hill/refs/heads/main/screenshots/university-of-north-carolina-at-chapel-hill-2026-06-20T200208.png
 security:

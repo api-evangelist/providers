@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Operations for searching and autocompleting places.
   name: Google Places Search API
   slug: google-places-search-api
-artifact_total: 64
+artifact_total: 67
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google API (New) Places API
+  slug: open-google-places-places-api
+- collection_type: open
+  name: Google API (New) Places Search API
+  slug: open-google-places-search-api
 - collection_type: open
   name: Google Places API (New)
   slug: open-openapi
@@ -305,7 +314,7 @@ plans:
 - name: Google Places Plans Pricing
   plan_count: 3
   slug: google-places-plans-pricing
-random_paper: 114
+random_paper: 122
 rate_limits:
 - limit_count: 2
   name: Google Places Rate Limits
@@ -352,7 +361,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/screenshots/google-places-2026-06-20T182225.png
 security:

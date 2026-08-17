@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 340
   human_in_the_loop: 5
@@ -365,7 +365,338 @@ apis:
 - description: The WorkCenter API from Fulcrumpro — 3 operation(s) for workcenter.
   name: Fulcrumpro WorkCenter API
   slug: fulcrumpro-workcenter-api
-artifact_total: 113
+artifact_total: 223
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fulcrum Public Accounting Code API
+  slug: open-fulcrumpro-accounting-code-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Attachment API
+  slug: open-fulcrumpro-attachment-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Attachment Certification API
+  slug: open-fulcrumpro-attachment-certification-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Auth API
+  slug: open-fulcrumpro-auth-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code CAPAs API
+  slug: open-fulcrumpro-capas-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Chart Of Accounts API
+  slug: open-fulcrumpro-chart-of-accounts-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Company Info API
+  slug: open-fulcrumpro-company-info-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Custom Field API
+  slug: open-fulcrumpro-custom-field-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Customer Address API
+  slug: open-fulcrumpro-customer-address-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Customer API
+  slug: open-fulcrumpro-customer-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Customer Contact API
+  slug: open-fulcrumpro-customer-contact-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Customer Tier API
+  slug: open-fulcrumpro-customer-tier-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Department API
+  slug: open-fulcrumpro-department-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Equipment API
+  slug: open-fulcrumpro-equipment-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Gauge Code API
+  slug: open-fulcrumpro-gauge-code-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Grade Code API
+  slug: open-fulcrumpro-grade-code-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code InProcessTrackingFieldType API
+  slug: open-fulcrumpro-inprocesstrackingfieldtype-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Inventory API
+  slug: open-fulcrumpro-inventory-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Inventory Event API
+  slug: open-fulcrumpro-inventory-event-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Inventory Event Details API
+  slug: open-fulcrumpro-inventory-event-details-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Inventory Lot API
+  slug: open-fulcrumpro-inventory-lot-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Inventory Transactions API
+  slug: open-fulcrumpro-inventory-transactions-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice API
+  slug: open-fulcrumpro-invoice-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Deposit Adjustment Line Item API
+  slug: open-fulcrumpro-invoice-deposit-adjustment-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Deposit Line Item API
+  slug: open-fulcrumpro-invoice-deposit-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Discount Line Item API
+  slug: open-fulcrumpro-invoice-discount-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Fee Line Item API
+  slug: open-fulcrumpro-invoice-fee-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Line Item API
+  slug: open-fulcrumpro-invoice-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Note API
+  slug: open-fulcrumpro-invoice-note-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Part Line Item API
+  slug: open-fulcrumpro-invoice-part-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Refund Line Item API
+  slug: open-fulcrumpro-invoice-refund-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Shipping Charge Line Item API
+  slug: open-fulcrumpro-invoice-shipping-charge-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Invoice Tax Line Item API
+  slug: open-fulcrumpro-invoice-tax-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item API
+  slug: open-fulcrumpro-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item Category API
+  slug: open-fulcrumpro-item-category-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item Class API
+  slug: open-fulcrumpro-item-class-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item Custom Fields API
+  slug: open-fulcrumpro-item-custom-fields-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item Customer API
+  slug: open-fulcrumpro-item-customer-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item Material Vendor API
+  slug: open-fulcrumpro-item-material-vendor-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item PriceBreaks API
+  slug: open-fulcrumpro-item-pricebreaks-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item Routing API
+  slug: open-fulcrumpro-item-routing-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item Tag API
+  slug: open-fulcrumpro-item-tag-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Item Vendor API
+  slug: open-fulcrumpro-item-vendor-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Job API
+  slug: open-fulcrumpro-job-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Job Custom Fields API
+  slug: open-fulcrumpro-job-custom-fields-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Job Full Routing API
+  slug: open-fulcrumpro-job-full-routing-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Job Item To Make API
+  slug: open-fulcrumpro-job-item-to-make-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Job Item To Make Operation API
+  slug: open-fulcrumpro-job-item-to-make-operation-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Job Operation API
+  slug: open-fulcrumpro-job-operation-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Job Part Line Item Full Routing API
+  slug: open-fulcrumpro-job-part-line-item-full-routing-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Job Tracking Timers API
+  slug: open-fulcrumpro-job-tracking-timers-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Location API
+  slug: open-fulcrumpro-location-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Material API
+  slug: open-fulcrumpro-material-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Material Code API
+  slug: open-fulcrumpro-material-code-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Material Vendor API
+  slug: open-fulcrumpro-material-vendor-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code NCRs API
+  slug: open-fulcrumpro-ncrs-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Note API
+  slug: open-fulcrumpro-note-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Operation API
+  slug: open-fulcrumpro-operation-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Payment Term API
+  slug: open-fulcrumpro-payment-term-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Purchase Order API
+  slug: open-fulcrumpro-purchase-order-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Purchase Order Custom Fields API
+  slug: open-fulcrumpro-purchase-order-custom-fields-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Purchase Order Discount Line Item API
+  slug: open-fulcrumpro-purchase-order-discount-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Purchase Order Fee Line Item API
+  slug: open-fulcrumpro-purchase-order-fee-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Purchase Order Line Item API
+  slug: open-fulcrumpro-purchase-order-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Purchase Order Outside Processing Line Item API
+  slug: open-fulcrumpro-purchase-order-outside-processing-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Purchase Order Part Line Item API
+  slug: open-fulcrumpro-purchase-order-part-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Purchase Order Tax Line Item API
+  slug: open-fulcrumpro-purchase-order-tax-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Purchase Order Vendor Credit Line Item API
+  slug: open-fulcrumpro-purchase-order-vendor-credit-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Quote API
+  slug: open-fulcrumpro-quote-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Quote Custom Fields API
+  slug: open-fulcrumpro-quote-custom-fields-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Quote Discount Line Item API
+  slug: open-fulcrumpro-quote-discount-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Quote Fee Line Item API
+  slug: open-fulcrumpro-quote-fee-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Quote Part Line Item API
+  slug: open-fulcrumpro-quote-part-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Quote Part Line Item Custom Fields API
+  slug: open-fulcrumpro-quote-part-line-item-custom-fields-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Quote Part Line Item Full Routing API
+  slug: open-fulcrumpro-quote-part-line-item-full-routing-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Quote Tax Line Item API
+  slug: open-fulcrumpro-quote-tax-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Receiving Receipt API
+  slug: open-fulcrumpro-receiving-receipt-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Receiving Receipt Line Item API
+  slug: open-fulcrumpro-receiving-receipt-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Refund Reason Code API
+  slug: open-fulcrumpro-refund-reason-code-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Reporting API
+  slug: open-fulcrumpro-reporting-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order API
+  slug: open-fulcrumpro-sales-order-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Blanket Line Item API
+  slug: open-fulcrumpro-sales-order-blanket-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Custom Fields API
+  slug: open-fulcrumpro-sales-order-custom-fields-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Discount Line Item API
+  slug: open-fulcrumpro-sales-order-discount-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Fee Line Item API
+  slug: open-fulcrumpro-sales-order-fee-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Line Item API
+  slug: open-fulcrumpro-sales-order-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Part Line Item API
+  slug: open-fulcrumpro-sales-order-part-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Part Line Item Custom Fields API
+  slug: open-fulcrumpro-sales-order-part-line-item-custom-fields-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Part Line Item Full Routing API
+  slug: open-fulcrumpro-sales-order-part-line-item-full-routing-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Refund Line Item API
+  slug: open-fulcrumpro-sales-order-refund-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Shipping Charge Line Item API
+  slug: open-fulcrumpro-sales-order-shipping-charge-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Sales Order Tax Line Item API
+  slug: open-fulcrumpro-sales-order-tax-line-item-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code ScrapReport API
+  slug: open-fulcrumpro-scrapreport-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Shape Code API
+  slug: open-fulcrumpro-shape-code-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Shipment Custom Fields API
+  slug: open-fulcrumpro-shipment-custom-fields-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Shipment Line Items (V3) API
+  slug: open-fulcrumpro-shipment-line-items-v3-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Shipments API
+  slug: open-fulcrumpro-shipments-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Shipping Method API
+  slug: open-fulcrumpro-shipping-method-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Tag API
+  slug: open-fulcrumpro-tag-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Tax Rate API
+  slug: open-fulcrumpro-tax-rate-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Time Clock Timers API
+  slug: open-fulcrumpro-time-clock-timers-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Timer API
+  slug: open-fulcrumpro-timer-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code User API
+  slug: open-fulcrumpro-user-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code User Status API
+  slug: open-fulcrumpro-user-status-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Vendor Address API
+  slug: open-fulcrumpro-vendor-address-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Vendor API
+  slug: open-fulcrumpro-vendor-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Vendor Contact API
+  slug: open-fulcrumpro-vendor-contact-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code Work Order API
+  slug: open-fulcrumpro-work-order-api
+- collection_type: open
+  name: Fulcrum Public Accounting Code WorkCenter API
+  slug: open-fulcrumpro-workcenter-api
 common:
 - group: other
   title: ''
@@ -487,7 +818,7 @@ overview: 'Fulcrumpro publishes 109 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Fulcrumpro''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 23
+random_paper: 60
 score:
   band: developing
   composite: 46.3
@@ -511,7 +842,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/screenshots/fulcrumpro-2026-07-25T215252.png
 security:

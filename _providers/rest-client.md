@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST Client is a Visual Studio Code extension for sending HTTP requests and viewing responses directly within the editor. It supports .http and .rest file formats, GraphQL, cURL, multiple auth schemes
@@ -111,7 +111,7 @@ plans:
 - name: Rest Client Plans Pricing
   plan_count: 3
   slug: rest-client-plans-pricing
-random_paper: 50
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Rest Client Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 27.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-client/refs/heads/main/screenshots/rest-client-2026-06-20T193111.png
 security:

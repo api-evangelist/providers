@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Accounts API from ChargeAfter — 10 operation(s) for accounts.
@@ -57,11 +57,51 @@ apis:
 - description: The Transactions API from ChargeAfter — 2 operation(s) for transactions.
   name: ChargeAfter Transactions API
   slug: chargeafter-transactions-api
-artifact_total: 16
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Chargeafter Notifications Webhooks
   slug: chargeafter-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Chargeafter Accounts API
+  slug: open-chargeafter-accounts-api
+- collection_type: open
+  name: Chargeafter Applications V3 API
+  slug: open-chargeafter-applicationsv3-api
+- collection_type: open
+  name: Charge Charges API
+  slug: open-chargeafter-charges-api
+- collection_type: open
+  name: Distribution Checkout API
+  slug: open-chargeafter-checkout-api
+- collection_type: open
+  name: Consumers Management Consumer Management API
+  slug: open-chargeafter-consumer-management-api
+- collection_type: open
+  name: Chargeafter Consumers V2 API
+  slug: open-chargeafter-consumersv2-api
+- collection_type: open
+  name: Funding Fundings API
+  slug: open-chargeafter-fundings-api
+- collection_type: open
+  name: Disputes Management Lenders API
+  slug: open-chargeafter-lenders-api
+- collection_type: open
+  name: OmniLink Links API
+  slug: open-chargeafter-links-api
+- collection_type: open
+  name: Charge Orders API
+  slug: open-chargeafter-orders-api
+- collection_type: open
+  name: Checkout Management Sessions V3 API
+  slug: open-chargeafter-sessionsv3-api
+- collection_type: open
+  name: Charge Transactions API
+  slug: open-chargeafter-transactions-api
 common:
 - group: other
   title: ''
@@ -218,7 +258,7 @@ overview: 'ChargeAfter publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ChargeAfter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 27 more developer resources.'
-random_paper: 68
+random_paper: 105
 score:
   band: developing
   composite: 50.1
@@ -247,7 +287,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

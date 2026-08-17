@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -38,11 +38,21 @@ apis:
 - description: Monoova's Card Payments API (v1) for accepting card payments, including tokenised card flows and webhook notifications for payment events. Authenticated with short-lived (24h) Bearer tokens obtained v
   name: Monoova Card Payments API
   slug: monoova-card-payments-api
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Monoova Webhooks
   slug: monoova-webhooks
+collections:
+- collection_type: open
+  name: Monoova Card Payments API
+  slug: open-monoova-cc
+- collection_type: open
+  name: Monoova Payments API
+  slug: open-monoova-payments
+- collection_type: open
+  name: Monoova PayTo API
+  slug: open-monoova-payto
 common:
 - group: other
   title: ''
@@ -215,7 +225,7 @@ overview: 'Monoova publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Monoova''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 31 more developer resources.'
-random_paper: 47
+random_paper: 22
 score:
   band: strong
   composite: 56.5
@@ -245,7 +255,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/screenshots/monoova-2026-08-07T184216.png
 security:

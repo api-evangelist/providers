@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -81,8 +81,20 @@ apis:
 - description: The Data API Builder API from Microsoft SQL Server — 2 operation(s) for data api builder.
   name: Microsoft SQL Server Data API Builder API
   slug: microsoft-sql-server-data-api-builder-api
-artifact_total: 25
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft SQL Server - Azure SQL & Data API Builder HTTP APIs Azure SQL Databases API
+  slug: open-microsoft-sql-server-azure-sql-databases-api
+- collection_type: open
+  name: Microsoft SQL Server - Azure SQL & Data API Builder HTTP APIs Azure SQL Databases Azure SQL Servers API
+  slug: open-microsoft-sql-server-azure-sql-servers-api
+- collection_type: open
+  name: Microsoft SQL Server - Azure SQL & HTTP APIs Azure SQL Databases Data API Builder API
+  slug: open-microsoft-sql-server-data-api-builder-api
 - collection_type: open
   name: Microsoft SQL Server - Azure SQL & Data API Builder HTTP APIs
   slug: open-microsoft-sql-server
@@ -223,7 +235,7 @@ plans:
 - name: Microsoft Sql Server Plans Pricing
   plan_count: 3
   slug: microsoft-sql-server-plans-pricing
-random_paper: 31
+random_paper: 134
 rate_limits:
 - limit_count: 5
   name: Microsoft Sql Server Rate Limits
@@ -253,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/screenshots/microsoft-sql-server-2026-06-20T185537.png
 security:

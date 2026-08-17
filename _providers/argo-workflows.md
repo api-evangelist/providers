@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -72,8 +72,44 @@ apis:
 - description: The WorkflowTemplateService API from Argo Workflows — 3 operation(s) for workflowtemplateservice.
   name: Argo Workflows WorkflowTemplateService API
   slug: argo-workflows-workflowtemplateservice-api
-artifact_total: 1294
+artifact_total: 1306
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService API
+  slug: open-argo-workflows-archivedworkflowservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService ArtifactService API
+  slug: open-argo-workflows-artifactservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService ClusterWorkflowTemplateService API
+  slug: open-argo-workflows-clusterworkflowtemplateservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService CronWorkflowService API
+  slug: open-argo-workflows-cronworkflowservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService EventService API
+  slug: open-argo-workflows-eventservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService EventSourceService API
+  slug: open-argo-workflows-eventsourceservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService InfoService API
+  slug: open-argo-workflows-infoservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService SensorService API
+  slug: open-argo-workflows-sensorservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService SyncService API
+  slug: open-argo-workflows-syncservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService WorkflowService API
+  slug: open-argo-workflows-workflowservice-api
+- collection_type: open
+  name: Argo Workflows ArchivedWorkflowService WorkflowTemplateService API
+  slug: open-argo-workflows-workflowtemplateservice-api
 - collection_type: open
   name: Argo Workflows
   slug: open-argo-workflows
@@ -3980,7 +4016,7 @@ plans:
 - name: Argo Workflows Plans Pricing
   plan_count: 3
   slug: argo-workflows-plans-pricing
-random_paper: 36
+random_paper: 135
 rate_limits:
 - limit_count: 5
   name: Argo Workflows Rate Limits
@@ -4022,7 +4058,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/screenshots/argo-workflows-2026-06-20T172418.png
 security:

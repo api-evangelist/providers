@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: State, metropolitan area, and county level economic data.
   name: The Bureau of Economic Analysis Regional API
   slug: the-bureau-of-economic-analysis-regional-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bureau of Economic Analysis Industry API
+  slug: open-the-bureau-of-economic-analysis-industry-api
+- collection_type: open
+  name: Bureau of Economic Analysis Industry International API
+  slug: open-the-bureau-of-economic-analysis-international-api
+- collection_type: open
+  name: Bureau of Economic Analysis Industry Metadata API
+  slug: open-the-bureau-of-economic-analysis-metadata-api
+- collection_type: open
+  name: Bureau of Economic Analysis Industry National Accounts API
+  slug: open-the-bureau-of-economic-analysis-national-accounts-api
+- collection_type: open
+  name: Bureau of Economic Analysis Industry Regional API
+  slug: open-the-bureau-of-economic-analysis-regional-api
 - collection_type: open
   name: Bureau of Economic Analysis API
   slug: open-the-bureau-of-economic-analysis
@@ -157,7 +175,7 @@ plans:
 - name: The Bureau Of Economic Analysis Plans Pricing
   plan_count: 3
   slug: the-bureau-of-economic-analysis-plans-pricing
-random_paper: 71
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: The Bureau Of Economic Analysis Rate Limits
@@ -205,7 +223,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/screenshots/the-bureau-of-economic-analysis-2026-06-20T195214.png
 security:

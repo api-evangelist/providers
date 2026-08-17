@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,12 +51,27 @@ apis:
 - description: Multichain wallet portfolio, history, and transactions.
   name: Mobula Wallet API
   slug: mobula-wallet-api
-artifact_total: 13
+artifact_total: 18
 asyncapis:
 - description: AsyncAPI 2.6 description of Mobula's real-time WebSocket feed at `wss://api.mobula.io`. Unlike the SSE-only providers, Mobula publishes a genuine bidirectional WebSocket surface. A client opens a WebS
   name: Mobula Realtime Feed (WebSocket)
   slug: mobula-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mobula Market API
+  slug: open-mobula-market-api
+- collection_type: open
+  name: Mobula Market Metadata API
+  slug: open-mobula-metadata-api
+- collection_type: open
+  name: Mobula Market Search API
+  slug: open-mobula-search-api
+- collection_type: open
+  name: Mobula Market Wallet API
+  slug: open-mobula-wallet-api
 - collection_type: open
   name: Mobula API
   slug: open-mobula
@@ -128,7 +143,7 @@ plans:
 - name: Mobula Plans Pricing
   plan_count: 4
   slug: mobula-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 6
   name: Mobula Rate Limits
@@ -168,7 +183,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/screenshots/mobula-2026-08-07T183915.png
 security:

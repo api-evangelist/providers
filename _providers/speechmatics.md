@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,7 +60,23 @@ apis:
 - description: The Usage API from Speechmatics — 1 operation(s) for usage.
   name: Speechmatics Usage API
   slug: speechmatics-usage-api
-artifact_total: 18
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Speechmatics Batch Transcription API Keys API
+  slug: open-speechmatics-api-keys-api
+- collection_type: open
+  name: Speechmatics Batch Transcription API Keys Jobs API
+  slug: open-speechmatics-jobs-api
+- collection_type: open
+  name: Speechmatics Batch Transcription API Keys Projects API
+  slug: open-speechmatics-projects-api
+- collection_type: open
+  name: Speechmatics Batch Transcription API Keys Usage API
+  slug: open-speechmatics-usage-api
 common:
 - group: agent
   title: ''
@@ -166,7 +182,7 @@ plans:
 - name: Speechmatics Plans Pricing
   plan_count: 4
   slug: speechmatics-plans-pricing
-random_paper: 73
+random_paper: 81
 rate_limits:
 - limit_count: 11
   name: Speechmatics Rate Limits
@@ -200,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/screenshots/speechmatics-2026-06-20T194303.png
 security:

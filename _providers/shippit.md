@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Pull-based order tracking.
   name: Shippit Tracking API
   slug: shippit-tracking-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shippit Book API
+  slug: open-shippit-book-api
+- collection_type: open
+  name: Shippit Book Label API
+  slug: open-shippit-label-api
+- collection_type: open
+  name: Shippit Book Merchant API
+  slug: open-shippit-merchant-api
+- collection_type: open
+  name: Shippit Book Orders API
+  slug: open-shippit-orders-api
+- collection_type: open
+  name: Shippit Book Quote API
+  slug: open-shippit-quote-api
+- collection_type: open
+  name: Shippit Book Tracking API
+  slug: open-shippit-tracking-api
 - collection_type: open
   name: Shippit API
   slug: open-shippit
@@ -119,7 +140,7 @@ plans:
 - name: Shippit Plans Pricing
   plan_count: 3
   slug: shippit-plans-pricing
-random_paper: 49
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Shippit Rate Limits
@@ -150,7 +171,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

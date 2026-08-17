@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -69,11 +69,45 @@ apis:
 - description: The targets API from Method Security — 3 operation(s) for targets.
   name: Method Security targets API
   slug: method-security-targets-api
-artifact_total: 17
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Method Security Webhooks
   slug: method-security-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference audit API
+  slug: open-method-security-audit-api
+- collection_type: open
+  name: API Reference audit auth API
+  slug: open-method-security-auth-api
+- collection_type: open
+  name: API Reference audit blueprints API
+  slug: open-method-security-blueprints-api
+- collection_type: open
+  name: API Reference audit environments API
+  slug: open-method-security-environments-api
+- collection_type: open
+  name: API Reference audit issues API
+  slug: open-method-security-issues-api
+- collection_type: open
+  name: API Reference audit reports API
+  slug: open-method-security-reports-api
+- collection_type: open
+  name: API Reference audit signals API
+  slug: open-method-security-signals-api
+- collection_type: open
+  name: API Reference audit skills API
+  slug: open-method-security-skills-api
+- collection_type: open
+  name: API Reference audit system API
+  slug: open-method-security-system-api
+- collection_type: open
+  name: API Reference audit targets API
+  slug: open-method-security-targets-api
 common:
 - group: other
   title: ''
@@ -223,7 +257,7 @@ overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Method Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 25 more developer resources.'
-random_paper: 14
+random_paper: 84
 score:
   band: developing
   composite: 54.0
@@ -253,7 +287,7 @@ score:
     regime_id: government
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/screenshots/method-security-2026-08-07T172708.png
 security:

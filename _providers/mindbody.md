@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -127,7 +127,7 @@ arazzos:
 - description: Look up a staff member and retrieve their booked appointments for a date range.
   name: Mindbody Staff Schedule Lookup
   slug: mindbody-staff-schedule-lookup-workflow
-artifact_total: 1091
+artifact_total: 1105
 collections:
 - collection_type: postman
   name: Mindbody Public API v6
@@ -135,6 +135,48 @@ collections:
 - collection_type: postman
   name: Mindbody Webhooks API
   slug: postman-mindbody-webhooks-api-openapi-original
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mindbody Public API v6 Appointment API
+  slug: open-mindbody-appointment-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Class API
+  slug: open-mindbody-class-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Client API
+  slug: open-mindbody-client-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Cross Site API
+  slug: open-mindbody-cross-site-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Enrollment API
+  slug: open-mindbody-enrollment-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Metrics API
+  slug: open-mindbody-metrics-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Payroll API
+  slug: open-mindbody-payroll-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Pick A Spot API
+  slug: open-mindbody-pick-a-spot-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Sale API
+  slug: open-mindbody-sale-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Site API
+  slug: open-mindbody-site-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Staff API
+  slug: open-mindbody-staff-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment Subscriptions API
+  slug: open-mindbody-subscriptions-api
+- collection_type: open
+  name: Mindbody Public API v6 Appointment User Token API
+  slug: open-mindbody-user-token-api
 common:
 - group: operate
   title: ''
@@ -3439,7 +3481,7 @@ plans:
 - name: Mindbody Plans Pricing
   plan_count: 4
   slug: mindbody-plans-pricing
-random_paper: 14
+random_paper: 109
 rate_limits:
 - limit_count: 6
   name: Mindbody Rate Limits
@@ -3486,7 +3528,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/screenshots/mindbody-2026-06-20T185555.png
 security:

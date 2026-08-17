@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -68,7 +68,41 @@ apis:
 - description: The tags API from Quasar — 1 operation(s) for tags.
   name: Quasar tags API
   slug: quasar-tags-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: QuasarDB cluster API
+  slug: open-quasar-cluster-api
+- collection_type: open
+  name: QuasarDB cluster Login API
+  slug: open-quasar-login-api
+- collection_type: open
+  name: QuasarDB cluster max-in-buffer-size API
+  slug: open-quasar-max-in-buffer-size-api
+- collection_type: open
+  name: QuasarDB cluster option API
+  slug: open-quasar-option-api
+- collection_type: open
+  name: QuasarDB cluster parallelism API
+  slug: open-quasar-parallelism-api
+- collection_type: open
+  name: QuasarDB cluster Prometheus API
+  slug: open-quasar-prometheus-api
+- collection_type: open
+  name: QuasarDB cluster query API
+  slug: open-quasar-query-api
+- collection_type: open
+  name: QuasarDB cluster Status API
+  slug: open-quasar-status-api
+- collection_type: open
+  name: QuasarDB cluster Tables API
+  slug: open-quasar-tables-api
+- collection_type: open
+  name: QuasarDB cluster tags API
+  slug: open-quasar-tags-api
 common:
 - group: other
   title: ''
@@ -190,7 +224,7 @@ overview: 'Quasar publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Quasar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 19 more developer resources.'
-random_paper: 53
+random_paper: 57
 score:
   band: thin
   composite: 41.1
@@ -214,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

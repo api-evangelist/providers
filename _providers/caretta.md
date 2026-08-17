@@ -1,35 +1,44 @@
 ---
 access_model:
   confidence: medium
-  label: Requires approval
-  onboarding: approval
+  label: Requires a Caretta account
+  onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://www.caretta.so/docs/caretta-mcp
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: near-conformant
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 61.1
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: Remote Model Context Protocol server that gives compatible AI clients OAuth-scoped access to the Caretta calls, transcripts and todos the signed-in user can already see. Seven documented tools cover l
+  name: Caretta MCP Server
+  slug: caretta-mcp-server
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Caretta Webhooks
+  slug: caretta-webhooks
 common:
 - group: auth
   title: ''
@@ -46,6 +55,10 @@ common:
 - group: auth
   title: ''
   type: TrustCenter
+  url: security/caretta-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
   url: https://trust.caretta.so
 - group: commercial
   title: ''
@@ -62,45 +75,150 @@ common:
 - group: start
   title: ''
   type: SignUp
-  url: https://www.caretta.so/demo
+  url: https://www.caretta.so/signup
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/carettaai/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.caretta.so/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.caretta.so/docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.caretta.so/docs/webhooks
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/caretta-mcp.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/caretta-webhooks.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/caretta-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/caretta-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/caretta-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/caretta-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/caretta-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/caretta-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/caretta-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/caretta-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/caretta-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/caretta-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/caretta-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/caretta-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/caretta-rate-limits.yml
 created: '2026-07-17'
-description: Caretta is a Y Combinator-backed (W26) startup building a real-time AI platform for sales teams. Its assistant joins reps in live calls to take notes and surface relevant answers to information requests, questions, and objections in real time, drawing on an organizational knowledge layer it calls "Caretta Nous" that is built from company documentation, websites, internal playbooks, and top-performer conversations. After calls it supports teamspaces with analysis, morning briefs, and follow-up Q&A, and integrates with tools such as Zoom, Google Meet, Microsoft Teams, Salesforce, HubSpot, Pipedrive, Slack, and Notion. The company raised $1.3M in pre-seed funding. As of this profile Caretta publishes no public API, developer portal, or machine-readable specification; this entry captures its public identity and trust surface.
+description: 'Caretta is a Y Combinator-backed (W26) startup building a real-time AI platform for sales teams. Its assistant joins reps in live calls to take notes and surface relevant answers to information requests, questions, and objections in real time, drawing on an organizational knowledge layer it calls "Caretta Nous" that is built from company documentation, websites, internal playbooks, and top-performer conversations. After calls it supports teamspaces with analysis, morning briefs, and follow-up Q&A, and integrates with tools such as Zoom, Google Meet, Microsoft Teams, Salesforce, HubSpot, Pipedrive, Attio, Odoo, Cal.com, Slack, Telegram and Notion. The company raised $1.3M in pre-seed funding. Caretta''s developer surface is agent-first rather than REST-first: it publishes a documented remote Model Context Protocol server at gateway.caretta.app/mcp with OAuth-scoped access to calls, transcripts and todos, a signed HMAC-SHA256 webhook surface that pushes transcripts, AI notes
+  and evaluated metrics to customer endpoints, and a Zoom meeting-link integration. Its docs host serves llms.txt, an A2A agent card and a published Agent Skill. Caretta''s own documentation states that a public REST API for endpoint management is planned but not yet available, so no OpenAPI description is published.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caretta.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: caretta-mcp.yml
+  slug: caretta-mcpyml
+modified: '2026-08-13'
 name: Caretta
 nav: Providers
 network: true
-overview: 'Caretta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales, Sales Intelligence, and Real-Time.
+overview: 'Caretta publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales, Sales Intelligence, and Real-Time.
 
 
-  Caretta''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 20
+  The Caretta catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Caretta''s developer surface includes engineering blog, signup flow, documentation, getting-started guide, authentication, and 24 more developer resources.'
+plans:
+- name: Caretta Plans Pricing
+  plan_count: 0
+  slug: caretta-plans-pricing
+random_paper: 144
+rate_limits:
+- limit_count: 0
+  name: Caretta Rate Limits
+  slug: caretta-rate-limits
+scopes:
+- name: Caretta Scopes
+  scope_count: 4
+  slug: caretta-scopes
+  summary_line: 4 scopes
 score:
-  band: emerging
-  composite: 13.9
-  delta: 0.0
+  band: developing
+  composite: 45.4
+  delta: 31.5
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 50.0
+    contract_quality: 51.6
+    developer_ergonomics: 56.5
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 7.9
   previous_composite: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/screenshots/caretta-2026-07-25T204603.png
 security:
+- kind: authentication
+  name: Caretta Authentication
+  slug: caretta-authentication
+  summary_line: oauth2/hmac · 3 schemes
 - kind: domain-security
   name: Caretta Domain Security
   slug: caretta-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Caretta Trust Center
+  slug: caretta-trust-center
+  summary_line: ISO/IEC 27001, SOC 2, GDPR
 slug: caretta
 tags:
 - Company
@@ -111,5 +229,8 @@ tags:
 - Conversation Intelligence
 - Revenue Operations
 - Y Combinator
+- Model Context Protocol
+- Webhooks
+- Agents
 website: https://www.caretta.so
 ---

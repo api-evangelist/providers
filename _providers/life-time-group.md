@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Life Time Group Holdings is profiled on the [APIs.io](https://apis.io
 
 
   Life Time Group Holdings'' developer surface includes product news, engineering blog, and 9 more developer resources.'
-random_paper: 54
+random_paper: 4
 score:
   band: minimal
   composite: 5.7
@@ -107,7 +107,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-time-group/refs/heads/main/screenshots/life-time-group-2026-06-20T184510.png
 security:

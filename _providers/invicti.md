@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Invicti API provides programmatic access to Invicti security scanning capabilities, including API Discovery which helps build a complete inventory of an organization's internal and external API as
@@ -92,7 +92,7 @@ plans:
 - name: Invicti Plans Pricing
   plan_count: 3
   slug: invicti-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Invicti Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 14.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invicti/refs/heads/main/screenshots/invicti-2026-06-20T183522.png
 security:

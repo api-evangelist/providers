@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The API layer of Open GI's cloud Mobius broking platform. Open GI's public Mobius release notes document real API capability — a Client Checks API whose sanctions-check endpoints include a POST to ini
@@ -131,7 +131,7 @@ overview: 'Open GI publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Open GI''s developer surface includes engineering blog, changelog, release notes, documentation, FAQ, support, and 17 more developer resources.'
-random_paper: 87
+random_paper: 91
 score:
   band: emerging
   composite: 21.6
@@ -153,7 +153,7 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/screenshots/open-gi-2026-08-07T190454.png
 security:

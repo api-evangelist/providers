@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -114,8 +114,17 @@ apis:
 - description: Export and import business transaction detection rule configurations.
   name: AppDynamics Transaction Detection Export/Import API
   slug: appdynamics-transaction-detection-export-import-api
-artifact_total: 98
+artifact_total: 124
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions API
+  slug: open-appdynamics-actions-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Actions Export/Import API
+  slug: open-appdynamics-actions-export-import-api
 - collection_type: open
   name: AppDynamics Alert and Respond API
   slug: open-appdynamics-alert-and-respond-api
@@ -123,8 +132,17 @@ collections:
   name: AppDynamics Analytics Events API
   slug: open-appdynamics-analytics-events-api
 - collection_type: open
+  name: AppDynamics Alert and Respond Actions Applications API
+  slug: open-appdynamics-applications-api
+- collection_type: open
   name: AppDynamics OAuth Authentication API
   slug: open-appdynamics-authentication-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Backends API
+  slug: open-appdynamics-backends-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Business Transactions API
+  slug: open-appdynamics-business-transactions-api
 - collection_type: open
   name: Cisco Cloud Observability API
   slug: open-appdynamics-cloud-observability-api
@@ -132,17 +150,77 @@ collections:
   name: AppDynamics Configuration API
   slug: open-appdynamics-configuration-api
 - collection_type: open
+  name: AppDynamics Alert and Respond Actions Configurations API
+  slug: open-appdynamics-configurations-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Connections API
+  slug: open-appdynamics-connections-api
+- collection_type: open
   name: AppDynamics Controller REST API
   slug: open-appdynamics-controller-rest-api
 - collection_type: open
+  name: AppDynamics Alert and Respond Actions Custom Dashboards Export/Import API
+  slug: open-appdynamics-custom-dashboards-export-import-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Custom Metrics API
+  slug: open-appdynamics-custom-metrics-api
+- collection_type: open
   name: AppDynamics Database Agent API
   slug: open-appdynamics-database-agent-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Database Collectors API
+  slug: open-appdynamics-database-collectors-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Events API
+  slug: open-appdynamics-events-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Health Rules API
+  slug: open-appdynamics-health-rules-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Health Rules Export/Import API
+  slug: open-appdynamics-health-rules-export-import-api
 - collection_type: open
   name: AppDynamics Machine Agent API
   slug: open-appdynamics-machine-agent-api
 - collection_type: open
   name: AppDynamics Metric and Snapshot API
   slug: open-appdynamics-metric-and-snapshot-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Metrics API
+  slug: open-appdynamics-metrics-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Nodes API
+  slug: open-appdynamics-nodes-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions OAuth Tokens API
+  slug: open-appdynamics-oauth-tokens-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Policies API
+  slug: open-appdynamics-policies-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Queries API
+  slug: open-appdynamics-queries-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Query Service API
+  slug: open-appdynamics-query-service-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Reference Data API
+  slug: open-appdynamics-reference-data-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Schemas API
+  slug: open-appdynamics-schemas-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Server Status API
+  slug: open-appdynamics-server-status-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Snapshots API
+  slug: open-appdynamics-snapshots-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Tiers API
+  slug: open-appdynamics-tiers-api
+- collection_type: open
+  name: AppDynamics Alert and Respond Actions Transaction Detection Export/Import API
+  slug: open-appdynamics-transaction-detection-export-import-api
 common:
 - group: agent
   title: ''
@@ -403,7 +481,7 @@ plans:
 - name: Appdynamics Plans Pricing
   plan_count: 7
   slug: appdynamics-plans-pricing
-random_paper: 97
+random_paper: 134
 rate_limits:
 - limit_count: 3
   name: Appdynamics Rate Limits
@@ -437,7 +515,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/screenshots/appdynamics-2026-06-20T172314.png
 security:

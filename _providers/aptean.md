@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,11 +53,30 @@ apis:
 - description: The PublicKeys API from Aptean — 1 operation(s) for publickeys.
   name: Aptean PublicKeys API
   slug: aptean-publickeys-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Aptean Events Webhooks
   slug: aptean-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aptean Integration Platform Consumers API
+  slug: open-aptean-consumers-api
+- collection_type: open
+  name: Aptean Integration Platform Consumers EventDefinitions API
+  slug: open-aptean-eventdefinitions-api
+- collection_type: open
+  name: Aptean Integration Platform Consumers Events API
+  slug: open-aptean-events-api
+- collection_type: open
+  name: Aptean Integration Platform Consumers Producers API
+  slug: open-aptean-producers-api
+- collection_type: open
+  name: Aptean Integration Platform Consumers PublicKeys API
+  slug: open-aptean-publickeys-api
 common:
 - group: other
   title: ''
@@ -166,7 +185,7 @@ overview: 'Aptean publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aptean''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 33
+random_paper: 37
 score:
   band: thin
   composite: 41.6
@@ -190,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/screenshots/aptean-2026-07-25T200918.png
 security:

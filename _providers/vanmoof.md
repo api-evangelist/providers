@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'VanMoof is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   VanMoof''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 38
+random_paper: 13
 score:
   band: emerging
   composite: 15.9
@@ -113,7 +113,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 15.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

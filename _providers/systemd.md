@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 10
@@ -139,8 +139,11 @@ apis:
 - description: The Users API from systemd — 3 operation(s) for users.
   name: systemd Users API
   slug: systemd-users-api
-artifact_total: 63
+artifact_total: 89
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: systemd-hostnamed (org.freedesktop.hostname1)
   slug: open-hostname1
@@ -156,6 +159,81 @@ collections:
 - collection_type: open
   name: systemd-resolved (org.freedesktop.resolve1)
   slug: open-resolve1
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot API
+  slug: open-systemd-boot-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Cache API
+  slug: open-systemd-cache-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Cgroups API
+  slug: open-systemd-cgroups-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Configuration API
+  slug: open-systemd-configuration-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Credentials API
+  slug: open-systemd-credentials-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Hostname API
+  slug: open-systemd-hostname-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Image API
+  slug: open-systemd-image-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Images API
+  slug: open-systemd-images-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Inhibitors API
+  slug: open-systemd-inhibitors-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Jobs API
+  slug: open-systemd-jobs-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Links API
+  slug: open-systemd-links-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Machine Info API
+  slug: open-systemd-machine-info-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Machines API
+  slug: open-systemd-machines-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Manager API
+  slug: open-systemd-manager-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot PCR API
+  slug: open-systemd-pcr-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Power API
+  slug: open-systemd-power-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Resolution API
+  slug: open-systemd-resolution-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Resolve API
+  slug: open-systemd-resolve-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Seats API
+  slug: open-systemd-seats-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Sessions API
+  slug: open-systemd-sessions-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Snapshots API
+  slug: open-systemd-snapshots-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Unit API
+  slug: open-systemd-unit-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Units API
+  slug: open-systemd-units-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot UserDatabase API
+  slug: open-systemd-userdatabase-api
+- collection_type: open
+  name: systemd-hostnamed (org.freedesktop.hostname1) Boot Users API
+  slug: open-systemd-users-api
 - collection_type: open
   name: systemd Manager (org.freedesktop.systemd1)
   slug: open-systemd1
@@ -393,7 +471,7 @@ overview: 'systemd publishes 25 APIs on the [APIs.io](https://apis.io/) network,
 
 
   systemd''s developer surface includes documentation, release notes, changelog, tooling, and 35 more developer resources.'
-random_paper: 57
+random_paper: 32
 rules:
 - name: systemd API Rules
   rule_count: 5
@@ -431,7 +509,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/screenshots/systemd-2026-06-20T194839.png
 security:

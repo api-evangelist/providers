@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -107,7 +107,7 @@ arazzos:
 - description: Disable termination protection, delete the stack, then poll until DELETE_COMPLETE.
   name: CloudFormation Tear Down a Stack
   slug: cloudformation-teardown-stack-workflow
-artifact_total: 158
+artifact_total: 172
 collections:
 - collection_type: postman
   name: AWS Cloud Control API
@@ -116,11 +116,53 @@ collections:
   name: AWS CloudFormation API
   slug: postman-cloudformation-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: AWS Cloud Control API
   slug: open-cloud-control-api
 - collection_type: open
   name: AWS CloudFormation API
   slug: open-cloudformation-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets API
+  slug: open-cloudformation-change-sets-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Exports API
+  slug: open-cloudformation-exports-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Registry API
+  slug: open-cloudformation-registry-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Request Status API
+  slug: open-cloudformation-request-status-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Resources API
+  slug: open-cloudformation-resources-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Stack Drift API
+  slug: open-cloudformation-stack-drift-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Stack Events API
+  slug: open-cloudformation-stack-events-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Stack Instances API
+  slug: open-cloudformation-stack-instances-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Stack Policies API
+  slug: open-cloudformation-stack-policies-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Stack Resources API
+  slug: open-cloudformation-stack-resources-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Stack Sets API
+  slug: open-cloudformation-stack-sets-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Stacks API
+  slug: open-cloudformation-stacks-api
+- collection_type: open
+  name: AWS Cloud Control Change Sets Templates API
+  slug: open-cloudformation-templates-api
 common:
 - group: agent
   title: ''
@@ -727,7 +769,7 @@ plans:
 - name: Cloudformation Plans Pricing
   plan_count: 3
   slug: cloudformation-plans-pricing
-random_paper: 70
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Cloudformation Rate Limits
@@ -769,7 +811,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:

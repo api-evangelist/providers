@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -132,17 +132,113 @@ apis:
 - description: The Upgrades API from Snow Software — 2 operation(s) for upgrades.
   name: Snow Software Upgrades API
   slug: snow-software-upgrades-api
-artifact_total: 47
+artifact_total: 79
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'SAM: Computers Applications API'
+  slug: open-snow-software-applications-api
+- collection_type: open
+  name: 'SAM: Computers Applications Assignments API'
+  slug: open-snow-software-assignments-api
+- collection_type: open
+  name: 'SAM: Computers Applications Compliance API'
+  slug: open-snow-software-compliance-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer application metering API'
+  slug: open-snow-software-computer-application-metering-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer applications API'
+  slug: open-snow-software-computer-applications-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer contracts API'
+  slug: open-snow-software-computer-contracts-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer costs API'
+  slug: open-snow-software-computer-costs-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer display adapter API'
+  slug: open-snow-software-computer-display-adapter-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer drives API'
+  slug: open-snow-software-computer-drives-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer environment variables API'
+  slug: open-snow-software-computer-environment-variables-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer hardware API'
+  slug: open-snow-software-computer-hardware-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer logical disks API'
+  slug: open-snow-software-computer-logical-disks-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer logon history API'
+  slug: open-snow-software-computer-logon-history-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer monitors API'
+  slug: open-snow-software-computer-monitors-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer network adapters API'
+  slug: open-snow-software-computer-network-adapters-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer processors API'
+  slug: open-snow-software-computer-processors-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer registries API'
+  slug: open-snow-software-computer-registries-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer remote clients API'
+  slug: open-snow-software-computer-remote-clients-api
+- collection_type: open
+  name: 'SAM: Computers Applications Computer virtual machines API'
+  slug: open-snow-software-computer-virtual-machines-api
+- collection_type: open
+  name: 'SAM: Applications Computers API'
+  slug: open-snow-software-computers-api
+- collection_type: open
+  name: 'SAM: Computers Applications Costs API'
+  slug: open-snow-software-costs-api
+- collection_type: open
+  name: 'SAM: Computers Applications Coverage API'
+  slug: open-snow-software-coverage-api
+- collection_type: open
+  name: 'SAM: Computers Applications Entitlements API'
+  slug: open-snow-software-entitlements-api
+- collection_type: open
+  name: 'SAM: Computers Applications Licenses API'
+  slug: open-snow-software-licenses-api
 - collection_type: open
   name: 'SAM: Licenses'
   slug: open-snow-software-licenses
+- collection_type: open
+  name: 'SAM: Computers Applications Periods API'
+  slug: open-snow-software-periods-api
+- collection_type: open
+  name: 'SAM: Computers Applications Policies API'
+  slug: open-snow-software-policies-api
 - collection_type: open
   name: 'SaaS: Applications'
   slug: open-snow-software-saas-applications
 - collection_type: open
   name: 'SaaS: Subscriptions'
   slug: open-snow-software-saas-subscriptions
+- collection_type: open
+  name: 'SAM: Computers Applications Subscriptions API'
+  slug: open-snow-software-subscriptions-api
+- collection_type: open
+  name: 'SAM: Computers Applications Tasks API'
+  slug: open-snow-software-tasks-api
+- collection_type: open
+  name: 'SAM: Computers Applications Tracking API'
+  slug: open-snow-software-tracking-api
+- collection_type: open
+  name: 'SAM: Computers Applications Transfers API'
+  slug: open-snow-software-transfers-api
+- collection_type: open
+  name: 'SAM: Computers Applications Upgrades API'
+  slug: open-snow-software-upgrades-api
 common:
 - group: agent
   title: ''
@@ -235,7 +331,7 @@ plans:
 - name: Snow Software Plans Pricing
   plan_count: 1
   slug: snow-software-plans-pricing
-random_paper: 55
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Snow Software Rate Limits
@@ -277,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/screenshots/snow-software-2026-06-20T194211.png
 security:

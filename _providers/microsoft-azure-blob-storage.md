@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
 - description: The ?restype=service&comp=userdelegationkey API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=userdelegationkey.
   name: Azure Blob Storage ?restype=service&comp=userdelegationkey API
   slug: microsoft-azure-blob-storage-restype-service-comp-userdelegationkey-api
-artifact_total: 40
+artifact_total: 52
 collections:
 - collection_type: postman
   name: Azure Blob Storage REST Append Blobs API
@@ -111,8 +111,44 @@ collections:
   name: Azure Blob Storage REST Append Blobs ?restype=service&comp=userdelegationkey API
   slug: postman-microsoft-azure-blob-storage-restype-service-comp-userdelegationkey-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure Blob Storage REST API
   slug: open-azure-blob-storage-rest
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs API
+  slug: open-microsoft-azure-blob-storage-append-blobs-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs Azure Blob Storage REST API API
+  slug: open-microsoft-azure-blob-storage-azure-blob-storage-rest-api-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs API
+  slug: open-microsoft-azure-blob-storage-blobs-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs Block Blobs API
+  slug: open-microsoft-azure-blob-storage-block-blobs-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs ?comp=blobs API
+  slug: open-microsoft-azure-blob-storage-comp-blobs-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs Containers API
+  slug: open-microsoft-azure-blob-storage-containers-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs Page Blobs API
+  slug: open-microsoft-azure-blob-storage-page-blobs-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs ?restype=service&comp=batch API
+  slug: open-microsoft-azure-blob-storage-restype-service-comp-batch-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs ?restype=service&comp=properties API
+  slug: open-microsoft-azure-blob-storage-restype-service-comp-properties-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs ?restype=service&comp=stats API
+  slug: open-microsoft-azure-blob-storage-restype-service-comp-stats-api
+- collection_type: open
+  name: Azure Blob Storage REST Append Blobs ?restype=service&comp=userdelegationkey API
+  slug: open-microsoft-azure-blob-storage-restype-service-comp-userdelegationkey-api
 common:
 - group: operate
   title: ''
@@ -286,7 +322,7 @@ plans:
 - name: Microsoft Azure Blob Storage Plans Pricing
   plan_count: 6
   slug: microsoft-azure-blob-storage-plans-pricing
-random_paper: 80
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Microsoft Azure Blob Storage Rate Limits
@@ -320,7 +356,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/screenshots/microsoft-azure-blob-storage-2026-06-20T185402.png
 security:

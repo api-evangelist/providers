@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -101,8 +101,74 @@ apis:
 - description: Provides API status.
   name: Lex Machina Status API
   slug: lex-machina-status-api
-artifact_total: 52
+artifact_total: 74
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lex Machina Alerts API
+  slug: open-lex-machina-alerts-api
+- collection_type: open
+  name: Lex Machina Alerts Analytics API
+  slug: open-lex-machina-analytics-api
+- collection_type: open
+  name: Lex Machina Alerts Attorneys API
+  slug: open-lex-machina-attorneys-api
+- collection_type: open
+  name: Lex Machina Alerts Authorization API
+  slug: open-lex-machina-authorization-api
+- collection_type: open
+  name: Lex Machina Alerts Bankruptcy Cases API
+  slug: open-lex-machina-bankruptcy-cases-api
+- collection_type: open
+  name: Lex Machina Alerts Case Query API
+  slug: open-lex-machina-case-query-api
+- collection_type: open
+  name: Lex Machina Alerts Dockets API
+  slug: open-lex-machina-dockets-api
+- collection_type: open
+  name: Lex Machina Alerts Entities API
+  slug: open-lex-machina-entities-api
+- collection_type: open
+  name: Lex Machina Alerts Federal Appeals Cases API
+  slug: open-lex-machina-federal-appeals-cases-api
+- collection_type: open
+  name: Lex Machina Alerts Federal District Cases API
+  slug: open-lex-machina-federal-district-cases-api
+- collection_type: open
+  name: Lex Machina Alerts Find API
+  slug: open-lex-machina-find-api
+- collection_type: open
+  name: Lex Machina Alerts ITC Investigations API
+  slug: open-lex-machina-itc-investigations-api
+- collection_type: open
+  name: Lex Machina Alerts Judges API
+  slug: open-lex-machina-judges-api
+- collection_type: open
+  name: Lex Machina Alerts Law Firms API
+  slug: open-lex-machina-law-firms-api
+- collection_type: open
+  name: Lex Machina Alerts List API
+  slug: open-lex-machina-list-api
+- collection_type: open
+  name: Lex Machina Alerts Parties API
+  slug: open-lex-machina-parties-api
+- collection_type: open
+  name: Lex Machina Alerts Patents API
+  slug: open-lex-machina-patents-api
+- collection_type: open
+  name: Lex Machina Alerts PTAB Trials API
+  slug: open-lex-machina-ptab-trials-api
+- collection_type: open
+  name: Lex Machina Alerts Search API
+  slug: open-lex-machina-search-api
+- collection_type: open
+  name: Lex Machina Alerts State Cases API
+  slug: open-lex-machina-state-cases-api
+- collection_type: open
+  name: Lex Machina Alerts Status API
+  slug: open-lex-machina-status-api
 - collection_type: open
   name: Lex Machina API
   slug: open-lex-machina
@@ -254,7 +320,7 @@ overview: 'Lex Machina publishes 21 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lex Machina''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
-random_paper: 15
+random_paper: 52
 score:
   band: developing
   composite: 42.8
@@ -281,7 +347,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/screenshots/lex-machina-2026-06-20T184441.png
 security:

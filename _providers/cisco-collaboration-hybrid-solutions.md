@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -75,8 +75,29 @@ apis:
 - description: The Webhooks API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for webhooks.
   name: Cisco Collaboration Hybrid Solutions Webhooks API
   slug: cisco-collaboration-hybrid-solutions-webhooks-api
-artifact_total: 20
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cisco Webex Platform API (Collaboration Hybrid Solutions) Devices API
+  slug: open-cisco-collaboration-hybrid-solutions-devices-api
+- collection_type: open
+  name: Cisco Webex Platform API (Collaboration Hybrid Solutions) Devices Memberships API
+  slug: open-cisco-collaboration-hybrid-solutions-memberships-api
+- collection_type: open
+  name: Cisco Webex Platform API (Collaboration Hybrid Solutions) Devices Messages API
+  slug: open-cisco-collaboration-hybrid-solutions-messages-api
+- collection_type: open
+  name: Cisco Webex Platform API (Collaboration Hybrid Solutions) Devices Rooms API
+  slug: open-cisco-collaboration-hybrid-solutions-rooms-api
+- collection_type: open
+  name: Cisco Webex Platform API (Collaboration Hybrid Solutions) Devices Teams API
+  slug: open-cisco-collaboration-hybrid-solutions-teams-api
+- collection_type: open
+  name: Cisco Webex Platform API (Collaboration Hybrid Solutions) Devices Webhooks API
+  slug: open-cisco-collaboration-hybrid-solutions-webhooks-api
 - collection_type: open
   name: Cisco Webex Platform API (Collaboration Hybrid Solutions)
   slug: open-cisco-collaboration-hybrid-solutions
@@ -125,7 +146,7 @@ plans:
 - name: Cisco Collaboration Hybrid Solutions Plans Pricing
   plan_count: 3
   slug: cisco-collaboration-hybrid-solutions-plans-pricing
-random_paper: 99
+random_paper: 123
 rate_limits:
 - limit_count: 5
   name: Cisco Collaboration Hybrid Solutions Rate Limits
@@ -150,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/screenshots/cisco-collaboration-hybrid-solutions-2026-06-20T174354.png
 security:

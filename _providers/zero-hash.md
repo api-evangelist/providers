@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 31
 apis:
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
@@ -114,11 +114,105 @@ apis:
 - description: Initiate and monitor withdrawals from accounts
   name: Zero Hash Withdrawals API
   slug: zero-hash-withdrawals-api
-artifact_total: 38
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Zero Hash Webhooks
   slug: zero-hash-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: zerohash Accounts API
+  slug: open-zero-hash-accounts-api
+- collection_type: open
+  name: zerohash Assets API
+  slug: open-zero-hash-assets-api
+- collection_type: open
+  name: zerohash Awards API
+  slug: open-zero-hash-awards-api
+- collection_type: open
+  name: zerohash CLOB API
+  slug: open-zero-hash-clob-api
+- collection_type: open
+  name: zerohash Convert and Withdraw API
+  slug: open-zero-hash-convert-and-withdraw-api
+- collection_type: open
+  name: zerohash Customer Accounts (MTA) Customer Accounts (MTA) API
+  slug: open-zero-hash-customer-accounts-mta-api
+- collection_type: open
+  name: zerohash Deposits API
+  slug: open-zero-hash-deposits-api
+- collection_type: open
+  name: zerohash Entity Participants API
+  slug: open-zero-hash-entity-participants-api
+- collection_type: open
+  name: zerohash Fund API
+  slug: open-zero-hash-fund-api
+- collection_type: open
+  name: zerohash Index API
+  slug: open-zero-hash-index-api
+- collection_type: open
+  name: zerohash Individual Participants API
+  slug: open-zero-hash-individual-participants-api
+- collection_type: open
+  name: zerohash Liquidity API
+  slug: open-zero-hash-liquidity-api
+- collection_type: open
+  name: zerohash Market Data API
+  slug: open-zero-hash-market-data-api
+- collection_type: open
+  name: zerohash Movements API
+  slug: open-zero-hash-movements-api
+- collection_type: open
+  name: Connect Organization Token API
+  slug: open-zero-hash-organization-token-api
+- collection_type: open
+  name: zerohash Participant Jurisdictions API
+  slug: open-zero-hash-participant-jurisdictions-api
+- collection_type: open
+  name: zerohash Payins API
+  slug: open-zero-hash-payins-api
+- collection_type: open
+  name: zerohash Payments API
+  slug: open-zero-hash-payments-api
+- collection_type: open
+  name: zerohash Payouts API
+  slug: open-zero-hash-payouts-api
+- collection_type: open
+  name: zerohash Positions API
+  slug: open-zero-hash-positions-api
+- collection_type: open
+  name: zerohash Public API
+  slug: open-zero-hash-public-api
+- collection_type: open
+  name: zerohash Query Participants API
+  slug: open-zero-hash-query-participants-api
+- collection_type: open
+  name: zerohash Rewards API
+  slug: open-zero-hash-rewards-api
+- collection_type: open
+  name: zerohash SDK Authorization API
+  slug: open-zero-hash-sdk-authorization-api
+- collection_type: open
+  name: zerohash Staking API
+  slug: open-zero-hash-staking-api
+- collection_type: open
+  name: zerohash Trade Strategy API
+  slug: open-zero-hash-trade-strategy-api
+- collection_type: open
+  name: zerohash Trades API
+  slug: open-zero-hash-trades-api
+- collection_type: open
+  name: zerohash Transfers API
+  slug: open-zero-hash-transfers-api
+- collection_type: open
+  name: Connect User Token API
+  slug: open-zero-hash-user-token-api
+- collection_type: open
+  name: zerohash Withdrawals API
+  slug: open-zero-hash-withdrawals-api
 common:
 - group: agent
   title: ''
@@ -300,7 +394,7 @@ overview: 'Zero Hash publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zero Hash''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 73
+random_paper: 19
 scopes:
 - name: Zero Hash Scopes
   scope_count: 4
@@ -334,7 +428,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,13 +18,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Datasets API from A-Alpha Bio — 9 operation(s) for datasets.
   name: A-Alpha Bio Datasets API
   slug: a-alpha-bio-datasets-api
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: A Alpha Bio Datasets API
+  slug: open-a-alpha-bio-datasets-api
 common:
 - group: other
   title: ''
@@ -183,7 +190,7 @@ overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   A-Alpha Bio''s developer surface includes signup flow, engineering blog, product news, support, authentication, CLI, and 24 more developer resources.'
-random_paper: 59
+random_paper: 125
 score:
   band: thin
   composite: 39.2
@@ -212,7 +219,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/screenshots/a-alpha-bio-2026-08-07T160731.png
 security:

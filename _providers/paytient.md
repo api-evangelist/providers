@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -87,7 +87,7 @@ overview: 'Paytient is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Paytient''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 38
+random_paper: 133
 score:
   band: emerging
   composite: 20.8
@@ -107,7 +107,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paytient/refs/heads/main/screenshots/paytient-2026-08-07T191704.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,11 +56,32 @@ apis:
 - description: Search and retrieve distributed traces
   name: Zipkin Traces API
   slug: zipkin-traces-api
-artifact_total: 42
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Zipkin API v2
   slug: open-zipkin-api-v2
+- collection_type: open
+  name: Zipkin API v2 Autocomplete API
+  slug: open-zipkin-autocomplete-api
+- collection_type: open
+  name: Zipkin API v2 Autocomplete Dependencies API
+  slug: open-zipkin-dependencies-api
+- collection_type: open
+  name: Zipkin API v2 Autocomplete Health API
+  slug: open-zipkin-health-api
+- collection_type: open
+  name: Zipkin API v2 Autocomplete Services API
+  slug: open-zipkin-services-api
+- collection_type: open
+  name: Zipkin API v2 Autocomplete Spans API
+  slug: open-zipkin-spans-api
+- collection_type: open
+  name: Zipkin API v2 Autocomplete Traces API
+  slug: open-zipkin-traces-api
 common:
 - group: commercial
   title: ''
@@ -205,7 +226,7 @@ plans:
 - name: Zipkin Plans Pricing
   plan_count: 3
   slug: zipkin-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Zipkin Rate Limits
@@ -247,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/screenshots/zipkin-2026-06-20T201916.png
 security:

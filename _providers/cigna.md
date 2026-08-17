@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: The PractitionerRole API from Cigna — 1 operation(s) for practitionerrole.
   name: Cigna PractitionerRole API
   slug: cigna-practitionerrole-api
-artifact_total: 47
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Cigna Drug Formulary Bulk Data API
@@ -132,11 +132,59 @@ collections:
   name: Cigna Drug Formulary Bulk Data PractitionerRole API
   slug: postman-cigna-practitionerrole-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data API
+  slug: open-cigna-bulk-data-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data Condition API
+  slug: open-cigna-condition-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data Coverage API
+  slug: open-cigna-coverage-api
+- collection_type: open
   name: Cigna Drug Formulary API
   slug: open-cigna-drug-formulary-api
 - collection_type: open
+  name: Cigna Drug Formulary Bulk Data Encounter API
+  slug: open-cigna-encounter-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data ExplanationOfBenefit API
+  slug: open-cigna-explanationofbenefit-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data HealthcareService API
+  slug: open-cigna-healthcareservice-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data InsurancePlan API
+  slug: open-cigna-insuranceplan-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data Location API
+  slug: open-cigna-location-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data MedicationKnowledge API
+  slug: open-cigna-medicationknowledge-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data MedicationRequest API
+  slug: open-cigna-medicationrequest-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data Observation API
+  slug: open-cigna-observation-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data Organization API
+  slug: open-cigna-organization-api
+- collection_type: open
   name: Cigna Patient Access API
   slug: open-cigna-patient-access-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data Patient API
+  slug: open-cigna-patient-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data Practitioner API
+  slug: open-cigna-practitioner-api
+- collection_type: open
+  name: Cigna Drug Formulary Bulk Data PractitionerRole API
+  slug: open-cigna-practitionerrole-api
 - collection_type: open
   name: Cigna Provider Access API
   slug: open-cigna-provider-access-api
@@ -289,7 +337,7 @@ press:
 - date: '2020-11-17'
   title: Veterans Recovery Resources of Mobile Receives $100,000 Cigna Foundation Grant to Provide Mental Health Services to Area Veterans
   url: https://www.cigna.com/newsroom/news-releases/2020/veterans-recovery-resources-of-mobile-receives-100000-cigna-foundation-grant-to-provide-mental-health-services-to-area-veterans.html
-random_paper: 34
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Cigna Rate Limits
@@ -334,7 +382,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/screenshots/cigna-2026-06-20T174340.png
 security:

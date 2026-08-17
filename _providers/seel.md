@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: The Bill API from Seel — 3 operation(s) for bill.
@@ -58,11 +58,42 @@ apis:
 - description: The Quote API from Seel — 2 operation(s) for quote.
   name: Seel Quote API
   slug: seel-quote-api
-artifact_total: 13
+artifact_total: 23
 asyncapis:
 - description: Seel delivers webhook notifications to a merchant-configured HTTPS endpoint when protection contract and claim lifecycle events occur. Each notification is a Notification object with id, created_ts, t
   name: Seel Webhooks
   slug: seel-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Seel Commerce Protection Bill API
+  slug: open-seel-bill-api
+- collection_type: open
+  name: Seel Commerce Protection Bill Claim API
+  slug: open-seel-claim-api
+- collection_type: open
+  name: Seel Commerce Protection Bill Contract API
+  slug: open-seel-contract-api
+- collection_type: open
+  name: Seel Commerce Protection Bill Event API
+  slug: open-seel-event-api
+- collection_type: open
+  name: Seel Commerce Protection Bill Fulfillment API
+  slug: open-seel-fulfillment-api
+- collection_type: open
+  name: Seel Commerce Protection Bill Merchant API
+  slug: open-seel-merchant-api
+- collection_type: open
+  name: Seel Commerce Protection Bill Order API
+  slug: open-seel-order-api
+- collection_type: open
+  name: Seel Commerce Protection Bill Product API
+  slug: open-seel-product-api
+- collection_type: open
+  name: Seel Commerce Protection Bill Quote API
+  slug: open-seel-quote-api
 common:
 - group: agent
   title: ''
@@ -143,7 +174,7 @@ overview: 'Seel publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Seel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 11 more developer resources.'
-random_paper: 65
+random_paper: 127
 score:
   band: thin
   composite: 36.8
@@ -172,7 +203,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

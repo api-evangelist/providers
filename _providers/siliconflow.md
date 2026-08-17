@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
@@ -64,7 +64,41 @@ apis:
 - description: The Videos API from SiliconFlow — 2 operation(s) for videos.
   name: SiliconFlow Videos API
   slug: siliconflow-videos-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SiliconFlow Cloud Platform Audio API
+  slug: open-siliconflow-audio-api
+- collection_type: open
+  name: SiliconFlow Cloud Platform Chat API
+  slug: open-siliconflow-chat-api
+- collection_type: open
+  name: SiliconFlow Cloud Platform Completions API
+  slug: open-siliconflow-completions-api
+- collection_type: open
+  name: SiliconFlow Cloud Platform Embeddings API
+  slug: open-siliconflow-embeddings-api
+- collection_type: open
+  name: SiliconFlow Cloud Platform Images API
+  slug: open-siliconflow-images-api
+- collection_type: open
+  name: SiliconFlow Cloud Platform Messages API
+  slug: open-siliconflow-messages-api
+- collection_type: open
+  name: SiliconFlow Cloud Platform Models API
+  slug: open-siliconflow-models-api
+- collection_type: open
+  name: SiliconFlow Cloud Platform Rerank API
+  slug: open-siliconflow-rerank-api
+- collection_type: open
+  name: SiliconFlow Cloud Platform User API
+  slug: open-siliconflow-user-api
+- collection_type: open
+  name: SiliconFlow Cloud Platform Videos API
+  slug: open-siliconflow-videos-api
 common:
 - group: auth
   title: ''
@@ -126,7 +160,7 @@ plans:
 - name: Siliconflow Plans Pricing
   plan_count: 1
   slug: siliconflow-plans-pricing
-random_paper: 113
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Siliconflow Rate Limits
@@ -150,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/screenshots/siliconflow-2026-06-20T193920.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,11 +57,29 @@ apis:
 - description: NVD data source organizations
   name: NVD Sources API
   slug: nvd-sources-api
-artifact_total: 27
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NVD CVE CPE API
+  slug: open-nvd-cpe-api
+- collection_type: open
+  name: NVD CVE CPE CPE Match API
+  slug: open-nvd-cpe-match-api
+- collection_type: open
+  name: NVD CPE CVE API
+  slug: open-nvd-cve-api
+- collection_type: open
+  name: NVD CVE CPE CVE Change History API
+  slug: open-nvd-cve-change-history-api
 - collection_type: open
   name: NVD CVE API
   slug: open-nvd-cve
+- collection_type: open
+  name: NVD CVE CPE Sources API
+  slug: open-nvd-sources-api
 common:
 - group: agent
   title: ''
@@ -176,7 +194,7 @@ plans:
 - name: Nvd Plans Pricing
   plan_count: 2
   slug: nvd-plans-pricing
-random_paper: 88
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Nvd Rate Limits
@@ -210,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/screenshots/nvd-2026-06-20T190537.png
 security:

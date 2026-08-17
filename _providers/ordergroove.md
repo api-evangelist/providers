@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: Recurring subscription agreements.
   name: Ordergroove Subscriptions API
   slug: ordergroove-subscriptions-api
-artifact_total: 16
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ordergroove REST Customers API
+  slug: open-ordergroove-customers-api
+- collection_type: open
+  name: Ordergroove REST Customers Items API
+  slug: open-ordergroove-items-api
+- collection_type: open
+  name: Ordergroove REST Customers Offers API
+  slug: open-ordergroove-offers-api
+- collection_type: open
+  name: Ordergroove REST Customers Orders API
+  slug: open-ordergroove-orders-api
+- collection_type: open
+  name: Ordergroove REST Customers Products API
+  slug: open-ordergroove-products-api
+- collection_type: open
+  name: Ordergroove REST Customers Subscriptions API
+  slug: open-ordergroove-subscriptions-api
 - collection_type: open
   name: Ordergroove REST API
   slug: open-ordergroove
@@ -142,7 +163,7 @@ plans:
 - name: Ordergroove Plans Pricing
   plan_count: 2
   slug: ordergroove-plans-pricing
-random_paper: 118
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Ordergroove Rate Limits
@@ -167,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/screenshots/ordergroove-2026-08-07T190929.png
 security:

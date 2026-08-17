@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 24
@@ -102,8 +102,23 @@ apis:
 - description: The Teams and Permissions API from Acquia — 10 operation(s) for teams and permissions.
   name: Acquia Teams and Permissions API
   slug: acquia-teams-and-permissions-api
-artifact_total: 103
+artifact_total: 123
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Acquia Cloud API Account API
+  slug: open-acquia-account-api
+- collection_type: open
+  name: Acquia Cloud API Account Agreements API
+  slug: open-acquia-agreements-api
+- collection_type: open
+  name: Acquia Cloud API Account Application Performance Monitoring Services API
+  slug: open-acquia-application-performance-monitoring-services-api
+- collection_type: open
+  name: Acquia Cloud API Account Applications API
+  slug: open-acquia-applications-api
 - collection_type: open
   name: Acquia Cloud API - Account
   slug: open-acquia-cloud-account
@@ -135,6 +150,9 @@ collections:
   name: Acquia Cloud API - Environments
   slug: open-acquia-cloud-environments
 - collection_type: open
+  name: Acquia Cloud API Account Cloud IDE API
+  slug: open-acquia-cloud-ide-api
+- collection_type: open
   name: Acquia Cloud API - Identity Providers
   slug: open-acquia-cloud-identity-providers
 - collection_type: open
@@ -164,6 +182,48 @@ collections:
 - collection_type: open
   name: Acquia Cloud API - Teams and Permissions
   slug: open-acquia-cloud-teams-and-permissions
+- collection_type: open
+  name: Acquia Cloud API Account Codebases API
+  slug: open-acquia-codebases-api
+- collection_type: open
+  name: Acquia Cloud API Account Current system health API
+  slug: open-acquia-current-system-health-api
+- collection_type: open
+  name: Acquia Cloud API Account Distributions API
+  slug: open-acquia-distributions-api
+- collection_type: open
+  name: Acquia Cloud API Account Email API
+  slug: open-acquia-email-api
+- collection_type: open
+  name: Acquia Cloud API Account Environments API
+  slug: open-acquia-environments-api
+- collection_type: open
+  name: Acquia Cloud API Account Identity Providers API
+  slug: open-acquia-identity-providers-api
+- collection_type: open
+  name: Acquia Cloud API Account Invite API
+  slug: open-acquia-invite-api
+- collection_type: open
+  name: Acquia Cloud API Account Messages API
+  slug: open-acquia-messages-api
+- collection_type: open
+  name: Acquia Cloud API Account Notifications API
+  slug: open-acquia-notifications-api
+- collection_type: open
+  name: Acquia Cloud API Account Options API
+  slug: open-acquia-options-api
+- collection_type: open
+  name: Acquia Cloud API Account Organizations API
+  slug: open-acquia-organizations-api
+- collection_type: open
+  name: Acquia Cloud API Account Private Networks API
+  slug: open-acquia-private-networks-api
+- collection_type: open
+  name: Acquia Cloud API Account Subscriptions API
+  slug: open-acquia-subscriptions-api
+- collection_type: open
+  name: Acquia Cloud API Account Teams and Permissions API
+  slug: open-acquia-teams-and-permissions-api
 common:
 - group: agent
   title: ''
@@ -410,7 +470,7 @@ plans:
 - name: Acquia Plans Pricing
   plan_count: 8
   slug: acquia-plans-pricing
-random_paper: 28
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Acquia Rate Limits
@@ -457,7 +517,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/screenshots/acquia-2026-06-20T163944.png
 security:

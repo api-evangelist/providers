@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: A private, account-scoped REST API reached with an API key generated under Settings > Integration > Zapier, used to power Contractor Foreman's official Zapier app rather than published for general dev
@@ -77,7 +77,7 @@ plans:
 - name: Contractorforeman Plans Pricing
   plan_count: 5
   slug: contractorforeman-plans-pricing
-random_paper: 31
+random_paper: 43
 score:
   band: emerging
   composite: 15.6
@@ -91,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contractorforeman/refs/heads/main/screenshots/contractorforeman-2026-07-25T210341.png
 security:

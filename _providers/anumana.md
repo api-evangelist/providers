@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -126,7 +126,7 @@ overview: 'Anumana is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Anumana''s developer surface includes documentation, support, engineering blog, FAQ, and 19 more developer resources.'
-random_paper: 17
+random_paper: 141
 score:
   band: emerging
   composite: 24.0
@@ -148,7 +148,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anumana/refs/heads/main/screenshots/anumana-2026-08-07T161428.png
 security:

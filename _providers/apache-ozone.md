@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: The Objects API from Apache Ozone — 1 operation(s) for objects.
   name: Apache Ozone Objects API
   slug: apache-ozone-objects-api
-artifact_total: 41
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Ozone S3-Compatible Buckets API
+  slug: open-apache-ozone-buckets-api
+- collection_type: open
+  name: Apache Ozone S3-Compatible Buckets Objects API
+  slug: open-apache-ozone-objects-api
 common:
 - group: agent
   title: ''
@@ -182,7 +192,7 @@ plans:
 - name: Apache Ozone Plans Pricing
   plan_count: 3
   slug: apache-ozone-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Apache Ozone Rate Limits
@@ -224,7 +234,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ozone/refs/heads/main/screenshots/apache-ozone-2026-06-20T172131.png
 security:

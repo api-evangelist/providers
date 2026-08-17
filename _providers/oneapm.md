@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'OneAPM is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   OneAPM''s developer surface includes developer portal, documentation, engineering blog, support, pricing, signup flow, and 10 more developer resources.'
-random_paper: 40
+random_paper: 44
 score:
   band: emerging
   composite: 19.3
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneapm/refs/heads/main/screenshots/oneapm-2026-08-07T190258.png
 security:

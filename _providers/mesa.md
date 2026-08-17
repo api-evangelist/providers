@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Exchange API keys for a session token.
@@ -37,7 +37,17 @@ apis:
 - description: Retrieve invoices for the authenticated user.
   name: Mesa Invoices API
   slug: mesa-invoices-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mesa Partner Authentication API
+  slug: open-mesa-authentication-api
+- collection_type: open
+  name: Mesa Partner Authentication Invoices API
+  slug: open-mesa-invoices-api
 common:
 - group: other
   title: ''
@@ -147,7 +157,7 @@ overview: 'Mesa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Mesa''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 17 more developer resources.'
-random_paper: 62
+random_paper: 124
 score:
   band: developing
   composite: 45.9
@@ -176,7 +186,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/screenshots/mesa-2026-08-07T172620.png
 security:

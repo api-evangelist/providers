@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'Vestris is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vestris'' developer surface includes pricing and 3 more developer resources.'
-random_paper: 64
+random_paper: 39
 score:
   band: minimal
   composite: 8.3
@@ -79,7 +79,7 @@ score:
     regime_id: insurance
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: vestris
 tags:

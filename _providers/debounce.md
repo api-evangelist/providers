@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,36 +23,42 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-12'
+  score: 66.7
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Debounce Agentic Access
-  operation_count: 6
+  operation_count: 7
   slug: debounce-agentic-access
-  summary_line: 6 operations · 1 acting
-api_count: 4
+  summary_line: 7 operations
+api_count: 6
 apis:
-- description: Account balance and usage history
-  name: DeBounce Account API
-  slug: debounce-account-api
-- description: Bulk email list upload and status
-  name: DeBounce Bulk API
-  slug: debounce-bulk-api
-- description: Data enrichment and disposable email detection
-  name: DeBounce Data API
-  slug: debounce-data-api
-- description: Email address validation endpoints
+- description: Real-time single email address validation. Returns a deliverability result (Safe to Send, Risky, Invalid, Unknown), a result code, role-account and free-provider flags, a did-you-mean typo suggestion,
   name: DeBounce Validation API
   slug: debounce-validation-api
-artifact_total: 18
+- description: Asynchronous bulk email list validation on bulk.debounce.io. Submit the URL of a hosted CSV or TXT list for processing, receive a list_id, then poll the status endpoint for the processing percentage a
+  name: DeBounce Bulk API
+  slug: debounce-bulk-api
+- description: Reverse email lookup / data append. Returns additional contact data associated with an email address. The same enrichment engine is reachable from the single-validation endpoint via the append and pho
+  name: DeBounce Data API
+  slug: debounce-data-api
+- description: Account operations. Returns the remaining credit balance on the account and a dated API usage history for a requested start/end window, so consumers can monitor consumption and top up before hitting t
+  name: DeBounce Account API
+  slug: debounce-account-api
+- description: Free, unauthenticated disposable email detector on disposable.debounce.io. A single GET with an email address or domain returns whether it belongs to a known disposable or temporary email provider, ch
+  name: DeBounce Disposable Detector API
+  slug: debounce-disposable-api
+- description: 'Free company logo lookup service positioned as a drop-in replacement for the deprecated Clearbit Logo API. A GET against logo.debounce.com with a company domain returns a high-quality PNG logo served '
+  name: DeBounce Logo API
+  slug: debounce-logo-api
+artifact_total: 28
 collections:
 - collection_type: postman
   name: DeBounce Email Validation Account API
@@ -65,39 +72,49 @@ collections:
 - collection_type: postman
   name: DeBounce Email Account Validation API
   slug: postman-debounce-validation-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DeBounce Email Validation API — Account
+  slug: open-debounce-account-api
+- collection_type: open
+  name: DeBounce Bulk Email Validation API
+  slug: open-debounce-bulk-api
+- collection_type: open
+  name: DeBounce Email Validation API — Data Enrichment
+  slug: open-debounce-data-api
+- collection_type: open
+  name: DeBounce Disposable Email Detector API
+  slug: open-debounce-disposable-api
+- collection_type: open
+  name: DeBounce Email Validation API — Single Validation
+  slug: open-debounce-validation-api
 common:
-- group: build
-  title: ''
-  type: PostmanWorkspace
-  url: https://www.postman.com/kinlaneapi/debounce/overview
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/debounce-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/debounce-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/debounce-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://debounce.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.debounce.com/
 - group: docs
   title: ''
   type: Documentation
   url: https://developers.debounce.com/
-- group: build
+- group: docs
   title: ''
-  type: GitHubOrg
-  url: https://github.com/debounceio
-- group: company
+  type: APIReference
+  url: https://developers.debounce.com/api-reference/endpoint/single-validation
+- group: start
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/debounceio
+  type: GettingStarted
+  url: https://developers.debounce.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.debounce.com/
 - group: company
   title: ''
   type: Blog
@@ -106,14 +123,126 @@ common:
   title: ''
   type: Pricing
   url: https://debounce.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.debounce.com/register
+- group: start
+  title: ''
+  type: Login
+  url: https://app.debounce.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://debounce.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://debounce.com/privacy-policy/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://debounce.com/gdpr/
 - group: operate
   title: ''
   type: StatusPage
   url: https://status.debounce.com/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://feedback.debounce.com/roadmap
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://feedback.debounce.com/changelog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/debounceio
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/debounceio
 - group: other
   title: ''
   type: X
   url: https://x.com/debounceio
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/debounce/overview
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/debounce-a2a.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/debounce-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/debounce-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/debounce-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/debounce-well-known.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/debounce-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/debounce-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/debounce-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/debounce-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/debounce-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/debounce-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/debounce-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/debounce-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/debounce-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/debounce-packages.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/debounce-changelog.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/debounce-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -139,7 +268,7 @@ common:
   type: BlogPosts
   url: blogs/blogs.json
 created: '2026-06-12'
-description: DeBounce is an email validation and verification REST API that helps developers ensure the deliverability and quality of email addresses at scale. The API supports real-time single email validation, asynchronous bulk list processing, and data enrichment via reverse email lookup. It detects disposable addresses, role-based emails, catch-all domains, syntax errors, and performs MX record and SMTP-level mailbox verification. DeBounce offers pay-as-you-go credit-based pricing with no monthly subscription required, full API access at every tier, and credits that never expire.
+description: DeBounce is an email validation and verification REST API that helps developers ensure the deliverability and quality of email addresses at scale. The API supports real-time single email validation, asynchronous bulk list processing, and data enrichment via reverse email lookup. It detects disposable addresses, role-based emails, catch-all domains, syntax errors, and performs MX record and SMTP-level mailbox verification. DeBounce offers pay-as-you-go credit-based pricing with no monthly subscription required, full API access at every tier, and credits that never expire. The surface is split across four hosts — api.debounce.io for validation, enrichment and account operations, bulk.debounce.io for asynchronous list jobs, disposable.debounce.io for the free disposable detector, and logo.debounce.com for the free company logo lookup — and DeBounce publishes OpenAPI 3.1.0, llms.txt, an A2A agent card, an agent skill and a remote MCP server from its developer portal.
 examples:
 - key_count: 9
   name: Debounce Single Validation Example
@@ -159,22 +288,26 @@ jsonld:
   property_count: 32
   slug: debounce-context
 layout: provider
-modified: '2026-06-12'
+mcp_servers:
+- description: ''
+  name: debounce-mcp.yml
+  slug: debounce-mcpyml
+modified: '2026-08-14'
 name: DeBounce
 nav: Providers
 network: true
-overview: 'DeBounce publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Bulk API, Data API, and 1 more. Tagged areas include Email Validation, Email Verification, Deliverability, Disposable Email Detection, and MX Records.
+overview: 'DeBounce publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Validation API, Bulk API, Data API, and 2 more. Tagged areas include Email Validation, Email Verification, Deliverability, Disposable Email Detection, and MX Records.
 
 
   The DeBounce catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  DeBounce''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  DeBounce''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Debounce Plans Pricing
   plan_count: 9
   slug: debounce-plans-pricing
-random_paper: 117
+random_paper: 92
 rate_limits:
 - limit_count: 4
   name: Debounce Rate Limits
@@ -188,17 +321,22 @@ rules:
     info: 1
     warn: 4
   slug: debounce-jsonschema-spectral-rules
+scopes:
+- name: Debounce Scopes
+  scope_count: 1
+  slug: debounce-scopes
+  summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 56.4
-  delta: 0.0
+  band: exemplar
+  composite: 80.5
+  delta: 24.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 74.6
-    developer_ergonomics: 26.1
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 52.6
+    commercial_clarity: 92.1
+    contract_quality: 72.5
+    developer_ergonomics: 71.7
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 73.7
   previous_composite: 56.4
   provenance:
     agentic_access: derived
@@ -208,8 +346,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/screenshots/debounce-2026-06-20T175751.png
 security:
 - kind: authentication
@@ -230,5 +368,7 @@ tags:
 - Bulk Email Validation
 - Data Enrichment
 - Syntax Validation
+- Reverse Email Lookup
+- Logo API
 website: https://debounce.com/
 ---

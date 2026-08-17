@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,11 +57,29 @@ apis:
 - description: Farm financial records and cost tracking
   name: Granular (Corteva Agriscience) Financials API
   slug: granular-financials-api
-artifact_total: 17
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Granular Farm Management Activities API
+  slug: open-granular-activities-api
+- collection_type: open
+  name: Granular Farm Management Activities Crops API
+  slug: open-granular-crops-api
 - collection_type: open
   name: Granular Farm Management API
   slug: open-granular-farm-management
+- collection_type: open
+  name: Granular Farm Management Activities Farms API
+  slug: open-granular-farms-api
+- collection_type: open
+  name: Granular Farm Management Activities Fields API
+  slug: open-granular-fields-api
+- collection_type: open
+  name: Granular Farm Management Activities Financials API
+  slug: open-granular-financials-api
 common:
 - group: agent
   title: ''
@@ -110,7 +128,7 @@ plans:
 - name: Granular Plans Pricing
   plan_count: 3
   slug: granular-plans-pricing
-random_paper: 20
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Granular Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/screenshots/granular-2026-06-20T182321.png
 security:

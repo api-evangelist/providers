@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -56,11 +56,33 @@ apis:
 - description: Create shipments, print labels, and track parcels.
   name: Packlink Shipments API
   slug: packlink-shipments-api
-artifact_total: 11
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Packlink Webhooks
   slug: packlink-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Packlink PRO Shipping Clients API
+  slug: open-packlink-clients-api
+- collection_type: open
+  name: Packlink PRO Shipping Clients Customs API
+  slug: open-packlink-customs-api
+- collection_type: open
+  name: Packlink PRO Shipping Clients Integrations API
+  slug: open-packlink-integrations-api
+- collection_type: open
+  name: Packlink PRO Shipping Clients Locations API
+  slug: open-packlink-locations-api
+- collection_type: open
+  name: Packlink PRO Shipping Clients Services API
+  slug: open-packlink-services-api
+- collection_type: open
+  name: Packlink PRO Shipping Clients Shipments API
+  slug: open-packlink-shipments-api
 common:
 - group: other
   title: ''
@@ -173,7 +195,7 @@ overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Packlink''s developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 5
+random_paper: 100
 score:
   band: thin
   composite: 40.7
@@ -203,7 +225,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png
 security:

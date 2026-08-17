@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -69,15 +69,24 @@ apis:
 - description: Endpoints for managing item replacements suggested by shoppers during order fulfillment.
   name: instacart Replacements API
   slug: instacart-replacements-api
-artifact_total: 62
+artifact_total: 72
 asyncapis:
 - description: Instacart Connect notifies retailers of order status changes and fulfillment events through webhook callbacks. Retailers configure callback endpoints to receive real-time notifications about order lif
   name: Instacart Connect Event Callbacks
   slug: instacart-connect-events-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Instacart Catalog Authentication API
+  slug: open-instacart-authentication-api
+- collection_type: open
   name: Instacart Catalog API
   slug: open-instacart-catalog-api
+- collection_type: open
+  name: Instacart Catalog Authentication Chat API
+  slug: open-instacart-chat-api
 - collection_type: open
   name: Instacart Connect Fulfillment API
   slug: open-instacart-connect-fulfillment-api
@@ -85,8 +94,29 @@ collections:
   name: Instacart Connect Post-Checkout API
   slug: open-instacart-connect-post-checkout-api
 - collection_type: open
+  name: Instacart Catalog Authentication Delivery API
+  slug: open-instacart-delivery-api
+- collection_type: open
   name: Instacart Developer Platform API
   slug: open-instacart-developer-platform-api
+- collection_type: open
+  name: Instacart Catalog Authentication Items API
+  slug: open-instacart-items-api
+- collection_type: open
+  name: Instacart Catalog Authentication Last Mile Delivery API
+  slug: open-instacart-last-mile-delivery-api
+- collection_type: open
+  name: Instacart Catalog Authentication Orders API
+  slug: open-instacart-orders-api
+- collection_type: open
+  name: Instacart Catalog Authentication Pickup API
+  slug: open-instacart-pickup-api
+- collection_type: open
+  name: Instacart Catalog Authentication Products API
+  slug: open-instacart-products-api
+- collection_type: open
+  name: Instacart Catalog Authentication Replacements API
+  slug: open-instacart-replacements-api
 common:
 - group: agent
   title: ''
@@ -265,7 +295,7 @@ plans:
 - name: Instacart Plans Pricing
   plan_count: 2
   slug: instacart-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Instacart Rate Limits
@@ -307,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png
 security:

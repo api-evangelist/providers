@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - description: Operations for managing provisioned model throughput.
   name: Amazon Bedrock Provisioned Throughput API
   slug: amazon-bedrock-provisioned-throughput-api
-artifact_total: 31
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Amazon Bedrock Converse API
@@ -82,6 +82,27 @@ collections:
 - collection_type: postman
   name: Amazon Bedrock Converse Provisioned Throughput API
   slug: postman-amazon-bedrock-provisioned-throughput-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Bedrock Converse API
+  slug: open-amazon-bedrock-converse-api
+- collection_type: open
+  name: Amazon Bedrock Converse Custom Models API
+  slug: open-amazon-bedrock-custom-models-api
+- collection_type: open
+  name: Amazon Bedrock Converse Foundation Models API
+  slug: open-amazon-bedrock-foundation-models-api
+- collection_type: open
+  name: Amazon Bedrock Converse Inference API
+  slug: open-amazon-bedrock-inference-api
+- collection_type: open
+  name: Amazon Bedrock Converse Model Customization API
+  slug: open-amazon-bedrock-model-customization-api
+- collection_type: open
+  name: Amazon Bedrock Converse Provisioned Throughput API
+  slug: open-amazon-bedrock-provisioned-throughput-api
 - collection_type: open
   name: Amazon Bedrock Runtime API
   slug: open-amazon-bedrock-runtime
@@ -219,7 +240,7 @@ plans:
 - name: Amazon Bedrock Plans Pricing
   plan_count: 1
   slug: amazon-bedrock-plans-pricing
-random_paper: 101
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Amazon Bedrock Rate Limits
@@ -253,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/screenshots/amazon-bedrock-2026-06-20T171613.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: Manage a user's wantlist.
   name: Discogs User Wantlist API
   slug: discogs-user-wantlist-api
-artifact_total: 177
+artifact_total: 186
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Discogs Database API
+  slug: open-discogs-database-api
+- collection_type: open
+  name: Discogs Database Image API
+  slug: open-discogs-image-api
+- collection_type: open
+  name: Discogs Database Inventory Management API
+  slug: open-discogs-inventory-management-api
+- collection_type: open
+  name: Discogs Database Marketplace API
+  slug: open-discogs-marketplace-api
+- collection_type: open
+  name: Discogs Database User Collection API
+  slug: open-discogs-user-collection-api
+- collection_type: open
+  name: Discogs Database User Identity API
+  slug: open-discogs-user-identity-api
+- collection_type: open
+  name: Discogs Database User Lists API
+  slug: open-discogs-user-lists-api
+- collection_type: open
+  name: Discogs Database User Wantlist API
+  slug: open-discogs-user-wantlist-api
 common:
 - group: agent
   title: ''
@@ -677,7 +705,7 @@ plans:
 - name: Discogs Plans Pricing
   plan_count: 2
   slug: discogs-plans-pricing
-random_paper: 28
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Discogs Rate Limits
@@ -724,7 +752,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/screenshots/discogs-2026-07-25T212056.png
 security:

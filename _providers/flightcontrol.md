@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,8 +60,29 @@ apis:
 - description: The Services API from Flightcontrol — 2 operation(s) for services.
   name: Flightcontrol Services API
   slug: flightcontrol-services-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flightcontrol Management CloudFront API
+  slug: open-flightcontrol-cloudfront-api
+- collection_type: open
+  name: Flightcontrol Management CloudFront Deploy Hooks API
+  slug: open-flightcontrol-deploy-hooks-api
+- collection_type: open
+  name: Flightcontrol Management CloudFront Deployments API
+  slug: open-flightcontrol-deployments-api
+- collection_type: open
+  name: Flightcontrol Management CloudFront Environment Variables API
+  slug: open-flightcontrol-environment-variables-api
+- collection_type: open
+  name: Flightcontrol Management CloudFront Environments API
+  slug: open-flightcontrol-environments-api
+- collection_type: open
+  name: Flightcontrol Management CloudFront Services API
+  slug: open-flightcontrol-services-api
 - collection_type: open
   name: Flightcontrol Management API
   slug: open-flightcontrol
@@ -126,7 +147,7 @@ plans:
 - name: Flightcontrol Plans Pricing
   plan_count: 4
   slug: flightcontrol-plans-pricing
-random_paper: 87
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Flightcontrol Rate Limits
@@ -151,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/screenshots/flightcontrol-2026-06-20T181311.png
 security:

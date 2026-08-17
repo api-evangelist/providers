@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 3
@@ -174,7 +174,7 @@ apis:
 - description: The WebhookSubscriptions API from Square — 5 operation(s) for webhooksubscriptions.
   name: Square WebhookSubscriptions API
   slug: square-webhooksubscriptions-api
-artifact_total: 159
+artifact_total: 202
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Square webhook event surface. Square delivers HTTPS POST notifications to a subscriber-provided `notification_url` whenever an event occurs on a seller''s account. Each '
   name: Square Webhooks
@@ -306,6 +306,135 @@ collections:
 - collection_type: postman
   name: Square ApplePay WebhookSubscriptions API
   slug: postman-square-webhooksubscriptions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Square ApplePay API
+  slug: open-square-applepay-api
+- collection_type: open
+  name: Square ApplePay BankAccounts API
+  slug: open-square-bankaccounts-api
+- collection_type: open
+  name: Square ApplePay BookingCustomAttributes API
+  slug: open-square-bookingcustomattributes-api
+- collection_type: open
+  name: Square ApplePay Bookings API
+  slug: open-square-bookings-api
+- collection_type: open
+  name: Square ApplePay Cards API
+  slug: open-square-cards-api
+- collection_type: open
+  name: Square ApplePay CashDrawers API
+  slug: open-square-cashdrawers-api
+- collection_type: open
+  name: Square ApplePay Catalog API
+  slug: open-square-catalog-api
+- collection_type: open
+  name: Square ApplePay Checkout API
+  slug: open-square-checkout-api
+- collection_type: open
+  name: Square ApplePay CustomerCustomAttributes API
+  slug: open-square-customercustomattributes-api
+- collection_type: open
+  name: Square ApplePay CustomerGroups API
+  slug: open-square-customergroups-api
+- collection_type: open
+  name: Square ApplePay Customers API
+  slug: open-square-customers-api
+- collection_type: open
+  name: Square ApplePay CustomerSegments API
+  slug: open-square-customersegments-api
+- collection_type: open
+  name: Square ApplePay Devices API
+  slug: open-square-devices-api
+- collection_type: open
+  name: Square ApplePay Disputes API
+  slug: open-square-disputes-api
+- collection_type: open
+  name: Square ApplePay Employees API
+  slug: open-square-employees-api
+- collection_type: open
+  name: Square ApplePay Events API
+  slug: open-square-events-api
+- collection_type: open
+  name: Square ApplePay GiftCardActivities API
+  slug: open-square-giftcardactivities-api
+- collection_type: open
+  name: Square ApplePay GiftCards API
+  slug: open-square-giftcards-api
+- collection_type: open
+  name: Square ApplePay Inventory API
+  slug: open-square-inventory-api
+- collection_type: open
+  name: Square ApplePay Invoices API
+  slug: open-square-invoices-api
+- collection_type: open
+  name: Square ApplePay Labor API
+  slug: open-square-labor-api
+- collection_type: open
+  name: Square ApplePay LocationCustomAttributes API
+  slug: open-square-locationcustomattributes-api
+- collection_type: open
+  name: Square ApplePay Locations API
+  slug: open-square-locations-api
+- collection_type: open
+  name: Square ApplePay Loyalty API
+  slug: open-square-loyalty-api
+- collection_type: open
+  name: Square ApplePay MerchantCustomAttributes API
+  slug: open-square-merchantcustomattributes-api
+- collection_type: open
+  name: Square ApplePay Merchants API
+  slug: open-square-merchants-api
+- collection_type: open
+  name: Square ApplePay MobileAuthorization API
+  slug: open-square-mobileauthorization-api
+- collection_type: open
+  name: Square ApplePay OAuth API
+  slug: open-square-oauth-api
+- collection_type: open
+  name: Square ApplePay OrderCustomAttributes API
+  slug: open-square-ordercustomattributes-api
+- collection_type: open
+  name: Square ApplePay Orders API
+  slug: open-square-orders-api
+- collection_type: open
+  name: Square ApplePay Payments API
+  slug: open-square-payments-api
+- collection_type: open
+  name: Square ApplePay Payouts API
+  slug: open-square-payouts-api
+- collection_type: open
+  name: Square ApplePay Refunds API
+  slug: open-square-refunds-api
+- collection_type: open
+  name: Square ApplePay Sites API
+  slug: open-square-sites-api
+- collection_type: open
+  name: Square ApplePay Snippets API
+  slug: open-square-snippets-api
+- collection_type: open
+  name: Square ApplePay Subscriptions API
+  slug: open-square-subscriptions-api
+- collection_type: open
+  name: Square ApplePay Team API
+  slug: open-square-team-api
+- collection_type: open
+  name: Square ApplePay Terminal API
+  slug: open-square-terminal-api
+- collection_type: open
+  name: Square ApplePay Transactions API
+  slug: open-square-transactions-api
+- collection_type: open
+  name: Square ApplePay V1Transactions API
+  slug: open-square-v1transactions-api
+- collection_type: open
+  name: Square ApplePay Vendors API
+  slug: open-square-vendors-api
+- collection_type: open
+  name: Square ApplePay WebhookSubscriptions API
+  slug: open-square-webhooksubscriptions-api
 - collection_type: open
   name: Square
   slug: open-square
@@ -818,7 +947,7 @@ plans:
 - name: Square Plans Pricing
   plan_count: 4
   slug: square-plans-pricing
-random_paper: 57
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Square Rate Limits
@@ -879,7 +1008,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png
 security:

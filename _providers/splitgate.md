@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,7 +34,17 @@ apis:
 - description: The Players API from Splitgate — 4 operation(s) for players.
   name: Splitgate Players API
   slug: splitgate-players-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 1047 Games Third-Party Matches API
+  slug: open-splitgate-matches-api
+- collection_type: open
+  name: 1047 Games Third-Party Players API
+  slug: open-splitgate-players-api
 common:
 - group: agent
   title: ''
@@ -140,7 +150,7 @@ overview: 'Splitgate publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Splitgate''s developer surface includes API reference, support, engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Splitgate Rate Limits
@@ -168,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

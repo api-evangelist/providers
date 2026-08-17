@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 23
 apis:
 - description: The Account API from Kumospace — 6 operation(s) for account.
@@ -100,7 +100,80 @@ apis:
 - description: The Zones API from Kumospace — 5 operation(s) for zones.
   name: Kumospace Zones API
   slug: kumospace-zones-api
-artifact_total: 27
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: '@kumo/api Account API'
+  slug: open-kumospace-account-api
+- collection_type: open
+  name: '@kumo/api Account Analytics API'
+  slug: open-kumospace-analytics-api
+- collection_type: open
+  name: '@kumo/api Account Calendar API'
+  slug: open-kumospace-calendar-api
+- collection_type: open
+  name: '@kumo/api Account Chat API'
+  slug: open-kumospace-chat-api
+- collection_type: open
+  name: '@kumo/api Account Daily (Webhook) API'
+  slug: open-kumospace-daily-webhook-api
+- collection_type: open
+  name: '@kumo/api Account Demo API'
+  slug: open-kumospace-demo-api
+- collection_type: open
+  name: '@kumo/api Account Flooring API'
+  slug: open-kumospace-flooring-api
+- collection_type: open
+  name: '@kumo/api Account Furniture API'
+  slug: open-kumospace-furniture-api
+- collection_type: open
+  name: '@kumo/api Account Integrations API'
+  slug: open-kumospace-integrations-api
+- collection_type: open
+  name: '@kumo/api Account MusicTrack API'
+  slug: open-kumospace-musictrack-api
+- collection_type: open
+  name: '@kumo/api Account Payments API'
+  slug: open-kumospace-payments-api
+- collection_type: open
+  name: '@kumo/api Account Recordings API'
+  slug: open-kumospace-recordings-api
+- collection_type: open
+  name: '@kumo/api Account Redirects API'
+  slug: open-kumospace-redirects-api
+- collection_type: open
+  name: '@kumo/api Account Room Templates API'
+  slug: open-kumospace-room-templates-api
+- collection_type: open
+  name: '@kumo/api Account Rooms API'
+  slug: open-kumospace-rooms-api
+- collection_type: open
+  name: '@kumo/api Account Spaces API'
+  slug: open-kumospace-spaces-api
+- collection_type: open
+  name: '@kumo/api Account Stock Furniture API'
+  slug: open-kumospace-stock-furniture-api
+- collection_type: open
+  name: '@kumo/api Account Stock Walls API'
+  slug: open-kumospace-stock-walls-api
+- collection_type: open
+  name: '@kumo/api Account Transcription API'
+  slug: open-kumospace-transcription-api
+- collection_type: open
+  name: '@kumo/api Account Users API'
+  slug: open-kumospace-users-api
+- collection_type: open
+  name: '@kumo/api Account Walls API'
+  slug: open-kumospace-walls-api
+- collection_type: open
+  name: '@kumo/api Account Zone Templates API'
+  slug: open-kumospace-zone-templates-api
+- collection_type: open
+  name: '@kumo/api Account Zones API'
+  slug: open-kumospace-zones-api
 common:
 - group: agent
   title: ''
@@ -206,7 +279,7 @@ overview: 'Kumospace publishes 23 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kumospace''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 8
+random_paper: 74
 score:
   band: developing
   composite: 45.9
@@ -229,7 +302,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kumospace/refs/heads/main/screenshots/kumospace-2026-07-25T224329.png
 security:

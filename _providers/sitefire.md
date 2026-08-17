@@ -1,40 +1,61 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid with free trial
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
-  trial: false
+  source:
+  - https://sitefire.ai/pricing
+  - https://sitefire.ai/docs/quick-start.md
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    agentic_access: true
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-12'
+  score: 65.3
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Sitefire Agentic Access
+  operation_count: 2
+  slug: sitefire-agentic-access
+  summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
 - description: The Book Demo API from Sitefire — 2 operation(s) for book demo.
   name: Sitefire Book Demo API
   slug: sitefire-book-demo-api
-artifact_total: 3
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sitefire Book-a-Demo Book Demo API
+  slug: open-sitefire-book-demo-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/sitefire-agentic-access.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -99,6 +120,58 @@ common:
   title: ''
   type: Website
   url: https://sitefire.ai
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/sitefire-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sitefire-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/sitefire-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sitefire-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sitefire-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sitefire-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sitefire-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://sitefire.ai/data-privacy
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sitefire-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sitefire-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sitefire-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sitefire-rate-limits.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/sitefire-robots.txt
 created: '2026-07-17'
 description: Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked topics, diagnoses why content is or isn't cited using its 4C content classification, and generates actionable briefings plus AI-optimized articles that publish directly to CMS platforms such as Webflow and Framer. Sitefire connects to analytics (GA4, Cloudflare, AWS CloudFront) to measure AI referral and crawler traffic, and exposes its data and content workflows to AI agents through an official hosted MCP server (Spark) and a published Agent Skills bundle. A small public, unauthenticated REST API books product demos. Sitefire is a Y Combinator (W2026) company.
 image: https://sitefire.ai/og-default.png
@@ -107,26 +180,39 @@ mcp_servers:
 - description: ''
   name: Sitefire MCP (Spark)
   slug: sitefire-mcp-spark
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Sitefire
 nav: Providers
 network: true
 overview: 'Sitefire publishes 1 API on the [APIs.io](https://apis.io/) network: Book Demo API. Tagged areas include Company, Generative Engine Optimization, AI Visibility, Marketing, and SEO.
 
 
-  Sitefire''s developer surface includes changelog, documentation, quickstart, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 19
+  Sitefire''s developer surface includes changelog, documentation, quickstart, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
+plans:
+- name: Sitefire Plans Pricing
+  plan_count: 3
+  slug: sitefire-plans-pricing
+random_paper: 114
+rate_limits:
+- limit_count: 8
+  name: Sitefire Rate Limits
+  slug: sitefire-rate-limits
+scopes:
+- name: Sitefire Scopes
+  scope_count: 5
+  slug: sitefire-scopes
+  summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.5
-  delta: 0.0
+  band: strong
+  composite: 58.2
+  delta: 16.7
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 84.2
     contract_quality: 56.0
-    developer_ergonomics: 41.3
+    developer_ergonomics: 52.2
     discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 21.1
+    governance: 20.8
+    operational_transparency: 52.6
   previous_composite: 41.5
   provenance:
     contracts:
@@ -137,9 +223,13 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Sitefire Authentication
+  slug: sitefire-authentication
+  summary_line: oauth2/none · 2 schemes
 - kind: domain-security
   name: Sitefire Domain Security
   slug: sitefire-domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ arazzos:
 - description: Post a new feed entry via the form-encoded update endpoint, then read the last entry back.
   name: ThingSpeak Write Update and Read Last Entry
   slug: thingspeak-write-update-and-read-last-entry-workflow
-artifact_total: 69
+artifact_total: 72
 asyncapis:
 - description: ThingSpeak's MQTT broker at `mqtt3.thingspeak.com`. Devices publish channel updates and subscribe to channel/field feeds using MQTT credentials (Client ID, Username, Password) provisioned in the Thing
   name: ThingSpeak MQTT API
@@ -131,8 +131,14 @@ collections:
   name: ThingSpeak Update API
   slug: postman-thingspeak-update-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: ThingSpeak Channels API
   slug: open-thingspeak-channels-api
+- collection_type: open
+  name: ThingSpeak Channels Channels.json API
+  slug: open-thingspeak-channels-json-api
 - collection_type: open
   name: ThingSpeak Feeds API
   slug: open-thingspeak-feeds-api
@@ -140,7 +146,10 @@ collections:
   name: ThingSpeak TalkBack API
   slug: open-thingspeak-talkback-api
 - collection_type: open
-  name: ThingSpeak Update API
+  name: ThingSpeak Channels Talkbacks API
+  slug: open-thingspeak-talkbacks-api
+- collection_type: open
+  name: ThingSpeak Channels Update API
   slug: open-thingspeak-update-api
 common:
 - group: agent
@@ -402,7 +411,7 @@ plans:
 - name: Thingspeak Plans Pricing
   plan_count: 5
   slug: thingspeak-plans-pricing
-random_paper: 110
+random_paper: 27
 rate_limits:
 - limit_count: 8
   name: Thingspeak Rate Limits
@@ -452,7 +461,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/screenshots/thingspeak-2026-06-20T195303.png
 security:

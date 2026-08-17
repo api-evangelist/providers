@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-12'
+  score: 52.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 238
   slug: candid-health-agentic-access
   summary_line: 238 operations · 136 acting
-api_count: 54
+api_count: 60
 apis:
 - description: Manage patient invoicing, payments, refunds, and accounts receivable. Automates patient billing workflows and tracks outstanding balances.
   name: Candid Health Patient Collections API
@@ -201,7 +202,200 @@ apis:
 - description: The subpackage_write-offs.subpackage_write-offs/v1 API from Candid Health — 5 operation(s) for subpackage_write-offs.subpackage_write-offs/v1.
   name: Candid Health subpackage_write-offs.subpackage_write-offs/v1 API
   slug: candid-health-subpackage-write-offs-subpackage-write-offs-v1-api
-artifact_total: 73
+- description: Real-time and batch insurance eligibility checks.
+  name: Candid Health Eligibility API
+  slug: candidhealth-eligibility-api
+- description: Submit and manage encounters that drive claim generation.
+  name: Candid Health Encounters API
+  slug: candidhealth-encounters-api
+- description: Scan and retrieve billing lifecycle events.
+  name: Candid Health Events API
+  slug: candidhealth-events-api
+- description: Resolve contracted rates for service lines.
+  name: Candid Health Fee Schedules API
+  slug: candidhealth-fee-schedules-api
+- description: Retrieve ERA / 835 remittance adjudication detail.
+  name: Candid Health Insurance Adjudications API
+  slug: candidhealth-insurance-adjudications-api
+- description: Look up insurance payers.
+  name: Candid Health Payers API
+  slug: candidhealth-payers-api
+artifact_total: 139
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Candid Health Auth API
+  slug: open-candid-health-auth-api
+- collection_type: open
+  name: Candid Health Auth Charge Capture API
+  slug: open-candid-health-charge-capture-api
+- collection_type: open
+  name: Candid Health Auth Eligibility API
+  slug: open-candid-health-eligibility-api
+- collection_type: open
+  name: Candid Health Auth Encounters API
+  slug: open-candid-health-encounters-api
+- collection_type: open
+  name: Candid Health Auth Events API
+  slug: open-candid-health-events-api
+- collection_type: open
+  name: Candid Health Auth Fee Schedules API
+  slug: open-candid-health-fee-schedules-api
+- collection_type: open
+  name: Candid Health Auth Insurance Adjudications API
+  slug: open-candid-health-insurance-adjudications-api
+- collection_type: open
+  name: Candid Health Auth Payers API
+  slug: open-candid-health-payers-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default API
+  slug: open-candid-health-subpackage-auth-subpackage-auth-default-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_billing-notes.subpackage_billing-notes/v2 API
+  slug: open-candid-health-subpackage-billing-notes-subpackage-billing-notes-v2-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_charge-capture-bundles.subpackage_charge-capture-bundles/v1 API
+  slug: open-candid-health-subpackage-charge-capture-bundles-subpackage-charge-capture-bundles-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_charge-capture.subpackage_charge-capture/v1 API
+  slug: open-candid-health-subpackage-charge-capture-subpackage-charge-capture-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_contracts.subpackage_contracts/v2 API
+  slug: open-candid-health-subpackage-contracts-subpackage-contracts-v2-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_contracts.subpackage_contracts/v3 API
+  slug: open-candid-health-subpackage-contracts-subpackage-contracts-v3-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_credentialing.subpackage_credentialing/v2 API
+  slug: open-candid-health-subpackage-credentialing-subpackage-credentialing-v2-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_custom-schemas.subpackage_custom-schemas/v1 API
+  slug: open-candid-health-subpackage-custom-schemas-subpackage-custom-schemas-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_diagnoses API
+  slug: open-candid-health-subpackage-diagnoses-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_eligibility.subpackage_eligibility/v2 API
+  slug: open-candid-health-subpackage-eligibility-subpackage-eligibility-v2-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_encounter-attachments.subpackage_encounter-attachments/v1 API
+  slug: open-candid-health-subpackage-encounter-attachments-subpackage-encounter-attachments-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_encounter-providers.subpackage_encounter-providers/v2 API
+  slug: open-candid-health-subpackage-encounter-providers-subpackage-encounter-providers-v2-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_encounter-supplemental-information.subpackage_encounter-supplemental-information/v1 API
+  slug: open-candid-health-subpackage-encounter-supplemental-information-subpackage-encounter-supplemental-information-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_encounters.subpackage_encounters/v4 API
+  slug: open-candid-health-subpackage-encounters-subpackage-encounters-v4-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_events.subpackage_events/v1 API
+  slug: open-candid-health-subpackage-events-subpackage-events-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_exports.subpackage_exports/v3 API
+  slug: open-candid-health-subpackage-exports-subpackage-exports-v3-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_external-payment-account-config.subpackage_external-payment-account-config/v1 API
+  slug: open-candid-health-subpackage-external-payment-account-config-subpackage-external-payment-account-config-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_fee-schedules.subpackage_fee-schedules/v3 API
+  slug: open-candid-health-subpackage-fee-schedules-subpackage-fee-schedules-v3-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_guarantor.subpackage_guarantor/v1 API
+  slug: open-candid-health-subpackage-guarantor-subpackage-guarantor-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_health-care-code-information.subpackage_health-care-code-information/v1 API
+  slug: open-candid-health-subpackage-health-care-code-information-subpackage-health-care-code-information-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_import-invoice.subpackage_import-invoice/v1 API
+  slug: open-candid-health-subpackage-import-invoice-subpackage-import-invoice-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_insurance-adjudications.subpackage_insurance-adjudications/v1 API
+  slug: open-candid-health-subpackage-insurance-adjudications-subpackage-insurance-adjudications-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_insurance-refunds.subpackage_insurance-refunds/v1 API
+  slug: open-candid-health-subpackage-insurance-refunds-subpackage-insurance-refunds-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_medication-dispense.subpackage_medication-dispense/v1 API
+  slug: open-candid-health-subpackage-medication-dispense-subpackage-medication-dispense-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_non-insurance-payer-payments.subpackage_non-insurance-payer-payments/v1 API
+  slug: open-candid-health-subpackage-non-insurance-payer-payments-subpackage-non-insurance-payer-payments-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_non-insurance-payer-refunds.subpackage_non-insurance-payer-refunds/v1 API
+  slug: open-candid-health-subpackage-non-insurance-payer-refunds-subpackage-non-insurance-payer-refunds-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_non-insurance-payers.subpackage_non-insurance-payers/v1 API
+  slug: open-candid-health-subpackage-non-insurance-payers-subpackage-non-insurance-payers-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_organization-providers.subpackage_organization-providers/v3 API
+  slug: open-candid-health-subpackage-organization-providers-subpackage-organization-providers-v3-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_organization-service-facilities.subpackage_organization-service-facilities/v2 API
+  slug: open-candid-health-subpackage-organization-service-facilities-subpackage-organization-service-facilities-v2-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_patient-ar.subpackage_patient-ar/v1 API
+  slug: open-candid-health-subpackage-patient-ar-subpackage-patient-ar-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_patient-payments.subpackage_patient-payments/v4 API
+  slug: open-candid-health-subpackage-patient-payments-subpackage-patient-payments-v4-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_patient-refunds.subpackage_patient-refunds/v1 API
+  slug: open-candid-health-subpackage-patient-refunds-subpackage-patient-refunds-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_payer-plan-groups.subpackage_payer-plan-groups/v1 API
+  slug: open-candid-health-subpackage-payer-plan-groups-subpackage-payer-plan-groups-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_payers.subpackage_payers/v3 API
+  slug: open-candid-health-subpackage-payers-subpackage-payers-v3-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_payers.subpackage_payers/v4 API
+  slug: open-candid-health-subpackage-payers-subpackage-payers-v4-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_pre-encounter.subpackage_pre-encounter/appointments.subpackage_pre-encounter/appointments/v1 API
+  slug: open-candid-health-subpackage-pre-encounter-subpackage-pre-encounter-appointments-subpackage-pre-encounter-appointments-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_pre-encounter.subpackage_pre-encounter/coverages.subpackage_pre-encounter/coverages/v1 API
+  slug: open-candid-health-subpackage-pre-encounter-subpackage-pre-encounter-coverages-subpackage-pre-encounter-coverages-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_pre-encounter.subpackage_pre-encounter/eligibilityChecks.subpackage_pre-encounter/eligibilityChecks/v1 API
+  slug: open-candid-health-subpackage-pre-encounter-subpackage-pre-encounter-eligibilitychecks-subpackage-pre-encounter-eligibilitychecks-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_pre-encounter.subpackage_pre-encounter/images.subpackage_pre-encounter/images/v1 API
+  slug: open-candid-health-subpackage-pre-encounter-subpackage-pre-encounter-images-subpackage-pre-encounter-images-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_pre-encounter.subpackage_pre-encounter/lists.subpackage_pre-encounter/lists/v1 API
+  slug: open-candid-health-subpackage-pre-encounter-subpackage-pre-encounter-lists-subpackage-pre-encounter-lists-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_pre-encounter.subpackage_pre-encounter/notes.subpackage_pre-encounter/notes/v1 API
+  slug: open-candid-health-subpackage-pre-encounter-subpackage-pre-encounter-notes-subpackage-pre-encounter-notes-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_pre-encounter.subpackage_pre-encounter/organizationExternalProviders.subpackage_pre-encounter/organizationExternalProviders/v1 API
+  slug: open-candid-health-subpackage-pre-encounter-subpackage-pre-encounter-organizationexternalproviders-subpackage-pre-encounter-organizationexternalproviders-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_pre-encounter.subpackage_pre-encounter/patients.subpackage_pre-encounter/patients/v1 API
+  slug: open-candid-health-subpackage-pre-encounter-subpackage-pre-encounter-patients-subpackage-pre-encounter-patients-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_pre-encounter.subpackage_pre-encounter/tags.subpackage_pre-encounter/tags/v1 API
+  slug: open-candid-health-subpackage-pre-encounter-subpackage-pre-encounter-tags-subpackage-pre-encounter-tags-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_service-lines.subpackage_service-lines/v2 API
+  slug: open-candid-health-subpackage-service-lines-subpackage-service-lines-v2-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_superbills.subpackage_superbills/v1 API
+  slug: open-candid-health-subpackage-superbills-subpackage-superbills-v1-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_tasks.subpackage_tasks/v3 API
+  slug: open-candid-health-subpackage-tasks-subpackage-tasks-v3-api
+- collection_type: open
+  name: API Reference subpackage_auth.subpackage_auth/default subpackage_write-offs.subpackage_write-offs/v1 API
+  slug: open-candid-health-subpackage-write-offs-subpackage-write-offs-v1-api
+- collection_type: open
+  name: Candid Health API
+  slug: open-candidhealth
 common:
 - group: agent
   title: ''
@@ -235,10 +429,6 @@ common:
   title: ''
   type: Blog
   url: https://candidhealth.com/blog
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://candidhealth.com/integrations
 - group: operate
   title: ''
   type: StatusPage
@@ -271,6 +461,146 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/candid-health-context.jsonld
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/candidhealth
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/candidhealth
+- group: company
+  title: ''
+  type: Website
+  url: https://www.joincandidhealth.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.joincandidhealth.com
+- group: build
+  title: ''
+  type: Packages
+  url: packages/candid-health-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/candid-health-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/candid-health-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://docs.joincandidhealth.com/.well-known/api-catalog
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/candid-health-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/candid-health-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/candid-health-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/candid-health-original-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/candid-health-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/candid-health-conformance.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/candid-health-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/candid-health-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/candid-health-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.joincandidhealth.com/api-principles/breaking-changes
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/candid-health-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/candid-health-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/candid-health-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/candid-health-components.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/candid-health-encounter-create-example.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/candid-health-encounter-schema.json
+- group: design
+  title: ''
+  type: Rules
+  url: rules/candid-health-jsonschema-spectral-rules.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://docs.joincandidhealth.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.joincandidhealth.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.joincandidhealth.com/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.joincandidhealth.com/introduction/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.joincandidhealth.com/additional-resources/support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.joincandidhealth.com/hc/en-us
+- group: start
+  title: ''
+  type: Login
+  url: https://app.joincandidhealth.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://candidhealth.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://candidhealth.com/privacy-policy
 created: 2026-06-12
 description: Candid Health is a medical billing automation platform providing REST APIs for submitting claims, checking real-time eligibility, managing encounters, processing remittances, handling prior authorizations, patient collections, credentialing, and full revenue cycle management for healthcare providers.
 examples:
@@ -319,22 +649,26 @@ jsonld:
   property_count: 51
   slug: candid-health-context
 layout: provider
-modified: 2026-06-12
+mcp_servers:
+- description: ''
+  name: candid-health-mcp.yml
+  slug: candid-health-mcpyml
+modified: 2026-08-15
 name: Candid Health
 nav: Providers
 network: true
-overview: 'Candid Health publishes 48 APIs on the [APIs.io](https://apis.io/) network, including subpackage_auth.subpackage_auth/default API, subpackage_billing-notes.subpackage_billing-notes/v2 API, subpackage_charge-capture-bundles.subpackage_charge-capture-bundles/v1 API, and 45 more. Tagged areas include Medical Billing, Revenue Cycle Management, Healthcare, Claims, and Eligibility.
+overview: 'Candid Health publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Charge Capture API, Auth API, subpackage_auth.subpackage_auth/default API, and 53 more. Tagged areas include Medical Billing, Revenue Cycle Management, Healthcare, Claims, and Eligibility.
 
 
   The Candid Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Candid Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 12 more developer resources.'
+  Candid Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, sandbox, code examples, developer portal, and 44 more developer resources.'
 plans:
 - name: Candid Health Plans Pricing
   plan_count: 1
   slug: candid-health-plans-pricing
-random_paper: 86
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Candid Health Rate Limits
@@ -349,16 +683,16 @@ rules:
     warn: 4
   slug: candid-health-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.2
-  delta: 0.0
+  band: strong
+  composite: 64.7
+  delta: 20.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 58.4
-    developer_ergonomics: 21.7
-    discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 42.1
+    commercial_clarity: 78.9
+    contract_quality: 59.1
+    developer_ergonomics: 80.4
+    discoverability: 57.4
+    governance: 77.1
+    operational_transparency: 50.0
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -372,11 +706,11 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 25.8
+    score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/screenshots/candid-health-2026-06-20T173925.png
+  scored_at: '2026-08-17'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/screenshots/candid-health-2026-07-25T204340.png
 security:
 - kind: authentication
   name: Candid Health Authentication
@@ -386,6 +720,10 @@ security:
   name: Candid Health Domain Security
   slug: candid-health-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Candid Health Trust Center
+  slug: candid-health-trust-center
+  summary_line: SOC 2 Type 2, SOC 2 Type 1, SOC 1 Type 1, HIPAA (Business Associate)
 slug: candid-health
 tags:
 - Medical Billing

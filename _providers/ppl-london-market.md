@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,7 +43,23 @@ apis:
 - description: Retrieves informative and actionable notifications about an interested party's involvement in the placement process, plus the business transaction log for contract-related engagements. Pull-based only
   name: PPL Events API
   slug: ppl-events-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: document
+  slug: open-ppl-london-market-documents
+- collection_type: open
+  name: event
+  slug: open-ppl-london-market-events
+- collection_type: open
+  name: organisation
+  slug: open-ppl-london-market-organisations
+- collection_type: open
+  name: placement
+  slug: open-ppl-london-market-placements
+- collection_type: open
+  name: submission
+  slug: open-ppl-london-market-submissions
 common:
 - group: auth
   title: ''
@@ -214,7 +230,7 @@ overview: 'PPL publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   PPL''s developer surface includes authentication, sandbox, getting-started guide, documentation, API reference, signup flow, support, and 31 more developer resources.'
-random_paper: 36
+random_paper: 77
 scopes:
 - name: Ppl London Market Scopes
   scope_count: 1
@@ -249,7 +265,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

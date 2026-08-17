@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: The Renders API from PDFEndpoint — 2 operation(s) for renders.
   name: PDFEndpoint Renders API
   slug: pdfendpoint-renders-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PDFEndpoint Account API
+  slug: open-pdfendpoint-account-api
+- collection_type: open
+  name: PDFEndpoint Account Convert API
+  slug: open-pdfendpoint-convert-api
+- collection_type: open
+  name: PDFEndpoint Account Renders API
+  slug: open-pdfendpoint-renders-api
 - collection_type: open
   name: PDFEndpoint API
   slug: open-pdfendpoint
@@ -106,7 +118,7 @@ plans:
 - name: Pdfendpoint Plans Pricing
   plan_count: 2
   slug: pdfendpoint-plans-pricing
-random_paper: 99
+random_paper: 136
 rate_limits:
 - limit_count: 3
   name: Pdfendpoint Rate Limits
@@ -131,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/screenshots/pdfendpoint-2026-08-07T191717.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 2
@@ -170,7 +170,143 @@ apis:
 - description: The workflow-architect API from Netter — 2 operation(s) for workflow-architect.
   name: Netter workflow-architect API
   slug: netter-workflow-architect-api
-artifact_total: 48
+artifact_total: 93
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DMI Backend actions API
+  slug: open-netter-actions-api
+- collection_type: open
+  name: DMI Backend actions api-keys API
+  slug: open-netter-api-keys-api
+- collection_type: open
+  name: DMI Backend actions app-chat API
+  slug: open-netter-app-chat-api
+- collection_type: open
+  name: DMI Backend actions apps API
+  slug: open-netter-apps-api
+- collection_type: open
+  name: DMI Backend actions apps-query API
+  slug: open-netter-apps-query-api
+- collection_type: open
+  name: DMI Backend actions assistant API
+  slug: open-netter-assistant-api
+- collection_type: open
+  name: DMI Backend actions attributes API
+  slug: open-netter-attributes-api
+- collection_type: open
+  name: DMI Backend actions automations API
+  slug: open-netter-automations-api
+- collection_type: open
+  name: DMI Backend actions chats API
+  slug: open-netter-chats-api
+- collection_type: open
+  name: DMI Backend actions companies API
+  slug: open-netter-companies-api
+- collection_type: open
+  name: DMI Backend actions dashboard-chat API
+  slug: open-netter-dashboard-chat-api
+- collection_type: open
+  name: DMI Backend actions dashboard-data API
+  slug: open-netter-dashboard-data-api
+- collection_type: open
+  name: DMI Backend actions dashboard-versions API
+  slug: open-netter-dashboard-versions-api
+- collection_type: open
+  name: DMI Backend actions dashboards API
+  slug: open-netter-dashboards-api
+- collection_type: open
+  name: DMI Backend actions databases API
+  slug: open-netter-databases-api
+- collection_type: open
+  name: DMI Backend actions file-folders API
+  slug: open-netter-file-folders-api
+- collection_type: open
+  name: DMI Backend actions files API
+  slug: open-netter-files-api
+- collection_type: open
+  name: DMI Backend actions folders API
+  slug: open-netter-folders-api
+- collection_type: open
+  name: DMI Backend actions groups API
+  slug: open-netter-groups-api
+- collection_type: open
+  name: DMI Backend actions infra API
+  slug: open-netter-infra-api
+- collection_type: open
+  name: DMI Backend actions integrations API
+  slug: open-netter-integrations-api
+- collection_type: open
+  name: DMI Backend actions internal API
+  slug: open-netter-internal-api
+- collection_type: open
+  name: DMI Backend actions join-advisor API
+  slug: open-netter-join-advisor-api
+- collection_type: open
+  name: DMI Backend actions lego-architect API
+  slug: open-netter-lego-architect-api
+- collection_type: open
+  name: DMI Backend actions me API
+  slug: open-netter-me-api
+- collection_type: open
+  name: DMI Backend actions monitoring API
+  slug: open-netter-monitoring-api
+- collection_type: open
+  name: DMI Backend actions ontology API
+  slug: open-netter-ontology-api
+- collection_type: open
+  name: DMI Backend actions ontology-chat API
+  slug: open-netter-ontology-chat-api
+- collection_type: open
+  name: DMI Backend actions ontology-entities API
+  slug: open-netter-ontology-entities-api
+- collection_type: open
+  name: DMI Backend actions ontology-promotion API
+  slug: open-netter-ontology-promotion-api
+- collection_type: open
+  name: DMI Backend actions ontology-query API
+  slug: open-netter-ontology-query-api
+- collection_type: open
+  name: DMI Backend actions ontology-records API
+  slug: open-netter-ontology-records-api
+- collection_type: open
+  name: DMI Backend actions ontology-relationships API
+  slug: open-netter-ontology-relationships-api
+- collection_type: open
+  name: DMI Backend actions ontology-rows API
+  slug: open-netter-ontology-rows-api
+- collection_type: open
+  name: DMI Backend actions ontology-traversal API
+  slug: open-netter-ontology-traversal-api
+- collection_type: open
+  name: DMI Backend actions operators API
+  slug: open-netter-operators-api
+- collection_type: open
+  name: DMI Backend actions permissions API
+  slug: open-netter-permissions-api
+- collection_type: open
+  name: DMI Backend actions project-steps API
+  slug: open-netter-project-steps-api
+- collection_type: open
+  name: DMI Backend actions projects API
+  slug: open-netter-projects-api
+- collection_type: open
+  name: DMI Backend actions row-policies API
+  slug: open-netter-row-policies-api
+- collection_type: open
+  name: DMI Backend actions run-history API
+  slug: open-netter-run-history-api
+- collection_type: open
+  name: DMI Backend actions step-output API
+  slug: open-netter-step-output-api
+- collection_type: open
+  name: DMI Backend actions steps API
+  slug: open-netter-steps-api
+- collection_type: open
+  name: DMI Backend actions workflow-architect API
+  slug: open-netter-workflow-architect-api
 common:
 - group: auth
   title: ''
@@ -272,7 +408,7 @@ overview: 'Netter publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Netter''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 58
+random_paper: 62
 score:
   band: thin
   composite: 35.9
@@ -296,7 +432,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/screenshots/netter-2026-08-07T184948.png
 security:

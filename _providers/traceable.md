@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,11 +52,20 @@ apis:
 - description: Download OpenAPI, WSDL, and other API specification files generated from discovered traffic.
   name: Traceable Specifications API
   slug: traceable-specifications-api
-artifact_total: 21
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Traceable Platform GraphQL API
+  slug: open-traceable-graphql-api
 - collection_type: open
   name: Traceable Platform API
   slug: open-traceable-platform
+- collection_type: open
+  name: Traceable Platform GraphQL Specifications API
+  slug: open-traceable-specifications-api
 common:
 - group: agent
   title: ''
@@ -173,7 +182,7 @@ plans:
 - name: Traceable Plans Pricing
   plan_count: 1
   slug: traceable-plans-pricing
-random_paper: 91
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Traceable Rate Limits
@@ -215,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/screenshots/traceable-2026-06-20T195515.png
 security:

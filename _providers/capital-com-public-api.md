@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,15 +63,39 @@ apis:
 - description: Operations for managing limit and stop working orders.
   name: Capital.com Public API Working Orders API
   slug: capital-com-public-api-working-orders-api
-artifact_total: 18
+artifact_total: 26
 asyncapis:
 - description: Real-time streaming API from Capital.com for market data and OHLC candlestick updates. Clients connect over WebSocket using session tokens (CST and X-SECURITY-TOKEN) obtained from the Capital.com REST
   name: Capital.com WebSocket Streaming API
   slug: capital-com-public-api-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Capital.com REST Accounts API
+  slug: open-capital-com-public-api-accounts-api
+- collection_type: open
   name: Capital.com REST API
   slug: open-capital-com-public-api-capital-com-rest-api
+- collection_type: open
+  name: Capital.com REST Accounts General API
+  slug: open-capital-com-public-api-general-api
+- collection_type: open
+  name: Capital.com REST Accounts History API
+  slug: open-capital-com-public-api-history-api
+- collection_type: open
+  name: Capital.com REST Accounts Markets API
+  slug: open-capital-com-public-api-markets-api
+- collection_type: open
+  name: Capital.com REST Accounts Positions API
+  slug: open-capital-com-public-api-positions-api
+- collection_type: open
+  name: Capital.com REST Accounts Session API
+  slug: open-capital-com-public-api-session-api
+- collection_type: open
+  name: Capital.com REST Accounts Working Orders API
+  slug: open-capital-com-public-api-working-orders-api
 common:
 - group: agent
   title: ''
@@ -148,7 +172,7 @@ plans:
 - name: Capital Com Public Api Plans Pricing
   plan_count: 3
   slug: capital-com-public-api-plans-pricing
-random_paper: 101
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Capital Com Public Api Rate Limits
@@ -188,7 +212,7 @@ score:
     regime_id: securities_market_data
     score: 53.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/screenshots/capital-com-public-api-2026-06-20T173937.png
 security:

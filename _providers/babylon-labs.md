@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,20 @@ apis:
 - description: Babylon Phase-2 API endpoints
   name: Babylon Labs v2 API
   slug: babylon-labs-v2-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Babylon Staking shared API
+  slug: open-babylon-labs-shared-api
+- collection_type: open
+  name: Babylon Staking shared v1 API
+  slug: open-babylon-labs-v1-api
+- collection_type: open
+  name: Babylon Staking shared v2 API
+  slug: open-babylon-labs-v2-api
 common:
 - group: agent
   title: ''
@@ -160,7 +173,7 @@ overview: 'Babylon Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Babylon Labs'' developer surface includes changelog, documentation, getting-started guide, engineering blog, support, and 19 more developer resources.'
-random_paper: 6
+random_paper: 14
 score:
   band: thin
   composite: 36.6
@@ -184,7 +197,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/screenshots/babylon-labs-2026-07-25T202203.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -113,7 +113,7 @@ plans:
 - name: Targetspot Plans Pricing
   plan_count: 0
   slug: targetspot-plans-pricing
-random_paper: 21
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Targetspot Rate Limits
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.2
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -129,9 +129,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.8
+  previous_composite: 14.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

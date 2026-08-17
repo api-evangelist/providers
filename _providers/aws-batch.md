@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -59,8 +59,29 @@ apis:
 - description: The Tags API from AWS Batch — 1 operation(s) for tags.
   name: AWS Batch Tags API
   slug: aws-batch-tags-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Batch Compute Environments API
+  slug: open-aws-batch-compute-environments-api
+- collection_type: open
+  name: AWS Batch Compute Environments Job Definitions API
+  slug: open-aws-batch-job-definitions-api
+- collection_type: open
+  name: AWS Batch Compute Environments Job Queues API
+  slug: open-aws-batch-job-queues-api
+- collection_type: open
+  name: AWS Batch Compute Environments Jobs API
+  slug: open-aws-batch-jobs-api
+- collection_type: open
+  name: AWS Batch Compute Environments Scheduling Policies API
+  slug: open-aws-batch-scheduling-policies-api
+- collection_type: open
+  name: AWS Batch Compute Environments Tags API
+  slug: open-aws-batch-tags-api
 - collection_type: open
   name: AWS Batch API
   slug: open-aws-batch
@@ -113,7 +134,7 @@ overview: 'AWS Batch publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   AWS Batch''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 50
+random_paper: 145
 score:
   band: thin
   composite: 30.7
@@ -134,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/screenshots/aws-batch-2026-06-20T172748.png
 security:

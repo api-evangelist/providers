@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -111,7 +111,7 @@ overview: 'Efficient Computer is profiled on the [APIs.io](https://apis.io/) net
 
 
   Efficient Computer''s developer surface includes documentation, getting-started guide, sandbox, signup flow, engineering blog, support, FAQ, and 10 more developer resources.'
-random_paper: 65
+random_paper: 77
 score:
   band: emerging
   composite: 18.5
@@ -131,7 +131,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/efficient-computer/refs/heads/main/screenshots/efficient-computer-2026-07-25T213043.png
 security:

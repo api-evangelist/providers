@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Retrieve animal species reference data.
   name: RescueGroups.org Species API
   slug: rescuegroups-org-species-api
-artifact_total: 22
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RescueGroups.org Animals API
+  slug: open-rescuegroups-org-animals-api
+- collection_type: open
+  name: RescueGroups.org Animals Authentication API
+  slug: open-rescuegroups-org-authentication-api
+- collection_type: open
+  name: RescueGroups.org Animals Breeds API
+  slug: open-rescuegroups-org-breeds-api
+- collection_type: open
+  name: RescueGroups.org Animals Colors API
+  slug: open-rescuegroups-org-colors-api
+- collection_type: open
+  name: RescueGroups.org Animals Organizations API
+  slug: open-rescuegroups-org-organizations-api
+- collection_type: open
+  name: RescueGroups.org Animals Patterns API
+  slug: open-rescuegroups-org-patterns-api
+- collection_type: open
+  name: RescueGroups.org Animals Pet Lists API
+  slug: open-rescuegroups-org-pet-lists-api
+- collection_type: open
+  name: RescueGroups.org Animals Species API
+  slug: open-rescuegroups-org-species-api
 - collection_type: open
   name: RescueGroups.org API
   slug: open-rescuegroups-org
@@ -156,7 +183,7 @@ plans:
 - name: Rescuegroups Org Plans Pricing
   plan_count: 3
   slug: rescuegroups-org-plans-pricing
-random_paper: 12
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Rescuegroups Org Rate Limits
@@ -198,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/screenshots/rescuegroups-org-2026-06-20T192931.png
 security:

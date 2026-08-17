@@ -23,20 +23,20 @@ agent_readiness:
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-12'
+  score: 41.2
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
   name: Hustle Agentic Access
-  operation_count: 22
+  operation_count: 23
   slug: hustle-agentic-access
-  summary_line: 22 operations · 14 acting
-api_count: 9
+  summary_line: 23 operations · 14 acting
+api_count: 10
 apis:
 - description: The Access Token API from Hustle — 1 operation(s) for access token.
   name: Hustle Access Token API
@@ -56,6 +56,9 @@ apis:
 - description: The Leads API from Hustle — 1 operation(s) for leads.
   name: Hustle Leads API
   slug: hustle-leads-api
+- description: The Messages API from Hustle — 1 operation(s) for message delivery status.
+  name: Hustle Messages API
+  slug: hustle-messages-api
 - description: The Organizations API from Hustle — 1 operation(s) for organizations.
   name: Hustle Organizations API
   slug: hustle-organizations-api
@@ -65,11 +68,42 @@ apis:
 - description: The Webhooks API from Hustle — 3 operation(s) for webhooks.
   name: Hustle Webhooks API
   slug: hustle-webhooks-api
-artifact_total: 16
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Hustle Webhooks
   slug: hustle-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hustle Public Access Token API
+  slug: open-hustle-access-token-api
+- collection_type: open
+  name: Hustle Public Access Token Agents API
+  slug: open-hustle-agents-api
+- collection_type: open
+  name: Hustle Public Access Token Custom Fields API
+  slug: open-hustle-custom-fields-api
+- collection_type: open
+  name: Hustle Public Access Token Groups API
+  slug: open-hustle-groups-api
+- collection_type: open
+  name: Hustle Public Access Token Integrations API
+  slug: open-hustle-integrations-api
+- collection_type: open
+  name: Hustle Public Access Token Leads API
+  slug: open-hustle-leads-api
+- collection_type: open
+  name: Hustle Public Access Token Organizations API
+  slug: open-hustle-organizations-api
+- collection_type: open
+  name: Hustle Public Access Token Tags API
+  slug: open-hustle-tags-api
+- collection_type: open
+  name: Hustle Public Access Token Webhooks API
+  slug: open-hustle-webhooks-api
 common:
 - group: agent
   title: ''
@@ -147,42 +181,106 @@ common:
   title: ''
   type: Lifecycle
   url: lifecycle/hustle-lifecycle.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/hustle-upsert-and-tag-lead.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/hustle-track-message-delivery.md
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hustle-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/hustle-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/hustle-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/hustle-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/hustle-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://api.hustle.com/v3/docs/description.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://api.hustle.com/v3/docs/description.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Hustle
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/Hustle/hustle-public-api-samples
+- group: company
+  title: ''
+  type: Blog
+  url: https://hustle.com/resources/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://hustle.com/feed/
+- group: other
+  title: ''
+  type: AcceptableUsePolicy
+  url: https://hustle.com/acceptable-use-policy/
 created: '2026-07-17'
-description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and an outbound dialer, and is used by nonprofits, educational institutions, commercial businesses, political campaigns, government agencies, and labor unions to reach people over the channels they already use. The Hustle Public API (v3) exposes a RESTful, OAuth2 client-credentials interface for managing agents, groups, leads, custom fields, tags, organizations, CRM integrations, and webhook registrations. Hustle was added to the API Evangelist network as a portfolio company of GV and Insight Partners and enriched from its public developer surface.
+description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and an outbound dialer, and is used by nonprofits, educational institutions, commercial businesses, political campaigns, government agencies, and labor unions to reach people over the channels they already use. The Hustle Public API (v3) exposes a RESTful, OAuth2 client-credentials interface for managing agents, groups, leads, custom fields, tags, organizations, CRM integrations, message delivery status, and webhook registrations. Hustle was added to the API Evangelist network as a portfolio company of GV and Insight Partners and enriched from its public developer surface.
 image: https://hustle.com/wp-content/uploads/2026/05/cropped-ko-Hustle-10-logo-1200px-wide-1.png
 layout: provider
 mcp_servers:
 - description: ''
   name: hustle-mcp.yml
   slug: hustle-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Hustle
 nav: Providers
 network: true
-overview: 'Hustle publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Agents API, Custom Fields API, and 6 more. Tagged areas include Company, Enterprise, Messaging, SMS, and Peer-to-Peer Texting.
+overview: 'Hustle publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Agents API, Custom Fields API, and 7 more. Tagged areas include Company, Enterprise, Messaging, SMS, and Peer-to-Peer Texting.
 
 
   The Hustle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hustle''s developer surface includes documentation, API reference, signup flow, pricing, and 15 more developer resources.'
-random_paper: 61
+  Hustle''s developer surface includes documentation, API reference, signup flow, pricing, changelog, getting-started guide, engineering blog, and 26 more developer resources.'
+plans:
+- name: Hustle Plans Pricing
+  plan_count: 2
+  slug: hustle-plans-pricing
+random_paper: 65
+rate_limits:
+- limit_count: 3
+  name: Hustle Rate Limits
+  slug: hustle-rate-limits
 scopes:
 - name: Hustle Scopes
   scope_count: 0
   slug: hustle-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.1
-  delta: 0.0
+  band: strong
+  composite: 57.8
+  delta: 12.7
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 81.6
     contract_quality: 56.6
-    developer_ergonomics: 32.1
+    developer_ergonomics: 51.6
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 15.8
+    operational_transparency: 68.4
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -201,8 +299,8 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/screenshots/hustle-2026-07-25T221742.png
 security:
 - kind: authentication
@@ -213,6 +311,10 @@ security:
   name: Hustle Domain Security
   slug: hustle-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Hustle Vulnerability Disclosure
+  slug: hustle-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Hustle Trust Center
   slug: hustle-trust-center

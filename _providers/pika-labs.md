@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: Submit inference requests.
   name: Pika Labs Submission API
   slug: pika-labs-submission-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pika Labs via fal.ai Queue Cancel API
+  slug: open-pika-labs-cancel-api
+- collection_type: open
+  name: Pika Labs via fal.ai Queue Cancel Result API
+  slug: open-pika-labs-result-api
+- collection_type: open
+  name: Pika Labs via fal.ai Queue Cancel Status API
+  slug: open-pika-labs-status-api
+- collection_type: open
+  name: Pika Labs via fal.ai Queue Cancel Submission API
+  slug: open-pika-labs-submission-api
 - collection_type: open
   name: Pika Labs via fal.ai Queue API
   slug: open-pika-labs
@@ -120,7 +135,7 @@ plans:
 - name: Pika Labs Plans Pricing
   plan_count: 2
   slug: pika-labs-plans-pricing
-random_paper: 44
+random_paper: 139
 rate_limits:
 - limit_count: 1
   name: Pika Labs Rate Limits
@@ -145,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/screenshots/pika-labs-2026-06-20T191707.png
 security:

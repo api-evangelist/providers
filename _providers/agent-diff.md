@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,11 +45,20 @@ apis:
 - description: The Sandboxes API from Agent Diff — 2 operation(s) for sandboxes.
   name: Agent Diff Sandboxes API
   slug: agent-diff-sandboxes-api
-artifact_total: 27
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agent Diff Sandbox Diffs API
+  slug: open-agent-diff-diffs-api
 - collection_type: open
   name: Agent Diff Sandbox API
   slug: open-agent-diff-sandbox
+- collection_type: open
+  name: Agent Diff Sandbox Diffs Sandboxes API
+  slug: open-agent-diff-sandboxes-api
 common:
 - group: agent
   title: ''
@@ -171,7 +180,7 @@ plans:
 - name: Agent Diff Plans Pricing
   plan_count: 3
   slug: agent-diff-plans-pricing
-random_paper: 21
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Agent Diff Rate Limits
@@ -213,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/screenshots/agent-diff-2026-06-20T165854.png
 security:

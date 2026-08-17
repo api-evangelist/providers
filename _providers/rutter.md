@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,11 +66,32 @@ apis:
 - description: Webhook configuration and management
   name: Rutter Webhooks API
   slug: rutter-webhooks-api
-artifact_total: 28
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rutter Unified Accounting API
+  slug: open-rutter-accounting-api
+- collection_type: open
+  name: Rutter Unified Accounting Ads API
+  slug: open-rutter-ads-api
+- collection_type: open
+  name: Rutter Unified Accounting Banking API
+  slug: open-rutter-banking-api
+- collection_type: open
+  name: Rutter Unified Accounting Commerce API
+  slug: open-rutter-commerce-api
+- collection_type: open
+  name: Rutter Unified Accounting Connections API
+  slug: open-rutter-connections-api
 - collection_type: open
   name: Rutter Unified API
   slug: open-rutter-unified-api
+- collection_type: open
+  name: Rutter Unified Accounting Webhooks API
+  slug: open-rutter-webhooks-api
 common:
 - group: agent
   title: ''
@@ -206,7 +227,7 @@ plans:
 - name: Rutter Plans Pricing
   plan_count: 1
   slug: rutter-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Rutter Rate Limits
@@ -254,7 +275,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/screenshots/rutter-2026-06-20T193303.png
 security:

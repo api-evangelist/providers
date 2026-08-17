@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: The Zoning API from Brocade Communications Systems — 2 operation(s) for zoning.
   name: Brocade Communications Systems Zoning API
   slug: brocade-communications-systems-zoning-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brocade Fabric OS REST Chassis API
+  slug: open-brocade-communications-systems-chassis-api
+- collection_type: open
+  name: Brocade Fabric OS REST Chassis Interfaces API
+  slug: open-brocade-communications-systems-interfaces-api
+- collection_type: open
+  name: Brocade Fabric OS REST Chassis Operations API
+  slug: open-brocade-communications-systems-operations-api
+- collection_type: open
+  name: Brocade Fabric OS REST Chassis Session API
+  slug: open-brocade-communications-systems-session-api
+- collection_type: open
+  name: Brocade Fabric OS REST Chassis Switch API
+  slug: open-brocade-communications-systems-switch-api
+- collection_type: open
+  name: Brocade Fabric OS REST Chassis Zoning API
+  slug: open-brocade-communications-systems-zoning-api
 - collection_type: open
   name: Brocade Fabric OS REST API
   slug: open-brocade-communications-systems
@@ -153,7 +174,7 @@ press:
 - date: '2026-05-25'
   title: World's first successful AI-assisted automated network ...
   url: https://www.kddi-research.jp/english/newsrelease/2016/022201.html
-random_paper: 115
+random_paper: 135
 rate_limits:
 - limit_count: 5
   name: Brocade Communications Systems Rate Limits
@@ -178,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/screenshots/brocade-communications-systems-2026-06-20T173715.png
 security:

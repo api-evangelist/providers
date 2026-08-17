@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 3
@@ -388,7 +388,7 @@ arazzos:
 - description: Poll a build until it is READY, then create a fleet that deploys it.
   name: Amazon GameLift Verify Build Readiness then Create a Fleet
   slug: amazon-gamelift-verify-build-create-fleet-workflow
-artifact_total: 1453
+artifact_total: 1558
 collections:
 - collection_type: postman
   name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch API'
@@ -705,6 +705,321 @@ collections:
 - collection_type: postman
   name: Amazon GameLift
   slug: postman-amazon-gamelift
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-acceptmatch-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ClaimGameServer API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-claimgameserver-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateAlias API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createalias-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateBuild API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createbuild-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateFleet API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createfleet-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateFleetLocations API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createfleetlocations-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateGameServerGroup API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-creategameservergroup-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateGameSession API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-creategamesession-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateGameSessionQueue API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-creategamesessionqueue-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateLocation API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createlocation-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateMatchmakingConfiguration API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-creatematchmakingconfiguration-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateMatchmakingRuleSet API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-creatematchmakingruleset-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreatePlayerSession API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createplayersession-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreatePlayerSessions API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createplayersessions-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateScript API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createscript-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateVpcPeeringAuthorization API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createvpcpeeringauthorization-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.CreateVpcPeeringConnection API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-createvpcpeeringconnection-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteAlias API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletealias-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteBuild API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletebuild-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteFleet API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletefleet-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteFleetLocations API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletefleetlocations-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteGameServerGroup API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletegameservergroup-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteGameSessionQueue API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletegamesessionqueue-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteLocation API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletelocation-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteMatchmakingConfiguration API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletematchmakingconfiguration-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteMatchmakingRuleSet API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletematchmakingruleset-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteScalingPolicy API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletescalingpolicy-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteScript API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletescript-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteVpcPeeringAuthorization API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletevpcpeeringauthorization-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeleteVpcPeeringConnection API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deletevpcpeeringconnection-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeregisterCompute API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deregistercompute-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DeregisterGameServer API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-deregistergameserver-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeAlias API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describealias-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeBuild API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describebuild-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeCompute API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describecompute-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeEC2InstanceLimits API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describeec2instancelimits-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeFleetAttributes API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describefleetattributes-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeFleetCapacity API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describefleetcapacity-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeFleetEvents API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describefleetevents-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeFleetLocationAttributes API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describefleetlocationattributes-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeFleetLocationCapacity API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describefleetlocationcapacity-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeFleetLocationUtilization API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describefleetlocationutilization-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeFleetPortSettings API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describefleetportsettings-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeFleetUtilization API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describefleetutilization-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeGameServer API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describegameserver-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeGameServerGroup API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describegameservergroup-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeGameServerInstances API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describegameserverinstances-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeGameSessionDetails API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describegamesessiondetails-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeGameSessionPlacement API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describegamesessionplacement-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeGameSessionQueues API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describegamesessionqueues-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeGameSessions API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describegamesessions-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeInstances API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describeinstances-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeMatchmaking API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describematchmaking-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeMatchmakingConfigurations API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describematchmakingconfigurations-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeMatchmakingRuleSets API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describematchmakingrulesets-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribePlayerSessions API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describeplayersessions-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeRuntimeConfiguration API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describeruntimeconfiguration-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeScalingPolicies API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describescalingpolicies-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeScript API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describescript-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeVpcPeeringAuthorizations API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describevpcpeeringauthorizations-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.DescribeVpcPeeringConnections API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-describevpcpeeringconnections-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.GetComputeAccess API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-getcomputeaccess-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.GetComputeAuthToken API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-getcomputeauthtoken-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.GetGameSessionLogUrl API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-getgamesessionlogurl-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.GetInstanceAccess API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-getinstanceaccess-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ListAliases API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-listaliases-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ListBuilds API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-listbuilds-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ListCompute API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-listcompute-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ListFleets API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-listfleets-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ListGameServerGroups API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-listgameservergroups-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ListGameServers API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-listgameservers-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ListLocations API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-listlocations-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ListScripts API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-listscripts-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ListTagsForResource API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-listtagsforresource-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.PutScalingPolicy API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-putscalingpolicy-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.RegisterCompute API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-registercompute-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.RegisterGameServer API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-registergameserver-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.RequestUploadCredentials API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-requestuploadcredentials-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ResolveAlias API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-resolvealias-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ResumeGameServerGroup API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-resumegameservergroup-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.SearchGameSessions API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-searchgamesessions-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.StartFleetActions API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-startfleetactions-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.StartGameSessionPlacement API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-startgamesessionplacement-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.StartMatchBackfill API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-startmatchbackfill-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.StartMatchmaking API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-startmatchmaking-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.StopFleetActions API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-stopfleetactions-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.StopGameSessionPlacement API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-stopgamesessionplacement-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.StopMatchmaking API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-stopmatchmaking-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.SuspendGameServerGroup API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-suspendgameservergroup-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.TagResource API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-tagresource-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UntagResource API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-untagresource-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateAlias API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updatealias-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateBuild API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updatebuild-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateFleetAttributes API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updatefleetattributes-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateFleetCapacity API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updatefleetcapacity-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateFleetPortSettings API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updatefleetportsettings-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateGameServer API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updategameserver-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateGameServerGroup API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updategameservergroup-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateGameSession API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updategamesession-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateGameSessionQueue API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updategamesessionqueue-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateMatchmakingConfiguration API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updatematchmakingconfiguration-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateRuntimeConfiguration API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updateruntimeconfiguration-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.UpdateScript API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-updatescript-api
+- collection_type: open
+  name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ValidateMatchmakingRuleSet API'
+  slug: open-amazon-gamelift-x-amz-target-gamelift-validatematchmakingruleset-api
 common:
 - group: agent
   title: ''
@@ -4509,7 +4824,7 @@ plans:
 - name: Amazon Gamelift Plans Pricing
   plan_count: 3
   slug: amazon-gamelift-plans-pricing
-random_paper: 92
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Amazon Gamelift Rate Limits
@@ -4551,7 +4866,7 @@ score:
       marker_coverage: 0.0
       total: 104
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/screenshots/amazon-gamelift-2026-07-25T200008.png
 security:

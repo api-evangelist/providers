@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Operations operations
   name: Azure Load Balancer Operations API
   slug: microsoft-azure-load-balancer-operations-api
-artifact_total: 22
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Load Balancer REST Load Balancers API
+  slug: open-microsoft-azure-load-balancer-load-balancers-api
+- collection_type: open
+  name: Azure Load Balancer REST Load Balancers Operations API
+  slug: open-microsoft-azure-load-balancer-operations-api
 - collection_type: open
   name: Azure Load Balancer REST API
   slug: open-microsoft-azure-load-balancer
@@ -147,7 +156,7 @@ plans:
 - name: Microsoft Azure Load Balancer Plans Pricing
   plan_count: 3
   slug: microsoft-azure-load-balancer-plans-pricing
-random_paper: 28
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Load Balancer Rate Limits
@@ -177,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/screenshots/microsoft-azure-load-balancer-2026-06-20T185420.png
 security:

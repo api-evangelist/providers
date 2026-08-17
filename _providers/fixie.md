@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -80,11 +80,57 @@ apis:
 - description: The webhooks API from Fixie — 2 operation(s) for webhooks.
   name: Fixie webhooks API
   slug: fixie-webhooks-api
-artifact_total: 20
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Fixie Webhooks
   slug: fixie-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ultravox accounts API
+  slug: open-fixie-accounts-api
+- collection_type: open
+  name: Ultravox accounts agents API
+  slug: open-fixie-agents-api
+- collection_type: open
+  name: Ultravox accounts api_keys API
+  slug: open-fixie-api-keys-api
+- collection_type: open
+  name: Ultravox accounts call_throttles API
+  slug: open-fixie-call-throttles-api
+- collection_type: open
+  name: Ultravox accounts calls API
+  slug: open-fixie-calls-api
+- collection_type: open
+  name: Ultravox accounts corpora API
+  slug: open-fixie-corpora-api
+- collection_type: open
+  name: Ultravox accounts deleted_calls API
+  slug: open-fixie-deleted-calls-api
+- collection_type: open
+  name: Ultravox accounts models API
+  slug: open-fixie-models-api
+- collection_type: open
+  name: Ultravox accounts schema API
+  slug: open-fixie-schema-api
+- collection_type: open
+  name: Ultravox accounts sip API
+  slug: open-fixie-sip-api
+- collection_type: open
+  name: Ultravox accounts telephony_configs API
+  slug: open-fixie-telephony-configs-api
+- collection_type: open
+  name: Ultravox accounts tools API
+  slug: open-fixie-tools-api
+- collection_type: open
+  name: Ultravox accounts voices API
+  slug: open-fixie-voices-api
+- collection_type: open
+  name: Ultravox accounts webhooks API
+  slug: open-fixie-webhooks-api
 common:
 - group: agent
   title: ''
@@ -205,7 +251,7 @@ overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Fixie''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 53
+random_paper: 86
 score:
   band: developing
   composite: 51.1
@@ -229,7 +275,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/screenshots/fixie-2026-07-25T214652.png
 security:

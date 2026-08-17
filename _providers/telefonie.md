@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: Manage call recordings
   name: Telefonie Recordings API
   slug: telefonie-recordings-api
-artifact_total: 29
+artifact_total: 36
 collections:
 - collection_type: postman
   name: Telefonie Number Management Available Numbers API
@@ -78,11 +78,32 @@ collections:
   name: Telefonie Number Management Available Numbers Recordings API
   slug: postman-telefonie-recordings-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telefonie Number Management Available Numbers API
+  slug: open-telefonie-available-numbers-api
+- collection_type: open
+  name: Telefonie Number Management Available Numbers Calls API
+  slug: open-telefonie-calls-api
+- collection_type: open
+  name: Telefonie Number Management Available Numbers Conferences API
+  slug: open-telefonie-conferences-api
+- collection_type: open
+  name: Telefonie Number Management Available Numbers Messages API
+  slug: open-telefonie-messages-api
+- collection_type: open
   name: Telefonie Number Management API
   slug: open-telefonie-numbers
 - collection_type: open
+  name: Telefonie Number Management Available Numbers Owned Numbers API
+  slug: open-telefonie-owned-numbers-api
+- collection_type: open
   name: Telefonie Call Recording API
   slug: open-telefonie-recording
+- collection_type: open
+  name: Telefonie Number Management Available Numbers Recordings API
+  slug: open-telefonie-recordings-api
 - collection_type: open
   name: Telefonie SMS API
   slug: open-telefonie-sms
@@ -200,7 +221,7 @@ plans:
 - name: Telefonie Plans Pricing
   plan_count: 1
   slug: telefonie-plans-pricing
-random_paper: 115
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Telefonie Rate Limits
@@ -248,7 +269,7 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/screenshots/telefonie-2026-06-20T195029.png
 security:

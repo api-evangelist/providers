@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
 - description: The Spaces:setup API from Google Chat — 1 operation(s) for spaces:setup.
   name: Google Chat Spaces:setup API
   slug: google-chat-spaces-setup-api
-artifact_total: 23
+artifact_total: 31
 collections:
 - collection_type: postman
   name: Google Chat customEmojis API
@@ -82,6 +82,30 @@ collections:
 - collection_type: postman
   name: Google Chat customEmojis Spaces:setup API
   slug: postman-google-chat-spaces-setup-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Chat customEmojis API
+  slug: open-google-chat-customemojis-api
+- collection_type: open
+  name: Google Chat customEmojis Google Chat API API
+  slug: open-google-chat-google-chat-api-api
+- collection_type: open
+  name: Google Chat customEmojis Members API
+  slug: open-google-chat-members-api
+- collection_type: open
+  name: Google Chat customEmojis Messages API
+  slug: open-google-chat-messages-api
+- collection_type: open
+  name: Google Chat customEmojis Reactions API
+  slug: open-google-chat-reactions-api
+- collection_type: open
+  name: Google Chat customEmojis Spaces API
+  slug: open-google-chat-spaces-api
+- collection_type: open
+  name: Google Chat customEmojis Spaces:setup API
+  slug: open-google-chat-spaces-setup-api
 - collection_type: open
   name: Google Chat API
   slug: open-openapi
@@ -174,7 +198,7 @@ plans:
 - name: Google Chat Plans Pricing
   plan_count: 3
   slug: google-chat-plans-pricing
-random_paper: 18
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Google Chat Rate Limits
@@ -208,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/screenshots/google-chat-2026-06-20T182033.png
 security:

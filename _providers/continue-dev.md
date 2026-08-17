@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,14 +54,20 @@ apis:
 - description: The Ide API from Continue — 8 operation(s) for ide.
   name: Continue Ide API
   slug: continue-dev-ide-api
-artifact_total: 66
+artifact_total: 68
 collections:
 - collection_type: postman
   name: Continue Hub Ide API
   slug: postman-continue-dev-ide-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Continue Hub IDE API
   slug: open-continue-dev-hub-ide-api
+- collection_type: open
+  name: Continue Hub Ide API
+  slug: open-continue-dev-ide-api
 common:
 - group: operate
   title: ''
@@ -335,7 +341,7 @@ plans:
 - name: Continue Dev Plans Pricing
   plan_count: 4
   slug: continue-dev-plans-pricing
-random_paper: 33
+random_paper: 41
 rate_limits:
 - limit_count: 4
   name: Continue Dev Rate Limits
@@ -377,7 +383,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/screenshots/continue-dev-2026-06-20T174940.png
 security:

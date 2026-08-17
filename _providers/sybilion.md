@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 73.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +45,11 @@ apis:
 - description: Hosted Streamable-HTTP MCP server providing agent-native tools for forecasts (submit_forecast, get_forecast, get_forecast_chart, get_forecast_artifact), alerts (get_alerts) and catalog discovery (list
   name: Sybilion MCP Server
   slug: sybilion-mcp-server
-artifact_total: 10
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Sybilion API
+  slug: open-sybilion-operational-api
 common:
 - group: start
   title: ''
@@ -198,7 +202,7 @@ plans:
 - name: Sybilion Plans Pricing
   plan_count: 5
   slug: sybilion-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 3
   name: Sybilion Rate Limits
@@ -221,7 +225,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

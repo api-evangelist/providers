@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 20
 apis:
 - description: API to manage Bank Account
@@ -92,7 +92,71 @@ apis:
 - description: API for Withdrawal
   name: Xfers Withdraw API
   slug: xfers-withdraw-api
-artifact_total: 23
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Xfers Bank Account API
+  slug: open-xfers-bank-account-api
+- collection_type: open
+  name: Xfers Bank Account Charge API
+  slug: open-xfers-charge-api
+- collection_type: open
+  name: Xfers Bank Account Convenience Store Transfers API
+  slug: open-xfers-convenience-store-transfers-api
+- collection_type: open
+  name: Xfers Bank Account cutting_edge API
+  slug: open-xfers-cutting-edge-api
+- collection_type: open
+  name: Xfers Bank Account Direct Bank Transfer Payments API
+  slug: open-xfers-direct-bank-transfer-payments-api
+- collection_type: open
+  name: Xfers Bank Account Disbursements API
+  slug: open-xfers-disbursements-api
+- collection_type: open
+  name: Xfers Bank Account E-signature API
+  slug: open-xfers-e-signature-api
+- collection_type: open
+  name: Xfers Bank Account Fixed Virtual Account Bank Transfers API
+  slug: open-xfers-fixed-virtual-account-bank-transfers-api
+- collection_type: open
+  name: Xfers Bank Account Intents API
+  slug: open-xfers-intents-api
+- collection_type: open
+  name: Xfers Bank Account Loans API
+  slug: open-xfers-loans-api
+- collection_type: open
+  name: Xfers Bank Account Modify Payments API
+  slug: open-xfers-modify-payments-api
+- collection_type: open
+  name: Xfers Bank Account Payment Queries API
+  slug: open-xfers-payment-queries-api
+- collection_type: open
+  name: Xfers Bank Account Payment Queries (Hide first) API
+  slug: open-xfers-payment-queries-hide-first-api
+- collection_type: open
+  name: Xfers Bank Account Payout API
+  slug: open-xfers-payout-api
+- collection_type: open
+  name: Xfers Bank Account Registration API
+  slug: open-xfers-registration-api
+- collection_type: open
+  name: Xfers Bank Account Repayments API
+  slug: open-xfers-repayments-api
+- collection_type: open
+  name: Xfers Bank Account Testing API
+  slug: open-xfers-testing-api
+- collection_type: open
+  name: Xfers Bank Account Unique Amount Bank Transfers API
+  slug: open-xfers-unique-amount-bank-transfers-api
+- collection_type: open
+  name: Xfers Bank Account User Account API
+  slug: open-xfers-user-account-api
+- collection_type: open
+  name: Xfers Bank Account Withdraw API
+  slug: open-xfers-withdraw-api
 common:
 - group: agent
   title: ''
@@ -154,7 +218,7 @@ overview: 'Xfers publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Xfers'' developer surface includes authentication, documentation, API reference, support, and 7 more developer resources.'
-random_paper: 72
+random_paper: 105
 score:
   band: thin
   composite: 31.9
@@ -181,7 +245,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

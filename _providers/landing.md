@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,14 @@ apis:
 - description: The Public API from Landing — 9 operation(s) for public.
   name: Landing Public API
   slug: landing-public-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Landing API (HTTP GET) Public API
+  slug: open-landing-public-api
 common:
 - group: company
   title: ''
@@ -173,7 +180,7 @@ overview: 'Landing publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Landing''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, support, engineering blog, and 21 more developer resources.'
-random_paper: 13
+random_paper: 137
 score:
   band: developing
   composite: 42.2
@@ -197,7 +204,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

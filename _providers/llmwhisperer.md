@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: The Webhooks API from LLMWhisperer — 1 operation(s) for webhooks.
   name: LLMWhisperer Webhooks API
   slug: llmwhisperer-webhooks-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LLMWhisperer Extraction API
+  slug: open-llmwhisperer-extraction-api
+- collection_type: open
+  name: LLMWhisperer Extraction Highlights API
+  slug: open-llmwhisperer-highlights-api
+- collection_type: open
+  name: LLMWhisperer Extraction Retrieve API
+  slug: open-llmwhisperer-retrieve-api
+- collection_type: open
+  name: LLMWhisperer Extraction Status API
+  slug: open-llmwhisperer-status-api
+- collection_type: open
+  name: LLMWhisperer Extraction Webhooks API
+  slug: open-llmwhisperer-webhooks-api
 - collection_type: open
   name: LLMWhisperer API
   slug: open-llmwhisperer
@@ -124,7 +142,7 @@ plans:
 - name: Llmwhisperer Plans Pricing
   plan_count: 3
   slug: llmwhisperer-plans-pricing
-random_paper: 110
+random_paper: 118
 rate_limits:
 - limit_count: 3
   name: Llmwhisperer Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/screenshots/llmwhisperer-2026-06-20T184627.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 16
 apis:
 - description: Authorization operations for OAuth 2.0 Grants
@@ -80,7 +80,7 @@ apis:
 - description: Operations for managing file uploads
   name: Bokio uploads API
   slug: bokio-uploads-api
-artifact_total: 38
+artifact_total: 55
 collections:
 - collection_type: postman
   name: Company authorization API
@@ -130,6 +130,57 @@ collections:
 - collection_type: postman
   name: Company authorization uploads API
   slug: postman-bokio-uploads-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Company authorization API
+  slug: open-bokio-authorization-api
+- collection_type: open
+  name: Company authorization bank-payments API
+  slug: open-bokio-bank-payments-api
+- collection_type: open
+  name: Company authorization chart-of-accounts API
+  slug: open-bokio-chart-of-accounts-api
+- collection_type: open
+  name: Company authorization company-information API
+  slug: open-bokio-company-information-api
+- collection_type: open
+  name: Company authorization connections API
+  slug: open-bokio-connections-api
+- collection_type: open
+  name: Company authorization credit-notes API
+  slug: open-bokio-credit-notes-api
+- collection_type: open
+  name: Company authorization customers API
+  slug: open-bokio-customers-api
+- collection_type: open
+  name: Company authorization fiscal-years API
+  slug: open-bokio-fiscal-years-api
+- collection_type: open
+  name: Company authorization invoices API
+  slug: open-bokio-invoices-api
+- collection_type: open
+  name: Company authorization items API
+  slug: open-bokio-items-api
+- collection_type: open
+  name: Company authorization journal-entries API
+  slug: open-bokio-journal-entries-api
+- collection_type: open
+  name: Company authorization sie-files API
+  slug: open-bokio-sie-files-api
+- collection_type: open
+  name: Company authorization supplier-invoices API
+  slug: open-bokio-supplier-invoices-api
+- collection_type: open
+  name: Company authorization suppliers API
+  slug: open-bokio-suppliers-api
+- collection_type: open
+  name: Company authorization tag-groups API
+  slug: open-bokio-tag-groups-api
+- collection_type: open
+  name: Company authorization uploads API
+  slug: open-bokio-uploads-api
 common:
 - group: other
   title: ''
@@ -287,7 +338,7 @@ overview: 'Bokio publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 52
+random_paper: 85
 scopes:
 - name: Bokio Scopes
   scope_count: 24
@@ -321,7 +372,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png
 security:

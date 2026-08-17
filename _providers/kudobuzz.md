@@ -28,13 +28,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Kudobuzz Developer API lets merchants and integration developers create customer reviews and sync customers and orders into the After Purchase Mail (APM) product for segmentation and post-purchase
   name: Kudobuzz Developer API
   slug: kudobuzz-developer-api
-artifact_total: 6
+artifact_total: 8
 common:
 - group: operate
   title: ''
@@ -132,6 +132,14 @@ common:
   title: ''
   type: DomainSecurity
   url: security/kudobuzz-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/kudobuzz-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/kudobuzz-plans-pricing.yml
 - group: design
   title: ''
   type: Components
@@ -174,7 +182,7 @@ common:
   url: https://kudobuzz.com/privacy
 - group: auth
   title: ''
-  type: SecurityPolicy
+  type: Security
   url: https://kudobuzz.com/security
 - group: docs
   title: ''
@@ -209,15 +217,19 @@ mcp_servers:
 - description: ''
   name: kudobuzz-mcp.yml
   slug: kudobuzz-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: Kudobuzz
 nav: Providers
 network: true
 overview: 'Kudobuzz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reviews, User Generated Content, Ecommerce, and Social Proof.
 
 
-  Kudobuzz''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 54
+  Kudobuzz''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 36 more developer resources.'
+plans:
+- name: Kudobuzz Plans Pricing
+  plan_count: 0
+  slug: kudobuzz-plans-pricing
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Kudobuzz Rate Limits
@@ -239,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png
 security:
@@ -251,6 +263,10 @@ security:
   name: Kudobuzz Domain Security
   slug: kudobuzz-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Kudobuzz Vulnerability Disclosure
+  slug: kudobuzz-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: Kudobuzz Trust Center
   slug: kudobuzz-trust-center

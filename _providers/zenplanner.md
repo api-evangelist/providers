@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: The Prospects API from Zen Planner — 1 operation(s) for prospects.
   name: Zen Planner Prospects API
   slug: zenplanner-prospects-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zen Planner Classes API
+  slug: open-zenplanner-classes-api
+- collection_type: open
+  name: Zen Planner Classes Groups API
+  slug: open-zenplanner-groups-api
+- collection_type: open
+  name: Zen Planner Classes Locations API
+  slug: open-zenplanner-locations-api
+- collection_type: open
+  name: Zen Planner Classes Memberships API
+  slug: open-zenplanner-memberships-api
+- collection_type: open
+  name: Zen Planner Classes People API
+  slug: open-zenplanner-people-api
+- collection_type: open
+  name: Zen Planner Classes Programs API
+  slug: open-zenplanner-programs-api
+- collection_type: open
+  name: Zen Planner Classes Prospects API
+  slug: open-zenplanner-prospects-api
 common:
 - group: agent
   title: ''
@@ -114,7 +139,7 @@ plans:
 - name: Zenplanner Plans Pricing
   plan_count: 4
   slug: zenplanner-plans-pricing
-random_paper: 5
+random_paper: 42
 scopes:
 - name: Zenplanner Scopes
   scope_count: 0
@@ -140,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

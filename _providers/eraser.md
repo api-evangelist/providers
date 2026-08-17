@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -60,7 +60,32 @@ apis:
 - description: Retrieve team usage and activity metrics
   name: Eraser Usage Metrics API
   slug: eraser-usage-metrics-api
-artifact_total: 20
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eraser AI Requests API
+  slug: open-eraser-ai-requests-api
+- collection_type: open
+  name: Eraser AI Requests Audit Logs API
+  slug: open-eraser-audit-logs-api
+- collection_type: open
+  name: Eraser AI Requests Diagram Elements API
+  slug: open-eraser-diagram-elements-api
+- collection_type: open
+  name: Eraser AI Requests Diagrams (AI) API
+  slug: open-eraser-diagrams-ai-api
+- collection_type: open
+  name: Eraser AI Requests Files API
+  slug: open-eraser-files-api
+- collection_type: open
+  name: Eraser AI Requests Folders API
+  slug: open-eraser-folders-api
+- collection_type: open
+  name: Eraser AI Requests Usage Metrics API
+  slug: open-eraser-usage-metrics-api
 common:
 - group: agent
   title: ''
@@ -163,7 +188,7 @@ plans:
 - name: Eraser Plans Pricing
   plan_count: 4
   slug: eraser-plans-pricing
-random_paper: 42
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Eraser Rate Limits
@@ -197,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/screenshots/eraser-2026-06-20T180810.png
 security:

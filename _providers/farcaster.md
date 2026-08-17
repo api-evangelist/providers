@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -83,8 +83,38 @@ apis:
 - description: The Verifications API from Farcaster — 1 operation(s) for verifications.
   name: Farcaster Verifications API
   slug: farcaster-verifications-api
-artifact_total: 22
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Farcaster Snapchain Hub HTTP Casts API
+  slug: open-farcaster-casts-api
+- collection_type: open
+  name: Farcaster Snapchain Hub HTTP Casts Events API
+  slug: open-farcaster-events-api
+- collection_type: open
+  name: Farcaster Snapchain Hub HTTP Casts Info API
+  slug: open-farcaster-info-api
+- collection_type: open
+  name: Farcaster Snapchain Hub HTTP Casts Links API
+  slug: open-farcaster-links-api
+- collection_type: open
+  name: Farcaster Snapchain Hub HTTP Casts OnChain API
+  slug: open-farcaster-onchain-api
+- collection_type: open
+  name: Farcaster Snapchain Hub HTTP Casts Reactions API
+  slug: open-farcaster-reactions-api
+- collection_type: open
+  name: Farcaster Snapchain Hub HTTP Casts Submit API
+  slug: open-farcaster-submit-api
+- collection_type: open
+  name: Farcaster Snapchain Hub HTTP Casts UserData API
+  slug: open-farcaster-userdata-api
+- collection_type: open
+  name: Farcaster Snapchain Hub HTTP Casts Verifications API
+  slug: open-farcaster-verifications-api
 - collection_type: open
   name: Farcaster Snapchain Hub HTTP API
   slug: open-farcaster
@@ -145,7 +175,7 @@ plans:
 - name: Farcaster Plans Pricing
   plan_count: 1
   slug: farcaster-plans-pricing
-random_paper: 115
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Farcaster Rate Limits
@@ -170,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/screenshots/farcaster-2026-06-20T181039.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Manage components displayed on status pages
@@ -46,7 +46,26 @@ apis:
 - description: Manage subscriber lists for status page notifications
   name: Sorry Subscribers API
   slug: sorry-subscribers-api
-artifact_total: 17
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sorry Status Page Components API
+  slug: open-sorry-components-api
+- collection_type: open
+  name: Sorry Status Page Notice Updates API
+  slug: open-sorry-notice-updates-api
+- collection_type: open
+  name: Sorry Status Page Notices API
+  slug: open-sorry-notices-api
+- collection_type: open
+  name: Sorry Status Page Status Pages API
+  slug: open-sorry-status-pages-api
+- collection_type: open
+  name: Sorry Status Page Subscribers API
+  slug: open-sorry-subscribers-api
 common:
 - group: auth
   title: ''
@@ -147,7 +166,7 @@ plans:
 - name: Sorry Plans Pricing
   plan_count: 3
   slug: sorry-plans-pricing
-random_paper: 95
+random_paper: 128
 rate_limits:
 - limit_count: 5
   name: Sorry Rate Limits
@@ -188,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/screenshots/sorry-2026-06-20T194215.png
 security:

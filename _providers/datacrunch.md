@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The Volumes API from DataCrunch — 4 operation(s) for volumes.
   name: DataCrunch Volumes API
   slug: datacrunch-volumes-api
-artifact_total: 19
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DataCrunch Public Balance API
+  slug: open-datacrunch-balance-api
+- collection_type: open
+  name: DataCrunch Public Balance Images API
+  slug: open-datacrunch-images-api
+- collection_type: open
+  name: DataCrunch Public Balance Instance Availability API
+  slug: open-datacrunch-instance-availability-api
+- collection_type: open
+  name: DataCrunch Public Balance Instance Types API
+  slug: open-datacrunch-instance-types-api
+- collection_type: open
+  name: DataCrunch Public Balance Instances API
+  slug: open-datacrunch-instances-api
+- collection_type: open
+  name: DataCrunch Public Balance Locations API
+  slug: open-datacrunch-locations-api
+- collection_type: open
+  name: DataCrunch Public Balance OAuth API
+  slug: open-datacrunch-oauth-api
+- collection_type: open
+  name: DataCrunch Public Balance Serverless Containers API
+  slug: open-datacrunch-serverless-containers-api
+- collection_type: open
+  name: DataCrunch Public Balance SSH Keys API
+  slug: open-datacrunch-ssh-keys-api
+- collection_type: open
+  name: DataCrunch Public Balance Startup Scripts API
+  slug: open-datacrunch-startup-scripts-api
+- collection_type: open
+  name: DataCrunch Public Balance Volumes API
+  slug: open-datacrunch-volumes-api
 - collection_type: open
   name: DataCrunch Public API
   slug: open-datacrunch
@@ -146,7 +182,7 @@ plans:
 - name: Datacrunch Plans Pricing
   plan_count: 4
   slug: datacrunch-plans-pricing
-random_paper: 93
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Datacrunch Rate Limits
@@ -171,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/screenshots/datacrunch-2026-07-25T211313.png
 security:

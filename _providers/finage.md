@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Read-only REST API for real-time and historical market data: last quotes/trades, OHLCV aggregates, and snapshots for US and global stocks, forex, crypto, CFD indices and ETFs, plus fundamentals (finan'
@@ -38,11 +38,15 @@ apis:
 - description: Real-time streaming trades and quotes for US stocks, global stocks, forex, crypto, CFD indices, and ETFs over per-customer WebSocket URLs (assigned subdomain and port on finage.ws, socket-key token au
   name: Finage WebSocket Market Data Stream
   slug: finage-websocket-market-data-stream
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: 'Finage streams real-time market prices (US stocks, global stocks, forex, crypto, CFD indices, and ETFs) over WebSocket. Each customer is assigned a dedicated WebSocket URL (subdomain + port) shown in '
   name: Finage WebSocket Market Data Stream
   slug: finage-websocket-asyncapi
+collections:
+- collection_type: open
+  name: Finage Market Data API
+  slug: open-finage
 common:
 - group: auth
   title: ''
@@ -187,7 +191,7 @@ plans:
 - name: Finage Plans
   plan_count: 23
   slug: finage-plans
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Finage Rate Limits
@@ -220,7 +224,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/screenshots/finage-2026-06-20T181209.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Subscriptions are configured instances created in the Zylo user interface. They typically have a 1:1 relationship to a given application, though you may also have multiple subscriptions to the same ap
   name: Zylo Subscriptions API
   slug: zylo-subscriptions-api
-artifact_total: 39
+artifact_total: 44
 collections:
 - collection_type: postman
   name: Zylo Enterprise Applications API
@@ -66,8 +66,23 @@ collections:
   name: Zylo Enterprise Applications Subscriptions API
   slug: postman-zylo-subscriptions-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zylo Enterprise Applications API
+  slug: open-zylo-applications-api
+- collection_type: open
   name: Zylo Enterprise API
   slug: open-zylo-enterprise
+- collection_type: open
+  name: Zylo Enterprise Applications Export Jobs API
+  slug: open-zylo-export-jobs-api
+- collection_type: open
+  name: Zylo Enterprise Applications Import Jobs API
+  slug: open-zylo-import-jobs-api
+- collection_type: open
+  name: Zylo Enterprise Applications Subscriptions API
+  slug: open-zylo-subscriptions-api
 common:
 - group: build
   title: ''
@@ -216,7 +231,7 @@ plans:
 - name: Zylo Plans Pricing
   plan_count: 3
   slug: zylo-plans-pricing
-random_paper: 102
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Zylo Rate Limits
@@ -250,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/screenshots/zylo-2026-06-20T202009.png
 security:

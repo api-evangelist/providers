@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -94,11 +94,32 @@ arazzos:
 - description: Confirm a project exists, delete it, then verify the delete via a 404 read-back.
   name: Amazon DataZone Teardown Project
   slug: amazon-datazone-teardown-project-workflow
-artifact_total: 79
+artifact_total: 86
 collections:
 - collection_type: postman
   name: Amazon DataZone API
   slug: postman-amazon-datazone
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon DataZone Assets API
+  slug: open-amazon-datazone-assets-api
+- collection_type: open
+  name: Amazon DataZone Assets Domains API
+  slug: open-amazon-datazone-domains-api
+- collection_type: open
+  name: Amazon DataZone Assets Environments API
+  slug: open-amazon-datazone-environments-api
+- collection_type: open
+  name: Amazon DataZone Assets Listings API
+  slug: open-amazon-datazone-listings-api
+- collection_type: open
+  name: Amazon DataZone Assets Projects API
+  slug: open-amazon-datazone-projects-api
+- collection_type: open
+  name: Amazon DataZone Assets Subscriptions API
+  slug: open-amazon-datazone-subscriptions-api
 - collection_type: open
   name: Amazon DataZone API
   slug: open-amazon-datazone
@@ -389,7 +410,7 @@ plans:
 - name: Amazon Datazone Plans Pricing
   plan_count: 3
   slug: amazon-datazone-plans-pricing
-random_paper: 105
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Amazon Datazone Rate Limits
@@ -431,7 +452,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/screenshots/amazon-datazone-2026-06-20T171616.png
 security:

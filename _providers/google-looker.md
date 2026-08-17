@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,8 +51,20 @@ apis:
 - description: The Users API from Google Looker — 2 operation(s) for users.
   name: Google Looker Users API
   slug: google-looker-users-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Looker Authentication API
+  slug: open-google-looker-authentication-api
+- collection_type: open
+  name: Google Looker Authentication Looks API
+  slug: open-google-looker-looks-api
+- collection_type: open
+  name: Google Looker Authentication Users API
+  slug: open-google-looker-users-api
 - collection_type: open
   name: Google Looker API
   slug: open-openapi
@@ -145,7 +157,7 @@ plans:
 - name: Google Looker Plans Pricing
   plan_count: 4
   slug: google-looker-plans-pricing
-random_paper: 14
+random_paper: 142
 rate_limits:
 - limit_count: 7
   name: Google Looker Rate Limits
@@ -187,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/screenshots/google-looker-2026-06-20T182214.png
 security:

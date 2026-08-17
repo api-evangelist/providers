@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Retrieve Tripleseat users.
   name: Tripleseat Users API
   slug: tripleseat-users-api
-artifact_total: 78
+artifact_total: 86
 asyncapis:
 - description: Tripleseat webhooks POST a JSON package to a subscriber URL when a lead or booking lifecycle event occurs. Each request carries an X-Signature header computed with SHA256-HMAC using the webhook endpoi
   name: Tripleseat Webhooks
@@ -87,6 +87,30 @@ collections:
 - collection_type: postman
   name: Tripleseat Accounts Users API
   slug: postman-tripleseat-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tripleseat Accounts API
+  slug: open-tripleseat-accounts-api
+- collection_type: open
+  name: Tripleseat Accounts Contacts API
+  slug: open-tripleseat-contacts-api
+- collection_type: open
+  name: Tripleseat Accounts Events API
+  slug: open-tripleseat-events-api
+- collection_type: open
+  name: Tripleseat Accounts Leads API
+  slug: open-tripleseat-leads-api
+- collection_type: open
+  name: Tripleseat Accounts Locations API
+  slug: open-tripleseat-locations-api
+- collection_type: open
+  name: Tripleseat Accounts Sites API
+  slug: open-tripleseat-sites-api
+- collection_type: open
+  name: Tripleseat Accounts Users API
+  slug: open-tripleseat-users-api
 - collection_type: open
   name: Tripleseat API
   slug: open-tripleseat
@@ -334,7 +358,7 @@ plans:
 - name: Tripleseat Plans Pricing
   plan_count: 5
   slug: tripleseat-plans-pricing
-random_paper: 5
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Tripleseat Rate Limits
@@ -389,7 +413,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/screenshots/tripleseat-2026-06-20T195730.png
 security:

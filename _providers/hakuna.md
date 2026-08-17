@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -68,7 +68,41 @@ apis:
 - description: Users of the account
   name: Hakuna Users API
   slug: hakuna-users-api
-artifact_total: 15
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: hakuna Time Tracking Absences API
+  slug: open-hakuna-absences-api
+- collection_type: open
+  name: hakuna Time Tracking Absences Company API
+  slug: open-hakuna-company-api
+- collection_type: open
+  name: hakuna Time Tracking Absences Management API
+  slug: open-hakuna-management-api
+- collection_type: open
+  name: hakuna Time Tracking Absences Organization API
+  slug: open-hakuna-organization-api
+- collection_type: open
+  name: hakuna Time Tracking Absences Overview API
+  slug: open-hakuna-overview-api
+- collection_type: open
+  name: hakuna Time Tracking Absences Projects API
+  slug: open-hakuna-projects-api
+- collection_type: open
+  name: hakuna Time Tracking Absences Tasks API
+  slug: open-hakuna-tasks-api
+- collection_type: open
+  name: hakuna Time Tracking Absences Time Entries API
+  slug: open-hakuna-time-entries-api
+- collection_type: open
+  name: hakuna Time Tracking Absences Timer API
+  slug: open-hakuna-timer-api
+- collection_type: open
+  name: hakuna Time Tracking Absences Users API
+  slug: open-hakuna-users-api
 common:
 - group: agent
   title: ''
@@ -182,7 +216,7 @@ overview: 'Hakuna publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Hakuna''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 17 more developer resources.'
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Hakuna Rate Limits
@@ -210,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/screenshots/hakuna-2026-07-25T220533.png
 security:

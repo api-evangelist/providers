@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: APIs to add or get records in a published form/report
   name: Zoho Creator Publish APIs API
   slug: zoho-creator-publish-apis-api
-artifact_total: 25
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zoho Creator API v2 conforming OpenAPI Specification Bulk Insert APIs API
+  slug: open-zoho-creator-bulk-insert-apis-api
+- collection_type: open
+  name: Zoho Creator API v2 conforming OpenAPI Specification Bulk Insert APIs Bulk Read APIs API
+  slug: open-zoho-creator-bulk-read-apis-api
+- collection_type: open
+  name: Zoho Creator API v2 conforming OpenAPI Specification Bulk Insert APIs Data APIs API
+  slug: open-zoho-creator-data-apis-api
+- collection_type: open
+  name: Zoho Creator API v2 conforming OpenAPI Specification Bulk Insert APIs File APIs API
+  slug: open-zoho-creator-file-apis-api
+- collection_type: open
+  name: Zoho Creator API v2 conforming OpenAPI Specification Bulk Insert APIs Meta APIs API
+  slug: open-zoho-creator-meta-apis-api
+- collection_type: open
+  name: Zoho Creator API v2 conforming OpenAPI Specification Bulk Insert APIs Publish APIs API
+  slug: open-zoho-creator-publish-apis-api
 common:
 - group: agent
   title: ''
@@ -180,7 +202,7 @@ plans:
 - name: Zoho Creator Plans Pricing
   plan_count: 6
   slug: zoho-creator-plans-pricing
-random_paper: 45
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Zoho Creator Rate Limits
@@ -219,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/screenshots/zoho-creator-2026-06-20T201937.png
 security:

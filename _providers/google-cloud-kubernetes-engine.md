@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: View long-running operations
   name: Google Cloud Kubernetes Engine Operations API
   slug: google-cloud-kubernetes-engine-operations-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Google Cloud Kubernetes Engine Google Kubernetes Engine Clusters API
@@ -60,8 +60,20 @@ collections:
   name: Google Cloud Kubernetes Engine Google Kubernetes Engine Clusters Operations API
   slug: postman-google-cloud-kubernetes-engine-operations-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google Cloud Kubernetes Engine Google Kubernetes Engine API
   slug: open-gke
+- collection_type: open
+  name: Google Cloud Kubernetes Engine Google Kubernetes Engine Clusters API
+  slug: open-google-cloud-kubernetes-engine-clusters-api
+- collection_type: open
+  name: Google Cloud Kubernetes Engine Google Kubernetes Engine Clusters NodePools API
+  slug: open-google-cloud-kubernetes-engine-nodepools-api
+- collection_type: open
+  name: Google Cloud Kubernetes Engine Google Kubernetes Engine Clusters Operations API
+  slug: open-google-cloud-kubernetes-engine-operations-api
 common:
 - group: build
   title: ''
@@ -163,7 +175,7 @@ plans:
 - name: Google Cloud Kubernetes Engine Plans Pricing
   plan_count: 3
   slug: google-cloud-kubernetes-engine-plans-pricing
-random_paper: 17
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Google Cloud Kubernetes Engine Rate Limits
@@ -202,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-kubernetes-engine/refs/heads/main/screenshots/google-cloud-kubernetes-engine-2026-06-20T182119.png
 security:

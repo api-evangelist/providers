@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 6
@@ -78,7 +78,50 @@ apis:
 - description: Manage backup vaults that store snapshots.
   name: Eon vaults API
   slug: eon-vaults-api
-artifact_total: 18
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eon accounts API
+  slug: open-eon-accounts-api
+- collection_type: open
+  name: Eon accounts actionApprovals API
+  slug: open-eon-actionapprovals-api
+- collection_type: open
+  name: Eon accounts auth API
+  slug: open-eon-auth-api
+- collection_type: open
+  name: Eon accounts backupPolicies API
+  slug: open-eon-backuppolicies-api
+- collection_type: open
+  name: Eon accounts backups API
+  slug: open-eon-backups-api
+- collection_type: open
+  name: Eon accounts billing API
+  slug: open-eon-billing-api
+- collection_type: open
+  name: Eon accounts dashboard API
+  slug: open-eon-dashboard-api
+- collection_type: open
+  name: Eon accounts databaseSnapshots API
+  slug: open-eon-databasesnapshots-api
+- collection_type: open
+  name: Eon accounts iam API
+  slug: open-eon-iam-api
+- collection_type: open
+  name: Eon accounts jobs API
+  slug: open-eon-jobs-api
+- collection_type: open
+  name: Eon accounts resources API
+  slug: open-eon-resources-api
+- collection_type: open
+  name: Eon accounts snapshots API
+  slug: open-eon-snapshots-api
+- collection_type: open
+  name: Eon accounts vaults API
+  slug: open-eon-vaults-api
 common:
 - group: company
   title: ''
@@ -212,7 +255,7 @@ overview: 'Eon publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Eon''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 82
+random_paper: 24
 score:
   band: developing
   composite: 49.3
@@ -236,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/screenshots/eon-2026-07-25T213500.png
 security:

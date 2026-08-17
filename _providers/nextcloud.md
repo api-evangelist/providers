@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,8 +56,23 @@ apis:
 - description: The Users API from Nextcloud — 2 operation(s) for users.
   name: Nextcloud Users API
   slug: nextcloud-users-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nextcloud OCS Autocomplete API
+  slug: open-nextcloud-autocomplete-api
+- collection_type: open
+  name: Nextcloud OCS Autocomplete Capabilities API
+  slug: open-nextcloud-capabilities-api
+- collection_type: open
+  name: Nextcloud OCS Autocomplete DAV API
+  slug: open-nextcloud-dav-api
+- collection_type: open
+  name: Nextcloud OCS Autocomplete Users API
+  slug: open-nextcloud-users-api
 - collection_type: open
   name: Nextcloud OCS API
   slug: open-nextcloud
@@ -138,7 +153,7 @@ overview: 'Nextcloud publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Nextcloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 22
+random_paper: 88
 score:
   band: thin
   composite: 32.7
@@ -159,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/screenshots/nextcloud-2026-06-20T190256.png
 security:

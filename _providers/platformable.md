@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Platformable's API governance training resources and tools help your organisation to build a comprehensive, automated, high quality API governance system. Platformable also publishes industry trends r
@@ -124,7 +124,7 @@ plans:
 - name: Platformable Plans Pricing
   plan_count: 3
   slug: platformable-plans-pricing
-random_paper: 73
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Platformable Rate Limits
@@ -148,7 +148,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/platformable/refs/heads/main/screenshots/platformable-2026-06-20T191759.png
 security:

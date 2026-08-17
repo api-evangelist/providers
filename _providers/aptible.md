@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -182,7 +182,161 @@ apis:
 - description: The worker API from Aptible — 1 operation(s) for worker.
   name: Aptible Worker API
   slug: aptible-worker-api
-artifact_total: 57
+artifact_total: 108
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aptible API v1 Accounts API
+  slug: open-aptible-accounts-api
+- collection_type: open
+  name: Cloud Actions API
+  slug: open-aptible-actions-api
+- collection_type: open
+  name: Aptible API v1 Activity Reports API
+  slug: open-aptible-activityreports-api
+- collection_type: open
+  name: Aptible API v1 Apps API
+  slug: open-aptible-apps-api
+- collection_type: open
+  name: Cloud Assets API
+  slug: open-aptible-assets-api
+- collection_type: open
+  name: Aptible API v1 Backup Retention Policies API
+  slug: open-aptible-backupretentionpolicies-api
+- collection_type: open
+  name: Aptible API v1 Backups API
+  slug: open-aptible-backups-api
+- collection_type: open
+  name: Aptible API v1 Certificates API
+  slug: open-aptible-certificates-api
+- collection_type: open
+  name: Aptible API v1 Claims API
+  slug: open-aptible-claims-api
+- collection_type: open
+  name: Aptible API v1 Code Scan Results API
+  slug: open-aptible-codescanresults-api
+- collection_type: open
+  name: Aptible API v1 Configurations API
+  slug: open-aptible-configurations-api
+- collection_type: open
+  name: Cloud Connections API
+  slug: open-aptible-connections-api
+- collection_type: open
+  name: Aptible API v1 Containers API
+  slug: open-aptible-containers-api
+- collection_type: open
+  name: Aptible API v1 Database Credentials API
+  slug: open-aptible-databasecredentials-api
+- collection_type: open
+  name: Aptible API v1 Databases API
+  slug: open-aptible-databases-api
+- collection_type: open
+  name: Aptible API v1 Deployments API
+  slug: open-aptible-deployments-api
+- collection_type: open
+  name: Aptible API v1 Disk Attachments API
+  slug: open-aptible-diskattachments-api
+- collection_type: open
+  name: Aptible API v1 Disks API
+  slug: open-aptible-disks-api
+- collection_type: open
+  name: Cloud Environments API
+  slug: open-aptible-environments-api
+- collection_type: open
+  name: Aptible API v1 Ephemeral Containers API
+  slug: open-aptible-ephemeralcontainers-api
+- collection_type: open
+  name: Aptible API v1 Ephemeral Sessions API
+  slug: open-aptible-ephemeralsessions-api
+- collection_type: open
+  name: Aptible API v1 Images API
+  slug: open-aptible-images-api
+- collection_type: open
+  name: Aptible API v1 Intrusion Detection Reports API
+  slug: open-aptible-intrusiondetectionreports-api
+- collection_type: open
+  name: Aptible API v1 Llm Gateway Configurations API
+  slug: open-aptible-llmgatewayconfigurations-api
+- collection_type: open
+  name: Aptible API v1 Llm Keys API
+  slug: open-aptible-llmkeys-api
+- collection_type: open
+  name: Aptible API v1 Llm Policies API
+  slug: open-aptible-llmpolicies-api
+- collection_type: open
+  name: Aptible API v1 Log Drains API
+  slug: open-aptible-logdrains-api
+- collection_type: open
+  name: Aptible API v1 Maintenances API
+  slug: open-aptible-maintenances-api
+- collection_type: open
+  name: Aptible API v1 Metric Drains API
+  slug: open-aptible-metricdrains-api
+- collection_type: open
+  name: Aptible Operations API
+  slug: open-aptible-operations-api
+- collection_type: open
+  name: Cloud Organizations API
+  slug: open-aptible-organizations-api
+- collection_type: open
+  name: Aptible API v1 Permissions API
+  slug: open-aptible-permissions-api
+- collection_type: open
+  name: Aptible API v1 Persistent Disks API
+  slug: open-aptible-persistentdisks-api
+- collection_type: open
+  name: Aptible API v1 Plans API
+  slug: open-aptible-plans-api
+- collection_type: open
+  name: Aptible API v1 Releases API
+  slug: open-aptible-releases-api
+- collection_type: open
+  name: Aptible API v1 Root API
+  slug: open-aptible-root-api
+- collection_type: open
+  name: Aptible API v1 Services API
+  slug: open-aptible-services-api
+- collection_type: open
+  name: Aptible API v1 Service Sizing Policies API
+  slug: open-aptible-servicesizingpolicies-api
+- collection_type: open
+  name: Aptible API v1 Settings API
+  slug: open-aptible-settings-api
+- collection_type: open
+  name: Aptible API v1 Sources API
+  slug: open-aptible-sources-api
+- collection_type: open
+  name: Aptible API v1 Ssh Portal Connections API
+  slug: open-aptible-sshportalconnections-api
+- collection_type: open
+  name: Aptible API v1 Stacks API
+  slug: open-aptible-stacks-api
+- collection_type: open
+  name: Cloud System API
+  slug: open-aptible-system-api
+- collection_type: open
+  name: Tool API
+  slug: open-aptible-tool-api
+- collection_type: open
+  name: Tool Tools API
+  slug: open-aptible-tools-api
+- collection_type: open
+  name: Cloud Utilities API
+  slug: open-aptible-utilities-api
+- collection_type: open
+  name: Aptible API v1 Vhosts API
+  slug: open-aptible-vhosts-api
+- collection_type: open
+  name: Aptible API v1 Vpc Peers API
+  slug: open-aptible-vpcpeers-api
+- collection_type: open
+  name: Aptible API v1 Vpn Tunnels API
+  slug: open-aptible-vpntunnels-api
+- collection_type: open
+  name: Cloud Worker API
+  slug: open-aptible-worker-api
 common:
 - group: other
   title: ''
@@ -364,7 +518,7 @@ overview: 'Aptible publishes 50 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Aptible''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 17
+random_paper: 141
 score:
   band: developing
   composite: 54.5
@@ -388,7 +542,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/screenshots/aptible-2026-08-07T161518.png
 security:

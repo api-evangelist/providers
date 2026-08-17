@@ -11,32 +11,32 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-12'
+  score: 76.6
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 5
   human_in_the_loop: 0
   name: Koala Io Agentic Access
-  operation_count: 5
+  operation_count: 7
   slug: koala-io-agentic-access
-  summary_line: 5 operations · 3 acting
+  summary_line: 7 operations · 5 acting
 api_count: 5
 apis:
 - description: The client-side pixel loaded from cdn.getkoala.com/v1/{key}/sdk.js. Exposes ko.identify(), ko.track(), ko.qualify(), ko.reset() and autotracks pageviews, form fills, and session time. This is a browse
@@ -54,8 +54,33 @@ apis:
 - description: Bootstrap configuration used by the client-side pixel.
   name: Koala SDK API
   slug: koala-io-sdk-api
-artifact_total: 21
+artifact_total: 31
+asyncapis:
+- description: ''
+  name: Koala Io Auto Outbound Webhooks
+  slug: koala-io-auto-outbound-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Koala Server-Side Account Ingestion API
+  slug: open-koala-io-account-ingestion-api
+- collection_type: open
+  name: Koala Accounts API
+  slug: open-koala-io-accounts-api
+- collection_type: open
+  name: Koala Accounts Collection API
+  slug: open-koala-io-collection-api
+- collection_type: open
+  name: Koala Accounts Deletion API
+  slug: open-koala-io-deletion-api
+- collection_type: open
+  name: Koala Server-Side Account Ingestion Profile Ingestion API
+  slug: open-koala-io-profile-ingestion-api
+- collection_type: open
+  name: Koala Accounts SDK API
+  slug: open-koala-io-sdk-api
 - collection_type: open
   name: Koala API
   slug: open-koala-io
@@ -108,10 +133,6 @@ common:
   title: ''
   type: X
   url: https://x.com/getkoala_com
-- group: company
-  title: ''
-  type: Blog
-  url: https://getkoala.com/blog
 - group: commercial
   title: ''
   type: Pricing
@@ -127,15 +148,143 @@ common:
 - group: design
   title: ''
   type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/vocabulary/koala-vocabulary.yml
+  url: vocabulary/koala-io-vocabulary.yml
 - group: design
   title: ''
   type: JSONLDContext
-  url: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/json-ld/koala-context.jsonld
+  url: json-ld/koala-io-context.jsonld
 - group: docs
   title: ''
   type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/json-schema/koala-profile-batch-request-schema.json
+  url: json-schema/koala-io-profile-batch-request-schema.json
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/koala-io-a2a.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/koala-io-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/koala-io-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/koala-io-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/koala-io-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/koala-io-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/koala-io-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/koala-io-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/koala-io-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/koala-io-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/koala-io-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://koala.instatus.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/koala-io-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/koala-io-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://app.vanta.com/koala/trust/tzb87epi5imm1qbxktj0bn
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/koala-io-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://getkoala.com/security
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/koala-io-auto-outbound-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/koala-io-jsonschema-spectral-rules.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/koala-io-profile-batch-identify-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/koala-io-profile-batch-track-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/koala-io-account-batch-traits-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/koala-io-account-batch-event-example.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/koala-io-account-batch-request-schema.json
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://getkoala.com/docs/developer-guides/server-side
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://getkoala.com/docs/get-started/quick-start
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.getkoala.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.getkoala.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://getkoala.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://getkoala.com/legal/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@getkoala.com
 created: '2026-07-01'
 description: Koala is a B2B buyer-intent and go-to-market platform that de-anonymizes website and product traffic, identifies the visitors and companies behind it, enriches them with firmographic and contact data (via Clearbit Reveal/Enrich and ZoomInfo), and scores first-party intent so sales teams can act on the accounts showing the strongest signals. Its developer surface is a client-side JavaScript pixel plus an HTTP collection API for server-side identify, event, and account ingestion, with a separate secret-key admin API for GDPR deletion.
 examples:
@@ -169,24 +318,28 @@ jsonld:
   property_count: 23
   slug: koala-io-context
 layout: provider
-modified: '2026-08-08'
+mcp_servers:
+- description: ''
+  name: koala-io-mcp.yml
+  slug: koala-io-mcpyml
+modified: '2026-08-13'
 name: Koala
 nav: Providers
 network: true
 overview: 'Koala publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Collection API, Deletion API, and 1 more. Tagged areas include Buyer Intent, Visitor Identification, De-anonymization, Enrichment, and Go-to-Market.
 
 
-  The Koala catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Koala catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Koala''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
+  Koala''s developer surface includes authentication, documentation, pricing, code examples, API reference, getting-started guide, signup flow, and 43 more developer resources.'
 plans:
 - name: Koala Io Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: koala-io-plans-pricing
-random_paper: 61
+random_paper: 36
 rate_limits:
-- limit_count: 7
+- limit_count: 11
   name: Koala Io Rate Limits
   slug: koala-io-rate-limits
 rules:
@@ -199,16 +352,16 @@ rules:
     warn: 5
   slug: koala-io-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 54.5
-  delta: 0.0
+  band: exemplar
+  composite: 80.8
+  delta: 26.3
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 67.4
-    developer_ergonomics: 28.3
-    discoverability: 74.1
-    governance: 68.8
-    operational_transparency: 36.8
+    commercial_clarity: 100.0
+    contract_quality: 76.3
+    developer_ergonomics: 63.0
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 78.9
   previous_composite: 54.5
   provenance:
     agentic_access: derived
@@ -218,8 +371,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/screenshots/koala-io-2026-07-25T224023.png
 security:
 - kind: authentication
@@ -230,10 +383,14 @@ security:
   name: Koala Io Domain Security
   slug: koala-io-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Koala Io Vulnerability Disclosure
+  slug: koala-io-vulnerability-disclosure
+  summary_line: disclosure policy published
 - kind: trust-center
   name: Koala Io Trust Center
   slug: koala-io-trust-center
-  summary_line: SOC 2, GDPR
+  summary_line: SOC 2 Type II, GDPR, CCPA
 slug: koala-io
 tags:
 - Buyer Intent

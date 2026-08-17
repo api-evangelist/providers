@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,12 +63,33 @@ apis:
 - description: Prebuilt voice catalog.
   name: PlayHT Voices API
   slug: playht-voices-api
-artifact_total: 17
+artifact_total: 24
 asyncapis:
 - description: AsyncAPI 2.6 description of the PlayAI (formerly PlayHT) realtime WebSocket APIs. Covers the Text-to-Speech (TTS) streaming WebSocket used to synthesize audio from text in real time, and the Voice Age
   name: PlayAI Realtime WebSocket APIs
   slug: playht-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PlayAI Agents API
+  slug: open-playht-agents-api
+- collection_type: open
+  name: PlayAI Agents Conversations API
+  slug: open-playht-conversations-api
+- collection_type: open
+  name: PlayAI Agents External Functions API
+  slug: open-playht-external-functions-api
+- collection_type: open
+  name: PlayAI Agents PlayNote API
+  slug: open-playht-playnote-api
+- collection_type: open
+  name: PlayAI Agents TTS API
+  slug: open-playht-tts-api
+- collection_type: open
+  name: PlayAI Agents Voices API
+  slug: open-playht-voices-api
 - collection_type: open
   name: PlayAI API
   slug: open-playht
@@ -152,7 +173,7 @@ plans:
 - name: Playht Plans Pricing
   plan_count: 1
   slug: playht-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Playht Rate Limits
@@ -186,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

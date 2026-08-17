@@ -15,10 +15,10 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -27,14 +27,14 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-12'
+  score: 32.0
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Sprout Social Public API provides programmatic access to publishing, analytics, messaging, listening, and social care case data across major social networks. Requires Advanced plan or higher.
   name: Sprout Social API
   slug: sprout-social-api
-artifact_total: 8
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -92,6 +92,94 @@ common:
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api.sproutsocial.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.sproutsocial.com/docs/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://api.sproutsocial.com/docs/#getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.sproutsocial.com/hc/en-us
+- group: start
+  title: ''
+  type: SignUp
+  url: https://sproutsocial.com/signup/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://sproutsocial.com/legal/api-terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://sproutsocial.com/legal/privacy-policy/
+- group: auth
+  title: ''
+  type: Security
+  url: https://sproutsocial.com/responsible-disclosure-policy/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/sprout-social-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.sproutsocial.com/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sprout-social-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/sprout-social-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/sprout-social-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sprout-social-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sprout-social-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sprout-social-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/sprout-social-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sprout-social-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sprout-social-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sprout-social-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/sprout-social-components.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sprout-social-llms.txt
 created: '2026-06-13'
 description: Sprout Social is a social media management platform with a REST API for publishing posts, monitoring mentions, managing messages, accessing analytics, and reporting across social networks including Instagram, Facebook, LinkedIn, TikTok, YouTube, and X.
 finops:
@@ -99,7 +187,7 @@ finops:
   service_category: ''
   slug: sprout-social-finops
 graphqls:
-- description: This GraphQL schema is a conceptual representation of the Sprout Social REST API surface, modeling the core entities, relationships, and operations available through the [Sprout Social Public API](htt
+- description: '> **Provenance warning (2026-08-13).** Sprout Social does **not** publish a GraphQL API.'
   name: Sprout Social GraphQL Schema
   slug: sprout-social-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sprout-social.png
@@ -109,7 +197,7 @@ jsonld:
   property_count: 0
   slug: sprout-social
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: Sprout Social
 nav: Providers
 network: true
@@ -119,40 +207,53 @@ overview: 'Sprout Social publishes 1 API on the [APIs.io](https://apis.io/) netw
   The Sprout Social catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Sprout Social''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Sprout Social''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, signup flow, and 29 more developer resources.'
 plans:
 - name: Sprout Social Plans Pricing
   plan_count: 5
   slug: sprout-social-plans-pricing
-random_paper: 45
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Sprout Social Rate Limits
   slug: sprout-social-rate-limits
+scopes:
+- name: Sprout Social Scopes
+  scope_count: 6
+  slug: sprout-social-scopes
+  summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 39.7
-  delta: 0.0
+  band: strong
+  composite: 63.1
+  delta: 23.4
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 100.0
     contract_quality: 54.3
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 42.1
+    developer_ergonomics: 52.2
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 68.4
   previous_composite: 39.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Sprout Social Authentication
+  slug: sprout-social-authentication
+  summary_line: http/oauth2/openIdConnect · 4 schemes
 - kind: domain-security
   name: Sprout Social Domain Security
   slug: sprout-social-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Sprout Social Vulnerability Disclosure
+  slug: sprout-social-vulnerability-disclosure
+  summary_line: Bugcrowd · contact published
 - kind: trust-center
   name: Sprout Social Trust Center
   slug: sprout-social-trust-center
-  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
+  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 slug: sprout-social
 tags:
 - Social Media

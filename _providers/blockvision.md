@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Multi-chain indexing and on-chain data-retrieval REST API (accounts, coins/tokens, NFTs, collections, DeFi portfolios, DEX market data, and smart-contract verification) for Sui and Monad, authenticate
@@ -136,7 +136,7 @@ overview: 'BlockVision publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   BlockVision''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 107
+random_paper: 144
 score:
   band: emerging
   composite: 25.6
@@ -153,7 +153,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/screenshots/blockvision-2026-07-25T203400.png
 security:

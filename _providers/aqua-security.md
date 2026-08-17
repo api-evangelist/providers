@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ arazzos:
 - description: Authenticate, register a container image for scanning, then poll until the scan completes and read its vulnerability counts.
   name: Aqua Security Scan Image On Demand
   slug: aqua-security-scan-image-on-demand-workflow
-artifact_total: 108
+artifact_total: 115
 collections:
 - collection_type: postman
   name: Aqua Security REST Authentication API
@@ -109,6 +109,27 @@ collections:
 - collection_type: postman
   name: Aqua Security REST Authentication Users API
   slug: postman-aqua-security-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aqua Security REST Authentication API
+  slug: open-aqua-security-authentication-api
+- collection_type: open
+  name: Aqua Security REST Authentication Containers API
+  slug: open-aqua-security-containers-api
+- collection_type: open
+  name: Aqua Security REST Authentication Images API
+  slug: open-aqua-security-images-api
+- collection_type: open
+  name: Aqua Security REST Authentication Policies API
+  slug: open-aqua-security-policies-api
+- collection_type: open
+  name: Aqua Security REST Authentication Registries API
+  slug: open-aqua-security-registries-api
+- collection_type: open
+  name: Aqua Security REST Authentication Users API
+  slug: open-aqua-security-users-api
 common:
 - group: operate
   title: ''
@@ -476,7 +497,7 @@ plans:
 - name: Aqua Security Plans Pricing
   plan_count: 1
   slug: aqua-security-plans-pricing
-random_paper: 37
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Aqua Security Rate Limits
@@ -518,7 +539,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/screenshots/aqua-security-2026-06-20T172346.png
 security:

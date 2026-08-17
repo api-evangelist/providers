@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,8 +52,26 @@ apis:
 - description: Historical facts associated with a year.
   name: Numbers API Year API
   slug: numbers-year-api
-artifact_total: 44
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Numbers Batch API
+  slug: open-numbers-batch-api
+- collection_type: open
+  name: Numbers Batch Date API
+  slug: open-numbers-date-api
+- collection_type: open
+  name: Numbers Batch Math API
+  slug: open-numbers-math-api
+- collection_type: open
+  name: Numbers Batch Trivia API
+  slug: open-numbers-trivia-api
+- collection_type: open
+  name: Numbers Batch Year API
+  slug: open-numbers-year-api
 - collection_type: open
   name: Numbers API
   slug: open-numbers
@@ -187,7 +205,7 @@ overview: 'Numbers API publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Numbers API''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 44
+random_paper: 19
 rules:
 - name: Numbers API API Rules
   rule_count: 4
@@ -225,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/screenshots/numbers-2026-06-20T190517.png
 security:

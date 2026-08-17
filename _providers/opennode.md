@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -79,7 +79,29 @@ apis:
 - description: Initiate Bitcoin withdrawals and payouts
   name: OpenNode Withdrawals API
   slug: opennode-withdrawals-api
-artifact_total: 27
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenNode Account API
+  slug: open-opennode-account-api
+- collection_type: open
+  name: OpenNode Account Charges API
+  slug: open-opennode-charges-api
+- collection_type: open
+  name: OpenNode Account Rates API
+  slug: open-opennode-rates-api
+- collection_type: open
+  name: OpenNode Account Refunds API
+  slug: open-opennode-refunds-api
+- collection_type: open
+  name: OpenNode Account Static Addresses API
+  slug: open-opennode-static-addresses-api
+- collection_type: open
+  name: OpenNode Account Withdrawals API
+  slug: open-opennode-withdrawals-api
 common:
 - group: agent
   title: ''
@@ -201,7 +223,7 @@ plans:
 - name: Opennode Plans Pricing
   plan_count: 3
   slug: opennode-plans-pricing
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 3
   name: Opennode Rate Limits
@@ -241,7 +263,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/screenshots/opennode-2026-06-20T191018.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 3
@@ -117,7 +117,7 @@ apis:
 - description: The `Workspaces` endpoints supply more information about the workspaces that your API key has access to. This category was previously called `Owners`, as reflected by endpoint paths.
   name: Render Workspaces API
   slug: render-workspaces-api
-artifact_total: 254
+artifact_total: 281
 asyncapis:
 - description: AsyncAPI 2.6 description of Render's outbound webhook surface. Render delivers event notifications by issuing HTTP POST requests with a JSON body to a subscriber URL configured in the Render dashboard
   name: Render Webhooks
@@ -201,6 +201,87 @@ collections:
 - collection_type: postman
   name: Render Public Audit Logs Workspaces API
   slug: postman-render-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Render Public Audit Logs API
+  slug: open-render-audit-logs-api
+- collection_type: open
+  name: Render Public Audit Logs Blueprints API
+  slug: open-render-blueprints-api
+- collection_type: open
+  name: Render Public Audit Logs Custom Domains API
+  slug: open-render-custom-domains-api
+- collection_type: open
+  name: Render Public Audit Logs Deploys API
+  slug: open-render-deploys-api
+- collection_type: open
+  name: Render Public Audit Logs Disks API
+  slug: open-render-disks-api
+- collection_type: open
+  name: Render Public Audit Logs Environment Groups API
+  slug: open-render-environment-groups-api
+- collection_type: open
+  name: Render Public Audit Logs Events API
+  slug: open-render-events-api
+- collection_type: open
+  name: Render Public Audit Logs Key Value API
+  slug: open-render-key-value-api
+- collection_type: open
+  name: Render Public Audit Logs API
+  slug: open-render-logs-api
+- collection_type: open
+  name: Render Public Audit Logs Maintenance API
+  slug: open-render-maintenance-api
+- collection_type: open
+  name: Render Public Audit Logs Metrics API
+  slug: open-render-metrics-api
+- collection_type: open
+  name: Render Public Audit Logs Notification Settings API
+  slug: open-render-notification-settings-api
+- collection_type: open
+  name: Render Public Audit Logs One-Off Jobs API
+  slug: open-render-one-off-jobs-api
+- collection_type: open
+  name: Render Public Audit Logs Postgres API
+  slug: open-render-postgres-api
+- collection_type: open
+  name: Render Public Audit Logs Projects & Environments API
+  slug: open-render-projects-environments-api
+- collection_type: open
+  name: Render Public Audit Logs Redis (Deprecated) API
+  slug: open-render-redis-deprecated-api
+- collection_type: open
+  name: Render Public Audit Logs Registry Credentials API
+  slug: open-render-registry-credentials-api
+- collection_type: open
+  name: Render Public Audit Logs Services API
+  slug: open-render-services-api
+- collection_type: open
+  name: Render Public Audit Logs Services - Cron Jobs API
+  slug: open-render-services-cron-jobs-api
+- collection_type: open
+  name: Render Public Audit Logs Services - Headers API
+  slug: open-render-services-headers-api
+- collection_type: open
+  name: Render Public Audit Logs Services - Routes API
+  slug: open-render-services-routes-api
+- collection_type: open
+  name: Render Public Audit Logs Users API
+  slug: open-render-users-api
+- collection_type: open
+  name: Render Public Audit Logs Webhooks API
+  slug: open-render-webhooks-api
+- collection_type: open
+  name: Render Public Audit Logs Workflow Tasks (Beta) API
+  slug: open-render-workflow-tasks-beta-api
+- collection_type: open
+  name: Render Public Audit Logs Workflows (Beta) API
+  slug: open-render-workflows-beta-api
+- collection_type: open
+  name: Render Public Audit Logs Workspaces API
+  slug: open-render-workspaces-api
 - collection_type: open
   name: Render Public API
   slug: open-render
@@ -843,7 +924,7 @@ plans:
 - name: Render Plans Pricing
   plan_count: 8
   slug: render-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Render Rate Limits
@@ -893,7 +974,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/screenshots/render-2026-06-20T192846.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 24
@@ -494,7 +494,7 @@ arazzos:
 - description: Create a custom role with explicit permissions, resolve a team by name, and assign the role to it.
   name: Grafana Assign a Custom RBAC Role to a Team
   slug: grafana-team-rbac-role-workflow
-artifact_total: 306
+artifact_total: 445
 collections:
 - collection_type: postman
   name: Grafana HTTP Access API
@@ -911,8 +911,425 @@ collections:
   name: Grafana HTTP Access Write API
   slug: postman-grafana-write-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Grafana HTTP Access API
+  slug: open-grafana-access-api
+- collection_type: open
+  name: Grafana HTTP Access Account API
+  slug: open-grafana-account-api
+- collection_type: open
+  name: Grafana HTTP Access Accounts API
+  slug: open-grafana-accounts-api
+- collection_type: open
+  name: Grafana HTTP Access Add API
+  slug: open-grafana-add-api
+- collection_type: open
+  name: Grafana HTTP Access Address API
+  slug: open-grafana-address-api
+- collection_type: open
+  name: Grafana HTTP Access Administrative API
+  slug: open-grafana-administrative-api
+- collection_type: open
+  name: Grafana HTTP Access Alerts API
+  slug: open-grafana-alerts-api
+- collection_type: open
+  name: Grafana HTTP Access All API
+  slug: open-grafana-all-api
+- collection_type: open
+  name: Grafana HTTP Access Annotations API
+  slug: open-grafana-annotations-api
+- collection_type: open
   name: Grafana HTTP API
   slug: open-grafana-api
+- collection_type: open
+  name: Grafana HTTP Access Built API
+  slug: open-grafana-built-api
+- collection_type: open
+  name: Grafana HTTP Access Cache API
+  slug: open-grafana-cache-api
+- collection_type: open
+  name: Grafana HTTP Access Call API
+  slug: open-grafana-call-api
+- collection_type: open
+  name: Grafana HTTP Access Calls API
+  slug: open-grafana-calls-api
+- collection_type: open
+  name: Grafana HTTP Access Cancel API
+  slug: open-grafana-cancel-api
+- collection_type: open
+  name: Grafana HTTP Access Change API
+  slug: open-grafana-change-api
+- collection_type: open
+  name: Grafana HTTP Access Checks API
+  slug: open-grafana-checks-api
+- collection_type: open
+  name: Grafana HTTP Access Clean API
+  slug: open-grafana-clean-api
+- collection_type: open
+  name: Grafana HTTP Access Clear API
+  slug: open-grafana-clear-api
+- collection_type: open
+  name: Grafana HTTP Access Cloud API
+  slug: open-grafana-cloud-api
+- collection_type: open
+  name: Grafana HTTP Access Comments API
+  slug: open-grafana-comments-api
+- collection_type: open
+  name: Grafana HTTP Access Connections API
+  slug: open-grafana-connections-api
+- collection_type: open
+  name: Grafana HTTP Access Control API
+  slug: open-grafana-control-api
+- collection_type: open
+  name: Grafana HTTP Access Convert API
+  slug: open-grafana-convert-api
+- collection_type: open
+  name: Grafana HTTP Access Correlation API
+  slug: open-grafana-correlation-api
+- collection_type: open
+  name: Grafana HTTP Access Correlations API
+  slug: open-grafana-correlations-api
+- collection_type: open
+  name: Grafana HTTP Access Counts API
+  slug: open-grafana-counts-api
+- collection_type: open
+  name: Grafana HTTP Access Create API
+  slug: open-grafana-create-api
+- collection_type: open
+  name: Grafana HTTP Access Current API
+  slug: open-grafana-current-api
+- collection_type: open
+  name: Grafana HTTP Access Custom API
+  slug: open-grafana-custom-api
+- collection_type: open
+  name: Grafana HTTP Access Dashboards API
+  slug: open-grafana-dashboards-api
+- collection_type: open
+  name: Grafana HTTP Access Data API
+  slug: open-grafana-data-api
+- collection_type: open
+  name: Grafana HTTP Access Data Sources API
+  slug: open-grafana-data-sources-api
+- collection_type: open
+  name: Grafana HTTP Access Delete API
+  slug: open-grafana-delete-api
+- collection_type: open
+  name: Grafana HTTP Access Dependencies API
+  slug: open-grafana-dependencies-api
+- collection_type: open
+  name: Grafana HTTP Access Descendants API
+  slug: open-grafana-descendants-api
+- collection_type: open
+  name: Grafana HTTP Access Description API
+  slug: open-grafana-description-api
+- collection_type: open
+  name: Grafana HTTP Access Devices API
+  slug: open-grafana-devices-api
+- collection_type: open
+  name: Grafana HTTP Access Disables API
+  slug: open-grafana-disables-api
+- collection_type: open
+  name: Grafana HTTP Access Element API
+  slug: open-grafana-element-api
+- collection_type: open
+  name: Grafana HTTP Access Elements API
+  slug: open-grafana-elements-api
+- collection_type: open
+  name: Grafana HTTP Access Email API
+  slug: open-grafana-email-api
+- collection_type: open
+  name: Grafana HTTP Access Emails API
+  slug: open-grafana-emails-api
+- collection_type: open
+  name: Grafana HTTP Access Enables API
+  slug: open-grafana-enables-api
+- collection_type: open
+  name: Grafana HTTP Access Exports API
+  slug: open-grafana-exports-api
+- collection_type: open
+  name: Grafana HTTP Access Flag API
+  slug: open-grafana-flag-api
+- collection_type: open
+  name: Grafana HTTP Access Flags API
+  slug: open-grafana-flags-api
+- collection_type: open
+  name: Grafana HTTP Access Folders API
+  slug: open-grafana-folders-api
+- collection_type: open
+  name: Grafana HTTP Access Get API
+  slug: open-grafana-get-api
+- collection_type: open
+  name: Grafana HTTP Access Groups API
+  slug: open-grafana-groups-api
+- collection_type: open
+  name: Grafana HTTP Access Health API
+  slug: open-grafana-health-api
+- collection_type: open
+  name: Grafana HTTP Access Help API
+  slug: open-grafana-help-api
+- collection_type: open
+  name: Grafana HTTP Access Home API
+  slug: open-grafana-home-api
+- collection_type: open
+  name: Grafana HTTP Access Identifiers API
+  slug: open-grafana-identifiers-api
+- collection_type: open
+  name: Grafana HTTP Access Image API
+  slug: open-grafana-image-api
+- collection_type: open
+  name: Grafana HTTP Access Import API
+  slug: open-grafana-import-api
+- collection_type: open
+  name: Grafana HTTP Access Interpolate API
+  slug: open-grafana-interpolate-api
+- collection_type: open
+  name: Grafana HTTP Access Invites API
+  slug: open-grafana-invites-api
+- collection_type: open
+  name: Grafana HTTP Access Items API
+  slug: open-grafana-items-api
+- collection_type: open
+  name: Grafana HTTP Access Keys API
+  slug: open-grafana-keys-api
+- collection_type: open
+  name: Grafana HTTP Access Ldap API
+  slug: open-grafana-ldap-api
+- collection_type: open
+  name: Grafana HTTP Access Libraries API
+  slug: open-grafana-libraries-api
+- collection_type: open
+  name: Grafana HTTP Access Licenses API
+  slug: open-grafana-licenses-api
+- collection_type: open
+  name: Grafana HTTP Access Lists API
+  slug: open-grafana-lists-api
+- collection_type: open
+  name: Grafana HTTP Access Login API
+  slug: open-grafana-login-api
+- collection_type: open
+  name: Grafana HTTP Access Mapped API
+  slug: open-grafana-mapped-api
+- collection_type: open
+  name: Grafana HTTP Access Mass API
+  slug: open-grafana-mass-api
+- collection_type: open
+  name: Grafana HTTP Access Member API
+  slug: open-grafana-member-api
+- collection_type: open
+  name: Grafana HTTP Access Members API
+  slug: open-grafana-members-api
+- collection_type: open
+  name: Grafana HTTP Access Memberships API
+  slug: open-grafana-memberships-api
+- collection_type: open
+  name: Grafana HTTP Access Metrics API
+  slug: open-grafana-metrics-api
+- collection_type: open
+  name: Grafana HTTP Access Migrations API
+  slug: open-grafana-migrations-api
+- collection_type: open
+  name: Grafana HTTP Access Move API
+  slug: open-grafana-move-api
+- collection_type: open
+  name: Grafana HTTP Access Mute API
+  slug: open-grafana-mute-api
+- collection_type: open
+  name: Grafana HTTP Access Names API
+  slug: open-grafana-names-api
+- collection_type: open
+  name: Grafana HTTP Access Options API
+  slug: open-grafana-options-api
+- collection_type: open
+  name: Grafana HTTP Access Organizations API
+  slug: open-grafana-organizations-api
+- collection_type: open
+  name: Grafana HTTP Access Password API
+  slug: open-grafana-password-api
+- collection_type: open
+  name: Grafana HTTP Access Patch API
+  slug: open-grafana-patch-api
+- collection_type: open
+  name: Grafana HTTP Access Pending API
+  slug: open-grafana-pending-api
+- collection_type: open
+  name: Grafana HTTP Access Permissions API
+  slug: open-grafana-permissions-api
+- collection_type: open
+  name: Grafana HTTP Access Playlists API
+  slug: open-grafana-playlists-api
+- collection_type: open
+  name: Grafana HTTP Access Plugins API
+  slug: open-grafana-plugins-api
+- collection_type: open
+  name: Grafana HTTP Access Policies API
+  slug: open-grafana-policies-api
+- collection_type: open
+  name: Grafana HTTP Access Post API
+  slug: open-grafana-post-api
+- collection_type: open
+  name: Grafana HTTP Access Preferences API
+  slug: open-grafana-preferences-api
+- collection_type: open
+  name: Grafana HTTP Access Provider API
+  slug: open-grafana-provider-api
+- collection_type: open
+  name: Grafana HTTP Access Providers API
+  slug: open-grafana-providers-api
+- collection_type: open
+  name: Grafana HTTP Access Provisioning API
+  slug: open-grafana-provisioning-api
+- collection_type: open
+  name: Grafana HTTP Access Proxies API
+  slug: open-grafana-proxies-api
+- collection_type: open
+  name: Grafana HTTP Access Public API
+  slug: open-grafana-public-api
+- collection_type: open
+  name: Grafana HTTP Access Put API
+  slug: open-grafana-put-api
+- collection_type: open
+  name: Grafana HTTP Access Queries API
+  slug: open-grafana-queries-api
+- collection_type: open
+  name: Grafana HTTP Access Quota API
+  slug: open-grafana-quota-api
+- collection_type: open
+  name: Grafana HTTP Access Recording API
+  slug: open-grafana-recording-api
+- collection_type: open
+  name: Grafana HTTP Access Refresh API
+  slug: open-grafana-refresh-api
+- collection_type: open
+  name: Grafana HTTP Access Reload API
+  slug: open-grafana-reload-api
+- collection_type: open
+  name: Grafana HTTP Access Remove API
+  slug: open-grafana-remove-api
+- collection_type: open
+  name: Grafana HTTP Access Render API
+  slug: open-grafana-render-api
+- collection_type: open
+  name: Grafana HTTP Access Renew API
+  slug: open-grafana-renew-api
+- collection_type: open
+  name: Grafana HTTP Access Reports API
+  slug: open-grafana-reports-api
+- collection_type: open
+  name: Grafana HTTP Access Reset API
+  slug: open-grafana-reset-api
+- collection_type: open
+  name: Grafana HTTP Access Resource API
+  slug: open-grafana-resource-api
+- collection_type: open
+  name: Grafana HTTP Access Restore API
+  slug: open-grafana-restore-api
+- collection_type: open
+  name: Grafana HTTP Access Result API
+  slug: open-grafana-result-api
+- collection_type: open
+  name: Grafana HTTP Access Retrieve API
+  slug: open-grafana-retrieve-api
+- collection_type: open
+  name: Grafana HTTP Access Revoke API
+  slug: open-grafana-revoke-api
+- collection_type: open
+  name: Grafana HTTP Access Role API
+  slug: open-grafana-role-api
+- collection_type: open
+  name: Grafana HTTP Access Roles API
+  slug: open-grafana-roles-api
+- collection_type: open
+  name: Grafana HTTP Access Routes API
+  slug: open-grafana-routes-api
+- collection_type: open
+  name: Grafana HTTP Access Rules API
+  slug: open-grafana-rules-api
+- collection_type: open
+  name: Grafana HTTP Access Save API
+  slug: open-grafana-save-api
+- collection_type: open
+  name: Grafana HTTP Access Search API
+  slug: open-grafana-search-api
+- collection_type: open
+  name: Grafana HTTP Access Send API
+  slug: open-grafana-send-api
+- collection_type: open
+  name: Grafana HTTP Access Sessions API
+  slug: open-grafana-sessions-api
+- collection_type: open
+  name: Grafana HTTP Access Sets API
+  slug: open-grafana-sets-api
+- collection_type: open
+  name: Grafana HTTP Access Settings API
+  slug: open-grafana-settings-api
+- collection_type: open
+  name: Grafana HTTP Access Sharing API
+  slug: open-grafana-sharing-api
+- collection_type: open
+  name: Grafana HTTP Access Signed API
+  slug: open-grafana-signed-api
+- collection_type: open
+  name: Grafana HTTP Access Snapshots API
+  slug: open-grafana-snapshots-api
+- collection_type: open
+  name: Grafana HTTP Access Sort API
+  slug: open-grafana-sort-api
+- collection_type: open
+  name: Grafana HTTP Access Sources API
+  slug: open-grafana-sources-api
+- collection_type: open
+  name: Grafana HTTP Access Star API
+  slug: open-grafana-star-api
+- collection_type: open
+  name: Grafana HTTP Access Status API
+  slug: open-grafana-status-api
+- collection_type: open
+  name: Grafana HTTP Access Sync API
+  slug: open-grafana-sync-api
+- collection_type: open
+  name: Grafana HTTP Access Target API
+  slug: open-grafana-target-api
+- collection_type: open
+  name: Grafana HTTP Access Teams API
+  slug: open-grafana-teams-api
+- collection_type: open
+  name: Grafana HTTP Access Templates API
+  slug: open-grafana-templates-api
+- collection_type: open
+  name: Grafana HTTP Access Tests API
+  slug: open-grafana-tests-api
+- collection_type: open
+  name: Grafana HTTP Access Timing API
+  slug: open-grafana-timing-api
+- collection_type: open
+  name: Grafana HTTP Access Tokens API
+  slug: open-grafana-tokens-api
+- collection_type: open
+  name: Grafana HTTP Access Trees API
+  slug: open-grafana-trees-api
+- collection_type: open
+  name: Grafana HTTP Access Unstar API
+  slug: open-grafana-unstar-api
+- collection_type: open
+  name: Grafana HTTP Access Update API
+  slug: open-grafana-update-api
+- collection_type: open
+  name: Grafana HTTP Access Upload API
+  slug: open-grafana-upload-api
+- collection_type: open
+  name: Grafana HTTP Access Users API
+  slug: open-grafana-users-api
+- collection_type: open
+  name: Grafana HTTP Access Versions API
+  slug: open-grafana-versions-api
+- collection_type: open
+  name: Grafana HTTP Access View API
+  slug: open-grafana-view-api
+- collection_type: open
+  name: Grafana HTTP Access Write API
+  slug: open-grafana-write-api
 - collection_type: open
   name: Grafana
   slug: open-grafana
@@ -1147,7 +1564,7 @@ plans:
 - name: Grafana Plans Pricing
   plan_count: 3
   slug: grafana-plans-pricing
-random_paper: 0
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Grafana Rate Limits
@@ -1183,7 +1600,7 @@ score:
       total: 138
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png
 security:

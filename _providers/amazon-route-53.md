@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Operations for managing DNS resource record sets.
   name: Amazon Route 53 Resource Record Sets API
   slug: amazon-route-53-resource-record-sets-api
-artifact_total: 73
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Amazon Route 53 Health Checks API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Amazon Route 53 Health Checks Resource Record Sets API
   slug: postman-amazon-route-53-resource-record-sets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Route 53 Health Checks API
+  slug: open-amazon-route-53-health-checks-api
+- collection_type: open
+  name: Amazon Route 53 Health Checks Hosted Zones API
+  slug: open-amazon-route-53-hosted-zones-api
+- collection_type: open
+  name: Amazon Route 53 Health Checks Resource Record Sets API
+  slug: open-amazon-route-53-resource-record-sets-api
 - collection_type: open
   name: Amazon Route 53 API
   slug: open-amazon-route-53
@@ -591,7 +603,7 @@ plans:
 - name: Amazon Route 53 Plans Pricing
   plan_count: 1
   slug: amazon-route-53-plans-pricing
-random_paper: 79
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Amazon Route 53 Rate Limits
@@ -639,7 +651,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/screenshots/amazon-route-53-2026-06-20T171815.png
 security:

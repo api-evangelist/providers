@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The Scribo API from Causa Prima — 4 operation(s) for scribo.
   name: Causa Prima Scribo API
   slug: causa-prima-scribo-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scribo Invoice Invoices API
+  slug: open-causa-prima-invoices-api
+- collection_type: open
+  name: Scribo Invoice Invoices Jurisdictions API
+  slug: open-causa-prima-jurisdictions-api
+- collection_type: open
+  name: Invoice Invoices Scribo API
+  slug: open-causa-prima-scribo-api
 common:
 - group: company
   title: ''
@@ -165,7 +178,7 @@ overview: 'Causa Prima publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Causa Prima''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 20 more developer resources.'
-random_paper: 27
+random_paper: 64
 score:
   band: developing
   composite: 44.2
@@ -195,7 +208,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/screenshots/causa-prima-2026-07-25T204814.png
 security:

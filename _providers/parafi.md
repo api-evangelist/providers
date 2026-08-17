@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: ParaFi validator, rewards, stake, and Solana network endpoints.
   name: Parafi Solana API
   slug: parafi-solana-api
-artifact_total: 8
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ParaFi Tech Avalanche API
+  slug: open-parafi-avalanche-api
+- collection_type: open
+  name: ParaFi Tech Avalanche Ethereum API
+  slug: open-parafi-ethereum-api
+- collection_type: open
+  name: ParaFi Tech Avalanche Market API
+  slug: open-parafi-market-api
+- collection_type: open
+  name: ParaFi Tech Avalanche Solana API
+  slug: open-parafi-solana-api
 common:
 - group: other
   title: ''
@@ -152,7 +168,7 @@ overview: 'Parafi publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parafi''s developer surface includes documentation, API reference, getting-started guide, support, authentication, engineering blog, and 15 more developer resources.'
-random_paper: 27
+random_paper: 31
 score:
   band: thin
   composite: 38.4
@@ -182,7 +198,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/screenshots/parafi-2026-08-07T191404.png
 security:

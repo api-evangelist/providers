@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 353
   human_in_the_loop: 32
@@ -142,14 +142,83 @@ arazzos:
 - description: Read the web site configuration, apply changes, then restart the app to pick them up.
   name: Update Function App Site Configuration and Restart
   slug: microsoft-azure-functions-update-site-config-workflow
-artifact_total: 166
+artifact_total: 189
 collections:
 - collection_type: postman
   name: WebApps API Client
   slug: postman-azure-functions-management-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: WebApps API Client
   slug: open-azure-functions-management-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments API
+  slug: open-microsoft-azure-functions-appserviceenvironments-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments AppServicePlans API
+  slug: open-microsoft-azure-functions-appserviceplans-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments Certificates API
+  slug: open-microsoft-azure-functions-certificates-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments DeletedWebApps API
+  slug: open-microsoft-azure-functions-deletedwebapps-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments Diagnostics API
+  slug: open-microsoft-azure-functions-diagnostics-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments Global API
+  slug: open-microsoft-azure-functions-global-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments KubeEnvironments API
+  slug: open-microsoft-azure-functions-kubeenvironments-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments Operations API
+  slug: open-microsoft-azure-functions-operations-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments Provider API
+  slug: open-microsoft-azure-functions-provider-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments Providers API
+  slug: open-microsoft-azure-functions-providers-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments Recommendations API
+  slug: open-microsoft-azure-functions-recommendations-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments ResourceHealthMetadata API
+  slug: open-microsoft-azure-functions-resourcehealthmetadata-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments SiteCertificates API
+  slug: open-microsoft-azure-functions-sitecertificates-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments StaticSites API
+  slug: open-microsoft-azure-functions-staticsites-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments Subscriptions API
+  slug: open-microsoft-azure-functions-subscriptions-api
+- collection_type: open
+  name: API Client AppServiceEnvironments WebApps API
+  slug: open-microsoft-azure-functions-webapps-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments WorkflowRunActions API
+  slug: open-microsoft-azure-functions-workflowrunactions-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments WorkflowRuns API
+  slug: open-microsoft-azure-functions-workflowruns-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments Workflows API
+  slug: open-microsoft-azure-functions-workflows-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments WorkflowTriggerHistories API
+  slug: open-microsoft-azure-functions-workflowtriggerhistories-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments WorkflowTriggers API
+  slug: open-microsoft-azure-functions-workflowtriggers-api
+- collection_type: open
+  name: WebApps API Client AppServiceEnvironments WorkflowVersions API
+  slug: open-microsoft-azure-functions-workflowversions-api
 common:
 - group: operate
   title: ''
@@ -667,7 +736,7 @@ plans:
 - name: Microsoft Azure Functions Plans Pricing
   plan_count: 3
   slug: microsoft-azure-functions-plans-pricing
-random_paper: 88
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Functions Rate Limits
@@ -722,7 +791,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/screenshots/microsoft-azure-functions-2026-06-20T185418.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,7 +45,14 @@ apis:
 - description: The Apps API from Bucket — 9 operation(s) for apps.
   name: Bucket Apps API
   slug: bucket-apps-api
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reflag Management Apps API
+  slug: open-bucket-apps-api
 common:
 - group: other
   title: ''
@@ -195,7 +202,7 @@ overview: 'Bucket publishes 1 API on the [APIs.io](https://apis.io/) network: Ap
 
 
   Bucket''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 38
+random_paper: 42
 score:
   band: strong
   composite: 58.6
@@ -219,7 +226,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/screenshots/bucket-2026-07-25T204024.png
 security:

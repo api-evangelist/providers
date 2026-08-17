@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -137,11 +137,23 @@ arazzos:
 - description: Read a user, branch on whether it exists, and apply an update when found.
   name: Meta Verify And Update User
   slug: meta-verify-and-update-user-workflow
-artifact_total: 63
+artifact_total: 67
 collections:
 - collection_type: postman
   name: Meta Graph API - User
   slug: postman-meta
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meta Custom Audiences API
+  slug: open-meta-custom-audiences-api
+- collection_type: open
+  name: Meta Pages API
+  slug: open-meta-pages-api
+- collection_type: open
+  name: Meta Users API
+  slug: open-meta-users-api
 - collection_type: open
   name: Meta Graph API - User
   slug: open-meta
@@ -569,7 +581,7 @@ plans:
 - name: Meta Plans Pricing
   plan_count: 3
   slug: meta-plans-pricing
-random_paper: 63
+random_paper: 125
 rate_limits:
 - limit_count: 2
   name: Meta Rate Limits
@@ -610,7 +622,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png
 security:

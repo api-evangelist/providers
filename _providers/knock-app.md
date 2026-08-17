@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -187,7 +187,7 @@ arazzos:
 - description: Trigger a workflow and poll its per-recipient run until it completes.
   name: Knock Trigger Workflow and Track Recipient Run
   slug: knock-app-trigger-workflow-track-recipient-run-workflow
-artifact_total: 124
+artifact_total: 159
 asyncapis:
 - description: Knock fires outbound webhook events for message lifecycle (sent, delivered, seen, read, interacted, archived, link_clicked, bounced, undelivered) and for environment changes (workflow / email_layout /
   name: Knock Outbound Webhooks
@@ -232,6 +232,111 @@ collections:
 - collection_type: postman
   name: Knock Workflows API
   slug: postman-knock-workflows-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Knock Audiences Accounts API
+  slug: open-knock-app-accounts-api
+- collection_type: open
+  name: Knock Audiences Accounts API keys API
+  slug: open-knock-app-api-keys-api
+- collection_type: open
+  name: Knock Accounts Audiences API
+  slug: open-knock-app-audiences-api
+- collection_type: open
+  name: Knock Audiences Accounts Branches API
+  slug: open-knock-app-branches-api
+- collection_type: open
+  name: Knock Audiences Accounts Broadcasts API
+  slug: open-knock-app-broadcasts-api
+- collection_type: open
+  name: Knock Audiences Accounts Bulk operations API
+  slug: open-knock-app-bulk-operations-api
+- collection_type: open
+  name: Knock Audiences Accounts Channel data API
+  slug: open-knock-app-channel-data-api
+- collection_type: open
+  name: Knock Audiences Accounts Channel Groups API
+  slug: open-knock-app-channel-groups-api
+- collection_type: open
+  name: Knock Audiences Accounts Channels API
+  slug: open-knock-app-channels-api
+- collection_type: open
+  name: Knock Audiences Accounts Commits API
+  slug: open-knock-app-commits-api
+- collection_type: open
+  name: Knock Audiences Accounts Email layouts API
+  slug: open-knock-app-email-layouts-api
+- collection_type: open
+  name: Knock Audiences Accounts Environments API
+  slug: open-knock-app-environments-api
+- collection_type: open
+  name: Knock Audiences Accounts Feeds API
+  slug: open-knock-app-feeds-api
+- collection_type: open
+  name: Knock Audiences Accounts Guides API
+  slug: open-knock-app-guides-api
+- collection_type: open
+  name: Knock Audiences Accounts Integrations API
+  slug: open-knock-app-integrations-api
+- collection_type: open
+  name: Knock Audiences Accounts Members API
+  slug: open-knock-app-members-api
+- collection_type: open
+  name: Knock Audiences Accounts Message types API
+  slug: open-knock-app-message-types-api
+- collection_type: open
+  name: Knock Audiences Accounts Messages API
+  slug: open-knock-app-messages-api
+- collection_type: open
+  name: Knock Audiences Accounts Microsoft Teams API
+  slug: open-knock-app-microsoft-teams-api
+- collection_type: open
+  name: Knock Audiences Accounts Objects API
+  slug: open-knock-app-objects-api
+- collection_type: open
+  name: Knock Audiences Accounts Partials API
+  slug: open-knock-app-partials-api
+- collection_type: open
+  name: Knock Audiences Accounts Preferences API
+  slug: open-knock-app-preferences-api
+- collection_type: open
+  name: Knock Audiences Accounts Providers API
+  slug: open-knock-app-providers-api
+- collection_type: open
+  name: Knock Audiences Accounts Schedules API
+  slug: open-knock-app-schedules-api
+- collection_type: open
+  name: Knock Audiences Accounts Slack API
+  slug: open-knock-app-slack-api
+- collection_type: open
+  name: Knock Audiences Accounts Subscriptions API
+  slug: open-knock-app-subscriptions-api
+- collection_type: open
+  name: Knock Audiences Accounts Templates API
+  slug: open-knock-app-templates-api
+- collection_type: open
+  name: Knock Audiences Accounts Tenants API
+  slug: open-knock-app-tenants-api
+- collection_type: open
+  name: Knock Audiences Accounts Translations API
+  slug: open-knock-app-translations-api
+- collection_type: open
+  name: Knock Audiences Accounts Users API
+  slug: open-knock-app-users-api
+- collection_type: open
+  name: Knock Audiences Accounts Variables API
+  slug: open-knock-app-variables-api
+- collection_type: open
+  name: Knock Audiences Accounts Workflow recipient runs API
+  slug: open-knock-app-workflow-recipient-runs-api
+- collection_type: open
+  name: Knock Audiences Accounts Workflow Triggers API
+  slug: open-knock-app-workflow-triggers-api
+- collection_type: open
+  name: Knock Audiences Accounts Workflows API
+  slug: open-knock-app-workflows-api
 - collection_type: open
   name: Knock Audiences API
   slug: open-knock-audiences-api
@@ -805,7 +910,7 @@ plans:
 - name: Knock Plans Pricing
   plan_count: 3
   slug: knock-plans-pricing
-random_paper: 60
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Knock Rate Limits
@@ -863,7 +968,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/screenshots/knock-app-2026-06-20T184113.png
 security:

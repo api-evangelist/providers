@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Manage recurring study schedules
   name: Viewpoints AI Study Schedules API
   slug: viewpoints-ai-study-schedules-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Viewpoints Study Studies API
+  slug: open-viewpoints-ai-studies-api
+- collection_type: open
+  name: Viewpoints Study Studies Study File Uploads API
+  slug: open-viewpoints-ai-study-file-uploads-api
+- collection_type: open
+  name: Viewpoints Study Studies Study Schedules API
+  slug: open-viewpoints-ai-study-schedules-api
 common:
 - group: start
   title: ''
@@ -145,7 +158,7 @@ overview: 'Viewpoints AI publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Viewpoints AI''s developer surface includes documentation, API reference, authentication, and 17 more developer resources.'
-random_paper: 39
+random_paper: 18
 score:
   band: thin
   composite: 40.2
@@ -169,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

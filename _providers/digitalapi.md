@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: DigitalAPI is an API catalog, marketplace, and management platform that unifies APIs across multiple gateways into a single searchable catalog with governance, discovery, access control, and analytics
@@ -76,7 +76,7 @@ plans:
 - name: Digitalapi Plans Pricing
   plan_count: 3
   slug: digitalapi-plans-pricing
-random_paper: 88
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Digitalapi Rate Limits
@@ -94,7 +94,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 10.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digitalapi/refs/heads/main/screenshots/digitalapi-2026-06-20T180026.png
 security:

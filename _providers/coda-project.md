@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -145,7 +145,7 @@ arazzos:
 - description: Resolve key columns, upsert rows idempotently, await the mutation, and verify.
   name: Upsert and reconcile Coda table rows
   slug: coda-project-upsert-rows
-artifact_total: 76
+artifact_total: 109
 asyncapis:
 - description: ''
   name: Coda Project Webhooks
@@ -247,6 +247,105 @@ collections:
 - collection_type: postman
   name: Superhuman Docs Admin Account Workspaces API
   slug: postman-coda-project-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Superhuman Docs Admin Account API
+  slug: open-coda-project-account-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Analytics API
+  slug: open-coda-project-analytics-api
+- collection_type: open
+  name: Superhuman Docs Admin Account API Tokens API
+  slug: open-coda-project-api-tokens-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Automations API
+  slug: open-coda-project-automations-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Columns API
+  slug: open-coda-project-columns-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Controls API
+  slug: open-coda-project-controls-api
+- collection_type: open
+  name: Superhuman Docs Admin Account CustomDocDomains API
+  slug: open-coda-project-customdocdomains-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Doc Export API
+  slug: open-coda-project-doc-export-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Doc Permissions API
+  slug: open-coda-project-doc-permissions-api
+- collection_type: open
+  name: Superhuman Admin Account Docs API
+  slug: open-coda-project-docs-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Events API
+  slug: open-coda-project-events-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Folder Permissions API
+  slug: open-coda-project-folder-permissions-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Folders API
+  slug: open-coda-project-folders-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Formulas API
+  slug: open-coda-project-formulas-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Go Links API
+  slug: open-coda-project-go-links-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Groups API
+  slug: open-coda-project-groups-api
+- collection_type: open
+  name: Superhuman Docs Admin Account LegalHolds API
+  slug: open-coda-project-legalholds-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Miscellaneous API
+  slug: open-coda-project-miscellaneous-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Organization Users API
+  slug: open-coda-project-organization-users-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Organizations API
+  slug: open-coda-project-organizations-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Pack Configurations API
+  slug: open-coda-project-pack-configurations-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Pack Controls API
+  slug: open-coda-project-pack-controls-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Packs API
+  slug: open-coda-project-packs-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Pages API
+  slug: open-coda-project-pages-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Permissions API
+  slug: open-coda-project-permissions-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Preferences API
+  slug: open-coda-project-preferences-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Publishing API
+  slug: open-coda-project-publishing-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Rows API
+  slug: open-coda-project-rows-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Tables API
+  slug: open-coda-project-tables-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Webhooks API
+  slug: open-coda-project-webhooks-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Workspace Users API
+  slug: open-coda-project-workspace-users-api
+- collection_type: open
+  name: Superhuman Docs Admin Account Workspaces API
+  slug: open-coda-project-workspaces-api
 common:
 - group: other
   title: ''
@@ -431,7 +530,7 @@ overview: 'Coda Project publishes 32 APIs on the [APIs.io](https://apis.io/) net
 
 
   Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Coda Project Rate Limits
@@ -464,7 +563,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/screenshots/coda-project-2026-07-25T205859.png
 security:

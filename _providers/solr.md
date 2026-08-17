@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -62,8 +62,32 @@ apis:
 - description: Per-collection document update operations
   name: Apache Solr Update API
   slug: solr-update-api
-artifact_total: 13
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Solr REST Collections API
+  slug: open-solr-collections-api
+- collection_type: open
+  name: Apache Solr REST Collections CollectionsAdminHandler API
+  slug: open-solr-collectionsadminhandler-api
+- collection_type: open
+  name: Apache Solr REST Collections Config API
+  slug: open-solr-config-api
+- collection_type: open
+  name: Apache Solr REST Collections Cores API
+  slug: open-solr-cores-api
+- collection_type: open
+  name: Apache Solr REST Collections Schema API
+  slug: open-solr-schema-api
+- collection_type: open
+  name: Apache Solr REST Collections Shards API
+  slug: open-solr-shards-api
+- collection_type: open
+  name: Apache Solr REST Collections Update API
+  slug: open-solr-update-api
 - collection_type: open
   name: Apache Solr REST API
   slug: open-solr
@@ -120,7 +144,7 @@ overview: 'Apache Solr publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Apache Solr''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 88
+random_paper: 1
 score:
   band: emerging
   composite: 24.7
@@ -141,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/screenshots/solr-2026-06-20T194151.png
 security:

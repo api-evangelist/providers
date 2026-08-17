@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Brewery listing, retrieval, search, autocomplete, and metadata operations.
   name: Open Brewery DB Breweries API
   slug: open-brewery-db-breweries-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open Brewery DB Breweries API
+  slug: open-open-brewery-db-breweries-api
 - collection_type: open
   name: Open Brewery DB
   slug: open-open-brewery-db
@@ -137,7 +143,7 @@ plans:
 - name: Open Brewery Db Plans Pricing
   plan_count: 1
   slug: open-brewery-db-plans-pricing
-random_paper: 50
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Open Brewery Db Rate Limits
@@ -171,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-brewery-db/refs/heads/main/screenshots/open-brewery-db-2026-06-20T190730.png
 security:

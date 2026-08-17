@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: The Livestock Mandatory Price Reporting System (LMPRS) API provides programmatic access to federally mandated livestock price report data. The API requires no authentication for public access and retu
   name: USDA AMS LMPRS API (Livestock Mandatory Price Reporting)
   slug: usda-ams-lmprs-api-livestock-mandatory-price-reporting
-artifact_total: 52
+artifact_total: 55
 collections:
 - collection_type: postman
   name: USDA AMS MARS API (MyMarketNews) Offices API
@@ -59,6 +59,15 @@ collections:
 - collection_type: postman
   name: USDA AMS MARS API (MyMarketNews) Offices Reports API
   slug: postman-agricultural-marketing-service-reports-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: USDA AMS MARS API (MyMarketNews) Offices API
+  slug: open-agricultural-marketing-service-offices-api
+- collection_type: open
+  name: USDA AMS MARS API (MyMarketNews) Offices Reports API
+  slug: open-agricultural-marketing-service-reports-api
 common:
 - group: build
   title: ''
@@ -233,7 +242,7 @@ plans:
 - name: Agricultural Marketing Service Plans Pricing
   plan_count: 3
   slug: agricultural-marketing-service-plans-pricing
-random_paper: 100
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: Agricultural Marketing Service Rate Limits
@@ -281,7 +290,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/screenshots/agricultural-marketing-service-2026-06-20T170415.png
 security:

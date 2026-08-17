@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -90,7 +90,53 @@ apis:
 - description: Identity verification requests
   name: dLocal Verifications API
   slug: dlocal-verifications-api
-artifact_total: 29
+artifact_total: 44
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: dLocal Payins Accounts API
+  slug: open-dlocal-accounts-api
+- collection_type: open
+  name: dLocal Payins Accounts Balance API
+  slug: open-dlocal-balance-api
+- collection_type: open
+  name: dLocal Payins Accounts Bank Accounts API
+  slug: open-dlocal-bank-accounts-api
+- collection_type: open
+  name: dLocal Payins Accounts Chargebacks API
+  slug: open-dlocal-chargebacks-api
+- collection_type: open
+  name: dLocal Payins Accounts Currency API
+  slug: open-dlocal-currency-api
+- collection_type: open
+  name: dLocal Payins Accounts Documents API
+  slug: open-dlocal-documents-api
+- collection_type: open
+  name: dLocal Payins Accounts KYC API
+  slug: open-dlocal-kyc-api
+- collection_type: open
+  name: dLocal Payins Accounts Payment Methods API
+  slug: open-dlocal-payment-methods-api
+- collection_type: open
+  name: dLocal Payins Accounts Payments API
+  slug: open-dlocal-payments-api
+- collection_type: open
+  name: dLocal Payins Accounts Payouts API
+  slug: open-dlocal-payouts-api
+- collection_type: open
+  name: dLocal Payins Accounts Refunds API
+  slug: open-dlocal-refunds-api
+- collection_type: open
+  name: dLocal Payins Accounts Tokens API
+  slug: open-dlocal-tokens-api
+- collection_type: open
+  name: dLocal Payins Accounts Transfers API
+  slug: open-dlocal-transfers-api
+- collection_type: open
+  name: dLocal Payins Accounts Verifications API
+  slug: open-dlocal-verifications-api
 common:
 - group: agent
   title: ''
@@ -202,7 +248,7 @@ plans:
 - name: Dlocal Plans Pricing
   plan_count: 1
   slug: dlocal-plans-pricing
-random_paper: 23
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Dlocal Rate Limits
@@ -242,7 +288,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/screenshots/dlocal-2026-06-20T180058.png
 security:

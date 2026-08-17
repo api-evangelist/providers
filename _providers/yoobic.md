@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 41
 apis:
 - description: <a id="group-answers"></a> Answers are the users’ replies to the questions raised by their colleagues in the Questions menu. Other users can vote for answers they think are best, like them, and a user
@@ -154,11 +154,138 @@ apis:
 - description: '<a id="group-webhooks"></a> You can create webhooks with HTTP targets to build integrations with the services or with your back-end system. Examples: - Alert your team in Slack when a mission is creat'
   name: Yoobic Webhooks API
   slug: yoobic-webhooks-api
-artifact_total: 46
+artifact_total: 88
 asyncapis:
 - description: ''
   name: Yoobic Webhooks
   slug: yoobic-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: YOOBIC Public Answers API
+  slug: open-yoobic-answers-api
+- collection_type: open
+  name: YOOBIC Public Answers Badges API
+  slug: open-yoobic-badges-api
+- collection_type: open
+  name: YOOBIC Public Answers Bot Messages API
+  slug: open-yoobic-bot-messages-api
+- collection_type: open
+  name: YOOBIC Public Answers Bots API
+  slug: open-yoobic-bots-api
+- collection_type: open
+  name: YOOBIC Public Answers Business KPIs data - salesdata API
+  slug: open-yoobic-business-kpis-data-salesdata-api
+- collection_type: open
+  name: YOOBIC Public Answers Campaigns API
+  slug: open-yoobic-campaigns-api
+- collection_type: open
+  name: YOOBIC Public Answers Catalogs API
+  slug: open-yoobic-catalogs-api
+- collection_type: open
+  name: YOOBIC Public Answers Chats API
+  slug: open-yoobic-chats-api
+- collection_type: open
+  name: YOOBIC Public Answers Comments API
+  slug: open-yoobic-comments-api
+- collection_type: open
+  name: YOOBIC Public Answers Communities API
+  slug: open-yoobic-communities-api
+- collection_type: open
+  name: YOOBIC Public Answers Community Posts API
+  slug: open-yoobic-community-posts-api
+- collection_type: open
+  name: YOOBIC Public Answers Competencies API
+  slug: open-yoobic-competencies-api
+- collection_type: open
+  name: YOOBIC Public Answers Course Categories API
+  slug: open-yoobic-course-categories-api
+- collection_type: open
+  name: YOOBIC Public Answers Courses API
+  slug: open-yoobic-courses-api
+- collection_type: open
+  name: YOOBIC Public Answers Custom Model Instances - Datasets API
+  slug: open-yoobic-custom-model-instances-datasets-api
+- collection_type: open
+  name: YOOBIC Public Answers Events API
+  slug: open-yoobic-events-api
+- collection_type: open
+  name: YOOBIC Public Answers Files API
+  slug: open-yoobic-files-api
+- collection_type: open
+  name: YOOBIC Public Answers Geofilters API
+  slug: open-yoobic-geofilters-api
+- collection_type: open
+  name: YOOBIC Public Answers Groups API
+  slug: open-yoobic-groups-api
+- collection_type: open
+  name: YOOBIC Public Answers Incentives Kpi API
+  slug: open-yoobic-incentives-kpi-api
+- collection_type: open
+  name: YOOBIC Public Answers Inventory API
+  slug: open-yoobic-inventory-api
+- collection_type: open
+  name: YOOBIC Public Answers Jobs API
+  slug: open-yoobic-jobs-api
+- collection_type: open
+  name: YOOBIC Public Answers Lessons API
+  slug: open-yoobic-lessons-api
+- collection_type: open
+  name: YOOBIC Public Answers Mission Comments API
+  slug: open-yoobic-mission-comments-api
+- collection_type: open
+  name: YOOBIC Public Answers Missions API
+  slug: open-yoobic-missions-api
+- collection_type: open
+  name: YOOBIC Public Answers News API
+  slug: open-yoobic-news-api
+- collection_type: open
+  name: YOOBIC Public Answers Notifications API
+  slug: open-yoobic-notifications-api
+- collection_type: open
+  name: YOOBIC Public Answers Photos API
+  slug: open-yoobic-photos-api
+- collection_type: open
+  name: YOOBIC Public Answers Plans API
+  slug: open-yoobic-plans-api
+- collection_type: open
+  name: YOOBIC Public Answers Products API
+  slug: open-yoobic-products-api
+- collection_type: open
+  name: YOOBIC Public Answers Questions API
+  slug: open-yoobic-questions-api
+- collection_type: open
+  name: YOOBIC Public Answers Roles API
+  slug: open-yoobic-roles-api
+- collection_type: open
+  name: YOOBIC Public Answers Security API
+  slug: open-yoobic-security-api
+- collection_type: open
+  name: YOOBIC Public Answers Shifts API
+  slug: open-yoobic-shifts-api
+- collection_type: open
+  name: YOOBIC Public Answers Store Types API
+  slug: open-yoobic-store-types-api
+- collection_type: open
+  name: YOOBIC Public Answers Stores API
+  slug: open-yoobic-stores-api
+- collection_type: open
+  name: YOOBIC Public Answers Tenants API
+  slug: open-yoobic-tenants-api
+- collection_type: open
+  name: YOOBIC Public Answers Translations API
+  slug: open-yoobic-translations-api
+- collection_type: open
+  name: YOOBIC Public Answers Users API
+  slug: open-yoobic-users-api
+- collection_type: open
+  name: YOOBIC Public Answers Visits API
+  slug: open-yoobic-visits-api
+- collection_type: open
+  name: YOOBIC Public Answers Webhooks API
+  slug: open-yoobic-webhooks-api
 common:
 - group: agent
   title: ''
@@ -255,7 +382,7 @@ overview: 'Yoobic publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 13 more developer resources.'
-random_paper: 45
+random_paper: 49
 score:
   band: developing
   composite: 44.5
@@ -278,7 +405,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

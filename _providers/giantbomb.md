@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,7 +66,35 @@ apis:
 - description: Access to videos
   name: Giant Bomb Videos API
   slug: giantbomb-videos-api
-artifact_total: 21
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Giant Bomb Characters API
+  slug: open-giantbomb-characters-api
+- collection_type: open
+  name: Giant Bomb Characters Companies API
+  slug: open-giantbomb-companies-api
+- collection_type: open
+  name: Giant Bomb Characters Franchises API
+  slug: open-giantbomb-franchises-api
+- collection_type: open
+  name: Giant Bomb Characters Games API
+  slug: open-giantbomb-games-api
+- collection_type: open
+  name: Giant Bomb Characters Platforms API
+  slug: open-giantbomb-platforms-api
+- collection_type: open
+  name: Giant Bomb Characters Releases API
+  slug: open-giantbomb-releases-api
+- collection_type: open
+  name: Giant Bomb Characters Search API
+  slug: open-giantbomb-search-api
+- collection_type: open
+  name: Giant Bomb Characters Videos API
+  slug: open-giantbomb-videos-api
 common:
 - group: agent
   title: ''
@@ -166,7 +194,7 @@ plans:
 - name: Giantbomb Plans Pricing
   plan_count: 1
   slug: giantbomb-plans-pricing
-random_paper: 107
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Giantbomb Rate Limits
@@ -200,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

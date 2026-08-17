@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 67.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,11 @@ apis:
 - description: REST data-ingestion API for the Oto CRM platform (a CRMBonus retail solution). Thirteen POST operations load customers, orders, order items, products, stores, sellers, cashback credits, NPS responses,
   name: Oto Data API
   slug: oto-data-api
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Oto Data API
+  slug: open-crm-bonus-oto-data-api
 common:
 - group: agent
   title: ''
@@ -185,7 +189,7 @@ plans:
 - name: Crm Bonus Plans Pricing
   plan_count: 0
   slug: crm-bonus-plans-pricing
-random_paper: 78
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Crm Bonus Rate Limits
@@ -193,7 +197,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.9
-  delta: 39.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 50.7
@@ -201,10 +205,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 42.1
-  previous_composite: 8.4
+  previous_composite: 47.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/screenshots/crm-bonus-2026-07-25T210737.png
 security:
 - kind: authentication

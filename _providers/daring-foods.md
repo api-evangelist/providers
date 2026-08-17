@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,7 +80,53 @@ apis:
 - description: The `post_tag` taxonomy. Registered but empty on this site (0 terms).
   name: Daring Foods Tags API
   slug: daring-foods-tags-api
-artifact_total: 18
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Daring Foods Taxonomy Categories API
+  slug: open-daring-foods-categories-api
+- collection_type: open
+  name: Daring Foods Posts Comments API
+  slug: open-daring-foods-comments-api
+- collection_type: open
+  name: Daring Foods Discovery API
+  slug: open-daring-foods-discovery-api
+- collection_type: open
+  name: Daring Foods Products Foodservice API
+  slug: open-daring-foods-foodservice-api
+- collection_type: open
+  name: Daring Foods Media API
+  slug: open-daring-foods-media-api
+- collection_type: open
+  name: Daring Foods Discovery Metadata API
+  slug: open-daring-foods-metadata-api
+- collection_type: open
+  name: Daring Foods O Embed API
+  slug: open-daring-foods-oembed-api
+- collection_type: open
+  name: Daring Foods Pages API
+  slug: open-daring-foods-pages-api
+- collection_type: open
+  name: Daring Foods Posts API
+  slug: open-daring-foods-posts-api
+- collection_type: open
+  name: Daring Foods Retail Products API
+  slug: open-daring-foods-products-api
+- collection_type: open
+  name: Daring Foods Recipes API
+  slug: open-daring-foods-recipes-api
+- collection_type: open
+  name: Daring Foods Search API
+  slug: open-daring-foods-search-api
+- collection_type: open
+  name: Daring Foods Metadata SEO API
+  slug: open-daring-foods-seo-api
+- collection_type: open
+  name: Daring Foods Taxonomy Tags API
+  slug: open-daring-foods-tags-api
 common:
 - group: auth
   title: ''
@@ -211,7 +257,7 @@ overview: 'Daring Foods publishes 14 APIs on the [APIs.io](https://apis.io/) net
 
 
   Daring Foods'' developer surface includes support, FAQ, authentication, code examples, and 24 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: thin
   composite: 32.6
@@ -235,7 +281,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png
 security:

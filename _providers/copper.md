@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Event subscription webhooks
   name: Copper Webhooks API
   slug: copper-webhooks-api
-artifact_total: 57
+artifact_total: 65
 asyncapis:
 - description: AsyncAPI definition for the Copper CRM webhook surface. Copper webhooks are HTTP POST deliveries from Copper to a subscriber-defined `target` URL that was registered via the Copper Developer API (`POS
   name: Copper CRM Webhooks
@@ -88,8 +88,32 @@ collections:
   name: Copper Developer Activities Webhooks API
   slug: postman-copper-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Copper Developer Activities API
+  slug: open-copper-activities-api
+- collection_type: open
+  name: Copper Developer Activities Companies API
+  slug: open-copper-companies-api
+- collection_type: open
   name: Copper Developer API
   slug: open-copper-developer-api
+- collection_type: open
+  name: Copper Developer Activities Leads API
+  slug: open-copper-leads-api
+- collection_type: open
+  name: Copper Developer Activities Opportunities API
+  slug: open-copper-opportunities-api
+- collection_type: open
+  name: Copper Developer Activities People API
+  slug: open-copper-people-api
+- collection_type: open
+  name: Copper Developer Activities Tasks API
+  slug: open-copper-tasks-api
+- collection_type: open
+  name: Copper Developer Activities Webhooks API
+  slug: open-copper-webhooks-api
 common:
 - group: build
   title: ''
@@ -264,7 +288,7 @@ plans:
 - name: Copper Plans Pricing
   plan_count: 4
   slug: copper-plans-pricing
-random_paper: 49
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Copper Rate Limits
@@ -314,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/screenshots/copper-2026-06-20T175018.png
 security:

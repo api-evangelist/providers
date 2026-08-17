@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: The Users API from Zoho Sign — 1 operation(s) for users.
   name: Zoho Sign Users API
   slug: zoho-sign-users-api
-artifact_total: 18
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zoho Sign Accounts API
+  slug: open-zoho-sign-accounts-api
+- collection_type: open
+  name: Zoho Sign Accounts Requests API
+  slug: open-zoho-sign-requests-api
+- collection_type: open
+  name: Zoho Sign Accounts Templates API
+  slug: open-zoho-sign-templates-api
+- collection_type: open
+  name: Zoho Sign Accounts Users API
+  slug: open-zoho-sign-users-api
 common:
 - group: agent
   title: ''
@@ -159,7 +175,7 @@ plans:
 - name: Zoho Sign Plans Pricing
   plan_count: 5
   slug: zoho-sign-plans-pricing
-random_paper: 86
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Zoho Sign Rate Limits
@@ -198,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/screenshots/zoho-sign-2026-06-20T201947.png
 security:

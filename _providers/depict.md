@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -143,7 +143,116 @@ apis:
 - description: The Vitals API from Depict — 1 operation(s) for vitals.
   name: Depict Vitals API
   slug: depict-vitals-api
-artifact_total: 40
+artifact_total: 76
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Depict Lite Ab Test API
+  slug: open-depict-ab-test-api
+- collection_type: open
+  name: Depict Lite Ab Test Analytics API
+  slug: open-depict-analytics-api
+- collection_type: open
+  name: Depict Lite Ab Test Boost Bury API
+  slug: open-depict-boost-bury-api
+- collection_type: open
+  name: Depict Lite Ab Test Brand Features API
+  slug: open-depict-brand-features-api
+- collection_type: open
+  name: Depict Lite Ab Test Catalog Push API (v0) API
+  slug: open-depict-catalog-push-api-v0-api
+- collection_type: open
+  name: Depict Lite Ab Test Collections API
+  slug: open-depict-collections-api
+- collection_type: open
+  name: Depict Lite Ab Test Dashboard API
+  slug: open-depict-dashboard-api
+- collection_type: open
+  name: Depict Lite Ab Test Events (v2) API
+  slug: open-depict-events-v2-api
+- collection_type: open
+  name: Depict Lite Ab Test Instagram API
+  slug: open-depict-instagram-api
+- collection_type: open
+  name: Depict Lite Ab Test Listing (v2) API
+  slug: open-depict-listing-v2-api
+- collection_type: open
+  name: Depict Lite Ab Test Listing (v3) API
+  slug: open-depict-listing-v3-api
+- collection_type: open
+  name: Depict Lite Ab Test Media API
+  slug: open-depict-media-api
+- collection_type: open
+  name: Depict Lite Ab Test merchant API
+  slug: open-depict-merchant-api
+- collection_type: open
+  name: Depict Lite Ab Test merchant-create API
+  slug: open-depict-merchant-create-api
+- collection_type: open
+  name: Depict Lite Ab Test Merchants API
+  slug: open-depict-merchants-api
+- collection_type: open
+  name: Depict Lite Ab Test multi-store API
+  slug: open-depict-multi-store-api
+- collection_type: open
+  name: Depict Lite Ab Test Onboarding API
+  slug: open-depict-onboarding-api
+- collection_type: open
+  name: Depict Lite Ab Test Other (v3) API
+  slug: open-depict-other-v3-api
+- collection_type: open
+  name: Depict Lite Ab Test Product Funnel Metrics API
+  slug: open-depict-product-funnel-metrics-api
+- collection_type: open
+  name: Depict Lite Ab Test Product Images API
+  slug: open-depict-product-images-api
+- collection_type: open
+  name: Depict Lite Ab Test Product Metrics API
+  slug: open-depict-product-metrics-api
+- collection_type: open
+  name: Depict Lite Ab Test Products API
+  slug: open-depict-products-api
+- collection_type: open
+  name: Depict Lite Ab Test Published Collections API
+  slug: open-depict-published-collections-api
+- collection_type: open
+  name: Depict Lite Ab Test Recommendations (v2) API
+  slug: open-depict-recommendations-v2-api
+- collection_type: open
+  name: Depict Lite Ab Test Recommendations (v3) API
+  slug: open-depict-recommendations-v3-api
+- collection_type: open
+  name: Depict Lite Ab Test Search Metrics API
+  slug: open-depict-search-metrics-api
+- collection_type: open
+  name: Depict Lite Ab Test Search (v2) API
+  slug: open-depict-search-v2-api
+- collection_type: open
+  name: Depict Lite Ab Test Search (v3) API
+  slug: open-depict-search-v3-api
+- collection_type: open
+  name: Depict Lite Ab Test Settings API
+  slug: open-depict-settings-api
+- collection_type: open
+  name: Depict Lite Ab Test Shopify API
+  slug: open-depict-shopify-api
+- collection_type: open
+  name: Depict Lite Ab Test Shopify Collection Template API
+  slug: open-depict-shopify-collection-template-api
+- collection_type: open
+  name: Depict Lite Ab Test tracking API
+  slug: open-depict-tracking-api
+- collection_type: open
+  name: Depict Lite Ab Test translations API
+  slug: open-depict-translations-api
+- collection_type: open
+  name: Depict Lite Ab Test Users API
+  slug: open-depict-users-api
+- collection_type: open
+  name: Depict Lite Ab Test Vitals API
+  slug: open-depict-vitals-api
 common:
 - group: company
   title: ''
@@ -285,7 +394,7 @@ overview: 'Depict publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Depict''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
-random_paper: 33
+random_paper: 37
 scopes:
 - name: Depict Scopes
   scope_count: 3
@@ -314,7 +423,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/screenshots/depict-2026-07-25T211731.png
 security:

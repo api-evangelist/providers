@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -69,23 +69,44 @@ apis:
 - description: The SIM Swap API from Telefónica — 2 operation(s) for sim swap.
   name: Telefónica SIM Swap API
   slug: telefonica-sim-swap-api
-artifact_total: 47
+artifact_total: 54
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telefónica Status Device Roaming API
+  slug: open-telefonica-device-roaming-api
 - collection_type: open
   name: Telefónica Device Roaming Status API
   slug: open-telefonica-device-roaming
 - collection_type: open
+  name: Telefónica Status Device Roaming KYC Match API
+  slug: open-telefonica-kyc-match-api
+- collection_type: open
   name: Telefónica Know Your Customer Match API
   slug: open-telefonica-kyc-match
+- collection_type: open
+  name: Telefónica Status Device Roaming Location Verification API
+  slug: open-telefonica-location-verification-api
 - collection_type: open
   name: Telefónica Location Verification API
   slug: open-telefonica-location-verification
 - collection_type: open
+  name: Telefónica Status Device Roaming Number Verification API
+  slug: open-telefonica-number-verification-api
+- collection_type: open
   name: Telefónica Number Verification API
   slug: open-telefonica-number-verification
 - collection_type: open
+  name: Telefónica Status Device Roaming QoD Sessions API
+  slug: open-telefonica-qod-sessions-api
+- collection_type: open
   name: Telefónica Quality on Demand API
   slug: open-telefonica-quality-on-demand
+- collection_type: open
+  name: Telefónica Status Device Roaming SIM Swap API
+  slug: open-telefonica-sim-swap-api
 - collection_type: open
   name: Telefónica SIM Swap API
   slug: open-telefonica-sim-swap
@@ -243,7 +264,7 @@ plans:
 - name: Telefonica Plans Pricing
   plan_count: 2
   slug: telefonica-plans-pricing
-random_paper: 90
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Telefonica Rate Limits
@@ -291,7 +312,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/screenshots/telefonica-2026-06-20T195129.png
 security:

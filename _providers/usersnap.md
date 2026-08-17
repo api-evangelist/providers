@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Submit feedback
   name: Usersnap submit API
   slug: usersnap-submit-api
-artifact_total: 16
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Usersnap Webhooks
@@ -69,6 +69,21 @@ collections:
 - collection_type: postman
   name: Usersnap feedback submit API
   slug: postman-usersnap-submit-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Usersnap feedback API
+  slug: open-usersnap-feedback-api
+- collection_type: open
+  name: Usersnap feedback pre_submit API
+  slug: open-usersnap-pre-submit-api
+- collection_type: open
+  name: Usersnap feedback project API
+  slug: open-usersnap-project-api
+- collection_type: open
+  name: Usersnap feedback submit API
+  slug: open-usersnap-submit-api
 common:
 - group: other
   title: ''
@@ -245,7 +260,7 @@ overview: 'Usersnap publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Usersnap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 41
+random_paper: 136
 scopes:
 - name: Usersnap Scopes
   scope_count: 2
@@ -274,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

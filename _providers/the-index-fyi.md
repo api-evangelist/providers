@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Approved indie web and small web index sites.
   name: The Index Indexes API
   slug: the-index-fyi-indexes-api
-artifact_total: 7
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: theindex.fyi Indexes API
+  slug: open-the-index-fyi-indexes-api
 - collection_type: open
   name: theindex.fyi
   slug: open-the-index-fyi
@@ -103,7 +109,7 @@ plans:
 - name: The Index Fyi Plans Pricing
   plan_count: 1
   slug: the-index-fyi-plans-pricing
-random_paper: 75
+random_paper: 83
 rate_limits:
 - limit_count: 2
   name: The Index Fyi Rate Limits
@@ -134,7 +140,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/screenshots/the-index-fyi-2026-06-20T195220.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -87,8 +87,50 @@ apis:
 - description: The Webhooks API from Lumos — 1 operation(s) for webhooks.
   name: Lumos Webhooks API
   slug: lumos-webhooks-api
-artifact_total: 23
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lumos REST AccessPolicies API
+  slug: open-lumos-accesspolicies-api
+- collection_type: open
+  name: Lumos REST AccessPolicies AccessRequests API
+  slug: open-lumos-accessrequests-api
+- collection_type: open
+  name: Lumos REST AccessPolicies Accounts API
+  slug: open-lumos-accounts-api
+- collection_type: open
+  name: Lumos REST AccessPolicies Activity API
+  slug: open-lumos-activity-api
+- collection_type: open
+  name: Lumos REST AccessPolicies Apps API
+  slug: open-lumos-apps-api
+- collection_type: open
+  name: Lumos REST AccessPolicies AppStore API
+  slug: open-lumos-appstore-api
+- collection_type: open
+  name: Lumos REST AccessPolicies Groups API
+  slug: open-lumos-groups-api
+- collection_type: open
+  name: Lumos REST AccessPolicies PreApprovalRules API
+  slug: open-lumos-preapprovalrules-api
+- collection_type: open
+  name: Lumos REST AccessPolicies Tasks API
+  slug: open-lumos-tasks-api
+- collection_type: open
+  name: Lumos REST AccessPolicies Users API
+  slug: open-lumos-users-api
+- collection_type: open
+  name: Lumos REST AccessPolicies Utility API
+  slug: open-lumos-utility-api
+- collection_type: open
+  name: Lumos REST AccessPolicies Vendors API
+  slug: open-lumos-vendors-api
+- collection_type: open
+  name: Lumos REST AccessPolicies Webhooks API
+  slug: open-lumos-webhooks-api
 - collection_type: open
   name: Lumos REST API
   slug: open-lumos
@@ -173,7 +215,7 @@ plans:
 - name: Lumos Plans Pricing
   plan_count: 3
   slug: lumos-plans-pricing
-random_paper: 80
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Lumos Rate Limits
@@ -198,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/screenshots/lumos-2026-06-20T184756.png
 security:

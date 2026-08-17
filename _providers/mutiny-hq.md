@@ -18,19 +18,23 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 4
+  score: 30.6
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: Mutiny's hosted Model Context Protocol server and its only public programmatic entry point. It exposes the workspace's asset creation, template, content library and publishing capabilities to any MCP-
+  name: Mutiny MCP Server
+  slug: mutiny-mcp-server
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -95,7 +99,7 @@ common:
 - group: auth
   title: ''
   type: Compliance
-  url: https://www.mutinyhq.com/dpa
+  url: https://help.mutinyhq.com/articles/4986991401-mutiny-compliance-overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,6 +108,50 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/mutiny-hq-llms.txt
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.mutinyhq.com/articles/7238243181-mutiny-mcp-tools-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.mutinyhq.com/articles/8733886310-getting-started-with-mutiny-in-your-ai-assistant
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mutiny-hq-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/mutiny-hq-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mutiny-hq-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/mutiny-hq-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mutiny-hq-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mutiny-hq-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mutiny-hq-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/mutiny-hq-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/mutiny-hq-rate-limits.yml
 created: '2026-07-17'
 description: Mutiny is a GTM (go-to-market) assistant built for customer-facing work — a vertical AI platform for B2B revenue teams (used by Snowflake, Uber, Rippling, GitLab, and Figma). It generates on-brand customer-facing assets such as deal rooms, pitch decks, business cases, ABM campaigns, comparison pages, and meeting recaps, and automates repetitive sales and marketing workflows through an agent, skill, and routine framework. Mutiny integrates with common CRM and GTM systems (Salesforce, HubSpot, Marketo, 6sense, Segment) and exposes a hosted Model Context Protocol (MCP) server so agents like Claude and ChatGPT can create, browse, and publish assets in conversation. Mutiny is backed by Insight Partners. It does not publish a general-purpose REST API; its programmatic entry point is the OAuth-protected MCP server.
 image: https://framerusercontent.com/assets/Ec1hAhKLtluxlMfLydNP0NTrIA.png
@@ -112,29 +160,40 @@ mcp_servers:
 - description: ''
   name: mutiny-hq-mcp.yml
   slug: mutiny-hq-mcpyml
-modified: '2026-07-20'
+- description: ''
+  name: mcp
+  slug: mcp
+modified: '2026-08-13'
 name: Mutiny HQ
 nav: Providers
 network: true
-overview: 'Mutiny HQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GTM, Sales Enablement, Marketing, and Website Personalization.
+overview: 'Mutiny HQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GTM, Sales Enablement, Marketing, and Website Personalization.
 
 
-  Mutiny HQ''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 100
+  Mutiny HQ''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, API reference, getting-started guide, and 22 more developer resources.'
+plans:
+- name: Mutiny Hq Plans Pricing
+  plan_count: 3
+  slug: mutiny-hq-plans-pricing
+random_paper: 46
+rate_limits:
+- limit_count: 0
+  name: Mutiny Hq Rate Limits
+  slug: mutiny-hq-rate-limits
 scopes:
 - name: Mutiny Hq Scopes
   scope_count: 5
   slug: mutiny-hq-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 26.5
-  delta: 0.0
+  band: thin
+  composite: 39.5
+  delta: 13.0
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 34.8
-    discoverability: 68.5
+    developer_ergonomics: 58.7
+    discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 26.5
@@ -142,8 +201,8 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny-hq/refs/heads/main/screenshots/mutiny-hq-2026-08-07T184453.png
 security:
 - kind: authentication

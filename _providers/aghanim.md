@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 110
   human_in_the_loop: 1
@@ -119,11 +119,96 @@ apis:
 - description: The Webhooks API from Aghanim — 4 operation(s) for webhooks.
   name: Aghanim Webhooks API
   slug: aghanim-webhooks-api
-artifact_total: 32
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Aghanim Webhooks
   slug: aghanim-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements API
+  slug: open-aghanim-achievements-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Coupons API
+  slug: open-aghanim-coupons-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Creators API
+  slug: open-aghanim-creators-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Daily Rewards API
+  slug: open-aghanim-daily-rewards-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements GDPR Requests API
+  slug: open-aghanim-gdpr-requests-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Item Categories API
+  slug: open-aghanim-item-categories-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Items API
+  slug: open-aghanim-items-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Leaderboards API
+  slug: open-aghanim-leaderboards-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements LiveOps API
+  slug: open-aghanim-liveops-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Locales API
+  slug: open-aghanim-locales-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Loyalty Program API
+  slug: open-aghanim-loyalty-program-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements News API
+  slug: open-aghanim-news-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Orders API
+  slug: open-aghanim-orders-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Pages API
+  slug: open-aghanim-pages-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Payments API
+  slug: open-aghanim-payments-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Players API
+  slug: open-aghanim-players-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Players' Marketing Consents API
+  slug: open-aghanim-players-marketing-consents-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Players' Subscriptions API
+  slug: open-aghanim-players-subscriptions-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Price Points API
+  slug: open-aghanim-price-points-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Price Templates API
+  slug: open-aghanim-price-templates-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Segmentation API
+  slug: open-aghanim-segmentation-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Store Promotions API
+  slug: open-aghanim-store-promotions-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Stores API
+  slug: open-aghanim-stores-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Translation Glossaries API
+  slug: open-aghanim-translation-glossaries-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Users API
+  slug: open-aghanim-users-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Videos API
+  slug: open-aghanim-videos-api
+- collection_type: open
+  name: Aghanim Server-to-Server Achievements Webhooks API
+  slug: open-aghanim-webhooks-api
 common:
 - group: other
   title: ''
@@ -248,7 +333,7 @@ overview: 'Aghanim publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Aghanim''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 5
+random_paper: 129
 score:
   band: developing
   composite: 49.0
@@ -278,7 +363,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/screenshots/aghanim-2026-07-25T195259.png
 security:

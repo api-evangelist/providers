@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 3
@@ -54,8 +54,26 @@ apis:
 - description: Outbound integrations that forward incidents to third-party platforms.
   name: All Quiet Webhooks API
   slug: allquiet-webhooks-api
-artifact_total: 13
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: All Quiet Public Inbound Integrations API
+  slug: open-allquiet-inbound-integrations-api
+- collection_type: open
+  name: All Quiet Public Inbound Integrations Incidents API
+  slug: open-allquiet-incidents-api
+- collection_type: open
+  name: All Quiet Public Inbound Integrations On-Call Schedules API
+  slug: open-allquiet-on-call-schedules-api
+- collection_type: open
+  name: All Quiet Public Inbound Integrations Teams API
+  slug: open-allquiet-teams-api
+- collection_type: open
+  name: All Quiet Public Inbound Integrations Webhooks API
+  slug: open-allquiet-webhooks-api
 - collection_type: open
   name: All Quiet Public API
   slug: open-allquiet
@@ -128,7 +146,7 @@ plans:
 - name: Allquiet Plans Pricing
   plan_count: 4
   slug: allquiet-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 1
   name: Allquiet Rate Limits
@@ -153,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/screenshots/allquiet-2026-07-25T195712.png
 security:

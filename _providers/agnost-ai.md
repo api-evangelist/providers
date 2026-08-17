@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: Alert configuration and monitoring
@@ -73,7 +73,53 @@ apis:
 - description: Health checks, webhooks, internal endpoints
   name: Agnost AI System API
   slug: agnost-ai-system-api
-artifact_total: 20
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agnost AI Alerts API
+  slug: open-agnost-ai-alerts-api
+- collection_type: open
+  name: Agnost AI Alerts API Keys API
+  slug: open-agnost-ai-api-keys-api
+- collection_type: open
+  name: Agnost AI Alerts Auth API
+  slug: open-agnost-ai-auth-api
+- collection_type: open
+  name: Agnost AI Alerts Billing API
+  slug: open-agnost-ai-billing-api
+- collection_type: open
+  name: Agnost AI Alerts Classification API
+  slug: open-agnost-ai-classification-api
+- collection_type: open
+  name: Agnost AI Alerts Connections API
+  slug: open-agnost-ai-connections-api
+- collection_type: open
+  name: Agnost AI Alerts Conversations API
+  slug: open-agnost-ai-conversations-api
+- collection_type: open
+  name: Agnost AI Alerts Dashboard API
+  slug: open-agnost-ai-dashboard-api
+- collection_type: open
+  name: Agnost AI Alerts Onboarding API
+  slug: open-agnost-ai-onboarding-api
+- collection_type: open
+  name: Agnost AI Alerts Organizations API
+  slug: open-agnost-ai-organizations-api
+- collection_type: open
+  name: Agnost AI Alerts SDK API
+  slug: open-agnost-ai-sdk-api
+- collection_type: open
+  name: Agnost AI Alerts Sentiments API
+  slug: open-agnost-ai-sentiments-api
+- collection_type: open
+  name: Agnost AI Alerts SOPs API
+  slug: open-agnost-ai-sops-api
+- collection_type: open
+  name: Agnost AI Alerts System API
+  slug: open-agnost-ai-system-api
 common:
 - group: other
   title: ''
@@ -222,7 +268,7 @@ overview: 'Agnost AI publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Agnost AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 59
+random_paper: 5
 scopes:
 - name: Agnost Ai Scopes
   scope_count: 1
@@ -250,7 +296,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/screenshots/agnost-ai-2026-07-25T195316.png
 security:

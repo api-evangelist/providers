@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -72,14 +72,41 @@ apis:
 - description: Deploy new revisions, track build progress, cancel builds, and delete revisions. Revisions are immutable snapshots of deployed code.
   name: Deno Revisions API
   slug: deno-revisions-api
-artifact_total: 26
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Deno Deploy REST Apps API
+  slug: open-deno-apps-api
 - collection_type: open
   name: Deno Deploy REST API
   slug: open-deno-deploy-rest-api
 - collection_type: open
   name: Deno Deploy API v2
   slug: open-deno-deploy-v2-api
+- collection_type: open
+  name: Deno Deploy REST Apps Deployments API
+  slug: open-deno-deployments-api
+- collection_type: open
+  name: Deno Deploy REST Apps Domains API
+  slug: open-deno-domains-api
+- collection_type: open
+  name: Deno Deploy REST Apps KV Databases API
+  slug: open-deno-kv-databases-api
+- collection_type: open
+  name: Deno Deploy REST Apps Logs API
+  slug: open-deno-logs-api
+- collection_type: open
+  name: Deno Deploy REST Apps Organizations API
+  slug: open-deno-organizations-api
+- collection_type: open
+  name: Deno Deploy REST Apps Projects API
+  slug: open-deno-projects-api
+- collection_type: open
+  name: Deno Deploy REST Apps Revisions API
+  slug: open-deno-revisions-api
 - collection_type: open
   name: Deno Subhosting API
   slug: open-deno-subhosting-api
@@ -187,7 +214,7 @@ plans:
 - name: Deno Plans Pricing
   plan_count: 4
   slug: deno-plans-pricing
-random_paper: 62
+random_paper: 124
 rate_limits:
 - limit_count: 8
   name: Deno Rate Limits
@@ -229,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/screenshots/deno-2026-06-20T175911.png
 security:

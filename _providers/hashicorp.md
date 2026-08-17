@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 17
@@ -65,8 +65,23 @@ apis:
 - description: The System API from HashiCorp — 107 operation(s) for system.
   name: HashiCorp System API
   slug: hashicorp-system-api
-artifact_total: 16
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HashiCorp Vault Auth API
+  slug: open-hashicorp-auth-api
+- collection_type: open
+  name: HashiCorp Vault Auth Identity API
+  slug: open-hashicorp-identity-api
+- collection_type: open
+  name: HashiCorp Vault Auth Secrets API
+  slug: open-hashicorp-secrets-api
+- collection_type: open
+  name: HashiCorp Vault Auth System API
+  slug: open-hashicorp-system-api
 - collection_type: open
   name: HashiCorp Vault API
   slug: open-hashicorp-vault
@@ -143,7 +158,7 @@ plans:
 - name: Hashicorp Plans Pricing
   plan_count: 6
   slug: hashicorp-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Hashicorp Rate Limits
@@ -168,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/screenshots/hashicorp-2026-06-20T182530.png
 security:

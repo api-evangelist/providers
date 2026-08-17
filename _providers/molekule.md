@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Agent-driven commerce surface for the Molekule storefront implementing the Universal Commerce Protocol over MCP. Agents discover capabilities at /.well-known/ucp, then search the catalog, build a cart
@@ -100,7 +100,7 @@ overview: 'Molekule publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Molekule''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 22
+random_paper: 117
 scopes:
 - name: Molekule Scopes
   scope_count: 4
@@ -123,7 +123,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/molekule/refs/heads/main/screenshots/molekule-2026-08-07T184120.png
 security:

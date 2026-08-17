@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Manage Quay user accounts, profile, starred repositories, and personal OAuth tokens.
   name: Quay User API
   slug: quay-user-api
-artifact_total: 24
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quay Container Registry Build API
+  slug: open-quay-build-api
+- collection_type: open
+  name: Quay Container Registry Build Manifest API
+  slug: open-quay-manifest-api
+- collection_type: open
+  name: Quay Container Registry Build Organization API
+  slug: open-quay-organization-api
+- collection_type: open
+  name: Quay Container Registry Build Permission API
+  slug: open-quay-permission-api
+- collection_type: open
+  name: Quay Container Registry Build Repository API
+  slug: open-quay-repository-api
+- collection_type: open
+  name: Quay Container Registry Build Robot API
+  slug: open-quay-robot-api
+- collection_type: open
+  name: Quay Container Registry Build Security API
+  slug: open-quay-security-api
+- collection_type: open
+  name: Quay Container Registry Build Tag API
+  slug: open-quay-tag-api
+- collection_type: open
+  name: Quay Container Registry Build Team API
+  slug: open-quay-team-api
+- collection_type: open
+  name: Quay Container Registry Build User API
+  slug: open-quay-user-api
 - collection_type: open
   name: Quay Container Registry API
   slug: open-quay
@@ -169,7 +202,7 @@ plans:
 - name: Quay Plans Pricing
   plan_count: 3
   slug: quay-plans-pricing
-random_paper: 88
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Quay Rate Limits
@@ -208,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/screenshots/quay-2026-06-20T192420.png
 security:

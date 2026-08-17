@@ -22,19 +22,39 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 3.2
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: Vymo's enterprise platform API, used by banks, insurers and asset managers to push leads into Vymo, sync users and hierarchies, read activity and engagement records, and connect Vymo to CRM and core s
+  name: Vymo Platform API
+  slug: vymo-platform-api
+artifact_total: 4
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/vymo-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/vymo-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/vymo-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/vymo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/vymo-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -43,14 +63,18 @@ common:
   title: ''
   type: Blog
   url: https://vymo.com/blog/
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://vymo.com/pricing/
 - group: operate
   title: ''
   type: Support
   url: https://vymo.com/resources/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://getvymo.com/help-and-support
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Vymo-Inc
 - group: commercial
   title: ''
   type: TermsOfService
@@ -59,30 +83,53 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://vymo.com/privacy/
+coverage:
+  checked: '2026-08-13'
+  detail: Vymo's API reference is hosted on a private Read the Docs Business site at docs.getvymo.com, which serves anonymous requests a "Log in to view this documentation" page and 302s them to app.readthedocs.com/accounts/login/, while the API host app.lms.getvymo.com returns {"authentication_error":"unauthorized"} on every path.
+  evidence:
+  - status: 200
+    url: https://docs.getvymo.com/en/latest/
+  - status: 200
+    url: https://app.lms.getvymo.com/openapi.json
+  - status: 404
+    url: https://getvymo.com/developers
+  - note: soft-404 HTML shell, not a document
+    status: 200
+    url: https://www.vymo.com/llms.txt
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
 description: Vymo is a sales-engagement and distribution-management platform for financial institutions — banks, insurers, and asset managers — helping field sales and collections teams manage leads, allocate and prioritize activities, and capture engagement in a mobile-first app. It layers AI-driven nudges, activity capture, and analytics on top of CRM and core systems, and integrates with existing enterprise ecosystems. Vymo does not publish a self-serve public developer API or documentation portal; its integrations are delivered through enterprise/partner connections. Backed by Emergence Capital and headquartered in Sunnyvale, California.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vymo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Vymo
 nav: Providers
 network: true
-overview: 'Vymo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Tech, Sales Engagement, Financial Services, and Insurance.
+overview: 'Vymo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Tech, Sales Engagement, Financial Services, and Insurance.
 
 
-  Vymo''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 99
+  Vymo''s developer surface includes engineering blog, support, and 10 more developer resources.'
+plans:
+- name: Vymo Plans Pricing
+  plan_count: 0
+  slug: vymo-plans-pricing
+random_paper: 12
+rate_limits:
+- limit_count: 0
+  name: Vymo Rate Limits
+  slug: vymo-rate-limits
 score:
   band: emerging
-  composite: 13.9
-  delta: 0.0
+  composite: 15.9
+  delta: 2.0
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 87.0
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 13.9
   regulatory:
     applies: true
@@ -91,7 +138,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Git command-line interface for version control operations.
@@ -105,7 +105,7 @@ plans:
 - name: Git Plans Pricing
   plan_count: 3
   slug: git-plans-pricing
-random_paper: 84
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Git Rate Limits
@@ -126,7 +126,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/screenshots/git-2026-06-20T181828.png
 security:

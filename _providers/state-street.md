@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,14 +72,41 @@ apis:
 - description: Transaction history and settlement operations
   name: State Street Transactions API
   slug: state-street-transactions-api
-artifact_total: 41
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: State Street Alpha Data Platform API
   slug: open-state-street-alpha-data-platform
 - collection_type: open
+  name: State Street Alpha Data Platform Baskets API
+  slug: open-state-street-baskets-api
+- collection_type: open
   name: State Street Fund Connect API
   slug: open-state-street-fund-connect
+- collection_type: open
+  name: State Street Alpha Data Platform Baskets Funds API
+  slug: open-state-street-funds-api
+- collection_type: open
+  name: State Street Alpha Data Platform Baskets Orders API
+  slug: open-state-street-orders-api
+- collection_type: open
+  name: State Street Alpha Data Platform Baskets Performance API
+  slug: open-state-street-performance-api
+- collection_type: open
+  name: State Street Alpha Data Platform Baskets Portfolios API
+  slug: open-state-street-portfolios-api
+- collection_type: open
+  name: State Street Alpha Data Platform Baskets Positions API
+  slug: open-state-street-positions-api
+- collection_type: open
+  name: State Street Alpha Data Platform Baskets Risk API
+  slug: open-state-street-risk-api
+- collection_type: open
+  name: State Street Alpha Data Platform Baskets Transactions API
+  slug: open-state-street-transactions-api
 common:
 - group: company
   title: ''
@@ -290,7 +317,7 @@ press:
 - date: '2026-05-25'
   title: State Street (STT) Q1 2026 Earnings Call Transcript
   url: https://fortune.com/company/state-street-corp/earnings/q1-2026/
-random_paper: 53
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: State Street Rate Limits
@@ -337,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/screenshots/state-street-2026-06-20T194521.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: AI Colleague run metrics.
@@ -47,7 +47,26 @@ apis:
 - description: Stage attachments and sync articles into the Leena Knowledge Base.
   name: Leena AI Knowledge Articles API
   slug: leena-ai-knowledge-articles-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Leena AI External AOP Analytics API
+  slug: open-leena-ai-analytics-api
+- collection_type: open
+  name: Leena AI External Analytics AOP API
+  slug: open-leena-ai-aop-api
+- collection_type: open
+  name: Leena AI External AOP Analytics Audit Logs API
+  slug: open-leena-ai-audit-logs-api
+- collection_type: open
+  name: Leena AI External AOP Analytics Authentication API
+  slug: open-leena-ai-authentication-api
+- collection_type: open
+  name: Leena AI External AOP Analytics Knowledge Articles API
+  slug: open-leena-ai-knowledge-articles-api
 common:
 - group: other
   title: ''
@@ -198,7 +217,7 @@ overview: 'Leena AI publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Leena AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, changelog, authentication, and 26 more developer resources.'
-random_paper: 44
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Leena Ai Rate Limits
@@ -230,7 +249,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/screenshots/leena-ai-2026-07-25T224821.png
 security:

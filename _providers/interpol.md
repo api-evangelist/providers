@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: The Notices API from Interpol — 9 operation(s) for notices.
   name: Interpol Notices API
   slug: interpol-notices-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Interpol Notices API
+  slug: open-interpol-notices-api
 - collection_type: open
   name: Interpol Notices API
   slug: open-interpol
@@ -87,7 +93,7 @@ plans:
 - name: Interpol Plans Pricing
   plan_count: 3
   slug: interpol-plans-pricing
-random_paper: 37
+random_paper: 132
 rate_limits:
 - limit_count: 5
   name: Interpol Rate Limits
@@ -127,7 +133,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/screenshots/interpol-2026-06-20T183505.png
 security:

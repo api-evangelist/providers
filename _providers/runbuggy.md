@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: An OAuth-protected Model Context Protocol server RunBuggy operates on its application host. Discovered by probe — it is not referenced from the public developer documentation. tools/list returns 401 i
@@ -39,11 +39,30 @@ apis:
 - description: Webhook operations.
   name: RunBuggy Webhooks API
   slug: runbuggy-webhooks-api
-artifact_total: 13
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Runbuggy Webhooks
   slug: runbuggy-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Companies API
+  slug: open-runbuggy-companies-api
+- collection_type: open
+  name: Orders API
+  slug: open-runbuggy-orders-api
+- collection_type: open
+  name: Authentication Token API
+  slug: open-runbuggy-token-api
+- collection_type: open
+  name: Orders Vehicle Transfer Orders API
+  slug: open-runbuggy-vehicle-transfer-orders-api
+- collection_type: open
+  name: Orders Webhooks API
+  slug: open-runbuggy-webhooks-api
 common:
 - group: other
   title: ''
@@ -192,7 +211,7 @@ overview: 'RunBuggy publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   RunBuggy''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 43
+random_paper: 138
 scopes:
 - name: Runbuggy Scopes
   scope_count: 0
@@ -220,7 +239,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

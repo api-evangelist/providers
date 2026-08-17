@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: The Tasks API from Flowable — 2 operation(s) for tasks.
   name: Flowable Tasks API
   slug: flowable-api-tasks-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flowable REST CMMN API
+  slug: open-flowable-api-cmmn-api
+- collection_type: open
+  name: Flowable REST CMMN Deployments API
+  slug: open-flowable-api-deployments-api
+- collection_type: open
+  name: Flowable REST CMMN Models API
+  slug: open-flowable-api-models-api
+- collection_type: open
+  name: Flowable REST CMMN ProcessDefinitions API
+  slug: open-flowable-api-processdefinitions-api
+- collection_type: open
+  name: Flowable REST CMMN ProcessInstances API
+  slug: open-flowable-api-processinstances-api
+- collection_type: open
+  name: Flowable REST CMMN Tasks API
+  slug: open-flowable-api-tasks-api
 - collection_type: open
   name: Flowable REST API
   slug: open-flowable-api
@@ -133,7 +154,7 @@ plans:
 - name: Flowable Api Plans Pricing
   plan_count: 3
   slug: flowable-api-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Flowable Api Rate Limits
@@ -158,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowable-api/refs/heads/main/screenshots/flowable-api-2026-06-20T181328.png
 security:

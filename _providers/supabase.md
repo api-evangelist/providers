@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -103,27 +103,90 @@ apis:
 - description: Endpoints for managing the currently authenticated user profile.
   name: Supabase User Management API
   slug: supabase-user-management-api
-artifact_total: 64
+artifact_total: 85
 asyncapis:
 - description: 'The Supabase Realtime API enables real-time communication over WebSocket connections using the Phoenix Channel protocol (v2). It supports three main features: Postgres Changes for subscribing to INSER'
   name: Supabase Realtime API
   slug: supabase-realtime-api-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Supabase Auth Admin API
+  slug: open-supabase-admin-api
+- collection_type: open
   name: Supabase Auth API
   slug: open-supabase-auth-api
+- collection_type: open
+  name: Supabase Auth Admin Authentication API
+  slug: open-supabase-authentication-api
+- collection_type: open
+  name: Supabase Auth Admin Buckets API
+  slug: open-supabase-buckets-api
+- collection_type: open
+  name: Supabase Auth Admin Configuration API
+  slug: open-supabase-configuration-api
+- collection_type: open
+  name: Supabase Auth Admin Database API
+  slug: open-supabase-database-api
 - collection_type: open
   name: Supabase Database REST API
   slug: open-supabase-database-rest-api
 - collection_type: open
+  name: Supabase Auth Admin Domains API
+  slug: open-supabase-domains-api
+- collection_type: open
   name: Supabase Edge Functions API
   slug: open-supabase-edge-functions-api
+- collection_type: open
+  name: Supabase Auth Admin Functions API
+  slug: open-supabase-functions-api
+- collection_type: open
+  name: Supabase Auth Admin Invocation API
+  slug: open-supabase-invocation-api
 - collection_type: open
   name: Supabase Management API
   slug: open-supabase-management-api
 - collection_type: open
+  name: Supabase Auth Admin MFA API
+  slug: open-supabase-mfa-api
+- collection_type: open
+  name: Supabase Auth Admin Network API
+  slug: open-supabase-network-api
+- collection_type: open
+  name: Supabase Auth Admin OAuth API
+  slug: open-supabase-oauth-api
+- collection_type: open
+  name: Supabase Auth Admin Objects API
+  slug: open-supabase-objects-api
+- collection_type: open
+  name: Supabase Auth Admin Organizations API
+  slug: open-supabase-organizations-api
+- collection_type: open
+  name: Supabase Auth Admin Projects API
+  slug: open-supabase-projects-api
+- collection_type: open
+  name: Supabase Auth Admin Rendering API
+  slug: open-supabase-rendering-api
+- collection_type: open
+  name: Supabase Auth Admin RPC API
+  slug: open-supabase-rpc-api
+- collection_type: open
+  name: Supabase Auth Admin Secrets API
+  slug: open-supabase-secrets-api
+- collection_type: open
+  name: Supabase Auth Admin SSO API
+  slug: open-supabase-sso-api
+- collection_type: open
   name: Supabase Storage API
   slug: open-supabase-storage-api
+- collection_type: open
+  name: Supabase Auth Admin Tables API
+  slug: open-supabase-tables-api
+- collection_type: open
+  name: Supabase Auth Admin User Management API
+  slug: open-supabase-user-management-api
 common:
 - group: agent
   title: ''
@@ -260,7 +323,7 @@ plans:
 - name: Supabase Plans Pricing
   plan_count: 4
   slug: supabase-plans-pricing
-random_paper: 12
+random_paper: 107
 rate_limits:
 - limit_count: 8
   name: Supabase Rate Limits
@@ -310,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/screenshots/supabase-2026-06-20T194707.png
 security:

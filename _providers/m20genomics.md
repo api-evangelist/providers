@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'M20 Genomics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   M20 Genomics'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 100
+random_paper: 17
 score:
   band: minimal
   composite: 5.7
@@ -75,7 +75,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/m20genomics/refs/heads/main/screenshots/m20genomics-2026-07-25T225812.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -122,7 +122,7 @@ overview: 'CrowdStreet is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CrowdStreet''s developer surface includes signup flow, support, FAQ, engineering blog, legal docs, and 17 more developer resources.'
-random_paper: 6
+random_paper: 14
 score:
   band: emerging
   composite: 17.6
@@ -138,7 +138,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowdstreet/refs/heads/main/screenshots/crowdstreet-2026-08-07T163928.png
 security:

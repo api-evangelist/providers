@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: The Toxicological Profiles API from Agency for Toxic Substances and Disease Registry — 1 operation(s) for toxicological profiles.
   name: Agency for Toxic Substances and Disease Registry Toxicological Profiles API
   slug: agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api
-artifact_total: 25
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ATSDR Toxic Substance Profiles Exposure Investigations API
+  slug: open-agency-for-toxic-substances-and-disease-registry-exposure-investigations-api
+- collection_type: open
+  name: ATSDR Toxic Substance Profiles Exposure Investigations Minimum Risk Levels API
+  slug: open-agency-for-toxic-substances-and-disease-registry-minimum-risk-levels-api
+- collection_type: open
+  name: ATSDR Toxic Substance Profiles Exposure Investigations Substance Priority List API
+  slug: open-agency-for-toxic-substances-and-disease-registry-substance-priority-list-api
+- collection_type: open
+  name: ATSDR Toxic Substance Profiles Exposure Investigations Toxicological Profiles API
+  slug: open-agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api
 - collection_type: open
   name: ATSDR Toxic Substance Profiles API
   slug: open-atsdr-toxic-substance-profiles
@@ -183,7 +198,7 @@ plans:
 - name: Agency For Toxic Substances And Disease Registry Plans Pricing
   plan_count: 3
   slug: agency-for-toxic-substances-and-disease-registry-plans-pricing
-random_paper: 112
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Agency For Toxic Substances And Disease Registry Rate Limits
@@ -231,7 +246,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/screenshots/agency-for-toxic-substances-and-disease-registry-2026-06-20T165830.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'Agent-facing commerce endpoint implementing the Universal Commerce Protocol (version 2026-04-08, with 2026-01-23 also supported) over MCP/JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, '
@@ -156,7 +156,7 @@ plans:
 - name: Finesse Plans Pricing
   plan_count: 0
   slug: finesse-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Finesse Rate Limits
@@ -169,6 +169,7 @@ scopes:
 score:
   band: thin
   composite: 28.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -176,8 +177,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Finesse Authentication

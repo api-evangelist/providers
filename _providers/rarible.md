@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -93,7 +93,65 @@ apis:
 - description: The User balances API from Rarible — 1 operation(s) for user balances.
   name: Rarible User balances API
   slug: rarible-user-balances-api
-artifact_total: 309
+artifact_total: 328
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenAPI definition Charts API
+  slug: open-rarible-charts-api
+- collection_type: open
+  name: OpenAPI definition Charts Collection Leader Board API
+  slug: open-rarible-collection-leader-board-api
+- collection_type: open
+  name: OpenAPI definition Charts Collection Statistics API
+  slug: open-rarible-collection-statistics-api
+- collection_type: open
+  name: OpenAPI definition Charts Currencies and rates API
+  slug: open-rarible-currencies-and-rates-api
+- collection_type: open
+  name: OpenAPI definition Charts Domain lookup API
+  slug: open-rarible-domain-lookup-api
+- collection_type: open
+  name: OpenAPI definition Charts Encode operations API
+  slug: open-rarible-encode-operations-api
+- collection_type: open
+  name: OpenAPI definition Charts Indexer blocks API
+  slug: open-rarible-indexer-blocks-api
+- collection_type: open
+  name: OpenAPI definition Charts NFT Activities API
+  slug: open-rarible-nft-activities-api
+- collection_type: open
+  name: OpenAPI definition Charts NFT Collections API
+  slug: open-rarible-nft-collections-api
+- collection_type: open
+  name: OpenAPI definition Charts NFT Data and Historical Statistics API
+  slug: open-rarible-nft-data-and-historical-statistics-api
+- collection_type: open
+  name: OpenAPI definition Charts NFT Items API
+  slug: open-rarible-nft-items-api
+- collection_type: open
+  name: OpenAPI definition Charts NFT Ownerships API
+  slug: open-rarible-nft-ownerships-api
+- collection_type: open
+  name: OpenAPI definition Charts NFT Sales API
+  slug: open-rarible-nft-sales-api
+- collection_type: open
+  name: OpenAPI definition Charts Points API
+  slug: open-rarible-points-api
+- collection_type: open
+  name: OpenAPI definition Charts Reconciliation API
+  slug: open-rarible-reconciliation-api
+- collection_type: open
+  name: OpenAPI definition Charts Search API API
+  slug: open-rarible-search-api-api
+- collection_type: open
+  name: OpenAPI definition Charts Signature operations API
+  slug: open-rarible-signature-operations-api
+- collection_type: open
+  name: OpenAPI definition Charts User balances API
+  slug: open-rarible-user-balances-api
 common:
 - group: agent
   title: ''
@@ -1071,7 +1129,7 @@ plans:
 - name: Rarible Plans Pricing
   plan_count: 2
   slug: rarible-plans-pricing
-random_paper: 17
+random_paper: 141
 rate_limits:
 - limit_count: 2
   name: Rarible Rate Limits
@@ -1111,7 +1169,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/screenshots/rarible-2026-06-20T192606.png
 security:

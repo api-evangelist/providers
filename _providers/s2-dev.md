@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -56,7 +56,29 @@ apis:
 - description: Manage streams
   name: S2 Dev streams API
   slug: s2-dev-streams-api
-artifact_total: 13
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: S2, the durable streams access-tokens API
+  slug: open-s2-dev-access-tokens-api
+- collection_type: open
+  name: S2, the durable streams access-tokens basins API
+  slug: open-s2-dev-basins-api
+- collection_type: open
+  name: S2, the durable streams access-tokens locations API
+  slug: open-s2-dev-locations-api
+- collection_type: open
+  name: S2, the durable streams access-tokens metrics API
+  slug: open-s2-dev-metrics-api
+- collection_type: open
+  name: S2, the durable streams access-tokens records API
+  slug: open-s2-dev-records-api
+- collection_type: open
+  name: S2, the durable access-tokens streams API
+  slug: open-s2-dev-streams-api
 common:
 - group: auth
   title: ''
@@ -226,7 +248,7 @@ overview: 'S2 Dev publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   S2 Dev''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: S2 Dev Rate Limits
@@ -254,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

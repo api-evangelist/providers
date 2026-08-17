@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Ophelia Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Ophelia Health''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 93
+random_paper: 72
 score:
   band: emerging
   composite: 15.6
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ophelia-health/refs/heads/main/screenshots/ophelia-health-2026-08-07T190725.png
 security:

@@ -18,13 +18,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'A two-operation OpenAPI 3.0.3 document Fetch publishes in its public GitHub organization as the specification for its engineering take-home exercise: submit a receipt for processing and retrieve the p'
   name: Fetch Receipt Processor (Reference Specification)
   slug: receipt-processor
-artifact_total: 3
+artifact_total: 4
+collections:
+- collection_type: open
+  name: Receipt Processor
+  slug: open-fetch-rewards-receipt-processor
 common:
 - group: company
   title: ''
@@ -123,7 +127,7 @@ overview: 'Fetch Rewards publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Fetch Rewards'' developer surface includes engineering blog, support, FAQ, and 18 more developer resources.'
-random_paper: 7
+random_paper: 135
 score:
   band: emerging
   composite: 27.7
@@ -144,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png
 security:

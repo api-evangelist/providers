@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,26 @@ apis:
 - description: Get visible text of pages using proxies and Chromium JS rendering
   name: WebScraping.AI Text API
   slug: webscraping-ai-text-api
-artifact_total: 12
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WebScraping.AI Account API
+  slug: open-webscraping-ai-account-api
+- collection_type: open
+  name: WebScraping. AI API
+  slug: open-webscraping-ai-ai-api
+- collection_type: open
+  name: WebScraping.AI HTML API
+  slug: open-webscraping-ai-html-api
+- collection_type: open
+  name: WebScraping.AI Selected HTML API
+  slug: open-webscraping-ai-selected-html-api
+- collection_type: open
+  name: WebScraping.AI Text API
+  slug: open-webscraping-ai-text-api
 common:
 - group: docs
   title: ''
@@ -232,7 +251,7 @@ plans:
 - name: Webscraping Ai Plans
   plan_count: 6
   slug: webscraping-ai-plans
-random_paper: 100
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Webscraping Ai Rate Limits
@@ -260,7 +279,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/screenshots/webscraping-ai-2026-06-20T201335.png
 security:

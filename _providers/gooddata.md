@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Workspaces API from GoodData — 2 operation(s) for workspaces.
   name: GoodData Workspaces API
   slug: gooddata-workspaces-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GoodData Cloud Dashboards API
+  slug: open-gooddata-dashboards-api
+- collection_type: open
+  name: GoodData Cloud Dashboards Data Sources API
+  slug: open-gooddata-data-sources-api
+- collection_type: open
+  name: GoodData Cloud Dashboards Execution API
+  slug: open-gooddata-execution-api
+- collection_type: open
+  name: GoodData Cloud Dashboards Logical Data Model API
+  slug: open-gooddata-logical-data-model-api
+- collection_type: open
+  name: GoodData Cloud Dashboards Metrics API
+  slug: open-gooddata-metrics-api
+- collection_type: open
+  name: GoodData Cloud Dashboards Permissions API
+  slug: open-gooddata-permissions-api
+- collection_type: open
+  name: GoodData Cloud Dashboards Users API
+  slug: open-gooddata-users-api
+- collection_type: open
+  name: GoodData Cloud Dashboards Visualizations API
+  slug: open-gooddata-visualizations-api
+- collection_type: open
+  name: GoodData Cloud Dashboards Workspaces API
+  slug: open-gooddata-workspaces-api
 - collection_type: open
   name: GoodData Cloud API
   slug: open-gooddata
@@ -143,7 +173,7 @@ plans:
 - name: Gooddata Plans Pricing
   plan_count: 3
   slug: gooddata-plans-pricing
-random_paper: 115
+random_paper: 90
 rate_limits:
 - limit_count: 4
   name: Gooddata Rate Limits
@@ -168,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/screenshots/gooddata-2026-07-25T220051.png
 security:

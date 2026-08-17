@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: HARMAN and Baidu DuerOS Collaborate on AI Solutions for ...
   url: https://news.harman.com/releases/harman-and-baidu-dueros-collaborate-on-ai-solutions-for-china-automotive-market
-random_paper: 99
+random_paper: 90
 score:
   band: minimal
   composite: 5.7
@@ -102,7 +102,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harman-international-industries/refs/heads/main/screenshots/harman-international-industries-2026-06-20T182520.png
 security:

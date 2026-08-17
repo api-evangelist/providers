@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ arazzos:
 - description: Find a high-priority unresolved issue in an organization, inspect it, then assign and resolve it.
   name: Sentry Triage and Resolve an Issue
   slug: sentry-system-triage-resolve-issue-workflow
-artifact_total: 165
+artifact_total: 210
 collections:
 - collection_type: postman
   name: Sentry Alerts API
@@ -275,6 +275,9 @@ collections:
   name: Sentry Users API
   slug: postman-sentry-users
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Sentry Alerts API
   slug: open-sentry-alerts
 - collection_type: open
@@ -331,6 +334,138 @@ collections:
 - collection_type: open
   name: Sentry Seer API
   slug: open-sentry-seer
+- collection_type: open
+  name: Sentry Alerts API
+  slug: open-sentry-system-alerts-api
+- collection_type: open
+  name: Sentry Alerts Check-Ins API
+  slug: open-sentry-system-check-ins-api
+- collection_type: open
+  name: Sentry Alerts Client Keys API
+  slug: open-sentry-system-client-keys-api
+- collection_type: open
+  name: Sentry Alerts Commits API
+  slug: open-sentry-system-commits-api
+- collection_type: open
+  name: Sentry Alerts Custom Integrations API
+  slug: open-sentry-system-custom-integrations-api
+- collection_type: open
+  name: Sentry Alerts Dashboards API
+  slug: open-sentry-system-dashboards-api
+- collection_type: open
+  name: Sentry Alerts Data Forwarders API
+  slug: open-sentry-system-data-forwarders-api
+- collection_type: open
+  name: Sentry Alerts Debug Files API
+  slug: open-sentry-system-debug-files-api
+- collection_type: open
+  name: Sentry Alerts Deploys API
+  slug: open-sentry-system-deploys-api
+- collection_type: open
+  name: Sentry Alerts Discover API
+  slug: open-sentry-system-discover-api
+- collection_type: open
+  name: Sentry Alerts Environments API
+  slug: open-sentry-system-environments-api
+- collection_type: open
+  name: Sentry Alerts Events API
+  slug: open-sentry-system-events-api
+- collection_type: open
+  name: Sentry Alerts Explore API
+  slug: open-sentry-system-explore-api
+- collection_type: open
+  name: Sentry Alerts External Issues API
+  slug: open-sentry-system-external-issues-api
+- collection_type: open
+  name: Sentry Alerts External Teams API
+  slug: open-sentry-system-external-teams-api
+- collection_type: open
+  name: Sentry Alerts External Users API
+  slug: open-sentry-system-external-users-api
+- collection_type: open
+  name: Sentry Alerts Filters API
+  slug: open-sentry-system-filters-api
+- collection_type: open
+  name: Sentry Alerts Installations API
+  slug: open-sentry-system-installations-api
+- collection_type: open
+  name: Sentry Alerts Integrations API
+  slug: open-sentry-system-integrations-api
+- collection_type: open
+  name: Sentry Alerts Interactions API
+  slug: open-sentry-system-interactions-api
+- collection_type: open
+  name: Sentry Alerts Issue Alerts API
+  slug: open-sentry-system-issue-alerts-api
+- collection_type: open
+  name: Sentry Alerts Issues API
+  slug: open-sentry-system-issues-api
+- collection_type: open
+  name: Sentry Alerts Members API
+  slug: open-sentry-system-members-api
+- collection_type: open
+  name: Sentry Alerts Metric Alerts API
+  slug: open-sentry-system-metric-alerts-api
+- collection_type: open
+  name: Sentry Alerts Mobile Builds API
+  slug: open-sentry-system-mobile-builds-api
+- collection_type: open
+  name: Sentry Alerts Monitors API
+  slug: open-sentry-system-monitors-api
+- collection_type: open
+  name: Sentry Alerts Organizations API
+  slug: open-sentry-system-organizations-api
+- collection_type: open
+  name: Sentry Alerts Projects API
+  slug: open-sentry-system-projects-api
+- collection_type: open
+  name: Sentry Alerts Recording Segments API
+  slug: open-sentry-system-recording-segments-api
+- collection_type: open
+  name: Sentry Alerts Release Files API
+  slug: open-sentry-system-release-files-api
+- collection_type: open
+  name: Sentry Alerts Releases API
+  slug: open-sentry-system-releases-api
+- collection_type: open
+  name: Sentry Alerts Replays API
+  slug: open-sentry-system-replays-api
+- collection_type: open
+  name: Sentry Alerts Repositories API
+  slug: open-sentry-system-repositories-api
+- collection_type: open
+  name: Sentry Alerts SCIM Members API
+  slug: open-sentry-system-scim-members-api
+- collection_type: open
+  name: Sentry Alerts SCIM Teams API
+  slug: open-sentry-system-scim-teams-api
+- collection_type: open
+  name: Sentry Alerts Seer API
+  slug: open-sentry-system-seer-api
+- collection_type: open
+  name: Sentry Alerts Service Hooks API
+  slug: open-sentry-system-service-hooks-api
+- collection_type: open
+  name: Sentry Alerts Sessions API
+  slug: open-sentry-system-sessions-api
+- collection_type: open
+  name: Sentry Alerts Spike Protection API
+  slug: open-sentry-system-spike-protection-api
+- collection_type: open
+  name: Sentry Alerts Teams API
+  slug: open-sentry-system-teams-api
+- collection_type: open
+  name: Sentry Alerts Test Results API
+  slug: open-sentry-system-test-results-api
+- collection_type: open
+  name: Sentry Alerts Tokens API
+  slug: open-sentry-system-tokens-api
+- collection_type: open
+  name: Sentry Alerts User Feedback API
+  slug: open-sentry-system-user-feedback-api
+- collection_type: open
+  name: Sentry Alerts Users API
+  slug: open-sentry-system-users-api
 - collection_type: open
   name: Sentry Teams API
   slug: open-sentry-teams
@@ -765,7 +900,7 @@ plans:
 - name: Sentry System Plans Pricing
   plan_count: 4
   slug: sentry-system-plans-pricing
-random_paper: 79
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Sentry System Rate Limits
@@ -806,7 +941,7 @@ score:
       total: 44
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/screenshots/sentry-system-2026-06-20T193714.png
 security:

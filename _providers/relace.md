@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,7 +45,17 @@ apis:
 - description: The Repo API from Relace — 5 operation(s) for repo.
   name: Relace Repo API
   slug: relace-repo-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Relace Code API
+  slug: open-relace-code-api
+- collection_type: open
+  name: Relace Code Repo API
+  slug: open-relace-repo-api
 common:
 - group: start
   title: ''
@@ -183,7 +193,7 @@ overview: 'Relace publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Relace''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 20
+random_paper: 24
 score:
   band: developing
   composite: 50.6
@@ -207,7 +217,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

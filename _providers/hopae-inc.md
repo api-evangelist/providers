@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 21
@@ -65,11 +65,42 @@ apis:
 - description: Workspace information
   name: Hopae, Inc. Workspace API - Workspace API
   slug: hopae-inc-workspace-api-workspace-api
-artifact_total: 16
+artifact_total: 26
 asyncapis:
 - description: Outgoing webhook deliveries from Hopae Connect for the identity verification lifecycle. Every delivery is signed with an HMAC-SHA256 signature in the X-Hopae-Signature header (format `t=<unix-ts>,v1=<
   name: Hopae hConnect Webhooks
   slug: hopae-inc-hconnect-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: hConnect Console - API Keys API
+  slug: open-hopae-inc-console-api-keys-api
+- collection_type: open
+  name: hConnect Console - API Keys Providers API
+  slug: open-hopae-inc-providers-api
+- collection_type: open
+  name: hConnect Console - API Keys Token API
+  slug: open-hopae-inc-token-api
+- collection_type: open
+  name: hConnect Console - API Keys Verifications API
+  slug: open-hopae-inc-verifications-api
+- collection_type: open
+  name: hConnect Console - API Keys Workspace API - Activation API
+  slug: open-hopae-inc-workspace-api-activation-api
+- collection_type: open
+  name: hConnect Console - API Keys Workspace API - Apps API
+  slug: open-hopae-inc-workspace-api-apps-api
+- collection_type: open
+  name: hConnect Console - API Keys Workspace API - Production Tests API
+  slug: open-hopae-inc-workspace-api-production-tests-api
+- collection_type: open
+  name: hConnect Console - API Keys Workspace API - Workflows API
+  slug: open-hopae-inc-workspace-api-workflows-api
+- collection_type: open
+  name: hConnect Console - API Keys Workspace API - Workspace API
+  slug: open-hopae-inc-workspace-api-workspace-api
 common:
 - group: other
   title: ''
@@ -226,7 +257,7 @@ overview: 'Hopae, Inc. publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Hopae, Inc.''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
-random_paper: 44
+random_paper: 139
 scopes:
 - name: Hopae Inc Scopes
   scope_count: 7
@@ -255,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/screenshots/hopae-inc-2026-07-25T221528.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,8 +52,17 @@ apis:
 - description: Server metadata and version information
   name: Trivy Server API
   slug: trivy-server-api
-artifact_total: 20
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trivy Server Health API
+  slug: open-trivy-health-api
+- collection_type: open
+  name: Trivy Health Server API
+  slug: open-trivy-server-api
 - collection_type: open
   name: Trivy Server API
   slug: open-trivy-server
@@ -225,7 +234,7 @@ plans:
 - name: Trivy Plans Pricing
   plan_count: 3
   slug: trivy-plans-pricing
-random_paper: 94
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Trivy Rate Limits
@@ -267,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/screenshots/trivy-2026-06-20T195737.png
 security:

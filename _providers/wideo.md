@@ -18,17 +18,17 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-12'
+  score: 45.7
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,11 +44,21 @@ apis:
 - description: Batch video rendering from a template and a set of variable objects
   name: Wideo Batch API
   slug: wideo-batch-api
-artifact_total: 7
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Wideo Events Asyncapi
   slug: wideo-events-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wideo Video Automation API
+  slug: open-wideo-automation-api
+- collection_type: open
+  name: Wideo Video Automation Batch API
+  slug: open-wideo-batch-api
 common:
 - group: agent
   title: ''
@@ -74,10 +84,42 @@ common:
   title: ''
   type: Overlay
   url: overlays/wideo-automation-overlay.yaml
-- group: agent
+- group: other
   title: ''
-  type: WellKnown
-  url: well-known/wideo-well-known.yml
+  type: Overlay
+  url: overlays/wideo-batch-overlay.yaml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/wideo-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/wideo-packages.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/wideo-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/wideo-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.wideo.co/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/wideo-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/wideo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/wideo-rate-limits.yml
 - group: design
   title: ''
   type: DataModel
@@ -101,7 +143,11 @@ common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://wideo.co/developers/
+  url: https://wideo.co/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://wideo.co/api/
 - group: docs
   title: ''
   type: Documentation
@@ -140,13 +186,13 @@ common:
   url: https://wideo.co/wideo-privacy-policy/
 created: '2026-07-17'
 description: 'Wideo is an online video creation and automation platform that lets teams produce animated videos, presentations, and marketing content from drag-and-drop templates and AI tools. For developers, Wideo publishes a Video Automation API that renders finished MP4 videos at scale: a rendering batch is created from a reusable template plus a list of per-video variable objects, rendering runs asynchronously, and completion is delivered via a webhook callback and pollable batch status returning signed video and preview URLs. A legacy replace/encode flow supports single-video generation. Wideo also offers a white-label video API for embedding video creation into other products. Wideo was surfaced as a portfolio company of 500 Global.'
-image: https://wideo.co
+image: https://wideo.co/wp-content/uploads/2017/12/logo.png
 layout: provider
 mcp_servers:
 - description: ''
   name: wideo-mcp.yml
   slug: wideo-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Wideo
 nav: Providers
 network: true
@@ -156,19 +202,27 @@ overview: 'Wideo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
   The Wideo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wideo''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 56
+  Wideo''s developer surface includes authentication, getting-started guide, documentation, API reference, pricing, engineering blog, support, and 24 more developer resources.'
+plans:
+- name: Wideo Plans Pricing
+  plan_count: 8
+  slug: wideo-plans-pricing
+random_paper: 89
+rate_limits:
+- limit_count: 0
+  name: Wideo Rate Limits
+  slug: wideo-rate-limits
 score:
-  band: developing
-  composite: 45.1
-  delta: 0.0
+  band: strong
+  composite: 57.9
+  delta: 12.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 70.1
-    developer_ergonomics: 45.1
+    commercial_clarity: 76.3
+    contract_quality: 73.1
+    developer_ergonomics: 56.0
     discoverability: 75.9
-    governance: 8.3
-    operational_transparency: 7.9
+    governance: 20.8
+    operational_transparency: 23.7
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -180,8 +234,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Wideo Authentication

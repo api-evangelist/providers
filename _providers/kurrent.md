@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: 'The primary protocol for KurrentDB. The published protocol buffer definitions cover the v2 streams service (multi-stream appends, reads), the schema registry service, the secondary index service, and '
@@ -58,7 +58,7 @@ apis:
 - description: User account management
   name: Kurrent Users API
   slug: kurrent-users-api
-artifact_total: 23
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Kurrent Connectors Webhooks
@@ -88,6 +88,33 @@ collections:
 - collection_type: postman
   name: KurrentDB HTTP Admin Users API
   slug: postman-kurrent-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: KurrentDB HTTP Admin API
+  slug: open-kurrent-admin-api
+- collection_type: open
+  name: KurrentDB HTTP Admin Gossip API
+  slug: open-kurrent-gossip-api
+- collection_type: open
+  name: KurrentDB HTTP Admin Info API
+  slug: open-kurrent-info-api
+- collection_type: open
+  name: KurrentDB HTTP Admin Projections API
+  slug: open-kurrent-projections-api
+- collection_type: open
+  name: KurrentDB HTTP Admin Statistics API
+  slug: open-kurrent-statistics-api
+- collection_type: open
+  name: KurrentDB HTTP Admin Streams API
+  slug: open-kurrent-streams-api
+- collection_type: open
+  name: KurrentDB HTTP Admin Subscriptions API
+  slug: open-kurrent-subscriptions-api
+- collection_type: open
+  name: KurrentDB HTTP Admin Users API
+  slug: open-kurrent-users-api
 common:
 - group: build
   title: ''
@@ -297,7 +324,7 @@ overview: 'Kurrent publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kurrent''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
-random_paper: 59
+random_paper: 34
 scopes:
 - name: Kurrent Scopes
   scope_count: 14
@@ -325,7 +352,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/screenshots/kurrent-2026-07-25T224337.png
 security:

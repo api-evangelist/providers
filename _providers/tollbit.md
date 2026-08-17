@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Auth Tokens API from Tollbit — 3 operation(s) for auth tokens.
@@ -64,11 +64,48 @@ apis:
 - description: The Tollbit Subdomain API from Tollbit — 1 operation(s) for tollbit subdomain.
   name: Tollbit Tollbit Subdomain API
   slug: tollbit-tollbit-subdomain-api
-artifact_total: 15
+artifact_total: 27
 asyncapis:
 - description: TollBit pushes real-time webhook notifications to subscriber applications when content becomes available (created or updated) from TollBit publisher properties, so consumers do not have to poll. Deliv
   name: TollBit Content Events (Webhooks)
   slug: tollbit-content-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TollBit Auth Tokens API
+  slug: open-tollbit-auth-tokens-api
+- collection_type: open
+  name: TollBit Auth Tokens Dev API
+  slug: open-tollbit-dev-api
+- collection_type: open
+  name: TollBit Auth Tokens Get Catalog of Pages for Property API
+  slug: open-tollbit-get-catalog-of-pages-for-property-api
+- collection_type: open
+  name: TollBit Auth Tokens Get Tollbit Content API
+  slug: open-tollbit-get-tollbit-content-api
+- collection_type: open
+  name: TollBit Auth Tokens Get Tollbit Rates API
+  slug: open-tollbit-get-tollbit-rates-api
+- collection_type: open
+  name: TollBit Auth Tokens Report Content Usage API
+  slug: open-tollbit-report-content-usage-api
+- collection_type: open
+  name: TollBit Auth Tokens Reporting API
+  slug: open-tollbit-reporting-api
+- collection_type: open
+  name: TollBit Auth Tokens Search API
+  slug: open-tollbit-search-api
+- collection_type: open
+  name: TollBit Auth Tokens Search Content API
+  slug: open-tollbit-search-content-api
+- collection_type: open
+  name: TollBit Auth Tokens Tollbit Content API
+  slug: open-tollbit-tollbit-content-api
+- collection_type: open
+  name: TollBit Auth Tokens Tollbit Subdomain API
+  slug: open-tollbit-tollbit-subdomain-api
 common:
 - group: other
   title: ''
@@ -194,7 +231,7 @@ overview: 'Tollbit publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tollbit''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 42
+random_paper: 17
 score:
   band: developing
   composite: 48.6
@@ -217,7 +254,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

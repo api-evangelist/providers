@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -72,7 +72,41 @@ apis:
 - description: The symplectic API from University of Rochester — 5 operation(s) for symplectic.
   name: University of Rochester symplectic API
   slug: university-of-rochester-symplectic-api
-artifact_total: 28
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Figshare altmetric API
+  slug: open-university-of-rochester-altmetric-api
+- collection_type: open
+  name: Figshare altmetric articles API
+  slug: open-university-of-rochester-articles-api
+- collection_type: open
+  name: Figshare altmetric authors API
+  slug: open-university-of-rochester-authors-api
+- collection_type: open
+  name: Figshare altmetric collections API
+  slug: open-university-of-rochester-collections-api
+- collection_type: open
+  name: Figshare altmetric institutions API
+  slug: open-university-of-rochester-institutions-api
+- collection_type: open
+  name: Figshare altmetric oauth API
+  slug: open-university-of-rochester-oauth-api
+- collection_type: open
+  name: Figshare altmetric other API
+  slug: open-university-of-rochester-other-api
+- collection_type: open
+  name: Figshare altmetric profiles API
+  slug: open-university-of-rochester-profiles-api
+- collection_type: open
+  name: Figshare altmetric projects API
+  slug: open-university-of-rochester-projects-api
+- collection_type: open
+  name: Figshare altmetric symplectic API
+  slug: open-university-of-rochester-symplectic-api
 common:
 - group: agent
   title: ''
@@ -174,7 +208,7 @@ plans:
 - name: University Of Rochester Plans Pricing
   plan_count: 2
   slug: university-of-rochester-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: University Of Rochester Rate Limits
@@ -227,7 +261,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/screenshots/university-of-rochester-2026-06-20T200223.png
 security:

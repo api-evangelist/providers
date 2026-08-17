@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Sunrun API provides access to platform services and data for enterprise integration and automation.
@@ -73,7 +73,7 @@ plans:
 - name: Sunrun Plans Pricing
   plan_count: 1
   slug: sunrun-plans-pricing
-random_paper: 83
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Sunrun Rate Limits
@@ -97,7 +97,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sunrun/refs/heads/main/screenshots/sunrun-2026-06-20T194705.png
 security:

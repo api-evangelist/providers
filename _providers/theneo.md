@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Manage workspaces.
   name: Theneo Workspaces API
   slug: theneo-workspaces-api
-artifact_total: 30
+artifact_total: 36
 collections:
 - collection_type: postman
   name: Theneo Import API
@@ -72,8 +72,26 @@ collections:
   name: Theneo Import Workspaces API
   slug: postman-theneo-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Theneo API
   slug: open-theneo-api
+- collection_type: open
+  name: Theneo Import API
+  slug: open-theneo-import-api
+- collection_type: open
+  name: Theneo Import Projects API
+  slug: open-theneo-projects-api
+- collection_type: open
+  name: Theneo Import Publishing API
+  slug: open-theneo-publishing-api
+- collection_type: open
+  name: Theneo Import Users API
+  slug: open-theneo-users-api
+- collection_type: open
+  name: Theneo Import Workspaces API
+  slug: open-theneo-workspaces-api
 common:
 - group: build
   title: ''
@@ -202,7 +220,7 @@ plans:
 - name: Theneo Plans Pricing
   plan_count: 4
   slug: theneo-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 16
   name: Theneo Rate Limits
@@ -244,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/screenshots/theneo-2026-06-20T195249.png
 security:

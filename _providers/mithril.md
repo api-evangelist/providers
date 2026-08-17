@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -80,7 +80,53 @@ apis:
 - description: The volumes API from Mithril — 2 operation(s) for volumes.
   name: Mithril volumes API
   slug: mithril-volumes-api
-artifact_total: 20
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mithril API Keys API
+  slug: open-mithril-api-keys-api
+- collection_type: open
+  name: Mithril API Keys image versions API
+  slug: open-mithril-image-versions-api
+- collection_type: open
+  name: Mithril API Keys instance types API
+  slug: open-mithril-instance-types-api
+- collection_type: open
+  name: Mithril API Keys instances API
+  slug: open-mithril-instances-api
+- collection_type: open
+  name: Mithril API Keys kubernetes clusters API
+  slug: open-mithril-kubernetes-clusters-api
+- collection_type: open
+  name: Mithril API Keys lifecycle scripts API
+  slug: open-mithril-lifecycle-scripts-api
+- collection_type: open
+  name: Mithril API Keys pricing API
+  slug: open-mithril-pricing-api
+- collection_type: open
+  name: Mithril API Keys profile API
+  slug: open-mithril-profile-api
+- collection_type: open
+  name: Mithril API Keys projects API
+  slug: open-mithril-projects-api
+- collection_type: open
+  name: Mithril API Keys quotas API
+  slug: open-mithril-quotas-api
+- collection_type: open
+  name: Mithril API Keys reservations API
+  slug: open-mithril-reservations-api
+- collection_type: open
+  name: Mithril API Keys spot API
+  slug: open-mithril-spot-api
+- collection_type: open
+  name: Mithril API Keys SSH Keys API
+  slug: open-mithril-ssh-keys-api
+- collection_type: open
+  name: Mithril API Keys volumes API
+  slug: open-mithril-volumes-api
 common:
 - group: company
   title: ''
@@ -234,7 +280,7 @@ overview: 'Mithril publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Mithril''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 27 more developer resources.'
-random_paper: 41
+random_paper: 16
 score:
   band: strong
   composite: 56.7
@@ -258,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/screenshots/mithril-2026-08-07T183809.png
 security:

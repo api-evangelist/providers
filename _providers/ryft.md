@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Push query-execution telemetry to Ryft.
   name: Ryft Ingest API
   slug: ryft-ingest-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ryft Ingest API
+  slug: open-ryft-ingest-api
 common:
 - group: auth
   title: ''
@@ -132,7 +139,7 @@ overview: 'Ryft publishes 1 API on the [APIs.io](https://apis.io/) network: Inge
 
 
   Ryft''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 93
+random_paper: 6
 score:
   band: developing
   composite: 47.8
@@ -155,7 +162,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,8 +59,29 @@ apis:
 - description: The Tags API from TechRepublic — 2 operation(s) for tags.
   name: TechRepublic Tags API
   slug: techrepublic-tags-api
-artifact_total: 22
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TechRepublic WordPress REST Authors API
+  slug: open-techrepublic-authors-api
+- collection_type: open
+  name: TechRepublic WordPress REST Authors Categories API
+  slug: open-techrepublic-categories-api
+- collection_type: open
+  name: TechRepublic WordPress REST Authors Media API
+  slug: open-techrepublic-media-api
+- collection_type: open
+  name: TechRepublic WordPress REST Authors Pages API
+  slug: open-techrepublic-pages-api
+- collection_type: open
+  name: TechRepublic WordPress REST Authors Posts API
+  slug: open-techrepublic-posts-api
+- collection_type: open
+  name: TechRepublic WordPress REST Authors Tags API
+  slug: open-techrepublic-tags-api
 - collection_type: open
   name: TechRepublic WordPress REST API
   slug: open-techrepublic-wordpress-rest-api
@@ -170,7 +191,7 @@ plans:
 - name: Techrepublic Plans Pricing
   plan_count: 3
   slug: techrepublic-plans-pricing
-random_paper: 74
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Techrepublic Rate Limits
@@ -212,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/screenshots/techrepublic-2026-06-20T195011.png
 security:

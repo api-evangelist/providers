@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The WorldFirst Enterprise Solution (World Account) API — a RESTful, JSON, signed-request interface covering customer onboarding, account and beneficiary management, statements, foreign exchange, trans
@@ -140,7 +140,7 @@ overview: 'WorldFirst publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   WorldFirst''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 24
+random_paper: 61
 score:
   band: developing
   composite: 42.5
@@ -162,7 +162,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

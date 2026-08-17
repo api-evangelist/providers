@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -90,8 +90,62 @@ apis:
 - description: The tags API from lakeFS — 2 operation(s) for tags.
   name: lakeFS tags API
   slug: lakefs-tags-api
-artifact_total: 24
+artifact_total: 42
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: lakeFS actions API
+  slug: open-lakefs-actions-api
+- collection_type: open
+  name: lakeFS actions auth API
+  slug: open-lakefs-auth-api
+- collection_type: open
+  name: lakeFS actions branches API
+  slug: open-lakefs-branches-api
+- collection_type: open
+  name: lakeFS actions commits API
+  slug: open-lakefs-commits-api
+- collection_type: open
+  name: lakeFS actions config API
+  slug: open-lakefs-config-api
+- collection_type: open
+  name: lakeFS actions experimental API
+  slug: open-lakefs-experimental-api
+- collection_type: open
+  name: lakeFS actions external API
+  slug: open-lakefs-external-api
+- collection_type: open
+  name: lakeFS actions healthCheck API
+  slug: open-lakefs-healthcheck-api
+- collection_type: open
+  name: lakeFS actions import API
+  slug: open-lakefs-import-api
+- collection_type: open
+  name: lakeFS actions internal API
+  slug: open-lakefs-internal-api
+- collection_type: open
+  name: lakeFS actions metadata API
+  slug: open-lakefs-metadata-api
+- collection_type: open
+  name: lakeFS actions objects API
+  slug: open-lakefs-objects-api
+- collection_type: open
+  name: lakeFS actions pulls API
+  slug: open-lakefs-pulls-api
+- collection_type: open
+  name: lakeFS actions refs API
+  slug: open-lakefs-refs-api
+- collection_type: open
+  name: lakeFS actions repositories API
+  slug: open-lakefs-repositories-api
+- collection_type: open
+  name: lakeFS actions staging API
+  slug: open-lakefs-staging-api
+- collection_type: open
+  name: lakeFS actions tags API
+  slug: open-lakefs-tags-api
 - collection_type: open
   name: lakeFS API
   slug: open-lakefs
@@ -152,7 +206,7 @@ plans:
 - name: Lakefs Plans Pricing
   plan_count: 3
   slug: lakefs-plans-pricing
-random_paper: 30
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Lakefs Rate Limits
@@ -177,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/screenshots/lakefs-2026-06-20T184245.png
 security:

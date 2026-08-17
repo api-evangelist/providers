@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,11 +66,29 @@ apis:
 - description: Policy quoting and rating
   name: duck-creek Quotes API
   slug: duck-creek-quotes-api
-artifact_total: 46
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Duck Creek Policy Administration Billing API
+  slug: open-duck-creek-billing-api
+- collection_type: open
+  name: Duck Creek Policy Administration Billing Claims API
+  slug: open-duck-creek-claims-api
+- collection_type: open
+  name: Duck Creek Policy Administration Billing Policies API
+  slug: open-duck-creek-policies-api
 - collection_type: open
   name: Duck Creek Policy Administration API
   slug: open-duck-creek-policy
+- collection_type: open
+  name: Duck Creek Policy Administration Billing Products API
+  slug: open-duck-creek-products-api
+- collection_type: open
+  name: Duck Creek Policy Administration Billing Quotes API
+  slug: open-duck-creek-quotes-api
 common:
 - group: agent
   title: ''
@@ -256,7 +274,7 @@ plans:
 - name: Duck Creek Plans Pricing
   plan_count: 1
   slug: duck-creek-plans-pricing
-random_paper: 30
+random_paper: 96
 rate_limits:
 - limit_count: 1
   name: Duck Creek Rate Limits
@@ -295,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/screenshots/duck-creek-2026-06-20T180408.png
 security:

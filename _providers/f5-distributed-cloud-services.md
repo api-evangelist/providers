@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: The Data API from F5 Distributed Cloud Services — 1 operation(s) for data.
   name: F5 Distributed Cloud Services Data API
   slug: f5-distributed-cloud-services-data-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: F5 Distributed Cloud Services Config API
+  slug: open-f5-distributed-cloud-services-config-api
+- collection_type: open
+  name: F5 Distributed Cloud Services Config Data API
+  slug: open-f5-distributed-cloud-services-data-api
 - collection_type: open
   name: F5 Distributed Cloud Services API
   slug: open-f5-distributed-cloud-services
@@ -113,7 +122,7 @@ overview: 'F5 Distributed Cloud Services publishes 2 APIs on the [APIs.io](https
 
 
   F5 Distributed Cloud Services'' developer surface includes authentication, documentation, pricing, signup flow, developer console, support, engineering blog, and 5 more developer resources.'
-random_paper: 0
+random_paper: 49
 score:
   band: thin
   composite: 34.7
@@ -134,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/screenshots/f5-distributed-cloud-services-2026-06-20T180955.png
 security:

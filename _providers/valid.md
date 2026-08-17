@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'A live first-party Model Context Protocol server that lets a Valid managed-service client query their whole advertising account — spend, channels, creative performance, attribution — in plain English '
@@ -114,7 +114,7 @@ plans:
 - name: Valid Plans Pricing
   plan_count: 0
   slug: valid-plans-pricing
-random_paper: 48
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Valid Rate Limits
@@ -127,7 +127,7 @@ scopes:
 score:
   band: emerging
   composite: 17.9
-  delta: 5.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -135,10 +135,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 12.6
+  previous_composite: 17.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Valid Authentication

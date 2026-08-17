@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -56,11 +56,33 @@ apis:
 - description: Manage teamspaces and their members.
   name: Certifaction Teamspace API
   slug: certifaction-teamspace-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Certifaction Webhooks
   slug: certifaction-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: '{{ .ProductName }} Admin Account API'
+  slug: open-certifaction-account-api
+- collection_type: open
+  name: '{{ .ProductName }} Admin Account Documents API'
+  slug: open-certifaction-documents-api
+- collection_type: open
+  name: '{{ .ProductName }} Admin Account Organization API'
+  slug: open-certifaction-organization-api
+- collection_type: open
+  name: '{{ .ProductName }} Admin Account Server API'
+  slug: open-certifaction-server-api
+- collection_type: open
+  name: '{{ .ProductName }} Admin Account Signing API'
+  slug: open-certifaction-signing-api
+- collection_type: open
+  name: '{{ .ProductName }} Admin Account Teamspace API'
+  slug: open-certifaction-teamspace-api
 common:
 - group: other
   title: ''
@@ -213,7 +235,7 @@ overview: 'Certifaction publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Certifaction''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 26 more developer resources.'
-random_paper: 75
+random_paper: 83
 score:
   band: developing
   composite: 54.5
@@ -237,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/screenshots/certifaction-2026-07-25T205000.png
 security:

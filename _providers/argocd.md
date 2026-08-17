@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -119,11 +119,53 @@ apis:
 - description: The VersionService API from Argo CD — 1 operation(s) for versionservice.
   name: Argo CD VersionService API
   slug: argocd-versionservice-api
-artifact_total: 33
+artifact_total: 47
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Consolidate Services AccountService API
+  slug: open-argocd-accountservice-api
+- collection_type: open
+  name: Consolidate Services AccountService ApplicationService API
+  slug: open-argocd-applicationservice-api
+- collection_type: open
+  name: Consolidate Services AccountService ApplicationSetService API
+  slug: open-argocd-applicationsetservice-api
+- collection_type: open
+  name: Consolidate Services AccountService CertificateService API
+  slug: open-argocd-certificateservice-api
+- collection_type: open
+  name: Consolidate Services AccountService ClusterService API
+  slug: open-argocd-clusterservice-api
+- collection_type: open
+  name: Consolidate Services AccountService GPGKeyService API
+  slug: open-argocd-gpgkeyservice-api
+- collection_type: open
+  name: Consolidate Services AccountService NotificationService API
+  slug: open-argocd-notificationservice-api
+- collection_type: open
+  name: Consolidate Services AccountService ProjectService API
+  slug: open-argocd-projectservice-api
+- collection_type: open
+  name: Consolidate Services AccountService RepoCredsService API
+  slug: open-argocd-repocredsservice-api
+- collection_type: open
+  name: Consolidate Services AccountService RepositoryService API
+  slug: open-argocd-repositoryservice-api
 - collection_type: open
   name: Consolidate Services
   slug: open-argocd-server
+- collection_type: open
+  name: Consolidate Services AccountService SessionService API
+  slug: open-argocd-sessionservice-api
+- collection_type: open
+  name: Consolidate Services AccountService SettingsService API
+  slug: open-argocd-settingsservice-api
+- collection_type: open
+  name: Consolidate Services AccountService VersionService API
+  slug: open-argocd-versionservice-api
 common:
 - group: agent
   title: ''
@@ -241,7 +283,7 @@ plans:
 - name: Argocd Plans Pricing
   plan_count: 2
   slug: argocd-plans-pricing
-random_paper: 24
+random_paper: 28
 rate_limits:
 - limit_count: 4
   name: Argocd Rate Limits
@@ -266,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/screenshots/argocd-2026-06-20T172419.png
 security:

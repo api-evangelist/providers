@@ -1,52 +1,66 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
-  - plans
-  - authentication
+  - https://www.refuel.ai/get-started
+  - plans/refuel-ai-plans-pricing.yml
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 72.1
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 64
   human_in_the_loop: 0
   name: Refuel Ai Agentic Access
-  operation_count: 1
+  operation_count: 109
   slug: refuel-ai-agentic-access
-  summary_line: 1 operation · 1 acting
-api_count: 2
+  summary_line: 109 operations · 64 acting
+api_count: 3
 apis:
 - description: Autolabel is the open-source Python library (pip install refuel-autolabel) to label, clean, and enrich text datasets with any LLM (OpenAI, Anthropic, Google, HuggingFace, vLLM, Refuel-hosted). It is a
   name: Refuel Autolabel (Open Source)
   slug: refuel-autolabel-oss
-- description: The Applications API from Refuel — 1 operation(s) for applications.
+- description: 'The full Refuel Cloud REST API — 108 operations across 77 paths, harvested verbatim from https://cloud-api.refuel.ai/openapi.json on 2026-08-14. Covers projects, datasets and items, tasks, task runs, '
+  name: Refuel Cloud API
+  slug: refuel-cloud-api
+- description: The documented realtime application label surface — the endpoint Refuel's own catalog page publishes as `POST https://cloud-api.refuel.ai/applications/{applicationName}/label`, with the concrete reque
   name: Refuel Applications API
   slug: refuel-ai-applications-api
-artifact_total: 11
+artifact_total: 16
+asyncapis:
+- description: ''
+  name: Refuel Ai Events
+  slug: refuel-ai-events
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Refuel Cloud Applications API
+  slug: open-refuel-ai-applications-api
 - collection_type: open
   name: Refuel Cloud API
   slug: open-refuel-ai
@@ -55,6 +69,66 @@ common:
   title: ''
   type: AgenticAccess
   url: agentic-access/refuel-ai-agentic-access.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/refuel-ai-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/refuel-ai-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/refuel-ai-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/refuel-ai-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/refuel-ai-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/refuel-ai-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/refuel-ai-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/refuel-ai-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/refuel-ai-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/refuel-ai-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/refuel-ai-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/refuel-ai-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.refuel.ai/security
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/refuel-ai-sandbox.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -63,6 +137,10 @@ common:
   title: ''
   type: VulnerabilityDisclosure
   url: security/refuel-ai-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.refuel.ai/security
 - group: auth
   title: ''
   type: DomainSecurity
@@ -81,12 +159,52 @@ common:
   url: https://www.linkedin.com/company/refuel-ai
 - group: company
   title: ''
+  type: Twitter
+  url: https://twitter.com/refuelai
+- group: company
+  title: ''
   type: Website
   url: https://www.refuel.ai
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.refuel.ai
 - group: docs
   title: ''
   type: Documentation
   url: https://docs.refuel.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://cloud-api.refuel.ai/docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.refuel.ai/quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.gg/uEdr8nrMGm
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.refuel.ai/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.refuel.ai/get-started
+- group: start
+  title: ''
+  type: Login
+  url: https://app.refuel.ai
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.refuel.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.refuel.ai/privacy-policy
 - group: commercial
   title: ''
   type: Plans
@@ -100,41 +218,48 @@ common:
   type: FinOps
   url: finops/refuel-ai-finops.yml
 created: '2026-06-21'
-description: Refuel is an AI data-labeling and data-enrichment platform that uses LLMs to label, clean, structure, and enrich enterprise datasets. Refuel Cloud exposes a REST API where datasets, tasks, and deployed applications transform new data in realtime, and the open-source autolabel library lets teams run the same LLM labeling workflows in their own environment.
+description: Refuel is an AI data-labeling and data-enrichment platform that uses large language models to label, clean, structure and enrich enterprise datasets. Refuel Cloud exposes a REST API at cloud-api.refuel.ai covering projects, datasets, tasks and task runs, taxonomies, seedsets and evalsets, confidence calibration, Refuel LLM-2 finetuning, and deployed applications whose realtime label endpoint transforms new rows on demand. The open-source autolabel library lets teams run the same LLM labeling workflows in their own environment against OpenAI, Anthropic, Google, HuggingFace, vLLM or Refuel-hosted models. Refuel.ai was acquired by Together AI in May 2025; the platform continues to operate and its API is still live.
 finops:
 - name: Refuel Ai Finops
   service_category: AI and Machine Learning
   slug: refuel-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/refuel-ai.png
 layout: provider
-modified: '2026-06-21'
+mcp_servers:
+- description: ''
+  name: refuel-ai-mcp.yml
+  slug: refuel-ai-mcpyml
+modified: '2026-08-14'
 name: Refuel
 nav: Providers
 network: true
-overview: 'Refuel publishes 1 API on the [APIs.io](https://apis.io/) network: Applications API. Tagged areas include AI, LLM, Data Labeling, Data Enrichment, and Autolabel.
+overview: 'Refuel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cloud API and Applications API. Tagged areas include AI, LLM, Data Labeling, Data Enrichment, and Autolabel.
 
 
-  Refuel''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  The Refuel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Refuel''s developer surface includes sandbox, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 31 more developer resources.'
 plans:
 - name: Refuel Ai Plans Pricing
   plan_count: 3
   slug: refuel-ai-plans-pricing
-random_paper: 50
+random_paper: 145
 rate_limits:
 - limit_count: 2
   name: Refuel Ai Rate Limits
   slug: refuel-ai-rate-limits
 score:
-  band: thin
-  composite: 39.7
-  delta: 0.0
+  band: exemplar
+  composite: 67.3
+  delta: 27.6
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 64.2
-    developer_ergonomics: 19.6
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 26.3
+    commercial_clarity: 89.5
+    contract_quality: 71.6
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 36.8
   previous_composite: 39.7
   provenance:
     agentic_access: derived
@@ -144,13 +269,13 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Refuel Ai Authentication
   slug: refuel-ai-authentication
-  summary_line: http · 1 scheme
+  summary_line: http · 2 schemes
 - kind: domain-security
   name: Refuel Ai Domain Security
   slug: refuel-ai-domain-security
@@ -170,5 +295,12 @@ tags:
 - Data Labeling
 - Data Enrichment
 - Autolabel
+- Machine Learning
+- Data Quality
+- Training Data
+- Fine Tuning
+- Data Transformation
+- Entity Resolution
+- Content Moderation
 website: https://www.refuel.ai
 ---

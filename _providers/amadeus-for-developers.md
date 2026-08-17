@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Travel Search - Limited usage
@@ -60,7 +60,7 @@ name: Amadeus for Developers
 nav: Providers
 network: true
 overview: Amadeus for Developers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 74
+random_paper: 148
 score:
   band: minimal
   composite: 5.7
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-for-developers/refs/heads/main/screenshots/amadeus-for-developers-2026-06-20T171559.png
 security:

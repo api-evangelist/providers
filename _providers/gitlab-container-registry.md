@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Container image tags
   name: GitLab Container Registry Tags API
   slug: gitlab-container-registry-tags-api
-artifact_total: 13
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GitLab Container Registry Repositories API
+  slug: open-gitlab-container-registry-repositories-api
+- collection_type: open
+  name: GitLab Container Registry Repositories Tags API
+  slug: open-gitlab-container-registry-tags-api
 - collection_type: open
   name: GitLab Container Registry API
   slug: open-gitlab-container-registry
@@ -130,7 +139,7 @@ plans:
 - name: Gitlab Container Registry Plans Pricing
   plan_count: 3
   slug: gitlab-container-registry-plans-pricing
-random_paper: 49
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Gitlab Container Registry Rate Limits
@@ -169,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/screenshots/gitlab-container-registry-2026-06-20T181850.png
 security:

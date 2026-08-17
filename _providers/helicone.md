@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 1
@@ -138,7 +138,7 @@ apis:
 - description: The Wrapped API from Helicone — 2 operation(s) for wrapped.
   name: Helicone Wrapped API
   slug: helicone-wrapped-api
-artifact_total: 623
+artifact_total: 657
 collections:
 - collection_type: postman
   name: helicone-api Agent API
@@ -239,6 +239,108 @@ collections:
 - collection_type: postman
   name: helicone-api Agent Wrapped API
   slug: postman-helicone-wrapped-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: helicone-api Agent API
+  slug: open-helicone-agent-api
+- collection_type: open
+  name: helicone-api Agent API Key API
+  slug: open-helicone-api-key-api
+- collection_type: open
+  name: helicone-api Agent Comparison API
+  slug: open-helicone-comparison-api
+- collection_type: open
+  name: helicone-api Agent Credits API
+  slug: open-helicone-credits-api
+- collection_type: open
+  name: helicone-api Agent Customer API
+  slug: open-helicone-customer-api
+- collection_type: open
+  name: helicone-api Agent Dashboard API
+  slug: open-helicone-dashboard-api
+- collection_type: open
+  name: helicone-api Agent Dataset API
+  slug: open-helicone-dataset-api
+- collection_type: open
+  name: helicone-api Agent Evals API
+  slug: open-helicone-evals-api
+- collection_type: open
+  name: helicone-api Agent Evaluator API
+  slug: open-helicone-evaluator-api
+- collection_type: open
+  name: helicone-api Agent Experiment API
+  slug: open-helicone-experiment-api
+- collection_type: open
+  name: helicone-api Agent HeliconeSql API
+  slug: open-helicone-heliconesql-api
+- collection_type: open
+  name: helicone-api Agent Integration API
+  slug: open-helicone-integration-api
+- collection_type: open
+  name: helicone-api Agent Metrics API
+  slug: open-helicone-metrics-api
+- collection_type: open
+  name: helicone-api Agent Model Registry API
+  slug: open-helicone-model-registry-api
+- collection_type: open
+  name: helicone-api Agent Models API
+  slug: open-helicone-models-api
+- collection_type: open
+  name: helicone-api Agent PI API
+  slug: open-helicone-pi-api
+- collection_type: open
+  name: helicone-api Agent Playground API
+  slug: open-helicone-playground-api
+- collection_type: open
+  name: helicone-api Agent Prompt API
+  slug: open-helicone-prompt-api
+- collection_type: open
+  name: helicone-api Agent Prompt2025 API
+  slug: open-helicone-prompt2025-api
+- collection_type: open
+  name: helicone-api Agent Prompt2025V2 API
+  slug: open-helicone-prompt2025v2-api
+- collection_type: open
+  name: helicone-api Agent Property API
+  slug: open-helicone-property-api
+- collection_type: open
+  name: helicone-api Agent Providers API
+  slug: open-helicone-providers-api
+- collection_type: open
+  name: helicone-api Agent Request API
+  slug: open-helicone-request-api
+- collection_type: open
+  name: helicone-api Agent Security API
+  slug: open-helicone-security-api
+- collection_type: open
+  name: helicone-api Agent Session API
+  slug: open-helicone-session-api
+- collection_type: open
+  name: helicone-api Agent Status API
+  slug: open-helicone-status-api
+- collection_type: open
+  name: helicone-api Agent Stripe API
+  slug: open-helicone-stripe-api
+- collection_type: open
+  name: helicone-api Agent Test API
+  slug: open-helicone-test-api
+- collection_type: open
+  name: helicone-api Agent Trace API
+  slug: open-helicone-trace-api
+- collection_type: open
+  name: helicone-api Agent User API
+  slug: open-helicone-user-api
+- collection_type: open
+  name: helicone-api Agent Vault API
+  slug: open-helicone-vault-api
+- collection_type: open
+  name: helicone-api Agent Webhooks API
+  slug: open-helicone-webhooks-api
+- collection_type: open
+  name: helicone-api Agent Wrapped API
+  slug: open-helicone-wrapped-api
 - collection_type: open
   name: helicone-api
   slug: open-helicone
@@ -2016,7 +2118,7 @@ plans:
 - name: Helicone Plans Pricing
   plan_count: 6
   slug: helicone-plans-pricing
-random_paper: 119
+random_paper: 94
 rate_limits:
 - limit_count: 11
   name: Helicone Rate Limits
@@ -2050,7 +2152,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/screenshots/helicone-2026-06-20T182620.png
 security:

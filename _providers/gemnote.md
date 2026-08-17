@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Orders that send a gift and optional greeting card to a recipient.
   name: Gemnote Shipments API
   slug: gemnote-shipments-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gemnote Gifts API
+  slug: open-gemnote-gifts-api
+- collection_type: open
+  name: Gemnote Gifts Greeting Cards API
+  slug: open-gemnote-greeting-cards-api
+- collection_type: open
+  name: Gemnote Gifts Shipments API
+  slug: open-gemnote-shipments-api
 common:
 - group: agent
   title: ''
@@ -125,7 +138,7 @@ overview: 'Gemnote publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Gemnote''s developer surface includes documentation, API reference, engineering blog, pricing, support, and 10 more developer resources.'
-random_paper: 31
+random_paper: 6
 score:
   band: emerging
   composite: 25.1
@@ -149,7 +162,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/screenshots/gemnote-2026-07-25T215530.png
 security:

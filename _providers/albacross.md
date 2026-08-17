@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -38,11 +38,15 @@ apis:
 - description: The account-automation surface Albacross's own MIT-licensed n8n community node calls — GET /n8n/me to verify a key, GET /n8n/segments and GET /n8n/buyer_personas to list account objects, and POST/PATC
   name: Albacross n8n Automation API
   slug: albacross-n8n-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Albacross Webhooks
   slug: albacross-webhooks
+collections:
+- collection_type: open
+  name: Reveal API docs
+  slug: open-albacross-reveal
 common:
 - group: auth
   title: ''
@@ -207,7 +211,7 @@ plans:
 - name: Albacross Plans Pricing
   plan_count: 3
   slug: albacross-plans-pricing
-random_paper: 114
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Albacross Rate Limits
@@ -215,6 +219,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 57.5
@@ -222,8 +227,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
+  previous_composite: 55.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Albacross Authentication

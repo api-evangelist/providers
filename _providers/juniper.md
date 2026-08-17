@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -183,8 +183,17 @@ apis:
 - description: Wireless LAN configuration
   name: Juniper Networks WLANs API
   slug: juniper-wlans-api
-artifact_total: 137
+artifact_total: 184
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists API
+  slug: open-juniper-allowlists-and-blocklists-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Analytics API
+  slug: open-juniper-analytics-api
 - collection_type: open
   name: Juniper Networks Juniper Apstra API
   slug: open-juniper-apstra
@@ -192,8 +201,62 @@ collections:
   name: Juniper Networks Juniper Advanced Threat Prevention (ATP) Cloud API
   slug: open-juniper-atp-cloud
 - collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Audit Logs API
+  slug: open-juniper-audit-logs-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Authentication API
+  slug: open-juniper-authentication-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists BGP Routers API
+  slug: open-juniper-bgp-routers-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Blueprints API
+  slug: open-juniper-blueprints-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Clients API
+  slug: open-juniper-clients-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Configlets API
+  slug: open-juniper-configlets-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Configuration API
+  slug: open-juniper-configuration-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Connectivity Templates API
+  slug: open-juniper-connectivity-templates-api
+- collection_type: open
   name: Juniper Networks Juniper Contrail Networking API
   slug: open-juniper-contrail
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Design API
+  slug: open-juniper-design-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Devices API
+  slug: open-juniper-devices-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Enrolled Devices API
+  slug: open-juniper-enrolled-devices-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists File Analysis API
+  slug: open-juniper-file-analysis-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Floating IPs API
+  slug: open-juniper-floating-ips-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Indicators of Compromise API
+  slug: open-juniper-indicators-of-compromise-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Insights API
+  slug: open-juniper-insights-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Intent Checks API
+  slug: open-juniper-intent-checks-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Inventory API
+  slug: open-juniper-inventory-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Jobs API
+  slug: open-juniper-jobs-api
 - collection_type: open
   name: Juniper Networks Junos REST API
   slug: open-juniper-junos-rest-api
@@ -201,8 +264,86 @@ collections:
   name: Juniper Networks Junos Space Network Management Platform API
   slug: open-juniper-junos-space
 - collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Maps API
+  slug: open-juniper-maps-api
+- collection_type: open
   name: Juniper Networks Juniper Mist API
   slug: open-juniper-mist
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Network IPAM API
+  slug: open-juniper-network-ipam-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Network Policies API
+  slug: open-juniper-network-policies-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Operational API
+  slug: open-juniper-operational-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Organizations API
+  slug: open-juniper-organizations-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Projects API
+  slug: open-juniper-projects-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Reports API
+  slug: open-juniper-reports-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Resources API
+  slug: open-juniper-resources-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists RF Templates API
+  slug: open-juniper-rf-templates-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Routing Instances API
+  slug: open-juniper-routing-instances-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists RPC API
+  slug: open-juniper-rpc-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Scripts API
+  slug: open-juniper-scripts-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Security Groups API
+  slug: open-juniper-security-groups-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Self API
+  slug: open-juniper-self-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Service Instances API
+  slug: open-juniper-service-instances-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Site Groups API
+  slug: open-juniper-site-groups-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Sites API
+  slug: open-juniper-sites-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Software Management API
+  slug: open-juniper-software-management-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Systems API
+  slug: open-juniper-systems-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Tag Management API
+  slug: open-juniper-tag-management-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Threat Intelligence API
+  slug: open-juniper-threat-intelligence-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Users API
+  slug: open-juniper-users-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Virtual Networks API
+  slug: open-juniper-virtual-networks-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists WAN Edges API
+  slug: open-juniper-wan-edges-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists Webhooks API
+  slug: open-juniper-webhooks-api
+- collection_type: open
+  name: Juniper Networks Juniper Apstra Allowlists and Blocklists WLANs API
+  slug: open-juniper-wlans-api
 common:
 - group: agent
   title: ''
@@ -548,7 +689,7 @@ plans:
 - name: Juniper Plans Pricing
   plan_count: 1
   slug: juniper-plans-pricing
-random_paper: 45
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Juniper Rate Limits
@@ -582,7 +723,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/screenshots/juniper-2026-06-20T183833.png
 security:

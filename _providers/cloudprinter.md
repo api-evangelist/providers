@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Shipping levels, supported countries, and states reference data.
   name: Cloudprinter Shipping API
   slug: cloudprinter-shipping-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudprinter CloudCore Orders API
+  slug: open-cloudprinter-orders-api
+- collection_type: open
+  name: Cloudprinter CloudCore Orders Products API
+  slug: open-cloudprinter-products-api
+- collection_type: open
+  name: Cloudprinter CloudCore Orders Quotes API
+  slug: open-cloudprinter-quotes-api
+- collection_type: open
+  name: Cloudprinter CloudCore Orders Shipping API
+  slug: open-cloudprinter-shipping-api
 - collection_type: open
   name: Cloudprinter CloudCore API
   slug: open-cloudprinter
@@ -117,7 +132,7 @@ plans:
 - name: Cloudprinter Plans Pricing
   plan_count: 3
   slug: cloudprinter-plans-pricing
-random_paper: 107
+random_paper: 115
 rate_limits:
 - limit_count: 2
   name: Cloudprinter Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/screenshots/cloudprinter-2026-07-25T205710.png
 security:

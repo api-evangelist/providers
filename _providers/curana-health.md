@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Standards-based FHIR R4 (4.0.1) Patient Access API published for CMS-9115-F / ONC 21st Century Cures Act compliance. Lets Medicare Advantage members authorize third-party applications via OAuth 2.0 to
@@ -140,7 +140,7 @@ overview: 'Curana Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Curana Health''s developer surface includes documentation, API reference, signup flow, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 109
+random_paper: 117
 scopes:
 - name: Curana Health Scopes
   scope_count: 0
@@ -168,7 +168,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/screenshots/curana-health-2026-07-25T210929.png
 security:

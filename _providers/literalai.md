@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: The GraphQL API from Literal AI — 1 operation(s) for graphql.
   name: Literal AI GraphQL API
   slug: literalai-graphql-api
-artifact_total: 9
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Literal AI GraphQL API
+  slug: open-literalai-graphql-api
 - collection_type: open
   name: Literal AI API
   slug: open-literalai
@@ -112,7 +118,7 @@ plans:
 - name: Literalai Plans Pricing
   plan_count: 3
   slug: literalai-plans-pricing
-random_paper: 111
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Literalai Rate Limits
@@ -137,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/screenshots/literalai-2026-06-20T184606.png
 security:

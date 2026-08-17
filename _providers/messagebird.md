@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -96,21 +96,48 @@ apis:
 - description: Operations for sending and receiving WhatsApp messages through the Conversations API interface.
   name: messagebird WhatsApp Messages API
   slug: messagebird-whatsapp-messages-api
-artifact_total: 132
+artifact_total: 152
 asyncapis:
 - description: The MessageBird Conversations webhook system delivers real-time notifications for conversation events across all messaging channels including SMS, WhatsApp, Facebook Messenger, Telegram, and more. Web
   name: MessageBird Conversations Events
   slug: messagebird-conversations-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MessageBird Balance Available Numbers API
+  slug: open-messagebird-available-numbers-api
+- collection_type: open
+  name: MessageBird Available Numbers Balance API
+  slug: open-messagebird-balance-api
+- collection_type: open
   name: MessageBird Balance API
   slug: open-messagebird-balance
+- collection_type: open
+  name: MessageBird Balance Available Numbers Call Flows API
+  slug: open-messagebird-call-flows-api
+- collection_type: open
+  name: MessageBird Balance Available Numbers Calls API
+  slug: open-messagebird-calls-api
+- collection_type: open
+  name: MessageBird Balance Available Numbers Contacts API
+  slug: open-messagebird-contacts-api
 - collection_type: open
   name: MessageBird Contacts API
   slug: open-messagebird-contacts
 - collection_type: open
+  name: MessageBird Balance Available Numbers Conversations API
+  slug: open-messagebird-conversations-api
+- collection_type: open
   name: MessageBird Conversations API
   slug: open-messagebird-conversations
+- collection_type: open
+  name: MessageBird Balance Available Numbers Groups API
+  slug: open-messagebird-groups-api
+- collection_type: open
+  name: MessageBird Balance Available Numbers HLR API
+  slug: open-messagebird-hlr-api
 - collection_type: open
   name: MessageBird HLR API
   slug: open-messagebird-hlr
@@ -118,14 +145,38 @@ collections:
   name: MessageBird Integrations API
   slug: open-messagebird-integrations
 - collection_type: open
+  name: MessageBird Balance Available Numbers Legs API
+  slug: open-messagebird-legs-api
+- collection_type: open
+  name: MessageBird Balance Available Numbers Lookup API
+  slug: open-messagebird-lookup-api
+- collection_type: open
   name: MessageBird Lookup API
   slug: open-messagebird-lookup
+- collection_type: open
+  name: MessageBird Balance Available Numbers Messages API
+  slug: open-messagebird-messages-api
 - collection_type: open
   name: MessageBird Numbers API
   slug: open-messagebird-numbers
 - collection_type: open
+  name: MessageBird Balance Available Numbers Purchased Numbers API
+  slug: open-messagebird-purchased-numbers-api
+- collection_type: open
+  name: MessageBird Balance Available Numbers Recordings API
+  slug: open-messagebird-recordings-api
+- collection_type: open
   name: MessageBird SMS Messaging API
   slug: open-messagebird-sms-messaging
+- collection_type: open
+  name: MessageBird Balance Available Numbers Templates API
+  slug: open-messagebird-templates-api
+- collection_type: open
+  name: MessageBird Balance Available Numbers Transcriptions API
+  slug: open-messagebird-transcriptions-api
+- collection_type: open
+  name: MessageBird Balance Available Numbers Verify API
+  slug: open-messagebird-verify-api
 - collection_type: open
   name: MessageBird Verify API
   slug: open-messagebird-verify
@@ -133,8 +184,17 @@ collections:
   name: MessageBird Voice Calling API
   slug: open-messagebird-voice-calling
 - collection_type: open
+  name: MessageBird Balance Available Numbers Voice Messages API
+  slug: open-messagebird-voice-messages-api
+- collection_type: open
   name: MessageBird Voice Messaging API
   slug: open-messagebird-voice-messaging
+- collection_type: open
+  name: MessageBird Balance Available Numbers Webhooks API
+  slug: open-messagebird-webhooks-api
+- collection_type: open
+  name: MessageBird Balance Available Numbers WhatsApp Messages API
+  slug: open-messagebird-whatsapp-messages-api
 - collection_type: open
   name: MessageBird WhatsApp API
   slug: open-messagebird-whatsapp
@@ -452,7 +512,7 @@ plans:
 - name: Messagebird Plans Pricing
   plan_count: 6
   slug: messagebird-plans-pricing
-random_paper: 78
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Messagebird Rate Limits
@@ -494,7 +554,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/screenshots/messagebird-2026-06-20T185240.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: Student demographics, enrollment, and records
   name: PowerSchool Students API
   slug: powerschool-students-api
-artifact_total: 25
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PowerSchool SIS REST Authentication API
+  slug: open-powerschool-authentication-api
+- collection_type: open
+  name: PowerSchool SIS REST Authentication Courses API
+  slug: open-powerschool-courses-api
+- collection_type: open
+  name: PowerSchool SIS REST Authentication District API
+  slug: open-powerschool-district-api
+- collection_type: open
+  name: PowerSchool SIS REST Authentication Metadata API
+  slug: open-powerschool-metadata-api
+- collection_type: open
+  name: PowerSchool SIS REST Authentication PowerQuery API
+  slug: open-powerschool-powerquery-api
+- collection_type: open
+  name: PowerSchool SIS REST Authentication Schools API
+  slug: open-powerschool-schools-api
+- collection_type: open
+  name: PowerSchool SIS REST Authentication Sections API
+  slug: open-powerschool-sections-api
+- collection_type: open
+  name: PowerSchool SIS REST Authentication Students API
+  slug: open-powerschool-students-api
 common:
 - group: agent
   title: ''
@@ -200,7 +228,7 @@ plans:
 - name: Powerschool Plans Pricing
   plan_count: 3
   slug: powerschool-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Powerschool Rate Limits
@@ -234,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/screenshots/powerschool-2026-06-20T192035.png
 security:

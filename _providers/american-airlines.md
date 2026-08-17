@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: Flight information and status operations
   name: American Airlines Flights API
   slug: american-airlines-flights-api
-artifact_total: 41
+artifact_total: 44
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: American Airlines Runway Developer Bookings API
+  slug: open-american-airlines-bookings-api
+- collection_type: open
+  name: American Airlines Runway Developer Bookings Flights API
+  slug: open-american-airlines-flights-api
 - collection_type: open
   name: American Airlines Runway Developer API
   slug: open-american-airlines-runway-developer-api
@@ -212,7 +221,7 @@ press:
 - date: '2026-05-25'
   title: American Airlines reports fourth-quarter and full-year 2025 ...
   url: https://news.aa.com/news/news-details/2026/American-Airlines-reports-fourth-quarter-and-full-year-2025-financial-results-CORP-FI-01/default.aspx
-random_paper: 52
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: American Airlines Rate Limits
@@ -254,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

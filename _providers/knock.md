@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 3
@@ -96,12 +96,72 @@ apis:
 - description: A workflow is a structured set of steps that is triggered to produce notifications sent over channels.
   name: Knock Workflows API
   slug: knock-workflows-api
-artifact_total: 28
+artifact_total: 48
 asyncapis:
 - description: 'AsyncAPI specification for Knock''s real-time in-app notification feed transport. Knock exposes a Phoenix Channels WebSocket that pushes feed updates to subscribed clients. The connection is initiated '
   name: Knock Real-Time In-App Feed (Phoenix Channels)
   slug: knock-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Knock Audiences API
+  slug: open-knock-audiences-api
+- collection_type: open
+  name: Knock Audiences Bulk operations API
+  slug: open-knock-bulk-operations-api
+- collection_type: open
+  name: Knock Audiences Channel data API
+  slug: open-knock-channel-data-api
+- collection_type: open
+  name: Knock Audiences Feeds API
+  slug: open-knock-feeds-api
+- collection_type: open
+  name: Knock Audiences Guides API
+  slug: open-knock-guides-api
+- collection_type: open
+  name: Knock Audiences Integrations API
+  slug: open-knock-integrations-api
+- collection_type: open
+  name: Knock Audiences Messages API
+  slug: open-knock-messages-api
+- collection_type: open
+  name: Knock Audiences Microsoft Teams API
+  slug: open-knock-microsoft-teams-api
+- collection_type: open
+  name: Knock Audiences Objects API
+  slug: open-knock-objects-api
+- collection_type: open
+  name: Knock Audiences Preferences API
+  slug: open-knock-preferences-api
+- collection_type: open
+  name: Knock Audiences Providers API
+  slug: open-knock-providers-api
+- collection_type: open
+  name: Knock Audiences Schedules API
+  slug: open-knock-schedules-api
+- collection_type: open
+  name: Knock Audiences Slack API
+  slug: open-knock-slack-api
+- collection_type: open
+  name: Knock Audiences Subscriptions API
+  slug: open-knock-subscriptions-api
+- collection_type: open
+  name: Knock Audiences Tenants API
+  slug: open-knock-tenants-api
+- collection_type: open
+  name: Knock Audiences Users API
+  slug: open-knock-users-api
+- collection_type: open
+  name: Knock Audiences Workflow recipient runs API
+  slug: open-knock-workflow-recipient-runs-api
+- collection_type: open
+  name: Knock Audiences Workflow Triggers API
+  slug: open-knock-workflow-triggers-api
+- collection_type: open
+  name: Knock Audiences Workflows API
+  slug: open-knock-workflows-api
 - collection_type: open
   name: Knock API
   slug: open-knock
@@ -169,7 +229,7 @@ plans:
 - name: Knock Plans Pricing
   plan_count: 1
   slug: knock-plans-pricing
-random_paper: 54
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Knock Rate Limits
@@ -209,7 +269,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/screenshots/knock-2026-06-20T184119.png
 security:

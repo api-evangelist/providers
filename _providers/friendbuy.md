@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 44.1
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,8 +60,36 @@ apis:
 - description: Manage loyalty ledger balances, adjustments, redemptions, and coupons.
   name: Friendbuy Rewards & Loyalty API
   slug: friendbuy-rewards-loyalty-api
-artifact_total: 14
+artifact_total: 23
+asyncapis:
+- description: ''
+  name: Friendbuy Webhooks
+  slug: friendbuy-webhooks
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Friendbuy Merchant Analytics API
+  slug: open-friendbuy-analytics-api
+- collection_type: open
+  name: Friendbuy Merchant Analytics Authorization API
+  slug: open-friendbuy-authorization-api
+- collection_type: open
+  name: Friendbuy Merchant Analytics Customers API
+  slug: open-friendbuy-customers-api
+- collection_type: open
+  name: Friendbuy Merchant Analytics Events API
+  slug: open-friendbuy-events-api
+- collection_type: open
+  name: Friendbuy Merchant Analytics Management API
+  slug: open-friendbuy-management-api
+- collection_type: open
+  name: Friendbuy Merchant Analytics Referrals API
+  slug: open-friendbuy-referrals-api
+- collection_type: open
+  name: Friendbuy Merchant Analytics Rewards & Loyalty API
+  slug: open-friendbuy-rewards-loyalty-api
 - collection_type: open
   name: Friendbuy Merchant API
   slug: open-friendbuy
@@ -106,6 +134,90 @@ common:
   title: ''
   type: Blog
   url: https://friendbuy.com/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/friendbuy-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/friendbuy-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/friendbuy-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/friendbuy-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/friendbuy-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://friendbuy.statuspage.io
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/friendbuy-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/friendbuy-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/friendbuy-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/friendbuy-components.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/friendbuy-llms.txt
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.friendbuy.com/product-updates
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.friendbuy.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.friendbuy.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.friendbuy.com#integration-setup
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.friendbuy.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/friendbuy
+- group: start
+  title: ''
+  type: Login
+  url: https://retailer.fbot.me
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://friendbuy.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://friendbuy.com/privacy
 created: '2026-07-10'
 description: Friendbuy is a referral and loyalty marketing platform for ecommerce and direct-to-consumer brands. Merchants launch referral, loyalty, and reward campaigns through on-site widgets and a no-code dashboard, and integrate server-to-server through the Friendbuy Merchant API (base https://mapi.fbot.me/v1). The Merchant API lets merchants sync customer records, generate personal referral links, track purchase / sign-up / custom conversion events, pull campaign and reward analytics, and manage loyalty ledger balances, adjustments, redemptions, and coupons. Authentication is a key/secret exchange at POST /authorization that returns a short-lived Bearer JWT. Access to the API and to production credentials is gated behind a paid, contact-sales plan.
 finops:
@@ -114,34 +226,37 @@ finops:
   slug: friendbuy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/friendbuy.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-08-13'
 name: Friendbuy
 nav: Providers
 network: true
 overview: 'Friendbuy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authorization API, Customers API, and 4 more. Tagged areas include Referral Marketing, Loyalty, Rewards, Ecommerce, and Marketing.
 
 
-  Friendbuy''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  The Friendbuy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Friendbuy''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 24 more developer resources.'
 plans:
 - name: Friendbuy Plans Pricing
   plan_count: 3
   slug: friendbuy-plans-pricing
-random_paper: 8
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Friendbuy Rate Limits
   slug: friendbuy-rate-limits
 score:
-  band: thin
-  composite: 39.1
-  delta: 0.0
+  band: strong
+  composite: 65.9
+  delta: 26.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 61.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 31.6
+    commercial_clarity: 73.7
+    contract_quality: 70.1
+    developer_ergonomics: 65.2
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 76.3
   previous_composite: 39.1
   provenance:
     agentic_access: derived
@@ -151,8 +266,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/screenshots/friendbuy-2026-07-25T215215.png
 security:
 - kind: authentication

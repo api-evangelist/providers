@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -62,8 +62,23 @@ apis:
 - description: The Tags API from AWS Marketplace — 3 operation(s) for tags.
   name: AWS Marketplace Tags API
   slug: aws-marketplace-tags-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS Marketplace Catalog Change Sets API
+  slug: open-aws-marketplace-change-sets-api
+- collection_type: open
+  name: AWS Marketplace Catalog Change Sets Entities API
+  slug: open-aws-marketplace-entities-api
+- collection_type: open
+  name: AWS Marketplace Catalog Change Sets Resource Policies API
+  slug: open-aws-marketplace-resource-policies-api
+- collection_type: open
+  name: AWS Marketplace Catalog Change Sets Tags API
+  slug: open-aws-marketplace-tags-api
 - collection_type: open
   name: AWS Marketplace Catalog API
   slug: open-aws-marketplace
@@ -132,7 +147,7 @@ overview: 'AWS Marketplace publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   AWS Marketplace''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 97
+random_paper: 47
 score:
   band: thin
   composite: 30.3
@@ -153,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/screenshots/aws-marketplace-2026-06-20T172754.png
 security:

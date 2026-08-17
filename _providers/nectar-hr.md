@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: The Users API from Nectar — 2 operation(s) for users.
   name: Nectar Users API
   slug: nectar-hr-users-api
-artifact_total: 14
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nectar Public Analytics API
+  slug: open-nectar-hr-analytics-api
+- collection_type: open
+  name: Nectar Public Analytics Custom Awards API
+  slug: open-nectar-hr-custom-awards-api
+- collection_type: open
+  name: Nectar Public Analytics Flows API
+  slug: open-nectar-hr-flows-api
+- collection_type: open
+  name: Nectar Public Analytics Health API
+  slug: open-nectar-hr-health-api
+- collection_type: open
+  name: Nectar Public Analytics Recognition API
+  slug: open-nectar-hr-recognition-api
+- collection_type: open
+  name: Nectar Public Analytics Users API
+  slug: open-nectar-hr-users-api
 common:
 - group: agent
   title: ''
@@ -123,7 +145,7 @@ plans:
 - name: Nectar Hr Plans Pricing
   plan_count: 4
   slug: nectar-hr-plans-pricing
-random_paper: 60
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Nectar Hr Rate Limits
@@ -148,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/screenshots/nectar-hr-2026-08-07T184814.png
 security:

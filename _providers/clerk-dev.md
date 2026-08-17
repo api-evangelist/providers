@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 5
@@ -84,8 +84,56 @@ apis:
 - description: Svix-powered webhook portal management.
   name: Clerk Webhooks API
   slug: clerk-dev-webhooks-api
-artifact_total: 23
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist API
+  slug: open-clerk-dev-allowlist-blocklist-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Clients API
+  slug: open-clerk-dev-clients-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Email & SMS API
+  slug: open-clerk-dev-email-sms-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Invitations API
+  slug: open-clerk-dev-invitations-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist JWKS API
+  slug: open-clerk-dev-jwks-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist JWT Templates API
+  slug: open-clerk-dev-jwt-templates-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist OAuth Applications API
+  slug: open-clerk-dev-oauth-applications-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Organization Invitations API
+  slug: open-clerk-dev-organization-invitations-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Organization Memberships API
+  slug: open-clerk-dev-organization-memberships-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Organizations API
+  slug: open-clerk-dev-organizations-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist SAML & Enterprise Connections API
+  slug: open-clerk-dev-saml-enterprise-connections-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Sessions API
+  slug: open-clerk-dev-sessions-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Sign-ups & Tokens API
+  slug: open-clerk-dev-sign-ups-tokens-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Users API
+  slug: open-clerk-dev-users-api
+- collection_type: open
+  name: Clerk Backend Allowlist & Blocklist Webhooks API
+  slug: open-clerk-dev-webhooks-api
 - collection_type: open
   name: Clerk Backend API
   slug: open-clerk-dev
@@ -158,7 +206,7 @@ plans:
 - name: Clerk Dev Plans Pricing
   plan_count: 4
   slug: clerk-dev-plans-pricing
-random_paper: 53
+random_paper: 148
 rate_limits:
 - limit_count: 10
   name: Clerk Dev Rate Limits
@@ -183,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-dev/refs/heads/main/screenshots/clerk-dev-2026-07-25T205602.png
 security:

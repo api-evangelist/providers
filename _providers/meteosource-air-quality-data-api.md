@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Current and forecasted weather endpoints.
   name: MeteoSource Air Quality Data API Weather API
   slug: meteosource-air-quality-data-api-weather-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MeteoSource Data Air Quality API
+  slug: open-meteosource-air-quality-data-api-air-quality-api
+- collection_type: open
+  name: MeteoSource Data Air Quality History API
+  slug: open-meteosource-air-quality-data-api-history-api
+- collection_type: open
+  name: MeteoSource Data Air Quality Locations API
+  slug: open-meteosource-air-quality-data-api-locations-api
+- collection_type: open
+  name: MeteoSource Data Air Quality Maps API
+  slug: open-meteosource-air-quality-data-api-maps-api
+- collection_type: open
+  name: MeteoSource Data Air Quality Weather API
+  slug: open-meteosource-air-quality-data-api-weather-api
 - collection_type: open
   name: MeteoSource Air Quality Data API
   slug: open-meteosource-air-quality-data-api
@@ -112,7 +130,7 @@ plans:
 - name: Meteosource Air Quality Data Api Plans Pricing
   plan_count: 3
   slug: meteosource-air-quality-data-api-plans-pricing
-random_paper: 72
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Meteosource Air Quality Data Api Rate Limits
@@ -137,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/screenshots/meteosource-air-quality-data-api-2026-06-20T185257.png
 security:

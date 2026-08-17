@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - description: The Void API from Paymob — 3 operation(s) for void.
   name: Paymob Void API
   slug: paymob-void-api
-artifact_total: 99
+artifact_total: 115
 collections:
 - collection_type: postman
   name: Paymob Accept Legacy (v2) Accounts API
@@ -150,20 +150,68 @@ collections:
   name: Paymob Accept Legacy (v2) Accounts Void API
   slug: postman-paymob-void-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Paymob Accept Legacy (v2) API
   slug: open-paymob-accept-api
 - collection_type: open
-  name: Paymob Card Tokens API
+  name: Paymob Accept Legacy (v2) Accounts API
+  slug: open-paymob-accounts-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Authentication API
+  slug: open-paymob-authentication-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Capture API
+  slug: open-paymob-capture-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Card Tokens API
   slug: open-paymob-card-tokens-api
 - collection_type: open
-  name: Paymob Intentions API
+  name: Paymob Accept Legacy (v2) Accounts Checkout API
+  slug: open-paymob-checkout-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Disbursement API
+  slug: open-paymob-disbursement-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Intentions API
   slug: open-paymob-intentions-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Orders API
+  slug: open-paymob-orders-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Payment Keys API
+  slug: open-paymob-payment-keys-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Payment Links API
+  slug: open-paymob-payment-links-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Payments API
+  slug: open-paymob-payments-api
 - collection_type: open
   name: Paymob Payouts (Send) API
   slug: open-paymob-payouts-api
 - collection_type: open
-  name: Paymob Subscriptions API
+  name: Paymob Accept Legacy (v2) Accounts Refund API
+  slug: open-paymob-refund-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Saved Card Payments API
+  slug: open-paymob-saved-card-payments-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Subscription Plans API
+  slug: open-paymob-subscription-plans-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Subscriptions API
   slug: open-paymob-subscriptions-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Topup API
+  slug: open-paymob-topup-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Transactions API
+  slug: open-paymob-transactions-api
+- collection_type: open
+  name: Paymob Accept Legacy (v2) Accounts Void API
+  slug: open-paymob-void-api
 common:
 - group: build
   title: ''
@@ -455,7 +503,7 @@ plans:
 - name: Paymob Plans Pricing
   plan_count: 3
   slug: paymob-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: Paymob Rate Limits
@@ -503,7 +551,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/screenshots/paymob-2026-06-20T191508.png
 security:

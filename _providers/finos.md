@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 3
@@ -140,8 +140,86 @@ apis:
 - description: The Violations API from FINOS — 7 operation(s) for violations.
   name: FINOS Violations API
   slug: finos-violations-api
-artifact_total: 42
+artifact_total: 73
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Agent Admin API
+  slug: open-finos-admin-api
+- collection_type: open
+  name: Agent Admin AppEntitlement API
+  slug: open-finos-appentitlement-api
+- collection_type: open
+  name: Agent Admin Application API
+  slug: open-finos-application-api
+- collection_type: open
+  name: Agent Admin Attachments API
+  slug: open-finos-attachments-api
+- collection_type: open
+  name: Agent Admin AuditTrail API
+  slug: open-finos-audittrail-api
+- collection_type: open
+  name: Agent Admin CertificateAuthentication API
+  slug: open-finos-certificateauthentication-api
+- collection_type: open
+  name: Agent Admin CertificatePod API
+  slug: open-finos-certificatepod-api
+- collection_type: open
+  name: Agent Admin Connection API
+  slug: open-finos-connection-api
+- collection_type: open
+  name: Agent Admin Datafeed API
+  slug: open-finos-datafeed-api
+- collection_type: open
+  name: Agent Admin Datahose API
+  slug: open-finos-datahose-api
+- collection_type: open
+  name: Agent Admin Disclaimer API
+  slug: open-finos-disclaimer-api
+- collection_type: open
+  name: Agent Admin DLP Policies and Dictionary Management API
+  slug: open-finos-dlp-policies-and-dictionary-management-api
+- collection_type: open
+  name: Agent Admin File Ext API
+  slug: open-finos-file-ext-api
+- collection_type: open
+  name: Agent Admin InfoBarriers API
+  slug: open-finos-infobarriers-api
+- collection_type: open
+  name: Agent Admin Message API
+  slug: open-finos-message-api
+- collection_type: open
+  name: Agent Admin Messages API
+  slug: open-finos-messages-api
+- collection_type: open
+  name: Agent Admin MessageSuppression API
+  slug: open-finos-messagesuppression-api
+- collection_type: open
+  name: Agent Admin Pod API
+  slug: open-finos-pod-api
+- collection_type: open
+  name: Agent Admin Presence API
+  slug: open-finos-presence-api
+- collection_type: open
+  name: Agent Admin Room Membership API
+  slug: open-finos-room-membership-api
+- collection_type: open
+  name: Agent Admin Security API
+  slug: open-finos-security-api
+- collection_type: open
+  name: Agent Admin Session API
+  slug: open-finos-session-api
+- collection_type: open
+  name: Agent Admin Share API
+  slug: open-finos-share-api
+- collection_type: open
+  name: Agent Admin Signals API
+  slug: open-finos-signals-api
+- collection_type: open
+  name: Agent Admin Streams API
+  slug: open-finos-streams-api
 - collection_type: open
   name: Agent API
   slug: open-finos-symphony-agent-api
@@ -151,6 +229,21 @@ collections:
 - collection_type: open
   name: Pod API
   slug: open-finos-symphony-pod-api
+- collection_type: open
+  name: Agent Admin System API
+  slug: open-finos-system-api
+- collection_type: open
+  name: Agent Admin User API
+  slug: open-finos-user-api
+- collection_type: open
+  name: Agent Admin Users API
+  slug: open-finos-users-api
+- collection_type: open
+  name: Agent Admin Util API
+  slug: open-finos-util-api
+- collection_type: open
+  name: Agent Admin Violations API
+  slug: open-finos-violations-api
 common:
 - group: operate
   title: ''
@@ -228,7 +321,7 @@ plans:
 - name: Finos Plans Pricing
   plan_count: 5
   slug: finos-plans-pricing
-random_paper: 63
+random_paper: 96
 rate_limits:
 - limit_count: 3
   name: Finos Rate Limits
@@ -253,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 30
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/screenshots/finos-2026-06-20T181222.png
 security:

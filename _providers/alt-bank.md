@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Real-time consumer credit underwriting / risk-assessment API. Partners POST an underwriting request for a credit-card applicant and receive a Guard Score, risk band and credit-limit decision. The call
@@ -40,11 +40,18 @@ apis:
 - description: Identity verification / KYC SDK and API for onboarding and verifying applicants as part of the alt.bank credit and card flows.
   name: SDK KYC API
   slug: sdk-kyc-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Alt Bank Guard Webhooks
   slug: alt-bank-guard-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: alt.bank GUARD Underwriting API
+  slug: open-alt-bank-underwriting-api
 common:
 - group: auth
   title: ''
@@ -129,7 +136,7 @@ overview: 'Alt Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Alt Bank''s developer surface includes documentation, getting-started guide, API reference, support, authentication, sandbox, and 10 more developer resources.'
-random_paper: 58
+random_paper: 33
 score:
   band: thin
   composite: 32.8
@@ -157,7 +164,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/screenshots/alt-bank-2026-07-25T195815.png
 security:

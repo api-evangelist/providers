@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 35
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
@@ -126,11 +126,117 @@ apis:
 - description: Webhooks
   name: Cyware Webhooks API
   slug: cyware-webhooks-api
-artifact_total: 41
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Cyware Orchestrate Webhooks
   slug: cyware-orchestrate-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Administration API
+  slug: open-cyware-administration-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Allowed Indicators API
+  slug: open-cyware-allowed-indicators-api
+- collection_type: open
+  name: Cyware Orchestrate (CO) Open Analytics API
+  slug: open-cyware-analytics-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open ATT&CK Navigator API
+  slug: open-cyware-att-ck-navigator-api
+- collection_type: open
+  name: Cyware Orchestrate (CO) Open Authentication API
+  slug: open-cyware-authentication-api
+- collection_type: open
+  name: Cyware Orchestrate (CO) Open Code Snippets API
+  slug: open-cyware-code-snippets-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Create Intel via Open API API
+  slug: open-cyware-create-intel-via-open-api-api
+- collection_type: open
+  name: Cyware Orchestrate (CO) Open Custom Email Templates API
+  slug: open-cyware-custom-email-templates-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Dashboards API
+  slug: open-cyware-dashboards-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Detailed Submission API
+  slug: open-cyware-detailed-submission-api
+- collection_type: open
+  name: Cyware Orchestrate (CO) Open Events API
+  slug: open-cyware-events-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Fang/Defang API
+  slug: open-cyware-fang-defang-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Global Notes API
+  slug: open-cyware-global-notes-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Global Tasks API
+  slug: open-cyware-global-tasks-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Import Intel API
+  slug: open-cyware-import-intel-api
+- collection_type: open
+  name: Cyware Orchestrate (CO) Open Integrations API
+  slug: open-cyware-integrations-api
+- collection_type: open
+  name: Cyware Orchestrate (CO) Open Persistent List API
+  slug: open-cyware-persistent-list-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Ping API
+  slug: open-cyware-ping-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open PIR API
+  slug: open-cyware-pir-api
+- collection_type: open
+  name: Cyware Orchestrate (CO) Open Playbooks API
+  slug: open-cyware-playbooks-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Quick Add Intel API
+  slug: open-cyware-quick-add-intel-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Reports API
+  slug: open-cyware-reports-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open RSS Feeds API
+  slug: open-cyware-rss-feeds-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Rules API
+  slug: open-cyware-rules-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Status Check API
+  slug: open-cyware-status-check-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Tag Groups API
+  slug: open-cyware-tag-groups-api
+- collection_type: open
+  name: Cyware Tags API
+  slug: open-cyware-tags-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Threat Bulletin API
+  slug: open-cyware-threat-bulletin-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Threat Data API
+  slug: open-cyware-threat-data-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Threat Data Objects API
+  slug: open-cyware-threat-data-objects-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Threat Investigation API
+  slug: open-cyware-threat-investigation-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Threat Mailbox API
+  slug: open-cyware-threat-mailbox-api
+- collection_type: open
+  name: Cyware Intel Exchange (CTIX) v3 Open Watchlist API
+  slug: open-cyware-watchlist-api
+- collection_type: open
+  name: Cyware Orchestrate (CO) Open Webhooks API
+  slug: open-cyware-webhooks-api
 common:
 - group: operate
   title: ''
@@ -284,7 +390,7 @@ overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cyware''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Cyware Rate Limits
@@ -311,7 +417,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/screenshots/cyware-2026-08-07T164015.png
 security:

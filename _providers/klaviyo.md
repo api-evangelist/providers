@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
 - description: webhooks
   name: Klaviyo Webhooks API
   slug: klaviyo-webhooks-api
-artifact_total: 1269
+artifact_total: 1295
 asyncapis:
 - description: AsyncAPI 2.6 description of Klaviyo's system webhook surface. Klaviyo delivers webhook events to subscriber URLs configured via the Webhooks API (POST /api/webhooks). Each delivery is an HTTP POST wit
   name: Klaviyo Webhooks
@@ -184,6 +184,75 @@ collections:
   name: Klaviyo Accounts Webhooks API
   slug: postman-klaviyo-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Klaviyo Accounts API
+  slug: open-klaviyo-accounts-api
+- collection_type: open
+  name: Klaviyo Accounts Campaigns API
+  slug: open-klaviyo-campaigns-api
+- collection_type: open
+  name: Klaviyo Accounts Catalogs API
+  slug: open-klaviyo-catalogs-api
+- collection_type: open
+  name: Klaviyo Accounts Client API
+  slug: open-klaviyo-client-api
+- collection_type: open
+  name: Klaviyo Accounts Conversations API
+  slug: open-klaviyo-conversations-api
+- collection_type: open
+  name: Klaviyo Accounts Coupons API
+  slug: open-klaviyo-coupons-api
+- collection_type: open
+  name: Klaviyo Accounts Custom Objects API
+  slug: open-klaviyo-custom-objects-api
+- collection_type: open
+  name: Klaviyo Accounts Data Privacy API
+  slug: open-klaviyo-data-privacy-api
+- collection_type: open
+  name: Klaviyo Accounts Events API
+  slug: open-klaviyo-events-api
+- collection_type: open
+  name: Klaviyo Accounts Flows API
+  slug: open-klaviyo-flows-api
+- collection_type: open
+  name: Klaviyo Accounts Forms API
+  slug: open-klaviyo-forms-api
+- collection_type: open
+  name: Klaviyo Accounts Images API
+  slug: open-klaviyo-images-api
+- collection_type: open
+  name: Klaviyo Accounts Lists API
+  slug: open-klaviyo-lists-api
+- collection_type: open
+  name: Klaviyo Accounts Metrics API
+  slug: open-klaviyo-metrics-api
+- collection_type: open
+  name: Klaviyo Accounts Profiles API
+  slug: open-klaviyo-profiles-api
+- collection_type: open
+  name: Klaviyo Accounts Reporting API
+  slug: open-klaviyo-reporting-api
+- collection_type: open
+  name: Klaviyo Accounts Segments API
+  slug: open-klaviyo-segments-api
+- collection_type: open
+  name: Klaviyo Accounts Tags API
+  slug: open-klaviyo-tags-api
+- collection_type: open
+  name: Klaviyo Accounts Templates API
+  slug: open-klaviyo-templates-api
+- collection_type: open
+  name: Klaviyo Accounts Tracking Settings API
+  slug: open-klaviyo-tracking-settings-api
+- collection_type: open
+  name: Klaviyo Accounts Web Feeds API
+  slug: open-klaviyo-web-feeds-api
+- collection_type: open
+  name: Klaviyo Accounts Webhooks API
+  slug: open-klaviyo-webhooks-api
+- collection_type: open
   name: Klaviyo API
   slug: open-klaviyo
 common:
@@ -254,7 +323,7 @@ common:
 - group: start
   title: ''
   type: Signup
-  url: https://www.klaviyo.com/signup
+  url: https://www.klaviyo.com/sign-up
 - group: commercial
   title: ''
   type: Pricing
@@ -275,6 +344,122 @@ common:
   title: ''
   type: GitHub
   url: https://github.com/klaviyo
+- group: build
+  title: ''
+  type: Packages
+  url: packages/klaviyo-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/klaviyo-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/klaviyo-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/klaviyo-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/klaviyo-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/klaviyo-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/klaviyo-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.klaviyo.com/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/klaviyo-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/klaviyo-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developers.klaviyo.com/en/docs/api_versioning_and_deprecation_policy
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/klaviyo-scopes.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/klaviyo-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.klaviyo.com/security/bug-reporting
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/klaviyo-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/klaviyo-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/klaviyo-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/klaviyo-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/klaviyo-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/klaviyo-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://developers.klaviyo.com/en/docs/working_with_system_webhooks
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.klaviyo.com/en/docs/get_started
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.klaviyo.com/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://www.klaviyo.com/login
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/klaviyo/overview
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.klaviyo.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.klaviyo.com/en/reference/api_overview
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/klaviyo
 created: '2024-11-07T00:00:00.000Z'
 description: Klaviyo is a marketing automation and customer data platform built for ecommerce. Build custom integrations to bring data into Klaviyo to create personalized experiences across email, SMS, mobile push, and more. The Klaviyo API exposes profiles, events, lists, segments, campaigns, flows, catalogs, coupons, metrics, reviews, templates, webhooks, and reporting endpoints for building rich integrations and data pipelines.
 features:
@@ -282,8 +467,8 @@ features:
 - Email plan from $20/mo (500 profiles) up to $720+/mo (50K profiles)
 - Email + SMS from $35/mo (500 profiles) with 1,250 SMS credits
 - 'SMS credits: 1=domestic SMS, 3=MMS, 3-12=international'
-- Public API at api.klaviyo.com
-- Default 75 req/s burst, 700 req/min steady-state
+- Public API at a.klaviyo.com (verified 2026-08-13; api.klaviyo.com does not serve the API)
+- 'Rate limits tiered XS-XL per endpoint: 1/s-15/m (XS) through 350/s-3500/m (XL); L tier is 75/s, 700/m'
 - OAuth 2.0 (private apps) and API keys
 - Webhooks for profile, event, and metric updates
 - Profile and event APIs (track, identify)
@@ -3891,7 +4076,11 @@ json_structures:
   property_count: 0
   slug: klaviyo-structure
 layout: provider
-modified: '2026-05-30'
+mcp_servers:
+- description: ''
+  name: klaviyo-mcp.yml
+  slug: klaviyo-mcpyml
+modified: '2026-08-13'
 name: Klaviyo
 nav: Providers
 network: true
@@ -3901,14 +4090,14 @@ overview: 'Klaviyo publishes 23 APIs on the [APIs.io](https://apis.io/) network,
   The Klaviyo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Klaviyo''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, signup flow, pricing, and 15 more developer resources.'
+  Klaviyo''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, signup flow, pricing, and 44 more developer resources.'
 plans:
 - name: Klaviyo Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: klaviyo-plans-pricing
-random_paper: 47
+random_paper: 22
 rate_limits:
-- limit_count: 4
+- limit_count: 11
   name: Klaviyo Rate Limits
   slug: klaviyo-rate-limits
 rules:
@@ -3928,17 +4117,22 @@ rules:
     info: 1
     warn: 4
   slug: klaviyo-jsonschema-spectral-rules
+scopes:
+- name: Klaviyo Scopes
+  scope_count: 46
+  slug: klaviyo-scopes
+  summary_line: 46 scopes · authorizationCode
 score:
-  band: strong
-  composite: 56.9
-  delta: 0.0
+  band: exemplar
+  composite: 75.8
+  delta: 18.9
   facets:
-    commercial_clarity: 68.4
+    commercial_clarity: 73.7
     contract_quality: 73.9
-    developer_ergonomics: 52.2
-    discoverability: 74.1
-    governance: 41.7
-    operational_transparency: 44.7
+    developer_ergonomics: 84.8
+    discoverability: 92.6
+    governance: 62.5
+    operational_transparency: 71.1
   previous_composite: 56.9
   provenance:
     agentic_access: derived
@@ -3952,20 +4146,24 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
+    score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/screenshots/klaviyo-2026-06-20T184103.png
 security:
 - kind: authentication
   name: Klaviyo Authentication
   slug: klaviyo-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 4 schemes
 - kind: domain-security
   name: Klaviyo Domain Security
   slug: klaviyo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Klaviyo Vulnerability Disclosure
+  slug: klaviyo-vulnerability-disclosure
+  summary_line: Bugcrowd · contact published
 - kind: trust-center
   name: Klaviyo Trust Center
   slug: klaviyo-trust-center

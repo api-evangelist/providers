@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -40,7 +40,11 @@ apis:
 - description: 'UK Open Banking Read/Write Confirmation of Funds API (CBPII) as defined by the OBIE Confirmation of Funds API Specification v4.0.1 (OpenAPI 3.0.0). FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 '
   name: Shawbrook Confirmation of Funds API (CBPII, OBIE Standard, Unverified)
   slug: shawbrook-confirmation-of-funds-api
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata-swagger
 common:
 - group: agent
   title: ''
@@ -139,7 +143,7 @@ overview: 'Shawbrook Bank publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Shawbrook Bank''s developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
-random_paper: 113
+random_paper: 92
 scopes:
 - name: Shawbrook Bank Scopes
   scope_count: 3
@@ -173,7 +177,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

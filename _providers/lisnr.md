@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: The Accounts API from LISNR — 1 operation(s) for accounts.
@@ -61,7 +61,41 @@ apis:
 - description: The Users API from LISNR — 3 operation(s) for users.
   name: LISNR Users API
   slug: lisnr-users-api
-artifact_total: 13
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts API
+  slug: open-lisnr-accounts-api
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts API Tokens API
+  slug: open-lisnr-api-tokens-api
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts Applications API
+  slug: open-lisnr-applications-api
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts Authentication API
+  slug: open-lisnr-authentication-api
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts Billing API
+  slug: open-lisnr-billing-api
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts Notifications API
+  slug: open-lisnr-notifications-api
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts SDK Releases API
+  slug: open-lisnr-sdk-releases-api
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts SDK Tokens API
+  slug: open-lisnr-sdk-tokens-api
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts Tones Service API Reference API
+  slug: open-lisnr-tones-service-api-reference-api
+- collection_type: open
+  name: LISNR Portal API (observed) Accounts Users API
+  slug: open-lisnr-users-api
 common:
 - group: other
   title: ''
@@ -171,7 +205,7 @@ overview: 'LISNR publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LISNR''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 72
+random_paper: 105
 score:
   band: thin
   composite: 38.6
@@ -200,7 +234,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/screenshots/lisnr-2026-07-25T225338.png
 security:

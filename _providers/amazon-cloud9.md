@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +45,14 @@ apis:
 - description: Operations for managing Cloud9 development environments
   name: Amazon Cloud9 Environments API
   slug: amazon-cloud9-environments-api
-artifact_total: 40
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Cloud9 Environments API
+  slug: open-amazon-cloud9-environments-api
 common:
 - group: agent
   title: ''
@@ -261,7 +268,7 @@ overview: 'Amazon Cloud9 publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Amazon Cloud9''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 83
+random_paper: 91
 rules:
 - name: Amazon Cloud9 API Rules
   rule_count: 5
@@ -301,7 +308,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/screenshots/amazon-cloud9-2026-07-25T195945.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: Basic fraud scoring returning a single risk score (0-99) and IP risk score
   name: MaxMind minFraud Score API
   slug: maxmind-minfraud-score-api
-artifact_total: 13
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MaxMind GeoIP Web Services GeoIP City API
+  slug: open-maxmind-geoip-city-api
+- collection_type: open
+  name: MaxMind GeoIP Web Services GeoIP City GeoIP Country API
+  slug: open-maxmind-geoip-country-api
+- collection_type: open
+  name: MaxMind GeoIP Web Services GeoIP City GeoIP Insights API
+  slug: open-maxmind-geoip-insights-api
+- collection_type: open
+  name: MaxMind GeoIP Web Services GeoIP City minFraud Factors API
+  slug: open-maxmind-minfraud-factors-api
+- collection_type: open
+  name: MaxMind GeoIP Web Services GeoIP City minFraud Insights API
+  slug: open-maxmind-minfraud-insights-api
+- collection_type: open
+  name: MaxMind GeoIP Web Services GeoIP City minFraud Score API
+  slug: open-maxmind-minfraud-score-api
 common:
 - group: agent
   title: ''
@@ -155,7 +177,7 @@ plans:
 - name: Maxmind Plans Pricing
   plan_count: 10
   slug: maxmind-plans-pricing
-random_paper: 30
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Maxmind Rate Limits
@@ -180,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/screenshots/maxmind-2026-06-20T185052.png
 security:

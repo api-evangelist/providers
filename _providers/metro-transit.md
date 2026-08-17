@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,14 +50,29 @@ apis:
 - description: The Schedule API from Metro Transit — 5 operation(s) for schedule.
   name: Metro Transit Schedule API
   slug: metro-transit-schedule-api
-artifact_total: 14
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Service Alerts API
+  slug: open-metro-transit-alerts-api
 - collection_type: open
   name: Service Alerts API
   slug: open-metro-transit-alerts
 - collection_type: open
+  name: Service Alerts NexTrip API
+  slug: open-metro-transit-nextrip-api
+- collection_type: open
   name: NexTrip API
   slug: open-metro-transit-nextrip
+- collection_type: open
+  name: Service Alerts Planner API
+  slug: open-metro-transit-planner-api
+- collection_type: open
+  name: Service Alerts Schedule API
+  slug: open-metro-transit-schedule-api
 - collection_type: open
   name: Schedule API
   slug: open-metro-transit-schedule
@@ -117,7 +132,7 @@ plans:
 - name: Metro Transit Plans Pricing
   plan_count: 1
   slug: metro-transit-plans-pricing
-random_paper: 49
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Metro Transit Rate Limits
@@ -142,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-transit/refs/heads/main/screenshots/metro-transit-2026-06-20T185302.png
 security:

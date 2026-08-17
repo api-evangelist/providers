@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Historical orbital ephemerides
   name: US Space Command Space Object History API
   slug: us-space-comman-space-object-history-api
-artifact_total: 20
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Space-Track.org REST Authentication API
+  slug: open-us-space-comman-authentication-api
+- collection_type: open
+  name: Space-Track.org REST Authentication Conjunction Data API
+  slug: open-us-space-comman-conjunction-data-api
+- collection_type: open
+  name: Space-Track.org REST Authentication Decay and Reentry API
+  slug: open-us-space-comman-decay-and-reentry-api
+- collection_type: open
+  name: Space-Track.org REST Authentication General Perturbations API
+  slug: open-us-space-comman-general-perturbations-api
+- collection_type: open
+  name: Space-Track.org REST Authentication Satellite Catalog API
+  slug: open-us-space-comman-satellite-catalog-api
+- collection_type: open
+  name: Space-Track.org REST Authentication Space Object History API
+  slug: open-us-space-comman-space-object-history-api
 - collection_type: open
   name: Space-Track.org REST API
   slug: open-us-space-command-space-track
@@ -122,7 +143,7 @@ plans:
 - name: Us Space Comman Plans Pricing
   plan_count: 3
   slug: us-space-comman-plans-pricing
-random_paper: 41
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Us Space Comman Rate Limits
@@ -170,7 +191,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/screenshots/us-space-comman-2026-06-20T200629.png
 security:

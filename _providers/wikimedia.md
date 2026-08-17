@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -99,7 +99,68 @@ apis:
 - description: The wikidata API from Wikimedia — 3 operation(s) for wikidata.
   name: Wikimedia wikidata API
   slug: wikimedia-wikidata-api
-artifact_total: 103
+artifact_total: 123
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles API
+  slug: open-wikimedia-articles-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles batches API
+  slug: open-wikimedia-batches-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles Citation API
+  slug: open-wikimedia-citation-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles codes API
+  slug: open-wikimedia-codes-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles languages API
+  slug: open-wikimedia-languages-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles Math API
+  slug: open-wikimedia-math-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles Mobile API
+  slug: open-wikimedia-mobile-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles namespaces API
+  slug: open-wikimedia-namespaces-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles offline API
+  slug: open-wikimedia-offline-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles Page content API
+  slug: open-wikimedia-page-content-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles projects API
+  slug: open-wikimedia-projects-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles Reading lists API
+  slug: open-wikimedia-reading-lists-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles Recommendation API
+  slug: open-wikimedia-recommendation-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles snapshots API
+  slug: open-wikimedia-snapshots-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles structured-contents API
+  slug: open-wikimedia-structured-contents-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles structured-snapshots API
+  slug: open-wikimedia-structured-snapshots-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles Talk pages API
+  slug: open-wikimedia-talk-pages-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles Transforms API
+  slug: open-wikimedia-transforms-api
+- collection_type: open
+  name: Wikimedia Enterprise API spec articles wikidata API
+  slug: open-wikimedia-wikidata-api
 common:
 - group: agent
   title: ''
@@ -400,7 +461,7 @@ plans:
 - name: Wikimedia Enterprise
   plan_count: 2
   slug: wikimedia-enterprise
-random_paper: 108
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Mediawiki Action Api
@@ -443,7 +504,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/screenshots/wikimedia-2026-06-20T201454.png
 security:

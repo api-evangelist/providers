@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: The Accounts API from Google Business Profile — 8 operation(s) for accounts.
   name: Google Business Profile Accounts API
   slug: google-business-profile-accounts-api
-artifact_total: 14
+artifact_total: 16
 collections:
 - collection_type: postman
   name: Google Business Profile Accounts API
   slug: postman-google-business-profile-accounts-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Business Profile Accounts API
+  slug: open-google-business-profile-accounts-api
 - collection_type: open
   name: Google Business Profile API
   slug: open-openapi
@@ -155,7 +161,7 @@ plans:
 - name: Google Business Profile Plans Pricing
   plan_count: 3
   slug: google-business-profile-plans-pricing
-random_paper: 76
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Google Business Profile Rate Limits
@@ -194,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/screenshots/google-business-profile-2026-06-20T182034.png
 security:

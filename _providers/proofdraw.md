@@ -19,17 +19,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Provably-fair random selection REST API (v1) covering draw lifecycle, account, health, and public verification artifacts. HMAC-signed webhooks. Bearer API-key auth.
   name: ProofDraw API
   slug: proofdraw-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Proofdraw Webhooks
   slug: proofdraw-webhooks
+collections:
+- collection_type: open
+  name: ProofDraw API
+  slug: open-proofdraw-api
 common:
 - group: company
   title: ''
@@ -166,7 +170,7 @@ plans:
 - name: Proofdraw Plans Pricing
   plan_count: 2
   slug: proofdraw-plans-pricing
-random_paper: 20
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Proofdraw Rate Limits
@@ -184,7 +188,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 49.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

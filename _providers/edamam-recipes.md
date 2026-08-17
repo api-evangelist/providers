@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,8 +68,11 @@ apis:
 - description: Daily values
   name: Edamam values API
   slug: edamam-recipes-values-api
-artifact_total: 67
+artifact_total: 78
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Food Database API
   slug: open-edamam-food-database-v2
@@ -82,6 +85,36 @@ collections:
 - collection_type: open
   name: Recipe Search and Shopping List API
   slug: open-edamam-recipe-search-v2
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) API
+  slug: open-edamam-recipes-food-nutrition-request-ai-vision-beta-api
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) Food Request Step 1 - Parser API
+  slug: open-edamam-recipes-food-request-step-1-parser-api
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) Food Request Step 2 - Nutrients API
+  slug: open-edamam-recipes-food-request-step-2-nutrients-api
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) Food Search Autocomplete API
+  slug: open-edamam-recipes-food-search-autocomplete-api
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) Nutrition Data API
+  slug: open-edamam-recipes-nutrition-data-api
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) Nutrition Details API
+  slug: open-edamam-recipes-nutrition-details-api
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) planner API
+  slug: open-edamam-recipes-planner-api
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) Recipe Search API
+  slug: open-edamam-recipes-recipe-search-api
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) Shopping List API
+  slug: open-edamam-recipes-shopping-list-api
+- collection_type: open
+  name: Food Database Food Nutrition Request - AI Vision (Beta) Food Nutrition Request - AI Vision (Beta) values API
+  slug: open-edamam-recipes-values-api
 common:
 - group: agent
   title: ''
@@ -269,7 +302,7 @@ plans:
 - name: Edamam Recipes Plans Pricing
   plan_count: 0
   slug: edamam-recipes-plans-pricing
-random_paper: 85
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Edamam Recipes Rate Limits
@@ -311,7 +344,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/screenshots/edamam-recipes-2026-06-20T180448.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -66,8 +66,32 @@ apis:
 - description: The Webhooks API from Crowdin — 1 operation(s) for webhooks.
   name: Crowdin Webhooks API
   slug: crowdin-webhooks-api
-artifact_total: 19
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crowdin REST API v2 Files API
+  slug: open-crowdin-files-api
+- collection_type: open
+  name: Crowdin REST API v2 Files Glossaries API
+  slug: open-crowdin-glossaries-api
+- collection_type: open
+  name: Crowdin REST API v2 Files Projects API
+  slug: open-crowdin-projects-api
+- collection_type: open
+  name: Crowdin REST API v2 Files Screenshots API
+  slug: open-crowdin-screenshots-api
+- collection_type: open
+  name: Crowdin REST API v2 Files SourceStrings API
+  slug: open-crowdin-sourcestrings-api
+- collection_type: open
+  name: Crowdin REST API v2 Files StringTranslations API
+  slug: open-crowdin-stringtranslations-api
+- collection_type: open
+  name: Crowdin REST API v2 Files Webhooks API
+  slug: open-crowdin-webhooks-api
 - collection_type: open
   name: Crowdin REST API v2
   slug: open-crowdin
@@ -148,7 +172,7 @@ plans:
 - name: Crowdin Plans Pricing
   plan_count: 1
   slug: crowdin-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Crowdin Rate Limits
@@ -173,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/screenshots/crowdin-2026-06-20T175254.png
 security:

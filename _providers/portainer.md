@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -135,8 +135,107 @@ apis:
 - description: Create exec sessions using websockets
   name: Portainer websocket API
   slug: portainer-websocket-api
-artifact_total: 39
+artifact_total: 72
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PortainerCE auth API
+  slug: open-portainer-auth-api
+- collection_type: open
+  name: PortainerCE auth backup API
+  slug: open-portainer-backup-api
+- collection_type: open
+  name: PortainerCE auth custom_templates API
+  slug: open-portainer-custom-templates-api
+- collection_type: open
+  name: PortainerCE auth docker API
+  slug: open-portainer-docker-api
+- collection_type: open
+  name: PortainerCE auth edge API
+  slug: open-portainer-edge-api
+- collection_type: open
+  name: PortainerCE auth edge_groups API
+  slug: open-portainer-edge-groups-api
+- collection_type: open
+  name: PortainerCE auth edge_jobs API
+  slug: open-portainer-edge-jobs-api
+- collection_type: open
+  name: PortainerCE auth edge_stacks API
+  slug: open-portainer-edge-stacks-api
+- collection_type: open
+  name: PortainerCE auth endpoint_groups API
+  slug: open-portainer-endpoint-groups-api
+- collection_type: open
+  name: PortainerCE auth endpoints API
+  slug: open-portainer-endpoints-api
+- collection_type: open
+  name: PortainerCE auth gitops API
+  slug: open-portainer-gitops-api
+- collection_type: open
+  name: PortainerCE auth helm API
+  slug: open-portainer-helm-api
+- collection_type: open
+  name: PortainerCE auth intel API
+  slug: open-portainer-intel-api
+- collection_type: open
+  name: PortainerCE auth kubernetes API
+  slug: open-portainer-kubernetes-api
+- collection_type: open
+  name: PortainerCE auth ldap API
+  slug: open-portainer-ldap-api
+- collection_type: open
+  name: PortainerCE auth motd API
+  slug: open-portainer-motd-api
+- collection_type: open
+  name: PortainerCE auth registries API
+  slug: open-portainer-registries-api
+- collection_type: open
+  name: PortainerCE auth resource_controls API
+  slug: open-portainer-resource-controls-api
+- collection_type: open
+  name: PortainerCE auth roles API
+  slug: open-portainer-roles-api
+- collection_type: open
+  name: PortainerCE auth settings API
+  slug: open-portainer-settings-api
+- collection_type: open
+  name: PortainerCE auth ssl API
+  slug: open-portainer-ssl-api
+- collection_type: open
+  name: PortainerCE auth stacks API
+  slug: open-portainer-stacks-api
+- collection_type: open
+  name: PortainerCE auth status API
+  slug: open-portainer-status-api
+- collection_type: open
+  name: PortainerCE auth system API
+  slug: open-portainer-system-api
+- collection_type: open
+  name: PortainerCE auth tags API
+  slug: open-portainer-tags-api
+- collection_type: open
+  name: PortainerCE auth team_memberships API
+  slug: open-portainer-team-memberships-api
+- collection_type: open
+  name: PortainerCE auth teams API
+  slug: open-portainer-teams-api
+- collection_type: open
+  name: PortainerCE auth templates API
+  slug: open-portainer-templates-api
+- collection_type: open
+  name: PortainerCE auth upload API
+  slug: open-portainer-upload-api
+- collection_type: open
+  name: PortainerCE auth users API
+  slug: open-portainer-users-api
+- collection_type: open
+  name: PortainerCE auth webhooks API
+  slug: open-portainer-webhooks-api
+- collection_type: open
+  name: PortainerCE auth websocket API
+  slug: open-portainer-websocket-api
 - collection_type: open
   name: PortainerCE API
   slug: open-portainer
@@ -221,7 +320,7 @@ plans:
 - name: Portainer Plans Pricing
   plan_count: 3
   slug: portainer-plans-pricing
-random_paper: 20
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Portainer Rate Limits
@@ -246,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/screenshots/portainer-2026-06-20T191931.png
 security:

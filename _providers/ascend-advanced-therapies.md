@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: Job openings custom post type.
@@ -55,7 +55,35 @@ apis:
 - description: Categories and tags.
   name: Ascend Advanced Therapies Taxonomy API
   slug: ascend-advanced-therapies-taxonomy-api
-artifact_total: 11
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ascend Advanced Therapies Content API (WordPress REST) Careers API
+  slug: open-ascend-advanced-therapies-careers-api
+- collection_type: open
+  name: Ascend Advanced Therapies Content API (WordPress REST) Careers Discovery API
+  slug: open-ascend-advanced-therapies-discovery-api
+- collection_type: open
+  name: Ascend Advanced Therapies Content API (WordPress REST) Careers Media API
+  slug: open-ascend-advanced-therapies-media-api
+- collection_type: open
+  name: Ascend Advanced Therapies Content API (WordPress REST) Careers oEmbed API
+  slug: open-ascend-advanced-therapies-oembed-api
+- collection_type: open
+  name: Ascend Advanced Therapies Content API (WordPress REST) Careers Pages API
+  slug: open-ascend-advanced-therapies-pages-api
+- collection_type: open
+  name: Ascend Advanced Therapies Content API (WordPress REST) Careers Posts API
+  slug: open-ascend-advanced-therapies-posts-api
+- collection_type: open
+  name: Ascend Advanced Therapies Content API (WordPress REST) Careers Search API
+  slug: open-ascend-advanced-therapies-search-api
+- collection_type: open
+  name: Ascend Advanced Therapies Content API (WordPress REST) Careers Taxonomy API
+  slug: open-ascend-advanced-therapies-taxonomy-api
 common:
 - group: agent
   title: ''
@@ -138,7 +166,7 @@ overview: 'Ascend Advanced Therapies publishes 8 APIs on the [APIs.io](https://a
 
 
   Ascend Advanced Therapies'' developer surface includes engineering blog and 15 more developer resources.'
-random_paper: 99
+random_paper: 115
 score:
   band: emerging
   composite: 27.3
@@ -167,7 +195,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/screenshots/ascend-advanced-therapies-2026-07-25T201402.png
 security:

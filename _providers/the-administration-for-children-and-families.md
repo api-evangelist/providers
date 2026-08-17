@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -54,8 +54,17 @@ apis:
 - description: The v1 API from The Administration for Children and Families — 35 operation(s) for v1.
   name: The Administration for Children and Families v1 API
   slug: the-administration-for-children-and-families-v1-api
-artifact_total: 17
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TDP plg_auth_check API
+  slug: open-the-administration-for-children-and-families-plg-auth-check-api
+- collection_type: open
+  name: TDP plg_auth_check v1 API
+  slug: open-the-administration-for-children-and-families-v1-api
 - collection_type: open
   name: TDP API
   slug: open-the-administration-for-children-and-families
@@ -155,7 +164,7 @@ plans:
 - name: The Administration For Children And Families Plans Pricing
   plan_count: 3
   slug: the-administration-for-children-and-families-plans-pricing
-random_paper: 53
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: The Administration For Children And Families Rate Limits
@@ -195,7 +204,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/screenshots/the-administration-for-children-and-families-2026-06-20T195211.png
 security:

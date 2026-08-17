@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -68,7 +68,38 @@ apis:
 - description: System time and robot control
   name: Opentrons System Control API
   slug: opentrons-system-control-api
-artifact_total: 20
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Opentrons HTTP Attached Instruments API
+  slug: open-opentrons-attached-instruments-api
+- collection_type: open
+  name: Opentrons HTTP Attached Instruments Attached Modules API
+  slug: open-opentrons-attached-modules-api
+- collection_type: open
+  name: Opentrons HTTP Attached Instruments Flex Deck Configuration API
+  slug: open-opentrons-flex-deck-configuration-api
+- collection_type: open
+  name: Opentrons HTTP Attached Instruments Health API
+  slug: open-opentrons-health-api
+- collection_type: open
+  name: Opentrons HTTP Attached Instruments Protocol Management API
+  slug: open-opentrons-protocol-management-api
+- collection_type: open
+  name: Opentrons HTTP Attached Instruments Robot API
+  slug: open-opentrons-robot-api
+- collection_type: open
+  name: Opentrons HTTP Attached Instruments Run Management API
+  slug: open-opentrons-run-management-api
+- collection_type: open
+  name: Opentrons HTTP Attached Instruments Simple Commands API
+  slug: open-opentrons-simple-commands-api
+- collection_type: open
+  name: Opentrons HTTP Attached Instruments System Control API
+  slug: open-opentrons-system-control-api
 common:
 - group: commercial
   title: ''
@@ -179,7 +210,7 @@ plans:
 - name: Opentrons Plans Pricing
   plan_count: 4
   slug: opentrons-plans-pricing
-random_paper: 40
+random_paper: 106
 rate_limits:
 - limit_count: 0
   name: Opentrons Rate Limits
@@ -219,7 +250,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/screenshots/opentrons-2026-06-20T191056.png
 security:

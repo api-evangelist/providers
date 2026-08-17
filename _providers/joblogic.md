@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Engineer visits scheduled against jobs.
   name: Joblogic Visits API
   slug: joblogic-visits-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Joblogic Assets API
+  slug: open-joblogic-assets-api
+- collection_type: open
+  name: Joblogic Assets Contacts API
+  slug: open-joblogic-contacts-api
+- collection_type: open
+  name: Joblogic Assets Customers API
+  slug: open-joblogic-customers-api
+- collection_type: open
+  name: Joblogic Assets Engineers API
+  slug: open-joblogic-engineers-api
+- collection_type: open
+  name: Joblogic Assets Invoices API
+  slug: open-joblogic-invoices-api
+- collection_type: open
+  name: Joblogic Assets Jobs API
+  slug: open-joblogic-jobs-api
+- collection_type: open
+  name: Joblogic Assets Quotes API
+  slug: open-joblogic-quotes-api
+- collection_type: open
+  name: Joblogic Assets Sites API
+  slug: open-joblogic-sites-api
+- collection_type: open
+  name: Joblogic Assets Visits API
+  slug: open-joblogic-visits-api
 - collection_type: open
   name: Joblogic API
   slug: open-joblogic
@@ -128,7 +158,7 @@ plans:
 - name: Joblogic Plans Pricing
   plan_count: 3
   slug: joblogic-plans-pricing
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Joblogic Rate Limits
@@ -153,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/screenshots/joblogic-2026-07-25T223221.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: API-key-authenticated REST API returning de-vigged consensus sports probabilities, fixtures, outrights, line movement, and webhook alerts across 13 sports. Public OpenAPI 3.0.3 contract with 11 operat
@@ -28,11 +28,15 @@ apis:
 - description: Hosted Model Context Protocol server exposing the SkipOdds Index to AI assistants — stateless streamable-http at https://skipodds.com/mcp, protocol version 2025-06-18, five read-only tools (list_fixtu
   name: SkipOdds MCP Server
   slug: skipodds-mcp-server
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Skipodds Webhooks
   slug: skipodds-webhooks
+collections:
+- collection_type: open
+  name: SkipOdds
+  slug: open-skipodds
 common:
 - group: start
   title: ''
@@ -164,7 +168,7 @@ plans:
 - name: Skipodds Plans Pricing
   plan_count: 6
   slug: skipodds-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: Skipodds Rate Limits
@@ -188,7 +192,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

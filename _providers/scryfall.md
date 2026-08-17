@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Large daily exports of the entire Scryfall card database.
@@ -52,7 +52,32 @@ apis:
 - description: All card symbols and their semantics.
   name: Scryfall Symbology API
   slug: scryfall-symbology-api
-artifact_total: 74
+artifact_total: 82
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scryfall Bulk Data API
+  slug: open-scryfall-bulk-data-api
+- collection_type: open
+  name: Scryfall Cards API
+  slug: open-scryfall-cards-api
+- collection_type: open
+  name: Scryfall Catalogs API
+  slug: open-scryfall-catalogs-api
+- collection_type: open
+  name: Scryfall Migrations API
+  slug: open-scryfall-migrations-api
+- collection_type: open
+  name: Scryfall Rulings API
+  slug: open-scryfall-rulings-api
+- collection_type: open
+  name: Scryfall Sets API
+  slug: open-scryfall-sets-api
+- collection_type: open
+  name: Scryfall Symbology API
+  slug: open-scryfall-symbology-api
 common:
 - group: commercial
   title: ''
@@ -367,7 +392,7 @@ plans:
 - name: Scryfall Plans Pricing
   plan_count: 2
   slug: scryfall-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Scryfall Rate Limits
@@ -414,7 +439,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/screenshots/scryfall-2026-06-20T193609.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -52,8 +52,23 @@ apis:
 - description: The Workflow API from Conductor OSS — 9 operation(s) for workflow.
   name: Conductor OSS Workflow API
   slug: conductor-oss-workflow-api
-artifact_total: 33
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Conductor OSS REST Events API
+  slug: open-conductor-oss-events-api
+- collection_type: open
+  name: Conductor OSS REST Events Metadata API
+  slug: open-conductor-oss-metadata-api
+- collection_type: open
+  name: Conductor OSS REST Events Tasks API
+  slug: open-conductor-oss-tasks-api
+- collection_type: open
+  name: Conductor OSS REST Events Workflow API
+  slug: open-conductor-oss-workflow-api
 - collection_type: open
   name: Conductor OSS REST API
   slug: open-conductor-oss
@@ -212,7 +227,7 @@ overview: 'Conductor OSS publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Conductor OSS''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, YouTube channel, pricing, developer portal, and 20 more developer resources.'
-random_paper: 43
+random_paper: 22
 score:
   band: thin
   composite: 37.9
@@ -233,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/screenshots/conductor-oss-2026-06-20T174846.png
 security:

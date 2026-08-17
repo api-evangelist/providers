@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -156,7 +156,119 @@ apis:
 - description: The user API from Aarhus University — 7 operation(s) for user.
   name: Aarhus University user API
   slug: aarhus-user-api
-artifact_total: 58
+artifact_total: 95
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-aarhus-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-aarhus-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-aarhus-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-aarhus-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-aarhus-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-aarhus-concept-api
+- collection_type: open
+  name: Pure activity conferenceSeries API
+  slug: open-aarhus-conferenceseries-api
+- collection_type: open
+  name: Pure activity contract API
+  slug: open-aarhus-contract-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-aarhus-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-aarhus-dataset-api
+- collection_type: open
+  name: Pure activity education API
+  slug: open-aarhus-education-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-aarhus-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-aarhus-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-aarhus-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-aarhus-externalperson-api
+- collection_type: open
+  name: Pure activity fingerprint API
+  slug: open-aarhus-fingerprint-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-aarhus-fundingopportunity-api
+- collection_type: open
+  name: Pure activity impact API
+  slug: open-aarhus-impact-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-aarhus-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-aarhus-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity milestone API
+  slug: open-aarhus-milestone-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-aarhus-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-aarhus-person-api
+- collection_type: open
+  name: Pure activity personExpertise API
+  slug: open-aarhus-personexpertise-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-aarhus-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-aarhus-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-aarhus-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-aarhus-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-aarhus-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-aarhus-role-api
+- collection_type: open
+  name: Pure activity semester API
+  slug: open-aarhus-semester-api
+- collection_type: open
+  name: Pure activity specialization API
+  slug: open-aarhus-specialization-api
+- collection_type: open
+  name: Pure activity studentProject API
+  slug: open-aarhus-studentproject-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-aarhus-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-aarhus-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-aarhus-user-api
 common:
 - group: agent
   title: ''
@@ -260,7 +372,7 @@ plans:
 - name: Aarhus Plans Pricing
   plan_count: 2
   slug: aarhus-plans-pricing
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Aarhus Rate Limits
@@ -308,7 +420,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aarhus/refs/heads/main/screenshots/aarhus-2026-06-20T163007.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Tags API from Amazon QLDB — 2 operation(s) for tags.
   name: Amazon QLDB Tags API
   slug: amazon-qldb-tags-api
-artifact_total: 132
+artifact_total: 136
 collections:
 - collection_type: postman
   name: Amazon QLDB Journal S3 Exports API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Amazon QLDB Journal S3 Exports Tags API
   slug: postman-amazon-qldb-tags-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon QLDB Journal S3 Exports API
+  slug: open-amazon-qldb-journal-s3-exports-api
+- collection_type: open
+  name: Amazon QLDB Journal S3 Exports Ledgers API
+  slug: open-amazon-qldb-ledgers-api
+- collection_type: open
+  name: Amazon QLDB Journal S3 Exports Tags API
+  slug: open-amazon-qldb-tags-api
 common:
 - group: build
   title: ''
@@ -976,7 +988,7 @@ plans:
 - name: Amazon Qldb Plans Pricing
   plan_count: 3
   slug: amazon-qldb-plans-pricing
-random_paper: 30
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Amazon Qldb Rate Limits
@@ -1018,7 +1030,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/screenshots/amazon-qldb-2026-06-20T171803.png
 security:

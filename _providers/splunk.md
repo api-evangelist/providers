@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -101,14 +101,26 @@ arazzos:
 - description: Run an SPL search, wait for it to finish, then pull the untransformed events.
   name: Splunk Search and Retrieve Raw Events
   slug: splunk-search-events-workflow
-artifact_total: 176
+artifact_total: 180
 collections:
 - collection_type: postman
   name: Splunk Enterprise REST API
   slug: postman-splunk-enterprise-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Splunk Enterprise REST Data Inputs API
+  slug: open-splunk-data-inputs-api
+- collection_type: open
   name: Splunk Enterprise REST API
   slug: open-splunk-enterprise-rest-api
+- collection_type: open
+  name: Splunk Enterprise REST Data Inputs Index API
+  slug: open-splunk-index-api
+- collection_type: open
+  name: Splunk Enterprise REST Data Inputs Search API
+  slug: open-splunk-search-api
 common:
 - group: commercial
   title: ''
@@ -721,12 +733,11 @@ overview: 'Splunk publishes 3 APIs on the [APIs.io](https://apis.io/) network: D
 
 
   Splunk''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, pricing, signup flow, and 41 more developer resources.'
-paper_is_own: true
 plans:
 - name: Splunk Plans Pricing
   plan_count: 3
   slug: splunk-plans-pricing
-random_paper: 34
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Splunk Rate Limits
@@ -768,7 +779,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:

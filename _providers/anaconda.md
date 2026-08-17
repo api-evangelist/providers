@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 7
@@ -101,11 +101,81 @@ apis:
 - description: The websocket API from Anaconda — 3 operation(s) for websocket.
   name: Anaconda Websocket API
   slug: anaconda-websocket-api
-artifact_total: 32
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Anaconda Events
   slug: anaconda-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anaconda Server Account API
+  slug: open-anaconda-account-api
+- collection_type: open
+  name: AI Navigator AI Navigator API API
+  slug: open-anaconda-ai-navigator-api-api
+- collection_type: open
+  name: Anaconda Server Artifacts API
+  slug: open-anaconda-artifacts-api
+- collection_type: open
+  name: Audit Logs API
+  slug: open-anaconda-audit-logs-api
+- collection_type: open
+  name: Anaconda Server Auth API
+  slug: open-anaconda-auth-api
+- collection_type: open
+  name: Anaconda Server Channels API
+  slug: open-anaconda-channels-api
+- collection_type: open
+  name: Anaconda Server Cves API
+  slug: open-anaconda-cves-api
+- collection_type: open
+  name: Anaconda Server Diagnosis API
+  slug: open-anaconda-diagnosis-api
+- collection_type: open
+  name: Anaconda Server Docs API
+  slug: open-anaconda-docs-api
+- collection_type: open
+  name: Anaconda Files API
+  slug: open-anaconda-files-api
+- collection_type: open
+  name: Anaconda Server Groups API
+  slug: open-anaconda-groups-api
+- collection_type: open
+  name: Anaconda Server Installers API
+  slug: open-anaconda-installers-api
+- collection_type: open
+  name: Anaconda Server Mirrors API
+  slug: open-anaconda-mirrors-api
+- collection_type: open
+  name: Anaconda Models API
+  slug: open-anaconda-models-api
+- collection_type: open
+  name: Organization Management Organizations API
+  slug: open-anaconda-organizations-api
+- collection_type: open
+  name: Anaconda Server Repo API
+  slug: open-anaconda-repo-api
+- collection_type: open
+  name: Anaconda Server Reports API
+  slug: open-anaconda-reports-api
+- collection_type: open
+  name: Anaconda Servers API
+  slug: open-anaconda-servers-api
+- collection_type: open
+  name: Anaconda Server System API
+  slug: open-anaconda-system-api
+- collection_type: open
+  name: Anaconda Server Users API
+  slug: open-anaconda-users-api
+- collection_type: open
+  name: AI Navigator Vector DB API
+  slug: open-anaconda-vectordb-api
+- collection_type: open
+  name: Anaconda Server Websocket API
+  slug: open-anaconda-websocket-api
 common:
 - group: agent
   title: ''
@@ -314,7 +384,7 @@ overview: 'Anaconda publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anaconda''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
-random_paper: 101
+random_paper: 76
 scopes:
 - name: Anaconda Scopes
   scope_count: 3
@@ -343,7 +413,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/screenshots/anaconda-2026-08-07T161352.png
 security:

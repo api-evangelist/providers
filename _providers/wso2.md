@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 6
@@ -309,7 +309,7 @@ apis:
 - description: The Workflows (Individual) API from WSO2 — 2 operation(s) for workflows (individual).
   name: WSO2 Workflows (Individual) API
   slug: wso2-workflows-individual-api
-artifact_total: 1103
+artifact_total: 1194
 collections:
 - collection_type: postman
   name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Advanced Policy (Collection) API
@@ -581,6 +581,279 @@ collections:
 - collection_type: postman
   name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Workflows (Individual) API
   slug: postman-wso2-workflows-individual-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Advanced Policy (Collection) API
+  slug: open-wso2-advanced-policy-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Advanced Policy (Individual) API
+  slug: open-wso2-advanced-policy-individual-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) AIServiceProvider API
+  slug: open-wso2-aiserviceprovider-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) AIServiceProviders API
+  slug: open-wso2-aiserviceproviders-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Alert Subscriptions API
+  slug: open-wso2-alert-subscriptions-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Alerts API
+  slug: open-wso2-alerts-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Api Artifact API
+  slug: open-wso2-api-artifact-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Categories API
+  slug: open-wso2-api-categories-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Category (Collection) API
+  slug: open-wso2-api-category-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Category (Individual) API
+  slug: open-wso2-api-category-individual-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Chat API
+  slug: open-wso2-api-chat-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Documents API
+  slug: open-wso2-api-documents-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Monetization API
+  slug: open-wso2-api-monetization-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Api Provider Change API
+  slug: open-wso2-api-provider-change-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) APIKeys API
+  slug: open-wso2-apikeys-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) APIs API
+  slug: open-wso2-apis-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application API
+  slug: open-wso2-application-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application (Collection) API
+  slug: open-wso2-application-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Keys API
+  slug: open-wso2-application-keys-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Policy (Collection) API
+  slug: open-wso2-application-policy-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Policy (Individual) API
+  slug: open-wso2-application-policy-individual-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Secrets API
+  slug: open-wso2-application-secrets-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Tokens API
+  slug: open-wso2-application-tokens-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Applications API
+  slug: open-wso2-applications-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Artifact Compliance API
+  slug: open-wso2-artifact-compliance-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Bot Detection Alert Subscriptions API
+  slug: open-wso2-bot-detection-alert-subscriptions-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Bot Detection Data API
+  slug: open-wso2-bot-detection-data-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Comments API
+  slug: open-wso2-comments-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Config API
+  slug: open-wso2-config-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Consumption API
+  slug: open-wso2-consumption-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Custom Rules (Collection) API
+  slug: open-wso2-custom-rules-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Custom Rules (Individual) API
+  slug: open-wso2-custom-rules-individual-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Deny Policies (Collection) API
+  slug: open-wso2-deny-policies-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Deny Policy (Individual) API
+  slug: open-wso2-deny-policy-individual-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) End Points API
+  slug: open-wso2-end-points-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Environments API
+  slug: open-wso2-environments-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Get API Info API
+  slug: open-wso2-get-api-info-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Get Application Info API
+  slug: open-wso2-get-application-info-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Get Subscription Info API
+  slug: open-wso2-get-subscription-info-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Global Key Manager (Collection) API
+  slug: open-wso2-global-key-manager-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Global Key Manager (Individual) API
+  slug: open-wso2-global-key-manager-individual-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Governance Policies API
+  slug: open-wso2-governance-policies-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) GraphQL Policies API
+  slug: open-wso2-graphql-policies-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Import Export API
+  slug: open-wso2-import-export-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Key Manager (Collection) API
+  slug: open-wso2-key-manager-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Key Manager (Individual) API
+  slug: open-wso2-key-manager-individual-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Key Managers API
+  slug: open-wso2-key-managers-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Label (Individual) API
+  slug: open-wso2-label-individual-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Labels (Collection) API
+  slug: open-wso2-labels-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) LLMProvider API
+  slug: open-wso2-llmprovider-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) LLMProviders API
+  slug: open-wso2-llmproviders-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Local Entry API
+  slug: open-wso2-local-entry-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Marketplace Assistant API
+  slug: open-wso2-marketplace-assistant-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) MCP Server Documents API
+  slug: open-wso2-mcp-server-documents-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) MCP Servers API
+  slug: open-wso2-mcp-servers-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Monetization (Collection) API
+  slug: open-wso2-monetization-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Org Themes API
+  slug: open-wso2-org-themes-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Organizations API
+  slug: open-wso2-organizations-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Platform Gateways API
+  slug: open-wso2-platform-gateways-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Policy Adherence API
+  slug: open-wso2-policy-adherence-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Ratings API
+  slug: open-wso2-ratings-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Recommendations API
+  slug: open-wso2-recommendations-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Redeploy Api API
+  slug: open-wso2-redeploy-api-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Register API
+  slug: open-wso2-register-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Roles API
+  slug: open-wso2-roles-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Rulesets API
+  slug: open-wso2-rulesets-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) SDKs API
+  slug: open-wso2-sdks-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Sequence API
+  slug: open-wso2-sequence-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Server Startup Healthcheck API
+  slug: open-wso2-server-startup-healthcheck-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Services API
+  slug: open-wso2-services-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Settings API
+  slug: open-wso2-settings-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Subscription Policy (Collection) API
+  slug: open-wso2-subscription-policy-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Subscription Policy (Individual) API
+  slug: open-wso2-subscription-policy-individual-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Subscriptions API
+  slug: open-wso2-subscriptions-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) System Scopes API
+  slug: open-wso2-system-scopes-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tags API
+  slug: open-wso2-tags-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenant Config API
+  slug: open-wso2-tenant-config-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenant Config Schema API
+  slug: open-wso2-tenant-config-schema-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenant Logs API
+  slug: open-wso2-tenant-logs-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenant Theme API
+  slug: open-wso2-tenant-theme-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenants API
+  slug: open-wso2-tenants-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Throttling Policies API
+  slug: open-wso2-throttling-policies-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Topics API
+  slug: open-wso2-topics-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Transaction Records API
+  slug: open-wso2-transaction-records-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Undeploy Api API
+  slug: open-wso2-undeploy-api-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Unified Search API
+  slug: open-wso2-unified-search-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Users API
+  slug: open-wso2-users-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Webhooks API
+  slug: open-wso2-webhooks-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Workflow (Collection) API
+  slug: open-wso2-workflow-collection-api
+- collection_type: open
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Workflows (Individual) API
+  slug: open-wso2-workflows-individual-api
 common:
 - group: commercial
   title: ''
@@ -3427,7 +3700,7 @@ plans:
 - name: Wso2 Plans Pricing
   plan_count: 14
   slug: wso2-plans-pricing
-random_paper: 35
+random_paper: 97
 rate_limits:
 - limit_count: 3
   name: Wso2 Rate Limits
@@ -3466,7 +3739,7 @@ score:
       marker_coverage: 0.0
       total: 91
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,12 +50,18 @@ apis:
 - description: SPIFFE trust bundle retrieval operations for fetching root CA certificates used to validate SVIDs issued by a trust domain
   name: SPIFFE Bundle API
   slug: spiffe-bundle-api
-artifact_total: 18
+artifact_total: 20
 asyncapis:
 - description: 'The SPIFFE Workload API is a gRPC streaming interface through which workloads request and receive SPIFFE Verifiable Identity Documents (SVIDs) and trust bundle updates. Workloads subscribe to the API '
   name: SPIFFE Workload API Events
   slug: spiffe-workload-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SPIFFE Federation Endpoint Bundle API
+  slug: open-spiffe-bundle-api
 - collection_type: open
   name: SPIFFE Federation Bundle Endpoint API
   slug: open-spiffe-federation
@@ -172,7 +178,7 @@ plans:
 - name: Spiffe Plans Pricing
   plan_count: 3
   slug: spiffe-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Spiffe Rate Limits
@@ -222,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/screenshots/spiffe-2026-06-20T194311.png
 security:

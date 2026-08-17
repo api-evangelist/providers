@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -308,7 +308,7 @@ arazzos:
 - description: Find a host, review its applicable errata, and update its content view assignment.
   name: Red Hat Satellite Host Errata Remediation
   slug: red-hat-satellite-host-errata-remediation-workflow
-artifact_total: 281
+artifact_total: 316
 asyncapis:
 - description: The Red Hat Streams for Apache Kafka Bridge provides an HTTP-based interface for producing and consuming messages to and from Apache Kafka topics without requiring a native Kafka client. Deployed on O
   name: Red Hat Streams for Apache Kafka Bridge Events
@@ -336,23 +336,128 @@ collections:
   name: Red Hat Satellite API
   slug: postman-red-hat-satellite
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons API
+  slug: open-red-hat-add-ons-api
+- collection_type: open
   name: Red Hat Ansible Automation Platform API
   slug: open-red-hat-ansible-automation-platform
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Clients API
+  slug: open-red-hat-clients-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Cloud Providers API
+  slug: open-red-hat-cloud-providers-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Clusters API
+  slug: open-red-hat-clusters-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Content Views API
+  slug: open-red-hat-content-views-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Credentials API
+  slug: open-red-hat-credentials-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Environments API
+  slug: open-red-hat-environments-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Errata API
+  slug: open-red-hat-errata-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Groups API
+  slug: open-red-hat-groups-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Host Groups API
+  slug: open-red-hat-host-groups-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Hosts API
+  slug: open-red-hat-hosts-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Identity Providers API
+  slug: open-red-hat-identity-providers-api
 - collection_type: open
   name: Red Hat Insights API
   slug: open-red-hat-insights
 - collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Inventories API
+  slug: open-red-hat-inventories-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Job Templates API
+  slug: open-red-hat-job-templates-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Jobs API
+  slug: open-red-hat-jobs-api
+- collection_type: open
   name: Red Hat Build of Keycloak Admin REST API
   slug: open-red-hat-keycloak-admin
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Machine Pools API
+  slug: open-red-hat-machine-pools-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Manifests API
+  slug: open-red-hat-manifests-api
 - collection_type: open
   name: Red Hat OpenShift Cluster Manager API
   slug: open-red-hat-openshift-cluster-manager
 - collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Organizations API
+  slug: open-red-hat-organizations-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Projects API
+  slug: open-red-hat-projects-api
+- collection_type: open
   name: Red Hat Quay API
   slug: open-red-hat-quay
 - collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Realms API
+  slug: open-red-hat-realms-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Repositories API
+  slug: open-red-hat-repositories-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Repository API
+  slug: open-red-hat-repository-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Robot Accounts API
+  slug: open-red-hat-robot-accounts-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Roles API
+  slug: open-red-hat-roles-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Rules API
+  slug: open-red-hat-rules-api
+- collection_type: open
   name: Red Hat Satellite API
   slug: open-red-hat-satellite
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Sessions API
+  slug: open-red-hat-sessions-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Stats API
+  slug: open-red-hat-stats-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Subscriptions API
+  slug: open-red-hat-subscriptions-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Systems API
+  slug: open-red-hat-systems-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Teams API
+  slug: open-red-hat-teams-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Topics API
+  slug: open-red-hat-topics-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Users API
+  slug: open-red-hat-users-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Versions API
+  slug: open-red-hat-versions-api
+- collection_type: open
+  name: Red Hat Ansible Automation Platform Add-Ons Workflow Job Templates API
+  slug: open-red-hat-workflow-job-templates-api
 common:
 - group: agent
   title: ''
@@ -1214,7 +1319,7 @@ plans:
 - name: Red Hat Plans Pricing
   plan_count: 1
   slug: red-hat-plans-pricing
-random_paper: 77
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Red Hat Rate Limits
@@ -1266,7 +1371,7 @@ score:
       total: 34
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192726.png
 security:

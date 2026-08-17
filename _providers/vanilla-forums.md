@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 58
 apis:
 - description: The Addons API from Vanilla Forums — 2 operation(s) for addons.
@@ -206,11 +206,189 @@ apis:
 - description: The Widgets API from Vanilla Forums — 2 operation(s) for widgets.
   name: Vanilla Forums Widgets API
   slug: vanilla-forums-widgets-api
-artifact_total: 63
+artifact_total: 122
 asyncapis:
 - description: ''
   name: Vanilla Forums Webhooks
   slug: vanilla-forums-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vanilla Addons API
+  slug: open-vanilla-forums-addons-api
+- collection_type: open
+  name: Vanilla Addons AI Processing Preferences API
+  slug: open-vanilla-forums-ai-processing-preferences-api
+- collection_type: open
+  name: Vanilla Addons AI Settings API
+  slug: open-vanilla-forums-ai-settings-api
+- collection_type: open
+  name: Vanilla Addons Analytics API
+  slug: open-vanilla-forums-analytics-api
+- collection_type: open
+  name: Vanilla Addons Appeals API
+  slug: open-vanilla-forums-appeals-api
+- collection_type: open
+  name: Vanilla Addons Assets API
+  slug: open-vanilla-forums-assets-api
+- collection_type: open
+  name: Vanilla Addons Audit Logs API
+  slug: open-vanilla-forums-audit-logs-api
+- collection_type: open
+  name: Vanilla Addons Authenticators API
+  slug: open-vanilla-forums-authenticators-api
+- collection_type: open
+  name: Vanilla Addons Automation Rules API
+  slug: open-vanilla-forums-automation-rules-api
+- collection_type: open
+  name: Vanilla Addons Calls API
+  slug: open-vanilla-forums-calls-api
+- collection_type: open
+  name: Vanilla Addons Categories API
+  slug: open-vanilla-forums-categories-api
+- collection_type: open
+  name: Vanilla Addons Collections API
+  slug: open-vanilla-forums-collections-api
+- collection_type: open
+  name: Vanilla Addons Comments API
+  slug: open-vanilla-forums-comments-api
+- collection_type: open
+  name: Vanilla Addons Config API
+  slug: open-vanilla-forums-config-api
+- collection_type: open
+  name: Vanilla Addons Conversations API
+  slug: open-vanilla-forums-conversations-api
+- collection_type: open
+  name: Vanilla Addons Dashboard API
+  slug: open-vanilla-forums-dashboard-api
+- collection_type: open
+  name: Vanilla Addons DataSource API
+  slug: open-vanilla-forums-datasource-api
+- collection_type: open
+  name: Vanilla Addons Discussion Statuses API
+  slug: open-vanilla-forums-discussion-statuses-api
+- collection_type: open
+  name: Vanilla Addons Discussions API
+  slug: open-vanilla-forums-discussions-api
+- collection_type: open
+  name: Vanilla Addons Drafts API
+  slug: open-vanilla-forums-drafts-api
+- collection_type: open
+  name: Vanilla Addons email-templates API
+  slug: open-vanilla-forums-email-templates-api
+- collection_type: open
+  name: Vanilla Addons Emails API
+  slug: open-vanilla-forums-emails-api
+- collection_type: open
+  name: Vanilla Addons emailTemplates API
+  slug: open-vanilla-forums-emailtemplates-api
+- collection_type: open
+  name: Vanilla Addons Exports API
+  slug: open-vanilla-forums-exports-api
+- collection_type: open
+  name: Vanilla Addons Features API
+  slug: open-vanilla-forums-features-api
+- collection_type: open
+  name: Vanilla Addons Icons API
+  slug: open-vanilla-forums-icons-api
+- collection_type: open
+  name: Vanilla Addons Job Queue API
+  slug: open-vanilla-forums-job-queue-api
+- collection_type: open
+  name: Vanilla Addons Locales API
+  slug: open-vanilla-forums-locales-api
+- collection_type: open
+  name: Vanilla Addons Media API
+  slug: open-vanilla-forums-media-api
+- collection_type: open
+  name: Vanilla Addons Moderation Messages API
+  slug: open-vanilla-forums-moderation-messages-api
+- collection_type: open
+  name: Vanilla Addons Notification Preferences API
+  slug: open-vanilla-forums-notification-preferences-api
+- collection_type: open
+  name: Vanilla Addons Notifications API
+  slug: open-vanilla-forums-notifications-api
+- collection_type: open
+  name: Vanilla Addons Polls API
+  slug: open-vanilla-forums-polls-api
+- collection_type: open
+  name: Vanilla Addons Posts API
+  slug: open-vanilla-forums-posts-api
+- collection_type: open
+  name: Vanilla Addons Product Messages API
+  slug: open-vanilla-forums-product-messages-api
+- collection_type: open
+  name: Vanilla Addons Profile Fields API
+  slug: open-vanilla-forums-profile-fields-api
+- collection_type: open
+  name: Vanilla Addons Ranks API
+  slug: open-vanilla-forums-ranks-api
+- collection_type: open
+  name: Vanilla Addons Reactions API
+  slug: open-vanilla-forums-reactions-api
+- collection_type: open
+  name: Vanilla Addons Reports & Escalations API
+  slug: open-vanilla-forums-reports-escalations-api
+- collection_type: open
+  name: Vanilla Addons Resources API
+  slug: open-vanilla-forums-resources-api
+- collection_type: open
+  name: Vanilla Addons Rich API
+  slug: open-vanilla-forums-rich-api
+- collection_type: open
+  name: Vanilla Addons Role Requests API
+  slug: open-vanilla-forums-role-requests-api
+- collection_type: open
+  name: Vanilla Addons Roles API
+  slug: open-vanilla-forums-roles-api
+- collection_type: open
+  name: Vanilla Addons Rules API
+  slug: open-vanilla-forums-rules-api
+- collection_type: open
+  name: Vanilla Addons Search API
+  slug: open-vanilla-forums-search-api
+- collection_type: open
+  name: Vanilla Addons Sessions API
+  slug: open-vanilla-forums-sessions-api
+- collection_type: open
+  name: Vanilla Addons Site Totals API
+  slug: open-vanilla-forums-site-totals-api
+- collection_type: open
+  name: Vanilla Addons Statistics API
+  slug: open-vanilla-forums-statistics-api
+- collection_type: open
+  name: Vanilla Addons Statuses (Deprecated) API
+  slug: open-vanilla-forums-statuses-deprecated-api
+- collection_type: open
+  name: Vanilla Addons Tags API
+  slug: open-vanilla-forums-tags-api
+- collection_type: open
+  name: Vanilla Addons Theme Assets API
+  slug: open-vanilla-forums-theme-assets-api
+- collection_type: open
+  name: Vanilla Addons Themes API
+  slug: open-vanilla-forums-themes-api
+- collection_type: open
+  name: Vanilla Addons Tokens API
+  slug: open-vanilla-forums-tokens-api
+- collection_type: open
+  name: Vanilla Addons Translations API
+  slug: open-vanilla-forums-translations-api
+- collection_type: open
+  name: Vanilla Addons User Mentions API
+  slug: open-vanilla-forums-user-mentions-api
+- collection_type: open
+  name: Vanilla Addons User Notes API
+  slug: open-vanilla-forums-user-notes-api
+- collection_type: open
+  name: Vanilla Addons Users API
+  slug: open-vanilla-forums-users-api
+- collection_type: open
+  name: Vanilla Addons Widgets API
+  slug: open-vanilla-forums-widgets-api
 common:
 - group: other
   title: ''
@@ -351,7 +529,7 @@ overview: 'Vanilla Forums publishes 58 APIs on the [APIs.io](https://apis.io/) n
 
 
   Vanilla Forums'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 23 more developer resources.'
-random_paper: 16
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Vanilla Forums Rate Limits
@@ -378,7 +556,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

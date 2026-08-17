@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Open banking / accredited-investor (proof of accreditation)
   name: zkMe zkOBS API
   slug: zkme-zkobs-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: zkMe Protocol Auth API
+  slug: open-zkme-auth-api
+- collection_type: open
+  name: zkMe Protocol Auth KYT API
+  slug: open-zkme-kyt-api
+- collection_type: open
+  name: zkMe Protocol Auth zkKYB API
+  slug: open-zkme-zkkyb-api
+- collection_type: open
+  name: zkMe Protocol Auth zkKYC API
+  slug: open-zkme-zkkyc-api
+- collection_type: open
+  name: zkMe Protocol Auth zkOBS API
+  slug: open-zkme-zkobs-api
 common:
 - group: agent
   title: ''
@@ -147,7 +166,7 @@ overview: 'zkMe publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   zkMe''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, and 14 more developer resources.'
-random_paper: 79
+random_paper: 141
 rate_limits:
 - limit_count: 1
   name: Zkme Rate Limits
@@ -175,7 +194,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

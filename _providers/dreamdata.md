@@ -11,30 +11,31 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-12'
+  score: 52.7
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Segment-compatible event tracking API for capturing B2B customer journey events. Server-side events are POSTed as a batch to the HTTP endpoint with HTTP Basic auth (source API key as username, empty p
   name: Dreamdata Event Tracking API
   slug: dreamdata-event-tracking-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Dreamdata Webhook Syncs
@@ -67,7 +68,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://dreamdata.io/contact
+  url: https://dreamdata.io/support
 - group: commercial
   title: ''
   type: Pricing
@@ -160,6 +161,22 @@ common:
   title: ''
   type: Lifecycle
   url: lifecycle/dreamdata-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/dreamdata-error-codes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dreamdata-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dreamdata-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-17'
 description: Dreamdata is a B2B revenue attribution and go-to-market data platform founded in 2018 in Copenhagen. It connects every marketing and sales touchpoint — from anonymous web visits and ad clicks to CRM opportunities and closed-won revenue — into one clean, account-based customer journey data model. The platform delivers multi-touch attribution, pipeline and revenue analytics, AI-powered audience building, and activation that syncs audiences to ad networks and downstream tools. For developers Dreamdata exposes a Segment-compatible event tracking API (client-side JavaScript and a server-side HTTP batch endpoint), a data warehouse model, outbound webhook syncs, first-party Node.js and Go SDKs, and a hosted remote MCP server secured with OAuth 2.1 PKCE for agent access.
 image: http://static1.squarespace.com/static/60880c8985e48a388d33bd16/t/6821cbca7c756751d5f1473a/1748866920123/Activation+and+Attribution+for+B2B+Marketing.png?format=1500w
@@ -168,7 +185,7 @@ mcp_servers:
 - description: ''
   name: dreamdata-mcp.yml
   slug: dreamdata-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Dreamdata
 nav: Providers
 network: true
@@ -178,21 +195,29 @@ overview: 'Dreamdata publishes 1 API on the [APIs.io](https://apis.io/) network.
   The Dreamdata catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dreamdata''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 91
+  Dreamdata''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Dreamdata Plans Pricing
+  plan_count: 2
+  slug: dreamdata-plans-pricing
+random_paper: 37
+rate_limits:
+- limit_count: 0
+  name: Dreamdata Rate Limits
+  slug: dreamdata-rate-limits
 scopes:
 - name: Dreamdata Scopes
   scope_count: 5
   slug: dreamdata-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 52.7
-  delta: 0.0
+  band: strong
+  composite: 58.2
+  delta: 5.5
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 81.6
     contract_quality: 51.6
-    developer_ergonomics: 67.4
+    developer_ergonomics: 73.9
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 39.5
@@ -201,8 +226,8 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/screenshots/dreamdata-2026-07-25T212356.png
 security:
 - kind: authentication

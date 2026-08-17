@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
 - description: Everything related to scoring / weighting metrics
   name: Netdata weights API
   slug: netdata-weights-api
-artifact_total: 56
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Netdata agent API
@@ -161,6 +161,69 @@ collections:
 - collection_type: postman
   name: Netdata agent weights API
   slug: postman-netdata-weights-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Netdata agent API
+  slug: open-netdata-agent-api
+- collection_type: open
+  name: Netdata agent alerts API
+  slug: open-netdata-alerts-api
+- collection_type: open
+  name: Netdata agent authentication API
+  slug: open-netdata-authentication-api
+- collection_type: open
+  name: Netdata agent badges API
+  slug: open-netdata-badges-api
+- collection_type: open
+  name: Netdata agent charts API
+  slug: open-netdata-charts-api
+- collection_type: open
+  name: Netdata agent claiming API
+  slug: open-netdata-claiming-api
+- collection_type: open
+  name: Netdata agent config API
+  slug: open-netdata-config-api
+- collection_type: open
+  name: Netdata agent contexts API
+  slug: open-netdata-contexts-api
+- collection_type: open
+  name: Netdata agent data API
+  slug: open-netdata-data-api
+- collection_type: open
+  name: Netdata agent dyncfg API
+  slug: open-netdata-dyncfg-api
+- collection_type: open
+  name: Netdata agent functions API
+  slug: open-netdata-functions-api
+- collection_type: open
+  name: Netdata agent management API
+  slug: open-netdata-management-api
+- collection_type: open
+  name: Netdata agent nodes API
+  slug: open-netdata-nodes-api
+- collection_type: open
+  name: Netdata agent registry API
+  slug: open-netdata-registry-api
+- collection_type: open
+  name: Netdata agent settings API
+  slug: open-netdata-settings-api
+- collection_type: open
+  name: Netdata agent streaming API
+  slug: open-netdata-streaming-api
+- collection_type: open
+  name: Netdata agent variables API
+  slug: open-netdata-variables-api
+- collection_type: open
+  name: Netdata agent versions API
+  slug: open-netdata-versions-api
+- collection_type: open
+  name: Netdata agent webrtc API
+  slug: open-netdata-webrtc-api
+- collection_type: open
+  name: Netdata agent weights API
+  slug: open-netdata-weights-api
 common:
 - group: build
   title: ''
@@ -293,7 +356,7 @@ plans:
 - name: Netdata Plans Pricing
   plan_count: 3
   slug: netdata-plans-pricing
-random_paper: 17
+random_paper: 141
 rate_limits:
 - limit_count: 2
   name: Netdata Rate Limits
@@ -327,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/screenshots/netdata-2026-06-20T190147.png
 security:

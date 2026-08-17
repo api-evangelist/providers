@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,11 +66,23 @@ apis:
 - description: Bulk visit (iteration) operations
   name: Vespa Visit API
   slug: vespa-ai-visit-api
-artifact_total: 65
+artifact_total: 69
 collections:
 - collection_type: postman
   name: Vespa Query API
   slug: postman-vespa-ai-query-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vespa Ai Documents API
+  slug: open-vespa-ai-documents-api
+- collection_type: open
+  name: Vespa Query API
+  slug: open-vespa-ai-query-api
+- collection_type: open
+  name: Vespa Ai Visit API
+  slug: open-vespa-ai-visit-api
 - collection_type: open
   name: Vespa Query API
   slug: open-vespa-query-api
@@ -314,7 +326,7 @@ plans:
 - name: Vespa Ai Plans Pricing
   plan_count: 6
   slug: vespa-ai-plans-pricing
-random_paper: 70
+random_paper: 45
 rate_limits:
 - limit_count: 6
   name: Vespa Ai Rate Limits
@@ -356,7 +368,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/screenshots/vespa-ai-2026-06-20T201005.png
 security:

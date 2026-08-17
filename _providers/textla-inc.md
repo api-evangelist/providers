@@ -1,35 +1,36 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Free trial · Self-serve signup
+  onboarding: self-serve
+  pricing: free-trial
   public: false
-  source: []
-  trial: false
-  try_now: false
+  source:
+  - plans
+  trial: true
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 15.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -71,29 +72,93 @@ common:
   title: ''
   type: DomainSecurity
   url: security/textla-inc-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.textla.com/en/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.textla.com/en/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.textla.com/en/collections/3372929-get-started-with-textla
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/textla-inc-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/textla-inc-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/textla-inc-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/textla-inc-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/textla-inc-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/textla-inc-problem-types.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/textla-inc-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Textla ships only an end-user web app — every spec path (/openapi.json, /swagger.json, /api-docs, /graphql, /llms.txt) 404s on www.textla.com and app.textla.com, its own api.textla.com DNS record answers Cloudflare 1016 "origin DNS error" with nothing behind it, and the one live GraphQL endpoint (portal-api.textla.com/graphql) is the undocumented internal backend for app.textla.com with introspection disabled.
+  evidence:
+  - status: 404
+    url: https://www.textla.com/openapi.json
+  - status: 530
+    url: https://api.textla.com/openapi.json
+  - status: 404
+    url: https://app.textla.com/llms.txt
+  - status: 400
+    url: https://portal-api.textla.com/graphql
+  - status: 200
+    url: https://auth.textla.com/.well-known/openid-configuration
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Textla is a business texting platform for sending bulk SMS marketing campaigns and two-way conversational messages to customers. It provides contact list segmentation, message scheduling and personalization, a shared team inbox for direct/two-way replies, contact management with CSV import, and real-time delivery verification and analytics, backed by US-based human support via phone, email, and live chat. The company promotes low per-message rates and reports 2B+ messages sent for 21K+ businesses. Textla is a Zapier partner for no-code automation; as of this profile it does not publish a public developer API, SDKs, or developer documentation.
 image: https://cdn.prod.website-files.com/6621259acbeea8020086d69d/66460f7a6c72efba3794bea2_Textla%20OG%20Image.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Textla Inc.
 nav: Providers
 network: true
 overview: 'Textla Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SMS, Text Messaging, Business Messaging, and Bulk SMS.
 
 
-  Textla Inc.''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 57
+  Textla Inc.''s developer surface includes pricing, engineering blog, support, signup flow, documentation, getting-started guide, authentication, and 13 more developer resources.'
+plans:
+- name: Textla Inc Plans Pricing
+  plan_count: 3
+  slug: textla-inc-plans-pricing
+random_paper: 123
+rate_limits:
+- limit_count: 0
+  name: Textla Inc Rate Limits
+  slug: textla-inc-rate-limits
 score:
-  band: emerging
-  composite: 15.9
-  delta: 0.0
+  band: thin
+  composite: 30.6
+  delta: 14.7
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
+    developer_ergonomics: 37.0
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 15.9
   regulatory:
@@ -101,11 +166,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 19.4
+    score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Textla Inc Authentication
+  slug: textla-inc-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Textla Inc Domain Security
   slug: textla-inc-domain-security

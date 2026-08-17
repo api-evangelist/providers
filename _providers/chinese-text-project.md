@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Online open-access digital library for pre-modern Chinese texts
@@ -56,7 +56,7 @@ name: Chinese Text Project
 nav: Providers
 network: true
 overview: Chinese Text Project publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dictionaries and Public APIs.
-random_paper: 117
+random_paper: 100
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chinese-text-project/refs/heads/main/screenshots/chinese-text-project-2026-06-20T174316.png
 security:

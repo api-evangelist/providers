@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: '[https://devdocs.drift.com/docs/user-model](https://devdocs.drift.com/docs/user-model)'
   name: Drift Users API
   slug: drift-com-users-api
-artifact_total: 38
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Drift Accounts API
+  slug: open-drift-com-accounts-api
+- collection_type: open
+  name: Drift Accounts App Admin API
+  slug: open-drift-com-app-admin-api
+- collection_type: open
+  name: Drift Accounts Contacts API
+  slug: open-drift-com-contacts-api
+- collection_type: open
+  name: Drift Accounts Conversations and Messages API
+  slug: open-drift-com-conversations-and-messages-api
+- collection_type: open
+  name: Drift Accounts Data Privacy API
+  slug: open-drift-com-data-privacy-api
+- collection_type: open
+  name: Drift Accounts Playbooks API
+  slug: open-drift-com-playbooks-api
+- collection_type: open
+  name: Drift Accounts SCIM API API
+  slug: open-drift-com-scim-api-api
+- collection_type: open
+  name: Drift Accounts Teams API
+  slug: open-drift-com-teams-api
+- collection_type: open
+  name: Drift Accounts Users API
+  slug: open-drift-com-users-api
 - collection_type: open
   name: Drift
   slug: open-drift-com
@@ -187,7 +217,7 @@ plans:
 - name: Drift Com Plans Pricing
   plan_count: 1
   slug: drift-com-plans-pricing
-random_paper: 61
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Drift Com Rate Limits
@@ -212,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/screenshots/drift-com-2026-06-20T180240.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Inherent
 nav: Providers
 network: true
 overview: Inherent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine Learning, and AI Research.
-random_paper: 21
+random_paper: 116
 score:
   band: minimal
   composite: 7.1
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inherent/refs/heads/main/screenshots/inherent-2026-08-07T170726.png
 security:

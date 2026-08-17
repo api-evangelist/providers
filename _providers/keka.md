@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -81,7 +81,53 @@ apis:
 - description: The Skills API from Keka HR — 2 operation(s) for skills.
   name: Keka HR Skills API
   slug: keka-skills-api
-artifact_total: 24
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Keka HR Assets API
+  slug: open-keka-assets-api
+- collection_type: open
+  name: Keka HR Assets Attendance API
+  slug: open-keka-attendance-api
+- collection_type: open
+  name: Keka HR Assets Authentication API
+  slug: open-keka-authentication-api
+- collection_type: open
+  name: Keka HR Assets BGV APIs API
+  slug: open-keka-bgv-apis-api
+- collection_type: open
+  name: Keka HR Assets Core HR API
+  slug: open-keka-core-hr-api
+- collection_type: open
+  name: Keka HR Assets Documents API
+  slug: open-keka-documents-api
+- collection_type: open
+  name: Keka HR Assets Expense API
+  slug: open-keka-expense-api
+- collection_type: open
+  name: Keka HR Assets Hire API
+  slug: open-keka-hire-api
+- collection_type: open
+  name: Keka HR Assets Leave API
+  slug: open-keka-leave-api
+- collection_type: open
+  name: Keka HR Assets Payroll API
+  slug: open-keka-payroll-api
+- collection_type: open
+  name: Keka HR Assets PMS API
+  slug: open-keka-pms-api
+- collection_type: open
+  name: Keka HR Assets PSA API
+  slug: open-keka-psa-api
+- collection_type: open
+  name: Keka HR Assets Requisitions API
+  slug: open-keka-requisitions-api
+- collection_type: open
+  name: Keka HR Assets Skills API
+  slug: open-keka-skills-api
 common:
 - group: agent
   title: ''
@@ -174,7 +220,7 @@ plans:
 - name: Keka Plans Pricing
   plan_count: 3
   slug: keka-plans-pricing
-random_paper: 52
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Keka Rate Limits
@@ -213,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keka/refs/heads/main/screenshots/keka-2026-06-20T183947.png
 security:

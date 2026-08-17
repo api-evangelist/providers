@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -89,11 +89,66 @@ apis:
 - description: 'These endpoints allow you to manually trigger your pre-configured webhooks.<br><br><a href=''https://docs.fordefi.com/reference/webhooks''>Use Webhooks</a> describes how to configure webhooks, validate '
   name: Fordefi Webhooks API
   slug: fordefi-webhooks-api
-artifact_total: 23
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Fordefi Webhooks
   slug: fordefi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fordefi Address Book API
+  slug: open-fordefi-address-book-api
+- collection_type: open
+  name: Fordefi Address Book Assets API
+  slug: open-fordefi-assets-api
+- collection_type: open
+  name: Fordefi Address Book Audit Log API
+  slug: open-fordefi-audit-log-api
+- collection_type: open
+  name: Fordefi Address Book Authorization Tokens API
+  slug: open-fordefi-authorization-tokens-api
+- collection_type: open
+  name: Fordefi Address Book Batch Transactions API
+  slug: open-fordefi-batch-transactions-api
+- collection_type: open
+  name: Fordefi Address Book Blockchains API
+  slug: open-fordefi-blockchains-api
+- collection_type: open
+  name: Fordefi Address Book Enclave Keys API
+  slug: open-fordefi-enclave-keys-api
+- collection_type: open
+  name: Fordefi Address Book End Users API
+  slug: open-fordefi-end-users-api
+- collection_type: open
+  name: Fordefi Address Book Exports API
+  slug: open-fordefi-exports-api
+- collection_type: open
+  name: Fordefi Address Book Organizations API
+  slug: open-fordefi-organizations-api
+- collection_type: open
+  name: Fordefi Address Book Swaps API
+  slug: open-fordefi-swaps-api
+- collection_type: open
+  name: Fordefi Address Book Transactions API
+  slug: open-fordefi-transactions-api
+- collection_type: open
+  name: Fordefi Address Book User Groups API
+  slug: open-fordefi-user-groups-api
+- collection_type: open
+  name: Fordefi Address Book Users API
+  slug: open-fordefi-users-api
+- collection_type: open
+  name: Fordefi Address Book Vault Groups API
+  slug: open-fordefi-vault-groups-api
+- collection_type: open
+  name: Fordefi Address Book Vaults API
+  slug: open-fordefi-vaults-api
+- collection_type: open
+  name: Fordefi Address Book Webhooks API
+  slug: open-fordefi-webhooks-api
 common:
 - group: company
   title: ''
@@ -238,7 +293,7 @@ overview: 'Fordefi publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fordefi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 24 more developer resources.'
-random_paper: 15
+random_paper: 139
 score:
   band: developing
   composite: 54.9
@@ -268,7 +323,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/screenshots/fordefi-2026-07-25T214929.png
 security:

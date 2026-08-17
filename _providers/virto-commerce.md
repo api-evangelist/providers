@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 55.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 9
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 426
   slug: virto-commerce-agentic-access
   summary_line: 426 operations · 283 acting · 9 human-in-the-loop
-api_count: 10
+api_count: 13
 apis:
 - description: Easily manage your products, categories, variations, and properties
   name: Virto Commerce Catalog API
@@ -69,7 +70,54 @@ apis:
 - description: B2B Innovation Platform
   name: Virto Commerce VirtoCommerce Platform API
   slug: virto-commerce-virtocommerce-platform-api
-artifact_total: 19
+- description: Register HTTP webhooks against the platform domain-event catalog, compose the payload from selected entity properties (including previous values), fire test deliveries, and audit every delivery attemp
+  name: Virto Commerce Webhooks API
+  slug: virto-commerce-webhooks-api
+- description: Forward platform domain events to an external message queue as CloudEvents. Manage provider connections (Azure Event Grid built in), subscriptions with JsonPath filtering and Liquid payload transforma
+  name: Virto Commerce Event Bus API
+  slug: virto-commerce-event-bus-api
+- description: 'Return management: search returns, read a return by id, create or update a return against an order, and read the quantities still available to return.'
+  name: Virto Commerce Returns API
+  slug: virto-commerce-returns-api
+artifact_total: 35
+asyncapis:
+- description: ''
+  name: Virto Commerce Webhooks
+  slug: virto-commerce-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog API
+  slug: open-virto-commerce-catalog-api
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog Companies and Contacts API
+  slug: open-virto-commerce-companies-and-contacts-api
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog Inventory API
+  slug: open-virto-commerce-inventory-api
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog Marketing API
+  slug: open-virto-commerce-marketing-api
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog Order Management API
+  slug: open-virto-commerce-order-management-api
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog Pricing API
+  slug: open-virto-commerce-pricing-api
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog Quotes API
+  slug: open-virto-commerce-quotes-api
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog Shopping Cart API
+  slug: open-virto-commerce-shopping-cart-api
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog Store API
+  slug: open-virto-commerce-store-api
+- collection_type: open
+  name: VirtoCommerce.Cart Catalog VirtoCommerce Platform API
+  slug: open-virto-commerce-virtocommerce-platform-api
 common:
 - group: agent
   title: ''
@@ -97,7 +145,7 @@ common:
   url: https://docs.virtocommerce.org/
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/VirtoCommerce
 - group: company
   title: ''
@@ -110,7 +158,7 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://virtocommerce.com/virto-commerce-cloud
+  url: https://virtocommerce.com/pricing
 - group: other
   title: ''
   type: X
@@ -143,6 +191,106 @@ common:
   title: ''
   type: ChangeLog
   url: https://www.virtocommerce.org/c/news-digest/14
+- group: build
+  title: ''
+  type: Packages
+  url: packages/virto-commerce-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/virto-commerce-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/virto-commerce-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/virto-commerce-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/virto-commerce-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/virto-commerce-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/virto-commerce-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/virto-commerce-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/virto-commerce-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/virto-commerce-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/virto-commerce-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/virto-commerce-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/virto-commerce-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/virto-commerce-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/virto-commerce-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/virto-commerce-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/virto-commerce-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/virto-commerce-schema.graphql
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.virtocommerce.org/platform/developer-guide/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://virtostart-demo-admin.govirto.com/docs/index.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/VirtoCommerce/start-local
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://virtocommerce.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://virtocommerce.com/privacy
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/c/Virtocommerce/videos
 created: '2026-06-13'
 description: Virto Commerce is an open-source, API-first B2B e-commerce platform built on .NET Core. It provides REST and GraphQL APIs for catalog management, pricing, inventory, order management, customer organizations, marketing, payments, shipping, subscriptions, and complex B2B purchasing workflows including quotes, contracts, and approval routing. The modular architecture offers 100+ independently deployable modules covering the full commerce stack for enterprise deployments.
 finops:
@@ -160,42 +308,46 @@ jsonld:
   property_count: 0
   slug: virto-commerce-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: virto-commerce-mcp.yml
+  slug: virto-commerce-mcpyml
+modified: '2026-08-13'
 name: Virto Commerce
 nav: Providers
 network: true
-overview: 'Virto Commerce publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Companies and Contacts API, Inventory API, and 7 more. Tagged areas include B2B E-Commerce, Catalog Management, Order Management, Pricing, and Inventory.
+overview: 'Virto Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Companies and Contacts API, Inventory API, and 10 more. Tagged areas include B2B E-Commerce, Catalog Management, Order Management, Pricing, and Inventory.
 
 
-  The Virto Commerce catalog on APIs.io includes 1 JSON-LD context.
+  The Virto Commerce catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Virto Commerce''s developer surface includes authentication, documentation, engineering blog, pricing, support, changelog, and 12 more developer resources.'
+  Virto Commerce''s developer surface includes authentication, documentation, engineering blog, pricing, support, changelog, CLI, and 36 more developer resources.'
 plans:
 - name: Virto Commerce Plans Pricing
   plan_count: 3
   slug: virto-commerce-plans-pricing
-random_paper: 12
+random_paper: 111
 rate_limits:
 - limit_count: 4
   name: Virto Commerce Rate Limits
   slug: virto-commerce-rate-limits
 scopes:
 - name: Virto Commerce Scopes
-  scope_count: 72
+  scope_count: 84
   slug: virto-commerce-scopes
-  summary_line: 72 scopes · password/clientCredentials
+  summary_line: 84 scopes · password/clientCredentials
 score:
-  band: thin
-  composite: 41.2
-  delta: 0.0
+  band: strong
+  composite: 64.9
+  delta: 23.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 46.4
-    developer_ergonomics: 26.1
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 52.6
+    commercial_clarity: 78.9
+    contract_quality: 54.7
+    developer_ergonomics: 87.0
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 60.5
   previous_composite: 41.2
   provenance:
     agentic_access: derived
@@ -209,10 +361,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 42.2
+    score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/screenshots/virto-commerce-2026-06-20T201036.png
 security:
 - kind: authentication
@@ -239,5 +391,12 @@ tags:
 - Headless Commerce
 - Open Source
 - .NET
+- Webhooks
+- Event-Driven
+- CloudEvents
+- GraphQL
+- Returns
+- MCP
+- B2B Quotes
 website: https://virtocommerce.com/
 ---

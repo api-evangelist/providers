@@ -1,13 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Self-serve signup with a 14-day free trial; Data API access is a paid extra
   onboarding: self-serve
-  pricing: unknown
+  pricing: paid
   public: false
   source:
+  - https://supermetrics.com/pricing
+  - https://docs.supermetrics.com/docs/how-to-start-a-supermetrics-free-trial.md
   - authentication
-  trial: false
+  trial: true
   try_now: false
 agent_readiness:
   band: agent-aware
@@ -23,18 +25,18 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.3
-  scored_at: '2026-08-12'
+  score: 30.4
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST Product API (v2) to query marketing data from connected data sources, with synchronous and asynchronous query execution, plus a Management API for API keys, saved queries, teams, data-source logi
   name: Supermetrics API
   slug: supermetrics-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -176,6 +178,18 @@ common:
   title: ''
   type: Security
   url: https://supermetrics.com/.well-known/security.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/supermetrics-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/supermetrics-rate-limits.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/supermetrics-data-model.yml
 created: '2026-07-17'
 description: Supermetrics is a marketing intelligence platform that automates the pipeline of marketing and advertising data from 100+ sources (Google Ads, Facebook/Meta Ads, TikTok, Google Analytics, LinkedIn Ads, and more) into spreadsheets, BI tools, and data warehouses. Its public Product API (v2) lets developers query that data programmatically over REST, run long-running extracts asynchronously, and manage teams, saved queries, data-source logins, and Data Warehouse backfills via a Management API. Authentication is by API key (Bearer) or a full OAuth2/OIDC flow, and Supermetrics also ships an official Python SDK, a Go CLI, an n8n node, and a hosted MCP server for connecting AI assistants to live marketing data.
 image: https://supermetrics.com/favicon.ico
@@ -184,15 +198,23 @@ mcp_servers:
 - description: ''
   name: supermetrics-mcp.yml
   slug: supermetrics-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Supermetrics
 nav: Providers
 network: true
 overview: 'Supermetrics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Analytics, Advertising, and Data.
 
 
-  Supermetrics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 118
+  Supermetrics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Supermetrics Plans Pricing
+  plan_count: 3
+  slug: supermetrics-plans-pricing
+random_paper: 126
+rate_limits:
+- limit_count: 3
+  name: Supermetrics Rate Limits
+  slug: supermetrics-rate-limits
 scopes:
 - name: Supermetrics Scopes
   scope_count: 13
@@ -200,23 +222,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 55.0
+  delta: 10.4
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 0.0
     developer_ergonomics: 75.5
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 55.3
+    operational_transparency: 86.8
   previous_composite: 44.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Supermetrics Authentication

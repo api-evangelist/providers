@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Companies API from Housecall Pro — 1 operation(s) for companies.
@@ -64,7 +64,44 @@ apis:
 - description: The Webhooks API from Housecall Pro — 2 operation(s) for webhooks.
   name: Housecall Pro Webhooks API
   slug: housecall-pro-webhooks-api
-artifact_total: 39
+artifact_total: 51
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Housecall Pro Public Companies API
+  slug: open-housecall-pro-companies-api
+- collection_type: open
+  name: Housecall Pro Public Customers API
+  slug: open-housecall-pro-customers-api
+- collection_type: open
+  name: Housecall Pro Public Employees API
+  slug: open-housecall-pro-employees-api
+- collection_type: open
+  name: Housecall Pro Public Estimates API
+  slug: open-housecall-pro-estimates-api
+- collection_type: open
+  name: Housecall Pro Public Invoices API
+  slug: open-housecall-pro-invoices-api
+- collection_type: open
+  name: Housecall Pro Public Jobs API
+  slug: open-housecall-pro-jobs-api
+- collection_type: open
+  name: Housecall Pro Public Leads API
+  slug: open-housecall-pro-leads-api
+- collection_type: open
+  name: Housecall Pro Public Line Items API
+  slug: open-housecall-pro-line-items-api
+- collection_type: open
+  name: Housecall Pro Public Payments API
+  slug: open-housecall-pro-payments-api
+- collection_type: open
+  name: Housecall Pro Public Schedule Items API
+  slug: open-housecall-pro-schedule-items-api
+- collection_type: open
+  name: Housecall Pro Public Webhooks API
+  slug: open-housecall-pro-webhooks-api
 common:
 - group: build
   title: ''
@@ -252,7 +289,7 @@ plans:
 - name: Housecall Pro Plans Pricing
   plan_count: 3
   slug: housecall-pro-plans-pricing
-random_paper: 22
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Housecall Pro Rate Limits
@@ -291,7 +328,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/screenshots/housecall-pro-2026-06-20T182849.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ apis:
 - description: Asynchronous API for submitting long-running operations and retrieving their results without blocking, complementing the synchronous Assembly API. OpenAPI 3.0.0, version 1.0.0, 3 documented paths, sup
   name: Zai Asynchronous API
   slug: zai-async-api
-artifact_total: 14
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Zai Webhooks
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Virtual Accounts and PayIDs
   slug: postman-zai-virtual-accounts-payid
+- collection_type: open
+  name: Assembly API
+  slug: open-zai-assembly-api
+- collection_type: open
+  name: Asynchronous API
+  slug: open-zai-async-api
+- collection_type: open
+  name: PayTo
+  slug: open-zai-payto
+- collection_type: open
+  name: Virtual Accounts and PayIDs
+  slug: open-zai-virtual-accounts-payid
 common:
 - group: build
   title: ''
@@ -224,7 +236,7 @@ overview: 'Zai publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Zai''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 29 more developer resources.'
-random_paper: 84
+random_paper: 26
 scopes:
 - name: Zai Scopes
   scope_count: 0
@@ -254,7 +266,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

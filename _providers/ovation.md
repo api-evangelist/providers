@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,18 +18,22 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 28.4
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
+asyncapis:
+- description: ''
+  name: Ovation Olo Webhooks
+  slug: ovation-olo-webhooks
 common:
 - group: auth
   title: ''
@@ -53,7 +57,7 @@ common:
   url: https://github.com/ovationup
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://ovationup.com/pricing/
 - group: start
   title: ''
@@ -79,35 +83,90 @@ common:
   title: ''
   type: X
   url: https://x.com/ovationup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://ovationup.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://ovationup.com/privacy-policy/
+- group: auth
+  title: SOC 2 Type 2 certification stated in the Data Processing Agreement
+  type: Compliance
+  url: https://ovationup.com/data-processing-agreement/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ovation-conformance.yml
+- group: operate
+  title: Seasonal product release notes
+  type: ChangeLog
+  url: changelog/ovation-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ovation-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ovation-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ovation-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ovation-packages.yml
+- group: design
+  title: Olo webhook event catalog Ovation subscribes to
+  type: Webhooks
+  url: asyncapi/ovation-olo-webhooks.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ovation-llms.txt
 created: '2026-06-02'
-description: 'Ovation is an AI-first guest experience and feedback platform for restaurants, founded by Zack Oates and voted the #1 guest feedback platform in a RestaurantOwner.com survey. It uses a frictionless, SMS-based two-question survey to capture real-time guest sentiment on- and off-premise, then applies AI to categorize feedback across 35+ restaurant-specific topics, surface operational insights, generate guest-recovery responses, manage online reviews, and run text marketing campaigns. Ovation connects to 50+ POS, online ordering, and loyalty systems, including Olo, to source guest interactions. These are pre-built partner integrations; Ovation does not publish a public, self-service developer API or API reference. Where integration is technical it is inbound and partner-driven: for example, Ovation receives Olo webhook events (OrderPlaced, OrderClosed, OrderCancelled, GuestOptIn, UserOptOut, and similar) authenticated with a shared secret, and the connection is configured directly
-  through the partner''s customer success and developer teams rather than via a self-serve Ovation API. Integration access is arranged directly with the company.'
+description: 'Ovation is an AI-first guest experience and feedback platform for restaurants, founded by Zack Oates and voted the #1 guest feedback platform in a RestaurantOwner.com survey. It uses a frictionless, SMS-based two-question survey to capture real-time guest sentiment on- and off-premise, then applies AI to categorize feedback across 35+ restaurant-specific topics, surface operational insights, generate guest-recovery responses, manage online reviews, and run text marketing campaigns. Ovation connects to 50+ POS, online ordering, and loyalty systems, including Olo, to source guest interactions. These are pre-built partner integrations. Ovation does operate an API — its Summer 2025 release announced API User Management, "easily create, edit, and remove users via API", and the API host api.ovationup.com is live — but no public API reference, OpenAPI definition, developer portal, or SDK is published anywhere, and anonymous calls to that host are refused. Where integration is technical
+  it is inbound and partner-driven: for example, Ovation receives Olo webhook events (OrderPlaced, OrderClosed, OrderCancelled, GuestOptIn, UserOptOut, and similar) authenticated with a shared secret, and the connection is configured directly through the partner''s customer success and developer teams rather than via a self-serve Ovation API. Integration access is arranged directly with the company.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ovation.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-13'
 name: Ovation
 nav: Providers
 network: true
 overview: 'Ovation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Guest Feedback, Guest Experience, Reputation Management, and SMS Marketing.
 
 
-  Ovation''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 48
+  The Ovation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Ovation''s developer surface includes documentation, signup flow, pricing, support, engineering blog, changelog, and 17 more developer resources.'
+plans:
+- name: Ovation Plans Pricing
+  plan_count: 0
+  slug: ovation-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Ovation Rate Limits
+  slug: ovation-rate-limits
 score:
-  band: emerging
-  composite: 13.5
-  delta: 0.0
+  band: thin
+  composite: 38.6
+  delta: 25.1
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 0.0
+    commercial_clarity: 52.6
+    contract_quality: 51.6
     developer_ergonomics: 15.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 28.9
   previous_composite: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovation/refs/heads/main/screenshots/ovation-2026-06-20T191237.png
 security:
 - kind: domain-security

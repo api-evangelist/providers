@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,23 @@ apis:
 - description: Medication FHIR resources
   name: Humana Medications API
   slug: humana-medications-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Humana FHIR Clinical API
+  slug: open-humana-clinical-api
+- collection_type: open
+  name: Humana FHIR Clinical Coverage API
+  slug: open-humana-coverage-api
+- collection_type: open
+  name: Humana FHIR Clinical Demographic API
+  slug: open-humana-demographic-api
+- collection_type: open
+  name: Humana FHIR Clinical Medications API
+  slug: open-humana-medications-api
 - collection_type: open
   name: Humana FHIR API
   slug: open-humana
@@ -146,7 +161,7 @@ press:
 - date: '2026-05-25'
   title: Humana Redefines the Member Experience with Agent ...
   url: https://www.prnewswire.com/news-releases/humana-redefines-the-member-experience-with-agent-assist-built-with-google-cloud-302677922.html
-random_paper: 34
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Humana Rate Limits
@@ -177,7 +192,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/screenshots/humana-2026-06-20T182931.png
 security:

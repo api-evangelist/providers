@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -186,8 +186,158 @@ apis:
 - description: The websocket API from OWASP ZAP — 6 operation(s) for websocket.
   name: OWASP ZAP websocket API
   slug: owasp-zap-websocket-api
-artifact_total: 57
+artifact_total: 107
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZAP accessControl API
+  slug: open-owasp-zap-accesscontrol-api
+- collection_type: open
+  name: ZAP accessControl acsrf API
+  slug: open-owasp-zap-acsrf-api
+- collection_type: open
+  name: ZAP accessControl ajaxSpider API
+  slug: open-owasp-zap-ajaxspider-api
+- collection_type: open
+  name: ZAP accessControl alert API
+  slug: open-owasp-zap-alert-api
+- collection_type: open
+  name: ZAP accessControl alertFilter API
+  slug: open-owasp-zap-alertfilter-api
+- collection_type: open
+  name: ZAP accessControl ascan API
+  slug: open-owasp-zap-ascan-api
+- collection_type: open
+  name: ZAP accessControl authentication API
+  slug: open-owasp-zap-authentication-api
+- collection_type: open
+  name: ZAP accessControl authorization API
+  slug: open-owasp-zap-authorization-api
+- collection_type: open
+  name: ZAP accessControl automation API
+  slug: open-owasp-zap-automation-api
+- collection_type: open
+  name: ZAP accessControl autoupdate API
+  slug: open-owasp-zap-autoupdate-api
+- collection_type: open
+  name: ZAP accessControl break API
+  slug: open-owasp-zap-break-api
+- collection_type: open
+  name: ZAP accessControl client API
+  slug: open-owasp-zap-client-api
+- collection_type: open
+  name: ZAP accessControl clientSpider API
+  slug: open-owasp-zap-clientspider-api
+- collection_type: open
+  name: ZAP accessControl context API
+  slug: open-owasp-zap-context-api
+- collection_type: open
+  name: ZAP accessControl core API
+  slug: open-owasp-zap-core-api
+- collection_type: open
+  name: ZAP accessControl custompayloads API
+  slug: open-owasp-zap-custompayloads-api
+- collection_type: open
+  name: ZAP accessControl dev API
+  slug: open-owasp-zap-dev-api
+- collection_type: open
+  name: ZAP accessControl exim API
+  slug: open-owasp-zap-exim-api
+- collection_type: open
+  name: ZAP accessControl forcedUser API
+  slug: open-owasp-zap-forceduser-api
+- collection_type: open
+  name: ZAP accessControl graphql API
+  slug: open-owasp-zap-graphql-api
+- collection_type: open
+  name: ZAP accessControl httpSessions API
+  slug: open-owasp-zap-httpsessions-api
+- collection_type: open
+  name: ZAP accessControl hud API
+  slug: open-owasp-zap-hud-api
+- collection_type: open
+  name: ZAP accessControl keyboard API
+  slug: open-owasp-zap-keyboard-api
+- collection_type: open
+  name: ZAP accessControl localProxies API
+  slug: open-owasp-zap-localproxies-api
+- collection_type: open
+  name: ZAP accessControl network API
+  slug: open-owasp-zap-network-api
+- collection_type: open
+  name: ZAP accessControl oast API
+  slug: open-owasp-zap-oast-api
+- collection_type: open
+  name: ZAP accessControl openapi API
+  slug: open-owasp-zap-openapi-api
+- collection_type: open
+  name: ZAP accessControl paramDigger API
+  slug: open-owasp-zap-paramdigger-api
+- collection_type: open
+  name: ZAP accessControl params API
+  slug: open-owasp-zap-params-api
+- collection_type: open
+  name: ZAP accessControl pnh API
+  slug: open-owasp-zap-pnh-api
+- collection_type: open
+  name: ZAP accessControl postman API
+  slug: open-owasp-zap-postman-api
+- collection_type: open
+  name: ZAP accessControl pscan API
+  slug: open-owasp-zap-pscan-api
+- collection_type: open
+  name: ZAP accessControl quickstartlaunch API
+  slug: open-owasp-zap-quickstartlaunch-api
+- collection_type: open
+  name: ZAP accessControl replacer API
+  slug: open-owasp-zap-replacer-api
+- collection_type: open
+  name: ZAP accessControl reports API
+  slug: open-owasp-zap-reports-api
+- collection_type: open
+  name: ZAP accessControl retest API
+  slug: open-owasp-zap-retest-api
+- collection_type: open
+  name: ZAP accessControl reveal API
+  slug: open-owasp-zap-reveal-api
+- collection_type: open
+  name: ZAP accessControl revisit API
+  slug: open-owasp-zap-revisit-api
+- collection_type: open
+  name: ZAP accessControl ruleConfig API
+  slug: open-owasp-zap-ruleconfig-api
+- collection_type: open
+  name: ZAP accessControl script API
+  slug: open-owasp-zap-script-api
+- collection_type: open
+  name: ZAP accessControl search API
+  slug: open-owasp-zap-search-api
+- collection_type: open
+  name: ZAP accessControl selenium API
+  slug: open-owasp-zap-selenium-api
+- collection_type: open
+  name: ZAP accessControl sessionManagement API
+  slug: open-owasp-zap-sessionmanagement-api
+- collection_type: open
+  name: ZAP accessControl soap API
+  slug: open-owasp-zap-soap-api
+- collection_type: open
+  name: ZAP accessControl spider API
+  slug: open-owasp-zap-spider-api
+- collection_type: open
+  name: ZAP accessControl stats API
+  slug: open-owasp-zap-stats-api
+- collection_type: open
+  name: ZAP accessControl users API
+  slug: open-owasp-zap-users-api
+- collection_type: open
+  name: ZAP accessControl wappalyzer API
+  slug: open-owasp-zap-wappalyzer-api
+- collection_type: open
+  name: ZAP accessControl websocket API
+  slug: open-owasp-zap-websocket-api
 - collection_type: open
   name: ZAP API
   slug: open-owasp-zap
@@ -260,7 +410,7 @@ plans:
 - name: Owasp Zap Plans Pricing
   plan_count: 3
   slug: owasp-zap-plans-pricing
-random_paper: 90
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Owasp Zap Rate Limits
@@ -285,7 +435,7 @@ score:
       marker_coverage: 0.0
       total: 49
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/screenshots/owasp-zap-2026-06-20T191246.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Project and DSN management
   name: Uptrace Projects API
   slug: uptrace-projects-api
-artifact_total: 21
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Uptrace Alerts API
+  slug: open-uptrace-alerts-api
+- collection_type: open
+  name: Uptrace Alerts Annotations API
+  slug: open-uptrace-annotations-api
+- collection_type: open
+  name: Uptrace Alerts Dashboards API
+  slug: open-uptrace-dashboards-api
+- collection_type: open
+  name: Uptrace Alerts Metrics API
+  slug: open-uptrace-metrics-api
+- collection_type: open
+  name: Uptrace Alerts Projects API
+  slug: open-uptrace-projects-api
 - collection_type: open
   name: Uptrace API
   slug: open-uptrace
@@ -154,7 +172,7 @@ plans:
 - name: Uptrace Plans Pricing
   plan_count: 3
   slug: uptrace-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Uptrace Rate Limits
@@ -196,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/screenshots/uptrace-2026-06-20T200501.png
 security:

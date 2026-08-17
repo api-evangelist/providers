@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: The Services?funcs=GetWeatherInfo&mobile=0 API from MixerBox — 1 operation(s) for services?funcs=getweatherinfo&mobile=0.
   name: MixerBox Services?funcs=GetWeatherInfo&mobile=0 API
   slug: mixerbox-services-funcs-getweatherinfo-mobile-0-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MixerBox Calendar Gpt API
+  slug: open-mixerbox-gpt-api
+- collection_type: open
+  name: MixerBox Calendar Gpt Gpt Plugins API
+  slug: open-mixerbox-gpt-plugins-api
+- collection_type: open
+  name: MixerBox Calendar Gpt Services?funcs=GetWeatherInfo&mobile=0 API
+  slug: open-mixerbox-services-funcs-getweatherinfo-mobile-0-api
 common:
 - group: other
   title: ''
@@ -133,7 +146,7 @@ overview: 'MixerBox publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   MixerBox''s developer surface includes support, authentication, and 15 more developer resources.'
-random_paper: 38
+random_paper: 133
 score:
   band: thin
   composite: 30.4
@@ -157,7 +170,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/screenshots/mixerbox-2026-08-07T183823.png
 security:

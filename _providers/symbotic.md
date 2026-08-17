@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Symbotic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Symbotic''s developer surface includes product news, engineering blog, and 8 more developer resources.'
-random_paper: 34
+random_paper: 129
 score:
   band: minimal
   composite: 9.9
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/symbotic/refs/heads/main/screenshots/symbotic-2026-06-20T194818.png
 security:

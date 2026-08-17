@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 6
@@ -66,7 +66,7 @@ apis:
 - description: The tokens API from Smithery — 1 operation(s) for tokens.
   name: Smithery tokens API
   slug: smithery-ai-tokens-api
-artifact_total: 63
+artifact_total: 73
 collections:
 - collection_type: postman
   name: Smithery connect API
@@ -95,6 +95,36 @@ collections:
 - collection_type: postman
   name: Smithery connect tokens API
   slug: postman-smithery-ai-tokens-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smithery connect API
+  slug: open-smithery-ai-connect-api
+- collection_type: open
+  name: Smithery connect connect.mcp API
+  slug: open-smithery-ai-connect-mcp-api
+- collection_type: open
+  name: Smithery connect domains API
+  slug: open-smithery-ai-domains-api
+- collection_type: open
+  name: Smithery connect Health API
+  slug: open-smithery-ai-health-api
+- collection_type: open
+  name: Smithery connect namespaces API
+  slug: open-smithery-ai-namespaces-api
+- collection_type: open
+  name: Smithery connect organizations API
+  slug: open-smithery-ai-organizations-api
+- collection_type: open
+  name: Smithery connect servers API
+  slug: open-smithery-ai-servers-api
+- collection_type: open
+  name: Smithery connect skills API
+  slug: open-smithery-ai-skills-api
+- collection_type: open
+  name: Smithery connect tokens API
+  slug: open-smithery-ai-tokens-api
 - collection_type: open
   name: Smithery Connect API
   slug: open-smithery-connect-api
@@ -410,7 +440,7 @@ plans:
 - name: Smithery Ai Plans Pricing
   plan_count: 4
   slug: smithery-ai-plans-pricing
-random_paper: 52
+random_paper: 89
 rate_limits:
 - limit_count: 6
   name: Smithery Ai Rate Limits
@@ -452,7 +482,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

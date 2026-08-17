@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: The Subscriptions API from Curse — 5 operation(s) for subscriptions.
   name: Curse Subscriptions API
   slug: curse-subscriptions-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CurseForge Core Categories API
+  slug: open-curse-categories-api
+- collection_type: open
+  name: CurseForge Core Categories Files API
+  slug: open-curse-files-api
+- collection_type: open
+  name: CurseForge Core Categories Fingerprints API
+  slug: open-curse-fingerprints-api
+- collection_type: open
+  name: CurseForge Core Categories Games API
+  slug: open-curse-games-api
+- collection_type: open
+  name: CurseForge Core Categories Minecraft API
+  slug: open-curse-minecraft-api
+- collection_type: open
+  name: CurseForge Core Categories Mods API
+  slug: open-curse-mods-api
+- collection_type: open
+  name: CurseForge Core Categories Subscriptions API
+  slug: open-curse-subscriptions-api
 common:
 - group: company
   title: ''
@@ -189,7 +214,7 @@ overview: 'Curse publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Curse''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 66
+random_paper: 99
 score:
   band: developing
   composite: 43.8
@@ -213,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/screenshots/curse-2026-07-25T210958.png
 security:

@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-12'
+  score: 60.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -78,7 +79,7 @@ apis:
 - description: The Internal API API from RudderStack — 5 operation(s) for internal api.
   name: RudderStack Internal API API
   slug: rudderstack-internal-api-api
-artifact_total: 25
+artifact_total: 32
 asyncapis:
 - description: AsyncAPI 2.6 specification describing RudderStack's event-streaming surfaces over HTTP. RudderStack ingests customer events server-side via the HTTP Tracking API (identify, track, page, screen, group,
   name: RudderStack Event Streaming API
@@ -91,8 +92,17 @@ collections:
   name: RudderStack HTTP HTTP API Internal API API
   slug: postman-rudderstack-internal-api-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: RudderStack HTTP API
   slug: open-rudderstack-gateway
+- collection_type: open
+  name: RudderStack HTTP HTTP API API
+  slug: open-rudderstack-http-api-api
+- collection_type: open
+  name: RudderStack HTTP HTTP API Internal API API
+  slug: open-rudderstack-internal-api-api
 common:
 - group: build
   title: ''
@@ -201,7 +211,7 @@ common:
 - group: operate
   title: ''
   type: ChangeLog
-  url: https://www.rudderstack.com/docs/release-notes/
+  url: https://www.rudderstack.com/docs/releases/
 - group: commercial
   title: ''
   type: License
@@ -230,6 +240,126 @@ common:
   title: ''
   type: FinOps
   url: finops/rudderstack-finops.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/rudderstack-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/rudderstack-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/rudderstack-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/rudderstack-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/rudderstack-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/rudderstack-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/rudderstack-well-known.yml
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/rudderstack-grpc.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/rudderstack-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/rudderstack-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/rudderstack-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/rudderstack-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/rudderstack-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/rudderstack-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/rudderstack-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/rudderstack-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/rudderstack-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/rudderstack-sandbox.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/rudderstack-cli.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/rudderstack-event-streaming-asyncapi.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.getpostman.com/collections/480307c55ad2b9dd4e27
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.rudderstack.com/docs/dev-tools/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.rudderstack.com/contact/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.rudderstack.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.rudderstack.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: MasterServiceAgreement
+  url: https://www.rudderstack.com/master-service-agreement/
+- group: auth
+  title: ''
+  type: SecurityOverview
+  url: https://www.rudderstack.com/security/
+- group: docs
+  title: ''
+  type: AgentSkillsDocs
+  url: https://www.rudderstack.com/docs/ai-features/agent-skills/
+- group: docs
+  title: ''
+  type: MCPDocs
+  url: https://www.rudderstack.com/docs/ai-features/rudderstack-mcp/
 created: '2026-05-08'
 description: RudderStack is a warehouse-native customer data platform (CDP) for developers, with open-source data plane SDKs (rudder-server) and a managed control plane. The platform exposes an HTTP Tracking (Event Stream) API for ingest, a Config Backend API for managing sources/destinations/connections, a Transformations API for in-flight event transforms, a Tracking Plan API for schema governance, a Profiles API for identity resolution and audiences, and a Reverse ETL API for warehouse-to-SaaS sync.
 finops:
@@ -242,7 +372,11 @@ graphqls:
   slug: rudderstack-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rudderstack.png
 layout: provider
-modified: '2026-05-30'
+mcp_servers:
+- description: ''
+  name: rudderstack-mcp.yml
+  slug: rudderstack-mcpyml
+modified: '2026-08-13'
 name: RudderStack
 nav: Providers
 network: true
@@ -252,14 +386,14 @@ overview: 'RudderStack publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
   The RudderStack catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  RudderStack''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 27 more developer resources.'
+  RudderStack''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 57 more developer resources.'
 plans:
 - name: Rudderstack Plans Pricing
-  plan_count: 5
+  plan_count: 3
   slug: rudderstack-plans-pricing
-random_paper: 100
+random_paper: 137
 rate_limits:
-- limit_count: 6
+- limit_count: 5
   name: Rudderstack Rate Limits
   slug: rudderstack-rate-limits
 rules:
@@ -271,17 +405,22 @@ rules:
     info: 1
     warn: 6
   slug: rudderstack-asyncapi-spectral-rules
+scopes:
+- name: Rudderstack Scopes
+  scope_count: 0
+  slug: rudderstack-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.8
-  delta: 0.0
+  band: exemplar
+  composite: 78.1
+  delta: 23.3
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 76.3
     contract_quality: 72.1
-    developer_ergonomics: 58.7
-    discoverability: 55.6
-    governance: 47.9
-    operational_transparency: 44.7
+    developer_ergonomics: 100.0
+    discoverability: 83.3
+    governance: 68.8
+    operational_transparency: 63.2
   previous_composite: 54.8
   provenance:
     agentic_access: derived
@@ -291,18 +430,26 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/screenshots/rudderstack-2026-06-20T193249.png
 security:
 - kind: authentication
   name: Rudderstack Authentication
   slug: rudderstack-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 5 schemes
 - kind: domain-security
   name: Rudderstack Domain Security
   slug: rudderstack-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Rudderstack Vulnerability Disclosure
+  slug: rudderstack-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Rudderstack Trust Center
+  slug: rudderstack-trust-center
+  summary_line: SOC 2, HIPAA, GDPR
 slug: rudderstack
 tags:
 - Customer Data Platform

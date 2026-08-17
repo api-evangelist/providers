@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,11 +47,17 @@ apis:
 - description: Search and retrieve behavioral health treatment facility listings
   name: Substance Abuse and Mental Health Services Administration Treatment Facilities API
   slug: substance-abuse-and-mental-health-services-administration-treatment-facilities-api
-artifact_total: 15
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: SAMHSA Behavioral Health Treatment Services Locator API
   slug: open-samhsa-treatment-locator
+- collection_type: open
+  name: SAMHSA Behavioral Health Treatment Services Locator Treatment Facilities API
+  slug: open-substance-abuse-and-mental-health-services-administration-treatment-facilities-api
 common:
 - group: agent
   title: ''
@@ -180,7 +186,7 @@ plans:
 - name: Substance Abuse And Mental Health Services Administration Plans Pricing
   plan_count: 3
   slug: substance-abuse-and-mental-health-services-administration-plans-pricing
-random_paper: 82
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Substance Abuse And Mental Health Services Administration Rate Limits
@@ -220,7 +226,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/screenshots/substance-abuse-and-mental-health-services-administration-2026-06-20T194633.png
 security:

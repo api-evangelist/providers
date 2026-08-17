@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -49,11 +49,30 @@ apis:
 - description: The Warehouses API from ShipMonk — 1 operation(s) for warehouses.
   name: ShipMonk Warehouses API
   slug: shipmonk-warehouses-api
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: AsyncAPI 3.0 model of the ShipMonk webhook event surface, derived from the `webhooks` block of ShipMonk's own OpenAPI 3.1 document (https://apidocs.shipmonk.com/openapi/public_api.json) plus the publi
   name: ShipMonk Webhooks
   slug: shipmonk-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ShipMonk Orders API
+  slug: open-shipmonk-orders-api
+- collection_type: open
+  name: ShipMonk Products API
+  slug: open-shipmonk-products-api
+- collection_type: open
+  name: ShipMonk Receivings API
+  slug: open-shipmonk-receivings-api
+- collection_type: open
+  name: ShipMonk Returns API
+  slug: open-shipmonk-returns-api
+- collection_type: open
+  name: ShipMonk Warehouses API
+  slug: open-shipmonk-warehouses-api
 common:
 - group: other
   title: ''
@@ -246,7 +265,7 @@ overview: 'ShipMonk publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 2
   name: Shipmonk Rate Limits
@@ -274,7 +293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

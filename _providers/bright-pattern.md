@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 2
@@ -70,7 +70,53 @@ apis:
 - description: 'With the https://:tenant_url/configapi/v2/user endpoint you can: Create new users and define most of their attributes Update existing users Check and clear user lockout state Manage agents'' skills Del'
   name: Bright Pattern Users API
   slug: bright-pattern-users-api
-artifact_total: 19
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bright Pattern Authentication API
+  slug: open-bright-pattern-authentication-api
+- collection_type: open
+  name: BPCC List Management API v2.0 Calling List API
+  slug: open-bright-pattern-calling-list-api
+- collection_type: open
+  name: Bright Pattern Campaigns API
+  slug: open-bright-pattern-campaigns-api
+- collection_type: open
+  name: Bright Pattern DNC Lists API
+  slug: open-bright-pattern-dnc-lists-api
+- collection_type: open
+  name: BPCC List Management API v2.0 Do Not Call List API
+  slug: open-bright-pattern-do-not-call-list-api
+- collection_type: open
+  name: BPCC List Management API v3.2 Link Groups API
+  slug: open-bright-pattern-link-groups-api
+- collection_type: open
+  name: Bright Pattern Lists API
+  slug: open-bright-pattern-lists-api
+- collection_type: open
+  name: Bright Pattern Methods API
+  slug: open-bright-pattern-methods-api
+- collection_type: open
+  name: BPCC Interaction Content Multichannel Call Recordings API
+  slug: open-bright-pattern-multichannel-call-recordings-api
+- collection_type: open
+  name: BPCC Configuration Phones API
+  slug: open-bright-pattern-phones-api
+- collection_type: open
+  name: BPCC Interaction Content Regular Call Recordings API
+  slug: open-bright-pattern-regular-call-recordings-api
+- collection_type: open
+  name: BPCC SMS/MMS SMS/MMS Messaging API
+  slug: open-bright-pattern-sms-mms-messaging-api
+- collection_type: open
+  name: BPCC Task Routing API
+  slug: open-bright-pattern-task-routing-api
+- collection_type: open
+  name: Bright Pattern Users API
+  slug: open-bright-pattern-users-api
 common:
 - group: agent
   title: ''
@@ -228,7 +274,7 @@ overview: 'Bright Pattern publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 11
+random_paper: 110
 score:
   band: developing
   composite: 50.8
@@ -258,7 +304,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

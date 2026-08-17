@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,8 +69,20 @@ apis:
 - description: The Users API from Microsoft Applications APIs — 2 operation(s) for users.
   name: Microsoft Applications APIs Users API
   slug: ms-applications-users-api
-artifact_total: 19
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph API (Applications) Groups API
+  slug: open-ms-applications-groups-api
+- collection_type: open
+  name: Microsoft Graph API (Applications) Groups Me API
+  slug: open-ms-applications-me-api
+- collection_type: open
+  name: Microsoft Graph API (Applications) Groups Users API
+  slug: open-ms-applications-users-api
 - collection_type: open
   name: Microsoft Graph API (Applications)
   slug: open-ms-applications
@@ -119,7 +131,7 @@ plans:
 - name: Ms Applications Plans Pricing
   plan_count: 3
   slug: ms-applications-plans-pricing
-random_paper: 116
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Ms Applications Rate Limits
@@ -149,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-applications/refs/heads/main/screenshots/ms-applications-2026-06-20T185844.png
 security:

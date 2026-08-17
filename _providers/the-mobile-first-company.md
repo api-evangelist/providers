@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: Pre-computed call metrics, team performance, and outbound dial funnel
@@ -70,11 +70,54 @@ apis:
 - description: Manage webhook endpoints to receive real-time notifications about events in your Allo account. Each endpoint subscribes to one or more event topics and is verified with a signing secret.
   name: The Mobile First Company Webhooks API
   slug: the-mobile-first-company-webhooks-api
-artifact_total: 19
+artifact_total: 33
 asyncapis:
 - description: ''
   name: The Mobile First Company Webhooks
   slug: the-mobile-first-company-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Allo Analytics API
+  slug: open-the-mobile-first-company-analytics-api
+- collection_type: open
+  name: Allo Analytics Calls API
+  slug: open-the-mobile-first-company-calls-api
+- collection_type: open
+  name: Allo Analytics Contacts API
+  slug: open-the-mobile-first-company-contacts-api
+- collection_type: open
+  name: Allo Analytics Conversations API
+  slug: open-the-mobile-first-company-conversations-api
+- collection_type: open
+  name: Allo Analytics CRM API
+  slug: open-the-mobile-first-company-crm-api
+- collection_type: open
+  name: Allo Analytics Partner API
+  slug: open-the-mobile-first-company-partner-api
+- collection_type: open
+  name: Allo Analytics Phone Numbers API
+  slug: open-the-mobile-first-company-phone-numbers-api
+- collection_type: open
+  name: Allo Analytics Power Dialer API
+  slug: open-the-mobile-first-company-power-dialer-api
+- collection_type: open
+  name: Allo Analytics SMS API
+  slug: open-the-mobile-first-company-sms-api
+- collection_type: open
+  name: Allo Analytics Summary Templates API
+  slug: open-the-mobile-first-company-summary-templates-api
+- collection_type: open
+  name: Allo Analytics Tags API
+  slug: open-the-mobile-first-company-tags-api
+- collection_type: open
+  name: Allo Analytics Users API
+  slug: open-the-mobile-first-company-users-api
+- collection_type: open
+  name: Allo Analytics Webhooks API
+  slug: open-the-mobile-first-company-webhooks-api
 common:
 - group: auth
   title: ''
@@ -218,7 +261,7 @@ overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://a
 
 
   The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 119
+random_paper: 15
 scopes:
 - name: The Mobile First Company Scopes
   scope_count: 0
@@ -252,7 +295,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

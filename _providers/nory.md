@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: The Authorization API from Nory — 1 operation(s) for authorization.
@@ -61,7 +61,11 @@ apis:
 - description: The Templates API from Nory — 5 operation(s) for templates.
   name: Nory Templates API
   slug: nory-templates-api
-artifact_total: 13
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 common:
 - group: company
   title: ''
@@ -159,7 +163,7 @@ overview: 'Nory publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nory''s developer surface includes engineering blog, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 96
+random_paper: 9
 score:
   band: thin
   composite: 33.1
@@ -182,7 +186,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/screenshots/nory-2026-08-07T185535.png
 security:

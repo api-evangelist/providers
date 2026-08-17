@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ apis:
 - description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updatequalificationtype.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.UpdateQualificationType API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updatequalificationtype-api
-artifact_total: 537
+artifact_total: 574
 collections:
 - collection_type: postman
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest API'
@@ -275,6 +275,117 @@ collections:
 - collection_type: postman
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.UpdateQualificationType API'
   slug: postman-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updatequalificationtype-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-acceptqualificationrequest-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.ApproveAssignment API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-approveassignment-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AssociateQualificationWithWorker API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-associatequalificationwithworker-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.CreateAdditionalAssignmentsForHIT API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createadditionalassignmentsforhit-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.CreateHIT API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createhit-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.CreateHITType API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createhittype-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.CreateHITWithHITType API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createhitwithhittype-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.CreateQualificationType API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createqualificationtype-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.CreateWorkerBlock API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createworkerblock-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.DeleteHIT API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-deletehit-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.DeleteQualificationType API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-deletequalificationtype-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.DeleteWorkerBlock API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-deleteworkerblock-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.DisassociateQualificationFromWorker API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-disassociatequalificationfromworker-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.GetAccountBalance API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getaccountbalance-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.GetAssignment API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getassignment-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.GetFileUploadURL API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getfileuploadurl-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.GetHIT API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-gethit-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.GetQualificationScore API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getqualificationscore-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.GetQualificationType API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getqualificationtype-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.ListAssignmentsForHIT API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listassignmentsforhit-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.ListBonusPayments API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listbonuspayments-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.ListHITs API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listhits-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.ListHITsForQualificationType API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listhitsforqualificationtype-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.ListQualificationRequests API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listqualificationrequests-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.ListQualificationTypes API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listqualificationtypes-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.ListWorkerBlocks API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listworkerblocks-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.ListWorkersWithQualificationType API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listworkerswithqualificationtype-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.NotifyWorkers API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-notifyworkers-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.RejectAssignment API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-rejectassignment-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.RejectQualificationRequest API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-rejectqualificationrequest-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.SendBonus API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-sendbonus-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.SendTestEventNotification API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-sendtesteventnotification-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.UpdateExpirationForHIT API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updateexpirationforhit-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.UpdateHITTypeOfHIT API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updatehittypeofhit-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.UpdateNotificationSettings API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updatenotificationsettings-api
+- collection_type: open
+  name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest #X Amz Target=MTurkRequesterServiceV20170117.UpdateQualificationType API'
+  slug: open-amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updatequalificationtype-api
 common:
 - group: build
   title: ''
@@ -1697,7 +1808,7 @@ plans:
 - name: Amazon Mechanical Turk Plans Pricing
   plan_count: 3
   slug: amazon-mechanical-turk-plans-pricing
-random_paper: 59
+random_paper: 133
 rate_limits:
 - limit_count: 5
   name: Amazon Mechanical Turk Rate Limits
@@ -1739,7 +1850,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/screenshots/amazon-mechanical-turk-2026-06-20T171734.png
 security:

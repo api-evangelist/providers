@@ -23,18 +23,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-12'
+  score: 5.9
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Gated, enterprise real-time de-identification API named on the HealthVerity Identity Manager product page. Under the "sync on demand" modality, customers write records to the HealthVerity Identity API
   name: HealthVerity Identity API
   slug: healthverity-identity-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -92,30 +92,82 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/healthverity-llms.txt
+- group: start
+  title: ''
+  type: Login
+  url: https://marketplace.healthverity.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://healthverity.com/exos-demo/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/healthverity-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/healthverity-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/healthverity-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/healthverity-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/healthverity-rate-limits.yml
+coverage:
+  checked: '2026-08-15'
+  detail: The vendor-named HealthVerity Identity API has no reference anywhere on the public web - /api and /developers return 404, every api./docs./developer./ portal./platform. subdomain is NXDOMAIN, and the only route to it is the identity-manager-request sales form; the single live application host, marketplace.healthverity.com, 301s to /login/ and its robots.txt disallows all crawling.
+  evidence:
+  - status: 404
+    url: https://healthverity.com/api
+  - status: 200
+    url: https://healthverity.com/identity-manager-request/
+  - status: 301
+    url: https://marketplace.healthverity.com/
+  - status: 404
+    url: https://healthverity.com/openapi.json
+  - status: 404
+    url: https://healthverity.com/.well-known/agent-card.json
+  reason: sales-gate
+  state: gated
 created: '2026-07-24'
 description: HealthVerity is a United States life-sciences data platform, headquartered in Philadelphia, Pennsylvania, that operates what it describes as the nation's largest real-world data (RWD) ecosystem - more than 150 billion de-identified transactions covering over 330 million U.S. patients across 75-plus data sources spanning medical and pharmacy claims, labs, and EHR (following its integration of Symphony Health). Its products are organized around the IPGE framework (Identity, Privacy, Governance, Exchange) and include HealthVerity Marketplace (verified RWD datasets), Identity Manager and Census (privacy-safe probabilistic identity resolution that replaces PII with a universal HealthVerity ID / HVID), Governance Manager, HealthVerity FLOW, and eXOs (an AI-native real-world-evidence agent). HealthVerity is a HIPAA-aligned, tokenization-and-de-identification company serving pharma, payers, and government - not a self-serve, standards-based clinical interoperability vendor. Unlike EHR
   and FHIR-network players, it exposes no public developer portal, no FHIR CapabilityStatement, and no downloadable OpenAPI; the only vendor-named programmatic surface is the gated, enterprise HealthVerity Identity API for real-time de-identification, described conceptually on the Identity Manager product page but without public reference documentation, base URL, or self-serve onboarding.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-08-15'
 name: HealthVerity
 nav: Providers
 network: true
 overview: 'HealthVerity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Life Sciences, Real-World Data, and Identity Resolution.
 
 
-  HealthVerity''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 105
+  HealthVerity''s developer surface includes engineering blog, support, signup flow, and 18 more developer resources.'
+plans:
+- name: Healthverity Plans Pricing
+  plan_count: 0
+  slug: healthverity-plans-pricing
+random_paper: 113
+rate_limits:
+- limit_count: 0
+  name: Healthverity Rate Limits
+  slug: healthverity-rate-limits
 score:
   band: emerging
-  composite: 18.1
-  delta: 0.0
+  composite: 22.6
+  delta: 4.5
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 66.7
-    governance: 0.0
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 18.1
   regulatory:
@@ -123,9 +175,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthverity/refs/heads/main/screenshots/healthverity-2026-07-25T220843.png
 security:
@@ -136,7 +188,7 @@ security:
 - kind: vulnerability-disclosure
   name: Healthverity Vulnerability Disclosure
   slug: healthverity-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
 - kind: trust-center
   name: Healthverity Trust Center
   slug: healthverity-trust-center

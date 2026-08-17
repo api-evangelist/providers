@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Zoning lookups by parcel, address, or geometry
   name: LightBox Zoning API Zoning API
   slug: lightbox-zoning-api-zoning-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LightBox Zoning API
+  slug: open-lightbox-zoning-api-zoning-api
 - collection_type: open
   name: LightBox Zoning API
   slug: open-lightbox-zoning-api
@@ -84,7 +90,7 @@ plans:
 - name: Lightbox Zoning Api Plans Pricing
   plan_count: 3
   slug: lightbox-zoning-api-plans-pricing
-random_paper: 10
+random_paper: 142
 rate_limits:
 - limit_count: 5
   name: Lightbox Zoning Api Rate Limits
@@ -109,7 +115,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightbox-zoning-api/refs/heads/main/screenshots/lightbox-zoning-api-2026-06-20T184514.png
 security:

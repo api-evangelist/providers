@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Key/secret exchange for bearer tokens and drone access discovery
@@ -40,7 +40,20 @@ apis:
 - description: Mission time-series data across vehicle, atmospheric, oceanographic, and biogeochemical datasets
   name: Saildrone Time Series API
   slug: saildrone-time-series-api
-artifact_total: 15
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Saildrone Mission Authentication API
+  slug: open-saildrone-authentication-api
+- collection_type: open
+  name: Saildrone Mission Health API
+  slug: open-saildrone-health-api
+- collection_type: open
+  name: Saildrone Mission Time Series API
+  slug: open-saildrone-time-series-api
 common:
 - group: auth
   title: ''
@@ -200,7 +213,7 @@ plans:
 - name: Saildrone Plans Pricing
   plan_count: 4
   slug: saildrone-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Saildrone Rate Limits
@@ -241,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png
 security:

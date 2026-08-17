@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -125,7 +125,98 @@ apis:
 - description: The Webhooks API from Arcee AI — 1 operation(s) for webhooks.
   name: Arcee AI Webhooks API
   slug: arcee-ai-webhooks-api
-artifact_total: 33
+artifact_total: 63
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AFM Access Profiles API
+  slug: open-arcee-ai-access-profiles-api
+- collection_type: open
+  name: AFM Access Profiles AFM API API
+  slug: open-arcee-ai-afm-api-api
+- collection_type: open
+  name: AFM Access Profiles Analytics API
+  slug: open-arcee-ai-analytics-api
+- collection_type: open
+  name: AFM Access Profiles Arcee-Admin API
+  slug: open-arcee-ai-arcee-admin-api
+- collection_type: open
+  name: AFM Access Profiles Auth API
+  slug: open-arcee-ai-auth-api
+- collection_type: open
+  name: AFM Access Profiles Automated Reports API
+  slug: open-arcee-ai-automated-reports-api
+- collection_type: open
+  name: AFM Access Profiles Billing API
+  slug: open-arcee-ai-billing-api
+- collection_type: open
+  name: AFM Access Profiles Chat API
+  slug: open-arcee-ai-chat-api
+- collection_type: open
+  name: AFM Access Profiles Completions API
+  slug: open-arcee-ai-completions-api
+- collection_type: open
+  name: AFM Access Profiles Demo Mode API
+  slug: open-arcee-ai-demo-mode-api
+- collection_type: open
+  name: AFM Access Profiles Dev Mode API
+  slug: open-arcee-ai-dev-mode-api
+- collection_type: open
+  name: AFM Access Profiles Device Auth API
+  slug: open-arcee-ai-device-auth-api
+- collection_type: open
+  name: AFM Access Profiles Feedback API
+  slug: open-arcee-ai-feedback-api
+- collection_type: open
+  name: AFM Access Profiles Health API
+  slug: open-arcee-ai-health-api
+- collection_type: open
+  name: AFM Access Profiles Keys API
+  slug: open-arcee-ai-keys-api
+- collection_type: open
+  name: AFM Access Profiles Metrics API
+  slug: open-arcee-ai-metrics-api
+- collection_type: open
+  name: AFM Access Profiles Models API
+  slug: open-arcee-ai-models-api
+- collection_type: open
+  name: AFM Access Profiles Organizations API
+  slug: open-arcee-ai-organizations-api
+- collection_type: open
+  name: AFM Access Profiles Partners API
+  slug: open-arcee-ai-partners-api
+- collection_type: open
+  name: AFM Access Profiles RAG API
+  slug: open-arcee-ai-rag-api
+- collection_type: open
+  name: AFM Access Profiles Rate Limit Profiles API
+  slug: open-arcee-ai-rate-limit-profiles-api
+- collection_type: open
+  name: AFM Access Profiles Registry API
+  slug: open-arcee-ai-registry-api
+- collection_type: open
+  name: AFM Access Profiles S3 API
+  slug: open-arcee-ai-s3-api
+- collection_type: open
+  name: AFM Access Profiles Search API
+  slug: open-arcee-ai-search-api
+- collection_type: open
+  name: AFM Access Profiles System Prompts API
+  slug: open-arcee-ai-system-prompts-api
+- collection_type: open
+  name: AFM Access Profiles Transaction API
+  slug: open-arcee-ai-transaction-api
+- collection_type: open
+  name: AFM Access Profiles Usage API
+  slug: open-arcee-ai-usage-api
+- collection_type: open
+  name: AFM Access Profiles User API
+  slug: open-arcee-ai-user-api
+- collection_type: open
+  name: AFM Access Profiles Webhooks API
+  slug: open-arcee-ai-webhooks-api
 common:
 - group: other
   title: ''
@@ -231,7 +322,7 @@ overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
-random_paper: 39
+random_paper: 14
 score:
   band: developing
   composite: 44.7
@@ -255,7 +346,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/screenshots/arcee-ai-2026-07-25T201012.png
 security:

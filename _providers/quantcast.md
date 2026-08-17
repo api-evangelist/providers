@@ -12,22 +12,22 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-12'
+  score: 31.1
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: 'The Quantcast Platform GraphQL API (v2) is the primary programmatic interface to the Quantcast advertising platform. It exposes queries and mutations for reporting, campaign and line item management, '
@@ -39,7 +39,7 @@ apis:
 - description: 'Quantcast Measure is the company''s free audience measurement product. Publishers and advertisers integrate the Quantcast Live Tag (Q Pixel) on web properties, or the Measure SDKs on iOS, Android, and '
   name: Quantcast Measure (Live Tag)
   slug: quantcast-measure-tag
-artifact_total: 5
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -60,14 +60,34 @@ common:
 - group: other
   title: ''
   type: Developers
-  url: https://developers.quantcast.com
+  url: https://developers.quantcast.com/docs/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.quantcast.com/docs/
 - group: docs
   title: ''
   type: Documentation
   url: https://developers.quantcast.com/docs/graphql-api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.quantcast.com/docs/graphql-api/reference/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.quantcast.com/docs/get-started/
+- group: build
+  title: ''
+  type: Postman
+  url: https://developers.quantcast.com/docs/QuantcastDeveloperAPI.postman_collection.json
 - group: operate
   title: ''
   type: HelpCenter
+  url: https://help.quantcast.com
+- group: operate
+  title: ''
+  type: Support
   url: https://help.quantcast.com
 - group: auth
   title: ''
@@ -76,7 +96,7 @@ common:
 - group: other
   title: ''
   type: Company
-  url: https://www.quantcast.com/company/
+  url: https://www.quantcast.com/about-us/
 - group: company
   title: ''
   type: Press
@@ -84,7 +104,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.quantcast.com/blog/
+  url: https://www.quantcast.com/resources/blog/
 - group: company
   title: ''
   type: Careers
@@ -92,14 +112,38 @@ common:
 - group: operate
   title: ''
   type: Contact
-  url: https://www.quantcast.com/contact/
+  url: https://www.quantcast.com/contact-us/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.quantcast.com/signup/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.quantcast.com/login/
 - group: commercial
   title: ''
   type: Privacy
   url: https://www.quantcast.com/privacy/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.quantcast.com/privacy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://legal.quantcast.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.quantcast.com
 - group: build
   title: ''
   type: GitHub
+  url: https://github.com/quantcast
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/quantcast
 - group: company
   title: ''
@@ -117,41 +161,126 @@ common:
   title: ''
   type: Acquisition
   url: https://www.quantcast.com/press-release/inmobi-acquires-quantcast-choice-to-enhance-frictionless-consent-management-for-publishers/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/quantcast-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/quantcast-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/quantcast-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/quantcast-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/quantcast-scopes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/quantcast-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/quantcast-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/quantcast-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/quantcast-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/quantcast-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/quantcast-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/quantcast-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/quantcast-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/quantcast-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/quantcast-llms.txt
 created: '2026-05-25'
 description: Quantcast is a San Francisco-headquartered digital advertising and audience intelligence company founded in 2006. Its flagship offering is the Quantcast Platform, an AI-driven demand-side platform (DSP) for programmatic display, video, CTV, audio, mobile, and native advertising, powered by the company's proprietary Audience Graph and Ara AI engine. Quantcast also operates Quantcast Measure, a free audience measurement product that has tagged millions of digital properties to produce demographic, psychographic, and cross-device audience insights. For programmatic access, Quantcast exposes a developer portal at developers.quantcast.com built around a GraphQL API (v2) for reporting, campaign management, and audience operations on the Quantcast Platform, secured via OAuth 2.0 client credentials. A server-to-server Conversion API augments the browser-side Live Tag for offline and signal-loss-resilient conversion tracking. Quantcast Choice, the company's IAB TCF v2-compliant Consent
   Management Platform, was acquired by InMobi in August 2023 and is now operated as part of InMobi CMP; legacy Quantcast Choice mobile SDKs remain published under the quantcast GitHub organization for reference. Quantcast also open-sources the Quantcast File System (QFS), a C++ distributed file system, and mobile/Roku measurement SDKs.
 graphqls:
-- description: 'The Quantcast Platform GraphQL API (v2) is the primary programmatic interface to the Quantcast advertising platform. It exposes queries and mutations for reporting, campaign and line item management, '
+- description: <!--
   name: Quantcast GraphQL API
   slug: quantcast-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantcast.png
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: Quantcast MCP candidate manifest (no server published)
+  slug: quantcast-mcp-candidate-manifest-no-server-published
+modified: '2026-08-13'
 name: Quantcast
 nav: Providers
 network: true
-overview: 'Quantcast publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, AdTech, Programmatic Advertising, Demand-Side Platform, and DSP.
+overview: 'Quantcast publishes 1 API on the [APIs.io](https://apis.io/) network: Platform GraphQL API. Tagged areas include Advertising, AdTech, Programmatic Advertising, Demand-Side Platform, and DSP.
 
 
-  Quantcast''s developer surface includes documentation, authentication, engineering blog, privacy policy, GitHub presence, YouTube channel, and 13 more developer resources.'
-random_paper: 20
+  Quantcast''s developer surface includes documentation, API reference, getting-started guide, support, authentication, engineering blog, signup flow, and 39 more developer resources.'
+plans:
+- name: Quantcast Plans Pricing
+  plan_count: 0
+  slug: quantcast-plans-pricing
+random_paper: 86
+rate_limits:
+- limit_count: 5
+  name: Quantcast Rate Limits
+  slug: quantcast-rate-limits
+scopes:
+- name: Quantcast Scopes
+  scope_count: 2
+  slug: quantcast-scopes
+  summary_line: 2 scopes · clientCredentials
 score:
-  band: emerging
-  composite: 14.5
-  delta: 0.0
+  band: thin
+  composite: 40.1
+  delta: 25.6
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 26.1
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 5.3
+    developer_ergonomics: 78.3
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 52.6
   previous_composite: 14.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/screenshots/quantcast-2026-06-20T192410.png
 security:
+- kind: authentication
+  name: Quantcast Authentication
+  slug: quantcast-authentication
+  summary_line: oauth2/http/apiKey · 3 schemes
 - kind: domain-security
   name: Quantcast Domain Security
   slug: quantcast-domain-security

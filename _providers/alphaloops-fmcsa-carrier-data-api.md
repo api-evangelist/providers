@@ -1,0 +1,249 @@
+---
+access_model:
+  confidence: high
+  label: Paid — sales-gated API key
+  onboarding: unknown
+  pricing: paid
+  public: true
+  source:
+  - https://runalphaloops.com/pricing
+  - https://runalphaloops.com/mcp
+  - https://runalphaloops.com/fmcsa-api/docs
+  trial: true
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: partial
+    rate_limit_signal: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 50.0
+  scored_at: '2026-08-17'
+api_count: 5
+apis:
+- description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
+  name: AlphaLoops MCP Server
+  slug: alphaloops-mcp-server
+- description: The Carriers API from AlphaLoops FMCSA Carrier Data API — 19 operation(s) for carriers.
+  name: AlphaLoops FMCSA Carrier Data API Carriers API
+  slug: alphaloops-fmcsa-carrier-data-api-carriers-api
+- description: The Contacts API from AlphaLoops FMCSA Carrier Data API — 2 operation(s) for contacts.
+  name: AlphaLoops FMCSA Carrier Data API Contacts API
+  slug: alphaloops-fmcsa-carrier-data-api-contacts-api
+- description: The Inspections API from AlphaLoops FMCSA Carrier Data API — 2 operation(s) for inspections.
+  name: AlphaLoops FMCSA Carrier Data API Inspections API
+  slug: alphaloops-fmcsa-carrier-data-api-inspections-api
+- description: The Vins API from AlphaLoops FMCSA Carrier Data API — 1 operation(s) for vins.
+  name: AlphaLoops FMCSA Carrier Data API Vins API
+  slug: alphaloops-fmcsa-carrier-data-api-vins-api
+artifact_total: 13
+common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alphaloops-fmcsa-carrier-data-api-overlay.yaml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/alphaloops-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/alphaloops-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/alphaloops-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/alphaloops-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alphaloops-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/alphaloops-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/alphaloops-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/alphaloops-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/alphaloops-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/alphaloops-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/alphaloops-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/alphaloops-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alphaloops-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/alphaloops-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/alphaloops-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/alphaloops-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: lifecycle/alphaloops-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.runalphaloops.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/alphaloops-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/alphaloops-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://runalphaloops.com/whats-new
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://runalphaloops.com/pricing
+- group: operate
+  title: ''
+  type: Support
+  url: https://runalphaloops.com/support
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/RunAlphaLoop
+- group: start
+  title: ''
+  type: Login
+  url: https://alphafreight.runalphaloops.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://runalphaloops.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://runalphaloops.com/privacy
+created: '2026-07-07'
+description: The carrier data layer for freight — FMCSA motor-carrier intelligence covering carrier profiles, authority & insurance history, VIN-level fleet data, roadside inspections, crashes, corporate connections, decision-maker contacts, and risk/watchlist monitoring. Exposes a REST API, a live OpenAPI 3.1 contract, a hosted MCP server with 30+ tools, and published Python/TypeScript SDKs plus a CLI.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alphaloops.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
+- description: ''
+  name: alphaloops-mcp.yml
+  slug: alphaloops-mcpyml
+modified: '2026-08-11'
+name: AlphaLoops FMCSA Carrier Data API
+nav: Providers
+network: true
+overview: 'AlphaLoops FMCSA Carrier Data API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 1 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and freight.
+
+
+  AlphaLoops FMCSA Carrier Data API''s developer surface includes authentication, CLI, changelog, pricing, support, and 24 more developer resources.'
+plans:
+- name: Alphaloops Plans Pricing
+  plan_count: 6
+  slug: alphaloops-plans-pricing
+random_paper: 116
+rate_limits:
+- limit_count: 5
+  name: Alphaloops Rate Limits
+  slug: alphaloops-rate-limits
+score:
+  band: strong
+  composite: 61.8
+  facets:
+    commercial_clarity: 92.1
+    contract_quality: 59.3
+    developer_ergonomics: 43.5
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 86.8
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-17'
+screenshot: https://raw.githubusercontent.com/api-evangelist/alphaloops-fmcsa-carrier-data-api/refs/heads/main/screenshots/alphaloops-2026-07-25T195758.png
+security:
+- kind: authentication
+  name: Alphaloops Authentication
+  slug: alphaloops-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Alphaloops Domain Security
+  slug: alphaloops-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Alphaloops Vulnerability Disclosure
+  slug: alphaloops-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Alphaloops Trust Center
+  slug: alphaloops-trust-center
+  summary_line: SOC 2 Type II, ISO 27001, NIST Cybersecurity Framework, COBIT
+slug: alphaloops-fmcsa-carrier-data-api
+tags:
+- fmcsa api
+- safer web api
+- dot lookup
+- carrier data
+- freight
+- trucking
+- motor carrier
+- fleet intelligence
+- sales intelligence
+- mcp server
+- contact enrichment
+- risk
+- fraud
+---

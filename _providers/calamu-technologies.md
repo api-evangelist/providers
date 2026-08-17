@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Calamu Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Calamu Technologies'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 36
+random_paper: 19
 score:
   band: minimal
   composite: 8.4
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calamu-technologies/refs/heads/main/screenshots/calamu-technologies-2026-07-25T204224.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ apis:
 - description: Wallet API
   name: Togai Wallet API
   slug: togai-wallet-api
-artifact_total: 65
+artifact_total: 91
 collections:
 - collection_type: postman
   name: Togai Apis Accounts API
@@ -191,6 +191,84 @@ collections:
 - collection_type: postman
   name: Togai Apis Accounts Wallet API
   slug: postman-togai-wallet-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Togai Apis Accounts API
+  slug: open-togai-accounts-api
+- collection_type: open
+  name: Togai Apis Accounts AddOns API
+  slug: open-togai-addons-api
+- collection_type: open
+  name: Togai Apis Accounts Aliases API
+  slug: open-togai-aliases-api
+- collection_type: open
+  name: Togai Apis Accounts Authentication API
+  slug: open-togai-authentication-api
+- collection_type: open
+  name: Togai Apis Accounts Credits API
+  slug: open-togai-credits-api
+- collection_type: open
+  name: Togai Apis Accounts Customer Portal API
+  slug: open-togai-customer-portal-api
+- collection_type: open
+  name: Togai Apis Accounts Customers API
+  slug: open-togai-customers-api
+- collection_type: open
+  name: Togai Apis Accounts Entitlements API
+  slug: open-togai-entitlements-api
+- collection_type: open
+  name: Togai Apis Accounts Event Ingestion API
+  slug: open-togai-event-ingestion-api
+- collection_type: open
+  name: Togai Apis Accounts Event Management API
+  slug: open-togai-event-management-api
+- collection_type: open
+  name: Togai Apis Accounts Event Schemas API
+  slug: open-togai-event-schemas-api
+- collection_type: open
+  name: Togai Apis Accounts Feature API
+  slug: open-togai-feature-api
+- collection_type: open
+  name: Togai Apis Accounts File Storage API
+  slug: open-togai-file-storage-api
+- collection_type: open
+  name: Togai Apis Accounts InvoiceGroups API
+  slug: open-togai-invoicegroups-api
+- collection_type: open
+  name: Togai Apis Accounts Invoices API
+  slug: open-togai-invoices-api
+- collection_type: open
+  name: Togai Apis Accounts Jobs API
+  slug: open-togai-jobs-api
+- collection_type: open
+  name: Togai Apis Accounts Licenses API
+  slug: open-togai-licenses-api
+- collection_type: open
+  name: Togai Apis Accounts Metrics API
+  slug: open-togai-metrics-api
+- collection_type: open
+  name: Togai Apis Accounts Payments API
+  slug: open-togai-payments-api
+- collection_type: open
+  name: Togai Apis Accounts Price Experimentation API
+  slug: open-togai-price-experimentation-api
+- collection_type: open
+  name: Togai Apis Accounts Price Plans API
+  slug: open-togai-price-plans-api
+- collection_type: open
+  name: Togai Apis Accounts Pricing Rules API
+  slug: open-togai-pricing-rules-api
+- collection_type: open
+  name: Togai Apis Accounts Settings API
+  slug: open-togai-settings-api
+- collection_type: open
+  name: Togai Apis Accounts Usage Meters API
+  slug: open-togai-usage-meters-api
+- collection_type: open
+  name: Togai Apis Accounts Wallet API
+  slug: open-togai-wallet-api
 - collection_type: open
   name: Togai Apis
   slug: open-togai
@@ -309,7 +387,7 @@ plans:
 - name: Togai Plans Pricing
   plan_count: 3
   slug: togai-plans-pricing
-random_paper: 52
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Togai Rate Limits
@@ -351,7 +429,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/togai/refs/heads/main/screenshots/togai-2026-06-20T195431.png
 security:

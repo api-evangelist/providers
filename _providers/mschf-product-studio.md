@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Mschf Product Studio
 nav: Providers
 network: true
 overview: Mschf Product Studio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Art Collective, Product Studio, Consumer, and E-commerce.
-random_paper: 12
+random_paper: 115
 score:
   band: minimal
   composite: 5.7
@@ -62,7 +62,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mschf-product-studio/refs/heads/main/screenshots/mschf-product-studio-2026-08-07T184419.png
 slug: mschf-product-studio

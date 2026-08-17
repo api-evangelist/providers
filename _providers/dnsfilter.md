@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 4
@@ -173,7 +173,143 @@ apis:
 - description: The Users API from DNSFilter — 4 operation(s) for users.
   name: DNSFilter Users API
   slug: dnsfilter-users-api
-artifact_total: 49
+artifact_total: 94
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes API
+  slug: open-dnsfilter-agent-local-user-bulk-deletes-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Agent Local Users API
+  slug: open-dnsfilter-agent-local-users-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Agent Local Users CSV Export API
+  slug: open-dnsfilter-agent-local-users-csv-export-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Api Keys API
+  slug: open-dnsfilter-api-keys-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Application Categories API
+  slug: open-dnsfilter-application-categories-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Applications API
+  slug: open-dnsfilter-applications-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Billings API
+  slug: open-dnsfilter-billings-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Block Pages API
+  slug: open-dnsfilter-block-pages-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Categories API
+  slug: open-dnsfilter-categories-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Collection Users API
+  slug: open-dnsfilter-collection-users-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Cybersight CSV Exports API
+  slug: open-dnsfilter-cybersight-csv-exports-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Dictionary Lookups API
+  slug: open-dnsfilter-dictionary-lookups-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Distributors API
+  slug: open-dnsfilter-distributors-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Domain Notes API
+  slug: open-dnsfilter-domain-notes-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Domains API
+  slug: open-dnsfilter-domains-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Enterprise Connections API
+  slug: open-dnsfilter-enterprise-connections-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Invoices API
+  slug: open-dnsfilter-invoices-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes IP Addresses API
+  slug: open-dnsfilter-ip-addresses-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes MAC Addresses API
+  slug: open-dnsfilter-mac-addresses-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Metrics API
+  slug: open-dnsfilter-metrics-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Network LAN IPs API
+  slug: open-dnsfilter-network-lan-ips-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Network Subnets API
+  slug: open-dnsfilter-network-subnets-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Networks API
+  slug: open-dnsfilter-networks-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Networks CSV Exports API
+  slug: open-dnsfilter-networks-csv-exports-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Organization Users API
+  slug: open-dnsfilter-organization-users-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Organizations API
+  slug: open-dnsfilter-organizations-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Policies API
+  slug: open-dnsfilter-policies-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Policies Bulk Actions API
+  slug: open-dnsfilter-policies-bulk-actions-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Policy IPs API
+  slug: open-dnsfilter-policy-ips-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes PSA Integrations API
+  slug: open-dnsfilter-psa-integrations-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Scheduled Policies API
+  slug: open-dnsfilter-scheduled-policies-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Scheduled Reports API
+  slug: open-dnsfilter-scheduled-reports-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Traffic Reports API
+  slug: open-dnsfilter-traffic-reports-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Trials API
+  slug: open-dnsfilter-trials-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes User Agent Bulk Deletes API
+  slug: open-dnsfilter-user-agent-bulk-deletes-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes User Agent Bulk Updates API
+  slug: open-dnsfilter-user-agent-bulk-updates-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes User Agent Cleanups API
+  slug: open-dnsfilter-user-agent-cleanups-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes User Agent CSV Exports API
+  slug: open-dnsfilter-user-agent-csv-exports-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes User Agent Releases API
+  slug: open-dnsfilter-user-agent-releases-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes User Agents API
+  slug: open-dnsfilter-user-agents-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes User (Current) API
+  slug: open-dnsfilter-user-current-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes User Organization UI Settings API
+  slug: open-dnsfilter-user-organization-ui-settings-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes User UI Settings API
+  slug: open-dnsfilter-user-ui-settings-api
+- collection_type: open
+  name: DNSFilter Agent Local User Bulk Deletes Users API
+  slug: open-dnsfilter-users-api
 common:
 - group: agent
   title: ''
@@ -303,7 +439,7 @@ overview: 'DNSFilter publishes 45 APIs on the [APIs.io](https://apis.io/) networ
 
 
   DNSFilter''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 11
+random_paper: 77
 score:
   band: developing
   composite: 45.3
@@ -327,7 +463,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnsfilter/refs/heads/main/screenshots/dnsfilter-2026-07-25T212151.png
 security:

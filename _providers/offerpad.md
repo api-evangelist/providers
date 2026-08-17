@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -44,7 +44,14 @@ apis:
 - description: Offerpad's real transaction API, and it is closed. Discovered on 2026-07-26 as the API_URL constant compiled into the Offerpad Connect single-page-app bundle at https://connect.offerpad.com/bundle.js,
   name: Offerpad Helix API (private customer backend)
   slug: offerpad-helix-api
-artifact_total: 8
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Offerpad WordPress REST API (wp/v2)
+  slug: open-offerpad-wordpress-wp-v2
+- collection_type: open
+  name: API Collection
+  slug: open-offerpad-wp-json-discovery
 common:
 - group: agent
   title: ''
@@ -227,7 +234,7 @@ overview: 'Offerpad publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Offerpad''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 35 more developer resources.'
-random_paper: 119
+random_paper: 94
 scopes:
 - name: Offerpad Scopes
   scope_count: 9
@@ -262,7 +269,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-07T190021.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,7 +52,23 @@ apis:
 - description: List available models.
   name: Inception Models API
   slug: inception-models-api
-artifact_total: 11
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Inception Chat API
+  slug: open-inception-chat-api
+- collection_type: open
+  name: Inception Chat Edit API
+  slug: open-inception-edit-api
+- collection_type: open
+  name: Inception Chat FIM API
+  slug: open-inception-fim-api
+- collection_type: open
+  name: Inception Chat Models API
+  slug: open-inception-models-api
 common:
 - group: company
   title: ''
@@ -202,7 +218,7 @@ plans:
 - name: Inception Plans
   plan_count: 3
   slug: inception-plans
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Inception Rate Limits
@@ -230,7 +246,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/screenshots/inception-2026-07-25T222332.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Sales records (orders) captured at the point of sale.
   name: Epos Now Transactions API
   slug: epos-now-transactions-api
-artifact_total: 12
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EposNow HQ REST Categories API
+  slug: open-epos-now-categories-api
+- collection_type: open
+  name: EposNow HQ REST Categories Customers API
+  slug: open-epos-now-customers-api
+- collection_type: open
+  name: EposNow HQ REST Categories Devices API
+  slug: open-epos-now-devices-api
+- collection_type: open
+  name: EposNow HQ REST Categories Products API
+  slug: open-epos-now-products-api
+- collection_type: open
+  name: EposNow HQ REST Categories Stock API
+  slug: open-epos-now-stock-api
+- collection_type: open
+  name: EposNow HQ REST Categories Transactions API
+  slug: open-epos-now-transactions-api
 - collection_type: open
   name: EposNow HQ REST API
   slug: open-epos-now
@@ -115,7 +136,7 @@ plans:
 - name: Epos Now Plans Pricing
   plan_count: 4
   slug: epos-now-plans-pricing
-random_paper: 104
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Epos Now Rate Limits
@@ -146,7 +167,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/screenshots/epos-now-2026-07-25T213541.png
 security:

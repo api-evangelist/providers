@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: API for Job board aggregator in Europe / Remote
@@ -67,7 +67,7 @@ overview: 'Arbeitnow publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Arbeitnow''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 11
+random_paper: 77
 score:
   band: minimal
   composite: 6.2
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbeitnow/refs/heads/main/screenshots/arbeitnow-2026-06-20T172348.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ arazzos:
 - description: Find a process by name, read its current schedule, and update it.
   name: Boomi Schedule a Process
   slug: boomi-schedule-process-workflow
-artifact_total: 137
+artifact_total: 150
 asyncapis:
 - description: Boomi Event Streams provides a publish-subscribe messaging system within the Boomi Enterprise Platform. Topics act as channels where producers publish messages and consumers receive them via Boomi rec
   name: Boomi Event Streams
@@ -158,14 +158,53 @@ collections:
   name: Boomi Platform REST API
   slug: postman-boomi-platform-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Boomi DataHub Atoms API
+  slug: open-boomi-atoms-api
+- collection_type: open
+  name: Boomi DataHub Atoms Components API
+  slug: open-boomi-components-api
+- collection_type: open
   name: Boomi DataHub API
   slug: open-boomi-datahub-api
+- collection_type: open
+  name: Boomi DataHub Atoms Deployments API
+  slug: open-boomi-deployments-api
+- collection_type: open
+  name: Boomi DataHub Atoms Environments API
+  slug: open-boomi-environments-api
 - collection_type: open
   name: Boomi Event Streams REST API
   slug: open-boomi-event-streams
 - collection_type: open
+  name: Boomi DataHub Atoms Execution API
+  slug: open-boomi-execution-api
+- collection_type: open
+  name: Boomi DataHub Atoms Golden Records API
+  slug: open-boomi-golden-records-api
+- collection_type: open
+  name: Boomi DataHub Atoms Messages API
+  slug: open-boomi-messages-api
+- collection_type: open
+  name: Boomi DataHub Atoms Models API
+  slug: open-boomi-models-api
+- collection_type: open
   name: Boomi Platform REST API
   slug: open-boomi-platform-rest-api
+- collection_type: open
+  name: Boomi DataHub Atoms Processes API
+  slug: open-boomi-processes-api
+- collection_type: open
+  name: Boomi DataHub Atoms Quarantine API
+  slug: open-boomi-quarantine-api
+- collection_type: open
+  name: Boomi DataHub Atoms Repositories API
+  slug: open-boomi-repositories-api
+- collection_type: open
+  name: Boomi DataHub Atoms Sources API
+  slug: open-boomi-sources-api
 common:
 - group: other
   title: ''
@@ -956,7 +995,7 @@ plans:
 - name: Boomi Plans Pricing
   plan_count: 9
   slug: boomi-plans-pricing
-random_paper: 54
+random_paper: 87
 rate_limits:
 - limit_count: 6
   name: Boomi Rate Limits
@@ -998,7 +1037,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/screenshots/boomi-2026-06-20T173607.png
 security:

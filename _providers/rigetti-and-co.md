@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -65,7 +65,38 @@ apis:
 - description: The Rigetti QCS API API from Rigetti & Co — 2 operation(s) for rigetti qcs api.
   name: Rigetti & Co Rigetti QCS API API
   slug: rigetti-and-co-rigetti-qcs-api-api
-artifact_total: 13
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rigetti QCS account API
+  slug: open-rigetti-and-co-account-api
+- collection_type: open
+  name: Rigetti QCS account authentication API
+  slug: open-rigetti-and-co-authentication-api
+- collection_type: open
+  name: Rigetti QCS account clientApplications API
+  slug: open-rigetti-and-co-clientapplications-api
+- collection_type: open
+  name: Rigetti QCS account endpoints API
+  slug: open-rigetti-and-co-endpoints-api
+- collection_type: open
+  name: Rigetti QCS account engagements API
+  slug: open-rigetti-and-co-engagements-api
+- collection_type: open
+  name: Rigetti QCS account Healthcheck API
+  slug: open-rigetti-and-co-healthcheck-api
+- collection_type: open
+  name: Rigetti QCS account quantumProcessors API
+  slug: open-rigetti-and-co-quantumprocessors-api
+- collection_type: open
+  name: Rigetti QCS account reservations API
+  slug: open-rigetti-and-co-reservations-api
+- collection_type: open
+  name: Rigetti QCS account Rigetti QCS API API
+  slug: open-rigetti-and-co-rigetti-qcs-api-api
 common:
 - group: agent
   title: ''
@@ -199,7 +230,7 @@ overview: 'Rigetti & Co publishes 9 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rigetti & Co''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 47
+random_paper: 26
 score:
   band: developing
   composite: 47.3
@@ -223,7 +254,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

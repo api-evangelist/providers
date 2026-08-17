@@ -11,15 +11,15 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 41.4
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: Page performance analysis
   name: Google PageSpeed Analysis API
   slug: google-pagespeed-analysis-api
-artifact_total: 12
+artifact_total: 16
 collections:
 - collection_type: postman
   name: Google PageSpeed PageSpeed Insights Analysis API
   slug: postman-google-pagespeed-analysis-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google PageSpeed PageSpeed Insights Analysis API
+  slug: open-google-pagespeed-analysis-api
 - collection_type: open
   name: Google PageSpeed PageSpeed Insights API
   slug: open-pagespeed-insights
@@ -111,6 +117,94 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/google-pagespeed-context.jsonld
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/speed/docs/insights/v5/reference
+- group: start
+  title: ''
+  type: SignUp
+  url: https://console.cloud.google.com/apis/credentials
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-pagespeed-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/google-pagespeed-packages.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-pagespeed-security.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-pagespeed-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://g.co/vrp
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-pagespeed-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-pagespeed-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-pagespeed-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-pagespeed-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developers.google.com/speed/docs/insights/release_notes
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-pagespeed-changelog.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/google-pagespeed-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/google-pagespeed-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-pagespeed-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-pagespeed-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-pagespeed-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-pagespeed-rate-limits.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/google-pagespeed-jsonschema-spectral-rules.yml
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: postman/google-pagespeed-analysis-api.postman_collection.json
 created: '2026-03-13'
 description: Google PageSpeed Insights provides APIs for analyzing the performance of web pages on both mobile and desktop devices, returning performance scores, Core Web Vitals metrics, and actionable optimization recommendations powered by Lighthouse.
 finops:
@@ -128,7 +222,7 @@ jsonld:
   property_count: 3
   slug: google-pagespeed-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-13'
 name: Google PageSpeed
 nav: Providers
 network: true
@@ -138,14 +232,14 @@ overview: 'Google PageSpeed publishes 1 API on the [APIs.io](https://apis.io/) n
   The Google PageSpeed catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google PageSpeed''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, developer console, and 9 more developer resources.'
+  Google PageSpeed''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, developer console, API reference, and 30 more developer resources.'
 plans:
 - name: Google Pagespeed Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: google-pagespeed-plans-pricing
-random_paper: 64
+random_paper: 134
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Google Pagespeed Rate Limits
   slug: google-pagespeed-rate-limits
 rules:
@@ -157,17 +251,22 @@ rules:
     info: 2
     warn: 4
   slug: google-pagespeed-jsonschema-spectral-rules
+scopes:
+- name: Google Pagespeed Scopes
+  scope_count: 1
+  slug: google-pagespeed-scopes
+  summary_line: 1 scope
 score:
-  band: developing
-  composite: 53.0
-  delta: 0.0
+  band: strong
+  composite: 65.8
+  delta: 12.8
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 42.1
     contract_quality: 68.7
-    developer_ergonomics: 54.3
-    discoverability: 68.5
-    governance: 58.3
-    operational_transparency: 28.9
+    developer_ergonomics: 73.9
+    discoverability: 87.0
+    governance: 79.2
+    operational_transparency: 55.3
   previous_composite: 53.0
   provenance:
     agentic_access: derived
@@ -177,18 +276,22 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-pagespeed/refs/heads/main/screenshots/google-pagespeed-2026-06-20T182219.png
 security:
 - kind: authentication
   name: Google Pagespeed Authentication
   slug: google-pagespeed-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Google Pagespeed Domain Security
   slug: google-pagespeed-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Google Pagespeed Vulnerability Disclosure
+  slug: google-pagespeed-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: google-pagespeed
 tags:
 - Core Web Vitals

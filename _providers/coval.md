@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ apis:
 - description: Dashboard widget CRUD operations
   name: Coval Widgets API
   slug: coval-widgets-api
-artifact_total: 56
+artifact_total: 80
 asyncapis:
 - description: ''
   name: Coval Webhooks
@@ -195,6 +195,78 @@ collections:
 - collection_type: postman
   name: Coval Agents Widgets API
   slug: postman-coval-widgets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coval Agents API
+  slug: open-coval-agents-api
+- collection_type: open
+  name: Coval Agents API Keys API
+  slug: open-coval-api-keys-api
+- collection_type: open
+  name: Coval Agents Audio API
+  slug: open-coval-audio-api
+- collection_type: open
+  name: Coval Agents Conversations API
+  slug: open-coval-conversations-api
+- collection_type: open
+  name: Coval Agents Dashboards API
+  slug: open-coval-dashboards-api
+- collection_type: open
+  name: Coval Agents Metric Outputs API
+  slug: open-coval-metric-outputs-api
+- collection_type: open
+  name: Coval Agents Metrics API
+  slug: open-coval-metrics-api
+- collection_type: open
+  name: Coval Agents Monitor Events API
+  slug: open-coval-monitor-events-api
+- collection_type: open
+  name: Coval Agents Monitors API
+  slug: open-coval-monitors-api
+- collection_type: open
+  name: Coval Agents Mutations API
+  slug: open-coval-mutations-api
+- collection_type: open
+  name: Coval Agents Organization Conversations Config API
+  slug: open-coval-organization-conversations-config-api
+- collection_type: open
+  name: Coval Agents Personas API
+  slug: open-coval-personas-api
+- collection_type: open
+  name: Coval Agents Reports API
+  slug: open-coval-reports-api
+- collection_type: open
+  name: Coval Agents Run Templates API
+  slug: open-coval-run-templates-api
+- collection_type: open
+  name: Coval Agents Runs API
+  slug: open-coval-runs-api
+- collection_type: open
+  name: Coval Agents Scheduled Runs API
+  slug: open-coval-scheduled-runs-api
+- collection_type: open
+  name: Coval Agents Simulations API
+  slug: open-coval-simulations-api
+- collection_type: open
+  name: Coval Agents Tags API
+  slug: open-coval-tags-api
+- collection_type: open
+  name: Coval Agents Test Cases API
+  slug: open-coval-test-cases-api
+- collection_type: open
+  name: Coval Agents Test Sets API
+  slug: open-coval-test-sets-api
+- collection_type: open
+  name: Coval Agents Traces API
+  slug: open-coval-traces-api
+- collection_type: open
+  name: Coval Agents Webhooks API
+  slug: open-coval-webhooks-api
+- collection_type: open
+  name: Coval Agents Widgets API
+  slug: open-coval-widgets-api
 common:
 - group: other
   title: ''
@@ -347,7 +419,7 @@ overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 53
+random_paper: 86
 score:
   band: strong
   composite: 61.5
@@ -371,7 +443,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/screenshots/coval-2026-07-25T210531.png
 security:

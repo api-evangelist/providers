@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -151,17 +151,116 @@ apis:
 - description: Create and manage webhooks that listen to Codat's events.
   name: Codat Webhooks API
   slug: codat-webhooks-api
-artifact_total: 351
+artifact_total: 384
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bank Feeds Account mapping API
+  slug: open-codat-account-mapping-api
+- collection_type: open
+  name: Bank Feeds Account mapping Accounting bank data API
+  slug: open-codat-accounting-bank-data-api
+- collection_type: open
+  name: Bank Feeds Account mapping Accounts payable API
+  slug: open-codat-accounts-payable-api
+- collection_type: open
+  name: Bank Feeds Account mapping Accounts receivable API
+  slug: open-codat-accounts-receivable-api
+- collection_type: open
+  name: Bank Feeds Account mapping Bank accounts API
+  slug: open-codat-bank-accounts-api
 - collection_type: open
   name: Bank Feeds
   slug: open-codat-bank-feeds
 - collection_type: open
+  name: Bank Feeds Account mapping Bank statements API
+  slug: open-codat-bank-statements-api
+- collection_type: open
+  name: Bank Feeds Account mapping Companies API
+  slug: open-codat-companies-api
+- collection_type: open
+  name: Bank Feeds Account mapping Company info API
+  slug: open-codat-company-info-api
+- collection_type: open
+  name: Bank Feeds Account mapping Company information API
+  slug: open-codat-company-information-api
+- collection_type: open
+  name: Bank Feeds Account mapping Connection management API
+  slug: open-codat-connection-management-api
+- collection_type: open
+  name: Bank Feeds Account mapping Connections API
+  slug: open-codat-connections-api
+- collection_type: open
+  name: Bank Feeds Account mapping Custom data type API
+  slug: open-codat-custom-data-type-api
+- collection_type: open
+  name: Bank Feeds Account mapping Data integrity API
+  slug: open-codat-data-integrity-api
+- collection_type: open
+  name: Bank Feeds Account mapping Excel reports API
+  slug: open-codat-excel-reports-api
+- collection_type: open
+  name: Bank Feeds Account mapping File upload API
+  slug: open-codat-file-upload-api
+- collection_type: open
+  name: Bank Feeds Account mapping Financial statements API
+  slug: open-codat-financial-statements-api
+- collection_type: open
+  name: Bank Feeds Account mapping Financial summary API
+  slug: open-codat-financial-summary-api
+- collection_type: open
+  name: Bank Feeds Account mapping Integrations API
+  slug: open-codat-integrations-api
+- collection_type: open
   name: Lending
   slug: open-codat-lending
 - collection_type: open
+  name: Bank Feeds Account mapping Liabilities API
+  slug: open-codat-liabilities-api
+- collection_type: open
+  name: Bank Feeds Account mapping Loan writeback API
+  slug: open-codat-loan-writeback-api
+- collection_type: open
+  name: Bank Feeds Account mapping Manage data API
+  slug: open-codat-manage-data-api
+- collection_type: open
+  name: Bank Feeds Account mapping Manage reports API
+  slug: open-codat-manage-reports-api
+- collection_type: open
+  name: Bank Feeds Account mapping Managed bank feeds API
+  slug: open-codat-managed-bank-feeds-api
+- collection_type: open
   name: Platform API
   slug: open-codat-platform
+- collection_type: open
+  name: Bank Feeds Account mapping Push data API
+  slug: open-codat-push-data-api
+- collection_type: open
+  name: Bank Feeds Account mapping Read data API
+  slug: open-codat-read-data-api
+- collection_type: open
+  name: Bank Feeds Account mapping Refresh data API
+  slug: open-codat-refresh-data-api
+- collection_type: open
+  name: Bank Feeds Account mapping Sales API
+  slug: open-codat-sales-api
+- collection_type: open
+  name: Bank Feeds Account mapping Settings API
+  slug: open-codat-settings-api
+- collection_type: open
+  name: Bank Feeds Account mapping Source accounts API
+  slug: open-codat-source-accounts-api
+- collection_type: open
+  name: Bank Feeds Account mapping Supplemental data API
+  slug: open-codat-supplemental-data-api
+- collection_type: open
+  name: Bank Feeds Account mapping Transactions API
+  slug: open-codat-transactions-api
+- collection_type: open
+  name: Bank Feeds Account mapping Webhooks API
+  slug: open-codat-webhooks-api
 common:
 - group: agent
   title: ''
@@ -1190,7 +1289,7 @@ plans:
 - name: Codat Plans Pricing
   plan_count: 1
   slug: codat-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Codat Rate Limits
@@ -1224,7 +1323,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/screenshots/codat-2026-06-20T174652.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
 - description: Add guests to a restaurant waitlist.
   name: SpotOn Waitlist API
   slug: spoton-waitlist-api
-artifact_total: 150
+artifact_total: 166
 collections:
 - collection_type: postman
   name: SpotOn Reserve Availability API
@@ -131,6 +131,54 @@ collections:
 - collection_type: postman
   name: SpotOn Reserve Availability Waitlist API
   slug: postman-spoton-waitlist-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SpotOn Reserve Availability API
+  slug: open-spoton-availability-api
+- collection_type: open
+  name: SpotOn Reserve Availability Cash Deposits API
+  slug: open-spoton-cash-deposits-api
+- collection_type: open
+  name: SpotOn Reserve Availability Employees API
+  slug: open-spoton-employees-api
+- collection_type: open
+  name: SpotOn Reserve Availability Job Positions API
+  slug: open-spoton-job-positions-api
+- collection_type: open
+  name: SpotOn Reserve Availability Locations API
+  slug: open-spoton-locations-api
+- collection_type: open
+  name: SpotOn Reserve Availability Menu Items API
+  slug: open-spoton-menu-items-api
+- collection_type: open
+  name: SpotOn Reserve Availability Order Types API
+  slug: open-spoton-order-types-api
+- collection_type: open
+  name: SpotOn Reserve Availability Orders API
+  slug: open-spoton-orders-api
+- collection_type: open
+  name: SpotOn Reserve Availability Paid In Outs API
+  slug: open-spoton-paid-in-outs-api
+- collection_type: open
+  name: SpotOn Reserve Availability Payment Options API
+  slug: open-spoton-payment-options-api
+- collection_type: open
+  name: SpotOn Reserve Availability Report Categories API
+  slug: open-spoton-report-categories-api
+- collection_type: open
+  name: SpotOn Reserve Availability Reservations API
+  slug: open-spoton-reservations-api
+- collection_type: open
+  name: SpotOn Reserve Availability Restaurants API
+  slug: open-spoton-restaurants-api
+- collection_type: open
+  name: SpotOn Reserve Availability Time Clock Entries API
+  slug: open-spoton-time-clock-entries-api
+- collection_type: open
+  name: SpotOn Reserve Availability Waitlist API
+  slug: open-spoton-waitlist-api
 common:
 - group: build
   title: ''
@@ -550,7 +598,7 @@ plans:
 - name: Spoton Plans Pricing
   plan_count: 3
   slug: spoton-plans-pricing
-random_paper: 75
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Spoton Rate Limits
@@ -598,7 +646,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoton/refs/heads/main/screenshots/spoton-2026-06-20T194358.png
 security:

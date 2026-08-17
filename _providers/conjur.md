@@ -28,13 +28,44 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: REST API for authenticating machine and human identities, retrieving and rotating secrets, loading policy-as-code, and inspecting RBAC roles and resources. Compatible with Conjur OSS and CyberArk Secr
   name: Conjur / CyberArk Secrets Manager API
   slug: conjur-cyberark-secrets-manager-api
-artifact_total: 4
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Collection
+  slug: open-authentication
+- collection_type: open
+  name: API Collection
+  slug: open-cert-auth
+- collection_type: open
+  name: API Collection
+  slug: open-host-factory
+- collection_type: open
+  name: API Collection
+  slug: open-policies
+- collection_type: open
+  name: API Collection
+  slug: open-public-keys
+- collection_type: open
+  name: API Collection
+  slug: open-resources
+- collection_type: open
+  name: API Collection
+  slug: open-roles
+- collection_type: open
+  name: API Collection
+  slug: open-secrets
+- collection_type: open
+  name: API Collection
+  slug: open-status
 common:
 - group: operate
   title: ''
@@ -148,7 +179,7 @@ overview: 'Conjur publishes 1 API on the [APIs.io](https://apis.io/) network: / 
 
 
   Conjur''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 19 more developer resources.'
-random_paper: 57
+random_paper: 61
 score:
   band: thin
   composite: 32.7
@@ -166,7 +197,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/screenshots/conjur-2026-07-25T210258.png
 security:

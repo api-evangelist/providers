@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -105,8 +105,29 @@ apis:
 - description: Operations on Automate sessions.
   name: BrowserStack Sessions API
   slug: browserstack-sessions-api
-artifact_total: 30
+artifact_total: 37
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BrowserStack Automate REST AccessKey API
+  slug: open-browserstack-accesskey-api
+- collection_type: open
+  name: BrowserStack Automate REST AccessKey Browsers API
+  slug: open-browserstack-browsers-api
+- collection_type: open
+  name: BrowserStack Automate REST AccessKey Builds API
+  slug: open-browserstack-builds-api
+- collection_type: open
+  name: BrowserStack Automate REST AccessKey Plan API
+  slug: open-browserstack-plan-api
+- collection_type: open
+  name: BrowserStack Automate REST AccessKey Projects API
+  slug: open-browserstack-projects-api
+- collection_type: open
+  name: BrowserStack Automate REST AccessKey Sessions API
+  slug: open-browserstack-sessions-api
 - collection_type: open
   name: BrowserStack Automate REST API
   slug: open-browserstack
@@ -223,7 +244,7 @@ plans:
 - name: Browserstack Plans Pricing
   plan_count: 3
   slug: browserstack-plans-pricing
-random_paper: 106
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Browserstack Rate Limits
@@ -248,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/screenshots/browserstack-2026-06-20T173725.png
 security:

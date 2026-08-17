@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Model Context Protocol servers exposed by the WordPress MCP adapter. Both servers require OAuth 2.1 bearer auth (observed HTTP 401 anonymously).
@@ -37,7 +37,29 @@ apis:
 - description: WordPress core content API (posts, pages, media, taxonomies, users, settings).
   name: A2 Biotherapeutics Wp/v2 API
   slug: a2-biotherapeutics-wp-v2-api
-artifact_total: 9
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: A2 Biotherapeutics WordPress REST MCP API
+  slug: open-a2-biotherapeutics-mcp-api
+- collection_type: open
+  name: A2 Biotherapeutics WordPress REST Oembed/1.0 API
+  slug: open-a2-biotherapeutics-oembed-1-0-api
+- collection_type: open
+  name: A2 Biotherapeutics WordPress REST Root API
+  slug: open-a2-biotherapeutics-root-api
+- collection_type: open
+  name: A2 Biotherapeutics WordPress REST Wp Abilities/v1 API
+  slug: open-a2-biotherapeutics-wp-abilities-v1-api
+- collection_type: open
+  name: API Collection
+  slug: open-a2-biotherapeutics-wp-rest-discovery-original
+- collection_type: open
+  name: A2 Biotherapeutics WordPress REST Wp/v2 API
+  slug: open-a2-biotherapeutics-wp-v2-api
 common:
 - group: company
   title: ''
@@ -163,7 +185,7 @@ overview: 'A2 Biotherapeutics publishes 5 APIs on the [APIs.io](https://apis.io/
 
 
   A2 Biotherapeutics'' developer surface includes engineering blog, authentication, and 25 more developer resources.'
-random_paper: 3
+random_paper: 15
 scopes:
 - name: A2 Biotherapeutics Scopes
   scope_count: 1
@@ -197,7 +219,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/screenshots/a2-biotherapeutics-2026-08-07T160729.png
 security:

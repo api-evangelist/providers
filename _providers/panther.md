@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -102,11 +102,78 @@ apis:
 - description: The user api handles all operations for users
   name: Panther user API
   slug: panther-user-api
-artifact_total: 27
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Panther Webhooks
   slug: panther-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Panther REST alert API
+  slug: open-panther-alert-api
+- collection_type: open
+  name: Panther REST alert api token API
+  slug: open-panther-api-token-api
+- collection_type: open
+  name: Panther REST alert aws cloud account API
+  slug: open-panther-aws-cloud-account-api
+- collection_type: open
+  name: Panther REST alert comment API
+  slug: open-panther-comment-api
+- collection_type: open
+  name: Panther REST alert contexttag API
+  slug: open-panther-contexttag-api
+- collection_type: open
+  name: Panther REST alert correlation rule API
+  slug: open-panther-correlation-rule-api
+- collection_type: open
+  name: Panther REST alert data model API
+  slug: open-panther-data-model-api
+- collection_type: open
+  name: Panther REST alert gcs source API
+  slug: open-panther-gcs-source-api
+- collection_type: open
+  name: Panther REST alert global API
+  slug: open-panther-global-api
+- collection_type: open
+  name: Panther REST alert http source API
+  slug: open-panther-http-source-api
+- collection_type: open
+  name: Panther REST alert log forwarder source API
+  slug: open-panther-log-forwarder-source-api
+- collection_type: open
+  name: Panther REST alert log source alarm API
+  slug: open-panther-log-source-alarm-api
+- collection_type: open
+  name: Panther REST alert policy API
+  slug: open-panther-policy-api
+- collection_type: open
+  name: Panther REST alert pub/sub source API
+  slug: open-panther-pub-sub-source-api
+- collection_type: open
+  name: Panther REST alert query API
+  slug: open-panther-query-api
+- collection_type: open
+  name: Panther REST alert role API
+  slug: open-panther-role-api
+- collection_type: open
+  name: Panther REST alert rule API
+  slug: open-panther-rule-api
+- collection_type: open
+  name: Panther REST alert s3 source API
+  slug: open-panther-s3-source-api
+- collection_type: open
+  name: Panther REST alert scheduled rule API
+  slug: open-panther-scheduled-rule-api
+- collection_type: open
+  name: Panther REST alert simple rule API
+  slug: open-panther-simple-rule-api
+- collection_type: open
+  name: Panther REST alert user API
+  slug: open-panther-user-api
 common:
 - group: other
   title: ''
@@ -239,7 +306,7 @@ overview: 'Panther publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Panther''s developer surface includes authentication, CLI, documentation, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 34
+random_paper: 9
 score:
   band: developing
   composite: 53.9
@@ -263,7 +330,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/screenshots/panther-2026-08-07T191340.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Pages, posts, reusable blocks and navigation.
@@ -39,7 +39,29 @@ apis:
 - description: Categories and tags.
   name: Allotex Taxonomy API
   slug: allotex-taxonomy-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Allotex Content API
+  slug: open-allotex-content-api
+- collection_type: open
+  name: Allotex Content Discovery API
+  slug: open-allotex-discovery-api
+- collection_type: open
+  name: Allotex Content Identity API
+  slug: open-allotex-identity-api
+- collection_type: open
+  name: Allotex Content Media API
+  slug: open-allotex-media-api
+- collection_type: open
+  name: Allotex Content Schema API
+  slug: open-allotex-schema-api
+- collection_type: open
+  name: Allotex Content Taxonomy API
+  slug: open-allotex-taxonomy-api
 common:
 - group: agent
   title: ''
@@ -198,7 +220,7 @@ overview: 'Allotex publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Allotex''s developer surface includes support, authentication, and 31 more developer resources.'
-random_paper: 41
+random_paper: 16
 score:
   band: emerging
   composite: 22.2
@@ -227,7 +249,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allotex/refs/heads/main/screenshots/allotex-2026-08-07T161228.png
 security:

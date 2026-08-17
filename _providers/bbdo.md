@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: bbdo.com runs on WordPress (WP Engine, fronted by Cloudflare) and leaves the WordPress REST API open for anonymous reads. The route discovery document at https://bbdo.com/wp-json/ enumerates 10 namesp
@@ -253,7 +253,7 @@ plans:
 - name: Bbdo Plans Pricing
   plan_count: 0
   slug: bbdo-plans-pricing
-random_paper: 47
+random_paper: 109
 rate_limits:
 - limit_count: 0
   name: Bbdo Rate Limits
@@ -261,7 +261,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.4
-  delta: 8.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 9.7
@@ -269,10 +269,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 5.7
+  previous_composite: 14.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbdo/refs/heads/main/screenshots/bbdo-2026-06-20T173054.png
 security:
 - kind: authentication

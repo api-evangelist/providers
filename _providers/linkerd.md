@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -71,11 +71,41 @@ apis:
 - description: Real-time traffic inspection
   name: Linkerd Tap API
   slug: linkerd-tap-api
-artifact_total: 26
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Linkerd Proxy Admin Discovery API
+  slug: open-linkerd-discovery-api
+- collection_type: open
+  name: Linkerd Proxy Admin Discovery Edges API
+  slug: open-linkerd-edges-api
+- collection_type: open
+  name: Linkerd Proxy Admin Discovery Gateways API
+  slug: open-linkerd-gateways-api
+- collection_type: open
+  name: Linkerd Proxy Admin Discovery Health API
+  slug: open-linkerd-health-api
+- collection_type: open
+  name: Linkerd Proxy Admin Discovery Lifecycle API
+  slug: open-linkerd-lifecycle-api
+- collection_type: open
+  name: Linkerd Proxy Admin Discovery Metrics API
+  slug: open-linkerd-metrics-api
 - collection_type: open
   name: Linkerd Proxy Admin API
   slug: open-linkerd-proxy-admin
+- collection_type: open
+  name: Linkerd Proxy Admin Discovery Routes API
+  slug: open-linkerd-routes-api
+- collection_type: open
+  name: Linkerd Proxy Admin Discovery Statistics API
+  slug: open-linkerd-statistics-api
+- collection_type: open
+  name: Linkerd Proxy Admin Discovery Tap API
+  slug: open-linkerd-tap-api
 - collection_type: open
   name: Linkerd Tap API
   slug: open-linkerd-tap
@@ -223,7 +253,7 @@ plans:
 - name: Linkerd Plans Pricing
   plan_count: 5
   slug: linkerd-plans-pricing
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Linkerd Rate Limits
@@ -257,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/screenshots/linkerd-2026-06-20T184545.png
 security:

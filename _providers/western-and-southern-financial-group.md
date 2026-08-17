@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 15
 common:
@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: Western & Southern Financial Adds Group Term Life ...
   url: https://iireporter.com/western-southern-financial-adds-group-term-life-product-to-thumbscore/
-random_paper: 41
+random_paper: 65
 score:
   band: minimal
   composite: 8.6
@@ -125,7 +125,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-and-southern-financial-group/refs/heads/main/screenshots/western-and-southern-financial-group-2026-06-20T201402.png
 security:

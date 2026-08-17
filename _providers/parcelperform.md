@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Outgoing webhook subscriptions for tracking updates. CONFIRMED operations; MODELED paths/schemas.
   name: Parcel Perform Webhooks API
   slug: parcelperform-webhooks-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Parcel Perform Analytics API
+  slug: open-parcelperform-analytics-api
+- collection_type: open
+  name: Parcel Perform Analytics Authentication API
+  slug: open-parcelperform-authentication-api
+- collection_type: open
+  name: Parcel Perform Analytics Couriers API
+  slug: open-parcelperform-couriers-api
+- collection_type: open
+  name: Parcel Perform Analytics Returns API
+  slug: open-parcelperform-returns-api
+- collection_type: open
+  name: Parcel Perform Analytics Shipments API
+  slug: open-parcelperform-shipments-api
+- collection_type: open
+  name: Parcel Perform Analytics Tracking Events API
+  slug: open-parcelperform-tracking-events-api
+- collection_type: open
+  name: Parcel Perform Analytics Webhooks API
+  slug: open-parcelperform-webhooks-api
 - collection_type: open
   name: Parcel Perform API
   slug: open-parcelperform
@@ -130,7 +154,7 @@ plans:
 - name: Parcelperform Plans Pricing
   plan_count: 1
   slug: parcelperform-plans-pricing
-random_paper: 74
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Parcelperform Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/screenshots/parcelperform-2026-08-07T191537.png
 security:

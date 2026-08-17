@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -66,7 +66,29 @@ apis:
 - description: Test and manage webhook notifications
   name: Cryptomus Webhooks API
   slug: cryptomus-webhooks-api
-artifact_total: 23
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cryptomus Exchange API
+  slug: open-cryptomus-exchange-api
+- collection_type: open
+  name: Cryptomus Exchange Payments API
+  slug: open-cryptomus-payments-api
+- collection_type: open
+  name: Cryptomus Exchange Payouts API
+  slug: open-cryptomus-payouts-api
+- collection_type: open
+  name: Cryptomus Exchange Recurring Payments API
+  slug: open-cryptomus-recurring-payments-api
+- collection_type: open
+  name: Cryptomus Exchange Wallets API
+  slug: open-cryptomus-wallets-api
+- collection_type: open
+  name: Cryptomus Exchange Webhooks API
+  slug: open-cryptomus-webhooks-api
 common:
 - group: agent
   title: ''
@@ -176,7 +198,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 54
+random_paper: 120
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -216,7 +238,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/screenshots/cryptomus-2026-06-20T175312.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ arazzos:
 - description: Convert a finix.js token into a Payment Instrument and create a Transfer (sale).
   name: Finix Tokenize and Charge
   slug: finix-tokenize-and-charge-workflow
-artifact_total: 50
+artifact_total: 70
 asyncapis:
 - description: Finix delivers real-time event notifications via webhooks (HTTP POST) when resources change. Subscribe with POST /webhooks. Each delivery carries an envelope { id, type, entity, occurred_at, system_ge
   name: Finix Webhook Events
@@ -171,6 +171,66 @@ collections:
 - collection_type: postman
   name: Finix Authorizations Webhooks API
   slug: postman-finix-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Finix Authorizations API
+  slug: open-finix-authorizations-api
+- collection_type: open
+  name: Finix Authorizations Balance Transfers API
+  slug: open-finix-balance-transfers-api
+- collection_type: open
+  name: Finix Authorizations Compliance Forms API
+  slug: open-finix-compliance-forms-api
+- collection_type: open
+  name: Finix Authorizations Devices API
+  slug: open-finix-devices-api
+- collection_type: open
+  name: Finix Authorizations Disputes API
+  slug: open-finix-disputes-api
+- collection_type: open
+  name: Finix Authorizations Fee Profiles API
+  slug: open-finix-fee-profiles-api
+- collection_type: open
+  name: Finix Authorizations Files API
+  slug: open-finix-files-api
+- collection_type: open
+  name: Finix Authorizations Identities API
+  slug: open-finix-identities-api
+- collection_type: open
+  name: Finix Authorizations Instrument Updates API
+  slug: open-finix-instrument-updates-api
+- collection_type: open
+  name: Finix Authorizations Merchant Profiles API
+  slug: open-finix-merchant-profiles-api
+- collection_type: open
+  name: Finix Authorizations Merchants API
+  slug: open-finix-merchants-api
+- collection_type: open
+  name: Finix Authorizations Onboarding Forms API
+  slug: open-finix-onboarding-forms-api
+- collection_type: open
+  name: Finix Authorizations Payment Instruments API
+  slug: open-finix-payment-instruments-api
+- collection_type: open
+  name: Finix Authorizations Payout Profiles API
+  slug: open-finix-payout-profiles-api
+- collection_type: open
+  name: Finix Authorizations Settlements API
+  slug: open-finix-settlements-api
+- collection_type: open
+  name: Finix Authorizations Split Transfers API
+  slug: open-finix-split-transfers-api
+- collection_type: open
+  name: Finix Authorizations Transfers API
+  slug: open-finix-transfers-api
+- collection_type: open
+  name: Finix Authorizations Verifications API
+  slug: open-finix-verifications-api
+- collection_type: open
+  name: Finix Authorizations Webhooks API
+  slug: open-finix-webhooks-api
 common:
 - group: other
   title: ''
@@ -375,7 +435,7 @@ overview: 'Finix publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Finix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 62
+random_paper: 95
 rate_limits:
 - limit_count: 2
   name: Finix Rate Limits
@@ -409,7 +469,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/screenshots/finix-2026-07-25T214523.png
 security:

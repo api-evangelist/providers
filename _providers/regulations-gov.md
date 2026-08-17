@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,23 @@ apis:
 - description: Federal regulatory documents including notices, rules, and proposed rules
   name: Regulations.gov documents API
   slug: regulations-gov-documents-api
-artifact_total: 19
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Regulations.gov comment submission utilities API
+  slug: open-regulations-gov-comment-submission-utilities-api
+- collection_type: open
+  name: Regulations.gov comment submission utilities comments API
+  slug: open-regulations-gov-comments-api
+- collection_type: open
+  name: Regulations.gov comment submission utilities dockets API
+  slug: open-regulations-gov-dockets-api
+- collection_type: open
+  name: Regulations.gov comment submission utilities documents API
+  slug: open-regulations-gov-documents-api
 common:
 - group: agent
   title: ''
@@ -152,7 +168,7 @@ plans:
 - name: Regulations Gov Plans Pricing
   plan_count: 2
   slug: regulations-gov-plans-pricing
-random_paper: 14
+random_paper: 84
 rate_limits:
 - limit_count: 0
   name: Regulations Gov Rate Limits
@@ -192,7 +208,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/screenshots/regulations-gov-2026-06-20T192801.png
 security:

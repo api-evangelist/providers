@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,7 +66,29 @@ apis:
 - description: Workspaces are the areas where product teams are managing the full lifecycle of their products
   name: Craft.io Workspaces API
   slug: craft-io-workspaces-api
-artifact_total: 69
+artifact_total: 76
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Craft.io Feedback Portal Feedback items API
+  slug: open-craft-io-feedback-items-api
+- collection_type: open
+  name: Craft.io Feedback Portal Feedback items Feedback Portals API
+  slug: open-craft-io-feedback-portals-api
+- collection_type: open
+  name: Craft.io Feedback Portal Feedback items Introspection API
+  slug: open-craft-io-introspection-api
+- collection_type: open
+  name: Craft.io Feedback Portal Feedback items Portfolios API
+  slug: open-craft-io-portfolios-api
+- collection_type: open
+  name: Craft.io Feedback Portal Feedback items Work Items and OKRs API
+  slug: open-craft-io-work-items-and-okrs-api
+- collection_type: open
+  name: Craft.io Feedback Portal Feedback items Workspaces API
+  slug: open-craft-io-workspaces-api
 common:
 - group: agent
   title: ''
@@ -313,7 +335,7 @@ plans:
 - name: Craft Io Plans Pricing
   plan_count: 3
   slug: craft-io-plans-pricing
-random_paper: 69
+random_paper: 44
 rules:
 - name: Craft.io API Rules
   rule_count: 5
@@ -343,7 +365,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/screenshots/craft-io-2026-06-20T175212.png
 security:

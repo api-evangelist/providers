@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,20 @@ apis:
 - description: The Template API from Carbone — 2 operation(s) for template.
   name: Carbone Template API
   slug: carbone-template-api
-artifact_total: 13
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Carbone Cloud HTTP Render API
+  slug: open-carbone-render-api
+- collection_type: open
+  name: Carbone Cloud HTTP Render Status API
+  slug: open-carbone-status-api
+- collection_type: open
+  name: Carbone Cloud HTTP Render Template API
+  slug: open-carbone-template-api
 - collection_type: open
   name: Carbone Cloud HTTP API
   slug: open-carbone
@@ -139,7 +151,7 @@ plans:
 - name: Carbone Plans Pricing
   plan_count: 11
   slug: carbone-plans-pricing
-random_paper: 10
+random_paper: 134
 rate_limits:
 - limit_count: 4
   name: Carbone Rate Limits
@@ -164,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/screenshots/carbone-2026-06-20T173951.png
 security:

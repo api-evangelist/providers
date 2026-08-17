@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,23 @@ apis:
 - description: The song API from Artlist — 2 operation(s) for song.
   name: Artlist Song API
   slug: artlist-song-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Search Album API
+  slug: open-artlist-album-api
+- collection_type: open
+  name: Search Artist API
+  slug: open-artlist-artist-api
+- collection_type: open
+  name: Download Downloadable API
+  slug: open-artlist-downloadable-api
+- collection_type: open
+  name: Search Song API
+  slug: open-artlist-song-api
 common:
 - group: other
   title: ''
@@ -194,7 +210,7 @@ overview: 'Artlist publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Artlist''s developer surface includes documentation, API reference, developer console, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 51
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Artlist Rate Limits
@@ -222,7 +238,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/screenshots/artlist-2026-08-07T161743.png
 security:

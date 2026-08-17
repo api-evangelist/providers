@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 4
@@ -339,7 +339,308 @@ apis:
 - description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.updateapplicationmaintenanceconf'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
-artifact_total: 844
+artifact_total: 944
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel API
+  slug: open-kinesis-createsignalingchannel-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel CreateStream API
+  slug: open-kinesis-createstream-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel DeleteSignalingChannel API
+  slug: open-kinesis-deletesignalingchannel-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel DeleteStream API
+  slug: open-kinesis-deletestream-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel DescribeEdgeConfiguration API
+  slug: open-kinesis-describeedgeconfiguration-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel DescribeImageGenerationConfiguration API
+  slug: open-kinesis-describeimagegenerationconfiguration-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel DescribeMappedResourceConfiguration API
+  slug: open-kinesis-describemappedresourceconfiguration-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel DescribeMediaStorageConfiguration API
+  slug: open-kinesis-describemediastorageconfiguration-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel DescribeNotificationConfiguration API
+  slug: open-kinesis-describenotificationconfiguration-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel DescribeSignalingChannel API
+  slug: open-kinesis-describesignalingchannel-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel DescribeStream API
+  slug: open-kinesis-describestream-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel GetDataEndpoint API
+  slug: open-kinesis-getdataendpoint-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel GetSignalingChannelEndpoint API
+  slug: open-kinesis-getsignalingchannelendpoint-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel ListSignalingChannels API
+  slug: open-kinesis-listsignalingchannels-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel ListStreams API
+  slug: open-kinesis-liststreams-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel ListTagsForResource API
+  slug: open-kinesis-listtagsforresource-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel ListTagsForStream API
+  slug: open-kinesis-listtagsforstream-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel StartEdgeConfigurationUpdate API
+  slug: open-kinesis-startedgeconfigurationupdate-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel TagResource API
+  slug: open-kinesis-tagresource-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel TagStream API
+  slug: open-kinesis-tagstream-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel UntagResource API
+  slug: open-kinesis-untagresource-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel UntagStream API
+  slug: open-kinesis-untagstream-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel UpdateDataRetention API
+  slug: open-kinesis-updatedataretention-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel UpdateImageGenerationConfiguration API
+  slug: open-kinesis-updateimagegenerationconfiguration-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel UpdateMediaStorageConfiguration API
+  slug: open-kinesis-updatemediastorageconfiguration-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel UpdateNotificationConfiguration API
+  slug: open-kinesis-updatenotificationconfiguration-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel UpdateSignalingChannel API
+  slug: open-kinesis-updatesignalingchannel-api
+- collection_type: open
+  name: Amazon Kinesis Firehose CreateSignalingChannel UpdateStream API
+  slug: open-kinesis-updatestream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.CreateDeliveryStream API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-createdeliverystream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.DeleteDeliveryStream API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-deletedeliverystream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.DescribeDeliveryStream API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-describedeliverystream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.ListDeliveryStreams API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-listdeliverystreams-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.ListTagsForDeliveryStream API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-listtagsfordeliverystream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.PutRecord API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-putrecord-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.PutRecordBatch API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-putrecordbatch-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.StartDeliveryStreamEncryption API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-startdeliverystreamencryption-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.StopDeliveryStreamEncryption API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-stopdeliverystreamencryption-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.TagDeliveryStream API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-tagdeliverystream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.UntagDeliveryStream API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-untagdeliverystream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Firehose 20150804.UpdateDestination API'
+  slug: open-kinesis-x-amz-target-firehose-20150804-updatedestination-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.AddTagsToStream API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-addtagstostream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.CreateStream API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-createstream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.DecreaseStreamRetentionPeriod API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-decreasestreamretentionperiod-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.DeleteStream API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-deletestream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.DeregisterStreamConsumer API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-deregisterstreamconsumer-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.DescribeLimits API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-describelimits-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.DescribeStream API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-describestream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.DescribeStreamConsumer API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-describestreamconsumer-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.DescribeStreamSummary API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-describestreamsummary-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.DisableEnhancedMonitoring API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-disableenhancedmonitoring-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.EnableEnhancedMonitoring API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-enableenhancedmonitoring-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.GetRecords API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-getrecords-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.GetShardIterator API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-getsharditerator-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.IncreaseStreamRetentionPeriod API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-increasestreamretentionperiod-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.ListShards API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-listshards-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.ListStreamConsumers API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-liststreamconsumers-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.ListStreams API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-liststreams-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.ListTagsForStream API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-listtagsforstream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.MergeShards API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-mergeshards-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.PutRecord API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-putrecord-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.PutRecords API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-putrecords-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.RegisterStreamConsumer API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-registerstreamconsumer-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.RemoveTagsFromStream API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-removetagsfromstream-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.SplitShard API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-splitshard-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.StartStreamEncryption API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-startstreamencryption-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.StopStreamEncryption API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-stopstreamencryption-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.UpdateShardCount API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-updateshardcount-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=Kinesis 20131202.UpdateStreamMode API'
+  slug: open-kinesis-x-amz-target-kinesis-20131202-updatestreammode-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationcloudwatchloggingoption-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.AddApplicationInput API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationinput-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.AddApplicationInputProcessingConfiguration API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationinputprocessingconfiguration-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.AddApplicationOutput API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationoutput-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.AddApplicationReferenceDataSource API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationreferencedatasource-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.AddApplicationVpcConfiguration API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationvpcconfiguration-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.CreateApplication API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-createapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.CreateApplicationPresignedUrl API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-createapplicationpresignedurl-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.CreateApplicationSnapshot API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-createapplicationsnapshot-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DeleteApplication API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationCloudWatchLoggingOption API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationcloudwatchloggingoption-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationInputProcessingConfiguration API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationinputprocessingconfiguration-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationOutput API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationoutput-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationReferenceDataSource API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationreferencedatasource-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationSnapshot API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationsnapshot-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationVpcConfiguration API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationvpcconfiguration-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DescribeApplication API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-describeapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationSnapshot API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-describeapplicationsnapshot-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationVersion API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-describeapplicationversion-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.DiscoverInputSchema API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-discoverinputschema-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.ListApplications API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-listapplications-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.ListApplicationSnapshots API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-listapplicationsnapshots-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.ListApplicationVersions API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-listapplicationversions-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.ListTagsForResource API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-listtagsforresource-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.RollbackApplication API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-rollbackapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.StartApplication API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-startapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.StopApplication API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-stopapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.TagResource API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-tagresource-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.UntagResource API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-untagresource-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.UpdateApplication API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-updateapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
+  slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
 common:
 - group: agent
   title: ''
@@ -2635,7 +2936,7 @@ plans:
 - name: Kinesis Plans Pricing
   plan_count: 4
   slug: kinesis-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 16
   name: Kinesis Rate Limits
@@ -2669,7 +2970,7 @@ score:
       marker_coverage: 0.0
       total: 99
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/screenshots/kinesis-2026-06-20T184044.png
 security:

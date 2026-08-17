@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ overview: 'Dreambound is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Dreambound''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 97
+random_paper: 14
 score:
   band: minimal
   composite: 11.9
@@ -87,7 +87,7 @@ score:
     regime_id: health
     score: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreambound/refs/heads/main/screenshots/dreambound-2026-07-25T212355.png
 slug: dreambound

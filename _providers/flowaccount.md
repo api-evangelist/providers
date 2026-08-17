@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -95,11 +95,72 @@ apis:
 - description: The TaxInvoice API from FlowAccount — 9 operation(s) for taxinvoice.
   name: FlowAccount TaxInvoice API
   slug: flowaccount-taxinvoice-api
-artifact_total: 26
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Flowaccount Webhooks
   slug: flowaccount-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FlowAccount Open BatchImport API
+  slug: open-flowaccount-batchimport-api
+- collection_type: open
+  name: FlowAccount Open BatchImport BillingNote API
+  slug: open-flowaccount-billingnote-api
+- collection_type: open
+  name: FlowAccount Open BatchImport CashInvoice API
+  slug: open-flowaccount-cashinvoice-api
+- collection_type: open
+  name: FlowAccount Open BatchImport CompanyCurrency API
+  slug: open-flowaccount-companycurrency-api
+- collection_type: open
+  name: FlowAccount Open BatchImport Contact API
+  slug: open-flowaccount-contact-api
+- collection_type: open
+  name: FlowAccount Open BatchImport CreditNote API
+  slug: open-flowaccount-creditnote-api
+- collection_type: open
+  name: FlowAccount Open BatchImport DebitNote API
+  slug: open-flowaccount-debitnote-api
+- collection_type: open
+  name: FlowAccount Open BatchImport Employee API
+  slug: open-flowaccount-employee-api
+- collection_type: open
+  name: FlowAccount Open BatchImport Expense API
+  slug: open-flowaccount-expense-api
+- collection_type: open
+  name: FlowAccount Open BatchImport ProductCategory API
+  slug: open-flowaccount-productcategory-api
+- collection_type: open
+  name: FlowAccount Open BatchImport ProductInventory API
+  slug: open-flowaccount-productinventory-api
+- collection_type: open
+  name: FlowAccount Open BatchImport Products API
+  slug: open-flowaccount-products-api
+- collection_type: open
+  name: FlowAccount Open BatchImport ProductUnit API
+  slug: open-flowaccount-productunit-api
+- collection_type: open
+  name: FlowAccount Open BatchImport Purchase API
+  slug: open-flowaccount-purchase-api
+- collection_type: open
+  name: FlowAccount Open BatchImport PurchaseOrder API
+  slug: open-flowaccount-purchaseorder-api
+- collection_type: open
+  name: FlowAccount Open BatchImport Quotation API
+  slug: open-flowaccount-quotation-api
+- collection_type: open
+  name: FlowAccount Open BatchImport Receipt API
+  slug: open-flowaccount-receipt-api
+- collection_type: open
+  name: FlowAccount Open BatchImport ReceivableInvoice API
+  slug: open-flowaccount-receivableinvoice-api
+- collection_type: open
+  name: FlowAccount Open BatchImport TaxInvoice API
+  slug: open-flowaccount-taxinvoice-api
 common:
 - group: other
   title: ''
@@ -224,7 +285,7 @@ overview: 'FlowAccount publishes 19 APIs on the [APIs.io](https://apis.io/) netw
 
 
   FlowAccount''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, changelog, and 19 more developer resources.'
-random_paper: 109
+random_paper: 146
 scopes:
 - name: Flowaccount Scopes
   scope_count: 1
@@ -253,7 +314,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/screenshots/flowaccount-2026-07-25T214832.png
 security:

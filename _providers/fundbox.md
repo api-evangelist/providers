@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Fundbox Partner API provides an API stack for platforms to embed white-labeled net payment terms, credit underwriting, and working capital financing directly within their B2B applications. The API
@@ -100,7 +100,7 @@ plans:
 - name: Fundbox Plans Pricing
   plan_count: 2
   slug: fundbox-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Fundbox Rate Limits
@@ -124,7 +124,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundbox/refs/heads/main/screenshots/fundbox-2026-06-20T181616.png
 security:

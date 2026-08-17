@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,11 +42,17 @@ apis:
 - description: Equipment sensor dataset management
   name: Amazon Lookout for Equipment Datasets API
   slug: amazon-lookout-for-equipment-datasets-api
-artifact_total: 29
+artifact_total: 31
 collections:
 - collection_type: postman
   name: Amazon Lookout for Equipment Datasets API
   slug: postman-amazon-lookout-for-equipment-datasets-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Lookout for Equipment Datasets API
+  slug: open-amazon-lookout-for-equipment-datasets-api
 - collection_type: open
   name: Amazon Lookout for Equipment API
   slug: open-amazon-lookout-for-equipment
@@ -195,7 +201,7 @@ plans:
 - name: Amazon Lookout For Equipment Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-equipment-plans-pricing
-random_paper: 113
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Equipment Rate Limits
@@ -237,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-equipment/refs/heads/main/screenshots/amazon-lookout-for-equipment-2026-06-20T171729.png
 security:

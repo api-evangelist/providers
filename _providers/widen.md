@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 3
@@ -90,7 +90,62 @@ apis:
 - description: Create, list, and delete workflow webhooks.
   name: Widen Workflow-Webhooks API
   slug: widen-workflow-webhooks-api
-artifact_total: 25
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks API
+  slug: open-widen-acquia-dam-webhooks-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Analytics API
+  slug: open-widen-analytics-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Assets API
+  slug: open-widen-assets-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Attributes API
+  slug: open-widen-attributes-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Categories API
+  slug: open-widen-categories-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Channels API
+  slug: open-widen-channels-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Collections API
+  slug: open-widen-collections-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks File-Formats API
+  slug: open-widen-file-formats-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Integration-Links API
+  slug: open-widen-integration-links-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Metadata API
+  slug: open-widen-metadata-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Orders API
+  slug: open-widen-orders-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Products API
+  slug: open-widen-products-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Search-Connector API
+  slug: open-widen-search-connector-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Usage API
+  slug: open-widen-usage-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Users API
+  slug: open-widen-users-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Workflow-App-Projects API
+  slug: open-widen-workflow-app-projects-api
+- collection_type: open
+  name: Acquia DAM (Widen) Acquia-DAM-Webhooks Workflow-Webhooks API
+  slug: open-widen-workflow-webhooks-api
 common:
 - group: agent
   title: ''
@@ -176,7 +231,7 @@ plans:
 - name: Widen Plans Pricing
   plan_count: 3
   slug: widen-plans-pricing
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 3
   name: Widen Rate Limits
@@ -201,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/screenshots/widen-2026-06-20T201453.png
 security:

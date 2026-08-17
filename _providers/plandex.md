@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -84,7 +84,7 @@ apis:
 - description: User listing and removal within an org.
   name: Plandex Users API
   slug: plandex-users-api
-artifact_total: 102
+artifact_total: 118
 collections:
 - collection_type: postman
   name: Plandex Server Accounts API
@@ -132,8 +132,56 @@ collections:
   name: Plandex Server Accounts Users API
   slug: postman-plandex-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Plandex Server Accounts API
+  slug: open-plandex-accounts-api
+- collection_type: open
+  name: Plandex Server Accounts Branches API
+  slug: open-plandex-branches-api
+- collection_type: open
+  name: Plandex Server Accounts Context API
+  slug: open-plandex-context-api
+- collection_type: open
+  name: Plandex Server Accounts Conversation API
+  slug: open-plandex-conversation-api
+- collection_type: open
+  name: Plandex Server Accounts Diffs API
+  slug: open-plandex-diffs-api
+- collection_type: open
+  name: Plandex Server Accounts Execution API
+  slug: open-plandex-execution-api
+- collection_type: open
+  name: Plandex Server Accounts FileMap API
+  slug: open-plandex-filemap-api
+- collection_type: open
+  name: Plandex Server Accounts Health API
+  slug: open-plandex-health-api
+- collection_type: open
+  name: Plandex Server Accounts Invites API
+  slug: open-plandex-invites-api
+- collection_type: open
+  name: Plandex Server Accounts Models API
+  slug: open-plandex-models-api
+- collection_type: open
+  name: Plandex Server Accounts Orgs API
+  slug: open-plandex-orgs-api
+- collection_type: open
+  name: Plandex Server Accounts Plans API
+  slug: open-plandex-plans-api
+- collection_type: open
+  name: Plandex Server Accounts Projects API
+  slug: open-plandex-projects-api
+- collection_type: open
   name: Plandex Server API
   slug: open-plandex-server
+- collection_type: open
+  name: Plandex Server Accounts Settings API
+  slug: open-plandex-settings-api
+- collection_type: open
+  name: Plandex Server Accounts Users API
+  slug: open-plandex-users-api
 common:
 - group: build
   title: ''
@@ -429,7 +477,7 @@ plans:
 - name: Plandex Plans Pricing
   plan_count: 3
   slug: plandex-plans-pricing
-random_paper: 28
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Plandex Rate Limits
@@ -471,7 +519,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

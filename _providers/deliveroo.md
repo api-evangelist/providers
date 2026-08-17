@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: The Sync Status API from Deliveroo — 1 operation(s) for sync status.
   name: Deliveroo Sync Status API
   slug: deliveroo-sync-status-api
-artifact_total: 93
+artifact_total: 101
 asyncapis:
 - description: Event-driven webhook callbacks delivered by the Deliveroo Developer Portal APIs. Integrators configure HTTPS webhook URLs for Order Events, Rider Events, and Menu (upload result) events. Each delivery
   name: Deliveroo Webhooks
@@ -100,23 +100,47 @@ collections:
   name: Deliveroo Catalogue Sync Status API
   slug: postman-deliveroo-sync-status-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Deliveroo Catalogue API
   slug: open-deliveroo-catalogue-api
+- collection_type: open
+  name: Deliveroo Catalogue Deliveries API
+  slug: open-deliveroo-deliveries-api
 - collection_type: open
   name: Deliveroo Menu API
   slug: open-deliveroo-menu-api
 - collection_type: open
+  name: Deliveroo Catalogue Menus API
+  slug: open-deliveroo-menus-api
+- collection_type: open
+  name: Deliveroo Catalogue Opening Hours API
+  slug: open-deliveroo-opening-hours-api
+- collection_type: open
   name: Deliveroo Order API
   slug: open-deliveroo-order-api
 - collection_type: open
-  name: Deliveroo Picking API
+  name: Deliveroo Catalogue Orders API
+  slug: open-deliveroo-orders-api
+- collection_type: open
+  name: Deliveroo Catalogue Picking API
   slug: open-deliveroo-picking-api
+- collection_type: open
+  name: Deliveroo Catalogue Pricing API
+  slug: open-deliveroo-pricing-api
+- collection_type: open
+  name: Deliveroo Catalogue Quotes API
+  slug: open-deliveroo-quotes-api
 - collection_type: open
   name: Deliveroo Signature API
   slug: open-deliveroo-signature-api
 - collection_type: open
   name: Deliveroo Site API
   slug: open-deliveroo-site-api
+- collection_type: open
+  name: Deliveroo Catalogue Sync Status API
+  slug: open-deliveroo-sync-status-api
 common:
 - group: build
   title: ''
@@ -410,7 +434,7 @@ plans:
 - name: Deliveroo Plans Pricing
   plan_count: 5
   slug: deliveroo-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 6
   name: Deliveroo Rate Limits
@@ -460,7 +484,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/screenshots/deliveroo-2026-06-20T175902.png
 security:

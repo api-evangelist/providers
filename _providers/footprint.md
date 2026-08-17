@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: Wallet profile, portfolio, and eligibility checks
   name: Footprint Analytics Wallet API
   slug: footprint-wallet-api
-artifact_total: 23
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Footprint Analytics Data Chain API
+  slug: open-footprint-chain-api
+- collection_type: open
+  name: Footprint Analytics Data Chain DeFi API
+  slug: open-footprint-defi-api
+- collection_type: open
+  name: Footprint Analytics Data Chain Events API
+  slug: open-footprint-events-api
+- collection_type: open
+  name: Footprint Analytics Data Chain GameFi API
+  slug: open-footprint-gamefi-api
+- collection_type: open
+  name: Footprint Analytics Data Chain NFT API
+  slug: open-footprint-nft-api
+- collection_type: open
+  name: Footprint Analytics Data Chain Query API
+  slug: open-footprint-query-api
+- collection_type: open
+  name: Footprint Analytics Data Chain Token API
+  slug: open-footprint-token-api
+- collection_type: open
+  name: Footprint Analytics Data Chain Wallet API
+  slug: open-footprint-wallet-api
 common:
 - group: agent
   title: ''
@@ -156,7 +184,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 37
+random_paper: 103
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -190,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/screenshots/footprint-2026-06-20T181412.png
 security:

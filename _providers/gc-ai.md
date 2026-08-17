@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -66,7 +66,38 @@ apis:
 - description: Health check and connectivity endpoints
   name: GC AI Utility API
   slug: gc-ai-utility-api
-artifact_total: 15
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GC AI External Chat API
+  slug: open-gc-ai-chat-api
+- collection_type: open
+  name: GC AI External Chat Files API
+  slug: open-gc-ai-files-api
+- collection_type: open
+  name: GC AI External Chat Folders API
+  slug: open-gc-ai-folders-api
+- collection_type: open
+  name: GC AI External Chat Playbooks API
+  slug: open-gc-ai-playbooks-api
+- collection_type: open
+  name: GC AI External Chat Profiles API
+  slug: open-gc-ai-profiles-api
+- collection_type: open
+  name: GC AI External Chat Projects API
+  slug: open-gc-ai-projects-api
+- collection_type: open
+  name: GC AI External Chat Skills API
+  slug: open-gc-ai-skills-api
+- collection_type: open
+  name: GC AI External Chat Usage API
+  slug: open-gc-ai-usage-api
+- collection_type: open
+  name: GC AI External Chat Utility API
+  slug: open-gc-ai-utility-api
 common:
 - group: start
   title: ''
@@ -212,7 +243,7 @@ overview: 'GC AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   GC AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 89
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Gc Ai Rate Limits
@@ -240,7 +271,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/screenshots/gc-ai-2026-07-25T215510.png
 security:

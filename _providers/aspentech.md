@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,11 +57,26 @@ apis:
 - description: System information and health
   name: AspenTech System API
   slug: aspentech-system-api
-artifact_total: 25
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AspenTech Inmation Web Data API
+  slug: open-aspentech-data-api
+- collection_type: open
+  name: AspenTech Inmation Web Data Historical API
+  slug: open-aspentech-historical-api
 - collection_type: open
   name: AspenTech Inmation Web API
   slug: open-aspentech-inmation-web
+- collection_type: open
+  name: AspenTech Inmation Web Data Items API
+  slug: open-aspentech-items-api
+- collection_type: open
+  name: AspenTech Inmation Web Data System API
+  slug: open-aspentech-system-api
 common:
 - group: agent
   title: ''
@@ -154,7 +169,7 @@ plans:
 - name: Aspentech Plans Pricing
   plan_count: 1
   slug: aspentech-plans-pricing
-random_paper: 115
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Aspentech Rate Limits
@@ -194,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/screenshots/aspentech-2026-06-20T172502.png
 security:

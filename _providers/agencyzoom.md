@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -62,8 +62,35 @@ apis:
 - description: The Policies API from AgencyZoom — 3 operation(s) for policies.
   name: AgencyZoom Policies API
   slug: agencyzoom-policies-api
-artifact_total: 12
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AgencyZoom Authentication API
+  slug: open-agencyzoom-authentication-api
+- collection_type: open
+  name: AgencyZoom Authentication Configuration API
+  slug: open-agencyzoom-configuration-api
+- collection_type: open
+  name: AgencyZoom Authentication Customers API
+  slug: open-agencyzoom-customers-api
+- collection_type: open
+  name: AgencyZoom Authentication Email API
+  slug: open-agencyzoom-email-api
+- collection_type: open
+  name: AgencyZoom Authentication Leads API
+  slug: open-agencyzoom-leads-api
+- collection_type: open
+  name: AgencyZoom Authentication Opportunities API
+  slug: open-agencyzoom-opportunities-api
+- collection_type: open
+  name: AgencyZoom Authentication Pipelines API
+  slug: open-agencyzoom-pipelines-api
+- collection_type: open
+  name: AgencyZoom Authentication Policies API
+  slug: open-agencyzoom-policies-api
 - collection_type: open
   name: AgencyZoom API
   slug: open-agencyzoom
@@ -112,7 +139,7 @@ overview: 'AgencyZoom publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AgencyZoom''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 4
+random_paper: 41
 score:
   band: emerging
   composite: 27.5
@@ -139,7 +166,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/screenshots/agencyzoom-2026-06-20T165842.png
 security:

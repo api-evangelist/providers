@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Monitor integration status, logs, and metrics
   name: Jetic Monitoring API
   slug: jetic-monitoring-api
-artifact_total: 52
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Jetic Platform API Specifications API
+  slug: open-jetic-api-specifications-api
+- collection_type: open
+  name: Jetic Platform API Specifications Clusters API
+  slug: open-jetic-clusters-api
+- collection_type: open
+  name: Jetic Platform API Specifications Deployments API
+  slug: open-jetic-deployments-api
+- collection_type: open
+  name: Jetic Platform API Specifications Integrations API
+  slug: open-jetic-integrations-api
+- collection_type: open
+  name: Jetic Platform API Specifications Monitoring API
+  slug: open-jetic-monitoring-api
 - collection_type: open
   name: Jetic Platform API
   slug: open-jetic-platform
@@ -179,7 +197,7 @@ plans:
 - name: Jetic Plans Pricing
   plan_count: 3
   slug: jetic-plans-pricing
-random_paper: 47
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Jetic Rate Limits
@@ -213,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/screenshots/jetic-2026-06-20T183725.png
 security:

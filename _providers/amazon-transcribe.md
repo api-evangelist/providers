@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: The Vocabularies API from Amazon Transcribe — 1 operation(s) for vocabularies.
   name: Amazon Transcribe Vocabularies API
   slug: amazon-transcribe-vocabularies-api
-artifact_total: 26
+artifact_total: 29
 collections:
 - collection_type: postman
   name: Amazon Transcribe Transcription Jobs API
@@ -53,6 +53,15 @@ collections:
 - collection_type: postman
   name: Amazon Transcribe Transcription Jobs Vocabularies API
   slug: postman-amazon-transcribe-vocabularies-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Transcribe Transcription Jobs API
+  slug: open-amazon-transcribe-transcription-jobs-api
+- collection_type: open
+  name: Amazon Transcribe Transcription Jobs Vocabularies API
+  slug: open-amazon-transcribe-vocabularies-api
 - collection_type: open
   name: Amazon Transcribe API
   slug: open-amazon-transcribe
@@ -210,7 +219,7 @@ plans:
 - name: Amazon Transcribe Plans Pricing
   plan_count: 3
   slug: amazon-transcribe-plans-pricing
-random_paper: 80
+random_paper: 121
 rate_limits:
 - limit_count: 5
   name: Amazon Transcribe Rate Limits
@@ -252,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/screenshots/amazon-transcribe-2026-06-20T171840.png
 security:

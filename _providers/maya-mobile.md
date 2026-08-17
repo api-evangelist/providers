@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Real-time eSIM status and data-usage reporting.
   name: Maya Mobile Usage API
   slug: maya-mobile-usage-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Maya Mobile Connect+ Connectivity eSIMs API
+  slug: open-maya-mobile-esims-api
+- collection_type: open
+  name: Maya Mobile Connect+ Connectivity eSIMs Orders API
+  slug: open-maya-mobile-orders-api
+- collection_type: open
+  name: Maya Mobile Connect+ Connectivity eSIMs Plans API
+  slug: open-maya-mobile-plans-api
+- collection_type: open
+  name: Maya Mobile Connect+ Connectivity eSIMs Usage API
+  slug: open-maya-mobile-usage-api
 - collection_type: open
   name: Maya Mobile Connect+ Connectivity API
   slug: open-maya-mobile
@@ -113,7 +128,7 @@ plans:
 - name: Maya Mobile Plans Pricing
   plan_count: 2
   slug: maya-mobile-plans-pricing
-random_paper: 21
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Maya Mobile Rate Limits
@@ -144,7 +159,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/screenshots/maya-mobile-2026-07-25T230448.png
 security:

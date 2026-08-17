@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,8 +44,14 @@ apis:
 - description: Single GraphQL entry point for all Pipefy operations.
   name: Pipefy GraphQL API
   slug: pipefy-graphql-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pipefy GraphQL API
+  slug: open-pipefy-graphql-api
 - collection_type: open
   name: Pipefy GraphQL API
   slug: open-pipefy
@@ -126,7 +132,7 @@ overview: 'Pipefy publishes 1 API on the [APIs.io](https://apis.io/) network: Gr
 
 
   Pipefy''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
-random_paper: 53
+random_paper: 57
 score:
   band: thin
   composite: 37.5
@@ -147,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/screenshots/pipefy-2026-06-20T191727.png
 security:

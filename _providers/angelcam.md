@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 8
@@ -133,11 +133,102 @@ arazzos:
 - description: List cameras and retrieve the live-stream URLs for one.
   name: Angelcam — watch a live camera
   slug: angelcam-watch-live-camera
-artifact_total: 38
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Angelcam Webhooks
   slug: angelcam-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Angelcam Active Service API
+  slug: open-angelcam-active-service-api
+- collection_type: open
+  name: Angelcam active-service Angelcameras API
+  slug: open-angelcam-angelcameras-api
+- collection_type: open
+  name: Angelcam active-service Arrow Clients API
+  slug: open-angelcam-arrow-clients-api
+- collection_type: open
+  name: Angelcam active-service Audio Message API
+  slug: open-angelcam-audio-message-api
+- collection_type: open
+  name: Angelcam active-service Broadcasting API
+  slug: open-angelcam-broadcasting-api
+- collection_type: open
+  name: Angelcam active-service Camera API
+  slug: open-angelcam-camera-api
+- collection_type: open
+  name: Angelcam active-service Camera Guest API
+  slug: open-angelcam-camera-guest-api
+- collection_type: open
+  name: Angelcam active-service Camera Stream Detection API
+  slug: open-angelcam-camera-stream-detection-api
+- collection_type: open
+  name: Angelcam active-service Client API
+  slug: open-angelcam-client-api
+- collection_type: open
+  name: Angelcam active-service Clip API
+  slug: open-angelcam-clip-api
+- collection_type: open
+  name: Angelcam active-service Event API
+  slug: open-angelcam-event-api
+- collection_type: open
+  name: Angelcam active-service Incidents API
+  slug: open-angelcam-incidents-api
+- collection_type: open
+  name: Angelcam active-service Location API
+  slug: open-angelcam-location-api
+- collection_type: open
+  name: Angelcam active-service Order API
+  slug: open-angelcam-order-api
+- collection_type: open
+  name: Angelcam active-service Public Camera API
+  slug: open-angelcam-public-camera-api
+- collection_type: open
+  name: Angelcam active-service Recording API
+  slug: open-angelcam-recording-api
+- collection_type: open
+  name: Angelcam active-service Rts Messages API
+  slug: open-angelcam-rts-messages-api
+- collection_type: open
+  name: Angelcam active-service Rts Notification Methods API
+  slug: open-angelcam-rts-notification-methods-api
+- collection_type: open
+  name: Angelcam active-service Rts Notification Rules API
+  slug: open-angelcam-rts-notification-rules-api
+- collection_type: open
+  name: Angelcam active-service Rts Settings API
+  slug: open-angelcam-rts-settings-api
+- collection_type: open
+  name: Angelcam active-service Sensor API
+  slug: open-angelcam-sensor-api
+- collection_type: open
+  name: Angelcam active Service API
+  slug: open-angelcam-service-api
+- collection_type: open
+  name: Angelcam active-service Shared Camera API
+  slug: open-angelcam-shared-camera-api
+- collection_type: open
+  name: Angelcam active-service Shared Camera Clip API
+  slug: open-angelcam-shared-camera-clip-api
+- collection_type: open
+  name: Angelcam active-service Shared Camera Recording API
+  slug: open-angelcam-shared-camera-recording-api
+- collection_type: open
+  name: Angelcam active-service Space API
+  slug: open-angelcam-space-api
+- collection_type: open
+  name: Angelcam active-service Speakers API
+  slug: open-angelcam-speakers-api
+- collection_type: open
+  name: Angelcam active-service Stream Controls API
+  slug: open-angelcam-stream-controls-api
+- collection_type: open
+  name: Angelcam active-service User API
+  slug: open-angelcam-user-api
 common:
 - group: other
   title: ''
@@ -270,7 +361,7 @@ overview: 'AngelCam publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   AngelCam''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 22 more developer resources.'
-random_paper: 104
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Angelcam Rate Limits
@@ -303,7 +394,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png
 security:

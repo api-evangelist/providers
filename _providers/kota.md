@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ apis:
 - description: The webhooks API from Kota — 2 operation(s) for webhooks.
   name: Kota webhooks API
   slug: kota-webhooks-api
-artifact_total: 73
+artifact_total: 107
 asyncapis:
 - description: ''
   name: Kota Webhooks
@@ -242,6 +242,108 @@ collections:
 - collection_type: postman
   name: API Reference Associated Persons webhooks API
   slug: postman-kota-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference Associated Persons API
+  slug: open-kota-associated-persons-api
+- collection_type: open
+  name: API Reference Associated Persons associatedPersons API
+  slug: open-kota-associatedpersons-api
+- collection_type: open
+  name: API Reference Associated Persons Contribution Reports API
+  slug: open-kota-contribution-reports-api
+- collection_type: open
+  name: API Reference Associated Persons contributionReports API
+  slug: open-kota-contributionreports-api
+- collection_type: open
+  name: API Reference Associated Persons Dependents Management Intents API
+  slug: open-kota-dependents-management-intents-api
+- collection_type: open
+  name: API Reference Associated Persons dependentsManagementIntents API
+  slug: open-kota-dependentsmanagementintents-api
+- collection_type: open
+  name: API Reference Associated Persons Embed Sessions API
+  slug: open-kota-embed-sessions-api
+- collection_type: open
+  name: API Reference Associated Persons embedSessions API
+  slug: open-kota-embedsessions-api
+- collection_type: open
+  name: API Reference Associated Persons employees API
+  slug: open-kota-employees-api
+- collection_type: open
+  name: API Reference Associated Persons employers API
+  slug: open-kota-employers-api
+- collection_type: open
+  name: API Reference Associated Persons Enrolment Intents API
+  slug: open-kota-enrolment-intents-api
+- collection_type: open
+  name: API Reference Associated Persons enrolmentIntents API
+  slug: open-kota-enrolmentintents-api
+- collection_type: open
+  name: API Reference Associated Persons events API
+  slug: open-kota-events-api
+- collection_type: open
+  name: API Reference Associated Persons Group Policies API
+  slug: open-kota-group-policies-api
+- collection_type: open
+  name: API Reference Associated Persons Group Policy Intents API
+  slug: open-kota-group-policy-intents-api
+- collection_type: open
+  name: API Reference Associated Persons Group Quote Intents API
+  slug: open-kota-group-quote-intents-api
+- collection_type: open
+  name: API Reference Associated Persons groupPolicies API
+  slug: open-kota-grouppolicies-api
+- collection_type: open
+  name: API Reference Associated Persons groupPolicyIntents API
+  slug: open-kota-grouppolicyintents-api
+- collection_type: open
+  name: API Reference Associated Persons groupQuoteIntents API
+  slug: open-kota-groupquoteintents-api
+- collection_type: open
+  name: API Reference Associated Persons groups API
+  slug: open-kota-groups-api
+- collection_type: open
+  name: API Reference Associated Persons Health Insurance API
+  slug: open-kota-health-insurance-api
+- collection_type: open
+  name: API Reference Associated Persons healthInsurance API
+  slug: open-kota-healthinsurance-api
+- collection_type: open
+  name: API Reference Associated Persons Hosted Sessions API
+  slug: open-kota-hosted-sessions-api
+- collection_type: open
+  name: API Reference Associated Persons hostedSessions API
+  slug: open-kota-hostedsessions-api
+- collection_type: open
+  name: API Reference Associated Persons plans API
+  slug: open-kota-plans-api
+- collection_type: open
+  name: API Reference Associated Persons policies API
+  slug: open-kota-policies-api
+- collection_type: open
+  name: API Reference Associated Persons Policy Amendment Intents API
+  slug: open-kota-policy-amendment-intents-api
+- collection_type: open
+  name: API Reference Associated Persons Policy Import Intents API
+  slug: open-kota-policy-import-intents-api
+- collection_type: open
+  name: API Reference Associated Persons policyAmendmentIntents API
+  slug: open-kota-policyamendmentintents-api
+- collection_type: open
+  name: API Reference Associated Persons policyImportIntents API
+  slug: open-kota-policyimportintents-api
+- collection_type: open
+  name: API Reference Associated Persons providers API
+  slug: open-kota-providers-api
+- collection_type: open
+  name: API Reference Associated Persons requirements API
+  slug: open-kota-requirements-api
+- collection_type: open
+  name: API Reference Associated Persons webhooks API
+  slug: open-kota-webhooks-api
 common:
 - group: build
   title: ''
@@ -419,7 +521,7 @@ overview: 'Kota publishes 33 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kota''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 71
+random_paper: 133
 score:
   band: strong
   composite: 58.0
@@ -449,7 +551,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/screenshots/kota-2026-07-25T224240.png
 security:

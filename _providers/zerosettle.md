@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: Configurable cancel flow with retention offers
@@ -67,7 +67,47 @@ apis:
 - description: Unified offer + subscription-state resolver (SDK 1.2+)
   name: ZeroSettle User Offer API
   slug: zerosettle-user-offer-api
-artifact_total: 15
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow API
+  slug: open-zerosettle-cancel-flow-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow Checkout API
+  slug: open-zerosettle-checkout-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow Entitlements API
+  slug: open-zerosettle-entitlements-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow Events API
+  slug: open-zerosettle-events-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow Migration API
+  slug: open-zerosettle-migration-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow Products API
+  slug: open-zerosettle-products-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow Restore API
+  slug: open-zerosettle-restore-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow StoreKit API
+  slug: open-zerosettle-storekit-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow Subscriptions API
+  slug: open-zerosettle-subscriptions-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow Transactions API
+  slug: open-zerosettle-transactions-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow Upgrade Offers API
+  slug: open-zerosettle-upgrade-offers-api
+- collection_type: open
+  name: ZeroSettle IAP Cancel Flow User Offer API
+  slug: open-zerosettle-user-offer-api
 common:
 - group: agent
   title: ''
@@ -193,7 +233,7 @@ overview: 'ZeroSettle publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 20 more developer resources.'
-random_paper: 25
+random_paper: 62
 score:
   band: developing
   composite: 49.4
@@ -222,7 +262,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,11 +50,26 @@ apis:
 - description: AbilityOne Procurement List services
   name: US AbilityOne Commission Services API
   slug: us-abilityone-commission-services-api
-artifact_total: 48
+artifact_total: 53
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: AbilityOne Procurement List API
   slug: open-abilityone-procurement-list-api
+- collection_type: open
+  name: AbilityOne Procurement List Agencies API
+  slug: open-us-abilityone-commission-agencies-api
+- collection_type: open
+  name: AbilityOne Procurement List Agencies Products API
+  slug: open-us-abilityone-commission-products-api
+- collection_type: open
+  name: AbilityOne Procurement List Agencies Reports API
+  slug: open-us-abilityone-commission-reports-api
+- collection_type: open
+  name: AbilityOne Procurement List Agencies Services API
+  slug: open-us-abilityone-commission-services-api
 common:
 - group: agent
   title: ''
@@ -212,7 +227,7 @@ plans:
 - name: Us Abilityone Commission Plans Pricing
   plan_count: 3
   slug: us-abilityone-commission-plans-pricing
-random_paper: 83
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Us Abilityone Commission Rate Limits
@@ -260,7 +275,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/screenshots/us-abilityone-commission-2026-06-20T200541.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,8 +75,44 @@ apis:
 - description: The Users API from Schoology — 6 operation(s) for users.
   name: Schoology Users API
   slug: schoology-users-api
-artifact_total: 21
+artifact_total: 33
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Schoology REST API v1 Assignments API
+  slug: open-schoology-assignments-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Courses API
+  slug: open-schoology-courses-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Enrollments API
+  slug: open-schoology-enrollments-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Grades API
+  slug: open-schoology-grades-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Groups API
+  slug: open-schoology-groups-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Multi-Call API
+  slug: open-schoology-multi-call-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Sections API
+  slug: open-schoology-sections-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Submissions API
+  slug: open-schoology-submissions-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Subscriptions API
+  slug: open-schoology-subscriptions-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Targets API
+  slug: open-schoology-targets-api
+- collection_type: open
+  name: Schoology REST API v1 Assignments Users API
+  slug: open-schoology-users-api
 - collection_type: open
   name: Schoology Event Triggers (Webhooks) API
   slug: open-schoology-webhooks
@@ -148,7 +184,7 @@ plans:
 - name: Schoology Plans Pricing
   plan_count: 1
   slug: schoology-plans-pricing
-random_paper: 23
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Schoology Rate Limits
@@ -178,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -63,11 +63,39 @@ apis:
 - description: The Webhooks API from Mason — 2 operation(s) for webhooks.
   name: Mason Webhooks API
   slug: mason-webhooks-api
-artifact_total: 15
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Mason Webhooks
   slug: mason-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mason Apps API
+  slug: open-mason-apps-api
+- collection_type: open
+  name: Mason Apps Create Image API
+  slug: open-mason-create-image-api
+- collection_type: open
+  name: Mason Apps Images API
+  slug: open-mason-images-api
+- collection_type: open
+  name: Mason Apps Retrieve an Image API
+  slug: open-mason-retrieve-an-image-api
+- collection_type: open
+  name: Mason Apps Search API
+  slug: open-mason-search-api
+- collection_type: open
+  name: Mason Apps Template Mappings API
+  slug: open-mason-template-mappings-api
+- collection_type: open
+  name: Mason Apps Tiered Discounts API
+  slug: open-mason-tiered-discounts-api
+- collection_type: open
+  name: Mason Apps Webhooks API
+  slug: open-mason-webhooks-api
 common:
 - group: other
   title: ''
@@ -208,7 +236,7 @@ overview: 'Mason publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mason''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 62
+random_paper: 95
 scopes:
 - name: Mason Scopes
   scope_count: 0
@@ -237,7 +265,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/screenshots/mason-2026-07-25T230331.png
 security:

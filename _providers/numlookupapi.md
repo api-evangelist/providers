@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Phone number validation and lookup.
   name: NumLookupAPI Validation API
   slug: numlookupapi-validation-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NumLookup Account API
+  slug: open-numlookupapi-account-api
+- collection_type: open
+  name: NumLookup Account Validation API
+  slug: open-numlookupapi-validation-api
 - collection_type: open
   name: NumLookupAPI
   slug: open-numlookupapi
@@ -111,7 +120,7 @@ plans:
 - name: Numlookupapi Plans Pricing
   plan_count: 5
   slug: numlookupapi-plans-pricing
-random_paper: 116
+random_paper: 124
 rate_limits:
 - limit_count: 6
   name: Numlookupapi Rate Limits
@@ -142,7 +151,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/screenshots/numlookupapi-2026-08-07T185737.png
 security:

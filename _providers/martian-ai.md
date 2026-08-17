@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,12 +48,24 @@ apis:
 - description: The Models API from Martian — 1 operation(s) for models.
   name: Martian Models API
   slug: martian-ai-models-api
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: AsyncAPI 2.6 description of the Martian Gateway's **chat completion streaming** surface. Martian does not publish a WebSocket API. The Martian Gateway is an OpenAI-compatible model router; its only as
   name: Martian Gateway Chat Completions Streaming (HTTP + SSE)
   slug: martian-ai-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Martian Gateway Chat Completions API
+  slug: open-martian-ai-chat-completions-api
+- collection_type: open
+  name: Martian Gateway Chat Completions Messages API
+  slug: open-martian-ai-messages-api
+- collection_type: open
+  name: Martian Gateway Chat Completions Models API
+  slug: open-martian-ai-models-api
 - collection_type: open
   name: Martian Gateway API
   slug: open-martian-ai
@@ -193,7 +205,7 @@ plans:
 - name: Martian Ai Plans Pricing
   plan_count: 3
   slug: martian-ai-plans-pricing
-random_paper: 35
+random_paper: 101
 rate_limits:
 - limit_count: 4
   name: Martian Ai Rate Limits
@@ -229,7 +241,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/screenshots/martian-ai-2026-07-25T230258.png
 security:

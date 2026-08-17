@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,8 +41,14 @@ apis:
 - description: Product catalog, inventory, and merchandising operations
   name: Furniture API Products API
   slug: furniture-api-products-api
-artifact_total: 6
+artifact_total: 8
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Furniture Products API
+  slug: open-furniture-api-products-api
 - collection_type: open
   name: Furniture API
   slug: open-furniture-api
@@ -79,7 +85,7 @@ plans:
 - name: Furniture Api Plans Pricing
   plan_count: 3
   slug: furniture-api-plans-pricing
-random_paper: 35
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Furniture Api Rate Limits
@@ -104,7 +110,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/furniture-api/refs/heads/main/screenshots/furniture-api-2026-06-20T181622.png
 slug: furniture-api

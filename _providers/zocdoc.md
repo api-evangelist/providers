@@ -12,32 +12,33 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: true
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-12'
+  score: 60.1
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 10
+- acting_count: 11
   human_in_the_loop: 0
   name: Zocdoc Agentic Access
-  operation_count: 30
+  operation_count: 32
   slug: zocdoc-agentic-access
-  summary_line: 30 operations · 10 acting
-api_count: 10
+  summary_line: 32 operations · 11 acting
+api_count: 13
 apis:
 - description: Endpoints for booking, cancelling, and rescheduling appointments, including retrieving current appointment statuses and updated information.
   name: Zocdoc appointments API
@@ -69,7 +70,54 @@ apis:
 - description: Sandbox endpoints to mock webhook behavior
   name: Zocdoc webhook API
   slug: zocdoc-webhook-api
-artifact_total: 23
+- description: Endpoints to retrieve aggregate review summaries for providers, individually or in batches of up to 100 provider IDs.
+  name: Zocdoc reviews API
+  slug: zocdoc-reviews-api
+- description: Reference endpoints to retrieve the specialties Zocdoc supports and their default visit reasons, optionally filtered by care category.
+  name: Zocdoc specialties API
+  slug: zocdoc-specialties-api
+- description: Reference endpoints to retrieve the visit reasons Zocdoc supports and the specialty each one belongs to. Visit reason drives appointment duration and bookable timeslots.
+  name: Zocdoc visit-reasons API
+  slug: zocdoc-visit-reasons-api
+artifact_total: 42
+asyncapis:
+- description: ''
+  name: Zocdoc Webhooks
+  slug: zocdoc-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Documentation appointments API
+  slug: open-zocdoc-appointments-api
+- collection_type: open
+  name: API Documentation appointments calendar-integration-timeslots API
+  slug: open-zocdoc-calendar-integration-timeslots-api
+- collection_type: open
+  name: API Documentation appointments credentials API
+  slug: open-zocdoc-credentials-api
+- collection_type: open
+  name: API Documentation appointments facilities API
+  slug: open-zocdoc-facilities-api
+- collection_type: open
+  name: API Documentation appointments insurance-reference API
+  slug: open-zocdoc-insurance-reference-api
+- collection_type: open
+  name: API Documentation appointments provider-locations API
+  slug: open-zocdoc-provider-locations-api
+- collection_type: open
+  name: API Documentation appointments providers API
+  slug: open-zocdoc-providers-api
+- collection_type: open
+  name: API Documentation appointments reference API
+  slug: open-zocdoc-reference-api
+- collection_type: open
+  name: API Documentation appointments schedulable-entities API
+  slug: open-zocdoc-schedulable-entities-api
+- collection_type: open
+  name: API Documentation appointments webhook API
+  slug: open-zocdoc-webhook-api
 common:
 - group: agent
   title: ''
@@ -127,6 +175,110 @@ common:
   title: ''
   type: FinOps
   url: finops/zocdoc-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/zocdoc-vocabulary.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/zocdoc-provider.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/zocdoc-context.jsonld
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/zocdoc-jsonschema-spectral-rules.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/book-appointment-request.json
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/zocdoc-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/zocdoc-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/zocdoc-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zocdoc-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/zocdoc-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/zocdoc-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/zocdoc-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/zocdoc-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/zocdoc-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/zocdoc-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/zocdoc-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/zocdoc-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/zocdoc-webhooks.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.zocdoc.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-docs.zocdoc.com/apis
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://api-docs.zocdoc.com/guides
+- group: operate
+  title: ''
+  type: Support
+  url: https://api-docs.zocdoc.com/guides/faqs
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.zocdoc.com/?utm_medium=organicpro&utm_routing=API_Sender#api-form
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.zocdoc.com/about/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.zocdoc.com/about/consumer-health-data-privacy-policy/
 created: '2026-06-13'
 description: Zocdoc is a healthcare appointment booking platform that provides a REST API for accessing provider availability, booking appointments, managing insurance verification, and patient scheduling. The Zocdoc for Developers platform enables integration with Zocdoc's provider network through patient booking, provider calendar integration, and insurance APIs using OAuth 2.0 authentication with both sandbox and production environments.
 examples:
@@ -139,6 +291,10 @@ examples:
 - key_count: 2
   name: Book Appointment Response
   slug: book-appointment-response
+finops:
+- name: Zocdoc Finops
+  service_category: ''
+  slug: zocdoc-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zocdoc.png
 json_schemas:
 - name: Appointment
@@ -156,22 +312,30 @@ jsonld:
   property_count: 70
   slug: zocdoc-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: zocdoc-mcp.yml
+  slug: zocdoc-mcpyml
+modified: '2026-08-15'
 name: Zocdoc
 nav: Providers
 network: true
-overview: 'Zocdoc publishes 10 APIs on the [APIs.io](https://apis.io/) network, including appointments API, calendar-integration-timeslots API, credentials API, and 7 more. Tagged areas include Healthcare, Appointments, Booking, Providers, and Insurance.
+overview: 'Zocdoc publishes 13 APIs on the [APIs.io](https://apis.io/) network, including appointments API, calendar-integration-timeslots API, credentials API, and 10 more. Tagged areas include Healthcare, Appointments, Booking, Providers, and Insurance.
 
 
-  The Zocdoc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Zocdoc catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Zocdoc''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Zocdoc''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, changelog, sandbox, and 33 more developer resources.'
 plans:
 - name: Zocdoc Plans Pricing
   plan_count: 2
   slug: zocdoc-plans-pricing
-random_paper: 42
+random_paper: 46
+rate_limits:
+- limit_count: 0
+  name: Zocdoc Rate Limits
+  slug: zocdoc-rate-limits
 rules:
 - name: Zocdoc API Rules
   rule_count: 6
@@ -183,20 +347,20 @@ rules:
   slug: zocdoc-jsonschema-spectral-rules
 scopes:
 - name: Zocdoc Scopes
-  scope_count: 6
+  scope_count: 10
   slug: zocdoc-scopes
-  summary_line: 6 scopes · clientCredentials/authorizationCode
+  summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 41.8
-  delta: 0.0
+  band: exemplar
+  composite: 68.6
+  delta: 26.8
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 63.5
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 5.3
+    commercial_clarity: 73.7
+    contract_quality: 72.6
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 89.6
+    operational_transparency: 28.9
   previous_composite: 41.8
   provenance:
     agentic_access: derived
@@ -210,10 +374,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 42.5
+    score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/screenshots/zocdoc-2026-06-20T201932.png
 security:
 - kind: authentication
@@ -224,6 +388,10 @@ security:
   name: Zocdoc Domain Security
   slug: zocdoc-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Zocdoc Vulnerability Disclosure
+  slug: zocdoc-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 slug: zocdoc
 tags:
 - Healthcare

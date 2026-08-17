@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: The accounts API from Upward Financial — 2 operation(s) for accounts.
@@ -83,11 +83,66 @@ apis:
 - description: The webhooks API from Upward Financial — 3 operation(s) for webhooks.
   name: Upward Financial webhooks API
   slug: upward-financial-webhooks-api
-artifact_total: 22
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Upward Financial Webhooks
   slug: upward-financial-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference accounts API
+  slug: open-upward-financial-accounts-api
+- collection_type: open
+  name: API Reference accounts auth API
+  slug: open-upward-financial-auth-api
+- collection_type: open
+  name: API Reference accounts billPayments API
+  slug: open-upward-financial-billpayments-api
+- collection_type: open
+  name: API Reference accounts billReporting API
+  slug: open-upward-financial-billreporting-api
+- collection_type: open
+  name: API Reference accounts billSwitch API
+  slug: open-upward-financial-billswitch-api
+- collection_type: open
+  name: API Reference accounts cbaas API
+  slug: open-upward-financial-cbaas-api
+- collection_type: open
+  name: API Reference accounts consumers API
+  slug: open-upward-financial-consumers-api
+- collection_type: open
+  name: API Reference accounts creditInsights API
+  slug: open-upward-financial-creditinsights-api
+- collection_type: open
+  name: API Reference accounts onboarding API
+  slug: open-upward-financial-onboarding-api
+- collection_type: open
+  name: API Reference accounts partners API
+  slug: open-upward-financial-partners-api
+- collection_type: open
+  name: API Reference accounts paymentCards API
+  slug: open-upward-financial-paymentcards-api
+- collection_type: open
+  name: API Reference accounts payments API
+  slug: open-upward-financial-payments-api
+- collection_type: open
+  name: API Reference accounts plaid API
+  slug: open-upward-financial-plaid-api
+- collection_type: open
+  name: API Reference accounts rewards API
+  slug: open-upward-financial-rewards-api
+- collection_type: open
+  name: API Reference accounts simulations API
+  slug: open-upward-financial-simulations-api
+- collection_type: open
+  name: API Reference accounts statements API
+  slug: open-upward-financial-statements-api
+- collection_type: open
+  name: API Reference accounts webhooks API
+  slug: open-upward-financial-webhooks-api
 common:
 - group: company
   title: ''
@@ -216,7 +271,7 @@ overview: 'Upward Financial publishes 17 APIs on the [APIs.io](https://apis.io/)
 
 
   Upward Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 77
+random_paper: 147
 scopes:
 - name: Upward Financial Scopes
   scope_count: 9
@@ -250,7 +305,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

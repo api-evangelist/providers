@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,23 @@ apis:
 - description: The Workspaces API from VidMob — 1 operation(s) for workspaces.
   name: VidMob Workspaces API
   slug: vidmob-workspaces-api
-artifact_total: 12
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vidmob Media API
+  slug: open-vidmob-media-api
+- collection_type: open
+  name: public-api Organization API
+  slug: open-vidmob-organization-api
+- collection_type: open
+  name: creative Scoring API
+  slug: open-vidmob-scoring-api
+- collection_type: open
+  name: public-api Workspaces API
+  slug: open-vidmob-workspaces-api
 common:
 - group: agent
   title: ''
@@ -189,7 +205,7 @@ overview: 'VidMob publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   VidMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 41
+random_paper: 45
 scopes:
 - name: Vidmob Scopes
   scope_count: 12
@@ -218,7 +234,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

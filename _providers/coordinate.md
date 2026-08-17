@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 13
 apis:
 - description: Discussion entries on projects, tasks, and goals.
@@ -70,11 +70,54 @@ apis:
 - description: Webhook subscription management.
   name: Coordinate Webhooks API
   slug: coordinate-webhooks-api
-artifact_total: 17
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Coordinate Webhooks
   slug: coordinate-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coordinate REST Comments API
+  slug: open-coordinate-comments-api
+- collection_type: open
+  name: Coordinate REST Comments Entity API
+  slug: open-coordinate-entity-api
+- collection_type: open
+  name: Coordinate REST Comments Goals API
+  slug: open-coordinate-goals-api
+- collection_type: open
+  name: Coordinate REST Comments Groups API
+  slug: open-coordinate-groups-api
+- collection_type: open
+  name: Coordinate REST Comments Organizations API
+  slug: open-coordinate-organizations-api
+- collection_type: open
+  name: Coordinate REST Comments Progress Reports API
+  slug: open-coordinate-progress-reports-api
+- collection_type: open
+  name: Coordinate REST Comments Project Pages API
+  slug: open-coordinate-project-pages-api
+- collection_type: open
+  name: Coordinate REST Comments Projects API
+  slug: open-coordinate-projects-api
+- collection_type: open
+  name: Coordinate REST Comments Stakeholders API
+  slug: open-coordinate-stakeholders-api
+- collection_type: open
+  name: Coordinate REST Comments Storage API
+  slug: open-coordinate-storage-api
+- collection_type: open
+  name: Coordinate REST Comments Tasks API
+  slug: open-coordinate-tasks-api
+- collection_type: open
+  name: Coordinate REST Comments Users API
+  slug: open-coordinate-users-api
+- collection_type: open
+  name: Coordinate REST Comments Webhooks API
+  slug: open-coordinate-webhooks-api
 common:
 - group: company
   title: ''
@@ -195,7 +238,7 @@ overview: 'Coordinate publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Coordinate''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 104
+random_paper: 21
 score:
   band: developing
   composite: 45.3
@@ -218,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png
 security:

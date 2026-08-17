@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: The Yields API from DefiLlama — 2 operation(s) for yields.
   name: DefiLlama Yields API
   slug: defillama-yields-api
-artifact_total: 15
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DefiLlama Public Coins API
+  slug: open-defillama-coins-api
+- collection_type: open
+  name: DefiLlama Public Coins Fees API
+  slug: open-defillama-fees-api
+- collection_type: open
+  name: DefiLlama Public Coins Stablecoins API
+  slug: open-defillama-stablecoins-api
+- collection_type: open
+  name: DefiLlama Public Coins TVL API
+  slug: open-defillama-tvl-api
+- collection_type: open
+  name: DefiLlama Public Coins Volumes API
+  slug: open-defillama-volumes-api
+- collection_type: open
+  name: DefiLlama Public Coins Yields API
+  slug: open-defillama-yields-api
 - collection_type: open
   name: DefiLlama Public API
   slug: open-defillama
@@ -133,7 +154,7 @@ plans:
 - name: Defillama Plans Pricing
   plan_count: 2
   slug: defillama-plans-pricing
-random_paper: 87
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Defillama Rate Limits
@@ -158,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/screenshots/defillama-2026-06-20T175849.png
 security:

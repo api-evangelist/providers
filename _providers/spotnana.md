@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 2
@@ -138,11 +138,114 @@ apis:
 - description: APIs to onboard and manage users.
   name: Spotnana Users API
   slug: spotnana-users-api
-artifact_total: 38
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Spotnana Webhooks
   slug: spotnana-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Air API
+  slug: open-spotnana-air-api
+- collection_type: open
+  name: Air Air Credits API
+  slug: open-spotnana-air-credits-api
+- collection_type: open
+  name: Air API User API
+  slug: open-spotnana-api-user-api
+- collection_type: open
+  name: Air Approval API
+  slug: open-spotnana-approval-api
+- collection_type: open
+  name: Air Authentication API
+  slug: open-spotnana-authentication-api
+- collection_type: open
+  name: Air Autocomplete API
+  slug: open-spotnana-autocomplete-api
+- collection_type: open
+  name: Air Companies API
+  slug: open-spotnana-companies-api
+- collection_type: open
+  name: Air Company Enrollment API
+  slug: open-spotnana-company-enrollment-api
+- collection_type: open
+  name: Air Company Policies API
+  slug: open-spotnana-company-policies-api
+- collection_type: open
+  name: Air Company Tier API
+  slug: open-spotnana-company-tier-api
+- collection_type: open
+  name: Air Cost Centers API
+  slug: open-spotnana-cost-centers-api
+- collection_type: open
+  name: Air Custom Fields API
+  slug: open-spotnana-custom-fields-api
+- collection_type: open
+  name: Air Departments API
+  slug: open-spotnana-departments-api
+- collection_type: open
+  name: Air Documents API
+  slug: open-spotnana-documents-api
+- collection_type: open
+  name: Air Event Templates API
+  slug: open-spotnana-event-templates-api
+- collection_type: open
+  name: Air Events API
+  slug: open-spotnana-events-api
+- collection_type: open
+  name: Air Grades API
+  slug: open-spotnana-grades-api
+- collection_type: open
+  name: Air Hotel API
+  slug: open-spotnana-hotel-api
+- collection_type: open
+  name: Air Invoicing API
+  slug: open-spotnana-invoicing-api
+- collection_type: open
+  name: Air Legal Entities API
+  slug: open-spotnana-legal-entities-api
+- collection_type: open
+  name: Air Loyalty Programs API
+  slug: open-spotnana-loyalty-programs-api
+- collection_type: open
+  name: Air Offices API
+  slug: open-spotnana-offices-api
+- collection_type: open
+  name: Air Partner Public Keys API
+  slug: open-spotnana-partner-public-keys-api
+- collection_type: open
+  name: Air Personal Payment Sources API
+  slug: open-spotnana-personal-payment-sources-api
+- collection_type: open
+  name: Air Roles API
+  slug: open-spotnana-roles-api
+- collection_type: open
+  name: Air Service Charge API
+  slug: open-spotnana-service-charge-api
+- collection_type: open
+  name: Air Service Charge Plan API
+  slug: open-spotnana-service-charge-plan-api
+- collection_type: open
+  name: Air Stealth Config API
+  slug: open-spotnana-stealth-config-api
+- collection_type: open
+  name: Air Tenant Encryption API
+  slug: open-spotnana-tenant-encryption-api
+- collection_type: open
+  name: Air Trip Notes API
+  slug: open-spotnana-trip-notes-api
+- collection_type: open
+  name: Air Trip PNRs API
+  slug: open-spotnana-trip-pnrs-api
+- collection_type: open
+  name: Air Trips API
+  slug: open-spotnana-trips-api
+- collection_type: open
+  name: Air Users API
+  slug: open-spotnana-users-api
 common:
 - group: other
   title: ''
@@ -279,7 +382,7 @@ overview: 'Spotnana publishes 33 APIs on the [APIs.io](https://apis.io/) network
 
 
   Spotnana''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 28
+random_paper: 123
 score:
   band: developing
   composite: 46.7
@@ -309,7 +412,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

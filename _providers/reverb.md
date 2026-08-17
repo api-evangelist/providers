@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -102,8 +102,71 @@ apis:
 - description: The Wants API from Reverb — 1 operation(s) for wants.
   name: Reverb Wants API
   slug: reverb-wants-api
-artifact_total: 29
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reverb Accounts API
+  slug: open-reverb-accounts-api
+- collection_type: open
+  name: Reverb Accounts Articles API
+  slug: open-reverb-articles-api
+- collection_type: open
+  name: Reverb Accounts Auth API
+  slug: open-reverb-auth-api
+- collection_type: open
+  name: Reverb Accounts Autocomplete API
+  slug: open-reverb-autocomplete-api
+- collection_type: open
+  name: Reverb Accounts Autosuggest API
+  slug: open-reverb-autosuggest-api
+- collection_type: open
+  name: Reverb Accounts Braintree API
+  slug: open-reverb-braintree-api
+- collection_type: open
+  name: Reverb Accounts Cart API
+  slug: open-reverb-cart-api
+- collection_type: open
+  name: Reverb Accounts Categories API
+  slug: open-reverb-categories-api
+- collection_type: open
+  name: Reverb Accounts Collections API
+  slug: open-reverb-collections-api
+- collection_type: open
+  name: Reverb Accounts Countries API
+  slug: open-reverb-countries-api
+- collection_type: open
+  name: Reverb Accounts Currencies API
+  slug: open-reverb-currencies-api
+- collection_type: open
+  name: Reverb Accounts Listings API
+  slug: open-reverb-listings-api
+- collection_type: open
+  name: Reverb Accounts My API
+  slug: open-reverb-my-api
+- collection_type: open
+  name: Reverb Accounts Payment Methods API
+  slug: open-reverb-payment-methods-api
+- collection_type: open
+  name: Reverb Accounts Priceguide API
+  slug: open-reverb-priceguide-api
+- collection_type: open
+  name: Reverb Accounts Push Notifications API
+  slug: open-reverb-push-notifications-api
+- collection_type: open
+  name: Reverb Accounts Reverb API API
+  slug: open-reverb-reverb-api-api
+- collection_type: open
+  name: Reverb Accounts Shipping API
+  slug: open-reverb-shipping-api
+- collection_type: open
+  name: Reverb Accounts Shop API
+  slug: open-reverb-shop-api
+- collection_type: open
+  name: Reverb Accounts Wants API
+  slug: open-reverb-wants-api
 - collection_type: open
   name: Reverb API
   slug: open-reverb
@@ -172,7 +235,7 @@ plans:
 - name: Reverb Plans Pricing
   plan_count: 2
   slug: reverb-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Reverb Rate Limits
@@ -197,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

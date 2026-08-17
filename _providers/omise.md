@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -78,8 +78,50 @@ apis:
 - description: Payouts from your balance to a recipient bank account.
   name: Omise Transfers API
   slug: omise-transfers-api
-artifact_total: 20
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Omise (Opn Payments) Account API
+  slug: open-omise-account-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Cards API
+  slug: open-omise-cards-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Charges API
+  slug: open-omise-charges-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Customers API
+  slug: open-omise-customers-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Disputes API
+  slug: open-omise-disputes-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Events API
+  slug: open-omise-events-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Links API
+  slug: open-omise-links-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Recipients API
+  slug: open-omise-recipients-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Refunds API
+  slug: open-omise-refunds-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Schedules API
+  slug: open-omise-schedules-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Sources API
+  slug: open-omise-sources-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Tokens API
+  slug: open-omise-tokens-api
+- collection_type: open
+  name: Omise (Opn Payments) Account Transfers API
+  slug: open-omise-transfers-api
 - collection_type: open
   name: Omise (Opn Payments) API
   slug: open-omise
@@ -148,7 +190,7 @@ plans:
 - name: Omise Plans Pricing
   plan_count: 3
   slug: omise-plans-pricing
-random_paper: 61
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Omise Rate Limits
@@ -179,7 +221,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/screenshots/omise-2026-08-07T190141.png
 security:

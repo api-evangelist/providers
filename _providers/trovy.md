@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Trovy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Trovy''s developer surface includes support, FAQ, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 100
+random_paper: 133
 score:
   band: emerging
   composite: 16.9
@@ -119,7 +119,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

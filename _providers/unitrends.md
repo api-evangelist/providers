@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The Agents API from Unitrends — 1 operation(s) for agents.
@@ -64,7 +64,44 @@ apis:
 - description: The DomainUsersV2 API from Unitrends — 1 operation(s) for domainusersv2.
   name: Unitrends DomainUsersV2 API
   slug: unitrends-domainusersv2-api
-artifact_total: 15
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Agents API
+  slug: open-unitrends-agents-api
+- collection_type: open
+  name: Public Agents Appliances API
+  slug: open-unitrends-appliances-api
+- collection_type: open
+  name: Public Agents Assets API
+  slug: open-unitrends-assets-api
+- collection_type: open
+  name: Public Agents BackupIqAlerts API
+  slug: open-unitrends-backupiqalerts-api
+- collection_type: open
+  name: Public Agents Backups API
+  slug: open-unitrends-backups-api
+- collection_type: open
+  name: Public Agents Customers API
+  slug: open-unitrends-customers-api
+- collection_type: open
+  name: Public Agents Domains API
+  slug: open-unitrends-domains-api
+- collection_type: open
+  name: Public Agents DomainsEntra API
+  slug: open-unitrends-domainsentra-api
+- collection_type: open
+  name: Public Agents DomainsV2 API
+  slug: open-unitrends-domainsv2-api
+- collection_type: open
+  name: Public Agents DomainUsers API
+  slug: open-unitrends-domainusers-api
+- collection_type: open
+  name: Public Agents DomainUsersV2 API
+  slug: open-unitrends-domainusersv2-api
 common:
 - group: auth
   title: ''
@@ -178,7 +215,7 @@ overview: 'Unitrends publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Unitrends'' developer surface includes authentication, engineering blog, support, documentation, pricing, and 19 more developer resources.'
-random_paper: 28
+random_paper: 94
 scopes:
 - name: Unitrends Scopes
   scope_count: 3
@@ -206,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

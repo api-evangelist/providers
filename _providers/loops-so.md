@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -74,8 +74,47 @@ apis:
 - description: Upload image assets
   name: Loops Uploads API
   slug: loops-so-uploads-api
-artifact_total: 65
+artifact_total: 78
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Loops OpenAPI Spec API key API
+  slug: open-loops-so-api-key-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Campaigns API
+  slug: open-loops-so-campaigns-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Components API
+  slug: open-loops-so-components-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Contact properties API
+  slug: open-loops-so-contact-properties-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Contacts API
+  slug: open-loops-so-contacts-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Dedicated sending IPs API
+  slug: open-loops-so-dedicated-sending-ips-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Email messages API
+  slug: open-loops-so-email-messages-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Events API
+  slug: open-loops-so-events-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Mailing lists API
+  slug: open-loops-so-mailing-lists-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Themes API
+  slug: open-loops-so-themes-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Transactional emails API
+  slug: open-loops-so-transactional-emails-api
+- collection_type: open
+  name: Loops OpenAPI Spec API key Uploads API
+  slug: open-loops-so-uploads-api
 - collection_type: open
   name: Loops OpenAPI Spec
   slug: open-loops
@@ -306,7 +345,7 @@ overview: 'Loops publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Loops'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 108
+random_paper: 83
 score:
   band: developing
   composite: 46.1
@@ -327,7 +366,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/screenshots/loops-so-2026-06-20T184721.png
 security:

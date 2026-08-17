@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: Reserve Requirements
 nav: Providers
 network: true
-random_paper: 85
+random_paper: 39
 slug: reserve-requirements
 tags:
 - Reserve Requirements

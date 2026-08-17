@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 21
 common:
@@ -239,7 +239,7 @@ plans:
 - name: Mckinsey And Company Plans Pricing
   plan_count: 3
   slug: mckinsey-and-company-plans-pricing
-random_paper: 103
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Mckinsey And Company Rate Limits
@@ -257,7 +257,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 29.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

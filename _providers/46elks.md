@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Send and receive text messages.
   name: 46elks SMS API
   slug: 46elks-sms-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 46elks Calls API
+  slug: open-46elks-calls-api
+- collection_type: open
+  name: 46elks Calls Media API
+  slug: open-46elks-media-api
+- collection_type: open
+  name: 46elks Calls MMS API
+  slug: open-46elks-mms-api
+- collection_type: open
+  name: 46elks Calls Numbers API
+  slug: open-46elks-numbers-api
+- collection_type: open
+  name: 46elks Calls SMS API
+  slug: open-46elks-sms-api
 - collection_type: open
   name: 46elks API
   slug: open-46elks
@@ -124,7 +142,7 @@ plans:
 - name: 46Elks Plans Pricing
   plan_count: 2
   slug: 46elks-plans-pricing
-random_paper: 57
+random_paper: 90
 rate_limits:
 - limit_count: 4
   name: 46Elks Rate Limits
@@ -155,7 +173,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/screenshots/46elks-2026-07-25T181206.png
 security:

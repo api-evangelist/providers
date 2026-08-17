@@ -14,8 +14,8 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: true
+    agentic_access: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
@@ -23,24 +23,43 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-12'
+  score: 67.6
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 29
+  human_in_the_loop: 1
+  name: Airops Agentic Access
+  operation_count: 42
+  slug: airops-agentic-access
+  summary_line: 42 operations · 29 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: 'Public REST API for running AirOps Workflows/Apps (synchronous, asynchronous, and webhook execution), managing executions, interacting with Knowledge Bases (Memory Stores), and reading AEO analytics, '
   name: AirOps API
   slug: airops-api
-artifact_total: 6
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Airops Webhooks
   slug: airops-webhooks
+collections:
+- collection_type: open
+  name: API V1
+  slug: open-airops-api
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/airops-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/airops-vulnerability-disclosure.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -121,6 +140,46 @@ common:
   title: ''
   type: Conformance
   url: conformance/airops-conformance.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/airops-api-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/airops-api-overlay.yaml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/airops-data-model.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/airops-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/airops-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/airops-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/airops-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/airops-sandbox.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://app.airops.com/.well-known/security.txt
 - group: company
   title: ''
   type: Blog
@@ -161,7 +220,7 @@ mcp_servers:
 - description: ''
   name: airops-mcp.yml
   slug: airops-mcpyml
-modified: '2026-07-17'
+modified: '2026-08-13'
 name: AirOps
 nav: Providers
 network: true
@@ -171,31 +230,39 @@ overview: 'AirOps publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The AirOps catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AirOps'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 54
+  AirOps'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 33 more developer resources.'
+plans:
+- name: Airops Plans Pricing
+  plan_count: 3
+  slug: airops-plans-pricing
+random_paper: 58
+rate_limits:
+- limit_count: 0
+  name: Airops Rate Limits
+  slug: airops-rate-limits
 scopes:
 - name: Airops Scopes
   scope_count: 4
   slug: airops-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 49.3
-  delta: 0.0
+  band: strong
+  composite: 64.1
+  delta: 14.8
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 51.6
-    developer_ergonomics: 67.4
+    commercial_clarity: 76.3
+    contract_quality: 57.6
+    developer_ergonomics: 80.4
     discoverability: 87.0
-    governance: 12.5
-    operational_transparency: 28.9
+    governance: 20.8
+    operational_transparency: 55.3
   previous_composite: 49.3
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/screenshots/airops-2026-07-25T195431.png
 security:
 - kind: authentication
@@ -206,6 +273,10 @@ security:
   name: Airops Domain Security
   slug: airops-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Airops Vulnerability Disclosure
+  slug: airops-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: airops
 tags:
 - Company
@@ -219,5 +290,10 @@ tags:
 - Workflows
 - MCP
 - Analytics
+- Agent Skills
+- OpenAPI
+- Knowledge Base
+- Content Marketing
+- Citations
 website: https://www.airops.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Access gas scheduling and capacity data.
   name: Energy Transfer Schedules API
   slug: energy-transfer-schedules-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Energy Transfer Messenger+ API
   slug: open-energy-transfer-messenger-api
+- collection_type: open
+  name: Energy Transfer Messenger+ Nominations API
+  slug: open-energy-transfer-nominations-api
+- collection_type: open
+  name: Energy Transfer Messenger+ Nominations Pipelines API
+  slug: open-energy-transfer-pipelines-api
+- collection_type: open
+  name: Energy Transfer Messenger+ Nominations Schedules API
+  slug: open-energy-transfer-schedules-api
 common:
 - group: agent
   title: ''
@@ -90,7 +102,7 @@ plans:
 - name: Energy Transfer Plans Pricing
   plan_count: 1
   slug: energy-transfer-plans-pricing
-random_paper: 4
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Energy Transfer Rate Limits
@@ -121,7 +133,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/screenshots/energy-transfer-2026-06-20T180705.png
 security:

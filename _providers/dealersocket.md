@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: Lead and CRM integration surface. Includes the outbound Lead Forwarding Service (forwards incoming and processed dealership lead data to a third-party vendor as XML or email), inbound Activity Insert/
@@ -147,7 +147,7 @@ plans:
 - name: Dealersocket Plans Pricing
   plan_count: 0
   slug: dealersocket-plans-pricing
-random_paper: 70
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Dealersocket Rate Limits
@@ -165,7 +165,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 34.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/screenshots/dealersocket-2026-07-25T211514.png
 security:

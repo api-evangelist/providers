@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Schema-guided extraction, classification, read/OCR, and edit.
   name: Tensorlake Structured Extraction API
   slug: tensorlake-structured-extraction-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tensorlake Datasets API
+  slug: open-tensorlake-datasets-api
+- collection_type: open
+  name: Tensorlake Datasets Files API
+  slug: open-tensorlake-files-api
+- collection_type: open
+  name: Tensorlake Datasets Parse API
+  slug: open-tensorlake-parse-api
+- collection_type: open
+  name: Tensorlake Datasets Sandboxes API
+  slug: open-tensorlake-sandboxes-api
+- collection_type: open
+  name: Tensorlake Datasets Structured Extraction API
+  slug: open-tensorlake-structured-extraction-api
 - collection_type: open
   name: Tensorlake API
   slug: open-tensorlake
@@ -124,7 +142,7 @@ plans:
 - name: Tensorlake Plans Pricing
   plan_count: 4
   slug: tensorlake-plans-pricing
-random_paper: 0
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Tensorlake Rate Limits
@@ -149,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

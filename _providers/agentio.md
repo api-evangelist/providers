@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Agentio's hosted, remote Model Context Protocol server. A brand adds https://mcp.agentio.com/mcp to any MCP client (Claude, ChatGPT, or any other custom-connector host), authorizes over OAuth 2.1, and
@@ -156,7 +156,7 @@ plans:
 - name: Agentio Plans Pricing
   plan_count: 0
   slug: agentio-plans-pricing
-random_paper: 23
+random_paper: 147
 rate_limits:
 - limit_count: 0
   name: Agentio Rate Limits
@@ -169,7 +169,7 @@ scopes:
 score:
   band: thin
   composite: 31.4
-  delta: 18.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -177,10 +177,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 13.1
+  previous_composite: 31.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/screenshots/agentio-2026-07-25T181800.png
 security:
 - kind: authentication

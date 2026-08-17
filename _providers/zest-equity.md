@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -69,11 +69,39 @@ arazzos:
 - description: Bulk-create investors, subscribe one to an SPV, then upload the signed form and funding receipt in strict order.
   name: Zest — onboard investors and record a subscription
   slug: zest-equity-onboard-and-subscribe
-artifact_total: 15
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Zest Equity Webhooks
   slug: zest-equity-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zest equity public api Authentication API
+  slug: open-zest-equity-authentication-api
+- collection_type: open
+  name: Zest equity public api Authentication Contracts API
+  slug: open-zest-equity-contracts-api
+- collection_type: open
+  name: Zest equity public api Authentication Investors API
+  slug: open-zest-equity-investors-api
+- collection_type: open
+  name: Zest equity public api Authentication SPV Requests API
+  slug: open-zest-equity-spv-requests-api
+- collection_type: open
+  name: Zest equity public api Authentication Subscription Forms API
+  slug: open-zest-equity-subscription-forms-api
+- collection_type: open
+  name: Zest equity public api Authentication Subscription Fundings API
+  slug: open-zest-equity-subscription-fundings-api
+- collection_type: open
+  name: Zest equity public api Authentication Subscriptions API
+  slug: open-zest-equity-subscriptions-api
+- collection_type: open
+  name: Zest equity public api Authentication System API
+  slug: open-zest-equity-system-api
 common:
 - group: agent
   title: ''
@@ -214,7 +242,7 @@ overview: 'Zest Equity publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Zest Equity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 23 more developer resources.'
-random_paper: 92
+random_paper: 129
 score:
   band: developing
   composite: 49.9
@@ -238,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

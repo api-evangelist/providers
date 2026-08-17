@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -91,14 +91,23 @@ arazzos:
 - description: Offer the model a tool, capture its tool_use request, then return a tool_result for a final answer.
   name: Claude Tool Use Round Trip
   slug: claude-tool-use-round-trip-workflow
-artifact_total: 177
+artifact_total: 180
 collections:
 - collection_type: postman
   name: Claude Messages API
   slug: postman-claude-messages-api
 - collection_type: open
-  name: Claude Messages API
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Claude Messages Message Batches API
+  slug: open-claude-message-batches-api
+- collection_type: open
+  name: Claude Message Batches Messages API
   slug: open-claude-messages-api
+- collection_type: open
+  name: Claude Messages Message Batches Models API
+  slug: open-claude-models-api
 common:
 - group: agent
   title: ''
@@ -673,7 +682,7 @@ plans:
 - name: Claude Plans Pricing
   plan_count: 13
   slug: claude-plans-pricing
-random_paper: 22
+random_paper: 26
 rate_limits:
 - limit_count: 38
   name: Claude Rate Limits
@@ -715,7 +724,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/screenshots/claude-2026-06-20T174448.png
 security:

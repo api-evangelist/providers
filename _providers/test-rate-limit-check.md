@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -66,8 +66,29 @@ apis:
 - description: The Status API from Test Rate Limit Check — 1 operation(s) for status.
   name: Test Rate Limit Check Status API
   slug: test-rate-limit-check-status-api
-artifact_total: 42
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kong Gateway Admin API (Rate Limit Check) Consumers API
+  slug: open-test-rate-limit-check-consumers-api
+- collection_type: open
+  name: Kong Gateway Admin API (Rate Limit Check) Consumers Plugins API
+  slug: open-test-rate-limit-check-plugins-api
+- collection_type: open
+  name: Kong Gateway Admin API (Rate Limit Check) Consumers Routes API
+  slug: open-test-rate-limit-check-routes-api
+- collection_type: open
+  name: Kong Gateway Admin API (Rate Limit Check) Consumers Schemas API
+  slug: open-test-rate-limit-check-schemas-api
+- collection_type: open
+  name: Kong Gateway Admin API (Rate Limit Check) Consumers Services API
+  slug: open-test-rate-limit-check-services-api
+- collection_type: open
+  name: Kong Gateway Admin API (Rate Limit Check) Consumers Status API
+  slug: open-test-rate-limit-check-status-api
 - collection_type: open
   name: Kong Gateway Admin API (Rate Limit Check)
   slug: open-test-rate-limit-check
@@ -192,7 +213,7 @@ plans:
 - name: Test Rate Limit Check Plans Pricing
   plan_count: 3
   slug: test-rate-limit-check-plans-pricing
-random_paper: 24
+random_paper: 127
 rate_limits:
 - limit_count: 5
   name: Test Rate Limit Check Rate Limits
@@ -226,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-rate-limit-check/refs/heads/main/screenshots/test-rate-limit-check-2026-06-20T195146.png
 security:

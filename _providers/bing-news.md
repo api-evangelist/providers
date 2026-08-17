@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Get currently trending news topics from social networks
   name: Bing News Search Trending Topics API
   slug: bing-news-trending-topics-api
-artifact_total: 20
+artifact_total: 24
 collections:
 - collection_type: postman
   name: Bing News Search API v7 News Category API
@@ -65,6 +65,18 @@ collections:
 - collection_type: postman
   name: Bing News Search API v7 News Category Trending Topics API
   slug: postman-bing-news-trending-topics-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bing News Search API v7 News Category API
+  slug: open-bing-news-news-category-api
+- collection_type: open
+  name: Bing API v7 News Category News Search API
+  slug: open-bing-news-news-search-api
+- collection_type: open
+  name: Bing News Search API v7 News Category Trending Topics API
+  slug: open-bing-news-trending-topics-api
 common:
 - group: build
   title: ''
@@ -170,7 +182,7 @@ plans:
 - name: Bing News Plans Pricing
   plan_count: 2
   slug: bing-news-plans-pricing
-random_paper: 66
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Bing News Rate Limits
@@ -204,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/screenshots/bing-news-2026-06-20T173246.png
 security:

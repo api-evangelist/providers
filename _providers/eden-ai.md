@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Translation API from Eden AI — 1 operation(s) for translation.
   name: Eden AI Translation API
   slug: eden-ai-translation-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eden AI Audio API
+  slug: open-eden-ai-audio-api
+- collection_type: open
+  name: Eden AI Audio Image API
+  slug: open-eden-ai-image-api
+- collection_type: open
+  name: Eden AI Audio OCR API
+  slug: open-eden-ai-ocr-api
+- collection_type: open
+  name: Eden AI Audio Text API
+  slug: open-eden-ai-text-api
+- collection_type: open
+  name: Eden AI Audio Translation API
+  slug: open-eden-ai-translation-api
 - collection_type: open
   name: Eden AI API
   slug: open-eden-ai
@@ -131,7 +149,7 @@ plans:
 - name: Eden Ai Plans Pricing
   plan_count: 3
   slug: eden-ai-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Eden Ai Rate Limits
@@ -156,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/screenshots/eden-ai-2026-06-20T180450.png
 security:

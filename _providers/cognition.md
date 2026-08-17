@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -63,8 +63,32 @@ apis:
 - description: Operations for creating and managing Devin sessions
   name: Cognition AI Sessions API
   slug: cognition-sessions-api
-artifact_total: 17
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Devin External Attachments API
+  slug: open-cognition-attachments-api
+- collection_type: open
+  name: Devin External Attachments AuditLogs API
+  slug: open-cognition-auditlogs-api
+- collection_type: open
+  name: Devin External Attachments Enterprise API
+  slug: open-cognition-enterprise-api
+- collection_type: open
+  name: Devin External Attachments Knowledge API
+  slug: open-cognition-knowledge-api
+- collection_type: open
+  name: Devin External Attachments Playbooks API
+  slug: open-cognition-playbooks-api
+- collection_type: open
+  name: Devin External Attachments Secrets API
+  slug: open-cognition-secrets-api
+- collection_type: open
+  name: Devin External Attachments Sessions API
+  slug: open-cognition-sessions-api
 - collection_type: open
   name: Devin External API
   slug: open-cognition
@@ -161,7 +185,7 @@ plans:
 - name: Cognition Plans Pricing
   plan_count: 1
   slug: cognition-plans-pricing
-random_paper: 10
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Cognition Rate Limits
@@ -186,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/screenshots/cognition-2026-06-20T174713.png
 security:

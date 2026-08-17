@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,12 +68,18 @@ apis:
 - description: Standard Ethereum JSON-RPC method invocation.
   name: Optimism JSON-RPC API
   slug: optimism-json-rpc-api
-artifact_total: 19
+artifact_total: 21
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the WebSocket JSON-RPC subscription surface exposed by op-geth — the OP Stack execution client used by OP Mainnet (chain ID 10) and OP Sepolia (chain ID 11155420). ## Publi'
   name: Optimism (OP Stack) WebSocket JSON-RPC API
   slug: optimism-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OP Mainnet JSON-RPC API
+  slug: open-optimism-json-rpc-api
 - collection_type: open
   name: OP Mainnet JSON-RPC
   slug: open-optimism
@@ -161,7 +167,7 @@ plans:
 - name: Optimism Plans Pricing
   plan_count: 1
   slug: optimism-plans-pricing
-random_paper: 42
+random_paper: 137
 rate_limits:
 - limit_count: 2
   name: Optimism Rate Limits
@@ -195,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimism/refs/heads/main/screenshots/optimism-2026-06-20T191109.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: User tags for organizing dockets.
   name: Free Law Project Tags API
   slug: free-law-project-tags-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts API
+  slug: open-free-law-project-alerts-api
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts Case Law API
+  slug: open-free-law-project-case-law-api
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts Citations API
+  slug: open-free-law-project-citations-api
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts Financial Disclosures API
+  slug: open-free-law-project-financial-disclosures-api
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts Judges API
+  slug: open-free-law-project-judges-api
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts Oral Arguments API
+  slug: open-free-law-project-oral-arguments-api
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts PACER API
+  slug: open-free-law-project-pacer-api
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts RECAP API
+  slug: open-free-law-project-recap-api
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts Search API
+  slug: open-free-law-project-search-api
+- collection_type: open
+  name: Free Law Project / CourtListener REST Alerts Tags API
+  slug: open-free-law-project-tags-api
 - collection_type: open
   name: Free Law Project / CourtListener REST API
   slug: open-free-law-project
@@ -127,7 +160,7 @@ plans:
 - name: Free Law Project Plans Pricing
   plan_count: 3
   slug: free-law-project-plans-pricing
-random_paper: 31
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Free Law Project Rate Limits
@@ -152,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/screenshots/free-law-project-2026-06-20T181519.png
 security:

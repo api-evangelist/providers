@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -78,7 +78,7 @@ apis:
 - description: Manage Postgres roles within a branch. Roles control database access and permissions.
   name: Neon Roles API
   slug: neon-roles-api
-artifact_total: 92
+artifact_total: 103
 asyncapis:
 - description: 'Neon Auth webhooks deliver HTTP POST requests when authentication events occur, including OTP delivery, magic link delivery, and user creation. Webhooks can be used to replace built-in email delivery '
   name: Neon Auth Webhook Events
@@ -115,8 +115,41 @@ collections:
   name: Neon Management API Keys Roles API
   slug: postman-neon-roles-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Neon Management API Keys API
+  slug: open-neon-api-keys-api
+- collection_type: open
+  name: Neon Management API Keys Auth API
+  slug: open-neon-auth-api
+- collection_type: open
+  name: Neon Management API Keys Branches API
+  slug: open-neon-branches-api
+- collection_type: open
+  name: Neon Management API Keys Consumption API
+  slug: open-neon-consumption-api
+- collection_type: open
+  name: Neon Management API Keys Data API API
+  slug: open-neon-data-api-api
+- collection_type: open
+  name: Neon Management API Keys Databases API
+  slug: open-neon-databases-api
+- collection_type: open
+  name: Neon Management API Keys Endpoints API
+  slug: open-neon-endpoints-api
+- collection_type: open
   name: Neon Management API
   slug: open-neon-management-api
+- collection_type: open
+  name: Neon Management API Keys Operations API
+  slug: open-neon-operations-api
+- collection_type: open
+  name: Neon Management API Keys Projects API
+  slug: open-neon-projects-api
+- collection_type: open
+  name: Neon Management API Keys Roles API
+  slug: open-neon-roles-api
 common:
 - group: build
   title: ''
@@ -338,7 +371,7 @@ plans:
 - name: Neon Plans Pricing
   plan_count: 3
   slug: neon-plans-pricing
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 3
   name: Neon Rate Limits
@@ -380,7 +413,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/screenshots/neon-2026-06-20T190138.png
 security:

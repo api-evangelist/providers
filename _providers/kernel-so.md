@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 13
@@ -105,8 +105,74 @@ apis:
 - description: Create and manage proxy configurations for routing browser traffic.
   name: Kernel Proxies API
   slug: kernel-so-proxies-api
-artifact_total: 28
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kernel API Keys API
+  slug: open-kernel-so-api-keys-api
+- collection_type: open
+  name: Kernel API Keys Apps API
+  slug: open-kernel-so-apps-api
+- collection_type: open
+  name: Kernel API Keys Auth Connections API
+  slug: open-kernel-so-auth-connections-api
+- collection_type: open
+  name: Kernel API Keys Browser Computer Controls API
+  slug: open-kernel-so-browser-computer-controls-api
+- collection_type: open
+  name: Kernel API Keys Browser Filesystem API
+  slug: open-kernel-so-browser-filesystem-api
+- collection_type: open
+  name: Kernel API Keys Browser Logs API
+  slug: open-kernel-so-browser-logs-api
+- collection_type: open
+  name: Kernel API Keys Browser Playwright API
+  slug: open-kernel-so-browser-playwright-api
+- collection_type: open
+  name: Kernel API Keys Browser Pools API
+  slug: open-kernel-so-browser-pools-api
+- collection_type: open
+  name: Kernel API Keys Browser Processes API
+  slug: open-kernel-so-browser-processes-api
+- collection_type: open
+  name: Kernel API Keys Browser Replays API
+  slug: open-kernel-so-browser-replays-api
+- collection_type: open
+  name: Kernel API Keys Browser Telemetry API
+  slug: open-kernel-so-browser-telemetry-api
+- collection_type: open
+  name: Kernel API Keys Browsers API
+  slug: open-kernel-so-browsers-api
+- collection_type: open
+  name: Kernel API Keys Credential Providers API
+  slug: open-kernel-so-credential-providers-api
+- collection_type: open
+  name: Kernel API Keys Credentials API
+  slug: open-kernel-so-credentials-api
+- collection_type: open
+  name: Kernel API Keys Deployments API
+  slug: open-kernel-so-deployments-api
+- collection_type: open
+  name: Kernel API Keys Extensions API
+  slug: open-kernel-so-extensions-api
+- collection_type: open
+  name: Kernel API Keys Invocations API
+  slug: open-kernel-so-invocations-api
+- collection_type: open
+  name: Kernel API Keys Managed Auth API
+  slug: open-kernel-so-managed-auth-api
+- collection_type: open
+  name: Kernel API Keys Profiles API
+  slug: open-kernel-so-profiles-api
+- collection_type: open
+  name: Kernel API Keys Projects API
+  slug: open-kernel-so-projects-api
+- collection_type: open
+  name: Kernel API Keys Proxies API
+  slug: open-kernel-so-proxies-api
 - collection_type: open
   name: Kernel API
   slug: open-kernel
@@ -231,7 +297,7 @@ overview: 'Kernel publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kernel''s developer surface includes authentication, developer portal, documentation, pricing, changelog, support, CLI, and 19 more developer resources.'
-random_paper: 72
+random_paper: 18
 score:
   band: thin
   composite: 41.7
@@ -252,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kernel-so/refs/heads/main/screenshots/kernel-so-2026-06-20T183954.png
 security:

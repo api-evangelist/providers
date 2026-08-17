@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 8
@@ -141,7 +141,113 @@ apis:
 - description: The workos API from Wherobots — 1 operation(s) for workos.
   name: Wherobots workos API
   slug: wherobots-workos-api
-artifact_total: 40
+artifact_total: 75
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wherobots Cloud apikey API
+  slug: open-wherobots-apikey-api
+- collection_type: open
+  name: Wherobots Cloud apikey audit-log API
+  slug: open-wherobots-audit-log-api
+- collection_type: open
+  name: Wherobots Cloud apikey catalogs API
+  slug: open-wherobots-catalogs-api
+- collection_type: open
+  name: Wherobots Cloud apikey cloud-connections API
+  slug: open-wherobots-cloud-connections-api
+- collection_type: open
+  name: Wherobots Cloud apikey coupon API
+  slug: open-wherobots-coupon-api
+- collection_type: open
+  name: Wherobots Cloud apikey environment-override--preset API
+  slug: open-wherobots-environment-override-preset-api
+- collection_type: open
+  name: Wherobots Cloud apikey environment-preset API
+  slug: open-wherobots-environment-preset-api
+- collection_type: open
+  name: Wherobots Cloud apikey files API
+  slug: open-wherobots-files-api
+- collection_type: open
+  name: Wherobots Cloud apikey Flags API
+  slug: open-wherobots-flags-api
+- collection_type: open
+  name: Wherobots Cloud apikey foreign-catalog API
+  slug: open-wherobots-foreign-catalog-api
+- collection_type: open
+  name: Wherobots Cloud apikey Health API
+  slug: open-wherobots-health-api
+- collection_type: open
+  name: Wherobots Cloud apikey Is Super User API
+  slug: open-wherobots-is-super-user-api
+- collection_type: open
+  name: Wherobots Cloud apikey jupyter_lab API
+  slug: open-wherobots-jupyter-lab-api
+- collection_type: open
+  name: Wherobots Cloud apikey management API
+  slug: open-wherobots-management-api
+- collection_type: open
+  name: Wherobots Cloud apikey me API
+  slug: open-wherobots-me-api
+- collection_type: open
+  name: Wherobots Cloud apikey orb API
+  slug: open-wherobots-orb-api
+- collection_type: open
+  name: Wherobots Cloud apikey organization API
+  slug: open-wherobots-organization-api
+- collection_type: open
+  name: Wherobots Cloud apikey quota API
+  slug: open-wherobots-quota-api
+- collection_type: open
+  name: Wherobots Cloud apikey rasterflow API
+  slug: open-wherobots-rasterflow-api
+- collection_type: open
+  name: Wherobots Cloud apikey runs API
+  slug: open-wherobots-runs-api
+- collection_type: open
+  name: Wherobots Cloud apikey service API
+  slug: open-wherobots-service-api
+- collection_type: open
+  name: Wherobots Cloud apikey service_token_endpoint API
+  slug: open-wherobots-service-token-endpoint-api
+- collection_type: open
+  name: Wherobots Cloud apikey solution_notebooks API
+  slug: open-wherobots-solution-notebooks-api
+- collection_type: open
+  name: Wherobots Cloud apikey sql API
+  slug: open-wherobots-sql-api
+- collection_type: open
+  name: Wherobots Cloud apikey storage API
+  slug: open-wherobots-storage-api
+- collection_type: open
+  name: Wherobots Cloud apikey stripe API
+  slug: open-wherobots-stripe-api
+- collection_type: open
+  name: Wherobots Cloud apikey subscriptions API
+  slug: open-wherobots-subscriptions-api
+- collection_type: open
+  name: Wherobots Cloud apikey superuser API
+  slug: open-wherobots-superuser-api
+- collection_type: open
+  name: Wherobots Cloud apikey union-executions API
+  slug: open-wherobots-union-executions-api
+- collection_type: open
+  name: Wherobots Cloud apikey usage API
+  slug: open-wherobots-usage-api
+- collection_type: open
+  name: Wherobots Cloud apikey user-management API
+  slug: open-wherobots-user-management-api
+- collection_type: open
+  name: Wherobots Cloud apikey users API
+  slug: open-wherobots-users-api
+- collection_type: open
+  name: Wherobots Cloud apikey webhook API
+  slug: open-wherobots-webhook-api
+- collection_type: open
+  name: Wherobots Cloud apikey workos API
+  slug: open-wherobots-workos-api
 common:
 - group: start
   title: ''
@@ -299,7 +405,7 @@ overview: 'Wherobots publishes 34 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wherobots'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 29
+random_paper: 95
 score:
   band: strong
   composite: 59.0
@@ -323,7 +429,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

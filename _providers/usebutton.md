@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Brands report new orders, order updates (including partial returns), and cancellations to Button server-to-server, passing the Button Attribution Token (btn_ref) captured by the Merchant Library; docu
@@ -52,7 +52,7 @@ apis:
 - description: The Transactions API from Button — 1 operation(s) for transactions.
   name: Button Transactions API
   slug: usebutton-transactions-api
-artifact_total: 19
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Usebutton Webhooks
@@ -76,6 +76,27 @@ collections:
 - collection_type: postman
   name: billing-api Accounts Transactions API
   slug: postman-usebutton-transactions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: billing-api Accounts API
+  slug: open-usebutton-accounts-api
+- collection_type: open
+  name: billing-api Accounts Brands Api API
+  slug: open-usebutton-brands-api-api
+- collection_type: open
+  name: billing-api Accounts Create API
+  slug: open-usebutton-create-api
+- collection_type: open
+  name: billing-api Accounts Links Api API
+  slug: open-usebutton-links-api-api
+- collection_type: open
+  name: billing-api Accounts Offers API
+  slug: open-usebutton-offers-api
+- collection_type: open
+  name: billing-api Accounts Transactions API
+  slug: open-usebutton-transactions-api
 common:
 - group: other
   title: ''
@@ -244,7 +265,7 @@ overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Button''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 30 more developer resources.'
-random_paper: 41
+random_paper: 107
 score:
   band: strong
   composite: 58.7
@@ -267,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

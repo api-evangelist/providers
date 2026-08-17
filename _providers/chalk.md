@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'REST + gRPC API for querying features from the Chalk Context Engine — online single-row queries, bulk (feather/Arrow) queries, and asynchronous offline dataset generation — plus deployment of feature '
@@ -172,7 +172,7 @@ overview: 'Chalk publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chalk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 23 more developer resources.'
-random_paper: 35
+random_paper: 68
 scopes:
 - name: Chalk Scopes
   scope_count: 3
@@ -194,7 +194,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/screenshots/chalk-2026-07-25T205026.png
 security:

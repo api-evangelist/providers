@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The South State Corporation API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: South State Corporation Plans Pricing
   plan_count: 1
   slug: south-state-corporation-plans-pricing
-random_paper: 118
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: South State Corporation Rate Limits
@@ -89,7 +89,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/south-state-corporation/refs/heads/main/screenshots/south-state-corporation-2026-06-20T194228.png
 security:

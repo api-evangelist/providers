@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Manage webhook endpoints that receive events via HTTP calls, with support for authentication and custom listeners.
   name: PolyAPI Webhooks API
   slug: polyapi-webhooks-api
-artifact_total: 133
+artifact_total: 144
 collections:
 - collection_type: postman
   name: PolyAPI Platform API Functions API
@@ -102,8 +102,41 @@ collections:
   name: PolyAPI Platform API Functions Webhooks API
   slug: postman-polyapi-webhooks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PolyAPI Platform API Functions API
+  slug: open-polyapi-api-functions-api
+- collection_type: open
+  name: PolyAPI Platform API Functions Assistants API
+  slug: open-polyapi-assistants-api
+- collection_type: open
+  name: PolyAPI Platform API Functions Client Functions API
+  slug: open-polyapi-client-functions-api
+- collection_type: open
+  name: PolyAPI Platform API Functions Environments API
+  slug: open-polyapi-environments-api
+- collection_type: open
+  name: PolyAPI Platform API Functions Jobs API
+  slug: open-polyapi-jobs-api
+- collection_type: open
   name: PolyAPI Platform API
   slug: open-polyapi-platform
+- collection_type: open
+  name: PolyAPI Platform API Functions Schemas API
+  slug: open-polyapi-schemas-api
+- collection_type: open
+  name: PolyAPI Platform API Functions Server Functions API
+  slug: open-polyapi-server-functions-api
+- collection_type: open
+  name: PolyAPI Platform API Functions Triggers API
+  slug: open-polyapi-triggers-api
+- collection_type: open
+  name: PolyAPI Platform API Functions Variables API
+  slug: open-polyapi-variables-api
+- collection_type: open
+  name: PolyAPI Platform API Functions Webhooks API
+  slug: open-polyapi-webhooks-api
 common:
 - group: build
   title: ''
@@ -345,7 +378,7 @@ plans:
 - name: Polyapi Plans Pricing
   plan_count: 3
   slug: polyapi-plans-pricing
-random_paper: 46
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Polyapi Rate Limits
@@ -379,7 +412,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/screenshots/polyapi-2026-06-20T191900.png
 security:

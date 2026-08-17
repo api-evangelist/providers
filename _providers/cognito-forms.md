@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: The Webhooks API from Cognito Forms — 4 operation(s) for webhooks.
   name: Cognito Forms Webhooks API
   slug: cognito-forms-webhooks-api
-artifact_total: 22
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cognito Forms Entries API
+  slug: open-cognito-forms-entries-api
+- collection_type: open
+  name: Cognito Forms Entries Files API
+  slug: open-cognito-forms-files-api
+- collection_type: open
+  name: Cognito Entries Forms API
+  slug: open-cognito-forms-forms-api
+- collection_type: open
+  name: Cognito Forms Entries OData API
+  slug: open-cognito-forms-odata-api
+- collection_type: open
+  name: Cognito Forms Entries Webhooks API
+  slug: open-cognito-forms-webhooks-api
 common:
 - group: agent
   title: ''
@@ -170,7 +189,7 @@ plans:
 - name: Cognito Forms Plans Pricing
   plan_count: 4
   slug: cognito-forms-plans-pricing
-random_paper: 31
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Cognito Forms Rate Limits
@@ -209,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/screenshots/cognito-forms-2026-06-20T174716.png
 security:

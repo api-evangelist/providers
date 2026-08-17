@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,18 +18,22 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 28.4
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 7
+asyncapis:
+- description: ''
+  name: Rox Webhooks
+  slug: rox-webhooks
 common:
 - group: company
   title: ''
@@ -123,36 +127,91 @@ common:
   title: ''
   type: DomainSecurity
   url: security/rox-domain-security.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.rox.com/development/product/getting-started
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/rox-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/rox-webhooks.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/rox-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/rox-packages.yml
+- group: other
+  title: ''
+  type: Downloads
+  url: https://www.rox.com/downloads
+- group: company
+  title: ''
+  type: Careers
+  url: https://jobs.ashbyhq.com/Rox-Data-Corp
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/rox_ai
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/rox-ai/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@rox-agent/videos
 created: '2026-07-17'
 description: Rox is an AI-native revenue operating system for enterprise sales teams, built around an Agent Swarm layer that turns unified revenue context into autonomous go-to-market action. The platform automates pipeline generation, account research, prospecting and outreach, meeting briefings, deal management and forecasting, running these revenue workflows "on autopilot" across a company's book of business. Rox unifies structured and unstructured revenue data through a warehouse-native data fabric and connector hub, integrating with Salesforce, HubSpot, Gmail, Microsoft Outlook and Graph, Slack, Zoom, Snowflake, Databricks and BigQuery, then applies workflow- specific agents (research, outreach, deal, meet, monitor) governed by a unified permissions engine. Founded in San Francisco by Ishan Mukherjee and backed by Sequoia, GV, General Catalyst and 40+ angels, Rox surfaced in the API Evangelist network as a portfolio company and is profiled here as a product/company profile — it publishes
-  extensive product and engineering documentation, a security trust center and a changelog, but no public REST API or OpenAPI at the time of enrichment.
+  extensive product and engineering documentation, a security trust center and a weekly changelog, but no public REST API, OpenAPI, GraphQL schema or MCP server at the time of enrichment. The one externally callable HTTP surface Rox documents is an inbound Agent Workflow webhook endpoint that an outside system POSTs JSON to in order to trigger a workflow; its extensibility program, App Studio, is a sales-gated private beta.
 image: https://framerusercontent.com/images/AYj16lWuLsXAaHXzCmZgJyUrIs.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Rox
 nav: Providers
 network: true
 overview: 'Rox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Sales, and Revenue Operations.
 
 
-  Rox''s developer surface includes documentation, engineering blog, pricing, signup flow, support, changelog, and 17 more developer resources.'
-random_paper: 105
+  The Rox catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Rox''s developer surface includes documentation, engineering blog, pricing, signup flow, support, changelog, getting-started guide, and 26 more developer resources.'
+plans:
+- name: Rox Plans Pricing
+  plan_count: 3
+  slug: rox-plans-pricing
+random_paper: 47
+rate_limits:
+- limit_count: 0
+  name: Rox Rate Limits
+  slug: rox-rate-limits
 score:
-  band: thin
-  composite: 28.8
-  delta: 0.0
+  band: developing
+  composite: 53.8
+  delta: 25.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 23.9
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 47.4
+    commercial_clarity: 92.1
+    contract_quality: 51.6
+    developer_ergonomics: 34.8
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 55.3
   previous_composite: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Rox Authentication
+  slug: rox-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Rox Domain Security
   slug: rox-domain-security
@@ -164,7 +223,7 @@ security:
 - kind: trust-center
   name: Rox Trust Center
   slug: rox-trust-center
-  summary_line: SOC 2 Type I, SOC 2 Type II, GDPR
+  summary_line: SOC 2 Type II, CASA Tier 2
 slug: rox
 tags:
 - Company

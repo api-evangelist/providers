@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -105,14 +105,59 @@ apis:
 - description: API version discovery.
   name: OpenStack Versions API
   slug: openstack-versions-api
-artifact_total: 33
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains API
+  slug: open-openstack-domains-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Endpoints API
+  slug: open-openstack-endpoints-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Flavors API
+  slug: open-openstack-flavors-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Groups API
+  slug: open-openstack-groups-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Images API
+  slug: open-openstack-images-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Keypairs API
+  slug: open-openstack-keypairs-api
 - collection_type: open
   name: OpenStack Identity (Keystone) API v3
   slug: open-openstack-keystone
 - collection_type: open
   name: OpenStack Compute (Nova) API
   slug: open-openstack-nova
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Projects API
+  slug: open-openstack-projects-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Roles API
+  slug: open-openstack-roles-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Server Actions API
+  slug: open-openstack-server-actions-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Servers API
+  slug: open-openstack-servers-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Services API
+  slug: open-openstack-services-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Tokens API
+  slug: open-openstack-tokens-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Users API
+  slug: open-openstack-users-api
+- collection_type: open
+  name: OpenStack Identity (Keystone) API v3 Domains Versions API
+  slug: open-openstack-versions-api
 common:
 - group: agent
   title: ''
@@ -206,7 +251,7 @@ plans:
 - name: Openstack Plans Pricing
   plan_count: 1
   slug: openstack-plans-pricing
-random_paper: 8
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Openstack Rate Limits
@@ -240,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/screenshots/openstack-2026-06-20T191039.png
 security:

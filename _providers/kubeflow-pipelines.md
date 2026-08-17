@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,8 +63,26 @@ apis:
 - description: Pipeline runs
   name: Kubeflow Pipelines Runs API
   slug: kubeflow-pipelines-runs-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kubeflow Pipelines REST Experiments API
+  slug: open-kubeflow-pipelines-experiments-api
+- collection_type: open
+  name: Kubeflow Pipelines REST Experiments Health API
+  slug: open-kubeflow-pipelines-health-api
+- collection_type: open
+  name: Kubeflow REST Experiments Pipelines API
+  slug: open-kubeflow-pipelines-pipelines-api
+- collection_type: open
+  name: Kubeflow Pipelines REST Experiments PipelineVersions API
+  slug: open-kubeflow-pipelines-pipelineversions-api
+- collection_type: open
+  name: Kubeflow Pipelines REST Experiments Runs API
+  slug: open-kubeflow-pipelines-runs-api
 - collection_type: open
   name: Kubeflow Pipelines REST API
   slug: open-kubeflow-pipelines
@@ -157,7 +175,7 @@ plans:
 - name: Kubeflow Pipelines Plans Pricing
   plan_count: 3
   slug: kubeflow-pipelines-plans-pricing
-random_paper: 77
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Kubeflow Pipelines Rate Limits
@@ -182,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/screenshots/kubeflow-pipelines-2026-06-20T184205.png
 security:

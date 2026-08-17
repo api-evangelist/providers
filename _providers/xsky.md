@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 124
 apis:
 - description: AccessPathController Operations able access paths
@@ -403,7 +403,383 @@ apis:
 - description: VolumeDpBlockBackupPolicyMappingController API /volume-dp-block-backup-policy-mappings
   name: XSKY volume-dp-block-backup-policy-mappings API
   slug: xsky-volume-dp-block-backup-policy-mappings-api
-artifact_total: 127
+artifact_total: 252
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: XMS access-paths API
+  slug: open-xsky-access-paths-api
+- collection_type: open
+  name: XMS access-paths access-tokens API
+  slug: open-xsky-access-tokens-api
+- collection_type: open
+  name: XMS access-paths action-logs API
+  slug: open-xsky-action-logs-api
+- collection_type: open
+  name: XMS access-paths alert-groups API
+  slug: open-xsky-alert-groups-api
+- collection_type: open
+  name: XMS access-paths alert-rules API
+  slug: open-xsky-alert-rules-api
+- collection_type: open
+  name: XMS access-paths alerts API
+  slug: open-xsky-alerts-api
+- collection_type: open
+  name: XMS access-paths auth API
+  slug: open-xsky-auth-api
+- collection_type: open
+  name: XMS access-paths block-snapshots API
+  slug: open-xsky-block-snapshots-api
+- collection_type: open
+  name: XMS access-paths block-volume-group-snapshots API
+  slug: open-xsky-block-volume-group-snapshots-api
+- collection_type: open
+  name: XMS access-paths block-volume-groups API
+  slug: open-xsky-block-volume-groups-api
+- collection_type: open
+  name: XMS access-paths block-volume-migration-jobs API
+  slug: open-xsky-block-volume-migration-jobs-api
+- collection_type: open
+  name: XMS access-paths block-volumes API
+  slug: open-xsky-block-volumes-api
+- collection_type: open
+  name: XMS access-paths chunks API
+  slug: open-xsky-chunks-api
+- collection_type: open
+  name: XMS access-paths client-codes API
+  slug: open-xsky-client-codes-api
+- collection_type: open
+  name: XMS access-paths client-groups API
+  slug: open-xsky-client-groups-api
+- collection_type: open
+  name: XMS access-paths client-lun-mappings API
+  slug: open-xsky-client-lun-mappings-api
+- collection_type: open
+  name: XMS access-paths clients API
+  slug: open-xsky-clients-api
+- collection_type: open
+  name: XMS access-paths cloud-instances API
+  slug: open-xsky-cloud-instances-api
+- collection_type: open
+  name: XMS access-paths cloud-platforms API
+  slug: open-xsky-cloud-platforms-api
+- collection_type: open
+  name: XMS access-paths cloud-volume-attachments API
+  slug: open-xsky-cloud-volume-attachments-api
+- collection_type: open
+  name: XMS access-paths cloud-volumes API
+  slug: open-xsky-cloud-volumes-api
+- collection_type: open
+  name: XMS access-paths cluster API
+  slug: open-xsky-cluster-api
+- collection_type: open
+  name: XMS access-paths confs API
+  slug: open-xsky-confs-api
+- collection_type: open
+  name: XMS access-paths crypto-keys API
+  slug: open-xsky-crypto-keys-api
+- collection_type: open
+  name: XMS access-paths disks API
+  slug: open-xsky-disks-api
+- collection_type: open
+  name: XMS access-paths domain-user-validators API
+  slug: open-xsky-domain-user-validators-api
+- collection_type: open
+  name: XMS access-paths dp-block-backup-jobs API
+  slug: open-xsky-dp-block-backup-jobs-api
+- collection_type: open
+  name: XMS access-paths dp-block-backup-policies API
+  slug: open-xsky-dp-block-backup-policies-api
+- collection_type: open
+  name: XMS access-paths dp-block-replication-policies API
+  slug: open-xsky-dp-block-replication-policies-api
+- collection_type: open
+  name: XMS access-paths dp-block-snapshot-jobs API
+  slug: open-xsky-dp-block-snapshot-jobs-api
+- collection_type: open
+  name: XMS access-paths dp-block-snapshot-policies API
+  slug: open-xsky-dp-block-snapshot-policies-api
+- collection_type: open
+  name: XMS access-paths dp-block-snapshot-recovery-jobs API
+  slug: open-xsky-dp-block-snapshot-recovery-jobs-api
+- collection_type: open
+  name: XMS access-paths dp-fs-snapshot-jobs API
+  slug: open-xsky-dp-fs-snapshot-jobs-api
+- collection_type: open
+  name: XMS access-paths dp-fs-snapshot-policies API
+  slug: open-xsky-dp-fs-snapshot-policies-api
+- collection_type: open
+  name: XMS access-paths dp-gateways API
+  slug: open-xsky-dp-gateways-api
+- collection_type: open
+  name: XMS access-paths dp-sites API
+  slug: open-xsky-dp-sites-api
+- collection_type: open
+  name: XMS access-paths email-groups API
+  slug: open-xsky-email-groups-api
+- collection_type: open
+  name: XMS access-paths emails API
+  slug: open-xsky-emails-api
+- collection_type: open
+  name: XMS access-paths event-logs API
+  slug: open-xsky-event-logs-api
+- collection_type: open
+  name: XMS access-paths fs-active-directories API
+  slug: open-xsky-fs-active-directories-api
+- collection_type: open
+  name: XMS access-paths fs-arbitration-pools API
+  slug: open-xsky-fs-arbitration-pools-api
+- collection_type: open
+  name: XMS access-paths fs-client-groups API
+  slug: open-xsky-fs-client-groups-api
+- collection_type: open
+  name: XMS access-paths fs-clients API
+  slug: open-xsky-fs-clients-api
+- collection_type: open
+  name: XMS access-paths fs-folders API
+  slug: open-xsky-fs-folders-api
+- collection_type: open
+  name: XMS access-paths fs-ftp-sessions API
+  slug: open-xsky-fs-ftp-sessions-api
+- collection_type: open
+  name: XMS access-paths fs-ftp-share-acls API
+  slug: open-xsky-fs-ftp-share-acls-api
+- collection_type: open
+  name: XMS access-paths fs-ftp-shares API
+  slug: open-xsky-fs-ftp-shares-api
+- collection_type: open
+  name: XMS access-paths fs-gateway-groups API
+  slug: open-xsky-fs-gateway-groups-api
+- collection_type: open
+  name: XMS access-paths fs-gateways API
+  slug: open-xsky-fs-gateways-api
+- collection_type: open
+  name: XMS access-paths fs-ldaps API
+  slug: open-xsky-fs-ldaps-api
+- collection_type: open
+  name: XMS access-paths fs-nfs-connections API
+  slug: open-xsky-fs-nfs-connections-api
+- collection_type: open
+  name: XMS access-paths fs-nfs-share-acls API
+  slug: open-xsky-fs-nfs-share-acls-api
+- collection_type: open
+  name: XMS access-paths fs-nfs-shares API
+  slug: open-xsky-fs-nfs-shares-api
+- collection_type: open
+  name: XMS access-paths fs-quota-trees API
+  slug: open-xsky-fs-quota-trees-api
+- collection_type: open
+  name: XMS access-paths fs-smb-sessions API
+  slug: open-xsky-fs-smb-sessions-api
+- collection_type: open
+  name: XMS access-paths fs-smb-share-acls API
+  slug: open-xsky-fs-smb-share-acls-api
+- collection_type: open
+  name: XMS access-paths fs-smb-shares API
+  slug: open-xsky-fs-smb-shares-api
+- collection_type: open
+  name: XMS access-paths fs-snapshots API
+  slug: open-xsky-fs-snapshots-api
+- collection_type: open
+  name: XMS access-paths fs-user-groups API
+  slug: open-xsky-fs-user-groups-api
+- collection_type: open
+  name: XMS access-paths fs-users API
+  slug: open-xsky-fs-users-api
+- collection_type: open
+  name: XMS access-paths host-enc-specs API
+  slug: open-xsky-host-enc-specs-api
+- collection_type: open
+  name: XMS access-paths host-info API
+  slug: open-xsky-host-info-api
+- collection_type: open
+  name: XMS access-paths host-initializations API
+  slug: open-xsky-host-initializations-api
+- collection_type: open
+  name: XMS access-paths host-validators API
+  slug: open-xsky-host-validators-api
+- collection_type: open
+  name: XMS access-paths hosts API
+  slug: open-xsky-hosts-api
+- collection_type: open
+  name: XMS access-paths identity-platforms API
+  slug: open-xsky-identity-platforms-api
+- collection_type: open
+  name: XMS access-paths licenses API
+  slug: open-xsky-licenses-api
+- collection_type: open
+  name: XMS access-paths luns API
+  slug: open-xsky-luns-api
+- collection_type: open
+  name: XMS access-paths mapping-groups API
+  slug: open-xsky-mapping-groups-api
+- collection_type: open
+  name: XMS access-paths network-addresses API
+  slug: open-xsky-network-addresses-api
+- collection_type: open
+  name: XMS access-paths network-diagnoses API
+  slug: open-xsky-network-diagnoses-api
+- collection_type: open
+  name: XMS access-paths network-diagnosis-items API
+  slug: open-xsky-network-diagnosis-items-api
+- collection_type: open
+  name: XMS access-paths network-interfaces API
+  slug: open-xsky-network-interfaces-api
+- collection_type: open
+  name: XMS access-paths nfs-gateway-bucket-maps API
+  slug: open-xsky-nfs-gateway-bucket-maps-api
+- collection_type: open
+  name: XMS access-paths nfs-gateways API
+  slug: open-xsky-nfs-gateways-api
+- collection_type: open
+  name: XMS access-paths os-bucket-loggings API
+  slug: open-xsky-os-bucket-loggings-api
+- collection_type: open
+  name: XMS access-paths os-buckets API
+  slug: open-xsky-os-buckets-api
+- collection_type: open
+  name: XMS access-paths os-custom-labels API
+  slug: open-xsky-os-custom-labels-api
+- collection_type: open
+  name: XMS access-paths os-external-storage-classes API
+  slug: open-xsky-os-external-storage-classes-api
+- collection_type: open
+  name: XMS access-paths os-gateways API
+  slug: open-xsky-os-gateways-api
+- collection_type: open
+  name: XMS access-paths os-keys API
+  slug: open-xsky-os-keys-api
+- collection_type: open
+  name: XMS access-paths os-lifecycles API
+  slug: open-xsky-os-lifecycles-api
+- collection_type: open
+  name: XMS access-paths os-objects API
+  slug: open-xsky-os-objects-api
+- collection_type: open
+  name: XMS access-paths os-policies API
+  slug: open-xsky-os-policies-api
+- collection_type: open
+  name: XMS access-paths os-remote-policies API
+  slug: open-xsky-os-remote-policies-api
+- collection_type: open
+  name: XMS access-paths os-replication-paths API
+  slug: open-xsky-os-replication-paths-api
+- collection_type: open
+  name: XMS access-paths os-replication-zones API
+  slug: open-xsky-os-replication-zones-api
+- collection_type: open
+  name: XMS access-paths os-samples API
+  slug: open-xsky-os-samples-api
+- collection_type: open
+  name: XMS access-paths os-search-engines API
+  slug: open-xsky-os-search-engines-api
+- collection_type: open
+  name: XMS access-paths os-search-gateways API
+  slug: open-xsky-os-search-gateways-api
+- collection_type: open
+  name: XMS access-paths os-storage-classes API
+  slug: open-xsky-os-storage-classes-api
+- collection_type: open
+  name: XMS access-paths os-users API
+  slug: open-xsky-os-users-api
+- collection_type: open
+  name: XMS access-paths os-zone-locks API
+  slug: open-xsky-os-zone-locks-api
+- collection_type: open
+  name: XMS access-paths os-zone-pairs API
+  slug: open-xsky-os-zone-pairs-api
+- collection_type: open
+  name: XMS access-paths os-zone-periods API
+  slug: open-xsky-os-zone-periods-api
+- collection_type: open
+  name: XMS access-paths os-zone-translogs API
+  slug: open-xsky-os-zone-translogs-api
+- collection_type: open
+  name: XMS access-paths os-zones API
+  slug: open-xsky-os-zones-api
+- collection_type: open
+  name: XMS access-paths osd-groups API
+  slug: open-xsky-osd-groups-api
+- collection_type: open
+  name: XMS access-paths osds API
+  slug: open-xsky-osds-api
+- collection_type: open
+  name: XMS access-paths partitions API
+  slug: open-xsky-partitions-api
+- collection_type: open
+  name: XMS access-paths placement-nodes API
+  slug: open-xsky-placement-nodes-api
+- collection_type: open
+  name: XMS access-paths pools API
+  slug: open-xsky-pools-api
+- collection_type: open
+  name: XMS access-paths protection-domains API
+  slug: open-xsky-protection-domains-api
+- collection_type: open
+  name: XMS access-paths remote-clusters API
+  slug: open-xsky-remote-clusters-api
+- collection_type: open
+  name: XMS access-paths role-mappings API
+  slug: open-xsky-role-mappings-api
+- collection_type: open
+  name: XMS access-paths s3-load-balancer-groups API
+  slug: open-xsky-s3-load-balancer-groups-api
+- collection_type: open
+  name: XMS access-paths s3-load-balancers API
+  slug: open-xsky-s3-load-balancers-api
+- collection_type: open
+  name: XMS access-paths search API
+  slug: open-xsky-search-api
+- collection_type: open
+  name: XMS access-paths search-capabilities API
+  slug: open-xsky-search-capabilities-api
+- collection_type: open
+  name: XMS access-paths services API
+  slug: open-xsky-services-api
+- collection_type: open
+  name: XMS access-paths snmp API
+  slug: open-xsky-snmp-api
+- collection_type: open
+  name: XMS access-paths ssl-certificates API
+  slug: open-xsky-ssl-certificates-api
+- collection_type: open
+  name: XMS access-paths system-logs API
+  slug: open-xsky-system-logs-api
+- collection_type: open
+  name: XMS access-paths targets API
+  slug: open-xsky-targets-api
+- collection_type: open
+  name: XMS access-paths tasks API
+  slug: open-xsky-tasks-api
+- collection_type: open
+  name: XMS access-paths trash-resources API
+  slug: open-xsky-trash-resources-api
+- collection_type: open
+  name: XMS access-paths trashes API
+  slug: open-xsky-trashes-api
+- collection_type: open
+  name: XMS access-paths users API
+  slug: open-xsky-users-api
+- collection_type: open
+  name: XMS access-paths version API
+  slug: open-xsky-version-api
+- collection_type: open
+  name: XMS access-paths vip-groups API
+  slug: open-xsky-vip-groups-api
+- collection_type: open
+  name: XMS access-paths vip-instances API
+  slug: open-xsky-vip-instances-api
+- collection_type: open
+  name: XMS access-paths vips API
+  slug: open-xsky-vips-api
+- collection_type: open
+  name: XMS access-paths vm-flavors API
+  slug: open-xsky-vm-flavors-api
+- collection_type: open
+  name: XMS access-paths volume-dp-block-backup-policy-mappings API
+  slug: open-xsky-volume-dp-block-backup-policy-mappings-api
 common:
 - group: other
   title: ''
@@ -509,7 +885,7 @@ overview: 'XSKY publishes 124 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   XSKY''s developer surface includes engineering blog, support, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 103
+random_paper: 16
 score:
   band: thin
   composite: 33.0
@@ -532,7 +908,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

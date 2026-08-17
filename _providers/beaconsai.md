@@ -1,11 +1,14 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - https://beacons.ai/i/pricing
+  - https://account.beacons.ai/signup
   trial: false
   try_now: false
 agent_readiness:
@@ -22,14 +25,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 3.2
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: A live, first-party Model Context Protocol server exposing a Beacons creator's own data to an agent. Discovered through the RFC 9728 Protected Resource Metadata document Beacons serves at https://beac
+  name: Beacons Creator MCP Server
+  slug: beacons-creator-mcp-server
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -43,6 +50,10 @@ common:
   title: ''
   type: Pricing
   url: https://beacons.ai/i/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/beaconsai-plans-pricing.yml
 - group: operate
   title: ''
   type: HelpCenter
@@ -58,15 +69,43 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://beacons.ai/i/terms
+  url: https://beacons.ai/i/terms-and-conditions
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://beacons.ai/i/privacy-policy
+  url: https://beacons.ai/i/beacons-privacy-policy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://account.beacons.ai/signup
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/BeaconsAI
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.beacons.ai
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/beaconsai-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://beacons.ai/i/whats-new
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/beaconsai-changelog.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/beaconsai-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/beaconsai-conformance.yml
 - group: other
   title: ''
   type: LinkInBio
@@ -88,35 +127,60 @@ common:
   type: LLMsTxt
   url: llms/beaconsai-llms.txt
 created: '2026-07-17'
-description: Beacons.ai is an all-in-one creator business platform for creators, talent managers, and brands. It combines link-in-bio pages, creator websites, media kits, digital storefronts, email marketing, affiliate monetization, analytics, and creator-brand collaboration tools into one integrated product. Beacons helps creators build an owned web presence, grow and own their audience, monetize through products, affiliate links, and sponsorships, and manage creator-business workflows from a single place, with dedicated tooling for talent managers and brands running creator partnerships. Beacons.ai was surfaced as a portfolio company of a16z and profiled in the API Evangelist network. As of this enrichment pass, Beacons publishes no public developer API, OpenAPI, or developer portal; this profile captures its public web, product, and identity surface.
+description: Beacons.ai is an all-in-one creator business platform for creators, talent managers, and brands. It combines link-in-bio pages, creator websites, media kits, digital storefronts, email marketing, affiliate monetization, analytics, and creator-brand collaboration tools into one integrated product. Beacons helps creators build an owned web presence, grow and own their audience, monetize through products, affiliate links, and sponsorships, and manage creator-business workflows from a single place, with dedicated tooling for talent managers and brands running creator partnerships. Beacons.ai was surfaced as a portfolio company of a16z and profiled in the API Evangelist network. Beacons publishes no developer portal, no API reference and no OpenAPI, but it does operate a live, OAuth-protected Model Context Protocol server for creator data at https://beacons.ai/api/v001/creator/mcp, discoverable only through the RFC 8414 and RFC 9728 documents it serves at /.well-known/ — an agent
+  surface that exists without any human-facing documentation.
 image: https://beacons.ai/_framerusercontent/assets/xYEVVu9ePuRZMJOTTdnZi0MEUEM.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: beaconsai-mcp.yml
+  slug: beaconsai-mcpyml
+- description: ''
+  name: mcp
+  slug: mcp
+modified: '2026-08-13'
 name: Beacons.ai
 nav: Providers
 network: true
-overview: 'Beacons.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Link in Bio, Creator Website Builder, and Creator Storefront.
+overview: 'Beacons.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Link in Bio, Creator Website Builder, and Creator Storefront.
 
 
-  Beacons.ai''s developer surface includes pricing, support, engineering blog, and 11 more developer resources.'
-random_paper: 93
+  Beacons.ai''s developer surface includes pricing, support, engineering blog, signup flow, changelog, and 17 more developer resources.'
+plans:
+- name: Beaconsai Plans Pricing
+  plan_count: 4
+  slug: beaconsai-plans-pricing
+random_paper: 39
+rate_limits:
+- limit_count: 0
+  name: Beaconsai Rate Limits
+  slug: beaconsai-rate-limits
+scopes:
+- name: Beaconsai Scopes
+  scope_count: 0
+  slug: beaconsai-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 14.0
-  delta: 0.0
+  band: thin
+  composite: 31.5
+  delta: 17.5
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 5.3
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 36.8
   previous_composite: 14.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconsai/refs/heads/main/screenshots/beaconsai-2026-07-25T202526.png
 security:
+- kind: authentication
+  name: Beaconsai Authentication
+  slug: beaconsai-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Beaconsai Domain Security
   slug: beaconsai-domain-security
@@ -133,5 +197,7 @@ tags:
 - Affiliate Marketing
 - Creator Monetization
 - Influencer Software
+- MCP
+- Agent Native
 website: https://beacons.ai
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 3
@@ -90,7 +90,62 @@ apis:
 - description: Sites can be organized into groups of documents called workspaces.
   name: Grist workspaces API
   slug: grist-workspaces-api
-artifact_total: 32
+artifact_total: 50
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Grist attachments API
+  slug: open-grist-attachments-api
+- collection_type: open
+  name: Grist attachments columns API
+  slug: open-grist-columns-api
+- collection_type: open
+  name: Grist attachments data API
+  slug: open-grist-data-api
+- collection_type: open
+  name: Grist attachments docs API
+  slug: open-grist-docs-api
+- collection_type: open
+  name: Grist attachments forms API
+  slug: open-grist-forms-api
+- collection_type: open
+  name: Grist attachments orgs API
+  slug: open-grist-orgs-api
+- collection_type: open
+  name: Grist attachments profile API
+  slug: open-grist-profile-api
+- collection_type: open
+  name: Grist attachments records API
+  slug: open-grist-records-api
+- collection_type: open
+  name: Grist attachments service accounts API
+  slug: open-grist-service-accounts-api
+- collection_type: open
+  name: Grist attachments session API
+  slug: open-grist-session-api
+- collection_type: open
+  name: Grist attachments sql API
+  slug: open-grist-sql-api
+- collection_type: open
+  name: Grist attachments tables API
+  slug: open-grist-tables-api
+- collection_type: open
+  name: Grist attachments templates API
+  slug: open-grist-templates-api
+- collection_type: open
+  name: Grist attachments users API
+  slug: open-grist-users-api
+- collection_type: open
+  name: Grist attachments webhooks API
+  slug: open-grist-webhooks-api
+- collection_type: open
+  name: Grist attachments widgets API
+  slug: open-grist-widgets-api
+- collection_type: open
+  name: Grist attachments workspaces API
+  slug: open-grist-workspaces-api
 common:
 - group: agent
   title: ''
@@ -219,7 +274,7 @@ plans:
 - name: Grist Plans Pricing
   plan_count: 5
   slug: grist-plans-pricing
-random_paper: 73
+random_paper: 106
 rate_limits:
 - limit_count: 6
   name: Grist Rate Limits
@@ -253,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/screenshots/grist-2026-06-20T182409.png
 security:

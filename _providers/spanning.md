@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,11 +51,23 @@ apis:
 - description: User backup license management operations
   name: Spanning Users API
   slug: spanning-users-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spanning Backup for Google Workspace Exports API
+  slug: open-spanning-exports-api
 - collection_type: open
   name: Spanning Backup for Google Workspace API
   slug: open-spanning-google-workspace-api
+- collection_type: open
+  name: Spanning Backup for Google Workspace Exports Shared Drives API
+  slug: open-spanning-shared-drives-api
+- collection_type: open
+  name: Spanning Backup for Google Workspace Exports Users API
+  slug: open-spanning-users-api
 common:
 - group: commercial
   title: ''
@@ -137,7 +149,7 @@ plans:
 - name: Spanning Plans Pricing
   plan_count: 3
   slug: spanning-plans-pricing
-random_paper: 22
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Spanning Rate Limits
@@ -179,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/screenshots/spanning-2026-06-20T194245.png
 security:

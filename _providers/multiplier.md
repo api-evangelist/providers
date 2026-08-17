@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Token-authenticated synchronization of Multiplier members - employees and contractors - and their profile, employment, and status data with external HRIS platforms. Exposed through Multiplier's integr
@@ -50,8 +50,11 @@ apis:
 - description: Consolidated invoice and billing data for employment, payroll, and contractor services. Available to integrations under account-provisioned tokens; no open public endpoint reference is published.
   name: Multiplier Invoices API
   slug: invoices-api
-artifact_total: 12
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Multiplier API
   slug: open-multiplier
@@ -108,7 +111,7 @@ plans:
 - name: Multiplier Plans Pricing
   plan_count: 4
   slug: multiplier-plans-pricing
-random_paper: 15
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Multiplier Rate Limits
@@ -126,7 +129,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 30.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/screenshots/multiplier-2026-08-07T184541.png
 security:

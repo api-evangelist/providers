@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'Defense Unicorns is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Defense Unicorns'' developer surface includes documentation, getting-started guide, engineering blog, support, pricing, CLI, and 10 more developer resources.'
-random_paper: 96
+random_paper: 17
 score:
   band: emerging
   composite: 22.3
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-unicorns/refs/heads/main/screenshots/defense-unicorns-2026-07-25T211616.png
 security:

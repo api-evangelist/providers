@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -101,7 +101,74 @@ apis:
 - description: The Vehicles API from Distru — 1 operation(s) for vehicles.
   name: Distru Vehicles API
   slug: distru-vehicles-api
-artifact_total: 25
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Distru Public Assemblies API
+  slug: open-distru-assemblies-api
+- collection_type: open
+  name: Distru Public Assemblies Batches API
+  slug: open-distru-batches-api
+- collection_type: open
+  name: Distru Public Assemblies Companies API
+  slug: open-distru-companies-api
+- collection_type: open
+  name: Distru Public Assemblies Contacts API
+  slug: open-distru-contacts-api
+- collection_type: open
+  name: Distru Public Assemblies CustomFields API
+  slug: open-distru-customfields-api
+- collection_type: open
+  name: Distru Public Assemblies FileAttachments API
+  slug: open-distru-fileattachments-api
+- collection_type: open
+  name: Distru Public Assemblies Inventory API
+  slug: open-distru-inventory-api
+- collection_type: open
+  name: Distru Public Assemblies Invoices API
+  slug: open-distru-invoices-api
+- collection_type: open
+  name: Distru Public Assemblies Locations API
+  slug: open-distru-locations-api
+- collection_type: open
+  name: Distru Public Assemblies Menus API
+  slug: open-distru-menus-api
+- collection_type: open
+  name: Distru Public Assemblies Orders API
+  slug: open-distru-orders-api
+- collection_type: open
+  name: Distru Public Assemblies Packages API
+  slug: open-distru-packages-api
+- collection_type: open
+  name: Distru Public Assemblies PaymentMethods API
+  slug: open-distru-paymentmethods-api
+- collection_type: open
+  name: Distru Public Assemblies ProductPosMappings API
+  slug: open-distru-productposmappings-api
+- collection_type: open
+  name: Distru Public Assemblies Products API
+  slug: open-distru-products-api
+- collection_type: open
+  name: Distru Public Assemblies Purchases API
+  slug: open-distru-purchases-api
+- collection_type: open
+  name: Distru Public Assemblies Returns API
+  slug: open-distru-returns-api
+- collection_type: open
+  name: Distru Public Assemblies StockAdjustments API
+  slug: open-distru-stockadjustments-api
+- collection_type: open
+  name: Distru Public Assemblies Strains API
+  slug: open-distru-strains-api
+- collection_type: open
+  name: Distru Public Assemblies TestResults API
+  slug: open-distru-testresults-api
+- collection_type: open
+  name: Distru Public Assemblies Vehicles API
+  slug: open-distru-vehicles-api
 common:
 - group: company
   title: ''
@@ -227,7 +294,7 @@ overview: 'Distru publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Distru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 67
+random_paper: 71
 score:
   band: developing
   composite: 43.8
@@ -251,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/screenshots/distru-2026-07-25T212123.png
 security:

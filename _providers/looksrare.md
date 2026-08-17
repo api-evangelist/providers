@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,7 +63,26 @@ apis:
 - description: Retrieve NFT token metadata including collection information and on-chain attribute traits.
   name: LooksRare Tokens API
   slug: looksrare-tokens-api
-artifact_total: 15
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LooksRare Public Collections API
+  slug: open-looksrare-collections-api
+- collection_type: open
+  name: LooksRare Public Collections Events API
+  slug: open-looksrare-events-api
+- collection_type: open
+  name: LooksRare Public Collections Orders API
+  slug: open-looksrare-orders-api
+- collection_type: open
+  name: LooksRare Public Collections Seaport API
+  slug: open-looksrare-seaport-api
+- collection_type: open
+  name: LooksRare Public Collections Tokens API
+  slug: open-looksrare-tokens-api
 common:
 - group: agent
   title: ''
@@ -165,7 +184,7 @@ plans:
 - name: Looksrare Plans Pricing
   plan_count: 2
   slug: looksrare-plans-pricing
-random_paper: 18
+random_paper: 84
 rate_limits:
 - limit_count: 4
   name: Looksrare Rate Limits
@@ -190,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/screenshots/looksrare-2026-06-20T184713.png
 security:

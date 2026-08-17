@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'The Salt Security API Protection Platform provides full lifecycle API security including automated API discovery, posture governance, real-time threat protection, and remediation insights. It uses AI '
@@ -142,7 +142,7 @@ plans:
 - name: Salt Security Plans Pricing
   plan_count: 3
   slug: salt-security-plans-pricing
-random_paper: 49
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Salt Security Rate Limits
@@ -169,7 +169,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 24.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salt-security/refs/heads/main/screenshots/salt-security-2026-06-20T193357.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -108,7 +108,35 @@ apis:
 - description: The STU3 API from NHS Digital — 32 operation(s) for stu3.
   name: NHS Digital STU3 API
   slug: nhs-digital-stu3-api
-artifact_total: 31
+artifact_total: 40
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: and Referral Booking API
+  slug: open-nhs-digital-booking-api
+- collection_type: open
+  name: and Referral Booking communication API
+  slug: open-nhs-digital-communication-api
+- collection_type: open
+  name: and Referral Booking Message API
+  slug: open-nhs-digital-message-api
+- collection_type: open
+  name: and Referral Booking Metadata API
+  slug: open-nhs-digital-metadata-api
+- collection_type: open
+  name: and Referral Booking R4 API
+  slug: open-nhs-digital-r4-api
+- collection_type: open
+  name: and Booking Referral API
+  slug: open-nhs-digital-referral-api
+- collection_type: open
+  name: and Referral Booking Slots API
+  slug: open-nhs-digital-slots-api
+- collection_type: open
+  name: and Referral Booking STU3 API
+  slug: open-nhs-digital-stu3-api
 common:
 - group: agent
   title: ''
@@ -205,7 +233,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 28
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -236,7 +264,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/screenshots/nhs-digital-2026-08-07T185239.png
 security:

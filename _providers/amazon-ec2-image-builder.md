@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ arazzos:
 - description: Read an existing image pipeline, point it at a new distribution configuration, enable it, and trigger a build.
   name: Amazon EC2 Image Builder Update Pipeline and Run
   slug: amazon-ec2-image-builder-update-pipeline-and-run-workflow
-artifact_total: 1158
+artifact_total: 1213
 collections:
 - collection_type: postman
   name: EC2 Image Builder CancelImageCreation API
@@ -402,6 +402,171 @@ collections:
 - collection_type: postman
   name: EC2 Image Builder CancelImageCreation UpdateInfrastructureConfiguration API
   slug: postman-amazon-ec2-image-builder-updateinfrastructureconfiguration-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation API
+  slug: open-amazon-ec2-image-builder-cancelimagecreation-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation CreateComponent API
+  slug: open-amazon-ec2-image-builder-createcomponent-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation CreateContainerRecipe API
+  slug: open-amazon-ec2-image-builder-createcontainerrecipe-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation CreateDistributionConfiguration API
+  slug: open-amazon-ec2-image-builder-createdistributionconfiguration-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation CreateImage API
+  slug: open-amazon-ec2-image-builder-createimage-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation CreateImagePipeline API
+  slug: open-amazon-ec2-image-builder-createimagepipeline-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation CreateImageRecipe API
+  slug: open-amazon-ec2-image-builder-createimagerecipe-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation CreateInfrastructureConfiguration API
+  slug: open-amazon-ec2-image-builder-createinfrastructureconfiguration-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation DeleteComponent#componentBuildVersionArn API
+  slug: open-amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation DeleteContainerRecipe#containerRecipeArn API
+  slug: open-amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation DeleteDistributionConfiguration#distributionConfigurationArn API
+  slug: open-amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation DeleteImage#imageBuildVersionArn API
+  slug: open-amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation DeleteImagePipeline#imagePipelineArn API
+  slug: open-amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation DeleteImageRecipe#imageRecipeArn API
+  slug: open-amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation DeleteInfrastructureConfiguration#infrastructureConfigurationArn API
+  slug: open-amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetComponent#componentBuildVersionArn API
+  slug: open-amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetComponentPolicy#componentArn API
+  slug: open-amazon-ec2-image-builder-getcomponentpolicy-componentarn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetContainerRecipe#containerRecipeArn API
+  slug: open-amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetContainerRecipePolicy#containerRecipeArn API
+  slug: open-amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetDistributionConfiguration#distributionConfigurationArn API
+  slug: open-amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetImage#imageBuildVersionArn API
+  slug: open-amazon-ec2-image-builder-getimage-imagebuildversionarn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetImagePipeline#imagePipelineArn API
+  slug: open-amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetImagePolicy#imageArn API
+  slug: open-amazon-ec2-image-builder-getimagepolicy-imagearn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetImageRecipe#imageRecipeArn API
+  slug: open-amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetImageRecipePolicy#imageRecipeArn API
+  slug: open-amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetInfrastructureConfiguration#infrastructureConfigurationArn API
+  slug: open-amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetWorkflowExecution#workflowExecutionId API
+  slug: open-amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation GetWorkflowStepExecution#stepExecutionId API
+  slug: open-amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ImportComponent API
+  slug: open-amazon-ec2-image-builder-importcomponent-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ImportVmImage API
+  slug: open-amazon-ec2-image-builder-importvmimage-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListComponentBuildVersions API
+  slug: open-amazon-ec2-image-builder-listcomponentbuildversions-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListComponents API
+  slug: open-amazon-ec2-image-builder-listcomponents-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListContainerRecipes API
+  slug: open-amazon-ec2-image-builder-listcontainerrecipes-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListDistributionConfigurations API
+  slug: open-amazon-ec2-image-builder-listdistributionconfigurations-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListImageBuildVersions API
+  slug: open-amazon-ec2-image-builder-listimagebuildversions-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListImagePackages API
+  slug: open-amazon-ec2-image-builder-listimagepackages-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListImagePipelineImages API
+  slug: open-amazon-ec2-image-builder-listimagepipelineimages-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListImagePipelines API
+  slug: open-amazon-ec2-image-builder-listimagepipelines-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListImageRecipes API
+  slug: open-amazon-ec2-image-builder-listimagerecipes-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListImages API
+  slug: open-amazon-ec2-image-builder-listimages-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListImageScanFindingAggregations API
+  slug: open-amazon-ec2-image-builder-listimagescanfindingaggregations-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListImageScanFindings API
+  slug: open-amazon-ec2-image-builder-listimagescanfindings-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListInfrastructureConfigurations API
+  slug: open-amazon-ec2-image-builder-listinfrastructureconfigurations-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListWorkflowExecutions API
+  slug: open-amazon-ec2-image-builder-listworkflowexecutions-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation ListWorkflowStepExecutions API
+  slug: open-amazon-ec2-image-builder-listworkflowstepexecutions-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation PutComponentPolicy API
+  slug: open-amazon-ec2-image-builder-putcomponentpolicy-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation PutContainerRecipePolicy API
+  slug: open-amazon-ec2-image-builder-putcontainerrecipepolicy-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation PutImagePolicy API
+  slug: open-amazon-ec2-image-builder-putimagepolicy-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation PutImageRecipePolicy API
+  slug: open-amazon-ec2-image-builder-putimagerecipepolicy-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation StartImagePipelineExecution API
+  slug: open-amazon-ec2-image-builder-startimagepipelineexecution-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation Tags API
+  slug: open-amazon-ec2-image-builder-tags-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation UpdateDistributionConfiguration API
+  slug: open-amazon-ec2-image-builder-updatedistributionconfiguration-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation UpdateImagePipeline API
+  slug: open-amazon-ec2-image-builder-updateimagepipeline-api
+- collection_type: open
+  name: EC2 Image Builder CancelImageCreation UpdateInfrastructureConfiguration API
+  slug: open-amazon-ec2-image-builder-updateinfrastructureconfiguration-api
 common:
 - group: agent
   title: ''
@@ -3645,7 +3810,7 @@ plans:
 - name: Amazon Ec2 Image Builder Plans Pricing
   plan_count: 3
   slug: amazon-ec2-image-builder-plans-pricing
-random_paper: 9
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Amazon Ec2 Image Builder Rate Limits
@@ -3687,7 +3852,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/screenshots/amazon-ec2-image-builder-2026-07-25T200008.png
 security:

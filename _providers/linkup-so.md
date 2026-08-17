@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: The Search API from Linkup — 1 operation(s) for search.
   name: Linkup Search API
   slug: linkup-so-search-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Linkup Credits API
+  slug: open-linkup-so-credits-api
+- collection_type: open
+  name: Linkup Credits Fetch API
+  slug: open-linkup-so-fetch-api
+- collection_type: open
+  name: Linkup Credits Research API
+  slug: open-linkup-so-research-api
+- collection_type: open
+  name: Linkup Credits Search API
+  slug: open-linkup-so-search-api
 - collection_type: open
   name: Linkup API
   slug: open-linkup-so
@@ -125,7 +140,7 @@ plans:
 - name: Linkup So Plans Pricing
   plan_count: 3
   slug: linkup-so-plans-pricing
-random_paper: 90
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Linkup So Rate Limits
@@ -150,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/screenshots/linkup-so-2026-06-20T184547.png
 security:

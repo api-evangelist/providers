@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,7 +70,11 @@ apis:
 - description: Testing and debugging endpoints that validate credentials, echo a hello response, simulate error codes and validate input formats before a client calls the priced endpoints.
   name: Genability Signal Echo API
   slug: genability-signal-echo-api
-artifact_total: 19
+artifact_total: 20
+collections:
+- collection_type: open
+  name: signal
+  slug: open-genability-signal
 common:
 - group: agent
   title: ''
@@ -249,7 +253,7 @@ overview: 'Genability publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Genability''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 33 more developer resources.'
-random_paper: 104
+random_paper: 21
 score:
   band: developing
   composite: 50.5
@@ -279,7 +283,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/screenshots/genability-2026-08-07T165554.png
 security:

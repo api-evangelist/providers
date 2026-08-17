@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -81,8 +81,50 @@ apis:
 - description: The Users API from Appcues — 1 operation(s) for users.
   name: Appcues Users API
   slug: appcues-users-api
-artifact_total: 22
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Appcues Public Banners API
+  slug: open-appcues-banners-api
+- collection_type: open
+  name: Appcues Public Banners Events API
+  slug: open-appcues-events-api
+- collection_type: open
+  name: Appcues Public Banners Exports API
+  slug: open-appcues-exports-api
+- collection_type: open
+  name: Appcues Public Banners Flows API
+  slug: open-appcues-flows-api
+- collection_type: open
+  name: Appcues Public Banners Groups API
+  slug: open-appcues-groups-api
+- collection_type: open
+  name: Appcues Public Banners Imports API
+  slug: open-appcues-imports-api
+- collection_type: open
+  name: Appcues Public Banners Jobs API
+  slug: open-appcues-jobs-api
+- collection_type: open
+  name: Appcues Public Banners Launchpads API
+  slug: open-appcues-launchpads-api
+- collection_type: open
+  name: Appcues Public Banners Mobile API
+  slug: open-appcues-mobile-api
+- collection_type: open
+  name: Appcues Public Banners Pins API
+  slug: open-appcues-pins-api
+- collection_type: open
+  name: Appcues Public Banners Segments API
+  slug: open-appcues-segments-api
+- collection_type: open
+  name: Appcues Public Banners Tags API
+  slug: open-appcues-tags-api
+- collection_type: open
+  name: Appcues Public Banners Users API
+  slug: open-appcues-users-api
 - collection_type: open
   name: Appcues Public API
   slug: open-appcues
@@ -155,7 +197,7 @@ plans:
 - name: Appcues Plans Pricing
   plan_count: 1
   slug: appcues-plans-pricing
-random_paper: 33
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Appcues Rate Limits
@@ -180,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/screenshots/appcues-2026-06-20T172312.png
 security:

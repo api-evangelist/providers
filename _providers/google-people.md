@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: The people:searchContacts API from Google People — 1 operation(s) for people:searchcontacts.
   name: Google People people:searchContacts API
   slug: google-people-people-searchcontacts-api
-artifact_total: 22
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Google People contactGroups API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Google People contactGroups people:searchContacts API
   slug: postman-google-people-people-searchcontacts-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google People contactGroups API
+  slug: open-google-people-contactgroups-api
+- collection_type: open
+  name: Google contactGroups People API
+  slug: open-google-people-people-api
+- collection_type: open
+  name: Google People contactGroups people:batchGet API
+  slug: open-google-people-people-batchget-api
+- collection_type: open
+  name: Google People contactGroups people:createContact API
+  slug: open-google-people-people-createcontact-api
+- collection_type: open
+  name: Google People contactGroups people:searchContacts API
+  slug: open-google-people-people-searchcontacts-api
 - collection_type: open
   name: Google People API
   slug: open-openapi
@@ -171,7 +189,7 @@ plans:
 - name: Google People Plans Pricing
   plan_count: 3
   slug: google-people-plans-pricing
-random_paper: 7
+random_paper: 135
 rate_limits:
 - limit_count: 5
   name: Google People Rate Limits
@@ -210,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/screenshots/google-people-2026-06-20T182221.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The Public API API from Proof of Play — 1 operation(s) for public api.
   name: Proof of Play Public API API
   slug: proof-of-play-public-api-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Proof of Play Public API API
+  slug: open-proof-of-play-public-api-api
 common:
 - group: other
   title: ''
@@ -147,7 +154,7 @@ overview: 'Proof of Play publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Proof of Play''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 91
+random_paper: 99
 score:
   band: thin
   composite: 37.0
@@ -171,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

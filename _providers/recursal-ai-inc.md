@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Model catalog and metadata
   name: Recursal AI, Inc. Models API
   slug: recursal-ai-inc-models-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Featherless AI Serverless Inference Account API
+  slug: open-recursal-ai-inc-account-api
+- collection_type: open
+  name: Featherless AI Serverless Inference Account Chat API
+  slug: open-recursal-ai-inc-chat-api
+- collection_type: open
+  name: Featherless AI Serverless Inference Account Models API
+  slug: open-recursal-ai-inc-models-api
 common:
 - group: other
   title: ''
@@ -181,7 +194,7 @@ overview: 'Recursal AI, Inc. publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Recursal AI, Inc.''s developer surface includes documentation, API reference, getting-started guide, quickstart, pricing, signup flow, engineering blog, and 22 more developer resources.'
-random_paper: 31
+random_paper: 130
 rate_limits:
 - limit_count: 0
   name: Recursal Ai Inc Rate Limits
@@ -209,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

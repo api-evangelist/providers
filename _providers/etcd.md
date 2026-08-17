@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 4
@@ -69,11 +69,32 @@ apis:
 - description: Watch operations for streaming key change notifications
   name: Etcd Watch API
   slug: etcd-watch-api
-artifact_total: 96
+artifact_total: 103
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: etcd HTTP Gateway Auth API
+  slug: open-etcd-auth-api
+- collection_type: open
+  name: etcd HTTP Gateway Auth Cluster API
+  slug: open-etcd-cluster-api
 - collection_type: open
   name: etcd HTTP Gateway API
   slug: open-etcd-http-gateway
+- collection_type: open
+  name: etcd HTTP Gateway Auth KV API
+  slug: open-etcd-kv-api
+- collection_type: open
+  name: etcd HTTP Gateway Auth Lease API
+  slug: open-etcd-lease-api
+- collection_type: open
+  name: etcd HTTP Gateway Auth Maintenance API
+  slug: open-etcd-maintenance-api
+- collection_type: open
+  name: etcd HTTP Gateway Auth Watch API
+  slug: open-etcd-watch-api
 common:
 - group: operate
   title: ''
@@ -424,7 +445,7 @@ plans:
 - name: Etcd Plans Pricing
   plan_count: 1
   slug: etcd-plans-pricing
-random_paper: 56
+random_paper: 118
 rate_limits:
 - limit_count: 4
   name: Etcd Rate Limits
@@ -458,7 +479,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/screenshots/etcd-2026-06-20T180830.png
 security:

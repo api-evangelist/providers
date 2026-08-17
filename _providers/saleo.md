@@ -1,35 +1,41 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Sales-Gated
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://saleo.io/pricing/
+  - https://saleo.io/request-a-demo/
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 19.4
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: SCIM 2.0 (RFC 7643 / RFC 7644) user and group provisioning endpoint for the Saleo platform. Documented for customers through the Saleo Okta Integration Network application, which supports Create Users
+  name: Saleo SCIM 2.0 Provisioning API
+  slug: saleo-scim-20-provisioning-api
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -39,36 +45,151 @@ common:
   title: ''
   type: Website
   url: https://www.saleo.io
+- group: start
+  title: ''
+  type: Portal
+  url: https://app.platform.saleo.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.saleo.io/
+- group: operate
+  title: ''
+  type: Support
+  url: https://saleo.io/contact-us/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.saleo.io/
+- group: company
+  title: ''
+  type: Blog
+  url: https://saleo.io/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://saleo.io/pricing/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.platform.saleo.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://saleo.io/about-us/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://saleo.io/about-us/privacy-policy/
+- group: other
+  title: ''
+  type: AcceptableUsePolicy
+  url: https://saleo.io/about-us/acceptable-use-policy/
+- group: auth
+  title: ''
+  type: Security
+  url: https://saleo.io/platform/security/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://saleo.io/platform/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/saleo-trust-center.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.saleo.io/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/saleo-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/saleo-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/saleo-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/saleo-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/saleo-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/saleo-problem-types.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/saleo-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/saleo-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/saleo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/saleo-rate-limits.yml
 created: '2026-07-17'
-description: Saleo is an AI-powered demo experience platform for go-to-market teams, enabling sales and pre-sales engineers to run high-stakes live demos inside their native product, build self-serve interactive product tours, and deliver autonomous AI-driven demos around the clock. Its products include Live (real demos backed by AI-generated demo data), Demo Agent (autonomous AI discovery agents), and Capture (interactive product tours). Saleo serves enterprise customers including SAP, Salesforce, 6sense, Seismic, and SailPoint, and is backed by Emergence Capital. No public developer API surface was found during enrichment; this profile tracks the company for the API Evangelist network.
+description: Saleo is an AI-native demo experience platform for go-to-market teams, enabling sales and pre-sales engineers to run high-stakes live demos inside their native product, build self-serve interactive product tours, and deliver autonomous AI-driven demos around the clock. Its products include Live (real demos backed by AI-generated demo data), AI Demo Agent (autonomous multi-lingual discovery and demo agents), Data Creation Agent, Capture (interactive product tours and embeddable sandboxes), and a Partner Portal for resellers. Saleo serves enterprise customers including SAP, Salesforce, 6sense, Seismic, and SailPoint, and is backed by Emergence Capital. Its only standards-based, externally documented API is a SCIM 2.0 user and group provisioning endpoint used by the Saleo app in the Okta Integration Network; the product API that backs the Saleo Portal, Chrome extension and tour viewer is customer-authenticated and undocumented.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saleo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Saleo
 nav: Providers
 network: true
-overview: Saleo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Tech, Demo Automation, Sales Enablement, and Presales.
-random_paper: 52
+overview: 'Saleo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Tech, Demo Automation, Sales Enablement, and Presales.
+
+
+  Saleo''s developer surface includes developer portal, documentation, support, engineering blog, pricing, authentication, and 20 more developer resources.'
+plans:
+- name: Saleo Plans Pricing
+  plan_count: 0
+  slug: saleo-plans-pricing
+random_paper: 85
+rate_limits:
+- limit_count: 0
+  name: Saleo Rate Limits
+  slug: saleo-rate-limits
 score:
-  band: minimal
-  composite: 5.0
-  delta: 0.0
+  band: thin
+  composite: 32.7
+  delta: 27.7
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 34.8
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 26.3
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Saleo Authentication
+  slug: saleo-authentication
+  summary_line: http · 3 schemes
 - kind: domain-security
   name: Saleo Domain Security
   slug: saleo-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Saleo Trust Center
+  slug: saleo-trust-center
+  summary_line: SOC 2 Type 2, ISO 27001, GDPR
 slug: saleo
 tags:
 - Company
@@ -78,5 +199,10 @@ tags:
 - Presales
 - Go-To-Market
 - AI Agents
+- SCIM
+- Identity Provisioning
+- Single Sign-On
+- Interactive Demos
+- Product Tours
 website: https://www.saleo.io
 ---

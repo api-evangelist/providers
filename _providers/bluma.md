@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Asynchronous short-form video generation REST API. Submit a template id and a prompt to POST /v1/videos, receive a job id, and collect the finished render either by polling GET /v1/videos/{id} or by s
@@ -189,7 +189,7 @@ plans:
 - name: Bluma Plans Pricing
   plan_count: 6
   slug: bluma-plans-pricing
-random_paper: 49
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Bluma Rate Limits
@@ -202,7 +202,7 @@ scopes:
 score:
   band: strong
   composite: 60.1
-  delta: 48.3
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 51.6
@@ -210,10 +210,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 55.3
-  previous_composite: 11.8
+  previous_composite: 60.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluma/refs/heads/main/screenshots/bluma-2026-07-25T203511.png
 security:
 - kind: authentication

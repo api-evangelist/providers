@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,14 @@ apis:
 - description: Dated, source-attributed US tax and retirement figures.
   name: Planomy Tax Data Tax Data API
   slug: planomy-tax-data-tax-data-api
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Planomy JSON Tax Data API
+  slug: open-planomy-tax-data-tax-data-api
 common:
 - group: other
   title: ''
@@ -147,7 +154,7 @@ plans:
 - name: Planomy Tax Data Plans Pricing
   plan_count: 5
   slug: planomy-tax-data-plans-pricing
-random_paper: 41
+random_paper: 111
 score:
   band: thin
   composite: 35.8
@@ -177,7 +184,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -120,7 +120,7 @@ overview: 'Budget Direct is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Budget Direct''s developer surface includes support and 20 more developer resources.'
-random_paper: 115
+random_paper: 123
 score:
   band: emerging
   composite: 22.6
@@ -142,7 +142,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/budget-direct/refs/heads/main/screenshots/budget-direct-2026-07-25T204030.png
 security:

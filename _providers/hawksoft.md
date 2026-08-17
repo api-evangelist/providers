@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,7 +54,26 @@ apis:
 - description: Payment receipts on client records
   name: HawkSoft Receipts API
   slug: hawksoft-receipts-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HawkSoft Partner Agencies API
+  slug: open-hawksoft-agencies-api
+- collection_type: open
+  name: HawkSoft Partner Agencies Attachments API
+  slug: open-hawksoft-attachments-api
+- collection_type: open
+  name: HawkSoft Partner Agencies Clients API
+  slug: open-hawksoft-clients-api
+- collection_type: open
+  name: HawkSoft Partner Agencies Log Entries API
+  slug: open-hawksoft-log-entries-api
+- collection_type: open
+  name: HawkSoft Partner Agencies Receipts API
+  slug: open-hawksoft-receipts-api
 common:
 - group: agent
   title: ''
@@ -124,7 +143,7 @@ plans:
 - name: Hawksoft Plans Pricing
   plan_count: 2
   slug: hawksoft-plans-pricing
-random_paper: 31
+random_paper: 126
 rate_limits:
 - limit_count: 3
   name: Hawksoft Rate Limits
@@ -155,7 +174,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/screenshots/hawksoft-2026-07-25T220807.png
 security:

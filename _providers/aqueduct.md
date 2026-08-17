@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -68,11 +68,45 @@ apis:
 - description: The Webhooks API from Aqueduct — 1 operation(s) for webhooks.
   name: Aqueduct Webhooks API
   slug: aqueduct-webhooks-api
-artifact_total: 15
+artifact_total: 26
 asyncapis:
 - description: Event notifications delivered by Aqueduct to registered webhook endpoints. Each event is an HTTP POST carrying the shared envelope. Subscribe by creating a webhook endpoint (POST /webhookendpoints) wi
   name: Aqueduct Webhooks
   slug: aqueduct-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner API
+  slug: open-aqueduct-accountowner-api
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner Bill API
+  slug: open-aqueduct-bill-api
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner Invoice API
+  slug: open-aqueduct-invoice-api
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner InvoiceLineItem API
+  slug: open-aqueduct-invoicelineitem-api
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner PriceModel API
+  slug: open-aqueduct-pricemodel-api
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner ProductPurchases API
+  slug: open-aqueduct-productpurchases-api
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner Products API
+  slug: open-aqueduct-products-api
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner Provisioning API
+  slug: open-aqueduct-provisioning-api
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner Subscriptions API
+  slug: open-aqueduct-subscriptions-api
+- collection_type: open
+  name: Aqueduct API Reference AccountOwner Webhooks API
+  slug: open-aqueduct-webhooks-api
 common:
 - group: other
   title: ''
@@ -165,7 +199,7 @@ overview: 'Aqueduct publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aqueduct''s developer surface includes documentation, API reference, getting-started guide, authentication, and 14 more developer resources.'
-random_paper: 20
+random_paper: 115
 score:
   band: thin
   composite: 34.3
@@ -195,7 +229,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/screenshots/aqueduct-2026-07-25T200954.png
 security:

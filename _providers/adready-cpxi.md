@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 168
   human_in_the_loop: 124
@@ -43,7 +43,11 @@ apis:
 - description: The REST API behind the Digital Remedy Platform / AdReady+ web application. 285 paths and 355 operations covering accounts, organizations, agencies and advertisers; users and permissions; media plans,
   name: Digital Remedy Platform (Kickstart) API
   slug: digital-remedy-platform-kickstart-api
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Kickstart API
+  slug: open-adready-cpxi-kickstart
 common:
 - group: agent
   title: ''
@@ -166,7 +170,7 @@ plans:
 - name: Adready Cpxi Plans Pricing
   plan_count: 0
   slug: adready-cpxi-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Adready Cpxi Rate Limits
@@ -174,7 +178,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.8
-  delta: 23.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 38.4
@@ -182,10 +186,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 14.2
+  previous_composite: 37.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adready-cpxi/refs/heads/main/screenshots/adready-cpxi-2026-07-25T181701.png
 security:
 - kind: authentication

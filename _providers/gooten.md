@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Shipping option lookup and order price estimates for a cart.
   name: Gooten Shipping API
   slug: gooten-shipping-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gooten Orders API
+  slug: open-gooten-orders-api
+- collection_type: open
+  name: Gooten Orders Print Assets API
+  slug: open-gooten-print-assets-api
+- collection_type: open
+  name: Gooten Orders Products API
+  slug: open-gooten-products-api
+- collection_type: open
+  name: Gooten Orders Shipping API
+  slug: open-gooten-shipping-api
 - collection_type: open
   name: Gooten API
   slug: open-gooten
@@ -121,7 +136,7 @@ plans:
 - name: Gooten Plans Pricing
   plan_count: 2
   slug: gooten-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Gooten Rate Limits
@@ -146,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/screenshots/gooten-2026-07-25T220114.png
 security:

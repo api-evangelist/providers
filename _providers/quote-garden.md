@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,8 +46,20 @@ apis:
 - description: Operations for retrieving quote records, individually at random or as a paginated list.
   name: Quote Garden Quotes API
   slug: quote-garden-quotes-api
-artifact_total: 47
+artifact_total: 51
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Quote Garden Authors API
+  slug: open-quote-garden-authors-api
+- collection_type: open
+  name: Quote Garden Authors Genres API
+  slug: open-quote-garden-genres-api
+- collection_type: open
+  name: Quote Garden Authors Quotes API
+  slug: open-quote-garden-quotes-api
 - collection_type: open
   name: Quote Garden API
   slug: open-quote-garden
@@ -185,7 +197,7 @@ overview: 'Quote Garden publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quote Garden''s developer surface includes developer portal and 10 more developer resources.'
-random_paper: 28
+random_paper: 36
 rules:
 - name: Quote Garden API Rules
   rule_count: 5
@@ -223,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

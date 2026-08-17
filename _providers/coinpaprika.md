@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,23 @@ apis:
 - description: The ticker API from CoinPaprika — 2 operation(s) for ticker.
   name: CoinPaprika ticker API
   slug: coinpaprika-ticker-api
-artifact_total: 16
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coinpaprika coins API
+  slug: open-coinpaprika-coins-api
+- collection_type: open
+  name: Coinpaprika coins global API
+  slug: open-coinpaprika-global-api
+- collection_type: open
+  name: Coinpaprika coins search API
+  slug: open-coinpaprika-search-api
+- collection_type: open
+  name: Coinpaprika coins ticker API
+  slug: open-coinpaprika-ticker-api
 common:
 - group: agent
   title: ''
@@ -148,7 +164,7 @@ overview: 'CoinPaprika publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CoinPaprika''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 89
+random_paper: 126
 rules:
 - name: CoinPaprika API Rules
   rule_count: 5
@@ -184,7 +200,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/screenshots/coinpaprika-2026-06-20T174741.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Cardholder records and KYC/KYB identity verification.
   name: Pomelo Users API
   slug: pomelo-users-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pomelo Authentication API
+  slug: open-pomelo-authentication-api
+- collection_type: open
+  name: Pomelo Authentication Card Accounts API
+  slug: open-pomelo-card-accounts-api
+- collection_type: open
+  name: Pomelo Authentication Cards API
+  slug: open-pomelo-cards-api
+- collection_type: open
+  name: Pomelo Authentication Transactions API
+  slug: open-pomelo-transactions-api
+- collection_type: open
+  name: Pomelo Authentication Transfers API
+  slug: open-pomelo-transfers-api
+- collection_type: open
+  name: Pomelo Authentication Users API
+  slug: open-pomelo-users-api
 - collection_type: open
   name: Pomelo API
   slug: open-pomelo
@@ -127,7 +148,7 @@ plans:
 - name: Pomelo Plans Pricing
   plan_count: 2
   slug: pomelo-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Pomelo Rate Limits
@@ -163,7 +184,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

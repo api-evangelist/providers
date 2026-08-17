@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -56,7 +56,29 @@ apis:
 - description: Tokenized stock deposits and withdrawals
   name: SynFutures Stock API
   slug: synfutures-stock-api
-artifact_total: 11
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SynFutures RWA Trading Cash API
+  slug: open-synfutures-cash-api
+- collection_type: open
+  name: SynFutures RWA Trading Cash Market Data API
+  slug: open-synfutures-market-data-api
+- collection_type: open
+  name: SynFutures RWA Trading Cash One Click API
+  slug: open-synfutures-one-click-api
+- collection_type: open
+  name: SynFutures RWA Trading Cash Orders API
+  slug: open-synfutures-orders-api
+- collection_type: open
+  name: SynFutures RWA Trading Cash Portfolio API
+  slug: open-synfutures-portfolio-api
+- collection_type: open
+  name: SynFutures RWA Trading Cash Stock API
+  slug: open-synfutures-stock-api
 common:
 - group: agent
   title: ''
@@ -162,7 +184,7 @@ overview: 'SynFutures publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SynFutures'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 17 more developer resources.'
-random_paper: 48
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: Synfutures Rate Limits
@@ -196,7 +218,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

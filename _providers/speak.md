@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Production application backend for the Speak language-learning app. It is an OAuth2/OIDC issuer (token endpoint at /v1/auth/token, JWKS published) serving the iOS, Android, and web clients. Not docume
@@ -100,7 +100,7 @@ overview: 'Speak publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Speak''s developer surface includes engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 52
+random_paper: 85
 score:
   band: emerging
   composite: 20.4
@@ -114,7 +114,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

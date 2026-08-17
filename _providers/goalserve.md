@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Team Data API from GoalServe — 1 operation(s) for team data.
   name: GoalServe Team Data API
   slug: goalserve-team-data-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GoalServe Sports Data Feeds Commentaries API
+  slug: open-goalserve-commentaries-api
+- collection_type: open
+  name: GoalServe Sports Data Feeds Commentaries Fixtures API
+  slug: open-goalserve-fixtures-api
+- collection_type: open
+  name: GoalServe Sports Data Feeds Commentaries Live Scores API
+  slug: open-goalserve-live-scores-api
+- collection_type: open
+  name: GoalServe Sports Data Feeds Commentaries Player Data API
+  slug: open-goalserve-player-data-api
+- collection_type: open
+  name: GoalServe Sports Data Feeds Commentaries Standings API
+  slug: open-goalserve-standings-api
+- collection_type: open
+  name: GoalServe Sports Data Feeds Commentaries Team Data API
+  slug: open-goalserve-team-data-api
 - collection_type: open
   name: GoalServe Sports Data Feeds API
   slug: open-goalserve
@@ -119,7 +140,7 @@ plans:
 - name: Goalserve Plans Pricing
   plan_count: 4
   slug: goalserve-plans-pricing
-random_paper: 8
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Goalserve Rate Limits
@@ -144,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/screenshots/goalserve-2026-07-25T215959.png
 security:

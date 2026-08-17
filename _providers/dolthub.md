@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,8 +63,32 @@ apis:
 - description: The Tags API from DoltHub — 1 operation(s) for tags.
   name: DoltHub Tags API
   slug: dolthub-tags-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DoltHub Branches API
+  slug: open-dolthub-branches-api
+- collection_type: open
+  name: DoltHub Branches Databases API
+  slug: open-dolthub-databases-api
+- collection_type: open
+  name: DoltHub Branches Jobs API
+  slug: open-dolthub-jobs-api
+- collection_type: open
+  name: DoltHub Branches Operations API
+  slug: open-dolthub-operations-api
+- collection_type: open
+  name: DoltHub Branches Pull Requests API
+  slug: open-dolthub-pull-requests-api
+- collection_type: open
+  name: DoltHub Branches SQL API
+  slug: open-dolthub-sql-api
+- collection_type: open
+  name: DoltHub Branches Tags API
+  slug: open-dolthub-tags-api
 - collection_type: open
   name: DoltHub API
   slug: open-dolthub
@@ -133,7 +157,7 @@ plans:
 - name: Dolthub Plans Pricing
   plan_count: 2
   slug: dolthub-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Dolthub Rate Limits
@@ -158,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/screenshots/dolthub-2026-06-20T180140.png
 security:

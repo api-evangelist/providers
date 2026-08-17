@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Chart Data API from Preciser — 1 operation(s) for chart data.
@@ -36,7 +36,17 @@ apis:
 - description: The Opp Team Data API from Preciser — 1 operation(s) for opp team data.
   name: Preciser Opp Team Data API
   slug: preciser-opp-team-data-api
-artifact_total: 4
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Preciser Chart Data API
+  slug: open-preciser-chart-data-api
+- collection_type: open
+  name: Preciser Chart Data Opp Team Data API
+  slug: open-preciser-opp-team-data-api
 common:
 - group: company
   title: ''
@@ -126,7 +136,7 @@ overview: 'Preciser publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Preciser''s developer surface includes API reference, engineering blog, signup flow, support, and 14 more developer resources.'
-random_paper: 21
+random_paper: 116
 score:
   band: thin
   composite: 32.5
@@ -148,7 +158,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

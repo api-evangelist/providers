@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 3
@@ -51,8 +51,23 @@ apis:
 - description: Enabled features in the deployment.
   name: APIClarity Features API
   slug: apiclarity-features-api
-artifact_total: 23
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: APIClarity API Events API
+  slug: open-apiclarity-api-events-api
+- collection_type: open
+  name: APIClarity API Events API Inventory API
+  slug: open-apiclarity-api-inventory-api
+- collection_type: open
+  name: APIClarity API Events Control API
+  slug: open-apiclarity-control-api
+- collection_type: open
+  name: APIClarity API Events Features API
+  slug: open-apiclarity-features-api
 - collection_type: open
   name: APIClarity API
   slug: open-apiclarity
@@ -136,7 +151,7 @@ plans:
 - name: Apiclarity Plans Pricing
   plan_count: 3
   slug: apiclarity-plans-pricing
-random_paper: 114
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Apiclarity Rate Limits
@@ -161,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/screenshots/apiclarity-2026-06-20T172238.png
 security:

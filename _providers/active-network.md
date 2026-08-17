@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Activities API from Active Network — 1 operation(s) for activities.
@@ -37,7 +37,17 @@ apis:
 - description: The Camping API from Active Network — 1 operation(s) for camping.
   name: Active Network Camping API
   slug: active-network-camping-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ACTIVE Network Activity Search API v2 Activities API
+  slug: open-active-network-activities-api
+- collection_type: open
+  name: ACTIVE Network Activity Search API v2 Activities Camping API
+  slug: open-active-network-camping-api
 common:
 - group: auth
   title: ''
@@ -147,7 +157,7 @@ overview: 'Active Network publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Active Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 19
+random_paper: 118
 rate_limits:
 - limit_count: 2
   name: Active Network Rate Limits
@@ -174,7 +184,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/screenshots/active-network-2026-07-25T181526.png
 security:

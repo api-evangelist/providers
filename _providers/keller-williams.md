@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,11 +41,15 @@ arazzos:
 - description: Resolve the KW controlled vocabularies, create a KWLS listing, then read it back to confirm it indexed.
   name: Publish a KW Worldwide listing
   slug: keller-williams-publish-listing
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Keller Williams Marketplace Webhooks
   slug: keller-williams-marketplace-webhooks
+collections:
+- collection_type: open
+  name: KW Listings Search
+  slug: open-keller-williams-listings-search
 common:
 - group: agent
   title: ''
@@ -212,7 +216,7 @@ overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 28 more developer resources.'
-random_paper: 110
+random_paper: 60
 scopes:
 - name: Keller Williams Scopes
   scope_count: 40
@@ -242,7 +246,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/screenshots/keller-williams-2026-08-07T171117.png
 security:

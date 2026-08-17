@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -68,8 +68,38 @@ apis:
 - description: The Source Maps API from Airbrake — 2 operation(s) for source maps.
   name: Airbrake Source Maps API
   slug: airbrake-source-maps-api
-artifact_total: 14
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Airbrake REST Activities API
+  slug: open-airbrake-activities-api
+- collection_type: open
+  name: Airbrake REST Activities Deploys API
+  slug: open-airbrake-deploys-api
+- collection_type: open
+  name: Airbrake REST Activities Groups API
+  slug: open-airbrake-groups-api
+- collection_type: open
+  name: Airbrake REST Activities iOS Crash Reports API
+  slug: open-airbrake-ios-crash-reports-api
+- collection_type: open
+  name: Airbrake REST Activities Notices API
+  slug: open-airbrake-notices-api
+- collection_type: open
+  name: Airbrake REST Activities Performance API
+  slug: open-airbrake-performance-api
+- collection_type: open
+  name: Airbrake REST Activities Projects API
+  slug: open-airbrake-projects-api
+- collection_type: open
+  name: Airbrake REST Activities Sessions API
+  slug: open-airbrake-sessions-api
+- collection_type: open
+  name: Airbrake REST Activities Source Maps API
+  slug: open-airbrake-source-maps-api
 - collection_type: open
   name: Airbrake REST API
   slug: open-airbrake
@@ -122,7 +152,7 @@ overview: 'Airbrake publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Airbrake''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 113
+random_paper: 88
 score:
   band: thin
   composite: 30.0
@@ -143,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/screenshots/airbrake-2026-06-20T171417.png
 security:

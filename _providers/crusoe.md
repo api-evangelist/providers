@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 4
@@ -218,11 +218,198 @@ apis:
 - description: The VPC Subnets API from Crusoe — 2 operation(s) for vpc subnets.
   name: Crusoe VPC Subnets API
   slug: crusoe-vpc-subnets-api
-artifact_total: 70
+artifact_total: 132
 asyncapis:
 - description: ''
   name: Crusoe Webhooks
   slug: crusoe-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Crusoe Audit Logs API
+  slug: open-crusoe-audit-logs-api
+- collection_type: open
+  name: Crusoe AutoCluster Operations API
+  slug: open-crusoe-autocluster-operations-api
+- collection_type: open
+  name: Crusoe Auto Clusters API
+  slug: open-crusoe-autoclusters-api
+- collection_type: open
+  name: Crusoe Billing API
+  slug: open-crusoe-billing-api
+- collection_type: open
+  name: Crusoe Capacities API
+  slug: open-crusoe-capacities-api
+- collection_type: open
+  name: Crusoe Ccr API
+  slug: open-crusoe-ccr-api
+- collection_type: open
+  name: Crusoe Container Registry API
+  slug: open-crusoe-container-registry-api
+- collection_type: open
+  name: Crusoe Custom Image Operations API
+  slug: open-crusoe-custom-image-operations-api
+- collection_type: open
+  name: Crusoe Custom Images API
+  slug: open-crusoe-customimages-api
+- collection_type: open
+  name: Crusoe Disk Operations API
+  slug: open-crusoe-disk-operations-api
+- collection_type: open
+  name: Crusoe Disks API
+  slug: open-crusoe-disks-api
+- collection_type: open
+  name: Crusoe Entities API
+  slug: open-crusoe-entities-api
+- collection_type: open
+  name: Crusoe Feature Flags API
+  slug: open-crusoe-feature-flags-api
+- collection_type: open
+  name: Crusoe Foundry API
+  slug: open-crusoe-foundry-api
+- collection_type: open
+  name: Crusoe IB Networks API
+  slug: open-crusoe-ib-networks-api
+- collection_type: open
+  name: Crusoe IB Partitions API
+  slug: open-crusoe-ib-partitions-api
+- collection_type: open
+  name: Crusoe Identities API
+  slug: open-crusoe-identities-api
+- collection_type: open
+  name: Crusoe Images API
+  slug: open-crusoe-images-api
+- collection_type: open
+  name: Crusoe Instance Groups API
+  slug: open-crusoe-instance-groups-api
+- collection_type: open
+  name: Crusoe Instance Templates API
+  slug: open-crusoe-instance-templates-api
+- collection_type: open
+  name: Crusoe Internal Load Balancer Operations API
+  slug: open-crusoe-internal-load-balancer-operations-api
+- collection_type: open
+  name: Crusoe Internal Load Balancers API
+  slug: open-crusoe-internal-load-balancers-api
+- collection_type: open
+  name: Crusoe Kubernetes Cluster Operations API
+  slug: open-crusoe-kubernetes-cluster-operations-api
+- collection_type: open
+  name: Crusoe Kubernetes Clusters API
+  slug: open-crusoe-kubernetes-clusters-api
+- collection_type: open
+  name: Crusoe Kubernetes Node Pool Operations API
+  slug: open-crusoe-kubernetes-node-pool-operations-api
+- collection_type: open
+  name: Crusoe Kubernetes Node Pools API
+  slug: open-crusoe-kubernetes-node-pools-api
+- collection_type: open
+  name: Crusoe Kubernetes Support Access API
+  slug: open-crusoe-kubernetes-support-access-api
+- collection_type: open
+  name: Crusoe Kubernetes Versions API
+  slug: open-crusoe-kubernetes-versions-api
+- collection_type: open
+  name: Crusoe Limited Usage API Key API
+  slug: open-crusoe-limitedusageapikey-api
+- collection_type: open
+  name: Crusoe Load Balancer Operations API
+  slug: open-crusoe-load-balancer-operations-api
+- collection_type: open
+  name: Crusoe Load Balancers API
+  slug: open-crusoe-load-balancers-api
+- collection_type: open
+  name: Crusoe Locations API
+  slug: open-crusoe-locations-api
+- collection_type: open
+  name: Crusoe MFA API
+  slug: open-crusoe-mfa-api
+- collection_type: open
+  name: Crusoe NVLink Domains API
+  slug: open-crusoe-nvlink-domains-api
+- collection_type: open
+  name: Crusoe Observability API
+  slug: open-crusoe-observability-api
+- collection_type: open
+  name: Crusoe Projects API
+  slug: open-crusoe-projects-api
+- collection_type: open
+  name: Crusoe Quotas API
+  slug: open-crusoe-quotas-api
+- collection_type: open
+  name: Crusoe Reservations API
+  slug: open-crusoe-reservations-api
+- collection_type: open
+  name: Crusoe Role Bindings API
+  slug: open-crusoe-rolebindings-api
+- collection_type: open
+  name: Crusoe Roles API
+  slug: open-crusoe-roles-api
+- collection_type: open
+  name: Crusoe S3 Buckets API
+  slug: open-crusoe-s3buckets-api
+- collection_type: open
+  name: Crusoe S3 Keys API
+  slug: open-crusoe-s3keys-api
+- collection_type: open
+  name: Crusoe SCIM API
+  slug: open-crusoe-scim-api
+- collection_type: open
+  name: Crusoe Slurm Cluster Operations API
+  slug: open-crusoe-slurm-cluster-operations-api
+- collection_type: open
+  name: Crusoe Slurm Clusters API
+  slug: open-crusoe-slurm-clusters-api
+- collection_type: open
+  name: Crusoe Slurm Nodeset Operations API
+  slug: open-crusoe-slurm-nodeset-operations-api
+- collection_type: open
+  name: Crusoe Slurm Nodesets API
+  slug: open-crusoe-slurm-nodesets-api
+- collection_type: open
+  name: Crusoe Snapshot Operations API
+  slug: open-crusoe-snapshot-operations-api
+- collection_type: open
+  name: Crusoe Snapshots API
+  slug: open-crusoe-snapshots-api
+- collection_type: open
+  name: Crusoe SSH Keys API
+  slug: open-crusoe-ssh-keys-api
+- collection_type: open
+  name: Crusoe SSO API
+  slug: open-crusoe-sso-api
+- collection_type: open
+  name: Crusoe Tokens API
+  slug: open-crusoe-tokens-api
+- collection_type: open
+  name: Crusoe Usage API
+  slug: open-crusoe-usage-api
+- collection_type: open
+  name: Crusoe VM Operations API
+  slug: open-crusoe-vm-operations-api
+- collection_type: open
+  name: Crusoe V Ms API
+  slug: open-crusoe-vms-api
+- collection_type: open
+  name: Crusoe VPC Firewall Rule Operations API
+  slug: open-crusoe-vpc-firewall-rule-operations-api
+- collection_type: open
+  name: Crusoe VPC Firewall Rules API
+  slug: open-crusoe-vpc-firewall-rules-api
+- collection_type: open
+  name: Crusoe VPC Network Operations API
+  slug: open-crusoe-vpc-network-operations-api
+- collection_type: open
+  name: Crusoe VPC Networks API
+  slug: open-crusoe-vpc-networks-api
+- collection_type: open
+  name: Crusoe VPC Subnet Operations API
+  slug: open-crusoe-vpc-subnet-operations-api
+- collection_type: open
+  name: Crusoe VPC Subnets API
+  slug: open-crusoe-vpc-subnets-api
 common:
 - group: company
   title: ''
@@ -400,7 +587,7 @@ overview: 'Crusoe publishes 61 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Crusoe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 57
+random_paper: 61
 score:
   band: strong
   composite: 58.5
@@ -430,7 +617,7 @@ score:
     regime_id: energy_utilities
     score: 48.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/screenshots/crusoe-2026-08-07T163934.png
 security:

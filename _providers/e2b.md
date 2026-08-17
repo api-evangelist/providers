@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -48,8 +48,17 @@ apis:
 - description: The Templates API from E2B — 1 operation(s) for templates.
   name: E2B Templates API
   slug: e2b-templates-api
-artifact_total: 11
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: E2B Sandbox Sandboxes API
+  slug: open-e2b-sandboxes-api
+- collection_type: open
+  name: E2B Sandbox Sandboxes Templates API
+  slug: open-e2b-templates-api
 - collection_type: open
   name: E2B Sandbox API
   slug: open-e2b
@@ -130,7 +139,7 @@ plans:
 - name: E2B Plans Pricing
   plan_count: 1
   slug: e2b-plans-pricing
-random_paper: 9
+random_paper: 100
 rate_limits:
 - limit_count: 2
   name: E2B Rate Limits
@@ -155,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b/refs/heads/main/screenshots/e2b-2026-06-20T180350.png
 security:

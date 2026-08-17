@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 10
@@ -38,7 +38,7 @@ apis:
 - description: 'A hosted Model Context Protocol proxy that exposes Anecdotes GRC domains - risk, control, evidence, policy, framework, uar, analysis, comments, requirement and semantic search - to any MCP-capable AI '
   name: Anecdotes MCP Proxy
   slug: anecdotes-mcp-proxy
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Anecdotes Playbooks Webhooks
@@ -47,6 +47,15 @@ collections:
 - collection_type: postman
   name: FedRAMP 20x API
   slug: postman-anecdotes-fedramp-20x
+- collection_type: open
+  name: Anecdotes FedRAMP 20x Trust Center API
+  slug: open-anecdotes-fedramp-20x
+- collection_type: open
+  name: Anecdotes API
+  slug: open-anecdotes-grc-openapi-original
+- collection_type: open
+  name: Anecdotes API
+  slug: open-anecdotes-grc
 common:
 - group: agent
   title: ''
@@ -211,7 +220,7 @@ overview: 'anecdotes publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   anecdotes'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 110
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Anecdotes Rate Limits
@@ -239,7 +248,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/screenshots/anecdotes-2026-08-07T161404.png
 security:

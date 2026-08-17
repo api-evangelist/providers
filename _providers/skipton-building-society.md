@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: UK Open Banking Open Data standard - public, unauthenticated reference data (branches, ATMs, personal and business current accounts, unsecured SME loans, commercial credit cards) as defined by the OBI
@@ -43,7 +43,11 @@ apis:
 - description: Confirmation of Funds Services (CBPII) as defined by the OBIE Read/Write API Standard - FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 SCA). Represented here as the shared OBIE standard; Skipton ASPSP pu
   name: Skipton Confirmation of Funds API (OBIE Read/Write Standard)
   slug: skipton-confirmation-of-funds-api
-artifact_total: 6
+artifact_total: 7
+collections:
+- collection_type: open
+  name: Open Data API
+  slug: open-obie-opendata
 common:
 - group: auth
   title: ''
@@ -134,7 +138,7 @@ overview: 'Skipton Building Society publishes 1 API on the [APIs.io](https://api
 
 
   Skipton Building Society''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 80
+random_paper: 96
 score:
   band: thin
   composite: 28.2
@@ -161,7 +165,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

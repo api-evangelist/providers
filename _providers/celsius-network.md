@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -40,11 +40,26 @@ apis:
 - description: Balances, accrued interest, transactions, deposits and withdrawals.
   name: Celsius Network Wallet API
   slug: celsius-network-wallet-api
-artifact_total: 8
+artifact_total: 13
 collections:
 - collection_type: postman
   name: Celsius API
   slug: postman-celsius-network-partner-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Celsius Partner KYC API
+  slug: open-celsius-network-kyc-api
+- collection_type: open
+  name: Celsius Partner Users API
+  slug: open-celsius-network-users-api
+- collection_type: open
+  name: Celsius Partner Utility API
+  slug: open-celsius-network-utility-api
+- collection_type: open
+  name: Celsius Partner Wallet API
+  slug: open-celsius-network-wallet-api
 common:
 - group: company
   title: ''
@@ -167,7 +182,7 @@ overview: 'Celsius Network publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Celsius Network''s developer surface includes documentation, API reference, support, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 23
+random_paper: 93
 score:
   band: developing
   composite: 43.6
@@ -196,7 +211,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/screenshots/celsius-network-2026-08-07T163216.png
 security:

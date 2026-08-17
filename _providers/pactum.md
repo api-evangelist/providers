@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,7 +95,7 @@ overview: 'Pactum is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pactum''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 50
+random_paper: 54
 score:
   band: emerging
   composite: 17.1
@@ -109,7 +109,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pactum/refs/heads/main/screenshots/pactum-2026-08-07T191250.png
 security:

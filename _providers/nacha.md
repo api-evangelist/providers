@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -100,7 +100,80 @@ apis:
 - description: Afinis Bank Contact V2 API, a two-step input/retrieve interface for exchanging standardized financial-institution contact information.
   name: Afinis Bank Contact V2 API
   slug: nacha-bank-contact-v2
-artifact_total: 28
+artifact_total: 52
+collections:
+- collection_type: open
+  name: AV + Name + Return
+  slug: open-nacha-account-validation-plus-name-ret
+- collection_type: open
+  name: Account Validation Plus Ownership API
+  slug: open-nacha-account-validation-plus-name
+- collection_type: open
+  name: Account Validation APIs
+  slug: open-nacha-account-validation
+- collection_type: open
+  name: Debit Authorizations
+  slug: open-nacha-authorize-to-pay
+- collection_type: open
+  name: Bank Contact V2
+  slug: open-nacha-bank-contact-v2
+- collection_type: open
+  name: Bank Contacts APIs
+  slug: open-nacha-bank-contacts
+- collection_type: open
+  name: Get Corporate Account Balances API
+  slug: open-nacha-corporate-account-balances
+- collection_type: open
+  name: Get Transaction Detail API
+  slug: open-nacha-corporate-transaction-detail
+- collection_type: open
+  name: Get Corporate Transaction History API
+  slug: open-nacha-corporate-transaction-history
+- collection_type: open
+  name: Get Wire Status
+  slug: open-nacha-get-wire-status
+- collection_type: open
+  name: IAR Plus API
+  slug: open-nacha-iar-plus
+- collection_type: open
+  name: IAR_API
+  slug: open-nacha-iar
+- collection_type: open
+  name: Initiate Instant Payment API (IIP)
+  slug: open-nacha-initiate-instant-payment
+- collection_type: open
+  name: Initiate Payment API
+  slug: open-nacha-initiate-payment-api
+- collection_type: open
+  name: Initiate Payment API
+  slug: open-nacha-initiate-payment
+- collection_type: open
+  name: Initiate Wire Payment API
+  slug: open-nacha-initiate-wire-payment
+- collection_type: open
+  name: Instant Payment Transfer (IPT)
+  slug: open-nacha-instant-payment-transfer
+- collection_type: open
+  name: Pay Me API
+  slug: open-nacha-pay-me
+- collection_type: open
+  name: Payee Profile API
+  slug: open-nacha-payee-profile
+- collection_type: open
+  name: Proof of Authorization API
+  slug: open-nacha-proof-of-authorization
+- collection_type: open
+  name: Real Time Billing Account Validation User Story 1
+  slug: open-nacha-realtime-billing-account-validation
+- collection_type: open
+  name: RET (Reporting ACH Return Payments) API
+  slug: open-nacha-ret
+- collection_type: open
+  name: Transaction Status API
+  slug: open-nacha-transaction-status
+- collection_type: open
+  name: Request Copy of Written Statement of Unauthorized Debit (WSUD) API
+  slug: open-nacha-wsud
 common:
 - group: agent
   title: ''
@@ -219,7 +292,7 @@ overview: 'Nacha publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nacha''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, and 20 more developer resources.'
-random_paper: 27
+random_paper: 60
 score:
   band: thin
   composite: 38.3
@@ -244,7 +317,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png
 security:

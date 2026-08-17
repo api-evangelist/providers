@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Get visit history and delete visitor data.
   name: Fingerprint Visitors API
   slug: fingerprint-visitors-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fingerprint Server Event Search API
+  slug: open-fingerprint-event-search-api
+- collection_type: open
+  name: Fingerprint Server Event Search Events API
+  slug: open-fingerprint-events-api
+- collection_type: open
+  name: Fingerprint Server Event Search Related Visitors API
+  slug: open-fingerprint-related-visitors-api
+- collection_type: open
+  name: Fingerprint Server Event Search Visitors API
+  slug: open-fingerprint-visitors-api
 - collection_type: open
   name: Fingerprint Server API
   slug: open-fingerprint
@@ -125,7 +140,7 @@ plans:
 - name: Fingerprint Plans Pricing
   plan_count: 3
   slug: fingerprint-plans-pricing
-random_paper: 112
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Fingerprint Rate Limits
@@ -150,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/screenshots/fingerprint-2026-07-25T214519.png
 security:

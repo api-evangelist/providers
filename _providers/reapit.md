@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: 'The core Foundations REST API over the Reapit agency CRM data platform. It is documented as a hypermedia REST API with date-based versioning (the `api-version: 2020-01-31` header is required), optimis'
@@ -261,7 +261,7 @@ overview: 'Reapit publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Reapit''s developer surface includes authentication, changelog, CLI, sandbox, getting-started guide, API reference, documentation, and 38 more developer resources.'
-random_paper: 45
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Reapit Rate Limits
@@ -288,7 +288,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

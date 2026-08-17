@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,7 +85,68 @@ apis:
 - description: The Young Minds API from American Gene Technologies — 2 operation(s) for young minds.
   name: American Gene Technologies Young Minds API
   slug: american-gene-technologies-international-young-minds-api
-artifact_total: 23
+artifact_total: 43
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: American Gene Technologies Content AGT Jobs API
+  slug: open-american-gene-technologies-international-agt-jobs-api
+- collection_type: open
+  name: American Gene Technologies Content AGT Newsletters API
+  slug: open-american-gene-technologies-international-agt-newsletters-api
+- collection_type: open
+  name: American Gene Technologies Content Blogs API
+  slug: open-american-gene-technologies-international-blogs-api
+- collection_type: open
+  name: American Gene Technologies Content Discovery API
+  slug: open-american-gene-technologies-international-discovery-api
+- collection_type: open
+  name: American Gene Technologies Content Gene Therapies API
+  slug: open-american-gene-technologies-international-gene-therapies-api
+- collection_type: open
+  name: American Gene Technologies Content In The News API
+  slug: open-american-gene-technologies-international-in-the-news-api
+- collection_type: open
+  name: American Gene Technologies Content Media API
+  slug: open-american-gene-technologies-international-media-api
+- collection_type: open
+  name: American Gene Technologies Content Milestones API
+  slug: open-american-gene-technologies-international-milestones-api
+- collection_type: open
+  name: American Gene Technologies Content News Releases API
+  slug: open-american-gene-technologies-international-news-releases-api
+- collection_type: open
+  name: American Gene Technologies Content O Embed API
+  slug: open-american-gene-technologies-international-oembed-api
+- collection_type: open
+  name: American Gene Technologies Content Pages API
+  slug: open-american-gene-technologies-international-pages-api
+- collection_type: open
+  name: American Gene Technologies Content Patents API
+  slug: open-american-gene-technologies-international-patents-api
+- collection_type: open
+  name: American Gene Technologies Content Posts API
+  slug: open-american-gene-technologies-international-posts-api
+- collection_type: open
+  name: American Gene Technologies Content Scientific And Clinical Advisors API
+  slug: open-american-gene-technologies-international-scientific-and-clinical-advisors-api
+- collection_type: open
+  name: American Gene Technologies Content Search API
+  slug: open-american-gene-technologies-international-search-api
+- collection_type: open
+  name: American Gene Technologies Content Taxonomies API
+  slug: open-american-gene-technologies-international-taxonomies-api
+- collection_type: open
+  name: American Gene Technologies Content Video Series Videos API
+  slug: open-american-gene-technologies-international-video-series-videos-api
+- collection_type: open
+  name: American Gene Technologies Content Videos API
+  slug: open-american-gene-technologies-international-videos-api
+- collection_type: open
+  name: American Gene Technologies Content Young Minds API
+  slug: open-american-gene-technologies-international-young-minds-api
 common:
 - group: agent
   title: ''
@@ -260,7 +321,7 @@ overview: 'American Gene Technologies publishes 19 APIs on the [APIs.io](https:/
 
 
   American Gene Technologies'' developer surface includes engineering blog, product news, support, FAQ, YouTube channel, authentication, code examples, and 32 more developer resources.'
-random_paper: 106
+random_paper: 43
 score:
   band: emerging
   composite: 20.6
@@ -290,7 +351,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/screenshots/american-gene-technologies-international-2026-08-07T161327.png
 security:

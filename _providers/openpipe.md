@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: The Unstable API from OpenPipe — 7 operation(s) for unstable.
   name: OpenPipe Unstable API
   slug: openpipe-unstable-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenPipe Chat API
+  slug: open-openpipe-chat-api
+- collection_type: open
+  name: OpenPipe Chat Check Cache API
+  slug: open-openpipe-check-cache-api
+- collection_type: open
+  name: OpenPipe Chat Criteria API
+  slug: open-openpipe-criteria-api
+- collection_type: open
+  name: OpenPipe Chat Datasets API
+  slug: open-openpipe-datasets-api
+- collection_type: open
+  name: OpenPipe Chat Local Testing Only Get Latest Logged Call API
+  slug: open-openpipe-local-testing-only-get-latest-logged-call-api
+- collection_type: open
+  name: OpenPipe Chat Logs API
+  slug: open-openpipe-logs-api
+- collection_type: open
+  name: OpenPipe Chat Models API
+  slug: open-openpipe-models-api
+- collection_type: open
+  name: OpenPipe Chat Report Anthropic API
+  slug: open-openpipe-report-anthropic-api
+- collection_type: open
+  name: OpenPipe Chat Report API
+  slug: open-openpipe-report-api
+- collection_type: open
+  name: OpenPipe Chat Unstable API
+  slug: open-openpipe-unstable-api
 - collection_type: open
   name: OpenPipe API
   slug: open-openpipe
@@ -139,7 +172,7 @@ plans:
 - name: Openpipe Plans Pricing
   plan_count: 1
   slug: openpipe-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 1
   name: Openpipe Rate Limits
@@ -164,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/screenshots/openpipe-2026-06-20T191022.png
 security:

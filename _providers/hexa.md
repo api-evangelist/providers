@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: The Users API from Hex — 3 operation(s) for users.
   name: Hex Users API
   slug: hexa-users-api
-artifact_total: 18
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hex Cells API
+  slug: open-hexa-cells-api
+- collection_type: open
+  name: Hex Cells Collections API
+  slug: open-hexa-collections-api
+- collection_type: open
+  name: Hex Cells Data Connections API
+  slug: open-hexa-data-connections-api
+- collection_type: open
+  name: Hex Cells Embedding API
+  slug: open-hexa-embedding-api
+- collection_type: open
+  name: Hex Cells Groups API
+  slug: open-hexa-groups-api
+- collection_type: open
+  name: Hex Cells Guides API
+  slug: open-hexa-guides-api
+- collection_type: open
+  name: Hex Cells Projects API
+  slug: open-hexa-projects-api
+- collection_type: open
+  name: Hex Cells Semantic (projects|models) API
+  slug: open-hexa-semantic-projects-models-api
+- collection_type: open
+  name: Hex Cells Users API
+  slug: open-hexa-users-api
 - collection_type: open
   name: Hex API
   slug: open-hexa
@@ -144,7 +174,7 @@ plans:
 - name: Hexa Plans Pricing
   plan_count: 3
   slug: hexa-plans-pricing
-random_paper: 62
+random_paper: 124
 rate_limits:
 - limit_count: 5
   name: Hexa Rate Limits
@@ -169,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hexa/refs/heads/main/screenshots/hexa-2026-06-20T182713.png
 security:

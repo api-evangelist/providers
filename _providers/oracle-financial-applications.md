@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -84,8 +84,26 @@ apis:
 - description: Customer transactions.
   name: Oracle Financial Applications Receivables API
   slug: oracle-financial-applications-receivables-api
-artifact_total: 22
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Oracle Financials Cloud REST Cash Management API
+  slug: open-oracle-financial-applications-cash-management-api
+- collection_type: open
+  name: Oracle Financials Cloud REST Cash Management Fixed Assets API
+  slug: open-oracle-financial-applications-fixed-assets-api
+- collection_type: open
+  name: Oracle Financials Cloud REST Cash Management General Ledger API
+  slug: open-oracle-financial-applications-general-ledger-api
+- collection_type: open
+  name: Oracle Financials Cloud REST Cash Management Payables API
+  slug: open-oracle-financial-applications-payables-api
+- collection_type: open
+  name: Oracle Financials Cloud REST Cash Management Receivables API
+  slug: open-oracle-financial-applications-receivables-api
 - collection_type: open
   name: Oracle Financials Cloud REST API
   slug: open-oracle-financial-applications
@@ -158,7 +176,7 @@ plans:
 - name: Oracle Financial Applications Plans Pricing
   plan_count: 3
   slug: oracle-financial-applications-plans-pricing
-random_paper: 60
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Oracle Financial Applications Rate Limits
@@ -183,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-financial-applications/refs/heads/main/screenshots/oracle-financial-applications-2026-06-20T191129.png
 security:

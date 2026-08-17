@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: 'The ActionIQ Profile API provides real-time access to customer identities, attributes, and audience membership within milliseconds. It powers inbound decisioning use cases such as web personalization '
@@ -37,7 +37,7 @@ apis:
 - description: ActionIQ provides a real-time REST API endpoint for streaming customer event data into the platform. The ingestion API supports push-based streaming from in-house systems, enabling businesses to captu
   name: ActionIQ Data Ingestion API
   slug: data-ingestion-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -50,7 +50,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.actioniq.com/library/
+  url: https://docs.actioniq.com/actioniq-help-center
 - group: build
   title: ''
   type: GitHubOrg
@@ -63,14 +63,22 @@ common:
   title: ''
   type: Blog
   url: https://www.actioniq.com/blog/
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.g2.com/products/actioniq/pricing
 - group: other
   title: ''
   type: X
   url: https://twitter.com/actioniqinc
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.uniphore.com/support/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.uniphore.com/legal/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.uniphore.com/legal/privacy-policy/
 - group: commercial
   title: ''
   type: Plans
@@ -83,6 +91,48 @@ common:
   title: ''
   type: FinOps
   url: finops/actioniq-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/actioniq-llms.txt
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/actioniq-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/actioniq-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/actioniq-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/actioniq-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/actioniq-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/actioniq-lifecycle.yml
+coverage:
+  checked: '2026-08-13'
+  detail: The ActionIQ API reference is a GitBook space at docs.actioniq.com/actioniq-help-center gated by an Auth0 visitor-auth integration — every path 307s to integrations.gitbook.com, then 302s to login.actioniq.com/authorize and ends on an Auth0 error page — while the live production host api.actioniq.com answers 403 Forbidden from AWS API Gateway on every path, so no OpenAPI, error catalog, or rate-limit header could be read anonymously.
+  evidence:
+  - status: 400
+    url: https://docs.actioniq.com/actioniq-help-center
+  - status: 403
+    url: https://api.actioniq.com/openapi.json
+  - status: 301
+    url: https://www.actioniq.com/library/
+  - status: 200
+    url: https://status.actioniq.com/
+  reason: customer-only-docs
+  state: gated
 created: '2026-06-13'
 description: ActionIQ is an enterprise customer data platform (CDP) that provides a REST API for managing customer profiles, building audiences, orchestrating campaigns, and activating data across marketing channels. The platform offers a Profile API for real-time personalization, enabling businesses to access customer identities, attributes, and audience membership within milliseconds to power web personalization, call center decisioning, and real-time customer experiences. ActionIQ was acquired by Uniphore in December 2024 and is now offered as part of Uniphore's composable CDP platform.
 finops:
@@ -96,7 +146,7 @@ jsonld:
   property_count: 7
   slug: actioniq-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-13'
 name: ActionIQ
 nav: Providers
 network: true
@@ -106,37 +156,45 @@ overview: 'ActionIQ publishes 2 APIs on the [APIs.io](https://apis.io/) network.
   The ActionIQ catalog on APIs.io includes 1 JSON-LD context.
 
 
-  ActionIQ''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
+  ActionIQ''s developer surface includes documentation, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Actioniq Plans Pricing
   plan_count: 1
   slug: actioniq-plans-pricing
-random_paper: 16
+random_paper: 111
 rate_limits:
 - limit_count: 0
   name: Actioniq Rate Limits
   slug: actioniq-rate-limits
 score:
-  band: emerging
-  composite: 19.6
-  delta: 0.0
+  band: thin
+  composite: 29.4
+  delta: 9.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 65.8
     contract_quality: 8.1
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 5.3
+    developer_ergonomics: 15.2
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 15.8
   previous_composite: 19.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/actioniq/refs/heads/main/screenshots/actioniq-2026-06-20T164035.png
 security:
 - kind: domain-security
   name: Actioniq Domain Security
   slug: actioniq-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Actioniq Vulnerability Disclosure
+  slug: actioniq-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Actioniq Trust Center
+  slug: actioniq-trust-center
+  summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO/IEC 27017:2015, ISO/IEC 27018:2019, PCI DSS v4.0.1, HIPAA, GDPR, NIST CSF, CASA Tier 2, EU AI Act, FIPS 140-2, FIPS 140-3
 slug: actioniq
 tags:
 - Customer Data Platform

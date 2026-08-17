@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Member-facing data export of glucose/CGM, activity, zones, and nutrition logs as CSV downloads from the Levels member portal. This is a UI download only; no programmatic/public API endpoint is documen
@@ -40,8 +40,11 @@ apis:
 - description: A "Partner With Us" program for clinics and partners surfaced in the Levels site footer. No partner-facing developer API, OAuth flow, or documented endpoints are published; engagement is via a contact
   name: Levels Partner Program
   slug: levels-partner-program
-artifact_total: 8
+artifact_total: 9
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Levels
   slug: open-levels-health
@@ -98,7 +101,7 @@ plans:
 - name: Levels Health Plans Pricing
   plan_count: 4
   slug: levels-health-plans-pricing
-random_paper: 6
+random_paper: 134
 rate_limits:
 - limit_count: 2
   name: Levels Health Rate Limits
@@ -122,7 +125,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/screenshots/levels-health-2026-06-20T184436.png
 security:

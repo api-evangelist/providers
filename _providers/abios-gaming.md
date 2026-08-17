@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Atlas is the Abios REST and WebSocket data API delivering fixtures, live match state, historical stats, players, teams, tournaments, and series across covered esports titles. Designed as a developer-f
@@ -106,7 +106,7 @@ plans:
 - name: Abios Gaming Plans Pricing
   plan_count: 1
   slug: abios-gaming-plans-pricing
-random_paper: 118
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Abios Gaming Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/screenshots/abios-gaming-2026-06-20T163209.png
 security:

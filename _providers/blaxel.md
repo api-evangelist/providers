@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -72,8 +72,44 @@ apis:
 - description: The Workspaces API from Blaxel — 3 operation(s) for workspaces.
   name: Blaxel Workspaces API
   slug: blaxel-workspaces-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blaxel Control Plane Agents API
+  slug: open-blaxel-agents-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Compute API
+  slug: open-blaxel-compute-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Functions API
+  slug: open-blaxel-functions-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Integrations API
+  slug: open-blaxel-integrations-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Jobs API
+  slug: open-blaxel-jobs-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Locations API
+  slug: open-blaxel-locations-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Models API
+  slug: open-blaxel-models-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Policies API
+  slug: open-blaxel-policies-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Service Accounts API
+  slug: open-blaxel-service-accounts-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Volumes API
+  slug: open-blaxel-volumes-api
+- collection_type: open
+  name: Blaxel Control Plane Agents Workspaces API
+  slug: open-blaxel-workspaces-api
 - collection_type: open
   name: Blaxel Control Plane API
   slug: open-blaxel
@@ -142,7 +178,7 @@ plans:
 - name: Blaxel Plans Pricing
   plan_count: 4
   slug: blaxel-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 6
   name: Blaxel Rate Limits
@@ -167,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/screenshots/blaxel-2026-07-25T203304.png
 security:

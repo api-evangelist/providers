@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -31,7 +31,11 @@ apis:
 - description: The Weel Open API is a single RESTful interface that programmatically reads and writes a business's spend data in Weel — budgets, budget members, budget owners, budget top-ups, users, roles, transacti
   name: Weel Open API
   slug: weel-open-api
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Weel OpenAPI
+  slug: open-weel
 common:
 - group: agent
   title: ''
@@ -146,7 +150,7 @@ overview: 'Weel publishes 1 API on the [APIs.io](https://apis.io/) network: Open
 
 
   Weel''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, changelog, support, and 17 more developer resources.'
-random_paper: 69
+random_paper: 131
 score:
   band: developing
   composite: 51.5
@@ -176,7 +180,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

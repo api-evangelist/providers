@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -135,7 +135,7 @@ overview: 'Landis is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Landis'' developer surface includes engineering blog, pricing, signup flow, developer portal, support, YouTube channel, and 17 more developer resources.'
-random_paper: 35
+random_paper: 39
 score:
   band: emerging
   composite: 23.4
@@ -149,7 +149,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 23.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landis/refs/heads/main/screenshots/landis-2026-07-25T224507.png
 security:

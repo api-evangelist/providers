@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -108,8 +108,23 @@ apis:
 - description: Endpoints for retrieving the operational status of the TiDB server instance.
   name: tidb Status API
   slug: tidb-status-api
-artifact_total: 41
+artifact_total: 65
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TiDB Cloud API Keys API
+  slug: open-tidb-api-keys-api
+- collection_type: open
+  name: TiDB Cloud API Keys Audit Logs API
+  slug: open-tidb-audit-logs-api
+- collection_type: open
+  name: TiDB Cloud API Keys Billing API
+  slug: open-tidb-billing-api
+- collection_type: open
+  name: TiDB Cloud API Keys Chat2Data API
+  slug: open-tidb-chat2data-api
 - collection_type: open
   name: TiDB Cloud API
   slug: open-tidb-cloud-api
@@ -120,8 +135,65 @@ collections:
   name: TiDB Cloud Data Service API
   slug: open-tidb-cloud-data-service
 - collection_type: open
+  name: TiDB Cloud API Keys Clusters API
+  slug: open-tidb-clusters-api
+- collection_type: open
+  name: TiDB Cloud API Keys Data App API Keys API
+  slug: open-tidb-data-app-api-keys-api
+- collection_type: open
+  name: TiDB Cloud API Keys Data Apps API
+  slug: open-tidb-data-apps-api
+- collection_type: open
+  name: TiDB Cloud API Keys Data Sources API
+  slug: open-tidb-data-sources-api
+- collection_type: open
+  name: TiDB Cloud API Keys Data Summaries API
+  slug: open-tidb-data-summaries-api
+- collection_type: open
+  name: TiDB Cloud API Keys DDL API
+  slug: open-tidb-ddl-api
+- collection_type: open
+  name: TiDB Cloud API Keys Deployments API
+  slug: open-tidb-deployments-api
+- collection_type: open
+  name: TiDB Cloud API Keys Diagnostics API
+  slug: open-tidb-diagnostics-api
+- collection_type: open
+  name: TiDB Cloud API Keys Endpoints API
+  slug: open-tidb-endpoints-api
+- collection_type: open
   name: TiDB HTTP API
   slug: open-tidb-http-api
+- collection_type: open
+  name: TiDB Cloud API Keys Imports API
+  slug: open-tidb-imports-api
+- collection_type: open
+  name: TiDB Cloud API Keys Integrations API
+  slug: open-tidb-integrations-api
+- collection_type: open
+  name: TiDB Cloud API Keys MVCC API
+  slug: open-tidb-mvcc-api
+- collection_type: open
+  name: TiDB Cloud API Keys Regions API
+  slug: open-tidb-regions-api
+- collection_type: open
+  name: TiDB Cloud API Keys Schema API
+  slug: open-tidb-schema-api
+- collection_type: open
+  name: TiDB Cloud API Keys Sessions API
+  slug: open-tidb-sessions-api
+- collection_type: open
+  name: TiDB Cloud API Keys Settings API
+  slug: open-tidb-settings-api
+- collection_type: open
+  name: TiDB Cloud API Keys SQL Refinement API
+  slug: open-tidb-sql-refinement-api
+- collection_type: open
+  name: TiDB Cloud API Keys Statistics API
+  slug: open-tidb-statistics-api
+- collection_type: open
+  name: TiDB Cloud API Keys Status API
+  slug: open-tidb-status-api
 common:
 - group: agent
   title: ''
@@ -207,7 +279,7 @@ plans:
 - name: Tidb Plans Pricing
   plan_count: 6
   slug: tidb-plans-pricing
-random_paper: 59
+random_paper: 121
 rate_limits:
 - limit_count: 4
   name: Tidb Rate Limits
@@ -241,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/screenshots/tidb-2026-06-20T195336.png
 security:

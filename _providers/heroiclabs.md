@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 5
@@ -51,11 +51,24 @@ apis:
 - description: The Rpc API from Heroic Labs — 131 operation(s) for rpc.
   name: Heroic Labs Rpc API
   slug: heroiclabs-rpc-api
-artifact_total: 30
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Heroiclabs Nakama Realtime Events
   slug: heroiclabs-nakama-realtime-events
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hiro RPC Console API
+  slug: open-heroiclabs-console-api
+- collection_type: open
+  name: Hiro RPC Console Nakama API
+  slug: open-heroiclabs-nakama-api
+- collection_type: open
+  name: Hiro Console Rpc API
+  slug: open-heroiclabs-rpc-api
 common:
 - group: other
   title: ''
@@ -324,7 +337,7 @@ plans:
 - name: Heroiclabs Plans Pricing
   plan_count: 5
   slug: heroiclabs-plans-pricing
-random_paper: 92
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Heroiclabs Rate Limits
@@ -361,7 +374,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/screenshots/heroiclabs-2026-07-25T221028.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -72,18 +72,48 @@ apis:
 - description: Operations for managing experience schedules, time slots, and availability for hosted activities.
   name: airbnb Schedules API
   slug: airbnb-schedules-api
-artifact_total: 105
+artifact_total: 115
 asyncapis:
 - description: The Airbnb Webhooks API enables connectivity partners to receive real-time notifications when events occur on the Airbnb platform. It supports webhook subscriptions for reservation changes, message cr
   name: Airbnb Webhooks API
   slug: airbnb-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Airbnb Activities API
   slug: open-airbnb-activities-api
 - collection_type: open
+  name: Airbnb Activities Bookings API
+  slug: open-airbnb-bookings-api
+- collection_type: open
+  name: Airbnb Activities Bookings Calendar API
+  slug: open-airbnb-calendar-api
+- collection_type: open
+  name: Airbnb Activities Bookings Experience Messages API
+  slug: open-airbnb-experience-messages-api
+- collection_type: open
+  name: Airbnb Activities Bookings Experiences API
+  slug: open-airbnb-experiences-api
+- collection_type: open
   name: Airbnb Homes API
   slug: open-airbnb-homes-api
+- collection_type: open
+  name: Airbnb Activities Bookings Listings API
+  slug: open-airbnb-listings-api
+- collection_type: open
+  name: Airbnb Activities Bookings Messages API
+  slug: open-airbnb-messages-api
+- collection_type: open
+  name: Airbnb Activities Bookings Photos API
+  slug: open-airbnb-photos-api
+- collection_type: open
+  name: Airbnb Activities Bookings Reservations API
+  slug: open-airbnb-reservations-api
+- collection_type: open
+  name: Airbnb Activities Bookings Schedules API
+  slug: open-airbnb-schedules-api
 common:
 - group: agent
   title: ''
@@ -733,7 +763,7 @@ plans:
 - name: Airbnb Plans Pricing
   plan_count: 5
   slug: airbnb-plans-pricing
-random_paper: 22
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Airbnb Rate Limits
@@ -788,7 +818,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png
 security:

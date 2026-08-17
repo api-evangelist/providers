@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The APIs API from Acko — 3 operation(s) for apis.
   name: Acko APIs API
   slug: acko-apis-api
-artifact_total: 5
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Acko General Insurance Limited APIs API
+  slug: open-acko-apis-api
 common:
 - group: other
   title: ''
@@ -147,7 +154,7 @@ overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs
 
 
   Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 17 more developer resources.'
-random_paper: 54
+random_paper: 116
 score:
   band: thin
   composite: 36.1
@@ -177,7 +184,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png
 security:

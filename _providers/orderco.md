@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The individual services Order.co reports health for.
@@ -63,7 +63,53 @@ apis:
 - description: Published Order.co vendor/supplier case studies.
   name: Order.co Vendor Stories API
   slug: orderco-vendor-stories-api
-artifact_total: 27
+artifact_total: 42
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Order.co Status Components API
+  slug: open-orderco-components-api
+- collection_type: open
+  name: Order.co Content API
+  slug: open-orderco-content-api
+- collection_type: open
+  name: Order.co Content Customer Stories API
+  slug: open-orderco-customer-stories-api
+- collection_type: open
+  name: Order.co Content Discovery API
+  slug: open-orderco-discovery-api
+- collection_type: open
+  name: Order.co Content FA Qs API
+  slug: open-orderco-faqs-api
+- collection_type: open
+  name: Order.co Status Incidents API
+  slug: open-orderco-incidents-api
+- collection_type: open
+  name: Order.co Status Maintenance API
+  slug: open-orderco-maintenance-api
+- collection_type: open
+  name: Order.co Content Newsroom API
+  slug: open-orderco-newsroom-api
+- collection_type: open
+  name: Order.co Content Resources API
+  slug: open-orderco-resources-api
+- collection_type: open
+  name: Order.co Content Search API
+  slug: open-orderco-search-api
+- collection_type: open
+  name: Order.co Status API
+  slug: open-orderco-status-api
+- collection_type: open
+  name: Order.co Content Taxonomies API
+  slug: open-orderco-taxonomies-api
+- collection_type: open
+  name: Order.co Content Testimonials API
+  slug: open-orderco-testimonials-api
+- collection_type: open
+  name: Order.co Content Vendor Stories API
+  slug: open-orderco-vendor-stories-api
 common:
 - group: other
   title: ''
@@ -208,7 +254,7 @@ overview: 'Order.co publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Order.co''s developer surface includes authentication, code examples, engineering blog, and 21 more developer resources.'
-random_paper: 30
+random_paper: 5
 score:
   band: emerging
   composite: 27.5
@@ -236,7 +282,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/screenshots/orderco-2026-08-07T190910.png
 security:

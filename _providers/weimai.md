@@ -27,13 +27,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The WeiMai Open Platform (微脉开发平台API) is a partner-facing API surface hosted at openapi.myweimai.com. It publishes a live Swagger 2.0 document, but the public specification exposes no operations withou
   name: WeiMai Open Platform API
   slug: weimai-open-platform-api
-artifact_total: 2
+artifact_total: 3
+collections:
+- collection_type: open
+  name: 微脉开发平台API
+  slug: open-weimai-openplatform
 common:
 - group: company
   title: ''
@@ -60,7 +64,7 @@ name: WeiMai
 nav: Providers
 network: true
 overview: 'WeiMai publishes 1 API on the [APIs.io](https://apis.io/) network: Open Platform API. Tagged areas include Company, Healthcare, Digital Health, Internet Hospital, and Telemedicine.'
-random_paper: 36
+random_paper: 40
 score:
   band: emerging
   composite: 13.8
@@ -80,7 +84,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

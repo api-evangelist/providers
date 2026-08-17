@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,7 +50,23 @@ apis:
 - description: The SCIM API from TeamOhana — 3 operation(s) for scim.
   name: TeamOhana SCIM API
   slug: teamohana-scim-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TeamOhana Public Discovery API
+  slug: open-teamohana-discovery-api
+- collection_type: open
+  name: TeamOhana Public Discovery Headcount API
+  slug: open-teamohana-headcount-api
+- collection_type: open
+  name: TeamOhana Public Discovery Scenario API
+  slug: open-teamohana-scenario-api
+- collection_type: open
+  name: TeamOhana Public Discovery SCIM API
+  slug: open-teamohana-scim-api
 common:
 - group: docs
   title: ''
@@ -172,7 +188,7 @@ overview: 'TeamOhana publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   TeamOhana''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, support, and 19 more developer resources.'
-random_paper: 102
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Teamohana Rate Limits
@@ -200,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

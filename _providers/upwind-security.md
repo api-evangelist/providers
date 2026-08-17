@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: The Access Management resource offers methods for managing groups, members, roles, and scopes.
@@ -68,11 +68,51 @@ apis:
 - description: The Workflows resource offers a range of methods for listing, retrieving, and deleting workflows.
   name: Upwind Security workflows API
   slug: upwind-security-workflows-api
-artifact_total: 18
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Upwind Security Webhooks
   slug: upwind-security-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Introduction access-management API
+  slug: open-upwind-security-access-management-api
+- collection_type: open
+  name: Introduction access-management api-security API
+  slug: open-upwind-security-api-security-api
+- collection_type: open
+  name: Introduction access-management cloud-accounts API
+  slug: open-upwind-security-cloud-accounts-api
+- collection_type: open
+  name: Introduction access-management configurations API
+  slug: open-upwind-security-configurations-api
+- collection_type: open
+  name: Introduction access-management events API
+  slug: open-upwind-security-events-api
+- collection_type: open
+  name: Introduction access-management integrations API
+  slug: open-upwind-security-integrations-api
+- collection_type: open
+  name: Introduction access-management inventory API
+  slug: open-upwind-security-inventory-api
+- collection_type: open
+  name: Introduction access-management packages API
+  slug: open-upwind-security-packages-api
+- collection_type: open
+  name: Introduction access-management shiftleft API
+  slug: open-upwind-security-shiftleft-api
+- collection_type: open
+  name: Introduction access-management threats API
+  slug: open-upwind-security-threats-api
+- collection_type: open
+  name: Introduction access-management vulnerabilities API
+  slug: open-upwind-security-vulnerabilities-api
+- collection_type: open
+  name: Introduction access-management workflows API
+  slug: open-upwind-security-workflows-api
 common:
 - group: other
   title: ''
@@ -209,7 +249,7 @@ overview: 'Upwind Security publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Upwind Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 22 more developer resources.'
-random_paper: 36
+random_paper: 106
 scopes:
 - name: Upwind Security Scopes
   scope_count: 26
@@ -237,7 +277,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

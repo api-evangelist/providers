@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,11 +51,26 @@ apis:
 - description: Physical, mechanical, and chemical test report operations
   name: United States Steel Test Reports API
   slug: united-states-steel-test-reports-api
-artifact_total: 55
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: U.S. Steel SteelTrack Inventory API
+  slug: open-united-states-steel-inventory-api
+- collection_type: open
+  name: U.S. Steel SteelTrack Inventory Orders API
+  slug: open-united-states-steel-orders-api
+- collection_type: open
+  name: U.S. Steel SteelTrack Inventory Shipments API
+  slug: open-united-states-steel-shipments-api
 - collection_type: open
   name: U.S. Steel SteelTrack API
   slug: open-united-states-steel-steeltrack
+- collection_type: open
+  name: U.S. Steel SteelTrack Inventory Test Reports API
+  slug: open-united-states-steel-test-reports-api
 common:
 - group: agent
   title: ''
@@ -235,7 +250,7 @@ press:
 - date: '2026-05-25'
   title: U. S. Steel Aims to Improve Operational Efficiencies and ...
   url: https://www.ussteel.com/prereleases/-/blogs/u-s-steel-aims-to-improve-operational-efficiencies-and-employee-experiences-with-google-cloud-s-generative-ai
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: United States Steel Rate Limits
@@ -283,7 +298,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/screenshots/united-states-steel-2026-06-20T200102.png
 security:

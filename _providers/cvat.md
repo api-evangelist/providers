@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Annotation tasks holding media data and annotations.
   name: CVAT tasks API
   slug: cvat-tasks-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CVAT REST annotations API
+  slug: open-cvat-annotations-api
+- collection_type: open
+  name: CVAT REST annotations cloudstorages API
+  slug: open-cvat-cloudstorages-api
+- collection_type: open
+  name: CVAT REST annotations jobs API
+  slug: open-cvat-jobs-api
+- collection_type: open
+  name: CVAT REST annotations labels API
+  slug: open-cvat-labels-api
+- collection_type: open
+  name: CVAT REST annotations memberships API
+  slug: open-cvat-memberships-api
+- collection_type: open
+  name: CVAT REST annotations organizations API
+  slug: open-cvat-organizations-api
+- collection_type: open
+  name: CVAT REST annotations projects API
+  slug: open-cvat-projects-api
+- collection_type: open
+  name: CVAT REST annotations tasks API
+  slug: open-cvat-tasks-api
 - collection_type: open
   name: CVAT REST API
   slug: open-cvat
@@ -133,7 +160,7 @@ plans:
 - name: Cvat Plans Pricing
   plan_count: 5
   slug: cvat-plans-pricing
-random_paper: 70
+random_paper: 132
 rate_limits:
 - limit_count: 6
   name: Cvat Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/screenshots/cvat-2026-07-25T211022.png
 security:

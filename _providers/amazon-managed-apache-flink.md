@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -132,7 +132,7 @@ apis:
 - description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.upda'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
-artifact_total: 977
+artifact_total: 1009
 collections:
 - collection_type: postman
   name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOpt'
@@ -227,6 +227,102 @@ collections:
 - collection_type: postman
   name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfig'
   slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationcloudwatchloggingoption-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationInput API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationinput-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationInputProcessingConfiguration API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationinputprocessingconfiguration-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationOutput API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationoutput-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationReferenceDataSource API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationreferencedatasource-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationVpcConfiguration API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationvpcconfiguration-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.CreateApplication API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-createapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.CreateApplicationPresignedUrl API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-createapplicationpresignedurl-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.CreateApplicationSnapshot API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-createapplicationsnapshot-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplication API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationCloudWatchLoggingOption API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationcloudwatchloggingoption-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationInputProcessingConfiguration API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationinputprocessingconfiguration-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationOutput API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationoutput-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationReferenceDataSource API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationreferencedatasource-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationSnapshot API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationsnapshot-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationVpcConfiguration API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationvpcconfiguration-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DescribeApplication API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-describeapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationSnapshot API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-describeapplicationsnapshot-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationVersion API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-describeapplicationversion-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DiscoverInputSchema API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-discoverinputschema-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.ListApplications API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listapplications-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.ListApplicationSnapshots API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listapplicationsnapshots-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.ListApplicationVersions API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listapplicationversions-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.ListTagsForResource API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listtagsforresource-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.RollbackApplication API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-rollbackapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.StartApplication API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-startapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.StopApplication API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-stopapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.TagResource API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-tagresource-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.UntagResource API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-untagresource-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.UpdateApplication API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplication-api
+- collection_type: open
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
+  slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
 common:
 - group: build
   title: ''
@@ -3032,7 +3128,7 @@ plans:
 - name: Amazon Managed Apache Flink Plans Pricing
   plan_count: 3
   slug: amazon-managed-apache-flink-plans-pricing
-random_paper: 0
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Apache Flink Rate Limits
@@ -3074,7 +3170,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/screenshots/amazon-managed-apache-flink-2026-06-20T171732.png
 security:

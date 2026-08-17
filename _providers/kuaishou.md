@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: The Kuaishou Open Platform (快手开放平台) exposes a JSON HTTP API for third-party applications, mini programs and merchant tools built on Kuaishou. Access is granted through a standard OAuth 2.0 authorizati
@@ -183,7 +183,7 @@ plans:
 - name: Kuaishou Plans Pricing
   plan_count: 0
   slug: kuaishou-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 0
   name: Kuaishou Rate Limits
@@ -196,7 +196,7 @@ scopes:
 score:
   band: thin
   composite: 34.8
-  delta: 16.0
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -204,12 +204,12 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 18.8
+  previous_composite: 34.8
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/screenshots/kuaishou-2026-07-25T224317.png
 security:
 - kind: authentication

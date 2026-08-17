@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -54,11 +54,15 @@ arazzos:
 - description: Submit interval telemetry and controllable load for an enrolled site, then read interval kW back within Voltus's documented limits (10 sites, 90 days, 10,000 points per site).
   name: Report Voltus telemetry and read it back
   slug: voltus-report-and-read-telemetry
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Voltus Webhooks
   slug: voltus-webhooks
+collections:
+- collection_type: open
+  name: Voltus API Reference
+  slug: open-voltus
 common:
 - group: agent
   title: ''
@@ -253,7 +257,7 @@ overview: 'Voltus publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Voltus'' developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, support, and 33 more developer resources.'
-random_paper: 85
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Voltus Rate Limits
@@ -287,7 +291,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

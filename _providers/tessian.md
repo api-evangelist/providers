@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -68,7 +68,41 @@ apis:
 - description: The Triggers API from Tessian — 1 operation(s) for triggers.
   name: Tessian Triggers API
   slug: tessian-triggers-api
-artifact_total: 14
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tessian Anomalies API
+  slug: open-tessian-anomalies-api
+- collection_type: open
+  name: Tessian Anomalies Audits API
+  slug: open-tessian-audits-api
+- collection_type: open
+  name: Tessian Anomalies Beta Endpoints API
+  slug: open-tessian-beta-endpoints-api
+- collection_type: open
+  name: Tessian Anomalies Deprecated API
+  slug: open-tessian-deprecated-api
+- collection_type: open
+  name: Tessian Anomalies Endpoints API
+  slug: open-tessian-endpoints-api
+- collection_type: open
+  name: Tessian Anomalies Events API
+  slug: open-tessian-events-api
+- collection_type: open
+  name: Tessian Anomalies Groups API
+  slug: open-tessian-groups-api
+- collection_type: open
+  name: Tessian Anomalies Monitoring API
+  slug: open-tessian-monitoring-api
+- collection_type: open
+  name: Tessian Anomalies Risk API
+  slug: open-tessian-risk-api
+- collection_type: open
+  name: Tessian Anomalies Triggers API
+  slug: open-tessian-triggers-api
 common:
 - group: start
   title: ''
@@ -162,7 +196,7 @@ overview: 'Tessian publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tessian''s developer surface includes documentation, API reference, authentication, support, and 15 more developer resources.'
-random_paper: 39
+random_paper: 14
 score:
   band: thin
   composite: 35.0
@@ -186,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

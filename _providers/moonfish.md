@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Moonfish
 nav: Providers
 network: true
 overview: Moonfish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 27
+random_paper: 122
 score:
   band: minimal
   composite: 4.1
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonfish/refs/heads/main/screenshots/moonfish-2026-08-07T184240.png
 slug: moonfish

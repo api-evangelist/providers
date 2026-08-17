@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -63,11 +63,35 @@ apis:
 - description: The operators API from Rockwell Collins — 8 operation(s) for operators.
   name: Rockwell Collins operators API
   slug: rockwell-collins-operators-api
-artifact_total: 21
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: AeroAPI
   slug: open-flightaware-aeroapi
+- collection_type: open
+  name: Aero airports API
+  slug: open-rockwell-collins-airports-api
+- collection_type: open
+  name: Aero airports alerts API
+  slug: open-rockwell-collins-alerts-api
+- collection_type: open
+  name: Aero airports flights API
+  slug: open-rockwell-collins-flights-api
+- collection_type: open
+  name: Aero airports foresight API
+  slug: open-rockwell-collins-foresight-api
+- collection_type: open
+  name: Aero airports history API
+  slug: open-rockwell-collins-history-api
+- collection_type: open
+  name: Aero airports miscellaneous API
+  slug: open-rockwell-collins-miscellaneous-api
+- collection_type: open
+  name: Aero airports operators API
+  slug: open-rockwell-collins-operators-api
 common:
 - group: commercial
   title: ''
@@ -197,7 +221,7 @@ press:
 - date: '2026-05-25'
   title: Rockwell Collins Airport Solutions Enhance Operations at ...
   url: https://www.airport-technology.com/contractors/consult/arinc-airports/pressreleases/terminal-operations-noi-bai/
-random_paper: 108
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Rockwell Collins Rate Limits
@@ -239,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/screenshots/rockwell-collins-2026-06-20T193203.png
 security:

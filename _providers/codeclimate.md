@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Test Coverage API from Code Climate — 5 operation(s) for test coverage.
   name: Code Climate Test Coverage API
   slug: codeclimate-test-coverage-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Code Climate Quality Issues API
+  slug: open-codeclimate-issues-api
+- collection_type: open
+  name: Code Climate Quality Issues Organizations API
+  slug: open-codeclimate-organizations-api
+- collection_type: open
+  name: Code Climate Quality Issues Repositories API
+  slug: open-codeclimate-repositories-api
+- collection_type: open
+  name: Code Climate Quality Issues Services API
+  slug: open-codeclimate-services-api
+- collection_type: open
+  name: Code Climate Quality Issues Snapshots API
+  slug: open-codeclimate-snapshots-api
+- collection_type: open
+  name: Code Climate Quality Issues Test Coverage API
+  slug: open-codeclimate-test-coverage-api
 - collection_type: open
   name: Code Climate Quality API
   slug: open-codeclimate
@@ -131,7 +152,7 @@ plans:
 - name: Codeclimate Plans Pricing
   plan_count: 4
   slug: codeclimate-plans-pricing
-random_paper: 66
+random_paper: 103
 rate_limits:
 - limit_count: 3
   name: Codeclimate Rate Limits
@@ -156,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/screenshots/codeclimate-2026-07-25T205913.png
 security:

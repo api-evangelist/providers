@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 17
 apis:
 - description: RESTful API for Oracle Planning and Budgeting Cloud Service providing access to planning applications, data, and metadata. Use the Planning REST APIs to manage and execute jobs, work with members, app
@@ -180,7 +180,7 @@ plans:
 - name: Oracle Planning Plans Pricing
   plan_count: 3
   slug: oracle-planning-plans-pricing
-random_paper: 90
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Oracle Planning Rate Limits
@@ -198,7 +198,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-planning/refs/heads/main/screenshots/oracle-planning-2026-06-20T191139.png
 security:

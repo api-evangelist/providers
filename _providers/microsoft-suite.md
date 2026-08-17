@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -78,8 +78,32 @@ apis:
 - description: The Users API from Microsoft Suite — 6 operation(s) for users.
   name: Microsoft Suite Users API
   slug: microsoft-suite-users-api
-artifact_total: 21
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Graph Calendar API
+  slug: open-microsoft-suite-calendar-api
+- collection_type: open
+  name: Microsoft Graph Calendar Files API
+  slug: open-microsoft-suite-files-api
+- collection_type: open
+  name: Microsoft Graph Calendar Groups API
+  slug: open-microsoft-suite-groups-api
+- collection_type: open
+  name: Microsoft Graph Calendar Mail API
+  slug: open-microsoft-suite-mail-api
+- collection_type: open
+  name: Microsoft Graph Calendar Subscriptions API
+  slug: open-microsoft-suite-subscriptions-api
+- collection_type: open
+  name: Microsoft Graph Calendar Teams API
+  slug: open-microsoft-suite-teams-api
+- collection_type: open
+  name: Microsoft Graph Calendar Users API
+  slug: open-microsoft-suite-users-api
 - collection_type: open
   name: Microsoft Graph API
   slug: open-microsoft-suite
@@ -144,7 +168,7 @@ plans:
 - name: Microsoft Suite Plans Pricing
   plan_count: 3
   slug: microsoft-suite-plans-pricing
-random_paper: 21
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Microsoft Suite Rate Limits
@@ -174,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/screenshots/microsoft-suite-2026-06-20T185537.png
 security:

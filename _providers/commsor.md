@@ -13,14 +13,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -98,43 +98,75 @@ common:
   title: ''
   type: TrustCenter
   url: security/commsor-trust-center.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/commsor
+- group: build
+  title: ''
+  type: Packages
+  url: packages/commsor-packages.yml
+coverage:
+  checked: '2026-08-13'
+  detail: Commsor ships no developer program for its Go-to-Network product — the nav "Pricing" link 404s, the nav "Help Center" link 302s off-domain to docs.platform.clearslide.com, and the only public API reference anywhere under this company is a GitHub wiki page (the Titanoboa workflow engine's REST API, in Commsor's own org) that publishes no OpenAPI, Postman collection or schema.
+  evidence:
+  - status: 200
+    url: https://github.com/commsor/titanoboa/wiki/API-Documentation
+  - status: 200
+    url: https://dashboard.commsor.com/openapi.json
+  - status: 404
+    url: https://www.commsor.com/pricing
+  - status: 302
+    url: https://help.commsor.com/en/
+  - status: 404
+    url: https://www.commsor.com/.well-known/agent-card.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-08-04'
 description: Commsor is a go-to-network (GTN) platform for B2B revenue teams. It maps the collective relationship graph of a company's employees, executives, investors, advisors, customers and community, then surfaces the warmest path into a target account so sellers and marketers can source pipeline through trusted introductions and referrals instead of cold outbound. The platform ingests relationship and engagement data from connected systems (HubSpot CRM, uploaded lists, and other connectors), scores network signals against company events, and routes intro requests to the person best placed to make them. Commsor previously operated a community-operations analytics platform and publishes a knowledge base, a Go-to-Network methodology curriculum (GTN University), guides and a blog. It does not currently publish a public developer portal, OpenAPI definition, or self-serve API documentation; a legacy REST API was enabled per-account on request during the community-platform era, and a Zapier
   app remains the documented programmatic write path. On 2026-07-23 The Swarm announced it is acquiring Commsor and winding down the Commsor products, folding selected features into The Swarm; no product sunset date has been published and the application and status page remain live.
 image: https://cdn.prod.website-files.com/66d99f67e13dcd48af21215f/66fa7f64855ba4e9e0494fed_favicon_256x256.png
 layout: provider
-modified: '2026-08-04'
+modified: '2026-08-13'
 name: Commsor
 nav: Providers
 network: true
 overview: 'Commsor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Marketing, Go To Network, and Referrals.
 
 
-  Commsor''s developer surface includes signup flow, support, engineering blog, and 16 more developer resources.'
-random_paper: 48
+  Commsor''s developer surface includes signup flow, support, engineering blog, and 18 more developer resources.'
+plans:
+- name: Commsor Plans Pricing
+  plan_count: 0
+  slug: commsor-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Commsor Rate Limits
+  slug: commsor-rate-limits
 score:
   band: emerging
-  composite: 22.0
-  delta: 0.0
+  composite: 22.6
+  delta: 0.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 57.4
     governance: 12.5
-    operational_transparency: 26.3
+    operational_transparency: 31.6
   previous_composite: 22.0
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/screenshots/commsor-2026-08-07T163708.png
 security:
 - kind: domain-security
   name: Commsor Domain Security
   slug: commsor-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: vulnerability-disclosure
   name: Commsor Vulnerability Disclosure
   slug: commsor-vulnerability-disclosure

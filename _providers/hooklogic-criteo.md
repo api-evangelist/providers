@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 2
@@ -62,8 +62,72 @@ apis:
 - description: The Gateway API from HookLogic (Criteo) — 1 operation(s) for gateway.
   name: HookLogic (Criteo) Gateway API
   slug: hooklogic-criteo-gateway-api
-artifact_total: 14
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Criteo Accounts API
+  slug: open-hooklogic-criteo-accounts-api
+- collection_type: open
+  name: Criteo Accounts Analytics API
+  slug: open-hooklogic-criteo-analytics-api
+- collection_type: open
+  name: Criteo Accounts Audience API
+  slug: open-hooklogic-criteo-audience-api
+- collection_type: open
+  name: Criteo Accounts Balance API
+  slug: open-hooklogic-criteo-balance-api
+- collection_type: open
+  name: Criteo Accounts Billing API
+  slug: open-hooklogic-criteo-billing-api
+- collection_type: open
+  name: Criteo Accounts Campaign API
+  slug: open-hooklogic-criteo-campaign-api
+- collection_type: open
+  name: Criteo Accounts Catalog API
+  slug: open-hooklogic-criteo-catalog-api
+- collection_type: open
+  name: Criteo Accounts Gateway API
+  slug: open-hooklogic-criteo-gateway-api
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/hooklogic-criteo-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/hooklogic-criteo-trust-center.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/hooklogic-criteo-scopes.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/hooklogic-criteo-a2a.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/hooklogic-criteo-tool-crosswalk.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/hooklogic-criteo-plans-pricing.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/hooklogic-criteo-components.yml
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.criteo.com
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://developers.criteo.com/criteo-apis/docs/connect-to-the-api
 - group: other
   title: ''
   type: Overlay
@@ -204,25 +268,34 @@ mcp_servers:
 - description: ''
   name: hooklogic-criteo-mcp.yml
   slug: hooklogic-criteo-mcpyml
-modified: '2026-07-19'
+modified: '2026-08-13'
 name: HookLogic (Criteo)
 nav: Providers
 network: true
 overview: 'HookLogic (Criteo) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Audience API, and 5 more. Tagged areas include Company, Commerce, Retail Media, Advertising, and E-commerce.
 
 
-  HookLogic (Criteo)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 90
+  HookLogic (Criteo)''s developer surface includes quickstart, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 35 more developer resources.'
+plans:
+- name: Hooklogic Criteo Plans Pricing
+  plan_count: 0
+  slug: hooklogic-criteo-plans-pricing
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Hooklogic Criteo Rate Limits
   slug: hooklogic-criteo-rate-limits
+scopes:
+- name: Hooklogic Criteo Scopes
+  scope_count: 11
+  slug: hooklogic-criteo-scopes
+  summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 55.2
-  delta: 0.0
+  band: strong
+  composite: 58.4
+  delta: 3.2
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 50.0
     contract_quality: 52.3
     developer_ergonomics: 66.8
     discoverability: 92.6
@@ -240,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/screenshots/hooklogic-criteo-2026-07-25T221415.png
 security:
@@ -256,6 +329,10 @@ security:
   name: Hooklogic Criteo Vulnerability Disclosure
   slug: hooklogic-criteo-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Hooklogic Criteo Trust Center
+  slug: hooklogic-criteo-trust-center
+  summary_line: SOC 2, ISO 27001
 slug: hooklogic-criteo
 tags:
 - Company

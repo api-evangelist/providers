@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,18 +18,18 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-12'
-api_count: 6
+  score: 39.4
+  scored_at: '2026-08-17'
+api_count: 7
 apis:
 - description: The Insights API from ClearSlide — 1 operation(s) for insights.
   name: ClearSlide Insights API
@@ -49,7 +49,32 @@ apis:
 - description: The Users API from ClearSlide — 1 operation(s) for users.
   name: ClearSlide Users API
   slug: clearslide-users-api
-artifact_total: 11
+- description: ClearSlide's SCIM 2.0 (RFC 7644) user and group provisioning API, for automating directory sync from an identity provider. Serves /scim/ServiceProviderConfigs, /scim/Schemas (core User and Group), ful
+  name: ClearSlide SCIM API
+  slug: clearslide-scim-api
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClearSlide Platform Insights API
+  slug: open-clearslide-insights-api
+- collection_type: open
+  name: ClearSlide Platform Insights Links API
+  slug: open-clearslide-links-api
+- collection_type: open
+  name: ClearSlide Platform Insights Meetings API
+  slug: open-clearslide-meetings-api
+- collection_type: open
+  name: ClearSlide Platform Insights Presentations API
+  slug: open-clearslide-presentations-api
+- collection_type: open
+  name: ClearSlide Platform Insights Upload API
+  slug: open-clearslide-upload-api
+- collection_type: open
+  name: ClearSlide Platform Insights Users API
+  slug: open-clearslide-users-api
 common:
 - group: start
   title: ''
@@ -151,6 +176,50 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/clearslide-platform-api-swagger.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clearslide-platform-api-swagger-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clearslide-packages.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/clearslide-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/clearslide-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/clearslide-plans-pricing.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/clearslide-components.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ClearSlide
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.clearslide.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.clearslide.com/freetrial
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.clearslide.com/blog/
 created: '2026-07-17'
 description: ClearSlide is a sales engagement platform, now part of Bigtincan, that unifies content management, communications (email, web conferencing, screen share), and real-time engagement analytics so sales teams can make every buyer interaction count. Its public Platform API lets customers and partners programmatically list presentations, create trackable links, retrieve engagement insights, manage users (including SCIM provisioning), upload content to Amazon S3, and reserve and manage scheduled meetings. The API uses OAuth 2.0 and is documented on a public ReadMe developer portal at developer.clearslide.com. ClearSlide was originally an a16z-backed company and is profiled here in the API Evangelist network.
 image: https://www.clearslide.com/wp-content/themes/clearslide/images/logo.svg
@@ -159,31 +228,39 @@ mcp_servers:
 - description: ''
   name: clearslide-mcp.yml
   slug: clearslide-mcpyml
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: ClearSlide
 nav: Providers
 network: true
 overview: 'ClearSlide publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Insights API, Links API, Meetings API, and 3 more. Tagged areas include Company, Sales Engagement, Sales Enablement, Content Management, and Presentations.
 
 
-  ClearSlide''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, and 19 more developer resources.'
-random_paper: 88
+  ClearSlide''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, pricing, and 29 more developer resources.'
+plans:
+- name: Clearslide Plans Pricing
+  plan_count: 2
+  slug: clearslide-plans-pricing
+random_paper: 5
+rate_limits:
+- limit_count: 0
+  name: Clearslide Rate Limits
+  slug: clearslide-rate-limits
 scopes:
 - name: Clearslide Scopes
   scope_count: 2
   slug: clearslide-scopes
-  summary_line: 2 scopes · authorizationCode/password
+  summary_line: 2 scopes · authorizationCode/refreshToken
 score:
-  band: developing
-  composite: 47.4
-  delta: 0.0
+  band: strong
+  composite: 56.0
+  delta: 8.6
   facets:
-    commercial_clarity: 42.1
+    commercial_clarity: 73.7
     contract_quality: 56.7
-    developer_ergonomics: 53.8
-    discoverability: 81.5
+    developer_ergonomics: 56.0
+    discoverability: 92.6
     governance: 20.8
-    operational_transparency: 26.3
+    operational_transparency: 31.6
   previous_composite: 47.4
   provenance:
     conformance: first-party
@@ -195,8 +272,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/screenshots/clearslide-2026-07-25T205547.png
 security:
 - kind: authentication

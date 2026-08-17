@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Novartis
 nav: Providers
 network: true
 overview: Novartis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Healthcare, Biotechnology, Life Sciences, and Open Source Science.
-random_paper: 46
+random_paper: 141
 score:
   band: minimal
   composite: 6.0
@@ -80,7 +80,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novartis/refs/heads/main/screenshots/novartis-2026-06-20T190433.png
 security:

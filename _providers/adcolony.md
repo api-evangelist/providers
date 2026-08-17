@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -148,7 +148,7 @@ plans:
 - name: Adcolony Plans Pricing
   plan_count: 0
   slug: adcolony-plans-pricing
-random_paper: 17
+random_paper: 112
 rate_limits:
 - limit_count: 0
   name: Adcolony Rate Limits
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.8
-  delta: 23.7
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 51.6
@@ -164,10 +164,10 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 10.1
+  previous_composite: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adcolony/refs/heads/main/screenshots/adcolony-2026-07-25T181608.png
 security:
 - kind: domain-security

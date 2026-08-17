@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Scraping and crawling anticaptcha service
@@ -63,7 +63,7 @@ overview: 'ProxyCrawl publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   ProxyCrawl''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 35
+random_paper: 72
 score:
   band: minimal
   composite: 6.2
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proxycrawl/refs/heads/main/screenshots/proxycrawl-2026-06-20T192222.png
 security:

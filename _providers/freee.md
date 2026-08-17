@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -75,8 +75,47 @@ apis:
 - description: Wallet transactions / statement lines (明細) and walletables (口座).
   name: freee Wallet Transactions API
   slug: freee-wallet-transactions-api
-artifact_total: 19
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items API
+  slug: open-freee-account-items-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items Attendance API
+  slug: open-freee-attendance-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items Companies API
+  slug: open-freee-companies-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items Deals API
+  slug: open-freee-deals-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items Employees API
+  slug: open-freee-employees-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items HR Users API
+  slug: open-freee-hr-users-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items Invoices API
+  slug: open-freee-invoices-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items Journals API
+  slug: open-freee-journals-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items Partners API
+  slug: open-freee-partners-api
+- collection_type: open
+  name: freee API (Accounting and HR/) Account Items Payroll API
+  slug: open-freee-payroll-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items Taxes API
+  slug: open-freee-taxes-api
+- collection_type: open
+  name: freee API (Accounting and HR/Payroll) Account Items Wallet Transactions API
+  slug: open-freee-wallet-transactions-api
 - collection_type: open
   name: freee API (Accounting and HR/Payroll)
   slug: open-freee
@@ -141,7 +180,7 @@ plans:
 - name: Freee Plans Pricing
   plan_count: 5
   slug: freee-plans-pricing
-random_paper: 39
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Freee Rate Limits
@@ -166,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/screenshots/freee-2026-07-25T215132.png
 security:

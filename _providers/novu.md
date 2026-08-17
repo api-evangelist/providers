@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -134,7 +134,7 @@ arazzos:
 - description: Remove a set of subscribers from a topic, then list the remaining subscriptions to confirm.
   name: Novu Unsubscribe Subscribers From a Topic
   slug: novu-unsubscribe-from-topic-workflow
-artifact_total: 141
+artifact_total: 158
 asyncapis:
 - description: Real-time WebSocket interface used by the Novu Notification Center / Inbox (the `<Inbox />` React component, `@novu/react-native`, the headless `@novu/js` SDK, and any custom client). The transport is
   name: Novu Notification Center WebSocket API
@@ -143,6 +143,57 @@ collections:
 - collection_type: postman
   name: Novu API
   slug: postman-novu
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Novu Activity API
+  slug: open-novu-activity-api
+- collection_type: open
+  name: Novu Activity Channel Connections API
+  slug: open-novu-channel-connections-api
+- collection_type: open
+  name: Novu Activity Channel Endpoints API
+  slug: open-novu-channel-endpoints-api
+- collection_type: open
+  name: Novu Activity Contexts API
+  slug: open-novu-contexts-api
+- collection_type: open
+  name: Novu Activity Domains API
+  slug: open-novu-domains-api
+- collection_type: open
+  name: Novu Activity Environment Variables API
+  slug: open-novu-environment-variables-api
+- collection_type: open
+  name: Novu Activity Environments API
+  slug: open-novu-environments-api
+- collection_type: open
+  name: Novu Activity Events API
+  slug: open-novu-events-api
+- collection_type: open
+  name: Novu Activity Integrations API
+  slug: open-novu-integrations-api
+- collection_type: open
+  name: Novu Activity Layouts API
+  slug: open-novu-layouts-api
+- collection_type: open
+  name: Novu Activity Messages API
+  slug: open-novu-messages-api
+- collection_type: open
+  name: Novu Activity Notifications API
+  slug: open-novu-notifications-api
+- collection_type: open
+  name: Novu Activity Subscribers API
+  slug: open-novu-subscribers-api
+- collection_type: open
+  name: Novu Activity Topics API
+  slug: open-novu-topics-api
+- collection_type: open
+  name: Novu Activity Translations API
+  slug: open-novu-translations-api
+- collection_type: open
+  name: Novu Activity Workflows API
+  slug: open-novu-workflows-api
 - collection_type: open
   name: Novu API
   slug: open-novu
@@ -636,7 +687,7 @@ plans:
 - name: Novu Plans Pricing
   plan_count: 4
   slug: novu-plans-pricing
-random_paper: 96
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Novu Rate Limits
@@ -692,7 +743,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/screenshots/novu-2026-06-20T190442.png
 security:

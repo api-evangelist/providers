@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,7 +44,17 @@ apis:
 - description: Report builds and their status to Ketryx.
   name: Ketryx Builds API
   slug: ketryx-builds-api
-artifact_total: 7
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ketryx Build Artifacts API
+  slug: open-ketryx-artifacts-api
+- collection_type: open
+  name: Ketryx Build Artifacts Builds API
+  slug: open-ketryx-builds-api
 common:
 - group: other
   title: ''
@@ -158,7 +168,7 @@ overview: 'Ketryx publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Ketryx''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 79
+random_paper: 83
 score:
   band: thin
   composite: 38.9
@@ -188,7 +198,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/screenshots/ketryx-2026-07-25T223638.png
 security:

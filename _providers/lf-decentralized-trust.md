@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Programmatic access to LF Decentralized Trust blockchain frameworks, ledger APIs, and identity tools.
@@ -80,7 +80,7 @@ plans:
 - name: Lf Decentralized Trust Plans Pricing
   plan_count: 3
   slug: lf-decentralized-trust-plans-pricing
-random_paper: 92
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Lf Decentralized Trust Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-decentralized-trust/refs/heads/main/screenshots/lf-decentralized-trust-2026-06-20T184450.png
 security:

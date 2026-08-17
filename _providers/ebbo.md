@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -55,33 +55,63 @@ common:
   title: ''
   type: TermsOfService
   url: https://www.ebbo.com/terms-of-use/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ebbo.com/feed/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ebbo-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: Ebbo's Integration Management page markets "an advanced API framework" and lists "API documentation", "Permission-based access" and "Permission Throttling" as API resources, but links none of them — api., docs. and developer.ebbo.com do not resolve, every spec path 404s on www.ebbo.com, and the only route to the reference is the "Get in touch" contact form.
+  evidence:
+  - status: 200
+    url: https://www.ebbo.com/solutions/technology/integration/
+  - status: 404
+    url: https://www.ebbo.com/openapi.json
+  - status: 404
+    url: https://www.ebbo.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.ebbo.com/pricing/
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
 description: Ebbo is an enterprise loyalty and promotional marketing technology company that helps brands build lasting customer relationships and grow revenue through engagement. Its platform powers paid, tiered, and engagement-based loyalty programs alongside promotional overlays such as sweepstakes, instant wins, contests, and user-generated-content campaigns, supported by real-time performance dashboards, purchase validation, and advanced privacy and security controls. Ebbo pairs this technology with full-service program design, creative, program management, data analytics, rewards sourcing, and customer service for brands including T-Mobile, Lowe's, and FULLBEAUTY Brands. Backed by Norwest Venture Partners.
 image: https://www.ebbo.com/wp-content/themes/_ws/logo.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Ebbo
 nav: Providers
 network: true
 overview: 'Ebbo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Marketing Technology, Promotions, and Customer Engagement.
 
 
-  Ebbo''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 48
+  Ebbo''s developer surface includes engineering blog, support, and 6 more developer resources.'
+plans:
+- name: Ebbo Plans Pricing
+  plan_count: 0
+  slug: ebbo-plans-pricing
+random_paper: 110
+rate_limits:
+- limit_count: 0
+  name: Ebbo Rate Limits
+  slug: ebbo-rate-limits
 score:
   band: minimal
-  composite: 10.5
-  delta: 0.0
+  composite: 11.3
+  delta: 0.8
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebbo/refs/heads/main/screenshots/ebbo-2026-07-25T212725.png
 security:

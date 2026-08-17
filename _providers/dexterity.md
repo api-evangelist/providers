@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -50,11 +50,26 @@ apis:
 - description: Service health and operational endpoints.
   name: Dexterity System API
   slug: dexterity-system-api
-artifact_total: 54
+artifact_total: 59
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Dexterity Foresight Packing Challenge API
   slug: open-dexterity-foresight-packing-challenge
+- collection_type: open
+  name: Dexterity Foresight Packing Challenge Games API
+  slug: open-dexterity-games-api
+- collection_type: open
+  name: Dexterity Foresight Packing Challenge Games Leaderboard API
+  slug: open-dexterity-leaderboard-api
+- collection_type: open
+  name: Dexterity Foresight Packing Challenge Games Players API
+  slug: open-dexterity-players-api
+- collection_type: open
+  name: Dexterity Foresight Packing Challenge Games System API
+  slug: open-dexterity-system-api
 common:
 - group: agent
   title: ''
@@ -240,7 +255,7 @@ plans:
 - name: Dexterity Plans Pricing
   plan_count: 2
   slug: dexterity-plans-pricing
-random_paper: 34
+random_paper: 100
 rate_limits:
 - limit_count: 3
   name: Dexterity Rate Limits
@@ -282,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/screenshots/dexterity-2026-06-20T180009.png
 security:

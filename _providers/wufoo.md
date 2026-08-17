@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ arazzos:
 - description: Discover a form, read its field structure, then submit a new entry.
   name: Wufoo Submit a Form Entry
   slug: wufoo-submit-form-entry-workflow
-artifact_total: 54
+artifact_total: 64
 asyncapis:
 - description: Wufoo webhooks POST a form-submission payload to a subscriber URL the moment an entry is created. Each form supports up to 10 active webhooks. When the subscription is created with `metadata=true`, th
   name: Wufoo Webhooks
@@ -131,8 +131,38 @@ collections:
   name: Wufoo REST Comments Widgets API
   slug: postman-wufoo-widgets-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wufoo REST Comments API
+  slug: open-wufoo-comments-api
+- collection_type: open
+  name: Wufoo REST Comments Entries API
+  slug: open-wufoo-entries-api
+- collection_type: open
+  name: Wufoo REST Comments Fields API
+  slug: open-wufoo-fields-api
+- collection_type: open
+  name: Wufoo REST Comments Forms API
+  slug: open-wufoo-forms-api
+- collection_type: open
+  name: Wufoo REST Comments Login API
+  slug: open-wufoo-login-api
+- collection_type: open
+  name: Wufoo REST Comments Reports API
+  slug: open-wufoo-reports-api
+- collection_type: open
   name: Wufoo REST API
   slug: open-wufoo-rest-v3
+- collection_type: open
+  name: Wufoo REST Comments Users API
+  slug: open-wufoo-users-api
+- collection_type: open
+  name: Wufoo REST Comments Webhooks API
+  slug: open-wufoo-webhooks-api
+- collection_type: open
+  name: Wufoo REST Comments Widgets API
+  slug: open-wufoo-widgets-api
 common:
 - group: build
   title: ''
@@ -367,7 +397,7 @@ plans:
 - name: Wufoo Plans Pricing
   plan_count: 5
   slug: wufoo-plans-pricing
-random_paper: 80
+random_paper: 113
 rate_limits:
 - limit_count: 0
   name: Wufoo Rate Limits
@@ -423,7 +453,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/screenshots/wufoo-2026-06-20T201637.png
 security:

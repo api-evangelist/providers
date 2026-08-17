@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -75,11 +75,51 @@ apis:
 - description: The Verification Status API from Smile Identity — 1 operation(s) for verification status.
   name: Smile Identity Verification Status API
   slug: smile-identity-verification-status-api
-artifact_total: 17
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Smile Identity Verification Webhooks
   slug: smile-identity-verification-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smile ID V3 Authentication API
+  slug: open-smile-identity-authentication-api
+- collection_type: open
+  name: Smile ID V3 Authentication Biometric Authentication API
+  slug: open-smile-identity-biometric-authentication-api
+- collection_type: open
+  name: Smile ID V3 Authentication Biometric Enrollment API
+  slug: open-smile-identity-biometric-enrollment-api
+- collection_type: open
+  name: Smile ID V3 Authentication Biometric KYC API
+  slug: open-smile-identity-biometric-kyc-api
+- collection_type: open
+  name: Smile ID V3 Authentication Callback Replay API
+  slug: open-smile-identity-callback-replay-api
+- collection_type: open
+  name: Smile ID V3 Authentication Document Verification API
+  slug: open-smile-identity-document-verification-api
+- collection_type: open
+  name: Smile ID V3 Authentication Enhanced Document Verification API
+  slug: open-smile-identity-enhanced-document-verification-api
+- collection_type: open
+  name: Smile ID V3 Authentication Enhanced KYC API
+  slug: open-smile-identity-enhanced-kyc-api
+- collection_type: open
+  name: Smile ID V3 Authentication Services API
+  slug: open-smile-identity-services-api
+- collection_type: open
+  name: Smile ID V3 Authentication Smart Selfie Compare API
+  slug: open-smile-identity-smart-selfie-compare-api
+- collection_type: open
+  name: Smile ID V3 Authentication Users API
+  slug: open-smile-identity-users-api
+- collection_type: open
+  name: Smile ID V3 Authentication Verification Status API
+  slug: open-smile-identity-verification-status-api
 common:
 - group: other
   title: ''
@@ -224,7 +264,7 @@ overview: 'Smile Identity publishes 12 APIs on the [APIs.io](https://apis.io/) n
 
 
   Smile Identity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 24 more developer resources.'
-random_paper: 17
+random_paper: 116
 score:
   band: developing
   composite: 54.7
@@ -248,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

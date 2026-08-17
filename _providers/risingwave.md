@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,7 +56,20 @@ apis:
 - description: The Sql API from RisingWave — 1 operation(s) for sql.
   name: RisingWave Sql API
   slug: risingwave-sql-api
-artifact_total: 18
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RisingWave Events API
+  slug: open-risingwave-events-api
+- collection_type: open
+  name: RisingWave Events Healthz API
+  slug: open-risingwave-healthz-api
+- collection_type: open
+  name: RisingWave Events Sql API
+  slug: open-risingwave-sql-api
 common:
 - group: agent
   title: ''
@@ -157,7 +170,7 @@ plans:
 - name: Risingwave Plans Pricing
   plan_count: 4
   slug: risingwave-plans-pricing
-random_paper: 7
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Risingwave Rate Limits
@@ -191,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/screenshots/risingwave-2026-06-20T193128.png
 security:

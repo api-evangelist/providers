@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -63,8 +63,35 @@ apis:
 - description: Unified endpoints to access all the LMS concepts you might need.
   name: Kombo Unified LMS API API
   slug: kombo-unified-lms-api-api
-artifact_total: 661
+artifact_total: 670
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kombo AI Apply API
+  slug: open-kombo-ai-apply-api
+- collection_type: open
+  name: Kombo AI Apply Custom Endpoints API
+  slug: open-kombo-custom-endpoints-api
+- collection_type: open
+  name: Kombo AI Apply General API
+  slug: open-kombo-general-api
+- collection_type: open
+  name: Kombo AI Apply Kombo Connect API
+  slug: open-kombo-kombo-connect-api
+- collection_type: open
+  name: Kombo AI Apply Unified ATS API API
+  slug: open-kombo-unified-ats-api-api
+- collection_type: open
+  name: Kombo AI Apply Unified ATS (Assessment & Background Check) API API
+  slug: open-kombo-unified-ats-assessment-background-check-api-api
+- collection_type: open
+  name: Kombo AI Apply Unified HRIS API API
+  slug: open-kombo-unified-hris-api-api
+- collection_type: open
+  name: Kombo AI Apply Unified LMS API API
+  slug: open-kombo-unified-lms-api-api
 - collection_type: open
   name: Kombo API
   slug: open-kombo
@@ -2083,7 +2110,7 @@ plans:
 - name: Kombo Plans Pricing
   plan_count: 3
   slug: kombo-plans-pricing
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Kombo Rate Limits
@@ -2117,7 +2144,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/screenshots/kombo-2026-06-20T184122.png
 security:

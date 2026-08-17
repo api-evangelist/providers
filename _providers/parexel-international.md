@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Parexel Unveils New Industry Report
   url: https://newsroom.parexel.com/news-releases/news-release-details/parexel-unveils-new-industry-report-global-survey-more-500/
-random_paper: 38
+random_paper: 112
 score:
   band: minimal
   composite: 5.2
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parexel-international/refs/heads/main/screenshots/parexel-international-2026-06-20T191410.png
 security:

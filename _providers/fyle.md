@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: Webhook subscriptions and scheduled callbacks.
   name: Fyle Webhooks API
   slug: fyle-webhooks-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fyle Platform Advances API
+  slug: open-fyle-advances-api
+- collection_type: open
+  name: Fyle Platform Advances Categories API
+  slug: open-fyle-categories-api
+- collection_type: open
+  name: Fyle Platform Advances Corporate Cards API
+  slug: open-fyle-corporate-cards-api
+- collection_type: open
+  name: Fyle Platform Advances Cost Centers API
+  slug: open-fyle-cost-centers-api
+- collection_type: open
+  name: Fyle Platform Advances Employees API
+  slug: open-fyle-employees-api
+- collection_type: open
+  name: Fyle Platform Advances Expenses API
+  slug: open-fyle-expenses-api
+- collection_type: open
+  name: Fyle Platform Advances Files API
+  slug: open-fyle-files-api
+- collection_type: open
+  name: Fyle Platform Advances Merchants API
+  slug: open-fyle-merchants-api
+- collection_type: open
+  name: Fyle Platform Advances Projects API
+  slug: open-fyle-projects-api
+- collection_type: open
+  name: Fyle Platform Advances Reports API
+  slug: open-fyle-reports-api
+- collection_type: open
+  name: Fyle Platform Advances Webhooks API
+  slug: open-fyle-webhooks-api
 - collection_type: open
   name: Fyle Platform API
   slug: open-fyle
@@ -142,7 +178,7 @@ plans:
 - name: Fyle Plans Pricing
   plan_count: 3
   slug: fyle-plans-pricing
-random_paper: 72
+random_paper: 134
 rate_limits:
 - limit_count: 3
   name: Fyle Rate Limits
@@ -173,7 +209,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/screenshots/fyle-2026-07-25T215342.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 45
 apis:
 - description: The AD Base Entities API from SpecterOps — 3 operation(s) for ad base entities.
@@ -166,7 +166,146 @@ apis:
 - description: The Tasks API from SpecterOps — 9 operation(s) for tasks.
   name: SpecterOps Tasks API
   slug: specterops-tasks-api
-artifact_total: 50
+artifact_total: 96
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BloodHound AD Base Entities API
+  slug: open-specterops-ad-base-entities-api
+- collection_type: open
+  name: BloodHound AD Base Entities AD Users API
+  slug: open-specterops-ad-users-api
+- collection_type: open
+  name: BloodHound AD Base Entities AIA CAs API
+  slug: open-specterops-aia-cas-api
+- collection_type: open
+  name: BloodHound AD Base Entities Analysis API
+  slug: open-specterops-analysis-api
+- collection_type: open
+  name: BloodHound AD Base Entities API Info API
+  slug: open-specterops-api-info-api
+- collection_type: open
+  name: BloodHound AD Base Entities API Tokens API
+  slug: open-specterops-api-tokens-api
+- collection_type: open
+  name: BloodHound AD Base Entities Asset Isolation API
+  slug: open-specterops-asset-isolation-api
+- collection_type: open
+  name: BloodHound AD Base Entities Attack Paths API
+  slug: open-specterops-attack-paths-api
+- collection_type: open
+  name: BloodHound AD Base Entities Audit API
+  slug: open-specterops-audit-api
+- collection_type: open
+  name: BloodHound AD Base Entities Auth API
+  slug: open-specterops-auth-api
+- collection_type: open
+  name: BloodHound AD Base Entities Azure Entities API
+  slug: open-specterops-azure-entities-api
+- collection_type: open
+  name: BloodHound AD Base Entities BloodHound Users API
+  slug: open-specterops-bloodhound-users-api
+- collection_type: open
+  name: BloodHound AD Base Entities Cert Templates API
+  slug: open-specterops-cert-templates-api
+- collection_type: open
+  name: BloodHound AD Base Entities Client Ingest API
+  slug: open-specterops-client-ingest-api
+- collection_type: open
+  name: BloodHound AD Base Entities Clients API
+  slug: open-specterops-clients-api
+- collection_type: open
+  name: BloodHound AD Base Entities Collection Uploads API
+  slug: open-specterops-collection-uploads-api
+- collection_type: open
+  name: BloodHound AD Base Entities Collectors API
+  slug: open-specterops-collectors-api
+- collection_type: open
+  name: BloodHound AD Base Entities Community API
+  slug: open-specterops-community-api
+- collection_type: open
+  name: BloodHound AD Base Entities Computers API
+  slug: open-specterops-computers-api
+- collection_type: open
+  name: BloodHound AD Base Entities Config API
+  slug: open-specterops-config-api
+- collection_type: open
+  name: BloodHound AD Base Entities Containers API
+  slug: open-specterops-containers-api
+- collection_type: open
+  name: BloodHound AD Base Entities Custom Node Management API
+  slug: open-specterops-custom-node-management-api
+- collection_type: open
+  name: BloodHound AD Base Entities Cypher API
+  slug: open-specterops-cypher-api
+- collection_type: open
+  name: BloodHound AD Base Entities Data Quality API
+  slug: open-specterops-data-quality-api
+- collection_type: open
+  name: BloodHound AD Base Entities Database API
+  slug: open-specterops-database-api
+- collection_type: open
+  name: BloodHound AD Base Entities Datapipe API
+  slug: open-specterops-datapipe-api
+- collection_type: open
+  name: BloodHound AD Base Entities Domains API
+  slug: open-specterops-domains-api
+- collection_type: open
+  name: BloodHound AD Base Entities Enterprise API
+  slug: open-specterops-enterprise-api
+- collection_type: open
+  name: BloodHound AD Base Entities Enterprise CAs API
+  slug: open-specterops-enterprise-cas-api
+- collection_type: open
+  name: BloodHound AD Base Entities EULA API
+  slug: open-specterops-eula-api
+- collection_type: open
+  name: BloodHound AD Base Entities Events (Schedules) API
+  slug: open-specterops-events-schedules-api
+- collection_type: open
+  name: BloodHound AD Base Entities GPOs API
+  slug: open-specterops-gpos-api
+- collection_type: open
+  name: BloodHound AD Base Entities Graph API
+  slug: open-specterops-graph-api
+- collection_type: open
+  name: BloodHound AD Base Entities Groups API
+  slug: open-specterops-groups-api
+- collection_type: open
+  name: BloodHound AD Base Entities Jobs API
+  slug: open-specterops-jobs-api
+- collection_type: open
+  name: BloodHound AD Base Entities Meta Entities API
+  slug: open-specterops-meta-entities-api
+- collection_type: open
+  name: BloodHound AD Base Entities NT Auth Stores API
+  slug: open-specterops-nt-auth-stores-api
+- collection_type: open
+  name: BloodHound AD Base Entities OpenGraph (Experimental) API
+  slug: open-specterops-opengraph-experimental-api
+- collection_type: open
+  name: BloodHound AD Base Entities OUs API
+  slug: open-specterops-ous-api
+- collection_type: open
+  name: BloodHound AD Base Entities Permissions API
+  slug: open-specterops-permissions-api
+- collection_type: open
+  name: BloodHound AD Base Entities Risk Posture API
+  slug: open-specterops-risk-posture-api
+- collection_type: open
+  name: BloodHound AD Base Entities Roles API
+  slug: open-specterops-roles-api
+- collection_type: open
+  name: BloodHound AD Base Entities Root CAs API
+  slug: open-specterops-root-cas-api
+- collection_type: open
+  name: BloodHound AD Base Entities Search API
+  slug: open-specterops-search-api
+- collection_type: open
+  name: BloodHound AD Base Entities Tasks API
+  slug: open-specterops-tasks-api
 common:
 - group: start
   title: ''
@@ -304,7 +443,7 @@ overview: 'SpecterOps publishes 45 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   SpecterOps'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 16
+random_paper: 53
 score:
   band: developing
   composite: 51.5
@@ -327,7 +466,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

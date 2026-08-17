@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Ocient HTTP Query API API from Ocient — 10 operation(s) for ocient http query api.
@@ -28,7 +28,17 @@ apis:
 - description: The System Information REST Endpoints API from Ocient — 6 operation(s) for system information rest endpoints.
   name: Ocient System Information REST Endpoints API
   slug: ocient-system-information-rest-endpoints-api
-artifact_total: 6
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Generated API methods Ocient HTTP Query API API
+  slug: open-ocient-ocient-http-query-api-api
+- collection_type: open
+  name: Generated API methods System Information REST Endpoints API
+  slug: open-ocient-system-information-rest-endpoints-api
 common:
 - group: auth
   title: ''
@@ -190,7 +200,7 @@ overview: 'Ocient publishes 2 APIs on the [APIs.io](https://apis.io/) network: O
 
 
   Ocient''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 29 more developer resources.'
-random_paper: 42
+random_paper: 46
 score:
   band: developing
   composite: 51.1
@@ -213,7 +223,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/screenshots/ocient-2026-08-07T185927.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -116,7 +116,7 @@ overview: 'Lentra is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lentra''s developer surface includes engineering blog, YouTube channel, and 16 more developer resources.'
-random_paper: 46
+random_paper: 50
 score:
   band: emerging
   composite: 18.3
@@ -138,7 +138,7 @@ score:
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lentra/refs/heads/main/screenshots/lentra-2026-07-25T224920.png
 security:

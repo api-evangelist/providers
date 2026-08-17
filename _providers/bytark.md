@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: Video-on-demand records and playback in ByteArk Stream.
   name: ByteArk Videos API
   slug: bytark-videos-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ByteArk Live API
+  slug: open-bytark-live-api
+- collection_type: open
+  name: ByteArk Live Uploads API
+  slug: open-bytark-uploads-api
+- collection_type: open
+  name: ByteArk Live Videos API
+  slug: open-bytark-videos-api
 - collection_type: open
   name: ByteArk API
   slug: open-bytark
@@ -114,7 +126,7 @@ plans:
 - name: Bytark Plans Pricing
   plan_count: 4
   slug: bytark-plans-pricing
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Bytark Rate Limits
@@ -139,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/screenshots/bytark-2026-07-25T204141.png
 security:

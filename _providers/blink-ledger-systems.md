@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Browser SDK exposing window.blinkSDK. Provides Login with Blink (getAuthorizationCode), subscription entitlement checks (isSubscribed, getSubscription, onSubscriptionChange), single-article charging (
@@ -46,11 +46,24 @@ apis:
 - description: Blink user profile exchange.
   name: Blink Ledger Systems Users API
   slug: blink-ledger-systems-users-api
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Blink Ledger Systems Notifications Webhooks
   slug: blink-ledger-systems-notifications-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blink Server-Side Authentication API
+  slug: open-blink-ledger-systems-authentication-api
+- collection_type: open
+  name: Blink Server-Side Authentication OAuth Applications API
+  slug: open-blink-ledger-systems-oauth-applications-api
+- collection_type: open
+  name: Blink Server-Side Authentication Users API
+  slug: open-blink-ledger-systems-users-api
 common:
 - group: agent
   title: ''
@@ -179,7 +192,7 @@ overview: 'Blink Ledger Systems publishes 3 APIs on the [APIs.io](https://apis.i
 
 
   Blink Ledger Systems'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 20 more developer resources.'
-random_paper: 117
+random_paper: 100
 score:
   band: thin
   composite: 39.6
@@ -208,7 +221,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/screenshots/blink-ledger-systems-2026-07-25T203322.png
 security:

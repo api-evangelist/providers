@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: The Webhooks API from reducto-ai — 1 operation(s) for webhooks.
   name: reducto-ai Webhooks API
   slug: reducto-ai-webhooks-api
-artifact_total: 89
+artifact_total: 100
 collections:
 - collection_type: postman
   name: Reducto Classify API
@@ -101,6 +101,39 @@ collections:
 - collection_type: postman
   name: Reducto Classify Webhooks API
   slug: postman-reducto-ai-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reducto Classify API
+  slug: open-reducto-ai-classify-api
+- collection_type: open
+  name: Reducto Classify Edit API
+  slug: open-reducto-ai-edit-api
+- collection_type: open
+  name: Reducto Classify Extract API
+  slug: open-reducto-ai-extract-api
+- collection_type: open
+  name: Reducto Classify Jobs API
+  slug: open-reducto-ai-jobs-api
+- collection_type: open
+  name: Reducto Classify Parse API
+  slug: open-reducto-ai-parse-api
+- collection_type: open
+  name: Reducto Classify Pipeline API
+  slug: open-reducto-ai-pipeline-api
+- collection_type: open
+  name: Reducto Classify Platform API
+  slug: open-reducto-ai-platform-api
+- collection_type: open
+  name: Reducto Classify Split API
+  slug: open-reducto-ai-split-api
+- collection_type: open
+  name: Reducto Classify Upload API
+  slug: open-reducto-ai-upload-api
+- collection_type: open
+  name: Reducto Classify Webhooks API
+  slug: open-reducto-ai-webhooks-api
 - collection_type: open
   name: Reducto Classify API
   slug: open-reducto-classify-api
@@ -448,7 +481,7 @@ plans:
 - name: Reducto Plans Pricing
   plan_count: 3
   slug: reducto-plans-pricing
-random_paper: 45
+random_paper: 111
 rate_limits:
 - limit_count: 3
   name: Reducto Rate Limits
@@ -482,7 +515,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/screenshots/reducto-ai-2026-06-20T192741.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Kartra's inbound developer API. One endpoint, POST only, form-encoded, with the operation selected by `actions[].cmd`. Twenty-nine documented commands cover leads, tags, lists, automation sequences, c
@@ -175,7 +175,7 @@ plans:
 - name: Kartra Plans Pricing
   plan_count: 4
   slug: kartra-plans-pricing
-random_paper: 45
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Kartra Rate Limits
@@ -183,6 +183,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.2
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 51.6
@@ -190,6 +191,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 60.5
+  previous_composite: 60.2
   regulatory:
     applies: true
     matched_via: tags
@@ -197,7 +199,8 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Kartra Authentication

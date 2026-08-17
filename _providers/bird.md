@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,11 +69,47 @@ apis:
 - description: MessageBird’s SMS API allows you to send and receive SMS messages to and from any country in the world through a REST API. Each message is identified by a unique random ID so that users can always che
   name: Bird SMS Messaging API
   slug: bird-sms-messaging-api
-artifact_total: 26
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bird Channels API
+  slug: open-bird-channels-api
 - collection_type: open
   name: Bird API
   slug: open-bird-com
+- collection_type: open
+  name: Bird Channels Contacts API
+  slug: open-bird-contacts-api
+- collection_type: open
+  name: Bird Channels Conversations API
+  slug: open-bird-conversations-api
+- collection_type: open
+  name: Bird FAQ API
+  slug: open-bird-faq-api
+- collection_type: open
+  name: Bird FAQ Intent API
+  slug: open-bird-intent-api
+- collection_type: open
+  name: Bird FAQ LanguageDetection API
+  slug: open-bird-languagedetection-api
+- collection_type: open
+  name: Bird Channels Legacy MessageBird API
+  slug: open-bird-legacy-messagebird-api
+- collection_type: open
+  name: Bird Channels Messaging API
+  slug: open-bird-messaging-api
+- collection_type: open
+  name: Bird FAQ NamedEntityRecognition API
+  slug: open-bird-namedentityrecognition-api
+- collection_type: open
+  name: Bird Channels Numbers API
+  slug: open-bird-numbers-api
+- collection_type: open
+  name: Bird FAQ SMS Messaging API
+  slug: open-bird-sms-messaging-api
 common:
 - group: agent
   title: ''
@@ -188,7 +224,7 @@ plans:
 - name: Bird Plans Pricing
   plan_count: 3
   slug: bird-plans-pricing
-random_paper: 57
+random_paper: 119
 rate_limits:
 - limit_count: 0
   name: Bird Rate Limits
@@ -228,7 +264,7 @@ score:
     regime_id: telecommunications
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/screenshots/bird-2026-06-20T173301.png
 security:

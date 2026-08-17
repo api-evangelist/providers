@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,7 +52,20 @@ arazzos:
 - description: Search Orca Whirlpools for a token pair, then fetch full state for the top-matching pool. Read-only; runs against the open Orca Public REST API.
   name: Find an Orca pool by token pair and read its stats
   slug: orca-find-pool
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orca Public protocol API
+  slug: open-orca-protocol-api
+- collection_type: open
+  name: Orca Public protocol tokens API
+  slug: open-orca-tokens-api
+- collection_type: open
+  name: Orca Public protocol whirlpools API
+  slug: open-orca-whirlpools-api
 common:
 - group: agent
   title: ''
@@ -170,7 +183,7 @@ overview: 'Orca publishes 3 APIs on the [APIs.io](https://apis.io/) network: pro
 
 
   Orca''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 18 more developer resources.'
-random_paper: 61
+random_paper: 123
 score:
   band: thin
   composite: 41.3
@@ -194,7 +207,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/screenshots/orca-2026-08-07T190854.png
 security:

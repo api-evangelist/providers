@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -95,11 +95,75 @@ apis:
 - description: 'TM Forum TMF931 Open Gateway Operate API - Onboarding and Ordering 5.2.1, the GSMA-defined ''Operate API'' that channel partners and aggregators use to onboard against an operator: browse the API produc'
   name: TM Forum TMF931 Open Gateway Onboarding and Ordering API
   slug: tmf931-onboarding-ordering
-artifact_total: 29
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Open Gateway Webhooks
   slug: open-gateway-webhooks
+collections:
+- collection_type: open
+  name: Call Forwarding Signal
+  slug: open-camara-call-forwarding-signal
+- collection_type: open
+  name: Carrier Billing
+  slug: open-camara-carrier-billing
+- collection_type: open
+  name: Connected Network Type
+  slug: open-camara-connected-network-type
+- collection_type: open
+  name: Device Identifier
+  slug: open-camara-device-identifier
+- collection_type: open
+  name: Device Reachability Status
+  slug: open-camara-device-reachability-status
+- collection_type: open
+  name: Device Roaming Status
+  slug: open-camara-device-roaming-status
+- collection_type: open
+  name: Device Swap
+  slug: open-camara-device-swap
+- collection_type: open
+  name: Home Devices QoD
+  slug: open-camara-home-devices-qod
+- collection_type: open
+  name: Know Your Customer Age Verification
+  slug: open-camara-kyc-age-verification
+- collection_type: open
+  name: Know Your Customer Match
+  slug: open-camara-kyc-match
+- collection_type: open
+  name: KYC Tenure
+  slug: open-camara-kyc-tenure
+- collection_type: open
+  name: Device Location Retrieval
+  slug: open-camara-location-retrieval
+- collection_type: open
+  name: Device Location Verification
+  slug: open-camara-location-verification
+- collection_type: open
+  name: Number Verification
+  slug: open-camara-number-verification
+- collection_type: open
+  name: One Time Password SMS
+  slug: open-camara-one-time-password-sms
+- collection_type: open
+  name: Population Density Data
+  slug: open-camara-population-density-data
+- collection_type: open
+  name: QoS Profiles
+  slug: open-camara-qos-profiles
+- collection_type: open
+  name: Quality-On-Demand
+  slug: open-camara-quality-on-demand
+- collection_type: open
+  name: SIM Swap
+  slug: open-camara-sim-swap
+- collection_type: open
+  name: Simple Edge Discovery
+  slug: open-camara-simple-edge-discovery
+- collection_type: open
+  name: Open Gateway Operate API Onboarding and Ordering
+  slug: open-tmforum-tmf931-open-gateway-onboarding-ordering
 common:
 - group: agent
   title: ''
@@ -293,7 +357,7 @@ overview: 'GSMA Open Gateway publishes 22 APIs on the [APIs.io](https://apis.io/
 
 
   GSMA Open Gateway''s developer surface includes authentication, documentation, developer portal, privacy policy, sandbox, changelog, API reference, and 36 more developer resources.'
-random_paper: 33
+random_paper: 41
 scopes:
 - name: Open Gateway Scopes
   scope_count: 38
@@ -328,7 +392,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/screenshots/open-gateway-2026-08-07T190457.png
 security:

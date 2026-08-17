@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +65,35 @@ apis:
 - description: Policy source listing endpoints
   name: Kyverno Sources API
   slug: kyverno-sources-api
-artifact_total: 18
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kyverno Policy Reporter ClusterPolicyReports API
+  slug: open-kyverno-clusterpolicyreports-api
+- collection_type: open
+  name: Kyverno Policy Reporter ClusterPolicyReports Health API
+  slug: open-kyverno-health-api
+- collection_type: open
+  name: Kyverno Policy Reporter ClusterPolicyReports Namespaces API
+  slug: open-kyverno-namespaces-api
+- collection_type: open
+  name: Kyverno Policy Reporter ClusterPolicyReports Policies API
+  slug: open-kyverno-policies-api
 - collection_type: open
   name: Kyverno Policy Reporter API
   slug: open-kyverno-policy-reporter
+- collection_type: open
+  name: Kyverno Policy Reporter ClusterPolicyReports PolicyReports API
+  slug: open-kyverno-policyreports-api
+- collection_type: open
+  name: Kyverno Policy Reporter ClusterPolicyReports Results API
+  slug: open-kyverno-results-api
+- collection_type: open
+  name: Kyverno Policy Reporter ClusterPolicyReports Sources API
+  slug: open-kyverno-sources-api
 common:
 - group: operate
   title: ''
@@ -183,7 +207,7 @@ plans:
 - name: Kyverno Plans Pricing
   plan_count: 3
   slug: kyverno-plans-pricing
-random_paper: 62
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Kyverno Rate Limits
@@ -223,7 +247,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/screenshots/kyverno-2026-06-20T184228.png
 security:

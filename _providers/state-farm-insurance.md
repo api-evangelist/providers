@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,8 +57,20 @@ apis:
 - description: Renters insurance quote operations
   name: State Farm Insurance Quotes API
   slug: state-farm-insurance-quotes-api
-artifact_total: 21
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: State Farm Insurance Renters Coverage API
+  slug: open-state-farm-insurance-coverage-api
+- collection_type: open
+  name: State Farm Insurance Renters Coverage Policies API
+  slug: open-state-farm-insurance-policies-api
+- collection_type: open
+  name: State Farm Insurance Renters Coverage Quotes API
+  slug: open-state-farm-insurance-quotes-api
 - collection_type: open
   name: State Farm Insurance Renters API
   slug: open-state-farm-insurance-renters
@@ -186,7 +198,7 @@ plans:
 - name: State Farm Insurance Plans Pricing
   plan_count: 1
   slug: state-farm-insurance-plans-pricing
-random_paper: 105
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: State Farm Insurance Rate Limits
@@ -233,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance/refs/heads/main/screenshots/state-farm-insurance-2026-06-20T194522.png
 security:

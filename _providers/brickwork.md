@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -137,7 +137,110 @@ apis:
 - description: The Utilities API from Brickwork — 1 operation(s) for utilities.
   name: Brickwork Utilities API
   slug: brickwork-utilities-api
-artifact_total: 37
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Brickwork Admin Appointments API
+  slug: open-brickwork-admin-appointments-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Company Users API
+  slug: open-brickwork-admin-company-users-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Customer Appointments API
+  slug: open-brickwork-admin-customer-appointments-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Customer Rsvps API
+  slug: open-brickwork-admin-customer-rsvps-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Customers API
+  slug: open-brickwork-admin-customers-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Event Rsvps API
+  slug: open-brickwork-admin-event-rsvps-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Events API
+  slug: open-brickwork-admin-events-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Features API
+  slug: open-brickwork-admin-features-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Groups API
+  slug: open-brickwork-admin-groups-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Languages API
+  slug: open-brickwork-admin-languages-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Question Answers API
+  slug: open-brickwork-admin-question-answers-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Questions API
+  slug: open-brickwork-admin-questions-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Rsvps API
+  slug: open-brickwork-admin-rsvps-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Services API
+  slug: open-brickwork-admin-services-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Store Alerts API
+  slug: open-brickwork-admin-store-alerts-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Store Event Rsvps API
+  slug: open-brickwork-admin-store-event-rsvps-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Store Events API
+  slug: open-brickwork-admin-store-events-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Store Images API
+  slug: open-brickwork-admin-store-images-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Store Regular Hours API
+  slug: open-brickwork-admin-store-regular-hours-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Store Services API
+  slug: open-brickwork-admin-store-services-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Store Special Hours API
+  slug: open-brickwork-admin-store-special-hours-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Store Types API
+  slug: open-brickwork-admin-store-types-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Stores API
+  slug: open-brickwork-admin-stores-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin Transactions API
+  slug: open-brickwork-admin-transactions-api
+- collection_type: open
+  name: Brickwork Admin Appointments Admin User Hours API
+  slug: open-brickwork-admin-user-hours-api
+- collection_type: open
+  name: Brickwork Admin Appointments Events API
+  slug: open-brickwork-events-api
+- collection_type: open
+  name: Brickwork Admin Appointments Front End Stores API
+  slug: open-brickwork-front-end-stores-api
+- collection_type: open
+  name: Brickwork Admin Appointments Questions API
+  slug: open-brickwork-questions-api
+- collection_type: open
+  name: Brickwork Admin Appointments Service Appointments API
+  slug: open-brickwork-service-appointments-api
+- collection_type: open
+  name: Brickwork Admin Appointments Services API
+  slug: open-brickwork-services-api
+- collection_type: open
+  name: Brickwork Admin Appointments Store Events API
+  slug: open-brickwork-store-events-api
+- collection_type: open
+  name: Brickwork Admin Appointments Store Services API
+  slug: open-brickwork-store-services-api
+- collection_type: open
+  name: Brickwork Admin Appointments Utilities API
+  slug: open-brickwork-utilities-api
 common:
 - group: other
   title: ''
@@ -235,7 +338,7 @@ overview: 'Brickwork publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brickwork''s developer surface includes documentation, API reference, pricing, support, authentication, and 15 more developer resources.'
-random_paper: 14
+random_paper: 80
 score:
   band: thin
   composite: 38.3
@@ -259,7 +362,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/screenshots/brickwork-2026-07-25T203804.png
 security:

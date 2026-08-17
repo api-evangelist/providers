@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -119,11 +119,96 @@ apis:
 - description: The Yields API from Spiko — 3 operation(s) for yields.
   name: Spiko Yields API
   slug: spiko-yields-api
-artifact_total: 33
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Spiko Distributor Webhooks
   slug: spiko-distributor-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spiko Distributor Account transactions API
+  slug: open-spiko-account-transactions-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Accounting positions API
+  slug: open-spiko-accounting-positions-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Accounts API
+  slug: open-spiko-accounts-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Bank accounts API
+  slug: open-spiko-bank-accounts-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Deposit orders API
+  slug: open-spiko-deposit-orders-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Distributor investor contracts API
+  slug: open-spiko-distributor-investor-contracts-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Distributors API
+  slug: open-spiko-distributors-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Exchange Rates API
+  slug: open-spiko-exchange-rates-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Fund Assets API
+  slug: open-spiko-fund-assets-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Funds API
+  slug: open-spiko-funds-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Index Values API
+  slug: open-spiko-index-values-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Investor Documents API
+  slug: open-spiko-investor-documents-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Investor tokens API
+  slug: open-spiko-investor-tokens-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Investors API
+  slug: open-spiko-investors-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Net Asset Values API
+  slug: open-spiko-net-asset-values-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Portfolio API
+  slug: open-spiko-portfolio-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Portfolios API
+  slug: open-spiko-portfolios-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Redemption Orders (deprecated) API
+  slug: open-spiko-redemption-orders-deprecated-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Share Classes API
+  slug: open-spiko-share-classes-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Subscription Orders (deprecated) API
+  slug: open-spiko-subscription-orders-deprecated-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Transfer Orders API
+  slug: open-spiko-transfer-orders-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Users API
+  slug: open-spiko-users-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Wallets API
+  slug: open-spiko-wallets-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Webhook Configurations API
+  slug: open-spiko-webhook-configurations-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Webhook Events API
+  slug: open-spiko-webhook-events-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Withdrawal orders API
+  slug: open-spiko-withdrawal-orders-api
+- collection_type: open
+  name: Spiko Distributor Account transactions Yields API
+  slug: open-spiko-yields-api
 common:
 - group: company
   title: ''
@@ -284,7 +369,7 @@ overview: 'Spiko publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spiko''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 70
+random_paper: 103
 scopes:
 - name: Spiko Scopes
   scope_count: 3
@@ -319,7 +404,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

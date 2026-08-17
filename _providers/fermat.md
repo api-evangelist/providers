@@ -1,35 +1,50 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Customer only
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://www.fermatcommerce.com/pricing (301 to root)
+  - https://help.fermatcommerce.com/en/articles/14431099-fermat-mcp-connect-your-commerce-data-to-ai-tools
+  - https://help.fermatcommerce.com/en/articles/14280269-fermat-pixel-v2-installation-guide-direct-script-google-tag-manager
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 52.7
+  scored_at: '2026-08-17'
+api_count: 2
+apis:
+- description: Remote Model Context Protocol server exposing 64 read-only tools over FERMAT commerce data — product catalog, funnel analytics, ad performance, destination insights, experiments, session and behaviora
+  name: FERMAT Platform MCP Server
+  slug: fermat-platform-mcp-server
+- description: First-party browser ES module (claire.mjs) a brand embeds to emit commerce telemetry to FERMAT. Exposes a window.fermat command queue with init, track and status methods, and six documented events — p
+  name: FERMAT Pixel v2
+  slug: fermat-pixel-v2
+artifact_total: 8
+asyncapis:
+- description: 'Browser-to-FERMAT commerce telemetry. A brand installs the FERMAT Pixel v2 and calls window.fermat({ method: "track", eventName, properties }) for each of the six documented commerce events. Events ar'
+  name: FERMAT Pixel v2 Event Ingest
+  slug: fermat-pixel-asyncapi
 common:
 - group: company
   title: ''
@@ -87,38 +102,129 @@ common:
   title: ''
   type: DomainSecurity
   url: security/fermat-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.fermatcommerce.com/en/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://mcp.fermatcommerce.com/mcp/fermat-mcp
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.fermatcommerce.com/en/articles/14431099-fermat-mcp-connect-your-commerce-data-to-ai-tools
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/fermat-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/fermat-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/fermat-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/fermat-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/fermat-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/fermat-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/fermat-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fermat-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/fermat-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/fermat-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/fermat-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/fermat-data-model.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/fermat-pixel-asyncapi.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fermat-llms.txt
 created: '2026-07-17'
 description: FERMÀT is an AI-native commerce platform that consolidates the shopper analytics, personalization, and experimentation stack into a single agentic system for direct-to-consumer and enterprise brands. It runs a closed loop — detect shopper behavior, recommend revenue-optimizing actions, generate adaptive storefront experiences and product pages, then feed performance signals back into detection — replacing tools like FullStory, Amplitude, Algolia, and Optimizely. FERMÀT integrates with ecommerce platforms including Shopify Plus, Salesforce Commerce Cloud, Adobe Commerce, and Oracle ATG via batch and streaming data syncs, and serves brands such as Glossier, GNC, Backcountry, AWAY, Travelpro, and TONAL. Surfaced as a portfolio company of Bain Capital Ventures, Greylock, and QED Investors.
 image: https://www.fermatcommerce.com/assets/marketing/brand/open-graph.png
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: fermat-mcp.yml
+  slug: fermat-mcpyml
+modified: '2026-08-13'
 name: Fermat
 nav: Providers
 network: true
-overview: 'Fermat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Ecommerce, Personalization, and Analytics.
+overview: 'Fermat publishes 1 API on the [APIs.io](https://apis.io/) network: Pixel v2. Tagged areas include Company, Commerce, Ecommerce, Personalization, and Analytics.
 
 
-  Fermat''s developer surface includes engineering blog, support, changelog, and 11 more developer resources.'
-random_paper: 39
+  The Fermat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Fermat''s developer surface includes engineering blog, support, changelog, documentation, API reference, getting-started guide, authentication, and 25 more developer resources.'
+plans:
+- name: Fermat Plans Pricing
+  plan_count: 0
+  slug: fermat-plans-pricing
+random_paper: 43
+rate_limits:
+- limit_count: 0
+  name: Fermat Rate Limits
+  slug: fermat-rate-limits
 score:
-  band: emerging
-  composite: 18.3
-  delta: 0.0
+  band: developing
+  composite: 45.0
+  delta: 26.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
+    contract_quality: 49.4
+    developer_ergonomics: 65.2
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 15.8
   previous_composite: 18.3
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fermat/refs/heads/main/screenshots/fermat-2026-07-25T214339.png
 security:
+- kind: authentication
+  name: Fermat Authentication
+  slug: fermat-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Fermat Domain Security
   slug: fermat-domain-security
@@ -133,5 +239,10 @@ tags:
 - Conversion Rate Optimization
 - AI
 - Merchandising
+- MCP
+- Agentic Commerce
+- Session Replay
+- Experimentation
+- Attribution
 website: https://www.fermatcommerce.com/
 ---

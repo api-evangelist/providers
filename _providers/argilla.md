@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -84,7 +84,56 @@ apis:
 - description: The workspaces API from Argilla — 5 operation(s) for workspaces.
   name: Argilla workspaces API
   slug: argilla-workspaces-api
-artifact_total: 37
+artifact_total: 53
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Argilla v1 Authentication API
+  slug: open-argilla-authentication-api
+- collection_type: open
+  name: Argilla v1 Authentication datasets API
+  slug: open-argilla-datasets-api
+- collection_type: open
+  name: Argilla v1 Authentication fields API
+  slug: open-argilla-fields-api
+- collection_type: open
+  name: Argilla v1 Authentication info API
+  slug: open-argilla-info-api
+- collection_type: open
+  name: Argilla v1 Authentication jobs API
+  slug: open-argilla-jobs-api
+- collection_type: open
+  name: Argilla v1 Authentication metadata properties API
+  slug: open-argilla-metadata-properties-api
+- collection_type: open
+  name: Argilla v1 Authentication questions API
+  slug: open-argilla-questions-api
+- collection_type: open
+  name: Argilla v1 Authentication records API
+  slug: open-argilla-records-api
+- collection_type: open
+  name: Argilla v1 Authentication responses API
+  slug: open-argilla-responses-api
+- collection_type: open
+  name: Argilla v1 Authentication settings API
+  slug: open-argilla-settings-api
+- collection_type: open
+  name: Argilla v1 Authentication suggestions API
+  slug: open-argilla-suggestions-api
+- collection_type: open
+  name: Argilla v1 Authentication users API
+  slug: open-argilla-users-api
+- collection_type: open
+  name: Argilla v1 Authentication vectors-settings API
+  slug: open-argilla-vectors-settings-api
+- collection_type: open
+  name: Argilla v1 Authentication webhooks API
+  slug: open-argilla-webhooks-api
+- collection_type: open
+  name: Argilla v1 Authentication workspaces API
+  slug: open-argilla-workspaces-api
 common:
 - group: agent
   title: ''
@@ -222,7 +271,7 @@ plans:
 - name: Argilla Plans Pricing
   plan_count: 2
   slug: argilla-plans-pricing
-random_paper: 12
+random_paper: 136
 rate_limits:
 - limit_count: 2
   name: Argilla Rate Limits
@@ -256,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/screenshots/argilla-2026-06-20T172416.png
 security:

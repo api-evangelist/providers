@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The LinuxBoot project's build system and tooling for replacing UEFI DXE with a Linux kernel-based boot environment. Includes integrations with coreboot/LinuxBoot and UEFI PEI/LinuxBoot configurations.
@@ -87,7 +87,7 @@ plans:
 - name: Linuxboot Plans Pricing
   plan_count: 3
   slug: linuxboot-plans-pricing
-random_paper: 36
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Linuxboot Rate Limits
@@ -105,7 +105,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linuxboot/refs/heads/main/screenshots/linuxboot-2026-06-20T184553.png
 security:

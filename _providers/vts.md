@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -134,7 +134,107 @@ apis:
 - description: The Users API from VTS — 2 operation(s) for users.
   name: VTS Users API
   slug: vts-users-api
-artifact_total: 37
+artifact_total: 70
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VTS Lease Account Admin API
+  slug: open-vts-account-admin-api
+- collection_type: open
+  name: VTS Lease Account Admin Appraisals API
+  slug: open-vts-appraisals-api
+- collection_type: open
+  name: VTS Lease Account Admin Approvals API
+  slug: open-vts-approvals-api
+- collection_type: open
+  name: VTS Lease Account Admin Assets API
+  slug: open-vts-assets-api
+- collection_type: open
+  name: VTS Lease Account Admin Auth2.0 Access Token API
+  slug: open-vts-auth2-0-access-token-api
+- collection_type: open
+  name: VTS Lease Account Admin Blended Budgets API
+  slug: open-vts-blended-budgets-api
+- collection_type: open
+  name: VTS Lease Account Admin Broker API
+  slug: open-vts-broker-api
+- collection_type: open
+  name: VTS Lease Account Admin Budgets API
+  slug: open-vts-budgets-api
+- collection_type: open
+  name: VTS Lease Account Admin Coordination Projects API
+  slug: open-vts-coordination-projects-api
+- collection_type: open
+  name: VTS Lease Account Admin Deal Comments API
+  slug: open-vts-deal-comments-api
+- collection_type: open
+  name: VTS Lease Account Admin Deal Iterations API
+  slug: open-vts-deal-iterations-api
+- collection_type: open
+  name: VTS Lease Account Admin Deal Snapshots API
+  slug: open-vts-deal-snapshots-api
+- collection_type: open
+  name: VTS Lease Account Admin Deal Tasks API
+  slug: open-vts-deal-tasks-api
+- collection_type: open
+  name: VTS Lease Account Admin Deal Terms API
+  slug: open-vts-deal-terms-api
+- collection_type: open
+  name: VTS Lease Account Admin Deal Tours API
+  slug: open-vts-deal-tours-api
+- collection_type: open
+  name: VTS Lease Account Admin Deals API
+  slug: open-vts-deals-api
+- collection_type: open
+  name: VTS Lease Account Admin Delinquencies API
+  slug: open-vts-delinquencies-api
+- collection_type: open
+  name: VTS Lease Account Admin Download Links API
+  slug: open-vts-download-links-api
+- collection_type: open
+  name: VTS Lease Account Admin Financials API
+  slug: open-vts-financials-api
+- collection_type: open
+  name: VTS Lease Account Admin Global Tenants API
+  slug: open-vts-global-tenants-api
+- collection_type: open
+  name: VTS Lease Account Admin Lease Terms API
+  slug: open-vts-lease-terms-api
+- collection_type: open
+  name: VTS Lease Account Admin Leases API
+  slug: open-vts-leases-api
+- collection_type: open
+  name: VTS Lease Account Admin Leasing Availability API
+  slug: open-vts-leasing-availability-api
+- collection_type: open
+  name: VTS Lease Account Admin Options API
+  slug: open-vts-options-api
+- collection_type: open
+  name: VTS Lease Account Admin Proposals API
+  slug: open-vts-proposals-api
+- collection_type: open
+  name: VTS Lease Account Admin Retail Sales API
+  slug: open-vts-retail-sales-api
+- collection_type: open
+  name: VTS Lease Account Admin Spaces API
+  slug: open-vts-spaces-api
+- collection_type: open
+  name: VTS Lease Account Admin Tenant Contacts API
+  slug: open-vts-tenant-contacts-api
+- collection_type: open
+  name: VTS Lease Account Admin Tenant Industries API
+  slug: open-vts-tenant-industries-api
+- collection_type: open
+  name: VTS Lease Account Admin Tenant Updates API
+  slug: open-vts-tenant-updates-api
+- collection_type: open
+  name: VTS Lease Account Admin Tenants API
+  slug: open-vts-tenants-api
+- collection_type: open
+  name: VTS Lease Account Admin Users API
+  slug: open-vts-users-api
 common:
 - group: company
   title: ''
@@ -268,7 +368,7 @@ overview: 'VTS publishes 32 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 22 more developer resources.'
-random_paper: 109
+random_paper: 51
 scopes:
 - name: Vts Scopes
   scope_count: 4
@@ -297,7 +397,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

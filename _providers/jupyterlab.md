@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,11 +60,32 @@ apis:
 - description: JupyterLab user workspaces.
   name: JupyterLab Workspaces API
   slug: jupyterlab-workspaces-api
-artifact_total: 19
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JupyterLab Server REST Licenses API
+  slug: open-jupyterlab-licenses-api
+- collection_type: open
+  name: JupyterLab Server REST Licenses Listings API
+  slug: open-jupyterlab-listings-api
 - collection_type: open
   name: JupyterLab Server REST API
   slug: open-jupyterlab-server-rest-api
+- collection_type: open
+  name: JupyterLab Server REST Licenses Settings API
+  slug: open-jupyterlab-settings-api
+- collection_type: open
+  name: JupyterLab Server REST Licenses Themes API
+  slug: open-jupyterlab-themes-api
+- collection_type: open
+  name: JupyterLab Server REST Licenses Translations API
+  slug: open-jupyterlab-translations-api
+- collection_type: open
+  name: JupyterLab Server REST Licenses Workspaces API
+  slug: open-jupyterlab-workspaces-api
 common:
 - group: operate
   title: ''
@@ -181,7 +202,7 @@ plans:
 - name: Jupyterlab Plans Pricing
   plan_count: 3
   slug: jupyterlab-plans-pricing
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Jupyterlab Rate Limits
@@ -215,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/screenshots/jupyterlab-2026-06-20T183842.png
 security:

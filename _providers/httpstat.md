@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,8 +44,17 @@ apis:
 - description: The Random API from Httpstat.us — 1 operation(s) for random.
   name: Httpstat.us Random API
   slug: httpstat-random-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Httpstat API
+  slug: open-httpstat-httpstat-api
+- collection_type: open
+  name: Httpstat Random API
+  slug: open-httpstat-random-api
 - collection_type: open
   name: httpstat
   slug: open-httpstat
@@ -94,7 +103,7 @@ plans:
 - name: Httpstat Plans Pricing
   plan_count: 3
   slug: httpstat-plans-pricing
-random_paper: 52
+random_paper: 147
 rate_limits:
 - limit_count: 5
   name: Httpstat Rate Limits
@@ -134,7 +143,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

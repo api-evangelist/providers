@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -51,7 +51,41 @@ apis:
 - description: The `team` custom post type. Registered and reachable, but empty (X-WP-Total 0) — the Team page is authored as page markup.
   name: Kriya Therapeutics Team API
   slug: kriya-therapeutics-team-api
-artifact_total: 12
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kriya Therapeutics Content Discovery API
+  slug: open-kriya-therapeutics-discovery-api
+- collection_type: open
+  name: Kriya Therapeutics Content Forms API
+  slug: open-kriya-therapeutics-forms-api
+- collection_type: open
+  name: Kriya Therapeutics Content Media API
+  slug: open-kriya-therapeutics-media-api
+- collection_type: open
+  name: Kriya Therapeutics Content News API
+  slug: open-kriya-therapeutics-news-api
+- collection_type: open
+  name: Kriya Therapeutics Content Oembed API
+  slug: open-kriya-therapeutics-oembed-api
+- collection_type: open
+  name: Kriya Therapeutics Content Pages API
+  slug: open-kriya-therapeutics-pages-api
+- collection_type: open
+  name: Kriya Therapeutics Content Posts API
+  slug: open-kriya-therapeutics-posts-api
+- collection_type: open
+  name: Kriya Therapeutics Content Search API
+  slug: open-kriya-therapeutics-search-api
+- collection_type: open
+  name: Kriya Therapeutics Content Taxonomy API
+  slug: open-kriya-therapeutics-taxonomy-api
+- collection_type: open
+  name: Kriya Therapeutics Content Team API
+  slug: open-kriya-therapeutics-team-api
 common:
 - group: other
   title: ''
@@ -186,7 +220,7 @@ overview: 'Kriya Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io
 
 
   Kriya Therapeutics'' developer surface includes product news, support, authentication, and 27 more developer resources.'
-random_paper: 86
+random_paper: 98
 score:
   band: thin
   composite: 30.6
@@ -214,7 +248,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/screenshots/kriya-therapeutics-2026-08-07T171340.png
 security:

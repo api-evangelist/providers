@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -72,7 +72,7 @@ apis:
 - description: 'APIs for deploying websites. We handle node modules caching, scaling, certificates and the whole end to end process. Send the code using the [deploy](#tag/web/POST/web/v1/deploy) endpoint, and you''ll '
   name: Freestyle Web API
   slug: freestyle-sh-web-api
-artifact_total: 87
+artifact_total: 99
 collections:
 - collection_type: postman
   name: Freestyle Cron Auth API
@@ -108,6 +108,9 @@ collections:
   name: Freestyle Cron Auth Web API
   slug: postman-freestyle-sh-web-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Freestyle Cron API
   slug: open-freestyle-cron-api
 - collection_type: open
@@ -125,6 +128,39 @@ collections:
 - collection_type: open
   name: Freestyle Observability API
   slug: open-freestyle-observability-api
+- collection_type: open
+  name: Freestyle Cron Auth API
+  slug: open-freestyle-sh-auth-api
+- collection_type: open
+  name: Freestyle Cron Auth Certs API
+  slug: open-freestyle-sh-certs-api
+- collection_type: open
+  name: Freestyle Auth Cron API
+  slug: open-freestyle-sh-cron-api
+- collection_type: open
+  name: Freestyle Cron Auth DNS API
+  slug: open-freestyle-sh-dns-api
+- collection_type: open
+  name: Freestyle Cron Auth Domains API
+  slug: open-freestyle-sh-domains-api
+- collection_type: open
+  name: Freestyle Cron Auth Execute API
+  slug: open-freestyle-sh-execute-api
+- collection_type: open
+  name: Freestyle Cron Auth Git API
+  slug: open-freestyle-sh-git-api
+- collection_type: open
+  name: Freestyle Cron Auth Identity API
+  slug: open-freestyle-sh-identity-api
+- collection_type: open
+  name: Freestyle Cron Auth Observability API
+  slug: open-freestyle-sh-observability-api
+- collection_type: open
+  name: Freestyle Cron Auth VM API
+  slug: open-freestyle-sh-vm-api
+- collection_type: open
+  name: Freestyle Cron Auth Web API
+  slug: open-freestyle-sh-web-api
 - collection_type: open
   name: Freestyle VMs API
   slug: open-freestyle-vm-api
@@ -402,7 +438,7 @@ plans:
 - name: Freestyle Sh Plans Pricing
   plan_count: 5
   slug: freestyle-sh-plans-pricing
-random_paper: 43
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Freestyle Sh Rate Limits
@@ -436,7 +472,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/screenshots/freestyle-sh-2026-06-20T181533.png
 security:

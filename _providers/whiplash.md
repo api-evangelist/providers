@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: Simulation endpoints for testing order, consumer return, and shipnotice processing in sandbox environments
   name: Whiplash Simulate API
   slug: whiplash-simulate-api
-artifact_total: 28
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items API
+  slug: open-whiplash-bundle-items-api
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items Consumer Returns API
+  slug: open-whiplash-consumer-returns-api
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items Customers API
+  slug: open-whiplash-customers-api
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items Documents API
+  slug: open-whiplash-documents-api
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items API
+  slug: open-whiplash-items-api
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items Notification Events API
+  slug: open-whiplash-notification-events-api
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items Notification Subscriptions API
+  slug: open-whiplash-notification-subscriptions-api
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items Orders API
+  slug: open-whiplash-orders-api
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items Shipnotices API
+  slug: open-whiplash-shipnotices-api
+- collection_type: open
+  name: Whiplash (Rydership) Bundle Items Simulate API
+  slug: open-whiplash-simulate-api
 common:
 - group: agent
   title: ''
@@ -187,7 +221,7 @@ plans:
 - name: Whiplash Plans Pricing
   plan_count: 1
   slug: whiplash-plans-pricing
-random_paper: 24
+random_paper: 119
 rate_limits:
 - limit_count: 2
   name: Whiplash Rate Limits
@@ -221,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/screenshots/whiplash-2026-06-20T201434.png
 security:

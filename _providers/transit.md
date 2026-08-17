@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,32 @@ apis:
 - description: Multimodal trip planning and results
   name: Transit Trips API
   slug: transit-trips-api
-artifact_total: 23
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Transit Alerts API
+  slug: open-transit-alerts-api
+- collection_type: open
+  name: Transit Alerts Departures API
+  slug: open-transit-departures-api
+- collection_type: open
+  name: Transit Alerts Mobility API
+  slug: open-transit-mobility-api
+- collection_type: open
+  name: Transit Alerts Networks API
+  slug: open-transit-networks-api
+- collection_type: open
+  name: Transit Alerts Routes API
+  slug: open-transit-routes-api
+- collection_type: open
+  name: Transit Alerts Stops API
+  slug: open-transit-stops-api
+- collection_type: open
+  name: Transit Alerts Trips API
+  slug: open-transit-trips-api
 - collection_type: open
   name: Transit API
   slug: open-transit
@@ -179,7 +203,7 @@ plans:
 - name: Transit Plans Pricing
   plan_count: 3
   slug: transit-plans-pricing
-random_paper: 53
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Transit Rate Limits
@@ -221,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/screenshots/transit-2026-06-20T195544.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -108,7 +108,83 @@ apis:
 - description: The Uploads API from Capmo — 3 operation(s) for uploads.
   name: Capmo Uploads API
   slug: capmo-uploads-api
-artifact_total: 27
+artifact_total: 52
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Capmo REST Organisation Companies API
+  slug: open-capmo-organisation-companies-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Organisation Memberships API
+  slug: open-capmo-organisation-memberships-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Organisation People API
+  slug: open-capmo-organisation-people-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Organisation Projects API
+  slug: open-capmo-organisation-projects-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Other API
+  slug: open-capmo-other-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Change Orders API
+  slug: open-capmo-project-change-orders-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Companies API
+  slug: open-capmo-project-companies-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Documents API
+  slug: open-capmo-project-documents-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Memberships API
+  slug: open-capmo-project-memberships-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project People API
+  slug: open-capmo-project-people-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Permission Sets API
+  slug: open-capmo-project-permission-sets-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Plans API
+  slug: open-capmo-project-plans-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Room Listings API
+  slug: open-capmo-project-room-listings-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Site Journals API
+  slug: open-capmo-project-site-journals-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Templates API
+  slug: open-capmo-project-templates-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Ticket Attachments API
+  slug: open-capmo-project-ticket-attachments-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Ticket Categories API
+  slug: open-capmo-project-ticket-categories-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Ticket Comments API
+  slug: open-capmo-project-ticket-comments-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Ticket Tags API
+  slug: open-capmo-project-ticket-tags-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Ticket Types API
+  slug: open-capmo-project-ticket-types-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Project Tickets API
+  slug: open-capmo-project-tickets-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Projects API
+  slug: open-capmo-projects-api
+- collection_type: open
+  name: Capmo REST Organisation Companies Uploads API
+  slug: open-capmo-uploads-api
+- collection_type: open
+  name: Capmo Webhook API
+  slug: open-capmo-webhook-api-openapi-original
 common:
 - group: company
   title: ''
@@ -242,7 +318,7 @@ overview: 'Capmo publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Capmo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 48
+random_paper: 81
 score:
   band: developing
   composite: 48.3
@@ -266,7 +342,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/screenshots/capmo-2026-07-25T204431.png
 security:

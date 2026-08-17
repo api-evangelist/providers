@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -71,11 +71,24 @@ apis:
 - description: Federal Aviation Administration Airport Status Web Service from Federal Aviation Administration — 2 path(s) described in OpenAPI.
   name: Federal Aviation Administration Airport Status Web Service
   slug: faa-airport-status-web-service-openapi
-artifact_total: 22
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Faa Swim Event Surface
   slug: faa-swim-event-surface
+collections:
+- collection_type: open
+  name: Aeronautic Product Release API
+  slug: open-faa-aeronautic-product-release-api
+- collection_type: open
+  name: PRD Air Carrier API
+  slug: open-faa-air-carrier-prd-api
+- collection_type: open
+  name: Airport Status Web Service
+  slug: open-faa-airport-status-web-service
+- collection_type: open
+  name: sas-api
+  slug: open-faa-safety-assurance-system-api
 common:
 - group: agent
   title: ''
@@ -285,7 +298,7 @@ plans:
 - name: Faa Plans
   plan_count: 5
   slug: faa-plans
-random_paper: 56
+random_paper: 147
 rate_limits:
 - limit_count: 1
   name: Faa Rate Limits
@@ -319,7 +332,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/screenshots/faa-2026-08-07T165207.png
 security:

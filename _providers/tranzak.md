@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 4
 apis:
 - description: 'REST API for collecting payments from customers via mobile money (MTN MOMO, Orange Money), QR code in-store payments, and web redirect checkout. Supports direct mobile wallet charges, payment request '
@@ -113,7 +113,7 @@ plans:
 - name: Tranzak Plans Pricing
   plan_count: 3
   slug: tranzak-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Tranzak Rate Limits
@@ -137,7 +137,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tranzak/refs/heads/main/screenshots/tranzak-2026-06-20T195635.png
 security:

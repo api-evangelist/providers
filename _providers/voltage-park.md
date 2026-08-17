@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 7
@@ -60,8 +60,32 @@ apis:
 - description: Deploy and manage on-demand GPU virtual machines and instant VMs.
   name: Voltage Park Virtual Machines API
   slug: voltage-park-virtual-machines-api
-artifact_total: 15
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Voltage Park On-Demand Bare Metal API
+  slug: open-voltage-park-bare-metal-api
+- collection_type: open
+  name: Voltage Park On-Demand Bare Metal Billing API
+  slug: open-voltage-park-billing-api
+- collection_type: open
+  name: Voltage Park On-Demand Bare Metal Locations API
+  slug: open-voltage-park-locations-api
+- collection_type: open
+  name: Voltage Park On-Demand Bare Metal Organization API
+  slug: open-voltage-park-organization-api
+- collection_type: open
+  name: Voltage Park On-Demand Bare Metal Storage API
+  slug: open-voltage-park-storage-api
+- collection_type: open
+  name: Voltage Park On-Demand Bare Metal Validation API
+  slug: open-voltage-park-validation-api
+- collection_type: open
+  name: Voltage Park On-Demand Bare Metal Virtual Machines API
+  slug: open-voltage-park-virtual-machines-api
 - collection_type: open
   name: Voltage Park On-Demand API
   slug: open-voltage-park
@@ -130,7 +154,7 @@ plans:
 - name: Voltage Park Plans Pricing
   plan_count: 2
   slug: voltage-park-plans-pricing
-random_paper: 29
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Voltage Park Rate Limits
@@ -155,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API over the Ahrefs data set — Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, SERP Overview, Batch Analysis, Brand Radar, Web Analytics, GSC Insights, Social Media Management, Manage
@@ -27,7 +27,47 @@ apis:
 - description: Ahrefs' hosted, remote Model Context Protocol server, which lets AI agents query the Ahrefs API on behalf of a signed-in Ahrefs account. Streamable HTTP transport, OAuth 2.0 with PKCE (scope apiv3-mcp
   name: Ahrefs MCP Server
   slug: mcp
-artifact_total: 9
+artifact_total: 22
+collections:
+- collection_type: open
+  name: Batch Analysis
+  slug: open-ahrefs-batch-analysis
+- collection_type: open
+  name: Brand Radar
+  slug: open-ahrefs-brand-radar
+- collection_type: open
+  name: GSC Insights
+  slug: open-ahrefs-gsc
+- collection_type: open
+  name: Keywords Explorer
+  slug: open-ahrefs-keywords-explorer
+- collection_type: open
+  name: Management
+  slug: open-ahrefs-management
+- collection_type: open
+  name: Public
+  slug: open-ahrefs-public
+- collection_type: open
+  name: Rank Tracker
+  slug: open-ahrefs-rank-tracker
+- collection_type: open
+  name: SERP Overview
+  slug: open-ahrefs-serp-overview
+- collection_type: open
+  name: Site Audit
+  slug: open-ahrefs-site-audit
+- collection_type: open
+  name: Site Explorer
+  slug: open-ahrefs-site-explorer
+- collection_type: open
+  name: Social Media
+  slug: open-ahrefs-social-media
+- collection_type: open
+  name: Subscription Information
+  slug: open-ahrefs-subscription-info
+- collection_type: open
+  name: Web Analytics
+  slug: open-ahrefs-web-analytics
 common:
 - group: company
   title: ''
@@ -173,7 +213,7 @@ plans:
 - name: Ahrefs Plans Pricing
   plan_count: 6
   slug: ahrefs-plans-pricing
-random_paper: 33
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Ahrefs Rate Limits
@@ -186,6 +226,7 @@ scopes:
 score:
   band: strong
   composite: 58.5
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 32.3
@@ -193,8 +234,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 50.0
+  previous_composite: 58.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Ahrefs Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,11 +44,18 @@ apis:
 - description: RESTful (non-FHIR) terminology API from Canada Health Infoway for browsing and downloading Canadian terminology content - code systems, subsets (value sets), maps, resource locations, and packages - w
   name: Infoway Terminology Service API
   slug: infoway-terminology-service-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Canada Health Infoway Notifications Webhooks
   slug: canada-health-infoway-notifications-webhooks
+collections:
+- collection_type: open
+  name: Terminology FHIR API
+  slug: open-infoway-fhir-terminology-service-api
+- collection_type: open
+  name: Terminology API
+  slug: open-infoway-terminology-service-api
 common:
 - group: auth
   title: ''
@@ -170,7 +177,7 @@ overview: 'Canada Health Infoway publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Canada Health Infoway''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 20 more developer resources.'
-random_paper: 45
+random_paper: 148
 score:
   band: thin
   composite: 38.3
@@ -200,7 +207,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png
 security:

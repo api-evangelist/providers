@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -146,7 +146,119 @@ apis:
 - description: 'The #X Amz Target=AppRunner.UpdateVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.updatevpcingressconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.UpdateVpcIngressConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-updatevpcingressconnection-api
-artifact_total: 595
+artifact_total: 632
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AWS App Runner Amazon App Runner AWS App Runner API API
+  slug: open-amazon-app-runner-amazon-app-runner-aws-app-runner-api-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.AssociateCustomDomain API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-associatecustomdomain-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.CreateAutoScalingConfiguration API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-createautoscalingconfiguration-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.CreateConnection API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-createconnection-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.CreateObservabilityConfiguration API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-createobservabilityconfiguration-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.CreateService API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-createservice-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.CreateVpcConnector API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-createvpcconnector-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.CreateVpcIngressConnection API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-createvpcingressconnection-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DeleteAutoScalingConfiguration API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-deleteautoscalingconfiguration-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DeleteConnection API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-deleteconnection-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DeleteObservabilityConfiguration API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-deleteobservabilityconfiguration-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DeleteService API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-deleteservice-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DeleteVpcConnector API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-deletevpcconnector-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DeleteVpcIngressConnection API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-deletevpcingressconnection-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DescribeAutoScalingConfiguration API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-describeautoscalingconfiguration-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DescribeCustomDomains API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-describecustomdomains-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DescribeObservabilityConfiguration API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-describeobservabilityconfiguration-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DescribeService API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-describeservice-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DescribeVpcConnector API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-describevpcconnector-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DescribeVpcIngressConnection API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-describevpcingressconnection-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.DisassociateCustomDomain API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-disassociatecustomdomain-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.ListAutoScalingConfigurations API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-listautoscalingconfigurations-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.ListConnections API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-listconnections-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.ListObservabilityConfigurations API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-listobservabilityconfigurations-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.ListOperations API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-listoperations-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.ListServices API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-listservices-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.ListTagsForResource API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-listtagsforresource-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.ListVpcConnectors API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-listvpcconnectors-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.ListVpcIngressConnections API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-listvpcingressconnections-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.PauseService API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-pauseservice-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.ResumeService API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-resumeservice-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.StartDeployment API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-startdeployment-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.TagResource API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-tagresource-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.UntagResource API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-untagresource-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.UpdateService API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-updateservice-api
+- collection_type: open
+  name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.UpdateVpcIngressConnection API'
+  slug: open-amazon-app-runner-x-amz-target-apprunner-updatevpcingressconnection-api
 common:
 - group: agent
   title: ''
@@ -1937,7 +2049,7 @@ overview: 'Amazon App Runner publishes 36 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
-random_paper: 43
+random_paper: 84
 rules:
 - name: Amazon App Runner API Rules
   rule_count: 6
@@ -1977,7 +2089,7 @@ score:
       total: 36
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/screenshots/amazon-app-runner-2026-07-25T195915.png
 security:

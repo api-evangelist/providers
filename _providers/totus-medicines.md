@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'Totus Medicines is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Totus Medicines'' developer surface includes product news, support, and 14 more developer resources.'
-random_paper: 5
+random_paper: 75
 score:
   band: minimal
   composite: 9.3
@@ -121,7 +121,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 9.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

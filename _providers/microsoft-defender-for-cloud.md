@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,8 +53,23 @@ apis:
 - description: Secure score operations
   name: Microsoft Defender for Cloud SecureScores API
   slug: microsoft-defender-for-cloud-securescores-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Defender for Cloud REST Alerts API
+  slug: open-microsoft-defender-for-cloud-alerts-api
+- collection_type: open
+  name: Microsoft Defender for Cloud REST Alerts Assessments API
+  slug: open-microsoft-defender-for-cloud-assessments-api
+- collection_type: open
+  name: Microsoft Defender for Cloud REST Alerts Pricings API
+  slug: open-microsoft-defender-for-cloud-pricings-api
+- collection_type: open
+  name: Microsoft Defender for Cloud REST Alerts SecureScores API
+  slug: open-microsoft-defender-for-cloud-securescores-api
 - collection_type: open
   name: Microsoft Defender for Cloud REST API
   slug: open-microsoft-defender-for-cloud
@@ -123,7 +138,7 @@ overview: 'Microsoft Defender for Cloud publishes 4 APIs on the [APIs.io](https:
 
 
   Microsoft Defender for Cloud''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 48
+random_paper: 126
 scopes:
 - name: Microsoft Defender For Cloud Scopes
   scope_count: 1
@@ -149,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/screenshots/microsoft-defender-for-cloud-2026-06-20T185451.png
 security:

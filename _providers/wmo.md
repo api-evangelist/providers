@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,7 +65,26 @@ apis:
 - description: WIS2 discovery metadata
   name: World Meteorological Organization wis2-discovery-metadata API
   slug: wmo-wis2-discovery-metadata-api
-artifact_total: 15
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meteorological Service of Canada Global Discovery Catalogue (GDC) jobs API
+  slug: open-wmo-jobs-api
+- collection_type: open
+  name: Meteorological Service of Canada Global Discovery Catalogue (GDC) jobs pywcmp-wis2-wcmp2-ets API
+  slug: open-wmo-pywcmp-wis2-wcmp2-ets-api
+- collection_type: open
+  name: Meteorological Service of Canada Global Discovery Catalogue (GDC) jobs pywcmp-wis2-wcmp2-kpi API
+  slug: open-wmo-pywcmp-wis2-wcmp2-kpi-api
+- collection_type: open
+  name: Meteorological Service of Canada Global Discovery Catalogue (GDC) jobs server API
+  slug: open-wmo-server-api
+- collection_type: open
+  name: Meteorological Service of Canada Global Discovery Catalogue (GDC) jobs wis2-discovery-metadata API
+  slug: open-wmo-wis2-discovery-metadata-api
 common:
 - group: agent
   title: ''
@@ -143,7 +162,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 99
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -174,7 +193,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/screenshots/wmo-2026-06-20T201531.png
 security:

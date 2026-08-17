@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: CarMD's vehicle API provides access to code definitions, vehicle images, and diagnostics for predicting upcoming vehicle issues.
@@ -69,7 +69,7 @@ plans:
 - name: Carmd Plans Pricing
   plan_count: 3
   slug: carmd-plans-pricing
-random_paper: 39
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Carmd Rate Limits
@@ -87,7 +87,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/screenshots/carmd-2026-06-20T174011.png
 security:

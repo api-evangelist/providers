@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -83,11 +83,60 @@ apis:
 - description: Wallet endpoints
   name: Hifi Wallet API
   slug: hifi-wallet-api
-artifact_total: 20
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Hifi Webhooks
   slug: hifi-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hifi Account API
+  slug: open-hifi-account-api
+- collection_type: open
+  name: Hifi Account Common API
+  slug: open-hifi-common-api
+- collection_type: open
+  name: Hifi Account Cross-Chain Bridge API
+  slug: open-hifi-cross-chain-bridge-api
+- collection_type: open
+  name: Hifi Account Crypto Transfer API
+  slug: open-hifi-crypto-transfer-api
+- collection_type: open
+  name: Hifi Account File API
+  slug: open-hifi-file-api
+- collection_type: open
+  name: Hifi Account Kyc API
+  slug: open-hifi-kyc-api
+- collection_type: open
+  name: Hifi Account Offramp API
+  slug: open-hifi-offramp-api
+- collection_type: open
+  name: Hifi Account Onramp API
+  slug: open-hifi-onramp-api
+- collection_type: open
+  name: Hifi Account Reporting API
+  slug: open-hifi-reporting-api
+- collection_type: open
+  name: Hifi Account Settlement Rules API
+  slug: open-hifi-settlement-rules-api
+- collection_type: open
+  name: Hifi Account Token Swap API
+  slug: open-hifi-token-swap-api
+- collection_type: open
+  name: Hifi Account Transfer Approvals API
+  slug: open-hifi-transfer-approvals-api
+- collection_type: open
+  name: Hifi Account User API
+  slug: open-hifi-user-api
+- collection_type: open
+  name: Hifi Account Virtual Account API
+  slug: open-hifi-virtual-account-api
+- collection_type: open
+  name: Hifi Account Wallet API
+  slug: open-hifi-wallet-api
 common:
 - group: auth
   title: ''
@@ -224,7 +273,7 @@ overview: 'Hifi publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hifi''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 56
+random_paper: 118
 score:
   band: developing
   composite: 47.3
@@ -254,7 +303,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/screenshots/hifi-2026-07-25T221141.png
 security:

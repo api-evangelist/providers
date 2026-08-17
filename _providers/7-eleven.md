@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 19
 common:
@@ -108,7 +108,7 @@ plans:
 - name: 7 Eleven Plans Pricing
   plan_count: 1
   slug: 7-eleven-plans-pricing
-random_paper: 19
+random_paper: 143
 rate_limits:
 - limit_count: 1
   name: 7 Eleven Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/screenshots/7-eleven-2026-06-20T162752.png
 security:

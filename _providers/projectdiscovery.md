@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 20
 apis:
 - description: The Asset API from ProjectDiscovery — 8 operation(s) for asset.
@@ -91,7 +91,71 @@ apis:
 - description: The Vulnerability API from ProjectDiscovery — 4 operation(s) for vulnerability.
   name: ProjectDiscovery Vulnerability API
   slug: projectdiscovery-vulnerability-api
-artifact_total: 25
+artifact_total: 46
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: PDCP Asset API
+  slug: open-projectdiscovery-asset-api
+- collection_type: open
+  name: PDCP Asset assets API
+  slug: open-projectdiscovery-assets-api
+- collection_type: open
+  name: PDCP Asset chaos API
+  slug: open-projectdiscovery-chaos-api
+- collection_type: open
+  name: PDCP Asset configurations API
+  slug: open-projectdiscovery-configurations-api
+- collection_type: open
+  name: PDCP Asset enumerations API
+  slug: open-projectdiscovery-enumerations-api
+- collection_type: open
+  name: PDCP Asset export API
+  slug: open-projectdiscovery-export-api
+- collection_type: open
+  name: PDCP Asset history API
+  slug: open-projectdiscovery-history-api
+- collection_type: open
+  name: PDCP Asset internal API
+  slug: open-projectdiscovery-internal-api
+- collection_type: open
+  name: PDCP Asset Leaks API
+  slug: open-projectdiscovery-leaks-api
+- collection_type: open
+  name: PDCP Asset results API
+  slug: open-projectdiscovery-results-api
+- collection_type: open
+  name: PDCP Asset retests API
+  slug: open-projectdiscovery-retests-api
+- collection_type: open
+  name: PDCP Asset scan_log API
+  slug: open-projectdiscovery-scan-log-api
+- collection_type: open
+  name: PDCP Asset scans API
+  slug: open-projectdiscovery-scans-api
+- collection_type: open
+  name: PDCP Asset Team API
+  slug: open-projectdiscovery-team-api
+- collection_type: open
+  name: PDCP Asset Template API
+  slug: open-projectdiscovery-template-api
+- collection_type: open
+  name: PDCP Asset template/v2 API
+  slug: open-projectdiscovery-template-v2-api
+- collection_type: open
+  name: PDCP Asset templates API
+  slug: open-projectdiscovery-templates-api
+- collection_type: open
+  name: PDCP Asset users API
+  slug: open-projectdiscovery-users-api
+- collection_type: open
+  name: PDCP Asset vuln API
+  slug: open-projectdiscovery-vuln-api
+- collection_type: open
+  name: PDCP Asset Vulnerability API
+  slug: open-projectdiscovery-vulnerability-api
 common:
 - group: other
   title: ''
@@ -233,7 +297,7 @@ overview: 'ProjectDiscovery publishes 20 APIs on the [APIs.io](https://apis.io/)
 
 
   ProjectDiscovery''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 63
+random_paper: 104
 score:
   band: developing
   composite: 53.5
@@ -256,7 +320,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ apis:
 - description: PEXA Projects API from PEXA — 10 path(s) described in OpenAPI.
   name: PEXA Projects API
   slug: pexa-projects-api-v4-openapi
-artifact_total: 17
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Pexa Notification Webhooks
@@ -64,6 +64,12 @@ collections:
 - collection_type: postman
   name: Standalone Discharge Experience API
   slug: postman-pexa-standalone-discharge-experience-api
+- collection_type: open
+  name: PEXA Exchange API
+  slug: open-pexa-exchange-api-legacy-swagger
+- collection_type: open
+  name: PEXA Exchange API
+  slug: open-pexa-exchange-api-swagger
 common:
 - group: build
   title: ''
@@ -293,7 +299,7 @@ overview: 'PEXA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   PEXA''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 45 more developer resources.'
-random_paper: 70
+random_paper: 132
 scopes:
 - name: Pexa Scopes
   scope_count: 11
@@ -322,7 +328,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/screenshots/pexa-2026-07-27T125357.png
 security:

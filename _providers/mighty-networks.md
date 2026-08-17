@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -117,7 +117,86 @@ apis:
 - description: Manage tags for your network
   name: Mighty Networks Tags API
   slug: mighty-networks-tags-api
-artifact_total: 32
+artifact_total: 58
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports API
+  slug: open-mighty-networks-abusereports-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Answers API
+  slug: open-mighty-networks-answers-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Assets API
+  slug: open-mighty-networks-assets-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Badges API
+  slug: open-mighty-networks-badges-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Collections API
+  slug: open-mighty-networks-collections-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Comments API
+  slug: open-mighty-networks-comments-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Courseworks API
+  slug: open-mighty-networks-courseworks-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports CustomFields API
+  slug: open-mighty-networks-customfields-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Events API
+  slug: open-mighty-networks-events-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Invites API
+  slug: open-mighty-networks-invites-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Me API
+  slug: open-mighty-networks-me-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Members API
+  slug: open-mighty-networks-members-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Mute API
+  slug: open-mighty-networks-mute-api
+- collection_type: open
+  name: The Mighty Admin AbuseReports Networks API
+  slug: open-mighty-networks-networks-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Options API
+  slug: open-mighty-networks-options-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports PasswordResets API
+  slug: open-mighty-networks-passwordresets-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Plans API
+  slug: open-mighty-networks-plans-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Polls API
+  slug: open-mighty-networks-polls-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Posts API
+  slug: open-mighty-networks-posts-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Purchases API
+  slug: open-mighty-networks-purchases-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Reactions API
+  slug: open-mighty-networks-reactions-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Rsvps API
+  slug: open-mighty-networks-rsvps-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Spaces API
+  slug: open-mighty-networks-spaces-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Subscriptions API
+  slug: open-mighty-networks-subscriptions-api
+- collection_type: open
+  name: The Mighty Networks Admin AbuseReports Tags API
+  slug: open-mighty-networks-tags-api
 common:
 - group: agent
   title: ''
@@ -179,7 +258,7 @@ plans:
 - name: Mighty Networks Plans Pricing
   plan_count: 4
   slug: mighty-networks-plans-pricing
-random_paper: 36
+random_paper: 106
 rate_limits:
 - limit_count: 0
   name: Mighty Networks Rate Limits
@@ -204,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/screenshots/mighty-networks-2026-08-07T172903.png
 security:

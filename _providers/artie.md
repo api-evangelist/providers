@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -65,11 +65,42 @@ apis:
 - description: The SSH Tunnels API from Artie — 2 operation(s) for ssh tunnels.
   name: Artie SSH Tunnels API
   slug: artie-ssh-tunnels-api
-artifact_total: 14
+artifact_total: 24
 asyncapis:
 - description: Webhook event surface for Artie, derived from the webhook payload schemas published in the Artie OpenAPI. Artie POSTs an Event Payload (PayloadsWebhookEnvelope / discriminated by the `event` field) to
   name: Artie Webhooks
   slug: artie-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Artie Column Hashing Salts API
+  slug: open-artie-column-hashing-salts-api
+- collection_type: open
+  name: Artie Column Hashing Salts Connectors API
+  slug: open-artie-connectors-api
+- collection_type: open
+  name: Artie Column Hashing Salts Data Catalog API
+  slug: open-artie-data-catalog-api
+- collection_type: open
+  name: Artie Column Hashing Salts Encryption Keys API
+  slug: open-artie-encryption-keys-api
+- collection_type: open
+  name: Artie Column Hashing Salts Ingestion API Keys API
+  slug: open-artie-ingestion-api-keys-api
+- collection_type: open
+  name: Artie Column Hashing Salts Pipelines API
+  slug: open-artie-pipelines-api
+- collection_type: open
+  name: Artie Column Hashing Salts PrivateLink Connections API
+  slug: open-artie-privatelink-connections-api
+- collection_type: open
+  name: Artie Column Hashing Salts Source Readers API
+  slug: open-artie-source-readers-api
+- collection_type: open
+  name: Artie Column Hashing Salts SSH Tunnels API
+  slug: open-artie-ssh-tunnels-api
 common:
 - group: other
   title: ''
@@ -218,7 +249,7 @@ overview: 'Artie publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 53
+random_paper: 86
 score:
   band: developing
   composite: 52.6
@@ -242,7 +273,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/screenshots/artie-2026-07-25T201330.png
 security:

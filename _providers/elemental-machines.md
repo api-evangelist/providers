@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Public REST API for the Elemental Machines LabOps platform. Read machines (sensor-connected assets), their time-series samples and computed sample statistics, aggregated/hourly/status utilization roll
@@ -27,7 +27,11 @@ apis:
 - description: A remote Model Context Protocol server served from the elementalmachines.com WordPress host via the WordPress MCP Adapter, advertised by /.well-known/oauth-protected-resource and /.well-known/oauth-au
   name: Elemental Machines Website MCP Server
   slug: elemental-machines-website-mcp-server
-artifact_total: 9
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Elemental Machines API
+  slug: open-elemental-machines-api
 common:
 - group: company
   title: ''
@@ -153,7 +157,7 @@ plans:
 - name: Elemental Machines Plans Pricing
   plan_count: 0
   slug: elemental-machines-plans-pricing
-random_paper: 36
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Elemental Machines Rate Limits
@@ -166,6 +170,7 @@ scopes:
 score:
   band: developing
   composite: 46.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 46.3
@@ -173,6 +178,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 36.8
+  previous_composite: 46.6
   regulatory:
     applies: true
     matched_via: tags
@@ -180,7 +186,8 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Elemental Machines Authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ apis:
 - description: The Transactions API from Pennylane — 2 operation(s) for transactions.
   name: Pennylane Transactions API
   slug: pennylane-transactions-api
-artifact_total: 48
+artifact_total: 68
 collections:
 - collection_type: postman
   name: Pennylane Company Account API
@@ -156,6 +156,66 @@ collections:
 - collection_type: postman
   name: Pennylane Company Account Transactions API
   slug: postman-pennylane-transactions-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pennylane Company Account API
+  slug: open-pennylane-account-api
+- collection_type: open
+  name: Pennylane Company Account Accounting Exports API
+  slug: open-pennylane-accounting-exports-api
+- collection_type: open
+  name: Pennylane Company Account Bank Accounts API
+  slug: open-pennylane-bank-accounts-api
+- collection_type: open
+  name: Pennylane Company Account Billing Subscriptions API
+  slug: open-pennylane-billing-subscriptions-api
+- collection_type: open
+  name: Pennylane Company Account Categories API
+  slug: open-pennylane-categories-api
+- collection_type: open
+  name: Pennylane Company Account Change Events API
+  slug: open-pennylane-change-events-api
+- collection_type: open
+  name: Pennylane Company Account Customer Invoices API
+  slug: open-pennylane-customer-invoices-api
+- collection_type: open
+  name: Pennylane Company Account Customers API
+  slug: open-pennylane-customers-api
+- collection_type: open
+  name: Pennylane Company Account E-Invoicing API
+  slug: open-pennylane-e-invoicing-api
+- collection_type: open
+  name: Pennylane Company Account File Attachments API
+  slug: open-pennylane-file-attachments-api
+- collection_type: open
+  name: Pennylane Company Account Journals API
+  slug: open-pennylane-journals-api
+- collection_type: open
+  name: Pennylane Company Account Ledger Accounts API
+  slug: open-pennylane-ledger-accounts-api
+- collection_type: open
+  name: Pennylane Company Account Ledger Entries API
+  slug: open-pennylane-ledger-entries-api
+- collection_type: open
+  name: Pennylane Company Account Mandates API
+  slug: open-pennylane-mandates-api
+- collection_type: open
+  name: Pennylane Company Account Products API
+  slug: open-pennylane-products-api
+- collection_type: open
+  name: Pennylane Company Account Quotes API
+  slug: open-pennylane-quotes-api
+- collection_type: open
+  name: Pennylane Company Account Supplier Invoices API
+  slug: open-pennylane-supplier-invoices-api
+- collection_type: open
+  name: Pennylane Company Account Suppliers API
+  slug: open-pennylane-suppliers-api
+- collection_type: open
+  name: Pennylane Company Account Transactions API
+  slug: open-pennylane-transactions-api
 common:
 - group: build
   title: ''
@@ -337,7 +397,7 @@ plans:
 - name: Pennylane Plans Pricing
   plan_count: 3
   slug: pennylane-plans-pricing
-random_paper: 10
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Pennylane Rate Limits
@@ -376,7 +436,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

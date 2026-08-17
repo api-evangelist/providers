@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,7 +66,35 @@ apis:
 - description: User account management
   name: Apache James Users API
   slug: apache-james-users-api
-artifact_total: 63
+artifact_total: 72
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache James WebAdmin REST Domains API
+  slug: open-apache-james-domains-api
+- collection_type: open
+  name: Apache James WebAdmin REST Domains HealthCheck API
+  slug: open-apache-james-healthcheck-api
+- collection_type: open
+  name: Apache James WebAdmin REST Domains Mailboxes API
+  slug: open-apache-james-mailboxes-api
+- collection_type: open
+  name: Apache James WebAdmin REST Domains MailQueues API
+  slug: open-apache-james-mailqueues-api
+- collection_type: open
+  name: Apache James WebAdmin REST Domains MailRepositories API
+  slug: open-apache-james-mailrepositories-api
+- collection_type: open
+  name: Apache James WebAdmin REST Domains Quotas API
+  slug: open-apache-james-quotas-api
+- collection_type: open
+  name: Apache James WebAdmin REST Domains Tasks API
+  slug: open-apache-james-tasks-api
+- collection_type: open
+  name: Apache James WebAdmin REST Domains Users API
+  slug: open-apache-james-users-api
 common:
 - group: build
   title: ''
@@ -268,7 +296,7 @@ plans:
 - name: Apache James Plans Pricing
   plan_count: 3
   slug: apache-james-plans-pricing
-random_paper: 103
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Apache James Rate Limits
@@ -310,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/screenshots/apache-james-2026-06-20T172110.png
 security:

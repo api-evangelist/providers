@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,7 +43,26 @@ apis:
 - description: Operations relating to Shifts
   name: Wagestream Shifts API
   slug: wagestream-shifts-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wagestream Integrations Absences API
+  slug: open-wagestream-absences-api
+- collection_type: open
+  name: Wagestream Integrations Employees API
+  slug: open-wagestream-employees-api
+- collection_type: open
+  name: Wagestream Integrations Enrollment API
+  slug: open-wagestream-enrollment-api
+- collection_type: open
+  name: Wagestream Integrations Off Cycle Payment API
+  slug: open-wagestream-off-cycle-payment-api
+- collection_type: open
+  name: Wagestream Integrations Shifts API
+  slug: open-wagestream-shifts-api
 common:
 - group: agent
   title: ''
@@ -181,7 +200,7 @@ overview: 'Wagestream publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wagestream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 112
+random_paper: 29
 score:
   band: developing
   composite: 51.5
@@ -205,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

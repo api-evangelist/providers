@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Neptune REST API backs the Neptune Python client. It exposes runs, projects, fields, and metadata logging. Authentication uses an API token from the user profile.
@@ -108,7 +108,7 @@ plans:
 - name: Neptune Ai Plans Pricing
   plan_count: 1
   slug: neptune-ai-plans-pricing
-random_paper: 54
+random_paper: 120
 rate_limits:
 - limit_count: 1
   name: Neptune Ai Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 13.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neptune-ai/refs/heads/main/screenshots/neptune-ai-2026-06-20T190137.png
 security:

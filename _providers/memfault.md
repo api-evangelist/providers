@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -99,8 +99,44 @@ apis:
 - description: The Software API from Memfault — 2 operation(s) for software.
   name: Memfault Software API
   slug: memfault-software-api
-artifact_total: 27
+artifact_total: 39
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Memfault Cloud REST Auth API
+  slug: open-memfault-auth-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Chunks API
+  slug: open-memfault-chunks-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Cohorts API
+  slug: open-memfault-cohorts-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Deployments API
+  slug: open-memfault-deployments-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Devices API
+  slug: open-memfault-devices-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Files API
+  slug: open-memfault-files-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Issues API
+  slug: open-memfault-issues-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Organizations API
+  slug: open-memfault-organizations-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Projects API
+  slug: open-memfault-projects-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Releases API
+  slug: open-memfault-releases-api
+- collection_type: open
+  name: Memfault Cloud REST Auth Software API
+  slug: open-memfault-software-api
 - collection_type: open
   name: Memfault Cloud REST API
   slug: open-memfault
@@ -197,7 +233,7 @@ plans:
 - name: Memfault Plans Pricing
   plan_count: 1
   slug: memfault-plans-pricing
-random_paper: 19
+random_paper: 114
 rate_limits:
 - limit_count: 2
   name: Memfault Rate Limits
@@ -222,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/screenshots/memfault-2026-06-20T185230.png
 security:

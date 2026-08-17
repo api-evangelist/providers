@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 3
@@ -77,11 +77,54 @@ apis:
 - description: The Users API from Wefunder — 1 operation(s) for users.
   name: Wefunder Users API
   slug: wefunder-users-api
-artifact_total: 19
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Wefunder Webhooks
   slug: wefunder-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wefunder API v2 Activity API
+  slug: open-wefunder-activity-api
+- collection_type: open
+  name: Wefunder API v2 Activity Attribution API
+  slug: open-wefunder-attribution-api
+- collection_type: open
+  name: Wefunder API v2 Activity Attribution Partners API
+  slug: open-wefunder-attribution-partners-api
+- collection_type: open
+  name: Wefunder API v2 Activity Attribution Webhooks API
+  slug: open-wefunder-attribution-webhooks-api
+- collection_type: open
+  name: Wefunder API v2 Activity Campaigns API
+  slug: open-wefunder-campaigns-api
+- collection_type: open
+  name: Wefunder API v2 Activity Explore API
+  slug: open-wefunder-explore-api
+- collection_type: open
+  name: Wefunder API v2 Activity Intents API
+  slug: open-wefunder-intents-api
+- collection_type: open
+  name: Wefunder API v2 Activity Investments API
+  slug: open-wefunder-investments-api
+- collection_type: open
+  name: Wefunder API v2 Activity Syndicate Deals API
+  slug: open-wefunder-syndicate-deals-api
+- collection_type: open
+  name: Wefunder API v2 Activity Syndicate Members API
+  slug: open-wefunder-syndicate-members-api
+- collection_type: open
+  name: Wefunder API v2 Activity Syndicate Statistics API
+  slug: open-wefunder-syndicate-statistics-api
+- collection_type: open
+  name: Wefunder API v2 Activity Syndicates API
+  slug: open-wefunder-syndicates-api
+- collection_type: open
+  name: Wefunder API v2 Activity Users API
+  slug: open-wefunder-users-api
 common:
 - group: other
   title: ''
@@ -222,7 +265,7 @@ overview: 'Wefunder publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wefunder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 24
+random_paper: 119
 scopes:
 - name: Wefunder Scopes
   scope_count: 16
@@ -257,7 +300,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

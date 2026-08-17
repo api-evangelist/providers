@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -138,7 +138,110 @@ apis:
 - description: The Users API from ilert — 4 operation(s) for users.
   name: ilert Users API
   slug: ilert-users-api
-artifact_total: 438
+artifact_total: 472
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ilert REST Alert Actions API
+  slug: open-ilert-alert-actions-api
+- collection_type: open
+  name: ilert REST Alert Actions Alert Sources API
+  slug: open-ilert-alert-sources-api
+- collection_type: open
+  name: ilert REST Alert Actions Alerts API
+  slug: open-ilert-alerts-api
+- collection_type: open
+  name: ilert REST Alert Actions Call Flow Numbers API
+  slug: open-ilert-call-flow-numbers-api
+- collection_type: open
+  name: ilert REST Alert Actions Call Flows API
+  slug: open-ilert-call-flows-api
+- collection_type: open
+  name: ilert REST Alert Actions Connectors API
+  slug: open-ilert-connectors-api
+- collection_type: open
+  name: ilert REST Alert Actions Contacts API
+  slug: open-ilert-contacts-api
+- collection_type: open
+  name: ilert REST Alert Actions Deployment Events API
+  slug: open-ilert-deployment-events-api
+- collection_type: open
+  name: ilert REST Alert Actions Deployment Pipelines API
+  slug: open-ilert-deployment-pipelines-api
+- collection_type: open
+  name: ilert REST Alert Actions Escalation Policies API
+  slug: open-ilert-escalation-policies-api
+- collection_type: open
+  name: ilert REST Alert Actions Event Flows API
+  slug: open-ilert-event-flows-api
+- collection_type: open
+  name: ilert REST Alert Actions Events API
+  slug: open-ilert-events-api
+- collection_type: open
+  name: ilert REST Alert Actions Heartbeat Monitors API
+  slug: open-ilert-heartbeat-monitors-api
+- collection_type: open
+  name: ilert REST Alert Actions Incident Templates API
+  slug: open-ilert-incident-templates-api
+- collection_type: open
+  name: ilert REST Alert Actions Incidents API
+  slug: open-ilert-incidents-api
+- collection_type: open
+  name: ilert REST Alert Actions Integrations API
+  slug: open-ilert-integrations-api
+- collection_type: open
+  name: ilert REST Alert Actions Log-Entries API
+  slug: open-ilert-log-entries-api
+- collection_type: open
+  name: ilert REST Alert Actions Maintenance Windows API
+  slug: open-ilert-maintenance-windows-api
+- collection_type: open
+  name: ilert REST Alert Actions Metric Data Sources API
+  slug: open-ilert-metric-data-sources-api
+- collection_type: open
+  name: ilert REST Alert Actions Metrics API
+  slug: open-ilert-metrics-api
+- collection_type: open
+  name: ilert REST Alert Actions Notification Preferences API
+  slug: open-ilert-notification-preferences-api
+- collection_type: open
+  name: ilert REST Alert Actions Notifications API
+  slug: open-ilert-notifications-api
+- collection_type: open
+  name: ilert REST Alert Actions Numbers API
+  slug: open-ilert-numbers-api
+- collection_type: open
+  name: ilert REST Alert Actions On-Calls API
+  slug: open-ilert-on-calls-api
+- collection_type: open
+  name: ilert REST Alert Actions Reports API
+  slug: open-ilert-reports-api
+- collection_type: open
+  name: ilert REST Alert Actions Schedules API
+  slug: open-ilert-schedules-api
+- collection_type: open
+  name: ilert REST Alert Actions Series API
+  slug: open-ilert-series-api
+- collection_type: open
+  name: ilert REST Alert Actions Service Outages API
+  slug: open-ilert-service-outages-api
+- collection_type: open
+  name: ilert REST Alert Actions Services API
+  slug: open-ilert-services-api
+- collection_type: open
+  name: ilert REST Alert Actions Status Pages API
+  slug: open-ilert-status-pages-api
+- collection_type: open
+  name: ilert REST Alert Actions Support Hours API
+  slug: open-ilert-support-hours-api
+- collection_type: open
+  name: ilert REST Alert Actions Teams API
+  slug: open-ilert-teams-api
+- collection_type: open
+  name: ilert REST Alert Actions Users API
+  slug: open-ilert-users-api
 common:
 - group: agent
   title: ''
@@ -1418,7 +1521,7 @@ plans:
 - name: Ilert Plans Pricing
   plan_count: 4
   slug: ilert-plans-pricing
-random_paper: 64
+random_paper: 97
 rate_limits:
 - limit_count: 7
   name: Ilert Rate Limits
@@ -1452,7 +1555,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ilert/refs/heads/main/screenshots/ilert-2026-06-20T183235.png
 security:

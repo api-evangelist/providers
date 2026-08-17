@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -69,8 +69,41 @@ apis:
 - description: Firmware and BIOS update management
   name: Super Micro Computer Update Service API
   slug: super-micro-computer-update-service-api
-artifact_total: 25
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Supermicro Redfish Accounts API
+  slug: open-super-micro-computer-accounts-api
+- collection_type: open
+  name: Supermicro Redfish Accounts Chassis API
+  slug: open-super-micro-computer-chassis-api
+- collection_type: open
+  name: Supermicro Redfish Accounts Event Service API
+  slug: open-super-micro-computer-event-service-api
+- collection_type: open
+  name: Supermicro Redfish Accounts Managers API
+  slug: open-super-micro-computer-managers-api
+- collection_type: open
+  name: Supermicro Redfish Accounts Network API
+  slug: open-super-micro-computer-network-api
+- collection_type: open
+  name: Supermicro Redfish Accounts Service Root API
+  slug: open-super-micro-computer-service-root-api
+- collection_type: open
+  name: Supermicro Redfish Accounts Sessions API
+  slug: open-super-micro-computer-sessions-api
+- collection_type: open
+  name: Supermicro Redfish Accounts Storage API
+  slug: open-super-micro-computer-storage-api
+- collection_type: open
+  name: Supermicro Redfish Accounts Systems API
+  slug: open-super-micro-computer-systems-api
+- collection_type: open
+  name: Supermicro Redfish Accounts Update Service API
+  slug: open-super-micro-computer-update-service-api
 - collection_type: open
   name: Supermicro Redfish API
   slug: open-supermicro-redfish
@@ -169,7 +202,7 @@ plans:
 - name: Super Micro Computer Plans Pricing
   plan_count: 3
   slug: super-micro-computer-plans-pricing
-random_paper: 26
+random_paper: 129
 rate_limits:
 - limit_count: 5
   name: Super Micro Computer Rate Limits
@@ -211,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/screenshots/super-micro-computer-2026-06-20T194706.png
 security:

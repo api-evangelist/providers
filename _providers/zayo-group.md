@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: Building validation and location lookup.
   name: Zayo Group Holdings Network Discovery API
   slug: zayo-group-network-discovery-api
-artifact_total: 11
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Zayo Group Network Discovery API
+  slug: open-zayo-group-network-discovery-api
 - collection_type: open
   name: Zayo Group API
   slug: open-zayo-group
@@ -103,7 +109,7 @@ plans:
 - name: Zayo Group Plans Pricing
   plan_count: 1
   slug: zayo-group-plans-pricing
-random_paper: 93
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Zayo Group Rate Limits
@@ -133,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/screenshots/zayo-group-2026-06-20T201802.png
 security:

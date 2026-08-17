@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Site management
   name: Fathom Analytics Sites API
   slug: fathom-sites-api
-artifact_total: 28
+artifact_total: 34
 collections:
 - collection_type: postman
   name: Fathom Analytics REST Account API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Fathom Analytics REST Account Sites API
   slug: postman-fathom-sites-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Fathom Analytics REST Account API
+  slug: open-fathom-account-api
+- collection_type: open
+  name: Fathom Analytics REST Account Events API
+  slug: open-fathom-events-api
+- collection_type: open
+  name: Fathom Analytics REST Account Milestones API
+  slug: open-fathom-milestones-api
+- collection_type: open
+  name: Fathom Analytics REST Account Reports API
+  slug: open-fathom-reports-api
+- collection_type: open
+  name: Fathom Analytics REST Account Sites API
+  slug: open-fathom-sites-api
 common:
 - group: build
   title: ''
@@ -221,7 +239,7 @@ plans:
 - name: Fathom Plans Pricing
   plan_count: 5
   slug: fathom-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Fathom Rate Limits
@@ -255,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/screenshots/fathom-2026-06-20T181055.png
 security:

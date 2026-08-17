@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Submit, retrieve, list, search, split, merge, bulk-download, and delete documents. DocuPanda parses files into searchable PDFs and structured page-level text, tables, and bounding boxes. Supports hand
@@ -195,7 +195,7 @@ overview: 'DocuPanda publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   DocuPanda''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, signup flow, developer console, and 16 more developer resources.'
-random_paper: 103
+random_paper: 49
 score:
   band: thin
   composite: 35.8
@@ -209,7 +209,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/screenshots/docupanda-2026-06-20T180119.png
 security:

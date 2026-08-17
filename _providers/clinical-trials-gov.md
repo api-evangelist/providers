@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,8 +55,20 @@ apis:
 - description: The Version API from ClinicalTrials.gov — 1 operation(s) for version.
   name: ClinicalTrials.gov Version API
   slug: clinical-trials-gov-version-api
-artifact_total: 11
+artifact_total: 15
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClinicalTrials.gov Data API v2 Stats API
+  slug: open-clinical-trials-gov-stats-api
+- collection_type: open
+  name: ClinicalTrials.gov Data API v2 Stats Studies API
+  slug: open-clinical-trials-gov-studies-api
+- collection_type: open
+  name: ClinicalTrials.gov Data API v2 Stats Version API
+  slug: open-clinical-trials-gov-version-api
 - collection_type: open
   name: ClinicalTrials.gov Data API v2
   slug: open-clinical-trials-gov
@@ -141,7 +153,7 @@ overview: 'ClinicalTrials.gov publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   ClinicalTrials.gov''s developer surface includes documentation, developer portal, product news, GitHub presence, and 11 more developer resources.'
-random_paper: 108
+random_paper: 120
 rules:
 - name: ClinicalTrials.gov API Rules
   rule_count: 9
@@ -177,7 +189,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/screenshots/clinical-trials-gov-2026-06-20T174525.png
 security:

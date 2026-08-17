@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Vertice Cloud Cost Optimization integrates with AWS, GCP, and Azure accounts to provide cloud visibility, cost analytics, and optimization recommendations. The integration uses cross-account IAM roles
@@ -108,7 +108,7 @@ plans:
 - name: Vertice Plans Pricing
   plan_count: 3
   slug: vertice-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Vertice Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

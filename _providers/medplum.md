@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-12'
+  score: 59.0
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -85,11 +85,21 @@ arazzos:
 - description: Search for a Patient by identifier and update it if found, otherwise create it.
   name: Medplum Upsert Patient
   slug: medplum-upsert-patient-workflow
-artifact_total: 74
+artifact_total: 78
+asyncapis:
+- description: ''
+  name: Medplum Webhooks
+  slug: medplum-webhooks
 collections:
 - collection_type: postman
   name: Medplum - OpenAPI 3.0
   slug: postman-medplum-openapi-original
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Medplum - OpenAPI 3.0 Fhir API
+  slug: open-medplum-fhir-api
 common:
 - group: operate
   title: ''
@@ -263,6 +273,90 @@ common:
   title: ''
   type: FinOps
   url: finops/medplum-finops.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/medplum-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/medplum-well-known.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/medplum-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/medplum-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/medplum-fhir-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/medplum-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.medplum.com/docs/compliance
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/medplum-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/medplum-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.medplum.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://www.medplum.com/docs/compliance/alpha-beta
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/medplum-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/medplum-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/medplum-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/medplum-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/medplum-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/medplum-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/medplum-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/medplum-webhooks.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://github.com/orgs/medplum/projects/1
 - group: design
   title: ''
   type: ArazzoWorkflows
@@ -372,22 +466,22 @@ mcp_servers:
 - description: ''
   name: medplum-mcp.yml
   slug: medplum-mcpyml
-modified: '2026-07-27'
+modified: '2026-08-14'
 name: Medplum
 nav: Providers
 network: true
 overview: 'Medplum publishes 1 API on the [APIs.io](https://apis.io/) network: Fhir API. Tagged areas include Healthcare, FHIR, Open Source, Developer Platform, and HIPAA.
 
 
-  The Medplum catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Medplum catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Medplum''s developer surface includes authentication, documentation, getting-started guide, API reference, CLI, developer console, pricing, and 36 more developer resources.'
+  Medplum''s developer surface includes authentication, documentation, getting-started guide, API reference, CLI, developer console, pricing, and 57 more developer resources.'
 plans:
 - name: Medplum Plans Pricing
   plan_count: 6
   slug: medplum-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Medplum Rate Limits
@@ -409,17 +503,22 @@ rules:
     info: 1
     warn: 4
   slug: medplum-rules
+scopes:
+- name: Medplum Scopes
+  scope_count: 12
+  slug: medplum-scopes
+  summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 69.6
-  delta: 0.0
+  composite: 84.9
+  delta: 15.3
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 73.1
-    developer_ergonomics: 84.8
-    discoverability: 64.8
-    governance: 68.8
-    operational_transparency: 63.2
+    commercial_clarity: 86.8
+    contract_quality: 82.1
+    developer_ergonomics: 91.3
+    discoverability: 83.3
+    governance: 89.6
+    operational_transparency: 100.0
   previous_composite: 69.6
   provenance:
     agentic_access: derived
@@ -434,16 +533,16 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.0
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png
 security:
 - kind: authentication
   name: Medplum Authentication
   slug: medplum-authentication
-  summary_line: http/openIdConnect · 3 schemes
+  summary_line: http/openIdConnect/oauth2 (SMART App Launch 2.0.0, not declared in OpenAPI securitySchemes) · 4 schemes
 - kind: domain-security
   name: Medplum Domain Security
   slug: medplum-domain-security

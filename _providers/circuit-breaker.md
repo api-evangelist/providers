@@ -20,7 +20,7 @@ modified: '2026-04-23'
 name: Circuit Breaker
 nav: Providers
 network: true
-random_paper: 92
+random_paper: 42
 slug: circuit-breaker
 tags:
 - Circuit Breaker

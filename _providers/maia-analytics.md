@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 12
@@ -137,7 +137,110 @@ apis:
 - description: The workspaces API from Maia-analytics — 18 operation(s) for workspaces.
   name: Maia-analytics workspaces API
   slug: maia-analytics-workspaces-api
-artifact_total: 37
+artifact_total: 71
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MAIA Ah API
+  slug: open-maia-analytics-ah-api
+- collection_type: open
+  name: MAIA Ah analytics API
+  slug: open-maia-analytics-analytics-api
+- collection_type: open
+  name: MAIA Ah audit-log API
+  slug: open-maia-analytics-audit-log-api
+- collection_type: open
+  name: MAIA Ah auth API
+  slug: open-maia-analytics-auth-api
+- collection_type: open
+  name: MAIA Ah chat API
+  slug: open-maia-analytics-chat-api
+- collection_type: open
+  name: MAIA Ah dial API
+  slug: open-maia-analytics-dial-api
+- collection_type: open
+  name: MAIA Ah enrichment API
+  slug: open-maia-analytics-enrichment-api
+- collection_type: open
+  name: MAIA Ah example-projects API
+  slug: open-maia-analytics-example-projects-api
+- collection_type: open
+  name: MAIA Ah favorite API
+  slug: open-maia-analytics-favorite-api
+- collection_type: open
+  name: MAIA Ah feature-flags API
+  slug: open-maia-analytics-feature-flags-api
+- collection_type: open
+  name: MAIA Ah filters API
+  slug: open-maia-analytics-filters-api
+- collection_type: open
+  name: MAIA Ah geographies API
+  slug: open-maia-analytics-geographies-api
+- collection_type: open
+  name: MAIA Ah internal API
+  slug: open-maia-analytics-internal-api
+- collection_type: open
+  name: MAIA Ah internal-knowledge API
+  slug: open-maia-analytics-internal-knowledge-api
+- collection_type: open
+  name: MAIA Ah internal-projects API
+  slug: open-maia-analytics-internal-projects-api
+- collection_type: open
+  name: MAIA Ah internal-skills API
+  slug: open-maia-analytics-internal-skills-api
+- collection_type: open
+  name: MAIA Ah knowledge API
+  slug: open-maia-analytics-knowledge-api
+- collection_type: open
+  name: MAIA Ah layer API
+  slug: open-maia-analytics-layer-api
+- collection_type: open
+  name: MAIA Ah MAIA API API
+  slug: open-maia-analytics-maia-api-api
+- collection_type: open
+  name: MAIA Ah map API
+  slug: open-maia-analytics-map-api
+- collection_type: open
+  name: MAIA Ah notes API
+  slug: open-maia-analytics-notes-api
+- collection_type: open
+  name: MAIA Ah project API
+  slug: open-maia-analytics-project-api
+- collection_type: open
+  name: MAIA Ah project-lock API
+  slug: open-maia-analytics-project-lock-api
+- collection_type: open
+  name: MAIA Ah query API
+  slug: open-maia-analytics-query-api
+- collection_type: open
+  name: MAIA Ah saved-contacts API
+  slug: open-maia-analytics-saved-contacts-api
+- collection_type: open
+  name: MAIA Ah share API
+  slug: open-maia-analytics-share-api
+- collection_type: open
+  name: MAIA Ah skills API
+  slug: open-maia-analytics-skills-api
+- collection_type: open
+  name: MAIA Ah stats API
+  slug: open-maia-analytics-stats-api
+- collection_type: open
+  name: MAIA Ah table API
+  slug: open-maia-analytics-table-api
+- collection_type: open
+  name: MAIA Ah user-events API
+  slug: open-maia-analytics-user-events-api
+- collection_type: open
+  name: MAIA Ah users API
+  slug: open-maia-analytics-users-api
+- collection_type: open
+  name: MAIA Ah workspace API
+  slug: open-maia-analytics-workspace-api
+- collection_type: open
+  name: MAIA Ah workspaces API
+  slug: open-maia-analytics-workspaces-api
 common:
 - group: other
   title: ''
@@ -235,7 +338,7 @@ overview: 'Maia-analytics publishes 33 APIs on the [APIs.io](https://apis.io/) n
 
 
   Maia-analytics'' developer surface includes documentation, API reference, authentication, and 17 more developer resources.'
-random_paper: 101
+random_paper: 80
 score:
   band: thin
   composite: 36.1
@@ -259,7 +362,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/screenshots/maia-analytics-2026-07-25T225910.png
 security:

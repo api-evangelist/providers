@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Branching Minds is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Branching Minds'' developer surface includes documentation, support, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 84
+random_paper: 34
 score:
   band: emerging
   composite: 20.9
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/branching-minds/refs/heads/main/screenshots/branching-minds-2026-07-25T203715.png
 security:

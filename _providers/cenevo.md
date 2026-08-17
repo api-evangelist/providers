@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 0
@@ -264,11 +264,240 @@ apis:
 - description: The Zebrafishes API from Cenevo — 1 operation(s) for zebrafishes.
   name: Cenevo Zebrafishes API
   slug: cenevo-zebrafishes-api
-artifact_total: 80
+artifact_total: 156
 asyncapis:
 - description: ''
   name: Cenevo Labguru Webhooks
   slug: cenevo-labguru-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Labguru Antibodies API
+  slug: open-cenevo-antibodies-api
+- collection_type: open
+  name: Labguru Antibodies Attachments API
+  slug: open-cenevo-attachments-api
+- collection_type: open
+  name: Labguru Antibodies Authentication API
+  slug: open-cenevo-authentication-api
+- collection_type: open
+  name: Labguru Antibodies Bacteria API
+  slug: open-cenevo-bacteria-api
+- collection_type: open
+  name: Labguru Antibodies Boxes API
+  slug: open-cenevo-boxes-api
+- collection_type: open
+  name: Labguru Antibodies Cell lines API
+  slug: open-cenevo-cell-lines-api
+- collection_type: open
+  name: Labguru Antibodies Comments API
+  slug: open-cenevo-comments-api
+- collection_type: open
+  name: Labguru Antibodies Companies API
+  slug: open-cenevo-companies-api
+- collection_type: open
+  name: Labguru Antibodies Compound Parent Structures API
+  slug: open-cenevo-compound-parent-structures-api
+- collection_type: open
+  name: Labguru Antibodies Compounds API
+  slug: open-cenevo-compounds-api
+- collection_type: open
+  name: Labguru Antibodies Consumables API
+  slug: open-cenevo-consumables-api
+- collection_type: open
+  name: Labguru Antibodies Datasets API
+  slug: open-cenevo-datasets-api
+- collection_type: open
+  name: Labguru Antibodies Documents API
+  slug: open-cenevo-documents-api
+- collection_type: open
+  name: Labguru Antibodies Elements API
+  slug: open-cenevo-elements-api
+- collection_type: open
+  name: Labguru Antibodies Equipment API
+  slug: open-cenevo-equipment-api
+- collection_type: open
+  name: Labguru Antibodies Events API
+  slug: open-cenevo-events-api
+- collection_type: open
+  name: Labguru Antibodies Experiments API
+  slug: open-cenevo-experiments-api
+- collection_type: open
+  name: Labguru Antibodies Filters API
+  slug: open-cenevo-filters-api
+- collection_type: open
+  name: Labguru Antibodies Flags API
+  slug: open-cenevo-flags-api
+- collection_type: open
+  name: Labguru Antibodies Flies API
+  slug: open-cenevo-flies-api
+- collection_type: open
+  name: Labguru Antibodies Folders API
+  slug: open-cenevo-folders-api
+- collection_type: open
+  name: Labguru Antibodies Forms API
+  slug: open-cenevo-forms-api
+- collection_type: open
+  name: Labguru Antibodies Fungi API
+  slug: open-cenevo-fungi-api
+- collection_type: open
+  name: Labguru Antibodies Generic Items API
+  slug: open-cenevo-generic-items-api
+- collection_type: open
+  name: Labguru Antibodies Genes API
+  slug: open-cenevo-genes-api
+- collection_type: open
+  name: Labguru Antibodies Instrument usages API
+  slug: open-cenevo-instrument-usages-api
+- collection_type: open
+  name: Labguru Antibodies Links API
+  slug: open-cenevo-links-api
+- collection_type: open
+  name: Labguru Antibodies Lipids API
+  slug: open-cenevo-lipids-api
+- collection_type: open
+  name: Labguru Antibodies Maintenance event API
+  slug: open-cenevo-maintenance-event-api
+- collection_type: open
+  name: Labguru Antibodies Maintenance template API
+  slug: open-cenevo-maintenance-template-api
+- collection_type: open
+  name: Labguru Antibodies Maintenance types API
+  slug: open-cenevo-maintenance-types-api
+- collection_type: open
+  name: Labguru Antibodies Maintenances API
+  slug: open-cenevo-maintenances-api
+- collection_type: open
+  name: Labguru Antibodies Manifest API
+  slug: open-cenevo-manifest-api
+- collection_type: open
+  name: Labguru Antibodies Measurements API
+  slug: open-cenevo-measurements-api
+- collection_type: open
+  name: Labguru Antibodies Members API
+  slug: open-cenevo-members-api
+- collection_type: open
+  name: Labguru Antibodies Notes API
+  slug: open-cenevo-notes-api
+- collection_type: open
+  name: Labguru Antibodies Papers API
+  slug: open-cenevo-papers-api
+- collection_type: open
+  name: Labguru Antibodies Plants API
+  slug: open-cenevo-plants-api
+- collection_type: open
+  name: Labguru Antibodies Plasmids API
+  slug: open-cenevo-plasmids-api
+- collection_type: open
+  name: Labguru Antibodies Plates API
+  slug: open-cenevo-plates-api
+- collection_type: open
+  name: Labguru Antibodies Primers API
+  slug: open-cenevo-primers-api
+- collection_type: open
+  name: Labguru Antibodies Projects API
+  slug: open-cenevo-projects-api
+- collection_type: open
+  name: Labguru Antibodies Proteins API
+  slug: open-cenevo-proteins-api
+- collection_type: open
+  name: Labguru Antibodies Protocols API
+  slug: open-cenevo-protocols-api
+- collection_type: open
+  name: Labguru Antibodies Recipes API
+  slug: open-cenevo-recipes-api
+- collection_type: open
+  name: Labguru Antibodies Reports API
+  slug: open-cenevo-reports-api
+- collection_type: open
+  name: Labguru Antibodies Request templates API
+  slug: open-cenevo-request-templates-api
+- collection_type: open
+  name: Labguru Antibodies Requests API
+  slug: open-cenevo-requests-api
+- collection_type: open
+  name: Labguru Antibodies Rodent cages API
+  slug: open-cenevo-rodent-cages-api
+- collection_type: open
+  name: Labguru Antibodies Rodent Specimens API
+  slug: open-cenevo-rodent-specimens-api
+- collection_type: open
+  name: Labguru Antibodies Rodent Strains API
+  slug: open-cenevo-rodent-strains-api
+- collection_type: open
+  name: Labguru Antibodies Sample Pooling API
+  slug: open-cenevo-sample-pooling-api
+- collection_type: open
+  name: Labguru Antibodies Samples API
+  slug: open-cenevo-samples-api
+- collection_type: open
+  name: Labguru Antibodies Search API
+  slug: open-cenevo-search-api
+- collection_type: open
+  name: Labguru Antibodies Sections API
+  slug: open-cenevo-sections-api
+- collection_type: open
+  name: Labguru Antibodies Seeds API
+  slug: open-cenevo-seeds-api
+- collection_type: open
+  name: Labguru Antibodies Sequences API
+  slug: open-cenevo-sequences-api
+- collection_type: open
+  name: Labguru Antibodies Shopping list API
+  slug: open-cenevo-shopping-list-api
+- collection_type: open
+  name: Labguru Antibodies Signature flows API
+  slug: open-cenevo-signature-flows-api
+- collection_type: open
+  name: Labguru Antibodies SOPs API
+  slug: open-cenevo-sops-api
+- collection_type: open
+  name: Labguru Antibodies Stocks API
+  slug: open-cenevo-stocks-api
+- collection_type: open
+  name: Labguru Antibodies Storages API
+  slug: open-cenevo-storages-api
+- collection_type: open
+  name: Labguru Antibodies Submodules API
+  slug: open-cenevo-submodules-api
+- collection_type: open
+  name: Labguru Antibodies Tags API
+  slug: open-cenevo-tags-api
+- collection_type: open
+  name: Labguru Antibodies Teams API
+  slug: open-cenevo-teams-api
+- collection_type: open
+  name: Labguru Antibodies Tissue API
+  slug: open-cenevo-tissue-api
+- collection_type: open
+  name: Labguru Antibodies Units API
+  slug: open-cenevo-units-api
+- collection_type: open
+  name: Labguru Antibodies Vectors API
+  slug: open-cenevo-vectors-api
+- collection_type: open
+  name: Labguru Antibodies Viruses API
+  slug: open-cenevo-viruses-api
+- collection_type: open
+  name: Labguru Antibodies Visualizations API
+  slug: open-cenevo-visualizations-api
+- collection_type: open
+  name: Labguru Antibodies Webhooks API
+  slug: open-cenevo-webhooks-api
+- collection_type: open
+  name: Labguru Antibodies Workflows API
+  slug: open-cenevo-workflows-api
+- collection_type: open
+  name: Labguru Antibodies Worms API
+  slug: open-cenevo-worms-api
+- collection_type: open
+  name: Labguru Antibodies Yeasts API
+  slug: open-cenevo-yeasts-api
+- collection_type: open
+  name: Labguru Antibodies Zebrafishes API
+  slug: open-cenevo-zebrafishes-api
 common:
 - group: other
   title: ''
@@ -389,7 +618,7 @@ overview: 'Cenevo publishes 75 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cenevo''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 40
+random_paper: 44
 score:
   band: thin
   composite: 41.4
@@ -419,7 +648,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cenevo/refs/heads/main/screenshots/cenevo-2026-07-25T204916.png
 security:

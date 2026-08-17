@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -132,7 +132,7 @@ plans:
 - name: Casetext Plans Pricing
   plan_count: 0
   slug: casetext-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 0
   name: Casetext Rate Limits
@@ -150,7 +150,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casetext/refs/heads/main/screenshots/casetext-2026-06-20T174038.png
 security:

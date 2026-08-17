@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Operations for managing tables within datasets
   name: Google BigQuery Tables API
   slug: google-bigquery-tables-api
-artifact_total: 56
+artifact_total: 64
 collections:
 - collection_type: postman
   name: Google BigQuery Datasets API
@@ -96,8 +96,32 @@ collections:
   name: Google BigQuery Datasets Tables API
   slug: postman-google-bigquery-tables-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Google BigQuery API
   slug: open-bigquery-api
+- collection_type: open
+  name: Google BigQuery Datasets API
+  slug: open-google-bigquery-datasets-api
+- collection_type: open
+  name: Google BigQuery Datasets Jobs API
+  slug: open-google-bigquery-jobs-api
+- collection_type: open
+  name: Google BigQuery Datasets Models API
+  slug: open-google-bigquery-models-api
+- collection_type: open
+  name: Google BigQuery Datasets Projects API
+  slug: open-google-bigquery-projects-api
+- collection_type: open
+  name: Google BigQuery Datasets Routines API
+  slug: open-google-bigquery-routines-api
+- collection_type: open
+  name: Google BigQuery Datasets Tabledata API
+  slug: open-google-bigquery-tabledata-api
+- collection_type: open
+  name: Google BigQuery Datasets Tables API
+  slug: open-google-bigquery-tables-api
 common:
 - group: build
   title: ''
@@ -274,7 +298,7 @@ plans:
 - name: Google Bigquery Plans Pricing
   plan_count: 6
   slug: google-bigquery-plans-pricing
-random_paper: 114
+random_paper: 64
 rate_limits:
 - limit_count: 15
   name: Google Bigquery Rate Limits
@@ -313,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/screenshots/google-bigquery-2026-06-20T182029.png
 security:

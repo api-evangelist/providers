@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +48,17 @@ apis:
 - description: The Views API from Export-Import Bank of the United States — 1 operation(s) for views.
   name: Export-Import Bank of the United States Views API
   slug: export-import-bank-of-the-united-states-views-api
-artifact_total: 24
+artifact_total: 27
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EXIM Bank Open Data API (Socrata SODA) Resource API
+  slug: open-export-import-bank-of-the-united-states-resource-api
+- collection_type: open
+  name: EXIM Bank Open Data API (Socrata SODA) Resource Views API
+  slug: open-export-import-bank-of-the-united-states-views-api
 - collection_type: open
   name: EXIM Bank Open Data API (Socrata SODA)
   slug: open-export-import-bank-of-the-united-states
@@ -138,7 +147,7 @@ plans:
 - name: About Exim Exim Gov Export Import Bank Of The United States Plans Pricing
   plan_count: 3
   slug: about-exim-exim-gov-export-import-bank-of-the-united-states-plans-pricing
-random_paper: 26
+random_paper: 141
 rate_limits:
 - limit_count: 5
   name: About Exim Exim Gov Export Import Bank Of The United States Rate Limits
@@ -169,7 +178,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/export-import-bank-of-the-united-states/refs/heads/main/screenshots/export-import-bank-of-the-united-states-2026-06-20T180939.png
 security:

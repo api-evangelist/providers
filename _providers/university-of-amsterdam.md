@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 1
@@ -90,7 +90,53 @@ apis:
 - description: Data stories
   name: University of Amsterdam Stories API
   slug: university-of-amsterdam-stories-api
-artifact_total: 32
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TriplyDB Accounts API
+  slug: open-university-of-amsterdam-accounts-api
+- collection_type: open
+  name: TriplyDB Accounts Assets API
+  slug: open-university-of-amsterdam-assets-api
+- collection_type: open
+  name: TriplyDB Accounts Datasets API
+  slug: open-university-of-amsterdam-datasets-api
+- collection_type: open
+  name: TriplyDB Accounts GraphQL API
+  slug: open-university-of-amsterdam-graphql-api
+- collection_type: open
+  name: TriplyDB Accounts Graphs API
+  slug: open-university-of-amsterdam-graphs-api
+- collection_type: open
+  name: TriplyDB Accounts Hooks API
+  slug: open-university-of-amsterdam-hooks-api
+- collection_type: open
+  name: TriplyDB Accounts Info API
+  slug: open-university-of-amsterdam-info-api
+- collection_type: open
+  name: TriplyDB Accounts Jobs API
+  slug: open-university-of-amsterdam-jobs-api
+- collection_type: open
+  name: TriplyDB Accounts Prefixes API
+  slug: open-university-of-amsterdam-prefixes-api
+- collection_type: open
+  name: TriplyDB Accounts Queries API
+  slug: open-university-of-amsterdam-queries-api
+- collection_type: open
+  name: TriplyDB Accounts Search API
+  slug: open-university-of-amsterdam-search-api
+- collection_type: open
+  name: TriplyDB Accounts Services API
+  slug: open-university-of-amsterdam-services-api
+- collection_type: open
+  name: TriplyDB Accounts SPARQL API
+  slug: open-university-of-amsterdam-sparql-api
+- collection_type: open
+  name: TriplyDB Accounts Stories API
+  slug: open-university-of-amsterdam-stories-api
 common:
 - group: agent
   title: ''
@@ -186,7 +232,7 @@ plans:
 - name: University Of Amsterdam Plans Pricing
   plan_count: 2
   slug: university-of-amsterdam-plans-pricing
-random_paper: 103
+random_paper: 148
 rate_limits:
 - limit_count: 1
   name: University Of Amsterdam Rate Limits
@@ -234,7 +280,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/screenshots/university-of-amsterdam-2026-06-20T200128.png
 security:

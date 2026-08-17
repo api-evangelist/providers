@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,11 +55,32 @@ apis:
 - description: The Vehicle Types API from Lime — 1 operation(s) for vehicle types.
   name: Lime Vehicle Types API
   slug: lime-vehicle-types-api
-artifact_total: 10
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Lime GBFS Public Feed Free Bike Status API
+  slug: open-lime-free-bike-status-api
+- collection_type: open
+  name: Lime GBFS Public Feed Free Bike Status Gbfs.json API
+  slug: open-lime-gbfs-json-api
 - collection_type: open
   name: Lime GBFS Public Feed
   slug: open-lime-gbfs
+- collection_type: open
+  name: Lime GBFS Public Feed Free Bike Status Station Information API
+  slug: open-lime-station-information-api
+- collection_type: open
+  name: Lime GBFS Public Feed Free Bike Status Station Status API
+  slug: open-lime-station-status-api
+- collection_type: open
+  name: Lime GBFS Public Feed Free Bike Status System Information API
+  slug: open-lime-system-information-api
+- collection_type: open
+  name: Lime GBFS Public Feed Free Bike Status Vehicle Types API
+  slug: open-lime-vehicle-types-api
 common:
 - group: agent
   title: ''
@@ -150,7 +171,7 @@ overview: 'Lime publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Lime''s developer surface includes support and 18 more developer resources.'
-random_paper: 63
+random_paper: 125
 score:
   band: emerging
   composite: 25.9
@@ -171,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/screenshots/lime-2026-06-20T184529.png
 security:

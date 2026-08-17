@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Operations operations
   name: microsoft-azure-data-factory Operations API
   slug: microsoft-azure-data-factory-operations-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Data Factory REST Factories API
+  slug: open-microsoft-azure-data-factory-factories-api
+- collection_type: open
+  name: Azure Data Factory REST Factories Operations API
+  slug: open-microsoft-azure-data-factory-operations-api
 - collection_type: open
   name: Azure Data Factory REST API
   slug: open-microsoft-azure-data-factory
@@ -114,7 +123,7 @@ plans:
 - name: Microsoft Azure Data Factory Plans Pricing
   plan_count: 3
   slug: microsoft-azure-data-factory-plans-pricing
-random_paper: 78
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Data Factory Rate Limits
@@ -144,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/screenshots/microsoft-azure-data-factory-2026-06-20T185409.png
 security:

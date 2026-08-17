@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,29 @@ apis:
 - description: The Timezone.txt API from World Time API — 1 operation(s) for timezone.txt.
   name: World Time API Timezone.txt API
   slug: worldtimeapi-timezone-txt-api
-artifact_total: 19
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: World Time Geo API
+  slug: open-worldtimeapi-geo-api
+- collection_type: open
+  name: World Time Geo Geo.txt API
+  slug: open-worldtimeapi-geo-txt-api
+- collection_type: open
+  name: World Time Geo Ip API
+  slug: open-worldtimeapi-ip-api
+- collection_type: open
+  name: World Time Geo Ip.txt API
+  slug: open-worldtimeapi-ip-txt-api
+- collection_type: open
+  name: World Time Geo Timezone API
+  slug: open-worldtimeapi-timezone-api
+- collection_type: open
+  name: World Time Geo Timezone.txt API
+  slug: open-worldtimeapi-timezone-txt-api
 common:
 - group: agent
   title: ''
@@ -150,7 +172,7 @@ plans:
 - name: Worldtimeapi Plans Pricing
   plan_count: 5
   slug: worldtimeapi-plans-pricing
-random_paper: 97
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Worldtimeapi Rate Limits
@@ -184,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/screenshots/worldtimeapi-2026-06-20T201622.png
 security:

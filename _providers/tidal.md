@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ arazzos:
 - description: Read a music video, resolve its artist, and surface similar videos.
   name: TIDAL Video Explorer
   slug: tidal-video-explorer-workflow
-artifact_total: 132
+artifact_total: 196
 collections:
 - collection_type: postman
   name: TIDAL Catalog API
@@ -295,35 +295,227 @@ collections:
   name: TIDAL Users API
   slug: postman-tidal-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms API
+  slug: open-tidal-acceptedterms-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms albums API
+  slug: open-tidal-albums-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms albumStatistics API
+  slug: open-tidal-albumstatistics-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms appreciations API
+  slug: open-tidal-appreciations-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms artistBiographies API
+  slug: open-tidal-artistbiographies-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms artistClaims API
+  slug: open-tidal-artistclaims-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms artistRoles API
+  slug: open-tidal-artistroles-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms artists API
+  slug: open-tidal-artists-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms artworks API
+  slug: open-tidal-artworks-api
+- collection_type: open
   name: TIDAL Catalog API
   slug: open-tidal-catalog-api
 - collection_type: open
   name: TIDAL Claims API
   slug: open-tidal-claims-api
 - collection_type: open
+  name: TIDAL Catalog acceptedTerms clients API
+  slug: open-tidal-clients-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms comments API
+  slug: open-tidal-comments-api
+- collection_type: open
   name: TIDAL Commerce API
   slug: open-tidal-commerce-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms contentClaims API
+  slug: open-tidal-contentclaims-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms credits API
+  slug: open-tidal-credits-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms downloads API
+  slug: open-tidal-downloads-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms dspSharingLinks API
+  slug: open-tidal-dspsharinglinks-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms dynamicModules API
+  slug: open-tidal-dynamicmodules-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms dynamicPages API
+  slug: open-tidal-dynamicpages-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms genres API
+  slug: open-tidal-genres-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms installations API
+  slug: open-tidal-installations-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms lyrics API
+  slug: open-tidal-lyrics-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms manualArtistClaims API
+  slug: open-tidal-manualartistclaims-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms offlineTasks API
+  slug: open-tidal-offlinetasks-api
 - collection_type: open
   name: TIDAL Playback API
   slug: open-tidal-playback-api
 - collection_type: open
-  name: TIDAL Playlists API
+  name: TIDAL Catalog acceptedTerms playlists API
   slug: open-tidal-playlists-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms playQueues API
+  slug: open-tidal-playqueues-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms priceConfigurations API
+  slug: open-tidal-priceconfigurations-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms providerOwners API
+  slug: open-tidal-providerowners-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms providerProductInfos API
+  slug: open-tidal-providerproductinfos-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms providers API
+  slug: open-tidal-providers-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms purchases API
+  slug: open-tidal-purchases-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms reactions API
+  slug: open-tidal-reactions-api
 - collection_type: open
   name: TIDAL Recommendations API
   slug: open-tidal-recommendations-api
 - collection_type: open
+  name: TIDAL Catalog acceptedTerms savedShares API
+  slug: open-tidal-savedshares-api
+- collection_type: open
   name: TIDAL Search API
   slug: open-tidal-search-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms searchHistoryEntries API
+  slug: open-tidal-searchhistoryentries-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms searchResults API
+  slug: open-tidal-searchresults-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms searchSuggestions API
+  slug: open-tidal-searchsuggestions-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms shares API
+  slug: open-tidal-shares-api
 - collection_type: open
   name: TIDAL Social API
   slug: open-tidal-social-api
 - collection_type: open
+  name: TIDAL Catalog acceptedTerms squareConnections API
+  slug: open-tidal-squareconnections-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms stripeConnections API
+  slug: open-tidal-stripeconnections-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms stripeDashboardLinks API
+  slug: open-tidal-stripedashboardlinks-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms temporaryUserTokens API
+  slug: open-tidal-temporaryusertokens-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms terms API
+  slug: open-tidal-terms-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms trackFiles API
+  slug: open-tidal-trackfiles-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms trackManifests API
+  slug: open-tidal-trackmanifests-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms tracks API
+  slug: open-tidal-tracks-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms tracksMetadataStatus API
+  slug: open-tidal-tracksmetadatastatus-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms trackSourceFiles API
+  slug: open-tidal-tracksourcefiles-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms trackStatistics API
+  slug: open-tidal-trackstatistics-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms usageRules API
+  slug: open-tidal-usagerules-api
+- collection_type: open
   name: TIDAL User Collections API
   slug: open-tidal-user-collections-api
 - collection_type: open
-  name: TIDAL Users API
+  name: TIDAL Catalog acceptedTerms userCollectionAlbums API
+  slug: open-tidal-usercollectionalbums-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userCollectionArtists API
+  slug: open-tidal-usercollectionartists-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userCollectionFolders API
+  slug: open-tidal-usercollectionfolders-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userCollectionPlaylists API
+  slug: open-tidal-usercollectionplaylists-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userCollections API
+  slug: open-tidal-usercollections-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userCollectionSaveForLaters API
+  slug: open-tidal-usercollectionsaveforlaters-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userCollectionTracks API
+  slug: open-tidal-usercollectiontracks-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userCollectionVideos API
+  slug: open-tidal-usercollectionvideos-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userDailyMixes API
+  slug: open-tidal-userdailymixes-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userDataExportRequests API
+  slug: open-tidal-userdataexportrequests-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userDiscoveryMixes API
+  slug: open-tidal-userdiscoverymixes-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userNewReleaseMixes API
+  slug: open-tidal-usernewreleasemixes-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userOfflineMixes API
+  slug: open-tidal-userofflinemixes-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userRecommendations API
+  slug: open-tidal-userrecommendations-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms userReports API
+  slug: open-tidal-userreports-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms users API
   slug: open-tidal-users-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms videoManifests API
+  slug: open-tidal-videomanifests-api
+- collection_type: open
+  name: TIDAL Catalog acceptedTerms videos API
+  slug: open-tidal-videos-api
 common:
 - group: agent
   title: ''
@@ -592,7 +784,7 @@ plans:
 - name: Tidal Plans Pricing
   plan_count: 6
   slug: tidal-plans-pricing
-random_paper: 46
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Tidal Rate Limits
@@ -639,7 +831,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/screenshots/tidal-2026-06-20T195337.png
 security:

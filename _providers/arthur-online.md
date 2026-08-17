@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ arazzos:
 - description: 'Bring a new building into Arthur Online: create the property, add a lettable unit, file the compliance certificate, publish the information shared with occupants and attach the document. Every operati'
   name: Arthur Online - onboard a property
   slug: arthur-online-onboard-property
-artifact_total: 43
+artifact_total: 59
 asyncapis:
 - description: The Arthur Online webhook event surface. A property manager subscribes a webhook URL to one or more of the 125 published triggers on the Arthur webhook page; Arthur then POSTs a form-encoded payload t
   name: Arthur Online Webhooks
@@ -144,6 +144,54 @@ collections:
 - collection_type: postman
   name: Arthur Viewings API
   slug: postman-arthur-online-viewings
+- collection_type: open
+  name: Arthur Applicants API
+  slug: open-arthur-online-applicants
+- collection_type: open
+  name: Arthur Assets API
+  slug: open-arthur-online-assets
+- collection_type: open
+  name: Arthur Certificates API
+  slug: open-arthur-online-certificates
+- collection_type: open
+  name: Arthur Conversations API
+  slug: open-arthur-online-conversations
+- collection_type: open
+  name: Arthur Entities API
+  slug: open-arthur-online-entities
+- collection_type: open
+  name: Arthur Financials API
+  slug: open-arthur-online-financials
+- collection_type: open
+  name: Arthur Maintenance API
+  slug: open-arthur-online-maintenance
+- collection_type: open
+  name: Arthur Notes API
+  slug: open-arthur-online-notes
+- collection_type: open
+  name: Arthur Properties API
+  slug: open-arthur-online-properties
+- collection_type: open
+  name: Arthur Tags API
+  slug: open-arthur-online-tags
+- collection_type: open
+  name: Arthur Tenancies API
+  slug: open-arthur-online-tenancies
+- collection_type: open
+  name: Arthur Tenants API
+  slug: open-arthur-online-tenants
+- collection_type: open
+  name: Arthur Types API
+  slug: open-arthur-online-types
+- collection_type: open
+  name: Arthur Units API
+  slug: open-arthur-online-units
+- collection_type: open
+  name: Arthur Utilities API
+  slug: open-arthur-online-utilities
+- collection_type: open
+  name: Arthur Viewings API
+  slug: open-arthur-online-viewings
 common:
 - group: build
   title: ''
@@ -325,7 +373,7 @@ plans:
 - name: Arthur Online Plans
   plan_count: 3
   slug: arthur-online-plans
-random_paper: 32
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Arthur Online Rate Limits
@@ -353,7 +401,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/screenshots/arthur-online-2026-08-07T161741.png
 security:

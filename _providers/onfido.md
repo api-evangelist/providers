@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 45
 apis:
 - description: The Addresses API from Onfido — 1 operation(s) for addresses.
@@ -166,11 +166,149 @@ apis:
 - description: The Workflows API from Onfido — 8 operation(s) for workflows.
   name: Onfido Workflows API
   slug: onfido-workflows-api
-artifact_total: 50
+artifact_total: 96
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Onfido Addresses API
+  slug: open-onfido-addresses-api
+- collection_type: open
+  name: Onfido Applicants API
+  slug: open-onfido-applicants-api
 - collection_type: open
   name: Onfido Webhooks
   slug: open-onfido-asyncapi
+- collection_type: open
+  name: Onfido Attempts API
+  slug: open-onfido-attempts-api
+- collection_type: open
+  name: Onfido Cancel API
+  slug: open-onfido-cancel-api
+- collection_type: open
+  name: Onfido Capture API
+  slug: open-onfido-capture-api
+- collection_type: open
+  name: Onfido Captures API
+  slug: open-onfido-captures-api
+- collection_type: open
+  name: Onfido Checks API
+  slug: open-onfido-checks-api
+- collection_type: open
+  name: Onfido Complete API
+  slug: open-onfido-complete-api
+- collection_type: open
+  name: Onfido Documents API
+  slug: open-onfido-documents-api
+- collection_type: open
+  name: Onfido Download API
+  slug: open-onfido-download-api
+- collection_type: open
+  name: Onfido Downloads API
+  slug: open-onfido-downloads-api
+- collection_type: open
+  name: Onfido Electronic API
+  slug: open-onfido-electronic-api
+- collection_type: open
+  name: Onfido Evidence API
+  slug: open-onfido-evidence-api
+- collection_type: open
+  name: Onfido Extractions API
+  slug: open-onfido-extractions-api
+- collection_type: open
+  name: Onfido Feedback API
+  slug: open-onfido-feedback-api
+- collection_type: open
+  name: Onfido Files API
+  slug: open-onfido-files-api
+- collection_type: open
+  name: Onfido Frame API
+  slug: open-onfido-frame-api
+- collection_type: open
+  name: Onfido Live API
+  slug: open-onfido-live-api
+- collection_type: open
+  name: Onfido Matches API
+  slug: open-onfido-matches-api
+- collection_type: open
+  name: Onfido Monitors API
+  slug: open-onfido-monitors-api
+- collection_type: open
+  name: Onfido Motion API
+  slug: open-onfido-motion-api
+- collection_type: open
+  name: Onfido Photo API
+  slug: open-onfido-photo-api
+- collection_type: open
+  name: Onfido Photos API
+  slug: open-onfido-photos-api
+- collection_type: open
+  name: Onfido Pick API
+  slug: open-onfido-pick-api
+- collection_type: open
+  name: Onfido Pings API
+  slug: open-onfido-pings-api
+- collection_type: open
+  name: Onfido Repeat API
+  slug: open-onfido-repeat-api
+- collection_type: open
+  name: Onfido Report API
+  slug: open-onfido-report-api
+- collection_type: open
+  name: Onfido Reports API
+  slug: open-onfido-reports-api
+- collection_type: open
+  name: Onfido Resend API
+  slug: open-onfido-resend-api
+- collection_type: open
+  name: Onfido Restore API
+  slug: open-onfido-restore-api
+- collection_type: open
+  name: Onfido Results API
+  slug: open-onfido-results-api
+- collection_type: open
+  name: Onfido Resume API
+  slug: open-onfido-resume-api
+- collection_type: open
+  name: Onfido Run API
+  slug: open-onfido-run-api
+- collection_type: open
+  name: Onfido Runs API
+  slug: open-onfido-runs-api
+- collection_type: open
+  name: Onfido Signatures API
+  slug: open-onfido-signatures-api
+- collection_type: open
+  name: Onfido Signed API
+  slug: open-onfido-signed-api
+- collection_type: open
+  name: Onfido Task API
+  slug: open-onfido-task-api
+- collection_type: open
+  name: Onfido Tasks API
+  slug: open-onfido-tasks-api
+- collection_type: open
+  name: Onfido Timeline API
+  slug: open-onfido-timeline-api
+- collection_type: open
+  name: Onfido Token API
+  slug: open-onfido-token-api
+- collection_type: open
+  name: Onfido Video API
+  slug: open-onfido-video-api
+- collection_type: open
+  name: Onfido Videos API
+  slug: open-onfido-videos-api
+- collection_type: open
+  name: Onfido Watchlist API
+  slug: open-onfido-watchlist-api
+- collection_type: open
+  name: Onfido Webhooks API
+  slug: open-onfido-webhooks-api
+- collection_type: open
+  name: Onfido Workflows API
+  slug: open-onfido-workflows-api
 common:
 - group: auth
   title: ''
@@ -264,7 +402,7 @@ plans:
 - name: Onfido Plans Pricing
   plan_count: 3
   slug: onfido-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Onfido Rate Limits
@@ -288,7 +426,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfido/refs/heads/main/screenshots/onfido-2026-06-20T190718.png
 security:

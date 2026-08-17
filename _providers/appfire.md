@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -43,7 +43,23 @@ apis:
 - description: The Worklogs API from Appfire — 10 operation(s) for worklogs.
   name: Appfire Worklogs API
   slug: appfire-worklogs-api
-artifact_total: 10
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OKR API query methods API
+  slug: open-appfire-api-query-methods-api
+- collection_type: open
+  name: OKR API update methods API
+  slug: open-appfire-api-update-methods-api
+- collection_type: open
+  name: Appfire Settings API
+  slug: open-appfire-settings-api
+- collection_type: open
+  name: Appfire Worklogs API
+  slug: open-appfire-worklogs-api
 common:
 - group: agent
   title: ''
@@ -177,7 +193,7 @@ overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Appfire''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 22 more developer resources.'
-random_paper: 23
+random_paper: 147
 score:
   band: developing
   composite: 48.7
@@ -201,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/screenshots/appfire-2026-08-07T161502.png
 security:

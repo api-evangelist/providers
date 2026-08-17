@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -89,7 +89,62 @@ apis:
 - description: The Release Notes API from Retraced — 1 operation(s) for release notes.
   name: Retraced Release Notes API
   slug: retraced-release-notes-api
-artifact_total: 21
+artifact_total: 39
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public API Reference Certificates API
+  slug: open-retraced-certificates-api
+- collection_type: open
+  name: Public API Reference Certificates Companies API
+  slug: open-retraced-companies-api
+- collection_type: open
+  name: Public API Reference Certificates Files API
+  slug: open-retraced-files-api
+- collection_type: open
+  name: Public API Reference Certificates Guides API
+  slug: open-retraced-guides-api
+- collection_type: open
+  name: Public API Reference Certificates Order Hub / Attachment Templates API
+  slug: open-retraced-order-hub-attachment-templates-api
+- collection_type: open
+  name: Public API Reference Certificates Order Hub / Order Lines API
+  slug: open-retraced-order-hub-order-lines-api
+- collection_type: open
+  name: Public API Reference Certificates Order Hub / Orders API
+  slug: open-retraced-order-hub-orders-api
+- collection_type: open
+  name: Public API Reference Certificates Product / BOM Headers API
+  slug: open-retraced-product-bom-headers-api
+- collection_type: open
+  name: Public API Reference Certificates Product / BOM Lines API
+  slug: open-retraced-product-bom-lines-api
+- collection_type: open
+  name: Public API Reference Certificates Product / BOM Placements API
+  slug: open-retraced-product-bom-placements-api
+- collection_type: open
+  name: Public API Reference Certificates Product / Material Headers API
+  slug: open-retraced-product-material-headers-api
+- collection_type: open
+  name: Public API Reference Certificates Product / Material Lines API
+  slug: open-retraced-product-material-lines-api
+- collection_type: open
+  name: Public API Reference Certificates Product / Style Properties API
+  slug: open-retraced-product-style-properties-api
+- collection_type: open
+  name: Public API Reference Certificates Product / Style Types API
+  slug: open-retraced-product-style-types-api
+- collection_type: open
+  name: Public API Reference Certificates Product / Styles API
+  slug: open-retraced-product-styles-api
+- collection_type: open
+  name: Public API Reference Certificates Product / Supply Chains API
+  slug: open-retraced-product-supply-chains-api
+- collection_type: open
+  name: Public API Reference Certificates Release Notes API
+  slug: open-retraced-release-notes-api
 common:
 - group: company
   title: ''
@@ -203,7 +258,7 @@ overview: 'Retraced publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Retraced''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 2
+random_paper: 97
 score:
   band: thin
   composite: 37.9
@@ -227,7 +282,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

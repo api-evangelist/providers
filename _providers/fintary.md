@@ -1,35 +1,52 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
+  confidence: medium
+  label: Contact sales / customer tenant
+  onboarding: approval
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - documentation
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    mcp_server: true
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 63.1
+  scored_at: '2026-08-17'
+agentic_access:
+- acting_count: 39
+  human_in_the_loop: 0
+  name: Fintary Agentic Access
+  operation_count: 81
+  slug: fintary-agentic-access
+  summary_line: 81 operations · 39 acting
+api_count: 2
+apis:
+- description: Customer-facing REST API over Fintary's commission and distribution data — list, create and update agents; assign and remove uplines; read an agent's commissions, payouts, policies and dashboard snaps
+  name: Fintary Open API
+  slug: fintary-open-api
+- description: 'Agency Management System REST API covering the policy, customer and agent record core — policy detail, status changes, teams, tasks, commission breakdown and the two-phase document repository upload; '
+  name: Fintary AMS API
+  slug: fintary-ams-api
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -51,46 +68,135 @@ common:
   title: ''
   type: Blog
   url: https://fintary.com/resources
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.fintary.com/documentation
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.fintary.com/openapi-doc
+- group: start
+  title: ''
+  type: Login
+  url: https://app.fintary.com
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://fintary.instatus.com/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.fintary.com/carriers
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/fintary-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/fintary-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/fintary-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/fintary-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/fintary-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/fintary-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/fintary-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/fintary-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/fintary-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fintary-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/fintary-agentic-access.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/fintary-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fintary-rate-limits.yml
 created: '2026-07-17'
-description: Fintary is an AI-powered commission management and revenue operations platform for insurance distribution — serving brokerages, carriers, and wealth firms. It automates compensation calculation and reporting across complex hierarchies, splits, overrides, and bonuses; reconciles carrier statement data; monitors chargebacks; surfaces real-time revenue and profitability analytics; and provides a white-label producer portal for 24/7 commission visibility. Fintary integrates with agency and distribution systems such as Applied Epic, Agency Integrator, SmartOffice, OneHQ, and BenefitPoint, and states it supports API connections to accounting, document management, and custom databases. This profile is maintained in the API Evangelist network; Fintary does not currently publish a public developer portal or API specification.
+description: Fintary is an AI-powered commission management and revenue operations platform for insurance distribution — serving brokerages, carriers, and wealth firms. It automates compensation calculation and reporting across complex hierarchies, splits, overrides, and bonuses; reconciles carrier statement data; monitors chargebacks; surfaces real-time revenue and profitability analytics; and provides a white-label producer portal for 24/7 commission visibility. Fintary integrates with agency and distribution systems such as Applied Epic, Agency Integrator, SmartOffice, OneHQ, and BenefitPoint. Fintary publishes two OpenAPI 3.0.0 contracts on its own API host at api.fintary.com — a customer-facing Open API (agents, commissions, payouts, policies, analytics datasets/reports/widgets, document upload) and an AMS API (policies, customers, agents, contracts, hierarchy, tasks, document repository, page-config registry) — plus SSO integration guides for external identity providers. This profile
+  is maintained in the API Evangelist network.
 image: https://cdn.prod.website-files.com/6891283959a9d392e4db12c1/68d598f0c0abbe7967241ea6_fintary-webclip.png
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: fintary-mcp.yml
+  slug: fintary-mcpyml
+modified: '2026-08-14'
 name: Fintary
 nav: Providers
 network: true
-overview: 'Fintary is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Insurance, Insurtech, and Commissions.
+overview: 'Fintary publishes 2 APIs on the [APIs.io](https://apis.io/) network: Open API and AMS API. Tagged areas include Company, Fintech, Insurance, Insurtech, and Commissions.
 
 
-  Fintary''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 45
+  Fintary''s developer surface includes support, engineering blog, documentation, API reference, authentication, and 19 more developer resources.'
+plans:
+- name: Fintary Plans Pricing
+  plan_count: 0
+  slug: fintary-plans-pricing
+random_paper: 20
+rate_limits:
+- limit_count: 0
+  name: Fintary Rate Limits
+  slug: fintary-rate-limits
 score:
-  band: minimal
-  composite: 12.1
-  delta: 0.0
+  band: developing
+  composite: 42.8
+  delta: 30.7
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 42.1
+    contract_quality: 48.8
+    developer_ergonomics: 47.8
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 15.8
   previous_composite: 12.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 21.2
+    score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/screenshots/fintary-2026-07-25T214544.png
 security:
+- kind: authentication
+  name: Fintary Authentication
+  slug: fintary-authentication
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Fintary Domain Security
   slug: fintary-domain-security
@@ -104,5 +210,10 @@ tags:
 - Commissions
 - Revenue Operations
 - Analytics
+- Agency Management
+- Policy Management
+- Payouts
+- Reconciliation
+- OpenAPI
 website: https://fintary.com/
 ---

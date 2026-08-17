@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,11 +57,30 @@ apis:
 - description: The Test Types API from Athelas — 1 operation(s) for test types.
   name: Athelas Test Types API
   slug: athelas-test-types-api
-artifact_total: 12
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Athelas Webhooks
   slug: athelas-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Athelas Enterprise Auth API
+  slug: open-athelas-auth-api
+- collection_type: open
+  name: Athelas Enterprise Auth Patients API
+  slug: open-athelas-patients-api
+- collection_type: open
+  name: Athelas Enterprise Auth Prescribers API
+  slug: open-athelas-prescribers-api
+- collection_type: open
+  name: Athelas Enterprise Auth Sites API
+  slug: open-athelas-sites-api
+- collection_type: open
+  name: Athelas Enterprise Auth Test Types API
+  slug: open-athelas-test-types-api
 common:
 - group: company
   title: ''
@@ -194,7 +213,7 @@ overview: 'Athelas publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Athelas'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 21 more developer resources.'
-random_paper: 18
+random_paper: 142
 scopes:
 - name: Athelas Scopes
   scope_count: 31
@@ -229,7 +248,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/screenshots/athelas-2026-07-25T201527.png
 security:

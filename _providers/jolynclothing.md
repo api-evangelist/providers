@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Shopify-served Universal Commerce Protocol MCP endpoint for the JOLYN store, enabling buyer-approved agent-driven catalog search, cart, and checkout. Advertised in /.well-known/ucp and documented in /
@@ -92,7 +92,7 @@ overview: 'JOLYN publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   JOLYN''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 92
+random_paper: 71
 scopes:
 - name: Jolynclothing Scopes
   scope_count: 4
@@ -113,7 +113,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jolynclothing/refs/heads/main/screenshots/jolynclothing-2026-08-07T171017.png
 security:

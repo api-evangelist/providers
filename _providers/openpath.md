@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 302
   human_in_the_loop: 4
@@ -305,7 +305,278 @@ apis:
 - description: Token use and validation
   name: Openpath tokens API
   slug: openpath-tokens-api
-artifact_total: 94
+artifact_total: 184
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Openpath API Documentation auth API
+  slug: open-openpath-auth-api
+- collection_type: open
+  name: Openpath API Documentation auth billableFeatures API
+  slug: open-openpath-billablefeatures-api
+- collection_type: open
+  name: Openpath API Documentation auth identities API
+  slug: open-openpath-identities-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/acuModels API
+  slug: open-openpath-orgs-acumodels-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/acuPorts API
+  slug: open-openpath-orgs-acuports-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/acuPortTypes API
+  slug: open-openpath-orgs-acuporttypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/acus API
+  slug: open-openpath-orgs-acus-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/alarmActions API
+  slug: open-openpath-orgs-alarmactions-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/alarmConfigurations API
+  slug: open-openpath-orgs-alarmconfigurations-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/alarmSeverities API
+  slug: open-openpath-orgs-alarmseverities-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/alarmsExt API
+  slug: open-openpath-orgs-alarmsext-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/alarmStatuses API
+  slug: open-openpath-orgs-alarmstatuses-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/authCerts API
+  slug: open-openpath-orgs-authcerts-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/badgeConfigs API
+  slug: open-openpath-orgs-badgeconfigs-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/cardFormats API
+  slug: open-openpath-orgs-cardformats-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/cobalt API
+  slug: open-openpath-orgs-cobalt-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/contactSensors API
+  slug: open-openpath-orgs-contactsensors-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/credentialActionTypes API
+  slug: open-openpath-orgs-credentialactiontypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/credentials API
+  slug: open-openpath-orgs-credentials-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/credentialTypes API
+  slug: open-openpath-orgs-credentialtypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/customFields API
+  slug: open-openpath-orgs-customfields-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/customFieldTypes API
+  slug: open-openpath-orgs-customfieldtypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/dashboards API
+  slug: open-openpath-orgs-dashboards-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/effectiveScopes API
+  slug: open-openpath-orgs-effectivescopes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/emailAlerts API
+  slug: open-openpath-orgs-emailalerts-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/emailAlertTypes API
+  slug: open-openpath-orgs-emailalerttypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/entries API
+  slug: open-openpath-orgs-entries-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/entryStates API
+  slug: open-openpath-orgs-entrystates-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/eolSupervisions API
+  slug: open-openpath-orgs-eolsupervisions-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/features API
+  slug: open-openpath-orgs-features-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/fobAllegions API
+  slug: open-openpath-orgs-foballegions-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/genericInputs API
+  slug: open-openpath-orgs-genericinputs-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/groups API
+  slug: open-openpath-orgs-groups-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/hookActions API
+  slug: open-openpath-orgs-hookactions-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/hookEvents API
+  slug: open-openpath-orgs-hookevents-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/identityProviders API
+  slug: open-openpath-orgs-identityproviders-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/identityProviderTypes API
+  slug: open-openpath-orgs-identityprovidertypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/ios API
+  slug: open-openpath-orgs-ios-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/locationMeasurementSourceTypes API
+  slug: open-openpath-orgs-locationmeasurementsourcetypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/lockdownPlans API
+  slug: open-openpath-orgs-lockdownplans-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/mailrooms API
+  slug: open-openpath-orgs-mailrooms-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/maintenanceWindow API
+  slug: open-openpath-orgs-maintenancewindow-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/maintenanceWindowAcuMap API
+  slug: open-openpath-orgs-maintenancewindowacumap-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/maintenanceWindowDefinition API
+  slug: open-openpath-orgs-maintenancewindowdefinition-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/maintenanceWindowMap API
+  slug: open-openpath-orgs-maintenancewindowmap-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/mobileAppConfig API
+  slug: open-openpath-orgs-mobileappconfig-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/namespaces API
+  slug: open-openpath-orgs-namespaces-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/opvideo-devices API
+  slug: open-openpath-orgs-opvideo-devices-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/orgIdentities API
+  slug: open-openpath-orgs-orgidentities-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/orgPackagePlans API
+  slug: open-openpath-orgs-orgpackageplans-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/orgPictures API
+  slug: open-openpath-orgs-orgpictures-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/packagePlans API
+  slug: open-openpath-orgs-packageplans-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/palettes API
+  slug: open-openpath-orgs-palettes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/parcelMessageTypes API
+  slug: open-openpath-orgs-parcelmessagetypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/parcels API
+  slug: open-openpath-orgs-parcels-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/parcelStatuses API
+  slug: open-openpath-orgs-parcelstatuses-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/readers API
+  slug: open-openpath-orgs-readers-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/recentAlarms API
+  slug: open-openpath-orgs-recentalarms-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/recentAlarmsExt API
+  slug: open-openpath-orgs-recentalarmsext-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/relayHardwareTypes API
+  slug: open-openpath-orgs-relayhardwaretypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/relays API
+  slug: open-openpath-orgs-relays-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/reports API
+  slug: open-openpath-orgs-reports-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/rexs API
+  slug: open-openpath-orgs-rexs-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/roles API
+  slug: open-openpath-orgs-roles-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/schedules API
+  slug: open-openpath-orgs-schedules-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/scheduleTypes API
+  slug: open-openpath-orgs-scheduletypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/scopeResources API
+  slug: open-openpath-orgs-scoperesources-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/sharedUsers API
+  slug: open-openpath-orgs-sharedusers-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/sites API
+  slug: open-openpath-orgs-sites-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/subscriptions API
+  slug: open-openpath-orgs-subscriptions-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/tasks API
+  slug: open-openpath-orgs-tasks-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/termsAgreements API
+  slug: open-openpath-orgs-termsagreements-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/thirdPartyReaders API
+  slug: open-openpath-orgs-thirdpartyreaders-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/thirdPartyWiegands API
+  slug: open-openpath-orgs-thirdpartywiegands-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/triggerMethods API
+  slug: open-openpath-orgs-triggermethods-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/triggerPermissionsChange API
+  slug: open-openpath-orgs-triggerpermissionschange-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/unusedInputs API
+  slug: open-openpath-orgs-unusedinputs-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/users API
+  slug: open-openpath-orgs-users-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/videoProviderTypes API
+  slug: open-openpath-orgs-videoprovidertypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/widgetTypes API
+  slug: open-openpath-orgs-widgettypes-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/wiegands API
+  slug: open-openpath-orgs-wiegands-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/wirelessGateways API
+  slug: open-openpath-orgs-wirelessgateways-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/wirelessLockGateways API
+  slug: open-openpath-orgs-wirelesslockgateways-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/wirelessLockProviders API
+  slug: open-openpath-orgs-wirelesslockproviders-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/wirelessLockReaders API
+  slug: open-openpath-orgs-wirelesslockreaders-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/wirelessLocks API
+  slug: open-openpath-orgs-wirelesslocks-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/wirelessLockTemplates API
+  slug: open-openpath-orgs-wirelesslocktemplates-api
+- collection_type: open
+  name: Openpath API Documentation auth orgs/zones API
+  slug: open-openpath-orgs-zones-api
+- collection_type: open
+  name: Openpath API Documentation auth tokens API
+  slug: open-openpath-tokens-api
 common:
 - group: start
   title: ''
@@ -399,7 +670,7 @@ overview: 'Openpath publishes 89 APIs on the [APIs.io](https://apis.io/) network
 
 
   Openpath''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 23
+random_paper: 118
 scopes:
 - name: Openpath Scopes
   scope_count: 3
@@ -428,7 +699,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/screenshots/openpath-2026-08-07T190619.png
 security:

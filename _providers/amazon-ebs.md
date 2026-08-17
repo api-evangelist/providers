@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -76,11 +76,32 @@ arazzos:
 - description: Take a snapshot of an EBS volume and confirm the snapshot is visible.
   name: Amazon EBS Snapshot and Verify Volume
   slug: amazon-ebs-snapshot-and-verify-volume-workflow
-artifact_total: 45
+artifact_total: 52
 collections:
 - collection_type: postman
   name: Amazon EBS Amazon Elastic Block Store (EBS) API
   slug: postman-amazon-ebs
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EBS Amazon Elastic Block Store (EBS) Amazon EBS Amazon Elastic Block Store (EBS) API API
+  slug: open-amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api
+- collection_type: open
+  name: 'Amazon EBS Amazon Elastic Block Store (EBS) Amazon EBS Amazon Elastic Block Store (EBS) API #AttachVolume API'
+  slug: open-amazon-ebs-attachvolume-api
+- collection_type: open
+  name: 'Amazon EBS Amazon Elastic Block Store (EBS) Amazon EBS Amazon Elastic Block Store (EBS) API #CreateSnapshot API'
+  slug: open-amazon-ebs-createsnapshot-api
+- collection_type: open
+  name: 'Amazon EBS Amazon Elastic Block Store (EBS) Amazon EBS Amazon Elastic Block Store (EBS) API #DeleteVolume API'
+  slug: open-amazon-ebs-deletevolume-api
+- collection_type: open
+  name: 'Amazon EBS Amazon Elastic Block Store (EBS) Amazon EBS Amazon Elastic Block Store (EBS) API #DescribeSnapshots API'
+  slug: open-amazon-ebs-describesnapshots-api
+- collection_type: open
+  name: 'Amazon EBS Amazon Elastic Block Store (EBS) Amazon EBS Amazon Elastic Block Store (EBS) API #DetachVolume API'
+  slug: open-amazon-ebs-detachvolume-api
 - collection_type: open
   name: Amazon EBS Amazon Elastic Block Store (EBS) API
   slug: open-amazon-ebs
@@ -284,7 +305,7 @@ plans:
 - name: Amazon Ebs Plans Pricing
   plan_count: 3
   slug: amazon-ebs-plans-pricing
-random_paper: 45
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Amazon Ebs Rate Limits
@@ -326,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/screenshots/amazon-ebs-2026-06-20T171636.png
 security:

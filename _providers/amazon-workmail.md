@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 9
@@ -279,7 +279,7 @@ apis:
 - description: 'The #X Amz Target=WorkMailService.UpdateResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updateresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.UpdateResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-updateresource-api
-artifact_total: 964
+artifact_total: 1045
 collections:
 - collection_type: postman
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource API'
@@ -521,6 +521,249 @@ collections:
 - collection_type: postman
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UpdateResource API'
   slug: postman-amazon-workmail-x-amz-target-workmailservice-updateresource-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-associatedelegatetoresource-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateMemberToGroup API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-associatemembertogroup-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssumeImpersonationRole API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-assumeimpersonationrole-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.CancelMailboxExportJob API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-cancelmailboxexportjob-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.CreateAlias API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-createalias-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.CreateAvailabilityConfiguration API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-createavailabilityconfiguration-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.CreateGroup API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-creategroup-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.CreateImpersonationRole API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-createimpersonationrole-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.CreateMobileDeviceAccessRule API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-createmobiledeviceaccessrule-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.CreateOrganization API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-createorganization-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.CreateResource API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-createresource-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.CreateUser API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-createuser-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteAccessControlRule API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deleteaccesscontrolrule-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteAlias API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deletealias-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteAvailabilityConfiguration API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deleteavailabilityconfiguration-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteEmailMonitoringConfiguration API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deleteemailmonitoringconfiguration-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteGroup API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deletegroup-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteImpersonationRole API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deleteimpersonationrole-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteMailboxPermissions API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deletemailboxpermissions-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteMobileDeviceAccessOverride API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deletemobiledeviceaccessoverride-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteMobileDeviceAccessRule API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deletemobiledeviceaccessrule-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteOrganization API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deleteorganization-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteResource API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deleteresource-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteRetentionPolicy API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deleteretentionpolicy-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeleteUser API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deleteuser-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeregisterFromWorkMail API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deregisterfromworkmail-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DeregisterMailDomain API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-deregistermaildomain-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DescribeEmailMonitoringConfiguration API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-describeemailmonitoringconfiguration-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DescribeGroup API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-describegroup-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DescribeInboundDmarcSettings API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-describeinbounddmarcsettings-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DescribeMailboxExportJob API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-describemailboxexportjob-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DescribeOrganization API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-describeorganization-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DescribeResource API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-describeresource-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DescribeUser API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-describeuser-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DisassociateDelegateFromResource API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-disassociatedelegatefromresource-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.DisassociateMemberFromGroup API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-disassociatememberfromgroup-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.GetAccessControlEffect API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-getaccesscontroleffect-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.GetDefaultRetentionPolicy API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-getdefaultretentionpolicy-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.GetImpersonationRole API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-getimpersonationrole-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.GetImpersonationRoleEffect API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-getimpersonationroleeffect-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.GetMailboxDetails API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-getmailboxdetails-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.GetMailDomain API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-getmaildomain-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.GetMobileDeviceAccessEffect API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-getmobiledeviceaccesseffect-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.GetMobileDeviceAccessOverride API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-getmobiledeviceaccessoverride-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListAccessControlRules API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listaccesscontrolrules-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListAliases API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listaliases-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListAvailabilityConfigurations API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listavailabilityconfigurations-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListGroupMembers API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listgroupmembers-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListGroups API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listgroups-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListImpersonationRoles API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listimpersonationroles-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListMailboxExportJobs API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listmailboxexportjobs-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListMailboxPermissions API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listmailboxpermissions-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListMailDomains API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listmaildomains-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListMobileDeviceAccessOverrides API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listmobiledeviceaccessoverrides-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListMobileDeviceAccessRules API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listmobiledeviceaccessrules-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListOrganizations API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listorganizations-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListResourceDelegates API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listresourcedelegates-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListResources API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listresources-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListTagsForResource API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listtagsforresource-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ListUsers API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-listusers-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.PutAccessControlRule API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-putaccesscontrolrule-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.PutEmailMonitoringConfiguration API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-putemailmonitoringconfiguration-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.PutInboundDmarcSettings API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-putinbounddmarcsettings-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.PutMailboxPermissions API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-putmailboxpermissions-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.PutMobileDeviceAccessOverride API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-putmobiledeviceaccessoverride-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.PutRetentionPolicy API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-putretentionpolicy-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.RegisterMailDomain API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-registermaildomain-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.RegisterToWorkMail API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-registertoworkmail-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.ResetPassword API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-resetpassword-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.StartMailboxExportJob API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-startmailboxexportjob-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.TagResource API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-tagresource-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.TestAvailabilityConfiguration API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-testavailabilityconfiguration-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UntagResource API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-untagresource-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UpdateAvailabilityConfiguration API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-updateavailabilityconfiguration-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UpdateDefaultMailDomain API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-updatedefaultmaildomain-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UpdateImpersonationRole API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-updateimpersonationrole-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UpdateMailboxQuota API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-updatemailboxquota-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UpdateMobileDeviceAccessRule API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-updatemobiledeviceaccessrule-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UpdatePrimaryEmailAddress API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-updateprimaryemailaddress-api
+- collection_type: open
+  name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UpdateResource API'
+  slug: open-amazon-workmail-x-amz-target-workmailservice-updateresource-api
 common:
 - group: build
   title: ''
@@ -2986,7 +3229,7 @@ plans:
 - name: Amazon Workmail Plans Pricing
   plan_count: 3
   slug: amazon-workmail-plans-pricing
-random_paper: 1
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Amazon Workmail Rate Limits
@@ -3034,7 +3277,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/screenshots/amazon-workmail-2026-06-20T171848.png
 security:

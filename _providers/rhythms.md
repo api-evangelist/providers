@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -77,7 +77,50 @@ apis:
 - description: The users API from Rhythms — 1 operation(s) for users.
   name: Rhythms users API
   slug: rhythms-users-api
-artifact_total: 18
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Rhythms (params in:body) access_requests API
+  slug: open-rhythms-access-requests-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests chat_refresh_threads API
+  slug: open-rhythms-chat-refresh-threads-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests connector_requests API
+  slug: open-rhythms-connector-requests-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests data_sources API
+  slug: open-rhythms-data-sources-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests documents API
+  slug: open-rhythms-documents-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests explorer_views API
+  slug: open-rhythms-explorer-views-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests labels API
+  slug: open-rhythms-labels-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests mention_access_checks API
+  slug: open-rhythms-mention-access-checks-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests notifications API
+  slug: open-rhythms-notifications-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests objectives API
+  slug: open-rhythms-objectives-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests teams API
+  slug: open-rhythms-teams-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests time_periods API
+  slug: open-rhythms-time-periods-api
+- collection_type: open
+  name: Rhythms (params in:body) access_requests users API
+  slug: open-rhythms-users-api
 common:
 - group: other
   title: ''
@@ -175,7 +218,7 @@ overview: 'Rhythms publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Rhythms'' developer surface includes authentication, signup flow, pricing, engineering blog, support, and 15 more developer resources.'
-random_paper: 63
+random_paper: 38
 score:
   band: thin
   composite: 38.8
@@ -199,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

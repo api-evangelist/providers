@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,11 +104,11 @@ plans:
 - name: Mediaspectrum Plans Pricing
   plan_count: 0
   slug: mediaspectrum-plans-pricing
-random_paper: 75
+random_paper: 54
 score:
   band: minimal
   composite: 7.8
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -116,9 +116,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 7.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediaspectrum/refs/heads/main/screenshots/mediaspectrum-2026-08-07T172332.png
 security:

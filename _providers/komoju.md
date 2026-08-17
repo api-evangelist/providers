@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Tokenize payment details (short-term tokens and 3DS secure tokens).
   name: KOMOJU Tokens API
   slug: komoju-tokens-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: KOMOJU Barcodes API
+  slug: open-komoju-barcodes-api
+- collection_type: open
+  name: KOMOJU Barcodes Customers API
+  slug: open-komoju-customers-api
+- collection_type: open
+  name: KOMOJU Barcodes Events API
+  slug: open-komoju-events-api
+- collection_type: open
+  name: KOMOJU Barcodes Payment Methods API
+  slug: open-komoju-payment-methods-api
+- collection_type: open
+  name: KOMOJU Barcodes Payments API
+  slug: open-komoju-payments-api
+- collection_type: open
+  name: KOMOJU Barcodes Sessions API
+  slug: open-komoju-sessions-api
+- collection_type: open
+  name: KOMOJU Barcodes Subscriptions API
+  slug: open-komoju-subscriptions-api
+- collection_type: open
+  name: KOMOJU Barcodes Tokens API
+  slug: open-komoju-tokens-api
 - collection_type: open
   name: KOMOJU API
   slug: open-komoju
@@ -133,7 +160,7 @@ plans:
 - name: Komoju Plans Pricing
   plan_count: 3
   slug: komoju-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Komoju Rate Limits
@@ -164,7 +191,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/screenshots/komoju-2026-07-25T224141.png
 security:

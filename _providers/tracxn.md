@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -23,18 +23,21 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-12'
-api_count: 1
+  score: 31.1
+  scored_at: '2026-08-17'
+api_count: 2
 apis:
-- description: Programmatic access to Tracxn's private-market database (API version 2.2). JSON-over-HTTPS POST endpoints for companies, investors, funding transactions and acquisition transactions, filtered by feed/
+- description: 'Programmatic access to Tracxn''s private-market database. Version 3.0 is current and version 2.2 is formally announced for deprecation. A uniform JSON-over-HTTPS contract: every data endpoint is a POST'
   name: Tracxn API
   slug: tracxn-api
-artifact_total: 4
+- description: 'Tracxn''s official first-party remote Model Context Protocol server, exposing the private-market database to any MCP-compatible AI client — Claude, ChatGPT, Cursor, Gemini CLI, Perplexity, or anything '
+  name: Tracxn MCP Server
+  slug: tracxn-mcp-server
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -136,6 +139,42 @@ common:
   title: ''
   type: DataModel
   url: data-model/tracxn-data-model.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/tracxn-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/tracxn-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/tracxn-well-known.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/tracxn-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/tracxn-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/tracxn-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/tracxn-lifecycle.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.postman.com/tracxnapi/tracxn-api/folder/gg9mglv/companies-search-3-0
 created: '2026-07-17'
 description: 'Tracxn is a market intelligence platform for private company data, tracking 7.7M+ companies worldwide across 2,000+ sectors, 3K+ feeds and 55K+ taxonomies for venture capital funds, private equity, investment banks, corporate M&A and innovation teams. Alongside the platform it sells Data Solutions for programmatic access: the Tracxn API (JSON over HTTPS at platform.tracxn.com/api/2.2 with companies, investors, funding transactions and acquisition endpoints, plus a rate-limited Playground sandbox), an official Tracxn MCP server for AI assistants such as Claude, ChatGPT and Cursor, scheduled SFTP dumps, and Snowflake and BigQuery data-share integrations. Founded in Bengaluru by Neha Singh and Abhishek Goyal and backed by Accel, Tracxn is listed on the Indian stock exchanges (NSE: TRACXN).'
 image: https://avatars.githubusercontent.com/u/12694738?v=4
@@ -144,42 +183,55 @@ mcp_servers:
 - description: ''
   name: tracxn-mcp.yml
   slug: tracxn-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: Tracxn
 nav: Providers
 network: true
 overview: 'Tracxn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Market Intelligence, Private Markets, and Venture Capital.
 
 
-  Tracxn''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, FAQ, engineering blog, and 18 more developer resources.'
-random_paper: 56
+  Tracxn''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, FAQ, engineering blog, and 27 more developer resources.'
+plans:
+- name: Tracxn Plans Pricing
+  plan_count: 0
+  slug: tracxn-plans-pricing
+random_paper: 60
+rate_limits:
+- limit_count: 9
+  name: Tracxn Rate Limits
+  slug: tracxn-rate-limits
+scopes:
+- name: Tracxn Scopes
+  scope_count: 0
+  slug: tracxn-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.6
-  delta: 0.0
+  composite: 39.5
+  delta: 8.9
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 65.2
-    discoverability: 75.9
+    developer_ergonomics: 78.3
+    discoverability: 87.0
     governance: 3.1
-    operational_transparency: 5.3
+    operational_transparency: 44.7
   previous_composite: 30.6
   provenance:
     conformance: derived
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Tracxn Authentication
   slug: tracxn-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Tracxn Domain Security
   slug: tracxn-domain-security
-  summary_line: TLSv1.3 · HSTS
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: tracxn
 tags:
 - Company

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: The authenticated user and their organization memberships.
   name: Concord Users API
   slug: concord-com-users-api
-artifact_total: 12
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Concord Agreements API
+  slug: open-concord-com-agreements-api
+- collection_type: open
+  name: Concord Agreements Organizations API
+  slug: open-concord-com-organizations-api
+- collection_type: open
+  name: Concord Agreements Templates API
+  slug: open-concord-com-templates-api
+- collection_type: open
+  name: Concord Agreements Users API
+  slug: open-concord-com-users-api
 - collection_type: open
   name: Concord API
   slug: open-concord-com
@@ -116,7 +131,7 @@ plans:
 - name: Concord Com Plans Pricing
   plan_count: 3
   slug: concord-com-plans-pricing
-random_paper: 28
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Concord Com Rate Limits
@@ -141,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/screenshots/concord-com-2026-07-25T210223.png
 security:

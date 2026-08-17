@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,11 +42,18 @@ apis:
 - description: Create, read, list, estimate and cancel local courier deliveries.
   name: Metrobi Deliveries API
   slug: metrobi-deliveries-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Metrobi Delivery Webhooks
   slug: metrobi-delivery-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Metrobi Delivery Deliveries API
+  slug: open-metrobi-deliveries-api
 common:
 - group: start
   title: ''
@@ -175,7 +182,7 @@ overview: 'Metrobi publishes 1 API on the [APIs.io](https://apis.io/) network: D
 
 
   Metrobi''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 20 more developer resources.'
-random_paper: 34
+random_paper: 9
 score:
   band: developing
   composite: 47.7
@@ -199,7 +206,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/screenshots/metrobi-2026-08-07T172751.png
 security:

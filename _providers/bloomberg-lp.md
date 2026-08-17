@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: Keyword search across the FIGI universe.
   name: Bloomberg L.P. Search API
   slug: bloomberg-lp-search-api
-artifact_total: 50
+artifact_total: 55
 collections:
 - collection_type: postman
   name: OpenFIGI Filter API
@@ -80,6 +80,21 @@ collections:
 - collection_type: postman
   name: OpenFIGI Filter Search API
   slug: postman-bloomberg-lp-search-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenFIGI Filter API
+  slug: open-bloomberg-lp-filter-api
+- collection_type: open
+  name: OpenFIGI Filter Mapping API
+  slug: open-bloomberg-lp-mapping-api
+- collection_type: open
+  name: OpenFIGI Filter Reference API
+  slug: open-bloomberg-lp-reference-api
+- collection_type: open
+  name: OpenFIGI Filter Search API
+  slug: open-bloomberg-lp-search-api
 - collection_type: open
   name: OpenFIGI API
   slug: open-openfigi
@@ -281,7 +296,7 @@ plans:
 - name: Bloomberg Lp Plans Pricing
   plan_count: 6
   slug: bloomberg-lp-plans-pricing
-random_paper: 18
+random_paper: 26
 rate_limits:
 - limit_count: 6
   name: Bloomberg Lp Rate Limits
@@ -329,7 +344,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/screenshots/bloomberg-lp-2026-06-20T173441.png
 security:

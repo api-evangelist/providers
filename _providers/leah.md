@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,7 +111,7 @@ overview: 'Leah is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Leah''s developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
-random_paper: 50
+random_paper: 112
 score:
   band: emerging
   composite: 15.9
@@ -127,7 +127,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leah/refs/heads/main/screenshots/leah-2026-07-25T224724.png
 security:

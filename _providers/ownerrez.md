@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -108,8 +108,77 @@ apis:
 - description: Outbound webhook subscriptions and their event categories.
   name: OwnerRez WebhookSubscriptions API
   slug: ownerrez-webhooksubscriptions-api
-artifact_total: 31
+artifact_total: 54
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OwnerRez API v2 Bookings API
+  slug: open-ownerrez-bookings-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Deposits API
+  slug: open-ownerrez-deposits-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Discounts API
+  slug: open-ownerrez-discounts-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Fees API
+  slug: open-ownerrez-fees-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings FieldDefinitions API
+  slug: open-ownerrez-fielddefinitions-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Fields API
+  slug: open-ownerrez-fields-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Guests API
+  slug: open-ownerrez-guests-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Inquiries API
+  slug: open-ownerrez-inquiries-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Listings API
+  slug: open-ownerrez-listings-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Messages API
+  slug: open-ownerrez-messages-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Owners API
+  slug: open-ownerrez-owners-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Payments API
+  slug: open-ownerrez-payments-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Properties API
+  slug: open-ownerrez-properties-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings PropertySearch API
+  slug: open-ownerrez-propertysearch-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Quotes API
+  slug: open-ownerrez-quotes-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Refunds API
+  slug: open-ownerrez-refunds-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings SpotRates API
+  slug: open-ownerrez-spotrates-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Surcharges API
+  slug: open-ownerrez-surcharges-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings TagDefinitions API
+  slug: open-ownerrez-tagdefinitions-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Tags API
+  slug: open-ownerrez-tags-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings Users API
+  slug: open-ownerrez-users-api
+- collection_type: open
+  name: OwnerRez API v2 Bookings WebhookSubscriptions API
+  slug: open-ownerrez-webhooksubscriptions-api
 - collection_type: open
   name: OwnerRez API v2
   slug: open-ownerrez
@@ -182,7 +251,7 @@ plans:
 - name: Ownerrez Plans Pricing
   plan_count: 3
   slug: ownerrez-plans-pricing
-random_paper: 52
+random_paper: 147
 rate_limits:
 - limit_count: 1
   name: Ownerrez Rate Limits
@@ -212,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/screenshots/ownerrez-2026-08-07T191158.png
 security:

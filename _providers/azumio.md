@@ -28,13 +28,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Food Recognition API from Azumio — 2 operation(s) for food recognition.
   name: Azumio Food Recognition API
   slug: azumio-food-recognition-api
-artifact_total: 4
+artifact_total: 6
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Calorie Mama Food Recognition API
+  slug: open-azumio-food-recognition-api
 common:
 - group: other
   title: ''
@@ -140,7 +147,7 @@ overview: 'Azumio publishes 1 API on the [APIs.io](https://apis.io/) network: Fo
 
 
   Azumio''s developer surface includes documentation, API reference, signup flow, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 61
+random_paper: 65
 score:
   band: thin
   composite: 38.3
@@ -169,7 +176,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/screenshots/azumio-2026-07-25T202122.png
 security:

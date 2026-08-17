@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: A document contains content that Unblocked uses to answer questions. Each document is associated with a collection, so you must create a collection before adding documents. Documents used to provide a
   name: Unblocked Documents API
   slug: unblocked-documents-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unblocked Public API Reference Answers API
+  slug: open-unblocked-answers-api
+- collection_type: open
+  name: Unblocked Public API Reference Answers Collections API
+  slug: open-unblocked-collections-api
+- collection_type: open
+  name: Unblocked Public API Reference Answers Documents API
+  slug: open-unblocked-documents-api
 common:
 - group: other
   title: ''
@@ -197,7 +210,7 @@ overview: 'Unblocked publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Unblocked''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 111
+random_paper: 57
 score:
   band: strong
   composite: 59.0
@@ -221,7 +234,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

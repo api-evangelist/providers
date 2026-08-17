@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Order book, tickers, mark prices, and order updates
@@ -40,7 +40,20 @@ apis:
 - description: Health, server time, and exchange configuration
   name: DerivaDEX System API
   slug: derivadex-system-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DerivaDEX Exchange & Stats Market API
+  slug: open-derivadex-market-api
+- collection_type: open
+  name: DerivaDEX Exchange & Market Stats API
+  slug: open-derivadex-stats-api
+- collection_type: open
+  name: DerivaDEX Exchange & Stats Market System API
+  slug: open-derivadex-system-api
 common:
 - group: auth
   title: ''
@@ -142,7 +155,7 @@ overview: 'DerivaDEX publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   DerivaDEX''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 15 more developer resources.'
-random_paper: 116
+random_paper: 62
 score:
   band: thin
   composite: 39.0
@@ -171,7 +184,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/screenshots/derivadex-2026-07-25T211741.png
 security:

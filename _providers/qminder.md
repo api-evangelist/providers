@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -60,11 +60,36 @@ apis:
 - description: Manage webhook subscriptions
   name: Qminder Webhooks API
   slug: qminder-webhooks-api
-artifact_total: 14
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Qminder Events Webhooks
   slug: qminder-events-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Qminder Appointments API
+  slug: open-qminder-appointments-api
+- collection_type: open
+  name: Qminder Appointments Input Fields API
+  slug: open-qminder-input-fields-api
+- collection_type: open
+  name: Qminder Appointments Lines API
+  slug: open-qminder-lines-api
+- collection_type: open
+  name: Qminder Appointments Locations API
+  slug: open-qminder-locations-api
+- collection_type: open
+  name: Qminder Appointments Tickets API
+  slug: open-qminder-tickets-api
+- collection_type: open
+  name: Qminder Appointments Users API
+  slug: open-qminder-users-api
+- collection_type: open
+  name: Qminder Appointments Webhooks API
+  slug: open-qminder-webhooks-api
 common:
 - group: start
   title: ''
@@ -217,7 +242,7 @@ overview: 'Qminder publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qminder''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 26 more developer resources.'
-random_paper: 32
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Qminder Rate Limits
@@ -245,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

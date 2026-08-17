@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,11 +69,44 @@ apis:
 - description: Comprehensive energy summaries across all sources.
   name: Energy Information Administration Total Energy API
   slug: energy-information-administration-total-energy-api
-artifact_total: 17
+artifact_total: 28
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions API
+  slug: open-energy-information-administration-co2-emissions-api
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions Coal API
+  slug: open-energy-information-administration-coal-api
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions Discovery API
+  slug: open-energy-information-administration-discovery-api
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions Electricity API
+  slug: open-energy-information-administration-electricity-api
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions International API
+  slug: open-energy-information-administration-international-api
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions Natural Gas API
+  slug: open-energy-information-administration-natural-gas-api
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions Nuclear API
+  slug: open-energy-information-administration-nuclear-api
 - collection_type: open
   name: U.S. Energy Information Administration Open Data API
   slug: open-energy-information-administration-open-data-api
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions Petroleum API
+  slug: open-energy-information-administration-petroleum-api
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions SEDS API
+  slug: open-energy-information-administration-seds-api
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data CO2 Emissions Total Energy API
+  slug: open-energy-information-administration-total-energy-api
 common:
 - group: agent
   title: ''
@@ -143,7 +176,7 @@ plans:
 - name: Energy Information Administration Plans Pricing
   plan_count: 3
   slug: energy-information-administration-plans-pricing
-random_paper: 80
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Energy Information Administration Rate Limits
@@ -174,7 +207,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/screenshots/energy-information-administration-2026-06-20T180702.png
 security:

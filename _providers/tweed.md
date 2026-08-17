@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 12
 apis:
 - description: Legacy marketplace/collections API — obtain a JWT with your API key and secret, then manage NFT collections and in-platform tokens for token checkout.
@@ -67,11 +67,48 @@ apis:
 - description: The tickets API from Tweed — 1 operation(s) for tickets.
   name: Tweed tickets API
   slug: tweed-tickets-api
-artifact_total: 16
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Tweed Webhooks
   slug: tweed-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tweed assets API
+  slug: open-tweed-assets-api
+- collection_type: open
+  name: Tweed assets audit-event-mappings API
+  slug: open-tweed-audit-event-mappings-api
+- collection_type: open
+  name: Tweed assets auth API
+  slug: open-tweed-auth-api
+- collection_type: open
+  name: Tweed assets blockchains API
+  slug: open-tweed-blockchains-api
+- collection_type: open
+  name: Tweed assets checkout API
+  slug: open-tweed-checkout-api
+- collection_type: open
+  name: Tweed assets contracts API
+  slug: open-tweed-contracts-api
+- collection_type: open
+  name: Tweed assets items API
+  slug: open-tweed-items-api
+- collection_type: open
+  name: Tweed assets payouts API
+  slug: open-tweed-payouts-api
+- collection_type: open
+  name: Tweed assets platform-webhooks API
+  slug: open-tweed-platform-webhooks-api
+- collection_type: open
+  name: Tweed assets Rate API
+  slug: open-tweed-rate-api
+- collection_type: open
+  name: Tweed assets tickets API
+  slug: open-tweed-tickets-api
 common:
 - group: other
   title: ''
@@ -180,7 +217,7 @@ overview: 'Tweed publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tweed''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, sandbox, and 16 more developer resources.'
-random_paper: 57
+random_paper: 90
 score:
   band: thin
   composite: 38.9
@@ -209,7 +246,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

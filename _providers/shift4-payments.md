@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -99,11 +99,68 @@ apis:
 - description: Register and manage webhook endpoints.
   name: Shift4 Payments Webhook Endpoints API
   slug: shift4-payments-webhook-endpoints-api
-artifact_total: 49
+artifact_total: 68
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Shift4 Payments API
   slug: open-shift4-api
+- collection_type: open
+  name: Shift4 Payments Blacklist API
+  slug: open-shift4-payments-blacklist-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Cards API
+  slug: open-shift4-payments-cards-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Charges API
+  slug: open-shift4-payments-charges-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Checkout Sessions API
+  slug: open-shift4-payments-checkout-sessions-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Credits API
+  slug: open-shift4-payments-credits-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Customers API
+  slug: open-shift4-payments-customers-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Disputes API
+  slug: open-shift4-payments-disputes-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Events API
+  slug: open-shift4-payments-events-api
+- collection_type: open
+  name: Shift4 Payments Blacklist File Uploads API
+  slug: open-shift4-payments-file-uploads-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Fraud Warnings API
+  slug: open-shift4-payments-fraud-warnings-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Payment Links API
+  slug: open-shift4-payments-payment-links-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Payment Methods API
+  slug: open-shift4-payments-payment-methods-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Payouts API
+  slug: open-shift4-payments-payouts-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Plans API
+  slug: open-shift4-payments-plans-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Refunds API
+  slug: open-shift4-payments-refunds-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Subscriptions API
+  slug: open-shift4-payments-subscriptions-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Tokens API
+  slug: open-shift4-payments-tokens-api
+- collection_type: open
+  name: Shift4 Payments Blacklist Webhook Endpoints API
+  slug: open-shift4-payments-webhook-endpoints-api
 common:
 - group: agent
   title: ''
@@ -241,7 +298,7 @@ plans:
 - name: Shift4 Payments Plans Pricing
   plan_count: 1
   slug: shift4-payments-plans-pricing
-random_paper: 80
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Shift4 Payments Rate Limits
@@ -289,7 +346,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/screenshots/shift4-payments-2026-06-20T193806.png
 security:

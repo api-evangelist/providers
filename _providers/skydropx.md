@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,8 +66,38 @@ apis:
 - description: Track shipments and report tracking events.
   name: Skydropx Tracking API
   slug: skydropx-tracking-api
-artifact_total: 16
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Skydropx Pro Address Templates API
+  slug: open-skydropx-address-templates-api
+- collection_type: open
+  name: Skydropx Pro Address Templates Authentication API
+  slug: open-skydropx-authentication-api
+- collection_type: open
+  name: Skydropx Pro Address Templates Catalog API
+  slug: open-skydropx-catalog-api
+- collection_type: open
+  name: Skydropx Pro Address Templates Finance API
+  slug: open-skydropx-finance-api
+- collection_type: open
+  name: Skydropx Pro Address Templates Orders and Labels API
+  slug: open-skydropx-orders-and-labels-api
+- collection_type: open
+  name: Skydropx Pro Address Templates Pickups API
+  slug: open-skydropx-pickups-api
+- collection_type: open
+  name: Skydropx Pro Address Templates Quotations API
+  slug: open-skydropx-quotations-api
+- collection_type: open
+  name: Skydropx Pro Address Templates Shipments API
+  slug: open-skydropx-shipments-api
+- collection_type: open
+  name: Skydropx Pro Address Templates Tracking API
+  slug: open-skydropx-tracking-api
 - collection_type: open
   name: Skydropx Pro API
   slug: open-skydropx
@@ -128,7 +158,7 @@ plans:
 - name: Skydropx Plans Pricing
   plan_count: 2
   slug: skydropx-plans-pricing
-random_paper: 60
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Skydropx Rate Limits
@@ -159,7 +189,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

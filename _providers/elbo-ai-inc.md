@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: The Voices API from ELBO AI, INC — 1 operation(s) for voices.
   name: ELBO AI, INC Voices API
   slug: elbo-ai-inc-voices-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Puppetry Developer API Beta Audio Uploads API
+  slug: open-elbo-ai-inc-audio-uploads-api
+- collection_type: open
+  name: Puppetry Developer API Beta Audio Uploads Text to Speech API
+  slug: open-elbo-ai-inc-text-to-speech-api
+- collection_type: open
+  name: Puppetry Developer API Beta Audio Uploads Usage API
+  slug: open-elbo-ai-inc-usage-api
+- collection_type: open
+  name: Puppetry Developer API Beta Audio Uploads Videos API
+  slug: open-elbo-ai-inc-videos-api
+- collection_type: open
+  name: Puppetry Developer API Beta Audio Uploads Voices API
+  slug: open-elbo-ai-inc-voices-api
 common:
 - group: other
   title: ''
@@ -195,7 +214,7 @@ overview: 'ELBO AI, INC publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ELBO AI, INC''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 24 more developer resources.'
-random_paper: 64
+random_paper: 130
 score:
   band: developing
   composite: 50.4
@@ -219,7 +238,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/screenshots/elbo-ai-inc-2026-07-25T213052.png
 security:

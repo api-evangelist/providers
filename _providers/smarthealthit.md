@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: OAuth 2.0 authorization endpoints on the SMART App Launcher.
   name: SMART Health IT SMART App Launch API
   slug: smarthealthit-smart-app-launch-api
-artifact_total: 14
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SMART Health IT Sandbox FHIR APIs Bulk Data API
+  slug: open-smarthealthit-bulk-data-api
+- collection_type: open
+  name: SMART Health IT Sandbox FHIR APIs Bulk Data Clinical Records API
+  slug: open-smarthealthit-clinical-records-api
+- collection_type: open
+  name: SMART Health IT Sandbox FHIR APIs Bulk Data Conformance API
+  slug: open-smarthealthit-conformance-api
+- collection_type: open
+  name: SMART Health IT Sandbox FHIR APIs Bulk Data Patients API
+  slug: open-smarthealthit-patients-api
+- collection_type: open
+  name: SMART Health IT Sandbox FHIR APIs Bulk Data SMART App Launch API
+  slug: open-smarthealthit-smart-app-launch-api
 - collection_type: open
   name: SMART Health IT Sandbox FHIR APIs
   slug: open-smarthealthit
@@ -127,7 +145,7 @@ plans:
 - name: Smarthealthit Plans Pricing
   plan_count: 1
   slug: smarthealthit-plans-pricing
-random_paper: 82
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Smarthealthit Rate Limits
@@ -158,7 +176,7 @@ score:
     regime_id: health
     score: 22.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
 - description: Business trip receipts and invoices
   name: Uber Trips API
   slug: uber-trips-api
-artifact_total: 112
+artifact_total: 132
 collections:
 - collection_type: postman
   name: Uber for Business Codes API
@@ -159,8 +159,17 @@ collections:
   name: Uber for Business Codes Trips API
   slug: postman-uber-trips-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Uber for Business API
   slug: open-uber-businesses
+- collection_type: open
+  name: Uber for Business Codes API
+  slug: open-uber-codes-api
+- collection_type: open
+  name: Uber for Business Codes Deliveries API
+  slug: open-uber-deliveries-api
 - collection_type: open
   name: Uber Direct API
   slug: open-uber-direct
@@ -171,8 +180,59 @@ collections:
   name: Uber Eats API
   slug: open-uber-eats
 - collection_type: open
+  name: Uber for Business Codes Estimates API
+  slug: open-uber-estimates-api
+- collection_type: open
+  name: Uber for Business Codes Locations API
+  slug: open-uber-locations-api
+- collection_type: open
+  name: Uber for Business Codes Menus API
+  slug: open-uber-menus-api
+- collection_type: open
+  name: Uber for Business Codes Orders API
+  slug: open-uber-orders-api
+- collection_type: open
+  name: Uber for Business Codes Organizations API
+  slug: open-uber-organizations-api
+- collection_type: open
+  name: Uber for Business Codes Partners API
+  slug: open-uber-partners-api
+- collection_type: open
+  name: Uber for Business Codes Places API
+  slug: open-uber-places-api
+- collection_type: open
+  name: Uber for Business Codes Products API
+  slug: open-uber-products-api
+- collection_type: open
+  name: Uber for Business Codes Programs API
+  slug: open-uber-programs-api
+- collection_type: open
+  name: Uber for Business Codes Redemption API
+  slug: open-uber-redemption-api
+- collection_type: open
+  name: Uber for Business Codes Refunds API
+  slug: open-uber-refunds-api
+- collection_type: open
+  name: Uber for Business Codes Reporting API
+  slug: open-uber-reporting-api
+- collection_type: open
+  name: Uber for Business Codes Requests API
+  slug: open-uber-requests-api
+- collection_type: open
+  name: Uber for Business Codes Riders API
+  slug: open-uber-riders-api
+- collection_type: open
   name: Uber Riders API
   slug: open-uber-riders
+- collection_type: open
+  name: Uber for Business Codes Stores API
+  slug: open-uber-stores-api
+- collection_type: open
+  name: Uber for Business Codes Templates API
+  slug: open-uber-templates-api
+- collection_type: open
+  name: Uber for Business Codes Trips API
+  slug: open-uber-trips-api
 - collection_type: open
   name: Uber Vouchers API
   slug: open-uber-vouchers
@@ -453,7 +513,7 @@ plans:
 - name: Uber Plans Pricing
   plan_count: 1
   slug: uber-plans-pricing
-random_paper: 70
+random_paper: 132
 rate_limits:
 - limit_count: 1
   name: Uber Rate Limits
@@ -495,7 +555,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png
 security:

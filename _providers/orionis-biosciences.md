@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -61,7 +61,44 @@ apis:
 - description: The Users API from Orionis Biosciences — 3 operation(s) for users.
   name: Orionis Biosciences Users API
   slug: orionis-biosciences-users-api
-artifact_total: 15
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) Abilities API
+  slug: open-orionis-biosciences-abilities-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) Comments API
+  slug: open-orionis-biosciences-comments-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) Discovery API
+  slug: open-orionis-biosciences-discovery-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) Media API
+  slug: open-orionis-biosciences-media-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) News API
+  slug: open-orionis-biosciences-news-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) O Embed API
+  slug: open-orionis-biosciences-oembed-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) Pages API
+  slug: open-orionis-biosciences-pages-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) Search API
+  slug: open-orionis-biosciences-search-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) Taxonomy API
+  slug: open-orionis-biosciences-taxonomy-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) Team API
+  slug: open-orionis-biosciences-team-api
+- collection_type: open
+  name: Orionis Biosciences Website Content API (WordPress REST) Users API
+  slug: open-orionis-biosciences-users-api
 common:
 - group: agent
   title: ''
@@ -188,7 +225,7 @@ overview: 'Orionis Biosciences publishes 11 APIs on the [APIs.io](https://apis.i
 
 
   Orionis Biosciences'' developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
-random_paper: 55
+random_paper: 38
 score:
   band: emerging
   composite: 23.0
@@ -218,7 +255,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/screenshots/orionis-biosciences-2026-08-07T190940.png
 security:

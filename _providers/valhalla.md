@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -71,7 +71,44 @@ apis:
 - description: The Trace Route API from Valhalla — 1 operation(s) for trace route.
   name: Valhalla Trace Route API
   slug: valhalla-trace-route-api
-artifact_total: 26
+artifact_total: 38
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Valhalla Routing Expansion API
+  slug: open-valhalla-expansion-api
+- collection_type: open
+  name: Valhalla Routing Expansion Height API
+  slug: open-valhalla-height-api
+- collection_type: open
+  name: Valhalla Routing Expansion Isochrone API
+  slug: open-valhalla-isochrone-api
+- collection_type: open
+  name: Valhalla Routing Expansion Locate API
+  slug: open-valhalla-locate-api
+- collection_type: open
+  name: Valhalla Routing Expansion Optimized Route API
+  slug: open-valhalla-optimized-route-api
+- collection_type: open
+  name: Valhalla Routing Expansion Route API
+  slug: open-valhalla-route-api
+- collection_type: open
+  name: Valhalla Routing Expansion Sources To Targets API
+  slug: open-valhalla-sources-to-targets-api
+- collection_type: open
+  name: Valhalla Routing Expansion Status API
+  slug: open-valhalla-status-api
+- collection_type: open
+  name: Valhalla Routing Expansion Tile API
+  slug: open-valhalla-tile-api
+- collection_type: open
+  name: Valhalla Routing Expansion Trace Attributes API
+  slug: open-valhalla-trace-attributes-api
+- collection_type: open
+  name: Valhalla Routing Expansion Trace Route API
+  slug: open-valhalla-trace-route-api
 common:
 - group: agent
   title: ''
@@ -167,7 +204,7 @@ plans:
 - name: Open Source
   plan_count: 2
   slug: open-source
-random_paper: 117
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Openstreetmap De
@@ -201,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

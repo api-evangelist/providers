@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 5
@@ -60,7 +60,32 @@ apis:
 - description: Per-track and composite recording management.
   name: VideoSDK Track Recordings API
   slug: videosdk-track-recordings-api
-artifact_total: 27
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VideoSDK Real-Time Communication HLS Streaming API
+  slug: open-videosdk-hls-streaming-api
+- collection_type: open
+  name: VideoSDK Real-Time Communication HLS Streaming Participant Recordings API
+  slug: open-videosdk-participant-recordings-api
+- collection_type: open
+  name: VideoSDK Real-Time Communication HLS Streaming Recordings API
+  slug: open-videosdk-recordings-api
+- collection_type: open
+  name: VideoSDK Real-Time Communication HLS Streaming Rooms API
+  slug: open-videosdk-rooms-api
+- collection_type: open
+  name: VideoSDK Real-Time Communication HLS Streaming RTMP Streaming API
+  slug: open-videosdk-rtmp-streaming-api
+- collection_type: open
+  name: VideoSDK Real-Time Communication HLS Streaming Sessions API
+  slug: open-videosdk-sessions-api
+- collection_type: open
+  name: VideoSDK Real-Time Communication HLS Streaming Track Recordings API
+  slug: open-videosdk-track-recordings-api
 common:
 - group: agent
   title: ''
@@ -182,7 +207,7 @@ plans:
 - name: Videosdk Plans Pricing
   plan_count: 3
   slug: videosdk-plans-pricing
-random_paper: 17
+random_paper: 112
 rate_limits:
 - limit_count: 0
   name: Videosdk Rate Limits
@@ -216,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/screenshots/videosdk-2026-06-20T201124.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,20 @@ apis:
 - description: Configuration reload operations
   name: BFE Reload API
   slug: bfe-reload-api
-artifact_total: 43
+artifact_total: 47
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BFE Management Debug API
+  slug: open-bfe-debug-api
+- collection_type: open
+  name: BFE Management Debug Monitor API
+  slug: open-bfe-monitor-api
+- collection_type: open
+  name: BFE Management Debug Reload API
+  slug: open-bfe-reload-api
 common:
 - group: operate
   title: ''
@@ -207,7 +220,7 @@ plans:
 - name: Bfe Plans Pricing
   plan_count: 3
   slug: bfe-plans-pricing
-random_paper: 61
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Bfe Rate Limits
@@ -249,7 +262,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/screenshots/bfe-2026-06-20T173215.png
 security:

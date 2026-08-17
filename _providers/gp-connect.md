@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,7 +65,32 @@ apis:
 - description: The Task API from GP Connect — 1 operation(s) for task.
   name: GP Connect Task API
   slug: gp-connect-task-api
-artifact_total: 16
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: gp-connect-access-record-structured-fhir Appointment API
+  slug: open-gp-connect-appointment-api
+- collection_type: open
+  name: gp-connect-access-record-structured-fhir Appointment Documents API
+  slug: open-gp-connect-documents-api
+- collection_type: open
+  name: gp-connect-access-record-structured- Appointment FHIR API
+  slug: open-gp-connect-fhir-api
+- collection_type: open
+  name: gp-connect-access-record-structured-fhir Appointment Meta API
+  slug: open-gp-connect-meta-api
+- collection_type: open
+  name: gp-connect-access-record-structured-fhir Appointment Patient API
+  slug: open-gp-connect-patient-api
+- collection_type: open
+  name: gp-connect-access-record-structured-fhir Appointment Slot API
+  slug: open-gp-connect-slot-api
+- collection_type: open
+  name: gp-connect-access-record-structured-fhir Appointment Task API
+  slug: open-gp-connect-task-api
 common:
 - group: agent
   title: ''
@@ -168,7 +193,7 @@ plans:
 - name: Gp Connect Plans
   plan_count: 3
   slug: gp-connect-plans
-random_paper: 46
+random_paper: 112
 rate_limits:
 - limit_count: 3
   name: Gp Connect Rate Limits
@@ -199,7 +224,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/screenshots/gp-connect-2026-07-25T220156.png
 security:

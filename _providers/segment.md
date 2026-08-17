@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -108,27 +108,96 @@ apis:
 - description: Operations for retrieving workspace information and configuration.
   name: segment Workspaces API
   slug: segment-workspaces-api
-artifact_total: 86
+artifact_total: 109
 asyncapis:
 - description: 'Segment Webhooks submit real-time user data to HTTP endpoints as POST requests. When configured as a destination, Segment forwards identify, track, page, screen, group, and alias events to up to five '
   name: Segment Webhook Events
   slug: segment-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Segment Config Alias API
+  slug: open-segment-alias-api
+- collection_type: open
+  name: Segment Config Alias Batch API
+  slug: open-segment-batch-api
+- collection_type: open
+  name: Segment Config Alias Catalog API
+  slug: open-segment-catalog-api
+- collection_type: open
   name: Segment Config API
   slug: open-segment-config-api
+- collection_type: open
+  name: Segment Config Alias Destinations API
+  slug: open-segment-destinations-api
+- collection_type: open
+  name: Segment Config Alias Events API
+  slug: open-segment-events-api
+- collection_type: open
+  name: Segment Config Alias External IDs API
+  slug: open-segment-external-ids-api
+- collection_type: open
+  name: Segment Config Alias Functions API
+  slug: open-segment-functions-api
+- collection_type: open
+  name: Segment Config Alias Group API
+  slug: open-segment-group-api
 - collection_type: open
   name: Segment HTTP Tracking API
   slug: open-segment-http-tracking-api
 - collection_type: open
-  name: Segment Pixel Tracking API
+  name: Segment Config Alias Identify API
+  slug: open-segment-identify-api
+- collection_type: open
+  name: Segment Config Alias Labels API
+  slug: open-segment-labels-api
+- collection_type: open
+  name: Segment Config Alias Links API
+  slug: open-segment-links-api
+- collection_type: open
+  name: Segment Config Alias Page API
+  slug: open-segment-page-api
+- collection_type: open
+  name: Segment Config Alias Pixel Tracking API
   slug: open-segment-pixel-tracking-api
 - collection_type: open
   name: Segment Profile API
   slug: open-segment-profile-api
 - collection_type: open
+  name: Segment Config Alias Profiles API
+  slug: open-segment-profiles-api
+- collection_type: open
   name: Segment Public API
   slug: open-segment-public-api
+- collection_type: open
+  name: Segment Config Alias Regulations API
+  slug: open-segment-regulations-api
+- collection_type: open
+  name: Segment Config Alias Screen API
+  slug: open-segment-screen-api
+- collection_type: open
+  name: Segment Config Alias Sources API
+  slug: open-segment-sources-api
+- collection_type: open
+  name: Segment Config Alias Track API
+  slug: open-segment-track-api
+- collection_type: open
+  name: Segment Config Alias Tracking Plans API
+  slug: open-segment-tracking-plans-api
+- collection_type: open
+  name: Segment Config Alias Traits API
+  slug: open-segment-traits-api
+- collection_type: open
+  name: Segment Config Alias Transformations API
+  slug: open-segment-transformations-api
+- collection_type: open
+  name: Segment Config Alias Warehouses API
+  slug: open-segment-warehouses-api
+- collection_type: open
+  name: Segment Config Alias Workspaces API
+  slug: open-segment-workspaces-api
 common:
 - group: company
   title: ''
@@ -355,7 +424,7 @@ plans:
 - name: Segment Plans Pricing
   plan_count: 3
   slug: segment-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Segment Rate Limits
@@ -397,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/screenshots/segment-2026-06-20T193639.png
 security:

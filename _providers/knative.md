@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - description: 'Knative Trigger resources define filtered delivery options for events arriving at a Broker. A Trigger selects events by attribute filters and routes matching events to a destination such as a Knative '
   name: Knative Triggers API
   slug: knative-triggers-api
-artifact_total: 38
+artifact_total: 50
 asyncapis:
 - description: Knative Eventing uses HTTP POST requests conforming to the CloudEvents specification to deliver events between event sources, Brokers, Triggers, Channels, and Subscriptions. Events can carry structure
   name: Knative Eventing CloudEvents
@@ -118,11 +118,47 @@ collections:
   name: Knative Eventing Apis Triggers API
   slug: postman-knative-triggers-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Knative Eventing Apis API
+  slug: open-knative-apis-api
+- collection_type: open
+  name: Knative Eventing Apis Brokers API
+  slug: open-knative-brokers-api
+- collection_type: open
+  name: Knative Eventing Apis Channels API
+  slug: open-knative-channels-api
+- collection_type: open
+  name: Knative Eventing Apis Configurations API
+  slug: open-knative-configurations-api
+- collection_type: open
+  name: Knative Eventing Apis DomainMappings API
+  slug: open-knative-domainmappings-api
+- collection_type: open
   name: Knative Eventing API
   slug: open-knative-eventing-api
 - collection_type: open
+  name: Knative Eventing Apis EventSources API
+  slug: open-knative-eventsources-api
+- collection_type: open
+  name: Knative Eventing Apis EventTypes API
+  slug: open-knative-eventtypes-api
+- collection_type: open
+  name: Knative Eventing Apis Revisions API
+  slug: open-knative-revisions-api
+- collection_type: open
+  name: Knative Eventing Apis Routes API
+  slug: open-knative-routes-api
+- collection_type: open
   name: Knative Serving API
   slug: open-knative-serving-api
+- collection_type: open
+  name: Knative Eventing Apis Subscriptions API
+  slug: open-knative-subscriptions-api
+- collection_type: open
+  name: Knative Eventing Apis Triggers API
+  slug: open-knative-triggers-api
 common:
 - group: operate
   title: ''
@@ -239,7 +275,7 @@ plans:
 - name: Knative Plans Pricing
   plan_count: 3
   slug: knative-plans-pricing
-random_paper: 34
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Knative Rate Limits
@@ -281,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/screenshots/knative-2026-06-20T184106.png
 security:

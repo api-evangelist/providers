@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -84,7 +84,7 @@ overview: 'Boldfit is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Boldfit''s developer surface includes signup flow, support, authentication, and 7 more developer resources.'
-random_paper: 20
+random_paper: 144
 scopes:
 - name: Boldfit Scopes
   scope_count: 0
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boldfit/refs/heads/main/screenshots/boldfit-2026-08-07T162708.png
 security:

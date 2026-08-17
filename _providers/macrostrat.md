@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,8 +80,53 @@ apis:
 - description: The Units API from Macrostrat — 1 operation(s) for units.
   name: Macrostrat Units API
   slug: macrostrat-units-api
-artifact_total: 20
+artifact_total: 35
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Macrostrat Age Model API
+  slug: open-macrostrat-age-model-api
+- collection_type: open
+  name: Macrostrat Age Model Cartography API
+  slug: open-macrostrat-cartography-api
+- collection_type: open
+  name: Macrostrat Age Model Columns API
+  slug: open-macrostrat-columns-api
+- collection_type: open
+  name: Macrostrat Age Model Definitions API
+  slug: open-macrostrat-definitions-api
+- collection_type: open
+  name: Macrostrat Age Model Fossils API
+  slug: open-macrostrat-fossils-api
+- collection_type: open
+  name: Macrostrat Age Model Geologic Maps API
+  slug: open-macrostrat-geologic-maps-api
+- collection_type: open
+  name: Macrostrat Age Model Grids API
+  slug: open-macrostrat-grids-api
+- collection_type: open
+  name: Macrostrat Age Model Measurements API
+  slug: open-macrostrat-measurements-api
+- collection_type: open
+  name: Macrostrat Age Model Meta API
+  slug: open-macrostrat-meta-api
+- collection_type: open
+  name: Macrostrat Age Model Mobile API
+  slug: open-macrostrat-mobile-api
+- collection_type: open
+  name: Macrostrat Age Model Paleogeography API
+  slug: open-macrostrat-paleogeography-api
+- collection_type: open
+  name: Macrostrat Age Model Sections API
+  slug: open-macrostrat-sections-api
+- collection_type: open
+  name: Macrostrat Age Model Stats API
+  slug: open-macrostrat-stats-api
+- collection_type: open
+  name: Macrostrat Age Model Units API
+  slug: open-macrostrat-units-api
 - collection_type: open
   name: Macrostrat API
   slug: open-macrostrat
@@ -115,7 +160,7 @@ plans:
 - name: Macrostrat Plans Pricing
   plan_count: 3
   slug: macrostrat-plans-pricing
-random_paper: 8
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Macrostrat Rate Limits
@@ -140,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/screenshots/macrostrat-2026-06-20T184834.png
 security:

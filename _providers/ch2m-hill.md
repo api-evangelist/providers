@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: Microsoft Virtualization Beats VMware at CH2M Hill - Datamation
   url: https://www.datamation.com/applications/microsoft-virtualization-beats-vmware-at-ch2m-hill/
-random_paper: 112
+random_paper: 87
 score:
   band: minimal
   composite: 5.9
@@ -131,7 +131,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ch2m-hill/refs/heads/main/screenshots/ch2m-hill-2026-06-20T174155.png
 security:

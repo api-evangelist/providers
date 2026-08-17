@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -50,12 +50,24 @@ apis:
 - description: The Mqtt API from HiveMQ — 5 operation(s) for mqtt.
   name: HiveMQ Mqtt API
   slug: hivemq-mqtt-api
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: AsyncAPI description of the message-oriented surface of a HiveMQ enterprise MQTT broker. HiveMQ implements MQTT 3.1, MQTT 3.1.1, and MQTT 5 over plain TCP, TLS, WebSocket, and Secure WebSocket listene
   name: HiveMQ MQTT Broker
   slug: hivemq-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HiveMQ REST Data Hub API
+  slug: open-hivemq-data-hub-api
+- collection_type: open
+  name: HiveMQ REST Data Hub Management API
+  slug: open-hivemq-management-api
+- collection_type: open
+  name: HiveMQ REST Data Hub Mqtt API
+  slug: open-hivemq-mqtt-api
 - collection_type: open
   name: HiveMQ REST API
   slug: open-hivemq
@@ -199,7 +211,7 @@ overview: 'HiveMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   HiveMQ''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, support, and 24 more developer resources.'
-random_paper: 50
+random_paper: 54
 rules:
 - name: HiveMQ API Rules
   rule_count: 2
@@ -230,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/screenshots/hivemq-2026-07-25T221301.png
 security:

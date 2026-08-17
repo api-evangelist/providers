@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -84,11 +84,60 @@ apis:
 - description: The Zones API from Spot — 1 operation(s) for zones.
   name: Spot Zones API
   slug: spot-zones-api
-artifact_total: 21
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Spot Webhooks
   slug: spot-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics API
+  slug: open-spot-analytics-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Appliances API
+  slug: open-spot-appliances-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Audio API
+  slug: open-spot-audio-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Cameras API
+  slug: open-spot-cameras-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Embeds API
+  slug: open-spot-embeds-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Historical Footage API
+  slug: open-spot-historical-footage-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Integration Devices API
+  slug: open-spot-integration-devices-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Integration Event Types API
+  slug: open-spot-integration-event-types-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Integration Events API
+  slug: open-spot-integration-events-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Integrations API
+  slug: open-spot-integrations-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Locations API
+  slug: open-spot-locations-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics LPI API
+  slug: open-spot-lpi-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics LPR API
+  slug: open-spot-lpr-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Shared Search API
+  slug: open-spot-shared-search-api
+- collection_type: open
+  name: Spot AI — Spot Connect (beta) Analytics Zones API
+  slug: open-spot-zones-api
 common:
 - group: auth
   title: ''
@@ -225,7 +274,7 @@ overview: 'Spot publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Spot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 94
+random_paper: 7
 score:
   band: developing
   composite: 54.3
@@ -249,7 +298,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

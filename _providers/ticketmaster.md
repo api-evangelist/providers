@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,11 +63,35 @@ apis:
 - description: Search and retrieve venue information
   name: Ticketmaster Venues API
   slug: ticketmaster-venues-api
-artifact_total: 24
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ticketmaster Discovery Attractions API
+  slug: open-ticketmaster-attractions-api
+- collection_type: open
+  name: Ticketmaster Commerce Availability API
+  slug: open-ticketmaster-availability-api
+- collection_type: open
+  name: Ticketmaster Discovery Classifications API
+  slug: open-ticketmaster-classifications-api
 - collection_type: open
   name: Ticketmaster Commerce API
   slug: open-ticketmaster-commerce
+- collection_type: open
+  name: Ticketmaster Discovery Events API
+  slug: open-ticketmaster-events-api
+- collection_type: open
+  name: Ticketmaster Commerce Availability Offerings API
+  slug: open-ticketmaster-offerings-api
+- collection_type: open
+  name: Ticketmaster Discovery Suggestions API
+  slug: open-ticketmaster-suggestions-api
+- collection_type: open
+  name: Ticketmaster Discovery Venues API
+  slug: open-ticketmaster-venues-api
 common:
 - group: agent
   title: ''
@@ -182,7 +206,7 @@ plans:
 - name: Ticketmaster Plans Pricing
   plan_count: 2
   slug: ticketmaster-plans-pricing
-random_paper: 96
+random_paper: 104
 rate_limits:
 - limit_count: 3
   name: Ticketmaster Rate Limits
@@ -224,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/screenshots/ticketmaster-2026-06-20T195332.png
 security:

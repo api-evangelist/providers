@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: 'Q&A: The mind behind Casey''s digital transformation efforts'
   url: https://www.cstoredive.com/news/caseys-digital-transformation-art-sebastian-interview/636695/
-random_paper: 104
+random_paper: 58
 score:
   band: minimal
   composite: 9.2
@@ -126,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/screenshots/caseys-general-stores-2026-06-20T174033.png
 security:

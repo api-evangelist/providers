@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ overview: 'Kymera Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Kymera Therapeutics'' developer surface includes support and 17 more developer resources.'
-random_paper: 71
+random_paper: 54
 score:
   band: minimal
   composite: 12.4
@@ -136,7 +136,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kymera-therapeutics/refs/heads/main/screenshots/kymera-therapeutics-2026-07-25T224348.png
 security:

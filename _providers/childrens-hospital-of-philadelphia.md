@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,8 +62,23 @@ apis:
 - description: SMART on FHIR launch and discovery endpoints.
   name: Children's Hospital of Philadelphia SMART API
   slug: childrens-hospital-of-philadelphia-smart-api
-artifact_total: 47
+artifact_total: 52
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Children's Hospital of Philadelphia FHIR R4 Bulk Data API
+  slug: open-childrens-hospital-of-philadelphia-bulk-data-api
+- collection_type: open
+  name: Children's Hospital of Philadelphia FHIR R4 Bulk Data Patient Access API
+  slug: open-childrens-hospital-of-philadelphia-patient-access-api
+- collection_type: open
+  name: Children's Hospital of Philadelphia FHIR R4 Bulk Data Provider Directory API
+  slug: open-childrens-hospital-of-philadelphia-provider-directory-api
+- collection_type: open
+  name: Children's Hospital of Philadelphia FHIR R4 Bulk Data SMART API
+  slug: open-childrens-hospital-of-philadelphia-smart-api
 - collection_type: open
   name: Children's Hospital of Philadelphia FHIR R4 API
   slug: open-chop-fhir-r4
@@ -210,7 +225,7 @@ overview: 'Children''s Hospital of Philadelphia publishes 4 APIs on the [APIs.io
 
 
   Children''s Hospital of Philadelphia''s developer surface includes authentication, developer portal, engineering blog, support, and 12 more developer resources.'
-random_paper: 65
+random_paper: 147
 rules:
 - name: Children's Hospital of Philadelphia API Rules
   rule_count: 5
@@ -259,7 +274,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/screenshots/childrens-hospital-of-philadelphia-2026-06-20T174310.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -58,7 +58,20 @@ arazzos:
 - description: Confirm a user's events, then permanently delete them with a secret key.
   name: GDPR right-to-be-forgotten
   slug: millimetric-gdpr-delete
-artifact_total: 12
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Millimetric Analytics Identity API
+  slug: open-millimetric-identity-api
+- collection_type: open
+  name: Millimetric Analytics Identity Ingest API
+  slug: open-millimetric-ingest-api
+- collection_type: open
+  name: Millimetric Analytics Identity Read API
+  slug: open-millimetric-read-api
 common:
 - group: company
   title: ''
@@ -104,10 +117,6 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://millimetric.ai/legal/privacy
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.millimetric.ai
 - group: docs
   title: ''
   type: OpenAPI
@@ -116,6 +125,10 @@ common:
   title: ''
   type: MCPServer
   url: mcp/millimetric-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/millimetric-tool-crosswalk.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -204,7 +217,7 @@ mcp_servers:
 - description: ''
   name: millimetric-mcp.yml
   slug: millimetric-mcpyml
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: Millimetric
 nav: Providers
 network: true
@@ -216,22 +229,22 @@ plans:
 - name: Millimetric Plans
   plan_count: 3
   slug: millimetric-plans
-random_paper: 99
+random_paper: 136
 rate_limits:
 - limit_count: 2
   name: Millimetric Rate Limits
   slug: millimetric-rate-limits
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 58.8
+  delta: -2.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 65.3
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 36.8
+    operational_transparency: 21.1
   previous_composite: 60.8
   provenance:
     agentic_access: derived
@@ -244,7 +257,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/screenshots/millimetric-2026-08-07T172916.png
 security:

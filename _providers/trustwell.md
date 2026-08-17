@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,11 +63,32 @@ apis:
 - description: Farm-to-fork traceability (FSMA 204)
   name: Trustwell Traceability API
   slug: trustwell-traceability-api
-artifact_total: 29
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trustwell FoodLogiQ Compliance API
+  slug: open-trustwell-compliance-api
 - collection_type: open
   name: Trustwell FoodLogiQ API
   slug: open-trustwell-foodlogiq
+- collection_type: open
+  name: Trustwell FoodLogiQ Compliance Products API
+  slug: open-trustwell-products-api
+- collection_type: open
+  name: Trustwell FoodLogiQ Compliance Quality API
+  slug: open-trustwell-quality-api
+- collection_type: open
+  name: Trustwell FoodLogiQ Compliance Recalls API
+  slug: open-trustwell-recalls-api
+- collection_type: open
+  name: Trustwell FoodLogiQ Compliance Suppliers API
+  slug: open-trustwell-suppliers-api
+- collection_type: open
+  name: Trustwell FoodLogiQ Compliance Traceability API
+  slug: open-trustwell-traceability-api
 common:
 - group: agent
   title: ''
@@ -191,7 +212,7 @@ plans:
 - name: Trustwell Plans Pricing
   plan_count: 1
   slug: trustwell-plans-pricing
-random_paper: 54
+random_paper: 120
 rate_limits:
 - limit_count: 1
   name: Trustwell Rate Limits
@@ -233,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/screenshots/trustwell-2026-06-20T195809.png
 security:

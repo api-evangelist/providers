@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -93,8 +93,47 @@ apis:
 - description: The Workflow Jobs API from Ansible Playbooks — 1 operation(s) for workflow jobs.
   name: Ansible Playbooks Workflow Jobs API
   slug: ansible-playbooks-workflow-jobs-api
-artifact_total: 49
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth API
+  slug: open-ansible-playbooks-auth-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Credentials API
+  slug: open-ansible-playbooks-credentials-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Hosts API
+  slug: open-ansible-playbooks-hosts-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Inventories API
+  slug: open-ansible-playbooks-inventories-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Job Templates API
+  slug: open-ansible-playbooks-job-templates-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Jobs API
+  slug: open-ansible-playbooks-jobs-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Organizations API
+  slug: open-ansible-playbooks-organizations-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Projects API
+  slug: open-ansible-playbooks-projects-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Schedules API
+  slug: open-ansible-playbooks-schedules-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Users API
+  slug: open-ansible-playbooks-users-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Workflow Job Templates API
+  slug: open-ansible-playbooks-workflow-job-templates-api
+- collection_type: open
+  name: Ansible Automation Controller Playbooks Auth Workflow Jobs API
+  slug: open-ansible-playbooks-workflow-jobs-api
 - collection_type: open
   name: Ansible Automation Controller Playbooks API
   slug: open-ansible-playbooks
@@ -244,7 +283,7 @@ plans:
 - name: Ansible Playbooks Plans Pricing
   plan_count: 3
   slug: ansible-playbooks-plans-pricing
-random_paper: 79
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: Ansible Playbooks Rate Limits
@@ -278,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/screenshots/ansible-playbooks-2026-06-20T172018.png
 security:

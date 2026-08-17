@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -67,12 +67,30 @@ apis:
 - description: The Products API from Wix — 4 operation(s) for products.
   name: Wix Products API
   slug: wix-products-api
-artifact_total: 43
+artifact_total: 49
 asyncapis:
 - description: AsyncAPI specification for the documented Wix webhook surface. Wix delivers webhook events as signed JSON Web Tokens (JWTs) POSTed to subscriber URLs registered in the Wix Dev Center. The JWT body dec
   name: Wix Webhooks
   slug: wix-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wix REST Cart API
+  slug: open-wix-cart-api
+- collection_type: open
+  name: Wix REST Cart Checkout API
+  slug: open-wix-checkout-api
+- collection_type: open
+  name: Wix REST Cart OAuth API
+  slug: open-wix-oauth-api
+- collection_type: open
+  name: Wix REST Cart Orders API
+  slug: open-wix-orders-api
+- collection_type: open
+  name: Wix REST Cart Products API
+  slug: open-wix-products-api
 - collection_type: open
   name: Wix REST API
   slug: open-wix
@@ -201,7 +219,7 @@ plans:
 - name: Wix Plans Pricing
   plan_count: 3
   slug: wix-plans-pricing
-random_paper: 104
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Wix Rate Limits
@@ -240,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/screenshots/wix-2026-06-20T201529.png
 security:

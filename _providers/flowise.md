@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -78,8 +78,50 @@ apis:
 - description: The vector API from Flowise — 1 operation(s) for vector.
   name: Flowise vector API
   slug: flowise-vector-api
-artifact_total: 36
+artifact_total: 50
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Flowise APIs assistants API
+  slug: open-flowise-assistants-api
+- collection_type: open
+  name: Flowise APIs assistants attachments API
+  slug: open-flowise-attachments-api
+- collection_type: open
+  name: Flowise APIs assistants chatflows API
+  slug: open-flowise-chatflows-api
+- collection_type: open
+  name: Flowise APIs assistants chatmessage API
+  slug: open-flowise-chatmessage-api
+- collection_type: open
+  name: Flowise APIs assistants document-store API
+  slug: open-flowise-document-store-api
+- collection_type: open
+  name: Flowise APIs assistants feedback API
+  slug: open-flowise-feedback-api
+- collection_type: open
+  name: Flowise APIs assistants leads API
+  slug: open-flowise-leads-api
+- collection_type: open
+  name: Flowise APIs assistants ping API
+  slug: open-flowise-ping-api
+- collection_type: open
+  name: Flowise APIs assistants prediction API
+  slug: open-flowise-prediction-api
+- collection_type: open
+  name: Flowise APIs assistants tools API
+  slug: open-flowise-tools-api
+- collection_type: open
+  name: Flowise APIs assistants upsert-history API
+  slug: open-flowise-upsert-history-api
+- collection_type: open
+  name: Flowise APIs assistants variables API
+  slug: open-flowise-variables-api
+- collection_type: open
+  name: Flowise APIs assistants vector API
+  slug: open-flowise-vector-api
 - collection_type: open
   name: Flowise APIs
   slug: open-flowise
@@ -250,7 +292,7 @@ plans:
 - name: Flowise Plans Pricing
   plan_count: 4
   slug: flowise-plans-pricing
-random_paper: 41
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Flowise Rate Limits
@@ -292,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/screenshots/flowise-2026-06-20T181334.png
 security:

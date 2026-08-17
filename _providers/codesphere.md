@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -75,7 +75,41 @@ arazzos:
 - description: Discover providers, create a managed service, and confirm it is running.
   name: Provision a Codesphere managed service
   slug: codesphere-provision-managed-service
-artifact_total: 18
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Codesphere Public clusters API
+  slug: open-codesphere-clusters-api
+- collection_type: open
+  name: Codesphere Public clusters domains API
+  slug: open-codesphere-domains-api
+- collection_type: open
+  name: Codesphere Public clusters managed-services API
+  slug: open-codesphere-managed-services-api
+- collection_type: open
+  name: Codesphere Public clusters metadata API
+  slug: open-codesphere-metadata-api
+- collection_type: open
+  name: Codesphere Public clusters organizations API
+  slug: open-codesphere-organizations-api
+- collection_type: open
+  name: Codesphere Public clusters ssh API
+  slug: open-codesphere-ssh-api
+- collection_type: open
+  name: Codesphere Public clusters teams API
+  slug: open-codesphere-teams-api
+- collection_type: open
+  name: Codesphere Public clusters usage API
+  slug: open-codesphere-usage-api
+- collection_type: open
+  name: Codesphere Public clusters vault API
+  slug: open-codesphere-vault-api
+- collection_type: open
+  name: Codesphere Public clusters workspaces API
+  slug: open-codesphere-workspaces-api
 common:
 - group: other
   title: ''
@@ -237,7 +271,7 @@ overview: 'Codesphere publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Codesphere''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 29 more developer resources.'
-random_paper: 98
+random_paper: 15
 score:
   band: developing
   composite: 54.7
@@ -261,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/screenshots/codesphere-2026-07-25T205930.png
 security:

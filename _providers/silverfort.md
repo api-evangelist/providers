@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'The Silverfort REST API (internally the "Raven" service) exposes user and resource risk read and write, service-account inventory and insights, policy control, and enrollment. Access is controlled by '
@@ -119,7 +119,7 @@ overview: 'Silverfort publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Silverfort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 24
+random_paper: 61
 score:
   band: thin
   composite: 28.3
@@ -135,7 +135,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: domain-security

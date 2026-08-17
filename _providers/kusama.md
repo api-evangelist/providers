@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 21
 apis:
 - description: 'The public Substrate JSON-RPC 2.0 interface to the Kusama relay chain. Probed live on 2026-07-19: 130 methods are advertised by rpc_methods, spanning chain (blocks/headers), state (storage, metadata, '
@@ -94,11 +94,75 @@ apis:
 - description: The transaction API from Kusama — 6 operation(s) for transaction.
   name: Kusama transaction API
   slug: kusama-transaction-api
-artifact_total: 28
+artifact_total: 49
 asyncapis:
 - description: The event/streaming surface of the Kusama relay chain, served over WebSocket at wss://kusama-rpc.polkadot.io. Kusama publishes no webhooks — there is no vendor to register a callback URL with. Push de
   name: Kusama JSON-RPC Subscription API
   slug: kusama-jsonrpc-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Substrate API Sidecar accounts API
+  slug: open-kusama-accounts-api
+- collection_type: open
+  name: Substrate API Sidecar accounts ahm API
+  slug: open-kusama-ahm-api
+- collection_type: open
+  name: Substrate API Sidecar accounts blocks API
+  slug: open-kusama-blocks-api
+- collection_type: open
+  name: Substrate API Sidecar accounts contracts API
+  slug: open-kusama-contracts-api
+- collection_type: open
+  name: Substrate API Sidecar accounts coretime API
+  slug: open-kusama-coretime-api
+- collection_type: open
+  name: Substrate API Sidecar accounts node API
+  slug: open-kusama-node-api
+- collection_type: open
+  name: Substrate API Sidecar accounts pallets API
+  slug: open-kusama-pallets-api
+- collection_type: open
+  name: Substrate API Sidecar accounts paras API
+  slug: open-kusama-paras-api
+- collection_type: open
+  name: Substrate API Sidecar accounts rc accounts API
+  slug: open-kusama-rc-accounts-api
+- collection_type: open
+  name: Substrate API Sidecar accounts rc API
+  slug: open-kusama-rc-api
+- collection_type: open
+  name: Substrate API Sidecar accounts rc blocks API
+  slug: open-kusama-rc-blocks-api
+- collection_type: open
+  name: Substrate API Sidecar accounts rc node API
+  slug: open-kusama-rc-node-api
+- collection_type: open
+  name: Substrate API Sidecar accounts rc pallets API
+  slug: open-kusama-rc-pallets-api
+- collection_type: open
+  name: Substrate API Sidecar accounts rc runtime API
+  slug: open-kusama-rc-runtime-api
+- collection_type: open
+  name: Substrate API Sidecar accounts rc staking API
+  slug: open-kusama-rc-staking-api
+- collection_type: open
+  name: Substrate API Sidecar accounts rc transaction API
+  slug: open-kusama-rc-transaction-api
+- collection_type: open
+  name: Substrate API Sidecar accounts runtime API
+  slug: open-kusama-runtime-api
+- collection_type: open
+  name: Substrate API Sidecar accounts staking API
+  slug: open-kusama-staking-api
+- collection_type: open
+  name: Substrate API Sidecar accounts trace API
+  slug: open-kusama-trace-api
+- collection_type: open
+  name: Substrate API Sidecar accounts transaction API
+  slug: open-kusama-transaction-api
 common:
 - group: other
   title: ''
@@ -247,7 +311,7 @@ overview: 'Kusama publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kusama''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 23 more developer resources.'
-random_paper: 42
+random_paper: 46
 score:
   band: developing
   composite: 49.2
@@ -270,7 +334,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/screenshots/kusama-2026-07-25T224336.png
 security:

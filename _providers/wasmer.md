@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The GraphQL API from Wasmer — 1 operation(s) for graphql.
   name: Wasmer GraphQL API
   slug: wasmer-graphql-api
-artifact_total: 11
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wasmer Registry GraphQL API
+  slug: open-wasmer-graphql-api
 - collection_type: open
   name: Wasmer Registry GraphQL API
   slug: open-wasmer
@@ -123,7 +129,7 @@ plans:
 - name: Wasmer Plans Pricing
   plan_count: 3
   slug: wasmer-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Wasmer Rate Limits
@@ -148,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmer/refs/heads/main/screenshots/wasmer-2026-06-20T201241.png
 security:

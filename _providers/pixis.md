@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 7
 common:
@@ -120,7 +120,7 @@ plans:
 - name: Pixis Plans Pricing
   plan_count: 0
   slug: pixis-plans-pricing
-random_paper: 77
+random_paper: 110
 rate_limits:
 - limit_count: 0
   name: Pixis Rate Limits
@@ -133,7 +133,7 @@ scopes:
 score:
   band: emerging
   composite: 19.5
-  delta: 9.2
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -141,10 +141,10 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 10.3
+  previous_composite: 19.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Pixis Authentication

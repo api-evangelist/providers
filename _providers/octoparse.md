@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -95,8 +95,68 @@ apis:
 - description: The Token API from Octoparse — 1 operation(s) for token.
   name: Octoparse Token API
   slug: octoparse-token-api
-artifact_total: 25
+artifact_total: 45
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Octoparse Action API
+  slug: open-octoparse-action-api
+- collection_type: open
+  name: Octoparse Action Actions API
+  slug: open-octoparse-actions-api
+- collection_type: open
+  name: Octoparse Action Cloud_ Extraction API
+  slug: open-octoparse-cloud-extraction-api
+- collection_type: open
+  name: Octoparse Action Copy API
+  slug: open-octoparse-copy-api
+- collection_type: open
+  name: Octoparse Action Data API
+  slug: open-octoparse-data-api
+- collection_type: open
+  name: Octoparse Action Files API
+  slug: open-octoparse-files-api
+- collection_type: open
+  name: Octoparse Action Group API
+  slug: open-octoparse-group-api
+- collection_type: open
+  name: Octoparse Action Groups API
+  slug: open-octoparse-groups-api
+- collection_type: open
+  name: Octoparse Action Items API
+  slug: open-octoparse-items-api
+- collection_type: open
+  name: Octoparse Action Loop API
+  slug: open-octoparse-loop-api
+- collection_type: open
+  name: Octoparse Action Move API
+  slug: open-octoparse-move-api
+- collection_type: open
+  name: Octoparse Action Properties API
+  slug: open-octoparse-properties-api
+- collection_type: open
+  name: Octoparse Action Remove API
+  slug: open-octoparse-remove-api
+- collection_type: open
+  name: Octoparse Action Search API
+  slug: open-octoparse-search-api
+- collection_type: open
+  name: Octoparse Action Statuses API
+  slug: open-octoparse-statuses-api
+- collection_type: open
+  name: Octoparse Action Stop API
+  slug: open-octoparse-stop-api
+- collection_type: open
+  name: Octoparse Action Subtasks API
+  slug: open-octoparse-subtasks-api
+- collection_type: open
+  name: Octoparse Action Task API
+  slug: open-octoparse-task-api
+- collection_type: open
+  name: Octoparse Action Token API
+  slug: open-octoparse-token-api
 - collection_type: open
   name: Octoparse
   slug: open-octoparse
@@ -193,7 +253,7 @@ plans:
 - name: Octoparse Plans Pricing
   plan_count: 3
   slug: octoparse-plans-pricing
-random_paper: 16
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Octoparse Rate Limits
@@ -218,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/screenshots/octoparse-2026-06-20T190615.png
 security:

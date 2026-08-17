@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -57,8 +57,29 @@ apis:
 - description: The Transformations API from Azure Stream Analytics — 1 operation(s) for transformations.
   name: Azure Stream Analytics Transformations API
   slug: microsoft-azure-stream-analytics-transformations-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Stream Analytics REST Clusters API
+  slug: open-microsoft-azure-stream-analytics-clusters-api
+- collection_type: open
+  name: Azure Stream Analytics REST Clusters Functions API
+  slug: open-microsoft-azure-stream-analytics-functions-api
+- collection_type: open
+  name: Azure Stream Analytics REST Clusters Inputs API
+  slug: open-microsoft-azure-stream-analytics-inputs-api
+- collection_type: open
+  name: Azure Stream Analytics REST Clusters Outputs API
+  slug: open-microsoft-azure-stream-analytics-outputs-api
+- collection_type: open
+  name: Azure Stream Analytics REST Clusters StreamingJobs API
+  slug: open-microsoft-azure-stream-analytics-streamingjobs-api
+- collection_type: open
+  name: Azure Stream Analytics REST Clusters Transformations API
+  slug: open-microsoft-azure-stream-analytics-transformations-api
 - collection_type: open
   name: Azure Stream Analytics REST API
   slug: open-microsoft-azure-stream-analytics
@@ -143,7 +164,7 @@ plans:
 - name: Microsoft Azure Stream Analytics Plans Pricing
   plan_count: 3
   slug: microsoft-azure-stream-analytics-plans-pricing
-random_paper: 48
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Stream Analytics Rate Limits
@@ -168,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/screenshots/microsoft-azure-stream-analytics-2026-06-20T185440.png
 security:

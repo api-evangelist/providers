@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,20 @@ apis:
 - description: The Search API from McGill University — 2 operation(s) for search.
   name: McGill University Search API
   slug: mcgill-search-api
-artifact_total: 20
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: McGill University Dataverse (Borealis) - Native Dataverses API
+  slug: open-mcgill-dataverses-api
+- collection_type: open
+  name: McGill University Dataverse (Borealis) - Native Dataverses Info API
+  slug: open-mcgill-info-api
+- collection_type: open
+  name: McGill University Dataverse (Borealis) - Native Dataverses Search API
+  slug: open-mcgill-search-api
 common:
 - group: agent
   title: ''
@@ -149,7 +162,7 @@ plans:
 - name: Mcgill Plans Pricing
   plan_count: 2
   slug: mcgill-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Mcgill Rate Limits
@@ -197,7 +210,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/screenshots/mcgill-2026-06-20T185057.png
 security:

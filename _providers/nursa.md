@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
@@ -64,11 +64,54 @@ apis:
 - description: The Webhook logs API from Nursa — 1 operation(s) for webhook logs.
   name: Nursa Webhook logs API
   slug: nursa-webhook-logs-api
-artifact_total: 21
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Nursa Public Api V2 Webhooks
   slug: nursa-public-api-v2-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nursa Public API V2 Clinicians API
+  slug: open-nursa-clinicians-api
+- collection_type: open
+  name: Nursa Public API V2 Downloads API
+  slug: open-nursa-downloads-api
+- collection_type: open
+  name: Nursa Public API V2 Facilities API
+  slug: open-nursa-facilities-api
+- collection_type: open
+  name: Nursa Public API V2 Facilities webhooks API
+  slug: open-nursa-facilities-webhooks-api
+- collection_type: open
+  name: Nursa Public API V2 Licenses API
+  slug: open-nursa-licenses-api
+- collection_type: open
+  name: Nursa Public API V2 Marketplace API
+  slug: open-nursa-marketplace-api
+- collection_type: open
+  name: Nursa Public API V2 Scheduled shifts API
+  slug: open-nursa-scheduled-shifts-api
+- collection_type: open
+  name: Nursa Public API V2 Shift reports API
+  slug: open-nursa-shift-reports-api
+- collection_type: open
+  name: Nursa Public API V2 Shift requests API
+  slug: open-nursa-shift-requests-api
+- collection_type: open
+  name: Nursa Public API V2 Shifts API
+  slug: open-nursa-shifts-api
+- collection_type: open
+  name: Nursa Public API V2 Support API
+  slug: open-nursa-support-api
+- collection_type: open
+  name: Nursa Public API V2 User webhooks API
+  slug: open-nursa-user-webhooks-api
+- collection_type: open
+  name: Nursa Public API V2 Webhook logs API
+  slug: open-nursa-webhook-logs-api
 common:
 - group: agent
   title: ''
@@ -234,7 +277,7 @@ overview: 'Nursa publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nursa''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
-random_paper: 73
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: Nursa Rate Limits
@@ -272,7 +315,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/screenshots/nursa-2026-08-07T185748.png
 security:

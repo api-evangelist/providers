@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,8 +42,14 @@ apis:
 - description: Validate and verify a phone number and return carrier, line type, and location.
   name: Abstract API Phone Validation Phone Validation API
   slug: abstractapi-phone-phone-validation-api
-artifact_total: 8
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Abstract API Phone Validation API
+  slug: open-abstractapi-phone-phone-validation-api
 - collection_type: open
   name: Abstract API Phone Validation
   slug: open-abstractapi-phone
@@ -108,7 +114,7 @@ plans:
 - name: Abstractapi Phone Plans Pricing
   plan_count: 3
   slug: abstractapi-phone-plans-pricing
-random_paper: 69
+random_paper: 110
 rate_limits:
 - limit_count: 2
   name: Abstractapi Phone Rate Limits
@@ -139,7 +145,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/screenshots/abstractapi-phone-2026-07-25T181408.png
 security:

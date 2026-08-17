@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,12 +54,30 @@ apis:
 - description: The Models API from CentML — 2 operation(s) for models.
   name: CentML Models API
   slug: centml-models-api
-artifact_total: 14
+artifact_total: 20
 asyncapis:
 - description: AsyncAPI 2.6 description of CentML's **chat completion streaming** surface. CentML does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://docs.centml.ai/
   name: CentML Chat Completions Streaming (HTTP + SSE)
   slug: centml-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CentML Chat API
+  slug: open-centml-chat-api
+- collection_type: open
+  name: CentML Chat Clusters API
+  slug: open-centml-clusters-api
+- collection_type: open
+  name: CentML Chat Completions API
+  slug: open-centml-completions-api
+- collection_type: open
+  name: CentML Chat Deployments API
+  slug: open-centml-deployments-api
+- collection_type: open
+  name: CentML Chat Models API
+  slug: open-centml-models-api
 - collection_type: open
   name: CentML API
   slug: open-centml
@@ -127,7 +145,7 @@ plans:
 - name: Centml Plans Pricing
   plan_count: 3
   slug: centml-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Centml Rate Limits
@@ -161,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/screenshots/centml-2026-07-25T204927.png
 security:

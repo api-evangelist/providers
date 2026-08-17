@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,7 +106,77 @@ apis:
 - description: Bulk file delivery service behind Xignite's file products (historical equity prices, bonds, options, currencies, and corporate actions files), served from the cloudfiles.xignite.com service.
   name: Xignite CloudFiles API
   slug: xignite-cloud-files-api
-artifact_total: 27
+artifact_total: 50
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: XigniteBonds CloudAlerts API
+  slug: open-xignite-cloudalerts-api
+- collection_type: open
+  name: CloudAlerts XigniteBonds API
+  slug: open-xignite-xignitebonds-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteCloudFiles API
+  slug: open-xignite-xignitecloudfiles-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteCrypto API
+  slug: open-xignite-xignitecrypto-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteEarningsCalendar API
+  slug: open-xignite-xigniteearningscalendar-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteFactSetFundamentals API
+  slug: open-xignite-xignitefactsetfundamentals-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalCorporateActions API
+  slug: open-xignite-xigniteglobalcorporateactions-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalCurrencies API
+  slug: open-xignite-xigniteglobalcurrencies-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalESG API
+  slug: open-xignite-xigniteglobalesg-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalFundFundamentals API
+  slug: open-xignite-xigniteglobalfundfundamentals-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalFutures API
+  slug: open-xignite-xigniteglobalfutures-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalHistorical API
+  slug: open-xignite-xigniteglobalhistorical-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalHolidays API
+  slug: open-xignite-xigniteglobalholidays-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalIndices API
+  slug: open-xignite-xigniteglobalindices-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalMaster API
+  slug: open-xignite-xigniteglobalmaster-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalMetals API
+  slug: open-xignite-xigniteglobalmetals-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalNews API
+  slug: open-xignite-xigniteglobalnews-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalOptions API
+  slug: open-xignite-xigniteglobaloptions-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalQuotes API
+  slug: open-xignite-xigniteglobalquotes-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteGlobalRealTime API
+  slug: open-xignite-xigniteglobalrealtime-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteMoneyMarkets API
+  slug: open-xignite-xignitemoneymarkets-api
+- collection_type: open
+  name: XigniteBonds CloudAlerts XigniteNAVs API
+  slug: open-xignite-xignitenavs-api
 common:
 - group: auth
   title: ''
@@ -228,7 +298,7 @@ overview: 'Xignite publishes 22 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Xignite''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, API reference, and 19 more developer resources.'
-random_paper: 40
+random_paper: 15
 score:
   band: thin
   composite: 40.2
@@ -258,7 +328,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/screenshots/xignite-2026-07-22T202705.png
 security:

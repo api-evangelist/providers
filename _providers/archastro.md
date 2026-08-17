@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -68,11 +68,45 @@ apis:
 - description: The Users API from Archastro — 7 operation(s) for users.
   name: Archastro Users API
   slug: archastro-users-api
-artifact_total: 15
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Archastro Webhooks
   slug: archastro-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ArchAstro Platform Activity Feed API
+  slug: open-archastro-activity-feed-api
+- collection_type: open
+  name: ArchAstro Platform Activity Feed Agents API
+  slug: open-archastro-agents-api
+- collection_type: open
+  name: ArchAstro Platform Activity Feed auth API
+  slug: open-archastro-auth-api
+- collection_type: open
+  name: ArchAstro Platform Activity Feed Files API
+  slug: open-archastro-files-api
+- collection_type: open
+  name: ArchAstro Platform Activity Feed Oauth API
+  slug: open-archastro-oauth-api
+- collection_type: open
+  name: ArchAstro Platform Activity Feed s2s API
+  slug: open-archastro-s2s-api
+- collection_type: open
+  name: ArchAstro Platform Activity Feed Slack Channel Bindings API
+  slug: open-archastro-slack-channel-bindings-api
+- collection_type: open
+  name: ArchAstro Platform Activity Feed Teams API
+  slug: open-archastro-teams-api
+- collection_type: open
+  name: ArchAstro Platform Activity Feed Threads API
+  slug: open-archastro-threads-api
+- collection_type: open
+  name: ArchAstro Platform Activity Feed Users API
+  slug: open-archastro-users-api
 common:
 - group: start
   title: ''
@@ -205,7 +239,7 @@ overview: 'Archastro publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Archastro''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 21 more developer resources.'
-random_paper: 7
+random_paper: 73
 score:
   band: developing
   composite: 46.0
@@ -229,7 +263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/screenshots/archastro-2026-07-25T201021.png
 security:

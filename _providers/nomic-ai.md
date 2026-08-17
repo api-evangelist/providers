@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,8 +75,20 @@ apis:
 - description: The Tasks API from Nomic AI — 1 operation(s) for tasks.
   name: Nomic AI Tasks API
   slug: nomic-ai-tasks-api
-artifact_total: 21
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nomic Atlas Embeddings API
+  slug: open-nomic-ai-embeddings-api
+- collection_type: open
+  name: Nomic Atlas Embeddings Files API
+  slug: open-nomic-ai-files-api
+- collection_type: open
+  name: Nomic Atlas Embeddings Tasks API
+  slug: open-nomic-ai-tasks-api
 - collection_type: open
   name: Nomic Atlas API
   slug: open-nomic-ai
@@ -161,7 +173,7 @@ plans:
 - name: Nomic Ai Plans Pricing
   plan_count: 1
   slug: nomic-ai-plans-pricing
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Nomic Ai Rate Limits
@@ -186,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/screenshots/nomic-ai-2026-06-20T190456.png
 security:

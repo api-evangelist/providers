@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: Apcera
 nav: Providers
 network: true
 overview: Apcera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Containers, Cloud, Policy, and Governance.
-random_paper: 20
+random_paper: 24
 score:
   band: minimal
   composite: 4.3
@@ -59,7 +59,7 @@ score:
     regime_id: insurance
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 slug: apcera
 tags:

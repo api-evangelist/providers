@@ -23,21 +23,21 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-12'
+  score: 56.8
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 16
+- acting_count: 18
   human_in_the_loop: 1
   name: Scrunch Ai Agentic Access
-  operation_count: 33
+  operation_count: 39
   slug: scrunch-ai-agentic-access
-  summary_line: 33 operations · 16 acting · 1 human-in-the-loop
-api_count: 10
+  summary_line: 39 operations · 18 acting · 1 human-in-the-loop
+api_count: 11
 apis:
 - description: The agent-traffic API from Scrunch AI — 1 operation(s) for agent-traffic.
   name: Scrunch AI agent-traffic API
@@ -69,6 +69,9 @@ apis:
 - description: The sitemap API from Scrunch AI — 4 operation(s) for sitemap.
   name: Scrunch AI sitemap API
   slug: scrunch-ai-sitemap-api
+- description: The Signals API from Scrunch AI — 6 operation(s) exposing Scrunch's nightly detection sweep as a queryable feed of statistically-tested level changes and trends in AI visibility metrics (presence_rate
+  name: Scrunch AI Signals API
+  slug: scrunch-ai-signals-api
 arazzos:
 - description: Create a brand, add a competitor and persona, seed a tracking prompt, and verify the prompt library.
   name: Scrunch - Onboard a brand and seed tracking
@@ -79,16 +82,57 @@ arazzos:
 - description: List brands, pick one, and pull aggregated AI visibility metrics for it.
   name: Scrunch - Resolve a brand and query AI visibility
   slug: scrunch-ai-query-visibility
-artifact_total: 19
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Scrunch Ai Webhooks
   slug: scrunch-ai-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scrunch Data agent-traffic API
+  slug: open-scrunch-ai-agent-traffic-api
+- collection_type: open
+  name: Scrunch Data agent-traffic ai-referrals API
+  slug: open-scrunch-ai-ai-referrals-api
+- collection_type: open
+  name: Scrunch Data agent-traffic axp-render API
+  slug: open-scrunch-ai-axp-render-api
+- collection_type: open
+  name: Scrunch Data agent-traffic Brands API
+  slug: open-scrunch-ai-brands-api
+- collection_type: open
+  name: Scrunch Data agent-traffic orchestration API
+  slug: open-scrunch-ai-orchestration-api
+- collection_type: open
+  name: Scrunch Data agent-traffic Page Audits API
+  slug: open-scrunch-ai-page-audits-api
+- collection_type: open
+  name: Scrunch Data agent-traffic Prompts API
+  slug: open-scrunch-ai-prompts-api
+- collection_type: open
+  name: Scrunch Data agent-traffic Query API
+  slug: open-scrunch-ai-query-api
+- collection_type: open
+  name: Scrunch Data agent-traffic Responses API
+  slug: open-scrunch-ai-responses-api
+- collection_type: open
+  name: Scrunch Data Signals API
+  slug: open-scrunch-ai-signals-api
+- collection_type: open
+  name: Scrunch Data agent-traffic sitemap API
+  slug: open-scrunch-ai-sitemap-api
 common:
 - group: other
   title: ''
   type: Overlay
   url: overlays/scrunch-ai-data-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/scrunch-ai-signals-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -149,6 +193,34 @@ common:
   title: ''
   type: MCPServer
   url: mcp/scrunch-ai-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/scrunch-ai-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/scrunch-ai-examples.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/scrunch-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/scrunch-ai-rate-limits.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/scrunch-ai-components.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/scrunch-ai-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.scrunchai.com/
 - group: design
   title: ''
   type: Webhooks
@@ -177,10 +249,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/scrunch-ai-domain-security.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/scrunch-ai-well-known.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -214,36 +282,45 @@ common:
   type: PrivacyPolicy
   url: https://scrunch.com/privacy
 created: '2026-07-17'
-description: 'Scrunch AI (scrunch.com) is an AI customer experience platform for AI search visibility and optimization - often called Answer Engine Optimization (AEO/GEO). It monitors and optimizes how a brand shows up across AI assistants and answer engines (ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, Copilot): tracking brand presence, position, sentiment, citations, and competitor share of voice; measuring AI bot and agent crawl traffic; auditing pages for AI search readiness; and running an Optimize-and-Deploy pipeline that audits, optimizes, and publishes machine-readable page versions through its Agent Experience Platform (AXP). Scrunch exposes a REST Data API (api.scrunchai.com/v1, Bearer API keys with query/configure/create-brand scopes), a hosted MCP server ("Scrunchie") for Claude, ChatGPT, Cursor and other clients, and Looker Studio / Data Studio connectors. Backed by Homebrew and Mayfield.'
+description: 'Scrunch AI (scrunch.com) is an AI customer experience platform for AI search visibility and optimization - often called Answer Engine Optimization (AEO/GEO). It monitors and optimizes how a brand shows up across AI assistants and answer engines (ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, Copilot): tracking brand presence, position, sentiment, citations, and competitor share of voice; measuring AI bot and agent crawl traffic; auditing pages for AI search readiness; and running an Optimize-and-Deploy pipeline that audits, optimizes, and publishes machine-readable page versions through its Agent Experience Platform (AXP). Scrunch exposes a REST Data API (api.scrunchai.com/v1, Bearer API keys with query/configure/create-brand scopes), a hosted MCP server ("Scrunchie") for Claude, ChatGPT, Cursor and other clients, and Looker Studio / Data Studio connectors. The Data API also exposes a Signals surface - a nightly detection sweep of statistically-tested level changes
+  and trends, with stable signal fingerprints and team reactions. Backed by Homebrew and Mayfield; acquired by Sitecore in June 2026 and operating as a standalone platform.'
 image: https://cdn.sanity.io/images/3lyosn52/production/3846d0bcd45fb4d64491c6d548d181d696aaa339-1200x753.png?rect=0,62,1200,630&w=1200&h=630&q=75&fit=crop&auto=format
 layout: provider
 mcp_servers:
 - description: ''
   name: scrunch-ai-mcp.yml
   slug: scrunch-ai-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Scrunch AI
 nav: Providers
 network: true
-overview: 'Scrunch AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including agent-traffic API, ai-referrals API, axp-render API, and 7 more. Tagged areas include Company, AI, AI Search, Answer Engine Optimization, and Generative Engine Optimization.
+overview: 'Scrunch AI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including agent-traffic API, ai-referrals API, axp-render API, and 8 more. Tagged areas include Company, AI, AI Search, Answer Engine Optimization, and Generative Engine Optimization.
 
 
   The Scrunch AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Scrunch AI''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 25 more developer resources.'
-random_paper: 45
+  Scrunch AI''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, engineering blog, support, and 32 more developer resources.'
+plans:
+- name: Scrunch Ai Plans Pricing
+  plan_count: 3
+  slug: scrunch-ai-plans-pricing
+random_paper: 111
+rate_limits:
+- limit_count: 0
+  name: Scrunch Ai Rate Limits
+  slug: scrunch-ai-rate-limits
 scopes:
 - name: Scrunch Ai Scopes
   scope_count: 3
   slug: scrunch-ai-scopes
   summary_line: 3 scopes
 score:
-  band: developing
-  composite: 53.0
-  delta: 0.0
+  band: strong
+  composite: 62.5
+  delta: 9.5
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 92.1
     contract_quality: 68.7
     developer_ergonomics: 62.5
     discoverability: 92.6
@@ -261,8 +338,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Scrunch Ai Authentication
@@ -271,7 +348,11 @@ security:
 - kind: domain-security
   name: Scrunch Ai Domain Security
   slug: scrunch-ai-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Scrunch Ai Trust Center
+  slug: scrunch-ai-trust-center
+  summary_line: SOC 2 Type II
 slug: scrunch-ai
 tags:
 - Company

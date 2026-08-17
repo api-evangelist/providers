@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 1
@@ -93,12 +93,69 @@ apis:
 - description: This API allows you to manage your workspace's membership and get analytics on membership over time.
   name: Coda Workspaces API
   slug: coda-workspaces-api
-artifact_total: 29
+artifact_total: 48
 asyncapis:
 - description: AsyncAPI description of Coda's documented automation/webhook surface. Coda does NOT publish an outbound webhook subscription API in the public REST reference. The documented eventing surface is inboun
   name: Coda Automations Push API
   slug: coda-automations-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coda Account API
+  slug: open-coda-account-api
+- collection_type: open
+  name: Coda Account Analytics API
+  slug: open-coda-analytics-api
+- collection_type: open
+  name: Coda Account Automations API
+  slug: open-coda-automations-api
+- collection_type: open
+  name: Coda Account Columns API
+  slug: open-coda-columns-api
+- collection_type: open
+  name: Coda Account Controls API
+  slug: open-coda-controls-api
+- collection_type: open
+  name: Coda Account CustomDocDomains API
+  slug: open-coda-customdocdomains-api
+- collection_type: open
+  name: Coda Account Docs API
+  slug: open-coda-docs-api
+- collection_type: open
+  name: Coda Account Folders API
+  slug: open-coda-folders-api
+- collection_type: open
+  name: Coda Account Formulas API
+  slug: open-coda-formulas-api
+- collection_type: open
+  name: Coda Account Go Links API
+  slug: open-coda-go-links-api
+- collection_type: open
+  name: Coda Account Miscellaneous API
+  slug: open-coda-miscellaneous-api
+- collection_type: open
+  name: Coda Account Packs API
+  slug: open-coda-packs-api
+- collection_type: open
+  name: Coda Account Pages API
+  slug: open-coda-pages-api
+- collection_type: open
+  name: Coda Account Permissions API
+  slug: open-coda-permissions-api
+- collection_type: open
+  name: Coda Account Publishing API
+  slug: open-coda-publishing-api
+- collection_type: open
+  name: Coda Account Rows API
+  slug: open-coda-rows-api
+- collection_type: open
+  name: Coda Account Tables API
+  slug: open-coda-tables-api
+- collection_type: open
+  name: Coda Account Workspaces API
+  slug: open-coda-workspaces-api
 - collection_type: open
   name: Coda API
   slug: open-coda
@@ -182,7 +239,7 @@ plans:
 - name: Coda Plans Pricing
   plan_count: 4
   slug: coda-plans-pricing
-random_paper: 47
+random_paper: 109
 rate_limits:
 - limit_count: 3
   name: Coda Rate Limits
@@ -216,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/screenshots/coda-2026-06-20T174651.png
 security:

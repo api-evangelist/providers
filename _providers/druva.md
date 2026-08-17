@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -81,8 +81,35 @@ apis:
 - description: The Servers API from Druva — 1 operation(s) for servers.
   name: Druva Servers API
   slug: druva-servers-api
-artifact_total: 22
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Druva REST Accounts API
+  slug: open-druva-accounts-api
+- collection_type: open
+  name: Druva REST Accounts Authentication API
+  slug: open-druva-authentication-api
+- collection_type: open
+  name: Druva REST Accounts Backups API
+  slug: open-druva-backups-api
+- collection_type: open
+  name: Druva REST Accounts Cyber Resilience API
+  slug: open-druva-cyber-resilience-api
+- collection_type: open
+  name: Druva REST Accounts Policies API
+  slug: open-druva-policies-api
+- collection_type: open
+  name: Druva REST Accounts Reports API
+  slug: open-druva-reports-api
+- collection_type: open
+  name: Druva REST Accounts Schedules API
+  slug: open-druva-schedules-api
+- collection_type: open
+  name: Druva REST Accounts Servers API
+  slug: open-druva-servers-api
 - collection_type: open
   name: Druva REST API
   slug: open-druva
@@ -159,7 +186,7 @@ plans:
 - name: Druva Plans Pricing
   plan_count: 3
   slug: druva-plans-pricing
-random_paper: 66
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Druva Rate Limits
@@ -184,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/screenshots/druva-2026-06-20T180253.png
 security:

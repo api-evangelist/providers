@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -102,7 +102,74 @@ apis:
 - description: 'The #X Amz Target=ComputeOptimizerService.UpdateEnrollmentStatus API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.updateenrollmentstatus.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.UpdateEnrollmentStatus API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api
-artifact_total: 689
+artifact_total: 711
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-deleterecommendationpreferences-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DescribeRecommendationExportJobs API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-describerecommendationexportjobs-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportautoscalinggrouprecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.ExportEBSVolumeRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportebsvolumerecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.ExportEC2InstanceRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportec2instancerecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.ExportECSServiceRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportecsservicerecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.ExportLambdaFunctionRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportlambdafunctionrecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetAutoScalingGroupRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getautoscalinggrouprecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetEBSVolumeRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getebsvolumerecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetEC2InstanceRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2instancerecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetEC2RecommendationProjectedMetrics API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2recommendationprojectedmetrics-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendationProjectedMetrics API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendationprojectedmetrics-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetEffectiveRecommendationPreferences API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-geteffectiverecommendationpreferences-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetEnrollmentStatus API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatus-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetEnrollmentStatusesForOrganization API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatusesfororganization-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetLambdaFunctionRecommendations API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getlambdafunctionrecommendations-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetRecommendationPreferences API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationpreferences-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.GetRecommendationSummaries API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationsummaries-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.PutRecommendationPreferences API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-putrecommendationpreferences-api
+- collection_type: open
+  name: 'AWS Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences #X Amz Target=ComputeOptimizerService.UpdateEnrollmentStatus API'
+  slug: open-amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api
 common:
 - group: agent
   title: ''
@@ -2182,7 +2249,7 @@ overview: 'Amazon Compute Optimizer publishes 21 APIs on the [APIs.io](https://a
 
 
   Amazon Compute Optimizer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
-random_paper: 96
+random_paper: 112
 rules:
 - name: Amazon Compute Optimizer API Rules
   rule_count: 5
@@ -2222,7 +2289,7 @@ score:
       total: 21
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/screenshots/amazon-compute-optimizer-2026-07-25T200002.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Persistent WebSocket connection for real-time trades, order-book depth, candlesticks and multilingual news. Integer protocol-code framing (10000 subscribe trade, 10002 trade push, 10003/10005 depth, 1
@@ -36,11 +36,24 @@ apis:
 - description: The Stock API from Infoway Real-time Market Data API — 3 operation(s) for stock.
   name: Infoway Real-time Market Data API Stock API
   slug: infoway-real-time-market-data-api-stock-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: 'Real-time push of trades, order-book depth, candlesticks (K-line) and news over a single WebSocket connection. PROVENANCE: Infoway publishes NO AsyncAPI document. This document was DERIVED by API Evan'
   name: Infoway WebSocket Streaming API
   slug: infoway-real-time-market-data-api-streaming-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: REST Common API
+  slug: open-infoway-real-time-market-data-api-common-api
+- collection_type: open
+  name: REST Crypto API
+  slug: open-infoway-real-time-market-data-api-crypto-api
+- collection_type: open
+  name: REST Stock API
+  slug: open-infoway-real-time-market-data-api-stock-api
 common:
 - group: other
   title: ''
@@ -169,7 +182,7 @@ overview: 'Infoway Real-time Market Data API publishes 4 APIs on the [APIs.io](h
 
 
   Infoway Real-time Market Data API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 89
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Infoway Real Time Market Data Api Rate Limits
@@ -202,7 +215,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

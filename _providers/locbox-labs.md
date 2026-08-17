@@ -1,20 +1,22 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Partner-gated
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
+  source:
+  - https://github.com/LocBoxLabs/hownd-examples
+  - https://hownd.com/pricing/
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +24,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 1
+  score: 12.2
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: A secured REST API that lets an approved Hownd partner manage Subscribers on behalf of Hownd customers (merchants and businesses). Partners are issued OAuth 2.0 client credentials and retrieve a beare
+  name: Hownd Partner API
+  slug: hownd-partner-api
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -38,65 +44,138 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://fetchrev.com
+  url: https://hownd.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://hownd.com/knowledge-base/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://hownd.com/quickstart/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/LocBoxLabs
 - group: commercial
   title: ''
   type: Pricing
   url: https://hownd.com/pricing/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/locbox-labs-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/locbox-labs-rate-limits.yml
 - group: start
   title: ''
   type: Login
-  url: https://app.locbox.com/sign_in/
+  url: https://hownd.app/sign-in/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://fetchrev.com/terms-of-service/
+  url: https://hownd.com/terms-of-service/
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://fetchrev.com/privacy-policy/
+  url: https://hownd.com/privacy-policy/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://hownd.com/data-protection-addendum/
 - group: company
   title: ''
   type: Blog
-  url: https://why.fetchrev.com/blog
+  url: https://hownd.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://hownd.com/feed/
 - group: operate
   title: ''
   type: Support
-  url: https://fetchrev.com/contact/
+  url: https://hownd.com/contact/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/locbox-labs-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/locbox-labs-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/locbox-labs-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/locbox-labs-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/locbox-labs-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/locbox-labs-lifecycle.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/locbox-labs-components.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/locbox-labs-llms.txt
 created: '2026-07-17'
-description: LocBox Labs is associated with Hownd, Inc. (formerly FetchRev), a Tempe, Arizona automated promotions and local-merchant marketing platform that helps restaurants, health and beauty businesses, family entertainment centers, and retail merchants generate new and repeat customers. The platform runs automated marketing across web popups, email drip campaigns, social media, a MyHownd consumer mobile app, buy-now buttons, and guest-WiFi capture on a pay-per-visit billing model. The merchant application runs at app.locbox.com. This provider was surfaced as a 500 Global portfolio company and added to the API Evangelist network. As of this enrichment pass no public API, developer portal, SDK, or OpenAPI surface could be found on the provider's public properties.
-image: https://fetchrev.com/favicon.ico
+description: LocBox Labs is the engineering identity behind Hownd, Inc. (formerly FetchRev, originally LocBox), a Tempe, Arizona automated promotions and local-merchant marketing platform that helps restaurants, health and beauty businesses, family entertainment centers, attractions and retail merchants generate new and repeat customers. The platform runs automated marketing across website popups, email drip and birthday campaigns, social media, buy-now promos, gift cards, a promo discovery portal, the MyHownd consumer mobile app, and guest-WiFi capture, billed at a flat monthly fee plus a share of each transaction. Merchants work in the Hownd app at hownd.app, with the legacy FetchRev merchant application still served at app.locbox.com. Hownd operates a partner-gated REST API at partner-api.hownd.com that lets approved partners manage subscribers on behalf of Hownd merchants; it is authenticated with OAuth 2.0 client-credentials against the company's Auth0 tenant and scoped per merchant
+  with an X-Tenant-Id header. No OpenAPI, public API reference, or developer portal is published for it — the only public documentation is the first-party example repository in the company's LocBoxLabs GitHub org.
+image: https://s21429.pcdn.co/wp-content/uploads/2020/05/hownd-logo-blue.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-13'
 name: LocBox Labs
 nav: Providers
 network: true
-overview: 'LocBox Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Promotions, Local Marketing, and Small Business.
+overview: 'LocBox Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Promotions, Local Marketing, and Small Business.
 
 
-  LocBox Labs'' developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 30
+  LocBox Labs'' developer surface includes documentation, getting-started guide, pricing, engineering blog, support, authentication, and 17 more developer resources.'
+plans:
+- name: Locbox Labs Plans Pricing
+  plan_count: 1
+  slug: locbox-labs-plans-pricing
+random_paper: 67
+rate_limits:
+- limit_count: 0
+  name: Locbox Labs Rate Limits
+  slug: locbox-labs-rate-limits
 score:
-  band: emerging
-  composite: 15.2
-  delta: 0.0
+  band: thin
+  composite: 33.0
+  delta: 17.8
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 73.7
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 37.0
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 5.3
   previous_composite: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/screenshots/locbox-labs-2026-07-25T225435.png
 security:
+- kind: authentication
+  name: Locbox Labs Authentication
+  slug: locbox-labs-authentication
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Locbox Labs Domain Security
   slug: locbox-labs-domain-security
-  summary_line: TLSv1.3
+  summary_line: TLSv1.3 · DMARC
 slug: locbox-labs
 tags:
 - Company
@@ -105,5 +184,11 @@ tags:
 - Local Marketing
 - Small Business
 - Automation
-website: https://fetchrev.com
+- Coupons
+- Email Marketing
+- Loyalty
+- Guest WiFi
+- Family Entertainment
+- Restaurants
+website: https://hownd.com
 ---

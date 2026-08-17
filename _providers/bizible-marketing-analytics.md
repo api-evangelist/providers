@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -43,33 +43,87 @@ common:
   title: ''
   type: Website
   url: https://bizible.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/bizible-marketing-analytics-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/bizible-marketing-analytics-components.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/bizible-marketing-analytics-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bizible-marketing-analytics-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bizible-marketing-analytics-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bizible-marketing-analytics-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bizible-marketing-analytics-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bizible-marketing-analytics-llms.txt
+coverage:
+  checked: '2026-08-13'
+  detail: The Bizible brand is fully absorbed into Adobe — bizible.com and www.bizible.com answer HTTP 301 on every path (including /robots.txt and every /.well-known/ path) and redirect to Adobe's Marketo Measure product page, leaving only an Akamai CDN serving the bizible.js tracking tag as a live first-party surface; no api./developers./docs.bizible.com subdomain resolves at all.
+  evidence:
+  - status: 301
+    url: https://bizible.com/.well-known/agent-card.json
+  - status: 301
+    url: https://bizible.com/openapi.json
+  - status: 0
+    url: https://api.bizible.com/
+  - status: 200
+    url: https://cdn.bizible.com/scripts/bizible.js
+  reason: defunct
+  state: none
 created: '2026-07-17'
 description: Bizible was a B2B marketing attribution and revenue analytics platform that connected marketing activity to pipeline and revenue across advertising, web, CRM, and marketing-automation channels. Acquired by Marketo in 2018 and subsequently by Adobe, the product now ships as Adobe Marketo Measure (formerly Bizible); the bizible.com domain 301-redirects to Adobe and its product documentation has moved to the Adobe Experience League. It has no standalone public developer portal, OpenAPI, or API reference of its own — integration is handled through Adobe/Marketo Measure and CRM connectors.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bizible-marketing-analytics.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-13'
 name: Bizible Marketing Analytics
 nav: Providers
 network: true
 overview: 'Bizible Marketing Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Analytics, Marketing Attribution, and Revenue Analytics.
 
 
-  Bizible Marketing Analytics'' developer surface includes documentation and 2 more developer resources.'
-random_paper: 117
+  Bizible Marketing Analytics'' developer surface includes documentation, changelog, and 9 more developer resources.'
+plans:
+- name: Bizible Marketing Analytics Plans Pricing
+  plan_count: 0
+  slug: bizible-marketing-analytics-plans-pricing
+random_paper: 75
+rate_limits:
+- limit_count: 0
+  name: Bizible Marketing Analytics Rate Limits
+  slug: bizible-marketing-analytics-rate-limits
 score:
   band: minimal
-  composite: 6.7
-  delta: 0.0
+  composite: 11.0
+  delta: 4.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    discoverability: 57.4
+    governance: 12.5
+    operational_transparency: 15.8
   previous_composite: 6.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/screenshots/bizible-marketing-analytics-2026-07-25T203222.png
 security:

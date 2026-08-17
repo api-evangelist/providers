@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -140,7 +140,122 @@ apis:
 - description: A Workspace is a shared environment where users can collaborate on projects. Workspaces help in organizing and managing projects in large organizations efficiently.
   name: Aleph Alpha Workspaces API
   slug: aleph-alpha-workspaces-api
-artifact_total: 42
+artifact_total: 80
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aleph Alpha API description API
+  slug: open-aleph-alpha-api-description-api
+- collection_type: open
+  name: PhariaStudio Application Traces API
+  slug: open-aleph-alpha-application-traces-api
+- collection_type: open
+  name: PhariaStudio Benchmark Executions API
+  slug: open-aleph-alpha-benchmark-executions-api
+- collection_type: open
+  name: PhariaStudio Benchmarks API
+  slug: open-aleph-alpha-benchmarks-api
+- collection_type: open
+  name: PhariaOS Manager Cluster API
+  slug: open-aleph-alpha-cluster-api
+- collection_type: open
+  name: Aleph Alpha Document Index Collection API
+  slug: open-aleph-alpha-collection-api
+- collection_type: open
+  name: PhariaData Connectors API
+  slug: open-aleph-alpha-connectors-api
+- collection_type: open
+  name: Stateful Responses Conversations API
+  slug: open-aleph-alpha-conversations-api
+- collection_type: open
+  name: PhariaData Datasets API
+  slug: open-aleph-alpha-datasets-api
+- collection_type: open
+  name: Aleph Alpha Document API
+  slug: open-aleph-alpha-document-api
+- collection_type: open
+  name: PhariaData Downloads API
+  slug: open-aleph-alpha-downloads-api
+- collection_type: open
+  name: PhariaStudio Evaluation Datasets API
+  slug: open-aleph-alpha-evaluation-datasets-api
+- collection_type: open
+  name: PhariaStudio Events API
+  slug: open-aleph-alpha-events-api
+- collection_type: open
+  name: Aleph Alpha Document Index Filter Index API
+  slug: open-aleph-alpha-filter-index-api
+- collection_type: open
+  name: Stateful Responses Guardrails API
+  slug: open-aleph-alpha-guardrails-api
+- collection_type: open
+  name: Aleph Alpha Document Index API
+  slug: open-aleph-alpha-index-api
+- collection_type: open
+  name: PhariaStudio Lineages API
+  slug: open-aleph-alpha-lineages-api
+- collection_type: open
+  name: Aleph Alpha Models API
+  slug: open-aleph-alpha-models-api
+- collection_type: open
+  name: Aleph Alpha Document Index Namespace API
+  slug: open-aleph-alpha-namespace-api
+- collection_type: open
+  name: Stateful Responses Operations API
+  slug: open-aleph-alpha-operations-api
+- collection_type: open
+  name: Aleph Alpha Permissions API
+  slug: open-aleph-alpha-permissions-api
+- collection_type: open
+  name: PhariaStudio Projects API
+  slug: open-aleph-alpha-projects-api
+- collection_type: open
+  name: PhariaData Repositories API
+  slug: open-aleph-alpha-repositories-api
+- collection_type: open
+  name: Stateful Responses API
+  slug: open-aleph-alpha-responses-api
+- collection_type: open
+  name: PhariaData Search Store API
+  slug: open-aleph-alpha-search-store-api
+- collection_type: open
+  name: Aleph Alpha Document Index Service API
+  slug: open-aleph-alpha-service-api
+- collection_type: open
+  name: PhariaStudio Spans API
+  slug: open-aleph-alpha-spans-api
+- collection_type: open
+  name: PhariaData Stages API
+  slug: open-aleph-alpha-stages-api
+- collection_type: open
+  name: Aleph Alpha Steering API
+  slug: open-aleph-alpha-steering-api
+- collection_type: open
+  name: Aleph Alpha Tasks API
+  slug: open-aleph-alpha-tasks-api
+- collection_type: open
+  name: Aleph Alpha Tokens API
+  slug: open-aleph-alpha-tokens-api
+- collection_type: open
+  name: PhariaStudio Traces API
+  slug: open-aleph-alpha-traces-api
+- collection_type: open
+  name: PhariaData Transformations API
+  slug: open-aleph-alpha-transformations-api
+- collection_type: open
+  name: PhariaOS Manager Usecases API
+  slug: open-aleph-alpha-usecases-api
+- collection_type: open
+  name: Aleph Alpha Users API
+  slug: open-aleph-alpha-users-api
+- collection_type: open
+  name: PhariaOS Manager V1/models API
+  slug: open-aleph-alpha-v1-models-api
+- collection_type: open
+  name: PhariaStudio Workspaces API
+  slug: open-aleph-alpha-workspaces-api
 common:
 - group: agent
   title: ''
@@ -335,7 +450,7 @@ overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Aleph Alpha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 37 more developer resources.'
-random_paper: 5
+random_paper: 42
 score:
   band: developing
   composite: 48.5
@@ -365,7 +480,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/screenshots/aleph-alpha-2026-08-07T161154.png
 security:

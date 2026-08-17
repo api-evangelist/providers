@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -57,8 +57,26 @@ apis:
 - description: The Search API from Nextdoor — 4 operation(s) for search.
   name: Nextdoor Search API
   slug: nextdoor-search-api
-artifact_total: 15
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nextdoor Developer Advertising API
+  slug: open-nextdoor-advertising-api
+- collection_type: open
+  name: Nextdoor Developer Advertising Conversions API
+  slug: open-nextdoor-conversions-api
+- collection_type: open
+  name: Nextdoor Developer Advertising Creatives API
+  slug: open-nextdoor-creatives-api
+- collection_type: open
+  name: Nextdoor Developer Advertising Posts API
+  slug: open-nextdoor-posts-api
+- collection_type: open
+  name: Nextdoor Developer Advertising Search API
+  slug: open-nextdoor-search-api
 - collection_type: open
   name: Nextdoor Developer API
   slug: open-nextdoor
@@ -131,7 +149,7 @@ plans:
 - name: Nextdoor Plans Pricing
   plan_count: 3
   slug: nextdoor-plans-pricing
-random_paper: 43
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Nextdoor Rate Limits
@@ -161,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/screenshots/nextdoor-2026-06-20T190257.png
 security:

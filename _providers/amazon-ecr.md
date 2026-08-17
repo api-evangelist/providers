@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,11 +76,32 @@ arazzos:
 - description: Page through every repository in a registry following the DescribeRepositories token loop.
   name: Amazon ECR Registry Audit
   slug: amazon-ecr-registry-audit-workflow
-artifact_total: 49
+artifact_total: 56
 collections:
 - collection_type: postman
   name: Amazon ECR Amazon Elastic Container Registry (ECR) API
   slug: postman-amazon-ecr
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon ECR Amazon Elastic Container Registry (ECR) Amazon ECR Amazon Elastic Container Registry (ECR) API API
+  slug: open-amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api
+- collection_type: open
+  name: 'Amazon ECR Amazon Elastic Container Registry (ECR) Amazon ECR Amazon Elastic Container Registry (ECR) API #BatchGetImage API'
+  slug: open-amazon-ecr-batchgetimage-api
+- collection_type: open
+  name: 'Amazon ECR Amazon Elastic Container Registry (ECR) Amazon ECR Amazon Elastic Container Registry (ECR) API #DeleteRepository API'
+  slug: open-amazon-ecr-deleterepository-api
+- collection_type: open
+  name: 'Amazon ECR Amazon Elastic Container Registry (ECR) Amazon ECR Amazon Elastic Container Registry (ECR) API #DescribeRepositories API'
+  slug: open-amazon-ecr-describerepositories-api
+- collection_type: open
+  name: 'Amazon ECR Amazon Elastic Container Registry (ECR) Amazon ECR Amazon Elastic Container Registry (ECR) API #ListImages API'
+  slug: open-amazon-ecr-listimages-api
+- collection_type: open
+  name: 'Amazon ECR Amazon Elastic Container Registry (ECR) Amazon ECR Amazon Elastic Container Registry (ECR) API #PutImage API'
+  slug: open-amazon-ecr-putimage-api
 - collection_type: open
   name: Amazon ECR Amazon Elastic Container Registry (ECR) API
   slug: open-amazon-ecr
@@ -295,7 +316,7 @@ plans:
 - name: Amazon Ecr Plans Pricing
   plan_count: 3
   slug: amazon-ecr-plans-pricing
-random_paper: 45
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Amazon Ecr Rate Limits
@@ -337,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/screenshots/amazon-ecr-2026-06-20T171634.png
 security:

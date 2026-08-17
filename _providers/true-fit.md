@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -94,7 +94,74 @@ apis:
 - description: A token is used to identify requests from a device and associate the requests with a session. As the user interacts with True Fit, the token will update. The most recent token returned by True Fit sho
   name: True Fit Token API
   slug: true-fit-token-api
-artifact_total: 26
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: True Fit - Consumer Analytics API
+  slug: open-true-fit-analytics-api
+- collection_type: open
+  name: True Fit - Consumer Auth API
+  slug: open-true-fit-auth-api
+- collection_type: open
+  name: True Fit - Consumer Bra Sizes API
+  slug: open-true-fit-bra-sizes-api
+- collection_type: open
+  name: True Fit - Consumer Brands API
+  slug: open-true-fit-brands-api
+- collection_type: open
+  name: True Fit - Consumer Checkout API
+  slug: open-true-fit-checkout-api
+- collection_type: open
+  name: True Fit Closet API
+  slug: open-true-fit-closet-api
+- collection_type: open
+  name: True Fit - Consumer Discovery Recommendation API
+  slug: open-true-fit-discovery-recommendation-api
+- collection_type: open
+  name: True Fit - Consumer Fit Recommendation API
+  slug: open-true-fit-fit-recommendation-api
+- collection_type: open
+  name: True Fit Partner Identity API
+  slug: open-true-fit-identity-api
+- collection_type: open
+  name: True Fit - Consumer Inseams API
+  slug: open-true-fit-inseams-api
+- collection_type: open
+  name: True Fit Partner Measurements API
+  slug: open-true-fit-measurements-api
+- collection_type: open
+  name: True Fit - Consumer Normalized Sizes API
+  slug: open-true-fit-normalized-sizes-api
+- collection_type: open
+  name: True Fit - Consumer Product Ratings API
+  slug: open-true-fit-product-ratings-api
+- collection_type: open
+  name: True Fit - Consumer Products API
+  slug: open-true-fit-products-api
+- collection_type: open
+  name: True Fit - Consumer Profile API
+  slug: open-true-fit-profile-api
+- collection_type: open
+  name: True Fit Partner Profiles API
+  slug: open-true-fit-profiles-api
+- collection_type: open
+  name: True Fit Partner Recommendations API
+  slug: open-true-fit-recommendations-api
+- collection_type: open
+  name: True Fit - Consumer Sizes API
+  slug: open-true-fit-sizes-api
+- collection_type: open
+  name: True Fit - Consumer Sleeve Lengths API
+  slug: open-true-fit-sleeve-lengths-api
+- collection_type: open
+  name: True Fit - Consumer Style Attributes API
+  slug: open-true-fit-style-attributes-api
+- collection_type: open
+  name: True Fit - Consumer Token API
+  slug: open-true-fit-token-api
 common:
 - group: other
   title: ''
@@ -260,7 +327,7 @@ overview: 'True Fit publishes 21 APIs on the [APIs.io](https://apis.io/) network
 
 
   True Fit''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 96
+random_paper: 71
 score:
   band: developing
   composite: 45.3
@@ -284,7 +351,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

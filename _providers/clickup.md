@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -78,45 +78,87 @@ apis:
 - description: Operations for creating, retrieving, updating, and deleting webhook subscriptions.
   name: clickup Webhooks API
   slug: clickup-webhooks-api
-artifact_total: 95
+artifact_total: 109
 asyncapis:
 - description: The ClickUp Webhooks event system delivers real-time notifications when changes occur within a ClickUp Workspace. When subscribed events happen, ClickUp sends HTTP POST requests to a registered endpoi
   name: ClickUp Webhooks Events
   slug: clickup-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ClickUp Comments Authorization API
+  slug: open-clickup-authorization-api
+- collection_type: open
+  name: ClickUp Authorization Comments API
+  slug: open-clickup-comments-api
+- collection_type: open
   name: ClickUp Comments API
   slug: open-clickup-comments
+- collection_type: open
+  name: ClickUp Comments Authorization Custom Fields API
+  slug: open-clickup-custom-fields-api
 - collection_type: open
   name: ClickUp Custom Fields API
   slug: open-clickup-custom-fields
 - collection_type: open
+  name: ClickUp Comments Authorization Folders API
+  slug: open-clickup-folders-api
+- collection_type: open
   name: ClickUp Folders API
   slug: open-clickup-folders
+- collection_type: open
+  name: ClickUp Comments Authorization Goals API
+  slug: open-clickup-goals-api
 - collection_type: open
   name: ClickUp Goals API
   slug: open-clickup-goals
 - collection_type: open
+  name: ClickUp Comments Authorization Lists API
+  slug: open-clickup-lists-api
+- collection_type: open
   name: ClickUp Lists API
   slug: open-clickup-lists
+- collection_type: open
+  name: ClickUp Comments Authorization OAuth API
+  slug: open-clickup-oauth-api
 - collection_type: open
   name: ClickUp OAuth API
   slug: open-clickup-oauth
 - collection_type: open
+  name: ClickUp Comments Authorization Spaces API
+  slug: open-clickup-spaces-api
+- collection_type: open
   name: ClickUp Spaces API
   slug: open-clickup-spaces
+- collection_type: open
+  name: ClickUp Comments Authorization Tasks API
+  slug: open-clickup-tasks-api
 - collection_type: open
   name: ClickUp Tasks API
   slug: open-clickup-tasks
 - collection_type: open
+  name: ClickUp Comments Authorization Teams API
+  slug: open-clickup-teams-api
+- collection_type: open
   name: ClickUp Teams (Workspaces) API
   slug: open-clickup-teams
+- collection_type: open
+  name: ClickUp Comments Authorization Time Tracking API
+  slug: open-clickup-time-tracking-api
 - collection_type: open
   name: ClickUp Time Tracking API
   slug: open-clickup-time-tracking
 - collection_type: open
+  name: ClickUp Comments Authorization Views API
+  slug: open-clickup-views-api
+- collection_type: open
   name: ClickUp Views API
   slug: open-clickup-views
+- collection_type: open
+  name: ClickUp Comments Authorization Webhooks API
+  slug: open-clickup-webhooks-api
 - collection_type: open
   name: ClickUp Webhooks API
   slug: open-clickup-webhooks
@@ -341,7 +383,7 @@ plans:
 - name: Clickup Plans Pricing
   plan_count: 4
   slug: clickup-plans-pricing
-random_paper: 27
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Clickup Rate Limits
@@ -383,7 +425,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/screenshots/clickup-2026-06-20T174517.png
 security:

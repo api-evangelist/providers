@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ arazzos:
 - description: Inspect existing webhook subscriptions, subscribe to an event, and confirm registration.
   name: Salla Webhook Subscription Setup
   slug: salla-webhook-subscription-workflow
-artifact_total: 80
+artifact_total: 97
 collections:
 - collection_type: postman
   name: Salla Apps API
@@ -136,17 +136,68 @@ collections:
   name: Salla Shipping and Fulfillment API
   slug: postman-salla-shipping-fulfillment-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Salla Apps API
   slug: open-salla-apps-api
+- collection_type: open
+  name: Salla Apps Branches API
+  slug: open-salla-branches-api
+- collection_type: open
+  name: Salla Apps Branches Brands API
+  slug: open-salla-brands-api
+- collection_type: open
+  name: Salla Apps Branches Carts API
+  slug: open-salla-carts-api
+- collection_type: open
+  name: Salla Apps Branches Categories API
+  slug: open-salla-categories-api
+- collection_type: open
+  name: Salla Apps Branches Coupons API
+  slug: open-salla-coupons-api
+- collection_type: open
+  name: Salla Apps Branches Customers API
+  slug: open-salla-customers-api
+- collection_type: open
+  name: Salla Apps Branches Financial API
+  slug: open-salla-financial-api
+- collection_type: open
+  name: Salla Apps Branches Localization API
+  slug: open-salla-localization-api
 - collection_type: open
   name: Salla Merchant API
   slug: open-salla-merchant-api
 - collection_type: open
+  name: Salla Apps Branches OAuth API
+  slug: open-salla-oauth-api
+- collection_type: open
+  name: Salla Apps Branches Orders API
+  slug: open-salla-orders-api
+- collection_type: open
+  name: Salla Apps Branches Products API
+  slug: open-salla-products-api
+- collection_type: open
+  name: Salla Apps Branches Shipments API
+  slug: open-salla-shipments-api
+- collection_type: open
+  name: Salla Apps Branches Shipping API
+  slug: open-salla-shipping-api
+- collection_type: open
   name: Salla Shipping and Fulfillment API
   slug: open-salla-shipping-fulfillment-api
 - collection_type: open
+  name: Salla Apps Branches Store API
+  slug: open-salla-store-api
+- collection_type: open
+  name: Salla Apps Branches Webhooks API
+  slug: open-salla-webhooks-api
+- collection_type: open
   name: Salla Webhooks
   slug: open-salla-webhooks-asyncapi
+- collection_type: open
+  name: Salla Apps Branches Zones API
+  slug: open-salla-zones-api
 common:
 - group: agent
   title: ''
@@ -441,7 +492,7 @@ plans:
 - name: Salla Plans Pricing
   plan_count: 5
   slug: salla-plans-pricing
-random_paper: 45
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Salla Rate Limits
@@ -494,7 +545,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/screenshots/salla-2026-06-20T193358.png
 security:

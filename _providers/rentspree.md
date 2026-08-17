@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -160,7 +160,7 @@ overview: 'RentSpree is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   RentSpree''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 25 more developer resources.'
-random_paper: 24
+random_paper: 90
 score:
   band: emerging
   composite: 15.7
@@ -180,7 +180,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentspree/refs/heads/main/screenshots/rentspree-2026-06-20T192855.png
 security:

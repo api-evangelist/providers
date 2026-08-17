@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -81,7 +81,53 @@ apis:
 - description: Resources providing access to work orders.
   name: Propertyware Work orders API
   slug: propertyware-work-orders-api
-artifact_total: 269
+artifact_total: 284
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting API
+  slug: open-propertyware-accounting-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Bills API
+  slug: open-propertyware-bills-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Buildings API
+  slug: open-propertyware-buildings-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Contacts API
+  slug: open-propertyware-contacts-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Custom field definitions API
+  slug: open-propertyware-custom-field-definitions-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Documents API
+  slug: open-propertyware-documents-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Health check API
+  slug: open-propertyware-health-check-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Inspections API
+  slug: open-propertyware-inspections-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Leases API
+  slug: open-propertyware-leases-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Portfolios API
+  slug: open-propertyware-portfolios-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Prospects API
+  slug: open-propertyware-prospects-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Units API
+  slug: open-propertyware-units-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Vendors API
+  slug: open-propertyware-vendors-api
+- collection_type: open
+  name: Open API, powered by Propertyware Accounting Work orders API
+  slug: open-propertyware-work-orders-api
 common:
 - group: agent
   title: ''
@@ -907,7 +953,7 @@ plans:
 - name: Propertyware Plans Pricing
   plan_count: 3
   slug: propertyware-plans-pricing
-random_paper: 12
+random_paper: 140
 rate_limits:
 - limit_count: 0
   name: Propertyware Rate Limits
@@ -941,7 +987,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/screenshots/propertyware-2026-06-20T192210.png
 security:

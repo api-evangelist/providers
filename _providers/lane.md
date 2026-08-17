@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ name: Lane
 nav: Providers
 network: true
 overview: Lane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Commercial Real Estate, Property Technology, and Workplace.
-random_paper: 56
+random_paper: 118
 score:
   band: minimal
   composite: 9.9
@@ -91,7 +91,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 9.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lane/refs/heads/main/screenshots/lane-2026-07-25T224541.png
 security:

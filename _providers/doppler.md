@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,8 +65,35 @@ apis:
 - description: The Webhooks API from Doppler — 1 operation(s) for webhooks.
   name: Doppler Webhooks API
   slug: doppler-webhooks-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Doppler REST ActivityLogs API
+  slug: open-doppler-activitylogs-api
+- collection_type: open
+  name: Doppler REST ActivityLogs Auth API
+  slug: open-doppler-auth-api
+- collection_type: open
+  name: Doppler REST ActivityLogs Configs API
+  slug: open-doppler-configs-api
+- collection_type: open
+  name: Doppler REST ActivityLogs Environments API
+  slug: open-doppler-environments-api
+- collection_type: open
+  name: Doppler REST ActivityLogs Projects API
+  slug: open-doppler-projects-api
+- collection_type: open
+  name: Doppler REST ActivityLogs Secrets API
+  slug: open-doppler-secrets-api
+- collection_type: open
+  name: Doppler REST ActivityLogs ServiceTokens API
+  slug: open-doppler-servicetokens-api
+- collection_type: open
+  name: Doppler REST ActivityLogs Webhooks API
+  slug: open-doppler-webhooks-api
 - collection_type: open
   name: Doppler REST API
   slug: open-doppler
@@ -139,7 +166,7 @@ overview: 'Doppler publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Doppler''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 38
+random_paper: 13
 score:
   band: thin
   composite: 34.6
@@ -160,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/screenshots/doppler-2026-06-20T180156.png
 security:

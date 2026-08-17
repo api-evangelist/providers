@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
 - description: The Version API from Reducto — 1 operation(s) for version.
   name: Reducto Version API
   slug: reducto-version-api
-artifact_total: 64
+artifact_total: 82
 collections:
 - collection_type: postman
   name: Reducto Cancel API
@@ -143,6 +143,60 @@ collections:
 - collection_type: postman
   name: Reducto Cancel Version API
   slug: postman-reducto-version-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reducto Cancel API
+  slug: open-reducto-cancel-api
+- collection_type: open
+  name: Reducto Cancel Classify API
+  slug: open-reducto-classify-api
+- collection_type: open
+  name: Reducto Cancel Configure Webhook API
+  slug: open-reducto-configure-webhook-api
+- collection_type: open
+  name: Reducto Cancel Edit API
+  slug: open-reducto-edit-api
+- collection_type: open
+  name: Reducto Cancel Edit Async API
+  slug: open-reducto-edit-async-api
+- collection_type: open
+  name: Reducto Cancel Extract API
+  slug: open-reducto-extract-api
+- collection_type: open
+  name: Reducto Cancel Extract Async API
+  slug: open-reducto-extract-async-api
+- collection_type: open
+  name: Reducto Cancel Job API
+  slug: open-reducto-job-api
+- collection_type: open
+  name: Reducto Cancel Jobs API
+  slug: open-reducto-jobs-api
+- collection_type: open
+  name: Reducto Cancel Parse API
+  slug: open-reducto-parse-api
+- collection_type: open
+  name: Reducto Cancel Parse Async API
+  slug: open-reducto-parse-async-api
+- collection_type: open
+  name: Reducto Cancel Pipeline API
+  slug: open-reducto-pipeline-api
+- collection_type: open
+  name: Reducto Cancel Pipeline Async API
+  slug: open-reducto-pipeline-async-api
+- collection_type: open
+  name: Reducto Cancel Split API
+  slug: open-reducto-split-api
+- collection_type: open
+  name: Reducto Cancel Split Async API
+  slug: open-reducto-split-async-api
+- collection_type: open
+  name: Reducto Cancel Upload API
+  slug: open-reducto-upload-api
+- collection_type: open
+  name: Reducto Cancel Version API
+  slug: open-reducto-version-api
 common:
 - group: commercial
   title: ''
@@ -318,7 +372,7 @@ plans:
 - name: Reducto Plans Pricing
   plan_count: 3
   slug: reducto-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Reducto Rate Limits
@@ -352,7 +406,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/screenshots/reducto-2026-06-20T192736.png
 security:

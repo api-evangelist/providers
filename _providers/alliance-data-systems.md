@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,8 +66,26 @@ apis:
 - description: Manage completed Bread Pay transactions.
   name: Alliance Data Systems (Bread Financial Holdings) Transactions API
   slug: alliance-data-systems-transactions-api
-artifact_total: 42
+artifact_total: 48
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bread Classic Merchant Buyers API
+  slug: open-alliance-data-systems-buyers-api
+- collection_type: open
+  name: Bread Classic Merchant Buyers Carts API
+  slug: open-alliance-data-systems-carts-api
+- collection_type: open
+  name: Bread Classic Merchant Buyers Payment Options API
+  slug: open-alliance-data-systems-payment-options-api
+- collection_type: open
+  name: Bread Classic Merchant Buyers Shipping API
+  slug: open-alliance-data-systems-shipping-api
+- collection_type: open
+  name: Bread Classic Merchant Buyers Transactions API
+  slug: open-alliance-data-systems-transactions-api
 - collection_type: open
   name: Bread Classic Merchant API
   slug: open-bread-classic-merchant
@@ -296,7 +314,7 @@ press:
 - date: '2026-05-25'
   title: 'Q2: Alliance Data Systems Bets On Conversant''s Pipeline'
   url: https://www.adexchanger.com/online-advertising/q2-alliance-data-systems-bets-on-coversants-pipeline/
-random_paper: 77
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Alliance Data Systems Rate Limits
@@ -357,7 +375,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/screenshots/alliance-data-systems-2026-07-25T195654.png
 security:

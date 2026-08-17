@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,26 @@ apis:
 - description: The Return API from Wageningen University & Research — 10 operation(s) for return.
   name: Wageningen University & Research Return API
   slug: wageningen-university-research-return-api
-artifact_total: 20
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AgroDataCube API v1 (legacy) Altitude API
+  slug: open-wageningen-university-research-altitude-api
+- collection_type: open
+  name: AgroDataCube API v1 (legacy) Altitude KPI API
+  slug: open-wageningen-university-research-kpi-api
+- collection_type: open
+  name: AgroDataCube API v1 (legacy) Altitude Raster API
+  slug: open-wageningen-university-research-raster-api
+- collection_type: open
+  name: AgroDataCube API v1 (legacy) Altitude Retrieve API
+  slug: open-wageningen-university-research-retrieve-api
+- collection_type: open
+  name: AgroDataCube API v1 (legacy) Altitude Return API
+  slug: open-wageningen-university-research-return-api
 common:
 - group: agent
   title: ''
@@ -150,7 +169,7 @@ plans:
 - name: Wageningen University Research Plans Pricing
   plan_count: 2
   slug: wageningen-university-research-plans-pricing
-random_paper: 116
+random_paper: 136
 rate_limits:
 - limit_count: 1
   name: Wageningen University Research Rate Limits
@@ -198,7 +217,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 90
 apis:
 - description: The Activity API from Samsara — 1 operation(s) for activity.
@@ -301,7 +301,278 @@ apis:
 - description: The Webhooks API from Samsara — 2 operation(s) for webhooks.
   name: Samsara Webhooks API
   slug: samsara-webhooks-api
-artifact_total: 105
+artifact_total: 195
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Samsara Activity API
+  slug: open-samsara-activity-api
+- collection_type: open
+  name: Samsara Addresses API
+  slug: open-samsara-addresses-api
+- collection_type: open
+  name: Samsara Aemp API
+  slug: open-samsara-aemp-api
+- collection_type: open
+  name: Samsara Applications API
+  slug: open-samsara-applications-api
+- collection_type: open
+  name: Samsara Assets API
+  slug: open-samsara-assets-api
+- collection_type: open
+  name: Samsara Assignments API
+  slug: open-samsara-assignments-api
+- collection_type: open
+  name: Samsara Attributes API
+  slug: open-samsara-attributes-api
+- collection_type: open
+  name: Samsara Audit API
+  slug: open-samsara-audit-api
+- collection_type: open
+  name: Samsara Beta  A P Is API
+  slug: open-samsara-beta-a-p-is-api
+- collection_type: open
+  name: Samsara Camera API
+  slug: open-samsara-camera-api
+- collection_type: open
+  name: Samsara Cameras API
+  slug: open-samsara-cameras-api
+- collection_type: open
+  name: Samsara Cargo API
+  slug: open-samsara-cargo-api
+- collection_type: open
+  name: Samsara Carrier API
+  slug: open-samsara-carrier-api
+- collection_type: open
+  name: Samsara Codes API
+  slug: open-samsara-codes-api
+- collection_type: open
+  name: Samsara Configurations API
+  slug: open-samsara-configurations-api
+- collection_type: open
+  name: Samsara Contacts API
+  slug: open-samsara-contacts-api
+- collection_type: open
+  name: Samsara Csv API
+  slug: open-samsara-csv-api
+- collection_type: open
+  name: Samsara Custom API
+  slug: open-samsara-custom-api
+- collection_type: open
+  name: Samsara Daily API
+  slug: open-samsara-daily-api
+- collection_type: open
+  name: Samsara Data API
+  slug: open-samsara-data-api
+- collection_type: open
+  name: Samsara Defects API
+  slug: open-samsara-defects-api
+- collection_type: open
+  name: Samsara Dispatch API
+  slug: open-samsara-dispatch-api
+- collection_type: open
+  name: Samsara Documents API
+  slug: open-samsara-documents-api
+- collection_type: open
+  name: Samsara Door API
+  slug: open-samsara-door-api
+- collection_type: open
+  name: Samsara Driver API
+  slug: open-samsara-driver-api
+- collection_type: open
+  name: Samsara Drivers API
+  slug: open-samsara-drivers-api
+- collection_type: open
+  name: Samsara Dvirs API
+  slug: open-samsara-dvirs-api
+- collection_type: open
+  name: Samsara Efficiency API
+  slug: open-samsara-efficiency-api
+- collection_type: open
+  name: Samsara Equipment API
+  slug: open-samsara-equipment-api
+- collection_type: open
+  name: Samsara Events API
+  slug: open-samsara-events-api
+- collection_type: open
+  name: Samsara Exports API
+  slug: open-samsara-exports-api
+- collection_type: open
+  name: Samsara Feed API
+  slug: open-samsara-feed-api
+- collection_type: open
+  name: Samsara Files API
+  slug: open-samsara-files-api
+- collection_type: open
+  name: Samsara Fleets API
+  slug: open-samsara-fleets-api
+- collection_type: open
+  name: Samsara Forms API
+  slug: open-samsara-forms-api
+- collection_type: open
+  name: Samsara Fuel And  Energy API
+  slug: open-samsara-fuel-and-energy-api
+- collection_type: open
+  name: Samsara Fuel API
+  slug: open-samsara-fuel-api
+- collection_type: open
+  name: Samsara Gateways API
+  slug: open-samsara-gateways-api
+- collection_type: open
+  name: Samsara History API
+  slug: open-samsara-history-api
+- collection_type: open
+  name: Samsara Hos API
+  slug: open-samsara-hos-api
+- collection_type: open
+  name: Samsara Hours Of  Service API
+  slug: open-samsara-hours-of-service-api
+- collection_type: open
+  name: Samsara Humidity API
+  slug: open-samsara-humidity-api
+- collection_type: open
+  name: Samsara Idling API
+  slug: open-samsara-idling-api
+- collection_type: open
+  name: Samsara Immobilizer API
+  slug: open-samsara-immobilizer-api
+- collection_type: open
+  name: Samsara Incidents API
+  slug: open-samsara-incidents-api
+- collection_type: open
+  name: Samsara Industrial API
+  slug: open-samsara-industrial-api
+- collection_type: open
+  name: Samsara Inputs API
+  slug: open-samsara-inputs-api
+- collection_type: open
+  name: Samsara Intervals API
+  slug: open-samsara-intervals-api
+- collection_type: open
+  name: Samsara Jurisdiction API
+  slug: open-samsara-jurisdiction-api
+- collection_type: open
+  name: Samsara Locations API
+  slug: open-samsara-locations-api
+- collection_type: open
+  name: Samsara Logs API
+  slug: open-samsara-logs-api
+- collection_type: open
+  name: Samsara Maintenance API
+  slug: open-samsara-maintenance-api
+- collection_type: open
+  name: Samsara Media API
+  slug: open-samsara-media-api
+- collection_type: open
+  name: Samsara Messages API
+  slug: open-samsara-messages-api
+- collection_type: open
+  name: Samsara Organization  Info API
+  slug: open-samsara-organization-info-api
+- collection_type: open
+  name: Samsara Outputs API
+  slug: open-samsara-outputs-api
+- collection_type: open
+  name: Samsara Page API
+  slug: open-samsara-page-api
+- collection_type: open
+  name: Samsara Purchase API
+  slug: open-samsara-purchase-api
+- collection_type: open
+  name: Samsara Reefer API
+  slug: open-samsara-reefer-api
+- collection_type: open
+  name: Samsara Reports API
+  slug: open-samsara-reports-api
+- collection_type: open
+  name: Samsara Roles API
+  slug: open-samsara-roles-api
+- collection_type: open
+  name: Samsara Routes API
+  slug: open-samsara-routes-api
+- collection_type: open
+  name: Samsara Runs API
+  slug: open-samsara-runs-api
+- collection_type: open
+  name: Samsara Safety API
+  slug: open-samsara-safety-api
+- collection_type: open
+  name: Samsara Sensors API
+  slug: open-samsara-sensors-api
+- collection_type: open
+  name: Samsara Sessions API
+  slug: open-samsara-sessions-api
+- collection_type: open
+  name: Samsara Settings API
+  slug: open-samsara-settings-api
+- collection_type: open
+  name: Samsara Shares API
+  slug: open-samsara-shares-api
+- collection_type: open
+  name: Samsara Started API
+  slug: open-samsara-started-api
+- collection_type: open
+  name: Samsara Statistics API
+  slug: open-samsara-statistics-api
+- collection_type: open
+  name: Samsara Status API
+  slug: open-samsara-status-api
+- collection_type: open
+  name: Samsara Stream API
+  slug: open-samsara-stream-api
+- collection_type: open
+  name: Samsara Submissions API
+  slug: open-samsara-submissions-api
+- collection_type: open
+  name: Samsara Tachograph ( E U  Only) API
+  slug: open-samsara-tachograph-e-u-only-api
+- collection_type: open
+  name: Samsara Tags API
+  slug: open-samsara-tags-api
+- collection_type: open
+  name: Samsara Temperature API
+  slug: open-samsara-temperature-api
+- collection_type: open
+  name: Samsara Trailer API
+  slug: open-samsara-trailer-api
+- collection_type: open
+  name: Samsara Trailer  Assignments API
+  slug: open-samsara-trailer-assignments-api
+- collection_type: open
+  name: Samsara Trailers API
+  slug: open-samsara-trailers-api
+- collection_type: open
+  name: Samsara Training API
+  slug: open-samsara-training-api
+- collection_type: open
+  name: Samsara Trips API
+  slug: open-samsara-trips-api
+- collection_type: open
+  name: Samsara Types API
+  slug: open-samsara-types-api
+- collection_type: open
+  name: Samsara Users API
+  slug: open-samsara-users-api
+- collection_type: open
+  name: Samsara Vehicle API
+  slug: open-samsara-vehicle-api
+- collection_type: open
+  name: Samsara Vehicle  Locations API
+  slug: open-samsara-vehicle-locations-api
+- collection_type: open
+  name: Samsara Vehicle  Stats API
+  slug: open-samsara-vehicle-stats-api
+- collection_type: open
+  name: Samsara Vehicles API
+  slug: open-samsara-vehicles-api
+- collection_type: open
+  name: Samsara Vision API
+  slug: open-samsara-vision-api
+- collection_type: open
+  name: Samsara Webhooks API
+  slug: open-samsara-webhooks-api
 common:
 - group: auth
   title: ''
@@ -427,7 +698,7 @@ plans:
 - name: Samsara Plans Pricing
   plan_count: 3
   slug: samsara-plans-pricing
-random_paper: 24
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Samsara Rate Limits
@@ -468,7 +739,7 @@ score:
       marker_coverage: 0.0
       total: 90
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsara/refs/heads/main/screenshots/samsara-2026-06-20T193402.png
 security:

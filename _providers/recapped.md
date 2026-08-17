@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 6.8
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -79,34 +79,77 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/recapped-llms.txt
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Recapped
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/recapped-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/recapped-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/recapped-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/recapped-conformance.yml
+coverage:
+  checked: '2026-08-13'
+  detail: RecappED shipped an end-user sales-room product with no developer program at all — api.recapped.io, docs.recapped.io and developer.recapped.io have no DNS record, /llms.txt and every /.well-known/ path 404 on www.recapped.io, and the company announced on 2026-07-31 that it is shutting down; the only machine-oriented document it publishes is the customer data-export schema in github.com/Recapped/customer-offboarding-docs.
+  evidence:
+  - status: 404
+    url: https://www.recapped.io/llms.txt
+  - status: 404
+    url: https://www.recapped.io/openapi.json
+  - status: 404
+    url: https://www.recapped.io/.well-known/agent-card.json
+  - status: 200
+    url: https://raw.githubusercontent.com/Recapped/customer-offboarding-docs/main/README.md
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: RecappED (recapped.io) is an AI-powered digital sales room and customer onboarding platform for B2B revenue teams. It consolidates the buying and selling process into a single collaborative workspace with mutual action plans, deal management, buyer-engagement tracking, AI deal intelligence, an AI sales coach, and structured handoffs from sales to implementation. Integration with CRM and sales tooling is delivered through native connectors (Salesforce, HubSpot, Slack, Gong, Clari, Zoom) and Zapier rather than a public developer API; no OpenAPI, developer portal, or public REST reference is published. The platform announced it is shutting down on 2026-07-31 and is not accepting new customers. Surfaced as a CRV portfolio company and enriched into the API Evangelist network.
+description: RecappED (recapped.io) is an AI-powered digital sales room and customer onboarding platform for B2B revenue teams. It consolidates the buying and selling process into a single collaborative workspace with mutual action plans, deal management, buyer-engagement tracking, AI deal intelligence, an AI sales coach, and structured handoffs from sales to implementation. Integration with CRM and sales tooling is delivered through native connectors (Salesforce, HubSpot, Slack, Gong, Clari, Zoom) and Zapier rather than a public developer API; no OpenAPI, developer portal, or public REST reference is published. The platform announced it is shutting down on 2026-07-31 and is not accepting new customers; probed again on 2026-08-13 the site and application were still serving, with the shutdown banner on every page. The one machine-oriented document the company publishes is the schema of the customer offboarding data export, in the github.com/Recapped organization. Surfaced as a CRV portfolio
+  company and enriched into the API Evangelist network.
 image: https://cdn.prod.website-files.com/61af7c094ef4b24b1e3eda92/61dee2a765d386544289a873_Link%20preview%20image.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: RecappED
 nav: Providers
 network: true
 overview: 'RecappED is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Sales Enablement, Digital Sales Room, and Customer Onboarding.
 
 
-  RecappED''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 116
+  RecappED''s developer surface includes pricing, signup flow, support, engineering blog, and 13 more developer resources.'
+plans:
+- name: Recapped Plans Pricing
+  plan_count: 7
+  slug: recapped-plans-pricing
+random_paper: 91
+rate_limits:
+- limit_count: 0
+  name: Recapped Rate Limits
+  slug: recapped-rate-limits
 score:
-  band: emerging
-  composite: 19.1
-  delta: 0.0
+  band: thin
+  composite: 28.8
+  delta: 9.7
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 5.3
   previous_composite: 19.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Recapped Domain Security

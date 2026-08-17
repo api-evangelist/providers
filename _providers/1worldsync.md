@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,14 @@ apis:
 - description: The FetchProduct API from 1WorldSync — 3 operation(s) for fetchproduct.
   name: 1WorldSync FetchProduct API
   slug: 1worldsync-fetchproduct-api
-artifact_total: 6
+artifact_total: 8
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 1WorldSync Content1 FetchProduct API
+  slug: open-1worldsync-fetchproduct-api
 common:
 - group: other
   title: ''
@@ -179,7 +186,7 @@ overview: '1WorldSync publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   1WorldSync''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 23 more developer resources.'
-random_paper: 86
+random_paper: 3
 score:
   band: developing
   composite: 50.9
@@ -203,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/screenshots/1worldsync-2026-07-25T181115.png
 security:

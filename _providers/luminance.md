@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 21
 apis:
 - description: The Accounts API from Luminance — 6 operation(s) for accounts.
@@ -84,7 +84,71 @@ apis:
 - description: The Workflows API from Luminance — 4 operation(s) for workflows.
   name: Luminance Workflows API
   slug: luminance-workflows-api
-artifact_total: 27
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Luminance Accounts API
+  slug: open-luminance-accounts-api
+- collection_type: open
+  name: Luminance Public API v2 Annotation Source Relations API
+  slug: open-luminance-annotation-source-relations-api
+- collection_type: open
+  name: Luminance Public API v2 Annotation Sources API
+  slug: open-luminance-annotation-sources-api
+- collection_type: open
+  name: Luminance Public API v2 Annotation Types API
+  slug: open-luminance-annotation-types-api
+- collection_type: open
+  name: Luminance Annotations API
+  slug: open-luminance-annotations-api
+- collection_type: open
+  name: Luminance Contract Creation API
+  slug: open-luminance-contract-creation-api
+- collection_type: open
+  name: Luminance Public API v2 Document Templates API
+  slug: open-luminance-document-templates-api
+- collection_type: open
+  name: Luminance Documents API
+  slug: open-luminance-documents-api
+- collection_type: open
+  name: Luminance Folders API
+  slug: open-luminance-folders-api
+- collection_type: open
+  name: Luminance Matter Versions API
+  slug: open-luminance-matter-versions-api
+- collection_type: open
+  name: Luminance Matters API
+  slug: open-luminance-matters-api
+- collection_type: open
+  name: Luminance Public API v2 Project Users API
+  slug: open-luminance-project-users-api
+- collection_type: open
+  name: Luminance Projects API
+  slug: open-luminance-projects-api
+- collection_type: open
+  name: Luminance Root API
+  slug: open-luminance-root-api
+- collection_type: open
+  name: Luminance Public API v2 Search API
+  slug: open-luminance-search-api
+- collection_type: open
+  name: Luminance Public API v2 System API
+  slug: open-luminance-system-api
+- collection_type: open
+  name: Luminance Tasks API
+  slug: open-luminance-tasks-api
+- collection_type: open
+  name: Luminance Traffic Light Analysis API
+  slug: open-luminance-traffic-light-analysis-api
+- collection_type: open
+  name: Luminance Users API
+  slug: open-luminance-users-api
+- collection_type: open
+  name: Luminance Workflows API
+  slug: open-luminance-workflows-api
 common:
 - group: agent
   title: ''
@@ -207,7 +271,7 @@ overview: 'Luminance publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Luminance''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 116
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Luminance Rate Limits
@@ -239,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/screenshots/luminance-2026-08-07T171838.png
 security:

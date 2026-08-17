@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ apis:
 - description: Access member profile information
   name: Microsoft Profile API
   slug: microsoft-profile-api
-artifact_total: 189
+artifact_total: 249
 collections:
 - collection_type: postman
   name: Microsoft Azure Cognitive Services Accounts API
@@ -384,6 +384,18 @@ collections:
   name: Microsoft Azure Cognitive Services Accounts Work Items API
   slug: postman-microsoft-work-items-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts API
+  slug: open-microsoft-accounts-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Applications API
+  slug: open-microsoft-applications-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Audio API
+  slug: open-microsoft-audio-api
+- collection_type: open
   name: Microsoft Azure Cognitive Services API
   slug: open-microsoft-azure-cognitive-services
 - collection_type: open
@@ -402,23 +414,140 @@ collections:
   name: Microsoft Bing Search APIs
   slug: open-microsoft-bing-search
 - collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Calendar API
+  slug: open-microsoft-calendar-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Channels API
+  slug: open-microsoft-channels-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Chat API
+  slug: open-microsoft-chat-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Chat Completions API
+  slug: open-microsoft-chat-completions-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Completions API
+  slug: open-microsoft-completions-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Computer Vision API
+  slug: open-microsoft-computer-vision-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Contacts API
+  slug: open-microsoft-contacts-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Dashboards API
+  slug: open-microsoft-dashboards-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Datasets API
+  slug: open-microsoft-datasets-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Deployments API
+  slug: open-microsoft-deployments-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Device Compliance API
+  slug: open-microsoft-device-compliance-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Device Configuration API
+  slug: open-microsoft-device-configuration-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Drive API
+  slug: open-microsoft-drive-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Drives API
+  slug: open-microsoft-drives-api
+- collection_type: open
   name: Microsoft Dynamics 365 REST API
   slug: open-microsoft-dynamics-365
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Email API
+  slug: open-microsoft-email-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Embeddings API
+  slug: open-microsoft-embeddings-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Entities API
+  slug: open-microsoft-entities-api
 - collection_type: open
   name: Microsoft Entra ID API
   slug: open-microsoft-entra-id
 - collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Git API
+  slug: open-microsoft-git-api
+- collection_type: open
   name: Microsoft Graph API
   slug: open-microsoft-graph
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Groups API
+  slug: open-microsoft-groups-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Identity API
+  slug: open-microsoft-identity-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Image Search API
+  slug: open-microsoft-image-search-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Images API
+  slug: open-microsoft-images-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Imports API
+  slug: open-microsoft-imports-api
 - collection_type: open
   name: Microsoft Intune API
   slug: open-microsoft-intune
 - collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Items API
+  slug: open-microsoft-items-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Leads API
+  slug: open-microsoft-leads-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Lists API
+  slug: open-microsoft-lists-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Mail API
+  slug: open-microsoft-mail-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Managed Devices API
+  slug: open-microsoft-managed-devices-api
+- collection_type: open
+  name: LinkedIn Marketing API
+  slug: open-microsoft-marketing-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Members API
+  slug: open-microsoft-members-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Messages API
+  slug: open-microsoft-messages-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Metadata API
+  slug: open-microsoft-metadata-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Mobile Apps API
+  slug: open-microsoft-mobile-apps-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts News Search API
+  slug: open-microsoft-news-search-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts OAuth2 Permissions API
+  slug: open-microsoft-oauth2-permissions-api
+- collection_type: open
   name: Microsoft OneDrive API
   slug: open-microsoft-onedrive
 - collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Opportunities API
+  slug: open-microsoft-opportunities-api
+- collection_type: open
+  name: LinkedIn Organizations API
+  slug: open-microsoft-organizations-api
+- collection_type: open
   name: Microsoft Outlook API
   slug: open-microsoft-outlook
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Pipelines API
+  slug: open-microsoft-pipelines-api
+- collection_type: open
+  name: LinkedIn Posts API
+  slug: open-microsoft-posts-api
 - collection_type: open
   name: Microsoft Power BI REST API
   slug: open-microsoft-power-bi
@@ -426,11 +555,62 @@ collections:
   name: Microsoft Power Platform API
   slug: open-microsoft-power-platform
 - collection_type: open
+  name: LinkedIn Profile API
+  slug: open-microsoft-profile-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Projects API
+  slug: open-microsoft-projects-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Reports API
+  slug: open-microsoft-reports-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Resource Groups API
+  slug: open-microsoft-resource-groups-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Resources API
+  slug: open-microsoft-resources-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Service Principals API
+  slug: open-microsoft-service-principals-api
+- collection_type: open
   name: Microsoft SharePoint REST API
   slug: open-microsoft-sharepoint
 - collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Sharing API
+  slug: open-microsoft-sharing-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Sites API
+  slug: open-microsoft-sites-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts SMS API
+  slug: open-microsoft-sms-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Subscriptions API
+  slug: open-microsoft-subscriptions-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Teams API
+  slug: open-microsoft-teams-api
+- collection_type: open
   name: Microsoft Teams API
   slug: open-microsoft-teams
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Text Analytics API
+  slug: open-microsoft-text-analytics-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Translator API
+  slug: open-microsoft-translator-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Users API
+  slug: open-microsoft-users-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Video Search API
+  slug: open-microsoft-video-search-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Web Search API
+  slug: open-microsoft-web-search-api
+- collection_type: open
+  name: Microsoft Azure Cognitive Services Accounts Work Items API
+  slug: open-microsoft-work-items-api
 common:
 - group: build
   title: ''
@@ -656,7 +836,7 @@ press:
 - date: '2026-05-25'
   title: Microsoft announces $5.5 billion spend and new ...
   url: https://news.microsoft.com/source/asia/2026/04/01/microsoft-announces-5-5-billion-spend-and-new-microsoft-elevate-programs-to-support-every-tertiary-student-educator-and-nonprofit-to-power-singapores-ai-future/
-random_paper: 22
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Microsoft Rate Limits
@@ -695,7 +875,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:

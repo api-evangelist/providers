@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Branch's Quote to Bind GraphQL API exposes everything an affinity partner needs to go from initial quote to final purchase of Branch home + auto (and optional umbrella) insurance without leaving their
@@ -141,7 +141,7 @@ overview: 'Branch publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Branch''s developer surface includes developer portal, signup flow, getting-started guide, sandbox, engineering blog, documentation, support, and 15 more developer resources.'
-random_paper: 75
+random_paper: 145
 score:
   band: emerging
   composite: 22.4
@@ -161,7 +161,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/branch-insurance/refs/heads/main/screenshots/branch-insurance-2026-06-20T173630.png
 security:

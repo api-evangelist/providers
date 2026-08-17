@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -72,7 +72,44 @@ apis:
 - description: The Users API from Voxco — 1 operation(s) for users.
   name: Voxco Users API
   slug: voxco-users-api
-artifact_total: 243
+artifact_total: 255
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ascribe Coder AICoder API
+  slug: open-voxco-aicoder-api
+- collection_type: open
+  name: Ascribe Coder AICoder Codebooks API
+  slug: open-voxco-codebooks-api
+- collection_type: open
+  name: Ascribe Coder AICoder Companies API
+  slug: open-voxco-companies-api
+- collection_type: open
+  name: Ascribe Coder AICoder Exports API
+  slug: open-voxco-exports-api
+- collection_type: open
+  name: Ascribe Coder AICoder Languages API
+  slug: open-voxco-languages-api
+- collection_type: open
+  name: Ascribe Coder AICoder Questions API
+  slug: open-voxco-questions-api
+- collection_type: open
+  name: Ascribe Coder AICoder Responses API
+  slug: open-voxco-responses-api
+- collection_type: open
+  name: Ascribe Coder AICoder Sessions API
+  slug: open-voxco-sessions-api
+- collection_type: open
+  name: Ascribe Coder AICoder Studies API
+  slug: open-voxco-studies-api
+- collection_type: open
+  name: Ascribe Coder AICoder StudyRespondents API
+  slug: open-voxco-studyrespondents-api
+- collection_type: open
+  name: Ascribe Coder AICoder Users API
+  slug: open-voxco-users-api
 common:
 - group: agent
   title: ''
@@ -824,7 +861,7 @@ plans:
 - name: Voxco Plans Pricing
   plan_count: 5
   slug: voxco-plans-pricing
-random_paper: 79
+random_paper: 112
 rate_limits:
 - limit_count: 4
   name: Voxco Rate Limits
@@ -858,7 +895,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/screenshots/voxco-2026-06-20T201139.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -40,8 +40,23 @@ apis:
 - description: Order and checkout fraud/abuse decisions and order status.
   name: Forter Orders API
   slug: forter-orders-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Forter Accounts API
+  slug: open-forter-accounts-api
+- collection_type: open
+  name: Forter Accounts Data Privacy API
+  slug: open-forter-data-privacy-api
+- collection_type: open
+  name: Forter Accounts Disputes API
+  slug: open-forter-disputes-api
+- collection_type: open
+  name: Forter Accounts Orders API
+  slug: open-forter-orders-api
 - collection_type: open
   name: Forter API
   slug: open-forter
@@ -110,7 +125,7 @@ plans:
 - name: Forter Plans Pricing
   plan_count: 1
   slug: forter-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Forter Rate Limits
@@ -141,7 +156,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/screenshots/forter-2026-07-25T215001.png
 security:

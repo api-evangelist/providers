@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Treatment / clinical notes and PDF export.
   name: IntakeQ Treatment Notes API
   slug: intakeq-treatment-notes-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IntakeQ Appointments API
+  slug: open-intakeq-appointments-api
+- collection_type: open
+  name: IntakeQ Appointments Clients API
+  slug: open-intakeq-clients-api
+- collection_type: open
+  name: IntakeQ Appointments Files API
+  slug: open-intakeq-files-api
+- collection_type: open
+  name: IntakeQ Appointments Intake Forms API
+  slug: open-intakeq-intake-forms-api
+- collection_type: open
+  name: IntakeQ Appointments Invoices API
+  slug: open-intakeq-invoices-api
+- collection_type: open
+  name: IntakeQ Appointments Treatment Notes API
+  slug: open-intakeq-treatment-notes-api
 - collection_type: open
   name: IntakeQ API
   slug: open-intakeq
@@ -119,7 +140,7 @@ plans:
 - name: Intakeq Plans Pricing
   plan_count: 4
   slug: intakeq-plans-pricing
-random_paper: 29
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Intakeq Rate Limits
@@ -150,7 +171,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/screenshots/intakeq-2026-07-25T222634.png
 security:

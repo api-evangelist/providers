@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -72,8 +72,44 @@ apis:
 - description: The Subscriptions API from Orb — 5 operation(s) for subscriptions.
   name: Orb Subscriptions API
   slug: orb-billing-subscriptions-api
-artifact_total: 20
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Orb Alerts API
+  slug: open-orb-billing-alerts-api
+- collection_type: open
+  name: Orb Alerts Coupons API
+  slug: open-orb-billing-coupons-api
+- collection_type: open
+  name: Orb Alerts Credits API
+  slug: open-orb-billing-credits-api
+- collection_type: open
+  name: Orb Alerts Customers API
+  slug: open-orb-billing-customers-api
+- collection_type: open
+  name: Orb Alerts Events API
+  slug: open-orb-billing-events-api
+- collection_type: open
+  name: Orb Alerts Invoices API
+  slug: open-orb-billing-invoices-api
+- collection_type: open
+  name: Orb Alerts Items API
+  slug: open-orb-billing-items-api
+- collection_type: open
+  name: Orb Alerts Metrics API
+  slug: open-orb-billing-metrics-api
+- collection_type: open
+  name: Orb Alerts Plans API
+  slug: open-orb-billing-plans-api
+- collection_type: open
+  name: Orb Alerts Prices API
+  slug: open-orb-billing-prices-api
+- collection_type: open
+  name: Orb Alerts Subscriptions API
+  slug: open-orb-billing-subscriptions-api
 - collection_type: open
   name: Orb API
   slug: open-orb-billing
@@ -146,7 +182,7 @@ plans:
 - name: Orb Billing Plans Pricing
   plan_count: 2
   slug: orb-billing-plans-pricing
-random_paper: 25
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Orb Billing Rate Limits
@@ -171,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/screenshots/orb-billing-2026-06-20T191155.png
 security:

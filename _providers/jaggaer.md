@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -87,7 +87,59 @@ apis:
 - description: User administration operations
   name: JAGGAER Users API
   slug: jaggaer-users-api
-artifact_total: 32
+artifact_total: 49
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async API
+  slug: open-jaggaer-async-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Attributes API
+  slug: open-jaggaer-attributes-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Awards API
+  slug: open-jaggaer-awards-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Bids API
+  slug: open-jaggaer-bids-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Contacts API
+  slug: open-jaggaer-contacts-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Customer Hosts API
+  slug: open-jaggaer-customer-hosts-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Events API
+  slug: open-jaggaer-events-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Items API
+  slug: open-jaggaer-items-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Jobs API
+  slug: open-jaggaer-jobs-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Locations API
+  slug: open-jaggaer-locations-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Rates API
+  slug: open-jaggaer-rates-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Scenarios API
+  slug: open-jaggaer-scenarios-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Suppliers API
+  slug: open-jaggaer-suppliers-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Templates API
+  slug: open-jaggaer-templates-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Uploads API
+  slug: open-jaggaer-uploads-api
+- collection_type: open
+  name: JAGGAER ASO Customer Host Entity Service Async Users API
+  slug: open-jaggaer-users-api
 common:
 - group: agent
   title: ''
@@ -196,7 +248,7 @@ plans:
 - name: Jaggaer Plans Pricing
   plan_count: 4
   slug: jaggaer-plans-pricing
-random_paper: 1
+random_paper: 125
 rate_limits:
 - limit_count: 0
   name: Jaggaer Rate Limits
@@ -230,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/screenshots/jaggaer-2026-06-20T183653.png
 security:

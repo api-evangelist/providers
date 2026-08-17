@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: Once you followed above steps from [Getting started](#section/Getting-Started) and that you have your signed JWT token, you can request the access token.
@@ -52,11 +52,36 @@ apis:
 - description: The RiderPosition API from Delivery Hero — 1 operation(s) for riderposition.
   name: Delivery Hero RiderPosition API
   slug: delivery-hero-riderposition-api
-artifact_total: 12
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Delivery Hero On Demand Rider Webhooks
   slug: delivery-hero-on-demand-rider-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: On Demand Rider Authentication API
+  slug: open-delivery-hero-authentication-api
+- collection_type: open
+  name: On Demand Rider Authentication Callback API
+  slug: open-delivery-hero-callback-api
+- collection_type: open
+  name: On Demand Rider Authentication OrdersEstimation API
+  slug: open-delivery-hero-ordersestimation-api
+- collection_type: open
+  name: On Demand Rider Authentication OrdersManagement API
+  slug: open-delivery-hero-ordersmanagement-api
+- collection_type: open
+  name: On Demand Rider Authentication Outlets API
+  slug: open-delivery-hero-outlets-api
+- collection_type: open
+  name: On Demand Rider Authentication Proofs API
+  slug: open-delivery-hero-proofs-api
+- collection_type: open
+  name: On Demand Rider Authentication RiderPosition API
+  slug: open-delivery-hero-riderposition-api
 common:
 - group: other
   title: ''
@@ -169,7 +194,7 @@ overview: 'Delivery Hero publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Delivery Hero''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 23
+random_paper: 2
 scopes:
 - name: Delivery Hero Scopes
   scope_count: 1
@@ -197,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png
 security:

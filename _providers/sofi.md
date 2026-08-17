@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,7 +50,14 @@ apis:
 - description: SoFi Tech Solutions (formerly Galileo Financial Technologies, a SoFi company) is SoFi's B2B fintech platform arm, exposing cloud-native RESTful APIs - Program API (accounts, cards), Config API, Disput
   name: SoFi Tech Solutions Platform API
   slug: sofi-tech-solutions-platform-api
-artifact_total: 26
+artifact_total: 28
+collections:
+- collection_type: open
+  name: SoFi Home Loan Affiliate Lead API
+  slug: open-sofi-home-loan-affiliate-lead-api
+- collection_type: open
+  name: SoFi Partner Offer Pre-Qualification API
+  slug: open-sofi-partner-offer-api
 common:
 - group: agent
   title: ''
@@ -205,7 +212,7 @@ plans:
 - name: Sofi Plans Pricing
   plan_count: 2
   slug: sofi-plans-pricing
-random_paper: 73
+random_paper: 135
 rate_limits:
 - limit_count: 2
   name: Sofi Rate Limits
@@ -239,7 +246,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/screenshots/sofi-2026-06-20T194126.png
 security:

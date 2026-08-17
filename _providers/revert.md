@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -78,8 +78,50 @@ apis:
 - description: Unified ticketing operations across Jira and Asana
   name: Revert Tickets API
   slug: revert-tickets-api
-artifact_total: 27
+artifact_total: 41
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Revert Unified Accounting API
+  slug: open-revert-accounting-api
+- collection_type: open
+  name: Revert Unified Accounting Chat API
+  slug: open-revert-chat-api
+- collection_type: open
+  name: Revert Unified Accounting Connections API
+  slug: open-revert-connections-api
+- collection_type: open
+  name: Revert Unified Accounting CRM Companies API
+  slug: open-revert-crm-companies-api
+- collection_type: open
+  name: Revert Unified Accounting CRM Contacts API
+  slug: open-revert-crm-contacts-api
+- collection_type: open
+  name: Revert Unified Accounting CRM Deals API
+  slug: open-revert-crm-deals-api
+- collection_type: open
+  name: Revert Unified Accounting CRM Events API
+  slug: open-revert-crm-events-api
+- collection_type: open
+  name: Revert Unified Accounting CRM Leads API
+  slug: open-revert-crm-leads-api
+- collection_type: open
+  name: Revert Unified Accounting CRM Notes API
+  slug: open-revert-crm-notes-api
+- collection_type: open
+  name: Revert Unified Accounting CRM Properties API
+  slug: open-revert-crm-properties-api
+- collection_type: open
+  name: Revert Unified Accounting CRM Tasks API
+  slug: open-revert-crm-tasks-api
+- collection_type: open
+  name: Revert Unified Accounting CRM Users API
+  slug: open-revert-crm-users-api
+- collection_type: open
+  name: Revert Unified Accounting Tickets API
+  slug: open-revert-tickets-api
 - collection_type: open
   name: Revert Unified API
   slug: open-revert-unified-api
@@ -174,7 +216,7 @@ plans:
 - name: Revert Plans Pricing
   plan_count: 3
   slug: revert-plans-pricing
-random_paper: 64
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Revert Rate Limits
@@ -216,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

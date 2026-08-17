@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The OpenID Connect / OAuth 2.0 authorization surface behind MainStreet sign-in, served from login.mainstreet.com on an Auth0 tenant. It publishes a complete OIDC Discovery 1.0 document and an RFC 8414
@@ -123,7 +123,7 @@ overview: 'MainStreet publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   MainStreet''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 14 more developer resources.'
-random_paper: 4
+random_paper: 41
 scopes:
 - name: Mainstreet Scopes
   scope_count: 14
@@ -144,7 +144,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/screenshots/mainstreet-2026-08-07T171931.png
 security:

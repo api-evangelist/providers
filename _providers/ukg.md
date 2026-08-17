@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ arazzos:
 - description: Resolve an employee, pull their timecards, and branch on approval status.
   name: UKG Pro WFM Timecard Period Review
   slug: ukg-timecard-period-review-workflow
-artifact_total: 113
+artifact_total: 122
 collections:
 - collection_type: postman
   name: UKG Pro HCM API
@@ -112,11 +112,38 @@ collections:
   name: UKG Pro Workforce Management API
   slug: postman-ukg-pro-wfm
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UKG Pro HCM Accruals API
+  slug: open-ukg-accruals-api
+- collection_type: open
+  name: UKG Pro HCM Accruals Benefits API
+  slug: open-ukg-benefits-api
+- collection_type: open
+  name: UKG Pro HCM Accruals Employees API
+  slug: open-ukg-employees-api
+- collection_type: open
+  name: UKG Pro HCM Accruals Organization API
+  slug: open-ukg-organization-api
+- collection_type: open
+  name: UKG Pro HCM Accruals Payroll API
+  slug: open-ukg-payroll-api
+- collection_type: open
+  name: UKG Pro HCM Accruals Personnel Actions API
+  slug: open-ukg-personnel-actions-api
+- collection_type: open
   name: UKG Pro HCM API
   slug: open-ukg-pro-hcm
 - collection_type: open
   name: UKG Pro Workforce Management API
   slug: open-ukg-pro-wfm
+- collection_type: open
+  name: UKG Pro HCM Accruals Scheduling API
+  slug: open-ukg-scheduling-api
+- collection_type: open
+  name: UKG Pro HCM Accruals Timekeeping API
+  slug: open-ukg-timekeeping-api
 common:
 - group: agent
   title: ''
@@ -469,7 +496,7 @@ plans:
 - name: Ukg Plans Pricing
   plan_count: 1
   slug: ukg-plans-pricing
-random_paper: 87
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Ukg Rate Limits
@@ -511,7 +538,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png
 security:

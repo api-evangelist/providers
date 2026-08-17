@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -177,7 +177,110 @@ apis:
 - description: Worldpay Events from Worldpay, described in OpenAPI.
   name: Worldpay Events
   slug: worldpay-events-openapi
-artifact_total: 54
+artifact_total: 88
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 3DS 3DS actions API
+  slug: open-worldpay-3ds-actions-api
+- collection_type: open
+  name: 3DS 3DS actions Accounts API
+  slug: open-worldpay-accounts-api
+- collection_type: open
+  name: 3DS 3DS actions AchVerifications API
+  slug: open-worldpay-achverifications-api
+- collection_type: open
+  name: 3DS 3DS actions ApmPayments API
+  slug: open-worldpay-apmpayments-api
+- collection_type: open
+  name: 3DS 3DS actions Balance accounts API
+  slug: open-worldpay-balance-accounts-api
+- collection_type: open
+  name: 3DS 3DS actions Batch payout API
+  slug: open-worldpay-batch-payout-api
+- collection_type: open
+  name: 3DS 3DS actions Beneficial owners API
+  slug: open-worldpay-beneficial-owners-api
+- collection_type: open
+  name: 3DS 3DS actions CardPayments API
+  slug: open-worldpay-cardpayments-api
+- collection_type: open
+  name: 3DS 3DS actions CardVerifications API
+  slug: open-worldpay-cardverifications-api
+- collection_type: open
+  name: 3DS 3DS actions Exemptions API
+  slug: open-worldpay-exemptions-api
+- collection_type: open
+  name: 3DS 3DS actions ForeignExchange API
+  slug: open-worldpay-foreignexchange-api
+- collection_type: open
+  name: 3DS 3DS actions Fraudsight API
+  slug: open-worldpay-fraudsight-api
+- collection_type: open
+  name: 3DS 3DS actions Get payouts API
+  slug: open-worldpay-get-payouts-api
+- collection_type: open
+  name: 3DS 3DS actions Get payouts by Payout Request ID API
+  slug: open-worldpay-get-payouts-by-payout-request-id-api
+- collection_type: open
+  name: 3DS 3DS actions Identity verification API
+  slug: open-worldpay-identity-verification-api
+- collection_type: open
+  name: 3DS 3DS actions Manage payments API
+  slug: open-worldpay-manage-payments-api
+- collection_type: open
+  name: 3DS 3DS actions MoneyTransfers API
+  slug: open-worldpay-moneytransfers-api
+- collection_type: open
+  name: 3DS 3DS actions Network token API
+  slug: open-worldpay-network-token-api
+- collection_type: open
+  name: 3DS 3DS actions Operational API
+  slug: open-worldpay-operational-api
+- collection_type: open
+  name: 3DS 3DS actions Parties API
+  slug: open-worldpay-parties-api
+- collection_type: open
+  name: 3DS 3DS actions Payment API
+  slug: open-worldpay-payment-api
+- collection_type: open
+  name: 3DS 3DS actions Payment lifecycle API
+  slug: open-worldpay-payment-lifecycle-api
+- collection_type: open
+  name: 3DS 3DS actions Payment Pages API
+  slug: open-worldpay-payment-pages-api
+- collection_type: open
+  name: 3DS 3DS actions PaymentQueries API
+  slug: open-worldpay-paymentqueries-api
+- collection_type: open
+  name: 3DS 3DS actions Payout instruments API
+  slug: open-worldpay-payout-instruments-api
+- collection_type: open
+  name: 3DS 3DS actions Payouts API
+  slug: open-worldpay-payouts-api
+- collection_type: open
+  name: 3DS 3DS actions Query a payment API
+  slug: open-worldpay-query-a-payment-api
+- collection_type: open
+  name: 3DS 3DS actions Single payout API
+  slug: open-worldpay-single-payout-api
+- collection_type: open
+  name: 3DS 3DS actions SplitPayments API
+  slug: open-worldpay-splitpayments-api
+- collection_type: open
+  name: 3DS 3DS actions Token API
+  slug: open-worldpay-token-api
+- collection_type: open
+  name: 3DS 3DS actions Update API
+  slug: open-worldpay-update-api
+- collection_type: open
+  name: 3DS 3DS actions Verifications API
+  slug: open-worldpay-verifications-api
+- collection_type: open
+  name: 3DS 3DS actions VerifiedTokens API
+  slug: open-worldpay-verifiedtokens-api
 common:
 - group: operate
   title: ''
@@ -283,7 +386,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 42
+random_paper: 137
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -314,7 +417,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

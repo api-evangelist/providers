@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -102,12 +102,66 @@ apis:
 - description: Structured targets endpoints
   name: Kalshi structured-targets API
   slug: kalshi-structured-targets-api
-artifact_total: 30
+artifact_total: 48
 asyncapis:
 - description: Real-time WebSocket streaming feed for the Kalshi CFTC-regulated event contracts exchange. Publishes orderbook updates, public trades, market tickers, user orders, user fills, market positions, market
   name: Kalshi WebSocket Streaming API
   slug: kalshi-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account API
+  slug: open-kalshi-account-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account api-keys API
+  slug: open-kalshi-api-keys-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account communications API
+  slug: open-kalshi-communications-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account events API
+  slug: open-kalshi-events-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account exchange API
+  slug: open-kalshi-exchange-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account fcm API
+  slug: open-kalshi-fcm-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account historical API
+  slug: open-kalshi-historical-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account incentive-programs API
+  slug: open-kalshi-incentive-programs-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account live-data API
+  slug: open-kalshi-live-data-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account market API
+  slug: open-kalshi-market-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account milestone API
+  slug: open-kalshi-milestone-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account multivariate API
+  slug: open-kalshi-multivariate-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account order-groups API
+  slug: open-kalshi-order-groups-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account orders API
+  slug: open-kalshi-orders-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account portfolio API
+  slug: open-kalshi-portfolio-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account search API
+  slug: open-kalshi-search-api
+- collection_type: open
+  name: Kalshi Trade API Manual Endpoints account structured-targets API
+  slug: open-kalshi-structured-targets-api
 - collection_type: open
   name: Kalshi Trade API Manual Endpoints
   slug: open-kalshi
@@ -179,7 +233,7 @@ plans:
 - name: Kalshi Plans Pricing
   plan_count: 1
   slug: kalshi-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Kalshi Rate Limits
@@ -219,7 +273,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/screenshots/kalshi-2026-06-20T183909.png
 security:

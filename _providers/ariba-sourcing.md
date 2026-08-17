@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Approval group membership retrieval
   name: Ariba Sourcing Groups API
   slug: ariba-sourcing-groups-api
-artifact_total: 67
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Ariba Sourcing - External Approval Approval Tasks API
@@ -59,6 +59,18 @@ collections:
 - collection_type: postman
   name: Ariba Sourcing - External Approval Approval Tasks Groups API
   slug: postman-ariba-sourcing-groups-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Ariba Sourcing - External Approval Approval Tasks API
+  slug: open-ariba-sourcing-approval-tasks-api
+- collection_type: open
+  name: Ariba Sourcing - External Approval Approval Tasks Documents API
+  slug: open-ariba-sourcing-documents-api
+- collection_type: open
+  name: Ariba Sourcing - External Approval Approval Tasks Groups API
+  slug: open-ariba-sourcing-groups-api
 common:
 - group: build
   title: ''
@@ -289,7 +301,7 @@ plans:
 - name: Ariba Sourcing Plans Pricing
   plan_count: 3
   slug: ariba-sourcing-plans-pricing
-random_paper: 110
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Ariba Sourcing Rate Limits
@@ -336,7 +348,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/screenshots/ariba-sourcing-2026-06-20T172427.png
 security:

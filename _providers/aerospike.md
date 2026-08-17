@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,17 @@ apis:
 - description: Built-in interactive documentation and OpenAPI specification
   name: Aerospike Documentation API
   slug: aerospike-documentation-api
-artifact_total: 7
+artifact_total: 10
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Aerospike REST Gateway Cluster API
+  slug: open-aerospike-cluster-api
+- collection_type: open
+  name: Aerospike REST Gateway Cluster Documentation API
+  slug: open-aerospike-documentation-api
 - collection_type: open
   name: Aerospike REST Gateway
   slug: open-aerospike
@@ -117,7 +126,7 @@ overview: 'Aerospike publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aerospike''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 3
+random_paper: 69
 score:
   band: thin
   composite: 28.9
@@ -138,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/screenshots/aerospike-2026-06-20T165533.png
 security:

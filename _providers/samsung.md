@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -75,11 +75,32 @@ apis:
 - description: Device event subscriptions.
   name: Samsung Subscriptions API
   slug: samsung-subscriptions-api
-artifact_total: 42
+artifact_total: 49
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Samsung SmartThings Apps API
+  slug: open-samsung-apps-api
+- collection_type: open
+  name: Samsung SmartThings Apps Devices API
+  slug: open-samsung-devices-api
+- collection_type: open
+  name: Samsung SmartThings Apps Locations API
+  slug: open-samsung-locations-api
+- collection_type: open
+  name: Samsung SmartThings Apps Rules API
+  slug: open-samsung-rules-api
+- collection_type: open
+  name: Samsung SmartThings Apps Scenes API
+  slug: open-samsung-scenes-api
 - collection_type: open
   name: Samsung SmartThings API
   slug: open-samsung-smartthings
+- collection_type: open
+  name: Samsung SmartThings Apps Subscriptions API
+  slug: open-samsung-subscriptions-api
 common:
 - group: agent
   title: ''
@@ -240,7 +261,7 @@ plans:
 - name: Samsung Plans Pricing
   plan_count: 1
   slug: samsung-plans-pricing
-random_paper: 46
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Samsung Rate Limits
@@ -282,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/screenshots/samsung-2026-06-20T193400.png
 security:

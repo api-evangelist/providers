@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 13
@@ -209,7 +209,7 @@ apis:
 - description: The Webhooks API from ThoughtSpot — 5 operation(s) for webhooks.
   name: ThoughtSpot Webhooks API
   slug: thoughtspot-webhooks-api
-artifact_total: 120
+artifact_total: 178
 asyncapis:
 - description: ''
   name: Thoughtspot Webhooks
@@ -386,6 +386,180 @@ collections:
 - collection_type: postman
   name: ThoughtSpot Public REST 10.1.0.cl Webhooks API
   slug: postman-thoughtspot-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl API
+  slug: open-thoughtspot-10-1-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.10.0.cl API
+  slug: open-thoughtspot-10-10-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.12.0.cl API
+  slug: open-thoughtspot-10-12-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.13.0.cl API
+  slug: open-thoughtspot-10-13-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.14.0.cl API
+  slug: open-thoughtspot-10-14-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.15.0.cl API
+  slug: open-thoughtspot-10-15-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.3.0.cl API
+  slug: open-thoughtspot-10-3-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.4.0.cl API
+  slug: open-thoughtspot-10-4-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.6.0.cl API
+  slug: open-thoughtspot-10-6-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.7.0.cl API
+  slug: open-thoughtspot-10-7-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.8.0.cl API
+  slug: open-thoughtspot-10-8-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 10.9.0.cl API
+  slug: open-thoughtspot-10-9-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 26.2.0.cl API
+  slug: open-thoughtspot-26-2-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 26.3.0.cl API
+  slug: open-thoughtspot-26-3-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 26.4.0.cl API
+  slug: open-thoughtspot-26-4-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 26.5.0.cl API
+  slug: open-thoughtspot-26-5-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 26.6.0.cl API
+  slug: open-thoughtspot-26-6-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 26.7.0.cl API
+  slug: open-thoughtspot-26-7-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 26.8.0.cl API
+  slug: open-thoughtspot-26-8-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 26.9.0.cl API
+  slug: open-thoughtspot-26-9-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 9.0.0.cl API
+  slug: open-thoughtspot-9-0-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 9.12.0.cl API
+  slug: open-thoughtspot-9-12-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 9.2.0.cl API
+  slug: open-thoughtspot-9-2-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 9.4.0.cl API
+  slug: open-thoughtspot-9-4-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 9.5.0.cl API
+  slug: open-thoughtspot-9-5-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 9.6.0.cl API
+  slug: open-thoughtspot-9-6-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 9.7.0.cl API
+  slug: open-thoughtspot-9-7-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl 9.9.0.cl API
+  slug: open-thoughtspot-9-9-0-cl-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl AI API
+  slug: open-thoughtspot-ai-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Authentication API
+  slug: open-thoughtspot-authentication-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Collections API
+  slug: open-thoughtspot-collections-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Connection Configurations API
+  slug: open-thoughtspot-connection-configurations-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Connections API
+  slug: open-thoughtspot-connections-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Custom Action API
+  slug: open-thoughtspot-custom-action-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Custom Calendars API
+  slug: open-thoughtspot-custom-calendars-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Data API
+  slug: open-thoughtspot-data-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl DBT API
+  slug: open-thoughtspot-dbt-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Email Customization API
+  slug: open-thoughtspot-email-customization-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Groups API
+  slug: open-thoughtspot-groups-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Input Tables API
+  slug: open-thoughtspot-input-tables-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Jobs API
+  slug: open-thoughtspot-jobs-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Log API
+  slug: open-thoughtspot-log-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Manual Translation API
+  slug: open-thoughtspot-manual-translation-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Metadata API
+  slug: open-thoughtspot-metadata-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Orgs API
+  slug: open-thoughtspot-orgs-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Reports API
+  slug: open-thoughtspot-reports-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Roles API
+  slug: open-thoughtspot-roles-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Schedules API
+  slug: open-thoughtspot-schedules-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Security API
+  slug: open-thoughtspot-security-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Semantic Integrations API
+  slug: open-thoughtspot-semantic-integrations-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Style Customization API
+  slug: open-thoughtspot-style-customization-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl System API
+  slug: open-thoughtspot-system-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Tags API
+  slug: open-thoughtspot-tags-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Users API
+  slug: open-thoughtspot-users-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Variable API
+  slug: open-thoughtspot-variable-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Version Control API
+  slug: open-thoughtspot-version-control-api
+- collection_type: open
+  name: ThoughtSpot Public REST 10.1.0.cl Webhooks API
+  slug: open-thoughtspot-webhooks-api
 common:
 - group: other
   title: ''
@@ -538,7 +712,7 @@ overview: 'ThoughtSpot publishes 57 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ThoughtSpot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
-random_paper: 25
+random_paper: 33
 score:
   band: strong
   composite: 59.5
@@ -562,7 +736,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

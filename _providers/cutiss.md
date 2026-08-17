@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,32 @@ apis:
 - description: The Search API from CUTISS — full-text search across every publicly readable object on cutiss.swiss, returning id, title, url, type and subtype. 514 searchable objects at probe time.
   name: CUTISS Search API
   slug: cutiss-search-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: CUTISS Categories API
+  slug: open-cutiss-categories-api
+- collection_type: open
+  name: CUTISS Media API
+  slug: open-cutiss-media-api
+- collection_type: open
+  name: CUTISS Newsroom API
+  slug: open-cutiss-newsroom-api
+- collection_type: open
+  name: CUTISS Pages API
+  slug: open-cutiss-pages-api
+- collection_type: open
+  name: CUTISS Posts API
+  slug: open-cutiss-posts-api
+- collection_type: open
+  name: CUTISS Search API
+  slug: open-cutiss-search-api
+- collection_type: open
+  name: CUTISS Team API
+  slug: open-cutiss-team-api
+- collection_type: open
+  name: CUTISS Teams Taxonomy API
+  slug: open-cutiss-teams-api
 common:
 - group: company
   title: ''
@@ -184,7 +209,7 @@ plans:
 - name: Cutiss Plans Pricing
   plan_count: 0
   slug: cutiss-plans-pricing
-random_paper: 67
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Cutiss Rate Limits
@@ -192,6 +217,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.7
@@ -199,6 +225,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
+  previous_composite: 32.8
   regulatory:
     applies: true
     matched_via: tags
@@ -206,7 +233,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Cutiss Authentication

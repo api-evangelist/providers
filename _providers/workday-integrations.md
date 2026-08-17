@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -90,8 +90,41 @@ apis:
 - description: Access and manage worker records including employees and contingent workers
   name: Workday Integrations Workers API
   slug: workday-integrations-workers-api
-artifact_total: 38
+artifact_total: 55
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits API
+  slug: open-workday-integrations-benefits-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Business Processes API
+  slug: open-workday-integrations-business-processes-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Compensation API
+  slug: open-workday-integrations-compensation-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Data Sources API
+  slug: open-workday-integrations-data-sources-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Data Upload API
+  slug: open-workday-integrations-data-upload-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Datasets API
+  slug: open-workday-integrations-datasets-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Job Profiles API
+  slug: open-workday-integrations-job-profiles-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Organizations API
+  slug: open-workday-integrations-organizations-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Payroll API
+  slug: open-workday-integrations-payroll-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Positions API
+  slug: open-workday-integrations-positions-api
 - collection_type: open
   name: Workday Integrations Workday Prism Analytics API
   slug: open-workday-integrations-prism-analytics
@@ -99,8 +132,26 @@ collections:
   name: Workday Integrations Workday Report-as-a-Service (RaaS) API
   slug: open-workday-integrations-raas
 - collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Recruiting API
+  slug: open-workday-integrations-recruiting-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Report Metadata API
+  slug: open-workday-integrations-report-metadata-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Reports API
+  slug: open-workday-integrations-reports-api
+- collection_type: open
   name: Workday Integrations Workday REST API
   slug: open-workday-integrations-rest-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Tables API
+  slug: open-workday-integrations-tables-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Time Off API
+  slug: open-workday-integrations-time-off-api
+- collection_type: open
+  name: Workday Integrations Workday Prism Analytics Benefits Workers API
+  slug: open-workday-integrations-workers-api
 common:
 - group: agent
   title: ''
@@ -245,7 +296,7 @@ plans:
 - name: Workday Integrations Plans Pricing
   plan_count: 1
   slug: workday-integrations-plans-pricing
-random_paper: 77
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Workday Integrations Rate Limits
@@ -287,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-integrations/refs/heads/main/screenshots/workday-integrations-2026-06-20T201603.png
 security:

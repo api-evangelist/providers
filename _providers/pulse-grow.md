@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,8 +65,38 @@ apis:
 - description: A collection of API operations related to users.
   name: Pulse Grow User API
   slug: pulse-grow-user-api
-artifact_total: 15
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pulse Api AllDevices API
+  slug: open-pulse-grow-alldevices-api
+- collection_type: open
+  name: Pulse Api AllDevices Devices API
+  slug: open-pulse-grow-devices-api
+- collection_type: open
+  name: Pulse Api AllDevices Hub API
+  slug: open-pulse-grow-hub-api
+- collection_type: open
+  name: Pulse Api AllDevices Invitation API
+  slug: open-pulse-grow-invitation-api
+- collection_type: open
+  name: Pulse Api AllDevices ProLightReading API
+  slug: open-pulse-grow-prolightreading-api
+- collection_type: open
+  name: Pulse Api AllDevices Sensors API
+  slug: open-pulse-grow-sensors-api
+- collection_type: open
+  name: Pulse Api AllDevices TimeLineEvent API
+  slug: open-pulse-grow-timelineevent-api
+- collection_type: open
+  name: Pulse Api AllDevices TriggeredThreshold API
+  slug: open-pulse-grow-triggeredthreshold-api
+- collection_type: open
+  name: Pulse Api AllDevices User API
+  slug: open-pulse-grow-user-api
 - collection_type: open
   name: Pulse Api
   slug: open-pulse-grow
@@ -100,7 +130,7 @@ plans:
 - name: Pulse Grow Plans Pricing
   plan_count: 3
   slug: pulse-grow-plans-pricing
-random_paper: 85
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Pulse Grow Rate Limits
@@ -125,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/screenshots/pulse-grow-2026-06-20T192255.png
 security:

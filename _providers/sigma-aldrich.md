@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,11 +57,26 @@ apis:
 - description: Chemical structure search using SMILES, InChI, or molecular formula notation for cheminformatics workflows.
   name: Sigma-Aldrich Structures API
   slug: sigma-aldrich-structures-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sigma-Aldrich Product Search Pricing and Availability API
+  slug: open-sigma-aldrich-pricing-and-availability-api
 - collection_type: open
   name: Sigma-Aldrich Product Search API
   slug: open-sigma-aldrich-product
+- collection_type: open
+  name: Sigma-Aldrich Product Search Pricing and Availability Products API
+  slug: open-sigma-aldrich-products-api
+- collection_type: open
+  name: Sigma-Aldrich Product Search Pricing and Availability Safety Data Sheets API
+  slug: open-sigma-aldrich-safety-data-sheets-api
+- collection_type: open
+  name: Sigma-Aldrich Product Search Pricing and Availability Structures API
+  slug: open-sigma-aldrich-structures-api
 common:
 - group: agent
   title: ''
@@ -155,7 +170,7 @@ press:
 - date: '2026-05-25'
   title: Sigma-Aldrich® and The Scripps Research Institute ...
   url: https://www.fiercebiotech.com/research/sigma-aldrich%C2%AE-and-scripps-research-institute-partner-to-accelerate-commercialization-of
-random_paper: 101
+random_paper: 109
 rate_limits:
 - limit_count: 1
   name: Sigma Aldrich Rate Limits
@@ -203,7 +218,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/screenshots/sigma-aldrich-2026-06-20T193909.png
 security:

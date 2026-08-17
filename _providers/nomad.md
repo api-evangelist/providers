@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -105,7 +105,7 @@ apis:
 - description: Endpoints for managing CSI and host volumes attached to Nomad allocations.
   name: HashiCorp Nomad Volumes API
   slug: nomad-volumes-api
-artifact_total: 53
+artifact_total: 73
 asyncapis:
 - description: The Nomad Event Stream provides a way to subscribe to Job, Allocation, Evaluation, Deployment, Node, Node Pool, and Service changes in near real time. The /v1/event/stream endpoint streams events as n
   name: HashiCorp Nomad Event Stream
@@ -169,8 +169,68 @@ collections:
   name: HashiCorp Nomad HTTP ACL Volumes API
   slug: postman-nomad-volumes-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL API
+  slug: open-nomad-acl-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Agent API
+  slug: open-nomad-agent-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Allocations API
+  slug: open-nomad-allocations-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Deployments API
+  slug: open-nomad-deployments-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Evaluations API
+  slug: open-nomad-evaluations-api
+- collection_type: open
   name: HashiCorp Nomad HTTP API
   slug: open-nomad-http-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Jobs API
+  slug: open-nomad-jobs-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Namespaces API
+  slug: open-nomad-namespaces-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Node Pools API
+  slug: open-nomad-node-pools-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Nodes API
+  slug: open-nomad-nodes-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Operator API
+  slug: open-nomad-operator-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Regions API
+  slug: open-nomad-regions-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Scaling API
+  slug: open-nomad-scaling-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Search API
+  slug: open-nomad-search-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Service API
+  slug: open-nomad-service-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Services API
+  slug: open-nomad-services-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Status API
+  slug: open-nomad-status-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL System API
+  slug: open-nomad-system-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Variables API
+  slug: open-nomad-variables-api
+- collection_type: open
+  name: HashiCorp Nomad HTTP ACL Volumes API
+  slug: open-nomad-volumes-api
 common:
 - group: build
   title: ''
@@ -260,7 +320,7 @@ plans:
 - name: Nomad Plans Pricing
   plan_count: 3
   slug: nomad-plans-pricing
-random_paper: 47
+random_paper: 80
 rate_limits:
 - limit_count: 4
   name: Nomad Rate Limits
@@ -302,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/screenshots/nomad-2026-06-20T190354.png
 security:

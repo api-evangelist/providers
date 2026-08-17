@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: CKAN Action API for Calderdale Data Works, a consistent JSON-over-HTTP interface over a catalog of an open datasets. Standard actions include package_search, package_show, package_list, organization_l
@@ -88,7 +88,7 @@ plans:
 - name: Dataworks Calderdale Gov Uk Plans Pricing
   plan_count: 1
   slug: dataworks-calderdale-gov-uk-plans-pricing
-random_paper: 52
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Dataworks Calderdale Gov Uk Rate Limits
@@ -112,7 +112,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataworks-calderdale-gov-uk/refs/heads/main/screenshots/dataworks-calderdale-gov-uk-2026-06-20T175653.png
 security:

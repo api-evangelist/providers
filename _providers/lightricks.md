@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: The videoGeneration API from Lightricks — 5 operation(s) for videogeneration.
   name: Lightricks videoGeneration API
   slug: lightricks-videogeneration-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference asyncVideoGeneration API
+  slug: open-lightricks-asyncvideogeneration-api
+- collection_type: open
+  name: API Reference asyncVideoGeneration upload API
+  slug: open-lightricks-upload-api
+- collection_type: open
+  name: API Reference asyncVideoGeneration videoGeneration API
+  slug: open-lightricks-videogeneration-api
 common:
 - group: agent
   title: ''
@@ -226,7 +239,7 @@ overview: 'Lightricks publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Lightricks'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 116
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Lightricks Rate Limits
@@ -254,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/screenshots/lightricks-2026-07-25T225127.png
 security:

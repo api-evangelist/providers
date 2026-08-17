@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: The Server Info API from Elastic Observability — 1 operation(s) for server info.
   name: Elastic Observability Server Info API
   slug: elastic-observability-server-info-api
-artifact_total: 13
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Elastic Observability (APM Server) Agent Configuration API
+  slug: open-elastic-observability-agent-configuration-api
+- collection_type: open
+  name: Elastic Observability (APM Server) Agent Configuration Intake API
+  slug: open-elastic-observability-intake-api
+- collection_type: open
+  name: Elastic Observability (APM Server) Agent Configuration OpenTelemetry API
+  slug: open-elastic-observability-opentelemetry-api
+- collection_type: open
+  name: Elastic Observability (APM Server) Agent Configuration Server Info API
+  slug: open-elastic-observability-server-info-api
 - collection_type: open
   name: Elastic Observability (APM Server) API
   slug: open-elastic-observability
@@ -104,7 +119,7 @@ plans:
 - name: Elastic Observability Plans Pricing
   plan_count: 3
   slug: elastic-observability-plans-pricing
-random_paper: 33
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Elastic Observability Rate Limits
@@ -129,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/screenshots/elastic-observability-2026-06-20T180529.png
 security:

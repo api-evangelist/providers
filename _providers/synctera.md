@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -126,8 +126,95 @@ apis:
 - description: Create and manage wire transfers
   name: Synctera Wires (alpha) API
   slug: synctera-wires-alpha-api
-artifact_total: 495
+artifact_total: 524
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Synctera Accounts API
+  slug: open-synctera-accounts-api
+- collection_type: open
+  name: Synctera Accounts ACH API
+  slug: open-synctera-ach-api
+- collection_type: open
+  name: Synctera Accounts Applications API
+  slug: open-synctera-applications-api
+- collection_type: open
+  name: Synctera Accounts Businesses API
+  slug: open-synctera-businesses-api
+- collection_type: open
+  name: Synctera Accounts Card Transaction Simulations API
+  slug: open-synctera-card-transaction-simulations-api
+- collection_type: open
+  name: Synctera Accounts Card Webhook Simulations API
+  slug: open-synctera-card-webhook-simulations-api
+- collection_type: open
+  name: Synctera Accounts Cards API
+  slug: open-synctera-cards-api
+- collection_type: open
+  name: Synctera Accounts Customers API
+  slug: open-synctera-customers-api
+- collection_type: open
+  name: Synctera Accounts Digital Wallet Tokens API
+  slug: open-synctera-digital-wallet-tokens-api
+- collection_type: open
+  name: Synctera Accounts Disclosures API
+  slug: open-synctera-disclosures-api
+- collection_type: open
+  name: Synctera Accounts Documents (alpha) API
+  slug: open-synctera-documents-alpha-api
+- collection_type: open
+  name: Synctera Accounts External Accounts API
+  slug: open-synctera-external-accounts-api
+- collection_type: open
+  name: Synctera Accounts External Cards (alpha) API
+  slug: open-synctera-external-cards-alpha-api
+- collection_type: open
+  name: Synctera Accounts Internal Accounts API
+  slug: open-synctera-internal-accounts-api
+- collection_type: open
+  name: Synctera Accounts KYC/KYB Verifications API
+  slug: open-synctera-kyc-kyb-verifications-api
+- collection_type: open
+  name: Synctera Accounts KYC Verification API
+  slug: open-synctera-kyc-verification-api
+- collection_type: open
+  name: Synctera Accounts Monitoring API
+  slug: open-synctera-monitoring-api
+- collection_type: open
+  name: Synctera Accounts PaymentSchedules API
+  slug: open-synctera-paymentschedules-api
+- collection_type: open
+  name: Synctera Accounts Persons API
+  slug: open-synctera-persons-api
+- collection_type: open
+  name: Synctera Accounts Reconciliations API
+  slug: open-synctera-reconciliations-api
+- collection_type: open
+  name: Synctera Accounts Relationships API
+  slug: open-synctera-relationships-api
+- collection_type: open
+  name: Synctera Accounts Remote Check Deposit (beta) API
+  slug: open-synctera-remote-check-deposit-beta-api
+- collection_type: open
+  name: Synctera Accounts Sandbox Wipe (alpha) API
+  slug: open-synctera-sandbox-wipe-alpha-api
+- collection_type: open
+  name: Synctera Accounts Statements API
+  slug: open-synctera-statements-api
+- collection_type: open
+  name: Synctera Accounts Transactions API
+  slug: open-synctera-transactions-api
+- collection_type: open
+  name: Synctera Accounts Watchlist API
+  slug: open-synctera-watchlist-api
+- collection_type: open
+  name: Synctera Accounts Webhooks API
+  slug: open-synctera-webhooks-api
+- collection_type: open
+  name: Synctera Accounts Wires (alpha) API
+  slug: open-synctera-wires-alpha-api
 - collection_type: open
   name: Synctera API
   slug: open-synctera
@@ -1571,7 +1658,7 @@ plans:
 - name: Synctera Plans Pricing
   plan_count: 2
   slug: synctera-plans-pricing
-random_paper: 33
+random_paper: 128
 rate_limits:
 - limit_count: 1
   name: Synctera Rate Limits
@@ -1611,7 +1698,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/screenshots/synctera-2026-06-20T194825.png
 security:

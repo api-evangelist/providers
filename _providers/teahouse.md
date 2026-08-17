@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Share transaction logs
@@ -40,7 +40,20 @@ apis:
 - description: Vault catalog and metadata
   name: Teahouse Finance Vaults API
   slug: teahouse-vaults-api
-artifact_total: 6
+artifact_total: 10
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Teahouse Vault Logs API
+  slug: open-teahouse-logs-api
+- collection_type: open
+  name: Teahouse Vault Logs Performance API
+  slug: open-teahouse-performance-api
+- collection_type: open
+  name: Teahouse Vault Logs Vaults API
+  slug: open-teahouse-vaults-api
 common:
 - group: other
   title: ''
@@ -138,7 +151,7 @@ overview: 'Teahouse Finance publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Teahouse Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 22
+random_paper: 117
 score:
   band: thin
   composite: 39.2
@@ -161,7 +174,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

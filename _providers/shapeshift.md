@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,11 +42,18 @@ apis:
 - description: The v1 API from Shapeshift — 14 operation(s) for v1.
   name: Shapeshift v1 API
   slug: shapeshift-v1-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Shapeshift Unchained Webhooks
   slug: shapeshift-unchained-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: '@shapeshiftoss/bitcoin-api v1 API'
+  slug: open-shapeshift-v1-api
 common:
 - group: commercial
   title: ''
@@ -183,7 +190,7 @@ overview: 'Shapeshift publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Shapeshift''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 111
+random_paper: 28
 score:
   band: developing
   composite: 45.6
@@ -213,7 +220,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

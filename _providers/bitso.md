@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,12 +54,21 @@ apis:
 - description: Public market data endpoints. No authentication required.
   name: Bitso Public API
   slug: bitso-public-api
-artifact_total: 15
+artifact_total: 18
 asyncapis:
 - description: Bitso's public real-time WebSocket feed for the Bitso cryptocurrency exchange. Clients connect to a single endpoint and subscribe to one or more channels per order book (e.g. btc_mxn). Three public ch
   name: Bitso WebSocket API
   slug: bitso-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bitso Trading Private API
+  slug: open-bitso-private-api
+- collection_type: open
+  name: Bitso Trading Private Public API
+  slug: open-bitso-public-api
 - collection_type: open
   name: Bitso Trading API
   slug: open-bitso
@@ -135,7 +144,7 @@ plans:
 - name: Bitso Plans Pricing
   plan_count: 1
   slug: bitso-plans-pricing
-random_paper: 65
+random_paper: 98
 rate_limits:
 - limit_count: 2
   name: Bitso Rate Limits
@@ -175,7 +184,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png
 security:

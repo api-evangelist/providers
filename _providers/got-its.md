@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -111,7 +111,83 @@ apis:
 - description: The Workspaces API from Reelables — 2 operation(s) for workspaces.
   name: Reelables Workspaces API
   slug: got-its-workspaces-api
-artifact_total: 29
+artifact_total: 54
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Reelables Gateway Asset Facilities API
+  slug: open-got-its-asset-facilities-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Asset Labels API
+  slug: open-got-its-asset-labels-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Asset Locations API
+  slug: open-got-its-asset-locations-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Asset Spaces API
+  slug: open-got-its-asset-spaces-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Asset Temperatures API
+  slug: open-got-its-asset-temperatures-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Assets API
+  slug: open-got-its-assets-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Consignment Gateways API
+  slug: open-got-its-consignment-gateways-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Consignment Pieces API
+  slug: open-got-its-consignment-pieces-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Consignments API
+  slug: open-got-its-consignments-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities External API
+  slug: open-got-its-external-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities API
+  slug: open-got-its-facilities-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Facility Asset Groups API
+  slug: open-got-its-facility-asset-groups-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Print Job Statuses API
+  slug: open-got-its-print-job-statuses-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Print Jobs API
+  slug: open-got-its-print-jobs-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Space Assets API
+  slug: open-got-its-space-assets-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Space Gateways API
+  slug: open-got-its-space-gateways-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Spaces API
+  slug: open-got-its-spaces-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Workspace Assets API
+  slug: open-got-its-workspace-assets-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Workspace Consignments API
+  slug: open-got-its-workspace-consignments-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Workspace Facilities API
+  slug: open-got-its-workspace-facilities-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Workspace Print Templates API
+  slug: open-got-its-workspace-print-templates-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Workspace Printers API
+  slug: open-got-its-workspace-printers-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Workspace Spaces API
+  slug: open-got-its-workspace-spaces-api
+- collection_type: open
+  name: Reelables Gateway Asset Facilities Workspaces API
+  slug: open-got-its-workspaces-api
 common:
 - group: other
   title: ''
@@ -221,7 +297,7 @@ overview: 'Reelables publishes 24 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Reelables'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 16 more developer resources.'
-random_paper: 111
+random_paper: 115
 scopes:
 - name: Got Its Scopes
   scope_count: 1
@@ -250,7 +326,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/screenshots/got-its-2026-07-25T220118.png
 security:

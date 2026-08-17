@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,23 @@ apis:
 - description: Endpoints for querying Yearn vault data
   name: Yearn Finance Vaults API
   slug: yearn-vaults-api
-artifact_total: 14
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yearn Finance yDaemon REST Chains API
+  slug: open-yearn-chains-api
+- collection_type: open
+  name: Yearn Finance yDaemon REST Chains Info API
+  slug: open-yearn-info-api
+- collection_type: open
+  name: Yearn Finance yDaemon REST Chains TVL API
+  slug: open-yearn-tvl-api
+- collection_type: open
+  name: Yearn Finance yDaemon REST Chains Vaults API
+  slug: open-yearn-vaults-api
 common:
 - group: commercial
   title: ''
@@ -99,7 +115,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 63
+random_paper: 96
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -133,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/screenshots/yearn-2026-06-20T201735.png
 security:

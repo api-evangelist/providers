@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -87,7 +87,56 @@ apis:
 - description: The Transform API from OpsMill — 2 operation(s) for transform.
   name: OpsMill Transform API
   slug: opsmill-transform-api
-artifact_total: 20
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Infrahub Artifact API
+  slug: open-opsmill-artifact-api
+- collection_type: open
+  name: Infrahub Artifact Auth API
+  slug: open-opsmill-auth-api
+- collection_type: open
+  name: Infrahub Artifact Config API
+  slug: open-opsmill-config-api
+- collection_type: open
+  name: Infrahub Artifact Diff API
+  slug: open-opsmill-diff-api
+- collection_type: open
+  name: Infrahub Artifact File API
+  slug: open-opsmill-file-api
+- collection_type: open
+  name: Infrahub Artifact Info API
+  slug: open-opsmill-info-api
+- collection_type: open
+  name: Infrahub Artifact Menu API
+  slug: open-opsmill-menu-api
+- collection_type: open
+  name: Infrahub Artifact Oauth2 API
+  slug: open-opsmill-oauth2-api
+- collection_type: open
+  name: Infrahub Artifact Oidc API
+  slug: open-opsmill-oidc-api
+- collection_type: open
+  name: Infrahub Artifact Query API
+  slug: open-opsmill-query-api
+- collection_type: open
+  name: Infrahub Artifact Schema API
+  slug: open-opsmill-schema-api
+- collection_type: open
+  name: Infrahub Artifact Schema.graphql API
+  slug: open-opsmill-schema-graphql-api
+- collection_type: open
+  name: Infrahub Artifact Storage API
+  slug: open-opsmill-storage-api
+- collection_type: open
+  name: Infrahub Artifact Telemetry API
+  slug: open-opsmill-telemetry-api
+- collection_type: open
+  name: Infrahub Artifact Transform API
+  slug: open-opsmill-transform-api
 common:
 - group: agent
   title: ''
@@ -221,7 +270,7 @@ overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 22 more developer resources.'
-random_paper: 48
+random_paper: 23
 score:
   band: developing
   composite: 50.8
@@ -245,7 +294,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/screenshots/opsmill-2026-08-07T190749.png
 security:

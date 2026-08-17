@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 33
@@ -78,7 +78,50 @@ apis:
 - description: The Transforms API from Weld — 11 operation(s) for transforms.
   name: Weld Transforms API
   slug: weld-transforms-api
-artifact_total: 18
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Weld REST Connection Bridge API
+  slug: open-weld-connection-bridge-api
+- collection_type: open
+  name: Weld REST Connection Bridge Connections API
+  slug: open-weld-connections-api
+- collection_type: open
+  name: Weld REST Connection Bridge Custom Reports API
+  slug: open-weld-custom-reports-api
+- collection_type: open
+  name: Weld REST Connection Bridge ELT Stream Runs API
+  slug: open-weld-elt-stream-runs-api
+- collection_type: open
+  name: Weld REST Connection Bridge ELT Streams API
+  slug: open-weld-elt-streams-api
+- collection_type: open
+  name: Weld REST Connection Bridge ELT Syncs API
+  slug: open-weld-elt-syncs-api
+- collection_type: open
+  name: Weld REST Connection Bridge Integrations API
+  slug: open-weld-integrations-api
+- collection_type: open
+  name: Weld REST Connection Bridge Orchestration Runs API
+  slug: open-weld-orchestration-runs-api
+- collection_type: open
+  name: Weld REST Connection Bridge Orchestrations API
+  slug: open-weld-orchestrations-api
+- collection_type: open
+  name: Weld REST Connection Bridge Reverse ETL Failed Records API
+  slug: open-weld-reverse-etl-failed-records-api
+- collection_type: open
+  name: Weld REST Connection Bridge Reverse ETL Sync Runs API
+  slug: open-weld-reverse-etl-sync-runs-api
+- collection_type: open
+  name: Weld REST Connection Bridge Reverse ETL Syncs API
+  slug: open-weld-reverse-etl-syncs-api
+- collection_type: open
+  name: Weld REST Connection Bridge Transforms API
+  slug: open-weld-transforms-api
 common:
 - group: auth
   title: ''
@@ -208,7 +251,7 @@ overview: 'Weld publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Weld''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 21 more developer resources.'
-random_paper: 68
+random_paper: 130
 score:
   band: developing
   composite: 50.4
@@ -232,7 +275,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

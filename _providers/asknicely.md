@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: AskNicely's remote Model Context Protocol server, exposing Ask NiceAI's tools — NPS summaries, survey responses, leaderboards and more — to external AI clients such as Claude. Served per tenant at htt
@@ -40,11 +40,30 @@ apis:
 - description: Trigger NPS/CSAT/5-Star surveys to contacts.
   name: AskNicely Surveys API
   slug: asknicely-surveys-api
-artifact_total: 13
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Asknicely Webhooks
   slug: asknicely-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AskNicely Contacts API
+  slug: open-asknicely-contacts-api
+- collection_type: open
+  name: AskNicely In-App Survey In-App Surveys API
+  slug: open-asknicely-in-app-surveys-api
+- collection_type: open
+  name: AskNicely Responses API
+  slug: open-asknicely-responses-api
+- collection_type: open
+  name: AskNicely Statistics API
+  slug: open-asknicely-statistics-api
+- collection_type: open
+  name: AskNicely Surveys API
+  slug: open-asknicely-surveys-api
 common:
 - group: other
   title: ''
@@ -197,7 +216,7 @@ overview: 'AskNicely publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   AskNicely''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 3
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Asknicely Rate Limits
@@ -235,7 +254,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/screenshots/asknicely-2026-08-07T161800.png
 security:

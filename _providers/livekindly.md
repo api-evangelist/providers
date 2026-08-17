@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -67,7 +67,47 @@ apis:
 - description: The Users API from LIVEKINDLY — 6 operation(s) for users.
   name: LIVEKINDLY Users API
   slug: livekindly-users-api
-artifact_total: 18
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Brands API
+  slug: open-livekindly-brands-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Careers API
+  slug: open-livekindly-careers-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Comments API
+  slug: open-livekindly-comments-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Discovery API
+  slug: open-livekindly-discovery-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Media API
+  slug: open-livekindly-media-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Pages API
+  slug: open-livekindly-pages-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Partners API
+  slug: open-livekindly-partners-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Posts API
+  slug: open-livekindly-posts-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Search API
+  slug: open-livekindly-search-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Settings API
+  slug: open-livekindly-settings-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Taxonomy API
+  slug: open-livekindly-taxonomy-api
+- collection_type: open
+  name: LIVEKINDLY Content API (WordPress REST wp/v2) Users API
+  slug: open-livekindly-users-api
 common:
 - group: other
   title: ''
@@ -194,7 +234,7 @@ overview: 'LIVEKINDLY publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   LIVEKINDLY''s developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
-random_paper: 3
+random_paper: 40
 scopes:
 - name: Livekindly Scopes
   scope_count: 1
@@ -223,7 +263,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekindly/refs/heads/main/screenshots/livekindly-2026-08-07T171739.png
 security:

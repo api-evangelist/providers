@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 61.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 15
   slug: tealium-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 11
+api_count: 12
 apis:
 - description: Sends authenticated events from any application via HTTP requests into the Tealium Customer Data Hub. Supports single-event and bulk-event endpoints (up to 10 events per request) with regional routing
   name: Tealium Collect HTTP API
@@ -60,7 +61,7 @@ apis:
 - description: The Auth API from Tealium — 1 operation(s) for auth.
   name: Tealium Auth API
   slug: tealium-auth-api
-- description: The Collect API from Tealium — 5 operation(s) for collect.
+- description: The Collect API from Tealium — 6 operation(s) for collect.
   name: Tealium Collect API
   slug: tealium-collect-api
 - description: The Customer API from Tealium — 2 operation(s) for customer.
@@ -72,7 +73,36 @@ apis:
 - description: The Privacy API from Tealium — 3 operation(s) for privacy.
   name: Tealium Privacy API
   slug: tealium-privacy-api
-artifact_total: 29
+- description: Tealium's own minimal, read-only API for AI agents, published as OpenAPI 3.0.3 at https://tealium.com/.well-known/openapi.yaml and discovered from https://tealium.com/llms.txt. Three unauthenticated G
+  name: Tealium AI Read API
+  slug: tealium-ai-read-api
+artifact_total: 39
+asyncapis:
+- description: ''
+  name: Tealium Webhooks
+  slug: tealium-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tealium AI Read API
+  slug: open-tealium-ai-read
+- collection_type: open
+  name: Tealium Authentication Auth API
+  slug: open-tealium-auth-api
+- collection_type: open
+  name: Tealium Authentication Auth Collect API
+  slug: open-tealium-collect-api
+- collection_type: open
+  name: Tealium Authentication Auth Customer API
+  slug: open-tealium-customer-api
+- collection_type: open
+  name: Tealium Authentication Auth Personalization API
+  slug: open-tealium-personalization-api
+- collection_type: open
+  name: Tealium Authentication Auth Privacy API
+  slug: open-tealium-privacy-api
 common:
 - group: agent
   title: ''
@@ -138,6 +168,110 @@ common:
   title: ''
   type: FinOps
   url: finops/tealium-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/tealium-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/tealium-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/tealium-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/tealium-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/tealium-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/tealium-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/tealium-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/tealium-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/tealium-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/tealium-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://tealium.com/security/
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/tealium-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/tealium-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/tealium-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/tealium-vocabulary.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/tealium-jsonschema-spectral-rules.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/tealium-context.jsonld
+- group: build
+  title: ''
+  type: Examples
+  url: examples/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://tealium.com/developer-center/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.tealium.com/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.tealium.com/api/v3/getting-started/request-format/
+- group: operate
+  title: ''
+  type: Support
+  url: https://tealium.com/customer-support-packages/
+- group: start
+  title: ''
+  type: Login
+  url: https://my.tealiumiq.com/login/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://tealium.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://tealium.com/privacy/
 created: '2026-06-13'
 description: Tealium is a customer data platform (CDP) providing REST APIs for iQ Tag Management and AudienceStream — enabling enterprises to manage tags, audiences, attributes, connectors, and real-time event data collection across web, mobile, and server-side channels. The Tealium Customer Data Hub unifies data collection via the Collect HTTP API, real-time visitor profiling via the Visitor Profile and Moments APIs, tag and load-rule management via the iQ Profiles API, and privacy compliance via the Visitor Privacy API.
 examples:
@@ -180,22 +314,26 @@ jsonld:
   property_count: 53
   slug: tealium-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: tealium-mcp.yml
+  slug: tealium-mcpyml
+modified: '2026-08-13'
 name: Tealium
 nav: Providers
 network: true
-overview: 'Tealium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Collect API, Customer API, and 2 more. Tagged areas include Customer Data Platform, CDP, Tag Management, AudienceStream, and Real-Time Events.
+overview: 'Tealium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Collect API, Customer API, and 3 more. Tagged areas include Customer Data Platform, CDP, Tag Management, AudienceStream, and Real-Time Events.
 
 
-  The Tealium catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Tealium catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Tealium''s developer surface includes authentication, documentation, engineering blog, pricing, release notes, and 11 more developer resources.'
+  Tealium''s developer surface includes authentication, documentation, engineering blog, pricing, release notes, changelog, sandbox, and 35 more developer resources.'
 plans:
 - name: Tealium Plans Pricing
   plan_count: 3
   slug: tealium-plans-pricing
-random_paper: 33
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Tealium Rate Limits
@@ -210,16 +348,16 @@ rules:
     warn: 4
   slug: tealium-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 51.1
-  delta: 0.0
+  band: exemplar
+  composite: 78.5
+  delta: 27.4
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 63.9
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 36.8
+    commercial_clarity: 100.0
+    contract_quality: 71.0
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    governance: 89.6
+    operational_transparency: 44.7
   previous_composite: 51.1
   provenance:
     agentic_access: derived
@@ -229,14 +367,14 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/screenshots/tealium-2026-06-20T194955.png
 security:
 - kind: authentication
   name: Tealium Authentication
   slug: tealium-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/apiKey/none · 4 schemes
 - kind: domain-security
   name: Tealium Domain Security
   slug: tealium-domain-security
@@ -244,7 +382,7 @@ security:
 - kind: trust-center
   name: Tealium Trust Center
   slug: tealium-trust-center
-  summary_line: SOC 2, ISO 27001, ISO 27018, HIPAA, GDPR
+  summary_line: SSAE18 SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27018, ISO/IEC 27701:2019, HIPAA & HITECH, TISAX, TX-RAMP, Cloud Security Alliance (CSA), GDPR, CCPA
 slug: tealium
 tags:
 - Customer Data Platform

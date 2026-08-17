@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -127,7 +127,7 @@ overview: 'Lendbuzz is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lendbuzz''s developer surface includes engineering blog, product news, support, FAQ, signup flow, and 18 more developer resources.'
-random_paper: 38
+random_paper: 133
 score:
   band: emerging
   composite: 19.7
@@ -143,7 +143,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendbuzz/refs/heads/main/screenshots/lendbuzz-2026-08-07T171537.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Recommendations operations
   name: Microsoft Azure Advisor Recommendations API
   slug: microsoft-azure-advisor-recommendations-api
-artifact_total: 10
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Advisor REST Operations API
+  slug: open-microsoft-azure-advisor-operations-api
+- collection_type: open
+  name: Azure Advisor REST Operations Recommendations API
+  slug: open-microsoft-azure-advisor-recommendations-api
 - collection_type: open
   name: Azure Advisor REST API
   slug: open-microsoft-azure-advisor
@@ -123,7 +132,7 @@ plans:
 - name: Microsoft Azure Advisor Plans Pricing
   plan_count: 3
   slug: microsoft-azure-advisor-plans-pricing
-random_paper: 103
+random_paper: 148
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Advisor Rate Limits
@@ -153,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/screenshots/microsoft-azure-advisor-2026-06-20T185354.png
 security:

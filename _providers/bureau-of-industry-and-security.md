@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,8 +51,14 @@ apis:
 - description: Search the Consolidated Screening List
   name: Bureau of Industry and Security Search API
   slug: bureau-of-industry-and-security-search-api
-artifact_total: 11
+artifact_total: 13
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Consolidated Screening List (CSL) Search API
+  slug: open-bureau-of-industry-and-security-search-api
 - collection_type: open
   name: Consolidated Screening List (CSL) API
   slug: open-bureau-of-industry-and-security
@@ -113,7 +119,7 @@ plans:
 - name: Bureau Of Industry And Security Plans Pricing
   plan_count: 3
   slug: bureau-of-industry-and-security-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Bureau Of Industry And Security Rate Limits
@@ -144,7 +150,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-and-security/refs/heads/main/screenshots/bureau-of-industry-and-security-2026-06-20T173808.png
 security:

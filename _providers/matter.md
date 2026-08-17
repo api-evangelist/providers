@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: Labels for organizing items.
   name: Matter Tags API
   slug: matter-tags-api
-artifact_total: 12
+artifact_total: 19
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Matter Account API
+  slug: open-matter-account-api
+- collection_type: open
+  name: Matter Account Annotations API
+  slug: open-matter-annotations-api
+- collection_type: open
+  name: Matter Account Items API
+  slug: open-matter-items-api
+- collection_type: open
+  name: Matter Account Reading Sessions API
+  slug: open-matter-reading-sessions-api
+- collection_type: open
+  name: Matter Account Search API
+  slug: open-matter-search-api
+- collection_type: open
+  name: Matter Account Tags API
+  slug: open-matter-tags-api
 common:
 - group: other
   title: ''
@@ -199,7 +221,7 @@ overview: 'Matter publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Matter''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, support, signup flow, and 24 more developer resources.'
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 6
   name: Matter Rate Limits
@@ -227,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/screenshots/matter-2026-07-25T230422.png
 security:

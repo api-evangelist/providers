@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,7 +74,35 @@ apis:
 - description: The Statistics data queries API from Eurostat — 1 operation(s) for statistics data queries.
   name: Eurostat Statistics data queries API
   slug: eurostat-statistics-data-queries-api
-artifact_total: 20
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Eurostat SDMX RESTful Async API
+  slug: open-eurostat-async-api
+- collection_type: open
+  name: Eurostat SDMX RESTful Async Catalogue queries API
+  slug: open-eurostat-catalogue-queries-api
+- collection_type: open
+  name: Eurostat SDMX RESTful Async SDMX 2.1 Data queries API
+  slug: open-eurostat-sdmx-2-1-data-queries-api
+- collection_type: open
+  name: Eurostat SDMX RESTful Async SDMX 2.1 Navigation Structure queries API
+  slug: open-eurostat-sdmx-2-1-navigation-structure-queries-api
+- collection_type: open
+  name: Eurostat SDMX RESTful Async SDMX 2.1 Structure queries API
+  slug: open-eurostat-sdmx-2-1-structure-queries-api
+- collection_type: open
+  name: Eurostat SDMX RESTful Async SDMX 3.0 Data queries API
+  slug: open-eurostat-sdmx-3-0-data-queries-api
+- collection_type: open
+  name: Eurostat SDMX RESTful Async SDMX 3.0 Structure queries API
+  slug: open-eurostat-sdmx-3-0-structure-queries-api
+- collection_type: open
+  name: Eurostat SDMX RESTful Async Statistics data queries API
+  slug: open-eurostat-statistics-data-queries-api
 common:
 - group: agent
   title: ''
@@ -163,7 +191,7 @@ plans:
 - name: Eurostat Plans Pricing
   plan_count: 1
   slug: eurostat-plans-pricing
-random_paper: 47
+random_paper: 142
 rate_limits:
 - limit_count: 4
   name: Eurostat Rate Limits
@@ -203,7 +231,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/screenshots/eurostat-2026-06-20T180900.png
 security:

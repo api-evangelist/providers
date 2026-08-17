@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The Model Upload API from Pathmind — 1 operation(s) for model upload.
@@ -27,7 +27,17 @@ apis:
 - description: The Projects API from Pathmind — 1 operation(s) for projects.
   name: Pathmind Projects API
   slug: skymind-projects-api
-artifact_total: 4
+artifact_total: 7
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pathmind Model Upload API
+  slug: open-skymind-model-upload-api
+- collection_type: open
+  name: Pathmind Projects API
+  slug: open-skymind-projects-api
 common:
 - group: agent
   title: ''
@@ -110,7 +120,7 @@ overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pathmind''s developer surface includes documentation, API reference, changelog, and 14 more developer resources.'
-random_paper: 47
+random_paper: 22
 score:
   band: thin
   composite: 31.3
@@ -132,7 +142,7 @@ score:
       total: 2
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

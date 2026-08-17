@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,8 +60,20 @@ apis:
 - description: Manage vehicles in your Skydio Cloud organization.
   name: Skydio Vehicles API
   slug: skydio-vehicles-api
-artifact_total: 14
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Skydio Cloud Flights API
+  slug: open-skydio-flights-api
+- collection_type: open
+  name: Skydio Cloud Flights Markers API
+  slug: open-skydio-markers-api
+- collection_type: open
+  name: Skydio Cloud Flights Vehicles API
+  slug: open-skydio-vehicles-api
 - collection_type: open
   name: Skydio Cloud API
   slug: open-skydio
@@ -154,7 +166,7 @@ plans:
 - name: Skydio Plans Pricing
   plan_count: 1
   slug: skydio-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Skydio Rate Limits
@@ -179,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/screenshots/skydio-2026-06-20T194013.png
 security:

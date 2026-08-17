@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Webhook registration for received-Pix notifications. Host pix.api.efipay.com.br, mTLS required.
   name: Efí Pix Webhooks API
   slug: efi-bank-pix-webhooks-api
-artifact_total: 14
+artifact_total: 22
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Efí (formerly Gerencianet) Payments Authorization API
+  slug: open-efi-bank-authorization-api
+- collection_type: open
+  name: Efí (formerly Gerencianet) Payments Authorization Carnê API
+  slug: open-efi-bank-carn-api
+- collection_type: open
+  name: Efí (formerly Gerencianet) Payments Authorization Cobranças API
+  slug: open-efi-bank-cobran-as-api
+- collection_type: open
+  name: Efí (formerly Gerencianet) Payments Authorization Open Finance API
+  slug: open-efi-bank-open-finance-api
+- collection_type: open
+  name: Efí (formerly Gerencianet) Payments Authorization Pix Charges API
+  slug: open-efi-bank-pix-charges-api
+- collection_type: open
+  name: Efí (formerly Gerencianet) Payments Authorization Pix Payments API
+  slug: open-efi-bank-pix-payments-api
+- collection_type: open
+  name: Efí (formerly Gerencianet) Payments Authorization Pix Webhooks API
+  slug: open-efi-bank-pix-webhooks-api
 - collection_type: open
   name: Efí (formerly Gerencianet) Payments API
   slug: open-efi-bank
@@ -122,7 +146,7 @@ plans:
 - name: Efi Bank Plans Pricing
   plan_count: 4
   slug: efi-bank-plans-pricing
-random_paper: 45
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Efi Bank Rate Limits
@@ -153,7 +177,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/screenshots/efi-bank-2026-07-25T212946.png
 security:

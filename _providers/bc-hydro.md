@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -155,7 +155,7 @@ overview: 'BC Hydro is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BC Hydro''s developer surface includes authentication, documentation, support, engineering blog, product news, and 21 more developer resources.'
-random_paper: 72
+random_paper: 47
 score:
   band: emerging
   composite: 21.6
@@ -177,7 +177,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/screenshots/bc-hydro-2026-08-07T162216.png
 security:

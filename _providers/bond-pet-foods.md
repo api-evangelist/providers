@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The wc/store/v1 API from Bond Pet Foods — 31 operation(s) for wc/store/v1.
@@ -27,11 +27,24 @@ apis:
 - description: The wp/v2 API from Bond Pet Foods — 134 operation(s) for wp/v2.
   name: Bond Pet Foods Wp/v2 API
   slug: bond-pet-foods-wp-v2-api
-artifact_total: 5
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Bond Pet Foods Webhooks
   slug: bond-pet-foods-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bond Pet Foods Store API (WooCommerce Store API) Wc/store/v1 API
+  slug: open-bond-pet-foods-wc-store-v1-api
+- collection_type: open
+  name: API Collection
+  slug: open-bond-pet-foods-wp-rest-index-original
+- collection_type: open
+  name: Bond Pet Foods Content API (WordPress REST API) Wp/v2 API
+  slug: open-bond-pet-foods-wp-v2-api
 common:
 - group: other
   title: ''
@@ -141,7 +154,7 @@ overview: 'Bond Pet Foods publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bond Pet Foods'' developer surface includes support, FAQ, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 57
+random_paper: 36
 score:
   band: thin
   composite: 31.1
@@ -163,7 +176,7 @@ score:
       total: 2
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

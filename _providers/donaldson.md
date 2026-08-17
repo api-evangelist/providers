@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Intellectual Property Policy Strategist Kirsten Donaldson ...
   url: https://www.hklaw.com/en/news/pressreleases/2026/04/intellectual-property-policy-strategist-kirsten-donaldson-joins
-random_paper: 2
+random_paper: 68
 score:
   band: minimal
   composite: 4.1
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donaldson/refs/heads/main/screenshots/donaldson-2026-06-20T180148.png
 security:

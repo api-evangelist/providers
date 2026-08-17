@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Architecture relationship management
   name: ArchiMate Relationships API
   slug: archimate-relationships-api
-artifact_total: 56
+artifact_total: 60
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ArchiMate Model Exchange Elements API
+  slug: open-archimate-elements-api
+- collection_type: open
+  name: ArchiMate Model Exchange Elements Models API
+  slug: open-archimate-models-api
+- collection_type: open
+  name: ArchiMate Model Exchange Elements Relationships API
+  slug: open-archimate-relationships-api
 common:
 - group: agent
   title: ''
@@ -240,7 +253,7 @@ plans:
 - name: Archimate Plans Pricing
   plan_count: 3
   slug: archimate-plans-pricing
-random_paper: 102
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Archimate Rate Limits
@@ -282,7 +295,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/screenshots/archimate-2026-06-20T172408.png
 security:

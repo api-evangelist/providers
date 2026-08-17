@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -46,7 +46,26 @@ apis:
 - description: Internal Marriott hotel-operations API that submits a preview request for ARA automated room assignment. The OpenAPI document declares no servers at all, which is itself the finding — the operation is
   name: Marriott Hotel Operations ARA Preview Submit API
   slug: marriott-hotel-operations-ara-api
-artifact_total: 11
+artifact_total: 17
+collections:
+- collection_type: open
+  name: commerce-payment-processor
+  slug: open-marriott-commerce-payment-processor-api
+- collection_type: open
+  name: Data Collection API
+  slug: open-marriott-data-collection-api
+- collection_type: open
+  name: Finance Status Notifier Application
+  slug: open-marriott-finance-status-notifier-api
+- collection_type: open
+  name: Hotel Operations ARA - Preview Submit API
+  slug: open-marriott-hotel-operations-ara-api
+- collection_type: open
+  name: Merge/Transfer Request API - new TIP MMF Spec for sending Account Merge request to SF CLM
+  slug: open-marriott-loyalty-account-merge-api
+- collection_type: open
+  name: TIP Internet Portal
+  slug: open-marriott-tip-internet-portal-api
 common:
 - group: agent
   title: ''
@@ -193,7 +212,7 @@ overview: 'Marriott International publishes 6 APIs on the [APIs.io](https://apis
 
 
   Marriott International''s developer surface includes authentication, support, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 42
+random_paper: 137
 scopes:
 - name: Marriott Scopes
   scope_count: 2
@@ -217,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/screenshots/marriott-2026-08-07T172102.png
 security:

@@ -1,13 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Requires approval
-  onboarding: approval
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
+  confidence: high
+  label: Free tier, self-service sign-up
+  onboarding: unknown
+  pricing: freemium
+  public: true
+  source:
+  - https://www.yesware.com/plans-and-pricing
+  - https://www.yesware.com/sign-up
+  trial: true
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -22,14 +24,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -39,14 +41,18 @@ common:
   title: ''
   type: Documentation
   url: https://docs.yesware.com/docs/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.yesware.com/docs/getting-started-with-yesware
 - group: operate
   title: ''
   type: Support
-  url: https://help.yesware.com/
+  url: mailto:support@yesware.com
 - group: operate
   title: ''
   type: HelpCenter
-  url: https://help.yesware.com/
+  url: https://docs.yesware.com/docs/
 - group: company
   title: ''
   type: Blog
@@ -54,7 +60,23 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.yesware.com/pricing/
+  url: https://www.yesware.com/plans-and-pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/yesware-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/yesware-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/yesware-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.yesware.com/
 - group: start
   title: ''
   type: SignUp
@@ -67,6 +89,10 @@ common:
   title: ''
   type: TermsOfService
   url: https://www.yesware.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.yesware.com/privacy/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -95,38 +121,57 @@ common:
   title: ''
   type: Compliance
   url: https://www.yesware.com/security/
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/yesware-well-known.yml
+coverage:
+  checked: '2026-08-13'
+  detail: Yesware ships only an end-user product — every one of the 81 pages in docs.yesware.com's sitemap is Gmail/Outlook product help, no API host resolves (api.yesware.com does not exist in DNS), and Yesware's own retired help-center article "Does Yesware have a public-facing API instead of a Google extension?" answered no.
+  evidence:
+  - status: 200
+    url: https://docs.yesware.com/sitemap.xml
+  - status: 404
+    url: https://www.yesware.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.yesware.com/.well-known/api-catalog
+  - status: 301
+    url: https://support.yesware.com/hc/en-us/articles/15420545065623-How-many-API-calls-does-Yesware-use
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Yesware is a sales engagement and email productivity platform that lives inside Gmail and Outlook, helping sales teams track email opens, link clicks, and attachment views in real time, run multi-touch outreach campaigns and sequences, use shared email templates, schedule meetings, and prospect from a database of 100M+ B2B contacts. It provides bi-directional Salesforce sync to log activities automatically and reporting dashboards on template and team performance. Yesware does not currently expose a public developer REST API; its integration surface is delivered through Salesforce sync, native inbox extensions, and iPaaS connectors. It was surfaced as a portfolio company of Battery Ventures and GV and profiled in the API Evangelist network. Backed by Battery Ventures and GV.
-image: https://www.yesware.com/wp-content/uploads/2021/03/yesware-logo.png
+description: Yesware is a sales engagement and email productivity platform that lives inside Gmail and Outlook, helping sales teams track email opens, link clicks, and attachment views in real time, run multi-touch outreach campaigns and sequences, use shared email templates, schedule meetings, and prospect from a database of 100M+ B2B contacts. It provides bi-directional Salesforce sync to log activities automatically and reporting dashboards on template and team performance. Yesware has been part of Vendasta since October 2022. It does not expose a public developer REST API, GraphQL endpoint, webhook catalog, MCP server or agent card — its own help center answered "does Yesware have a public-facing API" with no, and its entire documentation set at docs.yesware.com is end-user product help. The integration surface is delivered through Salesforce sync, native Gmail/Outlook inbox extensions, LinkedIn, Zoom, Google Meet and Microsoft Teams connectors, and third-party iPaaS platforms. The most
+  machine-readable surface Yesware operates is its Atlassian Statuspage. It was surfaced as a portfolio company of Battery Ventures and GV and profiled in the API Evangelist network.
+image: https://cdn.prod.website-files.com/6036bf3265493cd8d57a7527/62aa0d96e8c9ac7fb2d2528b_882b3fdf09a3292fea8075d218f74d92_yesware-featured-image.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Yesware
 nav: Providers
 network: true
 overview: 'Yesware is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Engagement, Email Tracking, Sales Productivity, and CRM.
 
 
-  Yesware''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 48
+  Yesware''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
+plans:
+- name: Yesware Plans Pricing
+  plan_count: 4
+  slug: yesware-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Yesware Rate Limits
+  slug: yesware-rate-limits
 score:
-  band: emerging
-  composite: 20.8
-  delta: 0.0
+  band: thin
+  composite: 33.5
+  delta: 12.7
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 92.1
     contract_quality: 0.0
-    developer_ergonomics: 15.2
+    developer_ergonomics: 26.1
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 31.6
   previous_composite: 20.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: domain-security
   name: Yesware Domain Security
@@ -139,7 +184,7 @@ security:
 - kind: trust-center
   name: Yesware Trust Center
   slug: yesware-trust-center
-  summary_line: SOC 2 Type II, ISO 27001, GDPR, Skyhigh CloudTrust Enterprise-Ready, Salesforce Security Review
+  summary_line: SOC 2 Type II, Skyhigh CloudTrust Enterprise-Ready, GDPR, Salesforce Security Review
 slug: yesware
 tags:
 - Company
@@ -150,5 +195,8 @@ tags:
 - Salesforce
 - Outreach
 - Email Marketing
+- Sales Enablement
+- Gmail
+- Outlook
 website: https://www.yesware.com
 ---

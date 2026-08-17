@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -138,7 +138,7 @@ apis:
 - description: The user API from Axway — 7 operation(s) for user.
   name: Axway user API
   slug: axway-user-api
-artifact_total: 874
+artifact_total: 895
 collections:
 - collection_type: postman
   name: Amplify Platform API v1.0.0 aca API
@@ -201,8 +201,71 @@ collections:
   name: Amplify Platform API v1.0.0 aca user API
   slug: postman-axway-user-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca API
+  slug: open-axway-aca-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca activity API
+  slug: open-axway-activity-api
+- collection_type: open
   name: Amplify Platform API v1.0.0
   slug: open-axway-amplify-platform-openapi-original
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca analytics API
+  slug: open-axway-analytics-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca app API
+  slug: open-axway-app-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca auth API
+  slug: open-axway-auth-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca client API
+  slug: open-axway-client-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca domain API
+  slug: open-axway-domain-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca entitlement API
+  slug: open-axway-entitlement-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca env API
+  slug: open-axway-env-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca export API
+  slug: open-axway-export-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca idp API
+  slug: open-axway-idp-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca org API
+  slug: open-axway-org-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca provider API
+  slug: open-axway-provider-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca role API
+  slug: open-axway-role-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca session API
+  slug: open-axway-session-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca subscription API
+  slug: open-axway-subscription-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca team API
+  slug: open-axway-team-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca telemetry API
+  slug: open-axway-telemetry-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca usage API
+  slug: open-axway-usage-api
+- collection_type: open
+  name: Amplify Platform API v1.0.0 aca user API
+  slug: open-axway-user-api
 common:
 - group: auth
   title: ''
@@ -2731,7 +2794,7 @@ plans:
 - name: Axway Plans Pricing
   plan_count: 3
   slug: axway-plans-pricing
-random_paper: 74
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: Axway Rate Limits
@@ -2778,7 +2841,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/screenshots/axway-2026-06-20T172828.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 14
 common:
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: Inside the digital transformation of Abercrombie & Fitch
   url: https://nrf.com/blog/inside-digital-transformation-abercrombie-fitch
-random_paper: 30
+random_paper: 133
 score:
   band: minimal
   composite: 12.0
@@ -125,7 +125,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 12.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abercrombie-and-fitch/refs/heads/main/screenshots/abercrombie-and-fitch-2026-06-20T163159.png
 security:

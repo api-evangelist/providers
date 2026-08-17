@@ -13,19 +13,43 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-12'
+  score: 3.2
+  scored_at: '2026-08-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/invitae-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/invitae-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/invitae-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.invitae.com/us/provider-faqs/tech-and-quality
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/invitae-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/invitae-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/invitae-rate-limits.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -34,14 +58,22 @@ common:
   title: ''
   type: Website
   url: https://www.invitae.com/
-- group: start
+- group: other
   title: ''
-  type: Portal
+  type: Products
   url: https://www.invitae.com/us/providers
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.invitae.com/us/provider-faqs
 - group: company
   title: ''
   type: Blog
   url: https://blog.invitae.com/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.invitae.com/feed
 - group: build
   title: ''
   type: GitHubOrganization
@@ -49,35 +81,57 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.invitae.com/privacy
+  url: https://www.invitae.com/us/privacy
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.invitae.com/terms
+  url: https://www.invitae.com/us/terms-of-use
+coverage:
+  checked: '2026-08-15'
+  detail: Invitae ships genetic testing as a clinician-ordered laboratory service with no programmatic product of any kind — its one API-shaped host, api.invitae.com, is a private backend that answers a blanket nginx 403 on every path including the root, and the live site markets no API, no partner integration programme and no "request API access" form to gate one behind.
+  evidence:
+  - status: 403
+    url: https://api.invitae.com/openapi.json
+  - status: 404
+    url: https://www.invitae.com/developers
+  - status: 404
+    url: https://www.invitae.com/llms.txt
+  - status: 404
+    url: https://www.invitae.com/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-24'
-description: 'Invitae (now Labcorp Invitae, following Labcorp''s 2024 acquisition of select Invitae assets) is a United States medical genetics and healthcare-technology company that provides clinical-grade hereditary and somatic genetic testing across oncology, women''s health, cardiology, neurology, pediatrics, and rare disease. It offers providers an online ordering portal, licensed genetic counseling, and the Gia digital assistant, and returns results into clinician workflows. Invitae''s integration posture is enterprise and partner-gated rather than a self-serve public developer API: genetic test orders and results reach the electronic health record through Epic-certified interfaces and Epic Aura (Orders and Results Anywhere Network) and traditional HL7 order/result feeds delivered by a dedicated EHR integration team. As of this review no public developer portal, FHIR CapabilityStatement, SMART-on-FHIR configuration, or downloadable OpenAPI is published; programmatic access is arranged
-  through a partnership/integration engagement in its United States home market.'
+description: 'Invitae — operated as Labcorp Invitae / Labcorp Genetics since Labcorp acquired select Invitae assets out of the company''s 2024 Chapter 11 — is a United States medical genetics and healthcare-technology company providing clinical-grade hereditary and somatic genetic testing across oncology, women''s health, cardiology, neurology, pediatrics, and rare disease. Its laboratory is CLIA-certified and CAP-accredited, and it publishes a HIPAA Notice of Privacy Practices and state laboratory licensure. Clinicians order tests and receive results through a web portal with licensed genetic counseling and the Gia digital assistant. Invitae publishes no API: contract discovery across every Invitae host found no developer portal, no OpenAPI, no GraphQL endpoint, no MCP server, no A2A agent card, no FHIR CapabilityStatement, no SMART-on-FHIR configuration, no webhooks, no client SDK and no /.well-known document. api.invitae.com resolves but returns a blanket nginx 403 for every path, and
+  the developer, docs and fhir subdomains do not resolve at all. The company''s public GitHub organization is genuine but consists of forks of upstream bioinformatics projects, not first-party specifications or libraries.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-08-15'
 name: Invitae
 nav: Providers
 network: true
 overview: 'Invitae is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Genomics, Genetic Testing, and Precision Medicine.
 
 
-  Invitae''s developer surface includes developer portal, engineering blog, and 6 more developer resources.'
-random_paper: 32
+  Invitae''s developer surface includes support, engineering blog, and 14 more developer resources.'
+plans:
+- name: Invitae Plans Pricing
+  plan_count: 0
+  slug: invitae-plans-pricing
+random_paper: 7
+rate_limits:
+- limit_count: 0
+  name: Invitae Rate Limits
+  slug: invitae-rate-limits
 score:
   band: emerging
-  composite: 13.5
-  delta: 0.0
+  composite: 17.3
+  delta: 3.8
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 6.5
     discoverability: 57.4
-    governance: 0.0
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 13.5
   regulatory:
@@ -85,9 +139,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
+    score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invitae/refs/heads/main/screenshots/invitae-2026-07-25T222754.png
 security:
@@ -103,9 +157,9 @@ tags:
 - Genetic Testing
 - Precision Medicine
 - Life Sciences
-- EHR
-- Interoperability
-- HL7
 - Diagnostics
+- Clinical Laboratory
+- Oncology
+- Rare Disease
 website: https://www.invitae.com/
 ---

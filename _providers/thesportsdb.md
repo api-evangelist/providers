@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: Season standings and results.
   name: TheSportsDB Seasons API
   slug: thesportsdb-seasons-api
-artifact_total: 18
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TheSportsDB Events API
+  slug: open-thesportsdb-events-api
+- collection_type: open
+  name: TheSportsDB Events Lists API
+  slug: open-thesportsdb-lists-api
+- collection_type: open
+  name: TheSportsDB Events Lookup API
+  slug: open-thesportsdb-lookup-api
+- collection_type: open
+  name: TheSportsDB Events Search API
+  slug: open-thesportsdb-search-api
+- collection_type: open
+  name: TheSportsDB Events Seasons API
+  slug: open-thesportsdb-seasons-api
 - collection_type: open
   name: TheSportsDB API
   slug: open-thesportsdb
@@ -134,7 +152,7 @@ plans:
 - name: Thesportsdb Plans Pricing
   plan_count: 3
   slug: thesportsdb-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Thesportsdb Rate Limits
@@ -182,7 +200,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/screenshots/thesportsdb-2026-06-20T195300.png
 security:

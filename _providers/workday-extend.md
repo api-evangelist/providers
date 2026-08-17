@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ arazzos:
 - description: Run a WQL query to retrieve worker data, then write the result into a worker's custom object.
   name: Workday Extend WQL Query Into a Worker Custom Object
   slug: workday-extend-wql-query-to-worker-custom-object-workflow
-artifact_total: 88
+artifact_total: 103
 collections:
 - collection_type: postman
   name: Workday Extend Workday Custom Objects API
@@ -139,17 +139,62 @@ collections:
   name: Workday Extend REST API
   slug: postman-workday-extend-rest-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations API
+  slug: open-workday-extend-app-configurations-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations App Deployments API
+  slug: open-workday-extend-app-deployments-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations App Versions API
+  slug: open-workday-extend-app-versions-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Apps API
+  slug: open-workday-extend-apps-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Custom Object Definitions API
+  slug: open-workday-extend-custom-object-definitions-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Custom Object Fields API
+  slug: open-workday-extend-custom-object-fields-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Custom Object Instances API
+  slug: open-workday-extend-custom-object-instances-api
+- collection_type: open
   name: Workday Extend Workday Custom Objects API
   slug: open-workday-extend-custom-objects
 - collection_type: open
   name: Workday Extend Workday Graph API
   slug: open-workday-extend-graph-api
 - collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Graph Query API
+  slug: open-workday-extend-graph-query-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Orchestration Executions API
+  slug: open-workday-extend-orchestration-executions-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Orchestration Steps API
+  slug: open-workday-extend-orchestration-steps-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Orchestration Triggers API
+  slug: open-workday-extend-orchestration-triggers-api
+- collection_type: open
   name: Workday Extend Workday Orchestration API
   slug: open-workday-extend-orchestration
 - collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Orchestrations API
+  slug: open-workday-extend-orchestrations-api
+- collection_type: open
   name: Workday Extend REST API
   slug: open-workday-extend-rest-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations Schema Introspection API
+  slug: open-workday-extend-schema-introspection-api
+- collection_type: open
+  name: Workday Extend Workday Custom Objects App Configurations WQL Query API
+  slug: open-workday-extend-wql-query-api
 common:
 - group: agent
   title: ''
@@ -493,7 +538,7 @@ plans:
 - name: Workday Extend Plans Pricing
   plan_count: 1
   slug: workday-extend-plans-pricing
-random_paper: 22
+random_paper: 121
 rate_limits:
 - limit_count: 1
   name: Workday Extend Rate Limits
@@ -540,7 +585,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/screenshots/workday-extend-2026-06-20T201559.png
 security:

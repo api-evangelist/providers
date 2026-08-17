@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Devices, calibration, and query history.
@@ -46,7 +46,26 @@ apis:
 - description: ML-detected road objects and features.
   name: Hivemapper Map Features API
   slug: hivemapper-map-features-api
-artifact_total: 8
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bee Maps (Hivemapper) Developer Account API
+  slug: open-hivemapper-account-api
+- collection_type: open
+  name: Bee Maps (Hivemapper) Developer Account AI Events API
+  slug: open-hivemapper-ai-events-api
+- collection_type: open
+  name: Bee Maps (Hivemapper) Developer Account Bursts API
+  slug: open-hivemapper-bursts-api
+- collection_type: open
+  name: Bee Maps (Hivemapper) Developer Account Imagery API
+  slug: open-hivemapper-imagery-api
+- collection_type: open
+  name: Bee Maps (Hivemapper) Developer Account Map Features API
+  slug: open-hivemapper-map-features-api
 common:
 - group: other
   title: ''
@@ -164,7 +183,7 @@ overview: 'Hivemapper publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Hivemapper''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 18 more developer resources.'
-random_paper: 113
+random_paper: 30
 score:
   band: developing
   composite: 48.5
@@ -187,7 +206,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/screenshots/hivemapper-2026-07-25T221306.png
 security:

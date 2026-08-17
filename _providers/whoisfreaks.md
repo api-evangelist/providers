@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 23
 apis:
 - description: Official open-source Model Context Protocol server (Java) exposing 14 WhoisFreaks domain-intelligence tools to MCP-compatible AI clients. Distributed as source and as the whoisfreaks/mcp-server Docker
@@ -90,11 +90,81 @@ apis:
 - description: WHOIS lookup APIs (live, historical, reverse, bulk)
   name: WhoisFreaks WHOIS API
   slug: whoisfreaks-whois-api
-artifact_total: 29
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Whoisfreaks Monitoring Webhooks
   slug: whoisfreaks-monitoring-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WhoisFreaks Account API
+  slug: open-whoisfreaks-account-api
+- collection_type: open
+  name: WhoisFreaks ASN WHOIS API
+  slug: open-whoisfreaks-asn-whois-api
+- collection_type: open
+  name: WhoisFreaks Databases - ASN WHOIS API
+  slug: open-whoisfreaks-databases-asn-whois-api
+- collection_type: open
+  name: WhoisFreaks Databases - DNS API
+  slug: open-whoisfreaks-databases-dns-api
+- collection_type: open
+  name: WhoisFreaks Databases - Expiring & Dropped API
+  slug: open-whoisfreaks-databases-expiring-dropped-api
+- collection_type: open
+  name: WhoisFreaks Databases - IP Geolocation API
+  slug: open-whoisfreaks-databases-ip-geolocation-api
+- collection_type: open
+  name: WhoisFreaks Databases - IP Security API
+  slug: open-whoisfreaks-databases-ip-security-api
+- collection_type: open
+  name: WhoisFreaks Databases - IP WHOIS API
+  slug: open-whoisfreaks-databases-ip-whois-api
+- collection_type: open
+  name: WhoisFreaks Databases - Newly Registered API
+  slug: open-whoisfreaks-databases-newly-registered-api
+- collection_type: open
+  name: WhoisFreaks Databases - Subdomains API
+  slug: open-whoisfreaks-databases-subdomains-api
+- collection_type: open
+  name: WhoisFreaks Databases - Threat Feed API
+  slug: open-whoisfreaks-databases-threat-feed-api
+- collection_type: open
+  name: WhoisFreaks Databases - WHOIS API
+  slug: open-whoisfreaks-databases-whois-api
+- collection_type: open
+  name: WhoisFreaks DNS API
+  slug: open-whoisfreaks-dns-api
+- collection_type: open
+  name: WhoisFreaks Domain Availability API
+  slug: open-whoisfreaks-domain-availability-api
+- collection_type: open
+  name: WhoisFreaks Domain Reputation API
+  slug: open-whoisfreaks-domain-reputation-api
+- collection_type: open
+  name: WhoisFreaks Geolocation API
+  slug: open-whoisfreaks-geolocation-api
+- collection_type: open
+  name: WhoisFreaks IP Reputation API
+  slug: open-whoisfreaks-ip-reputation-api
+- collection_type: open
+  name: WhoisFreaks IP WHOIS API
+  slug: open-whoisfreaks-ip-whois-api
+- collection_type: open
+  name: WhoisFreaks SSL API
+  slug: open-whoisfreaks-ssl-api
+- collection_type: open
+  name: WhoisFreaks Subdomains API
+  slug: open-whoisfreaks-subdomains-api
+- collection_type: open
+  name: WhoisFreaks Typosquatting API
+  slug: open-whoisfreaks-typosquatting-api
+- collection_type: open
+  name: WhoisFreaks WHOIS API
+  slug: open-whoisfreaks-whois-api
 common:
 - group: other
   title: ''
@@ -259,7 +329,7 @@ plans:
 - name: Whoisfreaks Plans
   plan_count: 5
   slug: whoisfreaks-plans
-random_paper: 110
+random_paper: 147
 rate_limits:
 - limit_count: 4
   name: Whoisfreaks Rate Limits
@@ -286,7 +356,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

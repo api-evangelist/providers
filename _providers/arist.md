@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: Arist runs its customer-facing authentication on an Auth0 tenant at auth.arist.app. The tenant publishes an RFC 8414 / OpenID Connect Discovery document anonymously, describing the authorization, toke
@@ -138,7 +138,7 @@ overview: 'Arist publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Arist''s developer surface includes documentation, support, getting-started guide, engineering blog, authentication, changelog, and 18 more developer resources.'
-random_paper: 67
+random_paper: 100
 scopes:
 - name: Arist Scopes
   scope_count: 14
@@ -159,7 +159,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arist/refs/heads/main/screenshots/arist-2026-08-07T161713.png
 security:

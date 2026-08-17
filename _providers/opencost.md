@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: The CustomCost API from OpenCost — 2 operation(s) for customcost.
   name: OpenCost CustomCost API
   slug: opencost-customcost-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenCost Allocation API
+  slug: open-opencost-allocation-api
+- collection_type: open
+  name: OpenCost Allocation Assets API
+  slug: open-opencost-assets-api
+- collection_type: open
+  name: OpenCost Allocation CloudCost API
+  slug: open-opencost-cloudcost-api
+- collection_type: open
+  name: OpenCost Allocation CustomCost API
+  slug: open-opencost-customcost-api
 - collection_type: open
   name: OpenCost API
   slug: open-opencost
@@ -122,7 +137,7 @@ plans:
 - name: Opencost Plans Pricing
   plan_count: 3
   slug: opencost-plans-pricing
-random_paper: 35
+random_paper: 130
 rate_limits:
 - limit_count: 5
   name: Opencost Rate Limits
@@ -156,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/screenshots/opencost-2026-06-20T190924.png
 security:

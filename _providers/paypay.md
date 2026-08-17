@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,11 +44,21 @@ apis:
 - description: The Payments API from PayPay — 1 operation(s) for payments.
   name: PayPay Payments API
   slug: paypay-payments-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Paypay Webhooks
   slug: paypay-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dynamic QR Payment API
+  slug: open-paypay-payment-api
+- collection_type: open
+  name: Dynamic QR Payment Payments API
+  slug: open-paypay-payments-api
 common:
 - group: start
   title: ''
@@ -181,7 +191,7 @@ overview: 'PayPay publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
 
 
   PayPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 60
+random_paper: 64
 score:
   band: developing
   composite: 42.7
@@ -211,7 +221,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/screenshots/paypay-2026-08-07T191649.png
 security:

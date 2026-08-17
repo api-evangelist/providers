@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ overview: 'OpenFin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   OpenFin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, and 12 more developer resources.'
-random_paper: 31
+random_paper: 6
 score:
   band: emerging
   composite: 24.6
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfin/refs/heads/main/screenshots/openfin-2026-08-07T190559.png
 security:

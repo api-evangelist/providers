@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Resurface captures complete API request and response data in real time, providing full-payload API call logging with no sampling. Security teams use it to detect threats, identify data leaks, and ensu
@@ -136,7 +136,7 @@ plans:
 - name: Resurface Plans Pricing
   plan_count: 3
   slug: resurface-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Resurface Rate Limits
@@ -163,7 +163,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 34.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/screenshots/resurface-2026-06-20T193038.png
 security:

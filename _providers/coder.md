@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 8
@@ -135,7 +135,92 @@ apis:
 - description: The Workspaces API from Coder — 20 operation(s) for workspaces.
   name: Coder Workspaces API
   slug: coder-workspaces-api
-artifact_total: 55
+artifact_total: 83
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coder Agents API
+  slug: open-coder-agents-api
+- collection_type: open
+  name: Coder Agents AI Bridge API
+  slug: open-coder-ai-bridge-api
+- collection_type: open
+  name: Coder Agents AI Providers API
+  slug: open-coder-ai-providers-api
+- collection_type: open
+  name: Coder Agents Applications API
+  slug: open-coder-applications-api
+- collection_type: open
+  name: Coder Agents Audit API
+  slug: open-coder-audit-api
+- collection_type: open
+  name: Coder Agents Authorization API
+  slug: open-coder-authorization-api
+- collection_type: open
+  name: Coder Agents Builds API
+  slug: open-coder-builds-api
+- collection_type: open
+  name: Coder Agents Chats API
+  slug: open-coder-chats-api
+- collection_type: open
+  name: Coder Agents Debug API
+  slug: open-coder-debug-api
+- collection_type: open
+  name: Coder Agents Enterprise API
+  slug: open-coder-enterprise-api
+- collection_type: open
+  name: Coder Agents Files API
+  slug: open-coder-files-api
+- collection_type: open
+  name: Coder Agents General API
+  slug: open-coder-general-api
+- collection_type: open
+  name: Coder Agents Git API
+  slug: open-coder-git-api
+- collection_type: open
+  name: Coder Agents InitScript API
+  slug: open-coder-initscript-api
+- collection_type: open
+  name: Coder Agents Insights API
+  slug: open-coder-insights-api
+- collection_type: open
+  name: Coder Agents Members API
+  slug: open-coder-members-api
+- collection_type: open
+  name: Coder Agents Notifications API
+  slug: open-coder-notifications-api
+- collection_type: open
+  name: Coder Agents Organizations API
+  slug: open-coder-organizations-api
+- collection_type: open
+  name: Coder Agents PortSharing API
+  slug: open-coder-portsharing-api
+- collection_type: open
+  name: Coder Agents Prebuilds API
+  slug: open-coder-prebuilds-api
+- collection_type: open
+  name: Coder Agents Provisioning API
+  slug: open-coder-provisioning-api
+- collection_type: open
+  name: Coder Agents Secrets API
+  slug: open-coder-secrets-api
+- collection_type: open
+  name: Coder Agents Tasks API
+  slug: open-coder-tasks-api
+- collection_type: open
+  name: Coder Agents Templates API
+  slug: open-coder-templates-api
+- collection_type: open
+  name: Coder Agents Users API
+  slug: open-coder-users-api
+- collection_type: open
+  name: Coder Agents WorkspaceProxies API
+  slug: open-coder-workspaceproxies-api
+- collection_type: open
+  name: Coder Agents Workspaces API
+  slug: open-coder-workspaces-api
 common:
 - group: agent
   title: ''
@@ -274,7 +359,7 @@ plans:
 - name: Coder Plans Pricing
   plan_count: 2
   slug: coder-plans-pricing
-random_paper: 45
+random_paper: 78
 rate_limits:
 - limit_count: 4
   name: Coder Rate Limits
@@ -308,7 +393,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/screenshots/coder-2026-06-20T174705.png
 security:

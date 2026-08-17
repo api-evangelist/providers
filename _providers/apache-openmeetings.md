@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -68,11 +68,44 @@ apis:
 - description: The WbService API from Apache OpenMeetings — 4 operation(s) for wbservice.
   name: Apache OpenMeetings WbService API
   slug: apache-openmeetings-wbservice-api
-artifact_total: 135
+artifact_total: 146
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService API
+  slug: open-apache-openmeetings-calendarservice-api
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService ErrorService API
+  slug: open-apache-openmeetings-errorservice-api
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService FileService API
+  slug: open-apache-openmeetings-fileservice-api
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService GroupService API
+  slug: open-apache-openmeetings-groupservice-api
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService InfoService API
+  slug: open-apache-openmeetings-infoservice-api
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService NetTestService API
+  slug: open-apache-openmeetings-nettestservice-api
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService RecordingService API
+  slug: open-apache-openmeetings-recordingservice-api
 - collection_type: open
   name: Apache OpenMeetings REST API
   slug: open-apache-openmeetings-rest-api
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService RoomService API
+  slug: open-apache-openmeetings-roomservice-api
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService UserService API
+  slug: open-apache-openmeetings-userservice-api
+- collection_type: open
+  name: Apache OpenMeetings REST CalendarService WbService API
+  slug: open-apache-openmeetings-wbservice-api
 common:
 - group: agent
   title: ''
@@ -461,7 +494,7 @@ plans:
 - name: Apache Openmeetings Plans Pricing
   plan_count: 3
   slug: apache-openmeetings-plans-pricing
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Apache Openmeetings Rate Limits
@@ -503,7 +536,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/screenshots/apache-openmeetings-2026-06-20T172128.png
 security:

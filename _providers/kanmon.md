@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -81,11 +81,57 @@ apis:
 - description: The Users API from Kanmon — 3 operation(s) for users.
   name: Kanmon Users API
   slug: kanmon-users-api
-artifact_total: 19
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Kanmon Webhooks
   slug: kanmon-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts API
+  slug: open-kanmon-bank-accounts-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Businesses API
+  slug: open-kanmon-businesses-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Connect Tokens API
+  slug: open-kanmon-connect-tokens-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Documents API
+  slug: open-kanmon-documents-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Draw Requests API
+  slug: open-kanmon-draw-requests-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Embedded Sessions API
+  slug: open-kanmon-embedded-sessions-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Integrated MCA API
+  slug: open-kanmon-integrated-mca-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Invoices API
+  slug: open-kanmon-invoices-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Issued Products API
+  slug: open-kanmon-issued-products-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Offers API
+  slug: open-kanmon-offers-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Payments API
+  slug: open-kanmon-payments-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Prequalifications API
+  slug: open-kanmon-prequalifications-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Sandbox Utilities API
+  slug: open-kanmon-sandbox-utilities-api
+- collection_type: open
+  name: Kanmon Public V2 Bank Accounts Users API
+  slug: open-kanmon-users-api
 common:
 - group: docs
   title: ''
@@ -214,7 +260,7 @@ overview: 'Kanmon publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kanmon''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, support, and 21 more developer resources.'
-random_paper: 44
+random_paper: 48
 score:
   band: developing
   composite: 43.0
@@ -238,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/screenshots/kanmon-2026-07-25T223455.png
 security:

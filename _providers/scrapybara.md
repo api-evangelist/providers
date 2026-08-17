@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -63,8 +63,35 @@ apis:
 - description: The Notebook API from Scrapybara — 6 operation(s) for notebook.
   name: Scrapybara Notebook API
   slug: scrapybara-notebook-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scrapybara Auth States API
+  slug: open-scrapybara-auth-states-api
+- collection_type: open
+  name: Scrapybara Auth States Browser API
+  slug: open-scrapybara-browser-api
+- collection_type: open
+  name: Scrapybara Auth States Code Execution API
+  slug: open-scrapybara-code-execution-api
+- collection_type: open
+  name: Scrapybara Auth States Computer Actions API
+  slug: open-scrapybara-computer-actions-api
+- collection_type: open
+  name: Scrapybara Auth States Environment API
+  slug: open-scrapybara-environment-api
+- collection_type: open
+  name: Scrapybara Auth States Filesystem API
+  slug: open-scrapybara-filesystem-api
+- collection_type: open
+  name: Scrapybara Auth States Instances API
+  slug: open-scrapybara-instances-api
+- collection_type: open
+  name: Scrapybara Auth States Notebook API
+  slug: open-scrapybara-notebook-api
 - collection_type: open
   name: Scrapybara API
   slug: open-scrapybara
@@ -133,7 +160,7 @@ plans:
 - name: Scrapybara Plans Pricing
   plan_count: 4
   slug: scrapybara-plans-pricing
-random_paper: 104
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Scrapybara Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

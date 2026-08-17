@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 10
 apis:
 - description: Property record retrieval for Australian properties — core and extended property detail, images, floorplans, street view, maps, schools, radial searches for nearby sales, rentals, listings, properties
@@ -51,7 +51,11 @@ apis:
 - description: 'POST /oauth2/token issuing access and refresh tokens for three documented grant types: client_credentials (API user''s own username and password, HTTP Basic accepted as an alternative to form parameter'
   name: Pricefinder OAuth 2.0 Token API
   slug: pricefinder-oauth2-api
-artifact_total: 13
+artifact_total: 14
+collections:
+- collection_type: open
+  name: PriceFinder API v1.13.1
+  slug: open-pricefinder-api-swagger
 common:
 - group: auth
   title: ''
@@ -166,7 +170,7 @@ overview: 'Pricefinder publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Pricefinder''s developer surface includes API reference, signup flow, support, documentation, authentication, and 19 more developer resources.'
-random_paper: 83
+random_paper: 120
 score:
   band: thin
   composite: 35.4
@@ -195,7 +199,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/screenshots/pricefinder-2026-07-27T125408.png
 security:

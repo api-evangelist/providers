@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,7 +60,14 @@ apis:
 - description: endpoints to retrieve nutrient data
   name: USDA FDC API
   slug: usda-fdc-api
-artifact_total: 18
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Food Data Central FDC API
+  slug: open-usda-fdc-api
 common:
 - group: agent
   title: ''
@@ -161,7 +168,7 @@ plans:
 - name: Usda Plans Pricing
   plan_count: 3
   slug: usda-plans-pricing
-random_paper: 69
+random_paper: 131
 rate_limits:
 - limit_count: 0
   name: Usda Rate Limits
@@ -201,7 +208,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usda/refs/heads/main/screenshots/usda-2026-06-20T200646.png
 security:

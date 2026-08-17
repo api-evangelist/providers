@@ -11,25 +11,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-12'
+  score: 49.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,11 +67,38 @@ apis:
 - description: US Core Patient resources
   name: meditech Patient API
   slug: meditech-patient-api
-artifact_total: 17
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meditech Expanse FHIR R4 Allergy API
+  slug: open-meditech-allergy-api
+- collection_type: open
+  name: Meditech Expanse FHIR R4 Allergy Capability API
+  slug: open-meditech-capability-api
+- collection_type: open
+  name: Meditech Expanse FHIR R4 Allergy Condition API
+  slug: open-meditech-condition-api
+- collection_type: open
+  name: Meditech Expanse FHIR R4 Allergy Diagnostic API
+  slug: open-meditech-diagnostic-api
+- collection_type: open
+  name: Meditech Expanse FHIR R4 Allergy Encounter API
+  slug: open-meditech-encounter-api
 - collection_type: open
   name: Meditech Expanse FHIR R4 API
   slug: open-meditech-fhir
+- collection_type: open
+  name: Meditech Expanse FHIR R4 Allergy Medication API
+  slug: open-meditech-medication-api
+- collection_type: open
+  name: Meditech Expanse FHIR R4 Allergy Observation API
+  slug: open-meditech-observation-api
+- collection_type: open
+  name: Meditech Expanse FHIR R4 Allergy Patient API
+  slug: open-meditech-patient-api
 common:
 - group: agent
   title: ''
@@ -192,6 +220,102 @@ common:
   title: ''
   type: OpenCollection
   url: collections/meditech-fhir.opencollection.json
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/meditech-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/meditech-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/meditech-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meditech-allergy-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meditech-capability-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meditech-condition-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meditech-diagnostic-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meditech-encounter-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meditech-medication-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meditech-observation-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meditech-patient-api-overlay.yaml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/meditech-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/meditech-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/meditech-changelog.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/meditech-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/meditech-trust-center.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/meditech-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/meditech-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/meditech-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/meditech-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/meditech-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://home.meditech.com/en/d/restapiresources/pages/apidoc.htm
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://home.meditech.com/en/d/restapiresources/pages/apiterms.htm
 created: '2026-05-04'
 description: MEDITECH (Medical Information Technology, Inc.) is an electronic health record vendor serving community hospitals and health systems, primarily through its MEDITECH Expanse platform. Its API program is delivered through the Greenfield Workspace — a registration-gated developer environment where approved app developers get interactive documentation and a sandbox to execute APIs against a real MEDITECH EHR. Published surfaces are US Core FHIR R4 (view-only patient-facing data, USCDI v1, DSTU2/R4 compatible) and FHIR Scheduling APIs. MEDITECH also operates Traverse Exchange, its national data exchange network and TEFCA on-ramp, connecting 700+ facilities across 41 US states plus Canadian deployments.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meditech.png
@@ -205,7 +329,11 @@ jsonld:
   property_count: 6
   slug: meditech-context
 layout: provider
-modified: '2026-07-27'
+mcp_servers:
+- description: ''
+  name: meditech-mcp.yml
+  slug: meditech-mcpyml
+modified: '2026-08-14'
 name: MEDITECH
 nav: Providers
 network: true
@@ -215,8 +343,16 @@ overview: 'MEDITECH publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The MEDITECH catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  MEDITECH''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, getting-started guide, engineering blog, and 23 more developer resources.'
-random_paper: 115
+  MEDITECH''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, getting-started guide, engineering blog, and 47 more developer resources.'
+plans:
+- name: Meditech Plans Pricing
+  plan_count: 0
+  slug: meditech-plans-pricing
+random_paper: 90
+rate_limits:
+- limit_count: 0
+  name: Meditech Rate Limits
+  slug: meditech-rate-limits
 rules:
 - name: MEDITECH API Rules
   rule_count: 6
@@ -228,20 +364,20 @@ rules:
   slug: meditech-jsonschema-spectral-rules
 scopes:
 - name: Meditech Scopes
-  scope_count: 5
+  scope_count: 0
   slug: meditech-scopes
-  summary_line: 5 scopes · authorizationCode
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 40.6
-  delta: 0.0
+  band: developing
+  composite: 53.7
+  delta: 13.1
   facets:
-    commercial_clarity: 23.7
+    commercial_clarity: 50.0
     contract_quality: 30.3
-    developer_ergonomics: 56.5
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 0.0
+    developer_ergonomics: 78.3
+    discoverability: 81.5
+    governance: 66.7
+    operational_transparency: 15.8
   previous_composite: 40.6
   provenance:
     agentic_access: derived
@@ -256,10 +392,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 55.0
+    score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:
 - kind: authentication
@@ -270,6 +406,14 @@ security:
   name: Meditech Domain Security
   slug: meditech-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Meditech Vulnerability Disclosure
+  slug: meditech-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Meditech Trust Center
+  slug: meditech-trust-center
+  summary_line: ONC Health IT Certification (2015 Edition Cures Update)
 slug: meditech
 tags:
 - Company

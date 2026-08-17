@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 4
@@ -207,7 +207,7 @@ apis:
 - description: 'The #X Amz Target=SWBExternalService.UpdatePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.updatepermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.UpdatePermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api
-artifact_total: 640
+artifact_total: 697
 collections:
 - collection_type: postman
   name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup API'
@@ -377,6 +377,177 @@ collections:
 - collection_type: postman
   name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.UpdatePermissionSet API'
   slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroup-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroupMembership API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroupmembership-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateUser API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-createuser-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DeleteGroup API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroup-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DeleteGroupMembership API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroupmembership-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DeleteUser API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-deleteuser-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DescribeGroup API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroup-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DescribeGroupMembership API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroupmembership-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DescribeUser API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-describeuser-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.GetGroupId API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupid-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.GetGroupMembershipId API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupmembershipid-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.GetUserId API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-getuserid-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.IsMemberInGroups API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-ismemberingroups-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.ListGroupMemberships API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmemberships-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.ListGroupMembershipsForMember API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmembershipsformember-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.ListGroups API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroups-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.ListUsers API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-listusers-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.UpdateGroup API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-updategroup-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.UpdateUser API'
+  slug: open-amazon-iam-identity-center-x-amz-target-awsidentitystore-updateuser-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.AttachCustomerManagedPolicyReferenceToPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-attachcustomermanagedpolicyreferencetopermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.AttachManagedPolicyToPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-attachmanagedpolicytopermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.CreateAccountAssignment API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-createaccountassignment-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.CreateInstanceAccessControlAttributeConfiguration API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-createinstanceaccesscontrolattributeconfiguration-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.CreatePermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-createpermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeleteAccountAssignment API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteaccountassignment-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeleteInlinePolicyFromPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinlinepolicyfrompermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeleteInstanceAccessControlAttributeConfiguration API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinstanceaccesscontrolattributeconfiguration-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeletePermissionsBoundaryFromPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionsboundaryfrompermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeletePermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribeAccountAssignmentCreationStatus API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentcreationstatus-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribeAccountAssignmentDeletionStatus API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentdeletionstatus-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribeInstanceAccessControlAttributeConfiguration API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-describeinstanceaccesscontrolattributeconfiguration-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribePermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribePermissionSetProvisioningStatus API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionsetprovisioningstatus-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DetachCustomerManagedPolicyReferenceFromPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-detachcustomermanagedpolicyreferencefrompermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DetachManagedPolicyFromPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-detachmanagedpolicyfrompermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.GetInlinePolicyForPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-getinlinepolicyforpermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.GetPermissionsBoundaryForPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-getpermissionsboundaryforpermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListAccountAssignmentCreationStatus API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentcreationstatus-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListAccountAssignmentDeletionStatus API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentdeletionstatus-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListAccountAssignments API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignments-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListAccountsForProvisionedPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountsforprovisionedpermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListCustomerManagedPolicyReferencesInPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listcustomermanagedpolicyreferencesinpermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListInstances API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listinstances-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListManagedPoliciesInPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listmanagedpoliciesinpermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListPermissionSetProvisioningStatus API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetprovisioningstatus-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListPermissionSets API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsets-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListPermissionSetsProvisionedToAccount API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetsprovisionedtoaccount-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListTagsForResource API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-listtagsforresource-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ProvisionPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-provisionpermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.PutInlinePolicyToPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-putinlinepolicytopermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.PutPermissionsBoundaryToPermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-putpermissionsboundarytopermissionset-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.TagResource API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-tagresource-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.UntagResource API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-untagresource-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.UpdateInstanceAccessControlAttributeConfiguration API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-updateinstanceaccesscontrolattributeconfiguration-api
+- collection_type: open
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.UpdatePermissionSet API'
+  slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api
 common:
 - group: build
   title: ''
@@ -2031,7 +2202,7 @@ plans:
 - name: Amazon Iam Identity Center Plans Pricing
   plan_count: 3
   slug: amazon-iam-identity-center-plans-pricing
-random_paper: 87
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Identity Center Rate Limits
@@ -2073,7 +2244,7 @@ score:
       marker_coverage: 0.0
       total: 56
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/screenshots/amazon-iam-identity-center-2026-06-20T171703.png
 security:

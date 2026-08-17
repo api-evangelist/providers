@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ arazzos:
 - description: Resolve a schedule group ARN, remove tag keys, then list remaining tags.
   name: EventBridge Scheduler Untag Schedule Group
   slug: amazon-eventbridge-scheduler-untag-schedule-group-workflow
-artifact_total: 324
+artifact_total: 328
 collections:
 - collection_type: postman
   name: Amazon EventBridge Scheduler Schedule Groups API
@@ -84,6 +84,18 @@ collections:
 - collection_type: postman
   name: Amazon EventBridge Scheduler
   slug: postman-amazon-eventbridge-scheduler
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon EventBridge Scheduler Schedule Groups API
+  slug: open-amazon-eventbridge-scheduler-schedule-groups-api
+- collection_type: open
+  name: Amazon EventBridge Scheduler Schedule Groups Schedules API
+  slug: open-amazon-eventbridge-scheduler-schedules-api
+- collection_type: open
+  name: Amazon EventBridge Scheduler Schedule Groups Tags API
+  slug: open-amazon-eventbridge-scheduler-tags-api
 - collection_type: open
   name: Amazon EventBridge Scheduler
   slug: open-amazon-eventbridge-scheduler
@@ -1129,7 +1141,7 @@ plans:
 - name: Amazon Eventbridge Scheduler Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-scheduler-plans-pricing
-random_paper: 102
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Scheduler Rate Limits
@@ -1171,7 +1183,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/screenshots/amazon-eventbridge-scheduler-2026-06-20T171646.png
 security:

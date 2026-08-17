@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -90,11 +90,26 @@ arazzos:
 - description: Train a model to completion, then register it from the produced artifacts and stand up a hosted endpoint.
   name: Amazon SageMaker Train Then Deploy
   slug: amazon-sagemaker-train-then-deploy-workflow
-artifact_total: 82
+artifact_total: 87
 collections:
 - collection_type: postman
   name: Amazon SageMaker API
   slug: postman-amazon-sagemaker
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon SageMaker Endpoints API
+  slug: open-amazon-sagemaker-endpoints-api
+- collection_type: open
+  name: Amazon SageMaker Endpoints Models API
+  slug: open-amazon-sagemaker-models-api
+- collection_type: open
+  name: Amazon SageMaker Endpoints Notebook Instances API
+  slug: open-amazon-sagemaker-notebook-instances-api
+- collection_type: open
+  name: Amazon SageMaker Endpoints Training Jobs API
+  slug: open-amazon-sagemaker-training-jobs-api
 - collection_type: open
   name: Amazon SageMaker API
   slug: open-amazon-sagemaker
@@ -482,7 +497,7 @@ plans:
 - name: Amazon Sagemaker Plans Pricing
   plan_count: 3
   slug: amazon-sagemaker-plans-pricing
-random_paper: 75
+random_paper: 145
 rate_limits:
 - limit_count: 5
   name: Amazon Sagemaker Rate Limits
@@ -524,7 +539,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/screenshots/amazon-sagemaker-2026-06-20T171815.png
 security:

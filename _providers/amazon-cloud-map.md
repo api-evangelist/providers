@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Operations for managing services within namespaces
   name: Amazon Cloud Map Services API
   slug: amazon-cloud-map-services-api
-artifact_total: 65
+artifact_total: 69
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Cloud Map Instances API
+  slug: open-amazon-cloud-map-instances-api
+- collection_type: open
+  name: Amazon Cloud Map Instances Namespaces API
+  slug: open-amazon-cloud-map-namespaces-api
+- collection_type: open
+  name: Amazon Cloud Map Instances Services API
+  slug: open-amazon-cloud-map-services-api
 common:
 - group: agent
   title: ''
@@ -332,7 +345,7 @@ overview: 'Amazon Cloud Map publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Amazon Cloud Map''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
-random_paper: 29
+random_paper: 99
 rules:
 - name: Amazon Cloud Map API Rules
   rule_count: 5
@@ -372,7 +385,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/screenshots/amazon-cloud-map-2026-07-25T195942.png
 security:

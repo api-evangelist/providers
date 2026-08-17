@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-12'
+  score: 49.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -83,7 +84,60 @@ apis:
 - description: The Users & Workflow API from VBOUT — 9 operation(s) for users & workflow.
   name: VBOUT Users & Workflow API
   slug: vbout-users-workflow-api
-artifact_total: 20
+artifact_total: 38
+asyncapis:
+- description: ''
+  name: Vbout Webhooks
+  slug: vbout-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: VBOUT EmailMarketing Account API
+  slug: open-vbout-account-api
+- collection_type: open
+  name: VBOUT EmailMarketing AIchatbot API
+  slug: open-vbout-aichatbot-api
+- collection_type: open
+  name: VBOUT EmailMarketing Application API
+  slug: open-vbout-application-api
+- collection_type: open
+  name: VBOUT EmailMarketing Automation API
+  slug: open-vbout-automation-api
+- collection_type: open
+  name: VBOUT EmailMarketing Contact API
+  slug: open-vbout-contact-api
+- collection_type: open
+  name: VBOUT EmailMarketing Email Marketing API
+  slug: open-vbout-email-marketing-api
+- collection_type: open
+  name: VBOUT EmailMarketing API
+  slug: open-vbout-emailmarketing-api
+- collection_type: open
+  name: VBOUT EmailMarketing Goals API
+  slug: open-vbout-goals-api
+- collection_type: open
+  name: VBOUT EmailMarketing Help API
+  slug: open-vbout-help-api
+- collection_type: open
+  name: VBOUT EmailMarketing Pipeline API
+  slug: open-vbout-pipeline-api
+- collection_type: open
+  name: VBOUT EmailMarketing Popups API
+  slug: open-vbout-popups-api
+- collection_type: open
+  name: VBOUT EmailMarketing Settings API
+  slug: open-vbout-settings-api
+- collection_type: open
+  name: VBOUT EmailMarketing Social Media API
+  slug: open-vbout-social-media-api
+- collection_type: open
+  name: VBOUT EmailMarketing SocialMedia API
+  slug: open-vbout-socialmedia-api
+- collection_type: open
+  name: VBOUT EmailMarketing Users & Workflow API
+  slug: open-vbout-users-workflow-api
 common:
 - group: other
   title: ''
@@ -217,6 +271,22 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/vbout-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/vbout-webhooks.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/vbout-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/vbout-sandbox.yml
 created: '2026-07-17'
 description: VBOUT is an AI-enabled marketing automation platform used by agencies and small-to-mid-size businesses to run email marketing, social media scheduling, landing pages, popups, lead scoring, and an AI chatbot from one place. The VBOUT REST API (v1.0 at api.vbout.com/1) exposes the platform programmatically — contacts, lists, audiences, email campaigns and stats, social channels, calendar and posts, conversion goals, sub-users and groups, on-site engagement actions, automations, pipeline boards, and account settings — authenticated with an account API key, with responses in JSON or XML and a documented 15 requests/second rate limit. VBOUT is a 500 Global portfolio company.
 image: https://developers.vbout.com/images/front/icons/logo-square-114x114.png
@@ -225,30 +295,37 @@ mcp_servers:
 - description: ''
   name: vbout-mcp.yml
   slug: vbout-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: VBOUT
 nav: Providers
 network: true
 overview: 'VBOUT publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, AIchatbot API, Application API, and 12 more. Tagged areas include Marketing Automation, Email Marketing, Social Media, Lead Management, and Landing Pages.
 
 
-  VBOUT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, YouTube channel, and 26 more developer resources.'
-random_paper: 80
+  The VBOUT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  VBOUT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, YouTube channel, and 30 more developer resources.'
+plans:
+- name: Vbout Plans Pricing
+  plan_count: 4
+  slug: vbout-plans-pricing
+random_paper: 113
 rate_limits:
 - limit_count: 1
   name: Vbout Rate Limits
   slug: vbout-rate-limits
 score:
-  band: developing
-  composite: 49.0
-  delta: 0.0
+  band: strong
+  composite: 59.9
+  delta: 10.9
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 50.3
-    developer_ergonomics: 62.5
+    commercial_clarity: 76.3
+    contract_quality: 59.3
+    developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 42.1
+    operational_transparency: 50.0
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -261,8 +338,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Vbout Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,7 +69,38 @@ arazzos:
 - description: Discover markets then pull the order book, 24h ticker, and recent trades for a symbol.
   name: Bullet market-data snapshot
   slug: bullet-market-data-snapshot
-artifact_total: 14
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bullet Trading Account API
+  slug: open-bullet-account-api
+- collection_type: open
+  name: Bullet Trading Account Address API
+  slug: open-bullet-address-api
+- collection_type: open
+  name: Bullet Trading Account Health API
+  slug: open-bullet-health-api
+- collection_type: open
+  name: Bullet Trading Account Market-Data API
+  slug: open-bullet-market-data-api
+- collection_type: open
+  name: Bullet Trading Account Rollup API
+  slug: open-bullet-rollup-api
+- collection_type: open
+  name: Bullet Trading Account SolanaOffchainTx API
+  slug: open-bullet-solanaoffchaintx-api
+- collection_type: open
+  name: Bullet Account Trading API
+  slug: open-bullet-trading-api
+- collection_type: open
+  name: Bullet Trading Account Tx API
+  slug: open-bullet-tx-api
+- collection_type: open
+  name: Bullet Trading Account User Data (Beta) API
+  slug: open-bullet-user-data-beta-api
 common:
 - group: docs
   title: ''
@@ -219,7 +250,7 @@ overview: 'Bullet publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bullet''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, pricing, and 26 more developer resources.'
-random_paper: 48
+random_paper: 52
 score:
   band: developing
   composite: 46.8
@@ -249,7 +280,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/screenshots/bullet-2026-07-25T204059.png
 security:

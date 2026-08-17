@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 18
 apis:
 - description: The Activities API from Hang — 2 operation(s) for activities.
@@ -85,11 +85,69 @@ apis:
 - description: The Wallet Integration API from Hang — 2 operation(s) for wallet integration.
   name: Hang Wallet Integration API
   slug: hang-wallet-integration-api
-artifact_total: 24
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Hang Webhooks
   slug: hang-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities API
+  slug: open-hang-activities-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Loot Box Reward Choices API
+  slug: open-hang-loot-box-reward-choices-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Loot box reward probabilities API
+  slug: open-hang-loot-box-reward-probabilities-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Loot Boxes API
+  slug: open-hang-loot-boxes-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Member Actions API
+  slug: open-hang-member-actions-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Memberships API
+  slug: open-hang-memberships-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Program memberships API
+  slug: open-hang-program-memberships-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Program Tiers API
+  slug: open-hang-program-tiers-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities ProgramMembershipPuzzles API
+  slug: open-hang-programmembershippuzzles-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Programs API
+  slug: open-hang-programs-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Puzzles API
+  slug: open-hang-puzzles-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Quests API
+  slug: open-hang-quests-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Redemptions API
+  slug: open-hang-redemptions-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Rewards API
+  slug: open-hang-rewards-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities TokenizedRewards API
+  slug: open-hang-tokenizedrewards-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Tokens API
+  slug: open-hang-tokens-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Users API
+  slug: open-hang-users-api
+- collection_type: open
+  name: Hang Partner API (params in:formData) Activities Wallet Integration API
+  slug: open-hang-wallet-integration-api
 common:
 - group: auth
   title: ''
@@ -222,7 +280,7 @@ overview: 'Hang publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hang''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 22 more developer resources.'
-random_paper: 54
+random_paper: 116
 score:
   band: developing
   composite: 50.5
@@ -245,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/screenshots/hang-2026-07-25T220618.png
 security:

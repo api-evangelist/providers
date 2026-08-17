@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -72,8 +72,23 @@ apis:
 - description: The Natural Language API from Diffbot — 1 operation(s) for natural language.
   name: Diffbot Natural Language API
   slug: diffbot-natural-language-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Diffbot Crawl API
+  slug: open-diffbot-crawl-api
+- collection_type: open
+  name: Diffbot Crawl Extract API
+  slug: open-diffbot-extract-api
+- collection_type: open
+  name: Diffbot Crawl Knowledge Graph API
+  slug: open-diffbot-knowledge-graph-api
+- collection_type: open
+  name: Diffbot Crawl Natural Language API
+  slug: open-diffbot-natural-language-api
 - collection_type: open
   name: Diffbot API
   slug: open-diffbot
@@ -170,7 +185,7 @@ plans:
 - name: Diffbot Plans Pricing
   plan_count: 3
   slug: diffbot-plans-pricing
-random_paper: 14
+random_paper: 138
 rate_limits:
 - limit_count: 5
   name: Diffbot Rate Limits
@@ -195,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/screenshots/diffbot-2026-06-20T180012.png
 security:

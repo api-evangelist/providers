@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -102,11 +102,29 @@ apis:
 - description: The System API from Check Point — 1 operation(s) for system.
   name: Check Point System API
   slug: checkpoint-system-api
-artifact_total: 37
+artifact_total: 55
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Check Point CloudGuard Access Rules API
+  slug: open-checkpoint-access-rules-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Cloud Accounts API
+  slug: open-checkpoint-cloud-accounts-api
 - collection_type: open
   name: Check Point CloudGuard API
   slug: open-checkpoint-cloudguard-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Compliance API
+  slug: open-checkpoint-compliance-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Events API
+  slug: open-checkpoint-events-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Findings API
+  slug: open-checkpoint-findings-api
 - collection_type: open
   name: Check Point Gaia API
   slug: open-checkpoint-gaia-api
@@ -114,11 +132,47 @@ collections:
   name: Check Point Harmony Email API
   slug: open-checkpoint-harmony-email-api
 - collection_type: open
+  name: Check Point CloudGuard Access Rules Hosts API
+  slug: open-checkpoint-hosts-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Identity API
+  slug: open-checkpoint-identity-api
+- collection_type: open
   name: Check Point Identity Awareness API
   slug: open-checkpoint-identity-awareness-api
 - collection_type: open
+  name: Check Point CloudGuard Access Rules Interfaces API
+  slug: open-checkpoint-interfaces-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Login API
+  slug: open-checkpoint-login-api
+- collection_type: open
   name: Check Point Management API
   slug: open-checkpoint-management-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules NAT Rules API
+  slug: open-checkpoint-nat-rules-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Networks API
+  slug: open-checkpoint-networks-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Quarantine API
+  slug: open-checkpoint-quarantine-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Routes API
+  slug: open-checkpoint-routes-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Rulesets API
+  slug: open-checkpoint-rulesets-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Services API
+  slug: open-checkpoint-services-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules Sessions API
+  slug: open-checkpoint-sessions-api
+- collection_type: open
+  name: Check Point CloudGuard Access Rules System API
+  slug: open-checkpoint-system-api
 common:
 - group: agent
   title: ''
@@ -227,7 +281,7 @@ plans:
 - name: Checkpoint Plans Pricing
   plan_count: 1
   slug: checkpoint-plans-pricing
-random_paper: 104
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Checkpoint Rate Limits
@@ -261,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/screenshots/checkpoint-2026-07-25T205134.png
 security:

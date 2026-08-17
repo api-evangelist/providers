@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 12
 common:
@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Berry Plastics Shares Details of Financial Performance and Plasti...
   url: https://www.industrialinfo.com/news/article/berry-plastics-shares-details-of-financial-performance-and-plastics-industry--231672
-random_paper: 22
+random_paper: 125
 score:
   band: minimal
   composite: 5.0
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/berry-plastics-group/refs/heads/main/screenshots/berry-plastics-group-2026-06-20T173147.png
 security:

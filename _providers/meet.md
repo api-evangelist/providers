@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,8 +53,26 @@ apis:
 - description: The Transcripts API from Google Meet — 4 operation(s) for transcripts.
   name: Google Meet Transcripts API
   slug: meet-transcripts-api
-artifact_total: 11
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Google Meet REST Conference Records API
+  slug: open-meet-conference-records-api
+- collection_type: open
+  name: Google Meet REST Conference Records Participants API
+  slug: open-meet-participants-api
+- collection_type: open
+  name: Google Meet REST Conference Records Recordings API
+  slug: open-meet-recordings-api
+- collection_type: open
+  name: Google Meet REST Conference Records Spaces API
+  slug: open-meet-spaces-api
+- collection_type: open
+  name: Google Meet REST Conference Records Transcripts API
+  slug: open-meet-transcripts-api
 - collection_type: open
   name: Google Meet REST API
   slug: open-meet
@@ -107,7 +125,7 @@ overview: 'Google Meet publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Google Meet''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 67
+random_paper: 129
 scopes:
 - name: Meet Scopes
   scope_count: 3
@@ -133,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/screenshots/meet-2026-06-20T185127.png
 security:

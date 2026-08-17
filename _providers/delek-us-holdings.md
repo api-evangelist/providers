@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Delek US Holdings Inc
   url: https://www.reuters.com/company/delek-us-holdings-inc/
-random_paper: 15
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Delek Us Holdings Rate Limits
@@ -128,7 +128,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delek-us-holdings/refs/heads/main/screenshots/delek-us-holdings-2026-08-07T180430.png
 security:

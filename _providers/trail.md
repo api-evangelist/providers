@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The Areas API from Trail — 1 operation(s) for areas.
@@ -55,7 +55,35 @@ apis:
 - description: The Tasks API from Trail — 1 operation(s) for tasks.
   name: Trail Tasks API
   slug: trail-tasks-api
-artifact_total: 13
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Areas API
+  slug: open-trail-areas-api
+- collection_type: open
+  name: Areas Scores API
+  slug: open-trail-scores-api
+- collection_type: open
+  name: Areas Sites API
+  slug: open-trail-sites-api
+- collection_type: open
+  name: Areas Tags API
+  slug: open-trail-tags-api
+- collection_type: open
+  name: Areas Task Instances API
+  slug: open-trail-task-instances-api
+- collection_type: open
+  name: Areas Task Reports API
+  slug: open-trail-task-reports-api
+- collection_type: open
+  name: Areas Task Templates API
+  slug: open-trail-task-templates-api
+- collection_type: open
+  name: Areas Tasks API
+  slug: open-trail-tasks-api
 common:
 - group: other
   title: ''
@@ -193,7 +221,7 @@ overview: 'Trail publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Trail''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 60
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: Trail Rate Limits
@@ -225,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

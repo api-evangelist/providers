@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Momentive Performance Materials Inc. Upgraded to
   url: https://www.spglobal.com/ratings/es/regulatory/article/-/view/type/HTML/id/3305974
-random_paper: 82
+random_paper: 73
 score:
   band: minimal
   composite: 4.1
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/momentive-performance-materials/refs/heads/main/screenshots/momentive-performance-materials-2026-06-20T185715.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The single per-account webhook for video processing notifications.
   name: Cloudflare Stream Webhooks API
   slug: cloudflare-stream-webhooks-api
-artifact_total: 14
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cloudflare Stream Analytics API
+  slug: open-cloudflare-stream-analytics-api
+- collection_type: open
+  name: Cloudflare Stream Analytics Captions API
+  slug: open-cloudflare-stream-captions-api
+- collection_type: open
+  name: Cloudflare Stream Analytics Live Inputs API
+  slug: open-cloudflare-stream-live-inputs-api
+- collection_type: open
+  name: Cloudflare Stream Analytics Signed URLs API
+  slug: open-cloudflare-stream-signed-urls-api
+- collection_type: open
+  name: Cloudflare Stream Analytics Videos API
+  slug: open-cloudflare-stream-videos-api
+- collection_type: open
+  name: Cloudflare Stream Analytics Webhooks API
+  slug: open-cloudflare-stream-webhooks-api
 - collection_type: open
   name: Cloudflare Stream API
   slug: open-cloudflare-stream
@@ -135,7 +156,7 @@ plans:
 - name: Cloudflare Stream Plans Pricing
   plan_count: 3
   slug: cloudflare-stream-plans-pricing
-random_paper: 74
+random_paper: 115
 rate_limits:
 - limit_count: 4
   name: Cloudflare Stream Rate Limits
@@ -160,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/screenshots/cloudflare-stream-2026-07-25T205657.png
 security:

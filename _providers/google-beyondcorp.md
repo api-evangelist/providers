@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,11 +48,23 @@ apis:
 - description: Operations for managing BeyondCorp security gateways
   name: Google BeyondCorp SecurityGateways API
   slug: google-beyondcorp-securitygateways-api
-artifact_total: 15
+artifact_total: 19
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Google BeyondCorp API
   slug: open-beyondcorp-api
+- collection_type: open
+  name: Google BeyondCorp AppConnections API
+  slug: open-google-beyondcorp-appconnections-api
+- collection_type: open
+  name: Google BeyondCorp AppConnections AppConnectors API
+  slug: open-google-beyondcorp-appconnectors-api
+- collection_type: open
+  name: Google BeyondCorp AppConnections SecurityGateways API
+  slug: open-google-beyondcorp-securitygateways-api
 common:
 - group: agent
   title: ''
@@ -122,7 +134,7 @@ plans:
 - name: Google Beyondcorp Plans Pricing
   plan_count: 3
   slug: google-beyondcorp-plans-pricing
-random_paper: 79
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: Google Beyondcorp Rate Limits
@@ -161,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/screenshots/google-beyondcorp-2026-06-20T182023.png
 security:

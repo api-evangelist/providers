@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -81,7 +81,7 @@ apis:
 - description: Available stacks
   name: Heroku Stacks API
   slug: heroku-stacks-api
-artifact_total: 66
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Heroku Platform Account API
@@ -126,11 +126,56 @@ collections:
   name: Heroku Platform Account Stacks API
   slug: postman-heroku-stacks-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Heroku Platform Account API
+  slug: open-heroku-account-api
+- collection_type: open
+  name: Heroku Platform Account Add-ons API
+  slug: open-heroku-add-ons-api
+- collection_type: open
   name: Heroku App Webhooks
   slug: open-heroku-app-webhooks-asyncapi
 - collection_type: open
+  name: Heroku Platform Account Apps API
+  slug: open-heroku-apps-api
+- collection_type: open
+  name: Heroku Platform Account Builds API
+  slug: open-heroku-builds-api
+- collection_type: open
+  name: Heroku Platform Account Collaborators API
+  slug: open-heroku-collaborators-api
+- collection_type: open
+  name: Heroku Platform Account Config Vars API
+  slug: open-heroku-config-vars-api
+- collection_type: open
+  name: Heroku Platform Account Domains API
+  slug: open-heroku-domains-api
+- collection_type: open
+  name: Heroku Platform Account Dynos API
+  slug: open-heroku-dynos-api
+- collection_type: open
+  name: Heroku Platform Account Formation API
+  slug: open-heroku-formation-api
+- collection_type: open
+  name: Heroku Platform Account Log Sessions API
+  slug: open-heroku-log-sessions-api
+- collection_type: open
+  name: Heroku Platform Account Pipelines API
+  slug: open-heroku-pipelines-api
+- collection_type: open
   name: Heroku Platform API
   slug: open-heroku-platform-api
+- collection_type: open
+  name: Heroku Platform Account Regions API
+  slug: open-heroku-regions-api
+- collection_type: open
+  name: Heroku Platform Account Releases API
+  slug: open-heroku-releases-api
+- collection_type: open
+  name: Heroku Platform Account Stacks API
+  slug: open-heroku-stacks-api
 common:
 - group: build
   title: ''
@@ -290,7 +335,7 @@ plans:
 - name: Heroku Plans Pricing
   plan_count: 8
   slug: heroku-plans-pricing
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Heroku Rate Limits
@@ -324,7 +369,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/screenshots/heroku-2026-06-20T182649.png
 security:

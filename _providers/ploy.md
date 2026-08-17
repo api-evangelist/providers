@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The only public HTTP endpoint Ploy documents. An authenticated inbound ingest endpoint that accepts any well-formed JSON object (up to 1 MB) from an external system — Clay, Stripe, Zapier, or a custom
@@ -205,7 +205,7 @@ plans:
 - name: Ploy Plans Pricing
   plan_count: 4
   slug: ploy-plans-pricing
-random_paper: 92
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Ploy Rate Limits
@@ -213,7 +213,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.4
-  delta: 49.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 51.6
@@ -221,10 +221,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 76.3
-  previous_composite: 14.1
+  previous_composite: 63.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Ploy Authentication

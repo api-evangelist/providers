@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,8 +63,29 @@ apis:
 - description: Store locator and store information
   name: target Stores API
   slug: target-stores-api
-artifact_total: 27
+artifact_total: 34
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Target Inventory API
+  slug: open-target-inventory-api
+- collection_type: open
+  name: Target Inventory Orders API
+  slug: open-target-orders-api
+- collection_type: open
+  name: Target Inventory Products API
+  slug: open-target-products-api
+- collection_type: open
+  name: Target Inventory Search API
+  slug: open-target-search-api
+- collection_type: open
+  name: Target Inventory Status API
+  slug: open-target-status-api
+- collection_type: open
+  name: Target Inventory Stores API
+  slug: open-target-stores-api
 - collection_type: open
   name: Target API
   slug: open-target-target-api
@@ -209,7 +230,7 @@ press:
 - date: '2026-05-25'
   title: Target's Using Artificial Intelligence to Make Your Shopping ...
   url: https://corporate.target.com/news-features/article/2023/12/artificial-intelligence
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Target Rate Limits
@@ -251,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

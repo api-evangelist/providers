@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Authenticated JSON API backing the CrossCheck NetSuite DevOps platform (server: uvicorn / FastAPI-style). Requires a bearer Authorization header; no public OpenAPI specification or developer documenta'
@@ -92,7 +92,7 @@ overview: 'Vertical Bar Inc. publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Vertical Bar Inc.''s developer surface includes authentication, pricing, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 11
+random_paper: 81
 score:
   band: emerging
   composite: 17.0
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

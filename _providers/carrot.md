@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Carrot is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Carrot''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: emerging
   composite: 18.1
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carrot/refs/heads/main/screenshots/carrot-2026-07-25T204640.png
 security:

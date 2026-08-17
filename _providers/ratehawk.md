@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: The Prebook API from RateHawk — 1 operation(s) for prebook.
   name: RateHawk Prebook API
   slug: ratehawk-prebook-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RateHawk / ETG API (WorldOta APIv3) Booking API
+  slug: open-ratehawk-booking-api
+- collection_type: open
+  name: RateHawk / ETG API (WorldOta APIv3) Booking Cancellation API
+  slug: open-ratehawk-cancellation-api
+- collection_type: open
+  name: RateHawk / ETG API (WorldOta APIv3) Booking Hotel Content API
+  slug: open-ratehawk-hotel-content-api
+- collection_type: open
+  name: RateHawk / ETG API (WorldOta APIv3) Booking Hotel Search API
+  slug: open-ratehawk-hotel-search-api
+- collection_type: open
+  name: RateHawk / ETG API (WorldOta APIv3) Booking Orders API
+  slug: open-ratehawk-orders-api
+- collection_type: open
+  name: RateHawk / ETG API (WorldOta APIv3) Booking Prebook API
+  slug: open-ratehawk-prebook-api
 - collection_type: open
   name: RateHawk / ETG API (WorldOta APIv3)
   slug: open-ratehawk
@@ -127,7 +148,7 @@ plans:
 - name: Ratehawk Plans Pricing
   plan_count: 3
   slug: ratehawk-plans-pricing
-random_paper: 15
+random_paper: 110
 rate_limits:
 - limit_count: 4
   name: Ratehawk Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

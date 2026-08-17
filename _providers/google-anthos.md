@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,11 +51,23 @@ apis:
 - description: Operations for managing node pools in VMware clusters
   name: Google Anthos VmwareNodePools API
   slug: google-anthos-vmwarenodepools-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Google Anthos Google GKE On-Prem API
   slug: open-gke-on-prem-api
+- collection_type: open
+  name: Google Anthos Google GKE On-Prem BareMetalClusters API
+  slug: open-google-anthos-baremetalclusters-api
+- collection_type: open
+  name: Google Anthos Google GKE On-Prem BareMetalClusters VmwareClusters API
+  slug: open-google-anthos-vmwareclusters-api
+- collection_type: open
+  name: Google Anthos Google GKE On-Prem BareMetalClusters VmwareNodePools API
+  slug: open-google-anthos-vmwarenodepools-api
 common:
 - group: agent
   title: ''
@@ -125,7 +137,7 @@ plans:
 - name: Google Anthos Plans Pricing
   plan_count: 3
   slug: google-anthos-plans-pricing
-random_paper: 15
+random_paper: 143
 rate_limits:
 - limit_count: 5
   name: Google Anthos Rate Limits
@@ -164,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/screenshots/google-anthos-2026-06-20T182013.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -110,7 +110,83 @@ apis:
 - description: Health check and project resource summaries.
   name: Onecli Utility API
   slug: onecli-utility-api
-artifact_total: 28
+artifact_total: 53
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OneCLI Agent Setup API
+  slug: open-onecli-agent-setup-api
+- collection_type: open
+  name: OneCLI Agent Setup Agents API
+  slug: open-onecli-agents-api
+- collection_type: open
+  name: OneCLI Agent Setup Approvals API
+  slug: open-onecli-approvals-api
+- collection_type: open
+  name: OneCLI Agent Setup Apps API
+  slug: open-onecli-apps-api
+- collection_type: open
+  name: OneCLI Agent Setup Connections API
+  slug: open-onecli-connections-api
+- collection_type: open
+  name: OneCLI Agent Setup Migration API
+  slug: open-onecli-migration-api
+- collection_type: open
+  name: OneCLI Agent Setup Organization App Config API
+  slug: open-onecli-organization-app-config-api
+- collection_type: open
+  name: OneCLI Agent Setup Organization Approvals API
+  slug: open-onecli-organization-approvals-api
+- collection_type: open
+  name: OneCLI Agent Setup Organization Connections API
+  slug: open-onecli-organization-connections-api
+- collection_type: open
+  name: OneCLI Agent Setup Organization Partner API
+  slug: open-onecli-organization-partner-api
+- collection_type: open
+  name: OneCLI Agent Setup Organization Rules API
+  slug: open-onecli-organization-rules-api
+- collection_type: open
+  name: OneCLI Agent Setup Organization Secrets API
+  slug: open-onecli-organization-secrets-api
+- collection_type: open
+  name: OneCLI Agent Setup Organization Settings API
+  slug: open-onecli-organization-settings-api
+- collection_type: open
+  name: OneCLI Agent Setup Partner Budgets API
+  slug: open-onecli-partner-budgets-api
+- collection_type: open
+  name: OneCLI Agent Setup Partner Members API
+  slug: open-onecli-partner-members-api
+- collection_type: open
+  name: OneCLI Agent Setup Partner Organizations API
+  slug: open-onecli-partner-organizations-api
+- collection_type: open
+  name: OneCLI Agent Setup Partner Projects API
+  slug: open-onecli-partner-projects-api
+- collection_type: open
+  name: OneCLI Agent Setup Partner Secrets API
+  slug: open-onecli-partner-secrets-api
+- collection_type: open
+  name: OneCLI Agent Setup Projects API
+  slug: open-onecli-projects-api
+- collection_type: open
+  name: OneCLI Agent Setup Rules API
+  slug: open-onecli-rules-api
+- collection_type: open
+  name: OneCLI Agent Setup Secrets API
+  slug: open-onecli-secrets-api
+- collection_type: open
+  name: OneCLI Agent Setup Team API
+  slug: open-onecli-team-api
+- collection_type: open
+  name: OneCLI Agent Setup User API
+  slug: open-onecli-user-api
+- collection_type: open
+  name: OneCLI Agent Setup Utility API
+  slug: open-onecli-utility-api
 common:
 - group: other
   title: ''
@@ -236,7 +312,7 @@ overview: 'Onecli publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Onecli''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 20 more developer resources.'
-random_paper: 34
+random_paper: 38
 score:
   band: developing
   composite: 49.2
@@ -260,7 +336,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/screenshots/onecli-2026-08-07T190306.png
 security:

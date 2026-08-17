@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Lightweight Directory Access Protocol for accessing and maintaining distributed directory information services over an IP network. The protocol defines bind, search, compare, add, delete, modify, and '
@@ -80,7 +80,7 @@ plans:
 - name: Ldap Plans Pricing
   plan_count: 3
   slug: ldap-plans-pricing
-random_paper: 57
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Ldap Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ldap/refs/heads/main/screenshots/ldap-2026-06-20T184344.png
 security:

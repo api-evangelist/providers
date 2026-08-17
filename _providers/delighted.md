@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: Manage unsubscribe lists
   name: Delighted Unsubscribes API
   slug: delighted-unsubscribes-api
-artifact_total: 20
+artifact_total: 27
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Delighted Autopilot API
+  slug: open-delighted-autopilot-api
+- collection_type: open
+  name: Delighted Autopilot Bounces API
+  slug: open-delighted-bounces-api
+- collection_type: open
+  name: Delighted Autopilot Metrics API
+  slug: open-delighted-metrics-api
+- collection_type: open
+  name: Delighted Autopilot People API
+  slug: open-delighted-people-api
+- collection_type: open
+  name: Delighted Autopilot Survey Responses API
+  slug: open-delighted-survey-responses-api
+- collection_type: open
+  name: Delighted Autopilot Unsubscribes API
+  slug: open-delighted-unsubscribes-api
 common:
 - group: agent
   title: ''
@@ -159,7 +181,7 @@ plans:
 - name: Delighted Plans Pricing
   plan_count: 6
   slug: delighted-plans-pricing
-random_paper: 98
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Delighted Rate Limits
@@ -193,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/screenshots/delighted-2026-06-20T175852.png
 security:

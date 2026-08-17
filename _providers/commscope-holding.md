@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -72,8 +72,35 @@ apis:
 - description: Physical sites that group networks and devices.
   name: CommScope Holding Venues API
   slug: commscope-holding-venues-api
-artifact_total: 22
+artifact_total: 31
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: RUCKUS One AccessPoints API
+  slug: open-commscope-holding-accesspoints-api
+- collection_type: open
+  name: RUCKUS One AccessPoints Activities API
+  slug: open-commscope-holding-activities-api
+- collection_type: open
+  name: RUCKUS One AccessPoints Authentication API
+  slug: open-commscope-holding-authentication-api
+- collection_type: open
+  name: RUCKUS One AccessPoints Clients API
+  slug: open-commscope-holding-clients-api
+- collection_type: open
+  name: RUCKUS One AccessPoints MSP API
+  slug: open-commscope-holding-msp-api
+- collection_type: open
+  name: RUCKUS One AccessPoints Networks API
+  slug: open-commscope-holding-networks-api
+- collection_type: open
+  name: RUCKUS One AccessPoints Switches API
+  slug: open-commscope-holding-switches-api
+- collection_type: open
+  name: RUCKUS One AccessPoints Venues API
+  slug: open-commscope-holding-venues-api
 - collection_type: open
   name: RUCKUS One API
   slug: open-ruckus-one-api
@@ -199,7 +226,7 @@ press:
 - date: '2025-11-14'
   title: RUCKUS Networks Unveils AI and Wi-Fi 7 Innovations to Elevate Resident Experience and help Optimize Costs for MDU Stakeholders
   url: https://www.commscope.com/press-release-archive/2025/ruckus-networks-unveils-ai-and-wi-fi-7-innovations-to-elevate-resident-experience-and-help-optimize-costs-for-mdu-stakeholders/
-random_paper: 72
+random_paper: 113
 rate_limits:
 - limit_count: 1
   name: Commscope Holding Rate Limits
@@ -241,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/screenshots/commscope-holding-2026-06-20T174823.png
 security:

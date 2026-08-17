@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -117,8 +117,32 @@ apis:
 - description: Manage security watchlists
   name: McAfee (Trellix) Watchlists API
   slug: mcafee-watchlists-api
-artifact_total: 81
+artifact_total: 106
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: McAfee ePO Alarms API
+  slug: open-mcafee-alarms-api
+- collection_type: open
+  name: McAfee ePO Alarms Authentication API
+  slug: open-mcafee-authentication-api
+- collection_type: open
+  name: McAfee ePO Alarms Cases API
+  slug: open-mcafee-cases-api
+- collection_type: open
+  name: McAfee ePO Alarms Core API
+  slug: open-mcafee-core-api
+- collection_type: open
+  name: McAfee ePO Alarms Data Sources API
+  slug: open-mcafee-data-sources-api
+- collection_type: open
+  name: McAfee ePO Alarms Detections API
+  slug: open-mcafee-detections-api
+- collection_type: open
+  name: McAfee ePO Alarms Devices API
+  slug: open-mcafee-devices-api
 - collection_type: open
   name: McAfee ePO API
   slug: open-mcafee-epo
@@ -126,8 +150,59 @@ collections:
   name: McAfee ESM API
   slug: open-mcafee-esm
 - collection_type: open
+  name: McAfee ePO Alarms Events API
+  slug: open-mcafee-events-api
+- collection_type: open
+  name: McAfee ePO Alarms File Operations API
+  slug: open-mcafee-file-operations-api
+- collection_type: open
+  name: McAfee ePO Alarms Investigations API
+  slug: open-mcafee-investigations-api
+- collection_type: open
+  name: McAfee ePO Alarms Lists API
+  slug: open-mcafee-lists-api
+- collection_type: open
+  name: McAfee ePO Alarms Monitoring API
+  slug: open-mcafee-monitoring-api
+- collection_type: open
   name: McAfee MVISION API
   slug: open-mcafee-mvision
+- collection_type: open
+  name: McAfee ePO Alarms Policies API
+  slug: open-mcafee-policies-api
+- collection_type: open
+  name: McAfee ePO Alarms Policy Configuration API
+  slug: open-mcafee-policy-configuration-api
+- collection_type: open
+  name: McAfee ePO Alarms Queries API
+  slug: open-mcafee-queries-api
+- collection_type: open
+  name: McAfee ePO Alarms Real-Time Search API
+  slug: open-mcafee-real-time-search-api
+- collection_type: open
+  name: McAfee ePO Alarms Rule Sets API
+  slug: open-mcafee-rule-sets-api
+- collection_type: open
+  name: McAfee ePO Alarms Software API
+  slug: open-mcafee-software-api
+- collection_type: open
+  name: McAfee ePO Alarms System Groups API
+  slug: open-mcafee-system-groups-api
+- collection_type: open
+  name: McAfee ePO Alarms Systems API
+  slug: open-mcafee-systems-api
+- collection_type: open
+  name: McAfee ePO Alarms Tasks API
+  slug: open-mcafee-tasks-api
+- collection_type: open
+  name: McAfee ePO Alarms Threat Events API
+  slug: open-mcafee-threat-events-api
+- collection_type: open
+  name: McAfee ePO Alarms Threats API
+  slug: open-mcafee-threats-api
+- collection_type: open
+  name: McAfee ePO Alarms Watchlists API
+  slug: open-mcafee-watchlists-api
 - collection_type: open
   name: McAfee Web Gateway API
   slug: open-mcafee-web-gateway
@@ -339,7 +414,7 @@ plans:
 - name: Mcafee Plans Pricing
   plan_count: 1
   slug: mcafee-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Mcafee Rate Limits
@@ -373,7 +448,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/screenshots/mcafee-2026-06-20T185056.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: Verifiable Credential issuer operations.
   name: Terminal 3 VC V1 API
   slug: terminal-3-vc-v1-api
-artifact_total: 13
+artifact_total: 21
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Terminal 3 DID V1 API
+  slug: open-terminal-3-did-v1-api
+- collection_type: open
+  name: Terminal 3 DID V1 OpenID Connect V1 API
+  slug: open-terminal-3-openid-connect-v1-api
+- collection_type: open
+  name: Terminal 3 DID V1 OpenID Connect V2 API
+  slug: open-terminal-3-openid-connect-v2-api
+- collection_type: open
+  name: Terminal 3 DID V1 Sub Client V1 API
+  slug: open-terminal-3-sub-client-v1-api
+- collection_type: open
+  name: Terminal 3 DID V1 Transactional Email Template V1 API
+  slug: open-terminal-3-transactional-email-template-v1-api
+- collection_type: open
+  name: Terminal 3 DID V1 User V1 API
+  slug: open-terminal-3-user-v1-api
+- collection_type: open
+  name: Terminal 3 DID V1 VC V1 API
+  slug: open-terminal-3-vc-v1-api
 common:
 - group: other
   title: ''
@@ -202,7 +227,7 @@ overview: 'Terminal 3 publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Terminal 3''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 116
+random_paper: 62
 score:
   band: thin
   composite: 41.5
@@ -226,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

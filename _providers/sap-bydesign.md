@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -72,7 +72,35 @@ apis:
 - description: Manage inbound and outbound deliveries, goods receipts, goods issues, and production orders.
   name: SAP Business ByDesign Supply Chain API
   slug: sap-bydesign-supply-chain-api
-artifact_total: 20
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP Business ByDesign OData Analytics API
+  slug: open-sap-bydesign-analytics-api
+- collection_type: open
+  name: SAP Business ByDesign OData Analytics CRM API
+  slug: open-sap-bydesign-crm-api
+- collection_type: open
+  name: SAP Business ByDesign OData Analytics Financials API
+  slug: open-sap-bydesign-financials-api
+- collection_type: open
+  name: SAP Business ByDesign OData Analytics Master Data API
+  slug: open-sap-bydesign-master-data-api
+- collection_type: open
+  name: SAP Business ByDesign OData Analytics Procurement API
+  slug: open-sap-bydesign-procurement-api
+- collection_type: open
+  name: SAP Business ByDesign OData Analytics Projects API
+  slug: open-sap-bydesign-projects-api
+- collection_type: open
+  name: SAP Business ByDesign OData Analytics Sales API
+  slug: open-sap-bydesign-sales-api
+- collection_type: open
+  name: SAP Business ByDesign OData Analytics Supply Chain API
+  slug: open-sap-bydesign-supply-chain-api
 common:
 - group: agent
   title: ''
@@ -166,7 +194,7 @@ plans:
 - name: Sap Bydesign Plans Pricing
   plan_count: 4
   slug: sap-bydesign-plans-pricing
-random_paper: 22
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Sap Bydesign Rate Limits
@@ -196,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/screenshots/sap-bydesign-2026-06-20T193421.png
 security:

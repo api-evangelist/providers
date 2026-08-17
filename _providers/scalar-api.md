@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,8 +63,17 @@ apis:
 - description: Public retrieval of published OpenAPI documents (confirmed public surface).
   name: Scalar Registry Read API
   slug: scalar-api-registry-read-api
-artifact_total: 14
+artifact_total: 17
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Scalar Registry (Public Read Surface) - Modeled Registry Management API
+  slug: open-scalar-api-registry-management-api
+- collection_type: open
+  name: Scalar Registry (Public Read Surface) - Modeled Registry Management Registry Read API
+  slug: open-scalar-api-registry-read-api
 - collection_type: open
   name: Scalar Registry (Public Read Surface) - Modeled
   slug: open-scalar-api
@@ -134,7 +143,7 @@ plans:
 - name: Scalar Api Plans Pricing
   plan_count: 5
   slug: scalar-api-plans-pricing
-random_paper: 29
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Scalar Api Rate Limits
@@ -159,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
 - description: Head to https://alpaca.markets/docs/api-documentation/api-v2/watchlist/ to view complete documentation on the Watchlist API.
   name: Alpaca Watchlists API
   slug: alpaca-watchlists-api
-artifact_total: 61
+artifact_total: 83
 asyncapis:
 - description: AsyncAPI 2.6 description of Alpaca's public WebSocket streaming APIs. Covers real-time stock market data (IEX / SIP / delayed SIP / BOATS), real-time crypto market data (US and Global), real-time news
   name: Alpaca WebSocket Streaming APIs
@@ -181,17 +181,83 @@ collections:
   name: Broker Account Activities Watchlists API
   slug: postman-alpaca-watchlists-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Broker Account Activities API
+  slug: open-alpaca-account-activities-api
+- collection_type: open
+  name: Broker Account Activities Account Configurations API
+  slug: open-alpaca-account-configurations-api
+- collection_type: open
+  name: Broker Account Activities Accounts API
+  slug: open-alpaca-accounts-api
+- collection_type: open
+  name: Broker Account Activities Assets API
+  slug: open-alpaca-assets-api
+- collection_type: open
   name: Broker API
   slug: open-alpaca-broker-api
+- collection_type: open
+  name: Broker Account Activities Calendar API
+  slug: open-alpaca-calendar-api
+- collection_type: open
+  name: Broker Account Activities Clock API
+  slug: open-alpaca-clock-api
+- collection_type: open
+  name: Broker Account Activities Corporate Actions API
+  slug: open-alpaca-corporate-actions-api
+- collection_type: open
+  name: Broker Account Activities Crypto Pricing Data API API
+  slug: open-alpaca-crypto-pricing-data-api-api
 - collection_type: open
   name: Market Data API
   slug: open-alpaca-data-api
 - collection_type: open
-  name: OAuth API
+  name: Broker Account Activities Documents API
+  slug: open-alpaca-documents-api
+- collection_type: open
+  name: Broker Account Activities Events API
+  slug: open-alpaca-events-api
+- collection_type: open
+  name: Broker Account Activities Funding API
+  slug: open-alpaca-funding-api
+- collection_type: open
+  name: Broker Account Activities Journals API
+  slug: open-alpaca-journals-api
+- collection_type: open
+  name: Broker Account Activities Logo API
+  slug: open-alpaca-logo-api
+- collection_type: open
+  name: Broker Account Activities News API
+  slug: open-alpaca-news-api
+- collection_type: open
+  name: Broker Account Activities OAuth API
   slug: open-alpaca-oauth-api
 - collection_type: open
-  name: Trader API
+  name: Broker Account Activities Orders API
+  slug: open-alpaca-orders-api
+- collection_type: open
+  name: Broker Account Activities Portfolio History API
+  slug: open-alpaca-portfolio-history-api
+- collection_type: open
+  name: Broker Account Activities Positions API
+  slug: open-alpaca-positions-api
+- collection_type: open
+  name: Broker Account Activities Screener API
+  slug: open-alpaca-screener-api
+- collection_type: open
+  name: Broker Account Activities Stock Pricing Data API API
+  slug: open-alpaca-stock-pricing-data-api-api
+- collection_type: open
+  name: Broker Account Activities Trading API
   slug: open-alpaca-trading-api
+- collection_type: open
+  name: Broker Account Activities Watchlist API
+  slug: open-alpaca-watchlist-api
+- collection_type: open
+  name: Broker Account Activities Watchlists API
+  slug: open-alpaca-watchlists-api
 common:
 - group: build
   title: ''
@@ -396,7 +462,7 @@ plans:
 - name: Alpaca Plans Pricing
   plan_count: 3
   slug: alpaca-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Alpaca Rate Limits
@@ -444,7 +510,7 @@ score:
     regime_id: securities_market_data
     score: 86.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png
 security:

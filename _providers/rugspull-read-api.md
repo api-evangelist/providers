@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,11 @@ apis:
 - description: Nine GET-only endpoints providing service health, chain config, indexer status, discovery cache, indexed events, event-derived market data, sparklines, and immutable metadata objects. Backed by a publ
   name: Rugspull Read API
   slug: rugspull-read-api
-artifact_total: 7
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Rugspull Read API
+  slug: open-rugspull-read-api
 common:
 - group: agent
   title: ''
@@ -165,7 +169,7 @@ plans:
 - name: Rugspull Read Api Plans Pricing
   plan_count: 0
   slug: rugspull-read-api-plans-pricing
-random_paper: 30
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Rugspull Read Api Rate Limits
@@ -183,7 +187,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

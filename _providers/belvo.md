@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,8 +69,41 @@ apis:
 - description: Asynchronous event notifications.
   name: Belvo Webhooks API
   slug: belvo-webhooks-api
-artifact_total: 18
+artifact_total: 29
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Belvo Accounts API
+  slug: open-belvo-accounts-api
+- collection_type: open
+  name: Belvo Accounts Balances API
+  slug: open-belvo-balances-api
+- collection_type: open
+  name: Belvo Accounts Incomes API
+  slug: open-belvo-incomes-api
+- collection_type: open
+  name: Belvo Accounts Institutions API
+  slug: open-belvo-institutions-api
+- collection_type: open
+  name: Belvo Accounts Links API
+  slug: open-belvo-links-api
+- collection_type: open
+  name: Belvo Accounts Owners API
+  slug: open-belvo-owners-api
+- collection_type: open
+  name: Belvo Accounts Payments (Brazil) API
+  slug: open-belvo-payments-brazil-api
+- collection_type: open
+  name: Belvo Accounts Recurring Expenses API
+  slug: open-belvo-recurring-expenses-api
+- collection_type: open
+  name: Belvo Accounts Transactions API
+  slug: open-belvo-transactions-api
+- collection_type: open
+  name: Belvo Accounts Webhooks API
+  slug: open-belvo-webhooks-api
 - collection_type: open
   name: Belvo API
   slug: open-belvo
@@ -143,7 +176,7 @@ plans:
 - name: Belvo Plans Pricing
   plan_count: 3
   slug: belvo-plans-pricing
-random_paper: 56
+random_paper: 89
 rate_limits:
 - limit_count: 3
   name: Belvo Rate Limits
@@ -174,7 +207,7 @@ score:
     regime_id: banking_open_finance
     score: 22.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/screenshots/belvo-2026-07-25T202719.png
 security:

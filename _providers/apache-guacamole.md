@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,11 +60,32 @@ apis:
 - description: User account management
   name: Apache Guacamole Users API
   slug: apache-guacamole-users-api
-artifact_total: 57
+artifact_total: 64
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache Guacamole REST Active Connections API
+  slug: open-apache-guacamole-active-connections-api
+- collection_type: open
+  name: Apache Guacamole REST Active Connections Authentication API
+  slug: open-apache-guacamole-authentication-api
+- collection_type: open
+  name: Apache Guacamole REST Active Connections API
+  slug: open-apache-guacamole-connections-api
+- collection_type: open
+  name: Apache Guacamole REST Active Connections History API
+  slug: open-apache-guacamole-history-api
 - collection_type: open
   name: Apache Guacamole REST API
   slug: open-apache-guacamole-rest
+- collection_type: open
+  name: Apache Guacamole REST Active Connections User Groups API
+  slug: open-apache-guacamole-user-groups-api
+- collection_type: open
+  name: Apache Guacamole REST Active Connections Users API
+  slug: open-apache-guacamole-users-api
 common:
 - group: build
   title: ''
@@ -240,7 +261,7 @@ plans:
 - name: Apache Guacamole Plans Pricing
   plan_count: 3
   slug: apache-guacamole-plans-pricing
-random_paper: 37
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Apache Guacamole Rate Limits
@@ -282,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/screenshots/apache-guacamole-2026-06-20T172106.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -46,11 +46,30 @@ apis:
 - description: Manage the platform configuration for an Azupay integration. Create, replace, and disable sub-clients; provision, retrieve, and update API keys for sub merchants; enable and read OAuth 2.0 configurati
   name: Azupay Clients & API Key Management API
   slug: azupay-configuration-api
-artifact_total: 12
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Azupay Webhooks
   slug: azupay-webhooks
+collections:
+- collection_type: open
+  name: Azupay Check Accounts API
+  slug: open-azupay-check-accounts
+- collection_type: open
+  name: Azupay Configuration API
+  slug: open-azupay-configuration
+- collection_type: open
+  name: Azupay Payment Agreement API
+  slug: open-azupay-payment-agreement
+- collection_type: open
+  name: Azupay Payment Request API
+  slug: open-azupay-payment-request
+- collection_type: open
+  name: Azupay Payment API
+  slug: open-azupay-payment
+- collection_type: open
+  name: Azupay Reports & Balance API
+  slug: open-azupay-reports
 common:
 - group: auth
   title: ''
@@ -204,7 +223,7 @@ overview: 'Azupay publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 26 more developer resources.'
-random_paper: 66
+random_paper: 70
 scopes:
 - name: Azupay Scopes
   scope_count: 1
@@ -239,7 +258,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png
 security:

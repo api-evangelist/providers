@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,20 @@ apis:
 - description: Normalized House and Senate securities transactions.
   name: Bargo Congress Trades API Trades API
   slug: bargo-congress-trades-api-trades-api
-artifact_total: 13
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bargo Congress Trades Members API
+  slug: open-bargo-congress-trades-api-members-api
+- collection_type: open
+  name: Bargo Congress Trades Statistics API
+  slug: open-bargo-congress-trades-api-statistics-api
+- collection_type: open
+  name: Bargo Congress Trades API
+  slug: open-bargo-congress-trades-api-trades-api
 common:
 - group: auth
   title: ''
@@ -189,7 +202,7 @@ overview: 'Bargo Congress Trades API publishes 3 APIs on the [APIs.io](https://a
 
 
   Bargo Congress Trades API''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 83
+random_paper: 99
 rate_limits:
 - limit_count: 6
   name: Bargo Congress Trades Api Rate Limits
@@ -223,7 +236,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,8 +54,23 @@ apis:
 - description: Trade data submission and retrieval
   name: Trioptima Trades API
   slug: trioptima-trades-api
-artifact_total: 50
+artifact_total: 55
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Trioptima triReduce Cycles API
+  slug: open-trioptima-cycles-api
+- collection_type: open
+  name: Trioptima triReduce Cycles Results API
+  slug: open-trioptima-results-api
+- collection_type: open
+  name: Trioptima triReduce Cycles Risk API
+  slug: open-trioptima-risk-api
+- collection_type: open
+  name: Trioptima triReduce Cycles Trades API
+  slug: open-trioptima-trades-api
 - collection_type: open
   name: Trioptima triReduce API
   slug: open-trioptima-trireduce-api
@@ -201,7 +216,7 @@ plans:
 - name: Trioptima Plans Pricing
   plan_count: 3
   slug: trioptima-plans-pricing
-random_paper: 25
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Trioptima Rate Limits
@@ -254,7 +269,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/screenshots/trioptima-2026-06-20T195722.png
 security:

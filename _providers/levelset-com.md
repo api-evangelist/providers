@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -152,7 +152,7 @@ overview: 'Levelset is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Levelset''s developer surface includes pricing, engineering blog, product news, support, GitHub presence, YouTube channel, and 21 more developer resources.'
-random_paper: 32
+random_paper: 40
 score:
   band: minimal
   composite: 11.4
@@ -172,7 +172,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelset-com/refs/heads/main/screenshots/levelset-com-2026-06-20T184436.png
 security:

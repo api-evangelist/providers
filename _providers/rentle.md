@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -71,11 +71,48 @@ apis:
 - description: 'This section describes API endpoints you can use to configure webhooks. Check the [webhook events section](#tag/WebhooksOverview) for more inforation regarding the webhooks events that Twice delivers '
   name: Rentle Webhooks API
   slug: rentle-webhooks-api
-artifact_total: 16
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Rentle Webhooks
   slug: rentle-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Twice Admin API Keys API
+  slug: open-rentle-api-keys-api
+- collection_type: open
+  name: Twice Admin API Keys Categories API
+  slug: open-rentle-categories-api
+- collection_type: open
+  name: Twice Admin API Keys Customers API
+  slug: open-rentle-customers-api
+- collection_type: open
+  name: Twice Admin API Keys Discount Codes API
+  slug: open-rentle-discount-codes-api
+- collection_type: open
+  name: Twice Admin API Keys Inventory Articles API
+  slug: open-rentle-inventory-articles-api
+- collection_type: open
+  name: Twice Admin API Keys Inventory SKUs API
+  slug: open-rentle-inventory-skus-api
+- collection_type: open
+  name: Twice Admin API Keys Merchant API
+  slug: open-rentle-merchant-api
+- collection_type: open
+  name: Twice Admin API Keys Orders API
+  slug: open-rentle-orders-api
+- collection_type: open
+  name: Twice Admin API Keys Products API
+  slug: open-rentle-products-api
+- collection_type: open
+  name: Twice Admin API Keys Stores API
+  slug: open-rentle-stores-api
+- collection_type: open
+  name: Twice Admin API Keys Webhooks API
+  slug: open-rentle-webhooks-api
 common:
 - group: agent
   title: ''
@@ -184,7 +221,7 @@ overview: 'Rentle publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rentle''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
-random_paper: 50
+random_paper: 54
 score:
   band: developing
   composite: 45.4
@@ -208,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

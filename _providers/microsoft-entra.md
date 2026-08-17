@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -133,14 +133,29 @@ arazzos:
 - description: Add a fresh client secret to an app, then remove the old one.
   name: Microsoft Entra Rotate Application Secret
   slug: microsoft-entra-rotate-application-secret-workflow
-artifact_total: 163
+artifact_total: 168
 collections:
 - collection_type: postman
   name: Microsoft Entra Microsoft Graph Identity API
   slug: postman-microsoft-entra-graph-identity
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Microsoft Entra Microsoft Graph Identity Applications API
+  slug: open-microsoft-entra-applications-api
+- collection_type: open
   name: Microsoft Entra Microsoft Graph Identity API
   slug: open-microsoft-entra-graph-identity
+- collection_type: open
+  name: Microsoft Entra Microsoft Graph Identity Applications Groups API
+  slug: open-microsoft-entra-groups-api
+- collection_type: open
+  name: Microsoft Entra Microsoft Graph Identity Applications ServicePrincipals API
+  slug: open-microsoft-entra-serviceprincipals-api
+- collection_type: open
+  name: Microsoft Entra Microsoft Graph Identity Applications Users API
+  slug: open-microsoft-entra-users-api
 common:
 - group: agent
   title: ''
@@ -642,7 +657,7 @@ plans:
 - name: Microsoft Entra Plans Pricing
   plan_count: 10
   slug: microsoft-entra-plans-pricing
-random_paper: 5
+random_paper: 75
 rate_limits:
 - limit_count: 9
   name: Microsoft Entra Rate Limits
@@ -689,7 +704,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/screenshots/microsoft-entra-2026-06-20T185457.png
 security:

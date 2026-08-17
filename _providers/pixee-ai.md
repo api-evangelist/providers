@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The Findings API from Pixee — 2 operation(s) for findings.
@@ -46,11 +46,30 @@ apis:
 - description: The Webhooks API from Pixee — 2 operation(s) for webhooks.
   name: Pixee Webhooks API
   slug: pixee-ai-webhooks-api
-artifact_total: 20
+artifact_total: 26
 asyncapis:
 - description: Pixee webhooks deliver real-time HTTP POST notifications when remediation events occur. This AsyncAPI document is a faithful reconstruction of the event types and payload schemas documented at https:/
   name: Pixee Webhooks
   slug: pixee-ai-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pixee REST Findings API
+  slug: open-pixee-ai-findings-api
+- collection_type: open
+  name: Pixee REST Findings Fixes API
+  slug: open-pixee-ai-fixes-api
+- collection_type: open
+  name: Pixee REST Findings Repositories API
+  slug: open-pixee-ai-repositories-api
+- collection_type: open
+  name: Pixee REST Findings Scans API
+  slug: open-pixee-ai-scans-api
+- collection_type: open
+  name: Pixee REST Findings Webhooks API
+  slug: open-pixee-ai-webhooks-api
 common:
 - group: agent
   title: ''
@@ -163,7 +182,7 @@ overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Pixee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 16 more developer resources.'
-random_paper: 66
+random_paper: 41
 score:
   band: developing
   composite: 52.9
@@ -186,7 +205,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

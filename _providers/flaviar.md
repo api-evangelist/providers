@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Flaviar''s Shopify storefront exposes an agent-driven commerce surface built on the Universal Commerce Protocol (ucp.dev): a discovery document at /.well-known/ucp and a hosted MCP endpoint for catalog'
@@ -120,7 +120,7 @@ overview: 'Flaviar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Flaviar''s developer surface includes documentation, signup flow, pricing, authentication, and 13 more developer resources.'
-random_paper: 21
+random_paper: 145
 scopes:
 - name: Flaviar Scopes
   scope_count: 4
@@ -142,7 +142,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flaviar/refs/heads/main/screenshots/flaviar-2026-08-07T165347.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The GrabCAD Print API lets partner and enterprise software drive Stratasys 3D printers and GrabCAD Print workflows programmatically — submitting and managing print jobs, retrieving printer and job sta
@@ -124,7 +124,7 @@ overview: 'GrabCAD publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   GrabCAD''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 108
+random_paper: 112
 score:
   band: emerging
   composite: 24.7
@@ -138,7 +138,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 24.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grabcad/refs/heads/main/screenshots/grabcad-2026-07-25T220149.png
 security:

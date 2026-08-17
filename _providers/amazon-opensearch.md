@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -54,7 +54,7 @@ apis:
 - description: The Tags Removal API from Amazon OpenSearch Service API — 1 operation(s) for tags removal.
   name: Amazon OpenSearch Service API Tags Removal API
   slug: amazon-opensearch-tags-removal-api
-artifact_total: 980
+artifact_total: 986
 collections:
 - collection_type: postman
   name: Amazon Elasticsearch Service Domain API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Amazon Elasticsearch Service Domain Tags Removal API
   slug: postman-amazon-opensearch-tags-removal-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Elasticsearch Service Domain API
+  slug: open-amazon-opensearch-domain-api
+- collection_type: open
+  name: Amazon Elasticsearch Service Domain Es API
+  slug: open-amazon-opensearch-es-api
+- collection_type: open
+  name: Amazon Elasticsearch Service Domain Packages API
+  slug: open-amazon-opensearch-packages-api
+- collection_type: open
+  name: Amazon Elasticsearch Service Domain Tags API
+  slug: open-amazon-opensearch-tags-api
+- collection_type: open
+  name: Amazon Elasticsearch Service Domain Tags Removal API
+  slug: open-amazon-opensearch-tags-removal-api
 - collection_type: open
   name: Amazon Elasticsearch Service
   slug: open-amazon-opensearch
@@ -3084,7 +3102,7 @@ plans:
 - name: Amazon Opensearch Plans Pricing
   plan_count: 3
   slug: amazon-opensearch-plans-pricing
-random_paper: 75
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Amazon Opensearch Rate Limits
@@ -3126,7 +3144,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/screenshots/amazon-opensearch-2026-06-20T171751.png
 security:

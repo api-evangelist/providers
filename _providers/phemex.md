@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -66,7 +66,38 @@ apis:
 - description: The Wallets API from Phemex — 8 operation(s) for wallets.
   name: Phemex Wallets API
   slug: phemex-wallets-api
-artifact_total: 25
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Phemex Contract Trading Account API
+  slug: open-phemex-account-api
+- collection_type: open
+  name: Phemex Contract Trading Account Conversion API
+  slug: open-phemex-conversion-api
+- collection_type: open
+  name: Phemex Contract Trading Account Market Data API
+  slug: open-phemex-market-data-api
+- collection_type: open
+  name: Phemex Contract Trading Account Orders API
+  slug: open-phemex-orders-api
+- collection_type: open
+  name: Phemex Contract Trading Account Positions API
+  slug: open-phemex-positions-api
+- collection_type: open
+  name: Phemex Contract Trading Account Sub-Account Transfers API
+  slug: open-phemex-sub-account-transfers-api
+- collection_type: open
+  name: Phemex Contract Trading Account Trades API
+  slug: open-phemex-trades-api
+- collection_type: open
+  name: Phemex Contract Trading Account Transfers API
+  slug: open-phemex-transfers-api
+- collection_type: open
+  name: Phemex Contract Trading Account Wallets API
+  slug: open-phemex-wallets-api
 common:
 - group: agent
   title: ''
@@ -178,7 +209,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Contract
@@ -230,7 +261,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/screenshots/phemex-2026-06-20T191642.png
 security:

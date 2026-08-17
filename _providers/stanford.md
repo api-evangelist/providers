@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: IIIF Presentation (v2 stable, v3 alpha) and Image v2 APIs for digital image interoperability across the Stanford Digital Repository. Presentation manifests served from purl.stanford.edu; image tiles f
@@ -136,7 +136,7 @@ plans:
 - name: Stanford Plans Pricing
   plan_count: 2
   slug: stanford-plans-pricing
-random_paper: 25
+random_paper: 120
 rate_limits:
 - limit_count: 1
   name: Stanford Rate Limits
@@ -154,7 +154,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/screenshots/stanford-2026-06-20T194502.png
 security:

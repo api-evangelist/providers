@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: The SoftwareOne Marketplace Platform API provides programmatic access to the marketplace catalog, enabling clients and partners to browse products, manage subscriptions, track orders, and access billi
@@ -55,7 +55,26 @@ apis:
 - description: Catalog product lifecycle management
   name: SoftwareOne Products API
   slug: softwareone-products-api
-artifact_total: 19
+artifact_total: 25
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SoftwareOne Marketplace Platform Items API
+  slug: open-softwareone-items-api
+- collection_type: open
+  name: SoftwareOne Marketplace Platform Listings API
+  slug: open-softwareone-listings-api
+- collection_type: open
+  name: SoftwareOne Marketplace Platform Media API
+  slug: open-softwareone-media-api
+- collection_type: open
+  name: SoftwareOne Marketplace Platform Parameters API
+  slug: open-softwareone-parameters-api
+- collection_type: open
+  name: SoftwareOne Marketplace Platform Products API
+  slug: open-softwareone-products-api
 common:
 - group: auth
   title: ''
@@ -143,7 +162,7 @@ plans:
 - name: Softwareone Plans Pricing
   plan_count: 3
   slug: softwareone-plans-pricing
-random_paper: 117
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Softwareone Rate Limits
@@ -176,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/screenshots/softwareone-2026-06-20T194144.png
 security:

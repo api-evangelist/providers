@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: Submit, monitor, and retrieve document OCR jobs.
   name: Mathpix Documents API
   slug: mathpix-documents-api
-artifact_total: 35
+artifact_total: 41
 collections:
 - collection_type: postman
   name: Mathpix App Tokens API
@@ -81,23 +81,41 @@ collections:
   name: Mathpix App Tokens Usage API
   slug: postman-mathpix-usage-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Mathpix App Tokens API
   slug: open-mathpix-app-tokens-api
 - collection_type: open
   name: Mathpix Batch API
   slug: open-mathpix-batch-api
 - collection_type: open
+  name: Mathpix App Tokens Batches API
+  slug: open-mathpix-batches-api
+- collection_type: open
+  name: Mathpix App Tokens Conversions API
+  slug: open-mathpix-conversions-api
+- collection_type: open
   name: Mathpix Convert API
   slug: open-mathpix-convert-api
+- collection_type: open
+  name: Mathpix Document OCR Documents API
+  slug: open-mathpix-documents-api
 - collection_type: open
   name: Mathpix Image OCR API
   slug: open-mathpix-image-ocr-api
 - collection_type: open
+  name: Mathpix App Tokens Images API
+  slug: open-mathpix-images-api
+- collection_type: open
   name: Mathpix OCR Usage API
   slug: open-mathpix-ocr-usage-api
 - collection_type: open
-  name: Mathpix Strokes API
+  name: Mathpix App Tokens Strokes API
   slug: open-mathpix-strokes-api
+- collection_type: open
+  name: Mathpix App Tokens Usage API
+  slug: open-mathpix-usage-api
 common:
 - group: build
   title: ''
@@ -289,7 +307,7 @@ plans:
 - name: Mathpix Plans Pricing
   plan_count: 4
   slug: mathpix-plans-pricing
-random_paper: 43
+random_paper: 18
 rate_limits:
 - limit_count: 7
   name: Mathpix Rate Limits
@@ -331,7 +349,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/screenshots/mathpix-2026-06-20T185033.png
 security:

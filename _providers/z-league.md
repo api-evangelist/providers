@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ arazzos:
 - description: 'Poll the MEGA CRM for leads with stable keyset cursor pagination: fetch the first page sorted by updated_at ascending, then follow next_cursor to fetch the next page.'
   name: MEGA CRM — incremental lead sync
   slug: z-league-incremental-lead-sync
-artifact_total: 11
+artifact_total: 14
 asyncapis:
 - description: Outbound webhook event surface for the MEGA public CRM Lead API. MEGA POSTs a signed `lead.created` event to a subscriber-registered public HTTPS endpoint whenever a genuine new lead is created. Deliv
   name: MEGA Public CRM Lead Webhooks
@@ -59,6 +59,16 @@ asyncapis:
 - description: ''
   name: Z League Lead Webhooks
   slug: z-league-lead-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: MEGA Public CRM Lead Leads API
+  slug: open-z-league-leads-api
+- collection_type: open
+  name: MEGA Public CRM Lead Leads Webhooks API
+  slug: open-z-league-webhooks-api
 common:
 - group: agent
   title: ''
@@ -171,7 +181,7 @@ overview: 'Z League publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Z League''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 74
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Z League Rate Limits
@@ -199,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

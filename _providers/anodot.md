@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -65,8 +65,35 @@ apis:
 - description: The Users API from Anodot — 1 operation(s) for users.
   name: Anodot Users API
   slug: anodot-users-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Anodot Business Monitoring Access Token API
+  slug: open-anodot-access-token-api
+- collection_type: open
+  name: Anodot Business Monitoring Access Token Alert Actions API
+  slug: open-anodot-alert-actions-api
+- collection_type: open
+  name: Anodot Business Monitoring Access Token Alerts API
+  slug: open-anodot-alerts-api
+- collection_type: open
+  name: Anodot Business Monitoring Access Token Anomalies API
+  slug: open-anodot-anomalies-api
+- collection_type: open
+  name: Anodot Business Monitoring Access Token Customers API
+  slug: open-anodot-customers-api
+- collection_type: open
+  name: Anodot Business Monitoring Access Token Forecast API
+  slug: open-anodot-forecast-api
+- collection_type: open
+  name: Anodot Business Monitoring Access Token Groups API
+  slug: open-anodot-groups-api
+- collection_type: open
+  name: Anodot Business Monitoring Access Token Users API
+  slug: open-anodot-users-api
 - collection_type: open
   name: Anodot Business Monitoring API
   slug: open-anodot
@@ -135,7 +162,7 @@ plans:
 - name: Anodot Plans Pricing
   plan_count: 3
   slug: anodot-plans-pricing
-random_paper: 45
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Anodot Rate Limits
@@ -160,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/screenshots/anodot-2026-06-20T172012.png
 security:

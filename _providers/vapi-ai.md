@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -110,7 +110,7 @@ arazzos:
 - description: Build a two-assistant squad, place an outbound call to it, and poll until the call ends.
   name: Vapi Squad Outbound Call
   slug: vapi-ai-squad-outbound-call-workflow
-artifact_total: 121
+artifact_total: 137
 asyncapis:
 - description: 'AsyncAPI description of Vapi''s realtime surfaces: 1. The WebSocket Transport (`wss://api.vapi.ai/{callId}/transport`) used to stream binary audio and JSON control messages to and from an active call. '
   name: Vapi Realtime API (WebSocket Transport + Server URL Events)
@@ -161,6 +161,54 @@ collections:
 - collection_type: postman
   name: Vapi Tools API
   slug: postman-vapi-tools-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vapi Analytics API
+  slug: open-vapi-ai-analytics-api
+- collection_type: open
+  name: Vapi Analytics Assistants API
+  slug: open-vapi-ai-assistants-api
+- collection_type: open
+  name: Vapi Analytics Calls API
+  slug: open-vapi-ai-calls-api
+- collection_type: open
+  name: Vapi Analytics Campaigns API
+  slug: open-vapi-ai-campaigns-api
+- collection_type: open
+  name: Vapi Analytics Chats API
+  slug: open-vapi-ai-chats-api
+- collection_type: open
+  name: Vapi Analytics Eval API
+  slug: open-vapi-ai-eval-api
+- collection_type: open
+  name: Vapi Analytics Files API
+  slug: open-vapi-ai-files-api
+- collection_type: open
+  name: Vapi Analytics Insight API
+  slug: open-vapi-ai-insight-api
+- collection_type: open
+  name: Vapi Analytics Observability/Scorecard API
+  slug: open-vapi-ai-observability-scorecard-api
+- collection_type: open
+  name: Vapi Analytics Phone Numbers API
+  slug: open-vapi-ai-phone-numbers-api
+- collection_type: open
+  name: Vapi Analytics Provider Resources API
+  slug: open-vapi-ai-provider-resources-api
+- collection_type: open
+  name: Vapi Analytics Sessions API
+  slug: open-vapi-ai-sessions-api
+- collection_type: open
+  name: Vapi Analytics Squads API
+  slug: open-vapi-ai-squads-api
+- collection_type: open
+  name: Vapi Analytics Structured Outputs API
+  slug: open-vapi-ai-structured-outputs-api
+- collection_type: open
+  name: Vapi Analytics Tools API
+  slug: open-vapi-ai-tools-api
 - collection_type: open
   name: Vapi Analytics API
   slug: open-vapi-analytics-api
@@ -636,7 +684,7 @@ plans:
 - name: Vapi Ai Plans Pricing
   plan_count: 4
   slug: vapi-ai-plans-pricing
-random_paper: 79
+random_paper: 83
 rate_limits:
 - limit_count: 4
   name: Vapi Ai Rate Limits
@@ -688,7 +736,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,11 +60,29 @@ apis:
 - description: Domestic and international wire transfer operations
   name: FIS Global Wire Transfers API
   slug: fis-wire-transfers-api
-artifact_total: 18
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FIS Payments Accounts API
+  slug: open-fis-accounts-api
+- collection_type: open
+  name: FIS Payments Accounts ACH API
+  slug: open-fis-ach-api
+- collection_type: open
+  name: FIS Accounts Payments API
+  slug: open-fis-payments-api
 - collection_type: open
   name: FIS Payments API
   slug: open-fis-payments
+- collection_type: open
+  name: FIS Payments Accounts Transactions API
+  slug: open-fis-transactions-api
+- collection_type: open
+  name: FIS Payments Accounts Wire Transfers API
+  slug: open-fis-wire-transfers-api
 common:
 - group: agent
   title: ''
@@ -121,7 +139,7 @@ plans:
 - name: Fis Plans Pricing
   plan_count: 3
   slug: fis-plans-pricing
-random_paper: 82
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Fis Rate Limits
@@ -166,7 +184,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/screenshots/fis-2026-06-20T181251.png
 security:

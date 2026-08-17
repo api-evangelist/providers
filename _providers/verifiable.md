@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -138,11 +138,114 @@ apis:
 - description: The WorkOsWebhook API from Verifiable — 1 operation(s) for workoswebhook.
   name: Verifiable WorkOsWebhook API
   slug: verifiable-workoswebhook-api
-artifact_total: 39
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Verifiable Webhooks
   slug: verifiable-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Verifiable API Documentation Alerts API
+  slug: open-verifiable-alerts-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Audit API
+  slug: open-verifiable-audit-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Authentication API
+  slug: open-verifiable-authentication-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts BoardCertifications API
+  slug: open-verifiable-boardcertifications-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts CognitoFormsWebhook API
+  slug: open-verifiable-cognitoformswebhook-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts CreateOAuthCredentialsClientSecret API
+  slug: open-verifiable-createoauthcredentialsclientsecret-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts CredentialingRequests API
+  slug: open-verifiable-credentialingrequests-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Datasets API
+  slug: open-verifiable-datasets-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts DEA API
+  slug: open-verifiable-dea-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Definitions API
+  slug: open-verifiable-definitions-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts DeleteOAuthCredentialsClientSecret API
+  slug: open-verifiable-deleteoauthcredentialsclientsecret-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Facilities API
+  slug: open-verifiable-facilities-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts FacilitiesInfo API
+  slug: open-verifiable-facilitiesinfo-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts FacilitiesSpecialties API
+  slug: open-verifiable-facilitiesspecialties-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Files API
+  slug: open-verifiable-files-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Groups API
+  slug: open-verifiable-groups-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Integrations API
+  slug: open-verifiable-integrations-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Licenses API
+  slug: open-verifiable-licenses-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts ListOAuthCredentials API
+  slug: open-verifiable-listoauthcredentials-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Monitoring API
+  slug: open-verifiable-monitoring-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Notes API
+  slug: open-verifiable-notes-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts PayerPlans API
+  slug: open-verifiable-payerplans-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Payers API
+  slug: open-verifiable-payers-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts ProviderEnrollments API
+  slug: open-verifiable-providerenrollments-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts ProviderProfiles API
+  slug: open-verifiable-providerprofiles-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Providers API
+  slug: open-verifiable-providers-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts ProvidersInfo API
+  slug: open-verifiable-providersinfo-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Reports API
+  slug: open-verifiable-reports-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts SsoAdminPortal API
+  slug: open-verifiable-ssoadminportal-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts SsoAuth API
+  slug: open-verifiable-ssoauth-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Users API
+  slug: open-verifiable-users-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts Webhooks API
+  slug: open-verifiable-webhooks-api
+- collection_type: open
+  name: Verifiable API Documentation Alerts WorkOsWebhook API
+  slug: open-verifiable-workoswebhook-api
 common:
 - group: company
   title: ''
@@ -283,7 +386,7 @@ overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Verifiable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 89
+random_paper: 6
 score:
   band: developing
   composite: 51.1
@@ -313,7 +416,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

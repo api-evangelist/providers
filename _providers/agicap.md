@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 2
@@ -195,7 +195,7 @@ apis:
 - description: The webhooks API from Agicap — 5 operation(s) for webhooks.
   name: Agicap webhooks API
   slug: agicap-webhooks-api
-artifact_total: 112
+artifact_total: 165
 asyncapis:
 - description: ''
   name: Agicap Events Webhooks
@@ -357,6 +357,165 @@ collections:
 - collection_type: postman
   name: Clients AR Account reports webhooks API
   slug: postman-agicap-webhooks-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Clients AR Account reports API
+  slug: open-agicap-account-reports-api
+- collection_type: open
+  name: Clients AR Account reports Accrued interests API
+  slug: open-agicap-accrued-interests-api
+- collection_type: open
+  name: Clients AR Account reports Analytical Plan API
+  slug: open-agicap-analytical-plan-api
+- collection_type: open
+  name: Clients AR Account reports Anything API
+  slug: open-agicap-anything-api
+- collection_type: open
+  name: Clients AR Account reports Authentication API
+  slug: open-agicap-authentication-api
+- collection_type: open
+  name: Clients AR Account reports Bank accounts API
+  slug: open-agicap-bank-accounts-api
+- collection_type: open
+  name: Clients AR Account reports Bank files API
+  slug: open-agicap-bank-files-api
+- collection_type: open
+  name: Clients AR Account reports Beta API
+  slug: open-agicap-beta-api
+- collection_type: open
+  name: Clients AR Account reports Card expenses bank journal API
+  slug: open-agicap-card-expenses-bank-journal-api
+- collection_type: open
+  name: Clients AR Account reports Causales API
+  slug: open-agicap-causales-api
+- collection_type: open
+  name: Clients AR Account reports Client addresses API
+  slug: open-agicap-client-addresses-api
+- collection_type: open
+  name: Clients AR Account reports Client Credit Notes API
+  slug: open-agicap-client-credit-notes-api
+- collection_type: open
+  name: Clients AR Account reports Client Invoices API
+  slug: open-agicap-client-invoices-api
+- collection_type: open
+  name: Clients AR Account reports Client Quotes API
+  slug: open-agicap-client-quotes-api
+- collection_type: open
+  name: AR Account reports Clients API
+  slug: open-agicap-clients-api
+- collection_type: open
+  name: Clients AR Account reports Connections API
+  slug: open-agicap-connections-api
+- collection_type: open
+  name: Clients AR Account reports Cookies API
+  slug: open-agicap-cookies-api
+- collection_type: open
+  name: Clients AR Account reports Credit limit API
+  slug: open-agicap-credit-limit-api
+- collection_type: open
+  name: Clients AR Account reports Delivery Notes API
+  slug: open-agicap-delivery-notes-api
+- collection_type: open
+  name: Clients AR Account reports Dynamic data API
+  slug: open-agicap-dynamic-data-api
+- collection_type: open
+  name: Clients AR Account reports E-Reporting API
+  slug: open-agicap-e-reporting-api
+- collection_type: open
+  name: Clients AR Account reports Entities API
+  slug: open-agicap-entities-api
+- collection_type: open
+  name: Clients AR Account reports Export API
+  slug: open-agicap-export-api
+- collection_type: open
+  name: Clients AR Account reports External contacts API
+  slug: open-agicap-external-contacts-api
+- collection_type: open
+  name: Clients AR Account reports Financial investments API
+  slug: open-agicap-financial-investments-api
+- collection_type: open
+  name: Clients AR Account reports Financings API
+  slug: open-agicap-financings-api
+- collection_type: open
+  name: Clients AR Account reports HTTP Methods API
+  slug: open-agicap-http-methods-api
+- collection_type: open
+  name: Clients AR Account reports Images API
+  slug: open-agicap-images-api
+- collection_type: open
+  name: Clients AR Account reports Import and delete API
+  slug: open-agicap-import-and-delete-api
+- collection_type: open
+  name: Clients AR Account reports Inbox API
+  slug: open-agicap-inbox-api
+- collection_type: open
+  name: Clients AR Account reports Interests statements API
+  slug: open-agicap-interests-statements-api
+- collection_type: open
+  name: Clients AR Account reports Internal contacts API
+  slug: open-agicap-internal-contacts-api
+- collection_type: open
+  name: Clients AR Account reports Invested cash API
+  slug: open-agicap-invested-cash-api
+- collection_type: open
+  name: Clients AR Account reports Invoice Flows API
+  slug: open-agicap-invoice-flows-api
+- collection_type: open
+  name: Clients AR Account reports Invoices API
+  slug: open-agicap-invoices-api
+- collection_type: open
+  name: Clients AR Account reports Manage beneficiaries API
+  slug: open-agicap-manage-beneficiaries-api
+- collection_type: open
+  name: Clients AR Account reports Proforma Invoices API
+  slug: open-agicap-proforma-invoices-api
+- collection_type: open
+  name: Clients AR Account reports Purchase journal API
+  slug: open-agicap-purchase-journal-api
+- collection_type: open
+  name: Clients AR Account reports Purchase Orders API
+  slug: open-agicap-purchase-orders-api
+- collection_type: open
+  name: Clients AR Account reports Redirects API
+  slug: open-agicap-redirects-api
+- collection_type: open
+  name: Clients AR Account reports Request inspection API
+  slug: open-agicap-request-inspection-api
+- collection_type: open
+  name: Clients AR Account reports Response formats API
+  slug: open-agicap-response-formats-api
+- collection_type: open
+  name: Clients AR Account reports Response inspection API
+  slug: open-agicap-response-inspection-api
+- collection_type: open
+  name: Clients AR Account reports Route payment files API
+  slug: open-agicap-route-payment-files-api
+- collection_type: open
+  name: Clients AR Account reports Sales Orders API
+  slug: open-agicap-sales-orders-api
+- collection_type: open
+  name: Clients AR Account reports Statements API
+  slug: open-agicap-statements-api
+- collection_type: open
+  name: Clients AR Account reports Status codes API
+  slug: open-agicap-status-codes-api
+- collection_type: open
+  name: Clients AR Account reports Supplier Credit Notes API
+  slug: open-agicap-supplier-credit-notes-api
+- collection_type: open
+  name: Clients AR Account reports Supplier Invoices API
+  slug: open-agicap-supplier-invoices-api
+- collection_type: open
+  name: Clients AR Account reports Suppliers API
+  slug: open-agicap-suppliers-api
+- collection_type: open
+  name: Clients AR Account reports User rights API
+  slug: open-agicap-user-rights-api
+- collection_type: open
+  name: Clients AR Account reports webhooks API
+  slug: open-agicap-webhooks-api
 common:
 - group: other
   title: ''
@@ -517,7 +676,7 @@ overview: 'Agicap publishes 52 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Agicap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
-random_paper: 13
+random_paper: 17
 scopes:
 - name: Agicap Scopes
   scope_count: 5
@@ -552,7 +711,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/screenshots/agicap-2026-07-25T195300.png
 security:

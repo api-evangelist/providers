@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -69,8 +69,41 @@ apis:
 - description: Void pending transactions
   name: Total System Services Voids API
   slug: total-system-services-voids-api
-artifact_total: 25
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: TSYS Issuing Platform Accounts API
+  slug: open-total-system-services-accounts-api
+- collection_type: open
+  name: TSYS Issuing Platform Accounts Authorization API
+  slug: open-total-system-services-authorization-api
+- collection_type: open
+  name: TSYS Issuing Platform Accounts Capture API
+  slug: open-total-system-services-capture-api
+- collection_type: open
+  name: TSYS Issuing Platform Accounts Cards API
+  slug: open-total-system-services-cards-api
+- collection_type: open
+  name: TSYS Issuing Platform Accounts Controls API
+  slug: open-total-system-services-controls-api
+- collection_type: open
+  name: TSYS Issuing Platform Accounts Disputes API
+  slug: open-total-system-services-disputes-api
+- collection_type: open
+  name: TSYS Issuing Platform Accounts Inquiries API
+  slug: open-total-system-services-inquiries-api
+- collection_type: open
+  name: TSYS Issuing Platform Accounts Refunds API
+  slug: open-total-system-services-refunds-api
+- collection_type: open
+  name: TSYS Issuing Platform Accounts Transactions API
+  slug: open-total-system-services-transactions-api
+- collection_type: open
+  name: TSYS Issuing Platform Accounts Voids API
+  slug: open-total-system-services-voids-api
 - collection_type: open
   name: TSYS Issuing Platform
   slug: open-tsys-issuing
@@ -178,7 +211,7 @@ press:
 - date: '2026-05-25'
   title: Global Payments to acquire TSYS in $21.5B merger
   url: https://www.atmmarketplace.com/articles/global-payments-to-acquire-tsys-in-215b-merger/
-random_paper: 23
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: Total System Services Rate Limits
@@ -234,7 +267,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

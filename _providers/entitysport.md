@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Team profiles and rosters.
   name: Entity Sport Teams API
   slug: entitysport-teams-api
-artifact_total: 15
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Entity Sport Cricket API V2 Authentication API
+  slug: open-entitysport-authentication-api
+- collection_type: open
+  name: Entity Sport Cricket API V2 Authentication Competitions API
+  slug: open-entitysport-competitions-api
+- collection_type: open
+  name: Entity Sport Cricket API V2 Authentication Fantasy API
+  slug: open-entitysport-fantasy-api
+- collection_type: open
+  name: Entity Sport Cricket API V2 Authentication Matches API
+  slug: open-entitysport-matches-api
+- collection_type: open
+  name: Entity Sport Cricket API V2 Authentication Odds API
+  slug: open-entitysport-odds-api
+- collection_type: open
+  name: Entity Sport Cricket API V2 Authentication Players API
+  slug: open-entitysport-players-api
+- collection_type: open
+  name: Entity Sport Cricket API V2 Authentication Scorecards API
+  slug: open-entitysport-scorecards-api
+- collection_type: open
+  name: Entity Sport Cricket API V2 Authentication Teams API
+  slug: open-entitysport-teams-api
 - collection_type: open
   name: Entity Sport Cricket API V2
   slug: open-entitysport
@@ -133,7 +160,7 @@ plans:
 - name: Entitysport Plans Pricing
   plan_count: 8
   slug: entitysport-plans-pricing
-random_paper: 37
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Entitysport Rate Limits
@@ -158,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/screenshots/entitysport-2026-07-25T213432.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 8
 apis:
 - description: 'The core uShip marketplace API — a RESTful, hypermedia-driven JSON API over the shipment lifecycle: searching active listings, creating and retrieving listings by commodity category, bids and bid acce'
@@ -167,7 +167,7 @@ overview: 'uShip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   uShip''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 18 more developer resources.'
-random_paper: 73
+random_paper: 106
 score:
   band: developing
   composite: 45.9
@@ -183,7 +183,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

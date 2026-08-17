@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ arazzos:
 - description: Create a work item, transition its state, and append a comment in one flow.
   name: Azure DevOps Create, Update, and Comment on a Work Item
   slug: microsoft-azure-devops-work-item-create-update-comment-workflow
-artifact_total: 209
+artifact_total: 242
 asyncapis:
 - description: AsyncAPI specification for Azure DevOps Service Hooks (webhooks and event subscriptions). Azure DevOps delivers event notifications via HTTP POST requests to subscriber endpoints when events occur suc
   name: Azure DevOps Service Hooks AsyncAPI
@@ -315,6 +315,9 @@ collections:
   name: Azure DevOps Work Items API
   slug: postman-azure-devops-work-items-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Azure DevOps Artifacts API
   slug: open-azure-devops-artifacts-api
 - collection_type: open
@@ -341,6 +344,102 @@ collections:
 - collection_type: open
   name: Azure DevOps Work Items API
   slug: open-azure-devops-work-items-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments API
+  slug: open-microsoft-azure-devops-attachments-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Build Artifacts API
+  slug: open-microsoft-azure-devops-build-artifacts-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Build Definitions API
+  slug: open-microsoft-azure-devops-build-definitions-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Build Logs API
+  slug: open-microsoft-azure-devops-build-logs-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Builds API
+  slug: open-microsoft-azure-devops-builds-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Comments API
+  slug: open-microsoft-azure-devops-comments-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Commits API
+  slug: open-microsoft-azure-devops-commits-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Consumers API
+  slug: open-microsoft-azure-devops-consumers-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Deployments API
+  slug: open-microsoft-azure-devops-deployments-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Feeds API
+  slug: open-microsoft-azure-devops-feeds-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Notifications API
+  slug: open-microsoft-azure-devops-notifications-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Package Versions API
+  slug: open-microsoft-azure-devops-package-versions-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Packages API
+  slug: open-microsoft-azure-devops-packages-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Pipeline Artifacts API
+  slug: open-microsoft-azure-devops-pipeline-artifacts-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Pipeline Runs API
+  slug: open-microsoft-azure-devops-pipeline-runs-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Pipelines API
+  slug: open-microsoft-azure-devops-pipelines-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Publishers API
+  slug: open-microsoft-azure-devops-publishers-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Pull Requests API
+  slug: open-microsoft-azure-devops-pull-requests-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Pushes API
+  slug: open-microsoft-azure-devops-pushes-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Refs API
+  slug: open-microsoft-azure-devops-refs-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Release Definitions API
+  slug: open-microsoft-azure-devops-release-definitions-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Releases API
+  slug: open-microsoft-azure-devops-releases-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Repositories API
+  slug: open-microsoft-azure-devops-repositories-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Subscriptions API
+  slug: open-microsoft-azure-devops-subscriptions-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Test Cases API
+  slug: open-microsoft-azure-devops-test-cases-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Test Plans API
+  slug: open-microsoft-azure-devops-test-plans-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Test Suites API
+  slug: open-microsoft-azure-devops-test-suites-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Wiki Pages API
+  slug: open-microsoft-azure-devops-wiki-pages-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Wikis API
+  slug: open-microsoft-azure-devops-wikis-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Work Item Tracking API
+  slug: open-microsoft-azure-devops-work-item-tracking-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Work Item Types API
+  slug: open-microsoft-azure-devops-work-item-types-api
+- collection_type: open
+  name: Azure DevOps Artifacts Attachments Work Items API
+  slug: open-microsoft-azure-devops-work-items-api
 common:
 - group: operate
   title: ''
@@ -905,7 +1004,7 @@ plans:
 - name: Microsoft Azure Devops Plans Pricing
   plan_count: 6
   slug: microsoft-azure-devops-plans-pricing
-random_paper: 0
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Microsoft Azure Devops Rate Limits
@@ -947,7 +1046,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/screenshots/microsoft-azure-devops-2026-06-20T185413.png
 security:

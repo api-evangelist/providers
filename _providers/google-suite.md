@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -48,8 +48,14 @@ apis:
 - description: The Gmail API from Google Workspace (G Suite) — 10 operation(s) for gmail.
   name: Google Workspace (G Suite) Gmail API
   slug: google-suite-gmail-api
-artifact_total: 12
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Gmail API
+  slug: open-google-suite-gmail-api
 - collection_type: open
   name: Gmail API
   slug: open-google-suite
@@ -126,7 +132,7 @@ plans:
 - name: Google Suite Plans Pricing
   plan_count: 3
   slug: google-suite-plans-pricing
-random_paper: 36
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Google Suite Rate Limits
@@ -156,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-suite/refs/heads/main/screenshots/google-suite-2026-06-20T182235.png
 security:

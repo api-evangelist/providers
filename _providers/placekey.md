@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: The Lookup API from Placekey — 1 operation(s) for lookup.
   name: Placekey Lookup API
   slug: placekey-lookup-api
-artifact_total: 9
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Placekey Bulk API
+  slug: open-placekey-bulk-api
+- collection_type: open
+  name: Placekey Bulk Lookup API
+  slug: open-placekey-lookup-api
 - collection_type: open
   name: Placekey API
   slug: open-placekey
@@ -111,7 +120,7 @@ plans:
 - name: Placekey Plans Pricing
   plan_count: 4
   slug: placekey-plans-pricing
-random_paper: 6
+random_paper: 101
 rate_limits:
 - limit_count: 4
   name: Placekey Rate Limits
@@ -136,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

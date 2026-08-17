@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 1
@@ -159,7 +159,125 @@ apis:
 - description: The Version API from IPFS — 2 operation(s) for version.
   name: IPFS Version API
   slug: ipfs-version-api
-artifact_total: 62
+artifact_total: 101
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: IPFS RPC Add API
+  slug: open-ipfs-add-api
+- collection_type: open
+  name: IPFS RPC Add Bitswap API
+  slug: open-ipfs-bitswap-api
+- collection_type: open
+  name: IPFS RPC Add Block API
+  slug: open-ipfs-block-api
+- collection_type: open
+  name: IPFS RPC Add Bootstrap API
+  slug: open-ipfs-bootstrap-api
+- collection_type: open
+  name: IPFS RPC Add Cat API
+  slug: open-ipfs-cat-api
+- collection_type: open
+  name: IPFS RPC Add Cid API
+  slug: open-ipfs-cid-api
+- collection_type: open
+  name: IPFS RPC Add Commands API
+  slug: open-ipfs-commands-api
+- collection_type: open
+  name: IPFS RPC Add Config API
+  slug: open-ipfs-config-api
+- collection_type: open
+  name: IPFS RPC Add Dag API
+  slug: open-ipfs-dag-api
+- collection_type: open
+  name: IPFS RPC Add Dht API
+  slug: open-ipfs-dht-api
+- collection_type: open
+  name: IPFS RPC Add Diag API
+  slug: open-ipfs-diag-api
+- collection_type: open
+  name: IPFS RPC Add Dns API
+  slug: open-ipfs-dns-api
+- collection_type: open
+  name: IPFS RPC Add File API
+  slug: open-ipfs-file-api
+- collection_type: open
+  name: IPFS RPC Add Files API
+  slug: open-ipfs-files-api
+- collection_type: open
+  name: IPFS RPC Add Filestore API
+  slug: open-ipfs-filestore-api
+- collection_type: open
+  name: IPFS RPC Add Get API
+  slug: open-ipfs-get-api
+- collection_type: open
+  name: IPFS RPC Add Id API
+  slug: open-ipfs-id-api
+- collection_type: open
+  name: IPFS RPC Add Key API
+  slug: open-ipfs-key-api
+- collection_type: open
+  name: IPFS RPC Add Log API
+  slug: open-ipfs-log-api
+- collection_type: open
+  name: IPFS RPC Add Ls API
+  slug: open-ipfs-ls-api
+- collection_type: open
+  name: IPFS RPC Add Mount API
+  slug: open-ipfs-mount-api
+- collection_type: open
+  name: IPFS RPC Add Multibase API
+  slug: open-ipfs-multibase-api
+- collection_type: open
+  name: IPFS RPC Add Name API
+  slug: open-ipfs-name-api
+- collection_type: open
+  name: IPFS RPC Add Object API
+  slug: open-ipfs-object-api
+- collection_type: open
+  name: IPFS RPC Add P2p API
+  slug: open-ipfs-p2p-api
+- collection_type: open
+  name: IPFS RPC Add Pin API
+  slug: open-ipfs-pin-api
+- collection_type: open
+  name: IPFS RPC Add Ping API
+  slug: open-ipfs-ping-api
+- collection_type: open
+  name: IPFS RPC Add pins API
+  slug: open-ipfs-pins-api
+- collection_type: open
+  name: IPFS RPC Add Pubsub API
+  slug: open-ipfs-pubsub-api
+- collection_type: open
+  name: IPFS RPC Add Refs API
+  slug: open-ipfs-refs-api
+- collection_type: open
+  name: IPFS RPC Add Repo API
+  slug: open-ipfs-repo-api
+- collection_type: open
+  name: IPFS RPC Add Resolve API
+  slug: open-ipfs-resolve-api
+- collection_type: open
+  name: IPFS RPC Add Routing API
+  slug: open-ipfs-routing-api
+- collection_type: open
+  name: IPFS RPC Add Shutdown API
+  slug: open-ipfs-shutdown-api
+- collection_type: open
+  name: IPFS RPC Add Stats API
+  slug: open-ipfs-stats-api
+- collection_type: open
+  name: IPFS RPC Add Swarm API
+  slug: open-ipfs-swarm-api
+- collection_type: open
+  name: IPFS RPC Add Tar API
+  slug: open-ipfs-tar-api
+- collection_type: open
+  name: IPFS RPC Add Version API
+  slug: open-ipfs-version-api
 common:
 - group: operate
   title: ''
@@ -262,7 +380,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 74
+random_paper: 136
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -296,7 +414,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/screenshots/ipfs-2026-06-20T183549.png
 security:

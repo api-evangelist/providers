@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Games API from Unrivaled Basketball — 5 operation(s) for games.
@@ -52,7 +52,32 @@ apis:
 - description: The Tournaments API from Unrivaled Basketball — 3 operation(s) for tournaments.
   name: Unrivaled Basketball Tournaments API
   slug: unrivaled-basketball-tournaments-api
-artifact_total: 10
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unrivaled Games API
+  slug: open-unrivaled-basketball-games-api
+- collection_type: open
+  name: Unrivaled Games League API
+  slug: open-unrivaled-basketball-league-api
+- collection_type: open
+  name: Unrivaled Games Players API
+  slug: open-unrivaled-basketball-players-api
+- collection_type: open
+  name: Unrivaled Games Seasons API
+  slug: open-unrivaled-basketball-seasons-api
+- collection_type: open
+  name: Unrivaled Games Series API
+  slug: open-unrivaled-basketball-series-api
+- collection_type: open
+  name: Unrivaled Games Teams API
+  slug: open-unrivaled-basketball-teams-api
+- collection_type: open
+  name: Unrivaled Games Tournaments API
+  slug: open-unrivaled-basketball-tournaments-api
 common:
 - group: auth
   title: ''
@@ -158,7 +183,7 @@ overview: 'Unrivaled Basketball publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Unrivaled Basketball''s developer surface includes authentication, engineering blog, support, documentation, API reference, getting-started guide, changelog, and 15 more developer resources.'
-random_paper: 20
+random_paper: 123
 score:
   band: developing
   composite: 42.1
@@ -181,7 +206,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

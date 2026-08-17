@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,26 @@ apis:
 - description: Market trends and heatmaps
   name: Mashvisor Trends API
   slug: mashvisor-trends-api
-artifact_total: 9
+artifact_total: 15
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Mashvisor Data Investment Analysis API
+  slug: open-mashvisor-investment-analysis-api
+- collection_type: open
+  name: Mashvisor Data Investment Analysis Property Info API
+  slug: open-mashvisor-property-info-api
+- collection_type: open
+  name: Mashvisor Data Investment Analysis Rental Rates API
+  slug: open-mashvisor-rental-rates-api
+- collection_type: open
+  name: Mashvisor Data Investment Analysis Search API
+  slug: open-mashvisor-search-api
+- collection_type: open
+  name: Mashvisor Data Investment Analysis Trends API
+  slug: open-mashvisor-trends-api
 common:
 - group: other
   title: ''
@@ -163,7 +182,7 @@ overview: 'Mashvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Mashvisor''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
-random_paper: 28
+random_paper: 94
 score:
   band: developing
   composite: 44.5
@@ -187,7 +206,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/screenshots/mashvisor-2026-07-25T230328.png
 security:

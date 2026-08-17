@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 0
@@ -76,7 +76,59 @@ apis:
 - description: The Video API from Cellarity — 4 operation(s) for video.
   name: Cellarity Video API
   slug: cellarity-video-api
-artifact_total: 19
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Case Studies API
+  slug: open-cellarity-case-studies-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Comments API
+  slug: open-cellarity-comments-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Discovery API
+  slug: open-cellarity-discovery-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Events API
+  slug: open-cellarity-events-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Media API
+  slug: open-cellarity-media-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) News API
+  slug: open-cellarity-news-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Pages API
+  slug: open-cellarity-pages-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) People API
+  slug: open-cellarity-people-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Pipeline API
+  slug: open-cellarity-pipeline-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Posts API
+  slug: open-cellarity-posts-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Projects API
+  slug: open-cellarity-projects-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Search API
+  slug: open-cellarity-search-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Settings API
+  slug: open-cellarity-settings-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Taxonomy API
+  slug: open-cellarity-taxonomy-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Users API
+  slug: open-cellarity-users-api
+- collection_type: open
+  name: Cellarity Content API (WordPress REST wp/v2) Video API
+  slug: open-cellarity-video-api
 common:
 - group: other
   title: ''
@@ -187,7 +239,7 @@ overview: 'Cellarity publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cellarity''s developer surface includes product news, support, authentication, and 21 more developer resources.'
-random_paper: 9
+random_paper: 75
 score:
   band: emerging
   composite: 22.9
@@ -216,7 +268,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

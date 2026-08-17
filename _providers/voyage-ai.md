@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: Reranking endpoint that scores a list of candidate documents against a query and returns relevance scores. Powered by the voyage-rerank-2 model family, used downstream of vector search to improve retr
@@ -58,7 +58,23 @@ apis:
 - description: Cross-encoder reranking of candidate documents.
   name: Voyage AI Rerank API
   slug: voyage-ai-rerank-api
-artifact_total: 13
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Voyage AI Contextualized API
+  slug: open-voyage-ai-contextualized-api
+- collection_type: open
+  name: Voyage AI Embeddings API
+  slug: open-voyage-ai-embeddings-api
+- collection_type: open
+  name: Voyage AI Multimodal API
+  slug: open-voyage-ai-multimodal-api
+- collection_type: open
+  name: Voyage AI Rerank API
+  slug: open-voyage-ai-rerank-api
 common:
 - group: commercial
   title: ''
@@ -128,7 +144,7 @@ plans:
 - name: Voyage Ai Plans Pricing
   plan_count: 1
   slug: voyage-ai-plans-pricing
-random_paper: 58
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Voyage Ai Rate Limits
@@ -152,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/screenshots/voyage-ai-2026-06-20T201141.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Submit and manage batches of requests.
@@ -46,11 +46,30 @@ apis:
 - description: OpenAI-compatible Responses API endpoints.
   name: Sail Research Responses API API
   slug: sail-research-responses-api-api
-artifact_total: 9
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Sail Research Webhooks
   slug: sail-research-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Sail Batches API API
+  slug: open-sail-research-batches-api-api
+- collection_type: open
+  name: Sail Batches API Chat Completions API API
+  slug: open-sail-research-chat-completions-api-api
+- collection_type: open
+  name: Sail Batches API Messages API API
+  slug: open-sail-research-messages-api-api
+- collection_type: open
+  name: Sail Batches API Models API API
+  slug: open-sail-research-models-api-api
+- collection_type: open
+  name: Sail Batches API Responses API API
+  slug: open-sail-research-responses-api-api
 common:
 - group: start
   title: ''
@@ -187,7 +206,7 @@ overview: 'Sail Research publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Sail Research''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 115
+random_paper: 123
 score:
   band: developing
   composite: 55.2
@@ -210,7 +229,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

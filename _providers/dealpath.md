@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Dealpath's REST API for programmatic access to deals, pipeline, and portfolio data. Bearer-token authentication (token provisioned by Dealpath); responses are JSON and advertise X-RateLimit-* headers.
@@ -116,7 +116,7 @@ overview: 'Dealpath publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Dealpath''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 115
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Dealpath Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 27.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealpath/refs/heads/main/screenshots/dealpath-2026-07-25T211514.png
 security:

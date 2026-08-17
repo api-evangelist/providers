@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 11
 apis:
 - description: The categories API from Leapcure — 2 operation(s) for categories.
@@ -64,7 +64,44 @@ apis:
 - description: The users API from Leapcure — 6 operation(s) for users.
   name: Leapcure users API
   slug: leapcure-users-api
-artifact_total: 14
+artifact_total: 26
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories API
+  slug: open-leapcure-categories-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories comments API
+  slug: open-leapcure-comments-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories media API
+  slug: open-leapcure-media-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories pages API
+  slug: open-leapcure-pages-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories posts API
+  slug: open-leapcure-posts-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories search API
+  slug: open-leapcure-search-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories statuses API
+  slug: open-leapcure-statuses-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories tags API
+  slug: open-leapcure-tags-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories taxonomies API
+  slug: open-leapcure-taxonomies-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories types API
+  slug: open-leapcure-types-api
+- collection_type: open
+  name: Leapcure Blog Content API (WordPress REST API) categories users API
+  slug: open-leapcure-users-api
 common:
 - group: other
   title: ''
@@ -146,7 +183,7 @@ overview: 'Leapcure publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Leapcure''s developer surface includes authentication, engineering blog, and 14 more developer resources.'
-random_paper: 9
+random_paper: 104
 score:
   band: thin
   composite: 32.6
@@ -175,7 +212,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/screenshots/leapcure-2026-07-25T224748.png
 security:

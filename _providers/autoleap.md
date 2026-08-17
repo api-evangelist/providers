@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: List, create, update, and fetch-by-RO-number repair orders (the estimate/invoice unit of work in a shop). Supports bulk create/update with a partial-success model, date-range filters on invoice/finali
@@ -106,7 +106,7 @@ plans:
 - name: Autoleap Plans Pricing
   plan_count: 5
   slug: autoleap-plans-pricing
-random_paper: 19
+random_paper: 114
 rate_limits:
 - limit_count: 4
   name: Autoleap Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoleap/refs/heads/main/screenshots/autoleap-2026-07-25T201827.png
 security:

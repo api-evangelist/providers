@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
 - description: Endpoints for retrieving Swarm server version information.
   name: Perforce Version API
   slug: perforce-version-api
-artifact_total: 91
+artifact_total: 97
 collections:
 - collection_type: postman
   name: Perforce Helix Swarm Activity API
@@ -103,8 +103,26 @@ collections:
   name: Perforce Helix Swarm Activity Version API
   slug: postman-perforce-version-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Perforce Helix Swarm Activity API
+  slug: open-perforce-activity-api
+- collection_type: open
+  name: Perforce Helix Swarm Activity Changes API
+  slug: open-perforce-changes-api
+- collection_type: open
+  name: Perforce Helix Swarm Activity Comments API
+  slug: open-perforce-comments-api
+- collection_type: open
   name: Perforce Helix Swarm API
   slug: open-perforce-helix-swarm
+- collection_type: open
+  name: Perforce Helix Swarm Activity Projects API
+  slug: open-perforce-projects-api
+- collection_type: open
+  name: Perforce Helix Swarm Activity Version API
+  slug: open-perforce-version-api
 common:
 - group: commercial
   title: ''
@@ -371,7 +389,7 @@ plans:
 - name: Perforce Plans Pricing
   plan_count: 5
   slug: perforce-plans-pricing
-random_paper: 14
+random_paper: 109
 rate_limits:
 - limit_count: 2
   name: Perforce Rate Limits
@@ -413,7 +431,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/screenshots/perforce-2026-06-20T191608.png
 security:

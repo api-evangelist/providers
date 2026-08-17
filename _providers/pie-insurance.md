@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,11 +59,35 @@ apis:
 - description: The Quotes API from Pie Insurance — 2 operation(s) for quotes.
   name: Pie Insurance Quotes API
   slug: pie-insurance-quotes-api
-artifact_total: 24
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pie Insurance Quote Api Appetite API
+  slug: open-pie-insurance-appetite-api
+- collection_type: open
+  name: Pie Insurance Quote Api Appetite ClassCodeSearch API
+  slug: open-pie-insurance-classcodesearch-api
+- collection_type: open
+  name: Pie Insurance Quote Api Appetite Eligibility API
+  slug: open-pie-insurance-eligibility-api
 - collection_type: open
   name: Pie Insurance Quote Api
   slug: open-pie-insurance-partner-api
+- collection_type: open
+  name: Pie Insurance Quote Api Appetite PriceIndication API
+  slug: open-pie-insurance-priceindication-api
+- collection_type: open
+  name: Pie Insurance Quote Api Appetite QuoteDocument API
+  slug: open-pie-insurance-quotedocument-api
+- collection_type: open
+  name: Pie Insurance Quote Api Appetite QuotePdf API
+  slug: open-pie-insurance-quotepdf-api
+- collection_type: open
+  name: Pie Insurance Quote Api Appetite Quotes API
+  slug: open-pie-insurance-quotes-api
 common:
 - group: agent
   title: ''
@@ -200,7 +224,7 @@ overview: 'Pie Insurance publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Pie Insurance''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 22 more developer resources.'
-random_paper: 11
+random_paper: 139
 score:
   band: thin
   composite: 32.1
@@ -227,7 +251,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/screenshots/pie-insurance-2026-06-20T191702.png
 security:

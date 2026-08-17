@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,28 +19,38 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.4
-  scored_at: '2026-08-12'
-api_count: 3
+  score: 41.2
+  scored_at: '2026-08-17'
+api_count: 5
 apis:
 - description: 'OAuth 2.0 REST API for managing Snapchat advertising: organizations, ad accounts, campaigns, ad squads, ads, creatives, media, audience segments, measurement/reporting, the Conversions API (server-to-'
   name: Snapchat Marketing API
   slug: snapchat-marketing-api
+- description: Server-to-server conversion event ingestion for web, app, and offline events, keyed by asset (Pixel ID for web/offline, Snap App ID for mobile app). Served from tr.snapchat.com; v3 (/v3/{asset_id}/eve
+  name: Snap Conversions API
+  slug: snap-conversions-api
+- description: Snap's first-party hosted Model Context Protocol server, letting supported agents read the caller's authorized Snapchat Ads data over streamable HTTP. Read-only in this release; write access is docume
+  name: Snapchat Ads MCP
+  slug: snapchat-ads-mcp
 - description: OAuth 2.0 and OpenID Connect identity platform for "Login with Snapchat", plus Creative Kit and Bitmoji Kit. Lets third-party apps authenticate Snapchatters, fetch approved profile fields, and share c
   name: Snap Kit / Login Kit
   slug: snap-kit-login-kit
 - description: SDK and API for embedding Snap's augmented-reality Lenses (Lens Studio content) into third-party mobile and web apps, including a push-to-device API for managing Lens groups and experiences.
   name: Camera Kit
   slug: camera-kit
-artifact_total: 8
+artifact_total: 14
+asyncapis:
+- description: ''
+  name: Snap Lead Gen Webhooks
+  slug: snap-lead-gen-webhooks
 common:
 - group: start
   title: ''
@@ -102,6 +112,50 @@ common:
   title: ''
   type: MCPServer
   url: mcp/snap-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/snap-tool-crosswalk.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/snap-conversions-api-v3-openapi.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/snap-conversions-api-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snap-conversions-api-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snap-conversions-api-overlay.yaml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/snap-lead-gen-webhooks.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/snap-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/snap-plans-pricing.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/snap-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/snap-components.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/snap-trust-center.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -134,6 +188,10 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/Snapchat
+- group: company
+  title: ''
+  type: Blog
+  url: https://eng.snap.com/
 - group: operate
   title: ''
   type: Support
@@ -151,46 +209,58 @@ common:
   type: PrivacyPolicy
   url: https://snap.com/privacy/privacy-policy
 created: '2026-07-17'
-description: 'Snap Inc. is the technology company behind Snapchat, Bitmoji, Spectacles, and Lens Studio. Its Snap for Developers program exposes several public APIs and SDKs: the Snapchat Marketing API (Ads API, Ads Gallery API, Conversions API, and Public Profile API) for programmatically managing organizations, ad accounts, campaigns, ad squads, ads, creatives, audiences, measurement, and server-to-server conversion events; Snap Kit / Login Kit for OAuth 2.0 and OpenID Connect powered "Login with Snapchat", Creative Kit, and Bitmoji Kit; and Camera Kit for embedding Snap''s augmented-reality Lenses into third-party apps and web experiences. The Marketing API is an OAuth 2.0 REST API served from adsapi.snapchat.com/v1 with cursor pagination and a structured request envelope. First-party SDKs are published for Java, Python, PHP, JavaScript (Camera Kit on npm), Android, and iOS. Snap was surfaced as a portfolio company of General Catalyst and enriched into the API Evangelist network.'
+description: 'Snap Inc. is the technology company behind Snapchat, Bitmoji, Spectacles, and Lens Studio. Its Snap for Developers program exposes several public APIs and SDKs: the Snapchat Marketing API (Ads API, Ads Gallery API, Conversions API, and Public Profile API) for programmatically managing organizations, ad accounts, campaigns, ad squads, ads, creatives, audiences, measurement, and server-to-server conversion events; Snap Kit / Login Kit for OAuth 2.0 and OpenID Connect powered "Login with Snapchat", Creative Kit, and Bitmoji Kit; and Camera Kit for embedding Snap''s augmented-reality Lenses into third-party apps and web experiences. The Marketing API is an OAuth 2.0 REST API served from adsapi.snapchat.com/v1 with cursor pagination and a structured request envelope. Snap publishes first-party OpenAPI 3.0 for the Conversions API in its own Business SDK repositories, ships a hosted read-only MCP server for Snapchat Ads at mcp.snapchat.com/ads with pre-registered OAuth clients for
+  five agents, and delivers lead-generation leads by HMAC-signed webhook. First-party SDKs are published for Java, Python, PHP, Ruby, Go, JavaScript (Camera Kit on npm), Android, and iOS. Snap was surfaced as a portfolio company of General Catalyst and enriched into the API Evangelist network.'
 image: https://developers.snap.com/img/snap-developer-logo.png
 layout: provider
 mcp_servers:
 - description: ''
   name: snap-mcp.yml
   slug: snap-mcpyml
-modified: '2026-07-21'
+modified: '2026-08-13'
 name: Snap
 nav: Providers
 network: true
-overview: 'Snap publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Marketing, Social Media, and Augmented Reality.
+overview: 'Snap publishes 1 API on the [APIs.io](https://apis.io/) network: Conversions API. Tagged areas include Company, Advertising, Marketing, Social Media, and Augmented Reality.
 
 
-  Snap''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 20 more developer resources.'
-random_paper: 74
+  The Snap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Snap''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 32 more developer resources.'
+plans:
+- name: Snap Plans Pricing
+  plan_count: 0
+  slug: snap-plans-pricing
+random_paper: 136
+rate_limits:
+- limit_count: 4
+  name: Snap Rate Limits
+  slug: snap-rate-limits
 scopes:
 - name: Snap Scopes
   scope_count: 0
   slug: snap-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 32.6
-  delta: 0.0
+  band: developing
+  composite: 53.9
+  delta: 21.3
   facets:
-    commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 60.3
-    discoverability: 81.5
-    governance: 3.1
-    operational_transparency: 39.5
+    commercial_clarity: 42.1
+    contract_quality: 43.3
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 11.5
+    operational_transparency: 78.9
   previous_composite: 32.6
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
 - kind: authentication
   name: Snap Authentication
@@ -204,6 +274,10 @@ security:
   name: Snap Vulnerability Disclosure
   slug: snap-vulnerability-disclosure
   summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Snap Trust Center
+  slug: snap-trust-center
+  summary_line: trust center published
 slug: snap
 tags:
 - Company

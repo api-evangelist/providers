@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'AMBOSS is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   AMBOSS''s developer surface includes pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 45
+random_paper: 49
 score:
   band: emerging
   composite: 18.1
@@ -115,7 +115,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amboss/refs/heads/main/screenshots/amboss-2026-07-25T200032.png
 security:

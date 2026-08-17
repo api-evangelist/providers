@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
 - description: Manage individual expense entries
   name: SAP Concur Expenses API
   slug: concur-expenses-api
-artifact_total: 53
+artifact_total: 56
 collections:
 - collection_type: postman
   name: SAP Concur Expense Expense Reports API
@@ -77,6 +77,15 @@ collections:
 - collection_type: postman
   name: SAP Concur Expense Expense Reports Expenses API
   slug: postman-concur-expenses-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: SAP Concur Expense Expense Reports API
+  slug: open-concur-expense-reports-api
+- collection_type: open
+  name: SAP Concur Expense Expense Reports Expenses API
+  slug: open-concur-expenses-api
 common:
 - group: build
   title: ''
@@ -250,7 +259,7 @@ plans:
 - name: Concur Plans Pricing
   plan_count: 1
   slug: concur-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Concur Rate Limits
@@ -292,7 +301,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/screenshots/concur-2026-06-20T174842.png
 security:

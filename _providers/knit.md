@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Operations for managing time off and leave data.
   name: Knit Time Off API
   slug: knit-time-off-api
-artifact_total: 38
+artifact_total: 46
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Knit Unified Departments API
+  slug: open-knit-departments-api
+- collection_type: open
+  name: Knit Unified Departments Employees API
+  slug: open-knit-employees-api
+- collection_type: open
+  name: Knit Unified Departments Integrations API
+  slug: open-knit-integrations-api
+- collection_type: open
+  name: Knit Unified Departments Jobs API
+  slug: open-knit-jobs-api
+- collection_type: open
+  name: Knit Unified Departments Locations API
+  slug: open-knit-locations-api
+- collection_type: open
+  name: Knit Unified Departments Syncs API
+  slug: open-knit-syncs-api
+- collection_type: open
+  name: Knit Unified Departments Time Off API
+  slug: open-knit-time-off-api
 - collection_type: open
   name: Knit Unified API
   slug: open-knit-unified-api
@@ -160,7 +184,7 @@ plans:
 - name: Knit Plans Pricing
   plan_count: 3
   slug: knit-plans-pricing
-random_paper: 78
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Knit Rate Limits
@@ -194,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/screenshots/knit-2026-06-20T184110.png
 security:

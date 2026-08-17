@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: Operations for managing IAM users
   name: Amazon IAM Users API
   slug: amazon-iam-users-api
-artifact_total: 94
+artifact_total: 100
 collections:
 - collection_type: postman
   name: Amazon IAM Access Keys API
@@ -71,6 +71,24 @@ collections:
 - collection_type: postman
   name: Amazon IAM Access Keys Users API
   slug: postman-amazon-iam-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon IAM Access Keys API
+  slug: open-amazon-iam-access-keys-api
+- collection_type: open
+  name: Amazon IAM Access Keys Groups API
+  slug: open-amazon-iam-groups-api
+- collection_type: open
+  name: Amazon IAM Access Keys Policies API
+  slug: open-amazon-iam-policies-api
+- collection_type: open
+  name: Amazon IAM Access Keys Roles API
+  slug: open-amazon-iam-roles-api
+- collection_type: open
+  name: Amazon IAM Access Keys Users API
+  slug: open-amazon-iam-users-api
 - collection_type: open
   name: Amazon IAM API
   slug: open-amazon-iam
@@ -397,7 +415,7 @@ plans:
 - name: Amazon Iam Plans Pricing
   plan_count: 3
   slug: amazon-iam-plans-pricing
-random_paper: 42
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Rate Limits
@@ -439,7 +457,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/screenshots/amazon-iam-2026-06-20T171703.png
 security:

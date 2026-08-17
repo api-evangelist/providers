@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,11 +88,29 @@ arazzos:
 - description: Resolve a load balancer by name and apply an attribute change.
   name: Amazon Elastic Load Balancing Tune Load Balancer Attributes
   slug: amazon-elastic-load-balancing-tune-load-balancer-attributes-workflow
-artifact_total: 86
+artifact_total: 92
 collections:
 - collection_type: postman
   name: Amazon Elastic Load Balancing v2 API
   slug: postman-amazon-elastic-load-balancing
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Amazon Elastic Load Balancing v2 Listeners API
+  slug: open-amazon-elastic-load-balancing-listeners-api
+- collection_type: open
+  name: Amazon Elastic Load Balancing v2 Listeners Load Balancers API
+  slug: open-amazon-elastic-load-balancing-load-balancers-api
+- collection_type: open
+  name: Amazon Elastic Load Balancing v2 Listeners Rules API
+  slug: open-amazon-elastic-load-balancing-rules-api
+- collection_type: open
+  name: Amazon Elastic Load Balancing v2 Listeners Target Groups API
+  slug: open-amazon-elastic-load-balancing-target-groups-api
+- collection_type: open
+  name: Amazon Elastic Load Balancing v2 Listeners Targets API
+  slug: open-amazon-elastic-load-balancing-targets-api
 - collection_type: open
   name: Amazon Elastic Load Balancing v2 API
   slug: open-amazon-elastic-load-balancing
@@ -435,7 +453,7 @@ plans:
 - name: Amazon Elastic Load Balancing Plans Pricing
   plan_count: 3
   slug: amazon-elastic-load-balancing-plans-pricing
-random_paper: 105
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Load Balancing Rate Limits
@@ -477,7 +495,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/screenshots/amazon-elastic-load-balancing-2026-06-20T171649.png
 security:

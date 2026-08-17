@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -74,7 +74,47 @@ apis:
 - description: User API
   name: PRIMIS User API
   slug: primis-user-api
-artifact_total: 16
+artifact_total: 29
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: REST Auth API
+  slug: open-primis-auth-api
+- collection_type: open
+  name: REST Auth Billing API
+  slug: open-primis-billing-api
+- collection_type: open
+  name: REST Auth Campaign API
+  slug: open-primis-campaign-api
+- collection_type: open
+  name: REST Auth Document API
+  slug: open-primis-document-api
+- collection_type: open
+  name: REST Auth FAQ API
+  slug: open-primis-faq-api
+- collection_type: open
+  name: REST Auth Index API
+  slug: open-primis-index-api
+- collection_type: open
+  name: REST Auth Invitation API
+  slug: open-primis-invitation-api
+- collection_type: open
+  name: REST Auth Order API
+  slug: open-primis-order-api
+- collection_type: open
+  name: REST Auth Product API
+  slug: open-primis-product-api
+- collection_type: open
+  name: REST Auth Retailer API
+  slug: open-primis-retailer-api
+- collection_type: open
+  name: REST Auth Tracking API
+  slug: open-primis-tracking-api
+- collection_type: open
+  name: REST Auth User API
+  slug: open-primis-user-api
 common:
 - group: agent
   title: ''
@@ -152,7 +192,7 @@ overview: 'PRIMIS publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 60
+random_paper: 64
 score:
   band: thin
   composite: 36.1
@@ -175,7 +215,7 @@ score:
       total: 12
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

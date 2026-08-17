@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -54,8 +54,26 @@ apis:
 - description: Verify that an API key is valid and connected to a Nookal account.
   name: Nookal Verification API
   slug: nookal-verification-api
-artifact_total: 12
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nookal Appointments API
+  slug: open-nookal-appointments-api
+- collection_type: open
+  name: Nookal Appointments Clinic API
+  slug: open-nookal-clinic-api
+- collection_type: open
+  name: Nookal Appointments Invoices API
+  slug: open-nookal-invoices-api
+- collection_type: open
+  name: Nookal Appointments Patients API
+  slug: open-nookal-patients-api
+- collection_type: open
+  name: Nookal Appointments Verification API
+  slug: open-nookal-verification-api
 - collection_type: open
   name: Nookal API
   slug: open-nookal
@@ -128,7 +146,7 @@ plans:
 - name: Nookal Plans Pricing
   plan_count: 3
   slug: nookal-plans-pricing
-random_paper: 44
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Nookal Rate Limits
@@ -159,7 +177,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/screenshots/nookal-2026-08-07T185455.png
 security:

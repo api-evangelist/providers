@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -87,19 +87,40 @@ apis:
 - description: Sub-units associated with a reservation
   name: Hostaway Reservation Units API
   slug: hostaway-reservation-units-api
-artifact_total: 55
+artifact_total: 62
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Hostaway Calendar API
   slug: open-hostaway-calendar-api
 - collection_type: open
-  name: Hostaway Listings API
+  name: Hostaway Calendar Listing Amenities API
+  slug: open-hostaway-listing-amenities-api
+- collection_type: open
+  name: Hostaway Calendar Listing Bed Types API
+  slug: open-hostaway-listing-bed-types-api
+- collection_type: open
+  name: Hostaway Calendar Listing Images API
+  slug: open-hostaway-listing-images-api
+- collection_type: open
+  name: Hostaway Calendar Listings API
   slug: open-hostaway-listings-api
 - collection_type: open
-  name: Hostaway Reservations API
+  name: Hostaway Calendar Reservation Coupons API
+  slug: open-hostaway-reservation-coupons-api
+- collection_type: open
+  name: Hostaway Calendar Reservation Fees API
+  slug: open-hostaway-reservation-fees-api
+- collection_type: open
+  name: Hostaway Calendar Reservation Units API
+  slug: open-hostaway-reservation-units-api
+- collection_type: open
+  name: Hostaway Calendar Reservations API
   slug: open-hostaway-reservations-api
 - collection_type: open
-  name: Hostaway Webhooks API
+  name: Hostaway Calendar Webhooks API
   slug: open-hostaway-webhooks-api
 common:
 - group: agent
@@ -283,7 +304,7 @@ plans:
 - name: Hostaway Plans Pricing
   plan_count: 2
   slug: hostaway-plans-pricing
-random_paper: 40
+random_paper: 135
 rate_limits:
 - limit_count: 2
   name: Hostaway Rate Limits
@@ -322,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/screenshots/hostaway-2026-06-20T182839.png
 security:

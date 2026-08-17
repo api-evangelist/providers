@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -44,7 +44,17 @@ apis:
 - description: The Monitoring API from Apache SeaTunnel — 2 operation(s) for monitoring.
   name: Apache SeaTunnel Monitoring API
   slug: apache-seatunnel-monitoring-api
-artifact_total: 56
+artifact_total: 59
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Apache SeaTunnel REST Jobs API
+  slug: open-apache-seatunnel-jobs-api
+- collection_type: open
+  name: Apache SeaTunnel REST Jobs Monitoring API
+  slug: open-apache-seatunnel-monitoring-api
 common:
 - group: agent
   title: ''
@@ -227,7 +237,7 @@ plans:
 - name: Apache Seatunnel Plans Pricing
   plan_count: 3
   slug: apache-seatunnel-plans-pricing
-random_paper: 70
+random_paper: 140
 rate_limits:
 - limit_count: 5
   name: Apache Seatunnel Rate Limits
@@ -269,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/screenshots/apache-seatunnel-2026-06-20T172141.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -91,7 +91,62 @@ apis:
 - description: User management endpoints
   name: Spike.sh Users API
   slug: spike-sh-users-api
-artifact_total: 34
+artifact_total: 52
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spike.sh Alert Rules API
+  slug: open-spike-sh-alert-rules-api
+- collection_type: open
+  name: Spike.sh Alert Rules Components API
+  slug: open-spike-sh-components-api
+- collection_type: open
+  name: Spike.sh Alert Rules Escalations API
+  slug: open-spike-sh-escalations-api
+- collection_type: open
+  name: Spike.sh Alert Rules Incident Actions API
+  slug: open-spike-sh-incident-actions-api
+- collection_type: open
+  name: Spike.sh Alert Rules Incidents API
+  slug: open-spike-sh-incidents-api
+- collection_type: open
+  name: Spike.sh Alert Rules Integrations API
+  slug: open-spike-sh-integrations-api
+- collection_type: open
+  name: Spike.sh Alert Rules On-Call Overrides API
+  slug: open-spike-sh-on-call-overrides-api
+- collection_type: open
+  name: Spike.sh Alert Rules On-Call Schedules API
+  slug: open-spike-sh-on-call-schedules-api
+- collection_type: open
+  name: Spike.sh Alert Rules Orgs API
+  slug: open-spike-sh-orgs-api
+- collection_type: open
+  name: Spike.sh Alert Rules Planned Maintenances API
+  slug: open-spike-sh-planned-maintenances-api
+- collection_type: open
+  name: Spike.sh Alert Rules Services API
+  slug: open-spike-sh-services-api
+- collection_type: open
+  name: Spike.sh Alert Rules Status Page Incidents API
+  slug: open-spike-sh-status-page-incidents-api
+- collection_type: open
+  name: Spike.sh Alert Rules Status Pages API
+  slug: open-spike-sh-status-pages-api
+- collection_type: open
+  name: Spike.sh Alert Rules Subscribers API
+  slug: open-spike-sh-subscribers-api
+- collection_type: open
+  name: Spike.sh Alert Rules Suppressed Incidents API
+  slug: open-spike-sh-suppressed-incidents-api
+- collection_type: open
+  name: Spike.sh Alert Rules Teams API
+  slug: open-spike-sh-teams-api
+- collection_type: open
+  name: Spike.sh Alert Rules Users API
+  slug: open-spike-sh-users-api
 common:
 - group: agent
   title: ''
@@ -211,7 +266,7 @@ plans:
 - name: Spike Sh Plans Pricing
   plan_count: 3
   slug: spike-sh-plans-pricing
-random_paper: 84
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Spike Sh Rate Limits
@@ -245,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/screenshots/spike-sh-2026-06-20T194313.png
 security:

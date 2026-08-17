@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 11
@@ -326,7 +326,7 @@ arazzos:
 - description: Create an API (resource server), create a non-interactive client, and grant the client access to the API.
   name: Auth0 Provision Machine-to-Machine Application
   slug: auth0-provision-m2m-app-workflow
-artifact_total: 2728
+artifact_total: 2802
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Auth0''s two primary outbound event-delivery surfaces: 1. Log Streams — Custom Webhook (HTTP) destination Auth0 streams tenant log events to a customer-hosted HTTPS endpoint'
   name: Auth0 Log Streams and Actions Event Delivery
@@ -342,14 +342,236 @@ collections:
   name: Auth0 Management API
   slug: postman-auth0-management-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Auth0 Authentication actions API
+  slug: open-auth0-actions-api
+- collection_type: open
+  name: Auth0 Authentication actions anomaly API
+  slug: open-auth0-anomaly-api
+- collection_type: open
+  name: Auth0 Authentication actions Assertions API
+  slug: open-auth0-assertions-api
+- collection_type: open
+  name: Auth0 Authentication actions attack-protection API
+  slug: open-auth0-attack-protection-api
+- collection_type: open
   name: Auth0 Authentication API
   slug: open-auth0-authentication-api
+- collection_type: open
+  name: Auth0 Authentication actions Authorization Models API
+  slug: open-auth0-authorization-models-api
+- collection_type: open
+  name: Auth0 Authentication actions Authorize User API
+  slug: open-auth0-authorize-user-api
+- collection_type: open
+  name: Auth0 Authentication actions AuthZenService API
+  slug: open-auth0-authzenservice-api
+- collection_type: open
+  name: Auth0 Authentication actions branding API
+  slug: open-auth0-branding-api
+- collection_type: open
+  name: Auth0 Authentication actions client-grants API
+  slug: open-auth0-client-grants-api
+- collection_type: open
+  name: Auth0 Authentication actions clients API
+  slug: open-auth0-clients-api
+- collection_type: open
+  name: Auth0 Authentication actions connection-profiles API
+  slug: open-auth0-connection-profiles-api
+- collection_type: open
+  name: Auth0 Authentication actions connections API
+  slug: open-auth0-connections-api
+- collection_type: open
+  name: Auth0 Authentication actions connections-directory-provisionings API
+  slug: open-auth0-connections-directory-provisionings-api
+- collection_type: open
+  name: Auth0 Authentication actions connections-scim-configurations API
+  slug: open-auth0-connections-scim-configurations-api
+- collection_type: open
+  name: Auth0 Authentication actions custom-domains API
+  slug: open-auth0-custom-domains-api
+- collection_type: open
+  name: Auth0 Authentication actions DB Connections API
+  slug: open-auth0-db-connections-api
+- collection_type: open
+  name: Auth0 Authentication actions DbConnections API
+  slug: open-auth0-dbconnections-api
+- collection_type: open
+  name: Auth0 Authentication actions Deprecated > Authenticate API
+  slug: open-auth0-deprecated-authenticate-api
+- collection_type: open
+  name: Auth0 Authentication actions Deprecated > Delegated Authentication API
+  slug: open-auth0-deprecated-delegated-authentication-api
+- collection_type: open
+  name: Auth0 Authentication actions Deprecated > Impersonation API
+  slug: open-auth0-deprecated-impersonation-api
+- collection_type: open
+  name: Auth0 Authentication actions Deprecated > Link Accounts API
+  slug: open-auth0-deprecated-link-accounts-api
+- collection_type: open
+  name: Auth0 Authentication actions Deprecated > Passwordless API
+  slug: open-auth0-deprecated-passwordless-api
+- collection_type: open
+  name: Auth0 Authentication actions device-credentials API
+  slug: open-auth0-device-credentials-api
+- collection_type: open
+  name: Auth0 Authentication actions Device Flow API
+  slug: open-auth0-device-flow-api
+- collection_type: open
+  name: Auth0 Authentication actions email-templates API
+  slug: open-auth0-email-templates-api
+- collection_type: open
+  name: Auth0 Authentication actions emails API
+  slug: open-auth0-emails-api
+- collection_type: open
+  name: Auth0 Authentication actions event-streams API
+  slug: open-auth0-event-streams-api
+- collection_type: open
+  name: Auth0 Authentication actions events API
+  slug: open-auth0-events-api
 - collection_type: open
   name: OpenFGA
   slug: open-auth0-fga
 - collection_type: open
+  name: Auth0 Authentication actions flows API
+  slug: open-auth0-flows-api
+- collection_type: open
+  name: Auth0 Authentication actions forms API
+  slug: open-auth0-forms-api
+- collection_type: open
+  name: Auth0 Authentication actions grants API
+  slug: open-auth0-grants-api
+- collection_type: open
+  name: Auth0 Authentication actions groups API
+  slug: open-auth0-groups-api
+- collection_type: open
+  name: Auth0 Authentication actions guardian API
+  slug: open-auth0-guardian-api
+- collection_type: open
+  name: Auth0 Authentication actions hooks API
+  slug: open-auth0-hooks-api
+- collection_type: open
+  name: Auth0 Authentication actions jobs API
+  slug: open-auth0-jobs-api
+- collection_type: open
+  name: Auth0 Authentication actions keys API
+  slug: open-auth0-keys-api
+- collection_type: open
+  name: Auth0 Authentication actions log-streams API
+  slug: open-auth0-log-streams-api
+- collection_type: open
+  name: Auth0 Authentication actions Logout API
+  slug: open-auth0-logout-api
+- collection_type: open
+  name: Auth0 Authentication actions logs API
+  slug: open-auth0-logs-api
+- collection_type: open
   name: Auth0 Management API
   slug: open-auth0-management-api
+- collection_type: open
+  name: Auth0 Authentication actions MFA API
+  slug: open-auth0-mfa-api
+- collection_type: open
+  name: Auth0 Authentication actions network-acls API
+  slug: open-auth0-network-acls-api
+- collection_type: open
+  name: Auth0 Authentication actions OAuth Token API
+  slug: open-auth0-oauth-token-api
+- collection_type: open
+  name: Auth0 Authentication actions OIDC API
+  slug: open-auth0-oidc-api
+- collection_type: open
+  name: Auth0 Authentication actions organizations API
+  slug: open-auth0-organizations-api
+- collection_type: open
+  name: Auth0 Authentication actions Passwordless API
+  slug: open-auth0-passwordless-api
+- collection_type: open
+  name: Auth0 Authentication actions prompts API
+  slug: open-auth0-prompts-api
+- collection_type: open
+  name: Auth0 Authentication actions refresh-tokens API
+  slug: open-auth0-refresh-tokens-api
+- collection_type: open
+  name: Auth0 Authentication actions Relationship Queries API
+  slug: open-auth0-relationship-queries-api
+- collection_type: open
+  name: Auth0 Authentication actions Relationship Tuples API
+  slug: open-auth0-relationship-tuples-api
+- collection_type: open
+  name: Auth0 Authentication actions resource-servers API
+  slug: open-auth0-resource-servers-api
+- collection_type: open
+  name: Auth0 Authentication actions Revoke Refresh Token API
+  slug: open-auth0-revoke-refresh-token-api
+- collection_type: open
+  name: Auth0 Authentication actions risk-assessments API
+  slug: open-auth0-risk-assessments-api
+- collection_type: open
+  name: Auth0 Authentication actions roles API
+  slug: open-auth0-roles-api
+- collection_type: open
+  name: Auth0 Authentication actions rules API
+  slug: open-auth0-rules-api
+- collection_type: open
+  name: Auth0 Authentication actions rules-configs API
+  slug: open-auth0-rules-configs-api
+- collection_type: open
+  name: Auth0 Authentication actions SAML API
+  slug: open-auth0-saml-api
+- collection_type: open
+  name: Auth0 Authentication actions self-service-profiles API
+  slug: open-auth0-self-service-profiles-api
+- collection_type: open
+  name: Auth0 Authentication actions sessions API
+  slug: open-auth0-sessions-api
+- collection_type: open
+  name: Auth0 Authentication actions SSO API
+  slug: open-auth0-sso-api
+- collection_type: open
+  name: Auth0 Authentication actions stats API
+  slug: open-auth0-stats-api
+- collection_type: open
+  name: Auth0 Authentication actions Stores API
+  slug: open-auth0-stores-api
+- collection_type: open
+  name: Auth0 Authentication actions supplemental-signals API
+  slug: open-auth0-supplemental-signals-api
+- collection_type: open
+  name: Auth0 Authentication actions tenants API
+  slug: open-auth0-tenants-api
+- collection_type: open
+  name: Auth0 Authentication actions tickets API
+  slug: open-auth0-tickets-api
+- collection_type: open
+  name: Auth0 Authentication actions token-exchange-profiles API
+  slug: open-auth0-token-exchange-profiles-api
+- collection_type: open
+  name: Auth0 Authentication actions user-attribute-profiles API
+  slug: open-auth0-user-attribute-profiles-api
+- collection_type: open
+  name: Auth0 Authentication actions user-blocks API
+  slug: open-auth0-user-blocks-api
+- collection_type: open
+  name: Auth0 Authentication actions User Profile API
+  slug: open-auth0-user-profile-api
+- collection_type: open
+  name: Auth0 Authentication actions users API
+  slug: open-auth0-users-api
+- collection_type: open
+  name: Auth0 Authentication actions users-by-email API
+  slug: open-auth0-users-by-email-api
+- collection_type: open
+  name: Auth0 Authentication actions verifiable-credentials API
+  slug: open-auth0-verifiable-credentials-api
+- collection_type: open
+  name: Auth0 Authentication actions WS-Fed API
+  slug: open-auth0-ws-fed-api
+- collection_type: open
+  name: Auth0 Authentication actions WS-Federation API
+  slug: open-auth0-ws-federation-api
 common:
 - group: operate
   title: ''
@@ -8349,7 +8571,7 @@ plans:
 - name: Auth0 Plans Pricing
   plan_count: 4
   slug: auth0-plans-pricing
-random_paper: 2
+random_paper: 35
 rate_limits:
 - limit_count: 9
   name: Auth0 Rate Limits
@@ -8420,7 +8642,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/screenshots/auth0-2026-06-20T172604.png
 security:

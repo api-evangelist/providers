@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,14 @@ apis:
 - description: Public catalog browsing
   name: Coursera Catalog API
   slug: coursera-catalog-api
-artifact_total: 10
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coursera Catalog API
+  slug: open-coursera-catalog-api
 - collection_type: open
   name: Coursera Catalog API
   slug: open-coursera
@@ -117,7 +123,7 @@ plans:
 - name: Coursera Plans Pricing
   plan_count: 2
   slug: coursera-plans-pricing
-random_paper: 28
+random_paper: 123
 rate_limits:
 - limit_count: 1
   name: Coursera Rate Limits
@@ -142,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coursera/refs/heads/main/screenshots/coursera-2026-06-20T175124.png
 security:

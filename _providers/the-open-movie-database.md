@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +45,17 @@ apis:
 - description: Search for movies and series by title.
   name: The Open Movie Database Search API
   slug: the-open-movie-database-search-api
-artifact_total: 15
+artifact_total: 18
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: The Open Movie Database Movies API
+  slug: open-the-open-movie-database-movies-api
+- collection_type: open
+  name: The Open Movie Database Movies Search API
+  slug: open-the-open-movie-database-search-api
 - collection_type: open
   name: The Open Movie Database API
   slug: open-the-open-movie-database
@@ -123,7 +132,7 @@ plans:
 - name: The Open Movie Database Plans Pricing
   plan_count: 3
   slug: the-open-movie-database-plans-pricing
-random_paper: 95
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: The Open Movie Database Rate Limits
@@ -165,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/screenshots/the-open-movie-database-2026-06-20T195233.png
 security:

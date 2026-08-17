@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -66,11 +66,36 @@ arazzos:
 - description: Search for a company, request its data and documents, then poll for the result.
   name: Resolve a company and retrieve KYB data
   slug: topograph-resolve-and-retrieve
-artifact_total: 16
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Topograph Monitoring Webhooks
   slug: topograph-monitoring-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Topograph Billing API
+  slug: open-topograph-billing-api
+- collection_type: open
+  name: Topograph Billing Billing Notifications API
+  slug: open-topograph-billing-notifications-api
+- collection_type: open
+  name: Topograph Billing Data API
+  slug: open-topograph-data-api
+- collection_type: open
+  name: Topograph Billing Monitors API
+  slug: open-topograph-monitors-api
+- collection_type: open
+  name: Topograph Billing Pricing API
+  slug: open-topograph-pricing-api
+- collection_type: open
+  name: Topograph Billing Search API
+  slug: open-topograph-search-api
+- collection_type: open
+  name: Topograph Billing Workspaces API
+  slug: open-topograph-workspaces-api
 common:
 - group: start
   title: ''
@@ -231,7 +256,7 @@ overview: 'Topograph publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Topograph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
-random_paper: 20
+random_paper: 86
 scopes:
 - name: Topograph Scopes
   scope_count: 7
@@ -260,7 +285,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

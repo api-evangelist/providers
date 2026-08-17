@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'MDaaS Global is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   MDaaS Global''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 108
+random_paper: 145
 score:
   band: minimal
   composite: 6.5
@@ -79,7 +79,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mdaas-global/refs/heads/main/screenshots/mdaas-global-2026-08-07T172246.png
 security:

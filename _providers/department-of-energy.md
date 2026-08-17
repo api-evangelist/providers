@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,8 +93,50 @@ apis:
 - description: The Total Energy API from Department of Energy — 1 operation(s) for total energy.
   name: Department of Energy Total Energy API
   slug: department-of-energy-total-energy-api
-artifact_total: 26
+artifact_total: 40
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: EIA Open Data API V2 Aeo API
+  slug: open-department-of-energy-aeo-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Co2 Emissions API
+  slug: open-department-of-energy-co2-emissions-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Coal API
+  slug: open-department-of-energy-coal-api
+- collection_type: open
+  name: Aeo EIA Open Data API V2 API
+  slug: open-department-of-energy-eia-open-data-api-v2-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Electricity API
+  slug: open-department-of-energy-electricity-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo International API
+  slug: open-department-of-energy-international-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Natural Gas API
+  slug: open-department-of-energy-natural-gas-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Nuclear Outages API
+  slug: open-department-of-energy-nuclear-outages-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Petroleum API
+  slug: open-department-of-energy-petroleum-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Seds API
+  slug: open-department-of-energy-seds-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Seriesid API
+  slug: open-department-of-energy-seriesid-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Steo API
+  slug: open-department-of-energy-steo-api
+- collection_type: open
+  name: EIA Open Data API V2 Aeo Total Energy API
+  slug: open-department-of-energy-total-energy-api
 - collection_type: open
   name: EIA Open Data API V2
   slug: open-department-of-energy
@@ -203,7 +245,7 @@ plans:
 - name: Department Of Energy Plans Pricing
   plan_count: 3
   slug: department-of-energy-plans-pricing
-random_paper: 109
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Department Of Energy Rate Limits
@@ -234,7 +276,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/screenshots/department-of-energy-2026-06-20T175917.png
 security:

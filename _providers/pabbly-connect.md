@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Pabbly Connect is a workflow automation platform for connecting cloud applications and automating business processes.
@@ -88,7 +88,7 @@ plans:
 - name: Pabbly Connect Plans Pricing
   plan_count: 3
   slug: pabbly-connect-plans-pricing
-random_paper: 105
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Pabbly Connect Rate Limits
@@ -106,7 +106,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pabbly-connect/refs/heads/main/screenshots/pabbly-connect-2026-06-20T191305.png
 security:

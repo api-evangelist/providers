@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -63,7 +63,32 @@ apis:
 - description: Public market data endpoints — no authentication required
   name: Upbit Quotation API
   slug: upbit-quotation-api
-artifact_total: 16
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Upbit REST Exchange - Account API
+  slug: open-upbit-exchange-account-api
+- collection_type: open
+  name: Upbit REST Exchange - Account Exchange - Deposits API
+  slug: open-upbit-exchange-deposits-api
+- collection_type: open
+  name: Upbit REST Exchange - Account Exchange - Orders API
+  slug: open-upbit-exchange-orders-api
+- collection_type: open
+  name: Upbit REST Exchange - Account Exchange - Service API
+  slug: open-upbit-exchange-service-api
+- collection_type: open
+  name: Upbit REST Exchange - Account Exchange - Travel Rule API
+  slug: open-upbit-exchange-travel-rule-api
+- collection_type: open
+  name: Upbit REST Exchange - Account Exchange - Withdrawals API
+  slug: open-upbit-exchange-withdrawals-api
+- collection_type: open
+  name: Upbit REST Exchange - Account Quotation API
+  slug: open-upbit-quotation-api
 common:
 - group: agent
   title: ''
@@ -161,7 +186,7 @@ plans:
 - name: Upbit Plans Pricing
   plan_count: 2
   slug: upbit-plans-pricing
-random_paper: 68
+random_paper: 101
 rate_limits:
 - limit_count: 4
   name: Upbit Rate Limits
@@ -192,7 +217,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/screenshots/upbit-2026-06-20T200501.png
 security:

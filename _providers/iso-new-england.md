@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,11 @@ arazzos:
 - description: 'Explain a price event on a past operating day: pull the day-ahead hourly prices, the day''s transmission constraints, the fuel mix and the demand-response dispatch, then correlate the congestion compon'
   name: ISO New England price spike diagnosis
   slug: iso-new-england-price-spike-diagnosis
-artifact_total: 22
+artifact_total: 23
+collections:
+- collection_type: open
+  name: ISO New England Web Services API v1.1
+  slug: open-iso-new-england-web-services
 common:
 - group: agent
   title: ''
@@ -287,7 +291,7 @@ overview: 'ISO New England publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   ISO New England''s developer surface includes authentication, code examples, changelog, developer portal, API reference, documentation, signup flow, and 36 more developer resources.'
-random_paper: 40
+random_paper: 139
 score:
   band: developing
   composite: 48.6
@@ -317,7 +321,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/screenshots/iso-new-england-2026-08-07T170922.png
 security:

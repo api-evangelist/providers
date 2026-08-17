@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,32 @@ apis:
 - description: URI normalization and text standardization
   name: ConceptNet Utilities API
   slug: conceptnet-utilities-api
-artifact_total: 22
+artifact_total: 30
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ConceptNet REST Concepts API
+  slug: open-conceptnet-concepts-api
+- collection_type: open
+  name: ConceptNet REST Concepts Edges API
+  slug: open-conceptnet-edges-api
+- collection_type: open
+  name: ConceptNet REST Concepts Query API
+  slug: open-conceptnet-query-api
+- collection_type: open
+  name: ConceptNet REST Concepts Relations API
+  slug: open-conceptnet-relations-api
+- collection_type: open
+  name: ConceptNet REST Concepts Similarity API
+  slug: open-conceptnet-similarity-api
+- collection_type: open
+  name: ConceptNet REST Concepts Sources API
+  slug: open-conceptnet-sources-api
+- collection_type: open
+  name: ConceptNet REST Concepts Utilities API
+  slug: open-conceptnet-utilities-api
 common:
 - group: operate
   title: ''
@@ -173,7 +198,7 @@ plans:
 - name: Conceptnet Plans Pricing
   plan_count: 2
   slug: conceptnet-plans-pricing
-random_paper: 115
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Conceptnet Rate Limits
@@ -213,7 +238,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/screenshots/conceptnet-2026-06-20T174840.png
 security:

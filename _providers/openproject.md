@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -225,8 +225,194 @@ apis:
 - description: Workspaces are containers for resources to be worked on and people with sets of permissions that work on the former. There is no actual workspace resource in OpenProject. Rather, it is the generic ter
   name: OpenProject Workspaces API
   slug: openproject-workspaces-api
-artifact_total: 70
+artifact_total: 132
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities API
+  slug: open-openproject-actions-capabilities-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Activities API
+  slug: open-openproject-activities-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Attachments API
+  slug: open-openproject-attachments-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Budgets API
+  slug: open-openproject-budgets-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Categories API
+  slug: open-openproject-categories-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Collections API
+  slug: open-openproject-collections-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Configuration API
+  slug: open-openproject-configuration-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Custom actions API
+  slug: open-openproject-custom-actions-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Custom Field Items API
+  slug: open-openproject-custom-field-items-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Custom Fields API
+  slug: open-openproject-custom-fields-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Custom Options API
+  slug: open-openproject-custom-options-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Documents API
+  slug: open-openproject-documents-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities EmojiReactions API
+  slug: open-openproject-emojireactions-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Favorites API
+  slug: open-openproject-favorites-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities File Links API
+  slug: open-openproject-file-links-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Forms API
+  slug: open-openproject-forms-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Grids API
+  slug: open-openproject-grids-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Groups API
+  slug: open-openproject-groups-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Help texts API
+  slug: open-openproject-help-texts-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Meetings API
+  slug: open-openproject-meetings-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Memberships API
+  slug: open-openproject-memberships-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities News API
+  slug: open-openproject-news-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Notifications API
+  slug: open-openproject-notifications-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities OAuth 2 API
+  slug: open-openproject-oauth-2-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Portfolios API
+  slug: open-openproject-portfolios-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Posts API
+  slug: open-openproject-posts-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Principals API
+  slug: open-openproject-principals-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Priorities API
+  slug: open-openproject-priorities-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Programs API
+  slug: open-openproject-programs-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Project Phase Definitions API
+  slug: open-openproject-project-phase-definitions-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Project Phases API
+  slug: open-openproject-project-phases-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Projects API
+  slug: open-openproject-projects-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Queries API
+  slug: open-openproject-queries-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Query Columns API
+  slug: open-openproject-query-columns-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Query Filter Instance Schema API
+  slug: open-openproject-query-filter-instance-schema-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Query Filters API
+  slug: open-openproject-query-filters-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Query Operators API
+  slug: open-openproject-query-operators-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Query Sort Bys API
+  slug: open-openproject-query-sort-bys-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Relations API
+  slug: open-openproject-relations-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Reminders API
+  slug: open-openproject-reminders-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Revisions API
+  slug: open-openproject-revisions-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Roles API
+  slug: open-openproject-roles-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Root API
+  slug: open-openproject-root-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Schemas API
+  slug: open-openproject-schemas-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Sprints API
+  slug: open-openproject-sprints-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Statuses API
+  slug: open-openproject-statuses-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Time Entries API
+  slug: open-openproject-time-entries-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Time entry activities API
+  slug: open-openproject-time-entry-activities-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Types API
+  slug: open-openproject-types-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities User Working Times API
+  slug: open-openproject-user-working-times-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities UserPreferences API
+  slug: open-openproject-userpreferences-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Users API
+  slug: open-openproject-users-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Values::Property API
+  slug: open-openproject-values-property-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Versions API
+  slug: open-openproject-versions-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Views API
+  slug: open-openproject-views-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Wiki Pages API
+  slug: open-openproject-wiki-pages-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Work Packages API
+  slug: open-openproject-work-packages-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Work Schedule API
+  slug: open-openproject-work-schedule-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities WorkPackages API
+  slug: open-openproject-workpackages-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Workspace API
+  slug: open-openproject-workspace-api
+- collection_type: open
+  name: OpenProject API V3 (Stable) Actions & Capabilities Workspaces API
+  slug: open-openproject-workspaces-api
 - collection_type: open
   name: OpenProject API V3 (Stable)
   slug: open-openproject
@@ -307,7 +493,7 @@ plans:
 - name: Openproject Plans Pricing
   plan_count: 3
   slug: openproject-plans-pricing
-random_paper: 113
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Openproject Rate Limits
@@ -332,7 +518,7 @@ score:
       marker_coverage: 0.0
       total: 62
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/screenshots/openproject-2026-06-20T191026.png
 security:

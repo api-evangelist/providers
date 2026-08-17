@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,7 +44,14 @@ arazzos:
 - description: Create a commercial quote with QBE Australia, amend it, then convert it into a bound policy.
   name: QBE quote to bound policy
   slug: qbe-quote-to-bind
-artifact_total: 10
+artifact_total: 12
+collections:
+- collection_type: open
+  name: ANZO Digital Brokers Experience API
+  slug: open-qbe-anzo-digital-brokers
+- collection_type: open
+  name: CTP Switch Service
+  slug: open-qbe-ctp-switch-service
 common:
 - group: agent
   title: ''
@@ -187,7 +194,7 @@ overview: 'QBE Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   QBE Insurance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 25 more developer resources.'
-random_paper: 72
+random_paper: 14
 score:
   band: thin
   composite: 35.7
@@ -217,7 +224,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

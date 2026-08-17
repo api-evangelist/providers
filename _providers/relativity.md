@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 421
   human_in_the_loop: 21
@@ -192,7 +192,167 @@ apis:
 - description: The WorkspaceJob API from Relativity — 2 operation(s) for workspacejob.
   name: Relativity WorkspaceJob API
   slug: relativity-workspacejob-api
-artifact_total: 62
+artifact_total: 115
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService API
+  slug: open-relativity-annotationservice-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService ArchiveJobs API
+  slug: open-relativity-archivejobs-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService ARM Module v1 API
+  slug: open-relativity-arm-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService ARM Module v3 API
+  slug: open-relativity-arm-module-v3-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService BillableSummaryReports API
+  slug: open-relativity-billablesummaryreports-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService BillingConfiguration API
+  slug: open-relativity-billingconfiguration-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService BillingInsights API
+  slug: open-relativity-billinginsights-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Client Side Libraries Module API
+  slug: open-relativity-client-side-libraries-module-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService ColdStorage API
+  slug: open-relativity-coldstorage-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService CollectAPI API
+  slug: open-relativity-collectapi-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Conceptual Analytics v1 API
+  slug: open-relativity-conceptual-analytics-v1-api
+- collection_type: open
+  name: Relativity.Services.DataVisualization
+  slug: open-relativity-data-visualization
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Directory API
+  slug: open-relativity-directory-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Document Configuration Module API
+  slug: open-relativity-document-configuration-module-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService DocumentViewerService API
+  slug: open-relativity-documentviewerservice-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService DtSearchIndex Module v1 API
+  slug: open-relativity-dtsearchindex-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Glacier Jobs API
+  slug: open-relativity-glacier-jobs-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Glacier Restore API
+  slug: open-relativity-glacier-restore-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Glacier Storage API
+  slug: open-relativity-glacier-storage-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Glacier Store API
+  slug: open-relativity-glacier-store-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Health Check Module API
+  slug: open-relativity-health-check-module-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Identity Module v1 API
+  slug: open-relativity-identity-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Import Job Module API
+  slug: open-relativity-import-job-module-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Import Source Module API
+  slug: open-relativity-import-source-module-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService JobActions API
+  slug: open-relativity-jobactions-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService JobInformation API
+  slug: open-relativity-jobinformation-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Legal Hold Module API
+  slug: open-relativity-legal-hold-module-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Metadata API
+  slug: open-relativity-metadata-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Metrics Module API
+  slug: open-relativity-metrics-module-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Object Manager v1 API
+  slug: open-relativity-object-manager-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService ObjectManagerAPI API
+  slug: open-relativity-objectmanagerapi-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Permissions Access Control API
+  slug: open-relativity-permissions-access-control-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService PersistentHighlightService API
+  slug: open-relativity-persistenthighlightservice-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Processing Module v1 API
+  slug: open-relativity-processing-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Processing Module v2 API
+  slug: open-relativity-processing-module-v2-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService RDO Configuration Module API
+  slug: open-relativity-rdo-configuration-module-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Relativity Automated Workflows API
+  slug: open-relativity-relativity-automated-workflows-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Relativity Environment Module v1 API
+  slug: open-relativity-relativity-environment-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Relativity Infrastructure Module v1 API
+  slug: open-relativity-relativity-infrastructure-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Relativity Mass Operation Module v2 API
+  slug: open-relativity-relativity-mass-operation-module-v2-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Relativity Notifications Module v1 API
+  slug: open-relativity-relativity-notifications-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Relativity Pivot Module v1 API
+  slug: open-relativity-relativity-pivot-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Relativity Structured Analytics v1 API
+  slug: open-relativity-relativity-structured-analytics-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Reports API
+  slug: open-relativity-reports-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService RestoreJobs API
+  slug: open-relativity-restorejobs-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService ShortMessageViewerService API
+  slug: open-relativity-shortmessageviewerservice-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService TransferControllerV2 API
+  slug: open-relativity-transfercontrollerv2-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Versioned Imaging Module v1 API
+  slug: open-relativity-versioned-imaging-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Versioned Production Module v1 API
+  slug: open-relativity-versioned-production-module-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Web Import Export v1 API
+  slug: open-relativity-web-import-export-v1-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService Workspace API
+  slug: open-relativity-workspace-api
+- collection_type: open
+  name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService WorkspaceJob API
+  slug: open-relativity-workspacejob-api
 common:
 - group: agent
   title: ''
@@ -314,7 +474,7 @@ plans:
 - name: Relativity Plans Pricing
   plan_count: 3
   slug: relativity-plans-pricing
-random_paper: 21
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Relativity Rate Limits
@@ -344,7 +504,7 @@ score:
       marker_coverage: 0.0
       total: 53
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/screenshots/relativity-2026-06-20T192818.png
 security:

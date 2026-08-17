@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 32
 apis:
 - description: General system endpoints for the API.
@@ -127,11 +127,111 @@ apis:
 - description: The waiver API from Leo1 — 1 operation(s) for waiver.
   name: Leo1 waiver API
   slug: leo1-waiver-api
-artifact_total: 36
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Leo1 Fees Webhooks
   slug: leo1-fees-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: leofees_backend api API
+  slug: open-leo1-api-api
+- collection_type: open
+  name: leofees_backend api auth API
+  slug: open-leo1-auth-api
+- collection_type: open
+  name: leofees_backend api Common Fee Type API
+  slug: open-leo1-common-fee-type-api
+- collection_type: open
+  name: leofees_backend api Communication API
+  slug: open-leo1-communication-api
+- collection_type: open
+  name: leofees_backend api documents API
+  slug: open-leo1-documents-api
+- collection_type: open
+  name: leofees_backend api Enach API
+  slug: open-leo1-enach-api
+- collection_type: open
+  name: leofees_backend api fee_collections API
+  slug: open-leo1-fee-collections-api
+- collection_type: open
+  name: leofees_backend api fee_dues API
+  slug: open-leo1-fee-dues-api
+- collection_type: open
+  name: leofees_backend api institute API
+  slug: open-leo1-institute-api
+- collection_type: open
+  name: leofees_backend api Institute Course API
+  slug: open-leo1-institute-course-api
+- collection_type: open
+  name: leofees_backend api Institute Course Class API
+  slug: open-leo1-institute-course-class-api
+- collection_type: open
+  name: leofees_backend api Institute Course Class Fee Structure Mapping API
+  slug: open-leo1-institute-course-class-fee-structure-mapping-api
+- collection_type: open
+  name: leofees_backend api Institute Course Fee Structure API
+  slug: open-leo1-institute-course-fee-structure-api
+- collection_type: open
+  name: leofees_backend api Institute Fee Type API
+  slug: open-leo1-institute-fee-type-api
+- collection_type: open
+  name: leofees_backend api Institute Payment API
+  slug: open-leo1-institute-payment-api
+- collection_type: open
+  name: leofees_backend api Nach Feature API
+  slug: open-leo1-nach-feature-api
+- collection_type: open
+  name: leofees_backend api Nach Feature V2 API
+  slug: open-leo1-nach-feature-v2-api
+- collection_type: open
+  name: leofees_backend api Operations API
+  slug: open-leo1-operations-api
+- collection_type: open
+  name: leofees_backend api payment API
+  slug: open-leo1-payment-api
+- collection_type: open
+  name: leofees_backend api penalty API
+  slug: open-leo1-penalty-api
+- collection_type: open
+  name: leofees_backend api refund API
+  slug: open-leo1-refund-api
+- collection_type: open
+  name: leofees_backend api Reversal Feature API
+  slug: open-leo1-reversal-feature-api
+- collection_type: open
+  name: leofees_backend api SDK API
+  slug: open-leo1-sdk-api
+- collection_type: open
+  name: leofees_backend api student account API
+  slug: open-leo1-student-account-api
+- collection_type: open
+  name: leofees_backend api student API
+  slug: open-leo1-student-api
+- collection_type: open
+  name: leofees_backend api student coin request API
+  slug: open-leo1-student-coin-request-api
+- collection_type: open
+  name: leofees_backend api student otp API
+  slug: open-leo1-student-otp-api
+- collection_type: open
+  name: leofees_backend api Summary for fee module API
+  slug: open-leo1-summary-for-fee-module-api
+- collection_type: open
+  name: leofees_backend api Switch Feature API
+  slug: open-leo1-switch-feature-api
+- collection_type: open
+  name: leofees_backend api transactions API
+  slug: open-leo1-transactions-api
+- collection_type: open
+  name: leofees_backend api user API
+  slug: open-leo1-user-api
+- collection_type: open
+  name: leofees_backend api waiver API
+  slug: open-leo1-waiver-api
 common:
 - group: agent
   title: ''
@@ -256,7 +356,7 @@ overview: 'Leo1 publishes 32 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Leo1''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 9
+random_paper: 71
 score:
   band: thin
   composite: 41.6
@@ -285,7 +385,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/screenshots/leo1-2026-07-25T224919.png
 security:

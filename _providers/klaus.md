@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: The PubImportApi API from Klaus — 3 operation(s) for pubimportapi.
@@ -37,7 +37,17 @@ apis:
 - description: The PublicExportApi API from Klaus — 18 operation(s) for publicexportapi.
   name: Klaus PublicExportApi API
   slug: klaus-publicexportapi-api
-artifact_total: 8
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Public Export PubImportApi API
+  slug: open-klaus-pubimportapi-api
+- collection_type: open
+  name: Public Export PubImportApi PublicExportApi API
+  slug: open-klaus-publicexportapi-api
 common:
 - group: other
   title: ''
@@ -195,7 +205,7 @@ overview: 'Klaus publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pu
 
 
   Klaus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 64
+random_paper: 97
 rate_limits:
 - limit_count: 4
   name: Klaus Rate Limits
@@ -222,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/screenshots/klaus-2026-07-25T223939.png
 security:

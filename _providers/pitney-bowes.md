@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: The Tracking API from Pitney Bowes — 1 operation(s) for tracking.
   name: Pitney Bowes Tracking API
   slug: pitney-bowes-tracking-api
-artifact_total: 16
+artifact_total: 25
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pitney Bowes Shipping Address API
+  slug: open-pitney-bowes-address-api
+- collection_type: open
+  name: Pitney Bowes Shipping Address Manifests API
+  slug: open-pitney-bowes-manifests-api
+- collection_type: open
+  name: Pitney Bowes Shipping Address Oauth API
+  slug: open-pitney-bowes-oauth-api
+- collection_type: open
+  name: Pitney Bowes Shipping Address Pickups API
+  slug: open-pitney-bowes-pickups-api
+- collection_type: open
+  name: Pitney Bowes Shipping Address Rating API
+  slug: open-pitney-bowes-rating-api
+- collection_type: open
+  name: Pitney Bowes Shipping Address Reports API
+  slug: open-pitney-bowes-reports-api
+- collection_type: open
+  name: Pitney Bowes Shipping Address Shipments API
+  slug: open-pitney-bowes-shipments-api
+- collection_type: open
+  name: Pitney Bowes Shipping Address Tracking API
+  slug: open-pitney-bowes-tracking-api
 - collection_type: open
   name: Pitney Bowes Shipping API
   slug: open-pitney-bowes
@@ -133,7 +160,7 @@ press:
 - date: '2026-05-25'
   title: Pitney Bowes to Deploy Ambi Robotics AI-Powered ...
   url: https://www.ambirobotics.com/media/pitney-bowes-deploys-ambisort/
-random_paper: 54
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Pitney Bowes Rate Limits
@@ -163,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/screenshots/pitney-bowes-2026-06-20T191739.png
 security:

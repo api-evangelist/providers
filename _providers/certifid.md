@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 15
 apis:
 - description: The AccountVerifications API from CertifID — 4 operation(s) for accountverifications.
@@ -66,7 +66,59 @@ apis:
 - description: The WiringInstructions API from CertifID — 1 operation(s) for wiringinstructions.
   name: CertifID Wiring Instructions API
   slug: certifid-wiringinstructions-api
-artifact_total: 19
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CertifID V2 Account Verifications API
+  slug: open-certifid-accountverifications-api
+- collection_type: open
+  name: CertifID V2 Bank Lookup API
+  slug: open-certifid-banklookup-api
+- collection_type: open
+  name: CertifID V2 Collect Request API
+  slug: open-certifid-collectrequest-api
+- collection_type: open
+  name: CertifID V2 Confirm Request API
+  slug: open-certifid-confirmrequest-api
+- collection_type: open
+  name: CertifID V2 Disbursements API
+  slug: open-certifid-disbursements-api
+- collection_type: open
+  name: CertifID V2 Identity Request API
+  slug: open-certifid-identityrequest-api
+- collection_type: open
+  name: CertifID V2 Integration API
+  slug: open-certifid-integration-api
+- collection_type: open
+  name: CertifID V2 Lenders API
+  slug: open-certifid-lenders-api
+- collection_type: open
+  name: CertifID V2 Location API
+  slug: open-certifid-location-api
+- collection_type: open
+  name: CertifID V2 Payoff Ordering API
+  slug: open-certifid-payoffordering-api
+- collection_type: open
+  name: CertifID V2 Send Request API
+  slug: open-certifid-sendrequest-api
+- collection_type: open
+  name: CertifID V2 Test API
+  slug: open-certifid-test-api
+- collection_type: open
+  name: CertifID V2 Underwriter API
+  slug: open-certifid-underwriter-api
+- collection_type: open
+  name: CertifID V2 Users API
+  slug: open-certifid-users-api
+- collection_type: open
+  name: CertifID V2 APIs
+  slug: open-certifid-v2-apis
+- collection_type: open
+  name: CertifID V2 Wiring Instructions API
+  slug: open-certifid-wiringinstructions-api
 common:
 - group: agent
   title: ''
@@ -196,7 +248,7 @@ overview: 'CertifID publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   CertifID''s developer surface includes API reference, authentication, changelog, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 2
+random_paper: 97
 scopes:
 - name: Certifid Scopes
   scope_count: 12
@@ -230,7 +282,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

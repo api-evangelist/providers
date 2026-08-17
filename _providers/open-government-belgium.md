@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: Belgium Government Open Data
@@ -56,7 +56,7 @@ name: Open Government, Belgium
 nav: Providers
 network: true
 overview: Open Government, Belgium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 78
+random_paper: 123
 score:
   band: minimal
   composite: 6.5
@@ -76,7 +76,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-government-belgium/refs/heads/main/screenshots/open-government-belgium-2026-08-07T190517.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Baba is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Baba''s developer surface includes support and 5 more developer resources.'
-random_paper: 30
+random_paper: 92
 score:
   band: emerging
   composite: 13.4
@@ -87,7 +87,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baba/refs/heads/main/screenshots/baba-2026-07-25T202149.png
 security:

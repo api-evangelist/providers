@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'Versioned REST API for MSME credit assessment and decisioning. Submits applications for real-time scoring and returns a decision, risk flags, and pricing (e.g. POST /v1/assessments). Supports webhook '
@@ -106,7 +106,7 @@ overview: 'Abwab Ai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Abwab Ai''s developer surface includes documentation, API reference, engineering blog, support, and 9 more developer resources.'
-random_paper: 36
+random_paper: 11
 score:
   band: thin
   composite: 33.9
@@ -122,7 +122,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abwab-ai/refs/heads/main/screenshots/abwab-ai-2026-07-25T181413.png
 security:

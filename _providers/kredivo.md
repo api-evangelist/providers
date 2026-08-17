@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: Installment, interest and service-fee breakdown.
@@ -46,11 +46,30 @@ apis:
 - description: Status, cancellation and reversal of transactions.
   name: Kredivo Transactions API
   slug: kredivo-transactions-api
-artifact_total: 10
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Kredivo Checkout Webhooks
   slug: kredivo-checkout-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kredivo Checkout Calculator API
+  slug: open-kredivo-calculator-api
+- collection_type: open
+  name: Kredivo Calculator Checkout API
+  slug: open-kredivo-checkout-api
+- collection_type: open
+  name: Kredivo Checkout Calculator Confirmation API
+  slug: open-kredivo-confirmation-api
+- collection_type: open
+  name: Kredivo Checkout Calculator Tokenization API
+  slug: open-kredivo-tokenization-api
+- collection_type: open
+  name: Kredivo Checkout Calculator Transactions API
+  slug: open-kredivo-transactions-api
 common:
 - group: other
   title: ''
@@ -207,7 +226,7 @@ overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kredivo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 36
+random_paper: 11
 score:
   band: developing
   composite: 51.4
@@ -236,7 +255,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 9
 apis:
 - description: OpenAI-compatible REST API gateway aggregating GPT, Claude, Gemini, DeepSeek, plus image, video, and audio model providers behind a single key and routing/failover layer. Model marketplace, usage logs
@@ -58,7 +58,35 @@ apis:
 - description: Async task polling for long-running image/video/audio jobs.
   name: WanAPIs Tasks API
   slug: wanapis-tasks-api
-artifact_total: 24
+artifact_total: 33
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WanAPIs Unified AI Audio API
+  slug: open-wanapis-audio-api
+- collection_type: open
+  name: WanAPIs Unified AI Chat API
+  slug: open-wanapis-chat-api
+- collection_type: open
+  name: WanAPIs Unified AI Completions API
+  slug: open-wanapis-completions-api
+- collection_type: open
+  name: WanAPIs Unified AI Embeddings API
+  slug: open-wanapis-embeddings-api
+- collection_type: open
+  name: WanAPIs Unified AI Images API
+  slug: open-wanapis-images-api
+- collection_type: open
+  name: WanAPIs Unified AI Models API
+  slug: open-wanapis-models-api
+- collection_type: open
+  name: WanAPIs Unified AI Responses API
+  slug: open-wanapis-responses-api
+- collection_type: open
+  name: WanAPIs Unified AI Tasks API
+  slug: open-wanapis-tasks-api
 common:
 - group: auth
   title: ''
@@ -138,7 +166,7 @@ plans:
 - name: Wanapis Plans Pricing
   plan_count: 2
   slug: wanapis-plans-pricing
-random_paper: 35
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Wanapis Rate Limits
@@ -179,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/screenshots/wanapis-2026-06-20T201218.png
 security:

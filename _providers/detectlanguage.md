@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,20 @@ apis:
 - description: Retrieve the list of supported languages.
   name: DetectLanguage Languages API
   slug: detectlanguage-languages-api
-artifact_total: 18
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: DetectLanguage Account API
+  slug: open-detectlanguage-account-api
+- collection_type: open
+  name: DetectLanguage Account Detection API
+  slug: open-detectlanguage-detection-api
+- collection_type: open
+  name: DetectLanguage Account Languages API
+  slug: open-detectlanguage-languages-api
 common:
 - group: agent
   title: ''
@@ -161,7 +174,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 29
+random_paper: 128
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -195,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/screenshots/detectlanguage-2026-06-20T175940.png
 security:

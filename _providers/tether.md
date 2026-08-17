@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 5
 apis:
 - description: The API Keys API from Tether — 2 operation(s) for api keys.
@@ -37,7 +37,26 @@ apis:
 - description: Query token transfer history for addresses
   name: Tether Token Transfers API
   slug: tether-token-transfers-api
-artifact_total: 10
+artifact_total: 16
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: WDK Indexer API Keys API
+  slug: open-tether-api-keys-api
+- collection_type: open
+  name: WDK Indexer Chains API
+  slug: open-tether-chains-api
+- collection_type: open
+  name: WDK Indexer Health API
+  slug: open-tether-health-api
+- collection_type: open
+  name: WDK Indexer Token Balances API
+  slug: open-tether-token-balances-api
+- collection_type: open
+  name: WDK Indexer Token Transfers API
+  slug: open-tether-token-transfers-api
 common:
 - group: company
   title: ''
@@ -191,7 +210,7 @@ overview: 'Tether publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tether''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 27 more developer resources.'
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 6
   name: Tether Rate Limits
@@ -224,7 +243,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

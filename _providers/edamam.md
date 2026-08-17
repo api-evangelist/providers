@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,19 +51,25 @@ apis:
 - description: Search foods by keyword or barcode and resolve nutrition.
   name: Edamam Food Database API
   slug: edamam-food-database-api
-artifact_total: 77
+artifact_total: 79
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Edamam Food and Grocery Database API
   slug: open-edamam-food-and-grocery-database-api
 - collection_type: open
-  name: Edamam Meal Planner API
+  name: Edamam Food and Grocery Database Food Database API
+  slug: open-edamam-food-database-api
+- collection_type: open
+  name: Edamam Food and Grocery Database Food Database Meal Planner API
   slug: open-edamam-meal-planner-api
 - collection_type: open
-  name: Edamam Nutrition Analysis API
+  name: Edamam Food and Grocery Database Food Database Nutrition Analysis API
   slug: open-edamam-nutrition-analysis-api
 - collection_type: open
-  name: Edamam Recipe Search API
+  name: Edamam Food and Grocery Database Food Database Recipe Search API
   slug: open-edamam-recipe-search-api
 common:
 - group: agent
@@ -376,7 +382,7 @@ plans:
 - name: Edamam Plans Pricing
   plan_count: 4
   slug: edamam-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 11
   name: Edamam Rate Limits
@@ -418,7 +424,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edamam/refs/heads/main/screenshots/edamam-2026-06-20T180443.png
 security:

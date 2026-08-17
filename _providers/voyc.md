@@ -9,27 +9,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-12'
-api_count: 0
-artifact_total: 4
+  score: 37.4
+  scored_at: '2026-08-17'
+api_count: 1
+apis:
+- description: Voyc's integration API, monitored on the public status page as "Voyc API v3" (Data Export) alongside "Voyc API" (Conversation Uploads & Reporting). The production host is api.app.voyc.ai, confirmed li
+  name: Voyc API v3
+  slug: voyc-api-v3
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Voyc Webhooks
@@ -54,7 +58,11 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://insights.voyc.ai/blog
+  url: https://voyc.ai/voyc-ai-blog-articles-case-studies-and-whitepapers/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.voyc.ai/en/collections/2918818-getting-started-with-voyc
 - group: operate
   title: ''
   type: StatusPage
@@ -107,44 +115,96 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/voyc-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/voyc-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/voyc-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/voyc-problem-types.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/voyc-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/voyc-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/voyc-rate-limits.yml
+coverage:
+  checked: '2026-08-14'
+  detail: Voyc runs a real production API at api.app.voyc.ai — /v3/organisation/ answers a live 403 not_authenticated — but ships no public reference, OpenAPI, portal or SDK anywhere; the integration documentation is handed to customers during onboarding, so the only public trace of the API is a component name on the incident.io status page.
+  evidence:
+  - status: 403
+    url: https://api.app.voyc.ai/v3/organisation/
+  - status: 404
+    url: https://api.app.voyc.ai/openapi.json
+  - status: 404
+    url: https://voyc.ai/api/
+  - status: 404
+    url: https://voyc.ai/developers/
+  - status: 200
+    url: https://help.voyc.ai/en/
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
 description: Voyc is a conversation intelligence and compliance monitoring platform for regulated industries such as financial services and insurance. The platform automatically monitors 100% of contact centre interactions using speech analytics AI, flagging high-risk cases, complaints, and vulnerable customers in near real time, automating QA review, and producing the management information firms need to evidence regulatory compliance (including FCA Consumer Duty). Calls reach Voyc from telephony platforms like Twilio, Genesys, Five9, RingCentral, Aircall, Amazon Connect, and Talkdesk via SFTP or API, and a Voyc API (v3) supports conversation uploads and data export alongside webhooks.
 image: https://github.com/voyc-ai.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-14'
 name: Voyc
 nav: Providers
 network: true
-overview: 'Voyc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversation Intelligence, Compliance, Call Monitoring, and Speech Analytics.
+overview: 'Voyc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversation Intelligence, Compliance, Call Monitoring, and Speech Analytics.
 
 
   The Voyc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Voyc''s developer surface includes documentation, support, engineering blog, and 15 more developer resources.'
-random_paper: 89
+  Voyc''s developer surface includes documentation, support, engineering blog, getting-started guide, authentication, and 20 more developer resources.'
+plans:
+- name: Voyc Plans Pricing
+  plan_count: 0
+  slug: voyc-plans-pricing
+random_paper: 2
+rate_limits:
+- limit_count: 0
+  name: Voyc Rate Limits
+  slug: voyc-rate-limits
 score:
-  band: thin
-  composite: 39.4
-  delta: 0.0
+  band: developing
+  composite: 45.6
+  delta: 6.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
-    developer_ergonomics: 15.2
-    discoverability: 68.5
+    developer_ergonomics: 37.0
+    discoverability: 87.0
     governance: 12.5
     operational_transparency: 39.5
   previous_composite: 39.4
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 security:
+- kind: authentication
+  name: Voyc Authentication
+  slug: voyc-authentication
+  summary_line: cookie-session/api-token · 2 schemes
 - kind: domain-security
   name: Voyc Domain Security
   slug: voyc-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: vulnerability-disclosure
   name: Voyc Vulnerability Disclosure
   slug: voyc-vulnerability-disclosure
@@ -152,7 +212,7 @@ security:
 - kind: trust-center
   name: Voyc Trust Center
   slug: voyc-trust-center
-  summary_line: SOC 2 Type 1, SOC 2 Type 2
+  summary_line: SOC 2
 slug: voyc
 tags:
 - Company

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - description: The Webhooks API from Upsie — 2 operation(s) for webhooks.
   name: Upsie Webhooks API
   slug: upsie-webhooks-api
-artifact_total: 14
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Upsie Webhooks
@@ -71,6 +71,33 @@ collections:
 - collection_type: postman
   name: Upsie Partner Network API
   slug: postman-upsie-partner-network-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Upsie Partner Network Authorization API
+  slug: open-upsie-authorization-api
+- collection_type: open
+  name: Upsie Partner Network Authorization Repair Assignments (/repairassignments) API
+  slug: open-upsie-repair-assignments-repairassignments-api
+- collection_type: open
+  name: Upsie Partner Network Authorization Repair Categories API
+  slug: open-upsie-repair-categories-api
+- collection_type: open
+  name: Upsie Partner Network Authorization Repair Item Templates API
+  slug: open-upsie-repair-item-templates-api
+- collection_type: open
+  name: Upsie Partner Network Authorization Repair Items (/repairitems) API
+  slug: open-upsie-repair-items-repairitems-api
+- collection_type: open
+  name: Upsie Partner Network Authorization Repair Notes API
+  slug: open-upsie-repair-notes-api
+- collection_type: open
+  name: Upsie Partner Network Authorization Repairs (/repairs) API
+  slug: open-upsie-repairs-repairs-api
+- collection_type: open
+  name: Upsie Partner Network Authorization Webhooks API
+  slug: open-upsie-webhooks-api
 common:
 - group: other
   title: ''
@@ -183,7 +210,7 @@ overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Upsie''s developer surface includes documentation, API reference, support, signup flow, authentication, sandbox, and 17 more developer resources.'
-random_paper: 70
+random_paper: 103
 score:
   band: developing
   composite: 42.9
@@ -213,7 +240,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

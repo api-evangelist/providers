@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: User-entered events such as carbohydrate intake, insulin doses, exercise, and health events.
   name: Dexcom Events API
   slug: dexcom-events-api
-artifact_total: 116
+artifact_total: 124
 collections:
 - collection_type: postman
   name: Dexcom Developer Alerts API
@@ -84,8 +84,32 @@ collections:
   name: Dexcom Developer Alerts Events API
   slug: postman-dexcom-events-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Dexcom Developer Alerts API
+  slug: open-dexcom-alerts-api
+- collection_type: open
+  name: Dexcom Developer Alerts Authentication API
+  slug: open-dexcom-authentication-api
+- collection_type: open
+  name: Dexcom Developer Alerts Calibrations API
+  slug: open-dexcom-calibrations-api
+- collection_type: open
+  name: Dexcom Developer Alerts Data Range API
+  slug: open-dexcom-data-range-api
+- collection_type: open
+  name: Dexcom Developer Alerts Devices API
+  slug: open-dexcom-devices-api
+- collection_type: open
   name: Dexcom Developer API
   slug: open-dexcom-dexcom-api
+- collection_type: open
+  name: Dexcom Developer Alerts Estimated Glucose Values API
+  slug: open-dexcom-estimated-glucose-values-api
+- collection_type: open
+  name: Dexcom Developer Alerts Events API
+  slug: open-dexcom-events-api
 common:
 - group: build
   title: ''
@@ -430,7 +454,7 @@ plans:
 - name: Dexcom Plans Pricing
   plan_count: 1
   slug: dexcom-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Dexcom Rate Limits
@@ -483,7 +507,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/screenshots/dexcom-2026-06-20T175957.png
 security:

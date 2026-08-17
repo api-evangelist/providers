@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 28
@@ -173,11 +173,150 @@ apis:
 - description: The widget API from Unisson — 10 operation(s) for widget.
   name: Unisson widget API
   slug: unisson-widget-api
-artifact_total: 51
+artifact_total: 97
 asyncapis:
 - description: ''
   name: Unisson Webhooks
   slug: unisson-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Unisson agent-evals API
+  slug: open-unisson-agent-evals-api
+- collection_type: open
+  name: Unisson agent-evals agent-integrations API
+  slug: open-unisson-agent-integrations-api
+- collection_type: open
+  name: Unisson agent-evals agent-triggers API
+  slug: open-unisson-agent-triggers-api
+- collection_type: open
+  name: Unisson agent-evals agents API
+  slug: open-unisson-agents-api
+- collection_type: open
+  name: Unisson agent-evals analytics API
+  slug: open-unisson-analytics-api
+- collection_type: open
+  name: Unisson agent-evals apis API
+  slug: open-unisson-apis-api
+- collection_type: open
+  name: Unisson agent-evals appdb API
+  slug: open-unisson-appdb-api
+- collection_type: open
+  name: Unisson agent-evals apps API
+  slug: open-unisson-apps-api
+- collection_type: open
+  name: Unisson agent-evals auth API
+  slug: open-unisson-auth-api
+- collection_type: open
+  name: Unisson agent-evals browser-contexts API
+  slug: open-unisson-browser-contexts-api
+- collection_type: open
+  name: Unisson agent-evals chat API
+  slug: open-unisson-chat-api
+- collection_type: open
+  name: Unisson agent-evals code-map API
+  slug: open-unisson-code-map-api
+- collection_type: open
+  name: Unisson agent-evals customer-files API
+  slug: open-unisson-customer-files-api
+- collection_type: open
+  name: Unisson agent-evals customers API
+  slug: open-unisson-customers-api
+- collection_type: open
+  name: Unisson agent-evals debrief API
+  slug: open-unisson-debrief-api
+- collection_type: open
+  name: Unisson agent-evals discovery API
+  slug: open-unisson-discovery-api
+- collection_type: open
+  name: Unisson agent-evals documents API
+  slug: open-unisson-documents-api
+- collection_type: open
+  name: Unisson agent-evals email-drafts API
+  slug: open-unisson-email-drafts-api
+- collection_type: open
+  name: Unisson agent-evals emails API
+  slug: open-unisson-emails-api
+- collection_type: open
+  name: Unisson agent-evals external-api API
+  slug: open-unisson-external-api-api
+- collection_type: open
+  name: Unisson agent-evals google-push API
+  slug: open-unisson-google-push-api
+- collection_type: open
+  name: Unisson agent-evals Health API
+  slug: open-unisson-health-api
+- collection_type: open
+  name: Unisson agent-evals imported-databases API
+  slug: open-unisson-imported-databases-api
+- collection_type: open
+  name: Unisson agent-evals integrations API
+  slug: open-unisson-integrations-api
+- collection_type: open
+  name: Unisson agent-evals internal-auth-sessions API
+  slug: open-unisson-internal-auth-sessions-api
+- collection_type: open
+  name: Unisson agent-evals knowledge-base API
+  slug: open-unisson-knowledge-base-api
+- collection_type: open
+  name: Unisson agent-evals live-map API
+  slug: open-unisson-live-map-api
+- collection_type: open
+  name: Unisson agent-evals managed-auth API
+  slug: open-unisson-managed-auth-api
+- collection_type: open
+  name: Unisson agent-evals meetings API
+  slug: open-unisson-meetings-api
+- collection_type: open
+  name: Unisson agent-evals memory API
+  slug: open-unisson-memory-api
+- collection_type: open
+  name: Unisson agent-evals notifications API
+  slug: open-unisson-notifications-api
+- collection_type: open
+  name: Unisson agent-evals onboarding API
+  slug: open-unisson-onboarding-api
+- collection_type: open
+  name: Unisson agent-evals organizations API
+  slug: open-unisson-organizations-api
+- collection_type: open
+  name: Unisson agent-evals products API
+  slug: open-unisson-products-api
+- collection_type: open
+  name: Unisson agent-evals Readyz API
+  slug: open-unisson-readyz-api
+- collection_type: open
+  name: Unisson agent-evals runs API
+  slug: open-unisson-runs-api
+- collection_type: open
+  name: Unisson agent-evals scheduled-runs API
+  slug: open-unisson-scheduled-runs-api
+- collection_type: open
+  name: Unisson agent-evals skills API
+  slug: open-unisson-skills-api
+- collection_type: open
+  name: Unisson agent-evals superadmin API
+  slug: open-unisson-superadmin-api
+- collection_type: open
+  name: Unisson agent-evals task-types API
+  slug: open-unisson-task-types-api
+- collection_type: open
+  name: Unisson agent-evals tasks API
+  slug: open-unisson-tasks-api
+- collection_type: open
+  name: agent-evals Unisson API
+  slug: open-unisson-unisson-api
+- collection_type: open
+  name: Unisson agent-evals usage API
+  slug: open-unisson-usage-api
+- collection_type: open
+  name: Unisson agent-evals webhooks API
+  slug: open-unisson-webhooks-api
+- collection_type: open
+  name: Unisson agent-evals widget API
+  slug: open-unisson-widget-api
 common:
 - group: other
   title: ''
@@ -282,7 +421,7 @@ overview: 'Unisson publishes 45 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Unisson''s developer surface includes authentication, support, and 19 more developer resources.'
-random_paper: 63
+random_paper: 38
 score:
   band: thin
   composite: 39.6
@@ -306,7 +445,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

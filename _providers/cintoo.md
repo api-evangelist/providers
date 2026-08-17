@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -101,7 +101,74 @@ apis:
 - description: The Workzone API from Cintoo — 3 operation(s) for workzone.
   name: Cintoo Workzone API
   slug: cintoo-workzone-api
-artifact_total: 26
+artifact_total: 48
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Cintoo Open Account API
+  slug: open-cintoo-account-api
+- collection_type: open
+  name: Cintoo Open Account Annotation API
+  slug: open-cintoo-annotation-api
+- collection_type: open
+  name: Cintoo Open Account Autodesk API
+  slug: open-cintoo-autodesk-api
+- collection_type: open
+  name: Cintoo Open Account Crop API
+  slug: open-cintoo-crop-api
+- collection_type: open
+  name: Cintoo Open Account Export Scene API
+  slug: open-cintoo-export-scene-api
+- collection_type: open
+  name: Cintoo Open Account File API
+  slug: open-cintoo-file-api
+- collection_type: open
+  name: Cintoo Open Account Group API
+  slug: open-cintoo-group-api
+- collection_type: open
+  name: Cintoo Open Account Integrations API
+  slug: open-cintoo-integrations-api
+- collection_type: open
+  name: Cintoo Open Account Konekt API
+  slug: open-cintoo-konekt-api
+- collection_type: open
+  name: Cintoo Open Account Measurement API
+  slug: open-cintoo-measurement-api
+- collection_type: open
+  name: Cintoo Open Account Members API
+  slug: open-cintoo-members-api
+- collection_type: open
+  name: Cintoo Open Account Permissions API
+  slug: open-cintoo-permissions-api
+- collection_type: open
+  name: Cintoo Open Account Project API
+  slug: open-cintoo-project-api
+- collection_type: open
+  name: Cintoo Open Account Role API
+  slug: open-cintoo-role-api
+- collection_type: open
+  name: Cintoo Open Account Share Link API
+  slug: open-cintoo-share-link-api
+- collection_type: open
+  name: Cintoo Open Account Subscription API
+  slug: open-cintoo-subscription-api
+- collection_type: open
+  name: Cintoo Open Account Tag API
+  slug: open-cintoo-tag-api
+- collection_type: open
+  name: Cintoo Open Account Tag List API
+  slug: open-cintoo-tag-list-api
+- collection_type: open
+  name: Cintoo Open Account Usage Report API
+  slug: open-cintoo-usage-report-api
+- collection_type: open
+  name: Cintoo Open Account User API
+  slug: open-cintoo-user-api
+- collection_type: open
+  name: Cintoo Open Account Workzone API
+  slug: open-cintoo-workzone-api
 common:
 - group: other
   title: ''
@@ -207,7 +274,7 @@ overview: 'Cintoo publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cintoo''s developer surface includes documentation, support, engineering blog, authentication, sandbox, CLI, and 16 more developer resources.'
-random_paper: 52
+random_paper: 56
 scopes:
 - name: Cintoo Scopes
   scope_count: 0
@@ -236,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cintoo/refs/heads/main/screenshots/cintoo-2026-07-25T205406.png
 security:

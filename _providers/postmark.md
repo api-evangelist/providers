@@ -11,24 +11,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 60.8
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -179,15 +180,159 @@ apis:
 - description: The Validate API from Postmark — 1 operation(s) for validate.
   name: Postmark Validate API
   slug: postmark-validate-api
-artifact_total: 99
+artifact_total: 150
 asyncapis:
 - description: AsyncAPI description of Postmark's outbound webhook surface. Postmark delivers event notifications by issuing HTTP POST requests with a JSON body to a URL the customer configures per server (and per s
   name: Postmark Webhooks
   slug: postmark-webhooks-asyncapi
 collections:
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Postmark Account Activate API
+  slug: open-postmark-activate-api
+- collection_type: open
+  name: Postmark Account Activate Alias API
+  slug: open-postmark-alias-api
+- collection_type: open
   name: Postmark API
   slug: open-postmark-api
+- collection_type: open
+  name: Postmark Account Activate Batch API
+  slug: open-postmark-batch-api
+- collection_type: open
+  name: Postmark Account Activate Bounceid API
+  slug: open-postmark-bounceid-api
+- collection_type: open
+  name: Postmark Account Activate Bounces API API
+  slug: open-postmark-bounces-api-api
+- collection_type: open
+  name: Postmark Account Activate Bounces API
+  slug: open-postmark-bounces-api
+- collection_type: open
+  name: Postmark Account Activate Browser Families API
+  slug: open-postmark-browser-families-api
+- collection_type: open
+  name: Postmark Account Activate Bypass API
+  slug: open-postmark-bypass-api
+- collection_type: open
+  name: Postmark Account Activate Deliverystats API
+  slug: open-postmark-deliverystats-api
+- collection_type: open
+  name: Postmark Account Activate Domains API API
+  slug: open-postmark-domains-api-api
+- collection_type: open
+  name: Postmark Account Activate Dump API
+  slug: open-postmark-dump-api
+- collection_type: open
+  name: Postmark Account Activate Email API
+  slug: open-postmark-email-api
+- collection_type: open
+  name: Postmark Account Activate Emailclients API
+  slug: open-postmark-emailclients-api
+- collection_type: open
+  name: Postmark Account Activate Inbound API
+  slug: open-postmark-inbound-api
+- collection_type: open
+  name: Postmark Account Activate Inbound Rules API API
+  slug: open-postmark-inbound-rules-api-api
+- collection_type: open
+  name: Postmark Account Activate Locations API
+  slug: open-postmark-locations-api
+- collection_type: open
+  name: Postmark Account Activate Message Identifier API
+  slug: open-postmark-message-identifier-api
+- collection_type: open
+  name: Postmark Account Activate Messages API API
+  slug: open-postmark-messages-api-api
+- collection_type: open
+  name: Postmark Account Activate Messages API
+  slug: open-postmark-messages-api
+- collection_type: open
+  name: Postmark Account Activate Messages > Inbound > {Messageid} API
+  slug: open-postmark-messages-inbound-messageid-api
+- collection_type: open
+  name: Postmark Account Activate Messages > Outbound > Clicks API
+  slug: open-postmark-messages-outbound-clicks-api
+- collection_type: open
+  name: Postmark Account Activate Messages > Outbound > {Messageid} API
+  slug: open-postmark-messages-outbound-messageid-api
+- collection_type: open
+  name: Postmark Account Activate Messages > Outbound > Opens API
+  slug: open-postmark-messages-outbound-opens-api
+- collection_type: open
+  name: Postmark Account Activate Outbound API
+  slug: open-postmark-outbound-api
+- collection_type: open
+  name: Postmark Account Activate Platforms API
+  slug: open-postmark-platforms-api
+- collection_type: open
+  name: Postmark Account Activate Readtimes API
+  slug: open-postmark-readtimes-api
+- collection_type: open
+  name: Postmark Account Activate Retry API
+  slug: open-postmark-retry-api
+- collection_type: open
+  name: Postmark Account Activate Sender Signatures API API
+  slug: open-postmark-sender-signatures-api-api
+- collection_type: open
+  name: Postmark Account Activate Sending API API
+  slug: open-postmark-sending-api-api
+- collection_type: open
+  name: Postmark Account Activate Sends API
+  slug: open-postmark-sends-api
+- collection_type: open
+  name: Postmark Account Activate Server Configuration API API
+  slug: open-postmark-server-configuration-api-api
+- collection_type: open
+  name: Postmark Account Activate Server Management API API
+  slug: open-postmark-server-management-api-api
+- collection_type: open
+  name: Postmark Account Activate Servers API
+  slug: open-postmark-servers-api
+- collection_type: open
+  name: Postmark Account Activate Spam API
+  slug: open-postmark-spam-api
+- collection_type: open
+  name: Postmark Account Activate Statistics API
+  slug: open-postmark-statistics-api
+- collection_type: open
+  name: Postmark Account Activate Stats API API
+  slug: open-postmark-stats-api-api
+- collection_type: open
+  name: Postmark Account Activate Stats/Outbound API
+  slug: open-postmark-stats-outbound-api
+- collection_type: open
+  name: Postmark Account Activate Stats/Outbound > Clicks API
+  slug: open-postmark-stats-outbound-clicks-api
+- collection_type: open
+  name: Postmark Account Activate Stats/Outbound > Opens API
+  slug: open-postmark-stats-outbound-opens-api
+- collection_type: open
+  name: Postmark Account Activate Template API
+  slug: open-postmark-template-api
+- collection_type: open
+  name: Postmark Account Activate Templates API API
+  slug: open-postmark-templates-api-api
+- collection_type: open
+  name: Postmark Account Activate Templates API
+  slug: open-postmark-templates-api
+- collection_type: open
+  name: Postmark Account Activate Triggerid API
+  slug: open-postmark-triggerid-api
+- collection_type: open
+  name: Postmark Account Activate Triggers API
+  slug: open-postmark-triggers-api
+- collection_type: open
+  name: Postmark Account Activate Triggers > Inboundrules API
+  slug: open-postmark-triggers-inboundrules-api
+- collection_type: open
+  name: Postmark Account Activate Triggers > Tags API
+  slug: open-postmark-triggers-tags-api
+- collection_type: open
+  name: Postmark Account Activate Validate API
+  slug: open-postmark-validate-api
 common:
 - group: agent
   title: ''
@@ -244,7 +389,7 @@ common:
 - group: operate
   title: ''
   type: ChangeLog
-  url: https://postmarkapp.com/changelog
+  url: https://postmarkapp.com/updates
 - group: commercial
   title: ''
   type: TermsOfService
@@ -265,6 +410,118 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/postmarkapp
+- group: build
+  title: ''
+  type: Packages
+  url: packages/postmark-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/postmark-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/postmark-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/postmark-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/postmark-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/postmark-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/postmark-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/postmark-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/postmark-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/postmark-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/postmark-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/postmark-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/postmark-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/postmark-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/postmark-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/postmark-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/postmark-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/postmark-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/postmark-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/postmark-webhooks-asyncapi.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/postmark-webhooks-asyncapi.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/postmark-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/postmark-vocabulary.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://postmarkapp.com/developer
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://postmarkapp.com/developer/api/overview
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ActiveCampaign
+- group: build
+  title: ''
+  type: Postman
+  url: https://god.gw.postman.com/run-collection/15802082-f50b3ffc-9eee-4ab1-bdc5-8b423d19d535?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D15802082-f50b3ffc-9eee-4ab1-bdc5-8b423d19d535%26entityType%3Dcollection%26workspaceId%3D55e9c6f2-5d69-40a5-b00b-caec1640454c
 created: '2024-04-14'
 description: Postmark is an email delivery service that helps businesses send and track transactional and broadcast email reliably, replacing SMTP with a scalable service that surfaces detailed delivery analytics, bounce tracking, open and click tracking, and dedicated IP addresses.
 features:
@@ -289,7 +546,7 @@ finops:
   service_category: Transactional Email
   slug: postmark-finops
 graphqls:
-- description: This document describes a conceptual GraphQL schema for the Postmark transactional email API. Postmark provides a REST API for sending and tracking transactional and broadcast email, managing template
+- description: '> **NOT A POSTMARK SURFACE — DO NOT WIRE AS `type: GraphQL`.**'
   name: Postmark GraphQL Schema
   slug: postmark-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postmark.png
@@ -356,7 +613,11 @@ json_structures:
   property_count: 0
   slug: postmark-structure
 layout: provider
-modified: '2026-05-30'
+mcp_servers:
+- description: ''
+  name: postmark-mcp.yml
+  slug: postmark-mcpyml
+modified: '2026-08-13'
 name: Postmark
 nav: Providers
 network: true
@@ -366,14 +627,14 @@ overview: 'Postmark publishes 47 APIs on the [APIs.io](https://apis.io/) network
   The Postmark catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Postmark''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 12 more developer resources.'
+  Postmark''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 40 more developer resources.'
 plans:
 - name: Postmark Plans Pricing
   plan_count: 4
   slug: postmark-plans-pricing
-random_paper: 41
+random_paper: 136
 rate_limits:
-- limit_count: 2
+- limit_count: 11
   name: Postmark Rate Limits
   slug: postmark-rate-limits
 rules:
@@ -394,16 +655,16 @@ rules:
     warn: 4
   slug: postmark-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 51.0
-  delta: 0.0
+  band: exemplar
+  composite: 72.8
+  delta: 21.8
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 76.3
     contract_quality: 60.2
-    developer_ergonomics: 32.6
-    discoverability: 68.5
-    governance: 41.7
-    operational_transparency: 42.1
+    developer_ergonomics: 91.3
+    discoverability: 75.9
+    governance: 72.9
+    operational_transparency: 60.5
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -413,14 +674,22 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/screenshots/postmark-2026-06-20T192003.png
 security:
+- kind: authentication
+  name: Postmark Authentication
+  slug: postmark-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Postmark Domain Security
   slug: postmark-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Postmark Trust Center
+  slug: postmark-trust-center
+  summary_line: SOC 2, SSAE 16 SOC 1 Type 2, PCI DSS Level 1, HIPAA, GDPR
 skill_count: 6
 skills:
 - name: postmark-email-best-practices
@@ -442,5 +711,10 @@ tags:
 - Transactional Email
 - Deliverability
 - SMTP
+- Email API
+- Webhooks
+- Inbound Email
+- Email Templates
+- Email Analytics
 website: https://postmarkapp.com
 ---

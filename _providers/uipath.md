@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -191,7 +191,7 @@ arazzos:
 - description: Query an entity by a key field and update the match or create a new record.
   name: UiPath Upsert a Data Service Entity Record
   slug: uipath-upsert-entity-record-workflow
-artifact_total: 409
+artifact_total: 442
 asyncapis:
 - description: The UiPath Orchestrator webhook system delivers real-time event notifications to registered HTTP endpoints when automation events occur within the platform. Webhooks cover events for jobs, robots, que
   name: UiPath Orchestrator Webhook Events
@@ -216,23 +216,122 @@ collections:
   name: UiPath Test Manager API
   slug: postman-uipath-test-manager
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: UiPath Automation Hub Alerts API
+  slug: open-uipath-alerts-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts AppInventory API
+  slug: open-uipath-appinventory-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Assets API
+  slug: open-uipath-assets-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts AuditLogs API
+  slug: open-uipath-auditlogs-api
+- collection_type: open
   name: UiPath Automation Hub API
   slug: open-uipath-automation-hub
+- collection_type: open
+  name: UiPath Automation Hub Alerts Automations API
+  slug: open-uipath-automations-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Classification API
+  slug: open-uipath-classification-api
 - collection_type: open
   name: UiPath Data Service API
   slug: open-uipath-data-service
 - collection_type: open
+  name: UiPath Automation Hub Alerts Digitization API
+  slug: open-uipath-digitization-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Discovery API
+  slug: open-uipath-discovery-api
+- collection_type: open
   name: UiPath Document Understanding API
   slug: open-uipath-document-understanding
+- collection_type: open
+  name: UiPath Automation Hub Alerts Entities API
+  slug: open-uipath-entities-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Extraction API
+  slug: open-uipath-extraction-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Folders API
+  slug: open-uipath-folders-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Groups API
+  slug: open-uipath-groups-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Jobs API
+  slug: open-uipath-jobs-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Licenses API
+  slug: open-uipath-licenses-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Machines API
+  slug: open-uipath-machines-api
 - collection_type: open
   name: UiPath Orchestrator API
   slug: open-uipath-orchestrator
 - collection_type: open
+  name: UiPath Automation Hub Alerts Packages API
+  slug: open-uipath-packages-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Pipeline API
+  slug: open-uipath-pipeline-api
+- collection_type: open
   name: UiPath Platform Management API
   slug: open-uipath-platform-management
 - collection_type: open
+  name: UiPath Automation Hub Alerts Processes API
+  slug: open-uipath-processes-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Projects API
+  slug: open-uipath-projects-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts QueueItems API
+  slug: open-uipath-queueitems-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Queues API
+  slug: open-uipath-queues-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Requirements API
+  slug: open-uipath-requirements-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Robots API
+  slug: open-uipath-robots-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Roles API
+  slug: open-uipath-roles-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Schedules API
+  slug: open-uipath-schedules-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts StorageBuckets API
+  slug: open-uipath-storagebuckets-api
+- collection_type: open
   name: UiPath Test Manager API
   slug: open-uipath-test-manager
+- collection_type: open
+  name: UiPath Automation Hub Alerts TestCases API
+  slug: open-uipath-testcases-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts TestExecutions API
+  slug: open-uipath-testexecutions-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts TestSets API
+  slug: open-uipath-testsets-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Users API
+  slug: open-uipath-users-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Validation API
+  slug: open-uipath-validation-api
+- collection_type: open
+  name: UiPath Automation Hub Alerts Webhooks API
+  slug: open-uipath-webhooks-api
 common:
 - group: agent
   title: ''
@@ -1385,7 +1484,7 @@ plans:
 - name: Uipath Plans Pricing
   plan_count: 5
   slug: uipath-plans-pricing
-random_paper: 51
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Uipath Rate Limits
@@ -1435,7 +1534,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/screenshots/uipath-2026-06-20T200001.png
 security:

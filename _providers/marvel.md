@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,8 +57,29 @@ apis:
 - description: Marvel story resources.
   name: Marvel Stories API
   slug: marvel-stories-api
-artifact_total: 13
+artifact_total: 20
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Marvel Comics Characters API
+  slug: open-marvel-characters-api
+- collection_type: open
+  name: Marvel Characters Comics API
+  slug: open-marvel-comics-api
+- collection_type: open
+  name: Marvel Comics Characters Creators API
+  slug: open-marvel-creators-api
+- collection_type: open
+  name: Marvel Comics Characters Events API
+  slug: open-marvel-events-api
+- collection_type: open
+  name: Marvel Comics Characters Series API
+  slug: open-marvel-series-api
+- collection_type: open
+  name: Marvel Comics Characters Stories API
+  slug: open-marvel-stories-api
 - collection_type: open
   name: Marvel Comics API
   slug: open-marvel
@@ -127,7 +148,7 @@ plans:
 - name: Marvel Plans Pricing
   plan_count: 3
   slug: marvel-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Marvel Rate Limits
@@ -152,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

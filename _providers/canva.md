@@ -12,24 +12,25 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-12'
+  score: 67.6
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -37,7 +38,7 @@ agentic_access:
   operation_count: 22
   slug: canva-agentic-access
   summary_line: 22 operations · 9 acting
-api_count: 12
+api_count: 15
 apis:
 - description: Build apps that extend Canva's editor with custom functionality, content, and integrations.
   name: Canva Apps SDK
@@ -75,7 +76,20 @@ apis:
 - description: Retrieve information about the authenticated user
   name: Canva Users API
   slug: canva-users-api
-artifact_total: 229
+- description: The umbrella Canva Connect REST API as Canva publishes it — 59 operations across designs, assets, folders, brand templates, autofills, exports, resizes, imports, merges, comments, analytics, users, OA
+  name: Canva Connect API
+  slug: canva-connect-api
+- description: SCIM 2.0 API for automating provisioning and deprovisioning of Canva user accounts and groups. Canva states it implements the SCIM v2 specification (RFC 7644). Available to Canva Enterprise single tea
+  name: Canva SCIM API
+  slug: canva-scim-api
+- description: Partner-gated REST API for print order fulfilment. Uniquely bidirectional — Canva acts as the API CLIENT when sending orders to a print partner, and as the API SERVER when the partner sends order stat
+  name: Canva Print API
+  slug: canva-print-api
+artifact_total: 244
+asyncapis:
+- description: ''
+  name: Canva Webhooks
+  slug: canva-webhooks
 collections:
 - collection_type: postman
   name: Canva Connect Assets API
@@ -105,8 +119,38 @@ collections:
   name: Canva Connect Assets Users API
   slug: postman-canva-users-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Canva Connect Assets API
+  slug: open-canva-assets-api
+- collection_type: open
+  name: Canva Connect Assets Autofills API
+  slug: open-canva-autofills-api
+- collection_type: open
+  name: Canva Connect Assets Brand Templates API
+  slug: open-canva-brand-templates-api
+- collection_type: open
+  name: Canva Connect Assets Comments API
+  slug: open-canva-comments-api
+- collection_type: open
   name: Canva Connect API
   slug: open-canva-connect-api
+- collection_type: open
+  name: Canva Connect Assets Designs API
+  slug: open-canva-designs-api
+- collection_type: open
+  name: Canva Connect Assets Exports API
+  slug: open-canva-exports-api
+- collection_type: open
+  name: Canva Connect Assets Folders API
+  slug: open-canva-folders-api
+- collection_type: open
+  name: Canva Connect Assets Resizes API
+  slug: open-canva-resizes-api
+- collection_type: open
+  name: Canva Connect Assets Users API
+  slug: open-canva-users-api
 common:
 - group: build
   title: ''
@@ -256,8 +300,128 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/canva-sdks/canva-claude-skills
+- group: build
+  title: ''
+  type: Packages
+  url: packages/canva-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/canva-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/canva-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/canva-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/canva-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/canva-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/canva-conformance.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/canva-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/canva-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/canva-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/canva-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/canva-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/canva-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/canva-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.canvastatus.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/canva-changelog.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/canva-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/canva-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/canva-finops.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/canva-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/canva-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/canva-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/canva-webhooks.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/canva-connect-api-overlay.yaml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.canva.dev/docs/connect/api-reference/designs/create-design/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.canva.dev/docs/connect/quickstart/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.canva.com/pricing/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.canva.dev/docs/audit-logs/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.canva.dev/docs/print/
 created: '2024-01-01'
-description: APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.
+description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run inside the Canva editor), the SCIM and Audit Logs APIs for enterprise identity and compliance, and the partner-gated Print API. Canva publishes its own OpenAPI description, a dated changelog, per-product llms.txt indexes, a hosted MCP server and a public set of Agent Skills.'
 examples:
 - key_count: 6
   name: Canva Connect Asset Example
@@ -808,24 +972,28 @@ jsonld:
   property_count: 13
   slug: canva-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: canva-mcp.yml
+  slug: canva-mcpyml
+modified: '2026-08-13'
 name: Canva
 nav: Providers
 network: true
-overview: 'Canva publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Autofills API, Brand Templates API, and 6 more. Tagged areas include Apps, Automation, Brand Management, Collaboration, and Design.
+overview: 'Canva publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Autofills API, Brand Templates API, and 7 more. Tagged areas include Apps, Automation, Brand Management, Collaboration, and Design.
 
 
-  The Canva catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Canva catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Canva''s developer surface includes authentication, support, documentation, engineering blog, changelog, legal docs, FAQ, and 30 more developer resources.'
+  Canva''s developer surface includes authentication, support, documentation, engineering blog, changelog, legal docs, FAQ, and 60 more developer resources.'
 plans:
 - name: Canva Plans Pricing
-  plan_count: 2
+  plan_count: 0
   slug: canva-plans-pricing
-random_paper: 41
+random_paper: 74
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Canva Rate Limits
   slug: canva-rate-limits
 rules:
@@ -847,20 +1015,20 @@ rules:
   slug: canva-spectral-rules
 scopes:
 - name: Canva Scopes
-  scope_count: 11
+  scope_count: 18
   slug: canva-scopes
-  summary_line: 11 scopes · authorizationCode
+  summary_line: 18 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.4
-  delta: 0.0
+  band: exemplar
+  composite: 75.2
+  delta: 16.8
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 76.0
-    developer_ergonomics: 52.2
-    discoverability: 66.7
-    governance: 58.3
-    operational_transparency: 52.6
+    commercial_clarity: 55.3
+    contract_quality: 84.5
+    developer_ergonomics: 84.8
+    discoverability: 83.3
+    governance: 79.2
+    operational_transparency: 63.2
   previous_composite: 58.4
   provenance:
     agentic_access: derived
@@ -870,18 +1038,18 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png
 security:
 - kind: authentication
   name: Canva Authentication
   slug: canva-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Canva Domain Security
   slug: canva-domain-security
-  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+  summary_line: TLSv1.3 · DNSSEC · DMARC
 - kind: vulnerability-disclosure
   name: Canva Vulnerability Disclosure
   slug: canva-vulnerability-disclosure

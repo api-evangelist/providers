@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,7 +59,32 @@ apis:
 - description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
   name: Thatch Pay Schedules API
   slug: thatch-pay-schedules-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thatch for Platforms Deductions API
+  slug: open-thatch-deductions-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Employees API
+  slug: open-thatch-employees-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Employer onboarding sessions API
+  slug: open-thatch-employer-onboarding-sessions-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Employers API
+  slug: open-thatch-employers-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Enrollments API
+  slug: open-thatch-enrollments-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Members API
+  slug: open-thatch-members-api
+- collection_type: open
+  name: Thatch for Platforms Deductions Pay Schedules API
+  slug: open-thatch-pay-schedules-api
 common:
 - group: start
   title: ''
@@ -185,7 +210,7 @@ overview: 'Thatch publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Thatch''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 36
+random_paper: 40
 score:
   band: developing
   composite: 46.0
@@ -215,7 +240,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

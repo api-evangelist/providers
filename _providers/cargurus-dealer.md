@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,7 +50,20 @@ apis:
 - description: Retrieve CarGurus Instant Market Value and deal rating for cars.
   name: CarGurus Instant Market Value API
   slug: cargurus-dealer-instant-market-value-api
-artifact_total: 7
+artifact_total: 11
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: CarGurus Developer APIs Car Selector API
+  slug: open-cargurus-dealer-car-selector-api
+- collection_type: open
+  name: CarGurus Developer APIs Car Selector Dealer Stats API
+  slug: open-cargurus-dealer-dealer-stats-api
+- collection_type: open
+  name: CarGurus Developer APIs Car Selector Instant Market Value API
+  slug: open-cargurus-dealer-instant-market-value-api
 common:
 - group: agent
   title: ''
@@ -108,7 +121,7 @@ plans:
 - name: Cargurus Dealer Plans Pricing
   plan_count: 3
   slug: cargurus-dealer-plans-pricing
-random_paper: 102
+random_paper: 52
 score:
   band: thin
   composite: 34.2
@@ -129,7 +142,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/screenshots/cargurus-dealer-2026-07-25T204615.png
 security:

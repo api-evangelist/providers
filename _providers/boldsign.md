@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -72,7 +72,44 @@ apis:
 - description: The User API from BoldSign — 8 operation(s) for user.
   name: BoldSign User API
   slug: boldsign-user-api
-artifact_total: 24
+artifact_total: 36
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BoldSign Branding API
+  slug: open-boldsign-branding-api
+- collection_type: open
+  name: BoldSign Branding Contacts API
+  slug: open-boldsign-contacts-api
+- collection_type: open
+  name: BoldSign Branding Custom Field API
+  slug: open-boldsign-custom-field-api
+- collection_type: open
+  name: BoldSign Branding Document API
+  slug: open-boldsign-document-api
+- collection_type: open
+  name: BoldSign Branding GroupContacts API
+  slug: open-boldsign-groupcontacts-api
+- collection_type: open
+  name: BoldSign Branding Identity Verification API
+  slug: open-boldsign-identity-verification-api
+- collection_type: open
+  name: BoldSign Branding Plan API
+  slug: open-boldsign-plan-api
+- collection_type: open
+  name: BoldSign Branding Sender Identities API
+  slug: open-boldsign-sender-identities-api
+- collection_type: open
+  name: BoldSign Branding Teams API
+  slug: open-boldsign-teams-api
+- collection_type: open
+  name: BoldSign Branding Template API
+  slug: open-boldsign-template-api
+- collection_type: open
+  name: BoldSign Branding User API
+  slug: open-boldsign-user-api
 common:
 - group: agent
   title: ''
@@ -179,7 +216,7 @@ plans:
 - name: Boldsign Plans Pricing
   plan_count: 6
   slug: boldsign-plans-pricing
-random_paper: 10
+random_paper: 105
 rate_limits:
 - limit_count: 2
   name: Boldsign Rate Limits
@@ -213,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/screenshots/boldsign-2026-06-20T173555.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 29
 apis:
 - description: OAuth 2.0 token endpoint for the DSV Generic APIs. Exchanges myDSV username/password (sent as client_id/client_secret with grant_type=client_credentials) plus a DSV-Subscription-Key for a 10-minute be
@@ -108,7 +108,95 @@ apis:
 - description: Returns the current status of a specific delivery or inbound order in DSV Contract Logistics warehouse management.
   name: DSV WMS Order Status API
   slug: dsv-wms-order-status-api
-artifact_total: 29
+artifact_total: 58
+collections:
+- collection_type: open
+  name: Access Token (DEMO)
+  slug: open-dsv-access-token-demo-v1
+- collection_type: open
+  name: Connect Booking API (DEMO)
+  slug: open-dsv-connect-api-booking-demo-v1
+- collection_type: open
+  name: Connect Tracking API (DEMO)
+  slug: open-dsv-connect-api-tracking-demo-v1
+- collection_type: open
+  name: Customs (DEMO)
+  slug: open-dsv-customs-ai-demo-v2
+- collection_type: open
+  name: Booking - SCM
+  slug: open-dsv-edc-booking-api-v2
+- collection_type: open
+  name: eDOCS - SCM
+  slug: open-dsv-edc-edocs-api-v2
+- collection_type: open
+  name: Events - SCM
+  slug: open-dsv-edc-events-api-v2
+- collection_type: open
+  name: Loadplan - SCM
+  slug: open-dsv-edc-loadplan-api-v2
+- collection_type: open
+  name: Neom - eDC
+  slug: open-dsv-edc-neom-api-v2
+- collection_type: open
+  name: Orders - SCM
+  slug: open-dsv-edc-public-api-v2
+- collection_type: open
+  name: Shipments - SCM
+  slug: open-dsv-edc-shipments-api-v2
+- collection_type: open
+  name: QUOTE API DEMO
+  slug: open-dsv-es-quote-demo-v1
+- collection_type: open
+  name: Webhook (DEMO) - Air, Sea, Road(EU), Rail
+  slug: open-dsv-es-webhook-demo-v1
+- collection_type: open
+  name: Webhook API (INT)
+  slug: open-dsv-es-webhook-int-v1
+- collection_type: open
+  name: BOOKING (DEMO) - Air, Sea, Road (EU), Rail
+  slug: open-dsv-generic-booking-demo-v2
+- collection_type: open
+  name: DOWNLOAD (DEMO) - Air, Sea, Road (EU), Rail
+  slug: open-dsv-generic-download-demo-v1
+- collection_type: open
+  name: Invoice (DEMO) - Air, Sea, Rail
+  slug: open-dsv-generic-invoice-demo-v1
+- collection_type: open
+  name: Labels (DEMO) - Air, Sea, Road(EU), Rail
+  slug: open-dsv-generic-labels-demo-v1
+- collection_type: open
+  name: TRACKING (DEMO)- Air, Sea, Road (EU), Rail
+  slug: open-dsv-generic-tracking-demo-v2
+- collection_type: open
+  name: UPLOAD - Air, Sea, Road (EU), Rail (DEMO)
+  slug: open-dsv-generic-upload-demo-v1
+- collection_type: open
+  name: Visibility (DEMO) - Air, Sea, Rail, XPress
+  slug: open-dsv-generic-visibilitydemo-v1
+- collection_type: open
+  name: WMS Delivery Notification (DEMO)
+  slug: open-dsv-warehousing-despatch-demo-v1
+- collection_type: open
+  name: WMS Inventory (DEMO)
+  slug: open-dsv-warehousing-inventory-demo-v1
+- collection_type: open
+  name: WMS Inbound Notification (DEMO)
+  slug: open-dsv-warehousing-preadvice-demo-v1
+- collection_type: open
+  name: WMS Product Data (DEMO)
+  slug: open-dsv-warehousing-productdata-demo-v1
+- collection_type: open
+  name: WMS Order Status (DEMO)
+  slug: open-dsv-warehousing-status-demo-v1
+- collection_type: open
+  name: Booking - XPress
+  slug: open-dsv-xpress-booking-v2
+- collection_type: open
+  name: Quote - XPress
+  slug: open-dsv-xpress-comparator-v2
+- collection_type: open
+  name: Tracking - XPress
+  slug: open-dsv-xpress-tracking-v2
 common:
 - group: company
   title: ''
@@ -199,7 +287,7 @@ overview: 'DSV publishes 29 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   DSV''s developer surface includes developer portal, documentation, API reference, signup flow, authentication, changelog, FAQ, and 12 more developer resources.'
-random_paper: 93
+random_paper: 35
 score:
   band: thin
   composite: 40.8
@@ -219,7 +307,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dsv/refs/heads/main/screenshots/dsv-2026-08-07T164531.png
 slug: dsv

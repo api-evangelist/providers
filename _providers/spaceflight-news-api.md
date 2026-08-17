@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,8 +50,23 @@ apis:
 - description: Space mission report operations
   name: Spaceflight News API Reports API
   slug: spaceflight-news-api-reports-api
-artifact_total: 16
+artifact_total: 21
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Spaceflight News Articles API
+  slug: open-spaceflight-news-api-articles-api
+- collection_type: open
+  name: Spaceflight News Articles Blogs API
+  slug: open-spaceflight-news-api-blogs-api
+- collection_type: open
+  name: Spaceflight News Articles Info API
+  slug: open-spaceflight-news-api-info-api
+- collection_type: open
+  name: Spaceflight News Articles Reports API
+  slug: open-spaceflight-news-api-reports-api
 - collection_type: open
   name: Spaceflight News API
   slug: open-spaceflight-news-api
@@ -120,7 +135,7 @@ plans:
 - name: Spaceflight News Api Plans Pricing
   plan_count: 3
   slug: spaceflight-news-api-plans-pricing
-random_paper: 91
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Spaceflight News Api Rate Limits
@@ -162,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/screenshots/spaceflight-news-api-2026-06-20T194235.png
 security:

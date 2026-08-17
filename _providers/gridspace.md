@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ arazzos:
 - description: Send an SMS from a Guava number, then poll the inbox for the recipient's reply.
   name: Send an SMS and poll for the reply
   slug: gridspace-send-and-poll-sms
-artifact_total: 13
+artifact_total: 17
 collections:
 - collection_type: postman
   name: Guava Voice Agent REST Conversations API
@@ -66,6 +66,18 @@ collections:
 - collection_type: postman
   name: Guava Voice Agent REST Conversations SDK API
   slug: postman-gridspace-sdk-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Guava Voice Agent REST Conversations API
+  slug: open-gridspace-conversations-api
+- collection_type: open
+  name: Guava Voice Agent REST Conversations Messages API
+  slug: open-gridspace-messages-api
+- collection_type: open
+  name: Guava Voice Agent REST Conversations SDK API
+  slug: open-gridspace-sdk-api
 common:
 - group: build
   title: ''
@@ -239,7 +251,7 @@ plans:
 - name: Gridspace Plans
   plan_count: 4
   slug: gridspace-plans
-random_paper: 106
+random_paper: 52
 score:
   band: strong
   composite: 61.6
@@ -269,7 +281,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/screenshots/gridspace-2026-07-25T220327.png
 security:

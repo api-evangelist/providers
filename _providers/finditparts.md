@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -32,7 +32,11 @@ apis:
 - description: The FinditParts Reseller API allows you to search parts inventory, create and integrate FinditParts accounts, quote shipping rates for orders, and place orders on behalf of linked FinditParts users. I
   name: FinditParts Reseller API
   slug: finditparts-reseller-api
-artifact_total: 45
+artifact_total: 46
+collections:
+- collection_type: open
+  name: FinditParts Reseller API
+  slug: open-finditparts-reseller-api
 common:
 - group: company
   title: ''
@@ -285,7 +289,7 @@ plans:
 - name: Finditparts Plans Pricing
   plan_count: 0
   slug: finditparts-plans-pricing
-random_paper: 112
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Finditparts Rate Limits
@@ -293,6 +297,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 59.0
@@ -300,8 +305,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 5.3
+  previous_composite: 44.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: authentication
   name: Finditparts Authentication

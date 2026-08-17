@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -95,8 +95,65 @@ apis:
 - description: The Workflow Assignment API handles workflow step assignments for non agency users.
   name: Smartling Workflow Assignment API
   slug: smartling-workflow-assignment-api
-artifact_total: 27
+artifact_total: 46
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects API
+  slug: open-smartling-account-projects-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Attachments API
+  slug: open-smartling-attachments-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Authentication API
+  slug: open-smartling-authentication-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Content Search API
+  slug: open-smartling-content-search-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Context API
+  slug: open-smartling-context-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Estimates API
+  slug: open-smartling-estimates-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Files API
+  slug: open-smartling-files-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects GDN url management API
+  slug: open-smartling-gdn-url-management-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Jobs API
+  slug: open-smartling-jobs-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Language Detection API
+  slug: open-smartling-language-detection-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Locales API
+  slug: open-smartling-locales-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Machine Translation (MT) API
+  slug: open-smartling-machine-translation-mt-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects People API
+  slug: open-smartling-people-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Reports API
+  slug: open-smartling-reports-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Strings API
+  slug: open-smartling-strings-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Tags API
+  slug: open-smartling-tags-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Vendors API
+  slug: open-smartling-vendors-api
+- collection_type: open
+  name: Smartling REST API Reference Account & Projects Workflow Assignment API
+  slug: open-smartling-workflow-assignment-api
 - collection_type: open
   name: Smartling REST API Reference
   slug: open-smartling
@@ -173,7 +230,7 @@ plans:
 - name: Smartling Plans Pricing
   plan_count: 1
   slug: smartling-plans-pricing
-random_paper: 17
+random_paper: 83
 rate_limits:
 - limit_count: 2
   name: Smartling Rate Limits
@@ -198,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/screenshots/smartling-2026-06-20T194043.png
 security:

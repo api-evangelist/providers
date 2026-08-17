@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -72,8 +72,44 @@ apis:
 - description: The Webhooks API from BigChange — 2 operation(s) for webhooks.
   name: BigChange Webhooks API
   slug: bigchange-webhooks-api
-artifact_total: 18
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BigChange DX REST Assets API
+  slug: open-bigchange-assets-api
+- collection_type: open
+  name: BigChange DX REST Assets Contacts API
+  slug: open-bigchange-contacts-api
+- collection_type: open
+  name: BigChange DX REST Assets Finance API
+  slug: open-bigchange-finance-api
+- collection_type: open
+  name: BigChange DX REST Assets Jobs API
+  slug: open-bigchange-jobs-api
+- collection_type: open
+  name: BigChange DX REST Assets Persons API
+  slug: open-bigchange-persons-api
+- collection_type: open
+  name: BigChange DX REST Assets Reference Data API
+  slug: open-bigchange-reference-data-api
+- collection_type: open
+  name: BigChange DX REST Assets Resources API
+  slug: open-bigchange-resources-api
+- collection_type: open
+  name: BigChange DX REST Assets Stock API
+  slug: open-bigchange-stock-api
+- collection_type: open
+  name: BigChange DX REST Assets Users API
+  slug: open-bigchange-users-api
+- collection_type: open
+  name: BigChange DX REST Assets Vehicles API
+  slug: open-bigchange-vehicles-api
+- collection_type: open
+  name: BigChange DX REST Assets Webhooks API
+  slug: open-bigchange-webhooks-api
 - collection_type: open
   name: BigChange DX REST API
   slug: open-bigchange
@@ -138,7 +174,7 @@ plans:
 - name: Bigchange Plans Pricing
   plan_count: 3
   slug: bigchange-plans-pricing
-random_paper: 80
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Bigchange Rate Limits
@@ -163,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/screenshots/bigchange-2026-07-25T202925.png
 security:

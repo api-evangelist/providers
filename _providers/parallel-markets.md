@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: 'REST/JSON server-side API for investor accreditation, KYC/KYB/AML, identity, risk monitoring, and case management. v2 (current) authenticates with a Bearer API key; v1 (legacy) and the JavaScript SDK '
@@ -175,7 +175,7 @@ overview: 'Parallel Markets publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Parallel Markets'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, changelog, authentication, and 22 more developer resources.'
-random_paper: 89
+random_paper: 10
 scopes:
 - name: Parallel Markets Scopes
   scope_count: 4
@@ -197,7 +197,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/screenshots/parallel-markets-2026-08-07T191421.png
 security:

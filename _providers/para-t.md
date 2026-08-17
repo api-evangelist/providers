@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -114,7 +114,83 @@ arazzos:
 - description: Create a contact, issue a sales invoice, officialize it as an e-Arşiv document, and poll the trackable job until done.
   name: Paraşüt — invoice a customer and officialize as e-Arşiv
   slug: para-t-invoice-and-officialize
-artifact_total: 30
+artifact_total: 55
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paraşüt - API V4 Accounts API
+  slug: open-para-t-accounts-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts ApiHome API
+  slug: open-para-t-apihome-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts BankFees API
+  slug: open-para-t-bankfees-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts Contacts API
+  slug: open-para-t-contacts-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts EArchives API
+  slug: open-para-t-earchives-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts EInvoiceInboxes API
+  slug: open-para-t-einvoiceinboxes-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts EInvoices API
+  slug: open-para-t-einvoices-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts Employees API
+  slug: open-para-t-employees-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts ESmms API
+  slug: open-para-t-esmms-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts InventoryLevels API
+  slug: open-para-t-inventorylevels-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts ItemCategories API
+  slug: open-para-t-itemcategories-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts Products API
+  slug: open-para-t-products-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts PurchaseBills API
+  slug: open-para-t-purchasebills-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts Salaries API
+  slug: open-para-t-salaries-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts SalesInvoices API
+  slug: open-para-t-salesinvoices-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts SalesOffers API
+  slug: open-para-t-salesoffers-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts ShipmentDocuments API
+  slug: open-para-t-shipmentdocuments-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts StockMovements API
+  slug: open-para-t-stockmovements-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts StockUpdates API
+  slug: open-para-t-stockupdates-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts Tags API
+  slug: open-para-t-tags-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts Taxes API
+  slug: open-para-t-taxes-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts TrackableJobs API
+  slug: open-para-t-trackablejobs-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts Transactions API
+  slug: open-para-t-transactions-api
+- collection_type: open
+  name: Paraşüt - API V4 Accounts Warehouses API
+  slug: open-para-t-warehouses-api
 common:
 - group: start
   title: ''
@@ -244,7 +320,7 @@ overview: 'Paraşüt publishes 24 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paraşüt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 101
+random_paper: 134
 scopes:
 - name: Para T Scopes
   scope_count: 0
@@ -273,7 +349,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/screenshots/para-t-2026-08-07T191400.png
 security:

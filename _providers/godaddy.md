@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 2
@@ -59,11 +59,17 @@ apis:
 - description: An incremental update that keeps the endpoints largely the same, but deprecates some commonly misused parameters and add some features to ensure reports can be worked quicker.
   name: GoDaddy v2 API
   slug: godaddy-v2-api
-artifact_total: 22
+artifact_total: 30
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Abuse API
   slug: open-godaddy-abuse
+- collection_type: open
+  name: Abuse Actions API
+  slug: open-godaddy-actions-api
 - collection_type: open
   name: Aftermarket API
   slug: open-godaddy-aftermarket
@@ -74,11 +80,23 @@ collections:
   name: API Collection
   slug: open-godaddy-certificates
 - collection_type: open
+  name: Abuse Actions Contacts API
+  slug: open-godaddy-contacts-api
+- collection_type: open
   name: API Collection
   slug: open-godaddy-countries
 - collection_type: open
+  name: Abuse Actions Domains API
+  slug: open-godaddy-domains-api
+- collection_type: open
   name: Domains API
   slug: open-godaddy-domains
+- collection_type: open
+  name: 'Abuse Actions Expiry Auctions: Registrar Partners API'
+  slug: open-godaddy-expiry-auctions-registrar-partners-api
+- collection_type: open
+  name: Abuse Actions Notifications API
+  slug: open-godaddy-notifications-api
 - collection_type: open
   name: API Collection
   slug: open-godaddy-orders
@@ -88,6 +106,12 @@ collections:
 - collection_type: open
   name: API Collection
   slug: open-godaddy-subscriptions
+- collection_type: open
+  name: Abuse Actions v1 API
+  slug: open-godaddy-v1-api
+- collection_type: open
+  name: Abuse Actions v2 API
+  slug: open-godaddy-v2-api
 common:
 - group: agent
   title: ''
@@ -157,7 +181,7 @@ plans:
 - name: Godaddy Plans Pricing
   plan_count: 2
   slug: godaddy-plans-pricing
-random_paper: 12
+random_paper: 136
 rate_limits:
 - limit_count: 3
   name: Godaddy Rate Limits
@@ -182,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/screenshots/godaddy-2026-06-20T181947.png
 security:

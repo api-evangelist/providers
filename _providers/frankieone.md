@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -78,11 +78,53 @@ apis:
 - description: The Search API from FrankieOne — 1 operation(s) for search.
   name: FrankieOne Search API
   slug: frankieone-search-api
-artifact_total: 24
+artifact_total: 38
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Core V2 API
   slug: open-core-v2
+- collection_type: open
+  name: Core V2 Audit API
+  slug: open-frankieone-audit-api
+- collection_type: open
+  name: Core V2 Audit HostedURL API
+  slug: open-frankieone-hostedurl-api
+- collection_type: open
+  name: Core V2 Audit IDV API
+  slug: open-frankieone-idv-api
+- collection_type: open
+  name: Core V2 Audit Individual Documents API
+  slug: open-frankieone-individual-documents-api
+- collection_type: open
+  name: Core V2 Audit Individual Entities API
+  slug: open-frankieone-individual-entities-api
+- collection_type: open
+  name: Core V2 Audit Individual Entity Elements API
+  slug: open-frankieone-individual-entity-elements-api
+- collection_type: open
+  name: Core V2 Audit Individual Profiles API
+  slug: open-frankieone-individual-profiles-api
+- collection_type: open
+  name: Core V2 Audit Individual Results API
+  slug: open-frankieone-individual-results-api
+- collection_type: open
+  name: Core V2 Audit Individual Risks API
+  slug: open-frankieone-individual-risks-api
+- collection_type: open
+  name: Core V2 Audit Individual Workflows API
+  slug: open-frankieone-individual-workflows-api
+- collection_type: open
+  name: Core V2 Audit Matchlists API
+  slug: open-frankieone-matchlists-api
+- collection_type: open
+  name: Core V2 Audit Monitoring API
+  slug: open-frankieone-monitoring-api
+- collection_type: open
+  name: Core V2 Audit Search API
+  slug: open-frankieone-search-api
 - collection_type: open
   name: KYC V2 API
   slug: open-kyc-v2
@@ -154,7 +196,7 @@ plans:
 - name: Frankieone Plans Pricing
   plan_count: 3
   slug: frankieone-plans-pricing
-random_paper: 98
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Frankieone Rate Limits
@@ -196,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/screenshots/frankieone-2026-06-20T181611.png
 security:

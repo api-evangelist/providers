@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -97,11 +97,35 @@ arazzos:
 - description: Create or update an order, then retrieve its latest tracking and checkpoints.
   name: parcelLab Create Order and Track
   slug: parcellab-upsert-order-and-track-workflow
-artifact_total: 77
+artifact_total: 85
 collections:
 - collection_type: postman
   name: parcelLab API
   slug: postman-parcellab
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: parcelLab Campaigns API
+  slug: open-parcellab-campaigns-api
+- collection_type: open
+  name: parcelLab Campaigns Events API
+  slug: open-parcellab-events-api
+- collection_type: open
+  name: parcelLab Campaigns Orders API
+  slug: open-parcellab-orders-api
+- collection_type: open
+  name: parcelLab Campaigns Place Info API
+  slug: open-parcellab-place-info-api
+- collection_type: open
+  name: parcelLab Campaigns Promise API
+  slug: open-parcellab-promise-api
+- collection_type: open
+  name: parcelLab Campaigns Returns API
+  slug: open-parcellab-returns-api
+- collection_type: open
+  name: parcelLab Campaigns Surveys API
+  slug: open-parcellab-surveys-api
 - collection_type: open
   name: parcelLab API
   slug: open-parcellab
@@ -414,7 +438,7 @@ plans:
 - name: Parcellab Plans Pricing
   plan_count: 4
   slug: parcellab-plans-pricing
-random_paper: 94
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Parcellab Rate Limits
@@ -456,7 +480,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png
 security:

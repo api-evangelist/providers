@@ -11,10 +11,10 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: true
@@ -24,12 +24,12 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-12'
+  score: 48.6
+  scored_at: '2026-08-17'
 api_count: 6
 apis:
 - description: Epic's HL7 FHIR R4 (4.0.1) REST API, aligned to the US Core implementation guides and exposing 59 resource types (Patient, Encounter, Observation, Condition, MedicationRequest, DiagnosticReport, Docum
@@ -50,7 +50,7 @@ apis:
 - description: Epic's support for the CDS Hooks specification, letting external clinical decision support services return cards and SMART app launch links at documented workflow hook points inside the Epic EHR. Docu
   name: Epic CDS Hooks API
   slug: epic-cds-hooks-api
-artifact_total: 11
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Epic Systems Cds Hooks Webhooks
@@ -148,12 +148,60 @@ common:
   title: ''
   type: Security
   url: https://www.epic.com/epic/page/reporting-potential-security-vulnerability/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/epic-systems-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/epic-systems-sandbox.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/epic-systems-error-codes.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/epic-systems-changelog.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://fhir.epic.com/Documentation?docId=developerguidelines
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/epic-systems-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/epic-systems-plans-pricing.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: fhir/epic-systems-endpoint-catalog.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://open.epic.com/Home/Contact
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.epic.com/privacypolicies/
+- group: start
+  title: ''
+  type: Portal
+  url: https://open.epic.com/
 created: '2026-07-24'
 description: Epic Systems Corporation is a privately held electronic health record (EHR/EMR) software company founded in 1979 and headquartered in Verona, Wisconsin, United States. Epic's software supports the medical records of a large share of U.S. hospital systems and academic medical centers, and its "Epic on FHIR" developer program (fhir.epic.com / open.epic.com) exposes a standards-based HL7 FHIR interoperability surface for patient- and provider-facing apps. Epic serves live, public sandbox FHIR endpoints across three FHIR versions - R4 (4.0.1), STU3 (3.0.1), and DSTU2 (1.0.2) - aligned to the US Core implementation guides, with SMART on FHIR / OAuth 2.0 authorization, CDS Hooks, and FHIR Bulk Data ($export) access. Production access requires client registration and a health system's participation; the developer sandbox, specifications, and CapabilityStatements are openly published. Epic is a core node of the U.S. healthcare interoperability landscape shaped by the ONC/CMS 21st Century
   Cures Act information-blocking rules and TEFCA.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-08-14'
 name: Epic Systems
 nav: Providers
 network: true
@@ -163,24 +211,32 @@ overview: 'Epic Systems publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Epic Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Epic Systems'' developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, and 18 more developer resources.'
-random_paper: 54
+  Epic Systems'' developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, sandbox, changelog, and 28 more developer resources.'
+plans:
+- name: Epic Systems Plans Pricing
+  plan_count: 2
+  slug: epic-systems-plans-pricing
+random_paper: 62
+rate_limits:
+- limit_count: 5
+  name: Epic Systems Rate Limits
+  slug: epic-systems-rate-limits
 scopes:
 - name: Epic Systems Scopes
   scope_count: 0
   slug: epic-systems-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: strong
+  composite: 57.1
+  delta: 15.1
   facets:
-    commercial_clarity: 23.7
+    commercial_clarity: 55.3
     contract_quality: 55.0
-    developer_ergonomics: 45.7
+    developer_ergonomics: 63.0
     discoverability: 92.6
     governance: 3.1
-    operational_transparency: 18.4
+    operational_transparency: 73.7
   previous_composite: 42.0
   provenance:
     conformance: derived
@@ -189,10 +245,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 55.0
+    score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/screenshots/epic-systems-2026-07-25T213516.png
 security:
 - kind: authentication

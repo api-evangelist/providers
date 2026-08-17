@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - description: The Workspaces API from Microsoft Azure Health Data Services — 3 operation(s) for workspaces.
   name: Microsoft Azure Health Data Services Workspaces API
   slug: azure-health-workspaces-api
-artifact_total: 49
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Azure Health Data Services de-identification service Collection API
@@ -119,6 +119,48 @@ collections:
 - collection_type: postman
   name: Azure Health Data Services de-identification service Collection Workspaces API
   slug: postman-azure-health-workspaces-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection API
+  slug: open-azure-health-collection-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection Deid API
+  slug: open-azure-health-deid-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection DicomServices API
+  slug: open-azure-health-dicomservices-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection FhirServices API
+  slug: open-azure-health-fhirservices-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection IotConnectors API
+  slug: open-azure-health-iotconnectors-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection Jobs API
+  slug: open-azure-health-jobs-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection PrivateEndpointConnections API
+  slug: open-azure-health-privateendpointconnections-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection PrivateLinkResources API
+  slug: open-azure-health-privatelinkresources-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection Proxy API
+  slug: open-azure-health-proxy-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection Resource API
+  slug: open-azure-health-resource-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection WorkspacePrivateEndpointConnections API
+  slug: open-azure-health-workspaceprivateendpointconnections-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection WorkspacePrivateLinkResources API
+  slug: open-azure-health-workspaceprivatelinkresources-api
+- collection_type: open
+  name: Azure Health Data Services de-identification service Collection Workspaces API
+  slug: open-azure-health-workspaces-api
 common:
 - group: operate
   title: ''
@@ -314,7 +356,7 @@ plans:
 - name: Microsoft Azure Health Data Services Plans
   plan_count: 5
   slug: microsoft-azure-health-data-services-plans
-random_paper: 26
+random_paper: 34
 rate_limits:
 - limit_count: 9
   name: Microsoft Azure Health Data Services Rate Limits
@@ -359,7 +401,7 @@ score:
     regime_id: health
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/screenshots/azure-health-2026-06-20T172859.png
 security:

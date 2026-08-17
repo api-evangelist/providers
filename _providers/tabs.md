@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 23
 apis:
 - description: The Billing Terms API from Tabs — 1 operation(s) for billing terms.
@@ -100,7 +100,80 @@ apis:
 - description: The Revenue API from Tabs — 1 operation(s) for revenue.
   name: Tabs Revenue API
   slug: tabs-revenue-api
-artifact_total: 28
+artifact_total: 52
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tabs External Billing Terms API
+  slug: open-tabs-billing-terms-api
+- collection_type: open
+  name: Tabs External Billing Terms Categories API
+  slug: open-tabs-categories-api
+- collection_type: open
+  name: Tabs External Billing Terms Classes (QBO only) API
+  slug: open-tabs-classes-qbo-only-api
+- collection_type: open
+  name: Tabs External Billing Terms Commitments API
+  slug: open-tabs-commitments-api
+- collection_type: open
+  name: Tabs External Billing Terms Contracts API
+  slug: open-tabs-contracts-api
+- collection_type: open
+  name: Tabs External Billing Terms Credit Memos API
+  slug: open-tabs-credit-memos-api
+- collection_type: open
+  name: Tabs External Billing Terms Custom Fields API
+  slug: open-tabs-custom-fields-api
+- collection_type: open
+  name: Tabs External Billing Terms Customers API
+  slug: open-tabs-customers-api
+- collection_type: open
+  name: Tabs External Billing Terms Departments API
+  slug: open-tabs-departments-api
+- collection_type: open
+  name: Tabs External Billing Terms Events API
+  slug: open-tabs-events-api
+- collection_type: open
+  name: Tabs External Billing Terms Health API
+  slug: open-tabs-health-api
+- collection_type: open
+  name: Tabs External Billing Terms Invoices API
+  slug: open-tabs-invoices-api
+- collection_type: open
+  name: Tabs External Billing Terms Items API
+  slug: open-tabs-items-api
+- collection_type: open
+  name: Tabs External Billing Terms Jobs API
+  slug: open-tabs-jobs-api
+- collection_type: open
+  name: Tabs External Billing Terms Merchant API
+  slug: open-tabs-merchant-api
+- collection_type: open
+  name: Tabs External Billing Terms Obligations API
+  slug: open-tabs-obligations-api
+- collection_type: open
+  name: Tabs External Billing Terms Payments API
+  slug: open-tabs-payments-api
+- collection_type: open
+  name: Tabs External Billing Terms Performance Obligations API
+  slug: open-tabs-performance-obligations-api
+- collection_type: open
+  name: Tabs External Billing Terms Products API
+  slug: open-tabs-products-api
+- collection_type: open
+  name: Tabs External Billing Terms Projects API
+  slug: open-tabs-projects-api
+- collection_type: open
+  name: Tabs External Billing Terms Renewals API
+  slug: open-tabs-renewals-api
+- collection_type: open
+  name: Tabs External Billing Terms Reports API
+  slug: open-tabs-reports-api
+- collection_type: open
+  name: Tabs External Billing Terms Revenue API
+  slug: open-tabs-revenue-api
 common:
 - group: other
   title: ''
@@ -254,7 +327,7 @@ overview: 'Tabs publishes 23 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Tabs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 27 more developer resources.'
-random_paper: 66
+random_paper: 128
 rate_limits:
 - limit_count: 1
   name: Tabs Rate Limits
@@ -281,7 +354,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

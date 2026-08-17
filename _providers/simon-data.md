@@ -12,24 +12,25 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 61.3
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -37,34 +38,58 @@ agentic_access:
   operation_count: 2
   slug: simon-data-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 4
+api_count: 2
 apis:
-- description: 'A premium API feature that fetches data from an external API at send time to enable dynamic, personalized content delivery across marketing channels. Powers real-time personalization at the moment of '
-  name: Simon Data Real-Time Content API
-  slug: simon-data-real-time-content-api
-- description: Enables Simon Data to push customer segment and event data to external systems via webhooks. Supports payload specifications, best practices, and outbound integration authentication for downstream mar
-  name: Simon Data Outbound Webhooks API
-  slug: simon-data-outbound-webhooks-api
-- description: The Contacts API from Simon Data — 1 operation(s) for contacts.
-  name: Simon Data Contacts API
+- description: The Simon Audience API returns a single Simon Data contact profile at request time so marketers can personalise content across email, SMS, push and front-of-house tools. Contacts are looked up with an
+  name: Simon Data Audience API
   slug: simon-data-contacts-api
-- description: The Events API from Simon Data — 1 operation(s) for events.
-  name: Simon Data Events API
+- description: Simon Signal is Simon Data's event protocol and event-processing pipeline. The Event Ingestion API accepts a single behavioural or transactional event per request at POST /events/v1/collect across pro
+  name: Simon Data Event Ingestion API
   slug: simon-data-events-api
-artifact_total: 19
+artifact_total: 23
+asyncapis:
+- description: ''
+  name: Simon Data Webhooks
+  slug: simon-data-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Simon Data Audience API
+  slug: open-simon-data-audience-api
+- collection_type: open
+  name: Simon Data Event Ingestion API (Simon Signal)
+  slug: open-simon-data-event-ingestion
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/simon-data-audience-api-openapi.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/simon-data-event-ingestion-openapi.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/simon-data-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/simon-data-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/simon-data-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: agent
   title: ''
   type: AgenticAccess
   url: agentic-access/simon-data-agentic-access.yml
-- group: auth
-  title: ''
-  type: TrustCenter
-  url: security/simon-data-trust-center.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/simon-data-domain-security.yml
 - group: auth
   title: ''
   type: Authentication
@@ -73,38 +98,98 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/simon-data-scopes.yml
-- group: company
+- group: design
   title: ''
-  type: Website
-  url: https://www.simon.ai/
-- group: docs
+  type: Conventions
+  url: conventions/simon-data-conventions.yml
+- group: design
   title: ''
-  type: Documentation
-  url: https://docs.simondata.com/
-- group: build
+  type: ErrorCatalog
+  url: errors/simon-data-problem-types.yml
+- group: design
   title: ''
-  type: GitHubOrg
-  url: https://github.com/Radico
-- group: company
+  type: DataModel
+  url: data-model/simon-data-data-model.yml
+- group: design
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/simon-data
-- group: other
-  title: ''
-  type: X
-  url: https://x.com/simon_data
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.simon.ai/blog
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.simon.ai/pricing
+  type: Lifecycle
+  url: lifecycle/simon-data-lifecycle.yml
 - group: operate
   title: ''
   type: StatusPage
-  url: https://docs.simondata.com/docs/operational-status
+  url: https://status.simondata.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/simon-data-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.simondata.com/changelog
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/simon-data-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/simon-data-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/simon-data-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/simon-data-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/simon-data-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.simon.ai/terms/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/simon-data-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.simon.ai/terms/security
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/simon-data-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/simon-data-domain-security.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/simon-data-contact-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/simon-data-event-payload-schema.json
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/simon-data-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/simon-data-context.jsonld
+- group: design
+  title: ''
+  type: Rules
+  url: rules/simon-data-jsonschema-spectral-rules.yml
 - group: commercial
   title: ''
   type: Plans
@@ -117,8 +202,68 @@ common:
   title: ''
   type: FinOps
   url: finops/simon-data-finops.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.simon.ai/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.simondata.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.simondata.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.simondata.com/reference/getting-started
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.simondata.com/reference/ingestion-and-egress-in-5-minutes
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.simondata.com/docs/support-center
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Radico
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.simon.ai/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.simon.ai/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://app.simondata.com/auth/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.simon.ai/terms/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.simon.ai/terms/privacy-policy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/simon-ai-the-agentic-marketing-platform/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/simon_data
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@simon-ai-marketing-platform
 created: '2026-06-13'
-description: Simon Data is an AI-first customer data platform (CDP) that empowers marketing teams with faster, more precise segmentation and personalization. It provides a REST API for managing audiences, activating segments across channels, tracking events via the Simon Signal event collection API, and syncing customer data with downstream marketing tools including Salesforce, Klaviyo, Google Ads, and Facebook.
+description: 'Simon Data — now trading as Simon AI, and acquired by Monetate on 30 July 2026 — is a composable, AI-first customer data platform for marketing teams. It reads customer data directly from a cloud warehouse (Snowflake, BigQuery, Redshift, Azure) without ETL, resolves identity into unified profiles, and activates segments across email, SMS, push, paid media and 70-plus downstream tools including Braze, Iterable, Attentive, Klaviyo, Salesforce Marketing Cloud, Amazon Ads and The Trade Desk. Two callable APIs are published: the Simon Signal Event Ingestion API, which accepts fourteen documented behavioural and transactional event types at a single collect endpoint, and the premium Audience API, which returns one contact profile at a time for send-time personalisation. Outbound webhooks and a Real-Time Content client cover the reverse direction, calling customer endpoints at send time.'
 examples:
 - key_count: 2
   name: Simon Data Get Contact Example
@@ -147,24 +292,28 @@ jsonld:
   property_count: 40
   slug: simon-data-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: simon-data-mcp.yml
+  slug: simon-data-mcpyml
+modified: '2026-08-13'
 name: Simon Data
 nav: Providers
 network: true
-overview: 'Simon Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Contacts API and Events API. Tagged areas include Customer Data Platform, CDP, Marketing Automation, Audience Segmentation, and Event Tracking.
+overview: 'Simon Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Audience API and Event Ingestion API. Tagged areas include Customer Data Platform, CDP, Marketing Automation, Audience Segmentation, and Event Tracking.
 
 
-  The Simon Data catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Simon Data catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Simon Data''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Simon Data''s developer surface includes authentication, changelog, sandbox, code examples, documentation, API reference, getting-started guide, and 43 more developer resources.'
 plans:
 - name: Simon Data Plans Pricing
   plan_count: 1
   slug: simon-data-plans-pricing
-random_paper: 45
+random_paper: 111
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Simon Data Rate Limits
   slug: simon-data-rate-limits
 rules:
@@ -182,16 +331,16 @@ scopes:
   slug: simon-data-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.8
-  delta: 0.0
+  band: exemplar
+  composite: 82.1
+  delta: 34.3
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 67.2
-    developer_ergonomics: 21.7
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
+    commercial_clarity: 89.5
+    contract_quality: 80.2
+    developer_ergonomics: 73.9
+    discoverability: 87.0
+    governance: 89.6
+    operational_transparency: 76.3
   previous_composite: 47.8
   provenance:
     agentic_access: derived
@@ -201,18 +350,22 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/screenshots/simon-data-2026-06-20T193927.png
 security:
 - kind: authentication
   name: Simon Data Authentication
   slug: simon-data-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: http/apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Simon Data Domain Security
   slug: simon-data-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Simon Data Vulnerability Disclosure
+  slug: simon-data-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 - kind: trust-center
   name: Simon Data Trust Center
   slug: simon-data-trust-center
@@ -227,5 +380,9 @@ tags:
 - Data Ingestion
 - Personalization
 - Marketing Technology
+- Identity Resolution
+- Customer Profiles
+- Journey Orchestration
+- Snowflake
 website: https://www.simon.ai/
 ---

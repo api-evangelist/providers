@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -156,7 +156,128 @@ apis:
 - description: Operations related to a webhook
   name: Neynar Webhook API
   slug: neynar-webhook-api
-artifact_total: 555
+artifact_total: 595
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Neynar Action API
+  slug: open-neynar-action-api
+- collection_type: open
+  name: Neynar Action Agents API
+  slug: open-neynar-agents-api
+- collection_type: open
+  name: Neynar Action App Host API
+  slug: open-neynar-app-host-api
+- collection_type: open
+  name: Neynar Action AuthAddress API
+  slug: open-neynar-authaddress-api
+- collection_type: open
+  name: Neynar Action Ban API
+  slug: open-neynar-ban-api
+- collection_type: open
+  name: Neynar Action Block API
+  slug: open-neynar-block-api
+- collection_type: open
+  name: Neynar Action Cast API
+  slug: open-neynar-cast-api
+- collection_type: open
+  name: Neynar Action Casts API
+  slug: open-neynar-casts-api
+- collection_type: open
+  name: Neynar Action Channel API
+  slug: open-neynar-channel-api
+- collection_type: open
+  name: Neynar Action Feed API
+  slug: open-neynar-feed-api
+- collection_type: open
+  name: Neynar Action Fids API
+  slug: open-neynar-fids-api
+- collection_type: open
+  name: Neynar Action fname API
+  slug: open-neynar-fname-api
+- collection_type: open
+  name: Neynar Action Follows API
+  slug: open-neynar-follows-api
+- collection_type: open
+  name: Neynar Action Frame API
+  slug: open-neynar-frame-api
+- collection_type: open
+  name: Neynar Action HubEvents API
+  slug: open-neynar-hubevents-api
+- collection_type: open
+  name: Neynar Action Info API
+  slug: open-neynar-info-api
+- collection_type: open
+  name: Neynar Action Links API
+  slug: open-neynar-links-api
+- collection_type: open
+  name: Neynar Action Login API
+  slug: open-neynar-login-api
+- collection_type: open
+  name: Neynar Action Message API
+  slug: open-neynar-message-api
+- collection_type: open
+  name: Neynar Action Metrics API
+  slug: open-neynar-metrics-api
+- collection_type: open
+  name: Neynar Action Mute API
+  slug: open-neynar-mute-api
+- collection_type: open
+  name: Neynar Action Notifications API
+  slug: open-neynar-notifications-api
+- collection_type: open
+  name: Neynar Action Onchain API
+  slug: open-neynar-onchain-api
+- collection_type: open
+  name: Neynar Action OnChainEvents API
+  slug: open-neynar-onchainevents-api
+- collection_type: open
+  name: Neynar Action organization API
+  slug: open-neynar-organization-api
+- collection_type: open
+  name: Neynar Action portal API
+  slug: open-neynar-portal-api
+- collection_type: open
+  name: Neynar Action Reaction API
+  slug: open-neynar-reaction-api
+- collection_type: open
+  name: Neynar Action Reactions API
+  slug: open-neynar-reactions-api
+- collection_type: open
+  name: Neynar Action Signer API
+  slug: open-neynar-signer-api
+- collection_type: open
+  name: Neynar Action Storage API
+  slug: open-neynar-storage-api
+- collection_type: open
+  name: Neynar Action studio API
+  slug: open-neynar-studio-api
+- collection_type: open
+  name: Neynar Action Subscribers API
+  slug: open-neynar-subscribers-api
+- collection_type: open
+  name: Neynar Action subscription API
+  slug: open-neynar-subscription-api
+- collection_type: open
+  name: Neynar Action Topic API
+  slug: open-neynar-topic-api
+- collection_type: open
+  name: Neynar Action User API
+  slug: open-neynar-user-api
+- collection_type: open
+  name: Neynar Action UserData API
+  slug: open-neynar-userdata-api
+- collection_type: open
+  name: Neynar Action Usernames API
+  slug: open-neynar-usernames-api
+- collection_type: open
+  name: Neynar Action Verifications API
+  slug: open-neynar-verifications-api
+- collection_type: open
+  name: Neynar Action Webhook API
+  slug: open-neynar-webhook-api
 common:
 - group: agent
   title: ''
@@ -1737,7 +1858,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1771,7 +1892,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/screenshots/neynar-2026-06-20T190304.png
 security:

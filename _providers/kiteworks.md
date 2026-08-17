@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 5
@@ -162,11 +162,138 @@ apis:
 - description: The webhook API from Kiteworks — 2 operation(s) for webhook.
   name: Kiteworks webhook API
   slug: kiteworks-webhook-api
-artifact_total: 50
+artifact_total: 92
 asyncapis:
 - description: ''
   name: Kiteworks Pubsub Webhooks
   slug: kiteworks-pubsub-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Kiteworks API Documentation activities API
+  slug: open-kiteworks-activities-api
+- collection_type: open
+  name: Kiteworks API Documentation activities admin API
+  slug: open-kiteworks-admin-api
+- collection_type: open
+  name: Kiteworks API Documentation activities adminRoles API
+  slug: open-kiteworks-adminroles-api
+- collection_type: open
+  name: Kiteworks API Documentation activities advancedForms API
+  slug: open-kiteworks-advancedforms-api
+- collection_type: open
+  name: Kiteworks API Documentation activities cards API
+  slug: open-kiteworks-cards-api
+- collection_type: open
+  name: Kiteworks API Documentation activities clientEventLogs API
+  slug: open-kiteworks-clienteventlogs-api
+- collection_type: open
+  name: Kiteworks API Documentation activities clients API
+  slug: open-kiteworks-clients-api
+- collection_type: open
+  name: Kiteworks API Documentation activities comments API
+  slug: open-kiteworks-comments-api
+- collection_type: open
+  name: Kiteworks API Documentation activities contacts API
+  slug: open-kiteworks-contacts-api
+- collection_type: open
+  name: Kiteworks API Documentation activities devices API
+  slug: open-kiteworks-devices-api
+- collection_type: open
+  name: Kiteworks API Documentation activities dli API
+  slug: open-kiteworks-dli-api
+- collection_type: open
+  name: Kiteworks API Documentation activities externalDL API
+  slug: open-kiteworks-externaldl-api
+- collection_type: open
+  name: Kiteworks API Documentation activities favorites API
+  slug: open-kiteworks-favorites-api
+- collection_type: open
+  name: Kiteworks API Documentation activities files API
+  slug: open-kiteworks-files-api
+- collection_type: open
+  name: Kiteworks API Documentation activities folders API
+  slug: open-kiteworks-folders-api
+- collection_type: open
+  name: Kiteworks API Documentation activities groups API
+  slug: open-kiteworks-groups-api
+- collection_type: open
+  name: Kiteworks API Documentation activities internal API
+  slug: open-kiteworks-internal-api
+- collection_type: open
+  name: Kiteworks API Documentation activities languages API
+  slug: open-kiteworks-languages-api
+- collection_type: open
+  name: Kiteworks API Documentation activities ldapGroups API
+  slug: open-kiteworks-ldapgroups-api
+- collection_type: open
+  name: Kiteworks API Documentation activities locations API
+  slug: open-kiteworks-locations-api
+- collection_type: open
+  name: Kiteworks API Documentation activities mail API
+  slug: open-kiteworks-mail-api
+- collection_type: open
+  name: Kiteworks API Documentation activities mobileSync API
+  slug: open-kiteworks-mobilesync-api
+- collection_type: open
+  name: Kiteworks API Documentation activities notifications API
+  slug: open-kiteworks-notifications-api
+- collection_type: open
+  name: Kiteworks API Documentation activities permissions API
+  slug: open-kiteworks-permissions-api
+- collection_type: open
+  name: Kiteworks API Documentation activities profiles API
+  slug: open-kiteworks-profiles-api
+- collection_type: open
+  name: Kiteworks API Documentation activities requestFile API
+  slug: open-kiteworks-requestfile-api
+- collection_type: open
+  name: Kiteworks API Documentation activities roles API
+  slug: open-kiteworks-roles-api
+- collection_type: open
+  name: Kiteworks API Documentation activities scim API
+  slug: open-kiteworks-scim-api
+- collection_type: open
+  name: Kiteworks API Documentation activities search API
+  slug: open-kiteworks-search-api
+- collection_type: open
+  name: Kiteworks API Documentation activities settings API
+  slug: open-kiteworks-settings-api
+- collection_type: open
+  name: Kiteworks API Documentation activities sharedMailbox API
+  slug: open-kiteworks-sharedmailbox-api
+- collection_type: open
+  name: Kiteworks API Documentation activities shortLinks API
+  slug: open-kiteworks-shortlinks-api
+- collection_type: open
+  name: Kiteworks API Documentation activities sources API
+  slug: open-kiteworks-sources-api
+- collection_type: open
+  name: Kiteworks API Documentation activities sourceTypes API
+  slug: open-kiteworks-sourcetypes-api
+- collection_type: open
+  name: Kiteworks API Documentation activities system API
+  slug: open-kiteworks-system-api
+- collection_type: open
+  name: Kiteworks API Documentation activities tasks API
+  slug: open-kiteworks-tasks-api
+- collection_type: open
+  name: Kiteworks API Documentation activities uploads API
+  slug: open-kiteworks-uploads-api
+- collection_type: open
+  name: Kiteworks API Documentation activities users API
+  slug: open-kiteworks-users-api
+- collection_type: open
+  name: Kiteworks API Documentation activities userSshPublicKeys API
+  slug: open-kiteworks-usersshpublickeys-api
+- collection_type: open
+  name: Kiteworks API Documentation activities webForms API
+  slug: open-kiteworks-webforms-api
+- collection_type: open
+  name: Kiteworks API Documentation activities webhook API
+  slug: open-kiteworks-webhook-api
 common:
 - group: other
   title: ''
@@ -331,7 +458,7 @@ overview: 'Kiteworks publishes 41 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kiteworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 35
+random_paper: 101
 rate_limits:
 - limit_count: 2
   name: Kiteworks Rate Limits
@@ -364,7 +491,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/screenshots/kiteworks-2026-07-25T223908.png
 security:

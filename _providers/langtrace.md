@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,8 +48,20 @@ apis:
 - description: OpenTelemetry trace ingestion and retrieval.
   name: Langtrace AI Traces API
   slug: langtrace-traces-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Langtrace AI Projects API
+  slug: open-langtrace-projects-api
+- collection_type: open
+  name: Langtrace AI Projects Prompt Registry API
+  slug: open-langtrace-prompt-registry-api
+- collection_type: open
+  name: Langtrace AI Projects Traces API
+  slug: open-langtrace-traces-api
 - collection_type: open
   name: Langtrace AI API
   slug: open-langtrace
@@ -114,7 +126,7 @@ plans:
 - name: Langtrace Plans Pricing
   plan_count: 4
   slug: langtrace-plans-pricing
-random_paper: 105
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Langtrace Rate Limits
@@ -139,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/screenshots/langtrace-2026-06-20T184310.png
 security:

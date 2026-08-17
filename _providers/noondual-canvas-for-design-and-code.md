@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Noondual-canvas for design and code
 nav: Providers
 network: true
 overview: Noondual-canvas for design and code is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Design, Design Tools, and Code.
-random_paper: 44
+random_paper: 126
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noondual-canvas-for-design-and-code/refs/heads/main/screenshots/noondual-canvas-for-design-and-code-2026-08-07T185503.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: Health and discovery endpoints.
   name: JokeAPI System API
   slug: jokeapi-system-api
-artifact_total: 54
+artifact_total: 58
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Joke Jokes API
+  slug: open-jokeapi-jokes-api
+- collection_type: open
+  name: Joke Jokes Metadata API
+  slug: open-jokeapi-metadata-api
+- collection_type: open
+  name: Joke Jokes System API
+  slug: open-jokeapi-system-api
 - collection_type: open
   name: JokeAPI
   slug: open-jokeapi
@@ -290,7 +302,7 @@ plans:
 - name: Jokeapi Plans Pricing
   plan_count: 2
   slug: jokeapi-plans-pricing
-random_paper: 19
+random_paper: 143
 rate_limits:
 - limit_count: 2
   name: Jokeapi Rate Limits
@@ -332,7 +344,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/screenshots/jokeapi-2026-06-20T183755.png
 security:

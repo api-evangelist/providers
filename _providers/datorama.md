@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 2
 apis:
 - description: REST API to set up, manage and administer a Marketing Cloud Intelligence (Datorama) account — accounts, workspaces, users, permission sets, data streams, connectors, data source authentications, bucke
@@ -193,7 +193,7 @@ plans:
 - name: Datorama Plans Pricing
   plan_count: 2
   slug: datorama-plans-pricing
-random_paper: 1
+random_paper: 96
 rate_limits:
 - limit_count: 3
   name: Datorama Rate Limits
@@ -201,7 +201,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.8
-  delta: 46.8
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 0.0
@@ -209,10 +209,10 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 73.7
-  previous_composite: 5.0
+  previous_composite: 51.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/screenshots/datorama-2026-07-25T211413.png
 security:
 - kind: authentication

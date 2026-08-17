@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -63,8 +63,29 @@ apis:
 - description: The Vehicles API from Ford — 2 operation(s) for vehicles.
   name: Ford Vehicles API
   slug: ford-vehicles-api
-artifact_total: 17
+artifact_total: 24
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FordConnect Charging API
+  slug: open-ford-charging-api
+- collection_type: open
+  name: FordConnect Charging Commands API
+  slug: open-ford-commands-api
+- collection_type: open
+  name: FordConnect Charging Images API
+  slug: open-ford-images-api
+- collection_type: open
+  name: FordConnect Charging OAuth API
+  slug: open-ford-oauth-api
+- collection_type: open
+  name: FordConnect Charging Status API
+  slug: open-ford-status-api
+- collection_type: open
+  name: FordConnect Charging Vehicles API
+  slug: open-ford-vehicles-api
 - collection_type: open
   name: FordConnect API
   slug: open-ford
@@ -133,7 +154,7 @@ plans:
 - name: Ford Plans Pricing
   plan_count: 2
   slug: ford-plans-pricing
-random_paper: 67
+random_paper: 129
 rate_limits:
 - limit_count: 2
   name: Ford Rate Limits
@@ -163,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/screenshots/ford-2026-06-20T181414.png
 security:

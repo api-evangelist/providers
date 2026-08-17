@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,7 +57,29 @@ apis:
 - description: Manage secrets and secret store entries
   name: BeyondTrust Secrets API
   slug: beyondtrust-secrets-api
-artifact_total: 70
+artifact_total: 77
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BeyondTrust Password Safe Authentication API
+  slug: open-beyondtrust-authentication-api
+- collection_type: open
+  name: BeyondTrust Password Safe Authentication Credentials API
+  slug: open-beyondtrust-credentials-api
+- collection_type: open
+  name: BeyondTrust Password Safe Authentication Managed Accounts API
+  slug: open-beyondtrust-managed-accounts-api
+- collection_type: open
+  name: BeyondTrust Password Safe Authentication Managed Systems API
+  slug: open-beyondtrust-managed-systems-api
+- collection_type: open
+  name: BeyondTrust Password Safe Authentication Requests API
+  slug: open-beyondtrust-requests-api
+- collection_type: open
+  name: BeyondTrust Password Safe Authentication Secrets API
+  slug: open-beyondtrust-secrets-api
 common:
 - group: agent
   title: ''
@@ -265,7 +287,7 @@ plans:
 - name: Beyondtrust Plans Pricing
   plan_count: 3
   slug: beyondtrust-plans-pricing
-random_paper: 19
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Beyondtrust Rate Limits
@@ -307,7 +329,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/screenshots/beyondtrust-2026-06-20T173216.png
 security:

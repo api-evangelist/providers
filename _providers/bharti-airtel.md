@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -43,11 +43,24 @@ apis:
 - description: Airtel's original partner developer programme, launched in 2017 and now an unmaintained legacy portal (the site still carries a 2017 copyright). Its public documentation still describes real OAuth 2.0
   name: Airtel Smart API (legacy)
   slug: airtel-smart-api
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Bharti Airtel Webhooks
   slug: bharti-airtel-webhooks
+collections:
+- collection_type: open
+  name: Airtel IoT
+  slug: open-bharti-airtel-iot
+- collection_type: open
+  name: Airtel IQ API Documentation
+  slug: open-bharti-airtel-iq-reporting
+- collection_type: open
+  name: Airtel IQ SMS Core APIs
+  slug: open-bharti-airtel-iq-sms
+- collection_type: open
+  name: Locate API Catalog
+  slug: open-bharti-airtel-locate
 common:
 - group: agent
   title: ''
@@ -217,7 +230,7 @@ overview: 'Bharti Airtel publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Bharti Airtel''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, developer console, and 30 more developer resources.'
-random_paper: 0
+random_paper: 128
 scopes:
 - name: Bharti Airtel Scopes
   scope_count: 4
@@ -252,7 +265,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/screenshots/bharti-airtel-2026-08-07T162406.png
 security:

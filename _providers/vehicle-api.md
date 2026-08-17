@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,8 +60,32 @@ apis:
 - description: Vehicle trim and style configurations
   name: Vehicle API Styles API
   slug: vehicle-api-styles-api
-artifact_total: 53
+artifact_total: 61
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Vehicle API (Edmunds) Inventory API
+  slug: open-vehicle-api-inventory-api
+- collection_type: open
+  name: Vehicle API (Edmunds) Inventory Makes API
+  slug: open-vehicle-api-makes-api
+- collection_type: open
+  name: Vehicle API (Edmunds) Inventory Media API
+  slug: open-vehicle-api-media-api
+- collection_type: open
+  name: Vehicle API (Edmunds) Inventory Models API
+  slug: open-vehicle-api-models-api
+- collection_type: open
+  name: Vehicle API (Edmunds) Inventory Pricing API
+  slug: open-vehicle-api-pricing-api
+- collection_type: open
+  name: Vehicle API (Edmunds) Inventory Specs API
+  slug: open-vehicle-api-specs-api
+- collection_type: open
+  name: Vehicle API (Edmunds) Inventory Styles API
+  slug: open-vehicle-api-styles-api
 - collection_type: open
   name: Vehicle API (Edmunds)
   slug: open-vehicle-api
@@ -228,7 +252,7 @@ plans:
 - name: Vehicle Api Plans Pricing
   plan_count: 3
   slug: vehicle-api-plans-pricing
-random_paper: 15
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Vehicle Api Rate Limits
@@ -270,7 +294,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/screenshots/vehicle-api-2026-06-20T200854.png
 security:

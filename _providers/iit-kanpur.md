@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 0
@@ -230,7 +230,203 @@ apis:
 - description: Manage vendors for the acquisitions module
   name: Indian Institute of Technology Kanpur vendors API
   slug: iit-kanpur-vendors-api
-artifact_total: 78
+artifact_total: 143
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Koha REST 2fa API
+  slug: open-iit-kanpur-2fa-api
+- collection_type: open
+  name: Koha REST 2fa article_requests API
+  slug: open-iit-kanpur-article-requests-api
+- collection_type: open
+  name: Koha REST 2fa authorised_value_categories API
+  slug: open-iit-kanpur-authorised-value-categories-api
+- collection_type: open
+  name: Koha REST 2fa authorised_values API
+  slug: open-iit-kanpur-authorised-values-api
+- collection_type: open
+  name: Koha REST 2fa authorities API
+  slug: open-iit-kanpur-authorities-api
+- collection_type: open
+  name: Koha REST 2fa baskets API
+  slug: open-iit-kanpur-baskets-api
+- collection_type: open
+  name: Koha REST 2fa batch_import_profiles API
+  slug: open-iit-kanpur-batch-import-profiles-api
+- collection_type: open
+  name: Koha REST 2fa biblios API
+  slug: open-iit-kanpur-biblios-api
+- collection_type: open
+  name: Koha REST 2fa bookings API
+  slug: open-iit-kanpur-bookings-api
+- collection_type: open
+  name: Koha REST 2fa cash_registers API
+  slug: open-iit-kanpur-cash-registers-api
+- collection_type: open
+  name: Koha REST 2fa cashups API
+  slug: open-iit-kanpur-cashups-api
+- collection_type: open
+  name: Koha REST 2fa checkouts API
+  slug: open-iit-kanpur-checkouts-api
+- collection_type: open
+  name: Koha REST 2fa circulation_rules API
+  slug: open-iit-kanpur-circulation-rules-api
+- collection_type: open
+  name: Koha REST 2fa cities API
+  slug: open-iit-kanpur-cities-api
+- collection_type: open
+  name: Koha REST 2fa clubs API
+  slug: open-iit-kanpur-clubs-api
+- collection_type: open
+  name: Koha REST 2fa desks API
+  slug: open-iit-kanpur-desks-api
+- collection_type: open
+  name: Koha REST 2fa erm_agreements API
+  slug: open-iit-kanpur-erm-agreements-api
+- collection_type: open
+  name: Koha REST 2fa erm_config API
+  slug: open-iit-kanpur-erm-config-api
+- collection_type: open
+  name: Koha REST 2fa erm_counter_files API
+  slug: open-iit-kanpur-erm-counter-files-api
+- collection_type: open
+  name: Koha REST 2fa erm_counter_logs API
+  slug: open-iit-kanpur-erm-counter-logs-api
+- collection_type: open
+  name: Koha REST 2fa erm_counter_registry API
+  slug: open-iit-kanpur-erm-counter-registry-api
+- collection_type: open
+  name: Koha REST 2fa erm_default_usage_reports API
+  slug: open-iit-kanpur-erm-default-usage-reports-api
+- collection_type: open
+  name: Koha REST 2fa erm_documents API
+  slug: open-iit-kanpur-erm-documents-api
+- collection_type: open
+  name: Koha REST 2fa erm_eholdings_packages API
+  slug: open-iit-kanpur-erm-eholdings-packages-api
+- collection_type: open
+  name: Koha REST 2fa erm_eholdings_resources API
+  slug: open-iit-kanpur-erm-eholdings-resources-api
+- collection_type: open
+  name: Koha REST 2fa erm_eholdings_titles API
+  slug: open-iit-kanpur-erm-eholdings-titles-api
+- collection_type: open
+  name: Koha REST 2fa erm_licences API
+  slug: open-iit-kanpur-erm-licences-api
+- collection_type: open
+  name: Koha REST 2fa erm_sushi_service API
+  slug: open-iit-kanpur-erm-sushi-service-api
+- collection_type: open
+  name: Koha REST 2fa erm_usage_data_providers API
+  slug: open-iit-kanpur-erm-usage-data-providers-api
+- collection_type: open
+  name: Koha REST 2fa erm_usage_databases API
+  slug: open-iit-kanpur-erm-usage-databases-api
+- collection_type: open
+  name: Koha REST 2fa erm_usage_items API
+  slug: open-iit-kanpur-erm-usage-items-api
+- collection_type: open
+  name: Koha REST 2fa erm_usage_platforms API
+  slug: open-iit-kanpur-erm-usage-platforms-api
+- collection_type: open
+  name: Koha REST 2fa erm_usage_reports API
+  slug: open-iit-kanpur-erm-usage-reports-api
+- collection_type: open
+  name: Koha REST 2fa erm_usage_titles API
+  slug: open-iit-kanpur-erm-usage-titles-api
+- collection_type: open
+  name: Koha REST 2fa erm_users API
+  slug: open-iit-kanpur-erm-users-api
+- collection_type: open
+  name: Koha REST 2fa funds API
+  slug: open-iit-kanpur-funds-api
+- collection_type: open
+  name: Koha REST 2fa holds API
+  slug: open-iit-kanpur-holds-api
+- collection_type: open
+  name: Koha REST 2fa identity_providers API
+  slug: open-iit-kanpur-identity-providers-api
+- collection_type: open
+  name: Koha REST 2fa ill_backends API
+  slug: open-iit-kanpur-ill-backends-api
+- collection_type: open
+  name: Koha REST 2fa ill_batches API
+  slug: open-iit-kanpur-ill-batches-api
+- collection_type: open
+  name: Koha REST 2fa ill_batchstatuses API
+  slug: open-iit-kanpur-ill-batchstatuses-api
+- collection_type: open
+  name: Koha REST 2fa ill_requests API
+  slug: open-iit-kanpur-ill-requests-api
+- collection_type: open
+  name: Koha REST 2fa import_batches API
+  slug: open-iit-kanpur-import-batches-api
+- collection_type: open
+  name: Koha REST 2fa item_groups API
+  slug: open-iit-kanpur-item-groups-api
+- collection_type: open
+  name: Koha REST 2fa item_types API
+  slug: open-iit-kanpur-item-types-api
+- collection_type: open
+  name: Koha REST 2fa items API
+  slug: open-iit-kanpur-items-api
+- collection_type: open
+  name: Koha REST 2fa jobs API
+  slug: open-iit-kanpur-jobs-api
+- collection_type: open
+  name: Koha REST 2fa libraries API
+  slug: open-iit-kanpur-libraries-api
+- collection_type: open
+  name: Koha REST 2fa macros API
+  slug: open-iit-kanpur-macros-api
+- collection_type: open
+  name: Koha REST 2fa oauth API
+  slug: open-iit-kanpur-oauth-api
+- collection_type: open
+  name: Koha REST 2fa orders API
+  slug: open-iit-kanpur-orders-api
+- collection_type: open
+  name: Koha REST 2fa patron_categories API
+  slug: open-iit-kanpur-patron-categories-api
+- collection_type: open
+  name: Koha REST 2fa patrons API
+  slug: open-iit-kanpur-patrons-api
+- collection_type: open
+  name: Koha REST 2fa preservation API
+  slug: open-iit-kanpur-preservation-api
+- collection_type: open
+  name: Koha REST 2fa quotes API
+  slug: open-iit-kanpur-quotes-api
+- collection_type: open
+  name: Koha REST 2fa recalls API
+  slug: open-iit-kanpur-recalls-api
+- collection_type: open
+  name: Koha REST 2fa return_claims API
+  slug: open-iit-kanpur-return-claims-api
+- collection_type: open
+  name: Koha REST 2fa rotas API
+  slug: open-iit-kanpur-rotas-api
+- collection_type: open
+  name: Koha REST 2fa search_filters API
+  slug: open-iit-kanpur-search-filters-api
+- collection_type: open
+  name: Koha REST 2fa smtp_servers API
+  slug: open-iit-kanpur-smtp-servers-api
+- collection_type: open
+  name: Koha REST 2fa suggestions API
+  slug: open-iit-kanpur-suggestions-api
+- collection_type: open
+  name: Koha REST 2fa tickets API
+  slug: open-iit-kanpur-tickets-api
+- collection_type: open
+  name: Koha REST 2fa transfer_limits API
+  slug: open-iit-kanpur-transfer-limits-api
+- collection_type: open
+  name: Koha REST 2fa vendors API
+  slug: open-iit-kanpur-vendors-api
 common:
 - group: agent
   title: ''
@@ -310,7 +506,7 @@ plans:
 - name: Iit Kanpur Plans Pricing
   plan_count: 2
   slug: iit-kanpur-plans-pricing
-random_paper: 68
+random_paper: 134
 rate_limits:
 - limit_count: 1
   name: Iit Kanpur Rate Limits
@@ -352,7 +548,7 @@ score:
       marker_coverage: 0.0
       total: 64
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png
 security:

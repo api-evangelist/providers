@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: User lifecycle management
   name: Thought Industries Users API
   slug: thought-industries-users-api
-artifact_total: 30
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Thought Industries REST Content API
@@ -80,6 +80,27 @@ collections:
 - collection_type: postman
   name: Thought Industries REST Content Users API
   slug: postman-thought-industries-users-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Thought Industries REST Content API
+  slug: open-thought-industries-content-api
+- collection_type: open
+  name: Thought Industries REST Content Courses API
+  slug: open-thought-industries-courses-api
+- collection_type: open
+  name: Thought Industries REST Content Enrollments API
+  slug: open-thought-industries-enrollments-api
+- collection_type: open
+  name: Thought Industries REST Content Groups API
+  slug: open-thought-industries-groups-api
+- collection_type: open
+  name: Thought Industries REST Content Reports API
+  slug: open-thought-industries-reports-api
+- collection_type: open
+  name: Thought Industries REST Content Users API
+  slug: open-thought-industries-users-api
 - collection_type: open
   name: Thought Industries REST API
   slug: open-thought-industries
@@ -194,7 +215,7 @@ plans:
 - name: Thought Industries Plans Pricing
   plan_count: 3
   slug: thought-industries-plans-pricing
-random_paper: 114
+random_paper: 126
 rate_limits:
 - limit_count: 5
   name: Thought Industries Rate Limits
@@ -236,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/screenshots/thought-industries-2026-06-20T195312.png
 security:

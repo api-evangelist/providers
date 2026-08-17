@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The Addresses API from Blockstream — 11 operation(s) for addresses.
@@ -52,7 +52,32 @@ apis:
 - description: The Transactions API from Blockstream — 10 operation(s) for transactions.
   name: Blockstream Transactions API
   slug: blockstream-transactions-api
-artifact_total: 10
+artifact_total: 18
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Blockstream Esplora HTTP Addresses API
+  slug: open-blockstream-addresses-api
+- collection_type: open
+  name: Blockstream Esplora HTTP Addresses Assets API
+  slug: open-blockstream-assets-api
+- collection_type: open
+  name: Blockstream Esplora HTTP Addresses Blocks API
+  slug: open-blockstream-blocks-api
+- collection_type: open
+  name: Blockstream Esplora HTTP Addresses Fee Estimates API
+  slug: open-blockstream-fee-estimates-api
+- collection_type: open
+  name: Blockstream Esplora HTTP Addresses Mempool API
+  slug: open-blockstream-mempool-api
+- collection_type: open
+  name: Blockstream Esplora HTTP Addresses Mining API
+  slug: open-blockstream-mining-api
+- collection_type: open
+  name: Blockstream Esplora HTTP Addresses Transactions API
+  slug: open-blockstream-transactions-api
 common:
 - group: docs
   title: ''
@@ -146,7 +171,7 @@ overview: 'Blockstream publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Blockstream''s developer surface includes documentation, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 95
+random_paper: 132
 score:
   band: thin
   composite: 30.6
@@ -169,7 +194,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/screenshots/blockstream-2026-07-25T203345.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -69,7 +69,41 @@ apis:
 - description: User account management
   name: ProcessMaker Users API
   slug: processmaker-users-api
-artifact_total: 24
+artifact_total: 35
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables API
+  slug: open-processmaker-environment-variables-api
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables Files API
+  slug: open-processmaker-files-api
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables Groups API
+  slug: open-processmaker-groups-api
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables Notifications API
+  slug: open-processmaker-notifications-api
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables Processes API
+  slug: open-processmaker-processes-api
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables Requests API
+  slug: open-processmaker-requests-api
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables Screens API
+  slug: open-processmaker-screens-api
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables Settings API
+  slug: open-processmaker-settings-api
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables Tasks API
+  slug: open-processmaker-tasks-api
+- collection_type: open
+  name: ProcessMaker Platform RESTful Environment Variables Users API
+  slug: open-processmaker-users-api
 common:
 - group: commercial
   title: ''
@@ -191,7 +225,7 @@ plans:
 - name: Processmaker Plans Pricing
   plan_count: 3
   slug: processmaker-plans-pricing
-random_paper: 95
+random_paper: 103
 rate_limits:
 - limit_count: 0
   name: Processmaker Rate Limits
@@ -225,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/screenshots/processmaker-2026-06-20T192125.png
 security:

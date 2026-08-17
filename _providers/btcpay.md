@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 6
@@ -132,7 +132,104 @@ apis:
 - description: Webhook operations
   name: BTCPay Server Webhooks API
   slug: btcpay-webhooks-api
-artifact_total: 37
+artifact_total: 69
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: BTCPay Greenfield API Keys API
+  slug: open-btcpay-api-keys-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Apps API
+  slug: open-btcpay-apps-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Authorization API
+  slug: open-btcpay-authorization-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Crowdfund API
+  slug: open-btcpay-crowdfund-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Files API
+  slug: open-btcpay-files-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Health API
+  slug: open-btcpay-health-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Invoices API
+  slug: open-btcpay-invoices-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Lightning address API
+  slug: open-btcpay-lightning-address-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Lightning (Internal Node) API
+  slug: open-btcpay-lightning-internal-node-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Lightning (Store) API
+  slug: open-btcpay-lightning-store-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Miscelleneous API
+  slug: open-btcpay-miscelleneous-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Notifications (Current User) API
+  slug: open-btcpay-notifications-current-user-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Payment Requests API
+  slug: open-btcpay-payment-requests-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Payout Processors API
+  slug: open-btcpay-payout-processors-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Point of Sale API
+  slug: open-btcpay-point-of-sale-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Pull payments (Management) API
+  slug: open-btcpay-pull-payments-management-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Pull payments payout (Public) API
+  slug: open-btcpay-pull-payments-payout-public-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Pull payments (Public) API
+  slug: open-btcpay-pull-payments-public-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys ServerEmail API
+  slug: open-btcpay-serveremail-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys ServerInfo API
+  slug: open-btcpay-serverinfo-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Store (Payment Methods) API
+  slug: open-btcpay-store-payment-methods-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Store Wallet (On Chain) API
+  slug: open-btcpay-store-wallet-on-chain-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Stores API
+  slug: open-btcpay-stores-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Stores (Email) API
+  slug: open-btcpay-stores-email-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Stores (Payout Processors) API
+  slug: open-btcpay-stores-payout-processors-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Stores (Payouts) API
+  slug: open-btcpay-stores-payouts-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Stores (Rates) API
+  slug: open-btcpay-stores-rates-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Stores (Users) API
+  slug: open-btcpay-stores-users-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Subscriptions API
+  slug: open-btcpay-subscriptions-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Users API
+  slug: open-btcpay-users-api
+- collection_type: open
+  name: BTCPay Greenfield API Keys Webhooks API
+  slug: open-btcpay-webhooks-api
 common:
 - group: operate
   title: ''
@@ -230,7 +327,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -261,7 +358,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/screenshots/btcpay-2026-06-20T173732.png
 security:

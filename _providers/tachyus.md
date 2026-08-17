@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 3
 apis:
 - description: Daily/monthly production records for a well.
@@ -40,7 +40,20 @@ apis:
 - description: Wells belong to projects.
   name: Tachyus Wells API
   slug: tachyus-wells-api
-artifact_total: 8
+artifact_total: 12
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Tachapps Production Data API
+  slug: open-tachyus-production-data-api
+- collection_type: open
+  name: Tachapps Production Data Projects API
+  slug: open-tachyus-projects-api
+- collection_type: open
+  name: Tachapps Production Data Wells API
+  slug: open-tachyus-wells-api
 common:
 - group: company
   title: ''
@@ -146,7 +159,7 @@ overview: 'Tachyus publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Tachyus'' developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 17 more developer resources.'
-random_paper: 49
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Tachyus Rate Limits
@@ -184,7 +197,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

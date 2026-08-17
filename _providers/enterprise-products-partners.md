@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,20 @@ apis:
 - description: Pipeline information operations
   name: Enterprise Products Partners Pipelines API
   slug: enterprise-products-partners-pipelines-api
-artifact_total: 8
+artifact_total: 11
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Enterprise Products Partners Pipeline Operations API
+  slug: open-enterprise-products-partners-operations-api
 - collection_type: open
   name: Enterprise Products Partners Pipeline Operations API
   slug: open-enterprise-products-partners-pipeline-operations-api
+- collection_type: open
+  name: Enterprise Products Partners Pipeline Operations Pipelines API
+  slug: open-enterprise-products-partners-pipelines-api
 common:
 - group: agent
   title: ''
@@ -107,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: EPD Enterprise Products Partners LP Common Units Stock ...
   url: https://seekingalpha.com/symbol/EPD
-random_paper: 62
+random_paper: 111
 rate_limits:
 - limit_count: 1
   name: Enterprise Products Partners Rate Limits
@@ -138,7 +147,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/screenshots/enterprise-products-partners-2026-06-20T180729.png
 security:

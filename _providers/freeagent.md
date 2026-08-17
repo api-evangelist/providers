@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -50,8 +50,20 @@ apis:
 - description: The Invoices API from FreeAgent — 10 operation(s) for invoices.
   name: FreeAgent Invoices API
   slug: freeagent-invoices-api
-artifact_total: 10
+artifact_total: 14
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: FreeAgent BankAccounts API
+  slug: open-freeagent-bankaccounts-api
+- collection_type: open
+  name: FreeAgent BankAccounts Contacts API
+  slug: open-freeagent-contacts-api
+- collection_type: open
+  name: FreeAgent BankAccounts Invoices API
+  slug: open-freeagent-invoices-api
 - collection_type: open
   name: FreeAgent API
   slug: open-freeagent
@@ -124,7 +136,7 @@ overview: 'FreeAgent publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   FreeAgent''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 105
+random_paper: 51
 scopes:
 - name: Freeagent Scopes
   scope_count: 0
@@ -150,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/screenshots/freeagent-2026-06-20T181523.png
 security:

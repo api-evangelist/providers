@@ -28,17 +28,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Auth API API from Serval — 1 operation(s) for auth api.
   name: Serval Auth API API
   slug: serval-auth-api-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Serval Webhooks
   slug: serval-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Spec Auth API API
+  slug: open-serval-auth-api-api
 common:
 - group: auth
   title: ''
@@ -143,7 +150,7 @@ overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Au
 
 
   Serval''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 14 more developer resources.'
-random_paper: 53
+random_paper: 57
 scopes:
 - name: Serval Scopes
   scope_count: 1
@@ -170,7 +177,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 6
@@ -104,11 +104,81 @@ apis:
 - description: Webhook Endpoints
   name: NinjaOne webhooks API
   slug: ninjaone-webhooks-api
-artifact_total: 30
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Ninjaone Webhooks
   slug: ninjaone-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags API
+  slug: open-ninjaone-asset-tags-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Backup API
+  slug: open-ninjaone-backup-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Checklist Templates API
+  slug: open-ninjaone-checklist-templates-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Custom Fields API
+  slug: open-ninjaone-custom-fields-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Custom Tabs API
+  slug: open-ninjaone-custom-tabs-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags devices API
+  slug: open-ninjaone-devices-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Document Templates API
+  slug: open-ninjaone-document-templates-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags groups API
+  slug: open-ninjaone-groups-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Knowledge Base Articles API
+  slug: open-ninjaone-knowledge-base-articles-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Location API
+  slug: open-ninjaone-location-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags management API
+  slug: open-ninjaone-management-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags organization API
+  slug: open-ninjaone-organization-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Organization Checklists API
+  slug: open-ninjaone-organization-checklists-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Organization Documents API
+  slug: open-ninjaone-organization-documents-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags queries API
+  slug: open-ninjaone-queries-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Related Items API
+  slug: open-ninjaone-related-items-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags system API
+  slug: open-ninjaone-system-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags ticketing API
+  slug: open-ninjaone-ticketing-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Unmanaged Devices API
+  slug: open-ninjaone-unmanaged-devices-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Users API
+  slug: open-ninjaone-users-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags Vulnerability Management API
+  slug: open-ninjaone-vulnerability-management-api
+- collection_type: open
+  name: NinjaOne Public API 2.0 Asset Tags webhooks API
+  slug: open-ninjaone-webhooks-api
 common:
 - group: other
   title: ''
@@ -237,7 +307,7 @@ overview: 'NinjaOne publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   NinjaOne''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, and 21 more developer resources.'
-random_paper: 10
+random_paper: 105
 scopes:
 - name: Ninjaone Scopes
   scope_count: 4
@@ -266,7 +336,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/screenshots/ninjaone-2026-08-07T185326.png
 security:

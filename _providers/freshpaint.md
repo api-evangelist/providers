@@ -14,22 +14,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-12'
+  score: 45.5
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,8 +45,14 @@ apis:
 - description: The Events API from Freshpaint — 1 operation(s) for events.
   name: Freshpaint Events API
   slug: freshpaint-events-api
-artifact_total: 10
+artifact_total: 12
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Freshpaint HTTP Events API
+  slug: open-freshpaint-events-api
 - collection_type: open
   name: Freshpaint HTTP API
   slug: open-freshpaint
@@ -99,6 +105,74 @@ common:
   title: ''
   type: Blog
   url: https://www.freshpaint.io/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/freshpaint-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/freshpaint-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/freshpaint-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/freshpaint-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.freshpaint.io
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/freshpaint-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/freshpaint-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/freshpaint-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/freshpaint-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.freshpaint.io/
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.freshpaint.io/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.freshpaint.io/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.freshpaint.io/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.freshpaint.io/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.freshpaint.io/contact-us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.freshpaint.io/faq
 created: '2026-06-25'
 description: Freshpaint is a healthcare privacy platform and customer-data platform that collects first-party event data and governs it for HIPAA compliance before fanning it out to 100+ marketing, analytics, and data destinations. Its server-side HTTP API ingests track, identify, page, and screen events at https://api.perfalytics.com/track authenticated with an environment token.
 finops:
@@ -107,34 +181,34 @@ finops:
   slug: freshpaint-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshpaint.png
 layout: provider
-modified: '2026-06-25'
+modified: '2026-08-13'
 name: Freshpaint
 nav: Providers
 network: true
 overview: 'Freshpaint publishes 1 API on the [APIs.io](https://apis.io/) network: Events API. Tagged areas include Customer Data Platform, Event Tracking, Healthcare, HIPAA, and Privacy.
 
 
-  Freshpaint''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Freshpaint''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, signup flow, support, and 22 more developer resources.'
 plans:
 - name: Freshpaint Plans Pricing
   plan_count: 3
   slug: freshpaint-plans-pricing
-random_paper: 116
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Freshpaint Rate Limits
   slug: freshpaint-rate-limits
 score:
-  band: thin
-  composite: 36.8
-  delta: 0.0
+  band: strong
+  composite: 57.4
+  delta: 20.6
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 100.0
     contract_quality: 61.9
-    developer_ergonomics: 21.7
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 26.3
+    developer_ergonomics: 39.1
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 57.9
   previous_composite: 36.8
   provenance:
     agentic_access: derived
@@ -148,10 +222,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.3
+    score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/screenshots/freshpaint-2026-07-25T215208.png
 security:
 - kind: authentication
@@ -165,7 +239,7 @@ security:
 - kind: trust-center
   name: Freshpaint Trust Center
   slug: freshpaint-trust-center
-  summary_line: SOC 2, HIPAA
+  summary_line: SOC 2 Type 2, HIPAA
 slug: freshpaint
 tags:
 - Customer Data Platform

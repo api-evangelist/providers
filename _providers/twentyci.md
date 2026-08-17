@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,7 +55,14 @@ apis:
 - description: '"This is Now" retail propensity to buy goods. Local and national search endpoints returning consumer propensity signal derived from home-mover events, aimed at retailers and media agencies targeting p'
   name: TwentyAPI This is Now API
   slug: twentyapi-this-is-now-api
-artifact_total: 14
+artifact_total: 16
+collections:
+- collection_type: open
+  name: TwentyAPI (TwentyCi) OAuth 2.0 Token API
+  slug: open-twentyci-twentyapi-oauth
+- collection_type: open
+  name: TwentyAPI (TwentyCi) v2
+  slug: open-twentyci-twentyapi
 common:
 - group: agent
   title: ''
@@ -214,7 +221,7 @@ overview: 'TwentyCi publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TwentyCi''s developer surface includes authentication, code examples, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 47
+random_paper: 142
 scopes:
 - name: Twentyci Scopes
   scope_count: 1
@@ -243,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

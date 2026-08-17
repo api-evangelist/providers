@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ apis:
 - description: Manage crypto withdrawals from exchange accounts to external addresses or Coinbase accounts.
   name: Coinbase Withdrawals API
   slug: coinbase-withdrawals-api
-artifact_total: 119
+artifact_total: 146
 asyncapis:
 - description: The Coinbase Advanced Trade WebSocket API provides real-time market data streaming including heartbeats, ticker updates, candle data, market trades, level2 order book updates, and user order status ch
   name: Coinbase Advanced Trade WebSocket
@@ -217,20 +217,101 @@ collections:
   name: Coinbase Advanced Trade Accounts Withdrawals API
   slug: postman-coinbase-withdrawals-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts API
+  slug: open-coinbase-accounts-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Activities API
+  slug: open-coinbase-activities-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Address Book API
+  slug: open-coinbase-address-book-api
+- collection_type: open
   name: Coinbase Advanced Trade API
   slug: open-coinbase-advanced-trade
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Allocations API
+  slug: open-coinbase-allocations-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Assets API
+  slug: open-coinbase-assets-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Balances API
+  slug: open-coinbase-balances-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Buy API
+  slug: open-coinbase-buy-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Charges API
+  slug: open-coinbase-charges-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Checkouts API
+  slug: open-coinbase-checkouts-api
 - collection_type: open
   name: Coinbase Commerce API
   slug: open-coinbase-commerce
 - collection_type: open
+  name: Coinbase Advanced Trade Accounts Conversions API
+  slug: open-coinbase-conversions-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Currencies API
+  slug: open-coinbase-currencies-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Deposits API
+  slug: open-coinbase-deposits-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Events API
+  slug: open-coinbase-events-api
+- collection_type: open
   name: Coinbase Exchange API
   slug: open-coinbase-exchange
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Fees API
+  slug: open-coinbase-fees-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Invoices API
+  slug: open-coinbase-invoices-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Market Data API
+  slug: open-coinbase-market-data-api
 - collection_type: open
   name: Coinbase Onramp API
   slug: open-coinbase-onramp
 - collection_type: open
+  name: Coinbase Advanced Trade Accounts Orders API
+  slug: open-coinbase-orders-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Portfolios API
+  slug: open-coinbase-portfolios-api
+- collection_type: open
   name: Coinbase Prime API
   slug: open-coinbase-prime
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Products API
+  slug: open-coinbase-products-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Profiles API
+  slug: open-coinbase-profiles-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Sell API
+  slug: open-coinbase-sell-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Session API
+  slug: open-coinbase-session-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Transactions API
+  slug: open-coinbase-transactions-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Users API
+  slug: open-coinbase-users-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Wallets API
+  slug: open-coinbase-wallets-api
+- collection_type: open
+  name: Coinbase Advanced Trade Accounts Withdrawals API
+  slug: open-coinbase-withdrawals-api
 common:
 - group: build
   title: ''
@@ -482,7 +563,7 @@ plans:
 - name: Coinbase Plans Pricing
   plan_count: 11
   slug: coinbase-plans-pricing
-random_paper: 116
+random_paper: 91
 rate_limits:
 - limit_count: 4
   name: Coinbase Rate Limits
@@ -538,7 +619,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png
 security:

@@ -10,66 +10,104 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: documented
+    mcp_server: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-12'
+  score: 67.6
+  scored_at: '2026-08-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 27
   human_in_the_loop: 0
   name: Bitly Agentic Access
-  operation_count: 42
+  operation_count: 94
   slug: bitly-agentic-access
-  summary_line: 42 operations · 14 acting
-api_count: 10
+  summary_line: 94 operations · 27 acting
+api_count: 11
 apis:
-- description: The Bitlinks API from Bitly — 4 operation(s) for bitlinks.
-  name: Bitly Bitlinks API
-  slug: bitly-bitlinks-api
-- description: The BSDs API from Bitly — 1 operation(s) for bsds.
+- description: List the branded short domains (BSDs) available to the authenticated account. 1 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly BSDs API
   slug: bitly-bsds-api
-- description: The Campaigns API from Bitly — 2 operation(s) for campaigns.
+- description: Create, expand, update, archive and delete Bitlinks, list them by group, and read per-link click, engagement, country, city, device and referrer metrics. 21 operation(s), extracted verbatim from the O
+  name: Bitly Bitlinks API
+  slug: bitly-bitlinks-api
+- description: Manage marketing campaigns and the channels inside them, grouping Bitlinks for attribution. 8 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly Campaigns API
   slug: bitly-campaigns-api
-- description: The Channels API from Bitly — 2 operation(s) for channels.
-  name: Bitly Channels API
-  slug: bitly-channels-api
-- description: The Custom Bitlinks API from Bitly — 2 operation(s) for custom bitlinks.
+- description: Create and update custom back-halves on existing Bitlinks and read clicks by destination for A/B rotations. 5 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com
   name: Bitly Custom Bitlinks API
   slug: bitly-custom-bitlinks-api
-- description: The Group Metrics API from Bitly — 7 operation(s) for group metrics.
-  name: Bitly Group Metrics API
-  slug: bitly-group-metrics-api
-- description: The Groups API from Bitly — 5 operation(s) for groups.
+- description: Manage groups (workspaces) — preferences, tags, shorten counts, exports, feature usage and historical usage — plus the full group-level click, scan and engagement analytics surface. 28 operation(s), e
   name: Bitly Groups API
   slug: bitly-groups-api
-- description: The Metrics API from Bitly — 8 operation(s) for metrics.
-  name: Bitly Metrics API
-  slug: bitly-metrics-api
-- description: The Organizations API from Bitly — 4 operation(s) for organizations.
+- description: Look up the public metadata of a registered Bitly OAuth application by client_id. 1 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
+  name: Bitly OAuth Apps API
+  slug: bitly-oauth-apps-api
+- description: Read organizations, their plan limits, and shorten counts overall and by group. 5 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly Organizations API
   slug: bitly-organizations-api
-- description: The QR Codes API from Bitly — 1 operation(s) for qr codes.
+- description: Create dynamic and static QR Codes, customize their render, fetch the image, upgrade a code to a Bitlink, and read scan metrics by browser, city, country and device OS. 16 operation(s), extracted verb
   name: Bitly QR Codes API
   slug: bitly-qr-codes-api
-artifact_total: 16
+- description: Read and update the authenticated user profile and read the platform limits applied to the account. 3 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.j
+  name: Bitly User API
+  slug: bitly-user-api
+- description: Create, read, update, delete and verify webhook endpoints that receive Bitly engagement events. 6 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
+  name: Bitly Webhooks API
+  slug: bitly-webhooks-api
+- description: Bitly's official remote Model Context Protocol server, exposing 25 tools for link creation, QR Codes, analytics, groups, custom domains and bulk upload. Hosted by Bitly at https://api-ssl.bitly.com/v4
+  name: Bitly MCP Server
+  slug: bitly-mcp-server
+artifact_total: 33
+asyncapis:
+- description: ''
+  name: Bitly Engagement Webhooks
+  slug: bitly-engagement-webhooks
 collections:
+- collection_type: open
+  name: Bitly Bitlinks API
+  slug: open-bitly-bitlinks-api
+- collection_type: open
+  name: Bitly BSDs API
+  slug: open-bitly-bsds-api
+- collection_type: open
+  name: Bitly Campaigns API
+  slug: open-bitly-campaigns-api
+- collection_type: open
+  name: Bitly Custom Bitlinks API
+  slug: open-bitly-custom-bitlinks-api
+- collection_type: open
+  name: Bitly Groups API
+  slug: open-bitly-groups-api
+- collection_type: open
+  name: Bitly OAuth Apps API
+  slug: open-bitly-oauth-apps-api
+- collection_type: open
+  name: Bitly Organizations API
+  slug: open-bitly-organizations-api
+- collection_type: open
+  name: Bitly QR Codes API
+  slug: open-bitly-qr-codes-api
+- collection_type: open
+  name: Bitly User API
+  slug: open-bitly-user-api
+- collection_type: open
+  name: Bitly Webhooks API
+  slug: open-bitly-webhooks-api
 - collection_type: open
   name: Bitly API v4
   slug: open-bitly
@@ -146,30 +184,177 @@ common:
   title: ''
   type: Blog
   url: https://bitly.com/blog/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/bitly-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/bitly-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/bitly-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/bitly-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bitly-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bitly-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/bitly-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/bitly-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bitly-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/bitly-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/bitly-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/bitly-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/bitly-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bitly-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bitly-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/bitly-engagement-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/bitly-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/bitly-scopes.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://dev.bitly.com
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://security.bitly.com
+- group: operate
+  title: ''
+  type: Changelog
+  url: https://dev.bitly.com/bitly-mcp/overview/mcp-changelog/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://bitly.com/pages/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://bitly.com/pages/privacy
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://dev.bitly.com/bitly-mcp/
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/bitly.postman_collection.json
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/bitly.opencollection.json
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/bitly-shorten-and-brand-a-link.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/bitly-report-link-performance.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/bitly-create-and-measure-a-qr-code.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/bitly-subscribe-to-engagement-events.md
 created: '2026-05-11'
-description: Bitly is a URL shortening and link management platform that enables developers and marketers to create branded short links, generate QR codes, track engagement analytics, and manage link campaigns at scale. The Bitly v4 REST API provides programmatic access to link creation, custom domains, groups, campaigns, click metrics, and QR codes using Bearer token authentication.
+description: Bitly is a link management platform for creating, branding, routing and measuring short links, QR Codes and link-in-bio pages at scale. The Bitly v4 REST API is a 94-operation, bearer-authenticated JSON API at https://api-ssl.bitly.com/v4 covering Bitlink creation and expansion, custom back-halves, branded short domains, groups (workspaces) and organizations, campaigns and channels, dynamic and static QR Codes, bulk shortening, engagement webhooks, and a deep click/scan analytics surface sliced by country, city, device, OS, browser and referrer. Bitly publishes its own OpenAPI 3.0 definition and operates an official remote Model Context Protocol server, making it directly callable by AI agents.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitly.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: bitly-mcp.yml
+  slug: bitly-mcpyml
+- description: ''
+  name: bitly-mcp
+  slug: bitly-mcp
+modified: '2026-08-13'
 name: Bitly
 nav: Providers
 network: true
-overview: 'Bitly publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bitlinks API, BSDs API, Campaigns API, and 7 more. Tagged areas include Links, URL Shortener, QR Codes, Analytics, and Marketing.
+overview: 'Bitly publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BSDs API, Bitlinks API, Campaigns API, and 7 more. Tagged areas include Links, URL Shortener, QR Codes, Analytics, and Marketing.
 
 
-  Bitly''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 68
+  The Bitly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Bitly''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 42 more developer resources.'
+plans:
+- name: Bitly Plans Pricing
+  plan_count: 5
+  slug: bitly-plans-pricing
+random_paper: 101
+rate_limits:
+- limit_count: 8
+  name: Bitly Rate Limits
+  slug: bitly-rate-limits
+scopes:
+- name: Bitly Scopes
+  scope_count: 0
+  slug: bitly-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 36.8
-  delta: 0.0
+  band: exemplar
+  composite: 72.7
+  delta: 35.9
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 55.2
-    developer_ergonomics: 32.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 92.1
+    contract_quality: 70.2
+    developer_ergonomics: 73.9
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 86.8
   previous_composite: 36.8
   provenance:
     agentic_access: derived
@@ -179,14 +364,14 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: flat
+  scored_at: '2026-08-17'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/screenshots/bitly-2026-06-20T173312.png
 security:
 - kind: authentication
   name: Bitly Authentication
   slug: bitly-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Bitly Domain Security
   slug: bitly-domain-security
@@ -198,7 +383,7 @@ security:
 - kind: trust-center
   name: Bitly Trust Center
   slug: bitly-trust-center
-  summary_line: SOC 2, GDPR
+  summary_line: SOC 2 Type 2, GDPR, CCPA
 slug: bitly
 tags:
 - Links
@@ -206,5 +391,10 @@ tags:
 - QR Codes
 - Analytics
 - Marketing
+- Link Management
+- Webhooks
+- Attribution
+- Agents
+- MCP
 website: https://bitly.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -87,8 +87,59 @@ apis:
 - description: Vendor webhook subscription and management.
   name: AMC Entertainment Holdings Webhooks API
   slug: amc-entertainment-holdings-webhooks-api
-artifact_total: 43
+artifact_total: 60
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AMC Theatres Barcodes API
+  slug: open-amc-entertainment-holdings-barcodes-api
+- collection_type: open
+  name: AMC Theatres Barcodes Concessions API
+  slug: open-amc-entertainment-holdings-concessions-api
+- collection_type: open
+  name: AMC Theatres Barcodes Locations API
+  slug: open-amc-entertainment-holdings-locations-api
+- collection_type: open
+  name: AMC Theatres Barcodes Loyalty API
+  slug: open-amc-entertainment-holdings-loyalty-api
+- collection_type: open
+  name: AMC Theatres Barcodes Markets API
+  slug: open-amc-entertainment-holdings-markets-api
+- collection_type: open
+  name: AMC Theatres Barcodes Media API
+  slug: open-amc-entertainment-holdings-media-api
+- collection_type: open
+  name: AMC Theatres Barcodes MovieConfirmations API
+  slug: open-amc-entertainment-holdings-movieconfirmations-api
+- collection_type: open
+  name: AMC Theatres Barcodes Movies API
+  slug: open-amc-entertainment-holdings-movies-api
+- collection_type: open
+  name: AMC Theatres Barcodes Orders API
+  slug: open-amc-entertainment-holdings-orders-api
+- collection_type: open
+  name: AMC Theatres Barcodes Refunds API
+  slug: open-amc-entertainment-holdings-refunds-api
+- collection_type: open
+  name: AMC Theatres Barcodes Seating API
+  slug: open-amc-entertainment-holdings-seating-api
+- collection_type: open
+  name: AMC Theatres Barcodes Showtimes API
+  slug: open-amc-entertainment-holdings-showtimes-api
+- collection_type: open
+  name: AMC Theatres Barcodes States API
+  slug: open-amc-entertainment-holdings-states-api
+- collection_type: open
+  name: AMC Barcodes Theatres API
+  slug: open-amc-entertainment-holdings-theatres-api
+- collection_type: open
+  name: AMC Theatres Barcodes Wallet API
+  slug: open-amc-entertainment-holdings-wallet-api
+- collection_type: open
+  name: AMC Theatres Barcodes Webhooks API
+  slug: open-amc-entertainment-holdings-webhooks-api
 - collection_type: open
   name: AMC Theatres API
   slug: open-amc-theatres-api
@@ -216,7 +267,7 @@ plans:
 - name: Amc Entertainment Holdings Plans Pricing
   plan_count: 1
   slug: amc-entertainment-holdings-plans-pricing
-random_paper: 17
+random_paper: 124
 rate_limits:
 - limit_count: 2
   name: Amc Entertainment Holdings Rate Limits
@@ -258,7 +309,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/screenshots/amc-entertainment-holdings-2026-06-20T171856.png
 security:

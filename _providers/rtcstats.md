@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -32,7 +32,14 @@ apis:
 - description: The rtcStats API API from rtcStats — 8 operation(s) for rtcstats api.
   name: rtcStats rtcStats API API
   slug: rtcstats-rtcstats-api-api
-artifact_total: 7
+artifact_total: 9
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: rtcStats rtcStats API API
+  slug: open-rtcstats-rtcstats-api-api
 common:
 - group: commercial
   title: ''
@@ -186,7 +193,7 @@ plans:
 - name: Rtcstats Plans
   plan_count: 3
   slug: rtcstats-plans
-random_paper: 48
+random_paper: 143
 rate_limits:
 - limit_count: 3
   name: Rtcstats Rate Limits
@@ -214,7 +221,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

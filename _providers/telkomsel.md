@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -63,7 +63,35 @@ apis:
 - description: USSD broadcast messaging and delivery status.
   name: Telkomsel USSD API
   slug: telkomsel-ussd-api
-artifact_total: 14
+artifact_total: 23
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Telkomsel DigiHub APIs Consent Management API
+  slug: open-telkomsel-consent-management-api
+- collection_type: open
+  name: Telkomsel DigiHub APIs Consent Management Identity Verification API
+  slug: open-telkomsel-identity-verification-api
+- collection_type: open
+  name: Telkomsel DigiHub APIs Consent Management Location API
+  slug: open-telkomsel-location-api
+- collection_type: open
+  name: Telkomsel DigiHub APIs Consent Management Scoring and Insights API
+  slug: open-telkomsel-scoring-and-insights-api
+- collection_type: open
+  name: Telkomsel DigiHub APIs Consent Management SIM Swap API
+  slug: open-telkomsel-sim-swap-api
+- collection_type: open
+  name: Telkomsel DigiHub APIs Consent Management SMS API
+  slug: open-telkomsel-sms-api
+- collection_type: open
+  name: Telkomsel DigiHub APIs Consent Management Subscriber Check API
+  slug: open-telkomsel-subscriber-check-api
+- collection_type: open
+  name: Telkomsel DigiHub APIs Consent Management USSD API
+  slug: open-telkomsel-ussd-api
 common:
 - group: agent
   title: ''
@@ -129,7 +157,7 @@ plans:
 - name: Telkomsel Plans Pricing
   plan_count: 4
   slug: telkomsel-plans-pricing
-random_paper: 16
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Telkomsel Rate Limits
@@ -160,7 +188,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ overview: 'La Solive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   La Solive''s developer surface includes engineering blog, support, YouTube channel, and 10 more developer resources.'
-random_paper: 68
+random_paper: 14
 score:
   band: minimal
   composite: 12.4
@@ -116,7 +116,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-solive/refs/heads/main/screenshots/la-solive-2026-07-25T224411.png
 security:

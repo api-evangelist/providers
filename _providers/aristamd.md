@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -64,7 +64,47 @@ apis:
 - description: The Workup Checklists API from AristaMD — 3 operation(s) for workup checklists.
   name: AristaMD Workup Checklists API
   slug: aristamd-workup-checklists-api
-artifact_total: 18
+artifact_total: 31
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Arista MD Comments API
+  slug: open-aristamd-comments-api
+- collection_type: open
+  name: Arista MD Diagnostic API
+  slug: open-aristamd-diagnostic-api
+- collection_type: open
+  name: Arista MD E Consults API
+  slug: open-aristamd-econsults-api
+- collection_type: open
+  name: Arista MD Intergy/Patients API
+  slug: open-aristamd-intergy-patients-api
+- collection_type: open
+  name: Arista MD API
+  slug: open-aristamd-openapi-original
+- collection_type: open
+  name: Arista MD Panelists API
+  slug: open-aristamd-panelists-api
+- collection_type: open
+  name: Arista MD Patients API
+  slug: open-aristamd-patients-api
+- collection_type: open
+  name: Arista MD Requests API
+  slug: open-aristamd-requests-api
+- collection_type: open
+  name: Arista MD Specialties API
+  slug: open-aristamd-specialties-api
+- collection_type: open
+  name: Arista MD Specialty API
+  slug: open-aristamd-specialty-api
+- collection_type: open
+  name: Arista MD Users API
+  slug: open-aristamd-users-api
+- collection_type: open
+  name: Arista MD Workup Checklists API
+  slug: open-aristamd-workup-checklists-api
 common:
 - group: agent
   title: ''
@@ -182,7 +222,7 @@ overview: 'AristaMD publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   AristaMD''s developer surface includes signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 13
+random_paper: 108
 score:
   band: thin
   composite: 37.9
@@ -212,7 +252,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/screenshots/aristamd-2026-08-07T161715.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,7 +74,32 @@ apis:
 - description: Vehicle search and list endpoints
   name: US Department of Transportation vehicles API
   slug: dot-vehicles-api
-artifact_total: 89
+artifact_total: 97
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: NHTSA childSeats API
+  slug: open-dot-childseats-api
+- collection_type: open
+  name: NHTSA childSeats equipment API
+  slug: open-dot-equipment-api
+- collection_type: open
+  name: NHTSA childSeats ewr API
+  slug: open-dot-ewr-api
+- collection_type: open
+  name: NHTSA childSeats foreignCampaigns API
+  slug: open-dot-foreigncampaigns-api
+- collection_type: open
+  name: NHTSA childSeats safetyIssues API
+  slug: open-dot-safetyissues-api
+- collection_type: open
+  name: NHTSA childSeats tires API
+  slug: open-dot-tires-api
+- collection_type: open
+  name: NHTSA childSeats vehicles API
+  slug: open-dot-vehicles-api
 common:
 - group: agent
   title: ''
@@ -365,7 +390,7 @@ plans:
 - name: Dot Plans Pricing
   plan_count: 1
   slug: dot-plans-pricing
-random_paper: 87
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Dot Rate Limits
@@ -405,7 +430,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dot/refs/heads/main/screenshots/dot-2026-06-20T180157.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 64
 apis:
 - description: The Carrier Mapped Field API from Noyo — 1 operation(s) for carrier mapped field.
@@ -223,11 +223,207 @@ apis:
 - description: The Volleys API from Noyo — 5 operation(s) for volleys.
   name: Noyo Volleys API
   slug: noyo-volleys-api
-artifact_total: 68
+artifact_total: 133
 asyncapis:
 - description: ''
   name: Noyo Webhooks
   slug: noyo-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field API
+  slug: open-noyo-carrier-mapped-field-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Carrier Sync API
+  slug: open-noyo-carrier-sync-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Carriers API
+  slug: open-noyo-carriers-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Cases API
+  slug: open-noyo-cases-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Condition API
+  slug: open-noyo-condition-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Connection Eligibility API
+  slug: open-noyo-connection-eligibility-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Dependent API
+  slug: open-noyo-dependent-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Differences API
+  slug: open-noyo-differences-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Discrepancies API
+  slug: open-noyo-discrepancies-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Eligibility Rules API
+  slug: open-noyo-eligibility-rules-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Employee API
+  slug: open-noyo-employee-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Export API
+  slug: open-noyo-export-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Feed API
+  slug: open-noyo-feed-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Feed Run API
+  slug: open-noyo-feed-run-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Feed Runs API
+  slug: open-noyo-feed-runs-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Feeds API
+  slug: open-noyo-feeds-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Group-Carrier Mapping Info API
+  slug: open-noyo-group-carrier-mapping-info-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Group Collection API
+  slug: open-noyo-group-collection-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Group Configuration API
+  slug: open-noyo-group-configuration-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Group Connections API
+  slug: open-noyo-group-connections-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Group Coverage Export API
+  slug: open-noyo-group-coverage-export-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Group Disconnections API
+  slug: open-noyo-group-disconnections-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Group Mapping API
+  slug: open-noyo-group-mapping-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Group Plans & Enrollment API
+  slug: open-noyo-group-plans-enrollment-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field GroupDisconnectionBulkRequest API
+  slug: open-noyo-groupdisconnectionbulkrequest-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Groups API
+  slug: open-noyo-groups-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Individual Enrollments API
+  slug: open-noyo-individual-enrollments-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Issue Persons API
+  slug: open-noyo-issue-persons-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Issues API
+  slug: open-noyo-issues-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Label API
+  slug: open-noyo-label-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Lookup API
+  slug: open-noyo-lookup-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Mapping Operand API
+  slug: open-noyo-mapping-operand-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Premiums API
+  slug: open-noyo-member-premiums-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Requests API
+  slug: open-noyo-member-requests-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Snapshot API
+  slug: open-noyo-member-snapshot-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Snapshot Test Population API
+  slug: open-noyo-member-snapshot-test-population-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Snapshot Test Population Employee API
+  slug: open-noyo-member-snapshot-test-population-employee-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Snapshot Test Report API
+  slug: open-noyo-member-snapshot-test-report-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Snapshot Test Result API
+  slug: open-noyo-member-snapshot-test-result-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Snapshot Test Results API
+  slug: open-noyo-member-snapshot-test-results-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Transaction Labels API
+  slug: open-noyo-member-transaction-labels-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Member Transactions API
+  slug: open-noyo-member-transactions-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Partner Document Sources API
+  slug: open-noyo-partner-document-sources-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Partner Documents API
+  slug: open-noyo-partner-documents-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Person API
+  slug: open-noyo-person-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Ping API
+  slug: open-noyo-ping-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Plan Mapping Rule API
+  slug: open-noyo-plan-mapping-rule-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Plan Rates API
+  slug: open-noyo-plan-rates-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Platform Account Structure API
+  slug: open-noyo-platform-account-structure-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Platform Group Structure API
+  slug: open-noyo-platform-group-structure-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Protected Groups API
+  slug: open-noyo-protected-groups-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Reconcilation Issues API
+  slug: open-noyo-reconcilation-issues-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Reconciliation Issues API
+  slug: open-noyo-reconciliation-issues-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Renewal Decisions API
+  slug: open-noyo-renewal-decisions-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field RSP (RSP Response) API
+  slug: open-noyo-rsp-rsp-response-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Rule API
+  slug: open-noyo-rule-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Rule Set API
+  slug: open-noyo-rule-set-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Status Detail API
+  slug: open-noyo-status-detail-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Ui API
+  slug: open-noyo-ui-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Ui Group Connections API
+  slug: open-noyo-ui-group-connections-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Volley Definitions API
+  slug: open-noyo-volley-definitions-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Volley Setting API
+  slug: open-noyo-volley-setting-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Volley Steps API
+  slug: open-noyo-volley-steps-api
+- collection_type: open
+  name: Noyo Carrier Carrier Mapped Field Volleys API
+  slug: open-noyo-volleys-api
 common:
 - group: other
   title: ''
@@ -340,7 +536,7 @@ overview: 'Noyo publishes 64 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Noyo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 17 more developer resources.'
-random_paper: 93
+random_paper: 6
 score:
   band: developing
   composite: 43.9
@@ -369,7 +565,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/screenshots/noyo-2026-08-07T185645.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 6
@@ -46,7 +46,29 @@ apis:
 - description: Sets of one or more speakers that always share playback state (solo or stereo).
   name: Devialet Systems API
   slug: devialet-systems-api
-artifact_total: 10
+artifact_total: 17
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Devialet IP Control Audio Settings API
+  slug: open-devialet-audio-settings-api
+- collection_type: open
+  name: Devialet IP Control Devices API
+  slug: open-devialet-devices-api
+- collection_type: open
+  name: Devialet IP Control Groups API
+  slug: open-devialet-groups-api
+- collection_type: open
+  name: Devialet IP Control Playback API
+  slug: open-devialet-playback-api
+- collection_type: open
+  name: Devialet IP Control Sound Control API
+  slug: open-devialet-sound-control-api
+- collection_type: open
+  name: Devialet IP Control Systems API
+  slug: open-devialet-systems-api
 common:
 - group: agent
   title: ''
@@ -168,7 +190,7 @@ overview: 'Devialet publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Devialet''s developer surface includes documentation, API reference, support, authentication, changelog, code examples, and 20 more developer resources.'
-random_paper: 6
+random_paper: 101
 score:
   band: thin
   composite: 28.3
@@ -192,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/screenshots/devialet-2026-08-07T164327.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -49,7 +49,17 @@ apis:
 - description: Manage recurring payment tokens for subscription billing.
   name: Paidy Tokens API
   slug: paidy-tokens-api
-artifact_total: 19
+artifact_total: 22
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Paidy Payments API
+  slug: open-paidy-payments-api
+- collection_type: open
+  name: Paidy Payments Tokens API
+  slug: open-paidy-tokens-api
 common:
 - group: agent
   title: ''
@@ -149,7 +159,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 55
+random_paper: 88
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -189,7 +199,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/screenshots/paidy-2026-06-20T191326.png
 security:

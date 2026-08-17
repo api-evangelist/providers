@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,11 +62,38 @@ apis:
 - description: Edit / restyle an existing video (Aleph).
   name: Runway Video-to-Video API
   slug: runwayml-video-to-video-api
-artifact_total: 17
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
 - collection_type: open
   name: Runway ML API
   slug: open-runway-ml
+- collection_type: open
+  name: Runway Character Performance API
+  slug: open-runwayml-character-performance-api
+- collection_type: open
+  name: Runway Character Performance Image-to-Video API
+  slug: open-runwayml-image-to-video-api
+- collection_type: open
+  name: Runway Character Performance Organization API
+  slug: open-runwayml-organization-api
+- collection_type: open
+  name: Runway Character Performance Tasks API
+  slug: open-runwayml-tasks-api
+- collection_type: open
+  name: Runway Character Performance Text-to-Image API
+  slug: open-runwayml-text-to-image-api
+- collection_type: open
+  name: Runway Character Performance Text-to-Speech API
+  slug: open-runwayml-text-to-speech-api
+- collection_type: open
+  name: Runway Character Performance Upscale API
+  slug: open-runwayml-upscale-api
+- collection_type: open
+  name: Runway Character Performance Video-to-Video API
+  slug: open-runwayml-video-to-video-api
 - collection_type: open
   name: Runway API
   slug: open-runwayml
@@ -163,7 +190,7 @@ plans:
 - name: Runwayml Plans Pricing
   plan_count: 2
   slug: runwayml-plans-pricing
-random_paper: 55
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Runwayml Rate Limits
@@ -188,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/screenshots/runwayml-2026-06-20T193258.png
 security:

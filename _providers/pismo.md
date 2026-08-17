@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -63,8 +63,35 @@ apis:
 - description: Posted transactions and transaction shifts.
   name: Pismo Transactions API
   slug: pismo-transactions-api
-artifact_total: 17
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pismo Accounts API
+  slug: open-pismo-accounts-api
+- collection_type: open
+  name: Pismo Accounts Authorizations API
+  slug: open-pismo-authorizations-api
+- collection_type: open
+  name: Pismo Accounts Cards API
+  slug: open-pismo-cards-api
+- collection_type: open
+  name: Pismo Accounts Customers API
+  slug: open-pismo-customers-api
+- collection_type: open
+  name: Pismo Accounts Events API
+  slug: open-pismo-events-api
+- collection_type: open
+  name: Pismo Accounts Programs API
+  slug: open-pismo-programs-api
+- collection_type: open
+  name: Pismo Accounts Statements API
+  slug: open-pismo-statements-api
+- collection_type: open
+  name: Pismo Accounts Transactions API
+  slug: open-pismo-transactions-api
 - collection_type: open
   name: Pismo API
   slug: open-pismo
@@ -137,7 +164,7 @@ plans:
 - name: Pismo Plans Pricing
   plan_count: 1
   slug: pismo-plans-pricing
-random_paper: 72
+random_paper: 105
 rate_limits:
 - limit_count: 4
   name: Pismo Rate Limits
@@ -173,7 +200,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

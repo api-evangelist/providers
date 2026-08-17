@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ apis:
 - description: Intraday, daily, weekly, and monthly stock price and volume data
   name: Alpha Vantage Stock Time Series API
   slug: alpha-vantage-stock-time-series-api
-artifact_total: 39
+artifact_total: 42
 collections:
 - collection_type: postman
   name: Alpha Vantage API
@@ -51,6 +51,15 @@ collections:
 - collection_type: postman
   name: Alpha Vantage Stock Time Series API
   slug: postman-alpha-vantage-stock-time-series-api
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Alpha Vantage API
+  slug: open-alpha-vantage-plugin
+- collection_type: open
+  name: Alpha Vantage Stock Time Series API
+  slug: open-alpha-vantage-stock-time-series-api
 - collection_type: open
   name: Alpha Vantage API
   slug: open-alpha-vantage
@@ -306,7 +315,7 @@ plans:
 - name: Alpha Vantage Plans Pricing
   plan_count: 7
   slug: alpha-vantage-plans-pricing
-random_paper: 105
+random_paper: 113
 rate_limits:
 - limit_count: 7
   name: Alpha Vantage Rate Limits
@@ -362,7 +371,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png
 security:

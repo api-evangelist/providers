@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 7
 apis:
 - description: The comments API from Splitwise — 3 operation(s) for comments.
@@ -52,7 +52,32 @@ apis:
 - description: Resources to access and modify user information.
   name: Splitwise users API
   slug: splitwise-users-api
-artifact_total: 12
+artifact_total: 20
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Splitwise comments API
+  slug: open-splitwise-comments-api
+- collection_type: open
+  name: Splitwise comments expenses API
+  slug: open-splitwise-expenses-api
+- collection_type: open
+  name: Splitwise comments friends API
+  slug: open-splitwise-friends-api
+- collection_type: open
+  name: Splitwise comments groups API
+  slug: open-splitwise-groups-api
+- collection_type: open
+  name: Splitwise comments notifications API
+  slug: open-splitwise-notifications-api
+- collection_type: open
+  name: Splitwise comments other API
+  slug: open-splitwise-other-api
+- collection_type: open
+  name: Splitwise comments users API
+  slug: open-splitwise-users-api
 common:
 - group: other
   title: ''
@@ -174,7 +199,7 @@ overview: 'Splitwise publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Splitwise''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 21 more developer resources.'
-random_paper: 36
+random_paper: 102
 scopes:
 - name: Splitwise Scopes
   scope_count: 0
@@ -208,7 +233,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

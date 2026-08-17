@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 14
 apis:
 - description: The Aspects API from Diaspora — 2 operation(s) for aspects.
@@ -73,7 +73,53 @@ apis:
 - description: The Users API from Diaspora — 5 operation(s) for users.
   name: Diaspora Users API
   slug: diaspora-users-api
-artifact_total: 19
+artifact_total: 34
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: diaspora* Aspects API
+  slug: open-diaspora-aspects-api
+- collection_type: open
+  name: diaspora* Aspects Comments API
+  slug: open-diaspora-comments-api
+- collection_type: open
+  name: diaspora* Aspects Contacts API
+  slug: open-diaspora-contacts-api
+- collection_type: open
+  name: diaspora* Aspects Conversations API
+  slug: open-diaspora-conversations-api
+- collection_type: open
+  name: diaspora* Aspects Likes API
+  slug: open-diaspora-likes-api
+- collection_type: open
+  name: diaspora* Aspects Notifications API
+  slug: open-diaspora-notifications-api
+- collection_type: open
+  name: diaspora* Aspects Photos API
+  slug: open-diaspora-photos-api
+- collection_type: open
+  name: diaspora* Aspects Post interactions API
+  slug: open-diaspora-post-interactions-api
+- collection_type: open
+  name: diaspora* Aspects Posts API
+  slug: open-diaspora-posts-api
+- collection_type: open
+  name: diaspora* Aspects Reshares API
+  slug: open-diaspora-reshares-api
+- collection_type: open
+  name: diaspora* Aspects Search API
+  slug: open-diaspora-search-api
+- collection_type: open
+  name: diaspora* Aspects Streams API
+  slug: open-diaspora-streams-api
+- collection_type: open
+  name: diaspora* Aspects Tag followings API
+  slug: open-diaspora-tag-followings-api
+- collection_type: open
+  name: diaspora* Aspects Users API
+  slug: open-diaspora-users-api
 common:
 - group: operate
   title: ''
@@ -231,7 +277,7 @@ overview: 'Diaspora publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Diaspora''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 11
+random_paper: 106
 scopes:
 - name: Diaspora Scopes
   scope_count: 0
@@ -259,7 +305,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/screenshots/diaspora-2026-07-25T211929.png
 security:

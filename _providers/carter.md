@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The Carter's API provides access to platform services and data for enterprise integration and automation.
@@ -61,7 +61,7 @@ plans:
 - name: Carter Plans Pricing
   plan_count: 1
   slug: carter-plans-pricing
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Carter Rate Limits
@@ -79,7 +79,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carter/refs/heads/main/screenshots/carter-2026-06-20T174021.png
 security:

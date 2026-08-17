@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -105,8 +105,29 @@ apis:
 - description: The Users API from Authsignal — 2 operation(s) for users.
   name: Authsignal Users API
   slug: authsignal-users-api
-artifact_total: 29
+artifact_total: 36
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Authsignal Server Actions API
+  slug: open-authsignal-actions-api
+- collection_type: open
+  name: Authsignal Server Actions Authenticators API
+  slug: open-authsignal-authenticators-api
+- collection_type: open
+  name: Authsignal Server Actions Challenges API
+  slug: open-authsignal-challenges-api
+- collection_type: open
+  name: Authsignal Server Actions Devices API
+  slug: open-authsignal-devices-api
+- collection_type: open
+  name: Authsignal Server Actions Sessions API
+  slug: open-authsignal-sessions-api
+- collection_type: open
+  name: Authsignal Server Actions Users API
+  slug: open-authsignal-users-api
 - collection_type: open
   name: Authsignal Server API
   slug: open-authsignal
@@ -187,7 +208,7 @@ plans:
 - name: Authsignal Plans Pricing
   plan_count: 1
   slug: authsignal-plans-pricing
-random_paper: 112
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Authsignal Rate Limits
@@ -212,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/screenshots/authsignal-2026-06-20T172610.png
 security:

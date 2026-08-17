@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -40,7 +40,11 @@ apis:
 - description: Rotessa API from Rotessa — 9 path(s) described in OpenAPI.
   name: Rotessa API
   slug: rotessa-openapi
-artifact_total: 8
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Rotessa API
+  slug: open-rotessa
 common:
 - group: agent
   title: ''
@@ -183,7 +187,7 @@ overview: 'Rotessa publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Rotessa''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 49
+random_paper: 24
 score:
   band: developing
   composite: 44.0
@@ -213,7 +217,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

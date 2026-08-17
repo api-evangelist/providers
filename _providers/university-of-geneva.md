@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 0
@@ -53,7 +53,20 @@ apis:
 - description: OAI-PMH provider information and metadata formats.
   name: University of Geneva OAI-PMH API
   slug: university-of-geneva-oai-pmh-api
-artifact_total: 24
+artifact_total: 28
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Yareta Research Data Access API
+  slug: open-university-of-geneva-access-api
+- collection_type: open
+  name: Yareta Research Data Access Ingest API
+  slug: open-university-of-geneva-ingest-api
+- collection_type: open
+  name: Yareta Research Data Access OAI-PMH API
+  slug: open-university-of-geneva-oai-pmh-api
 common:
 - group: agent
   title: ''
@@ -163,7 +176,7 @@ plans:
 - name: University Of Geneva Plans Pricing
   plan_count: 2
   slug: university-of-geneva-plans-pricing
-random_paper: 15
+random_paper: 118
 rate_limits:
 - limit_count: 1
   name: University Of Geneva Rate Limits
@@ -205,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png
 security:

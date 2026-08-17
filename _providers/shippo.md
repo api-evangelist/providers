@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -66,12 +66,42 @@ apis:
 - description: Manage webhook subscriptions
   name: Shippo Webhooks API
   slug: shippo-webhooks-api
-artifact_total: 68
+artifact_total: 78
 asyncapis:
 - description: AsyncAPI 2.6 description of the Shippo Webhooks surface. Shippo delivers webhook events over HTTPS as POST requests to a subscriber-registered URL. Each delivery carries a JSON body with an envelope o
   name: Shippo Webhooks
   slug: shippo-webhooks-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Shippo Addresses API
+  slug: open-shippo-addresses-api
+- collection_type: open
+  name: Shippo Addresses Carrier Accounts API
+  slug: open-shippo-carrier-accounts-api
+- collection_type: open
+  name: Shippo Addresses Parcels API
+  slug: open-shippo-parcels-api
+- collection_type: open
+  name: Shippo Addresses Rates API
+  slug: open-shippo-rates-api
+- collection_type: open
+  name: Shippo Addresses Refunds API
+  slug: open-shippo-refunds-api
+- collection_type: open
+  name: Shippo Addresses Shipments API
+  slug: open-shippo-shipments-api
+- collection_type: open
+  name: Shippo Addresses Tracking API
+  slug: open-shippo-tracking-api
+- collection_type: open
+  name: Shippo Addresses Transactions API
+  slug: open-shippo-transactions-api
+- collection_type: open
+  name: Shippo Addresses Webhooks API
+  slug: open-shippo-webhooks-api
 - collection_type: open
   name: Shippo API
   slug: open-shippo
@@ -272,7 +302,7 @@ plans:
 - name: Shippo Plans Pricing
   plan_count: 2
   slug: shippo-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Shippo Rate Limits
@@ -322,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/screenshots/shippo-2026-06-20T193822.png
 security:

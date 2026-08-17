@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - description: Workspace management operations
   name: Todoist Workspaces API
   slug: todoist-workspaces-api
-artifact_total: 40
+artifact_total: 50
 collections:
 - collection_type: postman
   name: Todoist Comments API
@@ -102,8 +102,38 @@ collections:
   name: Todoist Comments Workspaces API
   slug: postman-todoist-workspaces-api
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Todoist Webhooks
   slug: open-todoist-asyncapi
+- collection_type: open
+  name: Todoist Comments API
+  slug: open-todoist-comments-api
+- collection_type: open
+  name: Todoist Comments Labels API
+  slug: open-todoist-labels-api
+- collection_type: open
+  name: Todoist Comments Projects API
+  slug: open-todoist-projects-api
+- collection_type: open
+  name: Todoist Comments Reminders API
+  slug: open-todoist-reminders-api
+- collection_type: open
+  name: Todoist Comments Sections API
+  slug: open-todoist-sections-api
+- collection_type: open
+  name: Todoist Comments Sync API
+  slug: open-todoist-sync-api
+- collection_type: open
+  name: Todoist Comments Tasks API
+  slug: open-todoist-tasks-api
+- collection_type: open
+  name: Todoist Comments User API
+  slug: open-todoist-user-api
+- collection_type: open
+  name: Todoist Comments Workspaces API
+  slug: open-todoist-workspaces-api
 - collection_type: open
   name: Todoist API
   slug: open-todoist
@@ -253,7 +283,7 @@ plans:
 - name: Todoist Plans Pricing
   plan_count: 3
   slug: todoist-plans-pricing
-random_paper: 54
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Todoist Rate Limits
@@ -295,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/screenshots/todoist-2026-06-20T195429.png
 security:

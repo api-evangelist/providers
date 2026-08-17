@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 api_count: 1
 apis:
 - description: The header-bidding demand endpoint operated by Ad2iction, TNL Mediagene's ad-technology subsidiary (acquired by TNL Media Group in 2020). Publishers reach it through the `ad2iction` bidder adapter shi
@@ -112,7 +112,7 @@ plans:
 - name: Tnlmedia Plans Pricing
   plan_count: 0
   slug: tnlmedia-plans-pricing
-random_paper: 6
+random_paper: 101
 rate_limits:
 - limit_count: 0
   name: Tnlmedia Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.7
-  delta: 6.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -128,10 +128,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 9.2
+  previous_composite: 15.7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
-  trend: rising
+  scored_at: '2026-08-17'
+  trend: flat
 security:
 - kind: domain-security
   name: Tnlmedia Domain Security

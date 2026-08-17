@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,8 +51,23 @@ apis:
 - description: Webhook subscription management (deprecated)
   name: GunTab Webhooks API
   slug: guntab-webhooks-api
-artifact_total: 11
+artifact_total: 16
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: GunTab REST FFLs API
+  slug: open-guntab-ffls-api
+- collection_type: open
+  name: GunTab REST FFLs Invoices API
+  slug: open-guntab-invoices-api
+- collection_type: open
+  name: GunTab REST FFLs Users API
+  slug: open-guntab-users-api
+- collection_type: open
+  name: GunTab REST FFLs Webhooks API
+  slug: open-guntab-webhooks-api
 - collection_type: open
   name: GunTab REST API
   slug: open-guntab
@@ -101,7 +116,7 @@ plans:
 - name: Guntab Plans Pricing
   plan_count: 3
   slug: guntab-plans-pricing
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Guntab Rate Limits
@@ -132,7 +147,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/screenshots/guntab-2026-06-20T182437.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -66,11 +66,42 @@ apis:
 - description: The webhook API from Harver — 1 operation(s) for webhook.
   name: Harver webhook API
   slug: harver-webhook-api
-artifact_total: 15
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Harver Webhooks
   slug: harver-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Harver Public accounts API
+  slug: open-harver-accounts-api
+- collection_type: open
+  name: Harver Public accounts applications API
+  slug: open-harver-applications-api
+- collection_type: open
+  name: Harver Public accounts candidate-statuses API
+  slug: open-harver-candidate-statuses-api
+- collection_type: open
+  name: Harver Public accounts candidateApplications API
+  slug: open-harver-candidateapplications-api
+- collection_type: open
+  name: Harver Public accounts oauth API
+  slug: open-harver-oauth-api
+- collection_type: open
+  name: Harver Public accounts scheduling API
+  slug: open-harver-scheduling-api
+- collection_type: open
+  name: Harver Public accounts user-profile API
+  slug: open-harver-user-profile-api
+- collection_type: open
+  name: Harver Public accounts vacancies API
+  slug: open-harver-vacancies-api
+- collection_type: open
+  name: Harver Public accounts webhook API
+  slug: open-harver-webhook-api
 common:
 - group: company
   title: ''
@@ -195,7 +226,7 @@ overview: 'Harver publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Harver''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 48
+random_paper: 52
 score:
   band: thin
   composite: 41.9
@@ -219,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/screenshots/harver-2026-07-25T220747.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -66,7 +66,35 @@ apis:
 - description: Utility endpoints
   name: Verdaccio utility API
   slug: verdaccio-utility-api
-artifact_total: 23
+artifact_total: 32
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Verdaccio npm Registry dist-tags API
+  slug: open-verdaccio-dist-tags-api
+- collection_type: open
+  name: Verdaccio npm Registry dist-tags packages API
+  slug: open-verdaccio-packages-api
+- collection_type: open
+  name: Verdaccio npm Registry dist-tags profile API
+  slug: open-verdaccio-profile-api
+- collection_type: open
+  name: Verdaccio npm Registry dist-tags publish API
+  slug: open-verdaccio-publish-api
+- collection_type: open
+  name: Verdaccio npm Registry dist-tags search API
+  slug: open-verdaccio-search-api
+- collection_type: open
+  name: Verdaccio npm Registry dist-tags tokens API
+  slug: open-verdaccio-tokens-api
+- collection_type: open
+  name: Verdaccio npm Registry dist-tags user API
+  slug: open-verdaccio-user-api
+- collection_type: open
+  name: Verdaccio npm Registry dist-tags utility API
+  slug: open-verdaccio-utility-api
 common:
 - group: commercial
   title: ''
@@ -179,7 +207,7 @@ plans:
 - name: Verdaccio Plans Pricing
   plan_count: 2
   slug: verdaccio-plans-pricing
-random_paper: 104
+random_paper: 50
 rules:
 - name: Verdaccio API Rules
   rule_count: 5
@@ -209,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/screenshots/verdaccio-2026-06-20T200918.png
 security:

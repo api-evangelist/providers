@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,12 +54,30 @@ apis:
 - description: Model catalog discovery.
   name: Nscale Models API
   slug: nscale-models-api
-artifact_total: 14
+artifact_total: 20
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Nscale''s **chat completion streaming** surface. Nscale does not publish a WebSocket API. The only asynchronous / event-style transport documented for the OpenAI-compatible '
   name: Nscale Chat Completions Streaming (HTTP + SSE)
   slug: nscale-asyncapi
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Nscale Serverless Inference Chat API
+  slug: open-nscale-chat-api
+- collection_type: open
+  name: Nscale Serverless Inference Chat Completions API
+  slug: open-nscale-completions-api
+- collection_type: open
+  name: Nscale Serverless Inference Chat Embeddings API
+  slug: open-nscale-embeddings-api
+- collection_type: open
+  name: Nscale Serverless Inference Chat Images API
+  slug: open-nscale-images-api
+- collection_type: open
+  name: Nscale Serverless Inference Chat Models API
+  slug: open-nscale-models-api
 - collection_type: open
   name: Nscale Serverless Inference API
   slug: open-nscale
@@ -127,7 +145,7 @@ plans:
 - name: Nscale Plans Pricing
   plan_count: 3
   slug: nscale-plans-pricing
-random_paper: 30
+random_paper: 34
 rate_limits:
 - limit_count: 4
   name: Nscale Rate Limits
@@ -161,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/screenshots/nscale-2026-08-07T185704.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -69,8 +69,29 @@ apis:
 - description: The Policies API from Bitwarden — 3 operation(s) for policies.
   name: Bitwarden Policies API
   slug: bitwarden-policies-api
-artifact_total: 19
+artifact_total: 26
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Bitwarden Public Collections API
+  slug: open-bitwarden-collections-api
+- collection_type: open
+  name: Bitwarden Public Collections Events API
+  slug: open-bitwarden-events-api
+- collection_type: open
+  name: Bitwarden Public Collections Groups API
+  slug: open-bitwarden-groups-api
+- collection_type: open
+  name: Bitwarden Public Collections Members API
+  slug: open-bitwarden-members-api
+- collection_type: open
+  name: Bitwarden Public Collections Organization API
+  slug: open-bitwarden-organization-api
+- collection_type: open
+  name: Bitwarden Public Collections Policies API
+  slug: open-bitwarden-policies-api
 - collection_type: open
   name: Bitwarden Public API
   slug: open-bitwarden-public-swagger
@@ -151,7 +172,7 @@ plans:
 - name: Bitwarden Plans Pricing
   plan_count: 6
   slug: bitwarden-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Bitwarden Rate Limits
@@ -181,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/screenshots/bitwarden-2026-06-20T173325.png
 security:

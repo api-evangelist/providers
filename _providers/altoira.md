@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ apis:
 - description: 'These actions are performed within the context of a specific user (uses OAuth2 with an `Authorization: Bearer` header)'
   name: AltoIRA User API
   slug: altoira-user-api
-artifact_total: 13
+artifact_total: 19
 asyncapis:
 - description: Alto pushes investment-lifecycle events to a Platform Partner's registered webhook endpoint so the partner can track an investor's progress through the Direction of Investment (DOI), funding and any p
   name: Alto Investment Status Webhooks
@@ -52,6 +52,25 @@ asyncapis:
 - description: ''
   name: Altoira Investments Webhooks
   slug: altoira-investments-webhooks
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: AltoIRA.com Handoffs API
+  slug: open-altoira-handoffs-api
+- collection_type: open
+  name: AltoIRA.com Investment API
+  slug: open-altoira-investment-api
+- collection_type: open
+  name: AltoIRA.com OAUTH API
+  slug: open-altoira-oauth-api
+- collection_type: open
+  name: AltoIRA.com Offering API
+  slug: open-altoira-offering-api
+- collection_type: open
+  name: AltoIRA.com User API
+  slug: open-altoira-user-api
 common:
 - group: company
   title: ''
@@ -208,7 +227,7 @@ overview: 'AltoIRA publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   AltoIRA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 28
+random_paper: 3
 scopes:
 - name: Altoira Scopes
   scope_count: 0
@@ -237,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/screenshots/altoira-2026-08-07T161253.png
 security:

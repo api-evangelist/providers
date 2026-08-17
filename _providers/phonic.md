@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -69,11 +69,45 @@ apis:
 - description: The workspace API from Phonic — 1 operation(s) for workspace.
   name: Phonic workspace API
   slug: phonic-workspace-api
-artifact_total: 16
+artifact_total: 27
 asyncapis:
 - description: ''
   name: API Reference
   slug: phonic-sts-asyncapi-original
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: API Reference agents API
+  slug: open-phonic-agents-api
+- collection_type: open
+  name: API Reference agents apiKeys API
+  slug: open-phonic-apikeys-api
+- collection_type: open
+  name: API Reference agents auth API
+  slug: open-phonic-auth-api
+- collection_type: open
+  name: API Reference agents conversationItems API
+  slug: open-phonic-conversationitems-api
+- collection_type: open
+  name: API Reference agents conversations API
+  slug: open-phonic-conversations-api
+- collection_type: open
+  name: API Reference agents extractionSchemas API
+  slug: open-phonic-extractionschemas-api
+- collection_type: open
+  name: API Reference agents projects API
+  slug: open-phonic-projects-api
+- collection_type: open
+  name: API Reference agents tools API
+  slug: open-phonic-tools-api
+- collection_type: open
+  name: API Reference agents voices API
+  slug: open-phonic-voices-api
+- collection_type: open
+  name: API Reference agents workspace API
+  slug: open-phonic-workspace-api
 common:
 - group: other
   title: ''
@@ -190,7 +224,7 @@ overview: 'Phonic publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Phonic''s developer surface includes authentication, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 41
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Phonic Rate Limits
@@ -218,7 +252,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 security:
 - kind: authentication

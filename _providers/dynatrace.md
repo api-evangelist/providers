@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ arazzos:
 - description: Resolve a service by name, read its details, and list problems impacting it.
   name: Dynatrace Find Problems Affecting a Named Service
   slug: dynatrace-service-problem-lookup-workflow
-artifact_total: 519
+artifact_total: 529
 asyncapis:
 - description: Dynatrace delivers problem lifecycle notifications to client-provided webhook endpoints via HTTP POST. When a problem is opened, updated, merged, or resolved, Dynatrace sends a notification payload to
   name: Dynatrace Problem Notifications API
@@ -212,23 +212,53 @@ collections:
   name: Dynatrace Problems API v2
   slug: postman-dynatrace-problems-api-v2
 - collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
   name: Dynatrace Account Management API
   slug: open-dynatrace-account-management-api
 - collection_type: open
   name: Dynatrace Entities API v2
   slug: open-dynatrace-entities-api-v2
 - collection_type: open
+  name: Dynatrace Account Management Entities API
+  slug: open-dynatrace-entities-api
+- collection_type: open
+  name: Dynatrace Account Management Entities Environments API
+  slug: open-dynatrace-environments-api
+- collection_type: open
   name: Dynatrace Events API v2
   slug: open-dynatrace-events-api-v2
+- collection_type: open
+  name: Dynatrace Account Management Entities Events API
+  slug: open-dynatrace-events-api
+- collection_type: open
+  name: Dynatrace Account Management Entities Groups API
+  slug: open-dynatrace-groups-api
 - collection_type: open
   name: Dynatrace Log Monitoring API v2
   slug: open-dynatrace-log-monitoring-api-v2
 - collection_type: open
+  name: Dynatrace Account Management Entities Logs API
+  slug: open-dynatrace-logs-api
+- collection_type: open
   name: Dynatrace Metrics API v2
   slug: open-dynatrace-metrics-api-v2
 - collection_type: open
+  name: Dynatrace Account Management Entities Metrics API
+  slug: open-dynatrace-metrics-api
+- collection_type: open
+  name: Dynatrace Account Management Entities Permissions API
+  slug: open-dynatrace-permissions-api
+- collection_type: open
   name: Dynatrace Problems API v2
   slug: open-dynatrace-problems-api-v2
+- collection_type: open
+  name: Dynatrace Account Management Entities Problems API
+  slug: open-dynatrace-problems-api
+- collection_type: open
+  name: Dynatrace Account Management Entities Users API
+  slug: open-dynatrace-users-api
 common:
 - group: agent
   title: ''
@@ -1837,7 +1867,7 @@ plans:
 - name: Dynatrace Plans Pricing
   plan_count: 12
   slug: dynatrace-plans-pricing
-random_paper: 115
+random_paper: 61
 rate_limits:
 - limit_count: 6
   name: Dynatrace Rate Limits
@@ -1892,7 +1922,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/screenshots/dynatrace-2026-06-20T180345.png
 security:

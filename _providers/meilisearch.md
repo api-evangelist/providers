@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -63,8 +63,32 @@ apis:
 - description: The Tasks API from Meilisearch — 4 operation(s) for tasks.
   name: Meilisearch Tasks API
   slug: meilisearch-tasks-api
-artifact_total: 35
+artifact_total: 43
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Meilisearch Documents API
+  slug: open-meilisearch-documents-api
+- collection_type: open
+  name: Meilisearch Documents Health API
+  slug: open-meilisearch-health-api
+- collection_type: open
+  name: Meilisearch Documents Indexes API
+  slug: open-meilisearch-indexes-api
+- collection_type: open
+  name: Meilisearch Documents Keys API
+  slug: open-meilisearch-keys-api
+- collection_type: open
+  name: Meilisearch Documents Search API
+  slug: open-meilisearch-search-api
+- collection_type: open
+  name: Meilisearch Documents Settings API
+  slug: open-meilisearch-settings-api
+- collection_type: open
+  name: Meilisearch Documents Tasks API
+  slug: open-meilisearch-tasks-api
 - collection_type: open
   name: Meilisearch API
   slug: open-meilisearch
@@ -178,7 +202,7 @@ plans:
 - name: Meilisearch Plans Pricing
   plan_count: 4
   slug: meilisearch-plans-pricing
-random_paper: 78
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Meilisearch Rate Limits
@@ -203,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/screenshots/meilisearch-2026-06-20T185134.png
 security:

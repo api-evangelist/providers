@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,8 +83,26 @@ apis:
 - description: The Translations API from W3C — 1 operation(s) for translations.
   name: W3C Translations API
   slug: w3c-translations-api
-artifact_total: 26
+artifact_total: 32
 collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: W3C Affiliations API
+  slug: open-w3c-affiliations-api
+- collection_type: open
+  name: W3C Affiliations Ecosystems API
+  slug: open-w3c-ecosystems-api
+- collection_type: open
+  name: W3C Affiliations Groups API
+  slug: open-w3c-groups-api
+- collection_type: open
+  name: W3C Affiliations Specifications API
+  slug: open-w3c-specifications-api
+- collection_type: open
+  name: W3C Affiliations Translations API
+  slug: open-w3c-translations-api
 - collection_type: open
   name: W3C API
   slug: open-w3c
@@ -193,7 +211,7 @@ plans:
 - name: W3C Plans Pricing
   plan_count: 3
   slug: w3c-plans-pricing
-random_paper: 29
+random_paper: 120
 rate_limits:
 - limit_count: 5
   name: W3C Rate Limits
@@ -235,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-12'
+  scored_at: '2026-08-17'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/screenshots/w3c-2026-06-20T201152.png
 security:
